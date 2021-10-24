@@ -1,7 +1,7 @@
 export default {
   local_service: "Local service for {country_name}",
   local_service_message:
-    " This service is designed exclusively for users who live in <u>{country_name}</u> and sell their services and products in this country." +
+    "This service is designed exclusively for users who live in <u>{country_name}</u> and sell their services and products in this country." +
     "You are only allowed to use the local services or the international service of Selldone." +
     "To use this service, you are required to comply with the laws of <b>{country_name}</b> and the <b>European Union</b>.",
 
