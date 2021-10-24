@@ -7,11 +7,7 @@ export default {
 
   my_shops: "My Shops",
 
-  admin_view: "Admin View",
-  shop_view: "Customer View",
 
-  admin_tour_action: "Take a tour in admin",
-  shop_tour_action: "Take a tour in shop",
 
   moto: "You try, we open the doors!",
 
@@ -20,7 +16,7 @@ export default {
     title_animated_words: [
       "Entrepreneurs",
       "Artists",
-      "Independents Businesses",
+      "Independent Businesses",
       "Brands",
       "Retails",
       "Creators",
@@ -111,7 +107,7 @@ export default {
 
     options: {
       title: "Shop Configuration",
-      msg: "What features do you want in your website?",
+      msg: "What features do you want on your website?",
       ecommerce: "Ecommerce",
       pos: "Point of Sale",
       blog: "Blog & CMS",
