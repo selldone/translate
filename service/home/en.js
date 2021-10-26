@@ -73,11 +73,11 @@ export default {
   },
 
   how_it_work: {
-    title: "How it works?",
+    title: "How it works",
     msg: "No-Credit card, No-Plugin, No-Template, No-Setup, No-Host, No-Technical solution for those who want to game like a professional.",
 
     step0: {
-      title: "Build for shoppers, Loved by sellers, One step away.",
+      title: "Built for shoppers, Loved by sellers, One step away.",
       msg1: "It's your time to have a real ecommerce, gather happy customers around your business, and focus on what you really love to do.",
     },
     step1: {
@@ -120,7 +120,7 @@ export default {
     },
     shop_name: {
       title: "Business Name",
-      placeholder: "ex. Ale shoes",
+      placeholder: "ex. Alex shoes",
     },
   },
 
@@ -147,7 +147,7 @@ export default {
   countries: {
     title: "Countries",
     sub: "The world’s most easy-to-scale e-commerce platform.",
-    msg: "We adapt the traditional person-to-person trading behavior in the online space, no matter where you or your customer live, we are on the mission to deliver the best experience for you.",
+    msg: "We adapt the traditional person-to-person trading behavior in the online space, no matter where you or your customer live, we are on a mission to deliver the best experience for you.",
   },
   dna: {
     title: "DNA of Your Business",
