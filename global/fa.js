@@ -1161,7 +1161,7 @@ export default {
 
   /** {@see BasketStatus} **/
   basket_status: {
-    open: "درحال خرید",
+    open: "باز",
     reserved: "رزرو شده",
     payed: "پرداخت شده",
     canceled: "لغو شده",

@@ -2392,7 +2392,7 @@ export default {
         link: "لینک درگاه",
         your_gateway_status: "وضعیت درگاه فروشگاه",
         config_extra_info: "اطلاعات برای تنظیم درگاه",
-        oauth2_button: "اتصال به حساب {gateway} شما",
+        oauth2_button: "اتصال خودکار به {gateway}",
         fee_payment_message:
           "تمام مبلغ پرداختی توسط مشتری به حساب شما واریز میگردد. کارمزد سلدان از کیف پول شما در سلدان کم خواهد شد.",
       },
