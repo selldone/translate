@@ -14,7 +14,7 @@ export default {
       "The use of content only for non-commercial purposes and with reference to the source (link with {shop_title}). All rights reserved to {shop_title}.",
     powered_by: "Powered by",
     privacy: "Privacy policy",
-    term_of_use: "Term of use",
+    term_of_use: "Terms of use",
     shop_app_setting: "Shop setting & GDPR",
 
     dialog_setting: {
@@ -230,7 +230,7 @@ export default {
     /** {@see CustomerOrderDeliveryWidget} **/
     delivery: {
       title: "Delivery",
-      subtitle: "Receipt Order Order Specifications",
+      subtitle: "Buyer information",
       confirm_received_action: "Confirm Product Receipt",
       confirm_received_info:
         "Click the confirmation button if you received the order. If needed, you will be able to submit a referral if you receive confirmation. ",
@@ -426,7 +426,7 @@ export default {
       message:
         "Enter the card number and security code. A gift card will be added to your account.",
       card_number_input: "card number",
-      info: "Note: When shopping from the store, payment options will be displayed with gift cards. Selecting this option will reduce the amount of your recharge charge. ",
+      info: "Note: When buying from the store, you will be shown the option of paying with gift cards. By selecting this option, the amount of your recharge balance will be deducted from the order amount. ",
       add_action: "Card Registration",
     },
   },
@@ -450,8 +450,8 @@ export default {
       user_review: "User comments",
       rating: "Rating",
       rating_count: "Number of reviews",
-      info: "You can share this product comparison table with your friends by sending the following link to your friends or by accessing this list later by saving this link.",
-      copy_action: "Copy Link Comparison",
+      info: "You can share this product comparison table with your friends by sending the following link, or access it later by saving this link.",
+      copy_action: "Copy Comparison Link",
       check_list: ["Yes", "Has"],
       cross_list: ["No", "Hasn't"],
     },
@@ -495,7 +495,7 @@ export default {
 
   /** @see ShopContactUs **/
   contact_us_form: {
-    title: "Put your message in our box",
+    title: "Contact us form",
     name: "Name",
     email: "Email",
     phone: "Phone",
@@ -508,7 +508,7 @@ export default {
   /** @see MasterPaymentDialog **/
   master_payment: {
     notifications: {
-      payment_success_title: "Pay Confirmation",
+      payment_success_title: "Payment Confirmation",
       payment_success: "Payment completed.",
       buy_title: "Buy",
       pay_by_giftcards: "Your order was paid with a gift card.",
@@ -524,14 +524,14 @@ export default {
 
   /** {@see TimeProgressBar} **/
   time_progress_bar: {
-    title_before_start: "Remaining to begin",
+    title_before_start: "Remaining to the begin",
     title_between_start_end: "Remaining to the end",
     title_after_end: "Finished",
-    title_no_start_end: "Without time span!",
+    title_no_start_end: "Without time period!",
   },
   /** {@see LotteryPrizes} **/
   lottery_prizes: {
-    message: "You can receive one gift at each order.",
+    message: "You can receive one gift per order.",
   },
 
   /** {@see Coupons} **/
@@ -547,7 +547,7 @@ export default {
   /** {@see AvocadoOrderPage} **/
 
   avocado: {
-    not_enable: "Avocado form not enable!",
+    not_enable: "Avocado form is not enabled!",
     last_update: "Last update:",
     step1:
       "1. Enter the name and details of the product you want to order and click the Add button.",
@@ -560,7 +560,7 @@ export default {
     items_list: "List of requested products",
     currency_msg: "You must pay the amount of this order with this currency.",
     step2:
-      "2. After adding all the desired items, click on the order review request button. At this stage, the order will be reviewed and priced by us. By clicking on this link, you will be able to see the price and payment link.",
+      "2. After adding all the desired items, click on the order review request button. At this stage, we will review the order and let you know about the price. By clicking on this link, you will be able to see the price and payment link.",
     order_action: "Order registration",
     show_all: "Show All",
     show_accepted: "Show Verified Items",
@@ -570,7 +570,7 @@ export default {
     add_new_order: "Register New Order",
     pay_online: "pay online",
     pricing_not_completed_message:
-      "Your order is being reviewed. Your order will be reviewed and priced soon and you will be able to pay for it.",
+      "Your order is being reviewed. Your order will be reviewed and priced soon and you will be able to pay the order.",
 
     delete_item_dialog: {
       title: "Remove item from shopping cart",
@@ -579,18 +579,18 @@ export default {
     },
 
     notifications: {
-      order_success: "Your order was successfully registered.",
+      order_success: "Your order was successfully placed.",
       delete_success: "Item deleted.",
     },
   },
 
   /** {@see HyperAddOrderForm} **/
   hyper: {
-    title: "Order Registration",
+    title: "Order creation",
     message:
-      "Register the list of products you want to buy by scanning the product code.",
+      "Create the list of products you want to buy by scanning the product code.",
 
-    currency_msg: "The currency you intend to pay with.",
+    currency_msg: "The currency you want to pay with.",
     order_action: "Payment",
     add_new_order: "New order",
     continue_order: "Continue order",
