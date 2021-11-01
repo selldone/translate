@@ -1,171 +1,171 @@
 export default {
-  local_service: "سرویس محلی برای کشور {country_name}",
+  local_service: "Service local pour {country_name}",
   local_service_message:
-    "این سرویس منحصراً برای کاربرانی طراحی شده است که در <u> {country_name} </u> زندگی می کنند و خدمات و محصولات خود را در این کشور می فروشند." +
-    "شما فقط مجاز به استفاده از خدمات محلی یا سرویس بین المللی Selldone هستید. " +
-    "برای استفاده از این سرویس ، شما ملزم به رعایت قوانین <b> {country_name} </b> و <b> اتحادیه اروپا </b> خواهید بود.",
+    "Ce service est conçu exclusivement pour les utilisateurs qui vivent en <u>{country_name}</u> et vendent leurs services et produits dans ce pays." +
+    "Vous êtes uniquement autorisé à utiliser les services locaux ou le service international de Selldone." +
+    "Pour utiliser ce service, vous devez vous conformer aux lois de <b>{country_name}</b> et de l'<b>Union européenne</b>.",
 
-  my_shops: "فروشگاه های من",
-
-
+  my_shops: "Mes boutiques",
 
 
-  moto: "شما تلاش می کنید، ما درها را باز می کنیم!",
+
+  moto: "Vous essayez, nous ouvrons les portes !",
 
   s1: {
-    title: "ساخت فروشگاه آنلاین برای",
+    title: "Créez votre entreprise en ligne en<br>Non—Solution technique pour",
     title_animated_words: [
-      "کارآفرینان",
-      "هنرمندان",
-      "مشاغل مستقل",
-      "تولید کنندگان",
-      "فروشندگان",
-      "خرده فروشان",
+      "Entrepreneuses",
+      "Artistes",
+      "Entreprises indépendantes",
+      "Marques",
+      "Commerces de détail",
+      "Créatrices",
     ],
 
-    subtitle: "بازسازی تجربه کسب و کارها و خریداران آنلاین.",
+    subtitle:
+      "Reconstruisez l'expérience en ligne des détaillants et des acheteurs en responsabilisant les marques indépendantes.",
 
     domain_input: {
       message:
-        "فروشگاه شما بر روی هر تعداد دامنه اختصاصی که می خواهید با هاست و SSL رایگان",
-      action: "ایجاد فروشگاه",
+        "Votre boutique sur le nombre de domaines dédiés que vous souhaitez avec hébergement gratuit et SSL",
+      action: "Créer un magasin",
     },
-    community: "ساخت انجمن و کامیونیتی",
-    shop: "فروشگاه ساز و فروش آنلاین",
-    inventory: "مدیریت محصولات و انبار",
-    cms: "مدیریت محتوا و بلاگ",
+    community: "Plateforme communautaire",
+    shop: "Constructeur de boutique en ligne",
+    inventory: "Gestion de l'inventaire",
+    cms: "Éditeur de pages et CMS",
   },
 
   video: {
-    title: "یک تجربه لذت بخش برای مشتریان شما.",
-    msg: "سریعترین تجربه خرید را به مخاطبان خود ارائه نمایید.",
+    title: "Une solution tout-en-un pour vos ventes en ligne et en personne.",
+    msg: "Offrez l'expérience d'achat la plus rapide à votre public.",
 
     card_pos: {
-      title: "صندوق فروشگاهی سلدان",
-      msg: "بدون هزینه راه اندازی  در مغازه خود بفروشید.",
+      title: "PLV vendue",
+      msg: "Vendez en personne grâce à une solution à coût d'installation nul.",
     },
     card_ecommerce: {
-      title: "فروشگاه ساز آنلاین سلدان",
-      msg: "فروش آنلاین خود را ساده اما مانند حرفه ای ها شروع کنید.",
+      title: "Commerce électronique Vendu",
+      msg: "Vendez en ligne comme des professionnels.",
     },
   },
 
   why: {
-    title: "چرا سلدان؟",
-    msg: "سیستم عامل کسب و کار به عنوان خدماتی برای شرکت های کوچک و متوسط تا بتوانند بدون هیچ هزینه ای مشاغل خود را بصورت آنلاین انجام دهند.",
+    title: "Pourquoi Selldone",
+    msg: "Le système d'exploitation d'entreprise en tant que service permettant aux PME de créer leur entreprise en ligne gratuitement.",
 
     sec1: {
-      title: "ساده + احساس حرفه ای",
-      msg: "این برای شما طراحی شده است که مانند یک حرفه ای در بازارها بازی کنید ، حتی اگر مبتدی هستید اما می خواهید مانند یک حرفه ای بازی کنید ، یا متخصص هستید و شایسته بازی مانند خودتان هستید!",
+      title: "Sentiment simple + professionnel",
+      msg: "Il est conçu pour que vous puissiez jouer comme un professionnel sur les marchés, même si vous êtes débutant mais que vous voulez jouer comme un professionnel, ou si vous êtes un expert et méritez de jouer comme vous-même !",
     },
     sec2: {
-      title: "رشد سریع",
-      msg: "ما ویژگی های جدید را منتشر می کنیم ، API ها را به روز می کنیم و روش های جدید را به عنوان یک برنامه روزانه اعمال می کنیم. این یک سیستم عامل برای تجارت شما است ، بنابراین کسب و کار شما توسط پلت فرم ما افزایش می یابد.",
+      title: "Croissance rapide",
+      msg: "Nous publions de nouvelles fonctionnalités, mettons à jour les API et appliquons de nouvelles méthodes quotidiennement. C'est un système d'exploitation pour votre entreprise, donc votre entreprise évolue grâce à notre plate-forme.",
     },
     sec3: {
-      title: "فروش در شبکه اجتماعی",
-      msg: "محصول ما بر اساس رفتار تجاری واقعی خریداران در سراسر جهان طراحی شده است. ما روش های فروش منحصر به فردی را در اینستاگرام ، تلگرام و سایر شبکه های اجتماعی با نام آوکادو ارائه می دهیم.",
+      title: "Ventes de matchs sur les réseaux sociaux",
+      msg: "Notre produit est conçu sur le comportement commercial réel des acheteurs du monde entier. Nous proposons des méthodes de vente uniques sur Instagram, TikTok et d'autres réseaux sociaux, nommés AVOCADO.",
     },
     sec4: {
-      title: "100% وب سرویس",
-      msg: "خدمات ما بر اساس API های REST است! هرکسی با درخواست های ساده به 100٪ از همه جنبه های تجربه خرید ، پرداخت ، مدیریت فروشگاه و سایر ویژگی ها دسترسی دارد.",
+      title: "100% API",
+      msg: "Nos services sont basés sur des API REST ! Tout le monde a accès à 100 % de tous les aspects de l'expérience d'achat, des paiements, de la gestion du magasin et d'autres fonctionnalités sur simple demande.",
     },
   },
 
   how_it_work: {
-    title: "کسب و کار خود را آنلاین کنید.",
-    msg: "طراحی قالب، برنامه نویسی و نصب پلاگین را برای همیشه فراموش کنید.",
+    title: "Comment ça fonctionne",
+    msg: "Pas de carte de crédit, pas de plug-in, pas de modèle, pas de configuration, pas d'hôte, pas de solution technique pour ceux qui veulent jouer comme un professionnel.",
 
     step0: {
-      title: "طراحی شده برای خریداران، دوست داشته شده توسط فروشندگان.",
-      msg1: "یک قدم فراتر از هر فروشگاه سازی، در سلدان نیازی به برنامه نویسی، طراحی قالب، خرید بسته ها و افزونه های گوناگون نخواهید داشت. یک سرمایه گذاری عظیم برای طراحی یک واسط کاربری فروشگاهی برتر، در اختیار شما است. تمام آنچه نیاز دارید به صورت از پیش آماده برای شما فراهم شده است. تنها کافیست شروع به گذاشتن محصولات و خدمات خود کنید.",
+      title: "Conçu pour les acheteurs, aimé par les vendeurs, à un pas.",
+      msg1: "Il est temps pour vous d'avoir un véritable commerce électronique, de rassembler des clients satisfaits autour de votre entreprise et de vous concentrer sur ce que vous aimez vraiment faire.",
     },
     step1: {
-      title: "محصولات را اضافه کنید.",
-      msg1: "محصولات را به صورت دستی اضافه کنید ، مانند افزودن عکس در اینستاگرام! یا 100,000 مورد را فقط با یک فایل اکسل اضافه کنید.",
+      title: "Ajoutez vos produits.",
+      msg1: "Ajoutez des produits manuellement, comme ajouter des photos sur Instagram ! Ou ajoutez 100 000 éléments simplement par un fichier Excel. Vous pouvez vendre des produits, des services, des abonnements et des fichiers en un seul endroit.",
     },
     step2: {
-      title: "درگاه پرداخت را متصل نمایید.",
-      msg1: "از دخالت در معاملات مالی متنفریم! 100٪ از پرداخت های مشتریان مستقیماً به حساب بانکی شما واریز می شود. شما می توانید چندین سرویس پرداخت فعال را همزمان در فروشگاه خود داشته باشید!",
+      title: "Connectez-vous à vos paiements.",
+      msg1: "Nous détestons interférer dans les transactions financières ! 100% des paiements des clients seront crédités directement sur votre compte bancaire. Connectez simplement votre Stripe, PayPal, etc. Vous pouvez avoir plusieurs services de paiement actifs dans votre magasin en même temps !",
     },
     step3: {
-      title: "شخصی سازی متناسب با برند.",
-      msg1: "صفحات فرود خود را طراحی کنید و رنگ بندی سایت را با توجه به پیام برند خود تغییر دهید. همه اینها را می توان با کشیدن و رها کردن بدون نیاز به استخدام متخصص انجام داد.",
+      title: "Personnaliser.",
+      msg1: "Designez vos pages de destination et modifiez la palette de couleurs du site en fonction du message de votre marque. Tout cela peut être fait par glisser-déposer sans avoir besoin d'engager un expert.",
     },
     step4: {
-      title: "تجربه پرداخت یکپارچه در سراسر جهان.",
-      msg1: "مشتریان لازم نیست اطلاعات را وارد کرده و فرم ثبت نام را برای خرید از شما پر کنند! آنها از طریق پیام کوتاه وارد فروشگاه شما شده و اطلاعات لازم را با یک کلیک پر کرده و پرداخت می کنند. با رشد سلدان ، کسب و کار شما نیز رشد خواهد کرد.",
+      title: "Expérience de caisse unifiée dans le monde entier.",
+      msg1: "Les clients n'ont pas à saisir les informations et à remplir le formulaire d'inscription pour acheter chez vous ! Ils se connectent par SMS et remplissent le formulaire de paiement en un clic et paient. En développant Selldone, votre entreprise grandit également.",
     },
   },
 
   onboarding: {
-    title: "کسب و کار خود را آنلاین ، سریعتر و بهتر کنید - رایگان",
-    success_title: "ما در حال نصب فروشگاه شما هستیم",
-    wait_msg: "لطفا چند لحظه صبر نمایید...",
-    ready_msg: "تبریک، فروشگاه شما آماده است.",
-    send_mail_msg: "لینک و اطلاعات ورود را به ایمیل شما ارسال کردیم.",
+    title: "Construisez votre boutique en ligne, plus rapidement et mieux - c'est gratuit",
+    success_title: "Oui! Installation de votre OS d'entreprise en ligne,",
+    wait_msg: "Veuillez patienter quelques secondes...",
+    ready_msg: "Votre boutique est prête.",
+    send_mail_msg: "Lien de connexion envoyé à votre courrier.",
 
     options: {
-      title: "پیکر بندی فروشگاه",
-      msg: "چه ویژگی هایی در فروشگاه خود می خواهید؟",
-      ecommerce: "فروشگاه آنلاین",
-      pos: "صندوق فروشگاهی",
-      blog: "وبلاگ و مدیریت محتوا",
-      community: "کامیونیتی و انجمن",
+      title: "Configuration de la boutique",
+      msg: "Quelles fonctionnalités voulez-vous sur votre site Web ?",
+      ecommerce: "Commerce électronique",
+      pos: "Point de vente",
+      blog: "Blog & CMS",
+      community: "Forum de la communauté",
     },
 
     job: {
-      title: "برای چه کسب و کاری فروشگاه می سازید؟",
-      placeholder: "دسته بندی کسب و کار خود را از لیست زیر انتخاب نمایید.",
+      title: "Sélectionnez le travail",
+      placeholder: "Sélectionnez votre catégorie d'entreprise dans la liste ci-dessous.",
     },
     shop_name: {
-      title: "نام کسب و کار",
-      placeholder: "مثال: کفش فروشی سهیل",
+      title: "Nom de l'entreprise",
+      placeholder: "ex. chaussures Alex",
     },
   },
 
   notion: {
-    title: "متفاوت با تمام آنچه دیده اید.",
+    title: "Jeu avec des règles différentes.",
     quote:
-      "ما معتقدیم  در عصر آنلاین حتی یک نفر می تواند تغییری معنا دار در زندگی خود و اطرافیانش ایجاد کند ، حتی اگر پول کافی نداشته باشد ، حتی تجربه فنی نداشته باشد ، حتی حساب بانکی برای پرداخت صورت حساب ها نداشته باشد. ما این کار را با ساخت و در اختیار قراردادن یک پلتفرم منحصر به فرد، بدون نیاز به برنامه نویسی و شامل ابزارهای حرفه ای انجام می دهیم تا به عنوان یک سیستم عامل برای کسب و کارها عمل کنیم.",
+      "We believe one person can make a change in the online humanity era, even who has no enough money, even has no tech experience, even has no bank account to pay the bills; we do it by creating a one-of-a-kind platform, the all-in-one, no-code commerce platform with enterprise-grade tools to act as a most reachable operating system on the internet.Nous pensons qu'une personne peut apporter un changement à l'ère de l'humanité en ligne, même si elle n'a pas assez d'argent, n'a même pas d'expérience en technologie, n'a même pas de compte bancaire pour payer les factures ; nous le faisons en créant une plate-forme unique en son genre, la plate-forme de commerce tout-en-un sans code avec des outils de niveau entreprise pour agir comme le système d'exploitation le plus accessible sur Internet.",
   },
 
   os: {
-    title: "دسترسی به پیشرفته ترین ابزارها کاملا رایگان.",
-    msg: "ما توانایی ایجاد یک کسب و کار آنلاین حرفه ای را برای همه فراهم آورده ایم.",
+    title: "Accès à des outils de qualité entreprise — gratuit.",
+    msg: "Nous apportons à tous le pouvoir de créer un commerce électronique professionnel.",
   },
   login: {
-    title: "آماده بازی مانند حرفه ای های بازار هستید؟",
+    title: "Êtes-vous prêt à jouer comme les professionnels du marché ?",
   },
 
   currencies: {
-    title: "ارز",
-    sub: "مشتریان شما به سادگی می توانند از شما خرید کنند.",
-    msg: "به جای درگیر شدن با مسائل فنی، افزونه ها و مشکلات پرداخت ، بر فروش تمرکز کنید. ما با خدمات پرداخت جهانی و محلی همکاری می کنیم تا همه چیز در تجارت آنلاین شما درست کار کند.",
+    title: "Devises",
+    sub: "Assurez-vous que vos clients peuvent acheter chez vous.",
+    msg: "Concentrez-vous sur les ventes plutôt que de lutter avec la douleur de la technologie, des plugins et des complications de paiement. Nous travaillons avec des services de paiement mondiaux et locaux pour que tout s'aligne dans votre entreprise en ligne.",
   },
 
   countries: {
-    title: "کشور",
-    sub: "بزرگ شدن کسب و کار شما به سادگی یک کلیک.",
-    msg: "ما ارتباط سنتی میان مشتریان و فروشندگان را آنلاین کردیم، مهم نیست که شما یا مشتری شما در کجا زندگی می کنند، ما ماموریت داریم تا بهترین تجربه را برای شما فراهم آوریم.",
+    title: "Des pays",
+    sub: "La plateforme de commerce électronique la plus facile à faire évoluer au monde.",
+    msg: "Nous adaptons le comportement commercial traditionnel de personne à personne dans l'espace en ligne, peu importe où vous ou votre client vivez, nous avons pour mission de vous offrir la meilleure expérience.",
   },
   dna: {
-    title: "هسته کسب و کار شما",
-    sub: "سلدانش کن!",
-    msg: "این یک پلت فرم منحصر به فرد و بسیار متفاوت از بقیه است. این یک سیستم عامل برای کسب و کارها است که به کمک آن می توان یک فروشگاه آنلاین را بدون برنامه نویسی و با ابزارهای حرفه ای راه اندازی کرد.",
+    title: "ADN de votre entreprise",
+    sub: "VENDU LE FAIT !",
+    msg: "C'est une plate-forme unique en son genre; c'est complètement unique et très différent de tous les autres. C'est le seul système d'exploitation d'entreprise tout-en-un et sans code en tant que service doté d'outils de qualité professionnelle pour les PME.",
   },
 
   api: {
-    title: "قابلیت توسعه بی نهایت",
-    msg: "تنها سرویس ایکامرس کاملا مبتنی بر API.",
+    title: "Dév. amical",
+    msg: "Une solution entièrement ouverte basée sur une API pour les entreprises en ligne.",
 
     sec1: {
-      title: "ستون فقرات کسب و کار شما",
-      msg: "تمام بخش های فروشگاه شما از طریقوب سرویس در دسترس است. شما می توانید هر تغییری در فروشگاه ایجاد نموده، اپ های انحصاری بسازید و یا اپلیکیشن فروشگاه دلخواهتان را بدون دقدقه مسائل فنی و مالی توسعه دهید.",
+      title: "L'épine dorsale de votre entreprise",
+      msg: "Tous les côtés de votre magasin sont disponibles via notre puissante API REST. Vous pouvez apporter des modifications à la boutique, créer vos applications ou développer votre application d'achat sans vous soucier des problèmes techniques, de paiement et de backend.",
     },
     sec2: {
-      title: "بسته های توسعه سریع",
-      msg: "ما بسته های توسعه نرم افزار را برای تمام زبان ها و فریمورک های رایج توسعه داده ایم تا با چند فرمان ساده مراحل تایید هویت، درسترسی به فروشگاه و مدیریت آن را در اختیار بگیرید. شروع برای شما به سادگی چند کلیک خواهد بود.",
+      title: "Intégration rapide",
+      msg: "Nous développons des SDK pour tous les langages et frameworks courants afin que vous puissiez effectuer les étapes d'authentification, d'accès au compte, et le gérer par de simples commandes. La mise en route ne sera qu'à quelques clics.",
     },
   },
 };

@@ -378,6 +378,7 @@ export default {
     no_data: "No data..",
     waiting: "Waiting...",
     waiting_connecting_payment: "Waiting for the payment service...",
+    creating_secure_payment:'Creating secure payment.',
 
     officer: "Officer",
 
@@ -885,6 +886,19 @@ export default {
     MNT:'MNT',
     MOP:'MOP',
     MRO:'MRO',
+    MUR:'MUR',
+    MVR:'MVR',
+    MWK:'MWK',
+    MXN:'MXN',
+    MYR:'MYR',
+    MZN:'MZN',
+    NAD:'NAD',
+    NGN:'NGN',
+    NIO:'NIO',
+    NOK:'NOK',
+    NPR:'NPR',
+    NZD:'NZD',
+    PAB:'PAB',
 
 
   },

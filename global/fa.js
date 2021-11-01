@@ -378,6 +378,7 @@ export default {
     no_data: "مقداری یافت نشد..",
     waiting: "در انتظار...",
     waiting_connecting_payment: "در انتظار اتصال به درگاه...",
+    creating_secure_payment:'درحال ایجاد پرداخت امن.',
     officer: "مسئول",
 
     ticket: "تیکت",

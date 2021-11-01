@@ -3655,6 +3655,7 @@ export default {
     password_recovery_action: "دریافت ایمیل بازیابی",
 
     register_google: "ثبت نام با گوگل",
+    continue_with:"ثبت نام با ",
     register_linkedin: "ثبت نام با لینکدین",
     register_facebook: "ثبت نام با فیسبوک",
     register_github: "ثبت نام با گیتهاب",
@@ -3691,6 +3692,8 @@ export default {
     password_placeholder: "رمز عبور",
     re_password_placeholder: "تکرار رمز عبور",
     new_in_samin: "کاربر جدید سلدان هستید؟",
+    auto_create_shop:'ساخت فروشگاه خودکار',
+
   },
 
   /** {@see Layout} **/

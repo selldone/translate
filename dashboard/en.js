@@ -3642,6 +3642,7 @@ export default {
     password_recovery_action: "Receive recovery email",
 
     register_google: "Continue with Google",
+    continue_with: "Continue with ",
     register_linkedin: "Continue with LinkedIn",
     register_facebook: "Continue with Facebook",
     register_github: "Continue with Github",
@@ -3679,6 +3680,8 @@ export default {
     password_placeholder: "Password",
     re_password_placeholder: "Confirm Password",
     new_in_samin: "New in Selldone?",
+    auto_create_shop:'Auto create shop',
+
   },
   /** {@see Layout} **/
   layout: {

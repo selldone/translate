@@ -10,6 +10,7 @@ export default {
 
 
   moto: "You try, we open the doors!",
+  start_now_btn:"Start now — it's free",
 
   s1: {
     title: "Make your Business Online by<br>No—Technical Solution for",
@@ -34,6 +35,8 @@ export default {
     shop: "Online Shop Builder",
     inventory: "Inventory Management",
     cms: "Page Editor & CMS",
+
+    in_60_sec:"In just 60 seconds",
   },
 
   video: {
@@ -99,7 +102,7 @@ export default {
   },
 
   onboarding: {
-    title: "Build Your Online Shop, Faster and Better - it's free",
+    title: "Make Your Business Online, Faster and Better - it's free",
     success_title: "Yes! Installing your online business OS,",
     wait_msg: "Please wait a few seconds...",
     ready_msg: "Your shop is ready.",
