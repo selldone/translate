@@ -459,12 +459,12 @@ export default {
 
       /** {@see ShopPerformanceWidget} **/
       performance: {
-        title: "عملکرد",
+        title: "امروز",
         title_small: "تعداد کاربران و فروش",
         users: "کاربران",
-        views: "نمایش امروز",
-        sales: "تعداد فروش امروز",
-        payments: "میزان درآمد امروز",
+        views: "نمایش ها",
+        orders: "تعداد سفارشات",
+        payments: "میزان درآمد",
         no_visitor_today: "امروز بازدید کننده ای از فروشگاه تان نداشتید.",
       },
     },
@@ -3626,6 +3626,7 @@ export default {
   shop_visitors_widget: {
     title: "گزارش بازدید کنندگان",
     new_visitors: "بازدید کننده جدید",
+    amp:'AMP نمایش',
     returning_visitors: "بازدیدکنندگان بازگشته",
     page_views: "نمایش صفحات",
     other_pages: "باقی صفحات",

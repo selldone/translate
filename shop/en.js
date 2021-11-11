@@ -247,7 +247,7 @@ export default {
       unit_no: "Unit number",
       postal_code: "Postcode",
       description: "Description",
-      order_delivered: "Order has been delivered.",
+      order_delivered: "The order has been delivered.",
       delivery_time: "Delivery Time",
       tracking_code: "Tracking code",
       tracking_url: "Tracking Url",
@@ -438,7 +438,7 @@ export default {
 
     /** {@see ProductComparisonList} **/
     list: {
-      no_data: "No products added to comparison list.",
+      no_data: "No products were added to the comparison list.",
       price: "Price",
       type: "Type",
       brand: "Brand",
@@ -515,7 +515,7 @@ export default {
       free_order: "Your order is free.",
       pay_by_cod: "Your order has been added as cash on delivery.",
       pay_by_dir:
-        "Your order has been added successfully. Now you can pay by direct money transfer and then upload the payment receipt on order page.",
+        "Your order has been added successfully. Now you can pay by direct money transfer and then upload the payment receipt on the order page.",
       pay_title: "Payment",
       qr_code_payment: "Payment QR code address created.",
       connecting_to_online_gateway: "Connecting to online payment gateway.",
@@ -547,7 +547,7 @@ export default {
   /** {@see AvocadoOrderPage} **/
 
   avocado: {
-    not_enable: "Avocado form is not enabled!",
+    not_enable: "The avocado form is not enabled!",
     last_update: "Last update:",
     step1:
       "1. Enter the name and details of the product you want to order and click the Add button.",
@@ -573,7 +573,7 @@ export default {
       "Your order is being reviewed. Your order will be reviewed and priced soon and you will be able to pay the order.",
 
     delete_item_dialog: {
-      title: "Remove item from shopping cart",
+      title: "Remove item from the shopping cart",
       message: "Do you want to delete this item from the cart?",
       action: "Yes, delete",
     },

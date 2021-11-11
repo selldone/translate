@@ -125,6 +125,14 @@ export default {
       title: "Business Name",
       placeholder: "ex. Alex shoes",
     },
+    income:{
+      title:'Monthly sales',
+      msg:'Select a range of your total monthly sales.',
+      Low:'0 ~ $1,000',
+      Medium:'$1,000 ~ $50,000',
+      High:'50,000 ~ $1,000,000',
+      Extreme:'Above $1,000,000',
+    }
   },
 
   notion: {
@@ -171,4 +179,54 @@ export default {
       msg: "We develop SDKs for all common languages and frameworks so that you can perform the steps of authentication, access to the account, and manage it by simple commands. Getting started will be just a few clicks away.",
     },
   },
+
+
+  /** @see ConvertibleSelldoneView **/
+  convertible:{
+    store_name:'Your Store',
+    variant_1:'Product Variant Amber',
+    variant_2:'Product Variant Red',
+    buy:'Buy Now',
+    price:'$89',
+    management:{
+      title:'Products Management',
+      msg:"Manage product and categories like drag & drop file and folders.",
+      check1:"Import products by Excel or CSV files.",
+      check2:"Add AR models.",
+      check3:"Optimize by auto SEO engine.",
+      check4:"Drag & drop management.",
+
+    },
+    payment:{
+      title:"Support Multiple Payment Methods",
+      msg:"Seamless experience in-site / in-app payment.",
+      check1:'Stripe',
+      check1msg:"Support over 40 countries.",
+
+      check2:'Qickpay',
+      check2msg:"Direct payment by MobilePay.",
+
+      check3:'Paypal',
+      check3msg:"One click payment.",
+
+    },
+    checkout:{
+      title:'Your Brand',
+      online:'Online Customers',
+      offline:'In-person Customers',
+    },
+    design:{
+      title:'Page Builder',
+      msg:"Make it real just by drag & drop."
+    }
+
+  },
+
+  secure:{
+    title:'Hyper Secure Solution',
+    msg:'Data integrity and enterprise access level management.'
+  },
+
+
+
 };

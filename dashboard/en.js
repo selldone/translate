@@ -486,12 +486,12 @@ export default {
 
       /** {@see ShopPerformanceWidget} **/
       performance: {
-        title: "Performance",
+        title: "Today",
         title_small: "Users and sales overview",
         users: "Users",
-        views: "Today's views",
-        sales: "Today's sales",
-        payments: "Today's payments",
+        views: "Views",
+        orders: "Orders",
+        payments: "Payments",
         no_visitor_today: "You had no visitors to your store today.",
       },
     },
@@ -3613,6 +3613,7 @@ export default {
   shop_visitors_widget: {
     title: "Visitors Analytics",
     new_visitors: "New visitors",
+    amp:'AMP views',
     returning_visitors: "Returning visitors",
     page_views: "Page views",
     other_pages: "Other pages",

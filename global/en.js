@@ -528,6 +528,18 @@ export default {
     auto_complete: "Auto complete",
     compare: "Compare",
     infinite: "Infinite",
+    tips:'Tips',
+    technical:'Technical',
+    finance:'Finance',
+    your_phone_input:'Enter a phone number',
+    income:'Income',
+    change:'Change',
+    new_users:'New users',
+    success_orders:'Success orders',
+    direct:'Direct',
+    last_activity:'Last activity',
+    landing:'Landing',
+
   },
 
   dialogs: {
@@ -627,6 +639,7 @@ export default {
     go: "Go",
     read_more: "Read more",
     start_now: "Start now",
+    view_live:'View live',
   },
 
   errors: {
@@ -899,6 +912,10 @@ export default {
     NPR:'NPR',
     NZD:'NZD',
     PAB:'PAB',
+    PLN:'PLN',
+    SGD:'SGD',
+    SEK:'SEK',
+
 
 
   },

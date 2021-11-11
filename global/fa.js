@@ -527,6 +527,18 @@ export default {
     auto_complete: "تکمیل خودکار",
     compare: "مقایسه",
     infinite: "نامحدود",
+    tips:'نکته',
+    technical:'تکنیکال',
+    finance:'مالی',
+    your_phone_input:'یک شماره تماس وارد کنید',
+    income:'درآمد',
+    change:'تغییرات',
+    new_users:'کاربران جدید',
+    success_orders:'سفارشات موفق',
+    direct:'مستقیم',
+    last_activity:'آخرین فعالیت',
+    landing:'فرود',
+
   },
 
   dialogs: {
@@ -626,6 +638,8 @@ export default {
     go: "ادامه",
     read_more: "مطالعه بیشتر",
     start_now: "شروع کن",
+    view_live:'مشاهده وبسایت',
+
   },
 
   errors: {
