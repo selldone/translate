@@ -8,7 +8,7 @@ export default {
 
   store: "Store",
 
-  not_exist: "Not exist",
+  not_exist: "Not exists",
   error: "error",
   active: "Active",
   inactive: "Inactive",
@@ -16,10 +16,10 @@ export default {
 
   original_warranty: "Guarantee of originality of goods",
   return_warranty_days: "{days} return guarantee day",
-  no_return_warranty: "No return guarantees",
+  no_return_warranty: "No return guarantee",
 
   reed_agree_terms:
-    "I have read the terms of use and privacy policy and agree with it.",
+    "I have read the terms of use and privacy policy and agree with them.",
 
   // Common:
   commons: {
@@ -81,7 +81,7 @@ export default {
 
     landing_page: "Landing page",
     discount_code: "Discount code",
-    total_sell: "Total sell",
+    total_sell: "Total sales",
     details: "Details",
     currency: "Currency",
     amount: "Amount",
@@ -184,7 +184,7 @@ export default {
     customer_club: "Customer club",
     shipping: "Shipping",
     sum: "Sum",
-    not_payed: "Not payed",
+    not_payed: "Not paid",
     category: "Category",
     done: "Done",
     email_from: "From",
@@ -255,11 +255,11 @@ export default {
     pending: "Pending",
     delivered: "Delivered",
     returned: "Returned",
-    canceled: "Canceled",
+    canceled: "Cancelled",
     shipping_cost: "Shipping cost",
     action: "Action",
     cancel_date: "Cancel date",
-    deliver_in_process: "Delivery in the way..",
+    deliver_in_process: "The order is shipped..",
     kind: "Kind",
     detail: "Detail",
     map: "Map",
@@ -291,7 +291,7 @@ export default {
     destination: "Destination",
     sku: "SKU",
     mpn: "MPN",
-    not_in_stock: "Not enough in stock!",
+    not_in_stock: "Not enough stock!",
     sub_total: "Sub Total",
     customer: "Customer",
     delivery: "Delivery",
@@ -395,7 +395,7 @@ export default {
     finish_date: "Finish date",
     complete_date: "Complete date",
     settle_date: "Settle date",
-    cost_span: "Cost span",
+    cost_span: "Price range",
     industry: "Industry",
     rating: "Rating",
     rates: "Rates",
@@ -455,7 +455,7 @@ export default {
     starting_price: "Starting price",
 
     day: "day",
-    payed: "Payed",
+    payed: "Paid",
     service_bill: "Invoice payment",
     avocado: "Avocado",
 
