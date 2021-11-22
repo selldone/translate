@@ -343,7 +343,7 @@ export default {
     /** {@see ShopDashboard} **/
     dashboard: {
       title: "Shop dashboard",
-      online_staff: "Online staff",
+      online_staff: "Online staff(s)",
 
       notify_referral: {
         message: "Send your invitation link to friends and get free vouchers.",
@@ -1358,8 +1358,7 @@ export default {
     },
     /** {@see ProductEditPrice} **/
     pricing: {
-      title: "Calculate Price",
-      edit_price: "Edit price",
+      edit_price: "Pricing",
       price_input: "Price",
       currency_input: "Currency",
       currency_input_messages: "Price is calculated on this currency.",
@@ -5642,7 +5641,7 @@ export default {
   /** {@see NotificationTopBar} **/
   notification_top_bar: {
     free_charge:
-      "🎊 Selldone business operating system (SOS) | With {amount} in free credits. No credit card needed, and  you won’t be charged until you want to upgrade. Just charge {amount} and get an additional {amount} gift.",
+      "🎊 Charge {amount} and get {amount_total} credit.",
     charge_action: "Claim your ",
     claim_title: "Claim your free credit",
     claim_charge_caution:

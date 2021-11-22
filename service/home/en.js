@@ -7,10 +7,8 @@ export default {
 
   my_shops: "My Shops",
 
-
-
   moto: "You try, we open the doors!",
-  start_now_btn:"Start now — it's free",
+  start_now_btn: "Start now — it's free",
 
   s1: {
     title: "Make your Business Online by<br>No—Technical Solution for",
@@ -36,7 +34,7 @@ export default {
     inventory: "Inventory Management",
     cms: "Page Editor & CMS",
 
-    in_60_sec:"In just 60 seconds",
+    in_60_sec: "In just 60 seconds",
   },
 
   video: {
@@ -55,7 +53,7 @@ export default {
 
   why: {
     title: "Why Selldone",
-    msg: "The Business Operating System As a Service For SMEs To Make Their Businesses Online At No Cost.",
+    msg: "The Business Operating System as a service for you to make Your Business Online at No Cost.",
 
     sec1: {
       title: "Simple + Professional feeling",
@@ -76,7 +74,7 @@ export default {
   },
 
   how_it_work: {
-    title: "How it works",
+    title: "How it works.",
     msg: "No-Credit card, No-Plugin, No-Template, No-Setup, No-Host, No-Technical solution for those who want to game like a professional.",
 
     step0: {
@@ -103,10 +101,10 @@ export default {
 
   onboarding: {
     title: "Make Your Business Online, Faster and Better - it's free",
-    success_title: "Yes! Installing your online business OS,",
+    success_title: "Installing your online business OS,",
     wait_msg: "Please wait a few seconds...",
     ready_msg: "Your shop is ready.",
-    send_mail_msg: "Login link sent to your mail.",
+    send_mail_msg: "Login link sent to {email}",
 
     options: {
       title: "Shop Configuration",
@@ -118,21 +116,25 @@ export default {
     },
 
     job: {
-      title: "Select Job",
+      title: "What is your industry?",
       placeholder: "Select your business category from the list below.",
     },
     shop_name: {
       title: "Business Name",
       placeholder: "ex. Alex shoes",
     },
-    income:{
-      title:'Monthly sales',
-      msg:'Select a range of your total monthly sales.',
-      Low:'0 ~ $1,000',
-      Medium:'$1,000 ~ $50,000',
-      High:'50,000 ~ $1,000,000',
-      Extreme:'Above $1,000,000',
-    }
+    income: {
+      title: "Monthly sales",
+      msg: "Select a range of your total monthly sales.",
+      Low: "Up to $5,000 USD",
+      Medium: "$5,000 USD ~ $50,000 USD",
+      High: "50,000 USD ~ $1,000,000 USD",
+      Extreme: "Above $1,000,000 USD",
+    },
+    step_1:'Purpose',
+    step_2:'Configuration',
+    step_3:'Account',
+
   },
 
   notion: {
@@ -151,7 +153,7 @@ export default {
 
   currencies: {
     title: "Currencies",
-    sub: "Make sure your customers can buy from you.",
+    sub: "Your customers can quickly pay in their currencies.",
     msg: "Focus on sales rather than struggling with the pain of tech, plugins and payment complications. We work with global and local payment services to make everything align in your online business.",
   },
 
@@ -180,53 +182,71 @@ export default {
     },
   },
 
-
   /** @see ConvertibleSelldoneView **/
-  convertible:{
-    store_name:'Your Store',
-    variant_1:'Product Variant Amber',
-    variant_2:'Product Variant Red',
-    buy:'Buy Now',
-    price:'$89',
-    management:{
-      title:'Products Management',
-      msg:"Manage product and categories like drag & drop file and folders.",
-      check1:"Import products by Excel or CSV files.",
-      check2:"Add AR models.",
-      check3:"Optimize by auto SEO engine.",
-      check4:"Drag & drop management.",
-
+  convertible: {
+    store_name: "Your Store",
+    variant_1: "Product Variant Amber",
+    variant_2: "Product Variant Red",
+    buy: "Buy Now",
+    price: "$89",
+    management: {
+      title: "Products Management",
+      msg: "Manage product and categories like drag & drop file and folders.",
+      check1: "Import products by Excel or CSV files.",
+      check2: "Add AR models.",
+      check3: "Optimize by auto SEO engine.",
+      check4: "Drag & drop management.",
     },
-    payment:{
-      title:"Support Multiple Payment Methods",
-      msg:"Seamless experience in-site / in-app payment.",
-      check1:'Stripe',
-      check1msg:"Support over 40 countries.",
+    payment: {
+      title: "Support Multiple Payment Methods",
+      msg: "Seamless experience in-site / in-app payment.",
+      check1: "Stripe",
+      check1msg: "Support over 40 countries.",
 
-      check2:'Qickpay',
-      check2msg:"Direct payment by MobilePay.",
+      check2: "Klarna",
+      check2msg: "Buy now pay later.",
 
-      check3:'Paypal',
-      check3msg:"One click payment.",
-
+      check3: "Paypal",
+      check3msg: "One click payment.",
     },
-    checkout:{
-      title:'Your Brand',
-      online:'Online Customers',
-      offline:'In-person Customers',
+    checkout: {
+      title: "Your Brand",
+      online: "Online Customers",
+      offline: "In-person Customers",
     },
-    design:{
-      title:'Page Builder',
-      msg:"Make it real just by drag & drop."
-    }
-
+    design: {
+      title: "Page Builder",
+      msg: "Make it real just by drag & drop.",
+    },
   },
 
-  secure:{
-    title:'Hyper Secure Solution',
-    msg:'Data integrity and enterprise access level management.'
+  secure: {
+    title: "Hyper Secure Solution",
+    msg: "Data integrity and enterprise access level management.",
   },
 
+  build: {
+    title: "Build your online shopping website.",
+    msg: "You have many choices to convert your social media accounts to an online shopping website on your domain or create your professional ecommerce from scratch.",
+  },
 
+  stripe: {
+    title: "Have your stripe account?",
+    msg: "Congratulation, you have had most things done before. Create your online sales website just by on-tap! Selldone does all things after that.",
+  },
+ /* demo: {
+    title: "View Demo",
+    msg: "See professional live e-commerces",
+  },*/
 
+  unbanked: {
+    title: "One platform, One solution — Unbanked.",
+    msg: "The one of a kind solution for over 1.7 billion unbanked adults.",
+  },
+  faqs:[
+    {question:"Can I create an online shopping website without a credit card?",answer:"Yes, you can create your eCommerce without needing any banking card like credit and debit cards on Selldone. Selldone uses a unique way to provide advanced e-commerce services to people, even over 2 billion unbanked adults worldwide."},
+    {question:"How sell online to unbanked customers?",answer:"Add COD (<b>Cash on delivery</b>) on your e-commerce, so your customers can pay after receiving the order. The COD is the traditional way in most countries with that lack of financing infrastructure."},
+    {question:"How set up my eCommerce without a bank account?",answer:"There was no solution for unbaked before Selldone. But now, you can create your eCommerce and website without having any bank account. It has a minimal cost for you; you can pay this cost at the end of the month through your wallet. Selldone wallet can receive charges from other people or charge through gift cards. You do not need a credit card to use these services."},
+    {question:"How to start a business without a setup cost?",answer:"<ol> <li> Register for free in <a href='https://selldone.com'>Selldone.com</a>. </li> <li> Build your store. </li> <li> Add your products and services. </li> <li> Connect your domain (optional) </li> <li> Enable payment gateways. </li> <li> Start introducing your business to friends and families. </li> <li>  Introduce yourself and your products on social media. </li> <li> Build a brand for your business by providing a unique value proposition. </li> <li> Monitor your users' behavior through the Selldone panel. </li> </ol>"},
+  ]
 };

@@ -279,6 +279,7 @@ export default {
     delay: "تاخیر",
     credit: "اعتبار",
     livemode: "واقعی",
+    paused:'متوقف',
     debug: "آزمایشی",
     token: "توکن",
     status: "وضعیت",
@@ -637,7 +638,7 @@ export default {
     explore: "درباره {name}",
     go: "ادامه",
     read_more: "مطالعه بیشتر",
-    start_now: "شروع کن",
+    start_now: "شروع کن — رایگان",
     view_live:'مشاهده وبسایت',
 
   },
