@@ -25,7 +25,7 @@ export default {
     ],
 
     subtitle:
-      "Bauen Sie das Online-Erlebnis von Einzelhandel und Käufern wieder auf, indem Sie unabhängige Marken stärken.",
+      "Wenn Sie Ihren Kunden ein einzigartiges, schnelles und zuverlässiges Erlebnis bieten möchten, ist dies das richtige Werkzeug für Sie!",
 
     domain_input: {
       message:

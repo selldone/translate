@@ -3,7 +3,7 @@ export default {
     footer: {
         title: "The #1 operating system for SMEs and independent brands",
         message:
-            "Selldone, as an eCommerce platform, operates like an angel for the growth of businesses. Whether you have a brick-and-mortar store or a large company, you need to showcase your product on the internet. Selldone used to build online stores with lower operating costs and greater flexibility. In addition, we provide an always-improving e-commerce management toolchain that gains new features every week, like integrating store administration and visual programming interface to create custom automation processes or AI integration.",
+            "Selldone, as an ecommerce platform, operates like an angel for the growth of businesses. Whether you have a brick-and-mortar store or a large company, you need to showcase your product on the internet. Selldone used to build online stores with lower operating costs and greater flexibility. In addition, we provide an always-improving ecommerce management toolchain that gains new features every week, like integrating store administration and visual programming interface to create custom automation processes or AI integration.",
 
         contact_us: "Contact us",
         about_us: "About Selldone",
@@ -15,7 +15,7 @@ export default {
                     { title: "What is Selldone?", to: { name: "WhatIsSelldone" } },
                     { title: "Selldone Community", to: { name: "CommunityHomePage" } },
                     { title: "University & Help", to: { name: "Helps" } },
-                    { title: "Academy", to: { name: "Blogs" } },
+                    { title: "Blog", to: { name: "Blogs" } },
 
                     { title: "Privacy policy", to: { name: "Landing_Privacy" } },
                     { title: "Term of service", to: { name: "Landing_Terms" } },
@@ -43,7 +43,7 @@ export default {
                     { title: "🎨 NFT", to: { name: "Landing_NFT" } },
                     { title: "🤝 Guild", to: { name: "GuildHome" } },
                     { title: "🥑 Avocado", to: { name: "AvocadoHomePage" } },
-                    { title: "Experts", to: { name: "ExpertsPage" } },
+                   // { title: "Experts", to: { name: "ExpertsPage" } }, TODO: ACTIVATE AFTER RUNNING EXPERTS
                     { title: "SEO engine", to: { name: "Landing_SEO" } },
                     { title: "Smart report", to: { name: "Landing_SmartReport" } },
                     { title: "Cloud hosting", to: { name: "Landing_Cloud" } },

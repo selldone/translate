@@ -136,7 +136,7 @@ export default {
     pages: "Pages",
     cms: "CMS & Blog",
     cms_info:
-      "Professional Content Management and Editor System for Blogs and Products.",
+      "Professional Content Management and Editor System for Blog posts and Products.",
   },
   gateways: {
     title: "Payment Portal",
@@ -309,7 +309,7 @@ export default {
 
     autopilot: "Autopilot",
     autopilot_info:
-      "Schedule events, discounts, publish blogs, products and other things.",
+      "Schedule events, discounts, publish blog posts, products and other things.",
   },
 
   pos: {

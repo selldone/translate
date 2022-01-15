@@ -81,7 +81,7 @@ export default {
 
   topics: {
     "store-design": {
-      title: "Build an e-commerce",
+      title: "Build an ecommerce",
       desc: "Leave the design and construction of your online store to professionals so that they can implement your ideas.",
     },
     "store-configuration": {
@@ -352,13 +352,13 @@ export default {
 
       spec1_title: "Experts both in their class and in the classroom",
       spec1_desc:
-        "You do not need any programming skills or computer technical skills! Seldan is in charge of all updates. Put all your efforts on focused sales of online work!",
+        "You do not need any programming skills or computer technical skills! Selldone is in charge of all updates. Put all your efforts on focused sales of online work!",
       spec2_title: "Hand-picked and committed people",
       spec2_desc:
         "You do not need any programming skills or computer technical skills. Say goodbye to extra costs, complex technical issues and obstacles to online business!",
       spec3_title: "Professional work done by the most professional",
       spec3_desc:
-        "You do not need any programming skills or computer technical skills! Soldiers of all complex technical skills and obstacles in the way of online business!",
+        "You do not need any programming skills or computer technical skills! Selldone do of all complex technical skills and obstacles in the way of online business!",
     },
     expert_categories: "Category of services provided by experts",
     show_all_topics: "Show all categories",

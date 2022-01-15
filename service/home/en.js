@@ -9,6 +9,7 @@ export default {
 
   moto: "You try, we open the doors!",
   start_now_btn: "Start now — it's free",
+  create_shopping_website: "Create My Ecommerce",
 
   s1: {
     title: "Make your Business Online by<br>No—Technical Solution for",
@@ -22,7 +23,7 @@ export default {
     ],
 
     subtitle:
-      "Rebuild the retail and shoppers online experience by empowering independent brands.",
+      "If you are looking to provide a unique, fast, and reliable experience for your customers, it's the tool for you!",
 
     domain_input: {
       message:
@@ -131,16 +132,21 @@ export default {
       High: "50,000 USD ~ $1,000,000 USD",
       Extreme: "Above $1,000,000 USD",
     },
-    step_1:'Purpose',
-    step_2:'Configuration',
-    step_3:'Account',
-
+    step_1: "Purpose",
+    step_2: "Configuration",
+    step_3: "Account",
   },
 
   notion: {
     title: "Game with different rules.",
     quote:
       "We believe one person can make a change in the online humanity era, even who has no enough money, even has no tech experience, even has no bank account to pay the bills; we do it by creating a one-of-a-kind platform, the all-in-one, no-code commerce platform with enterprise-grade tools to act as a most reachable operating system on the internet.",
+  },
+
+  stop: {
+    title: "Selldone is not an ordinary simple solution, but...",
+    subtitle:
+      "The simple does not make you successful! If you plan to build a serious online business, Selldone is for you, but if looking for a simple and ordinary solution, Selldone is not.",
   },
 
   os: {
@@ -159,13 +165,13 @@ export default {
 
   countries: {
     title: "Countries",
-    sub: "The world’s most easy-to-scale e-commerce platform.",
+    sub: "The world’s most easy-to-scale ecommerce platform.",
     msg: "We adapt the traditional person-to-person trading behavior in the online space, no matter where you or your customer live, we are on a mission to deliver the best experience for you.",
   },
   dna: {
     title: "DNA of Your Business",
     sub: "SELLDONE IT!",
-    msg: "It's a one-of-a-kind platform; it's completely unique and very different from all the others. It's the only all-in-one, no-code Business Operating System As a Service with enterprise-grade tools for SMEs.",
+    msg: "It's the only all-in-one, no-code Business Operating System As a Service with enterprise-grade tools for you.",
   },
 
   api: {
@@ -234,7 +240,7 @@ export default {
     title: "Have your stripe account?",
     msg: "Congratulation, you have had most things done before. Create your online sales website just by on-tap! Selldone does all things after that.",
   },
- /* demo: {
+  /* demo: {
     title: "View Demo",
     msg: "See professional live e-commerces",
   },*/
@@ -243,10 +249,27 @@ export default {
     title: "One platform, One solution — Unbanked.",
     msg: "The one of a kind solution for over 1.7 billion unbanked adults.",
   },
-  faqs:[
-    {question:"Can I create an online shopping website without a credit card?",answer:"Yes, you can create your eCommerce without needing any banking card like credit and debit cards on Selldone. Selldone uses a unique way to provide advanced e-commerce services to people, even over 2 billion unbanked adults worldwide."},
-    {question:"How sell online to unbanked customers?",answer:"Add COD (<b>Cash on delivery</b>) on your e-commerce, so your customers can pay after receiving the order. The COD is the traditional way in most countries with that lack of financing infrastructure."},
-    {question:"How set up my eCommerce without a bank account?",answer:"There was no solution for unbaked before Selldone. But now, you can create your eCommerce and website without having any bank account. It has a minimal cost for you; you can pay this cost at the end of the month through your wallet. Selldone wallet can receive charges from other people or charge through gift cards. You do not need a credit card to use these services."},
-    {question:"How to start a business without a setup cost?",answer:"<ol> <li> Register for free in <a href='https://selldone.com'>Selldone.com</a>. </li> <li> Build your store. </li> <li> Add your products and services. </li> <li> Connect your domain (optional) </li> <li> Enable payment gateways. </li> <li> Start introducing your business to friends and families. </li> <li>  Introduce yourself and your products on social media. </li> <li> Build a brand for your business by providing a unique value proposition. </li> <li> Monitor your users' behavior through the Selldone panel. </li> </ol>"},
-  ]
+  faqs: [
+    {
+      question:
+        "Can I create an online shopping website without a credit card?",
+      answer:
+        "Yes, you can create your eCommerce without needing any banking card like credit and debit cards on Selldone. Selldone uses a unique way to provide advanced ecommerce services to people, even over 2 billion unbanked adults worldwide.",
+    },
+    {
+      question: "How sell online to unbanked customers?",
+      answer:
+        "Add COD (<b>Cash on delivery</b>) on your ecommerce, so your customers can pay after receiving the order. The COD is the traditional way in most countries with that lack of financing infrastructure.",
+    },
+    {
+      question: "How set up my eCommerce without a bank account?",
+      answer:
+        "There was no solution for unbaked before Selldone. But now, you can create your eCommerce and website without having any bank account. It has a minimal cost for you; you can pay this cost at the end of the month through your wallet. Selldone wallet can receive charges from other people or charge through gift cards. You do not need a credit card to use these services.",
+    },
+    {
+      question: "How to start a business without a setup cost?",
+      answer:
+        "<ol> <li> Register for free in <a href='https://selldone.com'>Selldone.com</a>. </li> <li> Build your store. </li> <li> Add your products and services. </li> <li> Connect your domain (optional) </li> <li> Enable payment gateways. </li> <li> Start introducing your business to friends and families. </li> <li>  Introduce yourself and your products on social media. </li> <li> Build a brand for your business by providing a unique value proposition. </li> <li> Monitor your users' behavior through the Selldone panel. </li> </ol>",
+    },
+  ],
 };

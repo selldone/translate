@@ -11,7 +11,7 @@ export default {
         title: "سلدان",
         items: [
           { title: "سلدان چیست؟", to: { name: "WhatIsSelldone" } },
-          { title: "آکادمی", to: { name: "Blogs" } },
+          { title: "وبلاگ", to: { name: "Blogs" } },
           { title: "راهنما سرویس", to: { name: "Helps" } },
           { title: "سوالات متداول", to: { name: "FAQ" } },
           { title: "انجمن سلدان", to: { name: "CommunityHomePage" } },
@@ -41,7 +41,7 @@ export default {
           { title: "🎨 NFT", to: { name: "Landing_NFT" } },
           { title: "🤝 قبیله", to: { name: "GuildHome" } },
           { title: "🥑 آووکادو", to: { name: "AvocadoHomePage" } },
-          { title: "متخصصین", to: { name: "ExpertsPage" } },
+          //{ title: "متخصصین", to: { name: "ExpertsPage" } }, TODO: ACTIVATE AFTER RUNNING EXPERTS
           { title: "موتور SEO", to: { name: "Landing_SEO" } },
           { title: "گزارش دهی هوشمند", to: { name: "Landing_SmartReport" } },
           { title: "هاست ابری", to: { name: "Landing_Cloud" } },

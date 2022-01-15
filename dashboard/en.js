@@ -52,7 +52,7 @@ export default {
     login: "Login",
     register: "Register",
     auth_2fa: "2 factor Authenticate 🔐",
-    academy: "Academy",
+    academy: "Blog",
     help: "Help Center",
     price_list: "Price list",
     my_stores: "My Stores",
@@ -163,8 +163,6 @@ export default {
     close_ticket_by_user: "Thanks, I got the answer",
   },
 
-
-
   /** @see ProductRatingView **/
   surveys: ["Very poor", "Poor", "Normal", "Good", "Excellent"],
 
@@ -187,11 +185,6 @@ export default {
       insta: "Insta",
     },
   },
-
-
-
-
-
 
   /** {@see Helps} **/
 
@@ -221,7 +214,7 @@ export default {
   /** {@see InterestTopicsView} **/
 
   blogs: {
-    title: "Academy",
+    title: "Blog",
     subtitle:
       "Lessons for business, confidence and the knowledge you need to create a thriving business.",
     add_new_blog: "New Blog",
@@ -338,6 +331,7 @@ export default {
       autopilot: "Autopilot",
       apps: "Apps",
       pos: "POS",
+      seo: "SEO",
     },
 
     /** {@see ShopDashboard} **/
@@ -537,7 +531,7 @@ export default {
     /** {@see AdminShop_Blogs} **/
     blogs: {
       new: "Write new",
-      blogs: "Blogs",
+      blogs: "Blog",
 
       /** {@see AdminShop_Blogs_List} **/
       list: {
@@ -1099,6 +1093,7 @@ export default {
         sms: "Sms",
         email: "Email",
         domain: "Domain",
+        verifications: "Verifications",
       },
       delete_dialog: {
         title: "Remove Store",
@@ -1126,10 +1121,20 @@ export default {
       },
       /** {@see ShopEdit_Menu} **/
       edit_menu: {
-        title: "Footer menu",
-        sub_title: "4 column menu at the bottom of the store.",
-        message:
-          "You can define the bottom menu of your store page here. These menus can be home pages, designed pages or external links. ",
+        footer: {
+          title: "Footer menu",
+          sub_title: "4 column menu at the bottom of the store.",
+          message:
+            "You can define the bottom menu of your store page here. These menus can be home pages, designed pages or external links. ",
+        },
+
+        header: {
+          title: "Header menu",
+          sub_title: "Main top menu.",
+          message:
+            "This menu is only displayed on screens larger than mobile, at the top of the home screen, product categories, landings, and product screens.",
+        },
+
         save_menu: "Save Menu",
         dialog: {
           main_pages: "Main Pages",
@@ -2669,17 +2674,17 @@ export default {
     payment: "Payment",
 
     confirm:
-      "Order confirmation, <b> {success} </b> approved and <b> {fail} </b> rejected",
-    prepare: "order preparation",
-    send: "Order shipped by <b> {delivery} </b>",
-    delivered: "Order has been delivered to customer",
-    "fill-inputs": "Input info form completed by buyer",
-    "return-add": "Submit a product return request, {product}",
-    "return-accept": "Return request {return_code} approved",
-    "return-reject": "Request {return_code} rejected",
+      "Order confirmation, <b> {success} </b> approved and <b> {fail} </b> rejected.",
+    prepare: "Order preparation.",
+    send: "Order shipped by <b> {delivery} </b>.",
+    delivered: "Order has been delivered to customer.",
+    "fill-inputs": "Input info form completed by buyer.",
+    "return-add": "Submit a product return request, {product}.",
+    "return-accept": "Return request {return_code} approved.",
+    "return-reject": "Request {return_code} rejected.",
 
-    "reject-order": "Reject order. Code: {reject_code}",
-    "reject-order-clear": "Clear reject order. Code: {reject_code}",
+    "reject-order": "Reject order. Code: {reject_code}.",
+    "reject-order-clear": "Clear reject order. Code: {reject_code}.",
 
     "email-buy": "Send purchase confirmation email to customer.",
     "email-payment": "Send payment confirmation email to customer.",
@@ -3171,8 +3176,8 @@ export default {
     create_dialog: {
       title: "Token Making",
       error_message: "<strong> Error! </strong> Sorry, an error has occurred!",
-      name_input: "Alias",
-      name_input_message: "Favorite token created.",
+      name_input: "Alias Ex. my token name",
+      name_input_message: "Favorite token name.",
       scopes_list: "Token Access List",
     },
     access_token_dialog: {
@@ -3612,7 +3617,7 @@ export default {
   shop_visitors_widget: {
     title: "Visitors Analytics",
     new_visitors: "New visitors",
-    amp:'AMP views',
+    amp: "AMP views",
     returning_visitors: "Returning visitors",
     page_views: "Page views",
     other_pages: "Other pages",
@@ -3642,6 +3647,7 @@ export default {
     password_recovery_action: "Receive recovery email",
 
     register_google: "Continue with Google",
+    register_apple: "Continue with Apple",
     continue_with: "Continue with ",
     register_linkedin: "Continue with LinkedIn",
     register_facebook: "Continue with Facebook",
@@ -3680,8 +3686,7 @@ export default {
     password_placeholder: "Password",
     re_password_placeholder: "Confirm Password",
     new_in_samin: "New in Selldone?",
-    auto_create_shop:'Auto create shop',
-
+    auto_create_shop: "Auto create shop",
   },
   /** {@see Layout} **/
   layout: {
@@ -4434,7 +4439,7 @@ export default {
   /** {@see InlineHelp**/
   inline_help: {
     helps_title: "Service User Guide",
-    blogs_title: "Related Content at Selldone Academy",
+    blogs_title: "Related Content at Selldone Blog",
   },
 
   /** {@see AdminShopFinance_Tax**/
@@ -4612,6 +4617,8 @@ export default {
       devices: "Device",
       inventory: "Inventory",
     },
+    payment_confirm: "Payment confirmation",
+    payment_confirm_msg: "Order {basket_id} was paid by the customer.",
   },
 
   /** {@see BarcodeScannerConnectWidget**/
@@ -4736,6 +4743,9 @@ export default {
   /** {@see ShopEdit_Theme**/
   shop_theme: {
     theme_colors: "Theme colors",
+    products_view_mode: "Shopping list view",
+    products_view_mode_desc:
+      "You can select the products list view mode on your website; it will apply by the page size. These values will be considered by default and will not be used if the user changes the display method manually.",
 
     color_light: "Primary color",
     color_dark: "Primary dark color",
@@ -4931,7 +4941,7 @@ export default {
     dialog: {
       title: "Bot Configuration",
       message:
-        "A comprehensive notification framework for building enterprise-grade e-commerce experiences.",
+        "A comprehensive notification framework for building enterprise-grade ecommerce experiences.",
       action: "Click Me!",
       set_config: "Set config",
     },
@@ -5640,13 +5650,33 @@ export default {
 
   /** {@see NotificationTopBar} **/
   notification_top_bar: {
-    free_charge:
-      "🎊 Charge {amount} and get {amount_total} credit.",
+    free_charge: "🎊 Charge {amount} and get {amount_total} credit.",
     charge_action: "Claim your ",
     claim_title: "Claim your free credit",
     claim_charge_caution:
       "Note: It is not possible to convert currencies between your wallet accounts. Therefore, select an account that is appropriate for the currency exchanged in your store.",
     account_input: "Deposit account",
     account_msg: "Charge will be applied to this account",
+  },
+
+  /** {@see SelldoneApplicationsWidget} **/
+  selldone_applications: {
+    title: "Manage your business anywhere & anytime!",
+    msg: "Download the beta version of the application through the following link. ",
+  },
+
+  /** {@see ShopEdit_Notifications**/
+  shop_seo: {
+    title: "SEO Configuration",
+    msg: "Fast-forward to online marketing by empowering organic customers acquisition channels.",
+    auto: {
+      title: "Auto SEO Engine",
+      msg: "Provide a seamless mobile experience for the audience and search engines on your website.",
+    },
+
+    amp: {
+      title: "AMP",
+      msg: "Accelerated mobile pages auto generation.",
+    },
   },
 };

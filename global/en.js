@@ -5,10 +5,11 @@ export default {
   currency_default: "USD",
   language_default: "en",
   //----------------------------------
+  selldone:'Selldone',
 
   store: "Store",
 
-  not_exist: "Not exist",
+  not_exist: "Not exists",
   error: "error",
   active: "Active",
   inactive: "Inactive",
@@ -16,10 +17,10 @@ export default {
 
   original_warranty: "Guarantee of originality of goods",
   return_warranty_days: "{days} return guarantee day",
-  no_return_warranty: "No return guarantees",
+  no_return_warranty: "No return guarantee",
 
   reed_agree_terms:
-    "I have read the terms of use and privacy policy and agree with it.",
+    "I have read the terms of use and privacy policy and agree with them.",
 
   // Common:
   commons: {
@@ -81,7 +82,7 @@ export default {
 
     landing_page: "Landing page",
     discount_code: "Discount code",
-    total_sell: "Total sell",
+    total_sell: "Total sales",
     details: "Details",
     currency: "Currency",
     amount: "Amount",
@@ -184,7 +185,7 @@ export default {
     customer_club: "Customer club",
     shipping: "Shipping",
     sum: "Sum",
-    not_payed: "Not payed",
+    not_payed: "Not paid",
     category: "Category",
     done: "Done",
     email_from: "From",
@@ -259,7 +260,7 @@ export default {
     shipping_cost: "Shipping cost",
     action: "Action",
     cancel_date: "Cancel date",
-    deliver_in_process: "Delivery in the way..",
+    deliver_in_process: "The order is shipped..",
     kind: "Kind",
     detail: "Detail",
     map: "Map",
@@ -292,7 +293,7 @@ export default {
     destination: "Destination",
     sku: "SKU",
     mpn: "MPN",
-    not_in_stock: "Not enough in stock!",
+    not_in_stock: "Not enough stock!",
     sub_total: "Sub Total",
     customer: "Customer",
     delivery: "Delivery",
@@ -456,7 +457,7 @@ export default {
     starting_price: "Starting price",
 
     day: "day",
-    payed: "Payed",
+    payed: "Paid",
     service_bill: "Invoice payment",
     avocado: "Avocado",
 
@@ -496,7 +497,7 @@ export default {
     attachment: "Attachment",
     gallery: "Gallery",
     sync: "Sync",
-    diff_time: "Diff time",
+    diff_time: "Time difference",
     network: "Network",
     account: "Account",
     configuration: "Configuration",
@@ -514,7 +515,7 @@ export default {
     features: "Features",
     bot: "Bot",
     sample: "Sample",
-    how_it_work: "How it works?",
+    how_it_work: "How does it work?",
     page: "Page",
     congratulations: "Congratulations",
     recommend: "Recommend",
@@ -540,6 +541,11 @@ export default {
     direct:'Direct',
     last_activity:'Last activity',
     landing:'Landing',
+    now:'Now',
+    accept_agreement:'I have read and accepted the conditions.',
+    report:'Report',
+    tablet:'Tablet',
+    pc:'PC',
 
   },
 
@@ -561,6 +567,7 @@ export default {
     save_continue: "Save & Continue",
     save: "Save",
     save_changes: "Save changes",
+    change:'Change',
     continue: "Continue",
     close: "Close",
     finish: "Finish",
@@ -586,7 +593,7 @@ export default {
     send: "Send",
     yes: "Yes",
     no: "No",
-    meh: "Meh",
+    meh: "Hmm",
     clear: "Clear",
     dismiss: "Dismiss",
     search: "Search",
@@ -641,6 +648,10 @@ export default {
     read_more: "Read more",
     start_now: "Start now — it's free",
     view_live:'View live',
+    resend_code:"Resend code",
+    invite:'Invite',
+    add_more:'Add more',
+
 
   },
 
@@ -760,7 +771,7 @@ export default {
     invalid_email: "Invalid e-mail",
     invalid_domain: "Invalid domain",
     invalid_min_length: "Minimum length must be {length}",
-    invalid_min_array_length: "Atleast select {length} items",
+    invalid_min_array_length: "At least select {length} items",
 
     invalid_max_chars: "Max {maxCount} characters",
     invalid_url: "Invalid URL",
@@ -917,6 +928,32 @@ export default {
     PLN:'PLN',
     SGD:'SGD',
     SEK:'SEK',
+    SHP:'SHP',
+    SLL:'SLL',
+    SOS:'SOS',
+    SRD:'SRD',
+    STD:'STD',
+    SZL:'SZL',
+    THB:'THB',
+    TJS:'TJS',
+    TOP:'TOP',
+    TTD:'TTD',
+    TWD:'TWD',
+    TZS:'TZS',
+    UAH:'UAH',
+    UGX:'UGX',
+    UYU:'UYU',
+    UZS:'UZS',
+    VND:'VND',
+    VUV:'VUV',
+    WST:'WST',
+    XAF:'XAF',
+    XCD:'XCD',
+    XOF:'XOF',
+    XPF:'XPF',
+    YER:'YER',
+    ZAR:'ZAR',
+    ZMW:'ZMW',
 
 
 
@@ -1005,7 +1042,7 @@ export default {
       view_mode: "View mode",
       delete: "Delete Article",
     },
-    schedule_action: "Do you want schedule publish?",
+    schedule_action: "Do you want to schedule publication?",
     schedule_title: "Schedule auto publish",
     edit_mode: "Edit",
     public_view_mode: "Public view",
@@ -1026,7 +1063,7 @@ export default {
       "If you want the story to be published at a specific time.",
     schedule_view_action: "View Release Schedule",
 
-    author_title: "Posted by",
+    author_title: "Written by",
     read_time: "Study time",
     read_time_unit: "minutes",
     claps_action: "Claps",
@@ -1238,16 +1275,16 @@ export default {
   /** {@see BasketRejectReasons} **/
   order_reject_reasons: {
     cant_accept_cod:
-      "This order cannot be accepted by the customer on-site payment.",
-    payment_returned: "The amount deposited by the customer is returned.",
-    payment_fraud: "Payment has been identified as fraud and fraud.",
+      "This order cannot be accepted by the COD payment.",
+    payment_returned: "The payment by the customer is returned.",
+    payment_fraud: "Payment has been identified as fraud.",
     location_out_of_service: "Customer location is out of service.",
-    user_not_responding: "Customer cannot answer calls.",
+    user_not_responding: "Customer did not answer calls.",
     shop_owner_fault:
       "An error occurred by store staff in entering information.",
-    lack_of_inventory: "No stock in stock.",
+    lack_of_inventory: "Out of stock.",
     legal_restriction: "Unable to place an order due to legal restrictions.",
-    pricing_fault: "Pricing error by seller.",
+    pricing_fault: "Pricing mistake by seller.",
     system_fault: "System bug.",
   },
 
@@ -1300,7 +1337,7 @@ export default {
     accept_by_admin_action: "Accept request",
     reject_by_admin_action: "Reject request",
     message_for_admin:
-      "According to the agreement you have accepted by using the Selldone, you must contact the buyer and keep him informed of the process of returning his/her order. This should be done if the request is accepted or rejected and the buyer's full consent is obtained.",
+        "According to the agreement you have accepted by using the Selldone, you must contact the buyer and keep him/her informed of the process of returning his/her order. This should be done if the request is accepted or rejected and the buyer's full consent is obtained.",
     notifications: {
       update_status_success: "Request status updated.",
     },
@@ -1524,7 +1561,7 @@ export default {
   count_down: {
     days: "day",
     hours: "hour",
-    minutes: "minute",
+    minutes: "minutes",
     seconds: "seconds",
   },
   /** {@see GiftStatus} **/
@@ -1694,7 +1731,7 @@ export default {
   wheel_fortune: {
     title: "Play & win",
     message:
-      "The cost of each game is 10 chip. You currently have {chips} chip. Get more chip by purchasing from the store.",
+      "The cost of each game is 10 chips. You currently have {chips} chip. Get more chip by purchasing from the store.",
     win_message: "Congratulation, you win!",
     lost_message: "Sorry, You lose the game.",
     try_again: "You can try again",
@@ -1722,7 +1759,7 @@ export default {
     },
     occupation: {
       title: "Estimated salary",
-      desc: "Salary estimate information, such as salary ranges and region-based salary averages for job types, displayed in the job search experience on Google.",
+      desc: "Information about salary estimation, such as salary ranges and region-based salary averages for job types, displayed in the job search experience on Google.",
     },
     course: {
       title: "Course",

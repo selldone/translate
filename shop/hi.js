@@ -413,7 +413,7 @@ export default {
   },
   /** {@see UserCommentsPage} **/
   user_comments: {
-    title: زविश नंबर",
+    title: "विश नंबर",
     first_post: "पहिला पद",
     last_edit: "अंतिम संपादन",
   },

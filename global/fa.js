@@ -5,6 +5,7 @@ export default {
   currency_default: "IRR",
   language_default: "fa",
   //----------------------------------
+  selldone:'سلدان',
 
   store: "فروشگاه",
 
@@ -47,7 +48,7 @@ export default {
     name: "نام",
     password: "رمز عبور",
     email: "ایمیل",
-    mobile: "شماره موبایل",
+    mobile: "تلفن همراه",
     login: "ورود",
     register: "ثبت نام",
     select_account: "انتخاب حساب",
@@ -539,6 +540,11 @@ export default {
     direct:'مستقیم',
     last_activity:'آخرین فعالیت',
     landing:'فرود',
+    now:'امروز',
+    accept_agreement:'شرایط را مطالعه و پذیرفته ام.',
+    report:'گزارش',
+    tablet:'تبلت',
+    pc:'کامپیوتر',
 
   },
 
@@ -560,6 +566,7 @@ export default {
     save_continue: "ذخیره و ادامه",
     save: "ذخیره",
     save_changes: "ذخیره تغییرات",
+    change: "اعمال تغییر",
     continue: "ادامه",
     close: "بستن",
     finish: "اتمام",
@@ -640,6 +647,9 @@ export default {
     read_more: "مطالعه بیشتر",
     start_now: "شروع کن — رایگان",
     view_live:'مشاهده وبسایت',
+    resend_code:"ارسال مجدد کد",
+    invite:'دعوت دیگران',
+    add_more:'افزودن بیشتر',
 
   },
 
@@ -1535,11 +1545,11 @@ export default {
   /** {@see CookieDialog} **/
 
   cookie: {
-    title: "This website uses cookies",
+    title: "استفاده از کوکی",
     message:
-      " This website uses cookies. By using this website and agreeing to this policy, you consent to Selldone‘s use of cookies in accordance with the terms of this policy.",
-    preferences_action: "Manage Preferences",
-    agree_action: "I Agree",
+      "این وب سایت از کوکی ها برای بهبود تجربه کاربری استفاده می کند. با استفاده از وب‌سایت ما، با تمام کوکی‌ها مطابق با خط‌مشی کوکی ما موافقت می‌کنید.",
+    preferences_action: "مدیریت کوکی ها",
+    agree_action: "موافق هستم",
   },
 
   /** {@see BasketItemUserMessageForm} **/
@@ -1707,7 +1717,7 @@ export default {
     FIX: {
       title: "قیمت گذاری ثابت",
       message:
-        "در این نوع قیمت گذاری قیمت محصول یک مقدار ثابت بوده و نیازی به درخواست محسابه قیمت توسط خریدار وجود نخواهد داشت.",
+        "در این نوع قیمت گذاری قیمت محصول یک مقدار ثابت بوده و نیازی به درخواست محاسبه قیمت توسط خریدار وجود نخواهد داشت.",
     },
     ESTIMATION: {
       title: "قیمت گذاری تخمینی",

@@ -23,7 +23,7 @@ export default {
     ],
 
     subtitle:
-      "Genopbyg detail- og shoppernes onlineoplevelse ved at styrke uafhængige brands.",
+      "Hvis du ønsker at give dine kunder en unik, hurtig og pålidelig oplevelse, er det værktøjet for dig!",
 
     domain_input: {
       message:

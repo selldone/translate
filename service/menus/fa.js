@@ -5,7 +5,7 @@ export default {
     dashboard: "داشبورد",
     login: "ورود",
     help: "راهنما",
-    blog: "آکادمی",
+    blog: "وبلاگ",
     price_list: "قیمت",
     apps: "اپلیکیشن ها",
     experts: "متخصصین",
