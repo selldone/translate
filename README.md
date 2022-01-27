@@ -13,24 +13,24 @@ We believe one person can make a change in the online humanity era, even who has
 ## Supported languages
 | Code     | Language | Dashboard | Shop |
 |----------|----------|:---------:|:----:|
-|    AR    |          |     ✓    |  ✓   |
-|    BN    |          |     ✓    |  ✓   |
-|    DA    |          |     ✓    |  ✓   |
-|    DE    |          |     ✓    |  ✓   |
-|    EN    |          |     ✓    |  ✓   |
-|    ES    |          |     ✓    |  ✓   |
-|    FA    |          |     ✓    |  ✓   |
-|    FR    |          |     ✓    |  ✓   |
-|    HI    |          |     ✓    |  ✓   |
-|    ID    |          |     ✓    |  ✓   |
-|    JA    |          |     ✓    |  ✓   |
-|    PA    |          |     ✓    |  ✓   |
-|    PT    |          |     ✓    |  ✓   |
-|    RU    |          |     ✓    |  ✓   |
-|    SV    |          |     ✓    |  ✓   |
-|    TR    |          |     ✓    |  ✓   |
-|    UR    |          |     ✓    |  ✓   |
-|    ZH    |          |     ✓    |  ✓   |
+|    AR    |عربي     |     ✓    |  ✓   |
+|    BN    |বাংলা     |     ✓    |  ✓   |
+|    DA    |Dansk     |     ✓    |  ✓   |
+|    DE    |Deutsch   |     ✓    |  ✓   |
+|    EN    |English   |     ✓    |  ✓   |
+|    ES    |Española  |     ✓    |  ✓   |
+|    FA    |فارسی    |     ✓    |  ✓   |
+|    FR    |français  |     ✓    |  ✓   |
+|    HI    |हिंदी      |     ✓    |  ✓   |
+|    ID    |Indonesian|     ✓    |  ✓   |
+|    JA    |日本      |     ✓    |  ✓   |
+|    PA    |ਪੰਜਾਬੀਆਂ   |     ✓    |  ✓   |
+|    PT    |português |     ✓    |  ✓   |
+|    RU    |Pусский   |     ✓    |  ✓   |
+|    SV    |Svenska   |     ✓    |  ✓   |
+|    TR    |Türk      |     ✓    |  ✓   |
+|    UR    |اردو     |     ✓    |  ✓   |
+|    ZH    |中国人    |     ✓    |  ✓   |
 
 
 
