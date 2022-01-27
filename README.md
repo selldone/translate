@@ -8,3 +8,29 @@ We believe one person can make a change in the online humanity era, even who has
 [Selldone Enterprise-Grade But Free Ecommerce Platform](https://selldone.com/store-builder)
 
 ![Free ecommerce platform and custom community builder](https://cdn.selldone.com/app/contents/official-pages/store-builder/mockupboldfeaturesjpgcf839a27e0aeae46d4a4de1253108e42.jpg)
+
+
+## Supported languages
+| Code     | Language | Dashboard | Shop |
+|----------|----------|:---------:|:----:|
+|    AR    |          |     ✓    |  ✓   |
+|    BN    |          |     ✓    |  ✓   |
+|    DA    |          |     ✓    |  ✓   |
+|    DE    |          |     ✓    |  ✓   |
+|    EN    |          |     ✓    |  ✓   |
+|    ES    |          |     ✓    |  ✓   |
+|    FA    |          |     ✓    |  ✓   |
+|    FR    |          |     ✓    |  ✓   |
+|    HI    |          |     ✓    |  ✓   |
+|    ID    |          |     ✓    |  ✓   |
+|    JA    |          |     ✓    |  ✓   |
+|    PA    |          |     ✓    |  ✓   |
+|    PT    |          |     ✓    |  ✓   |
+|    RU    |          |     ✓    |  ✓   |
+|    SV    |          |     ✓    |  ✓   |
+|    TR    |          |     ✓    |  ✓   |
+|    UR    |          |     ✓    |  ✓   |
+|    ZH    |          |     ✓    |  ✓   |
+
+
+
