@@ -1,4 +1,4 @@
-# Translate & Localization
+# Translation
 Translation files of Selldone (Dashboards, Shops, Applications, ...)
 
 ## Free E-commerce Website Builder Platform | Easily Create Your Customizable Online Store like Pros
