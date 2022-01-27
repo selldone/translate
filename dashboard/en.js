@@ -332,6 +332,7 @@ export default {
       apps: "Apps",
       pos: "POS",
       seo: "SEO",
+      localization: "Localization",
     },
 
     /** {@see ShopDashboard} **/
@@ -2380,7 +2381,7 @@ export default {
 
       /** {@see GatewayDataWidget} **/
       gateway_data_widget: {
-        title: "Payment Report From",
+        title: "Payments Report",
         title_small: "Gateway",
         chart: {
           times: "Count",
@@ -2405,8 +2406,8 @@ export default {
         wage_percent: "Fee Percentage",
         min_wage: "Minimum Fee",
         max_wage: "Maximum Fee",
-        min_amount: "Minimum transaction amount",
-        max_amount: "Maximum transaction amount",
+        min_amount: "Minimum transaction",
+        max_amount: "Maximum transaction",
         timeout: "Duration payable ",
         timeout_unit: "seconds",
         link: "Gateway Link",
@@ -5661,8 +5662,8 @@ export default {
 
   /** {@see SelldoneApplicationsWidget} **/
   selldone_applications: {
-    title: "Manage your business anywhere & anytime!",
-    msg: "Download the beta version of the application through the following link. ",
+    title: "Don't miss your orders! ",
+    msg: "Manage your business anywhere & anytime.",
   },
 
   /** {@see ShopEdit_Notifications**/
@@ -5677,6 +5678,67 @@ export default {
     amp: {
       title: "AMP",
       msg: "Accelerated mobile pages auto generation.",
+    },
+  },
+
+  /** {@see ShopEdit_Emails} **/
+  shop_preferences: {
+    order: {
+      title: "Orders",
+      desc: "If the customer pays for the cart, an email containing the order information will be sent to this address.",
+    },
+    return: {
+      title: "Return",
+      desc: "If the product is returned by the buyer, it will be sent. Sending this email depends on your purchase plan.",
+    },
+    pos: {
+      title: "POS",
+      desc: "Checkout sales report will be sent to this email.",
+    },
+    avocado: {
+      title: "Avocado",
+      desc: "Send daily report of Avocado orders.",
+    },
+    accounting: {
+      title: "Accounting",
+      desc: "Store financial reports and announcements.",
+    },
+    subscription: {
+      title: "Subscriptions",
+      desc: "Last updated plan status and start and end subscription announcement.",
+    },
+    technical: {
+      title: "Technical",
+      desc: "Technical notifications about domain and service status.",
+    },
+    report: {
+      title: "Reports",
+      desc: "Weekly and monthly reports will be sent to this email",
+    },
+    review: {
+      title: "Review",
+      desc: "If you need to confirm a process in the store, the relevant email will be sent to this address. For example to confirm the sending of marketing email to store users.",
+    },
+  },
+
+  /** {@see ShopEdit_Languages} **/
+  shop_languages: {
+    title: "Store languages",
+    sub_title: "Install and activate store auto-translation packages.",
+    message:
+      "You can install up to 10 language packs in your store. Contact us if you need to install more packages.",
+  },
+
+  /** {@see InviteFriendsDialog} **/
+  invite_friends: {
+    title: "Tell about your business to the world!",
+    msg: "Introduce a friend to Selldone. They'll get a $99 in company voucher when they signup, and you'll get $15 in startup voucher once they complete their first charge.",
+    invite: {
+      title: "Join Selldone online business builder to get a free $99 voucher.",
+      description:
+        "I invite you to Selldone to start your business online with a fantastic tool.",
+      hashtags: "ecommerce,websiteBuilder",
+      quot: "I built an online store by Selldone, you can also do your business now.",
     },
   },
 };

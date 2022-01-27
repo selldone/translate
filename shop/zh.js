@@ -277,7 +277,7 @@ export default {
     title: "返回",
     count_input: "退貨數量",
     count_input_message: "你返回多少？",
-    reason_input: “回來的理由",
+    reason_input: "回來的理由",
     reason_input_message: "選擇退貨原因。",
     note_input: "描述",
     note_input_hint: "描述引用的原因..",

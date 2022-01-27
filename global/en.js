@@ -651,6 +651,8 @@ export default {
     resend_code:"Resend code",
     invite:'Invite',
     add_more:'Add more',
+    install_now:'Install now',
+    uninstall:'Uninstall',
 
 
   },
@@ -746,7 +748,7 @@ export default {
     phone: "+1 000 0000",
     language: "Select language..",
     friend_email: "Your friend's email...",
-    friend_name: "Your friend's name",
+    friend_name: "opt. Your friend's name",
   },
 
   notification: {

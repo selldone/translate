@@ -650,7 +650,8 @@ export default {
     resend_code:"ارسال مجدد کد",
     invite:'دعوت دیگران',
     add_more:'افزودن بیشتر',
-
+    install_now:'نصب بسته',
+    uninstall:'حذف بسته',
   },
 
   errors: {

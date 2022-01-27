@@ -311,7 +311,7 @@ export default {
     leave_shop: "ਇਸ ਸਟੋਰ ਨੂੰ ਛੱਡੋ ਅਤੇ ਸਾਰੇ ਗਾਹਕ ਪੱਧਰ ਨੂੰ ਹਟਾਓ",
     leave_shop_action: "ਦੁਕਾਨ ਛੱਡੋ",
     leave_dialog: {
-      title: "ਦੁਕਾਨ ਛੱਡੋ"
+      title: "ਦੁਕਾਨ ਛੱਡੋ",
       message:
         "ਇਸ ਸਟੋਰ ਦੀ ਗਾਹਕੀ ਰੱਦ ਕਰਨ ਨਾਲ ਤੁਹਾਡੀ ਆਰਡਰ ਜਾਣਕਾਰੀ ਅਤੇ ਰਿਕਾਰਡ ਨਹੀਂ ਮਿਟਣਗੇ।",
       action: "ਛੱਡੋ",
@@ -332,12 +332,12 @@ export default {
     total_price: "ਕੁੱਲ ਮਾਤਰਾ",
     shipping: "ਸ਼ਿਪਿੰਗ ਦੀ ਲਾਗਤ",
     free_shipping: "ਮੁਫਤ ਸ਼ਿਪਿੰਗ",
-    shipping_not_pay: "ਸ਼ਾਮਲ ਨਹੀਂ"
+    shipping_not_pay: "ਸ਼ਾਮਲ ਨਹੀਂ",
     total_discount: "ਕੁੱਲ ਛੋਟ",
     customer_club: "ਗਾਹਕ ਕਲੱਬ ਮੈਂਬਰ",
     customer_club_discount: "ਮੈਂਬਰ ਛੂਟ",
     final_price: "ਅੰਤਮ ਭੁਗਤਾਨ",
-    lead_time: "ਤਿਆਰੀ ਦਾ ਸਮਾਂ"
+    lead_time: "ਤਿਆਰੀ ਦਾ ਸਮਾਂ",
     lead_time_unit: "ਘੰਟਾ",
     receive_time: "ਪ੍ਰਾਪਤ ਕਰਨ ਦਾ ਸਮਾਂ",
     select_time: "ਡਿਲਿਵਰੀ ਸਮਾਂ ਚੁਣੋ",
@@ -414,7 +414,7 @@ export default {
   /** {@see UserCommentsPage} **/
   user_comments: {
     title: "ਮੇਰੀਆਂ ਟਿੱਪਣੀਆਂ",
-    first_post: "ਪਹਿਲੀ ਪੋਸਟ"
+    first_post: "ਪਹਿਲੀ ਪੋਸਟ",
     last_edit: "ਆਖਰੀ ਸੰਪਾਦਨ",
   },
   /** {@see UserGiftCardsPage} **/

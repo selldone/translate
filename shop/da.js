@@ -356,7 +356,7 @@ export default {
 	pre_confirm_service: "Send anmodning",
 	
     errors: {
-      no_address: "Vælg den adresse, du ønsker din ordre skal sendes til."
+      no_address: "Vælg den adresse, du ønsker din ordre skal sendes til.",
       no_phone: "Indtast et kontaktnummer for at koordinere varemodtagelsen.",
       select_billing_country: "Vælg dit faktureringsland",
       select_billing_state: "Vælg dit skatteområde",
