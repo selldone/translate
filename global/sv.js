@@ -1698,7 +1698,7 @@ export default {
     try_again: "Du kan försöka igen",
   },
   /** {@see Calculator} **/
-  calculator: {
+ /* calculator: {
     title: "Miniräknarens titel",
     formula: "Formel",
     variable_name: "Variabelnamn",
@@ -1707,7 +1707,7 @@ export default {
     type: "Variabel typ",
     variable_title: "Variabel titel",
     duplicate_var_name_error: "Kan inte lägga till variabel med samma namn!",
-  },
+  },*/
 
   /** {@see StructuredData} **/
   json: {

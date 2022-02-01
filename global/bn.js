@@ -1698,7 +1698,7 @@ export default {
     try_again: "আপনি আবার চেষ্টা করতে পারেন"
   },
   /** {@see Calculator} **/
-  calculator: {
+ /* calculator: {
     title: "ক্যালকুলেটর শিরোনাম",
     formula: "সূত্র",
     variable_name: "পরিবর্তনশীল নাম",
@@ -1707,7 +1707,7 @@ export default {
     type: "পরিবর্তনশীল প্রকার",
     variable_title: "পরিবর্তনশীল শিরোনাম",
     duplicate_var_name_error: "একই নামের সাথে ভেরিয়েবল যোগ করা যাবে না!",
-  },
+  },*/
 
   /** {@see StructuredData} **/
   json: {

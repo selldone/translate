@@ -1631,7 +1631,7 @@ export default {
   },
 
   /** {@see Calculator} **/
-  calculator: {
+ /* calculator: {
     title: "عنوان ماشین حساب",
     formula: "فرمول",
     variable_name: "نام متغیر",
@@ -1639,7 +1639,7 @@ export default {
     type: "نوع متغیر",
     variable_title: "عنوان متغیر",
     duplicate_var_name_error: "نمیتوان دو متغیر با یک نام وارد نمود.",
-  },
+  },*/
   /** {@see StructuredData} **/
   json: {
     add: "افزودن داده های بیشتر",

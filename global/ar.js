@@ -1698,7 +1698,7 @@ export default {
     try_again: "يمكنك إعادة المحاولة",
   },
   /** {@see Calculator} **/
-  calculator: {
+  /*calculator: {
     title: "عنوان الآلة الحاسبة",
     formula: "معادلة",
     variable_name: "اسم المتغير",
@@ -1707,7 +1707,7 @@ export default {
     type: "نوع متغير",
     variable_title: "عنوان متغير",
     duplicate_var_name_error: "لا يمكن إضافة متغير بنفس الاسم!",
-  },
+  },*/
 
   /** {@see StructuredData} **/
   json: {

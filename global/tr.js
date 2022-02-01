@@ -1698,7 +1698,7 @@ export default {
     try_again: "Tekrar deneyebilirsiniz",
   },
   /** {@see Calculator} **/
-  calculator: {
+ /* calculator: {
     title: "Hesap makinesi başlığı",
     formula: "formül",
     variable_name: "Değişken ismi",
@@ -1707,7 +1707,7 @@ export default {
     type: "Değişken tipi",
     variable_title: "Değişken başlığı",
     duplicate_var_name_error: "Aynı isimde değişken eklenemez!",
-  },
+  },*/
 
   /** {@see StructuredData} **/
   json: {

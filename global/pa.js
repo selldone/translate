@@ -1698,7 +1698,7 @@ export default {
     try_again: "ਤੁਸੀਂ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰ ਸਕਦੇ ਹੋ"
   },
   /** {@see Calculator} **/
-  calculator: {
+ /* calculator: {
     title: "ਕੈਲਕੁਲੇਟਰ ਦਾ ਸਿਰਲੇਖ",
     formula: "ਫਾਰਮੂਲਾ",
     variable_name: "ਵੇਰੀਏਬਲ ਨਾਮ",
@@ -1707,7 +1707,7 @@ export default {
     type: "ਵੇਰੀਏਬਲ ਕਿਸਮ",
     variable_title: "ਪਰਿਵਰਤਨਸ਼ੀਲ ਸਿਰਲੇਖ",
     duplicate_var_name_error: "ਇੱਕੋ ਨਾਮ ਦੇ ਨਾਲ ਵੇਰੀਏਬਲ ਨਹੀਂ ਜੋੜ ਸਕਦੇ!",
-  },
+  },*/
 
   /** {@see StructuredData} **/
   json: {

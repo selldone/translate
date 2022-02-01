@@ -1698,7 +1698,7 @@ export default {
     try_again: "آپ دوبارہ کوشش کر سکتے ہیں۔",
   },
   /** {@see Calculator} **/
-  calculator: {
+ /* calculator: {
     title: "کیلکولیٹر کا عنوان",
     formula: "فارمولا",
     variable_name: "متغیر نام",
@@ -1707,7 +1707,7 @@ export default {
     type: "متغیر کی قسم",
     variable_title: "متغیر عنوان",
     duplicate_var_name_error: "اسی نام کے ساتھ متغیر کو شامل نہیں کیا جا سکتا!",
-  },
+  },*/
 
   /** {@see StructuredData} **/
   json: {

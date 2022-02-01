@@ -75,7 +75,7 @@ export default {
     brand: "Marque",
     category: "Catégorie",
     discount: "Remise",
-    track_price: « Suivre le prix »,
+    track_price: " Suivre le prix ",
     waiting_for_auction: "En attente d'enchères ?",
     inform_auction: "Parlez-moi des enchères",
     return_in_days: "{days} jours de retour de garantie",
@@ -105,7 +105,7 @@ export default {
 
   buy_button: {
     waiting_for_availability: "En attente de disponibilité",
-    inform_me_when_available: « En attendant ça ? »,
+    inform_me_when_available: " En attendant ça ?",
     pay_buy: "Payez et achetez",
     quantity: "Compter",
     quantity_in_basket: "Articles dans le panier",
@@ -221,11 +221,11 @@ export default {
       delivery_fee: "Frais de port",
       delivery_fee_after: "Pas de livraison payée",
 
-      total_price: « Prix total des articles »,
+      total_price: " Prix total des articles ",
       total_items_discount: "Remise sur les articles",
       total_price_after_offers: "Prix total après application des offres",
 
-      buyer_payment: « Montant du paiement de l'acheteur »,
+      buyer_payment: " Montant du paiement de l'acheteur",
     },
     /** {@see CustomerOrderDeliveryWidget} **/
     delivery: {

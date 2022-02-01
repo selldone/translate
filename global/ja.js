@@ -1698,7 +1698,7 @@ export default {
     try_again: "もう一度試すことができます",
   },
   /** {@see Calculator} **/
-  calculator: {
+  /*calculator: {
     title: "電卓のタイトル",
     formula: "方式",
     variable_name: "変数名",
@@ -1707,7 +1707,7 @@ export default {
     type: "変数タイプ",
     variable_title: "可変タイトル",
     duplicate_var_name_error: "同じ名前の変数を追加することはできません！",
-  },
+  },*/
 
   /** {@see StructuredData} **/
   json: {

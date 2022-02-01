@@ -1698,7 +1698,7 @@ export default {
     try_again: "आप फिर से कोशिश कर सकते हैं ",
   },
   /** {@see Calculator} **/
-  calculator: {
+  /*calculator: {
     title: "कैलकुलेटर शीर्षक ",
     formula: "सूत्र",
     variable_name: "चर का नाम ",
@@ -1707,7 +1707,7 @@ export default {
     type: "चर टाइप करें ",
     variable_title: "चर शीर्षक ",
     duplicate_var_name_error: "एक ही नाम से वेरिएबल नहीं जोड़ सकते!",
-  },
+  },*/
 
   /** {@see StructuredData} **/
   json: {

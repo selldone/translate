@@ -1698,7 +1698,7 @@ export default {
     try_again: "Você pode tentar novamente ",
   },
   /** {@see Calculator} **/
-  calculator: {
+  /*calculator: {
     title: "Título da calculadora ",
     formula: "Fórmula",
     variable_name: "Nome variável",
@@ -1707,7 +1707,7 @@ export default {
     type: "Tipo de variável ",
     variable_title: "Título da variável ",
     duplicate_var_name_error: "Não é possível adicionar variável com o mesmo nome! ",
-  },
+  },*/
 
   /** {@see StructuredData} **/
   json: {

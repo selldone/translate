@@ -19,7 +19,7 @@ export default {
     beta: "Beta",
     home: "Home",
     why_selldone: "Why Selldone?",
-    ecommerce: "Ecommerce <br>platform",
+    ecommerce: "Ecommerce <br>Builder",
     automation: "Automation & IoT",
     ai: "AI",
     app_builder: "App Builder",
@@ -34,7 +34,7 @@ export default {
     orders: "Orders & <br>Processing",
     staff: "Customers & <br>Team",
 
-    community: "Community platform",
+    community: "Custom Community",
     pos: "Online POS",
 
     group_build: {

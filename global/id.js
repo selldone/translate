@@ -1698,7 +1698,7 @@ export default {
     try_again: "Anda dapat mencoba lagi",
   },
   /** {@see Calculator} **/
-  calculator: {
+ /* calculator: {
     title: "Judul kalkulator",
     formula: "Rumus",
     variable_name: "Nama variabel",
@@ -1707,7 +1707,7 @@ export default {
     type: "Jenis variabel",
     variable_title: "Judul variabel",
     duplicate_var_name_error: "Tidak dapat menambahkan variabel dengan nama yang sama!",
-  },
+  },*/
 
   /** {@see StructuredData} **/
   json: {

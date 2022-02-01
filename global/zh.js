@@ -1698,7 +1698,7 @@ export default {
     try_again: "你可以再試一次",
   },
   /** {@see Calculator} **/
-  calculator: {
+ /* calculator: {
     title: "計算器名稱",
     formula: "公式",
     variable_name: "變量名",
@@ -1707,7 +1707,7 @@ export default {
     type: "變量類型",
     variable_title: "可變標題",
     duplicate_var_name_error: "不能添加同名變量！",
-  },
+  },*/
 
   /** {@see StructuredData} **/
   json: {

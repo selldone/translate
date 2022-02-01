@@ -1739,7 +1739,7 @@ export default {
     try_again: "You can try again",
   },
   /** {@see Calculator} **/
-  calculator: {
+ /* calculator: {
     title: "Calculator title",
     formula: "Formula",
     variable_name: "Variable name",
@@ -1748,7 +1748,7 @@ export default {
     type: "Variable type",
     variable_title: "Variable title",
     duplicate_var_name_error: "Can not add variable with same name!",
-  },
+  },*/
 
   /** {@see StructuredData} **/
   json: {

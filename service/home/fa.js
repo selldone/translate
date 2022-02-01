@@ -9,6 +9,9 @@ export default {
 
   moto: "شما تلاش می کنید، ما درها را باز می کنیم!",
   start_now_btn: "شروع کنید — رایگان",
+  create_ecommerce_btn: "ساخت فروشگاه — رایگان",
+  incentive_action:"با نرخ پایین فروش آنلاینتان برای همیشه خداحافظی کنید!",
+
   create_shopping_website: "ساخت فروشگاه آنلاین",
 
   s1: {

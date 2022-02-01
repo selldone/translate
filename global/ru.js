@@ -1698,7 +1698,7 @@ export default {
     try_again: "Вы можете попробовать еще раз",
   },
   /** {@see Calculator} **/
-  calculator: {
+ /* calculator: {
     title: "Название калькулятора",
     formula: "Формула",
     variable_name: "Имя переменной",
@@ -1707,7 +1707,7 @@ export default {
     type: "Тип переменной",
     variable_title: "Переменный заголовок",
     duplicate_var_name_error: "Невозможно добавить переменную с таким же именем!",
-  },
+  },*/
 
   /** {@see StructuredData} **/
   json: {

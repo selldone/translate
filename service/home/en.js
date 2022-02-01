@@ -9,6 +9,9 @@ export default {
 
   moto: "You try, we open the doors!",
   start_now_btn: "Start now — it's free",
+  create_ecommerce_btn: "Start Your Ecommerce For Free",
+  incentive_action:"Say goodbye to your low online sales rate!",
+
   create_shopping_website: "Create My Ecommerce",
 
   s1: {
@@ -35,7 +38,7 @@ export default {
     inventory: "Inventory Management",
     cms: "Page Editor & CMS",
 
-    in_60_sec: "In just 60 seconds",
+    in_60_sec: "Click here",
   },
 
   video: {
@@ -237,7 +240,7 @@ export default {
   },
 
   stripe: {
-    title: "Have your stripe account?",
+    title: "Have a Stripe account?",
     msg: "Congratulation, you have had most things done before. Create your online sales website just by on-tap! Selldone does all things after that.",
   },
   /* demo: {
