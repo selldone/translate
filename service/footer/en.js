@@ -14,12 +14,12 @@ export default {
         items: [
           { title: "What is Selldone?", to: { name: "WhatIsSelldone" } },
           { title: "Selldone Community", to: { name: "CommunityHomePage" } },
-          { title: "University & Help", to: { name: "Helps" } },
+          { title: "Help", to: { name: "Helps" } },
           { title: "Blog", to: { name: "Blogs" } },
+          { title: "FAQ", to: { name: "FAQ" } },
 
           { title: "Privacy Policy", to: { name: "Landing_Privacy" } },
           { title: "Term of Service", to: { name: "Landing_Terms" } },
-          { title: "FAQ", to: { name: "FAQ" } },
         ],
       },
       {
@@ -47,6 +47,8 @@ export default {
           { title: "SEO Engine", to: { name: "Landing_SEO" } },
           { title: "Smart Report", to: { name: "Landing_SmartReport" } },
           { title: "Cloud Hosting", to: { name: "Landing_Cloud" } },
+          { title: "Logistic Solution", to: { name: "Landing_Logistic" } },
+
         ],
       },
       {
@@ -56,9 +58,10 @@ export default {
           { title: "Applications", to: { name: "AppStore_List" } },
           { title: "Application Builder", to: { name: "Landing_AppBuilder" } },
           { title: "Page Maker", to: { name: "Landing_PageBuilder" } },
-          { title: "Logistic Solution", to: { name: "Landing_Logistic" } },
           { title: "Automation & IoT", to: { name: "Landing_Automation" } },
           { title: "Community Platform", to: { name: "Landing_Community" } },
+          { title: "Sales Handbooks", to: { name: "Handbooks" } },
+
         ],
       },
     ],

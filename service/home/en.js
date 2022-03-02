@@ -43,7 +43,7 @@ export default {
 
   video: {
     title: "An all-in-one solution for your online and in-person sales.",
-    msg: "Provide the fastest purchase experience to your audience. ",
+    msg: "Provide the fastest purchase experience in your ecommerce.",
 
     card_pos: {
       title: "Selldone POS",
@@ -56,24 +56,24 @@ export default {
   },
 
   why: {
-    title: "Why Selldone",
-    msg: "The Business Operating System as a service for you to make Your Business Online at No Cost.",
+    title: "Why Selldone?",
+    msg: "It's a Professional Business Operating System as a service for you to make Your Business Online at No Cost.",
 
     sec1: {
-      title: "Simple + Professional feeling",
+      title: "Easy + Professional",
       msg: "It's built for you to game like a professional in the markets, even if you are a beginner but want to play like a professional, or you are an expert and deserve to play like yourself!",
     },
     sec2: {
-      title: "Fast-growing",
+      title: "Make money",
       msg: "We release new features, update APIs and apply new methods as a daily routine.  It's an operating system for your business, so your business scale up by our platform.",
     },
     sec3: {
-      title: "Social match sales",
+      title: "Social sales",
       msg: "Our product is designed on the real trading behavior of purchasers all around the world. We offer one-of-a-kind sales-methods on Instagram, TikTok, and other social networks, named AVOCADO.",
     },
     sec4: {
-      title: "100% API",
-      msg: "Our services are based on REST APIs! Anyone has access to 100% of all aspects of the shopping experience, payments, store management, and other features by simple requests.",
+      title: "Save money",
+      msg: "No need for any experts to have an ecommerce anymore! Say goodbye to the costly development, maintenance, programming process, and even ecommerce platforms experts' cost.",
     },
   },
 
@@ -147,14 +147,14 @@ export default {
   },
 
   stop: {
-    title: "Selldone is not an ordinary simple solution, but...",
+    title: "Easy online shopping website builder + Direct payment.",
     subtitle:
-      "The simple does not make you successful! If you plan to build a serious online business, Selldone is for you, but if looking for a simple and ordinary solution, Selldone is not.",
+      "If you plan to build a serious online business and make your business idea a reality, Selldone fits your wishes.",
   },
 
   os: {
-    title: "Access to enterprise grade tools — free.",
-    msg: "We bring the power of building professional ecommerce to everyone.",
+    title: "Access to enterprise grade tools — Free.",
+    msg: "We bring the power of building professional ecommerce into your hands.",
   },
   login: {
     title: "Are you ready to game like professionals in the market?",
@@ -235,7 +235,7 @@ export default {
   },
 
   build: {
-    title: "Build your online shopping website.",
+    title: "Be your boss & Make more money.",
     msg: "You have many choices to convert your social media accounts to an online shopping website on your domain or create your professional ecommerce from scratch.",
   },
 
@@ -249,8 +249,8 @@ export default {
   },*/
 
   unbanked: {
-    title: "One platform, One solution — Unbanked.",
-    msg: "The one of a kind solution for over 1.7 billion unbanked adults.",
+    title: "One platform, One solution — Objective.",
+    msg: "The one of a kind solution to facilitate online sales and unlock entrepreneurs, even for over 1.7 billion unbanked adults.",
   },
   faqs: [
     {

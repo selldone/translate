@@ -393,4 +393,8 @@ export default {
     moderation: "Moderation",
     moderation_info: "Add and manage forum access.",
   },
+  mission:{
+    title:'We are on the mission to',
+    message:'make business easy, achievable, and accessible for anyone around the world',
+  }
 };

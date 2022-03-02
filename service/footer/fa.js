@@ -1,7 +1,7 @@
 export default {
   /** @see SaminFooter **/
   footer: {
-    title: "سیستم عاملی برای کسب و کارهای کوچک و برند های مستقل",
+    title: "سیستم عامل  کسب و کار شما برای فروش آنلاین",
     message:
       "کسب و کار آنلاین خود را رایگان بسازید محصول خوب داشتن کافیست، چه مشتریان زیادی داشته باشید یا اول راه خود باشید، ما کمک می کنیم از طریق پلتفرم فروشگاهی سلدان، ساده تر و منعطف تر کسب و کار خودتان رو آنلاین کرده تا به طیف گسترده تری از مشتریان داخلی و خارجی دست پیدا کنید. سلدان هم محصولات فیزیکی، هم خدمات، هم فایل و حتی کالاهای مجازی را در سایتش پوشش داده و برای هر کدام یک ساختار مختص به خودشان را ارائه می دهد. بنابراین هم خریدار و هم فروشنده مدیریت جامعی بر روی سفارشاتشان خواهند داشت.",
     contact_us: "تماس با ما",
@@ -11,10 +11,10 @@ export default {
         title: "سلدان",
         items: [
           { title: "سلدان چیست؟", to: { name: "WhatIsSelldone" } },
-          { title: "وبلاگ", to: { name: "Blogs" } },
-          { title: "راهنما سرویس", to: { name: "Helps" } },
-          { title: "سوالات متداول", to: { name: "FAQ" } },
           { title: "انجمن سلدان", to: { name: "CommunityHomePage" } },
+          { title: "راهنما سرویس", to: { name: "Helps" } },
+          { title: "وبلاگ", to: { name: "Blogs" } },
+          { title: "سوالات متداول", to: { name: "FAQ" } },
 
           { title: "حریم خصوصی", to: { name: "Landing_Privacy" } },
           { title: "قوانین سرویس", to: { name: "Landing_Terms" } },
@@ -45,6 +45,8 @@ export default {
           { title: "موتور SEO", to: { name: "Landing_SEO" } },
           { title: "گزارش دهی هوشمند", to: { name: "Landing_SmartReport" } },
           { title: "هاست ابری", to: { name: "Landing_Cloud" } },
+          { title: "لجستیک و فروش", to: { name: "Landing_Logistic" } },
+
         ],
       },
       {
@@ -55,12 +57,13 @@ export default {
           { title: "اپلیکیشن ساز", to: { name: "Landing_AppBuilder" } },
           { title: "صفحه لندینگ ساز", to: { name: "Landing_PageBuilder" } },
 
-          { title: "لجستیک و فروش", to: { name: "Landing_Logistic" } },
           {
             title: "اتوماسیون و اینترنت اشیا",
             to: { name: "Landing_Automation" },
           },
           { title: "انجمن ساز", to: { name: "Landing_Community" } },
+          { title: "کتاب راهنمای فروش", to: { name: "Handbooks" } },
+
         ],
       },
     ],

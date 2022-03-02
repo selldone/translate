@@ -134,11 +134,11 @@ export default {
   /** @see LayoutShop **/
   layout_shop: {
     shop_menu: {
-      orders_history: "Order History",
-      profile: "Profile",
-      favorites: "My Favorites",
+      orders_history: "Orders History",
+      profile: "My Profile",
+      favorites: "Favorite Items",
       gift_cards: "Gift Cards",
-      return_requests: "Return requests",
+      return_requests: "Returned Orders",
       basket: "Shopping Cart",
     },
     user_menu: {
@@ -158,7 +158,7 @@ export default {
     basket: "Cart",
     basket_is_empty: "Your cart is empty.",
     total_price: "Total",
-    view_basket: "View Cart",
+    view_basket: "Your Cart",
     more: "More ...",
     accept_and_pay: "Checkout",
     items: "item(s)",
@@ -217,15 +217,15 @@ export default {
       },
       total_payment: "Amount paid",
       discount: "Discount",
-      discount_code: "Discount code",
-      delivery_fee: "Shipping cost",
+      discount_code: "Discount Code",
+      delivery_fee: "Shipping Cost",
       delivery_fee_after: "No delivery payed",
 
-      total_price: "Total Price of Items",
-      total_items_discount: "Items discount",
-      total_price_after_offers: "Total Price after apply offers",
+      total_price: "Total Items Price",
+      total_items_discount: "Items Discount",
+      total_price_after_offers: "Total after applying offers",
 
-      buyer_payment: "Buyer Payment Amount",
+      buyer_payment: "Buyer payment amount",
     },
     /** {@see CustomerOrderDeliveryWidget} **/
     delivery: {
@@ -310,6 +310,7 @@ export default {
     subscription: "News subscription",
     leave_shop: "Leave this store and remove all customers level",
     leave_shop_action: "Leave shop",
+    edit_personal_info:'Edit personal info',
     leave_dialog: {
       title: "Leave shop",
       message:
@@ -594,6 +595,16 @@ export default {
     order_action: "Payment",
     add_new_order: "New order",
     continue_order: "Continue order",
+
+    delete_item_dialog: {
+      title: "Remove item from the shopping cart",
+      message: "Do you want to delete this item from the cart?",
+      action: "Yes, delete",
+    },
+    notifications: {
+      order_success: "Your order was successfully placed.",
+      delete_success: "Item deleted.",
+    },
   },
 
   /** {@see RowCustomerPendingPayment} **/
@@ -603,4 +614,43 @@ export default {
       "✔ You have already uploaded the receipt image, wait for our approval. If you need to change, you can replace the previous image with a new one.",
     public_form_title: "Account information for money transfer",
   },
+
+
+  /** @see ServiceBillingItem **/
+  service_bill: {
+    task: {
+      title: "To-do list",
+      message:
+          "Specify the titles of the work you want to do and let the buyer know how far it has progressed.",
+    },
+    booking: {
+      title: "Booking / Reservation",
+      message:
+          "This order will be processed at a specified time, the customer has selected the desired period, if you want to make any changes in the selected period, let the customer know.",
+
+      selected_checkin: "Selected Customer Login Date",
+      selected_checkout: "Selected customer exit date",
+      change_days_question:
+          "Do you need to change during the customer selected days?",
+      show_calendar: "Show Calendar of Orders",
+    },
+    pricing: {
+      title: "Pricing",
+      message: "How much do you charge for this service?",
+    },
+    subscription: {
+      title: "Subscription",
+      message:
+          "You can choose the subscription period by purchasing this service on a daily basis. Let the buyer know if you want to change the default values you have already entered.",
+      duration: "Subscription period",
+    },
+    charge: {
+      title: "Charge",
+      message:
+          "You have specified a charge for this item. You can change the charge amount for the item purchased by the customer.",
+      charge: "Charge",
+    },
+
+  },
+
 };

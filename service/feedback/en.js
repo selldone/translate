@@ -21,6 +21,6 @@ export default {
     meh_trail: "Not bad, I have no idea.",
     no_trail: "There are some problems.",
     score_question:
-      "From 1 to 10, how much do you like to introduce Selldone to your friends?",
+      "From 1 to 10, how much do you like Selldone?",
   },
 };
