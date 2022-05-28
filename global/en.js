@@ -10,14 +10,14 @@ export default {
   store: "Store",
 
   not_exist: "Not exists",
-  error: "error",
+  error: "Error",
   active: "Active",
   inactive: "Inactive",
   required_value: "Required values",
 
-  original_warranty: "Guarantee of originality of goods",
-  return_warranty_days: "{days} return guarantee day",
-  no_return_warranty: "No return guarantee",
+  original_warranty: "Original Product Guarantee",
+  return_warranty_days: "{days} return guarantee day(s)",
+  no_return_warranty: "No return",
 
   reed_agree_terms:
     "I have read the terms of use and privacy policy and agree with them.",
@@ -28,12 +28,12 @@ export default {
     COD: "COD",
     State: "State",
     Price: "Price",
-    order_price: "Order price",
+    order_price: "Order amount",
     VAT: "VAT",
     Discount: "Discount",
     In_Stock: "In Stock",
     Variants: "Variants",
-    No_variants: "No variants",
+    No_variants: "No variant",
     all: "All",
     today: "Today",
     yesterday: "Yesterday",
@@ -61,6 +61,7 @@ export default {
     free_completely: "Completely free subscription",
     fee: "Fee",
     month: "Month",
+    months: "Months",
     faq: "Frequently Asked Questions",
     question: "Question",
     answer: "Answer",
@@ -75,8 +76,8 @@ export default {
     sessions: "Sessions",
     product_views: "Product views",
     add_to_carts: "Add to carts",
-    checkouts: "Checkouts",
-    payments: "Payments",
+    checkouts: "Checkout",
+    payments: "Payment",
     organic_search: "Organic search",
     other: "Other",
 
@@ -123,22 +124,22 @@ export default {
 
     website: "Website",
 
-    apply_for_all_products: "Apply for all products",
+    apply_for_all_products: " ∞ Apply for all products",
 
-    fix_commission: "Fix commission",
-    percent_commission: "Percent commission",
+    fix_commission: "Fixed commission",
+    percent_commission: "Percentage commission",
 
     fixed_discount: "Fixed discount",
-    discount_percentage: "Percent discount",
+    discount_percentage: "Percentage discount",
     discount_limit: "Discount limit",
     no_code: "No code",
-    max_count: "Max count",
-    count_unit: "items",
+    max_count: "Maximum count",
+    count_unit: "Items",
     used: "Used",
     daily: "Daily",
     monthly: "Monthly",
     yearly: "Yearly",
-    state: "State",
+    state: "Status",
     disable: "Disable",
     enable: "Enable",
     activation_code: "Activation code",
@@ -185,7 +186,7 @@ export default {
     customer_club: "Customer Club",
     shipping: "Shipping",
     sum: "Sum",
-    not_payed: "Not paid",
+    not_paid: "Not paid",
     category: "Category",
     done: "Done",
     email_from: "From",
@@ -203,14 +204,14 @@ export default {
     tax_included: "Included in price",
 
     limit: "Limit",
-    min_purchase: "Min purchase",
+    min_purchase: "Minimum purchase",
     eligible_for: "Eligible for",
     only_for_first_buy: "Only for first purchase",
     one_time_use: "Can use one time",
-    period_of_qualify: "Qualify period",
-    no_constraint: "No constraint",
+    period_of_qualify: "Period usage limit",
+    no_constraint: "No limit",
 
-    timespan: "Timespan",
+    timespan: "Time Period",
     days: "day(s)",
     weight: "Weight",
     distance: "Distance",
@@ -218,7 +219,7 @@ export default {
     last_status: "Last status",
     issued_at: "Issued at",
     order: "Order",
-    order_detail: "Order detail",
+    order_detail: "Order details",
 
     percent: "Percent",
     applied_count: "Applied count",
@@ -246,12 +247,12 @@ export default {
     personal: "Personal",
     size: "Size",
     holiday: "Holiday",
-    sod: "Shipping upon delivery",
+    sod: "Delivery cost on destination",
     cod: "Cash on delivery",
     free_shipping: "Free shipping",
     hours: "Hours",
-    send_date: "Send date",
-    deliver_date: "Deliver date",
+    send_date: "Shipping date",
+    deliver_date: "Delivery date",
     return_date: "Return date",
     pending: "Pending",
     delivered: "Delivered",
@@ -261,8 +262,8 @@ export default {
     action: "Action",
     cancel_date: "Cancel date",
     deliver_in_process: "The order is shipped..",
-    kind: "Kind",
-    detail: "Detail",
+    kind: "Type",
+    detail: "Details",
     map: "Map",
     actions: "Actions",
     navigation: "Navigation",
@@ -270,13 +271,13 @@ export default {
     payment_date: "Payment date",
     duration: "Duration",
     bill: "Bill",
-    delivery_persons: "Delivery persons",
+    delivery_persons: "Couriers",
     delivery_services: "Delivery services",
     live_view: "Live view",
     cart: "Cart",
     priority: "Priority",
     sufficient_credit: "Sufficient credit",
-    max_package_size: "Max package size",
+    max_package_size: "Maximum package size",
     delay: "Delay",
     credit: "Credit",
     livemode: "Live",
@@ -286,7 +287,7 @@ export default {
     status: "Status",
     courier: "Courier",
     track: "Track",
-    track_order: "Tracking order",
+    track_order: "Order Tracking ",
     cost: "Cost",
     receipt: "Receipt",
     origin: "Origin",
@@ -294,7 +295,7 @@ export default {
     sku: "SKU",
     mpn: "MPN",
     not_in_stock: "Not enough stock!",
-    sub_total: "Sub Total",
+    sub_total: "Subtotal",
     customer: "Customer",
     delivery: "Delivery",
     online_orders: "Online Orders",
@@ -323,7 +324,7 @@ export default {
     pos_vat: "POS VAT",
     sort_by: "Sort by..",
     from: "From",
-    from_lead_time: "within the next {hours} hours",
+    from_lead_time: "Within the next {hours} hours",
     no_credit_card_info: "No Card Info!",
 
     active: "Active",
@@ -357,8 +358,8 @@ export default {
     sales: "Sales",
     total_views: "Total views",
     total_sales: "Total sales",
-    from_previous_n_days: "from previous {days} days",
-    drop_shipping: "Drop shipping",
+    from_previous_n_days: "From last {days} days",
+    drop_shipping: "Dropshipping",
     commission: "Commission",
     shipping_area: "Shipping area",
     main_seller: "Main seller",
@@ -376,7 +377,7 @@ export default {
     customer_price: "Customer price",
 
     options: "Options",
-    show_details: "Show Details",
+    show_details: "Show details",
     no_data: "No data..",
     waiting: "Waiting...",
     waiting_connecting_payment: "Waiting for the payment service...",
@@ -394,13 +395,13 @@ export default {
     language: "Language",
     tasks: "Tasks",
     permissions: "Permissions",
-    finish_date: "Finish date",
-    complete_date: "Complete date",
-    settle_date: "Settle date",
-    cost_span: "Cost span",
+    finish_date: "End date",
+    complete_date: "Completion date",
+    settle_date: "Settlement date",
+    cost_span: "Price range",
     industry: "Industry",
-    rating: "Rating",
-    rates: "Rates",
+    rating: "Ratings",
+    rates: "Rating",
     seen_at: "Seen at",
     completed: "Completed",
     you: "You",
@@ -419,8 +420,8 @@ export default {
     chats: "Chats",
     tags: "Tags",
     description: "Description",
-    rates_count: "Rates count",
-    rate: "Rate",
+    rates_count: "Number of Ratings",
+    rate: "Rating",
     comment: "Comment",
     chat: "Chat",
     install: "Install",
@@ -431,8 +432,8 @@ export default {
     female: "Female",
     calculator: "Calculator",
     catalog: "Catalog",
-    max_height: "Max height",
-    images_compare: "Images compare",
+    max_height: "Maximum height",
+    images_compare: "Images comparison",
     canvas: "Canvas",
     table_of_contents: "Table of contents",
     comments: "Comments",
@@ -456,8 +457,8 @@ export default {
     final_price: "Final price",
     starting_price: "Starting price",
 
-    day: "day",
-    payed: "Paid",
+    day: "Day",
+    paid: "Paid",
     service_bill: "Invoice payment",
     avocado: "Avocado",
 
@@ -465,7 +466,7 @@ export default {
     select_address: "Select address",
     image: "Image",
     view: "View",
-    sell: "Sell",
+    sell: "Sale",
 
     hyper: "Hyper",
     cart_list: "Cart",
@@ -475,7 +476,7 @@ export default {
     new_carts: "New carts",
     pays: "Payments",
     annually: "Annually",
-    sells: "Sells",
+    sells: "Sales",
     articles: "Articles",
     jobs: "Jobs",
     job: "Job",
@@ -520,7 +521,7 @@ export default {
     congratulations: "Congratulations",
     recommend: "Recommend",
     recommended: "Recommended",
-    recoms: "Recommends",
+    recoms: "Recommendations",
     likes: "Likes",
     clicks: "Clicks",
     platform: "Platform",
@@ -537,7 +538,7 @@ export default {
     income: "Income",
     change: "Change",
     new_users: "New users",
-    success_orders: "Success orders",
+    success_orders: "Successful orders",
     direct: "Direct",
     last_activity: "Last activity",
     landing: "Landing",
@@ -547,15 +548,15 @@ export default {
     tablet: "Tablet",
     pc: "PC",
     acquisition_channel: "Acquisition channel",
-    to: "to",
+    to: "To",
     info: "Info",
     general: "General",
     upload: "Upload",
     general_config: "General config",
     limits_config: "Limitations",
     design_config: "Design & Style",
-    duration_config: "Duration limits",
-    constraints_config: "Eligibility constraints",
+    duration_config: "Duration limit",
+    constraints_config: "Eligibility limits",
     clubs_config: "Available in Clubs",
     additional_config: "Additional configs",
     import: "Import",
@@ -564,13 +565,58 @@ export default {
     edit: "Edit",
     delete: "Delete",
     analytics: "Analytics",
-    rules:"Rules",
-    unset:"Not set",
-    carts:"Carts",
-    optional:"Optional",
+    rules: "Rules",
+    unset: "Not set",
+    carts: "Carts",
+    optional: "Optional",
     design: "Design",
     filter: "Filter",
     send: "Send",
+    approved: "Approved",
+    unit: "Unit",
+    profile: "Profile",
+    shipping_rates: "Shipping rates",
+    package: "Package",
+    overview: "Overview",
+    live: "Live",
+    never: "Never",
+    always: "Always",
+    mandatory: "Mandatory",
+    expire_at: "Expiry date",
+    position: "Position",
+    channel: "Channel",
+    age: "Age",
+    charge: "Charge",
+    giftcard: "Gift card",
+    acquisition: "Acquisition",
+    conversion: "Conversion",
+    total_payments: "Total payments",
+    community_ask: "Ask in community",
+    children: "Children",
+    export: "Export",
+    list: "List",
+    hierarchy: "Hierarchy",
+    images: "Images",
+    demo: "Demo",
+    author: "Author",
+    designer: "Designer",
+    max: "Maximum",
+    accepted: "Accepted",
+    reply: "Reply",
+    reviewed: "Reviewed",
+    restored: "Restored",
+    merchant: "Merchant",
+    per_product: "Per product",
+    journey: "Journey",
+    after: "After",
+    hour: "Hour",
+    minute: "Minute",
+    premium:'Premium',
+    light:'Light',
+    dark:'Dark',
+    guest:'Guest',
+
+
 
   },
 
@@ -648,9 +694,9 @@ export default {
     collapse: "Collapse",
     apply_change: "Apply changes",
     apply: "Apply",
-    add_giftcard: "Add giftcard",
+    add_giftcard: "Add gift card",
     charge: "Charge",
-    send_invites: "Send invites",
+    send_invites: "Send invitations",
     past: "Past",
     restore: "Restore",
     cut: "Cut",
@@ -671,7 +717,7 @@ export default {
     explore: "Explore {name}",
     go: "Go",
     read_more: "Read more",
-    start_now: "Start now — it's free",
+    start_now: "Start now — It's free",
     view_live: "View live",
     resend_code: "Resend code",
     invite: "Invite",
@@ -680,17 +726,22 @@ export default {
     uninstall: "Uninstall",
     show_preview: "Show preview",
     hide_preview: "Hide preview",
-    download_now:'Download Now',
-
-
+    download_now: "Download Now",
+    auto_fill: "Autofill",
+    track: "Track",
+    change_state: "Change Status",
+    done: "Done",
+    reply: "Reply",
   },
 
-  instance_message_title: "Send instance message",
+  instance_message_title: "Send instant message",
   instance_message: "Hi {name}, \nMy name is {author} from {company}.",
 
   errors: {
+    419: "You have been inactive for a long time, please <b>⟳ REFRESH THE PAGE</b> for security reasons.",
+
     gateway_blockchain_sync_error:
-      "The system does not synchronize with the blockchain. It will not be possible to create a new transaction until our servers sync completed. We are solving the problem.",
+      "The system does not synchronize with the blockchain. It will not be possible to create a new transaction until our servers' synchronizations are completed. We are solving the problem.",
     gateway_network_error:
       "Payment gateway service has encountered a communication problem.",
   },
@@ -712,14 +763,36 @@ export default {
   },
 
   weight: {
+    g: "g",
+    oz: "oz",
+    lb: "lb",
     kg: "kg",
+  },
+  mass_unit_name: {
+    g: "Gram",
+    oz: "Ounce",
+    lb: "Pound",
+    kg: "Kilogram",
   },
   length: {
     cm: "cm",
+    in: "in",
+    ft: "ft",
+    mm: "mm",
+    m: "m",
+    yd: "yd",
+  },
+  size_unit_name: {
+    cm: "Centimeter",
+    in: "Inch",
+    ft: "Foot",
+    mm: "Millimeter",
+    m: "Meter",
+    yd: "Yard",
   },
 
   distance: {
-    m: "meter",
+    m: "Meter",
     km: "Km",
   },
   time: {
@@ -740,13 +813,13 @@ export default {
     "gram",
     "milligram",
 
-    "metre",
-    "millimetre",
+    "meter",
+    "millimeter",
 
-    "square metre",
+    "square meter",
     "square feet",
 
-    "cubic metre",
+    "cubic meter",
     "litre",
     "millilitre",
 
@@ -767,19 +840,20 @@ export default {
   },
 
   transaction_status: {
-    RequireAction: "Require Action",
+    RequireAction: "Action Required",
     Processing: "Processing",
     Canceled: "Canceled",
     Succeeded: "Succeeded",
   },
 
   placeholders: {
-    name: "Jone doe",
+    name: "Jone Cox",
     email: "your-mail@mail.com",
     phone: "+1 000 0000",
     language: "Select language..",
     friend_email: "Your friend's email...",
-    friend_name: "opt. Your friend's name",
+    friend_name: "Opt. Your friend's name",
+    select_date: "Select a date...",
   },
 
   notification: {
@@ -808,6 +882,10 @@ export default {
 
     invalid_max_chars: "Max {maxCount} characters",
     invalid_url: "Invalid URL",
+
+    country_invalid:"Select destination country!",
+    postal_code_invalid:"Set valid postal code!",
+
   },
 
   colors: colors,
@@ -830,14 +908,15 @@ export default {
   product_types: {
     physical: "Physical",
     physical_description:
-      "Physical goods such as: mobile phones, books, electronic components.",
+      "Physical products such as: mobile phones, books, electronic components.",
 
     virtual: "Virtual",
     virtual_description:
       "Internet-friendly products such as: recharge card, hotel reservation, game recharge.",
 
     file: "File",
-    file_description: "All permitted files fall into this category.",
+    file_description:
+      "All permitted files like online course video, downloadable documents.",
 
     service: "Service",
     service_description: "Services like: repair, transportation, teaching.",
@@ -959,16 +1038,16 @@ export default {
     NZD: "NZD",
     PAB: "PAB",
     PEN: "PEN",
-    PGK:"PGK",
-    PHP:"PHP",
+    PGK: "PGK",
+    PHP: "PHP",
 
     PLN: "PLN",
-    PYG:"PYG",
-    RON:"RON",
-    RSD:"RSD",
-    RWF:"RWF",
-    SBD:"SBD",
-    SCR:"SCR",
+    PYG: "PYG",
+    RON: "RON",
+    RSD: "RSD",
+    RWF: "RWF",
+    SBD: "SBD",
+    SCR: "SCR",
     SGD: "SGD",
     SEK: "SEK",
     SHP: "SHP",
@@ -1069,7 +1148,7 @@ export default {
     global_description: "Shipping overseas by air, sea or land.",
     pickup: "Pickup",
     pickup_description:
-      "Orders get by the customer inside your store or warehouse.",
+      "Customers pick up the items at your physical store or warehouse.",
   },
 
   /** {@see ArticleView} **/
@@ -1083,54 +1162,54 @@ export default {
       delete: "Delete Article",
     },
     schedule_action: "Do you want to schedule publication?",
-    schedule_title: "Schedule auto publish",
+    schedule_title: "Schedule auto-publish",
     edit_mode: "Edit",
     public_view_mode: "Public view",
-    publish_at: "Publish to",
+    publish_at: "Publish at",
     published: "Published",
     draft: "Draft",
-    saving: "In storage",
+    saving: "Saving",
     save_and_publish_action: "Save and Publish",
     save_draft_action: "Save draft",
     private: "Private",
     public: "Public",
     category_input: "Category",
     category_input_message: "Select article category",
-    parent_input: "Father's story",
+    parent_input: "Parent category",
     parent_input_message: "Select father content",
     schedule_input: "Schedule",
     schedule_input_placeholder:
       "If you want the story to be published at a specific time.",
-    schedule_view_action: "View Release Schedule",
+    schedule_view_action: "View Publish Schedule",
 
     author_title: "Written by",
     read_time: "Study time",
-    read_time_unit: "minutes",
+    read_time_unit: "Minutes",
     claps_action: "Claps",
-    claps: "cheer",
+    claps: "Claps",
     likes: "Like",
     about_author: "About the author",
     updated_at: "Updated",
-    wrote_at: "Wrote at",
+    wrote_at: "Written at",
     now: "Now",
     follow_action: "Follow",
     followed: "Followed",
-    report_and_delete_action: "Report and delete this entry",
+    report_and_delete_action: "Report and delete this article",
     report_action: "Report Abuse",
-    you_reported_this_article: "You already have a report for this item.",
+    you_reported_this_article: "This article already has an abuse report.",
     add_to_publication_action: "Add to Publication",
-    author_socials: "Author on social networks",
+    author_socials: "Author on social media",
     share: "Share",
     report_dialog: {
       report_and_delete_title: "Report abuse and remove content",
-      report_title: "Report abuse for this content",
+      report_title: "Report this content as abusive",
       message:
         "What is the reason for submitting this content? Choose one of the following options. ",
       accept_and_delete_action: "Confirm and Delete Content",
     },
     schedule_dialog: {
       title: "Content Release Schedule",
-      publish_at: "Publish to",
+      publish_at: "Publish at",
       last_edit: "Last edit",
       view_action: "View Article",
     },
@@ -1139,11 +1218,11 @@ export default {
       update_success: "Article updated successfully.",
       update_error: "The information entered is not valid.",
       delete_error: "You can't delete this article!",
-      report_and_delete_success_title: "Report and Removal",
+      report_and_delete_success_title: "Report and Delete",
       report_and_delete_success_message:
-        "Article has been successfully deleted.",
+        "Article has been deleted successfully.",
       report_success_title: "Report article",
-      report_success_message: "Your report of this article have been posted.",
+      report_success_message: "Your report on this article has been posted.",
     },
     alert: {
       delete_article: {
@@ -1155,12 +1234,12 @@ export default {
 
     /** {@see ArticleEdit} **/
     edit_window: {
-      title: "Select Image Text and Abstract",
+      title: "Select Image Text and Summary",
       digest: "Summary",
     },
     /** {@see EditorContainer} **/
     editor: {
-      title_placeholder: "title..",
+      title_placeholder: "Title..",
       body_placeholder: "Write great content..",
       accept_file_types_error: "This file format is unacceptable:",
       max_file_size_error: "This file is too large:",
@@ -1169,7 +1248,7 @@ export default {
         image_uploaded_failed: "Error loading image.",
       },
       embed_placeholder:
-        "Enter the iframe code, facebook, youtube or any other URL and press enter.",
+        "Enter the iframe code, Facebook, Youtube or any other URL and press enter.",
       embed_caption_placeholder: "Enter a title (optional)",
       images_caption_placeholder: "Enter a title for this image ..",
     },
@@ -1177,11 +1256,11 @@ export default {
 
   /** {@see ArticleReport} **/
   article_report: {
-    inappropriate: "The content of this article is not appropriate.",
+    inappropriate: "The content of this article is inappropriate.",
     fake: "This is fake and deceptive.",
     spam: "This item has been spammed and copied.",
-    scam: "This can be expected to cause malware, viruses or system users to crash.",
-    hacked: "This site looks like it's being carved",
+    scam: "This can be expected to cause malware, viruses or system crash.",
+    hacked: "This site appears to have been hacked.",
     offensive:
       "The language content and vocabulary is unethical and disrespectful.",
     violent:
@@ -1197,12 +1276,12 @@ export default {
     title: "Comments",
     body_placeholder: "Your comment or message",
     send_action: "Send comment",
-    body_is_empty_error: "Comment is empty!",
+    body_is_empty_error: "Comment is blank!",
     comments: "Comments",
     no_comments: "Write first comment...",
     load_more_action: "Get more comments ..",
-    cant_send_comment: "You cannot post new posts.",
-    cant_remove_this_comment: "You can't delete this comment!",
+    cant_send_comment: "You cannot add new post.",
+    cant_remove_this_comment: "You cannot delete this comment!",
     product_buyer: "Buyer",
 
     delete_alert: {
@@ -1211,7 +1290,7 @@ export default {
       action: "Delete",
     },
     notifications: {
-      delete_success: "Your comment was successfully deleted",
+      delete_success: "Your comment deleted successfully.",
     },
     first_send: "First post",
     comment_at: "On",
@@ -1234,7 +1313,7 @@ export default {
     crm: "CRM",
     transportation: "Transportation",
     automation: "Automation",
-    inventory: "warehousing",
+    inventory: "Warehousing",
     accounting: "Accounting",
     marketing: "Marketing",
     advertising: "Advertising",
@@ -1262,15 +1341,15 @@ export default {
   /** {@see FormBuilder} **/
   form_builder: {
     add_item_action: "Add new item",
-    title_input: "title",
+    title_input: "Title",
     name_input: "Variable name",
-    value_input: "values",
+    value_input: "Values",
     value_input_message: "User Options List",
     default: "Default value",
 
     types: {
-      simple: "simple",
-      selective: "selective",
+      simple: "Simple",
+      selective: "Selective",
       switch: "Switch",
     },
   },
@@ -1284,7 +1363,7 @@ export default {
     final_price: "Final amount",
     payment_status: "Payment Status",
     payment_status_waiting: "Waiting for payment",
-    payment_status_payed: "Paid",
+    payment_status_paid: "Paid",
     buyer: "Buyer",
   },
 
@@ -1301,14 +1380,13 @@ export default {
     inputs: {
       title: "Information Required",
       sub_title: "Buyer Information Required",
-      message:
-        "The buyer must enter the requested information in the requested information form",
+      message: "The buyer must enter the requested information in the form",
     },
 
     notifications: {
       inputs_set_success: "Information form registered successfully.",
-      confirm_by_admin_success: "Order completed confirmed.",
-      confirm_by_buyer_success: "Order completed confirmed.",
+      confirm_by_admin_success: "Order completion confirmed.",
+      confirm_by_buyer_success: "Order completion confirmed.",
     },
   },
 
@@ -1320,7 +1398,7 @@ export default {
     location_out_of_service: "Customer location is out of service.",
     user_not_responding: "Customer did not answer calls.",
     shop_owner_fault:
-      "An error occurred by store staff in entering information.",
+      "An error occurred by store staff in filling information.",
     lack_of_inventory: "Out of stock.",
     legal_restriction: "Unable to place an order due to legal restrictions.",
     pricing_fault: "Pricing mistake by seller.",
@@ -1331,10 +1409,10 @@ export default {
   basket_order_info_summery: {
     receiver: "Receiver",
     phone: "Tel",
-    reserved_date: "Reserve date",
-    total_price: "Total price",
+    reserved_date: "Purchase date",
+    total_price: "Total amount",
     discount: "Discount",
-    final_price: "Final price",
+    final_price: "Final amount",
     address: "Delivery Address",
     payment_status: "Payment status",
   },
@@ -1343,7 +1421,7 @@ export default {
   basket_status: {
     open: "Open",
     reserved: "Reserved",
-    payed: "Paid",
+    paid: "Paid",
     canceled: "Canceled",
     cod: "Pay On Delivery",
     receipt_added: "Receipt added",
@@ -1365,8 +1443,8 @@ export default {
     title: "Return Request",
     delivery_date: "Delivery date",
     return_date: "Request date",
-    items_count: "Return count",
-    items_count_unit: "item(s)",
+    items_count: "Returned items count",
+    items_count_unit: "Item(s)",
     reason: "Reason",
     description: "Description",
     status: "Status",
@@ -1376,7 +1454,7 @@ export default {
     accept_by_admin_action: "Accept request",
     reject_by_admin_action: "Reject request",
     message_for_admin:
-      "According to the agreement you have accepted by using the Selldone, you must contact the buyer and keep him/her informed of the process of returning his/her order. This should be done if the request is accepted or rejected and the buyer's full consent is obtained.",
+      "According to the agreement you have accepted by using the Selldone, you must contact the buyer and keep him/her informed of the process of returning his/her order. This must be done if the request is accepted or rejected and the buyer's full consent is obtained.",
     notifications: {
       update_status_success: "Request status updated.",
     },
@@ -1399,13 +1477,13 @@ export default {
   /** {@see ReturnRequestsList} **/
   return_request_list: {
     count: "Reference number",
-    return_warranty: "Return guarantee",
-    return_warranty_unit: "day(s)",
+    return_warranty: "Money Back Guarantee",
+    return_warranty_unit: "Day(s)",
     table: {
       code: "Order Code",
-      product: "product",
+      product: "Product",
       delivery_at: "Received Date",
-      state: "status",
+      state: "Status",
       reason: "Reason",
       return_warranty_period: "Warranty period",
     },
@@ -1414,14 +1492,14 @@ export default {
   /** {@see DataIteratorToolbar} **/
 
   data_toolbar: {
-    search: "search",
+    search: "Search",
     sort_by: "Sort by",
     count_item: "Show {item} items",
   },
 
   sort: {
     created_at: "Create date",
-    updated_at: "Modify date",
+    updated_at: "Edit date",
     title: "Title",
     description: "Description",
     like: "Popularity",
@@ -1429,36 +1507,37 @@ export default {
     product_type: "Product type",
     discount: "Discount",
     rate: "Rating",
-    rate_count: "Number of comments",
+    rate_count: "Number of ratings",
     category: "Category",
     product: "Product",
     body: "Content",
     card_type: "Card type",
     card_number: "Card Number",
     balance: "Balance",
-    payed: "Amount spent",
+    paid: "Amount spent",
     currency: "Currency",
     expire_at: "Expiry Date",
     discount_code: "Discount Code",
-    discount_percent: "Discount Percentage",
+    discount_percent: "Discount",
     discount_limit: "Discount limit",
-    max_count: "Max count",
-    used_count: "Used count",
+    max_count: "Maximum count",
+    used_count: "Used",
     start_date: "Start date",
     end_date: "End date",
-    total_discount_amount: "Total amount of discounts",
+    total_discount_amount: "Total discounts",
     initial_charge: "Initial charge",
     total_count: "Total count",
-    amount_payed: "Amount paid",
+    amount_paid: "Amount paid",
     name: "Name",
     published: "Published",
     visits: "Visits",
     color: "Color",
     landing_page: "Landing page",
     enable: "Enable",
-    fix_commission: "Fix commission",
-    percent_commission: "Percent commission",
+    fix_commission: "Fixed commission",
+    percent_commission: "Percentage commission",
     payment_at: "Payment date",
+    issued_at: "Issue date",
     payment: "Payment",
     website: "Website",
     email: "Email",
@@ -1466,7 +1545,7 @@ export default {
     code: "Code",
     schedule_at: "Schedule date",
     sender: "Sender",
-    in_que: "In que",
+    in_que: "In queue",
     sent: "Sent",
 
     shop: "Shop",
@@ -1493,13 +1572,13 @@ export default {
 
     registered: "Registered",
     purchased: "Purchased",
-    sex: "Sex",
+    sex: "Gender",
   },
 
   /** {@see ShopSearchBox} **/
 
   search_box: {
-    result: "search results",
+    result: "Search results",
     tips: "Search Products and Categories",
     label: "Search ...",
     category: "Category",
@@ -1508,30 +1587,30 @@ export default {
   /** {@see LeadStatus} **/
   lead_status: {
     physical_fast_delivery: "Instant delivery",
-    physical_under_24h_delivery: `Deliver in {lead} next hour`,
-    physical_over_24h_delivery: `Preparing and submitting from {days} next day`,
+    physical_under_24h_delivery: `Deliver within the next {lead} hours`,
+    physical_over_24h_delivery: `Preparing and submitting from next {days} days`,
     virtual_fast_prepare: "Instant delivery",
-    virtual_under_24h: "Done to {lead} next hour",
-    virtual_over_24h: "Done from {days} next day",
+    virtual_under_24h: "Will be done within the next {lead} hours",
+    virtual_over_24h: "Will be done from the next {days} days",
   },
 
   /** {@see ReturnItemStates} **/
   return_request_state: {
     pending: "Pending",
-    accepted: "Approved",
+    accepted: "Confirmed",
     rejected: "Rejected",
   },
 
   /** {@see ReturnOrderReason} **/
   return_order_reason: {
     physical: {
-      U1: "product mismatch",
+      U1: "Product mismatch",
       U2: "No product in shipping package",
       U3: "Package or product breakage",
       U4: "Package or serial number tampering",
-      U5: "In-product shortage",
-      U6: "Non-principle of goods",
-      U7: "Conforms to Seller Specifications",
+      U5: "Some items from the parcel are missing",
+      U6: "Product is not original",
+      U7: "Product doesn't satisfy the specifications",
     },
   },
   /** {@see ImageUploader} **/
@@ -1566,18 +1645,18 @@ export default {
     pay_amount_by_gift_cards: "Charge Card Payment",
     select_payment_method:
       "Choose your payment method from the following options.",
-    payment_amount_remained: "Payment balance remaining",
-    payment_amount: "amount paid",
-    all_payed_by_gift_cards:
-      "Congratulations, you will not need to pay any more to purchase this order. Press the pay key with the gift card. ",
-    pay_by_gift_cards_action: "Full payment with recharge card",
+    payment_amount_remained: "Remaining payment amount",
+    payment_amount: "Amount paid",
+    all_paid_by_gift_cards:
+      "Congratulations, you do not need to pay for this order. Press the Pay With Gift Card key. ",
+    pay_by_gift_cards_action: "Pay the order with charge card",
 
     order_free_payment: "Congratulations, your order is free! ",
-    order_free_payment_action: "Order Now Free",
+    order_free_payment_action: "Order Free Now",
 
     qr: {
-      address: "payment address",
-      amount: "amount",
+      address: "Payment address",
+      amount: "Amount",
     },
   },
   /** {@see DiscountField} **/
@@ -1592,16 +1671,16 @@ export default {
   /** {@see GiftCard} **/
   gift_card: {
     inactive: "Card is disabled",
-    expire: "Expire",
+    expire: "Expiry",
     transfer: "Transfer",
     send_to_friend: "Send to friend",
   },
   /** {@see CountDown} **/
   count_down: {
-    days: "day",
-    hours: "hour",
-    minutes: "minutes",
-    seconds: "seconds",
+    days: "Day",
+    hours: "Hour",
+    minutes: "Minutes",
+    seconds: "Seconds",
   },
   /** {@see GiftStatus} **/
   gift_status: {
@@ -1630,12 +1709,13 @@ export default {
     login_sms: "SMS Login",
     login_google: "Login with Google",
     login_facebook: "Login with Facebook",
+    login_apple: "Login with Apple",
     login_account: "Login by Selldone",
     register: "New user? Register now.",
     mobile_input: "Enter your mobile",
     verification_code: "Verification code",
     msg_title: "Hi,",
-    msg_body: "Please login, it will not take you more than a few seconds.",
+    msg_body: "Please login. It takes just a few seconds.",
   },
 
   /** {@see ShopBadges} **/
@@ -1644,13 +1724,13 @@ export default {
       name: "5 Year Gold Store",
     },
     GOLDEN_2YEAR: {
-      name: "4 Year Old Gold Store",
+      name: "4 Year Gold Store",
     },
     GOLDEN_3YEAR: {
       name: "3 Year Gold Store",
     },
     GOLDEN_4YEAR: {
-      name: "2 Year Old Gold Store",
+      name: "2 Year Gold Store",
     },
     GOLDEN_5YEAR: {
       name: "1 Year Gold Store",
@@ -1721,9 +1801,9 @@ export default {
     add_new: "Submit new question",
     login_alert: "Log in to ask a question.",
     question_input: "Question",
-    question_input_placeholder: "Ask your new question.",
+    question_input_placeholder: "Ask your question.",
     notifications: {
-      success_add: "Your question has been successfully submitted.",
+      success_add: "Your question submitted successfully.",
     },
   },
 
@@ -1738,7 +1818,7 @@ export default {
     not_found_address: "No value found",
     enter_address_hint: "Enter destination address",
     enter_your_address: "Enter your address.",
-    postal_code: "Postal Code",
+    postal_code: "Postcode",
     phone_input: "Phone {type}",
     building_number: "Building number",
     building_unit: "Unit",
@@ -1762,17 +1842,17 @@ export default {
   /** {@see CommentsManager} **/
   comment_manager: {
     can_not_edit: "Can't edit this comment!",
-    comment_input_empty: "Message text is empty!",
+    comment_input_empty: "Message text is blank!",
     article_not_saved: "Save the article!",
   },
 
   /** {@see WheelOfFortune} **/
   wheel_fortune: {
-    title: "Play & win",
+    title: "Play & Win",
     message:
       "The cost of each game is 10 chips. You currently have {chips} chip. Get more chip by purchasing from the store.",
-    win_message: "Congratulation, you win!",
-    lost_message: "Sorry, You lose the game.",
+    win_message: "Congratulations, You win!",
+    lost_message: "Sorry, You lost the game.",
     try_again: "You can try again",
   },
   /** {@see Calculator} **/
@@ -1833,7 +1913,7 @@ export default {
 
   /** @see VariantFilter **/
   variant_filter: {
-    title: "Product Variety Filter",
+    title: "Product Variant Filter",
     only_available: "In stock",
   },
 
@@ -1870,12 +1950,12 @@ export default {
     ESTIMATION: {
       title: "Estimation Pricing",
       message:
-        "The price of goods and services will be calculated to some extent by the seller when placing an order, payment invoices can be changed or added during the service.",
+        "The price of products and services will be calculated to some extent by the seller when placing an order, payment invoices can be changed or added during the service.",
     },
     AGREEMENT: {
       title: "Agreement Pricing",
       message:
-        "The final price of the goods or services will not be changed by the seller after the order has been placed.",
+        "The final price of the products or services will not be changed by the seller after the order has been placed.",
     },
     BID: {
       title: "Bid / Auction",
@@ -1886,10 +1966,10 @@ export default {
 
   /** {@see App} {@see Shop} **/
   map: {
-    title: "Destination to receive goods",
+    title: "Destination to receive products",
     confirm: "Set location",
     address: "Destination",
-    receptor: "Receptor",
+    receptor: "Receiver",
   },
 
   /** {@see ShopBots} **/

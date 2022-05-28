@@ -1,7 +1,7 @@
 export default {
   /** @see SaminFooter **/
   footer: {
-    title: "The #1 operating system for SMEs and independent brands",
+    title: "The #1 operating system for fast-growing companies",
     message:
       "Selldone, as an ecommerce platform, operates like an angel for the growth of businesses. Whether you have a brick-and-mortar store or a large company, you need to showcase your product on the internet. Selldone used to build online stores with lower operating costs and greater flexibility. In addition, we provide an always-improving ecommerce management toolchain that gains new features every week, like integrating store administration and visual programming interface to create custom automation processes or AI integration.",
 
@@ -19,7 +19,7 @@ export default {
           { title: "FAQ", to: { name: "FAQ" } },
 
           { title: "Privacy Policy", to: { name: "Landing_Privacy" } },
-          { title: "Term of Service", to: { name: "Landing_Terms" } },
+          { title: "Terms of Service", to: { name: "Landing_Terms" } },
         ],
       },
       {
@@ -32,7 +32,7 @@ export default {
             title: "Processing Center",
             to: { name: "Landing_OrderProcessing" },
           },
-          { title: "Incentive & Clubs", to: { name: "Landing_Incentives" } },
+          { title: "Incentives & Clubs", to: { name: "Landing_Incentives" } },
           { title: "Payment Solution", to: { name: "Landing_Auditing" } },
           { title: "Commerce AI", to: { name: "Landing_AI" } },
         ],
@@ -48,20 +48,18 @@ export default {
           { title: "Smart Report", to: { name: "Landing_SmartReport" } },
           { title: "Cloud Hosting", to: { name: "Landing_Cloud" } },
           { title: "Logistic Solution", to: { name: "Landing_Logistic" } },
-
         ],
       },
       {
         title: "Services",
         items: [
-          { title: "Price & Plans", to: { name: "PriceList" } },
+          { title: "Plans & Pricing", to: { name: "PriceList" } },
           { title: "Applications", to: { name: "AppStore_List" } },
           { title: "Application Builder", to: { name: "Landing_AppBuilder" } },
-          { title: "Page Maker", to: { name: "Landing_PageBuilder" } },
+          { title: "Page Builder", to: { name: "Landing_PageBuilder" } },
           { title: "Automation & IoT", to: { name: "Landing_Automation" } },
           { title: "Community Platform", to: { name: "Landing_Community" } },
           { title: "Sales Handbooks", to: { name: "Handbooks" } },
-
         ],
       },
     ],
@@ -73,7 +71,7 @@ export default {
     title: "Quick access menu:",
     boost_mode: "Boost",
     normal_mode: "Normal",
-    boost_message: "Low speed network and need boost?",
+    boost_message: "Poor internet connection and need boost?",
     dark: "Dark",
     light: "Light",
     theme_message: "Activate smart invert",

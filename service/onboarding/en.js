@@ -1,21 +1,21 @@
 export default {
   categories: {
-    Retail: {
-      title: "Retail",
-      desc: "Selling Consumer Goods or Services",
+    Baby: {
+      title: "Baby Supplies",
+      desc: "Feeding, Maternity, Stroller",
     },
 
     Beauty: {
-      title: "Beauty/Health",
+      title: "Beauty",
       desc: "Cosmetic, Fragrance, Hair Care",
     },
     Blog: {
       title: "Blog",
       desc: "Sports blog, Science blog, Technology blog",
     },
-    Clothing: {
-      title: "Clothing & Shoes",
-      desc: "Clothing",
+    Fashion: {
+      title: "Fashion",
+      desc: "Clothing, Shoes, Watch",
     },
     Crypto: {
       title: "Crypto",
@@ -43,7 +43,7 @@ export default {
     },
     Handcrafts: {
       title: "Handcrafts",
-      desc: "Collectible, Painted shoes, Sculpture, Glass Art",
+      desc: "Collectible, Painted Shoes, Sculptures, Glass Art",
     },
     Health: {
       title: "Health",
@@ -62,7 +62,7 @@ export default {
       desc: "Exercise, Camping, Bikes, Recreation",
     },
     Education: {
-      title: "Online courses",
+      title: "Online Courses",
       desc: "Web Development, Design, Business",
     },
     Toy: {
@@ -72,6 +72,17 @@ export default {
     Other: {
       title: "Other",
       desc: "Other occupations...",
+    },
+  },
+
+  partners: {
+    title: "{name} is partnering with Selldone",
+    subtitle: "in unlocking the next-generation of online businesses.",
+    create_new_shop: "Create a new shop",
+    select_a_shop: "Select a shop",
+    apply_deal_to: "Apply deal to {shop}",
+    notifications: {
+      success_apply: "Deal successfully activated!",
     },
   },
 
@@ -86,16 +97,16 @@ export default {
   add_product: "Add product",
   setup_shipping: "Setup shipping",
   add_domain: "Add domain",
-  add_payment: "Connect to payment",
+  add_payment: "Connect to a payment gateway",
 
   product: {
     step1: {
       title: "Option 1. Add manually",
-      msg: "You can add physical products, virtual items, files, services, and any other type of products to your store and start selling them.",
+      msg: "You can add physical products, virtual items, files, and services to your store and start selling them.",
       action_on: "Add your first product",
       action_off: "Add more products",
       category:
-        "Categories are the masterpiece of your online shopping website compared to others. Make everything classified and arranged by adding categories and managing by drag & drop.",
+        "Categories are the masterpiece of your online shopping website compared to others. Make everything categirized and arranged by adding categories and managing with drag & drop.",
       add_category: "Add category",
     },
     step2: {
@@ -112,25 +123,25 @@ export default {
   shipping: {
     step1: {
       title: "Step 1. Set location",
-      msg: "At the first step, set your warehouse (origin of delivery). This information is used to calculate the distance, shipping cost, and check to be in the delivery service area.",
+      msg: "At the first step, set your warehouse (origin of shipping). This information is used to calculate the distance, shipping cost, and check to be in the shipping service area.",
       edit_warehouse: "Edit warehouse",
       add_warehouse: "Add your warehouse",
     },
     step2: {
-      title: "Step 2. Activate delivery methods",
-      msg: "Add at least one delivery method in your store. You can set pricing based on weight, distance, and other parameters. Don't forget to set constraints like coverage distance, maximum weight, and size of the activated delivery services.",
-      add_delivery: "Add delivery methods",
+      title: "Step 2. Activate shipping methods",
+      msg: "Add at least one shipping method to your store. You can set pricing based on weight, distance, and other parameters. Don't forget to set limits for distance, weight, and size of packages that each shipping service supports.",
+      add_delivery: "Add shipping methods",
     },
   },
 
   domain: {
     step1: {
       title: "Step 1. Buy a domain",
-      msg: "If you have not your domain yet, it's time to buy your domain from websites like namecheap.com .",
+      msg: "If you do not have your personal domain yet, it's time to buy your own domain from websites like namecheap.com .",
     },
     step2: {
       title: "Step 2. Enable SSL",
-      msg: "If you use services like Namecheap that provide CDN and SSL, you just need to activate 1.CDN and 2.SSL on your domain.",
+      msg: "If you use services like Namecheap that provides CDN and SSL, you just need to activate 1.CDN and 2.SSL on your domain.",
     },
     step3: {
       title: "Step 3. Set DNS records",
@@ -146,12 +157,12 @@ export default {
     },
     step2: {
       title: "Accept money",
-      msg: "Add cash on delivery, online, and other available payment methods in your shop.",
+      msg: "Add cash on delivery, direct money transfer, and other available payment methods in your shop.",
       online_title: "Online payment methods",
       online_msg:
         "Accept payment by cards, new banking applications, buy-now-pay-later, and many other online payment methods.",
       add_online_gateway: "Add an online payment method",
-      cod_title: "Cash on delivery payment methods",
+      cod_title: "Cash on delivery payment method",
       cod_msg:
         "Accept payment after delivery of orders. You can confirm cash on delivery payments manually.",
       cash_title: "Cash payment methods",
@@ -165,4 +176,7 @@ export default {
       my_gateways: "My payment gateways",
     },
   },
+
+  intro_inline_help_message:
+    "Look for this red help button. It helps you to practise yourself from zero to expert in your Business OS.",
 };

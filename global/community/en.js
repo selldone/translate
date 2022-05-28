@@ -266,6 +266,13 @@ export default  {
     restrict: "Restrict mode",
     restrict_msg: "Only moderators can create topic?",
     statistics: "Category statistics",
+    remove_msg: "If you remove this category, it's an irreversible action!",
+    delete_dialog: {
+      title: "Remove category",
+      message: "Are you sure delete this category?",
+      actions: "Yes, delete now",
+    },
+
   },
 
   /** @see CommunityBreadcrumb **/

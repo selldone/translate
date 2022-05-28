@@ -1,7 +1,7 @@
 export default {
   experts_common: {
     experts_page: "Experts page",
-    no_job: "No fit job found!",
+    no_job: "Not a right fit found!",
     jobs_filter: "Jobs filter",
     start_price: "Starting price",
     completed_count: "Jobs completed",
@@ -10,7 +10,7 @@ export default {
     job_not_approved: "The Job has not been verified yet.",
     new_job: "New job",
     expert_profile: "Expert Profile",
-    job_detail: "Job detail",
+    job_detail: "Job details",
     contracts: "Contracts",
     start_end_date: "Start/End Date",
     complete_cancel_date: "Complete/Cancel Date",
@@ -27,11 +27,11 @@ export default {
   topic_categories: {
     SETUP: {
       title: "Setup online shop",
-      desc: "Experts in this field make building and setting up your online store easier and faster for you.",
+      desc: "Experts in this field build ans set up your online store easier and faster for you.",
     },
     ADD_PAGE: {
       title: "Add pages (Landings, About us, ...)",
-      desc: "You can leave the creation of landing pages, about us and other pages of your site to these experts.",
+      desc: "You can leave the creation of landing pages, about us and other pages of your website to these experts.",
     },
     ADD_PRODUCT: {
       title: "Add products and categories",
@@ -52,15 +52,15 @@ export default {
     },
     APP_SETUP: {
       title: "Setup application",
-      desc: "Need help setting up and installing apps in your store? Do you need to build a dedicated application? The experts in this field will be with you. ",
+      desc: "Need help setting up and installing apps in your store? Do you need to build a personal application? The experts in this field will be with you. ",
     },
     MANAGEMENT: {
       title: "Store management",
-      desc: "You can outsource some of your store management to a store management specialist. They also provide expert advice on all aspects of running a business. ",
+      desc: "You can outsource some parts of your store management to store management specialists. They also provide expert advice on all aspects of running a business. ",
     },
     CONTENT: {
       title: "Content writing",
-      desc: "Write content for your products, brand or store to content writing professionals.",
+      desc: "Assign content creation of your products, brand, or store to content writing professionals.",
     },
     PHOTOGRAPHY: {
       title: "Photography and edit",
@@ -68,10 +68,10 @@ export default {
     },
     DROP_SHIPPING: {
       title: "Setup dropshipping",
-      desc: "If you are a wholesaler or retailer, the Selldone Draping platform is what you have always been looking for. Dropshipping experts can help you find new ways to sell your business. ",
+      desc: "If you are a wholesaler or retailer, the Selldone dropshipping platform is what you have always been looking for. Dropshipping experts can help you find new ways to grow your business. ",
     },
     POS_SETUP: {
-      title: "setup Selldone POS",
+      title: "Setup Selldone POS",
       desc: "Hire a  specialist to set up your store's online POS.",
     },
   },
@@ -82,15 +82,15 @@ export default {
   topics: {
     "store-design": {
       title: "Build an ecommerce",
-      desc: "Leave the design and construction of your online store to professionals so that they can implement your ideas.",
+      desc: "Leave the design and setup of your online store to professionals who can implement your ideas.",
     },
     "store-configuration": {
       title: "Store configuration",
-      desc: "You can get help from an expert for store settings, such as entering detailed business information for search engines, setting shipping and warehousing methods.",
+      desc: "You can get help from an expert for store configuration, such as entering  business information for search engines, setting shipping and warehousing methods.",
     },
     "store-optimization": {
-      title: "Performance and Speed ​​Improvement",
-      desc: "Experts will work on your site to increase its speed and performance.",
+      title: "Performance and Speed Optimization",
+      desc: "Experts will work on your website to increase its speed and performance.",
     },
 
     domain: {
@@ -100,14 +100,14 @@ export default {
 
     // ADD_PAGE
     "page-design": {
-      title: "Landing and internal page design",
-      desc: "Design your site landing pages, home page and internal pages.",
+      title: "Landing page and template design",
+      desc: "Design your website landing pages, home page and internal pages.",
     },
 
     // ADD_PRODUCT
     "add-product": {
       title: "Add products and categories",
-      desc: "Add pictures, descriptions and spec of your products into lesson categories to make it easier for customers to find your product.",
+      desc: "Add pictures, descriptions and specifications of your products to correct categories. It makes easy for your customers to find the best fitted products.",
     },
 
     // PAYMENT
@@ -124,7 +124,7 @@ export default {
 
     "email-marketing": {
       title: "Email marketing",
-      desc: "Use email marketing tools to turn your users into customers and persuade them to buy.",
+      desc: "Use email marketing tools to turn your users into customers and entice them to buy more.",
     },
     seo: {
       title: "SEO",
@@ -136,23 +136,23 @@ export default {
     },
     "social-marketing": {
       title: "Social media marketing",
-      desc: "Launch social media advertising campaigns to get more people to see your products and services.",
+      desc: "Launch social media campaigns to drive more visitors to see your products and services.",
     },
     "content-marketing": {
       title: "Content marketing",
-      desc: "Produce and publish useful and relevant content relevant to your business.",
+      desc: "Create and publish useful and relevant content to your business.",
     },
     "sale-channels": {
       title: "Build sales channels",
-      desc: "Launch new sales channels such as Instagram, Telegram and Facebook by connecting to your online store in Selldone.",
+      desc: "Launch new sales channels such as Instagram, Telegram, and Facebook by connecting to your online store in Selldone.",
     },
     conversion: {
       title: "Conversion rate optimization",
-      desc: "Improve conversion rates, convert more visitors into customers, and increase the efficiency of your campaigns.",
+      desc: "Maximize conversion rates, convert more visitors into customers, and increase the efficiency of your campaigns.",
     },
     analyze: {
       title: "Analyze user behavior",
-      desc: "Check the behavior of your users in the online store and even the physical branches of your store to provide a better user experience for them.",
+      desc: "Monitor the behavior of your users in the online store and even the physical branches to provide a better user experience for them.",
     },
 
     "brand-strategy": {
@@ -162,36 +162,36 @@ export default {
 
     // MIGRATION
     migration: {
-      title: "Store transfer",
-      desc: "Move your current store to Selldone.",
+      title: "Store Migration",
+      desc: "Move your existing store to Selldone.",
     },
 
     // APP_SETUP
     "app-programmer": {
       title: "Build an application",
-      desc: "Designing and programming your own application",
+      desc: "Designing and developing your own application",
     },
     "app-install": {
       title: "Install the application",
       desc: "Install and configure the application you need on the store.",
     },
     "ux-design": {
-      title: "Dedicated UX design",
+      title: "Customized UX design",
       desc: "Design a unique user experience for your users in the store or application.",
     },
     debug: {
       title: "Troubleshooting",
-      desc: "Fix errors and problems in your store.",
+      desc: "Fix errors and issues in your store.",
     },
 
     // MANAGEMENT
     strategy: {
       title: "Business strategy consulting",
-      desc: "Seek expert advice from experienced and experienced people to develop and improve your business.",
+      desc: "Get advice from experienced people to develop and improve your business operation.",
     },
     "products-guide": {
       title: "Product resource guide",
-      desc: "Get advice for product preparation, preparation and product supply cycle design.",
+      desc: "Ask help from specialists for product preparation and supply chain design.",
     },
     "setup-guide": {
       title: "Store setup and design consulting",
@@ -199,17 +199,17 @@ export default {
     },
     "marketing-guide": {
       title: "Marketing and sales consulting",
-      desc: "Get advice from experts and professionals in this field to market and increase your sales.",
+      desc: "Learn how to market and increase your sales by getting advice from experts and professionals..",
     },
 
     // CONTENT
     "product-description": {
       title: "Product description",
-      desc: "Write attractive descriptions for your products so that your customers can get to know your products more easily.",
+      desc: "Make your product descriptions appealing so your customers can better get to know your products.",
     },
     "content-write": {
       title: "Marketing and advertising content",
-      desc: "Write about the brand story, the needs of your customers and your business so that others can share your site with their friends or have more effective advertising.",
+      desc: "Write about the brand story and the needs that your products meet to help customers choose the best.",
     },
     // PHOTOGRAPHY
     "logo-design": {
@@ -218,15 +218,15 @@ export default {
     },
     "banner-design": {
       title: "Banner design",
-      desc: "Designing an attractive brand will help attract more users to your site.",
+      desc: "Create impressive ads banners to increase brand awareness and drive traffic to your store.",
     },
     video: {
       title: "Filming and animation",
-      desc: "Leave the production of advertising films and 2D and 3D animations to the best experts in this field.",
+      desc: "Leave the production of advertising videos and 2D and 3D animations to the masters.",
     },
     photography: {
       title: "Product photography",
-      desc: "Take industrial and professional photos of your products and services to make your store look better.",
+      desc: "Take industrial and professional photos of your products and services to make your store look eye-catching.",
     },
     "photo-editor": {
       title: "Edit photos",
@@ -234,23 +234,23 @@ export default {
     },
     "3d": {
       title: "3D modeling and AR",
-      desc: "Design 3D augmented reality models of your products to dramatically increase your sales.",
+      desc: "Build 3D augmented reality models of your products to dramatically increase your sales.",
     },
 
     // DROP_SHIPPING
     dropshipping: {
       title: "Setup dropshipping",
-      desc: "If you have manufacturer or warehouse, drop-shipping experts will help you easily sell your products through thousands of online stores.",
+      desc: "If you have manufacturer or warehouse, dropshipping experts will help you smoothly sell your products through thousands of online stores.",
     },
     reselling: {
       title: "Setup for reseller",
-      desc: "You can have a great store with great income without buying goods and warehousing or even sending a package.",
+      desc: "You can have a perfect store with high income without buying goods and warehousing or even sending a package.",
     },
 
     // POS_SETUP
     "pos-setup": {
       title: "Setting up an online cash register",
-      desc: "Install Selldone's cash register in your store branches and use the most professional store tools available to develop your business and physical branches.",
+      desc: "Run your Selldone POS in your store branches and use the most professional store tools available to develop your business and physical branches.",
     },
   },
 
@@ -290,7 +290,7 @@ export default {
     cancelling: "Request to cancel..",
     title: "Contract subject",
     description: "Contract description",
-    permissions_input: "Select require permissions",
+    permissions_input: "Select the required permissions",
     cost_timeline: "Cost & Timeline",
     timespan: "Duration of the contract",
     cost: "Contract cost",
@@ -309,7 +309,7 @@ export default {
     waiting_for_customer: "Waiting for customer...",
     account_input: "Account to withdraw",
     dialog_pay: {
-      title: "Payment and start contract",
+      title: "Pay and start contract",
       insufficient_balance: "Insufficient balance! Charge account to pay.",
     },
     dialog_cancel: {
@@ -320,7 +320,7 @@ export default {
     },
     notifications: {
       save: "Contract edited successfully.",
-      pay: "Contract payed and start successfully.",
+      pay: "Contract paid and started successfully.",
       end: "The order was sent to the customer for confirmation of completion..",
       complete: "Contract completed.",
       reject: "Completion of the contract is not approved.",
@@ -335,8 +335,8 @@ export default {
   expert_page: {
     title: "Hire best experts",
     sub_title:
-      "Do not worry about designing, launching, advertising or managing your store, Selldone specialists are ready to help you. Hire a certified specialist to do things better and faster.",
-    steps_title: "Three steps to work delivery",
+      "Do not worry about designing, launching, advertising or managing your store. Hire a certified specialist to do things better and faster.",
+    steps_title: "Three steps left to accomplish",
     step_1_title: "Contact Expert",
     step_1_desc:
       "Ask for suggestions from experts, or create a job to match the recommended experts.",
@@ -345,52 +345,52 @@ export default {
       "Review the answers, find the right fit, and discuss details such as timing and exact pricing.",
     step_3_title: "Confirm and Execute Job",
     step_3_desc:
-      "Trust reputable professionals who can deliver quality work. Through Selldone.",
+      "Trust qualified professionals who can do work efficiently through Selldone.",
     who: {
       title: "Who do you find here?",
       box_image: require("../../../views/experts/assets/en/selldone-expert-box.png"),
 
-      spec1_title: "Experts both in their class and in the classroom",
+      spec1_title: "Masters, both in their field and in Selldone",
       spec1_desc:
-        "You do not need any programming skills or computer technical skills! Selldone is in charge of all updates. Put all your efforts on focused sales of online work!",
-      spec2_title: "Hand-picked and committed people",
+        "You do not need any programming skills! Selldone takes care of all updates. Put all your efforts on increasing sale!",
+      spec2_title: "Handpicked and committed people",
       spec2_desc:
-        "You do not need any programming skills or computer technical skills. Say goodbye to extra costs, complex technical issues and obstacles to online business!",
+        "No coding or technical knowledge required. Say goodbye to extra costs, complex technical issues and obstacles in the way of your online business!",
       spec3_title: "Professional work done by the most professional",
       spec3_desc:
-        "You do not need any programming skills or computer technical skills! Selldone do of all complex technical skills and obstacles in the way of online business!",
+        "You do not need any programming skills! Best professionals in Selldone to meet your needs!",
     },
     expert_categories: "Category of services provided by experts",
     show_all_topics: "Show all categories",
-    marketing_title: "Marketing and Sales Increase",
+    marketing_title: "Marketing and Sales growth",
     starts_title: "Starting and Developing an Online Business",
     managements_title: "Business Management",
-    contents_title: "Content Production, Photography and Video",
+    contents_title: "Content Creation, Photography and Video",
     apps_title: "More features and my app installation",
     footer: {
       title: "Finding the best specialist to suit your needs",
       message:
-        "By filling out the form below, create a new job so that the best experts can send you their suggestions based on your needs.",
+        "By filling out the form below you create a new job so that the best experts can send you their suggestions based on your needs.",
     },
   },
 
   /** @see ExpertPage_JobPage **/
   public_job_page: {
-    hire_expert_title: "Do you want this specialist to work for you?",
+    hire_expert_title: "Do you want this expert to work for you?",
     your_own_job_message:
-      "You have defined this task! You can enter the admin panel of this task via the following key.",
+      "You have defined this task!  Press the below key to go to the admin panel and manage this task directly.",
     go_to_job_panel: "Go to my panel",
     no_chat: "You have not submitted any requests yet.",
     job_tasks: "Job tasks offered",
     included: "Tasks included in starting price",
     additional: "Additional work and tasks",
-    permissions: "Require permissions",
+    permissions: "Required permissions",
   },
 
   /** @see ExpertRequestForm **/
   expert_request_form: {
     action_message:
-      "Do you want someone else to build, manage or market your store for you? So hire a specialist to do everything you want for you.",
+      "Do you want someone else to build, manage or market your store for you? So hire a specialist to do what you imagin.",
     order_new_kob: "Order new job",
     new_shop_action_small: "Do you want an expert to work on your store?",
     mange_shop_action_small: "Do you want an expert to build a store for you?",
@@ -402,11 +402,11 @@ export default {
     header_view: "Send request",
     title: "Do you want a modern online store? ",
     message:
-      "You don't need to do it all yourself. Our certified experts can help you to build your online store faster, easier, and more eye-catching. Describe your needs and find the best specialist to assist you boost your sales.",
+      "You don't need to do it all yourself. Our certified experts can help you to build your online store faster, easier, and more eye-catching. Describe your needs and find the best one to assist you boost your sales.",
     steps_title: "Follow these steps",
     step_1: "Describe your needs",
     step_1_message: "Tell the experts what you want",
-    step_2: "Review the specialists offers",
+    step_2: "Review the experts offers",
     step_2_message: "Select the best one fitted your needs",
     step_3: "Discuss the important details and get more done with expert",
     step_3_message:
@@ -420,7 +420,7 @@ export default {
     store_name: "Store name",
     store_name_placeholder: "My store name ...",
     store_name_messages:
-      "Tell us the name of the store you have or want to have in the future.",
+      "Tell us your store name taht you have or intend to build in the future.",
     contact: "Contact information",
     name_placeholder: "Required*",
     email: "Email",
@@ -456,7 +456,7 @@ export default {
     language_placeholder: "Select one*",
     free_support_title: "Small Business Support",
     free_support_message:
-      "We believe that helping startups is a smart investment for your future and Selldone. We are always by your side on this path. The more attractive, innovative or even more practical your products and services are, the more services you will receive for free from us and our experts. ",
+      "We believe that helping startups is a smart investment for your future and Selldone. We always got your back on this path. The more attractive, innovative or even more practical your products and services are, the more services you will receive for free from us and our experts. ",
     free_support_condition:
       "If you are serious about starting your own business and selling online, that's enough. The rest is up to us!",
     free: "Do you want free services?",
@@ -472,21 +472,21 @@ export default {
         "Your request has been successfully submitted. Please wait for Selldone experts offers.",
     },
     stage: {
-      title: "What stage of your business are you in?",
+      title: "What is the stage of your business?",
       start: "Starting a new business",
-      online: "Go online the business I currently have",
+      online: "I want to Make my existing business online",
       extend: "I have an online store and I am working on it",
-      pos: "I want to set up Selldone store cash register in my store branches",
+      pos: "I want to set up Selldone POS in my store branches",
     },
     budget: {
-      title: "Do you have an estimate of the labor budget?",
+      title: "Do you have an estimate of the freelancing budget?",
       yes: "Yes, my budget is clear",
       no: "No, I want more information",
     },
     login: {
       title: "Please login",
       message:
-        "Log in to register first. You can quickly and securely log in to your server via your mobile number or social network accounts.",
+        "Log in to register first. You can quickly and securely log in to your Selldone via mobile number or social network accounts.",
     },
   },
 
@@ -495,7 +495,7 @@ export default {
     title: "Open requests",
 
     dialog: {
-      title: "Expert request detail",
+      title: "Expert request details",
       start_chat: "Start negotiation",
     },
   },
@@ -519,13 +519,13 @@ export default {
     add_title: "Add new job",
     edit_title: "Edit job",
     message:
-      "Enter the job title and job description that you can do in this section. Be careful not to include contact information and links in the text of your job description.",
-    start_price_message: "Start from this value.",
+      "Enter the job title and job description that you can do in this section. Note that you must not write contact information and links in the text of your job description.",
+    start_price_message: "Minimum cost of each order.",
     currency_message:
-      "Change currency reset your financial records for this job.",
+      "Changing currency resets your financial records for this job.",
     job_desc_message: "Describe your full service for this job.",
     included_message:
-      "Describe what services you will provide to the customer at a basic cost.",
+      "Describe what services you will provide for the customer at a basic cost.",
     additional_message:
       "What other services do you offer in addition to basic services?",
     available: "Available job",
@@ -533,21 +533,22 @@ export default {
     add_action: "Add new job",
     edit_action: "Edit job",
     notifications: {
-      edit: "Job successfully updated.",
-      add: "New job successfully created",
+      edit: "Job updated successfully.",
+      add: "New job created successfully",
     },
   },
 
   /** @see ExpertContractForm **/
   contract_form: {
-    shop_message: "Show customer's shops with admin or officer access only.",
-    shop_placeholder: "Select shop you want to work on it*",
+    shop_message:
+      "Show customer's stores with admin or senior manager's access only.",
+    shop_placeholder: "Select store you want to work on it*",
     title_message: "Set a title for this contract..",
-    description_message: "Write detail of contract...",
-    permissions: "Select require permissions",
+    description_message: "Write details of contract...",
+    permissions: "Select required permissions",
     cost_message: "Contract cost",
     days: "Contract duration",
-    days_message: "Complete duration of all tasks",
+    days_message: "Contract duration",
     create_action: "Create new contract",
     notifications: {
       add: "The new contract was created and sent to the user.",

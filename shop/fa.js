@@ -343,7 +343,7 @@ export default {
     lead_time_unit: "ساعت",
     receive_time: "زمان دریافت",
     select_time: "انتخاب زمان تحویل",
-    no_select_time: "هر زمان که آماده شد ارسال کنید.",
+    no_select_time: "هر زمان که آماده شد",
     transportation_type: "نوع وسیله نقلیه",
     days_input: "روزهایی که میتوانم تحویل بگیرم",
     days_input_label: "روزها",

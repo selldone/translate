@@ -1,10 +1,10 @@
 export default {
-  title: "It's Free, For all!",
+  title: "Start Free, Grow Fast!",
   sub_title:
-    "Unlimited access to all features at no cost! Only<b> 2% of sell</b>, after sell payment. Do you have a lot of sales and want to reduce the fees?",
+    "Unlimited access to all features at no cost! Only<b> 2% of sale</b>, just after successful purchases. Do you have a lot of sales and want to reduce the fees?",
   show_detail_list: "Show details list",
   plan_free_detail:
-    "<b>FREE</b> | Start your business by our free plan. Everything you need to start and launch your eCommerce website is ready here. Selldone provides all software, tools, and cloud hosting solution by free subscription plan. Selldone additionally takes care of all software updates and security considerations. So you can focus all your efforts on selling and not worry about technical issues and costs.",
+    "<b class='text-capitalize'>An operating system for fast-growing businesses</b> | Start your business by our free plan. Everything you need to start and launch your eCommerce website is ready here. Selldone provides all software, tools, and cloud hosting solution by free subscription plan. Selldone additionally takes care of all software updates and security considerations. So you can focus all your efforts on selling and not worry about technical issues and costs.",
   pay_monthly: "Pay monthly",
   pay_yearly: "Pay yearly",
   pay_yearly_off: "30% off",
@@ -16,7 +16,7 @@ export default {
   monthly_sell: "Monthly Sales",
   saving_amount: "Saving monthly",
   saving_tips:
-    "By buying the suggested plan you will save this amount monthly.",
+    "By purchasing the suggested plan you will save this amount monthly.",
 
   have_all_features: "You will have all the features.",
 
@@ -28,10 +28,36 @@ export default {
   gift: "Special gift",
   gift_info: "Get this gift by buying this plan.",
   toke_gift_ratio: "Equivalent to the amount paid",
-  unlimited: "unlimited",
+  unlimited: "Unlimited",
   items_unit: "x",
-  delivery_person_unit: "Delivery",
-  soon: "coming soon",
+  delivery_person_unit: "Couriers",
+  soon: "Coming soon",
+
+  domains: "Custom domains",
+  staff: "Admins",
+  community_builder: "Community builder",
+  active_discount_codes: "Active discount codes",
+  active_coupons: "Active advanced coupons",
+  active_offers: "Active advanced offers",
+  active_gift_card_types: "Giftcard programs",
+  active_campaigns: "Active marketing campaigns",
+  active_affiliates: "Active affiliates",
+  active_emails: "Active email marketing campaigns",
+  active_transportation_persons: "Private couriers",
+  active_importing_que: "Max simultaneous products import",
+  active_reselling: "Reselling; Sell wholesaler items",
+  max_file_size: "Max file size to sell; Depending on your region Euro/US/...",
+  active_capacity: "Free disk space",
+  active_drop_shipping: "Wholesale dropshipping (Verification Needed)",
+  common_features: "Included in all {license} plans",
+  unlimited_storage: "Unlimited storage",
+  priority_support: "Priority support",
+  support_247: "24/7 Support",
+
+  read_more: "Read more about features...",
+  partners_upgrade_suggestion_message:
+    "You do not have the best possible deal on {name}! We highly recommend upgrading it to the highest level if you don't like the limits.",
+  partners_upgrade_suggestion_action: "Upgrade your plan on {name} now",
 
   free: {
     title: "Personal",
@@ -39,7 +65,6 @@ export default {
     cost: "Free",
     fee_percent: 2,
     items: [
-      "",
       "Unlimited products",
       "1GB storage",
       "Unlimited bandwidth",
@@ -49,12 +74,13 @@ export default {
       "3 Active discount codes",
       "3 Active advanced coupons",
       "3 Active advanced offers",
-      "1 Giftcard program",
-      "2 Active campaign projects",
-      "2 Active affiliates",
-      "2 Email design projects",
-      "2 local delivery person",
-      "All delivery services",
+      "1 Giftcard programs",
+      "2 Active marketing campaigns",
+      "2 Active affiliate programs",
+      "2 Active email marketing campaigns",
+      "2 private couriers",
+      "All shipping services",
+      "1 Admin",
     ],
   },
   startup: {
@@ -64,19 +90,19 @@ export default {
     items: [
       "All free features included",
       "10GB storage",
-      "Native application builder",
       "Customers SMS login",
       "3D / AR integration",
       "10 Active discount codes",
       "10 Active advanced coupons",
       "10 Active advanced offers",
-      "10 Giftcard program",
-      "10 Active campaign projects",
-      "10 Active affiliates",
-      "10 Email design projects",
-      "10 local delivery person",
-      "Priority support",
+      "10 Giftcard programs",
+      "10 Active marketing campaigns",
+      "10 Active affiliate programs",
+      "10 Active email marketing campaigns",
+      "10 private couriers",
+      "Normal support",
       "1 Domain",
+      "5 Admins",
     ],
   },
   company: {
@@ -89,32 +115,35 @@ export default {
       "50 Active discount codes",
       "50 Active advanced coupons",
       "50 Active advanced offers",
-      "50 Giftcard program",
-      "50 Active campaign projects",
-      "100 Active affiliates",
-      "100 Email design projects",
-      "50 local delivery person",
+      "50 Giftcard programs",
+      "50 Active marketing campaigns",
+      "100 Active affiliate programs",
+      "100 Active email marketing campaigns",
+      "50 private couriers",
       "Priority support",
       "5 Domains",
+      "20 Admins",
     ],
   },
 
   enterprise: {
     title: "Enterprise",
-    info: "Big Business",
+    info: "Big Scale Businesses",
     fee_percent: 0.5,
     items: [
       "All company features included",
       "1K Active discount codes",
       "1K Active advanced coupons",
       "1K Active advanced offers",
-      "1K Giftcard program",
-      "1K Active campaign projects",
-      "1K Active affiliates",
-      "1K Email design projects",
-      "200 local delivery person",
+      "1K Giftcard programs",
+      "1K Active marketing campaigns",
+      "1K Active affiliate programs",
+      "1K Active email marketing campaigns",
+      // "Native application builder",
+      "200 private couriers",
       "24/7 Support",
       "∞ Domains",
+      "∞ Admins",
     ],
   },
 
@@ -123,20 +152,20 @@ export default {
     products: "Products",
     usage: "Monthly traffic",
     custom_domain: "Add custom domain",
-    invite_to_get_free: "invite a friend and get it free",
+    invite_to_get_free: "Invite a friend and get it free",
     ssl: "SSL Confirmation",
     support: "24/7 support",
-    staff: "Number of staff",
-    staff_info: "Give your staff access to their needs.",
+    staff: "Number of admins",
+    staff_info: "Give access to your team members.",
     person: "person(s)",
     shop_name_length: "Minimum store name length",
-    chars: "character",
+    chars: "Character",
     page_builder: "Create your own page",
-    page_builder_info: "Drag & Drop Landing Pages",
+    page_builder_info: "Drag & Drop Landing Page Builder",
     pages: "Pages",
     cms: "CMS & Blog",
     cms_info:
-      "Professional Content Management and Editor System for Blog posts and Products.",
+      "Professional Content Management and Editor System for Blog Posts and Products.",
   },
   gateways: {
     title: "Payment Portal",
@@ -155,20 +184,20 @@ export default {
 
     file_wage: "File selling fee",
     file_wage_info:
-      "File sales commission that is credited to your account after a successful sale (Hosted on selldone high-speed SSD cloud storage).",
+      "File sale commission that is credited to your account after a successful sale (Hosted on selldone high-speed SSD cloud storage).",
   },
   apps: {
     title: "Store / Site App",
     pwa: "Advanced Web App",
     android: "Android",
-    android_info: "Android phone and tablet app",
+    android_info: "Android Phone and Tablet App",
     ios: "iOS (coming soon)",
     ios_info: "Apple Phone & Tablet App",
   },
   custom_domain: {
     title: "Custom Domain",
     sub_title: "Have your store on your own domain.",
-    domains_count: "Store domain(s) count",
+    domains_count: "The number of store domains",
     dns: "Cloud DNS",
     cdn: "Cloud CDN",
     cdn_info: "Cloud Content Explanation Network",
@@ -180,11 +209,11 @@ export default {
     usage: "Monthly traffic",
     setup: "Free setup",
     technical_support: "technical support",
-    file_sell: "File sell storage",
-    file_sell_info: "Free cloud storage disk for sale files (Super fast)",
+    file_sell: "File selling storage",
+    file_sell_info: "Free cloud storage disk for selling files (Super fast)",
     file_size: "Maximum size of each file",
     file_size_info:
-      "Maximum size of each file for sale (you can upload more than one file for each product)",
+      "Maximum size of each file for selling (you can upload more than one file for each product)",
   },
   products: {
     title: "Products",
@@ -199,7 +228,7 @@ export default {
     amp_info: "Accelerated mobile pages",
     compress: "Image Compression",
     compress_info: "jpg, png, svg, wpng, ...",
-    boost: "Speed ​​accelerator",
+    boost: "Speed Accelerator",
     boost_info: "Page load scheduler for search engines",
     sitemap: "Sitemap",
     sitemap_info: "Search Engine Sitemap",
@@ -211,40 +240,40 @@ export default {
 
     customer_service: "Customer Service",
     customer_service_info:
-      "Frequently Asked Questions, Customer Relationship Form, Reference Management ...",
+      "Frequently Asked Questions, Customer Relationship Form, Return Management ...",
 
     export: "Export Products",
     export_info:
       "Receive output files of all products with all information and content. With this feature, you will have a standard database of your products offline.",
 
-    import: "Import Bulk Products",
+    import: "Import Products In Bulk",
     import_info:
-      "With the help of Selldone advanced and automatic service, you will be able to enter your products with images 100% automatically without having to pay any cost from any other store-building service or your offline database.",
+      "Selldone advanced and automatic service helps you to upload your products with images 100% automatically without having to pay any cost from any other store-builder service or your offline database.",
 
-    Simultaneous: "simultaneous",
+    Simultaneous: "Simultaneous",
   },
   logistic: {
-    title: "Logistic",
+    title: "Logistics",
     logistic: "Logistics & Transportation",
     logistic_desc: "Management of inventory and shipping methods",
-    private_transportation: "Private delivery system",
+    private_transportation: "Private shipping system",
     private_transportation_desc:
-      "Create and manage a private delivery service.",
+      "Create and manage a private shipping service.",
     transportation: "Manage advanced shipping methods",
-    transportation_desc: "Local and international delivery services",
+    transportation_desc: "Local and international shipping services",
     process_center: "Advanced Processing Center",
     process_center_desc: "Easy-to-use orders management panel",
-    return_requests: "Reference management",
+    return_requests: "Return management",
     return_requests_desc: "Order return management.",
   },
   marketing: {
-    title: "Marketing and Sales",
+    title: "Marketing & Sales",
     campaign: "Create and manage a campaign",
-    affiliate_marketing: "affiliate marketing",
+    affiliate_marketing: "Affiliate marketing",
     affiliate_marketing_desc: "Create and manage sales engagement plans",
     email_marketing: "Email Marketing Panel",
     email_marketing_desc:
-      "Designing and sending targeted emails to audiences with filters and feedback feedback",
+      "Designing and sending targeted emails to audiences with filters and feedback",
     funnel: "Advanced User Filter",
     funnel_desc: "Filter users by gender, purchase history, last login, etc.",
     ab_test: "A / B test",
@@ -272,7 +301,7 @@ export default {
   bots: {
     title: "Bots, Social Networks, and Sales Channels",
     telegram: "Telegram sales robot",
-    telegram_info: "Build your own telegram shop for free",
+    telegram_info: "Build your own Telegram shop for free",
     instagram: "Instagram",
     instagram_info: "Connect your store to Instagram.",
     facebook: "Facebook",
@@ -284,7 +313,7 @@ export default {
 
     hyper: "Hyper Quick Order",
     hyper_info:
-      "To sell hundreds of products per minute in fairs, festivals, stalls and wherever you want to sell a small number of products to a large number of customers.",
+      "To sell hundreds of products per minute in fairs, festivals, stalls and wherever you want to sell some products to a large number of customers.",
   },
   assistance: {
     title: "Notifications",
@@ -302,7 +331,7 @@ export default {
   },
 
   automation: {
-    title: "Automation & Automation",
+    title: "Automation",
     niomatic: "Niomatic",
     niomatic_info:
       "Advanced process automation based on graphical block preferences",
@@ -317,7 +346,7 @@ export default {
 
     pos: "Store Cashier",
     pos_info:
-      "The box connected to your online store, all the processes of warehousing, sales and support with the most unique user interface at your disposal.",
+      "The POS system connected to your online store provides you with all the warehousing, sales, and support processes with a unique user interface.",
 
     online_payment: "Online payment",
     online_payment_info:
@@ -325,7 +354,7 @@ export default {
 
     hardware: "Hardwares",
     hardware_info:
-      "Ability to connect to barcode scanners, customer screens, label printers and other hardware to simplify the sales process.",
+      "Ability to connect to barcode scanners, customer-facing displays, label printers and other hardware to simplify the sales process.",
   },
 
   dropshipping: {
@@ -342,6 +371,10 @@ export default {
 
   community: {
     title: "Community Builder Platform",
+
+    available: "Free Custom Community",
+    available_info: "Ability to create a custom community",
+    nomination: "By nomination",
 
     domain: "Custom domain",
     domain_info: "You will have the forum on your own domain.",
@@ -382,7 +415,7 @@ export default {
     profile_info: "Personalized user profile.",
 
     sso: "Single sign-on (SSO)",
-    sso_info: "Possibility of fast login through Saldan SSO service.",
+    sso_info: "Possibility of fast login through Selldone SSO service.",
 
     embed: "Embed",
     embed_info: "Ability to embed and share posts.",
@@ -393,8 +426,9 @@ export default {
     moderation: "Moderation",
     moderation_info: "Add and manage forum access.",
   },
-  mission:{
-    title:'We are on the mission to',
-    message:'make business easy, achievable, and accessible for anyone around the world',
-  }
+  mission: {
+    title: "We are on the mission to",
+    message:
+      "Make business easy, achievable, and accessible for anyone around the world",
+  },
 };

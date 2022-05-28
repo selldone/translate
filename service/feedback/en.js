@@ -7,10 +7,10 @@ export default {
       "I did not find what I was looking for!",
       "I need help.",
       "I need someone to do everything.",
-      "I want to add domain free!",
+      "I want to add domain for free!",
     ],
     happy_message:
-      "If you need more features or applications, send it on our social media.",
+      "If you need more features or applications, write them in our community page.",
     happy_title: "Thank you",
     sad_title: "Why aren't you happy?",
     sad_title_score_mode:

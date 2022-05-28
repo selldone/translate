@@ -10,11 +10,12 @@ export default {
   },
 
   numbers: {
-    infinite: "Infinite",
+    infinite: "Unlimited",
   },
 
   error: {
     not_fount_data: "Data not found!",
+    license_max_limit: "Your license reached the limit!",
   },
 
   time_spans: {
@@ -34,11 +35,11 @@ export default {
   },
 
   create_website_action: "Create your website — It's free",
-  show_shops_action: "List of my shops",
+  show_shops_action: "List of my stores",
 
   // Companies:
 
-  Youtube: "Youtube",
+  Youtube: "YouTube",
   Linkedin: "Linkedin",
   Twitter: "Twitter",
   Facebook: "Facebook",
@@ -48,7 +49,7 @@ export default {
 
   // ------------------ Pages Title ------------------
   page_titles: {
-    home: "Selldone | The Business Operating System For SMEs",
+    home: "Selldone | The Business Operating System For Fast-growing Companies",
     login: "Login",
     register: "Register",
     auth_2fa: "2 factor Authenticate 🔐",
@@ -64,7 +65,7 @@ export default {
     security_center: "Security Center",
     gifts: {
       received: "Gifts | Received",
-      send: "Gifts | Send",
+      send: "Gifts | Sent",
     },
     monetization: {
       linked_accounts: "Monetization | Linked Accounts",
@@ -73,9 +74,11 @@ export default {
     affiliate: "Affiliate",
     avocado: "Avocado — Modern Social Sales Channel",
     guild: "Guild — Collective Sales Channel",
+    partners_login: "Partners | Client login",
   },
 
-  data: {
+  /** NOT USED! */
+  /* data: {
     shop: {
       users: "User",
       views: "View",
@@ -96,7 +99,9 @@ export default {
       order_service_added: "Service Add to Cart",
       order_service_checkout: "Service Checkout",
     },
-  },
+  },*/
+
+  blank_is_all_products: "Leave blank to include all products!",
 
   // ---------------------------------------------
 
@@ -117,7 +122,7 @@ export default {
     no_domain: {
       title: "Add Domain",
       message:
-        "You can connect one or more dedicated domains to your store. Your site will be installed on your domain. This process is quick and easy.",
+        "You can connect one or more personal domains to your store. Your website will be installed on your domain. This process is quick and easy.",
     },
     domain_not_approved: {
       title: "Domain Verification",
@@ -132,7 +137,7 @@ export default {
     no_primary_domain: {
       title: "The main domain",
       message:
-        "Please select a domain as your primary domain. By clicking on the star button at the before of the domain name, you can select the domain as the primary domain of your store. This is critical for search engines. Note that your store will still be available through all active domains. ",
+        "Please select a domain as your primary domain. By clicking on the star button next to the domain name, you can select the domain as the primary domain of your store. This is critical for search engines. Note that your store will still be available through all active domains. ",
     },
     shop_complete: {
       title: "Complete information",
@@ -140,7 +145,7 @@ export default {
       location_msg: "Add your location",
       days_open_msg: "Set open days",
       time_open_msg: "Set open and close time",
-      description_msg: "Set a brief description about your business",
+      description_msg: "Write a brief description about your business",
       icon_msg: "Set your store logo",
       shop_gateways_msg: "Add payment method",
       socials_msg: "Add your social links",
@@ -191,21 +196,21 @@ export default {
   helps: {
     title: "Selldone Help Center",
     subtitle:
-      "Welcome to Selldone. If you are building a new online store or are interested in using a domain as an online business platform, you can find more information on how to operate this platform on this page. ",
+      "Welcome to Selldone. If you are building a new online store on a business OS, you can find more information here.",
     add_new_help: "New Help",
     resources: "Resources",
 
     categories: {
-      Welcome: "Bootstrap",
+      Welcome: "Get Started",
       Setup: "Store",
-      Sell: "Sell & Marketing",
+      Sell: "Sales & Marketing",
       Developer: "Develop",
       Application: "Applications",
     },
     faq: "FAQ",
     github: "Github Repository",
-    admin_api_app: "Owner API play ground",
-    shop_api_app: "Shop API play ground",
+    admin_api_app: "Admin API web service",
+    shop_api_app: "Shop API web service",
     design_kit: "Design kits",
     community: "Community",
   },
@@ -220,8 +225,8 @@ export default {
     add_new_blog: "New Blog",
     popular: "Popular",
     topics: "Topics",
-    select_topics: "Select interested topics..",
-    select_job_topics: "Select your job-related topics?",
+    select_topics: "Select your job.",
+    select_job_topics: "Select your job-related topics",
     select_interested_topics: "What topics are you interested in?",
   },
 
@@ -255,7 +260,7 @@ export default {
       create_new: "Create new shop",
       create_new_sub: "Free",
       create_new_sub_need_initial_charge:
-        "Building the first store is free, probably one shop is enough for your business, but if you need to build more stores, the cost of building a new store is 25$, withdraw from your wallet account.",
+        "Building the first store is free. Probably one shop is enough for your business, but if you need to build more stores, the cost of building a new store is 25$. We withdraw the amount from your wallet account.",
 
       menu: {
         title: "My Shops",
@@ -275,8 +280,8 @@ export default {
         },
         status: "Status",
         license: "License",
-        volume: "Volume Usage",
-        expire: "License Expire",
+        volume: "Used space",
+        expire: "License Expired",
         products: "Products",
         page_views: "Views",
         user_behavior: "Customer behavior",
@@ -333,6 +338,7 @@ export default {
       pos: "POS",
       seo: "SEO",
       localization: "Localization",
+
     },
 
     /** {@see ShopDashboard} **/
@@ -347,19 +353,26 @@ export default {
 
       /** {@see ShopInfoWidget} **/
       info: {
-        title: "Info",
+        title: "Technical",
+        subtitle: "Technical overview of your business OS.",
+
         shop_name: "Shop name",
         shop_link: "Shop link",
         site_map: "Sitemap",
         shop_domains: "Domains",
+        shop_domains_msg: "Connected custom domains list.",
+
+        home_msg:
+          "Set the default homepage of your website. It can be changed for each custom domain.",
+
         add_domain: "Add new domain",
         currencies: "Active currencies",
         currencies_alert: "Select at least one currency for the store!",
         status: "Status",
         license: "License",
-        expire: "License expire date",
+        expire: "License expiry date",
         upgrade_license_action: "Upgrade to {name}",
-        wage: "Wage",
+        wage: "Fee",
         cpu_message:
           "The number of resources you have tailored to the purchased plan and the resources you add to your service.",
         hide_domains: "Hide my domains",
@@ -387,7 +400,7 @@ export default {
           set_message: "Set CNAME of this domain to {cname}.",
           input_domain_message: "Enter the domain name without http and https.",
           ssl_message:
-            "Don't worry about SSL approval for your website. This confirmation will be issued for your domain automatically by Selldone (beta).",
+            "Don't worry about SSL certificate for your website. This certification will be issued for your domain automatically by Selldone (beta).",
           active: "The domain is active",
           inactive: "Domain is disabled",
           success_message:
@@ -399,21 +412,21 @@ export default {
           title: "Set domain home page",
         },
         notification: {
-          add_message: "Domain address registered successfully.",
-          update_message: "The domain was successfully updated.",
-          delete_domain_message: "The domain was successfully deleted.",
+          add_message: "Domain address added successfully.",
+          update_message: "The domain updated successfully.",
+          delete_domain_message: "The domain deleted successfully.",
         },
         alert: {
           title: "Delete Domain",
           message:
-            "Do you want to delete this domain? Make sure to reset your domain's DNS record values to prevent others from being exploited.",
+            "Do you want to delete this domain? Make sure to reset your domain's DNS record values to prevent others from fraud.",
         },
       },
 
       /** {@see ShopActiveOrdersWidget} **/
       active_orders: {
         title: "Orders",
-        title_small: "Physical, File, Service, File Orders",
+        title_small: "Physical, File, Virtual and Service Orders",
         pending_orders: "Pending orders",
         physical: "Physical product orders",
         virtual: "Virtual product orders",
@@ -438,22 +451,22 @@ export default {
         discount_amount_chart_title: "Discount",
         currency_convert_to: "To currency",
         active_currencies: "Active currencies",
-        sell_count_chart_title: "Number of sales by variety",
-        active_gateways: "Active gateway",
+        sell_count_chart_title: "Number of sales by variant",
+        active_gateways: "Active payment gateway",
         received_last_24h: "Received last 7 hours",
         pie: {
           title: "Today's sales ratio",
           no_data: "No sale today",
         },
-        pay_amount: "Pay amount",
-        sell_amount: "Sell amount",
+        pay_amount: "Payment amount",
+        sell_amount: "Sale amount",
         discount_amount: "Discount amount",
-        sell_count: "Sell count",
+        sell_count: "Sale count",
         table: {
-          currency: "currency",
+          currency: "Currency",
           total_sell_30days: "30 day total sales",
           sell_daily: "Daily Sales Rate",
-          sell: "Sell",
+          sell: "Sale",
           pay: "Pay",
         },
       },
@@ -487,7 +500,7 @@ export default {
         views: "Views",
         orders: "Orders",
         payments: "Payments",
-        no_visitor_today: "You had no visitors to your store today.",
+        no_visitor_today: "You had no visitors today.",
       },
     },
 
@@ -502,6 +515,8 @@ export default {
       menu_export: "Export products",
       menu_import: "Import products",
       menu_show_deletes: "Show deleted products",
+      drop_import_message:
+        "Drop products list file (CSV, XLS, XLSX format) here to start adding bulk products. Ensure that the file has the Selldone products list format.",
 
       /** {@see WidgetProductCard} **/
 
@@ -511,43 +526,44 @@ export default {
         value_added: "Commission",
         discount: "Discount",
         in_stock: "In stock",
-        product_unit: "unit",
-        total_sell: "Total sell",
-        total_view: "Total view",
-        view_unit: "times",
-        review_unit: "review(s)",
+        product_unit: "Unit",
+        total_sell: "Total Sales",
+        total_view: "Total views",
+        view_unit: "Times",
+        review_unit: "Reviews",
       },
 
       /** {@see WidgetFolderCard} **/
       folder_widget: {
         products: "Products",
-        products_unit: "types",
+        products_unit: "Types",
         sub_categories: "Categories",
-        sub_categories_unit: "items",
+        sub_categories_unit: "Items",
         views: "Views",
-        views_unit: "times",
+        views_unit: "Times",
       },
     },
 
-    /** {@see AdminShop_Blogs} **/
+    /** {@see AdminShop_Blogs}  **/
     blogs: {
       new: "Write new",
       blogs: "Blog",
 
-      /** {@see AdminShop_Blogs_List} **/
+      /** {@see AdminShopBlogsList} **/
       list: {
+        title: "My Articles",
         waiting_message: "Receiving information ... please wait",
         published: "Published",
-        draft: "draft",
-        private: "private",
-        public: "public",
+        draft: "Draft",
+        private: "Private",
+        public: "Public",
         table: {
           title: "Title",
           author: "Author",
           claps: "Claps",
           like: "Like",
           comments: "Comments",
-          views: "View",
+          views: "Views",
           publish_state: "Status",
           created_at: "Creation Date",
           updated_at: "Last Update",
@@ -563,7 +579,7 @@ export default {
         rejected: "Rejected",
         delivery: "Shipping",
         discount: "Discount",
-        not_payed: "Not payed",
+        not_paid: "Not paid",
 
         table: {
           order_number: "Order code",
@@ -582,7 +598,7 @@ export default {
         table: {
           order_number: "Order code",
           product: "Product",
-          order_date: "Registration Date",
+          order_date: "Registration date",
           status: "Last status",
           price: "Total amount",
           payment_status: "Payment Status",
@@ -595,7 +611,7 @@ export default {
       menu: {
         exchange: "Exchange",
         gateway: "Gateway",
-        invoice: "Invoice",
+        invoice: "Billing",
         report: "Report",
         tax: "Tax",
         drop_shipping: "Reseller receipts",
@@ -604,11 +620,13 @@ export default {
 
       /** {@see AdminShopFinance_Bill} **/
       invoice: {
-        title: "Shop Linked Wallet",
-        sub_title:
-          "Charges, commissions and store costs are deducted from these accounts.",
-        message:
-          "You should create a new wallet for each currency and connect it to your store. The service fee will be withdrawn from it.",
+        title: "Shop Linked Wallets",
+        subtitle:
+          "Charges, commissions and store costs are deducted from these wallet accounts.",
+
+        title_add: "Connect new wallet account",
+        subtitle_add:
+          "You should create a new wallet for each currency and connect it to your store. The service fee will be withdrawn from this wallet.",
         add_account: "Add Account",
         charge_account: "Charge account",
         show_transaction: "Show transactions",
@@ -618,22 +636,23 @@ export default {
           account_number: "Account Number",
           account_name: "Account Name",
           balance: "Balance",
-          free_balance: "Free Balance",
+          free_balance: "Available Balance",
           actions: "Remove",
         },
         add_account_dialog: {
           title: "Connecting credit account to store",
           subtitle:
-            "You open a credit account with Selldone. We will give you credit like any other credit card. Selldone sales fee will be deducted from this account, but if your account balance is not enough, this amount will be owed. It will be registered. Use the services of Selldone as much as you need.",
+            "When you open a wallet account with Selldone, we will give you a virtual credit card and account like any other credit card. Selldone sales fee will be deducted from this account, but if your account balance is not enough, this amount will be owed. You can use Selldone services as much as you need.",
           account_number: "Account Number",
           account_number_input_message:
-            "The store will be linked to this account. This account will be charged fees and costs. ",
+            "The store will be linked to this account. This account will be used for fees and costs. ",
           balance: "Account Balance",
           connect_account_to_shop: "Connect Account to Store",
         },
         notifications: {
-          connect_account_success: "Account successfully added.",
-          delete_account_success: "Account successfully removed from store.",
+          connect_account_success: "Account added successfully.",
+          delete_account_success:
+            "Account removed from the store successfully.",
         },
         alert: {
           delete_account: "Disconnect account",
@@ -643,31 +662,31 @@ export default {
         },
         inform_charge_account: "Charge your account!",
         inform_charge_account_critical:
-          "Charge your account to prevent service outages!",
+          "Charge your account to prevent service suspension!",
       },
 
       /** {@see AdminShopFinanceGateway} **/
       gateway: {
         title: "Payment Methods",
         sub_title:
-          "List of active payment methods. If you want to add a new method to your shop, click on the following button. ",
+          "List of active payment methods. If you want to add a new method to your shop, press the following button. We highly recommended not exceeding 10 added payment gateways.",
         add_gateway: "New payment method",
 
         add_gateway_dialog: {
           title: "Select Currency",
-          country_currencies: "Official currencies",
-          crypto_currencies: "Encrypted currencies",
-          active_gateways: "Active ports",
+          country_currencies: "Local currencies",
+          crypto_currencies: "Cryptocurrencies",
+          active_gateways: "Active payment methods",
 
-          confirm: "Add port",
+          confirm: "Add payment method",
         },
       },
 
       /** {@see AdminShopFinanceExchangeRate} **/
       exchange: {
         title: "Store Active Currencies",
-        sub_title:
-          "Users will be able to select one of the active currencies and the prices of the products will be calculated and displayed. It is up to the seller to enter the exchange rate. ",
+        subtitle:
+          "Users will be able to select one of the active currencies and prices of the products will be calculated and displayed. It is up to the seller to enter the exchange rate. ",
         shop_currencies_input: "Active currencies for users",
         shop_currencies_input_error: "Select at least one currency",
         rates: {
@@ -711,12 +730,28 @@ export default {
 
     /** {@see AdminShopLogistics} **/
     logistic: {
+      /** {@see AdminShopLogistics_Warehouse} **/
+      warehouses: {
+        title: "Warehouses",
+        subtitle: "List of my warehouses.",
+      },
+
       warehouse_btn: "Add new warehouse",
-      warehouse_btn_error: "Set your warehouse, store, or origin of your business. It's essential in the shipping cost calculation and checkout process.",
+      warehouse_btn_error:
+        "Set your warehouse, store, or origin of your business. It's vital to have in the shipping cost calculation and checkout process.",
+      size_unit: {
+        title: "Size unit",
+        subtitle: "The unit used for length, width and height.",
+      },
+      mass_unit: {
+        title: "Mass unit",
+        subtitle: "The unit used for weight.",
+      },
 
       menu: {
         return_request: "Returned",
         delivery: "Shipping",
+        inventory: "Inventory",
         warehouse: "warehouse",
         logistic_apps: "Logistics",
       },
@@ -724,8 +759,7 @@ export default {
       /** {@see AdminShopLogistics_Inventory} **/
       warehouse: {
         title: "Store Warehouse",
-        sub_title:
-          "This address is considered as the origin of the sending service.",
+        sub_title: "This address is used as the origin of the shipping.",
         table: {
           title: "Inventory List",
           sub_title:
@@ -738,7 +772,7 @@ export default {
         title: "Shipping Methods",
 
         sub_title:
-          "By adjusting the values in this section, a variety of sending methods are activated for your reason. On-site payment can also be activated in this section. ",
+          "By setting the values in this section, a variety of sending methods are activated in your store. Cash on Delivery method can also be activated in this section. ",
         add_transportation: "Add transportation",
 
         /** {@see DeliveryFormWidget} **/
@@ -746,44 +780,55 @@ export default {
           payment: "Payment options",
           limits: "Limits",
 
-          currency_input: "Reference currency calculates cost",
+          currency_input: "Reference currency for cost calculations",
           currency_input_message: "Costs are calculated in this currency",
           distance_input: "Distance covered from warehouse",
           distance_input_message: "0 or -1 means no limit.",
           max_weight_input: "Maximum acceptable pack weight",
           max_weight_input_message: "0 or -1 means no limit.",
           max_size_input: "Maximum Package Dimensions",
-          width: "width",
-          length: "length",
-          height: "height",
-          days_input: "Selectable days to receive",
-          days_input_nodata: "Select at least one day",
-          hours_input: "Selectable hours to receive",
-          hours_input_nodata: "Select at least one time interval",
-          vacation_input: "Do you also serve on holidays?",
-          cod_input: "Support COD (Cash On Delivery)",
-          cod_input_message: "Make sure your shipping service accept COD.",
-          sod_input: "Does payment fulfill on the destination?",
-          sod_input_message:
-            "Ensure that your shipping service accepts payment on destination.",
+          width: "Width",
+          length: "Length",
+          height: "Height",
+          days_input: "Available delivery dates",
+          days_input_nodata: "Select the delivery day",
+          hours_input: "Avaialbe delivery times",
+          hours_input_nodata: "Select a time period",
+          vacation_input: "Do you deliver on holidays?",
+
+
           pricing: "Calculate Price",
-          const_input: "fixed cost",
-          distance_cof_input: "cost-to-distance coefficient",
-          distance_cof_input_dim: "per {dim}",
-          weight_cof_input: "cost-to-weight factor",
-          weight_cof_input_dim: "For every {dim}",
-          price_cof_input: "Price to cost factor",
+          const_input: "Fixed cost",
+          distance_cof_input: "Cost-to-distance coefficient",
+          distance_cof_input_dim: "Per {dim}",
+          weight_cof_input: "Cost-to-weight factor",
+          weight_cof_input_dim: "Per {dim}",
+          price_cof_input: "Shipping cost to product price factor",
           price_cof_input_message:
-            "Includes insurance costs and ancillary services such as on-site payment.",
-          price_cof_input_dim: "For every {dim}",
+            "Includes insurance costs and other services such as COD costs.",
+          price_cof_input_dim: "Per {dim}",
           distance_weight_cof_input: "Cost multiplier by weight multiplier",
           distance_weight_cof_input_dim: "For every {weight} per {distance}",
           free_shipping_input: "Free shipping",
           free_shipping_limit_input: "Minimum order cost for free shipping",
+
+          shipping_cost_calculation:'Shipping cost calculation',
+          sod_true: "Get shipping cost on destination",
+          sod_true_message: "Ensure that your shipping service accepts shipping cost on destination.",
+          sod_false:"Auto shipping cost calculation",
+
+
+          cod_input: "Support COD",
+          cod_true:'Accept cash on delivery',
+          cod_false:'Accept online payment only',
+          cod_true_message: "Make sure your shipping service accepts COD.",
+
+
+
           notifications: {
-            update_success:
-              "Successfully registered submission service settings.",
+            update_success: "Shipping service settings completed successfully.",
           },
+
         },
       },
     }, // End of logistic
@@ -795,7 +840,7 @@ export default {
         contact_form: "Contacts",
         faq: "FAQ",
         club: "Club",
-        report: "report",
+        report: "Report",
       },
 
       /** {@see ShopUsers_Report} **/
@@ -803,38 +848,39 @@ export default {
         title: "Customers Overview",
         sub_title: "You will see the live status of your customers here. ",
         report_30days_by_time:
-          "User activity based on day and time in last 30 days",
+          "User activity based on date and time in last 30 days",
         report_30days_by_location:
-          "Geo-location users activity in the last 30 days",
+          "Geolocation users activity in the last 30 days",
       },
       /** {@see ShopUsers_Club} **/
       club: {
-        title: "Clients Club",
+        title: "Customers Club",
         sub_title:
-          "Enter monthly and yearly currency and purchase amount to activate each level. Your users will be logged into your customer club as they meet the requirements of each annual or annual event. ",
+          "Enter monthly and yearly purchase amount and the currnecy to activate each level. Your customers will be logged into your customer club as they meet the requirements of monthly or annual purchase. ",
         item: {
           members_count: "Number of members",
-          purchases_count: "Purchase times",
+          purchases_count: "The Number of Orders",
           monthly: "Monthly",
           annually: "Yearly",
-          discount_percent: "Discount Percentage",
+          discount_percent: "Discount Rate",
           discount_limit: "Discount limit",
         },
 
         edit_dialog: {
           title: "Customer Level Management",
           currency_input: "Currency",
-          currency_input_message: "Purchase total calculated on this currency.",
+          currency_input_message:
+            "Total purchases are calculated in this currency.",
           free_shipping_input: "Free Shipping",
           monthly_input: "Monthly purchase rate",
           annually_input: "Annual purchase rate",
-          discount_percent_input: "Discount percentage for club members",
+          discount_percent_input: "Discount rate for club members",
           discount_limit_input: "Discount limit",
           description_input: "Description",
           description_input_message: "Enter a brief description of this level.",
         },
         notifications: {
-          update_success: "Changes applied to customer club.",
+          update_success: "Changes applied to the customer club.",
         },
       },
       /** {@see ShopUsers_FAQ} **/
@@ -848,7 +894,7 @@ export default {
     marketing: {
       menu: {
         campaigns: "Campaigns",
-        cross_selling: "Cross-sell",
+        cross_selling: "Cross selling",
         affiliate: "Affiliate",
         emails: "Emails",
         funnel: "Funnel",
@@ -877,28 +923,34 @@ export default {
     /** {@see CategoriesManagement} **/
     categories: {
       title: "Category List",
+      subtitle:
+        "Categories are the key feature of your online store. We encourage you to use these powerful categorize tools to build a modern storefront and make it easy for your customers to find right products.",
+
       menu: {
-        add_new: "New",
-        categories_list: "Category list",
+        add_new: "Add new category",
+        categories_list: "Categories list",
         export: "Export categories",
         import: "Import categories (CSV)",
       },
       /** {@see categoriesGraph} **/
       graph: {
+        title: "Hierarchy of Categories ",
+        subtitle:
+          "You can have a complete overview of your store categories and how users navigate them. With the right arrangement of categories, your customers can find products quickly and the conversion rate will rise.",
         visits_count: "Visit",
-        normal: "simple",
+        normal: "Simple",
         items_count: "Number of items",
         home: "Home",
       },
       /** {@see WidgetCategoryCard} **/
       category_widget: {
         parent: "Parent",
-        not_exist: "Not exist",
+        not_exist: "Does not exist",
         children: "Subcategories",
         delete_alert: {
           title: "Remove child category",
           message:
-            "Do you want to remove {title} from the {parent_title} subset list?",
+            "Do you want to remove {title} from the {parent_title} list?",
           action: "Delete",
         },
         notifications: {
@@ -909,18 +961,21 @@ export default {
     /** {@see AdminShopApps} **/
     apps: {
       menu: {
-        app_store: "Store",
+        app_store: "App Store",
         my_apps: "Apps",
       },
       /** {@see AdminShopApps_List} **/
       my_apps: {
         title: "Store Active Apps",
-        sub_title: "User apps and store management",
-        message: "Manage your site's applications in this section",
+        subtitle: "Manage your business applications.",
         all: "All",
       },
       /** {@see AdminShopApps_Store} **/
       store: {
+        title: "App store",
+        subtitle:
+          "Connect your favorite services to your business securely. We add plugins and apps based on our customers requests.",
+
         nodata: "No plugin found.",
         all: "all",
         more: "more",
@@ -950,7 +1005,7 @@ export default {
       shop_permissions: {
         menu: {
           users: "Personnel List",
-          new_user: "New Staff",
+          new_user: "Add New Staff",
           new_user_message:
             "Users who will have access to the dashboard and management sections of this store.",
           email_input_placeholder: "Email",
@@ -974,9 +1029,8 @@ export default {
       /** {@see AdminShopPermission_API} **/
       shop_api: {
         title: "Store Access Keys",
-        sub_title: "Store Connected Apps",
         message:
-          "These keys are used to create Access Token by your server. Note that these keys are confidential and only placed on the server in a way that is not visible to others. ",
+          "These keys are used to create Access Token by your server. Note that the keys are confidential and only on the server in a way that is not visible to others. ",
       },
     }, // End of permissions
     /** {@see AdminShop_Applications} **/
@@ -986,7 +1040,7 @@ export default {
         title: "Web App",
         sub_title: "View your store web app here",
         message:
-          "Note: You can edit your web welcome page on your iPhone and iPad in the iOS app",
+          "Note: You can edit your website welcome page on your iPhone and iPad in the iOS app",
         ios_app: "iOS app",
       },
 
@@ -995,14 +1049,14 @@ export default {
         title: "iOS app",
         sub_title: "You will soon be able to build an iOS app for your store.",
         message:
-          "Maximum file size: 512 KB, you can upload files up to 1MB in size, provided our compression system is able to reduce its size to 512KB. The image uploaded by you will be intelligently resized. ",
+          "Maximum file size: 512 KB, you can upload files up to 1MB in size, provided our compression system is able to reduce the size to 512KB. The uploaded image will be intelligently resized. ",
       },
       /** {@see AdminShop_Applications_Android} **/
       android: {
         title: "Android Application",
         sub_title: "Build your own Android app",
         message:
-          "Fill out this form and at the end press the build key. There will be no need for anything else. All steps of your app's Build and Sign process are performed on the cloud servers. The final app will be uploaded to all AppStores.",
+          "Fill out this form and press the build key. There will be no need for anything else. All steps of your app's Build and Sign process are performed on the cloud servers. The final app will be uploaded to all AppStores.",
         server_un_available:
           "Experimentally, the application server is not connected at this time.",
         app_building_progress: "Your app is being built.",
@@ -1012,52 +1066,52 @@ export default {
         main_info: "Application Package",
         package_name_input_message: "Make sure the package name is unique.",
         package_name_input_alert:
-          "If you change this name, you will no longer be able to update your previous apps in AppStore and install a new one bytes. Note that users of earlier versions of your app will also not be able to log in to their accounts. ",
-        version_input: "version",
+          "If you change this name, you will no longer be able to update your previous apps in AppStore and install a new one. Note that older versions app users will also not be able to log in to their accounts. ",
+        version_input: "Version",
         version_input_message:
           "This number must always be greater than its previous value.",
         version_name_input: "version name",
         version_name_input_message:
-          "Enter a custom name for this version of the app.",
+          "Enter a unique name for this version of the app.",
         use_selldone_key: "Selldone default keys",
         use_last_key: "Saved key",
         use_new_key: "New key",
         appearance: "Appearance",
-        app_name_input: "app name",
+        app_name_input: "App name",
         app_name_input_message: "This will be the main name of your app.",
         app_title_input: "app title",
         app_title_input_message: "This title appears at the top of the app.",
         app_title_input_placeholder: "Enter a title",
         app_icon_input: "app icon",
-        app_icon_input_placeholder:
-          "Select the icon of the app icons' zip file.",
+        app_icon_input_placeholder: "Select the zip file of app icons.",
         generate_icon_pack_action: "Build Icon Pack",
-        splash_design: "Splash Screen",
-        splash_logo_input: "Intro Page Logo",
-        splash_logo_input_placeholder: "Select an image for this page.",
-        splash_title_input: "Intro Page Title",
-        splash_title_input_placeholder: "Enter a title",
+        splash_design: "Splash Screen Desgin",
+        splash_logo_input: "Splash Screen Logo",
+        splash_logo_input_placeholder: "Select an image for the Splash Screen.",
+        splash_title_input: "Splash Screen Title",
+        splash_title_input_placeholder: "Enter a title for Splash Screen",
         splash_title_input_message:
-          "This title will be displayed in large format.",
-        splash_message_input: "Intro Page Message",
-        splash_message_input_placeholder: "message ...",
+          "This title will be displayed in large font size.",
+        splash_message_input: "Splash Screen Message",
+        splash_message_input_placeholder: "Message ...",
         splash_message_input_message:
           "This message will be displayed as a thumbnail below.",
 
-        dark_theme: "dark theme",
-        light_theme: "theme light",
+        dark_theme: "Dark theme",
+        light_theme: "light theme",
+        build: "Build",
         building_info:
-          "Building an application on a cloud server takes from 10 seconds to several minutes. Please be patient. The address of the downloaded file will appear here after the application is created. ",
-        update_mode_action: "update",
-        build_mode_action: "build app",
+          "Building an application on a cloud server takes 10 seconds to several minutes. Please be patient. The download file link will appear here once the application is ready.",
+        update_mode_action: "Update",
+        build_mode_action: "Build app",
         notifications: {
           icon_pack_not_valid_error: "File is not correct.",
-          start_building_title: "Under construction ...",
+          start_building_title: "Building ...",
           start_building_message:
-            "Application for Android application registered.",
+            "Request for building Android application submitted.",
           build_success_title: "Congratulations",
           build_success:
-            "Your Android app is ready, download it here at the top of the page.",
+            "Your Android app is ready, and you can download it now.",
         },
       },
     }, // End of applications
@@ -1085,11 +1139,12 @@ export default {
         email: "Email",
         domain: "Domain",
         verifications: "Verifications",
+        flow:'Flow',
       },
       delete_dialog: {
-        title: "Remove Store",
+        title: "Delete Store",
         message: "Do you want to delete <b> {title} </b> Store?",
-        action: "Remove Store",
+        action: "Delete Store",
       },
 
       notifications: {
@@ -1110,7 +1165,7 @@ export default {
         description_tab: {
           title: "Your business story",
           subtitle:
-            "Tell about your business and its unique value proposition.",
+            "Write about your business and its unique value proposition.",
         },
         contact_tab: {
           title: "Contact & Local business",
@@ -1119,8 +1174,7 @@ export default {
         },
         image_tab: {
           title: "Logo",
-          subtitle:
-            "Set an outstanding and unique visualization for your brand.",
+          subtitle: "Select a unique logo for your brand.",
         },
       },
 
@@ -1128,7 +1182,7 @@ export default {
       badge: {
         external_title: "Manage external badges",
         external_message:
-          "You can enter the address of the tag image and the link to it. URLs must be from a site approved. ",
+          "Here, you can enter the address of the badge image and the link to it. URLs must be from an approved website. ",
       },
       /** {@see ShopEdit_Menu} **/
       edit_menu: {
@@ -1137,13 +1191,13 @@ export default {
         footer: {
           title: "Footer menu",
           sub_title:
-            "You can define the bottom menu of your store page here. These menus can be home pages, designed pages or external links. ",
+            "You can configure the bottom menu of your store page here. These menus can be home pages, designed pages or external links. ",
         },
 
         header: {
           title: "Header menu",
           sub_title:
-            "This menu is only displayed on screens larger than mobile, at the top of the home screen, product categories, landings, and product screens.",
+            "This menu is only displayed on screens larger than mobile, and at the top of the home page, product categories, landings, and product pages.",
         },
 
         save_menu: "Save Menu",
@@ -1152,36 +1206,36 @@ export default {
           custom_pages: "Landing pages",
         },
         table: {
-          home: "home",
+          home: "Home",
           shop: "Shop",
-          blogs: "blog",
+          blogs: "Blog",
           about_us: "About Us",
-          privacy: "privacy",
+          privacy: "Privacy",
           terms: "Terms of Use",
           faq: "FAQ",
           contact_us: "Contact Us",
         },
         notifications: {
-          save_success: "Register Menu",
+          save_success: "The menu has been updated successfully.",
         },
       },
 
       /** {@see ShopEdit_Footer} **/
       social: {
-        title: "Social Networks",
+        title: "Social Media",
         message:
-          "Enter your official network link in this section. Follow the instructions in each item to confirm the addresses. ",
+          "Enter your official social media link in this section. Follow the instructions for each item to confirm the addresses. ",
       },
 
       /** {@see ShopEdit_Time} **/
       time: {
-        title: "Open days",
-        sub_title: "Set open week days and time",
-        days_open_input: "days",
+        title: "Working Days",
+        sub_title: "Set working days and time",
+        days_open_input: "Days",
         days_open_input_nodata: "Select at least one day",
         start_time_input: "Store activity start time",
-        start_time_input_hint: "Store activity opening hours",
-        end_time_input: "Store activity end time",
+        start_time_input_hint: "Store Open hours",
+        end_time_input: "Store Close time",
         end_time_input_hint: "Store activity end time",
         customer_support_service: "Accountability and Customer Service",
         response_time_input: "Customer Service Status",
@@ -1204,7 +1258,7 @@ export default {
   add_product: {
     title_new: "New product",
     title_new_category: "New category",
-    title_new_drop_shipping: "Add drop shipping",
+    title_new_drop_shipping: "Add dropshipping",
 
     title_edit: "Edit product",
     delete: "Delete product",
@@ -1216,12 +1270,12 @@ export default {
       rating: "Survey and Features",
       spec: "Specifications",
       images: "Pictures",
-      price: "price",
-      inputs: "input",
+      price: "Price",
+      inputs: "Input",
       outputs: "output",
-      extra: "Extra details",
+      extra: "Additional details",
       review: "Product Review",
-      inventory: "inventory / diversity",
+      inventory: "Inventory / Variants",
     },
 
     select_type: {
@@ -1232,7 +1286,7 @@ export default {
     edit_info: {
       category_input: "Category",
       product_name: "Product name*",
-      product_name_placeholder: "Your Product name here..",
+      product_name_placeholder: "Your product name here..",
       product_code: "Product code (English)",
       sku: "SKU",
       sku_message: "Stock keeping unit",
@@ -1243,81 +1297,92 @@ export default {
       brand: "Brand",
       brand_placeholder: "Brand Ex. Apple.. (Optional)",
       warranty: "Warranty",
-      is_original: "Is this the original product?",
+      is_original: "Is this an original product?",
       is_original_message:
-        "If you set as original fake badge not show for this product.",
+        "If you do not set your product original, the fake badge will be shown for this product.",
       return_warranty:
         "How many days does this product have a return guarantee?",
-      warehouse_section: "Warehouse & Manufacture",
+      warehouse_section: "Warehouse & Manufacturing",
       conditions_section: "Product conditions",
       warranty_section: "Warranty & Delivery",
 
       unit: "Product unit",
-      unit_message: "Enter the desired unit if needed. Ex: KG, Meter, ...",
+      unit_message: "Enter the unit if needed. Ex: KG, Meter, ...",
 
       condition: "Product condition in your store",
-      condition_message: "You must provide one of the values in this field.",
+      condition_message: "Please choose the condition of this product.",
 
       unit_section: "Product unit",
       unit_float: "Float unit (soon)",
       unit_float_hint:
-        "For example, the customer can order 3 kg of fruit, but the amount sent to the customer is slightly different from this amount.",
+        "For example, the customer can order 3 kg of fruit, but the amount sent to the customer is slightly different from the ordered amount.",
       unit_float_message:
-        "During order processing, the actual amount may differ from the ordered amount. The system automatically calculates this difference cost and records it as the customer's demand or debt to apply in the next order.",
+        "During order processing, the delivered amount may differ from the ordered amount. The system automatically calculates this difference and records it as your debt to the customer, which can be applied to the next orders.",
+
+      status_list:{
+        active:{
+          title:'Active | Online & Offline Sales',
+          description:'This product will be available for online orders.'
+        },
+        inactive:{
+          title:'Inactive | Only Offline Sales',
+          description:'This product will not be available for online orders.'
+        },
+      }
+
     },
 
     /** {@see ProductEditRatingsProsCons} **/
     rating_pros_cons: {
       title: "Survey",
       message:
-        "A list of product features we can rate if you see this offer offered for each item and privilege. (Brief 5 items)",
+        "Enter a list of product specifications for your customers to rate your product. (Up to 5 items)",
       rating_input: "Polls",
       rating_input_message: "You can add 5 items to the poll.",
 
-      item_unit: "Item(s)",
+      item_unit: "Item",
 
       pros_title: "Pros",
-      pros_message: "Enter product features. (Up to 5 items)",
+      pros_message: "Enter features of of the product. (Up to 5 items)",
       pros_input_title: "Feature Title",
       pros_input_value: "Feature value",
       pros_group: "Pros of product",
-      pros_group_messages: "The main advantages of the product",
+      pros_group_messages: "The main features of the product",
 
       cons_title: "Cons",
-      cons_message:
-        "Enter the negative features of the product. (Up to 5 items)",
-      cons_input_title: "Disadvantage title",
-      cons_input_value: "Disadvantage value",
-      cons_group: "Cons of product",
-      cons_group_messages: "The main disadvantages of the product",
+      cons_message: "Enter the weaknesses of the product. (Up to 5 items)",
+      cons_input_title: "Weakness title",
+      cons_input_value: "Weakness value",
+      cons_group: "Weaknesses of product",
+      cons_group_messages: "The main weaknesses of the product",
 
       select_from_list: "Select from list",
 
       suggestion_rating: [
-        "Build quality",
-        "Purchase Value to Price Ratio",
-        "Innovation",
+        "Good quality",
+        "Good Value",
+        "Would Recommend",
         "Features and capabilities",
-        "ease of use",
-        "Design and appearance",
+        "Ease to use",
+        "Well designed",
       ],
 
       notifications: {
         add_rating_success: `User-rating {rating_name} option added.`,
-        delete_rating_success: `Removed user-rated {rating_name} option.`,
+        delete_rating_success: `User-rating {rating_name} option deleted.`,
 
-        add_pros_success: "Product attribute added.",
+        add_pros_success: "Product feature added.",
         delete_pros_success: "Product feature removed.",
 
-        add_cons_success: "Product bug added.",
-        delete_cons_success: "Product bug removed.",
+        add_cons_success: "Product weakness added.",
+        delete_cons_success: "Product weakness removed.",
       },
     },
 
     /** {@see ProductEditSpec} **/
     edit_spec: {
       title: "Technical Specifications",
-      sub_title: "You can import technical spec of other products.",
+      sub_title: "You can import technical secifications of similar products.",
       import_action: "Import",
       group_input_header: "Add Group",
       item_title_header: "Add Item",
@@ -1326,10 +1391,10 @@ export default {
       group_add_action: "Add Group",
 
       item_title_input: "Title",
-      item_title_input_message: "Enter the attribute title.",
+      item_title_input_message: "Enter the feature title.",
 
       item_value_input: "Value",
-      item_value_input_message: "Enter the attribute value.",
+      item_value_input_message: "Enter the feature value.",
 
       add_item_action: "Add Item",
 
@@ -1338,11 +1403,12 @@ export default {
         code_input: "Product ID",
         code_input_message: "Product Code: P0000 ...",
         spec_view_title: "Specifications of the selected product",
-        set_spec_action: "Clone Technical Specifications",
+        set_spec_action: "Duplicate Technical Specifications",
       },
       notifications: {
         enter_group_title_error: "Enter headline value",
-        enter_item_title_and_value_error: "Enter title and attribute value",
+        enter_item_title_and_value_error:
+          "Enter the title and value of the feature",
         spec_saved_success: "Product specifications saved.",
       },
     },
@@ -1354,17 +1420,17 @@ export default {
       preview: "Preview",
       image_style: "Image style",
       background_is_white: "White Background",
-      background_is_white_msg: "Is the image's background  white?",
+      background_is_white_msg: "Does the image have white background??",
 
       images: {
         title: "Product Images Gallery",
         sub_title:
-          "Upload product images. These images are shared between all variations.",
+          "Upload product images, common to all product variants, in this section.",
       },
       video: {
         title: "Video",
         sub_title:
-          "First, upload your product video on Youtube, and then put the video URL or video ID here.",
+          "First, upload your product video on Youtube, and then put the video URL here.",
       },
     },
     /** {@see ProductEditPrice} **/
@@ -1372,29 +1438,32 @@ export default {
       edit_price: "Pricing",
       price_input: "Price",
       currency_input: "Currency",
-      currency_input_messages: "Price is calculated on this currency.",
-      commission_input: "Commission / tax",
+      currency_input_messages: "Price is calculated in this currency.",
+      commission_input: "Commission",
+      commission_message:
+        "This option is useful only for particular types of merchants like wholesalers. If you are not a wholesaler, leave this option blank. The price that buyers see is sum of price and commission. For adding tax click Accounting > Tax.",
+      add_commission_action: "Add commission",
       discount_input: "Discount",
       discount_input_message: "Discount rate",
-      has_discount_period_input: "Does this discount apply at a specific time?",
+      has_discount_period_input: "Is this discount valid for a specific time?",
       discount_timespan: "Enter the discount period.",
       start_input: "Start",
       end_input: "End",
-      start_input_placeholder: "Select when to start discount",
-      end_input_placeholder: "Select when the discount will end",
-      independent_price: "Independent price just for this variant",
-      same_price: "Set root product price",
+      start_input_placeholder: "Select the start time ",
+      end_input_placeholder: "Select the end time",
+      independent_price: "The price only for this variant",
+      same_price: "The price for the main product",
       variant_pricing_message:
-        "By selecting this option, the price of this product variant can be set independently of the main product.",
+        "By selecting this option, the price of this variant can be set independently of the main product.",
     },
     /** {@see ProductEditInputs} **/
     inputs_edit: {
-      title: "Buyer Information Input Form",
+      title: "Input Form of Buyer Information",
       sub_title:
-        "You can create a data entry form for each product, so shoppers send you information when buying a product. For example, this information could be a name for an engraving on a stone. ",
+        "You can create a data entry form for each product, so shoppers send you information when buying a product. For example, this information could be a name for an engraving on a stone.",
       message_input: "Message to User",
       message_input_message:
-        "This message will be shown to the user when purchasing.",
+        "This message will be shown to the customer when purchasing products.",
       inputs_form: "Information structure (input)",
     },
 
@@ -1403,18 +1472,18 @@ export default {
       physical: {
         title: "Shipping Information",
         sub_title:
-          "Cost and time of preparation are calculated based on the information in this section. Be sure to enter the information according to the units selected for the store (weight, dimensions, distance). ",
+          "Cost and time of preparation are calculated based on the information in this section. Be sure to enter the information according to the selected units in the store (weight, dimensions, distance).",
       },
 
-      notifications:{
-        save_title:"Packaging Updated",
-        save_msg:"Product packaging information successfully updated."
-      }
+      notifications: {
+        save_title: "Packaging Updated",
+        save_msg: "Product packaging information updated successfully.",
+      },
     },
 
     variants: {
       not_available:
-        "It is currently not possible to select a variety for this type of product.",
+        "It is currently not possible to select a variant for this type of product.",
     },
 
     delete_product: {
@@ -1426,14 +1495,14 @@ export default {
   /** {@see ProductAdminPage} **/
   product_admin: {
     products_list: "Product List",
-    product: "product",
+    product: "Product",
 
     menu: {
-      edit: "edit",
+      edit: "Edit",
       review: "Review",
-      orders: "orders",
-      inventory: "inventory",
-      dashboard: "dashboard",
+      orders: "Orders",
+      inventory: "Inventory",
+      dashboard: "Dashboard",
       back_to_products: "Products",
       drop_shipping: "Dropshipping",
     },
@@ -1442,13 +1511,13 @@ export default {
     dashboard: {
       /** {@see ProductInfoWidget} **/
       info: {
-        title: "profile",
+        title: "Profile",
         title_small: "Product",
         category: "Product Category",
         link: "Product Link",
-        type: "type",
-        inputs: "input information",
-        outputs: "output information",
+        type: "Type",
+        inputs: "Input information",
+        outputs: "Output information",
         user_data_form: "Buyer Information Form",
       },
       /** {@see ProductActiveOrdersWidget} **/
@@ -1456,8 +1525,8 @@ export default {
         title: "Orders",
         title_small: "Unprocessed",
         physical_orders_title: "Shopping Carts With This Product",
-        send_30days_title: "Last 30 days send count",
-        downloads_30days_title: "Last 30 days downloads count",
+        send_30days_title: "Shipped orders in last 30 days",
+        downloads_30days_title: "File downloaded number in last 30 days",
         virtual_orders_title: "This product's orders awaiting completion", // todo: remove!?
       },
 
@@ -1466,30 +1535,30 @@ export default {
         title: "Inventory",
         title_small: "Warehouse",
         total_sell: "Total Sales",
-        total_sell_today: "Sell Today",
+        total_sell_today: "Today Sales",
         total_sell_30days: "Last 4 Days Sales",
         chart: {
-          labels: ["inventory", "sale"],
+          labels: ["Inventory", "Sale"],
         },
       },
 
       /** {@see ProductFinanceWidget} **/
       finance: {
-        title: "financial",
+        title: "Financial",
         title_small: "Last 6 Month Purchase Report",
         select_mode_title: "Show By",
         modes: {
-          sell: "Sell",
+          sell: "Sale",
           payment: "Payment",
           discount: "Discount",
         },
         currency_select_title: "Price by selected currency",
-        sell_today: "Today sell",
-        product_price: "Product price",
-        currency_unit: "Currency unit",
-        sell_30days: "Sell 30 days",
-        sell_daily: "Daily sell amount",
-        sell_yesterday: "Yesterday sell",
+        sell_today: "Today sales",
+        product_price: "Product Price",
+        currency_unit: "Currency Unit",
+        sell_30days: "30 days sales ",
+        sell_daily: "Daily sales",
+        sell_yesterday: "Yesterday sales",
       },
 
       /** {@see ProductSurveyWidget} **/
@@ -1497,11 +1566,11 @@ export default {
         title: "Product Rating",
         title_small: "Customer Satisfaction Report",
         total_participation: "Total number of contributions",
-        today_participation: "Partnership today",
-        last7days_participation: "Last Seven Days Partnership",
+        today_participation: "Today ratings",
+        last7days_participation: "Last 7 days contributions",
         chart: {
-          participate: "participation",
-          participate_title: "number of contributions",
+          participate: "Participation",
+          participate_title: "The number of contributions",
           score: "Score",
         },
       },
@@ -1511,9 +1580,9 @@ export default {
         title: "Customer Expectations",
         title_small: "Waiting for discounts or availability",
         message:
-          "Customers who are waiting for this product to notify the product or auction it",
-        waiting_for_auction: "Waiting for auction",
-        waiting_for_available: "Waiting for the item to be available",
+          "Notify customers when products go on sale or become available",
+        waiting_for_auction: "Waiting for products go on sales",
+        waiting_for_available: "Waiting for the products to be available.",
         unit: "person(s)",
       },
     },
@@ -1527,16 +1596,16 @@ export default {
 
         title: "Product Inventory / Product Variants List",
         sub_title:
-          "If this product has more than one variety, enter them in this section. You can individually define the amount, price and discount terms of each variation; otherwise the default values ​​of the product will be applied for pricing. ",
-        add_action: "Add Variation",
-        count_input: "inventory",
+          "If this product has more than one variant, enter them in this section. You can separately define the amount, price and discount of each variant; otherwise the default values ​​of the product will be applied for pricing. ",
+        add_action: "Add Variant",
+        count_input: "Inventory",
         count_input_action: "Set count",
         management_title: "Inventory management and product variants",
         add_title: "Add product variant",
         edit_title: "Edit product variant",
         notifications: {
-          add_success: "Product diversity added.",
-          delete_success: "Product Variety Deleted.",
+          add_success: "Product variant added.",
+          delete_success: "Product variant Deleted.",
           save_product_inventory_success: "Inventory of products saved.",
         },
       },
@@ -1544,32 +1613,31 @@ export default {
       /** {@see VirtualItemsList} **/
       variant_item: {
         price: "price",
-        same_as_product: "Similar to the original product",
-        in_stock: "Warehouse Inventory",
+        same_as_product: "Similar to the main product",
+        in_stock: "Inventory",
         delete_dialog: {
-          title: "Eliminate Variety of Goods",
-          message: "Do you want to delete this item?",
+          title: "Delete product variant",
+          message: "Do you want to delete this variant?",
         },
       },
       /** {@see ProductVariantAddEdit} **/
       variant_add_edit: {
-        title: "Defining Product Variety",
+        title: "Defining Product Variant",
         message: "Product Number Unique",
-        active_input: "Is this variation enabled?",
+        active_input: "Is this Variant active?",
         sku: "SKU",
         sku_tips: "Product Warehouse Code.",
         mpn: "MPN",
         mpn_tips: "Product code inserted by manufacturer on product packaging",
         variant_variable: "Variant variables",
         pricing: "Pricing",
-        has_pricing_input:
-          "Is the pricing different from the original product?",
+        has_pricing_input: "Is the price different from the main product?",
         inventory: "Inventory",
-        inventory_unit: "items",
-        delivery_info: "Packaging & Delivery",
-        images: "Variant's pictures",
+        inventory_unit: "Items",
+        delivery_info: "Packaging & Shipping",
+        images: "Variant's images",
         images_message:
-          "After saving this variation you will be able to add an image here.",
+          "After saving this variant you will be able to add an image here.",
       },
     },
 
@@ -1585,18 +1653,19 @@ export default {
   /** {@see ProductExtraPhysicalForm} **/
   product_extra_physical: {
     weight: "Package weight",
-    weight_unit: "kg",
+    weight_unit: "Kg",
     size: "Package Dimensions",
-    dimension: "cm",
+    dimension: "Cm",
     width: "Width",
     length: "Length",
     height: "Height",
     lead_time_title: "Preparation time",
     lead_time: "Preparation time",
-    lead_time_dimension: "hour(s)",
-    bulk_action:"Bulk Actions",
-    bulk_action_input:"Update all variants",
-    bulk_action_msg:"Set product packaging and lead time for all variants.",
+    lead_time_dimension: "Hour(s)",
+    bulk_action: "Bulk Actions",
+    bulk_action_input: "Update all variants",
+    bulk_action_msg:
+      "Set product packaging and preparation time for all variants.",
   },
 
   /** {@see ProductImagesList} **/
@@ -1604,17 +1673,17 @@ export default {
     upload_button: "More Product Images",
     upload_an_image: "Select an image.",
     notifications: {
-      update_sort_success: "Order of images saved",
+      update_sort_success: "Images sorting saved",
       delete_image_title: "Delete product image",
-      delete_image_success: "Image successfully deleted",
+      delete_image_success: "Image deleted successfully",
     },
   },
 
   /** {@see ProductVariantsView} **/
   variants_view: {
-    prices: "prices",
-    inventory: "Warehouse Inventory",
-    discount: "discount",
+    prices: "Prices",
+    inventory: "Inventory",
+    discount: "Discount",
   },
 
   /** {@see GiftCardTypeEdit} **/
@@ -1622,11 +1691,11 @@ export default {
     title_input: "Title",
     color_input: "Card color",
     charge_input: "Initial charge",
-    charge_input_hint: "Initial charge per card",
+    charge_input_hint: "Initial charge for each card",
     currency_input: "Currency",
     currency_input_message: "Only for purchase with this currency",
-    lifetime_input: "validity period (month)",
-    lifetime_input_message: "Card validity issued by month of issue",
+    lifetime_input: "Card validity (month)",
+    lifetime_input_message: "Card validity",
     card_image_input: "Card image",
     notifications: {
       create_success: "Card created",
@@ -1648,23 +1717,25 @@ export default {
     confirm_action: "Warehouse Approval",
     address_name: "Warehouse",
     notifications: {
-      success_save: "Changes were successfully saved.",
+      success_save: "Changes saved successfully.",
     },
   },
 
   /** {@see AdminShopLogisticsWarehouseInventoryList} **/
   inventory_list: {
     search_input: "Product Search...",
-    search_input_title: "Search among store goods",
+    search_input_title: "Search among store products",
     apply_filter: "Apply filter",
     inventory: "Inventory list",
     export: "Export inventory",
     import: "Import inventory",
     bulk_price: "Bulk price change",
+    bulk_discount: "Bulk discount change",
+    category_filter_msg: "⚡ It will apply to all products and subcategories!",
     table: {
       waiting: "Receiving information ... please wait",
-      open_state: "Selling",
-      close_state: "Stop",
+      open_state: "Active",
+      close_state: "Inactive",
       image: "Image",
       product: "Product Name",
       code: "Product Code",
@@ -1676,10 +1747,19 @@ export default {
       edit: "Change",
     },
     bulk_price_dialog: {
-      title: "Change the price of all products",
+      title: "Bulk actions > Price",
       message:
-        "Note: The following amount will be applied as a percentage to the price of all products in your store. Also, the calculated price values will be intelligently converted to the closest round number based on the selected currency.Be careful in entering the quantities.",
+        "Note: The following amount will apply as a percentage to the price of all products in your store. Also, the calculated price values will be intelligently converted to the closest round number based on the selected currency.Be careful in entering the values.",
       check: "I approve price changes.",
+      add_percent_tab: "Add Percent",
+      add_constant_tab: "Add Constant",
+      ending_tab: "Ending strategy",
+    },
+    bulk_discount_dialog: {
+      title: "Bulk actions > Discount",
+      message:
+        "Note: The following amount will as a percentage to the discount of all products in your store. Also, the calculated discount values will be intelligently converted to the closest round number based on the selected currency.Be careful in entering the values.",
+      check: "I approve discount changes.",
     },
     notifications: {
       save_success: "Inventory change saved.",
@@ -1693,20 +1773,20 @@ export default {
 
   /** {@see TimeProgressBar} **/
   time_progress_bar: {
-    title_before_start: "Remaining to begin",
+    title_before_start: "Remaining to the start",
     title_between_start_end: "Remaining to the end",
     title_after_end: "Finished",
-    title_no_start_end: "Without time span!",
+    title_no_start_end: "Without time period!",
   },
 
   /** {@see GeoMap} **/
   geo_map: {
     views: "Views",
-    views_unit: "times",
+    views_unit: "Times",
     product_views: "Product views",
     buys: "Purchases",
-    buys_unit: "Order",
-    baskets: "Active baskets",
+    buys_unit: "Orders",
+    baskets: "Active carts",
     added_items: "Add items",
     removed_items: "Remove items",
   },
@@ -1719,7 +1799,7 @@ export default {
       user: "User",
       tag: "Tag",
       question: "Question",
-      officer: "Officer",
+      officer: "Staff",
       answer: "Answer",
       created_at: "Date",
       priority: "Priority",
@@ -1729,7 +1809,7 @@ export default {
       add_new_action: "Submit new question",
       edit_action: "Edit FAQ",
       question_input: "Question",
-      question_input_placeholder: "Enter the question text ..",
+      question_input_placeholder: "Ask your question  ..",
       link_input: "Link",
       link_input_placeholder: "You can refer to a link in reply.",
       answer_input: "Answer",
@@ -1744,8 +1824,8 @@ export default {
       action: "Delete",
     },
     notifications: {
-      send_success: "Your answer has been successfully registered.",
-      delete_success: "Question deleted.",
+      send_success: "Your answer has been submitted successfully.",
+      delete_success: "Your question has been deleted successfully.",
     },
   },
   /** {@see ContactMessagesList} **/
@@ -1757,7 +1837,7 @@ export default {
       user: "User",
       message: "Message body",
       category: "Category",
-      officer: "Officer",
+      officer: "Staff",
       answer: "Answer",
       created_at: "Date",
       contact: "Contact",
@@ -1772,11 +1852,12 @@ export default {
       phone: "Contact Number",
       message: "Message text",
       status: "Response Status",
-      status_answered: "Has been answered",
+      status_answered: "Answered",
       status_waiting: "Awaiting Response",
       answer_input: "Reply text",
       mail_input: "Send mail",
-      mail_input_message: "If enable your response mailed to user.",
+      mail_input_message:
+        "If you enable this, your response will be sent to the user email.",
     },
     delete_alert: {
       title: "Delete Message",
@@ -1784,7 +1865,7 @@ export default {
       action: "Delete",
     },
     notifications: {
-      send_success: "Your request has been successfully submitted.",
+      send_success: "Your request has been submitted successfully.",
       delete_success: "Message deleted.",
     },
   },
@@ -1808,25 +1889,27 @@ export default {
       links_overview: "Campaign links overview",
       orders: "Orders",
       performance: "Campaign performance",
-      links_funnel: "Campaign's links performance funnel",
-      no_links: "Data not available! Please add link to your campaign.",
-      social: "Social leads",
+      links_funnel: "Campaign links Performance",
+      no_links:
+        "There is no data available! Please create a link to your campaign.",
+      social: "Social media leads",
       conversion_over_time: "Conversion over time",
-      total_campaign_sell: "Total sell by campaign",
+      total_campaign_sell: "Total sales by campaign",
     },
     /** {@see AdminShopCampaignPage_Finance} **/
     finance: {
       title: "Finance report",
       campaign_revenue: "Campaign revenue",
       total_revenue: "Total revenue by campaign",
-      links_revenue: "Campaign links revenue",
+      links_revenue: "Campaign Links revenue",
       payments_over_time: "Sales over time",
       all_links: "All links",
     },
     /** {@see AdminShopCampaignPage_Landing} **/
     landing: {
-      empty_message: "Set a landing page in campaign's setting",
-      add_landing: "Add landing page",
+      empty_message: "Set a landing page in campaign settings.",
+      set_landing: "Set landing page",
+      create_landing: "Create new landing page",
     },
 
     /** {@see AdminShopCampaignPage_Links} **/
@@ -1839,9 +1922,9 @@ export default {
     setting: {
       menu: {
         config: "Config",
-        timespan: "Timespan",
+        timespan: "Time Period",
         banner: "Banner",
-        Notification: "notification",
+        Notification: "Notification",
       },
 
       general_setting: {
@@ -1855,7 +1938,7 @@ export default {
         discount_code_input: "Discount code",
         limit: "Discount limit",
         max_count: "Max count",
-        max_count_unit: "items",
+        max_count_unit: "Items",
         start: "Start",
         end: "End",
         notification_enable_input: "Notification enabled?",
@@ -1867,7 +1950,7 @@ export default {
         auto_message: "Default campaign activated in your shop",
       },
       time_setting: {
-        title: "Time span",
+        title: "Time period",
         sub_title: "Start Date & Time / End Date & Time",
         start_input: "Start",
         start_input_placeholder: "Select Campaign Start Time",
@@ -1880,7 +1963,7 @@ export default {
 
         message_input: "Message text",
         message_input_placeholder: "Special Festival ...",
-        message_input_hint: "Banner message text above store",
+        message_input_hint: "Banner message text top of store",
         bg_image_input: "Background image URL",
         bg_image_input_hint: "Full background image URL",
         repeat_pattern: "Repeat pattern",
@@ -1890,16 +1973,16 @@ export default {
         icon_input_hint: "Material Design Icon Name or Fontawsom: fas fa-star",
         anim_input: "Animation Address",
         anim_input_message: "Lottie animation file URL",
-        preview: "preview",
+        preview: "Preview",
         preview_update_action: "Update preview",
         bg_color: "Background color",
         icon_bg: "Icon background color",
       },
       notifications: {
         title: "Notification",
-        sub_title: "Create an announcement and link that to your campaign.",
+        sub_title: "Create a notification and link it to your campaign.",
         update_success: "Your campaign has been updated.",
-        action_button: "Action button caption",
+        action_button: "Action button",
         background_color: "Background color",
         text_color: "Text color",
         action_color: "Action color",
@@ -1908,7 +1991,8 @@ export default {
         notification_bg: "Notification background",
         show_preview: "Show preview",
         persistence: "Persistence",
-        persistence_message: "Show every time user visit website?",
+        persistence_message:
+          "Do you want to show every time your user visits the website",
         radius: "Radius",
         show_delay: "Show delay",
       },
@@ -1934,7 +2018,7 @@ export default {
     parent_input: "Parent category",
     parent_input_message: "This category appears on the store homepage.",
     image_input: "Category image",
-    image_input_placeholder: "Select image for category",
+    image_input_placeholder: "Select an image for the category",
     edit_action: "Edit category",
     add_action: "Add category",
     back_action: "Back",
@@ -1946,36 +2030,37 @@ export default {
       sub_title:
         "Manage filters and categories applicable to products in this category.",
       message:
-        "Enter and save the common technical attribute title for this category in the box below. After saving the list the filter categories will be displayed along with the contents of each category. Color, weight, volume, brand, etc. are automatically extracted from product diversity. ",
+        "Enter and save the common technical feature title for this category in the box below. After saving the list, the filter categories will be displayed along with the contents of each category. Color, weight, size, brand, etc. are automatically extracted from product variant. ",
     },
     delete_alert: {
       title: "Remove Category",
       message: "Do you want to delete the {title} category?",
-      action: "delete",
+      action: "Delete",
     },
     notifications: {
       add_success: "New category added.",
-      edit_success: "Category was edited.",
+      edit_success: "Category edited.",
       delete_success: "Deleted {title}.",
     },
     /** {@see CategoriesManagementFilter} **/
     edit_filter: {
-      spec_input: "Technical Properties List",
-      spec_input_message: "List of titles filterable technical topics",
+      spec_input: "Technical Specifications List",
+      spec_input_message:
+        "List of features that you want to be shown in the filter section",
       price: "Price",
       min: "Min",
       max: "Max",
       suggested_list: {
-        brand: "brand",
-        colors: "color",
-        styles: "design",
-        volumes: "volume",
-        weights: "weight",
+        brand: "Brand",
+        colors: "Color",
+        styles: "Design",
+        volumes: "Volume",
+        weights: "Weight",
         packs: "Number per pack",
-        types: "type",
+        types: "Type",
       },
       notifications: {
-        edit_success: "Category was edited.",
+        edit_success: "Category edited.",
       },
     },
   },
@@ -1992,35 +2077,35 @@ export default {
   add_shop: {
     menu: {
       shop_title: "Store title",
-      shop_name: "Shop name",
+      shop_name: "Store name",
       description: "Description",
       contact: "Contact Information",
       image: "Image",
     },
-    title_input: "title",
+    title_input: "Title",
     title_input_tips: "Enter the name of your store, brand or company.",
     active_message: "Set active to everyone can access your website.",
     language_input_message: "Select your store language.",
-    name_input: "name",
-    name_input_message: "Enter a Latin name for your store.",
+    name_input: "Name",
+    name_input_message: "Enter a name for your store.",
     name_input_tips:
-      "Do not use non-latin characters, spaces or letters other than the English alphabet, if used, the store name may not be displayed correctly.",
+      "Do not use non-English characters, spaces or letters, if used, the store name may not be displayed properly.",
     description_input: "Store description",
-    description_input_message: "Write a brief description of your business.",
+    description_input_message: "Write a brief description about your business.",
     address_input: "Store Address",
     address_input_message: "Enter exact store location address",
 
-    phone_input: "phone number",
+    phone_input: "Phone number",
     phone_input_message: "Customer Contact Number",
     phone_input_tips:
-      "Enter international phone number, contact number with country code. This number is also used to display information in Google search. ",
+      "Enter contact number with country code. This number is also used to display information in Google search. ",
     email_input: "Email",
     email_input_message: "Email address for customers",
     locality_input: "location",
-    locality_input_message: "store location",
+    locality_input_message: "Store location",
     region_input: "State or Province",
     region_input_message: "State or province in which you operate",
-    country_input: "country",
+    country_input: "Country",
     country_input_message: "Country of business",
     postal_code_input: "Postal Code",
     postal_code_input_message: "Store Postal Code",
@@ -2034,7 +2119,7 @@ export default {
     },
 
     create_shop_action: "Create Store",
-    update_shop_action: "update",
+    update_shop_action: "Update",
 
     notifications: {
       copy_success: "Copy of store address.",
@@ -2048,7 +2133,7 @@ export default {
   virtual_items_list: {
     add_virtual_item: "Add virtual item",
     add_virtual_item_desc:
-      "To sell virtual products, you must add them in this section. The number of items in the virtual goods item is equal to the number of free items in this section. will be sent.",
+      "To sell virtual products, you must add them in this section. The number of virtual items is equal to the number of free items in this section. Once customers purchase the virtual item, the link will be sent to them.",
 
     filter_action: "Apply filter",
     not_processed: "Unprocessed Orders",
@@ -2074,13 +2159,13 @@ export default {
   add_virtual_item: {
     title_edit: "Edit values",
     title_add: "Add item to product",
-    sub_title: "Creating and Editing Digital Product Items",
+    sub_title: "Creating and Editing Virtual Products",
     message:
-      "The store manager can show them the value after the purchase and payment of the user. These values should be entered in the form below. The structure of this form is set in the Edit Item> Edit Output Information section. ",
+      "The store manager can show buyer the value after the payment. These values must be entered in the form below. The structure of this form is set in the Edit Item> Edit Output Information section. ",
     edit_outputs: "Edit output form",
     notifications: {
       edit_success: "Item edited.",
-      add_success: "Item added to list.",
+      add_success: "Item added to the list.",
     },
   },
 
@@ -2119,12 +2204,12 @@ export default {
       },
       tips: [
         "After completing the customer request, hit the order confirmation key to notify the buyer of the order.",
-        "Once the order is approved, the buyer will not be able to modify the input information.",
+        "Once the order is approved, the buyer will not be able to edit the input information.",
       ],
       alerts: {
-        order_completed_by_admin: "Your order has been executed and approved.",
-        order_completed_by_buyer: "Order has been approved by the buyer.",
-        waiting_for_buyer: "Waiting for buyer approval ..",
+        order_completed_by_admin: "Order has been completed.",
+        order_completed_by_buyer: "Order has been completed by the buyer.",
+        waiting_for_buyer: "Waiting for the buyer approval ..",
       },
     },
   },
@@ -2145,21 +2230,21 @@ export default {
     title: "Order Processing",
     cancel_order_action: "Cancel Order",
     open_basket_cation:
-      "This shopping cart is open, meaning the customer is shopping and has not sent their order.",
+      "This shopping cart is open, meaning the customer is shopping and has not paid the order yet.",
 
     reject_dialog: {
-      title: "Reason to Reject Order",
+      title: "Reason to Reject the Order",
       message:
-        "Select the reason for rejecting this order from the options below. Be sure to contact the customer and inform them of the cancellation and refund process. Refunds must be made in less than 12 hours. ",
+        "Select the reason for rejecting this order from the list below. Make sure to inform the customer of the cancellation and refund process. Refunds must be made within 12 hours.",
       confirm_action: "Cancel order",
-      dismiss_reject_action: "Invalidate cancellation",
+      dismiss_reject_action: "Dismiss the order cancellation",
     },
 
     notifications: {
       update_status_success: "Order status updated.",
       reject_update_success: "Order cancellation status updated.",
-      dismiss_reject_success: "Order back to the normal process.",
-      set_tracking_success: "Order tracking values saved successfully.",
+      dismiss_reject_success: "Order returned to the normal process.",
+      set_tracking_success: "Order Track ID saved successfully.",
     },
   },
   /** {@see ShopProcessCenterPhysicalOrderPage} **/
@@ -2169,10 +2254,10 @@ export default {
   process_center: {
     title: "Processing Center",
 
-    physical_product: "physical goods",
+    physical_product: "Physical products",
     menu: {
       label: "Package Label",
-      receipt: "invoice",
+      receipt: "Invoice",
       back: "Back",
       return: "Return",
       report: "Report",
@@ -2185,22 +2270,23 @@ export default {
     payment_widget: {
       title: "Payment",
       checklist: [
-        "Check order cost and customer payment.",
+        "Check order amount and customer payment.",
         "Check billing address.",
-        "Ensure the information entered is correct, especially if the payment is cash on delivery.",
+        "Ensure the entered information is correct, especially if the payment is Cash On Delivery.",
       ],
       action_cod_pay: "Confirm payment by customer",
       action_dir_pay: "Confirm uploaded payment receipt",
-      payment_receipt_not_uploaded_error: "Payment receipt not uploaded yet!",
+      payment_receipt_not_uploaded_error:
+        "Payment receipt has not been uploaded yet!",
 
       waiting_for_pay: "Pending payment",
       processing_payment: "Processing payment",
       processing_cancel: "Payment canceled",
-      payed: "Paid",
+      paid: "Paid",
       cod_pay_info:
         "When you have received the order from the customer you can confirm payment and complete the order.",
       dir_pay_info:
-        "The payment receipt will be shown above. Before confirming the payment, check the accuracy of the deposit amount and receipt information with your bank.",
+        "The payment receipt will appear above. Before you confirm the payment, verify the deposit amount and receipt information with your bank.",
 
       created_date: "Created Date",
       pay_date: "Payment Date",
@@ -2216,9 +2302,9 @@ export default {
       add_bill_dialog: {
         title: "Add Invoice",
         message:
-          "You can add one or more new invoices for this order. The customer will see these invoices and will pay each one according to the progress of the work.",
+          "You can add one or more new invoices for this order. The customer will see these invoices and pay each one according to the progress of the work.",
         amount_input: "Invoice amount",
-        action: "Register bill",
+        action: "Add bill",
       },
       edit_bill_dialog: {
         title: "Edit Invoice",
@@ -2238,9 +2324,9 @@ export default {
         description: "Description",
         info: "Info",
       },
-      user_payment: "Buyer Deposit",
+      user_payment: "Customer payment",
       cod: "Cash on Delivery",
-      gateway_wage: "Port fee",
+      gateway_wage: "Fee",
       gift_card: "Gift Card",
       discount_code: {
         title: "Discount Code",
@@ -2249,7 +2335,7 @@ export default {
         limit: "Limit",
       },
       club: {
-        title: "Clients Club",
+        title: "Customers Club",
         percent: "Percent",
         limit: "Limit",
       },
@@ -2262,19 +2348,19 @@ export default {
       },
       delivery: {
         title: "Shipping Cost",
-        not_payed: "Not payed",
+        not_paid: "Not paid",
       },
       samin: {
         title: "Service Fee",
         description:
           "This amount has been deducted from your Selldone wallet account.",
         tooltip: "Calculate by payment method",
-        percent: "percent",
+        percent: "Percent",
       },
       affiliate: {
         title: "Affiliate commission",
         affiliate_message:
-          "You should pay this commission to your affiliate. This process done by yourself.",
+          "You should pay this commission to your affiliate. This process is done by yourself.",
       },
       total_price: "Total Items Price",
       total_items_discount: "Items Discount",
@@ -2290,7 +2376,7 @@ export default {
       pay_dir_dialog: {
         title: "Did You Receive Order Money?",
         message:
-          "Confirm this option after approving uploaded payment receipt with your bank,Be sure to check amount of payment with your bank.",
+          "Confirm this option after approving uploaded payment receipt with your bank. Be sure to check the payment with your bank.",
         confirm_action: "Confirm customer payment",
       },
 
@@ -2320,32 +2406,33 @@ export default {
     preparing: {
       title: "Preparation",
       packing_weight: "Packing Weight",
-      delivery_type: "shipping method",
+      delivery_type: "Shipping method",
       packing_size: "Packaging Dimensions",
-      distance_warning: "Exceeds the maximum distance limit.",
-      weight_warning: "Exceeds maximum allowed weight.",
-      volume_warning: "Exceeds than the maximum package size.",
+      distance_warning: "Exceeds the allowed distance limit.",
+      weight_warning: "Exceeds the allowed weight.",
+      volume_warning: "Exceeds the allowed package size.",
 
       message:
-        "Click the following <b> Order Ready</b> button if the order is ready to send.",
-      action: "Order ready to send",
+        "Click the following <b> Order Ready</b> button if the order is ready to ship.",
+      action: "Order ready to ship",
       checklist: [
-        "Following standard rules in packing.",
+        "Following standard rules in packaging.",
         "Print a list of items and put it inside the package.",
         "Print and stick a label to the box.",
       ],
     },
 
-    basket_items: "Cart Contents List",
+    basket_items: "Order items List",
 
     delivered_dialog: {
       title: "Has this order been received by the customer?",
       message:
-        "Only confirm this option to ensure that the order is delivered to the customer.",
-      confirm_action: "Confirmation received by customer",
+        "Confirm this option when you know the customer received the order",
+      confirm_action: "I confirm that customer recieved the package",
     },
     return_delivery_dialog: {
-      title: "Has there been a problem sending this order or has it returned?",
+      title:
+        "Did the order have any problems during delivery or was it returned?",
       message:
         "Confirm the option to return the shipment if the order is returned after sending for some reason and there is a need to resend the shipment.",
       confirm_action: "Confirm Delivery Returned",
@@ -2358,7 +2445,7 @@ export default {
       pay_cod_success: "Cash on delivery payment confirmed.",
       pay_dir_success:
         "Payment was confirmed by card-to-card payment or money transfer.",
-      set_tracking_success: "Order tracking values saved successfully.",
+      set_tracking_success: "Order Track ID saved successfully.",
       new_bill_success: "New bill added successfully.",
       edit_bill_success: "Bill updated successfully.",
       update_bill_status_success: "Bill status updated successfully.",
@@ -2367,8 +2454,8 @@ export default {
 
     delete_bill_dialog: {
       title: "Delete bill",
-      message: "Are you sure delete this bill?",
-      action: "Yes, Delete now",
+      message: "Are you sure to delete this bill?",
+      action: "Yes, delete now",
     },
   },
 
@@ -2393,7 +2480,7 @@ export default {
         chart: {
           times: "Count",
           buys: "Buy count",
-          pays: "successful payment",
+          pays: "Sccessful payment",
           amount_pay: "Paid",
           amount_wage: "Fee",
         },
@@ -2404,22 +2491,22 @@ export default {
         title: "Info",
         title_small: "Gateway",
         status: "Status",
-        cod_transportation: "COD transportations",
+        cod_transportation: "Shipping methods thst support COD",
         cod_transportations_error:
           "Enable cash on delivery payment for at least one shipping method!",
         payment_type: "Payment type",
-        cod: "Pay On Delivery",
+        cod: "Cash On Delivery",
         online: "Online payment",
-        wage_percent: "Fee Percentage",
+        wage_percent: "Fee Percent",
         min_wage: "Minimum Fee",
         max_wage: "Maximum Fee",
         min_amount: "Minimum transaction",
         max_amount: "Maximum transaction",
-        timeout: "Duration payable ",
-        timeout_unit: "seconds",
+        timeout: "Payment period",
+        timeout_unit: "Seconds",
         link: "Gateway Link",
         your_gateway_status: "Your gateway status",
-        config_extra_info: "Payment service config",
+        config_extra_info: "Payment service configuration",
         oauth2_button: "Auto Connect to {gateway}",
         fee_payment_message:
           "The entire amount paid by the customer will be transferred to your account. Service's fee will be deducted from your wallet in Selldone.",
@@ -2446,7 +2533,7 @@ export default {
         target_id: "Order",
         risk: "Risk",
         card: "Card",
-        issued_at: "Created Date",
+        issued_at: "Issue Date",
         payment_at: "Payment Date",
       },
       live_mode: "Live",
@@ -2460,15 +2547,15 @@ export default {
     private_keys: "Private keys (confidential)",
     link: "Website",
     state_title: "Active/Inactive payment method",
-    gateway_status: "Gateway status setting",
+    gateway_status: "Status",
     wallet: "Blockchain wallet",
     developer_title: "Developer mode",
     developer_message:
-      "You can process fake transactions if gateway support debug mode.",
+      "You can process fake transactions if the gateway supports debug mode.",
     notifications: {
       edit_success: "Gateway {gateway_name} edited.",
     },
-    developer_setting: "Developer settings",
+    developer_setting: "Develop & Test",
   },
 
   /** {@see AdminGiftCardPage} **/
@@ -2485,7 +2572,7 @@ export default {
 
     /** {@see AdminGiftCardDashboardPage} **/
     dashboard: {
-      title: "Gift Card Management Panel",
+      title: "Gift Card Management Dashboard",
 
       /** {@see GiftCardAmountWidget} **/
       amount_widget: {
@@ -2506,14 +2593,14 @@ export default {
 
       /** {@see GiftCardCountWidget} **/
       count_widget: {
-        title: "Number of cards issued",
+        title: "Number of issued cards",
         title_small: "30 days",
         total_cards: "Total number of cards",
         used_cards_30days: "30 days usage",
-        used_today: "Usage Today",
+        used_today: "Today's Usage",
         chart: {
           new_cards: "New cards",
-          used_cards: "Cards used",
+          used_cards: "Used cards",
           new_card_name: "New card",
           used_card_name: "Used",
         },
@@ -2521,7 +2608,7 @@ export default {
 
       /** {@see GiftCardExportWidget} **/
       export: {
-        title: "Get Output",
+        title: "Get Output file",
         cards_list: "Get a list of cards",
         get_report: "Get Report",
       },
@@ -2535,7 +2622,7 @@ export default {
       table: {
         card_number: "Card Number",
         balance: "Balance",
-        payed: "Locked",
+        paid: "Paid",
         edit: "Edit",
         delete: "Delete",
         expire: "Expires",
@@ -2549,11 +2636,11 @@ export default {
       notifications: {
         delete_success: "Gift card deleted.",
         edit_success: "Changes have been made.",
-        issue_success: "Gift card successfully issued to user.",
+        issue_success: "Gift card issued to the user successfully.",
       },
       issue_dialog: {
-        title: "Issue giftcard",
-        action: "Confirm, Issue card now",
+        title: "Issue gift card",
+        action: "I Confirm. Issue the card now",
       },
     }, // End of cards
 
@@ -2561,11 +2648,11 @@ export default {
     gift_card_edit: {
       title: "Create Gift Card",
       validity: "Validity",
-      validity_unit: "month(s)",
+      validity_unit: "Months",
       currency: "Currency",
-      initial_balance: "Initial charge",
+      initial_balance: "Initial card balance",
       count: "Count",
-      count_unit: "item(s)",
+      count_unit: "Item(s)",
       enable_input_message: "Status of created cards",
       notifications: {
         create_success_title: "Save",
@@ -2582,7 +2669,7 @@ export default {
   /** {@see AdminDiscountCodePage} **/
   shop_discount: {
     title: "Discount code",
-    up_to: "up to",
+    up_to: "Up to",
     menu: {
       dashboard: "Dashboard",
       orders: "Orders",
@@ -2591,7 +2678,7 @@ export default {
 
     /** {@see AdminDiscountCodeDashboardPage} **/
     dashboard: {
-      title: "Discount Code Management Panel",
+      title: "Discount Code Management Dashboard",
       chart_amount_buy: {
         y: "Purchase amount {currency}",
         label: "Buy",
@@ -2601,7 +2688,7 @@ export default {
         label: "Discount",
       },
       chart_used: {
-        y: "Number of uses",
+        y: "Amount of uses",
         label: "Times",
       },
     },
@@ -2619,7 +2706,7 @@ export default {
 
     /** {@see AdminCouponDashboardPage} **/
     dashboard: {
-      title: "Coupon Management Panel",
+      title: "Coupon Management Dashboard",
       chart_amount_buy: {
         y: "Purchase amount {currency}",
         label: "Buy",
@@ -2629,7 +2716,7 @@ export default {
         label: "Coupon",
       },
       chart_used: {
-        y: "Number of uses",
+        y: "Amount of uses",
         label: "Times",
       },
     },
@@ -2647,7 +2734,7 @@ export default {
 
     /** {@see AdminOfferDashboardPage} **/
     dashboard: {
-      title: "Offer Management Panel",
+      title: "Offer Management Dashboard",
       chart_amount_buy: {
         y: "Purchase amount {currency}",
         label: "Buy",
@@ -2657,7 +2744,7 @@ export default {
         label: "Offer",
       },
       chart_used: {
-        y: "Number of uses",
+        y: "Amount of uses",
         label: "Times",
       },
     },
@@ -2682,24 +2769,23 @@ export default {
     payment: "Payment",
 
     confirm:
-      "Order confirmation, <b> {success} </b> approved and <b> {fail} </b> rejected.",
+      "Order confirmation, <b> {success} </b> confirmed and <b> {fail} </b> rejected.",
     prepare: "Order preparation.",
     send: "Order shipped by <b> {delivery} </b>.",
     delivered: "Order has been delivered to customer.",
     "fill-inputs": "Input info form completed by buyer.",
     "return-add": "Submit a product return request, {product}.",
-    "return-accept": "Return request {return_code} approved.",
+    "return-accept": "Return request {return_code} confirmed.",
     "return-reject": "Request {return_code} rejected.",
 
     "reject-order": "Reject order. Code: {reject_code}.",
-    "reject-order-clear": "Clear reject order. Code: {reject_code}.",
+    "reject-order-clear": "Cancel the order rejection. Code: {reject_code}.",
 
     "email-buy": "Send purchase confirmation email to customer.",
     "email-payment": "Send payment confirmation email to customer.",
     "delivery-returned":
-      "The order was not received by the customer and was returned. It is necessary to resend the shipment.",
-    "delivery-canceled":
-      "Delivery canceled. It is necessary to resend the shipment.",
+      "The order was not received by the customer and was returned. It is necessary to ship again.",
+    "delivery-canceled": "Delivery canceled. It is necessary to ship again.",
     "edit-receiver-info": "Order delivery address was edited by the buyer.",
     "edit-billing-info": "Billing address edited by buyer.",
     "payment-cod-confirm": "COD Payment was confirmed.",
@@ -2710,7 +2796,7 @@ export default {
 
   /** {@see FinanceInlineChart} **/
   inline_chart: {
-    today: "today",
+    today: "Today",
     last_days: "{days} days ago",
   },
   /** {@see ProductsSelectAdmin} **/
@@ -2736,11 +2822,11 @@ export default {
   },
   /** {@see ShopProcessCenterVirtualOrderPage_Timeline} **/
   virtual_order_timeline: {
-    title: "timeline",
+    title: "Timeline",
   },
   /** {@see ShopProcessCenterPhysicalOrderPage_Timeline} **/
   physical_order_timeline: {
-    title: "timeline",
+    title: "Timeline",
   },
   /** {@see ShopProcessCenterPhysicalOrderPage_Inputs} **/
   physical_order_inputs: {},
@@ -2763,8 +2849,8 @@ export default {
     resend_dialog: {
       title: "Resend email",
       message: "Are you sure to resend this email to your customer?",
-      action: "Yes, Send again",
-      success: "Email resend to your customer.",
+      action: "Yes, resend",
+      success: "Email resent to your customer.",
     },
   },
 
@@ -2777,11 +2863,11 @@ export default {
     new_account: "Add new account",
     new_account_dialog: {
       title: "New Account",
-      account_name_input: "account name",
-      currency_input: "currency unit",
+      account_name_input: "Account name",
+      currency_input: "Currency unit",
       currency_input_message:
         "The created account will only hold the values of this currency.",
-      new_account_wage: "New Account Creation Cost: Free for First Account",
+      new_account_wage: "New account creation cost: Free for the first account",
       create_account_action: "Create Account",
     },
   },
@@ -2790,7 +2876,7 @@ export default {
   user_gifts: {
     menu: {
       send_gift: "Send gift",
-      sent: "sent",
+      sent: "Send",
       received: "Received",
     },
 
@@ -2798,7 +2884,7 @@ export default {
     send_gifts: {
       title: "Sent Gifts",
       sub_title:
-        "You can send a gift to your friends or anyone else. The recipient may accept or reject your gift. The amount is locked in your account and withdrawn if the recipient approves. Otherwise this amount will be released into your account.",
+        "You can send a gift to your friends or customers. The recipient may accept or reject your gift. The amount is locked in your account and withdrawn if the recipient accepts. Otherwise, this amount will be transferred to your account.",
       table: {
         user: "User",
         amount: "Amount",
@@ -2835,7 +2921,7 @@ export default {
     message: "Message",
     account_to_input: "Destination Account",
     account_to_input_message: "Gift amounts will be deposited to this account.",
-    get_action: "Get amount",
+    get_action: "Accept Gift",
     notifications: {
       received_success_title: "Congratulations",
       received_success:
@@ -2845,16 +2931,16 @@ export default {
   /** {@see SendGiftDialog} **/
   send_gift_dialog: {
     title: "Send Gift",
-    account_from_input: "source account",
+    account_from_input: "Choose an account",
     account_from_input_message: "Gift amounts are withdrawn from this account.",
-    receiver_input: "receiver",
-    receiver_input_message: "You can enter the email address or caller number.",
-    message_input: "message",
+    receiver_input: "Receiver",
+    receiver_input_message: "You can enter the email address or phone number.",
+    message_input: "Message",
     message_input_message: "You can leave a message to the recipient.",
-    amount_input: "amount",
-    currency_input: "currency unit",
-    currency_input_message: "Price is calculated on this currency.",
-    send_action: "Send amount",
+    amount_input: "Amount",
+    currency_input: "Currency unit",
+    currency_input_message: "Price is calculated in this currency.",
+    send_action: "Send Gift",
     notifications: {
       send_success: "A gift of {amount} {currency} was sent to {receiver}.",
     },
@@ -2874,25 +2960,25 @@ export default {
     sub_title:
       "Gift amounts will be automatically deposited into these accounts.",
     message:
-      "Selldone deposits funds for your social networking activity, participating in Selldone development, introducing friends and so on. By choosing a deposit account for each currency, the gift amounts will be automatically deposited into that account in your domain. These amounts can be credited to Selldone. Withdrawals will only be possible for business partners. ",
+      "Selldone deposits funds for your social media activity, participating in Selldone development, introducing friends and so on. By choosing a deposit account for each currency, the gift amounts will be deposited into that account in your domain automatically. These amounts can be credited to Selldone. Withdrawals will only be possible for business partners. ",
     add_account_action: "Add Account",
     add_dialog: {
-      title: "Account Connection and Automatically Receive Gifts",
+      title: "Connect an account to receive gifts",
       account_input: "Account Number",
       account_input_message:
         "The amounts of gifts for this currency will be deposited into this account.",
       set_as_default_action: "Select as default account",
     },
     table: {
-      currency: "currency",
+      currency: "Currency",
       account_number: "Account Number",
-      account_name: "name",
-      payment: "deposit amount",
+      account_name: "Name",
+      payment: "Deposit amount",
       reset_at: "Reset to",
       delete: "Delete",
     },
     notifications: {
-      set_success: "Account successfully added.",
+      set_success: "Account added successfully.",
       delete_success:
         "Account successfully removed from the list of default accounts for receiving gifts.",
     },
@@ -2915,7 +3001,7 @@ export default {
   user_monetize_plans: {
     title: "Collaboration and Monetization Projects",
     sub_title:
-      "Your referral gift will be given as an account charge. These amounts are charged as your account and can be withdrawn only for Selldone business partners (Not All). You can either spend this money as the Selldone services fee.",
+      "You will receive an account credit for referral gifts. These amounts will be charged to your account and can be withdrawn only to Selldone business partners (Not All). You may spend the money on the Selldone services fee.",
 
     discount: "Discount",
     your_income: "Your income",
@@ -2923,18 +3009,18 @@ export default {
     level_3: "From Level Three",
     link_message: "Membership: {registered}, accepted: {accepted}",
     link_tip:
-      "You can put the phrase ?ref={link_code} at the end of every address you share.",
+      "You can add the phrase ?ref={link_code} to the end of every address you share.",
     table: {
       currency: "Currency",
       amount: "Balance",
       total: "Total payment",
       payment_date: "Last payment date",
-      withdraw: "Withdraw",
+      withdraw: "Withdrawal",
     },
 
     notifications: {
       get_credit_success:
-        "The amount requested has been deposited into your account.",
+        "The requested amount has been deposited into your account.",
     },
   },
   /** {@see BasicInformation} **/
@@ -2949,7 +3035,7 @@ export default {
     main_profile_subtitle:
       "This information is publicly available to everyone.",
     kyc_waiting_info:
-      "We are checking the accuracy of the information you enter. This process is mandatory in accordance with KYC rules and will reduce the risk of financial transactions. And you can take advantage of the present and future benefits of this service. ",
+      "We are checking the accuracy of the information you enter. This process is mandatory in accordance with KYC rules and will reduce the risk of financial transactions. You can take advantage of the present and future benefits of this service. ",
 
     personal_info_dialog: {
       title: "Identity Information",
@@ -2989,7 +3075,7 @@ export default {
       "Charge your account to approve your bank transaction.",
     payment_approval: "Payment approval",
     residential_address_checking:
-      "Your residential address documents in checking que.",
+      "Your residential address documents in checking queue.",
     add_residential_address:
       "Add your location and proof of residential address documents.",
   },
@@ -3014,7 +3100,7 @@ export default {
   companies: {
     title: "My Business Accounts",
     message:
-      "Businesses, companies, and professional teams that want to develop products and applications based on the Selldone should create a business profile.",
+      "Businesses, entrepreneurs, and professional teams can develop products and applications based on the Selldone. It is a requirement to create a business profile.",
     new_company: "New company",
   },
   /** {@see AddCompany} **/
@@ -3044,10 +3130,10 @@ export default {
       "You will see a list of all the stores and apps that are connected to your domain account. You can delete access to any of them.",
     shop_keys_title: "Store Access Keys",
     shop_keys_message:
-      "These keys are used to create Access Token by your server. Note that these keys are confidential and only placed on the server so that they are not visible to others.",
+      "These keys are used to create Access Token by your server. Note that the keys are confidential and only placed on the server so that they are not visible to others.",
     personal_keys_title: "Personal Access Keys",
     personal_keys_message:
-      "You can create your account access keys here. Make sure these keys are accessible to your account only if you create and use them if you know exactly what you are doing. Be.",
+      "You can create the keys to your account here. Note that these keys will be able to access your account. Create and use these keys only if you know exactly what you are doing.",
   },
 
   /** {@see UserSecurityControl} **/
@@ -3061,7 +3147,7 @@ export default {
         "Before deleting your account, make sure you have deleted all shops.",
       action: "I'm sure, delete my account",
       agreement:
-        "I accept that all my information is deleted or obfuscated by Selldone. Your information will be deleted according to the schedule we deem appropriate to prevent any fraud and misconduct on your part.",
+        "I accept that all my information will be deleted from your server. Your information will be deleted according to a schedule determined by us to prevent fraud or misuse.",
     },
 
     list: {
@@ -3076,7 +3162,7 @@ export default {
         title: "Mobile number",
         sub_title:
           "Confirm your mobile number. You will be able to log in through this number.",
-        action_title: "Account primary phone number",
+        action_title: "Account's primary phone number",
         action: "Verify Number",
       },
 
@@ -3094,24 +3180,24 @@ export default {
         title: "Install Google Authenticator app",
       },
       step_2: {
-        title: "Register code in app",
+        title: "Enter the code generated by the app",
         message:
-          "Using the two-step login feature, you will need to enter a 6-digit code to enter. This code is generated by an algorithm in your mobile phone's malware. You can download the relevant app via the link Get the following. Press the code key to create a QR code containing the password key. ",
+          "The 6-digit code is generated by an algorithm in your mobile phone. You can download the app from the following link. Press the code generator key to create a QR code containing the password.",
         qr_code_info:
-          "If it is not possible to scan, you can copy and paste this code into the app manually:",
+          "If it is not possible to scan, you can manually copy and paste the code into the app:",
         create_new_code: "Create new code",
         qr_code_scanning:
-          "Scan the QR code created by Google Authenticator Mobile App software and enter the code generated for confirmation in the box on this page.",
+          "Scan the QR code created by Google Authenticator Mobile App and enter the code generated for confirmation in the box on this page.",
         qr_code_regenerate_info:
-          "Note: By pressing the above key a new password key will be created and the previous key will be unusable. Add Bytes new key in your phone software.",
+          "Note: By pressing the above key a new key will be created and the previous key will be unusable. Enter the new key in your phone app.",
       },
       step_3: {
-        title: "Enter Access Code Created",
+        title: "Enter the Created Code ",
         message:
           "Enter the access code created in the application in the field below.",
         activation_key_input: "Access Code",
       },
-      activated_alert: "2-step Word is enabled.",
+      activated_alert: "2-step login is enabled.",
       activated_message:
         "Two-step login is enabled for your account. From now on you will need to enter a second code that changes every 30 seconds to access your account. To disable two-step login, just double-click Press a step and go through the steps. ",
       cancel_two_step_login_action: "Cancel two-step login",
@@ -3123,14 +3209,14 @@ export default {
 
     change_password_dialog: {
       title: "Change Password",
-      message: "Use a complex and memorable passphrase.",
+      message: "Use a complex and memorable password.",
       password_input: "Current password",
       new_password_input: "New password",
       re_new_password_input: "Repeat new password",
       tips: {
-        length: "Password must be at least 8 characters long",
+        length: "Password must be at least 8 characters",
         chars: "At least one uppercase letter and one number.",
-        match: "Enter password entered.",
+        match: "Password matched.",
       },
       change_password_action: "Change password",
       notifications: {
@@ -3153,12 +3239,12 @@ export default {
       title: "Delete",
       message:
         "Do you want to revoke this access? Note that this app will no longer have access to your account. ",
-      action: "Cancel access",
+      action: "Refuse the access",
     },
   },
   /** {@see Clients} **/
   clients: {
-    title: "Password Keys List",
+    title: "Clients List",
     create_new_action: "Create new client",
     table: {
       client_id: "Client ID",
@@ -3187,12 +3273,12 @@ export default {
     title: "List of Personal Access Tokens",
     create_action: "Create new token",
     table: {
-      name: "name",
-      scopes: "accesses",
-      expire_at: "expire_at",
+      name: "Name",
+      scopes: "Accesses",
+      expire_at: "Expiry date",
     },
     create_dialog: {
-      title: "Token Making",
+      title: "Token Building",
       error_message: "<strong> Error! </strong> Sorry, an error has occurred!",
       name_input: "Alias Ex. my token name",
       name_input_message: "Favorite token name.",
@@ -3221,16 +3307,16 @@ export default {
     phone: { name: "phone number", description: "access to phone number." },
     address: {
       name: "Addresses",
-      description: "Read address from saved address book.",
+      description: "Read saved address from address book.",
     },
 
     buy: {
       name: "Purchase",
-      description: "Submit order and purchase from the store.",
+      description: "Place an order and purchase from the store.",
     },
     "order-history": {
       name: "Orders History",
-      description: "Read Order History.",
+      description: "Read Orders History.",
     },
     "my-gift-cards": { name: "Gift Cards", description: "Access to My Cards." },
 
@@ -3240,9 +3326,12 @@ export default {
       description: "Send and Receive Notification.",
     },
 
-    "read-shops": { name: "Store List", description: "Read Store List." },
+    "read-shops": { name: "Store ist", description: "Read the store list." },
 
-    "shop-edit": { name: "Store Management", description: "Store Edit Access" },
+    "shop-edit": {
+      name: "Store Management",
+      description: "Edit the store access",
+    },
 
     "shop-contacts": {
       name: "Contact Form Management",
@@ -3254,31 +3343,30 @@ export default {
     },
     "shop-faqs": {
       name: "Managing Questions and Answers",
-      description:
-        "Creating, Editing, and Managing Frequently Asked Questions.",
+      description: "Create, Edit, and Manage the Frequently Asked Questions.",
     },
 
     "shop-categories": {
       name: "Manage Categories",
-      description: "Creating, Editing, and Managing Categories.",
+      description: "Create, Edit, and Manage the Categories.",
     },
     "shop-products": {
       name: "Product Management",
-      description: "Creating, Editing and Managing Products.",
+      description: "Add, Edit, and Manage the Products.",
     },
     "shop-read-reports": {
       name: "Read reports",
       description: "Read information and reports.",
     },
     "shop-socials": {
-      name: "Manage Social Networks",
-      description: "Edit Social Store Networks",
+      name: "Manage Social Media",
+      description: "Edit the store social media",
     },
     "shop-accounts": {
       name: "Manage financial accounts",
       description: "Edit and delete financial accounts linked to the store.",
     },
-    "shop-menus": { name: "Manage menus", description: "Edit store menus." },
+    "shop-menus": { name: "Manage Menus", description: "Edit store menus." },
     "shop-pages": { name: "Manage Pages", description: "Edit Shop Pages." },
     "shop-warehouse": {
       name: "Warehouse Management",
@@ -3309,18 +3397,16 @@ export default {
     },
     /** {@see AdminCompanyPage_Dashboard} **/
     dashboard: {
-      title: "Dashboard",
       /** {@see CompanyInfoWidget} **/
       info_widget: {
-        title: "Profile",
-        title_small: "Company",
+        title: "Company registration info",
         address: "Address",
         website: "Website",
         email: "Email",
         phone: "Phone number",
-        register: "Registry",
+        register: "Register",
         developer: "Developer",
-        verified: "Approved",
+        verified: "Verfied",
         golden: "Golden",
       },
     },
@@ -3356,11 +3442,11 @@ export default {
     video_input: "Video URL",
     public_form: "General Information Structure",
     private_form: "Private Information Structure",
-    icon_input: "App icon",
+    icon_input: "App Icon",
     logo_input: "Logo App",
     enable_input: "Is the application active?",
     edit_action: "Edit App",
-    create_action: "Create app",
+    create_action: "Create App",
     notifications: {
       add_success: "Business account {name} created.",
       delete_success: "Business account edited.",
@@ -3382,17 +3468,14 @@ export default {
     },
     /** {@see AppPage_Dashboard} **/
     dashboard: {
-      title: "Dashboard",
-
       /** {@see AppInfoWidget} **/
       app_info_widget: {
-        title: "Info",
-        title_small: "Application",
+        title: "Application",
         app_code: "App code",
         category: "Category",
-        name: "name",
-        installs: "Installed apps",
-        uninstalls: "Remove apps",
+        name: "Name",
+        installs: "Install apps",
+        uninstalls: "Uninstall apps",
         actives: "Active apps",
         description: "Description",
         published: "Published",
@@ -3406,7 +3489,7 @@ export default {
     ADMIN: { text: "Owner", description: "Full access to all storefronts." },
     PRODUCT: {
       text: "Product Manager",
-      description: "Add, modify and manage store products.",
+      description: "Add, edit and manage store products.",
     },
     AUDITING: {
       text: "Financial Manager",
@@ -3414,7 +3497,7 @@ export default {
     },
     CONTENT: {
       text: "Content Management",
-      description: "Answering questions, writing blogs, and designing pages.",
+      description: "Answer questions, write blogs, and design pages.",
     },
     OFFICER: {
       text: "Senior Manager",
@@ -3427,12 +3510,12 @@ export default {
     MARKETING: {
       text: "Marketing",
       description:
-        "Access settings and create campaigns, email marketing and other marketing-related sections.",
+        "Access to settings and create campaigns, email marketing and other marketing-related sections.",
     },
     VIEWER: {
       text: "Viewer",
       description:
-        "Ability to view store information without the ability to create edits and changes.",
+        "The ability to view store information without being able to edit or change it.",
     },
   },
 
@@ -3447,24 +3530,24 @@ export default {
       description: "Warehouse and packaging process.",
     },
     PhysicalOrdersDelivery: {
-      text: "Physical Delivery",
-      description: "Order delivery.",
+      text: "Physical Shipping",
+      description: "Order shipping.",
     },
     PhysicalOrdersSupport: {
       text: "Physical Support",
-      description: "After sell support.",
+      description: "After sales support.",
     },
   },
 
   /** {@see AccountStatus} **/
   account_status: {
     Checking: "Checking",
-    Approved: "Approved",
+    Approved: "Confirmed",
     Rejected: "Rejected",
     Deleted: "Deleted",
     Banned: "Banned",
     Payment: "Payment",
-    SelldoneSprite: "Selldone Sprite",
+    SelldoneSprite: "Selldone Wallet Account",
     SelldoneStorage: "Selldone Storage",
   },
   /** {@see AccountPage} **/
@@ -3506,7 +3589,7 @@ export default {
       title: "Transfer Charges",
       form: {
         title: "Transfer Request Form",
-        sub_title: "Transfer funds to your own accounts or others",
+        sub_title: "Deposit to your own accounts or others",
         message:
           "Be careful in transferring money, you will not be able to return if you complete the transfer.",
       },
@@ -3517,14 +3600,14 @@ export default {
         title: "Charging Account",
 
         sub_title:
-          "You must charge your account balance to purchase licenses, upgrade your account and pay for system receipts.",
-        amount_input: "amount",
+          "You must charge your account balance to purchase licenses, upgrade your account and pay system receipts.",
+        amount_input: "Amount",
         charge_action: "Charge Account",
       },
       notifications: {
-        qr_title: "payment",
+        qr_title: "Payment",
         qr_message: `Payment address {currency} created.`,
-        gateway_title: "payment",
+        gateway_title: "Payment",
         gateway_message: "Connecting to payment gateway.",
       },
     },
@@ -3534,7 +3617,7 @@ export default {
       title: "Account Settings",
       account_name_input: "Account name",
       notifications: {
-        updated_success: "Your account was successfully updated.",
+        updated_success: "Your account updated successfully.",
       },
     },
   },
@@ -3560,7 +3643,7 @@ export default {
     from_input_message: "The amount will be withdrawn from this account.",
     account_name: "Account Name",
     currency: "Currency",
-    free_balance: "Free balance",
+    free_balance: "Available balance",
     to: "Destination account",
     amount: "Amount",
     receipt_title: "Payment for receipt",
@@ -3604,17 +3687,18 @@ export default {
   /** {@see PriceCalculator} **/
   price_calculator: {
     title: "Calculator | Fit to your business",
-    description: "Calculate your appropriate plan based on your monthly sales:",
+    description:
+      "Calculate and choose the best plan based on your monthly sales:",
     sale_input: "Monthly sales amount",
     hypernova_plan: "Apply for Hypernova %0!",
     show_normal_mode: "Show normal mode",
-    show_hypernova_mode: "My transaction will be over 1M$!",
+    show_hypernova_mode: "My transaction is over 1M$!",
   },
 
   /** {@see PriceCard} **/
   price_card: {
-    billed_monthly: "Billed as {amount} monthly.",
-    billed_yearly: "Billed as {amount} yearly.",
+    billed_monthly: "Billed {amount} monthly.",
+    billed_yearly: "Billed {amount} yearly.",
     buy_license_action: "Buy now",
     select_your_store: "Select your store",
   },
@@ -3626,7 +3710,7 @@ export default {
   /** {@see UserActivityWorldMap} **/
   user_activities_keys: {
     add_baskets: "Add to Cart",
-    remove_baskets: "Remove from Cart",
+    remove_baskets: "Delete from Cart",
     buys: "Buy",
     products_views: "View Product",
   },
@@ -3638,7 +3722,7 @@ export default {
     returning_visitors: "Returning visitors",
     page_views: "Page views",
     other_pages: "Other pages",
-    from_previous_7_days: "from previous 7 days",
+    from_previous_7_days: "from last 7 days",
   },
 
   /** {@see AppLevelSelector}   {@see AppLevel}  **/
@@ -3655,11 +3739,11 @@ export default {
   login: {
     register_title: "The medium of businesses,<br>Enjoyable experience.",
     register_subtitle:
-      "Create an account, it's free for standard and pro version for ever. Selldone loved by startups and enterprises, buyers and sellers.",
+      "Sign up today for free. Selldone is loved by startups, enterprises, buyers, and sellers.",
 
     password_recovery_title: "Password recovery",
     password_recovery_message:
-      "In case you forgot your password, enter the email address of your account and press the confirmation key. You will be sent an email with a link to change your password.",
+      "In case you forgot your password, enter the email address of your account and press the confirmation key. We will send you an email with a link to reset your password.",
     email: "Your email address",
     password_recovery_action: "Receive recovery email",
 
@@ -3670,7 +3754,7 @@ export default {
     register_facebook: "Continue with Facebook",
     register_github: "Continue with Github",
     create_your_account: "Create your account",
-    password_8_chars: "Password must be at least 8 characters long.",
+    password_8_chars: "Password must be at least 8 characters.",
     password_upercase_number: "At least one uppercase letter and one number.",
     password_confirm: "Password and confirmation matched.",
     privacy_agreement:
@@ -3689,13 +3773,12 @@ export default {
     two_step_problem_action: "I want to disable two-step login.",
     two_step_confirm: "Confirm access code",
     forgot_password: "Forgot password?",
-    signup_free: "Register Free",
-    checking_robot_message:
-      "Checking whether you are a robot or a Homo sapiens..",
+    signup_free: "Signup for Free",
+    checking_robot_message: "Checking if you are a robot or a human..",
     notifications: {
-      step2_login_success: "Automatically login to account",
+      step2_login_success: "Auto-login to the account",
     },
-    signup_email: "Register by email",
+    signup_email: "Sign up by email",
 
     name_placeholder: "Name",
     email_placeholder: "Email",
@@ -3707,7 +3790,7 @@ export default {
   },
   /** {@see Layout} **/
   layout: {
-    logout: "Sign out of my account",
+    logout: "Logout",
     menu: {
       personal_information: "Personal Information and Profile",
       wallet: "Wallets & Accounts",
@@ -3727,7 +3810,7 @@ export default {
       design: "Design",
       behavior: "Behavior",
       seo: "SEO",
-      setting: "Setting",
+      setting: "Settings",
       embed: "Embed",
     },
     waiting_fetch: "Receiving information ..",
@@ -3746,7 +3829,7 @@ export default {
       designer_note: "Designer Note",
     },
     history: {
-      title: "Page Saved History",
+      title: "Saved History",
     },
 
     /** {@see VuseBuilder} **/
@@ -3757,7 +3840,7 @@ export default {
         page_title_input: "Enter a title for your page",
       },
       tools: {
-        rearrange: "reorder",
+        rearrange: "Order",
         tools: "Tools",
         history: "History",
         style: "Style",
@@ -3768,7 +3851,7 @@ export default {
     /** {@see PageBuilderSeo} **/
     seo: {
       message:
-        "SEO settings are done automatically by the Selldone SEO engine.",
+        "SEO settings are adjusted automatically by the Selldone SEO engine.",
     },
   },
 
@@ -3776,9 +3859,9 @@ export default {
   verify_email_caution: {
     title: "Confirm Your Email Address",
     message:
-      "The new confirmation and activation link has been sent to your email address {email}. Please check your email before any action is taken. Your activation link has been sent to you.",
+      "The new activation link has been sent to your email address {email}. Please check your email before any action is taken.",
     resend_message:
-      "If you have not received the activation link and confirmation email address, click the button below to resend it to you.",
+      "If you have not received the activation link in your email, click the button below to resend.",
     resend_action: "Resend activation link",
     resend_notice: "Activation link sent.",
   },
@@ -3798,7 +3881,7 @@ export default {
   /** {@see WidgetCompanyCard} **/
   company_card: {
     pending_state: "Waiting for review",
-    register: "Register",
+    register: "Registered",
     developer: "Developer",
     verified: "Verified",
     premier: "Premier",
@@ -3821,19 +3904,32 @@ export default {
     auto_renewal: "Auto renewal",
     plan_placeholder: "Select your subscription plan",
     plan: "License plan",
-    use_date: "Activation date",
+    use_date: "Added date",
+
+    active_license: {
+      title: "Active License",
+      subtitle: "Your active license info.",
+      subtitle_partner: "Your active {name} license info.",
+    },
+    licenses_table: {
+      title: "Purchased History",
+      subtitle: "Active and pending licenses.",
+    },
+    license_detail: {
+      title: "Details",
+      subtitle: "Limits on your current plan.",
+    },
 
     table: {
       plan: "Plan",
-      start_date: "Start Date",
-      end_date: "End Date",
+      start_date: "Start / End Date",
       renewal: "Auto Renewal",
       linked_account: "Linked Account / Voucher",
       payment: "Payment",
       cancel: "Cancel",
     },
     notifications: {
-      subscribe_success: "Subscribe successfully.",
+      subscribe_success: "Subscribed successfully.",
       cancel_success: "Subscription canceled successfully.",
     },
     cancel_dialog: {
@@ -3859,7 +3955,7 @@ export default {
     company_message: "If you have company and want to publish apps.",
     access_keys: "Access Keys",
     access_keys_message: "Show clients and access keys.",
-    rating: "How satisfied are you with your experience in Selldone?",
+    rating: "How would you rate your experience with Selldone?",
     large_font: "Large fonts",
     large_font_message: "Show text larger than normal",
     samples: "Show sample shops",
@@ -3888,7 +3984,7 @@ export default {
   /** @see ProductCard **/
   product_card: {
     sold_out: "Sold out",
-    review_unit: "review",
+    review_unit: "Review",
     not_original: "Not original",
   },
 
@@ -3896,44 +3992,58 @@ export default {
   product_studio: {
     add_mode: "Add more details",
     add_by_sku: "Add by SKU",
-    auto_category: "Auto set category",
-    add_in_current_category: "Force add in this category",
+    auto_category: "Auto-set category",
+    add_in_current_category: "Add to the current category",
     category_mode_message:
-      "If enable, product will be added in its category and subcategory.",
+      "If enable, product will be added in to the default category or subcategory.",
     sku_name_input: "SKU / Name",
+  },
+  /** @see Affiliates **/
+  my_affiliate: {
+    title: "My Affiliate Contracts",
+    message: "List of affiliate agreements with other stores.",
   },
 
   /** @see AdminShopMarketing_Affiliate **/
   affiliates: {
-    title: "My Affiliate Contracts",
-    message: "List of affiliate agreements with other stores.",
+    title: "Affiliate Partners",
+    subtitle:
+      "Create affiliates, track their performance over time, and take actions based on accurate information in one place. We help you and your partners to build a strong relationship.",
+
     affiliate_code: "Affiliate code",
     crate_date: "Create date",
     last_payment_date: "Last payment date",
     for_all_products: "Apply to all products",
     balance: "Balance",
-    fix_commission: "Fix commission",
-    percent_commission: "Percent commission",
-    total_payment: "Total payment",
-    new_affiliate: "New affiliate",
+    fix_commission: "Fixed commission",
+    percent_commission: "Percent-based commission",
+    total_payment: "Total payments",
+    new_affiliate: "New affiliate partner",
     new_affiliate_message: "Add new affiliate partner",
+    link_domain: {
+      title: "Linked domain",
+      subtitle:
+        "You can connect one of your domains to this affiliate partner. This partner will be known as the representative of every person who visits your store and buys through this domain.",
+    },
+
     dialog: {
-      new: "New affiliate",
-      edit: "Edit affiliate",
+      new: "New affiliate partner",
+      edit: "Edit affiliate partner",
       user: "User (Optional)",
       bank_info: "Bank info",
       restriction: "Restriction",
       select_products: "Select products",
-      select_products_message: "Affiliate get commission for these products",
+      select_products_message:
+        "Affiliate partner gets commission for these products",
       edit_action: "Update affiliate",
-      add_action: "Add affiliate",
-      affiliate_name: "Affiliate name",
+      add_action: "Add affiliate partner",
+      affiliate_name: "Affiliate partner name",
       payment_info: "Payment info",
-      enable_switch: "Is enable?",
-      affiliate_info: "Affiliate info",
+      enable_switch: "Is it active?",
+      affiliate_info: "Affiliate partner info",
     },
     link_factory: {
-      title: "Affiliate link factory",
+      title: "Affiliate partner link generator",
       link_input: "Your link",
       link_output: "Generated link",
     },
@@ -3941,11 +4051,11 @@ export default {
 
   /** @see AdminGiftcardPage_Orders **/
   gift_card_orders: {
-    title: "Giftcard Orders",
+    title: "Orders with Giftcard",
     table: {
       order: "Order",
-      order_price: "Order price",
-      payed_by_card: "Payed by card",
+      order_price: "Order amount",
+      paid_by_card: "Paid by card",
       payment_status: "Payment status",
       date: "Date",
     },
@@ -3956,7 +4066,7 @@ export default {
     title: "Offer Orders",
     table: {
       order: "Order",
-      order_price: "Order price",
+      order_price: "Order amount",
       offer_amount: "Offer amount",
       payment_status: "Payment status",
       product: "Product",
@@ -3969,7 +4079,7 @@ export default {
     title: "Coupon Orders",
     table: {
       order: "Order",
-      order_price: "Order price",
+      order_price: "Order amount",
       coupon_amount: "Coupon amount",
       payment_status: "Payment status",
       date: "Date",
@@ -3978,10 +4088,10 @@ export default {
 
   /** @see AdminDiscountPage_Orders **/
   discount_code_orders: {
-    title: "Discount Code Orders",
+    title: "Orders with Discount Code ",
     table: {
       order: "Order",
-      order_price: "Order price",
+      order_price: "Order amount",
       discount_amount: "Discount amount",
       payment_status: "Payment status",
       date: "Date",
@@ -3999,16 +4109,16 @@ export default {
 
   /** {@see AdminShopDiscountCode} **/
   discount_codes: {
-    title: "Discount Code",
+    title: "Discount Codes",
     sub_title:
       "In this section you will be able to design discount coupons to suit your needs. These discounts are separate from any product discount and will apply to the final amount of the user order. ",
-    add_new: "Create Discount Code",
+    add_new: "Add new discount code",
     card: {
       created: "Create",
       start: "Start",
       end: "End",
       currency: "Currency",
-      discount_percentage: "Discount Percentage",
+      discount_percentage: "Discount Rate",
       discount_limit: "Discount limit",
       state: "Current Status",
       enabled: "Now enabled",
@@ -4022,15 +4132,15 @@ export default {
       title_edit: "Edit discount code",
       title_add: "Add new discount code",
       discount_code_input: "Discount code",
-      discount_percent_input: "Discount Percentage",
-      discount_percent_input_hint: "Discount percentage of purchase amount",
+      discount_percent_input: "Discount Rate",
+      discount_percent_input_hint: "Discount rate of purchase amount",
       count_input: "Count",
       count_input_hint: "Maximum use of this code",
       limit_input: "Discount limit",
-      limit_input_hint: "Maximum currency-based discount",
+      limit_input_hint: "Maximum discount based on currency",
       currency_input_message: "Discounts will be available for this currency.",
       limit_input_message:
-        "The value of 0 for the discount limit is the absence of a ceiling for the discount rate.",
+        "The value of 0 for the discount limit means there is no limit for the discount rate.",
       title_input: "Title",
       title_input_hint: "You can enter a title for this discount code",
       description_input: "Description",
@@ -4059,18 +4169,18 @@ export default {
   gift_cards: {
     title: "Gift Card",
     sub_title:
-      "Define a gift card first and then create a gift card as many as you like. These cards contain a charge and users will only be able to purchase from your store using this card. ",
+      "Create a gift card and then make as many as you need. This card has a charge on it, and it can only be used for purchases in your shop.",
 
-    create_new: "Create new card category",
+    create_new: "Add new gift card",
     card: {
       created: "Create",
-      lifetime: "Lifetime period",
-      lifetime_unit: "Month from the time each card was created",
+      lifetime: "Expiry date",
+      lifetime_unit: "Month from the date each card was created",
       currency: "Currency",
       initial_balance: "Initial charge",
       count: "Count",
-      count_unit: "item(s)",
-      used: "Consumed",
+      count_unit: "item",
+      used: "Used",
     },
     dialog: {
       title: "Gift Card Design",
@@ -4078,7 +4188,7 @@ export default {
     alert: {
       title: "Remove Discount Code",
       message: "Do you want to delete this discount code?",
-      action: "delete",
+      action: "Delete",
     },
     notifications: {
       delete_title: "Delete gift card",
@@ -4088,19 +4198,19 @@ export default {
 
   /** {@see AdminShopCoupon} **/
   coupons: {
-    title: "Coupon",
+    title: "Coupons",
     sub_title:
-      "If you want to give your customers a discount that can be used with special conditions, you can create coupons. Coupons can include a percentage discount with a limit or a fixed amount or a combination of both.",
-    create_new: "Create new coupon",
-    qualified_products: "Qualified products",
-    for_order_more_than: "For orders more than",
+      "If you want to give your customers a discount that can be used with specific conditions, you can create coupons. Coupons can include a percentage discount with a limit or a fixed amount or a combination of both.",
+    create_new: "Add new coupon",
+    qualified_products: "Eligible  products",
+    min_purchase: "Minimum purchase",
     only_first_order: "Only first purchase",
-    one_time_use: "One time usage",
-    amount_usage: "Usage amount",
+    one_time_use: "Single-use",
+    amount_usage: "Used amount",
 
     delete_alert: {
       title: "Delete coupon",
-      message: "Are you sure delete this coupon?",
+      message: "Are you sure to delete this coupon?",
       action: "Yes, delete coupon",
     },
     notifications: {
@@ -4123,7 +4233,7 @@ export default {
     count_input: "Count",
     count_input_hint: "Maximum use of this code",
     limit_input_message:
-      "The value of 0 for the discount limit is the absence of a ceiling for the discount rate.",
+      "The value of 0 for the discount limit means there is no limit for the discount rate.",
     date_start_input: "Start",
     date_start_input_placeholder: "Select when to start coupon",
     date_end_input: "End",
@@ -4139,27 +4249,28 @@ export default {
     coupon_color: "Coupon color",
     min_purchase_amount: "Minimum purchase amount",
     min_purchase_amount_hint:
-      "Purchase price must be greater or equal this value.",
-    should_exist_product: "Should one of these products exist in cart",
-    apply_for_first_order: "Apply for first purchase",
+      "Purchase amount must be greater than or equal to this value.",
+    should_exist_product: "At least one of these products must be in cart",
+    apply_for_first_order: "Only for the first purchase",
     apply_for_first_order_on:
       "This coupon can only be used for the customer's first purchase!",
     apply_for_first_order_off:
-      "Limits on the number of uses of this coupon by each buyer can be adjusted below.",
+      "The number of coupon usages per buyer can be adjusted below.",
 
-    has_qualify_constraints: "Has qualify constraints?",
-    has_qualify_constraints_message: "Coupon more constraints and limitation.",
-    one_time_use: "One time use",
+    has_qualify_constraints: "Do you want to define more limits?",
+    has_qualify_constraints_message:
+      "Set more conditions to qualify the customer to use this coupon.",
+    one_time_use: "Single-use",
     one_time_use_message: "Customer can use this coupon for one time.",
     daily_limit: "Daily limit",
     no_limit: "No limit",
-    daily_limit_message: "Max count of use per day by customer",
+    daily_limit_message: "Maximum amount of use per day by customer",
 
     monthly_limit: "Monthly limit",
-    monthly_limit_message: "Max count of use per month by customer",
+    monthly_limit_message: "Maximum amount of use per month by customer",
 
     yearly_limit: "Yearly limit",
-    yearly_limit_message: "Max count of use per year by customer",
+    yearly_limit_message: "Max amount of use per year by customer",
 
     notifications: {
       add: "New coupon created successfully.",
@@ -4167,21 +4278,21 @@ export default {
     },
   },
 
-  /** {@see AdminShopGiftCard} **/
+  /** {@see AdminShopOffer} **/
   offers: {
-    title: "Offer",
+    title: "Offers",
     sub_title:
-      "You can create special offers for your customers in such a way that if a customer buys a product, they will receive another product with special conditions such as a discount or completely free.",
-    create_new: "Create new offer",
-    qualified_products: "Qualified products",
+      "You can create special offers for your customers so that, after buying one item, they will receive another item at a discount or even free.",
+    create_new: "Add new offer",
+    qualified_products: "Eligible products",
     min_quantity: "Minimum quantity",
     min_purchase: "Minimum purchase",
     discounted_products: "Discounted products",
-    amount_usage: "Amount usage",
+    amount_usage: "Used amount ",
 
     delete_alert: {
       title: "Delete offer",
-      message: "Are you sure delete this offer?",
+      message: "Are you sure to delete this offer?",
       action: "Yes, delete offer",
     },
     notifications: {
@@ -4195,49 +4306,48 @@ export default {
     title_add: "New offer",
 
     design_style: "Design & Style",
-    eligible_constraints: "Customer eligible constraints",
+    eligible_constraints: "Customer eligible limits",
 
     title_input: "Title",
     title_input_hint: "You can enter a title for this discount code",
     description_input: "Description",
-    description_input_hint:
-      "You can enter a description for this discount code",
+    description_input_hint: "Write a description for this discount code",
 
-    currency_input_message: "Offer available for this currency.",
-    qualified_products: "Qualified products",
+    currency_input_message: "Available offer for this currency.",
+    qualified_products: "Eligible products",
     qualified_products_message:
-      "Products or collections as the qualifying items, total items must be equal or greater than minimum quantity.",
+      "For products to be eligible, total items in cart must be equal or greater than minimum quantity.",
     min_items: "Minimum quantity of items",
     min_items_message: "The number of items that the customer must buy",
     discounted_products: "Discounted products",
     offered_products: "Offered products",
-    offered_products_message:
-      "Should one of these products exist in cart to apply this offer to that.",
-    discount_percent: "Discount percent",
-    discount_percent_message: "Discount percent for these items.",
-    discount_percent_hint: "Amount of discount percent",
+    offered_products_message: "At least one of these products must be in cart.",
+    discount_percent: "Discount percentage",
+    discount_percent_message: "Discount percentage for these items.",
+    discount_percent_hint: "Amount of discount percentage",
 
     per_order: "Maximum number of uses per order",
     per_order_message:
-      "The maximum number of times that this promotion can be applied to an order",
+      "The maximum number of times that the offer can be applied to an order",
 
-    count_input: "Count",
+    count_input: "Amount",
     count_input_hint: "Maximum use of this offer",
 
     min_purchase: "Minimum purchase amount",
-    min_purchase_hint: "Purchase price must be greater or equal this value",
+    min_purchase_hint:
+      "Purchase price must be greater than or equal to this value",
     limitation: "Limitation",
 
     date_start_input: "Start",
     date_start_input_placeholder: "Select when to start coupon",
     date_end_input: "End",
     date_end_input_placeholder: "Select when the discount will end",
-    max_actives_is_3: "Max number of activated of auto mode offers is 3.",
+    max_actives_is_3: "You can only have three active offers at the same time.",
     enable: "Auto apply",
 
     notifications: {
       add: "New offer created successfully.",
-      edit: "Offer has been updated.",
+      edit: "Offer updated successfully.",
     },
   },
 
@@ -4246,46 +4356,51 @@ export default {
     menu: {
       banner: "Banner",
       reportage: "Reportage",
-      social: "Social",
+      social: "Social Media",
       offline: "Offline",
     },
   },
 
   /** {@see AdminShopMarketing_EmailMarketing} **/
   emails: {
+    title: "Email Marketing",
+    subtitle:
+      "Design emails by drag and drop, schedule and launch campaigns to increase retention, and see reliable and accurate information in one place.",
+    cation_message: "⚠ Restricted for not verified merchants. (Beta)",
+
     subject: "Subject",
     from: "From",
-    in_que: "In que",
+    in_que: "Awaiting",
     schedule_at: "Schedule at",
     sent: "Sent",
     sends: "Sends",
-    delivers: "Delivers",
+    delivers: "Delivered",
     views: "Views",
     clicks: "Clicks",
-    buys: "Buys",
-    new_email: "New email",
-    new_email_message: "Create & schedule new marketing mail",
+    buys: "Purchases",
+    new_email: "Add New email",
+    new_email_message: "Create & schedule new marketing email",
   },
 
   /** {@see AdminShopEmailPage_Dashboard} **/
   email_dashboard: {
     review: "Review",
-    waiting_for_approve: "Waiting for approve by {name}",
-    approved_by: "Email approved by {name} and sent.",
+    waiting_for_approve: "Waiting for confirmation by {name}",
+    approved_by: "Email verified by {name} and sent.",
     not_submitted_send_request:
       "You have not yet submitted a request to send this email.",
-    reviewed_by: "Reviewed by {user.name}",
+    reviewed_by: "Reviewed by {name}",
     status: "Email status",
     conversion: "Conversion rates",
 
-    sell_performance: "Sell Performance",
-    total_buys: "Total buys",
-    amount_buy: "Amount buy",
+    sell_performance: "Sales performance",
+    total_buys: "Total number of sales",
+    amount_buy: "Total sales amount",
     average_sell: "Average sales",
     sessions: "Sessions",
     overview: "Overview",
     purchase_amount: "Purchase amount",
-    actions: "Actions",
+    actions: "User activity",
   },
 
   /** {@see AdminShopEmailPage} **/
@@ -4295,39 +4410,39 @@ export default {
   },
   /** {@see AdminShopAffiliatePage} **/
   affiliate_page: {
-    affiliates: "Affiliates",
+    affiliates: "Affiliate partners",
     orders: "Orders",
     payments: "Payments",
   },
 
   /** {@see AdminShopAffiliatePage_Dashboard**/
   affiliate_dashboard: {
-    link: "Affiliate link",
-    fix_commission: "Fix commission",
-    percent_commission: "Percent commission",
+    link: "Affiliate partner link",
+    fix_commission: "Fixed commission",
+    percent_commission: "Percentage-based commission",
     last_payment: "Last payment",
     balance: "Balance",
-    total_payment: "Total payment",
-    status: "Affiliate status & Restriction",
+    total_payment: "Total payments",
+    status: "Affiliate partner status & restrictions",
     available_for: "Available for",
-    orders_count: "Orders count",
-    orders_accepted: "Orders accepted",
+    orders_count: "Orders amount",
+    orders_accepted: "Accepted Orders",
     finance: "Financial report",
 
-    amount_accepted: "Amount accepted",
-    amount_payed: "Amount Payed",
+    amount_accepted: "Accepted Amount",
+    amount_paid: "Paid Amount",
     sessions: "Sessions",
-    affiliate_payment: "Affiliate payment",
-    amount_payment: "Amount payment",
+    affiliate_payment: "Affiliate partner payments",
+    amount_payment: "Payment Amount",
     amount_payment_hint: "Exact amount of transaction",
-    i_payed: "I payed {amount} {currency} to {name}",
+    i_paid: "I paid {amount} {currency} to {name}.",
     pay_now: "Pay now",
   },
 
   /** {@see AdminShopPermission_Role**/
   permission_roles: {
-    new_role: "New role",
-    new_role_message: "Make easier large scale teamwork.",
+    new_role: "Add New role",
+    new_role_message: "Make teamwork easier.",
     new_role_action: "Add new role",
   },
   /** {@see Affiliate**/
@@ -4336,15 +4451,22 @@ export default {
   shop_lotteries: {
     title: "Lottery",
     sub_title:
-      "Your customers can play game and win. Customers of your store must consume 10 chips for each game. For example, if you want your customers to have a chance to play for 1000 USD, you must set the amount of each chip price at 100 USD. A value of 0 for each chip means that the buyer will receive one chip for each purchase.",
+      "Your customers can play game and win. Customers of your store must consume 10 chips for each game. For example, if you want your customers to have a chance to win 1000 USD, you must set the amount of each chip price at 100 USD. A value of 0 for each chip means that the buyer will receive one chip for each purchase.",
     manually_send_chip: "Do you want to manually send chips to users?",
-    lottery_enable: "Lottery is enable?",
+    lottery_enable: "Is lottery enabled?",
     chip_price_input: "Chip price",
-    zero_chip_message: "Give 1x chip per each order",
-    chip_has_price_message:
-      "Give 1 chip per each {amount} {currency} of order.",
-    chip_disabled_message: "Give chip is disable!",
-    create_new: "New lottery",
+    zero_chip_message: "Give 1x chip per order",
+    chip_has_price_message: "Give 1 chip per {amount} {currency} of order.",
+    chip_disabled_message: "Chip is disabled!",
+    create_new: "Add new prize",
+    delete_alert: {
+      title: "Delete Prize",
+      message: "Are you sure to delete this prize permanently?",
+      action: "Yes, Delete Now",
+    },
+    notifications: {
+      delete_success: "Prize deleted successfully.",
+    },
   },
 
   /** {@see LotteryEditForm**/
@@ -4353,74 +4475,73 @@ export default {
     title_add: "New lottery item",
     general_config: "General configuration",
     design_style: "Style & Appearance",
-    enable: "Enable?",
-    enable_message: "Max item show in a wheel is 14.",
+    enable: "Enabled?",
+    enable_message: "Mximum items in a wheel are 14.",
     title_input: "Title",
-    title_input_hint: "Set short title.",
+    title_input_hint: "Write a short title.",
     description_input: "Description",
-    description_input_hint: "Set description about the item.",
+    description_input_hint: "Wrtie a description about the item.",
     quantity: "Quantity",
-    quantity_message: "Available items count",
+    quantity_message: "Total available items",
     image: "Image",
-    image_placeholder: "Select image for item",
+    image_placeholder: "Select an image for item",
     chance: "Chance",
-    chance_message: "Chance of win in percent",
-    free_for_first: "Is free for new customers?",
+    chance_message: "Winning Chance in percent",
+    free_for_first: "Is it free for new customers?",
     free_for_first_message: "New customers can win this item.",
     prize: "Prize",
     amount: "Prize amount",
-    amount_hint: "User win this amount of charge for their order.",
+    amount_hint: "Users win this amount of charge for their order.",
     currency_message:
-      "Currency of this item. Other currencies convert by exchange rate.",
+      "Currency for this item. Other currencies are converted by exchange rate.",
     discount: "Discount",
     discount_message: "Discount percent on customer order",
     discount_limit: "Discount limit",
-    discount_limit_hint: "Limit of wined discount for customer.",
+    discount_limit_hint: "Maximum discount for customer.",
     color: "Color",
-    condition: "Condition",
+    condition: "Conditions",
 
     notifications: {
       add: "New lottery item created successfully.",
-      edit: "Changes of lottery item  has been saved.",
+      edit: "Lottery items changed successfully.",
     },
   },
 
   /** {@see SelectGiftCardType**/
   gift_card_types_list: {
     label: "Gift card type",
-    message: "Select gift card type from the list",
+    message: "Select a gift card type from the list.",
   },
 
   /** {@see EmailBuilder**/
   email_builder: {
-    service_unavailable:
-      "The mail server is not active in your account.",
+    service_unavailable: "The mail server is not active in your account.",
     design_section: "Your email design plate",
-    schedule_switch: "Schedule mail sending?",
-    schedule_placeholder: "Select time to send mail",
+    schedule_switch: "Schedule email sending?",
+    schedule_placeholder: "Select time to send email",
   },
 
   /** {@see ShopUsersFunnelFactory**/
   user_funnel: {
     REGISTER_DATE: {
-      title: "Register date",
-      description: "Register date of user.",
+      title: "Registration date",
+      description: "Filter by registration date of user.",
     },
     LAST_BUY_DATE: {
-      title: "Last buy date",
-      description: "Last buy date of user.",
+      title: "Last purchase",
+      description: "Last purchase date.",
     },
     LOGIN_DATE: {
       title: "Login date",
-      description: "Last user login date.",
+      description: "Last login date.",
     },
     LEVEL: {
       title: "Customer club",
-      description: "Customer club.",
+      description: "Members of Customer club.",
     },
     SUBSCRIBED: {
       title: "Subscribed",
-      description: "Subscribed user.",
+      description: "To have subscription for receiving email.",
     },
     NOT_PURCHASED: {
       title: "No Purchase",
@@ -4432,19 +4553,19 @@ export default {
     },
     LOCATION: {
       title: "Location",
-      description: "Location of user.",
+      description: "User Location .",
     },
 
     LIMIT: {
       title: "Limit",
-      description: "Limit count.",
+      description: "Set a limit on the maximum number of users.",
     },
   },
 
   /** {@see InlineHelp**/
   inline_help: {
     helps_title: "Service User Guide",
-    blogs_title: "Related Content at Selldone Blog",
+    blogs_title: "Related Content in Selldone Blog",
   },
 
   /** {@see AdminShopFinance_Tax**/
@@ -4462,9 +4583,9 @@ export default {
     regions: "Regions",
     rest_world: "The rest of the world",
     overrides: "Overrides",
-    dialog_set_title: "Customize tax",
+    dialog_set_title: "Tax settings",
 
-    tax_setting: "Tax setting",
+    tax_setting: "Tax settings",
     vat: "VAT",
 
     calculate_tax_input: "Auto calculate tax",
@@ -4475,92 +4596,96 @@ export default {
     tax_number_message:
       "Enter your tax number. This registration number will be recorded in the buyer's invoice.",
 
-    tax_included_in_price_input: "Tax included in products's price",
+    tax_included_in_price_input: "Tax included in products price",
     tax_included_in_price_message:
       "Select this option if you include the tax amount in the price of your product. The tax amount will be calculated with the following formula:",
     tax_included_in_price_formula:
       "Tax = (price * VAT) / (1 + VAT), for example, the amount of tax for a product at a price of 100$ with a value added rate of 10% becomes 9.09$.",
 
-    tax_on_shipping_input: "Enable apply taxes on shipping",
-    tax_on_shipping_message: "Selecting this option will apply shipping tax.",
+    tax_on_shipping_input: "Apply taxes to shipping",
+    tax_on_shipping_message:
+      "By selecting this option the tax will be applied to shipping .",
 
     fixed_tax_rate: "Fixed tax rate",
-    dynamic_tax_rate: "Based on regions",
+    dynamic_tax_rate: "Tax based on regions",
 
     locations_tip:
-      "The above list only shows the countries that you have selected in the Shop settings > Locations  as the countries you serve.",
-    locations_action: "Store locations Setting",
+      "The above list only shows the countries that you have selected in the Shop settings > Locations  as the countries you sell.",
+    locations_action: "Store locations Settings",
 
     save_alert: "Settings are not saved!",
 
-    pos_tax_setting: "POS Tax setting",
+    pos_tax_setting: "POS Tax settings",
   },
 
   /** {@see AdminShopTransportationPage**/
   transportation_page: {
     menu: {
       dashboard: "Dashboard",
-      transportations: "Methods",
+      transportations: "Shipping methods",
       orders: "Orders",
       setting: "Setting",
       delivery_services: "Services",
-      delivery_persons: "Deliveries",
+      delivery_persons: "Couriers",
     },
+
+    go_to_courier_list: "View couriers list",
+    go_to_service_list: "View shipping services list",
   },
 
   /** {@see AdminShopTransportationPage_Persons**/
   transportation_persons: {
-    title: "Delivery persons",
+    title: "Couriers",
     notifications: {
-      success_add: "Delivery person has been added.",
+      success_add: "Courier added.",
       success_reset: "Statistics reset.",
-      success_remove: "Person removed successfully.",
-      success_update: "Person successfully updated.",
+      success_remove: "Courier removed successfully.",
+      success_update: "Courier information updated successfully.",
     },
     reset: {
       title: "Reset statistics",
-      message: "Are you sure to reset statistics of this person?",
+      message: "Are you sure to reset statistics of this courier?",
       action: "Yes, reset now",
     },
     remove: {
-      title: "Remove delivery person",
-      message: "Are you sure delete this person?",
+      title: "Remove Courier",
+      message: "Are you sure to delete this courier?",
       action: "Yes, remove now",
     },
     add_dialog: {
-      title: "Add new delivery person",
-      action: "Add person",
+      title: "Add new courier",
+      action: "Add courier",
     },
   },
   /** {@see AdminShopTransportationPage_Orders**/
   transportation_orders: {
-    title: "Transportation Orders",
+    title: "Orders for Shipping",
     notifications: {
-      success_update: "Transportation status updated.",
-      success_payment: "COD payment confirmed.",
+      success_update: "Shipping status updated successfully.",
+      success_payment: "COD payment confirmed successfully.",
     },
   },
   /** {@see DeliveryPersonPage**/
   delivery_person: {
-    actions_title: "Delivery actions",
-    action_delivered: "Delivered",
-    action_payed: "COD Payment",
+    actions_title: "Courier Settings",
+    action_delivered: "Shipped",
+    action_paid: "COD Paid",
     action_returned: "Returned",
     cod_confirm_action: "Confirm COD Payment",
     pickup_dialog: {
       title: "Are you courier of this package?",
       message:
-        "If you are responsible for carrying this shipment, select the Yes option, otherwise select the No option.",
+        "If you are responsible for carrying this parcel, select the Yes, otherwise select the No.",
     },
     status_dialog: {
       title: "Change status to {status}",
-      message: "Are you sure to change the delivery state to {status}?",
-      action: "Yes, Set it!",
+      message: "Are you sure to change the delivery status to {status}?",
+      action: "Yes, I confirm it!",
     },
     cod_dialog: {
       title: "COD Payment",
       message:
-        "Do you confirm that you received the order amount from the buyer?",
+        "Do you confirm that you have received the order amount from the buyer?",
       action: "Yes, I confirm payment!",
     },
   },
@@ -4569,10 +4694,10 @@ export default {
   transportation_services: {
     title: "Delivery service",
     notifications: {
-      success_add: "Delivery service has been added.",
+      success_add: "Delivery service added.",
       success_reset: "Statistics reset.",
       success_remove: "Service removed successfully.",
-      success_update: "Service successfully updated.",
+      success_update: "Service updated successfully.",
     },
     reset: {
       title: "Reset statistics",
@@ -4581,7 +4706,7 @@ export default {
     },
     remove: {
       title: "Remove delivery service",
-      message: "Are you sure delete this service?",
+      message: "Are you sure to delete this service?",
       action: "Yes, remove now",
     },
     add_dialog: {
@@ -4592,14 +4717,14 @@ export default {
 
   /** {@see DeliveryReceiptWidget**/
   delivery_receipt: {
-    title: "Shipping receipt",
-    has_return: "Return delivery",
+    title: "Delivery receipt",
+    has_return: "Return of delivery",
     cashed: "Cash payment",
   },
   /** {@see AdminShop_DeliveryService_Dashboard**/
   delivery_dashboard: {
-    select_destinations: "Select origin and destination address",
-    price_calculation: "Estimate shipping cost",
+    select_destinations: "Add orders to the list",
+    price_calculation: "Estimate shipping rates",
     price_calculation_action: "Calculate price",
     add_request: "Request Service",
     add_request_action: "Submit Service Request",
@@ -4609,21 +4734,21 @@ export default {
   /** {@see DeliveryOrderWidget**/
   delivery_order: {
     title: "Shipping order",
-    has_return: "Return delivery",
+    has_return: "Return of delivery",
     cashed: "Cash payment",
   },
 
   /** {@see CashRegisterPage**/
   cash_register: {
     menu: {
-      panel: "Desk",
+      panel: "Cash Register",
       orders: "Orders",
       customers: "Customers",
-      devices: "Device",
+      devices: "Devices",
       inventory: "Inventory",
     },
     payment_confirm: "Payment confirmation",
-    payment_confirm_msg: "Order {basket_id} was paid by the customer.",
+    payment_confirm_msg: "Customer paid order {basket_id}.",
   },
 
   /** {@see BarcodeScannerConnectWidget**/
@@ -4641,13 +4766,12 @@ export default {
       "To use the barcode scanner, you must enter the product SKU code correctly in the product settings.",
     Printer: "Printer",
     Printer_desc:
-      "Print your customers by connecting to an invoice printer label.",
+      "Print your customers receipt by connecting to a receipt printer.",
     CustomerView: "Customer View",
     CustomerView_desc:
-      "This page allows you to display purchase details and order amount for your customers.",
+      "This page enables you to display the order details to your customers.",
     CardReader: "Card Reader",
-    CardReader_desc:
-      "Card reader device for on-site payment by your customers.",
+    CardReader_desc: "Card reader device for COD payment by your customers.",
     ChipReader: "Chip Reader",
     ChipReader_desc: "NFC tag reader to add items to cart using tags.",
   },
@@ -4662,10 +4786,10 @@ export default {
 
   /** {@see ShopProcessCenterPOSOrderPage**/
   pos_process_center: {
-    title: "POS order process center",
+    title: "POS order processing center",
     menu: {
       label: "Package Label",
-      receipt: "invoice",
+      receipt: "Receipt",
       back: "Back",
       timeline: "Timeline",
       order: "Order",
@@ -4680,18 +4804,18 @@ export default {
     add_coupon: "Add Coupon",
     set_campaign: "Set Campaign",
     select_buyer: "Select buyer!",
-    send_to_pos: "Send to POS machine",
+    send_to_pos: "Send to card reader machine",
     print_receipt: "Print receipt",
     confirm_cash_payment: "Confirm cash payment",
     payment_cod: {
-      title: "Confirm the on-site payment method for the order",
+      title: "Cash on delivery payment",
       message:
-        "The amount of this order will be paid upon delivery. After receiving the amount from the buyer, you must confirm the payment for this order. This will complete the order in the system.",
+        "The amount of this order will be paid upon delivery. After receiving the amount from the buyer, you must confirm the payment to complete the order in the system.",
     },
     payment_online: {
-      title: "Select the channel to send the payment link",
+      title: "Select online payment method",
       message:
-        "By selecting any of the following options, a payment link will be created and sent to the buyer. By paying this link, the status of the order will change to the paid mode. Payment link by scanning the QR code created on the customer screen , SMS or email will be available. To activate any channel to send a link, click on that option and then press the button to send a receipt to the buyer.",
+        "By selecting following options, a payment link will be created and sent to the buyer. By paying this link, the status of the order will change to the paid mode. Payment link will be generated by scanning the QR code on the customer screen , SMS or email. To activate any channel to send a link, click on that option and then press the button to send a receipt to the buyer.",
     },
     notifications: {
       success_pay: "Order payment completed.",
@@ -4699,19 +4823,49 @@ export default {
         "Order created successfully and waiting for customer to pay it.",
     },
     payment_dialog: {
-      check_pay_now: "Manually check payment",
-      close_action: "Close dialog, I do not want to wait for customer payment",
+      check_pay_now: "Manually check the payment",
+      close_action: "Close dialog. I do not want to wait for customer payment",
+      go_to_order: "Go to order page",
+      paid_by_gift_card_msg:
+        "The total order amount was withdrawn from the gift cards! The buyer does not need to pay more.",
+      cod_msg: "The customer will pay when receiving the order.",
+      online_msg: "Ask the customer to scan QR code on the customer screen.",
     },
   },
 
   /** {@see ProductsManagement_Importer**/
   exporter: {
+    title: "Export data",
+    subtitle:
+      "Your data belongs to you! You can download your business information in the standard format at any time. However, respect your customers' privacy, don't spam them, and never share their information with a third party.",
+
     excel:
       "You will receive a list of all the {type} in the store along with complete information in Excel format.",
-    csv: "You will receive a list of all the {type} in the store along with complete information in csv format. This format is in accordance with the standard format of Selldone for importing {type} into the store.",
+    csv: "You will receive a list of all the {type} in the store along with complete information in CSV format. This format is in accordance with the standard format of Selldone for importing {type} into the store.",
   },
   /** {@see ProductsManagement_Importer**/
   importer: {
+    category: {
+      title: "Import categories",
+      subtitle:
+        "Upload CSV file of categories here. Make sure you follow standard format.",
+    },
+    product: {
+      title: "Import products",
+      subtitle:
+        "Upload CSV file of products here. Make sure you follow standard format.",
+    },
+    product_images: {
+      title: "Import images",
+      subtitle:
+        "Receiving image information is time consuming. Be sure to respect copyright when importing images.",
+    },
+    inventory: {
+      title: "Bulk update inventory",
+      subtitle:
+        "Upload CSV file of inventory here. Make sure you follow the standard format by exporting the CSV file first, then editing that file.",
+    },
+
     back_to_products: "Back to products list",
     back_to_categories: "Back to category list",
     back_to_inventory: "Back to inventory list",
@@ -4719,16 +4873,25 @@ export default {
     step_select_file: "Select CSV File",
     step_send_to_server: "Send To Server",
     step_view_result: "View Result",
-    step_view_que: "View Que List",
+    step_view_que: "View Awaiting List",
     send_to_server_action: "Send to server",
 
     shop_license: "Shop license",
-    max_items_limit: "Max items limit",
+    max_items_limit: "Maximum items limit",
     total_items: "Total items",
   },
   /** {@see AdminShopMarketingCampaign**/
   campaigns: {
+    title: "Campaigns",
+    subtitle:
+      "Create campaigns, trackable links, and see reliable and accurate information in one place. We help you make better data-driven decisions.",
+    add_action: "Add New Campaign",
     empty_message: "Create your first campaign now!",
+    delete: {
+      title: "Delete campaign",
+      message: "Are you sure to delete this campaign and all the data?",
+      action: "Yes, Delete Now",
+    },
   },
 
   landing_categories: {
@@ -4737,12 +4900,12 @@ export default {
     product: "Product introduction",
     health: "Health & Fitness",
     food: "Food & Fruits",
-    house: "Real estate & house",
+    house: "Real estate & House",
     device: "Machine and device",
     car: "Car",
     software: "Software",
     clothing: "Clothing & Shoes",
-    jewellery: "Jewellery",
+    jewellery: "Jewelry",
   },
 
   /** {@see ShopEdit_Theme**/
@@ -4750,15 +4913,15 @@ export default {
     theme_colors: "Theme colors",
     products_view_mode: "Shopping list view",
     products_view_mode_desc:
-      "You can select the products list view mode on your website; it will apply by the page size. These values will be considered by default and will not be used if the user changes the display method manually.",
+      "You can adjust the display mode of products in your store based on the screen size. This mode will be considered by default and will not be applied if the user changes the display mode.",
 
     color_light: "Primary color",
     color_dark: "Primary dark color",
     color_deep_dark: "Deep dark color",
     color_info: "Links",
-    light_checkout: "Light checkout theme",
-    light_header: "Light header",
-    light_footer: "Light footer",
+    light_checkout: "Checkout theme",
+    light_header: "Header theme",
+    light_footer: "Footer theme",
   },
 
   /** {@see AppTemplates**/
@@ -4775,10 +4938,10 @@ export default {
 
   /** {@see AdminShopAffiliatePage_Orders**/
   affiliate_orders: {
-    title: "Affiliate Orders",
+    title: "Affiliate Partner Orders",
     table: {
-      order_price: "Order price",
-      order_payment: "Order payment",
+      order_price: "Order amount",
+      order_payment: "Order payment status",
       order_link: "Order link",
       commission_status: "Commission status",
       commission_amount: "Commission amount",
@@ -4793,10 +4956,10 @@ export default {
 
   /** {@see AdminShopAffiliatePage_Payments**/
   affiliate_payments: {
-    title: "Affiliate Payments",
+    title: "Affiliate Partner Payments",
     table: {
       staff: "Staff",
-      amount: "Amount transaction",
+      amount: "Amount",
       note: "Note",
       date: "Date",
     },
@@ -4805,13 +4968,13 @@ export default {
   my_roles: {
     title: "My roles ",
     message:
-      "Roles are type of access given to employees of a store. For example, staff responsible for sending or packing orders. ",
+      "Roles are type of access given to employees of a store. For example, staff responsible for sending or packing orders.",
   },
   /** {@see WidgetMyRoleCard**/
   role_card: {
-    complete_tasks: "Complete tasks",
-    reject_tasks: "Reject tasks",
-    last_check: "Last check",
+    complete_tasks: "Completed tasks",
+    reject_tasks: "Rejected tasks",
+    last_check: "Recent checking",
   },
 
   /** {@see ReferralLinkWidget**/
@@ -4822,23 +4985,23 @@ export default {
     invited_gift: "Invited gift",
     percent_bonus: "Percent bonus",
     discount_bonus: "Discount bonus",
-    registered: "New users",
-    accepted: "Accepted users",
+    registered: "New user",
+    accepted: "Accepted user",
   },
 
   /** {@see AppConfigDialog**/
   app_config: {
-    reviews: "reviews",
+    reviews: "Reviews",
     rate_now: "Rate now",
     category: "Category",
     uninstall: "Uninstall",
     get_app: "Get app",
     public_keys: "Public Keys",
     private_keys: "Private keys (Secure)",
-    config: "Config app",
-    app_status: "App status",
+    config: "App configuration",
+    app_status: "Application status",
     app_info: "Application info",
-    update_at: "Last update",
+    update_at: "Recent update",
     visit_website: "Visit website",
     privacy: "Privacy Policy",
     installs: "Installs",
@@ -4852,7 +5015,7 @@ export default {
       action: "Yes, Delete app",
     },
     notifications: {
-      uninstall_success: "Application successfully uninstalled.",
+      uninstall_success: "Application uninstalled successfully.",
     },
   },
 
@@ -4871,10 +5034,12 @@ export default {
 
   /** {@see ShopUsers_Customers**/
   shop_customers: {
+    title: "Customers Management",
+
     all_customers: "Download all customers",
     filtered_customers: "Filtered customers",
     dialog_chips: {
-      title: "Adjust the number of customer chips",
+      title: "Set the number of customer chips",
     },
     dialog_club: {
       title: "Set customer club level",
@@ -4887,7 +5052,6 @@ export default {
   },
   /** {@see AppPage_Publish**/
   app_publish: {
-    title: "Publish New Release",
     production_version: "Production version",
     beta_version: "Beta version",
     alpha_version: "Alpha version",
@@ -4915,15 +5079,15 @@ export default {
 
   /** {@see ApplicationLoaderPage**/
   app_loader_page: {
-    no_ui_title: "This application has not any UI!",
+    no_ui_title: "This application does not have any UI!",
     no_ui_desc:
-      "Some applications do not require a user interface in their admin area. This application may only add code to the header section of your store site.",
+      "Some applications do not require a user interface in their admin area. This application may only add code to the header section of your store website.",
     header: "Header code",
   },
   /** {@see AdminShopFinance_Report**/
   finance_report: {
     export_title: "Export financial data",
-    export_sub_title: "Download Excel file of orders",
+    export_sub_title: "Download financial details in a single file.",
     start_input_placeholder: "Select start date of report",
     end_input_placeholder: "Select end date of report",
     download_action: "Download finance list",
@@ -4949,7 +5113,7 @@ export default {
       title: "Bot Configuration",
       message:
         "A comprehensive notification framework for building enterprise-grade ecommerce experiences.",
-      action: "Click Me!",
+      action: "Click here!",
       set_config: "Set config",
     },
   },
@@ -4963,43 +5127,49 @@ export default {
   /** {@see OrderDeliveryWidget} **/
   order_delivery: {
     title: "Delivery",
-    add_to_delivery_que_action: "Add to Mailing List",
-    in_que: "Added in que",
+    add_to_delivery_que_action: "Add to shipping queue",
+    in_que: "In shipping queue",
     message:
-      "After giving the package to the shipping agent, click the <b> Confirm Delivery </b> button.",
+      "After giving the package to the shipping courier, click the <b> Confirm Delivery </b> button.",
     message_add_to_service:
       "Click the following button if you want to send this package by a <b>delivery service</b>.",
     action: "Delivery Confirmation",
     checklist: [
-      "Check Post Officer ID.",
-      "The design and physical health of the packaging can increase your customers' retention rate.",
+      "Check courier's identity card.",
+      "Well-packaging of products and timely delivery can increase your customers' retention rate.",
     ],
     manual: {
-      title: "Waiting for confirmation of receipt by customer.",
+      title: "Waiting for confirmation of delivery by the customer.",
       action_received: "Buyer Confirmation",
       action_returned: "Delivery Return",
 
       message:
-        "Note: If the customer receives the order, you can use the following options to complete the fulfillment. Some shipping services in the system will automatically perform the delivery confirmation.",
+        "Note: If the customer receives the order, you can use the following options to complete the fulfillment. Some shipping services in the system will confirm the delivery automatically.",
     },
     auto_complete_note:
-      "After a certain period, the order state will be changed to the delivered. This period varies depending on the type of order and is determined by the system.",
+      "After a certain period, the order status will be changed to the delivered. This period varies depending on the type of order and is determined by the system.",
     received: {
-      title: "Customer Delivered.",
+      title: "Delivered to Customer.",
       delivered_date: "Delivery Date",
     },
     receiver: "Receiver",
-    bill: "Bill",
+    bill: "Receipt",
 
     tracking: {
       title: "Add tracking code / Url",
       code: "Tracking code",
       url: "Tracking url",
       message:
-        "If you have sent the shipment through a service that provides a tracking code for this order, you can enter the code and the relevant tracking link in this section. This information will be shown to the customer.",
+        "If you have shipped through a service that provides a tracking code for this order, you can enter the code and the relevant tracking link in this section. This information will be shown to the customer.",
     },
-    preferred_delivery_time:'Preferred Delivery Time',
-    manage_couriers:"Manage my couriers",
+    preferred_delivery_time: "Preferred Delivery Time",
+    manage_couriers: "Manage my couriers",
+    manage_service: "Manage service",
+
+    option_deliver_by_courier: "Option 1: Deliver by your couriers.",
+    option_add_to_que:
+      "Option 2: Add to queue to process on shipping service page.",
+    option_instant_shipping: "Option 3: Instant shipping.",
   },
 
   /** {@see ShopEdit_Home} **/
@@ -5008,7 +5178,7 @@ export default {
     sub_title: "Set your website default page",
 
     default_home: "Default home page",
-    default_home_placeholder: "Shop page is your is home",
+    default_home_placeholder: "Shop page is the website home page",
   },
   /** {@see ReferralLinkPage_Dashboard} **/
   selldone_referral_page: {
@@ -5017,11 +5187,11 @@ export default {
     registered: "Registered",
     accepted: "Accepted",
     bank: "Bank",
-    bank_title: "Withdraw bank info",
+    bank_title: "Bank info for withdrawal",
     new_users: "New users",
     performance: "Performance",
     credit_mode: "Credit mode",
-    get_stickers: "Get sticker code to copy & past",
+    get_stickers: "Get sticker Html code to copy & past",
     click_copy_sticker_code: "Click on the badge to copy html code.",
   },
   /** {@see ReferralLinkPage_Payments} **/
@@ -5041,21 +5211,21 @@ export default {
 
   /** {@see ProductSellWidget} **/
   product_sell_widget: {
-    title: "Product sell performance",
+    title: "Product sales performance",
   },
 
   /** {@see OrderFulfillmentWidget} **/
   fulfilment_order_widget: {
-    title: "Drop shipping fulfillment",
-    check_action: "Accept drop shipping",
+    title: "Dropshipping fulfillment",
+    check_action: "Accept dropshipping",
     uncheck_action: "Order confirmed",
     pay_action: "Pay items cost..",
-    pay_completed: "Payment confirm",
+    pay_completed: "Payment confirmation",
     list_of_items: "Reselling Items",
 
     checklist: [
       "Pay the amount of products you sell indirectly to the original seller.",
-      "You can pay and settle the cost of goods to the supplier together in the accounting section> Drop shipping of the store.",
+      "You can pay and settle the cost of products to the supplier together in the accounting section> Dropshipping of the store.",
       "After payment, the supplier will receive your order and send it directly to the buyer after preparation.",
     ],
     message:
@@ -5108,7 +5278,7 @@ export default {
   /** @see MasterPaymentDialog **/
   master_payment: {
     notifications: {
-      payment_success_title: "Pay Confirmation",
+      payment_success_title: "Payment Confirmation",
       payment_success: "Payment completed.",
       buy_title: "Buy",
       pay_by_giftcards: "Your order was paid with a gift card.",
@@ -5118,7 +5288,7 @@ export default {
         "Your order has been registered as direct payment, please complete payment and upload the receipt in your order page.",
 
       pay_title: "Payment",
-      qr_code_payment: "Payment QR code address created.",
+      qr_code_payment: "Payment QR code created.",
       connecting_to_online_gateway: "Connecting to online payment gateway.",
     },
   },
@@ -5128,7 +5298,7 @@ export default {
     notifications: {
       pay_confirm_message: "Payment is confirmed.<br> Date: {payment_at} ",
       pay_fail_title: "Not paid",
-      pay_fail_message: "Payment cannot be approved!",
+      pay_fail_message: "Payment cannot be verified!",
     },
   },
 
@@ -5138,13 +5308,13 @@ export default {
       title: "Reseller orders payment",
       balance: "Your account balance",
       total_cost: "Total orders cost",
-      need_charge: "Need charge",
+      need_charge: "Needs to charge",
       no_account_cation: "You have no account! Call wholesaler.",
       orders: "Orders",
     },
     notifications: {
       success_pay:
-        "Your payment for these orders has been confirmed and completed.",
+        "Your payment for these orders confirmed and completed successfully.",
     },
   },
   /** @see AdminShopFinance_DropShippingAccounts **/
@@ -5162,7 +5332,7 @@ export default {
     title: "Reseller requests",
     today_order_count: "Today orders count",
     yesterday_order_count: "Yesterday orders count",
-    total_7_days: "Total last 7 days",
+    total_7_days: "Total orders in last 7 days",
   },
 
   /** @see DropShippingSelectProducts **/
@@ -5179,7 +5349,7 @@ export default {
     notifications: {
       add_product: "Product added to your store.",
       request_access:
-        "We send your access request to the wholesaler successfully.",
+        "We sent your access request to the wholesaler successfully.",
     },
   },
 
@@ -5189,7 +5359,7 @@ export default {
       "This product has been changed by the original seller, these price changes have disabled the product in your store. Check the changes and if you agree to reactivate the product, press the button below.",
     need_re_enable_action: "Agree, apply changes and activation",
     changed_value:
-      "This product has been modified by the original seller. Check the changes and if you agree to apply the changes to your product, click the button below.",
+      "This product has been edited by the original seller. Check the changes and if you agree to apply the changes to your product, click the button below.",
     changed_value_action: "Agree, make changes",
     parent_deleted: "This item has been removed by the original seller.",
     parent_closed:
@@ -5203,21 +5373,21 @@ export default {
 
   /** @see ProductDropShippingPage **/
   product_dropshipping_admin: {
-    title: "Drop shipping",
+    title: "Dropshipping",
     save_alert:
-      "The drop shipping settings of this product have changed. Do you want to save the changes?",
+      "The dropshipping settings of this product have changed. Do you want to save the changes?",
     reselling_message:
-      "By activating this option, other sellers will be able to place your product in their store.",
-    reselling: "Enable drop shipping",
+      "By activating this option, other sellers will be able to add your product to their store.",
+    reselling: "Enable Dropshipping",
     price_merchants: "Price for merchants",
-    price_commission: "Merchant commission (Fix)",
+    price_commission: "Merchant commission (Fixed)",
   },
 
   /** @see BuyButton **/
 
   buy_button: {
     waiting_for_availability: "Waiting for availability",
-    inform_me_when_available: "Tell me when be available!",
+    inform_me_when_available: "Notify me when it is available!",
     pay_buy: "Pay & Buy",
     quantity: "Count",
     quantity_in_basket: "Items in cart",
@@ -5236,7 +5406,7 @@ export default {
     action: "Auction",
     compare_limit: "10 items limit",
     compare_add: "Add to Compare",
-    compare_be_in_list: "In compare list",
+    compare_be_in_list: "In comparison list",
 
     type: "Type",
     brand: "Brand",
@@ -5244,7 +5414,7 @@ export default {
     discount: "Discount",
     track_price: "Track price",
     waiting_for_auction: "Waiting for auction?",
-    inform_auction: "Tell me about auction",
+    inform_auction: "Notify me when auction",
     return_in_days: "{days} Days Warranty Return",
     support24h7: "Support 24 hours 7 days",
     support_normal: "Working hours support",
@@ -5290,8 +5460,8 @@ export default {
     /** @see CompleteProductFilterView **/
     products: {
       title: "Product & categories list management",
-      sort_options: "Configure sort mode of results",
-      item_types: "Select show only products / categories",
+      sort_options: "Select the Sorting and View settings",
+      item_types: "Show only products / categories",
       product_only: "Products only",
       category_only: "Categories only",
       no_category: "There is no category in your store.",
@@ -5329,20 +5499,20 @@ export default {
     position_desc:
       "Specify the display location of this notification on the page.",
     width: "Width",
-    width_desc: "You can specify the maximum page width.",
+    width_desc: "You can set the maximum page width.",
     height: "Height",
-    height_desc: "You can specify the maximum page height.",
+    height_desc: "You can set the maximum page height.",
     radius: "Corner radius",
     radius_desc:
-      "In the section you can specify the radius of curvature of the corners of the notification.",
+      "In this section you can set the radius of curvature of the corners of the notification.",
     shadow: "Shadow",
     shadow_desc: "Do you want the pop-up window to be shaded?",
     delay: "Show delay",
     delay_desc:
-      "After the user enters your store, after this amount of time has elapsed, a notification will be displayed to the user.",
+      "Once the user enters your store, after this amount of time has elapsed, a notification will be displayed to the user.",
     hide: "Hide delay",
     hide_desc:
-      "You can specify that the notification closes automatically a few seconds after the show. A value of 0 means that the notification will not close automatically.",
+      "You can set that the notification closes automatically a few seconds after the show. A value of 0 means that the notification will not close automatically.",
     transition: "Popup animation",
   },
 
@@ -5352,13 +5522,13 @@ export default {
     registered_desc:
       "You can choose to show this notification only to store users or guests.",
     only_guests: "Only guests",
-    only_users: "Only login users",
+    only_users: "Only logged in users",
     purchased: "Purchase history",
     purchased_desc:
       "You can choose to show this notification only to users who have already purchased or those who have not yet purchased.",
     no_purchase: "No purchase yet",
     yes_purchase: "Purchased before",
-    sex: "Sex",
+    sex: "Gender",
     sex_desc:
       "Do you want this notification to be shown only to users of a specific gender?",
     age: "Minimum age",
@@ -5378,9 +5548,9 @@ export default {
     repeat: "Repeat",
     repeat_msg:
       "Do you want this notification to be displayed to the user more than once?",
-    intervals: "Intervals",
+    intervals: "Time duration of the popup display",
     intervals_msg:
-      "The minimum time interval between displaying notifications to a user must have elapsed.",
+      "The minimum time duration between displaying notifications to a user must have elapsed.",
     designer_zone: "Designer zone",
     title: "Popup title",
     note: "Designer note",
@@ -5388,11 +5558,11 @@ export default {
     delete: {
       title: "Delete",
       sub_title:
-        "Once you delete a popup, there is no going back. Please be certain.",
+        "Once you delete a popup, there is no return. Please be certain.",
       action: "Delete This Popup",
     },
     notifications: {
-      delete: "Popup has been deleted.",
+      delete: "Popup deleted.",
     },
   },
 
@@ -5401,14 +5571,14 @@ export default {
     title: "Manage SMS",
     sub_title: "SMS templates sent to customers",
     message:
-      "You can see the content of the text messages sent by your store here. Due to the limitation in registering the validation patterns in the texting service, it is not possible to personalize the text messages at the moment.",
+      "You can see the content of the text messages sent by your store here. Due to the limitation in registering the validation patterns in the messaging service, it is not possible to personalize the text messages at the moment.",
   },
 
   /** @see ShopEdit_Emails **/
   shop_emails: {
     title: "Manage emails",
     sub_title:
-      "You will see the list of emails sent by the store to customers and managers in this section. Emails are automatically designed and created based on the information you have entered for your store. Also, the possibility of personalizing messages and images It will be available to the public in the future. ",
+      "You will see the list of emails sent by the store to customers and managers in this section. Emails are automatically designed and created based on the information you have entered for your store. Also, the possibility of personalizing messages and images will be available to the public in the future. ",
   },
 
   /** @see InstagramViewMedias **/
@@ -5419,8 +5589,8 @@ export default {
     add_product: "Add new product",
     create_product: "Create product",
     link_box_msg:
-      "Put this link in your bio on Instagram, Telegram or other social networks so that your audience can buy faster, easier, more accurately and ultimately more than you.",
-    remove_account: "Change / Remove instagram link",
+      "Put this link in your bio on Instagram, Telegram or other social media so that your audience can buy faster, easier, more and finally more.",
+    remove_account: "Change / Remove Instagram link",
     sync: "Sync account data (every 60 minutes)",
   },
 
@@ -5429,12 +5599,12 @@ export default {
     task: {
       title: "To-do list",
       message:
-        "Specify the titles of the work you want to do and let the buyer know how far it has progressed.",
+        "Write the titles of the work you want to do and let the buyer know how far it has progressed.",
     },
     booking: {
       title: "Booking / Reservation",
       message:
-        "This order will be processed at a specified time, the customer has selected the desired period, if you want to make any changes in the selected period, let the customer know.",
+        "This order will be processed at a specified time, the customer has selected the desired period, if you want to make any changes in the selected period, let the customer knows.",
 
       selected_checkin: "Selected Customer Login Date",
       selected_checkout: "Selected customer exit date",
@@ -5449,7 +5619,7 @@ export default {
     subscription: {
       title: "Subscription",
       message:
-        "You can choose the subscription period by purchasing this service on a daily basis. Let the buyer know if you want to change the default values you have already entered.",
+        "You can choose the subscription period by purchasing this service on a daily basis. Let the buyer knows if you want to change the default values you have already entered.",
       duration: "Subscription period",
     },
     charge: {
@@ -5475,17 +5645,17 @@ export default {
 
   /** {@see ProductEditOutputs} **/
   product_outputs: {
-    outputs_form: "Display structure (output)",
+    outputs_form: "Display's Information structure (output)",
 
     virtual: {
       title: "Product Output Information Form",
       sub_title:
-        "The information you want to show to the user after purchase. This form is especially applicable for the sale of virtual goods. Such as charge sales or disposable download links. ",
+        "The information you want to show to the user after purchase. This form is especially applicable for the sale of virtual products such as gift card.",
     },
     service: {
       title: "Service Design",
       sub_title:
-        "First select your service type and enter the required information. For example, you can define a todo list or ask the customer for a booking time or appointment.",
+        "First select your service type and enter the required information. For example, you can define a todo list or ask the customer for a booking time or an appointment.",
     },
   },
 
@@ -5504,23 +5674,23 @@ export default {
     },
     BOOKING: {
       title: "Booking",
-      desc: "Like ordering a hotel or villa.",
+      desc: "Like booking a hotel room or villa.",
     },
     APPOINTMENT: {
       title: "Appointment",
-      desc: "Like doctor's time or on-site training.",
+      desc: "Like a pet care appointment or in-person training.",
     },
     RENTAL: {
       title: "Rental",
-      desc: "It's like renting a thing or a place.",
+      desc: "Like renting a place or a car.",
     },
     SUBSCRIPTION: {
       title: "Subscription",
-      desc: "Like club membership and ...",
+      desc: "Like club membership or Online Coaching.",
     },
     CHARGE: {
       title: "Charge",
-      desc: "such as charging an account, charging using a device or application.",
+      desc: "Such as charging an account or charging to use an application.",
     },
     CUSTOM: {
       title: "Custom",
@@ -5530,17 +5700,17 @@ export default {
 
   /** {@see AvocadoHomePage} **/
   avocado: {
-    title: "Fast, accurate and enjoyable sales on all social networks",
+    title: "Fast, accurate and enjoyable sales on all social media",
     message:
       "One amount and one title is all you need to get money from your customers! Money will be credited directly to your account and your customers will have a unique shopping experience.",
-    new_order: "new bill",
+    new_order: "New bill",
     create_by_seller_title: "Create Invoice",
     create_by_seller_message:
-      "If you want to create an invoice with a certain amount and send it to someone, you can hit the button below to show you the invoice form. Give generated link to the buyer to pay and track their order through it.",
+      "If you want to create an invoice with a certain amount and send it to someone, you can hit the button below to show the invoice form. Give generated link to the buyer to pay and track their order through it.",
 
     create_by_buyer_title: "Avocado form",
     create_by_buyer_message:
-      "By activating this section, a link will be shown to you, provide this link to your buyers so that they can register their order for you.",
+      "By activating this section, a link will be shown to you, provide this link to your buyers so that they can place their order.",
 
     orders_list: "Orders List",
     active_mode: "Order Receipt Active",
@@ -5548,42 +5718,42 @@ export default {
     active_message:
       "By activating this source, your customers will be able to place an order for the product through the request form you see below.",
     avocado_form_link_message:
-      "Put this link in your bio on Instagram, Telegram or other social networks so that your audience can buy faster, easier, more accurately and ultimately more than you.",
+      "Put this link in your bio on Instagram, Telegram or other social media so that your audience can buy faster, easier, and finally more",
     need_address: "Get Address",
     need_address_msg:
       "If you need to get the location and address of the buyer, select this option.",
     avocado_link_message:
-      "It is enough to provide the above link to the customer to pay through it. The customer is able to follow the order through this link.",
+      "It is enough to provide the above link to the customer to pay the order. The customer will be able to follow the order through this link.",
     edit_order: "Edit Order",
-    progress: "progress rate",
+    progress: "Progress Rate",
     buyer_link: "Buyer Link",
     buyer_link_message:
-      "Provide this link to your buyer. The buyer will be able to pay and track his order through this link. This link is coded, if this link is provided to anyone, he will be able to pay and see the information. This link will be active for 60 days. Click on the link below to copy.",
+      "Provide this link to your buyer. The buyer will be able to pay and track his order through this link. This link is coded, if the link is provided to anyone, he will be able to pay and see the information. This link will be active for 60 days. Click on the link below to copy.",
     OrderConfirm_done: "Order confirmed.",
     OrderConfirm_message:
       "If you confirm the payment and the order is correct, click the button below.",
     OrderConfirm_action: "Order Confirmation",
     PreparingOrder_message:
-      "If the customer order is ready to be shipped, click the OK button below.",
-    PreparingOrder_action: "Order is ready to send",
+      "If the customer order is ready to ship, click the OK button below.",
+    PreparingOrder_action: "Order is ready to ship",
     finish_message:
-      "If this order is completed, hit the end key to close this order.",
-    finish_action: "Finish ordering",
+      "If this order is completed, hit the end button to close this order.",
+    finish_action: "Complete order processing",
     finish_dialog: {
       title: "Complete the order",
-      message: "Is this order complete and are you sure you want to close it?",
+      message: "Is the order completed and are you sure you want to close it?",
       action: "Yes, confirm the completion of the order",
     },
     configuration: "Avocado Settings",
-    delivery_price: "shipping cost",
+    delivery_price: "Shipping Cost",
     edit_avocado_action: "Edit Information",
-    submit_pricing_avocado_action: "Submit order pricing",
+    submit_pricing_avocado_action: "Submit the order's pricing",
     add_avocado_action: "Create Invoice Link",
     avocados_list: "List of Avocados",
-    not_pricing: "Price not set yet!",
+    not_pricing: "This item is not priced!",
 
     show_all: "Show All",
-    show_accepted: "Show Verified Items",
+    show_accepted: "Show Confirmed Items",
 
     notifications: {
       update_success: "Avocado updated successfully.",
@@ -5596,27 +5766,27 @@ export default {
     title: "Avocado",
     title_small: "Social Media Sales",
     pending_orders: "Active orders",
-    avocado: "Order avocado",
+    avocado: "Order Avocado",
   },
   /** {@see AvocadoAddEdit} **/
   avocado_process: {
-    step1: "1. Pricing",
+    step1: "Pricing",
     step1_msg:
       "Enter the price of each item and check the green box. If it is not possible to sell an item, change its status to rejected.",
-    step2: "2. Confirm invoice",
+    step2: "Confirm invoice",
     step2_msg:
-      "Create an invoice for this order. You can enter a title and description for the invoice. The order amount is automatically calculated based on the total price of the items.",
+      "Create an invoice for this order. You can enter a title and description for the invoice. The order amount is calculated based on the total price of the items automatically.",
     title_input: "Invoice Title *",
     show_to_customer: "This information is shown to the buyer.",
     description_msg:
-      "Do you want to submit an explanation or information for this order? This information will be shown to the buyer.",
+      "Do you want to write a note for this order? This information will be shown to the buyer.",
     price_input: "Order amount *",
-    tax_none: "tax free",
-    tax_included: "In price",
-    tax_add: "add tax",
+    tax_none: "Tax-free",
+    tax_included: "Included in price",
+    tax_add: "Add tax",
     tax_message: "You can choose whether tax is included in the price or not.",
     tax_included_messages: "Tax is included in the price.",
-    tax_add_messages: "Tax should be added to the final amount.",
+    tax_add_messages: "Tax should be added to the final price.",
   },
 
   /** {@see ProductHyperPage} **/
@@ -5628,20 +5798,20 @@ export default {
       "Your customers will be able to buy {product} quickly through this link. They will also enter the same link by scanning the QR code.",
     title: "Hyper Quick Sale",
     message:
-      "With the help of Hyper Selldone sales channel, your customers will be able to select products by scanning a QR code and paying without the need for any work or process by you as a seller. This way to sell limited items in large numbers and speed, Use it at festivals, exhibitions or anywhere else where you need speed. After activating Hyper in this section, you can create a hyper QR code for physical products in the Product Management section.",
+      "With the help of Hyper Selldone sales channel, your customers will be able to buy products by scanning a QR code without any action needed from your side. Use this way to quickly sell some items at festivals, exhibitions, or busy ceremonies in large numbers. After activating Hyper in this section, you can create a hyper QR code for physical products in the Product Management section.",
     orders_list: "Hyper Orders List",
     active_mode: "Hyper Sales Channel Activated",
     inactive_mode: "Inactive",
     active_message:
       "If you enable this option, the possibility of creating the Fast-Sales-Codes will be displayed in the management section of each product.",
-    hyper_form_link_message: "Your store hyper page link",
+    hyper_form_link_message: "Your store's hyper page link",
     configuration: "Hyper Settings",
   },
 
   /** {@see ShopActiveHyperWidget} **/
   hyper_orders: {
     title: "Hyper",
-    title_small: "Instance Ordering",
+    title_small: "Sales Report",
     hyper: "Received Orders",
   },
 
@@ -5651,7 +5821,7 @@ export default {
     delete_dialog: {
       title: "Delete file",
       message: "Are you sure to delete this file?",
-      action: "Yes, Delete now",
+      action: "Yes, delete now",
     },
     notifications: {
       delete_success: "File deleted successfully.",
@@ -5661,7 +5831,7 @@ export default {
   /** {@see NotificationTopBar} **/
   notification_top_bar: {
     free_charge: "🎊 Charge {amount} and get {amount_total} credit.",
-    charge_action: "Claim your ",
+    charge_action: "Claiming free credit",
     claim_title: "Claim your free credit",
     claim_charge_caution:
       "Note: It is not possible to convert currencies between your wallet accounts. Therefore, select an account that is appropriate for the currency exchanged in your store.",
@@ -5694,15 +5864,15 @@ export default {
   shop_preferences: {
     order: {
       title: "Orders",
-      desc: "If the customer pays for the cart, an email containing the order information will be sent to this address.",
+      desc: "If a customer pays the order, an email containing the order information will be sent to this address.",
     },
     return: {
       title: "Return",
-      desc: "If the product is returned by the buyer, it will be sent. Sending this email depends on your purchase plan.",
+      desc: "If the product is returned by the buyer, this email will be sent. Sending this email depends on your purchased plan.",
     },
     pos: {
       title: "POS",
-      desc: "Checkout sales report will be sent to this email.",
+      desc: "POS sales report will be sent to this email.",
     },
     avocado: {
       title: "Avocado",
@@ -5710,11 +5880,11 @@ export default {
     },
     accounting: {
       title: "Accounting",
-      desc: "Store financial reports and announcements.",
+      desc: "Store financial reports and updates.",
     },
     subscription: {
       title: "Subscriptions",
-      desc: "Last updated plan status and start and end subscription announcement.",
+      desc: "Recent purchased plan status alogn with start and end subscription notifications.",
     },
     technical: {
       title: "Technical",
@@ -5726,7 +5896,7 @@ export default {
     },
     review: {
       title: "Review",
-      desc: "If you need to confirm a process in the store, the relevant email will be sent to this address. For example to confirm the sending of marketing email to store users.",
+      desc: "If you need to confirm a process in the store, the relevant email will be sent to this address. For example to confirm the sending of a marketing email to store users.",
     },
   },
 
@@ -5741,9 +5911,9 @@ export default {
   /** {@see InviteFriendsDialog} **/
   invite_friends: {
     title: "Tell about your business to the world!",
-    msg: "Introduce a friend to Selldone. They'll get a $99 in company voucher when they signup, and you'll get $15 in startup voucher once they complete their first charge.",
+    msg: "Introduce Selldone to your friends. They'll get a $99 in company voucher when they signup, and you'll get $15 in startup voucher once they complete their first transaction.",
     invite: {
-      title: "Join Selldone online business builder to get a free $99 voucher.",
+      title: "Join Selldone business OS to get a free $99 voucher.",
       description:
         "I invite you to Selldone to start your business online with a fantastic tool.",
       hashtags: "ecommerce,websiteBuilder",
@@ -5754,6 +5924,148 @@ export default {
   /** {@see ShopList} **/
   shops_list: {
     title: "My Shops",
-    message: "List of my shops, permitted and sample shops.",
+    message: "List of my own shops, permitted and sample shops.",
+  },
+
+  /** {@see DeliveryServiceProcessingTable} **/
+  shipping: {
+    warehouse_error:
+      "Set your warehouse first! This address will be used as the origin of shipping.",
+    errors: {
+      set_origin: "Set your location map.",
+      set_country: "Set your country.",
+      set_address: "Set your address.",
+      set_zip: "Set your postal code.",
+    },
+    set_warehouse: "Set warehouse",
+    pickup_location: "Pickup location",
+    refresh_rates: "Refresh rates",
+    no_rate: "No rate...",
+    view_messages: "View messages...",
+    not_set_yet: "Not set yet!",
+    drop_orders_here: "Drop orders here...",
+  },
+
+  /** {@see AdminShop_Blog_Categories} **/
+  blog_category: {
+    title: "Blog Categories",
+    add_action: "Add new category",
+    add_dialog: {
+      title: "New / Update Category",
+      force_edit: "Force edit path",
+      force_edit_msg: "Change category name & update all articles.",
+      star_msg: "Stared categories have priority to show in the blog.",
+      star: "Stared",
+      delete_action: "Delete category",
+      add_action: "Add Category",
+      edit_action: "Edit category",
+    },
+  },
+
+  /** {@see PagesManagement_AboutUs} **/
+  about_us: {
+    title: "About us page",
+    subtitle:
+      "Write an article about your business to show on the About Us page. This page will help your audience to know your brand and mission.",
+  },
+  /** {@see PagesManagement_Terms} **/
+  terms: {
+    title: "Terms of service page",
+    subtitle:
+      "Explain the terms of purchase and use of your services for your customers.",
+  },
+  /** {@see PagesManagement_Privacy} **/
+  privacy: {
+    title: "Privacy policy page",
+    subtitle:
+      "A privacy policy is a statement or legal document that discloses some or all of the ways a party gathers, uses, discloses, and manages a customer or client's data.",
+  },
+  /** {@see PagesManagement_ContactUs} **/
+  contact_us: {
+    title: "Contact us page",
+    subtitle:
+      "Write your contact information, address, and phone number to be shown to your customers on the contact us page.",
+  },
+
+  /** {@see AdminShop_Applications_Metaverse} **/
+  metaverse: {
+    title: "Metaverse Bridge",
+    subtitle:
+      "Selldone provides %100 API-based services in the commerce space. Game, blockchain, and metaverse developers can use these powerful APIs to connect businesses, customers, and services in the future of work, life and trade world.",
+    message: "Early Access For Game Developers",
+  },
+
+  /** {@see ShopProcessCenterBulkExportActionsBasket} **/
+  orders_bulk_export: {
+    title: "Orders Assistant",
+    timespan: {
+      title: "Time period",
+      subtitle: "Choose the start and end dates for placing orders.",
+    },
+    tasks: {
+      title: "Tasks Output",
+      subtitle:
+        "Download the list of tasks for processing orders in bulk. The result only contains paid and COD orders.",
+      export_title: "List of tasks",
+    },
+    labels: {
+      title: "Packages Labels",
+      subtitle:
+        "Download the list of all orders labels in the selected time period and status. The result only contains paid and COD orders.",
+      export_title: "Box labels",
+    },
+  },
+
+  /** {@see AdminShopMarketing_Funnels} **/
+  customers_funnel: {
+    title: "Customers Demography",
+    subtitle:
+      "Filter and export your customers data to make better decisions to deliver more value with less marketing! Please respect your customers' privacy and never send mass bulk emails to them! Never share your customers' information with 3rd party services without getting permission from every single of them.",
+  },
+
+  /** {@see AffiliatePage_Dashboard} **/
+  affiliate_pos: {
+    title: "Affiliate POS",
+    open_pos_action: "Fast ordering POS",
+    description:
+      "This option is suitable for admins of Instagram pages and other social networks. This option is convenient for you when you receive orders directly from customers. All you have to do is register your order in Pooz and upload the deposit slip so that the store staff will receive your order and send it to the final customer after confirmation.",
+  },
+
+  /** {@see ShopEdit_Shop} **/
+  shop_configuration: {
+    /** {@see ShopConfigurationLoginMethods} **/
+    login: {
+      title: "Login methods",
+      subtitle: "Customize the way users log in to your store.",
+    },
+
+    /** {@see ShopConfigurationCheckout} **/
+    checkout: {
+      title: "Checkout flow",
+      subtitle:
+        "Customize your customer journey and purchase flow in your ecommerce journey.",
+      map: {
+        title: "Map",
+        subtitle:
+          "Users must select the delivery location on the map (like Uber).",
+        subtitle_no_map:
+          "Distance in shipping calculation considers zero if the location does not exist in customer provided address.",
+      },
+      mode: {
+        title: "Customers login point",
+        default: {
+          title: "Default",
+          msg: "Users log in as soon as possible. (More conversion)",
+        },
+        on_checkout: {
+          title: "On checkout",
+          msg: "Users log in at the checkout step.",
+        },
+        login_free: {
+          title: "Optional login",
+          msg: "Optional login for the user after payment.",
+        },
+      },
+    },
   },
 };

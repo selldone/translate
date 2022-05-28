@@ -1,606 +1,545 @@
 export default {
-  /** @see ProductRatingView **/
-  surveys: ["很窮", "貧窮的", "普通的", "好的", "優秀"],
-
-
-  /** @see ShopFooter **/
-  footer: {
-    map: "地圖",
-    email: "電子郵件",
-    phone: "電話",
-    address: "地址",
-
-    copyright:
-      "僅出於非商業目的使用內容並參考來源（與 {shop_title} 鏈接）。 {shop_title} 保留所有權利。",
-    powered_by: "供電",
-    privacy: "隱私政策",
-    term_of_use: "使用條款",
-    shop_app_setting: "商店設置和 GDPR",
-
-    dialog_setting: {
-      title: "商店應用程序設置",
-      app_list: "申請清單",
+  "surveys": [
+    "很穷",
+    "贫穷的",
+    "普通的",
+    "好的",
+    "优秀的"
+  ],
+  "footer": {
+    "map": "地图",
+    "email": "电子邮件",
+    "phone": "电话",
+    "address": "地址",
+    "copyright": "仅出于非商业目的使用内容并参考来源（与 {shop_title} 的链接）。 {shop_title} 保留所有权利。",
+    "powered_by": "供电",
+    "privacy": "隐私政策",
+    "term_of_use": "使用条款",
+    "shop_app_setting": "店铺设置和 GDPR",
+    "dialog_setting": {
+      "title": "店铺应用设置",
+      "app_list": "申请清单"
+    }
+  },
+  "product_card": {
+    "sold_out": "卖光了",
+    "review_unit": "审查",
+    "not_original": "非原创"
+  },
+  "shop": {
+    "products_filter": "筛选",
+    "native": {
+      "title": "应用程序登录",
+      "message": "此应用程序需要访问您的商店帐户信息。这包括访问姓名、联系电话、地址、电子邮件、订单历史记录、订购和在该商店发表评论。",
+      "message_bold": "请务必使用官方商店应用程序进入该商店。"
+    }
+  },
+  "sort": {
+    "title": "排序方式",
+    "title_small": "排序方式..",
+    "nothing": "没有",
+    "most_views": "大多数观点",
+    "most_likes": "最受欢迎",
+    "most_recent": "最新",
+    "most_sell": "最畅销",
+    "cheapest": "最便宜的",
+    "most_expensive": "最贵的",
+    "only_available": "可用的",
+    "view_mode": {
+      "normal": "普通的",
+      "grid": "网格",
+      "list": "列表",
+      "insta": "即时通讯"
+    }
+  },
+  "product_info": {
+    "fake": "伪造的",
+    "action": "拍卖",
+    "compare_limit": "10 件限制",
+    "compare_add": "加入对比",
+    "compare_be_in_list": "在比较列表中",
+    "type": "类型",
+    "brand": "品牌",
+    "category": "类别",
+    "discount": "折扣",
+    "track_price": "追踪价格",
+    "waiting_for_auction": "等待拍卖？",
+    "inform_auction": "告诉我关于拍卖",
+    "return_in_days": "{days} 天保修退货",
+    "support24h7": "支持7天24小时",
+    "support_normal": "工作时间支持",
+    "original_guarantee": "原始保证",
+    "cod_payment": "货到付款支持",
+    "pros": "优点",
+    "cons": "缺点",
+    "external_link": "阅读更多",
+    "notifications": {
+      "congratulation": "恭喜",
+      "waiting_list_add_success": "当该产品被拍卖时，我们会通知您。",
+      "waiting_list_delete_success": "您已退出拍卖等候名单。"
     },
+    "offer_message": "购买 {min_quantity} 这些商品可享受 {percent}% 折扣",
+    "up_to": "每个订单最多 {per_order}x",
+    "get_free": "免费",
+    "get_off": "获得 {percent}% 折扣"
   },
-
-  /** @see ProductCard **/
-  product_card: {
-    sold_out: "售罄",
-    review_unit: "審查",
-    not_original: "非原創",
+  "buy_button": {
+    "waiting_for_availability": "等待可用性",
+    "inform_me_when_available": "还在等这个？",
+    "pay_buy": "支付和购买",
+    "quantity": "数数",
+    "quantity_in_basket": "购物车中的物品",
+    "count_unit": "X",
+    "remove": "消除",
+    "add_to_basket": "添加到购物车",
+    "buy": "买",
+    "notifications": {
+      "inform_add_success": "我们会在有货时通知您。",
+      "inform_remove_success": "您已从等候名单中删除。"
+    }
   },
-
-  /** @see ShopPage **/
-  /** @see Shop **/
-  shop: {
-    products_filter: "篩選",
-    native: {
-      title: "申請登錄",
-      message:
-        "此應用程序需要訪問您的商店帳戶信息。 這包括訪問該商店的姓名、聯繫電話、地址、電子郵件、訂單歷史、訂購和發布評論。",
-      message_bold:
-        "請務必使用官方商店應用程序進入本商店。",
+  "product": {
+    "review": "审查",
+    "spec": "规格",
+    "comments": "评论",
+    "related_products_title": "相关产品",
+    "price": "价格",
+    "rate": "速度",
+    "comment": "评论"
+  },
+  "layout_shop": {
+    "shop_menu": {
+      "orders_history": "订单历史",
+      "profile": "我的简历",
+      "favorites": "最喜欢的项目",
+      "gift_cards": "礼品卡",
+      "return_requests": "退回的订单",
+      "basket": "购物车"
     },
-  },
-
-  /** @see SortView **/
-  sort: {
-    title: "排序方式",
-    title_small: "排序方式..",
-    nothing: "沒有",
-    most_views: "大多數觀看次數",
-    most_likes: "最受歡迎",
-    most_recent: "最新",
-    most_sell: "最暢銷",
-    cheapest: "最便宜",
-    most_expensive: "最貴的",
-    only_available: "可用的",
-    view_mode: {
-      normal: "普通的",
-      grid: "網格",
-      list: "列表",
-      insta: "Insta",
+    "user_menu": {
+      "my_shops": "我的商店",
+      "go_to_admin": "管理 {shop_name}",
+      "exit_from": "退出 {shop_name}",
+      "chips": "{筹码}筹码"
     },
+    "login_to_shop": "登录商店",
+    "login_to_shop_short": "登录",
+    "item_in_basket_message": "{count} 此商品在您的购物车中。",
+    "search_title": "在商店 {shop_name} 中搜索"
   },
-
-  /** @see ProductInfo **/
-  product_info: {
-    fake: "偽造的",
-    action: "拍賣",
-    compare_limit: "10 項限制",
-    compare_add: "加入比較",
-    compare_be_in_list: "在比較列表中",
-
-    type: "類型",
-    brand: "牌",
-    category: "類別",
-    discount: "折扣",
-    track_price: "跟踪價格",
-    waiting_for_auction: "等待拍賣？",
-    inform_auction: "告訴我關於拍賣",
-    return_in_days: "{days} 天保修退貨",
-    support24h7: "7天24小時支持",
-    support_normal: "工作時間支持",
-    original_guarantee: "原廠保證",
-    cod_payment: "貨到付款支持",
-
-    pros: "優點",
-    cons: "缺點",
-
-    external_link: "閱讀更多",
-    notifications: {
-      congratulation: "恭喜",
-      waiting_list_add_success:
-        "我們會在此產品拍賣時通知您。",
-      waiting_list_delete_success: "您已退出拍賣等候名單。",
-    },
-
-    offer_message: "購買 {min_quantity} 這些商品可享受 {percent}% 的折扣",
-    up_to: "每個訂單最多 {per_order}x 個",
-    get_free: "免費",
-    get_off: "獲得 {percent}% 折扣",
+  "basket_top_menu": {
+    "basket": "大车",
+    "basket_is_empty": "您的购物车是空的。",
+    "total_price": "全部的",
+    "view_basket": "您的购物车",
+    "more": "更多的 ...",
+    "accept_and_pay": "查看",
+    "items": "项目）"
   },
-
-  /** @see BuyButton **/
-
-  buy_button: {
-    waiting_for_availability: "等待可用性",
-    inform_me_when_available: "等待這個？",
-    pay_buy: "支付和購買",
-    quantity: "數數",
-    quantity_in_basket: "購物車中的物品",
-    count_unit: "x",
-    remove: "消除",
-    add_to_basket: "添加到購物車",
-    buy: "買",
-    notifications: {
-      inform_add_success: "我們會在可用時通知您。",
-      inform_remove_success: "您已從等候名單中刪除。",
-    },
+  "history_orders_physical": {
+    "rejected": "被拒绝",
+    "table": {
+      "code": "订购代码",
+      "reserved": "日期",
+      "delivery_state": "邮寄状态",
+      "price": "总价",
+      "status": "支付状态"
+    }
   },
-
-  /** @see ProductPage **/
-
-  product: {
-    review: "審查",
-    spec: "規格",
-    comments: "註釋",
-    related_products_title: "相關產品",
-    price: "價錢",
-    rate: "速度",
-    comment: "評論",
+  "history_orders": {
+    "table": {
+      "code": "订购代码",
+      "items": "项目",
+      "reserved": "日期",
+      "delivery_state": "最新状态",
+      "price": "总价",
+      "status": "支付状态"
+    }
   },
-
-  /** @see LayoutShop **/
-  layout_shop: {
-    shop_menu: {
-      orders_history: "訂單歷史",
-      profile: "輪廓",
-      favorites: "我最喜歡的",
-      gift_cards: "禮品卡",
-      return_requests: "退貨要求",
-      basket: "購物車",
-    },
-    user_menu: {
-      my_shops: "我的店鋪",
-      go_to_admin: "管理{shop_name}",
-      exit_from: "退出{shop_name}",
-      chips: "{chips} 籌碼",
-    },
-    login_to_shop: "登錄商店",
-    login_to_shop_short: "登錄",
-    item_in_basket_message: "{count} 此商品在您的購物車中。",
-    search_title: "在商店 {shop_name} 中搜索",
+  "user_page": {
+    "menu": {
+      "gift_card": "礼物卡",
+      "comments": "评论",
+      "favorites": "收藏夹",
+      "return_requests": "退货",
+      "addresses": "地址",
+      "profile": "轮廓",
+      "orders": "订单"
+    }
   },
-
-  /** {@see BasketTopMenu} **/
-  basket_top_menu: {
-    basket: "大車",
-    basket_is_empty: "您的購物車是空的。",
-    total_price: "全部的",
-    view_basket: "查看購物車",
-    more: "更多的 ...",
-    accept_and_pay: "查看",
-    items: "項目）",
-  },
-
-
-
-  /** {@see HistoryOrdersPhysical} **/
-  history_orders_physical: {
-    rejected: "拒絕了",
-    table: {
-      code: "訂購代碼",
-      reserved: "日期",
-      delivery_state: "郵寄狀態",
-      price: "總價",
-      status: "支付狀態",
-    },
-  },
-  /** {@see OrdersHistoryListTemplate} **/
-  history_orders: {
-    table: {
-      code: "訂購代碼",
-      items: "項目",
-      reserved: "日期",
-      delivery_state: "最新狀態",
-      price: "總價",
-      status: "支付狀態",
-    },
-  },
-
-  /** {@see UserPagesLayout} **/
-  user_page: {
-    menu: {
-      gift_card: "禮物卡",
-      comments: "註釋",
-      favorites: "收藏夾",
-      return_requests: "退貨",
-      addresses: "地址",
-      profile: "輪廓",
-      orders: "訂單",
-    },
-  },
-  /** {@see MyPhysicalOrderInfoPage} **/
-  physical_order_page: {
-    title: "訂單",
-
-    /** {@see CustomerOrderPaymentWidget} **/
-    payment: {
-      title: "支付",
-      payment_waiting: "等待付款",
-      payment_completed: "有薪酬的",
-      table: {
-        title: "標題",
-        amount: "數量",
-        description: "描述",
+  "physical_order_page": {
+    "title": "命令",
+    "payment": {
+      "title": "支付",
+      "payment_waiting": "等待付款",
+      "payment_completed": "有薪酬的",
+      "table": {
+        "title": "标题",
+        "amount": "数量",
+        "description": "描述"
       },
-      total_payment: "支付的金額",
-      discount: "折扣",
-      discount_code: "優惠碼",
-      delivery_fee: "運輸費",
-      delivery_fee_after: "未支付運費",
-
-      total_price: "商品總價",
-      total_items_discount: "商品折扣",
-      total_price_after_offers: "申請優惠後的總價",
-
-      buyer_payment: "買家付款金額",
+      "total_payment": "支付的金额",
+      "discount": "折扣",
+      "discount_code": "优惠码",
+      "delivery_fee": "运输费",
+      "delivery_fee_after": "不支付运费",
+      "total_price": "总项目价格",
+      "total_items_discount": "商品折扣",
+      "total_price_after_offers": "申请报价后总计",
+      "buyer_payment": "买家付款金额"
     },
-    /** {@see CustomerOrderDeliveryWidget} **/
-    delivery: {
-      title: "送貨",
-      subtitle: "買家信息",
-      confirm_received_action: "確認收貨",
-      confirm_received_info:
-        "如果您收到訂單，請單擊確認按鈕。 如果需要，您可以在收到確認後提交推薦信。",
-      receiver: "接收者",
-      bill: "發票",
-      name: "姓名",
-      tel: "電話",
-      email: "電子郵件",
-      country: "國家",
-      state: "狀態",
-      city: "城市",
-      address: "地址",
-      building_no: "樓號",
-      unit_no: "單元號",
-      postal_code: "郵政編碼",
-      description: "描述",
-      order_delivered: "訂單已送達。",
-      delivery_time: "交貨時間",
-      tracking_code: "跟踪代碼",
-      tracking_url: "跟踪網址",
-
-      notifications: {
-        confirm_delivery: "您的訂單已獲批准。",
-      },
+    "delivery": {
+      "title": "交货",
+      "subtitle": "买家信息",
+      "confirm_received_action": "确认收货",
+      "confirm_received_info": "如果您收到订单，请单击确认按钮。如果需要，如果您收到确认，您将能够提交推荐。",
+      "Recipient": "接受者",
+      "bill": "发票",
+      "name": "姓名",
+      "tel": "电话",
+      "email": "电子邮件",
+      "country": "国家",
+      "state": "状态",
+      "city": "城市",
+      "address": "地址",
+      "building_no": "楼号",
+      "unit_no": "单元号",
+      "postal_code": "邮政编码",
+      "description": "描述",
+      "order_delivered": "订单已送达。",
+      "delivery_time": "交货时间",
+      "tracking_code": "跟踪代码",
+      "tracking_url": "跟踪网址",
+      "notifications": {
+        "confirm_delivery": "您的订单已确认。"
+      }
     },
-    /** {@see BasketItemsListView} **/
-    basket_items: {
-      original_warranty: "保證商品的原創性",
-      return: "返回",
-      table: {
-        product: "產品名稱",
-        count: "數數",
-        unit_price: "單價",
-        total_price: "總價",
-        discount: "折扣",
-        final_price: "最終價格",
-        returned: "最終價格",
-      },
+    "basket_items": {
+      "original_warranty": "商品原创性保证",
+      "return": "返回",
+      "table": {
+        "product": "产品名称",
+        "count": "数数",
+        "unit_price": "单价",
+        "total_price": "总价",
+        "discount": "折扣",
+        "final_price": "最终价格",
+        "returned": "回来"
+      }
+    }
+  },
+  "return_request": {
+    "title": "返回",
+    "count_input": "退货件数",
+    "count_input_message": "您退回多少件商品？",
+    "reason_input": "回来的理由",
+    "reason_input_message": "选择退货的原因。",
+    "note_input": "描述",
+    "note_input_hint": "说明退货原因..",
+    "note_input_message": "如有需要，请说明退回此商品的原因。",
+    "media_message": "您可以在这里上传产品的图片、音频或视频，以获得更好的产品状态信息支持。选择文件将自动发送并确认。",
+    "video": "视频",
+    "voice": "嗓音",
+    "add_action": "发送退货请求",
+    "notifications": "您的退货申请已成功注册。"
+  },
+  "virtual_order_page": {
+    "title": "命令",
+    "info": {
+      "title": "购买的虚拟产品"
+    }
+  },
+  "user_profile": {
+    "title": "我的个人信息",
+    "name": "姓名",
+    "email": "电子邮件",
+    "tel": "电话",
+    "identity": "验证",
+    "success_kyc": "已验证的 KYC",
+    "club": "用户级别",
+    "subscription": "新闻订阅",
+    "leave_shop": "离开此商店并移除所有客户级别",
+    "leave_shop_action": "离开商店",
+    "edit_personal_info": "编辑个人信息",
+    "leave_dialog": {
+      "title": "离开商店",
+      "message": "退订本店不会删除您的订单信息和记录。",
+      "action": "离开"
     },
-  },
-
-  /** {@see BasketItemReturnForm} **/
-  return_request: {
-    title: "返回",
-    count_input: "退貨數量",
-    count_input_message: "你返回多少？",
-    reason_input: "回來的理由",
-    reason_input_message: "選擇退貨原因。",
-    note_input: "描述",
-    note_input_hint: "描述引用的原因..",
-    note_input_message:
-      "如果需要，請描述引用此項目的原因。",
-    media_message:
-      "您可以在此處上傳產品的圖片、音頻或視頻，以獲得更好的產品狀態信息支持。 選擇文件將自動發送並確認。",
-    video: "視頻",
-    voice: "語音",
-    add_action: "發送退貨請求",
-    notifications: "您的推薦請求已成功註冊。",
-  },
-  /** {@see MyVirtualOrderInfoPage} **/
-  virtual_order_page: {
-    title: "命令",
-    info: {
-      title: "購買的虛擬產品",
+    "notifications": {
+      "leave_success": "离开商店"
     },
+    "club_table": {
+      "discount": "折扣",
+      "limit": "限制",
+      "currency": "货币",
+      "free_shipping": "免运费"
+    }
   },
-
-  /** {@see UserProfilePage} **/
-  user_profile: {
-    title: "我的個人信息",
-    name: "姓名",
-    email: "電子郵件",
-    tel: "電話",
-    identity: "驗證",
-    success_kyc: "批准的 KYC",
-    club: "用戶級別",
-    subscription: "新聞訂閱",
-    leave_shop: "離開這家商店並刪除所有客戶級別",
-    leave_shop_action: "離開商店",
-    leave_dialog: {
-      title: "離開商店",
-      message:
-        "退訂本店不會刪除您的訂單信息和記錄。",
-      action: "離開",
+  "basket_page": {
+    "title": "购物车",
+    "total_price": "总金额",
+    "shipping": "运输费",
+    "free_shipping": "免运费",
+    "shipping_not_pay": "不包含",
+    "total_discount": "总折扣",
+    "customer_club": "客户俱乐部会员",
+    "customer_club_discount": "会员折扣",
+    "final_price": "最后付款",
+    "lead_time": "准备时间",
+    "lead_time_unit": "小时",
+    "receive_time": "首选交货时间",
+    "select_time": "选择交货时间",
+    "no_select_time": "尽快地",
+    "transportation_type": "运输类型",
+    "days_input": "交货天数",
+    "days_input_label": "天",
+    "days_input_no_data": "至少选择一天",
+    "time_input": "交货时间",
+    "time_input_label": "交货时间",
+    "time_input_label_no_data": "选择至少一个时间间隔",
+    "support_cod": "货到付款",
+    "not_support_cod": "无法在当地支付！",
+    "final_confirm_action": "最终订单确认",
+    "pay_and_complete_action": "现在付款",
+    "pre_confirm_service": "提交请求",
+    "errors": {
+      "no_address": "选择您希望将订单运送到的地址。",
+      "no_phone": "输入联系电话以协调收货。",
+      "select_billing_country": "选择您的帐单国家/地区",
+      "select_billing_state": "选择您的税务区域"
     },
-    notifications: {
-      leave_success: "離開商店",
+    "same_billing_address": "帐单信息与收件人信息相同",
+    "custom_billing_info": "不同的帐单信息",
+    "basket_empty": "篮子是空的",
+    "extra_shipping_count": "您将收到 {count} 个包裹。",
+    "select_location_error": "在地图上找到收货地点，点击地图中间的指示符，确定收货人的准确地址。"
+  },
+  "basket_items": {
+    "items_unit": "X",
+    "lead_unit": "小时",
+    "count_input": "数数",
+    "price_changed": "价格变了。新价格：",
+    "offer": "以 {percent}% 折扣购买 {count}x 件商品",
+    "offer_free": "免费获得 {count}x 个"
+  },
+  "addresses_page": {
+    "title": "我的地址",
+    "new_action": "新地址",
+    "Recipient": "接受者",
+    "address": "地址",
+    "building_no": "牌照",
+    "building_unit": "单元",
+    "postcode": "邮政编码",
+    "tel": "电话",
+    "description": "笔记",
+    "map": {
+      "title": "我的地址",
+      "confirm": "地址登记",
+      "address_type": "地址",
+      "receptor_type": "接受者"
     },
-    club_table: {
-      discount: "折扣",
-      limit: "限制",
-      currency: "限制",
-      free_shipping: "免運費",
+    "add_dialog": {
+      "title": "新地址名称",
+      "message": "输入新地址的标题。",
+      "address_name_input": "地址（必填）"
+    }
+  },
+  "return_requests": {
+    "title": "退货请求"
+  },
+  "user_favorites": {
+    "title": "愿望清单"
+  },
+  "user_comments": {
+    "title": "我的评论",
+    "first_post": "第一篇文章",
+    "last_edit": "上次编辑"
+  },
+  "user_gift_cards": {
+    "title": "我的礼品卡",
+    "add_action": "添加卡",
+    "add_card_dialog": {
+      "title": "添加礼品卡",
+      "message": "输入卡号和安全码。礼品卡将添加到您的帐户。",
+      "card_number_input": "卡号",
+      "info": "注意：从商店购买时，您会看到使用礼品卡付款的选项。选择此选项，您的充值余额将从订单金额中扣除。",
+      "add_action": "卡注册"
+    }
+  },
+  "product_comparison": {
+    "title": "比较产品",
+    "action_button": "比较",
+    "list": {
+      "no_data": "没有产品被添加到比较列表中。",
+      "price": "价格",
+      "type": "类型",
+      "brand": "品牌",
+      "warranty": "保修单",
+      "variants_comparison": "比较产品变体",
+      "spec": "技术规格",
+      "pros": "优点",
+      "cons": "缺点",
+      "user_review": "用户评论",
+      "rating": "评分",
+      "rating_count": "评论数",
+      "info": "您可以通过发送以下链接与您的朋友分享此产品比较表，或通过保存此链接稍后访问它。",
+      "copy_action": "复制比较链接",
+      "check_list": [
+        "是的",
+        "拥有"
+      ],
+      "cross_list": [
+        "不",
+        "没有"
+      ]
+    }
+  },
+  "product_filter_menu": {
+    "only_original": "只有原件",
+    "only_has_discount": "只打折",
+    "price_range": "价格范围",
+    "brands": "品牌",
+    "main_shop_page": "店铺主页",
+    "home": "家"
+  },
+  "product_rating_view": {
+    "message": "尊敬的 {user}，您已购买此产品。你觉得这个产品怎么样？",
+    "notification": {
+      "title": "祝贺",
+      "message": "您的评论已被记录。"
+    }
+  },
+  "blogs": {
+    "title": "博客",
+    "add_new_blog": "新博客",
+    "popular": "受欢迎的",
+    "topics": "话题",
+    "suggestions": "建议"
+  },
+  "official_pages": {
+    "about_us": "关于我们",
+    "terms": "使用条款",
+    "privacy": "隐私政策",
+    "contact_us": "联系我们"
+  },
+  "contact_us_form": {
+    "title": "联系我们表格",
+    "name": "姓名",
+    "email": "电子邮件",
+    "phone": "电话",
+    "message": "信息",
+    "notifications": {
+      "success": "您的留言已发送。"
+    }
+  },
+  "master_payment": {
+    "notifications": {
+      "payment_success_title": "付款确认",
+      "payment_success": "付款完成。",
+      "buy_title": "买",
+      "pay_by_giftcards": "您的订单是使用礼品卡支付的。",
+      "free_order": "您的订单是免费的。",
+      "pay_by_cod": "您的订单已添加为货到付款。",
+      "pay_by_dir": "您的订单已成功添加。现在您可以通过直接汇款支付，然后在订单页面上传付款收据。",
+      "pay_title": "支付",
+      "qr_code_payment": "付款二维码地址已创建。",
+      "connecting_to_online_gateway": "连接到在线支付网关。"
+    }
+  },
+  "time_progress_bar": {
+    "title_before_start": "保持到开始",
+    "title_between_start_end": "坚持到最后",
+    "title_after_end": "完成的",
+    "title_no_start_end": "没有时间段！"
+  },
+  "lottery_prizes": {
+    "message": "每个订单您可以收到一份礼物。"
+  },
+  "coupons": {
+    "coupon_code": "优惠券代码",
+    "add_coupon": "添加优惠券"
+  },
+  "avocado": {
+    "not_enable": "鳄梨表格未启用！",
+    "last_update": "最后更新：",
+    "step1": "1. 输入您要订购的产品名称和详细信息，然后单击添加按钮。",
+    "title_plc": "输入产品名称。",
+    "description_plc": "你有更多的产品描述吗？",
+    "link_plc": "你有产品的链接吗？",
+    "image": "产品图片",
+    "image_msg": "如果需要，您可以发送产品图片。",
+    "add_item": "添加项目",
+    "items_list": "要求的产品清单",
+    "currency_msg": "您必须使用该货币支付此订单的金额。",
+    "step2": "2. 添加所有需要的项目后，单击订单审核请求按钮。在此阶段，我们将审核订单并告知您价格。通过单击此链接，您将能够看到价格和付款链接。",
+    "order_action": "订单登记",
+    "show_all": "显示所有",
+    "show_accepted": "显示已确认的项目",
+    "last_orders": "您最近的订单列表",
+    "pending_status": "审查中",
+    "check_now": "检查订单",
+    "add_new_order": "下新订单",
+    "pay_online": "在线支付",
+    "pricing_not_completed_message": "您的订单正在审核中。您的订单将很快得到审核和定价，您将能够支付订单。",
+    "delete_item_dialog": {
+      "title": "从购物车中删除商品",
+      "message": "您想从购物车中删除此商品吗？",
+      "action": "是的，删除"
     },
+    "notifications": {
+      "order_success": "您的订单已成功下单。",
+      "delete_success": "项目已删除。"
+    }
   },
-  /** {@see BasketPage} **/
-  basket_page: {
-    title: "購物車",
-    total_price: "總金額",
-    shipping: "運輸費",
-    free_shipping: "免運費",
-    shipping_not_pay: "不包含",
-    total_discount: "總折扣",
-    customer_club: "客戶俱樂部會員",
-    customer_club_discount: "會員優惠",
-    final_price: "最後付款",
-    lead_time: "準備時間",
-    lead_time_unit: "小時",
-    receive_time: "領取時間",
-    select_time: "選擇交貨時間",
-    no_select_time: "隨時發送。",
-    transportation_type: "車輛類型",
-    days_input: "交貨天數",
-    days_input_label: "天",
-    days_input_no_data: "至少選擇一天",
-    time_input: "交貨時間",
-    time_input_label: "交貨地點",
-    time_input_label_no_data: "選擇至少一個時間間隔",
-    support_cod: "貨到付款",
-    not_support_cod: "本地無法支付！",
-    final_confirm_action: "最終訂單確認",
-    pay_and_complete_action: "現在付款",
-    pre_confirm_service: "提交請求",
-
-    errors: {
-      no_address: "選擇您希望將訂單運送到的地址。",
-      no_phone: "輸入聯繫電話以協調收貨。",
-      select_billing_country: "選擇您的帳單國家/地區",
-      select_billing_state: "選擇您的納稅地區",
+  "hyper": {
+    "title": "订单创建",
+    "message": "通过扫描产品代码创建您要购买的产品列表。",
+    "currency_msg": "您要支付的货币。",
+    "order_action": "支付",
+    "add_new_order": "新命令",
+    "continue_order": "继续订购",
+    "delete_item_dialog": {
+      "title": "从购物车中删除商品",
+      "message": "您想从购物车中删除此商品吗？",
+      "action": "是的，删除"
     },
-    same_billing_address: "帳單信息與接收者信息相同",
-    custom_billing_info: "不同的賬單信息",
-    basket_empty: "籃子是空的",
-    extra_shipping_count: "您將收到 {count} 個包裹。",
-    select_location_error:
-      "在地圖上找到收貨地點，然後點擊地圖中間的指示符，確定收件人的確切地址。",
+    "notifications": {
+      "order_success": "您的订单已成功下单。",
+      "delete_success": "项目已删除。"
+    }
   },
-  /** {@see BasketListItems} **/
-  basket_items: {
-    items_unit: "x",
-    lead_unit: "小時",
-    count_input: "數數",
-
-    price_changed: "價格變了。 新價格：",
-    offer: "獲得 {count}x 件商品 {percent}% 的折扣",
-    offer_free: "免費獲得 {count}x 個",
+  "pending_payment": {
+    "upload_payment_receipt": "上传付款收据的图片。",
+    "upload_payment_receipt_done": "✔ 您已经上传收据图片，等待我们的批准。如果需要更改，可以将之前的图像替换为新图像。",
+    "public_form_title": "汇款账户信息"
   },
-
-  /** {@see UserAddressesPage} **/
-  addresses_page: {
-    title: "我的地址",
-    new_action: "新地址",
-    receiver: "接收者",
-    address: "地址",
-    building_no: "牌照",
-    building_unit: "單元",
-    postcode: "郵政編碼",
-    tel: "電話",
-    description: "筆記",
-
-    map: {
-      title: "我的地址",
-      confirm: "地址註冊",
-      address_type: "地址",
-      receptor_type: "接收者",
+  "service_bill": {
+    "task": {
+      "title": "待办事项清单",
+      "message": "指定您想要做的工作的标题，并让买家知道它的进展情况。"
     },
-    add_dialog: {
-      title: "新地址名稱",
-      message: "輸入新地址的標題。",
-      address_name_input: "地址（必填）",
+    "booking": {
+      "title": "预订/预订",
+      "message": "此订单将在指定时间处理，客户已选择所需时间段，如果您想在所选时间段内进行任何更改，请告知客户。",
+      "selected_checkin": "客户选择入住",
+      "selected_checkout": "客户选择的退房",
+      "change_days_question": "您是否需要在客户选定的日期内进行更改？",
+      "show_calendar": "显示订单日历"
     },
-  },
-  /** {@see UserReturnRequests} **/
-  return_requests: {
-    title: "退貨要求",
-  },
-  /** {@see UserFavoritesPage} **/
-  user_favorites: {
-    title: "願望清單",
-  },
-  /** {@see UserCommentsPage} **/
-  user_comments: {
-    title: "我的評論",
-    first_post: "第一個帖子",
-    last_edit: "上次編輯",
-  },
-  /** {@see UserGiftCardsPage} **/
-  user_gift_cards: {
-    title: "我的禮品卡",
-    add_action: "添加卡片",
-    add_card_dialog: {
-      title: "添加禮品卡",
-      message:
-        "輸入卡號和安全碼。 禮品卡將添加到您的帳戶中。",
-      card_number_input: "卡號",
-      info: "注意：從商店購買時，您將看到使用禮品卡付款的選項。 選擇此選項，您的充值餘額將從訂單金額中扣除。",
-      add_action: "卡註冊",
+    "pricing": {
+      "title": "价钱",
+      "message": "您对这项服务收取多少费用？"
     },
-  },
-
-  /** {@see ProductComparison} **/
-  product_comparison: {
-    title: "產品比較",
-    action_button: "相比",
-
-    /** {@see ProductComparisonList} **/
-    list: {
-      no_data: "沒有產品添加到比較列表中。",
-      price: "價錢",
-      type: "類型",
-      brand: "牌",
-      warranty: "保修單",
-      variants_comparison: "比較產品多樣性",
-      spec: "技術規格",
-      pros: "優點",
-      cons: "缺點",
-      user_review: "用戶評論",
-      rating: "評分",
-      rating_count: "評論數量",
-      info: "您可以通過發送以下鏈接與您的朋友分享此產品比較表，也可以通過保存此鏈接稍後訪問。",
-      copy_action: "複製比較鏈接",
-      check_list: ["是的", "已"],
-      cross_list: ["不", "没有"],
+    "subscription": {
+      "title": "订阅",
+      "message": "您可以通过每天购买此服务来选择订阅期。让买家知道您是否要更改已输入的默认值。",
+      "duration": "订阅期"
     },
-  },
-  /** {@see ProductFilterMenu} **/
-  product_filter_menu: {
-    only_original: "只有原件",
-    only_has_discount: "只打折",
-    price_range: "價格範圍",
-    brands: "牌",
-    main_shop_page: "店鋪主頁",
-    home: "家",
-  },
-
-  /** {@see ProductRatingView} **/
-  product_rating_view: {
-    message:
-      "尊敬的{user}，您已購買此產品。 你覺得這個產品怎麼樣？",
-    notification: {
-      title: "祝賀",
-      message: "您的評論已被記錄。",
-    },
-  },
-
-  /** @see ShopBlogsPage **/
-  blogs: {
-    title: "博客",
-    add_new_blog: "新博客",
-    popular: "受歡迎的",
-    topics: "話題",
-    suggestions: "建議",
-  },
-
-  /** @see ShopProfilePage **/
-  official_pages: {
-    about_us: "關於我們",
-    terms: "使用條款",
-    privacy: "隱私政策",
-    contact_us: "聯繫我們",
-  },
-
-  /** @see ShopContactUs **/
-  contact_us_form: {
-    title: "聯繫我們表格",
-    name: "姓名",
-    email: "電子郵件",
-    phone: "電話",
-    message: "信息",
-    notifications: {
-      success: "您的留言已發送。",
-    },
-  },
-
-  /** @see MasterPaymentDialog **/
-  master_payment: {
-    notifications: {
-      payment_success_title: "付款確認",
-      payment_success: "付款完成。",
-      buy_title: "買",
-      pay_by_giftcards: "您的訂單是使用禮品卡支付的。",
-      free_order: "您的訂單是免費的。",
-      pay_by_cod: "您的訂單已添加為貨到付款。",
-      pay_by_dir:
-        "您的訂單已成功添加。 現在您可以通過直接匯款付款，然後在訂單頁面上傳付款收據。",
-      pay_title: "支付",
-      qr_code_payment: "已創建付款二維碼地址。",
-      connecting_to_online_gateway: "連接到在線支付網關。",
-    },
-  },
-
-  /** {@see TimeProgressBar} **/
-  time_progress_bar: {
-    title_before_start: "剩下的開始",
-    title_between_start_end: "留到最後",
-    title_after_end: "完成的",
-    title_no_start_end: "無時限！",
-  },
-  /** {@see LotteryPrizes} **/
-  lottery_prizes: {
-    message: "每個訂單您可以收到一份禮物。",
-  },
-
-  /** {@see Coupons} **/
-  coupons: {
-    coupon_code: "優惠卷號碼",
-    add_coupon: "添加優惠券",
-  },
-
-  /** {@see AvocadoCustomerAddOrderForm} **/
-  /** {@see AvocadoItemsList} **/
-  /** {@see AvocadoMyOrdersList} **/
-  /** {@see AvocadoBuyerFormPage} **/
-  /** {@see AvocadoOrderPage} **/
-
-  avocado: {
-    not_enable: "鱷梨表單未啟用！",
-    last_update: "最後更新：",
-    step1:
-      "1. 輸入您要訂購的產品的名稱和詳細信息，然後單擊添加按鈕。",
-    title_plc: "輸入產品名稱。",
-    description_plc: "你有更多的產品描述嗎？",
-    link_plc: "你有產品的鏈接嗎？",
-    image: "產品圖片",
-    image_msg: "如果需要，您可以發送產品圖片。",
-    add_item: "新增項目",
-    items_list: "请求产品清单",
-    currency_msg: "您必須使用該貨幣支付該訂單的金額。",
-    step2:
-      "2. 添加所有需要的項目後，單擊訂單審核請求按鈕。 在此階段，我們將審核訂單並告知您價格。 通過單擊此鏈接，您將能夠看到價格和付款鏈接。",
-    order_action: "訂單登記",
-    show_all: "顯示所有",
-    show_accepted: "顯示已驗證的項目",
-    last_orders: "您的最新訂單清單",
-    pending_status: "審查中",
-    check_now: "檢查訂單",
-    add_new_order: "註冊新訂單",
-    pay_online: "在線支付",
-    pricing_not_completed_message:
-      "您的訂單正在審核中。 您的訂單將很快得到審核和定價，您將能夠支付訂單。",
-
-    delete_item_dialog: {
-      title: "從購物車中刪除項目",
-      message: "您要從購物車中刪除此商品嗎？",
-      action: "是的，刪除",
-    },
-
-    notifications: {
-      order_success: "您的訂單已成功下達。",
-      delete_success: "項目已刪除。",
-    },
-  },
-
-  /** {@see HyperAddOrderForm} **/
-  hyper: {
-    title: "訂單創建",
-    message:
-      "通過掃描產品代碼創建您要購買的產品列表。",
-
-    currency_msg: "您要支付的貨幣。",
-    order_action: "支付",
-    add_new_order: "新命令",
-    continue_order: "繼續訂購",
-  },
-
-  /** {@see RowCustomerPendingPayment} **/
-  pending_payment: {
-    upload_payment_receipt: "上傳付款收據的圖片。",
-    upload_payment_receipt_done:
-      "✔ 您已經上傳了收據圖片，等待我們的批准。 如果需要更改，可以用新圖像替換之前的圖像。",
-    public_form_title: "匯款賬戶信息",
-  },
+    "charge": {
+      "title": "收费",
+      "message": "您已为此项目指定费用。您可以更改客户购买的商品的费用金额。",
+      "charge": "收费"
+    }
+  }
 };

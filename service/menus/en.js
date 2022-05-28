@@ -1,5 +1,4 @@
 export default {
-
   menu: {
     home: "Home",
     dashboard: "Dashboard",
@@ -11,11 +10,9 @@ export default {
     experts: "Experts",
   },
 
-
-
   /** @see LayoutSaminPages **/
   home_menu: {
-    buttons_header: "Deep dive to Selldone",
+    buttons_header: "Deep dive into Selldone",
     beta: "Beta",
     home: "Home",
     why_selldone: "Why Selldone?",
@@ -28,7 +25,7 @@ export default {
     report: "Smart Report <br>Generator",
     domain: "Cloud-based Hosting",
     accounting: "Payment & <br>Accounting",
-    logistics: "Logistic & <br>Delivery",
+    logistics: "Logistics & <br>Shipping",
     page_builder: "Landing Page <br>Builder",
     incentives: "Club & <br>Incentives",
     orders: "Orders & <br>Processing",
@@ -39,7 +36,7 @@ export default {
 
     group_build: {
       header: "Build",
-      subheader: "We create a system around you to create your success story.",
+      subheader: "We build a system around you to create your success story.",
     },
     group_manage: {
       header: "Manage",
@@ -52,7 +49,7 @@ export default {
     group_grow: {
       header: "Grow",
       subheader:
-        "Enterprise-grade features and tools at your hand, sky will be your limit.",
+        "Enterprise-grade features and tools at your hand, the sky will be your limit.",
     },
   },
 };

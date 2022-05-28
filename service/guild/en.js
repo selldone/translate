@@ -28,8 +28,9 @@ export default {
 
   recommendation_add: {
     title: "Add recommendation",
-    message: "Are you sure to recommend this member? It will show in public.",
-    action: "Yes, add recommendation",
+    message:
+      "Are you sure to recommend this member? Your recommendation will be shown in public.",
+    action: "Yes, Add recommendation",
   },
   recommendation_remove: {
     title: "Remove recommendation",
@@ -39,7 +40,7 @@ export default {
 
   delete: {
     title: "Delete member",
-    message: "Are you sure delete this member from your guild?",
-    action: "Yes, delete now",
+    message: "Are you sure to delete this member from your guild?",
+    action: "Yes, Delete now",
   },
 };

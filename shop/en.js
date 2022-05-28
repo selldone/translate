@@ -2,7 +2,6 @@ export default {
   /** @see ProductRatingView **/
   surveys: ["Very poor", "Poor", "Normal", "Good", "Excellent"],
 
-
   /** @see ShopFooter **/
   footer: {
     map: "Map",
@@ -76,7 +75,7 @@ export default {
     category: "Category",
     discount: "Discount",
     track_price: "Track price",
-    waiting_for_auction: "Waiting for auction?",
+    waiting_for_auction: "Waiting for the auction?",
     inform_auction: "Tell me about auction",
     return_in_days: "{days} Days Warranty Return",
     support24h7: "Support 24 hours 7 days",
@@ -128,7 +127,7 @@ export default {
     related_products_title: "Related products",
     price: "Price",
     rate: "Rate",
-    comment: "comment",
+    comment: "Comment",
   },
 
   /** @see LayoutShop **/
@@ -161,10 +160,8 @@ export default {
     view_basket: "Your Cart",
     more: "More ...",
     accept_and_pay: "Checkout",
-    items: "item(s)",
+    items: "Item(s)",
   },
-
-
 
   /** {@see HistoryOrdersPhysical} **/
   history_orders_physical: {
@@ -219,7 +216,7 @@ export default {
       discount: "Discount",
       discount_code: "Discount Code",
       delivery_fee: "Shipping Cost",
-      delivery_fee_after: "No delivery payed",
+      delivery_fee_after: "No delivery paid",
 
       total_price: "Total Items Price",
       total_items_discount: "Items Discount",
@@ -234,7 +231,7 @@ export default {
       confirm_received_action: "Confirm Product Receipt",
       confirm_received_info:
         "Click the confirmation button if you received the order. If needed, you will be able to submit a referral if you receive confirmation. ",
-      receiver: "Receiver",
+      Recipient: "Recipient",
       bill: "Invoice",
       name: "Name",
       tel: "Phone",
@@ -253,7 +250,7 @@ export default {
       tracking_url: "Tracking Url",
 
       notifications: {
-        confirm_delivery: "Your order has been approved.",
+        confirm_delivery: "Your order is confirmed.",
       },
     },
     /** {@see BasketItemsListView} **/
@@ -276,19 +273,19 @@ export default {
   return_request: {
     title: "Return",
     count_input: "Number of returned items",
-    count_input_message: "How many do you return?",
+    count_input_message: "How many items do you return?",
     reason_input: "Reason for return",
     reason_input_message: "Select the reason for returning this item.",
     note_input: "Description",
-    note_input_hint: "Describe the reason for the reference ..",
+    note_input_hint: "Describe the reason for the return ..",
     note_input_message:
-      "Describe the reason for referring this item if needed.",
+      "Describe the reason for returning this item if needed.",
     media_message:
       "You can upload image, audio or video of the product here to get better support for product status information. Selecting the file will automatically send and confirm. ",
     video: "Video",
     voice: "Voice",
     add_action: "Send return request",
-    notifications: "Your referral request has been successfully registered.",
+    notifications: "Your return request has been successfully registered.",
   },
   /** {@see MyVirtualOrderInfoPage} **/
   virtual_order_page: {
@@ -305,12 +302,12 @@ export default {
     email: "Email",
     tel: "Tel",
     identity: "Authentication",
-    success_kyc: "Approved KYC",
+    success_kyc: "Verified KYC",
     club: "User Level",
     subscription: "News subscription",
     leave_shop: "Leave this store and remove all customers level",
     leave_shop_action: "Leave shop",
-    edit_personal_info:'Edit personal info',
+    edit_personal_info: "Edit personal info",
     leave_dialog: {
       title: "Leave shop",
       message:
@@ -340,10 +337,10 @@ export default {
     final_price: "Final Payment",
     lead_time: "Preparation time",
     lead_time_unit: "hour",
-    receive_time: "Time to receive",
+    receive_time: "Preferred delivery time",
     select_time: "Select Delivery Time",
-    no_select_time: "Send whenever ready.",
-    transportation_type: "type of vehicle",
+    no_select_time: "As soon as possible",
+    transportation_type: "Shipping type",
     days_input: "Delivery days",
     days_input_label: "Days",
     days_input_no_data: "Select at least one day",
@@ -362,7 +359,7 @@ export default {
       select_billing_country: "Select your billing country",
       select_billing_state: "Select your tax region",
     },
-    same_billing_address: "Billing info same as receiver info",
+    same_billing_address: "Billing info same as Recipient info",
     custom_billing_info: "Different billing info",
     basket_empty: "Basket is empty",
     extra_shipping_count: "You will receive {count} packages.",
@@ -372,7 +369,7 @@ export default {
   /** {@see BasketListItems} **/
   basket_items: {
     items_unit: "x",
-    lead_unit: "hour",
+    lead_unit: "Hour",
     count_input: "Count",
 
     price_changed: "Price has changed. new price:",
@@ -383,8 +380,8 @@ export default {
   /** {@see UserAddressesPage} **/
   addresses_page: {
     title: "My Addresses",
-    new_action: "New address",
-    receiver: "Receiver",
+    new_action: "New Address",
+    Recipient: "Recipient",
     address: "Address",
     building_no: "license plate",
     building_unit: "unit",
@@ -396,7 +393,7 @@ export default {
       title: "My Addresses",
       confirm: "Address registration",
       address_type: "Address",
-      receptor_type: "Receiver",
+      receptor_type: "Recipient",
     },
     add_dialog: {
       title: "New Address Name",
@@ -426,7 +423,7 @@ export default {
       title: "Add Gift Card",
       message:
         "Enter the card number and security code. A gift card will be added to your account.",
-      card_number_input: "card number",
+      card_number_input: "Card number",
       info: "Note: When buying from the store, you will be shown the option of paying with gift cards. By selecting this option, the amount of your recharge balance will be deducted from the order amount. ",
       add_action: "Card Registration",
     },
@@ -434,8 +431,8 @@ export default {
 
   /** {@see ProductComparison} **/
   product_comparison: {
-    title: "Product Compare",
-    action_button: "compare",
+    title: "Compare Product",
+    action_button: "Compare",
 
     /** {@see ProductComparisonList} **/
     list: {
@@ -444,7 +441,7 @@ export default {
       type: "Type",
       brand: "Brand",
       warranty: "Warranty",
-      variants_comparison: "Compare product diversity",
+      variants_comparison: "Compare product variants",
       spec: "Technical Specifications",
       pros: "Pros",
       cons: "Cons",
@@ -519,14 +516,14 @@ export default {
         "Your order has been added successfully. Now you can pay by direct money transfer and then upload the payment receipt on the order page.",
       pay_title: "Payment",
       qr_code_payment: "Payment QR code address created.",
-      connecting_to_online_gateway: "Connecting to online payment gateway.",
+      connecting_to_online_gateway: "Connecting to the online payment gateway.",
     },
   },
 
   /** {@see TimeProgressBar} **/
   time_progress_bar: {
-    title_before_start: "Remaining to the begin",
-    title_between_start_end: "Remaining to the end",
+    title_before_start: "Remained to the begin",
+    title_between_start_end: "Remained to the end",
     title_after_end: "Finished",
     title_no_start_end: "Without time period!",
   },
@@ -564,12 +561,12 @@ export default {
       "2. After adding all the desired items, click on the order review request button. At this stage, we will review the order and let you know about the price. By clicking on this link, you will be able to see the price and payment link.",
     order_action: "Order registration",
     show_all: "Show All",
-    show_accepted: "Show Verified Items",
-    last_orders: "List of your latest orders",
+    show_accepted: "Show Confirmed Items",
+    last_orders: "List of your recent orders",
     pending_status: "under review",
     check_now: "Check order",
-    add_new_order: "Register New Order",
-    pay_online: "pay online",
+    add_new_order: "Make New Order",
+    pay_online: "Pay online",
     pricing_not_completed_message:
       "Your order is being reviewed. Your order will be reviewed and priced soon and you will be able to pay the order.",
 
@@ -615,23 +612,22 @@ export default {
     public_form_title: "Account information for money transfer",
   },
 
-
   /** @see ServiceBillingItem **/
   service_bill: {
     task: {
       title: "To-do list",
       message:
-          "Specify the titles of the work you want to do and let the buyer know how far it has progressed.",
+        "Specify the titles of the work you want to do and let the buyer know how far it has progressed.",
     },
     booking: {
       title: "Booking / Reservation",
       message:
-          "This order will be processed at a specified time, the customer has selected the desired period, if you want to make any changes in the selected period, let the customer know.",
+        "This order will be processed at a specified time, the customer has selected the desired period, if you want to make any changes in the selected period, let the customer know.",
 
-      selected_checkin: "Selected Customer Login Date",
-      selected_checkout: "Selected customer exit date",
+      selected_checkin: "Selected check-in by customer",
+      selected_checkout: "Selected check-out by customer",
       change_days_question:
-          "Do you need to change during the customer selected days?",
+        "Do you need to change during the customer selected days?",
       show_calendar: "Show Calendar of Orders",
     },
     pricing: {
@@ -641,16 +637,14 @@ export default {
     subscription: {
       title: "Subscription",
       message:
-          "You can choose the subscription period by purchasing this service on a daily basis. Let the buyer know if you want to change the default values you have already entered.",
+        "You can choose the subscription period by purchasing this service on a daily basis. Let the buyer know if you want to change the default values you have already entered.",
       duration: "Subscription period",
     },
     charge: {
       title: "Charge",
       message:
-          "You have specified a charge for this item. You can change the charge amount for the item purchased by the customer.",
+        "You have specified a charge for this item. You can change the charge amount for the item purchased by the customer.",
       charge: "Charge",
     },
-
   },
-
 };
