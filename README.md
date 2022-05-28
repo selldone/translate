@@ -16,7 +16,8 @@ We believe one person can make a change in the online humanity era, even who has
 ![Free ecommerce platform and custom community builder](https://cdn.selldone.com/app/contents/official-pages/store-builder/mockupboldfeaturesjpgcf839a27e0aeae46d4a4de1253108e42.jpg)
 
 
-## Supported languages
+## Supported Languages
+
 | Code     | Language | Dashboard | Shop | Human Translation |
 |----------|----------|:---------:|:----:|:----:|
 |    AR    |عربي     |     ✓    |  ✓   |     |
@@ -38,6 +39,7 @@ We believe one person can make a change in the online humanity era, even who has
 |    UR    |اردو     |     ✓    |  ✓   |     |
 |    ZH    |中国人    |     ✓    |  ✓   |     |
 
+* By translating each 1K words to your native language, you can claim a free 50USD (Or equivalent in your currency)  gift card to charge your selldone account. To verify, please send a mail.
 
 ### +133 Currencies
 
