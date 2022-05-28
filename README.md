@@ -26,7 +26,7 @@ We believe one person can make a change in the online humanity era, even who has
 |    DE    |Deutsch   |     ✓    |  ✓   |     |
 |    EN⭐    |English   |     ✓    |  ✓   |  ✓   |
 |    ES    |Español  |     ✓    |  ✓   |     |
-|    FA    |فارسی    |     ✓    |  ✓   |  ✓   |
+|    FA    |فارسی    |     ✓    |  ✓   |     |
 |    FR    |français  |     ✓    |  ✓   |     |
 |    HI    |हिंदी      |     ✓    |  ✓   |     |
 |    ID    |Indonesian|     ✓    |  ✓   |     |
