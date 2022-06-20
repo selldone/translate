@@ -1004,7 +1004,7 @@ export default {
   "variants": {
     "color": "Farbe",
     "volume": "Größe",
-    "count_in_pack": "Zählen Sie im Paket",
+    "count_in_pack": "Anzahl der Produkte im Paket",
     "weight": "Gewicht",
     "type": "Material",
     "style": "Stil"

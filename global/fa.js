@@ -614,6 +614,14 @@ export default {
     light:'روشن',
     dark:'تاریک',
     guest:'مهمان',
+    shops:'فروشگاه',
+    vendor:'فروشنده',
+    vendors:'فروشندگان',
+    marketplace:'مارکتپلیس',
+    verify_date:'تاریخ تایید',
+    note:'یادداشت',
+    panel:'پنل',
+
 
   },
 
@@ -724,6 +732,8 @@ export default {
     show_preview: "پیش نمایش",
     hide_preview: "مخفی کردن",
     download_now: "دانلود فایل",
+    watch_now: "تماشای ویدئو",
+
     auto_fill: "پرکردن خودکار",
     track: "رهگیری",
     change_state: "تغییر وضعیت",
@@ -751,6 +761,8 @@ export default {
       receptor_type: "گیرنده",
     },
     receiver_address: "انتخاب آدرس گیرنده",
+    service_address:"انتخاب آدرس",
+
     address: "آدرس",
     postcode: "کد پستی",
     enter_value: "وارد نمایید",
@@ -1227,6 +1239,8 @@ export default {
       simple: "ساده",
       selective: "انتخابی",
       switch: "چک باکس",
+      file: "فایل",
+
     },
   },
 

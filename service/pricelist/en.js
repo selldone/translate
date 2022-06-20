@@ -81,6 +81,7 @@ export default {
       "2 private couriers",
       "All shipping services",
       "1 Admin",
+      "Community builder (Basic)",
     ],
   },
   startup: {
@@ -103,6 +104,7 @@ export default {
       "Normal support",
       "1 Domain",
       "5 Admins",
+      "Community builder (Basic)",
     ],
   },
   company: {
@@ -123,6 +125,7 @@ export default {
       "Priority support",
       "5 Domains",
       "20 Admins",
+      "Community builder (Normal)",
     ],
   },
 
@@ -144,6 +147,11 @@ export default {
       "24/7 Support",
       "∞ Domains",
       "∞ Admins",
+
+      "Community builder (Advanced)",
+
+      "Dropshipping supplier",
+      "Marketplace builder",
     ],
   },
 
@@ -160,26 +168,30 @@ export default {
     person: "person(s)",
     shop_name_length: "Minimum store name length",
     chars: "Character",
-    page_builder: "Create your own page",
-    page_builder_info: "Drag & Drop Landing Page Builder",
+    page_builder: "Custom landing pages",
+    page_builder_info: "Modern drag & drop landing page builder",
     pages: "Pages",
     cms: "CMS & Blog",
     cms_info:
-      "Professional Content Management and Editor System for Blog Posts and Products.",
+      "Professional content management and inline editor  for blog posts and products.",
+    tax: "Tax calculation",
+    tax_info:
+      "Auto tax calculation based on customer's location, B2B/B2C sales, and override tax rules ability for countries and states.",
   },
   gateways: {
-    title: "Payment Portal",
-    sub_title: "New ports will be added soon.",
+    title: "Payment Gateways",
+    sub_title: "New payment methods will be added.",
     gateways: "Gateways",
     currencies: "Currencies",
-    currencies_info: "New currencies will be added soon.",
-    currencies_encrypted: "Currency Code",
-    currencies_encrypted_info: "Currencies on blockchain platform",
+    currencies_info: "Over 143 currencies are supported now.",
+    currencies_encrypted: "Crypto Currencies",
+    currencies_encrypted_info:
+      "Currencies on the blockchain (Needs activation review)",
 
-    online_pay_wage: "Online port fee",
+    online_pay_wage: "Online payment fee",
     online_pay_wage_info:
       "This amount will be deducted from your recharge account in Selldone.",
-    cod_wage: "COD Payment Fees",
+    cod_wage: "COD payment fee",
     cod_wage_info: "This amount will be deducted from your charge account",
 
     file_wage: "File selling fee",
@@ -187,7 +199,7 @@ export default {
       "File sale commission that is credited to your account after a successful sale (Hosted on selldone high-speed SSD cloud storage).",
   },
   apps: {
-    title: "Store / Site App",
+    title: "Applications",
     pwa: "Advanced Web App",
     android: "Android",
     android_info: "Android Phone and Tablet App",
@@ -197,7 +209,7 @@ export default {
   custom_domain: {
     title: "Custom Domain",
     sub_title: "Have your store on your own domain.",
-    domains_count: "The number of store domains",
+    domains_count: "Domains limit",
     dns: "Cloud DNS",
     cdn: "Cloud CDN",
     cdn_info: "Cloud Content Explanation Network",
@@ -208,7 +220,7 @@ export default {
     storage: "Storage",
     usage: "Monthly traffic",
     setup: "Free setup",
-    technical_support: "technical support",
+    technical_support: "Technical support",
     file_sell: "File selling storage",
     file_sell_info: "Free cloud storage disk for selling files (Super fast)",
     file_size: "Maximum size of each file",
@@ -283,7 +295,7 @@ export default {
   },
   customers: {
     title: "Customers & Incentives",
-    club: "Client Club",
+    club: "Customer Club",
     discount_code: "Discount code",
     discount_code_info: "Create unlimited discount codes.",
     coupon: "Coupon / Voucher",
@@ -339,6 +351,10 @@ export default {
     autopilot: "Autopilot",
     autopilot_info:
       "Schedule events, discounts, publish blog posts, products and other things.",
+
+    webhook: "Webhook",
+    webhook_info:
+      "A lightweight API that powers one-way data sharing triggered by events.",
   },
 
   pos: {
@@ -360,11 +376,11 @@ export default {
   dropshipping: {
     title: "Dropshipping Hub",
 
-    reseller: "Reselling",
+    reseller: "Reselling (Dropshipping)",
     reseller_info:
       "You can add the products of wholesaler to your store with one click, all fulfillment and shipping steps will be done automatically.",
 
-    wholesaler: "Wholesaler",
+    wholesaler: "Wholesaler (Dropshipping supplier)",
     wholesaler_info:
       "Your products will be marketed and sold by resellers that approved by you.",
   },

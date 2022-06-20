@@ -151,7 +151,7 @@ export default {
     "cms_info": "Profesionalni sistem upravljanja sadržajem i uređivača za blog postove i proizvode."
   },
   "gateways": {
-    "title": "Payment Portal",
+    "title": "Payment Gateways",
     "sub_title": "Uskoro će biti dodati novi portovi.",
     "gateways": "Gateways",
     "currencies": "Valute",

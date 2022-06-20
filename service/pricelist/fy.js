@@ -151,7 +151,7 @@ export default {
     "cms_info": "Profesjoneel ynhâldbehear en bewurkersysteem foar blogposten en produkten."
   },
   "gateways": {
-    "title": "Payment Portal",
+    "title": "Payment Gateways",
     "sub_title": "Nije havens sille gau wurde tafoege.",
     "gateways": "Gateways",
     "currencies": "Faluta's",

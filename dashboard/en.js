@@ -202,10 +202,23 @@ export default {
 
     categories: {
       Welcome: "Get Started",
-      Setup: "Store",
+      Setup: "Setup",
       Sell: "Sales & Marketing",
       Developer: "Develop",
+
+      Product: "Products & Categories Management",
+      Blog: "CMS & Blog",
+      Order: "Orders Fulfillment Center",
+      Channel: "Sales Channels",
+      Accounting: "Accounting & Payment Methods",
+      Incentives: "Incentives",
+      Marketing: "Marketing & Campaigns",
+      Logistic: "Logistic & Shipping",
+      Customers: "Customers Club & Segmentation",
+      Page: "Landing & Custom Pages",
+      Access: "Staff / API Access Management",
       Application: "Applications",
+      POS: "POS",
     },
     faq: "FAQ",
     github: "Github Repository",
@@ -338,7 +351,6 @@ export default {
       pos: "POS",
       seo: "SEO",
       localization: "Localization",
-
     },
 
     /** {@see ShopDashboard} **/
@@ -796,7 +808,6 @@ export default {
           hours_input_nodata: "Select a time period",
           vacation_input: "Do you deliver on holidays?",
 
-
           pricing: "Calculate Price",
           const_input: "Fixed cost",
           distance_cof_input: "Cost-to-distance coefficient",
@@ -812,23 +823,20 @@ export default {
           free_shipping_input: "Free shipping",
           free_shipping_limit_input: "Minimum order cost for free shipping",
 
-          shipping_cost_calculation:'Shipping cost calculation',
+          shipping_cost_calculation: "Shipping cost calculation",
           sod_true: "Get shipping cost on destination",
-          sod_true_message: "Ensure that your shipping service accepts shipping cost on destination.",
-          sod_false:"Auto shipping cost calculation",
-
+          sod_true_message:
+            "Ensure that your shipping service accepts shipping cost on destination.",
+          sod_false: "Auto shipping cost calculation",
 
           cod_input: "Support COD",
-          cod_true:'Accept cash on delivery',
-          cod_false:'Accept online payment only',
+          cod_true: "Accept cash on delivery",
+          cod_false: "Accept online payment only",
           cod_true_message: "Make sure your shipping service accepts COD.",
-
-
 
           notifications: {
             update_success: "Shipping service settings completed successfully.",
           },
-
         },
       },
     }, // End of logistic
@@ -1139,7 +1147,8 @@ export default {
         email: "Email",
         domain: "Domain",
         verifications: "Verifications",
-        flow:'Flow',
+        flow: "Flow",
+        business_model: "Business Model",
       },
       delete_dialog: {
         title: "Delete Store",
@@ -1319,17 +1328,16 @@ export default {
       unit_float_message:
         "During order processing, the delivered amount may differ from the ordered amount. The system automatically calculates this difference and records it as your debt to the customer, which can be applied to the next orders.",
 
-      status_list:{
-        active:{
-          title:'Active | Online & Offline Sales',
-          description:'This product will be available for online orders.'
+      status_list: {
+        active: {
+          title: "Active | Online & Offline Sales",
+          description: "This product will be available for online orders.",
         },
-        inactive:{
-          title:'Inactive | Only Offline Sales',
-          description:'This product will not be available for online orders.'
+        inactive: {
+          title: "Inactive | Only Offline Sales",
+          description: "This product will not be available for online orders.",
         },
-      }
-
+      },
     },
 
     /** {@see ProductEditRatingsProsCons} **/
@@ -1443,6 +1451,11 @@ export default {
       commission_message:
         "This option is useful only for particular types of merchants like wholesalers. If you are not a wholesaler, leave this option blank. The price that buyers see is sum of price and commission. For adding tax click Accounting > Tax.",
       add_commission_action: "Add commission",
+
+      price_label_input: "Price label",
+      price_label_message:
+        "Add extra info about price like ( $1.5/Fl Oz ). Use cases: grocery, FMCG.",
+      add_price_label_action: "Add price label",
       discount_input: "Discount",
       discount_input_message: "Discount rate",
       has_discount_period_input: "Is this discount valid for a specific time?",
@@ -2792,6 +2805,8 @@ export default {
     "payment-cash-confirm":
       "Payment  of {amount} {currency} in cash for the bill was confirmed.",
     "payment-dir-confirm": "Direct payment receipt was confirmed.",
+
+    vendor: "Vendor order state changed from <b>{from}</b> to <b>{to}</b>.",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -3961,6 +3976,10 @@ export default {
     samples: "Show sample shops",
     samples_message:
       "If enabled, some sample shops will be displayed in your panel.",
+
+    automation: "Automation",
+    automation_message:
+      "Show automation tab on shop dashboard. (Webhooks, Visual programming, ...)",
   },
 
   /** {@see ShopEdit_Locations} **/
@@ -5585,11 +5604,11 @@ export default {
   instagram: {
     title: "Sales on Instagram",
     message:
-      "With the help of this tool, you can turn your Instagram into a store. Just add and confirm your Instagram account here, then you will be able to post one or more products from each post or on your story, add and tag your products list or turn a post into a new product!",
+      "You can turn your Instagram into a shoppable category. First, verify your Instagram account, then you will be able to attach one or more products to posts or stories. It's an experimental (beta) feature.",
     add_product: "Add new product",
     create_product: "Create product",
     link_box_msg:
-      "Put this link in your bio on Instagram, Telegram or other social media so that your audience can buy faster, easier, more and finally more.",
+      "Put this link in your bio on Instagram, Telegram, or other social media so that your audience can find products faster and buy easier.",
     remove_account: "Change / Remove Instagram link",
     sync: "Sync account data (every 60 minutes)",
   },
@@ -5700,7 +5719,7 @@ export default {
 
   /** {@see AvocadoHomePage} **/
   avocado: {
-    title: "Fast, accurate and enjoyable sales on all social media",
+    title: "Fast, Accurate & Enjoyable Sales on Social Media",
     message:
       "One amount and one title is all you need to get money from your customers! Money will be credited directly to your account and your customers will have a unique shopping experience.",
     new_order: "New bill",
@@ -6028,7 +6047,7 @@ export default {
     title: "Affiliate POS",
     open_pos_action: "Fast ordering POS",
     description:
-      "This option is suitable for admins of Instagram pages and other social networks. This option is convenient for you when you receive orders directly from customers. All you have to do is register your order in Pooz and upload the deposit slip so that the store staff will receive your order and send it to the final customer after confirmation.",
+      "This option is suitable for admins of Instagram pages and other social networks. Use Affiliate POS to receive and add orders from customers manually. Your affiliates (or franchise) can add new orders in the Affiliate POS and upload the deposit slip.",
   },
 
   /** {@see ShopEdit_Shop} **/
@@ -6043,7 +6062,7 @@ export default {
     checkout: {
       title: "Checkout flow",
       subtitle:
-        "Customize your customer journey and purchase flow in your ecommerce journey.",
+        "Customize your customer journey and purchase flow in your ecommerce.",
       map: {
         title: "Map",
         subtitle:
@@ -6054,18 +6073,87 @@ export default {
       mode: {
         title: "Customers login point",
         default: {
-          title: "Default",
+          title: "ASAP (Default)",
           msg: "Users log in as soon as possible. (More conversion)",
         },
         on_checkout: {
           title: "On checkout",
-          msg: "Users log in at the checkout step.",
+          msg: "Force users to log in at the checkout step.",
         },
         login_free: {
           title: "Optional login",
-          msg: "Optional login for the user after payment.",
+          msg: "Optional login after order payment..",
         },
       },
     },
   },
+
+  /** {@see ShopEdit_BusinessModel} **/
+  business_model: {
+    title: "Business model setup",
+    subtitle:
+      "Set your business model, and we will configure your OS  behind the scene.",
+  },
+  /** {@see BusinessModelView} **/
+  business_model_view: {
+    normal: {
+      title: "Normal Store",
+      desc: "Commonly an SME, home business, or dropshipper - who sells their product directly to customers or sells wholesalers' products as a reseller.",
+    },
+
+    dropshipping: {
+      title: "Dropshipping",
+      desc: "Keep no product and no inventory - you pay to a third party, usually a wholesaler (like Printify, Wholesale2B, ...) or manufacturer, and they fulfill orders behind the scene.",
+    },
+
+    wholesaler: {
+      title: "Dropshipping Supplier",
+      desc: "Commonly a wholesaler or a manufacturer – who ships orders directly to the end consumer. Other merchants on Selldone can dropship your products in their stores.",
+    },
+    marketplace: {
+      title: "Marketplace",
+      desc: "Online marketplaces connect buyers and sellers on a proprietary and centralized platform.",
+    },
+
+    franchise: {
+      title: "Franchise / Affiliate",
+      desc: "A franchise is a method of distributing products or services involving a franchisor who establishes your brand (Franchising) or sells your products by their brand (Affiliate).",
+    },
+  },
+
+  /** {@see MarketplacePage} **/
+  marketplace: {
+    vendor_wallets: "Wallets",
+    pricing_models: "Pricing",
+  },
+
+  price_input_type: {
+    title: "Price input type",
+    default: {
+      title: "Default",
+      desc: "Select a value as the quantity in the cart.",
+    },
+    area: {
+      title: "Area",
+      desc: "Enter width and length as inputs to calculate the quantity.",
+    },
+    volume: {
+      title: "Volume",
+      desc: "Enter width, length, and height as inputs to calculate the quantity.",
+    },
+  },
+
+
+  /** {@see VendorsList} **/
+  vendors_list: {
+    title: "My Vendors",
+    message: "List of my own vendors.",
+  },
+
+  vendor_page:{
+
+
+  }
+
+
 };

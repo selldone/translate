@@ -151,12 +151,12 @@ export default {
     "cms_info": "Professional Content Management uye Edhita System yeBlog Posts uye Zvigadzirwa."
   },
   "gateways": {
-    "title": "Payment Portal",
+    "title": "Payment Gateways",
     "sub_title": "Zviteshi zvitsva zvichawedzerwa munguva pfupi.",
     "gateways": "Gateways",
     "currencies": "Currencies",
     "currencies_info": "Mari itsva ichawedzerwa munguva pfupi.",
-    "currencies_encrypted": "Currency Code",
+    "currencies_encrypted": "Crypto",
     "currencies_encrypted_info": "Mari pane blockchain papuratifomu",
     "online_pay_wage": "Online port mubhadharo",
     "online_pay_wage_info": "Mari iyi ichabviswa kubva kuaccount yako yerecharge muSelldone.",

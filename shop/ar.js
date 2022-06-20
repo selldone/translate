@@ -1,20 +1,20 @@
 export default {
   "surveys": [
-    "فقير جدا",
-    "مسكين",
+    "سيء جدا",
+    "سيء",
     "طبيعي",
     "جيد",
     "ممتاز"
   ],
   "footer": {
-    "map": "خريطة",
-    "email": "بريد الالكتروني",
+    "map": "الخريطة",
+    "email": "البريد الالكتروني",
     "phone": "هاتف",
     "address": "عنوان",
     "copyright": "استخدام المحتوى فقط للأغراض غير التجارية والإشارة إلى المصدر (رابط بـ {shop_title}). جميع الحقوق محفوظة لـ {shop_title}.",
-    "powered_by": "مشغل بواسطة",
-    "privacy": "سياسة خاصة",
-    "term_of_use": "تعليمات الاستخدام",
+    "powered_by": "تم بواسطة",
+    "privacy": "سياسة الخصوصية",
+    "term_of_use": "ِشروط الاستخدام",
     "shop_app_setting": "إعداد المتجر واللائحة العامة لحماية البيانات",
     "dialog_setting": {
       "title": "متجر إعداد التطبيقات",
@@ -22,12 +22,12 @@ export default {
     }
   },
   "product_card": {
-    "sold_out": "نفذ",
-    "review_unit": "استعراض",
+    "sold_out": "نفذت الكمية",
+    "review_unit": "مراجعة القطعة",
     "not_original": "غير اصلية"
   },
   "shop": {
-    "products_filter": "منقي",
+    "products_filter": "فلترة",
     "native": {
       "title": "تسجيل الدخول للتطبيق",
       "message": "يتطلب هذا التطبيق الوصول إلى معلومات حساب متجرك. يتضمن ذلك الوصول إلى الاسم ورقم الاتصال والعنوان والبريد الإلكتروني وسجل الطلبات وطلب التعليقات ونشرها على هذا المتجر.",
@@ -38,13 +38,13 @@ export default {
     "title": "ترتيب حسب",
     "title_small": "ترتيب حسب..",
     "nothing": "لا شيئ",
-    "most_views": "معظم وجهات النظر",
-    "most_likes": "الأكثر شهرة",
+    "most_views": "الأكثر مشاهدة",
+    "most_likes": "الأكثر اعجابات",
     "most_recent": "الأحدث",
-    "most_sell": "أفضل مبيعات",
+    "most_sell": "الأفضل مبيعا",
     "cheapest": "أرخص",
     "most_expensive": "الأغلى",
-    "only_available": "متوفرة",
+    "only_available": "المتوفر فقط",
     "view_mode": {
       "normal": "طبيعي",
       "grid": "جريد",
@@ -54,25 +54,25 @@ export default {
   },
   "product_info": {
     "fake": "مزيف",
-    "action": "مزاد علني",
-    "compare_limit": "10 عناصر كحد أقصى",
+    "action": "فعل",
+    "compare_limit": "10 عناصر كحدأقصى",
     "compare_add": "أضف للمقارنة",
     "compare_be_in_list": "في قائمة المقارنة",
-    "type": "يكتب",
+    "type": "نوع",
     "brand": "ماركة",
-    "category": "فئة",
+    "category": "قسم",
     "discount": "خصم",
     "track_price": "تتبع السعر",
     "waiting_for_auction": "تنتظر المزاد؟",
     "inform_auction": "أخبرني عن المزاد",
-    "return_in_days": "{days} يوم عودة الضمان",
+    "return_in_days": "{days} يمكن إسترجاعه خلال",
     "support24h7": "دعم 24 ساعة 7 أيام",
     "support_normal": "دعم ساعات العمل",
     "original_guarantee": "الضمان الأصلي",
-    "cod_payment": "نقدا عند التسليم الدعم",
-    "pros": "الايجابيات",
-    "cons": "سلبيات",
-    "external_link": "اقرأ أكثر",
+    "cod_payment": "الدفع نقدا عند التسليم ",
+    "pros": "المميزات",
+    "cons": "السلبيات",
+    "external_link": "روابط خارجية",
     "notifications": {
       "congratulation": "تهانينا",
       "waiting_list_add_success": "سوف نخطرك عندما يتم بيع هذا المنتج بالمزاد.",
@@ -80,37 +80,37 @@ export default {
     },
     "offer_message": "اشترِ {min_quantity} واحصل على خصم {percent}٪ على هذه العناصر",
     "up_to": "ما يصل إلى {per_order} x لكل طلب",
-    "get_free": "تحرر",
+    "get_free": "احصل مجانا",
     "get_off": "احصل على خصم بنسبة {percent}٪"
   },
   "buy_button": {
-    "waiting_for_availability": "في انتظار التوافر",
-    "inform_me_when_available": "انتظر هذا؟",
+    "waiting_for_availability": "في انتظار توفر المنتج",
+    "inform_me_when_available": "اخبرني عندما يتوفر",
     "pay_buy": "الدفع والشراء",
-    "quantity": "عدد",
+    "quantity": "الكمية",
     "quantity_in_basket": "العناصر الموجودة في عربة التسوق",
     "count_unit": "x",
     "remove": "إزالة",
     "add_to_basket": "أضف إلى السلة",
-    "buy": "يشتري",
+    "buy": "اشتري",
     "notifications": {
       "inform_add_success": "سنخبرك عندما يكون متاحًا.",
       "inform_remove_success": "لقد تم حذفك من قائمة الانتظار."
     }
   },
   "product": {
-    "review": "استعراض",
+    "review": "وصف المنتج",
     "spec": "المواصفات",
     "comments": "تعليقات",
     "related_products_title": "منتجات ذات صله",
     "price": "السعر",
-    "rate": "معدل",
+    "rate": "تقييم",
     "comment": "تعليق"
   },
   "layout_shop": {
     "shop_menu": {
       "orders_history": "تاريخ الطلبات",
-      "profile": "ملفي",
+      "profile": "الملف الشخصي",
       "favorites": "العناصر المفضلة",
       "gift_cards": "بطاقات الهدايا",
       "return_requests": "الطلبات المرتجعة",
@@ -130,9 +130,9 @@ export default {
   "basket_top_menu": {
     "basket": "عربة التسوق",
     "basket_is_empty": "عربة التسوق فارغة.",
-    "total_price": "المجموع",
-    "view_basket": "عربتك",
-    "more": "أكثر ...",
+    "total_price": "السعر الإجمالي",
+    "view_basket": "سلة التسوق",
+    "more": " المزيد ...",
     "accept_and_pay": "الدفع",
     "items": "أغراض)"
   },
@@ -141,7 +141,7 @@ export default {
     "table": {
       "code": "رمز الطلب",
       "reserved": "تاريخ",
-      "delivery_state": "حالة التوصيل",
+      "delivery_state": "حالة الشحن",
       "price": "السعر الكلي",
       "status": "حالة السداد"
     }
@@ -151,19 +151,19 @@ export default {
       "code": "رمز الطلب",
       "items": "أغراض",
       "reserved": "تاريخ",
-      "delivery_state": "أحدث حالة",
+      "delivery_state": "حالة الشحن",
       "price": "السعر الكلي",
       "status": "حالة السداد"
     }
   },
   "user_page": {
     "menu": {
-      "gift_card": "كرت هدية",
+      "gift_card": "بطاقة هدية",
       "comments": "تعليقات",
       "favorites": "المفضلة",
-      "return_requests": "عائدات",
+      "return_requests": "مرتجعات",
       "addresses": "عناوين",
-      "profile": "حساب تعريفي",
+      "profile": "الحساب الشخصي",
       "orders": "الطلب #٪ s"
     }
   },
@@ -172,25 +172,25 @@ export default {
     "payment": {
       "title": "قسط",
       "payment_waiting": "في انتظار السداد",
-      "payment_completed": "دفع",
+      "payment_completed": "تم الدفع",
       "table": {
         "title": "عنوان",
-        "amount": "مقدار",
+        "amount": "الكمية",
         "description": "وصف"
       },
-      "total_payment": "المبلغ المدفوع",
+      "total_payment": "المبلغ الكلي المدفوع",
       "discount": "خصم",
-      "discount_code": "رمز التخفيض",
+      "discount_code": "كود الخصم",
       "delivery_fee": "تكلفة الشحن",
-      "delivery_fee_after": "دفع أي تسليم",
+      "delivery_fee_after": "تكلفة الشحن عند الاستلام",
       "total_price": "إجمالي سعر العناصر",
-      "total_items_discount": "خصم الأصناف",
-      "total_price_after_offers": "المجموع بعد تطبيق العروض",
-      "buyer_payment": "مبلغ دفع المشتري"
+      "total_items_discount": "قيمة الخصم الكلية",
+      "total_price_after_offers": "السعر الإجمالي بعد تطبيق الخصومات",
+      "buyer_payment": "مبلغ الشراء"
     },
     "delivery": {
       "title": "توصيل",
-      "subtitle": "معلومات المشتري",
+      "subtitle": "بيانات المشتري",
       "confirm_received_action": "تأكيد استلام المنتج",
       "confirm_received_info": "انقر فوق زر التأكيد إذا تلقيت الطلب. إذا لزم الأمر ، ستتمكن من إرسال إحالة إذا تلقيت تأكيدًا.",
       "Recipient": "متلقي",
@@ -199,49 +199,49 @@ export default {
       "tel": "هاتف",
       "email": "بريد الالكتروني",
       "country": "دولة",
-      "state": "حالة",
+      "state": "محافظة",
       "city": "مدينة",
       "address": "عنوان",
       "building_no": "رقم المبنى",
-      "unit_no": "رقم الوحدة",
+      "unit_no": "رقم العقار",
       "postal_code": "الرمز البريدي",
       "description": "وصف",
       "order_delivered": "تم تسليم الطلب.",
       "delivery_time": "موعد التسليم",
-      "tracking_code": "شفرة التتبع",
-      "tracking_url": "تتبع Url",
+      "tracking_code": "كود التتبع",
+      "tracking_url": "رابط التتبع",
       "notifications": {
         "confirm_delivery": "تم تأكيد طلبك."
       }
     },
     "basket_items": {
-      "original_warranty": "ضمان أصالة البضاعة",
-      "return": "يعود",
+      "original_warranty": "ضمان المنتج الأصلي",
+      "return": "استرجاع",
       "table": {
         "product": "اسم المنتج",
         "count": "عدد",
-        "unit_price": "سعر الوحده",
+        "unit_price": "سعر القطعة",
         "total_price": "السعر الكلي",
         "discount": "خصم",
         "final_price": "السعر النهائي",
-        "returned": "عاد"
+        "returned": "تم استرجاعه"
       }
     }
   },
   "return_request": {
-    "title": "يعود",
+    "title": "استرجاع",
     "count_input": "عدد العناصر التي تم إرجاعها",
-    "count_input_message": "كم عدد العناصر التي ترجعها؟",
-    "reason_input": "سبب العودة",
-    "reason_input_message": "حدد سبب إعادة هذا العنصر.",
+    "count_input_message": "كم عدد العناصر التي تسترجعها؟",
+    "reason_input": "سبب الاسترجاع",
+    "reason_input_message": "حدد سبب استرجاع هذا العنصر.",
     "note_input": "وصف",
-    "note_input_hint": "صف سبب الارجاع ..",
-    "note_input_message": "صف سبب إرجاع هذا العنصر إذا لزم الأمر.",
+    "note_input_hint": "صف سبب الاسترجاع ..",
+    "note_input_message": "صف سبب إسترجاع هذا العنصر إذا لزم الأمر.",
     "media_message": "يمكنك تحميل صورة أو صوت أو فيديو للمنتج هنا للحصول على دعم أفضل لمعلومات حالة المنتج. سيؤدي تحديد الملف إلى الإرسال والتأكيد تلقائيًا.",
     "video": "فيديو",
     "voice": "صوت",
-    "add_action": "إرسال طلب العودة",
-    "notifications": "تم تسجيل طلب عودتك بنجاح."
+    "add_action": "إرسال طلب الاسترجاع",
+    "notifications": "تم تسجيل طلب الاسترجاع بنجاح."
   },
   "virtual_order_page": {
     "title": "طلب",
@@ -254,20 +254,20 @@ export default {
     "name": "اسم",
     "email": "بريد الالكتروني",
     "tel": "هاتف",
-    "identity": "المصادقة",
-    "success_kyc": "تم التحقق من اعرف عميلك",
+    "identity": "الهوية",
+    "success_kyc": "تم التحقق من الهوية",
     "club": "مستوى المستخدم",
-    "subscription": "الاشتراك في الأخبار",
+    "subscription": "الاشتراك في النشرة",
     "leave_shop": "اترك هذا المتجر وقم بإزالة مستوى جميع العملاء",
-    "leave_shop_action": "اترك المحل",
+    "leave_shop_action": "اترك المتجر",
     "edit_personal_info": "تحرير المعلومات الشخصية",
     "leave_dialog": {
-      "title": "اترك المحل",
+      "title": "اترك المتجر",
       "message": "لن يؤدي إلغاء الاشتراك في هذا المتجر إلى حذف معلومات الطلب والسجلات.",
-      "action": "يترك"
+      "action": "مغادرة"
     },
     "notifications": {
-      "leave_success": "اترك المحل"
+      "leave_success": "لقد تركت المتجر"
     },
     "club_table": {
       "discount": "خصم",
@@ -281,11 +281,11 @@ export default {
     "total_price": "المبلغ الإجمالي",
     "shipping": "تكلفة الشحن",
     "free_shipping": "الشحن مجانا",
-    "shipping_not_pay": "غير مشمول",
+    "shipping_not_pay": "الشحن غير مشمول",
     "total_discount": "إجمالي الخصم",
-    "customer_club": "عضو نادي العميل",
+    "customer_club": " عضوية العميل ",
     "customer_club_discount": "خصم الأعضاء",
-    "final_price": "الدفعة الأخيرة",
+    "final_price": "السعر النهائي",
     "lead_time": "وقت التحضير",
     "lead_time_unit": "ساعة",
     "receive_time": "وقت التسليم المفضل",
@@ -299,15 +299,15 @@ export default {
     "time_input_label": "التسليم في",
     "time_input_label_no_data": "حدد فترة زمنية واحدة على الأقل",
     "support_cod": "الدفع عند الاستلام",
-    "not_support_cod": "غير قادر على الدفع محليًا!",
+    "not_support_cod": "لا يمكن الدفع عند الاستلام!",
     "final_confirm_action": "تأكيد الطلب النهائي",
     "pay_and_complete_action": "ادفع الآن",
     "pre_confirm_service": "تقديم الطلب",
     "errors": {
       "no_address": "حدد العنوان الذي تريد شحن طلبك إليه.",
-      "no_phone": "أدخل رقم جهة اتصال لتنسيق استلام البضائع.",
+      "no_phone": "أدخل رقم جهة اتصال لتنسيق استلام المنتجات.",
       "select_billing_country": "حدد بلد الفوترة",
-      "select_billing_state": "حدد منطقتك الضريبية"
+      "select_billing_state": "حدد منطقتك "
     },
     "same_billing_address": "معلومات الفواتير هي نفسها معلومات المستلم",
     "custom_billing_info": "معلومات الفواتير المختلفة",
@@ -328,25 +328,25 @@ export default {
     "new_action": "عنوان جديد",
     "Recipient": "متلقي",
     "address": "عنوان",
-    "building_no": "لوحة ترخيص",
-    "building_unit": "وحدة",
+    "building_no": "رقم الوحدة",
+    "building_unit": "الوحدة",
     "postcode": "الرمز البريدي",
     "tel": "هاتف",
-    "description": "ملحوظة",
+    "description": "الوصف",
     "map": {
       "title": "عناويني",
       "confirm": "تسجيل العنوان",
       "address_type": "عنوان",
-      "receptor_type": "متلقي"
+      "receptor_type": "المستلم"
     },
     "add_dialog": {
-      "title": "اسم العنوان الجديد",
-      "message": "أدخل عنوانًا لعنوان جديد.",
+      "title": " العنوان الجديد",
+      "message": "أدخل مسمى لعنوان جديد.",
       "address_name_input": "العنوان (مطلوب)"
     }
   },
   "return_requests": {
-    "title": "طلبات الإرجاع"
+    "title": "طلبات الإسترجاع"
   },
   "user_favorites": {
     "title": "قائمة الرغبات"
@@ -357,14 +357,14 @@ export default {
     "last_edit": "آخر تعديل"
   },
   "user_gift_cards": {
-    "title": "بطاقات الهدايا الخاصة بي",
-    "add_action": "إضافة بطاقة",
+    "title": "قسيمة الهدايا الخاصة بي",
+    "add_action": "إضافة قسيمة",
     "add_card_dialog": {
-      "title": "أضف بطاقة هدية",
-      "message": "أدخل رقم البطاقة ورمز الحماية. ستتم إضافة بطاقة هدية إلى حسابك.",
-      "card_number_input": "رقم البطاقة",
-      "info": "ملاحظة: عند الشراء من المتجر ، سيظهر لك خيار الدفع ببطاقات الهدايا. بتحديد هذا الخيار ، سيتم خصم مبلغ رصيد إعادة الشحن من مبلغ الطلب.",
-      "add_action": "تسجيل البطاقة"
+      "title": "أضف قسيمة هدية",
+      "message": "أدخل رقم البطاقة وكود الحماية. ستتم إضافة بطاقة هدية إلى حسابك.",
+      "card_number_input": "رقم القسيمة",
+      "info": "ملاحظة: عند الشراء من المتجر ، سيظهر لك خيار الدفع ببطاقات الهدايا. بتحديد هذا الخيار ، سيتم خصم رصيد قسيمة الهدية من مبلغ الطلب.",
+      "add_action": "تسجيل القسيمة"
     }
   },
   "product_comparison": {
@@ -373,18 +373,18 @@ export default {
     "list": {
       "no_data": "لم يتم إضافة أي منتجات إلى قائمة المقارنة.",
       "price": "السعر",
-      "type": "يكتب",
-      "brand": "ماركة",
-      "warranty": "ضمان",
+      "type": "النوع",
+      "brand": "الماركة",
+      "warranty": "الضمان",
       "variants_comparison": "قارن بين متغيرات المنتج",
       "spec": "المواصفات الفنية",
-      "pros": "الايجابيات",
-      "cons": "سلبيات",
+      "pros": "المميزات",
+      "cons": "السلبيات",
       "user_review": "تعليقات المستخدم",
       "rating": "تقييم",
       "rating_count": "عدد المراجعات",
-      "info": "يمكنك مشاركة جدول مقارنة المنتج هذا مع أصدقائك عن طريق إرسال الرابط التالي ، أو الوصول إليه لاحقًا عن طريق حفظ هذا الارتباط.",
-      "copy_action": "انسخ ارتباط المقارنة",
+      "info": "يمكنك مشاركة جدول مقارنة المنتج هذا مع أصدقائك عن طريق إرسال الرابط التالي ، أو الوصول إليه لاحقًا عن طريق حفظ هذا الرابط.",
+      "copy_action": "انسخ رابط المقارنة",
       "check_list": [
         "نعم",
         "لديها"
@@ -396,12 +396,12 @@ export default {
     }
   },
   "product_filter_menu": {
-    "only_original": "أصول فقط",
-    "only_has_discount": "فقط مخفضة",
+    "only_original": "المنتجات الأصلية فقط",
+    "only_has_discount": "الخصومات فقط",
     "price_range": "نطاق السعر",
     "brands": "ماركة",
     "main_shop_page": "صفحة المتجر الرئيسية",
-    "home": "مسكن"
+    "home": "الرئيسية"
   },
   "product_rating_view": {
     "message": "عزيزي {user} ، لقد اشتريت هذا المنتج. ما رأيك في هذا المنتج؟",
@@ -413,20 +413,20 @@ export default {
   "blogs": {
     "title": "مدونة او مذكرة",
     "add_new_blog": "مدونة جديدة",
-    "popular": "جمع",
+    "popular": "مشهور",
     "topics": "المواضيع",
     "suggestions": "اقتراحات"
   },
   "official_pages": {
-    "about_us": "معلومات عنا",
-    "terms": "تعليمات الاستخدام",
-    "privacy": "سياسة خاصة",
+    "about_us": "عن الشركة ",
+    "terms": "شروط الاستخدام",
+    "privacy": "سياسة الخصوصية",
     "contact_us": "اتصل بنا"
   },
   "contact_us_form": {
     "title": "نموذج الاتصال بنا",
     "name": "اسم",
-    "email": "بريد الالكتروني",
+    "email": "البريد الالكتروني",
     "phone": "هاتف",
     "message": "رسالة",
     "notifications": {
@@ -436,19 +436,19 @@ export default {
   "master_payment": {
     "notifications": {
       "payment_success_title": "تأكيد الدفعة",
-      "payment_success": "تم التسديد.",
-      "buy_title": "يشتري",
-      "pay_by_giftcards": "تم دفع طلبك ببطاقة هدايا.",
-      "free_order": "طلبك مجاني.",
-      "pay_by_cod": "تمت إضافة طلبك نقدًا عند التسليم.",
+      "payment_success": "تم الدفع.",
+      "buy_title": "شراء",
+      "pay_by_giftcards": " ادفع بقسيمة هدية.",
+      "free_order": "طلب مجاني.",
+      "pay_by_cod": "تمت إضافة طلبك والدفع نقدًا عند التسليم.",
       "pay_by_dir": "تمت إضافة طلبك بنجاح. يمكنك الآن الدفع عن طريق التحويل المباشر للأموال ثم تحميل إيصال الدفع في صفحة الطلب.",
       "pay_title": "قسط",
-      "qr_code_payment": "تم إنشاء عنوان رمز الاستجابة السريعة للدفع.",
+      "qr_code_payment": "تم إنشاء عنوان الكيو ار كود للدفع.",
       "connecting_to_online_gateway": "الاتصال ببوابة الدفع عبر الإنترنت."
     }
   },
   "time_progress_bar": {
-    "title_before_start": "بقيت في البداية",
+    "title_before_start": "قبل البداية",
     "title_between_start_end": "بقيت حتى النهاية",
     "title_after_end": "تم الانتهاء من",
     "title_no_start_end": "بدون فترة!"
@@ -458,7 +458,7 @@ export default {
   },
   "coupons": {
     "coupon_code": "رمز الكوبون",
-    "add_coupon": "أضف عرض"
+    "add_coupon": "أضف كوبون"
   },
   "avocado": {
     "not_enable": "لم يتم تمكين شكل الأفوكادو!",
@@ -471,7 +471,7 @@ export default {
     "image_msg": "يمكنك إرسال صورة المنتج إذا لزم الأمر.",
     "add_item": "اضافة عنصر",
     "items_list": "قائمة المنتجات المطلوبة",
-    "currency_msg": "يجب عليك دفع مبلغ هذا الطلب بهذه العملة.",
+    "currency_msg": "يجب عليك دفع ثمن هذا الطلب بهذه العملة.",
     "step2": "2. بعد إضافة جميع العناصر المطلوبة ، انقر فوق زر طلب مراجعة الطلب. في هذه المرحلة ، سنراجع الطلب ونعلمك بالسعر. من خلال النقر على هذا الرابط ، ستتمكن من رؤية السعر ورابط الدفع.",
     "order_action": "طلب التسجيل",
     "show_all": "عرض الكل",
@@ -479,7 +479,7 @@ export default {
     "last_orders": "قائمة طلباتك الأخيرة",
     "pending_status": "قيد المراجعة",
     "check_now": "تحقق من الطلب",
-    "add_new_order": "تقديم طلب جديد",
+    "add_new_order": "اضافة طلب جديد",
     "pay_online": "ادفع عبر الإنترنت",
     "pricing_not_completed_message": "طلبك قيد المراجعة. ستتم مراجعة طلبك وتسعيره قريبًا وستتمكن من دفع الطلب.",
     "delete_item_dialog": {
@@ -494,7 +494,7 @@ export default {
   },
   "hyper": {
     "title": "طلب إنشاء",
-    "message": "قم بإنشاء قائمة المنتجات التي ترغب في شرائها عن طريق مسح رمز المنتج ضوئيًا.",
+    "message": "قم بإنشاء قائمة المنتجات التي ترغب في شرائها عن طريق مسح الضوئي (سكان) لكود المنتج.",
     "currency_msg": "العملة التي تريد الدفع بها.",
     "order_action": "قسط",
     "add_new_order": "طلب جديد",
@@ -525,7 +525,7 @@ export default {
       "selected_checkin": "تسجيل الوصول المحدد من قبل العميل",
       "selected_checkout": "تسجيل المغادرة المحدد من قبل العميل",
       "change_days_question": "هل تحتاج إلى التغيير خلال الأيام المحددة للعميل؟",
-      "show_calendar": "عرض تقويم الطلبات"
+      "show_calendar": "عرض التقويم الخاص بالطلبات"
     },
     "pricing": {
       "title": "التسعير",
@@ -534,12 +534,12 @@ export default {
     "subscription": {
       "title": "الاشتراك",
       "message": "يمكنك اختيار فترة الاشتراك عن طريق شراء هذه الخدمة على أساس يومي. دع المشتري يعرف ما إذا كنت تريد تغيير القيم الافتراضية التي أدخلتها بالفعل.",
-      "duration": "فترة الاكتتاب"
+      "duration": "المدة "
     },
     "charge": {
       "title": "الشحنة",
       "message": "لقد حددت تكلفة لهذا العنصر. يمكنك تغيير مبلغ الرسوم للعنصر الذي اشتراه العميل.",
-      "charge": "الشحنة"
+      "charge": "التكلفة"
     }
   }
 };

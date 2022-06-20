@@ -615,8 +615,13 @@ export default {
     light:'Light',
     dark:'Dark',
     guest:'Guest',
-
-
+    shops:'Stores',
+    vendor:'Vendor',
+    vendors:'Vendors',
+    marketplace:'Marketplace',
+    verify_date:'Verify date',
+    note:'Note',
+    panel:'Panel',
 
   },
 
@@ -727,6 +732,7 @@ export default {
     show_preview: "Show preview",
     hide_preview: "Hide preview",
     download_now: "Download Now",
+    watch_now: "Watch Now",
     auto_fill: "Autofill",
     track: "Track",
     change_state: "Change Status",
@@ -755,6 +761,8 @@ export default {
       receptor_type: "Receiver",
     },
     receiver_address: "Select shipping address",
+    service_address:"Select your address",
+
     address: "Address",
     postcode: "Postcode",
     enter_value: "Fill here",
@@ -995,6 +1003,7 @@ export default {
     GNF: "GNF",
     GTQ: "GTQ",
     GYD: "GYD",
+    GHS: "GHS",
     HKD: "HKD",
     HNL: "HNL",
     HRK: "HRK",
@@ -1176,7 +1185,7 @@ export default {
     category_input: "Category",
     category_input_message: "Select article category",
     parent_input: "Parent category",
-    parent_input_message: "Select father content",
+    parent_input_message: "Select parent",
     schedule_input: "Schedule",
     schedule_input_placeholder:
       "If you want the story to be published at a specific time.",
@@ -1347,10 +1356,14 @@ export default {
     value_input_message: "User Options List",
     default: "Default value",
 
+    file_type_input:'Acceptable file types',
+    file_type_message:"jpeg , png , zip , ...",
+
     types: {
       simple: "Simple",
       selective: "Selective",
       switch: "Switch",
+      file: "File",
     },
   },
 

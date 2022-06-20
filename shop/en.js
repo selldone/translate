@@ -332,7 +332,7 @@ export default {
     free_shipping: "Free Shipping",
     shipping_not_pay: "Not included",
     total_discount: "Total discount",
-    customer_club: "Client Club Member",
+    customer_club: "Customer Club Member",
     customer_club_discount: "Member Discount",
     final_price: "Final Payment",
     lead_time: "Preparation time",

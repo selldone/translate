@@ -8,6 +8,10 @@ export default {
   my_shops: "My Shops",
   select_language_dialog_title: "Do your business in your favorite language",
 
+  welcome_title: "Build, manage, and scale your business visually",
+  welcome_subtitle: "Make your online store by no-code & no-expert needed solution for millions of orders.",
+
+
   moto: "You try, we open the doors!",
   start_now_btn: "Start now — it's free",
   create_ecommerce_btn: "Start Your Ecommerce For Free",
@@ -19,18 +23,18 @@ export default {
   your_dashboard: "Your Cockpit",
 
   s1: {
-    title: "Make Your Online Store By<br>No—Code & No—Expert Needed Solution",
-    title_animated_words: [
-      "Entrepreneurs",
-      "Artists",
-      "Independent Businesses",
-      "Brands",
-      "Retails",
-      "Creators",
-    ],
+    /* title: "Make Your Online Store By<br>No—Code & No—Expert Needed Solution",
+     title_animated_words: [
+       "Entrepreneurs",
+       "Artists",
+       "Independent Businesses",
+       "Brands",
+       "Retails",
+       "Creators",
+     ],*/
 
     subtitle:
-      "If you want to create a unique, fast, secure, and reliable experience for your customers, it's the tool for you. Build your unique community and a fast ecommerce on an ads-free enterprise-grade business operating system.",
+      "Suppose you want to create a unique, fast, secure, and reliable experience for your customers. In that case, it's the tool for you to build your unique community and a fast ecommerce on an ads-free enterprise-grade business operating system.",
 
     domain_input: {
       message:
@@ -60,7 +64,7 @@ export default {
   },
 
   why: {
-    title: "Why Selldone?",
+    title: "Why Business OS?",
     msg: "We cannot imagine teams without coaches, revolutions without leaders, trees without roots, and businesses without an operating system! So we are reimagining online business for fast-growing companies and young entrepreneurs.",
 
     sec1: {
@@ -148,23 +152,35 @@ export default {
   },
 
   notion: {
-    title: "Game with different rules.",
+    title: "Game with different tools.",
     quote:
       "We believe one person can make a change in the online humanity era, even who has not enough money, even has no tech experience, even has no bank account to pay the bills; we do it by creating a ready-to-use platform with enterprise-grade tools to act as a most achievable operating system on the internet.",
   },
 
   stop: {
-    title: "Easy online shopping website builder + Direct payment.",
+    title: "Multi payment providers + Direct payment.",
     subtitle:
-      "If you plan to build a profitable online business and turn your business idea into a reality, Selldone is a perfect choice.",
+      "A virtual wallet helps you control your cash flow and receive money directly through your payment services without any interference from your ecommerce platform.",
   },
+
+  flow: {
+    title: "Customizable checkout flow.",
+    subtitle:
+        "Design your customer journey and purchase flow and experiment results.",
+  },
+  business_model: {
+    title: "Visually business model adoption.",
+    subtitle:
+        "Setup and change your business model visually, all complexity tune behind the scene.",
+  },
+
 
   os: {
     title: "Access to world-class tools — Free.",
     msg: "We put the power of creating professional ecommerce at your fingertips.",
   },
   login: {
-    title: "Are you ready to game like a pro in the market?",
+    title: "Are you curious about building, managing, and scaling your business visually?",
   },
 
   currencies: {
@@ -242,8 +258,7 @@ export default {
   },
 
   build: {
-    title:
-      "Have your own ecommerce with your own brand and take your business control back!",
+    title: "Start your own ecommerce with your own brand.",
     msg: "You have many choices to convert your social media accounts to an online shopping website on your domain or create your masterpiece ecommerce from scratch.",
   },
 
