@@ -8,7 +8,7 @@ Translation files of Selldone (Dashboards, Shops, Applications, ...)
 3. OR, Create new issue.
 
 
-## E-commerce Website Builder Platform (+Lifetime free plan) | Easily Create Your Customizable Online Store like Pros
+## Business OS / Build, Manage, and Scale Your Business Visually
 
 We believe one person can make a change in the online humanity era, even who has no enough money, even has no tech experience, even has no bank account to pay the bills; we do it by creating a one-of-a-kind platform, the all-in-one, no-code commerce platform with enterprise-grade tools to act as a most reachable operating system on the internet. 
 
