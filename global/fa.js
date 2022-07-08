@@ -621,6 +621,10 @@ export default {
     verify_date:'تاریخ تایید',
     note:'یادداشت',
     panel:'پنل',
+    removed:'حذف شده',
+    segments:'بخش بندی',
+    personal_info: "اطلاعات شخصی",
+    preferences:'ترجیحات',
 
 
   },
@@ -909,6 +913,8 @@ export default {
     building_unit: "واحد",
     postcode: "کدپستی",
     note: "توضحیات",
+    county: "شهرستان",
+
   },
 
   /** {@see ProductType} **/
@@ -1718,7 +1724,7 @@ export default {
     enter_address_hint: "آدرس مقصد را وارد نمایید",
     enter_your_address: "آدرس خود را وارد نمایید.",
     postal_code: "کد پستی",
-    phone_input: "تلفن {type}",
+    phone_input: "تلفن",
     building_number: "پلاک",
     building_unit: "واحد",
     full_name_input: "نام {type}",

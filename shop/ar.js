@@ -67,7 +67,7 @@ export default {
     "inform_auction": "أخبرني عن المزاد",
     "return_in_days": "{days} يمكن إسترجاعه خلال",
     "support24h7": "دعم 24 ساعة 7 أيام",
-    "support_normal": "دعم ساعات العمل",
+    "support_normal": "دعم خلال ساعات العمل",
     "original_guarantee": "الضمان الأصلي",
     "cod_payment": "الدفع نقدا عند التسليم ",
     "pros": "المميزات",
@@ -164,7 +164,7 @@ export default {
       "return_requests": "مرتجعات",
       "addresses": "عناوين",
       "profile": "الحساب الشخصي",
-      "orders": "الطلب #٪ s"
+      "orders": "الطلب"
     }
   },
   "physical_order_page": {

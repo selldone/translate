@@ -26,7 +26,7 @@ export default {
     "logistics": "الخدمات اللوجستية &<br> شحن",
     "page_builder": "الصفحة المقصودة<br> باني",
     "incentives": "النادي &<br> حوافز",
-    "orders": "الطلب #٪ s &<br> يعالج",
+    "orders": "الطلب &<br> يعالج",
     "staff": "عملاء &<br> فريق",
     "community": "مجتمع مخصص",
     "pos": "نقاط البيع عبر الإنترنت",

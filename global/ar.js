@@ -60,7 +60,7 @@ export default {
     "end_date": "تاريخ الانتهاء",
     "social": "اجتماعي",
     "total": "المجموع",
-    "orders": "الطلب #٪ s",
+    "orders": "الطلب",
     "sessions": "الجلسات",
     "product_views": "وجهات نظر المنتج",
     "add_to_carts": "أضف إلى عربات التسوق",
@@ -841,7 +841,7 @@ export default {
     "note": "ملحوظة"
   },
   "product_types": {
-    "physical": "بدني",
+    "physical": "منتج مادي",
     "physical_description": "المنتجات المادية مثل: الهواتف المحمولة والكتب والمكونات الإلكترونية.",
     "virtual": "افتراضية",
     "virtual_description": "منتجات صديقة للإنترنت مثل: بطاقة إعادة الشحن ، وحجز الفنادق ، وإعادة شحن الألعاب.",

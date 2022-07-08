@@ -622,6 +622,10 @@ export default {
     verify_date:'Verify date',
     note:'Note',
     panel:'Panel',
+    removed:'Removed',
+    segments:'Segments',
+    personal_info: "Personal info",
+    preferences:'Preferences',
 
   },
 
@@ -910,6 +914,7 @@ export default {
     building_unit: "Unit",
     postcode: "Postcode",
     note: "Note",
+    county: "County",
   },
 
   /** {@see ProductType} **/
@@ -1085,6 +1090,8 @@ export default {
     YER: "YER",
     ZAR: "ZAR",
     ZMW: "ZMW",
+    ZWD:"ZWD",
+    IQD:"IQD",
   },
 
   variants: {
@@ -1832,7 +1839,7 @@ export default {
     enter_address_hint: "Enter destination address",
     enter_your_address: "Enter your address.",
     postal_code: "Postcode",
-    phone_input: "Phone {type}",
+    phone_input: "Phone number",
     building_number: "Building number",
     building_unit: "Unit",
     full_name_input: "Full name {type}",

@@ -223,7 +223,7 @@ export default {
         "finance_report": "تقرير مالي",
         "buys": "المشتريات",
         "payments": "المدفوعات",
-        "orders": "الطلب #٪ s",
+        "orders": "الطلب",
         "currency": "عملة"
       }
     }
@@ -258,7 +258,7 @@ export default {
       "logistic": "جمارك",
       "auditing": "محاسبة",
       "incentives": "حوافز",
-      "process_center": "الطلب #٪ s",
+      "process_center": "الطلب",
       "blog": "مدونة او مذكرة",
       "products": "منتجات",
       "shops": "محلات",
@@ -334,7 +334,7 @@ export default {
         }
       },
       "active_orders": {
-        "title": "الطلب #٪ s",
+        "title": "الطلب",
         "title_small": "الطلبات المادية والملفات والظاهرية والخدمية",
         "pending_orders": "الطلبات المعلقة",
         "physical": "طلبات المنتجات المادية",
@@ -399,7 +399,7 @@ export default {
         "title_small": "نظرة عامة على المستخدمين والمبيعات",
         "users": "المستخدمون",
         "views": "الآراء",
-        "orders": "الطلب #٪ s",
+        "orders": "الطلب",
         "payments": "المدفوعات",
         "no_visitor_today": "لم يكن لديك زوار اليوم."
       }
@@ -1183,7 +1183,7 @@ export default {
     "menu": {
       "edit": "تعديل",
       "review": "استعراض",
-      "orders": "الطلب #٪ s",
+      "orders": "الطلب",
       "inventory": "المخزون",
       "dashboard": "لوحة القيادة",
       "back_to_products": "منتجات",
@@ -1201,7 +1201,7 @@ export default {
         "user_data_form": "نموذج معلومات المشتري"
       },
       "orders": {
-        "title": "الطلب #٪ s",
+        "title": "الطلب",
         "title_small": "غير معالج",
         "physical_orders_title": "عربات التسوق مع هذا المنتج",
         "send_30days_title": "الطلبات التي تم شحنها في آخر 30 يومًا",
@@ -1425,7 +1425,7 @@ export default {
     "views_unit": "مرات",
     "product_views": "وجهات نظر المنتج",
     "buys": "المشتريات",
-    "buys_unit": "الطلب #٪ s",
+    "buys_unit": "الطلب",
     "baskets": "عربات نشطة",
     "added_items": "إضافة عناصر",
     "removed_items": "إزالة العناصر"
@@ -1519,7 +1519,7 @@ export default {
       "status": "نظرة عامة على الحالة",
       "sessions": "الجلسات",
       "links_overview": "نظرة عامة على روابط الحملة",
-      "orders": "الطلب #٪ s",
+      "orders": "الطلب",
       "performance": "أداء الحملة",
       "links_funnel": "أداء روابط الحملة",
       "no_links": "لا توجد بيانات متاحة! يرجى إنشاء ارتباط إلى حملتك.",
@@ -2086,7 +2086,7 @@ export default {
       "edit": "تعديل",
       "new_card": "إنشاء بطاقة",
       "list": "البطاقات",
-      "orders": "الطلب #٪ s",
+      "orders": "الطلب",
       "dashboard": "لوحة القيادة",
       "back": "بطاقات الهدايا"
     },
@@ -2177,7 +2177,7 @@ export default {
     "up_to": "يصل إلى",
     "menu": {
       "dashboard": "لوحة القيادة",
-      "orders": "الطلب #٪ s",
+      "orders": "الطلب",
       "back": "رموز الخصم"
     },
     "dashboard": {
@@ -2202,7 +2202,7 @@ export default {
     "menu": {
       "dashboard": "لوحة القيادة",
       "back": "كوبونات",
-      "orders": "الطلب #٪ s"
+      "orders": "الطلب"
     },
     "dashboard": {
       "title": "لوحة إدارة القسيمة",
@@ -2225,7 +2225,7 @@ export default {
     "up_to": "يصل إلى",
     "menu": {
       "dashboard": "لوحة القيادة",
-      "orders": "الطلب #٪ s",
+      "orders": "الطلب",
       "back": "عروض"
     },
     "dashboard": {
@@ -2916,7 +2916,7 @@ export default {
   },
   "shop_roles": {
     "PhysicalOrdersChecking": {
-      "text": "الفحص البدني",
+      "text": "الفحص منتج مادي",
       "description": "تحقق من الطلبات المستلمة."
     },
     "PhysicalOrdersPackaging": {
@@ -3643,7 +3643,7 @@ export default {
   },
   "affiliate_page": {
     "affiliates": "الشركاء المنتسبون",
-    "orders": "الطلب #٪ s",
+    "orders": "الطلب",
     "payments": "المدفوعات"
   },
   "affiliate_dashboard": {
@@ -3815,7 +3815,7 @@ export default {
     "menu": {
       "dashboard": "لوحة القيادة",
       "transportations": "طرق الشحن",
-      "orders": "الطلب #٪ s",
+      "orders": "الطلب",
       "setting": "جلسة",
       "delivery_services": "خدمات",
       "delivery_persons": "سعاة"
@@ -3918,7 +3918,7 @@ export default {
   "cash_register": {
     "menu": {
       "panel": "ماكينة تسجيل المدفوعات النقدية",
-      "orders": "الطلب #٪ s",
+      "orders": "الطلب",
       "customers": "عملاء",
       "devices": "الأجهزة",
       "inventory": "المخزون"
@@ -4318,7 +4318,7 @@ export default {
   "drop_shipping": {
     "menu": {
       "dashboard": "لوحة القيادة",
-      "orders": "الطلب #٪ s",
+      "orders": "الطلب",
       "inventory": "المخزون",
       "shops": "الموزعين",
       "requests": "الطلبات"
@@ -4333,7 +4333,7 @@ export default {
   "dropshipping_reseller_page": {
     "menu": {
       "dashboard": "لوحة القيادة",
-      "orders": "الطلب #٪ s",
+      "orders": "الطلب",
       "wallet": "محفظة"
     }
   },
@@ -4374,7 +4374,7 @@ export default {
       "total_cost": "إجمالي تكلفة الطلبات",
       "need_charge": "يحتاج لشحن",
       "no_account_cation": "ليس لديك حساب! استدعاء تاجر الجملة.",
-      "orders": "الطلب #٪ s"
+      "orders": "الطلب"
     },
     "notifications": {
       "success_pay": "تم تأكيد الدفع الخاص بك لهذه الطلبات وإتمامها بنجاح."
@@ -4458,7 +4458,7 @@ export default {
     "inform_auction": "أعلمني عند المزاد",
     "return_in_days": "{days} يوم عودة الضمان",
     "support24h7": "دعم 24 ساعة 7 أيام",
-    "support_normal": "دعم ساعات العمل",
+    "support_normal": "دعم خلال ساعات العمل",
     "original_guarantee": "الضمان الأصلي",
     "cod_payment": "نقدا عند التسليم الدعم",
     "pros": "الايجابيات",
@@ -4796,7 +4796,7 @@ export default {
   },
   "shop_preferences": {
     "order": {
-      "title": "الطلب #٪ s",
+      "title": "الطلب",
       "desc": "إذا دفع العميل الطلب ، فسيتم إرسال بريد إلكتروني يحتوي على معلومات الطلب إلى هذا العنوان."
     },
     "return": {

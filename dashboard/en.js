@@ -2807,6 +2807,17 @@ export default {
     "payment-dir-confirm": "Direct payment receipt was confirmed.",
 
     vendor: "Vendor order state changed from <b>{from}</b> to <b>{to}</b>.",
+
+
+    "connect-sync":"Order synced by Connect OS.",
+    "connect-shipped":"Connect order has been shipped by {shipping}.",
+    "connect-returned":"Connect order has been returned by {shipping}.",
+    "connect-failed":"Order fulfillment failed by the partner. {reason}",
+    "connect-canceled":"The order was canceled by the partner.  {reason}",
+    "connect-put-hold":"The order was putted on hold. {reason}",
+    "connect-remove-hold":"The order was removed from hold. {reason}",
+
+
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4898,6 +4909,13 @@ export default {
     shop_license: "Shop license",
     max_items_limit: "Maximum items limit",
     total_items: "Total items",
+
+    /** {@see CustomerImportView**/
+    customer: {
+      title: "Import customers",
+      subtitle:
+          "Upload CSV files of customers here. Make sure you follow the standard format, and also, you have to follow privacy rules.",
+    },
   },
   /** {@see AdminShopMarketingCampaign**/
   campaigns: {
@@ -5359,6 +5377,7 @@ export default {
     no_shops:
       "Sorry, no store found. There will be more stores in the future so you can put their products in your store.",
     show_all_shops: "Show all shops",
+    show_eligible_shops_message: "Show eligible shops",
     show_all_message: "You can see all shops",
     current_shop: "Current shop",
     request_account: "Request account",
@@ -6085,6 +6104,22 @@ export default {
           msg: "Optional login after order payment..",
         },
       },
+
+
+      express:{
+        title:"Redirect after add to cart",
+
+        false:{
+          title:"Normal mode",
+          msg:"Remain on the page and continue shopping after clicking add to cart."
+        },
+        true:{
+          title:"Express mode",
+          msg:"Redirect customer to the checkout page after clicking add to cart."
+        },
+
+      }
+
     },
   },
 
@@ -6094,6 +6129,13 @@ export default {
     subtitle:
       "Set your business model, and we will configure your OS  behind the scene.",
   },
+  business_type:{
+    title: "Merchandise types",
+    subtitle:
+        "Set the type of products you want to sell in your store. Product types in Selldone are more than just a type of the products; it's more about fulfillment procedure.",
+  },
+
+
   /** {@see BusinessModelView} **/
   business_model_view: {
     normal: {
