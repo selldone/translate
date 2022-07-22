@@ -47,12 +47,12 @@ export default {
     title: "Sort by",
     title_small: "Sort by..",
     nothing: "Nothing",
-    most_views: "Most views",
+    most_views: "Most Views",
     most_likes: "Most Popular",
     most_recent: "Newest",
     most_sell: "Bestselling",
     cheapest: "Cheapest",
-    most_expensive: "Most expensive",
+    most_expensive: "Most Expensive",
     only_available: "Available",
     view_mode: {
       normal: "Normal",
@@ -121,9 +121,9 @@ export default {
   /** @see ProductPage **/
 
   product: {
-    review: "Review",
+    review: "Description",
     spec: "Spec",
-    comments: "Comments",
+    comments: "Reviews",
     related_products_title: "Related products",
     price: "Price",
     rate: "Rate",

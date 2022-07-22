@@ -601,6 +601,8 @@ export default {
         tax: "مالیات",
         drop_shipping: "تسویه دراپ شیپینگ",
         reseller_accounts: "حساب های دراپ شیپینگ",
+        valuations: "قیمت گذاری",
+
       },
 
       /** {@see AdminShopFinance_Bill} **/
@@ -2552,6 +2554,8 @@ export default {
     developer_title: "وضعیت توسعه دهنده",
     developer_message:
       "درصورتی که درگاه وضعیت آزمایشی را پشتیبانی نماید می توانید تراکنش های آزمایشی را با فعال کردن این گزینه انجام دهید.",
+    live_mode_message:"تمام تراکنش ها به صورت واقعی صورت خواهد گرفت.",
+
     notifications: {
       edit_success: "درگاه {gateway_name} ویرایش گردید.",
     },
@@ -4231,6 +4235,8 @@ export default {
     min_purchase: "حداقل مبلغ خرید",
     only_first_order: "تنها برای اولین خرید",
     one_time_use: "یکیار مصرف",
+    multiple_use: "چندبار مصرف",
+
     amount_usage: "میزان مصرف",
 
     delete_alert: {
@@ -5498,14 +5504,14 @@ export default {
     /** @see CompleteProductFilterView **/
     products: {
       title: "مدیریت لیست محصولات  / دسته بندی ها",
-      sort_options: "انتخاب تنطیمات مرتب سازی و نمایش",
-      item_types: "انتخاب نوع آیتم های نمایش داده شده",
+      sort_options: "انتخاب تنطیمات مرتب سازی و نمایش.",
+      item_types: "انتخاب نوع آیتم های نمایش داده شده.",
       product_only: "فقط محصولات",
       category_only: "فقط دسته بندی ها",
       no_category: "دسته بندی در فروشگاه شما یافت نشد.",
       limit: "حداکثر تعداد محصول",
       limit_message: "حداکثر تعداد محصولات نمایش داده شده را انتخاب نمایید.",
-      select_categories: "انتخاب محدودیت دسته بندی ها",
+      select_categories: "انتخاب محدودیت دسته بندی ها.",
     },
   },
 
@@ -6185,6 +6191,11 @@ export default {
       title: "حجم",
       desc: "عرض، طول و ارتفاع به عنوان ورودی برای محاسبه تعداد وارد کنید.",
     },
+    custom: {
+      title: "سفارشی (توسط فرم ورودی)",
+      desc: "بدون نیاز به صدها تنوع، یک فرم محاسبه هزینه برای محصولات قابل سفارشی سازی و یا با تنوع زیاد ایجاد کنید.",
+    },
+
   },
 
 

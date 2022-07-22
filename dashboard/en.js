@@ -176,12 +176,12 @@ export default {
     title: "Sort by",
     title_small: "Sort by..",
     nothing: "Nothing",
-    most_views: "Most views",
+    most_views: "Most Views",
     most_likes: "Most Popular",
     most_recent: "Newest",
     most_sell: "Bestselling",
     cheapest: "Cheapest",
-    most_expensive: "Most expensive",
+    most_expensive: "Most Expensive",
     only_available: "Available",
     view_mode: {
       normal: "Normal",
@@ -628,6 +628,8 @@ export default {
         tax: "Tax",
         drop_shipping: "Reseller receipts",
         reseller_accounts: "Reseller accounts",
+        valuations: "Valuations",
+
       },
 
       /** {@see AdminShopFinance_Bill} **/
@@ -1283,7 +1285,7 @@ export default {
       inputs: "Input",
       outputs: "output",
       extra: "Additional details",
-      review: "Product Review",
+      review: "Product Description",
       inventory: "Inventory / Variants",
     },
 
@@ -1512,7 +1514,7 @@ export default {
 
     menu: {
       edit: "Edit",
-      review: "Review",
+      review: "Description",
       orders: "Orders",
       inventory: "Inventory",
       dashboard: "Dashboard",
@@ -2367,7 +2369,7 @@ export default {
         title: "Service Fee",
         description:
           "This amount has been deducted from your Selldone wallet account.",
-        tooltip: "Calculate by payment method",
+        tooltip: "Calculate Total Service Fees",
         percent: "Percent",
       },
       affiliate: {
@@ -2563,8 +2565,9 @@ export default {
     gateway_status: "Status",
     wallet: "Blockchain wallet",
     developer_title: "Developer mode",
-    developer_message:
-      "You can process fake transactions if the gateway supports debug mode.",
+    developer_message: "You can process simulated transactions if the gateway supports debug mode.",
+    live_mode_message:"All transactions will be in live mode.",
+
     notifications: {
       edit_success: "Gateway {gateway_name} edited.",
     },
@@ -4235,7 +4238,10 @@ export default {
     qualified_products: "Eligible  products",
     min_purchase: "Minimum purchase",
     only_first_order: "Only first purchase",
-    one_time_use: "Single-use",
+
+
+    one_time_use: "One time use",
+    multiple_use: "Multiple use",
     amount_usage: "Used amount",
 
     delete_alert: {
@@ -4290,7 +4296,6 @@ export default {
     has_qualify_constraints: "Do you want to define more limits?",
     has_qualify_constraints_message:
       "Set more conditions to qualify the customer to use this coupon.",
-    one_time_use: "Single-use",
     one_time_use_message: "Customer can use this coupon for one time.",
     daily_limit: "Daily limit",
     no_limit: "No limit",
@@ -4505,12 +4510,11 @@ export default {
     title_add: "New lottery item",
     general_config: "General configuration",
     design_style: "Style & Appearance",
-    enable: "Enabled?",
-    enable_message: "Mximum items in a wheel are 14.",
+    enable_message: "Maximum items in a wheel are 14.",
     title_input: "Title",
     title_input_hint: "Write a short title.",
     description_input: "Description",
-    description_input_hint: "Wrtie a description about the item.",
+    description_input_hint: "Write a description about the item.",
     quantity: "Quantity",
     quantity_message: "Total available items",
     image: "Image",
@@ -4589,6 +4593,11 @@ export default {
     LIMIT: {
       title: "Limit",
       description: "Set a limit on the maximum number of users.",
+    },
+
+    SEGMENTS: {
+      title: "Segments",
+      description: "Limit customers in specific manual segmentation.",
     },
   },
 
@@ -5498,14 +5507,14 @@ export default {
     /** @see CompleteProductFilterView **/
     products: {
       title: "Product & categories list management",
-      sort_options: "Select the Sorting and View settings",
-      item_types: "Show only products / categories",
+      sort_options: "Select the Sorting and View settings.",
+      item_types: "Show only products / categories.",
       product_only: "Products only",
       category_only: "Categories only",
       no_category: "There is no category in your store.",
       limit: "Products limit",
-      limit_message: "Enter products result counts",
-      select_categories: "Select available categories",
+      limit_message: "Enter products result counts.",
+      select_categories: "Select available categories.",
     },
   },
 
@@ -6182,6 +6191,10 @@ export default {
     volume: {
       title: "Volume",
       desc: "Enter width, length, and height as inputs to calculate the quantity.",
+    },
+    custom: {
+      title: "Custom (By input form)",
+      desc: "No need for hundreds of variants! Create a custom cost calculation form for highly customizable products.",
     },
   },
 

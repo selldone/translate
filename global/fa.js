@@ -625,7 +625,15 @@ export default {
     segments:'بخش بندی',
     personal_info: "اطلاعات شخصی",
     preferences:'ترجیحات',
-
+    spec:'مشخصات',
+    reviews:'نقد و بررسی',
+    constraints:'محدودیت ها',
+    flexible:'انعطاف پذیر',
+    usage_limit: "محدودیت مصرف",
+    temporary:'موقت',
+    original:'اصل',
+    saved:'ذخیره شد!',
+    sort:'مرتب سازی',
 
   },
 
@@ -1236,16 +1244,19 @@ export default {
   form_builder: {
     add_item_action: "افزودن آیتم جدید",
     title_input: "عنوان",
+    placeholder_input: "راهنما",
+
     name_input: "نام متغییر",
     value_input: "مقادیر",
     value_input_message: "لیست گزینه های کاربر",
     default: "مقدار پیشفرض",
 
     types: {
-      simple: "ساده",
+      simple: "متن ساده",
       selective: "انتخابی",
       switch: "چک باکس",
       file: "فایل",
+      number: "عدد",
 
     },
   },

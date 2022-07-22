@@ -626,6 +626,15 @@ export default {
     segments:'Segments',
     personal_info: "Personal info",
     preferences:'Preferences',
+    spec:'Spec',
+    reviews:'Reviews',
+    constraints:'Constraints',
+    flexible:'Flexible',
+    usage_limit: "Usage limit",
+    temporary:'Temporary',
+    original:'Original',
+    saved:'Saved!',
+    sort:'Sort',
 
   },
 
@@ -843,6 +852,8 @@ export default {
     "quarts",
     "yards",
     "room",
+
+    'seconds', 'minutes', 'hours', 'days', 'weeks', 'months' , 'years'
   ],
 
   region_types: {
@@ -1092,6 +1103,8 @@ export default {
     ZMW: "ZMW",
     ZWD:"ZWD",
     IQD:"IQD",
+    SYP:"SYP",
+
   },
 
   variants: {
@@ -1358,6 +1371,7 @@ export default {
   form_builder: {
     add_item_action: "Add new item",
     title_input: "Title",
+    placeholder_input: "Placeholder",
     name_input: "Variable name",
     value_input: "Values",
     value_input_message: "User Options List",
@@ -1367,10 +1381,11 @@ export default {
     file_type_message:"jpeg , png , zip , ...",
 
     types: {
-      simple: "Simple",
+      simple: "Simple text",
       selective: "Selective",
       switch: "Switch",
       file: "File",
+      number: "Number",
     },
   },
 
