@@ -99,12 +99,12 @@ export default {
     }
   },
   "product": {
-    "review": "Revisione",
-    "spec": "Spec",
+    "review": "Descrizione",
+    "spec": "Specifiche",
     "comments": "Commenti",
     "related_products_title": "Prodotti correlati",
     "price": "Prezzo",
-    "rate": "Valutare",
+    "rate": "Valuta",
     "comment": "Commento"
   },
   "layout_shop": {
