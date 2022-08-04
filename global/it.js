@@ -1,5 +1,5 @@
 export default {
-  "currency_default": "USD",
+  "currency_default": "EUR",
   "language_default": "it",
   "selldone": "Selldone",
   "store": "negozio",
@@ -38,7 +38,7 @@ export default {
     "password": "Parola d'ordine",
     "email": "E-mail",
     "mobile": "Mobile",
-    "login": "Accedere",
+    "login": "Accedi",
     "register": "Registrati",
     "select_account": "Seleziona account",
     "online": "in linea",
@@ -627,7 +627,7 @@ export default {
     "online_payment": "Pagamento online",
     "checkout": "Guardare",
     "show_all": "Mostra tutto",
-    "login": "Accedere",
+    "login": "Accedi",
     "logout": "Disconnettersi",
     "more": "Di più..",
     "collapse": "Crollo",
@@ -1067,7 +1067,7 @@ export default {
     "pickup_description": "I clienti ritirano gli articoli presso il tuo negozio fisico o magazzino."
   },
   "article": {
-    "login_to_see_error": "Effettua il login per accedere all'articolo",
+    "login_to_see_error": "Effettua l'accesso vedere l'errore",
     "create_new_action": "Crea nuovo contenuto",
     "menu_title": "Menù",
     "menu": {
@@ -1541,7 +1541,7 @@ export default {
     "label": "Moneta"
   },
   "need_login": {
-    "title": "Accedere",
+    "title": "Accedi",
     "login_sms": "Accesso SMS",
     "login_google": "Accedi con Google",
     "login_facebook": "Fai il login con facebook",
@@ -1550,7 +1550,7 @@ export default {
     "mobile_input": "Inserisci il tuo cellulare",
     "verification_code": "Codice di verifica",
     "msg_title": "Ciao,",
-    "msg_body": "Accedete, per favore. Ci vogliono solo pochi secondi."
+    "msg_body": "Effettua l'accesso in pochi secondi."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
