@@ -41,7 +41,7 @@ export default {
   "Github": "Github",
   "page_titles": {
     "home": "Selldone | Il sistema operativo aziendale per le aziende in rapida crescita",
-    "login": "Accedere",
+    "login": "Accedi",
     "register": "Registrati",
     "auth_2fa": "Autenticazione a 2 fattori 🔐",
     "academy": "Blog",
