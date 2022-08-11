@@ -1,8 +1,8 @@
 export default {
   "commons": {
-    "pay_today": "Pagamento di oggi",
-    "pay_yesterday": "Ieri pagamento",
-    "pay_last30days": "Ultimi 30 giorni di pagamento",
+    "pay_today": "Pagato di oggi",
+    "pay_yesterday": "Pagato Ieri",
+    "pay_last30days": "Pagati negli ultimi 30 giorni",
     "create_a_shop": "Crea un negozio",
     "start_free": "Inizia gratis",
     "featured_apps": "App in primo piano",
@@ -16,22 +16,22 @@ export default {
     "license_max_limit": "La tua licenza ha raggiunto il limite!"
   },
   "time_spans": {
-    "days_range": "Intervallo di giorni",
-    "today": "In data odierna",
+    "days_range": "Intervallo in giorni",
+    "today": "Oggi",
     "yesterday": "Ieri",
     "last_7": "Ultimi 7 giorni",
     "last_14": "Ultimi 14 giorni",
     "last_30": "Ultimi 30 giorni",
     "last_90": "Ultimi 90 giorni",
-    "custom": "Costume"
+    "custom": "Personalizzato"
   },
   "device_types": {
     "desktop": "Desktop",
     "mobile": "Mobile",
-    "tablet": "Tavoletta"
+    "tablet": "Tablet"
   },
   "create_website_action": "Crea il tuo sito web: è gratis",
-  "show_shops_action": "Elenco dei miei negozi",
+  "show_shops_action": "I miei negozi",
   "Youtube": "Youtube",
   "Linkedin": "Linkedin",
   "Twitter": "Twitter",
@@ -52,11 +52,11 @@ export default {
     "wallet": "Il mio portafoglio",
     "personal_info": "Informazioni personali | KYC",
     "companies": "Le mie aziende",
-    "access_control": "Controllo di accesso",
+    "access_control": "Controllo accessi",
     "security_center": "Centro di sicurezza",
     "gifts": {
       "received": "Regali | Ricevuto",
-      "send": "Regali | Spedito"
+      "send": "Regali | Inviati"
     },
     "monetization": {
       "linked_accounts": "Monetizzazione | Account collegati",
@@ -91,7 +91,7 @@ export default {
     "no_currency": {
       "title": "Aggiungi valuta",
       "message": "Devi definire almeno una valuta per il tuo negozio.",
-      "action": "Gestione valutaria"
+      "action": "Gestione valuta"
     },
     "no_primary_domain": {
       "title": "Il dominio principale",
@@ -121,23 +121,23 @@ export default {
     "close_ticket_by_user": "Grazie, ho avuto la risposta"
   },
   "surveys": [
-    "Molto povero",
-    "Povero",
+    "Scarso",
+    "Non buono",
     "Normale",
-    "Bene",
+    "Buono",
     "Eccellente"
   ],
   "sort": {
     "title": "Ordina per",
     "title_small": "Ordina per..",
     "nothing": "Niente",
-    "most_views": "La maggior parte delle visualizzazioni",
+    "most_views": "Più visto",
     "most_likes": "Più popolare",
-    "most_recent": "Il più recente",
-    "most_sell": "Bestseller",
-    "cheapest": "Il più economico",
-    "most_expensive": "Il più costoso",
-    "only_available": "Disponibile",
+    "most_recent": "Più recente",
+    "most_sell": "Più Venduto",
+    "cheapest": "Più economico",
+    "most_expensive": "Più costoso",
+    "only_available": "Solo i disponibili",
     "view_mode": {
       "normal": "Normale",
       "grid": "Griglia",
@@ -152,9 +152,9 @@ export default {
     "resources": "Risorse",
     "categories": {
       "Welcome": "Iniziare",
-      "Setup": "negozio",
-      "Sell": "vendite e marketing",
-      "Developer": "Sviluppare",
+      "Setup": "Impostazioni",
+      "Sell": "Vendite e marketing",
+      "Developer": "Sviluppatori",
       "Application": "Applicazioni"
     },
     "faq": "FAQ",
@@ -179,20 +179,20 @@ export default {
     "message": "Una delle caratteristiche chiave di Selldone è la fornitura di API robuste e sicure per gestire e collegare i negozi ad altri servizi come magazzinaggio, contabilità, ecc. Puoi anche progettare app e app Web personalizzate per il tuo negozio. Senza doversi preoccupare di server e gestione dei dati. Basta usare le API di dominio. Avrai tutto il processo di gestione degli utenti, l'autenticazione e altre funzionalità del dominio."
   },
   "user_dashboard": {
-    "title": "La mia navetta",
+    "title": "Pannello di controllo",
     "subtitle": "Gestisci la tua attività con informazioni aggiornate e prospettive chiare.",
     "menu": {
       "affiliate": "Affiliato",
-      "monetize": "Monetizzare",
+      "monetize": "Monetizzazione",
       "gift": "Regalo",
       "security": "Sicurezza",
       "access": "Accesso",
       "business": "Azienda",
       "wallet": "Portafoglio",
       "identification": "KYC",
-      "stores": "I negozi",
+      "stores": "Negozi",
       "roles": "Ruoli",
-      "home": "Casa",
+      "home": "Home",
       "expert": "Esperto"
     },
     "shops": {
@@ -220,11 +220,11 @@ export default {
         "page_views": "Visualizzazioni",
         "user_behavior": "Comportamento del cliente",
         "time_span": "da {time} fino ad ora",
-        "finance_report": "Relazione finanziaria",
+        "finance_report": "Report finanziari",
         "buys": "Acquisti",
         "payments": "Pagamenti",
         "orders": "Ordini",
-        "currency": "Moneta"
+        "currency": "Valuta"
       }
     }
   },
@@ -300,7 +300,7 @@ export default {
           "primary": "Primario",
           "url": "URL",
           "site_map": "Mappa del sito",
-          "enable": "Abilitare",
+          "enable": "Abilita",
           "indexed": "Indicizzato",
           "and_more": "& di più..",
           "auto_repair": "Auto Riparazione"
