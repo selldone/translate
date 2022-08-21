@@ -62,9 +62,9 @@ export default {
     "brand": "Marca",
     "category": "Categoria",
     "discount": "Sconto",
-    "track_price": "Traccia il prezzo",
-    "waiting_for_auction": "Aspettando l'asta?",
-    "inform_auction": "Parlami dell'asta",
+    "track_price": "Segui il prodotto",
+    "waiting_for_auction": "Avvisami sulle offerte",
+    "inform_auction": "Avvisi offerte attivate",
     "return_in_days": "{days} Giorni Garanzia Restituzione",
     "support24h7": "Supporto 24 ore 7 giorni",
     "support_normal": "Supporto orario di lavoro",
@@ -75,8 +75,8 @@ export default {
     "external_link": "Leggi di più",
     "notifications": {
       "congratulation": "Congratulazioni",
-      "waiting_list_add_success": "Ti avviseremo quando questo prodotto sarà messo all'asta.",
-      "waiting_list_delete_success": "Sei uscito dalla lista d'attesa dell'asta."
+      "waiting_list_add_success": "Ti avviseremo quando questo prodotto sarà in offerta.",
+      "waiting_list_delete_success": "Sei uscito dalla lista d'attesa delle offerte."
     },
     "offer_message": "Acquista {min_quantity} Ottieni uno sconto del {percent}% su questi articoli",
     "up_to": "Fino a {per_order}x per ordine",
@@ -85,14 +85,14 @@ export default {
   },
   "buy_button": {
     "waiting_for_availability": "In attesa di disponibilità",
-    "inform_me_when_available": "Aspettando questo?",
+    "inform_me_when_available": "Avvisami quando disponibile",
     "pay_buy": "Paga e acquista",
-    "quantity": "Contare",
+    "quantity": "Quantità",
     "quantity_in_basket": "Articoli nel carrello",
     "count_unit": "X",
-    "remove": "Rimuovere",
+    "remove": "Rimuovi",
     "add_to_basket": "Aggiungi al carrello",
-    "buy": "Acquistare",
+    "buy": "Acquista",
     "notifications": {
       "inform_add_success": "Ti faremo sapere quando sarà disponibile.",
       "inform_remove_success": "Sei stato rimosso dalla lista d'attesa."
@@ -101,11 +101,11 @@ export default {
   "product": {
     "review": "Descrizione",
     "spec": "Specifiche",
-    "comments": "Commenti",
+    "comments": "Recensioni",
     "related_products_title": "Prodotti correlati",
     "price": "Prezzo",
     "rate": "Valuta",
-    "comment": "Commento"
+    "comment": "Recensione"
   },
   "layout_shop": {
     "shop_menu": {
@@ -133,7 +133,7 @@ export default {
     "total_price": "Totale",
     "view_basket": "Il tuo carrello",
     "more": "Di più ...",
-    "accept_and_pay": "Guardare",
+    "accept_and_pay": "Accetta e paga",
     "items": "Elementi)"
   },
   "history_orders_physical": {
@@ -161,7 +161,7 @@ export default {
       "gift_card": "Carta regalo",
       "comments": "Commenti",
       "favorites": "Preferiti",
-      "return_requests": "ritorna",
+      "return_requests": "Richieste di reso",
       "addresses": "Indirizzi",
       "profile": "profilo",
       "orders": "Ordini"
@@ -171,8 +171,8 @@ export default {
     "title": "Ordine",
     "payment": {
       "title": "Pagamento",
-      "payment_waiting": "aspettando il pagamento",
-      "payment_completed": "Pagato",
+      "payment_waiting": "In attesa del pagamento",
+      "payment_completed": "Pagamento completato",
       "table": {
         "title": "Titolo",
         "amount": "Importo",
