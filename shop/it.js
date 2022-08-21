@@ -1,9 +1,9 @@
 export default {
   "surveys": [
-    "Molto povero",
-    "Povero",
+    "Scarso",
+    "Non buono",
     "Normale",
-    "Bene",
+    "Buono",
     "Eccellente"
   ],
   "footer": {
@@ -56,8 +56,8 @@ export default {
     "fake": "Falso",
     "action": "Asta",
     "compare_limit": "Limite di 10 articoli",
-    "compare_add": "Aggiungi per confrontare",
-    "compare_be_in_list": "Nella lista di confronto",
+    "compare_add": "Aggiungi al comparatore",
+    "compare_be_in_list": "Nella lista di comparazione",
     "type": "Tipo",
     "brand": "Marca",
     "category": "Categoria",
