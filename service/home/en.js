@@ -19,8 +19,8 @@ export default {
 
   create_shopping_website: "Create My Ecommerce",
 
-  your_shop: "Your Shop",
-  your_dashboard: "Your Cockpit",
+  your_shop: "Your Storefront",
+  your_dashboard: "Your Back Office",
 
   s1: {
     /* title: "Make Your Online Store By<br>No—Code & No—Expert Needed Solution",
@@ -171,12 +171,12 @@ export default {
   business_model: {
     title: "Visually business model adoption.",
     subtitle:
-        "Setup and change your business model visually, all complexity tune behind the scene.",
+        "Setup your business model visually, all complexity will be tuned behind the scene.",
   },
 
 
   os: {
-    title: "Access to world-class tools — Free.",
+    title: "Access to world-class tools — All included.",
     msg: "We put the power of creating professional ecommerce at your fingertips.",
   },
   login: {
@@ -272,7 +272,7 @@ export default {
   },*/
 
   unbanked: {
-    title: "One platform, One solution — Objective.",
+    title: "Onetime action, Lifetime benefit — Objective.",
     msg: "A unique Business OS to facilitate online sales and unlock entrepreneurial spirit, even for over 1.7 billion unbanked adults.",
   },
   faqs: [
@@ -340,4 +340,10 @@ export default {
     title: "Meet the team.",
     msg: "We will game by different rules in the brutal field of commerce platforms, especially when our competitors spend millions of dollars on advertising; we invest in the product, people, and solving real problems. This team back your business!",
   },
+
+  customers:{
+    title: "Meet our community.",
+    msg: "It's just a start of a journey to build meaningful tools to unlock future entrepreneurs by learning from our customers."
+  },
+
 };

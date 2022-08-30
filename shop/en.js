@@ -647,4 +647,11 @@ export default {
       charge: "Charge",
     },
   },
+
+  /** @see PrivateShopAccessCheckView **/
+  check_access: {
+    waiting_message: "Waiting to check access...",
+    no_access_message:
+      "Unfortunately, you do not have access to our store. <br/>Please contact us.",
+  },
 };

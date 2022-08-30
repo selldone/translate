@@ -268,6 +268,7 @@ export default {
       roles: "Roles",
       home: "Home",
       expert: "Expert",
+      deals: "Deals",
     },
     shops: {
       create_new: "Create new shop",
@@ -412,7 +413,7 @@ export default {
           set_message: "Set CNAME of this domain to {cname}.",
           input_domain_message: "Enter the domain name without http and https.",
           ssl_message:
-            "Don't worry about SSL certificate for your website. This certification will be issued for your domain automatically by Selldone (beta).",
+            "Don't worry about the SSL certificate for your website. You can get SSL through free or paid CDN providers like Cloudflare.",
           active: "The domain is active",
           inactive: "Domain is disabled",
           success_message:
@@ -564,6 +565,8 @@ export default {
       /** {@see AdminShopBlogsList} **/
       list: {
         title: "My Articles",
+        subtitle:
+          "Write articles with a modern inline editor to present yourself and your business. Original content is the first thing you need to focus on when writing a high-quality SEO-friendly blog post.",
         waiting_message: "Receiving information ... please wait",
         published: "Published",
         draft: "Draft",
@@ -629,7 +632,6 @@ export default {
         drop_shipping: "Reseller receipts",
         reseller_accounts: "Reseller accounts",
         valuations: "Valuations",
-
       },
 
       /** {@see AdminShopFinance_Bill} **/
@@ -2565,8 +2567,9 @@ export default {
     gateway_status: "Status",
     wallet: "Blockchain wallet",
     developer_title: "Developer mode",
-    developer_message: "You can process simulated transactions if the gateway supports debug mode.",
-    live_mode_message:"All transactions will be in live mode.",
+    developer_message:
+      "You can process simulated transactions if the gateway supports debug mode.",
+    live_mode_message: "All transactions will be in live mode.",
 
     notifications: {
       edit_success: "Gateway {gateway_name} edited.",
@@ -2811,16 +2814,13 @@ export default {
 
     vendor: "Vendor order state changed from <b>{from}</b> to <b>{to}</b>.",
 
-
-    "connect-sync":"Order synced by Connect OS.",
-    "connect-shipped":"Connect order has been shipped by {shipping}.",
-    "connect-returned":"Connect order has been returned by {shipping}.",
-    "connect-failed":"Order fulfillment failed by the partner. {reason}",
-    "connect-canceled":"The order was canceled by the partner.  {reason}",
-    "connect-put-hold":"The order was putted on hold. {reason}",
-    "connect-remove-hold":"The order was removed from hold. {reason}",
-
-
+    "connect-sync": "Order synced by Connect OS.",
+    "connect-shipped": "Connect order has been shipped by {shipping}.",
+    "connect-returned": "Connect order has been returned by {shipping}.",
+    "connect-failed": "Order fulfillment failed by the partner. {reason}",
+    "connect-canceled": "The order was canceled by the partner.  {reason}",
+    "connect-put-hold": "The order was putted on hold. {reason}",
+    "connect-remove-hold": "The order was removed from hold. {reason}",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -3584,9 +3584,10 @@ export default {
     title: "Account",
     menu: {
       setting: "Settings",
-      change: "Charge",
+      charge: "Charge",
       transfer: "Transfer",
       transactions: "Transactions",
+      history: "History",
     },
 
     /** {@see AccountPage_Transactions} **/
@@ -3823,7 +3824,7 @@ export default {
     menu: {
       personal_information: "Personal Information and Profile",
       wallet: "Wallets & Accounts",
-      companies: "Companies and Business Accounts",
+      companies: "Companies & Businesses",
       access: "Access to My Account",
       security: "Security",
       preferences: "User Preferences",
@@ -3930,10 +3931,14 @@ export default {
     terms: "I read and agree with Selldone terms of use",
     need_charge: "Need charge",
     buy_now: "Buy now",
+    use_voucher_now: "Use voucher now",
     auto_renewal: "Auto renewal",
     plan_placeholder: "Select your subscription plan",
     plan: "License plan",
     use_date: "Added date",
+    validity_duration: "Validity duration",
+    validity_duration_hint:
+      "By purchasing a 12-month license, you will receive a 30% discount.",
 
     active_license: {
       title: "Active License",
@@ -4238,7 +4243,6 @@ export default {
     qualified_products: "Eligible  products",
     min_purchase: "Minimum purchase",
     only_first_order: "Only first purchase",
-
 
     one_time_use: "One time use",
     multiple_use: "Multiple use",
@@ -4753,6 +4757,15 @@ export default {
       action: "Add service",
     },
   },
+  /** {@see AdminShopTransportationPage_PickupAddresses**/
+  transportation_pickups: {
+    addresses: {
+      title: "Pickup addresses",
+      subtitle:
+        "Add and edit pickup addresses here. Users will be able to select the pickup address on the checkout page.",
+      add_action: "Add new location",
+    },
+  },
 
   /** {@see DeliveryReceiptWidget**/
   delivery_receipt: {
@@ -4836,6 +4849,9 @@ export default {
   },
   /** {@see CashRegister_Dashboard**/
   pos: {
+    name: "POS",
+    message:
+      "Have your zero-setup cost online point of sale, run it on any smartphone, tablet, and PC, or create orders manually.",
     add_customer: "Add a Customer",
     set_delivery: "Set Delivery Address",
     add_giftcards: "Add Gift Card",
@@ -4923,7 +4939,7 @@ export default {
     customer: {
       title: "Import customers",
       subtitle:
-          "Upload CSV files of customers here. Make sure you follow the standard format, and also, you have to follow privacy rules.",
+        "Upload CSV files of customers here. Make sure you follow the standard format, and also, you have to follow privacy rules.",
     },
   },
   /** {@see AdminShopMarketingCampaign**/
@@ -5180,6 +5196,8 @@ export default {
     message_add_to_service:
       "Click the following button if you want to send this package by a <b>delivery service</b>.",
     action: "Delivery Confirmation",
+    pickup_action: "Pickup confirmation",
+
     checklist: [
       "Check courier's identity card.",
       "Well-packaging of products and timely delivery can increase your customers' retention rate.",
@@ -5747,6 +5765,7 @@ export default {
 
   /** {@see AvocadoHomePage} **/
   avocado: {
+    name: "Avocado",
     title: "Fast, Accurate & Enjoyable Sales on Social Media",
     message:
       "One amount and one title is all you need to get money from your customers! Money will be credited directly to your account and your customers will have a unique shopping experience.",
@@ -5839,6 +5858,7 @@ export default {
   /** {@see ProductHyperPage} **/
   /** {@see AdminShop_Channels_Hyper} **/
   hyper: {
+    name: "Hyper",
     print_label:
       "Print the following label and place it in front of the product",
     hyper_form_link_product_message:
@@ -6114,21 +6134,37 @@ export default {
         },
       },
 
+      express: {
+        title: "Redirect after add to cart",
 
-      express:{
-        title:"Redirect after add to cart",
-
-        false:{
-          title:"Normal mode",
-          msg:"Remain on the page and continue shopping after clicking add to cart."
+        false: {
+          title: "Normal mode",
+          msg: "Remain on the page and continue shopping after clicking add to cart.",
         },
-        true:{
-          title:"Express mode",
-          msg:"Redirect customer to the checkout page after clicking add to cart."
+        true: {
+          title: "Express mode",
+          msg: "Redirect customer to the checkout page after clicking add to cart.",
         },
+      },
 
-      }
-
+      shipping_address: {
+        title: "Ask for shipping address",
+      },
+    },
+  },
+  /** {@see CheckoutOptions} **/
+  checkout_options: {
+    default: {
+      title: "Physical & Service (Default)",
+      desc: "Ask the customer to enter an address in the physical and service checkouts.",
+    },
+    physical: {
+      title: "Physical Only",
+      desc: "Ask the customer to enter an address just in the physical checkout.",
+    },
+    off: {
+      title: "Never",
+      desc: "Never ask for the shipping address. ⚠ Use this option if you plan to have services with variants by selecting physical type for products instead of service type.",
     },
   },
 
@@ -6138,12 +6174,18 @@ export default {
     subtitle:
       "Set your business model, and we will configure your OS  behind the scene.",
   },
-  business_type:{
+  business_type: {
     title: "Merchandise types",
     subtitle:
-        "Set the type of products you want to sell in your store. Product types in Selldone are more than just a type of the products; it's more about fulfillment procedure.",
-  },
+      "Set the type of products you want to sell in your store. Product types in Selldone are more than just a type of the products; it's more about fulfillment procedure.",
 
+    send_activation_request_to_support:
+      "Send an activation request in a support ticket.",
+    require_kyc: "Business owner KYC.",
+    needs_enterprise_license: "You need to have an Enterprise license.",
+    marketplace_caution_message:
+      "Set Marketplace as your model deeply affects your business OS configuration. For example, you must define at least one vendor for each product with independent pricing and inventory. Customers can not buy products that have no vendor.",
+  },
 
   /** {@see BusinessModelView} **/
   business_model_view: {
@@ -6176,6 +6218,7 @@ export default {
   marketplace: {
     vendor_wallets: "Wallets",
     pricing_models: "Pricing",
+    add_vendor: "Add vendor",
   },
 
   price_input_type: {
@@ -6198,17 +6241,17 @@ export default {
     },
   },
 
-
   /** {@see VendorsList} **/
   vendors_list: {
     title: "My Vendors",
     message: "List of my own vendors.",
   },
 
-  vendor_page:{
+  vendor_page: {},
 
-
-  }
-
-
+  /** {@see ShopDomains} **/
+  domains: {
+    message:
+      "Connect multiple domains to your business OS and manage all of them in one place. You can use the multiple domains feature to create dedicated domains for each part of your website, like blog and community, or use different domains for your affiliates.",
+  },
 };

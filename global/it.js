@@ -1,5 +1,5 @@
 export default {
-  "currency_default": "USD",
+  "currency_default": "EUR",
   "language_default": "it",
   "selldone": "Selldone",
   "store": "negozio",
@@ -8,16 +8,16 @@ export default {
   "active": "Attivo",
   "inactive": "inattivo",
   "required_value": "Valori richiesti",
-  "original_warranty": "Garanzia del prodotto originale",
-  "return_warranty_days": "{days} giorno/i di garanzia di restituzione",
-  "no_return_warranty": "Senza ritorno",
+  "original_warranty": "Garanzia originale",
+  "return_warranty_days": "{days} giorno/i di restituzione in garanzia",
+  "no_return_warranty": "Nessuna garanzia di recesso/reso",
   "reed_agree_terms": "Ho letto i termini di utilizzo e l'informativa sulla privacy e li accetto.",
   "commons": {
-    "Currency": "Moneta",
+    "Currency": "Valuta",
     "COD": "COD",
     "State": "Stato",
     "Price": "prezzo",
-    "order_price": "Ammontare dell'ordine",
+    "order_price": "Importo ordine",
     "VAT": "VAT",
     "Discount": "Sconto",
     "In_Stock": "Disponibile",
@@ -27,7 +27,7 @@ export default {
     "today": "In data odierna",
     "yesterday": "Ieri",
     "license": "Licenza",
-    "home": "Casa",
+    "home": "Home",
     "support": "Supporto",
     "messages": "Messaggi",
     "no_message": "Nessun messaggio",
@@ -35,20 +35,20 @@ export default {
     "phone": "Telefono",
     "address": "indirizzo",
     "name": "Nome",
-    "password": "Parola d'ordine",
+    "password": "Password",
     "email": "E-mail",
     "mobile": "Mobile",
-    "login": "Accedere",
+    "login": "Accedi",
     "register": "Registrati",
     "select_account": "Seleziona account",
-    "online": "in linea",
+    "online": "online",
     "offline": "disconnesso",
     "finish": "Fine",
     "finished": "Finito",
     "preview": "Anteprima",
     "free": "Libero",
     "free_completely": "Abbonamento completamente gratuito",
-    "fee": "Tassa",
+    "fee": "importo",
     "month": "Mese",
     "months": "Mesi",
     "faq": "Domande frequenti",
@@ -58,13 +58,13 @@ export default {
     "update_date": "Data di aggiornamento",
     "start_date": "Data d'inizio",
     "end_date": "Data di fine",
-    "social": "Sociale",
+    "social": "Social",
     "total": "Totale",
     "orders": "Ordini",
     "sessions": "Sessioni",
     "product_views": "Visualizzazioni del prodotto",
     "add_to_carts": "Aggiungi ai carrelli",
-    "checkouts": "Guardare",
+    "checkouts": "completa acquisti",
     "payments": "Pagamento",
     "organic_search": "Ricerca organica",
     "other": "Altro",
@@ -72,11 +72,11 @@ export default {
     "discount_code": "Codice di sconto",
     "total_sell": "Vendite totali",
     "details": "Dettagli",
-    "currency": "Moneta",
+    "currency": "Valuta",
     "amount": "Importo",
     "published": "Pubblicato",
-    "draft": "Brutta copia",
-    "save_changes": "Salvare le modifiche",
+    "draft": "Bozza",
+    "save_changes": "Salva modifiche",
     "source": "Fonte",
     "medium": "medio",
     "url": "URL",
@@ -87,7 +87,7 @@ export default {
     "session": "Sessione",
     "product": "Prodotto",
     "add": "Aggiungere",
-    "checkout": "Guardare",
+    "checkout": "Procedi all'ordine",
     "payment": "Pagamento",
     "more_options": "Più opzioni",
     "full_name": "Nome e cognome",
@@ -95,7 +95,7 @@ export default {
     "about_me": "Su di me",
     "request_checking": "Richiedi il controllo",
     "passport": "Passaporto",
-    "birthday": "Compleanno",
+    "birthday": "Data di nascita",
     "country": "Paese",
     "city": "Città",
     "gender": "Genere",
@@ -134,16 +134,16 @@ export default {
     "bank": "Banca",
     "default": "Predefinito",
     "role": "Ruolo",
-    "user": "utente",
+    "user": "Utente",
     "users": "Utenti",
     "code": "Codice",
-    "total_payment": "Pagamento totale",
-    "balance": "Bilancia",
+    "total_payment": "Importo totale",
+    "balance": "rimanenza",
     "chance": "Opportunità",
     "free_for_new_users": "Gratuito per i nuovi utenti",
     "prize_amount": "Importo del premio",
     "win": "Vincita",
-    "gift_card": "Carta regalo",
+    "gift_card": "Gift Card",
     "discount": "Sconto",
     "config": "Config",
     "prize": "Premio",
@@ -263,7 +263,7 @@ export default {
     "delivery": "Consegna",
     "online_orders": "Ordini in linea",
     "pos_orders": "Ordini POS",
-    "chips": "Patatine fritte",
+    "chips": "Crediti",
     "subscribed": "Abbonato",
     "unsubscribed": "Iscrizione annullata",
     "last_login": "Ultimo accesso",
@@ -345,7 +345,7 @@ export default {
     "ticket": "Biglietto",
     "ticket_url": "URL del biglietto",
     "closed_at": "Chiuso a",
-    "close_ticket": "Chiudere il biglietto",
+    "close_ticket": "Chiudi il biglietto",
     "reopen_ticket": "Riaprire il biglietto",
     "require": "Richiedere*",
     "search": "Ricerca...",
@@ -495,7 +495,7 @@ export default {
     "now": "Adesso",
     "accept_agreement": "Ho letto e accettato le condizioni.",
     "report": "Rapporto",
-    "tablet": "Tavoletta",
+    "tablet": "Tablet",
     "pc": "PC",
     "acquisition_channel": "Canale di acquisizione",
     "to": "A",
@@ -570,76 +570,76 @@ export default {
   "actions": {
     "add_to_cart": "Aggiungi al carrello",
     "cancel": "Annulla",
-    "update": "Aggiornare",
-    "add": "Aggiungere",
-    "delete": "Eliminare",
+    "update": "Aggiorna",
+    "add": "Aggiungi",
+    "delete": "Elimina",
     "new": "Nuovo",
     "save_continue": "Salva e continua",
     "save": "Salva",
-    "save_changes": "Salvare le modifiche",
-    "change": "Modificare",
+    "save_changes": "Salva le modifiche",
+    "change": "Modifica",
     "continue": "Continua",
-    "close": "Chiudere",
-    "finish": "Fine",
+    "close": "Chiudi",
+    "finish": "Termina",
     "poll": "Sondaggio",
-    "view": "Visualizzazione",
-    "edit": "Modificare",
+    "view": "Visualizza",
+    "edit": "Modifica",
     "next": "Prossimo",
     "previous": "Precedente",
-    "create": "Creare",
-    "set": "impostare",
+    "create": "Crea",
+    "set": "imposta",
     "find": "Trova",
-    "accept": "Accettare",
-    "reject": "Rifiutare",
-    "back": "Di ritorno",
+    "accept": "Accetta",
+    "reject": "Rifiuta",
+    "back": "Indietro",
     "pay": "Paga",
     "pay_now": "Paga ora",
     "print": "Stampa",
     "return": "Ritorno",
-    "publish": "Pubblicare",
-    "confirm": "Confermare",
-    "copy": "copia",
+    "publish": "Pubblica",
+    "confirm": "Conferma",
+    "copy": "Copia",
     "submit": "Invia",
-    "send": "Spedire",
-    "yes": "sì",
+    "send": "Spedisci",
+    "yes": "Sì",
     "no": "No",
     "meh": "Hmm",
-    "clear": "Chiaro",
-    "dismiss": "Congedare",
-    "search": "Ricerca",
-    "deselect_all": "Deselezionare tutto",
+    "clear": "Cancella tutto",
+    "dismiss": "Annulla",
+    "search": "Cerca",
+    "deselect_all": "Deseleziona tutto",
     "select_all": "Seleziona tutto",
-    "refresh": "ricaricare",
-    "verify": "Verificare",
-    "play": "Giocare",
-    "open": "Aprire",
-    "calculate": "Calcolare",
+    "refresh": "Ricarica",
+    "verify": "Verifica",
+    "play": "Esegui",
+    "open": "Apri",
+    "calculate": "Calcola",
     "quick_buy": "Acquisto veloce",
     "click_here": "Clicca qui",
     "schedule": "Programma",
     "send_now": "Spedisci ora",
     "download": "Scarica",
-    "reset_default": "Riportare alle condizioni originali",
+    "reset_default": "Riporta alle condizioni originali",
     "reset": "Ripristina",
     "check": "Controllo",
     "cod_payment": "Pagamento alla consegna",
-    "dir_payment": "Trasferimento di denaro",
+    "dir_payment": "Bonifico bancario",
     "online_payment": "Pagamento online",
-    "checkout": "Guardare",
+    "checkout": "Checkout",
     "show_all": "Mostra tutto",
-    "login": "Accedere",
-    "logout": "Disconnettersi",
+    "login": "Accedi",
+    "logout": "Disconnetti",
     "more": "Di più..",
-    "collapse": "Crollo",
+    "collapse": "Espandi",
     "apply_change": "Applica i cambiamenti",
-    "apply": "Applicare",
-    "add_giftcard": "Aggiungi carta regalo",
-    "charge": "Caricare",
+    "apply": "Applica",
+    "add_giftcard": "Aggiungi Gift Card",
+    "charge": "Carica",
     "send_invites": "Invia inviti",
     "past": "Passato",
     "restore": "Ristabilire",
-    "cut": "Taglio",
-    "get_sms_code": "Ottieni il codice di autenticazione",
+    "cut": "Taglia",
+    "get_sms_code": "Ottieni il codice SMS di autenticazione",
     "register_no_mail": "Continua senza e-mail",
     "no_mail_register_message": "Non hai un indirizzo email o hai dimenticato la password?",
     "reset_by_mail": "Recupero password via e-mail",
@@ -653,23 +653,23 @@ export default {
     "remove_image": "Rimuovi immagine",
     "view_website": "Link aperto",
     "explore": "Esplora {name}",
-    "go": "andare",
+    "go": "vai",
     "read_more": "Leggi di più",
     "start_now": "Inizia ora: è gratuito",
     "view_live": "Guarda dal vivo",
-    "resend_code": "Codice di rispedizione",
-    "invite": "Invitare",
-    "add_more": "Aggiungere altro",
+    "resend_code": "Codice di rinvio",
+    "invite": "Invita",
+    "add_more": "Aggiungi altro",
     "install_now": "Installa ora",
     "uninstall": "Disinstalla",
-    "show_preview": "Anteprima dello spettacolo",
+    "show_preview": "Mostra anteprima",
     "hide_preview": "Nascondi anteprima",
     "download_now": "Scarica ora",
-    "auto_fill": "Riempimento automatico",
-    "track": "Traccia",
-    "change_state": "Cambiare stato",
+    "auto_fill": "Completamento automatico",
+    "track": "Segui",
+    "change_state": "Cambia stato",
     "done": "Fatto",
-    "reply": "rispondere"
+    "reply": "rispondi"
   },
   "instance_message_title": "Invia messaggio istantaneo",
   "instance_message": "Ciao {name}, mi chiamo {author} di {company}.",
@@ -683,14 +683,14 @@ export default {
       "title": "Indirizzo di spedizione",
       "confirm": "Imposta posizione",
       "address_type": "Destinazione",
-      "receptor_type": "Ricevitore"
+      "receptor_type": "Ricevente"
     },
     "receiver_address": "Seleziona l'indirizzo di spedizione",
     "address": "indirizzo",
     "postcode": "Codice postale",
-    "enter_value": "Compila qui",
+    "enter_value": "inserisci dato",
     "address_note": "Nota",
-    "tel": "Numero di contatto"
+    "tel": "Numero di telefono"
   },
   "weight": {
     "g": "g",
@@ -718,7 +718,7 @@ export default {
     "ft": "Piede",
     "mm": "millimetro",
     "m": "metro",
-    "yd": "Cortile"
+    "yd": "yard"
   },
   "distance": {
     "m": "metro",
@@ -772,7 +772,7 @@ export default {
     "phone": "+1 000 0000",
     "language": "Seleziona la lingua..",
     "friend_email": "L'e-mail del tuo amico...",
-    "friend_name": "Optare. Il nome del tuo amico",
+    "friend_name": "Il nome del tuo amico",
     "select_date": "Seleziona una data..."
   },
   "notification": {
@@ -1067,8 +1067,10 @@ export default {
     "pickup_description": "I clienti ritirano gli articoli presso il tuo negozio fisico o magazzino."
   },
   "article": {
-    "login_to_see_error": "Effettua il login per accedere all'articolo",
+
+    "login_to_see_error": "Effettua l'accesso vedere l'errore",
     "create_new_action": "Crea nuovo contenuto",
+
     "menu_title": "Menù",
     "menu": {
       "edit": "Modalità Modifica",
@@ -1219,18 +1221,18 @@ export default {
   },
   "social_network": {
     "instagram": "Instagram",
-    "telegram": "Telegramma",
+    "telegram": "Telegram",
     "googleplay": "Google Play",
     "appstore": "App Store",
     "twitter": "Twitter",
     "linkedin": "Linkedin",
-    "medium": "medio",
+    "medium": "Medium",
     "selldone": "Selldone",
     "facebook": "Facebook",
     "pinterest": "Pinterest",
     "whatsapp": "WhatsApp",
     "skype": "Skype",
-    "facebook_messenger": "Messaggero di Facebook"
+    "facebook_messenger": "Facebook Messenger"
   },
   "form_builder": {
     "add_item_action": "Aggiungi un nuovo elemento",
@@ -1342,7 +1344,7 @@ export default {
       "variant": "Variante",
       "warranty": "Garanzie",
       "count": "Contare",
-      "price": "prezzo"
+      "price": "Prezzo"
     }
   },
   "return_request_list": {
@@ -1359,7 +1361,7 @@ export default {
     }
   },
   "data_toolbar": {
-    "search": "Ricerca",
+    "search": "Cerca",
     "sort_by": "Ordina per",
     "count_item": "Mostra {item} elementi"
   },
@@ -1441,7 +1443,7 @@ export default {
   "search_box": {
     "result": "Risultati di ricerca",
     "tips": "Cerca prodotti e categorie",
-    "label": "Ricerca ...",
+    "label": "Cerca ...",
     "category": "Categoria"
   },
   "lead_status": {
@@ -1488,16 +1490,20 @@ export default {
     "Friday": "Venerdì"
   },
   "payment_form": {
+
     "title": "scegli il metodo di pagamento",
-    "gift_cards_input": "Carte regalo",
-    "gift_cards_input_empty": "Nessuna carta regalo trovata..",
+    "gift_cards_input": "Inserisci Gift Cards",
+    "gift_cards_input_empty": "Nessuna Gift Card trovata..",
     "more": "Altro",
-    "pay_amount_by_gift_cards": "Pagamento con carta di addebito",
+    "pay_amount_by_gift_cards": "Paga con Gift Card",
+
     "select_payment_method": "Scegli il tuo metodo di pagamento tra le seguenti opzioni.",
-    "payment_amount_remained": "Importo residuo del pagamento",
+    "payment_amount_remained": "Importo mancante",
     "payment_amount": "Importo pagato",
-    "all_paid_by_gift_cards": "Congratulazioni, non è necessario pagare per questo ordine. Premi il tasto Paga con carta regalo.",
-    "pay_by_gift_cards_action": "Paga l'ordine con carta di credito",
+    "all_paid_by_gift_cards": "Congratulazioni, non è necessario pagare per questo ordine. Premi il tasto Paga con Gift Card.",
+
+    "pay_by_gift_cards_action": "Paga l'ordine con Gift Card",
+
     "order_free_payment": "Congratulazioni, il tuo ordine è gratuito!",
     "order_free_payment_action": "Ordina ora gratuitamente",
     "qr": {
@@ -1526,7 +1532,7 @@ export default {
     "seconds": "Secondi"
   },
   "gift_status": {
-    "Unpaid": "In attesa di Ricevimento",
+    "Unpaid": "Non pagato",
     "Paid": "Pagato",
     "Rejected": "Respinto",
     "Canceled": "Annullato"
@@ -1538,11 +1544,11 @@ export default {
     "ShopGift": "Negozio di regali"
   },
   "currency_selector": {
-    "label": "Moneta"
+    "label": "Valuta"
   },
   "need_login": {
-    "title": "Accedere",
-    "login_sms": "Accesso SMS",
+    "title": "Accedi",
+    "login_sms": "Accesso tramite SMS",
     "login_google": "Accedi con Google",
     "login_facebook": "Fai il login con facebook",
     "login_account": "Accedi da Selldone",
@@ -1550,7 +1556,7 @@ export default {
     "mobile_input": "Inserisci il tuo cellulare",
     "verification_code": "Codice di verifica",
     "msg_title": "Ciao,",
-    "msg_body": "Accedete, per favore. Ci vogliono solo pochi secondi."
+    "msg_body": "Effettua l'accesso in pochi secondi."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1633,7 +1639,7 @@ export default {
     }
   },
   "rating_labels": [
-    "Molto brutto",
+    "Pessimo",
     "Male",
     "Normale",
     "Bene",
@@ -1709,11 +1715,11 @@ export default {
   },
   "condition": {
     "new": "Nuovo",
-    "refurbished": "Ristrutturato",
+    "refurbished": "Ricondizionato",
     "used": "Usato",
-    "used_fair": "Fiera dell'usato",
-    "used_good": "Usato bene",
-    "used_like_new": "Usato - Come Nuovo"
+    "used_fair": "Usato - discreto",
+    "used_good": "Usato - buono",
+    "used_like_new": "Usato - come nuovo"
   },
   "variant_filter": {
     "title": "Filtro variante prodotto",
@@ -1733,10 +1739,10 @@ export default {
       "message": "Specifica l'intervallo di tempo dei giorni in cui desideri effettuare la prenotazione nel calendario sottostante."
     },
     "subscription": {
-      "title": "Sottoscrizione"
+      "title": "Abbonamento"
     },
     "charge": {
-      "title": "Caricare"
+      "title": "Costo"
     }
   },
   "PricingTypes": {
@@ -1761,10 +1767,10 @@ export default {
     "title": "Destinazione per ricevere i prodotti",
     "confirm": "Imposta posizione",
     "address": "Destinazione",
-    "receptor": "Ricevitore"
+    "receptor": "Ricevente"
   },
   "ShopBots": {
-    "telegram": "Telegramma"
+    "telegram": "Telegram"
   },
   "article_tags": {
     "title": "Tag di contenuto",

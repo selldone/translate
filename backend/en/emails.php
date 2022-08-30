@@ -20,7 +20,7 @@ return [
         'greetings' => 'Hi :name',
         'end-statement' => 'Support team',
 
-        'receiver_name' => 'Dear :user_name',
+        'receiver_name' => 'Hi :user_name',
         'footer-help' => "Need help? Ask at [support@selldone.com](mailto:support@selldone.com) or visit our [help center](https://selldone.com/help)",
         'footer-shop' => "If you need help with anything please don't hesitate to drop us an email: :shop_mail",
         'accept' => "Accept",

@@ -53,6 +53,7 @@ export default {
   unlimited_storage: "Unlimited storage",
   priority_support: "Priority support",
   support_247: "24/7 Support",
+  marketplace: "Marketplace builder",
 
   read_more: "Read more about features...",
   partners_upgrade_suggestion_message:
@@ -446,5 +447,10 @@ export default {
     title: "We are on the mission to",
     message:
       "Make business easy, achievable, and accessible for anyone around the world",
+  },
+
+  connect_os: {
+    subtitle:
+      "Connect to dropshipping suppliers with one click. You can connect to POD like Prinful or Import Woocomerce store for free.",
   },
 };

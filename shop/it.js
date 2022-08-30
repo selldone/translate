@@ -1,13 +1,13 @@
 export default {
   "surveys": [
-    "Molto povero",
-    "Povero",
+    "Scarso",
+    "Non buono",
     "Normale",
-    "Bene",
+    "Buono",
     "Eccellente"
   ],
   "footer": {
-    "map": "Carta geografica",
+    "map": "Mappa",
     "email": "E-mail",
     "phone": "Telefono",
     "address": "Indirizzo",
@@ -23,7 +23,7 @@ export default {
   },
   "product_card": {
     "sold_out": "Esaurito",
-    "review_unit": "Revisione",
+    "review_unit": "Prodotto in esposizione",
     "not_original": "Non originale"
   },
   "shop": {
@@ -38,12 +38,12 @@ export default {
     "title": "Ordina per",
     "title_small": "Ordina per..",
     "nothing": "Niente",
-    "most_views": "La maggior parte delle visualizzazioni",
-    "most_likes": "Più popolare",
-    "most_recent": "Il più recente",
-    "most_sell": "Bestseller",
-    "cheapest": "Il più economico",
-    "most_expensive": "Il più costoso",
+    "most_views": "Più visti",
+    "most_likes": "Più apprezzati",
+    "most_recent": "Più recenti",
+    "most_sell": "Più venduti",
+    "cheapest": "Più economici",
+    "most_expensive": "Più costosi",
     "only_available": "Disponibile",
     "view_mode": {
       "normal": "Normale",
@@ -53,30 +53,30 @@ export default {
     }
   },
   "product_info": {
-    "fake": "Impostore",
+    "fake": "Falso",
     "action": "Asta",
     "compare_limit": "Limite di 10 articoli",
-    "compare_add": "Aggiungi per confrontare",
-    "compare_be_in_list": "Nella lista di confronto",
+    "compare_add": "Confronta prodotto",
+    "compare_be_in_list": "Nella lista di comparazione",
     "type": "Tipo",
     "brand": "Marca",
     "category": "Categoria",
     "discount": "Sconto",
-    "track_price": "Traccia il prezzo",
-    "waiting_for_auction": "Aspettando l'asta?",
-    "inform_auction": "Parlami dell'asta",
+    "track_price": "Segui il prodotto",
+    "waiting_for_auction": "Avvisami sulle offerte",
+    "inform_auction": "Avvisi offerte attivate",
     "return_in_days": "{days} Giorni Garanzia Restituzione",
     "support24h7": "Supporto 24 ore 7 giorni",
     "support_normal": "Supporto orario di lavoro",
     "original_guarantee": "Garanzia originale",
     "cod_payment": "Assistenza in contrassegno",
-    "pros": "Professionisti",
-    "cons": "contro",
+    "pros": "Pro",
+    "cons": "Contro",
     "external_link": "Leggi di più",
     "notifications": {
       "congratulation": "Congratulazioni",
-      "waiting_list_add_success": "Ti avviseremo quando questo prodotto sarà messo all'asta.",
-      "waiting_list_delete_success": "Sei uscito dalla lista d'attesa dell'asta."
+      "waiting_list_add_success": "Ti avviseremo quando questo prodotto sarà in offerta.",
+      "waiting_list_delete_success": "Sei uscito dalla lista d'attesa delle offerte."
     },
     "offer_message": "Acquista {min_quantity} Ottieni uno sconto del {percent}% su questi articoli",
     "up_to": "Fino a {per_order}x per ordine",
@@ -85,27 +85,27 @@ export default {
   },
   "buy_button": {
     "waiting_for_availability": "In attesa di disponibilità",
-    "inform_me_when_available": "Aspettando questo?",
+    "inform_me_when_available": "Avvisami quando disponibile",
     "pay_buy": "Paga e acquista",
-    "quantity": "Contare",
+    "quantity": "Quantità",
     "quantity_in_basket": "Articoli nel carrello",
     "count_unit": "X",
-    "remove": "Rimuovere",
+    "remove": "Rimuovi",
     "add_to_basket": "Aggiungi al carrello",
-    "buy": "Acquistare",
+    "buy": "Acquista",
     "notifications": {
       "inform_add_success": "Ti faremo sapere quando sarà disponibile.",
       "inform_remove_success": "Sei stato rimosso dalla lista d'attesa."
     }
   },
   "product": {
-    "review": "Revisione",
-    "spec": "Spec",
-    "comments": "Commenti",
+    "review": "Descrizione",
+    "spec": "Specifiche",
+    "comments": "Recensioni",
     "related_products_title": "Prodotti correlati",
     "price": "Prezzo",
-    "rate": "Valutare",
-    "comment": "Commento"
+    "rate": "Valuta",
+    "comment": "Recensione"
   },
   "layout_shop": {
     "shop_menu": {
@@ -133,7 +133,7 @@ export default {
     "total_price": "Totale",
     "view_basket": "Il tuo carrello",
     "more": "Di più ...",
-    "accept_and_pay": "Guardare",
+    "accept_and_pay": "Accetta e paga",
     "items": "Elementi)"
   },
   "history_orders_physical": {
@@ -161,7 +161,7 @@ export default {
       "gift_card": "Carta regalo",
       "comments": "Commenti",
       "favorites": "Preferiti",
-      "return_requests": "ritorna",
+      "return_requests": "Richieste di reso",
       "addresses": "Indirizzi",
       "profile": "profilo",
       "orders": "Ordini"
@@ -171,8 +171,8 @@ export default {
     "title": "Ordine",
     "payment": {
       "title": "Pagamento",
-      "payment_waiting": "aspettando il pagamento",
-      "payment_completed": "Pagato",
+      "payment_waiting": "In attesa del pagamento",
+      "payment_completed": "Pagamento completato",
       "table": {
         "title": "Titolo",
         "amount": "Importo",
@@ -369,7 +369,7 @@ export default {
   },
   "product_comparison": {
     "title": "Confronta prodotto",
-    "action_button": "Confrontare",
+    "action_button": "Confronta",
     "list": {
       "no_data": "Nessun prodotto è stato aggiunto all'elenco di confronto.",
       "price": "Prezzo",
@@ -378,11 +378,11 @@ export default {
       "warranty": "Garanzia",
       "variants_comparison": "Confronta le varianti di prodotto",
       "spec": "Specifiche tecniche",
-      "pros": "Professionisti",
-      "cons": "contro",
-      "user_review": "Commenti degli utenti",
+      "pros": "Pro",
+      "cons": "Contro",
+      "user_review": "Recensioni degli utenti",
       "rating": "Valutazione",
-      "rating_count": "Numero di recensioni",
+      "rating_count": "Numero di valutazioni",
       "info": "Puoi condividere questa tabella di confronto dei prodotti con i tuoi amici inviando il seguente link o accedervi in seguito salvando questo link.",
       "copy_action": "Copia link di confronto",
       "check_list": [
@@ -401,13 +401,13 @@ export default {
     "price_range": "Fascia di prezzo",
     "brands": "Marca",
     "main_shop_page": "Pagina principale del negozio",
-    "home": "Casa"
+    "home": "Home"
   },
   "product_rating_view": {
-    "message": "Gentile {user}, hai acquistato questo prodotto. Cosa pensi di questo prodotto?",
+    "message": "Gentile {user}, hai acquistato questo prodotto. Ti va di recensirlo?",
     "notification": {
       "title": "Congratulazioni",
-      "message": "Il tuo commento è stato registrato."
+      "message": "La tua recensione commento è stata registrata."
     }
   },
   "blogs": {
@@ -537,9 +537,9 @@ export default {
       "duration": "Periodo di abbonamento"
     },
     "charge": {
-      "title": "Caricare",
+      "title": "Addebito",
       "message": "Hai specificato un addebito per questo articolo. È possibile modificare l'importo dell'addebito per l'articolo acquistato dal cliente.",
-      "charge": "Caricare"
+      "charge": "Addebito"
     }
   }
 };

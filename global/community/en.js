@@ -159,6 +159,8 @@ export default  {
     take_screenshot: "Take as cover",
     take_link_msg: "Past link here and enter",
     eligible_title: "Steps to eligible to post",
+    public:'Public',
+
   },
   tips: {
     verify_email: "Enter and verify your email.",

@@ -1,0 +1,39 @@
+<?php 
+
+ return [
+     "shop-order-payment" => [
+     "title" => "Töleg kabul ediň",
+     "sample" => "267 $ tölegiňiz üstünlikli çözüldi.<br> Sargyt: SM-425<br> Sag bol, <b>dükanyňyzyň ady</b> .<br> Selldone",
+     "body" => "Siziň: param2 tölegiňiz üstünlikli çözüldi. Sargyt :: param1 Sag bol ,: param3. Selldone",
+],
+     "shop-order-payment-admin" => [
+     "title" => "Töleg kabul ediň",
+     "sample" => "Täze 267 $ töleg üstünlikli çözüldi.<br> Sargyt: SM-425<br> Sag bol, <b>dükanyňyzyň ady</b> .<br> Selldone",
+     "body" => "Täze: param2 tölegi üstünlikli çözüldi. Sargyt :: param1 Sag bol ,: param3. Selldone",
+],
+     "shop-login" => [
+     "title" => "Giriş tassyklama kody",
+     "sample" => "Giriş koduňyz: <b>123456</b><br> <b>Dükanyňyzyň ady</b><br> Selldone",
+     "body" => "Giriş koduňyz :: param1: param2 Selldone",
+],
+     "user-login" => [
+     "title" => "Giriş Üstünlik habary",
+     "sample" => "Gadyrly <b>Ady</b> ,<br> Hasabyňyza <b>iPhone 165.250.300.1</b> bilen 5/8/2021 sagat <b>9: 14</b> -de girdiňiz.<br> Selldone",
+     "body" => "Gadyrly: param1, hasabyňyza girdiňiz: param2 at: param3. Selldone",
+],
+     "avocado-order-submit" => [
+     "title" => "Awakado täze sargyt alyja iberildi",
+     "sample" => "<b>Dükanyňyzyň ady</b><br> Gadyrly <b>adyňyz</b> ,<br> Sargydyňyzy aldyk we gözden geçirýäris.<br> Sargyt #: <b>AVO-246</b><br> Selldone",
+     "body" => ": param3 Hormatly: param1, Sargydyňyzy aldyk we gözden geçirýäris. Sargyt # :: param2 Selldone",
+],
+     "avocado-order-submit-seller" => [
+     "title" => "Awokado satyja ibermek üçin täze sargyt alýar",
+     "sample" => "Awokado zakazyny aldyňyz:<br> Dükan: <b>Dükanyňyzyň ady</b><br> Satyn alyjy: <b>Alyjynyň ady</b><br> Sargyt: <b>AVO-246</b><br> Selldone",
+     "body" => "Awokado zakazyny aldyňyz: Dükan: param1 Alyjy :: param2 Sargyt :: param3 Selldone",
+],
+     "avocado-ready-to-pay" => [
+     "title" => "Awokado tölemäge taýyn",
+     "sample" => "<b>Dükanyňyzyň ady</b><br> Sargydyňyz tassyklandy we aşakdaky baglanyşyk arkaly tölenip bilner.<br> Sargyt #: <b>AVO-246</b><br> Baglanyşyk: <b>https: // siziň domeniňiz / awokado</b><br> Selldone",
+     "body" => ": param3 Sargydyňyz tassyklandy we aşakdaky baglanyşyk arkaly tölenip bilner. Sargyt # :: param2 Baglanyşyk :: param1 Selldone",
+],
+];

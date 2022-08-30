@@ -161,6 +161,8 @@ export default {
     take_screenshot: "Take as cover",
     take_link_msg: "پیوند گذشته را اینجا وارد کنید",
     eligible_title: "مراحل لازم برای ارسال",
+    public:'عمومی',
+
   },
   tips: {
     verify_email: "ایمیل خود را ثبت و تایید نمایید.",
