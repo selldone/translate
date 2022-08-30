@@ -143,7 +143,7 @@ export default {
     "free_for_new_users": "Gratuito per i nuovi utenti",
     "prize_amount": "Importo del premio",
     "win": "Vincita",
-    "gift_card": "Carta regalo",
+    "gift_card": "Gift Card",
     "discount": "Sconto",
     "config": "Config",
     "prize": "Premio",
@@ -1344,7 +1344,7 @@ export default {
       "variant": "Variante",
       "warranty": "Garanzie",
       "count": "Contare",
-      "price": "prezzo"
+      "price": "Prezzo"
     }
   },
   "return_request_list": {
@@ -1361,7 +1361,7 @@ export default {
     }
   },
   "data_toolbar": {
-    "search": "Ricerca",
+    "search": "Cerca",
     "sort_by": "Ordina per",
     "count_item": "Mostra {item} elementi"
   },
@@ -1443,7 +1443,7 @@ export default {
   "search_box": {
     "result": "Risultati di ricerca",
     "tips": "Cerca prodotti e categorie",
-    "label": "Ricerca ...",
+    "label": "Cerca ...",
     "category": "Categoria"
   },
   "lead_status": {
@@ -1490,16 +1490,20 @@ export default {
     "Friday": "Venerdì"
   },
   "payment_form": {
-    "title": "Scegli il metodo di pagamento",
-    "gift_cards_input": "Gift Card",
+
+    "title": "scegli il metodo di pagamento",
+    "gift_cards_input": "Inserisci Gift Cards",
     "gift_cards_input_empty": "Nessuna Gift Card trovata..",
     "more": "Altro",
-    "pay_amount_by_gift_cards": "Pagamento con Gift Card",
+    "pay_amount_by_gift_cards": "Paga con Gift Card",
+
     "select_payment_method": "Scegli il tuo metodo di pagamento tra le seguenti opzioni.",
-    "payment_amount_remained": "Importo residuo del pagamento",
+    "payment_amount_remained": "Importo mancante",
     "payment_amount": "Importo pagato",
     "all_paid_by_gift_cards": "Congratulazioni, non è necessario pagare per questo ordine. Premi il tasto Paga con Gift Card.",
-    "pay_by_gift_cards_action": "Paga l'ordine con carta di credito",
+
+    "pay_by_gift_cards_action": "Paga l'ordine con Gift Card",
+
     "order_free_payment": "Congratulazioni, il tuo ordine è gratuito!",
     "order_free_payment_action": "Ordina ora gratuitamente",
     "qr": {
@@ -1528,7 +1532,7 @@ export default {
     "seconds": "Secondi"
   },
   "gift_status": {
-    "Unpaid": "In attesa di Ricevimento",
+    "Unpaid": "Non pagato",
     "Paid": "Pagato",
     "Rejected": "Respinto",
     "Canceled": "Annullato"
@@ -1540,11 +1544,11 @@ export default {
     "ShopGift": "Negozio di regali"
   },
   "currency_selector": {
-    "label": "Moneta"
+    "label": "Valuta"
   },
   "need_login": {
     "title": "Accedi",
-    "login_sms": "Accesso SMS",
+    "login_sms": "Accesso tramite SMS",
     "login_google": "Accedi con Google",
     "login_facebook": "Fai il login con facebook",
     "login_account": "Accedi da Selldone",
@@ -1635,7 +1639,7 @@ export default {
     }
   },
   "rating_labels": [
-    "Molto brutto",
+    "Pessimo",
     "Male",
     "Normale",
     "Bene",
@@ -1711,11 +1715,11 @@ export default {
   },
   "condition": {
     "new": "Nuovo",
-    "refurbished": "Ristrutturato",
+    "refurbished": "Ricondizionato",
     "used": "Usato",
-    "used_fair": "Fiera dell'usato",
-    "used_good": "Usato bene",
-    "used_like_new": "Usato - Come Nuovo"
+    "used_fair": "Usato - discreto",
+    "used_good": "Usato - buono",
+    "used_like_new": "Usato - come nuovo"
   },
   "variant_filter": {
     "title": "Filtro variante prodotto",
@@ -1735,10 +1739,10 @@ export default {
       "message": "Specifica l'intervallo di tempo dei giorni in cui desideri effettuare la prenotazione nel calendario sottostante."
     },
     "subscription": {
-      "title": "Sottoscrizione"
+      "title": "Abbonamento"
     },
     "charge": {
-      "title": "Caricare"
+      "title": "Costo"
     }
   },
   "PricingTypes": {
@@ -1763,10 +1767,10 @@ export default {
     "title": "Destinazione per ricevere i prodotti",
     "confirm": "Imposta posizione",
     "address": "Destinazione",
-    "receptor": "Ricevitore"
+    "receptor": "Ricevente"
   },
   "ShopBots": {
-    "telegram": "Telegramma"
+    "telegram": "Telegram"
   },
   "article_tags": {
     "title": "Tag di contenuto",
