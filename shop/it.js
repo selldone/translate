@@ -56,7 +56,7 @@ export default {
     "fake": "Falso",
     "action": "Asta",
     "compare_limit": "Limite di 10 articoli",
-    "compare_add": "Aggiungi al comparatore",
+    "compare_add": "Confronta prodotto",
     "compare_be_in_list": "Nella lista di comparazione",
     "type": "Tipo",
     "brand": "Marca",
