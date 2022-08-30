@@ -404,7 +404,7 @@ export default {
     "home": "Home"
   },
   "product_rating_view": {
-    "message": "Gentile {user}, hai acquistato questo prodotto. Cosa pensi di questo prodotto?",
+    "message": "Gentile {user}, hai acquistato questo prodotto. Ti va di recensirlo?",
     "notification": {
       "title": "Congratulazioni",
       "message": "La tua recensione commento è stata registrata."
