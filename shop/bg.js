@@ -38,7 +38,7 @@ export default {
     "title": "Сортиране по",
     "title_small": "Сортиране по..",
     "nothing": "Нищо",
-    "most_views": "Повечето изгледи",
+    "most_views": "Най-разглеждани",
     "most_likes": "Най - известен",
     "most_recent": "Най-новият",
     "most_sell": "Най-продаван",
