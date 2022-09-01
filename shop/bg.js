@@ -44,7 +44,7 @@ export default {
     "most_sell": "Най-продаван",
     "cheapest": "Най-евтино",
     "most_expensive": "Най-скъпият",
-    "only_available": "На разположение",
+    "only_available": "В наличност",
     "view_mode": {
       "normal": "Нормално",
       "grid": "Решетка",
