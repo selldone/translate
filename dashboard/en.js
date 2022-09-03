@@ -4984,6 +4984,14 @@ export default {
     light_checkout: "Checkout theme",
     light_header: "Header theme",
     light_footer: "Footer theme",
+
+    product_page:'Product Page',
+    typography:'Typography',
+    header:'Header',
+    custom_code:'Custom code',
+    custom_css:'Custom CSS',
+
+
   },
 
   /** {@see AppTemplates**/

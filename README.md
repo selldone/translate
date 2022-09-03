@@ -52,7 +52,7 @@ We believe one person can make a change in the online humanity era, even who has
 | HY    | Հայերեն          |     ✓     |  ✓   |    ✓    |                         |
 | BE    | Беларуская       |     ✓     |  ✓   |    ✓    |                         |
 | EU    | Euskara          |     ✓     |  ✓   |    ✓    |                         |
-| BG    | Български        |     ✓     |  ✓   |    ✓    |                         |
+| BG    | Български        |     ✓     |  ✓   |    ✓    |         Shop(✓)         |
 | BS    | Bosanski         |     ✓     |  ✓   |    ✓    |                         |
 | CO    | Corsu            |     ✓     |  ✓   |    ✓    |                         |
 | CA    | Català           |     ✓     |  ✓   |    ✓    |                         |

@@ -4991,6 +4991,13 @@ export default {
     light_checkout: "تم فرم ثبت سفارش",
     light_header: "تم منوی بالا",
     light_footer: "تم منوی پایین",
+
+    product_page:'صفحه محصول',
+    typography:'تایپوگرافی',
+    header:'هدر',
+    custom_code:'کد سفارشی',
+    custom_css:'سفارشی CSS',
+
   },
 
   /** {@see AppTemplates**/
