@@ -72,6 +72,7 @@ export default {
     reported: "گزارش شده",
     report: "گزارش تخلف",
 
+    post: "مطلب",
 
   },
 

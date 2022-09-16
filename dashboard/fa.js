@@ -245,6 +245,8 @@ export default {
       home: "خانه",
       expert: "متخصص",
       deals: "قراردادها",
+      providers:'ارائه دهندگان',
+
     },
     shops: {
       create_new: "ایجاد فروشگاه جدید",
@@ -741,6 +743,8 @@ export default {
         inventory: "موجودی",
         warehouse: "انبار",
         logistic_apps: "اپلیکیشن های لجستیک",
+        profiles: "پروفایل ها",
+
       },
 
       /** {@see AdminShopLogistics_Inventory} **/
@@ -6227,6 +6231,8 @@ export default {
     vendor_wallets: "کیف پول ها",
     pricing_models: "قیمت گذاری",
     add_vendor: "افزودن فروشنده",
+    requests:'درخواست ها',
+
   },
 
   price_input_type: {

@@ -269,6 +269,7 @@ export default {
       home: "Home",
       expert: "Expert",
       deals: "Deals",
+      providers:'Providers',
     },
     shops: {
       create_new: "Create new shop",
@@ -770,6 +771,7 @@ export default {
         inventory: "Inventory",
         warehouse: "warehouse",
         logistic_apps: "Logistics",
+        profiles: "Profiles",
       },
 
       /** {@see AdminShopLogistics_Inventory} **/
@@ -2887,7 +2889,7 @@ export default {
   accounts: {
     title: "My Wallet",
     message:
-      "You must create at least one account with the currency you are using in Selldone. You must top up this account to pay the service fee. ",
+      "Please create at least one account for each currency that you use with Selldone. These funds will be used to pay the Selldone Service Fee.",
     add_new: "Create new account",
     new_account: "Add new account",
     new_account_dialog: {
@@ -3076,11 +3078,11 @@ export default {
       address_input: "Address",
       postcode_input: "Postal Code",
       tel_input: "Contact Number",
-      passport_image_input: "Select passport image",
-      passport_image_input_message: "Upload a scan of your passport image.",
-      personal_image_input: "Choose your own image",
+      passport_image_input: "Passport or driver's license",
+      passport_image_input_message: "Please upload a scan of your passport or driver's license.",
+      personal_image_input: "ID card",
       personal_image_input_message:
-        "Upload a scan image back and forth on your national card to an image.",
+        "Please upload your national ID card image. Some countries don't have ID cards, so just upload your passport or driver's license here.",
     },
     profile_dialog: {
       title: "Main Profile",
@@ -3157,8 +3159,8 @@ export default {
     connected_apps_title: "Connected apps",
     connected_apps_message:
       "You will see a list of all the stores and apps that are connected to your domain account. You can delete access to any of them.",
-    shop_keys_title: "Store Access Keys",
-    shop_keys_message:
+    clients_title: "Clients",
+    clients_message:
       "These keys are used to create Access Token by your server. Note that the keys are confidential and only placed on the server so that they are not visible to others.",
     personal_keys_title: "Personal Access Keys",
     personal_keys_message:
@@ -3355,7 +3357,7 @@ export default {
       description: "Send and Receive Notification.",
     },
 
-    "read-shops": { name: "Store ist", description: "Read the store list." },
+    "read-shops": { name: "Stores List", description: "Read the store list." },
 
     "shop-edit": {
       name: "Store Management",
@@ -3412,6 +3414,10 @@ export default {
     "shop-profile": {
       name: "Manage profiles",
       description: "Manage store profiles.",
+    },
+    "shop-discount-code": {
+      name: "Discount code management",
+      description: "Manage, edit and add store discount codes.",
     },
   },
   /** {@see AdminCompanyPage} **/
@@ -6227,6 +6233,7 @@ export default {
     vendor_wallets: "Wallets",
     pricing_models: "Pricing",
     add_vendor: "Add vendor",
+    requests:'Requests',
   },
 
   price_input_type: {

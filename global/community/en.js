@@ -70,6 +70,7 @@ export default  {
 
     reported: "Reported",
     report: "Report",
+    post: "Post",
 
   },
 
@@ -158,7 +159,7 @@ export default  {
     remove_poll: "Remove poll",
     take_screenshot: "Take as cover",
     take_link_msg: "Past link here and enter",
-    eligible_title: "Steps to eligible to post",
+    eligible_title: "Steps to be eligible",
     public:'Public',
 
   },

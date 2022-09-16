@@ -382,6 +382,8 @@ export default {
     waiting: "در انتظار...",
     waiting_connecting_payment: "در انتظار اتصال به درگاه...",
     creating_secure_payment: "درحال ایجاد پرداخت امن.",
+    waiting_for_payment: "لطفا پرداخت را تکمیل نمایید...",
+
     officer: "مسئول",
 
     ticket: "تیکت",
@@ -640,7 +642,13 @@ export default {
     pickup: "دریافت در محل",
     customize: "شخصی سازی",
     difficulty: "دشواری",
-    banned:'منع شده',
+    banned: "منع شده",
+    company: "شرکت",
+    tax_shipping:'مالیات حمل و نقل',
+    warranty: "ضمانتنامه",
+    return_policy: "سیاست بازگشت",
+    guide: "راهنما",
+    translate:'ترجمه',
 
   },
 

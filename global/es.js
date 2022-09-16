@@ -341,6 +341,7 @@ export default {
     "waiting": "Esperando...",
     "waiting_connecting_payment": "Esperando el servicio de pago...",
     "creating_secure_payment": "Creación de pago seguro.",
+    "waiting_for_payment":"Por favor complete el pago...",
     "officer": "Oficial",
     "ticket": "Billete",
     "ticket_url": "URL del billete",

@@ -127,6 +127,11 @@ export default {
     price: "قیمت",
     rate: "امتیاز",
     comment: "نظر",
+    warranty: "ضمانتنامه",
+    return_policy: "سیاست بازگشت",
+    guide: "راهنما",
+    shipping: "حمل و نقل",
+
   },
 
   /** @see LayoutShop **/
@@ -554,7 +559,7 @@ export default {
 
   avocado: {
     not_enable: "فرم دریافت سفارشات آووکادو فعال نیست!",
-    last_update: "آخرین به روز رسانی:",
+    last_update: "آخرین به روز رسانی",
     step1:
       "1. نام و مشخصات کالایی که قصد سفارش آن را دارید وارد نموده و کلید افزودن را بزنید.",
     title_plc: "نام کالا را بنویسید.",
@@ -577,6 +582,9 @@ export default {
     pay_online: "پرداخت آنلاین",
     pricing_not_completed_message:
       "کاربر گرامی، سفارش شما در حال بررسی است. به زودی سفارش شما بررسی و قیمت گذاری شده و قادر به پرداخت آن می باشید.",
+
+    select_address_message:"لطفا آدرس خود را وارد کنید و سپس می توانید سفارش را ارسال کنید.",
+
 
     delete_item_dialog: {
       title: "حذف کالا از سبد خرید",

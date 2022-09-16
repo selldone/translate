@@ -462,7 +462,7 @@ export default {
   },
   "avocado": {
     "not_enable": "Die avokado-vorm is nie geaktiveer nie!",
-    "last_update": "Laaste opdatering:",
+    "last_update": "Laaste opdatering",
     "step1": "1. Voer die naam en besonderhede van die produk in wat jy wil bestel en klik die Voeg by-knoppie.",
     "title_plc": "Voer die naam van die produk in.",
     "description_plc": "Het jy meer produkbeskrywings?",

@@ -12,13 +12,13 @@ export default {
     "phone": "Telefono",
     "address": "Indirizzo",
     "copyright": "L'utilizzo dei contenuti solo per scopi non commerciali e con riferimento alla fonte (link con {shop_title}). Tutti i diritti riservati a {shop_title}.",
-    "powered_by": "Offerto da",
-    "privacy": "Politica sulla riservatezza",
-    "term_of_use": "Condizioni d'uso",
+    "powered_by": "Powered by",
+    "privacy": "Privacy policy",
+    "term_of_use": "Termini e Condizioni d'uso",
     "shop_app_setting": "Impostazione negozio e GDPR",
     "dialog_setting": {
-      "title": "Impostazione delle applicazioni del negozio",
-      "app_list": "Elenco delle applicazioni"
+      "title": "Impostazione applicazione negozio",
+      "app_list": "Elenco applicazioni"
     }
   },
   "product_card": {
@@ -31,7 +31,7 @@ export default {
     "native": {
       "title": "Accesso all'applicazione",
       "message": "Questa app richiede l'accesso alle informazioni sull'account del tuo negozio. Ciò include l'accesso a nome, numero di contatto, indirizzo, e-mail, cronologia degli ordini, ordinazione e pubblicazione di commenti su questo negozio.",
-      "message_bold": "Assicurati di utilizzare l'app ufficiale del negozio per accedere a questo negozio."
+      "message_bold": "Assicurati di utilizzare l'app ufficiale del negozio per accedere a questo Store."
     }
   },
   "sort": {
@@ -56,8 +56,8 @@ export default {
     "fake": "Falso",
     "action": "Asta",
     "compare_limit": "Limite di 10 articoli",
-    "compare_add": "Confronta prodotto",
-    "compare_be_in_list": "Nella lista di comparazione",
+    "compare_add": "Confronta",
+    "compare_be_in_list": "Nella lista di confronto",
     "type": "Tipo",
     "brand": "Marca",
     "category": "Categoria",
@@ -65,7 +65,7 @@ export default {
     "track_price": "Segui il prodotto",
     "waiting_for_auction": "Avvisami sulle offerte",
     "inform_auction": "Avvisi offerte attivate",
-    "return_in_days": "{days} Giorni Garanzia Restituzione",
+    "return_in_days": "{days} Giorni Garanzia Resi",
     "support24h7": "Supporto 24 ore 7 giorni",
     "support_normal": "Supporto orario di lavoro",
     "original_guarantee": "Garanzia originale",
@@ -75,12 +75,12 @@ export default {
     "external_link": "Leggi di più",
     "notifications": {
       "congratulation": "Congratulazioni",
-      "waiting_list_add_success": "Ti avviseremo quando questo prodotto sarà in offerta.",
-      "waiting_list_delete_success": "Sei uscito dalla lista d'attesa delle offerte."
+      "waiting_list_add_success": "Ti avviseremo quando il prodotto sarà in offerta.",
+      "waiting_list_delete_success": "Sei uscito dalle notifiche delle offerte."
     },
     "offer_message": "Acquista {min_quantity} Ottieni uno sconto del {percent}% su questi articoli",
     "up_to": "Fino a {per_order}x per ordine",
-    "get_free": "OTTENERE GRATUITAMENTE",
+    "get_free": "RICEVI GRATIS",
     "get_off": "OTTIENI uno SCONTO DEL {percent}%."
   },
   "buy_button": {
@@ -95,7 +95,7 @@ export default {
     "buy": "Acquista",
     "notifications": {
       "inform_add_success": "Ti faremo sapere quando sarà disponibile.",
-      "inform_remove_success": "Sei stato rimosso dalla lista d'attesa."
+      "inform_remove_success": "Sei stato rimosso dalla lista offerte."
     }
   },
   "product": {
@@ -104,7 +104,7 @@ export default {
     "comments": "Recensioni",
     "related_products_title": "Prodotti correlati",
     "price": "Prezzo",
-    "rate": "Valuta",
+    "rate": "Dai un voto",
     "comment": "Recensione"
   },
   "layout_shop": {
@@ -112,9 +112,9 @@ export default {
       "orders_history": "Cronologia degli ordini",
       "profile": "Il mio profilo",
       "favorites": "Articoli preferiti",
-      "gift_cards": "Carte regalo",
-      "return_requests": "Ordini restituiti",
-      "basket": "Carrello della spesa"
+      "gift_cards": "Gift Cards",
+      "return_requests": "Ordini resi",
+      "basket": "Carrello"
     },
     "user_menu": {
       "my_shops": "I miei negozi",
@@ -123,8 +123,8 @@ export default {
       "chips": "{chips} Chip"
     },
     "login_to_shop": "Accedi al negozio",
-    "login_to_shop_short": "Accedere",
-    "item_in_basket_message": "{count} Questo articolo è nel tuo carrello.",
+    "login_to_shop_short": "Accedi",
+    "item_in_basket_message": "Hai {count} di questo articolo nel tuo carrello.",
     "search_title": "Cerca nel negozio {shop_name}"
   },
   "basket_top_menu": {
@@ -133,13 +133,13 @@ export default {
     "total_price": "Totale",
     "view_basket": "Il tuo carrello",
     "more": "Di più ...",
-    "accept_and_pay": "Accetta e paga",
-    "items": "Elementi)"
+    "accept_and_pay": "Conferma e paga",
+    "items": "Quantità)"
   },
   "history_orders_physical": {
     "rejected": "Respinto",
     "table": {
-      "code": "Codice d'ordine",
+      "code": "Codice dell'ordine",
       "reserved": "Data",
       "delivery_state": "Stato della consegna",
       "price": "Prezzo totale",
@@ -148,7 +148,7 @@ export default {
   },
   "history_orders": {
     "table": {
-      "code": "Codice d'ordine",
+      "code": "Codice dell'ordine",
       "items": "Elementi",
       "reserved": "Data",
       "delivery_state": "Ultimo stato",
@@ -158,8 +158,8 @@ export default {
   },
   "user_page": {
     "menu": {
-      "gift_card": "Carta regalo",
-      "comments": "Commenti",
+      "gift_card": "Gift Card",
+      "comments": "Recensioni",
       "favorites": "Preferiti",
       "return_requests": "Richieste di reso",
       "addresses": "Indirizzi",
@@ -184,9 +184,9 @@ export default {
       "delivery_fee": "Spese di spedizione",
       "delivery_fee_after": "Nessuna consegna pagata",
       "total_price": "Prezzo totale degli articoli",
-      "total_items_discount": "Sconto articoli",
+      "total_items_discount": "Sconto",
       "total_price_after_offers": "Totale dopo aver applicato le offerte",
-      "buyer_payment": "Importo del pagamento dell'acquirente"
+      "buyer_payment": "Importo da pagare"
     },
     "delivery": {
       "title": "Consegna",
@@ -202,7 +202,7 @@ export default {
       "state": "Stato",
       "city": "Città",
       "address": "Indirizzo",
-      "building_no": "Numero di edificio",
+      "building_no": "Numero edificio/interno",
       "unit_no": "Numero di unità",
       "postal_code": "Codice postale",
       "description": "Descrizione",
@@ -216,26 +216,26 @@ export default {
     },
     "basket_items": {
       "original_warranty": "Garanzia di originalità della merce",
-      "return": "Ritorno",
+      "return": "Reso",
       "table": {
         "product": "nome del prodotto",
-        "count": "Contare",
+        "count": "Conteggio",
         "unit_price": "Prezzo unitario",
         "total_price": "Prezzo totale",
         "discount": "Sconto",
         "final_price": "Prezzo finale",
-        "returned": "Restituito"
+        "returned": "Reso"
       }
     }
   },
   "return_request": {
     "title": "Ritorno",
-    "count_input": "Numero di articoli restituiti",
+    "count_input": "Numero di articoli resi",
     "count_input_message": "Quanti articoli restituisci?",
-    "reason_input": "un motivo per ritornare",
+    "reason_input": "Motivo del reso",
     "reason_input_message": "Seleziona il motivo della restituzione di questo articolo.",
     "note_input": "Descrizione",
-    "note_input_hint": "Descrivi il motivo del reso..",
+    "note_input_hint": "Scrivi una descrizione sul motivo del reso..",
     "note_input_message": "Descrivi il motivo della restituzione di questo articolo, se necessario.",
     "media_message": "Puoi caricare immagini, audio o video del prodotto qui per ottenere un supporto migliore per le informazioni sullo stato del prodotto. Selezionando il file verrà automaticamente inviato e confermato.",
     "video": "video",
@@ -257,37 +257,37 @@ export default {
     "identity": "Autenticazione",
     "success_kyc": "KYC verificato",
     "club": "Livello utente",
-    "subscription": "Abbonamento alle notizie",
+    "subscription": "Ricevi le novità",
     "leave_shop": "Lascia questo negozio e rimuovi tutti i livelli di clienti",
     "leave_shop_action": "Lascia il negozio",
     "edit_personal_info": "Modifica le informazioni personali",
     "leave_dialog": {
-      "title": "Lascia il negozio",
-      "message": "L'annullamento dell'iscrizione a questo negozio non cancellerà le informazioni e i record dell'ordine.",
-      "action": "Lasciare"
+      "title": "Cancellami dal negozio",
+      "message": "La cancellazione dal negozio non cancellerà le informazioni e i record degli ordini.",
+      "action": "Cancella"
     },
     "notifications": {
-      "leave_success": "Lascia il negozio"
+      "leave_success": "Cancellati dal negozio"
     },
     "club_table": {
       "discount": "Sconto",
       "limit": "Limite",
-      "currency": "Moneta",
+      "currency": "Valuta",
       "free_shipping": "Spedizione gratuita"
     }
   },
   "basket_page": {
-    "title": "Carrello della spesa",
+    "title": "Carrello",
     "total_price": "Importo totale",
     "shipping": "Spese di spedizione",
     "free_shipping": "Spedizione gratuita",
-    "shipping_not_pay": "Non incluso",
+    "shipping_not_pay": "Non inclusa",
     "total_discount": "Sconto totale",
     "customer_club": "Membro del club clienti",
     "customer_club_discount": "Sconto per i membri",
     "final_price": "Pagamento finale",
     "lead_time": "Tempo di preparazione",
-    "lead_time_unit": "Ora",
+    "lead_time_unit": "Ora/e",
     "receive_time": "Tempo di consegna preferito",
     "select_time": "Seleziona Tempi di consegna",
     "no_select_time": "Appena possibile",
@@ -299,49 +299,49 @@ export default {
     "time_input_label": "Consegna a",
     "time_input_label_no_data": "Seleziona almeno un intervallo di tempo",
     "support_cod": "Pagamento alla consegna",
-    "not_support_cod": "Impossibile pagare in loco!",
+    "not_support_cod": "Impossibile pagare alla consegna",
     "final_confirm_action": "Conferma d'ordine finale",
     "pay_and_complete_action": "Paga ora",
-    "pre_confirm_service": "Inviare la richiesta",
+    "pre_confirm_service": "Invia la richiesta",
     "errors": {
       "no_address": "Seleziona l'indirizzo a cui desideri che il tuo ordine venga spedito.",
       "no_phone": "Inserisci un numero di contatto per coordinare la ricezione della merce.",
       "select_billing_country": "Seleziona il tuo paese di fatturazione",
       "select_billing_state": "Seleziona la tua regione fiscale"
     },
-    "same_billing_address": "Informazioni di fatturazione uguali a Informazioni sul destinatario",
+    "same_billing_address": "Informazioni di fatturazione uguali alle Informazioni sul destinatario",
     "custom_billing_info": "Informazioni di fatturazione diverse",
     "basket_empty": "Il cestino è vuoto",
-    "extra_shipping_count": "Riceverai {count} pacchetti.",
+    "extra_shipping_count": "Riceverai {count} pacchi.",
     "select_location_error": "Trova il luogo di ricezione della spedizione sulla mappa e fai clic sull'indicatore al centro della mappa per determinare l'indirizzo esatto del destinatario."
   },
   "basket_items": {
     "items_unit": "X",
     "lead_unit": "Ora",
-    "count_input": "Contare",
-    "price_changed": "Il prezzo è cambiato. nuovo prezzo:",
-    "offer": "Ottieni {count}x articolo del {percent}% di sconto",
+    "count_input": "Conteggio",
+    "price_changed": "Il prezzo è cambiato. Nuovo prezzo:",
+    "offer": "Ottieni {count}x articolo/i al {percent}% di sconto",
     "offer_free": "Ottieni {count}x gratis"
   },
   "addresses_page": {
-    "title": "I miei indirizzi",
+    "title": "I miei indirizzi di recapito",
     "new_action": "Nuovo indirizzo",
     "Recipient": "Destinatario",
     "address": "Indirizzo",
-    "building_no": "targa",
-    "building_unit": "unità",
+    "building_no": "Numero edificio/interno",
+    "building_unit": "Numero civico",
     "postcode": "Codice postale",
     "tel": "tel",
-    "description": "Nota",
+    "description": "Note",
     "map": {
-      "title": "I miei indirizzi",
-      "confirm": "Registrazione dell'indirizzo",
+      "title": "I miei indirizzi di recapito",
+      "confirm": "Registra l'indirizzo",
       "address_type": "Indirizzo",
       "receptor_type": "Destinatario"
     },
     "add_dialog": {
       "title": "Nuovo nome indirizzo",
-      "message": "Inserisci un titolo per un nuovo indirizzo.",
+      "message": "Inserisci un nome per un nuovo indirizzo.",
       "address_name_input": "Indirizzo (richiesto)"
     }
   },
@@ -352,23 +352,23 @@ export default {
     "title": "Lista dei desideri"
   },
   "user_comments": {
-    "title": "I miei commenti",
+    "title": "Le mie recensioni",
     "first_post": "Primo post",
     "last_edit": "Ultima modifica"
   },
   "user_gift_cards": {
-    "title": "Le mie carte regalo",
-    "add_action": "Aggiungi carta",
+    "title": "Le mie Gift Cards",
+    "add_action": "Aggiungi Gift Card",
     "add_card_dialog": {
-      "title": "Aggiungi carta regalo",
+      "title": "Aggiungi Gift Card",
       "message": "Inserisci il numero della carta e il codice di sicurezza. Una carta regalo verrà aggiunta al tuo account.",
-      "card_number_input": "Numero di carta",
-      "info": "Nota: quando acquisti dal negozio, ti verrà mostrata la possibilità di pagare con carte regalo. Selezionando questa opzione, l'importo del saldo della ricarica verrà detratto dall'importo dell'ordine.",
-      "add_action": "Registrazione della carta"
+      "card_number_input": "Numero della Gift Card",
+      "info": "Nota: quando acquisti dal negozio, ti verrà mostrata la possibilità di pagare con Gift Cards. Selezionando questa opzione, l'importo nella card verrà detratto dall'importo dell'ordine.",
+      "add_action": "Registrazione della Gift Card"
     }
   },
   "product_comparison": {
-    "title": "Confronta prodotto",
+    "title": "Confronta Prodotto",
     "action_button": "Confronta",
     "list": {
       "no_data": "Nessun prodotto è stato aggiunto all'elenco di confronto.",
@@ -383,7 +383,7 @@ export default {
       "user_review": "Recensioni degli utenti",
       "rating": "Valutazione",
       "rating_count": "Numero di valutazioni",
-      "info": "Puoi condividere questa tabella di confronto dei prodotti con i tuoi amici inviando il seguente link o accedervi in seguito salvando questo link.",
+      "info": "Puoi condividere questa tabella di confronto dei prodotti con i tuoi amici inviando il seguente link, o accedervi in seguito salvando questo link.",
       "copy_action": "Copia link di confronto",
       "check_list": [
         "sì",
@@ -396,35 +396,35 @@ export default {
     }
   },
   "product_filter_menu": {
-    "only_original": "Solo originali",
-    "only_has_discount": "Solo scontato",
+    "only_original": "Solo prodotti originali",
+    "only_has_discount": "Solo prodotti scontati",
     "price_range": "Fascia di prezzo",
     "brands": "Marca",
     "main_shop_page": "Pagina principale del negozio",
     "home": "Home"
   },
   "product_rating_view": {
-    "message": "Gentile {user}, hai acquistato questo prodotto. Ti va di recensirlo?",
+    "message": "Gentile {user}, hai acquistato questo prodotto. Fai una recensione",
     "notification": {
       "title": "Congratulazioni",
-      "message": "La tua recensione commento è stata registrata."
+      "message": "Abbiamo ricevuto la tua recensione."
     }
   },
   "blogs": {
     "title": "Blog",
     "add_new_blog": "Nuovo blog",
-    "popular": "Popolare",
+    "popular": "Articoli Popolari",
     "topics": "Temi",
     "suggestions": "Suggerimenti"
   },
   "official_pages": {
     "about_us": "Chi siamo",
-    "terms": "Condizioni d'uso",
-    "privacy": "Politica sulla riservatezza",
+    "terms": "Termini e Condizioni d'uso",
+    "privacy": "Privacy Policy",
     "contact_us": "Contattaci"
   },
   "contact_us_form": {
-    "title": "Contattaci modulo",
+    "title": "Modulo dei Contatti",
     "name": "Nome",
     "email": "E-mail",
     "phone": "Telefono",
@@ -437,20 +437,20 @@ export default {
     "notifications": {
       "payment_success_title": "Conferma di pagamento",
       "payment_success": "Pagamento completato.",
-      "buy_title": "Acquistare",
-      "pay_by_giftcards": "Il tuo ordine è stato pagato con una carta regalo.",
+      "buy_title": "Acquista",
+      "pay_by_giftcards": "Il tuo ordine è stato pagato con una Gift Card.",
       "free_order": "Il tuo ordine è gratuito.",
       "pay_by_cod": "Il tuo ordine è stato aggiunto in contrassegno.",
       "pay_by_dir": "Il tuo ordine è stato aggiunto con successo. Ora puoi pagare tramite bonifico bancario diretto e poi caricare la ricevuta di pagamento nella pagina dell'ordine.",
       "pay_title": "Pagamento",
-      "qr_code_payment": "Indirizzo codice QR di pagamento creato.",
+      "qr_code_payment": "Codice di pagamento con codice QR creato.",
       "connecting_to_online_gateway": "Connessione al gateway di pagamento online."
     }
   },
   "time_progress_bar": {
-    "title_before_start": "Rimase all'inizio",
-    "title_between_start_end": "Rimase fino alla fine",
-    "title_after_end": "Finito",
+    "title_before_start": "Quanto manca all'inizio",
+    "title_between_start_end": "Quanto manca alla fine",
+    "title_after_end": "Completato",
     "title_no_start_end": "Senza periodo di tempo!"
   },
   "lottery_prizes": {
@@ -462,7 +462,7 @@ export default {
   },
   "avocado": {
     "not_enable": "Il modulo avocado non è abilitato!",
-    "last_update": "Ultimo aggiornamento:",
+    "last_update": "Ultimo aggiornamento",
     "step1": "1. Inserisci il nome e i dettagli del prodotto che desideri ordinare e fai clic sul pulsante Aggiungi.",
     "title_plc": "Inserisci il nome del prodotto.",
     "description_plc": "Hai più descrizioni dei prodotti?",
@@ -489,7 +489,7 @@ export default {
     },
     "notifications": {
       "order_success": "Il tuo ordine è stato effettuato con successo.",
-      "delete_success": "Elemento eliminato."
+      "delete_success": "Prodotto eliminato."
     }
   },
   "hyper": {
@@ -506,18 +506,18 @@ export default {
     },
     "notifications": {
       "order_success": "Il tuo ordine è stato effettuato con successo.",
-      "delete_success": "Elemento eliminato."
+      "delete_success": "Prodotto eliminato."
     }
   },
   "pending_payment": {
     "upload_payment_receipt": "Carica immagine della ricevuta di pagamento.",
-    "upload_payment_receipt_done": "✔ Hai già caricato l'immagine dello scontrino, attendi la nostra approvazione. Se è necessario modificare, è possibile sostituire l'immagine precedente con una nuova.",
+    "upload_payment_receipt_done": "✔ Hai già caricato l'immagine dello ricevuta di pagamento, attendi la nostra approvazione. Se è necessario modificare, è possibile sostituire l'immagine precedente con una nuova.",
     "public_form_title": "Informazioni sull'account per il trasferimento di denaro"
   },
   "service_bill": {
     "task": {
-      "title": "Lista di cose da fare",
-      "message": "Specifica i titoli del lavoro che vuoi fare e fai sapere all'acquirente fino a che punto è progredito."
+      "title": "Lista delle cose da fare",
+      "message": "Specifica le mansioni che farai e fai sapere all'acquirente a che punto sei."
     },
     "booking": {
       "title": "Prenotazione / Prenotazione",
@@ -532,7 +532,7 @@ export default {
       "message": "Quanto costa questo servizio?"
     },
     "subscription": {
-      "title": "Sottoscrizione",
+      "title": "Abbonamento",
       "message": "Puoi scegliere il periodo di abbonamento acquistando questo servizio su base giornaliera. Fai sapere all'acquirente se desideri modificare i valori predefiniti che hai già inserito.",
       "duration": "Periodo di abbonamento"
     },

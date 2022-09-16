@@ -382,6 +382,7 @@ export default {
     waiting: "Waiting...",
     waiting_connecting_payment: "Waiting for the payment service...",
     creating_secure_payment: "Creating secure payment.",
+    waiting_for_payment: "Please complete payment...",
 
     officer: "Officer",
 
@@ -641,7 +642,15 @@ export default {
     pickup: "Pickup",
     customize: "customize",
     difficulty: "Difficulty",
-    banned:'Banned',
+    banned: "Banned",
+    company: "Company",
+    tax_shipping:'Shipping tax',
+
+
+    warranty: "Warranty",
+    return_policy: "Return Policy",
+    guide: "Guide",
+    translate:'Translate',
 
   },
   difficulties: {

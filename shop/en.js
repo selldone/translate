@@ -128,6 +128,10 @@ export default {
     price: "Price",
     rate: "Rate",
     comment: "Comment",
+    warranty: "Warranty",
+    return_policy: "Return Policy",
+    guide: "Guide",
+    shipping: "Shipping",
   },
 
   /** @see LayoutShop **/
@@ -546,7 +550,7 @@ export default {
 
   avocado: {
     not_enable: "The avocado form is not enabled!",
-    last_update: "Last update:",
+    last_update: "Last update",
     step1:
       "1. Enter the name and details of the product you want to order and click the Add button.",
     title_plc: "Enter the name of the product.",
@@ -569,6 +573,8 @@ export default {
     pay_online: "Pay online",
     pricing_not_completed_message:
       "Your order is being reviewed. Your order will be reviewed and priced soon and you will be able to pay the order.",
+
+    select_address_message:"Please enter your address, and then you can submit the order.",
 
     delete_item_dialog: {
       title: "Remove item from the shopping cart",
