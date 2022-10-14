@@ -8,6 +8,7 @@ export default {
     price_list: "Pricing",
     apps: "Apps",
     experts: "Experts",
+    demo: "Demo",
   },
 
   /** @see LayoutSaminPages **/

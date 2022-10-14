@@ -9,6 +9,8 @@ export default {
     price_list: "قیمت",
     apps: "اپلیکیشن ها",
     experts: "متخصصین",
+    demo: "نمونه",
+
   },
 
 

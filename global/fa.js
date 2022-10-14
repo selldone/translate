@@ -649,6 +649,7 @@ export default {
     return_policy: "سیاست بازگشت",
     guide: "راهنما",
     translate:'ترجمه',
+    public:'عمومی',
 
   },
 
@@ -775,6 +776,9 @@ export default {
     reply: "ارسال پاسخ",
     unlock: "باز کردن قفل",
     lock: "قفل کردن",
+    create_clone:'ایجاد کپی',
+    regenerate:'بازسازی'
+
   },
 
   instance_message_title: "ارسال پیام فوری",

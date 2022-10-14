@@ -512,7 +512,7 @@ export default {
     seo: "SEO",
     followers: "Followers",
     followings: "Followings",
-    private: "Preview",
+    private: "Private",
     soon: "Soon",
     features: "Features",
     bot: "Bot",
@@ -651,6 +651,7 @@ export default {
     return_policy: "Return Policy",
     guide: "Guide",
     translate:'Translate',
+    public:'Public',
 
   },
   difficulties: {
@@ -775,6 +776,8 @@ export default {
     reply: "Reply",
     unlock: "Unlock",
     lock: "Lock",
+    create_clone:'Create clone',
+    regenerate:'Regenerate'
   },
 
   instance_message_title: "Send instant message",

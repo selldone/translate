@@ -1,7 +1,7 @@
 export default {
   "surveys": [
-    "Foarte sarac",
-    "Sărac",
+    "Foarte slab",
+    "Slab",
     "Normal",
     "Bun",
     "Excelent"
@@ -10,40 +10,40 @@ export default {
     "map": "Hartă",
     "email": "E-mail",
     "phone": "Telefon",
-    "address": "Abordare",
-    "copyright": "Utilizarea conținutului numai în scopuri necomerciale și cu referire la sursă (link cu {shop_title}). Toate drepturile rezervate pentru {shop_title}.",
+    "address": "Adresă",
+    "copyright": "Utilizarea conținutului numai în scopuri necomerciale și cu referire la sursă (link {shop_title}). Toate drepturile rezervate {shop_title}.",
     "powered_by": "Cu sprijinul",
     "privacy": "Politica de Confidențialitate",
     "term_of_use": "Termeni de utilizare",
-    "shop_app_setting": "Setarea magazinului și GDPR",
+    "shop_app_setting": "GDPR",
     "dialog_setting": {
-      "title": "Setarea aplicațiilor magazin",
+      "title": "Setări aplicații magazin",
       "app_list": "Lista aplicațiilor"
     }
   },
   "product_card": {
     "sold_out": "Vândut",
     "review_unit": "Revizuire",
-    "not_original": "Nu original"
+    "not_original": "Neoriginal"
   },
   "shop": {
-    "products_filter": "Filtru",
+    "products_filter": "Filtrează",
     "native": {
-      "title": "Autentificare aplicație",
-      "message": "Această aplicație necesită acces la informațiile contului dvs. de magazin. Aceasta include acces la nume, număr de contact, adresă, e-mail, istoricul comenzilor, comenzi și postarea de comentarii în acest magazin.",
-      "message_bold": "Asigurați-vă că utilizați aplicația oficială a magazinului pentru a intra în acest magazin."
+      "title": "Autentificare site",
+      "message": "Această aplicație necesită acces la informațiile contului dvs. de magazin. Acest lucru include acces la nume, număr de contact, adresă, e-mail, istoricul comenzilor, comenzi și recenzii în acest magazin.",
+      "message_bold": "Asigurați-vă că utilizați linkul oficial al magazinului pentru a intra."
     }
   },
   "sort": {
     "title": "Filtrează după",
     "title_small": "Filtrează după..",
     "nothing": "Nimic",
-    "most_views": "Cele mai multe vederi",
-    "most_likes": "Cel mai popular",
-    "most_recent": "Cel mai nou",
-    "most_sell": "Cel mai bine vândut",
+    "most_views": "Cele mai vizualizate",
+    "most_likes": "Cele mai populare",
+    "most_recent": "Cele mai noi",
+    "most_sell": "Cele mai bine vândute",
     "cheapest": "Cele mai ieftine",
-    "most_expensive": "Cel mai scump",
+    "most_expensive": "Cele mai scumpe",
     "only_available": "Disponibil",
     "view_mode": {
       "normal": "Normal",
@@ -56,56 +56,56 @@ export default {
     "fake": "Fals",
     "action": "Licitaţie",
     "compare_limit": "Limită de 10 articole",
-    "compare_add": "adaugă pentru a compara",
+    "compare_add": "Adaugă pentru a compara",
     "compare_be_in_list": "În lista de comparare",
     "type": "Tip",
     "brand": "Marca",
     "category": "Categorie",
     "discount": "Reducere",
     "track_price": "Urmăriți prețul",
-    "waiting_for_auction": "Așteptați licitația?",
-    "inform_auction": "Spune-mi despre licitație",
-    "return_in_days": "{days} zile Retur în garanție",
-    "support24h7": "Asistență 24 de ore și 7 zile",
-    "support_normal": "Suport orar de lucru",
-    "original_guarantee": "Garantie originala",
+    "waiting_for_auction": "Așteptați reducerea? Click aici",
+    "inform_auction": "Anunță-mă când se reduce prețul",
+    "return_in_days": "{days} zile pentru retur",
+    "support24h7": "Asistență 24/7",
+    "support_normal": "Orar de lucru pentru suport",
+    "original_guarantee": "Garanție",
     "cod_payment": "Suport ramburs la livrare",
-    "pros": "Pro",
+    "pros": "Avantaje",
     "cons": "Contra",
-    "external_link": "Citeste mai mult",
+    "external_link": "Citește mai mult",
     "notifications": {
       "congratulation": "Felicitări",
-      "waiting_list_add_success": "Vă vom anunța când acest produs este scos la licitație.",
-      "waiting_list_delete_success": "Ai ieșit din lista de așteptare pentru licitație."
+      "waiting_list_add_success": "Vă vom anunța când acest produs va avea reducere de preț.",
+      "waiting_list_delete_success": "Ai ieșit din lista de așteptare pentru reducerea de preț."
     },
-    "offer_message": "Cumpărați {min_quantity} Obțineți o reducere de {percent}% pentru aceste articole",
+    "offer_message": "Cumpără {min_quantity} și primești o reducere de {percent}% pentru aceste articole",
     "up_to": "Până la {per_order}x per comandă",
-    "get_free": "PRIMESTI GRATUIT",
-    "get_off": "OBȚINEȚI {percent}% REDUCERE"
+    "get_free": "GRATUIT",
+    "get_off": "PROFITĂ DE {percent}% REDUCERE"
   },
   "buy_button": {
-    "waiting_for_availability": "Astept disponibilitate",
-    "inform_me_when_available": "Aștepți asta?",
-    "pay_buy": "Plătiți și cumpărați",
-    "quantity": "Numara",
+    "waiting_for_availability": "În așteptare disponibilitate produs",
+    "inform_me_when_available": "Aștepți acest produs? Informează-mă când va fi disponibil.",
+    "pay_buy": "Cumpără",
+    "quantity": "Numără",
     "quantity_in_basket": "Articole în coș",
     "count_unit": "X",
-    "remove": "Elimina",
+    "remove": "Elimină",
     "add_to_basket": "Adaugă în coș",
     "buy": "Cumpără",
     "notifications": {
       "inform_add_success": "Vă vom anunța când va fi disponibil.",
-      "inform_remove_success": "Ați fost eliminat de pe lista de așteptare."
+      "inform_remove_success": "Ați fost eliminat din lista de așteptare."
     }
   },
   "product": {
-    "review": "Revizuire",
-    "spec": "Spec",
-    "comments": "Comentarii",
-    "related_products_title": "Produse asemanatoare",
+    "review": "Descriere",
+    "spec": "Specificații",
+    "comments": "Recenzii",
+    "related_products_title": "Îți mai recomandăm și:",
     "price": "Preț",
     "rate": "Rată",
-    "comment": "cometariu"
+    "comment": "Recenzie"
   },
   "layout_shop": {
     "shop_menu": {
@@ -114,7 +114,7 @@ export default {
       "favorites": "Articole preferate",
       "gift_cards": "Carduri cadou",
       "return_requests": "Comenzi returnate",
-      "basket": "Cărucior de cumpărături"
+      "basket": "Coș de cumpărături"
     },
     "user_menu": {
       "my_shops": "Magazinele mele",
@@ -122,56 +122,56 @@ export default {
       "exit_from": "Deconectați-vă de la {shop_name}",
       "chips": "{chips} Chips-uri"
     },
-    "login_to_shop": "Conectați-vă la Magazin",
+    "login_to_shop": "Conectați-vă la magazin",
     "login_to_shop_short": "Autentificare",
-    "item_in_basket_message": "{count} Acest articol este în coșul dumneavoastră.",
+    "item_in_basket_message": "Articol adăugat în coșul dumneavoastră. Cantitate: {count}",
     "search_title": "Căutați în magazin {shop_name}"
   },
   "basket_top_menu": {
-    "basket": "Cart",
+    "basket": "Coș de cumpărături",
     "basket_is_empty": "Coșul tău este gol.",
     "total_price": "Total",
-    "view_basket": "Coșul dvs",
-    "more": "Mai mult ...",
+    "view_basket": "Sumar comandă",
+    "more": "Mai mult...",
     "accept_and_pay": "Verifică",
     "items": "articol(e)"
   },
   "history_orders_physical": {
     "rejected": "Respins",
     "table": {
-      "code": "Codul de comanda",
+      "code": "Cod de comandă",
       "reserved": "Data",
-      "delivery_state": "Starea de livrare",
-      "price": "Pretul total",
+      "delivery_state": "Starea livrării",
+      "price": "Prețul total",
       "status": "Starea plății"
     }
   },
   "history_orders": {
     "table": {
-      "code": "Codul de comanda",
+      "code": "Cod de comanda",
       "items": "Articole",
       "reserved": "Data",
       "delivery_state": "Ultima stare",
-      "price": "Pretul total",
+      "price": "Prețul total",
       "status": "Starea plății"
     }
   },
   "user_page": {
     "menu": {
       "gift_card": "Card cadou",
-      "comments": "Comentarii",
+      "comments": "Recenzii",
       "favorites": "Favorite",
-      "return_requests": "Se intoarce",
+      "return_requests": "Cereri retur",
       "addresses": "Adrese",
-      "profile": "profil",
+      "profile": "Profil",
       "orders": "Comenzi"
     }
   },
   "physical_order_page": {
-    "title": "Ordin",
+    "title": "Comandă",
     "payment": {
       "title": "Plată",
-      "payment_waiting": "asteptand plata",
+      "payment_waiting": "Plată în așteptare",
       "payment_completed": "Plătit",
       "table": {
         "title": "Titlu",
@@ -192,23 +192,23 @@ export default {
       "title": "Livrare",
       "subtitle": "Informații despre cumpărător",
       "confirm_received_action": "Confirmați primirea produsului",
-      "confirm_received_info": "Faceți clic pe butonul de confirmare dacă ați primit comanda. Dacă este necesar, veți putea trimite o recomandare dacă primiți confirmare.",
+      "confirm_received_info": "Faceți clic pe butonul de confirmare dacă ați primit comanda. Dacă doriți, veți putea trimite o recomandare după ce primiți confirmarea.",
       "Recipient": "Destinatar",
-      "bill": "Factura fiscala",
+      "bill": "Factura fiscală",
       "name": "Nume",
       "tel": "Telefon",
       "email": "E-mail",
       "country": "Țară",
       "state": "Stat",
       "city": "Oraș",
-      "address": "Abordare",
-      "building_no": "Numarul cladirii",
+      "address": "Adresă",
+      "building_no": "Număr",
       "unit_no": "Numărul de unitate",
       "postal_code": "Cod poștal",
       "description": "Descriere",
-      "order_delivered": "Comanda a fost livrata.",
-      "delivery_time": "Timpul de livrare",
-      "tracking_code": "Cod de urmarire",
+      "order_delivered": "Comanda a fost livrată.",
+      "delivery_time": "Timp de livrare",
+      "tracking_code": "Cod de urmărire",
       "tracking_url": "Url de urmărire",
       "notifications": {
         "confirm_delivery": "Comanda dvs. este confirmată."
@@ -216,35 +216,35 @@ export default {
     },
     "basket_items": {
       "original_warranty": "Garanția originalității mărfurilor",
-      "return": "Întoarcere",
+      "return": "Înapoi",
       "table": {
-        "product": "numele produsului",
-        "count": "Numara",
+        "product": "Numele produsului",
+        "count": "Numără",
         "unit_price": "Preț unitar",
-        "total_price": "Pretul total",
+        "total_price": "Preț total",
         "discount": "Reducere",
-        "final_price": "Pret final",
-        "returned": "Întors"
+        "final_price": "Preț final",
+        "returned": "Returnat"
       }
     }
   },
   "return_request": {
-    "title": "Întoarcere",
+    "title": "Retur",
     "count_input": "Numărul de articole returnate",
     "count_input_message": "Câte articole returnați?",
     "reason_input": "Motivul returului",
-    "reason_input_message": "Selectați motivul returnării acestui articol.",
+    "reason_input_message": "Vă rugăm selectați motivul returnării acestui articol.",
     "note_input": "Descriere",
-    "note_input_hint": "Descrieți motivul returului..",
+    "note_input_hint": "Descrieți motivul returului",
     "note_input_message": "Descrieți motivul returnării acestui articol dacă este necesar.",
-    "media_message": "Puteți încărca aici imaginea, audio sau videoclipul produsului pentru a obține asistență mai bună pentru informațiile despre starea produsului. Selectarea fișierului va trimite și confirma automat.",
+    "media_message": "Puteți încărca aici imaginea, audio sau videoclipul produsului pentru a obține asistență mai bună pentru informațiile despre starea produsului.",
     "video": "Video",
     "voice": "Voce",
     "add_action": "Trimiteți cererea de retur",
     "notifications": "Solicitarea dvs. de returnare a fost înregistrată cu succes."
   },
   "virtual_order_page": {
-    "title": "Ordin",
+    "title": "Comanda",
     "info": {
       "title": "Produs virtual achiziționat"
     }
@@ -253,31 +253,31 @@ export default {
     "title": "Informațiile mele personale",
     "name": "Nume",
     "email": "E-mail",
-    "tel": "Tel",
+    "tel": "Telefon",
     "identity": "Autentificare",
     "success_kyc": "KYC verificat",
     "club": "Nivel de utilizator",
-    "subscription": "Abonament la știri",
+    "subscription": "Abonare la noutăți",
     "leave_shop": "Părăsiți acest magazin și eliminați nivelul tuturor clienților",
     "leave_shop_action": "Părăsiți magazinul",
     "edit_personal_info": "Editați informațiile personale",
     "leave_dialog": {
       "title": "Părăsiți magazinul",
       "message": "Dezabonarea la acest magazin nu va șterge informațiile și înregistrările comenzii dvs.",
-      "action": "Părăsi"
+      "action": "Părăsesc magazinul"
     },
     "notifications": {
-      "leave_success": "Părăsiți magazinul"
+      "leave_success": "Ați ieșit din magazin"
     },
     "club_table": {
       "discount": "Reducere",
       "limit": "Limită",
-      "currency": "Valută",
+      "currency": "Monedă",
       "free_shipping": "Transport gratuit"
     }
   },
   "basket_page": {
-    "title": "Cărucior de cumpărături",
+    "title": "Coș de cumpărături",
     "total_price": "Valoare totală",
     "shipping": "Cost de livrare",
     "free_shipping": "Transport gratuit",
@@ -285,17 +285,17 @@ export default {
     "total_discount": "Reducere totală",
     "customer_club": "Membru Club Client",
     "customer_club_discount": "Reducere pentru membri",
-    "final_price": "Plata finala",
-    "lead_time": "Timp de pregatire",
-    "lead_time_unit": "Ora",
+    "final_price": "Plata finală",
+    "lead_time": "Timp de livrare",
+    "lead_time_unit": "Ore",
     "receive_time": "Timp de livrare preferat",
-    "select_time": "Selectați Timp de livrare",
+    "select_time": "Selectați timp de livrare",
     "no_select_time": "Cât mai repede posibil",
     "transportation_type": "Tip de livrare",
     "days_input": "Zile de livrare",
     "days_input_label": "Zile",
     "days_input_no_data": "Selectați cel puțin o zi",
-    "time_input": "Timpul de livrare",
+    "time_input": "Timp de livrare",
     "time_input_label": "Livrare la",
     "time_input_label_no_data": "Selectați cel puțin un interval de timp",
     "support_cod": "Plata la livrare",
@@ -305,11 +305,11 @@ export default {
     "pre_confirm_service": "Trimite cererea",
     "errors": {
       "no_address": "Selectați adresa la care doriți să fie expediată comanda.",
-      "no_phone": "Introduceți un număr de contact pentru a coordona primirea mărfurilor.",
-      "select_billing_country": "Selectați țara dvs. de facturare",
+      "no_phone": "Introduceți un număr de contact pentru livrare.",
+      "select_billing_country": "Selectați țara de facturare",
       "select_billing_state": "Selectați regiunea dvs. fiscală"
     },
-    "same_billing_address": "Informațiile de facturare la fel ca și informațiile despre destinatar",
+    "same_billing_address": "Informațiile de facturare sunt aceleași cu informațiile de livrare",
     "custom_billing_info": "Informații de facturare diferite",
     "basket_empty": "Coșul este gol",
     "extra_shipping_count": "Veți primi {count} pachete.",
@@ -317,42 +317,42 @@ export default {
   },
   "basket_items": {
     "items_unit": "X",
-    "lead_unit": "Ora",
-    "count_input": "Numara",
-    "price_changed": "Pretul s-a schimbat. pret nou:",
+    "lead_unit": "Ore",
+    "count_input": "Numără",
+    "price_changed": "Prețul s-a schimbat. Preț nou:",
     "offer": "Obțineți {count}x articol cu {percent}% reducere",
     "offer_free": "Obțineți {count}x gratuit"
   },
   "addresses_page": {
     "title": "Adresele mele",
-    "new_action": "Adresa noua",
+    "new_action": "Adresa nouă",
     "Recipient": "Destinatar",
-    "address": "Abordare",
-    "building_no": "înmatriculare",
-    "building_unit": "unitate",
+    "address": "Livrare",
+    "building_no": "Număr clădire",
+    "building_unit": "Unitate",
     "postcode": "Cod poștal",
-    "tel": "Tel",
+    "tel": "Telefon",
     "description": "Notă",
     "map": {
       "title": "Adresele mele",
-      "confirm": "Înregistrarea adresei",
-      "address_type": "Abordare",
+      "confirm": "Confirm adresa",
+      "address_type": "Livrare",
       "receptor_type": "Destinatar"
     },
     "add_dialog": {
-      "title": "Noua Adresă Nume",
-      "message": "Introduceți un titlu pentru o nouă adresă.",
+      "title": "Nume pentru adresa nouă",
+      "message": "Introduceți un nume pentru o nouă adresă - de ex.: Birou.",
       "address_name_input": "Adresa (obligatoriu)"
     }
   },
   "return_requests": {
-    "title": "Cereri de returnare"
+    "title": "Cereri de retur"
   },
   "user_favorites": {
-    "title": "lista de dorințe"
+    "title": "Lista de dorințe"
   },
   "user_comments": {
-    "title": "Comentariile mele",
+    "title": "Recenziile mele",
     "first_post": "Prima postare",
     "last_edit": "Ultima modificare"
   },
@@ -363,27 +363,27 @@ export default {
       "title": "Adăugați card cadou",
       "message": "Introduceți numărul cardului și codul de securitate. Un card cadou va fi adăugat în contul dvs.",
       "card_number_input": "Număr de card",
-      "info": "Notă: Când cumpărați din magazin, vi se va afișa opțiunea de a plăti cu carduri cadou. Prin selectarea acestei opțiuni, suma soldului dvs. de reîncărcare va fi dedusă din suma comenzii.",
-      "add_action": "Înregistrarea cardului"
+      "info": "Notă: Când cumpărați din magazin, vi se va afișa opțiunea de a plăti cu carduri cadou. Prin selectarea acestei opțiuni, suma soldului dvs. va fi dedusă din suma comenzii.",
+      "add_action": "Înregistrare card"
     }
   },
   "product_comparison": {
     "title": "Comparați produsul",
     "action_button": "Comparaţie",
     "list": {
-      "no_data": "Nu au fost adăugate produse la lista de comparație.",
+      "no_data": "Nu au fost adăugate produse în lista de comparație.",
       "price": "Preț",
       "type": "Tip",
       "brand": "Marca",
-      "warranty": "garanție",
+      "warranty": "Garanție",
       "variants_comparison": "Comparați variantele de produse",
-      "spec": "Specificatii tehnice",
-      "pros": "Pro",
+      "spec": "Specificații tehnice",
+      "pros": "Avantaje",
       "cons": "Contra",
-      "user_review": "Comentariile utilizatorilor",
+      "user_review": "Recenziile utilizatorilor",
       "rating": "Evaluare",
       "rating_count": "Numărul de recenzii",
-      "info": "Puteți partaja acest tabel de comparare a produselor cu prietenii dvs. trimițând următorul link sau îl puteți accesa mai târziu salvând acest link.",
+      "info": "Puteți partaja acest tabel de comparare a produselor cu prietenii dvs. trimițând următorul link sau îl puteți accesa mai târziu salvând linkul.",
       "copy_action": "Copiați linkul de comparație",
       "check_list": [
         "da",
@@ -404,23 +404,23 @@ export default {
     "home": "Acasă"
   },
   "product_rating_view": {
-    "message": "Stimate {user}, Ați achiziționat acest produs. Ce parere aveti despre acest produs?",
+    "message": "Stimate {user}, ați achiziționat acest produs. Ce parere aveți despre el?",
     "notification": {
-      "title": "Felicitari",
-      "message": "Comentariul dvs. a fost înregistrat."
+      "title": "Felicitări",
+      "message": "Recenzia dvs. a fost înregistrată."
     }
   },
   "blogs": {
     "title": "Blog",
-    "add_new_blog": "Blog nou",
+    "add_new_blog": "Articol nou",
     "popular": "Popular",
     "topics": "Subiecte",
     "suggestions": "Sugestii"
   },
   "official_pages": {
     "about_us": "Despre noi",
-    "terms": "Termeni de utilizare",
-    "privacy": "Politica de Confidențialitate",
+    "terms": "Termeni și condiții",
+    "privacy": "Politica de confidențialitate și cookies",
     "contact_us": "Contactează-ne"
   },
   "contact_us_form": {
@@ -435,7 +435,7 @@ export default {
   },
   "master_payment": {
     "notifications": {
-      "payment_success_title": "Confirmarea platii",
+      "payment_success_title": "Confirmarea plății",
       "payment_success": "Plata finalizată.",
       "buy_title": "Cumpără",
       "pay_by_giftcards": "Comanda dvs. a fost plătită cu un card cadou.",
@@ -444,14 +444,14 @@ export default {
       "pay_by_dir": "Comanda dvs. a fost adăugată cu succes. Acum puteți plăti prin transfer direct de bani și apoi puteți încărca chitanța de plată pe pagina comenzii.",
       "pay_title": "Plată",
       "qr_code_payment": "Adresa codului QR de plată a fost creată.",
-      "connecting_to_online_gateway": "Conectarea la poarta de plată online."
+      "connecting_to_online_gateway": "Conectarea la metoda de plată online."
     }
   },
   "time_progress_bar": {
-    "title_before_start": "A ramas pana la inceput",
-    "title_between_start_end": "A ramas pana la capat",
+    "title_before_start": "Rămas până la începere",
+    "title_between_start_end": "Rămas până la final",
     "title_after_end": "Terminat",
-    "title_no_start_end": "Fara perioada de timp!"
+    "title_no_start_end": "Fără perioadă de timp!"
   },
   "lottery_prizes": {
     "message": "Puteți primi un cadou per comandă."
@@ -474,14 +474,14 @@ export default {
     "currency_msg": "Trebuie să plătiți suma acestei comenzi cu această monedă.",
     "step2": "2. După ce ați adăugat toate articolele dorite, faceți clic pe butonul de solicitare de revizuire a comenzii. În această etapă, vom analiza comanda și vă vom informa despre preț. Făcând clic pe acest link, veți putea vedea prețul și linkul de plată.",
     "order_action": "Înregistrarea comenzii",
-    "show_all": "Arata tot",
+    "show_all": "Arată tot",
     "show_accepted": "Afișați articolele confirmate",
     "last_orders": "Lista comenzilor tale recente",
     "pending_status": "în curs de revizuire",
     "check_now": "Verificați comanda",
     "add_new_order": "Faceți o nouă comandă",
     "pay_online": "Plătiți online",
-    "pricing_not_completed_message": "Comanda dvs. este în curs de examinare. Comanda dvs. va fi revizuită și va stabili prețul în curând și veți putea plăti comanda.",
+    "pricing_not_completed_message": "Comanda dvs. este în curs de examinare. Comanda dvs. va fi revizuită, vom stabili prețul și apoi veți putea plăti comanda.",
     "delete_item_dialog": {
       "title": "Scoateți articolul din coșul de cumpărături",
       "message": "Doriți să ștergeți acest articol din coș?",
@@ -510,7 +510,7 @@ export default {
     }
   },
   "pending_payment": {
-    "upload_payment_receipt": "Încărcați imaginea chitanței de plată.",
+    "upload_payment_receipt": "Încărcați foto/scanare chitanță plată.",
     "upload_payment_receipt_done": "✔ Ați încărcat deja imaginea chitanței, așteptați aprobarea noastră. Dacă trebuie să o schimbați, puteți înlocui imaginea anterioară cu una nouă.",
     "public_form_title": "Informații despre cont pentru transferul de bani"
   },
@@ -520,7 +520,7 @@ export default {
       "message": "Specificați titlurile lucrării pe care doriți să o faceți și spuneți cumpărătorului cât de mult a progresat."
     },
     "booking": {
-      "title": "Rezervare/Rezervare",
+      "title": "Rezervare",
       "message": "Această comandă va fi procesată la o oră specificată, clientul a selectat perioada dorită, dacă doriți să faceți modificări în perioada selectată, anunțați clientul.",
       "selected_checkin": "Check-in selectat de către client",
       "selected_checkout": "Check-out selectat de către client",
@@ -537,9 +537,9 @@ export default {
       "duration": "Perioada de abonament"
     },
     "charge": {
-      "title": "Încărca",
+      "title": "Taxare",
       "message": "Ați specificat o taxă pentru acest articol. Puteți modifica valoarea taxei pentru articolul achiziționat de client.",
-      "charge": "Încărca"
+      "charge": "Taxează"
     }
   }
 };

@@ -44,10 +44,11 @@ export default {
           { title: "🤝 Guild", to: { name: "GuildHome" } },
           { title: "🥑 Avocado", to: { name: "AvocadoHomePage" } },
           // { title: "Experts", to: { name: "ExpertsPage" } }, TODO: ACTIVATE AFTER RUNNING EXPERTS
+          { title: "🧱 API / Developers", to: { name: "DocHome" } },
+
           { title: "SEO Engine", to: { name: "Landing_SEO" } },
           { title: "Smart Report", to: { name: "Landing_SmartReport" } },
           { title: "Cloud Hosting", to: { name: "Landing_Cloud" } },
-          { title: "Logistic Solution", to: { name: "Landing_Logistic" } },
         ],
       },
       {

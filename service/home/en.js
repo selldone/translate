@@ -105,6 +105,7 @@ export default {
     step3: {
       title: "White label / Flexible / Deeply customizable.",
       msg1: "Design your landing pages, and change the theme color of your site tailored to your brand message. Drag and Drop feature makes all this possible without the need to hire an expert.",
+      view_sample_pages:"Great SD Stores to Inspire You",
     },
     step4: {
       title:

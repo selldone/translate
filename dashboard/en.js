@@ -269,7 +269,7 @@ export default {
       home: "Home",
       expert: "Expert",
       deals: "Deals",
-      providers:'Providers',
+      providers: "Providers",
     },
     shops: {
       create_new: "Create new shop",
@@ -2029,7 +2029,7 @@ export default {
       back: "Back",
     },
     title_input: "Category Title *",
-    title_input_error: "Select a Category Title",
+    title_input_error: "Enter a title for the category.",
     name_input: "Category name (English) *",
     name_input_error: "Select a unique name for the category",
     description_input: "Category description",
@@ -2821,8 +2821,10 @@ export default {
     "connect-returned": "Connect order has been returned by {shipping}.",
     "connect-failed": "Order fulfillment failed by the partner. {reason}",
     "connect-canceled": "The order was canceled by the partner.  {reason}",
+    "connect-action-cancel": "Request to cancel order.  {reason}",
     "connect-put-hold": "The order was putted on hold. {reason}",
     "connect-remove-hold": "The order was removed from hold. {reason}",
+    "connect-confirmed": "The order was confirmed.",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -3079,7 +3081,8 @@ export default {
       postcode_input: "Postal Code",
       tel_input: "Contact Number",
       passport_image_input: "Passport or driver's license",
-      passport_image_input_message: "Please upload a scan of your passport or driver's license.",
+      passport_image_input_message:
+        "Please upload a scan of your passport or driver's license.",
       personal_image_input: "ID card",
       personal_image_input_message:
         "Please upload your national ID card image. Some countries don't have ID cards, so just upload your passport or driver's license here.",
@@ -4991,13 +4994,11 @@ export default {
     light_header: "Header theme",
     light_footer: "Footer theme",
 
-    product_page:'Product Page',
-    typography:'Typography',
-    header:'Header',
-    custom_code:'Custom code',
-    custom_css:'Custom CSS',
-
-
+    product_page: "Product Page",
+    typography: "Typography",
+    header: "Header",
+    custom_code: "Custom code",
+    custom_css: "Custom CSS",
   },
 
   /** {@see AppTemplates**/
@@ -5798,7 +5799,7 @@ export default {
     active_message:
       "By activating this source, your customers will be able to place an order for the product through the request form you see below.",
     avocado_form_link_message:
-      "Put this link in your bio on Instagram, Telegram or other social media so that your audience can buy faster, easier, and finally more",
+      "Put this link in your bio on Instagram, Telegram or other social media so that your audience can buy faster, easier, and finally more.",
     need_address: "Get Address",
     need_address_msg:
       "If you need to get the location and address of the buyer, select this option.",
@@ -6233,7 +6234,7 @@ export default {
     vendor_wallets: "Wallets",
     pricing_models: "Pricing",
     add_vendor: "Add vendor",
-    requests:'Requests',
+    requests: "Requests",
   },
 
   price_input_type: {
@@ -6268,5 +6269,14 @@ export default {
   domains: {
     message:
       "Connect multiple domains to your business OS and manage all of them in one place. You can use the multiple domains feature to create dedicated domains for each part of your website, like blog and community, or use different domains for your affiliates.",
+  },
+
+  /** {@see ShopTeamNoteButton}   {@see ShopTeamNoteDialog} **/
+  notes: {
+    add_action: "Add a note for your team",
+    notifications: {
+      success_add: "Note has been added successfully.",
+      success_delete: "Note has been deleted successfully.",
+    },
   },
 };
