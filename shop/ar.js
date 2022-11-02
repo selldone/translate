@@ -170,7 +170,7 @@ export default {
   "physical_order_page": {
     "title": "طلب",
     "payment": {
-      "title": "قسط",
+      "title": "نقدا",
       "payment_waiting": "في انتظار السداد",
       "payment_completed": "تم الدفع",
       "table": {
@@ -442,7 +442,7 @@ export default {
       "free_order": "طلب مجاني.",
       "pay_by_cod": "تمت إضافة طلبك والدفع نقدًا عند التسليم.",
       "pay_by_dir": "تمت إضافة طلبك بنجاح. يمكنك الآن الدفع عن طريق التحويل المباشر للأموال ثم تحميل إيصال الدفع في صفحة الطلب.",
-      "pay_title": "قسط",
+      "pay_title": "نقدا",
       "qr_code_payment": "تم إنشاء عنوان الكيو ار كود للدفع.",
       "connecting_to_online_gateway": "الاتصال ببوابة الدفع عبر الإنترنت."
     }
@@ -496,7 +496,7 @@ export default {
     "title": "طلب إنشاء",
     "message": "قم بإنشاء قائمة المنتجات التي ترغب في شرائها عن طريق مسح الضوئي (سكان) لكود المنتج.",
     "currency_msg": "العملة التي تريد الدفع بها.",
-    "order_action": "قسط",
+    "order_action": "نقدا",
     "add_new_order": "طلب جديد",
     "continue_order": "متابعة الطلب",
     "delete_item_dialog": {

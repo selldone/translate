@@ -14,12 +14,14 @@ export default {
         items: [
           { title: "What is Selldone?", to: { name: "WhatIsSelldone" } },
           { title: "Selldone Community", to: { name: "CommunityHomePage" } },
+          { title: "🎁 Community Gifts", to: { name: "ParticipantPage" } },
+
           { title: "Help", to: { name: "Helps" } },
           { title: "Blog", to: { name: "Blogs" } },
-          { title: "FAQ", to: { name: "FAQ" } },
 
           { title: "Privacy Policy", to: { name: "Landing_Privacy" } },
           { title: "Terms of Service", to: { name: "Landing_Terms" } },
+
         ],
       },
       {

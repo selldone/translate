@@ -3028,6 +3028,7 @@ export default {
     menu: {
       plans: "Plans",
       accounts: "Accounts",
+      participant:"Participant",
     },
   },
   /** {@see UserMonetizePlans} **/
@@ -5548,6 +5549,9 @@ export default {
       limit: "Products limit",
       limit_message: "Enter products result counts.",
       select_categories: "Select available categories.",
+      categories_limit:'Categories limit',
+      categories_limit_msg:'Enter the maximum number of categories. Set zero for no limit.',
+
     },
   },
 
@@ -5649,7 +5653,7 @@ export default {
   /** @see ShopEdit_Sms **/
   shop_sms: {
     title: "Manage SMS",
-    sub_title: "SMS templates sent to customers",
+    sub_title: "SMS templates",
     message:
       "You can see the content of the text messages sent by your store here. Due to the limitation in registering the validation patterns in the messaging service, it is not possible to personalize the text messages at the moment.",
   },
@@ -6271,7 +6275,7 @@ export default {
       "Connect multiple domains to your business OS and manage all of them in one place. You can use the multiple domains feature to create dedicated domains for each part of your website, like blog and community, or use different domains for your affiliates.",
   },
 
-  /** {@see ShopTeamNoteButton}   {@see ShopTeamNoteDialog} **/
+  /** {@see TeamNoteButton}   {@see TeamNoteDialog} **/
   notes: {
     add_action: "Add a note for your team",
     notifications: {
@@ -6279,4 +6283,11 @@ export default {
       success_delete: "Note has been deleted successfully.",
     },
   },
+
+  /** {@see ShopExternalServicesWidget} **/
+  external_services:{
+    title:'External services',
+    subtitle:'Monitor the last status of the external services like SMS and emails here.'
+  }
+
 };

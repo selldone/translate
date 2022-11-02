@@ -50,8 +50,8 @@ export default {
   },
 
   video: {
-    title: "An all-in-one solution for your online and in-person sales.",
-    msg: "Provide the fastest purchase experience in your ecommerce.",
+    title: "An all-in-one solution for your online and in store sales.",
+    msg: "Provide the fastest purchase experience / Make more $$$.",
 
     card_pos: {
       title: "Selldone POS",
@@ -259,7 +259,7 @@ export default {
   },
 
   build: {
-    title: "Start your own ecommerce with your own brand.",
+    title: "Start your own shop with your own brand.",
     msg: "You have many choices to convert your social media accounts to an online shopping website on your domain or create your masterpiece ecommerce from scratch.",
   },
 

@@ -5645,7 +5645,7 @@ export default {
   /** @see ShopEdit_Sms **/
   shop_sms: {
     title: "مدیریت پیامک ها",
-    sub_title: "الگو های پیامک ارسالی به مشتریان",
+    sub_title: "الگوی پیامک ها",
     message:
       "محتوای پیامک های ارسالی فروشگاه خود را در اینجا مشاهده می نمایید. به دلیل محدودیت در ثبت الگوهای اعتبارسنجی در سرویس ارسال پیامک، امکان شخصی سازی پیامک ها در حال حاضر فراهم نیست.",
   },
@@ -6270,7 +6270,7 @@ export default {
   },
 
 
-  /** {@see ShopTeamNoteButton}   {@see ShopTeamNoteDialog} **/
+  /** {@see TeamNoteButton}   {@see TeamNoteDialog} **/
   notes: {
     add_action: "اضافه کردن یادداشت برای تیم",
     notifications: {

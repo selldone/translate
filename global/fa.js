@@ -650,6 +650,7 @@ export default {
     guide: "راهنما",
     translate:'ترجمه',
     public:'عمومی',
+    deleted:'حذف شده',
 
   },
 

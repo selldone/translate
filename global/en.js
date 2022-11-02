@@ -652,7 +652,7 @@ export default {
     guide: "Guide",
     translate:'Translate',
     public:'Public',
-
+    deleted:'Deleted',
   },
   difficulties: {
     very_complicated: "Very complicated",
