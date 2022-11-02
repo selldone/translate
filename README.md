@@ -1,5 +1,8 @@
-# Translation (Community Volunteers ❤)
-Translation files of Selldone (Dashboards, Shops, Applications, ...)
+# Business OS Translation 
+**Community Volunteers ❤** - Translation files of Selldone (Dashboards, Shops, Applications, ...)
+
+[Business OS](https://selldone.com), The next evolution step of commerce services from e-commerce platforms to something with no theme, plugin, or code. 100% visually!
+
 
 ## How submit a change?
 **English** is the original language of selldone.
@@ -132,9 +135,12 @@ We believe one person can make a change in the online humanity era, even who has
 * By translating each 1K words to your native language, you can claim a free 5USD (Or equivalent in your currency)  gift card to charge your selldone account. To verify, please send a mail.
 
 ### +140 Currencies
+Your customers can smoothly pay in their local currencies.
 
 ### +190 Countries
+The world’s most easy-to-scale Business OS.
+
 🇦🇨 🇦🇩 🇦🇪 🇦🇫 🇦🇬 🇦🇮 🇦🇱 🇦🇲 🇦🇴 🇦🇶 🇦🇷 🇦🇸 🇦🇹 🇦🇺 🇦🇼 🇦🇽 🇦🇿 🇧🇦 🇧🇧 🇧🇩 🇧🇪 🇧🇫 🇧🇬 🇧🇭 🇧🇮 🇧🇯 🇧🇱 🇧🇲 🇧🇳 🇧🇴 🇧🇶 🇧🇷 🇧🇸 🇧🇹 🇧🇻 🇧🇼 🇧🇾 🇧🇿 🇨🇦 🇨🇨 🇨🇩 🇨🇫 🇨🇬 🇨🇭 🇨🇮 🇨🇰 🇨🇱 🇨🇲 🇨🇳 🇨🇴 🇨🇵 🇨🇷 🇨🇺 🇨🇻 🇨🇼 🇨🇽 🇨🇾 🇨🇿 🇩🇪 🇩🇬 🇩🇯 🇩🇰 🇩🇲 🇩🇴 🇩🇿 🇪🇦 🇪🇨 🇪🇪 🇪🇬 🇪🇭 🇪🇷 🇪🇸 🇪🇹 🇪🇺 🇫🇮 🇫🇯 🇫🇰 🇫🇲 🇫🇴 🇫🇷 🇬🇦 🇬🇧 🇬🇩 🇬🇪 🇬🇫 🇬🇬 🇬🇭 🇬🇮 🇬🇱 🇬🇲 🇬🇳 🇬🇵 🇬🇶 🇬🇷 🇬🇸 🇬🇹 🇬🇺 🇬🇼 🇬🇾 🇭🇰 🇭🇲 🇭🇳 🇭🇷 🇭🇹 🇭🇺 🇮🇨 🇮🇩 🇮🇪 ...
 
-
-
+View list of [Supported Countries and Payments 
+](https://selldone.com/countries).
