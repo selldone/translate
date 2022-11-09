@@ -155,7 +155,19 @@ export default {
       "Setup": "bolt",
       "Sell": "értékesítés és marketing",
       "Developer": "Fejleszteni",
-      "Application": "Alkalmazások"
+      "Application": "Alkalmazások",
+      "Product": "Termékek és kategóriák kezelése",
+      "Blog": "CMS és blog",
+      "Order": "Megrendelés teljesítési központ",
+      "Channel": "Értékesítési csatornák",
+      "Accounting": "Számviteli és fizetési módok",
+      "Incentives": "Ösztönzők",
+      "Marketing": "Marketing és kampányok",
+      "Logistic": "Logisztika és szállítás",
+      "Customers": "Ügyfélklub és szegmentáció",
+      "Page": "Cél és egyéni oldalak",
+      "Access": "Személyzet / API hozzáférés kezelése",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github Repository",
@@ -193,7 +205,9 @@ export default {
       "stores": "Üzletek",
       "roles": "Szerepek",
       "home": "itthon",
-      "expert": "Szakértő"
+      "expert": "Szakértő",
+      "deals": "Ajánlatok",
+      "providers": "Szolgáltatók"
     },
     "shops": {
       "create_new": "Új üzlet létrehozása",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Állapot",
           "created_at": "Készítés ideje",
           "updated_at": "Utolsó frissítés"
-        }
+        },
+        "subtitle": "Írjon cikkeket egy modern beépített szerkesztővel, hogy bemutathassa magát és vállalkozását. Az eredeti tartalom az első dolog, amire összpontosítania kell egy jó minőségű SEO-barát blogbejegyzés írásakor."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Jelentés",
         "tax": "Adó",
         "drop_shipping": "Viszonteladói nyugták",
-        "reseller_accounts": "Viszonteladói fiókok"
+        "reseller_accounts": "Viszonteladói fiókok",
+        "valuations": "Értékelések"
       },
       "invoice": {
         "title": "Vásároljon összekapcsolt pénztárcákat",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Szállítás",
         "inventory": "Leltár",
         "warehouse": "Raktár",
-        "logistic_apps": "Logisztika"
+        "logistic_apps": "Logisztika",
+        "profiles": "Profilok"
       },
       "warehouse": {
         "title": "Store Raktár",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Minimális rendelési költség az ingyenes szállításhoz",
           "notifications": {
             "update_success": "A szállítási szolgáltatás beállításai sikeresen befejeződtek."
-          }
+          },
+          "shipping_cost_calculation": "Szállítási költség kalkuláció",
+          "sod_true": "Kérje ki a szállítási költséget a rendeltetési helyre",
+          "sod_true_message": "Győződjön meg arról, hogy a szállítási szolgáltatás elfogadja a szállítási költséget a rendeltetési helyre.",
+          "sod_false": "Automatikus szállítási költség kalkuláció",
+          "cod_true": "Utánvétes fogadás",
+          "cod_false": "Csak online fizetést fogad el",
+          "cod_true_message": "Győződjön meg arról, hogy a szállítási szolgáltatás elfogadja az utánvétet."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "Email",
         "domain": "Tartomány",
-        "verifications": "Ellenőrzések"
+        "verifications": "Ellenőrzések",
+        "flow": "Folyam",
+        "business_model": "Üzleti modell"
       },
       "delete_dialog": {
         "title": "Áruház törlése",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Termékegység",
       "unit_float": "Úszó egység (hamarosan)",
       "unit_float_hint": "Például a vásárló rendelhet 3 kg gyümölcsöt, de a vevőnek küldött mennyiség kis mértékben eltér a megrendelt mennyiségtől.",
-      "unit_float_message": "A megrendelés feldolgozása során a szállított összeg eltérhet a megrendelt mennyiségtől. Ezt a különbözetet a rendszer automatikusan kiszámolja és az Ön tartozásaként tartja nyilván a vevő felé, amit a következő rendeléseknél lehet alkalmazni."
+      "unit_float_message": "A megrendelés feldolgozása során a szállított összeg eltérhet a megrendelt mennyiségtől. Ezt a különbözetet a rendszer automatikusan kiszámolja és az Ön tartozásaként tartja nyilván a vevő felé, amit a következő rendeléseknél lehet alkalmazni.",
+      "status_list": {
+        "active": {
+          "title": "Aktív | Online és offline értékesítés",
+          "description": "Ez a termék online rendelhető lesz."
+        },
+        "inactive": {
+          "title": "Inaktív | Csak offline értékesítés",
+          "description": "Ez a termék online rendelés esetén nem lesz elérhető."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Felmérés",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Válassza ki a befejezési időt",
       "independent_price": "Az ár csak erre a változatra vonatkozik",
       "same_price": "A fő termék ára",
-      "variant_pricing_message": "Ennek az opciónak a kiválasztásával ennek a változatnak az ára a fő terméktől függetlenül állítható be."
+      "variant_pricing_message": "Ennek az opciónak a kiválasztásával ennek a változatnak az ára a fő terméktől függetlenül állítható be.",
+      "price_label_input": "Árcímke",
+      "price_label_message": "Adjon hozzá további információkat az árról, például (1,5 USD/Fl Oz). Felhasználási esetek: élelmiszerbolt, FMCG.",
+      "add_price_label_action": "Adjon hozzá árcímkét"
     },
     "inputs_edit": {
       "title": "Vevői adatok beviteli formája",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "A(z) {gateway_name} átjáró szerkesztve."
     },
-    "developer_setting": "Fejlesztés és tesztelés"
+    "developer_setting": "Fejlesztés és tesztelés",
+    "live_mode_message": "Minden tranzakció élő módban történik."
   },
   "gift_card": {
     "title": "Ajándékkártya",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "A vevő által szerkesztett számlázási cím.",
     "payment-cod-confirm": "Utánvét A fizetés megerősítésre került.",
     "payment-cash-confirm": "A számla {amount} {currency} készpénzes kifizetését megerősítették.",
-    "payment-dir-confirm": "A közvetlen fizetés átvételét megerősítették."
+    "payment-dir-confirm": "A közvetlen fizetés átvételét megerősítették.",
+    "vendor": "A szállítói rendelés állapota megváltozott. Régi érték: <b>{from}</b> , új érték: <b>{to}</b> .",
+    "connect-sync": "A Connect OS által szinkronizált rendelés.",
+    "connect-shipped": "A csatlakozási rendelést {shipping} szállította.",
+    "connect-returned": "A csatlakozási rendelést {shipping} küldte vissza.",
+    "connect-failed": "A partner nem teljesítette a rendelést. {reason}",
+    "connect-canceled": "A megrendelést a partner törölte. {reason}",
+    "connect-action-cancel": "Megrendelés törlésének kérése. {reason}",
+    "connect-put-hold": "A parancsot felfüggesztették. {reason}",
+    "connect-remove-hold": "A megrendelés megőrzésre került. {reason}",
+    "connect-confirmed": "A rendelést megerősítették.",
+    "email-vendor": "🔔 A rendelésről értesítő e-mailt elküldtük a(z <b>) {vendor}</b> | címre {email}."
   },
   "inline_chart": {
     "today": "Ma",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Pénzt keresni",
     "menu": {
       "plans": "Tervek",
-      "accounts": "Fiókok"
+      "accounts": "Fiókok",
+      "participant": "Résztvevő"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Store hozzáférési kulcsok",
     "shop_keys_message": "Ezeket a kulcsokat használja a kiszolgáló hozzáférési token létrehozásához. Vegye figyelembe, hogy a kulcsok bizalmasak, és csak a szerveren vannak elhelyezve, hogy mások ne lássák őket.",
     "personal_keys_title": "Személyes hozzáférési kulcsok",
-    "personal_keys_message": "Itt hozhatja létre fiókja kulcsait. Vegye figyelembe, hogy ezek a kulcsok hozzáférhetnek fiókjához. Csak akkor hozza létre és használja ezeket a kulcsokat, ha pontosan tudja, mit csinál."
+    "personal_keys_message": "Itt hozhatja létre fiókja kulcsait. Vegye figyelembe, hogy ezek a kulcsok hozzáférhetnek fiókjához. Csak akkor hozza létre és használja ezeket a kulcsokat, ha pontosan tudja, mit csinál.",
+    "clients_title": "Ügyfelek",
+    "clients_message": "Ezeket a kulcsokat használja a kiszolgáló hozzáférési token létrehozásához. Vegye figyelembe, hogy a kulcsok bizalmasak, és csak a szerveren vannak elhelyezve, hogy mások ne lássák őket."
   },
   "user_security_control": {
     "title": "Fiók biztonság",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Profilok kezelése",
       "description": "Üzleti profilok kezelése."
+    },
+    "shop-discount-code": {
+      "name": "Kedvezménykód kezelés",
+      "description": "Kezelje, szerkessze és adja hozzá a bolti kedvezménykódokat."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Beállítások",
       "change": "Díj",
       "transfer": "Átruházás",
-      "transactions": "Tranzakciók"
+      "transactions": "Tranzakciók",
+      "charge": "Díj",
+      "history": "Történelem"
     },
     "transactions": {
       "title": "Számlatranzakciók",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Az előfizetés visszaigazolásának lemondása",
       "message": "Biztosan lemondja ezt az előfizetést?",
       "action": "Feliratkozás visszavonása"
-    }
+    },
+    "use_voucher_now": "Használja most az utalványt",
+    "validity_duration": "Érvényesség időtartama",
+    "validity_duration_hint": "12 hónapos licenc megvásárlásával 30% kedvezményt kap."
   },
   "admin_shop_layout": {
     "download_txt": "Adatszöveg letöltése",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Nagy betűtípusok",
     "large_font_message": "A normálnál nagyobb szöveg megjelenítése",
     "samples": "Mutasson mintaboltokat",
-    "samples_message": "Ha engedélyezve van, néhány mintabolt megjelenik a panelen."
+    "samples_message": "Ha engedélyezve van, néhány mintabolt megjelenik a panelen.",
+    "automation": "Automatizálás",
+    "automation_message": "Automatizálási lap megjelenítése az üzlet irányítópultján. (Webhookok, vizuális programozás, ...)"
   },
   "shop_locations": {
     "title": "Országok, ahol szolgáltatást nyújtanak",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "A kupon sikeresen törölve."
-    }
+    },
+    "multiple_use": "Többszörös használat"
   },
   "coupon_edit": {
     "title_edit": "Kupon szerkesztése",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Határ",
       "description": "Állítson be korlátozást a felhasználók maximális számára."
+    },
+    "SEGMENTS": {
+      "title": "Szegmensek",
+      "description": "Korlátozza az ügyfeleket a konkrét kézi szegmentálásban."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Az ajándékkártyákról a rendelés végösszegét levontuk! A vevőnek nem kell többet fizetnie.",
       "cod_msg": "A vásárló a megrendelés átvételekor fizet.",
       "online_msg": "Kérje meg az ügyfelet, hogy olvassa be a QR-kódot az ügyfél képernyőjén."
-    }
+    },
+    "name": "POS",
+    "message": "Legyen a nulla beállítási költségű online értékesítési pontja, futtassa bármilyen okostelefonon, táblagépen és számítógépen, vagy készítsen rendeléseket manuálisan."
   },
   "exporter": {
     "title": "Adatok exportálása",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Küldés a szerverre",
     "shop_license": "Bolti engedély",
     "max_items_limit": "Maximális tételkorlát",
-    "total_items": "Összes tétel"
+    "total_items": "Összes tétel",
+    "customer": {
+      "title": "Import ügyfelek",
+      "subtitle": "Töltsd fel ide az ügyfelek CSV-fájljait. Ügyeljen arra, hogy kövesse a szabványos formátumot, és be kell tartania az adatvédelmi szabályokat is."
+    }
   },
   "campaigns": {
     "title": "Kampányok",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Linkek",
     "light_checkout": "Könnyű fizetési téma",
     "light_header": "Világos fejléc",
-    "light_footer": "Világos lábléc"
+    "light_footer": "Világos lábléc",
+    "product_page": "Termék oldal",
+    "typography": "Tipográfia",
+    "header": "Fejléc",
+    "custom_code": "Egyéni kód",
+    "custom_css": "Egyedi CSS"
   },
   "app_templates": {
     "default": "Alapértelmezett",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Szolgáltatás kezelése",
     "option_deliver_by_courier": "1. lehetőség: A futárok kézbesítik.",
     "option_add_to_que": "2. lehetőség: Hozzáadás a sorhoz a szállítási szolgáltatás oldalán a feldolgozáshoz.",
-    "option_instant_shipping": "3. lehetőség: Azonnali szállítás."
+    "option_instant_shipping": "3. lehetőség: Azonnali szállítás.",
+    "pickup_action": "Átvétel megerősítése"
   },
   "shop_home_edit": {
     "title": "Kezdőlap beállítása",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "A termék hozzáadva az üzletéhez.",
       "request_access": "Sikeresen elküldtük hozzáférési kérelmét a nagykereskedőnek."
-    }
+    },
+    "show_eligible_shops_message": "A jogosult üzletek megjelenítése"
   },
   "product_dropshipping": {
     "need_re_enable": "Ezt a terméket az eredeti eladó megváltoztatta, ezek az árváltozások letiltották a terméket az Ön üzletében. Ellenőrizze a változtatásokat, és ha beleegyezik a termék újraaktiválásához, nyomja meg az alábbi gombot.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Az üzletedben nincs kategória.",
       "limit": "Termékkorlát",
       "limit_message": "Adja meg a termékek találati számát",
-      "select_categories": "Válassza ki az elérhető kategóriákat"
+      "select_categories": "Válassza ki az elérhető kategóriákat",
+      "categories_limit": "Kategóriakorlát",
+      "categories_limit_msg": "Adja meg a kategóriák maximális számát. Állítson nullát a korlátozás nélkül."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Az avokádó sikeresen frissítve.",
       "add_success": "Az avokádó sikeresen elkészült."
-    }
+    },
+    "name": "Avokádó"
   },
   "avocado_orders": {
     "title": "Avokádó",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "inaktív",
     "active_message": "Ha engedélyezi ezt az opciót, minden termék kezelési részében megjelenik a Gyorsértékesítési kódok létrehozásának lehetősége.",
     "hyper_form_link_message": "Az Ön üzletének hiperoldalának linkje",
-    "configuration": "Hiperbeállítások"
+    "configuration": "Hiperbeállítások",
+    "name": "Hiper"
   },
   "hyper_orders": {
     "title": "Hiper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Vevők demográfia",
     "subtitle": "Szűrje és exportálja ügyfelei adatait, hogy jobb döntéseket hozzon, és kevesebb marketinggel több értéket biztosítson! Kérjük, tartsa tiszteletben ügyfelei magánéletét, és soha ne küldjön tömeges tömeges e-maileket nekik! Soha ne ossza meg ügyfelei adatait harmadik fél szolgáltatásaival anélkül, hogy mindegyiküktől engedélyt kapna."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Átvételi címek",
+      "subtitle": "Itt adhatja hozzá és szerkesztheti az átvételi címeket. A felhasználók a pénztár oldalon választhatják ki az átvételi címet.",
+      "add_action": "Új hely hozzáadása"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Társult POS",
+    "open_pos_action": "Gyors rendelés POS",
+    "description": "Ez az opció az Instagram-oldalak és más közösségi hálózatok rendszergazdái számára alkalmas. Használja az Affiliate POS-t az ügyfelek rendeléseinek kézi fogadásához és hozzáadásához. Leányvállalatai (vagy franchise-fiókjai) új rendeléseket adhatnak hozzá az Affiliate POS-ban, és feltölthetik a befizetési szelvényt."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Bejelentkezési módok",
+      "subtitle": "Szabja testre a felhasználók bejelentkezési módját az üzletébe."
+    },
+    "checkout": {
+      "title": "Fizetési folyamat",
+      "subtitle": "Szabja személyre ügyfélútját és vásárlási folyamatát az e-kereskedelemben.",
+      "map": {
+        "title": "Térkép",
+        "subtitle": "A felhasználóknak ki kell választaniuk a szállítási helyet a térképen (például az Uberen).",
+        "subtitle_no_map": "A szállítási távolság nullának számít, ha a hely nem létezik az ügyfél által megadott címen."
+      },
+      "mode": {
+        "title": "Ügyfél bejelentkezési pont",
+        "default": {
+          "title": "ASAP (alapértelmezett)",
+          "msg": "A felhasználók a lehető leghamarabb bejelentkeznek. (További konverzió)"
+        },
+        "on_checkout": {
+          "title": "A pénztárnál",
+          "msg": "Kényszerítse a felhasználókat, hogy jelentkezzenek be a fizetési lépésnél."
+        },
+        "login_free": {
+          "title": "Opcionális bejelentkezés",
+          "msg": "Opcionális bejelentkezés a rendelés kifizetése után.."
+        }
+      },
+      "express": {
+        "title": "Átirányítás a kosárba tétel után",
+        "false": {
+          "title": "Normál mód",
+          "msg": "Maradjon az oldalon, és folytassa a vásárlást a kosárba tétel gombra kattintva."
+        },
+        "true": {
+          "title": "Expressz mód",
+          "msg": "A kosárba tételre kattintás után irányítsa át a vásárlót a pénztár oldalra."
+        }
+      },
+      "shipping_address": {
+        "title": "Kérjen szállítási címet"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fizikai és szolgáltatás (alapértelmezett)",
+      "desc": "Kérje meg az ügyfelet, hogy adjon meg egy címet a fizikai és szolgáltatási pénztáraknál."
+    },
+    "physical": {
+      "title": "Csak fizikai",
+      "desc": "Kérje meg az ügyfelet, hogy csak a fizikai pénztárnál írjon be egy címet."
+    },
+    "off": {
+      "title": "Soha",
+      "desc": "Soha ne kérdezze meg a szállítási címet. ⚠ Használja ezt a lehetőséget, ha azt tervezi, hogy változatos szolgáltatásokat szeretne kínálni úgy, hogy a termékek fizikai típusát választja a szolgáltatás típusa helyett."
+    }
+  },
+  "business_model": {
+    "title": "Üzleti modell beállítása",
+    "subtitle": "Állítsa be üzleti modelljét, mi pedig a színfalak mögött konfiguráljuk az operációs rendszerét."
+  },
+  "business_type": {
+    "title": "Árutípusok",
+    "subtitle": "Állítsa be az üzletében értékesíteni kívánt termékek típusát. A Selldone terméktípusai többet jelentenek, mint a termékek egy típusa; ez inkább a teljesítési eljárásról szól.",
+    "send_activation_request_to_support": "Küldjön aktiválási kérelmet támogatási jegyben.",
+    "require_kyc": "Cégtulajdonos KYC.",
+    "needs_enterprise_license": "Enterprise licenccel kell rendelkeznie.",
+    "marketplace_caution_message": "Állítsa be a Marketplace-t modellként, amely mélyen befolyásolja az üzleti operációs rendszer konfigurációját. Például minden termékhez meg kell határoznia legalább egy szállítót független árképzéssel és készlettel. Az ügyfelek nem vásárolhatnak olyan termékeket, amelyeknek nincs eladójuk."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Normál bolt",
+      "desc": "Általában kis- és középvállalkozások, otthoni vállalkozások vagy dropshipperek – akik közvetlenül értékesítik termékeiket az ügyfeleknek, vagy viszonteladóként értékesítik a nagykereskedők termékeit."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Ne tartson semmi terméket és készletet – fizet egy harmadik félnek, általában egy nagykereskedőnek (például Printify, Wholesale2B stb.) vagy gyártónak, és ők a színfalak mögött teljesítik a megrendeléseket."
+    },
+    "wholesaler": {
+      "title": "Dropshipping szállító",
+      "desc": "Általában nagykereskedő vagy gyártó – aki a megrendeléseket közvetlenül a végfelhasználónak szállítja. A Selldone más kereskedői az Ön termékeit az üzleteikbe szállíthatják."
+    },
+    "marketplace": {
+      "title": "Piactér",
+      "desc": "Az online piacterek egy védett és központosított platformon kötik össze a vásárlókat és az eladókat."
+    },
+    "franchise": {
+      "title": "Franchise / Leányvállalat",
+      "desc": "A franchise a termékek vagy szolgáltatások terjesztésének módja, amelyben olyan franchise-adó vesz részt, aki létrehozza az Ön márkáját (Franchise), vagy a márkájával (Affiliate) értékesíti az Ön termékeit."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Pénztárcák",
+    "pricing_models": "Árazás",
+    "add_vendor": "Eladó hozzáadása",
+    "requests": "Kérések"
+  },
+  "price_input_type": {
+    "title": "Ár beviteli típusa",
+    "default": {
+      "title": "Alapértelmezett",
+      "desc": "Válasszon egy értéket mennyiségként a kosárban."
+    },
+    "area": {
+      "title": "Terület",
+      "desc": "A mennyiség kiszámításához adja meg a szélességet és a hosszúságot."
+    },
+    "volume": {
+      "title": "hangerő",
+      "desc": "Adja meg a szélességet, hosszúságot és magasságot bemenetként a mennyiség kiszámításához."
+    },
+    "custom": {
+      "title": "Egyéni (beviteli űrlap szerint)",
+      "desc": "Nincs szükség több száz változatra! Hozzon létre egyéni költségszámítási űrlapot a nagymértékben testreszabható termékekhez."
+    }
+  },
+  "vendors_list": {
+    "title": "Eladóim",
+    "message": "Saját beszállítóim listája."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Csatlakoztasson több domaint üzleti operációs rendszeréhez, és kezelje mindegyiket egy helyen. A többdomain funkcióval dedikált domaineket hozhat létre webhelye egyes részeihez, például blogokhoz és közösségekhez, vagy különböző domaineket használhat leányvállalatai számára."
+  },
+  "notes": {
+    "add_action": "Írjon megjegyzést csapatának",
+    "notifications": {
+      "success_add": "Megjegyzés sikeresen hozzáadva.",
+      "success_delete": "A jegyzet sikeresen törölve."
+    }
+  },
+  "external_services": {
+    "title": "Külső szolgáltatások",
+    "subtitle": "Itt figyelheti a külső szolgáltatások, például az SMS-ek és az e-mailek legutóbbi állapotát."
   }
 };

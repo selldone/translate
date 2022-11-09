@@ -65,7 +65,9 @@ export default {
     "my_feed": "Min",
     "blocked_message": "Hûn heta niha hatine asteng kirin",
     "reported": "Hat ragihandin",
-    "report": "Nûçe"
+    "report": "Nûçe",
+    "post": "Koz",
+    "attach_file": "Pelê pêvebike"
   },
   "invite_message": "{user} hûn vexwendiye forumê {community}. Li ser lînka jêrîn bikirtînin da ku çavdêriyên hevalên xwe bixwînin û nêrîna xwe bi wan re parve bikin. Ez li benda te me.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Rake anketê",
     "take_screenshot": "Wek sergirtî bigirin",
     "take_link_msg": "Li vir lînka berê derbas bikin û têkevin",
-    "eligible_title": "Gavên ji bo mafdarîya postê"
+    "eligible_title": "Gavên ji bo mafdarîya postê",
+    "public": "Alenî"
   },
   "tips": {
     "verify_email": "E-nameya xwe binivîse û verast bike.",

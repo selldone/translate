@@ -155,7 +155,19 @@ export default {
       "Setup": "magazen",
       "Sell": "Komèsyal ak Maketing",
       "Developer": "Devlope",
-      "Application": "Aplikasyon"
+      "Application": "Aplikasyon",
+      "Product": "Jesyon pwodwi ak kategori",
+      "Blog": "CMS & Blog",
+      "Order": "Sant Akonplisman Lòd",
+      "Channel": "Chanèl lavant yo",
+      "Accounting": "Kontablite ak Metòd Peman",
+      "Incentives": "Ankourajman",
+      "Marketing": "Maketing & Kanpay",
+      "Logistic": "Lojistik ak anbake",
+      "Customers": "Kliyan Kliyan & Segmantasyon",
+      "Page": "Landing & Custom Paj",
+      "Access": "Anplwaye / Jesyon Aksè API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github Repository",
@@ -193,7 +205,9 @@ export default {
       "stores": "Magazen",
       "roles": "Wòl",
       "home": "Lakay",
-      "expert": "Ekspè"
+      "expert": "Ekspè",
+      "deals": "Deals",
+      "providers": "Founisè yo"
     },
     "shops": {
       "create_new": "Kreye nouvo boutik",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Estati",
           "created_at": "Dat Kreyasyon",
           "updated_at": "Dènye aktyalizasyon"
-        }
+        },
+        "subtitle": "Ekri atik ak yon editè modèn pou prezante tèt ou ak biznis ou. Kontni orijinal la se premye bagay ou bezwen konsantre sou lè w ap ekri yon pòs blog ki gen bon jan kalite SEO-zanmitay."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Rapò",
         "tax": "Taks",
         "drop_shipping": "resi revandè",
-        "reseller_accounts": "Kont revandè"
+        "reseller_accounts": "Kont revandè",
+        "valuations": "Valyasyon"
       },
       "invoice": {
         "title": "Achte bous ki lye",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Shipping",
         "inventory": "Envantè",
         "warehouse": "Depo",
-        "logistic_apps": "Lojistik"
+        "logistic_apps": "Lojistik",
+        "profiles": "Des"
       },
       "warehouse": {
         "title": "Depo magazen",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Pri minimòm lòd pou anbake gratis",
           "notifications": {
             "update_success": "Anviwònman sèvis transpò yo konplete avèk siksè."
-          }
+          },
+          "shipping_cost_calculation": "Kalkil pri transpò",
+          "sod_true": "Jwenn pri anbake sou destinasyon",
+          "sod_true_message": "Asire w ke sèvis anbake ou aksepte pri anbake sou destinasyon an.",
+          "sod_false": "Kalkil pri anbake oto",
+          "cod_true": "Aksepte lajan kach sou livrezon",
+          "cod_false": "Aksepte peman sou entènèt sèlman",
+          "cod_true_message": "Asire w ke sèvis anbake ou aksepte COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "Imèl",
         "domain": "Domèn",
-        "verifications": "Verifikasyon"
+        "verifications": "Verifikasyon",
+        "flow": "Koule",
+        "business_model": "Modèl biznis"
       },
       "delete_dialog": {
         "title": "Efase magazen",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Inite pwodwi",
       "unit_float": "Flote inite (byento)",
       "unit_float_hint": "Pou egzanp, kliyan an ka bay lòd pou 3 kg nan fwi, men kantite lajan an voye bay kliyan an se yon ti kras diferan de kantite lajan an bay lòd.",
-      "unit_float_message": "Pandan pwosesis lòd la, kantite lajan an delivre ka diferan de kantite lajan yo bay lòd la. Sistèm nan otomatikman kalkile diferans sa a epi anrejistre li kòm dèt ou a kliyan an, ki ka aplike nan pwochen lòd yo."
+      "unit_float_message": "Pandan pwosesis lòd la, kantite lajan an delivre ka diferan de kantite lajan yo bay lòd la. Sistèm nan otomatikman kalkile diferans sa a epi anrejistre li kòm dèt ou a kliyan an, ki ka aplike nan pwochen lòd yo.",
+      "status_list": {
+        "active": {
+          "title": "Aktif | Komèsyal sou entènèt ak offline",
+          "description": "Pwodwi sa a ap disponib pou lòd sou entènèt."
+        },
+        "inactive": {
+          "title": "Inaktif | Sèlman Offline Komèsyal",
+          "description": "Pwodwi sa a p ap disponib pou lòd sou entènèt."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Sondaj",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Chwazi tan nan fen",
       "independent_price": "Pri a sèlman pou Variant sa a",
       "same_price": "Pri a pou pwodwi prensipal la",
-      "variant_pricing_message": "Lè w chwazi opsyon sa a, pri Variant sa a ka fikse poukont pwodwi prensipal la."
+      "variant_pricing_message": "Lè w chwazi opsyon sa a, pri Variant sa a ka fikse poukont pwodwi prensipal la.",
+      "price_label_input": "Etikèt pri",
+      "price_label_message": "Ajoute plis enfòmasyon sou pri tankou ($1.5/Fl Oz). Ka itilize: makèt, FMCG.",
+      "add_price_label_action": "Ajoute etikèt pri"
     },
     "inputs_edit": {
       "title": "Fòm Antre Enfòmasyon sou Achtè",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gateway {gateway_name} modifye."
     },
-    "developer_setting": "Devlope & Teste"
+    "developer_setting": "Devlope & Teste",
+    "live_mode_message": "Tout tranzaksyon yo pral nan mòd ap viv."
   },
   "gift_card": {
     "title": "Kat kado",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Adrès bòdwo ki modifye pa achtè.",
     "payment-cod-confirm": "Peman COD te konfime.",
     "payment-cash-confirm": "Peman {amount} {currency} an kach pou bòdwo a te konfime.",
-    "payment-dir-confirm": "Yo te konfime resi peman dirèk."
+    "payment-dir-confirm": "Yo te konfime resi peman dirèk.",
+    "vendor": "Eta lòd machann yo chanje soti nan <b>{from}</b> a <b>{to}</b> .",
+    "connect-sync": "Lòd senkronize pa Connect OS.",
+    "connect-shipped": "Konekte lòd la te anbake pa {shipping}.",
+    "connect-returned": "Yo te retounen lòd Connect pa {shipping}.",
+    "connect-failed": "Akonplisman lòd echwe pa patnè a. {reason}",
+    "connect-canceled": "Lòd la te anile pa patnè a. {reason}",
+    "connect-action-cancel": "Mande pou anile lòd. {reason}",
+    "connect-put-hold": "Yo te mete lòd la nan kenbe. {reason}",
+    "connect-remove-hold": "Yo te retire lòd la nan kenbe. {reason}",
+    "connect-confirmed": "Lòd la te konfime.",
+    "email-vendor": "🔔 Yo voye yon imèl bay <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Jodi a",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Fe lajan",
     "menu": {
       "plans": "Plan",
-      "accounts": "Kont"
+      "accounts": "Kont",
+      "participant": "Patisipan"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Magazen Kle Aksè",
     "shop_keys_message": "Kle sa yo itilize pou kreye Access Token pa sèvè w la. Remake byen ke kle yo konfidansyèl epi sèlman mete sou sèvè a pou yo pa vizib pou lòt moun.",
     "personal_keys_title": "Kle Aksè Pèsonèl",
-    "personal_keys_message": "Ou ka kreye kle yo nan kont ou isit la. Remake byen ke kle sa yo pral kapab jwenn aksè nan kont ou. Kreye epi sèvi ak kle sa yo sèlman si w konnen egzakteman sa w ap fè."
+    "personal_keys_message": "Ou ka kreye kle yo nan kont ou isit la. Remake byen ke kle sa yo pral kapab jwenn aksè nan kont ou. Kreye epi sèvi ak kle sa yo sèlman si w konnen egzakteman sa w ap fè.",
+    "clients_title": "Kliyan yo",
+    "clients_message": "Kle sa yo itilize pou kreye Access Token pa sèvè w la. Remake byen ke kle yo konfidansyèl epi sèlman mete sou sèvè a pou yo pa vizib pou lòt moun."
   },
   "user_security_control": {
     "title": "Sekirite kont",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Jere pwofil yo",
       "description": "Jere pwofil magazen yo."
+    },
+    "shop-discount-code": {
+      "name": "Jesyon kòd rabè",
+      "description": "Jere, modifye epi ajoute kòd rabè magazen yo."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Anviwònman",
       "change": "Chaje",
       "transfer": "Transfè",
-      "transactions": "Tranzaksyon"
+      "transactions": "Tranzaksyon",
+      "charge": "Chaje",
+      "history": "Istwa"
     },
     "transactions": {
       "title": "Tranzaksyon kont yo",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Anile konfimasyon abònman",
       "message": "Èske w asire w ke w anile abònman sa a?",
       "action": "Anile abònman"
-    }
+    },
+    "use_voucher_now": "Sèvi ak bon kounye a",
+    "validity_duration": "Validite dire",
+    "validity_duration_hint": "Lè w achte yon lisans 12 mwa, w ap resevwa yon rabè 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Telechaje tèks done yo",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Gwo polis",
     "large_font_message": "Montre tèks ki pi gwo pase nòmal",
     "samples": "Montre echantiyon boutik yo",
-    "samples_message": "Si li aktive, kèk boutik echantiyon yo pral parèt nan panèl ou a."
+    "samples_message": "Si li aktive, kèk boutik echantiyon yo pral parèt nan panèl ou a.",
+    "automation": "Otomatik",
+    "automation_message": "Montre tab automatisation sou tablodbò boutik. (Webhooks, pwogram vizyèl, ...)"
   },
   "shop_locations": {
     "title": "Peyi kote yo bay sèvis yo",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Koupon te efase avèk siksè."
-    }
+    },
+    "multiple_use": "Plizyè itilizasyon"
   },
   "coupon_edit": {
     "title_edit": "Edit koupon",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Limit",
       "description": "Mete yon limit sou kantite maksimòm itilizatè yo."
+    },
+    "SEGMENTS": {
+      "title": "Segman",
+      "description": "Limite kliyan nan segmentasyon manyèl espesifik."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Kantite total lòd la te retire nan kat kado yo! Achtè a pa bezwen peye plis.",
       "cod_msg": "Kliyan an pral peye lè li resevwa lòd la.",
       "online_msg": "Mande kliyan an eskane kòd QR sou ekran kliyan an."
-    }
+    },
+    "name": "POS",
+    "message": "Fè pri zewo-konfigirasyon ou nan pwen lavant sou entènèt, kouri li sou nenpòt smartphone, tablèt, ak PC, oswa kreye lòd manyèlman."
   },
   "exporter": {
     "title": "Ekspòtasyon done",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Voye sou sèvè",
     "shop_license": "Lisans boutik",
     "max_items_limit": "Limit maksimòm atik yo",
-    "total_items": "Total atik yo"
+    "total_items": "Total atik yo",
+    "customer": {
+      "title": "Enpòte kliyan",
+      "subtitle": "Voye dosye CSV kliyan yo isit la. Asire ou ke ou swiv fòma estanda a, epi tou, ou dwe swiv règleman sou vi prive."
+    }
   },
   "campaigns": {
     "title": "Kanpay",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Lyen",
     "light_checkout": "Limyè tèm kesye",
     "light_header": "Limyè header",
-    "light_footer": "Limyè pye"
+    "light_footer": "Limyè pye",
+    "product_page": "Paj pwodwi",
+    "typography": "Tipografi",
+    "header": "Header",
+    "custom_code": "Kòd koutim",
+    "custom_css": "Custom CSS"
   },
   "app_templates": {
     "default": "Default",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Jere sèvis",
     "option_deliver_by_courier": "Opsyon 1: Livre pa courrier ou yo.",
     "option_add_to_que": "Opsyon 2: Ajoute nan keu pou travay sou paj sèvis anbake.",
-    "option_instant_shipping": "Opsyon 3: anbake enstantane."
+    "option_instant_shipping": "Opsyon 3: anbake enstantane.",
+    "pickup_action": "Konfimasyon pickup"
   },
   "shop_home_edit": {
     "title": "Anviwònman paj lakay",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Pwodwi te ajoute nan magazen ou.",
       "request_access": "Nou te voye demann aksè ou bay grosist la avèk siksè."
-    }
+    },
+    "show_eligible_shops_message": "Montre boutik ki kalifye yo"
   },
   "product_dropshipping": {
     "need_re_enable": "Pwodwi sa a te chanje pa vandè orijinal la, chanjman pri sa yo te enfim pwodwi a nan magazen ou. Tcheke chanjman yo epi si ou dakò pou reaktive pwodwi a, peze bouton ki anba a.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Pa gen kategori nan magazen ou.",
       "limit": "Limit pwodwi yo",
       "limit_message": "Antre konte rezilta pwodwi yo",
-      "select_categories": "Chwazi kategori ki disponib yo"
+      "select_categories": "Chwazi kategori ki disponib yo",
+      "categories_limit": "Limit kategori",
+      "categories_limit_msg": "Antre kantite maksimòm kategori. Mete zewo pou pa gen limit."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Zaboka mete ajou avèk siksè.",
       "add_success": "Zaboka kreye avèk siksè."
-    }
+    },
+    "name": "Zaboka"
   },
   "avocado_orders": {
     "title": "Zaboka",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "inaktif",
     "active_message": "Si ou aktive opsyon sa a, posiblite pou kreye Kod Komèsyal Rapid yo ap parèt nan seksyon jesyon chak pwodwi.",
     "hyper_form_link_message": "Lyen hyper paj magazen ou a",
-    "configuration": "Anviwònman ipè"
+    "configuration": "Anviwònman ipè",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Kliyan demografi",
     "subtitle": "Filtre ak ekspòte done kliyan ou yo pou pran pi bon desizyon pou bay plis valè ak mwens maketing! Tanpri respekte vi prive kliyan ou yo epi pa janm voye imèl an gwo ba yo! Pa janm pataje enfòmasyon kliyan ou yo ak sèvis 3yèm pati san yo pa jwenn pèmisyon nan men chak nan yo."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Adrès pou ranmase",
+      "subtitle": "Ajoute epi modifye adrès pickup isit la. Itilizatè yo pral kapab chwazi adrès ranmasaj la sou paj kesye a.",
+      "add_action": "Ajoute nouvo kote"
+    }
+  },
+  "affiliate_pos": {
+    "title": "POS afilye",
+    "open_pos_action": "Vit kòmande POS",
+    "description": "Opsyon sa a apwopriye pou administratè paj Instagram ak lòt rezo sosyal yo. Sèvi ak Affiliate POS pou resevwa epi ajoute lòd nan men kliyan yo manyèlman. Afilye ou yo (oswa franchiz) ka ajoute nouvo lòd nan POS afilye a epi telechaje fichye depo a."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Metòd konekte",
+      "subtitle": "Customize fason itilizatè yo konekte nan magazen ou a."
+    },
+    "checkout": {
+      "title": "Koule kesye",
+      "subtitle": "Customize vwayaj kliyan ou ak koule achte nan ecommerce ou.",
+      "map": {
+        "title": "Kat jeyografik",
+        "subtitle": "Itilizatè yo dwe chwazi kote livrezon sou kat la (tankou Uber).",
+        "subtitle_no_map": "Distans nan kalkil anbake konsidere zewo si kote a pa egziste nan adrès kliyan yo bay la."
+      },
+      "mode": {
+        "title": "Kliyan login pwen",
+        "default": {
+          "title": "ASAP (Default)",
+          "msg": "Itilizatè yo konekte pi vit ke posib. (Plis konvèsyon)"
+        },
+        "on_checkout": {
+          "title": "Sou kesye",
+          "msg": "Fòse itilizatè yo konekte nan etap kesye a."
+        },
+        "login_free": {
+          "title": "Konekte si ou vle",
+          "msg": "Si ou vle konekte apre peman lòd la.."
+        }
+      },
+      "express": {
+        "title": "Redireksyon apre ajoute nan kabwa",
+        "false": {
+          "title": "Mòd nòmal",
+          "msg": "Rete sou paj la epi kontinye fè makèt apre w fin klike sou ajoute nan kabwa."
+        },
+        "true": {
+          "title": "Mòd eksprime",
+          "msg": "Redireksyon kliyan nan paj kesye a apre klike sou ajoute nan kabwa."
+        }
+      },
+      "shipping_address": {
+        "title": "Mande adrès anbake"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fizik ak Sèvis (Default)",
+      "desc": "Mande kliyan an pou antre yon adrès nan kesye fizik ak sèvis yo."
+    },
+    "physical": {
+      "title": "Fizik sèlman",
+      "desc": "Mande kliyan an antre yon adrès jis nan kesye fizik la."
+    },
+    "off": {
+      "title": "Pa janm",
+      "desc": "Pa janm mande adrès anbake a. ⚠ Sèvi ak opsyon sa a si w gen plan pou gen sèvis ak variants lè w chwazi kalite fizik pou pwodwi olye de kalite sèvis."
+    }
+  },
+  "business_model": {
+    "title": "Konfigirasyon modèl biznis",
+    "subtitle": "Mete modèl biznis ou, epi nou pral configured OS ou dèyè sèn nan."
+  },
+  "business_type": {
+    "title": "Kalite machandiz yo",
+    "subtitle": "Mete kalite pwodwi ou vle vann nan magazen ou. Kalite pwodwi nan Selldone yo pi plis pase jis yon kalite pwodwi yo; li plis sou pwosedi pwogrè.",
+    "send_activation_request_to_support": "Voye yon demann aktivasyon nan yon tikè sipò.",
+    "require_kyc": "Pwopriyetè biznis KYC.",
+    "needs_enterprise_license": "Ou bezwen gen yon lisans Enterprise.",
+    "marketplace_caution_message": "Mete Marketplace kòm modèl ou a pwofondman afekte konfigirasyon OS biznis ou. Pou egzanp, ou dwe defini omwen yon machann pou chak pwodwi ak pri endepandan ak envantè. Kliyan pa ka achte pwodwi ki pa gen okenn machann."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Magazen nòmal",
+      "desc": "Souvan yon SME, biznis lakay, oswa dropshipper - ki vann pwodwi yo dirèkteman bay kliyan oswa vann pwodwi grosist yo kòm yon revandè."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Pa kenbe okenn pwodwi ak pa gen envantè - ou peye yon twazyèm pati, anjeneral, yon grosist (tankou Printify, Wholesale2B, ...) oswa manifakti, epi yo ranpli lòd dèyè sèn nan."
+    },
+    "wholesaler": {
+      "title": "Dropshipping Founisè",
+      "desc": "Souvan yon grosist oswa yon manifakti - ki bato lòd dirèkteman nan konsomatè final la. Lòt machann sou Selldone ka dropship pwodwi ou yo nan magazen yo."
+    },
+    "marketplace": {
+      "title": "Marketplace",
+      "desc": "Mache sou entènèt konekte achtè ak vandè sou yon platfòm propriétaires ak santralize."
+    },
+    "franchise": {
+      "title": "Franchis / Afilye",
+      "desc": "Yon franchiz se yon metòd pou distribye pwodwi oswa sèvis ki enplike yon franchizeur ki etabli mak ou (franchising) oswa vann pwodwi ou pa mak yo (Afilye)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Bous",
+    "pricing_models": "Pricing",
+    "add_vendor": "Ajoute machann",
+    "requests": "Demann"
+  },
+  "price_input_type": {
+    "title": "Kalite opinyon pri",
+    "default": {
+      "title": "Default",
+      "desc": "Chwazi yon valè kòm kantite nan kabwa a."
+    },
+    "area": {
+      "title": "Zòn",
+      "desc": "Antre lajè ak longè kòm antre pou kalkile kantite a."
+    },
+    "volume": {
+      "title": "volim",
+      "desc": "Antre lajè, longè, ak wotè kòm antre pou kalkile kantite a."
+    },
+    "custom": {
+      "title": "Custom (Pa fòm opinyon)",
+      "desc": "Pa bezwen pou dè santèn de varyant! Kreye yon fòm kalkil pri koutim pou pwodwi trè customizable."
+    }
+  },
+  "vendors_list": {
+    "title": "Vandè mwen yo",
+    "message": "Lis machann pwòp mwen yo."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Konekte plizyè domèn nan eksplwatasyon biznis ou epi jere yo tout nan yon sèl kote. Ou ka itilize karakteristik plizyè domèn pou kreye domèn dedye pou chak pati nan sit entènèt ou a, tankou blog ak kominote, oswa itilize diferan domèn pou afilye ou yo."
+  },
+  "notes": {
+    "add_action": "Ajoute yon nòt pou ekip ou a",
+    "notifications": {
+      "success_add": "Yo te ajoute nòt avèk siksè.",
+      "success_delete": "Nòt yo te efase avèk siksè."
+    }
+  },
+  "external_services": {
+    "title": "Sèvis ekstèn",
+    "subtitle": "Siveye dènye estati sèvis ekstèn yo tankou SMS ak imèl isit la."
   }
 };

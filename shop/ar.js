@@ -105,7 +105,11 @@ export default {
     "related_products_title": "منتجات ذات صله",
     "price": "السعر",
     "rate": "تقييم",
-    "comment": "تعليق"
+    "comment": "تعليق",
+    "warranty": "ضمان",
+    "return_policy": "سياسة العائدات",
+    "guide": "مرشد",
+    "shipping": "شحن"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "تم وضع طلبك بنجاح.",
       "delete_success": "تم حذف العنصر."
-    }
+    },
+    "select_address_message": "الرجاء إدخال عنوانك ، وبعد ذلك يمكنك تقديم الطلب."
   },
   "hyper": {
     "title": "طلب إنشاء",
@@ -541,5 +546,19 @@ export default {
       "message": "لقد حددت تكلفة لهذا العنصر. يمكنك تغيير مبلغ الرسوم للعنصر الذي اشتراه العميل.",
       "charge": "التكلفة"
     }
+  },
+  "check_access": {
+    "waiting_message": "في انتظار التحقق من الوصول ...",
+    "no_access_message": "لسوء الحظ ، لا يمكنك الوصول إلى متجرنا.<br/> الرجاء التواصل معنا."
+  },
+  "share_order": {
+    "action": "ترتيب المشاركة",
+    "title": "شارك هذا الطلب مع الاخرين",
+    "message": "إنه رابط آمن ، شاركه فقط مع من تعرفهم. يمكن لأي شخص لديه هذا الرابط تكرار طلبك ورؤية العنوان المحدد. سوف تحتوي على معلومات حول عربة التسوق الحالية الخاصة بك.",
+    "valid_period": "ستنتهي صلاحية هذا الرابط بعد 48 ساعة.",
+    "import_order_action": "أمر استيراد",
+    "retrieve_dialog_title": "استرجاع الأمر الخارجي",
+    "address_included": "مشاركة عناصر السلة + العنوان",
+    "address_excluded": "مشاركة عناصر السلة فقط"
   }
 };

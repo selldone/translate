@@ -558,7 +558,52 @@ export default {
     "merchant": "Trgovac",
     "per_product": "Po proizvodu",
     "journey": "Putovanje",
-    "after": "Nakon"
+    "after": "Nakon",
+    "waiting_for_payment": "Molimo dovršite plaćanje...",
+    "hour": "Sat",
+    "minute": "Minuta",
+    "premium": "Premija",
+    "light": "Svjetlo",
+    "dark": "Tamno",
+    "guest": "Gost",
+    "shops": "Prodavnice",
+    "vendor": "Dobavljač",
+    "vendors": "Dobavljači",
+    "marketplace": "Tržnica",
+    "verify_date": "Potvrdite datum",
+    "note": "Bilješka",
+    "panel": "Ploča",
+    "removed": "Uklonjeno",
+    "segments": "Segmenti",
+    "personal_info": "Osobne informacije",
+    "preferences": "Preference",
+    "spec": "Spec",
+    "reviews": "Recenzije",
+    "constraints": "Ograničenja",
+    "flexible": "Fleksibilno",
+    "usage_limit": "Ograničenje korištenja",
+    "temporary": "Privremeni",
+    "original": "Izvornik",
+    "saved": "Spremljeno!",
+    "sort": "Vrsta",
+    "documents": "Dokumenti",
+    "document": "Dokument",
+    "please_wait": "Molimo pričekajte...",
+    "pickup": "Pokupiti",
+    "customize": "prilagoditi",
+    "difficulty": "Poteškoće",
+    "banned": "Zabranjeno",
+    "company": "Društvo",
+    "tax_shipping": "Porez na dostavu",
+    "warranty": "Jamstvo",
+    "return_policy": "Politika povrata",
+    "guide": "Vodič",
+    "translate": "Prevedi",
+    "public": "Javnost",
+    "deleted": "Izbrisano",
+    "variant": "Varijanta",
+    "secure": "Siguran",
+    "admin": "Administrator"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Staza",
     "change_state": "Promjena statusa",
     "done": "Gotovo",
-    "reply": "Odgovor"
+    "reply": "Odgovor",
+    "watch_now": "Gledajte sad",
+    "unlock": "Otključati",
+    "lock": "brava",
+    "create_clone": "Stvori klon",
+    "regenerate": "Regenerirati",
+    "add_message": "Dodaj poruku",
+    "continue_chat": "Nastavi razgovor",
+    "add_new_message": "Dodaj novu poruku"
   },
   "instance_message_title": "Pošaljite trenutnu poruku",
   "instance_message": "Pozdrav {name}, ja sam {author} iz {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Poštanski broj",
     "enter_value": "Ispunite ovdje",
     "address_note": "Bilješka",
-    "tel": "Kontakt broj"
+    "tel": "Kontakt broj",
+    "service_address": "Odaberite svoju adresu"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "funti",
     "litre",
     "dvorišta",
-    "soba"
+    "soba",
+    "sekundi",
+    "minuta",
+    "sati",
+    "dana",
+    "tjedni",
+    "mjeseca",
+    "godine"
   ],
   "region_types": {
     "State": "država",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Minimalna duljina mora biti {length}",
     "invalid_min_array_length": "Odaberite barem {length} stavki",
     "invalid_max_chars": "Maksimalni broj znakova: {maxCount}",
-    "invalid_url": "Neispravna poveznica"
+    "invalid_url": "Neispravna poveznica",
+    "country_invalid": "Odaberite zemlju odredišta!",
+    "postal_code_invalid": "Postavite važeći poštanski broj!"
   },
   "colors": {
     "#D32F2F": "Crvena",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Bijeli",
     "#FFF": "Bijeli",
     "#000000": "Crno",
-    "#000": "Crno"
+    "#000": "Crno",
+    "#7d263a": "Kesten",
+    "#FD9F17": "Zlato",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Vojska",
+    "#474747": "Asfalt",
+    "#E6195C": "Bobica",
+    "#B2184C": "Trostruka mješavina bobica",
+    "#FC7F5F": "Spaljena naranča",
+    "#80011F": "Kardinal",
+    "#382829": "Čokolada",
+    "#F06336": "Koraljni",
+    "#FAE7C9": "Krema",
+    "#6B2257": "Ribizla",
+    "#222127": "Tamno siva",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Zimzelen",
+    "#214C30": "Šuma",
+    "#DC2867": "Fuksija",
+    "#38561": "Kelly",
+    "#5C884D": "List",
+    "#558450": "Lagana voda",
+    "#96B5C9": "Svijetlo plava",
+    "#DCAFCE": "Lila",
+    "#D3E1A4": "Vapno",
+    "#9DE7C2": "Kovnica",
+    "#F6EAD2": "Prirodno",
+    "#1A1F35": "Mornarica",
+    "#404624": "Maslina",
+    "#271020": "Šljiva",
+    "#A8355C": "kupina",
+    "#D6BEA6": "Mekana krema",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "ljubičica",
+    "#36454F": "Drveni ugljen",
+    "#b3b0ab": "ugljično siva",
+    "#463e3d": "Ugljen Heather",
+    "#282d3c": "Mornarski sako"
   },
   "address_info": {
     "name": "Ime",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Broj zgrade",
     "building_unit": "Jedinica",
     "postcode": "Poštanski broj",
-    "note": "Bilješka"
+    "note": "Bilješka",
+    "county": "Okrug"
   },
   "product_types": {
     "physical": "Fizički",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Boja",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Jednostavan",
       "selective": "Selektivno",
-      "switch": "Sklopka"
-    }
+      "switch": "Sklopka",
+      "file": "Datoteka",
+      "number": "Broj"
+    },
+    "placeholder_input": "Rezerviranog mjesta",
+    "file_type_input": "Prihvatljive vrste datoteka",
+    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "ime proizvoda",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Unesite svoj mobilni",
     "verification_code": "Verifikacijski kod",
     "msg_title": "Bok,",
-    "msg_body": "Molimo prijavite se. Potrebno je samo nekoliko sekundi."
+    "msg_body": "Molimo prijavite se. Potrebno je samo nekoliko sekundi.",
+    "login_apple": "Prijavite se s Appleom"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Oznake su dodane"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Vrlo komplicirano",
+    "hard": "teško",
+    "intermediate": "Srednji",
+    "easy": "Lako"
   }
 };

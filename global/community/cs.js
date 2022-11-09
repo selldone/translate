@@ -65,7 +65,9 @@ export default {
     "my_feed": "Mě",
     "blocked_message": "Jste zablokováni do",
     "reported": "Nahlášeno",
-    "report": "Zpráva"
+    "report": "Zpráva",
+    "post": "Pošta",
+    "attach_file": "Přiložit soubor"
   },
   "invite_message": "{user} vás pozval do fóra {community}. Kliknutím na odkaz níže si můžete přečíst postřehy svých přátel a podělit se s nimi o svůj názor. Čekám na tebe.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Odebrat anketu",
     "take_screenshot": "Vezměte jako kryt",
     "take_link_msg": "Minulý odkaz zde a vstupte",
-    "eligible_title": "Kroky k tomu, abyste byli způsobilí k publikování"
+    "eligible_title": "Kroky k tomu, abyste byli způsobilí k publikování",
+    "public": "Veřejnost"
   },
   "tips": {
     "verify_email": "Zadejte a ověřte svůj e-mail.",

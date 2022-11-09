@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Bidhaa zinazohusiana",
     "price": "Bei",
     "rate": "Kiwango",
-    "comment": "Maoni"
+    "comment": "Maoni",
+    "warranty": "Udhamini",
+    "return_policy": "Sera ya Kurudisha",
+    "guide": "Mwongozo",
+    "shipping": "Usafirishaji"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Agizo lako limefaulu kufanywa.",
       "delete_success": "Kipengee kimefutwa."
-    }
+    },
+    "select_address_message": "Tafadhali weka anwani yako, na kisha unaweza kuwasilisha agizo."
   },
   "hyper": {
     "title": "Uundaji wa agizo",
@@ -541,5 +546,19 @@ export default {
       "message": "Umebainisha gharama ya bidhaa hii. Unaweza kubadilisha kiasi cha malipo ya bidhaa iliyonunuliwa na mteja.",
       "charge": "Malipo"
     }
+  },
+  "check_access": {
+    "waiting_message": "Inasubiri kuangalia ufikiaji...",
+    "no_access_message": "Kwa bahati mbaya, huna ufikiaji wa duka letu.<br/> Tafadhali wasiliana nasi."
+  },
+  "share_order": {
+    "action": "Shiriki agizo",
+    "title": "Shiriki agizo hili na wengine.",
+    "message": "Ni kiungo salama, shiriki tu na wale unaowajua. Kila mtu aliye na kiungo hiki anaweza kurudia agizo lako na kuona anwani uliyochagua. Itakuwa na taarifa kuhusu rukwama yako ya sasa.",
+    "valid_period": "Muda wa kiungo hiki utaisha baada ya saa 48.",
+    "import_order_action": "Agizo la kuagiza",
+    "retrieve_dialog_title": "Rejesha agizo la nje",
+    "address_included": "Shiriki vitu vya kikapu + Anwani",
+    "address_excluded": "Shiriki vitu vya kikapu pekee"
   }
 };

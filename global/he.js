@@ -558,7 +558,52 @@ export default {
     "merchant": "סוֹחֵר",
     "per_product": "לכל מוצר",
     "journey": "מסע",
-    "after": "לאחר"
+    "after": "לאחר",
+    "waiting_for_payment": "נא להשלים את התשלום...",
+    "hour": "שָׁעָה",
+    "minute": "דַקָה",
+    "premium": "פּרֶמיָה",
+    "light": "אוֹר",
+    "dark": "אפל",
+    "guest": "אוֹרֵחַ",
+    "shops": "חנויות",
+    "vendor": "מוֹכֵר",
+    "vendors": "ספקים",
+    "marketplace": "זירת מסחר",
+    "verify_date": "אמת את התאריך",
+    "note": "פתק",
+    "panel": "לוּחַ",
+    "removed": "הוסר",
+    "segments": "פלחים",
+    "personal_info": "מידע אישי",
+    "preferences": "העדפות",
+    "spec": "מפרט",
+    "reviews": "ביקורות",
+    "constraints": "אילוצים",
+    "flexible": "גָמִישׁ",
+    "usage_limit": "מגבלת שימוש",
+    "temporary": "זמני",
+    "original": "מְקוֹרִי",
+    "saved": "שמור!",
+    "sort": "סוג",
+    "documents": "מסמכים",
+    "document": "מסמך",
+    "please_wait": "המתן בבקשה...",
+    "pickup": "לאסוף",
+    "customize": "להתאים אישית",
+    "difficulty": "קושי",
+    "banned": "אָסוּר",
+    "company": "חֶברָה",
+    "tax_shipping": "מס משלוח",
+    "warranty": "אַחֲרָיוּת",
+    "return_policy": "מדיניות החזרה",
+    "guide": "להנחות",
+    "translate": "תרגם",
+    "public": "פּוּמְבֵּי",
+    "deleted": "נמחק",
+    "variant": "גִרְסָה אַחֶרֶת",
+    "secure": "לבטח",
+    "admin": "מנהל מערכת"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "מַסלוּל",
     "change_state": "לשנות סטטוס",
     "done": "בוצע",
-    "reply": "תשובה"
+    "reply": "תשובה",
+    "watch_now": "צפה עכשיו",
+    "unlock": "לבטל נעילה",
+    "lock": "לנעול",
+    "create_clone": "צור שיבוט",
+    "regenerate": "לְהִתְחַדֵשׁ",
+    "add_message": "הוסף הודעה",
+    "continue_chat": "המשך בצ'אט",
+    "add_new_message": "הוסף הודעה חדשה"
   },
   "instance_message_title": "שלח הודעה מיידית",
   "instance_message": "היי {name}, שמי {author} מ-{company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "מיקוד",
     "enter_value": "מלא כאן",
     "address_note": "פתק",
-    "tel": "מספר איש קשר"
+    "tel": "מספר איש קשר",
+    "service_address": "בחר את הכתובת שלך"
   },
   "weight": {
     "g": "ז",
@@ -753,7 +807,14 @@ export default {
     "פאונד",
     "ליטר",
     "מטרים",
-    "חֶדֶר"
+    "חֶדֶר",
+    "שניות",
+    "דקות",
+    "שעה (ות",
+    "ימים",
+    "שבועות",
+    "חודשים",
+    "שנים"
   ],
   "region_types": {
     "State": "מדינה",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "האורך המינימלי חייב להיות {length}",
     "invalid_min_array_length": "בחר לפחות {length} פריטים",
     "invalid_max_chars": "מקסימום {maxCount} תווים",
-    "invalid_url": "כתובת אתר לא חוקית"
+    "invalid_url": "כתובת אתר לא חוקית",
+    "country_invalid": "בחר מדינת יעד!",
+    "postal_code_invalid": "הגדר מיקוד חוקי!"
   },
   "colors": {
     "#D32F2F": "אָדוֹם",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "לבן",
     "#FFF": "לבן",
     "#000000": "שָׁחוֹר",
-    "#000": "שָׁחוֹר"
+    "#000": "שָׁחוֹר",
+    "#7d263a": "חוּם עֲרמוֹנִי",
+    "#FD9F17": "זהב",
+    "#229DBF": "אקווה",
+    "#6DC9E2": "אקווה טריבלנד",
+    "#413B2D": "צָבָא",
+    "#474747": "אַספַלט",
+    "#E6195C": "ברי",
+    "#B2184C": "ברי טריבלנד",
+    "#FC7F5F": "תפוז שרוף",
+    "#80011F": "קַרדִינָל",
+    "#382829": "שוקולד",
+    "#F06336": "אלמוג",
+    "#FAE7C9": "קרם",
+    "#6B2257": "דומדמניות",
+    "#222127": "אפור כהה",
+    "#0D5A74": "דיפ טיל",
+    "#00582F": "יָרוֹק עַד",
+    "#214C30": "יַעַר",
+    "#DC2867": "ורוד פוקסיה",
+    "#38561": "קלי",
+    "#5C884D": "עלה",
+    "#558450": "אקווה קלה",
+    "#96B5C9": "כחול בהיר",
+    "#DCAFCE": "לִילָך",
+    "#D3E1A4": "ליים",
+    "#9DE7C2": "מנטה",
+    "#F6EAD2": "טִבעִי",
+    "#1A1F35": "חיל הים",
+    "#404624": "זית",
+    "#271020": "שזיף",
+    "#A8355C": "פֶּטֶל",
+    "#D6BEA6": "קרם רך",
+    "#BEA994": "לְהִשְׁתַזֵף",
+    "#0DB2AE": "ירוק כחלחל",
+    "#A86EA9": "סָגוֹל",
+    "#36454F": "פֶּחָם",
+    "#b3b0ab": "פחמן אפור",
+    "#463e3d": "פחם הת'ר",
+    "#282d3c": "בלייזר חיל הים"
   },
   "address_info": {
     "name": "שֵׁם",
@@ -838,7 +940,8 @@ export default {
     "building_number": "מספר בניין",
     "building_unit": "יחידה",
     "postcode": "מיקוד",
-    "note": "פתק"
+    "note": "פתק",
+    "county": "מָחוֹז"
   },
   "product_types": {
     "physical": "גוּפָנִי",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "צֶבַע",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "פָּשׁוּט",
       "selective": "סֶלֶקטִיבִי",
-      "switch": "החלף"
-    }
+      "switch": "החלף",
+      "file": "קוֹבֶץ",
+      "number": "מספר"
+    },
+    "placeholder_input": "מציין מקום",
+    "file_type_input": "סוגי קבצים מקובלים",
+    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "שם מוצר",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "הכנס לנייד שלך",
     "verification_code": "קוד אימות",
     "msg_title": "היי,",
-    "msg_body": "אנא התחבר. זה לוקח רק כמה שניות."
+    "msg_body": "אנא התחבר. זה לוקח רק כמה שניות.",
+    "login_apple": "התחבר עם אפל"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "נוספו תגים"
     }
+  },
+  "difficulties": {
+    "very_complicated": "מאוד מסובך",
+    "hard": "קָשֶׁה",
+    "intermediate": "ביניים",
+    "easy": "קַל"
   }
 };

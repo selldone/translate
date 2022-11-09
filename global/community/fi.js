@@ -65,7 +65,9 @@ export default {
     "my_feed": "Minä",
     "blocked_message": "Olet estetty asti",
     "reported": "Ilmoitettu",
-    "report": "Raportoi"
+    "report": "Raportoi",
+    "post": "Lähettää",
+    "attach_file": "Liitä tiedosto"
   },
   "invite_message": "{user} on kutsunut sinut keskusteluryhmään {community}. Napsauta alla olevaa linkkiä lukeaksesi ystäviesi havainnot ja jakaa mielipiteesi heidän kanssaan. Odotan sinua.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Poista kysely",
     "take_screenshot": "Ota suojaksi",
     "take_link_msg": "Jätä linkki tähän ja syötä",
-    "eligible_title": "Postituskelpoisuuden vaiheet"
+    "eligible_title": "Postituskelpoisuuden vaiheet",
+    "public": "Julkinen"
   },
   "tips": {
     "verify_email": "Kirjoita ja vahvista sähköpostiosoitteesi.",

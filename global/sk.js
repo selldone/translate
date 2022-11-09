@@ -558,7 +558,52 @@ export default {
     "merchant": "Obchodník",
     "per_product": "Na produkt",
     "journey": "Cesta",
-    "after": "Po"
+    "after": "Po",
+    "waiting_for_payment": "Dokončite platbu...",
+    "hour": "hodina",
+    "minute": "Minúta",
+    "premium": "Premium",
+    "light": "Svetlo",
+    "dark": "Tmavý",
+    "guest": "Hosť",
+    "shops": "Obchody",
+    "vendor": "Predajca",
+    "vendors": "Predajcovia",
+    "marketplace": "Trhovisko",
+    "verify_date": "Overte dátum",
+    "note": "Poznámka",
+    "panel": "Panel",
+    "removed": "Odstránený",
+    "segments": "Segmenty",
+    "personal_info": "Osobné informácie",
+    "preferences": "Predvoľby",
+    "spec": "Špec",
+    "reviews": "Recenzie",
+    "constraints": "Obmedzenia",
+    "flexible": "Flexibilné",
+    "usage_limit": "Limit použitia",
+    "temporary": "Dočasné",
+    "original": "Originál",
+    "saved": "Uložené!",
+    "sort": "Triediť",
+    "documents": "Dokumenty",
+    "document": "Dokument",
+    "please_wait": "Prosím čakajte...",
+    "pickup": "Zdvihnúť",
+    "customize": "prispôsobiť",
+    "difficulty": "Obtiažnosť",
+    "banned": "Zakázané",
+    "company": "Spoločnosť",
+    "tax_shipping": "Prepravná daň",
+    "warranty": "Záruka",
+    "return_policy": "Pravidlá vrátenia",
+    "guide": "Sprievodca",
+    "translate": "Preložiť",
+    "public": "Verejné",
+    "deleted": "Odstránené",
+    "variant": "Varianta",
+    "secure": "Zabezpečiť",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Sledovať",
     "change_state": "Zmeniť stav",
     "done": "hotový",
-    "reply": "Odpovedzte"
+    "reply": "Odpovedzte",
+    "watch_now": "Sledovať teraz",
+    "unlock": "Odomknúť",
+    "lock": "Zámok",
+    "create_clone": "Vytvorte klon",
+    "regenerate": "Regenerovať",
+    "add_message": "Pridať správu",
+    "continue_chat": "Pokračovať v chate",
+    "add_new_message": "Pridať novú správu"
   },
   "instance_message_title": "Odoslať okamžitú správu",
   "instance_message": "Dobrý deň, {name}, volám sa {author} zo spoločnosti {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "PSČ",
     "enter_value": "Vyplňte tu",
     "address_note": "Poznámka",
-    "tel": "Kontaktné číslo"
+    "tel": "Kontaktné číslo",
+    "service_address": "Vyberte svoju adresu"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "libier",
     "kvart",
     "yardov",
-    "miestnosť"
+    "miestnosť",
+    "sekúnd",
+    "minút",
+    "hodiny",
+    "dni",
+    "týždňov",
+    "mesiacov",
+    "rokov"
   ],
   "region_types": {
     "State": "Štát",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Minimálna dĺžka musí byť {length}",
     "invalid_min_array_length": "Vyberte aspoň {length} položiek",
     "invalid_max_chars": "Max. počet znakov: {maxCount}",
-    "invalid_url": "neplatná URL adresa"
+    "invalid_url": "neplatná URL adresa",
+    "country_invalid": "Vyberte cieľovú krajinu!",
+    "postal_code_invalid": "Nastavte platné poštové smerovacie číslo!"
   },
   "colors": {
     "#D32F2F": "Červená",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "biely",
     "#FFF": "biely",
     "#000000": "čierna",
-    "#000": "čierna"
+    "#000": "čierna",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Zlato",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "armády",
+    "#474747": "Asfalt",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Spálený pomaranč",
+    "#80011F": "kardinál",
+    "#382829": "Čokoláda",
+    "#F06336": "Coral",
+    "#FAE7C9": "Krém",
+    "#6B2257": "Ríbezle",
+    "#222127": "Tmavošedý",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Evergreen",
+    "#214C30": "les",
+    "#DC2867": "Fuchsiová",
+    "#38561": "Kelly",
+    "#5C884D": "List",
+    "#558450": "Svetlá Aqua",
+    "#96B5C9": "Svetlo modrá",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "Limetka",
+    "#9DE7C2": "mäta",
+    "#F6EAD2": "Prirodzené",
+    "#1A1F35": "námorníctvo",
+    "#404624": "Olivový",
+    "#271020": "Slivka",
+    "#A8355C": "Malina",
+    "#D6BEA6": "Mäkký krém",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Modrozelený",
+    "#A86EA9": "fialový",
+    "#36454F": "Drevené uhlie",
+    "#b3b0ab": "uhlíková sivá",
+    "#463e3d": "Charcoal Heather",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "názov",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Číslo budovy",
     "building_unit": "Jednotka",
     "postcode": "PSČ",
-    "note": "Poznámka"
+    "note": "Poznámka",
+    "county": "County"
   },
   "product_types": {
     "physical": "Fyzické",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Farba",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Jednoduché",
       "selective": "Selektívne",
-      "switch": "Prepínač"
-    }
+      "switch": "Prepínač",
+      "file": "Súbor",
+      "number": "číslo"
+    },
+    "placeholder_input": "Zástupný symbol",
+    "file_type_input": "Prijateľné typy súborov",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Meno Produktu",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Zadajte svoj mobil",
     "verification_code": "Overovací kód",
     "msg_title": "Ahoj,",
-    "msg_body": "Prosím prihláste sa. Trvá to len pár sekúnd."
+    "msg_body": "Prosím prihláste sa. Trvá to len pár sekúnd.",
+    "login_apple": "Prihláste sa pomocou Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Pridané značky"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Veľmi komplikované",
+    "hard": "Ťažko",
+    "intermediate": "Stredne pokročilý",
+    "easy": "Jednoduché"
   }
 };

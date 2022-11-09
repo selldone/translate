@@ -558,7 +558,52 @@ export default {
     "merchant": "Kjøpmann",
     "per_product": "Per produkt",
     "journey": "Reise",
-    "after": "Etter"
+    "after": "Etter",
+    "waiting_for_payment": "Vennligst fullfør betalingen...",
+    "hour": "Time",
+    "minute": "Minutt",
+    "premium": "Premium",
+    "light": "Lys",
+    "dark": "Mørk",
+    "guest": "Gjest",
+    "shops": "Butikker",
+    "vendor": "Leverandør",
+    "vendors": "Leverandører",
+    "marketplace": "Markedsplass",
+    "verify_date": "Bekreft dato",
+    "note": "Merk",
+    "panel": "Panel",
+    "removed": "Fjernet",
+    "segments": "Segmenter",
+    "personal_info": "Personlig informasjon",
+    "preferences": "Preferanser",
+    "spec": "Spes",
+    "reviews": "Anmeldelser",
+    "constraints": "Begrensninger",
+    "flexible": "Fleksibel",
+    "usage_limit": "Bruksgrense",
+    "temporary": "Midlertidig",
+    "original": "Opprinnelig",
+    "saved": "Lagret!",
+    "sort": "Sortere",
+    "documents": "Dokumenter",
+    "document": "Dokument",
+    "please_wait": "Vennligst vent...",
+    "pickup": "Plukke opp",
+    "customize": "tilpasse",
+    "difficulty": "Vanskelighet",
+    "banned": "Utestengt",
+    "company": "Selskap",
+    "tax_shipping": "Fraktavgift",
+    "warranty": "Garanti",
+    "return_policy": "Returpolicy",
+    "guide": "Guide",
+    "translate": "Oversette",
+    "public": "Offentlig",
+    "deleted": "Slettet",
+    "variant": "Variant",
+    "secure": "Sikre",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Spor",
     "change_state": "Endre status",
     "done": "Ferdig",
-    "reply": "Svare"
+    "reply": "Svare",
+    "watch_now": "Se nå",
+    "unlock": "Låse opp",
+    "lock": "Låse",
+    "create_clone": "Lag klone",
+    "regenerate": "Regenerer",
+    "add_message": "Legg til melding",
+    "continue_chat": "Fortsett chatten",
+    "add_new_message": "Legg til ny melding"
   },
   "instance_message_title": "Send direktemelding",
   "instance_message": "Hei {name}, Mitt navn er {author} fra {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "postnummer",
     "enter_value": "Fyll ut her",
     "address_note": "Merk",
-    "tel": "Kontakt nummer"
+    "tel": "Kontakt nummer",
+    "service_address": "Velg adressen din"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "pounds",
     "quarts",
     "meter",
-    "rom"
+    "rom",
+    "sekunder",
+    "minutter",
+    "timer",
+    "dager",
+    "uker",
+    "måneder",
+    "år"
   ],
   "region_types": {
     "State": "Stat",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Minste lengde må være {length}",
     "invalid_min_array_length": "Velg minst {length} elementer",
     "invalid_max_chars": "Maks {maxCount} tegn",
-    "invalid_url": "ugyldig URL"
+    "invalid_url": "ugyldig URL",
+    "country_invalid": "Velg destinasjonsland!",
+    "postal_code_invalid": "Angi gyldig postnummer!"
   },
   "colors": {
     "#D32F2F": "rød",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Hvit",
     "#FFF": "Hvit",
     "#000000": "Svart",
-    "#000": "Svart"
+    "#000": "Svart",
+    "#7d263a": "Rødbrun",
+    "#FD9F17": "Gull",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Hæren",
+    "#474747": "Asfalt",
+    "#E6195C": "Bær",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Brent oransje",
+    "#80011F": "Kardinal",
+    "#382829": "Sjokolade",
+    "#F06336": "Korall",
+    "#FAE7C9": "Krem",
+    "#6B2257": "Rips",
+    "#222127": "Mørk grå",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Evergreen",
+    "#214C30": "skog",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Blad",
+    "#558450": "Lys Aqua",
+    "#96B5C9": "Lyse blå",
+    "#DCAFCE": "Syrin",
+    "#D3E1A4": "Lime",
+    "#9DE7C2": "Mynte",
+    "#F6EAD2": "Naturlig",
+    "#1A1F35": "marinen",
+    "#404624": "Oliven",
+    "#271020": "Plomme",
+    "#A8355C": "Bringebær",
+    "#D6BEA6": "Myk krem",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Blågrønn",
+    "#A86EA9": "Fiolett",
+    "#36454F": "Kull",
+    "#b3b0ab": "karbon grå",
+    "#463e3d": "Kulllyng",
+    "#282d3c": "Marineblå blazer"
   },
   "address_info": {
     "name": "Navn",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Husnummer",
     "building_unit": "Enhet",
     "postcode": "postnummer",
-    "note": "Merk"
+    "note": "Merk",
+    "county": "fylke"
   },
   "product_types": {
     "physical": "Fysisk",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Farge",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Enkel",
       "selective": "Selektiv",
-      "switch": "Bytte om"
-    }
+      "switch": "Bytte om",
+      "file": "Fil",
+      "number": "Antall"
+    },
+    "placeholder_input": "Plassholder",
+    "file_type_input": "Akseptable filtyper",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "Produktnavn",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Skriv inn mobilen din",
     "verification_code": "Bekreftelseskode",
     "msg_title": "hei!",
-    "msg_body": "Vennligst Logg inn. Det tar bare noen få sekunder."
+    "msg_body": "Vennligst Logg inn. Det tar bare noen få sekunder.",
+    "login_apple": "Logg på med Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Tagger lagt til"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Veldig komplisert",
+    "hard": "Hard",
+    "intermediate": "Middels",
+    "easy": "Lett"
   }
 };

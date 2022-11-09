@@ -558,7 +558,52 @@ export default {
     "merchant": "Marchand",
     "per_product": "Par produit",
     "journey": "Périple",
-    "after": "Après"
+    "after": "Après",
+    "waiting_for_payment": "Veuillez effectuer le paiement...",
+    "hour": "Heure",
+    "minute": "Minute",
+    "premium": "Prime",
+    "light": "Léger",
+    "dark": "Sombre",
+    "guest": "Invité",
+    "shops": "Magasins",
+    "vendor": "Vendeur",
+    "vendors": "Vendeurs",
+    "marketplace": "Marché",
+    "verify_date": "Vérifier la date",
+    "note": "Noter",
+    "panel": "Panneau",
+    "removed": "Supprimé",
+    "segments": "segments",
+    "personal_info": "Informations personnelles",
+    "preferences": "Préférences",
+    "spec": "Spécification",
+    "reviews": "Commentaires",
+    "constraints": "Contraintes",
+    "flexible": "Flexible",
+    "usage_limit": "Limite d'utilisation",
+    "temporary": "Temporaire",
+    "original": "Original",
+    "saved": "Enregistré!",
+    "sort": "Trier",
+    "documents": "Documents",
+    "document": "Document",
+    "please_wait": "S'il vous plaît, attendez...",
+    "pickup": "Ramasser",
+    "customize": "Personnaliser",
+    "difficulty": "Difficulté",
+    "banned": "banni",
+    "company": "Société",
+    "tax_shipping": "Taxe d'expédition",
+    "warranty": "garantie",
+    "return_policy": "Politique de retour",
+    "guide": "Guide",
+    "translate": "Traduire",
+    "public": "Public",
+    "deleted": "Supprimé",
+    "variant": "Une variante",
+    "secure": "Sécurisé",
+    "admin": "Administrateur"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Pister",
     "change_state": "Modifier le statut",
     "done": "Fait",
-    "reply": "Réponse"
+    "reply": "Réponse",
+    "watch_now": "Regarde maintenant",
+    "unlock": "Ouvrir",
+    "lock": "Bloquer",
+    "create_clone": "Créer un clone",
+    "regenerate": "Régénérer",
+    "add_message": "Ajouter un message",
+    "continue_chat": "Continuer à discuter",
+    "add_new_message": "Ajouter un nouveau message"
   },
   "instance_message_title": "Envoyer un message instantané",
   "instance_message": "Bonjour {name}, Je m'appelle {author} de {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Code postal",
     "enter_value": "Remplissez ici",
     "address_note": "Noter",
-    "tel": "Numéro de contact"
+    "tel": "Numéro de contact",
+    "service_address": "Sélectionnez votre adresse"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "livres sterling",
     "pintes",
     "verges",
-    "salle"
+    "salle",
+    "secondes",
+    "minutes",
+    "heures",
+    "journées",
+    "semaines",
+    "mois",
+    "années"
   ],
   "region_types": {
     "State": "État",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "La longueur minimale doit être de {length}",
     "invalid_min_array_length": "Sélectionnez au moins {length} éléments",
     "invalid_max_chars": "Max {maxCount} caractères",
-    "invalid_url": "URL invalide"
+    "invalid_url": "URL invalide",
+    "country_invalid": "Sélectionnez le pays de destination !",
+    "postal_code_invalid": "Définissez un code postal valide !"
   },
   "colors": {
     "#D32F2F": "Rouge",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Blanc",
     "#FFF": "Blanc",
     "#000000": "Le noir",
-    "#000": "Le noir"
+    "#000": "Le noir",
+    "#7d263a": "Bordeaux",
+    "#FD9F17": "Or",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triplend",
+    "#413B2D": "Armée",
+    "#474747": "Asphalte",
+    "#E6195C": "Baie",
+    "#B2184C": "Triple mélange de baies",
+    "#FC7F5F": "Orange brûlée",
+    "#80011F": "Cardinal",
+    "#382829": "Chocolat",
+    "#F06336": "corail",
+    "#FAE7C9": "Crème",
+    "#6B2257": "Groseille",
+    "#222127": "Gris foncé",
+    "#0D5A74": "Sarcelle profonde",
+    "#00582F": "À feuilles persistantes",
+    "#214C30": "Forêt",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Feuille",
+    "#558450": "Aqua clair",
+    "#96B5C9": "Bleu clair",
+    "#DCAFCE": "Lilas",
+    "#D3E1A4": "Chaux",
+    "#9DE7C2": "menthe",
+    "#F6EAD2": "Naturel",
+    "#1A1F35": "Marine",
+    "#404624": "olive",
+    "#271020": "Prune",
+    "#A8355C": "Framboise",
+    "#D6BEA6": "Crème Douce",
+    "#BEA994": "bronzer",
+    "#0DB2AE": "Sarcelle",
+    "#A86EA9": "Violet",
+    "#36454F": "charbon",
+    "#b3b0ab": "Gris carbone",
+    "#463e3d": "Charbon Bruyère",
+    "#282d3c": "Blazer bleu marine"
   },
   "address_info": {
     "name": "Nom",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Numéro du bâtiment",
     "building_unit": "Unité",
     "postcode": "Code postal",
-    "note": "Noter"
+    "note": "Noter",
+    "county": "Comté"
   },
   "product_types": {
     "physical": "Physique",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Couleur",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Simple",
       "selective": "Sélectif",
-      "switch": "Interrupteur"
-    }
+      "switch": "Interrupteur",
+      "file": "Dossier",
+      "number": "Numéro"
+    },
+    "placeholder_input": "Espace réservé",
+    "file_type_input": "Types de fichiers acceptables",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "Nom du produit",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Entrez votre mobile",
     "verification_code": "Code de vérification",
     "msg_title": "Salut,",
-    "msg_body": "Veuillez vous connecter. Cela ne prend que quelques secondes."
+    "msg_body": "Veuillez vous connecter. Cela ne prend que quelques secondes.",
+    "login_apple": "Connectez-vous avec Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Balises ajoutées"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Très compliqué",
+    "hard": "Dur",
+    "intermediate": "Intermédiaire",
+    "easy": "Facile"
   }
 };

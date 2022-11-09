@@ -558,7 +558,52 @@ export default {
     "merchant": "Comerciante",
     "per_product": "Por produto",
     "journey": "Jornada",
-    "after": "Depois"
+    "after": "Depois",
+    "waiting_for_payment": "Por favor, complete o pagamento...",
+    "hour": "Hora",
+    "minute": "Minuto",
+    "premium": "Prêmio",
+    "light": "Leve",
+    "dark": "Escuro",
+    "guest": "Convidado",
+    "shops": "Lojas",
+    "vendor": "Fornecedor",
+    "vendors": "Fornecedores",
+    "marketplace": "Mercado",
+    "verify_date": "Verificar data",
+    "note": "Observação",
+    "panel": "Painel",
+    "removed": "Removido",
+    "segments": "Segmentos",
+    "personal_info": "Informação pessoal",
+    "preferences": "Preferências",
+    "spec": "Especificação",
+    "reviews": "Avaliações",
+    "constraints": "Restrições",
+    "flexible": "Flexível",
+    "usage_limit": "Limite de uso",
+    "temporary": "Temporário",
+    "original": "Original",
+    "saved": "Salvou!",
+    "sort": "Ordenar",
+    "documents": "Documentos",
+    "document": "Documento",
+    "please_wait": "Por favor, espere...",
+    "pickup": "Escolher",
+    "customize": "customizar",
+    "difficulty": "Dificuldade",
+    "banned": "Banido",
+    "company": "Companhia",
+    "tax_shipping": "Taxa de envio",
+    "warranty": "garantia",
+    "return_policy": "Política de devolução",
+    "guide": "Guia",
+    "translate": "Traduzir",
+    "public": "Público",
+    "deleted": "Excluído",
+    "variant": "Variante",
+    "secure": "Seguro",
+    "admin": "Administrador"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Acompanhar",
     "change_state": "Alterar status",
     "done": "Feito",
-    "reply": "Responder"
+    "reply": "Responder",
+    "watch_now": "Assista agora",
+    "unlock": "Desbloquear",
+    "lock": "Trancar",
+    "create_clone": "Criar clone",
+    "regenerate": "Regenerado",
+    "add_message": "Adicionar mensagem",
+    "continue_chat": "Continuar bate-papo",
+    "add_new_message": "Adicionar nova mensagem"
   },
   "instance_message_title": "Enviar mensagem instantânea",
   "instance_message": "Olá {name}, meu nome é {author} de {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Código postal",
     "enter_value": "Preencha aqui",
     "address_note": "Observação",
-    "tel": "Número de contato"
+    "tel": "Número de contato",
+    "service_address": "Selecione seu endereço"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "libras",
     "quartos",
     "jardas",
-    "sala"
+    "sala",
+    "segundos",
+    "minutos",
+    "horas",
+    "dias",
+    "semanas",
+    "meses",
+    "anos"
   ],
   "region_types": {
     "State": "Estado",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "O comprimento mínimo deve ser {length}",
     "invalid_min_array_length": "Pelo menos selecione {length} itens",
     "invalid_max_chars": "Máximo de {maxCount} caracteres",
-    "invalid_url": "URL inválida"
+    "invalid_url": "URL inválida",
+    "country_invalid": "Selecione o país de destino!",
+    "postal_code_invalid": "Defina um código postal válido!"
   },
   "colors": {
     "#D32F2F": "Vermelho",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Branco",
     "#FFF": "Branco",
     "#000000": "Preto",
-    "#000": "Preto"
+    "#000": "Preto",
+    "#7d263a": "marrom",
+    "#FD9F17": "Ouro",
+    "#229DBF": "Água",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Exército",
+    "#474747": "Asfalto",
+    "#E6195C": "baga",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Laranja queimado",
+    "#80011F": "Cardeal",
+    "#382829": "Chocolate",
+    "#F06336": "Coral",
+    "#FAE7C9": "Creme",
+    "#6B2257": "Groselha",
+    "#222127": "Cinza escuro",
+    "#0D5A74": "Cerceta Profunda",
+    "#00582F": "Evergreen",
+    "#214C30": "Floresta",
+    "#DC2867": "Fúcsia",
+    "#38561": "Kelly",
+    "#5C884D": "Folha",
+    "#558450": "Água clara",
+    "#96B5C9": "Azul claro",
+    "#DCAFCE": "Lilás",
+    "#D3E1A4": "Lima",
+    "#9DE7C2": "hortelã",
+    "#F6EAD2": "Natural",
+    "#1A1F35": "Marinha",
+    "#404624": "Oliva",
+    "#271020": "Ameixa",
+    "#A8355C": "Framboesa",
+    "#D6BEA6": "Creme Suave",
+    "#BEA994": "bronzeado",
+    "#0DB2AE": "Cerceta",
+    "#A86EA9": "Tolet",
+    "#36454F": "Carvão",
+    "#b3b0ab": "cinza carbono",
+    "#463e3d": "Carvão Urze",
+    "#282d3c": "Blazer da Marinha"
   },
   "address_info": {
     "name": "Nome",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Número do prédio",
     "building_unit": "Unidade",
     "postcode": "Código postal",
-    "note": "Observação"
+    "note": "Observação",
+    "county": "Condado"
   },
   "product_types": {
     "physical": "Físico",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Cor",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Simples",
       "selective": "Seletivo",
-      "switch": "Trocar"
-    }
+      "switch": "Trocar",
+      "file": "Arquivo",
+      "number": "Número"
+    },
+    "placeholder_input": "Espaço reservado",
+    "file_type_input": "Tipos de arquivo aceitáveis",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Nome do Produto",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Digite seu celular",
     "verification_code": "Código de verificação",
     "msg_title": "Oi,",
-    "msg_body": "Por favor entre. Leva apenas alguns segundos."
+    "msg_body": "Por favor entre. Leva apenas alguns segundos.",
+    "login_apple": "Entrar com a Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Tags adicionadas"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Muito complicado",
+    "hard": "Duro",
+    "intermediate": "Intermediário",
+    "easy": "Fácil"
   }
 };

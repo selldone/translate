@@ -155,7 +155,19 @@ export default {
       "Setup": "butik",
       "Sell": "salg og marketing",
       "Developer": "Udvikle",
-      "Application": "Ansøgninger"
+      "Application": "Ansøgninger",
+      "Product": "Produkt- og kategoristyring",
+      "Blog": "CMS og blog",
+      "Order": "Ordreopfyldelsescenter",
+      "Channel": "Salgskanaler",
+      "Accounting": "Regnskab & Betalingsmetoder",
+      "Incentives": "Incitamenter",
+      "Marketing": "Marketing og kampagner",
+      "Logistic": "Logistik & forsendelse",
+      "Customers": "Kundeklub & Segmentering",
+      "Page": "Landings- og brugerdefinerede sider",
+      "Access": "Personale / API Adgangsstyring",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github Repository",
@@ -193,7 +205,9 @@ export default {
       "stores": "Butikker",
       "roles": "Roller",
       "home": "Hjem",
-      "expert": "Ekspert"
+      "expert": "Ekspert",
+      "deals": "Tilbud",
+      "providers": "Udbydere"
     },
     "shops": {
       "create_new": "Opret ny butik",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Status",
           "created_at": "Oprettelsesdato",
           "updated_at": "Sidste ændring"
-        }
+        },
+        "subtitle": "Skriv artikler med en moderne inline-editor for at præsentere dig selv og din virksomhed. Originalt indhold er det første, du skal fokusere på, når du skriver et SEO-venligt blogindlæg af høj kvalitet."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Rapport",
         "tax": "Skat",
         "drop_shipping": "Forhandlerkvitteringer",
-        "reseller_accounts": "Forhandlerkonti"
+        "reseller_accounts": "Forhandlerkonti",
+        "valuations": "Værdiansættelser"
       },
       "invoice": {
         "title": "Shop linkede tegnebøger",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Forsendelse",
         "inventory": "Beholdning",
         "warehouse": "Lager",
-        "logistic_apps": "Logistik"
+        "logistic_apps": "Logistik",
+        "profiles": "Profiler"
       },
       "warehouse": {
         "title": "Butikslager",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Minimum ordrepris for gratis forsendelse",
           "notifications": {
             "update_success": "Indstillinger for forsendelsestjeneste blev gennemført."
-          }
+          },
+          "shipping_cost_calculation": "Beregning af forsendelsesomkostninger",
+          "sod_true": "Få forsendelsesomkostninger på destinationen",
+          "sod_true_message": "Sørg for, at din forsendelsesservice accepterer forsendelsesomkostninger på destinationen.",
+          "sod_false": "Beregning af automatisk forsendelsesomkostninger",
+          "cod_true": "Accepter efterkrav",
+          "cod_false": "Accepter kun online betaling",
+          "cod_true_message": "Sørg for, at din forsendelsesservice accepterer efterkrav."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "Sms",
         "email": "E-mail",
         "domain": "Domæne",
-        "verifications": "Verifikationer"
+        "verifications": "Verifikationer",
+        "flow": "Flyde",
+        "business_model": "Forretningsmodel"
       },
       "delete_dialog": {
         "title": "Slet butik",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Produktenhed",
       "unit_float": "Flydeenhed (snart)",
       "unit_float_hint": "Kunden kan for eksempel bestille 3 kg frugt, men mængden, der sendes til kunden, er lidt anderledes end den bestilte mængde.",
-      "unit_float_message": "Under ordrebehandlingen kan det leverede beløb afvige fra det bestilte beløb. Systemet beregner automatisk denne forskel og registrerer den som din gæld til kunden, som kan anvendes på de næste ordrer."
+      "unit_float_message": "Under ordrebehandlingen kan det leverede beløb afvige fra det bestilte beløb. Systemet beregner automatisk denne forskel og registrerer den som din gæld til kunden, som kan anvendes på de næste ordrer.",
+      "status_list": {
+        "active": {
+          "title": "Aktiv | Online og offline salg",
+          "description": "Dette produkt vil være tilgængeligt for online ordrer."
+        },
+        "inactive": {
+          "title": "Inaktiv | Kun offline salg",
+          "description": "Dette produkt vil ikke være tilgængeligt for online ordrer."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Undersøgelse",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Vælg sluttidspunktet",
       "independent_price": "Prisen kun for denne variant",
       "same_price": "Prisen for hovedproduktet",
-      "variant_pricing_message": "Ved at vælge denne mulighed kan prisen på denne variant indstilles uafhængigt af hovedproduktet."
+      "variant_pricing_message": "Ved at vælge denne mulighed kan prisen på denne variant indstilles uafhængigt af hovedproduktet.",
+      "price_label_input": "Prismærke",
+      "price_label_message": "Tilføj ekstra info om pris som ($1,5/Fl Oz). Brugssager: købmand, FMCG.",
+      "add_price_label_action": "Tilføj prismærke"
     },
     "inputs_edit": {
       "title": "Indtastningsform for køberoplysninger",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gateway {gateway_name} er redigeret."
     },
-    "developer_setting": "Udvikle & test"
+    "developer_setting": "Udvikle & test",
+    "live_mode_message": "Alle transaktioner vil være i live-tilstand."
   },
   "gift_card": {
     "title": "Gavekort",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Faktureringsadresse redigeret af køber.",
     "payment-cod-confirm": "Efterkrav Betaling blev bekræftet.",
     "payment-cash-confirm": "Betaling af {amount} {currency} kontant for regningen blev bekræftet.",
-    "payment-dir-confirm": "Modtagelse af direkte betaling blev bekræftet."
+    "payment-dir-confirm": "Modtagelse af direkte betaling blev bekræftet.",
+    "vendor": "Leverandørordretilstand ændret fra <b>{from}</b> til <b>{to}</b> .",
+    "connect-sync": "Ordre synkroniseret af Connect OS.",
+    "connect-shipped": "Connect-ordren er blevet afsendt af {shipping}.",
+    "connect-returned": "Connect-ordren er blevet returneret af {shipping}.",
+    "connect-failed": "Ordreopfyldelse mislykkedes af partneren. {reason}",
+    "connect-canceled": "Ordren blev annulleret af partneren. {reason}",
+    "connect-action-cancel": "Anmodning om annullering af ordre. {reason}",
+    "connect-put-hold": "Ordren blev sat i bero. {reason}",
+    "connect-remove-hold": "Ordren blev fjernet fra hold. {reason}",
+    "connect-confirmed": "Ordren blev bekræftet.",
+    "email-vendor": "🔔 Bestillingsinformation e-mail er blevet sendt til <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "I dag",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Lave penge",
     "menu": {
       "plans": "Planer",
-      "accounts": "Regnskaber"
+      "accounts": "Regnskaber",
+      "participant": "Deltager"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Gem adgangsnøgler",
     "shop_keys_message": "Disse nøgler bruges til at oprette adgangstoken af din server. Bemærk, at nøglerne er fortrolige og kun placeres på serveren, så de ikke er synlige for andre.",
     "personal_keys_title": "Personlige adgangsnøgler",
-    "personal_keys_message": "Du kan oprette nøglerne til din konto her. Bemærk, at disse nøgler vil kunne få adgang til din konto. Opret og brug kun disse nøgler, hvis du ved præcis, hvad du laver."
+    "personal_keys_message": "Du kan oprette nøglerne til din konto her. Bemærk, at disse nøgler vil kunne få adgang til din konto. Opret og brug kun disse nøgler, hvis du ved præcis, hvad du laver.",
+    "clients_title": "Kunder",
+    "clients_message": "Disse nøgler bruges til at oprette adgangstoken af din server. Bemærk, at nøglerne er fortrolige og kun placeres på serveren, så de ikke er synlige for andre."
   },
   "user_security_control": {
     "title": "Kontosikkerhed",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Administrer profiler",
       "description": "Administrer butiksprofiler."
+    },
+    "shop-discount-code": {
+      "name": "Administration af rabatkode",
+      "description": "Administrer, rediger og tilføj butiksrabatkoder."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Indstillinger",
       "change": "Oplade",
       "transfer": "Overførsel",
-      "transactions": "Transaktioner"
+      "transactions": "Transaktioner",
+      "charge": "Oplade",
+      "history": "Historie"
     },
     "transactions": {
       "title": "Kontotransaktioner",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Annuller bekræftelse af abonnement",
       "message": "Er du sikker på at du vil annullere dette abonnement?",
       "action": "Opsig abonnement"
-    }
+    },
+    "use_voucher_now": "Brug voucher nu",
+    "validity_duration": "Gyldighedsvarighed",
+    "validity_duration_hint": "Ved at købe en 12-måneders licens får du 30 % rabat."
   },
   "admin_shop_layout": {
     "download_txt": "Download data tekst",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Store skrifttyper",
     "large_font_message": "Vis tekst større end normalt",
     "samples": "Vis eksempler på butikker",
-    "samples_message": "Hvis det er aktiveret, vil nogle eksempler på butikker blive vist i dit panel."
+    "samples_message": "Hvis det er aktiveret, vil nogle eksempler på butikker blive vist i dit panel.",
+    "automation": "Automatisering",
+    "automation_message": "Vis automatiseringsfanen på butikkens dashboard. (Webhooks, visuel programmering, ...)"
   },
   "shop_locations": {
     "title": "Lande, hvor der ydes service",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kuponen er blevet slettet."
-    }
+    },
+    "multiple_use": "Flergangsbrug"
   },
   "coupon_edit": {
     "title_edit": "Rediger kupon",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Begrænse",
       "description": "Indstil en grænse for det maksimale antal brugere."
+    },
+    "SEGMENTS": {
+      "title": "Segmenter",
+      "description": "Begræns kunder i specifik manuel segmentering."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Det samlede ordrebeløb blev trukket fra gavekortene! Køber skal ikke betale mere.",
       "cod_msg": "Kunden betaler ved modtagelse af ordren.",
       "online_msg": "Bed kunden om at scanne QR-koden på kundeskærmen."
-    }
+    },
+    "name": "POS",
+    "message": "Få dit nul-setup-pris online salgssted, kør det på enhver smartphone, tablet og pc, eller opret ordrer manuelt."
   },
   "exporter": {
     "title": "Eksporter data",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Send til server",
     "shop_license": "Butikslicens",
     "max_items_limit": "Maksimal varegrænse",
-    "total_items": "Samlede varer"
+    "total_items": "Samlede varer",
+    "customer": {
+      "title": "Importer kunder",
+      "subtitle": "Upload CSV-filer af kunder her. Sørg for, at du følger standardformatet, og du skal også følge reglerne for beskyttelse af personlige oplysninger."
+    }
   },
   "campaigns": {
     "title": "Kampagner",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Links",
     "light_checkout": "Let kasse-tema",
     "light_header": "Lys overskrift",
-    "light_footer": "Let sidefod"
+    "light_footer": "Let sidefod",
+    "product_page": "Produktside",
+    "typography": "Typografi",
+    "header": "Header",
+    "custom_code": "Brugerdefineret kode",
+    "custom_css": "Brugerdefineret CSS"
   },
   "app_templates": {
     "default": "Standard",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Administrer service",
     "option_deliver_by_courier": "Mulighed 1: Lever med dine kurerer.",
     "option_add_to_que": "Mulighed 2: Tilføj til kø for at behandle på siden for forsendelsesservice.",
-    "option_instant_shipping": "Mulighed 3: Øjeblikkelig forsendelse."
+    "option_instant_shipping": "Mulighed 3: Øjeblikkelig forsendelse.",
+    "pickup_action": "Bekræftelse af afhentning"
   },
   "shop_home_edit": {
     "title": "Hjemmesideindstilling",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Produkt tilføjet til din butik.",
       "request_access": "Vi har sendt din adgangsanmodning til grossisten."
-    }
+    },
+    "show_eligible_shops_message": "Vis kvalificerede butikker"
   },
   "product_dropshipping": {
     "need_re_enable": "Dette produkt er blevet ændret af den oprindelige sælger, disse prisændringer har deaktiveret produktet i din butik. Tjek ændringerne, og hvis du accepterer at genaktivere produktet, skal du trykke på knappen nedenfor.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Der er ingen kategori i din butik.",
       "limit": "Produktgrænse",
       "limit_message": "Indtast produktresultattæller",
-      "select_categories": "Vælg tilgængelige kategorier"
+      "select_categories": "Vælg tilgængelige kategorier",
+      "categories_limit": "Kategorier grænse",
+      "categories_limit_msg": "Indtast det maksimale antal kategorier. Indstil nul for ingen grænse."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avocado blev opdateret.",
       "add_success": "Avocado oprettet med succes."
-    }
+    },
+    "name": "Avocado"
   },
   "avocado_orders": {
     "title": "Avocado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "inaktiv",
     "active_message": "Hvis du aktiverer denne mulighed, vil muligheden for at oprette hurtigsalgskoderne blive vist i administrationssektionen for hvert produkt.",
     "hyper_form_link_message": "Din butiks hypersidelink",
-    "configuration": "Hyperindstillinger"
+    "configuration": "Hyperindstillinger",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Kundernes demografi",
     "subtitle": "Filtrer og eksporter dine kundedata for at træffe bedre beslutninger for at levere mere værdi med mindre markedsføring! Respekter venligst dine kunders privatliv og send aldrig masse-e-mails til dem! Del aldrig dine kunders oplysninger med tredjepartstjenester uden at få tilladelse fra hver enkelt af dem."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Afhentningsadresser",
+      "subtitle": "Tilføj og rediger afhentningsadresser her. Brugere vil være i stand til at vælge afhentningsadressen på betalingssiden.",
+      "add_action": "Tilføj ny placering"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Affiliate POS",
+    "open_pos_action": "Hurtig bestilling af POS",
+    "description": "Denne mulighed er velegnet til administratorer af Instagram-sider og andre sociale netværk. Brug Affiliate POS til at modtage og tilføje ordrer fra kunder manuelt. Dine tilknyttede selskaber (eller franchise) kan tilføje nye ordrer i Affiliate POS og uploade indbetalingssedlen."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Login metoder",
+      "subtitle": "Tilpas den måde, brugerne logger på i din butik."
+    },
+    "checkout": {
+      "title": "Checkout flow",
+      "subtitle": "Tilpas din kunderejse og købsflow i din e-handel.",
+      "map": {
+        "title": "Kort",
+        "subtitle": "Brugere skal vælge leveringsstedet på kortet (som Uber).",
+        "subtitle_no_map": "Afstanden i forsendelsesberegningen betragtes som nul, hvis lokationen ikke findes i kundens oplyste adresse."
+      },
+      "mode": {
+        "title": "Kunders login punkt",
+        "default": {
+          "title": "ASAP (standard)",
+          "msg": "Brugere logger ind så hurtigt som muligt. (Flere konvertering)"
+        },
+        "on_checkout": {
+          "title": "Ved kassen",
+          "msg": "Tving brugere til at logge ind ved kassen."
+        },
+        "login_free": {
+          "title": "Valgfrit login",
+          "msg": "Valgfrit login efter ordrebetaling.."
+        }
+      },
+      "express": {
+        "title": "Omdiriger efter tilføjelse til indkøbskurv",
+        "false": {
+          "title": "Normal tilstand",
+          "msg": "Forbliv på siden og fortsæt med at handle efter at have klikket på Tilføj til indkøbskurv."
+        },
+        "true": {
+          "title": "Express-tilstand",
+          "msg": "Omdiriger kunden til betalingssiden efter at have klikket på Tilføj til indkøbskurv."
+        }
+      },
+      "shipping_address": {
+        "title": "Spørg efter leveringsadresse"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fysisk og service (standard)",
+      "desc": "Bed kunden om at indtaste en adresse i de fysiske kasser og servicekasser."
+    },
+    "physical": {
+      "title": "Kun fysisk",
+      "desc": "Bed kunden om at indtaste en adresse lige i den fysiske kassen."
+    },
+    "off": {
+      "title": "Aldrig",
+      "desc": "Spørg aldrig om leveringsadressen. ⚠ Brug denne mulighed, hvis du planlægger at have tjenester med varianter ved at vælge fysisk type for produkter i stedet for tjenestetype."
+    }
+  },
+  "business_model": {
+    "title": "Opsætning af forretningsmodel",
+    "subtitle": "Indstil din forretningsmodel, så konfigurerer vi dit OS bag scenen."
+  },
+  "business_type": {
+    "title": "Varetyper",
+    "subtitle": "Indstil den type produkter, du vil sælge i din butik. Produkttyper i Selldone er mere end blot en type af produkterne; det handler mere om opfyldelsesprocedure.",
+    "send_activation_request_to_support": "Send en aktiveringsanmodning i en supportbillet.",
+    "require_kyc": "Virksomhedsejer KYC.",
+    "needs_enterprise_license": "Du skal have en Enterprise-licens.",
+    "marketplace_caution_message": "Indstil Marketplace, da din model i høj grad påvirker din virksomheds OS-konfiguration. For eksempel skal du definere mindst én leverandør for hvert produkt med uafhængig prissætning og lagerbeholdning. Kunder kan ikke købe produkter, der ikke har nogen leverandør."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Normal butik",
+      "desc": "Normalt en SMV, hjemmevirksomhed eller dropshipper - der sælger deres produkt direkte til kunder eller sælger grossisters produkter som forhandler."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Behold intet produkt og intet lager - du betaler til en tredjepart, normalt en grossist (som Printify, Wholesale2B, ...) eller producent, og de udfører ordrer bag scenen."
+    },
+    "wholesaler": {
+      "title": "Dropshipping leverandør",
+      "desc": "Almindeligvis en grossist eller en producent - der sender ordrer direkte til slutforbrugeren. Andre forhandlere på Selldone kan aflevere dine produkter i deres butikker."
+    },
+    "marketplace": {
+      "title": "Markedsplads",
+      "desc": "Online markedspladser forbinder købere og sælgere på en proprietær og centraliseret platform."
+    },
+    "franchise": {
+      "title": "Franchise / Affiliate",
+      "desc": "En franchise er en metode til at distribuere produkter eller tjenester, der involverer en franchisegiver, som etablerer dit brand (Franchising) eller sælger dine produkter efter deres brand (Affiliate)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Tegnebøger",
+    "pricing_models": "Prissætning",
+    "add_vendor": "Tilføj leverandør",
+    "requests": "Forespørgsler"
+  },
+  "price_input_type": {
+    "title": "Pris input type",
+    "default": {
+      "title": "Standard",
+      "desc": "Vælg en værdi som mængden i kurven."
+    },
+    "area": {
+      "title": "Areal",
+      "desc": "Indtast bredde og længde som input for at beregne mængden."
+    },
+    "volume": {
+      "title": "bind",
+      "desc": "Indtast bredde, længde og højde som input for at beregne mængden."
+    },
+    "custom": {
+      "title": "Brugerdefineret (ved inputformular)",
+      "desc": "Intet behov for hundredvis af varianter! Opret en brugerdefineret omkostningsberegningsformular for meget tilpasselige produkter."
+    }
+  },
+  "vendors_list": {
+    "title": "Mine sælgere",
+    "message": "Liste over mine egne leverandører."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Forbind flere domæner til din virksomheds OS, og administrer dem alle på ét sted. Du kan bruge funktionen til flere domæner til at oprette dedikerede domæner til hver del af dit websted, såsom blog og fællesskab, eller bruge forskellige domæner til dine tilknyttede selskaber."
+  },
+  "notes": {
+    "add_action": "Tilføj en note til dit hold",
+    "notifications": {
+      "success_add": "Notatet er blevet tilføjet.",
+      "success_delete": "Notatet er blevet slettet."
+    }
+  },
+  "external_services": {
+    "title": "Eksterne tjenester",
+    "subtitle": "Overvåg den seneste status for de eksterne tjenester som SMS og e-mails her."
   }
 };

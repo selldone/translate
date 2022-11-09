@@ -65,7 +65,9 @@ export default {
     "my_feed": "Ko ahau",
     "blocked_message": "Kua araia koe kia tae ra ano",
     "reported": "Kua ripoatatia",
-    "report": "Ripoata"
+    "report": "Ripoata",
+    "post": "Whakairi",
+    "attach_file": "Āpiti kōnae"
   },
   "invite_message": "Na {user} koe i tono ki te huinga {community}. Paatohia te hononga i raro nei ki te panui i nga tirohanga a o hoa me te whakapuaki i o whakaaro ki a ratou. Kei te tatari ahau mo koe.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Tango pooti",
     "take_screenshot": "Tangohia hei uhi",
     "take_link_msg": "Hononga o mua ki konei ka tomo",
-    "eligible_title": "Nga huarahi ki te whai waahi ki te whakairi"
+    "eligible_title": "Nga huarahi ki te whai waahi ki te whakairi",
+    "public": "Tūmatanui"
   },
   "tips": {
     "verify_email": "Whakauruhia me te manatoko i to imeera.",

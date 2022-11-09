@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Lotutako produktuak",
     "price": "Prezioa",
     "rate": "Tarifa",
-    "comment": "Iruzkina"
+    "comment": "Iruzkina",
+    "warranty": "Bermea",
+    "return_policy": "Itzultze politika",
+    "guide": "Gida",
+    "shipping": "Bidalketa"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Zure eskaera behar bezala egin da.",
       "delete_success": "Elementua ezabatu da."
-    }
+    },
+    "select_address_message": "Mesedez, idatzi zure helbidea eta, ondoren, eskaera bidali dezakezu."
   },
   "hyper": {
     "title": "Aginduak sortzea",
@@ -541,5 +546,19 @@ export default {
       "message": "Elementu honengatik kobratu bat zehaztu duzu. Bezeroak erositako elementuaren kargaren zenbatekoa alda dezakezu.",
       "charge": "Kargatu"
     }
+  },
+  "check_access": {
+    "waiting_message": "Sarbidea egiaztatzeko zain...",
+    "no_access_message": "Zoritxarrez, ez duzu gure dendara sarbiderik.<br/> Mesedez, jarri gurekin harremanetan."
+  },
+  "share_order": {
+    "action": "Partekatu ordena",
+    "title": "Partekatu eskaera hau besteekin.",
+    "message": "Esteka segurua da, ezagutzen dituzunekin bakarrik partekatu. Esteka hau duten guztiek zure eskaera bikoiztu dezakete eta hautatutako helbidea ikusi. Zure uneko saskiari buruzko informazioa edukiko du.",
+    "valid_period": "Esteka hau 48 orduren buruan iraungiko da.",
+    "import_order_action": "Inportazio eskaera",
+    "retrieve_dialog_title": "Berreskuratu kanpoko ordena",
+    "address_included": "Partekatu saskirako elementuak + Helbidea",
+    "address_excluded": "Partekatu saskiko elementuak soilik"
   }
 };

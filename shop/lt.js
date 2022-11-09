@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Susiję produktai",
     "price": "Kaina",
     "rate": "Įvertink",
-    "comment": "komentuoti"
+    "comment": "komentuoti",
+    "warranty": "Garantija",
+    "return_policy": "Gražinimo politika",
+    "guide": "Vadovas",
+    "shipping": "Siuntimas"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Jūsų užsakymas sėkmingai atliktas.",
       "delete_success": "Elementas ištrintas."
-    }
+    },
+    "select_address_message": "Įveskite savo adresą ir galėsite pateikti užsakymą."
   },
   "hyper": {
     "title": "Užsakymo kūrimas",
@@ -541,5 +546,19 @@ export default {
       "message": "Nurodėte mokestį už šią prekę. Galite pakeisti kliento įsigytos prekės mokesčio sumą.",
       "charge": "Apmokestinti"
     }
+  },
+  "check_access": {
+    "waiting_message": "Laukiama prieigos patikrinimo...",
+    "no_access_message": "Deja, jūs neturite prieigos prie mūsų parduotuvės.<br/> Prašome susisiekti su mumis."
+  },
+  "share_order": {
+    "action": "Pasidalinkite užsakymu",
+    "title": "Pasidalinkite šiuo užsakymu su kitais.",
+    "message": "Tai saugi nuoroda, bendrinkite ją tik su tais, kuriuos pažįstate. Kiekvienas, turintis šią nuorodą, gali pasikartoti jūsų užsakymą ir matyti pasirinktą adresą. Jame bus informacija apie jūsų dabartinį krepšelį.",
+    "valid_period": "Ši nuoroda nustos galioti po 48 valandų.",
+    "import_order_action": "Importo užsakymas",
+    "retrieve_dialog_title": "Gauti išorinį užsakymą",
+    "address_included": "Dalytis krepšelio prekėmis + Adresas",
+    "address_excluded": "Dalinkitės tik krepšelio prekėmis"
   }
 };

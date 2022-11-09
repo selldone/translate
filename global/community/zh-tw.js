@@ -65,7 +65,9 @@ export default {
     "my_feed": "我",
     "blocked_message": "你被封鎖直到",
     "reported": "報告",
-    "report": "報告"
+    "report": "報告",
+    "post": "郵政",
+    "attach_file": "附加文件"
   },
   "invite_message": "{user} 邀請您加入論壇 {community}。單擊下面的鏈接閱讀您朋友的意見並與他們分享您的意見。我在等你。",
   "subscription_type": {

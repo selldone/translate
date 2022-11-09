@@ -558,7 +558,52 @@ export default {
     "merchant": "වෙළෙන්දා",
     "per_product": "නිෂ්පාදනයක් අනුව",
     "journey": "ගමන",
-    "after": "පසු"
+    "after": "පසු",
+    "waiting_for_payment": "කරුණාකර ගෙවීම සම්පූර්ණ කරන්න...",
+    "hour": "පැය",
+    "minute": "මිනිත්තුව",
+    "premium": "වාරික",
+    "light": "ආලෝකය",
+    "dark": "අඳුරු",
+    "guest": "අමුත්තන්ගේ",
+    "shops": "ගබඩා",
+    "vendor": "වෙළෙන්දා",
+    "vendors": "වෙළෙන්දෝ",
+    "marketplace": "වෙළඳපොළ",
+    "verify_date": "දිනය තහවුරු කරන්න",
+    "note": "සටහන",
+    "panel": "පැනලය",
+    "removed": "ඉවත් කරන ලදී",
+    "segments": "කොටස්",
+    "personal_info": "පෞද්ගලික තොරතුරු",
+    "preferences": "මනාප",
+    "spec": "පිරිවිතර",
+    "reviews": "සමාලෝචන",
+    "constraints": "සීමා කිරීම්",
+    "flexible": "නම්යශීලී",
+    "usage_limit": "භාවිත සීමාව",
+    "temporary": "තාවකාලික",
+    "original": "මුල්",
+    "saved": "සුරකින ලදී!",
+    "sort": "වර්ග කරන්න",
+    "documents": "ලේඛන",
+    "document": "ලේඛනය",
+    "please_wait": "කරුණාකර රැඳී සිටින්න...",
+    "pickup": "අවුලා ගන්න",
+    "customize": "අභිරුචිකරණය",
+    "difficulty": "දුෂ්කරතාව",
+    "banned": "තහනම් කළා",
+    "company": "සමාගම",
+    "tax_shipping": "නැව් බද්ද",
+    "warranty": "වගකීම් සහතිකය",
+    "return_policy": "ආපසු දෙන ප්රතිපත්තිය",
+    "guide": "මගපෙන්වීම",
+    "translate": "පරිවර්තනය කරන්න",
+    "public": "මහජන",
+    "deleted": "මකා දමන ලදී",
+    "variant": "ප්රභේදය",
+    "secure": "ආරක්ෂිතයි",
+    "admin": "පරිපාලක"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "ලුහුබැඳීම",
     "change_state": "තත්ත්වය වෙනස් කරන්න",
     "done": "කළා",
-    "reply": "පිලිතුරු"
+    "reply": "පිලිතුරු",
+    "watch_now": "දැන් නරඹන්න",
+    "unlock": "අගුළු හරින්න",
+    "lock": "අගුළු දමන්න",
+    "create_clone": "ක්ලෝනය සාදන්න",
+    "regenerate": "නැවත උත්පාදනය කරන්න",
+    "add_message": "පණිවිඩය එක් කරන්න",
+    "continue_chat": "කතාබස් කරගෙන යන්න",
+    "add_new_message": "නව පණිවිඩයක් එක් කරන්න"
   },
   "instance_message_title": "ක්ෂණික පණිවිඩයක් යවන්න",
   "instance_message": "ආයුබෝවන් {name}, මගේ නම {author} {company} වෙතින්.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "තැපැල් කේතය",
     "enter_value": "මෙතනින් පුරවන්න",
     "address_note": "සටහන",
-    "tel": "ඇමතුම් අංකය"
+    "tel": "ඇමතුම් අංකය",
+    "service_address": "ඔබගේ ලිපිනය තෝරන්න"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "පවුම්",
     "ක්වාර්ට්ස්",
     "යාර",
-    "කාමරය"
+    "කාමරය",
+    "තත්පර",
+    "මිනිත්තු",
+    "පැය",
+    "දින",
+    "සති",
+    "මාස",
+    "වසර"
   ],
   "region_types": {
     "State": "රජයේ",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "අවම දිග {length} විය යුතුය",
     "invalid_min_array_length": "අවම වශයෙන් අයිතම {length} තෝරන්න",
     "invalid_max_chars": "උපරිම අක්ෂර {maxCount}",
-    "invalid_url": "වලංගු නැති URL"
+    "invalid_url": "වලංගු නැති URL",
+    "country_invalid": "ගමනාන්ත රට තෝරන්න!",
+    "postal_code_invalid": "වලංගු තැපැල් කේතය සකසන්න!"
   },
   "colors": {
     "#D32F2F": "රතු",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "සුදු",
     "#FFF": "සුදු",
     "#000000": "කලු",
-    "#000": "කලු"
+    "#000": "කලු",
+    "#7d263a": "මෙරූන්",
+    "#FD9F17": "රන්",
+    "#229DBF": "ඇක්වා",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "හමුදා",
+    "#474747": "ඇස්ෆල්ට්",
+    "#E6195C": "බෙරී",
+    "#B2184C": "බෙරී ට්‍රිබ්ලන්ඩ්",
+    "#FC7F5F": "පිළිස්සුණු තැඹිලි",
+    "#80011F": "කාදිනල්",
+    "#382829": "චොකලට්",
+    "#F06336": "කොරල්පර",
+    "#FAE7C9": "ක්රීම්",
+    "#6B2257": "කරන්ට් ඇතුළු",
+    "#222127": "තද අළු",
+    "#0D5A74": "ගැඹුරු තේ",
+    "#00582F": "සදාහරිත",
+    "#214C30": "වන",
+    "#DC2867": "Fuchsia",
+    "#38561": "කෙලී",
+    "#5C884D": "කොළ",
+    "#558450": "සැහැල්ලු ඇක්වා",
+    "#96B5C9": "ලා නිල්",
+    "#DCAFCE": "ලිලැක්",
+    "#D3E1A4": "දෙහි",
+    "#9DE7C2": "මින්ට්",
+    "#F6EAD2": "ස්වාභාවික",
+    "#1A1F35": "නාවික",
+    "#404624": "ඔලිව්",
+    "#271020": "වියලි මිදි",
+    "#A8355C": "රාස්බෙරි",
+    "#D6BEA6": "මෘදු ක්රීම්",
+    "#BEA994": "ටැන්",
+    "#0DB2AE": "ටීල්",
+    "#A86EA9": "වයලට්",
+    "#36454F": "අඟුරු",
+    "#b3b0ab": "කාබන් අළු",
+    "#463e3d": "අඟුරු හෙදර්",
+    "#282d3c": "නාවික හමුදා බ්ලේසර්"
   },
   "address_info": {
     "name": "නම",
@@ -838,7 +940,8 @@ export default {
     "building_number": "ගොඩනැගිලි අංකය",
     "building_unit": "ඒකකය",
     "postcode": "තැපැල් කේතය",
-    "note": "සටහන"
+    "note": "සටහන",
+    "county": "ප්රාන්තය"
   },
   "product_types": {
     "physical": "ශාරීරික",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "වර්ණ",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "සරල",
       "selective": "වරණාත්මක",
-      "switch": "මාරු කරන්න"
-    }
+      "switch": "මාරු කරන්න",
+      "file": "ගොනුව",
+      "number": "අංකය"
+    },
+    "placeholder_input": "ස්ථාන දරන්නා",
+    "file_type_input": "පිළිගත හැකි ගොනු වර්ග",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "නිෂ්පාදන නාමය",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "ඔබගේ ජංගම දුරකථනය ඇතුලත් කරන්න",
     "verification_code": "සත්යාපන කේතය",
     "msg_title": "හායි,",
-    "msg_body": "කරුණාකර පිවිසෙන්න. එය ගත වන්නේ තත්පර කිහිපයක් පමණි."
+    "msg_body": "කරුණාකර පිවිසෙන්න. එය ගත වන්නේ තත්පර කිහිපයක් පමණි.",
+    "login_apple": "Apple සමඟ ලොග් වන්න"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "ටැග් එකතු කරන ලදී"
     }
+  },
+  "difficulties": {
+    "very_complicated": "ඉතා සංකීර්ණයි",
+    "hard": "අමාරුයි",
+    "intermediate": "අතරමැදි",
+    "easy": "පහසු"
   }
 };

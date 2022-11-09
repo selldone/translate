@@ -65,7 +65,9 @@ export default {
     "my_feed": "ผม",
     "blocked_message": "คุณถูกบล็อกจนถึง",
     "reported": "รายงาน",
-    "report": "รายงาน"
+    "report": "รายงาน",
+    "post": "โพสต์",
+    "attach_file": "แนบไฟล์"
   },
   "invite_message": "{user} ได้เชิญคุณเข้าสู่ฟอรัม {community} คลิกลิงก์ด้านล่างเพื่ออ่านข้อสังเกตของเพื่อนๆ และแบ่งปันความคิดเห็นของคุณกับพวกเขา ฉันกำลังรอคุณ.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "ลบโพล",
     "take_screenshot": "ใช้เป็นที่กำบัง",
     "take_link_msg": "ลิงก์ที่ผ่านมาที่นี่และป้อน",
-    "eligible_title": "ขั้นตอนในการมีสิทธิ์โพสต์"
+    "eligible_title": "ขั้นตอนในการมีสิทธิ์โพสต์",
+    "public": "สาธารณะ"
   },
   "tips": {
     "verify_email": "ป้อนและยืนยันอีเมลของคุณ",

@@ -558,7 +558,52 @@ export default {
     "merchant": "Thương gia",
     "per_product": "Mỗi sản phẩm",
     "journey": "Chuyến đi",
-    "after": "Sau"
+    "after": "Sau",
+    "waiting_for_payment": "Vui lòng hoàn tất thanh toán ...",
+    "hour": "Giờ",
+    "minute": "Phút",
+    "premium": "Phần thưởng",
+    "light": "Nhẹ",
+    "dark": "Tối",
+    "guest": "Khách mời",
+    "shops": "Cửa hàng",
+    "vendor": "Người bán",
+    "vendors": "Nhà cung cấp",
+    "marketplace": "Thương trường",
+    "verify_date": "Xác minh ngày",
+    "note": "Ghi chú",
+    "panel": "Bảng điều khiển",
+    "removed": "Loại bỏ",
+    "segments": "Phân đoạn",
+    "personal_info": "Thông tin cá nhân",
+    "preferences": "Sở thích",
+    "spec": "Spec",
+    "reviews": "Nhận xét",
+    "constraints": "Hạn chế",
+    "flexible": "Linh hoạt",
+    "usage_limit": "Giới hạn sử dụng",
+    "temporary": "Tạm thời",
+    "original": "Nguyên bản",
+    "saved": "Đã lưu!",
+    "sort": "Loại",
+    "documents": "Các tài liệu",
+    "document": "Tài liệu",
+    "please_wait": "Vui lòng chờ...",
+    "pickup": "Nhặt lên",
+    "customize": "tùy chỉnh",
+    "difficulty": "Sự khó khăn",
+    "banned": "Bị cấm",
+    "company": "Công ty",
+    "tax_shipping": "Thuế vận chuyển",
+    "warranty": "Sự bảo đảm",
+    "return_policy": "Chính sách hoàn trả",
+    "guide": "Hướng dẫn",
+    "translate": "Dịch",
+    "public": "Công cộng",
+    "deleted": "Đã xóa",
+    "variant": "Khác nhau",
+    "secure": "Chắc chắn",
+    "admin": "Quản trị viên"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Theo dõi",
     "change_state": "Thay đổi trạng thái",
     "done": "Xong",
-    "reply": "Đáp lại"
+    "reply": "Đáp lại",
+    "watch_now": "Xem bây giờ",
+    "unlock": "Mở khóa",
+    "lock": "Khóa",
+    "create_clone": "Tạo bản sao",
+    "regenerate": "Tái tạo",
+    "add_message": "Thêm thông điệp",
+    "continue_chat": "Tiếp tục trò chuyện",
+    "add_new_message": "Thêm tin nhắn mới"
   },
   "instance_message_title": "Gửi tin nhắn tức thì",
   "instance_message": "Xin chào {name}, Tên tôi là {author} đến từ {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Mã bưu điện",
     "enter_value": "Điền vào đây",
     "address_note": "Ghi chú",
-    "tel": "Số liên lạc"
+    "tel": "Số liên lạc",
+    "service_address": "Chọn địa chỉ của bạn"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "bảng",
     "quarts",
     "thước",
-    "phòng"
+    "phòng",
+    "giây",
+    "phút",
+    "giờ",
+    "ngày",
+    "tuần",
+    "tháng",
+    "năm"
   ],
   "region_types": {
     "State": "Trạng thái",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Độ dài tối thiểu phải là {length}",
     "invalid_min_array_length": "Chọn ít nhất {length} mục",
     "invalid_max_chars": "Tối đa {maxCount} ký tự",
-    "invalid_url": "URL không hợp lệ"
+    "invalid_url": "URL không hợp lệ",
+    "country_invalid": "Chọn quốc gia đến!",
+    "postal_code_invalid": "Đặt mã bưu điện hợp lệ!"
   },
   "colors": {
     "#D32F2F": "Màu đỏ",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Trắng",
     "#FFF": "Trắng",
     "#000000": "Đen",
-    "#000": "Đen"
+    "#000": "Đen",
+    "#7d263a": "Bỏ rơi",
+    "#FD9F17": "Vàng",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Quân đội",
+    "#474747": "Nhựa đường",
+    "#E6195C": "quả mọng",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Cam cháy",
+    "#80011F": "Hồng y",
+    "#382829": "Sô cô la",
+    "#F06336": "San hô",
+    "#FAE7C9": "Kem",
+    "#6B2257": "Quả nho",
+    "#222127": "Màu xám đen",
+    "#0D5A74": "Màu xanh lam đậm",
+    "#00582F": "Thường xanh",
+    "#214C30": "Rừng",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Lá cây",
+    "#558450": "Nước nhẹ",
+    "#96B5C9": "Xanh lam nhạt",
+    "#DCAFCE": "Tử đinh hương",
+    "#D3E1A4": "Chanh xanh",
+    "#9DE7C2": "cây bạc hà",
+    "#F6EAD2": "Thiên nhiên",
+    "#1A1F35": "Hải quân",
+    "#404624": "Ôliu",
+    "#271020": "Mận",
+    "#A8355C": "Dâu rừng",
+    "#D6BEA6": "Kem mềm",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Màu mòng két",
+    "#A86EA9": "màu tím",
+    "#36454F": "than củi",
+    "#b3b0ab": "xám carbon",
+    "#463e3d": "Than cây thạch thảo",
+    "#282d3c": "Áo khoác hải quân"
   },
   "address_info": {
     "name": "Tên",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Số tòa nhà",
     "building_unit": "Đơn vị",
     "postcode": "Mã bưu điện",
-    "note": "Ghi chú"
+    "note": "Ghi chú",
+    "county": "Quận"
   },
   "product_types": {
     "physical": "Vật lý",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Màu sắc",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Giản dị",
       "selective": "Chọn lọc",
-      "switch": "Công tắc điện"
-    }
+      "switch": "Công tắc điện",
+      "file": "Tập tin",
+      "number": "Con số"
+    },
+    "placeholder_input": "Trình giữ chỗ",
+    "file_type_input": "Các loại tệp được chấp nhận",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "tên sản phẩm",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Nhập điện thoại di động của bạn",
     "verification_code": "Mã xác nhận",
     "msg_title": "Xin chào,",
-    "msg_body": "Vui lòng hãy đăng nhập. Nó chỉ mất một vài giây."
+    "msg_body": "Vui lòng hãy đăng nhập. Nó chỉ mất một vài giây.",
+    "login_apple": "Đăng nhập với Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Các thẻ đã được thêm vào"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Rất phức tạp",
+    "hard": "Cứng",
+    "intermediate": "Trung gian",
+    "easy": "Dễ"
   }
 };

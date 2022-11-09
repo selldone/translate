@@ -155,7 +155,19 @@ export default {
       "Setup": "kauplus",
       "Sell": "Müük",
       "Developer": "Arendada",
-      "Application": "Rakendused"
+      "Application": "Rakendused",
+      "Product": "Toodete ja kategooriate haldamine",
+      "Blog": "CMS ja ajaveeb",
+      "Order": "Tellimuste täitmise keskus",
+      "Channel": "Müügikanalid",
+      "Accounting": "Raamatupidamine ja makseviisid",
+      "Incentives": "Stiimulid",
+      "Marketing": "Turundus ja kampaaniad",
+      "Logistic": "Logistika ja saatmine",
+      "Customers": "Klientide klubi ja segmenteerimine",
+      "Page": "Siht- ja kohandatud lehed",
+      "Access": "Personali / API juurdepääsu haldamine",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Githubi hoidla",
@@ -193,7 +205,9 @@ export default {
       "stores": "Kauplused",
       "roles": "Rollid",
       "home": "Kodu",
-      "expert": "Ekspert"
+      "expert": "Ekspert",
+      "deals": "Pakkumised",
+      "providers": "Pakkujad"
     },
     "shops": {
       "create_new": "Loo uus pood",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Olek",
           "created_at": "Loomise kuupäev",
           "updated_at": "Viimane uuendus"
-        }
+        },
+        "subtitle": "Kirjutage end ja oma ettevõtet tutvustamiseks tänapäevase tekstiredaktoriga artikleid. Kvaliteetse SEO-sõbraliku blogipostituse kirjutamisel tuleb esmalt keskenduda originaalsisu."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Aruanne",
         "tax": "Maksud",
         "drop_shipping": "Edasimüüja kviitungid",
-        "reseller_accounts": "Edasimüüjate kontod"
+        "reseller_accounts": "Edasimüüjate kontod",
+        "valuations": "Hinnangud"
       },
       "invoice": {
         "title": "Ostke lingitud rahakotte",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Saatmine",
         "inventory": "Inventuur",
         "warehouse": "Ladu",
-        "logistic_apps": "Logistika"
+        "logistic_apps": "Logistika",
+        "profiles": "Profiilid"
       },
       "warehouse": {
         "title": "Kaupluse ladu",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Tasuta kohaletoimetamise minimaalne tellimuse maksumus",
           "notifications": {
             "update_success": "Saatmisteenuse seaded on edukalt lõpule viidud."
-          }
+          },
+          "shipping_cost_calculation": "Saatekulu arvestus",
+          "sod_true": "Hankige saatmiskulud sihtkohta",
+          "sod_true_message": "Veenduge, et teie saatmisteenus aktsepteeriks sihtkohas saatmiskulusid.",
+          "sod_false": "Automaatne saatmiskulude arvutamine",
+          "cod_true": "Aktsepteeri sularaha kättetoimetamisel",
+          "cod_false": "Aktsepteerige ainult võrgumakseid",
+          "cod_true_message": "Veenduge, et teie saatmisteenus aktsepteeriks järelmaksu."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "Meil",
         "domain": "Domeen",
-        "verifications": "Kinnitused"
+        "verifications": "Kinnitused",
+        "flow": "Voolu",
+        "business_model": "Ärimudel"
       },
       "delete_dialog": {
         "title": "Kustuta pood",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Tooteüksus",
       "unit_float": "Ujukühik (varsti)",
       "unit_float_hint": "Näiteks saab klient tellida 3 kg puuvilju, kuid kliendile saadetav kogus erineb veidi tellitust.",
-      "unit_float_message": "Tellimuse töötlemisel võib tarnitud summa erineda tellitud summast. Süsteem arvutab selle vahe automaatselt välja ja kajastab selle Sinu võlgnevusena kliendi ees, mida saab rakendada järgmistele tellimustele."
+      "unit_float_message": "Tellimuse töötlemisel võib tarnitud summa erineda tellitud summast. Süsteem arvutab selle vahe automaatselt välja ja kajastab selle Sinu võlgnevusena kliendi ees, mida saab rakendada järgmistele tellimustele.",
+      "status_list": {
+        "active": {
+          "title": "Aktiivne | Interneti- ja võrgumüük",
+          "description": "See toode on saadaval veebitellimuste jaoks."
+        },
+        "inactive": {
+          "title": "Mitteaktiivne | Ainult võrguühenduseta müük",
+          "description": "See toode ei ole saadaval veebipõhiste tellimuste jaoks."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Küsitlus",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Valige lõpuaeg",
       "independent_price": "Hind ainult selle variandi puhul",
       "same_price": "Põhitoote hind",
-      "variant_pricing_message": "Selle valiku valides saab selle variandi hinda määrata põhitootest sõltumatult."
+      "variant_pricing_message": "Selle valiku valides saab selle variandi hinda määrata põhitootest sõltumatult.",
+      "price_label_input": "Hinnasilt",
+      "price_label_message": "Lisage hinna kohta lisateavet, näiteks (1,5 $/Fl Oz). Kasutusjuhtumid: toidupoed, FMCG.",
+      "add_price_label_action": "Lisa hinnasilt"
     },
     "inputs_edit": {
       "title": "Ostja teabe sisestusvorm",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Lüüsi {gateway_name} muudetud."
     },
-    "developer_setting": "Arenda ja testi"
+    "developer_setting": "Arenda ja testi",
+    "live_mode_message": "Kõik tehingud toimuvad reaalajas režiimis."
   },
   "gift_card": {
     "title": "Kinkekaardid",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Ostja muutnud arveldusaadressi.",
     "payment-cod-confirm": "COD Makse kinnitati.",
     "payment-cash-confirm": "Kinnitati arve tasumine {amount} {currency} sularahas.",
-    "payment-dir-confirm": "Otsemakse kviitung kinnitati."
+    "payment-dir-confirm": "Otsemakse kviitung kinnitati.",
+    "vendor": "Tarnija tellimuse olek <b>{from}</b> muudeti olekuks <b>{to}</b> .",
+    "connect-sync": "Tellimuse sünkroonis Connect OS.",
+    "connect-shipped": "Ühendustellimuse saatis {shipping}.",
+    "connect-returned": "Ühenduse tellimuse tagastas {shipping}.",
+    "connect-failed": "Partneri poolt tellimust täitmine ebaõnnestus. {reason}",
+    "connect-canceled": "Partner tühistas tellimuse. {reason}",
+    "connect-action-cancel": "Tellimuse tühistamise taotlus. {reason}",
+    "connect-put-hold": "Tellimus pandi ootele. {reason}",
+    "connect-remove-hold": "Tellimus eemaldati ootel. {reason}",
+    "connect-confirmed": "Tellimus kinnitati.",
+    "email-vendor": "🔔 Tellimuse teavitusmeil on saadetud aadressile <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Täna",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Raha teenida",
     "menu": {
       "plans": "Plaanid",
-      "accounts": "Kontod"
+      "accounts": "Kontod",
+      "participant": "Osaleja"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Poe juurdepääsuvõtmed",
     "shop_keys_message": "Neid võtmeid kasutab teie server juurdepääsulubade loomiseks. Pange tähele, et võtmed on konfidentsiaalsed ja paigutatakse ainult serverisse nii, et need pole teistele nähtavad.",
     "personal_keys_title": "Isiklikud juurdepääsuvõtmed",
-    "personal_keys_message": "Siin saate luua oma konto võtmed. Pange tähele, et need võtmed pääsevad teie kontole juurde. Looge ja kasutage neid võtmeid ainult siis, kui teate täpselt, mida teete."
+    "personal_keys_message": "Siin saate luua oma konto võtmed. Pange tähele, et need võtmed pääsevad teie kontole juurde. Looge ja kasutage neid võtmeid ainult siis, kui teate täpselt, mida teete.",
+    "clients_title": "Kliendid",
+    "clients_message": "Neid võtmeid kasutab teie server juurdepääsulubade loomiseks. Pange tähele, et võtmed on konfidentsiaalsed ja paigutatakse ainult serverisse nii, et need pole teistele nähtavad."
   },
   "user_security_control": {
     "title": "Konto turvalisus",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Profiilide haldamine",
       "description": "Kaupluste profiilide haldamine."
+    },
+    "shop-discount-code": {
+      "name": "Sooduskoodide haldamine",
+      "description": "Hallake, muutke ja lisage poe sooduskoode."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Seaded",
       "change": "Lae",
       "transfer": "Ülekanne",
-      "transactions": "Tehingud"
+      "transactions": "Tehingud",
+      "charge": "Lae",
+      "history": "Ajalugu"
     },
     "transactions": {
       "title": "Kontotehingud",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Tellimuse kinnituse tühistamine",
       "message": "Kas olete kindel, et tühistate selle tellimuse?",
       "action": "Tühista tellimus"
-    }
+    },
+    "use_voucher_now": "Kasutage voucherit kohe",
+    "validity_duration": "Kehtivusaeg",
+    "validity_duration_hint": "Ostes 12-kuulise litsentsi, saate 30% allahindlust."
   },
   "admin_shop_layout": {
     "download_txt": "Andmete teksti allalaadimine",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Suured fondid",
     "large_font_message": "Kuva tekst tavalisest suuremana",
     "samples": "Näidake näidispoode",
-    "samples_message": "Kui see on lubatud, kuvatakse teie paneelil mõned näidispoed."
+    "samples_message": "Kui see on lubatud, kuvatakse teie paneelil mõned näidispoed.",
+    "automation": "Automatiseerimine",
+    "automation_message": "Kuva poe armatuurlaual automatiseerimise vahekaart. (Veebihaagid, visuaalne programmeerimine, ...)"
   },
   "shop_locations": {
     "title": "Riigid, kus teenust osutatakse",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kupong on edukalt kustutatud."
-    }
+    },
+    "multiple_use": "Mitmekordne kasutamine"
   },
   "coupon_edit": {
     "title_edit": "Muuda kupongi",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Piirang",
       "description": "Määrake maksimaalsele kasutajate arvule piirang."
+    },
+    "SEGMENTS": {
+      "title": "Segmendid",
+      "description": "Piirake kliente konkreetses käsitsi segmenteerimises."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Kinkekaartidelt võeti kogu tellimuse summa välja! Ostja ei pea rohkem maksma.",
       "cod_msg": "Klient tasub tellimuse kättesaamisel.",
       "online_msg": "Paluge kliendil skannida kliendiekraanil QR-kood."
-    }
+    },
+    "name": "POS",
+    "message": "Laske oma null-seadistusmaksuga veebimüügipunktis, käivitage see mis tahes nutitelefonis, tahvelarvutis ja arvutis või looge tellimusi käsitsi."
   },
   "exporter": {
     "title": "Ekspordi andmed",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Saada serverisse",
     "shop_license": "Kaupluse litsents",
     "max_items_limit": "Üksuste maksimumlimiit",
-    "total_items": "Üksused kokku"
+    "total_items": "Üksused kokku",
+    "customer": {
+      "title": "Import kliente",
+      "subtitle": "Laadige siia üles klientide CSV-failid. Veenduge, et järgiksite standardvormingut ja ka privaatsusreegleid."
+    }
   },
   "campaigns": {
     "title": "Kampaaniad",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Lingid",
     "light_checkout": "Kerge kassateema",
     "light_header": "Hele päis",
-    "light_footer": "Hele jalus"
+    "light_footer": "Hele jalus",
+    "product_page": "Tooteleht",
+    "typography": "Tüpograafia",
+    "header": "Päis",
+    "custom_code": "Kohandatud kood",
+    "custom_css": "Kohandatud CSS"
   },
   "app_templates": {
     "default": "Vaikimisi",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Teenuse haldamine",
     "option_deliver_by_courier": "1. võimalus: kohaletoimetamine kullerite poolt.",
     "option_add_to_que": "2. valik: lisage saatmisteenuse lehel töötlemiseks järjekorda.",
-    "option_instant_shipping": "3. valik: kohene kohaletoimetamine."
+    "option_instant_shipping": "3. valik: kohene kohaletoimetamine.",
+    "pickup_action": "Korjamise kinnitus"
   },
   "shop_home_edit": {
     "title": "Avalehe seadistus",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Toode on teie poodi lisatud.",
       "request_access": "Saatsime teie juurdepääsutaotluse hulgimüüjale edukalt."
-    }
+    },
+    "show_eligible_shops_message": "Kuva sobilikud poed"
   },
   "product_dropshipping": {
     "need_re_enable": "Esialgne müüja on seda toodet muutnud, need hinnamuudatused on toote teie poes keelanud. Kontrollige muudatusi ja kui nõustute toote uuesti aktiveerima, vajutage allolevat nuppu.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Teie poes pole kategooriat.",
       "limit": "Toodete piirang",
       "limit_message": "Sisestage toodete tulemuste arv",
-      "select_categories": "Valige saadaolevad kategooriad"
+      "select_categories": "Valige saadaolevad kategooriad",
+      "categories_limit": "Kategooriate piirang",
+      "categories_limit_msg": "Sisestage maksimaalne kategooriate arv. Seadke piiranguteta null."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avokaado värskendamine õnnestus.",
       "add_success": "Avokaado loodud edukalt."
-    }
+    },
+    "name": "Avokaado"
   },
   "avocado_orders": {
     "title": "Avokaado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "mitteaktiivne",
     "active_message": "Kui lubate selle valiku, kuvatakse iga toote halduse jaotises kiirmüügikoodide loomise võimalus.",
     "hyper_form_link_message": "Teie poe hüperlehe link",
-    "configuration": "Hüperseaded"
+    "configuration": "Hüperseaded",
+    "name": "Hüper"
   },
   "hyper_orders": {
     "title": "Hüper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Klientide demograafia",
     "subtitle": "Filtreerige ja eksportige oma klientide andmeid, et teha paremaid otsuseid, et pakkuda vähema turundusega rohkem väärtust! Palun austage oma klientide privaatsust ja ärge kunagi saatke neile massmeile! Ärge kunagi jagage oma klientide teavet kolmandate osapoolte teenustega, ilma et oleksite neilt luba saanud."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Vastuvõtu aadressid",
+      "subtitle": "Lisage ja muutke siin järeletulemise aadresse. Kasutajad saavad valida kassalehel järeletulemise aadressi.",
+      "add_action": "Lisa uus asukoht"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Sidusettevõtte POS",
+    "open_pos_action": "Kiire tellimine POS",
+    "description": "See valik sobib Instagrami lehtede ja muude sotsiaalvõrgustike administraatoritele. Kasutage Affiliate POS-i klientide tellimuste käsitsi vastuvõtmiseks ja lisamiseks. Teie sidusettevõtted (või frantsiis) saavad sidusettevõtte POS-is uusi tellimusi lisada ja deposiidikviitungi üles laadida."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Sisselogimismeetodid",
+      "subtitle": "Kohandage viisi, kuidas kasutajad teie poodi sisse logivad."
+    },
+    "checkout": {
+      "title": "Kassavoog",
+      "subtitle": "Kohandage oma klienditeekonda ja ostuvoogu oma e-kaubanduses.",
+      "map": {
+        "title": "Kaart",
+        "subtitle": "Kasutajad peavad valima tarnekoha kaardil (nagu Uber).",
+        "subtitle_no_map": "Kaugus tarnearvestuses loetakse nulliks, kui asukohta ei ole kliendi antud aadressil."
+      },
+      "mode": {
+        "title": "Klientide sisselogimispunkt",
+        "default": {
+          "title": "ASAP (vaikimisi)",
+          "msg": "Kasutajad logivad sisse esimesel võimalusel. (Rohkem konversioone)"
+        },
+        "on_checkout": {
+          "title": "Kassas",
+          "msg": "Sundige kasutajaid kassast sisse logima."
+        },
+        "login_free": {
+          "title": "Valikuline sisselogimine",
+          "msg": "Valikuline sisselogimine pärast tellimuse tasumist.."
+        }
+      },
+      "express": {
+        "title": "Suuna ümber pärast ostukorvi lisamist",
+        "false": {
+          "title": "Tavaline mood",
+          "msg": "Jääge lehele ja jätkake ostlemist pärast nuppu Lisa ostukorvi."
+        },
+        "true": {
+          "title": "Ekspressrežiim",
+          "msg": "Pärast nuppu Lisa ostukorvi suunake klient kassalehele."
+        }
+      },
+      "shipping_address": {
+        "title": "Küsi tarneaadressi"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Füüsiline ja teenindus (vaikimisi)",
+      "desc": "Paluge kliendil füüsilisse ja teeninduskassasse aadress sisestada."
+    },
+    "physical": {
+      "title": "Ainult füüsiline",
+      "desc": "Paluge kliendil sisestada aadress just füüsilises kassas."
+    },
+    "off": {
+      "title": "Mitte kunagi",
+      "desc": "Ärge kunagi küsige tarneaadressi. ⚠ Kasutage seda valikut, kui plaanite kasutada teenuseid variantidega, valides teenuse tüübi asemel toodete jaoks füüsilise tüübi."
+    }
+  },
+  "business_model": {
+    "title": "Ärimudeli seadistamine",
+    "subtitle": "Määrake oma ärimudel ja me konfigureerime teie operatsioonisüsteemi kulisside taga."
+  },
+  "business_type": {
+    "title": "Kauba tüübid",
+    "subtitle": "Määrake, millist tüüpi tooteid soovite oma poes müüa. Selldone'i tootetüübid on midagi enamat kui lihtsalt toote tüüp; see puudutab rohkem täitmisprotseduuri.",
+    "send_activation_request_to_support": "Saatke aktiveerimistaotlus tugipiletis.",
+    "require_kyc": "Ettevõtte omanik KYC.",
+    "needs_enterprise_license": "Teil peab olema ettevõtte litsents.",
+    "marketplace_caution_message": "Seadke Marketplace oma mudeliks, mis mõjutab teie ettevõtte operatsioonisüsteemi konfiguratsiooni sügavalt. Näiteks peate iga toote jaoks määratlema vähemalt ühe sõltumatu hinnakujunduse ja laoseisuga hankija. Kliendid ei saa osta tooteid, millel pole müüjat."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Tavaline pood",
+      "desc": "Tavaliselt VKE, koduettevõte või dropshipper – kes müüb oma toodet otse klientidele või müüb edasimüüjana hulgimüüjate tooteid."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Ärge hoidke tooteid ega laoseisu – maksate kolmandale osapoolele, tavaliselt hulgimüüjale (nagu Printify, Wholesale2B jne) või tootjale, ja nemad täidavad tellimusi kulisside taga."
+    },
+    "wholesaler": {
+      "title": "Dropshipping tarnija",
+      "desc": "Tavaliselt hulgimüüja või tootja – kes saadab tellimused otse lõpptarbijale. Teised Selldone'i kaupmehed saavad teie tooteid oma kauplustesse saata."
+    },
+    "marketplace": {
+      "title": "Turg",
+      "desc": "Veebiturud ühendavad ostjaid ja müüjaid patenteeritud ja tsentraliseeritud platvormil."
+    },
+    "franchise": {
+      "title": "Frantsiis / sidusettevõte",
+      "desc": "Frantsiis on toodete või teenuste levitamise meetod, mis hõlmab frantsiisiandjat, kes loob teie kaubamärgi (frantsiis) või müüb teie tooteid oma kaubamärgi järgi (sidusettevõte)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Rahakotid",
+    "pricing_models": "Hinnakujundus",
+    "add_vendor": "Lisa tarnija",
+    "requests": "Taotlused"
+  },
+  "price_input_type": {
+    "title": "Hinna sisestamise tüüp",
+    "default": {
+      "title": "Vaikimisi",
+      "desc": "Valige ostukorvis koguseks väärtus."
+    },
+    "area": {
+      "title": "Piirkond",
+      "desc": "Koguse arvutamiseks sisestage sisenditena laius ja pikkus."
+    },
+    "volume": {
+      "title": "maht",
+      "desc": "Koguse arvutamiseks sisestage sisenditena laius, pikkus ja kõrgus."
+    },
+    "custom": {
+      "title": "Kohandatud (sisestusvormi järgi)",
+      "desc": "Pole vaja sadu variante! Looge kohandatud kuluarvestuse vorm väga kohandatavate toodete jaoks."
+    }
+  },
+  "vendors_list": {
+    "title": "Minu müüjad",
+    "message": "Minu enda müüjate nimekiri."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Ühendage oma ettevõtte operatsioonisüsteemiga mitu domeeni ja hallake neid kõiki ühes kohas. Saate kasutada mitme domeeni funktsiooni, et luua oma veebisaidi igale osale (nt ajaveebi ja kogukonna) jaoks spetsiaalseid domeene või kasutada sidusettevõtete jaoks erinevaid domeene."
+  },
+  "notes": {
+    "add_action": "Lisage oma meeskonnale märkus",
+    "notifications": {
+      "success_add": "Märkus on edukalt lisatud.",
+      "success_delete": "Märkus on edukalt kustutatud."
+    }
+  },
+  "external_services": {
+    "title": "Välisteenused",
+    "subtitle": "Jälgige siin välisteenuste (nt SMS-id ja meilid) viimast olekut."
   }
 };

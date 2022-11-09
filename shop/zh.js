@@ -105,7 +105,11 @@ export default {
     "related_products_title": "相关产品",
     "price": "价格",
     "rate": "速度",
-    "comment": "评论"
+    "comment": "评论",
+    "warranty": "保修单",
+    "return_policy": "退货政策",
+    "guide": "指导",
+    "shipping": "船运"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "您的订单已成功下单。",
       "delete_success": "项目已删除。"
-    }
+    },
+    "select_address_message": "请输入您的地址，然后您就可以提交订单了。"
   },
   "hyper": {
     "title": "订单创建",
@@ -541,5 +546,19 @@ export default {
       "message": "您已为此项目指定费用。您可以更改客户购买的商品的费用金额。",
       "charge": "收费"
     }
+  },
+  "check_access": {
+    "waiting_message": "正在等待检查访问...",
+    "no_access_message": "很遗憾，您无权访问我们的商店。<br/>请联系我们。"
+  },
+  "share_order": {
+    "action": "分享订单",
+    "title": "与他人共享此订单。",
+    "message": "这是一个安全链接，只与您认识的人分享。拥有此链接的每个人都可以复制您的订单并查看所选地址。它将包含有关您当前购物车的信息。",
+    "valid_period": "此链接将在 48 小时后失效。",
+    "import_order_action": "进口订单",
+    "retrieve_dialog_title": "检索外部订单",
+    "address_included": "分享篮子物品+地址",
+    "address_excluded": "仅分享购物篮物品"
   }
 };

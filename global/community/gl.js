@@ -65,7 +65,9 @@ export default {
     "my_feed": "Eu",
     "blocked_message": "Estás bloqueado ata",
     "reported": "Denunciado",
-    "report": "Informe"
+    "report": "Informe",
+    "post": "Publicación",
+    "attach_file": "Adxunta ficheiro"
   },
   "invite_message": "{user} invitoute ao foro {community}. Fai clic na seguinte ligazón para ler as observacións dos teus amigos e compartir a túa opinión con eles. Estou agardando por ti.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Eliminar a enquisa",
     "take_screenshot": "Toma como tapa",
     "take_link_msg": "Pasa a ligazón aquí e entra",
-    "eligible_title": "Pasos para ser apto para publicar"
+    "eligible_title": "Pasos para ser apto para publicar",
+    "public": "Público"
   },
   "tips": {
     "verify_email": "Introduce e verifica o teu correo electrónico.",

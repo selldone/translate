@@ -65,7 +65,9 @@ export default {
     "my_feed": "Ben mi",
     "blocked_message": "kadar engellendin",
     "reported": "Bildirildi",
-    "report": "Rapor"
+    "report": "Rapor",
+    "post": "Postalamak",
+    "attach_file": "Dosya eki"
   },
   "invite_message": "{user} sizi {community} forumuna davet etti. Arkadaşlarınızın gözlemlerini okumak ve görüşlerinizi onlarla paylaşmak için aşağıdaki bağlantıya tıklayın. Seni bekliyorum.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Anketi kaldır",
     "take_screenshot": "kapak olarak al",
     "take_link_msg": "Burada geçmiş bağlantı ve girin",
-    "eligible_title": "Göndermeye uygun adımlar"
+    "eligible_title": "Göndermeye uygun adımlar",
+    "public": "Halk"
   },
   "tips": {
     "verify_email": "E-postanızı girin ve doğrulayın.",

@@ -65,7 +65,9 @@ export default {
     "my_feed": "Pe mine",
     "blocked_message": "Ești blocat până la",
     "reported": "Raportat",
-    "report": "Raport"
+    "report": "Raport",
+    "post": "Post",
+    "attach_file": "Ataseaza fisier"
   },
   "invite_message": "{user} v-a invitat pe forumul {community}. Faceți clic pe linkul de mai jos pentru a citi observațiile prietenilor dvs. și pentru a le împărtăși părerea dvs. Te aștept.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Eliminați sondajul",
     "take_screenshot": "Luați ca acoperire",
     "take_link_msg": "Treceți linkul aici și intrați",
-    "eligible_title": "Pași pentru a fi eligibil pentru postare"
+    "eligible_title": "Pași pentru a fi eligibil pentru postare",
+    "public": "Public"
   },
   "tips": {
     "verify_email": "Introduceți și verificați adresa dvs. de e-mail.",

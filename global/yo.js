@@ -558,7 +558,52 @@ export default {
     "merchant": "Oniṣòwo",
     "per_product": "Fun ọja",
     "journey": "Irin ajo",
-    "after": "Lẹhin"
+    "after": "Lẹhin",
+    "waiting_for_payment": "Jọwọ pari owo sisan...",
+    "hour": "Wakati",
+    "minute": "Iṣẹju",
+    "premium": "Ere",
+    "light": "Imọlẹ",
+    "dark": "Dudu",
+    "guest": "Alejo",
+    "shops": "Awọn ile itaja",
+    "vendor": "Olutaja",
+    "vendors": "Awọn olutaja",
+    "marketplace": "Ibi ọja",
+    "verify_date": "Daju ọjọ",
+    "note": "Akiyesi",
+    "panel": "Igbimọ",
+    "removed": "Yiyọ kuro",
+    "segments": "Awọn apakan",
+    "personal_info": "Alaye ti ara ẹni",
+    "preferences": "Awọn ayanfẹ",
+    "spec": "Spec",
+    "reviews": "agbeyewo",
+    "constraints": "Awọn ihamọ",
+    "flexible": "Rọ",
+    "usage_limit": "Iwọn lilo",
+    "temporary": "Igba die",
+    "original": "Atilẹba",
+    "saved": "Ti fipamọ!",
+    "sort": "Too",
+    "documents": "Awọn iwe aṣẹ",
+    "document": "Iwe aṣẹ",
+    "please_wait": "Jọwọ duro...",
+    "pickup": "Gbigbe",
+    "customize": "ṣe akanṣe",
+    "difficulty": "Iṣoro",
+    "banned": "Ti gbesele",
+    "company": "Ile-iṣẹ",
+    "tax_shipping": "Owo-ori gbigbe",
+    "warranty": "Atilẹyin ọja",
+    "return_policy": "Pada Afihan",
+    "guide": "Itọsọna",
+    "translate": "Tumọ",
+    "public": "Gbangba",
+    "deleted": "Parẹ",
+    "variant": "Iyatọ",
+    "secure": "Ni aabo",
+    "admin": "Abojuto"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Orin",
     "change_state": "Yi Ipo",
     "done": "Ti ṣe",
-    "reply": "Fesi"
+    "reply": "Fesi",
+    "watch_now": "Wo Bayi",
+    "unlock": "Ṣii silẹ",
+    "lock": "Titiipa",
+    "create_clone": "Ṣẹda oniye",
+    "regenerate": "Tuntun-pada",
+    "add_message": "Fi ifiranṣẹ kun",
+    "continue_chat": "Tesiwaju iwiregbe",
+    "add_new_message": "Fi ifiranṣẹ titun kun"
   },
   "instance_message_title": "Firanṣẹ lẹsẹkẹsẹ ifiranṣẹ",
   "instance_message": "Hi {name}, Oruko mi ni {author} lati {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "koodu ifiweranṣẹ",
     "enter_value": "Fọwọsi nibi",
     "address_note": "Akiyesi",
-    "tel": "Nọmba olubasọrọ"
+    "tel": "Nọmba olubasọrọ",
+    "service_address": "Yan adirẹsi rẹ"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "poun",
     "idamẹrin",
     "àgbàlá",
-    "yara"
+    "yara",
+    "iṣẹju-aaya",
+    "iseju",
+    "wakati",
+    "awọn ọjọ",
+    "ọsẹ",
+    "osu",
+    "ọdun"
   ],
   "region_types": {
     "State": "Ìpínlẹ̀",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Ipari to kere julọ gbọdọ jẹ {length}",
     "invalid_min_array_length": "O kere ju yan awọn nkan {length}",
     "invalid_max_chars": "Awọn lẹta {maxCount} ti o pọju",
-    "invalid_url": "URL ti ko tọ"
+    "invalid_url": "URL ti ko tọ",
+    "country_invalid": "Yan orilẹ-ede ti nlo!",
+    "postal_code_invalid": "Ṣeto koodu ifiweranse to wulo!"
   },
   "colors": {
     "#D32F2F": "Pupa",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "funfun",
     "#FFF": "funfun",
     "#000000": "Dudu",
-    "#000": "Dudu"
+    "#000": "Dudu",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Wura",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Ologun",
+    "#474747": "Idapọmọra",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "sisun Orange",
+    "#80011F": "Cardinal",
+    "#382829": "Chocolate",
+    "#F06336": "Coral",
+    "#FAE7C9": "Ipara",
+    "#6B2257": "Currant",
+    "#222127": "Grẹy Dudu",
+    "#0D5A74": "Tii Jin",
+    "#00582F": "Evergreen",
+    "#214C30": "Igbo",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Ewe",
+    "#558450": "Imọlẹ Aqua",
+    "#96B5C9": "Buluu Imọlẹ",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "Orombo wewe",
+    "#9DE7C2": "Mint",
+    "#F6EAD2": "Adayeba",
+    "#1A1F35": "Ọgagun",
+    "#404624": "Olifi",
+    "#271020": "Pupa buulu toṣokunkun",
+    "#A8355C": "Rasipibẹri",
+    "#D6BEA6": "Ipara Asọ",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Tii",
+    "#A86EA9": "Awọ aro",
+    "#36454F": "Eedu",
+    "#b3b0ab": "erogba Grey",
+    "#463e3d": "Eedu Heather",
+    "#282d3c": "Ọgagun Blazer"
   },
   "address_info": {
     "name": "Oruko",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Nọmba ile",
     "building_unit": "Ẹyọ",
     "postcode": "koodu ifiweranṣẹ",
-    "note": "Akiyesi"
+    "note": "Akiyesi",
+    "county": "Agbegbe"
   },
   "product_types": {
     "physical": "Ti ara",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Àwọ̀",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Rọrun",
       "selective": "Yiyan",
-      "switch": "Yipada"
-    }
+      "switch": "Yipada",
+      "file": "Faili",
+      "number": "Nọmba"
+    },
+    "placeholder_input": "Ibi ipamọ",
+    "file_type_input": "Awọn iru faili ti o ṣe itẹwọgba",
+    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "Orukọ ọja",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Tẹ alagbeka rẹ sii",
     "verification_code": "Kodu afimo",
     "msg_title": "Hi,",
-    "msg_body": "Jọwọ buwolu wọle. Yoo gba to iṣẹju-aaya diẹ."
+    "msg_body": "Jọwọ buwolu wọle. Yoo gba to iṣẹju-aaya diẹ.",
+    "login_apple": "Buwolu wọle pẹlu Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Awọn afi kun"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Idiju pupọ",
+    "hard": "Lile",
+    "intermediate": "Agbedemeji",
+    "easy": "Rọrun"
   }
 };

@@ -558,7 +558,52 @@ export default {
     "merchant": "વેપારી",
     "per_product": "ઉત્પાદન દીઠ",
     "journey": "જર્ની",
-    "after": "પછી"
+    "after": "પછી",
+    "waiting_for_payment": "કૃપા કરીને ચુકવણી પૂર્ણ કરો...",
+    "hour": "કલાક",
+    "minute": "મિનિટ",
+    "premium": "પ્રીમિયમ",
+    "light": "પ્રકાશ",
+    "dark": "શ્યામ",
+    "guest": "મહેમાન",
+    "shops": "સ્ટોર્સ",
+    "vendor": "વિક્રેતા",
+    "vendors": "વિક્રેતાઓ",
+    "marketplace": "બજાર",
+    "verify_date": "તારીખ ચકાસો",
+    "note": "નૉૅધ",
+    "panel": "પેનલ",
+    "removed": "દૂર",
+    "segments": "સેગમેન્ટ્સ",
+    "personal_info": "વ્યક્તિગત માહિતી",
+    "preferences": "પસંદગીઓ",
+    "spec": "સ્પેક",
+    "reviews": "સમીક્ષાઓ",
+    "constraints": "અવરોધો",
+    "flexible": "લવચીક",
+    "usage_limit": "વપરાશ મર્યાદા",
+    "temporary": "કામચલાઉ",
+    "original": "મૂળ",
+    "saved": "સાચવ્યું!",
+    "sort": "સૉર્ટ કરો",
+    "documents": "દસ્તાવેજો",
+    "document": "દસ્તાવેજ",
+    "please_wait": "મહેરબાની કરી રાહ જુવો...",
+    "pickup": "પિકઅપ",
+    "customize": "કસ્ટમાઇઝ કરો",
+    "difficulty": "મુશ્કેલી",
+    "banned": "પ્રતિબંધિત",
+    "company": "કંપની",
+    "tax_shipping": "શિપિંગ ટેક્સ",
+    "warranty": "વોરંટી",
+    "return_policy": "રીટર્ન પોલિસી",
+    "guide": "માર્ગદર્શન",
+    "translate": "અનુવાદ કરો",
+    "public": "જાહેર",
+    "deleted": "કાઢી નાખ્યું",
+    "variant": "વેરિઅન્ટ",
+    "secure": "સુરક્ષિત",
+    "admin": "એડમિન"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "ટ્રેક",
     "change_state": "સ્થિતિ બદલો",
     "done": "થઈ ગયું",
-    "reply": "જવાબ આપો"
+    "reply": "જવાબ આપો",
+    "watch_now": "હવે જુઓ",
+    "unlock": "અનલોક કરો",
+    "lock": "તાળું",
+    "create_clone": "ક્લોન બનાવો",
+    "regenerate": "પુનર્જીવિત કરો",
+    "add_message": "સંદેશ ઉમેરો",
+    "continue_chat": "ચેટ ચાલુ રાખો",
+    "add_new_message": "નવો સંદેશ ઉમેરો"
   },
   "instance_message_title": "ત્વરિત સંદેશ મોકલો",
   "instance_message": "હાય {name}, મારું નામ {company} તરફથી {author} છે.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "પોસ્ટકોડ",
     "enter_value": "અહીં ભરો",
     "address_note": "નૉૅધ",
-    "tel": "સંપર્ક નંબર"
+    "tel": "સંપર્ક નંબર",
+    "service_address": "તમારું સરનામું પસંદ કરો"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "પાઉન્ડ",
     "ક્વાર્ટ્સ",
     "યાર્ડ",
-    "ઓરડો"
+    "ઓરડો",
+    "સેકન્ડ",
+    "મિનિટ",
+    "કલાક",
+    "દિવસ",
+    "અઠવાડિયા",
+    "મહિનાઓ",
+    "વર્ષ"
   ],
   "region_types": {
     "State": "રાજ્ય",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "ન્યૂનતમ લંબાઈ {length} હોવી જોઈએ",
     "invalid_min_array_length": "ઓછામાં ઓછી {length} આઇટમ પસંદ કરો",
     "invalid_max_chars": "મહત્તમ {maxCount} અક્ષરો",
-    "invalid_url": "અમાન્ય URL"
+    "invalid_url": "અમાન્ય URL",
+    "country_invalid": "ગંતવ્ય દેશ પસંદ કરો!",
+    "postal_code_invalid": "માન્ય પોસ્ટલ કોડ સેટ કરો!"
   },
   "colors": {
     "#D32F2F": "લાલ",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "સફેદ",
     "#FFF": "સફેદ",
     "#000000": "કાળો",
-    "#000": "કાળો"
+    "#000": "કાળો",
+    "#7d263a": "મરૂન",
+    "#FD9F17": "સોનું",
+    "#229DBF": "એક્વા",
+    "#6DC9E2": "એક્વા Triblend",
+    "#413B2D": "આર્મી",
+    "#474747": "ડામર",
+    "#E6195C": "બેરી",
+    "#B2184C": "બેરી Triblend",
+    "#FC7F5F": "બળી નારંગી",
+    "#80011F": "કાર્ડિનલ",
+    "#382829": "ચોકલેટ",
+    "#F06336": "કોરલ",
+    "#FAE7C9": "ક્રીમ",
+    "#6B2257": "કિસમિસ",
+    "#222127": "ડાર્ક ગ્રે",
+    "#0D5A74": "ડીપ ટીલ",
+    "#00582F": "સદાબહાર",
+    "#214C30": "વન",
+    "#DC2867": "ફુચિયા",
+    "#38561": "કેલી",
+    "#5C884D": "પર્ણ",
+    "#558450": "લાઇટ એક્વા",
+    "#96B5C9": "પ્રકાશ વાદળી",
+    "#DCAFCE": "લીલાક",
+    "#D3E1A4": "ચૂનો",
+    "#9DE7C2": "ટંકશાળ",
+    "#F6EAD2": "કુદરતી",
+    "#1A1F35": "નૌસેના",
+    "#404624": "ઓલિવ",
+    "#271020": "આલુ",
+    "#A8355C": "રાસ્પબેરી",
+    "#D6BEA6": "સોફ્ટ ક્રીમ",
+    "#BEA994": "ટેન",
+    "#0DB2AE": "ટીલ",
+    "#A86EA9": "વાયોલેટ",
+    "#36454F": "ચારકોલ",
+    "#b3b0ab": "કાર્બન ગ્રે",
+    "#463e3d": "ચારકોલ હિથર",
+    "#282d3c": "નેવી બ્લેઝર"
   },
   "address_info": {
     "name": "નામ",
@@ -838,7 +940,8 @@ export default {
     "building_number": "મકાન નંબર",
     "building_unit": "એકમ",
     "postcode": "પોસ્ટકોડ",
-    "note": "નૉૅધ"
+    "note": "નૉૅધ",
+    "county": "કાઉન્ટી"
   },
   "product_types": {
     "physical": "ભૌતિક",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "રંગ",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "સરળ",
       "selective": "પસંદગીયુક્ત",
-      "switch": "સ્વિચ કરો"
-    }
+      "switch": "સ્વિચ કરો",
+      "file": "ફાઈલ",
+      "number": "નંબર"
+    },
+    "placeholder_input": "પ્લેસહોલ્ડર",
+    "file_type_input": "સ્વીકાર્ય ફાઇલ પ્રકારો",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "ઉત્પાદન નામ",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "તમારો મોબાઈલ દાખલ કરો",
     "verification_code": "ચકાસણી કોડ",
     "msg_title": "હાય,",
-    "msg_body": "કૃપા કરીને લૉગિન કરો. તે માત્ર થોડી સેકન્ડ લે છે."
+    "msg_body": "કૃપા કરીને લૉગિન કરો. તે માત્ર થોડી સેકન્ડ લે છે.",
+    "login_apple": "Apple સાથે લૉગિન કરો"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "ટૅગ્સ ઉમેર્યા"
     }
+  },
+  "difficulties": {
+    "very_complicated": "ખૂબ જટિલ",
+    "hard": "કઠણ",
+    "intermediate": "મધ્યમ",
+    "easy": "સરળ"
   }
 };

@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Zesummenhang Produiten",
     "price": "Präis",
     "rate": "Taux",
-    "comment": "Kommentéieren"
+    "comment": "Kommentéieren",
+    "warranty": "Garantie",
+    "return_policy": "Reckgaberecht",
+    "guide": "Guide",
+    "shipping": "Liwwerung"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Är Bestellung gouf erfollegräich gemaach.",
       "delete_success": "Element geläscht."
-    }
+    },
+    "select_address_message": "Gitt weg Är Adress, an da kënnt Dir d'Bestellung ofginn."
   },
   "hyper": {
     "title": "Uerdnung Kreatioun",
@@ -541,5 +546,19 @@ export default {
       "message": "Dir hutt eng Charge fir dësen Artikel uginn. Dir kënnt de charge Betrag fir den Artikel vum Client kaaft änneren.",
       "charge": "Charge"
     }
+  },
+  "check_access": {
+    "waiting_message": "Waart op den Zougang ze kontrolléieren ...",
+    "no_access_message": "Leider hutt Dir keen Zougang zu eisem Buttek.<br/> Weg Kontakt eis."
+  },
+  "share_order": {
+    "action": "Bestellung deelen",
+    "title": "Deelt dës Bestellung mat aneren.",
+    "message": "Et ass e séchere Link, deelt et nëmmen mat deenen Dir kennt. Jiddereen mat dësem Link kann Är Bestellung duplizéieren an déi gewielte Adress gesinn. Et wäert Informatiounen iwwer Ären aktuelle Weenchen enthalen.",
+    "valid_period": "Dëse Link leeft no 48 Stonnen aus.",
+    "import_order_action": "Import Uerdnung",
+    "retrieve_dialog_title": "Recuperéieren extern Uerdnung",
+    "address_included": "Deelen Kuerf Artikelen + Adress",
+    "address_excluded": "Deelt nëmmen Kuerfartikelen"
   }
 };

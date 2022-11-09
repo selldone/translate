@@ -65,7 +65,9 @@ export default {
     "my_feed": "My",
     "blocked_message": "Jo binne blokkearre oant",
     "reported": "Rapportearre",
-    "report": "Melde"
+    "report": "Melde",
+    "post": "Peal",
+    "attach_file": "Heakje bestân ta"
   },
   "invite_message": "{user} hat jo útnoege foar it foarum {community}. Klikje op de link hjirûnder om de observaasjes fan jo freonen te lêzen en jo miening mei har te dielen. Ik wachtsje op dy.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Fuortsmite poll",
     "take_screenshot": "Nim as dekking",
     "take_link_msg": "Ferline keppeling hjir en enter",
-    "eligible_title": "Stappen om yn oanmerking te kommen om te pleatsen"
+    "eligible_title": "Stappen om yn oanmerking te kommen om te pleatsen",
+    "public": "Iepenbier"
   },
   "tips": {
     "verify_email": "Fier en ferifiearje jo e-mail.",

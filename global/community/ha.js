@@ -65,7 +65,9 @@ export default {
     "my_feed": "Ni",
     "blocked_message": "An toshe ku har",
     "reported": "An ruwaito",
-    "report": "Rahoton"
+    "report": "Rahoton",
+    "post": "Buga",
+    "attach_file": "Haɗa fayil"
   },
   "invite_message": "{user} ya gayyace ku zuwa dandalin {community}. Danna mahaɗin da ke ƙasa don karanta abubuwan da abokanka suka lura da kuma raba ra'ayinka tare da su. ina jiran ku",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Cire zabe",
     "take_screenshot": "Dauki azaman murfin",
     "take_link_msg": "Mahadar da ta gabata anan kuma ku shiga",
-    "eligible_title": "Matakai don cancanta don aikawa"
+    "eligible_title": "Matakai don cancanta don aikawa",
+    "public": "Jama'a"
   },
   "tips": {
     "verify_email": "Shigar kuma tabbatar da imel ɗin ku.",

@@ -65,7 +65,9 @@ export default {
     "my_feed": "ਮੈਨੂੰ",
     "blocked_message": "ਤੱਕ ਤੁਹਾਨੂੰ ਬਲੌਕ ਕੀਤਾ ਗਿਆ ਹੈ",
     "reported": "ਰਿਪੋਰਟ ਕੀਤੀ",
-    "report": "ਰਿਪੋਰਟ"
+    "report": "ਰਿਪੋਰਟ",
+    "post": "ਪੋਸਟ",
+    "attach_file": "ਫਾਈਲ ਨੱਥੀ ਕਰੋ"
   },
   "invite_message": "{user} ਨੇ ਤੁਹਾਨੂੰ ਫੋਰਮ {community} ਵਿੱਚ ਸੱਦਾ ਦਿੱਤਾ ਹੈ। ਆਪਣੇ ਦੋਸਤਾਂ ਦੇ ਨਿਰੀਖਣਾਂ ਨੂੰ ਪੜ੍ਹਨ ਅਤੇ ਉਹਨਾਂ ਨਾਲ ਆਪਣੇ ਵਿਚਾਰ ਸਾਂਝੇ ਕਰਨ ਲਈ ਹੇਠਾਂ ਦਿੱਤੇ ਲਿੰਕ 'ਤੇ ਕਲਿੱਕ ਕਰੋ। ਮੈਂ ਤੁਹਾਨੂੰ ਵੇਖ ਰਿਹਾ ਹਾਂ.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "ਪੋਲ ਹਟਾਓ",
     "take_screenshot": "ਕਵਰ ਦੇ ਤੌਰ ਤੇ ਲਓ",
     "take_link_msg": "ਇੱਥੇ ਪਿਛਲੇ ਲਿੰਕ ਅਤੇ ਦਰਜ ਕਰੋ",
-    "eligible_title": "ਪੋਸਟ ਕਰਨ ਦੇ ਯੋਗ ਹੋਣ ਲਈ ਕਦਮ"
+    "eligible_title": "ਪੋਸਟ ਕਰਨ ਦੇ ਯੋਗ ਹੋਣ ਲਈ ਕਦਮ",
+    "public": "ਜਨਤਕ"
   },
   "tips": {
     "verify_email": "ਆਪਣੀ ਈਮੇਲ ਦਰਜ ਕਰੋ ਅਤੇ ਪੁਸ਼ਟੀ ਕਰੋ।",

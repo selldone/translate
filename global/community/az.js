@@ -65,7 +65,9 @@ export default {
     "my_feed": "Mən",
     "blocked_message": "qədər bloklanırsınız",
     "reported": "Məlumat verildi",
-    "report": "Hesabat"
+    "report": "Hesabat",
+    "post": "Post",
+    "attach_file": "Fayl əlavə edin"
   },
   "invite_message": "{user} sizi {community} forumuna dəvət etdi. Dostlarınızın müşahidələrini oxumaq və fikirlərinizi onlarla bölüşmək üçün aşağıdakı linkə klikləyin. Mən səni gözləyirəm.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Anketi silin",
     "take_screenshot": "Qapaq kimi götürün",
     "take_link_msg": "Keçmiş keçid burada və daxil olun",
-    "eligible_title": "Göndərməyə uyğun olmaq üçün addımlar"
+    "eligible_title": "Göndərməyə uyğun olmaq üçün addımlar",
+    "public": "İctimai"
   },
   "tips": {
     "verify_email": "E-poçtunuzu daxil edin və təsdiqləyin.",

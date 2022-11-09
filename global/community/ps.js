@@ -65,7 +65,9 @@ export default {
     "my_feed": "زه",
     "blocked_message": "تاسو تر هغه پورې بند یاست",
     "reported": "راپور ورکړ",
-    "report": "راپور"
+    "report": "راپور",
+    "post": "پوسټ",
+    "attach_file": "فایل ضمیمه کړئ"
   },
   "invite_message": "{user} تاسو ته د {community} فورم ته بلنه درکړې ده. د خپلو ملګرو نظرونو لوستلو لپاره لاندې لینک باندې کلیک وکړئ او خپل نظرونه ورسره شریک کړئ. زه ستاسو په تمه یم.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "ټولپوښتنه لرې کړئ",
     "take_screenshot": "د پوښ په توګه واخلئ",
     "take_link_msg": "پخوانۍ لینک دلته او دننه کړئ",
-    "eligible_title": "د پوسټ کولو وړتیا لپاره ګامونه"
+    "eligible_title": "د پوسټ کولو وړتیا لپاره ګامونه",
+    "public": "عامه"
   },
   "tips": {
     "verify_email": "خپل بریښنالیک دننه کړئ او تصدیق یې کړئ.",

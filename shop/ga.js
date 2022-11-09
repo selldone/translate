@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Táirgí gaolmhara",
     "price": "Praghas",
     "rate": "Ráta",
-    "comment": "Trácht"
+    "comment": "Trácht",
+    "warranty": "Bharántas",
+    "return_policy": "Beartas um Fhilleadh",
+    "guide": "Treoraí",
+    "shipping": "Á sheoladh"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Socraíodh d'ordú go rathúil.",
       "delete_success": "Scriosadh an mhír."
-    }
+    },
+    "select_address_message": "Cuir isteach do sheoladh, agus ansin is féidir leat an t-ordú a chur isteach."
   },
   "hyper": {
     "title": "Ordú a chruthú",
@@ -541,5 +546,19 @@ export default {
       "message": "Tá táille sonraithe agat don mhír seo. Is féidir leat méid an mhuirir a athrú don earra a cheannaigh an custaiméir.",
       "charge": "Muirear"
     }
+  },
+  "check_access": {
+    "waiting_message": "Ag fanacht le rochtain a sheiceáil...",
+    "no_access_message": "Ar an drochuair, níl rochtain agat ar ár stór.<br/> Déan teagmháil linn le do thoil."
+  },
+  "share_order": {
+    "action": "Ordú a roinnt",
+    "title": "Roinn an t-ordú seo le daoine eile.",
+    "message": "Is nasc slán é, ná roinn ach leis na daoine a bhfuil aithne agat orthu. Is féidir le gach duine a bhfuil an nasc seo aige d’ordú a dhúbailt agus an seoladh roghnaithe a fheiceáil. Beidh faisnéis ann faoi do thralaí reatha.",
+    "valid_period": "Rachaidh an nasc seo in éag tar éis 48 uair an chloig.",
+    "import_order_action": "Ordú allmhairiú",
+    "retrieve_dialog_title": "Faigh ordú seachtrach",
+    "address_included": "Comhroinn míreanna ciseán + Seoladh",
+    "address_excluded": "Roinn míreanna ciseán amháin"
   }
 };

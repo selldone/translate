@@ -155,7 +155,19 @@ export default {
       "Setup": "dukaan",
       "Sell": "Iibka & Suuqgeynta",
       "Developer": "Horumarin",
-      "Application": "Codsiyada"
+      "Application": "Codsiyada",
+      "Product": "Badeecadaha & Maareynta Qaybaha",
+      "Blog": "CMS & Blog",
+      "Order": "Xarunta Fulinta Dalabka",
+      "Channel": "Kanaalka Iibka",
+      "Accounting": "Hababka Xisaabinta & Lacag-bixinta",
+      "Incentives": "Dhiirigelin",
+      "Marketing": "Suuqgeynta & Ololaha",
+      "Logistic": "Loojistikada & Rarida",
+      "Customers": "Naadiga Macaamiisha & Qaybinta",
+      "Page": "Degitaanka & Bogagga Gaarka ah",
+      "Access": "Maamulka Helitaanka Shaqaalaha / API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Kaydka Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Dukaamada",
       "roles": "Doorarka",
       "home": "Guriga",
-      "expert": "Khabiir"
+      "expert": "Khabiir",
+      "deals": "Heshiisyada",
+      "providers": "Bixiyeyaasha"
     },
     "shops": {
       "create_new": "Abuur dukaan cusub",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Xaalada",
           "created_at": "Taariikhda Abuuridda",
           "updated_at": "Cusbooneysii ugu dambeysay"
-        }
+        },
+        "subtitle": "Ku qor maqaallo tifaftire khadka tooska ah ee casriga ah si aad u soo bandhigto naftaada iyo ganacsigaaga. Mawduuca asalka ahi waa waxa ugu horreeya ee aad u baahan tahay inaad diirada saarto markaad qorayso boostada SEO-saaxiibtinimo oo tayo sare leh."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Warbixin",
         "tax": "Canshuur",
         "drop_shipping": "Rasiidhada dib-u-iibiyeyaasha",
-        "reseller_accounts": "Xisaabaadka iibiyeyaasha"
+        "reseller_accounts": "Xisaabaadka iibiyeyaasha",
+        "valuations": "Qiimaynta"
       },
       "invoice": {
         "title": "Dukaan boorsada Linked",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Raridda",
         "inventory": "Alaabada",
         "warehouse": "Bakhaar",
-        "logistic_apps": "Saadka"
+        "logistic_apps": "Saadka",
+        "profiles": "Profiles"
       },
       "warehouse": {
         "title": "Bakhaarka Bakhaarka",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Qiimaha dalbashada ugu yar ee dhoofinta bilaashka ah",
           "notifications": {
             "update_success": "Dejinta adeegga rarida ayaa si guul leh u dhammaaday."
-          }
+          },
+          "shipping_cost_calculation": "Xisaabinta kharashka dhoofinta",
+          "sod_true": "Hel qiimaha rarida meesha aad ku socotid",
+          "sod_true_message": "Hubi in adeegaga rarida uu aqbalo kharashka rarida marka loo socdo.",
+          "sod_false": "Xisaabinta qiimaha dhoofinta baabuurta",
+          "cod_true": "Aqbal lacag caddaan ah markaad geyneyso",
+          "cod_false": "Aqbal lacag bixinta onlaynka kaliya",
+          "cod_true_message": "Hubi in adeegaga rarida uu aqbalo COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "iimaylka",
         "domain": "Domain",
-        "verifications": "Xaqiijinta"
+        "verifications": "Xaqiijinta",
+        "flow": "Socodka",
+        "business_model": "Qaabka Ganacsiga"
       },
       "delete_dialog": {
         "title": "Tirtir Bakhaarka",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Unugga badeecada",
       "unit_float": "Cutubka sabbaynaya (dhakhso)",
       "unit_float_hint": "Tusaale ahaan, macmiilku wuxuu dalban karaa 3 kg oo miro ah, laakiin qaddarka loo soo diray macmiilku wax yar ayuu ka duwan yahay qaddarka la dalbaday.",
-      "unit_float_message": "Inta lagu jiro habaynta dalabka, lacagta la keenay way ka duwanaan kartaa cadadka la dalbaday. Nidaamku si toos ah ayuu u xisaabiyaa farqigan wuxuuna u diiwaangeliyaa sida deyntaada macaamiisha, taas oo lagu dabaqi karo amarrada soo socda."
+      "unit_float_message": "Inta lagu jiro habaynta dalabka, lacagta la keenay way ka duwanaan kartaa cadadka la dalbaday. Nidaamku si toos ah ayuu u xisaabiyaa farqigan wuxuuna u diiwaangeliyaa sida deyntaada macaamiisha, taas oo lagu dabaqi karo amarrada soo socda.",
+      "status_list": {
+        "active": {
+          "title": "Firfircoon | Iibka Khadka Tooska ah & Khadka Tooska ah",
+          "description": "Alaabtan waxay diyaar u ahaan doontaa dalabaadka khadka tooska ah."
+        },
+        "inactive": {
+          "title": "Firfircoonayn | Kaliya Iibka Khadka Tooska ah",
+          "description": "Alaabtan looma heli doono dalabaadka onlaynka ah."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Sahan",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Dooro wakhtiga dhamaadka",
       "independent_price": "Qiimaha kala duwanaanshahan kaliya",
       "same_price": "Qiimaha alaabta ugu muhiimsan",
-      "variant_pricing_message": "Doorashada ikhtiyaarkan, qiimaha kala duwanaanshiyahan waxaa loo dejin karaa si ka madax bannaan badeecada ugu weyn."
+      "variant_pricing_message": "Doorashada ikhtiyaarkan, qiimaha kala duwanaanshiyahan waxaa loo dejin karaa si ka madax bannaan badeecada ugu weyn.",
+      "price_label_input": "Calaamadda qiimaha",
+      "price_label_message": "Ku dar macluumaad dheeraad ah oo ku saabsan qiimaha sida ($1.5/Fl Oz). Isticmaalka kiisaska: dukaamada, FMCG.",
+      "add_price_label_action": "Ku dar summada qiimaha"
     },
     "inputs_edit": {
       "title": "Foomka Gelida ee Macluumaadka Iibka",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Albaabka {gateway_name} waa la tafatiray."
     },
-    "developer_setting": "Horumarinta & Tijaabada"
+    "developer_setting": "Horumarinta & Tijaabada",
+    "live_mode_message": "Dhammaan wax kala iibsiga waxa ay ahaan doonaan qaab toos ah"
   },
   "gift_card": {
     "title": "Kaararka Hadiyada",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Ciwaanka biilasha waxaa tafatiray iibsadaha",
     "payment-cod-confirm": "Lacag bixinta COD waa la xaqiijiyay.",
     "payment-cash-confirm": "Bixinta {amount} {currency} ee lacagta caddaanka ah ee biilka waa la xaqiijiyay.",
-    "payment-dir-confirm": "Rasiidka lacag bixinta tooska ah ayaa la xaqiijiyay."
+    "payment-dir-confirm": "Rasiidka lacag bixinta tooska ah ayaa la xaqiijiyay.",
+    "vendor": "Dalabka iibiyuhu waxa uu ka bedelay <b>{laga beddelay}</b> <b>una</b> beddelay .",
+    "connect-sync": "Dalabka isku xidhka OS.",
+    "connect-shipped": "Dalabka isku xidhka waxa lagu soo raray {shipping}",
+    "connect-returned": "Dalabka isku xidhka waxa lagu soo celiyay {shipping}",
+    "connect-failed": "Fulinta dalabka waxaa ku guuldareystay lamaanaha. {reason}",
+    "connect-canceled": "Dalabka waxaa joojiyay lammaanaha. {reason}",
+    "connect-action-cancel": "Codso in la joojiyo dalabka {reason}",
+    "connect-put-hold": "Dalabka waa la hakiyay. {reason}",
+    "connect-remove-hold": "Dalabka waa laga saaray haynta {reason}",
+    "connect-confirmed": "Amarka waa la xaqiijiyay.",
+    "email-vendor": "🔔 Amarka wargelinta emaylka ayaa loo diray <b>{vendor}</b> | {email}"
   },
   "inline_chart": {
     "today": "Maanta",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Lacag Samee",
     "menu": {
       "plans": "Qorshayaasha",
-      "accounts": "Xisaabaadka"
+      "accounts": "Xisaabaadka",
+      "participant": "Ka qaybqaataha"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Furayaasha Helitaanka Dukaanka",
     "shop_keys_message": "Furayaashan waxa loo istcmaalay in lagu abuuro calaamada gelitaanka serfarkaga. Ogsoonow in furayaashu ay yihiin kuwo sir ah oo kaliya la saaray server-ka si aysan u arkin dadka kale.",
     "personal_keys_title": "Furayaasha Helitaanka Shakhsi ahaaneed",
-    "personal_keys_message": "Waxaad ka abuuri kartaa furayaasha akoonkaaga halkan. Ogow in furayaashani ay awood u yeelan doonaan inay galaan akoonkaaga. Abuur oo isticmaal furayaashan kaliya haddii aad si sax ah u garanayso waxaad samaynayso."
+    "personal_keys_message": "Waxaad ka abuuri kartaa furayaasha akoonkaaga halkan. Ogow in furayaashani ay awood u yeelan doonaan inay galaan akoonkaaga. Abuur oo isticmaal furayaashan kaliya haddii aad si sax ah u garanayso waxaad samaynayso.",
+    "clients_title": "Macaamiisha",
+    "clients_message": "Furayaashan waxa loo istcmaalay in lagu abuuro calaamada gelitaanka serfarkaga. Ogsoonow in furayaashu ay yihiin kuwo sir ah oo kaliya la saaray server-ka si aysan u arkin dadka kale."
   },
   "user_security_control": {
     "title": "Ammaanka Koontada",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Maamul profiles",
       "description": "Maamul profiles dukaanka"
+    },
+    "shop-discount-code": {
+      "name": "Maareynta koodka dhimista",
+      "description": "Maamul, wax ka beddel oo ku dar koodka dhimista dukaanka."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Dejinta",
       "change": "Lacag",
       "transfer": "Wareejin",
-      "transactions": "Ganacsiga"
+      "transactions": "Ganacsiga",
+      "charge": "Lacag",
+      "history": "Taariikhda"
     },
     "transactions": {
       "title": "Ganacsiga Xisaabaadka",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Jooji xaqiijinta rukunka",
       "message": "Ma hubtaa inaad joojisay is-diiwaangelintan?",
       "action": "Jooji isdiiwaangelinta"
-    }
+    },
+    "use_voucher_now": "Isticmaal foojarka hadda",
+    "validity_duration": "Muddada ansaxnimada",
+    "validity_duration_hint": "Markaad iibsato shatiga 12 bilood ah, waxaad heli doontaa qiimo dhimis 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Soo deji qoraalka xogta",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Far waaweyn",
     "large_font_message": "Muuji qoraalka ka weyn kan caadiga",
     "samples": "Tus dukaamada muunada",
-    "samples_message": "Haddii la furo, dukaamada muunada qaarkood ayaa lagu soo bandhigi doonaa guddigaaga."
+    "samples_message": "Haddii la furo, dukaamada muunada qaarkood ayaa lagu soo bandhigi doonaa guddigaaga.",
+    "automation": "Automation",
+    "automation_message": "Ku muuji tabka otomaatiga ah ee dashboardka dukaanka. (Webhooks, barnaamij muuqaal ah, ...)"
   },
   "shop_locations": {
     "title": "Wadamada adeega laga bixiyo",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kuubanka si guul leh ayaa loo tirtiray"
-    }
+    },
+    "multiple_use": "Isticmaal badan"
   },
   "coupon_edit": {
     "title_edit": "Tafatir kuuban",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Xaddid",
       "description": "Xad u samee tirada ugu badan ee isticmaalayaasha"
+    },
+    "SEGMENTS": {
+      "title": "Qaybaha",
+      "description": "Ku xaddid macaamiisha qaybta gacanta ee gaarka ah."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Wadarta tirada dalabka ayaa laga saaray kaararkii hadiyadda! Iibsaduhu uma baahna inuu bixiyo wax badan.",
       "cod_msg": "Macmiilku wuu bixin doonaa marka uu dalabka helo.",
       "online_msg": "Weydii macmiilka inuu ku sawiro koodhka QR ee shaashadda macmiilka."
-    }
+    },
+    "name": "POS",
+    "message": "Hayso qiimaha dejinta eber ee khadka tooska ah, ku socodsii taleefan kasta, tablet-ka, iyo PC, ama samee dalabaadka gacanta."
   },
   "exporter": {
     "title": "Dhoofinta xogta",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "U dir server-ka",
     "shop_license": "Shatiga dukaanka",
     "max_items_limit": "Xadka alaabta ugu badan",
-    "total_items": "Wadarta alaabta"
+    "total_items": "Wadarta alaabta",
+    "customer": {
+      "title": "Soo dejinta macaamiisha",
+      "subtitle": "Soo rar faylasha CSV ee macaamiisha halkan. Hubi inaad raacdo qaabka caadiga ah, iyo sidoo kale, waa inaad raacdaa sharciyada gaarka ah."
+    }
   },
   "campaigns": {
     "title": "Ololaha",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Xiriirinta",
     "light_checkout": "Mawduuca hubinta fudud",
     "light_header": "Madax khafiif ah",
-    "light_footer": "Cag khafiif ah"
+    "light_footer": "Cag khafiif ah",
+    "product_page": "Bogga Alaabta",
+    "typography": "Qoraalka qoraalka",
+    "header": "Madax",
+    "custom_code": "Koodhka gaarka ah",
+    "custom_css": "CSS gaar ah"
   },
   "app_templates": {
     "default": "Asal ahaan",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Maamul adeega",
     "option_deliver_by_courier": "Xulashada 1: Ku geeyashaada.",
     "option_add_to_que": "Xulashada 2: Ku dar safka si aad uga shaqeyso bogga adeegga rarida.",
-    "option_instant_shipping": "Xulashada 3: rarid degdeg ah."
+    "option_instant_shipping": "Xulashada 3: rarid degdeg ah.",
+    "pickup_action": "Xaqiijinta qaadista"
   },
   "shop_home_edit": {
     "title": "Dejinta bogga guriga",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Alaabta lagu daray dukaankaaga",
       "request_access": "Waxaan u dirnay codsigaaga gelitaanka jumlada si guul leh."
-    }
+    },
+    "show_eligible_shops_message": "Tus dukaamada xaqa u leh"
   },
   "product_dropshipping": {
     "need_re_enable": "Alaabtan waxa beddelay iibiyihii asalka ahaa, isbeddelladan qiimaha ayaa curyaamiyay badeecada ku jirta dukaankaaga. Hubi isbeddelada oo haddii aad ogolaato inaad dib u kiciso alaabta, taabo badhanka hoose.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Ma jiro qayb dukaankaaga yaal.",
       "limit": "Xadka alaabta",
       "limit_message": "Geli tirooyinka natiijada alaabta",
-      "select_categories": "Dooro qaybaha la heli karo"
+      "select_categories": "Dooro qaybaha la heli karo",
+      "categories_limit": "Xadka qaybaha",
+      "categories_limit_msg": "Geli tirada ugu badan ee qaybaha U dhig eber xad la'aan."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avocado si guul leh ayaa loo cusboonaysiiyay",
       "add_success": "Avocado si guul leh ayaa loo sameeyay"
-    }
+    },
+    "name": "Avokado"
   },
   "avocado_orders": {
     "title": "Avokado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "firfircoonayn",
     "active_message": "Haddii aad awood u yeelatid doorashadan, suurtagalnimada abuurista Koodhadhka-Iibinta-Dhakhsaha ah ayaa lagu soo bandhigi doonaa qaybta maamulka ee badeecad kasta.",
     "hyper_form_link_message": "Isku xirka bogga sare ee dukaankaaga",
-    "configuration": "Habaynta Sare"
+    "configuration": "Habaynta Sare",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Tirakoobka macaamiisha",
     "subtitle": "Shaandhee oo dhoofi xogta macaamiishaada si aad u samayso go'aamo wanagsan si aad u keento qiimo badan oo suuqgeyn yar leh! Fadlan ixtiraam sirta macaamiishaada oo waligaa ha u dirin iimaylo tiro badan! Waligaa ha la wadaagin macluumaadka macaamiishaada adeegyada kooxda 3aad adoon ogolaansho ka helin mid kasta oo iyaga ka mid ah."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Cinwaanada laga qaado",
+      "subtitle": "Ku dar oo wax ka beddel ciwaannada qaadista halkan. Isticmaalayaashu waxay awood u yeelan doonaan inay doortaan ciwaanka qaadista ee bogga hubinta.",
+      "add_action": "Ku dar meel cusub"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Xiriirinta POS",
+    "open_pos_action": "Dalbashada degdega ah POS",
+    "description": "Doorashadani waxay ku habboon tahay maamulayaasha boggaga Instagram iyo shabakadaha kale ee bulshada. Adeegso Affiliate POS si aad gacanta ugu hesho oo ugu darto amarada macaamiisha. Xidhiidhadaada (ama shirkad ganacsi) waxay ku dari karaan amaro cusub oo ku jira POS affiliate oo ay geliyaan warqada deebaajiga."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Hababka galitaanka",
+      "subtitle": "Habbee habka ay isticmaalayaashu u soo galaan dukaankaaga."
+    },
+    "checkout": {
+      "title": "Socodka hubinta",
+      "subtitle": "Habbee safarkaaga macmiilka iyo socodka wax iibsiga ee ecommerce kaaga.",
+      "map": {
+        "title": "Maab",
+        "subtitle": "Isticmaalayaashu waa inay doortaan meesha lagu geynayo khariidada (sida Uber).",
+        "subtitle_no_map": "Fogaanta xisaabinta rarida waxay tixgalinaysaa eber haddii goobta aysan ka jirin ciwaanka macmiilku bixiyay."
+      },
+      "mode": {
+        "title": "Barta gelitaanka macaamiisha",
+        "default": {
+          "title": "ASAP (Default)",
+          "msg": "Isticmaalayaashu waxay galaan sida ugu dhakhsaha badan. ( beddelaad badan)"
+        },
+        "on_checkout": {
+          "title": "On hubinta",
+          "msg": "Ku qas isticmaal isticmaaleyaasha inay galaan tallaabada hubinta"
+        },
+        "login_free": {
+          "title": "Gelin ikhtiyaari ah",
+          "msg": "Gal ikhtiyaari ah ka dib bixinta dalabka"
+        }
+      },
+      "express": {
+        "title": "Dib u jiheyso ka dib ku dar gaariga",
+        "false": {
+          "title": "Habka caadiga ah",
+          "msg": "Ku sii jir bogga oo sii wad wax iibsiga ka dib markaad gujiso ku dar gaariga."
+        },
+        "true": {
+          "title": "Habka Express",
+          "msg": "Macmiilka u jihci bogga jeeg bixinta ka dib markaad gujiso add to cart."
+        }
+      },
+      "shipping_address": {
+        "title": "Weydii ciwaanka rarida"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Jirka & Adeegga (Talliga ah)",
+      "desc": "Weydiiso macmiilka inuu galo ciwaan ku jira jeeg-bixinta jireed iyo adeegga."
+    },
+    "physical": {
+      "title": "Jidh kaliya",
+      "desc": "Weydiiso macmiilka inuu galo ciwaan kaliya marka la eego jeegaga jirka."
+    },
+    "off": {
+      "title": "Marna",
+      "desc": "Waligaa ha waydiin ciwaanka rarida ⚠ Isticmaal doorashadan haddii aad qorshaynayso inaad hesho adeegyo kala duwan adiga oo dooranaya nooca jireed ee alaabada beddelka nooca adeegga."
+    }
+  },
+  "business_model": {
+    "title": "Dejinta qaabka ganacsiga",
+    "subtitle": "Deji qaabka ganacsigaaga, waxaanan u habeyn doonaa OS-kaaga goobta gadaashiisa."
+  },
+  "business_type": {
+    "title": "Noocyada badeecadaha",
+    "subtitle": "Deji nooca alaabta aad rabto inaad ku iibiso dukaankaaga. Noocyada badeecada ee Selldone way ka badan yihiin nooc ka mid ah alaabooyinka; waa wax badan oo ku saabsan nidaamka fulinta.",
+    "send_activation_request_to_support": "U dir codsi hawlgelinta tigidhka taageerada.",
+    "require_kyc": "Milkiilaha ganacsiga KYC.",
+    "needs_enterprise_license": "Waxaad u baahan tahay inaad haysato shatiga Enterprise",
+    "marketplace_caution_message": "U deji goobta suuqa sida moodeelkaagu si qoto dheer u saameeyo habaynta OS-ga ganacsigaaga. Tusaale ahaan, waa inaad qeexdaa ugu yaraan hal iibiye alaab kasta oo leh qiime madax-bannaan iyo agab. Macaamiisha ma iibsan karaan badeecooyin aan lahayn iibiye."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Dukaanka caadiga ah",
+      "desc": "Caadi ahaan SME, meherad guri, ama dropshipper - kuwaas oo si toos ah uga iibiya alaabtooda macaamiisha ama iibiya alaab-qeybiyeyaasha jumlo ahaan iibiye ahaan."
+    },
+    "dropshipping": {
+      "title": "Dhisidda",
+      "desc": "Wax badeeco ah ha haysanin wax alaab ahna ha haysan - waxaad siisaa qolo saddexaad, badanaa jumlole (sida Printify, Wholesale2B, ...) ama soo saaraha, waxayna fuliyaan amarada goobta gadaasheeda."
+    },
+    "wholesaler": {
+      "title": "Soo-dejinta alaab-qeybiyaha",
+      "desc": "Caadi ahaan jumlo iibiya ama soo saaraha - kaas oo si toos ah u soo dejiya macaamiisha dhamaadka ah. Ganacsatada kale ee Selldone waxay alaabtaada ku soo ridi karaan bakhaaradooda."
+    },
+    "marketplace": {
+      "title": "Suuqa",
+      "desc": "Suuqyada onlaynka ah waxay ku xidhaan iibsadayaasha iyo iibiyaasha goob la iska leeyahay iyo meel dhexe."
+    },
+    "franchise": {
+      "title": "Franchise / Xiriiriye",
+      "desc": "Xaraashku waa hab lagu qaybiyo alaabada ama adeegyada ay ku lug leeyihiin franchisor kaas oo dhidibada u taagay summadaada (Franchising) ama ka iibiya badeecadaada sumaddooda (Affiliate)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Boorsooyinka",
+    "pricing_models": "Qiimaha",
+    "add_vendor": "Ku dar iibiye",
+    "requests": "Codsiyada"
+  },
+  "price_input_type": {
+    "title": "Nooca gelinta qiimaha",
+    "default": {
+      "title": "Asal ahaan",
+      "desc": "Dooro qiyam sida tirada ku jirta gaadhiga."
+    },
+    "area": {
+      "title": "Aagga",
+      "desc": "Geli ballaca iyo dhererka sida wax-soo-gelinta si aad u xisaabiso tirada."
+    },
+    "volume": {
+      "title": "mugga",
+      "desc": "Geli balladhka, dhererka, iyo dhererka sidii qalabaynta si aad u xisaabiso tirada."
+    },
+    "custom": {
+      "title": "Caadi ahaan (qaab gelinta)",
+      "desc": "Looma baahna boqolaal nooc oo kala duwan! U samee foom xisaabinta qiimaha gaarka ah ee alaabta aadka loo habeyn karo."
+    }
+  },
+  "vendors_list": {
+    "title": "Iibiyeyaashayda",
+    "message": "Liiska iibiyeyaashayda."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Ku xidh bogag badan OS ganacsigaaga oo ku maamul hal meel. Waxaad isticmaali kartaa astaanta xayndaabyada badan si aad u abuurto xayndaabyo go'an qayb kasta oo ka mid ah mareegahaaga, sida baloogga iyo bulshada, ama u adeegso xayndaabyo kala duwan kuwa ku xidhan."
+  },
+  "notes": {
+    "add_action": "Ku dar qoraal kooxdaada",
+    "notifications": {
+      "success_add": "Xusuusin si guul leh ayaa loogu daray",
+      "success_delete": "Xusuusin si guul leh ayaa loo tirtiray"
+    }
+  },
+  "external_services": {
+    "title": "Adeegyada dibadda",
+    "subtitle": "La soco heerka ugu dambeeya ee adeegyada dibadda sida SMS iyo iimayllada halkan."
   }
 };

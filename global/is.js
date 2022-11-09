@@ -558,7 +558,52 @@ export default {
     "merchant": "Kaupmaður",
     "per_product": "Á hverja vöru",
     "journey": "Ferðalag",
-    "after": "Eftir"
+    "after": "Eftir",
+    "waiting_for_payment": "Vinsamlegast ljúktu við greiðslu...",
+    "hour": "Klukkutími",
+    "minute": "Mínúta",
+    "premium": "Premium",
+    "light": "Ljós",
+    "dark": "Myrkur",
+    "guest": "Gestur",
+    "shops": "Búðir",
+    "vendor": "Seljandi",
+    "vendors": "Söluaðilar",
+    "marketplace": "Markaðstorg",
+    "verify_date": "Staðfestu dagsetningu",
+    "note": "Athugið",
+    "panel": "Panel",
+    "removed": "Fjarlægt",
+    "segments": "Hluti",
+    "personal_info": "Persónulegar upplýsingar",
+    "preferences": "Óskir",
+    "spec": "Sérstakur",
+    "reviews": "Umsagnir",
+    "constraints": "Þvingun",
+    "flexible": "Sveigjanlegur",
+    "usage_limit": "Notkunarmörk",
+    "temporary": "Tímabundið",
+    "original": "Upprunalegt",
+    "saved": "Vistað!",
+    "sort": "Raða",
+    "documents": "Skjöl",
+    "document": "Skjal",
+    "please_wait": "Vinsamlegast bíðið...",
+    "pickup": "Afhending",
+    "customize": "sérsníða",
+    "difficulty": "Erfiðleikar",
+    "banned": "Bannaður",
+    "company": "Fyrirtæki",
+    "tax_shipping": "Sendingarskattur",
+    "warranty": "Ábyrgð",
+    "return_policy": "Skilareglur",
+    "guide": "Leiðsögumaður",
+    "translate": "Þýða",
+    "public": "Opinber",
+    "deleted": "Eytt",
+    "variant": "Afbrigði",
+    "secure": "Öruggt",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Lag",
     "change_state": "Breyta stöðu",
     "done": "Búið",
-    "reply": "Svaraðu"
+    "reply": "Svaraðu",
+    "watch_now": "Horfa núna",
+    "unlock": "Opnaðu",
+    "lock": "Læsa",
+    "create_clone": "Búðu til klón",
+    "regenerate": "Endurnýja",
+    "add_message": "Bæta við skilaboðum",
+    "continue_chat": "Haltu áfram spjallinu",
+    "add_new_message": "Bæta við nýjum skilaboðum"
   },
   "instance_message_title": "Sendu spjallskilaboð",
   "instance_message": "Hæ {name}, ég heiti {author} frá {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Póstnúmer",
     "enter_value": "Fylltu út hér",
     "address_note": "Athugið",
-    "tel": "Númer tengiliðs"
+    "tel": "Númer tengiliðs",
+    "service_address": "Veldu heimilisfangið þitt"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "punda",
     "kvarts",
     "metrar",
-    "herbergi"
+    "herbergi",
+    "sekúndur",
+    "mínútur",
+    "klukkustundir",
+    "daga",
+    "vikur",
+    "mánuðum",
+    "ár"
   ],
   "region_types": {
     "State": "Ríki",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Lágmarkslengd verður að vera {length}",
     "invalid_min_array_length": "Veldu að minnsta kosti {length} atriði",
     "invalid_max_chars": "Hámark {maxCount} stafir",
-    "invalid_url": "Ógild vefslóð"
+    "invalid_url": "Ógild vefslóð",
+    "country_invalid": "Veldu áfangastað!",
+    "postal_code_invalid": "Stilltu gilt póstnúmer!"
   },
   "colors": {
     "#D32F2F": "Rauður",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Hvítur",
     "#FFF": "Hvítur",
     "#000000": "Svartur",
-    "#000": "Svartur"
+    "#000": "Svartur",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Gull",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Her",
+    "#474747": "Malbik",
+    "#E6195C": "ber",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Brenndur appelsínugulur",
+    "#80011F": "Kardínáli",
+    "#382829": "Súkkulaði",
+    "#F06336": "Kórall",
+    "#FAE7C9": "Rjómi",
+    "#6B2257": "Rifsber",
+    "#222127": "Dökk grár",
+    "#0D5A74": "Djúp Teal",
+    "#00582F": "Evergreen",
+    "#214C30": "Skógur",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Lauf",
+    "#558450": "Ljós Aqua",
+    "#96B5C9": "Ljósblár",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "Límóna",
+    "#9DE7C2": "Myntu",
+    "#F6EAD2": "Eðlilegt",
+    "#1A1F35": "sjóher",
+    "#404624": "Ólífa",
+    "#271020": "Plóma",
+    "#A8355C": "Hindberjum",
+    "#D6BEA6": "Mjúkt krem",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Fjólublá",
+    "#36454F": "Kol",
+    "#b3b0ab": "kolefni Grár",
+    "#463e3d": "Kolalyng",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Nafn",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Byggingarnúmer",
     "building_unit": "Eining",
     "postcode": "Póstnúmer",
-    "note": "Athugið"
+    "note": "Athugið",
+    "county": "Sýsla"
   },
   "product_types": {
     "physical": "Líkamlegt",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Litur",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Einfalt",
       "selective": "Sértækur",
-      "switch": "Skipta"
-    }
+      "switch": "Skipta",
+      "file": "Skrá",
+      "number": "Númer"
+    },
+    "placeholder_input": "Staðfestir",
+    "file_type_input": "Viðunandi skráargerðir",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "vöru Nafn",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Sláðu inn farsímann þinn",
     "verification_code": "Staðfestingarkóði",
     "msg_title": "Hæ,",
-    "msg_body": "Vinsamlegast skráðu þig inn. Það tekur aðeins nokkrar sekúndur."
+    "msg_body": "Vinsamlegast skráðu þig inn. Það tekur aðeins nokkrar sekúndur.",
+    "login_apple": "Skráðu þig inn með Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Merkjum bætt við"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Mjög flókið",
+    "hard": "Erfitt",
+    "intermediate": "Millistig",
+    "easy": "Auðvelt"
   }
 };

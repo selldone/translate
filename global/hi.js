@@ -558,7 +558,52 @@ export default {
     "merchant": "सौदागर",
     "per_product": "प्रति उत्पाद",
     "journey": "सफ़र",
-    "after": "बाद में"
+    "after": "बाद में",
+    "waiting_for_payment": "कृपया भुगतान पूरा करें...",
+    "hour": "घंटा",
+    "minute": "मिनट",
+    "premium": "बीमा किस्त",
+    "light": "रोशनी",
+    "dark": "अंधेरा",
+    "guest": "अतिथि",
+    "shops": "स्टोर",
+    "vendor": "वेंडर",
+    "vendors": "विक्रेताओं",
+    "marketplace": "बाजार",
+    "verify_date": "तारीख सत्यापित करें",
+    "note": "टिप्पणी",
+    "panel": "पैनल",
+    "removed": "निकाला गया",
+    "segments": "सेगमेंट",
+    "personal_info": "व्यक्तिगत जानकारी",
+    "preferences": "पसंद",
+    "spec": "कल्पना",
+    "reviews": "समीक्षा",
+    "constraints": "प्रतिबंध",
+    "flexible": "लचीला",
+    "usage_limit": "उपयोग की सीमा",
+    "temporary": "अस्थायी",
+    "original": "मूल",
+    "saved": "बचाया!",
+    "sort": "क्रम से लगाना",
+    "documents": "दस्तावेज़",
+    "document": "दस्तावेज़",
+    "please_wait": "कृपया प्रतीक्षा करें...",
+    "pickup": "उठाना",
+    "customize": "अनुकूलित करें",
+    "difficulty": "कठिनाई",
+    "banned": "प्रतिबंधित",
+    "company": "सोहबत",
+    "tax_shipping": "शिपिंग टैक्स",
+    "warranty": "गारंटी",
+    "return_policy": "वापसी नीति",
+    "guide": "मार्गदर्शक",
+    "translate": "अनुवाद करना",
+    "public": "जनता",
+    "deleted": "हटाए गए",
+    "variant": "प्रकार",
+    "secure": "सुरक्षित",
+    "admin": "व्यवस्थापक"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "संकरा रास्ता",
     "change_state": "अवस्था बदलो",
     "done": "पूर्ण",
-    "reply": "जवाब"
+    "reply": "जवाब",
+    "watch_now": "अब देखिए",
+    "unlock": "अनलॉक",
+    "lock": "ताला",
+    "create_clone": "क्लोन बनाएं",
+    "regenerate": "पुनः जेनरेट",
+    "add_message": "संदेश जोड़ें",
+    "continue_chat": "चैट जारी रखें",
+    "add_new_message": "नया संदेश जोड़ें"
   },
   "instance_message_title": "तत्काल संदेश भेजें",
   "instance_message": "नमस्ते {name}, मेरा नाम {author} से {author} है।",
@@ -690,7 +743,8 @@ export default {
     "postcode": "पोस्टकोड",
     "enter_value": "यहां भरें",
     "address_note": "टिप्पणी",
-    "tel": "संपर्क संख्या"
+    "tel": "संपर्क संख्या",
+    "service_address": "अपना पता चुनें"
   },
   "weight": {
     "g": "जी",
@@ -753,7 +807,14 @@ export default {
     "पौंड",
     "चौथाई",
     "गज",
-    "कमरा"
+    "कमरा",
+    "सेकंड",
+    "मिनट",
+    "घंटे",
+    "दिन",
+    "हफ्तों",
+    "महीने",
+    "वर्षों"
   ],
   "region_types": {
     "State": "राज्य",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "न्यूनतम लंबाई {length} होनी चाहिए",
     "invalid_min_array_length": "कम से कम {length} आइटम चुनें",
     "invalid_max_chars": "अधिकतम {maxCount} वर्ण",
-    "invalid_url": "अवैध यूआरएल"
+    "invalid_url": "अवैध यूआरएल",
+    "country_invalid": "गंतव्य देश चुनें!",
+    "postal_code_invalid": "मान्य पोस्टल कोड सेट करें!"
   },
   "colors": {
     "#D32F2F": "लाल",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "सफ़ेद",
     "#FFF": "सफ़ेद",
     "#000000": "काला",
-    "#000": "काला"
+    "#000": "काला",
+    "#7d263a": "लाल रंग",
+    "#FD9F17": "सोना",
+    "#229DBF": "पानी",
+    "#6DC9E2": "एक्वा ट्राइब्लेंड",
+    "#413B2D": "सेना",
+    "#474747": "डामर",
+    "#E6195C": "बेर",
+    "#B2184C": "बेरी ट्राइब्लेंड",
+    "#FC7F5F": "चमकीला नारंगी रंग",
+    "#80011F": "कार्डिनल",
+    "#382829": "चॉकलेट",
+    "#F06336": "मूंगा",
+    "#FAE7C9": "मलाई",
+    "#6B2257": "किशमिश",
+    "#222127": "गहरा भूरा",
+    "#0D5A74": "डीप टीले",
+    "#00582F": "सदाबहार",
+    "#214C30": "जंगल",
+    "#DC2867": "फ्यूशिया",
+    "#38561": "केली",
+    "#5C884D": "पत्ती",
+    "#558450": "लाइट एक्वा",
+    "#96B5C9": "हल्का नीला रंग",
+    "#DCAFCE": "बकाइन",
+    "#D3E1A4": "नींबू",
+    "#9DE7C2": "पुदीना",
+    "#F6EAD2": "प्राकृतिक",
+    "#1A1F35": "नौसेना",
+    "#404624": "जैतून",
+    "#271020": "आलूबुखारा",
+    "#A8355C": "रसभरी",
+    "#D6BEA6": "सॉफ्ट क्रीम",
+    "#BEA994": "टैन",
+    "#0DB2AE": "टील",
+    "#A86EA9": "बैंगनी",
+    "#36454F": "लकड़ी का कोयला",
+    "#b3b0ab": "कार्बन ग्रे",
+    "#463e3d": "चारकोल हीदर",
+    "#282d3c": "नेवी ब्लेज़र"
   },
   "address_info": {
     "name": "नाम",
@@ -838,7 +940,8 @@ export default {
     "building_number": "भवन का नंबर",
     "building_unit": "इकाई",
     "postcode": "पोस्टकोड",
-    "note": "टिप्पणी"
+    "note": "टिप्पणी",
+    "county": "काउंटी"
   },
   "product_types": {
     "physical": "भौतिक",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "रंग",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "सरल",
       "selective": "चयनात्मक",
-      "switch": "बदलना"
-    }
+      "switch": "बदलना",
+      "file": "फ़ाइल",
+      "number": "संख्या"
+    },
+    "placeholder_input": "प्लेसहोल्डर",
+    "file_type_input": "स्वीकार्य फ़ाइल प्रकार",
+    "file_type_message": "जेपीईजी, पीएनजी, ज़िप, ..."
   },
   "virtual_order_info_summery": {
     "title": "प्रोडक्ट का नाम",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "अपना मोबाइल दर्ज करें",
     "verification_code": "सत्यापन कोड",
     "msg_title": "हैलो,",
-    "msg_body": "कृपया लॉगिन करें। इसमें कुछ ही सेकंड लगते हैं।"
+    "msg_body": "कृपया लॉगिन करें। इसमें कुछ ही सेकंड लगते हैं।",
+    "login_apple": "ऐप्पल के साथ लॉगिन करें"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "टैग जोड़े गए"
     }
+  },
+  "difficulties": {
+    "very_complicated": "बहुत कठिन",
+    "hard": "सख्त",
+    "intermediate": "मध्यम",
+    "easy": "आसान"
   }
 };

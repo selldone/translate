@@ -65,7 +65,9 @@ export default {
     "my_feed": "ahy",
     "blocked_message": "Voasakana ianao hatramin'ny",
     "reported": "nitatitra",
-    "report": "TATITRA"
+    "report": "TATITRA",
+    "post": "Post",
+    "attach_file": "Ampifandraiso ny rakitra"
   },
   "invite_message": "{user} dia nanasa anao tao amin'ny forum {community}. Kitiho ny rohy eto ambany raha te hamaky ny fijerin'ny namanao sy hizara ny hevitrao amin'izy ireo. Miandry anao aho.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Esory ny fitsapan-kevitra",
     "take_screenshot": "Raiso ho fonony",
     "take_link_msg": "Rohy taloha eto ary midira",
-    "eligible_title": "Dingana ahafahana mandefa hafatra"
+    "eligible_title": "Dingana ahafahana mandefa hafatra",
+    "public": "-bahoaka"
   },
   "tips": {
     "verify_email": "Ampidiro ary hamarino ny mailakao.",

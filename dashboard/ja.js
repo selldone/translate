@@ -155,7 +155,19 @@ export default {
       "Setup": "お店",
       "Sell": "セールス＆マーケティング",
       "Developer": "発展させる",
-      "Application": "アプリケーション"
+      "Application": "アプリケーション",
+      "Product": "製品とカテゴリの管理",
+      "Blog": "CMSとブログ",
+      "Order": "注文処理センター",
+      "Channel": "販売チャネル",
+      "Accounting": "会計とお支払い方法",
+      "Incentives": "インセンティブ",
+      "Marketing": "マーケティングとキャンペーン",
+      "Logistic": "物流と配送",
+      "Customers": "顧客クラブとセグメンテーション",
+      "Page": "ランディング ページとカスタム ページ",
+      "Access": "スタッフ / API アクセス管理",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Githubリポジトリ",
@@ -193,7 +205,9 @@ export default {
       "stores": "店舗",
       "roles": "役割",
       "home": "家",
-      "expert": "エキスパート"
+      "expert": "エキスパート",
+      "deals": "お買い得",
+      "providers": "プロバイダー"
     },
     "shops": {
       "create_new": "新しいショップを作成する",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "状態",
           "created_at": "作成日",
           "updated_at": "最後の更新"
-        }
+        },
+        "subtitle": "最新のインライン エディターを使用して記事を作成し、自分自身とビジネスを紹介します。高品質で SEO に適したブログ投稿を作成する際に最初に注目する必要があるのは、オリジナルのコンテンツです。"
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "報告する",
         "tax": "税",
         "drop_shipping": "リセラーレシート",
-        "reseller_accounts": "リセラーアカウント"
+        "reseller_accounts": "リセラーアカウント",
+        "valuations": "評価"
       },
       "invoice": {
         "title": "リンクされたウォレットを購入する",
@@ -605,7 +621,8 @@ export default {
         "delivery": "運送",
         "inventory": "在庫",
         "warehouse": "倉庫",
-        "logistic_apps": "ロジスティクス"
+        "logistic_apps": "ロジスティクス",
+        "profiles": "プロファイル"
       },
       "warehouse": {
         "title": "倉庫を保管する",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "送料無料の最小注文費用",
           "notifications": {
             "update_success": "配送サービスの設定が正常に完了しました。"
-          }
+          },
+          "shipping_cost_calculation": "送料計算",
+          "sod_true": "配送先で送料を取得する",
+          "sod_true_message": "配送サービスが目的地での配送料を受け入れていることを確認してください。",
+          "sod_false": "自動送料計算",
+          "cod_true": "代金引換で承ります",
+          "cod_false": "オンライン決済のみ承ります",
+          "cod_true_message": "配送サービスが代金引換を受け入れることを確認してください。"
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "Eメール",
         "domain": "ドメイン",
-        "verifications": "検証"
+        "verifications": "検証",
+        "flow": "フロー",
+        "business_model": "事業の型"
       },
       "delete_dialog": {
         "title": "ストアを削除",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "製品ユニット",
       "unit_float": "フロートユニット（まもなく）",
       "unit_float_hint": "たとえば、顧客は3 kgの果物を注文できますが、顧客に送られる金額は注文された金額とわずかに異なります。",
-      "unit_float_message": "注文処理中、配送金額が注文金額と異なる場合があります。システムはこの差額を自動的に計算し、それを顧客への債務として記録します。これは次の注文に適用できます。"
+      "unit_float_message": "注文処理中、配送金額が注文金額と異なる場合があります。システムはこの差額を自動的に計算し、それを顧客への債務として記録します。これは次の注文に適用できます。",
+      "status_list": {
+        "active": {
+          "title": "アクティブ |オンラインとオフラインの販売",
+          "description": "こちらの商品はネット注文になります。"
+        },
+        "inactive": {
+          "title": "非アクティブ |オフライン販売のみ",
+          "description": "この商品はオンライン注文ではご利用いただけません。"
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "調査",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "終了時間を選択します",
       "independent_price": "このバリアントのみの価格",
       "same_price": "主な製品の価格",
-      "variant_pricing_message": "このオプションを選択することにより、このバリアントの価格を主な製品とは独立して設定できます。"
+      "variant_pricing_message": "このオプションを選択することにより、このバリアントの価格を主な製品とは独立して設定できます。",
+      "price_label_input": "価格ラベル",
+      "price_label_message": "( $1.5/Fl Oz ) のような価格に関する追加情報を追加します。ユースケース: 食料品、FMCG。",
+      "add_price_label_action": "価格ラベルを追加"
     },
     "inputs_edit": {
       "title": "バイヤー情報の入力フォーム",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "ゲートウェイ{gateway_name}が編集されました。"
     },
-    "developer_setting": "開発とテスト"
+    "developer_setting": "開発とテスト",
+    "live_mode_message": "すべての取引はライブモードになります。"
   },
   "gift_card": {
     "title": "ギフトカード",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "購入者が編集した請求先住所。",
     "payment-cod-confirm": "代金引換の支払いが確認されました。",
     "payment-cash-confirm": "請求書の現金での{amount}{currency}の支払いが確認されました。",
-    "payment-dir-confirm": "直接支払いの領収書が確認されました。"
+    "payment-dir-confirm": "直接支払いの領収書が確認されました。",
+    "vendor": "仕入先の注文状態が<b>{from}</b>から<b>{to}</b>に変更されました。",
+    "connect-sync": "Connect OS によって同期された注文。",
+    "connect-shipped": "Connect の注文は {shipping} で発送されました。",
+    "connect-returned": "Connect の注文は {shipping} から返品されました。",
+    "connect-failed": "パートナーが注文のフルフィルメントに失敗しました。 {reason}",
+    "connect-canceled": "注文はパートナーによってキャンセルされました。 {reason}",
+    "connect-action-cancel": "注文のキャンセルをリクエストします。 {reason}",
+    "connect-put-hold": "注文は保留されました。 {reason}",
+    "connect-remove-hold": "注文は保留から削除されました。 {reason}",
+    "connect-confirmed": "注文が確認されました。",
+    "email-vendor": "🔔 注文通知メールが<b>{vendor}</b>に送信されました | {email}。"
   },
   "inline_chart": {
     "today": "今日",
@@ -2443,7 +2494,8 @@ export default {
     "title": "お金を稼ぐ",
     "menu": {
       "plans": "予定",
-      "accounts": "アカウント"
+      "accounts": "アカウント",
+      "participant": "参加者"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "アクセスキーを保存する",
     "shop_keys_message": "これらのキーは、サーバーがアクセストークンを作成するために使用されます。キーは機密情報であり、他のユーザーに表示されないようにサーバーにのみ配置されることに注意してください。",
     "personal_keys_title": "パーソナルアクセスキー",
-    "personal_keys_message": "ここでアカウントのキーを作成できます。これらのキーはアカウントにアクセスできることに注意してください。これらのキーを作成して使用するのは、自分が何をしているかを正確に理解している場合のみです。"
+    "personal_keys_message": "ここでアカウントのキーを作成できます。これらのキーはアカウントにアクセスできることに注意してください。これらのキーを作成して使用するのは、自分が何をしているかを正確に理解している場合のみです。",
+    "clients_title": "クライアント",
+    "clients_message": "これらのキーは、サーバーがアクセストークンを作成するために使用されます。キーは機密情報であり、他のユーザーに表示されないようにサーバーにのみ配置されることに注意してください。"
   },
   "user_security_control": {
     "title": "アカウントのセキュリティ",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "プロファイルを管理する",
       "description": "ストアプロファイルを管理します。"
+    },
+    "shop-discount-code": {
+      "name": "割引コード管理",
+      "description": "店舗の割引コードを管理、編集、追加します。"
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "設定",
       "change": "充電",
       "transfer": "移行",
-      "transactions": "トランザクション"
+      "transactions": "トランザクション",
+      "charge": "充電",
+      "history": "歴史"
     },
     "transactions": {
       "title": "アカウントトランザクション",
@@ -3258,7 +3318,10 @@ export default {
       "title": "サブスクリプションの確認をキャンセルする",
       "message": "このサブスクリプションをキャンセルしてもよろしいですか？",
       "action": "サブスクリプションをキャンセルする"
-    }
+    },
+    "use_voucher_now": "今すぐバウチャーを使用する",
+    "validity_duration": "有効期間",
+    "validity_duration_hint": "12 か月のライセンスを購入すると、30% 割引になります。"
   },
   "admin_shop_layout": {
     "download_txt": "データテキストをダウンロード",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "大きいフォント",
     "large_font_message": "通常よりも大きいテキストを表示する",
     "samples": "サンプルショップを表示",
-    "samples_message": "有効にすると、いくつかのサンプルショップがパネルに表示されます。"
+    "samples_message": "有効にすると、いくつかのサンプルショップがパネルに表示されます。",
+    "automation": "オートメーション",
+    "automation_message": "ショップのダッシュボードに自動化タブを表示します。 (Webhook、ビジュアル プログラミング、...)"
   },
   "shop_locations": {
     "title": "サービスが提供されている国",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "クーポンは正常に削除されました。"
-    }
+    },
+    "multiple_use": "複数の使用"
   },
   "coupon_edit": {
     "title_edit": "クーポンを編集",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "制限",
       "description": "ユーザーの最大数に制限を設定します。"
+    },
+    "SEGMENTS": {
+      "title": "セグメント",
+      "description": "特定の手動セグメンテーションで顧客を制限します。"
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "ギフトカードから注文総額が引き落とされました！買い手はそれ以上支払う必要はありません。",
       "cod_msg": "注文を受けた時点でお客様がお支払いいただきます。",
       "online_msg": "顧客の画面でQRコードをスキャンするように顧客に依頼します。"
-    }
+    },
+    "name": "POS",
+    "message": "ゼロセットアップ コストのオンライン POS を使用して、任意のスマートフォン、タブレット、および PC で実行するか、手動で注文を作成します。"
   },
   "exporter": {
     "title": "データのエクスポート",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "サーバーに送信",
     "shop_license": "ショップライセンス",
     "max_items_limit": "最大アイテム制限",
-    "total_items": "総アイテム"
+    "total_items": "総アイテム",
+    "customer": {
+      "title": "顧客のインポート",
+      "subtitle": "顧客の CSV ファイルをここにアップロードします。標準形式に従っていることを確認してください。また、プライバシー規則に従う必要があります。"
+    }
   },
   "campaigns": {
     "title": "キャンペーン",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "リンク",
     "light_checkout": "ライトチェックアウトテーマ",
     "light_header": "軽いヘッダー",
-    "light_footer": "ライトフッター"
+    "light_footer": "ライトフッター",
+    "product_page": "商品ページ",
+    "typography": "タイポグラフィ",
+    "header": "ヘッダ",
+    "custom_code": "カスタムコード",
+    "custom_css": "カスタム CSS"
   },
   "app_templates": {
     "default": "デフォルト",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "サービスの管理",
     "option_deliver_by_courier": "オプション1：宅配便で配達します。",
     "option_add_to_que": "オプション2：配送サービスページで処理するキューに追加します。",
-    "option_instant_shipping": "オプション3：即納。"
+    "option_instant_shipping": "オプション3：即納。",
+    "pickup_action": "集荷確認"
   },
   "shop_home_edit": {
     "title": "ホームページの設定",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "ストアに追加された製品。",
       "request_access": "アクセスリクエストを卸売業者に正常に送信しました。"
-    }
+    },
+    "show_eligible_shops_message": "対象店舗を表示"
   },
   "product_dropshipping": {
     "need_re_enable": "この商品は元の販売者によって変更されました。これらの価格変更により、ストアの商品が無効になりました。変更を確認し、製品の再アクティブ化に同意する場合は、下のボタンを押してください。",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "あなたの店にはカテゴリーがありません。",
       "limit": "製品の制限",
       "limit_message": "製品の結果カウントを入力してください",
-      "select_categories": "利用可能なカテゴリを選択"
+      "select_categories": "利用可能なカテゴリを選択",
+      "categories_limit": "カテゴリ制限",
+      "categories_limit_msg": "カテゴリの最大数を入力します。無制限の場合はゼロを設定します。"
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "アボカドは正常に更新されました。",
       "add_success": "アボカドは正常に作成されました。"
-    }
+    },
+    "name": "アボカド"
   },
   "avocado_orders": {
     "title": "アボカド",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "非活性",
     "active_message": "このオプションを有効にすると、Fast-Sales-Codesを作成できる可能性が各製品の管理セクションに表示されます。",
     "hyper_form_link_message": "あなたの店のハイパーページリンク",
-    "configuration": "ハイパー設定"
+    "configuration": "ハイパー設定",
+    "name": "ハイパー"
   },
   "hyper_orders": {
     "title": "ハイパー",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "顧客の人口統計",
     "subtitle": "顧客データをフィルタリングおよびエクスポートして、より少ないマーケティングでより多くの価値を提供するためのより良い意思決定を行います。顧客のプライバシーを尊重し、大量のメールを送信しないでください。顧客のすべての許可を得ずに、顧客の情報をサードパーティのサービスと共有しないでください。"
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "受け取り場所",
+      "subtitle": "ここで集荷先住所を追加および編集します。ユーザーは、チェックアウト ページで集荷先住所を選択できます。",
+      "add_action": "新しい場所を追加"
+    }
+  },
+  "affiliate_pos": {
+    "title": "アフィリエイトPOS",
+    "open_pos_action": "高速注文POS",
+    "description": "このオプションは、Instagram ページやその他のソーシャル ネットワークの管理者に適しています。アフィリエイト POS を使用して、顧客からの注文を手動で受け取り、追加します。アフィリエイト (またはフランチャイズ) は、アフィリエイト POS に新しい注文を追加し、入金伝票をアップロードできます。"
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "ログイン方法",
+      "subtitle": "ユーザーがストアにログインする方法をカスタマイズします。"
+    },
+    "checkout": {
+      "title": "お会計の流れ",
+      "subtitle": "e コマースでのカスタマー ジャーニーと購入フローをカスタマイズします。",
+      "map": {
+        "title": "地図",
+        "subtitle": "ユーザーは地図上で配達場所を選択する必要があります (Uber など)。",
+        "subtitle_no_map": "顧客が提供した住所にその場所が存在しない場合、配送計算の距離はゼロと見なされます。"
+      },
+      "mode": {
+        "title": "お客様ログインポイント",
+        "default": {
+          "title": "ASAP (デフォルト)",
+          "msg": "ユーザーはできるだけ早くログインします。 (より多くの変換)"
+        },
+        "on_checkout": {
+          "title": "チェックアウト時",
+          "msg": "チェックアウトのステップでユーザーにログインを強制します。"
+        },
+        "login_free": {
+          "title": "オプションのログイン",
+          "msg": "注文支払い後のオプションのログイン.."
+        }
+      },
+      "express": {
+        "title": "カートに追加後にリダイレクト",
+        "false": {
+          "title": "ノーマルモード",
+          "msg": "ページに留まり、カートに追加をクリックした後、ショッピングを続けます。"
+        },
+        "true": {
+          "title": "エクスプレスモード",
+          "msg": "[カートに追加] をクリックした後、顧客をチェックアウト ページにリダイレクトします。"
+        }
+      },
+      "shipping_address": {
+        "title": "配送先住所を尋ねる"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "物理的およびサービス (デフォルト)",
+      "desc": "現物チェックアウトとサービス チェックアウトで住所を入力するように顧客に依頼します。"
+    },
+    "physical": {
+      "title": "物理のみ",
+      "desc": "物理的なチェックアウトで住所を入力するよう顧客に依頼します。"
+    },
+    "off": {
+      "title": "一度もない",
+      "desc": "配送先住所は決して尋ねないでください。 ⚠ サービス タイプの代わりに製品の物理タイプを選択して、バリエーションのあるサービスを計画している場合は、このオプションを使用します。"
+    }
+  },
+  "business_model": {
+    "title": "ビジネスモデルの設定",
+    "subtitle": "ビジネスモデルを設定すると、舞台裏でOSを構成します。"
+  },
+  "business_type": {
+    "title": "商品の種類",
+    "subtitle": "ストアで販売する商品のタイプを設定します。 Selldone の製品タイプは、単なる製品のタイプではありません。それはフルフィルメント手順についてです。",
+    "send_activation_request_to_support": "サポート チケットでアクティベーション リクエストを送信します。",
+    "require_kyc": "ビジネスオーナーKYC.",
+    "needs_enterprise_license": "Enterprise ライセンスが必要です。",
+    "marketplace_caution_message": "モデルがビジネス OS 構成に深く影響するため、Marketplace を設定します。たとえば、独立した価格設定と在庫を持つ製品ごとに、少なくとも 1 つのベンダーを定義する必要があります。お客様は、ベンダーのいない製品を購入することはできません。"
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "ノーマルストア",
+      "desc": "通常、中小企業、在宅ビジネス、またはドロップシッパー - 製品を顧客に直接販売するか、卸売業者の製品を再販業者として販売します。"
+    },
+    "dropshipping": {
+      "title": "ドロップシッピング",
+      "desc": "製品も在庫も持たない - 第三者、通常は卸売業者 (Printify、Wholesale2B など) またはメーカーに支払い、舞台裏で注文を処理します。"
+    },
+    "wholesaler": {
+      "title": "ドロップシッピングサプライヤー",
+      "desc": "一般的には、最終消費者に注文を直接発送する卸売業者または製造業者です。 Selldone の他のマーチャントは、ストアで商品をドロップシップできます。"
+    },
+    "marketplace": {
+      "title": "市場",
+      "desc": "オンライン市場は、独自の集中型プラットフォームで買い手と売り手を結びつけます。"
+    },
+    "franchise": {
+      "title": "フランチャイズ/アフィリエイト",
+      "desc": "フランチャイズとは、ブランドを確立する (フランチャイズ) か、ブランドによって製品を販売する (アフィリエイト) フランチャイザーが関与する製品またはサービスを配布する方法です。"
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "財布",
+    "pricing_models": "価格設定",
+    "add_vendor": "ベンダーを追加",
+    "requests": "リクエスト"
+  },
+  "price_input_type": {
+    "title": "価格入力タイプ",
+    "default": {
+      "title": "デフォルト",
+      "desc": "カート内の数量として値を選択します。"
+    },
+    "area": {
+      "title": "領域",
+      "desc": "幅と長さを入力して数量を計算します。"
+    },
+    "volume": {
+      "title": "音量",
+      "desc": "幅、長さ、高さを入力して数量を計算します。"
+    },
+    "custom": {
+      "title": "カスタム（入力フォームによる）",
+      "desc": "何百ものバリアントは必要ありません。高度にカスタマイズ可能な製品のカスタム コスト計算フォームを作成します。"
+    }
+  },
+  "vendors_list": {
+    "title": "私のベンダー",
+    "message": "私自身のベンダーのリスト。"
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "複数のドメインをビジネス OS に接続し、それらすべてを 1 か所で管理します。複数のドメイン機能を使用して、ブログやコミュニティなど、Web サイトの各部分に専用のドメインを作成したり、アフィリエイトに別のドメインを使用したりできます。"
+  },
+  "notes": {
+    "add_action": "チーム用のメモを追加",
+    "notifications": {
+      "success_add": "メモが正常に追加されました。",
+      "success_delete": "メモは正常に削除されました。"
+    }
+  },
+  "external_services": {
+    "title": "外部サービス",
+    "subtitle": "ここで、SMS や電子メールなどの外部サービスの最新のステータスを監視します。"
   }
 };

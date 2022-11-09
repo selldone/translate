@@ -65,7 +65,9 @@ export default {
     "my_feed": "Abdi",
     "blocked_message": "Anjeun diblokir dugi",
     "reported": "Kacaritakeun",
-    "report": "Laporan"
+    "report": "Laporan",
+    "post": "Pos",
+    "attach_file": "Gantelkeun file"
   },
   "invite_message": "{user} geus ngajak anjeun ka forum {community}. Pencét tautan di handap pikeun maca pangamatan babaturan anjeun sareng bagikeun pendapat anjeun ka aranjeunna. Abdi ngantosan anjeun.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Hapus polling",
     "take_screenshot": "Candak salaku panutup",
     "take_link_msg": "Link kaliwat dieu sarta asupkeun",
-    "eligible_title": "Léngkah pikeun layak pikeun masangkeun"
+    "eligible_title": "Léngkah pikeun layak pikeun masangkeun",
+    "public": "Umum"
   },
   "tips": {
     "verify_email": "Lebetkeun sareng pariksa email anjeun.",

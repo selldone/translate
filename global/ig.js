@@ -558,7 +558,52 @@ export default {
     "merchant": "Onye ahịa",
     "per_product": "Kwa ngwaahịa",
     "journey": "Njem",
-    "after": "Mgbe"
+    "after": "Mgbe",
+    "waiting_for_payment": "Biko mezue ugwo...",
+    "hour": "Oge awa",
+    "minute": "Nkeji",
+    "premium": "adịchaghị",
+    "light": "Ìhè",
+    "dark": "Ọchịchịrị",
+    "guest": "Onye ọbịa",
+    "shops": "Ụlọ ahịa",
+    "vendor": "Onye na-ere ahịa",
+    "vendors": "Ndị na-ere ahịa",
+    "marketplace": "Ebe ahịa",
+    "verify_date": "Nyochaa ụbọchị",
+    "note": "Rịba ama",
+    "panel": "Ogwe",
+    "removed": "Ewepụrụ",
+    "segments": "Akụkụ",
+    "personal_info": "Ozi nkeonwe",
+    "preferences": "Mmasị",
+    "spec": "Nkọwa",
+    "reviews": "Nyocha",
+    "constraints": "Mgbochi",
+    "flexible": "Na-agbanwe agbanwe",
+    "usage_limit": "Oke ojiji",
+    "temporary": "Nwa oge",
+    "original": "Nke mbụ",
+    "saved": "Echekwara!",
+    "sort": "Hazie",
+    "documents": "Akwụkwọ",
+    "document": "Akwụkwọ",
+    "please_wait": "Biko chere...",
+    "pickup": "Tụtụlite",
+    "customize": "hazie",
+    "difficulty": "Ihe isi ike",
+    "banned": "Amachibidoro",
+    "company": "Ụlọ ọrụ",
+    "tax_shipping": "Ụtụ Mbupu",
+    "warranty": "Akwụkwọ ikike",
+    "return_policy": "Iwu nloghachi",
+    "guide": "Nduzi",
+    "translate": "Tụgharịa asụsụ",
+    "public": "Ọha",
+    "deleted": "ehichapụ",
+    "variant": "Ọdịiche",
+    "secure": "Chekwaa",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Sochie",
     "change_state": "Gbanwee ọnọdụ",
     "done": "Emechaala",
-    "reply": "Zaghachi"
+    "reply": "Zaghachi",
+    "watch_now": "Lelee Ugbu a",
+    "unlock": "Mepee",
+    "lock": "Mkpọchi",
+    "create_clone": "Mepụta mmepụta oyiri",
+    "regenerate": "Megharịa",
+    "add_message": "Tinye ozi",
+    "continue_chat": "Gaa n'ihu nkata",
+    "add_new_message": "Tinye ozi ọhụrụ"
   },
   "instance_message_title": "Zipu ozi ozugbo",
   "instance_message": "Ndewo {name}, aha m bụ {author} sitere na {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Koodu nzi ozi",
     "enter_value": "Dejupụta ebe a",
     "address_note": "Rịba ama",
-    "tel": "Nọmba kọntaktị"
+    "tel": "Nọmba kọntaktị",
+    "service_address": "Họrọ adreesị gị"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "pound",
     "nkeji iri",
     "yad",
-    "ime ụlọ"
+    "ime ụlọ",
+    "sekọnd",
+    "nkeji",
+    "awa",
+    "ụbọchị",
+    "izu",
+    "ọnwa",
+    "afọ"
   ],
   "region_types": {
     "State": "Steeti",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Ogologo kacha nta ga-abụrịrị {length}",
     "invalid_min_array_length": "Opekempe họrọ ihe {length}",
     "invalid_max_chars": "mkpụrụedemede {maxCount} kacha",
-    "invalid_url": "URL ezighi ezi"
+    "invalid_url": "URL ezighi ezi",
+    "country_invalid": "Họrọ obodo ị na-aga!",
+    "postal_code_invalid": "Tọọ koodu nzi ozi bara uru!"
   },
   "colors": {
     "#D32F2F": "Uhie",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Ọcha",
     "#FFF": "Ọcha",
     "#000000": "Nwa",
-    "#000": "Nwa"
+    "#000": "Nwa",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Ọlaedo",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Ndị agha",
+    "#474747": "Asphalt",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Orange gbara ọkụ",
+    "#80011F": "Kadịnal",
+    "#382829": "Chocolate",
+    "#F06336": "Coral",
+    "#FAE7C9": "Ude",
+    "#6B2257": "Currant",
+    "#222127": "Ọchịchịrị Grey",
+    "#0D5A74": "Teal miri emi",
+    "#00582F": "Evergreen",
+    "#214C30": "Ohia",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Akwukwo",
+    "#558450": "Light Aqua",
+    "#96B5C9": "Acha anụnụ anụnụ",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "Oroma nkịrịsị",
+    "#9DE7C2": "Mint",
+    "#F6EAD2": "eke",
+    "#1A1F35": "Ndị agha mmiri",
+    "#404624": "Olive",
+    "#271020": "plọm",
+    "#A8355C": "Raspberị",
+    "#D6BEA6": "Ude dị nro",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Violet",
+    "#36454F": "Unyi",
+    "#b3b0ab": "carbon Grey",
+    "#463e3d": "Unyi ọkụ",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Aha",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Nọmba ụlọ",
     "building_unit": "Nkeji",
     "postcode": "Koodu nzi ozi",
-    "note": "Rịba ama"
+    "note": "Rịba ama",
+    "county": "Mpaghara"
   },
   "product_types": {
     "physical": "Anụ ahụ",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Agba",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Dị mfe",
       "selective": "Nhọrọ",
-      "switch": "Gbanwee"
-    }
+      "switch": "Gbanwee",
+      "file": "Faịlụ",
+      "number": "Nọmba"
+    },
+    "placeholder_input": "Onye njide",
+    "file_type_input": "Ụdị faịlụ anabatara",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Aha ngwaahịa",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Tinye mkpanaka gị",
     "verification_code": "Koodu nyocha",
     "msg_title": "Ndewo,",
-    "msg_body": "Biko banye. Ọ na-ewe naanị sekọnd ole na ole."
+    "msg_body": "Biko banye. Ọ na-ewe naanị sekọnd ole na ole.",
+    "login_apple": "Banye na Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "agbakwunyere mkpado"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Mgbagwoju anya nke ukwuu",
+    "hard": "siri ike",
+    "intermediate": "Ọkara",
+    "easy": "Mfe"
   }
 };

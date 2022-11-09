@@ -558,7 +558,52 @@ export default {
     "merchant": "Händler",
     "per_product": "Pro Produkt",
     "journey": "Reise",
-    "after": "Gemäß"
+    "after": "Gemäß",
+    "waiting_for_payment": "Bitte schließen Sie die Zahlung ab...",
+    "hour": "Stunde",
+    "minute": "Minute",
+    "premium": "Prämie",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "guest": "Gast",
+    "shops": "Shops",
+    "vendor": "Verkäufer",
+    "vendors": "Anbieter",
+    "marketplace": "Marktplatz",
+    "verify_date": "Datum überprüfen",
+    "note": "Notiz",
+    "panel": "Tafel",
+    "removed": "ENTFERNT",
+    "segments": "Segmente",
+    "personal_info": "Persönliche Informationen",
+    "preferences": "Einstellungen",
+    "spec": "Spez",
+    "reviews": "Bewertungen",
+    "constraints": "Einschränkungen",
+    "flexible": "Flexibel",
+    "usage_limit": "Nutzungslimit",
+    "temporary": "Vorübergehend",
+    "original": "Original",
+    "saved": "Gerettet!",
+    "sort": "Sortieren",
+    "documents": "Unterlagen",
+    "document": "Dokumentieren",
+    "please_wait": "Warten Sie mal...",
+    "pickup": "Aufsammeln",
+    "customize": "anpassen",
+    "difficulty": "Schwierigkeit",
+    "banned": "Verboten",
+    "company": "Unternehmen",
+    "tax_shipping": "Versandsteuer",
+    "warranty": "Garantie",
+    "return_policy": "Rücknahmegarantie",
+    "guide": "Führen",
+    "translate": "Übersetzen",
+    "public": "Öffentlich",
+    "deleted": "Gelöscht",
+    "variant": "Variante",
+    "secure": "Sicher",
+    "admin": "Administrator"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Schiene",
     "change_state": "Status ändern",
     "done": "Erledigt",
-    "reply": "Antwort"
+    "reply": "Antwort",
+    "watch_now": "Schau jetzt",
+    "unlock": "Freischalten",
+    "lock": "Sperren",
+    "create_clone": "Klon erstellen",
+    "regenerate": "Regenerieren",
+    "add_message": "Nachricht hinzufügen",
+    "continue_chat": "Chat fortsetzen",
+    "add_new_message": "Neue Nachricht hinzufügen"
   },
   "instance_message_title": "Sofortnachricht senden",
   "instance_message": "Hallo {name}, mein Name ist {author} von {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Postleitzahl",
     "enter_value": "Hier ausfüllen",
     "address_note": "Notiz",
-    "tel": "Kontakt Nummer"
+    "tel": "Kontakt Nummer",
+    "service_address": "Wählen Sie Ihre Adresse aus"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "Pfund",
     "Liter",
     "Meter",
-    "Zimmer"
+    "Zimmer",
+    "Sekunden",
+    "Protokoll",
+    "Std.",
+    "Tage",
+    "Wochen",
+    "Monate",
+    "Jahre"
   ],
   "region_types": {
     "State": "Bundesland",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Mindestlänge muss {length} sein",
     "invalid_min_array_length": "Wählen Sie mindestens {length} Elemente aus",
     "invalid_max_chars": "Maximal {maxCount} Zeichen",
-    "invalid_url": "ungültige URL"
+    "invalid_url": "ungültige URL",
+    "country_invalid": "Zielland auswählen!",
+    "postal_code_invalid": "Gültige Postleitzahl eingeben!"
   },
   "colors": {
     "#D32F2F": "Rot",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Weiß",
     "#FFF": "Weiß",
     "#000000": "Schwarz",
-    "#000": "Schwarz"
+    "#000": "Schwarz",
+    "#7d263a": "Kastanienbraun",
+    "#FD9F17": "Gold",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua-Triblend",
+    "#413B2D": "Heer",
+    "#474747": "Asphalt",
+    "#E6195C": "Beere",
+    "#B2184C": "Beeren-Triblend",
+    "#FC7F5F": "Gebranntes Orange",
+    "#80011F": "Kardinal",
+    "#382829": "Schokolade",
+    "#F06336": "Koralle",
+    "#FAE7C9": "Creme",
+    "#6B2257": "Johannisbeere",
+    "#222127": "Dunkelgrau",
+    "#0D5A74": "Tiefes Blaugrün",
+    "#00582F": "Immergrün",
+    "#214C30": "Wald",
+    "#DC2867": "Fuchsie",
+    "#38561": "Kelly",
+    "#5C884D": "Blatt",
+    "#558450": "Helles Aqua",
+    "#96B5C9": "Hellblau",
+    "#DCAFCE": "Lila",
+    "#D3E1A4": "Limette",
+    "#9DE7C2": "Minze",
+    "#F6EAD2": "Natürlich",
+    "#1A1F35": "Marine",
+    "#404624": "Olive",
+    "#271020": "Pflaume",
+    "#A8355C": "Himbeere",
+    "#D6BEA6": "Weiche Creme",
+    "#BEA994": "Bräunen",
+    "#0DB2AE": "Blaugrün",
+    "#A86EA9": "Violett",
+    "#36454F": "Holzkohle",
+    "#b3b0ab": "Kohlegrau",
+    "#463e3d": "Kohle Heide",
+    "#282d3c": "Marineblauer Blazer"
   },
   "address_info": {
     "name": "Name",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Hausnummer",
     "building_unit": "Einheit",
     "postcode": "Postleitzahl",
-    "note": "Notiz"
+    "note": "Notiz",
+    "county": "Bezirk"
   },
   "product_types": {
     "physical": "Physisch",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Farbe",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Einfach",
       "selective": "Selektiv",
-      "switch": "Schalten"
-    }
+      "switch": "Schalten",
+      "file": "Datei",
+      "number": "Nummer"
+    },
+    "placeholder_input": "Platzhalter",
+    "file_type_input": "Zulässige Dateitypen",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "Produktname",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Geben Sie Ihr Mobiltelefon ein",
     "verification_code": "Bestätigungs-Code",
     "msg_title": "Hi,",
-    "msg_body": "Bitte loggen Sie sich ein. Es dauert nur wenige Sekunden."
+    "msg_body": "Bitte loggen Sie sich ein. Es dauert nur wenige Sekunden.",
+    "login_apple": "Melden Sie sich bei Apple an"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Tags hinzugefügt"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Sehr kompliziert",
+    "hard": "Schwer",
+    "intermediate": "Mittlere",
+    "easy": "Einfach"
   }
 };

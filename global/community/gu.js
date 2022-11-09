@@ -65,7 +65,9 @@ export default {
     "my_feed": "મને",
     "blocked_message": "સુધી તમે અવરોધિત છો",
     "reported": "જાણ કરી",
-    "report": "જાણ કરો"
+    "report": "જાણ કરો",
+    "post": "પોસ્ટ",
+    "attach_file": "ફાઇલ જોડો"
   },
   "invite_message": "{user} એ તમને ફોરમ {community}માં આમંત્રિત કર્યા છે. તમારા મિત્રોના અવલોકનો વાંચવા અને તમારો અભિપ્રાય તેમની સાથે શેર કરવા માટે નીચેની લિંક પર ક્લિક કરો. હું તમારી રાહ જોઈ રહ્યો છું.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "મતદાન દૂર કરો",
     "take_screenshot": "કવર તરીકે લો",
     "take_link_msg": "ભૂતકાળની લિંક અહીં અને દાખલ કરો",
-    "eligible_title": "પોસ્ટ કરવા માટે લાયક બનવાના પગલાં"
+    "eligible_title": "પોસ્ટ કરવા માટે લાયક બનવાના પગલાં",
+    "public": "જાહેર"
   },
   "tips": {
     "verify_email": "તમારો ઈમેલ દાખલ કરો અને ચકાસો.",

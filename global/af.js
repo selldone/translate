@@ -558,7 +558,52 @@ export default {
     "merchant": "Handelaar",
     "per_product": "Per produk",
     "journey": "Reis",
-    "after": "Na"
+    "after": "Na",
+    "waiting_for_payment": "Voltooi asseblief betaling...",
+    "hour": "Uur",
+    "minute": "Minuut",
+    "premium": "Premie",
+    "light": "Lig",
+    "dark": "Donker",
+    "guest": "Gas",
+    "shops": "Winkels",
+    "vendor": "Verkoper",
+    "vendors": "Verkopers",
+    "marketplace": "Markplek",
+    "verify_date": "Verifieer datum",
+    "note": "Let wel",
+    "panel": "Paneel",
+    "removed": "Verwyder",
+    "segments": "Segmente",
+    "personal_info": "Persoonlike inligting",
+    "preferences": "Voorkeure",
+    "spec": "Spes",
+    "reviews": "Resensies",
+    "constraints": "Beperkings",
+    "flexible": "Buigsaam",
+    "usage_limit": "Gebruikslimiet",
+    "temporary": "Tydelik",
+    "original": "Oorspronklik",
+    "saved": "Gestoor!",
+    "sort": "Sorteer",
+    "documents": "Dokumente",
+    "document": "Dokument",
+    "please_wait": "Wag asseblief...",
+    "pickup": "Optel",
+    "customize": "pasmaak",
+    "difficulty": "Moeilikheid",
+    "banned": "Verban",
+    "company": "Maatskappy",
+    "tax_shipping": "Versendingsbelasting",
+    "warranty": "Waarborg",
+    "return_policy": "Retourbeleid",
+    "guide": "Gids",
+    "translate": "Vertaal",
+    "public": "Publiek",
+    "deleted": "Geskrap",
+    "variant": "Variant",
+    "secure": "Veilig",
+    "admin": "admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Spoor",
     "change_state": "Verander Status",
     "done": "Klaar",
-    "reply": "Antwoord"
+    "reply": "Antwoord",
+    "watch_now": "Kyk nou",
+    "unlock": "Ontsluit",
+    "lock": "Sluit",
+    "create_clone": "Skep kloon",
+    "regenerate": "Regenereer",
+    "add_message": "Voeg boodskap by",
+    "continue_chat": "Gaan voort om te klets",
+    "add_new_message": "Voeg nuwe boodskap by"
   },
   "instance_message_title": "Stuur kitsboodskap",
   "instance_message": "Hallo {name}, my naam is {author} van {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Poskode",
     "enter_value": "Vul hier in",
     "address_note": "Let wel",
-    "tel": "Kontak nommer"
+    "tel": "Kontak nommer",
+    "service_address": "Kies jou adres"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "pond",
     "kwarts",
     "meter",
-    "kamer"
+    "kamer",
+    "sekondes",
+    "minute",
+    "ure",
+    "dae",
+    "weke",
+    "maande",
+    "jare"
   ],
   "region_types": {
     "State": "Staat",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Minimum lengte moet {length} wees",
     "invalid_min_array_length": "Kies ten minste {length} items",
     "invalid_max_chars": "Maksimum {maxCount} karakters",
-    "invalid_url": "Ongeldige URL"
+    "invalid_url": "Ongeldige URL",
+    "country_invalid": "Kies bestemmingsland!",
+    "postal_code_invalid": "Stel geldige poskode in!"
   },
   "colors": {
     "#D32F2F": "Rooi",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Wit",
     "#FFF": "Wit",
     "#000000": "Swart",
-    "#000": "Swart"
+    "#000": "Swart",
+    "#7d263a": "Maroen",
+    "#FD9F17": "Goud",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Weermag",
+    "#474747": "Asfalt",
+    "#E6195C": "Bessie",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Oranje gebrand",
+    "#80011F": "Kardinaal",
+    "#382829": "Sjokolade",
+    "#F06336": "Koraal",
+    "#FAE7C9": "Room",
+    "#6B2257": "Korente",
+    "#222127": "Donkergrys",
+    "#0D5A74": "Diep Teal",
+    "#00582F": "Immergroen",
+    "#214C30": "Bos",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Blaar",
+    "#558450": "Ligte Aqua",
+    "#96B5C9": "Ligblou",
+    "#DCAFCE": "Lila",
+    "#D3E1A4": "Lemmetjie",
+    "#9DE7C2": "Munt",
+    "#F6EAD2": "Natuurlik",
+    "#1A1F35": "Vloot",
+    "#404624": "Olyf",
+    "#271020": "Pruim",
+    "#A8355C": "Framboos",
+    "#D6BEA6": "Sagte room",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Blauwgroen",
+    "#A86EA9": "Viooltjie",
+    "#36454F": "Houtskool",
+    "#b3b0ab": "koolstof grys",
+    "#463e3d": "Houtskool Heide",
+    "#282d3c": "Navy Baadjie"
   },
   "address_info": {
     "name": "Naam",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Gebou nommer",
     "building_unit": "Eenheid",
     "postcode": "Poskode",
-    "note": "Let wel"
+    "note": "Let wel",
+    "county": "County"
   },
   "product_types": {
     "physical": "Fisies",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Kleur",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Eenvoudig",
       "selective": "Selektief",
-      "switch": "Skakel oor"
-    }
+      "switch": "Skakel oor",
+      "file": "lêer",
+      "number": "Nommer"
+    },
+    "placeholder_input": "Plekhouer",
+    "file_type_input": "Aanvaarbare lêertipes",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Produk Naam",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Voer jou selfoon in",
     "verification_code": "Verifikasiekode",
     "msg_title": "Hi,",
-    "msg_body": "Meld asseblief aan. Dit neem net 'n paar sekondes."
+    "msg_body": "Meld asseblief aan. Dit neem net 'n paar sekondes.",
+    "login_apple": "Teken in met Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Merkers bygevoeg"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Baie ingewikkeld",
+    "hard": "Hard",
+    "intermediate": "Intermediêr",
+    "easy": "Maklik"
   }
 };

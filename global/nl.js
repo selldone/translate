@@ -558,7 +558,52 @@ export default {
     "merchant": "Handelaar",
     "per_product": "Per product",
     "journey": "Reis",
-    "after": "Na"
+    "after": "Na",
+    "waiting_for_payment": "Gelieve de betaling af te ronden...",
+    "hour": "Uur",
+    "minute": "Minuut",
+    "premium": "Premie",
+    "light": "Licht",
+    "dark": "Donker",
+    "guest": "Gast",
+    "shops": "Winkels",
+    "vendor": "Leverancier",
+    "vendors": "Verkoper",
+    "marketplace": "Marktplaats",
+    "verify_date": "Verifieer datum",
+    "note": "Opmerking",
+    "panel": "Paneel",
+    "removed": "VERWIJDERD",
+    "segments": "Segmenten",
+    "personal_info": "Persoonlijke informatie",
+    "preferences": "Voorkeuren",
+    "spec": "Specificaties",
+    "reviews": "Beoordelingen",
+    "constraints": "Beperkingen",
+    "flexible": "Flexibel",
+    "usage_limit": "Gebruikslimiet",
+    "temporary": "Tijdelijk",
+    "original": "Origineel",
+    "saved": "Opgeslagen!",
+    "sort": "Soort",
+    "documents": "Documenten",
+    "document": "Document",
+    "please_wait": "Even geduld aub...",
+    "pickup": "Raap op",
+    "customize": "aanpassen",
+    "difficulty": "moeilijkheidsgraad",
+    "banned": "verboden",
+    "company": "Bedrijf",
+    "tax_shipping": "Verzendbelasting:",
+    "warranty": "Garantie",
+    "return_policy": "TERUGSTUURBELEID",
+    "guide": "Gids",
+    "translate": "Vertalen",
+    "public": "Openbaar",
+    "deleted": "verwijderd",
+    "variant": "Variant",
+    "secure": "Zeker",
+    "admin": "beheerder"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Spoor",
     "change_state": "Verander status",
     "done": "Klaar",
-    "reply": "Antwoord"
+    "reply": "Antwoord",
+    "watch_now": "Kijk nu",
+    "unlock": "Ontgrendelen",
+    "lock": "Op slot doen",
+    "create_clone": "Kloon maken",
+    "regenerate": "regenereren",
+    "add_message": "Bericht toevoegen",
+    "continue_chat": "Doorgaan met chatten",
+    "add_new_message": "Nieuw bericht toevoegen"
   },
   "instance_message_title": "Stuur een expresbericht",
   "instance_message": "Hallo {name}, Mijn naam is {author} van {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "postcode",
     "enter_value": "Vul hier in",
     "address_note": "Opmerking",
-    "tel": "Contact nummer"
+    "tel": "Contact nummer",
+    "service_address": "Selecteer je adres"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "ponden",
     "kwartjes",
     "werven",
-    "kamer"
+    "kamer",
+    "seconden",
+    "minuten",
+    "uur",
+    "dagen",
+    "weken",
+    "maanden",
+    "jaar"
   ],
   "region_types": {
     "State": "Staat",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Minimale lengte moet {length} zijn",
     "invalid_min_array_length": "Selecteer in ieder geval {length} items",
     "invalid_max_chars": "Max {maxCount} tekens",
-    "invalid_url": "Ongeldige URL"
+    "invalid_url": "Ongeldige URL",
+    "country_invalid": "Selecteer het land van bestemming!",
+    "postal_code_invalid": "Stel een geldige postcode in!"
   },
   "colors": {
     "#D32F2F": "Rood",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Wit",
     "#FFF": "Wit",
     "#000000": "zwart",
-    "#000": "zwart"
+    "#000": "zwart",
+    "#7d263a": "Kastanjebruin",
+    "#FD9F17": "Goud",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Leger",
+    "#474747": "Asfalt",
+    "#E6195C": "BES",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "verbrande sinaasappel",
+    "#80011F": "Kardinaal",
+    "#382829": "Chocola",
+    "#F06336": "Koraal",
+    "#FAE7C9": "Room",
+    "#6B2257": "Bes",
+    "#222127": "Donker grijs",
+    "#0D5A74": "Diepe Teal",
+    "#00582F": "groenblijvend",
+    "#214C30": "Woud",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Blad",
+    "#558450": "Licht Aqua",
+    "#96B5C9": "Lichtblauw",
+    "#DCAFCE": "Lila",
+    "#D3E1A4": "Limoen",
+    "#9DE7C2": "Munt",
+    "#F6EAD2": "natuurlijk",
+    "#1A1F35": "Marine",
+    "#404624": "Olijf",
+    "#271020": "Pruim",
+    "#A8355C": "Framboos",
+    "#D6BEA6": "Zachte Crème",
+    "#BEA994": "Bruinen",
+    "#0DB2AE": "Wintertaling",
+    "#A86EA9": "paars",
+    "#36454F": "Houtskool",
+    "#b3b0ab": "koolstofgrijs",
+    "#463e3d": "Houtskoolheide",
+    "#282d3c": "Marineblauwe blazer"
   },
   "address_info": {
     "name": "Naam",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Gebouwnummer",
     "building_unit": "Eenheid",
     "postcode": "postcode",
-    "note": "Opmerking"
+    "note": "Opmerking",
+    "county": "District"
   },
   "product_types": {
     "physical": "Fysiek",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Kleur",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Gemakkelijk",
       "selective": "Selectief",
-      "switch": "Schakelaar"
-    }
+      "switch": "Schakelaar",
+      "file": "Bestand",
+      "number": "Nummer"
+    },
+    "placeholder_input": "Tijdelijke aanduiding",
+    "file_type_input": "Aanvaardbare bestandstypen",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "productnaam",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Vul je mobiel in",
     "verification_code": "Verificatie code",
     "msg_title": "Hoi,",
-    "msg_body": "Log alsjeblieft in. Het duurt slechts een paar seconden."
+    "msg_body": "Log alsjeblieft in. Het duurt slechts een paar seconden.",
+    "login_apple": "Inloggen met Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Tags toegevoegd"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Erg ingewikkeld",
+    "hard": "Moeilijk",
+    "intermediate": "Tussenliggend",
+    "easy": "Eenvoudig"
   }
 };

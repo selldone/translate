@@ -155,7 +155,19 @@ export default {
       "Setup": "denda",
       "Sell": "Salmenta eta marketina",
       "Developer": "Garatu",
-      "Application": "Aplikazioak"
+      "Application": "Aplikazioak",
+      "Product": "Produktuen eta kategorien kudeaketa",
+      "Blog": "CMS eta bloga",
+      "Order": "Eskaerak betetzeko zentroa",
+      "Channel": "Salmenta Kanalak",
+      "Accounting": "Kontabilitatea eta Ordainketa Metodoak",
+      "Incentives": "Pizgarriak",
+      "Marketing": "Marketing eta kanpainak",
+      "Logistic": "Logistika eta Bidalketa",
+      "Customers": "Bezeroen Kluba eta Segmentazioa",
+      "Page": "Lurreratze eta pertsonalizatutako orriak",
+      "Access": "Langileak / API Sarbideen Kudeaketa",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github biltegia",
@@ -193,7 +205,9 @@ export default {
       "stores": "Dendak",
       "roles": "Rolak",
       "home": "Hasiera",
-      "expert": "Aditua"
+      "expert": "Aditua",
+      "deals": "Eskaintzak",
+      "providers": "Hornitzaileak"
     },
     "shops": {
       "create_new": "Sortu denda berria",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Egoera",
           "created_at": "Sortze Data",
           "updated_at": "Azken eguneratzea"
-        }
+        },
+        "subtitle": "Idatzi artikuluak lineako editore moderno batekin zeure burua eta zure negozioa aurkezteko. Jatorrizko edukia da kalitate handiko SEO errespetatzen duen blog-mezu bat idaztean arreta jarri behar duzun lehen gauza."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Txostena",
         "tax": "Zerga",
         "drop_shipping": "Bersaltzaileen ordainagiriak",
-        "reseller_accounts": "Saltzaileen kontuak"
+        "reseller_accounts": "Saltzaileen kontuak",
+        "valuations": "Balorazioak"
       },
       "invoice": {
         "title": "Erosi lotutako zorroak",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Bidalketa",
         "inventory": "Inbentarioa",
         "warehouse": "Biltegia",
-        "logistic_apps": "Logistika"
+        "logistic_apps": "Logistika",
+        "profiles": "Profilak"
       },
       "warehouse": {
         "title": "Denda Biltegia",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Eskaeraren gutxieneko kostua doan bidaltzeko",
           "notifications": {
             "update_success": "Bidalketa-zerbitzuaren ezarpenak behar bezala osatu dira."
-          }
+          },
+          "shipping_cost_calculation": "Bidalketa kostuen kalkulua",
+          "sod_true": "Lortu bidalketa kostua helmugan",
+          "sod_true_message": "Ziurtatu zure bidalketa zerbitzuak helmugan bidalketa-kostuak onartzen dituela.",
+          "sod_false": "Bidalketa kostuen kalkulua automatikoa",
+          "cod_true": "Onartu eskudirua entregatzerakoan",
+          "cod_false": "Onartu lineako ordainketa soilik",
+          "cod_true_message": "Ziurtatu zure bidalketa zerbitzuak COD onartzen duela."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "Posta elektronikoa",
         "domain": "Domeinua",
-        "verifications": "Egiaztapenak"
+        "verifications": "Egiaztapenak",
+        "flow": "Emaria",
+        "business_model": "Negozio Eredua"
       },
       "delete_dialog": {
         "title": "Ezabatu denda",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Produktu-unitatea",
       "unit_float": "Flotatzailea (laster)",
       "unit_float_hint": "Esaterako, bezeroak 3 kg fruta eska ditzake, baina bezeroari bidalitako zenbatekoa apur bat desberdina da eskatutakoaren aldean.",
-      "unit_float_message": "Eskaerak prozesatzen diren bitartean, entregatutako zenbatekoa eskatutakoaren desberdina izan daiteke. Sistemak automatikoki kalkulatzen du diferentzia hori eta bezeroarekin duzun zor gisa erregistratzen du, hurrengo eskaeretan aplikatu ahal izateko."
+      "unit_float_message": "Eskaerak prozesatzen diren bitartean, entregatutako zenbatekoa eskatutakoaren desberdina izan daiteke. Sistemak automatikoki kalkulatzen du diferentzia hori eta bezeroarekin duzun zor gisa erregistratzen du, hurrengo eskaeretan aplikatu ahal izateko.",
+      "status_list": {
+        "active": {
+          "title": "Aktiboa | Lineako eta lineaz kanpoko salmentak",
+          "description": "Produktu hau lineako eskaerak egiteko eskuragarri egongo da."
+        },
+        "inactive": {
+          "title": "Inaktibo | Lineaz kanpoko salmentak bakarrik",
+          "description": "Produktu hau ez da eskuragarri egongo lineako eskaerak egiteko."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Inkesta",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Hautatu amaiera-ordua",
       "independent_price": "Prezioa aldaera honetarako bakarrik",
       "same_price": "Produktu nagusiaren prezioa",
-      "variant_pricing_message": "Aukera hau hautatuta, aldaera honen prezioa produktu nagusiaren arabera ezar daiteke."
+      "variant_pricing_message": "Aukera hau hautatuta, aldaera honen prezioa produktu nagusiaren arabera ezar daiteke.",
+      "price_label_input": "Prezioaren etiketa",
+      "price_label_message": "Gehitu prezioari buruzko informazio gehiago ($1,5/Fl Oz). Erabilera kasuak: janaria, FMCG.",
+      "add_price_label_action": "Gehitu prezioaren etiketa"
     },
     "inputs_edit": {
       "title": "Eroslearen informazioa sartzeko formularioa",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "{gateway_name} atea editatu da."
     },
-    "developer_setting": "Garatu eta probatu"
+    "developer_setting": "Garatu eta probatu",
+    "live_mode_message": "Transakzio guztiak zuzeneko moduan izango dira."
   },
   "gift_card": {
     "title": "Opari Txartelak",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Erosleak editatutako fakturazio helbidea.",
     "payment-cod-confirm": "COD ordainketa berretsi da.",
     "payment-cash-confirm": "Fakturaren {amount} {currency} eskudirutan ordaintzea berretsi da.",
-    "payment-dir-confirm": "Ordainketa zuzenaren ordainagiria berretsi da."
+    "payment-dir-confirm": "Ordainketa zuzenaren ordainagiria berretsi da.",
+    "vendor": "Saltzaileen eskaeraren egoera <b>{from}</b> -tik <b>{to}</b> -ra aldatu da.",
+    "connect-sync": "Connect OS-k sinkronizatutako eskaera.",
+    "connect-shipped": "Konektatzeko eskaera {shipping}-k bidali du.",
+    "connect-returned": "Konektatzeko eskaera {shipping} itzuli da.",
+    "connect-failed": "Eskaera betetzea huts egin du bazkideak. {reason}",
+    "connect-canceled": "Eskaera bertan behera utzi zuen bazkideak. {reason}",
+    "connect-action-cancel": "Eskaera bertan behera uzteko eskaera. {reason}",
+    "connect-put-hold": "Agindua eten egin zen. {reason}",
+    "connect-remove-hold": "Agindua atxikipenetik kendu da. {reason}",
+    "connect-confirmed": "Agindua baieztatu zen.",
+    "email-vendor": "🔔 Eskaera jakinarazteko mezu elektronikoa bidali da <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Gaur",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Dirua irabazi",
     "menu": {
       "plans": "Planoak",
-      "accounts": "Kontuak"
+      "accounts": "Kontuak",
+      "participant": "Parte-hartzailea"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Biltegira sartzeko gakoak",
     "shop_keys_message": "Gako hauek zure zerbitzariak Sarbide Tokena sortzeko erabiltzen ditu. Kontuan izan gakoak isilpekoak direla eta zerbitzarian soilik jartzen direla, besteek ikus ez dezaten.",
     "personal_keys_title": "Sarbide-gako pertsonalak",
-    "personal_keys_message": "Hemen sor ditzakezu zure konturako giltzak. Kontuan izan gako hauek zure kontuan sartu ahal izango direla. Sortu eta erabili tekla hauek zer egiten ari zaren zehatz-mehatz badakizu."
+    "personal_keys_message": "Hemen sor ditzakezu zure konturako giltzak. Kontuan izan gako hauek zure kontuan sartu ahal izango direla. Sortu eta erabili tekla hauek zer egiten ari zaren zehatz-mehatz badakizu.",
+    "clients_title": "Bezeroak",
+    "clients_message": "Gako hauek zure zerbitzariak Sarbide Tokena sortzeko erabiltzen ditu. Kontuan izan gakoak isilpekoak direla eta zerbitzarian soilik jartzen direla, besteek ikus ez dezaten."
   },
   "user_security_control": {
     "title": "Kontuaren Segurtasuna",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Kudeatu profilak",
       "description": "Kudeatu dendako profilak."
+    },
+    "shop-discount-code": {
+      "name": "Deskontu-kodeen kudeaketa",
+      "description": "Kudeatu, editatu eta gehitu dendako deskontu kodeak."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Ezarpenak",
       "change": "Kargatu",
       "transfer": "Transferentzia",
-      "transactions": "Transakzioak"
+      "transactions": "Transakzioak",
+      "charge": "Kargatu",
+      "history": "Historia"
     },
     "transactions": {
       "title": "Kontuko Transakzioak",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Utzi harpidetzaren berrespena",
       "message": "Ziur harpidetza bertan behera utziko duzula?",
       "action": "Utzi harpidetza"
-    }
+    },
+    "use_voucher_now": "Erabili bonoa orain",
+    "validity_duration": "Indarraldiaren iraupena",
+    "validity_duration_hint": "12 hilabeteko lizentzia erosiz gero, %30eko deskontua izango duzu."
   },
   "admin_shop_layout": {
     "download_txt": "Deskargatu datuen testua",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Letra-tipo handiak",
     "large_font_message": "Erakutsi testua normala baino handiagoa",
     "samples": "Erakutsi lagin-dendak",
-    "samples_message": "Gaituta badago, lagin-denda batzuk bistaratuko dira zure panelean."
+    "samples_message": "Gaituta badago, lagin-denda batzuk bistaratuko dira zure panelean.",
+    "automation": "Automatizazioa",
+    "automation_message": "Erakutsi automatizazio fitxa dendako panelean. (Webhook-ak, Programazio bisuala, ...)"
   },
   "shop_locations": {
     "title": "Zerbitzua ematen den herrialdeak",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kupoia behar bezala ezabatu da."
-    }
+    },
+    "multiple_use": "Erabilera anitz"
   },
   "coupon_edit": {
     "title_edit": "Editatu kupoia",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Muga",
       "description": "Ezarri gehienezko erabiltzaile kopuruari muga bat."
+    },
+    "SEGMENTS": {
+      "title": "Segmentuak",
+      "description": "Mugatu bezeroak eskuzko segmentazio espezifikoan."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Eskaeraren zenbateko osoa opari-txarteletatik kendu da! Erosleak ez du gehiago ordaindu behar.",
       "cod_msg": "Bezeroak eskaera jasotzean ordainduko du.",
       "online_msg": "Eskatu bezeroari QR kodea eskaneatzeko bezeroaren pantailan."
-    }
+    },
+    "name": "POS",
+    "message": "Izan ezazu zero konfigurazio kostua lineako salmenta-puntutik, exekutatu edozein telefonotan, tabletan eta ordenagailutan edo sortu eskuz eskaerak."
   },
   "exporter": {
     "title": "Esportatu datuak",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Bidali zerbitzarira",
     "shop_license": "Denda lizentzia",
     "max_items_limit": "Gehienezko elementuen muga",
-    "total_items": "Elementuak guztira"
+    "total_items": "Elementuak guztira",
+    "customer": {
+      "title": "Inportatu bezeroak",
+      "subtitle": "Kargatu hemen bezeroen CSV fitxategiak. Ziurtatu formatu estandarra jarraitzen duzula eta, gainera, pribatutasun-arauak jarraitu behar dituzula."
+    }
   },
   "campaigns": {
     "title": "Kanpainak",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Estekak",
     "light_checkout": "Ordainketa gai arina",
     "light_header": "Goiburu argia",
-    "light_footer": "Oin arina"
+    "light_footer": "Oin arina",
+    "product_page": "Produktuen Orria",
+    "typography": "Tipografia",
+    "header": "Goiburua",
+    "custom_code": "Kode pertsonalizatua",
+    "custom_css": "CSS pertsonalizatua"
   },
   "app_templates": {
     "default": "Lehenetsia",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Zerbitzua kudeatu",
     "option_deliver_by_courier": "1. aukera: entregatu zure mezulariekin.",
     "option_add_to_que": "2. aukera: Gehitu ilarara bidalketa-zerbitzuaren orrian prozesatzeko.",
-    "option_instant_shipping": "3. aukera: Berehalako bidalketa."
+    "option_instant_shipping": "3. aukera: Berehalako bidalketa.",
+    "pickup_action": "Bilketa berrespena"
   },
   "shop_home_edit": {
     "title": "Hasierako orriaren ezarpena",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Produktua zure dendan gehitu da.",
       "request_access": "Zure sarbide-eskaera handizkariari behar bezala bidali diogu."
-    }
+    },
+    "show_eligible_shops_message": "Erakutsi denda egokiak"
   },
   "product_dropshipping": {
     "need_re_enable": "Produktu hau jatorrizko saltzaileak aldatu du, prezio aldaketa hauek produktua desgaitu dute zure dendan. Egiaztatu aldaketak eta produktua berriro aktibatzea onartzen baduzu, sakatu beheko botoia.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Ez dago kategoriarik zure dendan.",
       "limit": "Produktuen muga",
       "limit_message": "Idatzi produktuen emaitza kopuruak",
-      "select_categories": "Hautatu eskuragarri dauden kategoriak"
+      "select_categories": "Hautatu eskuragarri dauden kategoriak",
+      "categories_limit": "Kategorien muga",
+      "categories_limit_msg": "Sartu gehienezko kategorien kopurua. Ezarri zero mugarik gabe."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avocado behar bezala eguneratu da.",
       "add_success": "Ahuakatea arrakastaz sortu da."
-    }
+    },
+    "name": "Ahuakatea"
   },
   "avocado_orders": {
     "title": "Ahuakatea",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "inaktibo",
     "active_message": "Aukera hau gaituz gero, salmenta-kode bizkorrak sortzeko aukera produktu bakoitzaren kudeaketa atalean bistaratuko da.",
     "hyper_form_link_message": "Zure dendaren hiper-orriaren esteka",
-    "configuration": "Hiper ezarpenak"
+    "configuration": "Hiper ezarpenak",
+    "name": "Hipera"
   },
   "hyper_orders": {
     "title": "Hipera",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Bezeroen demografia",
     "subtitle": "Iragazi eta esportatu zure bezeroen datuak erabaki hobeak hartzeko balio gehiago emateko marketin gutxiagorekin! Mesedez, errespetatu zure bezeroen pribatutasuna eta ez bidali inoiz posta elektroniko masiboa haiei! Ez partekatu inoiz zure bezeroen informazioa hirugarrenen zerbitzuekin haietako bakoitzaren baimenik gabe."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Jasotzeko helbideak",
+      "subtitle": "Gehitu eta editatu jasotzeko helbideak hemen. Erabiltzaileek jasotzeko helbidea hautatu ahal izango dute ordainketa orrian.",
+      "add_action": "Gehitu kokapen berria"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Afiliatua POS",
+    "open_pos_action": "Eskaera azkarra POS",
+    "description": "Aukera hau Instagram orrialdeetako eta beste sare sozialetako administratzaileentzat egokia da. Erabili Affiliate POS bezeroen eskaerak eskuz jasotzeko eta gehitzeko. Zure afiliatuek (edo frankiziek) eskaera berriak gehi ditzakete Affiliate POS-n eta gordailu-agiria igo."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Saioa hasteko metodoak",
+      "subtitle": "Pertsonalizatu erabiltzaileak zure dendan saioa hasteko modua."
+    },
+    "checkout": {
+      "title": "Ordainketa-fluxua",
+      "subtitle": "Pertsonalizatu zure bezeroen bidaia eta erosketa-fluxua zure merkataritza elektronikoan.",
+      "map": {
+        "title": "Mapa",
+        "subtitle": "Erabiltzaileek mapan bidaltzeko kokapena aukeratu behar dute (Uber bezala).",
+        "subtitle_no_map": "Bidalketa kalkuluan distantzia zero hartzen da kokapena bezeroak emandako helbidean ez badago."
+      },
+      "mode": {
+        "title": "Bezeroen saioa hasteko puntua",
+        "default": {
+          "title": "ASAP (lehenetsia)",
+          "msg": "Erabiltzaileak ahalik eta azkarren hasten dira saioa. (Bihurketa gehiago)"
+        },
+        "on_checkout": {
+          "title": "Ordaintzean",
+          "msg": "Behartu erabiltzaileak ordaintzeko urratsean saioa hastera."
+        },
+        "login_free": {
+          "title": "Aukerako saioa hasteko",
+          "msg": "Aukerako saioa hasteko eskaera ordaindu ondoren.."
+        }
+      },
+      "express": {
+        "title": "Birbideratu saskira gehitu ondoren",
+        "false": {
+          "title": "Modu normala",
+          "msg": "Jarraitu orrialdean eta jarraitu erosketak gehitu saskira gehitu ondoren."
+        },
+        "true": {
+          "title": "Express modua",
+          "msg": "Birbideratu bezeroa ordainketa orrira gehitu saskira egin ondoren."
+        }
+      },
+      "shipping_address": {
+        "title": "Eskatu bidalketa helbidea"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fisikoa eta Zerbitzua (lehenetsia)",
+      "desc": "Eskatu bezeroari helbide bat sartzeko kutxa fisikoetan eta zerbitzuetan."
+    },
+    "physical": {
+      "title": "Fisikoa bakarrik",
+      "desc": "Eskatu bezeroari helbide bat sartzeko ordainketa fisikoan soilik."
+    },
+    "off": {
+      "title": "Inoiz ez",
+      "desc": "Inoiz ez eskatu bidalketa helbidea. ⚠ Erabili aukera hau aldaerak dituzten zerbitzuak edukitzeko asmoa baduzu produktuen mota fisikoa hautatuz zerbitzu motaren ordez."
+    }
+  },
+  "business_model": {
+    "title": "Negozio-ereduaren ezarpena",
+    "subtitle": "Ezarri zure negozio-eredua, eta zure OS konfiguratuko dugu atzean."
+  },
+  "business_type": {
+    "title": "Merkantzia motak",
+    "subtitle": "Ezarri zure dendan saldu nahi duzun produktu mota. Selldoneko produktu motak produktu mota bat baino gehiago dira; betetzeko prozedurari buruz gehiago da.",
+    "send_activation_request_to_support": "Bidali aktibazio-eskaera laguntza-txartel batean.",
+    "require_kyc": "Enpresa jabea KYC.",
+    "needs_enterprise_license": "Enterprise lizentzia izan behar duzu.",
+    "marketplace_caution_message": "Ezarri Marketplace zure eredu gisa zure negozioaren sistema eragilearen konfigurazioan eragin handia du. Adibidez, saltzaile bat definitu behar duzu produktu bakoitzeko prezio eta inbentario independenteekin. Bezeroek ezin dituzte saltzailerik ez duten produktuak erosi."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Denda Normala",
+      "desc": "Normalean, ETE bat, etxeko negozioa edo dropshipper bat - bere produktua bezeroei zuzenean saltzen diena edo handizkarien produktuak saltzaile gisa saltzen dituena."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Ez gorde produkturik eta ez inbentariorik: hirugarren bati ordaintzen diozu, normalean handizkari bati (printify, Wholesale2B, ...) edo fabrikatzaile bati, eta eskariak atzean betetzen dituzte."
+    },
+    "wholesaler": {
+      "title": "Dropshipping hornitzailea",
+      "desc": "Normalean handizkaria edo fabrikatzailea - azken kontsumitzaileari eskaerak zuzenean bidaltzen dizkiona. Selldoneko beste merkatariek zure produktuak beren dendetan bidal ditzakete."
+    },
+    "marketplace": {
+      "title": "Merkatua",
+      "desc": "Lineako merkatuek erosleak eta saltzaileak lotzen dituzte plataforma jabedun eta zentralizatu batean."
+    },
+    "franchise": {
+      "title": "Frankizia / Afiliatua",
+      "desc": "Frankizia bat zure marka ezartzen duen (frankizia) edo zure produktuak bere markaren bidez saltzen dituen (Afiliatua) produktuak edo zerbitzuak banatzeko metodo bat da."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Diru-zorroak",
+    "pricing_models": "Prezioak",
+    "add_vendor": "Gehitu saltzailea",
+    "requests": "Eskaerak"
+  },
+  "price_input_type": {
+    "title": "Prezioa sarrera mota",
+    "default": {
+      "title": "Lehenetsia",
+      "desc": "Hautatu balio bat saskiko kantitate gisa."
+    },
+    "area": {
+      "title": "Eremua",
+      "desc": "Sartu zabalera eta luzera sarrera gisa kantitatea kalkulatzeko."
+    },
+    "volume": {
+      "title": "bolumena",
+      "desc": "Sartu zabalera, luzera eta altuera sarrera gisa kantitatea kalkulatzeko."
+    },
+    "custom": {
+      "title": "Pertsonalizatua (sarrera-inprimakiaren bidez)",
+      "desc": "Ez da ehunka aldaera behar! Sortu kostu pertsonalizatuak kalkulatzeko inprimakia oso pertsonalizagarriak diren produktuetarako."
+    }
+  },
+  "vendors_list": {
+    "title": "Nire saltzaileak",
+    "message": "Nire saltzaileen zerrenda."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Konektatu hainbat domeinu zure negozioko sistema eragilera eta kudeatu horiek guztiak leku bakarrean. Domeinu anitz funtzioa erabil dezakezu zure webguneko atal bakoitzerako domeinu dedikatuak sortzeko, bloga eta komunitatea adibidez, edo domeinu desberdinak erabil ditzakezu zure afiliatuentzat."
+  },
+  "notes": {
+    "add_action": "Gehitu ohar bat zure taldearentzat",
+    "notifications": {
+      "success_add": "Oharra behar bezala gehitu da.",
+      "success_delete": "Oharra behar bezala ezabatu da."
+    }
+  },
+  "external_services": {
+    "title": "Kanpoko zerbitzuak",
+    "subtitle": "Jarraitu hemen kanpoko zerbitzuen azken egoera, hala nola SMSak eta posta elektronikoak."
   }
 };

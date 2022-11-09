@@ -105,7 +105,11 @@ export default {
     "related_products_title": "produk sing gegandhengan",
     "price": "Rega",
     "rate": "Rate",
-    "comment": "Komentar"
+    "comment": "Komentar",
+    "warranty": "Garansi",
+    "return_policy": "Kawicaksanan bali",
+    "guide": "Panuntun",
+    "shipping": "Pengiriman"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Pesenan sampeyan wis sukses.",
       "delete_success": "Item dibusak."
-    }
+    },
+    "select_address_message": "Mangga ketik alamat sampeyan, banjur sampeyan bisa ngirim pesenan."
   },
   "hyper": {
     "title": "Nggawe pesenan",
@@ -541,5 +546,19 @@ export default {
       "message": "Sampeyan wis nemtokake biaya kanggo item iki. Sampeyan bisa ngganti jumlah daya kanggo item sing dituku dening customer.",
       "charge": "Ngisi daya"
     }
+  },
+  "check_access": {
+    "waiting_message": "Nunggu kanggo mriksa akses...",
+    "no_access_message": "Sayange, sampeyan ora duwe akses menyang toko kita.<br/> Mangga hubungi kita."
+  },
+  "share_order": {
+    "action": "Nuduhake pesenan",
+    "title": "Nuduhake pesenan iki karo wong liya.",
+    "message": "Iki minangka tautan sing aman, mung bareng karo sing sampeyan kenal. Kabeh wong sing duwe link iki bisa nggawe duplikat pesenan lan ndeleng alamat sing dipilih. Bakal ngemot informasi babagan cart sampeyan saiki.",
+    "valid_period": "Link iki bakal kadaluwarsa sawise 48 jam.",
+    "import_order_action": "pesenan impor",
+    "retrieve_dialog_title": "Njupuk urutan njaba",
+    "address_included": "Nuduhake item basket + Alamat",
+    "address_excluded": "Nuduhake mung item basket"
   }
 };

@@ -65,7 +65,9 @@ export default {
     "my_feed": "'Na",
     "blocked_message": "U thibetsoe ho fihlela",
     "reported": "E tlalehiloe",
-    "report": "Tlaleho"
+    "report": "Tlaleho",
+    "post": "Poso",
+    "attach_file": "Hokela faele"
   },
   "invite_message": "{user} o u memetse ho sethaleng {community}. Tobetsa sehokelong se ka tlase ho bala maikutlo a metsoalle ea hau le ho arolelana maikutlo a hau le bona. Ke u emetse.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Tlosa khetho",
     "take_screenshot": "Nka joalo ka sekoahelo",
     "take_link_msg": "Sehokelo se fetileng mona 'me u kenye",
-    "eligible_title": "Mehato e loketseng ho beha"
+    "eligible_title": "Mehato e loketseng ho beha",
+    "public": "Phatlalatsa"
   },
   "tips": {
     "verify_email": "Kenya 'me u netefatse lengolo-tsoibila la hau.",

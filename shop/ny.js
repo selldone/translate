@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Zogwirizana nazo",
     "price": "Mtengo",
     "rate": "Mtengo",
-    "comment": "Ndemanga"
+    "comment": "Ndemanga",
+    "warranty": "Chitsimikizo",
+    "return_policy": "Mfundo PAZAKABWEZEDWE",
+    "guide": "Wotsogolera",
+    "shipping": "Manyamulidwe"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Oda yanu idapangidwa bwino.",
       "delete_success": "Chinthu chafufutidwa."
-    }
+    },
+    "select_address_message": "Chonde lowetsani adilesi yanu, ndiyeno mutha kutumiza oda."
   },
   "hyper": {
     "title": "Kuyitanitsa kupanga",
@@ -541,5 +546,19 @@ export default {
       "message": "Mwatchula mtengo wa chinthuchi. Mutha kusintha kuchuluka kwa mtengo wazinthu zomwe zagulidwa ndi kasitomala.",
       "charge": "Kulipiritsa"
     }
+  },
+  "check_access": {
+    "waiting_message": "Tikudikirira kuwona mwayi wofikira...",
+    "no_access_message": "Tsoka ilo, mulibe mwayi wopita kusitolo yathu.<br/> Chonde titumizireni."
+  },
+  "share_order": {
+    "action": "Gawani dongosolo",
+    "title": "Gawani izi ndi ena.",
+    "message": "Ndi ulalo wotetezedwa, gawanani ndi omwe mumawadziwa okha. Aliyense amene ali ndi ulalowu akhoza kutengera zomwe mwaitanitsa ndikuwona adilesi yomwe mwasankha. Zikhala ndi zambiri zangolo yanu yamakono.",
+    "valid_period": "Ulalo uwu utha pakatha maola 48.",
+    "import_order_action": "Kuitanitsa kunja",
+    "retrieve_dialog_title": "Pezani dongosolo lakunja",
+    "address_included": "Gawani zinthu za basket + Adilesi",
+    "address_excluded": "Gawani zinthu zamabasiketi okha"
   }
 };

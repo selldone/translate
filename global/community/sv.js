@@ -65,7 +65,9 @@ export default {
     "my_feed": "Mig",
     "blocked_message": "Du är blockerad till",
     "reported": "Rapporterad",
-    "report": "Rapportera"
+    "report": "Rapportera",
+    "post": "Posta",
+    "attach_file": "Bifoga fil"
   },
   "invite_message": "{user} har bjudit in dig till forumet {community}. Klicka på länken nedan för att läsa dina vänners observationer och dela din åsikt med dem. Jag väntar på dig.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Ta bort omröstning",
     "take_screenshot": "Ta som skydd",
     "take_link_msg": "Tidigare länk här och gå in",
-    "eligible_title": "Steg för att berättiga till inlägg"
+    "eligible_title": "Steg för att berättiga till inlägg",
+    "public": "offentlig"
   },
   "tips": {
     "verify_email": "Ange och verifiera din e-post.",

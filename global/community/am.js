@@ -65,7 +65,9 @@ export default {
     "my_feed": "እኔ",
     "blocked_message": "ድረስ ታግደዋል::",
     "reported": "ሪፖርት ተደርጓል",
-    "report": "ሪፖርት አድርግ"
+    "report": "ሪፖርት አድርግ",
+    "post": "ለጥፍ",
+    "attach_file": "ፋይል አያይዝ"
   },
   "invite_message": "{user} ወደ መድረክ {community} ጋብዞሃል። የጓደኞቻችሁን ምልከታ ለማንበብ እና አስተያየትዎን ለነሱ ለማካፈል ከስር ያለውን ሊንክ ይጫኑ። እየጠበኩህ ነው።",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "የሕዝብ አስተያየትን ያስወግዱ",
     "take_screenshot": "እንደ ሽፋን ይውሰዱ",
     "take_link_msg": "ያለፈው አገናኝ እዚህ እና ያስገቡ",
-    "eligible_title": "ለመለጠፍ ብቁ የሚሆኑ ደረጃዎች"
+    "eligible_title": "ለመለጠፍ ብቁ የሚሆኑ ደረጃዎች",
+    "public": "የህዝብ"
   },
   "tips": {
     "verify_email": "ኢሜልዎን ያስገቡ እና ያረጋግጡ።",

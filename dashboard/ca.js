@@ -155,7 +155,19 @@ export default {
       "Setup": "botiga",
       "Sell": "Vendes",
       "Developer": "Desenvolupar",
-      "Application": "Aplicacions"
+      "Application": "Aplicacions",
+      "Product": "Gestió de Productes i Categories",
+      "Blog": "CMS i bloc",
+      "Order": "Centre de compliment de comandes",
+      "Channel": "Canals de venda",
+      "Accounting": "Comptabilitat i mètodes de pagament",
+      "Incentives": "Incentius",
+      "Marketing": "Màrqueting i campanyes",
+      "Logistic": "Logística i enviament",
+      "Customers": "Club de clients i segmentació",
+      "Page": "Pàgines de destinació i personalitzades",
+      "Access": "Gestió d'accés de personal / API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Repositori Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Botigues",
       "roles": "Rols",
       "home": "a casa",
-      "expert": "Expert"
+      "expert": "Expert",
+      "deals": "Ofertes",
+      "providers": "Proveïdors"
     },
     "shops": {
       "create_new": "Crea una botiga nova",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Estat",
           "created_at": "Data de creació",
           "updated_at": "Darrera actualització"
-        }
+        },
+        "subtitle": "Escriu articles amb un editor en línia modern per presentar-te a tu mateix i al teu negoci. El contingut original és el primer en què cal centrar-se a l'hora d'escriure una publicació de blog d'alta qualitat compatible amb SEO."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Informe",
         "tax": "Impost",
         "drop_shipping": "Rebuts de distribuïdor",
-        "reseller_accounts": "Comptes de distribuïdor"
+        "reseller_accounts": "Comptes de distribuïdor",
+        "valuations": "Valoracions"
       },
       "invoice": {
         "title": "Compreu carteres vinculades",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Enviament",
         "inventory": "Inventari",
         "warehouse": "Magatzem",
-        "logistic_apps": "Logística"
+        "logistic_apps": "Logística",
+        "profiles": "Perfils"
       },
       "warehouse": {
         "title": "Magatzem Botiga",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Cost de comanda mínim per a l'enviament gratuït",
           "notifications": {
             "update_success": "La configuració del servei d'enviament s'ha completat correctament."
-          }
+          },
+          "shipping_cost_calculation": "Càlcul de les despeses d'enviament",
+          "sod_true": "Obteniu el cost d'enviament a la destinació",
+          "sod_true_message": "Assegureu-vos que el vostre servei d'enviament accepti el cost d'enviament a la destinació.",
+          "sod_false": "Càlcul automàtic de costos d'enviament",
+          "cod_true": "Accepta contra reemborsament",
+          "cod_false": "Accepteu només el pagament en línia",
+          "cod_true_message": "Assegureu-vos que el vostre servei d'enviament accepti contra reemborsament."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "Sms",
         "email": "Correu electrònic",
         "domain": "Domini",
-        "verifications": "Verificacions"
+        "verifications": "Verificacions",
+        "flow": "Flux",
+        "business_model": "Model de negoci"
       },
       "delete_dialog": {
         "title": "Suprimeix la botiga",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Unitat de producte",
       "unit_float": "Unitat flotant (en breu)",
       "unit_float_hint": "Per exemple, el client pot demanar 3 kg de fruita, però la quantitat enviada al client és lleugerament diferent de la quantitat demanada.",
-      "unit_float_message": "Durant el processament de la comanda, l'import lliurat pot diferir de l'import demanat. El sistema calcula automàticament aquesta diferència i la registra com a deute amb el client, que es pot aplicar a les properes comandes."
+      "unit_float_message": "Durant el processament de la comanda, l'import lliurat pot diferir de l'import demanat. El sistema calcula automàticament aquesta diferència i la registra com a deute amb el client, que es pot aplicar a les properes comandes.",
+      "status_list": {
+        "active": {
+          "title": "Actiu | Vendes en línia i fora de línia",
+          "description": "Aquest producte estarà disponible per a comandes en línia."
+        },
+        "inactive": {
+          "title": "Inactiu | Només vendes fora de línia",
+          "description": "Aquest producte no estarà disponible per a comandes en línia."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Enquesta",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Seleccioneu l'hora de finalització",
       "independent_price": "El preu només per aquesta variant",
       "same_price": "El preu del producte principal",
-      "variant_pricing_message": "En seleccionar aquesta opció, el preu d'aquesta variant es pot establir independentment del producte principal."
+      "variant_pricing_message": "En seleccionar aquesta opció, el preu d'aquesta variant es pot establir independentment del producte principal.",
+      "price_label_input": "Etiqueta de preu",
+      "price_label_message": "Afegeix informació addicional sobre el preu, com ara (1,5 $/Oz líquida). Casos d'ús: queviures, FMCG.",
+      "add_price_label_action": "Afegeix una etiqueta de preu"
     },
     "inputs_edit": {
       "title": "Formulari d'entrada de la informació del comprador",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "S'ha editat la passarel·la {gateway_name}."
     },
-    "developer_setting": "Desenvolupar i provar"
+    "developer_setting": "Desenvolupar i provar",
+    "live_mode_message": "Totes les transaccions es faran en mode directe."
   },
   "gift_card": {
     "title": "Targetes regal",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Adreça de facturació editada pel comprador.",
     "payment-cod-confirm": "S'ha confirmat el pagament de COD.",
     "payment-cash-confirm": "S'ha confirmat el pagament de {amount} {currency} en efectiu per a la factura.",
-    "payment-dir-confirm": "S'ha confirmat el rebut de pagament directe."
+    "payment-dir-confirm": "S'ha confirmat el rebut de pagament directe.",
+    "vendor": "L'estat de la comanda del proveïdor ha canviat de <b>{from}</b> a <b>{to}</b> .",
+    "connect-sync": "Comanda sincronitzada per Connect OS.",
+    "connect-shipped": "La comanda de Connect ha estat enviada per {shipping}.",
+    "connect-returned": "La comanda de Connect ha estat retornada per {shipping}.",
+    "connect-failed": "El soci no ha pogut complir la comanda. {reason}",
+    "connect-canceled": "La comanda va ser cancel·lada pel soci. {reason}",
+    "connect-action-cancel": "Sol·licitud de cancel·lació de la comanda. {reason}",
+    "connect-put-hold": "L'ordre es va posar en suspens. {reason}",
+    "connect-remove-hold": "L'ordre s'ha eliminat de la retenció. {reason}",
+    "connect-confirmed": "La comanda es va confirmar.",
+    "email-vendor": "🔔 S'ha enviat un correu electrònic d'informació de la comanda a <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Avui",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Fer diners",
     "menu": {
       "plans": "Plans",
-      "accounts": "Comptes"
+      "accounts": "Comptes",
+      "participant": "Participant"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Emmagatzema les claus d'accés",
     "shop_keys_message": "Aquestes claus s'utilitzen per crear el testimoni d'accés pel vostre servidor. Tingueu en compte que les claus són confidencials i només es col·loquen al servidor perquè no siguin visibles per als altres.",
     "personal_keys_title": "Claus d'accés personals",
-    "personal_keys_message": "Podeu crear les claus del vostre compte aquí. Tingueu en compte que aquestes claus podran accedir al vostre compte. Creeu i utilitzeu aquestes claus només si sabeu exactament el que esteu fent."
+    "personal_keys_message": "Podeu crear les claus del vostre compte aquí. Tingueu en compte que aquestes claus podran accedir al vostre compte. Creeu i utilitzeu aquestes claus només si sabeu exactament el que esteu fent.",
+    "clients_title": "Clients",
+    "clients_message": "Aquestes claus s'utilitzen per crear el testimoni d'accés pel vostre servidor. Tingueu en compte que les claus són confidencials i només es col·loquen al servidor perquè no siguin visibles per als altres."
   },
   "user_security_control": {
     "title": "Seguretat del compte",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Gestionar perfils",
       "description": "Gestionar perfils de botiga."
+    },
+    "shop-discount-code": {
+      "name": "Gestió de codis de descompte",
+      "description": "Gestioneu, editeu i afegiu codis de descompte de botiga."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Configuració",
       "change": "Càrrega",
       "transfer": "Transferència",
-      "transactions": "Transaccions"
+      "transactions": "Transaccions",
+      "charge": "Càrrega",
+      "history": "Història"
     },
     "transactions": {
       "title": "Transaccions del compte",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Cancel·la la confirmació de la subscripció",
       "message": "Esteu segur de cancel·lar aquesta subscripció?",
       "action": "Cancel·la la subscripció"
-    }
+    },
+    "use_voucher_now": "Utilitzeu el val ara",
+    "validity_duration": "Durada de la vigència",
+    "validity_duration_hint": "En comprar una llicència de 12 mesos, rebràs un descompte del 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Descarrega el text de dades",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Tipus de lletra grans",
     "large_font_message": "Mostra el text més gran del normal",
     "samples": "Mostra botigues de mostra",
-    "samples_message": "Si està activat, es mostraran algunes botigues de mostra al vostre tauler."
+    "samples_message": "Si està activat, es mostraran algunes botigues de mostra al vostre tauler.",
+    "automation": "Automatització",
+    "automation_message": "Mostra la pestanya d'automatització al tauler de la botiga. (Webhooks, Programació visual, ...)"
   },
   "shop_locations": {
     "title": "Països on es presta el servei",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "El cupó s'ha suprimit correctament."
-    }
+    },
+    "multiple_use": "Ús múltiple"
   },
   "coupon_edit": {
     "title_edit": "Edita el cupó",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Límit",
       "description": "Establiu un límit al nombre màxim d'usuaris."
+    },
+    "SEGMENTS": {
+      "title": "Segments",
+      "description": "Limiteu els clients en la segmentació manual específica."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "L'import total de la comanda es va retirar de les targetes regal! El comprador no ha de pagar més.",
       "cod_msg": "El client pagarà en rebre la comanda.",
       "online_msg": "Demaneu al client que escanegi el codi QR a la pantalla del client."
-    }
+    },
+    "name": "POS",
+    "message": "Teniu el vostre punt de venda en línia amb un cost de configuració zero, executeu-lo a qualsevol telèfon intel·ligent, tauleta i ordinador, o creeu comandes manualment."
   },
   "exporter": {
     "title": "Exportar dades",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Enviar al servidor",
     "shop_license": "Llicència de botiga",
     "max_items_limit": "Límit màxim d'articles",
-    "total_items": "Total d'elements"
+    "total_items": "Total d'elements",
+    "customer": {
+      "title": "Importar clients",
+      "subtitle": "Pengeu els fitxers CSV dels clients aquí. Assegureu-vos de seguir el format estàndard i, a més, heu de seguir les normes de privadesa."
+    }
   },
   "campaigns": {
     "title": "Campanyes",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Enllaços",
     "light_checkout": "Tema lleuger de la caixa",
     "light_header": "Capçalera lleugera",
-    "light_footer": "Peu de pàgina lleuger"
+    "light_footer": "Peu de pàgina lleuger",
+    "product_page": "Pàgina de producte",
+    "typography": "Tipografia",
+    "header": "Capçalera",
+    "custom_code": "Codi personalitzat",
+    "custom_css": "CSS personalitzat"
   },
   "app_templates": {
     "default": "Per defecte",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Gestionar el servei",
     "option_deliver_by_courier": "Opció 1: lliurament pels vostres missatgers.",
     "option_add_to_que": "Opció 2: afegir a la cua per processar a la pàgina del servei d'enviament.",
-    "option_instant_shipping": "Opció 3: enviament instantani."
+    "option_instant_shipping": "Opció 3: enviament instantani.",
+    "pickup_action": "Confirmació de recollida"
   },
   "shop_home_edit": {
     "title": "Configuració de la pàgina d'inici",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Producte afegit a la teva botiga.",
       "request_access": "Hem enviat la vostra sol·licitud d'accés al majorista amb èxit."
-    }
+    },
+    "show_eligible_shops_message": "Mostra les botigues aptes"
   },
   "product_dropshipping": {
     "need_re_enable": "Aquest producte ha estat canviat pel venedor original, aquests canvis de preu han desactivat el producte a la vostra botiga. Comproveu els canvis i si accepteu reactivar el producte, premeu el botó de sota.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "No hi ha cap categoria a la teva botiga.",
       "limit": "Límit de productes",
       "limit_message": "Introduïu el recompte de resultats dels productes",
-      "select_categories": "Seleccioneu les categories disponibles"
+      "select_categories": "Seleccioneu les categories disponibles",
+      "categories_limit": "Límit de categories",
+      "categories_limit_msg": "Introduïu el nombre màxim de categories. Posa zero sense límit."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "L'alvocat s'ha actualitzat correctament.",
       "add_success": "Alvocat creat amb èxit."
-    }
+    },
+    "name": "Alvocat"
   },
   "avocado_orders": {
     "title": "Alvocat",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "inactiu",
     "active_message": "Si activeu aquesta opció, a l'apartat de gestió de cada producte es mostrarà la possibilitat de crear els codis de vendes ràpides.",
     "hyper_form_link_message": "Enllaç d'hiper pàgina de la teva botiga",
-    "configuration": "Hyper Configuració"
+    "configuration": "Hyper Configuració",
+    "name": "Hiper"
   },
   "hyper_orders": {
     "title": "Hiper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Demografia dels clients",
     "subtitle": "Filtreu i exporteu les dades dels vostres clients per prendre millors decisions per oferir més valor amb menys màrqueting! Si us plau, respecteu la privadesa dels vostres clients i no els envieu mai correus electrònics massius! No compartiu mai la informació dels vostres clients amb serveis de tercers sense obtenir el permís de cadascun d'ells."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Adreces de recollida",
+      "subtitle": "Afegiu i editeu les adreces de recollida aquí. Els usuaris podran seleccionar l'adreça de recollida a la pàgina de pagament.",
+      "add_action": "Afegeix una nova ubicació"
+    }
+  },
+  "affiliate_pos": {
+    "title": "TPV afiliat",
+    "open_pos_action": "TPV de comandes ràpides",
+    "description": "Aquesta opció és adequada per a administradors de pàgines d'Instagram i altres xarxes socials. Utilitzeu Affiliate POS per rebre i afegir comandes dels clients manualment. Els vostres afiliats (o franquícies) poden afegir noves comandes al TPV d'afiliats i carregar el resguard de dipòsit."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Mètodes d'inici de sessió",
+      "subtitle": "Personalitzeu la manera com els usuaris inicien sessió a la vostra botiga."
+    },
+    "checkout": {
+      "title": "Flux de pagament",
+      "subtitle": "Personalitzeu el vostre recorregut del client i el flux de compres al vostre comerç electrònic.",
+      "map": {
+        "title": "Mapa",
+        "subtitle": "Els usuaris han de seleccionar la ubicació de lliurament al mapa (com Uber).",
+        "subtitle_no_map": "La distància en el càlcul d'enviament considera zero si la ubicació no existeix a l'adreça proporcionada pel client."
+      },
+      "mode": {
+        "title": "Punt d'inici de sessió dels clients",
+        "default": {
+          "title": "ASAP (per defecte)",
+          "msg": "Els usuaris inicien sessió el més aviat possible. (Més conversió)"
+        },
+        "on_checkout": {
+          "title": "A la caixa",
+          "msg": "Obligar els usuaris a iniciar sessió al pas de la compra."
+        },
+        "login_free": {
+          "title": "Inici de sessió opcional",
+          "msg": "Inici de sessió opcional després del pagament de la comanda."
+        }
+      },
+      "express": {
+        "title": "Redirigeix després d'afegir al carretó",
+        "false": {
+          "title": "Mode normal",
+          "msg": "Continueu a la pàgina i continueu comprant després de fer clic a Afegeix al carretó."
+        },
+        "true": {
+          "title": "Mode exprés",
+          "msg": "Redirigeix el client a la pàgina de pagament després de fer clic a Afegeix al carretó."
+        }
+      },
+      "shipping_address": {
+        "title": "Demana l'adreça d'enviament"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Físic i servei (predeterminat)",
+      "desc": "Demaneu al client que introdueixi una adreça a les caixes físiques i de servei."
+    },
+    "physical": {
+      "title": "Només físic",
+      "desc": "Demaneu al client que introdueixi una adreça només a la caixa física."
+    },
+    "off": {
+      "title": "Mai",
+      "desc": "No demaneu mai l'adreça d'enviament. ⚠ Utilitzeu aquesta opció si teniu previst tenir serveis amb variants seleccionant el tipus físic dels productes en comptes del tipus de servei."
+    }
+  },
+  "business_model": {
+    "title": "Configuració del model de negoci",
+    "subtitle": "Estableix el teu model de negoci i configurarem el teu sistema operatiu darrere de l'escena."
+  },
+  "business_type": {
+    "title": "Tipus de mercaderies",
+    "subtitle": "Establiu el tipus de productes que voleu vendre a la vostra botiga. Els tipus de productes a Selldone són més que un tipus de productes; es tracta més del procediment de compliment.",
+    "send_activation_request_to_support": "Envieu una sol·licitud d'activació en un bitllet d'assistència.",
+    "require_kyc": "Propietari de l'empresa KYC.",
+    "needs_enterprise_license": "Necessites tenir una llicència Enterprise.",
+    "marketplace_caution_message": "Establir Marketplace com el vostre model afecta profundament la configuració del vostre sistema operatiu empresarial. Per exemple, heu de definir almenys un proveïdor per a cada producte amb preus i inventari independents. Els clients no poden comprar productes que no tinguin proveïdor."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Botiga normal",
+      "desc": "Normalment una pime, una empresa domèstica o un dropshipper, que ven el seu producte directament als clients o ven els productes dels majoristes com a distribuïdor."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "No conserveu cap producte ni inventari: pagueu a un tercer, normalment un majorista (com Printify, Wholesale2B, ...) o fabricant, i compleixen les comandes darrere de l'escena."
+    },
+    "wholesaler": {
+      "title": "Proveïdor de Dropshipping",
+      "desc": "Normalment un majorista o un fabricant, que envia comandes directament al consumidor final. Altres comerciants de Selldone poden enviar els vostres productes a les seves botigues."
+    },
+    "marketplace": {
+      "title": "Mercat",
+      "desc": "Els mercats en línia connecten compradors i venedors en una plataforma propietària i centralitzada."
+    },
+    "franchise": {
+      "title": "Franquícia / Afiliat",
+      "desc": "Una franquícia és un mètode de distribució de productes o serveis que implica un franquiciador que estableix la teva marca (franquícia) o ven els teus productes per la seva marca (afiliat)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Carteres",
+    "pricing_models": "Preus",
+    "add_vendor": "Afegeix un venedor",
+    "requests": "Sol·licituds"
+  },
+  "price_input_type": {
+    "title": "Tipus d'entrada de preu",
+    "default": {
+      "title": "Per defecte",
+      "desc": "Seleccioneu un valor com a quantitat al carretó."
+    },
+    "area": {
+      "title": "Àrea",
+      "desc": "Introduïu l'amplada i la longitud com a entrades per calcular la quantitat."
+    },
+    "volume": {
+      "title": "volum",
+      "desc": "Introduïu l'amplada, la longitud i l'alçada com a entrades per calcular la quantitat."
+    },
+    "custom": {
+      "title": "Personalitzat (amb formulari d'entrada)",
+      "desc": "No calen centenars de variants! Creeu un formulari de càlcul de costos personalitzat per a productes altament personalitzables."
+    }
+  },
+  "vendors_list": {
+    "title": "Els meus venedors",
+    "message": "Llista dels meus propis venedors."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Connecteu diversos dominis al vostre sistema operatiu empresarial i gestioneu-los tots en un sol lloc. Podeu utilitzar la funció de diversos dominis per crear dominis dedicats per a cada part del vostre lloc web, com ara el bloc i la comunitat, o utilitzar diferents dominis per als vostres afiliats."
+  },
+  "notes": {
+    "add_action": "Afegeix una nota per al teu equip",
+    "notifications": {
+      "success_add": "La nota s'ha afegit correctament.",
+      "success_delete": "La nota s'ha suprimit correctament."
+    }
+  },
+  "external_services": {
+    "title": "Serveis externs",
+    "subtitle": "Controleu l'últim estat dels serveis externs com ara SMS i correus electrònics aquí."
   }
 };

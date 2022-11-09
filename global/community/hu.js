@@ -65,7 +65,9 @@ export default {
     "my_feed": "Nekem",
     "blocked_message": "Eddig blokkolva vagy",
     "reported": "Jelentették",
-    "report": "Jelentés"
+    "report": "Jelentés",
+    "post": "Hozzászólás",
+    "attach_file": "Fájl csatolása"
   },
   "invite_message": "{user} meghívott a(z) {community} fórumba. Az alábbi linkre kattintva elolvashatja ismerősei észrevételeit, és megoszthatja velük véleményét. Várok rád.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Szavazás eltávolítása",
     "take_screenshot": "Vedd fedezéknek",
     "take_link_msg": "Múlt link itt és lépjen be",
-    "eligible_title": "A bejegyzésre való jogosultság lépései"
+    "eligible_title": "A bejegyzésre való jogosultság lépései",
+    "public": "Nyilvános"
   },
   "tips": {
     "verify_email": "Írja be és erősítse meg e-mail-címét.",

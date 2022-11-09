@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Prodotti relatati",
     "price": "Prezz",
     "rate": "Rata",
-    "comment": "Ikkummenta"
+    "comment": "Ikkummenta",
+    "warranty": "Garanzija",
+    "return_policy": "Politika ta' Ritorn",
+    "guide": "Gwida",
+    "shipping": "Tbaħħir"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "L-ordni tiegħek tqiegħdet b'suċċess.",
       "delete_success": "Oġġett imħassra."
-    }
+    },
+    "select_address_message": "Jekk jogħġbok daħħal l-indirizz tiegħek, u mbagħad tista 'tissottometti l-ordni."
   },
   "hyper": {
     "title": "Ħolqien tal-ordni",
@@ -541,5 +546,19 @@ export default {
       "message": "Int speċifikajt ħlas għal dan l-oġġett. Tista' tibdel l-ammont ta' ħlas għall-oġġett mixtri mill-klijent.",
       "charge": "Ħlas"
     }
+  },
+  "check_access": {
+    "waiting_message": "Stennija biex jiċċekkja l-aċċess...",
+    "no_access_message": "Sfortunatament, m'għandekx aċċess għall-maħżen tagħna.<br/> Jekk jogħġbok ikkuntattjana."
+  },
+  "share_order": {
+    "action": "Aqsam l-ordni",
+    "title": "Aqsam din l-ordni ma 'oħrajn.",
+    "message": "Hija rabta sigura, taqsamha biss ma' dawk li taf. Kull min għandu din il-link jista' jidduplika l-ordni tiegħek u jara l-indirizz magħżul. Se jkun fih informazzjoni dwar il-karrettun attwali tiegħek.",
+    "valid_period": "Din il-link tiskadi wara 48 siegħa.",
+    "import_order_action": "Ordni ta 'importazzjoni",
+    "retrieve_dialog_title": "Irkupra ordni esterna",
+    "address_included": "Aqsam oġġetti tal-basket + Indirizz",
+    "address_excluded": "Aqsam biss oġġetti tal-basket"
   }
 };

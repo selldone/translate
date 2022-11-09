@@ -65,7 +65,9 @@ export default {
     "my_feed": "Me",
     "blocked_message": "Estás bloqueado hasta",
     "reported": "Reportado",
-    "report": "Reporte"
+    "report": "Reporte",
+    "post": "Correo",
+    "attach_file": "Adjuntar archivo"
   },
   "invite_message": "{user} te ha invitado al foro {community}. Haga clic en el enlace a continuación para leer las observaciones de sus amigos y compartir su opinión con ellos. Te estoy esperando.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Eliminar encuesta",
     "take_screenshot": "tomar como cobertura",
     "take_link_msg": "Pasar enlace aquí y entrar",
-    "eligible_title": "Pasos para ser elegible para publicar"
+    "eligible_title": "Pasos para ser elegible para publicar",
+    "public": "Público"
   },
   "tips": {
     "verify_email": "Ingresa y verifica tu correo electrónico.",

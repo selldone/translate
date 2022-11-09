@@ -155,7 +155,19 @@ export default {
       "Setup": "lebenkeleng",
       "Sell": "Lithekiso le Lipapatso",
       "Developer": "Hlahisa",
-      "Application": "Lisebelisoa"
+      "Application": "Lisebelisoa",
+      "Product": "Tsamaiso ea Lihlahisoa le Lihlopha",
+      "Blog": "CMS & Blog",
+      "Order": "Setsi sa Phethahatso ea Litaelo",
+      "Channel": "Litsela tse rekisoang",
+      "Accounting": "Accounting & Tefo Mekhoa",
+      "Incentives": "Khothatso",
+      "Marketing": "Papatso & Masolo",
+      "Logistic": "Logistic & Shipping",
+      "Customers": "Customers Club & Segmentation",
+      "Page": "Maqephe a ho Lulisa le a Tloaelehileng",
+      "Access": "Taolo ea phihlello ea basebetsi / API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Sebaka sa polokelo ea Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Mabenkele",
       "roles": "Likarolo",
       "home": "Lehae",
-      "expert": "Setsebi"
+      "expert": "Setsebi",
+      "deals": "Litšebelisano",
+      "providers": "Bafani"
     },
     "shops": {
       "create_new": "Theha lebenkele le lecha",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Boemo",
           "created_at": "Letsatsi la Pōpo",
           "updated_at": "Nchafatso ea ho qetela"
-        }
+        },
+        "subtitle": "Ngola lingoliloeng ka mohlophisi oa sejoale-joale ho itlhahisa le khoebo ea hau. Litaba tsa mantlha ke ntho ea pele eo u hlokang ho tsepamisa maikutlo ho eona ha u ngola poso ea blog ea boleng bo holimo ea SEO."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Tlaleho",
         "tax": "Lekhetho",
         "drop_shipping": "Lirisiti tsa morekisi",
-        "reseller_accounts": "Liakhaonto tsa barekisi"
+        "reseller_accounts": "Liakhaonto tsa barekisi",
+        "valuations": "Litekanyetso"
       },
       "invoice": {
         "title": "Reka Li-wallet tse hokahaneng",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Ho tsamaisa ka sekepe",
         "inventory": "Inventory",
         "warehouse": "Sebaka sa polokelo",
-        "logistic_apps": "Tsamaiso"
+        "logistic_apps": "Tsamaiso",
+        "profiles": "Profiles"
       },
       "warehouse": {
         "title": "Sebaka sa polokelo",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Bonyane litjeho tsa odara bakeng sa thomello ea mahala",
           "notifications": {
             "update_success": "Litlhophiso tsa litšebeletso tsa thomello li phethiloe ka katleho."
-          }
+          },
+          "shipping_cost_calculation": "Palo ea litšenyehelo tsa thomello",
+          "sod_true": "Fumana litefiso tsa thomello sebakeng seo u eang ho sona",
+          "sod_true_message": "Netefatsa hore ts'ebeletso ea hau ea thomello e amohela litefiso tsa thomello sebakeng seo u eang ho sona.",
+          "sod_false": "Palo ea litheko tsa thomello e ikemetseng",
+          "cod_true": "Amohela chelete ha u fihla",
+          "cod_false": "Amohela tefo ea inthaneteng feela",
+          "cod_true_message": "Etsa bonnete ba hore tšebeletso ea hau ea thomello e amohela COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "Email",
         "domain": "Sebaka",
-        "verifications": "Linetefatso"
+        "verifications": "Linetefatso",
+        "flow": "Phallang",
+        "business_model": "Mokhoa oa Khoebo"
       },
       "delete_dialog": {
         "title": "Hlakola Lebenkele",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Sehlopha sa lihlahisoa",
       "unit_float": "Float unit (haufinyane)",
       "unit_float_hint": "Ka mohlala, moreki a ka reka 3 kg ea litholoana, empa chelete e romelloang ho moreki e fapane hanyane le chelete e laetsoeng.",
-      "unit_float_message": "Nakong ea ts'ebetso ea taelo, chelete e fanoeng e ka 'na ea fapana le chelete e laetsoeng. Sistimi e bala phapang ena ka bo eona ebe e e tlaleha e le molato oa hau ho moreki, o ka sebelisoang ho litaelo tse latelang."
+      "unit_float_message": "Nakong ea ts'ebetso ea taelo, chelete e fanoeng e ka 'na ea fapana le chelete e laetsoeng. Sistimi e bala phapang ena ka bo eona ebe e e tlaleha e le molato oa hau ho moreki, o ka sebelisoang ho litaelo tse latelang.",
+      "status_list": {
+        "active": {
+          "title": "E sebetsa | Marang-rang & Offline Thekiso",
+          "description": "Sehlahisoa sena se tla fumaneha bakeng sa liodara tsa inthaneteng."
+        },
+        "inactive": {
+          "title": "E sa sebetseng | Feela Offline Thekiso",
+          "description": "Sehlahisoa sena se ke ke sa fumaneha bakeng sa liodara tsa Marang-rang."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Patlisiso",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Khetha nako ea ho qetela",
       "independent_price": "Theko ea mofuta ona feela",
       "same_price": "Theko ea sehlahisoa se seholo",
-      "variant_pricing_message": "Ka ho khetha khetho ena, theko ea phapang ena e ka behoa ntle le sehlahisoa se seholo."
+      "variant_pricing_message": "Ka ho khetha khetho ena, theko ea phapang ena e ka behoa ntle le sehlahisoa se seholo.",
+      "price_label_input": "Theko label",
+      "price_label_message": "Kenya lintlha tse eketsehileng mabapi le theko e kang ($1.5/Fl Oz). Linyeoe tsa tšebeliso: korosari, FMCG.",
+      "add_price_label_action": "Kenya leibole ea theko"
     },
     "inputs_edit": {
       "title": "Mokhoa oa ho Kena oa Boitsebiso ba Moreki",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gateway {gateway_name} e hlophisitsoe."
     },
-    "developer_setting": "Ntlafatsa & Teko"
+    "developer_setting": "Ntlafatsa & Teko",
+    "live_mode_message": "Lichelete tsohle li tla ba ka mokhoa oa ho phela."
   },
   "gift_card": {
     "title": "Likarete tsa Limpho",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Aterese ea tefiso e hlophisitsoe ke moreki.",
     "payment-cod-confirm": "Tefo ea COD e netefalitsoe.",
     "payment-cash-confirm": "Tefo ea {amount} {currency} ea chelete ea bili e netefalitsoe.",
-    "payment-dir-confirm": "Ho netefalitsoe rasiti ea tefo e tobileng."
+    "payment-dir-confirm": "Ho netefalitsoe rasiti ea tefo e tobileng.",
+    "vendor": "Boemo ba odara ea barekisi bo fetohile ho tloha ho <b>{ho tloha}</b> ho ea ho <b>{}</b> .",
+    "connect-sync": "Odara e hokahantsoe ke Connect OS.",
+    "connect-shipped": "Khokahano e rometsoe ka {shipping}.",
+    "connect-returned": "Odara ea khokahano e khutlisitsoe ke {shipping}.",
+    "connect-failed": "Mosebetsi o hlolehile ho phethahatsa taelo. {reason}",
+    "connect-canceled": "Odara e hlakotsoe ke molekane. {reason}",
+    "connect-action-cancel": "Kopa ho hlakola odara. {reason}",
+    "connect-put-hold": "Taelo e ile ea emisoa. {reason}",
+    "connect-remove-hold": "Taelo e ile ea tlosoa. {reason}",
+    "connect-confirmed": "Taelo e ile ea tiisoa.",
+    "email-vendor": "🔔 lengolo-tsoibila la tsebiso e rometsoe ho <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Kajeno",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Etsa Chelete",
     "menu": {
       "plans": "Merero",
-      "accounts": "Litlaleho"
+      "accounts": "Litlaleho",
+      "participant": "Motho ea nkang karolo"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Linotlolo tsa ho kena ho boloka",
     "shop_keys_message": "Linotlolo tsena li sebelisoa ho theha Letšoao la ho fihlella ka seva sa hau. Hlokomela hore linotlolo ke lekunutu 'me li behiloe feela ho seva e le hore li se ke tsa bonahala ho ba bang.",
     "personal_keys_title": "Linotlolo tsa ho fihlella",
-    "personal_keys_message": "U ka etsa linotlolo tsa akhaonto ea hau mona. Hlokomela hore linotlolo tsena li tla khona ho kena akhaonteng ea hau. Theha le ho sebelisa linotlolo tsena ha feela u tseba hantle seo u se etsang."
+    "personal_keys_message": "U ka etsa linotlolo tsa akhaonto ea hau mona. Hlokomela hore linotlolo tsena li tla khona ho kena akhaonteng ea hau. Theha le ho sebelisa linotlolo tsena ha feela u tseba hantle seo u se etsang.",
+    "clients_title": "Bareki",
+    "clients_message": "Linotlolo tsena li sebelisoa ho theha Letšoao la ho fihlella ka seva sa hau. Hlokomela hore linotlolo ke lekunutu 'me li behiloe feela ho seva e le hore li se ke tsa bonahala ho ba bang."
   },
   "user_security_control": {
     "title": "Tšireletso ea Akhaonto",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Laola liprofaele",
       "description": "Laola boemo ba lebenkele."
+    },
+    "shop-discount-code": {
+      "name": "Tsamaiso ea khoutu ea theolelo",
+      "description": "Laola, fetola, 'me u kenye likhoutu tsa litheolelo tsa lebenkele."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Litlhophiso",
       "change": "Tefiso",
       "transfer": "Phetisetso",
-      "transactions": "Litšebelisano"
+      "transactions": "Litšebelisano",
+      "charge": "Tefiso",
+      "history": "Histori"
     },
     "transactions": {
       "title": "Lits'ebetso tsa Akhaonto",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Hlakola netefatso ea peeletso",
       "message": "Na u na le bonnete ba hore u hlakola peeletso ee?",
       "action": "Hlakola peeletso"
-    }
+    },
+    "use_voucher_now": "Sebelisa voucher hona joale",
+    "validity_duration": "Nako ea ho sebetsa",
+    "validity_duration_hint": "Ka ho reka laesense ea likhoeli tse 12, o tla fumana theolelo ea 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Khoasolla mongolo oa data",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Mehala e meholo",
     "large_font_message": "Hlahisa mongolo o moholo ho feta tloaelo",
     "samples": "Hlahisa mabenkele a mohlala",
-    "samples_message": "Haeba e lumelletsoe, mabenkele a mang a tla hlaha phanele ea hau."
+    "samples_message": "Haeba e lumelletsoe, mabenkele a mang a tla hlaha phanele ea hau.",
+    "automation": "Boiketsetso",
+    "automation_message": "Hlahisa tab ea othomathike ho dashboard ea lebenkele. (Webhooks, Visual programming, ...)"
   },
   "shop_locations": {
     "title": "Linaha tseo ho fanoang ka tsona litšebeletso",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Setlankana se hlakotsoe ka katleho."
-    }
+    },
+    "multiple_use": "Tšebeliso e ngata"
   },
   "coupon_edit": {
     "title_edit": "Fetola setlankane",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Moeli",
       "description": "Beha moeli ho palo e kholo ea basebelisi."
+    },
+    "SEGMENTS": {
+      "title": "Likarolo",
+      "description": "Fokotsa bareki karohanong e khethehileng ea matsoho."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Kakaretso ea chelete ea odara e ntšitsoe likareteng tsa limpho! Moreki ha a hloke ho lefa ho feta.",
       "cod_msg": "Moreki o tla lefa ha a fumana odara.",
       "online_msg": "Kopa moreki hore a hlahlobe khoutu ea QR skrineng sa moreki."
-    }
+    },
+    "name": "POS",
+    "message": "Eba le sebaka sa hau sa thekiso ea theko ea zero-setang, e tsamaise ho li-smartphone, tablet, le PC, kapa u iketsetse liodara ka letsoho."
   },
   "exporter": {
     "title": "Romella data",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Romella ho seva",
     "shop_license": "Laesense ea mabenkele",
     "max_items_limit": "Boholo ba lintho tse lekantsoeng",
-    "total_items": "Kakaretso ea lintho"
+    "total_items": "Kakaretso ea lintho",
+    "customer": {
+      "title": "Bareki ba tsoang kantle ho naha",
+      "subtitle": "Kenya lifaele tsa CSV tsa bareki mona. Etsa bonnete ba hore o latela mokhoa o tloaelehileng, hape, o tlameha ho latela melao ea lekunutu."
+    }
   },
   "campaigns": {
     "title": "Matšolo",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Lihokelo",
     "light_checkout": "Theme e bobebe ea ho tsoa",
     "light_header": "Hlooho e bobebe",
-    "light_footer": "Botlase bo bobebe"
+    "light_footer": "Botlase bo bobebe",
+    "product_page": "Leqephe la Sehlahisoa",
+    "typography": "Tlhaloso ea litlhaku",
+    "header": "Hlooho",
+    "custom_code": "Khoutu e ikhethileng",
+    "custom_css": "CSS e tloaelehileng"
   },
   "app_templates": {
     "default": "Ea kamehla",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Laola tshebeletso",
     "option_deliver_by_courier": "Khetho ea 1: Fana ka batho ba tsamaisang melaetsa.",
     "option_add_to_que": "Khetho ea 2: Eketsa moleng oa ho sebetsa leqepheng la tšebeletso ea thomello.",
-    "option_instant_shipping": "Khetho ea 3: Ho romella hang-hang."
+    "option_instant_shipping": "Khetho ea 3: Ho romella hang-hang.",
+    "pickup_action": "Netefatso ya ho lata"
   },
   "shop_home_edit": {
     "title": "Tlhophiso ea leqephe la lapeng",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Sehlahisoa se kentsoe lebenkeleng la hau.",
       "request_access": "Re atlehile ho romella kopo ea hau ho morekisi."
-    }
+    },
+    "show_eligible_shops_message": "Hlahisa mabenkele a loketseng"
   },
   "product_dropshipping": {
     "need_re_enable": "Sehlahisoa sena se fetotsoe ke morekisi oa mantlha, liphetoho tsena tsa litheko li koaletse sehlahisoa lebenkeleng la hau. Sheba liphetoho 'me haeba u lumela ho kenya sehlahisoa hape, tobetsa konopo e ka tlase.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Ha ho sehlopha lebenkeleng la hau.",
       "limit": "Moeli oa lihlahisoa",
       "limit_message": "Kenya lipalo tsa sephetho sa lihlahisoa",
-      "select_categories": "Khetha mekhahlelo e teng"
+      "select_categories": "Khetha mekhahlelo e teng",
+      "categories_limit": "Moeli oa lihlopha",
+      "categories_limit_msg": "Kenya palo e kholo ea lihlopha. Beha zero ho se na moeli."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avocado e ntlafalitsoe ka katleho.",
       "add_success": "Avocado e entsoe ka katleho."
-    }
+    },
+    "name": "Avocado"
   },
   "avocado_orders": {
     "title": "Avocado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "e sa sebetseng",
     "active_message": "Haeba o nolofalletsa khetho ena, monyetla oa ho theha Li-Fast-Sales-Codes o tla bontšoa karolong ea tsamaiso ea sehlahisoa ka seng.",
     "hyper_form_link_message": "Sehokelo sa leqephe la hyper la lebenkele la hau",
-    "configuration": "Litlhophiso tsa Hyper"
+    "configuration": "Litlhophiso tsa Hyper",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Customers Demography",
     "subtitle": "Sefa 'me u romelle lintlha tsa bareki ba hau ho etsa liqeto tse betere tsa ho fana ka boleng bo bongata ka ho bapatsa ho fokolang! Ka kopo hlompha boinotši ba bareki ba hau 'me u se ke ua ba romella mangolo-tsoibila a mangata! Le ka mohla u se ke ua arolelana lintlha tsa bareki ba hau le litšebeletso tsa batho ba bang ntle le ho fumana tumello ho tsoa ho e mong le e mong oa bona."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Liaterese tsa ho lata",
+      "subtitle": "Kenya le ho lokisa liaterese tsa ho lata mona. Basebelisi ba tla khona ho khetha aterese ea ho lata leqepheng la ho tsoa.",
+      "add_action": "Kenya sebaka se secha"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Affiliate POS",
+    "open_pos_action": "Ho reka ka potlako POS",
+    "description": "Khetho ena e loketse li-admins tsa maqephe a Instagram le marang-rang a mang a sechaba. Sebelisa Affiliate POS ho amohela le ho eketsa litaelo tse tsoang ho bareki ka letsoho. Basebetsi ba hau (kapa franchise) ba ka eketsa liodara tse ncha ho Affiliate POS mme ba kenya selipi sa depositi."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Mekhoa ea ho kena",
+      "subtitle": "Iketsetse tsela eo basebelisi ba kenang ka eona lebenkeleng la hau."
+    },
+    "checkout": {
+      "title": "Phallo ea ho tsoa",
+      "subtitle": "Iketsetse leeto la bareki ba hau le phallo ea theko ho ecommerce ea hau.",
+      "map": {
+        "title": "'Mapa",
+        "subtitle": "Basebelisi ba tlameha ho khetha sebaka sa delibari 'mapeng (joalo ka Uber).",
+        "subtitle_no_map": "Sebaka sa lipalo tsa thomello se nka zero haeba sebaka se le sieo atereseng e fanoeng ke moreki."
+      },
+      "mode": {
+        "title": "Sebaka sa ho kena sa bareki",
+        "default": {
+          "title": "KA POTLAKO (Tlhahlobo)",
+          "msg": "Basebelisi ba kena kapele kamoo ho ka khonehang. (Phetoho e eketsehileng)"
+        },
+        "on_checkout": {
+          "title": "Ha u tsoa",
+          "msg": "Qobella basebelisi ho kena mohatong oa ho tsoa."
+        },
+        "login_free": {
+          "title": "Ho kena ka boikhethelo",
+          "msg": "Kena ka boikhethelo ka mor'a ho lefa odara.."
+        }
+      },
+      "express": {
+        "title": "Lebisa tsela e 'ngoe ka mor'a ho kenya kariki",
+        "false": {
+          "title": "Mokhoa o tloaelehileng",
+          "msg": "Lula leqepheng 'me u tsoele pele ho reka ka mor'a ho tobetsa Add to cart."
+        },
+        "true": {
+          "title": "Express mode",
+          "msg": "Lebisa moreki leqepheng la ho lefa ka mor'a ho tobetsa kenya kariking."
+        }
+      },
+      "shipping_address": {
+        "title": "Kopa aterese ea thomello"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "'Mele le Litšebeletso (Tlhahiso-pele)",
+      "desc": "Kopa moreki ho kenya aterese ho litefiso tsa 'mele le litšebeletso."
+    },
+    "physical": {
+      "title": "'Meleng Feela",
+      "desc": "Kopa moreki ho kenya aterese nakong eo o lefshoang ka eona."
+    },
+    "off": {
+      "title": "Le ka mohla",
+      "desc": "Le ka mohla u se ke ua botsa aterese ea thomello. ⚠ Sebelisa khetho ena haeba u rera ho ba le lits'ebeletso tse fapaneng ka ho khetha mofuta oa 'mele bakeng sa lihlahisoa ho fapana le mofuta oa litšebeletso."
+    }
+  },
+  "business_model": {
+    "title": "Ho theha mekhoa ea khoebo",
+    "subtitle": "Beha mofuta oa hau oa khoebo, 'me re tla hlophisa OS ea hau ka morao ho ketsahalo."
+  },
+  "business_type": {
+    "title": "Mefuta ea lihlahisoa",
+    "subtitle": "Beha mofuta oa lihlahisoa tseo u batlang ho li rekisa lebenkeleng la hau. Mefuta ea lihlahisoa ho Selldone ha se mofuta oa lihlahisoa feela; e mabapi le mokhoa oa ho phethahatsa.",
+    "send_activation_request_to_support": "Romela kopo ea ho kenya tšebetsong tekete ea tšehetso.",
+    "require_kyc": "Mong'a khoebo KYC.",
+    "needs_enterprise_license": "U hloka ho ba le laesense ea Khoebo.",
+    "marketplace_caution_message": "Beha 'Maraka joalo ka mohlala oa hau o ama tlhophiso ea OS ea khoebo ea hau haholo. Mohlala, o tlameha ho hlalosa bonyane morekisi a le mong bakeng sa sehlahisoa se seng le se seng ka litheko tse ikemetseng le lethathamo la thepa. Bareki ba ke ke ba reka lihlahisoa tse se nang morekisi."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Lebenkele le Tloaelehileng",
+      "desc": "Hangata ke SME, khoebo ea lapeng, kapa dropshipper - ea rekisetsang bareki sehlahisoa sa hae ka kotloloho kapa ea rekisang lihlahisoa tsa barekisi joalo ka morekisi."
+    },
+    "dropshipping": {
+      "title": "Dropshipping/",
+      "desc": "U se ke ua boloka sehlahisoa kapa u se na thepa - u lefa motho oa boraro, hangata e le morekisi (joaloka Printify, Wholesale2B, ...) kapa moetsi, 'me ba phethahatsa litaelo ka mor'a ketsahalo."
+    },
+    "wholesaler": {
+      "title": "Dropshipping Supplier",
+      "desc": "Hangata morekisi kapa moetsi - ea romellang odara ka kotloloho ho bareki ba ho qetela. Bahoebi ba bang ba Selldone ba ka beha lihlahisoa tsa hau mabenkeleng a bona."
+    },
+    "marketplace": {
+      "title": "Mmaraka",
+      "desc": "Limmaraka tsa Marang-rang li hokahanya bareki le barekisi sethaleng sa thepa le se bohareng."
+    },
+    "franchise": {
+      "title": "Franchise / Affiliate",
+      "desc": "Franchise ke mokhoa oa ho aba lihlahisoa kapa lits'ebeletso tse kenyelletsang franchisor ea thehang lebitso la hau (Franchising) kapa a rekisa lihlahisoa tsa hau ka lebitso la bona (Affiliate)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Li-wallet",
+    "pricing_models": "Theko",
+    "add_vendor": "Kenya morekisi",
+    "requests": "Likopo"
+  },
+  "price_input_type": {
+    "title": "Mofuta oa ho kenya theko",
+    "default": {
+      "title": "Ea kamehla",
+      "desc": "Khetha boleng joalo ka bongata bo kariking."
+    },
+    "area": {
+      "title": "Sebaka",
+      "desc": "Kenya bophara le bolelele e le lisebelisoa ho bala bongata."
+    },
+    "volume": {
+      "title": "bophahamo ba modumo",
+      "desc": "Kenya bophara, bolelele, le bophahamo joalo ka lintho tse kentsoeng ho bala palo."
+    },
+    "custom": {
+      "title": "Tloaelo (Ka mokhoa oa ho kenya)",
+      "desc": "Ha ho hlokahale tse makholo tse fapaneng! Theha foromo ea ho bala litšenyehelo bakeng sa lihlahisoa tseo u ka li khethang haholo."
+    }
+  },
+  "vendors_list": {
+    "title": "Barekisi ba ka",
+    "message": "Lenane la barekisi ba ka."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Hokela libaka tse ngata khoebong ea hau ea OS 'me u li laole kaofela sebakeng se le seng. U ka sebelisa likarolo tse ngata tsa libaka ho theha libaka tse inehetseng bakeng sa karolo ka 'ngoe ea sebaka sa hau sa Marang-rang, joalo ka blog le sechaba, kapa sebelisa libaka tse fapaneng bakeng sa balekane ba hau."
+  },
+  "notes": {
+    "add_action": "Kenya molaetsa bakeng sa sehlopha sa hau",
+    "notifications": {
+      "success_add": "Molaetsa o kentsoe ka katleho.",
+      "success_delete": "Molaetsa o hlakotsoe ka katleho."
+    }
+  },
+  "external_services": {
+    "title": "Litšebeletso tsa kantle",
+    "subtitle": "Lekola boemo ba ho qetela ba lits'ebeletso tsa kantle joalo ka li-SMS le li-imeile mona."
   }
 };

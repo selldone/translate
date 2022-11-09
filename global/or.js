@@ -558,7 +558,52 @@ export default {
     "merchant": "ବ୍ୟବସାୟୀ",
     "per_product": "ପ୍ରତି ଉତ୍ପାଦ ପ୍ରତି |",
     "journey": "ଯାତ୍ରା",
-    "after": "ପରେ"
+    "after": "ପରେ",
+    "waiting_for_payment": "ଦୟାକରି ଦେୟ ସମ୍ପୂର୍ଣ୍ଣ କରନ୍ତୁ ...",
+    "hour": "ଘଣ୍ଟା |",
+    "minute": "ମିନିଟ୍ |",
+    "premium": "ପ୍ରିମିୟମ୍",
+    "light": "ଆଲୋକ",
+    "dark": "ଅନ୍ଧାର",
+    "guest": "ଅତିଥି",
+    "shops": "ଷ୍ଟୋରସମୂହ",
+    "vendor": "ବିକ୍ରେତା",
+    "vendors": "ବିକ୍ରେତାମାନେ |",
+    "marketplace": "ମାର୍କେଟପ୍ଲେସ୍ |",
+    "verify_date": "ତାରିଖ ଯାଞ୍ଚ କରନ୍ତୁ |",
+    "note": "ଧ୍ୟାନ ଦିଅନ୍ତୁ",
+    "panel": "ପ୍ୟାନେଲ୍ |",
+    "removed": "ଅପସାରିତ ହୋଇଛି |",
+    "segments": "ବିଭାଗଗୁଡିକ",
+    "personal_info": "ବ୍ୟକ୍ତିଗତ ସୂଚନା",
+    "preferences": "ପସନ୍ଦ",
+    "spec": "ନିର୍ଦ୍ଦିଷ୍ଟ |",
+    "reviews": "ସମୀକ୍ଷା",
+    "constraints": "ପ୍ରତିବନ୍ଧକ |",
+    "flexible": "ନମନୀୟ |",
+    "usage_limit": "ବ୍ୟବହାର ସୀମା |",
+    "temporary": "ଅସ୍ଥାୟୀ",
+    "original": "ମୂଳ",
+    "saved": "ସଞ୍ଚୟ!",
+    "sort": "ସର୍ଟ କରନ୍ତୁ |",
+    "documents": "ଡକ୍ୟୁମେଣ୍ଟ୍ |",
+    "document": "ଡକ୍ୟୁମେଣ୍ଟ୍",
+    "please_wait": "ଦୟାକରି ଅପେକ୍ଷା କର...",
+    "pickup": "ପିକଅପ୍",
+    "customize": "କଷ୍ଟମାଇଜ୍ କରନ୍ତୁ |",
+    "difficulty": "ଅସୁବିଧା",
+    "banned": "ନିଷେଧ |",
+    "company": "କମ୍ପାନୀ",
+    "tax_shipping": "ସିପିଂ ଟ୍ୟାକ୍ସ |",
+    "warranty": "ୱାରେଣ୍ଟି",
+    "return_policy": "ଫେରସ୍ତ ନୀତି",
+    "guide": "ଗାଇଡ୍",
+    "translate": "ଅନୁବାଦ କର |",
+    "public": "ଜନସାଧାରଣ |",
+    "deleted": "ବିଲୋପ",
+    "variant": "ବିଭିନ୍ନ ପ୍ରକାର |",
+    "secure": "ସୁରକ୍ଷିତ",
+    "admin": "ଆଡମିନି"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "ଟ୍ରାକ୍ କରନ୍ତୁ |",
     "change_state": "ସ୍ଥିତି ପରିବର୍ତ୍ତନ କରନ୍ତୁ |",
     "done": "ସମାପ୍ତ ହେଲା |",
-    "reply": "ଉତ୍ତର ଦିଅ"
+    "reply": "ଉତ୍ତର ଦିଅ",
+    "watch_now": "ବର୍ତ୍ତମାନ ଦେଖନ୍ତୁ |",
+    "unlock": "ଅନଲକ୍ କରନ୍ତୁ |",
+    "lock": "ଲକ୍ କରନ୍ତୁ |",
+    "create_clone": "କ୍ଲୋନ୍ ସୃଷ୍ଟି କରନ୍ତୁ |",
+    "regenerate": "ପୁନ ener ନିର୍ମାଣ କରନ୍ତୁ |",
+    "add_message": "ବାର୍ତ୍ତା ଯୋଡନ୍ତୁ |",
+    "continue_chat": "ଚାଟ୍ ଜାରି ରଖନ୍ତୁ |",
+    "add_new_message": "ନୂତନ ବାର୍ତ୍ତା ଯୋଡନ୍ତୁ |"
   },
   "instance_message_title": "ତତକ୍ଷଣାତ୍ ବାର୍ତ୍ତା ପଠାନ୍ତୁ |",
   "instance_message": "ହାଏ {name}, ମୋ ନାମ {company} ରୁ {author} |",
@@ -690,7 +743,8 @@ export default {
     "postcode": "ପୋଷ୍ଟକୋଡ୍",
     "enter_value": "ଏଠାରେ ପୁରଣ କରନ୍ତୁ |",
     "address_note": "ଧ୍ୟାନ ଦିଅନ୍ତୁ",
-    "tel": "ଯୋଗାଯୋଗ ନମ୍ବର |"
+    "tel": "ଯୋଗାଯୋଗ ନମ୍ବର |",
+    "service_address": "ଆପଣଙ୍କର ଠିକଣା ଚୟନ କରନ୍ତୁ |"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "ପାଉଣ୍ଡ |",
     "କ୍ୱାର୍ଟସ୍",
     "ଅଗଣା",
-    "କୋଠରୀ"
+    "କୋଠରୀ",
+    "ସେକେଣ୍ଡ୍ |",
+    "ମିନିଟ୍ |",
+    "ଘଣ୍ଟା",
+    "ଦିନ",
+    "ସପ୍ତାହଗୁଡିକ |",
+    "ମାସଗୁଡିକ",
+    "ବର୍ଷ"
   ],
   "region_types": {
     "State": "ରାଜ୍ୟ",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "ସର୍ବନିମ୍ନ ଲମ୍ବ {ଲମ୍ବ must ହେବା ଜରୁରୀ |",
     "invalid_min_array_length": "ଅତିକମରେ {length} ଆଇଟମ୍ ଚୟନ କରନ୍ତୁ |",
     "invalid_max_chars": "ସର୍ବାଧିକ {maxCount} ବର୍ଣ୍ଣଗୁଡିକ |",
-    "invalid_url": "ଅବ val ଧ URL |"
+    "invalid_url": "ଅବ val ଧ URL |",
+    "country_invalid": "ଗନ୍ତବ୍ୟସ୍ଥଳ ଦେଶ ଚୟନ କରନ୍ତୁ!",
+    "postal_code_invalid": "ବ valid ଧ ଡାକ କୋଡ୍ ସେଟ୍ କରନ୍ତୁ!"
   },
   "colors": {
     "#D32F2F": "ଲାଲ୍ |",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "ଧଳା |",
     "#FFF": "ଧଳା |",
     "#000000": "କଳା",
-    "#000": "କଳା"
+    "#000": "କଳା",
+    "#7d263a": "ମାରୁନ୍ |",
+    "#FD9F17": "ସୁନା |",
+    "#229DBF": "କୁମ୍ଭ",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "ସେନା",
+    "#474747": "ଆସଫାଲ୍ଟ |",
+    "#E6195C": "ବେରୀ |",
+    "#B2184C": "ବେରୀ ଟ୍ରିବଲାଣ୍ଡ |",
+    "#FC7F5F": "ଜଳୁଥିବା କମଳା |",
+    "#80011F": "କାର୍ଡିନାଲ୍ |",
+    "#382829": "ଚକୋଲେଟ୍ |",
+    "#F06336": "ପ୍ରବାହ",
+    "#FAE7C9": "କ୍ରିମ୍",
+    "#6B2257": "କରେଣ୍ଟ୍ |",
+    "#222127": "ଗା ark ଧୂସର",
+    "#0D5A74": "ଗଭୀର ଟିଲ୍ |",
+    "#00582F": "ଚିର ସବୁଜ |",
+    "#214C30": "ଜଙ୍ଗଲ",
+    "#DC2867": "ଫୁଚସିଆ |",
+    "#38561": "କେଲି |",
+    "#5C884D": "ପତ୍ର |",
+    "#558450": "ହାଲୁକା କୁମ୍ଭ",
+    "#96B5C9": "ହାଲୁକା ନୀଳ",
+    "#DCAFCE": "ଲିଲାକ୍ |",
+    "#D3E1A4": "ଚୂନ |",
+    "#9DE7C2": "ମେଣ୍ଟ",
+    "#F6EAD2": "ପ୍ରାକୃତିକ |",
+    "#1A1F35": "ନ y ସେନା |",
+    "#404624": "ଅଲିଭ୍ |",
+    "#271020": "ଘିଅ |",
+    "#A8355C": "ରସଗୋଲା |",
+    "#D6BEA6": "ସଫ୍ଟ କ୍ରିମ୍ |",
+    "#BEA994": "ଟାନ୍ |",
+    "#0DB2AE": "ଚା ’",
+    "#A86EA9": "ଭିଏଲେଟ୍ |",
+    "#36454F": "ଅଙ୍ଗାର",
+    "#b3b0ab": "କାର୍ବନ ଗ୍ରେ",
+    "#463e3d": "ଅଙ୍ଗାର ହେଥର |",
+    "#282d3c": "ନ y ସେନା ବ୍ଲେଜର |"
   },
   "address_info": {
     "name": "ନାମ",
@@ -838,7 +940,8 @@ export default {
     "building_number": "ବିଲଡିଂ ନମ୍ବର |",
     "building_unit": "ୟୁନିଟ୍",
     "postcode": "ପୋଷ୍ଟକୋଡ୍",
-    "note": "ଧ୍ୟାନ ଦିଅନ୍ତୁ"
+    "note": "ଧ୍ୟାନ ଦିଅନ୍ତୁ",
+    "county": "କାଉଣ୍ଟି |"
   },
   "product_types": {
     "physical": "ଶାରୀରିକ",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "ରଙ୍ଗ",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "ସରଳ",
       "selective": "ଚୟନକର୍ତ୍ତା |",
-      "switch": "ସୁଇଚ୍"
-    }
+      "switch": "ସୁଇଚ୍",
+      "file": "ଫାଇଲ୍ |",
+      "number": "ସଂଖ୍ୟା"
+    },
+    "placeholder_input": "ସ୍ଥାନଧାରୀ",
+    "file_type_input": "ଗ୍ରହଣୀୟ ଫାଇଲ୍ ପ୍ରକାରଗୁଡିକ |",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "ଉତ୍ପାଦର ନାମ",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "ଆପଣଙ୍କର ମୋବାଇଲ୍ ପ୍ରବେଶ କରନ୍ତୁ |",
     "verification_code": "ପ୍ରମାଣ ସଂକେତ",
     "msg_title": "ହାଏ,",
-    "msg_body": "ଦୟାକରି ଲଗଇନ୍ କରନ୍ତୁ | ଏହା ମାତ୍ର କିଛି ସେକେଣ୍ଡ ନେଇଥାଏ |"
+    "msg_body": "ଦୟାକରି ଲଗଇନ୍ କରନ୍ତୁ | ଏହା ମାତ୍ର କିଛି ସେକେଣ୍ଡ ନେଇଥାଏ |",
+    "login_apple": "ଆପଲ୍ ସହିତ ଲଗ୍ଇନ୍ କରନ୍ତୁ |"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "ଟ୍ୟାଗ୍ ଯୋଡା ଯାଇଛି |"
     }
+  },
+  "difficulties": {
+    "very_complicated": "ବହୁତ ଜଟିଳ |",
+    "hard": "କଠିନ |",
+    "intermediate": "ମଧ୍ୟବର୍ତ୍ତୀ",
+    "easy": "ସହଜ"
   }
 };

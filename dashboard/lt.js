@@ -155,7 +155,19 @@ export default {
       "Setup": "parduotuvė",
       "Sell": "Pardavimas ir rinkodara",
       "Developer": "Tobulėti",
-      "Application": "Programos"
+      "Application": "Programos",
+      "Product": "Produktų ir kategorijų valdymas",
+      "Blog": "TVS ir tinklaraštis",
+      "Order": "Užsakymų vykdymo centras",
+      "Channel": "Pardavimo kanalai",
+      "Accounting": "Apskaita ir mokėjimo būdai",
+      "Incentives": "Paskatos",
+      "Marketing": "Rinkodara ir kampanijos",
+      "Logistic": "Logistika ir siuntimas",
+      "Customers": "Klientų klubas ir segmentavimas",
+      "Page": "Nukreipimo ir pasirinktiniai puslapiai",
+      "Access": "Personalo / API prieigos valdymas",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github saugykla",
@@ -193,7 +205,9 @@ export default {
       "stores": "Parduotuvės",
       "roles": "Vaidmenys",
       "home": "Namai",
-      "expert": "Ekspertas"
+      "expert": "Ekspertas",
+      "deals": "Pasiūlymai",
+      "providers": "Teikėjai"
     },
     "shops": {
       "create_new": "Sukurti naują parduotuvę",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Būsena",
           "created_at": "Sukūrimo data",
           "updated_at": "Paskutiniai pakeitimai"
-        }
+        },
+        "subtitle": "Rašykite straipsnius naudodami modernią tiesioginę redagavimo priemonę, kad pristatytumėte save ir savo verslą. Originalus turinys yra pirmas dalykas, į kurį turite sutelkti dėmesį rašydami aukštos kokybės SEO pritaikytą tinklaraščio įrašą."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Pranešimas",
         "tax": "Mokesčiai",
         "drop_shipping": "Perpardavėjo kvitai",
-        "reseller_accounts": "Perpardavėjų sąskaitos"
+        "reseller_accounts": "Perpardavėjų sąskaitos",
+        "valuations": "Vertinimai"
       },
       "invoice": {
         "title": "Pirkite susietas pinigines",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Siuntimas",
         "inventory": "Inventorius",
         "warehouse": "Sandėlis",
-        "logistic_apps": "Logistika"
+        "logistic_apps": "Logistika",
+        "profiles": "Profiliai"
       },
       "warehouse": {
         "title": "Parduotuvė Sandėlis",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Minimali užsakymo kaina nemokamam pristatymui",
           "notifications": {
             "update_success": "Siuntimo paslaugos nustatymai sėkmingai atlikti."
-          }
+          },
+          "shipping_cost_calculation": "Siuntimo išlaidų apskaičiavimas",
+          "sod_true": "Gaukite pristatymo kainą į paskirties vietą",
+          "sod_true_message": "Įsitikinkite, kad jūsų siuntimo tarnyba priima siuntimo išlaidas į paskirties vietą.",
+          "sod_false": "Automatinio siuntimo išlaidų apskaičiavimas",
+          "cod_true": "Priimkite grynuosius pristatymo metu",
+          "cod_false": "Priimkite mokėjimą tik internetu",
+          "cod_true_message": "Įsitikinkite, kad jūsų siuntimo tarnyba priima COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "Trumpoji žinutė",
         "email": "El. paštas",
         "domain": "Domenas",
-        "verifications": "Patikrinimai"
+        "verifications": "Patikrinimai",
+        "flow": "Srautas",
+        "business_model": "Verslo modelis"
       },
       "delete_dialog": {
         "title": "Ištrinti parduotuvę",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Produkto vienetas",
       "unit_float": "Plūdinis vienetas (greitai)",
       "unit_float_hint": "Pavyzdžiui, klientas gali užsisakyti 3 kg vaisių, tačiau klientui siunčiamas kiekis šiek tiek skiriasi nuo užsakyto kiekio.",
-      "unit_float_message": "Užsakymo apdorojimo metu pristatyta suma gali skirtis nuo užsakytos sumos. Sistema automatiškai apskaičiuoja šį skirtumą ir įrašo jį kaip Jūsų skolą klientui, kurią galima pritaikyti kitiems užsakymams."
+      "unit_float_message": "Užsakymo apdorojimo metu pristatyta suma gali skirtis nuo užsakytos sumos. Sistema automatiškai apskaičiuoja šį skirtumą ir įrašo jį kaip Jūsų skolą klientui, kurią galima pritaikyti kitiems užsakymams.",
+      "status_list": {
+        "active": {
+          "title": "Aktyvus | Pardavimas internetu ir neprisijungus",
+          "description": "Šį produktą bus galima užsisakyti internetu."
+        },
+        "inactive": {
+          "title": "Neaktyvus | Tik pardavimas neprisijungus",
+          "description": "Šis produktas nebus prieinamas užsakymams internetu."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Apklausa",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Pasirinkite pabaigos laiką",
       "independent_price": "Kaina tik šio varianto",
       "same_price": "Pagrindinės prekės kaina",
-      "variant_pricing_message": "Pasirinkus šią parinktį, šio varianto kainą galima nustatyti nepriklausomai nuo pagrindinės prekės."
+      "variant_pricing_message": "Pasirinkus šią parinktį, šio varianto kainą galima nustatyti nepriklausomai nuo pagrindinės prekės.",
+      "price_label_input": "Kainos etiketė",
+      "price_label_message": "Pridėkite papildomos informacijos apie kainą, pvz., (1,5 USD/Fl Oz). Naudojimo atvejai: bakalėjos, FMCG.",
+      "add_price_label_action": "Pridėkite kainos etiketę"
     },
     "inputs_edit": {
       "title": "Pirkėjo informacijos įvedimo forma",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Vartai {gateway_name} redaguoti."
     },
-    "developer_setting": "Kurti ir išbandyti"
+    "developer_setting": "Kurti ir išbandyti",
+    "live_mode_message": "Visos operacijos bus vykdomos tiesioginiu režimu."
   },
   "gift_card": {
     "title": "Dovanų kuponai",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Atsiskaitymo adresas redagavo pirkėjas.",
     "payment-cod-confirm": "COD Mokėjimas patvirtintas.",
     "payment-cash-confirm": "Buvo patvirtintas {amount} {currency} apmokėjimas grynaisiais už sąskaitą.",
-    "payment-dir-confirm": "Patvirtintas tiesioginio mokėjimo kvitas."
+    "payment-dir-confirm": "Patvirtintas tiesioginio mokėjimo kvitas.",
+    "vendor": "Tiekėjo užsakymo būsena pakeista iš <b>{from}</b> į <b>{to}</b> .",
+    "connect-sync": "Užsakymas sinchronizuotas naudojant Connect OS.",
+    "connect-shipped": "Jungties užsakymą išsiuntė {shipping}.",
+    "connect-returned": "Jungties užsakymą grąžino {shipping}.",
+    "connect-failed": "Partneriui nepavyko įvykdyti užsakymo. {reason}",
+    "connect-canceled": "Užsakymą atšaukė partneris. {reason}",
+    "connect-action-cancel": "Prašymas atšaukti užsakymą. {reason}",
+    "connect-put-hold": "Užsakymas buvo atidėtas. {reason}",
+    "connect-remove-hold": "Užsakymas buvo pašalintas. {reason}",
+    "connect-confirmed": "Užsakymas buvo patvirtintas.",
+    "email-vendor": "🔔 Užsakymo informavimo el. laiškas išsiųstas <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Šiandien",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Užsidirbti pinigų",
     "menu": {
       "plans": "Planai",
-      "accounts": "Sąskaitos"
+      "accounts": "Sąskaitos",
+      "participant": "Dalyvis"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Parduotuvės prieigos raktai",
     "shop_keys_message": "Šie raktai naudojami serverio prieigos prieigos raktui sukurti. Atkreipkite dėmesį, kad raktai yra konfidencialūs ir dedami tik į serverį, kad jie nebūtų matomi kitiems.",
     "personal_keys_title": "Asmeniniai prieigos raktai",
-    "personal_keys_message": "Čia galite sukurti paskyros raktus. Atminkite, kad šiais raktais bus galima pasiekti jūsų paskyrą. Kurkite ir naudokite šiuos raktus tik tada, kai tiksliai žinote, ką darote."
+    "personal_keys_message": "Čia galite sukurti paskyros raktus. Atminkite, kad šiais raktais bus galima pasiekti jūsų paskyrą. Kurkite ir naudokite šiuos raktus tik tada, kai tiksliai žinote, ką darote.",
+    "clients_title": "Klientai",
+    "clients_message": "Šie raktai naudojami serverio prieigos prieigos raktui sukurti. Atkreipkite dėmesį, kad raktai yra konfidencialūs ir dedami tik į serverį, kad jie nebūtų matomi kitiems."
   },
   "user_security_control": {
     "title": "Paskyros apsauga",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Tvarkyti profilius",
       "description": "Tvarkykite parduotuvių profilius."
+    },
+    "shop-discount-code": {
+      "name": "Nuolaidų kodų valdymas",
+      "description": "Tvarkykite, redaguokite ir pridėkite parduotuvės nuolaidų kodus."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Nustatymai",
       "change": "Apmokestinti",
       "transfer": "Perkėlimas",
-      "transactions": "Sandoriai"
+      "transactions": "Sandoriai",
+      "charge": "Apmokestinti",
+      "history": "Istorija"
     },
     "transactions": {
       "title": "Sąskaitos operacijos",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Atšaukti prenumeratos patvirtinimą",
       "message": "Ar tikrai atšauksite šią prenumeratą?",
       "action": "Atšaukti prenumeratą"
-    }
+    },
+    "use_voucher_now": "Naudokite kuponą dabar",
+    "validity_duration": "Galiojimo trukmė",
+    "validity_duration_hint": "Įsigiję 12 mėnesių licenciją gausite 30% nuolaidą."
   },
   "admin_shop_layout": {
     "download_txt": "Parsisiųsti duomenų tekstą",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Dideli šriftai",
     "large_font_message": "Rodyti didesnį tekstą nei įprastai",
     "samples": "Rodyti pavyzdines parduotuves",
-    "samples_message": "Jei įjungta, skydelyje bus rodomos kai kurios pavyzdinės parduotuvės."
+    "samples_message": "Jei įjungta, skydelyje bus rodomos kai kurios pavyzdinės parduotuvės.",
+    "automation": "Automatika",
+    "automation_message": "Rodyti automatizavimo skirtuką parduotuvės prietaisų skydelyje. (Webhooks, vizualinis programavimas,...)"
   },
   "shop_locations": {
     "title": "Šalys, kuriose teikiamos paslaugos",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kuponas sėkmingai ištrintas."
-    }
+    },
+    "multiple_use": "Daugkartinis naudojimas"
   },
   "coupon_edit": {
     "title_edit": "Redaguoti kuponą",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Riba",
       "description": "Nustatykite maksimalaus vartotojų skaičiaus apribojimą."
+    },
+    "SEGMENTS": {
+      "title": "Segmentai",
+      "description": "Apribokite klientus konkrečiu rankiniu būdu segmentavimu."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Visa užsakymo suma buvo nuimta iš dovanų kortelių! Pirkėjui daugiau mokėti nereikia.",
       "cod_msg": "Klientas atsiskaitys gavęs užsakymą.",
       "online_msg": "Paprašykite kliento nuskaityti QR kodą kliento ekrane."
-    }
+    },
+    "name": "POS",
+    "message": "Turėkite nulinės sąrankos kainos internetinėje pardavimo vietoje, paleiskite jį bet kuriame išmaniajame telefone, planšetiniame kompiuteryje ir asmeniniame kompiuteryje arba kurkite užsakymus rankiniu būdu."
   },
   "exporter": {
     "title": "Eksportuoti duomenis",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Siųsti į serverį",
     "shop_license": "Parduotuvės licencija",
     "max_items_limit": "Maksimalus prekių kiekis",
-    "total_items": "Iš viso prekių"
+    "total_items": "Iš viso prekių",
+    "customer": {
+      "title": "Importuoti klientus",
+      "subtitle": "Čia įkelkite klientų CSV failus. Įsitikinkite, kad laikotės standartinio formato, taip pat turite laikytis privatumo taisyklių."
+    }
   },
   "campaigns": {
     "title": "Kampanijos",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Nuorodos",
     "light_checkout": "Lengva kasos tema",
     "light_header": "Šviesos antraštė",
-    "light_footer": "Šviesi poraštė"
+    "light_footer": "Šviesi poraštė",
+    "product_page": "Produkto puslapis",
+    "typography": "Tipografija",
+    "header": "Antraštė",
+    "custom_code": "Pasirinktinis kodas",
+    "custom_css": "Tinkintas CSS"
   },
   "app_templates": {
     "default": "Numatytas",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Tvarkyti paslaugą",
     "option_deliver_by_courier": "1 variantas: pristatymas per kurjerį.",
     "option_add_to_que": "2 parinktis: pridėkite prie eilės, kad galėtumėte apdoroti siuntimo paslaugos puslapyje.",
-    "option_instant_shipping": "3 parinktis: greitas pristatymas."
+    "option_instant_shipping": "3 parinktis: greitas pristatymas.",
+    "pickup_action": "Paėmimo patvirtinimas"
   },
   "shop_home_edit": {
     "title": "Pagrindinio puslapio nustatymas",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Produktas pridėtas prie jūsų parduotuvės.",
       "request_access": "Sėkmingai išsiuntėme jūsų prieigos prašymą didmenininkui."
-    }
+    },
+    "show_eligible_shops_message": "Rodyti tinkamas parduotuves"
   },
   "product_dropshipping": {
     "need_re_enable": "Šią prekę pakeitė pirminis pardavėjas, dėl šių kainų pakeitimų prekė buvo išjungta jūsų parduotuvėje. Patikrinkite pakeitimus ir, jei sutinkate iš naujo suaktyvinti produktą, paspauskite žemiau esantį mygtuką.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Jūsų parduotuvėje nėra kategorijos.",
       "limit": "Produktų limitas",
       "limit_message": "Įveskite produktų rezultatų skaičių",
-      "select_categories": "Pasirinkite galimas kategorijas"
+      "select_categories": "Pasirinkite galimas kategorijas",
+      "categories_limit": "Kategorijų limitas",
+      "categories_limit_msg": "Įveskite didžiausią kategorijų skaičių. Nustatykite nulį, kad nebūtų jokių apribojimų."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avokadas sėkmingai atnaujintas.",
       "add_success": "Sėkmingai sukurtas avokadas."
-    }
+    },
+    "name": "Avokadas"
   },
   "avocado_orders": {
     "title": "Avokadas",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "neaktyvus",
     "active_message": "Jei įjungsite šią parinktį, kiekvieno produkto valdymo skiltyje bus rodoma galimybė sukurti greitojo pardavimo kodus.",
     "hyper_form_link_message": "Jūsų parduotuvės hiper puslapio nuoroda",
-    "configuration": "Hiper nustatymai"
+    "configuration": "Hiper nustatymai",
+    "name": "Hiper"
   },
   "hyper_orders": {
     "title": "Hiper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Klientų demografija",
     "subtitle": "Filtruokite ir eksportuokite savo klientų duomenis, kad galėtumėte priimti geresnius sprendimus ir teikti daugiau vertės su mažiau rinkodaros! Gerbkite savo klientų privatumą ir niekada nesiųskite jiems masinių el. laiškų! Niekada nesidalykite savo klientų informacija su trečiųjų šalių tarnybomis negavę kiekvieno iš jų leidimo."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Paėmimo adresai",
+      "subtitle": "Pridėkite ir redaguokite atsiėmimo adresus čia. Atsiėmimo adresą vartotojai galės pasirinkti atsiskaitymo puslapyje.",
+      "add_action": "Pridėti naują vietą"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Filialo POS",
+    "open_pos_action": "Greitas užsakymas POS",
+    "description": "Ši parinktis tinka Instagram puslapių ir kitų socialinių tinklų administratoriams. Naudokite Affiliate POS, norėdami rankiniu būdu gauti ir pridėti klientų užsakymus. Jūsų filialai (arba franšizė) gali pridėti naujų užsakymų filialo POS ir įkelti indėlio kvitą."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Prisijungimo būdai",
+      "subtitle": "Tinkinkite vartotojų prisijungimo prie jūsų parduotuvės būdą."
+    },
+    "checkout": {
+      "title": "Patikrinimo eiga",
+      "subtitle": "Tinkinkite savo klientų kelią ir pirkimo srautą el. prekyboje.",
+      "map": {
+        "title": "Žemėlapis",
+        "subtitle": "Naudotojai turi pasirinkti pristatymo vietą žemėlapyje (pvz., Uber).",
+        "subtitle_no_map": "Skaičiuojant pristatymo atstumą, jis laikomas nuliu, jei vietos nėra kliento nurodytame adresu."
+      },
+      "mode": {
+        "title": "Klientų prisijungimo taškas",
+        "default": {
+          "title": "ASAP (numatytasis)",
+          "msg": "Vartotojai prisijungia kuo greičiau. (Daugiau konversijų)"
+        },
+        "on_checkout": {
+          "title": "Kasoje",
+          "msg": "Priverskite vartotojus prisijungti atliekant patikros veiksmą."
+        },
+        "login_free": {
+          "title": "Neprivalomas prisijungimas",
+          "msg": "Neprivalomas prisijungimas po užsakymo apmokėjimo.."
+        }
+      },
+      "express": {
+        "title": "Peradresuoti įdėjus į krepšelį",
+        "false": {
+          "title": "Normalus režimas",
+          "msg": "Likite puslapyje ir tęskite apsipirkimą spustelėję Pridėti į krepšelį."
+        },
+        "true": {
+          "title": "Express režimas",
+          "msg": "Nukreipkite klientą į atsiskaitymo puslapį, spustelėję įtraukti į krepšelį."
+        }
+      },
+      "shipping_address": {
+        "title": "Siuntimo adreso teirautis"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fizinė ir paslauga (numatytasis)",
+      "desc": "Paprašykite kliento įvesti adresą fizinėse ir paslaugų kasose."
+    },
+    "physical": {
+      "title": "Tik fizinis",
+      "desc": "Paprašykite kliento įvesti adresą tiesiog fizinėje kasoje."
+    },
+    "off": {
+      "title": "Niekada",
+      "desc": "Niekada neklauskite pristatymo adreso. ⚠ Naudokite šią parinktį, jei planuojate teikti paslaugas su variantais, pasirinkdami fizinį produktų tipą, o ne paslaugos tipą."
+    }
+  },
+  "business_model": {
+    "title": "Verslo modelio nustatymas",
+    "subtitle": "Nustatykite savo verslo modelį ir mes sukonfigūruosime jūsų OS užkulisiuose."
+  },
+  "business_type": {
+    "title": "Prekių rūšys",
+    "subtitle": "Nustatykite produktų, kuriuos norite parduoti savo parduotuvėje, tipą. „Selldone“ produktų tipai yra daugiau nei tik produktų tipas; tai daugiau apie įvykdymo procedūrą.",
+    "send_activation_request_to_support": "Išsiųskite aktyvinimo užklausą palaikymo biliete.",
+    "require_kyc": "Verslo savininkas KYC.",
+    "needs_enterprise_license": "Turite turėti įmonės licenciją.",
+    "marketplace_caution_message": "Nustatykite „Marketplace“ kaip savo modelį, kuris labai paveiks jūsų verslo OS konfigūraciją. Pavyzdžiui, kiekvienam produktui turite nustatyti bent vieną tiekėją su nepriklausoma kainodara ir atsargomis. Klientai negali pirkti produktų, kurie neturi pardavėjo."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Įprasta parduotuvė",
+      "desc": "Paprastai tai yra MVĮ, namų verslas arba siuntų siuntėjas, kuris parduoda savo produktą tiesiogiai klientams arba parduoda didmenininkų produktus kaip perpardavėjas."
+    },
+    "dropshipping": {
+      "title": "Dropshippingas",
+      "desc": "Nelaikykite jokių produktų ir atsargų – mokate trečiajai šaliai, dažniausiai didmenininkui (pvz., „Printify“, „Wholesale2B“ ir kt.) arba gamintojui, o jie užsakymus vykdo užkulisiuose."
+    },
+    "wholesaler": {
+      "title": "Dropshipping tiekėjas",
+      "desc": "Paprastai tai yra didmenininkas arba gamintojas, kuris siunčia užsakymus tiesiai galutiniam vartotojui. Kiti „Selldone“ prekybininkai gali išsiųsti jūsų produktus į savo parduotuves."
+    },
+    "marketplace": {
+      "title": "Turgavietė",
+      "desc": "Internetinės prekyvietės sujungia pirkėjus ir pardavėjus patentuotoje ir centralizuotoje platformoje."
+    },
+    "franchise": {
+      "title": "Franšizė / filialas",
+      "desc": "Franšizė yra produktų ar paslaugų platinimo būdas, kai dalyvauja franšizės davėjas, kuris sukuria jūsų prekės ženklą (franšizė) arba parduoda jūsų produktus pagal savo prekės ženklą (filialas)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Piniginės",
+    "pricing_models": "Kainodara",
+    "add_vendor": "Pridėti pardavėją",
+    "requests": "Prašymai"
+  },
+  "price_input_type": {
+    "title": "Kainos įvesties tipas",
+    "default": {
+      "title": "Numatytas",
+      "desc": "Pasirinkite vertę kaip kiekį krepšelyje."
+    },
+    "area": {
+      "title": "Plotas",
+      "desc": "Norėdami apskaičiuoti kiekį, įveskite plotį ir ilgį."
+    },
+    "volume": {
+      "title": "apimtis",
+      "desc": "Norėdami apskaičiuoti kiekį, įveskite plotį, ilgį ir aukštį."
+    },
+    "custom": {
+      "title": "Pasirinktinis (pagal įvesties formą)",
+      "desc": "Nereikia šimtų variantų! Sukurkite tinkintą išlaidų apskaičiavimo formą, skirtą labai pritaikomiems produktams."
+    }
+  },
+  "vendors_list": {
+    "title": "Mano pardavėjai",
+    "message": "Mano pardavėjų sąrašas."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Prijunkite kelis domenus prie savo verslo OS ir tvarkykite juos visus vienoje vietoje. Galite naudoti kelių domenų funkciją, kad sukurtumėte specialius domenus kiekvienai savo svetainės daliai, pvz., tinklaraščiui ir bendruomenei, arba naudoti skirtingus domenus savo filialams."
+  },
+  "notes": {
+    "add_action": "Pridėkite pastabą savo komandai",
+    "notifications": {
+      "success_add": "Pastaba sėkmingai pridėta.",
+      "success_delete": "Pastaba sėkmingai ištrinta."
+    }
+  },
+  "external_services": {
+    "title": "Išorinės paslaugos",
+    "subtitle": "Čia stebėkite paskutinę išorinių paslaugų, pvz., SMS ir el. laiškų, būseną."
   }
 };

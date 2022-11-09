@@ -558,7 +558,52 @@ export default {
     "merchant": "Tregtar",
     "per_product": "Për produkt",
     "journey": "Udhëtim",
-    "after": "Pas"
+    "after": "Pas",
+    "waiting_for_payment": "Ju lutemi plotësoni pagesën...",
+    "hour": "Ora",
+    "minute": "Minuta",
+    "premium": "Premium",
+    "light": "Drita",
+    "dark": "E errët",
+    "guest": "I ftuar",
+    "shops": "Dyqane",
+    "vendor": "Shitësi",
+    "vendors": "Shitësit",
+    "marketplace": "Tregu",
+    "verify_date": "Verifiko datën",
+    "note": "shënim",
+    "panel": "Paneli",
+    "removed": "U hoq",
+    "segments": "Segmentet",
+    "personal_info": "Informacione Personale",
+    "preferences": "Preferencat",
+    "spec": "Spec",
+    "reviews": "Vlerësime",
+    "constraints": "Kufizimet",
+    "flexible": "Fleksibël",
+    "usage_limit": "Kufiri i përdorimit",
+    "temporary": "E përkohshme",
+    "original": "Origjinale",
+    "saved": "U ruajt!",
+    "sort": "Rendit",
+    "documents": "Dokumentet",
+    "document": "Dokumenti",
+    "please_wait": "Te lutem prit...",
+    "pickup": "Pickup",
+    "customize": "personalizoj",
+    "difficulty": "Vështirësi",
+    "banned": "I ndaluar",
+    "company": "Kompania",
+    "tax_shipping": "Taksa e Transportit",
+    "warranty": "Garancia",
+    "return_policy": "Politika e Kthimit",
+    "guide": "Udhëzues",
+    "translate": "Përkthejeni",
+    "public": "Publike",
+    "deleted": "Fshirë",
+    "variant": "Variant",
+    "secure": "Sigurt",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Pista",
     "change_state": "Ndrysho statusin",
     "done": "U krye",
-    "reply": "Përgjigju"
+    "reply": "Përgjigju",
+    "watch_now": "Shiko tani",
+    "unlock": "Hap",
+    "lock": "Kyç",
+    "create_clone": "Krijo klon",
+    "regenerate": "Rigjeneroni",
+    "add_message": "Shto mesazh",
+    "continue_chat": "Vazhdo bisedën",
+    "add_new_message": "Shto mesazh të ri"
   },
   "instance_message_title": "Dërgo mesazh të menjëhershëm",
   "instance_message": "Përshëndetje {name}, emri im është {author} nga {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Kodi Postar",
     "enter_value": "Plotësoni këtu",
     "address_note": "shënim",
-    "tel": "Numri i kontaktit"
+    "tel": "Numri i kontaktit",
+    "service_address": "Zgjidhni adresën tuaj"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "paund",
     "kuart",
     "oborre",
-    "dhomë"
+    "dhomë",
+    "sekonda",
+    "minuta",
+    "orë",
+    "ditë",
+    "javë",
+    "muaj",
+    "vjet"
   ],
   "region_types": {
     "State": "shteti",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Gjatësia minimale duhet të jetë {length}",
     "invalid_min_array_length": "Të paktën zgjidhni artikuj {length}",
     "invalid_max_chars": "Maksimumi {maxCount} karaktere",
-    "invalid_url": "URL e pavlefshme"
+    "invalid_url": "URL e pavlefshme",
+    "country_invalid": "Zgjidhni vendin e destinacionit!",
+    "postal_code_invalid": "Vendos kod postar të vlefshëm!"
   },
   "colors": {
     "#D32F2F": "E kuqe",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "E bardha",
     "#FFF": "E bardha",
     "#000000": "E zezë",
-    "#000": "E zezë"
+    "#000": "E zezë",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Ari",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Ushtria",
+    "#474747": "Asfalti",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Portokalli e djegur",
+    "#80011F": "Kardinali",
+    "#382829": "Cokollate",
+    "#F06336": "Koral",
+    "#FAE7C9": "Krem",
+    "#6B2257": "Rrush pa fara",
+    "#222127": "Gri e errët",
+    "#0D5A74": "Teal i thellë",
+    "#00582F": "Me gjelbërim të përhershëm",
+    "#214C30": "Pyll",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Gjethja",
+    "#558450": "Aqua e lehtë",
+    "#96B5C9": "Blu e hapur",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "Gëlqere",
+    "#9DE7C2": "Nenexhik",
+    "#F6EAD2": "Natyrore",
+    "#1A1F35": "Marina",
+    "#404624": "Ulliri",
+    "#271020": "Kumbulla",
+    "#A8355C": "Mjedër",
+    "#D6BEA6": "Krem i butë",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "vjollce",
+    "#36454F": "qymyr druri",
+    "#b3b0ab": "gri e karbonit",
+    "#463e3d": "Heather qymyr druri",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Emri",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Numri i ndërtesës",
     "building_unit": "Njësia",
     "postcode": "Kodi Postar",
-    "note": "shënim"
+    "note": "shënim",
+    "county": "Qarku"
   },
   "product_types": {
     "physical": "Fizike",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Ngjyrë",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "E thjeshtë",
       "selective": "Selektive",
-      "switch": "Ndërro"
-    }
+      "switch": "Ndërro",
+      "file": "Skedari",
+      "number": "Numri"
+    },
+    "placeholder_input": "Vendmbajtësi",
+    "file_type_input": "Llojet e pranueshme të skedarëve",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Emri i produktit",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Futni celularin tuaj",
     "verification_code": "Kodi i Verifikimit",
     "msg_title": "Përshëndetje,",
-    "msg_body": "Ju lutemi identifikohuni. Duhen vetëm disa sekonda."
+    "msg_body": "Ju lutemi identifikohuni. Duhen vetëm disa sekonda.",
+    "login_apple": "Hyni me Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Etiketat e shtuara"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Shumë e ndërlikuar",
+    "hard": "E vështirë",
+    "intermediate": "E ndërmjetme",
+    "easy": "Lehtë"
   }
 };

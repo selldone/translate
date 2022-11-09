@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Kapcsolódó termékek",
     "price": "Ár",
     "rate": "Mérték",
-    "comment": "Megjegyzés"
+    "comment": "Megjegyzés",
+    "warranty": "Garancia",
+    "return_policy": "Visszaküldési szabályzat",
+    "guide": "Útmutató",
+    "shipping": "Szállítás"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Megrendelése sikeresen feladásra került.",
       "delete_success": "Elem törölve."
-    }
+    },
+    "select_address_message": "Kérjük, adja meg címét, és már tudja leadni a rendelést."
   },
   "hyper": {
     "title": "Rendelés létrehozása",
@@ -541,5 +546,19 @@ export default {
       "message": "Ön díjat adott meg ehhez a tételhez. Módosíthatja az ügyfél által vásárolt tétel díjának összegét.",
       "charge": "Díj"
     }
+  },
+  "check_access": {
+    "waiting_message": "Várakozás a hozzáférés ellenőrzésére...",
+    "no_access_message": "Sajnos Ön nem fér hozzá üzletünkhöz.<br/> Kérjük, lépjen kapcsolatba velünk."
+  },
+  "share_order": {
+    "action": "Rendelés megosztása",
+    "title": "Oszd meg ezt a megrendelést másokkal.",
+    "message": "Ez egy biztonságos link, csak azokkal ossza meg, akiket ismer. A link birtokában mindenki megismételheti megrendelését, és láthatja a kiválasztott címet. Információkat tartalmaz az aktuális kosaráról.",
+    "valid_period": "Ez a link 48 óra elteltével lejár.",
+    "import_order_action": "Import rendelés",
+    "retrieve_dialog_title": "Külső rendelés lekérése",
+    "address_included": "Megosztás kosár tételek + Cím",
+    "address_excluded": "Csak a kosár tételeit ossza meg"
   }
 };

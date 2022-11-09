@@ -558,7 +558,52 @@ export default {
     "merchant": "Тоҷир",
     "per_product": "Ба хар як махсулот",
     "journey": "Сафар",
-    "after": "Баъди"
+    "after": "Баъди",
+    "waiting_for_payment": "Лутфан пардохтро анҷом диҳед...",
+    "hour": "Соат",
+    "minute": "дақиқа",
+    "premium": "Премиум",
+    "light": "Нур",
+    "dark": "Торик",
+    "guest": "Меҳмон",
+    "shops": "Мағозаҳо",
+    "vendor": "Фурӯшанда",
+    "vendors": "Фурӯшандагон",
+    "marketplace": "Бозор",
+    "verify_date": "Санаи тасдиқ",
+    "note": "Шарҳ",
+    "panel": "Панел",
+    "removed": "Хориҷ карда шуд",
+    "segments": "Сегментҳо",
+    "personal_info": "Маълумоти шахсӣ",
+    "preferences": "Афзалиятҳо",
+    "spec": "Spec",
+    "reviews": "Баррасиҳо",
+    "constraints": "Маҳдудиятҳо",
+    "flexible": "Фасеҳ",
+    "usage_limit": "Маҳдудияти истифода",
+    "temporary": "Муваққатӣ",
+    "original": "Асли",
+    "saved": "Захира шуд!",
+    "sort": "Тартиб додан",
+    "documents": "Ҳуҷҷатҳо",
+    "document": "Ҳуҷҷат",
+    "please_wait": "Илтимос истед...",
+    "pickup": "Бардоштан",
+    "customize": "мутобиқ кардан",
+    "difficulty": "Мушкилот",
+    "banned": "Манъи",
+    "company": "Ширкат",
+    "tax_shipping": "Андозаи интиқол",
+    "warranty": "Кафолат",
+    "return_policy": "Шеваи Бозгардон",
+    "guide": "Роҳнамо",
+    "translate": "Тарҷума кунед",
+    "public": "оммавй",
+    "deleted": "Нобуд",
+    "variant": "Варианти",
+    "secure": "Бехатар",
+    "admin": "Админ"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Track",
     "change_state": "Статусро тағир диҳед",
     "done": "Иҷро шуд",
-    "reply": "Ҷавоб диҳед"
+    "reply": "Ҷавоб диҳед",
+    "watch_now": "Ҳоло тамошо кунед",
+    "unlock": "Кушодан",
+    "lock": "Қулф",
+    "create_clone": "Клон эҷод кунед",
+    "regenerate": "Бозсозӣ",
+    "add_message": "Иловаи паём",
+    "continue_chat": "Давом додани сӯҳбат",
+    "add_new_message": "Паёми нав илова кунед"
   },
   "instance_message_title": "Паёми фаврӣ фиристед",
   "instance_message": "Салом {name}, номи ман {author} аз {company} мебошад.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Индекси почта",
     "enter_value": "Дар ин ҷо пур кунед",
     "address_note": "Шарҳ",
-    "tel": "Рақами тамос"
+    "tel": "Рақами тамос",
+    "service_address": "Суроғаи худро интихоб кунед"
   },
   "weight": {
     "g": "г",
@@ -753,7 +807,14 @@ export default {
     "фунт",
     "кварта",
     "ҳавлӣ",
-    "ҳуҷра"
+    "ҳуҷра",
+    "сония",
+    "дақиқа",
+    "соат",
+    "рӯз",
+    "ҳафтаҳо",
+    "моҳҳо",
+    "сол"
   ],
   "region_types": {
     "State": "Давлат",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Дарозии ҳадди ақал бояд {length} бошад",
     "invalid_min_array_length": "Ақаллан ҷузъҳои {length}-ро интихоб кунед",
     "invalid_max_chars": "Ҳадди аксар {maxCount} аломат",
-    "invalid_url": "URL нодуруст"
+    "invalid_url": "URL нодуруст",
+    "country_invalid": "Кишвари таъинотро интихоб кунед!",
+    "postal_code_invalid": "Индекси дурусти почтаро таъин кунед!"
   },
   "colors": {
     "#D32F2F": "Сурх",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Сафед",
     "#FFF": "Сафед",
     "#000000": "Сиёҳ",
-    "#000": "Сиёҳ"
+    "#000": "Сиёҳ",
+    "#7d263a": "Марун",
+    "#FD9F17": "Тилло",
+    "#229DBF": "Об",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Армия",
+    "#474747": "Асфалт",
+    "#E6195C": "Берри",
+    "#B2184C": "Берри Трибленд",
+    "#FC7F5F": "Orange сӯхта",
+    "#80011F": "Кардинал",
+    "#382829": "Шоколад",
+    "#F06336": "Корал",
+    "#FAE7C9": "Крим",
+    "#6B2257": "Карат",
+    "#222127": "Хокистари сиёҳ",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Ҳамешасабз",
+    "#214C30": "Чангал",
+    "#DC2867": "Фуксия",
+    "#38561": "Келли",
+    "#5C884D": "Барг",
+    "#558450": "Aqua Light",
+    "#96B5C9": "Кабуди равшан",
+    "#DCAFCE": "Лилак",
+    "#D3E1A4": "Оҳак",
+    "#9DE7C2": "пудинагӣ",
+    "#F6EAD2": "Табиӣ",
+    "#1A1F35": "Флоти бахрй",
+    "#404624": "Зайтун",
+    "#271020": "олу",
+    "#A8355C": "Тамашк",
+    "#D6BEA6": "Крими мулоим",
+    "#BEA994": "Тан",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Бунафш",
+    "#36454F": "Ангишт",
+    "#b3b0ab": "карбон Грей",
+    "#463e3d": "Хизер ангиштсанг",
+    "#282d3c": "Блейзери баҳрӣ"
   },
   "address_info": {
     "name": "Ном",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Рақами бино",
     "building_unit": "Воҳиди",
     "postcode": "Индекси почта",
-    "note": "Шарҳ"
+    "note": "Шарҳ",
+    "county": "Шаҳристон"
   },
   "product_types": {
     "physical": "ҷисмонӣ",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Ранги",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Содда",
       "selective": "Интихоби",
-      "switch": "Гузариш"
-    }
+      "switch": "Гузариш",
+      "file": "Файл",
+      "number": "Шумораи"
+    },
+    "placeholder_input": "Ҷойгиркунанда",
+    "file_type_input": "Намудҳои файлҳои қобили қабул",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Номи маҳсулот",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Мобилияти худро ворид кунед",
     "verification_code": "Рамзи озмоиш",
     "msg_title": "Салом,",
-    "msg_body": "Лутфан ворид шавед. Ин ҳамагӣ чанд сонияро мегирад."
+    "msg_body": "Лутфан ворид шавед. Ин ҳамагӣ чанд сонияро мегирад.",
+    "login_apple": "Бо Apple ворид шавед"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Тегҳо илова карда шуданд"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Хеле мураккаб",
+    "hard": "Сахт",
+    "intermediate": "Миёна",
+    "easy": "Осон"
   }
 };

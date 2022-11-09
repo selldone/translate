@@ -155,7 +155,19 @@ export default {
       "Setup": "가게",
       "Sell": "영업 및 마케팅",
       "Developer": "개발하다",
-      "Application": "애플리케이션"
+      "Application": "애플리케이션",
+      "Product": "제품 및 카테고리 관리",
+      "Blog": "CMS 및 블로그",
+      "Order": "주문 처리 센터",
+      "Channel": "판매 채널",
+      "Accounting": "회계 및 지불 방법",
+      "Incentives": "인센티브",
+      "Marketing": "마케팅 및 캠페인",
+      "Logistic": "물류 및 배송",
+      "Customers": "고객 클럽 및 세분화",
+      "Page": "방문 및 맞춤 페이지",
+      "Access": "직원 / API 액세스 관리",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github 리포지토리",
@@ -193,7 +205,9 @@ export default {
       "stores": "백화점",
       "roles": "역할",
       "home": "집",
-      "expert": "전문가"
+      "expert": "전문가",
+      "deals": "거래",
+      "providers": "공급자"
     },
     "shops": {
       "create_new": "새 상점 만들기",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "상태",
           "created_at": "생산 일",
           "updated_at": "마지막 업데이트"
-        }
+        },
+        "subtitle": "최신 인라인 편집기로 기사를 작성하여 자신과 귀하의 비즈니스를 소개하십시오. 고품질의 SEO 친화적인 블로그 게시물을 작성할 때 가장 먼저 집중해야 하는 것은 독창적인 콘텐츠입니다."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "보고서",
         "tax": "세",
         "drop_shipping": "리셀러 영수증",
-        "reseller_accounts": "리셀러 계정"
+        "reseller_accounts": "리셀러 계정",
+        "valuations": "평가"
       },
       "invoice": {
         "title": "연결된 지갑 쇼핑하기",
@@ -605,7 +621,8 @@ export default {
         "delivery": "배송",
         "inventory": "목록",
         "warehouse": "창고",
-        "logistic_apps": "물류 센터"
+        "logistic_apps": "물류 센터",
+        "profiles": "프로필"
       },
       "warehouse": {
         "title": "매장 창고",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "무료 배송을 위한 최소 주문 비용",
           "notifications": {
             "update_success": "배송 서비스 설정이 완료되었습니다."
-          }
+          },
+          "shipping_cost_calculation": "배송비 계산",
+          "sod_true": "목적지에 대한 배송비 받기",
+          "sod_true_message": "배송 서비스가 목적지의 배송비를 수락하는지 확인하십시오.",
+          "sod_false": "자동 배송비 계산",
+          "cod_true": "대금 상환 수령",
+          "cod_false": "온라인 결제만 수락",
+          "cod_true_message": "배송 서비스에서 COD를 허용하는지 확인하십시오."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "이메일",
         "domain": "도메인",
-        "verifications": "검증"
+        "verifications": "검증",
+        "flow": "흐름",
+        "business_model": "비즈니스 모델"
       },
       "delete_dialog": {
         "title": "스토어 삭제",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "제품 단위",
       "unit_float": "플로트 유닛(곧)",
       "unit_float_hint": "예를 들어, 고객이 과일 3kg을 주문할 수 있는데 고객에게 보내는 양은 주문한 양과 약간 다릅니다.",
-      "unit_float_message": "주문 처리 중 배송된 금액과 주문한 금액이 다를 수 있습니다. 시스템은 이 차액을 자동으로 계산하고 다음 주문에 적용할 수 있는 고객에 대한 부채로 기록합니다."
+      "unit_float_message": "주문 처리 중 배송된 금액과 주문한 금액이 다를 수 있습니다. 시스템은 이 차액을 자동으로 계산하고 다음 주문에 적용할 수 있는 고객에 대한 부채로 기록합니다.",
+      "status_list": {
+        "active": {
+          "title": "활성 | 온라인 및 오프라인 판매",
+          "description": "이 제품은 온라인 주문이 가능합니다."
+        },
+        "inactive": {
+          "title": "비활성 | 오프라인 판매만",
+          "description": "이 제품은 온라인 주문이 불가능합니다."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "서베이",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "종료 시간 선택",
       "independent_price": "이 변형의 가격",
       "same_price": "주요 제품의 가격",
-      "variant_pricing_message": "이 옵션을 선택하면 이 변형의 가격을 주 제품과 별도로 설정할 수 있습니다."
+      "variant_pricing_message": "이 옵션을 선택하면 이 변형의 가격을 주 제품과 별도로 설정할 수 있습니다.",
+      "price_label_input": "가격 라벨",
+      "price_label_message": "( $1.5/Fl Oz )와 같은 가격에 대한 추가 정보를 추가하십시오. 사용 사례: 식료품, FMCG.",
+      "add_price_label_action": "가격 라벨 추가"
     },
     "inputs_edit": {
       "title": "구매자 정보 입력 양식",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "게이트웨이 {gateway_name}이(가) 수정되었습니다."
     },
-    "developer_setting": "개발 및 테스트"
+    "developer_setting": "개발 및 테스트",
+    "live_mode_message": "모든 거래는 라이브 모드로 진행됩니다."
   },
   "gift_card": {
     "title": "기프트 카드",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "구매자가 수정한 청구서 수신 주소입니다.",
     "payment-cod-confirm": "대금 상환이 확인되었습니다.",
     "payment-cash-confirm": "청구서에 대한 {amount} {currency}의 현금 결제가 확인되었습니다.",
-    "payment-dir-confirm": "다이렉트 결제 영수증이 확인되었습니다."
+    "payment-dir-confirm": "다이렉트 결제 영수증이 확인되었습니다.",
+    "vendor": "공급업체 주문 상태가 <b>{from}</b> 에서 <b>{to}(으</b> )로 변경되었습니다.",
+    "connect-sync": "Connect OS에 의해 동기화된 주문.",
+    "connect-shipped": "Connect 주문은 {shipping}에 의해 배송되었습니다.",
+    "connect-returned": "연결 주문이 {shipping}에 의해 반품되었습니다.",
+    "connect-failed": "파트너가 주문을 처리하지 못했습니다. {reason}",
+    "connect-canceled": "파트너가 주문을 취소했습니다. {reason}",
+    "connect-action-cancel": "주문 취소를 요청합니다. {reason}",
+    "connect-put-hold": "주문이 보류되었습니다. {reason}",
+    "connect-remove-hold": "주문이 보류에서 제거되었습니다. {reason}",
+    "connect-confirmed": "주문이 확인되었습니다.",
+    "email-vendor": "🔔 주문 알림 이메일이 <b>{vendor}(</b> 으)로 발송되었습니다 | {email}."
   },
   "inline_chart": {
     "today": "오늘",
@@ -2443,7 +2494,8 @@ export default {
     "title": "돈을 벌다",
     "menu": {
       "plans": "계획",
-      "accounts": "계정"
+      "accounts": "계정",
+      "participant": "참가자"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "액세스 키 저장",
     "shop_keys_message": "이 키는 서버에서 액세스 토큰을 생성하는 데 사용됩니다. 키는 기밀이며 다른 사람이 볼 수 없도록 서버에만 배치됩니다.",
     "personal_keys_title": "개인 액세스 키",
-    "personal_keys_message": "여기에서 계정에 대한 키를 만들 수 있습니다. 이 키를 사용하여 계정에 액세스할 수 있습니다. 수행 중인 작업을 정확히 알고 있는 경우에만 이러한 키를 만들고 사용하십시오."
+    "personal_keys_message": "여기에서 계정에 대한 키를 만들 수 있습니다. 이 키를 사용하여 계정에 액세스할 수 있습니다. 수행 중인 작업을 정확히 알고 있는 경우에만 이러한 키를 만들고 사용하십시오.",
+    "clients_title": "클라이언트",
+    "clients_message": "이 키는 서버에서 액세스 토큰을 생성하는 데 사용됩니다. 키는 기밀이며 다른 사람이 볼 수 없도록 서버에만 배치됩니다."
   },
   "user_security_control": {
     "title": "계정 보안",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "프로필 관리",
       "description": "매장 프로필을 관리합니다."
+    },
+    "shop-discount-code": {
+      "name": "할인코드 관리",
+      "description": "매장 할인 코드를 관리, 편집 및 추가합니다."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "설정",
       "change": "요금",
       "transfer": "옮기다",
-      "transactions": "업무"
+      "transactions": "업무",
+      "charge": "요금",
+      "history": "역사"
     },
     "transactions": {
       "title": "계정 거래",
@@ -3258,7 +3318,10 @@ export default {
       "title": "구독 취소 확인",
       "message": "이 구독을 취소하시겠습니까?",
       "action": "구독 취소"
-    }
+    },
+    "use_voucher_now": "지금 바우처 사용",
+    "validity_duration": "유효 기간",
+    "validity_duration_hint": "12개월 라이선스를 구매하면 30% 할인을 받을 수 있습니다."
   },
   "admin_shop_layout": {
     "download_txt": "데이터 텍스트 다운로드",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "큰 글꼴",
     "large_font_message": "평소보다 큰 텍스트 표시",
     "samples": "샘플 상점 표시",
-    "samples_message": "활성화하면 일부 샘플 상점이 패널에 표시됩니다."
+    "samples_message": "활성화하면 일부 샘플 상점이 패널에 표시됩니다.",
+    "automation": "오토메이션",
+    "automation_message": "상점 대시보드에 자동화 탭을 표시합니다. (웹훅, 비주얼 프로그래밍, ...)"
   },
   "shop_locations": {
     "title": "서비스가 제공되는 국가",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "쿠폰이 성공적으로 삭제되었습니다."
-    }
+    },
+    "multiple_use": "다중 사용"
   },
   "coupon_edit": {
     "title_edit": "쿠폰 수정",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "한계",
       "description": "최대 사용자 수에 대한 제한을 설정합니다."
+    },
+    "SEGMENTS": {
+      "title": "세그먼트",
+      "description": "특정 수동 세분화에서 고객을 제한합니다."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "총 주문 금액이 기프트 카드에서 인출되었습니다! 구매자는 더 많은 비용을 지불할 필요가 없습니다.",
       "cod_msg": "고객은 주문을 받을 때 지불합니다.",
       "online_msg": "고객에게 고객 화면에서 QR 코드를 스캔하도록 요청합니다."
-    }
+    },
+    "name": "POS",
+    "message": "설치 비용이 전혀 들지 않는 온라인 판매 시점을 스마트폰, 태블릿 및 PC에서 실행하거나 수동으로 주문을 생성하십시오."
   },
   "exporter": {
     "title": "데이터 내보내기",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "서버로 보내기",
     "shop_license": "상점 라이센스",
     "max_items_limit": "최대 아이템 한도",
-    "total_items": "총 항목"
+    "total_items": "총 항목",
+    "customer": {
+      "title": "수입 고객",
+      "subtitle": "여기에 고객의 CSV 파일을 업로드하십시오. 표준 형식을 따르고 개인 정보 보호 규칙을 따라야 합니다."
+    }
   },
   "campaigns": {
     "title": "캠페인",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "연결",
     "light_checkout": "가벼운 결제 테마",
     "light_header": "라이트 헤더",
-    "light_footer": "가벼운 바닥글"
+    "light_footer": "가벼운 바닥글",
+    "product_page": "제품 페이지",
+    "typography": "타이포그래피",
+    "header": "헤더",
+    "custom_code": "사용자 정의 코드",
+    "custom_css": "맞춤 CSS"
   },
   "app_templates": {
     "default": "기본",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "서비스 관리",
     "option_deliver_by_courier": "옵션 1: 택배로 배달합니다.",
     "option_add_to_que": "옵션 2: 배송 서비스 페이지에서 처리할 대기열에 추가합니다.",
-    "option_instant_shipping": "옵션 3: 즉시 배송."
+    "option_instant_shipping": "옵션 3: 즉시 배송.",
+    "pickup_action": "픽업 확인"
   },
   "shop_home_edit": {
     "title": "홈페이지 설정",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "제품이 스토어에 추가되었습니다.",
       "request_access": "귀하의 액세스 요청을 도매업체에 성공적으로 보냈습니다."
-    }
+    },
+    "show_eligible_shops_message": "적격 매장 표시"
   },
   "product_dropshipping": {
     "need_re_enable": "이 제품은 원래 판매자에 의해 변경되었으며 이러한 가격 변경으로 인해 상점에서 제품이 비활성화되었습니다. 변경된 사항을 확인하시고 재활성화에 동의하시면 아래 버튼을 눌러주세요.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "스토어에 카테고리가 없습니다.",
       "limit": "제품 제한",
       "limit_message": "제품 결과 개수 입력",
-      "select_categories": "사용 가능한 카테고리 선택"
+      "select_categories": "사용 가능한 카테고리 선택",
+      "categories_limit": "카테고리 제한",
+      "categories_limit_msg": "최대 범주 수를 입력합니다. 제한이 없으면 0을 설정합니다."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "아보카도가 성공적으로 업데이트되었습니다.",
       "add_success": "아보카도가 성공적으로 생성되었습니다."
-    }
+    },
+    "name": "아보카도"
   },
   "avocado_orders": {
     "title": "아보카도",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "비활성",
     "active_message": "이 옵션을 활성화하면 각 제품의 관리 섹션에 Fast-Sales-Codes 생성 가능성이 표시됩니다.",
     "hyper_form_link_message": "상점의 하이퍼 페이지 링크",
-    "configuration": "하이퍼 설정"
+    "configuration": "하이퍼 설정",
+    "name": "하이퍼"
   },
   "hyper_orders": {
     "title": "하이퍼",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "고객 인구 통계",
     "subtitle": "고객 데이터를 필터링하고 내보내 더 적은 마케팅으로 더 많은 가치를 제공하기 위해 더 나은 결정을 내리십시오! 고객의 개인 정보를 존중하고 대량 대량 이메일을 보내지 마십시오! 귀하의 고객 정보를 제3자 서비스 모두의 허가 없이는 절대 제3자 서비스와 공유하지 마십시오."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "픽업 주소",
+      "subtitle": "여기에서 픽업 주소를 추가하고 수정하세요. 사용자는 결제 페이지에서 픽업 주소를 선택할 수 있습니다.",
+      "add_action": "새 위치 추가"
+    }
+  },
+  "affiliate_pos": {
+    "title": "제휴 POS",
+    "open_pos_action": "빠른 주문 POS",
+    "description": "이 옵션은 Instagram 페이지 및 기타 소셜 네트워크의 관리자에게 적합합니다. 제휴 POS를 사용하여 고객으로부터 수동으로 주문을 받고 추가합니다. 귀하의 제휴사(또는 프랜차이즈)는 제휴사 POS에서 신규 주문을 추가하고 입금 전표를 업로드할 수 있습니다."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "로그인 방법",
+      "subtitle": "사용자가 스토어에 로그인하는 방식을 사용자 정의합니다."
+    },
+    "checkout": {
+      "title": "결제 흐름",
+      "subtitle": "전자 상거래에서 고객 여정과 구매 흐름을 사용자 정의하십시오.",
+      "map": {
+        "title": "지도",
+        "subtitle": "사용자는 지도에서 배송 위치를 선택해야 합니다(예: Uber).",
+        "subtitle_no_map": "배송 계산 시 거리는 고객이 제공한 주소에 위치가 없는 경우 0으로 간주됩니다."
+      },
+      "mode": {
+        "title": "고객 로그인 포인트",
+        "default": {
+          "title": "최대한 빨리(기본값)",
+          "msg": "사용자는 가능한 한 빨리 로그인합니다. (더 많은 전환)"
+        },
+        "on_checkout": {
+          "title": "체크아웃 시",
+          "msg": "사용자가 결제 단계에서 강제로 로그인하도록 합니다."
+        },
+        "login_free": {
+          "title": "선택적 로그인",
+          "msg": "주문결제 후 로그인 선택.."
+        }
+      },
+      "express": {
+        "title": "장바구니에 담기 후 리디렉션",
+        "false": {
+          "title": "일반 모드",
+          "msg": "페이지에 남아 장바구니에 추가를 클릭한 후 쇼핑을 계속하십시오."
+        },
+        "true": {
+          "title": "익스프레스 모드",
+          "msg": "장바구니에 추가를 클릭한 후 고객을 결제 페이지로 리디렉션합니다."
+        }
+      },
+      "shipping_address": {
+        "title": "배송 주소를 물어보세요"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "물리적 및 서비스(기본값)",
+      "desc": "고객에게 실제 결제 및 서비스 결제에 주소를 입력하도록 요청합니다."
+    },
+    "physical": {
+      "title": "물리적 전용",
+      "desc": "고객에게 실제 결제 시 주소를 입력하도록 요청합니다."
+    },
+    "off": {
+      "title": "절대",
+      "desc": "배송 주소를 절대 묻지 마세요. ⚠ 제품에 대해 서비스 유형 대신 물리적 유형을 선택하여 변형이 있는 서비스를 제공하려는 경우 이 옵션을 사용하십시오."
+    }
+  },
+  "business_model": {
+    "title": "비즈니스 모델 설정",
+    "subtitle": "비즈니스 모델을 설정하면 뒤에서 OS를 구성해 드립니다."
+  },
+  "business_type": {
+    "title": "상품 유형",
+    "subtitle": "상점에서 판매하려는 제품의 유형을 설정합니다. Selldone의 제품 유형은 단순한 제품 유형이 아닙니다. 그것은 이행 절차에 관한 것입니다.",
+    "send_activation_request_to_support": "지원 티켓에서 활성화 요청을 보냅니다.",
+    "require_kyc": "사업주 KYC.",
+    "needs_enterprise_license": "Enterprise 라이선스가 있어야 합니다.",
+    "marketplace_caution_message": "모델이 비즈니스 OS 구성에 큰 영향을 미치므로 Marketplace를 설정하십시오. 예를 들어, 독립적인 가격 및 재고가 있는 각 제품에 대해 하나 이상의 공급업체를 정의해야 합니다. 고객은 공급업체가 없는 제품을 구입할 수 없습니다."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "일반 상점",
+      "desc": "일반적으로 SME, 재택 비즈니스 또는 직송업체 - 제품을 고객에게 직접 판매하거나 도매업체의 제품을 리셀러로 판매합니다."
+    },
+    "dropshipping": {
+      "title": "하락 선박",
+      "desc": "제품과 재고를 보관하지 마십시오. 일반적으로 도매업체(예: Printify, Wholesale2B, ...) 또는 제조업체와 같은 제3자에게 비용을 지불하고 그들은 뒤에서 주문을 이행합니다."
+    },
+    "wholesaler": {
+      "title": "직송 공급업체",
+      "desc": "일반적으로 주문을 최종 소비자에게 직접 배송하는 도매업체 또는 제조업체입니다. Selldone의 다른 판매자는 매장에서 제품을 직송할 수 있습니다."
+    },
+    "marketplace": {
+      "title": "시장",
+      "desc": "온라인 마켓플레이스는 독점적이고 중앙 집중화된 플랫폼에서 구매자와 판매자를 연결합니다."
+    },
+    "franchise": {
+      "title": "프랜차이즈 / 계열사",
+      "desc": "프랜차이즈는 귀하의 브랜드를 확립(프랜차이징)하거나 브랜드별로 귀하의 제품을 판매(어필리에이트)하는 프랜차이저와 관련된 제품 또는 서비스를 배포하는 방법입니다."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "지갑",
+    "pricing_models": "가격",
+    "add_vendor": "공급업체 추가",
+    "requests": "요청"
+  },
+  "price_input_type": {
+    "title": "가격 입력 유형",
+    "default": {
+      "title": "기본",
+      "desc": "장바구니의 수량으로 값을 선택합니다."
+    },
+    "area": {
+      "title": "지역",
+      "desc": "수량을 계산하기 위한 입력으로 너비와 길이를 입력합니다."
+    },
+    "volume": {
+      "title": "용량",
+      "desc": "폭, 길이, 높이를 입력으로 입력하여 수량을 계산합니다."
+    },
+    "custom": {
+      "title": "사용자 지정(입력 양식별)",
+      "desc": "수백 가지 변형이 필요하지 않습니다! 고도로 사용자 정의 가능한 제품에 대한 사용자 정의 비용 계산 양식을 작성하십시오."
+    }
+  },
+  "vendors_list": {
+    "title": "내 공급업체",
+    "message": "내 자신의 공급 업체 목록입니다."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "여러 도메인을 비즈니스 OS에 연결하고 모든 도메인을 한 곳에서 관리하세요. 다중 도메인 기능을 사용하여 블로그 및 커뮤니티와 같은 웹사이트의 각 부분에 대한 전용 도메인을 만들거나 계열사에 대해 다른 도메인을 사용할 수 있습니다."
+  },
+  "notes": {
+    "add_action": "팀을 위한 메모 추가",
+    "notifications": {
+      "success_add": "메모가 성공적으로 추가되었습니다.",
+      "success_delete": "메모가 성공적으로 삭제되었습니다."
+    }
+  },
+  "external_services": {
+    "title": "외부 서비스",
+    "subtitle": "여기에서 SMS 및 이메일과 같은 외부 서비스의 마지막 상태를 모니터링합니다."
   }
 };

@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Ibicuruzwa bifitanye isano",
     "price": "Igiciro",
     "rate": "Igipimo",
-    "comment": "Igitekerezo"
+    "comment": "Igitekerezo",
+    "warranty": "Garanti",
+    "return_policy": "Politiki yo kugaruka",
+    "guide": "Ubuyobozi",
+    "shipping": "Kohereza"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Ibicuruzwa byawe byashyizwe neza.",
       "delete_success": "Ikintu cyasibwe."
-    }
+    },
+    "select_address_message": "Nyamuneka andika aderesi yawe, hanyuma urashobora gutanga itegeko."
   },
   "hyper": {
     "title": "Gutegeka kurema",
@@ -541,5 +546,19 @@ export default {
       "message": "Werekanye amafaranga kuri iki kintu. Urashobora guhindura amafaranga yishyurwa kubintu byaguzwe nabakiriya.",
       "charge": "Kwishyuza"
     }
+  },
+  "check_access": {
+    "waiting_message": "Gutegereza kugenzura kwinjira ...",
+    "no_access_message": "Kubwamahirwe, ntabwo ushobora kubona ububiko bwacu.<br/> Nyamuneka twandikire."
+  },
+  "share_order": {
+    "action": "Kugabana gahunda",
+    "title": "Sangira n'abandi gahunda.",
+    "message": "Numuhuza wizewe, gusa ubisangire nabari uzi. Umuntu wese ufite iyi link arashobora kwigana ibyo wateguye akareba adresse yatoranijwe. Bizaba bikubiyemo amakuru yerekeye igare ryawe.",
+    "valid_period": "Ihuza rizarangira nyuma yamasaha 48.",
+    "import_order_action": "Gutumiza mu mahanga",
+    "retrieve_dialog_title": "Kuramo gahunda yo hanze",
+    "address_included": "Sangira ibintu by'agaseke + Aderesi",
+    "address_excluded": "Sangira gusa ibitebo"
   }
 };

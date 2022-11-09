@@ -105,7 +105,11 @@ export default {
     "related_products_title": "İlgili ürünler",
     "price": "Fiyat",
     "rate": "Oran",
-    "comment": "Yorum"
+    "comment": "Yorum",
+    "warranty": "Garanti",
+    "return_policy": "İade politikasi",
+    "guide": "Kılavuz",
+    "shipping": "Nakliye"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Siparişiniz başarıyla verildi.",
       "delete_success": "Öğe silindi."
-    }
+    },
+    "select_address_message": "Lütfen adresinizi girin ve ardından siparişi gönderebilirsiniz."
   },
   "hyper": {
     "title": "Sipariş oluşturma",
@@ -541,5 +546,19 @@ export default {
       "message": "Bu öğe için bir ücret belirlediniz. Müşteri tarafından satın alınan ürün için ücretlendirme tutarını değiştirebilirsiniz.",
       "charge": "Şarj etmek"
     }
+  },
+  "check_access": {
+    "waiting_message": "Erişimin kontrol edilmesi bekleniyor...",
+    "no_access_message": "Maalesef mağazamıza erişiminiz yok.<br/> Lütfen bizimle iletişime geçin."
+  },
+  "share_order": {
+    "action": "Siparişi paylaş",
+    "title": "Bu siparişi başkalarıyla paylaşın.",
+    "message": "Güvenli bir bağlantıdır, yalnızca tanıdıklarınızla paylaşın. Bu bağlantıya sahip olan herkes siparişinizi çoğaltabilir ve seçilen adresi görebilir. Mevcut sepetiniz hakkında bilgi içerecektir.",
+    "valid_period": "Bu bağlantı 48 saat sonra sona erecek.",
+    "import_order_action": "İthalat siparişi",
+    "retrieve_dialog_title": "Harici siparişi al",
+    "address_included": "Sepet öğelerini paylaş + Adres",
+    "address_excluded": "Sadece sepet ürünlerini paylaş"
   }
 };

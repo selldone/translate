@@ -155,7 +155,19 @@ export default {
       "Setup": "tenda",
       "Sell": "Vendas e Marketing",
       "Developer": "Desenvolver",
-      "Application": "Aplicacións"
+      "Application": "Aplicacións",
+      "Product": "Xestión de produtos e categorías",
+      "Blog": "CMS e blog",
+      "Order": "Centro de xestión de pedidos",
+      "Channel": "Canles de Venda",
+      "Accounting": "Contabilidade e métodos de pago",
+      "Incentives": "Incentivos",
+      "Marketing": "Marketing e Campañas",
+      "Logistic": "Loxística e envío",
+      "Customers": "Club de clientes e segmentación",
+      "Page": "Páxinas de destino e personalizadas",
+      "Access": "Xestión de acceso de persoal / API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Repositorio Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Tendas",
       "roles": "Papeis",
       "home": "Casa",
-      "expert": "Experto"
+      "expert": "Experto",
+      "deals": "Ofertas",
+      "providers": "Provedores"
     },
     "shops": {
       "create_new": "Crear unha nova tenda",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Estado",
           "created_at": "Data de creación",
           "updated_at": "Última actualización"
-        }
+        },
+        "subtitle": "Escribe artigos cun editor en liña moderno para presentarte a ti e a túa empresa. O contido orixinal é o primeiro no que debes centrarte cando escribes unha publicación de blog de alta calidade compatible con SEO."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Informe",
         "tax": "Imposto",
         "drop_shipping": "Recibos de revendedor",
-        "reseller_accounts": "Contas de revendedores"
+        "reseller_accounts": "Contas de revendedores",
+        "valuations": "Valoracións"
       },
       "invoice": {
         "title": "Comprar carteiras vinculadas",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Envío",
         "inventory": "Inventario",
         "warehouse": "Almacén",
-        "logistic_apps": "Loxística"
+        "logistic_apps": "Loxística",
+        "profiles": "Perfís"
       },
       "warehouse": {
         "title": "Almacén Tenda",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Custo mínimo de pedido para envío gratuíto",
           "notifications": {
             "update_success": "A configuración do servizo de envío completouse correctamente."
-          }
+          },
+          "shipping_cost_calculation": "Cálculo de gastos de envío",
+          "sod_true": "Obtén o custo de envío no destino",
+          "sod_true_message": "Asegúrate de que o teu servizo de envío acepte o custo de envío no destino.",
+          "sod_false": "Cálculo de custos de envío automático",
+          "cod_true": "Acepta contra reembolso",
+          "cod_false": "Acepta só pagos en liña",
+          "cod_true_message": "Asegúrate de que o teu servizo de envío acepte COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "Correo electrónico",
         "domain": "Dominio",
-        "verifications": "Verificacións"
+        "verifications": "Verificacións",
+        "flow": "Fluxo",
+        "business_model": "Modelo de negocio"
       },
       "delete_dialog": {
         "title": "Eliminar tenda",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Unidade de produto",
       "unit_float": "Unidade flotante (en breve)",
       "unit_float_hint": "Por exemplo, o cliente pode pedir 3 kg de froita, pero a cantidade enviada ao cliente é lixeiramente diferente da cantidade solicitada.",
-      "unit_float_message": "Durante o procesamento do pedido, o importe entregado pode diferir do pedido. O sistema calcula automaticamente esta diferenza e rexistraa como a súa débeda co cliente, que se pode aplicar aos seguintes pedidos."
+      "unit_float_message": "Durante o procesamento do pedido, o importe entregado pode diferir do pedido. O sistema calcula automaticamente esta diferenza e rexistraa como a súa débeda co cliente, que se pode aplicar aos seguintes pedidos.",
+      "status_list": {
+        "active": {
+          "title": "Activo | Vendas en liña e fóra de liña",
+          "description": "Este produto estará dispoñible para pedidos en liña."
+        },
+        "inactive": {
+          "title": "Inactivo | Só vendas fóra de liña",
+          "description": "Este produto non estará dispoñible para pedidos en liña."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Enquisa",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Seleccione a hora de finalización",
       "independent_price": "O prezo só para esta variante",
       "same_price": "O prezo do produto principal",
-      "variant_pricing_message": "Ao seleccionar esta opción, o prezo desta variante pódese establecer independentemente do produto principal."
+      "variant_pricing_message": "Ao seleccionar esta opción, o prezo desta variante pódese establecer independentemente do produto principal.",
+      "price_label_input": "Etiqueta de prezos",
+      "price_label_message": "Engade información adicional sobre o prezo como ($1,5/Onza lixeira). Casos de uso: supermercado, FMCG.",
+      "add_price_label_action": "Engadir etiqueta de prezo"
     },
     "inputs_edit": {
       "title": "Formulario de entrada da información do comprador",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Editouse a pasarela {gateway_name}."
     },
-    "developer_setting": "Desenvolver e probar"
+    "developer_setting": "Desenvolver e probar",
+    "live_mode_message": "Todas as transaccións serán en modo directo."
   },
   "gift_card": {
     "title": "Tarxetas de agasallo",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Enderezo de facturación editado polo comprador.",
     "payment-cod-confirm": "Confirmouse o pago contra reembolso.",
     "payment-cash-confirm": "Confirmouse o pago de {amount} {currency} en metálico para a factura.",
-    "payment-dir-confirm": "Confirmouse o recibo do pago directo."
+    "payment-dir-confirm": "Confirmouse o recibo do pago directo.",
+    "vendor": "O estado do pedido do provedor cambiou de <b>{from}</b> a <b>{to}</b> .",
+    "connect-sync": "Pedido sincronizado por Connect OS.",
+    "connect-shipped": "O pedido de Connect foi enviado por {shipping}.",
+    "connect-returned": "O pedido de Connect foi devolto por {shipping}.",
+    "connect-failed": "O socio non cumpriu o pedido. {reason}",
+    "connect-canceled": "O pedido foi cancelado polo socio. {reason}",
+    "connect-action-cancel": "Solicitude de cancelación do pedido. {reason}",
+    "connect-put-hold": "A orde quedou en suspenso. {reason}",
+    "connect-remove-hold": "Eliminouse a orde da espera. {reason}",
+    "connect-confirmed": "O pedido foi confirmado.",
+    "email-vendor": "🔔 O correo electrónico de información do pedido foi enviado a <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Hoxe",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Facer cartos",
     "menu": {
       "plans": "Plans",
-      "accounts": "Contas"
+      "accounts": "Contas",
+      "participant": "Participante"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Chaves de acceso á tenda",
     "shop_keys_message": "Estas chaves úsanse para crear o token de acceso polo teu servidor. Teña en conta que as claves son confidenciais e só se colocan no servidor para que non sexan visibles para os demais.",
     "personal_keys_title": "Chaves de acceso persoal",
-    "personal_keys_message": "Podes crear as claves da túa conta aquí. Teña en conta que estas chaves poderán acceder á súa conta. Crea e utiliza estas chaves só se sabes exactamente o que estás facendo."
+    "personal_keys_message": "Podes crear as claves da túa conta aquí. Teña en conta que estas chaves poderán acceder á súa conta. Crea e utiliza estas chaves só se sabes exactamente o que estás facendo.",
+    "clients_title": "Clientes",
+    "clients_message": "Estas chaves úsanse para crear o token de acceso polo teu servidor. Teña en conta que as claves son confidenciais e só se colocan no servidor para que non sexan visibles para os demais."
   },
   "user_security_control": {
     "title": "Seguridade da conta",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Xestionar perfís",
       "description": "Xestionar perfís de tenda."
+    },
+    "shop-discount-code": {
+      "name": "Xestión de códigos de desconto",
+      "description": "Xestiona, edita e engade códigos de desconto da tenda."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Configuración",
       "change": "Cargar",
       "transfer": "Transferencia",
-      "transactions": "Transaccións"
+      "transactions": "Transaccións",
+      "charge": "Cargar",
+      "history": "Historia"
     },
     "transactions": {
       "title": "Transaccións da conta",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Cancelar a confirmación da subscrición",
       "message": "Estás seguro de cancelar esta subscrición?",
       "action": "Cancelar a subscrición"
-    }
+    },
+    "use_voucher_now": "Usa o vale agora",
+    "validity_duration": "Duración da vixencia",
+    "validity_duration_hint": "Ao mercar unha licenza de 12 meses, recibirás un desconto do 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Descargar texto de datos",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Tipos de letra grandes",
     "large_font_message": "Mostrar texto máis grande do normal",
     "samples": "Mostra tendas de mostra",
-    "samples_message": "Se está activado, algunhas tendas de mostra mostraranse no teu panel."
+    "samples_message": "Se está activado, algunhas tendas de mostra mostraranse no teu panel.",
+    "automation": "Automatización",
+    "automation_message": "Mostrar a pestana de automatización no panel da tenda. (Webhooks, programación visual,...)"
   },
   "shop_locations": {
     "title": "Países onde se presta o servizo",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "O cupón eliminouse correctamente."
-    }
+    },
+    "multiple_use": "Uso múltiple"
   },
   "coupon_edit": {
     "title_edit": "Editar cupón",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Límite",
       "description": "Establece un límite no número máximo de usuarios."
+    },
+    "SEGMENTS": {
+      "title": "Segmentos",
+      "description": "Limite os clientes na segmentación manual específica."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "O importe total do pedido foi retirado das tarxetas de agasallo! O comprador non necesita pagar máis.",
       "cod_msg": "O cliente pagará ao recibir o pedido.",
       "online_msg": "Pídalle ao cliente que escanee o código QR na pantalla do cliente."
-    }
+    },
+    "name": "POS",
+    "message": "Teña o seu punto de venda en liña de custo cero de configuración, execútao en calquera teléfono intelixente, tableta e PC ou cree pedidos manualmente."
   },
   "exporter": {
     "title": "Exportar datos",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Enviar ao servidor",
     "shop_license": "Licenza de tenda",
     "max_items_limit": "Límite máximo de elementos",
-    "total_items": "Total de elementos"
+    "total_items": "Total de elementos",
+    "customer": {
+      "title": "Importar clientes",
+      "subtitle": "Carga aquí ficheiros CSV dos clientes. Asegúrate de seguir o formato estándar e, ademais, tes que seguir as regras de privacidade."
+    }
   },
   "campaigns": {
     "title": "Campañas",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Ligazóns",
     "light_checkout": "Tema lixeiro de pago",
     "light_header": "Cabeceira lixeira",
-    "light_footer": "Pé de páxina lixeiro"
+    "light_footer": "Pé de páxina lixeiro",
+    "product_page": "Páxina do produto",
+    "typography": "Tipografía",
+    "header": "Cabeceira",
+    "custom_code": "Código personalizado",
+    "custom_css": "CSS personalizado"
   },
   "app_templates": {
     "default": "Por defecto",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Xestionar o servizo",
     "option_deliver_by_courier": "Opción 1: Entrega polos teus correos.",
     "option_add_to_que": "Opción 2: Engadir á cola para procesar na páxina do servizo de envío.",
-    "option_instant_shipping": "Opción 3: envío instantáneo."
+    "option_instant_shipping": "Opción 3: envío instantáneo.",
+    "pickup_action": "Confirmación de recollida"
   },
   "shop_home_edit": {
     "title": "Configuración da páxina de inicio",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Produto engadido á túa tenda.",
       "request_access": "Enviamos a túa solicitude de acceso ao maiorista con éxito."
-    }
+    },
+    "show_eligible_shops_message": "Mostrar tendas aptas"
   },
   "product_dropshipping": {
     "need_re_enable": "O vendedor orixinal cambiou este produto. Estes cambios de prezo desactivaron o produto na túa tenda. Comprobe os cambios e se acepta reactivar o produto, prema o botón de abaixo.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Non hai categoría na túa tenda.",
       "limit": "Límite de produtos",
       "limit_message": "Introduza o reconto de resultados dos produtos",
-      "select_categories": "Seleccione categorías dispoñibles"
+      "select_categories": "Seleccione categorías dispoñibles",
+      "categories_limit": "Límite de categorías",
+      "categories_limit_msg": "Introduza o número máximo de categorías. Establece cero sen límite."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avocado actualizouse correctamente.",
       "add_success": "Aguacate creado con éxito."
-    }
+    },
+    "name": "aguacate"
   },
   "avocado_orders": {
     "title": "aguacate",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "inactivo",
     "active_message": "Se activas esta opción, a posibilidade de crear os Códigos de Venda Rápida aparecerá no apartado de xestión de cada produto.",
     "hyper_form_link_message": "Ligazón á hiperpáxina da túa tenda",
-    "configuration": "Configuración de hiper"
+    "configuration": "Configuración de hiper",
+    "name": "Hiper"
   },
   "hyper_orders": {
     "title": "Hiper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Demografía de clientes",
     "subtitle": "Filtra e exporta os datos dos teus clientes para tomar mellores decisións para ofrecer máis valor con menos mercadotecnia. Respecta a privacidade dos teus clientes e nunca lles envíes correos electrónicos masivos. Nunca compartas a información dos teus clientes con servizos de terceiros sen obter o permiso de cada un deles."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Enderezos de recollida",
+      "subtitle": "Engade e edita aquí os enderezos de recollida. Os usuarios poderán seleccionar o enderezo de recollida na páxina de pago.",
+      "add_action": "Engadir unha nova localización"
+    }
+  },
+  "affiliate_pos": {
+    "title": "POS afiliado",
+    "open_pos_action": "Pedidos rápidos POS",
+    "description": "Esta opción é adecuada para administradores de páxinas de Instagram e outras redes sociais. Use Affiliate POS para recibir e engadir pedidos dos clientes manualmente. Os teus afiliados (ou franquías) poden engadir novos pedidos no TPV de afiliados e cargar o comprobante de depósito."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Métodos de inicio de sesión",
+      "subtitle": "Personaliza a forma en que os usuarios inician sesión na túa tenda."
+    },
+    "checkout": {
+      "title": "Fluxo de pago",
+      "subtitle": "Personaliza a túa viaxe de cliente e o fluxo de compras no teu comercio electrónico.",
+      "map": {
+        "title": "Mapa",
+        "subtitle": "Os usuarios deben seleccionar o lugar de entrega no mapa (como Uber).",
+        "subtitle_no_map": "A distancia no cálculo do envío considérase cero se a localización non existe no enderezo proporcionado polo cliente."
+      },
+      "mode": {
+        "title": "Punto de inicio de sesión de clientes",
+        "default": {
+          "title": "ASAP (predeterminado)",
+          "msg": "Os usuarios inician sesión o antes posible. (Máis conversión)"
+        },
+        "on_checkout": {
+          "title": "Na caixa",
+          "msg": "Obrigar aos usuarios a iniciar sesión no paso da compra."
+        },
+        "login_free": {
+          "title": "Inicio de sesión opcional",
+          "msg": "Inicio de sesión opcional despois do pago do pedido."
+        }
+      },
+      "express": {
+        "title": "Redireccionar despois de engadir ao carro",
+        "false": {
+          "title": "Modo normal",
+          "msg": "Permanece na páxina e continúa a compra despois de facer clic en engadir ao carro."
+        },
+        "true": {
+          "title": "Modo Express",
+          "msg": "Redirixe o cliente á páxina de pago despois de facer clic en engadir ao carro."
+        }
+      },
+      "shipping_address": {
+        "title": "Solicita o enderezo de envío"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Físico e servizo (predeterminado)",
+      "desc": "Pídalle ao cliente que introduza un enderezo nas caixas físicas e do servizo."
+    },
+    "physical": {
+      "title": "Só Físico",
+      "desc": "Pídalle ao cliente que introduza un enderezo só na caixa física."
+    },
+    "off": {
+      "title": "Nunca",
+      "desc": "Nunca pidas o enderezo de envío. ⚠ Use esta opción se planea ter servizos con variantes seleccionando o tipo físico dos produtos en lugar do tipo de servizo."
+    }
+  },
+  "business_model": {
+    "title": "Configuración do modelo de negocio",
+    "subtitle": "Establece o teu modelo de negocio e configuraremos o teu sistema operativo detrás de escena."
+  },
+  "business_type": {
+    "title": "Tipos de mercadorías",
+    "subtitle": "Establece o tipo de produtos que queres vender na túa tenda. Os tipos de produtos en Selldone son máis que un tipo de produtos; trátase máis do procedemento de cumprimento.",
+    "send_activation_request_to_support": "Envía unha solicitude de activación nun ticket de soporte.",
+    "require_kyc": "Propietario da empresa KYC.",
+    "needs_enterprise_license": "Necesitas ter unha licenza Enterprise.",
+    "marketplace_caution_message": "Establecer Marketplace como o teu modelo afecta profundamente a configuración do teu sistema operativo empresarial. Por exemplo, debe definir polo menos un provedor para cada produto con prezos e inventario independentes. Os clientes non poden comprar produtos que non teñan vendedores."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Tenda normal",
+      "desc": "Normalmente, unha peme, unha empresa doméstica ou un dropshipper, que vende o seu produto directamente aos clientes ou vende produtos de maioristas como revendedor."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Non garda ningún produto nin inventario: pagas a un terceiro, normalmente un atacadista (como Printify, Wholesale2B, ...) ou un fabricante, e estes cumpren os pedidos detrás de escena."
+    },
+    "wholesaler": {
+      "title": "Provedor de Dropshipping",
+      "desc": "Normalmente un maiorista ou un fabricante, que envía pedidos directamente ao consumidor final. Outros comerciantes de Selldone poden enviar os teus produtos nas súas tendas."
+    },
+    "marketplace": {
+      "title": "Mercado",
+      "desc": "Os mercados en liña conectan compradores e vendedores nunha plataforma propietaria e centralizada."
+    },
+    "franchise": {
+      "title": "Franquicia / Afiliado",
+      "desc": "Unha franquía é un método de distribución de produtos ou servizos no que participa un franqueador que establece a túa marca (Franquías) ou vende os teus produtos pola súa marca (Afiliado)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Carteiras",
+    "pricing_models": "Prezos",
+    "add_vendor": "Engadir provedor",
+    "requests": "Solicitudes"
+  },
+  "price_input_type": {
+    "title": "Tipo de entrada de prezo",
+    "default": {
+      "title": "Por defecto",
+      "desc": "Seleccione un valor como cantidade no carro."
+    },
+    "area": {
+      "title": "Área",
+      "desc": "Introduza o ancho e a lonxitude como entradas para calcular a cantidade."
+    },
+    "volume": {
+      "title": "volume",
+      "desc": "Introduza o ancho, a lonxitude e a altura como entradas para calcular a cantidade."
+    },
+    "custom": {
+      "title": "Personalizado (mediante formulario de entrada)",
+      "desc": "Non hai necesidade de centos de variantes! Crea un formulario de cálculo de custos personalizado para produtos altamente personalizables."
+    }
+  },
+  "vendors_list": {
+    "title": "Os meus vendedores",
+    "message": "Lista dos meus propios provedores."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Conecta varios dominios ao teu sistema operativo empresarial e xestiona todos nun só lugar. Podes usar a función de varios dominios para crear dominios dedicados para cada parte do teu sitio web, como o blog e a comunidade, ou usar dominios diferentes para os teus afiliados."
+  },
+  "notes": {
+    "add_action": "Engade unha nota para o teu equipo",
+    "notifications": {
+      "success_add": "A nota engadiuse correctamente.",
+      "success_delete": "A nota eliminouse correctamente."
+    }
+  },
+  "external_services": {
+    "title": "Servizos externos",
+    "subtitle": "Controla aquí o último estado dos servizos externos como SMS e correos electrónicos."
   }
 };

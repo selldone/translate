@@ -558,7 +558,52 @@ export default {
     "merchant": "سودىگەر",
     "per_product": "ھەر بىر مەھسۇلات",
     "journey": "Journey",
-    "after": "After"
+    "after": "After",
+    "waiting_for_payment": "پۇل تۆلەشنى تاماملاڭ ...",
+    "hour": "سائەت",
+    "minute": "مىنۇت",
+    "premium": "Premium",
+    "light": "نۇر",
+    "dark": "قاراڭغۇ",
+    "guest": "مېھمان",
+    "shops": "دۇكانلار",
+    "vendor": "ساتقۇچى",
+    "vendors": "ساتقۇچىلار",
+    "marketplace": "بازار",
+    "verify_date": "چېسلانى دەلىللەڭ",
+    "note": "دىققەت",
+    "panel": "Panel",
+    "removed": "چىقىرىۋېتىلدى",
+    "segments": "بۆلەكلەر",
+    "personal_info": "شەخسىي ئۇچۇرلار",
+    "preferences": "مايىللىق",
+    "spec": "Spec",
+    "reviews": "باھا",
+    "constraints": "چەكلىمىلەر",
+    "flexible": "ئەۋرىشىم",
+    "usage_limit": "ئىشلىتىش چېكى",
+    "temporary": "ۋاقىتلىق",
+    "original": "ئەسلى",
+    "saved": "قۇتۇلدى!",
+    "sort": "تەرتىپلەش",
+    "documents": "ھۆججەتلەر",
+    "document": "پۈتۈك",
+    "please_wait": "ساقلاپ تۇرۇڭ ...",
+    "pickup": "Pickup",
+    "customize": "خاسلاشتۇرۇش",
+    "difficulty": "قىيىنچىلىق",
+    "banned": "چەكلەنگەن",
+    "company": "شىركەت",
+    "tax_shipping": "توشۇش بېجى",
+    "warranty": "كېپىللىك",
+    "return_policy": "قايتىش سىياسىتى",
+    "guide": "يېتەكچى",
+    "translate": "تەرجىمە",
+    "public": "جامائەت",
+    "deleted": "ئۆچۈرۈلدى",
+    "variant": "Variant",
+    "secure": "بىخەتەر",
+    "admin": "باشقۇرغۇچى"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "ئىز قوغلاش",
     "change_state": "ھالەتنى ئۆزگەرتىش",
     "done": "تامام",
-    "reply": "جاۋاب"
+    "reply": "جاۋاب",
+    "watch_now": "ھازىر كۆرۈڭ",
+    "unlock": "قۇلۇپ ئېچىش",
+    "lock": "قۇلۇپ",
+    "create_clone": "كلون قۇر",
+    "regenerate": "قايتا ھاسىل",
+    "add_message": "ئۇچۇر قوشۇڭ",
+    "continue_chat": "سۆھبەتنى داۋاملاشتۇرۇڭ",
+    "add_new_message": "يېڭى ئۇچۇر قوشۇڭ"
   },
   "instance_message_title": "تېز ئۇچۇر يوللاڭ",
   "instance_message": "ئەسسالامۇئەلەيكۇم {name} ، مېنىڭ ئىسمىم {شىركەت {author} ئاپتور}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "پوچتا نومۇرى",
     "enter_value": "بۇ يەرنى تولدۇرۇڭ",
     "address_note": "دىققەت",
-    "tel": "ئالاقىلىشىش نومۇرى"
+    "tel": "ئالاقىلىشىش نومۇرى",
+    "service_address": "ئادرېسىڭىزنى تاللاڭ"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "فوندستېرلىڭ",
     "quarts",
     "ھويلى",
-    "ياتاق"
+    "ياتاق",
+    "سېكۇنت",
+    "مىنۇت",
+    "سائەت",
+    "كۈنلەر",
+    "ھەپتە",
+    "ئاي",
+    "يىللار"
   ],
   "region_types": {
     "State": "شىتات",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "ئەڭ تۆۋەن ئۇزۇنلۇقى {length} بولۇشى كېرەك",
     "invalid_min_array_length": "ھېچ بولمىغاندا {length} تۈرلەرنى تاللاڭ",
     "invalid_max_chars": "Max {maxCount} ھەرپلىرى",
-    "invalid_url": "ئىناۋەتسىز URL"
+    "invalid_url": "ئىناۋەتسىز URL",
+    "country_invalid": "نىشان دۆلەتنى تاللاڭ!",
+    "postal_code_invalid": "ئىناۋەتلىك پوچتا نومۇرىنى بەلگىلەڭ!"
   },
   "colors": {
     "#D32F2F": "قىزىل",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "ئاق",
     "#FFF": "ئاق",
     "#000000": "قارا",
-    "#000": "قارا"
+    "#000": "قارا",
+    "#7d263a": "Maroon",
+    "#FD9F17": "ئالتۇن",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "ئارمىيە",
+    "#474747": "ئاسفالت",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "كۆيگەن ئاپېلسىن",
+    "#80011F": "Cardinal",
+    "#382829": "شاكىلات",
+    "#F06336": "مارجان",
+    "#FAE7C9": "قايماق",
+    "#6B2257": "كۇرسانت",
+    "#222127": "قېنىق كۈلرەڭ",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "مەڭگۈ يېشىل",
+    "#214C30": "ئورمان",
+    "#DC2867": "Fuchsia",
+    "#38561": "كېللىي",
+    "#5C884D": "يوپۇرماق",
+    "#558450": "Light Aqua",
+    "#96B5C9": "سۇس كۆك",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "ھاك",
+    "#9DE7C2": "Mint",
+    "#F6EAD2": "تەبىئىي",
+    "#1A1F35": "دېڭىز ئارمىيىسى",
+    "#404624": "زەيتۇن",
+    "#271020": "Plum",
+    "#A8355C": "مالىنا",
+    "#D6BEA6": "يۇمشاق قايماق",
+    "#BEA994": "تەن",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Violet",
+    "#36454F": "كۆمۈر",
+    "#b3b0ab": "كاربون كۈلرەڭ",
+    "#463e3d": "كۆمۈر خېزىر",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "ئىسمى",
@@ -838,7 +940,8 @@ export default {
     "building_number": "قۇرۇلۇش نومۇرى",
     "building_unit": "بىرلىك",
     "postcode": "پوچتا نومۇرى",
-    "note": "دىققەت"
+    "note": "دىققەت",
+    "county": "ناھىيە"
   },
   "product_types": {
     "physical": "Physical",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "رەڭ",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "ئاددىي",
       "selective": "تاللانما",
-      "switch": "Switch"
-    }
+      "switch": "Switch",
+      "file": "ھۆججەت",
+      "number": "سان"
+    },
+    "placeholder_input": "ئورۇن ئىگىسى",
+    "file_type_input": "قوبۇل قىلىشقا بولىدىغان ھۆججەت تىپلىرى",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "مەھسۇلات ئىسمى",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "يانفونىڭىزغا كىرىڭ",
     "verification_code": "دەلىللەش كودى",
     "msg_title": "ياخشىمۇسىز ،",
-    "msg_body": "كىرىڭ. بۇنىڭغا بىر نەچچە سېكۇنت كېتىدۇ."
+    "msg_body": "كىرىڭ. بۇنىڭغا بىر نەچچە سېكۇنت كېتىدۇ.",
+    "login_apple": "ئالما بىلەن كىرىش"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "خەتكۈچ قوشۇلدى"
     }
+  },
+  "difficulties": {
+    "very_complicated": "بەك مۇرەككەپ",
+    "hard": "قاتتىق",
+    "intermediate": "Intermediate",
+    "easy": "ئاسان"
   }
 };

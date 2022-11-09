@@ -558,7 +558,52 @@ export default {
     "merchant": "Umucuruzi",
     "per_product": "Ku bicuruzwa",
     "journey": "Urugendo",
-    "after": "Nyuma"
+    "after": "Nyuma",
+    "waiting_for_payment": "Nyamuneka wuzuze ...",
+    "hour": "Isaha",
+    "minute": "Iminota",
+    "premium": "Premium",
+    "light": "Umucyo",
+    "dark": "Umwijima",
+    "guest": "Umushyitsi",
+    "shops": "Amaduka",
+    "vendor": "Umucuruzi",
+    "vendors": "Abacuruzi",
+    "marketplace": "Isoko",
+    "verify_date": "Kugenzura itariki",
+    "note": "Icyitonderwa",
+    "panel": "Ikibaho",
+    "removed": "Yakuweho",
+    "segments": "Ibice",
+    "personal_info": "Amakuru yihariye",
+    "preferences": "Ibyifuzo",
+    "spec": "Kugaragara",
+    "reviews": "Isubiramo",
+    "constraints": "Inzitizi",
+    "flexible": "Biroroshye",
+    "usage_limit": "Imipaka ikoreshwa",
+    "temporary": "By'agateganyo",
+    "original": "Umwimerere",
+    "saved": "Yakijijwe!",
+    "sort": "Sort",
+    "documents": "Inyandiko",
+    "document": "Inyandiko",
+    "please_wait": "Nyamuneka tegereza ...",
+    "pickup": "Pickup",
+    "customize": "Hindura",
+    "difficulty": "Ingorane",
+    "banned": "Birabujijwe",
+    "company": "Isosiyete",
+    "tax_shipping": "Umusoro wo kohereza",
+    "warranty": "Garanti",
+    "return_policy": "Politiki yo kugaruka",
+    "guide": "Ubuyobozi",
+    "translate": "Sobanura",
+    "public": "Rubanda",
+    "deleted": "Gusiba",
+    "variant": "Ibitandukanye",
+    "secure": "Umutekano",
+    "admin": "Umuyobozi"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Kurikirana",
     "change_state": "Hindura Imiterere",
     "done": "Bikorewe",
-    "reply": "Subiza"
+    "reply": "Subiza",
+    "watch_now": "Reba nonaha",
+    "unlock": "Fungura",
+    "lock": "Funga",
+    "create_clone": "Kora clone",
+    "regenerate": "Kuvugurura",
+    "add_message": "Ongeraho ubutumwa",
+    "continue_chat": "Komeza kuganira",
+    "add_new_message": "Ongeraho ubutumwa bushya"
   },
   "instance_message_title": "Ohereza ubutumwa bwihuse",
   "instance_message": "Muraho {name}, Nitwa {author} kuva {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Inyandiko y'iposita",
     "enter_value": "Uzuza hano",
     "address_note": "Icyitonderwa",
-    "tel": "Numero y'itumanaho"
+    "tel": "Numero y'itumanaho",
+    "service_address": "Hitamo aderesi yawe"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "pound",
     "amakarito",
     "imbuga",
-    "icyumba"
+    "icyumba",
+    "amasegonda",
+    "iminota",
+    "amasaha",
+    "iminsi",
+    "ibyumweru",
+    "amezi",
+    "imyaka"
   ],
   "region_types": {
     "State": "Leta",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Uburebure ntarengwa bugomba kuba {length}",
     "invalid_min_array_length": "Nibura hitamo {length} ibintu",
     "invalid_max_chars": "Inyinshi {maxCount} inyuguti",
-    "invalid_url": "URL itemewe"
+    "invalid_url": "URL itemewe",
+    "country_invalid": "Hitamo igihugu ugana!",
+    "postal_code_invalid": "Shiraho kode ya posita yemewe!"
   },
   "colors": {
     "#D32F2F": "Umutuku",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Cyera",
     "#FFF": "Cyera",
     "#000000": "Umukara",
-    "#000": "Umukara"
+    "#000": "Umukara",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Zahabu",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Ingabo",
+    "#474747": "Asfalt",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Orange",
+    "#80011F": "Karidinali",
+    "#382829": "Shokora",
+    "#F06336": "Korali",
+    "#FAE7C9": "Cream",
+    "#6B2257": "Kurrant",
+    "#222127": "Icyatsi cyijimye",
+    "#0D5A74": "Icyayi cyimbitse",
+    "#00582F": "Icyatsi cyose",
+    "#214C30": "Ishyamba",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Ibibabi",
+    "#558450": "Aqua Yoroheje",
+    "#96B5C9": "Ubururu bwerurutse",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "Lime",
+    "#9DE7C2": "Mint",
+    "#F6EAD2": "Kamere",
+    "#1A1F35": "Navy",
+    "#404624": "Olive",
+    "#271020": "Amashanyarazi",
+    "#A8355C": "Raspberry",
+    "#D6BEA6": "Cream yoroshye",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Icyayi",
+    "#A86EA9": "Violet",
+    "#36454F": "Amakara",
+    "#b3b0ab": "Carbon Gray",
+    "#463e3d": "Amakara",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Izina",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Inomero yo kubaka",
     "building_unit": "Igice",
     "postcode": "Inyandiko y'iposita",
-    "note": "Icyitonderwa"
+    "note": "Icyitonderwa",
+    "county": "Intara"
   },
   "product_types": {
     "physical": "Umubiri",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Ibara",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Biroroshye",
       "selective": "Guhitamo",
-      "switch": "Hindura"
-    }
+      "switch": "Hindura",
+      "file": "Idosiye",
+      "number": "Umubare"
+    },
+    "placeholder_input": "Umwanya",
+    "file_type_input": "Ubwoko bwa dosiye yemewe",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "izina RY'IGICURUZWA",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Injira mobile yawe",
     "verification_code": "Kode yo kugenzura",
     "msg_title": "Muraho,",
-    "msg_body": "Nyamuneka injira. Bifata amasegonda make."
+    "msg_body": "Nyamuneka injira. Bifata amasegonda make.",
+    "login_apple": "Injira na Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Tags yongeyeho"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Biragoye cyane",
+    "hard": "Biragoye",
+    "intermediate": "Hagati",
+    "easy": "Biroroshye"
   }
 };

@@ -558,7 +558,52 @@ export default {
     "merchant": "Machann",
     "per_product": "Pou chak pwodwi",
     "journey": "Vwayaj",
-    "after": "Apre"
+    "after": "Apre",
+    "waiting_for_payment": "Tanpri ranpli peman ...",
+    "hour": "Lè",
+    "minute": "Minit",
+    "premium": "Premium",
+    "light": "Limyè",
+    "dark": "Fè nwa",
+    "guest": "Envite",
+    "shops": "Magazen",
+    "vendor": "Vandè",
+    "vendors": "Fournisseurs",
+    "marketplace": "Marketplace",
+    "verify_date": "Verifye dat",
+    "note": "Remak",
+    "panel": "Panel",
+    "removed": "Retire",
+    "segments": "Segman",
+    "personal_info": "Enfòmasyon pèsonèl",
+    "preferences": "Preferans",
+    "spec": "Spec",
+    "reviews": "Revizyon",
+    "constraints": "Kontrent",
+    "flexible": "Fleksib",
+    "usage_limit": "Limit itilizasyon",
+    "temporary": "Tanporè",
+    "original": "Orijinal",
+    "saved": "Sove!",
+    "sort": "Triye",
+    "documents": "Dokiman yo",
+    "document": "Dokiman",
+    "please_wait": "Souple tann...",
+    "pickup": "Ranmase",
+    "customize": "personnaliser",
+    "difficulty": "Difikilte",
+    "banned": "Entèdi",
+    "company": "Konpayi",
+    "tax_shipping": "Taks anbakman",
+    "warranty": "Garanti",
+    "return_policy": "Règleman retounen",
+    "guide": "Gid",
+    "translate": "Tradui",
+    "public": "Piblik",
+    "deleted": "Efase",
+    "variant": "Variant",
+    "secure": "Sekirize",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Track",
     "change_state": "Chanje Estati",
     "done": "Fè",
-    "reply": "Reply"
+    "reply": "Reply",
+    "watch_now": "Gade Kounye a",
+    "unlock": "Debloke",
+    "lock": "Fèmen",
+    "create_clone": "Kreye klonaj",
+    "regenerate": "Rejenere",
+    "add_message": "Ajoute mesaj",
+    "continue_chat": "Kontinye chat",
+    "add_new_message": "Ajoute nouvo mesaj"
   },
   "instance_message_title": "Voye mesaj enstantane",
   "instance_message": "Bonjou {name}, Non mwen se {author} ki soti nan {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Kòd postal",
     "enter_value": "Ranpli isit la",
     "address_note": "Remak",
-    "tel": "Nimewo kontak"
+    "tel": "Nimewo kontak",
+    "service_address": "Chwazi adrès ou"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "liv",
     "kat",
     "yad",
-    "chanm"
+    "chanm",
+    "segonn",
+    "minit",
+    "èdtan",
+    "jou",
+    "semèn",
+    "mwa",
+    "ane"
   ],
   "region_types": {
     "State": "Eta",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Longè minimòm dwe {length}",
     "invalid_min_array_length": "Omwen chwazi atik {length}",
     "invalid_max_chars": "Maksimòm {maxCount} karaktè",
-    "invalid_url": "URL pa valab"
+    "invalid_url": "URL pa valab",
+    "country_invalid": "Chwazi peyi destinasyon!",
+    "postal_code_invalid": "Mete kòd postal valab!"
   },
   "colors": {
     "#D32F2F": "Wouj",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Blan",
     "#FFF": "Blan",
     "#000000": "Nwa",
-    "#000": "Nwa"
+    "#000": "Nwa",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Lò",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Lame",
+    "#474747": "Asfalt",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Burnt Orange",
+    "#80011F": "Kadinal",
+    "#382829": "Chokola",
+    "#F06336": "Coral",
+    "#FAE7C9": "Krèm",
+    "#6B2257": "Korint",
+    "#222127": "Gri nwa",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Evergreen",
+    "#214C30": "Forest",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Fèy",
+    "#558450": "Limyè Aqua",
+    "#96B5C9": "Limye ble",
+    "#DCAFCE": "Lila",
+    "#D3E1A4": "Lacho",
+    "#9DE7C2": "mant",
+    "#F6EAD2": "Natirèl",
+    "#1A1F35": "Marin",
+    "#404624": "oliv",
+    "#271020": "Prin",
+    "#A8355C": "Franbwaz",
+    "#D6BEA6": "Soft krèm",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Vyolèt",
+    "#36454F": "Chabon",
+    "#b3b0ab": "kabòn gri",
+    "#463e3d": "Chabon Heather",
+    "#282d3c": "Blazer marin"
   },
   "address_info": {
     "name": "Non",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Nimewo bilding lan",
     "building_unit": "Inite",
     "postcode": "Kòd postal",
-    "note": "Remak"
+    "note": "Remak",
+    "county": "Konte"
   },
   "product_types": {
     "physical": "Fizik",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Koulè",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Senp",
       "selective": "Selektif",
-      "switch": "Chanje"
-    }
+      "switch": "Chanje",
+      "file": "File",
+      "number": "Nimewo"
+    },
+    "placeholder_input": "Placeholder",
+    "file_type_input": "Kalite dosye akseptab",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Non pwodwi",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Antre mobil ou",
     "verification_code": "Kòd Verifikasyon",
     "msg_title": "bonjou,",
-    "msg_body": "Tanpri konekte. Li pran jis kèk segonn."
+    "msg_body": "Tanpri konekte. Li pran jis kèk segonn.",
+    "login_apple": "Konekte ak Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Tags te ajoute"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Trè konplike",
+    "hard": "Difisil",
+    "intermediate": "Entèmedyè",
+    "easy": "Fasil"
   }
 };

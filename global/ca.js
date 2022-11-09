@@ -558,7 +558,52 @@ export default {
     "merchant": "Comerciant",
     "per_product": "Per producte",
     "journey": "Viatge",
-    "after": "Després"
+    "after": "Després",
+    "waiting_for_payment": "Si us plau, completa el pagament...",
+    "hour": "Hores",
+    "minute": "Minut",
+    "premium": "Premium",
+    "light": "Llum",
+    "dark": "fosc",
+    "guest": "Convidat",
+    "shops": "Botigues",
+    "vendor": "Venedor",
+    "vendors": "Venedors",
+    "marketplace": "Mercat",
+    "verify_date": "Verifica la data",
+    "note": "Nota",
+    "panel": "Panell",
+    "removed": "Eliminat",
+    "segments": "Segments",
+    "personal_info": "Informació personal",
+    "preferences": "Preferències",
+    "spec": "Especificació",
+    "reviews": "Ressenyes",
+    "constraints": "Restriccions",
+    "flexible": "Flexible",
+    "usage_limit": "Límit d'ús",
+    "temporary": "Temporal",
+    "original": "Original",
+    "saved": "Salvat!",
+    "sort": "Ordena",
+    "documents": "Documents",
+    "document": "Document",
+    "please_wait": "Si us plau, espereu...",
+    "pickup": "Recollida",
+    "customize": "personalitzar",
+    "difficulty": "Dificultat",
+    "banned": "Prohibit",
+    "company": "Companyia",
+    "tax_shipping": "Impost d'enviament",
+    "warranty": "Garantia",
+    "return_policy": "Política de devolució",
+    "guide": "Guia",
+    "translate": "Traduir",
+    "public": "Públic",
+    "deleted": "S'ha suprimit",
+    "variant": "Variant",
+    "secure": "Segur",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Pista",
     "change_state": "Canvia d'estat",
     "done": "Fet",
-    "reply": "Respon"
+    "reply": "Respon",
+    "watch_now": "Veure ara",
+    "unlock": "Descobrir",
+    "lock": "Bloqueig",
+    "create_clone": "Crea un clon",
+    "regenerate": "Regenerar",
+    "add_message": "Afegeix missatge",
+    "continue_chat": "Continua el xat",
+    "add_new_message": "Afegeix un missatge nou"
   },
   "instance_message_title": "Enviar missatge instantani",
   "instance_message": "Hola {name}, Em dic {author} de {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Codi postal",
     "enter_value": "Ompliu aquí",
     "address_note": "Nota",
-    "tel": "Nombre de contacte"
+    "tel": "Nombre de contacte",
+    "service_address": "Seleccioneu la vostra adreça"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "lliures",
     "quarts",
     "iardes",
-    "habitació"
+    "habitació",
+    "segons",
+    "minuts",
+    "hores",
+    "dies",
+    "setmanes",
+    "mesos",
+    "anys"
   ],
   "region_types": {
     "State": "Estat",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "La longitud mínima ha de ser {length}",
     "invalid_min_array_length": "Seleccioneu almenys {length} elements",
     "invalid_max_chars": "{maxCount} caràcters com a màxim",
-    "invalid_url": "URL no vàlid"
+    "invalid_url": "URL no vàlid",
+    "country_invalid": "Seleccioneu el país de destinació!",
+    "postal_code_invalid": "Estableix un codi postal vàlid!"
   },
   "colors": {
     "#D32F2F": "Vermell",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Blanc",
     "#FFF": "Blanc",
     "#000000": "Negre",
-    "#000": "Negre"
+    "#000": "Negre",
+    "#7d263a": "Granat",
+    "#FD9F17": "Or",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Exèrcit",
+    "#474747": "Asfalt",
+    "#E6195C": "Baia",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Taronja cremada",
+    "#80011F": "Cardenal",
+    "#382829": "Xocolata",
+    "#F06336": "Corall",
+    "#FAE7C9": "Crema",
+    "#6B2257": "Grosella",
+    "#222127": "Gris fosc",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Perenne",
+    "#214C30": "Bosc",
+    "#DC2867": "Fúcsia",
+    "#38561": "Kelly",
+    "#5C884D": "Full",
+    "#558450": "Aqua clar",
+    "#96B5C9": "Blau clar",
+    "#DCAFCE": "Lila",
+    "#D3E1A4": "Lima",
+    "#9DE7C2": "Menta",
+    "#F6EAD2": "Natural",
+    "#1A1F35": "Marina",
+    "#404624": "Oliva",
+    "#271020": "Pruna",
+    "#A8355C": "Gerds",
+    "#D6BEA6": "Crema suau",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "violeta",
+    "#36454F": "Carbó vegetal",
+    "#b3b0ab": "gris carboni",
+    "#463e3d": "Bruc de carbó",
+    "#282d3c": "Blazer blau marí"
   },
   "address_info": {
     "name": "Nom",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Número d'edifici",
     "building_unit": "Unitat",
     "postcode": "Codi postal",
-    "note": "Nota"
+    "note": "Nota",
+    "county": "comtat"
   },
   "product_types": {
     "physical": "Física",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Color",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Simple",
       "selective": "Selectiu",
-      "switch": "Interruptor"
-    }
+      "switch": "Interruptor",
+      "file": "Dossier",
+      "number": "Número"
+    },
+    "placeholder_input": "Posseïdor del lloc",
+    "file_type_input": "Tipus de fitxers acceptables",
+    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "nom del producte",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Introdueix el teu mòbil",
     "verification_code": "Codi de verificació",
     "msg_title": "hola,",
-    "msg_body": "Si us plau inicieu sessió. Només triguen uns segons."
+    "msg_body": "Si us plau inicieu sessió. Només triguen uns segons.",
+    "login_apple": "Inicieu sessió amb Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "S'han afegit etiquetes"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Molt complicat",
+    "hard": "Dur",
+    "intermediate": "Intermedi",
+    "easy": "Fàcil"
   }
 };

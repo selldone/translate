@@ -65,7 +65,9 @@ export default {
     "my_feed": "나",
     "blocked_message": "당신은 까지 차단됩니다",
     "reported": "보고됨",
-    "report": "보고서"
+    "report": "보고서",
+    "post": "게시하다",
+    "attach_file": "파일을 첨부"
   },
   "invite_message": "{user}님이 {community} 포럼에 귀하를 초대했습니다. 아래 링크를 클릭하여 친구의 관찰 내용을 읽고 의견을 공유하세요. 당신을 기다리고 있어요.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "설문조사 삭제",
     "take_screenshot": "표지로 삼다",
     "take_link_msg": "여기에서 과거 링크를 입력하고",
-    "eligible_title": "게시 자격이 되는 단계"
+    "eligible_title": "게시 자격이 되는 단계",
+    "public": "공공의"
   },
   "tips": {
     "verify_email": "이메일을 입력하고 확인합니다.",

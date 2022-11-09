@@ -155,7 +155,19 @@ export default {
       "Setup": "stór",
       "Sell": "Díolacháin & Margaíocht",
       "Developer": "a fhorbairt",
-      "Application": "Feidhmchláir"
+      "Application": "Feidhmchláir",
+      "Product": "Bainistíocht Táirgí & Catagóirí",
+      "Blog": "CMS & Blag",
+      "Order": "Ionad Comhlíonta Orduithe",
+      "Channel": "Cainéil Díolacháin",
+      "Accounting": "Cuntasaíocht & Modhanna Íocaíochta",
+      "Incentives": "Dreasachtaí",
+      "Marketing": "Margaíocht & Feachtais",
+      "Logistic": "Loighistic & Loingseoireacht",
+      "Customers": "Club Custaiméirí & Deighilt",
+      "Page": "Leathanaigh Tuirlingthe & Saincheaptha",
+      "Access": "Bainistíocht Rochtana Foirne / API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Stór Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Stórais",
       "roles": "Róil",
       "home": "Baile",
-      "expert": "Saineolaí"
+      "expert": "Saineolaí",
+      "deals": "Margaí",
+      "providers": "Soláthraithe"
     },
     "shops": {
       "create_new": "Cruthaigh siopa nua",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Stádas",
           "created_at": "Dáta Cruthaithe",
           "updated_at": "Nuashonrú is déanaí"
-        }
+        },
+        "subtitle": "Scríobh altanna le heagarthóir inlíne nua-aimseartha chun tú féin agus do ghnó a chur i láthair. Is é an t-ábhar bunaidh an chéad rud a gcaithfidh tú díriú air agus blagphost ardchaighdeáin á scríobh agat atá neamhdhíobhálach don Sinsearach."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Tuairisc",
         "tax": "Cáin",
         "drop_shipping": "Admhálacha athdhíoltóra",
-        "reseller_accounts": "Cuntais athdhíoltóra"
+        "reseller_accounts": "Cuntais athdhíoltóra",
+        "valuations": "Luachálacha"
       },
       "invoice": {
         "title": "Sparán Nasctha Siopa",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Á sheoladh",
         "inventory": "Fardal",
         "warehouse": "Stóras",
-        "logistic_apps": "Loighistic"
+        "logistic_apps": "Loighistic",
+        "profiles": "Próifílí"
       },
       "warehouse": {
         "title": "Stóras Stórais",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Costas íosta ordú le haghaidh loingseoireachta saor in aisce",
           "notifications": {
             "update_success": "Críochnaíodh socruithe seirbhíse seolta go rathúil."
-          }
+          },
+          "shipping_cost_calculation": "Ríomh costas loingseoireachta",
+          "sod_true": "Faigh costas loingseoireachta ar an gceann scríbe",
+          "sod_true_message": "Cinntigh go nglacann do sheirbhís loingseoireachta leis an gcostas loingseoireachta ar an gceann scríbe.",
+          "sod_false": "Ríomh costas loingseoireachta uathoibríoch",
+          "cod_true": "Glac le hairgead ar sheachadadh",
+          "cod_false": "Glac le híocaíocht ar líne amháin",
+          "cod_true_message": "Déan cinnte go nglacann do sheirbhís loingseoireachta le COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "Sms",
         "email": "Ríomhphost",
         "domain": "Fearann",
-        "verifications": "Fíoruithe"
+        "verifications": "Fíoruithe",
+        "flow": "Sreabhadh",
+        "business_model": "Múnla Gnó"
       },
       "delete_dialog": {
         "title": "Scrios Store",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Aonad táirge",
       "unit_float": "Aonad snámhphointe (go luath)",
       "unit_float_hint": "Mar shampla, is féidir leis an gcustaiméir 3 kg de thorthaí a ordú, ach tá an méid a sheoltar chuig an gcustaiméir beagán difriúil ón méid ordaithe.",
-      "unit_float_message": "Le linn próiseála ordú, féadfaidh an méid seachadta a bheith difriúil ón méid ordaithe. Ríomhann an córas an difríocht seo go huathoibríoch agus taifeadann sé é mar fhiachas don chustaiméir, ar féidir é a chur i bhfeidhm ar na chéad orduithe eile."
+      "unit_float_message": "Le linn próiseála ordú, féadfaidh an méid seachadta a bheith difriúil ón méid ordaithe. Ríomhann an córas an difríocht seo go huathoibríoch agus taifeadann sé é mar fhiachas don chustaiméir, ar féidir é a chur i bhfeidhm ar na chéad orduithe eile.",
+      "status_list": {
+        "active": {
+          "title": "Gníomhach | Díolacháin Ar Líne & As Líne",
+          "description": "Beidh an táirge seo ar fáil le haghaidh orduithe ar líne."
+        },
+        "inactive": {
+          "title": "Neamhghníomhach | Díolacháin As Líne amháin",
+          "description": "Ní bheidh an táirge seo ar fáil le haghaidh orduithe ar líne."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Suirbhé",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Roghnaigh an t-am deiridh",
       "independent_price": "An praghas amháin don leagan seo",
       "same_price": "An praghas don phríomhtháirge",
-      "variant_pricing_message": "Trí an rogha seo a roghnú, is féidir praghas an leagain seo a shocrú go neamhspleách ar an bpríomhtháirge."
+      "variant_pricing_message": "Trí an rogha seo a roghnú, is féidir praghas an leagain seo a shocrú go neamhspleách ar an bpríomhtháirge.",
+      "price_label_input": "Lipéad praghais",
+      "price_label_message": "Cuir eolas breise faoin bpraghas ar nós ( $1.5/Fl Oz ). Cásanna úsáide: grósaera, FMCG.",
+      "add_price_label_action": "Cuir lipéad praghais leis"
     },
     "inputs_edit": {
       "title": "Foirm Ionchuir Faisnéise Ceannaitheora",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gateway {gateway_name} curtha in eagar."
     },
-    "developer_setting": "Forbairt & Tástáil"
+    "developer_setting": "Forbairt & Tástáil",
+    "live_mode_message": "Beidh gach idirbheart i mód beo."
   },
   "gift_card": {
     "title": "Cártaí Bronntanais",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Seoladh billeála curtha in eagar ag an gceannaitheoir.",
     "payment-cod-confirm": "Deimhníodh an íocaíocht COD.",
     "payment-cash-confirm": "Deimhníodh íocaíocht {amount} {currency} in airgead tirim don bhille.",
-    "payment-dir-confirm": "Deimhníodh admháil íocaíochta díreach."
+    "payment-dir-confirm": "Deimhníodh admháil íocaíochta díreach.",
+    "vendor": "Athraíodh staid an ordaithe díoltóra ó <b>{from}</b> go <b>{to}</b> .",
+    "connect-sync": "Ordú sioncronaithe ag Connect OS.",
+    "connect-shipped": "Seoladh an t-ordú ceangail trí {shipping}.",
+    "connect-returned": "Tá an t-ordú ceangail tugtha ar ais ag {shipping}.",
+    "connect-failed": "Theip ar chomhlíonadh an ordaithe ag an gcomhpháirtí. {reason}",
+    "connect-canceled": "Chuir an comhpháirtí an t-ordú ar ceal. {reason}",
+    "connect-action-cancel": "Iarratas chun ordú a chealú. {reason}",
+    "connect-put-hold": "Cuireadh an t-ordú ar fionraí. {reason}",
+    "connect-remove-hold": "Baineadh an t-ordú den shealbhú. {reason}",
+    "connect-confirmed": "Deimhníodh an t-ordú.",
+    "email-vendor": "🔔 Seoladh ríomhphost an eolas faoi ordú chuig an <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Inniu",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Airgead a dhéanamh",
     "menu": {
       "plans": "Pleananna",
-      "accounts": "Cuntais"
+      "accounts": "Cuntais",
+      "participant": "Rannpháirtí"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Eochracha Rochtana Store",
     "shop_keys_message": "Úsáideann do fhreastalaí na heochracha seo chun Comhartha Rochtana a chruthú. Tabhair faoi deara go bhfuil na heochracha faoi rún agus nach gcuirtear ach ar an bhfreastalaí iad ionas nach mbeidh siad le feiceáil ag daoine eile.",
     "personal_keys_title": "Eochracha Rochtana Pearsanta",
-    "personal_keys_message": "Is féidir leat na heochracha do do chuntas a chruthú anseo. Tabhair faoi deara go mbeidh na heochracha seo in ann rochtain a fháil ar do chuntas. Cruthaigh agus bain úsáid as na heochracha seo ach amháin má tá a fhios agat go díreach cad atá á dhéanamh agat."
+    "personal_keys_message": "Is féidir leat na heochracha do do chuntas a chruthú anseo. Tabhair faoi deara go mbeidh na heochracha seo in ann rochtain a fháil ar do chuntas. Cruthaigh agus bain úsáid as na heochracha seo ach amháin má tá a fhios agat go díreach cad atá á dhéanamh agat.",
+    "clients_title": "Cliaint",
+    "clients_message": "Úsáideann do fhreastalaí na heochracha seo chun Comhartha Rochtana a chruthú. Tabhair faoi deara go bhfuil na heochracha faoi rún agus nach gcuirtear ach ar an bhfreastalaí iad ionas nach mbeidh siad le feiceáil ag daoine eile."
   },
   "user_security_control": {
     "title": "Slándáil Cuntais",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Bainistigh próifílí",
       "description": "Bainistigh próifílí siopa."
+    },
+    "shop-discount-code": {
+      "name": "Bainistíocht cód lascaine",
+      "description": "Bainistigh, cuir in eagar agus cuir cóid lascaine siopa leis."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Socruithe",
       "change": "Muirear",
       "transfer": "Aistriú",
-      "transactions": "Idirbhearta"
+      "transactions": "Idirbhearta",
+      "charge": "Muirear",
+      "history": "Stair"
     },
     "transactions": {
       "title": "Idirbhearta Cuntais",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Cealaigh dearbhú síntiús",
       "message": "An bhfuil tú cinnte an síntiús seo a chealú?",
       "action": "Cealaigh síntiús"
-    }
+    },
+    "use_voucher_now": "Bain úsáid as dearbhán anois",
+    "validity_duration": "Fad bailíochta",
+    "validity_duration_hint": "Trí cheadúnas 12 mhí a cheannach, gheobhaidh tú lascaine 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Íoslódáil téacs na sonraí",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Clónna móra",
     "large_font_message": "Taispeáin téacs níos mó ná mar is gnách",
     "samples": "Taispeáin siopaí samplacha",
-    "samples_message": "Má tá sé cumasaithe, taispeánfar roinnt siopaí samplacha i do phainéal."
+    "samples_message": "Má tá sé cumasaithe, taispeánfar roinnt siopaí samplacha i do phainéal.",
+    "automation": "Uathoibriú",
+    "automation_message": "Taispeáin cluaisín uathoibrithe ar dheais an tsiopa. (Wooks Gréasáin, Amharcchlárú, ...)"
   },
   "shop_locations": {
     "title": "Tíortha ina gcuirtear seirbhís ar fáil",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Scriosadh an cúpón go rathúil."
-    }
+    },
+    "multiple_use": "Ilúsáid"
   },
   "coupon_edit": {
     "title_edit": "Cuir cúpón in eagar",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Teorainn",
       "description": "Socraigh teorainn ar an líon uasta úsáideoirí."
+    },
+    "SEGMENTS": {
+      "title": "Deighleoga",
+      "description": "Teorainn a chur ar chustaiméirí i ndeighilt láimhe ar leith."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Tarraingíodh siar méid iomlán an ordaithe ó na cártaí bronntanais! Ní gá don cheannaitheoir níos mó a íoc.",
       "cod_msg": "Íocfaidh an custaiméir nuair a fhaigheann sé an t-ordú.",
       "online_msg": "Iarr ar an gcustaiméir cód QR a scanadh ar scáileán an chustaiméara."
-    }
+    },
+    "name": "POS",
+    "message": "Bíodh do phointe díola ar líne ar chostas nialasach agat, rith é ar aon fhón cliste, táibléad agus ríomhaire, nó cruthaigh orduithe de láimh."
   },
   "exporter": {
     "title": "Easpórtáil sonraí",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Seol chuig an bhfreastalaí",
     "shop_license": "Ceadúnas siopa",
     "max_items_limit": "Teorainn uasta míreanna",
-    "total_items": "Míreanna iomlána"
+    "total_items": "Míreanna iomlána",
+    "customer": {
+      "title": "Custaiméirí a allmhairiú",
+      "subtitle": "Uaslódáil comhaid CSV custaiméirí anseo. Déan cinnte go leanann tú an fhormáid chaighdeánach, agus freisin, caithfidh tú rialacha príobháideachais a leanúint."
+    }
   },
   "campaigns": {
     "title": "Feachtais",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Naisc",
     "light_checkout": "Téama Seiceáil Amach Solas",
     "light_header": "Ceanntásc éadrom",
-    "light_footer": "Buntásc éadrom"
+    "light_footer": "Buntásc éadrom",
+    "product_page": "Leathanach Táirge",
+    "typography": "Clóghrafaíocht",
+    "header": "Ceanntásc",
+    "custom_code": "Cód saincheaptha",
+    "custom_css": "CSS saincheaptha"
   },
   "app_templates": {
     "default": "Réamhshocrú",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Bainistigh seirbhís",
     "option_deliver_by_courier": "Rogha 1: Seachadadh ag do theachtairí.",
     "option_add_to_que": "Rogha 2: Cuir leis an scuaine le próiseáil ar leathanach na seirbhíse loingseoireachta.",
-    "option_instant_shipping": "Rogha 3: Loingseoireacht ar an toirt."
+    "option_instant_shipping": "Rogha 3: Loingseoireacht ar an toirt.",
+    "pickup_action": "Deimhniú piocadh"
   },
   "shop_home_edit": {
     "title": "Socrú leathanach baile",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Táirge curtha le do shiopa.",
       "request_access": "Chuireamar d'iarratas rochtana chuig an mórdhíoltóir go rathúil."
-    }
+    },
+    "show_eligible_shops_message": "Taispeáin siopaí incháilithe"
   },
   "product_dropshipping": {
     "need_re_enable": "D'athraigh an díoltóir bunaidh an táirge seo, dhíchumasaigh na hathruithe praghais seo an táirge i do shiopa. Seiceáil na hathruithe agus má aontaíonn tú an táirge a athghníomhachtú, brúigh an cnaipe thíos.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Níl aon chatagóir i do stór.",
       "limit": "Teorainn táirgí",
       "limit_message": "Cuir isteach comhaireamh torthaí táirgí",
-      "select_categories": "Roghnaigh na catagóirí atá ar fáil"
+      "select_categories": "Roghnaigh na catagóirí atá ar fáil",
+      "categories_limit": "Teorainn na gcatagóirí",
+      "categories_limit_msg": "Cuir isteach uaslíon na gcatagóirí. Socraigh nialas gan teorainn."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "D'éirigh le nuashonrú avocado.",
       "add_success": "Avocado cruthaithe go rathúil."
-    }
+    },
+    "name": "Avocado"
   },
   "avocado_orders": {
     "title": "Avocado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "neamhghníomhach",
     "active_message": "Má chumasaíonn tú an rogha seo, taispeánfar an fhéidearthacht na Cóid Mhear-Díolacháin a chruthú i rannóg bainistíochta gach táirge.",
     "hyper_form_link_message": "Nasc hipearleathanaigh do shiopa",
-    "configuration": "Socruithe Hyper"
+    "configuration": "Socruithe Hyper",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Déimeagrafaíocht Custaiméirí",
     "subtitle": "Scag agus easpórtáil sonraí do chustaiméirí chun cinntí níos fearr a dhéanamh chun luach níos mó a sheachadadh le níos lú margaíochta! Bíodh meas agat le do thoil ar phríobháideachas do chustaiméirí agus ná seol ríomhphost chuig mórchóir riamh chucu! Ná roinn eolas do chustaiméirí riamh le seirbhísí tríú páirtí gan cead a fháil ó gach ceann acu."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Seoltaí bailithe",
+      "subtitle": "Cuir seoltaí bailithe leis agus cuir in eagar iad anseo. Beidh úsáideoirí in ann an seoladh bailithe a roghnú ar an leathanach seiceála.",
+      "add_action": "Cuir suíomh nua leis"
+    }
+  },
+  "affiliate_pos": {
+    "title": "POS cleamhnaithe",
+    "open_pos_action": "POS a ordú go tapa",
+    "description": "Tá an rogha seo oiriúnach do riarthóirí leathanaigh Instagram agus líonraí sóisialta eile. Bain úsáid as POS Cleamhnaithe chun orduithe ó chustaiméirí a fháil agus a chur leis de láimh. Is féidir le do chleamhnaithe (nó saincheadúnas) orduithe nua a chur leis an POS Cleamhnaithe agus an duillín taisce a uaslódáil."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Modhanna logáil isteach",
+      "subtitle": "Saincheap an bealach a logáil úsáideoirí isteach i do stór."
+    },
+    "checkout": {
+      "title": "Sreabhadh seiceála",
+      "subtitle": "Saincheap do thuras custaiméara agus sreabhadh ceannaigh i do ríomhthráchtáil.",
+      "map": {
+        "title": "Léarscáil",
+        "subtitle": "Ní mór d’úsáideoirí an suíomh seachadta a roghnú ar an léarscáil (cosúil le Uber).",
+        "subtitle_no_map": "Measann an t-achar sa ríomh loingseoireachta náid mura bhfuil an suíomh sa seoladh a sholáthair an custaiméir."
+      },
+      "mode": {
+        "title": "Pointe logáil isteach do chustaiméirí",
+        "default": {
+          "title": "ASAP (Réamhshocrú)",
+          "msg": "Logáil úsáideoirí isteach chomh luath agus is féidir. (Tuilleadh tiontaithe)"
+        },
+        "on_checkout": {
+          "title": "Ar Seiceáil Amach",
+          "msg": "Cuir iallach ar úsáideoirí logáil isteach ag céim an tseiceáil amach."
+        },
+        "login_free": {
+          "title": "Logáil isteach roghnach",
+          "msg": "Logáil isteach roghnach tar éis íocaíocht ordaithe."
+        }
+      },
+      "express": {
+        "title": "Atreoraigh tar éis é a chur leis an tralaí",
+        "false": {
+          "title": "Modh gnáth",
+          "msg": "Fan ar an leathanach agus leanúint ar aghaidh ag siopadóireacht tar éis duit cliceáil ar add to cart."
+        },
+        "true": {
+          "title": "Mód sainráite",
+          "msg": "Atreoraigh an custaiméir chuig an leathanach seiceála amach tar éis cliceáil ar cuir leis an tralaí."
+        }
+      },
+      "shipping_address": {
+        "title": "Iarr seoladh loingseoireachta"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fisiceach & Seirbhís (Réamhshocrú)",
+      "desc": "Iarr ar an gcustaiméir seoladh a chur isteach sna seicphointí fisiceacha agus seirbhíse."
+    },
+    "physical": {
+      "title": "Fisiciúil Amháin",
+      "desc": "Iarr ar an gcustaiméir seoladh a chur isteach díreach sa tseiceáil amach fisiciúil."
+    },
+    "off": {
+      "title": "Riamh",
+      "desc": "Ná iarr an seoladh loingseoireachta riamh. ⚠ Bain úsáid as an rogha seo má tá sé beartaithe agat seirbhísí a bhfuil leaganacha acu a bheith agat trí chineál fisiceach a roghnú le haghaidh táirgí seachas an cineál seirbhíse."
+    }
+  },
+  "business_model": {
+    "title": "Socrú múnla gnó",
+    "subtitle": "Socraigh do mhúnla gnó, agus déanfaimid do OS a chumrú sa chúlra."
+  },
+  "business_type": {
+    "title": "Cineálacha marsantais",
+    "subtitle": "Socraigh an cineál táirgí is mian leat a dhíol i do stór. Is éard atá i gcineálacha táirgí i Soldone níos mó ná cineál táirgí amháin; baineann sé níos mó leis an nós imeachta um chomhlíonadh.",
+    "send_activation_request_to_support": "Seol iarratas gníomhachtaithe i dticéad tacaíochta.",
+    "require_kyc": "Úinéir gnó KYC.",
+    "needs_enterprise_license": "Ní mór ceadúnas Fiontar a bheith agat.",
+    "marketplace_caution_message": "Socraigh Marketplace mar do mhúnla dul i bhfeidhm go mór ar do ghnó cumraíocht OS. Mar shampla, ní mór duit díoltóir amháin ar a laghad a shainiú do gach táirge le praghsáil neamhspleách agus fardal. Ní féidir le custaiméirí táirgí a cheannach nach bhfuil aon díoltóir acu."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Gnáth-Stóras",
+      "desc": "GBM, gnó baile, nó dropshipper de ghnáth - a dhíolann a dtáirge go díreach le custaiméirí nó a dhíolann táirgí mórdhíoltóirí mar athdhíoltóir."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Coinnigh aon táirge agus gan aon fhardal - íocann tú le tríú páirtí, de ghnáth mórdhíoltóir (cosúil le Printify, Wholesale2B, ...) nó monaróir, agus comhlíonann siad orduithe taobh thiar den ardán."
+    },
+    "wholesaler": {
+      "title": "Dropshipping Soláthraí",
+      "desc": "Go hiondúil mórdhíoltóir nó monaróir – a sheolann orduithe go díreach chuig an tomhaltóir deiridh. Is féidir le ceannaithe eile ar Soldone do tháirgí a sheoladh chuig a gcuid siopaí."
+    },
+    "marketplace": {
+      "title": "Margadh",
+      "desc": "Ceanglaíonn margaí ar líne ceannaitheoirí agus díoltóirí ar ardán dílsithe agus láraithe."
+    },
+    "franchise": {
+      "title": "Toghchóras / Affiliate",
+      "desc": "Is éard is saincheadúnas ann modh chun táirgí nó seirbhísí a dháileadh a bhaineann le saincheadúnaí a bhunaíonn do bhranda (Saincheadú) nó a dhíolann do tháirgí de réir a bhranda (Cleamhnaithe)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Sparán",
+    "pricing_models": "Praghsáil",
+    "add_vendor": "Cuir díoltóir leis",
+    "requests": "Iarratais"
+  },
+  "price_input_type": {
+    "title": "Cineál ionchuir praghais",
+    "default": {
+      "title": "Réamhshocrú",
+      "desc": "Roghnaigh luach mar an chainníocht sa tralaí."
+    },
+    "area": {
+      "title": "Achar",
+      "desc": "Cuir isteach leithead agus fad mar ionchuir chun an chainníocht a ríomh."
+    },
+    "volume": {
+      "title": "toirte",
+      "desc": "Cuir isteach leithead, fad, agus airde mar ionchuir chun an chainníocht a ríomh."
+    },
+    "custom": {
+      "title": "Saincheaptha (De réir foirme ionchuir)",
+      "desc": "Níl gá leis na céadta leagan! Cruthaigh foirm ríomh costas saincheaptha le haghaidh táirgí an-inoiriúnaithe."
+    }
+  },
+  "vendors_list": {
+    "title": "Mo Díoltóirí",
+    "message": "Liosta de mo chuid díoltóirí féin."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Ceangail fearainn iolracha le do OS gnó agus bainistigh iad go léir in aon áit amháin. Is féidir leat an ghné fearainn iolracha a úsáid chun fearainn tiomnaithe a chruthú do gach cuid de do shuíomh Gréasáin, amhail blag agus pobal, nó fearainn éagsúla a úsáid le haghaidh do chleamhnaithe."
+  },
+  "notes": {
+    "add_action": "Cuir nóta leis don fhoireann",
+    "notifications": {
+      "success_add": "D'éirigh leis an nóta a chur leis.",
+      "success_delete": "D'éirigh leis an nóta a scriosadh."
+    }
+  },
+  "external_services": {
+    "title": "Seirbhísí seachtracha",
+    "subtitle": "Monatóireacht a dhéanamh ar stádas deiridh na seirbhísí seachtracha cosúil le SMS agus ríomhphoist anseo."
   }
 };

@@ -558,7 +558,52 @@ export default {
     "merchant": "Сәүдәгәр",
     "per_product": "Бер продукт өчен",
     "journey": "Сәяхәт",
-    "after": "Соңыннан"
+    "after": "Соңыннан",
+    "waiting_for_payment": "Зинһар, түләүне тәмамлагыз ...",
+    "hour": "Сәгать",
+    "minute": "Минут",
+    "premium": "Премиум",
+    "light": "Яктылык",
+    "dark": "Караңгы",
+    "guest": "Кунак",
+    "shops": "Кибетләр",
+    "vendor": "Сатучы",
+    "vendors": "Сатучылар",
+    "marketplace": "Базар",
+    "verify_date": "Датаны раслагыз",
+    "note": "Тамга",
+    "panel": "Панель",
+    "removed": "Чыгарылды",
+    "segments": "Сегментлар",
+    "personal_info": "Шәхси мәгълүмат",
+    "preferences": "Сайлаулар",
+    "spec": "Спек",
+    "reviews": "Карап чыгу",
+    "constraints": "Чикләүләр",
+    "flexible": "Эчкерсез",
+    "usage_limit": "Куллану чикләре",
+    "temporary": "Вакытлыча",
+    "original": "Оригиналь",
+    "saved": "Коткарылды!",
+    "sort": "Сортлау",
+    "documents": "Документлар",
+    "document": "Документ",
+    "please_wait": "Зинһар, көтегез...",
+    "pickup": "Сайлап алу",
+    "customize": "көйләү",
+    "difficulty": "Авырлык",
+    "banned": "Тыйган",
+    "company": "Компания",
+    "tax_shipping": "Сату салымы",
+    "warranty": "Гарантия",
+    "return_policy": "Кайтару сәясәте",
+    "guide": "Белешмәлек",
+    "translate": "Тәрҗемә итү",
+    "public": "Халык",
+    "deleted": "Бетерелгән",
+    "variant": "Вариант",
+    "secure": "Куркынычсыз",
+    "admin": "Админ"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Трек",
     "change_state": "Статусны үзгәртү",
     "done": "Булды",
-    "reply": "Lyавап бир"
+    "reply": "Lyавап бир",
+    "watch_now": "Хәзер карагыз",
+    "unlock": "Блокны ачу",
+    "lock": "Блок",
+    "create_clone": "Клон ясагыз",
+    "regenerate": "Яңарту",
+    "add_message": "Хәбәр өстәгез",
+    "continue_chat": "Чатны дәвам итегез",
+    "add_new_message": "Яңа хәбәр өстәгез"
   },
   "instance_message_title": "Тиз хәбәр җибәр",
   "instance_message": "Сәлам {name}, Минем исемем {author} {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Почта индексы",
     "enter_value": "Монда тутырыгыз",
     "address_note": "Тамга",
-    "tel": "Контакт номеры"
+    "tel": "Контакт номеры",
+    "service_address": "Сезнең адресны сайлагыз"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "фунт",
     "кварталлар",
     "ишегалды",
-    "бүлмә"
+    "бүлмә",
+    "секунд",
+    "минут",
+    "сәгатьләр",
+    "көннәр",
+    "атналар",
+    "айлар",
+    "еллар"
   ],
   "region_types": {
     "State": "Дәүләт",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Минималь озынлык {озынлык булырга тиеш",
     "invalid_min_array_length": "Ким дигәндә {length} әйберләрен сайлагыз",
     "invalid_max_chars": "Макс {maxCount} символлары",
-    "invalid_url": "Яраксыз URL"
+    "invalid_url": "Яраксыз URL",
+    "country_invalid": "Барган илне сайлагыз!",
+    "postal_code_invalid": "Почта индексын куегыз!"
   },
   "colors": {
     "#D32F2F": "Кызыл",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Белый",
     "#FFF": "Белый",
     "#000000": "Кара",
-    "#000": "Кара"
+    "#000": "Кара",
+    "#7d263a": "Марон",
+    "#FD9F17": "Алтын",
+    "#229DBF": "Аква",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Армия",
+    "#474747": "Асфальт",
+    "#E6195C": "Берри",
+    "#B2184C": "Берри Трибленд",
+    "#FC7F5F": "Яндырылган апельсин",
+    "#80011F": "Кардинал",
+    "#382829": "Шоколад",
+    "#F06336": "Корал",
+    "#FAE7C9": "Каймак",
+    "#6B2257": "Карагат",
+    "#222127": "Кара соры",
+    "#0D5A74": "Тирән чәй",
+    "#00582F": "Мәңге яшел",
+    "#214C30": "Урман",
+    "#DC2867": "Фуксия",
+    "#38561": "Келли",
+    "#5C884D": "Яфрак",
+    "#558450": "Lightиңел аквап",
+    "#96B5C9": "Зәңгәрсу зәңгәр",
+    "#DCAFCE": "Сирень",
+    "#D3E1A4": "Лайм",
+    "#9DE7C2": "Ясалма",
+    "#F6EAD2": "Табигый",
+    "#1A1F35": "Хәрби-диңгез флоты",
+    "#404624": "Зәйтүнә",
+    "#271020": "Караҗимеш",
+    "#A8355C": "Кура җиләге",
+    "#D6BEA6": "Йомшак каймак",
+    "#BEA994": "Тан",
+    "#0DB2AE": "Чәй",
+    "#A86EA9": "Виолет",
+    "#36454F": "Көмер",
+    "#b3b0ab": "углерод соры",
+    "#463e3d": "Көмер Хезер",
+    "#282d3c": "Флот Блэйзер"
   },
   "address_info": {
     "name": "Исем",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Төзелеш номеры",
     "building_unit": "Берәмлек",
     "postcode": "Почта индексы",
-    "note": "Тамга"
+    "note": "Тамга",
+    "county": "Район"
   },
   "product_types": {
     "physical": "Физик",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Төс",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Гади",
       "selective": "Сайланма",
-      "switch": "Күчерү"
-    }
+      "switch": "Күчерү",
+      "file": "Файл",
+      "number": "Сан"
+    },
+    "placeholder_input": "Урын иясе",
+    "file_type_input": "Кабул ителә торган файл төрләре",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Продукциянең исеме",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Кәрәзле телефоныгызны кертегез",
     "verification_code": "Тикшерү коды",
     "msg_title": "Сәлам,",
-    "msg_body": "Зинһар, керегез. Бу берничә секунд кына."
+    "msg_body": "Зинһар, керегез. Бу берничә секунд кына.",
+    "login_apple": "Apple белән керегез"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Тэглар өстәлде"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Бик катлаулы",
+    "hard": "Каты",
+    "intermediate": "Арадаш",
+    "easy": "Easyиңел"
   }
 };

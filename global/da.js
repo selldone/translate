@@ -558,7 +558,52 @@ export default {
     "merchant": "Købmand",
     "per_product": "Per produkt",
     "journey": "Rejse",
-    "after": "Efter"
+    "after": "Efter",
+    "waiting_for_payment": "Gennemfør venligst betalingen...",
+    "hour": "Time",
+    "minute": "Minut",
+    "premium": "Præmie",
+    "light": "Lys",
+    "dark": "Mørk",
+    "guest": "Gæst",
+    "shops": "Butikker",
+    "vendor": "Sælger",
+    "vendors": "Sælgere",
+    "marketplace": "Markedsplads",
+    "verify_date": "Bekræft dato",
+    "note": "Bemærk",
+    "panel": "Panel",
+    "removed": "Fjernet",
+    "segments": "Segmenter",
+    "personal_info": "Personlig information",
+    "preferences": "Præferencer",
+    "spec": "Spec",
+    "reviews": "Anmeldelser",
+    "constraints": "Begrænsninger",
+    "flexible": "Fleksibel",
+    "usage_limit": "Brugsgrænse",
+    "temporary": "Midlertidig",
+    "original": "Original",
+    "saved": "Gemt!",
+    "sort": "Sortere",
+    "documents": "Dokumenter",
+    "document": "Dokument",
+    "please_wait": "Vent venligst...",
+    "pickup": "Saml op",
+    "customize": "tilpasse",
+    "difficulty": "Vanskelighed",
+    "banned": "Forbudt",
+    "company": "Selskab",
+    "tax_shipping": "Forsendelsesafgift",
+    "warranty": "Garanti",
+    "return_policy": "Returpolitik",
+    "guide": "Guide",
+    "translate": "Oversætte",
+    "public": "Offentlig",
+    "deleted": "Slettet",
+    "variant": "Variant",
+    "secure": "Sikker",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Spore",
     "change_state": "Skift status",
     "done": "Færdig",
-    "reply": "Svar"
+    "reply": "Svar",
+    "watch_now": "Se nu",
+    "unlock": "Lås op",
+    "lock": "Låse",
+    "create_clone": "Opret klon",
+    "regenerate": "Regenerer",
+    "add_message": "Tilføj besked",
+    "continue_chat": "Fortsæt chatten",
+    "add_new_message": "Tilføj ny besked"
   },
   "instance_message_title": "Send øjeblikkelig besked",
   "instance_message": "Hej {name}, Mit navn er {author} fra {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Postnummer",
     "enter_value": "Udfyld her",
     "address_note": "Bemærk",
-    "tel": "Kontakt nummer"
+    "tel": "Kontakt nummer",
+    "service_address": "Vælg din adresse"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "pund",
     "kvarts",
     "yards",
-    "værelse"
+    "værelse",
+    "sekunder",
+    "minutter",
+    "timer",
+    "dage",
+    "uger",
+    "måneder",
+    "flere år"
   ],
   "region_types": {
     "State": "Stat",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Minimumlængde skal være {length}",
     "invalid_min_array_length": "Vælg som minimum {length} elementer",
     "invalid_max_chars": "Maks. {maxCount} tegn",
-    "invalid_url": "ugyldig URL"
+    "invalid_url": "ugyldig URL",
+    "country_invalid": "Vælg destinationsland!",
+    "postal_code_invalid": "Indstil gyldigt postnummer!"
   },
   "colors": {
     "#D32F2F": "Rød",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "hvid",
     "#FFF": "hvid",
     "#000000": "Sort",
-    "#000": "Sort"
+    "#000": "Sort",
+    "#7d263a": "Rødbrun",
+    "#FD9F17": "Guld",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "hær",
+    "#474747": "Asfalt",
+    "#E6195C": "Bær",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Brændt orange",
+    "#80011F": "Kardinal",
+    "#382829": "Chokolade",
+    "#F06336": "Koral",
+    "#FAE7C9": "Fløde",
+    "#6B2257": "Ribs",
+    "#222127": "Mørkegrå",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Stedsegrøn",
+    "#214C30": "Skov",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Blad",
+    "#558450": "Lys Aqua",
+    "#96B5C9": "Lyseblå",
+    "#DCAFCE": "lilla",
+    "#D3E1A4": "Citron",
+    "#9DE7C2": "Mynte",
+    "#F6EAD2": "Naturlig",
+    "#1A1F35": "Flåde",
+    "#404624": "Oliven",
+    "#271020": "Blomme",
+    "#A8355C": "Hindbær",
+    "#D6BEA6": "Blød creme",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Blågrøn",
+    "#A86EA9": "Violet",
+    "#36454F": "Trækul",
+    "#b3b0ab": "carbon grå",
+    "#463e3d": "Trækul Lyng",
+    "#282d3c": "Navy blazer"
   },
   "address_info": {
     "name": "Navn",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Bygningsnummer",
     "building_unit": "Enhed",
     "postcode": "Postnummer",
-    "note": "Bemærk"
+    "note": "Bemærk",
+    "county": "Amt"
   },
   "product_types": {
     "physical": "Fysisk",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Farve",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Enkel",
       "selective": "Selektiv",
-      "switch": "Kontakt"
-    }
+      "switch": "Kontakt",
+      "file": "Fil",
+      "number": "Nummer"
+    },
+    "placeholder_input": "Pladsholder",
+    "file_type_input": "Acceptable filtyper",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "produktnavn",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Indtast din mobil",
     "verification_code": "Verifikationskode",
     "msg_title": "Hej,",
-    "msg_body": "Vær venlig at logge ind. Det tager kun et par sekunder."
+    "msg_body": "Vær venlig at logge ind. Det tager kun et par sekunder.",
+    "login_apple": "Log ind med Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Tags tilføjet"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Meget kompliceret",
+    "hard": "Svært",
+    "intermediate": "Mellemliggende",
+    "easy": "Let"
   }
 };

@@ -558,7 +558,52 @@ export default {
     "merchant": "Kaihokohoko",
     "per_product": "Ia hua",
     "journey": "Haerenga",
-    "after": "I muri"
+    "after": "I muri",
+    "waiting_for_payment": "Tena koa whakaoti utu...",
+    "hour": "Haora",
+    "minute": "Te meneti",
+    "premium": "Moni",
+    "light": "Maama",
+    "dark": "pouri",
+    "guest": "Manuhiri",
+    "shops": "Toa",
+    "vendor": "Kaihoko",
+    "vendors": "Kaihoko",
+    "marketplace": "Te kainga hokohoko",
+    "verify_date": "Manatokohia te ra",
+    "note": "Tuhipoka",
+    "panel": "Paewhiri",
+    "removed": "Kua tangohia",
+    "segments": "Nga waahanga",
+    "personal_info": "Nga korero whaiaro",
+    "preferences": "Manakohanga",
+    "spec": "Spec",
+    "reviews": "Nga arotake",
+    "constraints": "Nga herenga",
+    "flexible": "He ngawari",
+    "usage_limit": "Tepe whakamahi",
+    "temporary": "Rangitahi",
+    "original": "Taketake",
+    "saved": "Kua tiakina!",
+    "sort": "Kōmaka",
+    "documents": "Tuhinga",
+    "document": "Tuhinga",
+    "please_wait": "Tatari koa...",
+    "pickup": "Te tiki",
+    "customize": "whakarite",
+    "difficulty": "Te uaua",
+    "banned": "Kua rāhuitia",
+    "company": "Kamupene",
+    "tax_shipping": "Taake Tukunga",
+    "warranty": "Pūtāhui",
+    "return_policy": "Kaupapa Whakahoki",
+    "guide": "Arataki",
+    "translate": "Whakamaori",
+    "public": "Tūmatanui",
+    "deleted": "Kua mukua",
+    "variant": "He rereke",
+    "secure": "Haumaru",
+    "admin": "Kaiwhakahaere"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Aroturuki",
     "change_state": "Huri Tūnga",
     "done": "Kua oti",
-    "reply": "Whakautu"
+    "reply": "Whakautu",
+    "watch_now": "Matakitaki Inaianei",
+    "unlock": "Wewete",
+    "lock": "Maukati",
+    "create_clone": "Waihangahia te clone",
+    "regenerate": "Whakahou",
+    "add_message": "Tāpiri karere",
+    "continue_chat": "Kōrerorero tonu",
+    "add_new_message": "Tāpiri karere hōu"
   },
   "instance_message_title": "Tukuna he karere inamata",
   "instance_message": "Kia ora {name}, Ko {author} toku ingoa no {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Waehere poutāpeta",
     "enter_value": "Whakakiia ki konei",
     "address_note": "Tuhipoka",
-    "tel": "Tau whakapā"
+    "tel": "Tau whakapā",
+    "service_address": "Tīpakohia tō wāhitau"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "pauna",
     "hauwhā",
     "iari",
-    "ruma"
+    "ruma",
+    "hēkona",
+    "meneti",
+    "haora",
+    "nga ra",
+    "wiki",
+    "marama",
+    "tau"
   ],
   "region_types": {
     "State": "State",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Ko te roanga iti me {length}",
     "invalid_min_array_length": "Tīpakohia te {length} tūemi",
     "invalid_max_chars": "Max {maxCount} pūāhua",
-    "invalid_url": "URL muhu"
+    "invalid_url": "URL muhu",
+    "country_invalid": "Tīpakohia te whenua ūnga!",
+    "postal_code_invalid": "Tautuhi waehere poutāpeta whaimana!"
   },
   "colors": {
     "#D32F2F": "Whero",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Mā",
     "#FFF": "Mā",
     "#000000": "Pango",
-    "#000": "Pango"
+    "#000": "Pango",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Koura",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Ope Taua",
+    "#474747": "Uku",
+    "#E6195C": "Beri",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Karaka Tahu",
+    "#80011F": "Katinara",
+    "#382829": "tiakarete",
+    "#F06336": "Kao",
+    "#FAE7C9": "Kirīmi",
+    "#6B2257": "Currant",
+    "#222127": "Kerei pouri",
+    "#0D5A74": "Tii Hohonu",
+    "#00582F": "Evergreen",
+    "#214C30": "Ngahere",
+    "#DC2867": "Puhihia",
+    "#38561": "Kelly",
+    "#5C884D": "Rau",
+    "#558450": "Aqua Maama",
+    "#96B5C9": "Kahurangi Maama",
+    "#DCAFCE": "Raina",
+    "#D3E1A4": "kotakota",
+    "#9DE7C2": "Mint",
+    "#F6EAD2": "Taiao",
+    "#1A1F35": "Navy",
+    "#404624": "Oriwa",
+    "#271020": "Paramu",
+    "#A8355C": "Rahipere",
+    "#D6BEA6": "Kirīmi ngohengohe",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Tii",
+    "#A86EA9": "Waiora",
+    "#36454F": "Te waro",
+    "#b3b0ab": "waro Kerei",
+    "#463e3d": "Heatere waro",
+    "#282d3c": "Blazer Navy"
   },
   "address_info": {
     "name": "Ingoa",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Te nama whare",
     "building_unit": "Waeine",
     "postcode": "Waehere poutāpeta",
-    "note": "Tuhipoka"
+    "note": "Tuhipoka",
+    "county": "Kaute"
   },
   "product_types": {
     "physical": "Tinana",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Tae",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Maamaa",
       "selective": "Whiriwhiri",
-      "switch": "Whakawhiti"
-    }
+      "switch": "Whakawhiti",
+      "file": "Kōnae",
+      "number": "Tau"
+    },
+    "placeholder_input": "Kaipupuri",
+    "file_type_input": "Momo kōnae e whakaaetia ana",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Ingoa Hua",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Whakauruhia to waea pūkoro",
     "verification_code": "Waehere manatoko",
     "msg_title": "Kia ora,",
-    "msg_body": "Takiuru koa. He hēkona noa iho."
+    "msg_body": "Takiuru koa. He hēkona noa iho.",
+    "login_apple": "Takiuru me Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Kua taapirihia nga tohu"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Tino uaua",
+    "hard": "pakeke",
+    "intermediate": "Takawaenga",
+    "easy": "Māmā"
   }
 };

@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Produkte të ngjashme",
     "price": "Çmimi",
     "rate": "Vlerësoni",
-    "comment": "Komentoni"
+    "comment": "Komentoni",
+    "warranty": "Garancia",
+    "return_policy": "Politika e Kthimit",
+    "guide": "Udhëzues",
+    "shipping": "Transporti"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Porosia juaj u bë me sukses.",
       "delete_success": "Artikulli u fshi."
-    }
+    },
+    "select_address_message": "Ju lutemi shkruani adresën tuaj dhe më pas mund të dorëzoni porosinë."
   },
   "hyper": {
     "title": "Krijimi i porosisë",
@@ -541,5 +546,19 @@ export default {
       "message": "Ju keni specifikuar një tarifë për këtë artikull. Ju mund të ndryshoni shumën e tarifës për artikullin e blerë nga klienti.",
       "charge": "Ngarkimi"
     }
+  },
+  "check_access": {
+    "waiting_message": "Në pritje për të kontrolluar qasjen...",
+    "no_access_message": "Fatkeqësisht, ju nuk keni akses në dyqanin tonë.<br/> Ju lutem na kontaktoni."
+  },
+  "share_order": {
+    "action": "Ndani porosinë",
+    "title": "Ndani këtë porosi me të tjerët.",
+    "message": "Është një lidhje e sigurt, ndajeni vetëm me ata që njihni. Të gjithë me këtë lidhje mund të kopjojnë porosinë tuaj dhe të shohin adresën e zgjedhur. Ai do të përmbajë informacione për karrocën tuaj aktuale.",
+    "valid_period": "Kjo lidhje do të skadojë pas 48 orësh.",
+    "import_order_action": "Urdhër importi",
+    "retrieve_dialog_title": "Merr porosinë e jashtme",
+    "address_included": "Ndani artikujt e shportës + Adresën",
+    "address_excluded": "Ndani vetëm artikujt e shportës"
   }
 };

@@ -155,7 +155,19 @@ export default {
       "Setup": "kantin sayar da",
       "Sell": "Talla & Talla",
       "Developer": "Ci gaba",
-      "Application": "Aikace-aikace"
+      "Application": "Aikace-aikace",
+      "Product": "Sarrafa Samfura & Rukunoni",
+      "Blog": "CMS & Blog",
+      "Order": "Cibiyar Cika oda",
+      "Channel": "Tashoshin tallace-tallace",
+      "Accounting": "Lissafi & Hanyoyin Biyan Kuɗi",
+      "Incentives": "Ƙarfafawa",
+      "Marketing": "Talla & Kamfen",
+      "Logistic": "Logistic & jigilar kaya",
+      "Customers": "Ƙungiyar Abokan Ciniki & Rarraba",
+      "Page": "Saukowa & Shafukan Al'ada",
+      "Access": "Gudanar da Samun Ma'aikata / API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Ma'ajiyar Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Stores",
       "roles": "Matsayi",
       "home": "Gida",
-      "expert": "Gwani"
+      "expert": "Gwani",
+      "deals": "Ma'amaloli",
+      "providers": "Masu bayarwa"
     },
     "shops": {
       "create_new": "Ƙirƙiri sabon shago",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Matsayi",
           "created_at": "Kwanan Halitta",
           "updated_at": "Sabuntawa ta ƙarshe"
-        }
+        },
+        "subtitle": "Rubuta labarai tare da editan layi na zamani don gabatar da kanku da kasuwancin ku. Abun ciki na asali shine abu na farko da kuke buƙatar mayar da hankali kan lokacin rubuta ingantaccen gidan yanar gizo na abokantaka na SEO."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Rahoton",
         "tax": "Haraji",
         "drop_shipping": "Rasitun mai siyarwa",
-        "reseller_accounts": "Asusun mai siyarwa"
+        "reseller_accounts": "Asusun mai siyarwa",
+        "valuations": "Ƙimar ƙima"
       },
       "invoice": {
         "title": "Shagon Wallets masu alaƙa",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Jirgin ruwa",
         "inventory": "Kaya",
         "warehouse": "Warehouse",
-        "logistic_apps": "Dabarun dabaru"
+        "logistic_apps": "Dabarun dabaru",
+        "profiles": "Bayanan martaba"
       },
       "warehouse": {
         "title": "Store Warehouse",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Mafi ƙarancin farashi don jigilar kaya kyauta",
           "notifications": {
             "update_success": "An kammala saitunan sabis na jigilar kaya cikin nasara."
-          }
+          },
+          "shipping_cost_calculation": "Lissafin farashin jigilar kaya",
+          "sod_true": "Sami farashin jigilar kaya akan inda ake nufi",
+          "sod_true_message": "Tabbatar cewa sabis ɗin jigilar kaya ya karɓi farashin jigilar kaya akan inda ake nufi.",
+          "sod_false": "Lissafin farashin jigilar kaya ta atomatik",
+          "cod_true": "Karɓi tsabar kuɗi lokacin bayarwa",
+          "cod_false": "Karɓi biyan kuɗi akan layi kawai",
+          "cod_true_message": "Tabbatar cewa sabis ɗin jigilar kaya ya karɓi COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "Imel",
         "domain": "Yankin",
-        "verifications": "Tabbatarwa"
+        "verifications": "Tabbatarwa",
+        "flow": "Yawo",
+        "business_model": "Samfurin Kasuwanci"
       },
       "delete_dialog": {
         "title": "Share Store",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Naúrar samfur",
       "unit_float": "Naúrar iyo (nan ba da jimawa ba)",
       "unit_float_hint": "Misali, abokin ciniki na iya yin odar kilogiram 3 na 'ya'yan itace, amma adadin da aka aika wa abokin ciniki ya ɗan bambanta da adadin da aka umarce.",
-      "unit_float_message": "Yayin sarrafa oda, adadin da aka kawo zai iya bambanta da adadin da aka umarce. Tsarin yana lissafin wannan bambanci ta atomatik kuma ya rubuta shi azaman bashin ku ga abokin ciniki, wanda za'a iya amfani da shi zuwa umarni na gaba."
+      "unit_float_message": "Yayin sarrafa oda, adadin da aka kawo zai iya bambanta da adadin da aka umarce. Tsarin yana lissafin wannan bambanci ta atomatik kuma ya rubuta shi azaman bashin ku ga abokin ciniki, wanda za'a iya amfani da shi zuwa umarni na gaba.",
+      "status_list": {
+        "active": {
+          "title": "Mai aiki | Kan layi & Kasuwancin Wasa",
+          "description": "Wannan samfurin zai kasance don yin odar kan layi."
+        },
+        "inactive": {
+          "title": "Ba aiki | Tallace-tallacen Wajen Layi Kawai",
+          "description": "Wannan samfurin ba zai kasance don yin odar kan layi ba."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Bincike",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Zaɓi lokacin ƙarshe",
       "independent_price": "Farashin kawai don wannan bambance-bambancen",
       "same_price": "Farashin don babban samfurin",
-      "variant_pricing_message": "Ta zaɓar wannan zaɓi, ana iya saita farashin wannan bambance-bambancen ba tare da babban samfur ba."
+      "variant_pricing_message": "Ta zaɓar wannan zaɓi, ana iya saita farashin wannan bambance-bambancen ba tare da babban samfur ba.",
+      "price_label_input": "Alamar farashi",
+      "price_label_message": "Ƙara ƙarin bayani game da farashi kamar ($ 1.5/Fl Oz). Amfani da lokuta: kayan abinci, FMCG.",
+      "add_price_label_action": "Ƙara alamar farashi"
     },
     "inputs_edit": {
       "title": "Siffar Shigar da Bayanin Mai siye",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Ƙofar {gateway_name} an gyara."
     },
-    "developer_setting": "Haɓaka & Gwaji"
+    "developer_setting": "Haɓaka & Gwaji",
+    "live_mode_message": "Duk ma'amaloli za su kasance cikin yanayin rayuwa."
   },
   "gift_card": {
     "title": "Katunan Kyauta",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Adireshin lissafin da mai siye ya gyara.",
     "payment-cod-confirm": "An tabbatar da Biyan COD.",
     "payment-cash-confirm": "An tabbatar da biyan kuɗin {amount} {currency} a cikin tsabar kuɗi don lissafin.",
-    "payment-dir-confirm": "An tabbatar da takardar biyan kuɗi kai tsaye."
+    "payment-dir-confirm": "An tabbatar da takardar biyan kuɗi kai tsaye.",
+    "vendor": "Yanayin odar mai siyarwa ya canza daga <b>{from}</b> zuwa <b>{to}</b> .",
+    "connect-sync": "Haɗin OS ya daidaita oda.",
+    "connect-shipped": "An aika da odar haɗin kai ta {shipping}.",
+    "connect-returned": "An dawo da odar haɗin kai ta {shipping}.",
+    "connect-failed": "Abokin tarayya ya gaza cika oda. {reason}",
+    "connect-canceled": "Abokin tarayya ya soke odar. {reason}",
+    "connect-action-cancel": "Neman soke oda {reason}",
+    "connect-put-hold": "An ajiye odar. {reason}",
+    "connect-remove-hold": "An cire odar daga riƙo. {reason}",
+    "connect-confirmed": "An tabbatar da odar.",
+    "email-vendor": "🔔 An aika da sanarwar imel zuwa ga <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Yau",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Yi Kudi",
     "menu": {
       "plans": "Shirye-shirye",
-      "accounts": "Asusu"
+      "accounts": "Asusu",
+      "participant": "Mahalarta"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Maɓallan Samun Ma'aji",
     "shop_keys_message": "Ana amfani da waɗannan maɓallan don ƙirƙirar Alamar Samun shiga ta uwar garken ku. Lura cewa maɓallan sirri ne kuma an sanya su a kan uwar garke kawai don kada wasu su ganuwa.",
     "personal_keys_title": "Maɓallan shiga na sirri",
-    "personal_keys_message": "Kuna iya ƙirƙirar maɓallan asusun ku anan. Lura cewa waɗannan maɓallan za su sami damar shiga asusunku. Ƙirƙiri kuma amfani da waɗannan maɓallan kawai idan kun san ainihin abin da kuke yi."
+    "personal_keys_message": "Kuna iya ƙirƙirar maɓallan asusun ku anan. Lura cewa waɗannan maɓallan za su sami damar shiga asusunku. Ƙirƙiri kuma amfani da waɗannan maɓallan kawai idan kun san ainihin abin da kuke yi.",
+    "clients_title": "Abokan ciniki",
+    "clients_message": "Ana amfani da waɗannan maɓallan don ƙirƙirar Alamar Samun shiga ta uwar garken ku. Lura cewa maɓallan sirri ne kuma an sanya su a kan uwar garke kawai don kada wasu su ganuwa."
   },
   "user_security_control": {
     "title": "Tsaron Asusu",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Sarrafa bayanan martaba",
       "description": "Sarrafa bayanan bayanan ajiya."
+    },
+    "shop-discount-code": {
+      "name": "Gudanar da lambar rangwame",
+      "description": "Sarrafa, gyara da ƙara lambobin rangwamen kantin sayar da kayayyaki."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Saituna",
       "change": "Caji",
       "transfer": "Canja wurin",
-      "transactions": "Ma'amaloli"
+      "transactions": "Ma'amaloli",
+      "charge": "Caji",
+      "history": "Tarihi"
     },
     "transactions": {
       "title": "Ma'amalolin Asusu",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Soke tabbacin biyan kuɗi",
       "message": "Shin kun tabbata soke wannan kuɗin shiga?",
       "action": "Soke biyan kuɗi"
-    }
+    },
+    "use_voucher_now": "Yi amfani da baucan yanzu",
+    "validity_duration": "Tsawon inganci",
+    "validity_duration_hint": "Ta hanyar siyan lasisin watanni 12, zaku sami rangwamen kashi 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Zazzage rubutun bayanai",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Manyan haruffa",
     "large_font_message": "Nuna rubutu ya fi girma fiye da na al'ada",
     "samples": "Nuna shagunan samfur",
-    "samples_message": "Idan an kunna, za a nuna wasu shagunan samfuri a cikin rukunin ku."
+    "samples_message": "Idan an kunna, za a nuna wasu shagunan samfuri a cikin rukunin ku.",
+    "automation": "Kayan aiki da kai",
+    "automation_message": "Nuna shafin sarrafa kansa a kan dashboard ɗin kanti. (Webhooks, shirye-shiryen gani, ...)"
   },
   "shop_locations": {
     "title": "Kasashen da ake ba da sabis",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "An yi nasarar goge kwafin."
-    }
+    },
+    "multiple_use": "Amfani da yawa"
   },
   "coupon_edit": {
     "title_edit": "Gyara coupon",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Iyaka",
       "description": "Saita iyaka akan iyakar adadin masu amfani."
+    },
+    "SEGMENTS": {
+      "title": "Yankuna",
+      "description": "Iyakance abokan ciniki a takamaiman yanki na hannu."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "An cire jimlar adadin odar daga katunan kyauta! Mai siye baya buƙatar ƙarin biya.",
       "cod_msg": "Abokin ciniki zai biya lokacin karbar odar.",
       "online_msg": "Tambayi abokin ciniki don duba lambar QR akan allon abokin ciniki."
-    }
+    },
+    "name": "POS",
+    "message": "Samu farashin sifilin sifilin ku akan layi na siyarwa, gudanar da shi akan kowace wayar hannu, kwamfutar hannu, da PC, ko ƙirƙirar umarni da hannu."
   },
   "exporter": {
     "title": "Fitar da bayanai",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Aika zuwa uwar garken",
     "shop_license": "lasisin siyayya",
     "max_items_limit": "Matsakaicin iyaka iyaka",
-    "total_items": "Jimlar abubuwa"
+    "total_items": "Jimlar abubuwa",
+    "customer": {
+      "title": "Shigo abokan ciniki",
+      "subtitle": "Loda fayilolin CSV na abokan ciniki nan. Tabbatar cewa kun bi daidaitaccen tsari, haka kuma, dole ne ku bi dokokin sirri."
+    }
   },
   "campaigns": {
     "title": "Yakin neman zabe",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Hanyoyin haɗi",
     "light_checkout": "Jigon dubawa mai haske",
     "light_header": "Hasken kai",
-    "light_footer": "Ƙafar haske"
+    "light_footer": "Ƙafar haske",
+    "product_page": "Shafin Samfura",
+    "typography": "Rubutun rubutu",
+    "header": "Kai",
+    "custom_code": "Lambar al'ada",
+    "custom_css": "CSS na al'ada"
   },
   "app_templates": {
     "default": "Tsohuwar",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Sarrafa sabis",
     "option_deliver_by_courier": "Zabin 1: Isar da ta masu jigilar kaya.",
     "option_add_to_que": "Zabin 2: Ƙara zuwa jerin gwano don aiki akan shafin sabis na jigilar kaya.",
-    "option_instant_shipping": "Zabin 3: jigilar kaya kai tsaye."
+    "option_instant_shipping": "Zabin 3: jigilar kaya kai tsaye.",
+    "pickup_action": "Tabbatar da karba"
   },
   "shop_home_edit": {
     "title": "Saitin shafin gida",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "An ƙara samfurin zuwa kantin sayar da ku.",
       "request_access": "Mun aika da buƙatar samun damar ku ga dillalan cikin nasara."
-    }
+    },
+    "show_eligible_shops_message": "Nuna shagunan da suka cancanta"
   },
   "product_dropshipping": {
     "need_re_enable": "Asalin mai siyar ya canza wannan samfurin, waɗannan canje-canjen farashin sun kashe samfurin a cikin shagon ku. Bincika canje-canje kuma idan kun yarda don sake kunna samfurin, danna maɓallin da ke ƙasa.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Babu wani nau'i a cikin kantin sayar da ku.",
       "limit": "Iyakar samfuran",
       "limit_message": "Shigar da ƙididdige sakamakon samfuran",
-      "select_categories": "Zaɓi nau'ikan da ke akwai"
+      "select_categories": "Zaɓi nau'ikan da ke akwai",
+      "categories_limit": "Iyakar rukuni",
+      "categories_limit_msg": "Shigar da matsakaicin adadin rukunoni. Saita sifili don babu iyaka."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avocado an sabunta shi cikin nasara.",
       "add_success": "Avocado ya ƙirƙira cikin nasara."
-    }
+    },
+    "name": "Avocado"
   },
   "avocado_orders": {
     "title": "Avocado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "mara aiki",
     "active_message": "Idan kun kunna wannan zaɓi, za a nuna yuwuwar ƙirƙirar Lambobin Sayar da Sauri a cikin sashin sarrafa kowane samfur.",
     "hyper_form_link_message": "mahaɗin babban shafi na kantin sayar da ku",
-    "configuration": "Babban Saituna"
+    "configuration": "Babban Saituna",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Demography na abokan ciniki",
     "subtitle": "Tace da fitar da bayanan abokan cinikin ku don yin mafi kyawun yanke shawara don sadar da ƙarin ƙima tare da ƙarancin talla! Da fatan za a mutunta sirrin abokan cinikin ku kuma kada ku aika musu da saƙon saƙo mai yawa! Kada ku taɓa raba bayanan abokan cinikin ku tare da sabis na ɓangare na uku ba tare da samun izini daga kowane ɗayansu ba."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Adireshin karba",
+      "subtitle": "Ƙara ku gyara adiresoshin karban kuɗi a nan. Masu amfani za su iya zaɓar adreshin ɗauka a kan shafin biya.",
+      "add_action": "Ƙara sabon wuri"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Alamar POS",
+    "open_pos_action": "POS mai sauri",
+    "description": "Wannan zaɓin ya dace da admins na shafukan Instagram da sauran hanyoyin sadarwar zamantakewa. Yi amfani da Affiliate POS don karɓa da ƙara umarni daga abokan ciniki da hannu. Abokan haɗin gwiwar ku (ko ikon ikon mallakar ikon mallakar ikon mallakar ikon mallakar ikon mallakar ikon mallaka) na iya ƙara sabbin umarni a cikin Affiliate POS kuma su loda takardar ajiya."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Hanyoyin shiga",
+      "subtitle": "Keɓance hanyar da masu amfani ke shiga shagon ku."
+    },
+    "checkout": {
+      "title": "Duba kwarara",
+      "subtitle": "Keɓance tafiyar abokin cinikin ku da kwararar siyayya a cikin ecommerce ɗin ku.",
+      "map": {
+        "title": "Taswira",
+        "subtitle": "Dole ne masu amfani su zaɓi wurin isarwa akan taswira (kamar Uber).",
+        "subtitle_no_map": "Nisa a lissafin jigilar kaya yana ɗaukar sifili idan wurin babu wurin a adireshin da aka bayar na abokin ciniki."
+      },
+      "mode": {
+        "title": "Wurin shiga abokan ciniki",
+        "default": {
+          "title": "ASAP (Tsoffin)",
+          "msg": "Masu amfani suna shiga da wuri-wuri. (Ƙarin juyawa)"
+        },
+        "on_checkout": {
+          "title": "A kan biya",
+          "msg": "Tilasta masu amfani da su shiga a matakin biya."
+        },
+        "login_free": {
+          "title": "Shiga na zaɓi",
+          "msg": "Shiga na zaɓi bayan biyan oda.."
+        }
+      },
+      "express": {
+        "title": "Juya kai bayan ƙara zuwa cart",
+        "false": {
+          "title": "Yanayin al'ada",
+          "msg": "Tsaya akan shafin kuma ci gaba da siyayya bayan danna ƙara zuwa cart."
+        },
+        "true": {
+          "title": "Yanayin magana",
+          "msg": "Miyar da abokin ciniki zuwa shafin biya bayan danna ƙara zuwa cart."
+        }
+      },
+      "shipping_address": {
+        "title": "Nemi adireshin jigilar kaya"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Jiki & Sabis (Tsoffin)",
+      "desc": "Tambayi abokin ciniki don shigar da adireshi a cikin wuraren dubawa na zahiri da na sabis."
+    },
+    "physical": {
+      "title": "Jiki Kawai",
+      "desc": "Tambayi abokin ciniki don shigar da adireshi kawai a cikin wurin biya na zahiri."
+    },
+    "off": {
+      "title": "Taba",
+      "desc": "Kar a taɓa tambayar adireshin jigilar kaya. ⚠ Yi amfani da wannan zaɓin idan kuna shirin samun sabis tare da bambance-bambancen ta zaɓi nau'in jiki don samfuran maimakon nau'in sabis."
+    }
+  },
+  "business_model": {
+    "title": "Saitin tsarin kasuwanci",
+    "subtitle": "Saita samfurin kasuwancin ku, kuma za mu daidaita OS ɗinku a bayan fage."
+  },
+  "business_type": {
+    "title": "Ire-iren kayayyaki",
+    "subtitle": "Saita nau'in samfuran da kuke son siyarwa a cikin shagon ku. Nau'in samfura a cikin Selldone sun fi nau'in samfuran kawai; ya fi game da tsarin cikawa.",
+    "send_activation_request_to_support": "Aika buƙatar kunnawa a cikin tikitin tallafi.",
+    "require_kyc": "Mai kasuwanci KYC.",
+    "needs_enterprise_license": "Kuna buƙatar samun lasisin Kasuwanci.",
+    "marketplace_caution_message": "Saita Wurin Kasuwa kamar yadda samfurin ku ya shafi tsarin kasuwancin ku na OS. Misali, dole ne ka ayyana aƙalla mai siyarwa ɗaya don kowane samfur tare da farashi mai zaman kansa da ƙira. Abokan ciniki ba za su iya siyan samfuran da ba su da mai siyarwa."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Store na al'ada",
+      "desc": "Yawanci SME, kasuwancin gida, ko mai jigilar kaya - wanda ke siyar da samfuran su kai tsaye ga abokan ciniki ko siyar da samfuran dillalai azaman mai siyarwa."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Kiyaye babu samfuri kuma babu kaya - kuna biyan kuɗi ga wani ɓangare na uku, yawanci dillali (kamar Printify, Wholesale2B, ...) ko masana'anta, kuma suna cika umarni a bayan fage."
+    },
+    "wholesaler": {
+      "title": "Mai Bayarwa Dropshipping",
+      "desc": "Galibi dillali ko masana'anta - wanda ke aikawa da oda kai tsaye zuwa ga mabukaci na ƙarshe. Sauran 'yan kasuwa a kan Selldone na iya jigilar samfuran ku a cikin shagunan su."
+    },
+    "marketplace": {
+      "title": "Kasuwa",
+      "desc": "Kasuwannin kan layi suna haɗa masu siye da masu siyarwa akan dandamali na mallakar mallaka da na tsakiya."
+    },
+    "franchise": {
+      "title": "Franchise/Affiliate",
+      "desc": "Faranci hanya ce ta rarraba samfura ko ayyuka da suka haɗa da franchisor wanda ya kafa alamar ku (Faransa) ko siyar da samfuran ku ta alamar su (Affiliate)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Wallets",
+    "pricing_models": "Farashi",
+    "add_vendor": "Ƙara mai siyarwa",
+    "requests": "Bukatu"
+  },
+  "price_input_type": {
+    "title": "Nau'in shigar da farashi",
+    "default": {
+      "title": "Tsohuwar",
+      "desc": "Zaɓi ƙima azaman adadin da ke cikin keken."
+    },
+    "area": {
+      "title": "Yanki",
+      "desc": "Shigar da faɗi da tsayi azaman abubuwan shigarwa don ƙididdige adadin."
+    },
+    "volume": {
+      "title": "girma",
+      "desc": "Shigar da faɗi, tsayi, da tsayi azaman abubuwan shigar don ƙididdige adadin."
+    },
+    "custom": {
+      "title": "Custom (Ta hanyar shigar da form)",
+      "desc": "Babu buƙatar ɗaruruwan bambance-bambancen! Ƙirƙiri fom ɗin lissafin farashi na al'ada don samfuran da za a iya daidaita su sosai."
+    }
+  },
+  "vendors_list": {
+    "title": "Dillalai na",
+    "message": "Jerin dillalai na."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Haɗa yankuna da yawa zuwa OS ɗin kasuwancin ku kuma sarrafa duka a wuri ɗaya. Kuna iya amfani da fasalin yankuna da yawa don ƙirƙirar wuraren sadaukarwa ga kowane ɓangaren gidan yanar gizon ku, kamar blog da al'umma, ko amfani da yankuna daban-daban don haɗin gwiwar ku."
+  },
+  "notes": {
+    "add_action": "Ƙara rubutu don ƙungiyar ku",
+    "notifications": {
+      "success_add": "An ƙara bayanin kula cikin nasara.",
+      "success_delete": "An yi nasarar goge bayanin kula."
+    }
+  },
+  "external_services": {
+    "title": "Ayyuka na waje",
+    "subtitle": "Saka idanu na ƙarshe na sabis na waje kamar SMS da imel a nan."
   }
 };

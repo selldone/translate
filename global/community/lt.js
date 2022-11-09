@@ -65,7 +65,9 @@ export default {
     "my_feed": "Aš",
     "blocked_message": "Esate užblokuotas iki",
     "reported": "Pranešta",
-    "report": "Pranešimas"
+    "report": "Pranešimas",
+    "post": "Įrašas",
+    "attach_file": "Pridėti failą"
   },
   "invite_message": "{user} pakvietė jus į forumą {community}. Spustelėkite toliau esančią nuorodą, kad perskaitytumėte savo draugų pastebėjimus ir pasidalykite savo nuomone su jais. Laukiu tavęs.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Pašalinti apklausą",
     "take_screenshot": "Imk kaip priedangą",
     "take_link_msg": "Pasukite nuorodą čia ir įveskite",
-    "eligible_title": "Veiksmai, skirti norint paskelbti"
+    "eligible_title": "Veiksmai, skirti norint paskelbti",
+    "public": "Viešas"
   },
   "tips": {
     "verify_email": "Įveskite ir patvirtinkite savo el.",

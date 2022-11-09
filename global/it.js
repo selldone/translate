@@ -558,7 +558,52 @@ export default {
     "merchant": "Mercante",
     "per_product": "Per prodotto",
     "journey": "Viaggio",
-    "after": "Dopo"
+    "after": "Dopo",
+    "waiting_for_payment": "Si prega di completare il pagamento...",
+    "hour": "Ora",
+    "minute": "Minuto",
+    "premium": "Premium",
+    "light": "Leggero",
+    "dark": "Buio",
+    "guest": "Ospite",
+    "shops": "I negozi",
+    "vendor": "Venditore",
+    "vendors": "Fornitori",
+    "marketplace": "Mercato",
+    "verify_date": "Verifica la data",
+    "note": "Nota",
+    "panel": "Pannello",
+    "removed": "RIMOSSO",
+    "segments": "Segmenti",
+    "personal_info": "Informazioni personali",
+    "preferences": "Preferenze",
+    "spec": "Spec",
+    "reviews": "Recensioni",
+    "constraints": "Vincoli",
+    "flexible": "Flessibile",
+    "usage_limit": "Limite di utilizzo",
+    "temporary": "Temporaneo",
+    "original": "Originale",
+    "saved": "Salvato!",
+    "sort": "Ordinare",
+    "documents": "Documenti",
+    "document": "Documento",
+    "please_wait": "Attendere prego...",
+    "pickup": "Raccogliere",
+    "customize": "personalizzare",
+    "difficulty": "Difficoltà",
+    "banned": "Vietato",
+    "company": "Azienda",
+    "tax_shipping": "Tasse di spedizione",
+    "warranty": "Garanzia",
+    "return_policy": "Politica di ritorno",
+    "guide": "Guida",
+    "translate": "Tradurre",
+    "public": "Pubblico",
+    "deleted": "Eliminato",
+    "variant": "Variante",
+    "secure": "Sicuro",
+    "admin": "amministratore"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Segui",
     "change_state": "Cambia stato",
     "done": "Fatto",
-    "reply": "rispondi"
+    "reply": "rispondi",
+    "watch_now": "Guarda ora",
+    "unlock": "Sbloccare",
+    "lock": "Serratura",
+    "create_clone": "Crea clone",
+    "regenerate": "Rigenerare",
+    "add_message": "Aggiungi un messaggio",
+    "continue_chat": "Continua la chat",
+    "add_new_message": "Aggiungi nuovo messaggio"
   },
   "instance_message_title": "Invia messaggio istantaneo",
   "instance_message": "Ciao {name}, mi chiamo {author} di {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Codice postale",
     "enter_value": "inserisci dato",
     "address_note": "Nota",
-    "tel": "Numero di telefono"
+    "tel": "Numero di telefono",
+    "service_address": "Seleziona il tuo indirizzo"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "libbre",
     "quarti",
     "iarde",
-    "spazio"
+    "spazio",
+    "secondi",
+    "minuti",
+    "ore",
+    "giorni",
+    "settimane",
+    "mesi",
+    "anni"
   ],
   "region_types": {
     "State": "Stato",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "La lunghezza minima deve essere {length}",
     "invalid_min_array_length": "Almeno seleziona {length} elementi",
     "invalid_max_chars": "Massimo {maxCount} caratteri",
-    "invalid_url": "URL non valido"
+    "invalid_url": "URL non valido",
+    "country_invalid": "Seleziona il paese di destinazione!",
+    "postal_code_invalid": "Imposta codice postale valido!"
   },
   "colors": {
     "#D32F2F": "Rosso",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Bianco",
     "#FFF": "Bianco",
     "#000000": "Nero",
-    "#000": "Nero"
+    "#000": "Nero",
+    "#7d263a": "Marrone",
+    "#FD9F17": "Oro",
+    "#229DBF": "Acqua",
+    "#6DC9E2": "Acqua Triblend",
+    "#413B2D": "Esercito",
+    "#474747": "Asfalto",
+    "#E6195C": "Bacca",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Arancia bruciata",
+    "#80011F": "Cardinale",
+    "#382829": "Cioccolato",
+    "#F06336": "Corallo",
+    "#FAE7C9": "Crema",
+    "#6B2257": "Ribes",
+    "#222127": "Grigio scuro",
+    "#0D5A74": "Alzavola",
+    "#00582F": "Sempreverde",
+    "#214C30": "foresta",
+    "#DC2867": "Fucsia",
+    "#38561": "Kelly",
+    "#5C884D": "Foglia",
+    "#558450": "Acqua chiara",
+    "#96B5C9": "Azzurro",
+    "#DCAFCE": "Lilla",
+    "#D3E1A4": "Lime",
+    "#9DE7C2": "menta",
+    "#F6EAD2": "Naturale",
+    "#1A1F35": "Marina Militare",
+    "#404624": "Oliva",
+    "#271020": "Prugna",
+    "#A8355C": "Lampone",
+    "#D6BEA6": "Crema morbida",
+    "#BEA994": "Abbronzatura",
+    "#0DB2AE": "Alzavola",
+    "#A86EA9": "Viola",
+    "#36454F": "Carbone",
+    "#b3b0ab": "grigio carbonio",
+    "#463e3d": "Erica di carbone",
+    "#282d3c": "Blazer blu scuro"
   },
   "address_info": {
     "name": "Nome",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Numero di edificio/interno",
     "building_unit": "Unità",
     "postcode": "Codice postale",
-    "note": "Note"
+    "note": "Note",
+    "county": "contea"
   },
   "product_types": {
     "physical": "Fisico",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Colore",
@@ -1067,10 +1174,8 @@ export default {
     "pickup_description": "I clienti ritirano gli articoli presso il tuo negozio fisico o magazzino."
   },
   "article": {
-
     "login_to_see_error": "Effettua l'accesso vedere l'errore",
     "create_new_action": "Crea nuovo contenuto",
-
     "menu_title": "Menù",
     "menu": {
       "edit": "Modalità Modifica",
@@ -1244,8 +1349,13 @@ export default {
     "types": {
       "simple": "Semplice",
       "selective": "Selettivo",
-      "switch": "Interruttore"
-    }
+      "switch": "Interruttore",
+      "file": "File",
+      "number": "Numero"
+    },
+    "placeholder_input": "Segnaposto",
+    "file_type_input": "Tipi di file accettabili",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "nome del prodotto",
@@ -1490,20 +1600,16 @@ export default {
     "Friday": "Venerdì"
   },
   "payment_form": {
-
     "title": "scegli il metodo di pagamento",
     "gift_cards_input": "Inserisci Gift Cards",
     "gift_cards_input_empty": "Nessuna Gift Card trovata..",
     "more": "Altro",
     "pay_amount_by_gift_cards": "Paga con Gift Card",
-
     "select_payment_method": "Scegli il tuo metodo di pagamento tra le seguenti opzioni.",
     "payment_amount_remained": "Importo mancante",
     "payment_amount": "Importo pagato",
     "all_paid_by_gift_cards": "Congratulazioni, non è necessario pagare per questo ordine. Premi il tasto Paga con Gift Card.",
-
     "pay_by_gift_cards_action": "Paga l'ordine con Gift Card",
-
     "order_free_payment": "Congratulazioni, il tuo ordine è gratuito!",
     "order_free_payment_action": "Ordina ora gratuitamente",
     "qr": {
@@ -1556,7 +1662,8 @@ export default {
     "mobile_input": "Inserisci il tuo cellulare",
     "verification_code": "Codice di verifica",
     "msg_title": "Ciao,",
-    "msg_body": "Effettua l'accesso in pochi secondi."
+    "msg_body": "Effettua l'accesso in pochi secondi.",
+    "login_apple": "Accedi con Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1779,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Tag aggiunti"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Molto complicato",
+    "hard": "Difficile",
+    "intermediate": "Intermedio",
+    "easy": "Facile"
   }
 };

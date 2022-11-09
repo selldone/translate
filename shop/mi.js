@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Hua e pa ana",
     "price": "Utu",
     "rate": "Reiti",
-    "comment": "Kōrero"
+    "comment": "Kōrero",
+    "warranty": "Pūtāhui",
+    "return_policy": "Kaupapa Whakahoki",
+    "guide": "Arataki",
+    "shipping": "Te tuku"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "I tutuki pai to ota.",
       "delete_success": "Kua mukua te taonga."
-    }
+    },
+    "select_address_message": "Whakauruhia to waahi noho, katahi ka taea e koe te tuku i te ota."
   },
   "hyper": {
     "title": "Te hanga ota",
@@ -541,5 +546,19 @@ export default {
       "message": "Kua tohua e koe he utu mo tenei mea. Ka taea e koe te whakarereke i te utu utu mo te taonga i hokona e te kaihoko.",
       "charge": "Te utu"
     }
+  },
+  "check_access": {
+    "waiting_message": "E tatari ana ki te taki uru...",
+    "no_access_message": "Kia aroha mai, kaore koe e uru ki to maatau toa.<br/> Tena koa whakapā mai."
+  },
+  "share_order": {
+    "action": "Ota tiri",
+    "title": "Tuhia tenei ota ki etahi atu.",
+    "message": "He hononga haumaru, tohatoha noa ki te hunga e mohio ana koe. Ka taea e nga tangata katoa kei tenei hono te taarua i to ota ka kite i te wahitau kua tohua. Kei roto nga korero mo to kaata o naianei.",
+    "valid_period": "Ka pau tenei hononga i muri i nga haora 48.",
+    "import_order_action": "Tono kawemai",
+    "retrieve_dialog_title": "Tikina te raupapa o waho",
+    "address_included": "Tiria nga taonga kete + Wāhitau",
+    "address_excluded": "Tiria noa nga taonga kete"
   }
 };

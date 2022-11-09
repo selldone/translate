@@ -105,7 +105,11 @@ export default {
     "related_products_title": "produk patali",
     "price": "Harga",
     "rate": "Meunteun",
-    "comment": "mairan"
+    "comment": "mairan",
+    "warranty": "Garansi",
+    "return_policy": "Kabijakan pamulangan",
+    "guide": "Pituduh",
+    "shipping": "Balanja"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Pesenan anjeun suksés disimpen.",
       "delete_success": "Item dihapus."
-    }
+    },
+    "select_address_message": "Punten lebetkeun alamat anjeun, teras anjeun tiasa ngalebetkeun pesenan."
   },
   "hyper": {
     "title": "Nyiptakeun pesenan",
@@ -541,5 +546,19 @@ export default {
       "message": "Anjeun parantos netepkeun biaya pikeun item ieu. Anjeun tiasa ngarobih jumlah muatan pikeun barang anu dipésér ku nasabah.",
       "charge": "muatan"
     }
+  },
+  "check_access": {
+    "waiting_message": "Nungguan mariksa aksés...",
+    "no_access_message": "Hanjakal, anjeun teu boga aksés ka toko kami.<br/> Mangga ngahubungan kami."
+  },
+  "share_order": {
+    "action": "Bagikeun pesenan",
+    "title": "Bagikeun pesenan ieu ka batur.",
+    "message": "Ieu mangrupikeun tautan anu aman, ngan ukur bagikeun ka anu anjeun terang. Saha waé anu gaduh tautan ieu tiasa nyalin pesenan anjeun sareng ningali alamat anu dipilih. Bakal ngandung inpormasi ngeunaan karanjang anjeun ayeuna.",
+    "valid_period": "Tautan ieu bakal kadaluwarsa saatos 48 jam.",
+    "import_order_action": "pesenan impor",
+    "retrieve_dialog_title": "Meunangkeun urutan éksternal",
+    "address_included": "Bagikeun barang karanjang + Alamat",
+    "address_excluded": "Bagikeun ukur barang karanjang"
   }
 };

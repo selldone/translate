@@ -558,7 +558,52 @@ export default {
     "merchant": "סוחר",
     "per_product": "פּער פּראָדוקט",
     "journey": "נסיעה",
-    "after": "נאָך"
+    "after": "נאָך",
+    "waiting_for_payment": "ביטע פאַרענדיקן צאָלונג ...",
+    "hour": "שעה",
+    "minute": "מינוט",
+    "premium": "פּרעמיום",
+    "light": "ליכט",
+    "dark": "טונקל",
+    "guest": "גאַסט",
+    "shops": "קלייטן",
+    "vendor": "פאַרקויפער",
+    "vendors": "ווענדאָרס",
+    "marketplace": "מאַרקעטפּלאַסע",
+    "verify_date": "באַשטעטיקן דאַטע",
+    "note": "נאטיץ",
+    "panel": "טאַפליע",
+    "removed": "אַוועקגענומען",
+    "segments": "סעגמאַנץ",
+    "personal_info": "פערזענלעכע אינפֿאָרמאַציע",
+    "preferences": "פּרעפֿערענצן",
+    "spec": "ספּעק",
+    "reviews": "באריכטן",
+    "constraints": "קאַנסטריינץ",
+    "flexible": "פלעקסאַבאַל",
+    "usage_limit": "באַניץ שיעור",
+    "temporary": "צייטווייליגע",
+    "original": "אָריגינעל",
+    "saved": "געראטעוועט!",
+    "sort": "סאָרט",
+    "documents": "דאָקומענטן",
+    "document": "דאָקומענט",
+    "please_wait": "ביטע ווארט...",
+    "pickup": "הייב אויף",
+    "customize": "קאַסטאַמייז",
+    "difficulty": "שוועריקייט",
+    "banned": "באַנד",
+    "company": "פירמע",
+    "tax_shipping": "שיפּינג טאַקס",
+    "warranty": "וואָראַנטי",
+    "return_policy": "צוריקקומען פּאָליטיק",
+    "guide": "גייד",
+    "translate": "איבערזעצן",
+    "public": "עפנטלעך",
+    "deleted": "אויסגעמעקט",
+    "variant": "וואַריאַנט",
+    "secure": "זיכער",
+    "admin": "אַדמין"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "שפּור",
     "change_state": "טוישן סטאַטוס",
     "done": "געטאן",
-    "reply": "ענטפער"
+    "reply": "ענטפער",
+    "watch_now": "קוק יעצט",
+    "unlock": "ופשליסן",
+    "lock": "שלאָס",
+    "create_clone": "שאַפֿן קלאָון",
+    "regenerate": "רידזשענערייט",
+    "add_message": "לייג אָנזאָג",
+    "continue_chat": "פאָרזעצן שמועסן",
+    "add_new_message": "לייג אַ נייַע אָנזאָג"
   },
   "instance_message_title": "שיקן רעגע אָנזאָג",
   "instance_message": "הי {name}, מיין נאָמען איז {author} פֿון {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "פּאָסטקאָדע",
     "enter_value": "פּלאָמבירן דאָ",
     "address_note": "נאטיץ",
-    "tel": "קאָנטאַקט נומער"
+    "tel": "קאָנטאַקט נומער",
+    "service_address": "אויסקלייַבן דיין אַדרעס"
   },
   "weight": {
     "g": "ג",
@@ -753,7 +807,14 @@ export default {
     "פונט",
     "קוואַרץ",
     "יאַרדס",
-    "צימער"
+    "צימער",
+    "סעקונדעס",
+    "מינוט",
+    "שעה",
+    "טעג",
+    "וואָכן",
+    "חדשים",
+    "יאָרן"
   ],
   "region_types": {
     "State": "שטאַט",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "מינימום לענג מוזן זיין {length}",
     "invalid_min_array_length": "אין מינדסטער אויסקלייַבן {length} זאכן",
     "invalid_max_chars": "מאַקסימום {maxCount} אותיות",
-    "invalid_url": "אומגילטיק URL"
+    "invalid_url": "אומגילטיק URL",
+    "country_invalid": "אויסקלייַבן דעסטיניישאַן לאַנד!",
+    "postal_code_invalid": "שטעלן גילטיק פּאָסטקאָד!"
   },
   "colors": {
     "#D32F2F": "רויט",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "ווייַס",
     "#FFF": "ווייַס",
     "#000000": "שוואַרץ",
-    "#000": "שוואַרץ"
+    "#000": "שוואַרץ",
+    "#7d263a": "מערון",
+    "#FD9F17": "גאָלד",
+    "#229DBF": "אַקוואַ",
+    "#6DC9E2": "אַקוואַ טריבלענד",
+    "#413B2D": "אַרמיי",
+    "#474747": "אַספאָלט",
+    "#E6195C": "יאַגדע",
+    "#B2184C": "בערי טריבלענד",
+    "#FC7F5F": "בערנט אָראַנדזש",
+    "#80011F": "קאַרדינאַל",
+    "#382829": "שאָקאָלאַד",
+    "#F06336": "קאָראַל",
+    "#FAE7C9": "קרעם",
+    "#6B2257": "קורראַנט",
+    "#222127": "טונקל גרוי",
+    "#0D5A74": "טיף טיל",
+    "#00582F": "עווערגרין",
+    "#214C30": "וואַלד",
+    "#DC2867": "פוטשסיאַ",
+    "#38561": "קעלי",
+    "#5C884D": "בלאַט",
+    "#558450": "ליכט אַקוואַ",
+    "#96B5C9": "ליכטיג בלוי",
+    "#DCAFCE": "לילאַק",
+    "#D3E1A4": "לייַם",
+    "#9DE7C2": "מינץ",
+    "#F6EAD2": "נאַטירלעך",
+    "#1A1F35": "נאַווי",
+    "#404624": "מאַסלינע",
+    "#271020": "פלוים",
+    "#A8355C": "Raspberry",
+    "#D6BEA6": "ווייך קרעם",
+    "#BEA994": "טאַן",
+    "#0DB2AE": "טיל",
+    "#A86EA9": "פיאַלקע",
+    "#36454F": "האָלצקוילן",
+    "#b3b0ab": "טשאַד גריי",
+    "#463e3d": "האָלצקוילן כעדער",
+    "#282d3c": "נאַווי בלאַזער"
   },
   "address_info": {
     "name": "נאָמען",
@@ -838,7 +940,8 @@ export default {
     "building_number": "בנין נומער",
     "building_unit": "אַפּאַראַט",
     "postcode": "פּאָסטקאָדע",
-    "note": "נאטיץ"
+    "note": "נאטיץ",
+    "county": "קאָונטי"
   },
   "product_types": {
     "physical": "פיזיש",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "פאַרב",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "פּשוט",
       "selective": "סעלעקטיוו",
-      "switch": "באַשטימען"
-    }
+      "switch": "באַשטימען",
+      "file": "טעקע",
+      "number": "נומער"
+    },
+    "placeholder_input": "אָרטהאָלדער",
+    "file_type_input": "פּאַסיק טעקע טייפּס",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "פּראָדוקט נאָמען",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "אַרייַן דיין רירעוודיק",
     "verification_code": "וועראַפאַקיישאַן קאָד",
     "msg_title": "העלא,",
-    "msg_body": "ביטע קלאָץ אין. עס נעמט נאָר אַ ביסל סעקונדעס."
+    "msg_body": "ביטע קלאָץ אין. עס נעמט נאָר אַ ביסל סעקונדעס.",
+    "login_apple": "לאָגין מיט עפּל"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "טאַגס צוגעגעבן"
     }
+  },
+  "difficulties": {
+    "very_complicated": "זייער קאָמפּליצירט",
+    "hard": "שווער",
+    "intermediate": "ינטערמידייט",
+    "easy": "לייַכט"
   }
 };

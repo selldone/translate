@@ -558,7 +558,52 @@ export default {
     "merchant": "Ceannaí",
     "per_product": "In aghaidh an táirge",
     "journey": "Turas",
-    "after": "Tar éis"
+    "after": "Tar éis",
+    "waiting_for_payment": "Críochnaigh an íocaíocht le do thoil...",
+    "hour": "Uair",
+    "minute": "Nóiméad",
+    "premium": "Préimh",
+    "light": "Solas",
+    "dark": "Dorcha",
+    "guest": "Aoi",
+    "shops": "Stórais",
+    "vendor": "Díoltóir",
+    "vendors": "Díoltóirí",
+    "marketplace": "Margadh",
+    "verify_date": "Fíoraigh an dáta",
+    "note": "Nóta",
+    "panel": "Painéal",
+    "removed": "Bhaint",
+    "segments": "Deighleoga",
+    "personal_info": "Eolas pearsanta",
+    "preferences": "Roghanna",
+    "spec": "Spec",
+    "reviews": "Léirmheasanna",
+    "constraints": "Srianta",
+    "flexible": "Solúbtha",
+    "usage_limit": "Teorainn úsáide",
+    "temporary": "Sealadach",
+    "original": "Bunaidh",
+    "saved": "Shábháil!",
+    "sort": "Sórtáil",
+    "documents": "Doiciméid",
+    "document": "Doiciméad",
+    "please_wait": "Fán le do thoil...",
+    "pickup": "Pioc suas",
+    "customize": "shaincheapadh",
+    "difficulty": "Deacracht",
+    "banned": "Cosc",
+    "company": "Cuideachta",
+    "tax_shipping": "Cáin Loingseoireachta",
+    "warranty": "Bharántas",
+    "return_policy": "Beartas um Fhilleadh",
+    "guide": "Treoraí",
+    "translate": "Aistrigh",
+    "public": "Poiblí",
+    "deleted": "Scriosta",
+    "variant": "Athrú",
+    "secure": "Slán",
+    "admin": "Riarachán"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Rian",
     "change_state": "Athrú Stádas",
     "done": "Déanta",
-    "reply": "Freagra"
+    "reply": "Freagra",
+    "watch_now": "Féach anois",
+    "unlock": "Díghlasáil",
+    "lock": "Glasáil",
+    "create_clone": "Cruthaigh clón",
+    "regenerate": "Athghin",
+    "add_message": "Cuir teachtaireacht leis",
+    "continue_chat": "Leanúint ar aghaidh ag comhrá",
+    "add_new_message": "Cuir teachtaireacht nua leis"
   },
   "instance_message_title": "Seol teachtaireacht mheandarach",
   "instance_message": "Dia duit {name}, {author} ó {company} is ainm dom.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Cód Poist",
     "enter_value": "Fill anseo",
     "address_note": "Nóta",
-    "tel": "Uimhir theagmhála"
+    "tel": "Uimhir theagmhála",
+    "service_address": "Roghnaigh do sheoladh"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "punt",
     "ceathair",
     "slat",
-    "seomra"
+    "seomra",
+    "soicind",
+    "nóiméad",
+    "uair an chloig",
+    "laethanta",
+    "seachtaine",
+    "míonna",
+    "blianta"
   ],
   "region_types": {
     "State": "Stáit",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Caithfidh an t-íosfhad a bheith {length}",
     "invalid_min_array_length": "Ar a laghad roghnaigh {length} míreanna",
     "invalid_max_chars": "Uasmhéid {maxCount} carachtair",
-    "invalid_url": "URL neamhbhailí"
+    "invalid_url": "URL neamhbhailí",
+    "country_invalid": "Roghnaigh tír chinn scríbe!",
+    "postal_code_invalid": "Socraigh cód poist bailí!"
   },
   "colors": {
     "#D32F2F": "Dearg",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Bán",
     "#FFF": "Bán",
     "#000000": "Dubh",
-    "#000": "Dubh"
+    "#000": "Dubh",
+    "#7d263a": "Marún",
+    "#FD9F17": "Óir",
+    "#229DBF": "Uisce",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Airm",
+    "#474747": "Asfalt",
+    "#E6195C": "caora",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Oráiste Dóite",
+    "#80011F": "Cairdinéal",
+    "#382829": "Seacláid",
+    "#F06336": "Coiréal",
+    "#FAE7C9": "Uachtar",
+    "#6B2257": "Currant",
+    "#222127": "Liath Dorcha",
+    "#0D5A74": "Teal domhain",
+    "#00582F": "Síorghlas",
+    "#214C30": "Foraoise",
+    "#DC2867": "Fuchsia",
+    "#38561": "Ceallaigh",
+    "#5C884D": "Duilleog",
+    "#558450": "Aqua Éadrom",
+    "#96B5C9": "Éadrom Gorm",
+    "#DCAFCE": "lilac",
+    "#D3E1A4": "Aoil",
+    "#9DE7C2": "miontas",
+    "#F6EAD2": "Nádúrtha",
+    "#1A1F35": "Cabhlach",
+    "#404624": "Ológ",
+    "#271020": "pluma",
+    "#A8355C": "sú craobh",
+    "#D6BEA6": "Uachtar Bog",
+    "#BEA994": "tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Violet",
+    "#36454F": "Gualach",
+    "#b3b0ab": "carbóin Liath",
+    "#463e3d": "Fraoch gualaigh",
+    "#282d3c": "Blazer Cabhlach"
   },
   "address_info": {
     "name": "Ainm",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Uimhir thógála",
     "building_unit": "Aonad",
     "postcode": "Cód Poist",
-    "note": "Nóta"
+    "note": "Nóta",
+    "county": "Contae"
   },
   "product_types": {
     "physical": "Fisiciúil",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Dath",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Simplí",
       "selective": "Roghnach",
-      "switch": "Athraigh"
-    }
+      "switch": "Athraigh",
+      "file": "Comhad",
+      "number": "Uimhir"
+    },
+    "placeholder_input": "Áitsealbhóir",
+    "file_type_input": "Cineálacha comhaid inghlactha",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "Ainm Táirge",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Cuir isteach do shoghluaiste",
     "verification_code": "Cód fíorúcháin",
     "msg_title": "Haigh,",
-    "msg_body": "Logáil isteach le do thoil. Ní thógann sé ach cúpla soicind."
+    "msg_body": "Logáil isteach le do thoil. Ní thógann sé ach cúpla soicind.",
+    "login_apple": "Logáil isteach le Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Clibeanna curtha leis"
     }
+  },
+  "difficulties": {
+    "very_complicated": "An-chasta",
+    "hard": "Deacair",
+    "intermediate": "Meánrang",
+    "easy": "Éasca"
   }
 };

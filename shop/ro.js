@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Îți mai recomandăm și:",
     "price": "Preț",
     "rate": "Rată",
-    "comment": "Recenzie"
+    "comment": "Recenzie",
+    "warranty": "garanție",
+    "return_policy": "POLITICA DE RETURNARE",
+    "guide": "Ghid",
+    "shipping": "livrare"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Comanda dvs. a fost plasată cu succes.",
       "delete_success": "Element șters."
-    }
+    },
+    "select_address_message": "Vă rugăm să introduceți adresa dvs. și apoi puteți trimite comanda."
   },
   "hyper": {
     "title": "Crearea comenzii",
@@ -541,5 +546,19 @@ export default {
       "message": "Ați specificat o taxă pentru acest articol. Puteți modifica valoarea taxei pentru articolul achiziționat de client.",
       "charge": "Taxează"
     }
+  },
+  "check_access": {
+    "waiting_message": "Se așteaptă verificarea accesului...",
+    "no_access_message": "Din păcate, nu aveți acces la magazinul nostru.<br/> Va rog sa ne contactati."
+  },
+  "share_order": {
+    "action": "Distribuie comanda",
+    "title": "Distribuiți această comandă altora.",
+    "message": "Este un link securizat, distribuiți-l doar celor pe care îi cunoașteți. Toți cei care au acest link vă pot duplica comanda și pot vedea adresa selectată. Acesta va conține informații despre coșul dvs. actual.",
+    "valid_period": "Acest link va expira după 48 de ore.",
+    "import_order_action": "Comanda de import",
+    "retrieve_dialog_title": "Preluați comanda externă",
+    "address_included": "Distribuie articole din coș + Adresă",
+    "address_excluded": "Distribuiți numai articolele din coș"
   }
 };

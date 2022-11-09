@@ -65,7 +65,9 @@ export default {
     "my_feed": "Ine",
     "blocked_message": "Mwaletsedwa mpaka",
     "reported": "Adanenedwa",
-    "report": "Report"
+    "report": "Report",
+    "post": "Tumizani",
+    "attach_file": "Gwirizanitsani fayilo"
   },
   "invite_message": "{user} wakuitanirani kugulu la {community}. Dinani ulalo womwe uli pansipa kuti muwerenge zomwe abwenzi anu akuwona ndikugawana nawo malingaliro anu. Ndikukuyembekezera.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Chotsani voti",
     "take_screenshot": "Tengani ngati chophimba",
     "take_link_msg": "Ulalo wakale apa ndikulowa",
-    "eligible_title": "Njira zoyenera kutumiza"
+    "eligible_title": "Njira zoyenera kutumiza",
+    "public": "Pagulu"
   },
   "tips": {
     "verify_email": "Lowetsani ndikutsimikizira imelo yanu.",

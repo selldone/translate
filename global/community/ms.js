@@ -65,7 +65,9 @@ export default {
     "my_feed": "saya",
     "blocked_message": "Anda disekat sehingga",
     "reported": "Dilaporkan",
-    "report": "Laporan"
+    "report": "Laporan",
+    "post": "Pos",
+    "attach_file": "Melampirkan fail"
   },
   "invite_message": "{user} telah menjemput anda ke forum {community}. Klik pada pautan di bawah untuk membaca pemerhatian rakan anda dan berkongsi pendapat anda dengan mereka. saya tunggu awak.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Alih keluar tinjauan pendapat",
     "take_screenshot": "Ambil sebagai perlindungan",
     "take_link_msg": "Pautan lepas di sini dan masukkan",
-    "eligible_title": "Langkah untuk layak menyiarkan"
+    "eligible_title": "Langkah untuk layak menyiarkan",
+    "public": "Awam"
   },
   "tips": {
     "verify_email": "Masukkan dan sahkan e-mel anda.",

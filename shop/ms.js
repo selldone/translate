@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Produk Berkaitan",
     "price": "harga",
     "rate": "Kadar",
-    "comment": "Komen"
+    "comment": "Komen",
+    "warranty": "Waranti",
+    "return_policy": "Syarat pengembalian",
+    "guide": "Panduan",
+    "shipping": "penghantaran"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Pesanan anda telah berjaya dibuat.",
       "delete_success": "Item dipadamkan."
-    }
+    },
+    "select_address_message": "Sila masukkan alamat anda, dan kemudian anda boleh menghantar pesanan."
   },
   "hyper": {
     "title": "Penciptaan pesanan",
@@ -541,5 +546,19 @@ export default {
       "message": "Anda telah menetapkan caj untuk item ini. Anda boleh menukar jumlah caj untuk item yang dibeli oleh pelanggan.",
       "charge": "caj"
     }
+  },
+  "check_access": {
+    "waiting_message": "Menunggu untuk menyemak akses...",
+    "no_access_message": "Malangnya, anda tidak mempunyai akses ke kedai kami.<br/> Sila hubungi kami."
+  },
+  "share_order": {
+    "action": "Kongsi pesanan",
+    "title": "Kongsi pesanan ini dengan orang lain.",
+    "message": "Ia adalah pautan selamat, hanya kongsi dengan mereka yang anda kenali. Semua orang yang mempunyai pautan ini boleh menduplikasi pesanan anda dan melihat alamat yang dipilih. Ia akan mengandungi maklumat tentang troli semasa anda.",
+    "valid_period": "Pautan ini akan tamat tempoh selepas 48 jam.",
+    "import_order_action": "Pesanan import",
+    "retrieve_dialog_title": "Dapatkan semula pesanan luaran",
+    "address_included": "Kongsi barang bakul + Alamat",
+    "address_excluded": "Kongsi barang bakul sahaja"
   }
 };

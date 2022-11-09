@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Srodni proizvodi",
     "price": "Cijena",
     "rate": "Rate",
-    "comment": "Komentar"
+    "comment": "Komentar",
+    "warranty": "Garancija",
+    "return_policy": "Politika povrata",
+    "guide": "Vodič",
+    "shipping": "Dostava"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Vaša narudžba je uspješno poslana.",
       "delete_success": "Stavka je izbrisana."
-    }
+    },
+    "select_address_message": "Molimo unesite svoju adresu, a zatim možete poslati narudžbu."
   },
   "hyper": {
     "title": "Kreiranje naloga",
@@ -541,5 +546,19 @@ export default {
       "message": "Naveli ste naknadu za ovu stavku. Možete promijeniti iznos naknade za artikl koji je kupac kupio.",
       "charge": "Napunite"
     }
+  },
+  "check_access": {
+    "waiting_message": "Čeka se provjera pristupa...",
+    "no_access_message": "Nažalost, nemate pristup našoj trgovini.<br/> Molimo kontaktirajte nas."
+  },
+  "share_order": {
+    "action": "Podijelite red",
+    "title": "Podijelite ovu narudžbu s drugima.",
+    "message": "To je sigurna veza, podijelite je samo sa onima koje poznajete. Svi sa ovim linkom mogu duplirati vašu narudžbu i vidjeti odabranu adresu. Sadržat će informacije o vašoj trenutnoj košarici.",
+    "valid_period": "Ovaj link će isteći nakon 48 sati.",
+    "import_order_action": "Narudžba za uvoz",
+    "retrieve_dialog_title": "Dohvati eksternu narudžbu",
+    "address_included": "Podijelite artikle iz korpe + Adresa",
+    "address_excluded": "Dijelite samo artikle iz korpe"
   }
 };

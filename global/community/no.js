@@ -65,7 +65,9 @@ export default {
     "my_feed": "Meg",
     "blocked_message": "Du er blokkert til",
     "reported": "Rapportert",
-    "report": "Rapportere"
+    "report": "Rapportere",
+    "post": "Post",
+    "attach_file": "Legg ved fil"
   },
   "invite_message": "{user} har invitert deg til forumet {community}. Klikk på lenken nedenfor for å lese vennenes observasjoner og dele din mening med dem. Jeg venter på deg.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Fjern avstemningen",
     "take_screenshot": "Ta som dekke",
     "take_link_msg": "Tidligere lenke her og gå inn",
-    "eligible_title": "Fremgangsmåte for å være kvalifisert til å legge ut"
+    "eligible_title": "Fremgangsmåte for å være kvalifisert til å legge ut",
+    "public": "Offentlig"
   },
   "tips": {
     "verify_email": "Skriv inn og bekreft e-posten din.",

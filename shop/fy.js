@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Relatearre produkten",
     "price": "Priis",
     "rate": "Taryf",
-    "comment": "Kommentaar"
+    "comment": "Kommentaar",
+    "warranty": "Garânsje",
+    "return_policy": "Return Policy",
+    "guide": "Gids",
+    "shipping": "Skipfeart"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Jo bestelling is mei súkses pleatst.",
       "delete_success": "Item wiske."
-    }
+    },
+    "select_address_message": "Fier jo adres yn, en dan kinne jo de bestelling yntsjinje."
   },
   "hyper": {
     "title": "Oarder oanmeitsjen",
@@ -541,5 +546,19 @@ export default {
       "message": "Jo hawwe in fergoeding oantsjutte foar dit item. Jo kinne it ladingsbedrach feroarje foar it item dat troch de klant kocht is.",
       "charge": "Kosten"
     }
+  },
+  "check_access": {
+    "waiting_message": "Wachtsje om tagong te kontrolearjen...",
+    "no_access_message": "Spitigernôch hawwe jo gjin tagong ta ús winkel.<br/> Nim dan kontakt mei ús op."
+  },
+  "share_order": {
+    "action": "Diele oarder",
+    "title": "Diel dizze bestelling mei oaren.",
+    "message": "It is in feilige keppeling, diel it allinich mei dyjingen dy't jo kenne. Elkenien mei dizze keppeling kin jo bestelling duplisearje en it selektearre adres sjen. It sil ynformaasje befetsje oer jo hjoeddeistige karre.",
+    "valid_period": "Dizze keppeling sil nei 48 oeren ferrinne.",
+    "import_order_action": "Ymportearje oarder",
+    "retrieve_dialog_title": "Eksterne oarder ophelje",
+    "address_included": "Diele basket items + Adres",
+    "address_excluded": "Diel allinnich basket items"
   }
 };

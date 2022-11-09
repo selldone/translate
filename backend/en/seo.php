@@ -169,7 +169,6 @@ return [
     'page.blogs' => ['title' => 'Blog', 'image' => '/images/seo/en/academy.jpg', 'description' => "The latest Selldone news and content."],
     'page.faqs' => ['title' => 'Frequently Asked Questions', 'image' => '/images/seo/en/faq.jpg', 'description' => "Q&A on Selldone."],
     'page.price' => ['title' => 'Price list', 'image' => '/images/seo/en/price.jpg', 'description' => "All the professional features of building a store and site for free without any time limit are waiting for you."],
-    'page.api' => ['title' => 'API', 'image' => '/images/seo/en/api.jpg', 'description' => "Web service, documentation for application development and service connected."],
 
 
     'page.apps' => ['title' => 'App store', 'image' => '/images/seo/en/apps.jpg', 'description' => "Installing applications to the store is provided for your store with just one click."],
@@ -180,10 +179,10 @@ return [
         'description' => "One amount and one title is all you need to get money from your customers! Money will be credited directly to your account and your customers will have a unique shopping experience."],
 
     // All private dashboards:
-    'shuttle' => ['title' => 'Selldone | Dashboard', 'image' => '/images/seo/en/dashboard.jpg',
+    'shuttle' => ['title' => 'Shuttle | Manage your business OS', 'image' => '/images/seo/en/dashboard.jpg',
         'description' => "Store management panel, if you have access to this store, you can enter your store management dashboard through this link."],
 
-    'shuttle-shop' => ['title' => 'Selldone | Shop Dashboard', 'image' => '/images/seo/en/shuttle-shop.jpg', 'video' => '/images/seo/en/videos/shuttle-shop.mp4',
+    'shuttle-shop' => ['title' => 'Shop Dashboard | Manage your store', 'image' => '/images/seo/en/shuttle-shop.jpg', 'video' => '/images/seo/en/videos/shuttle-shop.mp4',
         'description' => "Manage everything in your dashboard. Manage products, orders, landing page design, marketing, incentives and everything you need for a great business."],
 
 
@@ -207,7 +206,11 @@ return [
     'page.quiz' => ['title' => 'Quiz | Is the business operating system right for you?', 'image' => '/images/seo/en/quiz.png', 'description' => "If you want to know that your business need or can use a business os, before going any further, please take this 60sec quiz. If you want to know that your business need or can use a business os, before going any further, please take this 60sec quiz."],
 
 
-    'page.countries' => ['title' => 'Supported Countries and Local Payments - Business OS', 'image' => '/images/seo/en/countries.png', 'description' => " Business OS, The next evolution step of commerce services from e-commerce platforms to something with no theme, plugin, or code. 100% visually!"],
+    'page.countries' => ['title' => 'Supported Countries and Local Payments - Business OS', 'image' => '/images/seo/en/countries.png', 'description' => "Business OS, The next evolution step of commerce services from e-commerce platforms to something with no theme, plugin, or code. 100% visually!"],
+
+
+    'page.participant' => ['title' => 'The community you want — Play and Win $20', 'image' => '/images/seo/en/participants.jpg', 'description' => "You can participate in the selldone community by creating short videos to help others and get up to 20 USD gift credit per video."],
+
 
     /*
     |--------------------------------------------------------------------------

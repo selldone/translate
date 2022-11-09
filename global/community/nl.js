@@ -65,7 +65,9 @@ export default {
     "my_feed": "Mij",
     "blocked_message": "Je bent geblokkeerd tot",
     "reported": "gerapporteerd",
-    "report": "Verslag doen van"
+    "report": "Verslag doen van",
+    "post": "Na",
+    "attach_file": "Bijlage"
   },
   "invite_message": "{user} heeft je uitgenodigd voor het forum {community}. Klik op de onderstaande link om de observaties van uw vrienden te lezen en uw mening met hen te delen. Ik wacht op je.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Poll verwijderen",
     "take_screenshot": "Neem als dekking",
     "take_link_msg": "Past link hier en voer in",
-    "eligible_title": "Stappen om in aanmerking te komen om te posten"
+    "eligible_title": "Stappen om in aanmerking te komen om te posten",
+    "public": "Openbaar"
   },
   "tips": {
     "verify_email": "Voer uw e-mail in en verifieer deze.",

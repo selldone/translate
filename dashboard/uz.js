@@ -155,7 +155,19 @@ export default {
       "Setup": "do'kon",
       "Sell": "Sotish va marketing",
       "Developer": "Rivojlantiring",
-      "Application": "Ilovalar"
+      "Application": "Ilovalar",
+      "Product": "Mahsulotlar va toifalarni boshqarish",
+      "Blog": "CMS va blog",
+      "Order": "Buyurtmalarni bajarish markazi",
+      "Channel": "Savdo kanallari",
+      "Accounting": "Buxgalteriya hisobi va to'lov usullari",
+      "Incentives": "Rag'batlantirish",
+      "Marketing": "Marketing va kampaniyalar",
+      "Logistic": "Logistika va yuk tashish",
+      "Customers": "Mijozlar klubi va segmentatsiya",
+      "Page": "Ochilish va moslashtirilgan sahifalar",
+      "Access": "Xodimlar / API kirishni boshqarish",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github ombori",
@@ -193,7 +205,9 @@ export default {
       "stores": "Do'konlar",
       "roles": "Rollar",
       "home": "Uy",
-      "expert": "Mutaxassis"
+      "expert": "Mutaxassis",
+      "deals": "Shartnomalar",
+      "providers": "Provayderlar"
     },
     "shops": {
       "create_new": "Yangi do'kon yarating",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Holat",
           "created_at": "Yaratilgan sana",
           "updated_at": "Oxirgi yangilanish"
-        }
+        },
+        "subtitle": "O'zingizni va biznesingizni taqdim etish uchun zamonaviy inline muharriri bilan maqolalar yozing. Asl kontent - bu yuqori sifatli SEO-do'st blog postini yozishda e'tibor qaratishingiz kerak bo'lgan birinchi narsa."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Hisobot",
         "tax": "Soliq",
         "drop_shipping": "Sotuvchining kvitansiyalari",
-        "reseller_accounts": "Reseller hisoblari"
+        "reseller_accounts": "Reseller hisoblari",
+        "valuations": "Baholashlar"
       },
       "invoice": {
         "title": "Bog'langan hamyonlarni xarid qiling",
@@ -605,7 +621,8 @@ export default {
         "delivery": "yuk tashish; yetkazib berish",
         "inventory": "Inventarizatsiya",
         "warehouse": "Ombor",
-        "logistic_apps": "Logistika"
+        "logistic_apps": "Logistika",
+        "profiles": "Profillar"
       },
       "warehouse": {
         "title": "Do'kon ombori",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Bepul etkazib berish uchun minimal buyurtma narxi",
           "notifications": {
             "update_success": "Yetkazib berish xizmati sozlamalari muvaffaqiyatli yakunlandi."
-          }
+          },
+          "shipping_cost_calculation": "Yuk tashish narxini hisoblash",
+          "sod_true": "Belgilangan joyga etkazib berish narxini oling",
+          "sod_true_message": "Yuk tashish xizmatingiz belgilangan joyga etkazib berish narxini qabul qilishiga ishonch hosil qiling.",
+          "sod_false": "Avtomatik yuk tashish narxini hisoblash",
+          "cod_true": "Yetkazib berishda naqd pulni qabul qiling",
+          "cod_false": "Faqat onlayn to'lovni qabul qiling",
+          "cod_true_message": "Yuk tashish xizmatingiz CODni qabul qilganligiga ishonch hosil qiling."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "Elektron pochta",
         "domain": "Domen",
-        "verifications": "Tekshiruvlar"
+        "verifications": "Tekshiruvlar",
+        "flow": "Oqim",
+        "business_model": "Biznes modeli"
       },
       "delete_dialog": {
         "title": "Do'konni o'chirish",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Mahsulot birligi",
       "unit_float": "Float birligi (tez orada)",
       "unit_float_hint": "Misol uchun, mijoz 3 kg meva buyurtma berishi mumkin, ammo mijozga yuborilgan miqdor buyurtma qilingan miqdordan biroz farq qiladi.",
-      "unit_float_message": "Buyurtmani qayta ishlash jarayonida yetkazib berilgan miqdor buyurtma qilingan summadan farq qilishi mumkin. Tizim ushbu farqni avtomatik ravishda hisoblab chiqadi va uni mijoz oldidagi qarzingiz sifatida qayd etadi, bu keyingi buyurtmalarga nisbatan qo'llanilishi mumkin."
+      "unit_float_message": "Buyurtmani qayta ishlash jarayonida yetkazib berilgan miqdor buyurtma qilingan summadan farq qilishi mumkin. Tizim ushbu farqni avtomatik ravishda hisoblab chiqadi va uni mijoz oldidagi qarzingiz sifatida qayd etadi, bu keyingi buyurtmalarga nisbatan qo'llanilishi mumkin.",
+      "status_list": {
+        "active": {
+          "title": "Faol | Onlayn va oflayn savdo",
+          "description": "Ushbu mahsulot onlayn buyurtmalar uchun mavjud bo'ladi."
+        },
+        "inactive": {
+          "title": "Faol emas | Faqat oflayn savdo",
+          "description": "Ushbu mahsulot onlayn buyurtmalar uchun mavjud bo'lmaydi."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Tadqiqot",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Tugash vaqtini tanlang",
       "independent_price": "Faqat ushbu variant uchun narx",
       "same_price": "Asosiy mahsulot uchun narx",
-      "variant_pricing_message": "Ushbu variantni tanlab, ushbu variantning narxi asosiy mahsulotdan mustaqil ravishda belgilanishi mumkin."
+      "variant_pricing_message": "Ushbu variantni tanlab, ushbu variantning narxi asosiy mahsulotdan mustaqil ravishda belgilanishi mumkin.",
+      "price_label_input": "Narx belgisi",
+      "price_label_message": "($1,5/Fl Oz) kabi narx haqida qo'shimcha ma'lumot qo'shing. Foydalanish holatlari: oziq-ovqat, FMCG.",
+      "add_price_label_action": "Narx yorlig'ini qo'shing"
     },
     "inputs_edit": {
       "title": "Xaridor ma'lumotlarini kiritish shakli",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "{gateway_name} shlyuzi tahrirlangan."
     },
-    "developer_setting": "Ishlab chiqish va sinovdan o'tkazish"
+    "developer_setting": "Ishlab chiqish va sinovdan o'tkazish",
+    "live_mode_message": "Barcha tranzaktsiyalar jonli rejimda bo'ladi."
   },
   "gift_card": {
     "title": "Sovg'a kartalari",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Hisob-kitob manzili xaridor tomonidan tahrirlangan.",
     "payment-cod-confirm": "COD toʻlovi tasdiqlandi.",
     "payment-cash-confirm": "Hisob-kitob uchun {amount} {currency} naqd pulda toʻlanganligi tasdiqlandi.",
-    "payment-dir-confirm": "To'g'ridan-to'g'ri to'lov kvitansiyasi tasdiqlandi."
+    "payment-dir-confirm": "To'g'ridan-to'g'ri to'lov kvitansiyasi tasdiqlandi.",
+    "vendor": "Sotuvchi buyurtmasi holati <b>{from}</b> dan <b>{to}</b> ga o'zgartirildi.",
+    "connect-sync": "Connect OS tomonidan sinxronlangan buyurtma.",
+    "connect-shipped": "Ulanish buyurtmasi {shipping} tomonidan yuborildi.",
+    "connect-returned": "Ulanish buyurtmasi {shipping} tomonidan qaytarildi.",
+    "connect-failed": "Hamkor tomonidan buyurtma bajarilmadi. {reason}",
+    "connect-canceled": "Buyurtma sherik tomonidan bekor qilindi. {reason}",
+    "connect-action-cancel": "Buyurtmani bekor qilishni so'rash. {reason}",
+    "connect-put-hold": "Buyurtma to'xtatildi. {reason}",
+    "connect-remove-hold": "Buyurtma kutishdan olib tashlandi. {reason}",
+    "connect-confirmed": "Buyurtma tasdiqlandi.",
+    "email-vendor": "🔔 Buyurtma toʻgʻrisida maʼlumot elektron pochta manziliga yuborildi <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Bugun",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Pul topmoq",
     "menu": {
       "plans": "Rejalar",
-      "accounts": "Hisoblar"
+      "accounts": "Hisoblar",
+      "participant": "Ishtirokchi"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Kirish kalitlarini saqlash",
     "shop_keys_message": "Ushbu kalitlar serveringiz tomonidan Access tokenini yaratish uchun ishlatiladi. E'tibor bering, kalitlar maxfiydir va ular boshqalarga ko'rinmasligi uchun faqat serverga joylashtiriladi.",
     "personal_keys_title": "Shaxsiy kirish kalitlari",
-    "personal_keys_message": "Hisobingiz kalitlarini shu yerda yaratishingiz mumkin. E'tibor bering, ushbu kalitlar sizning hisobingizga kirish imkoniyatiga ega bo'ladi. Agar nima qilayotganingizni aniq bilsangizgina ushbu kalitlarni yarating va foydalaning."
+    "personal_keys_message": "Hisobingiz kalitlarini shu yerda yaratishingiz mumkin. E'tibor bering, ushbu kalitlar sizning hisobingizga kirish imkoniyatiga ega bo'ladi. Agar nima qilayotganingizni aniq bilsangizgina ushbu kalitlarni yarating va foydalaning.",
+    "clients_title": "Mijozlar",
+    "clients_message": "Ushbu kalitlar serveringiz tomonidan Access tokenini yaratish uchun ishlatiladi. E'tibor bering, kalitlar maxfiydir va ular boshqalarga ko'rinmasligi uchun faqat serverga joylashtiriladi."
   },
   "user_security_control": {
     "title": "Hisob xavfsizligi",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Profillarni boshqarish",
       "description": "Do'kon profillarini boshqaring."
+    },
+    "shop-discount-code": {
+      "name": "Chegirma kodini boshqarish",
+      "description": "Do'kon chegirma kodlarini boshqaring, tahrirlang va qo'shing."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Sozlamalar",
       "change": "Zaryadlash",
       "transfer": "Transfer",
-      "transactions": "Bitimlar"
+      "transactions": "Bitimlar",
+      "charge": "Zaryadlash",
+      "history": "Tarix"
     },
     "transactions": {
       "title": "Hisob operatsiyalari",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Obunani tasdiqlashni bekor qilish",
       "message": "Bu obunani bekor qilishga ishonchingiz komilmi?",
       "action": "Obunani bekor qilish"
-    }
+    },
+    "use_voucher_now": "Voucherdan hozir foydalaning",
+    "validity_duration": "Amal qilish muddati",
+    "validity_duration_hint": "12 oylik litsenziyani xarid qilib, siz 30% chegirmaga ega bo'lasiz."
   },
   "admin_shop_layout": {
     "download_txt": "Ma'lumotlar matnini yuklab oling",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Katta shriftlar",
     "large_font_message": "Matnni odatdagidan kattaroq ko'rsatish",
     "samples": "Namuna do'konlarini ko'rsatish",
-    "samples_message": "Agar yoqilgan bo'lsa, ba'zi namunalar do'konlar panelingizda ko'rsatiladi."
+    "samples_message": "Agar yoqilgan bo'lsa, ba'zi namunalar do'konlar panelingizda ko'rsatiladi.",
+    "automation": "Avtomatlashtirish",
+    "automation_message": "Do'kon asboblar panelida avtomatlashtirish yorlig'ini ko'rsatish. (Webhooks, Visual dasturlash, ...)"
   },
   "shop_locations": {
     "title": "Xizmat ko'rsatiladigan mamlakatlar",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kupon muvaffaqiyatli o'chirildi."
-    }
+    },
+    "multiple_use": "Ko'p foydalanish"
   },
   "coupon_edit": {
     "title_edit": "Kuponni tahrirlash",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Cheklash",
       "description": "Foydalanuvchilarning maksimal soniga cheklov qo'ying."
+    },
+    "SEGMENTS": {
+      "title": "Segmentlar",
+      "description": "Muayyan qo'lda segmentatsiyada mijozlarni cheklang."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Buyurtmaning umumiy miqdori sovg'a kartalaridan yechib olindi! Xaridor ko'proq pul to'lashi shart emas.",
       "cod_msg": "Buyurtmani qabul qilganda mijoz to'laydi.",
       "online_msg": "Mijozdan mijoz ekranida QR kodini skanerlashni so'rang."
-    }
+    },
+    "name": "POS",
+    "message": "O'rnatish narxi nol bo'lgan onlayn savdo nuqtasiga ega bo'ling, uni istalgan smartfon, planshet va kompyuterda ishga tushiring yoki buyurtmalarni qo'lda yarating."
   },
   "exporter": {
     "title": "Ma'lumotlarni eksport qilish",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Serverga yuborish",
     "shop_license": "Do'kon litsenziyasi",
     "max_items_limit": "Maksimal elementlar chegarasi",
-    "total_items": "Jami elementlar"
+    "total_items": "Jami elementlar",
+    "customer": {
+      "title": "Import mijozlar",
+      "subtitle": "Mijozlarning CSV fayllarini bu yerga yuklang. Standart formatga rioya qilganingizga ishonch hosil qiling, shuningdek, maxfiylik qoidalariga rioya qilishingiz kerak."
+    }
   },
   "campaigns": {
     "title": "Kampaniyalar",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Havolalar",
     "light_checkout": "Yengil to'lov mavzusi",
     "light_header": "Yengil sarlavha",
-    "light_footer": "Yengil altbilgi"
+    "light_footer": "Yengil altbilgi",
+    "product_page": "Mahsulot sahifasi",
+    "typography": "Tipografiya",
+    "header": "Sarlavha",
+    "custom_code": "Maxsus kod",
+    "custom_css": "Maxsus CSS"
   },
   "app_templates": {
     "default": "Standart",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Xizmatni boshqarish",
     "option_deliver_by_courier": "Variant 1: Sizning kurerlaringiz tomonidan yetkazib berish.",
     "option_add_to_que": "Variant 2: Yuk tashish xizmati sahifasida ishlov berish uchun navbatga qo'shing.",
-    "option_instant_shipping": "Variant 3: Tez yetkazib berish."
+    "option_instant_shipping": "Variant 3: Tez yetkazib berish.",
+    "pickup_action": "Olib ketishni tasdiqlash"
   },
   "shop_home_edit": {
     "title": "Bosh sahifa sozlamalari",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Mahsulot doʻkoningizga qoʻshildi.",
       "request_access": "Sizning kirish so'rovingizni ulgurji sotuvchiga muvaffaqiyatli yubordik."
-    }
+    },
+    "show_eligible_shops_message": "Muvofiq do'konlarni ko'rsatish"
   },
   "product_dropshipping": {
     "need_re_enable": "Ushbu mahsulot asl sotuvchi tomonidan o'zgartirilgan, bu narx o'zgarishlari do'koningizdagi mahsulotni o'chirib qo'ydi. O'zgarishlarni tekshiring va agar siz mahsulotni qayta faollashtirishga rozi bo'lsangiz, quyidagi tugmani bosing.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Sizning do'koningizda hech qanday toifa yo'q.",
       "limit": "Mahsulotlar chegarasi",
       "limit_message": "Mahsulotlar natijalari hisobini kiriting",
-      "select_categories": "Mavjud toifalarni tanlang"
+      "select_categories": "Mavjud toifalarni tanlang",
+      "categories_limit": "Kategoriyalar chegarasi",
+      "categories_limit_msg": "Kategoriyalarning maksimal sonini kiriting. Cheklovsiz nolni belgilang."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avokado muvaffaqiyatli yangilandi.",
       "add_success": "Avokado muvaffaqiyatli yaratildi."
-    }
+    },
+    "name": "Avokado"
   },
   "avocado_orders": {
     "title": "Avokado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "harakatsiz",
     "active_message": "Agar siz ushbu parametrni yoqsangiz, har bir mahsulotning boshqaruv bo'limida Tez sotish kodlarini yaratish imkoniyati ko'rsatiladi.",
     "hyper_form_link_message": "Do'koningizning giper-sahifasi havolasi",
-    "configuration": "Giper sozlamalari"
+    "configuration": "Giper sozlamalari",
+    "name": "Giper"
   },
   "hyper_orders": {
     "title": "Giper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Mijozlarning demografiyasi",
     "subtitle": "Kamroq marketing bilan ko'proq qiymat berish uchun yaxshiroq qarorlar qabul qilish uchun mijozlaringiz ma'lumotlarini filtrlang va eksport qiling! Iltimos, mijozlaringizning maxfiyligini hurmat qiling va ularga hech qachon ommaviy elektron pochta xabarlarini yubormang! Hech qachon mijozlaringiz haqidagi ma'lumotlarni uchinchi tomon xizmatlari bilan baham ko'rmang, ularning har birining ruxsatisiz."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Olib ketish manzillari",
+      "subtitle": "Olib ketish manzillarini bu yerga qo‘shing va tahrirlang. Foydalanuvchilar to‘lov sahifasida olib ketish manzilini tanlashlari mumkin bo‘ladi.",
+      "add_action": "Yangi joy qo'shing"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Hamkorlik POS",
+    "open_pos_action": "Tez buyurtma berish POS",
+    "description": "Ushbu parametr Instagram sahifalari va boshqa ijtimoiy tarmoqlar ma'murlari uchun javob beradi. Mijozlardan buyurtmalarni qo'lda qabul qilish va qo'shish uchun Affiliate POS-dan foydalaning. Sizning filiallaringiz (yoki franchayzing) Affiliate POS-ga yangi buyurtmalar qo'shishi va depozit slipini yuklashi mumkin."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Kirish usullari",
+      "subtitle": "Foydalanuvchilarning do'koningizga kirish usulini sozlang."
+    },
+    "checkout": {
+      "title": "Hisob-kitoblar oqimi",
+      "subtitle": "Elektron tijoratingizda mijozlar sayohatini va xaridlar oqimini moslashtiring.",
+      "map": {
+        "title": "Xarita",
+        "subtitle": "Foydalanuvchilar xaritada yetkazib berish joyini tanlashlari kerak (masalan, Uber).",
+        "subtitle_no_map": "Agar mijoz ko'rsatgan manzilda manzil mavjud bo'lmasa, etkazib berishni hisoblashda masofa nolga teng."
+      },
+      "mode": {
+        "title": "Mijozlarning kirish nuqtasi",
+        "default": {
+          "title": "ASAP (standart)",
+          "msg": "Foydalanuvchilar imkon qadar tezroq tizimga kirishadi. (Ko'proq konvertatsiya)"
+        },
+        "on_checkout": {
+          "title": "Chiqish paytida",
+          "msg": "Hisob-kitob bosqichida foydalanuvchilarni tizimga kirishga majburlang."
+        },
+        "login_free": {
+          "title": "Ixtiyoriy kirish",
+          "msg": "Buyurtma to'lovidan keyin ixtiyoriy tizimga kirish.."
+        }
+      },
+      "express": {
+        "title": "Savatga qo'shgandan keyin qayta yo'naltirish",
+        "false": {
+          "title": "Oddiy rejim",
+          "msg": "Sahifada qoling va savatga qo'shish tugmasini bosgandan so'ng xaridni davom ettiring."
+        },
+        "true": {
+          "title": "Ekspres rejimi",
+          "msg": "Savatga qo'shish tugmasini bosgandan so'ng mijozni to'lov sahifasiga yo'naltiring."
+        }
+      },
+      "shipping_address": {
+        "title": "Yuk tashish manzilini so'rang"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Jismoniy va xizmat (standart)",
+      "desc": "Mijozdan jismoniy va xizmat ko'rsatish kassalarida manzilni kiritishini so'rang."
+    },
+    "physical": {
+      "title": "Faqat jismoniy",
+      "desc": "Mijozdan faqat jismoniy kassada manzilni kiritishini so'rang."
+    },
+    "off": {
+      "title": "Hech qachon",
+      "desc": "Hech qachon yuk manzilini so'ramang. ⚠ Agar siz mahsulotlar uchun xizmat turi oʻrniga jismoniy turni tanlash orqali variantlari boʻlgan xizmatlarga ega boʻlishni rejalashtirmoqchi boʻlsangiz, ushbu parametrdan foydalaning."
+    }
+  },
+  "business_model": {
+    "title": "Biznes modelini o'rnatish",
+    "subtitle": "Biznes modelingizni sozlang va biz sizning operatsion tizimingizni sahna ortida sozlaymiz."
+  },
+  "business_type": {
+    "title": "Tovar turlari",
+    "subtitle": "Do'koningizda sotmoqchi bo'lgan mahsulot turini belgilang. Selldone-dagi mahsulot turlari shunchaki mahsulot turi emas; Bu ko'proq bajarish tartibi haqida.",
+    "send_activation_request_to_support": "Yordam chiptasida faollashtirish so'rovini yuboring.",
+    "require_kyc": "Biznes egasi KYC.",
+    "needs_enterprise_license": "Sizda Enterprise litsenziyasi bo'lishi kerak.",
+    "marketplace_caution_message": "Modelingiz biznes OT konfiguratsiyasiga chuqur ta'sir qilishi uchun Marketplace-ni o'rnating. Misol uchun, har bir mahsulot uchun mustaqil narx va inventarga ega bo'lgan kamida bitta sotuvchini belgilashingiz kerak. Mijozlar sotuvchisi bo'lmagan mahsulotlarni sotib olmaydilar."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Oddiy do'kon",
+      "desc": "Odatda KO'B, uy biznesi yoki o'z mahsulotlarini to'g'ridan-to'g'ri mijozlarga sotadigan yoki ulgurji sotuvchilarning mahsulotlarini sotuvchi sifatida sotuvchi."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Hech qanday mahsulot va inventar saqlamang - siz uchinchi tomonga, odatda ulgurji sotuvchiga (masalan, Printify, Wholesale2B, ...) yoki ishlab chiqaruvchiga to'laysiz va ular sahna ortidagi buyurtmalarni bajaradi."
+    },
+    "wholesaler": {
+      "title": "Dropshipping yetkazib beruvchi",
+      "desc": "Odatda ulgurji sotuvchi yoki ishlab chiqaruvchi - buyurtmalarni to'g'ridan-to'g'ri oxirgi iste'molchiga jo'natadi. Selldone-dagi boshqa savdogarlar sizning mahsulotlaringizni o'z do'konlarida sotuvga qo'yishlari mumkin."
+    },
+    "marketplace": {
+      "title": "Bozor",
+      "desc": "Onlayn bozorlar xaridorlar va sotuvchilarni xususiy va markazlashtirilgan platformada bog'laydi."
+    },
+    "franchise": {
+      "title": "Franchayzing / Hamkorlik",
+      "desc": "Franchayzing - bu sizning brendingizni (Franchayzing) yaratadigan yoki mahsulotingizni o'z brendi (Affiliate) bo'yicha sotadigan franchayzer ishtirokidagi mahsulot yoki xizmatlarni tarqatish usuli."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Hamyonlar",
+    "pricing_models": "Narxlash",
+    "add_vendor": "Sotuvchini qo'shing",
+    "requests": "So'rovlar"
+  },
+  "price_input_type": {
+    "title": "Narx kiritish turi",
+    "default": {
+      "title": "Standart",
+      "desc": "Savatdagi miqdor sifatida qiymatni tanlang."
+    },
+    "area": {
+      "title": "Hudud",
+      "desc": "Miqdorni hisoblash uchun kirish sifatida kenglik va uzunlikni kiriting."
+    },
+    "volume": {
+      "title": "hajmi",
+      "desc": "Miqdorni hisoblash uchun kirish sifatida kenglik, uzunlik va balandlikni kiriting."
+    },
+    "custom": {
+      "title": "Maxsus (kirish shakli bo'yicha)",
+      "desc": "Yuzlab variantlar kerak emas! Yuqori darajada moslashtirilgan mahsulotlar uchun maxsus xarajatlarni hisoblash shaklini yarating."
+    }
+  },
+  "vendors_list": {
+    "title": "Mening sotuvchilarim",
+    "message": "O'z sotuvchilarim ro'yxati."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Bir nechta domenlarni biznes operatsion tizimiga ulang va ularning barchasini bir joyda boshqaring. Blog va hamjamiyat kabi veb-saytingizning har bir qismi uchun ajratilgan domenlarni yaratish uchun bir nechta domenlar xususiyatidan foydalanishingiz yoki filiallaringiz uchun turli domenlardan foydalanishingiz mumkin."
+  },
+  "notes": {
+    "add_action": "Jamoangiz uchun eslatma qo'shing",
+    "notifications": {
+      "success_add": "Eslatma muvaffaqiyatli qo'shildi.",
+      "success_delete": "Eslatma muvaffaqiyatli o'chirildi."
+    }
+  },
+  "external_services": {
+    "title": "Tashqi xizmatlar",
+    "subtitle": "Bu yerda SMS va elektron pochta kabi tashqi xizmatlarning oxirgi holatini kuzatib boring."
   }
 };

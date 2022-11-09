@@ -65,7 +65,9 @@ export default {
     "my_feed": "mwen",
     "blocked_message": "Ou bloke jouk",
     "reported": "Rapòte",
-    "report": "Rapò"
+    "report": "Rapò",
+    "post": "Post",
+    "attach_file": "Tache dosye"
   },
   "invite_message": "{user} envite ou nan fowòm {community} la. Klike sou lyen ki anba a pou w li obsèvasyon zanmi w yo epi pataje opinyon w ak yo. map tann ou.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Retire biwo vòt",
     "take_screenshot": "Pran kòm kouvèti",
     "take_link_msg": "Sot pase lyen isit la epi antre",
-    "eligible_title": "Etap pou kalifye pou poste"
+    "eligible_title": "Etap pou kalifye pou poste",
+    "public": "Piblik"
   },
   "tips": {
     "verify_email": "Antre epi verifye imel ou.",

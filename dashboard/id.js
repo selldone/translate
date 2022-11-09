@@ -155,7 +155,19 @@ export default {
       "Setup": "toko",
       "Sell": "penjualan & Pemasaran",
       "Developer": "Mengembangkan",
-      "Application": "Aplikasi"
+      "Application": "Aplikasi",
+      "Product": "Manajemen Produk & Kategori",
+      "Blog": "CMS & Blog",
+      "Order": "Pusat Pemenuhan Pesanan",
+      "Channel": "Saluran Penjualan",
+      "Accounting": "Metode Akuntansi & Pembayaran",
+      "Incentives": "Insentif",
+      "Marketing": "Kampanye pemasaran",
+      "Logistic": "Logistik & Pengiriman",
+      "Customers": "Klub Pelanggan & Segmentasi",
+      "Page": "Halaman Arahan & Kustom",
+      "Access": "Manajemen Akses Staf / API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Repositori Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Toko",
       "roles": "Peran",
       "home": "Rumah",
-      "expert": "Pakar"
+      "expert": "Pakar",
+      "deals": "Penawaran",
+      "providers": "Penyedia"
     },
     "shops": {
       "create_new": "Buat toko baru",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Status",
           "created_at": "Tanggal Pembuatan",
           "updated_at": "Pembaharuan Terakhir"
-        }
+        },
+        "subtitle": "Tulis artikel dengan editor inline modern untuk menampilkan diri Anda dan bisnis Anda. Konten asli adalah hal pertama yang perlu Anda fokuskan saat menulis posting blog ramah SEO berkualitas tinggi."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Laporan",
         "tax": "Pajak",
         "drop_shipping": "Kuitansi reseller",
-        "reseller_accounts": "Akun pengecer"
+        "reseller_accounts": "Akun pengecer",
+        "valuations": "Penilaian"
       },
       "invoice": {
         "title": "Belanja Dompet Tertaut",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Pengiriman",
         "inventory": "Inventaris",
         "warehouse": "Gudang",
-        "logistic_apps": "Logistik"
+        "logistic_apps": "Logistik",
+        "profiles": "Profil"
       },
       "warehouse": {
         "title": "Gudang Toko",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Biaya pesanan minimum untuk pengiriman gratis",
           "notifications": {
             "update_success": "Pengaturan layanan pengiriman berhasil diselesaikan."
-          }
+          },
+          "shipping_cost_calculation": "Perhitungan biaya pengiriman",
+          "sod_true": "Dapatkan biaya pengiriman di tempat tujuan",
+          "sod_true_message": "Pastikan jasa pengiriman Anda menerima ongkos kirim di tempat tujuan.",
+          "sod_false": "Perhitungan biaya pengiriman otomatis",
+          "cod_true": "Terima cash on delivery",
+          "cod_false": "Terima pembayaran online saja",
+          "cod_true_message": "Pastikan jasa pengiriman Anda menerima COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "Surel",
         "domain": "Domain",
-        "verifications": "Verifikasi"
+        "verifications": "Verifikasi",
+        "flow": "Mengalir",
+        "business_model": "Model bisnis"
       },
       "delete_dialog": {
         "title": "Hapus Toko",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "unit produk",
       "unit_float": "Unit apung (segera)",
       "unit_float_hint": "Misalnya, pelanggan dapat memesan 3 kg buah, tetapi jumlah yang dikirim ke pelanggan sedikit berbeda dari jumlah yang dipesan.",
-      "unit_float_message": "Selama pemrosesan pesanan, jumlah yang dikirim mungkin berbeda dari jumlah yang dipesan. Sistem secara otomatis menghitung selisih ini dan mencatatnya sebagai hutang Anda kepada pelanggan, yang dapat diterapkan pada pesanan berikutnya."
+      "unit_float_message": "Selama pemrosesan pesanan, jumlah yang dikirim mungkin berbeda dari jumlah yang dipesan. Sistem secara otomatis menghitung selisih ini dan mencatatnya sebagai hutang Anda kepada pelanggan, yang dapat diterapkan pada pesanan berikutnya.",
+      "status_list": {
+        "active": {
+          "title": "Aktif | Penjualan Online & Offline",
+          "description": "Produk ini akan tersedia untuk pesanan online."
+        },
+        "inactive": {
+          "title": "Tidak aktif | Hanya Penjualan Offline",
+          "description": "Produk ini tidak akan tersedia untuk pesanan online."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "survei",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Pilih waktu berakhir",
       "independent_price": "Harga hanya untuk varian ini",
       "same_price": "Harga untuk produk utama",
-      "variant_pricing_message": "Dengan memilih opsi ini, harga varian ini dapat diatur secara independen dari produk utama."
+      "variant_pricing_message": "Dengan memilih opsi ini, harga varian ini dapat diatur secara independen dari produk utama.",
+      "price_label_input": "Label harga",
+      "price_label_message": "Tambahkan info tambahan tentang harga seperti ($1.5/Fl Oz). Kasus penggunaan: bahan makanan, FMCG.",
+      "add_price_label_action": "Tambahkan label harga"
     },
     "inputs_edit": {
       "title": "Formulir Masukan Informasi Pembeli",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gerbang {gateway_name} diedit."
     },
-    "developer_setting": "Kembangkan & Uji"
+    "developer_setting": "Kembangkan & Uji",
+    "live_mode_message": "Semua transaksi akan dalam mode live."
   },
   "gift_card": {
     "title": "Kartu hadiah",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Alamat penagihan diedit oleh pembeli.",
     "payment-cod-confirm": "Pembayaran COD dikonfirmasi.",
     "payment-cash-confirm": "Pembayaran {amount} {currency} tunai untuk tagihan telah dikonfirmasi.",
-    "payment-dir-confirm": "Tanda terima pembayaran langsung dikonfirmasi."
+    "payment-dir-confirm": "Tanda terima pembayaran langsung dikonfirmasi.",
+    "vendor": "Status pesanan vendor diubah dari <b>{from}</b> menjadi <b>{to}</b> .",
+    "connect-sync": "Pesanan disinkronkan oleh Connect OS.",
+    "connect-shipped": "Connect order telah dikirim oleh {shipping}.",
+    "connect-returned": "Connect order telah dikembalikan oleh {shipping}.",
+    "connect-failed": "Pemenuhan pesanan gagal oleh mitra. {reason}",
+    "connect-canceled": "Pesanan dibatalkan oleh mitra. {reason}",
+    "connect-action-cancel": "Permintaan untuk membatalkan pesanan. {reason}",
+    "connect-put-hold": "Perintah itu ditunda. {reason}",
+    "connect-remove-hold": "Pesanan telah dihapus dari penangguhan. {reason}",
+    "connect-confirmed": "Pesanan telah dikonfirmasi.",
+    "email-vendor": "Email informasi pemesanan telah dikirim ke <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Hari ini",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Menghasilkan uang",
     "menu": {
       "plans": "Rencana",
-      "accounts": "Akun"
+      "accounts": "Akun",
+      "participant": "Peserta"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Simpan Kunci Akses",
     "shop_keys_message": "Kunci ini digunakan untuk membuat Token Akses oleh server Anda. Perhatikan bahwa kunci bersifat rahasia dan hanya ditempatkan di server sehingga tidak terlihat oleh orang lain.",
     "personal_keys_title": "Kunci Akses Pribadi",
-    "personal_keys_message": "Anda dapat membuat kunci akun Anda di sini. Perhatikan bahwa kunci ini akan dapat mengakses akun Anda. Buat dan gunakan kunci ini hanya jika Anda tahu persis apa yang Anda lakukan."
+    "personal_keys_message": "Anda dapat membuat kunci akun Anda di sini. Perhatikan bahwa kunci ini akan dapat mengakses akun Anda. Buat dan gunakan kunci ini hanya jika Anda tahu persis apa yang Anda lakukan.",
+    "clients_title": "klien",
+    "clients_message": "Kunci ini digunakan untuk membuat Token Akses oleh server Anda. Perhatikan bahwa kunci bersifat rahasia dan hanya ditempatkan di server sehingga tidak terlihat oleh orang lain."
   },
   "user_security_control": {
     "title": "Keamanan Akun",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Kelola profil",
       "description": "Kelola profil toko."
+    },
+    "shop-discount-code": {
+      "name": "Manajemen kode diskon",
+      "description": "Kelola, edit, dan tambahkan kode diskon toko."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Pengaturan",
       "change": "Mengenakan biaya",
       "transfer": "Transfer",
-      "transactions": "Transaksi"
+      "transactions": "Transaksi",
+      "charge": "Mengenakan biaya",
+      "history": "Sejarah"
     },
     "transactions": {
       "title": "Transaksi Akun",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Batalkan konfirmasi berlangganan",
       "message": "Apakah Anda yakin akan membatalkan langganan ini?",
       "action": "Batalkan langganan"
-    }
+    },
+    "use_voucher_now": "Gunakan voucher sekarang",
+    "validity_duration": "Durasi validitas",
+    "validity_duration_hint": "Dengan membeli lisensi 12 bulan, Anda akan menerima diskon 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Unduh teks data",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Font besar",
     "large_font_message": "Tampilkan teks lebih besar dari biasanya",
     "samples": "Tampilkan toko sampel",
-    "samples_message": "Jika diaktifkan, beberapa toko sampel akan ditampilkan di panel Anda."
+    "samples_message": "Jika diaktifkan, beberapa toko sampel akan ditampilkan di panel Anda.",
+    "automation": "Otomatisasi",
+    "automation_message": "Tampilkan tab otomatisasi di dasbor toko. (Webhook, pemrograman Visual, ...)"
   },
   "shop_locations": {
     "title": "Negara tempat layanan disediakan",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kupon berhasil dihapus."
-    }
+    },
+    "multiple_use": "Penggunaan ganda"
   },
   "coupon_edit": {
     "title_edit": "Edit kupon",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Membatasi",
       "description": "Tetapkan batas jumlah maksimum pengguna."
+    },
+    "SEGMENTS": {
+      "title": "Segmen",
+      "description": "Batasi pelanggan dalam segmentasi manual tertentu."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Jumlah total pesanan telah ditarik dari kartu hadiah! Pembeli tidak perlu membayar lebih.",
       "cod_msg": "Pelanggan akan membayar saat menerima pesanan.",
       "online_msg": "Minta pelanggan untuk memindai kode QR di layar pelanggan."
-    }
+    },
+    "name": "POS",
+    "message": "Dapatkan titik penjualan online tanpa biaya penyiapan, jalankan di ponsel cerdas, tablet, dan PC apa pun, atau buat pesanan secara manual."
   },
   "exporter": {
     "title": "Ekspor data",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Kirim ke server",
     "shop_license": "Lisensi toko",
     "max_items_limit": "Batas item maksimum",
-    "total_items": "Jumlah barang"
+    "total_items": "Jumlah barang",
+    "customer": {
+      "title": "Impor pelanggan",
+      "subtitle": "Unggah file CSV pelanggan di sini. Pastikan Anda mengikuti format standar, dan juga, Anda harus mengikuti aturan privasi."
+    }
   },
   "campaigns": {
     "title": "Kampanye",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Tautan",
     "light_checkout": "Tema checkout ringan",
     "light_header": "Header ringan",
-    "light_footer": "Catatan kaki ringan"
+    "light_footer": "Catatan kaki ringan",
+    "product_page": "Halaman Produk",
+    "typography": "Tipografi",
+    "header": "Tajuk",
+    "custom_code": "Kode khusus",
+    "custom_css": "CSS khusus"
   },
   "app_templates": {
     "default": "Bawaan",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Kelola layanan",
     "option_deliver_by_courier": "Opsi 1: Dikirim oleh kurir Anda.",
     "option_add_to_que": "Opsi 2: Tambahkan ke antrian untuk diproses di halaman layanan pengiriman.",
-    "option_instant_shipping": "Opsi 3: Pengiriman instan."
+    "option_instant_shipping": "Opsi 3: Pengiriman instan.",
+    "pickup_action": "Konfirmasi pengambilan"
   },
   "shop_home_edit": {
     "title": "Pengaturan halaman rumah",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Produk ditambahkan ke toko Anda.",
       "request_access": "Kami berhasil mengirimkan permintaan akses Anda ke grosir."
-    }
+    },
+    "show_eligible_shops_message": "Tampilkan toko yang memenuhi syarat"
   },
   "product_dropshipping": {
     "need_re_enable": "Produk ini telah diubah oleh penjual asli, perubahan harga ini telah menonaktifkan produk di toko Anda. Periksa perubahan dan jika Anda setuju untuk mengaktifkan kembali produk, tekan tombol di bawah.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Tidak ada kategori di toko Anda.",
       "limit": "Batas produk",
       "limit_message": "Masukkan jumlah hasil produk",
-      "select_categories": "Pilih kategori yang tersedia"
+      "select_categories": "Pilih kategori yang tersedia",
+      "categories_limit": "Batas kategori",
+      "categories_limit_msg": "Masukkan jumlah maksimum kategori. Tetapkan nol tanpa batas."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Alpukat berhasil diperbarui.",
       "add_success": "Alpukat berhasil dibuat."
-    }
+    },
+    "name": "Alpukat"
   },
   "avocado_orders": {
     "title": "Alpukat",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "tidak aktif",
     "active_message": "Jika Anda mengaktifkan opsi ini, kemungkinan membuat Kode Penjualan Cepat akan ditampilkan di bagian manajemen setiap produk.",
     "hyper_form_link_message": "Tautan halaman hiper toko Anda",
-    "configuration": "Pengaturan Hiper"
+    "configuration": "Pengaturan Hiper",
+    "name": "Hiper"
   },
   "hyper_orders": {
     "title": "Hiper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Demografi Pelanggan",
     "subtitle": "Filter dan ekspor data pelanggan Anda untuk membuat keputusan yang lebih baik guna memberikan lebih banyak nilai dengan lebih sedikit pemasaran! Harap hormati privasi pelanggan Anda dan jangan pernah mengirim email massal kepada mereka! Jangan pernah membagikan informasi pelanggan Anda dengan layanan pihak ketiga tanpa mendapatkan izin dari mereka masing-masing."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Alamat penjemputan",
+      "subtitle": "Tambahkan dan edit alamat pengambilan di sini. Pengguna akan dapat memilih alamat pengambilan di halaman checkout.",
+      "add_action": "Tambahkan lokasi baru"
+    }
+  },
+  "affiliate_pos": {
+    "title": "POS Afiliasi",
+    "open_pos_action": "POS pemesanan cepat",
+    "description": "Opsi ini cocok untuk admin halaman Instagram dan jejaring sosial lainnya. Gunakan POS Afiliasi untuk menerima dan menambahkan pesanan dari pelanggan secara manual. Afiliasi Anda (atau waralaba) dapat menambahkan pesanan baru di POS Afiliasi dan mengunggah slip setoran."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Metode masuk",
+      "subtitle": "Sesuaikan cara pengguna masuk ke toko Anda."
+    },
+    "checkout": {
+      "title": "Aliran keluar",
+      "subtitle": "Sesuaikan perjalanan pelanggan Anda dan alur pembelian di e-niaga Anda.",
+      "map": {
+        "title": "Peta",
+        "subtitle": "Pengguna harus memilih lokasi pengiriman di peta (seperti Uber).",
+        "subtitle_no_map": "Jarak dalam perhitungan pengiriman dianggap nol jika lokasi tidak ada di alamat yang diberikan pelanggan."
+      },
+      "mode": {
+        "title": "Titik masuk pelanggan",
+        "default": {
+          "title": "ASAP (Default)",
+          "msg": "Pengguna masuk sesegera mungkin. (Lebih banyak konversi)"
+        },
+        "on_checkout": {
+          "title": "Saat checkout",
+          "msg": "Paksa pengguna untuk masuk pada langkah checkout."
+        },
+        "login_free": {
+          "title": "Masuk opsional",
+          "msg": "Login opsional setelah pembayaran pesanan.."
+        }
+      },
+      "express": {
+        "title": "Redirect setelah add to cart",
+        "false": {
+          "title": "Mode normal",
+          "msg": "Tetap di halaman dan lanjutkan berbelanja setelah mengklik tambahkan ke troli."
+        },
+        "true": {
+          "title": "Modus ekspres",
+          "msg": "Arahkan pelanggan ke halaman checkout setelah mengklik tambahkan ke troli."
+        }
+      },
+      "shipping_address": {
+        "title": "Minta alamat pengiriman"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fisik & Layanan (Default)",
+      "desc": "Minta pelanggan untuk memasukkan alamat di kasir fisik dan layanan."
+    },
+    "physical": {
+      "title": "Hanya Fisik",
+      "desc": "Minta pelanggan untuk memasukkan alamat hanya di kasir fisik."
+    },
+    "off": {
+      "title": "Tidak pernah",
+      "desc": "Jangan pernah menanyakan alamat pengiriman. Gunakan opsi ini jika Anda berencana untuk memiliki layanan dengan varian dengan memilih jenis fisik untuk produk, bukan jenis layanan."
+    }
+  },
+  "business_model": {
+    "title": "Pengaturan model bisnis",
+    "subtitle": "Tetapkan model bisnis Anda, dan kami akan mengonfigurasi OS Anda di belakang layar."
+  },
+  "business_type": {
+    "title": "Jenis barang dagangan",
+    "subtitle": "Tetapkan jenis produk yang ingin Anda jual di toko Anda. Jenis produk di Selldone lebih dari sekedar jenis produk; ini lebih tentang prosedur pemenuhan.",
+    "send_activation_request_to_support": "Kirim permintaan aktivasi dalam tiket dukungan.",
+    "require_kyc": "Pemilik bisnis KYC.",
+    "needs_enterprise_license": "Anda harus memiliki lisensi Perusahaan.",
+    "marketplace_caution_message": "Tetapkan Marketplace sebagai model Anda sangat memengaruhi konfigurasi OS bisnis Anda. Misalnya, Anda harus menentukan setidaknya satu vendor untuk setiap produk dengan harga dan inventaris independen. Pelanggan tidak dapat membeli produk yang tidak memiliki vendor."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Toko Biasa",
+      "desc": "Umumnya UKM, bisnis rumahan, atau dropshipper - yang menjual produk mereka langsung ke pelanggan atau menjual produk grosir sebagai reseller."
+    },
+    "dropshipping": {
+      "title": "Pengiriman drop",
+      "desc": "Jangan simpan produk dan inventaris - Anda membayar ke pihak ketiga, biasanya grosir (seperti Printify, Wholesale2B, ...) atau produsen, dan mereka memenuhi pesanan di belakang layar."
+    },
+    "wholesaler": {
+      "title": "Pemasok Dropship",
+      "desc": "Umumnya grosir atau produsen – yang mengirimkan pesanan langsung ke konsumen akhir. Pedagang lain di Selldone dapat melakukan dropship produk Anda di toko mereka."
+    },
+    "marketplace": {
+      "title": "pasar",
+      "desc": "Pasar online menghubungkan pembeli dan penjual pada platform eksklusif dan terpusat."
+    },
+    "franchise": {
+      "title": "Waralaba / Afiliasi",
+      "desc": "Waralaba adalah metode mendistribusikan produk atau layanan yang melibatkan pemilik waralaba yang menetapkan merek Anda (Pewaralaba) atau menjual produk Anda dengan merek mereka (Afiliasi)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "dompet",
+    "pricing_models": "harga",
+    "add_vendor": "Tambahkan vendor",
+    "requests": "Permintaan"
+  },
+  "price_input_type": {
+    "title": "Jenis masukan harga",
+    "default": {
+      "title": "Bawaan",
+      "desc": "Pilih nilai sebagai kuantitas di keranjang."
+    },
+    "area": {
+      "title": "Daerah",
+      "desc": "Masukkan lebar dan panjang sebagai input untuk menghitung kuantitas."
+    },
+    "volume": {
+      "title": "volume",
+      "desc": "Masukkan lebar, panjang, dan tinggi sebagai input untuk menghitung kuantitas."
+    },
+    "custom": {
+      "title": "Kustom (Dengan formulir input)",
+      "desc": "Tidak perlu ratusan varian! Buat formulir perhitungan biaya khusus untuk produk yang sangat dapat disesuaikan."
+    }
+  },
+  "vendors_list": {
+    "title": "Vendor saya",
+    "message": "Daftar vendor saya sendiri."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Hubungkan beberapa domain ke OS bisnis Anda dan kelola semuanya di satu tempat. Anda dapat menggunakan fitur beberapa domain untuk membuat domain khusus untuk setiap bagian situs web Anda, seperti blog dan komunitas, atau menggunakan domain yang berbeda untuk afiliasi Anda."
+  },
+  "notes": {
+    "add_action": "Tambahkan catatan untuk tim Anda",
+    "notifications": {
+      "success_add": "Catatan telah berhasil ditambahkan.",
+      "success_delete": "Catatan telah berhasil dihapus."
+    }
+  },
+  "external_services": {
+    "title": "Pelayanan luar",
+    "subtitle": "Pantau status terakhir dari layanan eksternal seperti SMS dan email di sini."
   }
 };

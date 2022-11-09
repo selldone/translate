@@ -155,7 +155,19 @@ export default {
       "Setup": "dyqan",
       "Sell": "Shitje",
       "Developer": "Zhvilloni",
-      "Application": "Aplikacionet"
+      "Application": "Aplikacionet",
+      "Product": "Menaxhimi i produkteve dhe kategorive",
+      "Blog": "CMS & Blog",
+      "Order": "Qendra e përmbushjes së porosive",
+      "Channel": "Kanalet e Shitjes",
+      "Accounting": "Kontabiliteti & Metodat e Pagesave",
+      "Incentives": "Stimujt",
+      "Marketing": "Marketing & Fushata",
+      "Logistic": "Logjistika dhe transporti",
+      "Customers": "Klubi i klientëve dhe segmentimi",
+      "Page": "Faqet e uljes dhe të personalizuara",
+      "Access": "Menaxhimi i aksesit të stafit / API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Depoja e Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Dyqane",
       "roles": "Rolet",
       "home": "Shtëpi",
-      "expert": "Ekspert"
+      "expert": "Ekspert",
+      "deals": "Ofertat",
+      "providers": "Ofruesit"
     },
     "shops": {
       "create_new": "Krijo dyqan të ri",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Statusi",
           "created_at": "Data e krijimit",
           "updated_at": "Përditësimi i fundit"
-        }
+        },
+        "subtitle": "Shkruani artikuj me një redaktues modern inline për të prezantuar veten dhe biznesin tuaj. Përmbajtja origjinale është gjëja e parë në të cilën duhet të përqendroheni kur shkruani një postim në blog me cilësi të lartë për SEO."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Raportoni",
         "tax": "Taksa",
         "drop_shipping": "Faturat e rishitësve",
-        "reseller_accounts": "Llogaritë e rishitësve"
+        "reseller_accounts": "Llogaritë e rishitësve",
+        "valuations": "Vlerësimet"
       },
       "invoice": {
         "title": "Blini kuletat e lidhura",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Transporti",
         "inventory": "Inventari",
         "warehouse": "Magazina",
-        "logistic_apps": "Logjistika"
+        "logistic_apps": "Logjistika",
+        "profiles": "Profilet"
       },
       "warehouse": {
         "title": "Magazina e Dyqanit",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Kostoja minimale e porosisë për transport falas",
           "notifications": {
             "update_success": "Cilësimet e shërbimit të transportit përfunduan me sukses."
-          }
+          },
+          "shipping_cost_calculation": "Llogaritja e kostos së transportit",
+          "sod_true": "Merrni koston e transportit në destinacion",
+          "sod_true_message": "Sigurohuni që shërbimi juaj i transportit pranon koston e transportit në destinacion.",
+          "sod_false": "Llogaritja e kostos së transportit automatik",
+          "cod_true": "Pranoni para në dorëzim",
+          "cod_false": "Prano vetëm pagesën online",
+          "cod_true_message": "Sigurohuni që shërbimi juaj i transportit të pranojë COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "sms",
         "email": "Email",
         "domain": "Domeni",
-        "verifications": "Verifikimet"
+        "verifications": "Verifikimet",
+        "flow": "Rrjedha",
+        "business_model": "Modeli i biznesit"
       },
       "delete_dialog": {
         "title": "Fshi dyqanin",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Njësia e produktit",
       "unit_float": "Njësi notuese (së shpejti)",
       "unit_float_hint": "Për shembull, klienti mund të porosisë 3 kg fruta, por shuma që i dërgohet klientit është paksa e ndryshme nga sasia e porositur.",
-      "unit_float_message": "Gjatë përpunimit të porosisë, shuma e dorëzuar mund të ndryshojë nga shuma e porositur. Sistemi llogarit automatikisht këtë diferencë dhe e regjistron atë si borxhin tuaj ndaj klientit, i cili mund të zbatohet për porositë e radhës."
+      "unit_float_message": "Gjatë përpunimit të porosisë, shuma e dorëzuar mund të ndryshojë nga shuma e porositur. Sistemi llogarit automatikisht këtë diferencë dhe e regjistron atë si borxhin tuaj ndaj klientit, i cili mund të zbatohet për porositë e radhës.",
+      "status_list": {
+        "active": {
+          "title": "Aktiv | Shitjet online dhe offline",
+          "description": "Ky produkt do të jetë i disponueshëm për porosi online."
+        },
+        "inactive": {
+          "title": "Joaktive | Vetëm Shitjet Offline",
+          "description": "Ky produkt nuk do të jetë i disponueshëm për porosi online."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Anketa",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Zgjidhni kohën e përfundimit",
       "independent_price": "Çmimi vetëm për këtë variant",
       "same_price": "Çmimi për produktin kryesor",
-      "variant_pricing_message": "Duke zgjedhur këtë opsion, çmimi i këtij varianti mund të vendoset në mënyrë të pavarur nga produkti kryesor."
+      "variant_pricing_message": "Duke zgjedhur këtë opsion, çmimi i këtij varianti mund të vendoset në mënyrë të pavarur nga produkti kryesor.",
+      "price_label_input": "Etiketa e çmimeve",
+      "price_label_message": "Shto informacion shtesë për çmimin si (1,5 $/Fl Oz). Rastet e përdorimit: ushqimore, FMCG.",
+      "add_price_label_action": "Shto etiketën e çmimit"
     },
     "inputs_edit": {
       "title": "Formulari i hyrjes së informacionit të blerësit",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Porta {gateway_name} u modifikua."
     },
-    "developer_setting": "Zhvilloni dhe testoni"
+    "developer_setting": "Zhvilloni dhe testoni",
+    "live_mode_message": "Të gjitha transaksionet do të jenë në modalitetin live."
   },
   "gift_card": {
     "title": "Kartat e dhuratave",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Adresa e faturimit është modifikuar nga blerësi.",
     "payment-cod-confirm": "Pagesa me COD u konfirmua.",
     "payment-cash-confirm": "Pagesa e {amount} {currency} në para për faturë u konfirmua.",
-    "payment-dir-confirm": "Fatura e pagesës direkte u konfirmua."
+    "payment-dir-confirm": "Fatura e pagesës direkte u konfirmua.",
+    "vendor": "Gjendja e porosisë së shitësit ndryshoi nga <b>{from}</b> në <b>{to}</b> .",
+    "connect-sync": "Porosia e sinkronizuar nga Connect OS.",
+    "connect-shipped": "Porosia e lidhjes është dërguar nga {shipping}.",
+    "connect-returned": "Porosia e lidhjes është kthyer nga {shipping}.",
+    "connect-failed": "Përmbushja e porosisë dështoi nga partneri. {reason}",
+    "connect-canceled": "Porosia u anulua nga partneri. {reason}",
+    "connect-action-cancel": "Kërkesë për të anuluar porosinë. {reason}",
+    "connect-put-hold": "Urdhri ishte vënë në pritje. {reason}",
+    "connect-remove-hold": "Urdhri u hoq nga mbajtja. {reason}",
+    "connect-confirmed": "Urdhri u konfirmua.",
+    "email-vendor": "🔔 Emaili i informimit të porosisë është dërguar te <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Sot",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Bej para",
     "menu": {
       "plans": "Planet",
-      "accounts": "Llogaritë"
+      "accounts": "Llogaritë",
+      "participant": "pjesëmarrës"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Çelësat e hyrjes në dyqan",
     "shop_keys_message": "Këta çelësa përdoren për të krijuar Access Token nga serveri juaj. Vini re se çelësat janë konfidencialë dhe vendosen vetëm në server në mënyrë që të mos jenë të dukshëm për të tjerët.",
     "personal_keys_title": "Çelësat e hyrjes personale",
-    "personal_keys_message": "Këtu mund të krijoni çelësat e llogarisë suaj. Vini re se këta çelësa do të mund të hyjnë në llogarinë tuaj. Krijoni dhe përdorni këto çelësa vetëm nëse e dini saktësisht se çfarë po bëni."
+    "personal_keys_message": "Këtu mund të krijoni çelësat e llogarisë suaj. Vini re se këta çelësa do të mund të hyjnë në llogarinë tuaj. Krijoni dhe përdorni këto çelësa vetëm nëse e dini saktësisht se çfarë po bëni.",
+    "clients_title": "Klientët",
+    "clients_message": "Këta çelësa përdoren për të krijuar Access Token nga serveri juaj. Vini re se çelësat janë konfidencialë dhe vendosen vetëm në server në mënyrë që të mos jenë të dukshëm për të tjerët."
   },
   "user_security_control": {
     "title": "Siguria e llogarisë",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Menaxho profilet",
       "description": "Menaxho profilet e dyqaneve."
+    },
+    "shop-discount-code": {
+      "name": "Menaxhimi i kodit të zbritjes",
+      "description": "Menaxhoni, modifikoni dhe shtoni kodet e zbritjes së dyqaneve."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Cilësimet",
       "change": "Ngarkimi",
       "transfer": "Transferimi",
-      "transactions": "Transaksionet"
+      "transactions": "Transaksionet",
+      "charge": "Ngarkimi",
+      "history": "Historia"
     },
     "transactions": {
       "title": "Transaksionet e Llogarisë",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Anulo konfirmimin e abonimit",
       "message": "Jeni i sigurt që do ta anuloni këtë abonim?",
       "action": "Anulo abonimin"
-    }
+    },
+    "use_voucher_now": "Përdorni kuponin tani",
+    "validity_duration": "Kohëzgjatja e vlefshmërisë",
+    "validity_duration_hint": "Me blerjen e një licence 12-mujore, ju do të përfitoni një zbritje prej 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Shkarkoni tekstin e të dhënave",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Fonte të mëdha",
     "large_font_message": "Shfaq tekstin më të madh se normalja",
     "samples": "Shfaq dyqanet e mostrave",
-    "samples_message": "Nëse aktivizohet, disa dyqane të mostrës do të shfaqen në panelin tuaj."
+    "samples_message": "Nëse aktivizohet, disa dyqane të mostrës do të shfaqen në panelin tuaj.",
+    "automation": "Automatizimi",
+    "automation_message": "Shfaq skedën e automatizimit në pultin e dyqanit. (Uebhooks, programim vizual, ...)"
   },
   "shop_locations": {
     "title": "Vendet ku ofrohet shërbimi",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kuponi është fshirë me sukses."
-    }
+    },
+    "multiple_use": "Përdorimi i shumëfishtë"
   },
   "coupon_edit": {
     "title_edit": "Redaktoni kuponin",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Kufiri",
       "description": "Vendosni një kufi në numrin maksimal të përdoruesve."
+    },
+    "SEGMENTS": {
+      "title": "Segmentet",
+      "description": "Kufizoni klientët në segmentimin manual specifik."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Shuma totale e porosisë u tërhoq nga kartat e dhuratave! Blerësi nuk ka nevojë të paguajë më shumë.",
       "cod_msg": "Klienti do të paguajë kur të marrë porosinë.",
       "online_msg": "Kërkojini klientit të skanojë kodin QR në ekranin e klientit."
-    }
+    },
+    "name": "POS",
+    "message": "Vendosni pikën tuaj të shitjes në internet me kosto të konfigurimit zero, ekzekutoni atë në çdo smartphone, tablet dhe PC ose krijoni porosi me dorë."
   },
   "exporter": {
     "title": "Eksporto të dhëna",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Dërgo te serveri",
     "shop_license": "Leje dyqani",
     "max_items_limit": "Kufiri maksimal i artikujve",
-    "total_items": "Totali i artikujve"
+    "total_items": "Totali i artikujve",
+    "customer": {
+      "title": "Konsumatorët e importit",
+      "subtitle": "Ngarkoni skedarët CSV të klientëve këtu. Sigurohuni që të ndiqni formatin standard, dhe gjithashtu, duhet të ndiqni rregullat e privatësisë."
+    }
   },
   "campaigns": {
     "title": "Fushatat",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Lidhjet",
     "light_checkout": "Tema e lehtë e arkëtimit",
     "light_header": "Titulli i lehtë",
-    "light_footer": "Fund i lehtë"
+    "light_footer": "Fund i lehtë",
+    "product_page": "Faqja e produktit",
+    "typography": "Tipografia",
+    "header": "Kreu",
+    "custom_code": "Kodi i personalizuar",
+    "custom_css": "CSS e personalizuar"
   },
   "app_templates": {
     "default": "E paracaktuar",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Menaxhoni shërbimin",
     "option_deliver_by_courier": "Opsioni 1: Dorëzimi me korrierët tuaj.",
     "option_add_to_que": "Opsioni 2: Shto në radhë për të përpunuar në faqen e shërbimit të transportit.",
-    "option_instant_shipping": "Opsioni 3: Transporti i menjëhershëm."
+    "option_instant_shipping": "Opsioni 3: Transporti i menjëhershëm.",
+    "pickup_action": "Konfirmimi i marrjes"
   },
   "shop_home_edit": {
     "title": "Cilësimi i faqes kryesore",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Produkti u shtua në dyqanin tuaj.",
       "request_access": "Ne e dërguam kërkesën tuaj për akses te shitësi me shumicë."
-    }
+    },
+    "show_eligible_shops_message": "Shfaq dyqanet e përshtatshme"
   },
   "product_dropshipping": {
     "need_re_enable": "Ky produkt është ndryshuar nga shitësi origjinal, këto ndryshime çmimi e kanë çaktivizuar produktin në dyqanin tuaj. Kontrolloni ndryshimet dhe nëse pranoni të riaktivizoni produktin, shtypni butonin më poshtë.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Nuk ka asnjë kategori në dyqanin tuaj.",
       "limit": "Kufiri i produkteve",
       "limit_message": "Fut numrin e rezultateve të produkteve",
-      "select_categories": "Zgjidhni kategoritë e disponueshme"
+      "select_categories": "Zgjidhni kategoritë e disponueshme",
+      "categories_limit": "Kufiri i kategorive",
+      "categories_limit_msg": "Futni numrin maksimal të kategorive. Vendos zero pa kufi."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avokado u përditësua me sukses.",
       "add_success": "Avokado u krijua me sukses."
-    }
+    },
+    "name": "Avokado"
   },
   "avocado_orders": {
     "title": "Avokado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "joaktive",
     "active_message": "Nëse e aktivizoni këtë opsion, mundësia e krijimit të kodeve të shitjeve të shpejta do të shfaqet në seksionin e menaxhimit të secilit produkt.",
     "hyper_form_link_message": "Lidhja e hiper faqes së dyqanit tuaj",
-    "configuration": "Hyper Settings"
+    "configuration": "Hyper Settings",
+    "name": "Hiper"
   },
   "hyper_orders": {
     "title": "Hiper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Demografia e klientëve",
     "subtitle": "Filtroni dhe eksportoni të dhënat e klientëve tuaj për të marrë vendime më të mira për të ofruar më shumë vlerë me më pak marketing! Ju lutemi respektoni privatësinë e klientëve tuaj dhe kurrë mos u dërgoni atyre email me shumicë! Asnjëherë mos i ndani informacionet e klientëve tuaj me shërbimet e palëve të treta pa marrë leje nga secili prej tyre."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Adresat e marrjes",
+      "subtitle": "Shto dhe modifiko adresat e marrjes këtu. Përdoruesit do të mund të zgjedhin adresën e marrjes në faqen e blerjes.",
+      "add_action": "Shto vendndodhje të re"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Filialin POS",
+    "open_pos_action": "POS me porosi të shpejtë",
+    "description": "Ky opsion është i përshtatshëm për administratorët e faqeve në Instagram dhe rrjeteve të tjera sociale. Përdorni POS Affiliate për të marrë dhe shtuar porositë nga klientët manualisht. Filialet tuaja (ose ekskluziviteti) mund të shtojnë porosi të reja në POS-in e Filialit dhe të ngarkojnë fletën e depozitës."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Metodat e hyrjes",
+      "subtitle": "Personalizojeni mënyrën se si përdoruesit hyjnë në dyqanin tuaj."
+    },
+    "checkout": {
+      "title": "Rrjedha e arkëtimit",
+      "subtitle": "Personalizoni udhëtimin tuaj të klientit dhe rrjedhën e blerjeve në tregtinë tuaj elektronike.",
+      "map": {
+        "title": "Harta",
+        "subtitle": "Përdoruesit duhet të zgjedhin vendndodhjen e dorëzimit në hartë (si Uber).",
+        "subtitle_no_map": "Distanca në llogaritjen e transportit konsiderohet zero nëse vendndodhja nuk ekziston në adresën e dhënë nga klienti."
+      },
+      "mode": {
+        "title": "Pika e hyrjes së klientëve",
+        "default": {
+          "title": "ASAP (e parazgjedhur)",
+          "msg": "Përdoruesit hyjnë sa më shpejt që të jetë e mundur. (Më shumë konvertim)"
+        },
+        "on_checkout": {
+          "title": "Në arkë",
+          "msg": "Detyroni përdoruesit të identifikohen në hapin e blerjes."
+        },
+        "login_free": {
+          "title": "Hyrja opsionale",
+          "msg": "Hyrja opsionale pas pagesës së porosisë.."
+        }
+      },
+      "express": {
+        "title": "Ridrejto pas shtimit në shportë",
+        "false": {
+          "title": "Mënyra normale",
+          "msg": "Qëndroni në faqe dhe vazhdoni blerjet pasi të klikoni \"Shto në shportë\"."
+        },
+        "true": {
+          "title": "Modaliteti i shprehur",
+          "msg": "Ridrejtoni klientin në faqen e arkës pasi të klikoni \"Shto në shportë\"."
+        }
+      },
+      "shipping_address": {
+        "title": "Kërkoni adresën e transportit"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fizike dhe shërbimi (e parazgjedhur)",
+      "desc": "Kërkojini klientit të fusë një adresë në arkat fizike dhe të shërbimit."
+    },
+    "physical": {
+      "title": "Vetëm fizike",
+      "desc": "Kërkojini klientit të fusë një adresë vetëm në arkë fizike."
+    },
+    "off": {
+      "title": "kurrë",
+      "desc": "Asnjëherë mos kërkoni adresën e transportit. ⚠ Përdoreni këtë opsion nëse planifikoni të keni shërbime me variante duke zgjedhur llojin fizik për produktet në vend të llojit të shërbimit."
+    }
+  },
+  "business_model": {
+    "title": "Vendosja e modelit të biznesit",
+    "subtitle": "Vendosni modelin tuaj të biznesit dhe ne do të konfigurojmë OS tuaj prapa skenës."
+  },
+  "business_type": {
+    "title": "Llojet e mallit",
+    "subtitle": "Vendosni llojin e produkteve që dëshironi të shisni në dyqanin tuaj. Llojet e produkteve në Selldone janë më shumë se thjesht një lloj produkti; ka të bëjë më shumë me procedurën e përmbushjes.",
+    "send_activation_request_to_support": "Dërgoni një kërkesë aktivizimi në një biletë mbështetëse.",
+    "require_kyc": "Pronari i biznesit KYC.",
+    "needs_enterprise_license": "Ju duhet të keni një licencë të ndërmarrjes.",
+    "marketplace_caution_message": "Vendosni Marketplace si modeli juaj që ndikon thellë në konfigurimin e OS të biznesit tuaj. Për shembull, duhet të përcaktoni të paktën një shitës për çdo produkt me çmim dhe inventar të pavarur. Konsumatorët nuk mund të blejnë produkte që nuk kanë shitës."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Dyqan normal",
+      "desc": "Zakonisht një SME, biznes në shtëpi ose dropshipper - i cili shet produktin e tyre drejtpërdrejt te klientët ose shet produktet e shitësve me shumicë si një rishitës."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Mos mbani asnjë produkt dhe asnjë inventar - ju i paguani një pale të tretë, zakonisht një shitës me shumicë (si Printify, Wholesale2B, ...) ose prodhues, dhe ata përmbushin porositë prapa skenës."
+    },
+    "wholesaler": {
+      "title": "Furnizuesi Dropshipping",
+      "desc": "Zakonisht një shitës me shumicë ose një prodhues - i cili dërgon porosi direkt tek konsumatori përfundimtar. Tregtarët e tjerë në Selldone mund t'i hedhin produktet tuaja në dyqanet e tyre."
+    },
+    "marketplace": {
+      "title": "Tregu",
+      "desc": "Tregjet online lidhin blerësit dhe shitësit në një platformë të pronarit dhe të centralizuar."
+    },
+    "franchise": {
+      "title": "Franshizë / Filialin",
+      "desc": "Një ekskluzivitet është një metodë e shpërndarjes së produkteve ose shërbimeve që përfshin një franchisor i cili themelon markën tuaj (Franshizë) ose shet produktet tuaja sipas markës së tyre (Affiliate)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Kuletat",
+    "pricing_models": "Çmimet",
+    "add_vendor": "Shto shitës",
+    "requests": "Kërkesat"
+  },
+  "price_input_type": {
+    "title": "Lloji i hyrjes së çmimit",
+    "default": {
+      "title": "E paracaktuar",
+      "desc": "Zgjidhni një vlerë si sasi në karrocë."
+    },
+    "area": {
+      "title": "Zona",
+      "desc": "Futni gjerësinë dhe gjatësinë si hyrje për të llogaritur sasinë."
+    },
+    "volume": {
+      "title": "vëllimi",
+      "desc": "Futni gjerësinë, gjatësinë dhe lartësinë si hyrje për të llogaritur sasinë."
+    },
+    "custom": {
+      "title": "Me porosi (sipas formularit të hyrjes)",
+      "desc": "Nuk ka nevojë për qindra variante! Krijoni një formular të llogaritjes së kostos me porosi për produkte shumë të personalizueshme."
+    }
+  },
+  "vendors_list": {
+    "title": "Shitësit e mi",
+    "message": "Lista e shitësve të mi."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Lidhni domene të shumta me sistemin operativ të biznesit tuaj dhe menaxhoni të gjitha ato në një vend. Ju mund të përdorni funksionin e domeneve të shumëfishta për të krijuar domene të dedikuara për secilën pjesë të faqes suaj të internetit, si blogu dhe komuniteti, ose të përdorni domene të ndryshme për bashkëpunëtorët tuaj."
+  },
+  "notes": {
+    "add_action": "Shtoni një shënim për ekipin tuaj",
+    "notifications": {
+      "success_add": "Shënimi është shtuar me sukses.",
+      "success_delete": "Shënimi është fshirë me sukses."
+    }
+  },
+  "external_services": {
+    "title": "Shërbimet e jashtme",
+    "subtitle": "Monitoroni statusin e fundit të shërbimeve të jashtme si SMS dhe email këtu."
   }
 };

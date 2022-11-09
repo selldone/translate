@@ -558,7 +558,52 @@ export default {
     "merchant": "Wamalonda",
     "per_product": "Pa mankhwala",
     "journey": "Ulendo",
-    "after": "Pambuyo"
+    "after": "Pambuyo",
+    "waiting_for_payment": "Chonde malizitsani kulipira...",
+    "hour": "Ola",
+    "minute": "Mphindi",
+    "premium": "Zofunika",
+    "light": "Kuwala",
+    "dark": "Chakuda",
+    "guest": "Mlendo",
+    "shops": "Masitolo",
+    "vendor": "Wogulitsa",
+    "vendors": "Ogulitsa",
+    "marketplace": "Msika",
+    "verify_date": "Tsimikizani tsiku",
+    "note": "Zindikirani",
+    "panel": "Gulu",
+    "removed": "Zachotsedwa",
+    "segments": "Magawo",
+    "personal_info": "Zambiri zaumwini",
+    "preferences": "Zokonda",
+    "spec": "Spec",
+    "reviews": "Ndemanga",
+    "constraints": "Zopinga",
+    "flexible": "Wosinthika",
+    "usage_limit": "Kugwiritsa ntchito malire",
+    "temporary": "Zakanthawi",
+    "original": "Choyambirira",
+    "saved": "Wopulumutsidwa!",
+    "sort": "Sinthani",
+    "documents": "Zolemba",
+    "document": "Chikalata",
+    "please_wait": "Chonde dikirani...",
+    "pickup": "Nyamula",
+    "customize": "makonda",
+    "difficulty": "Zovuta",
+    "banned": "Zoletsedwa",
+    "company": "Kampani",
+    "tax_shipping": "Msonkho Wotumiza",
+    "warranty": "Chitsimikizo",
+    "return_policy": "Mfundo PAZAKABWEZEDWE",
+    "guide": "Wotsogolera",
+    "translate": "Tanthauzirani",
+    "public": "Pagulu",
+    "deleted": "Zachotsedwa",
+    "variant": "Zosiyana",
+    "secure": "Otetezeka",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Track",
     "change_state": "Sinthani Status",
     "done": "Zatheka",
-    "reply": "Yankhani"
+    "reply": "Yankhani",
+    "watch_now": "Penyani Tsopano",
+    "unlock": "Tsegulani",
+    "lock": "Loko",
+    "create_clone": "Pangani chojambula",
+    "regenerate": "Bweretsaninso",
+    "add_message": "Onjezani uthenga",
+    "continue_chat": "Pitirizani kucheza",
+    "add_new_message": "Onjezani uthenga watsopano"
   },
   "instance_message_title": "Tumizani uthenga pompopompo",
   "instance_message": "Moni {name}, Dzina langa ndine {author} wochokera ku {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Positi kodi",
     "enter_value": "Lembani apa",
     "address_note": "Zindikirani",
-    "tel": "Nambala yolumikizira"
+    "tel": "Nambala yolumikizira",
+    "service_address": "Sankhani adilesi yanu"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "mapaundi",
     "makilogalamu",
     "yadi",
-    "chipinda"
+    "chipinda",
+    "masekondi",
+    "mphindi",
+    "maola",
+    "masiku",
+    "masabata",
+    "miyezi",
+    "zaka"
   ],
   "region_types": {
     "State": "Boma",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Utali wochepera uyenera kukhala {length}",
     "invalid_min_array_length": "Osachepera sankhani zinthu {length}",
     "invalid_max_chars": "Zilembo zosachepera {maxCount}",
-    "invalid_url": "URL yolakwika"
+    "invalid_url": "URL yolakwika",
+    "country_invalid": "Sankhani dziko lomwe mukupita!",
+    "postal_code_invalid": "Khazikitsani khodi yapositi yovomerezeka!"
   },
   "colors": {
     "#D32F2F": "Chofiira",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Choyera",
     "#FFF": "Choyera",
     "#000000": "Wakuda",
-    "#000": "Wakuda"
+    "#000": "Wakuda",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Golide",
+    "#229DBF": "Madzi",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Asilikali",
+    "#474747": "Phula",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Wotentha Orange",
+    "#80011F": "Kadinala",
+    "#382829": "Chokoleti",
+    "#F06336": "Makorali",
+    "#FAE7C9": "Kirimu",
+    "#6B2257": "Currant",
+    "#222127": "Imvi Yakuda",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Nthawi zonse",
+    "#214C30": "Nkhalango",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Tsamba",
+    "#558450": "Mwala Aqua",
+    "#96B5C9": "Buluu Wowala",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "Layimu",
+    "#9DE7C2": "Minti",
+    "#F6EAD2": "Zachilengedwe",
+    "#1A1F35": "Navy",
+    "#404624": "Azitona",
+    "#271020": "maula",
+    "#A8355C": "Rasipiberi",
+    "#D6BEA6": "Kirimu Wofewa",
+    "#BEA994": "Tani",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Violet",
+    "#36454F": "Makala",
+    "#b3b0ab": "carbon Gray",
+    "#463e3d": "Makala Heather",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Dzina",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Nambala yomanga",
     "building_unit": "Chigawo",
     "postcode": "Positi kodi",
-    "note": "Zindikirani"
+    "note": "Zindikirani",
+    "county": "County"
   },
   "product_types": {
     "physical": "Zakuthupi",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Mtundu",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Zosavuta",
       "selective": "Zosankha",
-      "switch": "Sinthani"
-    }
+      "switch": "Sinthani",
+      "file": "Fayilo",
+      "number": "Nambala"
+    },
+    "placeholder_input": "Choyimira",
+    "file_type_input": "Mitundu ya mafayilo ovomerezeka",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Dzina lazogulitsa",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Lowetsani foni yanu yam'manja",
     "verification_code": "Nambala yotsimikizira",
     "msg_title": "Moni,",
-    "msg_body": "Chonde lowani. Zimangotenga masekondi angapo."
+    "msg_body": "Chonde lowani. Zimangotenga masekondi angapo.",
+    "login_apple": "Lowani ndi Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Ma tag awonjezedwa"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Zovuta kwambiri",
+    "hard": "Zovuta",
+    "intermediate": "Wapakatikati",
+    "easy": "Zosavuta"
   }
 };

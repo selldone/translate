@@ -558,7 +558,52 @@ export default {
     "merchant": "Umthengisi",
     "per_product": "Ngomkhiqizo ngamunye",
     "journey": "Uhambo",
-    "after": "Ngemva"
+    "after": "Ngemva",
+    "waiting_for_payment": "Sicela ugcwalise inkokhelo...",
+    "hour": "Ihora",
+    "minute": "Iminithi",
+    "premium": "I-Premium",
+    "light": "Ukukhanya",
+    "dark": "Kumnyama",
+    "guest": "Isivakashi",
+    "shops": "Izitolo",
+    "vendor": "Umthengisi",
+    "vendors": "Abathengisi",
+    "marketplace": "Indawo yemakethe",
+    "verify_date": "Qinisekisa idethi",
+    "note": "Qaphela",
+    "panel": "Iphaneli",
+    "removed": "Kususiwe",
+    "segments": "Izigaba",
+    "personal_info": "Ulwazi lomuntu siqu",
+    "preferences": "Okuthandwayo",
+    "spec": "Ukucaciswa",
+    "reviews": "Izibuyekezo",
+    "constraints": "Izithiyo",
+    "flexible": "Kuyavumelana nezimo",
+    "usage_limit": "Umkhawulo wokusetshenziswa",
+    "temporary": "Okwesikhashana",
+    "original": "Okwangempela",
+    "saved": "Kulondoloziwe!",
+    "sort": "Hlunga",
+    "documents": "Amadokhumenti",
+    "document": "Idokhumenti",
+    "please_wait": "Ngicela ulinde...",
+    "pickup": "Phakamisa",
+    "customize": "ngokwezifiso",
+    "difficulty": "Ubunzima",
+    "banned": "Kuvinjelwe",
+    "company": "Inkampani",
+    "tax_shipping": "Intela Yokuthumela",
+    "warranty": "Iwaranti",
+    "return_policy": "Inqubomgomo Yokubuyisela",
+    "guide": "Umhlahlandlela",
+    "translate": "Humusha",
+    "public": "Esidlangalaleni",
+    "deleted": "Kususiwe",
+    "variant": "Okuhlukile",
+    "secure": "Kuvikelekile",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Ithrekhi",
     "change_state": "Shintsha Isimo",
     "done": "Kwenziwe",
-    "reply": "Phendula"
+    "reply": "Phendula",
+    "watch_now": "Buka Manje",
+    "unlock": "Vula",
+    "lock": "Khiya",
+    "create_clone": "Dala i-clone",
+    "regenerate": "Khiqiza kabusha",
+    "add_message": "Engeza umlayezo",
+    "continue_chat": "Qhubeka nengxoxo",
+    "add_new_message": "Engeza umlayezo omusha"
   },
   "instance_message_title": "Thumela umlayezo osheshayo",
   "instance_message": "Sawubona {name}, Igama lami ngingu-{author} kusuka ku-{company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Ikhodi yeposi",
     "enter_value": "Gcwalisa lapha",
     "address_note": "Qaphela",
-    "tel": "Izinombolo zocingo"
+    "tel": "Izinombolo zocingo",
+    "service_address": "Khetha ikheli lakho"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "amaphawundi",
     "amaquarts",
     "amayadi",
-    "igumbi"
+    "igumbi",
+    "imizuzwana",
+    "imizuzu",
+    "amahora",
+    "izinsuku",
+    "amasonto",
+    "izinyanga",
+    "iminyaka"
   ],
   "region_types": {
     "State": "Izwe",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Ubude obuncane kufanele bube {length}",
     "invalid_min_array_length": "Okungenani khetha izinto ezingu-{length}",
     "invalid_max_chars": "Ubuningi bezinhlamvu ezingu-{maxCount}",
-    "invalid_url": "I-URL engavumelekile"
+    "invalid_url": "I-URL engavumelekile",
+    "country_invalid": "Khetha izwe oya kulo!",
+    "postal_code_invalid": "Setha ikhodi yeposi evumelekile!"
   },
   "colors": {
     "#D32F2F": "Okubomvu",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Emhlophe",
     "#FFF": "Emhlophe",
     "#000000": "Mnyama",
-    "#000": "Mnyama"
+    "#000": "Mnyama",
+    "#7d263a": "I-Maroon",
+    "#FD9F17": "Igolide",
+    "#229DBF": "I-Aqua",
+    "#6DC9E2": "I-Aqua Triblend",
+    "#413B2D": "Ibutho",
+    "#474747": "Itiyela",
+    "#E6195C": "Berry",
+    "#B2184C": "I-Berry Triblend",
+    "#FC7F5F": "Iwolintshi Eshile",
+    "#80011F": "UKhadinali",
+    "#382829": "Ushokoledi",
+    "#F06336": "Amakhorali",
+    "#FAE7C9": "Ukhilimu",
+    "#6B2257": "I-currant",
+    "#222127": "Okumpunga Okumnyama",
+    "#0D5A74": "I-Deep Teal",
+    "#00582F": "Evergreen",
+    "#214C30": "Ihlathi",
+    "#DC2867": "I-Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Iqabunga",
+    "#558450": "I-Aqua Ekhanyayo",
+    "#96B5C9": "Okuluhlaza Okukhanyayo",
+    "#DCAFCE": "I-Lilac",
+    "#D3E1A4": "Eluhlaza",
+    "#9DE7C2": "I-Mint",
+    "#F6EAD2": "Okwemvelo",
+    "#1A1F35": "I-Navy",
+    "#404624": "Umnqumo",
+    "#271020": "ipulamu",
+    "#A8355C": "Okusajingijolo",
+    "#D6BEA6": "Ukhilimu Othambile",
+    "#BEA994": "I-Tan",
+    "#0DB2AE": "I-Teal",
+    "#A86EA9": "I-Violet",
+    "#36454F": "Amalahle",
+    "#b3b0ab": "i-carbon Gray",
+    "#463e3d": "UHeather wamalahle",
+    "#282d3c": "I-Navy Blazer"
   },
   "address_info": {
     "name": "Igama",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Inombolo yesakhiwo",
     "building_unit": "Iyunithi",
     "postcode": "Ikhodi yeposi",
-    "note": "Qaphela"
+    "note": "Qaphela",
+    "county": "Isifunda"
   },
   "product_types": {
     "physical": "Okomzimba",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Umbala",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Kulula",
       "selective": "Ukukhetha",
-      "switch": "Shintsha"
-    }
+      "switch": "Shintsha",
+      "file": "Ifayela",
+      "number": "Inombolo"
+    },
+    "placeholder_input": "Isimeli",
+    "file_type_input": "Izinhlobo zamafayela ezamukelekayo",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "Igama Lomkhiqizo",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Faka iselula yakho",
     "verification_code": "Ikhodi yokuqinisekisa",
     "msg_title": "Sawubona,",
-    "msg_body": "Sicela ungene ngemvume. Kuthatha imizuzwana embalwa."
+    "msg_body": "Sicela ungene ngemvume. Kuthatha imizuzwana embalwa.",
+    "login_apple": "Ngena ngemvume nge-Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Amathegi angeziwe"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Iyinkimbinkimbi kakhulu",
+    "hard": "Kunzima",
+    "intermediate": "Ophakathi",
+    "easy": "Kulula"
   }
 };

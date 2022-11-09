@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Produk-produk terkait",
     "price": "Harga",
     "rate": "Kecepatan",
-    "comment": "Komentar"
+    "comment": "Komentar",
+    "warranty": "Jaminan",
+    "return_policy": "Kebijakan pengembalian",
+    "guide": "Memandu",
+    "shipping": "Pengiriman"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Pesanan Anda berhasil dilakukan.",
       "delete_success": "Item dihapus."
-    }
+    },
+    "select_address_message": "Silakan masukkan alamat Anda, dan kemudian Anda dapat mengirimkan pesanan."
   },
   "hyper": {
     "title": "Pembuatan pesanan",
@@ -541,5 +546,19 @@ export default {
       "message": "Anda telah menetapkan biaya untuk item ini. Anda dapat mengubah jumlah tagihan untuk barang yang dibeli oleh pelanggan.",
       "charge": "Mengenakan biaya"
     }
+  },
+  "check_access": {
+    "waiting_message": "Menunggu untuk memeriksa akses...",
+    "no_access_message": "Sayangnya, Anda tidak memiliki akses ke toko kami.<br/> Silahkan hubungi kami."
+  },
+  "share_order": {
+    "action": "Bagikan pesanan",
+    "title": "Bagikan pesanan ini dengan orang lain.",
+    "message": "Ini adalah tautan yang aman, hanya bagikan dengan orang yang Anda kenal. Semua orang yang memiliki tautan ini dapat menduplikasi pesanan Anda dan melihat alamat yang dipilih. Ini akan berisi informasi tentang keranjang Anda saat ini.",
+    "valid_period": "Tautan ini akan kedaluwarsa setelah 48 jam.",
+    "import_order_action": "Impor pesanan",
+    "retrieve_dialog_title": "Ambil pesanan eksternal",
+    "address_included": "Bagikan item keranjang + Alamat",
+    "address_excluded": "Bagikan hanya item keranjang"
   }
 };

@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Degişli önümler",
     "price": "Bahasy",
     "rate": "Baha",
-    "comment": "Düşündiriş"
+    "comment": "Düşündiriş",
+    "warranty": "Kepillik",
+    "return_policy": "Yzyna gaýdyp gelmek syýasaty",
+    "guide": "Gollanma",
+    "shipping": "Eltip bermek"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Sargydyňyz üstünlikli ýerleşdirildi",
       "delete_success": "Haryt öçürildi"
-    }
+    },
+    "select_address_message": "Salgyňyzy ýazmagyňyzy haýyş edýäris, soňra sargyt iberip bilersiňiz."
   },
   "hyper": {
     "title": "Sargyt döretmek",
@@ -541,5 +546,19 @@ export default {
       "message": "Bu element üçin töleg bellediňiz. Müşderi tarapyndan satyn alnan zat üçin töleg mukdaryny üýtgedip bilersiňiz.",
       "charge": "Zarýad"
     }
+  },
+  "check_access": {
+    "waiting_message": "Giriş barlagyna garaşýan ...",
+    "no_access_message": "Gynansagam, dükanymyza girip bilmersiňiz.<br/> Biziň bilen habarlaşmagyňyzy haýyş edýäris."
+  },
+  "share_order": {
+    "action": "Sargyt paýlaşyň",
+    "title": "Bu buýrugy beýlekiler bilen paýlaşyň.",
+    "message": "Ygtybarly baglanyşyk, diňe tanaýanlaryňyz bilen paýlaşyň. Bu baglanyşygy bolan her bir adam sargydyňyzy köpeldip we saýlanan adresi görüp biler. Onda häzirki arabaňyz barada maglumatlar bolar.",
+    "valid_period": "Bu baglanyşyk 48 sagatdan soň gutarar.",
+    "import_order_action": "Sargyt import ediň",
+    "retrieve_dialog_title": "Daşarky tertibi alyň",
+    "address_included": "Sebet elementlerini + Salgyny paýlaşyň",
+    "address_excluded": "Diňe sebet zatlaryny paýlaşyň"
   }
 };

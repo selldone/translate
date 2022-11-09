@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Skyldar vörur",
     "price": "Verð",
     "rate": "Gefa",
-    "comment": "Athugasemd"
+    "comment": "Athugasemd",
+    "warranty": "Ábyrgð",
+    "return_policy": "Skilareglur",
+    "guide": "Leiðsögumaður",
+    "shipping": "Sending"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Pöntunin þín tókst.",
       "delete_success": "Atriði eytt."
-    }
+    },
+    "select_address_message": "Vinsamlegast sláðu inn heimilisfangið þitt og þá geturðu sent inn pöntunina."
   },
   "hyper": {
     "title": "Pantanagerð",
@@ -541,5 +546,19 @@ export default {
       "message": "Þú hefur tilgreint gjald fyrir þessa vöru. Þú getur breytt gjaldupphæðinni fyrir vöruna sem viðskiptavinurinn keypti.",
       "charge": "Hleðsla"
     }
+  },
+  "check_access": {
+    "waiting_message": "Bíður eftir að athuga aðgang...",
+    "no_access_message": "Því miður hefur þú ekki aðgang að verslun okkar.<br/> Vinsamlegast hafðu samband við okkur."
+  },
+  "share_order": {
+    "action": "Deildu pöntun",
+    "title": "Deildu þessari pöntun með öðrum.",
+    "message": "Þetta er öruggur hlekkur, deildu honum aðeins með þeim sem þú þekkir. Allir með þennan hlekk geta afritað pöntunina þína og séð valið heimilisfang. Það mun innihalda upplýsingar um núverandi körfu.",
+    "valid_period": "Þessi hlekkur rennur út eftir 48 klukkustundir.",
+    "import_order_action": "Innflutningspöntun",
+    "retrieve_dialog_title": "Sækja ytri pöntun",
+    "address_included": "Deildu körfuhlutum + heimilisfangi",
+    "address_excluded": "Deildu aðeins körfuhlutum"
   }
 };

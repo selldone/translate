@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Verwandte Produkte",
     "price": "Preis",
     "rate": "Rate",
-    "comment": "Kommentar"
+    "comment": "Kommentar",
+    "warranty": "Garantie",
+    "return_policy": "Rücknahmegarantie",
+    "guide": "Führen",
+    "shipping": "Versand"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Ihre Bestellung wurde erfolgreich aufgegeben.",
       "delete_success": "Artikel gelöscht."
-    }
+    },
+    "select_address_message": "Bitte geben Sie Ihre Adresse ein, dann können Sie die Bestellung absenden."
   },
   "hyper": {
     "title": "Auftragserstellung",
@@ -541,5 +546,19 @@ export default {
       "message": "Sie haben für diesen Artikel eine Gebühr angegeben. Sie können den Belastungsbetrag für den vom Kunden gekauften Artikel ändern.",
       "charge": "Aufladen"
     }
+  },
+  "check_access": {
+    "waiting_message": "Warten auf Zugriffsprüfung...",
+    "no_access_message": "Leider haben Sie keinen Zugang zu unserem Shop.<br/> Bitte kontaktieren Sie uns."
+  },
+  "share_order": {
+    "action": "Bestellung teilen",
+    "title": "Teilen Sie diese Bestellung mit anderen.",
+    "message": "Es ist ein sicherer Link, teilen Sie ihn nur mit denen, die Sie kennen. Jeder mit diesem Link kann Ihre Bestellung duplizieren und die ausgewählte Adresse sehen. Es enthält Informationen zu Ihrem aktuellen Warenkorb.",
+    "valid_period": "Dieser Link läuft nach 48 Stunden ab.",
+    "import_order_action": "Bestellung importieren",
+    "retrieve_dialog_title": "Externe Bestellung abrufen",
+    "address_included": "Artikel im Warenkorb teilen + Adresse",
+    "address_excluded": "Teilen Sie nur Artikel im Warenkorb"
   }
 };

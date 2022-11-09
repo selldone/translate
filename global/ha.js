@@ -558,7 +558,52 @@ export default {
     "merchant": "Dan kasuwa",
     "per_product": "Kowane samfur",
     "journey": "Tafiya",
-    "after": "Bayan"
+    "after": "Bayan",
+    "waiting_for_payment": "Da fatan za a kammala biyan kuɗi...",
+    "hour": "Sa'a",
+    "minute": "Minti",
+    "premium": "Premium",
+    "light": "Haske",
+    "dark": "Duhu",
+    "guest": "Bako",
+    "shops": "Stores",
+    "vendor": "Mai sayarwa",
+    "vendors": "Dillalai",
+    "marketplace": "Kasuwa",
+    "verify_date": "Tabbatar da kwanan wata",
+    "note": "Bayanan kula",
+    "panel": "Panel",
+    "removed": "An cire",
+    "segments": "Yankuna",
+    "personal_info": "Bayanin sirri",
+    "preferences": "Abubuwan da ake so",
+    "spec": "Spec",
+    "reviews": "Sharhi",
+    "constraints": "Matsaloli",
+    "flexible": "M",
+    "usage_limit": "Iyakar amfani",
+    "temporary": "Na wucin gadi",
+    "original": "Na asali",
+    "saved": "An ajiye!",
+    "sort": "Tsara",
+    "documents": "Takardu",
+    "document": "Takardu",
+    "please_wait": "Don Allah jira...",
+    "pickup": "Daukewa",
+    "customize": "siffanta",
+    "difficulty": "Wahala",
+    "banned": "An haramta",
+    "company": "Kamfanin",
+    "tax_shipping": "Harajin jigilar kaya",
+    "warranty": "Garanti",
+    "return_policy": "Manufar Komawa",
+    "guide": "Jagora",
+    "translate": "Fassara",
+    "public": "Jama'a",
+    "deleted": "An share",
+    "variant": "Bambance-bambance",
+    "secure": "Amintacce",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Waƙa",
     "change_state": "Canja Matsayi",
     "done": "Anyi",
-    "reply": "Amsa"
+    "reply": "Amsa",
+    "watch_now": "Kalli Yanzu",
+    "unlock": "Buɗe",
+    "lock": "Kulle",
+    "create_clone": "Ƙirƙiri clone",
+    "regenerate": "Sake haɓakawa",
+    "add_message": "Ƙara sako",
+    "continue_chat": "Ci gaba da hira",
+    "add_new_message": "Ƙara sabon saƙo"
   },
   "instance_message_title": "Aika saƙon take",
   "instance_message": "Barka dai {name}, sunana {author} daga {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Lambar gidan waya",
     "enter_value": "Cika a nan",
     "address_note": "Bayanan kula",
-    "tel": "Lambar tuntuɓar"
+    "tel": "Lambar tuntuɓar",
+    "service_address": "Zaɓi adireshin ku"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "fam",
     "kwata",
     "yadi",
-    "dakin"
+    "dakin",
+    "seconds",
+    "mintuna",
+    "hours",
+    "kwanaki",
+    "makonni",
+    "watanni",
+    "shekaru"
   ],
   "region_types": {
     "State": "Jiha",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Mafi ƙarancin tsayi dole ne ya kasance {length}",
     "invalid_min_array_length": "Aƙalla zaɓi abubuwa {length}",
     "invalid_max_chars": "Matsakaicin haruffa {maxCount}",
-    "invalid_url": "URL mara inganci"
+    "invalid_url": "URL mara inganci",
+    "country_invalid": "Zaɓi ƙasar nufi!",
+    "postal_code_invalid": "Saita ingantacciyar lambar gidan waya!"
   },
   "colors": {
     "#D32F2F": "Ja",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Fari",
     "#FFF": "Fari",
     "#000000": "Baki",
-    "#000": "Baki"
+    "#000": "Baki",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Zinariya",
+    "#229DBF": "Ruwa",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Sojoji",
+    "#474747": "Kwalta",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Ƙunƙarar Orange",
+    "#80011F": "Cardinal",
+    "#382829": "Chocolate",
+    "#F06336": "Coral",
+    "#FAE7C9": "Cream",
+    "#6B2257": "Currant",
+    "#222127": "Dark Grey",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Evergreen",
+    "#214C30": "Daji",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Leaf",
+    "#558450": "Haske Aqua",
+    "#96B5C9": "Launi mai haske",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "Lemun tsami",
+    "#9DE7C2": "Mint",
+    "#F6EAD2": "Halitta",
+    "#1A1F35": "Sojojin ruwa",
+    "#404624": "Zaitun",
+    "#271020": "Plum",
+    "#A8355C": "Rasberi",
+    "#D6BEA6": "Kirim mai laushi",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Violet",
+    "#36454F": "gawayi",
+    "#b3b0ab": "carbon Grey",
+    "#463e3d": "Gawayi Heather",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Suna",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Lambar gini",
     "building_unit": "Naúrar",
     "postcode": "Lambar gidan waya",
-    "note": "Bayanan kula"
+    "note": "Bayanan kula",
+    "county": "Karamar hukuma"
   },
   "product_types": {
     "physical": "Na zahiri",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Launi",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Sauƙi",
       "selective": "Zaɓaɓɓe",
-      "switch": "Sauya"
-    }
+      "switch": "Sauya",
+      "file": "Fayil",
+      "number": "Lamba"
+    },
+    "placeholder_input": "Mai riƙe wuri",
+    "file_type_input": "Nau'in fayil ɗin da aka karɓa",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "Sunan samfur",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Shigar da wayar hannu",
     "verification_code": "Lambar tabbaci",
     "msg_title": "Sannu,",
-    "msg_body": "Da fatan za a shiga Yana ɗaukar 'yan daƙiƙa kaɗan kawai."
+    "msg_body": "Da fatan za a shiga Yana ɗaukar 'yan daƙiƙa kaɗan kawai.",
+    "login_apple": "Login tare da Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Tags kara"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Mai rikitarwa",
+    "hard": "Mai wuya",
+    "intermediate": "Matsakaici",
+    "easy": "Sauƙi"
   }
 };

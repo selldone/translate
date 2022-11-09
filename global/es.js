@@ -341,7 +341,7 @@ export default {
     "waiting": "Esperando...",
     "waiting_connecting_payment": "Esperando el servicio de pago...",
     "creating_secure_payment": "Creación de pago seguro.",
-    "waiting_for_payment":"Por favor complete el pago...",
+    "waiting_for_payment": "Por favor complete el pago...",
     "officer": "Oficial",
     "ticket": "Billete",
     "ticket_url": "URL del billete",
@@ -559,7 +559,51 @@ export default {
     "merchant": "Comerciante",
     "per_product": "por producto",
     "journey": "Viaje",
-    "after": "Después"
+    "after": "Después",
+    "hour": "Hora",
+    "minute": "Minuto",
+    "premium": "De primera calidad",
+    "light": "Luz",
+    "dark": "Oscuro",
+    "guest": "Invitado",
+    "shops": "Historias",
+    "vendor": "Vendedor",
+    "vendors": "Vendedores",
+    "marketplace": "Mercado",
+    "verify_date": "Verificar fecha",
+    "note": "Nota",
+    "panel": "Panel",
+    "removed": "Remoto",
+    "segments": "Segmentos",
+    "personal_info": "Información personal",
+    "preferences": "preferencias",
+    "spec": "Especificaciones",
+    "reviews": "Reseñas",
+    "constraints": "Restricciones",
+    "flexible": "Flexible",
+    "usage_limit": "límite de uso",
+    "temporary": "Temporario",
+    "original": "Original",
+    "saved": "¡Salvado!",
+    "sort": "Clasificar",
+    "documents": "Documentos",
+    "document": "Documento",
+    "please_wait": "Espere por favor...",
+    "pickup": "Recoger",
+    "customize": "personalizar",
+    "difficulty": "Dificultad",
+    "banned": "Prohibido",
+    "company": "Empresa",
+    "tax_shipping": "Impuesto de envío",
+    "warranty": "Garantía",
+    "return_policy": "Política de devoluciones",
+    "guide": "Guía",
+    "translate": "Traducir",
+    "public": "Público",
+    "deleted": "Eliminado",
+    "variant": "Variante",
+    "secure": "Seguro",
+    "admin": "Administración"
   },
   "dialogs": {
     "delete": {
@@ -670,7 +714,15 @@ export default {
     "track": "Pista",
     "change_state": "Cambiar Estado",
     "done": "Hecho",
-    "reply": "Respuesta"
+    "reply": "Respuesta",
+    "watch_now": "Ver ahora",
+    "unlock": "desbloquear",
+    "lock": "Cerrar",
+    "create_clone": "Crear clon",
+    "regenerate": "Regenerado",
+    "add_message": "Agregar mensaje",
+    "continue_chat": "Continuar chat",
+    "add_new_message": "Agregar nuevo mensaje"
   },
   "instance_message_title": "Enviar mensaje instantáneo",
   "instance_message": "Hola, {name}, mi nombre es {author} de {company}.",
@@ -691,7 +743,8 @@ export default {
     "postcode": "Código postal",
     "enter_value": "Rellena aquí",
     "address_note": "Nota",
-    "tel": "Número de contacto"
+    "tel": "Número de contacto",
+    "service_address": "Seleccione su dirección"
   },
   "weight": {
     "g": "gramo",
@@ -754,7 +807,14 @@ export default {
     "libras",
     "cuartos",
     "yardas",
-    "habitación"
+    "habitación",
+    "segundos",
+    "minutos",
+    "horas",
+    "días",
+    "semanas",
+    "meses",
+    "años"
   ],
   "region_types": {
     "State": "Expresar",
@@ -797,7 +857,9 @@ export default {
     "invalid_min_length": "La longitud mínima debe ser {length}",
     "invalid_min_array_length": "Al menos seleccione elementos de {length}",
     "invalid_max_chars": "Max {maxCount} caracteres",
-    "invalid_url": "URL invalida"
+    "invalid_url": "URL invalida",
+    "country_invalid": "¡Seleccione el país de destino!",
+    "postal_code_invalid": "¡Establece un código postal válido!"
   },
   "colors": {
     "#D32F2F": "Rojo",
@@ -826,7 +888,46 @@ export default {
     "#FFFFFF": "Blanco",
     "#FFF": "Blanco",
     "#000000": "Negro",
-    "#000": "Negro"
+    "#000": "Negro",
+    "#7d263a": "Granate",
+    "#FD9F17": "Oro",
+    "#229DBF": "Agua",
+    "#6DC9E2": "Triblend aguamarina",
+    "#413B2D": "Ejército",
+    "#474747": "Asfalto",
+    "#E6195C": "Baya",
+    "#B2184C": "Mezcla triple de bayas",
+    "#FC7F5F": "Naranja quemada",
+    "#80011F": "Cardenal",
+    "#382829": "Chocolate",
+    "#F06336": "Coral",
+    "#FAE7C9": "Crema",
+    "#6B2257": "Grosella",
+    "#222127": "Gris oscuro",
+    "#0D5A74": "verde azulado profundo",
+    "#00582F": "Hojas perennes",
+    "#214C30": "Bosque",
+    "#DC2867": "Fucsia",
+    "#38561": "Kelly",
+    "#5C884D": "Hoja",
+    "#558450": "Agua clara",
+    "#96B5C9": "Azul claro",
+    "#DCAFCE": "Lila",
+    "#D3E1A4": "Lima",
+    "#9DE7C2": "menta",
+    "#F6EAD2": "Natural",
+    "#1A1F35": "Armada",
+    "#404624": "Aceituna",
+    "#271020": "Ciruela",
+    "#A8355C": "Frambuesa",
+    "#D6BEA6": "Crema suave",
+    "#BEA994": "Broncearse",
+    "#0DB2AE": "verde azulado",
+    "#A86EA9": "Violeta",
+    "#36454F": "Carbón",
+    "#b3b0ab": "gris carbón",
+    "#463e3d": "Brezo carbón",
+    "#282d3c": "Chaqueta azul marino"
   },
   "address_info": {
     "name": "Nombre",
@@ -839,7 +940,8 @@ export default {
     "building_number": "Número de edificio",
     "building_unit": "Unidad",
     "postcode": "Código postal",
-    "note": "Nota"
+    "note": "Nota",
+    "county": "Condado"
   },
   "product_types": {
     "physical": "Físico",
@@ -1000,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Color",
@@ -1243,8 +1349,13 @@ export default {
     "types": {
       "simple": "Sencillo",
       "selective": "Selectivo",
-      "switch": "Cambiar"
-    }
+      "switch": "Cambiar",
+      "file": "Archivo",
+      "number": "Número"
+    },
+    "placeholder_input": "Marcador de posición",
+    "file_type_input": "Tipos de archivos aceptables",
+    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "nombre del producto",
@@ -1551,7 +1662,8 @@ export default {
     "mobile_input": "Introduce tu móvil",
     "verification_code": "Código de verificación",
     "msg_title": "Hola,",
-    "msg_body": "Por favor Iniciar sesión. Solo toma unos segundos."
+    "msg_body": "Por favor Iniciar sesión. Solo toma unos segundos.",
+    "login_apple": "Iniciar sesión con Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1774,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Etiquetas añadidas"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Muy complicado",
+    "hard": "Difícil",
+    "intermediate": "Intermedio",
+    "easy": "Fácil"
   }
 };

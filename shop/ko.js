@@ -105,7 +105,11 @@ export default {
     "related_products_title": "관련 상품",
     "price": "가격",
     "rate": "비율",
-    "comment": "논평"
+    "comment": "논평",
+    "warranty": "보증",
+    "return_policy": "반품 정책",
+    "guide": "가이드",
+    "shipping": "배송"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "주문이 완료되었습니다.",
       "delete_success": "항목이 삭제되었습니다."
-    }
+    },
+    "select_address_message": "주소를 입력한 후 주문을 제출할 수 있습니다."
   },
   "hyper": {
     "title": "주문 생성",
@@ -541,5 +546,19 @@ export default {
       "message": "이 항목에 대한 요금을 지정했습니다. 고객이 구매한 상품의 청구금액을 변경할 수 있습니다.",
       "charge": "요금"
     }
+  },
+  "check_access": {
+    "waiting_message": "액세스 확인을 기다리는 중...",
+    "no_access_message": "불행히도, 당신은 우리 가게에 액세스할 수 없습니다.<br/> 연락주세요."
+  },
+  "share_order": {
+    "action": "공유 주문",
+    "title": "이 주문을 다른 사람들과 공유하십시오.",
+    "message": "안전한 링크이므로 아는 사람과만 공유하십시오. 이 링크가 있는 모든 사용자는 주문을 복제하고 선택한 주소를 볼 수 있습니다. 여기에는 현재 장바구니에 대한 정보가 포함됩니다.",
+    "valid_period": "이 링크는 48시간 후에 만료됩니다.",
+    "import_order_action": "수입 주문",
+    "retrieve_dialog_title": "외부 주문 검색",
+    "address_included": "장바구니 항목 공유 + 주소",
+    "address_excluded": "장바구니 항목만 공유"
   }
 };

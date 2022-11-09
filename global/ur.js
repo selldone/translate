@@ -558,7 +558,52 @@ export default {
     "merchant": "سوداگر",
     "per_product": "فی پروڈکٹ",
     "journey": "سفر",
-    "after": "کے بعد"
+    "after": "کے بعد",
+    "waiting_for_payment": "براہ کرم ادائیگی مکمل کریں...",
+    "hour": "گھنٹہ",
+    "minute": "منٹ",
+    "premium": "پریمیم",
+    "light": "روشنی",
+    "dark": "اندھیرا",
+    "guest": "مہمان",
+    "shops": "اسٹورز",
+    "vendor": "فروش",
+    "vendors": "فروش",
+    "marketplace": "بازار",
+    "verify_date": "تاریخ کی تصدیق کریں۔",
+    "note": "نوٹ",
+    "panel": "پینل",
+    "removed": "ہٹا دیا گیا۔",
+    "segments": "طبقات",
+    "personal_info": "ذاتی معلومات",
+    "preferences": "ترجیحات",
+    "spec": "سپیک",
+    "reviews": "جائزے",
+    "constraints": "رکاوٹوں",
+    "flexible": "لچکدار",
+    "usage_limit": "استعمال کی حد",
+    "temporary": "عارضی",
+    "original": "اصل",
+    "saved": "محفوظ کر لیا!",
+    "sort": "ترتیب دیں",
+    "documents": "دستاویزات",
+    "document": "دستاویز",
+    "please_wait": "برائے مہربانی انتظار کریں...",
+    "pickup": "اٹھاؤ",
+    "customize": "اپنی مرضی کے مطابق بنائیں",
+    "difficulty": "مشکل",
+    "banned": "پابندی لگا دی گئی۔",
+    "company": "کمپنی",
+    "tax_shipping": "شپنگ ٹیکس",
+    "warranty": "وارنٹی",
+    "return_policy": "واپسی کی پالیسی",
+    "guide": "رہنما",
+    "translate": "ترجمہ کریں۔",
+    "public": "عوام",
+    "deleted": "حذف کر دیا گیا۔",
+    "variant": "متغیر",
+    "secure": "محفوظ",
+    "admin": "ایڈمن"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "ٹریک",
     "change_state": "اسٹیٹس کو تبدیل کریں۔",
     "done": "ہو گیا",
-    "reply": "جواب دیں۔"
+    "reply": "جواب دیں۔",
+    "watch_now": "اب دیکھتے ہیں",
+    "unlock": "غیر مقفل کریں۔",
+    "lock": "تالا",
+    "create_clone": "کلون بنائیں",
+    "regenerate": "دوبارہ پیدا کرنا",
+    "add_message": "پیغام شامل کریں۔",
+    "continue_chat": "چیٹ جاری رکھیں",
+    "add_new_message": "نیا پیغام شامل کریں۔"
   },
   "instance_message_title": "فوری پیغام بھیجیں۔",
   "instance_message": "ہائے {name}، میرا نام {company} کی طرف سے {author} ہے۔",
@@ -690,7 +743,8 @@ export default {
     "postcode": "پوسٹ کوڈ",
     "enter_value": "یہاں بھریں۔",
     "address_note": "نوٹ",
-    "tel": "رابطہ نمبر"
+    "tel": "رابطہ نمبر",
+    "service_address": "اپنا پتہ منتخب کریں۔"
   },
   "weight": {
     "g": "جی",
@@ -753,7 +807,14 @@ export default {
     "پاؤنڈ",
     "کوارٹس",
     "گز",
-    "کمرہ"
+    "کمرہ",
+    "سیکنڈ",
+    "منٹ",
+    "گھنٹے",
+    "دن",
+    "ہفتے",
+    "مہینے",
+    "سال"
   ],
   "region_types": {
     "State": "حالت",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "کم از کم لمبائی {length} ہونی چاہیے",
     "invalid_min_array_length": "کم از کم {length} آئٹمز منتخب کریں۔",
     "invalid_max_chars": "زیادہ سے زیادہ {maxCount} حروف",
-    "invalid_url": "غلط URL"
+    "invalid_url": "غلط URL",
+    "country_invalid": "منزل کا ملک منتخب کریں!",
+    "postal_code_invalid": "درست پوسٹل کوڈ سیٹ کریں!"
   },
   "colors": {
     "#D32F2F": "سرخ",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "سفید",
     "#FFF": "سفید",
     "#000000": "سیاہ",
-    "#000": "سیاہ"
+    "#000": "سیاہ",
+    "#7d263a": "مرون",
+    "#FD9F17": "سونا",
+    "#229DBF": "ایکوا",
+    "#6DC9E2": "ایکوا ٹریبلینڈ",
+    "#413B2D": "فوج",
+    "#474747": "اسفالٹ",
+    "#E6195C": "بیری",
+    "#B2184C": "بیری ٹریبلینڈ",
+    "#FC7F5F": "جلی ہوئی اورنج",
+    "#80011F": "کارڈنل",
+    "#382829": "چاکلیٹ",
+    "#F06336": "مرجان",
+    "#FAE7C9": "کریم",
+    "#6B2257": "بغیر بیج کی کشمش",
+    "#222127": "گہرا بھورا",
+    "#0D5A74": "گہرا ٹیل",
+    "#00582F": "سدا بہار",
+    "#214C30": "جنگل",
+    "#DC2867": "فوشیا",
+    "#38561": "کیلی",
+    "#5C884D": "پتی۔",
+    "#558450": "لائٹ ایکوا",
+    "#96B5C9": "ہلکے نیلے رنگ کے",
+    "#DCAFCE": "لیلک",
+    "#D3E1A4": "لیموں",
+    "#9DE7C2": "ٹکسال",
+    "#F6EAD2": "قدرتی",
+    "#1A1F35": "بحریہ",
+    "#404624": "زیتون",
+    "#271020": "آلوبخارہ",
+    "#A8355C": "رس بھری",
+    "#D6BEA6": "نرم کریم",
+    "#BEA994": "ٹین",
+    "#0DB2AE": "ٹیل",
+    "#A86EA9": "وایلیٹ",
+    "#36454F": "چارکول",
+    "#b3b0ab": "کاربن گرے",
+    "#463e3d": "چارکول ہیدر",
+    "#282d3c": "نیوی بلیزر"
   },
   "address_info": {
     "name": "نام",
@@ -838,7 +940,8 @@ export default {
     "building_number": "عمارت نمبر",
     "building_unit": "یونٹ",
     "postcode": "پوسٹ کوڈ",
-    "note": "نوٹ"
+    "note": "نوٹ",
+    "county": "کاؤنٹی"
   },
   "product_types": {
     "physical": "جسمانی",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "رنگ",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "سادہ",
       "selective": "انتخابی",
-      "switch": "سوئچ"
-    }
+      "switch": "سوئچ",
+      "file": "فائل",
+      "number": "نمبر"
+    },
+    "placeholder_input": "پلیس ہولڈر",
+    "file_type_input": "قابل قبول فائل کی اقسام",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "پروڈکٹ کا نام",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "اپنا موبائل درج کریں۔",
     "verification_code": "تصدیقی کوڈ",
     "msg_title": "ہیلو،",
-    "msg_body": "برائے مہربانی لاگ ان کریں. اس میں صرف چند سیکنڈ لگتے ہیں۔"
+    "msg_body": "برائے مہربانی لاگ ان کریں. اس میں صرف چند سیکنڈ لگتے ہیں۔",
+    "login_apple": "ایپل کے ساتھ لاگ ان کریں۔"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "ٹیگز شامل کیے گئے۔"
     }
+  },
+  "difficulties": {
+    "very_complicated": "بہت پیچیدہ",
+    "hard": "سخت",
+    "intermediate": "انٹرمیڈیٹ",
+    "easy": "آسان"
   }
 };

@@ -558,7 +558,52 @@ export default {
     "merchant": "Händler",
     "per_product": "Pro Produkt",
     "journey": "Rees",
-    "after": "Nach"
+    "after": "Nach",
+    "waiting_for_payment": "Fëllt w.e.g. d'Bezuelung ...",
+    "hour": "Stonn",
+    "minute": "Minutt",
+    "premium": "Premium",
+    "light": "Liicht",
+    "dark": "Däischter",
+    "guest": "Gaascht",
+    "shops": "Geschäfter",
+    "vendor": "Verkeefer",
+    "vendors": "Verkeefer",
+    "marketplace": "Maartplaz",
+    "verify_date": "Verifizéiert Datum",
+    "note": "Note",
+    "panel": "Panel",
+    "removed": "Geläscht",
+    "segments": "Segmenter",
+    "personal_info": "Perséinlech Informatioun",
+    "preferences": "Preferenzen",
+    "spec": "Spez",
+    "reviews": "Rezensiounen",
+    "constraints": "Aschränkungen",
+    "flexible": "Flexibel",
+    "usage_limit": "Benotze Limit",
+    "temporary": "Temporär",
+    "original": "Original",
+    "saved": "Gespuert!",
+    "sort": "Zortéieren",
+    "documents": "Dokumenter",
+    "document": "Dokument",
+    "please_wait": "W.e.g. waart ...",
+    "pickup": "Ophiewen",
+    "customize": "personaliséiere",
+    "difficulty": "Schwieregkeet",
+    "banned": "Verbueden",
+    "company": "Firma",
+    "tax_shipping": "Shipping Tax",
+    "warranty": "Garantie",
+    "return_policy": "Reckgaberecht",
+    "guide": "Guide",
+    "translate": "Iwwersetzen",
+    "public": "Ëffentlech",
+    "deleted": "Geläscht",
+    "variant": "Variant",
+    "secure": "Séchert",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Streck",
     "change_state": "Status änneren",
     "done": "Gemaach",
-    "reply": "Äntwert"
+    "reply": "Äntwert",
+    "watch_now": "Kuckt elo",
+    "unlock": "Spär op",
+    "lock": "Spär",
+    "create_clone": "Klon erstellen",
+    "regenerate": "Regeneréieren",
+    "add_message": "Add Message",
+    "continue_chat": "Chat weider",
+    "add_new_message": "Füügt neie Message"
   },
   "instance_message_title": "Schécken Direktnoriichten",
   "instance_message": "Salut {name}, Mäin Numm ass {author} vun {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Postleitzuel",
     "enter_value": "Fëllt hei",
     "address_note": "Note",
-    "tel": "Kontakt Zuel"
+    "tel": "Kontakt Zuel",
+    "service_address": "Wielt Är Adress"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "Pond",
     "Quarts",
     "Meter",
-    "Zëmmer"
+    "Zëmmer",
+    "Sekonnen",
+    "Minutten",
+    "Stonnen",
+    "Deeg",
+    "Wochen",
+    "Méint",
+    "Joer"
   ],
   "region_types": {
     "State": "Staat",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Minimum Längt muss {length} sinn",
     "invalid_min_array_length": "Wielt op d'mannst {length} Elementer",
     "invalid_max_chars": "Max {maxCount} Zeechen",
-    "invalid_url": "Invalid URL"
+    "invalid_url": "Invalid URL",
+    "country_invalid": "Wielt Destinatiounsland!",
+    "postal_code_invalid": "Set valabel Postleitzuel!"
   },
   "colors": {
     "#D32F2F": "Rout",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Wäiss",
     "#FFF": "Wäiss",
     "#000000": "Schwaarz",
-    "#000": "Schwaarz"
+    "#000": "Schwaarz",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Gold",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Arméi",
+    "#474747": "Asphalt",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Orange gebrannt",
+    "#80011F": "Kardinal",
+    "#382829": "Schockela",
+    "#F06336": "Korallen",
+    "#FAE7C9": "Crème",
+    "#6B2257": "Currant",
+    "#222127": "Däischter Grey",
+    "#0D5A74": "Déif Teal",
+    "#00582F": "Evergreen",
+    "#214C30": "Bësch",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Blat",
+    "#558450": "Liicht Aqua",
+    "#96B5C9": "Hellblo",
+    "#DCAFCE": "Flieder",
+    "#D3E1A4": "Kalk",
+    "#9DE7C2": "Mënzprägung",
+    "#F6EAD2": "Natierlech",
+    "#1A1F35": "Marine",
+    "#404624": "Oliven",
+    "#271020": "Plum",
+    "#A8355C": "Hambier",
+    "#D6BEA6": "Soft Crème",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Violett",
+    "#36454F": "Holzkuel",
+    "#b3b0ab": "Kuelestoff Grey",
+    "#463e3d": "Holzkuel Heather",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Numm",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Gebai Zuel",
     "building_unit": "Eenheet",
     "postcode": "Postleitzuel",
-    "note": "Note"
+    "note": "Note",
+    "county": "Grofschaft"
   },
   "product_types": {
     "physical": "Kierperlech",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Faarf",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Einfach",
       "selective": "Selektiv",
-      "switch": "Wiesselen"
-    }
+      "switch": "Wiesselen",
+      "file": "Fichier",
+      "number": "Zuel"
+    },
+    "placeholder_input": "Plazhalter",
+    "file_type_input": "Akzeptabel Dateitypen",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Produit Numm",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Gitt Ären Handy un",
     "verification_code": "Sëcherheetscode",
     "msg_title": "Salut,",
-    "msg_body": "Weg aloggen. Et dauert just e puer Sekonnen."
+    "msg_body": "Weg aloggen. Et dauert just e puer Sekonnen.",
+    "login_apple": "Login mat Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Tags dobäi"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Ganz komplizéiert",
+    "hard": "Schwéier",
+    "intermediate": "Mëttelméisseg",
+    "easy": "Einfach"
   }
 };

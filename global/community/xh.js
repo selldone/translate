@@ -65,7 +65,9 @@ export default {
     "my_feed": "Mna",
     "blocked_message": "Uthintelwe kude",
     "reported": "Ingxelo",
-    "report": "Ingxelo"
+    "report": "Ingxelo",
+    "post": "Thumela",
+    "attach_file": "Qhoboshela ifayile"
   },
   "invite_message": "{user} ukumemele kwiforam {community}. Cofa kwikhonkco elingezantsi ukuze ufunde imigqaliselo yabahlobo bakho kwaye wabelane ngoluvo lwakho nabo. Ndilinde wena.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Susa i-poll",
     "take_screenshot": "Thatha njengeqweqwe",
     "take_link_msg": "Ikhonkco elidlulileyo apha kwaye ungene",
-    "eligible_title": "Amanyathelo okufaneleka ukuposa"
+    "eligible_title": "Amanyathelo okufaneleka ukuposa",
+    "public": "Uluntu"
   },
   "tips": {
     "verify_email": "Ngena kwaye uqinisekise i-imeyile yakho.",

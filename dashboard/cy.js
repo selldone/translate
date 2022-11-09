@@ -155,7 +155,19 @@ export default {
       "Setup": "storfa",
       "Sell": "Gwerthu a Marchnata",
       "Developer": "Datblygu",
-      "Application": "Ceisiadau"
+      "Application": "Ceisiadau",
+      "Product": "Rheoli Cynhyrchion a Chategorïau",
+      "Blog": "CMS a Blog",
+      "Order": "Canolfan Cyflawni Archebion",
+      "Channel": "Sianeli Gwerthu",
+      "Accounting": "Dulliau Cyfrifo a Thalu",
+      "Incentives": "Cymhellion",
+      "Marketing": "Marchnata ac Ymgyrchoedd",
+      "Logistic": "Logisteg a Llongau",
+      "Customers": "Clwb Cwsmeriaid a Segmentu",
+      "Page": "Tudalennau Glanio & Custom",
+      "Access": "Rheoli Mynediad Staff / API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Ystorfa Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Storfeydd",
       "roles": "Rolau",
       "home": "Cartref",
-      "expert": "Arbenigwr"
+      "expert": "Arbenigwr",
+      "deals": "Bargeinion",
+      "providers": "Darparwyr"
     },
     "shops": {
       "create_new": "Creu siop newydd",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Statws",
           "created_at": "Dyddiad Creu",
           "updated_at": "Diweddariad diwethaf"
-        }
+        },
+        "subtitle": "Ysgrifennwch erthyglau gyda golygydd mewnol modern i gyflwyno'ch hun a'ch busnes. Cynnwys gwreiddiol yw'r peth cyntaf y mae angen i chi ganolbwyntio arno wrth ysgrifennu post blog o ansawdd uchel sy'n gyfeillgar i SEO."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Adroddiad",
         "tax": "Treth",
         "drop_shipping": "Derbynebau ailwerthwyr",
-        "reseller_accounts": "Cyfrifon ailwerthwyr"
+        "reseller_accounts": "Cyfrifon ailwerthwyr",
+        "valuations": "Prisiadau"
       },
       "invoice": {
         "title": "Waledi Cysylltiedig â Siop",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Llongau",
         "inventory": "Stocrestr",
         "warehouse": "Warws",
-        "logistic_apps": "Logisteg"
+        "logistic_apps": "Logisteg",
+        "profiles": "Proffiliau"
       },
       "warehouse": {
         "title": "Storio Warws",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Isafswm cost archebu ar gyfer cludo am ddim",
           "notifications": {
             "update_success": "Cwblhawyd gosodiadau gwasanaeth cludo yn llwyddiannus."
-          }
+          },
+          "shipping_cost_calculation": "Cyfrifiad cost cludo",
+          "sod_true": "Sicrhewch gost cludo ar y gyrchfan",
+          "sod_true_message": "Sicrhewch fod eich gwasanaeth cludo yn derbyn cost cludo ar gyrchfan.",
+          "sod_false": "Cyfrifiad cost cludo ceir",
+          "cod_true": "Derbyn arian parod wrth ddanfon",
+          "cod_false": "Derbyn taliad ar-lein yn unig",
+          "cod_true_message": "Sicrhewch fod eich gwasanaeth cludo yn derbyn COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "Sms",
         "email": "Ebost",
         "domain": "Parth",
-        "verifications": "Gwiriadau"
+        "verifications": "Gwiriadau",
+        "flow": "Llif",
+        "business_model": "Model Busnes"
       },
       "delete_dialog": {
         "title": "Dileu Storfa",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Uned cynnyrch",
       "unit_float": "Uned arnofio (cyn bo hir)",
       "unit_float_hint": "Er enghraifft, gall y cwsmer archebu 3 kg o ffrwythau, ond mae'r swm a anfonir at y cwsmer ychydig yn wahanol i'r swm a archebwyd.",
-      "unit_float_message": "Yn ystod prosesu archeb, gall y swm a ddanfonwyd fod yn wahanol i'r swm a archebwyd. Mae'r system yn cyfrifo'r gwahaniaeth hwn yn awtomatig ac yn ei gofnodi fel eich dyled i'r cwsmer, y gellir ei gymhwyso i'r archebion nesaf."
+      "unit_float_message": "Yn ystod prosesu archeb, gall y swm a ddanfonwyd fod yn wahanol i'r swm a archebwyd. Mae'r system yn cyfrifo'r gwahaniaeth hwn yn awtomatig ac yn ei gofnodi fel eich dyled i'r cwsmer, y gellir ei gymhwyso i'r archebion nesaf.",
+      "status_list": {
+        "active": {
+          "title": "Actif | Gwerthiannau Ar-lein ac All-lein",
+          "description": "Bydd y cynnyrch hwn ar gael ar gyfer archebion ar-lein."
+        },
+        "inactive": {
+          "title": "Anactif | Dim ond Gwerthiannau All-lein",
+          "description": "Ni fydd y cynnyrch hwn ar gael ar gyfer archebion ar-lein."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Arolwg",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Dewiswch yr amser gorffen",
       "independent_price": "Y pris yn unig ar gyfer yr amrywiad hwn",
       "same_price": "Y pris ar gyfer y prif gynnyrch",
-      "variant_pricing_message": "Trwy ddewis yr opsiwn hwn, gellir gosod pris yr amrywiad hwn yn annibynnol ar y prif gynnyrch."
+      "variant_pricing_message": "Trwy ddewis yr opsiwn hwn, gellir gosod pris yr amrywiad hwn yn annibynnol ar y prif gynnyrch.",
+      "price_label_input": "Label pris",
+      "price_label_message": "Ychwanegu gwybodaeth ychwanegol am bris fel ( $1.5/Fl Oz ). Achosion defnydd: groser, FMCG.",
+      "add_price_label_action": "Ychwanegu label pris"
     },
     "inputs_edit": {
       "title": "Ffurf Mewnbynnu Gwybodaeth Prynwr",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Golygwyd porth {gateway_name}."
     },
-    "developer_setting": "Datblygu a Phrofi"
+    "developer_setting": "Datblygu a Phrofi",
+    "live_mode_message": "Bydd yr holl drafodion yn y modd byw."
   },
   "gift_card": {
     "title": "Cardiau Anrheg",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Cyfeiriad bilio wedi'i olygu gan y prynwr.",
     "payment-cod-confirm": "Cadarnhawyd taliad COD.",
     "payment-cash-confirm": "Cadarnhawyd taliad o {amount} {currency} mewn arian parod ar gyfer y bil.",
-    "payment-dir-confirm": "Cadarnhawyd derbynneb taliad uniongyrchol."
+    "payment-dir-confirm": "Cadarnhawyd derbynneb taliad uniongyrchol.",
+    "vendor": "Cyflwr archeb gwerthwr wedi newid o <b>{from}</b> i <b>{to}</b> .",
+    "connect-sync": "Archeb wedi'i gysoni gan Connect OS.",
+    "connect-shipped": "Mae archeb cysylltu wedi'i gludo gan {shipping}.",
+    "connect-returned": "Mae archeb cysylltu wedi'i dychwelyd gan {shipping}.",
+    "connect-failed": "Methodd y partner â chyflawni'r archeb. {reason}",
+    "connect-canceled": "Cafodd y gorchymyn ei ganslo gan y partner. {reason}",
+    "connect-action-cancel": "Cais i ganslo archeb. {reason}",
+    "connect-put-hold": "Gohiriwyd y gorchymyn. {reason}",
+    "connect-remove-hold": "Tynnwyd y gorchymyn o'r daliad. {reason}",
+    "connect-confirmed": "Cadarnhawyd y gorchymyn.",
+    "email-vendor": "🔔 Mae e-bost archebu gwybodaeth wedi'i anfon at <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Heddiw",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Gwneud arian",
     "menu": {
       "plans": "Cynlluniau",
-      "accounts": "Cyfrifon"
+      "accounts": "Cyfrifon",
+      "participant": "Cyfranogwr"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Allweddi Mynediad Siop",
     "shop_keys_message": "Defnyddir yr allweddi hyn i greu Tocyn Mynediad gan eich gweinydd. Sylwch fod yr allweddi yn gyfrinachol ac yn cael eu gosod ar y gweinydd yn unig fel nad ydynt yn weladwy i eraill.",
     "personal_keys_title": "Allweddi Mynediad Personol",
-    "personal_keys_message": "Gallwch greu'r allweddi i'ch cyfrif yma. Sylwch y bydd yr allweddi hyn yn gallu cael mynediad i'ch cyfrif. Creu a defnyddio'r allweddi hyn dim ond os ydych chi'n gwybod yn union beth rydych chi'n ei wneud."
+    "personal_keys_message": "Gallwch greu'r allweddi i'ch cyfrif yma. Sylwch y bydd yr allweddi hyn yn gallu cael mynediad i'ch cyfrif. Creu a defnyddio'r allweddi hyn dim ond os ydych chi'n gwybod yn union beth rydych chi'n ei wneud.",
+    "clients_title": "Cleientiaid",
+    "clients_message": "Defnyddir yr allweddi hyn i greu Tocyn Mynediad gan eich gweinydd. Sylwch fod yr allweddi yn gyfrinachol ac yn cael eu gosod ar y gweinydd yn unig fel nad ydynt yn weladwy i eraill."
   },
   "user_security_control": {
     "title": "Diogelwch Cyfrif",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Rheoli proffiliau",
       "description": "Rheoli proffiliau siopau."
+    },
+    "shop-discount-code": {
+      "name": "Rheoli cod disgownt",
+      "description": "Rheoli, golygu ac ychwanegu codau disgownt siop."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Gosodiadau",
       "change": "Tâl",
       "transfer": "Trosglwyddiad",
-      "transactions": "Trafodion"
+      "transactions": "Trafodion",
+      "charge": "Tâl",
+      "history": "Hanes"
     },
     "transactions": {
       "title": "Trafodion Cyfrif",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Canslo cadarnhad tanysgrifiad",
       "message": "A ydych yn sicr o ganslo'r tanysgrifiad hwn?",
       "action": "Canslo tanysgrifiad"
-    }
+    },
+    "use_voucher_now": "Defnyddiwch y daleb nawr",
+    "validity_duration": "Hyd dilysrwydd",
+    "validity_duration_hint": "Trwy brynu trwydded 12 mis, byddwch yn derbyn gostyngiad o 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Lawrlwytho testun data",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Ffontiau mawr",
     "large_font_message": "Dangos testun mwy na'r arfer",
     "samples": "Dangos siopau sampl",
-    "samples_message": "Os caiff ei alluogi, bydd rhai siopau sampl yn cael eu harddangos yn eich panel."
+    "samples_message": "Os caiff ei alluogi, bydd rhai siopau sampl yn cael eu harddangos yn eich panel.",
+    "automation": "Awtomatiaeth",
+    "automation_message": "Dangos tab awtomeiddio ar ddangosfwrdd siop. (Llyfrau gwe, rhaglennu gweledol, ...)"
   },
   "shop_locations": {
     "title": "Gwledydd lle darperir gwasanaeth",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Cwpon wedi'i ddileu yn llwyddiannus."
-    }
+    },
+    "multiple_use": "Defnydd lluosog"
   },
   "coupon_edit": {
     "title_edit": "Golygu cwpon",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Terfyn",
       "description": "Gosod terfyn ar y nifer uchaf o ddefnyddwyr."
+    },
+    "SEGMENTS": {
+      "title": "Segmentau",
+      "description": "Cyfyngu ar gwsmeriaid mewn segmentiad llaw penodol."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Tynnwyd cyfanswm yr archeb o'r cardiau rhodd! Nid oes angen i'r prynwr dalu mwy.",
       "cod_msg": "Bydd y cwsmer yn talu wrth dderbyn yr archeb.",
       "online_msg": "Gofynnwch i'r cwsmer sganio cod QR ar sgrin y cwsmer."
-    }
+    },
+    "name": "POS",
+    "message": "Trefnwch fod eich pwynt gwerthu ar-lein ar gyfer cost sero, ei redeg ar unrhyw ffôn clyfar, llechen a chyfrifiadur personol, neu greu archebion â llaw."
   },
   "exporter": {
     "title": "Allforio data",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Anfon at y gweinydd",
     "shop_license": "Trwydded siop",
     "max_items_limit": "Uchafswm terfyn eitemau",
-    "total_items": "Cyfanswm yr eitemau"
+    "total_items": "Cyfanswm yr eitemau",
+    "customer": {
+      "title": "Mewnforio cwsmeriaid",
+      "subtitle": "Uwchlwythwch ffeiliau CSV cwsmeriaid yma. Gwnewch yn siŵr eich bod yn dilyn y fformat safonol, a hefyd, mae'n rhaid i chi ddilyn rheolau preifatrwydd."
+    }
   },
   "campaigns": {
     "title": "Ymgyrchoedd",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Cysylltiadau",
     "light_checkout": "Thema til ysgafn",
     "light_header": "Pennawd ysgafn",
-    "light_footer": "Troedyn ysgafn"
+    "light_footer": "Troedyn ysgafn",
+    "product_page": "Tudalen Cynnyrch",
+    "typography": "Teipograffeg",
+    "header": "Pennawd",
+    "custom_code": "Cod personol",
+    "custom_css": "CSS personol"
   },
   "app_templates": {
     "default": "Diofyn",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Rheoli gwasanaeth",
     "option_deliver_by_courier": "Opsiwn 1: Cyflwyno gan eich negeswyr.",
     "option_add_to_que": "Opsiwn 2: Ychwanegu at y ciw i brosesu ar dudalen gwasanaeth cludo.",
-    "option_instant_shipping": "Opsiwn 3: Cludo ar unwaith."
+    "option_instant_shipping": "Opsiwn 3: Cludo ar unwaith.",
+    "pickup_action": "Cadarnhad casglu"
   },
   "shop_home_edit": {
     "title": "Gosodiad tudalen gartref",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Cynnyrch wedi'i ychwanegu at eich siop.",
       "request_access": "Anfonwyd eich cais mynediad at y cyfanwerthwr yn llwyddiannus."
-    }
+    },
+    "show_eligible_shops_message": "Dangos siopau cymwys"
   },
   "product_dropshipping": {
     "need_re_enable": "Mae'r cynnyrch hwn wedi'i newid gan y gwerthwr gwreiddiol, mae'r newidiadau pris hyn wedi analluogi'r cynnyrch yn eich siop. Gwiriwch y newidiadau ac os ydych chi'n cytuno i ailgychwyn y cynnyrch, pwyswch y botwm isod.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Nid oes categori yn eich siop.",
       "limit": "Terfyn cynhyrchion",
       "limit_message": "Rhowch gyfrif canlyniadau cynhyrchion",
-      "select_categories": "Dewiswch y categorïau sydd ar gael"
+      "select_categories": "Dewiswch y categorïau sydd ar gael",
+      "categories_limit": "Cyfyngiad categorïau",
+      "categories_limit_msg": "Nodwch uchafswm nifer y categorïau. Gosod sero am ddim terfyn."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Mae afocado wedi'i ddiweddaru'n llwyddiannus.",
       "add_success": "Afocado wedi'i greu'n llwyddiannus."
-    }
+    },
+    "name": "Afocado"
   },
   "avocado_orders": {
     "title": "Afocado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "Anactif",
     "active_message": "Os ydych chi'n galluogi'r opsiwn hwn, bydd y posibilrwydd o greu'r Codau Gwerthu Cyflym yn cael ei arddangos yn adran reoli pob cynnyrch.",
     "hyper_form_link_message": "Dolen hyperdudalen eich siop",
-    "configuration": "Gosodiadau Hyper"
+    "configuration": "Gosodiadau Hyper",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Demograffeg Cwsmeriaid",
     "subtitle": "Hidlo ac allforio data eich cwsmeriaid i wneud gwell penderfyniadau i sicrhau mwy o werth gyda llai o farchnata! Parchwch breifatrwydd eich cwsmeriaid a pheidiwch byth ag anfon e-byst swmp torfol atynt! Peidiwch byth â rhannu gwybodaeth eich cwsmeriaid gyda gwasanaethau trydydd parti heb gael caniatâd gan bob un ohonynt."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Cyfeiriadau codi",
+      "subtitle": "Ychwanegu a golygu cyfeiriadau casglu yma. Bydd defnyddwyr yn gallu dewis y cyfeiriad codi ar y dudalen ddesg dalu.",
+      "add_action": "Ychwanegu lleoliad newydd"
+    }
+  },
+  "affiliate_pos": {
+    "title": "POS Cysylltiedig",
+    "open_pos_action": "Archebu POS yn gyflym",
+    "description": "Mae'r opsiwn hwn yn addas ar gyfer gweinyddwyr tudalennau Instagram a rhwydweithiau cymdeithasol eraill. Defnyddiwch Affiliate POS i dderbyn ac ychwanegu archebion gan gwsmeriaid â llaw. Gall eich cysylltiedig (neu fasnachfraint) ychwanegu archebion newydd yn y POS Affiliate a lanlwytho'r slip blaendal."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Dulliau mewngofnodi",
+      "subtitle": "Addaswch y ffordd y mae defnyddwyr yn mewngofnodi i'ch siop."
+    },
+    "checkout": {
+      "title": "Llif desg dalu",
+      "subtitle": "Addaswch eich taith cwsmer a llif pryniant yn eich e-fasnach.",
+      "map": {
+        "title": "Map",
+        "subtitle": "Rhaid i ddefnyddwyr ddewis y lleoliad danfon ar y map (fel Uber).",
+        "subtitle_no_map": "Mae cyfrifiad pellter cludo yn ystyried sero os nad yw'r lleoliad yn bodoli yn y cyfeiriad a ddarperir gan y cwsmer."
+      },
+      "mode": {
+        "title": "Pwynt mewngofnodi cwsmeriaid",
+        "default": {
+          "title": "ASAP (Diofyn)",
+          "msg": "Mae defnyddwyr yn mewngofnodi cyn gynted â phosibl. (Mwy o drosi)"
+        },
+        "on_checkout": {
+          "title": "Ar ddesg dalu",
+          "msg": "Gorfodi defnyddwyr i fewngofnodi ar y cam til."
+        },
+        "login_free": {
+          "title": "Mewngofnodi dewisol",
+          "msg": "Mewngofnodi dewisol ar ôl talu archeb.."
+        }
+      },
+      "express": {
+        "title": "Ailgyfeirio ar ôl ychwanegu at y drol",
+        "false": {
+          "title": "Modd arferol",
+          "msg": "Arhoswch ar y dudalen a pharhau i siopa ar ôl clicio ychwanegu at y drol."
+        },
+        "true": {
+          "title": "Modd cyflym",
+          "msg": "Ailgyfeirio cwsmer i'r dudalen ddesg dalu ar ôl clicio ychwanegu at y drol."
+        }
+      },
+      "shipping_address": {
+        "title": "Gofynnwch am gyfeiriad cludo"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Corfforol a Gwasanaeth (Diofyn)",
+      "desc": "Gofynnwch i'r cwsmer nodi cyfeiriad yn y til corfforol a gwasanaeth."
+    },
+    "physical": {
+      "title": "Corfforol yn Unig",
+      "desc": "Gofynnwch i'r cwsmer nodi cyfeiriad yn y ddesg dalu."
+    },
+    "off": {
+      "title": "Byth",
+      "desc": "Peidiwch byth â gofyn am y cyfeiriad cludo. ⚠ Defnyddiwch yr opsiwn hwn os ydych chi'n bwriadu cael gwasanaethau gydag amrywiadau trwy ddewis math ffisegol ar gyfer cynhyrchion yn lle'r math o wasanaeth."
+    }
+  },
+  "business_model": {
+    "title": "Sefydlu model busnes",
+    "subtitle": "Gosodwch eich model busnes, a byddwn yn ffurfweddu'ch OS y tu ôl i'r llenni."
+  },
+  "business_type": {
+    "title": "Mathau o nwyddau",
+    "subtitle": "Gosodwch y math o gynhyrchion rydych chi am eu gwerthu yn eich siop. Mae mathau o gynnyrch yn Soldone yn fwy na dim ond math o'r cynhyrchion; mae'n ymwneud mwy â'r weithdrefn gyflawni.",
+    "send_activation_request_to_support": "Anfonwch gais actifadu mewn tocyn cymorth.",
+    "require_kyc": "Perchennog busnes KYC.",
+    "needs_enterprise_license": "Mae angen i chi gael trwydded Menter.",
+    "marketplace_caution_message": "Mae Gosod Marketplace fel eich model yn effeithio'n fawr ar ffurfwedd OS eich busnes. Er enghraifft, rhaid i chi ddiffinio o leiaf un gwerthwr ar gyfer pob cynnyrch gyda phrisiau a rhestr eiddo annibynnol. Ni all cwsmeriaid brynu cynhyrchion nad oes ganddynt werthwr."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Storfa Arferol",
+      "desc": "Yn gyffredin, BBaCh, busnes cartref, neu dropshipper - sy'n gwerthu eu cynnyrch yn uniongyrchol i gwsmeriaid neu'n gwerthu cynhyrchion cyfanwerthwyr fel ailwerthwr."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Peidiwch â chadw unrhyw gynnyrch a dim rhestr eiddo - rydych chi'n talu i drydydd parti, fel arfer cyfanwerthwr (fel Printify, Wholesale2B, ...) neu wneuthurwr, ac maen nhw'n cyflawni archebion y tu ôl i'r llenni."
+    },
+    "wholesaler": {
+      "title": "Cyflenwr Dropshipping",
+      "desc": "Fel arfer cyfanwerthwr neu wneuthurwr - sy'n anfon archebion yn uniongyrchol i'r defnyddiwr terfynol. Gall masnachwyr eraill ar Soldone ollwng eich cynhyrchion yn eu siopau."
+    },
+    "marketplace": {
+      "title": "Marchnad",
+      "desc": "Mae marchnadoedd ar-lein yn cysylltu prynwyr a gwerthwyr ar lwyfan perchnogol a chanolog."
+    },
+    "franchise": {
+      "title": "Masnachfraint / Affiliate",
+      "desc": "Mae masnachfraint yn ddull o ddosbarthu cynhyrchion neu wasanaethau sy'n cynnwys masnachfreiniwr sy'n sefydlu'ch brand (Rhanfreinio) neu'n gwerthu eich cynhyrchion yn ôl eu brand (Affiliate)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Waledi",
+    "pricing_models": "Prisio",
+    "add_vendor": "Ychwanegu gwerthwr",
+    "requests": "Ceisiadau"
+  },
+  "price_input_type": {
+    "title": "Math mewnbwn pris",
+    "default": {
+      "title": "Diofyn",
+      "desc": "Dewiswch werth fel y swm yn y drol."
+    },
+    "area": {
+      "title": "Ardal",
+      "desc": "Rhowch led a hyd fel mewnbynnau i gyfrifo'r maint."
+    },
+    "volume": {
+      "title": "cyfaint",
+      "desc": "Rhowch led, hyd ac uchder fel mewnbynnau i gyfrifo'r maint."
+    },
+    "custom": {
+      "title": "Personol (Trwy ffurflen fewnbwn)",
+      "desc": "Dim angen cannoedd o amrywiadau! Creu ffurflen gyfrifo cost wedi'i theilwra ar gyfer cynhyrchion hynod addasadwy."
+    }
+  },
+  "vendors_list": {
+    "title": "Fy Gwerthwyr",
+    "message": "Rhestr o'm gwerthwyr fy hun."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Cysylltwch barthau lluosog â'ch OS busnes a rheoli pob un ohonynt mewn un lle. Gallwch ddefnyddio'r nodwedd parthau lluosog i greu parthau pwrpasol ar gyfer pob rhan o'ch gwefan, fel blog a chymuned, neu ddefnyddio gwahanol barthau ar gyfer eich cysylltiedig."
+  },
+  "notes": {
+    "add_action": "Ychwanegwch nodyn ar gyfer eich tîm",
+    "notifications": {
+      "success_add": "Mae nodyn wedi'i ychwanegu'n llwyddiannus.",
+      "success_delete": "Nodyn wedi'i ddileu yn llwyddiannus."
+    }
+  },
+  "external_services": {
+    "title": "Gwasanaethau allanol",
+    "subtitle": "Monitro statws olaf y gwasanaethau allanol fel SMS ac e-byst yma."
   }
 };

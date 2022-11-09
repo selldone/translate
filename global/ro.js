@@ -558,7 +558,52 @@ export default {
     "merchant": "Comerciant",
     "per_product": "Per produs",
     "journey": "Călătorie",
-    "after": "După"
+    "after": "După",
+    "waiting_for_payment": "Vă rugăm să finalizați plata...",
+    "hour": "Ora",
+    "minute": "Minut",
+    "premium": "Premium",
+    "light": "Ușoară",
+    "dark": "Întuneric",
+    "guest": "Oaspete",
+    "shops": "Magazine",
+    "vendor": "Furnizor",
+    "vendors": "Furnizori",
+    "marketplace": "Piata de desfacere",
+    "verify_date": "Verificați data",
+    "note": "Notă",
+    "panel": "Panou",
+    "removed": "Îndepărtat",
+    "segments": "Segmente",
+    "personal_info": "Informatie personala",
+    "preferences": "Preferințe",
+    "spec": "Spec",
+    "reviews": "Recenzii",
+    "constraints": "Constrângeri",
+    "flexible": "Flexibil",
+    "usage_limit": "Limita de utilizare",
+    "temporary": "Temporar",
+    "original": "Original",
+    "saved": "Salvat!",
+    "sort": "Fel",
+    "documents": "Documente",
+    "document": "Document",
+    "please_wait": "Va rugam asteptati...",
+    "pickup": "Ridica",
+    "customize": "personalizați",
+    "difficulty": "Dificultate",
+    "banned": "Interzis",
+    "company": "Companie",
+    "tax_shipping": "Taxa de transport",
+    "warranty": "garanție",
+    "return_policy": "POLITICA DE RETURNARE",
+    "guide": "Ghid",
+    "translate": "Traduceți",
+    "public": "Public",
+    "deleted": "Șters",
+    "variant": "Variantă",
+    "secure": "Sigur",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Urmări",
     "change_state": "Schimba starea",
     "done": "Terminat",
-    "reply": "Răspuns"
+    "reply": "Răspuns",
+    "watch_now": "Priveste acum",
+    "unlock": "Deblocați",
+    "lock": "Lacăt",
+    "create_clone": "Creați o clonă",
+    "regenerate": "Regenera",
+    "add_message": "Adăugați mesaj",
+    "continue_chat": "Continuați conversația",
+    "add_new_message": "Adăugați un mesaj nou"
   },
   "instance_message_title": "Trimite mesaj instant",
   "instance_message": "Bună {name}, Numele meu este {author} de la {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Cod poștal",
     "enter_value": "Completați aici",
     "address_note": "Notă",
-    "tel": "Numar de contact"
+    "tel": "Numar de contact",
+    "service_address": "Selectați adresa dvs"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "lire sterline",
     "litre",
     "yarzi",
-    "cameră"
+    "cameră",
+    "secunde",
+    "minute",
+    "ore",
+    "zile",
+    "săptămâni",
+    "luni",
+    "ani"
   ],
   "region_types": {
     "State": "Stat",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Lungimea minimă trebuie să fie {length}",
     "invalid_min_array_length": "Selectați cel puțin {length} articole",
     "invalid_max_chars": "Maximum {maxCount} caractere",
-    "invalid_url": "URL invalid"
+    "invalid_url": "URL invalid",
+    "country_invalid": "Selectați țara de destinație!",
+    "postal_code_invalid": "Setați codul poștal valid!"
   },
   "colors": {
     "#D32F2F": "roșu",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "alb",
     "#FFF": "alb",
     "#000000": "Negru",
-    "#000": "Negru"
+    "#000": "Negru",
+    "#7d263a": "Maro",
+    "#FD9F17": "Aur",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Armată",
+    "#474747": "Asfalt",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Portocala ars",
+    "#80011F": "Cardinal",
+    "#382829": "Ciocolată",
+    "#F06336": "Coral",
+    "#FAE7C9": "Cremă",
+    "#6B2257": "coacaze",
+    "#222127": "Gri inchis",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "vesnic verde",
+    "#214C30": "pădure",
+    "#DC2867": "Fucsie",
+    "#38561": "Kelly",
+    "#5C884D": "Frunze",
+    "#558450": "Light Aqua",
+    "#96B5C9": "Albastru deschis",
+    "#DCAFCE": "Liliac",
+    "#D3E1A4": "Lămâie verde",
+    "#9DE7C2": "Mentă",
+    "#F6EAD2": "Natural",
+    "#1A1F35": "Marinei",
+    "#404624": "măsline",
+    "#271020": "Prună",
+    "#A8355C": "Zmeură",
+    "#D6BEA6": "Cremă moale",
+    "#BEA994": "bronzat",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "violet",
+    "#36454F": "Cărbune",
+    "#b3b0ab": "Gri carbon",
+    "#463e3d": "Cărbune Heather",
+    "#282d3c": "Blazer bleumarin"
   },
   "address_info": {
     "name": "Nume",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Numarul cladirii",
     "building_unit": "Unitate",
     "postcode": "Cod poștal",
-    "note": "Notă"
+    "note": "Notă",
+    "county": "judetul"
   },
   "product_types": {
     "physical": "Fizic",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Culoare",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Simplu",
       "selective": "Selectiv",
-      "switch": "Intrerupator"
-    }
+      "switch": "Intrerupator",
+      "file": "Fişier",
+      "number": "Număr"
+    },
+    "placeholder_input": "Substituent",
+    "file_type_input": "Tipuri de fișiere acceptabile",
+    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "numele produsului",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Introduceți mobilul dvs",
     "verification_code": "Cod de verificare",
     "msg_title": "Salut,",
-    "msg_body": "Va rugam sa va logati. Durează doar câteva secunde."
+    "msg_body": "Va rugam sa va logati. Durează doar câteva secunde.",
+    "login_apple": "Conectați-vă cu Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Etichete adăugate"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Foarte complicat",
+    "hard": "Greu",
+    "intermediate": "Intermediar",
+    "easy": "Uşor"
   }
 };

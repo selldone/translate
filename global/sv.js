@@ -558,7 +558,52 @@ export default {
     "merchant": "Handlare",
     "per_product": "Per produkt",
     "journey": "Resa",
-    "after": "Efter"
+    "after": "Efter",
+    "waiting_for_payment": "Vänligen slutför betalningen...",
+    "hour": "Timme",
+    "minute": "Minut",
+    "premium": "Premie",
+    "light": "Ljus",
+    "dark": "Mörk",
+    "guest": "Gäst",
+    "shops": "Butiker",
+    "vendor": "Säljare",
+    "vendors": "Säljare",
+    "marketplace": "Marknad",
+    "verify_date": "Verifiera datum",
+    "note": "Notera",
+    "panel": "Panel",
+    "removed": "Tog bort",
+    "segments": "Segment",
+    "personal_info": "Personlig information",
+    "preferences": "Inställningar",
+    "spec": "Spec",
+    "reviews": "Recensioner",
+    "constraints": "Begränsningar",
+    "flexible": "Flexibel",
+    "usage_limit": "Användningsgräns",
+    "temporary": "Temporär",
+    "original": "Original",
+    "saved": "Sparad!",
+    "sort": "Sortera",
+    "documents": "Dokument",
+    "document": "Dokumentera",
+    "please_wait": "Vänta...",
+    "pickup": "Plocka upp",
+    "customize": "anpassa",
+    "difficulty": "Svårighet",
+    "banned": "Förbjudna",
+    "company": "Företag",
+    "tax_shipping": "Fraktskatt",
+    "warranty": "Garanti",
+    "return_policy": "Returpolicy",
+    "guide": "Guide",
+    "translate": "Översätt",
+    "public": "offentlig",
+    "deleted": "raderade",
+    "variant": "Variant",
+    "secure": "Säkra",
+    "admin": "Administration"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Spår",
     "change_state": "Byta status",
     "done": "Gjort",
-    "reply": "Svar"
+    "reply": "Svar",
+    "watch_now": "Kolla nu",
+    "unlock": "Låsa upp",
+    "lock": "Låsa",
+    "create_clone": "Skapa klon",
+    "regenerate": "Regenerera",
+    "add_message": "Lägg till meddelande",
+    "continue_chat": "Fortsätt chatta",
+    "add_new_message": "Lägg till nytt meddelande"
   },
   "instance_message_title": "Skicka snabbmeddelande",
   "instance_message": "Hej {name}, Jag heter {author} från {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Postnummer",
     "enter_value": "Fyll här",
     "address_note": "Notera",
-    "tel": "Kontaktnummer"
+    "tel": "Kontaktnummer",
+    "service_address": "Välj din adress"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "pund",
     "kvarts",
     "varv",
-    "rum"
+    "rum",
+    "sekunder",
+    "minuter",
+    "timmar",
+    "dagar",
+    "Veckor",
+    "månader",
+    "år"
   ],
   "region_types": {
     "State": "stat",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Minsta längd måste vara {length}",
     "invalid_min_array_length": "Välj åtminstone {length} objekt",
     "invalid_max_chars": "Max {maxCount} tecken",
-    "invalid_url": "Ogiltig URL"
+    "invalid_url": "Ogiltig URL",
+    "country_invalid": "Välj destinationsland!",
+    "postal_code_invalid": "Ange giltigt postnummer!"
   },
   "colors": {
     "#D32F2F": "Röd",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Vit",
     "#FFF": "Vit",
     "#000000": "Svart",
-    "#000": "Svart"
+    "#000": "Svart",
+    "#7d263a": "Rödbrun",
+    "#FD9F17": "Guld",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Armé",
+    "#474747": "Asfalt",
+    "#E6195C": "Bär",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Bränd apelsin",
+    "#80011F": "Kardinal",
+    "#382829": "Choklad",
+    "#F06336": "Korall",
+    "#FAE7C9": "Grädde",
+    "#6B2257": "Vinbär",
+    "#222127": "Mörkgrå",
+    "#0D5A74": "Djup kricka",
+    "#00582F": "Evergreen",
+    "#214C30": "Skog",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Blad",
+    "#558450": "Ljus Aqua",
+    "#96B5C9": "Ljusblå",
+    "#DCAFCE": "Lila",
+    "#D3E1A4": "Kalk",
+    "#9DE7C2": "Mynta",
+    "#F6EAD2": "Naturlig",
+    "#1A1F35": "Marin",
+    "#404624": "Oliv",
+    "#271020": "Plommon",
+    "#A8355C": "Hallon",
+    "#D6BEA6": "Mjuk kräm",
+    "#BEA994": "Solbränna",
+    "#0DB2AE": "Kricka",
+    "#A86EA9": "Violett",
+    "#36454F": "Träkol",
+    "#b3b0ab": "kolgrå",
+    "#463e3d": "Träkol Ljung",
+    "#282d3c": "Marinblå blazer"
   },
   "address_info": {
     "name": "namn",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Husnummer",
     "building_unit": "Enhet",
     "postcode": "Postnummer",
-    "note": "Notera"
+    "note": "Notera",
+    "county": "Grevskap"
   },
   "product_types": {
     "physical": "Fysisk",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Färg",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Enkel",
       "selective": "Selektiv",
-      "switch": "Växla"
-    }
+      "switch": "Växla",
+      "file": "Fil",
+      "number": "siffra"
+    },
+    "placeholder_input": "Platshållare",
+    "file_type_input": "Godkända filtyper",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "produktnamn",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Ange din mobil",
     "verification_code": "Verifierings kod",
     "msg_title": "Hej,",
-    "msg_body": "Vänligen logga in. Det tar bara några sekunder."
+    "msg_body": "Vänligen logga in. Det tar bara några sekunder.",
+    "login_apple": "Logga in med Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Taggar har lagts till"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Väldigt komplicerat",
+    "hard": "Hård",
+    "intermediate": "Mellanliggande",
+    "easy": "Lätt"
   }
 };

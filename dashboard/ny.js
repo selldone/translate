@@ -155,7 +155,19 @@ export default {
       "Setup": "sitolo",
       "Sell": "Zogulitsa & Kutsatsa",
       "Developer": "Kukulitsa",
-      "Application": "Mapulogalamu"
+      "Application": "Mapulogalamu",
+      "Product": "Kasamalidwe ka Zogulitsa & Magawo",
+      "Blog": "CMS & Blog",
+      "Order": "Orders Fulfillment Center",
+      "Channel": "Njira Zogulitsa",
+      "Accounting": "Njira Zowerengera & Malipiro",
+      "Incentives": "Zolimbikitsa",
+      "Marketing": "Malonda & Makampeni",
+      "Logistic": "Logistic & Shipping",
+      "Customers": "Makasitomala Club & Segmentation",
+      "Page": "Masamba Ofikira & Mwamakonda",
+      "Access": "Staff / API Access Management",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github Repository",
@@ -193,7 +205,9 @@ export default {
       "stores": "Masitolo",
       "roles": "Maudindo",
       "home": "Kunyumba",
-      "expert": "Katswiri"
+      "expert": "Katswiri",
+      "deals": "Malonda",
+      "providers": "Othandizira"
     },
     "shops": {
       "create_new": "Pangani sitolo yatsopano",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Mkhalidwe",
           "created_at": "Tsiku Lolengedwa",
           "updated_at": "Kusintha komaliza"
-        }
+        },
+        "subtitle": "Lembani zolemba ndi mkonzi wamakono kuti muwonetse nokha ndi bizinesi yanu. Zolemba zoyambira ndi chinthu choyamba chomwe muyenera kuyang'ana polemba positi yabulogu ya SEO-yochezeka kwambiri."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Report",
         "tax": "Msonkho",
         "drop_shipping": "Malisiti ogulitsa",
-        "reseller_accounts": "Maakaunti ogulitsa"
+        "reseller_accounts": "Maakaunti ogulitsa",
+        "valuations": "Kuwerengera"
       },
       "invoice": {
         "title": "Gulani Ma Wallet Olumikizidwa",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Manyamulidwe",
         "inventory": "Inventory",
         "warehouse": "Nyumba yosungiramo katundu",
-        "logistic_apps": "Kayendesedwe"
+        "logistic_apps": "Kayendesedwe",
+        "profiles": "Mbiri"
       },
       "warehouse": {
         "title": "Store Warehouse",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Mtengo wochepera woyitanitsa kutumiza kwaulere",
           "notifications": {
             "update_success": "Zokonda pakutumiza zidamalizidwa bwino."
-          }
+          },
+          "shipping_cost_calculation": "Kuwerengera mtengo wa kutumiza",
+          "sod_true": "Pezani mtengo wotumizira komwe mukupita",
+          "sod_true_message": "Onetsetsani kuti ntchito yanu yotumizira ikuvomereza mtengo wotumizira komwe mukupita.",
+          "sod_false": "Kuwerengera mtengo wotumizira",
+          "cod_true": "Landirani ndalama potumiza",
+          "cod_false": "Vomerezani malipiro a pa intaneti okha",
+          "cod_true_message": "Onetsetsani kuti ntchito yanu yotumizira ikuvomereza COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "Sms",
         "email": "Imelo",
         "domain": "Domain",
-        "verifications": "Zotsimikizira"
+        "verifications": "Zotsimikizira",
+        "flow": "Yendani",
+        "business_model": "Business Model"
       },
       "delete_dialog": {
         "title": "Chotsani Sitolo",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Gulu lazinthu",
       "unit_float": "Float unit (posachedwa)",
       "unit_float_hint": "Mwachitsanzo, kasitomala akhoza kuyitanitsa 3 kg ya zipatso, koma ndalama zomwe zimatumizidwa kwa kasitomala ndizosiyana pang'ono ndi zomwe adalamula.",
-      "unit_float_message": "Panthawi yokonza dongosolo, ndalama zomwe zimaperekedwa zimatha kusiyana ndi zomwe zalamulidwa. Dongosololi limawerengera zokha kusiyana uku ndikulemba ngati ngongole yanu kwa kasitomala, yomwe ingagwiritsidwe ntchito pamadongosolo otsatirawa."
+      "unit_float_message": "Panthawi yokonza dongosolo, ndalama zomwe zimaperekedwa zimatha kusiyana ndi zomwe zalamulidwa. Dongosololi limawerengera zokha kusiyana uku ndikulemba ngati ngongole yanu kwa kasitomala, yomwe ingagwiritsidwe ntchito pamadongosolo otsatirawa.",
+      "status_list": {
+        "active": {
+          "title": "Ntchito | Zogulitsa Paintaneti & Paintaneti",
+          "description": "Izi zitha kupezeka pamaoda apa intaneti."
+        },
+        "inactive": {
+          "title": "Zopanda ntchito | Zogulitsa Zapaintaneti Pokha",
+          "description": "Izi sizipezeka pamaoda apa intaneti."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Kafukufuku",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Sankhani nthawi yomaliza",
       "independent_price": "Mtengo wokha wa izi",
       "same_price": "Mtengo wa chinthu chachikulu",
-      "variant_pricing_message": "Posankha njira iyi, mtengo wa kusiyana uku ukhoza kukhazikitsidwa popanda chinthu chachikulu."
+      "variant_pricing_message": "Posankha njira iyi, mtengo wa kusiyana uku ukhoza kukhazikitsidwa popanda chinthu chachikulu.",
+      "price_label_input": "Mtengo wamtengo",
+      "price_label_message": "Onjezani zambiri zamtengo ngati ( $1.5/Fl Oz). Kugwiritsa ntchito: golosale, FMCG.",
+      "add_price_label_action": "Onjezani chizindikiro chamtengo"
     },
     "inputs_edit": {
       "title": "Fomu Yolowetsa ya Zambiri Zogula",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gateway {gateway_name} yasinthidwa."
     },
-    "developer_setting": "Pangani & Yesani"
+    "developer_setting": "Pangani & Yesani",
+    "live_mode_message": "Zochita zonse zidzakhala mumayendedwe amoyo."
   },
   "gift_card": {
     "title": "Makhadi Amphatso",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Adilesi yolipirira yosinthidwa ndi wogula.",
     "payment-cod-confirm": "Malipiro a COD adatsimikizika.",
     "payment-cash-confirm": "Malipiro a {amount} {currency} ndalama za bilu adatsimikizika.",
-    "payment-dir-confirm": "Malipiro achindunji adatsimikizika."
+    "payment-dir-confirm": "Malipiro achindunji adatsimikizika.",
+    "vendor": "Malo oyitanitsa ogulitsa asintha kuchokera ku <b>{from}</b> kupita ku <b>{to}</b> .",
+    "connect-sync": "Kuda kulumikizidwa ndi Connect OS.",
+    "connect-shipped": "Malumikizidwe atumizidwa ndi {shipping}.",
+    "connect-returned": "Malumikizidwe abwezedwa ndi {shipping}.",
+    "connect-failed": "Kukwaniritsa dongosolo kwalephera ndi mnzake. {reason}",
+    "connect-canceled": "Lamuloli lidathetsedwa ndi mnzake. {reason}",
+    "connect-action-cancel": "Pemphani kuti musiye kuyitanitsa. {reason}",
+    "connect-put-hold": "Lamuloli linaimitsidwa. {reason}",
+    "connect-remove-hold": "Lamuloli lidachotsedwa. {reason}",
+    "connect-confirmed": "Lamuloli linatsimikiziridwa.",
+    "email-vendor": "🔔 Imelo yodziwitsa za kuyitanitsa yatumizidwa kwa <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Lero",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Pangani Ndalama",
     "menu": {
       "plans": "Mapulani",
-      "accounts": "Akaunti"
+      "accounts": "Akaunti",
+      "participant": "Wotenga nawo mbali"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Sungani Makiyi Ofikira",
     "shop_keys_message": "Makiyi awa amagwiritsidwa ntchito kupanga Access Token ndi seva yanu. Dziwani kuti makiyi ndi achinsinsi ndipo amangoyikidwa pa seva kuti asawonekere kwa ena.",
     "personal_keys_title": "Makiyi Ofikira Pawekha",
-    "personal_keys_message": "Mutha kupanga makiyi a akaunti yanu apa. Dziwani kuti makiyi awa azitha kulowa muakaunti yanu. Pangani ndikugwiritsa ntchito makiyiwa pokhapokha mutadziwa zomwe mukuchita."
+    "personal_keys_message": "Mutha kupanga makiyi a akaunti yanu apa. Dziwani kuti makiyi awa azitha kulowa muakaunti yanu. Pangani ndikugwiritsa ntchito makiyiwa pokhapokha mutadziwa zomwe mukuchita.",
+    "clients_title": "Makasitomala",
+    "clients_message": "Makiyi awa amagwiritsidwa ntchito kupanga Access Token ndi seva yanu. Dziwani kuti makiyi ndi achinsinsi ndipo amangoyikidwa pa seva kuti asawonekere kwa ena."
   },
   "user_security_control": {
     "title": "Chitetezo cha Akaunti",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Sinthani mbiri yanu",
       "description": "Konzani mbiri ya sitolo."
+    },
+    "shop-discount-code": {
+      "name": "Kasamalidwe ka code yochotsera",
+      "description": "Konzani, sinthani ndi kuwonjezera makhodi ochotsera m'sitolo."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Zokonda",
       "change": "Kulipiritsa",
       "transfer": "Kusamutsa",
-      "transactions": "Zochita"
+      "transactions": "Zochita",
+      "charge": "Kulipiritsa",
+      "history": "Mbiri"
     },
     "transactions": {
       "title": "Zochita mu Akaunti",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Letsani kutsimikizira kulembetsa",
       "message": "Kodi mukutsimikiza kuletsa kulembetsaku?",
       "action": "Letsani kulembetsa"
-    }
+    },
+    "use_voucher_now": "Gwiritsani ntchito voucher tsopano",
+    "validity_duration": "Nthawi yovomerezeka",
+    "validity_duration_hint": "Pogula chilolezo cha miyezi 12, mudzalandira kuchotsera 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Tsitsani mawu a data",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Mafonti akulu",
     "large_font_message": "Onetsani mawu akulu kuposa nthawi zonse",
     "samples": "Onetsani masitolo achitsanzo",
-    "samples_message": "Ngati zitayatsidwa, masitolo ena azitsanzo aziwonetsedwa pagawo lanu."
+    "samples_message": "Ngati zitayatsidwa, masitolo ena azitsanzo aziwonetsedwa pagawo lanu.",
+    "automation": "Zochita zokha",
+    "automation_message": "Onetsani tabu yodzichitira pa bolodi la shopu. (Webhooks, Visual programming, ...)"
   },
   "shop_locations": {
     "title": "Mayiko omwe chithandizo chimaperekedwa",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kuponi kwachotsedwa bwino."
-    }
+    },
+    "multiple_use": "Kugwiritsa ntchito kangapo"
   },
   "coupon_edit": {
     "title_edit": "Sinthani kuponi",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Malire",
       "description": "Ikani malire pa kuchuluka kwa ogwiritsa ntchito."
+    },
+    "SEGMENTS": {
+      "title": "Magawo",
+      "description": "Chepetsani makasitomala m'magawo apadera amanja."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Ndalama zonse zoyitanitsa zidachotsedwa pamakhadi amphatso! Wogula safunikira kulipira zambiri.",
       "cod_msg": "Wogula adzalipira akalandira dongosolo.",
       "online_msg": "Funsani kasitomala kuti asike khodi ya QR pa sikirini yamakasitomala."
-    }
+    },
+    "name": "POS",
+    "message": "Khalani ndi ziro zotsika mtengo zogulitsira pa intaneti, yendetsani pa foni yam'manja iliyonse, piritsi, ndi PC, kapena pangani maoda pamanja."
   },
   "exporter": {
     "title": "Tumizani deta",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Tumizani ku seva",
     "shop_license": "Chilolezo chogulira",
     "max_items_limit": "Malire azinthu",
-    "total_items": "Zinthu zonse"
+    "total_items": "Zinthu zonse",
+    "customer": {
+      "title": "Makasitomala ochokera kunja",
+      "subtitle": "Kwezani mafayilo a CSV amakasitomala apa. Onetsetsani kuti mumatsatira mtundu wamba, komanso, muyenera kutsatira malamulo achinsinsi."
+    }
   },
   "campaigns": {
     "title": "Makampeni",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Maulalo",
     "light_checkout": "Mutu wopepuka wotuluka",
     "light_header": "Mutu wopepuka",
-    "light_footer": "Phazi lopepuka"
+    "light_footer": "Phazi lopepuka",
+    "product_page": "Tsamba lazogulitsa",
+    "typography": "Kujambula",
+    "header": "Mutu",
+    "custom_code": "Kodi mwamakonda",
+    "custom_css": "Custom CSS"
   },
   "app_templates": {
     "default": "Zofikira",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Sinthani ntchito",
     "option_deliver_by_courier": "Njira 1: Tumizani ndi otumiza.",
     "option_add_to_que": "Njira 2: Onjezani pamzere kuti mukonze patsamba la ntchito yotumiza.",
-    "option_instant_shipping": "Njira 3: Kutumiza pompopompo."
+    "option_instant_shipping": "Njira 3: Kutumiza pompopompo.",
+    "pickup_action": "Chitsimikizo chonyamula"
   },
   "shop_home_edit": {
     "title": "Kukhazikitsa tsamba lofikira",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Chogulitsa chawonjezedwa kusitolo yanu.",
       "request_access": "Tatumiza pempho lanu lofikira kwa ogulitsa bwino."
-    }
+    },
+    "show_eligible_shops_message": "Onetsani masitolo oyenerera"
   },
   "product_dropshipping": {
     "need_re_enable": "Izi zasinthidwa ndi wogulitsa woyambirira, kusintha kwamitengo uku kwayimitsa malonda musitolo yanu. Onani zomwe zasintha ndipo ngati mukuvomera kuyambitsanso malonda, dinani batani pansipa.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Palibe gulu m'sitolo yanu.",
       "limit": "Malire azinthu",
       "limit_message": "Lowetsani kuchuluka kwa zotsatira zamalonda",
-      "select_categories": "Sankhani magulu omwe alipo"
+      "select_categories": "Sankhani magulu omwe alipo",
+      "categories_limit": "Magulu malire",
+      "categories_limit_msg": "Lowetsani kuchuluka kwa magulu. Khazikitsani ziro popanda malire."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Peyala yasinthidwa bwino.",
       "add_success": "Peyala idapangidwa bwino."
-    }
+    },
+    "name": "Peyala"
   },
   "avocado_orders": {
     "title": "Peyala",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "osagwira ntchito",
     "active_message": "Ngati mutsegula njirayi, kuthekera kopanga Fast-Sales-Codes kudzawonetsedwa mu gawo loyang'anira chilichonse.",
     "hyper_form_link_message": "Ulalo watsamba la hyper patsamba lanu",
-    "configuration": "Zokonda za Hyper"
+    "configuration": "Zokonda za Hyper",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Chiwerengero cha Makasitomala",
     "subtitle": "Sefa ndi kutumiza deta yamakasitomala anu kuti mupange zisankho zabwinoko kuti mupereke mtengo wochulukirapo ndikutsatsa kochepa! Chonde lemekezani zinsinsi za makasitomala anu ndipo musamatumize maimelo ochuluka kwa iwo! Osagawana zambiri zamakasitomala anu ndi ntchito zina popanda chilolezo kuchokera kwa aliyense wa iwo."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Maadiresi onyamula",
+      "subtitle": "Onjezani ndikusintha ma adilesi onyamula apa. Ogwiritsa azitha kusankha adilesi yotengera patsamba lotuluka.",
+      "add_action": "Onjezani malo atsopano"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Othandizira POS",
+    "open_pos_action": "Kuyitanitsa mwachangu POS",
+    "description": "Njira iyi ndiyabwino kwa ma admins amasamba a Instagram ndi malo ena ochezera. Gwiritsani ntchito Affiliate POS kulandira ndi kuwonjezera maoda kuchokera kwa makasitomala pamanja. Othandizira anu (kapena chilolezo) atha kuwonjezera maoda atsopano mu Othandizana nawo POS ndikuyika slip yosungitsa."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Njira zolowera",
+      "subtitle": "Sinthani momwe ogwiritsa ntchito amalowera m'sitolo yanu."
+    },
+    "checkout": {
+      "title": "Kutuluka",
+      "subtitle": "Sinthani makonda anu aulendo wamakasitomala ndikugula kuyenda mu ecommerce yanu.",
+      "map": {
+        "title": "Mapu",
+        "subtitle": "Ogwiritsa ntchito ayenera kusankha malo otumizira pamapu (monga Uber).",
+        "subtitle_no_map": "Mtunda pakuwerengera zotumiza umatengera ziro ngati malowo mulibe mu adilesi yoperekedwa ndi kasitomala."
+      },
+      "mode": {
+        "title": "Makasitomala malowedwe",
+        "default": {
+          "title": "ASAP (Zofikira)",
+          "msg": "Ogwiritsa amalowa mwachangu. (Zosintha zambiri)"
+        },
+        "on_checkout": {
+          "title": "Potuluka",
+          "msg": "Limbikitsani ogwiritsa ntchito kulowa potuluka."
+        },
+        "login_free": {
+          "title": "Lowetsani mwasankha",
+          "msg": "Lowetsani mwakufuna kwanu mukalipira.."
+        }
+      },
+      "express": {
+        "title": "Yendaninso mukatha kuwonjezera pangolo",
+        "false": {
+          "title": "Normal mode",
+          "msg": "Khalanibe patsamba ndikupitilizabe kugula mukadina kuwonjezera pangolo."
+        },
+        "true": {
+          "title": "Express mode",
+          "msg": "Londolerani kasitomala kutsamba lotuluka mukadina kuwonjezera pangolo."
+        }
+      },
+      "shipping_address": {
+        "title": "Funsani adilesi yotumizira"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Zathupi & Ntchito (Zofikira)",
+      "desc": "Funsani kasitomala kuti aike adilesi muzolipira zakuthupi ndi ntchito."
+    },
+    "physical": {
+      "title": "Zathupi Pokha",
+      "desc": "Funsani kasitomala kuti alowetse adilesi yomwe mumalipiritsa."
+    },
+    "off": {
+      "title": "Ayi",
+      "desc": "Osafunsanso adilesi yotumizira. ⚠ Gwiritsani ntchito njirayi ngati mukufuna kukhala ndi mautumiki osiyanasiyana posankha mtundu weniweni wazinthu m'malo mwa mtundu wa ntchito."
+    }
+  },
+  "business_model": {
+    "title": "Kupanga chitsanzo cha bizinesi",
+    "subtitle": "Khazikitsani mtundu wabizinesi yanu, ndipo tidzakonza OS yanu kuseri kwa chochitikacho."
+  },
+  "business_type": {
+    "title": "Mitundu yamalonda",
+    "subtitle": "Khazikitsani mtundu wazinthu zomwe mukufuna kugulitsa m'sitolo yanu. Mitundu yazinthu ku Selldone ndizoposa mtundu wazinthu; zambiri zokhudza ndondomeko yokwaniritsira.",
+    "send_activation_request_to_support": "Tumizani pempho lotsegula mu tikiti yothandizira.",
+    "require_kyc": "Mwini bizinesi KYC.",
+    "needs_enterprise_license": "Muyenera kukhala ndi chilolezo cha Enterprise.",
+    "marketplace_caution_message": "Khazikitsani Msika monga mtundu wanu umakhudza kwambiri kasinthidwe ka bizinesi yanu ya OS. Mwachitsanzo, muyenera kufotokozera wogulitsa m'modzi pachinthu chilichonse chokhala ndi mitengo yodziyimira payokha komanso zosungira. Makasitomala sangagule zinthu zomwe zilibe wogulitsa."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Sitolo Yachizolowezi",
+      "desc": "Nthawi zambiri ma SME, bizinesi yakunyumba, kapena dropshipper - omwe amagulitsa malonda awo mwachindunji kwa makasitomala kapena kugulitsa zinthu zamalonda ngati wogulitsa."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Osagula chilichonse komanso osawerengera - mumalipira munthu wina, nthawi zambiri wogulitsa (monga Printify, Wholesale2B, ...) kapena wopanga, ndipo amakwaniritsa zomwe zachitika."
+    },
+    "wholesaler": {
+      "title": "Dropshipping Supplier",
+      "desc": "Nthawi zambiri wogulitsa kapena wopanga - yemwe amatumiza maoda mwachindunji kwa ogula. Ogulitsa ena pa Selldone amatha kutsitsa zinthu zanu m'masitolo awo."
+    },
+    "marketplace": {
+      "title": "Msika",
+      "desc": "Misika yapaintaneti imalumikiza ogula ndi ogulitsa papulatifomu yokhazikika komanso yapakati."
+    },
+    "franchise": {
+      "title": "Franchise / Wothandizira",
+      "desc": "Franchise ndi njira yogawa zinthu kapena ntchito zomwe zimakhudzana ndi franchisor yemwe amakhazikitsa mtundu wanu (Franchising) kapena kugulitsa zinthu zanu ndi mtundu wawo (Othandizira)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Wallets",
+    "pricing_models": "Mitengo",
+    "add_vendor": "Onjezani wogulitsa",
+    "requests": "Zopempha"
+  },
+  "price_input_type": {
+    "title": "Mtundu wolowetsa mtengo",
+    "default": {
+      "title": "Zofikira",
+      "desc": "Sankhani mtengo monga kuchuluka kwa ngolo."
+    },
+    "area": {
+      "title": "Malo",
+      "desc": "Lowetsani m'lifupi ndi kutalika ngati zolowetsa kuti muwerenge kuchuluka kwake."
+    },
+    "volume": {
+      "title": "kuchuluka",
+      "desc": "Lowetsani m'lifupi, kutalika, ndi kutalika kuti muwerenge kuchuluka kwake."
+    },
+    "custom": {
+      "title": "Mwamakonda (Mwa fomu yolowetsa)",
+      "desc": "Palibe chifukwa chamitundu yosiyanasiyana! Pangani fomu yowerengera mtengo wazinthu zomwe mungasinthire makonda kwambiri."
+    }
+  },
+  "vendors_list": {
+    "title": "Ogulitsa Anga",
+    "message": "Mndandanda wamavenda anga."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Lumikizani madambwe angapo kubizinesi yanu OS ndikuwongolera onse pamalo amodzi. Mutha kugwiritsa ntchito madomeni angapo kuti mupange madera odzipatulira pagawo lililonse la tsamba lanu, monga mabulogu ndi dera, kapena kugwiritsa ntchito madambwe osiyanasiyana kwa ogwirizana nawo."
+  },
+  "notes": {
+    "add_action": "Onjezani ndemanga ya gulu lanu",
+    "notifications": {
+      "success_add": "Chidziwitso chawonjezedwa bwino.",
+      "success_delete": "Chidziwitso chachotsedwa bwino."
+    }
+  },
+  "external_services": {
+    "title": "Ntchito zakunja",
+    "subtitle": "Yang'anirani mawonekedwe omaliza a ntchito zakunja monga ma SMS ndi maimelo apa."
   }
 };

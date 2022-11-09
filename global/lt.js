@@ -558,7 +558,52 @@ export default {
     "merchant": "Prekybininkas",
     "per_product": "Pagal gaminį",
     "journey": "Kelionė",
-    "after": "Po to"
+    "after": "Po to",
+    "waiting_for_payment": "Užbaikite mokėjimą...",
+    "hour": "Valanda",
+    "minute": "Minutė",
+    "premium": "Premija",
+    "light": "Šviesa",
+    "dark": "Tamsus",
+    "guest": "Svečias",
+    "shops": "Parduotuvės",
+    "vendor": "Pardavėjas",
+    "vendors": "Pardavėjai",
+    "marketplace": "Turgavietė",
+    "verify_date": "Patvirtinkite datą",
+    "note": "Pastaba",
+    "panel": "Skydas",
+    "removed": "Pašalinta",
+    "segments": "Segmentai",
+    "personal_info": "Asmeninė informacija",
+    "preferences": "Parinktys",
+    "spec": "Spec",
+    "reviews": "Atsiliepimai",
+    "constraints": "Apribojimai",
+    "flexible": "Lankstus",
+    "usage_limit": "Naudojimo limitas",
+    "temporary": "Laikinas",
+    "original": "Originalus",
+    "saved": "Išsaugota!",
+    "sort": "Rūšiuoti",
+    "documents": "Dokumentai",
+    "document": "dokumentas",
+    "please_wait": "Prašau palauk...",
+    "pickup": "Paimti",
+    "customize": "pritaikyti",
+    "difficulty": "Sunkumas",
+    "banned": "Uždrausta",
+    "company": "Įmonė",
+    "tax_shipping": "Siuntimo mokestis",
+    "warranty": "Garantija",
+    "return_policy": "Gražinimo politika",
+    "guide": "Vadovas",
+    "translate": "Išversti",
+    "public": "Viešas",
+    "deleted": "Ištrinta",
+    "variant": "Variantas",
+    "secure": "Saugus",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Trasa",
     "change_state": "Pakeisti būseną",
     "done": "padaryta",
-    "reply": "Atsakyti"
+    "reply": "Atsakyti",
+    "watch_now": "Žiūrėk dabar",
+    "unlock": "Atrakinti",
+    "lock": "Užraktas",
+    "create_clone": "Sukurti kloną",
+    "regenerate": "Regeneruoti",
+    "add_message": "Pridėti pranešimą",
+    "continue_chat": "Tęsti pokalbį",
+    "add_new_message": "Pridėti naują pranešimą"
   },
   "instance_message_title": "Siųsti momentinę žinutę",
   "instance_message": "Sveiki, {name}, mano vardas yra {author} iš {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Pašto indeksas",
     "enter_value": "Užpildykite čia",
     "address_note": "Pastaba",
-    "tel": "Kontaktinis numeris"
+    "tel": "Kontaktinis numeris",
+    "service_address": "Pasirinkite savo adresą"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "svarų",
     "kvortų",
     "kiemai",
-    "kambarys"
+    "kambarys",
+    "sekundžių",
+    "minučių",
+    "valandų",
+    "dienų",
+    "savaites",
+    "mėnesių",
+    "metų"
   ],
   "region_types": {
     "State": "valstybė",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Minimalus ilgis turi būti {length}",
     "invalid_min_array_length": "Pasirinkite bent {length} elementus",
     "invalid_max_chars": "Daugiausia simbolių: {maxCount}",
-    "invalid_url": "neteisingas URL"
+    "invalid_url": "neteisingas URL",
+    "country_invalid": "Pasirinkite paskirties šalį!",
+    "postal_code_invalid": "Nustatykite galiojantį pašto kodą!"
   },
   "colors": {
     "#D32F2F": "Raudona",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Baltas",
     "#FFF": "Baltas",
     "#000000": "Juoda",
-    "#000": "Juoda"
+    "#000": "Juoda",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Auksas",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Armija",
+    "#474747": "Asfaltas",
+    "#E6195C": "Uoga",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Degintas apelsinas",
+    "#80011F": "kardinolas",
+    "#382829": "Šokoladas",
+    "#F06336": "Koralas",
+    "#FAE7C9": "Kremas",
+    "#6B2257": "Serbentas",
+    "#222127": "Tamsiai pilka",
+    "#0D5A74": "Giliai žalsvai mėlyna",
+    "#00582F": "Evergreen",
+    "#214C30": "Miškas",
+    "#DC2867": "Fuksija",
+    "#38561": "Kelly",
+    "#5C884D": "Lapas",
+    "#558450": "Šviesus Aqua",
+    "#96B5C9": "Šviesiai mėlynas",
+    "#DCAFCE": "Alyva",
+    "#D3E1A4": "Kalkės",
+    "#9DE7C2": "Mėtų",
+    "#F6EAD2": "Natūralus",
+    "#1A1F35": "karinis jūrų laivynas",
+    "#404624": "Alyvuogių",
+    "#271020": "Slyva",
+    "#A8355C": "Avietinė",
+    "#D6BEA6": "Minkštas kremas",
+    "#BEA994": "Tan",
+    "#0DB2AE": "žalsvai mėlyna",
+    "#A86EA9": "Violetinė",
+    "#36454F": "Anglis",
+    "#b3b0ab": "anglies pilka",
+    "#463e3d": "Anglies viržiai",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "vardas",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Pastato numeris",
     "building_unit": "Vienetas",
     "postcode": "Pašto indeksas",
-    "note": "Pastaba"
+    "note": "Pastaba",
+    "county": "Apygarda"
   },
   "product_types": {
     "physical": "Fizinis",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Spalva",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Paprasta",
       "selective": "Atrankinis",
-      "switch": "Jungiklis"
-    }
+      "switch": "Jungiklis",
+      "file": "Failas",
+      "number": "Skaičius"
+    },
+    "placeholder_input": "Vietos rezervuaras",
+    "file_type_input": "Priimtini failų tipai",
+    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "produkto pavadinimas",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Įveskite savo mobilųjį telefoną",
     "verification_code": "Patvirtinimo kodas",
     "msg_title": "Sveiki,",
-    "msg_body": "Prašome prisijungti. Tai užtrunka vos kelias sekundes."
+    "msg_body": "Prašome prisijungti. Tai užtrunka vos kelias sekundes.",
+    "login_apple": "Prisijunkite naudodami „Apple“."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Pridėtos žymos"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Labai sudėtinga",
+    "hard": "Sunku",
+    "intermediate": "Tarpinis",
+    "easy": "Lengva"
   }
 };

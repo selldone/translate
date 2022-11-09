@@ -558,7 +558,52 @@ export default {
     "merchant": "ကုန်သည်",
     "per_product": "ထုတ်ကုန်အလိုက်",
     "journey": "ခရီး",
-    "after": "ပြီးနောက်"
+    "after": "ပြီးနောက်",
+    "waiting_for_payment": "ကျေးဇူးပြု၍ ငွေပေးချေမှု အပြီးသတ်ပါ...",
+    "hour": "နာရီ",
+    "minute": "မိနစ်",
+    "premium": "ပရီမီယံ",
+    "light": "အလင်း",
+    "dark": "မှောငျမိုကျသော",
+    "guest": "ဧည့်သည်",
+    "shops": "ဆိုင်များ",
+    "vendor": "ရောင်းချသူ",
+    "vendors": "ဈေးသည်များ",
+    "marketplace": "ဈေး",
+    "verify_date": "ရက်စွဲကို အတည်ပြုပါ။",
+    "note": "မှတ်ချက်",
+    "panel": "ဘောင်",
+    "removed": "ဖယ်ရှားခဲ့သည်။",
+    "segments": "အပိုင်းများ",
+    "personal_info": "ကိုယ်ရေးကိုယ်တာအချက်အလက်",
+    "preferences": "နှစ်သက်ရာ",
+    "spec": "Spec",
+    "reviews": "သုံးသပ်ချက်များ",
+    "constraints": "ကန့်သတ်ချက်များ",
+    "flexible": "ပြောင်းလွယ်ပြင်လွယ်",
+    "usage_limit": "အသုံးပြုမှုကန့်သတ်ချက်",
+    "temporary": "ယာယီ",
+    "original": "မူရင်း",
+    "saved": "သိမ်းဆည်းပြီး။",
+    "sort": "မျိုးတူစု",
+    "documents": "စာရွက်စာတမ်းများ",
+    "document": "စာရွက်စာတမ်း",
+    "please_wait": "ကျေးဇူးပြုပြီးခဏစောင့်ပါ...",
+    "pickup": "ကောက်ကိုင်လိုက်သည်",
+    "customize": "စိတ်ကြိုက်လုပ်ပါ။",
+    "difficulty": "အခက်အခဲ",
+    "banned": "ပိတ်ပင်ထားသည်။",
+    "company": "ကုမ္ပဏီ",
+    "tax_shipping": "သင်္ဘောခွန်",
+    "warranty": "အာမခံ",
+    "return_policy": "ပြန်လည်ပေးပို့ခြင်းဆိုင်ရာမူဝါဒ",
+    "guide": "လမ်းညွှန်",
+    "translate": "ဘာသာပြန်ပါ။",
+    "public": "အများသူငှာ",
+    "deleted": "ဖျက်လိုက်",
+    "variant": "မူကွဲ",
+    "secure": "လုံခြုံအောင်",
+    "admin": "အက်မင်"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "တစ်ပုဒ်",
     "change_state": "အခြေအနေပြောင်းပါ။",
     "done": "ပြီးပြီ။",
-    "reply": "အကြောင်းပြန်တယ်။"
+    "reply": "အကြောင်းပြန်တယ်။",
+    "watch_now": "ယခု ကြည့်ရှုပါ။",
+    "unlock": "သော့ဖွင့်ပါ။",
+    "lock": "သော့ခတ်",
+    "create_clone": "ကိုယ်ပွားဖန်တီးပါ။",
+    "regenerate": "ပြန်ထုတ်ပါ။",
+    "add_message": "မက်ဆေ့ခ်ျထည့်ပါ။",
+    "continue_chat": "စကားစမြည် ဆက်ရန်",
+    "add_new_message": "မက်ဆေ့ခ်ျအသစ်ထည့်ပါ။"
   },
   "instance_message_title": "ချက်ချင်းမက်ဆေ့ခ်ျပို့ပါ။",
   "instance_message": "မင်္ဂလာပါ {name}၊ ကျွန်ုပ်၏အမည်မှာ {company} မှ {author} ဖြစ်ပါသည်။",
@@ -690,7 +743,8 @@ export default {
     "postcode": "စာပို့ကုဒ်",
     "enter_value": "ဤနေရာတွင် ဖြည့်စွက်ပါ။",
     "address_note": "မှတ်ချက်",
-    "tel": "ဆက်သွယ်ရန်နံပါတ်"
+    "tel": "ဆက်သွယ်ရန်နံပါတ်",
+    "service_address": "သင့်လိပ်စာကို ရွေးပါ။"
   },
   "weight": {
     "g": "ဆ",
@@ -753,7 +807,14 @@ export default {
     "အလေးချိန်ပေါင်",
     "quarts",
     "ကိုက်တယ်။",
-    "အခန်း"
+    "အခန်း",
+    "စက္ကန့်",
+    "မိနစ်များ",
+    "နာရီ",
+    "နေ့ရက်များ",
+    "ရက်သတ္တပတ်",
+    "လများ",
+    "နှစ်များ"
   ],
   "region_types": {
     "State": "ပြည်နယ်",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "အနိမ့်ဆုံးအရှည်သည် {length} ဖြစ်ရမည်",
     "invalid_min_array_length": "အနည်းဆုံး အရာ {length} ကို ရွေးပါ။",
     "invalid_max_chars": "အများဆုံး စာလုံး {maxCount} လုံး",
-    "invalid_url": "မမှန်ကန်သော URL"
+    "invalid_url": "မမှန်ကန်သော URL",
+    "country_invalid": "သွားမည့်နိုင်ငံကို ရွေးပါ။",
+    "postal_code_invalid": "တရားဝင်စာပို့ကုဒ်ကို သတ်မှတ်ပါ။"
   },
   "colors": {
     "#D32F2F": "အနီေရာင်",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "အဖြူ",
     "#FFF": "အဖြူ",
     "#000000": "အနက်ရောင်",
-    "#000": "အနက်ရောင်"
+    "#000": "အနက်ရောင်",
+    "#7d263a": "ကြက်သွေး",
+    "#FD9F17": "ရွှေ",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblen",
+    "#413B2D": "တပ်မတော်",
+    "#474747": "ကတ္တရာ",
+    "#E6195C": "ဘယ်ရီ",
+    "#B2184C": "Berry Triblen",
+    "#FC7F5F": "လိမ္မော်ရောင်",
+    "#80011F": "ကာဒီနယ်",
+    "#382829": "ချောကလက်",
+    "#F06336": "သန္တာ",
+    "#FAE7C9": "မုန့်",
+    "#6B2257": "Currant",
+    "#222127": "မီးခိုးရောင်",
+    "#0D5A74": "နက်ပြာရောင်",
+    "#00582F": "ရမ်းတယ်။",
+    "#214C30": "သစ်တော",
+    "#DC2867": "Fuchsia",
+    "#38561": "ကယ်လီ",
+    "#5C884D": "အရွက်",
+    "#558450": "Light Aqua",
+    "#96B5C9": "အပြာနုရောင်",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "သံပုရာသီး",
+    "#9DE7C2": "Mint",
+    "#F6EAD2": "သဘာဝ",
+    "#1A1F35": "ရေတပ်",
+    "#404624": "သံလွင်",
+    "#271020": "ဇီးသီး",
+    "#A8355C": "ရက်စ်ဘယ်ရီ",
+    "#D6BEA6": "Soft Cream",
+    "#BEA994": "တန်တယ်",
+    "#0DB2AE": "စိမ်းပြာရောင်",
+    "#A86EA9": "ခရမ်းရောင်",
+    "#36454F": "မီးသွေး",
+    "#b3b0ab": "ကာဗွန်မီးခိုးရောင်",
+    "#463e3d": "Charcoal Heather",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "နာမည်",
@@ -838,7 +940,8 @@ export default {
     "building_number": "အဆောက်အဦနံပါတ်",
     "building_unit": "ယူနစ်",
     "postcode": "စာပို့ကုဒ်",
-    "note": "မှတ်ချက်"
+    "note": "မှတ်ချက်",
+    "county": "ခရိုင်"
   },
   "product_types": {
     "physical": "ရုပ်ပိုင်းဆိုင်ရာ",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "အရောင်",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "ရိုးရိုးရှင်းရှင်း",
       "selective": "ကထာ",
-      "switch": "ပြောင်းပါ။"
-    }
+      "switch": "ပြောင်းပါ။",
+      "file": "ဖို",
+      "number": "နံပါတ်"
+    },
+    "placeholder_input": "နေရာယူသည်။",
+    "file_type_input": "လက်ခံနိုင်သော ဖိုင်အမျိုးအစားများ",
+    "file_type_message": "jpeg ၊ png ၊ zip ၊ ..."
   },
   "virtual_order_info_summery": {
     "title": "ထုတ်ကုန်အမည်",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "သင့်မိုဘိုင်းကို ထည့်သွင်းပါ။",
     "verification_code": "အတည်ပြုရန်ကုတ်",
     "msg_title": "မင်္ဂလာပါ",
-    "msg_body": "ကျေးဇူးပြု၍ ဝင်ရောက်ပါ။ စက္ကန့်အနည်းငယ်ပဲကြာတယ်။"
+    "msg_body": "ကျေးဇူးပြု၍ ဝင်ရောက်ပါ။ စက္ကန့်အနည်းငယ်ပဲကြာတယ်။",
+    "login_apple": "Apple ဖြင့် အကောင့်ဝင်ပါ။"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "တဂ်များထည့်ထားသည်။"
     }
+  },
+  "difficulties": {
+    "very_complicated": "အလွန်ရှုပ်ထွေးသည်။",
+    "hard": "ခက်တယ်။",
+    "intermediate": "အလယ်အလတ်",
+    "easy": "လွယ်ပါတယ်။"
   }
 };

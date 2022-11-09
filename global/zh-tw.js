@@ -584,7 +584,26 @@ export default {
     "temporary": "暫時的",
     "original": "原來的",
     "saved": "得救了！",
-    "sort": "種類"
+    "sort": "種類",
+    "waiting_for_payment": "請完成付款...",
+    "documents": "文件",
+    "document": "文檔",
+    "please_wait": "請稍等...",
+    "pickup": "撿起",
+    "customize": "定制",
+    "difficulty": "困難",
+    "banned": "禁止",
+    "company": "公司",
+    "tax_shipping": "運費稅",
+    "warranty": "保修單",
+    "return_policy": "退貨政策",
+    "guide": "指導",
+    "translate": "翻譯",
+    "public": "上市",
+    "deleted": "已刪除",
+    "variant": "變體",
+    "secure": "安全的",
+    "admin": "行政"
   },
   "dialogs": {
     "delete": {
@@ -696,7 +715,14 @@ export default {
     "track": "追踪",
     "change_state": "更改狀態",
     "done": "完畢",
-    "reply": "回复"
+    "reply": "回复",
+    "unlock": "開鎖",
+    "lock": "鎖",
+    "create_clone": "創建克隆",
+    "regenerate": "再生",
+    "add_message": "添加消息",
+    "continue_chat": "繼續聊天",
+    "add_new_message": "添加新消息"
   },
   "instance_message_title": "發送即時消息",
   "instance_message": "嗨，{name}，我的名字是來自 {company} 的 {author}。",
@@ -1860,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "添加的標籤"
     }
+  },
+  "difficulties": {
+    "very_complicated": "非常複雜",
+    "hard": "難的",
+    "intermediate": "中間的",
+    "easy": "簡單的"
   }
 };

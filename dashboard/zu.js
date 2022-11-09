@@ -155,7 +155,19 @@ export default {
       "Setup": "isitolo",
       "Sell": "Ukuthengisa Nokumaketha",
       "Developer": "Thuthukisa",
-      "Application": "Izinhlelo zokusebenza"
+      "Application": "Izinhlelo zokusebenza",
+      "Product": "Ukuphathwa Kwemikhiqizo Nezigaba",
+      "Blog": "I-CMS & Blog",
+      "Order": "Isikhungo Sokugcwalisa Ama-oda",
+      "Channel": "Iziteshi zokuthengisa",
+      "Accounting": "Izindlela Zokubalwa Kwezimali Nezokukhokha",
+      "Incentives": "Izikhuthazi",
+      "Marketing": "Ukumaketha & Imikhankaso",
+      "Logistic": "Logistic & Shipping",
+      "Customers": "I-Customers Club & Segmentation",
+      "Page": "Ukufika & Amakhasi Ngokwezifiso",
+      "Access": "Abasebenzi / Ukuphathwa kokufinyelela kwe-API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "I-Github Repository",
@@ -193,7 +205,9 @@ export default {
       "stores": "Izitolo",
       "roles": "Izindima",
       "home": "Ikhaya",
-      "expert": "Uchwepheshe"
+      "expert": "Uchwepheshe",
+      "deals": "Izidili",
+      "providers": "Abahlinzeki"
     },
     "shops": {
       "create_new": "Dala isitolo esisha",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Isimo",
           "created_at": "Usuku Lokudala",
           "updated_at": "Isibuyekezo sokugcina"
-        }
+        },
+        "subtitle": "Bhala izindatshana ngomhleli wesimanje osemgqeni ukuze uzethule wena nebhizinisi lakho. Okuqukethwe kwangempela yinto yokuqala okudingeka ugxile kuyo lapho ubhala iposi lebhulogi elinobungani be-SEO."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Bika",
         "tax": "Intela",
         "drop_shipping": "Amarisidi omthengisi",
-        "reseller_accounts": "Ama-akhawunti omthengisi"
+        "reseller_accounts": "Ama-akhawunti omthengisi",
+        "valuations": "Izilinganiso"
       },
       "invoice": {
         "title": "Thenga Ama-Wallet Axhunyiwe",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Ukuthumela ngomkhumbi",
         "inventory": "Inventory",
         "warehouse": "Inqolobane",
-        "logistic_apps": "Logistics"
+        "logistic_apps": "Logistics",
+        "profiles": "Amaphrofayili"
       },
       "warehouse": {
         "title": "Store Warehouse",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Ubuncane bezindleko ze-oda zokuthunyelwa kwamahhala",
           "notifications": {
             "update_success": "Izilungiselelo zesevisi yokuthumela ziqedwe ngempumelelo."
-          }
+          },
+          "shipping_cost_calculation": "Ukubalwa kwezindleko zokuthumela",
+          "sod_true": "Thola izindleko zokuthumela endaweni oya kuyo",
+          "sod_true_message": "Qinisekisa ukuthi isevisi yakho yokuthumela iyazamukela izindleko zokuthumela endaweni oya kuyo.",
+          "sod_false": "Ukubalwa kwezindleko zokuthumela ngokuzenzakalelayo",
+          "cod_true": "Yamukela imali uma udiliva",
+          "cod_false": "Yamukela inkokhelo ye-inthanethi kuphela",
+          "cod_true_message": "Qiniseka ukuthi isevisi yakho yokuthumela yamukela i-COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "I-Sms",
         "email": "I-imeyili",
         "domain": "Isizinda",
-        "verifications": "Ukuqinisekisa"
+        "verifications": "Ukuqinisekisa",
+        "flow": "Ukugeleza",
+        "business_model": "Imodeli Yebhizinisi"
       },
       "delete_dialog": {
         "title": "Susa Isitolo",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Iyunithi yomkhiqizo",
       "unit_float": "Iyunithi yokuntanta (maduze)",
       "unit_float_hint": "Isibonelo, ikhasimende lingakwazi uku-oda u-3 kg wezithelo, kodwa inani elithunyelwe ekhasimendeni lihluke kancane kunani eli-odiwe.",
-      "unit_float_message": "Ngesikhathi sokucubungula i-oda, inani elilethiwe lingahluka enanini eli-odiwe. Uhlelo lubala ngokuzenzakalelayo lo mehluko futhi luwurekhode njengesikweletu sakho kukhasimende, esingase sisetshenziswe kuma-oda alandelayo."
+      "unit_float_message": "Ngesikhathi sokucubungula i-oda, inani elilethiwe lingahluka enanini eli-odiwe. Uhlelo lubala ngokuzenzakalelayo lo mehluko futhi luwurekhode njengesikweletu sakho kukhasimende, esingase sisetshenziswe kuma-oda alandelayo.",
+      "status_list": {
+        "active": {
+          "title": "Iyasebenza | Ukuthengisa okuku-inthanethi nokungaxhunyiwe ku-inthanethi",
+          "description": "Lo mkhiqizo uzotholakala kuma-oda aku-inthanethi."
+        },
+        "inactive": {
+          "title": "Ayisebenzi | Ukuthengisa Okungaxhunyiwe Ku-inthanethi Kuphela",
+          "description": "Lo mkhiqizo ngeke utholakale kuma-oda aku-inthanethi."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Ucwaningo",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Khetha isikhathi sokuphela",
       "independent_price": "Intengo yalokhu okuhlukile kuphela",
       "same_price": "Intengo yomkhiqizo oyinhloko",
-      "variant_pricing_message": "Ngokukhetha le nketho, intengo yalokhu okuhlukile ingasethwa ngaphandle komkhiqizo oyinhloko."
+      "variant_pricing_message": "Ngokukhetha le nketho, intengo yalokhu okuhlukile ingasethwa ngaphandle komkhiqizo oyinhloko.",
+      "price_label_input": "Ilebula lentengo",
+      "price_label_message": "Engeza ulwazi olwengeziwe mayelana nentengo efana ( $1.5/Fl Oz ). Sebenzisa amacala: igrosa, FMCG.",
+      "add_price_label_action": "Engeza ilebula yentengo"
     },
     "inputs_edit": {
       "title": "Ifomu Lokufaka Lolwazi Lomthengi",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Isango {gateway_name} lihleliwe."
     },
-    "developer_setting": "Thuthukisa & Hlola"
+    "developer_setting": "Thuthukisa & Hlola",
+    "live_mode_message": "Konke okwenziwayo kuzoba kumodi ebukhoma."
   },
   "gift_card": {
     "title": "Amakhadi Esipho",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Ikheli lokukhokha lihlelwe umthengi.",
     "payment-cod-confirm": "Inkokhelo ye-COD iqinisekisiwe.",
     "payment-cash-confirm": "Inkokhelo engu-{amount} {currency} engukheshi yebhili iqinisekisiwe.",
-    "payment-dir-confirm": "Irisidi yenkokhelo eqondile iqinisekisiwe."
+    "payment-dir-confirm": "Irisidi yenkokhelo eqondile iqinisekisiwe.",
+    "vendor": "Isimo se-oda lomthengisi sishintshile ukusuka kokuthi <b>{from}</b> ukuya ku- <b>{} kuya ku-}</b> .",
+    "connect-sync": "I-oda livunyelaniswe yi-Connect OS.",
+    "connect-shipped": "I-oda lokuxhuma lithunyelwe nge-{shipping}.",
+    "connect-returned": "I-oda lokuxhuma libuyiselwe ngo-{shipping}.",
+    "connect-failed": "Ukugcwalisa i-oda kuhlulekile nguzakwethu. {reason}",
+    "connect-canceled": "I-oda likhanselwe uzakwethu. {reason}",
+    "connect-action-cancel": "Isicelo sokukhansela i-oda. {reason}",
+    "connect-put-hold": "I-oda liye lamiswa. {reason}",
+    "connect-remove-hold": "I-oda lisusiwe ekubanjweni. {reason}",
+    "connect-confirmed": "I-oda liqinisekisiwe.",
+    "email-vendor": "🔔 I-imeyili yokwaziswa kwe-oda ithunyelwe ku- <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Namuhla",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Enza imali",
     "menu": {
       "plans": "Izinhlelo",
-      "accounts": "Ama-akhawunti"
+      "accounts": "Ama-akhawunti",
+      "participant": "Umhlanganyeli"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Gcina Okhiye Bokungena",
     "shop_keys_message": "Lezi zihluthulelo zisetshenziselwa ukwakha Ithokheni Yokufinyelela ngeseva yakho. Qaphela ukuthi okhiye bayimfihlo futhi babekwe kuseva kuphela ukuze bangabonakali kwabanye.",
     "personal_keys_title": "Okhiye bokufinyelela komuntu siqu",
-    "personal_keys_message": "Ungakha okhiye be-akhawunti yakho lapha. Qaphela ukuthi laba okhiye bazokwazi ukufinyelela i-akhawunti yakho. Dala futhi usebenzise lezi zikhiye kuphela uma wazi kahle ukuthi wenzani."
+    "personal_keys_message": "Ungakha okhiye be-akhawunti yakho lapha. Qaphela ukuthi laba okhiye bazokwazi ukufinyelela i-akhawunti yakho. Dala futhi usebenzise lezi zikhiye kuphela uma wazi kahle ukuthi wenzani.",
+    "clients_title": "Amaklayenti",
+    "clients_message": "Lezi zihluthulelo zisetshenziselwa ukwakha Ithokheni Yokufinyelela ngeseva yakho. Qaphela ukuthi okhiye bayimfihlo futhi babekwe kuseva kuphela ukuze bangabonakali kwabanye."
   },
   "user_security_control": {
     "title": "Ukuphepha Kwe-akhawunti",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Phatha amaphrofayili",
       "description": "Phatha amaphrofayili esitolo."
+    },
+    "shop-discount-code": {
+      "name": "Ukuphathwa kwekhodi yesaphulelo",
+      "description": "Phatha, hlela futhi wengeze amakhodi esaphulelo esitolo."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Izilungiselelo",
       "change": "Shaja",
       "transfer": "Dlulisa",
-      "transactions": "Ukuthengiselana"
+      "transactions": "Ukuthengiselana",
+      "charge": "Shaja",
+      "history": "Umlando"
     },
     "transactions": {
       "title": "Ukuthengiselana kwe-Akhawunti",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Khansela ukuqinisekiswa kokubhalisa",
       "message": "Uqinisekile ukukhansela lokhu kubhalisa?",
       "action": "Khansela ukubhalisa"
-    }
+    },
+    "use_voucher_now": "Sebenzisa ivawusha manje",
+    "validity_duration": "Ubude besikhathi bokusebenza",
+    "validity_duration_hint": "Ngokuthenga ilayisense yezinyanga eziyi-12, uzothola isaphulelo esingu-30%."
   },
   "admin_shop_layout": {
     "download_txt": "Landa umbhalo wedatha",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Amafonti amakhulu",
     "large_font_message": "Bonisa umbhalo omkhulu kunokuvamile",
     "samples": "Bonisa izibonelo zezitolo",
-    "samples_message": "Uma inikwe amandla, ezinye izitolo zesampula zizoboniswa kuphaneli yakho."
+    "samples_message": "Uma inikwe amandla, ezinye izitolo zesampula zizoboniswa kuphaneli yakho.",
+    "automation": "Okuzenzakalelayo",
+    "automation_message": "Bonisa ithebhu yokuzenzakalela kudeshibhodi yesitolo. (Webhooks, Visual programming, ...)"
   },
   "shop_locations": {
     "title": "Amazwe lapho isevisi inikezwa khona",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Ikhuphoni lisuswe ngempumelelo."
-    }
+    },
+    "multiple_use": "Ukusetshenziswa okuningi"
   },
   "coupon_edit": {
     "title_edit": "Hlela isigqebhezana",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Umkhawulo",
       "description": "Setha umkhawulo enanini eliphezulu labasebenzisi."
+    },
+    "SEGMENTS": {
+      "title": "Izigaba",
+      "description": "Khawulela amakhasimende ekuhlukaniseni okuthile okwenziwa ngesandla."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Isamba senani le-oda likhishiwe emakhadini esipho! Umthengi akadingi ukukhokha ngaphezulu.",
       "cod_msg": "Ikhasimende lizokhokha lapho lithola i-oda.",
       "online_msg": "Cela ikhasimende ukuthi liskene ikhodi ye-QR esikrinini sekhasimende."
-    }
+    },
+    "name": "POS",
+    "message": "Iba nephoyinti lakho lokuthengisa elingabizi kakhulu lokusetha ku-inthanethi, lisebenzise kunoma iyiphi i-smartphone, ithebhulethi, ne-PC, noma dala ama-oda mathupha."
   },
   "exporter": {
     "title": "Khipha idatha",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Thumela kuseva",
     "shop_license": "Ilayisensi yokuthenga",
     "max_items_limit": "Umkhawulo wezinto eziphezulu",
-    "total_items": "Ingqikithi yezinto"
+    "total_items": "Ingqikithi yezinto",
+    "customer": {
+      "title": "Ngenisa amakhasimende",
+      "subtitle": "Layisha amafayela e-CSV amakhasimende lapha. Qiniseka ukuthi ulandela ifomethi evamile, futhi, kufanele ulandele imithetho yobumfihlo."
+    }
   },
   "campaigns": {
     "title": "Imikhankaso",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Izixhumanisi",
     "light_checkout": "Itimu yokuphuma elula",
     "light_header": "Unhlokweni okhanyayo",
-    "light_footer": "Unyaweni olula"
+    "light_footer": "Unyaweni olula",
+    "product_page": "Ikhasi Lomkhiqizo",
+    "typography": "Ukuthayipha",
+    "header": "Unhlokweni",
+    "custom_code": "Ikhodi ngokwezifiso",
+    "custom_css": "I-CSS yangokwezifiso"
   },
   "app_templates": {
     "default": "Okuzenzakalelayo",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Phatha isevisi",
     "option_deliver_by_courier": "Inketho 1: Idiliva ngamakhuriya akho.",
     "option_add_to_que": "Inketho 2: Engeza kulayini ukuze usebenze ekhasini lesevisi yokuthumela.",
-    "option_instant_shipping": "Inketho 3: Ukuthunyelwa okusheshayo."
+    "option_instant_shipping": "Inketho 3: Ukuthunyelwa okusheshayo.",
+    "pickup_action": "Isiqinisekiso sokuthatha"
   },
   "shop_home_edit": {
     "title": "Ukulungiselelwa kwekhasi lasekhaya",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Umkhiqizo wengezwe esitolo sakho.",
       "request_access": "Sithumele isicelo sakho sokufinyelela kumdayisi wezitolo ngempumelelo."
-    }
+    },
+    "show_eligible_shops_message": "Bonisa izitolo ezifanele"
   },
   "product_dropshipping": {
     "need_re_enable": "Lo mkhiqizo ushintshwe umdayisi wangempela, lezi zinguquko zentengo zikhubaze umkhiqizo esitolo sakho. Hlola izinguquko futhi uma uvuma ukuvuselela umkhiqizo, cindezela inkinobho engezansi.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Asikho isigaba esitolo sakho.",
       "limit": "Umkhawulo wemikhiqizo",
       "limit_message": "Faka izibalo zemiphumela yemikhiqizo",
-      "select_categories": "Khetha izigaba ezitholakalayo"
+      "select_categories": "Khetha izigaba ezitholakalayo",
+      "categories_limit": "Umkhawulo wezigaba",
+      "categories_limit_msg": "Faka inombolo enkulu yezigaba. Setha uziro ngaphandle komkhawulo."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Ukwatapheya ubuyekezwe ngempumelelo.",
       "add_success": "Ukwatapheya udalwe ngempumelelo."
-    }
+    },
+    "name": "Ukwatapheya"
   },
   "avocado_orders": {
     "title": "Ukwatapheya",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "Ayisebenzi",
     "active_message": "Uma unika amandla le nketho, ithuba lokudala Amakhodi Okuthengisa Ngokushesha azoboniswa esigabeni sokuphatha somkhiqizo ngamunye.",
     "hyper_form_link_message": "Isixhumanisi sekhasi lakho eliphezulu lesitolo sakho",
-    "configuration": "Izilungiselelo ze-Hyper"
+    "configuration": "Izilungiselelo ze-Hyper",
+    "name": "I-Hyper"
   },
   "hyper_orders": {
     "title": "I-Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Izibalo zabantu bamakhasimende",
     "subtitle": "Hlunga futhi uthumele idatha yamakhasimende akho ukuze wenze izinqumo ezingcono zokuletha inani elikhulu ngokumaketha okuncane! Sicela uhloniphe ubumfihlo bamakhasimende akho futhi ungalokothi uthumele inqwaba yama-imeyili kuwo! Ungalokothi wabelane ngolwazi lwamakhasimende akho namasevisi ezinkampani zangaphandle ngaphandle kokuthola imvume kuwo wonke awo."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Amakheli okulanda",
+      "subtitle": "Engeza futhi uhlele amakheli okulanda lapha. Abasebenzisi bazokwazi ukukhetha ikheli lokulanda ekhasini lokuphuma.",
+      "add_action": "Engeza indawo entsha"
+    }
+  },
+  "affiliate_pos": {
+    "title": "I-POS esebenzisana nayo",
+    "open_pos_action": "Uku-oda okusheshayo kwe-POS",
+    "description": "Le nketho ilungele abaphathi bamakhasi e-Instagram nezinye izinkundla zokuxhumana. Sebenzisa i-Affiliate POS ukuze uthole futhi wengeze ama-oda avela kumakhasimende mathupha. Izinkampani eziphethwe (noma i-franchise) zingangeza ama-oda amasha ku-POS Yokusebenzisana futhi zilayishe isiliphu sediphozithi."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Izindlela zokungena",
+      "subtitle": "Enza ngendlela oyifisayo indlela abasebenzisi abangena ngayo esitolo sakho."
+    },
+    "checkout": {
+      "title": "Ukugeleza kokuphuma",
+      "subtitle": "Yenza ngokwezifiso uhambo lwakho lwekhasimende nokugeleza kokuthenga ku-ecommerce yakho.",
+      "map": {
+        "title": "Imephu",
+        "subtitle": "Abasebenzisi kufanele bakhethe indawo yokulethwa kumephu (njenge-Uber).",
+        "subtitle_no_map": "Ibanga ekubalweni kokuthunyelwa lithatha uziro uma indawo ingekho ekhelini elinikeziwe yikhasimende."
+      },
+      "mode": {
+        "title": "Iphoyinti lokungena lamakhasimende",
+        "default": {
+          "title": "ASAP (Okuzenzakalelayo)",
+          "msg": "Abasebenzisi bangena ngokushesha ngangokunokwenzeka. (Ukuguqulwa okwengeziwe)"
+        },
+        "on_checkout": {
+          "title": "Uma usuphuma",
+          "msg": "Phoqa abasebenzisi ukuthi bangene esinyathelweni sokuphuma."
+        },
+        "login_free": {
+          "title": "Ukungena ngemvume ngokuzithandela",
+          "msg": "Ukungena ngemvume ngokuzithandela ngemva kwenkokhelo ye-oda.."
+        }
+      },
+      "express": {
+        "title": "Qondisa kabusha ngemva kokwengeza ekalishini",
+        "false": {
+          "title": "Imodi evamile",
+          "msg": "Hlala ekhasini futhi uqhubeke nokuthenga ngemva kokuchofoza engeza ekalishini."
+        },
+        "true": {
+          "title": "Imodi ye-Express",
+          "msg": "Qondisa kabusha ikhasimende ekhasini lokuphuma ngemuva kokuchofoza engeza ekalishini."
+        }
+      },
+      "shipping_address": {
+        "title": "Cela ikheli lokuthumela"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Okokusebenza Nesevisi (Okuzenzakalelayo)",
+      "desc": "Cela ikhasimende ukuthi lifake ikheli ekuphumeni ngokomzimba nakusevisi."
+    },
+    "physical": {
+      "title": "Okomzimba Kuphela",
+      "desc": "Cela ikhasimende ukuthi lifake ikheli lapho usukhokha khona."
+    },
+    "off": {
+      "title": "Ungalokothi",
+      "desc": "Ungalokothi ubuze ikheli lokuthumela. ⚠ Sebenzisa le nketho uma uhlela ukuba nezinsizakalo ezinokuhlukahluka ngokukhetha uhlobo oluphathekayo lwemikhiqizo esikhundleni sohlobo lwesevisi."
+    }
+  },
+  "business_model": {
+    "title": "Ukusethwa kwemodeli yebhizinisi",
+    "subtitle": "Setha imodeli yebhizinisi lakho, futhi sizomisa i-OS yakho ngemuva kwesigcawu."
+  },
+  "business_type": {
+    "title": "Izinhlobo zokuthengiswayo",
+    "subtitle": "Setha uhlobo lwemikhiqizo ofuna ukuyithengisa esitolo sakho. Izinhlobo zomkhiqizo ku-Selldone zingaphezu nje kohlobo lwemikhiqizo; kumayelana nenqubo yokugcwalisa.",
+    "send_activation_request_to_support": "Thumela isicelo sokuvula ithikithi lokusekela.",
+    "require_kyc": "Umnikazi webhizinisi u-KYC.",
+    "needs_enterprise_license": "Udinga ukuba nelayisensi yebhizinisi.",
+    "marketplace_caution_message": "Setha Indawo Yemakethe njengemodeli yakho ithinta ngokujulile ukucushwa kwe-OS yebhizinisi lakho. Isibonelo, kufanele uchaze okungenani umdayisi oyedwa womkhiqizo ngamunye onamanani azimele kanye nempahla. Amakhasimende awakwazi ukuthenga imikhiqizo engenamdayisi."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Isitolo Esijwayelekile",
+      "desc": "Ngokuvamile i-SME, ibhizinisi lasekhaya, noma i-dropshipper - ethengisa umkhiqizo wayo ngokuqondile kumakhasimende noma ethengisa imikhiqizo yabathengisi bezitolo njengomthengisi."
+    },
+    "dropshipping": {
+      "title": "I-Dropshipping",
+      "desc": "Ungagcini umkhiqizo futhi kungenalo uhlu - ukhokhela inkampani yangaphandle, ngokuvamile umthengisi (njenge-Printify, Wholesale2B, ...) noma umkhiqizi, futhi bagcwalisa ama-oda ngemuva kwesigameko."
+    },
+    "wholesaler": {
+      "title": "Umhlinzeki we-Dropshipping",
+      "desc": "Imvamisa umthengisi noma umenzi - othumela ama-oda ngqo kumthengi wokugcina. Abanye abathengisi ku-Selldone bangashiya imikhiqizo yakho ezitolo zabo."
+    },
+    "marketplace": {
+      "title": "Indawo yemakethe",
+      "desc": "Izimakethe eziku-inthanethi zixhuma abathengi nabathengisi endaweni yobunikazi nephakathi nendawo."
+    },
+    "franchise": {
+      "title": "I-Franchise / Inxusa",
+      "desc": "I-franchise yindlela yokusabalalisa imikhiqizo noma amasevisi afaka i-franchisor esungula umkhiqizo wakho (i-Franchising) noma ethengisa imikhiqizo yakho ngomkhiqizo wayo (i-Affiliate)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Izikhwama zemali",
+    "pricing_models": "Amanani",
+    "add_vendor": "Engeza umthengisi",
+    "requests": "Izicelo"
+  },
+  "price_input_type": {
+    "title": "Uhlobo lokufaka inani",
+    "default": {
+      "title": "Okuzenzakalelayo",
+      "desc": "Khetha inani njengenani ekalishini."
+    },
+    "area": {
+      "title": "Indawo",
+      "desc": "Faka ububanzi nobude njengokufakwayo ukuze ubale ubuningi."
+    },
+    "volume": {
+      "title": "umthamo",
+      "desc": "Faka ububanzi, ubude, nobude njengokufakwayo ukuze ubale ubuningi."
+    },
+    "custom": {
+      "title": "Ngokwezifiso (Ngefomu lokufaka)",
+      "desc": "Asikho isidingo samakhulu ezinhlobonhlobo! Dala ifomu lokubala izindleko ngokwezifiso lemikhiqizo engenziwa ngendlela oyifisayo kakhulu."
+    }
+  },
+  "vendors_list": {
+    "title": "Abathengisi bami",
+    "message": "Uhlu lwabathengisi bami."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Xhuma izizinda eziningi ku-OS yebhizinisi lakho futhi uphathe zonke endaweni eyodwa. Ungasebenzisa isici sezizinda eziningi ukuze udale izizinda ezizinikele zengxenye ngayinye yewebhusayithi yakho, njengebhulogi nomphakathi, noma usebenzise izizinda ezihlukene kumanxusa akho."
+  },
+  "notes": {
+    "add_action": "Engeza inothi leqembu lakho",
+    "notifications": {
+      "success_add": "Inothi lengezwe ngempumelelo.",
+      "success_delete": "Inothi lisuswe ngempumelelo."
+    }
+  },
+  "external_services": {
+    "title": "Izinkonzo zangaphandle",
+    "subtitle": "Qaphela isimo sokugcina sezinsizakalo zangaphandle njenge-SMS nama-imeyili lapha."
   }
 };

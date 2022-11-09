@@ -558,7 +558,52 @@ export default {
     "merchant": "Εμπορος",
     "per_product": "Ανά προϊόν",
     "journey": "Ταξίδι",
-    "after": "Μετά"
+    "after": "Μετά",
+    "waiting_for_payment": "Παρακαλώ ολοκληρώστε την πληρωμή...",
+    "hour": "Ωρα",
+    "minute": "Λεπτό",
+    "premium": "Ασφάλιστρο",
+    "light": "Φως",
+    "dark": "Σκοτάδι",
+    "guest": "Επισκέπτης",
+    "shops": "Προμήθεια",
+    "vendor": "Προμηθευτή",
+    "vendors": "Πωλητές",
+    "marketplace": "Αγορά",
+    "verify_date": "Επαλήθευση ημερομηνίας",
+    "note": "Σημείωση",
+    "panel": "Πίνακας",
+    "removed": "Καταργήθηκε",
+    "segments": "Τμήματα",
+    "personal_info": "Προσωπικές πληροφορίες",
+    "preferences": "Προτιμήσεις",
+    "spec": "Spec",
+    "reviews": "Κριτικές",
+    "constraints": "Περιορισμοί",
+    "flexible": "Εύκαμπτος",
+    "usage_limit": "Όριο χρήσης",
+    "temporary": "Προσωρινός",
+    "original": "Πρωτότυπο",
+    "saved": "Αποθηκεύτηκε!",
+    "sort": "Είδος",
+    "documents": "Εγγραφα",
+    "document": "Εγγραφο",
+    "please_wait": "Παρακαλώ περιμένετε...",
+    "pickup": "Μαζεύω",
+    "customize": "προσαρμόστε",
+    "difficulty": "Δυσκολία",
+    "banned": "Απαγορευμένος",
+    "company": "Εταιρία",
+    "tax_shipping": "Φόρος αποστολής",
+    "warranty": "Εγγύηση",
+    "return_policy": "ΠΟΛΙΤΙΚΗ ΕΠΙΣΤΡΟΦΗΣ ΠΡΟΪΟΝΤΩΝ",
+    "guide": "Οδηγός",
+    "translate": "Μεταφράζω",
+    "public": "Δημόσιο",
+    "deleted": "Διαγράφηκε",
+    "variant": "Παραλαγή",
+    "secure": "Ασφαλής",
+    "admin": "διαχειριστής"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Πίστα",
     "change_state": "Αλλαγή κατάστασης",
     "done": "Εγινε",
-    "reply": "Απάντηση"
+    "reply": "Απάντηση",
+    "watch_now": "Παρακολουθήσετε τώρα",
+    "unlock": "Ξεκλείδωμα",
+    "lock": "Κλειδαριά",
+    "create_clone": "Δημιουργία κλώνου",
+    "regenerate": "Αναγεννηθείς",
+    "add_message": "Πρόσθεσε μήνυμα",
+    "continue_chat": "Συνεχίστε τη συνομιλία",
+    "add_new_message": "Προσθήκη νέου μηνύματος"
   },
   "instance_message_title": "Αποστολή άμεσου μηνύματος",
   "instance_message": "Γεια σας {name}, Το όνομά μου είναι {author} από την {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "ΤΑΧΥΔΡΟΜΙΚΟΣ ΚΩΔΙΚΟΣ",
     "enter_value": "Συμπληρώστε εδώ",
     "address_note": "Σημείωση",
-    "tel": "Αριθμός επαφής"
+    "tel": "Αριθμός επαφής",
+    "service_address": "Επιλέξτε τη διεύθυνσή σας"
   },
   "weight": {
     "g": "σολ",
@@ -753,7 +807,14 @@ export default {
     "λίρες",
     "τεταρτημόρια",
     "αυλές",
-    "δωμάτιο"
+    "δωμάτιο",
+    "δευτερόλεπτα",
+    "λεπτά",
+    "ώρες",
+    "ημέρες",
+    "εβδομάδες",
+    "μήνες",
+    "χρόνια"
   ],
   "region_types": {
     "State": "κατάσταση",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Το ελάχιστο μήκος πρέπει να είναι {length}",
     "invalid_min_array_length": "Επιλέξτε τουλάχιστον {length} στοιχεία",
     "invalid_max_chars": "Μέγιστος {maxCount} χαρακτήρες",
-    "invalid_url": "Μη έγκυρη διεύθυνση URL"
+    "invalid_url": "Μη έγκυρη διεύθυνση URL",
+    "country_invalid": "Επιλέξτε χώρα προορισμού!",
+    "postal_code_invalid": "Ορίστε έγκυρο ταχυδρομικό κώδικα!"
   },
   "colors": {
     "#D32F2F": "το κόκκινο",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "λευκό",
     "#FFF": "λευκό",
     "#000000": "Μαύρος",
-    "#000": "Μαύρος"
+    "#000": "Μαύρος",
+    "#7d263a": "Μαρόν",
+    "#FD9F17": "Χρυσός",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Στρατός",
+    "#474747": "Ασφάλτος",
+    "#E6195C": "Μούρο",
+    "#B2184C": "Μπέρι Τρίμπλεντ",
+    "#FC7F5F": "Καμένο Πορτοκάλι",
+    "#80011F": "Καρδινάλιος",
+    "#382829": "Σοκολάτα",
+    "#F06336": "Κοράλλι",
+    "#FAE7C9": "Κρέμα",
+    "#6B2257": "Σταφίδα",
+    "#222127": "Σκούρο γκρι",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Αειθαλής",
+    "#214C30": "Δάσος",
+    "#DC2867": "Φουξία",
+    "#38561": "Κέλλυ",
+    "#5C884D": "Φύλλο",
+    "#558450": "Light Aqua",
+    "#96B5C9": "Γαλάζιο",
+    "#DCAFCE": "Πασχαλιά",
+    "#D3E1A4": "Ασβεστος",
+    "#9DE7C2": "Μέντα",
+    "#F6EAD2": "Φυσικός",
+    "#1A1F35": "ΠΟΛΕΜΙΚΟ ΝΑΥΤΙΚΟ",
+    "#404624": "Ελιά",
+    "#271020": "Δαμάσκηνο",
+    "#A8355C": "Βατόμουρο",
+    "#D6BEA6": "Απαλή κρέμα",
+    "#BEA994": "Ηλιοκαμένος",
+    "#0DB2AE": "Βάσκας",
+    "#A86EA9": "Βιολέτα",
+    "#36454F": "Ξυλάνθρακας",
+    "#b3b0ab": "Carbon Grey",
+    "#463e3d": "Άνθρακα Heather",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Ονομα",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Αριθμός κτισίματος",
     "building_unit": "Μονάδα",
     "postcode": "ΤΑΧΥΔΡΟΜΙΚΟΣ ΚΩΔΙΚΟΣ",
-    "note": "Σημείωση"
+    "note": "Σημείωση",
+    "county": "Κομητεία"
   },
   "product_types": {
     "physical": "Φυσικός",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Χρώμα",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Απλός",
       "selective": "Εκλεκτικός",
-      "switch": "Διακόπτης"
-    }
+      "switch": "Διακόπτης",
+      "file": "Αρχείο",
+      "number": "Αριθμός"
+    },
+    "placeholder_input": "Placeholder",
+    "file_type_input": "Αποδεκτοί τύποι αρχείων",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "Ονομασία προϊόντος",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Εισάγετε το κινητό σας",
     "verification_code": "Κωδικός επαλήθευσης",
     "msg_title": "Γεια,",
-    "msg_body": "ΠΑΡΑΚΑΛΩ ΣΥΝΔΕΘΕΙΤΕ. Χρειάζονται μόνο λίγα δευτερόλεπτα."
+    "msg_body": "ΠΑΡΑΚΑΛΩ ΣΥΝΔΕΘΕΙΤΕ. Χρειάζονται μόνο λίγα δευτερόλεπτα.",
+    "login_apple": "Συνδεθείτε με την Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Προστέθηκαν ετικέτες"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Πολύ περίπλοκο",
+    "hard": "Σκληρός",
+    "intermediate": "Ενδιάμεσος",
+    "easy": "Ανετα"
   }
 };

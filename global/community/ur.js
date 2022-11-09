@@ -65,7 +65,9 @@ export default {
     "my_feed": "مجھے",
     "blocked_message": "تک آپ بلاک ہیں۔",
     "reported": "رپورٹ کیا",
-    "report": "رپورٹ"
+    "report": "رپورٹ",
+    "post": "پوسٹ",
+    "attach_file": "فائل منسلک"
   },
   "invite_message": "{user} نے آپ کو فورم {community} میں مدعو کیا ہے۔ اپنے دوستوں کے مشاہدات پڑھنے کے لیے نیچے دیے گئے لنک پر کلک کریں اور اپنی رائے ان کے ساتھ شیئر کریں۔ میں آپ کا انتظار کر رہا ہوں.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "رائے شماری کو ہٹا دیں۔",
     "take_screenshot": "کور کے طور پر لے لو",
     "take_link_msg": "ماضی کا لنک یہاں اور درج کریں۔",
-    "eligible_title": "پوسٹ کرنے کے اہل ہونے کے لیے اقدامات"
+    "eligible_title": "پوسٹ کرنے کے اہل ہونے کے لیے اقدامات",
+    "public": "عوام"
   },
   "tips": {
     "verify_email": "اپنا ای میل درج کریں اور تصدیق کریں۔",

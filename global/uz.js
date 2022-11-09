@@ -558,7 +558,52 @@ export default {
     "merchant": "Savdogar",
     "per_product": "Mahsulot boshiga",
     "journey": "Sayohat",
-    "after": "Keyin"
+    "after": "Keyin",
+    "waiting_for_payment": "Iltimos, toʻlovni yakunlang...",
+    "hour": "Soat",
+    "minute": "Daqiqa",
+    "premium": "Premium",
+    "light": "Nur",
+    "dark": "Qorong'i",
+    "guest": "Mehmon",
+    "shops": "Do'konlar",
+    "vendor": "Sotuvchi",
+    "vendors": "Sotuvchilar",
+    "marketplace": "Bozor",
+    "verify_date": "Sanani tasdiqlang",
+    "note": "Eslatma",
+    "panel": "Panel",
+    "removed": "Oʻchirildi",
+    "segments": "Segmentlar",
+    "personal_info": "Shaxsiy ma'lumotlar",
+    "preferences": "Afzalliklar",
+    "spec": "Spesifik",
+    "reviews": "Sharhlar",
+    "constraints": "Cheklovlar",
+    "flexible": "Moslashuvchan",
+    "usage_limit": "Foydalanish chegarasi",
+    "temporary": "Vaqtinchalik",
+    "original": "Asl",
+    "saved": "Saqlandi!",
+    "sort": "Saralash",
+    "documents": "Hujjatlar",
+    "document": "Hujjat",
+    "please_wait": "Iltimos kuting...",
+    "pickup": "Olib ketish; ko'tarish",
+    "customize": "moslashtirish",
+    "difficulty": "Qiyinchilik",
+    "banned": "Taqiqlangan",
+    "company": "Kompaniya",
+    "tax_shipping": "Yuk tashish solig'i",
+    "warranty": "Kafolat",
+    "return_policy": "Qaytarish siyosati",
+    "guide": "Qoʻllanma",
+    "translate": "Tarjima",
+    "public": "Ommaviy",
+    "deleted": "Oʻchirildi",
+    "variant": "Variant",
+    "secure": "Xavfsiz",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Trek",
     "change_state": "Statusni o'zgartirish",
     "done": "Bajarildi",
-    "reply": "Javob bering"
+    "reply": "Javob bering",
+    "watch_now": "Hozir tomosha qiling",
+    "unlock": "Qulfni ochish",
+    "lock": "Qulflash",
+    "create_clone": "Klon yaratish",
+    "regenerate": "Qayta tiklash",
+    "add_message": "Xabar qo'shish",
+    "continue_chat": "Suhbatni davom ettiring",
+    "add_new_message": "Yangi xabar qo'shing"
   },
   "instance_message_title": "Tezkor xabar yuboring",
   "instance_message": "Salom {name}, mening ismim {company} kompaniyasidan {author}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Pochta indeksi",
     "enter_value": "Bu yerni toʻldiring",
     "address_note": "Eslatma",
-    "tel": "Aloqa raqami"
+    "tel": "Aloqa raqami",
+    "service_address": "Manzilingizni tanlang"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "funt",
     "kvarts",
     "yardlar",
-    "xona"
+    "xona",
+    "soniya",
+    "daqiqa",
+    "soat",
+    "kunlar",
+    "haftalar",
+    "oylar",
+    "yillar"
   ],
   "region_types": {
     "State": "Davlat",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Minimal uzunlik {length} bo'lishi kerak",
     "invalid_min_array_length": "Kamida {length} elementni tanlang",
     "invalid_max_chars": "Maksimal {maxCount} ta belgi",
-    "invalid_url": "URL noto‘g‘ri"
+    "invalid_url": "URL noto‘g‘ri",
+    "country_invalid": "Belgilangan mamlakatni tanlang!",
+    "postal_code_invalid": "Yaroqli pochta indeksini o'rnating!"
   },
   "colors": {
     "#D32F2F": "Qizil",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Oq",
     "#FFF": "Oq",
     "#000000": "Qora",
-    "#000": "Qora"
+    "#000": "Qora",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Oltin",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Armiya",
+    "#474747": "Asfalt",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Kuygan apelsin",
+    "#80011F": "Kardinal",
+    "#382829": "Shokolad",
+    "#F06336": "marjon",
+    "#FAE7C9": "Krem",
+    "#6B2257": "Smorodina",
+    "#222127": "Toʻq kulrang",
+    "#0D5A74": "Chuqur Teal",
+    "#00582F": "Doim yashil",
+    "#214C30": "O'rmon",
+    "#DC2867": "Fuşya",
+    "#38561": "Kelli",
+    "#5C884D": "Barg",
+    "#558450": "Yengil Aqua",
+    "#96B5C9": "Ochiq ko'k",
+    "#DCAFCE": "Lilak",
+    "#D3E1A4": "Laym",
+    "#9DE7C2": "Yalpiz",
+    "#F6EAD2": "Tabiiy",
+    "#1A1F35": "Dengiz floti",
+    "#404624": "Zaytun",
+    "#271020": "Olxo'ri",
+    "#A8355C": "Malina",
+    "#D6BEA6": "Yumshoq krem",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "binafsha",
+    "#36454F": "Ko'mir",
+    "#b3b0ab": "uglerod kulrang",
+    "#463e3d": "Ko'mir Heather",
+    "#282d3c": "Harbiy blazer"
   },
   "address_info": {
     "name": "Ism",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Bino raqami",
     "building_unit": "Birlik",
     "postcode": "Pochta indeksi",
-    "note": "Eslatma"
+    "note": "Eslatma",
+    "county": "Tuman"
   },
   "product_types": {
     "physical": "Jismoniy",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Rang",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Oddiy",
       "selective": "Tanlangan",
-      "switch": "Oʻtish"
-    }
+      "switch": "Oʻtish",
+      "file": "Fayl",
+      "number": "Raqam"
+    },
+    "placeholder_input": "To'ldiruvchi",
+    "file_type_input": "Qabul qilinadigan fayl turlari",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Mahsulot nomi",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Mobil telefoningizni kiriting",
     "verification_code": "Tasdiq kodi",
     "msg_title": "Salom,",
-    "msg_body": "Iltimos, tizimga kiring. Bu bir necha soniya vaqt oladi."
+    "msg_body": "Iltimos, tizimga kiring. Bu bir necha soniya vaqt oladi.",
+    "login_apple": "Apple bilan tizimga kiring"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Teglar qo'shildi"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Juda murakkab",
+    "hard": "Qattiq",
+    "intermediate": "O'rta",
+    "easy": "Oson"
   }
 };

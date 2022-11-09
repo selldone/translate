@@ -558,7 +558,52 @@ export default {
     "merchant": "ਵਪਾਰੀ",
     "per_product": "ਪ੍ਰਤੀ ਉਤਪਾਦ",
     "journey": "ਯਾਤਰਾ",
-    "after": "ਤੋਂ ਬਾਅਦ"
+    "after": "ਤੋਂ ਬਾਅਦ",
+    "waiting_for_payment": "ਕਿਰਪਾ ਕਰਕੇ ਭੁਗਤਾਨ ਪੂਰਾ ਕਰੋ...",
+    "hour": "ਘੰਟਾ",
+    "minute": "ਮਿੰਟ",
+    "premium": "ਪ੍ਰੀਮੀਅਮ",
+    "light": "ਰੋਸ਼ਨੀ",
+    "dark": "ਹਨੇਰ",
+    "guest": "ਮਹਿਮਾਨ",
+    "shops": "ਸਟੋਰ",
+    "vendor": "ਵਿਕਰੇਤਾ",
+    "vendors": "ਵਿਕਰੇਤਾ",
+    "marketplace": "ਬਾਜ਼ਾਰ",
+    "verify_date": "ਮਿਤੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
+    "note": "ਨੋਟ ਕਰੋ",
+    "panel": "ਪੈਨਲ",
+    "removed": "ਹਟਾਇਆ ਗਿਆ",
+    "segments": "ਖੰਡ",
+    "personal_info": "ਨਿੱਜੀ ਜਾਣਕਾਰੀ",
+    "preferences": "ਤਰਜੀਹਾਂ",
+    "spec": "ਵਿਸ਼ੇਸ਼ਤਾ",
+    "reviews": "ਸਮੀਖਿਆਵਾਂ",
+    "constraints": "ਪਾਬੰਦੀਆਂ",
+    "flexible": "ਲਚਕੀਲਾ",
+    "usage_limit": "ਵਰਤੋਂ ਸੀਮਾ",
+    "temporary": "ਅਸਥਾਈ",
+    "original": "ਮੂਲ",
+    "saved": "ਸੰਭਾਲੀ ਗਈ!",
+    "sort": "ਲੜੀਬੱਧ",
+    "documents": "ਦਸਤਾਵੇਜ਼",
+    "document": "ਦਸਤਾਵੇਜ਼",
+    "please_wait": "ਕ੍ਰਿਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ...",
+    "pickup": "ਚੁੱਕਣਾ",
+    "customize": "ਅਨੁਕੂਲਿਤ ਕਰੋ",
+    "difficulty": "ਮੁਸ਼ਕਲ",
+    "banned": "ਤੇ ਪਾਬੰਦੀ",
+    "company": "ਕੰਪਨੀ",
+    "tax_shipping": "ਸ਼ਿਪਿੰਗ ਟੈਕਸ",
+    "warranty": "ਵਾਰੰਟੀ",
+    "return_policy": "ਵਾਪਸੀ ਨੀਤੀ",
+    "guide": "ਗਾਈਡ",
+    "translate": "ਅਨੁਵਾਦ",
+    "public": "ਜਨਤਕ",
+    "deleted": "ਮਿਟਾਇਆ ਗਿਆ",
+    "variant": "ਰੂਪ",
+    "secure": "ਸੁਰੱਖਿਅਤ",
+    "admin": "ਐਡਮਿਨ"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "ਟਰੈਕ",
     "change_state": "ਸਥਿਤੀ ਬਦਲੋ",
     "done": "ਹੋ ਗਿਆ",
-    "reply": "ਜਵਾਬ"
+    "reply": "ਜਵਾਬ",
+    "watch_now": "ਹੁਣੇ ਦੇਖੋ",
+    "unlock": "ਅਨਲੌਕ ਕਰੋ",
+    "lock": "ਤਾਲਾ",
+    "create_clone": "ਕਲੋਨ ਬਣਾਓ",
+    "regenerate": "ਪੁਨਰਜਨਮ",
+    "add_message": "ਸੁਨੇਹਾ ਸ਼ਾਮਲ ਕਰੋ",
+    "continue_chat": "ਗੱਲਬਾਤ ਜਾਰੀ ਰੱਖੋ",
+    "add_new_message": "ਨਵਾਂ ਸੁਨੇਹਾ ਸ਼ਾਮਲ ਕਰੋ"
   },
   "instance_message_title": "ਤੁਰੰਤ ਸੁਨੇਹਾ ਭੇਜੋ",
   "instance_message": "ਹੈਲੋ {name}, ਮੇਰਾ ਨਾਮ {company} ਤੋਂ {author} ਹੈ।",
@@ -690,7 +743,8 @@ export default {
     "postcode": "ਪੋਸਟਕੋਡ",
     "enter_value": "ਇੱਥੇ ਭਰੋ",
     "address_note": "ਨੋਟ ਕਰੋ",
-    "tel": "ਸੰਪਰਕ ਨੰਬਰ"
+    "tel": "ਸੰਪਰਕ ਨੰਬਰ",
+    "service_address": "ਆਪਣਾ ਪਤਾ ਚੁਣੋ"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "ਪੌਂਡ",
     "ਕੁਆਰਟ",
     "ਗਜ਼",
-    "ਕਮਰਾ"
+    "ਕਮਰਾ",
+    "ਸਕਿੰਟ",
+    "ਮਿੰਟ",
+    "ਘੰਟੇ",
+    "ਦਿਨ",
+    "ਹਫ਼ਤੇ",
+    "ਮਹੀਨੇ",
+    "ਸਾਲ"
   ],
   "region_types": {
     "State": "ਰਾਜ",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "ਘੱਟੋ-ਘੱਟ ਲੰਬਾਈ {length} ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ",
     "invalid_min_array_length": "ਘੱਟੋ-ਘੱਟ {length} ਆਈਟਮਾਂ ਦੀ ਚੋਣ ਕਰੋ",
     "invalid_max_chars": "ਅਧਿਕਤਮ {maxCount} ਅੱਖਰ",
-    "invalid_url": "ਅਵੈਧ URL"
+    "invalid_url": "ਅਵੈਧ URL",
+    "country_invalid": "ਮੰਜ਼ਿਲ ਦੇਸ਼ ਚੁਣੋ!",
+    "postal_code_invalid": "ਵੈਧ ਡਾਕ ਕੋਡ ਸੈੱਟ ਕਰੋ!"
   },
   "colors": {
     "#D32F2F": "ਲਾਲ",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "ਚਿੱਟਾ",
     "#FFF": "ਚਿੱਟਾ",
     "#000000": "ਕਾਲਾ",
-    "#000": "ਕਾਲਾ"
+    "#000": "ਕਾਲਾ",
+    "#7d263a": "ਮਾਰੂਨ",
+    "#FD9F17": "ਸੋਨਾ",
+    "#229DBF": "ਐਕਵਾ",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "ਫੌਜ",
+    "#474747": "ਅਸਫਾਲਟ",
+    "#E6195C": "ਬੇਰੀ",
+    "#B2184C": "ਬੇਰੀ ਟ੍ਰਿਬੈਂਡ",
+    "#FC7F5F": "ਸੜਿਆ ਸੰਤਰੀ",
+    "#80011F": "ਕਾਰਡੀਨਲ",
+    "#382829": "ਚਾਕਲੇਟ",
+    "#F06336": "ਕੋਰਲ",
+    "#FAE7C9": "ਕਰੀਮ",
+    "#6B2257": "ਕਰੰਟ",
+    "#222127": "ਗੂੜ੍ਹਾ ਸਲੇਟੀ",
+    "#0D5A74": "ਡੂੰਘੇ ਟੀਲ",
+    "#00582F": "ਸਦਾਬਹਾਰ",
+    "#214C30": "ਜੰਗਲ",
+    "#DC2867": "ਫੁਸ਼ੀਆ",
+    "#38561": "ਕੈਲੀ",
+    "#5C884D": "ਪੱਤਾ",
+    "#558450": "ਹਲਕਾ ਐਕਵਾ",
+    "#96B5C9": "ਹਲਕਾ ਨੀਲਾ",
+    "#DCAFCE": "ਲਿਲਾਕ",
+    "#D3E1A4": "ਚੂਨਾ",
+    "#9DE7C2": "ਪੁਦੀਨੇ",
+    "#F6EAD2": "ਕੁਦਰਤੀ",
+    "#1A1F35": "ਨੇਵੀ",
+    "#404624": "ਜੈਤੂਨ",
+    "#271020": "ਬੇਰ",
+    "#A8355C": "ਰਸਭਰੀ",
+    "#D6BEA6": "ਨਰਮ ਕਰੀਮ",
+    "#BEA994": "ਟੈਨ",
+    "#0DB2AE": "ਟੀਲ",
+    "#A86EA9": "ਵਾਇਲੇਟ",
+    "#36454F": "ਚਾਰਕੋਲ",
+    "#b3b0ab": "ਕਾਰਬਨ ਸਲੇਟੀ",
+    "#463e3d": "ਚਾਰਕੋਲ ਹੀਥਰ",
+    "#282d3c": "ਨੇਵੀ ਬਲੇਜ਼ਰ"
   },
   "address_info": {
     "name": "ਨਾਮ",
@@ -838,7 +940,8 @@ export default {
     "building_number": "ਬਿਲਡਿੰਗ ਨੰਬਰ",
     "building_unit": "ਯੂਨਿਟ",
     "postcode": "ਪੋਸਟਕੋਡ",
-    "note": "ਨੋਟ ਕਰੋ"
+    "note": "ਨੋਟ ਕਰੋ",
+    "county": "ਕਾਉਂਟੀ"
   },
   "product_types": {
     "physical": "ਸਰੀਰਕ",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "ਰੰਗ",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "ਆਸਾਨ",
       "selective": "ਚੋਣਵੇਂ",
-      "switch": "ਸਵਿੱਚ ਕਰੋ"
-    }
+      "switch": "ਸਵਿੱਚ ਕਰੋ",
+      "file": "ਫਾਈਲ",
+      "number": "ਗਿਣਤੀ"
+    },
+    "placeholder_input": "ਪਲੇਸਹੋਲਡਰ",
+    "file_type_input": "ਸਵੀਕਾਰਯੋਗ ਫਾਈਲ ਕਿਸਮਾਂ",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "ਉਤਪਾਦ ਦਾ ਨਾਮ",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "ਆਪਣਾ ਮੋਬਾਈਲ ਦਾਖਲ ਕਰੋ",
     "verification_code": "ਪੜਤਾਲ ਕੋਡ",
     "msg_title": "ਹੈਲੋ,",
-    "msg_body": "ਕਿਰਪਾ ਕਰਕੇ ਲਾਗਇਨ ਕਰੋ। ਇਸ ਵਿੱਚ ਸਿਰਫ਼ ਕੁਝ ਸਕਿੰਟ ਲੱਗਦੇ ਹਨ।"
+    "msg_body": "ਕਿਰਪਾ ਕਰਕੇ ਲਾਗਇਨ ਕਰੋ। ਇਸ ਵਿੱਚ ਸਿਰਫ਼ ਕੁਝ ਸਕਿੰਟ ਲੱਗਦੇ ਹਨ।",
+    "login_apple": "ਐਪਲ ਨਾਲ ਲੌਗਇਨ ਕਰੋ"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "ਟੈਗ ਸ਼ਾਮਲ ਕੀਤੇ ਗਏ"
     }
+  },
+  "difficulties": {
+    "very_complicated": "ਬਹੁਤ ਗੁੰਝਲਦਾਰ",
+    "hard": "ਸਖ਼ਤ",
+    "intermediate": "ਵਿਚਕਾਰਲਾ",
+    "easy": "ਆਸਾਨ"
   }
 };

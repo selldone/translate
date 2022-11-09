@@ -65,7 +65,9 @@ export default {
     "my_feed": "我",
     "blocked_message": "你被封锁直到",
     "reported": "报告",
-    "report": "报告"
+    "report": "报告",
+    "post": "邮政",
+    "attach_file": "附加文件"
   },
   "invite_message": "{user} 邀请您加入论坛 {community}。单击下面的链接阅读您朋友的意见并与他们分享您的意见。我在等你。",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "删除民意调查",
     "take_screenshot": "拿来当掩护",
     "take_link_msg": "过去的链接在这里并输入",
-    "eligible_title": "有资格发帖的步骤"
+    "eligible_title": "有资格发帖的步骤",
+    "public": "上市"
   },
   "tips": {
     "verify_email": "输入并验证您的电子邮件。",

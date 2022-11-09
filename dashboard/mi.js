@@ -155,7 +155,19 @@ export default {
       "Setup": "toa",
       "Sell": "Hokohoko & Hokohoko",
       "Developer": "Whakawhanake",
-      "Application": "Nga tono"
+      "Application": "Nga tono",
+      "Product": "Nga Hua me nga waahanga Whakahaere",
+      "Blog": "CMS & Blog",
+      "Order": "Te Poka Whakaoti Ota",
+      "Channel": "Nga Hoera Hoko",
+      "Accounting": "Kaute me nga tikanga utu",
+      "Incentives": "Nga whakatenatena",
+      "Marketing": "Hokohoko & Whakatairanga",
+      "Logistic": "Logistic & Shipping",
+      "Customers": "Karapu Kiritaki me te Wehenga",
+      "Page": "Taunga me nga Wharangi Ritenga",
+      "Access": "Kaimahi / API Whakahaere Uru",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github Repository",
@@ -193,7 +205,9 @@ export default {
       "stores": "Toa",
       "roles": "Ngā tūranga",
       "home": "Kainga",
-      "expert": "Tohunga"
+      "expert": "Tohunga",
+      "deals": "Nga mahi",
+      "providers": "Kaituku"
     },
     "shops": {
       "create_new": "Waihanga toa hou",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Tūnga",
           "created_at": "Te Ra Hanga",
           "updated_at": "Whakahoutanga whakamutunga"
-        }
+        },
+        "subtitle": "Tuhia nga tuhinga me tetahi etita raina hou hei whakaatu i a koe me to pakihi. Ko te ihirangi taketake ko te mea tuatahi e hiahia ana koe ki te aro ki te wa e tuhi ana koe i tetahi panui rangitaki-hoahoa SEO-kounga teitei."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Ripoata",
         "tax": "Taake",
         "drop_shipping": "Nga rīhiti kaihoko",
-        "reseller_accounts": "Nga kaute kaihoko"
+        "reseller_accounts": "Nga kaute kaihoko",
+        "valuations": "Nga uaratanga"
       },
       "invoice": {
         "title": "Pukoro Hononga Hoko",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Te tuku",
         "inventory": "Inventory",
         "warehouse": "Whare putunga",
-        "logistic_apps": "Logistics"
+        "logistic_apps": "Logistics",
+        "profiles": "Kōtaha"
       },
       "warehouse": {
         "title": "Whare Putunga Toa",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Utu tono iti mo te tuku kore utu",
           "notifications": {
             "update_success": "I tutuki pai nga tautuhinga ratonga tuku."
-          }
+          },
+          "shipping_cost_calculation": "Te tatauranga utu kaipuke",
+          "sod_true": "Tikina te utu kaipuke mo te haerenga",
+          "sod_true_message": "Me mohio kei te whakaae to ratonga kaipuke ki te utu kaipuke mo te haerenga.",
+          "sod_false": "Te tatauranga utu kaipuke aunoa",
+          "cod_true": "Whakaaehia te moni i runga i te tuku",
+          "cod_false": "Whakaae ki te utu ipurangi anake",
+          "cod_true_message": "Kia mohio kei te whakaae to ratonga kaipuke ki te COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "Īmēra",
         "domain": "Rohe",
-        "verifications": "Manatokonga"
+        "verifications": "Manatokonga",
+        "flow": "Rere",
+        "business_model": "Tauira Pakihi"
       },
       "delete_dialog": {
         "title": "Muku Toa",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Waeine hua",
       "unit_float": "Wae maru (ka tata nei)",
       "unit_float_hint": "Hei tauira, ka taea e te kaihoko te ota kia 3 kg hua, engari he rereke te nui o te moni ka tukuna ki te kaihoko mai i te nui o te whakahau.",
-      "unit_float_message": "I te wa o te tukatuka ota, ka rereke pea te moni kua tukuna mai i te moni kua whakahaua. Ka tātai aunoatia e te punaha tenei rereketanga ka tuhia hei nama ki te kaihoko, ka taea te tono ki nga ota e whai ake nei."
+      "unit_float_message": "I te wa o te tukatuka ota, ka rereke pea te moni kua tukuna mai i te moni kua whakahaua. Ka tātai aunoatia e te punaha tenei rereketanga ka tuhia hei nama ki te kaihoko, ka taea te tono ki nga ota e whai ake nei.",
+      "status_list": {
+        "active": {
+          "title": "Hohe | Hokonga Tuihono & Tuimotu",
+          "description": "Ka waatea tenei hua mo nga ota ipurangi."
+        },
+        "inactive": {
+          "title": "Hohekore | Hoko Tuimotu anake",
+          "description": "Kaore tenei hua e waatea mo nga ota ipurangi."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Rangahau",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Tīpakohia te wa mutunga",
       "independent_price": "Ko te utu anake mo tenei momo rereke",
       "same_price": "Ko te utu mo te hua matua",
-      "variant_pricing_message": "Ma te kowhiri i tenei whiringa, ko te utu o tenei momo rereke ka taea te whakarite motuhake mai i te hua matua."
+      "variant_pricing_message": "Ma te kowhiri i tenei whiringa, ko te utu o tenei momo rereke ka taea te whakarite motuhake mai i te hua matua.",
+      "price_label_input": "Tapanga utu",
+      "price_label_message": "Taapirihia etahi atu korero mo te utu penei ($1.5/Fl Oz). Whakamahia nga keehi: hokohoko, FMCG.",
+      "add_price_label_action": "Tāpiri tapanga utu"
     },
     "inputs_edit": {
       "title": "Puka Whakauru mo nga Korero Kaihoko",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gateway {gateway_name} kua whakatika."
     },
-    "developer_setting": "Whakawhanake me te Whakamatau"
+    "developer_setting": "Whakawhanake me te Whakamatau",
+    "live_mode_message": "Ko nga whakawhitinga katoa ka noho ki te aratau ora."
   },
   "gift_card": {
     "title": "Kaari Koha",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Ko te wahitau nama nama kua whakatikahia e te kaihoko.",
     "payment-cod-confirm": "I whakamanahia te utu COD.",
     "payment-cash-confirm": "Ko te utu o te {amount} {currency} i roto i te putea mo te pire i whakamanahia.",
-    "payment-dir-confirm": "I whakaūngia te rihīti utu tika."
+    "payment-dir-confirm": "I whakaūngia te rihīti utu tika.",
+    "vendor": "I hurihia te ahua ota kaihoko mai <b>i}</b> ki <b>te</b> .",
+    "connect-sync": "Tono tukutahia e Tūhono OS.",
+    "connect-shipped": "Kua tukuna te ota hono ma te {shipping}.",
+    "connect-returned": "Ko te ota hono kua whakahokia mai e {shipping}.",
+    "connect-failed": "I rahua te whakatutuki ota e te hoa. {reason}",
+    "connect-canceled": "I whakakorehia te ota e te hoa. {reason}",
+    "connect-action-cancel": "Tono ki te whakakore ota. {reason}",
+    "connect-put-hold": "Ka mau te ota. {reason}",
+    "connect-remove-hold": "I tangohia te ota mai i te pupuri. {reason}",
+    "connect-confirmed": "I whakapumautia te ota.",
+    "email-vendor": "🔔 Kua tukuna he imeera whakamohio ki a <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "I tenei ra",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Hanga Moni",
     "menu": {
       "plans": "Mahere",
-      "accounts": "Nga kaute"
+      "accounts": "Nga kaute",
+      "participant": "Kaiuru"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Rokiroki Nga Kī Uru",
     "shop_keys_message": "Ka whakamahia enei taviri ki te hanga i te Tohu Whakauru e to kaimau. Kia maumahara he muna te mau taviri, ka tuu noa ki runga i te tūmau kia kore ai e kitea e etahi atu.",
     "personal_keys_title": "Nga Kī Whakauru Whaiaro",
-    "personal_keys_message": "Ka taea e koe te hanga i nga ki o to putea i konei. Kia mahara ka taea e enei ki te uru ki to putea. Waihangahia me te whakamahi i enei taviri mena ka mohio koe ki taau e mahi ana."
+    "personal_keys_message": "Ka taea e koe te hanga i nga ki o to putea i konei. Kia mahara ka taea e enei ki te uru ki to putea. Waihangahia me te whakamahi i enei taviri mena ka mohio koe ki taau e mahi ana.",
+    "clients_title": "Kiritaki",
+    "clients_message": "Ka whakamahia enei taviri ki te hanga i te Tohu Whakauru e to kaimau. Kia maumahara he muna te mau taviri, ka tuu noa ki runga i te tūmau kia kore ai e kitea e etahi atu."
   },
   "user_security_control": {
     "title": "Haumarutanga Pūkete",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Whakahaere pūkete",
       "description": "Whakahaerehia nga whakaaturanga toa."
+    },
+    "shop-discount-code": {
+      "name": "Whakahaere waehere utu",
+      "description": "Whakahaere, whakatika me te taapiri i nga waehere utu toa."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Tautuhinga",
       "change": "Te utu",
       "transfer": "Whakawhiti",
-      "transactions": "Nga tauwhitinga"
+      "transactions": "Nga tauwhitinga",
+      "charge": "Te utu",
+      "history": "Hītori"
     },
     "transactions": {
       "title": "Nga Tauwhitinga Kaute",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Whakakore te haamauraa ohaurunga",
       "message": "Me whakakore tenei ohaurunga?",
       "action": "Whakakore ohaurunga"
-    }
+    },
+    "use_voucher_now": "Whakamahia te putea inaianei",
+    "validity_duration": "Te roanga mana",
+    "validity_duration_hint": "Ma te hoko raihana 12-marama, ka whiwhi koe i te 30% hekenga."
   },
   "admin_shop_layout": {
     "download_txt": "Tikiake kuputuhi raraunga",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Nga momotuhi nunui",
     "large_font_message": "Whakaatuhia te kuputuhi nui ake i te tikanga",
     "samples": "Whakaatuhia nga toa tauira",
-    "samples_message": "Ki te whakahohea, ka whakaatuhia etahi toa tauira ki to panui."
+    "samples_message": "Ki te whakahohea, ka whakaatuhia etahi toa tauira ki to panui.",
+    "automation": "Aunoatanga",
+    "automation_message": "Whakaatuhia te ripa aunoa ki te papatohu toa. (Webhooks, Hotaka Ataata, ...)"
   },
   "shop_locations": {
     "title": "Nga whenua e tukuna ana he ratonga",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kua pai te whakakore i te Tikitipati."
-    }
+    },
+    "multiple_use": "Te whakamahi maha"
   },
   "coupon_edit": {
     "title_edit": "Whakatika coupon",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Tepe",
       "description": "Whakatakotoria he rohe mo te maha o nga kaiwhakamahi."
+    },
+    "SEGMENTS": {
+      "title": "Nga waahanga",
+      "description": "Whakaitihia nga kaihoko i roto i nga waahanga motuhake."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Ko te tapeke ota i tangohia mai i nga kaari koha! Kaore te kaihoko e utu nui ake.",
       "cod_msg": "Ka utua e te kaihoko ina whiwhi ota.",
       "online_msg": "Tonoa te kaihoko ki te matawai i te waehere QR i runga i te mata o te kaihoko."
-    }
+    },
+    "name": "POS",
+    "message": "Me whai i to waahi hokonga-kore-kore, whakahaere i runga i tetahi waea atamai, papa, PC, hanga ota-a-ringa ranei."
   },
   "exporter": {
     "title": "Kaweake raraunga",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Tukuna ki te tūmau",
     "shop_license": "Raihana toa",
     "max_items_limit": "Tepe mōrahi tūemi",
-    "total_items": "Nga mea katoa"
+    "total_items": "Nga mea katoa",
+    "customer": {
+      "title": "Kaihoko kawemai",
+      "subtitle": "Tukuna nga konae CSV o nga kaihoko ki konei. Me whai koe i te whakatakotoranga paerewa, a, me whai ano koe i nga ture tūmataiti."
+    }
   },
   "campaigns": {
     "title": "Nga Whakatairanga",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Hononga",
     "light_checkout": "Kaupapa utu marama",
     "light_header": "Pane marama",
-    "light_footer": "Hiku marama"
+    "light_footer": "Hiku marama",
+    "product_page": "Whārangi Hua",
+    "typography": "Kuputuhi",
+    "header": "Pane",
+    "custom_code": "Waehere ritenga",
+    "custom_css": "CSS ritenga"
   },
   "app_templates": {
     "default": "Taunoa",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Whakahaere ratonga",
     "option_deliver_by_courier": "Kōwhiringa 1: Tukuna mā ō karere.",
     "option_add_to_que": "Kōwhiringa 2: Tāpirihia ki te tūtira ki te tukatuka i te wharangi ratonga kaipuke.",
-    "option_instant_shipping": "Kōwhiringa 3: Te tuku tere."
+    "option_instant_shipping": "Kōwhiringa 3: Te tuku tere.",
+    "pickup_action": "Whakapumautanga tiki"
   },
   "shop_home_edit": {
     "title": "Tautuhinga whārangi kāinga",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Hua kua taapiri atu ki to toa.",
       "request_access": "I tukuna to tono urunga ki te kaihoko rarawe."
-    }
+    },
+    "show_eligible_shops_message": "Whakaatuhia nga toa e tika ana"
   },
   "product_dropshipping": {
     "need_re_enable": "Kua hurihia tenei hua e te kaihoko taketake, na enei huringa utu i whakakore i te hua i roto i to toa. Tirohia nga huringa me te whakaae koe ki te whakahohe ano i te hua, pehia te paatene i raro nei.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Karekau he waahanga kei roto i to toa.",
       "limit": "Te rohe o nga hua",
       "limit_message": "Whakauruhia nga tatauranga hua",
-      "select_categories": "Tīpakohia ngā kāwai e wātea ana"
+      "select_categories": "Tīpakohia ngā kāwai e wātea ana",
+      "categories_limit": "Te rohe o nga waahanga",
+      "categories_limit_msg": "Whakauruhia te tau mōrahi o ngā kāwai. Tautuhia te kore mo te kore tepe."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "I momoho te whakahou i te avocado.",
       "add_success": "I momoho te hanga awhecado."
-    }
+    },
+    "name": "Awhekātō"
   },
   "avocado_orders": {
     "title": "Awhekātō",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "hohekore",
     "active_message": "Mena ka taea e koe tenei whiringa, ka whakaatuhia te waahi ki te hanga i nga Waehere-Hoko Tere i roto i te waahanga whakahaere o ia hua.",
     "hyper_form_link_message": "Hononga wharangi nui o to toa",
-    "configuration": "Tautuhinga Hyper"
+    "configuration": "Tautuhinga Hyper",
+    "name": "Hiper"
   },
   "hyper_orders": {
     "title": "Hiper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Taupori Kiritaki",
     "subtitle": "Tātarihia me te kaweake i nga raraunga o o kaihoko kia pai ake ai te whakatau ki te whakaputa wariu ake me te iti ake o te hokohoko! Tena koa whakaute i te muna a o kaihoko, kaua rawa e tukuna he imeera nui ki a raatau! Kaua rawa e tiritiri i nga korero a o kaihoko ki nga ratonga tuatoru me te kore whakaaetanga mai i a raatau katoa."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Wāhitau tiki",
+      "subtitle": "Tāpirihia, whakatikahia ngā wāhitau tiki ki konei. Ka taea e nga kaiwhakamahi te kowhiri i te wahitau tiki i te wharangi utu.",
+      "add_action": "Tāpiri tauwāhi hōu"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Hononga POS",
+    "open_pos_action": "Te tono tere POS",
+    "description": "He pai tenei whiringa mo nga kaiwhakahaere o nga wharangi Instagram me etahi atu whatunga hapori. Whakamahia te Hononga POS ki te tango me te taapiri i nga ota mai i nga kaihoko. Ka taea e o hoa hononga (te kaporeihana ranei) te taapiri i nga ota hou ki te POS Hononga me te tuku i te pepa putea."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Nga tikanga takiuru",
+      "subtitle": "Whakaritea te huarahi whakauru a nga kaiwhakamahi ki to toa."
+    },
+    "checkout": {
+      "title": "Rere utu",
+      "subtitle": "Whakaritehia to haerenga kaihoko me te rere hoko i roto i to ecommerce.",
+      "map": {
+        "title": "Mapi",
+        "subtitle": "Me whiriwhiri nga kaiwhakamahi i te waahi tuku i runga i te mapi (penei i a Uber).",
+        "subtitle_no_map": "Ko te tawhiti i roto i te tatauranga kaipuke ka whakaaro kore ki te kore te waahi i te waahi i tukuna e te kaihoko."
+      },
+      "mode": {
+        "title": "Waahi takiuru a nga kaihoko",
+        "default": {
+          "title": "ASAP (Taunoa)",
+          "msg": "Ka uru wawe nga kaiwhakamahi. (He tahuri ke atu)"
+        },
+        "on_checkout": {
+          "title": "I runga i te utu",
+          "msg": "Whakahauhia nga kaiwhakamahi ki te takiuru i te taahiraa taki."
+        },
+        "login_free": {
+          "title": "Takiuru kōwhiringa",
+          "msg": "Takiuru whiriwhiri i muri i te utu ota.."
+        }
+      },
+      "express": {
+        "title": "Anga atu i muri i te taapiri ki te kata",
+        "false": {
+          "title": "Aratau noa",
+          "msg": "Me noho tonu ki te whaarangi ka haere tonu ki te hokohoko i muri i te paato i te taapiri ki te kata."
+        },
+        "true": {
+          "title": "Aratau whakapuaki",
+          "msg": "Whakahokia te kaihoko ki te wharangi utu i muri i te panui i te taapiri ki te kata."
+        }
+      },
+      "shipping_address": {
+        "title": "Tonoa mo te wahitau kaipuke"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Tinana me te Ratonga (Taunoa)",
+      "desc": "Tonoa te kaihoko ki te whakauru i tetahi wahitau i roto i nga tirotirohanga tinana me te ratonga."
+    },
+    "physical": {
+      "title": "Tinana anake",
+      "desc": "Tonoa te kaihoko ki te whakauru i tetahi wahitau i roto noa i te tirotiro tinana."
+    },
+    "off": {
+      "title": "Kaua rawa",
+      "desc": "Kaua rawa e patai mo te wahitau kaipuke. ⚠ Whakamahia tenei kōwhiringa ki te whakamahere koe ki te whai ratonga me nga momo rereke ma te whiriwhiri i te momo tinana mo nga hua hei utu mo te momo ratonga."
+    }
+  },
+  "business_model": {
+    "title": "Whakaritenga tauira pakihi",
+    "subtitle": "Whakaritehia to tauira pakihi, ka whirihorahia e matou to OS i muri i te tirohanga."
+  },
+  "business_type": {
+    "title": "Nga momo hokohoko",
+    "subtitle": "Tautuhia te momo hua e hiahia ana koe ki te hoko ki to toa. Ko nga momo hua kei Selldone he nui ake i te momo hua noa; he mea nui ake mo te tukanga whakatutuki.",
+    "send_activation_request_to_support": "Tukuna he tono whakahohe i roto i te tikiti tautoko.",
+    "require_kyc": "Ko te rangatira pakihi ko KYC.",
+    "needs_enterprise_license": "Me whai raihana hinonga koe.",
+    "marketplace_caution_message": "Whakatakotoria te Maakete hei tauira e pa ana ki to whirihoranga OS pakihi. Hei tauira, me tautuhi koe kia kotahi te kaihoko mo ia hua me te utu motuhake me te raarangi. Kaore e taea e nga kaihoko te hoko hua kaore he kaihoko."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Toa Pūnoa",
+      "desc": "I te nuinga o te wa he SME, he pakihi kaaanga, he kaihopu takahuri ranei - e hoko tika ana i a raatau hua ki nga kaihoko, e hoko ana ranei i nga hua a nga kaihoko rarawe hei kaihoko."
+    },
+    "dropshipping": {
+      "title": "Te tuku tuku",
+      "desc": "Kaua e pupuri i nga hua me te kore he rarangi ingoa - ka utua e koe ki tetahi atu tuatoru, he kaihoko rarawe (penei i te Printify, Wholesale2B, ...) he kaihanga ranei, a ka whakatutukihia e ratou nga ota kei muri i te whakaaturanga."
+    },
+    "wholesaler": {
+      "title": "Kaiwhakarato Dropshipping",
+      "desc": "He kaihoko rarawe, he kaihanga ranei - ka tuku ota tika ki te kaihoko mutunga. Ka taea e etahi atu kaihokohoko i runga i a Selldone te tuku i o hua ki o raatau toa."
+    },
+    "marketplace": {
+      "title": "Te kainga hokohoko",
+      "desc": "Ko nga maakete a-ipurangi e hono ana i nga kaihoko me nga kaihoko i runga i te turanga rangatira me te kaupapa matua."
+    },
+    "franchise": {
+      "title": "Franchise / Hononga",
+      "desc": "Ko te kaporeihana he tikanga mo te tohatoha hua, ratonga ranei e uru ana ki tetahi kaipakihi e whakatuu ana i to waitohu (Franchising) ka hoko ranei i o hua ma o raatau tohu (Affiliate)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Pukoro",
+    "pricing_models": "Te utu",
+    "add_vendor": "Tāpiri kaihoko",
+    "requests": "Nga tono"
+  },
+  "price_input_type": {
+    "title": "Momo whakauru utu",
+    "default": {
+      "title": "Taunoa",
+      "desc": "Tīpakohia he uara hei rahinga kei roto i te kata."
+    },
+    "area": {
+      "title": "Rohe",
+      "desc": "Whakauruhia te whanui me te roa hei whakaurunga hei tatau i te rahinga."
+    },
+    "volume": {
+      "title": "rōrahi",
+      "desc": "Whakauruhia te whanui, te roa, me te teitei hei whakaurunga hei tatau i te rahinga."
+    },
+    "custom": {
+      "title": "Ritenga (Ma te puka whakauru)",
+      "desc": "Kaore he hiahia mo nga rau rereke! Waihangahia he puka tatauranga utu ritenga mo nga hua tino whakarite."
+    }
+  },
+  "vendors_list": {
+    "title": "Aku Kaihoko",
+    "message": "Rarangi o aku ake kaihoko."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Honoa nga rohe maha ki to OS pakihi ka whakahaere katoa i te waahi kotahi. Ka taea e koe te whakamahi i nga waahanga maha hei hanga i nga rohe motuhake mo ia waahanga o to paetukutuku, penei i te rangitaki me te hapori, ka whakamahi ranei i nga waahi rereke mo o hononga."
+  },
+  "notes": {
+    "add_action": "Tāpirihia he tuhipoka mo to roopu",
+    "notifications": {
+      "success_add": "Kua tutuki pai te taapiri.",
+      "success_delete": "Kua pai te whakakore i te tuhipoka."
+    }
+  },
+  "external_services": {
+    "title": "Nga ratonga o waho",
+    "subtitle": "Aroturuki i te mana whakamutunga o nga ratonga o waho penei i te SMS me nga imeera i konei."
   }
 };

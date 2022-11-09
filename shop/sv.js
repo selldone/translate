@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Relaterade produkter",
     "price": "Pris",
     "rate": "Betygsätta",
-    "comment": "Kommentar"
+    "comment": "Kommentar",
+    "warranty": "Garanti",
+    "return_policy": "Returpolicy",
+    "guide": "Guide",
+    "shipping": "Frakt"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Din beställning gjordes framgångsrikt.",
       "delete_success": "Objektet raderat."
-    }
+    },
+    "select_address_message": "Ange din adress så kan du skicka beställningen."
   },
   "hyper": {
     "title": "Skapande av order",
@@ -541,5 +546,19 @@ export default {
       "message": "Du har angett en avgift för denna artikel. Du kan ändra debiteringsbeloppet för varan köpt av kunden.",
       "charge": "Avgift"
     }
+  },
+  "check_access": {
+    "waiting_message": "Väntar på att kontrollera åtkomst...",
+    "no_access_message": "Tyvärr har du inte tillgång till vår butik.<br/> Vänligen kontakta oss."
+  },
+  "share_order": {
+    "action": "Dela order",
+    "title": "Dela denna beställning med andra.",
+    "message": "Det är en säker länk, dela den bara med dem du känner. Alla med denna länk kan duplicera din beställning och se den valda adressen. Den kommer att innehålla information om din nuvarande varukorg.",
+    "valid_period": "Denna länk upphör att gälla efter 48 timmar.",
+    "import_order_action": "Importorder",
+    "retrieve_dialog_title": "Hämta extern order",
+    "address_included": "Dela korgartiklar + Adress",
+    "address_excluded": "Dela endast korgartiklar"
   }
 };

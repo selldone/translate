@@ -558,7 +558,52 @@ export default {
     "merchant": "Саудагер",
     "per_product": "Өнімге",
     "journey": "Саяхат",
-    "after": "Кейін"
+    "after": "Кейін",
+    "waiting_for_payment": "Төлемді аяқтаңыз...",
+    "hour": "Сағат",
+    "minute": "Минут",
+    "premium": "Премиум",
+    "light": "Жарық",
+    "dark": "Қараңғы",
+    "guest": "Қонақ",
+    "shops": "Дүкендер",
+    "vendor": "Сатушы",
+    "vendors": "Сатушылар",
+    "marketplace": "Базар",
+    "verify_date": "Күнді растау",
+    "note": "Ескерту",
+    "panel": "Панель",
+    "removed": "Жойылған",
+    "segments": "Сегменттер",
+    "personal_info": "Жеке ақпарат",
+    "preferences": "Параметрлер",
+    "spec": "спец",
+    "reviews": "Пікірлер",
+    "constraints": "Шектеулер",
+    "flexible": "Икемді",
+    "usage_limit": "Қолдану шегі",
+    "temporary": "Уақытша",
+    "original": "Түпнұсқа",
+    "saved": "Сақталды!",
+    "sort": "Сұрыптау",
+    "documents": "Құжаттар",
+    "document": "Құжат",
+    "please_wait": "Өтінемін күте тұрыңыз...",
+    "pickup": "Ала кету",
+    "customize": "теңшеу",
+    "difficulty": "Қиындық",
+    "banned": "Тыйым салынған",
+    "company": "Компания",
+    "tax_shipping": "Жеткізу салығы",
+    "warranty": "Кепілдік",
+    "return_policy": "ТАУАРДЫ ҚАЙТАРУ ШАРТТАРЫ",
+    "guide": "Гид",
+    "translate": "Аудару",
+    "public": "Қоғамдық",
+    "deleted": "Жойылды",
+    "variant": "Нұсқа",
+    "secure": "Қауіпсіз",
+    "admin": "Админ"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Трек",
     "change_state": "Күйді өзгерту",
     "done": "Дайын",
-    "reply": "Жауап беру"
+    "reply": "Жауап беру",
+    "watch_now": "Қазір қараңыз",
+    "unlock": "Ашу",
+    "lock": "Құлыптау",
+    "create_clone": "Клон жасау",
+    "regenerate": "Қайта жасау",
+    "add_message": "Хабар қосу",
+    "continue_chat": "Сөйлесуді жалғастыру",
+    "add_new_message": "Жаңа хабар қосыңыз"
   },
   "instance_message_title": "Жедел хабарлама жіберу",
   "instance_message": "Сәлем {name}, менің атым {company} компаниясынан {author}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Пошта индексі",
     "enter_value": "Мұнда толтырыңыз",
     "address_note": "Ескерту",
-    "tel": "Байланыс нөмірі"
+    "tel": "Байланыс нөмірі",
+    "service_address": "Мекенжайыңызды таңдаңыз"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "фунт",
     "кварттар",
     "аулалар",
-    "бөлме"
+    "бөлме",
+    "секунд",
+    "минут",
+    "сағат",
+    "күндер",
+    "апта",
+    "айлар",
+    "жылдар"
   ],
   "region_types": {
     "State": "Мемлекет",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Ең аз ұзындық {length} болуы керек",
     "invalid_min_array_length": "Кем дегенде {length} элементті таңдаңыз",
     "invalid_max_chars": "Ең көбі {maxCount} таңба",
-    "invalid_url": "Жарамсыз URL"
+    "invalid_url": "Жарамсыз URL",
+    "country_invalid": "Баратын елді таңдаңыз!",
+    "postal_code_invalid": "Жарамды пошта индексін орнатыңыз!"
   },
   "colors": {
     "#D32F2F": "Қызыл",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Ақ",
     "#FFF": "Ақ",
     "#000000": "Қара",
-    "#000": "Қара"
+    "#000": "Қара",
+    "#7d263a": "Марун",
+    "#FD9F17": "Алтын",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Армия",
+    "#474747": "Асфальт",
+    "#E6195C": "Берри",
+    "#B2184C": "Берри Triblend",
+    "#FC7F5F": "Өртенген апельсин",
+    "#80011F": "Кардинал",
+    "#382829": "Шоколад",
+    "#F06336": "Маржан",
+    "#FAE7C9": "Крем",
+    "#6B2257": "Қарақат",
+    "#222127": "Қою сұр",
+    "#0D5A74": "Терең шай",
+    "#00582F": "Мәңгі жасыл",
+    "#214C30": "Орман",
+    "#DC2867": "Фуксия",
+    "#38561": "Келли",
+    "#5C884D": "Жапырақ",
+    "#558450": "Жеңіл аква",
+    "#96B5C9": "Көгілдір",
+    "#DCAFCE": "сирень",
+    "#D3E1A4": "Әк",
+    "#9DE7C2": "Жалбыз",
+    "#F6EAD2": "Табиғи",
+    "#1A1F35": "Әскери-теңіз күштері",
+    "#404624": "Зәйтүн",
+    "#271020": "Алхоры",
+    "#A8355C": "Таңқурай",
+    "#D6BEA6": "Жұмсақ крем",
+    "#BEA994": "Сары",
+    "#0DB2AE": "Қызғылт",
+    "#A86EA9": "күлгін",
+    "#36454F": "Көмір",
+    "#b3b0ab": "көміртекті сұр",
+    "#463e3d": "Көмір Хизер",
+    "#282d3c": "Теңіз флоты"
   },
   "address_info": {
     "name": "Аты",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Ғимарат нөмірі",
     "building_unit": "Бірлік",
     "postcode": "Пошта индексі",
-    "note": "Ескерту"
+    "note": "Ескерту",
+    "county": "Округ"
   },
   "product_types": {
     "physical": "Физикалық",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Түс",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Қарапайым",
       "selective": "Таңдамалы",
-      "switch": "Ауыстыру"
-    }
+      "switch": "Ауыстыру",
+      "file": "Файл",
+      "number": "Сан"
+    },
+    "placeholder_input": "Толтырғыш",
+    "file_type_input": "Рұқсат етілген файл түрлері",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Өнім атауы",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Ұялы телефоныңызды енгізіңіз",
     "verification_code": "Тексеру коды",
     "msg_title": "Сәлем,",
-    "msg_body": "Жүйеге кіріңіз. Бұл бірнеше секундты алады."
+    "msg_body": "Жүйеге кіріңіз. Бұл бірнеше секундты алады.",
+    "login_apple": "Apple арқылы жүйеге кіріңіз"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Тегтер қосылды"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Өте күрделі",
+    "hard": "Қатты",
+    "intermediate": "Орташа",
+    "easy": "Жеңіл"
   }
 };

@@ -65,7 +65,9 @@ export default {
     "my_feed": "Njye",
     "blocked_message": "Urahagaritswe kugeza",
     "reported": "Raporo",
-    "report": "Raporo"
+    "report": "Raporo",
+    "post": "Kohereza",
+    "attach_file": "Ongeraho dosiye"
   },
   "invite_message": "{user} yagutumiye kurubuga {community}. Kanda kumurongo uri munsi kugirango usome ibyo inshuti zawe zibona hanyuma ubabwire igitekerezo cyawe. Ndagutegereje.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Kuraho amatora",
     "take_screenshot": "Fata nk'igifuniko",
     "take_link_msg": "Ihuza ryashize hano hanyuma winjire",
-    "eligible_title": "Intambwe zo kwemererwa kohereza"
+    "eligible_title": "Intambwe zo kwemererwa kohereza",
+    "public": "Rubanda"
   },
   "tips": {
     "verify_email": "Injira kandi urebe imeri yawe.",

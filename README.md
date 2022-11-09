@@ -1,7 +1,7 @@
 # Business OS Translation 
 **Community Volunteers ❤** - Translation files of Selldone (Dashboards, Shops, Applications, ...)
 
-[Business OS](https://selldone.com), The next evolution step of commerce services from e-commerce platforms to something with no theme, plugin, or code. 100% visually!
+[Business OS](https://selldone.com), The next evolution step of commerce services from e-commerce platforms to something with no-theme, no-plugin, and no-code. 100% visually!
 
 
 ## How submit a change?

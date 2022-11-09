@@ -155,7 +155,19 @@ export default {
       "Setup": "mağaza",
       "Sell": "Satış ve Pazarlama",
       "Developer": "Geliştirmek",
-      "Application": "Uygulamalar"
+      "Application": "Uygulamalar",
+      "Product": "Ürün ve Kategori Yönetimi",
+      "Blog": "İYS ve Blog",
+      "Order": "Sipariş Karşılama Merkezi",
+      "Channel": "Satış Kanalları",
+      "Accounting": "Muhasebe ve Ödeme Yöntemleri",
+      "Incentives": "Teşvikler",
+      "Marketing": "Pazarlama ve Kampanyalar",
+      "Logistic": "Lojistik ve Nakliye",
+      "Customers": "Müşteriler Kulübü & Segmentasyon",
+      "Page": "Açılış ve Özel Sayfalar",
+      "Access": "Personel / API Erişim Yönetimi",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github Deposu",
@@ -193,7 +205,9 @@ export default {
       "stores": "Mağazalar",
       "roles": "Roller",
       "home": "Ev",
-      "expert": "Uzman"
+      "expert": "Uzman",
+      "deals": "Fırsatlar",
+      "providers": "sağlayıcılar"
     },
     "shops": {
       "create_new": "Yeni mağaza oluştur",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Durum",
           "created_at": "Oluşturulma tarihi",
           "updated_at": "Son Güncelleme"
-        }
+        },
+        "subtitle": "Kendinizi ve işinizi tanıtmak için modern bir satır içi düzenleyiciyle makaleler yazın. Yüksek kaliteli SEO dostu bir blog yazısı yazarken odaklanmanız gereken ilk şey orijinal içeriktir."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Rapor",
         "tax": "Vergi",
         "drop_shipping": "Bayi makbuzları",
-        "reseller_accounts": "Bayi hesapları"
+        "reseller_accounts": "Bayi hesapları",
+        "valuations": "Değerlemeler"
       },
       "invoice": {
         "title": "Bağlantılı Cüzdan Satın Alın",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Nakliye",
         "inventory": "Envanter",
         "warehouse": "Depo",
-        "logistic_apps": "Lojistik"
+        "logistic_apps": "Lojistik",
+        "profiles": "profiller"
       },
       "warehouse": {
         "title": "Mağaza Depo",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Ücretsiz gönderim için minimum sipariş maliyeti",
           "notifications": {
             "update_success": "Gönderim hizmeti ayarları başarıyla tamamlandı."
-          }
+          },
+          "shipping_cost_calculation": "Nakliye maliyeti hesaplaması",
+          "sod_true": "Varış noktasında nakliye ücreti alın",
+          "sod_true_message": "Gönderim hizmetinizin varış noktasında gönderim ücretini kabul ettiğinden emin olun.",
+          "sod_false": "Otomatik nakliye maliyeti hesaplama",
+          "cod_true": "Teslimatta nakit kabul edin",
+          "cod_false": "Yalnızca çevrimiçi ödemeyi kabul edin",
+          "cod_true_message": "Gönderim hizmetinizin COD kabul ettiğinden emin olun."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "E-posta",
         "domain": "Alan adı",
-        "verifications": "Doğrulamalar"
+        "verifications": "Doğrulamalar",
+        "flow": "Akış",
+        "business_model": "İş modeli"
       },
       "delete_dialog": {
         "title": "Mağazayı Sil",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Ürün birimi",
       "unit_float": "Şamandıra ünitesi (yakında)",
       "unit_float_hint": "Örneğin müşteri 3 kg meyve siparişi verebilir ancak müşteriye gönderilen miktar sipariş edilen miktardan biraz farklıdır.",
-      "unit_float_message": "Sipariş işleme sırasında, teslim edilen miktar sipariş edilen miktardan farklı olabilir. Sistem bu farkı otomatik olarak hesaplar ve müşteriye borcunuz olarak kaydeder, sonraki siparişlerde uygulanabilmektedir."
+      "unit_float_message": "Sipariş işleme sırasında, teslim edilen miktar sipariş edilen miktardan farklı olabilir. Sistem bu farkı otomatik olarak hesaplar ve müşteriye borcunuz olarak kaydeder, sonraki siparişlerde uygulanabilmektedir.",
+      "status_list": {
+        "active": {
+          "title": "Aktif | Çevrimiçi ve Çevrimdışı Satışlar",
+          "description": "Bu ürün internet üzerinden sipariş edilebilecektir."
+        },
+        "inactive": {
+          "title": "Etkin değil | Yalnızca Çevrimdışı Satışlar",
+          "description": "Bu ürün online siparişler için mevcut olmayacaktır."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Anket",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Bitiş zamanını seçin",
       "independent_price": "Sadece bu varyant için fiyat",
       "same_price": "Ana ürün fiyatı",
-      "variant_pricing_message": "Bu seçeneği seçerek, bu varyantın fiyatı ana üründen bağımsız olarak ayarlanabilir."
+      "variant_pricing_message": "Bu seçeneği seçerek, bu varyantın fiyatı ana üründen bağımsız olarak ayarlanabilir.",
+      "price_label_input": "Fiyat etiketi",
+      "price_label_message": "Fiyat hakkında ($1.5/Fl Oz) gibi ekstra bilgiler ekleyin. Kullanım durumları: bakkal, FMCG.",
+      "add_price_label_action": "Fiyat etiketi ekle"
     },
     "inputs_edit": {
       "title": "Alıcı Bilgileri Giriş Formu",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "{gateway_name} ağ geçidi düzenlendi."
     },
-    "developer_setting": "Geliştirme ve Test Etme"
+    "developer_setting": "Geliştirme ve Test Etme",
+    "live_mode_message": "Tüm işlemler canlı modda olacaktır."
   },
   "gift_card": {
     "title": "Hediye Kartları",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Fatura adresi alıcı tarafından düzenlendi.",
     "payment-cod-confirm": "COD Ödemesi onaylandı.",
     "payment-cash-confirm": "{amount} {currency} tutarındaki faturanın nakit olarak ödenmesi onaylandı.",
-    "payment-dir-confirm": "Doğrudan ödeme makbuzu onaylandı."
+    "payment-dir-confirm": "Doğrudan ödeme makbuzu onaylandı.",
+    "vendor": "<b>{from}</b> olan satıcı siparişi durumu <b>{to}</b> olarak değiştirildi.",
+    "connect-sync": "Sipariş, Connect OS tarafından senkronize edildi.",
+    "connect-shipped": "Bağlantı siparişi {shipping} tarafından gönderildi.",
+    "connect-returned": "Bağlantı siparişi {shipping} tarafından iade edildi.",
+    "connect-failed": "İş ortağı tarafından sipariş yerine getirilemedi. {reason}",
+    "connect-canceled": "Sipariş ortak tarafından iptal edildi. {reason}",
+    "connect-action-cancel": "Siparişi iptal etme isteği. {reason}",
+    "connect-put-hold": "Sipariş beklemeye alındı. {reason}",
+    "connect-remove-hold": "Sipariş beklemeden kaldırıldı. {reason}",
+    "connect-confirmed": "Sipariş onaylandı.",
+    "email-vendor": "🔔 Sipariş bilgisi e-postası <b>{vendor}</b> 'a gönderildi | {email}."
   },
   "inline_chart": {
     "today": "Bugün",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Para kazanmak",
     "menu": {
       "plans": "planlar",
-      "accounts": "hesaplar"
+      "accounts": "hesaplar",
+      "participant": "Katılımcı"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Erişim Anahtarlarını Depola",
     "shop_keys_message": "Bu anahtarlar, sunucunuz tarafından Erişim Simgesi oluşturmak için kullanılır. Anahtarların gizli olduğunu ve yalnızca sunucuya yerleştirildiğini ve böylece başkaları tarafından görülmeyeceğini unutmayın.",
     "personal_keys_title": "Kişisel Erişim Anahtarları",
-    "personal_keys_message": "Hesabınızın anahtarlarını burada oluşturabilirsiniz. Bu anahtarların hesabınıza erişebileceğini unutmayın. Bu anahtarları yalnızca tam olarak ne yaptığınızı biliyorsanız oluşturun ve kullanın."
+    "personal_keys_message": "Hesabınızın anahtarlarını burada oluşturabilirsiniz. Bu anahtarların hesabınıza erişebileceğini unutmayın. Bu anahtarları yalnızca tam olarak ne yaptığınızı biliyorsanız oluşturun ve kullanın.",
+    "clients_title": "müşteriler",
+    "clients_message": "Bu anahtarlar, sunucunuz tarafından Erişim Simgesi oluşturmak için kullanılır. Anahtarların gizli olduğunu ve yalnızca sunucuya yerleştirildiğini ve böylece başkaları tarafından görülmeyeceğini unutmayın."
   },
   "user_security_control": {
     "title": "hesap Güvenliği",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Profilleri yönet",
       "description": "Mağaza profillerini yönetin."
+    },
+    "shop-discount-code": {
+      "name": "İndirim kodu yönetimi",
+      "description": "Mağaza indirim kodlarını yönetin, düzenleyin ve ekleyin."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Ayarlar",
       "change": "Şarj etmek",
       "transfer": "Aktar",
-      "transactions": "işlemler"
+      "transactions": "işlemler",
+      "charge": "Şarj etmek",
+      "history": "Tarih"
     },
     "transactions": {
       "title": "Hesap İşlemleri",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Abonelik onayını iptal et",
       "message": "Bu aboneliği iptal etmek istediğinizden emin misiniz?",
       "action": "Aboneliği iptal et"
-    }
+    },
+    "use_voucher_now": "Kuponu şimdi kullan",
+    "validity_duration": "Geçerlilik süresi",
+    "validity_duration_hint": "12 aylık lisans satın alarak %30 indirim kazanacaksınız."
   },
   "admin_shop_layout": {
     "download_txt": "Veri metnini indir",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Büyük yazı tipleri",
     "large_font_message": "Metni normalden daha büyük göster",
     "samples": "Örnek mağazaları göster",
-    "samples_message": "Etkinleştirilirse, panelinizde bazı örnek mağazalar görüntülenecektir."
+    "samples_message": "Etkinleştirilirse, panelinizde bazı örnek mağazalar görüntülenecektir.",
+    "automation": "Otomasyon",
+    "automation_message": "Mağaza panosunda otomasyon sekmesini göster. (Web kancaları, Görsel programlama, ...)"
   },
   "shop_locations": {
     "title": "Hizmet verilen ülkeler",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kupon başarıyla silindi."
-    }
+    },
+    "multiple_use": "Çoklu kullanım"
   },
   "coupon_edit": {
     "title_edit": "Kuponu düzenle",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "sınır",
       "description": "Maksimum kullanıcı sayısı için bir sınır belirleyin."
+    },
+    "SEGMENTS": {
+      "title": "Segmentler",
+      "description": "Müşterileri belirli manuel segmentasyonda sınırlayın."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Toplam sipariş tutarı hediye kartlarından çekildi! Alıcının daha fazla ödeme yapmasına gerek yoktur.",
       "cod_msg": "Müşteri siparişi alırken ödeme yapacaktır.",
       "online_msg": "Müşteriden müşteri ekranındaki QR kodunu taramasını isteyin."
-    }
+    },
+    "name": "POS",
+    "message": "Sıfır kurulum maliyetli çevrimiçi satış noktanız olsun, herhangi bir akıllı telefon, tablet ve PC'de çalıştırın veya manuel olarak sipariş oluşturun."
   },
   "exporter": {
     "title": "Verileri dışa aktar",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "sunucuya gönder",
     "shop_license": "Mağaza lisansı",
     "max_items_limit": "Maksimum öğe sınırı",
-    "total_items": "Tüm nesneler"
+    "total_items": "Tüm nesneler",
+    "customer": {
+      "title": "Müşterileri içe aktar",
+      "subtitle": "Müşterilerin CSV dosyalarını buraya yükleyin. Standart formatı takip ettiğinizden emin olun ve ayrıca gizlilik kurallarına uymanız gerekir."
+    }
   },
   "campaigns": {
     "title": "kampanyalar",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Bağlantılar",
     "light_checkout": "Hafif ödeme teması",
     "light_header": "Işık başlığı",
-    "light_footer": "Hafif altbilgi"
+    "light_footer": "Hafif altbilgi",
+    "product_page": "Ürün Sayfası",
+    "typography": "tipografi",
+    "header": "başlık",
+    "custom_code": "Özel kod",
+    "custom_css": "Özel CSS"
   },
   "app_templates": {
     "default": "Varsayılan",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Hizmeti yönet",
     "option_deliver_by_courier": "Seçenek 1: Kuryeleriniz tarafından teslim edin.",
     "option_add_to_que": "Seçenek 2: Sevkiyat hizmeti sayfasında işlenmek üzere kuyruğa ekleyin.",
-    "option_instant_shipping": "Seçenek 3: Anında gönderim."
+    "option_instant_shipping": "Seçenek 3: Anında gönderim.",
+    "pickup_action": "Teslim alma onayı"
   },
   "shop_home_edit": {
     "title": "Ana sayfa ayarı",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Ürün mağazanıza eklendi.",
       "request_access": "Erişim talebinizi toptancıya başarıyla gönderdik."
-    }
+    },
+    "show_eligible_shops_message": "Uygun mağazaları göster"
   },
   "product_dropshipping": {
     "need_re_enable": "Bu ürün orijinal satıcı tarafından değiştirilmiştir, bu fiyat değişiklikleri ürünü mağazanızda devre dışı bırakmıştır. Değişiklikleri kontrol edin ve ürünü yeniden etkinleştirmeyi kabul ediyorsanız aşağıdaki düğmeye basın.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Mağazanızda kategori yok.",
       "limit": "Ürün limiti",
       "limit_message": "Ürün sonuç sayılarını girin",
-      "select_categories": "Mevcut kategorileri seçin"
+      "select_categories": "Mevcut kategorileri seçin",
+      "categories_limit": "Kategori sınırı",
+      "categories_limit_msg": "Maksimum kategori sayısını girin. Limitsiz olarak sıfır ayarlayın."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avokado başarıyla güncellendi.",
       "add_success": "Avokado başarıyla oluşturuldu."
-    }
+    },
+    "name": "Avokado"
   },
   "avocado_orders": {
     "title": "Avokado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "etkin değil",
     "active_message": "Bu seçeneği etkinleştirirseniz, her ürünün yönetim bölümünde Hızlı Satış-Kodları oluşturma imkanı görüntülenecektir.",
     "hyper_form_link_message": "Mağazanızın hiper sayfa bağlantısı",
-    "configuration": "Hiper Ayarlar"
+    "configuration": "Hiper Ayarlar",
+    "name": "Aşırı"
   },
   "hyper_orders": {
     "title": "Aşırı",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Müşteri Demografisi",
     "subtitle": "Daha az pazarlama ile daha fazla değer sağlamak için daha iyi kararlar almak için müşterilerinizin verilerini filtreleyin ve dışa aktarın! Lütfen müşterilerinizin gizliliğine saygı gösterin ve onlara asla toplu toplu e-postalar göndermeyin! Müşterilerinizin bilgilerini asla 3. parti servislerle her birinden izin almadan paylaşmayın."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Teslim alma adresleri",
+      "subtitle": "Teslim alma adreslerini buraya ekleyin ve düzenleyin. Kullanıcılar, ödeme sayfasında teslim alma adresini seçebilecekler.",
+      "add_action": "Yeni konum ekle"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Satış Ortağı POS'u",
+    "open_pos_action": "Hızlı sipariş POS'u",
+    "description": "Bu seçenek, Instagram sayfalarının ve diğer sosyal ağların yöneticileri için uygundur. Müşterilerden manuel olarak sipariş almak ve sipariş eklemek için Satış Ortağı POS'u kullanın. İştirakleriniz (veya franchise), Satış Ortağı POS'una yeni siparişler ekleyebilir ve depozito fişini yükleyebilir."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Giriş yöntemleri",
+      "subtitle": "Kullanıcıların mağazanızda oturum açma şeklini özelleştirin."
+    },
+    "checkout": {
+      "title": "Ödeme akışı",
+      "subtitle": "E-ticaretinizde müşteri yolculuğunuzu ve satın alma akışınızı özelleştirin.",
+      "map": {
+        "title": "Harita",
+        "subtitle": "Kullanıcılar, teslimat yerini haritada seçmelidir (Uber gibi).",
+        "subtitle_no_map": "Müşteri tarafından sağlanan adreste konum yoksa, nakliye hesaplamasında mesafe sıfır olarak kabul edilir."
+      },
+      "mode": {
+        "title": "Müşteriler giriş noktası",
+        "default": {
+          "title": "ASAP (Varsayılan)",
+          "msg": "Kullanıcılar mümkün olan en kısa sürede oturum açar. (Daha fazla dönüşüm)"
+        },
+        "on_checkout": {
+          "title": "ödeme sırasında",
+          "msg": "Kullanıcıları ödeme adımında oturum açmaya zorlayın."
+        },
+        "login_free": {
+          "title": "İsteğe bağlı giriş",
+          "msg": "Sipariş ödemesinden sonra isteğe bağlı giriş.."
+        }
+      },
+      "express": {
+        "title": "Sepete ekledikten sonra yönlendir",
+        "false": {
+          "title": "Normal mod",
+          "msg": "Sayfada kalın ve sepete ekle'yi tıkladıktan sonra alışverişe devam edin."
+        },
+        "true": {
+          "title": "Ekspres modu",
+          "msg": "Sepete ekle'yi tıkladıktan sonra müşteriyi ödeme sayfasına yönlendirin."
+        }
+      },
+      "shipping_address": {
+        "title": "Teslimat adresi isteyin"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fiziksel ve Servis (Varsayılan)",
+      "desc": "Müşteriden fiziksel ve hizmet kontrollerinde bir adres girmesini isteyin."
+    },
+    "physical": {
+      "title": "Sadece Fiziksel",
+      "desc": "Müşteriden yalnızca fiziksel ödeme sırasında bir adres girmesini isteyin."
+    },
+    "off": {
+      "title": "Asla",
+      "desc": "Teslimat adresini asla sormayın. ⚠ Ürünler için hizmet türü yerine fiziksel türü seçerek varyantlı hizmet almayı planlıyorsanız bu seçeneği kullanın."
+    }
+  },
+  "business_model": {
+    "title": "İş modeli kurulumu",
+    "subtitle": "İş modelinizi belirleyin, işletim sisteminizi sahne arkasında yapılandıralım."
+  },
+  "business_type": {
+    "title": "mal türleri",
+    "subtitle": "Mağazanızda satmak istediğiniz ürünlerin türünü belirleyin. Selldone'daki ürün türleri, yalnızca bir ürün türünden daha fazlasıdır; daha çok yerine getirme prosedürü ile ilgili.",
+    "send_activation_request_to_support": "Destek biletinde bir etkinleştirme isteği gönderin.",
+    "require_kyc": "İşletme sahibi KYC.",
+    "needs_enterprise_license": "Enterprise lisansına sahip olmanız gerekir.",
+    "marketplace_caution_message": "Marketplace'i modeliniz olarak ayarlayın, işletme işletim sistemi yapılandırmanızı derinden etkiler. Örneğin, bağımsız fiyatlandırma ve envantere sahip her ürün için en az bir satıcı tanımlamanız gerekir. Müşteriler, satıcısı olmayan ürünleri satın alamazlar."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Normal Mağaza",
+      "desc": "Genellikle, ürünlerini doğrudan müşterilere satan veya toptancıların ürünlerini bayi olarak satan bir KOBİ, ev işletmesi veya stoksuz satış yapan kişilerdir."
+    },
+    "dropshipping": {
+      "title": "Direk nakliye",
+      "desc": "Hiçbir ürün ve envanter bulundurmayın - genellikle bir toptancıya (Printify, Toptan2B, ... gibi) veya üretici olan üçüncü bir tarafa ödeme yaparsınız ve siparişleri sahne arkasından yerine getirirler."
+    },
+    "wholesaler": {
+      "title": "Dropshipping Tedarikçisi",
+      "desc": "Genellikle, siparişleri doğrudan son tüketiciye gönderen bir toptancı veya üretici. Selldone'daki diğer satıcılar, ürünlerinizi mağazalarında stoksuz satış yapabilir."
+    },
+    "marketplace": {
+      "title": "pazar yeri",
+      "desc": "Çevrimiçi pazar yerleri, alıcıları ve satıcıları tescilli ve merkezi bir platformda birbirine bağlar."
+    },
+    "franchise": {
+      "title": "Franchise / İştirak",
+      "desc": "Franchise, markanızı oluşturan (Franchising) veya ürünlerinizi kendi markasıyla satan (Ortak) bir franchise verenin dahil olduğu ürün veya hizmetleri dağıtma yöntemidir."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Cüzdanlar",
+    "pricing_models": "fiyatlandırma",
+    "add_vendor": "Satıcı ekle",
+    "requests": "İstekler"
+  },
+  "price_input_type": {
+    "title": "Fiyat giriş türü",
+    "default": {
+      "title": "Varsayılan",
+      "desc": "Sepetteki miktar olarak bir değer seçin."
+    },
+    "area": {
+      "title": "Alan",
+      "desc": "Miktarı hesaplamak için giriş olarak genişlik ve uzunluk girin."
+    },
+    "volume": {
+      "title": "Ses",
+      "desc": "Miktarı hesaplamak için genişlik, uzunluk ve yüksekliği girdi olarak girin."
+    },
+    "custom": {
+      "title": "Özel (Giriş formuna göre)",
+      "desc": "Yüzlerce varyanta gerek yok! Son derece özelleştirilebilir ürünler için özel bir maliyet hesaplama formu oluşturun."
+    }
+  },
+  "vendors_list": {
+    "title": "Satıcılarım",
+    "message": "Kendi satıcılarımın listesi."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Birden çok etki alanını işletme işletim sisteminize bağlayın ve hepsini tek bir yerden yönetin. Blog ve topluluk gibi web sitenizin her bölümü için özel alanlar oluşturmak veya bağlı kuruluşlarınız için farklı alan adları kullanmak için çoklu alan özelliğini kullanabilirsiniz."
+  },
+  "notes": {
+    "add_action": "Ekibiniz için bir not ekleyin",
+    "notifications": {
+      "success_add": "Not başarıyla eklendi.",
+      "success_delete": "Not başarıyla silindi."
+    }
+  },
+  "external_services": {
+    "title": "Dış Hizmetler",
+    "subtitle": "SMS ve e-posta gibi harici hizmetlerin son durumunu buradan izleyin."
   }
 };

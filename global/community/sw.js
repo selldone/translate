@@ -65,7 +65,9 @@ export default {
     "my_feed": "Mimi",
     "blocked_message": "Umezuiwa hadi",
     "reported": "Imeripotiwa",
-    "report": "Ripoti"
+    "report": "Ripoti",
+    "post": "Chapisha",
+    "attach_file": "Ambatisha faili"
   },
   "invite_message": "{user} amekualika kwenye mijadala ya {community}. Bofya kiungo kilicho hapa chini ili kusoma maoni ya marafiki zako na kushiriki maoni yako nao. nakungoja.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Ondoa kura",
     "take_screenshot": "Chukua kama kifuniko",
     "take_link_msg": "Kiungo kilichopita hapa na ingiza",
-    "eligible_title": "Hatua za kustahiki kuchapisha"
+    "eligible_title": "Hatua za kustahiki kuchapisha",
+    "public": "Hadharani"
   },
   "tips": {
     "verify_email": "Ingiza na uthibitishe barua pepe yako.",

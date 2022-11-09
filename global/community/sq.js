@@ -65,7 +65,9 @@ export default {
     "my_feed": "Unë",
     "blocked_message": "Jeni të bllokuar deri në",
     "reported": "Raportuar",
-    "report": "Raportoni"
+    "report": "Raportoni",
+    "post": "Posto",
+    "attach_file": "Bashkangjit skedarin"
   },
   "invite_message": "{user} ju ka ftuar në forumin {community}. Klikoni në linkun e mëposhtëm për të lexuar vëzhgimet e miqve tuaj dhe për të ndarë mendimin tuaj me ta. Unë jam duke pritur për ju.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Hiq sondazhin",
     "take_screenshot": "Merrni si mbulesë",
     "take_link_msg": "Kaloni lidhjen këtu dhe futni",
-    "eligible_title": "Hapat për t'u kualifikuar për të postuar"
+    "eligible_title": "Hapat për t'u kualifikuar për të postuar",
+    "public": "Publike"
   },
   "tips": {
     "verify_email": "Futni dhe verifikoni emailin tuaj.",

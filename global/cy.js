@@ -558,7 +558,52 @@ export default {
     "merchant": "Masnachwr",
     "per_product": "Fesul cynnyrch",
     "journey": "Taith",
-    "after": "Wedi"
+    "after": "Wedi",
+    "waiting_for_payment": "Cwblhewch y taliad...",
+    "hour": "Awr",
+    "minute": "Munud",
+    "premium": "Premiwm",
+    "light": "Ysgafn",
+    "dark": "Tywyll",
+    "guest": "Gwestai",
+    "shops": "Storfeydd",
+    "vendor": "Gwerthwr",
+    "vendors": "Gwerthwyr",
+    "marketplace": "Marchnad",
+    "verify_date": "Dilysu dyddiad",
+    "note": "Nodyn",
+    "panel": "Panel",
+    "removed": "Wedi'i ddileu",
+    "segments": "Segmentau",
+    "personal_info": "Gwybodaeth bersonol",
+    "preferences": "Dewisiadau",
+    "spec": "Spec",
+    "reviews": "Adolygiadau",
+    "constraints": "Cyfyngiadau",
+    "flexible": "Hyblyg",
+    "usage_limit": "Terfyn defnydd",
+    "temporary": "Dros Dro",
+    "original": "Gwreiddiol",
+    "saved": "Cadwyd!",
+    "sort": "Trefnu",
+    "documents": "Dogfennau",
+    "document": "Dogfen",
+    "please_wait": "Arhoswch os gwelwch yn dda...",
+    "pickup": "Codi",
+    "customize": "addasu",
+    "difficulty": "Anhawster",
+    "banned": "Gwahardd",
+    "company": "Cwmni",
+    "tax_shipping": "Treth Llongau",
+    "warranty": "Gwarant",
+    "return_policy": "Polisi Dychwelyd",
+    "guide": "Tywysydd",
+    "translate": "Cyfieithwch",
+    "public": "Cyhoeddus",
+    "deleted": "Wedi'i ddileu",
+    "variant": "Amrywiad",
+    "secure": "Diogel",
+    "admin": "Gweinyddol"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Trac",
     "change_state": "Newid Statws",
     "done": "Wedi'i wneud",
-    "reply": "Ateb"
+    "reply": "Ateb",
+    "watch_now": "Gwylio nawr",
+    "unlock": "Datgloi",
+    "lock": "Cloi",
+    "create_clone": "Creu clôn",
+    "regenerate": "Adfywio",
+    "add_message": "Ychwanegu neges",
+    "continue_chat": "Parhau i sgwrsio",
+    "add_new_message": "Ychwanegu neges newydd"
   },
   "instance_message_title": "Anfon neges ar unwaith",
   "instance_message": "Helo {name}, Fy enw i yw {author} o {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Côd post",
     "enter_value": "Llenwch yma",
     "address_note": "Nodyn",
-    "tel": "Rhif Cyswllt"
+    "tel": "Rhif Cyswllt",
+    "service_address": "Dewiswch eich cyfeiriad"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "bunnoedd",
     "chwarts",
     "llath",
-    "ystafell"
+    "ystafell",
+    "eiliadau",
+    "munudau",
+    "oriau",
+    "dyddiau",
+    "wythnosau",
+    "misoedd",
+    "mlynedd"
   ],
   "region_types": {
     "State": "Cyflwr",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Rhaid i'r hyd lleiaf fod yn {length}",
     "invalid_min_array_length": "O leiaf dewiswch {length} eitem",
     "invalid_max_chars": "Uchafswm {maxCount} nod",
-    "invalid_url": "URL annilys"
+    "invalid_url": "URL annilys",
+    "country_invalid": "Dewiswch wlad gyrchfan!",
+    "postal_code_invalid": "Gosod cod post dilys!"
   },
   "colors": {
     "#D32F2F": "Coch",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Gwyn",
     "#FFF": "Gwyn",
     "#000000": "Du",
-    "#000": "Du"
+    "#000": "Du",
+    "#7d263a": "Marwn",
+    "#FD9F17": "Aur",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Fyddin",
+    "#474747": "Asffalt",
+    "#E6195C": "aeron",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Oren wedi'i Llosgi",
+    "#80011F": "Cardinal",
+    "#382829": "Siocled",
+    "#F06336": "Cwrel",
+    "#FAE7C9": "Hufen",
+    "#6B2257": "Cyrens",
+    "#222127": "Llwyd tywyll",
+    "#0D5A74": "Corhwyaden ddwfn",
+    "#00582F": "Bythwyrdd",
+    "#214C30": "Coedwig",
+    "#DC2867": "Ffwsia",
+    "#38561": "Kelly",
+    "#5C884D": "Deilen",
+    "#558450": "Aqua Ysgafn",
+    "#96B5C9": "Glas golau",
+    "#DCAFCE": "lelog",
+    "#D3E1A4": "Calch",
+    "#9DE7C2": "Mintys",
+    "#F6EAD2": "Naturiol",
+    "#1A1F35": "Llynges",
+    "#404624": "Olewydd",
+    "#271020": "Eirin",
+    "#A8355C": "Mafon",
+    "#D6BEA6": "Hufen Meddal",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Corhwyaden",
+    "#A86EA9": "Fioled",
+    "#36454F": "Golosg",
+    "#b3b0ab": "carbon Llwyd",
+    "#463e3d": "Grug siarcol",
+    "#282d3c": "Blazer Llynges"
   },
   "address_info": {
     "name": "Enw",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Rhif adeiladu",
     "building_unit": "Uned",
     "postcode": "Côd post",
-    "note": "Nodyn"
+    "note": "Nodyn",
+    "county": "Sir"
   },
   "product_types": {
     "physical": "Corfforol",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Lliw",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Syml",
       "selective": "Dewisol",
-      "switch": "Switsh"
-    }
+      "switch": "Switsh",
+      "file": "Ffeil",
+      "number": "Rhif"
+    },
+    "placeholder_input": "Dalfan",
+    "file_type_input": "Mathau o ffeiliau derbyniol",
+    "file_type_message": "jpeg , png , sip , ..."
   },
   "virtual_order_info_summery": {
     "title": "Enw Cynnyrch",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Rhowch eich ffôn symudol",
     "verification_code": "Cod dilysu",
     "msg_title": "Helo,",
-    "msg_body": "Mewngofnodwch os gwelwch yn dda. Mae'n cymryd dim ond ychydig eiliadau."
+    "msg_body": "Mewngofnodwch os gwelwch yn dda. Mae'n cymryd dim ond ychydig eiliadau.",
+    "login_apple": "Mewngofnodi gydag Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Tagiau wedi'u hychwanegu"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Cymhleth iawn",
+    "hard": "Caled",
+    "intermediate": "Canolradd",
+    "easy": "Hawdd"
   }
 };

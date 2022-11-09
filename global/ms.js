@@ -558,7 +558,52 @@ export default {
     "merchant": "saudagar",
     "per_product": "Setiap produk",
     "journey": "Perjalanan",
-    "after": "Selepas"
+    "after": "Selepas",
+    "waiting_for_payment": "Sila lengkapkan pembayaran...",
+    "hour": "Jam",
+    "minute": "minit",
+    "premium": "Premium",
+    "light": "Cahaya",
+    "dark": "Gelap",
+    "guest": "tetamu",
+    "shops": "Kedai",
+    "vendor": "Penjual",
+    "vendors": "Penjual",
+    "marketplace": "Pasaran",
+    "verify_date": "Sahkan tarikh",
+    "note": "Catatan",
+    "panel": "Panel",
+    "removed": "Dialih keluar",
+    "segments": "Segmen",
+    "personal_info": "Maklumat peribadi",
+    "preferences": "Keutamaan",
+    "spec": "Spesifikasi",
+    "reviews": "Ulasan",
+    "constraints": "Kekangan",
+    "flexible": "Fleksibel",
+    "usage_limit": "Had penggunaan",
+    "temporary": "Sementara",
+    "original": "Asal",
+    "saved": "Disimpan!",
+    "sort": "Isih",
+    "documents": "Dokumen",
+    "document": "Dokumen",
+    "please_wait": "Sila tunggu...",
+    "pickup": "Pickup",
+    "customize": "menyesuaikan",
+    "difficulty": "Kesukaran",
+    "banned": "diharamkan",
+    "company": "Syarikat",
+    "tax_shipping": "Cukai Penghantaran",
+    "warranty": "Waranti",
+    "return_policy": "Syarat pengembalian",
+    "guide": "Panduan",
+    "translate": "Terjemah",
+    "public": "Awam",
+    "deleted": "Dipadamkan",
+    "variant": "Pelbagai",
+    "secure": "selamat",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Jejak",
     "change_state": "Tukar Status",
     "done": "Selesai",
-    "reply": "Balas"
+    "reply": "Balas",
+    "watch_now": "Menonton sekarang",
+    "unlock": "Buka kunci",
+    "lock": "Kunci",
+    "create_clone": "Buat klon",
+    "regenerate": "Menjana semula",
+    "add_message": "Tambah mesej",
+    "continue_chat": "Teruskan sembang",
+    "add_new_message": "Tambah mesej baharu"
   },
   "instance_message_title": "Hantar mesej segera",
   "instance_message": "Hai {name}, Nama saya {author} daripada {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Poskod",
     "enter_value": "Isi di sini",
     "address_note": "Catatan",
-    "tel": "Nombor telefon"
+    "tel": "Nombor telefon",
+    "service_address": "Pilih alamat anda"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "pon",
     "kuar",
     "ela",
-    "bilik"
+    "bilik",
+    "detik",
+    "minit",
+    "Jam",
+    "hari",
+    "minggu",
+    "bulan",
+    "tahun"
   ],
   "region_types": {
     "State": "negeri",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Panjang minimum mestilah {length}",
     "invalid_min_array_length": "Sekurang-kurangnya pilih {length} item",
     "invalid_max_chars": "Maks {maxCount} aksara",
-    "invalid_url": "URL tidak sah"
+    "invalid_url": "URL tidak sah",
+    "country_invalid": "Pilih negara destinasi!",
+    "postal_code_invalid": "Tetapkan poskod yang sah!"
   },
   "colors": {
     "#D32F2F": "merah",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "putih",
     "#FFF": "putih",
     "#000000": "hitam",
-    "#000": "hitam"
+    "#000": "hitam",
+    "#7d263a": "Maroon",
+    "#FD9F17": "emas",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Tentera",
+    "#474747": "Asfalt",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Oren Terbakar",
+    "#80011F": "Kardinal",
+    "#382829": "coklat",
+    "#F06336": "karang",
+    "#FAE7C9": "krim",
+    "#6B2257": "Currant",
+    "#222127": "Kelabu gelap",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "malar hijau",
+    "#214C30": "Hutan",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Daun",
+    "#558450": "Aqua Cahaya",
+    "#96B5C9": "Biru muda",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "kapur",
+    "#9DE7C2": "Pudina",
+    "#F6EAD2": "Semulajadi",
+    "#1A1F35": "Tentera Laut",
+    "#404624": "Zaitun",
+    "#271020": "Plum",
+    "#A8355C": "Raspberi",
+    "#D6BEA6": "Krim Lembut",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Violet",
+    "#36454F": "arang",
+    "#b3b0ab": "karbon Kelabu",
+    "#463e3d": "Arang Heather",
+    "#282d3c": "Blazer Tentera Laut"
   },
   "address_info": {
     "name": "nama",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Nombor bangunan",
     "building_unit": "Unit",
     "postcode": "Poskod",
-    "note": "Catatan"
+    "note": "Catatan",
+    "county": "Daerah"
   },
   "product_types": {
     "physical": "Fizikal",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Warna",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Mudah",
       "selective": "Selektif",
-      "switch": "Tukar"
-    }
+      "switch": "Tukar",
+      "file": "Fail",
+      "number": "Nombor"
+    },
+    "placeholder_input": "Pemegang tempat",
+    "file_type_input": "Jenis fail yang boleh diterima",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "Nama Produk",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Masukkan telefon bimbit anda",
     "verification_code": "Kod pengesahan",
     "msg_title": "Hai,",
-    "msg_body": "Sila daftar masuk. Ia mengambil masa beberapa saat sahaja."
+    "msg_body": "Sila daftar masuk. Ia mengambil masa beberapa saat sahaja.",
+    "login_apple": "Log masuk dengan Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Teg ditambah"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Sangat rumit",
+    "hard": "Keras",
+    "intermediate": "Pertengahan",
+    "easy": "Mudah"
   }
 };

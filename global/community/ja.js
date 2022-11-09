@@ -65,7 +65,9 @@ export default {
     "my_feed": "自分",
     "blocked_message": "あなたはまでブロックされます",
     "reported": "報告",
-    "report": "報告する"
+    "report": "報告する",
+    "post": "役職",
+    "attach_file": "ファイルを添付する"
   },
   "invite_message": "{user}があなたをフォーラム{community}に招待しました。下のリンクをクリックして、友達の意見を読んだり、意見を共有したりしてください。私はあなたを待っています。",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "投票を削除する",
     "take_screenshot": "カバーとして取る",
     "take_link_msg": "ここに過去のリンクを入力して入力してください",
-    "eligible_title": "投稿資格を得るまでの手順"
+    "eligible_title": "投稿資格を得るまでの手順",
+    "public": "公衆"
   },
   "tips": {
     "verify_email": "メールアドレスを入力して確認します。",

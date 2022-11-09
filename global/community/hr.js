@@ -65,7 +65,9 @@ export default {
     "my_feed": "Mi",
     "blocked_message": "Blokirani ste do",
     "reported": "Prijavljeno",
-    "report": "izvješće"
+    "report": "izvješće",
+    "post": "Post",
+    "attach_file": "Priložite datoteku"
   },
   "invite_message": "{user} vas je pozvao na forum {community}. Kliknite na donju poveznicu da pročitate zapažanja svojih prijatelja i podijelite svoje mišljenje s njima. Čekam te.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Ukloni anketu",
     "take_screenshot": "Uzmi kao zaklon",
     "take_link_msg": "Prošli link ovdje i unesite",
-    "eligible_title": "Koraci za ispunjavanje uvjeta za objavljivanje"
+    "eligible_title": "Koraci za ispunjavanje uvjeta za objavljivanje",
+    "public": "Javnost"
   },
   "tips": {
     "verify_email": "Unesite i potvrdite svoju e-poštu.",

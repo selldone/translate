@@ -558,7 +558,52 @@ export default {
     "merchant": "Վաճառական",
     "per_product": "Մեկ ապրանքի համար",
     "journey": "Ճանապարհորդություն",
-    "after": "հետո"
+    "after": "հետո",
+    "waiting_for_payment": "Խնդրում ենք լրացնել վճարումը...",
+    "hour": "Ժամ",
+    "minute": "Րոպե",
+    "premium": "Հավելավճար",
+    "light": "Լույս",
+    "dark": "Մութ",
+    "guest": "Հյուր",
+    "shops": "Խանութներ",
+    "vendor": "Վաճառող",
+    "vendors": "Վաճառողներ",
+    "marketplace": "Շուկա",
+    "verify_date": "Ստուգեք ամսաթիվը",
+    "note": "Նշում",
+    "panel": "Վահանակ",
+    "removed": "Հեռացված",
+    "segments": "Հատվածներ",
+    "personal_info": "Անձնական տվյալներ",
+    "preferences": "Նախապատվություններ",
+    "spec": "Տեսակ",
+    "reviews": "Կարծիքներ",
+    "constraints": "Սահմանափակումներ",
+    "flexible": "Ճկուն",
+    "usage_limit": "Օգտագործման սահմանափակում",
+    "temporary": "Ժամանակավոր",
+    "original": "Օրիգինալ",
+    "saved": "Պահված է:",
+    "sort": "Տեսակավորել",
+    "documents": "Փաստաթղթեր",
+    "document": "Փաստաթուղթ",
+    "please_wait": "Խնդրում ենք սպասել...",
+    "pickup": "Վերցնել",
+    "customize": "հարմարեցնել",
+    "difficulty": "Դժվարություն",
+    "banned": "Արգելված",
+    "company": "Ընկերություն",
+    "tax_shipping": "Առաքման հարկ",
+    "warranty": "Երաշխիք",
+    "return_policy": "Վերադարձի քաղաքականություն",
+    "guide": "Ուղեցույց",
+    "translate": "Թարգմանել",
+    "public": "Հանրային",
+    "deleted": "Ջնջված է",
+    "variant": "Տարբերակ",
+    "secure": "Ապահով",
+    "admin": "Ադմին"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Հետևել",
     "change_state": "Փոխել կարգավիճակը",
     "done": "Կատարած",
-    "reply": "Պատասխանել"
+    "reply": "Պատասխանել",
+    "watch_now": "Դիտեք հիմա",
+    "unlock": "Ապակողպել",
+    "lock": "Կողպեք",
+    "create_clone": "Ստեղծեք կլոն",
+    "regenerate": "Վերականգնել",
+    "add_message": "Ավելացնել հաղորդագրություն",
+    "continue_chat": "Շարունակել զրույցը",
+    "add_new_message": "Ավելացնել նոր հաղորդագրություն"
   },
   "instance_message_title": "Ուղարկել ակնթարթային հաղորդագրություն",
   "instance_message": "Ողջույն, {name}, իմ անունը {author} է {company}-ից:",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Ինդեքս",
     "enter_value": "Լրացրեք այստեղ",
     "address_note": "Նշում",
-    "tel": "Կոնտակտային համարը"
+    "tel": "Կոնտակտային համարը",
+    "service_address": "Ընտրեք ձեր հասցեն"
   },
   "weight": {
     "g": "է",
@@ -753,7 +807,14 @@ export default {
     "ֆունտ",
     "կվարտաներ",
     "բակերը",
-    "սենյակ"
+    "սենյակ",
+    "վայրկյան",
+    "րոպե",
+    "ժամեր",
+    "օրեր",
+    "շաբաթներ",
+    "ամիսներ",
+    "տարիներ"
   ],
   "region_types": {
     "State": "Պետություն",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Նվազագույն երկարությունը պետք է լինի {length}",
     "invalid_min_array_length": "Առնվազն ընտրեք {length} տարր",
     "invalid_max_chars": "Առավելագույնը {maxCount} նիշ",
-    "invalid_url": "Անվավեր URL"
+    "invalid_url": "Անվավեր URL",
+    "country_invalid": "Ընտրեք նպատակակետ երկիրը:",
+    "postal_code_invalid": "Սահմանեք վավեր փոստային կոդը:"
   },
   "colors": {
     "#D32F2F": "Կարմիր",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Սպիտակ",
     "#FFF": "Սպիտակ",
     "#000000": "Սեվ",
-    "#000": "Սեվ"
+    "#000": "Սեվ",
+    "#7d263a": "Շագանակագույն",
+    "#FD9F17": "Ոսկի",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Բանակ",
+    "#474747": "Ասֆալտ",
+    "#E6195C": "Բերի",
+    "#B2184C": "Բերի Թրիբլենդ",
+    "#FC7F5F": "Այրված նարնջագույն",
+    "#80011F": "Կարդինալ",
+    "#382829": "Շոկոլադ",
+    "#F06336": "Մարջան",
+    "#FAE7C9": "Կրեմ",
+    "#6B2257": "Հաղարջ",
+    "#222127": "Մուգ Մոխրագույն",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Մշտադալար",
+    "#214C30": "Անտառ",
+    "#DC2867": "Ֆուքսիա",
+    "#38561": "Քելլի",
+    "#5C884D": "Տերեւ",
+    "#558450": "Light Aqua",
+    "#96B5C9": "Բաց կապույտ",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "Լայմ",
+    "#9DE7C2": "անանուխ",
+    "#F6EAD2": "Բնական",
+    "#1A1F35": "Նավատորմ",
+    "#404624": "Ձիթապտղի",
+    "#271020": "Սալոր",
+    "#A8355C": "Ազնվամորու",
+    "#D6BEA6": "Փափուկ կրեմ",
+    "#BEA994": "Թան",
+    "#0DB2AE": "Շագանակագույն",
+    "#A86EA9": "Մանուշակ",
+    "#36454F": "Ածուխ",
+    "#b3b0ab": "ածխածնային մոխրագույն",
+    "#463e3d": "Փայտածուխ Heather",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Անուն",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Շենքի համարը",
     "building_unit": "Միավոր",
     "postcode": "Ինդեքս",
-    "note": "Նշում"
+    "note": "Նշում",
+    "county": "կոմսություն"
   },
   "product_types": {
     "physical": "Ֆիզիկական",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Գույն",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Պարզ",
       "selective": "Ընտրովի",
-      "switch": "Անջատիչ"
-    }
+      "switch": "Անջատիչ",
+      "file": "Ֆայլ",
+      "number": "Թիվ"
+    },
+    "placeholder_input": "Տեղապահ",
+    "file_type_input": "Ընդունելի ֆայլերի տեսակներ",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "ապրանքային անուն",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Մուտքագրեք ձեր բջջային հեռախոսը",
     "verification_code": "Ստուգման կոդը",
     "msg_title": "Ողջու՜յն,",
-    "msg_body": "Խնդրում ենք մուտք գործել: Դա տեւում է ընդամենը մի քանի վայրկյան:"
+    "msg_body": "Խնդրում ենք մուտք գործել: Դա տեւում է ընդամենը մի քանի վայրկյան:",
+    "login_apple": "Մուտք գործեք Apple-ով"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Ավելացված են պիտակներ"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Շատ բարդ",
+    "hard": "Դժվար",
+    "intermediate": "Միջանկյալ",
+    "easy": "Հեշտ"
   }
 };

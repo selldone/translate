@@ -155,7 +155,19 @@ export default {
       "Setup": "dikan",
       "Sell": "Sales & Marketing",
       "Developer": "Pêşvebirin",
-      "Application": "Applications"
+      "Application": "Applications",
+      "Product": "Rêvebiriya Berhem & Kategoriyan",
+      "Blog": "CMS & Blog",
+      "Order": "Orders Fulfillment Center",
+      "Channel": "Kanalên Firotanê",
+      "Accounting": "Accounting & Rêbazên Payment",
+      "Incentives": "Teşwîqên",
+      "Marketing": "Bazirganî & Kampanya",
+      "Logistic": "Lojîstîk & Shipping",
+      "Customers": "Mişterî Club & Segmentation",
+      "Page": "Rûpelên Zevî & Xweser",
+      "Access": "Karmend / Rêvebiriya Gihîştina API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Depoya Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Stores",
       "roles": "Roles",
       "home": "Xane",
-      "expert": "Pispor"
+      "expert": "Pispor",
+      "deals": "Deals",
+      "providers": "Providers"
     },
     "shops": {
       "create_new": "Firotgeha nû biafirînin",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Cî",
           "created_at": "Dîroka Afirandinê",
           "updated_at": "Rojanekirina dawî"
-        }
+        },
+        "subtitle": "Gotaran bi edîtorek înline ya nûjen re binivîsin da ku xwe û karsaziya xwe pêşkêş bikin. Naveroka orjînal yekem tişt e ku hûn hewce ne ku dema ku hûn postek blogek-heval a SEO-ya-kalîteyê dinivîsin bala xwe bidin ser."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Nûçe",
         "tax": "Bac",
         "drop_shipping": "meqbûzên Reseller",
-        "reseller_accounts": "Hesabên Reseller"
+        "reseller_accounts": "Hesabên Reseller",
+        "valuations": "Valuations"
       },
       "invoice": {
         "title": "Bikirre Wallets Girêdayî",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Shipping",
         "inventory": "Inventory",
         "warehouse": "Embar",
-        "logistic_apps": "Lojîstîk"
+        "logistic_apps": "Lojîstîk",
+        "profiles": "Profiles"
       },
       "warehouse": {
         "title": "Store Warehouse",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Mesrefa herî kêm ji bo barkirina belaş",
           "notifications": {
             "update_success": "Mîhengên karûbarê barkirinê bi serfirazî qediyan."
-          }
+          },
+          "shipping_cost_calculation": "Hesabkirina lêçûna barkirinê",
+          "sod_true": "Mesrefa barkirinê li ser mebestê bistînin",
+          "sod_true_message": "Piştrast bikin ku karûbarê barkêşiya we lêçûna barkirinê li ser cîhê qebûl dike.",
+          "sod_false": "Hesabkirina lêçûna barkirina otomatîkî",
+          "cod_true": "Di radestkirinê de drav qebûl bikin",
+          "cod_false": "Tenê dravdana serhêl qebûl bikin",
+          "cod_true_message": "Piştrast bikin ku karûbarê barkirina we COD qebûl dike."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "Sms",
         "email": "Email",
         "domain": "Domain",
-        "verifications": "Verifications"
+        "verifications": "Verifications",
+        "flow": "Herrikîn",
+        "business_model": "Modela Karsaziyê"
       },
       "delete_dialog": {
         "title": "Delete Store",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "yekîneya hilberê",
       "unit_float": "Yekîneya float (zû zû)",
       "unit_float_hint": "Mînakî, xerîdar dikare 3 kg fêkî siparîş bike, lê mîqdara ku ji xerîdar re hatî şandin ji mîqdara ku hatî ferman kirin hinekî cûda ye.",
-      "unit_float_message": "Di dema pêvajoya fermanê de, dibe ku mîqdara radestkirî ji mîqdara fermankirî cûda be. Pergal bixweber vê cûdahiyê hesab dike û wê wekî deynê we ji xerîdar re tomar dike, ku dikare li ser fermanên din were sepandin."
+      "unit_float_message": "Di dema pêvajoya fermanê de, dibe ku mîqdara radestkirî ji mîqdara fermankirî cûda be. Pergal bixweber vê cûdahiyê hesab dike û wê wekî deynê we ji xerîdar re tomar dike, ku dikare li ser fermanên din were sepandin.",
+      "status_list": {
+        "active": {
+          "title": "Çalak | Firotana Serhêl & Offline",
+          "description": "Ev hilber dê ji bo fermanên serhêl peyda bibe."
+        },
+        "inactive": {
+          "title": "Neçalak | Tenê Firotana Offline",
+          "description": "Ev hilber dê ji bo fermanên serhêl peyda nebe."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Lêkolîn",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Dema dawiyê hilbijêre",
       "independent_price": "Biha tenê ji bo vê variantê",
       "same_price": "Buhayê ji bo hilberê sereke",
-      "variant_pricing_message": "Bi hilbijartina vê vebijarkê, bihayê vê guhertoyê dikare serbixwe ji hilbera sereke were danîn."
+      "variant_pricing_message": "Bi hilbijartina vê vebijarkê, bihayê vê guhertoyê dikare serbixwe ji hilbera sereke were danîn.",
+      "price_label_input": "Labelê biha",
+      "price_label_message": "Agahdariya zêde li ser bihayê mîna (1,5 $ / Fl Oz) zêde bikin. Dozên bikar bînin: firotgeh, FMCG.",
+      "add_price_label_action": "Labelê bihayê zêde bike"
     },
     "inputs_edit": {
       "title": "Input Forma Agahdariya Kiriyar",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gateway {gateway_name} hate guherandin."
     },
-    "developer_setting": "Pêşveçûn & Test"
+    "developer_setting": "Pêşveçûn & Test",
+    "live_mode_message": "Hemî danûstandin dê di moda zindî de bin."
   },
   "gift_card": {
     "title": "Kartên diyariyê",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Navnîşana fatûreyê ji hêla kirrûbir ve hatî guherandin.",
     "payment-cod-confirm": "Tezmînata COD hate pejirandin.",
     "payment-cash-confirm": "Ji bo fatûreyê dravdana {amount} {currency} bi drav hat pejirandin.",
-    "payment-dir-confirm": "Meqbûza dravê rasterast hate pejirandin."
+    "payment-dir-confirm": "Meqbûza dravê rasterast hate pejirandin.",
+    "vendor": "Rewşa fermana firoşkar ji <b>{from}</b> bû <b>{to}</b> .",
+    "connect-sync": "Siparîşa ku ji hêla Connect OS ve hatî hevdem kirin.",
+    "connect-shipped": "Fermana girêdanê ji hêla {shipping} ve hatî şandin.",
+    "connect-returned": "Fermana girêdanê ji hêla {shipping} ve hatî vegerandin.",
+    "connect-failed": "Pêkanîna fermanê ji hêla hevalbendê ve têk çû. {reason}",
+    "connect-canceled": "Ferman ji hêla hevkarê ve hat betal kirin. {reason}",
+    "connect-action-cancel": "Daxwaza betalkirina fermanê. {reason}",
+    "connect-put-hold": "Ferman hat sekinandin. {reason}",
+    "connect-remove-hold": "Ferman ji rêzê hat derxistin. {reason}",
+    "connect-confirmed": "Ferman hate pejirandin.",
+    "email-vendor": "🔔 E-nameya agahdarkirina fermanê ji <b>{vendor}</b> re hat şandin | {email}."
   },
   "inline_chart": {
     "today": "Îro",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Make Money",
     "menu": {
       "plans": "Plans",
-      "accounts": "Accounts"
+      "accounts": "Accounts",
+      "participant": "Beşdar"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Keys Access Store",
     "shop_keys_message": "Van bişkokan ji bo afirandina Access Token ji hêla servera we ve têne bikar anîn. Bala xwe bidinê ku mift nehênî ne û tenê li ser serverê têne danîn da ku ew ji yên din re neyên dîtin.",
     "personal_keys_title": "Keys Access Personal",
-    "personal_keys_message": "Hûn dikarin mifteyên hesabê xwe li vir biafirînin. Bala xwe bidinê ku ev bişkok dê karibin bigihîjin hesabê we. Tenê heke hûn bi rastî dizanin ku hûn çi dikin van bişkojan biafirînin û bikar bînin."
+    "personal_keys_message": "Hûn dikarin mifteyên hesabê xwe li vir biafirînin. Bala xwe bidinê ku ev bişkok dê karibin bigihîjin hesabê we. Tenê heke hûn bi rastî dizanin ku hûn çi dikin van bişkojan biafirînin û bikar bînin.",
+    "clients_title": "Clients",
+    "clients_message": "Van bişkokan ji bo afirandina Access Token ji hêla servera we ve têne bikar anîn. Bala xwe bidinê ku mift nehênî ne û tenê li ser serverê têne danîn da ku ew ji yên din re neyên dîtin."
   },
   "user_security_control": {
     "title": "Ewlekariya Hesabê",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Profîlan birêve bibin",
       "description": "Profîlên dikanê birêve bibin."
+    },
+    "shop-discount-code": {
+      "name": "Discount rêveberiya code",
+      "description": "Kodên dakêşanê yên dikanê birêve bibin, biguherînin û lê zêde bikin."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Settings",
       "change": "Biha",
       "transfer": "Derbaskirin",
-      "transactions": "Transactions"
+      "transactions": "Transactions",
+      "charge": "Biha",
+      "history": "Dîrok"
     },
     "transactions": {
       "title": "Transactions Account",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Piştrastkirina abonetiyê betal bike",
       "message": "Ma hûn guman dikin ku vê abonetiyê betal bikin?",
       "action": "Abonetiyê betal bike"
-    }
+    },
+    "use_voucher_now": "Naha qursê bikar bînin",
+    "validity_duration": "Duration Validity",
+    "validity_duration_hint": "Bi kirîna lîsansek 12-mehî, hûn ê 30% erzanî bistînin."
   },
   "admin_shop_layout": {
     "download_txt": "Nivîsara daneyê dakêşin",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Fontên mezin",
     "large_font_message": "Nivîsara ji normalê mezintir nîşan bide",
     "samples": "Dikanên nimûne nîşan bidin",
-    "samples_message": "Ger çalak be, dê hin firoşgehên nimûne di panela we de werin xuyang kirin."
+    "samples_message": "Ger çalak be, dê hin firoşgehên nimûne di panela we de werin xuyang kirin.",
+    "automation": "Otomatîkî",
+    "automation_message": "Li ser tabloya dikanê tabloya otomasyonê nîşan bidin. (Webhooks, Programming Visual, ...)"
   },
   "shop_locations": {
     "title": "Welatên ku xizmet lê tê kirin",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kupon bi serkeftî hat jêbirin."
-    }
+    },
+    "multiple_use": "Bikaranîna pirjimar"
   },
   "coupon_edit": {
     "title_edit": "Kuponê biguherîne",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Sînorkirin",
       "description": "Li ser hejmara herî zêde ya bikarhêneran sînorek saz bikin."
+    },
+    "SEGMENTS": {
+      "title": "Segments",
+      "description": "Xerîdar di dabeşkirina manual ya taybetî de sînordar bikin."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Tevahiya mîqdara fermanê ji qertên diyariyê hate kişandin! Kiriyar ne hewce ye ku zêde bide.",
       "cod_msg": "Dema ku emrê werdigire dê xerîdar bide.",
       "online_msg": "Ji xerîdar bipirsin ku koda QR-ê li ser ekrana xerîdar bişopîne."
-    }
+    },
+    "name": "POS",
+    "message": "Xerca xweya lêçûna zero-sazkirî ya firotanê ya serhêl hebe, wê li ser her smartphone, tablet û PC-yê bimeşînin, an bi destan fermanan biafirînin."
   },
   "exporter": {
     "title": "Daneyên hinardekirinê",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Ji serverê re bişînin",
     "shop_license": "lîsansa Shop",
     "max_items_limit": "Sînorê tiştên herî zêde",
-    "total_items": "Bi tevahî tiştên"
+    "total_items": "Bi tevahî tiştên",
+    "customer": {
+      "title": "mişteriyên Import",
+      "subtitle": "Pelên CSV yên xerîdar li vir barkirin. Piştrast bikin ku hûn formata standard bişopînin, û her weha, divê hûn rêzikên nepenîtiyê bişopînin."
+    }
   },
   "campaigns": {
     "title": "Kampanyayên",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Girêdanên",
     "light_checkout": "Mijara kontrolê ya sivik",
     "light_header": "Sernavê ronahî",
-    "light_footer": "Fotera ronahî"
+    "light_footer": "Fotera ronahî",
+    "product_page": "Rûpelê Hilberê",
+    "typography": "Tîpografi",
+    "header": "Header",
+    "custom_code": "Koda Custom",
+    "custom_css": "Custom CSS"
   },
   "app_templates": {
     "default": "Destçûnî",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Karûbarê rêvebirin",
     "option_deliver_by_courier": "Vebijêrk 1: Bi rêgezên xwe re radest bikin.",
     "option_add_to_que": "Vebijêrk 2: Ji bo pêvajoyê li ser rûpela karûbarê barkirinê li rêzê zêde bikin.",
-    "option_instant_shipping": "Vebijêrk 3: Barkirina lezgîn."
+    "option_instant_shipping": "Vebijêrk 3: Barkirina lezgîn.",
+    "pickup_action": "Piştrastkirina Pickup"
   },
   "shop_home_edit": {
     "title": "Sazkirina rûpela malê",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Hilber li dikana we hate zêdekirin.",
       "request_access": "Me daxwaza gihîştina we ji wholesale re bi serfirazî şand."
-    }
+    },
+    "show_eligible_shops_message": "Dikanên bijartî nîşan bidin"
   },
   "product_dropshipping": {
     "need_re_enable": "Ev hilber ji hêla firoşkarê orîjînal ve hatî guheztin, van guhertinên bihayê hilbera li dikana we neçalak kiriye. Guhertinan kontrol bikin û ger hûn razî bibin ku hilberê ji nû ve çalak bikin, bişkoja jêrîn bikirtînin.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Di dikana we de kategoriyek tune.",
       "limit": "Sînorê berhemên",
       "limit_message": "Hejmarên encamên hilberan binivîse",
-      "select_categories": "Kategoriyên berdest hilbijêrin"
+      "select_categories": "Kategoriyên berdest hilbijêrin",
+      "categories_limit": "Kategorî sînor",
+      "categories_limit_msg": "Hejmara herî zêde ya kategoriyan binivîse. Set sifir bê sînor."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avocado bi serkeftî hate nûve kirin.",
       "add_success": "Avocado bi serkeftî hate afirandin."
-    }
+    },
+    "name": "Avocado"
   },
   "avocado_orders": {
     "title": "Avocado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "bêkar",
     "active_message": "Heke hûn vê vebijarkê çalak bikin, dê îmkana afirandina Fast-Sales-Codes di beşa rêveberiya her hilberê de were xuyang kirin.",
     "hyper_form_link_message": "Zencîreya rûpela hîper ya dikana we",
-    "configuration": "Mîhengên Hyper"
+    "configuration": "Mîhengên Hyper",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Demografiya xerîdar",
     "subtitle": "Daneyên xerîdarên xwe fîlter bikin û hinarde bikin da ku biryarên çêtir bidin da ku bi kirrûbirra hindiktir nirx bidin! Ji kerema xwe rêz ji nepeniya xerîdarên xwe re bigirin û tu carî e-nameyên girseyî ji wan re neşînin! Tu carî agahdariya xerîdarên xwe bi karûbarên partiya sêyemîn re bêyî ku destûr ji her yek ji wan bistînin parve nekin."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Navnîşanên hilgirtinê",
+      "subtitle": "Navnîşanên hilgirtinê li vir zêde bikin û biguherînin. Bikarhêner dê bikaribin li ser rûpela danûstendinê navnîşana hilgirtinê hilbijêrin.",
+      "add_action": "Cihê nû lê zêde bike"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Affiliate POS",
+    "open_pos_action": "Fast fermana POS",
+    "description": "Ev vebijark ji bo rêvebirên rûpelên Instagram û torên din ên civakî maqûl e. POS-a Affiliate bikar bînin da ku bi destan fermanan ji xerîdaran bistînin û lê zêde bikin. Pargîdaniyên we (an jî franchise) dikarin fermanên nû li POS-a Parmendî zêde bikin û depoya depoyê bar bikin."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Rêbazên têketinê",
+      "subtitle": "Awayê ku bikarhêner têkevin dikana xwe xweş bikin."
+    },
+    "checkout": {
+      "title": "Checkout herikîna",
+      "subtitle": "Rêwîtiya xerîdar û di e-bazirganiya xwe de herikîna kirînê xweş bikin.",
+      "map": {
+        "title": "Qert",
+        "subtitle": "Divê bikarhêner cîhê radestkirinê li ser nexşeyê hilbijêrin (wek Uber).",
+        "subtitle_no_map": "Ger cîh di navnîşana peydakirî ya xerîdar de tune be, di hesabkirina barkirinê de dûrahî sifir dihesibîne."
+      },
+      "mode": {
+        "title": "Xala têketina xerîdar",
+        "default": {
+          "title": "ASAP (Default)",
+          "msg": "Bikarhêner bi zûtirîn dem têkevinê. (Zêdetir veguherîn)"
+        },
+        "on_checkout": {
+          "title": "Li ser danûstendinê",
+          "msg": "Bikarhêneran bi zorê bike ku di gava gavê de têkevinê."
+        },
+        "login_free": {
+          "title": "login Bijarî",
+          "msg": "Têketina vebijarkî piştî dayina fermanê.."
+        }
+      },
+      "express": {
+        "title": "Beralî bike piştî lê zêde bike li selikê",
+        "false": {
+          "title": "Moda normal",
+          "msg": "Li ser rûpelê bimînin û piştî ku lê zêde bike li selikê bikirtînin kirînê bidomînin."
+        },
+        "true": {
+          "title": "Moda Expressê",
+          "msg": "Piştî ku lê zêde bike li selikê bikirtînin xerîdar beralî bidin rûpela danûstendinê."
+        }
+      },
+      "shipping_address": {
+        "title": "Navnîşana barkirinê bipirsin"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fîzîkî û Xizmetguzarî (Destpêk)",
+      "desc": "Ji xerîdar bipirsin ku navnîşek navnîşek di şaneyên laşî û karûbarê de binivîse."
+    },
+    "physical": {
+      "title": "Tenê fîzîkî",
+      "desc": "Ji xerîdar bipirsin ku navnîşek tenê di dravdana laşî de têkevin."
+    },
+    "off": {
+      "title": "Qet",
+      "desc": "Qet navnîşana barkirinê nepirsin. ⚠ Heke hûn plan dikin ku karûbarên bi guhertoyan hebin, bi bijartina celebê laşî ji bo hilberan li şûna celebê karûbarê, vê vebijarkê bikar bînin."
+    }
+  },
+  "business_model": {
+    "title": "Sazkirina modela karsaziyê",
+    "subtitle": "Modela karsaziya xwe saz bikin, û em ê OS-ya we li pişt dîmenê mîheng bikin."
+  },
+  "business_type": {
+    "title": "Cureyên Merchandise",
+    "subtitle": "Cureya hilberên ku hûn dixwazin li firotgeha xwe bifroşin bicîh bikin. Cûreyên hilberê li Selldone ji celebek hilberan bêtir in; ew bêtir li ser prosedûra bicîhkirinê ye.",
+    "send_activation_request_to_support": "Di bilêtek piştgiriyê de daxwazek çalakkirinê bişînin.",
+    "require_kyc": "xwediyê karsaziyê KYC.",
+    "needs_enterprise_license": "Pêdivî ye ku hûn xwediyê destûrnameyek Enterprise bin.",
+    "marketplace_caution_message": "Marketplace-ê wekî modela xwe bicîh bikin ku bi kûrahî li ser veavakirina OS-ya karsaziya we bandor dike. Mînakî, divê hûn ji bo her hilberek bi biha û tomarek serbixwe bi kêmî ve yek firoşkarek diyar bikin. Xerîdar nikarin hilberên ku firoşkarê wan tune bikirin."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Normal Store",
+      "desc": "Bi gelemperî SME, karsaziyek malê, an dropshipper - ku hilbera xwe rasterast ji xerîdaran re difroşe an hilberên mezinfiroşan wekî firoşkar difiroşe."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Ne hilber û ne hilberek nehêle - hûn drav didin partiyek sêyemîn, bi gelemperî firoşkarek (wek Printify, Wholesale2B, ...) an çêker, û ew fermanan li pişt dîmenê pêk tînin."
+    },
+    "wholesaler": {
+      "title": "Dropshipping Supplier",
+      "desc": "Bi gelemperî firoşkarek an çêkerek - ku fermanan rasterast ji xerîdarê paşîn re dişîne. Bazirganên din ên li ser Selldone dikarin hilberên we li firotgehên xwe bişînin."
+    },
+    "marketplace": {
+      "title": "Marketplace",
+      "desc": "Sûkên serhêl kiriyar û firoşkaran li ser platformek xwedan û navendî girêdidin."
+    },
+    "franchise": {
+      "title": "Fransizî / Parmend",
+      "desc": "Franşîz rêbazek belavkirina hilber an karûbar e ku tê de franşîsorek e ku marqeya we saz dike (Franchising) an hilberên we bi marqeya xwe (Affiliate) difroşe."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Wallets",
+    "pricing_models": "Pricing",
+    "add_vendor": "Firoşkar zêde bike",
+    "requests": "Daxwazên"
+  },
+  "price_input_type": {
+    "title": "type input Price",
+    "default": {
+      "title": "Destçûnî",
+      "desc": "Nirxek wekî mîqdara di selikê de hilbijêrin."
+    },
+    "area": {
+      "title": "Dewer",
+      "desc": "Ji bo hesabkirina mîqdarê, firehî û dirêjahî wekî têketinê binivîse."
+    },
+    "volume": {
+      "title": "bend",
+      "desc": "Ji bo hesabkirina mîqdarê, firehî, dirêjî û bilindahî wekî têketinê binivîsin."
+    },
+    "custom": {
+      "title": "Xweser (Bi forma têketinê)",
+      "desc": "Ne hewce ye bi sedan guhertoyan! Ji bo hilberên pir xwerû formek hesabkirina lêçûnên xwerû biafirînin."
+    }
+  },
+  "vendors_list": {
+    "title": "Firoşkarên min",
+    "message": "Lîsteya firoşkarên min bi xwe."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Gelek domên bi OS-ya karsaziya xwe ve girêdin û hemî wan li yek cîhek birêve bibin. Hûn dikarin taybetmendiya gelek domên bikar bînin ku ji bo her beşek malpera xwe, mîna blog û civatê, domên veqetandî biafirînin, an jî ji bo hevalbendên xwe domên cûda bikar bînin."
+  },
+  "notes": {
+    "add_action": "Ji bo tîmê xwe notek zêde bikin",
+    "notifications": {
+      "success_add": "Nîşe bi serkeftî hate zêdekirin.",
+      "success_delete": "Nîşe bi serkeftî hate jêbirin."
+    }
+  },
+  "external_services": {
+    "title": "xizmetên derve",
+    "subtitle": "Li vir rewşa paşîn a karûbarên derveyî yên mîna SMS û e-nameyê bişopînin."
   }
 };

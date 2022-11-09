@@ -155,7 +155,19 @@ export default {
       "Setup": "toko",
       "Sell": "Penjualan & Pamasaran",
       "Developer": "Ngembangkeun",
-      "Application": "Aplikasi"
+      "Application": "Aplikasi",
+      "Product": "Produk & Kategori Manajemén",
+      "Blog": "CMS & Blog",
+      "Order": "Puseur minuhan pesenan",
+      "Channel": "Saluran Penjualan",
+      "Accounting": "Akunting & Métode pamayaran",
+      "Incentives": "Insentip",
+      "Marketing": "Pamasaran & Kampanye",
+      "Logistic": "Logistik & Pengiriman barang",
+      "Customers": "Klub konsumén & Segmentasi",
+      "Page": "Badarat & Kaca Adat",
+      "Access": "Staf / Manajemén Aksés API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Repository Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Toko",
       "roles": "Kalungguhan",
       "home": "Imah",
-      "expert": "ahli"
+      "expert": "ahli",
+      "deals": "poéna",
+      "providers": "Panyadia"
     },
     "shops": {
       "create_new": "Jieun toko anyar",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Status",
           "created_at": "Tanggal Nyiptakeun",
           "updated_at": "update panungtungan"
-        }
+        },
+        "subtitle": "Tulis artikel sareng éditor inline modern pikeun nampilkeun diri sareng bisnis anjeun. Eusi asli mangrupikeun hal anu anjeun kedah difokuskeun nalika nyerat tulisan blog anu ramah SEO kualitas luhur."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Laporan",
         "tax": "Pajeg",
         "drop_shipping": "resi reseller",
-        "reseller_accounts": "Akun reseller"
+        "reseller_accounts": "Akun reseller",
+        "valuations": "pangajen"
       },
       "invoice": {
         "title": "Dompét numbu Toko",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Balanja",
         "inventory": "Inventarisasi",
         "warehouse": "Gudang",
-        "logistic_apps": "Logistik"
+        "logistic_apps": "Logistik",
+        "profiles": "Propil"
       },
       "warehouse": {
         "title": "Gudang Toko",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Biaya pesenan minimum pikeun pengiriman barang gratis",
           "notifications": {
             "update_success": "Setelan jasa pengiriman barang réngsé junun."
-          }
+          },
+          "shipping_cost_calculation": "Itungan ongkos kiriman",
+          "sod_true": "Kéngingkeun biaya pengiriman dina tujuan",
+          "sod_true_message": "Pastikeun yén jasa pengiriman barang anjeun nampi biaya pengiriman barang anu dituju.",
+          "sod_false": "Itungan ongkos pangiriman otomatis",
+          "cod_true": "Nampa tunai on pangiriman",
+          "cod_false": "Nampi pembayaran online wungkul",
+          "cod_true_message": "Pastikeun jasa pengiriman barang anjeun nampi COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "Surélék",
         "domain": "Domain",
-        "verifications": "Verifikasi"
+        "verifications": "Verifikasi",
+        "flow": "Aliran",
+        "business_model": "Modél Usaha"
       },
       "delete_dialog": {
         "title": "Hapus Toko",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Unit produk",
       "unit_float": "Unit ngambang (moal lami deui)",
       "unit_float_hint": "Contona, konsumén bisa mesen 3 kg buah, tapi jumlah dikirim ka konsumén rada béda ti jumlah maréntahkeun.",
-      "unit_float_message": "Salila ngolah pesenan, jumlah anu dikirimkeun tiasa bénten sareng jumlah anu dipesen. Sistem otomatis ngitung bédana ieu sareng ngarékam salaku hutang anjeun ka nasabah, anu tiasa diterapkeun kana pesenan salajengna."
+      "unit_float_message": "Salila ngolah pesenan, jumlah anu dikirimkeun tiasa bénten sareng jumlah anu dipesen. Sistem otomatis ngitung bédana ieu sareng ngarékam salaku hutang anjeun ka nasabah, anu tiasa diterapkeun kana pesenan salajengna.",
+      "status_list": {
+        "active": {
+          "title": "aktip | Penjualan Online & Offline",
+          "description": "Produk ieu bakal sayogi pikeun pesenan online."
+        },
+        "inactive": {
+          "title": "Teu aktip | Ngan Penjualan Offline",
+          "description": "Produk ieu moal sadia pikeun pesenan online."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Survey",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Pilih waktos tungtung",
       "independent_price": "Harga ngan pikeun varian ieu",
       "same_price": "Harga pikeun produk utama",
-      "variant_pricing_message": "Ku milih pilihan ieu, harga varian ieu tiasa diatur sacara mandiri tina produk utama."
+      "variant_pricing_message": "Ku milih pilihan ieu, harga varian ieu tiasa diatur sacara mandiri tina produk utama.",
+      "price_label_input": "Label harga",
+      "price_label_message": "Tambihkeun inpormasi tambahan ngeunaan harga sapertos ($ 1,5 / Fl Oz). Kasus pamakéan: grocery, FMCG.",
+      "add_price_label_action": "Tambahkeun labél harga"
     },
     "inputs_edit": {
       "title": "Input Bentuk Émbaran Meuli",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gateway {gateway_name} diédit."
     },
-    "developer_setting": "Ngembangkeun & Test"
+    "developer_setting": "Ngembangkeun & Test",
+    "live_mode_message": "Sadaya transaksi bakal aya dina modeu langsung."
   },
   "gift_card": {
     "title": "Kartu kado",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Alamat tagihan diédit ku pembeli.",
     "payment-cod-confirm": "Pembayaran COD dikonfirmasi.",
     "payment-cash-confirm": "Mayar {amount} {currency} tunai pikeun tagihanana dikonfirmasi.",
-    "payment-dir-confirm": "resi pembayaran langsung ieu dikonfirmasi."
+    "payment-dir-confirm": "resi pembayaran langsung ieu dikonfirmasi.",
+    "vendor": "Kaayaan pesenan vendor robah tina <b>{from}</b> jadi <b>{to}</b> .",
+    "connect-sync": "Urutan nyingkronkeun ku Connect OS.",
+    "connect-shipped": "Sambungkeun pesenan parantos dikirim ku {shipping}.",
+    "connect-returned": "Sambungkeun pesenan parantos dipulangkeun ku {shipping}.",
+    "connect-failed": "Pemenuhan pesenan gagal ku pasangan. {reason}",
+    "connect-canceled": "Paréntah dibatalkeun ku pasangan. {reason}",
+    "connect-action-cancel": "Paménta pikeun ngabatalkeun pesenan. {reason}",
+    "connect-put-hold": "Paréntah ditunda. {reason}",
+    "connect-remove-hold": "Paréntah ieu dikaluarkeun tina ditahan. {reason}",
+    "connect-confirmed": "Pesenan dikonfirmasi.",
+    "email-vendor": "🔔 Inpormasi pesen email parantos dikirim ka <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Kiwari",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Jieun Duit",
     "menu": {
       "plans": "Rencana",
-      "accounts": "Rekening"
+      "accounts": "Rekening",
+      "participant": "Pamilon"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Toko Aksés konci",
     "shop_keys_message": "Konci ieu dianggo pikeun nyiptakeun Token Aksés ku server anjeun. Catet yén konci éta rahasia sareng ngan disimpen dina server supados henteu katingali ku batur.",
     "personal_keys_title": "Konci Aksés Pribadi",
-    "personal_keys_message": "Anjeun tiasa nyiptakeun konci akun anjeun di dieu. Catet yén konci ieu bakal tiasa ngaksés akun anjeun. Jieun sareng nganggo konci ieu ngan upami anjeun terang naon anu anjeun lakukeun."
+    "personal_keys_message": "Anjeun tiasa nyiptakeun konci akun anjeun di dieu. Catet yén konci ieu bakal tiasa ngaksés akun anjeun. Jieun sareng nganggo konci ieu ngan upami anjeun terang naon anu anjeun lakukeun.",
+    "clients_title": "Klién",
+    "clients_message": "Konci ieu dianggo pikeun nyiptakeun Token Aksés ku server anjeun. Catet yén konci éta rahasia sareng ngan disimpen dina server supados henteu katingali ku batur."
   },
   "user_security_control": {
     "title": "Kaamanan Akun",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Ngatur propil",
       "description": "Ngatur propil toko."
+    },
+    "shop-discount-code": {
+      "name": "Manajemén kode diskon",
+      "description": "Atur, édit sareng tambahkeun kode diskon toko."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Setélan",
       "change": "muatan",
       "transfer": "Mindahkeun",
-      "transactions": "Transaksi"
+      "transactions": "Transaksi",
+      "charge": "muatan",
+      "history": "Sajarah"
     },
     "transactions": {
       "title": "Transaksi Akun",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Ngabolaykeun konfirmasi langganan",
       "message": "Naha anjeun yakin ngabatalkeun langganan ieu?",
       "action": "Ngabolaykeun langganan"
-    }
+    },
+    "use_voucher_now": "Anggo voucher ayeuna",
+    "validity_duration": "Durasi validitas",
+    "validity_duration_hint": "Ku mésér lisénsi 12-bulan, anjeun bakal nampi diskon 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Ngundeur téks data",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "font badag",
     "large_font_message": "Témbongkeun téks leuwih badag batan normal",
     "samples": "Témbongkeun toko sampel",
-    "samples_message": "Upami diaktipkeun, sababaraha toko sampel bakal ditingalikeun dina panel anjeun."
+    "samples_message": "Upami diaktipkeun, sababaraha toko sampel bakal ditingalikeun dina panel anjeun.",
+    "automation": "Otomatisasi",
+    "automation_message": "Témbongkeun tab automation dina dasbor toko. (Webhooks, Visual programming, ...)"
   },
   "shop_locations": {
     "title": "Nagara dimana jasa disadiakeun",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kupon parantos suksés dihapus."
-    }
+    },
+    "multiple_use": "Multiple pamakéan"
   },
   "coupon_edit": {
     "title_edit": "Edit kupon",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Wates",
       "description": "Setel wates dina jumlah maksimum pamaké."
+    },
+    "SEGMENTS": {
+      "title": "Bagéan",
+      "description": "Ngawatesan konsumén dina segmentation manual husus."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Jumlah urutan total ieu ditarik tina kartu kado! Nu meuli teu kudu mayar leuwih.",
       "cod_msg": "Palanggan bakal mayar nalika nampi pesenan.",
       "online_msg": "Tanya palanggan pikeun nyeken kode QR dina layar palanggan."
-    }
+    },
+    "name": "POS",
+    "message": "Mibanda titik jual online nol-setup anjeun, jalankeun dina smartphone, tablet, sareng PC, atanapi jieun pesenan sacara manual."
   },
   "exporter": {
     "title": "data ékspor",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Kirim ka server",
     "shop_license": "Lisensi toko",
     "max_items_limit": "wates item maksimum",
-    "total_items": "Total barang"
+    "total_items": "Total barang",
+    "customer": {
+      "title": "konsumén impor",
+      "subtitle": "Unggah file CSV konsumén di dieu. Pastikeun anjeun nuturkeun format standar, sareng anjeun ogé kedah nuturkeun aturan privasi."
+    }
   },
   "campaigns": {
     "title": "Kampanye",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Tumbu",
     "light_checkout": "Téma pamariksaan cahaya",
     "light_header": "lulugu lampu",
-    "light_footer": "footer lampu"
+    "light_footer": "footer lampu",
+    "product_page": "Halaman produk",
+    "typography": "Tipografi",
+    "header": "lulugu",
+    "custom_code": "Kodeu custom",
+    "custom_css": "CSS custom"
   },
   "app_templates": {
     "default": "Default",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Ngatur jasa",
     "option_deliver_by_courier": "Pilihan 1: Ngirimkeun ku kurir anjeun.",
     "option_add_to_que": "Pilihan 2: Tambihkeun kana antrian pikeun ngolah dina halaman jasa pengiriman.",
-    "option_instant_shipping": "Pilihan 3: pengiriman barang instan."
+    "option_instant_shipping": "Pilihan 3: pengiriman barang instan.",
+    "pickup_action": "Konfirmasi pickup"
   },
   "shop_home_edit": {
     "title": "Setélan halaman imah",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Produk ditambahkeun kana toko Anjeun.",
       "request_access": "Kami parantos ngintunkeun pamundut aksés anjeun ka grosir suksés."
-    }
+    },
+    "show_eligible_shops_message": "Témbongkeun toko layak"
   },
   "product_dropshipping": {
     "need_re_enable": "Produk ieu parantos dirobih ku anu ngajual asli, parobihan harga ieu parantos nganonaktipkeun produk di toko anjeun. Pariksa parobihan sareng upami anjeun satuju pikeun ngaktifkeun deui produk, pencét tombol di handap.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Henteu aya kategori di toko anjeun.",
       "limit": "wates produk",
       "limit_message": "Lebetkeun jumlah hasil produk",
-      "select_categories": "Pilih kategori nu sadia"
+      "select_categories": "Pilih kategori nu sadia",
+      "categories_limit": "Kategori wates",
+      "categories_limit_msg": "Lebetkeun jumlah maksimum kategori. Atur nol pikeun euweuh wates."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Alpuket suksés diropéa.",
       "add_success": "Alpuket dijieun suksés."
-    }
+    },
+    "name": "Alpuket"
   },
   "avocado_orders": {
     "title": "Alpuket",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "teu aktif",
     "active_message": "Lamun anjeun ngaktifkeun pilihan ieu, kamungkinan nyieun Fast-Penjualan-Kode bakal dipintonkeun dina bagian manajemén unggal produk.",
     "hyper_form_link_message": "Link halaman hyper toko anjeun",
-    "configuration": "Setélan hyper"
+    "configuration": "Setélan hyper",
+    "name": "Hiper"
   },
   "hyper_orders": {
     "title": "Hiper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Démografi konsumén",
     "subtitle": "Nyaring sareng ékspor data palanggan anjeun pikeun nyandak kaputusan anu langkung saé pikeun nganteurkeun nilai anu langkung seueur kalayan pamasaran anu kirang! Punten hormati privasi palanggan anjeun sareng henteu pernah ngirim email massal ka aranjeunna! Entong bagikeun inpormasi palanggan anjeun sareng jasa pihak ka-3 tanpa kéngingkeun idin ti unggal aranjeunna."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Alamat jemputan",
+      "subtitle": "Tambahkeun sareng édit alamat jemputan di dieu. Pamaké bakal tiasa milih alamat jemputan dina halaman pamariksaan.",
+      "add_action": "Tambahkeun lokasi anyar"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Affiliate POS",
+    "open_pos_action": "pesenan gancang POS",
+    "description": "Pilihan ieu cocog pikeun admin halaman Instagram sareng jaringan sosial anu sanés. Anggo Affiliate POS pikeun nampi sareng nambihan pesenan ti nasabah sacara manual. Afiliasi anjeun (atanapi waralaba) tiasa nambihan pesenan énggal dina POS Affiliate sareng unggah slip deposit."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Métode login",
+      "subtitle": "Sesuaikeun cara pangguna asup ka toko anjeun."
+    },
+    "checkout": {
+      "title": "Aliran Checkout",
+      "subtitle": "Sesuaikeun perjalanan palanggan anjeun sareng aliran pameseran dina e-commerce anjeun.",
+      "map": {
+        "title": "Harita",
+        "subtitle": "Pamaké kedah milih lokasi pangiriman dina peta (sapertos Uber).",
+        "subtitle_no_map": "Jarak dina itungan pengiriman barang nganggap enol lamun lokasi teu aya dina alamat customer disadiakeun."
+      },
+      "mode": {
+        "title": "titik login konsumén",
+        "default": {
+          "title": "ASAP (Default)",
+          "msg": "Pamaké log in pas mungkin. (Langkung konversi)"
+        },
+        "on_checkout": {
+          "title": "Dina checkout",
+          "msg": "Maksakeun pangguna pikeun log in dina léngkah pamariksaan."
+        },
+        "login_free": {
+          "title": "Login pilihan",
+          "msg": "Login pilihan saatos mayar pesenan.."
+        }
+      },
+      "express": {
+        "title": "Alihan sanggeus ditambahkeun kana karanjang",
+        "false": {
+          "title": "Modeu normal",
+          "msg": "Tetep dina halaman sareng teraskeun balanja saatos ngaklik tambihan kana karanjang."
+        },
+        "true": {
+          "title": "modeu Express",
+          "msg": "Alihan palanggan ka halaman pamariksaan saatos ngaklik tambihan kana karanjang."
+        }
+      },
+      "shipping_address": {
+        "title": "Nyuhunkeun alamat pengiriman barang"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fisik & Jasa (Default)",
+      "desc": "Tanya palanggan pikeun nuliskeun alamat dina pamariksaan fisik sareng jasa."
+    },
+    "physical": {
+      "title": "Fisik Ngan",
+      "desc": "Tanya palanggan pikeun nuliskeun alamat ngan dina kasir fisik."
+    },
+    "off": {
+      "title": "moal pernah",
+      "desc": "Pernah nanya alamat pengiriman barang. ⚠ Anggo pilihan ieu upami anjeun badé gaduh jasa sareng varian ku milih jinis fisik pikeun produk tinimbang jinis jasa."
+    }
+  },
+  "business_model": {
+    "title": "Setélan modél bisnis",
+    "subtitle": "Setel model bisnis anjeun, sarta kami bakal ngonpigurasikeun OS anjeun balik layar."
+  },
+  "business_type": {
+    "title": "Jenis barang dagangan",
+    "subtitle": "Setel jinis produk anu anjeun hoyong jual di toko anjeun. Jenis produk di Selldone leuwih ti ngan hiji tipe produk; éta langkung seueur ngeunaan prosedur minuhan.",
+    "send_activation_request_to_support": "Kirim hiji pamundut aktivasina dina tikét rojongan.",
+    "require_kyc": "boga usaha KYC.",
+    "needs_enterprise_license": "Anjeun kedah gaduh lisénsi Perusahaan.",
+    "marketplace_caution_message": "Setel Marketplace salaku modél anjeun mangaruhan pisan kana konfigurasi OS bisnis anjeun. Contona, anjeun kudu nangtukeun sahanteuna hiji vendor pikeun tiap produk kalawan harga bebas sarta inventory. Konsumén teu tiasa mésér produk anu henteu gaduh vendor."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Toko Biasa",
+      "desc": "Biasana UKM, bisnis bumi, atanapi dropshipper - anu ngajual produkna langsung ka konsumén atanapi ngajual produk grosir salaku reseller."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Tetep euweuh produk na euweuh inventory - Anjeun mayar ka pihak katilu, biasana wholesaler a (kawas Printify, Wholesale2B, ...) atawa produsén, sarta aranjeunna minuhan pesenan balik layar."
+    },
+    "wholesaler": {
+      "title": "Panyadia Dropshipping",
+      "desc": "Biasana grosir atanapi produsén - anu ngirim pesenan langsung ka konsumen akhir. Padagang sanés dina Selldone tiasa ngirim produk anjeun di toko-tokona."
+    },
+    "marketplace": {
+      "title": "Pasaran",
+      "desc": "Pasar online nyambungkeun pembeli sareng penjual dina platform proprietary sareng terpusat."
+    },
+    "franchise": {
+      "title": "Waralaba / Affiliate",
+      "desc": "Waralaba mangrupikeun metode nyebarkeun produk atanapi jasa anu ngalibatkeun franchisor anu ngadegkeun merek anjeun (Franchising) atanapi ngajual produk anjeun ku merekna (Afiliasi)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Dompét",
+    "pricing_models": "hargaan",
+    "add_vendor": "Tambahkeun vendor",
+    "requests": "Paménta"
+  },
+  "price_input_type": {
+    "title": "Jenis input harga",
+    "default": {
+      "title": "Default",
+      "desc": "Pilih nilai salaku kuantitas dina karanjang."
+    },
+    "area": {
+      "title": "Daérah",
+      "desc": "Lebetkeun lebar sareng panjang salaku input pikeun ngitung kuantitas."
+    },
+    "volume": {
+      "title": "volume",
+      "desc": "Lebetkeun lebar, panjang, sareng jangkungna salaku input pikeun ngitung kuantitas."
+    },
+    "custom": {
+      "title": "Custom (Ku bentuk input)",
+      "desc": "Henteu peryogi ratusan varian! Jieun formulir itungan ongkos custom pikeun produk kacida customizable."
+    }
+  },
+  "vendors_list": {
+    "title": "Vendor kuring",
+    "message": "Daptar padagang kuring sorangan."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Sambungkeun sababaraha domain ka OS bisnis anjeun sareng atur sadayana dina hiji tempat. Anjeun tiasa nganggo fitur sababaraha domain pikeun nyiptakeun domain khusus pikeun tiap bagian halaman wéb anjeun, sapertos blog sareng komunitas, atanapi nganggo domain anu béda pikeun afiliasi anjeun."
+  },
+  "notes": {
+    "add_action": "Tambahkeun catetan pikeun tim anjeun",
+    "notifications": {
+      "success_add": "Catetan geus suksés ditambahkeun.",
+      "success_delete": "Catetan parantos suksés dihapus."
+    }
+  },
+  "external_services": {
+    "title": "jasa éksternal",
+    "subtitle": "Monitor status terakhir tina jasa éksternal sapertos SMS sareng email di dieu."
   }
 };

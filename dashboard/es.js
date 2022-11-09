@@ -155,7 +155,19 @@ export default {
       "Setup": "Tienda",
       "Sell": "Ventas y Marketing",
       "Developer": "Desarrollar",
-      "Application": "Aplicaciones"
+      "Application": "Aplicaciones",
+      "Product": "Gestión de productos y categorías",
+      "Blog": "CMS y blogs",
+      "Order": "Centro de cumplimiento de pedidos",
+      "Channel": "Canales de venta",
+      "Accounting": "Contabilidad y métodos de pago",
+      "Incentives": "incentivos",
+      "Marketing": "Campañas de marketing",
+      "Logistic": "Logística y envío",
+      "Customers": "Club de clientes y segmentación",
+      "Page": "Páginas de destino y personalizadas",
+      "Access": "Personal / Administración de acceso a la API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Repositorio Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Historias",
       "roles": "roles",
       "home": "Casa",
-      "expert": "Experto"
+      "expert": "Experto",
+      "deals": "ofertas",
+      "providers": "Proveedores"
     },
     "shops": {
       "create_new": "Crear nueva tienda",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Estado",
           "created_at": "Fecha de creación",
           "updated_at": "Última actualización"
-        }
+        },
+        "subtitle": "Escribe artículos con un moderno editor en línea para presentarte a ti mismo y a tu negocio. El contenido original es lo primero en lo que debe concentrarse al escribir una publicación de blog de alta calidad compatible con SEO."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Reporte",
         "tax": "Impuesto",
         "drop_shipping": "Recibos de revendedor",
-        "reseller_accounts": "cuentas de revendedor"
+        "reseller_accounts": "cuentas de revendedor",
+        "valuations": "Valoraciones"
       },
       "invoice": {
         "title": "Comprar carteras vinculadas",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Envío",
         "inventory": "Inventario",
         "warehouse": "Depósito",
-        "logistic_apps": "Logística"
+        "logistic_apps": "Logística",
+        "profiles": "Perfiles"
       },
       "warehouse": {
         "title": "Almacén de la tienda",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Costo mínimo de pedido para envío gratis",
           "notifications": {
             "update_success": "La configuración del servicio de envío se completó correctamente."
-          }
+          },
+          "shipping_cost_calculation": "Cálculo del costo de envío",
+          "sod_true": "Obtener costo de envío en destino",
+          "sod_true_message": "Asegúrese de que su servicio de envío acepte el costo de envío en destino.",
+          "sod_false": "Cálculo del costo de envío automático",
+          "cod_true": "Acepta pago contra entrega",
+          "cod_false": "Aceptar pago en línea solamente",
+          "cod_true_message": "Asegúrese de que su servicio de envío acepte COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "Correo electrónico",
         "domain": "Dominio",
-        "verifications": "Verificaciones"
+        "verifications": "Verificaciones",
+        "flow": "Caudal",
+        "business_model": "modelo de negocio"
       },
       "delete_dialog": {
         "title": "Eliminar tienda",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "unidad de producto",
       "unit_float": "Unidad flotante (pronto)",
       "unit_float_hint": "Por ejemplo, el cliente puede pedir 3 kg de fruta, pero la cantidad enviada al cliente es ligeramente diferente de la cantidad pedida.",
-      "unit_float_message": "Durante el procesamiento del pedido, la cantidad entregada puede diferir de la cantidad solicitada. El sistema calcula automáticamente esta diferencia y la registra como su deuda con el cliente, que se puede aplicar a los próximos pedidos."
+      "unit_float_message": "Durante el procesamiento del pedido, la cantidad entregada puede diferir de la cantidad solicitada. El sistema calcula automáticamente esta diferencia y la registra como su deuda con el cliente, que se puede aplicar a los próximos pedidos.",
+      "status_list": {
+        "active": {
+          "title": "Activo | Ventas en línea y fuera de línea",
+          "description": "Este producto estará disponible para pedidos en línea."
+        },
+        "inactive": {
+          "title": "Inactivo | Solo ventas fuera de línea",
+          "description": "Este producto no estará disponible para pedidos en línea."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Encuesta",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Seleccione la hora de finalización",
       "independent_price": "El precio solo para esta variante.",
       "same_price": "El precio del producto principal.",
-      "variant_pricing_message": "Al seleccionar esta opción, el precio de esta variante se puede establecer independientemente del producto principal."
+      "variant_pricing_message": "Al seleccionar esta opción, el precio de esta variante se puede establecer independientemente del producto principal.",
+      "price_label_input": "Etiqueta de precio",
+      "price_label_message": "Agregue información adicional sobre el precio como ($1.5/Fl Oz). Casos de uso: supermercado, FMCG.",
+      "add_price_label_action": "Agregar etiqueta de precio"
     },
     "inputs_edit": {
       "title": "Formulario de entrada de información del comprador",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Puerta de enlace {gateway_name} editada."
     },
-    "developer_setting": "Desarrollar y probar"
+    "developer_setting": "Desarrollar y probar",
+    "live_mode_message": "Todas las transacciones estarán en modo en vivo."
   },
   "gift_card": {
     "title": "Tarjetas de regalo",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Dirección de facturación editada por el comprador.",
     "payment-cod-confirm": "Se confirmó el pago contra reembolso.",
     "payment-cash-confirm": "Se confirmó el pago de {amount} {currency} en efectivo por la factura.",
-    "payment-dir-confirm": "Se confirmó el recibo de pago directo."
+    "payment-dir-confirm": "Se confirmó el recibo de pago directo.",
+    "vendor": "El estado del pedido del proveedor cambió de <b>{from}</b> a <b>{to}</b> .",
+    "connect-sync": "Pedido sincronizado por Connect OS.",
+    "connect-shipped": "El pedido de Connect ha sido enviado por {shipping}.",
+    "connect-returned": "El pedido de Connect ha sido devuelto por {shipping}.",
+    "connect-failed": "El cumplimiento del pedido falló por parte del socio. {reason}",
+    "connect-canceled": "El pedido fue cancelado por el socio. {reason}",
+    "connect-action-cancel": "Solicitud de cancelación de pedido. {reason}",
+    "connect-put-hold": "La orden fue puesta en espera. {reason}",
+    "connect-remove-hold": "El pedido se eliminó de la espera. {reason}",
+    "connect-confirmed": "El pedido fue confirmado.",
+    "email-vendor": "🔔 El correo electrónico de información del pedido se ha enviado a <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Hoy dia",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Ganar dinero",
     "menu": {
       "plans": "planes",
-      "accounts": "cuentas"
+      "accounts": "cuentas",
+      "participant": "Partícipe"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Almacenar claves de acceso",
     "shop_keys_message": "Estas claves se utilizan para crear tokens de acceso por parte de su servidor. Tenga en cuenta que las claves son confidenciales y solo se colocan en el servidor para que no sean visibles para otros.",
     "personal_keys_title": "Claves de acceso personal",
-    "personal_keys_message": "Puede crear las claves de su cuenta aquí. Tenga en cuenta que estas claves podrán acceder a su cuenta. Cree y use estas claves solo si sabe exactamente lo que está haciendo."
+    "personal_keys_message": "Puede crear las claves de su cuenta aquí. Tenga en cuenta que estas claves podrán acceder a su cuenta. Cree y use estas claves solo si sabe exactamente lo que está haciendo.",
+    "clients_title": "Clientela",
+    "clients_message": "Estas claves se utilizan para crear tokens de acceso por parte de su servidor. Tenga en cuenta que las claves son confidenciales y solo se colocan en el servidor para que no sean visibles para otros."
   },
   "user_security_control": {
     "title": "Seguridad de la cuenta",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Administrar perfiles",
       "description": "Administrar perfiles de tiendas."
+    },
+    "shop-discount-code": {
+      "name": "Gestión de códigos de descuento",
+      "description": "Administre, edite y agregue códigos de descuento de la tienda."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Ajustes",
       "change": "Cargo",
       "transfer": "Transferir",
-      "transactions": "Actas"
+      "transactions": "Actas",
+      "charge": "Cargo",
+      "history": "Historia"
     },
     "transactions": {
       "title": "Transacciones de cuenta",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Cancelar confirmación de suscripción",
       "message": "¿Estás seguro de cancelar esta suscripción?",
       "action": "Cancelar suscripción"
-    }
+    },
+    "use_voucher_now": "Usar cupón ahora",
+    "validity_duration": "Duración de la validez",
+    "validity_duration_hint": "Al comprar una licencia de 12 meses, recibirá un 30% de descuento."
   },
   "admin_shop_layout": {
     "download_txt": "Descargar texto de datos",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Fuentes grandes",
     "large_font_message": "Mostrar texto más grande de lo normal",
     "samples": "Mostrar tiendas de muestra",
-    "samples_message": "Si está habilitado, se mostrarán algunas tiendas de muestra en su panel."
+    "samples_message": "Si está habilitado, se mostrarán algunas tiendas de muestra en su panel.",
+    "automation": "Automatización",
+    "automation_message": "Mostrar la pestaña de automatización en el panel de control de la tienda. (Webhooks, Programación visual, ...)"
   },
   "shop_locations": {
     "title": "Países donde se presta el servicio",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "El cupón ha sido eliminado con éxito."
-    }
+    },
+    "multiple_use": "Uso múltiple"
   },
   "coupon_edit": {
     "title_edit": "Editar cupón",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Límite",
       "description": "Establezca un límite en el número máximo de usuarios."
+    },
+    "SEGMENTS": {
+      "title": "Segmentos",
+      "description": "Limitar clientes en segmentación manual específica."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "¡El monto total del pedido se retiró de las tarjetas de regalo! El comprador no necesita pagar más.",
       "cod_msg": "El cliente pagará al recibir el pedido.",
       "online_msg": "Pida al cliente que escanee el código QR en la pantalla del cliente."
-    }
+    },
+    "name": "POS",
+    "message": "Tenga su punto de venta en línea sin costo de instalación, ejecútelo en cualquier teléfono inteligente, tableta y PC, o cree pedidos manualmente."
   },
   "exporter": {
     "title": "Exportar datos",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "enviar al servidor",
     "shop_license": "Licencia de tienda",
     "max_items_limit": "Límite máximo de artículos",
-    "total_items": "Articulos totales"
+    "total_items": "Articulos totales",
+    "customer": {
+      "title": "Importar clientes",
+      "subtitle": "Cargue archivos CSV de clientes aquí. Asegúrese de seguir el formato estándar y también debe seguir las reglas de privacidad."
+    }
   },
   "campaigns": {
     "title": "Campañas",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Enlaces",
     "light_checkout": "Tema de pago ligero",
     "light_header": "Encabezado de luz",
-    "light_footer": "Pie de página ligero"
+    "light_footer": "Pie de página ligero",
+    "product_page": "Página del producto",
+    "typography": "Tipografía",
+    "header": "Encabezamiento",
+    "custom_code": "Código personalizado",
+    "custom_css": "CSS personalizado"
   },
   "app_templates": {
     "default": "Defecto",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Administrar servicio",
     "option_deliver_by_courier": "Opción 1: Entrega por sus mensajeros.",
     "option_add_to_que": "Opción 2: Agregar a la cola para procesar en la página de servicio de envío.",
-    "option_instant_shipping": "Opción 3: Envío instantáneo."
+    "option_instant_shipping": "Opción 3: Envío instantáneo.",
+    "pickup_action": "Confirmación de recogida"
   },
   "shop_home_edit": {
     "title": "Configuración de la página de inicio",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Producto añadido a tu tienda.",
       "request_access": "Enviamos su solicitud de acceso al mayorista con éxito."
-    }
+    },
+    "show_eligible_shops_message": "Mostrar tiendas elegibles"
   },
   "product_dropshipping": {
     "need_re_enable": "Este producto ha sido cambiado por el vendedor original, estos cambios de precio han desactivado el producto en tu tienda. Revisa los cambios y si aceptas reactivar el producto, presiona el botón de abajo.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "No hay ninguna categoría en su tienda.",
       "limit": "límite de productos",
       "limit_message": "Ingrese los recuentos de resultados de productos",
-      "select_categories": "Seleccionar categorías disponibles"
+      "select_categories": "Seleccionar categorías disponibles",
+      "categories_limit": "Límite de categorías",
+      "categories_limit_msg": "Introduzca el número máximo de categorías. Establecer cero para ningún límite."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Aguacate actualizado con éxito.",
       "add_success": "Aguacate creado con éxito."
-    }
+    },
+    "name": "Palta"
   },
   "avocado_orders": {
     "title": "Palta",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "inactivo",
     "active_message": "Si habilitas esta opción, en el apartado de gestión de cada producto se mostrará la posibilidad de crear los Fast-Sales-Codes.",
     "hyper_form_link_message": "Vínculo de hiperpágina de su tienda",
-    "configuration": "Hiperconfiguraciones"
+    "configuration": "Hiperconfiguraciones",
+    "name": "Hiper"
   },
   "hyper_orders": {
     "title": "Hiper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Clientes Demografía",
     "subtitle": "¡Filtre y exporte los datos de sus clientes para tomar mejores decisiones y ofrecer más valor con menos marketing! ¡Respete la privacidad de sus clientes y nunca les envíe correos electrónicos masivos! Nunca comparta la información de sus clientes con servicios de terceros sin obtener el permiso de cada uno de ellos."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "direcciones de recogida",
+      "subtitle": "Agregue y edite direcciones de recogida aquí. Los usuarios podrán seleccionar la dirección de recogida en la página de pago.",
+      "add_action": "Agregar nueva ubicación"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Punto de venta afiliado",
+    "open_pos_action": "TPV de pedidos rápidos",
+    "description": "Esta opción es adecuada para administradores de páginas de Instagram y otras redes sociales. Use Affiliate POS para recibir y agregar pedidos de clientes manualmente. Tus afiliados (o franquicia) pueden agregar nuevos pedidos en el TPV de Afiliados y cargar el comprobante de depósito."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Métodos de inicio de sesión",
+      "subtitle": "Personaliza la forma en que los usuarios inician sesión en tu tienda."
+    },
+    "checkout": {
+      "title": "Flujo de pago",
+      "subtitle": "Personaliza el recorrido de tu cliente y el flujo de compra en tu ecommerce.",
+      "map": {
+        "title": "Mapa",
+        "subtitle": "Los usuarios deben seleccionar la ubicación de entrega en el mapa (como Uber).",
+        "subtitle_no_map": "La distancia en el cálculo del envío considera cero si la ubicación no existe en la dirección proporcionada por el cliente."
+      },
+      "mode": {
+        "title": "Punto de inicio de sesión de clientes",
+        "default": {
+          "title": "Lo antes posible (predeterminado)",
+          "msg": "Los usuarios inician sesión lo antes posible. (Más conversión)"
+        },
+        "on_checkout": {
+          "title": "Al finalizar la compra",
+          "msg": "Obligar a los usuarios a iniciar sesión en el paso de pago."
+        },
+        "login_free": {
+          "title": "Inicio de sesión opcional",
+          "msg": "Inicio de sesión opcional después del pago del pedido."
+        }
+      },
+      "express": {
+        "title": "Redirigir después de agregar al carrito",
+        "false": {
+          "title": "Modo normal",
+          "msg": "Permanezca en la página y continúe comprando después de hacer clic en agregar al carrito."
+        },
+        "true": {
+          "title": "modo expreso",
+          "msg": "Redirigir al cliente a la página de pago después de hacer clic en agregar al carrito."
+        }
+      },
+      "shipping_address": {
+        "title": "Pregunta por la dirección de envío"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Físico y servicio (predeterminado)",
+      "desc": "Solicite al cliente que ingrese una dirección en las cajas físicas y de servicio."
+    },
+    "physical": {
+      "title": "Solo físico",
+      "desc": "Pídale al cliente que ingrese una dirección solo en el pago físico."
+    },
+    "off": {
+      "title": "Nunca",
+      "desc": "Nunca pidas la dirección de envío. ⚠ Use esta opción si planea tener servicios con variantes seleccionando tipo físico para productos en lugar de tipo de servicio."
+    }
+  },
+  "business_model": {
+    "title": "Configuración del modelo de negocio",
+    "subtitle": "Establezca su modelo de negocio y nosotros configuraremos su sistema operativo detrás de escena."
+  },
+  "business_type": {
+    "title": "Tipos de mercancías",
+    "subtitle": "Establece el tipo de productos que quieres vender en tu tienda. Los tipos de productos en Selldone son más que solo un tipo de productos; es más sobre el procedimiento de cumplimiento.",
+    "send_activation_request_to_support": "Envíe una solicitud de activación en un ticket de soporte.",
+    "require_kyc": "Propietario de negocio KYC.",
+    "needs_enterprise_license": "Necesita tener una licencia Enterprise.",
+    "marketplace_caution_message": "Establecer Marketplace como su modelo afecta profundamente la configuración del sistema operativo de su empresa. Por ejemplo, debe definir al menos un proveedor para cada producto con precios e inventario independientes. Los clientes no pueden comprar productos que no tienen vendedor."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Tienda normal",
+      "desc": "Por lo general, una PYME, una empresa doméstica o un dropshipper, que vende su producto directamente a los clientes o vende productos de mayoristas como revendedor."
+    },
+    "dropshipping": {
+      "title": "Envío directo",
+      "desc": "No mantenga ningún producto ni inventario: le paga a un tercero, generalmente un mayorista (como Printify, Wholesale2B, ...) o fabricante, y ellos cumplen los pedidos en segundo plano."
+    },
+    "wholesaler": {
+      "title": "Proveedor de envío directo",
+      "desc": "Por lo general, un mayorista o un fabricante, que envía los pedidos directamente al consumidor final. Otros comerciantes en Selldone pueden realizar envíos directos de sus productos en sus tiendas."
+    },
+    "marketplace": {
+      "title": "Mercado",
+      "desc": "Los mercados en línea conectan a compradores y vendedores en una plataforma propietaria y centralizada."
+    },
+    "franchise": {
+      "title": "Franquicia / Afiliado",
+      "desc": "Una franquicia es un método de distribución de productos o servicios que involucra a un franquiciador que establece su marca (Franquicia) o vende sus productos por su marca (Afiliado)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Carteras",
+    "pricing_models": "Precios",
+    "add_vendor": "Agregar proveedor",
+    "requests": "Peticiones"
+  },
+  "price_input_type": {
+    "title": "Tipo de entrada de precio",
+    "default": {
+      "title": "Defecto",
+      "desc": "Seleccione un valor como la cantidad en el carrito."
+    },
+    "area": {
+      "title": "Área",
+      "desc": "Ingrese el ancho y la longitud como entradas para calcular la cantidad."
+    },
+    "volume": {
+      "title": "volumen",
+      "desc": "Ingrese ancho, largo y alto como entradas para calcular la cantidad."
+    },
+    "custom": {
+      "title": "Personalizado (Por formulario de entrada)",
+      "desc": "¡No hay necesidad de cientos de variantes! Cree un formulario de cálculo de costos personalizado para productos altamente personalizables."
+    }
+  },
+  "vendors_list": {
+    "title": "Mis proveedores",
+    "message": "Lista de mis propios proveedores."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Conecte varios dominios al sistema operativo de su empresa y adminístrelos todos en un solo lugar. Puede usar la función de múltiples dominios para crear dominios dedicados para cada parte de su sitio web, como blog y comunidad, o usar diferentes dominios para sus afiliados."
+  },
+  "notes": {
+    "add_action": "Agrega una nota para tu equipo",
+    "notifications": {
+      "success_add": "La nota se ha añadido correctamente.",
+      "success_delete": "La nota ha sido eliminada con éxito."
+    }
+  },
+  "external_services": {
+    "title": "Servicios externos",
+    "subtitle": "Supervise el último estado de los servicios externos como SMS y correos electrónicos aquí."
   }
 };

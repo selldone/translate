@@ -65,7 +65,9 @@ export default {
     "my_feed": "Men",
     "blocked_message": "Siz bloklangansiz",
     "reported": "Xabar qilingan",
-    "report": "Hisobot"
+    "report": "Hisobot",
+    "post": "Post",
+    "attach_file": "Fayl biriktirish"
   },
   "invite_message": "{user} sizni {community} forumiga taklif qildi. Do'stlaringizning kuzatishlarini o'qish va ular bilan o'z fikringizni bildirish uchun quyidagi havolani bosing. Men sizni kutyapman.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "So‘rovnomani olib tashlash",
     "take_screenshot": "Qopqoq sifatida oling",
     "take_link_msg": "O'tgan havola bu yerga va kiriting",
-    "eligible_title": "E'lon qilish huquqiga ega bo'lish uchun qadamlar"
+    "eligible_title": "E'lon qilish huquqiga ega bo'lish uchun qadamlar",
+    "public": "Ommaviy"
   },
   "tips": {
     "verify_email": "Elektron pochtangizni kiriting va tasdiqlang.",

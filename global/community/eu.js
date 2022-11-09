@@ -65,7 +65,9 @@ export default {
     "my_feed": "Ni",
     "blocked_message": "Blokeatuta zaude arte",
     "reported": "Salatua",
-    "report": "Txostena"
+    "report": "Txostena",
+    "post": "Argitalpena",
+    "attach_file": "Erantsi fitxategia"
   },
   "invite_message": "{user} forora gonbidatu zaitu {community}. Egin klik beheko estekan zure lagunen oharrak irakurtzeko eta haiekin zure iritzia partekatzeko. Zure zain nago.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Kendu inkesta",
     "take_screenshot": "Hartu estalki gisa",
     "take_link_msg": "Iragan esteka hemen eta sartu",
-    "eligible_title": "Argitaratzeko eskubidea izateko urratsak"
+    "eligible_title": "Argitaratzeko eskubidea izateko urratsak",
+    "public": "Publiko"
   },
   "tips": {
     "verify_email": "Sartu eta egiaztatu zure posta elektronikoa.",

@@ -65,7 +65,9 @@ export default {
     "my_feed": "Mina",
     "blocked_message": "Olete blokeeritud kuni",
     "reported": "Teatatud",
-    "report": "Aruanne"
+    "report": "Aruanne",
+    "post": "Postita",
+    "attach_file": "Manusta fail"
   },
   "invite_message": "{user} kutsus teid foorumisse {community}. Klõpsake alloleval lingil, et lugeda oma sõprade tähelepanekuid ja jagada nendega oma arvamust. Ma ootan sind.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Eemalda küsitlus",
     "take_screenshot": "Võtke kattena",
     "take_link_msg": "Mine link siia ja sisene",
-    "eligible_title": "Postitamiseks sobilikud sammud"
+    "eligible_title": "Postitamiseks sobilikud sammud",
+    "public": "Avalik"
   },
   "tips": {
     "verify_email": "Sisestage ja kinnitage oma e-posti aadress.",

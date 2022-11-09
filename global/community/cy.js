@@ -65,7 +65,9 @@ export default {
     "my_feed": "Fi",
     "blocked_message": "Rydych chi'n cael eich rhwystro tan",
     "reported": "Adroddwyd",
-    "report": "Adroddiad"
+    "report": "Adroddiad",
+    "post": "Post",
+    "attach_file": "Atodwch ffeil"
   },
   "invite_message": "Mae {user} wedi eich gwahodd i'r fforwm {community}. Cliciwch ar y ddolen isod i ddarllen sylwadau eich ffrindiau a rhannu eich barn gyda nhw. Rwy'n aros amdanoch chi.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Dileu arolwg barn",
     "take_screenshot": "Cymerwch fel clawr",
     "take_link_msg": "Gorffennol ddolen yma a mynd i mewn",
-    "eligible_title": "Camau i fod yn gymwys i bostio"
+    "eligible_title": "Camau i fod yn gymwys i bostio",
+    "public": "Cyhoeddus"
   },
   "tips": {
     "verify_email": "Rhowch a gwiriwch eich e-bost.",

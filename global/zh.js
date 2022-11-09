@@ -558,7 +558,52 @@ export default {
     "merchant": "商人",
     "per_product": "每个产品",
     "journey": "旅行",
-    "after": "后"
+    "after": "后",
+    "waiting_for_payment": "请完成付款...",
+    "hour": "小时",
+    "minute": "分钟",
+    "premium": "优质的",
+    "light": "光",
+    "dark": "黑暗的",
+    "guest": "来宾",
+    "shops": "专卖店",
+    "vendor": "小贩",
+    "vendors": "供应商",
+    "marketplace": "市场",
+    "verify_date": "验证日期",
+    "note": "笔记",
+    "panel": "控制板",
+    "removed": "已移除",
+    "segments": "细分市场",
+    "personal_info": "个人信息",
+    "preferences": "优先",
+    "spec": "规格",
+    "reviews": "评论",
+    "constraints": "约束",
+    "flexible": "灵活的",
+    "usage_limit": "使用限制",
+    "temporary": "暂时的",
+    "original": "原来的",
+    "saved": "得救了！",
+    "sort": "种类",
+    "documents": "文件",
+    "document": "文档",
+    "please_wait": "请稍等...",
+    "pickup": "捡起",
+    "customize": "定制",
+    "difficulty": "困难",
+    "banned": "禁止",
+    "company": "公司",
+    "tax_shipping": "运费税",
+    "warranty": "保修单",
+    "return_policy": "退货政策",
+    "guide": "指导",
+    "translate": "翻译",
+    "public": "上市",
+    "deleted": "已删除",
+    "variant": "变体",
+    "secure": "安全的",
+    "admin": "行政"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "追踪",
     "change_state": "更改状态",
     "done": "完毕",
-    "reply": "回复"
+    "reply": "回复",
+    "watch_now": "立即观看",
+    "unlock": "开锁",
+    "lock": "锁",
+    "create_clone": "创建克隆",
+    "regenerate": "再生",
+    "add_message": "添加消息",
+    "continue_chat": "继续聊天",
+    "add_new_message": "添加新消息"
   },
   "instance_message_title": "发送即时消息",
   "instance_message": "嗨，{name}，我的名字是来自 {company} 的 {author}。",
@@ -690,7 +743,8 @@ export default {
     "postcode": "邮政编码",
     "enter_value": "在这里填写",
     "address_note": "笔记",
-    "tel": "联系电话"
+    "tel": "联系电话",
+    "service_address": "选择您的地址"
   },
   "weight": {
     "g": "G",
@@ -753,7 +807,14 @@ export default {
     "磅",
     "夸脱",
     "码",
-    "房间"
+    "房间",
+    "秒",
+    "分钟",
+    "小时",
+    "天",
+    "周",
+    "月",
+    "年"
   ],
   "region_types": {
     "State": "状态",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "最小长度必须是 {length}",
     "invalid_min_array_length": "至少选择 {length} 个项目",
     "invalid_max_chars": "最多 {maxCount} 个字符",
-    "invalid_url": "无效的网址"
+    "invalid_url": "无效的网址",
+    "country_invalid": "选择目的地国家！",
+    "postal_code_invalid": "设置有效的邮政编码！"
   },
   "colors": {
     "#D32F2F": "红色的",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "白色的",
     "#FFF": "白色的",
     "#000000": "黑色的",
-    "#000": "黑色的"
+    "#000": "黑色的",
+    "#7d263a": "栗色",
+    "#FD9F17": "金子",
+    "#229DBF": "水族",
+    "#6DC9E2": "水族三混",
+    "#413B2D": "军队",
+    "#474747": "沥青",
+    "#E6195C": "浆果",
+    "#B2184C": "浆果三色",
+    "#FC7F5F": "烧焦的橙子",
+    "#80011F": "红衣主教",
+    "#382829": "巧克力",
+    "#F06336": "珊瑚",
+    "#FAE7C9": "奶油",
+    "#6B2257": "黑醋栗",
+    "#222127": "深灰色",
+    "#0D5A74": "深蓝绿色",
+    "#00582F": "常绿",
+    "#214C30": "森林",
+    "#DC2867": "紫红色",
+    "#38561": "凯利",
+    "#5C884D": "叶子",
+    "#558450": "浅水色",
+    "#96B5C9": "浅蓝",
+    "#DCAFCE": "紫丁香",
+    "#D3E1A4": "酸橙",
+    "#9DE7C2": "薄荷",
+    "#F6EAD2": "自然",
+    "#1A1F35": "海军",
+    "#404624": "橄榄",
+    "#271020": "李子",
+    "#A8355C": "覆盆子",
+    "#D6BEA6": "软奶油",
+    "#BEA994": "谭",
+    "#0DB2AE": "蓝绿色",
+    "#A86EA9": "紫色",
+    "#36454F": "木炭",
+    "#b3b0ab": "碳灰",
+    "#463e3d": "木炭石南花",
+    "#282d3c": "海军蓝西装外套"
   },
   "address_info": {
     "name": "姓名",
@@ -838,7 +940,8 @@ export default {
     "building_number": "楼号",
     "building_unit": "单元",
     "postcode": "邮政编码",
-    "note": "笔记"
+    "note": "笔记",
+    "county": "县"
   },
   "product_types": {
     "physical": "身体的",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "颜色",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "简单的",
       "selective": "可选择的",
-      "switch": "转变"
-    }
+      "switch": "转变",
+      "file": "文件",
+      "number": "数字"
+    },
+    "placeholder_input": "占位符",
+    "file_type_input": "可接受的文件类型",
+    "file_type_message": "JPEG，PNG，压缩，..."
   },
   "virtual_order_info_summery": {
     "title": "产品名称",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "输入您的手机",
     "verification_code": "验证码",
     "msg_title": "你好，",
-    "msg_body": "请登录。只需几秒钟。"
+    "msg_body": "请登录。只需几秒钟。",
+    "login_apple": "用苹果登录"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "添加的标签"
     }
+  },
+  "difficulties": {
+    "very_complicated": "非常复杂",
+    "hard": "难的",
+    "intermediate": "中间的",
+    "easy": "简单的"
   }
 };

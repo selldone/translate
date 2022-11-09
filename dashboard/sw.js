@@ -155,7 +155,19 @@ export default {
       "Setup": "duka",
       "Sell": "Uuzaji na Uuzaji",
       "Developer": "Kuendeleza",
-      "Application": "Maombi"
+      "Application": "Maombi",
+      "Product": "Usimamizi wa Bidhaa na Kategoria",
+      "Blog": "CMS & Blogu",
+      "Order": "Kituo cha Utimilifu wa Maagizo",
+      "Channel": "Njia za Uuzaji",
+      "Accounting": "Njia za Uhasibu na Malipo",
+      "Incentives": "Motisha",
+      "Marketing": "Masoko na Kampeni",
+      "Logistic": "Vifaa na Usafirishaji",
+      "Customers": "Klabu ya Wateja & Sehemu",
+      "Page": "Kurasa za Kutua na Maalum",
+      "Access": "Usimamizi wa Ufikiaji wa Wafanyikazi / API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Hifadhi ya Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Maduka",
       "roles": "Majukumu",
       "home": "Nyumbani",
-      "expert": "Mtaalamu"
+      "expert": "Mtaalamu",
+      "deals": "Mikataba",
+      "providers": "Watoa huduma"
     },
     "shops": {
       "create_new": "Unda duka jipya",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Hali",
           "created_at": "Tarehe ya uumbaji",
           "updated_at": "Sasisho la mwisho"
-        }
+        },
+        "subtitle": "Andika makala ukitumia kihariri cha kisasa cha maandishi ili ujiwasilishe na biashara yako. Yaliyomo asilia ndio jambo la kwanza unalohitaji kuzingatia unapoandika chapisho la blogu linalofaa kwa SEO la hali ya juu."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Ripoti",
         "tax": "Kodi",
         "drop_shipping": "Risiti za muuzaji",
-        "reseller_accounts": "Akaunti za muuzaji"
+        "reseller_accounts": "Akaunti za muuzaji",
+        "valuations": "Uthamini"
       },
       "invoice": {
         "title": "Nunua Pochi Zilizounganishwa",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Usafirishaji",
         "inventory": "Malipo",
         "warehouse": "Ghala",
-        "logistic_apps": "Vifaa"
+        "logistic_apps": "Vifaa",
+        "profiles": "Wasifu"
       },
       "warehouse": {
         "title": "Ghala la Hifadhi",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Gharama ya chini ya agizo kwa usafirishaji wa bure",
           "notifications": {
             "update_success": "Mipangilio ya huduma ya usafirishaji imekamilika."
-          }
+          },
+          "shipping_cost_calculation": "Hesabu ya gharama ya usafirishaji",
+          "sod_true": "Pata gharama ya usafirishaji unapoenda",
+          "sod_true_message": "Hakikisha kuwa huduma yako ya usafirishaji inakubali gharama ya usafirishaji mahali unakoenda.",
+          "sod_false": "Hesabu ya gharama ya usafirishaji kiotomatiki",
+          "cod_true": "Kubali pesa taslimu wakati wa kujifungua",
+          "cod_false": "Kubali malipo ya mtandaoni pekee",
+          "cod_true_message": "Hakikisha huduma yako ya usafirishaji inakubali COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "Barua pepe",
         "domain": "Kikoa",
-        "verifications": "Uthibitishaji"
+        "verifications": "Uthibitishaji",
+        "flow": "Mtiririko",
+        "business_model": "Mfano wa Biashara"
       },
       "delete_dialog": {
         "title": "Futa Hifadhi",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Kitengo cha bidhaa",
       "unit_float": "Kitengo cha kuelea (hivi karibuni)",
       "unit_float_hint": "Kwa mfano, mteja anaweza kuagiza kilo 3 za matunda, lakini kiasi kinachotumwa kwa mteja ni tofauti kidogo na kiasi kilichoagizwa.",
-      "unit_float_message": "Wakati wa usindikaji wa utaratibu, kiasi kilichotolewa kinaweza kutofautiana na kiasi kilichoagizwa. Mfumo huhesabu tofauti hii kiotomatiki na kuirekodi kama deni lako kwa mteja, ambayo inaweza kutumika kwa maagizo yanayofuata."
+      "unit_float_message": "Wakati wa usindikaji wa utaratibu, kiasi kilichotolewa kinaweza kutofautiana na kiasi kilichoagizwa. Mfumo huhesabu tofauti hii kiotomatiki na kuirekodi kama deni lako kwa mteja, ambayo inaweza kutumika kwa maagizo yanayofuata.",
+      "status_list": {
+        "active": {
+          "title": "Inayotumika | Mauzo ya Mtandaoni na Nje ya Mtandao",
+          "description": "Bidhaa hii itapatikana kwa maagizo ya mtandaoni."
+        },
+        "inactive": {
+          "title": "Isiyotumika | Mauzo ya Nje ya Mtandao Pekee",
+          "description": "Bidhaa hii haitapatikana kwa maagizo ya mtandaoni."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Utafiti",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Chagua wakati wa mwisho",
       "independent_price": "Bei ya lahaja hii pekee",
       "same_price": "Bei ya bidhaa kuu",
-      "variant_pricing_message": "Kwa kuchagua chaguo hili, bei ya lahaja hii inaweza kuwekwa kwa kujitegemea kutoka kwa bidhaa kuu."
+      "variant_pricing_message": "Kwa kuchagua chaguo hili, bei ya lahaja hii inaweza kuwekwa kwa kujitegemea kutoka kwa bidhaa kuu.",
+      "price_label_input": "Lebo ya bei",
+      "price_label_message": "Ongeza maelezo ya ziada kuhusu bei kama vile ( $1.5/Fl Oz ). Kesi za matumizi: mboga, FMCG.",
+      "add_price_label_action": "Ongeza lebo ya bei"
     },
     "inputs_edit": {
       "title": "Fomu ya Kuingiza ya Taarifa ya Mnunuzi",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gateway {gateway_name} imehaririwa."
     },
-    "developer_setting": "Kuza & Mtihani"
+    "developer_setting": "Kuza & Mtihani",
+    "live_mode_message": "Shughuli zote zitakuwa katika hali ya moja kwa moja."
   },
   "gift_card": {
     "title": "Kadi ya Zawadi",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Anwani ya kutuma bili iliyohaririwa na mnunuzi.",
     "payment-cod-confirm": "Malipo ya COD yamethibitishwa.",
     "payment-cash-confirm": "Malipo ya {amount} {currency} taslimu ya bili yamethibitishwa.",
-    "payment-dir-confirm": "Risiti ya malipo ya moja kwa moja imethibitishwa."
+    "payment-dir-confirm": "Risiti ya malipo ya moja kwa moja imethibitishwa.",
+    "vendor": "Hali ya agizo la muuzaji imebadilika kutoka <b>{from}</b> hadi <b>{to}</b> .",
+    "connect-sync": "Agizo limesawazishwa na Connect OS.",
+    "connect-shipped": "Agizo la kuunganisha limesafirishwa kwa {shipping}.",
+    "connect-returned": "Agizo la kuunganisha limerudishwa kwa {shipping}.",
+    "connect-failed": "Utekelezaji wa agizo umeshindwa na mshirika. {reason}",
+    "connect-canceled": "Agizo lilighairiwa na mshirika. {reason}",
+    "connect-action-cancel": "Ombi la kughairi agizo. {reason}",
+    "connect-put-hold": "Agizo hilo lilisitishwa. {reason}",
+    "connect-remove-hold": "Agizo liliondolewa kutoka kushikilia. {reason}",
+    "connect-confirmed": "Agizo hilo lilithibitishwa.",
+    "email-vendor": "🔔 Barua pepe ya taarifa ya agizo imetumwa kwa <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Leo",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Tengeneza fedha",
     "menu": {
       "plans": "Mipango",
-      "accounts": "Akaunti"
+      "accounts": "Akaunti",
+      "participant": "Mshiriki"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Vifunguo vya Kufikia Hifadhi",
     "shop_keys_message": "Vifunguo hivi hutumika kuunda Tokeni ya Ufikiaji na seva yako. Kumbuka kwamba funguo ni siri na zimewekwa tu kwenye seva ili zisionekane kwa wengine.",
     "personal_keys_title": "Funguo za Ufikiaji wa Kibinafsi",
-    "personal_keys_message": "Unaweza kuunda funguo za akaunti yako hapa. Kumbuka kwamba funguo hizi zitaweza kufikia akaunti yako. Unda na utumie funguo hizi ikiwa tu unajua unachofanya haswa."
+    "personal_keys_message": "Unaweza kuunda funguo za akaunti yako hapa. Kumbuka kwamba funguo hizi zitaweza kufikia akaunti yako. Unda na utumie funguo hizi ikiwa tu unajua unachofanya haswa.",
+    "clients_title": "Wateja",
+    "clients_message": "Vifunguo hivi hutumika kuunda Tokeni ya Ufikiaji na seva yako. Kumbuka kwamba funguo ni siri na zimewekwa tu kwenye seva ili zisionekane kwa wengine."
   },
   "user_security_control": {
     "title": "Usalama wa Akaunti",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Dhibiti wasifu",
       "description": "Dhibiti wasifu wa duka."
+    },
+    "shop-discount-code": {
+      "name": "Usimamizi wa kanuni za punguzo",
+      "description": "Dhibiti, hariri na uongeze misimbo ya punguzo la duka."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Mipangilio",
       "change": "Malipo",
       "transfer": "Uhamisho",
-      "transactions": "Shughuli"
+      "transactions": "Shughuli",
+      "charge": "Malipo",
+      "history": "Historia"
     },
     "transactions": {
       "title": "Miamala ya Akaunti",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Ghairi uthibitishaji wa usajili",
       "message": "Je, una uhakika wa kughairi usajili huu?",
       "action": "Ghairi usajili"
-    }
+    },
+    "use_voucher_now": "Tumia vocha sasa",
+    "validity_duration": "Muda wa uhalali",
+    "validity_duration_hint": "Kwa kununua leseni ya miezi 12, utapokea punguzo la 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Pakua maandishi ya data",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Fonti kubwa",
     "large_font_message": "Onyesha maandishi makubwa kuliko kawaida",
     "samples": "Onyesha maduka ya mfano",
-    "samples_message": "Ikiwashwa, baadhi ya maduka ya sampuli yataonyeshwa kwenye paneli yako."
+    "samples_message": "Ikiwashwa, baadhi ya maduka ya sampuli yataonyeshwa kwenye paneli yako.",
+    "automation": "Automation",
+    "automation_message": "Onyesha kichupo cha otomatiki kwenye dashibodi ya duka. (Webhooks, programu ya Visual, ...)"
   },
   "shop_locations": {
     "title": "Nchi ambazo huduma hutolewa",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kuponi imefutwa."
-    }
+    },
+    "multiple_use": "Matumizi mengi"
   },
   "coupon_edit": {
     "title_edit": "Badilisha kuponi",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Kikomo",
       "description": "Weka kikomo kwa idadi ya juu zaidi ya watumiaji."
+    },
+    "SEGMENTS": {
+      "title": "Sehemu",
+      "description": "Weka kikomo cha wateja katika sehemu maalum za mikono."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Jumla ya kiasi cha agizo kilitolewa kutoka kwa kadi za zawadi! Mnunuzi haitaji kulipa zaidi.",
       "cod_msg": "Mteja atalipa akipokea agizo.",
       "online_msg": "Uliza mteja kuchanganua msimbo wa QR kwenye skrini ya mteja."
-    }
+    },
+    "name": "POS",
+    "message": "Pata sehemu yako ya uuzaji ya bei isiyo na gharama ya mtandaoni, iendeshe kwenye simu mahiri, kompyuta kibao na Kompyuta yoyote, au uunde maagizo wewe mwenyewe."
   },
   "exporter": {
     "title": "Hamisha data",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Tuma kwa seva",
     "shop_license": "Leseni ya duka",
     "max_items_limit": "Kikomo cha juu cha vipengee",
-    "total_items": "Jumla ya vitu"
+    "total_items": "Jumla ya vitu",
+    "customer": {
+      "title": "Ingiza wateja",
+      "subtitle": "Pakia faili za CSV za wateja hapa. Hakikisha unafuata muundo wa kawaida, na pia, unapaswa kufuata sheria za faragha."
+    }
   },
   "campaigns": {
     "title": "Kampeni",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Viungo",
     "light_checkout": "Mandhari nyepesi ya kulipa",
     "light_header": "Kichwa chepesi",
-    "light_footer": "Kijachini chepesi"
+    "light_footer": "Kijachini chepesi",
+    "product_page": "Ukurasa wa Bidhaa",
+    "typography": "Uchapaji",
+    "header": "Kijajuu",
+    "custom_code": "Msimbo maalum",
+    "custom_css": "CSS maalum"
   },
   "app_templates": {
     "default": "Chaguomsingi",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Dhibiti huduma",
     "option_deliver_by_courier": "Chaguo 1: Peana na wasafirishaji wako.",
     "option_add_to_que": "Chaguo 2: Ongeza kwenye foleni ili kuchakata kwenye ukurasa wa huduma ya usafirishaji.",
-    "option_instant_shipping": "Chaguo 3: Usafirishaji wa papo hapo."
+    "option_instant_shipping": "Chaguo 3: Usafirishaji wa papo hapo.",
+    "pickup_action": "Uthibitisho wa kuchukua"
   },
   "shop_home_edit": {
     "title": "Mpangilio wa ukurasa wa nyumbani",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Bidhaa imeongezwa kwenye duka lako.",
       "request_access": "Tulituma ombi lako la ufikiaji kwa muuzaji jumla."
-    }
+    },
+    "show_eligible_shops_message": "Onyesha maduka yanayostahiki"
   },
   "product_dropshipping": {
     "need_re_enable": "Bidhaa hii imebadilishwa na muuzaji asili, mabadiliko haya ya bei yamelemaza bidhaa kwenye duka lako. Angalia mabadiliko na ukikubali kuwezesha bidhaa tena, bonyeza kitufe kilicho hapa chini.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Hakuna aina katika duka lako.",
       "limit": "Kikomo cha bidhaa",
       "limit_message": "Weka hesabu za matokeo ya bidhaa",
-      "select_categories": "Chagua kategoria zinazopatikana"
+      "select_categories": "Chagua kategoria zinazopatikana",
+      "categories_limit": "Kikomo cha kategoria",
+      "categories_limit_msg": "Weka idadi ya juu zaidi ya kategoria. Weka sifuri bila kikomo."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Parachichi limesasishwa.",
       "add_success": "Parachichi limeundwa kwa mafanikio."
-    }
+    },
+    "name": "Parachichi"
   },
   "avocado_orders": {
     "title": "Parachichi",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "asiyefanya kazi",
     "active_message": "Ukiwezesha chaguo hili, uwezekano wa kuunda Misimbo ya Uuzaji wa Haraka utaonyeshwa katika sehemu ya usimamizi ya kila bidhaa.",
     "hyper_form_link_message": "Kiungo cha ukurasa wa hyper wa duka lako",
-    "configuration": "Mipangilio ya Hyper"
+    "configuration": "Mipangilio ya Hyper",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Demografia ya Wateja",
     "subtitle": "Chuja na usafirishaji wa data ya wateja wako ili kufanya maamuzi bora ya kutoa thamani zaidi na uuzaji mdogo! Tafadhali heshimu faragha ya wateja wako na usiwahi kutuma barua pepe nyingi kwao! Usiwahi kushiriki maelezo ya wateja wako na huduma za watu wengine bila kupata ruhusa kutoka kwa kila mmoja wao."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Anwani za kuchukua",
+      "subtitle": "Ongeza na uhariri anwani za kuchukua hapa. Watumiaji wataweza kuchagua anwani ya kuchukua kwenye ukurasa wa malipo.",
+      "add_action": "Ongeza eneo jipya"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Affiliate POS",
+    "open_pos_action": "Kuagiza kwa haraka POS",
+    "description": "Chaguo hili linafaa kwa wasimamizi wa kurasa za Instagram na mitandao mingine ya kijamii. Tumia Affiliate POS kupokea na kuongeza maagizo kutoka kwa wateja wewe mwenyewe. Washirika wako (au franchise) wanaweza kuongeza maagizo mapya katika POS ya Washirika na kupakia hati ya kuweka amana."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Mbinu za kuingia",
+      "subtitle": "Geuza kukufaa jinsi watumiaji wanavyoingia kwenye duka lako."
+    },
+    "checkout": {
+      "title": "Mtiririko wa malipo",
+      "subtitle": "Binafsisha safari ya mteja wako na mtiririko wa ununuzi katika biashara yako ya kielektroniki.",
+      "map": {
+        "title": "Ramani",
+        "subtitle": "Watumiaji lazima wachague eneo la kuwasilisha kwenye ramani (kama vile Uber).",
+        "subtitle_no_map": "Umbali katika hesabu ya usafirishaji unazingatia sufuri ikiwa eneo halipo katika anwani iliyotolewa na mteja."
+      },
+      "mode": {
+        "title": "Sehemu ya kuingia kwa wateja",
+        "default": {
+          "title": "HARAKA (Chaguomsingi)",
+          "msg": "Watumiaji huingia haraka iwezekanavyo. (Uongofu zaidi)"
+        },
+        "on_checkout": {
+          "title": "Unapolipa",
+          "msg": "Lazimisha watumiaji kuingia katika hatua ya kulipa."
+        },
+        "login_free": {
+          "title": "Kuingia kwa hiari",
+          "msg": "Kuingia kwa hiari baada ya malipo ya agizo.."
+        }
+      },
+      "express": {
+        "title": "Elekeza kwingine baada ya kuongeza kwenye rukwama",
+        "false": {
+          "title": "Hali ya kawaida",
+          "msg": "Baki kwenye ukurasa na uendelee kununua baada ya kubofya ongeza kwenye rukwama."
+        },
+        "true": {
+          "title": "Njia ya kujieleza",
+          "msg": "Elekeza mteja kwenye ukurasa wa malipo baada ya kubofya ongeza kwenye rukwama."
+        }
+      },
+      "shipping_address": {
+        "title": "Uliza anwani ya usafirishaji"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Kimwili na Huduma (Chaguomsingi)",
+      "desc": "Mwombe mteja aweke anwani katika malipo ya kawaida na huduma."
+    },
+    "physical": {
+      "title": "Kimwili Pekee",
+      "desc": "Mwombe mteja aweke anwani wakati wa kulipa."
+    },
+    "off": {
+      "title": "Kamwe",
+      "desc": "Usiulize kamwe anwani ya usafirishaji. ⚠ Tumia chaguo hili ikiwa unapanga kuwa na huduma zenye vibadala kwa kuchagua aina halisi ya bidhaa badala ya aina ya huduma."
+    }
+  },
+  "business_model": {
+    "title": "Mpangilio wa mtindo wa biashara",
+    "subtitle": "Weka muundo wa biashara yako, na tutasanidi Mfumo wako wa Uendeshaji nyuma ya tukio."
+  },
+  "business_type": {
+    "title": "Aina za bidhaa",
+    "subtitle": "Weka aina ya bidhaa unazotaka kuuza kwenye duka lako. Aina za bidhaa katika Selldone ni zaidi ya aina ya bidhaa; ni zaidi kuhusu utaratibu wa kutimiza.",
+    "send_activation_request_to_support": "Tuma ombi la kuwezesha katika tikiti ya usaidizi.",
+    "require_kyc": "Mmiliki wa biashara KYC.",
+    "needs_enterprise_license": "Unahitaji kuwa na leseni ya Biashara.",
+    "marketplace_caution_message": "Weka Soko kama muundo wako unaathiri sana usanidi wa Mfumo wa Uendeshaji wa biashara yako. Kwa mfano, ni lazima ubainishe angalau muuzaji mmoja kwa kila bidhaa iliyo na bei huru na orodha. Wateja hawawezi kununua bidhaa ambazo hazina muuzaji."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Duka la Kawaida",
+      "desc": "Kwa kawaida SME, biashara ya nyumbani, au dropshipper - ambao huuza bidhaa zao moja kwa moja kwa wateja au huuza bidhaa za wauzaji wa jumla kama muuzaji."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Usiweke bidhaa wala hesabu - unalipa mtu mwingine, kwa kawaida muuzaji wa jumla (kama vile Printify, Wholesale2B, ...) au mtengenezaji, na wanatimiza maagizo nyuma ya tukio."
+    },
+    "wholesaler": {
+      "title": "Dropshipping Supplier",
+      "desc": "Kawaida ni muuzaji wa jumla au mtengenezaji - ambaye husafirisha maagizo moja kwa moja kwa watumiaji wa mwisho. Wafanyabiashara wengine kwenye Selldone wanaweza kusafirisha bidhaa zako katika maduka yao."
+    },
+    "marketplace": {
+      "title": "Sokoni",
+      "desc": "Masoko ya mtandaoni huunganisha wanunuzi na wauzaji kwenye jukwaa la wamiliki na la kati."
+    },
+    "franchise": {
+      "title": "Franchise / Affiliate",
+      "desc": "Franchise ni njia ya kusambaza bidhaa au huduma zinazomhusisha mfadhili ambaye anaanzisha chapa yako (Franchising) au anauza bidhaa zako kwa chapa yake (Affiliate)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Pochi",
+    "pricing_models": "Kuweka bei",
+    "add_vendor": "Ongeza muuzaji",
+    "requests": "Maombi"
+  },
+  "price_input_type": {
+    "title": "Aina ya uingizaji wa bei",
+    "default": {
+      "title": "Chaguomsingi",
+      "desc": "Chagua thamani kama kiasi kwenye rukwama."
+    },
+    "area": {
+      "title": "Eneo",
+      "desc": "Ingiza upana na urefu kama ingizo ili kukokotoa wingi."
+    },
+    "volume": {
+      "title": "kiasi",
+      "desc": "Weka upana, urefu na urefu kama vitu vya kuingiza ili kukokotoa wingi."
+    },
+    "custom": {
+      "title": "Maalum (Kwa fomu ya kuingiza)",
+      "desc": "Hakuna haja ya mamia ya anuwai! Unda fomu maalum ya kukokotoa gharama kwa bidhaa zinazoweza kubinafsishwa sana."
+    }
+  },
+  "vendors_list": {
+    "title": "Wachuuzi Wangu",
+    "message": "Orodha ya wachuuzi wangu mwenyewe."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Unganisha vikoa vingi kwenye Mfumo wa Uendeshaji wa biashara yako na udhibiti vyote katika sehemu moja. Unaweza kutumia kipengele cha vikoa vingi ili kuunda vikoa maalum kwa kila sehemu ya tovuti yako, kama vile blogu na jumuiya, au kutumia vikoa tofauti kwa washirika wako."
+  },
+  "notes": {
+    "add_action": "Ongeza dokezo kwa timu yako",
+    "notifications": {
+      "success_add": "Dokezo limeongezwa.",
+      "success_delete": "Dokezo limefutwa."
+    }
+  },
+  "external_services": {
+    "title": "Huduma za nje",
+    "subtitle": "Fuatilia hali ya mwisho ya huduma za nje kama vile SMS na barua pepe hapa."
   }
 };

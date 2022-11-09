@@ -65,7 +65,9 @@ export default {
     "my_feed": "Tôi",
     "blocked_message": "Bạn bị chặn cho đến khi",
     "reported": "Đã báo cáo",
-    "report": "Báo cáo"
+    "report": "Báo cáo",
+    "post": "Đăng tải",
+    "attach_file": "Đính kèm tệp"
   },
   "invite_message": "{user} đã mời bạn tham gia diễn đàn {community}. Nhấp vào liên kết bên dưới để đọc quan sát của bạn bè và chia sẻ ý kiến của bạn với họ. Tôi đang đợi bạn.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Xóa cuộc thăm dò",
     "take_screenshot": "Lấy làm trang bìa",
     "take_link_msg": "Liên kết quá khứ ở đây và nhập",
-    "eligible_title": "Các bước để đủ điều kiện đăng"
+    "eligible_title": "Các bước để đủ điều kiện đăng",
+    "public": "Công cộng"
   },
   "tips": {
     "verify_email": "Nhập và xác minh email của bạn.",

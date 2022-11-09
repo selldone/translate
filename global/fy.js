@@ -558,7 +558,52 @@ export default {
     "merchant": "Keapman",
     "per_product": "Per produkt",
     "journey": "Reis",
-    "after": "Efter"
+    "after": "Efter",
+    "waiting_for_payment": "Folje asjebleaft betelling ...",
+    "hour": "Oere",
+    "minute": "Minút",
+    "premium": "Premium",
+    "light": "Ljocht",
+    "dark": "Tsjuster",
+    "guest": "Gast",
+    "shops": "Winkels",
+    "vendor": "Ferkeaper",
+    "vendors": "Ferkeapers",
+    "marketplace": "Marketplace",
+    "verify_date": "Ferifiearje datum",
+    "note": "Noat",
+    "panel": "Panel",
+    "removed": "Fuorthelle",
+    "segments": "Segminten",
+    "personal_info": "Persoanlike ynformaasje",
+    "preferences": "Foarkarren",
+    "spec": "Spec",
+    "reviews": "Resinsjes",
+    "constraints": "Beheinings",
+    "flexible": "Fleksibel",
+    "usage_limit": "Brûk limyt",
+    "temporary": "Tydlik",
+    "original": "Oarspronklik",
+    "saved": "Opslein!",
+    "sort": "Sortearje",
+    "documents": "Dokuminten",
+    "document": "Dokumint",
+    "please_wait": "Wachtsje even asjebleaft...",
+    "pickup": "Oppakke",
+    "customize": "oanpasse",
+    "difficulty": "Swierrichheid",
+    "banned": "Ferbean",
+    "company": "Bedriuw",
+    "tax_shipping": "Shipping Tax",
+    "warranty": "Garânsje",
+    "return_policy": "Return Policy",
+    "guide": "Gids",
+    "translate": "Oersette",
+    "public": "Iepenbier",
+    "deleted": "Wiske",
+    "variant": "Fariant",
+    "secure": "Feilich",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Spoar",
     "change_state": "Feroarje Status",
     "done": "Dien",
-    "reply": "Antwurdzje"
+    "reply": "Antwurdzje",
+    "watch_now": "Sjoch no",
+    "unlock": "Losmeitsje",
+    "lock": "Slûs",
+    "create_clone": "Meitsje kloon",
+    "regenerate": "Regenerearje",
+    "add_message": "Add berjocht",
+    "continue_chat": "Trochgean petear",
+    "add_new_message": "Add nij berjocht"
   },
   "instance_message_title": "Stjoer direkte berjocht",
   "instance_message": "Hoi {name}, Myn namme is {author} fan {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Postkoade",
     "enter_value": "Folje hjir",
     "address_note": "Noat",
-    "tel": "Kontakt nûmer"
+    "tel": "Kontakt nûmer",
+    "service_address": "Selektearje jo adres"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "pûn",
     "kwarts",
     "yards",
-    "Keamer"
+    "Keamer",
+    "sekonden",
+    "minuten",
+    "oeren",
+    "dagen",
+    "wiken",
+    "moannen",
+    "jierren"
   ],
   "region_types": {
     "State": "Steat",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Minimale lingte moat {length} wêze",
     "invalid_min_array_length": "Selektearje op syn minst {length} items",
     "invalid_max_chars": "Maksimum {maxCount} tekens",
-    "invalid_url": "Unjildige URL"
+    "invalid_url": "Unjildige URL",
+    "country_invalid": "Selektearje bestimmingslân!",
+    "postal_code_invalid": "Stel jildige postkoade yn!"
   },
   "colors": {
     "#D32F2F": "Read",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Wyt",
     "#FFF": "Wyt",
     "#000000": "Swart",
-    "#000": "Swart"
+    "#000": "Swart",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Goud",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Leger",
+    "#474747": "Asfalt",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Oranje ferbaarnd",
+    "#80011F": "Kardinaal",
+    "#382829": "Sûkelade",
+    "#F06336": "Coral",
+    "#FAE7C9": "Rjemme",
+    "#6B2257": "Currant",
+    "#222127": "Dûnkergriis",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Evergreen",
+    "#214C30": "Wâld",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Blêd",
+    "#558450": "Ljocht Aqua",
+    "#96B5C9": "Ljochtblau",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "Limoen",
+    "#9DE7C2": "Mint",
+    "#F6EAD2": "Natuerlik",
+    "#1A1F35": "Marine",
+    "#404624": "Oliif",
+    "#271020": "Prom",
+    "#A8355C": "Framboas",
+    "#D6BEA6": "Soft Cream",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Fiolet",
+    "#36454F": "Houtskoal",
+    "#b3b0ab": "koalstof Griis",
+    "#463e3d": "Houtskoal Heather",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Namme",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Gebou nûmer",
     "building_unit": "Ienheid",
     "postcode": "Postkoade",
-    "note": "Noat"
+    "note": "Noat",
+    "county": "County"
   },
   "product_types": {
     "physical": "Lichaamlik",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Kleur",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Ienfâldich",
       "selective": "Selektyf",
-      "switch": "Omskeakelje"
-    }
+      "switch": "Omskeakelje",
+      "file": "Map",
+      "number": "Nûmer"
+    },
+    "placeholder_input": "Plakhâlder",
+    "file_type_input": "Akseptabele triemtypen",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Produkt Namme",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Fier jo mobyl yn",
     "verification_code": "Ferifikaasjekoade",
     "msg_title": "Hoi,",
-    "msg_body": "Graach oanmelde. It duorret mar in pear sekonden."
+    "msg_body": "Graach oanmelde. It duorret mar in pear sekonden.",
+    "login_apple": "Oanmelde mei Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Tags tafoege"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Hiel yngewikkeld",
+    "hard": "Hurd",
+    "intermediate": "Intermediate",
+    "easy": "Maklik"
   }
 };

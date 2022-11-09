@@ -558,7 +558,52 @@ export default {
     "merchant": "ឈ្មួញ",
     "per_product": "ក្នុងមួយផលិតផល",
     "journey": "ការ​ធ្វើ​ដំណើរ",
-    "after": "បន្ទាប់ពី"
+    "after": "បន្ទាប់ពី",
+    "waiting_for_payment": "សូមបំពេញការទូទាត់...",
+    "hour": "ម៉ោង",
+    "minute": "នាទី",
+    "premium": "បុព្វលាភ",
+    "light": "ពន្លឺ",
+    "dark": "ងងឹត",
+    "guest": "ភ្ញៀវ",
+    "shops": "ហាង",
+    "vendor": "អ្នកលក់",
+    "vendors": "អ្នកលក់",
+    "marketplace": "ផ្សារ",
+    "verify_date": "ផ្ទៀងផ្ទាត់កាលបរិច្ឆេទ",
+    "note": "ចំណាំ",
+    "panel": "បន្ទះ",
+    "removed": "បានដកចេញ",
+    "segments": "ចម្រៀក",
+    "personal_info": "ព័ត៌មានផ្ទាល់ខ្លួន",
+    "preferences": "ចំណូលចិត្ត",
+    "spec": "ជាក់លាក់",
+    "reviews": "ពិនិត្យ",
+    "constraints": "ឧបសគ្គ",
+    "flexible": "អាចបត់បែនបាន។",
+    "usage_limit": "ដែនកំណត់នៃការប្រើប្រាស់",
+    "temporary": "បណ្ដោះអាសន្ន",
+    "original": "ដើម",
+    "saved": "រក្សាទុក!",
+    "sort": "តម្រៀប",
+    "documents": "ឯកសារ",
+    "document": "ឯកសារ",
+    "please_wait": "សូមរង់ចាំ...",
+    "pickup": "លើកឡើង",
+    "customize": "ប្ដូរតាមបំណង",
+    "difficulty": "ភាពលំបាក",
+    "banned": "ហាមឃាត់",
+    "company": "ក្រុមហ៊ុន",
+    "tax_shipping": "ពន្ធដឹកជញ្ជូន",
+    "warranty": "ការធានា",
+    "return_policy": "គោលនយោបាយត្រឡប់មកវិញ",
+    "guide": "មគ្គុទ្ទេសក៍",
+    "translate": "បកប្រែ",
+    "public": "សាធារណៈ",
+    "deleted": "បានលុប",
+    "variant": "វ៉ារ្យ៉ង់",
+    "secure": "សុវត្ថិភាព",
+    "admin": "អ្នកគ្រប់គ្រង"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "បទ",
     "change_state": "ផ្លាស់ប្តូរស្ថានភាព",
     "done": "រួចរាល់",
-    "reply": "ឆ្លើយតប"
+    "reply": "ឆ្លើយតប",
+    "watch_now": "មើលឥឡូវនេះ",
+    "unlock": "ដោះសោ",
+    "lock": "ចាក់សោ",
+    "create_clone": "បង្កើតក្លូន",
+    "regenerate": "បង្កើតឡើងវិញ",
+    "add_message": "បន្ថែមសារ",
+    "continue_chat": "បន្តការជជែក",
+    "add_new_message": "បន្ថែមសារថ្មី។"
   },
   "instance_message_title": "ផ្ញើសារបន្ទាន់",
   "instance_message": "សួស្តី {name} ខ្ញុំឈ្មោះ {author} មកពី {company}។",
@@ -690,7 +743,8 @@ export default {
     "postcode": "លេខកូដប្រៃសណីយ៍",
     "enter_value": "បំពេញនៅទីនេះ",
     "address_note": "ចំណាំ",
-    "tel": "លេខ​ទំនាក់​ទំនង"
+    "tel": "លេខ​ទំនាក់​ទំនង",
+    "service_address": "ជ្រើសរើសអាសយដ្ឋានរបស់អ្នក។"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "ផោន",
     "ត្រីមាស",
     "យ៉ាត",
-    "បន្ទប់"
+    "បន្ទប់",
+    "វិនាទី",
+    "នាទី",
+    "ម៉ោង",
+    "ថ្ងៃ",
+    "សប្តាហ៍",
+    "ខែ",
+    "ឆ្នាំ"
   ],
   "region_types": {
     "State": "រដ្ឋ",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "ប្រវែងអប្បបរមាត្រូវតែជា {length}",
     "invalid_min_array_length": "យ៉ាងហោចណាស់ជ្រើសរើសធាតុ {length}",
     "invalid_max_chars": "តួអក្សរអតិបរមា {maxCount}",
-    "invalid_url": "URL មិនត្រឹមត្រូវ"
+    "invalid_url": "URL មិនត្រឹមត្រូវ",
+    "country_invalid": "ជ្រើសរើសប្រទេសគោលដៅ!",
+    "postal_code_invalid": "កំណត់លេខកូដប្រៃសណីយ៍ត្រឹមត្រូវ!"
   },
   "colors": {
     "#D32F2F": "ក្រហម",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "ស",
     "#FFF": "ស",
     "#000000": "ខ្មៅ",
-    "#000": "ខ្មៅ"
+    "#000": "ខ្មៅ",
+    "#7d263a": "ម៉ារ៉ុន",
+    "#FD9F17": "មាស",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblen",
+    "#413B2D": "កងទ័ព",
+    "#474747": "ផ្លូវកៅស៊ូ",
+    "#E6195C": "ប៊ឺរី",
+    "#B2184C": "Berry Triblen",
+    "#FC7F5F": "ពណ៌ទឹកក្រូចដុត",
+    "#80011F": "ខា",
+    "#382829": "សូកូឡា",
+    "#F06336": "ផ្កាថ្ម",
+    "#FAE7C9": "ក្រែម",
+    "#6B2257": "Currant",
+    "#222127": "ពណ៌ប្រផេះងងឹត",
+    "#0D5A74": "ឈើទាលជ្រៅ",
+    "#00582F": "បៃតង",
+    "#214C30": "ព្រៃ",
+    "#DC2867": "ហ្វូចស៊ី",
+    "#38561": "ខេលី",
+    "#5C884D": "ស្លឹកឈើ",
+    "#558450": "ពន្លឺ Aqua",
+    "#96B5C9": "ពណ៌ខៀវ​ស្រាល",
+    "#DCAFCE": "លីឡាក់",
+    "#D3E1A4": "កំបោរ",
+    "#9DE7C2": "ជីអង្កាម",
+    "#F6EAD2": "ធម្មជាតិ",
+    "#1A1F35": "កងទ័ពជើងទឹក",
+    "#404624": "អូលីវ",
+    "#271020": "ផ្លែព្រូន",
+    "#A8355C": "ផ្លែ Raspberry",
+    "#D6BEA6": "ក្រែមទន់",
+    "#BEA994": "តាន់",
+    "#0DB2AE": "ទឹកប្រៃ",
+    "#A86EA9": "វីយ៉ូឡែត",
+    "#36454F": "ធ្យូង",
+    "#b3b0ab": "ពណ៌ប្រផេះកាបូន",
+    "#463e3d": "ធ្យូង ហៀរ",
+    "#282d3c": "អាវធំកងទ័ពជើងទឹក។"
   },
   "address_info": {
     "name": "ឈ្មោះ",
@@ -838,7 +940,8 @@ export default {
     "building_number": "លេខអគារ",
     "building_unit": "ឯកតា",
     "postcode": "លេខកូដប្រៃសណីយ៍",
-    "note": "ចំណាំ"
+    "note": "ចំណាំ",
+    "county": "ខោនធី"
   },
   "product_types": {
     "physical": "រាងកាយ",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "ពណ៌",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "សាមញ្ញ",
       "selective": "ជ្រើសរើស",
-      "switch": "ប្តូរ"
-    }
+      "switch": "ប្តូរ",
+      "file": "ឯកសារ",
+      "number": "ចំនួន"
+    },
+    "placeholder_input": "កន្លែងដាក់",
+    "file_type_input": "ប្រភេទឯកសារដែលអាចទទួលយកបាន។",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "ឈ្មោះ​ផលិតផល",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "បញ្ចូលទូរស័ព្ទដៃរបស់អ្នក។",
     "verification_code": "កូដ​ផ្ទៀង​ផ្ទាត់",
     "msg_title": "សួស្តី",
-    "msg_body": "សូមចូល។ វាចំណាយពេលតែប៉ុន្មានវិនាទីប៉ុណ្ណោះ។"
+    "msg_body": "សូមចូល។ វាចំណាយពេលតែប៉ុន្មានវិនាទីប៉ុណ្ណោះ។",
+    "login_apple": "ចូលជាមួយ Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "ស្លាកបានបន្ថែម"
     }
+  },
+  "difficulties": {
+    "very_complicated": "ស្មុគស្មាញណាស់។",
+    "hard": "រឹង",
+    "intermediate": "កម្រិតមធ្យម",
+    "easy": "ងាយស្រួល"
   }
 };

@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Liittyvät tuotteet",
     "price": "Hinta",
     "rate": "Rate",
-    "comment": "Kommentti"
+    "comment": "Kommentti",
+    "warranty": "Takuu",
+    "return_policy": "PALAUTUSKÄYTÄNTÖ",
+    "guide": "Opas",
+    "shipping": "laivaus"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Tilauksesi on tehty onnistuneesti.",
       "delete_success": "Kohde poistettu."
-    }
+    },
+    "select_address_message": "Anna osoitteesi, niin voit lähettää tilauksen."
   },
   "hyper": {
     "title": "Tilauksen luominen",
@@ -541,5 +546,19 @@ export default {
       "message": "Olet määrittänyt veloituksen tästä tuotteesta. Voit muuttaa asiakkaan ostaman tuotteen veloitussummaa.",
       "charge": "Lataa"
     }
+  },
+  "check_access": {
+    "waiting_message": "Odotetaan pääsyn tarkistamista...",
+    "no_access_message": "Valitettavasti sinulla ei ole pääsyä myymäläämme.<br/> Ota yhteyttä."
+  },
+  "share_order": {
+    "action": "Jaa tilaus",
+    "title": "Jaa tämä tilaus muiden kanssa.",
+    "message": "Se on turvallinen linkki, jaa se vain tuntemillesi. Kaikki tämän linkin saaneet voivat kopioida tilauksesi ja nähdä valitun osoitteen. Se sisältää tietoja nykyisestä ostoskoristasi.",
+    "valid_period": "Tämä linkki vanhenee 48 tunnin kuluttua.",
+    "import_order_action": "Tuo tilaus",
+    "retrieve_dialog_title": "Hae ulkoinen tilaus",
+    "address_included": "Jaa korituotteet + Osoite",
+    "address_excluded": "Jaa vain korituotteita"
   }
 };

@@ -558,7 +558,52 @@ export default {
     "merchant": "Kauppias",
     "per_product": "Tuotetta kohti",
     "journey": "Matka",
-    "after": "Jälkeen"
+    "after": "Jälkeen",
+    "waiting_for_payment": "Suorita maksu loppuun...",
+    "hour": "Tunnin",
+    "minute": "Minuutti",
+    "premium": "Premium",
+    "light": "Kevyt",
+    "dark": "Tumma",
+    "guest": "Vieras",
+    "shops": "Kaupat",
+    "vendor": "Myyjä",
+    "vendors": "Myyjät",
+    "marketplace": "Markkinapaikka",
+    "verify_date": "Vahvista päivämäärä",
+    "note": "Huomautus",
+    "panel": "Paneeli",
+    "removed": "Poistettu",
+    "segments": "Segmentit",
+    "personal_info": "Henkilökohtaiset tiedot",
+    "preferences": "Asetukset",
+    "spec": "Spec",
+    "reviews": "Arvostelut",
+    "constraints": "Rajoitukset",
+    "flexible": "Joustava",
+    "usage_limit": "Käyttörajoitus",
+    "temporary": "Väliaikainen",
+    "original": "Alkuperäinen",
+    "saved": "Tallennettu!",
+    "sort": "Järjestellä",
+    "documents": "Asiakirjat",
+    "document": "Asiakirja",
+    "please_wait": "Odota...",
+    "pickup": "Noukkia",
+    "customize": "muokata",
+    "difficulty": "Vaikeus",
+    "banned": "Kielletty",
+    "company": "Yhtiö",
+    "tax_shipping": "Toimitusvero",
+    "warranty": "Takuu",
+    "return_policy": "PALAUTUSKÄYTÄNTÖ",
+    "guide": "Opas",
+    "translate": "Kääntää",
+    "public": "Julkinen",
+    "deleted": "Poistettu",
+    "variant": "Variantti",
+    "secure": "Turvallinen",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Seurata",
     "change_state": "Vaihda tilaa",
     "done": "Tehty",
-    "reply": "Vastaa"
+    "reply": "Vastaa",
+    "watch_now": "Katso nyt",
+    "unlock": "Avata",
+    "lock": "Lukko",
+    "create_clone": "Luo klooni",
+    "regenerate": "Luo uudelleen",
+    "add_message": "Lisää viesti",
+    "continue_chat": "Jatka keskustelua",
+    "add_new_message": "Lisää uusi viesti"
   },
   "instance_message_title": "Lähetä pikaviesti",
   "instance_message": "Hei {name}, Nimeni on {author} yrityksestä {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Postinumero",
     "enter_value": "Täytä tästä",
     "address_note": "Huomautus",
-    "tel": "Yhteysnumero"
+    "tel": "Yhteysnumero",
+    "service_address": "Valitse osoitteesi"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "puntaa",
     "quarts",
     "jaardia",
-    "huone"
+    "huone",
+    "sekuntia",
+    "pöytäkirja",
+    "tuntia",
+    "päivää",
+    "viikkoa",
+    "kuukaudet",
+    "vuotta"
   ],
   "region_types": {
     "State": "Osavaltio",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Vähimmäispituuden on oltava {length}",
     "invalid_min_array_length": "Valitse vähintään {length} kohdetta",
     "invalid_max_chars": "Enintään {maxCount} merkkiä",
-    "invalid_url": "Virheellinen URL"
+    "invalid_url": "Virheellinen URL",
+    "country_invalid": "Valitse kohdemaa!",
+    "postal_code_invalid": "Aseta kelvollinen postinumero!"
   },
   "colors": {
     "#D32F2F": "Punainen",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Valkoinen",
     "#FFF": "Valkoinen",
     "#000000": "Musta",
-    "#000": "Musta"
+    "#000": "Musta",
+    "#7d263a": "Kastanjanruskea",
+    "#FD9F17": "Kulta",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Armeija",
+    "#474747": "Asfaltti",
+    "#E6195C": "Marja",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Poltettu appelsiini",
+    "#80011F": "Kardinaali",
+    "#382829": "Suklaa",
+    "#F06336": "Koralli",
+    "#FAE7C9": "Kerma",
+    "#6B2257": "Herukka",
+    "#222127": "Tummanharmaa",
+    "#0D5A74": "Syvä sinivihreä",
+    "#00582F": "Ikivihreä",
+    "#214C30": "Metsä",
+    "#DC2867": "fuksia",
+    "#38561": "Kelly",
+    "#5C884D": "Puun lehti",
+    "#558450": "Vaalea Aqua",
+    "#96B5C9": "Vaaleansininen",
+    "#DCAFCE": "Liila",
+    "#D3E1A4": "Lime",
+    "#9DE7C2": "Minttu",
+    "#F6EAD2": "Luonnollinen",
+    "#1A1F35": "Laivasto",
+    "#404624": "Oliivi",
+    "#271020": "Luumu",
+    "#A8355C": "Vadelma",
+    "#D6BEA6": "Pehmeä kerma",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Sinivihreä",
+    "#A86EA9": "Violetti",
+    "#36454F": "Puuhiili",
+    "#b3b0ab": "hiiliharmaa",
+    "#463e3d": "Charcoal Heather",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Nimi",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Rakennuksen numero",
     "building_unit": "Yksikkö",
     "postcode": "Postinumero",
-    "note": "Huomautus"
+    "note": "Huomautus",
+    "county": "Lääni"
   },
   "product_types": {
     "physical": "Fyysinen",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Väri",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Yksinkertainen",
       "selective": "Valikoiva",
-      "switch": "Vaihtaa"
-    }
+      "switch": "Vaihtaa",
+      "file": "Tiedosto",
+      "number": "Määrä"
+    },
+    "placeholder_input": "Paikanpitäjä",
+    "file_type_input": "Hyväksytyt tiedostotyypit",
+    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "tuotteen nimi",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Anna matkapuhelimesi",
     "verification_code": "Vahvistuskoodi",
     "msg_title": "Moi,",
-    "msg_body": "Kirjaudu sisään, ole hyvä. Se kestää vain muutaman sekunnin."
+    "msg_body": "Kirjaudu sisään, ole hyvä. Se kestää vain muutaman sekunnin.",
+    "login_apple": "Kirjaudu sisään Applella"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Tunnisteet lisätty"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Erittäin monimutkainen",
+    "hard": "Kovaa",
+    "intermediate": "Keskitason",
+    "easy": "Helppo"
   }
 };

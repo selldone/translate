@@ -155,7 +155,19 @@ export default {
       "Setup": "dükan",
       "Sell": "Satyş we marketing",
       "Developer": "Ösdüriň",
-      "Application": "Goýmalar"
+      "Application": "Goýmalar",
+      "Product": "Önümler we kategoriýalary dolandyrmak",
+      "Blog": "CMS we Blog",
+      "Order": "Sargytlary ýerine ýetirmek merkezi",
+      "Channel": "Satyş kanallary",
+      "Accounting": "Hasap we töleg usullary",
+      "Incentives": "Höweslendiriş",
+      "Marketing": "Marketing we kampaniýalar",
+      "Logistic": "Logistik we eltip bermek",
+      "Customers": "Müşderiler kluby we segmentasiýa",
+      "Page": "Oturyş we ýöriteleşdirilen sahypalar",
+      "Access": "Işgärler / API giriş dolandyryşy",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github ammary",
@@ -193,7 +205,9 @@ export default {
       "stores": "Dükanlar",
       "roles": "Rollar",
       "home": "Öý",
-      "expert": "Bilermen"
+      "expert": "Bilermen",
+      "deals": "Geleşikler",
+      "providers": "Üpjün edijiler"
     },
     "shops": {
       "create_new": "Täze dükan dörediň",
@@ -456,7 +470,8 @@ export default {
           "publish_state": ".Agdaýy",
           "created_at": "Döredilen senesi",
           "updated_at": "Soňky täzelenme"
-        }
+        },
+        "subtitle": "Özüňizi we işiňizi görkezmek üçin häzirki zaman redaktory bilen makalalar ýazyň. Asyl mazmun, ýokary hilli SEO dostlukly blog ýazanda üns bermeli ilkinji zat."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Hasabat beriň",
         "tax": "Salgyt",
         "drop_shipping": "Satyjy kwitansiýalary",
-        "reseller_accounts": "Satyjy hasaplary"
+        "reseller_accounts": "Satyjy hasaplary",
+        "valuations": "Bahalandyrmalar"
       },
       "invoice": {
         "title": "Baglanan gapjyklary dükan",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Eltip bermek",
         "inventory": "Öwsele",
         "warehouse": "Ammar",
-        "logistic_apps": "Logistika"
+        "logistic_apps": "Logistika",
+        "profiles": "Tertipler"
       },
       "warehouse": {
         "title": "Ammar dükany",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Mugt eltip bermek üçin iň az sargyt bahasy",
           "notifications": {
             "update_success": "Ibermek hyzmat sazlamalary üstünlikli tamamlandy."
-          }
+          },
+          "shipping_cost_calculation": "Ibermek bahasyny hasaplamak",
+          "sod_true": "Barmaly ýeriňizde iberiş bahasyny alyň",
+          "sod_true_message": "Ippingük daşama hyzmatyňyzyň barmaly ýerinde iberiş bahasyny kabul edýändigine göz ýetiriň.",
+          "sod_false": "Awtoulag iberiş bahasyny hasaplamak",
+          "cod_true": "Eltip bermek üçin nagt kabul ediň",
+          "cod_false": "Diňe onlaýn tölegi kabul ediň",
+          "cod_true_message": "Ippingük daşama hyzmatyňyzyň KOD kabul edýändigine göz ýetiriň."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "Sms",
         "email": "E-poçta iberiň",
         "domain": "Domen",
-        "verifications": "Barlaglar"
+        "verifications": "Barlaglar",
+        "flow": "Akym",
+        "business_model": "Işewürlik modeli"
       },
       "delete_dialog": {
         "title": "Dükany poz",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Önüm bölümi",
       "unit_float": "Floüzýän bölüm (ýakyn wagtda)",
       "unit_float_hint": "Mysal üçin, müşderi 3 kg miwe sargyt edip biler, ýöne müşderä iberilen mukdar sargyt edilen mukdardan azajyk tapawutlanýar.",
-      "unit_float_message": "Sargyt gaýtadan işlenilende, gowşurylan mukdar sargyt edilen mukdardan tapawutlanyp biler. Ulgam bu tapawudy awtomatiki hasaplaýar we indiki sargytlara ulanyp boljak müşderä bergiňiz hökmünde ýazýar."
+      "unit_float_message": "Sargyt gaýtadan işlenilende, gowşurylan mukdar sargyt edilen mukdardan tapawutlanyp biler. Ulgam bu tapawudy awtomatiki hasaplaýar we indiki sargytlara ulanyp boljak müşderä bergiňiz hökmünde ýazýar.",
+      "status_list": {
+        "active": {
+          "title": "Işjeň | Onlaýn we awtonom satuw",
+          "description": "Bu önüm onlaýn sargytlar üçin elýeterli bolar."
+        },
+        "inactive": {
+          "title": "Işlemeýän | Diňe awtonom satuw",
+          "description": "Bu önüm onlaýn sargytlar üçin elýeterli bolmaz."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Anket",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Ahyrky wagty saýlaň",
       "independent_price": "Diňe şu görnüşiň bahasy",
       "same_price": "Esasy önümiň bahasy",
-      "variant_pricing_message": "Bu opsiýany saýlamak bilen, bu wariantyň bahasy esasy önüme garaşsyz kesgitlenip bilner."
+      "variant_pricing_message": "Bu opsiýany saýlamak bilen, bu wariantyň bahasy esasy önüme garaşsyz kesgitlenip bilner.",
+      "price_label_input": "Baha belligi",
+      "price_label_message": "Bahasy barada goşmaça maglumat goşuň ($ 1.5 / Fl Oz). Mysallary ulanyň: azyk önümleri, FMCG.",
+      "add_price_label_action": "Baha belligini goşuň"
     },
     "inputs_edit": {
       "title": "Alyjy maglumatlarynyň giriş görnüşi",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gateway {gateway_name} redaktirlendi."
     },
-    "developer_setting": "Ösdüriň we synagdan geçiriň"
+    "developer_setting": "Ösdüriň we synagdan geçiriň",
+    "live_mode_message": "Transactionhli amallar göni re inimde bolar."
   },
   "gift_card": {
     "title": "Sowgat kartlary",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Satyn alyjy tarapyndan redaktirlenen hasaplaşyk salgysy.",
     "payment-cod-confirm": "Kod tölegi tassyklandy.",
     "payment-cash-confirm": "Hasap üçin nagt puluň {mukdary} {walýutasynyň tölenendigi tassyklandy.",
-    "payment-dir-confirm": "Göni töleg kwitansiýasy tassyklandy."
+    "payment-dir-confirm": "Göni töleg kwitansiýasy tassyklandy.",
+    "vendor": "Satyjy sargyt ýagdaýy <b>{from} -den}</b> <b>-e</b> üýtgedi.",
+    "connect-sync": "“Connect OS” bilen sinhronlanan sargyt.",
+    "connect-shipped": "Birikdirmek tertibi {eltip bermek arkaly iberildi.",
+    "connect-returned": "Birikdirmek tertibi {eltip bermek arkaly yzyna gaýtaryldy.",
+    "connect-failed": "Buýrugy ýerine ýetirmek hyzmatdaş tarapyndan şowsuz boldy. {reason}",
+    "connect-canceled": "Buýruk partnýor tarapyndan ýatyryldy. {reason}",
+    "connect-action-cancel": "Sargydy ýatyrmagy haýyş. {reason}",
+    "connect-put-hold": "Buýruk saklandy. {reason}",
+    "connect-remove-hold": "Buýruk saklandy. {reason}",
+    "connect-confirmed": "Buýruk tassyklandy",
+    "email-vendor": "🔔 Sargyt habar beriji e-poçta <b>{vendor}</b> | iberildi {email}."
   },
   "inline_chart": {
     "today": "Şu gün",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Pul gazanyň",
     "menu": {
       "plans": "Meýilnamalar",
-      "accounts": "Hasaplar"
+      "accounts": "Hasaplar",
+      "participant": "Gatnaşan"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Dükana giriş açarlary",
     "shop_keys_message": "Bu düwmeler serweriňiz tarapyndan “Access Token” döretmek üçin ulanylýar. Düwmeleriň gizlin we diňe beýlekilere görünmezligi üçin serwerde ýerleşdirilendigine üns beriň.",
     "personal_keys_title": "Şahsy giriş açarlary",
-    "personal_keys_message": "Hasabyňyzyň açarlaryny şu ýerde döredip bilersiňiz. Bu düwmeleriň hasabyňyza girip biljekdigini unutmaň. Diňe näme edýändigiňizi anyk bilýän bolsaňyz, bu düwmeleri dörediň we ulanyň."
+    "personal_keys_message": "Hasabyňyzyň açarlaryny şu ýerde döredip bilersiňiz. Bu düwmeleriň hasabyňyza girip biljekdigini unutmaň. Diňe näme edýändigiňizi anyk bilýän bolsaňyz, bu düwmeleri dörediň we ulanyň.",
+    "clients_title": "Müşderiler",
+    "clients_message": "Bu düwmeler serweriňiz tarapyndan “Access Token” döretmek üçin ulanylýar. Düwmeleriň gizlin we diňe beýlekilere görünmezligi üçin serwerde ýerleşdirilendigine üns beriň."
   },
   "user_security_control": {
     "title": "Hasap howpsuzlygy",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Profilleri dolandyryň",
       "description": "Dükanyň profilini dolandyryň."
+    },
+    "shop-discount-code": {
+      "name": "Arzanladyş kody dolandyrmak",
+      "description": "Dükanda arzanladyş kodlaryny dolandyryň, redaktirläň we goşuň."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Sazlamalar",
       "change": "Zarýad",
       "transfer": "Geçirmek",
-      "transactions": "Geleşikler"
+      "transactions": "Geleşikler",
+      "charge": "Zarýad",
+      "history": "Taryh"
     },
     "transactions": {
       "title": "Hasap amallary",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Abunalyk tassyklamasyny ýatyryň",
       "message": "Bu abunalygy ýatyrýarsyňyzmy?",
       "action": "Abunalygy ýatyr"
-    }
+    },
+    "use_voucher_now": "Talon ulanyň",
+    "validity_duration": "Möhletiň dowamlylygy",
+    "validity_duration_hint": "12 aýlyk ygtyýarnama satyn almak bilen 30% arzanladyş alarsyňyz."
   },
   "admin_shop_layout": {
     "download_txt": "Maglumatlaryň tekstini göçürip alyň",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Uly şriftler",
     "large_font_message": "Teksti adatydan uly görkeziň",
     "samples": "Mysal dükanlaryny görkeziň",
-    "samples_message": "Işledilen bolsa, paneliňizde käbir dükanlar görkeziler."
+    "samples_message": "Işledilen bolsa, paneliňizde käbir dükanlar görkeziler.",
+    "automation": "Awtomatlaşdyryş",
+    "automation_message": "Dükanyň dolandyryş panelinde awtomatlaşdyryş belligini görkeziň. (Webhooks, Visual programmirleme, ...)"
   },
   "shop_locations": {
     "title": "Hyzmat berilýän ýurtlar",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Talon üstünlikli öçürildi."
-    }
+    },
+    "multiple_use": "Köp gezek ulanmak"
   },
   "coupon_edit": {
     "title_edit": "Talony redaktirläň",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Çäk",
       "description": "Ulanyjylaryň iň köp sanyna çäk belläň."
+    },
+    "SEGMENTS": {
+      "title": "Bölümler",
+      "description": "Müşderileri belli bir el segmentasiýasynda çäklendiriň."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Jemi sargyt mukdary sowgat kartlaryndan alyndy! Alyjynyň has köp pul tölemegi zerur däl.",
       "cod_msg": "Müşderi sargyt alanda töleýär.",
       "online_msg": "Müşderiden müşderiniň ekranynda QR kody skanirlemegini soraň."
-    }
+    },
+    "name": "POS",
+    "message": "Onlaýn satuw nokadyny nol gurmak, islendik smartfonda, planşetde we kompýuterde işlediň ýa-da el bilen sargyt dörediň."
   },
   "exporter": {
     "title": "Maglumatlary eksport ediň",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Serwere iber",
     "shop_license": "Dükan ygtyýarnamasy",
     "max_items_limit": "Iň ýokary elementleriň çägi",
-    "total_items": "Jemi zatlar"
+    "total_items": "Jemi zatlar",
+    "customer": {
+      "title": "Müşderileri import ediň",
+      "subtitle": "Müşderileriň CSV faýllaryny şu ýere ýükläň. Adaty formata eýerýändigiňize göz ýetiriň we gizlinlik düzgünlerini berjaý etmelisiňiz."
+    }
   },
   "campaigns": {
     "title": "Kampaniýalar",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Salgylar",
     "light_checkout": "Lighteňil barlag mowzugy",
     "light_header": "Lightagty sözbaşy",
-    "light_footer": "Lighteňil aşaky sözbaşy"
+    "light_footer": "Lighteňil aşaky sözbaşy",
+    "product_page": "Haryt sahypasy",
+    "typography": "Tipografiýa",
+    "header": "Sözbaşy",
+    "custom_code": "Custörite kod",
+    "custom_css": "Hususy CSS"
   },
   "app_templates": {
     "default": "Bellenen",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Hyzmaty dolandyryň",
     "option_deliver_by_courier": "1-nji wariant: Kurýerleriňiz tarapyndan gowşuryň.",
     "option_add_to_que": "2-nji wariant: iberiş hyzmat sahypasynda işlemek üçin nobata goşuň.",
-    "option_instant_shipping": "3-nji wariant: Derrew eltip bermek."
+    "option_instant_shipping": "3-nji wariant: Derrew eltip bermek.",
+    "pickup_action": "Pikap tassyklamasy"
   },
   "shop_home_edit": {
     "title": "Baş sahypa sazlamasy",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Dükanyňyza önüm goşuldy.",
       "request_access": "Giriş haýyşyňyzy lomaý satyja üstünlikli iberdik."
-    }
+    },
+    "show_eligible_shops_message": "Göwnejaý dükanlary görkeziň"
   },
   "product_dropshipping": {
     "need_re_enable": "Bu önüm asyl satyjy tarapyndan üýtgedildi, bu bahalaryň üýtgemegi dükanyňyzdaky önümi öçürdi. Üýtgeşmeleri barlaň we önümi gaýtadan işlemäge razy bolsaňyz, aşakdaky düwmä basyň.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Dükanyňyzda hiç hili kategoriýa ýok.",
       "limit": "Önümleriň çäkleri",
       "limit_message": "Önümleriň netijelerini hasaplaň",
-      "select_categories": "Elýeterli kategoriýalary saýlaň"
+      "select_categories": "Elýeterli kategoriýalary saýlaň",
+      "categories_limit": "Kategoriýalar çäklidir",
+      "categories_limit_msg": "Iň köp kategoriýany giriziň. Çäklendirme noly belläň."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Awokado üstünlikli täzelendi.",
       "add_success": "Awokado üstünlikli döredildi."
-    }
+    },
+    "name": "Awakado"
   },
   "avocado_orders": {
     "title": "Awakado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "hereketsiz",
     "active_message": "Bu opsiýany açsaňyz, her önümiň dolandyryş bölüminde “Çalt satuw-kodlar” döretmek mümkinçiligi görkeziler.",
     "hyper_form_link_message": "Dükanyňyzyň giper sahypa baglanyşygy",
-    "configuration": "Giper sazlamalary"
+    "configuration": "Giper sazlamalary",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Müşderileriň demografiýasy",
     "subtitle": "Az marketing bilen has köp baha bermek üçin has gowy karar bermek üçin müşderileriň maglumatlaryny süzüň we eksport ediň! Müşderileriňiziň şahsy durmuşyna hormat goýmagyňyzy haýyş edýäris we olara köpçülikleýin e-poçta ibermäň! Müşderileriňiziň maglumatlaryny hiç biriniň rugsady bolmazdan 3-nji tarap hyzmatlary bilen paýlaşmaň."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Almak salgylary",
+      "subtitle": "Pikap salgylaryny şu ýere goşuň we redaktirläň. Ulanyjylar giriş sahypasyndaky alma salgysyny saýlap bilerler.",
+      "add_action": "Täze ýer goşuň"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Şahamça POS",
+    "open_pos_action": "POS çalt sargyt",
+    "description": "Bu opsiýa, Instagram sahypalarynyň we beýleki sosial ulgamlaryň administratorlary üçin amatlydyr. Müşderilerden el bilen sargytlary almak we goşmak üçin Affiliate POS ulanyň. Şahamçalaryňyz (ýa-da franşiza) Affiliate POS-a täze sargytlar goşup, goýum ýazgysyny ýükläp bilerler."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Giriş usullary",
+      "subtitle": "Ulanyjylaryň dükanyňyza giriş usulyny sazlaň."
+    },
+    "checkout": {
+      "title": "Çykyş akymy",
+      "subtitle": "Müşderiňiziň syýahatyny we söwdaňyzda satyn alyş akymyny sazlaň.",
+      "map": {
+        "title": "Karta",
+        "subtitle": "Ulanyjylar kartadaky gowşuryş ýerini saýlamalydyrlar (Uber ýaly).",
+        "subtitle_no_map": "Ippingük daşamak hasaplamasyndaky aralyk, müşderi tarapyndan berlen salgyda ýok bolsa, noly hasaplaýar."
+      },
+      "mode": {
+        "title": "Müşderileriň giriş nokady",
+        "default": {
+          "title": "ASAP (Bellenilen)",
+          "msg": "Ulanyjylar mümkin boldugyça gysga wagtda girýärler. (Has köp öwrülişik)"
+        },
+        "on_checkout": {
+          "title": "Çykyşda",
+          "msg": "Ulanyjylary töleg ädiminde girmäge mejbur ediň."
+        },
+        "login_free": {
+          "title": "Goşmaça giriş",
+          "msg": "Sargyt töleginden soň goşmaça giriş .."
+        }
+      },
+      "express": {
+        "title": "Araba goşanyňyzdan soň gönükdiriň",
+        "false": {
+          "title": "Adaty tertip",
+          "msg": "Sahypada galyň we sebete goşmak düwmesine basanyňyzdan soň söwda etmegi dowam etdiriň."
+        },
+        "true": {
+          "title": "Ekspress tertibi",
+          "msg": "Araba goşmak düwmesine basanyňyzdan soň müşderini töleg sahypasyna gönükdiriň."
+        }
+      },
+      "shipping_address": {
+        "title": "Ippingükleme salgysyny soraň"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fiziki we hyzmat (Bellenilen)",
+      "desc": "Müşderiden fiziki we hyzmat töleglerinde adres ýazmagyny haýyş ediň."
+    },
+    "physical": {
+      "title": "Diňe fiziki",
+      "desc": "Müşderiden diňe fiziki barlagdan bir adresi girizmegini haýyş ediň."
+    },
+    "off": {
+      "title": "Hiç haçan",
+      "desc": "Hiç wagt iberiş salgysyny soramaň. Service Hyzmat görnüşiniň ýerine önümler üçin fiziki görnüşi saýlap, dürli görnüşli hyzmatlary etmegi meýilleşdirýän bolsaňyz, bu opsiýany ulanyň."
+    }
+  },
+  "business_model": {
+    "title": "Iş modelini gurmak",
+    "subtitle": "Iş modeliňizi düzüň, OS-yňyzy sahnanyň aňyrsynda düzeris."
+  },
+  "business_type": {
+    "title": "Söwda görnüşleri",
+    "subtitle": "Dükanyňyzda satmak isleýän önümleriňiziň görnüşini düzüň. Selldone-da önüm görnüşleri diňe önümleriň bir görnüşi däl; ýerine ýetiriş prosedurasy hakda has köp.",
+    "send_activation_request_to_support": "Goldaw biletinde işjeňleşdirme haýyşyny iberiň.",
+    "require_kyc": "Kärhananyň eýesi KYC.",
+    "needs_enterprise_license": "Kärhana ygtyýarnamasy bolmaly.",
+    "marketplace_caution_message": "“Marketplace” -i iş modeliňiziň konfigurasiýasyna çuňňur täsir edýändigi üçin düzüň. Mysal üçin, garaşsyz baha we inwentar bilen her önüm üçin azyndan bir satyjyny kesgitlemeli. Müşderiler satyjy bolmadyk önümleri satyn alyp bilmeýärler."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Adaty dükan",
+      "desc": "Adatça KOK, öý işi ýa-da satyjy - önümini gönüden-göni müşderilere satýan ýa-da lomaý satyjylaryň önümlerini satyjy hökmünde satýan."
+    },
+    "dropshipping": {
+      "title": "Taşlamak",
+      "desc": "Hiç hili önüm we sanaw ýazmaň - üçünji tarapa, adatça lomaý satyja (Printify, Wholesale2B, ...) ýa-da öndürijä töleýärsiňiz we olar sahnanyň aňyrsynda sargytlary ýerine ýetirýärler."
+    },
+    "wholesaler": {
+      "title": "Taşlaýjy üpjün ediji",
+      "desc": "Adatça lomaý satyjy ýa-da öndüriji - sargytlary göni ahyrky sarp edijä iberýär. Selldone-daky beýleki söwdagärler önümleriňizi dükanlaryna taşlap bilerler."
+    },
+    "marketplace": {
+      "title": "Bazar",
+      "desc": "Onlaýn bazarlar alyjylary we satyjylary hususy we merkezleşdirilen platformada birleşdirýär."
+    },
+    "franchise": {
+      "title": "Franşiza / Şahamça",
+      "desc": "Franşiza, markaňyzy (Françaýza) döredýän ýa-da önümleriňizi öz markasy (Affiliate) bilen satýan franşizoryň gatnaşmagynda önümleri ýa-da hyzmatlary paýlamagyň usulydyr."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Gapjyklar",
+    "pricing_models": "Bahalar",
+    "add_vendor": "Satyjy goşuň",
+    "requests": "Islegler"
+  },
+  "price_input_type": {
+    "title": "Bahanyň giriş görnüşi",
+    "default": {
+      "title": "Bellenen",
+      "desc": "Arabadaky mukdar hökmünde bahany saýlaň."
+    },
+    "area": {
+      "title": "Meýdany",
+      "desc": "Mukdary hasaplamak üçin ini we uzynlygyny giriş hökmünde giriziň."
+    },
+    "volume": {
+      "title": "göwrümi",
+      "desc": "Mukdaryny, uzynlygyny we beýikligini mukdary hasaplamak üçin giriş hökmünde giriziň."
+    },
+    "custom": {
+      "title": "Omörite (Giriş görnüşi boýunça)",
+      "desc": "Hundredsüzlerçe wariant gerek däl! Örän özleşdirilip bilinýän önümler üçin çykdajylary hasaplamak görnüşini dörediň."
+    }
+  },
+  "vendors_list": {
+    "title": "Satyjylarym",
+    "message": "Öz satyjylarymyň sanawy."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Birnäçe domeni iş ulgamyňyza birikdiriň we hemmesini bir ýerde dolandyryň. Blog we jemgyýet ýaly web sahypaňyzyň her bölegi üçin aýratyn domenler döretmek ýa-da şahamçalaryňyz üçin dürli domenleri ulanmak üçin birnäçe domen aýratynlygyny ulanyp bilersiňiz."
+  },
+  "notes": {
+    "add_action": "Toparyňyz üçin bellik goşuň",
+    "notifications": {
+      "success_add": "Bellik üstünlikli goşuldy.",
+      "success_delete": "Bellik üstünlikli öçürildi."
+    }
+  },
+  "external_services": {
+    "title": "Daşarky hyzmatlar",
+    "subtitle": "SMS we e-poçta ýaly daşarky hyzmatlaryň soňky ýagdaýyna gözegçilik ediň."
   }
 };

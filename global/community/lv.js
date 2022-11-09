@@ -65,7 +65,9 @@ export default {
     "my_feed": "Es",
     "blocked_message": "Jūs esat bloķēts līdz",
     "reported": "Ziņots",
-    "report": "Ziņot"
+    "report": "Ziņot",
+    "post": "Post",
+    "attach_file": "Pievienot failu"
   },
   "invite_message": "{user} uzaicināja jūs uz forumu {community}. Noklikšķiniet uz tālāk esošās saites, lai izlasītu savu draugu novērojumus un dalītos ar viņiem savā viedoklī. ES gaidu tevi.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Noņemt aptauju",
     "take_screenshot": "Ņem kā aizsegu",
     "take_link_msg": "Iepriekšēja saite šeit un ievadiet",
-    "eligible_title": "Darbības, lai varētu publicēt ziņas"
+    "eligible_title": "Darbības, lai varētu publicēt ziņas",
+    "public": "Publisks"
   },
   "tips": {
     "verify_email": "Ievadiet un apstipriniet savu e-pastu.",

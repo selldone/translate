@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Zvigadzirwa zvinoenderana",
     "price": "Mutengo",
     "rate": "Rate",
-    "comment": "Comment"
+    "comment": "Comment",
+    "warranty": "Warranty",
+    "return_policy": "Return Policy",
+    "guide": "Guide",
+    "shipping": "Shipping"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Odha yako yakaiswa zvinobudirira.",
       "delete_success": "Chinhu chadzimwa."
-    }
+    },
+    "select_address_message": "Ndapota isa kero yako, uye ipapo unogona kutumira odha."
   },
   "hyper": {
     "title": "Odha kugadzira",
@@ -541,5 +546,19 @@ export default {
       "message": "Wataura muripo wechinhu ichi. Iwe unogona kushandura mari yechaji yechinhu chakatengwa nemutengi.",
       "charge": "Charge"
     }
+  },
+  "check_access": {
+    "waiting_message": "Takamirira kutarisa kupinda...",
+    "no_access_message": "Sezvineiwo, haugone kuwana chitoro chedu.<br/> Ndapota taura nesu."
+  },
+  "share_order": {
+    "action": "Govera odha",
+    "title": "Govera odha iyi nevamwe.",
+    "message": "Iyo link yakachengeteka, igovere chete neavo vaunoziva. Wese ane chinongedzo ichi anogona kutevedzera odha yako uye kuona kero yakasarudzwa. Ichange iine ruzivo nezve ngoro yako yazvino.",
+    "valid_period": "Iyi link inopera mushure memaawa makumi mana nemasere.",
+    "import_order_action": "Import order",
+    "retrieve_dialog_title": "Dzora kurongeka kwekunze",
+    "address_included": "Govera bhasiketi zvinhu + Kero",
+    "address_excluded": "Goverana chete zvinhu zvetswanda"
   }
 };

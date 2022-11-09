@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Tegishli mahsulotlar",
     "price": "Narxi",
     "rate": "Baho",
-    "comment": "Izoh"
+    "comment": "Izoh",
+    "warranty": "Kafolat",
+    "return_policy": "Qaytarish siyosati",
+    "guide": "Qoʻllanma",
+    "shipping": "yuk tashish; yetkazib berish"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Buyurtmangiz muvaffaqiyatli joylashtirildi.",
       "delete_success": "Element oʻchirildi."
-    }
+    },
+    "select_address_message": "Iltimos, manzilingizni kiriting va keyin buyurtmani yuborishingiz mumkin."
   },
   "hyper": {
     "title": "Buyurtma yaratish",
@@ -541,5 +546,19 @@ export default {
       "message": "Siz ushbu mahsulot uchun toʻlovni belgilagansiz. Siz mijoz tomonidan sotib olingan mahsulot uchun to'lov miqdorini o'zgartirishingiz mumkin.",
       "charge": "Zaryadlash"
     }
+  },
+  "check_access": {
+    "waiting_message": "Kirishni tekshirish kutilmoqda...",
+    "no_access_message": "Afsuski, siz bizning do'konimizga kira olmaysiz.<br/> Iltimos, biz bilan bog'laning."
+  },
+  "share_order": {
+    "action": "Buyurtmani baham ko'ring",
+    "title": "Bu buyurtmani boshqalar bilan baham ko'ring.",
+    "message": "Bu xavfsiz havola, uni faqat tanishlaringiz bilan baham ko'ring. Bu havolaga ega boʻlgan har bir kishi buyurtmangizni nusxalashi va tanlangan manzilni koʻrishi mumkin. U sizning joriy savatingiz haqidagi ma'lumotlarni o'z ichiga oladi.",
+    "valid_period": "Bu havola 48 soatdan keyin tugaydi.",
+    "import_order_action": "Import buyurtmasi",
+    "retrieve_dialog_title": "Tashqi buyurtmani oling",
+    "address_included": "Savatdagi narsalarni ulashish + Manzil",
+    "address_excluded": "Faqat savatdagi narsalarni baham ko'ring"
   }
 };

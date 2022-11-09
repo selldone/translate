@@ -65,7 +65,9 @@ export default {
     "my_feed": "לִי",
     "blocked_message": "אתה חסום עד",
     "reported": "דווח",
-    "report": "להגיש תלונה"
+    "report": "להגיש תלונה",
+    "post": "הודעה",
+    "attach_file": "לצרף קובץ"
   },
   "invite_message": "{user} הזמין אותך לפורום {community}. לחץ על הקישור למטה כדי לקרוא את התצפיות של חבריך ולשתף איתם את דעתך. אני מחכה לך.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "הסר סקר",
     "take_screenshot": "קח ככיסוי",
     "take_link_msg": "קישור עבר כאן והיכנס",
-    "eligible_title": "שלבים לזכאות לפרסום"
+    "eligible_title": "שלבים לזכאות לפרסום",
+    "public": "פּוּמְבֵּי"
   },
   "tips": {
     "verify_email": "הכנס ואמת את האימייל שלך.",

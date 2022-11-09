@@ -65,7 +65,9 @@ export default {
     "my_feed": "Me",
     "blocked_message": "Wakavharwa kusvika",
     "reported": "Zvataurwa",
-    "report": "Report"
+    "report": "Report",
+    "post": "Post",
+    "attach_file": "Batanidza faira"
   },
   "invite_message": "{user} akakukoka kuforamu {community}. Tinya pane iyi link iripazasi kuti uverenge zvakaonekwa neshamwari dzako uye ugovane maonero ako kwavari. Ndakakumirira.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Bvisa sarudzo",
     "take_screenshot": "Tora sebutiro",
     "take_link_msg": "Yapfuura link pano uye isa",
-    "eligible_title": "Matanho ekukodzera kutumira"
+    "eligible_title": "Matanho ekukodzera kutumira",
+    "public": "Veruzhinji"
   },
   "tips": {
     "verify_email": "Pinda uye simbisa email yako.",

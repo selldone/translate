@@ -65,7 +65,9 @@ export default {
     "my_feed": "أنا",
     "blocked_message": "أنت محظور حتى",
     "reported": "ذكرت",
-    "report": "تقرير"
+    "report": "تقرير",
+    "post": "بريد",
+    "attach_file": "أرفق ملف"
   },
   "invite_message": "دعاك {user} إلى المنتدى {community}. انقر على الرابط أدناه لقراءة ملاحظات أصدقائك ومشاركة رأيك معهم. أنا في انتظارك.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "إزالة الاستطلاع",
     "take_screenshot": "خذ كغطاء",
     "take_link_msg": "الرابط السابق هنا وادخل",
-    "eligible_title": "خطوات مؤهلة للنشر"
+    "eligible_title": "خطوات مؤهلة للنشر",
+    "public": "عام"
   },
   "tips": {
     "verify_email": "أدخل وتحقق من بريدك الإلكتروني.",

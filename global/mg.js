@@ -558,7 +558,52 @@ export default {
     "merchant": "Mpivarotra",
     "per_product": "Isaky ny vokatra",
     "journey": "dia",
-    "after": "rehefa"
+    "after": "rehefa",
+    "waiting_for_payment": "Fenoy ny fandoavana azafady...",
+    "hour": "Ora",
+    "minute": "minitra",
+    "premium": "Premium",
+    "light": "fahazavana",
+    "dark": "Maizina",
+    "guest": "HIVAHINY",
+    "shops": "fivarotana",
+    "vendor": "Mpivarotra",
+    "vendors": "mpivarotra",
+    "marketplace": "-tsena",
+    "verify_date": "Hamarino ny daty",
+    "note": "Fanamarihana",
+    "panel": "Panel",
+    "removed": "nesorina",
+    "segments": "fizarana",
+    "personal_info": "Info manokana",
+    "preferences": "safidinao",
+    "spec": "Spec",
+    "reviews": "Hevitra",
+    "constraints": "faneren'ny",
+    "flexible": "malefaka",
+    "usage_limit": "fetra fampiasana",
+    "temporary": "vonjimaika",
+    "original": "tamin'ny fototra",
+    "saved": "Voavonjy!",
+    "sort": "Sort",
+    "documents": "Docs",
+    "document": "tahirin-kevitra",
+    "please_wait": "Andraso azafady...",
+    "pickup": "Mitsena",
+    "customize": "Ataovy miavaka",
+    "difficulty": "fahasarotana",
+    "banned": "voarara",
+    "company": "orinasa",
+    "tax_shipping": "Hetra fandefasana",
+    "warranty": "Warranty",
+    "return_policy": "Politika famerenana",
+    "guide": "Torolalana",
+    "translate": "translate",
+    "public": "-bahoaka",
+    "deleted": "nofafana",
+    "variant": "Variant",
+    "secure": "fiarovana",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "manara-maso",
     "change_state": "Hanova sata",
     "done": "hatao",
-    "reply": "navalin'i"
+    "reply": "navalin'i",
+    "watch_now": "Jereo izao",
+    "unlock": "hamaha",
+    "lock": "Hidio",
+    "create_clone": "Mamorona clone",
+    "regenerate": ", vokatr'izany",
+    "add_message": "Ampio hafatra",
+    "continue_chat": "Tohizo ny resaka",
+    "add_new_message": "Hanampy hafatra vaovao"
   },
   "instance_message_title": "Mandefasa hafatra eo noho eo",
   "instance_message": "Salama {name}, Ny anarako dia {author} avy amin'ny {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Kaody paositra",
     "enter_value": "Fenoy eto",
     "address_note": "Fanamarihana",
-    "tel": "nomeraon'ny fifandraisana"
+    "tel": "nomeraon'ny fifandraisana",
+    "service_address": "Fidio ny adiresinao"
   },
   "weight": {
     "g": "h",
@@ -753,7 +807,14 @@ export default {
     "kilao",
     "efaha",
     "metatra",
-    "efitra"
+    "efitra",
+    "segondra",
+    "minitra",
+    "ORA",
+    "andro",
+    "HERINANDRON'NY",
+    "VOLANA",
+    "taona"
   ],
   "region_types": {
     "State": "FANJAKANA",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Ny halavany farafahakeliny dia tsy maintsy {length}",
     "invalid_min_array_length": "Farafaharatsiny misafidy singa {length}.",
     "invalid_max_chars": "{maxCount} tarehintsoratra max",
-    "invalid_url": "URL tsy mety"
+    "invalid_url": "URL tsy mety",
+    "country_invalid": "Fidio ny firenena haleha!",
+    "postal_code_invalid": "Mametraha kaody paositra manankery!"
   },
   "colors": {
     "#D32F2F": "MENA",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "fotsy",
     "#FFF": "fotsy",
     "#000000": "Mainty",
-    "#000": "Mainty"
+    "#000": "Mainty",
+    "#7d263a": "Maroon",
+    "#FD9F17": "volamena",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "TAFIKA",
+    "#474747": "asfalta",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Voasary may",
+    "#80011F": "Cardinal",
+    "#382829": "Chocolate",
+    "#F06336": "Coral",
+    "#FAE7C9": "fanosotra",
+    "#6B2257": "Currant",
+    "#222127": "Grey maizina",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Evergreen",
+    "#214C30": "ALA",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Ravina",
+    "#558450": "Light Aqua",
+    "#96B5C9": "Manga tanora",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "Voasary makirana",
+    "#9DE7C2": "Mint",
+    "#F6EAD2": "Natural",
+    "#1A1F35": "tafika an-dranomasina",
+    "#404624": "Oliva",
+    "#271020": "paisom-bazaha",
+    "#A8355C": "Framboise",
+    "#D6BEA6": "Cream malefaka",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Violet",
+    "#36454F": "arina",
+    "#b3b0ab": "karbona Gray",
+    "#463e3d": "Saribao Heather",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Anarana",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Laharana trano",
     "building_unit": "Unit",
     "postcode": "Kaody paositra",
-    "note": "Fanamarihana"
+    "note": "Fanamarihana",
+    "county": "faritra"
   },
   "product_types": {
     "physical": "ara-batana",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "loko",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "tsotra",
       "selective": "mifantina",
-      "switch": "jiro"
-    }
+      "switch": "jiro",
+      "file": "rakitra",
+      "number": "isa"
+    },
+    "placeholder_input": "Mpitondra toerana",
+    "file_type_input": "Karazana rakitra azo ekena",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Anaran'ny vokatra",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Ampidiro ny findainao",
     "verification_code": "Kaody fanamarinana",
     "msg_title": "Salama,",
-    "msg_body": "Midira azafady. Mitaky segondra vitsy monja."
+    "msg_body": "Midira azafady. Mitaky segondra vitsy monja.",
+    "login_apple": "Midira amin'ny Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Nampiana tenifototra"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Tena sarotra",
+    "hard": "Sarotra",
+    "intermediate": "kafa",
+    "easy": "Mora"
   }
 };

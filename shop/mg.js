@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Vokatra mifandraika",
     "price": "Vidiny",
     "rate": "taha",
-    "comment": "fanehoan-kevitra"
+    "comment": "fanehoan-kevitra",
+    "warranty": "Warranty",
+    "return_policy": "Politika famerenana",
+    "guide": "Torolalana",
+    "shipping": "Fandefasana"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Vita soa aman-tsara ny kaomandinao.",
       "delete_success": "singa voafafa."
-    }
+    },
+    "select_address_message": "Ampidiro azafady ny adiresinao, ary azonao atao ny mandefa ny baiko."
   },
   "hyper": {
     "title": "Famoronana baiko",
@@ -541,5 +546,19 @@ export default {
       "message": "Nametraka sara ho an'ity entana ity ianao. Azonao atao ny manova ny sandan'ny entana novidin'ny mpanjifa.",
       "charge": "anjara-raharaha"
     }
+  },
+  "check_access": {
+    "waiting_message": "Miandry hanamarina ny fidirana...",
+    "no_access_message": "Indrisy fa tsy afaka miditra amin'ny fivarotanay ianao.<br/> Mifandraisa aminay azafady."
+  },
+  "share_order": {
+    "action": "Mizara baiko",
+    "title": "Zarao amin'ny hafa ity baiko ity.",
+    "message": "Rohy azo antoka io, zarao amin'izay fantatrao ihany. Ny olona rehetra manana an'io rohy io dia afaka manao kopia ny kaomandinao ary mahita ny adiresy voafantina. Hisy fampahafantarana momba ny sarety misy anao ankehitriny.",
+    "valid_period": "Ity rohy ity dia ho tapitra aorian'ny 48 ora.",
+    "import_order_action": "Manafatra baiko",
+    "retrieve_dialog_title": "Alao ny baiko ivelany",
+    "address_included": "Mizara entana harona + Adiresy",
+    "address_excluded": "Zarao ihany ny entana harona"
   }
 };

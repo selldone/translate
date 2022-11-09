@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Produits connexes",
     "price": "Prix",
     "rate": "Taux",
-    "comment": "Commenter"
+    "comment": "Commenter",
+    "warranty": "garantie",
+    "return_policy": "Politique de retour",
+    "guide": "Guide",
+    "shipping": "Expédition"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Votre commande a été passée avec succès.",
       "delete_success": "Article supprimé."
-    }
+    },
+    "select_address_message": "Veuillez entrer votre adresse, puis vous pourrez soumettre la commande."
   },
   "hyper": {
     "title": "Création de commande",
@@ -541,5 +546,19 @@ export default {
       "message": "Vous avez indiqué des frais pour cet article. Vous pouvez modifier le montant des frais pour l'article acheté par le client.",
       "charge": "Charger"
     }
+  },
+  "check_access": {
+    "waiting_message": "En attente de vérification d'accès...",
+    "no_access_message": "Malheureusement, vous n'avez pas accès à notre boutique.<br/> Contactez nous s'il vous plait."
+  },
+  "share_order": {
+    "action": "Partager la commande",
+    "title": "Partagez cette commande avec d'autres.",
+    "message": "C'est un lien sécurisé, ne le partagez qu'avec ceux que vous connaissez. Toute personne disposant de ce lien peut dupliquer votre commande et voir l'adresse sélectionnée. Il contiendra des informations sur votre panier actuel.",
+    "valid_period": "Ce lien expirera après 48 heures.",
+    "import_order_action": "Commande d'importation",
+    "retrieve_dialog_title": "Récupérer la commande externe",
+    "address_included": "Partager les articles du panier + Adresse",
+    "address_excluded": "Partager uniquement les articles du panier"
   }
 };

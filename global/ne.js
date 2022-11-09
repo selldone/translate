@@ -558,7 +558,52 @@ export default {
     "merchant": "व्यापारी",
     "per_product": "प्रति उत्पादन",
     "journey": "यात्रा",
-    "after": "पछि"
+    "after": "पछि",
+    "waiting_for_payment": "कृपया भुक्तानी पूरा गर्नुहोस्...",
+    "hour": "घण्टा",
+    "minute": "मिनेट",
+    "premium": "प्रिमियम",
+    "light": "उज्यालो",
+    "dark": "अँध्यारो",
+    "guest": "अतिथि",
+    "shops": "स्टोरहरू",
+    "vendor": "विक्रेता",
+    "vendors": "विक्रेताहरु",
+    "marketplace": "बजार",
+    "verify_date": "मिति प्रमाणित गर्नुहोस्",
+    "note": "नोट",
+    "panel": "प्यानल",
+    "removed": "हटाइयो",
+    "segments": "खण्डहरू",
+    "personal_info": "व्यक्तिगत जानकारी",
+    "preferences": "प्राथमिकताहरू",
+    "spec": "विनिर्देश",
+    "reviews": "समीक्षाहरू",
+    "constraints": "बाधाहरू",
+    "flexible": "लचिलो",
+    "usage_limit": "उपयोग सीमा",
+    "temporary": "अस्थायी",
+    "original": "मौलिक",
+    "saved": "सुरक्षित गरियो!",
+    "sort": "क्रमबद्ध गर्नुहोस्",
+    "documents": "कागजातहरू",
+    "document": "कागजात",
+    "please_wait": "कृपया पर्खनुहोस्...",
+    "pickup": "प्रगति गर्नु",
+    "customize": "अनुकूलन गर्नुहोस्",
+    "difficulty": "कठिनाई",
+    "banned": "प्रतिबन्धित",
+    "company": "कम्पनी",
+    "tax_shipping": "ढुवानी कर",
+    "warranty": "वारेन्टी",
+    "return_policy": "फिर्ता नीति",
+    "guide": "गाइड",
+    "translate": "अनुवाद गर्नुहोस्",
+    "public": "सार्वजनिक",
+    "deleted": "मेटाइयो",
+    "variant": "संस्करण",
+    "secure": "सुरक्षित",
+    "admin": "व्यवस्थापक"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "ट्र्याक",
     "change_state": "स्थिति परिवर्तन गर्नुहोस्",
     "done": "सकियो",
-    "reply": "जवाफ दिनुहोस्"
+    "reply": "जवाफ दिनुहोस्",
+    "watch_now": "अहिले हेर्नुहोस्",
+    "unlock": "अनलक गर्नुहोस्",
+    "lock": "ताला",
+    "create_clone": "क्लोन सिर्जना गर्नुहोस्",
+    "regenerate": "पुन: उत्पन्न गर्नुहोस्",
+    "add_message": "सन्देश थप्नुहोस्",
+    "continue_chat": "च्याट जारी राख्नुहोस्",
+    "add_new_message": "नयाँ सन्देश थप्नुहोस्"
   },
   "instance_message_title": "तत्काल सन्देश पठाउनुहोस्",
   "instance_message": "नमस्ते {name}, मेरो नाम {company} बाट {author} हो।",
@@ -690,7 +743,8 @@ export default {
     "postcode": "पोष्टकोड",
     "enter_value": "यहाँ भर्नुहोस्",
     "address_note": "नोट",
-    "tel": "सम्पर्क नम्बर"
+    "tel": "सम्पर्क नम्बर",
+    "service_address": "आफ्नो ठेगाना चयन गर्नुहोस्"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "पाउन्ड",
     "क्वार्ट्स",
     "गज",
-    "कोठा"
+    "कोठा",
+    "सेकेन्ड",
+    "मिनेट",
+    "घण्टा",
+    "दिनहरू",
+    "हप्ताहरू",
+    "महिना",
+    "वर्ष"
   ],
   "region_types": {
     "State": "राज्य",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "न्यूनतम लम्बाइ {length} हुनुपर्छ",
     "invalid_min_array_length": "कम्तिमा {length} वस्तुहरू चयन गर्नुहोस्",
     "invalid_max_chars": "अधिकतम {maxCount} वर्णहरू",
-    "invalid_url": "अमान्य URL"
+    "invalid_url": "अमान्य URL",
+    "country_invalid": "गन्तव्य देश चयन गर्नुहोस्!",
+    "postal_code_invalid": "मान्य हुलाक कोड सेट गर्नुहोस्!"
   },
   "colors": {
     "#D32F2F": "रातो",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "सेतो",
     "#FFF": "सेतो",
     "#000000": "कालो",
-    "#000": "कालो"
+    "#000": "कालो",
+    "#7d263a": "मरुन",
+    "#FD9F17": "सुन",
+    "#229DBF": "एक्वा",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "सेना",
+    "#474747": "डामर",
+    "#E6195C": "बेरी",
+    "#B2184C": "बेरी ट्राइब्लेन्ड",
+    "#FC7F5F": "जलेको सुन्तला",
+    "#80011F": "कार्डिनल",
+    "#382829": "चकलेट",
+    "#F06336": "कोरल",
+    "#FAE7C9": "क्रीम",
+    "#6B2257": "करेन्ट",
+    "#222127": "गाढा खैरो",
+    "#0D5A74": "गहिरो चिसो",
+    "#00582F": "सदाबहार",
+    "#214C30": "जङ्गल",
+    "#DC2867": "Fuchsia",
+    "#38561": "केली",
+    "#5C884D": "पात",
+    "#558450": "लाइट एक्वा",
+    "#96B5C9": "हल्का निलो",
+    "#DCAFCE": "लिलाक",
+    "#D3E1A4": "लाइम",
+    "#9DE7C2": "पुदिना",
+    "#F6EAD2": "प्राकृतिक",
+    "#1A1F35": "नौसेना",
+    "#404624": "जैतून",
+    "#271020": "आलुबखडा",
+    "#A8355C": "रास्पबेरी",
+    "#D6BEA6": "नरम क्रीम",
+    "#BEA994": "ट्यान",
+    "#0DB2AE": "निलो",
+    "#A86EA9": "बैंगनी",
+    "#36454F": "चारकोल",
+    "#b3b0ab": "कार्बन ग्रे",
+    "#463e3d": "चारकोल हेदर",
+    "#282d3c": "नौसेना ब्लेजर"
   },
   "address_info": {
     "name": "नाम",
@@ -838,7 +940,8 @@ export default {
     "building_number": "भवन नम्बर",
     "building_unit": "एकाइ",
     "postcode": "पोष्टकोड",
-    "note": "नोट"
+    "note": "नोट",
+    "county": "काउन्टी"
   },
   "product_types": {
     "physical": "शारीरिक",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "रङ",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "सरल",
       "selective": "चयनात्मक",
-      "switch": "स्विच गर्नुहोस्"
-    }
+      "switch": "स्विच गर्नुहोस्",
+      "file": "फाइल",
+      "number": "नम्बर"
+    },
+    "placeholder_input": "प्लेसहोल्डर",
+    "file_type_input": "स्वीकार्य फाइल प्रकारहरू",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "उत्पादनको नाम",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "आफ्नो मोबाइल प्रविष्ट गर्नुहोस्",
     "verification_code": "प्रमाणीकरण कोड",
     "msg_title": "नमस्ते,",
-    "msg_body": "कृपया लगइन गर्नुहोस्। यसले केही सेकेन्ड मात्र लिन्छ।"
+    "msg_body": "कृपया लगइन गर्नुहोस्। यसले केही सेकेन्ड मात्र लिन्छ।",
+    "login_apple": "Apple सँग लग इन गर्नुहोस्"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "ट्यागहरू थपियो"
     }
+  },
+  "difficulties": {
+    "very_complicated": "धेरै जटिल",
+    "hard": "कडा",
+    "intermediate": "मध्यवर्ती",
+    "easy": "सजिलो"
   }
 };

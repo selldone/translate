@@ -558,7 +558,52 @@ export default {
     "merchant": "ነጋዴ",
     "per_product": "በምርት",
     "journey": "ጉዞ",
-    "after": "በኋላ"
+    "after": "በኋላ",
+    "waiting_for_payment": "እባክዎ ክፍያ ያጠናቅቁ...",
+    "hour": "ሰአት",
+    "minute": "ደቂቃ",
+    "premium": "ፕሪሚየም",
+    "light": "ብርሃን",
+    "dark": "ጨለማ",
+    "guest": "እንግዳ",
+    "shops": "መደብሮች",
+    "vendor": "ሻጭ",
+    "vendors": "ሻጮች",
+    "marketplace": "የገበያ ቦታ",
+    "verify_date": "ቀን አረጋግጥ",
+    "note": "ማስታወሻ",
+    "panel": "ፓነል",
+    "removed": "ተወግዷል",
+    "segments": "ክፍሎች",
+    "personal_info": "የግል መረጃ",
+    "preferences": "ምርጫዎች",
+    "spec": "ዝርዝር",
+    "reviews": "ግምገማዎች",
+    "constraints": "ገደቦች",
+    "flexible": "ተለዋዋጭ",
+    "usage_limit": "የአጠቃቀም ገደብ",
+    "temporary": "ጊዜያዊ",
+    "original": "ኦሪጅናል",
+    "saved": "ተቀምጧል!",
+    "sort": "ደርድር",
+    "documents": "ሰነዶች",
+    "document": "ሰነድ",
+    "please_wait": "ቆይ በናተህ...",
+    "pickup": "ማንሳት",
+    "customize": "ማበጀት",
+    "difficulty": "አስቸጋሪ",
+    "banned": "ታግዷል",
+    "company": "ኩባንያ",
+    "tax_shipping": "የመርከብ ግብር",
+    "warranty": "ዋስትና",
+    "return_policy": "የተመላሽ እቃ አፈፃፀም ሂደት",
+    "guide": "መመሪያ",
+    "translate": "ተርጉም።",
+    "public": "የህዝብ",
+    "deleted": "ተሰርዟል።",
+    "variant": "ተለዋጭ",
+    "secure": "ደህንነቱ የተጠበቀ",
+    "admin": "አስተዳዳሪ"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "ተከታተል።",
     "change_state": "ሁኔታን ቀይር",
     "done": "ተከናውኗል",
-    "reply": "መልስ"
+    "reply": "መልስ",
+    "watch_now": "አሁን ተመልከት",
+    "unlock": "ክፈት",
+    "lock": "ቆልፍ",
+    "create_clone": "ክሎይን ይፍጠሩ",
+    "regenerate": "እንደገና ማመንጨት",
+    "add_message": "መልእክት ጨምር",
+    "continue_chat": "ውይይት ይቀጥሉ",
+    "add_new_message": "አዲስ መልእክት ጨምር"
   },
   "instance_message_title": "ፈጣን መልእክት ላክ",
   "instance_message": "ሰላም {name}፣ ስሜ {author} ነው ከ{company}።",
@@ -690,7 +743,8 @@ export default {
     "postcode": "የፖስታ ኮድ",
     "enter_value": "እዚህ ይሙሉ",
     "address_note": "ማስታወሻ",
-    "tel": "የእውቂያ ቁጥር"
+    "tel": "የእውቂያ ቁጥር",
+    "service_address": "አድራሻዎን ይምረጡ"
   },
   "weight": {
     "g": "ሰ",
@@ -753,7 +807,14 @@ export default {
     "ፓውንድ",
     "ሩብ",
     "ያርድ",
-    "ክፍል"
+    "ክፍል",
+    "ሰከንዶች",
+    "ደቂቃዎች",
+    "ሰዓታት",
+    "ቀናት",
+    "ሳምንታት",
+    "ወራት",
+    "ዓመታት"
   ],
   "region_types": {
     "State": "ግዛት",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "ዝቅተኛው ርዝመት {length} መሆን አለበት",
     "invalid_min_array_length": "ቢያንስ {length} ንጥሎችን ይምረጡ",
     "invalid_max_chars": "ከፍተኛው {maxCount} ቁምፊዎች",
-    "invalid_url": "ልክ ያልሆነ URL"
+    "invalid_url": "ልክ ያልሆነ URL",
+    "country_invalid": "መድረሻ አገር ይምረጡ!",
+    "postal_code_invalid": "የሚሰራ የፖስታ ኮድ አዘጋጅ!"
   },
   "colors": {
     "#D32F2F": "ቀይ",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "ነጭ",
     "#FFF": "ነጭ",
     "#000000": "ጥቁር",
-    "#000": "ጥቁር"
+    "#000": "ጥቁር",
+    "#7d263a": "ማሩን",
+    "#FD9F17": "ወርቅ",
+    "#229DBF": "አኳ",
+    "#6DC9E2": "አኳ Triblend",
+    "#413B2D": "ሰራዊት",
+    "#474747": "አስፋልት",
+    "#E6195C": "ቤሪ",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "የተቃጠለ ብርቱካን",
+    "#80011F": "ካርዲናል",
+    "#382829": "ቸኮሌት",
+    "#F06336": "ኮራል",
+    "#FAE7C9": "ክሬም",
+    "#6B2257": "Currant",
+    "#222127": "ጥቁር ግራጫ",
+    "#0D5A74": "ጥልቅ ሻይ",
+    "#00582F": "Evergreen",
+    "#214C30": "ጫካ",
+    "#DC2867": "ፉቺያ",
+    "#38561": "ኬሊ",
+    "#5C884D": "ቅጠል",
+    "#558450": "ፈካ ያለ አኳ",
+    "#96B5C9": "ዉሃ ሰማያዊ",
+    "#DCAFCE": "ሊilac",
+    "#D3E1A4": "ሎሚ",
+    "#9DE7C2": "ሚንት",
+    "#F6EAD2": "ተፈጥሯዊ",
+    "#1A1F35": "የባህር ኃይል",
+    "#404624": "የወይራ",
+    "#271020": "ፕለም",
+    "#A8355C": "Raspberry",
+    "#D6BEA6": "ለስላሳ ክሬም",
+    "#BEA994": "ታን",
+    "#0DB2AE": "ሻይ",
+    "#A86EA9": "ቫዮሌት",
+    "#36454F": "ከሰል",
+    "#b3b0ab": "ካርቦን ግራጫ",
+    "#463e3d": "የከሰል ሄዘር",
+    "#282d3c": "የባህር ኃይል Blazer"
   },
   "address_info": {
     "name": "ስም",
@@ -838,7 +940,8 @@ export default {
     "building_number": "የግንባታ ቁጥር",
     "building_unit": "ክፍል",
     "postcode": "የፖስታ ኮድ",
-    "note": "ማስታወሻ"
+    "note": "ማስታወሻ",
+    "county": "ካውንቲ"
   },
   "product_types": {
     "physical": "አካላዊ",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "ቀለም",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "ቀላል",
       "selective": "መራጭ",
-      "switch": "ቀይር"
-    }
+      "switch": "ቀይር",
+      "file": "ፋይል",
+      "number": "ቁጥር"
+    },
+    "placeholder_input": "ቦታ ያዥ",
+    "file_type_input": "ተቀባይነት ያላቸው የፋይል ዓይነቶች",
+    "file_type_message": "jpeg , png , ዚፕ , ..."
   },
   "virtual_order_info_summery": {
     "title": "የምርት ስም",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "ሞባይልዎን ያስገቡ",
     "verification_code": "የማረጋገጫ የሚስጥር ቁጥር",
     "msg_title": "ታዲያስ,",
-    "msg_body": "እባክዎ ይግቡ። ጥቂት ሰከንዶች ብቻ ይወስዳል።"
+    "msg_body": "እባክዎ ይግቡ። ጥቂት ሰከንዶች ብቻ ይወስዳል።",
+    "login_apple": "በአፕል ይግቡ"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "መለያዎች ታክለዋል።"
     }
+  },
+  "difficulties": {
+    "very_complicated": "በጣም የተወሳሰበ",
+    "hard": "ከባድ",
+    "intermediate": "መካከለኛ",
+    "easy": "ቀላል"
   }
 };

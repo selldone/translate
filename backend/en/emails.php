@@ -17,7 +17,7 @@ return [
     ],
 
     'global' => [
-        'greetings' => 'Hi :name',
+        'greetings' => 'Hi, :name!',
         'end-statement' => 'Support team',
 
         'receiver_name' => 'Hi :user_name',
@@ -150,6 +150,11 @@ return [
         'virtual-items'=>'Virtual items',
         'no-payment'=>'No payment!',
 
+        'enable'=>'Enable',
+        'access'=>'Access',
+        'bank'=>'Bank info',
+
+        'vendor'=>'Vendor',
 
 
     ],
@@ -392,15 +397,15 @@ return [
 
     // -------------------------------------- Shop Customer ------------------------------------
     'order-checkout' => [
-        'subject' => '🛍 Order Checkout | :order_id',
+        'subject' => "🛍️ Order Checkout | :order_id",
         'title' => "Order",
-        'message' => "Your order confirm,<br>We've got your order. We'll drop you another email when your order ships.",
+        'message' => "Your order confirmation,<br>We've got your order. We'll drop you another email when your order ships.",
         'payments' => 'Payments',
     ],
 
 
     'order-payment' => [
-        'subject' => '🛍 Payment Confirmation | :order_id',
+        'subject' => "🛍️ Payment Confirmation | :order_id",
         'title' => "Payment order",
         'message' => "Your payment completed,<br>We've got your order. We'll drop you another email when your order ships.",
         'payments' => 'Payments',
@@ -427,7 +432,7 @@ return [
     // -------------------------------------- Shop Order Payment Admin (Seller) ------------------------------------
 
     'order-payment-admin' => [
-        'subject' => '🛍 New Order Received | :order_id ',
+        'subject' => "🛍️ New Order Received | :order_id ",
         'title' => "New Order",
         'message' => "You have received a new order. Please go to the order processing page in your store.",
     ],
@@ -765,5 +770,23 @@ return [
             'subtitle' => 'Total website page views',
         ],
     ],
+
+
+    // ██████████████████████ Marketplace ██████████████████████
+    'vendor-order' => [
+        'title' => 'New Order',
+        'message' => "You have received a new order. Please go to the order processing page in your vendor panel.",
+        'subject' =>  "🛍️ New Order Received | :order_id ",
+        'your_revenue'=>"Your Revenue",
+    ],
+    'vendor-invite' => [
+        'title' => 'Vendor Invitation',
+        'message' => "You have received an invitation to become vendor of :shop_name. You can accept or reject it by clicking on the following buttons.",
+        'subject' =>  ":shop_name | You received an invitation to become our vendor",
+        'accept'=>"Accept & Become a Vendor",
+        'reject'=>"Reject",
+
+    ],
+
 
 ];

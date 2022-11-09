@@ -65,7 +65,9 @@ export default {
     "my_feed": "Saya",
     "blocked_message": "Anda diblokir sampai",
     "reported": "Dilaporkan",
-    "report": "Laporan"
+    "report": "Laporan",
+    "post": "Pos",
+    "attach_file": "Lampirkan file"
   },
   "invite_message": "{user} telah mengundang Anda ke forum {community}. Klik tautan di bawah ini untuk membaca pengamatan teman-teman Anda dan berbagi pendapat Anda dengan mereka. Aku sedang menunggumu.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Hapus jajak pendapat",
     "take_screenshot": "Ambil sebagai penutup",
     "take_link_msg": "Tautan sebelumnya di sini dan masuk",
-    "eligible_title": "Langkah-langkah untuk memenuhi syarat untuk memposting"
+    "eligible_title": "Langkah-langkah untuk memenuhi syarat untuk memposting",
+    "public": "Publik"
   },
   "tips": {
     "verify_email": "Masukkan dan verifikasi email Anda.",

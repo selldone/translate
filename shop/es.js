@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Productos relacionados",
     "price": "Precio",
     "rate": "Velocidad",
-    "comment": "Comentario"
+    "comment": "Comentario",
+    "warranty": "Garantía",
+    "return_policy": "Política de devoluciones",
+    "guide": "Guía",
+    "shipping": "Envío"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Su pedido fue realizado con éxito.",
       "delete_success": "Elemento eliminado."
-    }
+    },
+    "select_address_message": "Ingrese su dirección y luego podrá enviar el pedido."
   },
   "hyper": {
     "title": "Creación de pedidos",
@@ -541,5 +546,19 @@ export default {
       "message": "Ha especificado un cargo por este artículo. Puede cambiar el monto del cargo por el artículo comprado por el cliente.",
       "charge": "Cargo"
     }
+  },
+  "check_access": {
+    "waiting_message": "Esperando para comprobar el acceso...",
+    "no_access_message": "Desafortunadamente, no tienes acceso a nuestra tienda.<br/> Por favor contáctenos."
+  },
+  "share_order": {
+    "action": "Orden de compartir",
+    "title": "Comparta este pedido con otros.",
+    "message": "Es un enlace seguro, solo compártelo con tus conocidos. Todos los que tengan este enlace pueden duplicar su pedido y ver la dirección seleccionada. Contendrá información sobre su carrito actual.",
+    "valid_period": "Este enlace expirará después de 48 horas.",
+    "import_order_action": "Orden de importación",
+    "retrieve_dialog_title": "Recuperar pedido externo",
+    "address_included": "Compartir artículos de la cesta + Dirección",
+    "address_excluded": "Compartir solo artículos de la cesta"
   }
 };

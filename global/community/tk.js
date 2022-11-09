@@ -65,7 +65,9 @@ export default {
     "my_feed": "Men",
     "blocked_message": "Şu wagta çenli petiklenýärsiňiz",
     "reported": "Hasabat berildi",
-    "report": "Hasabat beriň"
+    "report": "Hasabat beriň",
+    "post": "Iber",
+    "attach_file": "Faýl dakyň"
   },
   "invite_message": "{ulanyjy} sizi forum {jemagatyna çagyrdy. Dostlaryňyzyň synlaryny okamak we pikirleriňizi olar bilen paýlaşmak üçin aşakdaky baglanyşyga basyň. Men saňa garaşýaryn",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Anketany aýyryň",
     "take_screenshot": "Gaplaň",
     "take_link_msg": "Öňki baglanyşygy şu ýere giriň we giriň",
-    "eligible_title": "Ingazmaga hukukly ädimler"
+    "eligible_title": "Ingazmaga hukukly ädimler",
+    "public": "Köpçülik"
   },
   "tips": {
     "verify_email": "E-poçtaňyzy giriziň we tassyklaň.",

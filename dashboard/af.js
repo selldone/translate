@@ -155,7 +155,19 @@ export default {
       "Setup": "winkel",
       "Sell": "Verkope",
       "Developer": "Ontwikkel",
-      "Application": "Aansoeke"
+      "Application": "Aansoeke",
+      "Product": "Produkte & Kategorieëbestuur",
+      "Blog": "CMS & Blog",
+      "Order": "Bestellings Vervulling Sentrum",
+      "Channel": "Verkoopskanale",
+      "Accounting": "Rekeningkunde & Betaalmetodes",
+      "Incentives": "Aansporings",
+      "Marketing": "Bemarking en veldtogte",
+      "Logistic": "Logistiek & Versending",
+      "Customers": "Kliënteklub & Segmentasie",
+      "Page": "Landing- en pasgemaakte bladsye",
+      "Access": "Personeel / API Toegangsbestuur",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github-bewaarplek",
@@ -193,7 +205,9 @@ export default {
       "stores": "Winkels",
       "roles": "Rolle",
       "home": "Tuis",
-      "expert": "Kenner"
+      "expert": "Kenner",
+      "deals": "Deals",
+      "providers": "Verskaffers"
     },
     "shops": {
       "create_new": "Skep nuwe winkel",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Status",
           "created_at": "Skeppingsdatum",
           "updated_at": "Laaste opdatering"
-        }
+        },
+        "subtitle": "Skryf artikels met 'n moderne inlynredigeerder om jouself en jou besigheid voor te stel. Oorspronklike inhoud is die eerste ding waarop u moet fokus wanneer u 'n hoëgehalte SEO-vriendelike blogpos skryf."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Rapporteer",
         "tax": "Belasting",
         "drop_shipping": "Herverkoper kwitansies",
-        "reseller_accounts": "Herverkoperrekeninge"
+        "reseller_accounts": "Herverkoperrekeninge",
+        "valuations": "Waardasies"
       },
       "invoice": {
         "title": "Koop gekoppelde beursies",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Gestuur",
         "inventory": "Voorraad",
         "warehouse": "Pakhuis",
-        "logistic_apps": "Logistiek"
+        "logistic_apps": "Logistiek",
+        "profiles": "Profiele"
       },
       "warehouse": {
         "title": "Winkel Pakhuis",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Minimum bestelkoste vir gratis aflewering",
           "notifications": {
             "update_success": "Versendingdiensinstellings suksesvol voltooi."
-          }
+          },
+          "shipping_cost_calculation": "Berekening van afleweringskoste",
+          "sod_true": "Kry versendingskoste op bestemming",
+          "sod_true_message": "Maak seker dat jou versendingsdiens versendingskoste op bestemming aanvaar.",
+          "sod_false": "Outo gestuur koste berekening",
+          "cod_true": "Aanvaar kontant by aflewering",
+          "cod_false": "Aanvaar slegs aanlyn betaling",
+          "cod_true_message": "Maak seker dat jou versendingsdiens COD aanvaar."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "Sms",
         "email": "E-pos",
         "domain": "domein",
-        "verifications": "Verifikasies"
+        "verifications": "Verifikasies",
+        "flow": "Vloei",
+        "business_model": "Besigheidsmodel"
       },
       "delete_dialog": {
         "title": "Vee winkel uit",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Produk eenheid",
       "unit_float": "Vlottereenheid (binnekort)",
       "unit_float_hint": "Die klant kan byvoorbeeld 3 kg vrugte bestel, maar die hoeveelheid wat aan die klant gestuur word verskil effens van die bestelde hoeveelheid.",
-      "unit_float_message": "Tydens bestellingverwerking kan die gelewerde bedrag verskil van die bestelde bedrag. Die stelsel bereken hierdie verskil outomaties en teken dit aan as jou skuld aan die kliënt, wat op die volgende bestellings toegepas kan word."
+      "unit_float_message": "Tydens bestellingverwerking kan die gelewerde bedrag verskil van die bestelde bedrag. Die stelsel bereken hierdie verskil outomaties en teken dit aan as jou skuld aan die kliënt, wat op die volgende bestellings toegepas kan word.",
+      "status_list": {
+        "active": {
+          "title": "Aktief | Aanlyn en vanlyn verkope",
+          "description": "Hierdie produk sal beskikbaar wees vir aanlyn bestellings."
+        },
+        "inactive": {
+          "title": "Onaktief | Slegs vanlyn verkope",
+          "description": "Hierdie produk sal nie beskikbaar wees vir aanlyn bestellings nie."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Opname",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Kies die eindtyd",
       "independent_price": "Die prys slegs vir hierdie variant",
       "same_price": "Die prys vir die hoofproduk",
-      "variant_pricing_message": "Deur hierdie opsie te kies, kan die prys van hierdie variant onafhanklik van die hoofproduk gestel word."
+      "variant_pricing_message": "Deur hierdie opsie te kies, kan die prys van hierdie variant onafhanklik van die hoofproduk gestel word.",
+      "price_label_input": "Prysetiket",
+      "price_label_message": "Voeg ekstra inligting oor prys by soos ($1.5/Fl Oz). Gebruik gevalle: kruideniersware, FMCG.",
+      "add_price_label_action": "Voeg prysetiket by"
     },
     "inputs_edit": {
       "title": "Invoervorm van koperinligting",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gateway {gateway_name} is gewysig."
     },
-    "developer_setting": "Ontwikkel & Toets"
+    "developer_setting": "Ontwikkel & Toets",
+    "live_mode_message": "Alle transaksies sal in lewendige modus wees."
   },
   "gift_card": {
     "title": "Geskenkbewyse",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Faktureringadres is deur koper geredigeer.",
     "payment-cod-confirm": "COD-betaling is bevestig.",
     "payment-cash-confirm": "Betaling van {amount} {currency} in kontant vir die rekening is bevestig.",
-    "payment-dir-confirm": "Direkte betaling ontvangs is bevestig."
+    "payment-dir-confirm": "Direkte betaling ontvangs is bevestig.",
+    "vendor": "Verkoperbestellingstatus verander van <b>{from}</b> na <b>{to}</b> .",
+    "connect-sync": "Bestelling gesinkroniseer deur Connect OS.",
+    "connect-shipped": "Koppelbestelling is deur {shipping} versend.",
+    "connect-returned": "Koppelbestelling is teruggestuur deur {shipping}.",
+    "connect-failed": "Bestellingvervulling het deur die vennoot misluk. {reason}",
+    "connect-canceled": "Die bestelling is deur die vennoot gekanselleer. {reason}",
+    "connect-action-cancel": "Versoek om bestelling te kanselleer. {reason}",
+    "connect-put-hold": "Die bestelling is opgehou. {reason}",
+    "connect-remove-hold": "Die bevel is uit hou verwyder. {reason}",
+    "connect-confirmed": "Die bestelling is bevestig.",
+    "email-vendor": "🔔 Bestelinligting e-pos is gestuur aan <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Vandag",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Maak geld",
     "menu": {
       "plans": "Planne",
-      "accounts": "Rekeninge"
+      "accounts": "Rekeninge",
+      "participant": "Deelnemer"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Winkeltoegangsleutels",
     "shop_keys_message": "Hierdie sleutels word gebruik om Access Token deur jou bediener te skep. Let daarop dat die sleutels vertroulik is en slegs op die bediener geplaas word sodat dit nie vir ander sigbaar is nie.",
     "personal_keys_title": "Persoonlike toegangsleutels",
-    "personal_keys_message": "Jy kan die sleutels van jou rekening hier skep. Let daarop dat hierdie sleutels toegang tot jou rekening sal kan kry. Skep en gebruik hierdie sleutels slegs as jy presies weet wat jy doen."
+    "personal_keys_message": "Jy kan die sleutels van jou rekening hier skep. Let daarop dat hierdie sleutels toegang tot jou rekening sal kan kry. Skep en gebruik hierdie sleutels slegs as jy presies weet wat jy doen.",
+    "clients_title": "Kliënte",
+    "clients_message": "Hierdie sleutels word gebruik om Access Token deur jou bediener te skep. Let daarop dat die sleutels vertroulik is en slegs op die bediener geplaas word sodat dit nie vir ander sigbaar is nie."
   },
   "user_security_control": {
     "title": "Rekening sekuriteit",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Bestuur profiele",
       "description": "Bestuur winkelprofiele."
+    },
+    "shop-discount-code": {
+      "name": "Afslagkode bestuur",
+      "description": "Bestuur, wysig en voeg winkelafslagkodes by."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Instellings",
       "change": "Laai",
       "transfer": "Oordrag",
-      "transactions": "Transaksies"
+      "transactions": "Transaksies",
+      "charge": "Laai",
+      "history": "Geskiedenis"
     },
     "transactions": {
       "title": "Rekeningtransaksies",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Kanselleer intekeningbevestiging",
       "message": "Is jy seker om hierdie intekening te kanselleer?",
       "action": "Kanselleer intekening"
-    }
+    },
+    "use_voucher_now": "Gebruik voucher nou",
+    "validity_duration": "Geldigheidsduur",
+    "validity_duration_hint": "Deur 'n 12-maande-lisensie te koop, sal jy 30% afslag ontvang."
   },
   "admin_shop_layout": {
     "download_txt": "Laai datateks af",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Groot lettertipes",
     "large_font_message": "Wys teks groter as normaal",
     "samples": "Wys voorbeeldwinkels",
-    "samples_message": "As dit geaktiveer is, sal sommige voorbeeldwinkels in jou paneel vertoon word."
+    "samples_message": "As dit geaktiveer is, sal sommige voorbeeldwinkels in jou paneel vertoon word.",
+    "automation": "Outomatisering",
+    "automation_message": "Wys outomatiseringsoortjie op winkelkontroleskerm. (Webhooks, visuele programmering, ...)"
   },
   "shop_locations": {
     "title": "Lande waar diens gelewer word",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Koepon is suksesvol uitgevee."
-    }
+    },
+    "multiple_use": "Veelvuldige gebruik"
   },
   "coupon_edit": {
     "title_edit": "Wysig koepon",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Beperk",
       "description": "Stel 'n limiet op die maksimum aantal gebruikers."
+    },
+    "SEGMENTS": {
+      "title": "Segmente",
+      "description": "Beperk kliënte in spesifieke handsegmentering."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Die totale bestelbedrag is van die geskenkbewyse onttrek! Die koper hoef nie meer te betaal nie.",
       "cod_msg": "Die kliënt sal betaal wanneer die bestelling ontvang word.",
       "online_msg": "Vra die kliënt om QR-kode op die kliëntskerm te skandeer."
-    }
+    },
+    "name": "POS",
+    "message": "Het jou nul-opstellingskoste aanlyn verkooppunt, laat dit op enige slimfoon, tablet en rekenaar loop, of skep bestellings met die hand."
   },
   "exporter": {
     "title": "Voer data uit",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Stuur na bediener",
     "shop_license": "Winkel lisensie",
     "max_items_limit": "Maksimum items limiet",
-    "total_items": "Totale items"
+    "total_items": "Totale items",
+    "customer": {
+      "title": "Voer kliënte in",
+      "subtitle": "Laai CSV-lêers van kliënte hier op. Maak seker dat u die standaardformaat volg, en u moet ook privaatheidsreëls volg."
+    }
   },
   "campaigns": {
     "title": "Veldtogte",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Skakels",
     "light_checkout": "Ligte betaal-tema",
     "light_header": "Ligte kop",
-    "light_footer": "Ligte voetskrif"
+    "light_footer": "Ligte voetskrif",
+    "product_page": "Produk Bladsy",
+    "typography": "Tipografie",
+    "header": "Opskrif",
+    "custom_code": "Pasgemaakte kode",
+    "custom_css": "Pasgemaakte CSS"
   },
   "app_templates": {
     "default": "Verstek",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Bestuur diens",
     "option_deliver_by_courier": "Opsie 1: Lewer af deur jou koeriers.",
     "option_add_to_que": "Opsie 2: Voeg by tou om te verwerk op gestuurdiensbladsy.",
-    "option_instant_shipping": "Opsie 3: Onmiddellike versending."
+    "option_instant_shipping": "Opsie 3: Onmiddellike versending.",
+    "pickup_action": "Bevestiging van afhaal"
   },
   "shop_home_edit": {
     "title": "Tuisblad instelling",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Produk is by jou winkel gevoeg.",
       "request_access": "Ons het jou toegangsversoek suksesvol aan die groothandelaar gestuur."
-    }
+    },
+    "show_eligible_shops_message": "Wys geskikte winkels"
   },
   "product_dropshipping": {
     "need_re_enable": "Hierdie produk is deur die oorspronklike verkoper verander, hierdie prysveranderings het die produk in jou winkel gedeaktiveer. Gaan die veranderinge na en as jy instem om die produk te heraktiveer, druk die knoppie hieronder.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Daar is geen kategorie in jou winkel nie.",
       "limit": "Produkte beperk",
       "limit_message": "Voer die resultate van produkte in",
-      "select_categories": "Kies beskikbare kategorieë"
+      "select_categories": "Kies beskikbare kategorieë",
+      "categories_limit": "Kategorieë beperk",
+      "categories_limit_msg": "Voer die maksimum aantal kategorieë in. Stel nul vir geen limiet."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avokado is suksesvol opgedateer.",
       "add_success": "Avokado is suksesvol geskep."
-    }
+    },
+    "name": "Avokado"
   },
   "avocado_orders": {
     "title": "Avokado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "onaktief",
     "active_message": "As jy hierdie opsie aktiveer, sal die moontlikheid om die vinnige verkope-kodes te skep in die bestuursafdeling van elke produk vertoon word.",
     "hyper_form_link_message": "Jou winkel se hiperbladsy-skakel",
-    "configuration": "Hiper instellings"
+    "configuration": "Hiper instellings",
+    "name": "Hiper"
   },
   "hyper_orders": {
     "title": "Hiper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Kliënte demografie",
     "subtitle": "Filtreer en voer u kliëntedata uit om beter besluite te neem om meer waarde te lewer met minder bemarking! Respekteer asseblief u kliënte se privaatheid en stuur nooit massa-e-posse aan hulle nie! Moet nooit jou kliënte se inligting met derdepartydienste deel sonder om toestemming van elkeen van hulle te kry nie."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Afhaal adresse",
+      "subtitle": "Voeg afhaaladresse hier by en wysig dit. Gebruikers sal die afhaaladres op die betaalbladsy kan kies.",
+      "add_action": "Voeg nuwe ligging by"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Geaffilieerde POS",
+    "open_pos_action": "Vinnige bestel POS",
+    "description": "Hierdie opsie is geskik vir administrateurs van Instagram-bladsye en ander sosiale netwerke. Gebruik Geaffilieerde POS om bestellings van kliënte handmatig te ontvang en by te voeg. Jou affiliasies (of franchise) kan nuwe bestellings in die Geaffilieerde POS byvoeg en die depositostrokie oplaai."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Aanmelding metodes",
+      "subtitle": "Pas die manier waarop gebruikers by jou winkel aanmeld."
+    },
+    "checkout": {
+      "title": "Betaalvloei",
+      "subtitle": "Pas jou klantreis en aankoopvloei in jou e-handel aan.",
+      "map": {
+        "title": "Kaart",
+        "subtitle": "Gebruikers moet die afleweringsligging op die kaart kies (soos Uber).",
+        "subtitle_no_map": "Afstand in afleweringsberekening word as nul beskou as die ligging nie bestaan in die adres wat deur die kliënt verskaf is nie."
+      },
+      "mode": {
+        "title": "Kliënte aanmeldpunt",
+        "default": {
+          "title": "ASAP (verstek)",
+          "msg": "Gebruikers meld so gou as moontlik aan. (Meer omskakeling)"
+        },
+        "on_checkout": {
+          "title": "Op betaalpunt",
+          "msg": "Dwing gebruikers om by die betaalstap aan te meld."
+        },
+        "login_free": {
+          "title": "Opsionele aanmelding",
+          "msg": "Opsionele aanmelding na bestelling betaling.."
+        }
+      },
+      "express": {
+        "title": "Herlei na voeg by mandjie",
+        "false": {
+          "title": "Normale modus",
+          "msg": "Bly op die bladsy en gaan voort om inkopies te doen nadat jy op voeg by die mandjie geklik het."
+        },
+        "true": {
+          "title": "Express-modus",
+          "msg": "Herlei die kliënt na die betaalbladsy nadat hy op voeg by die mandjie geklik het."
+        }
+      },
+      "shipping_address": {
+        "title": "Vra vir afleweringsadres"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fisies en diens (verstek)",
+      "desc": "Vra die kliënt om 'n adres in die fisiese en diens betaalpunte in te voer."
+    },
+    "physical": {
+      "title": "Slegs fisies",
+      "desc": "Vra die kliënt om 'n adres net in die fisiese betaalpunt in te voer."
+    },
+    "off": {
+      "title": "Nooit nie",
+      "desc": "Moet nooit vir die afleweringsadres vra nie. ⚠ Gebruik hierdie opsie as jy van plan is om dienste met variante te hê deur fisiese tipe vir produkte in plaas van dienstipe te kies."
+    }
+  },
+  "business_model": {
+    "title": "Besigheidsmodel opstelling",
+    "subtitle": "Stel jou besigheidsmodel, en ons sal jou bedryfstelsel agter die skerm instel."
+  },
+  "business_type": {
+    "title": "Goedere tipes",
+    "subtitle": "Stel die tipe produkte wat jy in jou winkel wil verkoop. Produktipes in Selldone is meer as net 'n tipe van die produkte; dit gaan meer oor nakomingsprosedure.",
+    "send_activation_request_to_support": "Stuur 'n aktiveringsversoek in 'n ondersteuningskaartjie.",
+    "require_kyc": "Besigheidseienaar KYC.",
+    "needs_enterprise_license": "Jy moet 'n Enterprise-lisensie hê.",
+    "marketplace_caution_message": "Stel Marketplace aangesien jou model jou besigheid se OS-konfigurasie diep beïnvloed. Byvoorbeeld, jy moet ten minste een verkoper vir elke produk definieer met onafhanklike pryse en voorraad. Kliënte kan nie produkte koop wat geen verkoper het nie."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Normale winkel",
+      "desc": "Gewoonlik 'n KMO, tuisbesigheid of dropshipper - wat hul produk direk aan kliënte verkoop of groothandelaars se produkte as 'n herverkoper verkoop."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Hou geen produk en geen voorraad nie - jy betaal aan 'n derde party, gewoonlik 'n groothandelaar (soos Printify, Wholesale2B, ...) of vervaardiger, en hulle voer bestellings agter die toneel uit."
+    },
+    "wholesaler": {
+      "title": "Dropshipping verskaffer",
+      "desc": "Gewoonlik 'n groothandelaar of 'n vervaardiger - wat bestellings direk na die eindverbruiker stuur. Ander handelaars op Selldone kan jou produkte in hul winkels aflaai."
+    },
+    "marketplace": {
+      "title": "Markplek",
+      "desc": "Aanlynmarkplekke verbind kopers en verkopers op 'n eie en gesentraliseerde platform."
+    },
+    "franchise": {
+      "title": "Franchise / Geaffilieerde",
+      "desc": "'n Franchise is 'n metode om produkte of dienste te versprei waarby 'n franchisegewer betrokke is wat jou handelsmerk vestig (Franchising) of jou produkte volgens hul handelsmerk (geaffilieerde) verkoop."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Beursies",
+    "pricing_models": "Pryse",
+    "add_vendor": "Voeg verkoper by",
+    "requests": "Versoeke"
+  },
+  "price_input_type": {
+    "title": "Prysinvoer tipe",
+    "default": {
+      "title": "Verstek",
+      "desc": "Kies 'n waarde as die hoeveelheid in die mandjie."
+    },
+    "area": {
+      "title": "Gebied",
+      "desc": "Voer breedte en lengte in as insette om die hoeveelheid te bereken."
+    },
+    "volume": {
+      "title": "volume",
+      "desc": "Voer breedte, lengte en hoogte in as insette om die hoeveelheid te bereken."
+    },
+    "custom": {
+      "title": "Pasgemaak (Deur invoervorm)",
+      "desc": "Geen behoefte aan honderde variante nie! Skep 'n pasgemaakte kosteberekeningsvorm vir hoogs aanpasbare produkte."
+    }
+  },
+  "vendors_list": {
+    "title": "My Verkopers",
+    "message": "Lys van my eie verkopers."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Koppel verskeie domeine aan jou besigheidsbedryfstelsel en bestuur almal op een plek. U kan die veelvuldige domeine-kenmerk gebruik om toegewyde domeine vir elke deel van u webwerf te skep, soos blog en gemeenskap, of verskillende domeine vir u affiliasies gebruik."
+  },
+  "notes": {
+    "add_action": "Voeg 'n nota vir jou span by",
+    "notifications": {
+      "success_add": "Nota is suksesvol bygevoeg.",
+      "success_delete": "Nota is suksesvol uitgevee."
+    }
+  },
+  "external_services": {
+    "title": "Eksterne dienste",
+    "subtitle": "Monitor die laaste status van die eksterne dienste soos SMS en e-pos hier."
   }
 };

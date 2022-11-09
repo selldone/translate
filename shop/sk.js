@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Súvisiace produkty",
     "price": "cena",
     "rate": "ohodnotiť",
-    "comment": "Komentujte"
+    "comment": "Komentujte",
+    "warranty": "Záruka",
+    "return_policy": "Pravidlá vrátenia",
+    "guide": "Sprievodca",
+    "shipping": "Doprava"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Vaša objednávka bola úspešne odoslaná.",
       "delete_success": "Položka bola odstránená."
-    }
+    },
+    "select_address_message": "Zadajte svoju adresu a potom môžete odoslať objednávku."
   },
   "hyper": {
     "title": "Vytvorenie objednávky",
@@ -541,5 +546,19 @@ export default {
       "message": "Zadali ste poplatok za túto položku. Môžete zmeniť výšku poplatku za položku zakúpenú zákazníkom.",
       "charge": "Nabite"
     }
+  },
+  "check_access": {
+    "waiting_message": "Čaká sa na kontrolu prístupu...",
+    "no_access_message": "Bohužiaľ nemáte prístup do nášho obchodu.<br/> Prosím kontaktuj nás."
+  },
+  "share_order": {
+    "action": "Zdieľať objednávku",
+    "title": "Zdieľajte túto objednávku s ostatnými.",
+    "message": "Je to bezpečný odkaz, zdieľajte ho iba s tými, ktorých poznáte. Každý s týmto odkazom môže duplikovať vašu objednávku a zobraziť vybranú adresu. Bude obsahovať informácie o vašom aktuálnom košíku.",
+    "valid_period": "Platnosť tohto odkazu vyprší po 48 hodinách.",
+    "import_order_action": "Importovať objednávku",
+    "retrieve_dialog_title": "Získať externú objednávku",
+    "address_included": "Zdieľať položky košíka + adresa",
+    "address_excluded": "Zdieľať iba položky košíka"
   }
 };

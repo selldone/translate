@@ -65,7 +65,9 @@ export default {
     "my_feed": "Mise",
     "blocked_message": "Tá bac ort go dtí",
     "reported": "Tuairiscíodh",
-    "report": "Tuairisc"
+    "report": "Tuairisc",
+    "post": "Post",
+    "attach_file": "Ceangail comhad"
   },
   "invite_message": "Thug {user} cuireadh duit chuig an bhfóram {community}. Cliceáil ar an nasc thíos chun tuairimí do chairde a léamh agus do thuairim a roinnt leo. Tá mé ag fanacht leat.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Bain vótaíocht",
     "take_screenshot": "Tóg mar chlúdach",
     "take_link_msg": "Nasc roimhe seo anseo agus isteach",
-    "eligible_title": "Céimeanna chun incháilithe le postáil"
+    "eligible_title": "Céimeanna chun incháilithe le postáil",
+    "public": "Poiblí"
   },
   "tips": {
     "verify_email": "Cuir isteach agus fíoraigh do ríomhphost.",

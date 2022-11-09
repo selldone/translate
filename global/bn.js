@@ -558,7 +558,52 @@ export default {
     "merchant": "বণিক",
     "per_product": "পণ্য প্রতি",
     "journey": "যাত্রা",
-    "after": "পরে"
+    "after": "পরে",
+    "waiting_for_payment": "অনুগ্রহ করে পেমেন্ট সম্পূর্ণ করুন...",
+    "hour": "ঘন্টা",
+    "minute": "মিনিট",
+    "premium": "প্রিমিয়াম",
+    "light": "আলো",
+    "dark": "অন্ধকার",
+    "guest": "অতিথি",
+    "shops": "দোকান",
+    "vendor": "বিক্রেতা",
+    "vendors": "বিক্রেতারা",
+    "marketplace": "মার্কেটপ্লেস",
+    "verify_date": "তারিখ যাচাই করুন",
+    "note": "বিঃদ্রঃ",
+    "panel": "প্যানেল",
+    "removed": "সরানো হয়েছে",
+    "segments": "সেগমেন্ট",
+    "personal_info": "ব্যাক্তিগত তথ্য",
+    "preferences": "পছন্দসমূহ",
+    "spec": "স্পেক",
+    "reviews": "রিভিউ",
+    "constraints": "সীমাবদ্ধতা",
+    "flexible": "নমনীয়",
+    "usage_limit": "ব্যবহারের সীমা",
+    "temporary": "অস্থায়ী",
+    "original": "আসল",
+    "saved": "সংরক্ষিত!",
+    "sort": "সাজান",
+    "documents": "নথিপত্র",
+    "document": "দলিল",
+    "please_wait": "অনুগ্রহপূর্বক অপেক্ষা করুন...",
+    "pickup": "পিকআপ",
+    "customize": "কাস্টমাইজ",
+    "difficulty": "অসুবিধা",
+    "banned": "নিষিদ্ধ",
+    "company": "প্রতিষ্ঠান",
+    "tax_shipping": "শিপিং ট্যাক্স",
+    "warranty": "ওয়ারেন্টি",
+    "return_policy": "প্রত্যাবর্তন নীতিমালা",
+    "guide": "গাইড",
+    "translate": "অনুবাদ করা",
+    "public": "পাবলিক",
+    "deleted": "মুছে ফেলা হয়েছে",
+    "variant": "বৈকল্পিক",
+    "secure": "নিরাপদ",
+    "admin": "অ্যাডমিন"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "ট্র্যাক",
     "change_state": "স্ট্যাটাস বদলাও",
     "done": "সম্পন্ন",
-    "reply": "উত্তর দিন"
+    "reply": "উত্তর দিন",
+    "watch_now": "এখন দেখো",
+    "unlock": "আনলক",
+    "lock": "তালা",
+    "create_clone": "ক্লোন তৈরি করুন",
+    "regenerate": "পুনর্জন্ম",
+    "add_message": "বার্তা যুক্ত কর",
+    "continue_chat": "চ্যাট চালিয়ে যান",
+    "add_new_message": "নতুন বার্তা যোগ করুন"
   },
   "instance_message_title": "তাৎক্ষণিক বার্তা পাঠান",
   "instance_message": "হাই {name}, আমার নাম হল {author} {company} থেকে৷",
@@ -690,7 +743,8 @@ export default {
     "postcode": "পোস্টকোড",
     "enter_value": "এখানে পূরণ করুন",
     "address_note": "বিঃদ্রঃ",
-    "tel": "যোগাযোগের নম্বর"
+    "tel": "যোগাযোগের নম্বর",
+    "service_address": "আপনার ঠিকানা নির্বাচন করুন"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "পাউন্ড",
     "কোয়ার্টস",
     "গজ",
-    "রুম"
+    "রুম",
+    "সেকেন্ড",
+    "মিনিট",
+    "ঘন্টার",
+    "দিন",
+    "সপ্তাহ",
+    "মাস",
+    "বছর"
   ],
   "region_types": {
     "State": "রাষ্ট্র",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "ন্যূনতম দৈর্ঘ্য অবশ্যই {length} হতে হবে",
     "invalid_min_array_length": "অন্তত {length} আইটেম নির্বাচন করুন",
     "invalid_max_chars": "সর্বাধিক {maxCount} অক্ষর",
-    "invalid_url": "অবৈধ URL"
+    "invalid_url": "অবৈধ URL",
+    "country_invalid": "গন্তব্য দেশ নির্বাচন করুন!",
+    "postal_code_invalid": "বৈধ পোস্টাল কোড সেট করুন!"
   },
   "colors": {
     "#D32F2F": "লাল",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "সাদা",
     "#FFF": "সাদা",
     "#000000": "কালো",
-    "#000": "কালো"
+    "#000": "কালো",
+    "#7d263a": "মেরুন",
+    "#FD9F17": "সোনা",
+    "#229DBF": "একুয়া",
+    "#6DC9E2": "অ্যাকোয়া ট্রিব্লেন্ড",
+    "#413B2D": "সেনাবাহিনী",
+    "#474747": "অ্যাসফল্ট",
+    "#E6195C": "বেরি",
+    "#B2184C": "বেরি ট্রিব্লেন্ড",
+    "#FC7F5F": "পোড়ানো কমলা",
+    "#80011F": "মৌলিক",
+    "#382829": "চকোলেট",
+    "#F06336": "প্রবাল",
+    "#FAE7C9": "ক্রিম",
+    "#6B2257": "কারেন্ট",
+    "#222127": "গাঢ় ধূসর",
+    "#0D5A74": "গভীর টিল",
+    "#00582F": "চিরসবুজ",
+    "#214C30": "বন। জংগল",
+    "#DC2867": "ফুচিয়া",
+    "#38561": "কেলি",
+    "#5C884D": "পাতা",
+    "#558450": "হালকা অ্যাকোয়া",
+    "#96B5C9": "হালকা নীল",
+    "#DCAFCE": "লিলাক",
+    "#D3E1A4": "চুন",
+    "#9DE7C2": "পুদিনা",
+    "#F6EAD2": "প্রাকৃতিক",
+    "#1A1F35": "নৌবাহিনী",
+    "#404624": "জলপাই",
+    "#271020": "বরই",
+    "#A8355C": "রাস্পবেরি",
+    "#D6BEA6": "নরম ক্রিম",
+    "#BEA994": "ট্যান",
+    "#0DB2AE": "টিল",
+    "#A86EA9": "ভায়োলেট",
+    "#36454F": "কাঠকয়লা",
+    "#b3b0ab": "কার্বন গ্রে",
+    "#463e3d": "কাঠকয়লা গুল্মবিশেষ",
+    "#282d3c": "নেভি ব্লেজার"
   },
   "address_info": {
     "name": "নাম",
@@ -838,7 +940,8 @@ export default {
     "building_number": "ভবন সংখ্যা",
     "building_unit": "ইউনিট",
     "postcode": "পোস্টকোড",
-    "note": "বিঃদ্রঃ"
+    "note": "বিঃদ্রঃ",
+    "county": "কাউন্টি"
   },
   "product_types": {
     "physical": "শারীরিক",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "রঙ",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "সরল",
       "selective": "নির্বাচনী",
-      "switch": "সুইচ"
-    }
+      "switch": "সুইচ",
+      "file": "ফাইল",
+      "number": "সংখ্যা"
+    },
+    "placeholder_input": "স্থানধারক",
+    "file_type_input": "গ্রহণযোগ্য ফাইল প্রকার",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "পণ্যের নাম",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "আপনার মোবাইল লিখুন",
     "verification_code": "যাচাইকরণ কোড",
     "msg_title": "ওহে,",
-    "msg_body": "দয়া করে লগইন করুন. এটি মাত্র কয়েক সেকেন্ড সময় নেয়।"
+    "msg_body": "দয়া করে লগইন করুন. এটি মাত্র কয়েক সেকেন্ড সময় নেয়।",
+    "login_apple": "অ্যাপল দিয়ে লগইন করুন"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "ট্যাগ যোগ করা হয়েছে"
     }
+  },
+  "difficulties": {
+    "very_complicated": "খুবই জটিল",
+    "hard": "কঠিন",
+    "intermediate": "মধ্যবর্তী",
+    "easy": "সহজ"
   }
 };

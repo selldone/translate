@@ -558,7 +558,52 @@ export default {
     "merchant": "Худалдаачин",
     "per_product": "Бүтээгдэхүүн бүрт",
     "journey": "Аялал",
-    "after": "Дараа нь"
+    "after": "Дараа нь",
+    "waiting_for_payment": "Төлбөрийг дуусгана уу...",
+    "hour": "Цаг",
+    "minute": "Минут",
+    "premium": "Дээд зэргийн",
+    "light": "Гэрэл",
+    "dark": "Харанхуй",
+    "guest": "Зочин",
+    "shops": "Дэлгүүрүүд",
+    "vendor": "Худалдагч",
+    "vendors": "Борлуулагчид",
+    "marketplace": "Зах зээл",
+    "verify_date": "Огноог баталгаажуулах",
+    "note": "Анхаарна уу",
+    "panel": "Самбар",
+    "removed": "Устгасан",
+    "segments": "Сегментүүд",
+    "personal_info": "Хувийн мэдээлэл",
+    "preferences": "Сонголтууд",
+    "spec": "Spec",
+    "reviews": "Шүүмж",
+    "constraints": "Хязгаарлалт",
+    "flexible": "Уян хатан",
+    "usage_limit": "Хэрэглээний хязгаар",
+    "temporary": "Түр зуурын",
+    "original": "Жинхэнэ",
+    "saved": "Хадгалсан!",
+    "sort": "Эрэмбэлэх",
+    "documents": "Баримт бичиг",
+    "document": "Баримт бичиг",
+    "please_wait": "Хүлээгээрэй...",
+    "pickup": "Татаж авах",
+    "customize": "тохируулах",
+    "difficulty": "Хэцүү байдал",
+    "banned": "Хориглосон",
+    "company": "Компани",
+    "tax_shipping": "Хүргэлтийн татвар",
+    "warranty": "Баталгаат хугацаа",
+    "return_policy": "Буцаах бодлого",
+    "guide": "Хөтөч",
+    "translate": "Орчуулах",
+    "public": "Олон нийтийн",
+    "deleted": "Устгасан",
+    "variant": "Хувилбар",
+    "secure": "Аюулгүй",
+    "admin": "админ"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Мөр",
     "change_state": "Статус өөрчлөх",
     "done": "Дууслаа",
-    "reply": "Хариулах"
+    "reply": "Хариулах",
+    "watch_now": "Одоо харах",
+    "unlock": "Түгжээг тайлах",
+    "lock": "Түгжих",
+    "create_clone": "Клон үүсгэх",
+    "regenerate": "Дахин сэргээх",
+    "add_message": "Зурвас нэмэх",
+    "continue_chat": "Үргэлжлүүлэн чатлах",
+    "add_new_message": "Шинэ мессеж нэмэх"
   },
   "instance_message_title": "Шуурхай мессеж илгээх",
   "instance_message": "Сайн уу {name}, миний нэр {company}-н {author}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Шуудангийн код",
     "enter_value": "Энд бөглөнө үү",
     "address_note": "Анхаарна уу",
-    "tel": "Холбогдох дугаар"
+    "tel": "Холбогдох дугаар",
+    "service_address": "Өөрийн хаягийг сонгоно уу"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "фунт",
     "кварц",
     "ярд",
-    "өрөө"
+    "өрөө",
+    "секунд",
+    "минут",
+    "цаг",
+    "өдрүүд",
+    "долоо хоног",
+    "сар",
+    "жил"
   ],
   "region_types": {
     "State": "муж",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Хамгийн бага урт нь {length} байх ёстой",
     "invalid_min_array_length": "Хамгийн багадаа {length} зүйл сонгоно уу",
     "invalid_max_chars": "Хамгийн ихдээ {maxCount} тэмдэгт",
-    "invalid_url": "Хүчингүй URL"
+    "invalid_url": "Хүчингүй URL",
+    "country_invalid": "Очих улсаа сонго!",
+    "postal_code_invalid": "Хүчинтэй шуудангийн код тохируул!"
   },
   "colors": {
     "#D32F2F": "Улаан",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Цагаан",
     "#FFF": "Цагаан",
     "#000000": "Хар",
-    "#000": "Хар"
+    "#000": "Хар",
+    "#7d263a": "Марун",
+    "#FD9F17": "алт",
+    "#229DBF": "Ус",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Арми",
+    "#474747": "Асфальт",
+    "#E6195C": "Берри",
+    "#B2184C": "Берри Трибленд",
+    "#FC7F5F": "Шатаасан улбар шар",
+    "#80011F": "Кардинал",
+    "#382829": "Шоколад",
+    "#F06336": "Шүрэн",
+    "#FAE7C9": "Цөцгий",
+    "#6B2257": "Үхрийн нүд",
+    "#222127": "Хар саарал",
+    "#0D5A74": "Гүн цайвар",
+    "#00582F": "Мөнх ногоон",
+    "#214C30": "Ой",
+    "#DC2867": "Фуксия",
+    "#38561": "Келли",
+    "#5C884D": "Навч",
+    "#558450": "Хөнгөн ус",
+    "#96B5C9": "Цайвар цэнхэр",
+    "#DCAFCE": "Голт бор",
+    "#D3E1A4": "Шохой",
+    "#9DE7C2": "гаа",
+    "#F6EAD2": "Байгалийн",
+    "#1A1F35": "Тэнгисийн цэргийн флот",
+    "#404624": "Олив",
+    "#271020": "Хар чавга",
+    "#A8355C": "Бөөрөлзгөнө",
+    "#D6BEA6": "Зөөлөн тос",
+    "#BEA994": "Бор",
+    "#0DB2AE": "Цайвар",
+    "#A86EA9": "Нил ягаан",
+    "#36454F": "Нүүрс",
+    "#b3b0ab": "нүүрстөрөгчийн саарал",
+    "#463e3d": "Нүүрс Хизер",
+    "#282d3c": "Тэнгисийн цэргийн Блэйзер"
   },
   "address_info": {
     "name": "Нэр",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Барилгын дугаар",
     "building_unit": "Нэгж",
     "postcode": "Шуудангийн код",
-    "note": "Анхаарна уу"
+    "note": "Анхаарна уу",
+    "county": "County"
   },
   "product_types": {
     "physical": "Физик",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Өнгө",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Энгийн",
       "selective": "Сонгодог",
-      "switch": "Солих"
-    }
+      "switch": "Солих",
+      "file": "Файл",
+      "number": "Тоо"
+    },
+    "placeholder_input": "Орлуулагч",
+    "file_type_input": "Зөвшөөрөгдсөн файлын төрлүүд",
+    "file_type_message": "jpeg, png, зип, ..."
   },
   "virtual_order_info_summery": {
     "title": "Бүтээгдэхүүний нэр",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Гар утсаа оруулна уу",
     "verification_code": "Баталгаажуулах код",
     "msg_title": "Сайн уу",
-    "msg_body": "Та нэвтэрнэ үү. Энэ нь хэдхэн секунд болно."
+    "msg_body": "Та нэвтэрнэ үү. Энэ нь хэдхэн секунд болно.",
+    "login_apple": "Apple-ээр нэвтэрнэ үү"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Шошго нэмсэн"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Маш төвөгтэй",
+    "hard": "Хэцүү",
+    "intermediate": "Дунд зэрэг",
+    "easy": "Хялбар"
   }
 };

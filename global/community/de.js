@@ -65,7 +65,9 @@ export default {
     "my_feed": "Mir",
     "blocked_message": "Sie sind bis blockiert",
     "reported": "Gemeldet",
-    "report": "Prüfbericht"
+    "report": "Prüfbericht",
+    "post": "Post",
+    "attach_file": "Datei anhängen"
   },
   "invite_message": "{user} hat Sie zum Forum {community} eingeladen. Klicken Sie auf den Link unten, um die Beobachtungen Ihrer Freunde zu lesen und Ihre Meinung mit ihnen zu teilen. Ich warte auf dich.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Umfrage entfernen",
     "take_screenshot": "Als Deckung nehmen",
     "take_link_msg": "Link hier einfügen und eingeben",
-    "eligible_title": "Schritte zur Berechtigung zum Posten"
+    "eligible_title": "Schritte zur Berechtigung zum Posten",
+    "public": "Öffentlich"
   },
   "tips": {
     "verify_email": "Geben Sie Ihre E-Mail ein und bestätigen Sie sie.",

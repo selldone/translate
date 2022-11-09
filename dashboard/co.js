@@ -155,7 +155,19 @@ export default {
       "Setup": "magazinu",
       "Sell": "Sales & Marketing",
       "Developer": "Sviluppà",
-      "Application": "Applicazioni"
+      "Application": "Applicazioni",
+      "Product": "Gestione di prudutti è categurie",
+      "Blog": "CMS & Blog",
+      "Order": "Centru di Cumpagnia di Ordini",
+      "Channel": "Canali di vendita",
+      "Accounting": "Contabilità è Metodi di Pagamentu",
+      "Incentives": "Incentivi",
+      "Marketing": "Marketing & Campagne",
+      "Logistic": "Logistica è spedizione",
+      "Customers": "Club di Clienti è Segmentazione",
+      "Page": "Pagine di destinazione è persunalizati",
+      "Access": "Staff / API Access Management",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Repository Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Magazzini",
       "roles": "Ruoli",
       "home": "A casa",
-      "expert": "Espertu"
+      "expert": "Espertu",
+      "deals": "Tratti",
+      "providers": "I fornituri"
     },
     "shops": {
       "create_new": "Crea una nova tenda",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Status",
           "created_at": "Data di creazione",
           "updated_at": "Ultima aghjurnazione"
-        }
+        },
+        "subtitle": "Scrivite articuli cù un editore in linea mudernu per presentà sè stessu è a vostra attività. U cuntenutu originale hè a prima cosa chì avete bisognu di fucalizza quandu scrivite un post di blog di alta qualità SEO-friendly."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Rapportu",
         "tax": "Tassa",
         "drop_shipping": "Ricevute di rivenditore",
-        "reseller_accounts": "Conti di rivenditore"
+        "reseller_accounts": "Conti di rivenditore",
+        "valuations": "Valutazioni"
       },
       "invoice": {
         "title": "Cumprate Portafogli Linked",
@@ -605,7 +621,8 @@ export default {
         "delivery": "spedizione",
         "inventory": "Invintariu",
         "warehouse": "Magazzinu",
-        "logistic_apps": "Logistica"
+        "logistic_apps": "Logistica",
+        "profiles": "Profili"
       },
       "warehouse": {
         "title": "Magazzinu Store",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Costu minimu di ordine per spedizione gratuita",
           "notifications": {
             "update_success": "I paràmetri di u serviziu di spedizione sò cumpletati cù successu."
-          }
+          },
+          "shipping_cost_calculation": "U calculu di u costu di spedizione",
+          "sod_true": "Ottene u costu di spedizione in destinazione",
+          "sod_true_message": "Assicuratevi chì u vostru serviziu di spedizione accetta u costu di spedizione in destinazione.",
+          "sod_false": "Calculazione di u costu di spedizione automatica",
+          "cod_true": "Accettate cash on delivery",
+          "cod_false": "Accetta solu pagamentu in linea",
+          "cod_true_message": "Assicuratevi chì u vostru serviziu di spedizione accetta COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "Sms",
         "email": "E-mail",
         "domain": "Duminiu",
-        "verifications": "Verificazioni"
+        "verifications": "Verificazioni",
+        "flow": "Flussu",
+        "business_model": "Modellu di cummerciale"
       },
       "delete_dialog": {
         "title": "Sguassà u Store",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Unità di produttu",
       "unit_float": "Unità flottante (prestu)",
       "unit_float_hint": "Per esempiu, u cliente pò urdinà 3 kg di fruttu, ma a quantità mandata à u cliente hè pocu sfarente da a quantità urdinata.",
-      "unit_float_message": "Durante a trasfurmazioni di l'ordine, a quantità consegnata pò differisce da a quantità urdinata. U sistema calcula automaticamente sta diferenza è a registra cum'è u vostru debitu à u cliente, chì pò esse appiicatu à i prossime ordini."
+      "unit_float_message": "Durante a trasfurmazioni di l'ordine, a quantità consegnata pò differisce da a quantità urdinata. U sistema calcula automaticamente sta diferenza è a registra cum'è u vostru debitu à u cliente, chì pò esse appiicatu à i prossime ordini.",
+      "status_list": {
+        "active": {
+          "title": "Attivu | Vendite in linea è offline",
+          "description": "Stu pruduttu serà dispunibule per ordini in linea."
+        },
+        "inactive": {
+          "title": "Inattivu | Solu Vendite Offline",
+          "description": "Stu pruduttu ùn serà micca dispunibule per ordini in linea."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Indagine",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Selezziunà u tempu di fine",
       "independent_price": "U prezzu solu per sta variante",
       "same_price": "U prezzu di u pruduttu principale",
-      "variant_pricing_message": "Selezziunate sta opzione, u prezzu di sta variante pò esse stabilitu indipindente da u pruduttu principale."
+      "variant_pricing_message": "Selezziunate sta opzione, u prezzu di sta variante pò esse stabilitu indipindente da u pruduttu principale.",
+      "price_label_input": "Etichetta di prezzu",
+      "price_label_message": "Aghjunghjite infurmazioni supplementari nantu à u prezzu cum'è ($ 1.5/Fl Oz). Casi d'usu: drogheria, FMCG.",
+      "add_price_label_action": "Aghjunghjite l'etichetta di prezzu"
     },
     "inputs_edit": {
       "title": "Forma di input di l'infurmazione di u Cumpratore",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gateway {gateway_name} editatu."
     },
-    "developer_setting": "Sviluppà è Testa"
+    "developer_setting": "Sviluppà è Testa",
+    "live_mode_message": "Tutte e transazzione seranu in modu live."
   },
   "gift_card": {
     "title": "Gift Cards",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Indirizzu di fatturazione editatu da u cumpratore.",
     "payment-cod-confirm": "U pagamentu COD hè statu cunfirmatu.",
     "payment-cash-confirm": "U pagamentu di {amount} {currency} in cash per a fattura hè statu cunfirmatu.",
-    "payment-dir-confirm": "A ricevuta di pagamentu direttu hè stata cunfirmata."
+    "payment-dir-confirm": "A ricevuta di pagamentu direttu hè stata cunfirmata.",
+    "vendor": "L'ordine di u venditore hè cambiatu da <b>{from}</b> à <b>{to}</b> .",
+    "connect-sync": "Ordine sincronizatu da Connect OS.",
+    "connect-shipped": "L'ordine di cunnessione hè statu speditu da {shipping}.",
+    "connect-returned": "L'ordine di cunnessione hè statu restituitu da {shipping}.",
+    "connect-failed": "Cumpiimentu di l'ordine fiascatu da u cumpagnu. {reason}",
+    "connect-canceled": "L'ordine hè statu annullatu da u cumpagnu. {reason}",
+    "connect-action-cancel": "Richiesta di annullà l'ordine. {reason}",
+    "connect-put-hold": "L'ordine hè statu messu in attesa. {reason}",
+    "connect-remove-hold": "L'ordine hè statu cacciatu da u hold. {reason}",
+    "connect-confirmed": "L'ordine hè statu cunfirmatu.",
+    "email-vendor": "🔔 L'email d'informazioni di l'ordine hè stata mandata à <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Oghje",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Fate soldi",
     "menu": {
       "plans": "Piani",
-      "accounts": "Conti"
+      "accounts": "Conti",
+      "participant": "Participante"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Chjavi d'accessu à u magazinu",
     "shop_keys_message": "Sti chjavi sò usati per creà Access Token da u vostru servitore. Nota chì i chjavi sò cunfidenziale è solu pusatu nantu à u servitore in modu chì ùn sò micca visibili à l'altri.",
     "personal_keys_title": "Chjavi d'accessu persunale",
-    "personal_keys_message": "Pudete creà e chjave di u vostru contu quì. Da nutà chì sti chjavi puderanu accede à u vostru contu. Crea è utilizate sti chjavi solu s'ellu sapete esattamente ciò chì fate."
+    "personal_keys_message": "Pudete creà e chjave di u vostru contu quì. Da nutà chì sti chjavi puderanu accede à u vostru contu. Crea è utilizate sti chjavi solu s'ellu sapete esattamente ciò chì fate.",
+    "clients_title": "Clienti",
+    "clients_message": "Sti chjavi sò usati per creà Access Token da u vostru servitore. Nota chì i chjavi sò cunfidenziale è solu pusatu nantu à u servitore in modu chì ùn sò micca visibili à l'altri."
   },
   "user_security_control": {
     "title": "Sicurezza di u contu",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Gestisce i profili",
       "description": "Gestisce i profili di a tenda."
+    },
+    "shop-discount-code": {
+      "name": "Gestione di codice di sconto",
+      "description": "Gestisce, edità è aghjunghje i codici di sconto di a tenda."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Settings",
       "change": "Carica",
       "transfer": "Trasferimentu",
-      "transactions": "Transacciones"
+      "transactions": "Transacciones",
+      "charge": "Carica",
+      "history": "Storia"
     },
     "transactions": {
       "title": "Transazzioni di contu",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Cancella a cunferma di l'abbonamentu",
       "message": "Sò sicuru d'annullà stu abbonamentu?",
       "action": "Cancella l'abbonamentu"
-    }
+    },
+    "use_voucher_now": "Aduprate u voucher avà",
+    "validity_duration": "Durata di validità",
+    "validity_duration_hint": "Cumprà una licenza di 12 mesi, riceverete un scontu di 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Scaricate u testu di dati",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Grandi fonts",
     "large_font_message": "Mostra u testu più grande di u normale",
     "samples": "Mostra i negozi di mostra",
-    "samples_message": "Se attivatu, alcuni negozii di mostra seranu affissati in u vostru pannellu."
+    "samples_message": "Se attivatu, alcuni negozii di mostra seranu affissati in u vostru pannellu.",
+    "automation": "L'automatizazione",
+    "automation_message": "Mostra a tabulazione di l'automatizazione in u dashboard di a tenda. (Webhooks, prugrammazione visuale, ...)"
   },
   "shop_locations": {
     "title": "Paesi induve u serviziu hè furnitu",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Coupon hè statu sguassatu cù successu."
-    }
+    },
+    "multiple_use": "Usu multiplu"
   },
   "coupon_edit": {
     "title_edit": "Edit cuponu",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Limitu",
       "description": "Stabbilisce un limitu à u numeru massimu di utilizatori."
+    },
+    "SEGMENTS": {
+      "title": "Segmenti",
+      "description": "Limite i clienti in una segmentazione manuale specifica."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "A quantità tutale di l'ordine hè stata ritirata da e carte rigalu! U cumpratore ùn hà micca bisognu di pagà più.",
       "cod_msg": "U cliente pagarà quandu riceve l'ordine.",
       "online_msg": "Dumandate à u cliente per scansà u codice QR nantu à a pantalla di u cliente."
-    }
+    },
+    "name": "POS",
+    "message": "Avè u vostru puntu di vendita in linea di costu zero-setup, eseguite nantu à qualsiasi smartphone, tableta è PC, o crea ordini manualmente."
   },
   "exporter": {
     "title": "Esporta dati",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Mandate à u servitore",
     "shop_license": "Licenza di a tenda",
     "max_items_limit": "Limitu massimu di l'articuli",
-    "total_items": "Articuli tutali"
+    "total_items": "Articuli tutali",
+    "customer": {
+      "title": "Importa i clienti",
+      "subtitle": "Caricate i fugliali CSV di i clienti quì. Assicuratevi di seguità u furmatu standard, è ancu, avete da seguità e regule di privacy."
+    }
   },
   "campaigns": {
     "title": "Campagne",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Ligami",
     "light_checkout": "Tema di cassa leggera",
     "light_header": "Intestazione di luce",
-    "light_footer": "Piè di pagina leggero"
+    "light_footer": "Piè di pagina leggero",
+    "product_page": "Pagina di u produttu",
+    "typography": "Tipografia",
+    "header": "Intestazione",
+    "custom_code": "Codice persunalizatu",
+    "custom_css": "CSS persunalizata"
   },
   "app_templates": {
     "default": "Default",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Gestisce u serviziu",
     "option_deliver_by_courier": "Opzione 1: Consegna da i vostri corrieri.",
     "option_add_to_que": "Opzione 2: Aghjunghjite à a fila per processà nantu à a pagina di serviziu di spedizione.",
-    "option_instant_shipping": "Opzione 3: spedizione immediata."
+    "option_instant_shipping": "Opzione 3: spedizione immediata.",
+    "pickup_action": "Cunferma di pickup"
   },
   "shop_home_edit": {
     "title": "Impostazione di a pagina iniziale",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Pruduttu aghjuntu à a vostra tenda.",
       "request_access": "Avemu mandatu a vostra dumanda d'accessu à u grossista cù successu."
-    }
+    },
+    "show_eligible_shops_message": "Mostra i negozi eligibili"
   },
   "product_dropshipping": {
     "need_re_enable": "Stu pruduttu hè statu cambiatu da u venditore originale, sti cambiamenti di prezzu anu disattivatu u pruduttu in a vostra tenda. Cuntrolla i cambiamenti è s'è vo accunsente à riattivate u pruduttu, appughjà u buttone sottu.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Ùn ci hè micca una categuria in a vostra tenda.",
       "limit": "Limitu di i prudutti",
       "limit_message": "Inserite u numeru di risultati di i prudutti",
-      "select_categories": "Selezziunà e categurie dispunibili"
+      "select_categories": "Selezziunà e categurie dispunibili",
+      "categories_limit": "Limitu di categurie",
+      "categories_limit_msg": "Inserite u numeru massimu di categurie. Pone zero per senza limite."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avocado aghjurnatu cù successu.",
       "add_success": "Avocado creatu cun successu."
-    }
+    },
+    "name": "Avocado"
   },
   "avocado_orders": {
     "title": "Avocado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "inattivu",
     "active_message": "Se attivate sta opzione, a pussibilità di creà i Codici di Vendita Rapida serà visualizata in a sezione di gestione di ogni pruduttu.",
     "hyper_form_link_message": "U ligame hyper page di a vostra tenda",
-    "configuration": "Hyper Settings"
+    "configuration": "Hyper Settings",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Demografia di i Clienti",
     "subtitle": "Filtrate è esportate i dati di i vostri clienti per piglià decisioni megliu per furnisce più valore cù menu marketing! Per piacè rispettà a privacy di i vostri clienti è ùn li mandate mai e-mail in massa! Ùn mai sparte l'infurmazioni di i vostri clienti cù servizii di terze parti senza avè permessu da tutti."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Indirizzi di pickup",
+      "subtitle": "Aghjunghjite è edità l'indirizzi di pickup quì. L'utilizatori puderanu selezziunà l'indirizzu di pickup in a pagina di checkout.",
+      "add_action": "Aghjunghjite un novu locu"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Affiliate POS",
+    "open_pos_action": "POS d'ordine rapidu",
+    "description": "Questa opzione hè adattata per l'amministratori di e pagine Instagram è altre rete suciale. Aduprate Affiliate POS per riceve è aghjunghje ordini da i clienti manualmente. I vostri affiliati (o franchising) ponu aghjunghje novi ordini in u POS Affiliate è caricate u slip di depositu."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "I metudi di login",
+      "subtitle": "Personalizà a manera chì l'utilizatori accede à a vostra tenda."
+    },
+    "checkout": {
+      "title": "Flussu di checkout",
+      "subtitle": "Personalizà u vostru viaghju di u cliente è u flussu di compra in u vostru ecommerce.",
+      "map": {
+        "title": "Mappa",
+        "subtitle": "L'utilizatori devenu selezziunà u locu di consegna nantu à a mappa (cum'è Uber).",
+        "subtitle_no_map": "A distanza in u calculu di spedizione cunsidereghja zero se u locu ùn esiste micca in l'indirizzu furnitu da u cliente."
+      },
+      "mode": {
+        "title": "Puntu di login di i clienti",
+        "default": {
+          "title": "ASAP (predefinitu)",
+          "msg": "L'utilizatori accede à u più prestu pussibule. (Più cunversione)"
+        },
+        "on_checkout": {
+          "title": "À u checkout",
+          "msg": "Forza l'utilizatori à accede à u passu di checkout."
+        },
+        "login_free": {
+          "title": "Login opzionale",
+          "msg": "Login opzionale dopu u pagamentu di l'ordine.."
+        }
+      },
+      "express": {
+        "title": "Redirect dopu aghjunghje à u carrettu",
+        "false": {
+          "title": "Modu normale",
+          "msg": "Rimane nantu à a pagina è cuntinuà a compra dopu à cliccà aghjunghje à u carrettu."
+        },
+        "true": {
+          "title": "Modu Express",
+          "msg": "Redirige u cliente à a pagina di pagamentu dopu à cliccà aghjunghje à u carrettu."
+        }
+      },
+      "shipping_address": {
+        "title": "Dumandate l'indirizzu di spedizione"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fisicu è serviziu (predeterminatu)",
+      "desc": "Dumandate à u cliente per inserisce un indirizzu in i checkouts fisici è di serviziu."
+    },
+    "physical": {
+      "title": "Solu fisicu",
+      "desc": "Dumandate à u cliente per inserisce un indirizzu solu in u checkout fisicu."
+    },
+    "off": {
+      "title": "Mai",
+      "desc": "Ùn dumandate mai l'indirizzu di spedizione. ⚠ Aduprate sta opzione se pensa à avè servizii cù varianti selezziunate u tipu fisicu per i prudutti invece di u tipu di serviziu."
+    }
+  },
+  "business_model": {
+    "title": "Configurazione di u mudellu di cummerciale",
+    "subtitle": "Stabilite u vostru mudellu di cummerciale, è cunfiguremu u vostru OS daretu à a scena."
+  },
+  "business_type": {
+    "title": "Tipi di merchandise",
+    "subtitle": "Definite u tipu di prudutti chì vulete vende in a vostra tenda. Tipi di prudutti in Selldone sò più cà solu un tipu di i prudutti; hè più nantu à a prucedura di cumplimentu.",
+    "send_activation_request_to_support": "Mandate una dumanda di attivazione in un bigliettu di supportu.",
+    "require_kyc": "U pruprietariu di l'affari KYC.",
+    "needs_enterprise_license": "Avete bisognu di avè una licenza Enterprise.",
+    "marketplace_caution_message": "Set Marketplace cum'è u vostru mudellu influenza profondamente a vostra cunfigurazione di u SO cummerciale. Per esempiu, deve definisce almenu un venditore per ogni pruduttu cù prezzi è inventariu indipendenti. I clienti ùn ponu micca cumprà prudutti chì ùn anu micca venditore."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Negoziu Normale",
+      "desc": "Comu regula una PMI, una impresa di casa, o dropshipper - chì vende u so pruduttu direttamente à i clienti o vende i prudutti di i grossisti cum'è rivenditore."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Mantene micca pruduttu è micca inventariu - paghete à un terzu, di solitu un grossista (cum'è Printify, Wholesale2B, ...) o fabricatore, è cumpiendu ordini daretu à a scena."
+    },
+    "wholesaler": {
+      "title": "Fornitore di Dropshipping",
+      "desc": "Comu regula un grossista o un fabricatore - chì spedisce ordini direttamente à u cunsumadore finale. Altri cummercianti nantu à Selldone ponu dropship i vostri prudutti in i so magazzini."
+    },
+    "marketplace": {
+      "title": "Mercatu",
+      "desc": "I mercati in linea cunnetta i cumpratori è i venditori nantu à una piattaforma proprietaria è centralizzata."
+    },
+    "franchise": {
+      "title": "Franchise / Affiliate",
+      "desc": "A franchise hè un metudu di distribuzione di prudutti o servizii chì implicanu un franchisor chì stabilisce a vostra marca (Franchising) o vende i vostri prudutti da a so marca (Affiliate)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Portafogli",
+    "pricing_models": "Pricing",
+    "add_vendor": "Aggiungi venditore",
+    "requests": "E dumande"
+  },
+  "price_input_type": {
+    "title": "Tipu di input di prezzu",
+    "default": {
+      "title": "Default",
+      "desc": "Sceglite un valore cum'è a quantità in u carrettu."
+    },
+    "area": {
+      "title": "Zona",
+      "desc": "Inserite a larghezza è a lunghezza cum'è input per calculà a quantità."
+    },
+    "volume": {
+      "title": "vulume",
+      "desc": "Inserite a larghezza, a lunghezza è l'altezza cum'è inputs per calculà a quantità."
+    },
+    "custom": {
+      "title": "Personalizatu (Per forma di input)",
+      "desc": "Ùn ci hè bisognu di centinaie di varianti! Crea una forma di calculu di costu persunalizata per i prudutti altamente persunalizabili."
+    }
+  },
+  "vendors_list": {
+    "title": "I mo venditori",
+    "message": "Lista di i mo venditori."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Cunnette più domini à u vostru sistema operativu cummerciale è gestisce tutti in un locu. Pudete utilizà a funzione di duminii multipli per creà domini dedicati per ogni parte di u vostru situ web, cum'è blog è cumunità, o utilizate diversi domini per i vostri affiliati."
+  },
+  "notes": {
+    "add_action": "Aghjunghjite una nota per a vostra squadra",
+    "notifications": {
+      "success_add": "A nota hè stata aghjunta cù successu.",
+      "success_delete": "A nota hè stata sguassata cù successu."
+    }
+  },
+  "external_services": {
+    "title": "servizii esterni",
+    "subtitle": "Monitorate l'ultimu statutu di i servizii esterni cum'è SMS è email quì."
   }
 };

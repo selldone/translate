@@ -558,7 +558,52 @@ export default {
     "merchant": "sudagar",
     "per_product": "Per produk",
     "journey": "Lelampahan",
-    "after": "Sawise"
+    "after": "Sawise",
+    "waiting_for_payment": "Mangga rampung pembayaran ...",
+    "hour": "jam",
+    "minute": "menit",
+    "premium": "Premium",
+    "light": "cahya",
+    "dark": "peteng",
+    "guest": "Tamu",
+    "shops": "Toko",
+    "vendor": "Vendor",
+    "vendors": "Vendor",
+    "marketplace": "Pasar",
+    "verify_date": "Verifikasi tanggal",
+    "note": "Cathetan",
+    "panel": "Panel",
+    "removed": "Dibusak",
+    "segments": "Segmen",
+    "personal_info": "Informasi pribadi",
+    "preferences": "Preferensi",
+    "spec": "Spec",
+    "reviews": "Ulasan",
+    "constraints": "Watesan",
+    "flexible": "Fleksibel",
+    "usage_limit": "Watesan panggunaan",
+    "temporary": "Sawetoro wektu",
+    "original": "Asli",
+    "saved": "disimpen!",
+    "sort": "Urut",
+    "documents": "Dokumen",
+    "document": "Dokumen",
+    "please_wait": "Mangga ngenteni...",
+    "pickup": "Jupuk",
+    "customize": "ngatur",
+    "difficulty": "kangelan",
+    "banned": "dilarang",
+    "company": "Perusahaan",
+    "tax_shipping": "Pajak Pengiriman",
+    "warranty": "Garansi",
+    "return_policy": "Kawicaksanan bali",
+    "guide": "Panuntun",
+    "translate": "nerjemahake",
+    "public": "Umum",
+    "deleted": "Dibusak",
+    "variant": "Varian",
+    "secure": "Aman",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Lacak",
     "change_state": "Ganti Status",
     "done": "rampung",
-    "reply": "wangsulan"
+    "reply": "wangsulan",
+    "watch_now": "Watch Saiki",
+    "unlock": "Mbukak kunci",
+    "lock": "Kunci",
+    "create_clone": "Nggawe kloning",
+    "regenerate": "regenerasi",
+    "add_message": "Tambah pesen",
+    "continue_chat": "Terus ngobrol",
+    "add_new_message": "Tambah pesen anyar"
   },
   "instance_message_title": "Kirim pesen cepet",
   "instance_message": "Halo {name}, Jenengku {author} saka {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "kode pos",
     "enter_value": "Isi kene",
     "address_note": "Cathetan",
-    "tel": "nomer kontak"
+    "tel": "nomer kontak",
+    "service_address": "Pilih alamat sampeyan"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "pon",
     "kuartal",
     "yard",
-    "kamar"
+    "kamar",
+    "detik",
+    "menit",
+    "jam",
+    "dina",
+    "minggu",
+    "wulan",
+    "taun"
   ],
   "region_types": {
     "State": "negara",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Dawane minimal kudu {length}",
     "invalid_min_array_length": "Paling ora pilih {length} item",
     "invalid_max_chars": "Maks {maxCount} karakter",
-    "invalid_url": "URL ora valid"
+    "invalid_url": "URL ora valid",
+    "country_invalid": "Pilih negara tujuan!",
+    "postal_code_invalid": "Setel kode pos sing bener!"
   },
   "colors": {
     "#D32F2F": "abang",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Putih",
     "#FFF": "Putih",
     "#000000": "ireng",
-    "#000": "ireng"
+    "#000": "ireng",
+    "#7d263a": "Maroon",
+    "#FD9F17": "emas",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend Kab",
+    "#413B2D": "Tentara",
+    "#474747": "Aspal",
+    "#E6195C": "woh wohan beri",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Jeruk Bakar",
+    "#80011F": "Kardinal",
+    "#382829": "coklat",
+    "#F06336": "Karang",
+    "#FAE7C9": "Krim",
+    "#6B2257": "Currant",
+    "#222127": "Abu-abu peteng",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Evergreen",
+    "#214C30": "alas",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "godhong",
+    "#558450": "Aqua cahya",
+    "#96B5C9": "Biru Muda",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "jeruk kapur",
+    "#9DE7C2": "Mint",
+    "#F6EAD2": "Alamiah",
+    "#1A1F35": "Navy",
+    "#404624": "Zaitun",
+    "#271020": "Plum",
+    "#A8355C": "Raspberry",
+    "#D6BEA6": "Krim Lembut",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Violet",
+    "#36454F": "Areng",
+    "#b3b0ab": "abu-abu karbon",
+    "#463e3d": "Arang Heather",
+    "#282d3c": "Blazer Navy Kab"
   },
   "address_info": {
     "name": "jeneng",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Nomer bangunan",
     "building_unit": "Unit",
     "postcode": "kode pos",
-    "note": "Cathetan"
+    "note": "Cathetan",
+    "county": "Negoro"
   },
   "product_types": {
     "physical": "fisik",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "warna",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Prasaja",
       "selective": "Milih",
-      "switch": "Ngalih"
-    }
+      "switch": "Ngalih",
+      "file": "File",
+      "number": "Nomer"
+    },
+    "placeholder_input": "Placeholder",
+    "file_type_input": "Jinis file sing bisa ditampa",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Jeneng produk",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Ketik ponsel sampeyan",
     "verification_code": "Kode verifikasi",
     "msg_title": "halo,",
-    "msg_body": "Mangga mlebet. Butuh mung sawetara detik."
+    "msg_body": "Mangga mlebet. Butuh mung sawetara detik.",
+    "login_apple": "Mlebet karo Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Tag ditambahake"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Ruwet banget",
+    "hard": "Hard",
+    "intermediate": "penengah",
+    "easy": "Gampang"
   }
 };

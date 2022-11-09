@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Pwodwi ki gen rapò",
     "price": "Pri",
     "rate": "Pousantaj",
-    "comment": "Kòmantè"
+    "comment": "Kòmantè",
+    "warranty": "Garanti",
+    "return_policy": "Règleman retounen",
+    "guide": "Gid",
+    "shipping": "Shipping"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Kòmand ou a te byen plase.",
       "delete_success": "Atik efase."
-    }
+    },
+    "select_address_message": "Tanpri antre adrès ou, epi Lè sa a, ou ka soumèt lòd la."
   },
   "hyper": {
     "title": "Kreyasyon lòd",
@@ -541,5 +546,19 @@ export default {
       "message": "Ou te espesifye yon chaj pou atik sa a. Ou ka chanje kantite lajan chaj pou atik la achte pa kliyan an.",
       "charge": "Chaje"
     }
+  },
+  "check_access": {
+    "waiting_message": "Ap tann pou tcheke aksè...",
+    "no_access_message": "Malerezman, ou pa gen aksè nan magazen nou an.<br/> Tanpri kontakte nou."
+  },
+  "share_order": {
+    "action": "Pataje lòd",
+    "title": "Pataje lòd sa a ak lòt moun.",
+    "message": "Li se yon lyen an sekirite, sèlman pataje li ak moun ou konnen yo. Tout moun ki gen lyen sa a ka kopi lòd ou a epi wè adrès ou chwazi a. Li pral genyen enfòmasyon sou kabwa ou ye kounye a.",
+    "valid_period": "Lyen sa a ap ekspire apre 48 èdtan.",
+    "import_order_action": "Enpòte lòd",
+    "retrieve_dialog_title": "Rekipere lòd ekstèn",
+    "address_included": "Pataje atik panyen + Adrès",
+    "address_excluded": "Pataje sèlman atik panyen yo"
   }
 };

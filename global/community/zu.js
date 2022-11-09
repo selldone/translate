@@ -65,7 +65,9 @@ export default {
     "my_feed": "Mina",
     "blocked_message": "Uvinjwe kuze kube",
     "reported": "Kubikiwe",
-    "report": "Bika"
+    "report": "Bika",
+    "post": "Thumela",
+    "attach_file": "Namathisela ifayela"
   },
   "invite_message": "{user} ukumemele kunkundla {community}. Chofoza isixhumanisi esingezansi ukuze ufunde okuphawulwe abangani bakho futhi wabelane ngombono wakho nabo. Ngilinde wena.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Susa ipholi",
     "take_screenshot": "Thatha njengekhava",
     "take_link_msg": "Isixhumanisi esidlule lapha bese ufaka",
-    "eligible_title": "Izinyathelo ezifanele ukuthunyelwa"
+    "eligible_title": "Izinyathelo ezifanele ukuthunyelwa",
+    "public": "Esidlangalaleni"
   },
   "tips": {
     "verify_email": "Faka futhi uqinisekise i-imeyili yakho.",

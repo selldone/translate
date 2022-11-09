@@ -558,7 +558,52 @@ export default {
     "merchant": "Mohoebi",
     "per_product": "Ka sehlahisoa",
     "journey": "Leeto",
-    "after": "Kamora"
+    "after": "Kamora",
+    "waiting_for_payment": "Ka kopo, tlatsa tefo...",
+    "hour": "Hora",
+    "minute": "Motsotso",
+    "premium": "Premium",
+    "light": "Leseli",
+    "dark": "Lefifi",
+    "guest": "Moeti",
+    "shops": "Mabenkele",
+    "vendor": "Morekisi",
+    "vendors": "Barekisi",
+    "marketplace": "Mmaraka",
+    "verify_date": "Netefatsa letsatsi",
+    "note": "Hlokomela",
+    "panel": "Phanele",
+    "removed": "E tlositsoe",
+    "segments": "Likarolo",
+    "personal_info": "Lintlha tsa hau",
+    "preferences": "Likhetho",
+    "spec": "Spec",
+    "reviews": "Maikutlo",
+    "constraints": "Litšitiso",
+    "flexible": "E tenyetsehang",
+    "usage_limit": "Moeli oa tšebeliso",
+    "temporary": "Nakoana",
+    "original": "Ea mantlha",
+    "saved": "E bolokiloe!",
+    "sort": "Hlopha",
+    "documents": "Litokomane",
+    "document": "Tokomane",
+    "please_wait": "Ke kopa u eme...",
+    "pickup": "Nka",
+    "customize": "Customize",
+    "difficulty": "Bothata",
+    "banned": "E thibetsoe",
+    "company": "Khampani",
+    "tax_shipping": "Lekhetho la Thomello",
+    "warranty": "Tiisetso",
+    "return_policy": "LEANO LA THEPA E KHUTLISOANG",
+    "guide": "Tataiso",
+    "translate": "Fetolela",
+    "public": "Phatlalatsa",
+    "deleted": "E hlakotsoe",
+    "variant": "Mofuta o fapaneng",
+    "secure": "Sireletsehile",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Track",
     "change_state": "Fetola Boemo",
     "done": "E felile",
-    "reply": "Araba"
+    "reply": "Araba",
+    "watch_now": "Sheba Joale",
+    "unlock": "Notlolla",
+    "lock": "Notlela",
+    "create_clone": "Etsa clone",
+    "regenerate": "Hlahisa bocha",
+    "add_message": "Kenya molaetsa",
+    "continue_chat": "Tsoela pele ho qoqa",
+    "add_new_message": "Kenya molaetsa o mocha"
   },
   "instance_message_title": "Romela molaetsa hang hang",
   "instance_message": "Lumela {name}, Lebitso la ka ke {author} ho tsoa {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Khoutu ea poso",
     "enter_value": "Tlatsa mona",
     "address_note": "Hlokomela",
-    "tel": "Nomoro ea ho ikopanya"
+    "tel": "Nomoro ea ho ikopanya",
+    "service_address": "Khetha aterese ea hau"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "liponto",
     "likotara",
     "lijarete",
-    "kamore"
+    "kamore",
+    "metsotsoana",
+    "metsotso",
+    "lihora",
+    "matsatsi",
+    "libeke",
+    "likhoeli",
+    "lilemo"
   ],
   "region_types": {
     "State": "Naha",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Bonyane bolelele bo tlameha ho ba {length}",
     "invalid_min_array_length": "Bonyane khetha lintho tse {length}",
     "invalid_max_chars": "Ka holimo ho litlhaku tse {maxCount}",
-    "invalid_url": "URL e fosahetseng"
+    "invalid_url": "URL e fosahetseng",
+    "country_invalid": "Khetha naha eo u eang ho eona!",
+    "postal_code_invalid": "Beha khoutu e nepahetseng ea poso!"
   },
   "colors": {
     "#D32F2F": "Khubedu",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Bosoeu",
     "#FFF": "Bosoeu",
     "#000000": "Ntsho",
-    "#000": "Ntsho"
+    "#000": "Ntsho",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Khauta",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Sesole",
+    "#474747": "Sekontiri",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Orange e chesitsoeng",
+    "#80011F": "Mok'hadinale",
+    "#382829": "Tsokolate",
+    "#F06336": "Coral",
+    "#FAE7C9": "Cream",
+    "#6B2257": "Currant",
+    "#222127": "Boputsoa bo Lefifi",
+    "#0D5A74": "Teal e Tebileng",
+    "#00582F": "Evergreen",
+    "#214C30": "Meru",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Lekhasi",
+    "#558450": "Aqua e khanyang",
+    "#96B5C9": "Botala bo Khanyang",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "Lime",
+    "#9DE7C2": "Mint",
+    "#F6EAD2": "Tlhaho",
+    "#1A1F35": "Sesole sa Metsing",
+    "#404624": "Mohloaare",
+    "#271020": "plum",
+    "#A8355C": "Raspberi",
+    "#D6BEA6": "Cream e bonolo",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Violet",
+    "#36454F": "Mashala",
+    "#b3b0ab": "carbon Gray",
+    "#463e3d": "Heather ea mashala",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Lebitso",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Nomoro ea mohaho",
     "building_unit": "Yuniti",
     "postcode": "Khoutu ea poso",
-    "note": "Hlokomela"
+    "note": "Hlokomela",
+    "county": "Setereke"
   },
   "product_types": {
     "physical": "Ea nama",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Mmala",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "E bonolo",
       "selective": "Khethang",
-      "switch": "Fetoha"
-    }
+      "switch": "Fetoha",
+      "file": "Faele",
+      "number": "Nomoro"
+    },
+    "placeholder_input": "Sebaka",
+    "file_type_input": "Mefuta e amohelehang ea lifaele",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Lebitso la Sehlahiswa",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Kenya mohala oa hau",
     "verification_code": "Nomoro ea netefatso",
     "msg_title": "Lumela,",
-    "msg_body": "Ke kopa o kene. Ho nka metsotsoana e seng mekae feela."
+    "msg_body": "Ke kopa o kene. Ho nka metsotsoana e seng mekae feela.",
+    "login_apple": "Kena ka Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Li-tag li kentsoe"
     }
+  },
+  "difficulties": {
+    "very_complicated": "E rarahane haholo",
+    "hard": "E thata",
+    "intermediate": "Mahareng",
+    "easy": "Bonolo"
   }
 };

@@ -65,7 +65,9 @@ export default {
     "my_feed": "Mig",
     "blocked_message": "Du er spærret indtil",
     "reported": "Rapporteret",
-    "report": "Rapport"
+    "report": "Rapport",
+    "post": "Stolpe",
+    "attach_file": "Vedhæft fil"
   },
   "invite_message": "{user} har inviteret dig til forummet {community}. Klik på linket nedenfor for at læse dine venners observationer og dele din mening med dem. Jeg venter på dig.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Fjern meningsmåling",
     "take_screenshot": "Tag som dækning",
     "take_link_msg": "Tidligere link her og indtast",
-    "eligible_title": "Trin for at være berettiget til at skrive"
+    "eligible_title": "Trin for at være berettiget til at skrive",
+    "public": "Offentlig"
   },
   "tips": {
     "verify_email": "Indtast og bekræft din e-mail.",

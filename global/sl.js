@@ -558,7 +558,52 @@ export default {
     "merchant": "trgovec",
     "per_product": "Na izdelek",
     "journey": "Potovanje",
-    "after": "Po"
+    "after": "Po",
+    "waiting_for_payment": "Prosimo dokončajte plačilo ...",
+    "hour": "ura",
+    "minute": "minuta",
+    "premium": "Premium",
+    "light": "Svetloba",
+    "dark": "Temno",
+    "guest": "Gost",
+    "shops": "Trgovine",
+    "vendor": "Prodajalec",
+    "vendors": "Prodajalci",
+    "marketplace": "Tržnica",
+    "verify_date": "Preverite datum",
+    "note": "Opomba",
+    "panel": "Panel",
+    "removed": "Odstranjeno",
+    "segments": "Segmenti",
+    "personal_info": "Osebni podatki",
+    "preferences": "Nastavitve",
+    "spec": "Spec",
+    "reviews": "Ocene",
+    "constraints": "Omejitve",
+    "flexible": "Prilagodljiv",
+    "usage_limit": "Omejitev uporabe",
+    "temporary": "Začasno",
+    "original": "Original",
+    "saved": "Shranjeno!",
+    "sort": "Razvrsti",
+    "documents": "Dokumenti",
+    "document": "Dokument",
+    "please_wait": "Prosim počakaj...",
+    "pickup": "Prevzem",
+    "customize": "prilagoditi",
+    "difficulty": "Težavnost",
+    "banned": "Prepovedano",
+    "company": "Podjetje",
+    "tax_shipping": "Davek na pošiljanje",
+    "warranty": "Garancija",
+    "return_policy": "Vračilo blaga",
+    "guide": "Vodnik",
+    "translate": "Prevesti",
+    "public": "Javno",
+    "deleted": "Izbrisano",
+    "variant": "Varianta",
+    "secure": "Varno",
+    "admin": "skrbnik"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Sled",
     "change_state": "Spremeni stanje",
     "done": "Končano",
-    "reply": "Odgovori"
+    "reply": "Odgovori",
+    "watch_now": "Pazi zdaj",
+    "unlock": "Odkleni",
+    "lock": "Zaklepanje",
+    "create_clone": "Ustvari klon",
+    "regenerate": "Regeneriraj",
+    "add_message": "Dodaj sporočilo",
+    "continue_chat": "Nadaljujte s klepetom",
+    "add_new_message": "Dodaj novo sporočilo"
   },
   "instance_message_title": "Pošlji takojšnje sporočilo",
   "instance_message": "Pozdravljeni, {name}, moje ime je {author} iz podjetja {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "poštna številka",
     "enter_value": "Izpolnite tukaj",
     "address_note": "Opomba",
-    "tel": "Kontaktna številka"
+    "tel": "Kontaktna številka",
+    "service_address": "Izberite svoj naslov"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "funtov",
     "kvartov",
     "jardov",
-    "soba"
+    "soba",
+    "sekund",
+    "minut",
+    "ure",
+    "dnevi",
+    "tedne",
+    "mesecih",
+    "leta"
   ],
   "region_types": {
     "State": "Država",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Najmanjša dolžina mora biti {length}",
     "invalid_min_array_length": "Izberite vsaj {length} elementov",
     "invalid_max_chars": "Največ {maxCount} znakov",
-    "invalid_url": "Neveljaven URL"
+    "invalid_url": "Neveljaven URL",
+    "country_invalid": "Izberite ciljno državo!",
+    "postal_code_invalid": "Nastavite veljavno poštno številko!"
   },
   "colors": {
     "#D32F2F": "rdeča",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Bela",
     "#FFF": "Bela",
     "#000000": "Črna",
-    "#000": "Črna"
+    "#000": "Črna",
+    "#7d263a": "Maroon",
+    "#FD9F17": "zlato",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "vojska",
+    "#474747": "Asfalt",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Zažgana pomaranča",
+    "#80011F": "Kardinal",
+    "#382829": "Čokolada",
+    "#F06336": "Korale",
+    "#FAE7C9": "Krema",
+    "#6B2257": "ribez",
+    "#222127": "Temno siva",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Zimzelena",
+    "#214C30": "Gozd",
+    "#DC2867": "Fuksija",
+    "#38561": "Kelly",
+    "#5C884D": "List",
+    "#558450": "Lahka Aqua",
+    "#96B5C9": "Svetlo modra",
+    "#DCAFCE": "Lila",
+    "#D3E1A4": "Apno",
+    "#9DE7C2": "Kovnica",
+    "#F6EAD2": "Naravno",
+    "#1A1F35": "Mornarica",
+    "#404624": "olivno",
+    "#271020": "Sliva",
+    "#A8355C": "Malina",
+    "#D6BEA6": "Mehka krema",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Zelenomodra",
+    "#A86EA9": "Vijolična",
+    "#36454F": "Oglje",
+    "#b3b0ab": "ogljikovo siva",
+    "#463e3d": "Oglje Heather",
+    "#282d3c": "Mornarsko modri jopič"
   },
   "address_info": {
     "name": "ime",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Številka stavbe",
     "building_unit": "enota",
     "postcode": "poštna številka",
-    "note": "Opomba"
+    "note": "Opomba",
+    "county": "okrožje"
   },
   "product_types": {
     "physical": "fizično",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Barva",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Preprosto",
       "selective": "Selektivno",
-      "switch": "Preklopi"
-    }
+      "switch": "Preklopi",
+      "file": "mapa",
+      "number": "številka"
+    },
+    "placeholder_input": "Rezervirano mesto",
+    "file_type_input": "Sprejemljive vrste datotek",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "ime izdelka",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Vnesite svoj mobilni telefon",
     "verification_code": "Koda za preverjanje",
     "msg_title": "zdravo,",
-    "msg_body": "Prosimo, prijavite se. Traja le nekaj sekund."
+    "msg_body": "Prosimo, prijavite se. Traja le nekaj sekund.",
+    "login_apple": "Prijavite se z Appleom"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Dodane oznake"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Zelo zapleteno",
+    "hard": "težko",
+    "intermediate": "Vmesno",
+    "easy": "enostavno"
   }
 };

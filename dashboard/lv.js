@@ -155,7 +155,19 @@ export default {
       "Setup": "veikals",
       "Sell": "Pārdošana un Mārketings",
       "Developer": "Attīstīt",
-      "Application": "Lietojumprogrammas"
+      "Application": "Lietojumprogrammas",
+      "Product": "Produktu un kategoriju pārvaldība",
+      "Blog": "CMS un emuārs",
+      "Order": "Pasūtījumu izpildes centrs",
+      "Channel": "Pārdošanas kanāli",
+      "Accounting": "Grāmatvedība un norēķinu metodes",
+      "Incentives": "Stimuli",
+      "Marketing": "Mārketings un kampaņas",
+      "Logistic": "Loģistika un piegāde",
+      "Customers": "Klientu klubs un segmentācija",
+      "Page": "Galvenās un pielāgotās lapas",
+      "Access": "Personāla / API piekļuves pārvaldība",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github repozitorijs",
@@ -193,7 +205,9 @@ export default {
       "stores": "Veikali",
       "roles": "Lomas",
       "home": "Mājas",
-      "expert": "Eksperts"
+      "expert": "Eksperts",
+      "deals": "Piedāvājumi",
+      "providers": "Pakalpojumu sniedzēji"
     },
     "shops": {
       "create_new": "Izveidojiet jaunu veikalu",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Statuss",
           "created_at": "Izveidošanas datums",
           "updated_at": "Pēdējā atjaunošana"
-        }
+        },
+        "subtitle": "Rakstiet rakstus, izmantojot mūsdienīgu iekļauto redaktoru, lai iepazīstinātu ar sevi un savu uzņēmumu. Sākotnējais saturs ir pirmā lieta, uz ko jums jākoncentrējas, rakstot augstas kvalitātes SEO draudzīgu emuāra ierakstu."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Ziņot",
         "tax": "Nodoklis",
         "drop_shipping": "Tālākpārdevēju čeki",
-        "reseller_accounts": "Tālākpārdevēju konti"
+        "reseller_accounts": "Tālākpārdevēju konti",
+        "valuations": "Vērtējumi"
       },
       "invoice": {
         "title": "Iegādājieties saistītos makus",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Piegāde",
         "inventory": "Inventārs",
         "warehouse": "Noliktava",
-        "logistic_apps": "Loģistika"
+        "logistic_apps": "Loģistika",
+        "profiles": "Profili"
       },
       "warehouse": {
         "title": "Veikala noliktava",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Minimālās pasūtījuma izmaksas par bezmaksas piegādi",
           "notifications": {
             "update_success": "Piegādes pakalpojuma iestatījumi ir veiksmīgi pabeigti."
-          }
+          },
+          "shipping_cost_calculation": "Piegādes izmaksu aprēķins",
+          "sod_true": "Saņemiet piegādes izmaksas galamērķī",
+          "sod_true_message": "Pārliecinieties, vai jūsu piegādes pakalpojums pieņem piegādes izmaksas galamērķī.",
+          "sod_false": "Automātiskās piegādes izmaksu aprēķins",
+          "cod_true": "Pieņemiet skaidru naudu piegādes laikā",
+          "cod_false": "Pieņemt tikai tiešsaistes maksājumus",
+          "cod_true_message": "Pārliecinieties, vai jūsu piegādes pakalpojums pieņem COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "Īsziņa",
         "email": "E-pasts",
         "domain": "Domēns",
-        "verifications": "Pārbaudes"
+        "verifications": "Pārbaudes",
+        "flow": "Plūsma",
+        "business_model": "Biznesa modelis"
       },
       "delete_dialog": {
         "title": "Dzēst veikalu",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Produkta vienība",
       "unit_float": "Pludiņa vienība (drīzumā)",
       "unit_float_hint": "Piemēram, klients var pasūtīt 3 kg augļu, taču klientam nosūtītā summa nedaudz atšķiras no pasūtītā.",
-      "unit_float_message": "Pasūtījuma apstrādes laikā piegādātā summa var atšķirties no pasūtītās summas. Sistēma automātiski aprēķina šo starpību un ieraksta to kā jūsu parādu klientam, ko var attiecināt uz nākamajiem pasūtījumiem."
+      "unit_float_message": "Pasūtījuma apstrādes laikā piegādātā summa var atšķirties no pasūtītās summas. Sistēma automātiski aprēķina šo starpību un ieraksta to kā jūsu parādu klientam, ko var attiecināt uz nākamajiem pasūtījumiem.",
+      "status_list": {
+        "active": {
+          "title": "Aktīvs | Pārdošana tiešsaistē un bezsaistē",
+          "description": "Šis produkts būs pieejams tiešsaistes pasūtījumiem."
+        },
+        "inactive": {
+          "title": "Neaktīvs | Tikai pārdošana bezsaistē",
+          "description": "Šis produkts nebūs pieejams tiešsaistes pasūtījumiem."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Aptauja",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Izvēlieties beigu laiku",
       "independent_price": "Cena tikai šim variantam",
       "same_price": "Galvenā produkta cena",
-      "variant_pricing_message": "Izvēloties šo opciju, šī varianta cenu var iestatīt neatkarīgi no galvenā produkta."
+      "variant_pricing_message": "Izvēloties šo opciju, šī varianta cenu var iestatīt neatkarīgi no galvenā produkta.",
+      "price_label_input": "Cenas etiķete",
+      "price_label_message": "Pievienojiet papildu informāciju par cenu, piemēram, (1,5 $/Fl Oz). Lietošanas gadījumi: pārtikas preces, FMCG.",
+      "add_price_label_action": "Pievienojiet cenas etiķeti"
     },
     "inputs_edit": {
       "title": "Pircēja informācijas ievades forma",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Vārteja {gateway_name} ir rediģēta."
     },
-    "developer_setting": "Izstrādāt un pārbaudīt"
+    "developer_setting": "Izstrādāt un pārbaudīt",
+    "live_mode_message": "Visi darījumi tiks veikti tiešraides režīmā."
   },
   "gift_card": {
     "title": "Dāvanu kartes",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Pircēja rediģēta norēķinu adrese.",
     "payment-cod-confirm": "COD Maksājums tika apstiprināts.",
     "payment-cash-confirm": "Tika apstiprināta rēķina apmaksa {amount} {currency} skaidrā naudā.",
-    "payment-dir-confirm": "Tiešā maksājuma kvīts tika apstiprināta."
+    "payment-dir-confirm": "Tiešā maksājuma kvīts tika apstiprināta.",
+    "vendor": "Piegādātāja pasūtījuma statuss ir mainīts no <b>{from}</b> uz <b>{to}</b> .",
+    "connect-sync": "Pasūtījums sinhronizēts ar Connect OS.",
+    "connect-shipped": "Savienojuma pasūtījumu nosūtīja {shipping}.",
+    "connect-returned": "Savienojuma pasūtījums ir atgriezts līdz {shipping}.",
+    "connect-failed": "Partnerim neizdevās izpildīt pasūtījumu. {reason}",
+    "connect-canceled": "Partneris pasūtījumu atcēla. {reason}",
+    "connect-action-cancel": "Pieprasījums atcelt pasūtījumu. {reason}",
+    "connect-put-hold": "Pasūtījums tika aizturēts. {reason}",
+    "connect-remove-hold": "Pasūtījums tika noņemts no aizturēšanas. {reason}",
+    "connect-confirmed": "Pasūtījums tika apstiprināts.",
+    "email-vendor": "🔔 Pasūtījuma informēšanas e-pasts ir nosūtīts uz <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Šodien",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Pelnīt naudu",
     "menu": {
       "plans": "Plāni",
-      "accounts": "Konti"
+      "accounts": "Konti",
+      "participant": "Dalībnieks"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Veikala piekļuves atslēgas",
     "shop_keys_message": "Šīs atslēgas izmanto, lai jūsu serveris izveidotu Access Token. Ņemiet vērā, ka atslēgas ir konfidenciālas un atrodas tikai serverī, lai tās nebūtu redzamas citiem.",
     "personal_keys_title": "Personiskās piekļuves atslēgas",
-    "personal_keys_message": "Šeit varat izveidot sava konta atslēgas. Ņemiet vērā, ka šīs atslēgas varēs piekļūt jūsu kontam. Izveidojiet un izmantojiet šīs atslēgas tikai tad, ja precīzi zināt, ko darāt."
+    "personal_keys_message": "Šeit varat izveidot sava konta atslēgas. Ņemiet vērā, ka šīs atslēgas varēs piekļūt jūsu kontam. Izveidojiet un izmantojiet šīs atslēgas tikai tad, ja precīzi zināt, ko darāt.",
+    "clients_title": "Klienti",
+    "clients_message": "Šīs atslēgas izmanto, lai jūsu serveris izveidotu Access Token. Ņemiet vērā, ka atslēgas ir konfidenciālas un atrodas tikai serverī, lai tās nebūtu redzamas citiem."
   },
   "user_security_control": {
     "title": "Konta drošība",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Pārvaldīt profilus",
       "description": "Pārvaldīt veikalu profilus."
+    },
+    "shop-discount-code": {
+      "name": "Atlaižu kodu pārvaldība",
+      "description": "Pārvaldiet, rediģējiet un pievienojiet veikalu atlaižu kodus."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Iestatījumi",
       "change": "Uzlādē",
       "transfer": "Pārsūtīšana",
-      "transactions": "Darījumi"
+      "transactions": "Darījumi",
+      "charge": "Uzlādē",
+      "history": "Vēsture"
     },
     "transactions": {
       "title": "Kontu darījumi",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Anulēt abonementa apstiprinājumu",
       "message": "Vai tiešām anulēt šo abonementu?",
       "action": "Atcelt abonementu"
-    }
+    },
+    "use_voucher_now": "Izmantojiet kuponu tagad",
+    "validity_duration": "Derīguma termiņš",
+    "validity_duration_hint": "Iegādājoties 12 mēnešu licenci, saņemsi 30% atlaidi."
   },
   "admin_shop_layout": {
     "download_txt": "Lejupielādēt datu tekstu",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Lieli fonti",
     "large_font_message": "Rādīt tekstu lielāku nekā parasti",
     "samples": "Parādiet veikalu paraugus",
-    "samples_message": "Ja iespējots, jūsu panelī tiks parādīti daži veikalu paraugi."
+    "samples_message": "Ja iespējots, jūsu panelī tiks parādīti daži veikalu paraugi.",
+    "automation": "Automatizācija",
+    "automation_message": "Rādīt automatizācijas cilni veikala informācijas panelī. (Tīmekļa aizkari, vizuālā programmēšana, ...)"
   },
   "shop_locations": {
     "title": "Valstis, kurās tiek sniegts pakalpojums",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kupons ir veiksmīgi izdzēsts."
-    }
+    },
+    "multiple_use": "Daudzkārtēja lietošana"
   },
   "coupon_edit": {
     "title_edit": "Rediģēt kuponu",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Ierobežot",
       "description": "Iestatiet maksimālo lietotāju skaita ierobežojumu."
+    },
+    "SEGMENTS": {
+      "title": "Segmenti",
+      "description": "Ierobežojiet klientus īpašā manuālā segmentācijā."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "No dāvanu kartēm tika izņemta kopējā pasūtījuma summa! Pircējam nav jāmaksā vairāk.",
       "cod_msg": "Klients maksās pasūtījuma saņemšanas brīdī.",
       "online_msg": "Lūdziet klientam skenēt QR kodu klienta ekrānā."
-    }
+    },
+    "name": "POS",
+    "message": "Iegūstiet savu nulles iestatīšanas izmaksu tiešsaistes tirdzniecības vietā, palaidiet to jebkurā viedtālrunī, planšetdatorā un personālajā datorā vai izveidojiet pasūtījumus manuāli."
   },
   "exporter": {
     "title": "Eksportēt datus",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Sūtīt uz serveri",
     "shop_license": "Veikala licence",
     "max_items_limit": "Maksimālais vienumu ierobežojums",
-    "total_items": "Vienumu kopskaits"
+    "total_items": "Vienumu kopskaits",
+    "customer": {
+      "title": "Importēt klientus",
+      "subtitle": "Šeit augšupielādējiet klientu CSV failus. Noteikti ievērojiet standarta formātu un arī privātuma noteikumus."
+    }
   },
   "campaigns": {
     "title": "Kampaņas",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Saites",
     "light_checkout": "Viegla kases tēma",
     "light_header": "Gaišs galvene",
-    "light_footer": "Viegla kājene"
+    "light_footer": "Viegla kājene",
+    "product_page": "Produkta lapa",
+    "typography": "Tipogrāfija",
+    "header": "Virsraksts",
+    "custom_code": "Pielāgots kods",
+    "custom_css": "Pielāgots CSS"
   },
   "app_templates": {
     "default": "Noklusējums",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Pārvaldīt pakalpojumu",
     "option_deliver_by_courier": "1. iespēja: piegādājiet ar kurjeriem.",
     "option_add_to_que": "2. iespēja: pievienojiet rindai, lai apstrādātu piegādes pakalpojuma lapā.",
-    "option_instant_shipping": "3. iespēja: tūlītēja piegāde."
+    "option_instant_shipping": "3. iespēja: tūlītēja piegāde.",
+    "pickup_action": "Saņemšanas apstiprinājums"
   },
   "shop_home_edit": {
     "title": "Mājas lapas iestatījums",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Produkts ir pievienots jūsu veikalam.",
       "request_access": "Mēs veiksmīgi nosūtījām jūsu piekļuves pieprasījumu vairumtirgotājam."
-    }
+    },
+    "show_eligible_shops_message": "Rādīt piemērotos veikalus"
   },
   "product_dropshipping": {
     "need_re_enable": "Šo preci ir mainījis sākotnējais pārdevējs, šīs cenas izmaiņas ir atspējojušas preci jūsu veikalā. Pārbaudiet izmaiņas un, ja piekrītat produkta atkārtotai aktivizēšanai, nospiediet zemāk esošo pogu.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Jūsu veikalā nav nevienas kategorijas.",
       "limit": "Produktu ierobežojums",
       "limit_message": "Ievadiet produktu rezultātu skaitu",
-      "select_categories": "Atlasiet pieejamās kategorijas"
+      "select_categories": "Atlasiet pieejamās kategorijas",
+      "categories_limit": "Kategoriju ierobežojums",
+      "categories_limit_msg": "Ievadiet maksimālo kategoriju skaitu. Iestatiet nulli bez ierobežojumiem."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avokado ir veiksmīgi atjaunināts.",
       "add_success": "Veiksmīgi izveidots avokado."
-    }
+    },
+    "name": "Avokado"
   },
   "avocado_orders": {
     "title": "Avokado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "neaktīvs",
     "active_message": "Ja iespējosiet šo opciju, katra produkta pārvaldības sadaļā tiks parādīta iespēja izveidot ātrās pārdošanas kodus.",
     "hyper_form_link_message": "Jūsu veikala hiperlapas saite",
-    "configuration": "Hiper iestatījumi"
+    "configuration": "Hiper iestatījumi",
+    "name": "Hiper"
   },
   "hyper_orders": {
     "title": "Hiper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Klientu demogrāfija",
     "subtitle": "Filtrējiet un eksportējiet klientu datus, lai pieņemtu labākus lēmumus un nodrošinātu lielāku vērtību ar mazāku mārketingu! Lūdzu, ievērojiet savu klientu privātumu un nekad nesūtiet viņiem lielapjoma e-pasta ziņojumus! Nekad neizpaudiet savu klientu informāciju ar trešo pušu pakalpojumiem, nesaņemot atļauju no katra no tiem."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Saņemšanas adreses",
+      "subtitle": "Šeit pievienojiet un rediģējiet saņemšanas adreses. Lietotāji norēķināšanās lapā varēs izvēlēties saņemšanas adresi.",
+      "add_action": "Pievienojiet jaunu atrašanās vietu"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Filiāles POS",
+    "open_pos_action": "Ātra pasūtīšanas POS",
+    "description": "Šī opcija ir piemērota Instagram lapu un citu sociālo tīklu administratoriem. Izmantojiet Affiliate POS, lai manuāli saņemtu un pievienotu pasūtījumus no klientiem. Jūsu saistītie uzņēmumi (vai franšīze) var pievienot jaunus pasūtījumus filiāļu POS un augšupielādēt depozīta kvīti."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Pieteikšanās metodes",
+      "subtitle": "Pielāgojiet veidu, kā lietotāji piesakās jūsu veikalā."
+    },
+    "checkout": {
+      "title": "Izrakstīšanās plūsma",
+      "subtitle": "Pielāgojiet savu klientu ceļu un pirkumu plūsmu savā e-komercijā.",
+      "map": {
+        "title": "Karte",
+        "subtitle": "Lietotājiem ir jāizvēlas piegādes vieta kartē (piemēram, Uber).",
+        "subtitle_no_map": "Attālums piegādes aprēķinā tiek uzskatīts par nulli, ja klienta norādītajā adresē atrašanās vieta nepastāv."
+      },
+      "mode": {
+        "title": "Klientu pieteikšanās punkts",
+        "default": {
+          "title": "ASAP (noklusējums)",
+          "msg": "Lietotāji piesakās pēc iespējas ātrāk. (Vairāk reklāmguvumu)"
+        },
+        "on_checkout": {
+          "title": "Kasē",
+          "msg": "Piespiediet lietotājus pieteikties norēķināšanās solī."
+        },
+        "login_free": {
+          "title": "Pēc izvēles pieteikšanās",
+          "msg": "Izvēles pieteikšanās pēc pasūtījuma apmaksas.."
+        }
+      },
+      "express": {
+        "title": "Pārvirzīt pēc pievienošanas grozam",
+        "false": {
+          "title": "Normāls režīms",
+          "msg": "Palieciet lapā un turpiniet iepirkties pēc noklikšķināšanas uz Pievienot grozam."
+        },
+        "true": {
+          "title": "Express režīms",
+          "msg": "Noklikšķinot uz Pievienot grozam, novirziet klientu uz norēķinu lapu."
+        }
+      },
+      "shipping_address": {
+        "title": "Jautājiet piegādes adresi"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fiziskā un apkalpošana (noklusējums)",
+      "desc": "Lūdziet klientam fiziskajā un pakalpojumu kasē ievadīt adresi."
+    },
+    "physical": {
+      "title": "Tikai fiziski",
+      "desc": "Lūdziet klientam ievadīt adresi tikai fiziskajā kasē."
+    },
+    "off": {
+      "title": "Nekad",
+      "desc": "Nekad nejautājiet piegādes adresi. ⚠ Izmantojiet šo opciju, ja plānojat pakalpojumus ar variantiem, atlasot produktiem fizisko veidu, nevis pakalpojuma veidu."
+    }
+  },
+  "business_model": {
+    "title": "Biznesa modeļa iestatīšana",
+    "subtitle": "Iestatiet savu biznesa modeli, un mēs aizkulisēs konfigurēsim jūsu OS."
+  },
+  "business_type": {
+    "title": "Preču veidi",
+    "subtitle": "Iestatiet produktu veidu, ko vēlaties pārdot savā veikalā. Produktu veidi Selldone ir vairāk nekā tikai produktu veids; tas vairāk attiecas uz izpildes procedūru.",
+    "send_activation_request_to_support": "Nosūtiet aktivizēšanas pieprasījumu atbalsta biļetē.",
+    "require_kyc": "Uzņēmuma īpašnieks KYC.",
+    "needs_enterprise_license": "Jums ir jābūt uzņēmuma licencei.",
+    "marketplace_caution_message": "Iestatiet Marketplace kā modeli, kas būtiski ietekmē jūsu uzņēmuma OS konfigurāciju. Piemēram, katram produktam ir jādefinē vismaz viens piegādātājs ar neatkarīgām cenām un krājumiem. Klienti nevar iegādāties preces, kurām nav pārdevēja."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Parasts veikals",
+      "desc": "Parasti MVU, mājas uzņēmums vai dropshipper — kas pārdod savus produktus tieši klientiem vai pārdod vairumtirgotāju produktus kā tālākpārdevējs."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Neglabājiet nekādus produktus un krājumus — jūs maksājat trešajai pusei, parasti vairumtirgotājam (piemēram, Printify, Wholesale2B, ...) vai ražotājam, un viņi izpilda pasūtījumus aizkulisēs."
+    },
+    "wholesaler": {
+      "title": "Dropshipping piegādātājs",
+      "desc": "Parasti vairumtirgotājs vai ražotājs, kas nosūta pasūtījumus tieši gala patērētājam. Citi tirgotāji vietnē Selldone var nosūtīt jūsu produktus savos veikalos."
+    },
+    "marketplace": {
+      "title": "Tirgus laukums",
+      "desc": "Tiešsaistes tirgi savieno pircējus un pārdevējus patentētā un centralizētā platformā."
+    },
+    "franchise": {
+      "title": "Franšīze / filiāle",
+      "desc": "Franšīze ir produktu vai pakalpojumu izplatīšanas metode, kurā iesaistīts franšīzes devējs, kurš izveido jūsu zīmolu (franšīze) vai pārdod jūsu produktus ar savu zīmolu (filiāle)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Maki",
+    "pricing_models": "Cenu noteikšana",
+    "add_vendor": "Pievienojiet pārdevēju",
+    "requests": "Pieprasījumi"
+  },
+  "price_input_type": {
+    "title": "Cenas ievades veids",
+    "default": {
+      "title": "Noklusējums",
+      "desc": "Izvēlieties vērtību kā daudzumu grozā."
+    },
+    "area": {
+      "title": "Apgabals",
+      "desc": "Lai aprēķinātu daudzumu, ievadiet platumu un garumu."
+    },
+    "volume": {
+      "title": "apjoms",
+      "desc": "Lai aprēķinātu daudzumu, ievadiet platumu, garumu un augstumu."
+    },
+    "custom": {
+      "title": "Pielāgots (pēc ievades formas)",
+      "desc": "Nav vajadzīgi simtiem variantu! Izveidojiet pielāgotu izmaksu aprēķina veidlapu īpaši pielāgojamiem produktiem."
+    }
+  },
+  "vendors_list": {
+    "title": "Mani pārdevēji",
+    "message": "Manu pārdevēju saraksts."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Savienojiet vairākus domēnus ar savu biznesa operētājsistēmu un pārvaldiet tos visus vienuviet. Varat izmantot vairāku domēnu funkciju, lai izveidotu īpašus domēnus katrai vietnes daļai, piemēram, emuāram un kopienai, vai izmantot dažādus domēnus saviem saistītajiem uzņēmumiem."
+  },
+  "notes": {
+    "add_action": "Pievienojiet piezīmi savai komandai",
+    "notifications": {
+      "success_add": "Piezīme ir veiksmīgi pievienota.",
+      "success_delete": "Piezīme ir veiksmīgi izdzēsta."
+    }
+  },
+  "external_services": {
+    "title": "Ārējie pakalpojumi",
+    "subtitle": "Šeit pārraugiet ārējo pakalpojumu, piemēram, SMS un e-pasta, pēdējo statusu."
   }
 };

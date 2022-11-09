@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Iimveliso ezinxulumeneyo",
     "price": "Ixabiso",
     "rate": "Ixabiso",
-    "comment": "Comment"
+    "comment": "Comment",
+    "warranty": "Iwaranti",
+    "return_policy": "Umthetho WOKUBUYISA",
+    "guide": "Isikhokelo",
+    "shipping": "Ukuhambisa ngenqanawe"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Iodolo yakho yenziwe ngempumelelo.",
       "delete_success": "Into icinyiwe."
-    }
+    },
+    "select_address_message": "Nceda ufake idilesi yakho, uze emva koko ungenise iodolo."
   },
   "hyper": {
     "title": "Ukwenza iodolo",
@@ -541,5 +546,19 @@ export default {
       "message": "Uyichazile intlawulo yale nto. Ungatshintsha isixa sentlawulo yento ethengwe ngumthengi.",
       "charge": "Ukuhlawulisa"
     }
+  },
+  "check_access": {
+    "waiting_message": "Ilinde ukujonga ukufikelela...",
+    "no_access_message": "Ngelishwa, awukwazi ukufikelela kwivenkile yethu.<br/> Nceda uqhagamshelane nathi."
+  },
+  "share_order": {
+    "action": "Yabelana ngeodolo",
+    "title": "Yabelana nabanye ngale oda.",
+    "message": "Likhonkco elikhuselekileyo, yabelana ngalo kuphela nabo ubaziyo. Wonke umntu onale linki unokuphinda-phinda iodolo yakho kwaye abone idilesi ekhethiweyo. Iza kuba nolwazi malunga nenqwelo yakho yangoku.",
+    "valid_period": "Eli khonkco lizakuphelelwa emva kweeyure ezingama-48.",
+    "import_order_action": "Iodolo evela ngaphandle",
+    "retrieve_dialog_title": "Fumana iodolo yangaphandle",
+    "address_included": "Yabelana ngezinto zebhaskithi + Idilesi",
+    "address_excluded": "Yabelana kuphela ngezinto zebhaskithi"
   }
 };

@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Những sảm phẩm tương tự",
     "price": "Giá",
     "rate": "Tỷ lệ",
-    "comment": "Nhận xét"
+    "comment": "Nhận xét",
+    "warranty": "Sự bảo đảm",
+    "return_policy": "Chính sách hoàn trả",
+    "guide": "Hướng dẫn",
+    "shipping": "Đang chuyển hàng"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Đơn hàng của bạn đã được đặt thành công.",
       "delete_success": "Mục đã bị xóa."
-    }
+    },
+    "select_address_message": "Vui lòng nhập địa chỉ của bạn và sau đó bạn có thể gửi đơn đặt hàng."
   },
   "hyper": {
     "title": "Tạo đơn hàng",
@@ -541,5 +546,19 @@ export default {
       "message": "Bạn đã chỉ định một khoản phí cho mặt hàng này. Bạn có thể thay đổi số tiền tính phí đối với mặt hàng mà khách hàng đã mua.",
       "charge": "Thù lao"
     }
+  },
+  "check_access": {
+    "waiting_message": "Đang chờ kiểm tra quyền truy cập ...",
+    "no_access_message": "Thật không may, bạn không có quyền truy cập vào cửa hàng của chúng tôi.<br/> Xin vui lòng liên hệ với chúng tôi."
+  },
+  "share_order": {
+    "action": "Chia sẻ đơn hàng",
+    "title": "Chia sẻ đơn đặt hàng này với những người khác.",
+    "message": "Đó là một liên kết an toàn, chỉ chia sẻ nó với những người bạn biết. Mọi người có liên kết này đều có thể sao chép đơn đặt hàng của bạn và xem địa chỉ đã chọn. Nó sẽ chứa thông tin về giỏ hàng hiện tại của bạn.",
+    "valid_period": "Liên kết này sẽ hết hạn sau 48 giờ.",
+    "import_order_action": "Nhập đơn hàng",
+    "retrieve_dialog_title": "Lấy đơn đặt hàng bên ngoài",
+    "address_included": "Chia sẻ các mặt hàng trong giỏ + Địa chỉ",
+    "address_excluded": "Chỉ chia sẻ các mặt hàng trong giỏ"
   }
 };

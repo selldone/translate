@@ -155,7 +155,19 @@ export default {
       "Setup": "fivarotana",
       "Sell": "Sales & Marketing",
       "Developer": "mampivelatra",
-      "Application": "Applications"
+      "Application": "Applications",
+      "Product": "Fitantanana ny vokatra & sokajy",
+      "Blog": "CMS & Blog",
+      "Order": "Foibe famenoana ny kaomandy",
+      "Channel": "Sales Channels",
+      "Accounting": "Kaonty & fomba fandoavam-bola",
+      "Incentives": "fandrisihana",
+      "Marketing": "Marketing & Fanentanana",
+      "Logistic": "Logistika & fandefasana",
+      "Customers": "Customer Club & Segmentation",
+      "Page": "Pejy fipetrahana & manokana",
+      "Access": "Staff / API Access Management",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github Repository",
@@ -193,7 +205,9 @@ export default {
       "stores": "fivarotana",
       "roles": "andraikitra",
       "home": "an-trano",
-      "expert": "Expert"
+      "expert": "Expert",
+      "deals": "efaha amin'ny isam-",
+      "providers": "Mpanome"
     },
     "shops": {
       "create_new": "Mamorona fivarotana vaovao",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "sata",
           "created_at": "Daty famoronana",
           "updated_at": "Fanavaozana farany"
-        }
+        },
+        "subtitle": "Manorata lahatsoratra miaraka amin'ny tonian-dahatsoratra maoderina mba hanehoana ny tenanao sy ny orinasanao. Ny votoaty tany am-boalohany no zavatra voalohany tokony hifantohanao rehefa manoratra lahatsoratra bilaogy SEO tsara indrindra."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "TATITRA",
         "tax": "HETRA",
         "drop_shipping": "Taratasy mpivarotra",
-        "reseller_accounts": "Kaonty mpivarotra"
+        "reseller_accounts": "Kaonty mpivarotra",
+        "valuations": "Valuations"
       },
       "invoice": {
         "title": "Miantsena Wallets mifandray",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Fandefasana",
         "inventory": "lisitra",
         "warehouse": "Trano fitehirizam-bokatra",
-        "logistic_apps": "fampitaovana"
+        "logistic_apps": "fampitaovana",
+        "profiles": "mombamomba"
       },
       "warehouse": {
         "title": "Trano fitehirizana",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Vidin'ny kaomandy farany ambany ho an'ny fandefasana maimaim-poana",
           "notifications": {
             "update_success": "Vita soa aman-tsara ny firafitry ny serivisy fandefasana."
-          }
+          },
+          "shipping_cost_calculation": "Fikajiana ny saran'ny fandefasana",
+          "sod_true": "Mahazoa saran'ny fandefasana any amin'ny toerana haleha",
+          "sod_true_message": "Ataovy azo antoka fa manaiky ny saram-pandefasana any amin'ny toerana haleha ny sampan-draharahanao.",
+          "sod_false": "Fikajiana ny saran'ny fandefasana fiara",
+          "cod_true": "Manaiky vola amin'ny livraison",
+          "cod_false": "Manaiky fandoavam-bola amin'ny Internet ihany",
+          "cod_true_message": "Ataovy azo antoka fa manaiky COD ny serivisy fandefasana anao."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "mailaka",
         "domain": "Domain",
-        "verifications": "Fanamarinana"
+        "verifications": "Fanamarinana",
+        "flow": "Flow",
+        "business_model": "Business Model"
       },
       "delete_dialog": {
         "title": "Fafao ny Store",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Vondrona vokatra",
       "unit_float": "Unity mitsingevana (tsy ho ela)",
       "unit_float_hint": "Ohatra, ny mpanjifa dia afaka manafatra voankazo 3 kg, saingy ny vola alefa amin'ny mpanjifa dia tsy mitovy amin'ny vola voafantina.",
-      "unit_float_message": "Mandritra ny fanodinana ny kaomandy, ny vola aterina dia mety tsy mitovy amin'ny vola voabaiko. Ny rafitra dia manao kajy ho azy io fahasamihafana io ary mirakitra izany ho trosanao amin'ny mpanjifa, izay azo ampiharina amin'ny baiko manaraka."
+      "unit_float_message": "Mandritra ny fanodinana ny kaomandy, ny vola aterina dia mety tsy mitovy amin'ny vola voabaiko. Ny rafitra dia manao kajy ho azy io fahasamihafana io ary mirakitra izany ho trosanao amin'ny mpanjifa, izay azo ampiharina amin'ny baiko manaraka.",
+      "status_list": {
+        "active": {
+          "title": "Active | Varotra an-tserasera & an-tserasera",
+          "description": "Ity vokatra ity dia azo alaina amin'ny baiko an-tserasera."
+        },
+        "inactive": {
+          "title": "Inactive | Varotra an-tserasera ihany",
+          "description": "Ity vokatra ity dia tsy ho hita amin'ny baiko an-tserasera."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Fanadihadiana",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Fidio ny fotoana farany",
       "independent_price": "Ny vidiny ihany ho an'ity variana ity",
       "same_price": "Ny vidiny ho an'ny vokatra fototra",
-      "variant_pricing_message": "Amin'ny fisafidianana io safidy io, ny vidin'ity variana ity dia azo apetraka tsy miankina amin'ny vokatra fototra."
+      "variant_pricing_message": "Amin'ny fisafidianana io safidy io, ny vidin'ity variana ity dia azo apetraka tsy miankina amin'ny vokatra fototra.",
+      "price_label_input": "Etikety vidiny",
+      "price_label_message": "Manampia fampahalalana fanampiny momba ny vidiny toa ny ($1.5/Fl Oz). Fampiasana tranga: fivarotana, FMCG.",
+      "add_price_label_action": "Ampio etikety vidiny"
     },
     "inputs_edit": {
       "title": "Fomba fampidirana ny mombamomba ny mpividy",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gateway {gateway_name} novaina."
     },
-    "developer_setting": "Mamorona & Test"
+    "developer_setting": "Mamorona & Test",
+    "live_mode_message": "Ny fifanakalozana rehetra dia ho amin'ny fomba mivantana."
   },
   "gift_card": {
     "title": "Karatra fanomezana",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Adiresy faktiora novain'ny mpividy.",
     "payment-cod-confirm": "Ny fandoavana COD dia voamarina.",
     "payment-cash-confirm": "Nohamafisina ny fandoavana {amount} {currency} ho an'ny faktiora.",
-    "payment-dir-confirm": "Nohamafisina ny rosia fandoavana mivantana."
+    "payment-dir-confirm": "Nohamafisina ny rosia fandoavana mivantana.",
+    "vendor": "Niova ny toetry ny kaomandy mpivarotra avy amin'ny <b>{from}</b> ho <b>{to}</b> .",
+    "connect-sync": "Kaomandy narindran'ny Connect OS.",
+    "connect-shipped": "Nalefan'ny {shipping}.",
+    "connect-returned": "Naverin'ny {shipping} ny kaomandy Connect.",
+    "connect-failed": "Tsy vitan'ny mpiara-miasa ny fahatanterahan'ny baiko. {reason}",
+    "connect-canceled": "Nofoanan’ny mpiara-miasa ny baiko. {reason}",
+    "connect-action-cancel": "Fangatahana hanafoana ny baiko. {reason}",
+    "connect-put-hold": "Najanona ny baiko. {reason}",
+    "connect-remove-hold": "Nesorina tamin'ny fitazonana ilay baiko. {reason}",
+    "connect-confirmed": "Nohamafisina ny baiko.",
+    "email-vendor": "🔔 Nalefa tany amin'ny <b>{vendor}</b> ny mailaka fampahafantarana ny kaomandy | {email}."
   },
   "inline_chart": {
     "today": "ankehitriny",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Mahazo vola",
     "menu": {
       "plans": "drafitra",
-      "accounts": "Kaonty"
+      "accounts": "Kaonty",
+      "participant": "Mpandray anjara"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Store Access Keys",
     "shop_keys_message": "Ireo fanalahidy ireo dia ampiasaina hamoronana Access Token amin'ny mpizara anao. Mariho fa tsiambaratelo ny fanalahidy ary napetraka ao amin'ny server ihany mba tsy ho hitan'ny hafa.",
     "personal_keys_title": "Fanalahidy fidirana manokana",
-    "personal_keys_message": "Azonao atao ny mamorona ny fanalahidin'ny kaontinao eto. Mariho fa afaka miditra amin'ny kaontinao ireo fanalahidy ireo. Mamorona sy mampiasa ireo fanalahidy ireo raha tsy fantatrao tsara izay ataonao."
+    "personal_keys_message": "Azonao atao ny mamorona ny fanalahidin'ny kaontinao eto. Mariho fa afaka miditra amin'ny kaontinao ireo fanalahidy ireo. Mamorona sy mampiasa ireo fanalahidy ireo raha tsy fantatrao tsara izay ataonao.",
+    "clients_title": "Mpanjifa",
+    "clients_message": "Ireo fanalahidy ireo dia ampiasaina hamoronana Access Token amin'ny mpizara anao. Mariho fa tsiambaratelo ny fanalahidy ary napetraka ao amin'ny server ihany mba tsy ho hitan'ny hafa."
   },
   "user_security_control": {
     "title": "Fiarovana ny kaonty",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Tantano ny mombamomba",
       "description": "Tantano ny mombamomba ny fivarotana."
+    },
+    "shop-discount-code": {
+      "name": "Fitantanana kaody fihenam-bidy",
+      "description": "Tantano, ovay ary ampio ny kaody fihenam-bidy amin'ny fivarotana."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Fikirana",
       "change": "anjara-raharaha",
       "transfer": "famindrana",
-      "transactions": "varotra"
+      "transactions": "varotra",
+      "charge": "anjara-raharaha",
+      "history": "FIAINANY TALOHA"
     },
     "transactions": {
       "title": "Transactions kaonty",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Manafoana ny fanamafisana famandrihana",
       "message": "Azo antoka fa hanafoana ity famandrihana ity ve ianao?",
       "action": "Foana ny famandrihana"
-    }
+    },
+    "use_voucher_now": "Ampiasao izao ny voucher",
+    "validity_duration": "Faharetan'ny fahamendrehana",
+    "validity_duration_hint": "Amin'ny fividianana fahazoan-dàlana 12 volana dia hahazo fihenam-bidy 30% ianao."
   },
   "admin_shop_layout": {
     "download_txt": "Misintona lahatsoratra angona",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "endritsoratra lehibe",
     "large_font_message": "Asehoy ny lahatsoratra lehibe kokoa noho ny mahazatra",
     "samples": "Asehoy ny fivarotana santionany",
-    "samples_message": "Raha avela dia hiseho eo amin'ny tontonana ny fivarotana santionany sasany."
+    "samples_message": "Raha avela dia hiseho eo amin'ny tontonana ny fivarotana santionany sasany.",
+    "automation": "automatique",
+    "automation_message": "Asehoy ny tabilao automatique amin'ny dashboard fivarotana. (Webhooks, fandaharana Visual, ...)"
   },
   "shop_locations": {
     "title": "Firenena misy serivisy omena",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Voafafa soa aman-tsara ny tapakila."
-    }
+    },
+    "multiple_use": "Fampiasana maro"
   },
   "coupon_edit": {
     "title_edit": "Ahitsio tapakila",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "fetra",
       "description": "Mametraha fetra amin'ny isan'ny mpampiasa ambony indrindra."
+    },
+    "SEGMENTS": {
+      "title": "fizarana",
+      "description": "Mametra ny mpanjifa amin'ny fizarana boky manokana."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Ny totalin'ny kaomandy dia nesorina tamin'ny karatra fanomezana! Tsy mila mandoa mihoatra ny mpividy.",
       "cod_msg": "Handoa ny mpanjifa rehefa mandray ny baiko.",
       "online_msg": "Angataho ny mpanjifa hijery ny kaody QR eo amin'ny efijery mpanjifa."
-    }
+    },
+    "name": "POS",
+    "message": "Asaivo mivarotra an-tserasera ny vidin'ny aotra setup anao, mandehana amin'ny finday avo lenta, tablette ary PC, na mamorona baiko amin'ny tanana."
   },
   "exporter": {
     "title": "Manondrana angona",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Alefaso any amin'ny mpizara",
     "shop_license": "Fahazoan-dàlana hivarotra",
     "max_items_limit": "Mametra ny entana ambony indrindra",
-    "total_items": "Total entana"
+    "total_items": "Total entana",
+    "customer": {
+      "title": "Manafatra mpanjifa",
+      "subtitle": "Alefaso eto ny rakitra CSV an'ny mpanjifa. Ataovy azo antoka fa manaraka ny endrika mahazatra ianao, ary koa, tsy maintsy manaraka ny fitsipika momba ny fiainana manokana ianao."
+    }
   },
   "campaigns": {
     "title": "fampielezan-kevitra",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "rohy",
     "light_checkout": "Lohahevitra fandefasana maivana",
     "light_header": "Lohateny maivana",
-    "light_footer": "Tongotra maivana"
+    "light_footer": "Tongotra maivana",
+    "product_page": "Pejy vokatra",
+    "typography": "Typography",
+    "header": "Lohapejy",
+    "custom_code": "Kaody manokana",
+    "custom_css": "Custom CSS"
   },
   "app_templates": {
     "default": "toerana misy anao",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Mitantana serivisy",
     "option_deliver_by_courier": "Safidy 1: Manaterana amin'ny iraka anao.",
     "option_add_to_que": "Safidy 2: Ampio amin'ny filaharana amin'ny fanodinana amin'ny pejy serivisy fandefasana.",
-    "option_instant_shipping": "Safidy 3: fandefasana haingana."
+    "option_instant_shipping": "Safidy 3: fandefasana haingana.",
+    "pickup_action": "Fanamafisana pickup"
   },
   "shop_home_edit": {
     "title": "Fametrahana pejy fandraisana",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Vokatra nampidirina ao amin'ny fivarotanao.",
       "request_access": "Nalefanay tamin'ny mpivarotra ambongadiny soa aman-tsara ny fangatahana fidiranao."
-    }
+    },
+    "show_eligible_shops_message": "Asehoy ireo fivarotana mendrika"
   },
   "product_dropshipping": {
     "need_re_enable": "Ity vokatra ity dia novan'ny mpivarotra tany am-boalohany, ireo fiovan'ny vidiny ireo dia nanakana ny vokatra ao amin'ny fivarotanao. Jereo ny fanovana ary raha manaiky hamerina ny vokatra ianao dia tsindrio ny bokotra etsy ambany.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Tsy misy sokajy ao amin'ny fivarotanao.",
       "limit": "fetra vokatra",
       "limit_message": "Ampidiro ny isan'ny vokatra",
-      "select_categories": "Mifidiana sokajy misy"
+      "select_categories": "Mifidiana sokajy misy",
+      "categories_limit": "fetran'ny sokajy",
+      "categories_limit_msg": "Ampidiro ny isan'ny sokajy ambony indrindra. Mametraha aotra raha tsy misy fetra."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Nohavaozina soa aman-tsara ny avokado.",
       "add_success": "Nahomby ny famoronana avokado."
-    }
+    },
+    "name": "Zavoka"
   },
   "avocado_orders": {
     "title": "Zavoka",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "tsy mavitrika",
     "active_message": "Raha avelanao io safidy io, dia haseho ao amin'ny fizarana fitantanana ny vokatra tsirairay ny fahafahana mamorona ny Fast-Sales-Codes.",
     "hyper_form_link_message": "Rohy pejy hyper an'ny fivarotanao",
-    "configuration": "Hyper Settings"
+    "configuration": "Hyper Settings",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Demografika mpanjifa",
     "subtitle": "Sivana sy manondrana ny angon'ny mpanjifanao mba handraisana fanapahan-kevitra tsara kokoa hanome lanja bebe kokoa amin'ny varotra kely kokoa! Azafady hajao ny tsiambaratelon'ny mpanjifanao ary aza mandefa mailaka marobe amin'izy ireo! Aza mizara ny mombamomba ny mpanjifanao amin'ny serivisy antoko faha-3 raha tsy mahazo alalana avy amin'izy ireo tsirairay."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Adiresy alaina",
+      "subtitle": "Ampio sy ovay ny adiresy alaina eto. Ny mpampiasa dia afaka misafidy ny adiresy alaina ao amin'ny pejy famandrihana.",
+      "add_action": "Manampia toerana vaovao"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Affiliate POS",
+    "open_pos_action": "Mandefa POS haingana",
+    "description": "Ity safidy ity dia mety amin'ny mpandrindra ny pejy Instagram sy tambajotra sosialy hafa. Ampiasao ny Affiliate POS mba handraisana sy hampidirana baiko avy amin'ny mpanjifa amin'ny tanana. Ny mpiara-miasa aminao (na ny franchise) dia afaka manampy baiko vaovao ao amin'ny Affiliate POS ary mampakatra ny taratasy fametraham-bola."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Fomba fidirana",
+      "subtitle": "Amboary ny fomba fidiran'ny mpampiasa amin'ny fivarotanao."
+    },
+    "checkout": {
+      "title": "Fikojakojana",
+      "subtitle": "Amboary ny dian'ny mpanjifanao sy ny fandehan'ny fividianana amin'ny e-varotrao.",
+      "map": {
+        "title": "Sarintany",
+        "subtitle": "Ny mpampiasa dia tsy maintsy misafidy ny toerana fanaterana amin'ny sari-tany (toa an'i Uber).",
+        "subtitle_no_map": "Ny halavirana amin'ny kajy fandefasana dia heverina ho aotra raha tsy misy ny toerana ao amin'ny adiresy nomena ny mpanjifa."
+      },
+      "mode": {
+        "title": "Teboka fidirana mpanjifa",
+        "default": {
+          "title": "ASAP (Default)",
+          "msg": "Miditra haingana araka izay azo atao ny mpampiasa. (Fiovam-po bebe kokoa)"
+        },
+        "on_checkout": {
+          "title": "Eo am-pivoriana",
+          "msg": "Manery ny mpampiasa hiditra ao amin'ny dingana fandoavam-bola."
+        },
+        "login_free": {
+          "title": "fidirana azo atao",
+          "msg": "Fidirana azo atao aorian'ny fandoavana ny kaomandy.."
+        }
+      },
+      "express": {
+        "title": "Redirect rehefa ampidirina amin'ny sarety",
+        "false": {
+          "title": "Fomba mahazatra",
+          "msg": "Mijanòna amin'ny pejy ary tohizo ny fiantsenana rehefa avy manindry ampio amin'ny sarety."
+        },
+        "true": {
+          "title": "Fomba fanehoana",
+          "msg": "Avereno mankany amin'ny pejy famandrihana ny mpanjifa rehefa avy manindry ampio amin'ny sarety."
+        }
+      },
+      "shipping_address": {
+        "title": "Anontanio ny adiresy fandefasana"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Ara-batana & Serivisy (Default)",
+      "desc": "Angataho ny mpanjifa hampiditra adiresy ao amin'ny kaonty ara-batana sy serivisy."
+    },
+    "physical": {
+      "title": "Ara-batana Ihany",
+      "desc": "Angataho ny mpanjifa mba hampiditra adiresy ao amin'ny kaonty ara-batana fotsiny."
+    },
+    "off": {
+      "title": "tsy",
+      "desc": "Aza manontany ny adiresy fandefasana. ⚠ Ampiasao ity safidy ity raha mikasa ny hanana serivisy misy karazany ianao amin'ny fisafidianana karazana fizika ho an'ny vokatra fa tsy karazana serivisy."
+    }
+  },
+  "business_model": {
+    "title": "Fametrahana modely ara-barotra",
+    "subtitle": "Apetraho ny maodelin'ny orinasanao, ary hamboarinay ao ambadiky ny sehatra ny OS anao."
+  },
+  "business_type": {
+    "title": "Karazana entana",
+    "subtitle": "Apetraho ao amin'ny fivarotanao ny karazana vokatra tianao hamidy. Ny karazana vokatra ao amin'ny Selldone dia mihoatra noho ny karazana vokatra; bebe kokoa momba ny fomba fanatanterahana izany.",
+    "send_activation_request_to_support": "Mandefasa fangatahana fampahavitrihana amin'ny tapakila fanohanana.",
+    "require_kyc": "Ny tompona orinasa KYC.",
+    "needs_enterprise_license": "Mila manana lisansa Enterprise ianao.",
+    "marketplace_caution_message": "Mametraha Marketplace fa misy fiantraikany lalina eo amin'ny tefitry ny OS orinasanao ny modelyo. Ohatra, tsy maintsy mamaritra mpivarotra iray farafahakeliny ianao ho an'ny vokatra tsirairay miaraka amin'ny vidiny tsy miankina sy ny tahiry. Tsy afaka mividy vokatra tsy misy mpivarotra ny mpanjifa."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Normal Store",
+      "desc": "Matetika ny SME, orinasa an-trano, na dropshipper - izay mivarotra mivantana ny vokatra amin'ny mpanjifa na mivarotra ny vokatra ambongadiny ho mpivarotra."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Aza mitahiry vokatra ary tsy misy lisitra - mandoa vola amin'ny olon-kafa ianao, matetika amin'ny mpivarotra ambongadiny (toa ny Printify, Wholesale2B, ...) na mpanamboatra, ary manatanteraka baiko any ambadiky ny sehatra izy ireo."
+    },
+    "wholesaler": {
+      "title": "Dropshipping mpamatsy",
+      "desc": "Matetika mpivarotra ambongadiny na mpanamboatra - izay mandefa ny baiko mivantana amin'ny mpanjifa farany. Ny mpivarotra hafa ao amin'ny Selldone dia afaka mandefa ny vokatrao any amin'ny fivarotany."
+    },
+    "marketplace": {
+      "title": "-tsena",
+      "desc": "Ny tsena an-tserasera dia mampifandray ireo mpividy sy mpivarotra amin'ny sehatra manokana sy foibe."
+    },
+    "franchise": {
+      "title": "Franchise / Affiliate",
+      "desc": "Ny franchise dia fomba fizarana vokatra na serivisy misy franchisor izay mametraka ny marikao (Franchising) na mivarotra ny vokatrao amin'ny marika (Affiliate)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "mpanjifany",
+    "pricing_models": "Pricing",
+    "add_vendor": "Ampio mpivarotra",
+    "requests": "fangatahana"
+  },
+  "price_input_type": {
+    "title": "Karazana fampidirana vidiny",
+    "default": {
+      "title": "toerana misy anao",
+      "desc": "Misafidiana sanda iray ho toy ny isa ao anaty sarety."
+    },
+    "area": {
+      "title": "FARITRY NY",
+      "desc": "Ampidiro ny sakany sy ny halavany ho toy ny fampidirana kajy ny habe."
+    },
+    "volume": {
+      "title": "boky",
+      "desc": "Ampidiro ny sakany, ny halavany, ary ny haavony ho toy ny fampidirana kajy ny habe."
+    },
+    "custom": {
+      "title": "Custom (Amin'ny endrika fampidirana)",
+      "desc": "Tsy mila variana an-jatony! Mamorona endrika kajy ny sarany manokana ho an'ny vokatra tena azo zahana."
+    }
+  },
+  "vendors_list": {
+    "title": "Ny mpivarotra ahy",
+    "message": "Lisitry ny mpivarotra ahy manokana."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Ampifandraiso amin'ny OS orinasanao ny sehatra maro ary tantano amin'ny toerana iray izy rehetra. Azonao atao ny mampiasa ny endri-tsarimihetsika maromaro mba hamoronana sehatra voatokana ho an'ny ampahany tsirairay amin'ny tranokalanao, toy ny bilaogy sy vondrom-piarahamonina, na mampiasa sehatra samihafa ho an'ny mpiara-miasa aminao."
+  },
+  "notes": {
+    "add_action": "Manampia naoty ho an'ny ekipanao",
+    "notifications": {
+      "success_add": "Nampidirina soa aman-tsara ny naoty.",
+      "success_delete": "Voafafa soa aman-tsara ny fanamarihana."
+    }
+  },
+  "external_services": {
+    "title": "Serivisy ivelany",
+    "subtitle": "Araho ny sata farany amin'ny serivisy ivelany toy ny SMS sy mailaka eto."
   }
 };

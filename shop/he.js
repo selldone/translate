@@ -105,7 +105,11 @@ export default {
     "related_products_title": "מוצרים קשורים",
     "price": "מחיר",
     "rate": "ציון",
-    "comment": "תגובה"
+    "comment": "תגובה",
+    "warranty": "אַחֲרָיוּת",
+    "return_policy": "מדיניות החזרה",
+    "guide": "להנחות",
+    "shipping": "משלוח"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "ההזמנה שלך בוצעה בהצלחה.",
       "delete_success": "הפריט נמחק."
-    }
+    },
+    "select_address_message": "אנא הזן את כתובתך, ולאחר מכן תוכל להגיש את ההזמנה."
   },
   "hyper": {
     "title": "יצירת הזמנה",
@@ -541,5 +546,19 @@ export default {
       "message": "ציינת חיוב עבור פריט זה. ניתן לשנות את סכום החיוב עבור הפריט שרכש הלקוח.",
       "charge": "לחייב"
     }
+  },
+  "check_access": {
+    "waiting_message": "ממתין לבדיקת גישה...",
+    "no_access_message": "למרבה הצער, אין לך גישה לחנות שלנו.<br/> אנא צרו קשר עמנו."
+  },
+  "share_order": {
+    "action": "שתף את ההזמנה",
+    "title": "שתף הזמנה זו עם אחרים.",
+    "message": "זה קישור מאובטח, שתף אותו רק עם מי שאתה מכיר. כל מי שיש לו קישור זה יכול לשכפל את ההזמנה שלך ולראות את הכתובת שנבחרה. הוא יכיל מידע על העגלה הנוכחית שלך.",
+    "valid_period": "קישור זה יפוג לאחר 48 שעות.",
+    "import_order_action": "הזמנת ייבוא",
+    "retrieve_dialog_title": "אחזר הזמנה חיצונית",
+    "address_included": "שתף פריטי סל + כתובת",
+    "address_excluded": "שתף רק פריטי סל"
   }
 };

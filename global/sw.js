@@ -558,7 +558,52 @@ export default {
     "merchant": "Mfanyabiashara",
     "per_product": "Kwa bidhaa",
     "journey": "Safari",
-    "after": "Baada ya"
+    "after": "Baada ya",
+    "waiting_for_payment": "Tafadhali kamilisha malipo...",
+    "hour": "Saa",
+    "minute": "Dakika",
+    "premium": "Premium",
+    "light": "Mwanga",
+    "dark": "Giza",
+    "guest": "Mgeni",
+    "shops": "Maduka",
+    "vendor": "Mchuuzi",
+    "vendors": "Wachuuzi",
+    "marketplace": "Sokoni",
+    "verify_date": "Thibitisha tarehe",
+    "note": "Kumbuka",
+    "panel": "Paneli",
+    "removed": "Imeondolewa",
+    "segments": "Sehemu",
+    "personal_info": "Taarifa za kibinafsi",
+    "preferences": "Mapendeleo",
+    "spec": "Maalum",
+    "reviews": "Ukaguzi",
+    "constraints": "Vikwazo",
+    "flexible": "Kubadilika",
+    "usage_limit": "Kikomo cha matumizi",
+    "temporary": "Muda",
+    "original": "Asili",
+    "saved": "Imehifadhiwa!",
+    "sort": "Panga",
+    "documents": "Nyaraka",
+    "document": "Hati",
+    "please_wait": "Tafadhali subiri...",
+    "pickup": "Inua",
+    "customize": "Customize",
+    "difficulty": "Ugumu",
+    "banned": "Imepigwa marufuku",
+    "company": "Kampuni",
+    "tax_shipping": "Kodi ya Usafirishaji",
+    "warranty": "Udhamini",
+    "return_policy": "Sera ya Kurudisha",
+    "guide": "Mwongozo",
+    "translate": "Tafsiri",
+    "public": "Hadharani",
+    "deleted": "Imefutwa",
+    "variant": "Lahaja",
+    "secure": "Salama",
+    "admin": "Msimamizi"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Wimbo",
     "change_state": "Badilisha Hali",
     "done": "Imekamilika",
-    "reply": "Jibu"
+    "reply": "Jibu",
+    "watch_now": "Tazama Sasa",
+    "unlock": "Fungua",
+    "lock": "Funga",
+    "create_clone": "Unda clone",
+    "regenerate": "Tengeneza upya",
+    "add_message": "Ongeza ujumbe",
+    "continue_chat": "Endelea kupiga gumzo",
+    "add_new_message": "Ongeza ujumbe mpya"
   },
   "instance_message_title": "Tuma ujumbe papo hapo",
   "instance_message": "Hujambo {name}, Jina langu ni {author} kutoka {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Msimbo wa posta",
     "enter_value": "Jaza hapa",
     "address_note": "Kumbuka",
-    "tel": "Namba ya mawasiliano"
+    "tel": "Namba ya mawasiliano",
+    "service_address": "Chagua anwani yako"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "pauni",
     "lita",
     "yadi",
-    "chumba"
+    "chumba",
+    "sekunde",
+    "dakika",
+    "masaa",
+    "siku",
+    "wiki",
+    "miezi",
+    "miaka"
   ],
   "region_types": {
     "State": "Jimbo",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Urefu wa chini lazima uwe {length}",
     "invalid_min_array_length": "Angalau chagua vipengee {length}",
     "invalid_max_chars": "Upeo wa herufi {maxCount}",
-    "invalid_url": "URL batili"
+    "invalid_url": "URL batili",
+    "country_invalid": "Chagua nchi unakoenda!",
+    "postal_code_invalid": "Weka msimbo halali wa posta!"
   },
   "colors": {
     "#D32F2F": "Nyekundu",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Nyeupe",
     "#FFF": "Nyeupe",
     "#000000": "Nyeusi",
-    "#000": "Nyeusi"
+    "#000": "Nyeusi",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Dhahabu",
+    "#229DBF": "Maji",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Jeshi",
+    "#474747": "Lami",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Chungwa kilichochomwa",
+    "#80011F": "Kardinali",
+    "#382829": "Chokoleti",
+    "#F06336": "Matumbawe",
+    "#FAE7C9": "Cream",
+    "#6B2257": "Currant",
+    "#222127": "Kijivu Kilichokolea",
+    "#0D5A74": "Teal ya kina",
+    "#00582F": "Evergreen",
+    "#214C30": "Msitu",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Jani",
+    "#558450": "Aqua nyepesi",
+    "#96B5C9": "Bluu Nyepesi",
+    "#DCAFCE": "Lilaki",
+    "#D3E1A4": "Chokaa",
+    "#9DE7C2": "Minti",
+    "#F6EAD2": "Asili",
+    "#1A1F35": "Navy",
+    "#404624": "Mzeituni",
+    "#271020": "Plum",
+    "#A8355C": "Raspberry",
+    "#D6BEA6": "Cream laini",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Violet",
+    "#36454F": "Mkaa",
+    "#b3b0ab": "kaboni Gray",
+    "#463e3d": "Mkaa Heather",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Jina",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Nambari ya jengo",
     "building_unit": "Kitengo",
     "postcode": "Msimbo wa posta",
-    "note": "Kumbuka"
+    "note": "Kumbuka",
+    "county": "Wilaya"
   },
   "product_types": {
     "physical": "Kimwili",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Rangi",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Rahisi",
       "selective": "Kuchagua",
-      "switch": "Badili"
-    }
+      "switch": "Badili",
+      "file": "Faili",
+      "number": "Nambari"
+    },
+    "placeholder_input": "Kishika nafasi",
+    "file_type_input": "Aina za faili zinazokubalika",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "Jina la bidhaa",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Ingiza simu yako ya mkononi",
     "verification_code": "Nambari ya uthibitishaji",
     "msg_title": "Habari,",
-    "msg_body": "Tafadhali ingia. Inachukua sekunde chache tu."
+    "msg_body": "Tafadhali ingia. Inachukua sekunde chache tu.",
+    "login_apple": "Ingia na Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Lebo zimeongezwa"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Ngumu sana",
+    "hard": "Ngumu",
+    "intermediate": "Kati",
+    "easy": "Rahisi"
   }
 };

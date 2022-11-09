@@ -65,7 +65,9 @@ export default {
     "my_feed": "Ech",
     "blocked_message": "Dir sidd blockéiert bis",
     "reported": "Rapportéiert",
-    "report": "Rapport"
+    "report": "Rapport",
+    "post": "Post",
+    "attach_file": "Befestegt Datei"
   },
   "invite_message": "{user} huet Iech op de Forum {community} invitéiert. Klickt op de Link hei ënnen fir d'Beobachtungen vun Äre Frënn ze liesen an Är Meenung mat hinnen ze deelen. Ech waarden op dech.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Ewechzehuelen Ëmfro",
     "take_screenshot": "Huelt als Cover",
     "take_link_msg": "Vergaangenheet Link hei a gitt",
-    "eligible_title": "Schrëtt fir Usproch ze posten"
+    "eligible_title": "Schrëtt fir Usproch ze posten",
+    "public": "Ëffentlech"
   },
   "tips": {
     "verify_email": "Gitt an z'iwwerpréiwen Är E-Mail.",

@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Podobni izdelki",
     "price": "Cena",
     "rate": "Oceniti",
-    "comment": "Komentar"
+    "comment": "Komentar",
+    "warranty": "Garancija",
+    "return_policy": "Vračilo blaga",
+    "guide": "Vodnik",
+    "shipping": "Dostava"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Vaše naročilo je bilo uspešno oddano.",
       "delete_success": "Element je izbrisan."
-    }
+    },
+    "select_address_message": "Vnesite svoj naslov in nato lahko oddate naročilo."
   },
   "hyper": {
     "title": "Ustvarjanje naročila",
@@ -541,5 +546,19 @@ export default {
       "message": "Določili ste strošek za ta artikel. Znesek bremenitve za izdelek, ki ga je kupil kupec, lahko spremenite.",
       "charge": "Napolniti"
     }
+  },
+  "check_access": {
+    "waiting_message": "Čakanje na preverjanje dostopa ...",
+    "no_access_message": "Na žalost nimate dostopa do naše trgovine.<br/> Kontaktirajte nas."
+  },
+  "share_order": {
+    "action": "Delite naročilo",
+    "title": "Delite to naročilo z drugimi.",
+    "message": "To je varna povezava, delite jo samo s tistimi, ki jih poznate. Vsak s to povezavo lahko podvoji vaše naročilo in vidi izbrani naslov. Vsebovala bo informacije o vaši trenutni košarici.",
+    "valid_period": "Ta povezava poteče po 48 urah.",
+    "import_order_action": "Uvozno naročilo",
+    "retrieve_dialog_title": "Pridobite zunanje naročilo",
+    "address_included": "Delite elemente košarice + naslov",
+    "address_excluded": "Delite samo izdelke košarice"
   }
 };

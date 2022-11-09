@@ -172,7 +172,6 @@ return [
     'page.blogs' => ['title' => 'آکادمی', 'image' => '/images/seo/fa/academy.jpg', 'description' => "آخرین اخبار و مطالب شبکه سلدان."],
     'page.faqs' => ['title' => 'سوالات متداول', 'image' => '/images/seo/fa/faq.jpg', 'description' => "پرسش و پاسخ درباره سلدان."],
     'page.price' => ['title' => 'لیست قیمت', 'image' => '/images/seo/fa/price.jpg', 'description' => "تمام امکانات پلن حرفه ای برای ساخت فروشگاه و سایت به صورت رایگان بدون محدودیت زمانی در انتظار شماست."],
-    'page.api' => ['title' => 'API', 'image' => '/images/seo/fa/api.jpg', 'description' => "وب سرویس سلدان، مستندات برای توسعه اپلیکیشن و سرویس های متصل به سلدان."],
 
     'page.apps' => ['title' => 'App store', 'image' => '/images/seo/fa/apps.jpg', 'description' => "افزودن اپلیکیشن های کاربردی به فروشگاه تنها با یک کلیک برای فروشگاه شما فراهم است."],
     'page.experts' => ['title' => 'استخدام متخصص', 'image' => '/images/seo/fa/expert.jpg', 'description' => " نگران طراحی، راه اندازی، تبلیغات یا مدیریت فروشگاه خود نباشید، متخصصین سلدان برای کمک به شما آماده هستند. برای انجام بهتر و سرعتر کارها یک متخصص تایید شده استخدام کنید."],

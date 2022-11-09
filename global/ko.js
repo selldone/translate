@@ -558,7 +558,52 @@ export default {
     "merchant": "상인",
     "per_product": "제품당",
     "journey": "여행",
-    "after": "후에"
+    "after": "후에",
+    "waiting_for_payment": "결제를 완료해주세요...",
+    "hour": "시",
+    "minute": "분",
+    "premium": "프리미엄",
+    "light": "빛",
+    "dark": "어두운",
+    "guest": "손님",
+    "shops": "백화점",
+    "vendor": "공급업체",
+    "vendors": "공급업체",
+    "marketplace": "시장",
+    "verify_date": "날짜 확인",
+    "note": "메모",
+    "panel": "패널",
+    "removed": "제거됨",
+    "segments": "세그먼트",
+    "personal_info": "개인적인 정보",
+    "preferences": "기본 설정",
+    "spec": "투기",
+    "reviews": "리뷰",
+    "constraints": "제약",
+    "flexible": "유연한",
+    "usage_limit": "사용 제한",
+    "temporary": "일시적인",
+    "original": "원래의",
+    "saved": "저장되었습니다!",
+    "sort": "종류",
+    "documents": "서류",
+    "document": "문서",
+    "please_wait": "기다리세요...",
+    "pickup": "픽업",
+    "customize": "사용자 정의",
+    "difficulty": "어려움",
+    "banned": "금지",
+    "company": "회사",
+    "tax_shipping": "운송세",
+    "warranty": "보증",
+    "return_policy": "반품 정책",
+    "guide": "가이드",
+    "translate": "번역하다",
+    "public": "공공의",
+    "deleted": "삭제됨",
+    "variant": "변종",
+    "secure": "안전한",
+    "admin": "관리자"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "과정",
     "change_state": "상태 변경",
     "done": "완료",
-    "reply": "회신하다"
+    "reply": "회신하다",
+    "watch_now": "지금보기",
+    "unlock": "터놓다",
+    "lock": "자물쇠",
+    "create_clone": "클론 생성",
+    "regenerate": "재생성",
+    "add_message": "메시지 추가",
+    "continue_chat": "채팅 계속",
+    "add_new_message": "새 메시지 추가"
   },
   "instance_message_title": "인스턴트 메시지 보내기",
   "instance_message": "안녕하세요 {name}님, 제 이름은 {company}의 {author}입니다.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "우편번호",
     "enter_value": "여기에 채우기",
     "address_note": "메모",
-    "tel": "연락처"
+    "tel": "연락처",
+    "service_address": "주소 선택"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "파운드",
     "쿼트",
     "야드",
-    "방"
+    "방",
+    "초",
+    "분",
+    "시간",
+    "날",
+    "주",
+    "개월",
+    "연령"
   ],
   "region_types": {
     "State": "상태",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "최소 길이는 {length}이어야 합니다.",
     "invalid_min_array_length": "{length}개 이상의 항목을 선택하세요.",
     "invalid_max_chars": "최대 {maxCount}자",
-    "invalid_url": "잘못된 URL"
+    "invalid_url": "잘못된 URL",
+    "country_invalid": "목적지 국가를 선택하세요!",
+    "postal_code_invalid": "유효한 우편번호를 설정하십시오!"
   },
   "colors": {
     "#D32F2F": "빨간색",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "하얀색",
     "#FFF": "하얀색",
     "#000000": "검은색",
-    "#000": "검은색"
+    "#000": "검은색",
+    "#7d263a": "적갈색",
+    "#FD9F17": "금",
+    "#229DBF": "아쿠아",
+    "#6DC9E2": "아쿠아 트리블렌드",
+    "#413B2D": "군대",
+    "#474747": "아스팔트",
+    "#E6195C": "말린 씨앗",
+    "#B2184C": "베리 트리블렌드",
+    "#FC7F5F": "번트 오렌지",
+    "#80011F": "추기경",
+    "#382829": "초콜릿",
+    "#F06336": "산호",
+    "#FAE7C9": "크림",
+    "#6B2257": "건포도",
+    "#222127": "어두운 회색",
+    "#0D5A74": "딥 틸",
+    "#00582F": "상록수",
+    "#214C30": "숲",
+    "#DC2867": "푹샤",
+    "#38561": "켈리",
+    "#5C884D": "잎",
+    "#558450": "라이트 아쿠아",
+    "#96B5C9": "라이트 블루",
+    "#DCAFCE": "라일락 꽃",
+    "#D3E1A4": "라임",
+    "#9DE7C2": "민트",
+    "#F6EAD2": "자연스러운",
+    "#1A1F35": "해군",
+    "#404624": "올리브",
+    "#271020": "자두",
+    "#A8355C": "산딸기",
+    "#D6BEA6": "소프트 크림",
+    "#BEA994": "탠 껍질",
+    "#0DB2AE": "물오리",
+    "#A86EA9": "제비꽃",
+    "#36454F": "숯",
+    "#b3b0ab": "카본 그레이",
+    "#463e3d": "숯 헤더",
+    "#282d3c": "네이비 블레이저"
   },
   "address_info": {
     "name": "이름",
@@ -838,7 +940,8 @@ export default {
     "building_number": "건물 번호",
     "building_unit": "단위",
     "postcode": "우편번호",
-    "note": "메모"
+    "note": "메모",
+    "county": "군"
   },
   "product_types": {
     "physical": "물리적",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "색깔",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "단순한",
       "selective": "선택적",
-      "switch": "스위치"
-    }
+      "switch": "스위치",
+      "file": "파일",
+      "number": "숫자"
+    },
+    "placeholder_input": "자리 표시자",
+    "file_type_input": "허용되는 파일 형식",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "상품명",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "모바일을 입력하세요",
     "verification_code": "확인 코드",
     "msg_title": "안녕,",
-    "msg_body": "로그인 해주세요. 몇 초밖에 걸리지 않습니다."
+    "msg_body": "로그인 해주세요. 몇 초밖에 걸리지 않습니다.",
+    "login_apple": "애플로 로그인"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "추가된 태그"
     }
+  },
+  "difficulties": {
+    "very_complicated": "매우 복잡한",
+    "hard": "딱딱한",
+    "intermediate": "중급",
+    "easy": "쉬운"
   }
 };

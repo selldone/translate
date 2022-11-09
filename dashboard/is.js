@@ -155,7 +155,19 @@ export default {
       "Setup": "verslun",
       "Sell": "Sala og markaðssetning",
       "Developer": "Þróa",
-      "Application": "Umsóknir"
+      "Application": "Umsóknir",
+      "Product": "Vöru- og flokkastjórnun",
+      "Blog": "CMS og blogg",
+      "Order": "Uppfyllingarmiðstöð pantana",
+      "Channel": "Sölurásir",
+      "Accounting": "Bókhald og greiðslumáti",
+      "Incentives": "Hvatningar",
+      "Marketing": "Markaðssetning og herferðir",
+      "Logistic": "Logistic & Shipping",
+      "Customers": "Viðskiptavinaklúbbur og skipting",
+      "Page": "Áfanga- og sérsniðnar síður",
+      "Access": "Starfsfólk / API aðgangsstjórnun",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github geymsla",
@@ -193,7 +205,9 @@ export default {
       "stores": "Búðir",
       "roles": "Hlutverk",
       "home": "Heim",
-      "expert": "Sérfræðingur"
+      "expert": "Sérfræðingur",
+      "deals": "Tilboð",
+      "providers": "Veitendur"
     },
     "shops": {
       "create_new": "Búðu til nýja búð",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Staða",
           "created_at": "Stofndagur",
           "updated_at": "Síðasta uppfærsla"
-        }
+        },
+        "subtitle": "Skrifaðu greinar með nútímalegum ritstjóra til að kynna þig og fyrirtæki þitt. Upprunalegt efni er það fyrsta sem þú þarft að einbeita þér að þegar þú skrifar hágæða SEO-vingjarnlega bloggfærslu."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Skýrsla",
         "tax": "Skattur",
         "drop_shipping": "Endursölukvittanir",
-        "reseller_accounts": "Sölureikningar"
+        "reseller_accounts": "Sölureikningar",
+        "valuations": "Verðmat"
       },
       "invoice": {
         "title": "Verslaðu tengd veski",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Sending",
         "inventory": "Birgðir",
         "warehouse": "Vöruhús",
-        "logistic_apps": "Logistics"
+        "logistic_apps": "Logistics",
+        "profiles": "Snið"
       },
       "warehouse": {
         "title": "Geymsla Vöruhús",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Lágmarks pöntunarkostnaður fyrir ókeypis sendingu",
           "notifications": {
             "update_success": "Sendingarþjónustustillingum lokið."
-          }
+          },
+          "shipping_cost_calculation": "Sendingarkostnaður útreikningur",
+          "sod_true": "Fáðu sendingarkostnað á áfangastað",
+          "sod_true_message": "Gakktu úr skugga um að sendingarþjónusta þín taki við sendingarkostnaði á áfangastað.",
+          "sod_false": "Útreikningur á sjálfvirkum sendingarkostnaði",
+          "cod_true": "Tekið við staðgreiðslu við afhendingu",
+          "cod_false": "Samþykkja aðeins greiðslur á netinu",
+          "cod_true_message": "Gakktu úr skugga um að sendingarþjónustan þín taki við COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "Smáskilaboð",
         "email": "Tölvupóstur",
         "domain": "Lén",
-        "verifications": "Staðfestingar"
+        "verifications": "Staðfestingar",
+        "flow": "Flæði",
+        "business_model": "Viðskiptamódel"
       },
       "delete_dialog": {
         "title": "Eyða verslun",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Vörueining",
       "unit_float": "Floteining (bráðum)",
       "unit_float_hint": "Til dæmis getur viðskiptavinurinn pantað 3 kg af ávöxtum en magnið sem sent er til viðskiptavinarins er aðeins frábrugðið pöntuðu magni.",
-      "unit_float_message": "Við vinnslu pöntunar getur afhent upphæð verið önnur en pantaða upphæð. Kerfið reiknar sjálfkrafa þennan mismun og skráir hann sem skuld þína við viðskiptavininn, sem hægt er að nota á næstu pantanir."
+      "unit_float_message": "Við vinnslu pöntunar getur afhent upphæð verið önnur en pantaða upphæð. Kerfið reiknar sjálfkrafa þennan mismun og skráir hann sem skuld þína við viðskiptavininn, sem hægt er að nota á næstu pantanir.",
+      "status_list": {
+        "active": {
+          "title": "Virkur | Sala á netinu og utan nets",
+          "description": "Þessi vara verður fáanleg fyrir netpantanir."
+        },
+        "inactive": {
+          "title": "Óvirkt | Aðeins sala án nettengingar",
+          "description": "Þessi vara verður ekki fáanleg fyrir netpantanir."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Könnun",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Veldu lokatíma",
       "independent_price": "Verðið aðeins fyrir þetta afbrigði",
       "same_price": "Verð fyrir aðalvöru",
-      "variant_pricing_message": "Með því að velja þennan valkost er hægt að stilla verð á þessu afbrigði óháð aðalvöru."
+      "variant_pricing_message": "Með því að velja þennan valkost er hægt að stilla verð á þessu afbrigði óháð aðalvöru.",
+      "price_label_input": "Verðmiði",
+      "price_label_message": "Bættu við viðbótarupplýsingum um verð eins og ($1.5/Fl Oz). Notkunartilvik: matvöruverslun, FMCG.",
+      "add_price_label_action": "Bæta við verðmerkingu"
     },
     "inputs_edit": {
       "title": "Inntaksform kaupandaupplýsinga",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gátt {gateway_name} breytt."
     },
-    "developer_setting": "Þróa og prófa"
+    "developer_setting": "Þróa og prófa",
+    "live_mode_message": "Öll viðskipti verða í beinni stillingu."
   },
   "gift_card": {
     "title": "Gjafabréf",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Heimilisfang innheimtu breytt af kaupanda.",
     "payment-cod-confirm": "COD greiðsla var staðfest.",
     "payment-cash-confirm": "Greiðsla upp á {amount} {currency} í reiðufé fyrir reikninginn var staðfest.",
-    "payment-dir-confirm": "Beingreiðslukvittun var staðfest."
+    "payment-dir-confirm": "Beingreiðslukvittun var staðfest.",
+    "vendor": "Pöntunarstöðu lánardrottins breytt úr <b>{from}</b> í <b>{to}</b> .",
+    "connect-sync": "Pöntun samstillt af Connect OS.",
+    "connect-shipped": "Connect pöntun hefur verið send af {shipping}.",
+    "connect-returned": "Connect pöntun hefur verið skilað af {shipping}.",
+    "connect-failed": "Samstarfsaðili mistókst að uppfylla pöntun. {reason}",
+    "connect-canceled": "Pöntunin var afturkölluð af samstarfsaðilanum. {reason}",
+    "connect-action-cancel": "Beiðni um að hætta við pöntun. {reason}",
+    "connect-put-hold": "Pöntunin var sett í bið. {reason}",
+    "connect-remove-hold": "Pöntunin var fjarlægð úr bið. {reason}",
+    "connect-confirmed": "Pöntunin var staðfest.",
+    "email-vendor": "🔔 Tölvupóstur með pöntunarupplýsingum hefur verið sendur til <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Í dag",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Vinna sér inn peninga",
     "menu": {
       "plans": "Áætlanir",
-      "accounts": "Reikningar"
+      "accounts": "Reikningar",
+      "participant": "Þátttakandi"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Aðgangslyklar fyrir verslun",
     "shop_keys_message": "Þessir lyklar eru notaðir til að búa til Access Token af þjóninum þínum. Athugið að lyklarnir eru trúnaðarmál og aðeins settir á netþjóninn þannig að þeir séu ekki sýnilegir öðrum.",
     "personal_keys_title": "Persónulegir aðgangslyklar",
-    "personal_keys_message": "Þú getur búið til lyklana að reikningnum þínum hér. Athugaðu að þessir lyklar munu hafa aðgang að reikningnum þínum. Búðu til og notaðu þessa lykla aðeins ef þú veist nákvæmlega hvað þú ert að gera."
+    "personal_keys_message": "Þú getur búið til lyklana að reikningnum þínum hér. Athugaðu að þessir lyklar munu hafa aðgang að reikningnum þínum. Búðu til og notaðu þessa lykla aðeins ef þú veist nákvæmlega hvað þú ert að gera.",
+    "clients_title": "Viðskiptavinir",
+    "clients_message": "Þessir lyklar eru notaðir til að búa til Access Token af þjóninum þínum. Athugið að lyklarnir eru trúnaðarmál og aðeins settir á netþjóninn þannig að þeir séu ekki sýnilegir öðrum."
   },
   "user_security_control": {
     "title": "Reikningsöryggi",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Stjórna prófílum",
       "description": "Stjórna verslunarsniðum."
+    },
+    "shop-discount-code": {
+      "name": "Stjórnun afsláttarkóða",
+      "description": "Stjórnaðu, breyttu og bættu við afsláttarkóðum verslana."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Stillingar",
       "change": "Hleðsla",
       "transfer": "Flytja",
-      "transactions": "Viðskipti"
+      "transactions": "Viðskipti",
+      "charge": "Hleðsla",
+      "history": "Saga"
     },
     "transactions": {
       "title": "Reikningsfærslur",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Hætta við staðfestingu áskriftar",
       "message": "Ertu viss um að segja upp þessari áskrift?",
       "action": "Hætta áskrift"
-    }
+    },
+    "use_voucher_now": "Notaðu skírteini núna",
+    "validity_duration": "Gildistími",
+    "validity_duration_hint": "Með því að kaupa 12 mánaða leyfi færðu 30% afslátt."
   },
   "admin_shop_layout": {
     "download_txt": "Sækja gagnatexta",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Stórt letur",
     "large_font_message": "Sýna stærri texta en venjulega",
     "samples": "Sýndu sýnishorn af verslunum",
-    "samples_message": "Ef það er virkt munu nokkrar sýnishornsverslanir birtast á spjaldinu þínu."
+    "samples_message": "Ef það er virkt munu nokkrar sýnishornsverslanir birtast á spjaldinu þínu.",
+    "automation": "Sjálfvirkni",
+    "automation_message": "Sýna sjálfvirkniflipa á mælaborði verslunar. (Webhooks, sjónræn forritun, ...)"
   },
   "shop_locations": {
     "title": "Lönd þar sem þjónusta er veitt",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Afsláttarmiði hefur verið eytt."
-    }
+    },
+    "multiple_use": "Margþætt notkun"
   },
   "coupon_edit": {
     "title_edit": "Breyta afsláttarmiða",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Takmarka",
       "description": "Settu takmörk á hámarksfjölda notenda."
+    },
+    "SEGMENTS": {
+      "title": "Hluti",
+      "description": "Takmarkaðu viðskiptavini í sérstakri handvirkri skiptingu."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Heildarupphæð pöntunar var tekin af gjafakortunum! Kaupandi þarf ekki að borga meira.",
       "cod_msg": "Viðskiptavinur greiðir við móttöku pöntunar.",
       "online_msg": "Biddu viðskiptavininn um að skanna QR kóða á viðskiptavinaskjánum."
-    }
+    },
+    "name": "POS",
+    "message": "Láttu sölustað þinn á netinu án uppsetningarkostnaðar, keyrðu hann á hvaða snjallsíma, spjaldtölvu og tölvu sem er, eða búðu til pantanir handvirkt."
   },
   "exporter": {
     "title": "Flytja út gögn",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Senda á netþjón",
     "shop_license": "Verslunarleyfi",
     "max_items_limit": "Hámarkshluti",
-    "total_items": "Samtals atriði"
+    "total_items": "Samtals atriði",
+    "customer": {
+      "title": "Flytja inn viðskiptavini",
+      "subtitle": "Hladdu upp CSV skrám viðskiptavina hér. Gakktu úr skugga um að þú fylgir stöðluðu sniði og einnig verður þú að fylgja persónuverndarreglum."
+    }
   },
   "campaigns": {
     "title": "Herferðir",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Tenglar",
     "light_checkout": "Létt afgreiðsluþema",
     "light_header": "Létt haus",
-    "light_footer": "Léttur fótur"
+    "light_footer": "Léttur fótur",
+    "product_page": "Vörusíða",
+    "typography": "Leturfræði",
+    "header": "Fyrirsögn",
+    "custom_code": "Sérsniðinn kóða",
+    "custom_css": "Sérsniðin CSS"
   },
   "app_templates": {
     "default": "Sjálfgefið",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Stjórna þjónustu",
     "option_deliver_by_courier": "Valkostur 1: Sendu með sendiboðum þínum.",
     "option_add_to_que": "Valkostur 2: Bæta við biðröð til að vinna á sendingarþjónustusíðu.",
-    "option_instant_shipping": "Valkostur 3: Sending strax."
+    "option_instant_shipping": "Valkostur 3: Sending strax.",
+    "pickup_action": "Staðfesting á afhendingu"
   },
   "shop_home_edit": {
     "title": "Heimasíðustilling",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Vara bætt við verslunina þína.",
       "request_access": "Við sendum aðgangsbeiðni þína til heildsala með góðum árangri."
-    }
+    },
+    "show_eligible_shops_message": "Sýndu gjaldgengar verslanir"
   },
   "product_dropshipping": {
     "need_re_enable": "Þessi vara hefur verið breytt af upprunalega seljandanum, þessar verðbreytingar hafa gert vöruna óvirka í versluninni þinni. Athugaðu breytingarnar og ef þú samþykkir að endurvirkja vöruna skaltu ýta á hnappinn hér að neðan.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Það er enginn flokkur í versluninni þinni.",
       "limit": "Vörutakmörk",
       "limit_message": "Sláðu inn niðurstöðutölur vöru",
-      "select_categories": "Veldu tiltæka flokka"
+      "select_categories": "Veldu tiltæka flokka",
+      "categories_limit": "Flokkar takmörk",
+      "categories_limit_msg": "Sláðu inn hámarksfjölda flokka. Stilltu núll fyrir engin takmörk."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avocado uppfært með góðum árangri.",
       "add_success": "Avókadó búið til með góðum árangri."
-    }
+    },
+    "name": "Avókadó"
   },
   "avocado_orders": {
     "title": "Avókadó",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "óvirkt",
     "active_message": "Ef þú virkjar þennan valkost, mun möguleikinn á að búa til hraðsölukóða birtast í stjórnunarhluta hverrar vöru.",
     "hyper_form_link_message": "Hyper síðu hlekkur verslunarinnar þinnar",
-    "configuration": "Ofurstillingar"
+    "configuration": "Ofurstillingar",
+    "name": "Hár"
   },
   "hyper_orders": {
     "title": "Hár",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Lýðfræði viðskiptavina",
     "subtitle": "Síuðu og fluttu út gögn viðskiptavina þinna til að taka betri ákvarðanir til að skila meira virði með minni markaðssetningu! Vinsamlegast virðið friðhelgi viðskiptavina þinna og sendu aldrei fjöldapósta til þeirra! Aldrei deila upplýsingum viðskiptavina þinna með þjónustu þriðja aðila án þess að fá leyfi frá hverjum og einum þeirra."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Heimilisföng afhendingar",
+      "subtitle": "Bættu við og breyttu afhendingarföngum hér. Notendur munu geta valið heimilisfang afhendingar á greiðslusíðunni.",
+      "add_action": "Bættu við nýjum stað"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Affiliate POS",
+    "open_pos_action": "Fljótur pöntun POS",
+    "description": "Þessi valkostur er hentugur fyrir stjórnendur Instagram síðna og annarra félagslegra neta. Notaðu Affiliate POS til að taka á móti og bæta við pöntunum frá viðskiptavinum handvirkt. Samstarfsaðilar þínir (eða sérleyfi) geta bætt við nýjum pöntunum í Affiliate POS og hlaðið inn innborgunarseðlinum."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Innskráningaraðferðir",
+      "subtitle": "Sérsníddu hvernig notendur skrá sig inn í verslunina þína."
+    },
+    "checkout": {
+      "title": "Afgreiðsluflæði",
+      "subtitle": "Sérsníddu ferðalag viðskiptavina þinna og innkaupaflæði í netverslun þinni.",
+      "map": {
+        "title": "Kort",
+        "subtitle": "Notendur verða að velja afhendingarstað á kortinu (eins og Uber).",
+        "subtitle_no_map": "Fjarlægð í sendingarútreikningi telur núll ef staðsetningin er ekki til í heimilisfangi viðskiptavinar."
+      },
+      "mode": {
+        "title": "Innskráningarstaður viðskiptavina",
+        "default": {
+          "title": "ASAP (sjálfgefið)",
+          "msg": "Notendur skrá sig inn eins fljótt og auðið er. (Fleiri viðskipti)"
+        },
+        "on_checkout": {
+          "title": "Við útskráningu",
+          "msg": "Þvingaðu notendur til að skrá sig inn við útskráningarskrefið."
+        },
+        "login_free": {
+          "title": "Valfrjáls innskráning",
+          "msg": "Valfrjáls innskráning eftir greiðslu pöntunar.."
+        }
+      },
+      "express": {
+        "title": "Tilvísun eftir að hafa verið bætt í körfu",
+        "false": {
+          "title": "Venjulegur háttur",
+          "msg": "Vertu áfram á síðunni og haltu áfram að versla eftir að hafa smellt á Bæta í körfu."
+        },
+        "true": {
+          "title": "Hraðhamur",
+          "msg": "Beindu viðskiptavinum á greiðslusíðuna eftir að hafa smellt á Bæta í körfu."
+        }
+      },
+      "shipping_address": {
+        "title": "Biðjið um sendingar heimilisfang"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Líkamleg og þjónusta (sjálfgefið)",
+      "desc": "Biddu viðskiptavininn um að slá inn heimilisfang í afgreiðslu- og þjónustuafgreiðslum."
+    },
+    "physical": {
+      "title": "Aðeins líkamlegt",
+      "desc": "Biddu viðskiptavininn um að slá inn heimilisfang bara í líkamlegri afgreiðslu."
+    },
+    "off": {
+      "title": "Aldrei",
+      "desc": "Aldrei biðja um sendingarheimilisfangið. ⚠ Notaðu þennan valkost ef þú ætlar að hafa þjónustu með afbrigðum með því að velja líkamlega gerð fyrir vörur í stað þjónustutegundar."
+    }
+  },
+  "business_model": {
+    "title": "Uppsetning viðskiptamódel",
+    "subtitle": "Stilltu viðskiptamódelið þitt og við munum stilla stýrikerfið þitt á bak við tjöldin."
+  },
+  "business_type": {
+    "title": "Vörutegundir",
+    "subtitle": "Stilltu vörutegundina sem þú vilt selja í versluninni þinni. Vörutegundir í Selldone eru meira en bara tegund af vörum; það snýst meira um uppfyllingarferli.",
+    "send_activation_request_to_support": "Sendu virkjunarbeiðni í stuðningsmiða.",
+    "require_kyc": "Fyrirtækjaeigandi KYC.",
+    "needs_enterprise_license": "Þú þarft að hafa Enterprise leyfi.",
+    "marketplace_caution_message": "Stilltu Marketplace þar sem líkanið þitt hefur mikil áhrif á uppsetningu stýrikerfis fyrirtækisins. Til dæmis verður þú að skilgreina að minnsta kosti einn söluaðila fyrir hverja vöru með óháðri verðlagningu og birgðum. Viðskiptavinir geta ekki keypt vörur sem hafa engan söluaðila."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Venjuleg verslun",
+      "desc": "Venjulega lítið og meðalstórt fyrirtæki, heimilisfyrirtæki eða dropshipper - sem selur vöru sína beint til viðskiptavina eða selur vörur heildsala sem söluaðili."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Haltu engum vöru og engum birgðum - þú borgar til þriðja aðila, venjulega heildsala (eins og Printify, Wholesale2B, ...) eða framleiðanda, og þeir uppfylla pantanir á bak við tjöldin."
+    },
+    "wholesaler": {
+      "title": "Dropshipping Birgir",
+      "desc": "Venjulega heildsali eða framleiðandi - sem sendir pantanir beint til neytenda. Aðrir kaupmenn á Selldone geta sent vörur þínar í verslunum sínum."
+    },
+    "marketplace": {
+      "title": "Markaðstorg",
+      "desc": "Markaðstaðir á netinu tengja saman kaupendur og seljendur á sér og miðlægum vettvangi."
+    },
+    "franchise": {
+      "title": "Sérleyfi / hlutdeildaraðili",
+      "desc": "Sérleyfi er aðferð til að dreifa vörum eða þjónustu sem felur í sér sérleyfisveitanda sem stofnar vörumerkið þitt (Franchising) eða selur vörurnar þínar eftir vörumerki sínu (Tengd)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Veski",
+    "pricing_models": "Verðlag",
+    "add_vendor": "Bæta seljanda við",
+    "requests": "Beiðnir"
+  },
+  "price_input_type": {
+    "title": "Tegund verðinntaks",
+    "default": {
+      "title": "Sjálfgefið",
+      "desc": "Veldu gildi sem magn í körfunni."
+    },
+    "area": {
+      "title": "Svæði",
+      "desc": "Sláðu inn breidd og lengd sem inntak til að reikna út magnið."
+    },
+    "volume": {
+      "title": "bindi",
+      "desc": "Sláðu inn breidd, lengd og hæð sem inntak til að reikna út magnið."
+    },
+    "custom": {
+      "title": "Sérsniðin (með innsláttareyðublaði)",
+      "desc": "Engin þörf á hundruðum afbrigða! Búðu til sérsniðið kostnaðarútreikningsform fyrir mjög sérhannaðar vörur."
+    }
+  },
+  "vendors_list": {
+    "title": "Seljendur mínir",
+    "message": "Listi yfir mína eigin söluaðila."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Tengdu mörg lén við stýrikerfi fyrirtækisins og stjórnaðu þeim öllum á einum stað. Þú getur notað mörg lénaeiginleikann til að búa til sérstök lén fyrir hvern hluta vefsíðunnar þinnar, eins og blogg og samfélag, eða notað mismunandi lén fyrir samstarfsaðila þína."
+  },
+  "notes": {
+    "add_action": "Bættu við athugasemd fyrir liðið þitt",
+    "notifications": {
+      "success_add": "Athugasemd hefur verið bætt við.",
+      "success_delete": "Glósu hefur verið eytt."
+    }
+  },
+  "external_services": {
+    "title": "Ytri þjónustu",
+    "subtitle": "Fylgstu með síðustu stöðu ytri þjónustu eins og SMS og tölvupósti hér."
   }
 };

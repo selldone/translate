@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Produkty powiązane",
     "price": "Cena £",
     "rate": "Wskaźnik",
-    "comment": "Komentarz"
+    "comment": "Komentarz",
+    "warranty": "Gwarancja",
+    "return_policy": "Polityka zwrotów",
+    "guide": "Przewodnik",
+    "shipping": "Wysyłka"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Twoje zamówienie zostało pomyślnie złożone.",
       "delete_success": "Pozycja została usunięta."
-    }
+    },
+    "select_address_message": "Podaj swój adres, a następnie możesz złożyć zamówienie."
   },
   "hyper": {
     "title": "Tworzenie zamówienia",
@@ -541,5 +546,19 @@ export default {
       "message": "Określiłeś opłatę za ten przedmiot. Możesz zmienić kwotę opłaty za przedmiot zakupiony przez klienta.",
       "charge": "Opłata"
     }
+  },
+  "check_access": {
+    "waiting_message": "Czekam na sprawdzenie dostępu...",
+    "no_access_message": "Niestety nie masz dostępu do naszego sklepu.<br/> Proszę skontaktuj się z nami."
+  },
+  "share_order": {
+    "action": "Podziel się kolejnością",
+    "title": "Podziel się tym zamówieniem z innymi.",
+    "message": "To bezpieczny link, udostępniaj go tylko tym, których znasz. Każdy, kto ma ten link, może zduplikować Twoje zamówienie i zobaczyć wybrany adres. Będzie zawierać informacje o Twoim aktualnym koszyku.",
+    "valid_period": "Ten link wygaśnie po 48 godzinach.",
+    "import_order_action": "Importuj zamówienie",
+    "retrieve_dialog_title": "Pobierz zamówienie zewnętrzne",
+    "address_included": "Udostępnij elementy koszyka + adres",
+    "address_excluded": "Udostępnij tylko elementy koszyka"
   }
 };

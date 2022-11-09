@@ -558,7 +558,52 @@ export default {
     "merchant": "Merchant",
     "per_product": "Per chigadzirwa",
     "journey": "Rwendo",
-    "after": "Mushure"
+    "after": "Mushure",
+    "waiting_for_payment": "Ndokumbira upedze kubhadhara...",
+    "hour": "Awa",
+    "minute": "Mineti",
+    "premium": "Premium",
+    "light": "Chiedza",
+    "dark": "Rima",
+    "guest": "Guest",
+    "shops": "Zvitoro",
+    "vendor": "Mutengesi",
+    "vendors": "Vatengesi",
+    "marketplace": "Marketplace",
+    "verify_date": "Verify date",
+    "note": "Cherechedza",
+    "panel": "Panel",
+    "removed": "Yakabviswa",
+    "segments": "Segments",
+    "personal_info": "Personal info",
+    "preferences": "Zvaunoda",
+    "spec": "Spec",
+    "reviews": "Ongororo",
+    "constraints": "Zvipingamupinyi",
+    "flexible": "Flexible",
+    "usage_limit": "Muganho wekushandisa",
+    "temporary": "Temporary",
+    "original": "Original",
+    "saved": "Saved!",
+    "sort": "Ronga",
+    "documents": "Zvinyorwa",
+    "document": "Gwaro",
+    "please_wait": "Mirai henyu...",
+    "pickup": "Nhonga",
+    "customize": "gadzirisa",
+    "difficulty": "Dambudziko",
+    "banned": "Kurambidzwa",
+    "company": "Company",
+    "tax_shipping": "Mutero Wekutumira",
+    "warranty": "Warranty",
+    "return_policy": "Return Policy",
+    "guide": "Guide",
+    "translate": "Shandura",
+    "public": "Veruzhinji",
+    "deleted": "Dzadzimwa",
+    "variant": "Variant",
+    "secure": "Secure",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Track",
     "change_state": "Chinja Status",
     "done": "Zvaita",
-    "reply": "Reply"
+    "reply": "Reply",
+    "watch_now": "Tarisa Zvino",
+    "unlock": "Kiinura",
+    "lock": "Lock",
+    "create_clone": "Gadzira clone",
+    "regenerate": "Regenerate",
+    "add_message": "Wedzera meseji",
+    "continue_chat": "Ramba uchikurukura",
+    "add_new_message": "Wedzera mutsva meseji"
   },
   "instance_message_title": "Tumira meseji ipapo",
   "instance_message": "Hi {name}, Zita rangu ndinonzi {author} kubva ku{company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Postcode",
     "enter_value": "Zadza pano",
     "address_note": "Cherechedza",
-    "tel": "Contact number"
+    "tel": "Contact number",
+    "service_address": "Sarudza kero yako"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "pondo",
     "quarts",
     "yards",
-    "room"
+    "room",
+    "seconds",
+    "maminitsi",
+    "maawa",
+    "mazuva",
+    "mavhiki",
+    "mwedzi",
+    "makore"
   ],
   "region_types": {
     "State": "State",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Hurefu hudiki hunofanirwa kuve {length}",
     "invalid_min_array_length": "sarudza {length} zvinhu",
     "invalid_max_chars": "Hukuru {maxCount} mavara",
-    "invalid_url": "URL haisiriyo"
+    "invalid_url": "URL haisiriyo",
+    "country_invalid": "Sarudza nyika yekuenda!",
+    "postal_code_invalid": "Seta kodhi yepositi inoshanda!"
   },
   "colors": {
     "#D32F2F": "Tsvuku",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Chena",
     "#FFF": "Chena",
     "#000000": "Nhema",
-    "#000": "Nhema"
+    "#000": "Nhema",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Ndarama",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Mauto",
+    "#474747": "Asphalt",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Yakatsva Orange",
+    "#80011F": "Cardinal",
+    "#382829": "Chocolate",
+    "#F06336": "Coral",
+    "#FAE7C9": "Cream",
+    "#6B2257": "Currant",
+    "#222127": "Dark Gray",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Evergreen",
+    "#214C30": "Sango",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Leaf",
+    "#558450": "Light Aqua",
+    "#96B5C9": "Chiedza cheBlue",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "Lime",
+    "#9DE7C2": "Mint",
+    "#F6EAD2": "Natural",
+    "#1A1F35": "Navy",
+    "#404624": "Olive",
+    "#271020": "Plum",
+    "#A8355C": "Raspberry",
+    "#D6BEA6": "Soft Cream",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Violet",
+    "#36454F": "Marasha",
+    "#b3b0ab": "kabhoni Grey",
+    "#463e3d": "Charcoal Heather",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Zita",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Kuvaka nhamba",
     "building_unit": "Unit",
     "postcode": "Postcode",
-    "note": "Cherechedza"
+    "note": "Cherechedza",
+    "county": "County"
   },
   "product_types": {
     "physical": "Zvenyama",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Color",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Simple",
       "selective": "Selective",
-      "switch": "Switch"
-    }
+      "switch": "Switch",
+      "file": "File",
+      "number": "Number"
+    },
+    "placeholder_input": "Nzvimbo",
+    "file_type_input": "Mhando dzefaira dzinogamuchirwa",
+    "file_type_message": "jpeg , png , zip ..."
   },
   "virtual_order_info_summery": {
     "title": "Product Name",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Pinda nharembozha yako",
     "verification_code": "Verification code",
     "msg_title": "Mhoro,",
-    "msg_body": "Please login. Zvinotora masekonzi mashoma."
+    "msg_body": "Please login. Zvinotora masekonzi mashoma.",
+    "login_apple": "Pinda neApple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Tags akawedzerwa"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Very complicated",
+    "hard": "Zvakaoma",
+    "intermediate": "Pakati",
+    "easy": "Easy"
   }
 };

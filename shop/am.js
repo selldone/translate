@@ -105,7 +105,11 @@ export default {
     "related_products_title": "ተዛማጅ ምርቶች",
     "price": "ዋጋ",
     "rate": "ደረጃ ይስጡ",
-    "comment": "አስተያየት"
+    "comment": "አስተያየት",
+    "warranty": "ዋስትና",
+    "return_policy": "የተመላሽ እቃ አፈፃፀም ሂደት",
+    "guide": "መመሪያ",
+    "shipping": "ማጓጓዣ"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "ትዕዛዝዎ በተሳካ ሁኔታ ቀርቧል።",
       "delete_success": "ንጥል ተሰርዟል።"
-    }
+    },
+    "select_address_message": "እባክህ አድራሻህን አስገባና ትዕዛዙን ማስገባት ትችላለህ።"
   },
   "hyper": {
     "title": "ትዕዛዝ መፍጠር",
@@ -541,5 +546,19 @@ export default {
       "message": "ለዚህ ንጥል ነገር ክፍያ ገልጸዋል በደንበኛው ለተገዛው ዕቃ የክፍያውን መጠን መለወጥ ይችላሉ።",
       "charge": "ክስ"
     }
+  },
+  "check_access": {
+    "waiting_message": "መዳረሻን ለማየት በመጠበቅ ላይ...",
+    "no_access_message": "የአጋጣሚ ነገር ሆኖ የኛ መደብር መዳረሻ የለዎትም።<br/> እባክዎ ያግኙን."
+  },
+  "share_order": {
+    "action": "ትዕዛዝ አጋራ",
+    "title": "ይህንን ትዕዛዝ ለሌሎች ያካፍሉ።",
+    "message": "ደህንነቱ የተጠበቀ ማገናኛ ነው፣ ለሚያውቋቸው ብቻ ያካፍሉ። ይህ አገናኝ ያለው ማንኛውም ሰው የእርስዎን ትዕዛዝ ማባዛት እና የተመረጠውን አድራሻ ማየት ይችላል። ስለአሁኑ ጋሪዎ መረጃ ይይዛል።",
+    "valid_period": "ይህ አገናኝ ከ48 ሰዓታት በኋላ ጊዜው ያልፍበታል።",
+    "import_order_action": "ትእዛዝ አስመጣ",
+    "retrieve_dialog_title": "ውጫዊ ትዕዛዝ ሰርስሮ ውሰድ",
+    "address_included": "የቅርጫት እቃዎችን + አድራሻ ያጋሩ",
+    "address_excluded": "የቅርጫት እቃዎችን ብቻ ያጋሩ"
   }
 };

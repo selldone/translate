@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Awọn ọja ti o jọmọ",
     "price": "Iye owo",
     "rate": "Oṣuwọn",
-    "comment": "Ọrọìwòye"
+    "comment": "Ọrọìwòye",
+    "warranty": "Atilẹyin ọja",
+    "return_policy": "Pada Afihan",
+    "guide": "Itọsọna",
+    "shipping": "Gbigbe"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Ibere re ti wa ni ifijišẹ.",
       "delete_success": "Nkan ti parẹ."
-    }
+    },
+    "select_address_message": "Jọwọ tẹ adirẹsi rẹ sii, lẹhinna o le fi aṣẹ naa silẹ."
   },
   "hyper": {
     "title": "Bere fun ẹda",
@@ -541,5 +546,19 @@ export default {
       "message": "O ti pato idiyele fun nkan yii. O le yi iye idiyele pada fun ohun ti o ra nipasẹ alabara.",
       "charge": "Gba agbara"
     }
+  },
+  "check_access": {
+    "waiting_message": "Nduro lati ṣayẹwo wiwọle...",
+    "no_access_message": "Laanu, o ko ni iwọle si ile itaja wa.<br/> Jọwọ kan si wa."
+  },
+  "share_order": {
+    "action": "Pipin ibere",
+    "title": "Pin aṣẹ yii pẹlu awọn miiran.",
+    "message": "O jẹ ọna asopọ to ni aabo, pin nikan pẹlu awọn ti o mọ. Gbogbo eniyan ti o ni ọna asopọ yii le ṣe ẹda aṣẹ rẹ ki o wo adirẹsi ti o yan. Yoo ni alaye nipa rira lọwọlọwọ rẹ.",
+    "valid_period": "Ọna asopọ yii yoo pari lẹhin awọn wakati 48.",
+    "import_order_action": "Gbe wọle ibere",
+    "retrieve_dialog_title": "Gba aṣẹ ita pada",
+    "address_included": "Pin awọn ohun agbọn + Adirẹsi",
+    "address_excluded": "Pin awọn nkan agbọn nikan"
   }
 };

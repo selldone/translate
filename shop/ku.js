@@ -105,7 +105,11 @@ export default {
     "related_products_title": "berhemên Related",
     "price": "Biha",
     "rate": "Qûrs",
-    "comment": "Agahkişî"
+    "comment": "Agahkişî",
+    "warranty": "Libersekînîn",
+    "return_policy": "Siyaseta Vegerê",
+    "guide": "Birêvebir",
+    "shipping": "Shipping"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Fermana te bi serketî hate danîn.",
       "delete_success": "Babetê jêbirin."
-    }
+    },
+    "select_address_message": "Ji kerema xwe navnîşana xwe binivîse, û paşê hûn dikarin fermanê bişînin."
   },
   "hyper": {
     "title": "Order çêkirina",
@@ -541,5 +546,19 @@ export default {
       "message": "Te ji bo vê babetê xercek diyar kiriye. Hûn dikarin mîqdara xercê ji bo tiştê ku ji hêla xerîdar ve hatî kirîn biguhezînin.",
       "charge": "Biha"
     }
+  },
+  "check_access": {
+    "waiting_message": "Li benda kontrolkirina gihîştinê ye...",
+    "no_access_message": "Mixabin, tu gihîştina dikana me tune.<br/> Ji kerema xwe bi me re têkilî daynin."
+  },
+  "share_order": {
+    "action": "Parvekirina fermanê",
+    "title": "Vê fermanê bi yên din re parve bikin.",
+    "message": "Ew girêdanek ewledar e, tenê wê bi yên ku hûn dizanin re parve bikin. Her kes bi vê girêdanê dikare fermana we dubare bike û navnîşana hilbijartî bibîne. Ew ê di derheqê selika weya heyî de agahdarî hebe.",
+    "valid_period": "Ev girêdan dê piştî 48 demjimêran biqede.",
+    "import_order_action": "Import order",
+    "retrieve_dialog_title": "Fermana derveyî bistînin",
+    "address_included": "Tiştên selikê + Navnîşan parve bikin",
+    "address_excluded": "Tenê tiştên selikê parve bikin"
   }
 };

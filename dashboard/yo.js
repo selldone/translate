@@ -155,7 +155,19 @@ export default {
       "Setup": "itaja",
       "Sell": "Tita & Tita",
       "Developer": "Dagbasoke",
-      "Application": "Awọn ohun elo"
+      "Application": "Awọn ohun elo",
+      "Product": "Awọn ọja & Awọn ẹka Isakoso",
+      "Blog": "CMS & Bulọọgi",
+      "Order": "Bibere ṣẹ Center",
+      "Channel": "Awọn ikanni tita",
+      "Accounting": "Iṣiro & Awọn ọna isanwo",
+      "Incentives": "Awọn iwuri",
+      "Marketing": "Tita & Awọn ipolongo",
+      "Logistic": "Lojistiki & Gbigbe",
+      "Customers": "onibara Club & ipin",
+      "Page": "ibalẹ & Aṣa Pages",
+      "Access": "Oṣiṣẹ / API Access Management",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Ibi ipamọ Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Awọn ile itaja",
       "roles": "Awọn ipa",
       "home": "Ile",
-      "expert": "Amoye"
+      "expert": "Amoye",
+      "deals": "Awọn iṣowo",
+      "providers": "Awọn olupese"
     },
     "shops": {
       "create_new": "Ṣẹda titun itaja",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Ipo",
           "created_at": "Ọjọ ẹda",
           "updated_at": "Imudojuiwọn to kẹhin"
-        }
+        },
+        "subtitle": "Kọ awọn nkan pẹlu olootu opopo ode oni lati ṣafihan ararẹ ati iṣowo rẹ. Akoonu atilẹba jẹ ohun akọkọ ti o nilo lati dojukọ nigba kikọ ifiweranṣẹ bulọọgi-ore SEO ti o ga julọ."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Iroyin",
         "tax": "Owo-ori",
         "drop_shipping": "Awọn owo-owo alatunta",
-        "reseller_accounts": "Awọn iroyin alatunta"
+        "reseller_accounts": "Awọn iroyin alatunta",
+        "valuations": "Awọn idiyele"
       },
       "invoice": {
         "title": "Itaja ti sopọ Woleti",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Gbigbe",
         "inventory": "Oja",
         "warehouse": "Ile-ipamọ",
-        "logistic_apps": "Awọn eekaderi"
+        "logistic_apps": "Awọn eekaderi",
+        "profiles": "Awọn profaili"
       },
       "warehouse": {
         "title": "Itaja Ile ise",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Iye owo ibere ti o kere julọ fun sowo ọfẹ",
           "notifications": {
             "update_success": "Eto iṣẹ gbigbe ti pari ni aṣeyọri."
-          }
+          },
+          "shipping_cost_calculation": "Iṣiro iye owo gbigbe",
+          "sod_true": "Gba iye owo gbigbe ni opin irin ajo",
+          "sod_true_message": "Rii daju pe iṣẹ sowo rẹ gba iye owo gbigbe lori irinajo.",
+          "sod_false": "Iṣiro idiyele gbigbe ọkọ laifọwọyi",
+          "cod_true": "Gba owo lori ifijiṣẹ",
+          "cod_false": "Gba owo lori ayelujara nikan",
+          "cod_true_message": "Rii daju pe iṣẹ fifiranṣẹ rẹ gba COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "Imeeli",
         "domain": "Ibugbe",
-        "verifications": "Awọn iṣeduro"
+        "verifications": "Awọn iṣeduro",
+        "flow": "Sisan",
+        "business_model": "Awoṣe Iṣowo"
       },
       "delete_dialog": {
         "title": "Pa itaja",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Ọja kuro",
       "unit_float": "Ẹka leefofo (laipẹ)",
       "unit_float_hint": "Fun apẹẹrẹ, alabara le paṣẹ 3 kg ti eso, ṣugbọn iye ti a fi ranṣẹ si alabara jẹ iyatọ diẹ si iye ti a paṣẹ.",
-      "unit_float_message": "Lakoko sisẹ aṣẹ, iye ti a firanṣẹ le yatọ si iye ti a paṣẹ. Eto naa ṣe iṣiro iyatọ yii laifọwọyi ati ṣe igbasilẹ bi gbese rẹ si alabara, eyiti o le lo si awọn aṣẹ atẹle."
+      "unit_float_message": "Lakoko sisẹ aṣẹ, iye ti a firanṣẹ le yatọ si iye ti a paṣẹ. Eto naa ṣe iṣiro iyatọ yii laifọwọyi ati ṣe igbasilẹ bi gbese rẹ si alabara, eyiti o le lo si awọn aṣẹ atẹle.",
+      "status_list": {
+        "active": {
+          "title": "Ti nṣiṣe lọwọ | Online & Aisinipo Tita",
+          "description": "Ọja yii yoo wa fun awọn ibere ori ayelujara."
+        },
+        "inactive": {
+          "title": "Aisise | Titaja Aisinipo nikan",
+          "description": "Ọja yii kii yoo wa fun awọn ibere ori ayelujara."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Iwadi",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Yan akoko ipari",
       "independent_price": "Iye owo nikan fun iyatọ yii",
       "same_price": "Iye owo fun ọja akọkọ",
-      "variant_pricing_message": "Nipa yiyan aṣayan yii, idiyele iyatọ yii le ṣeto ni ominira ti ọja akọkọ."
+      "variant_pricing_message": "Nipa yiyan aṣayan yii, idiyele iyatọ yii le ṣeto ni ominira ti ọja akọkọ.",
+      "price_label_input": "Aami idiyele",
+      "price_label_message": "Ṣafikun alaye afikun nipa idiyele bii ($ 1.5/Fl Oz). Lo awọn ọran: Ile ounjẹ, FMCG.",
+      "add_price_label_action": "Fi aami iye owo kun"
     },
     "inputs_edit": {
       "title": "Fọọmu titẹ sii ti Alaye Olura",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Ẹnu-ọna {gateway_name} ṣatunkọ."
     },
-    "developer_setting": "Dagbasoke & Idanwo"
+    "developer_setting": "Dagbasoke & Idanwo",
+    "live_mode_message": "Gbogbo awọn iṣowo yoo wa ni ipo ifiwe."
   },
   "gift_card": {
     "title": "Awọn kaadi ẹbun",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Adirẹsi ìdíyelé satunkọ nipasẹ olura.",
     "payment-cod-confirm": "Owo sisan COD ti jẹrisi.",
     "payment-cash-confirm": "Isanwo ti {amount} {currency} ni owo fun owo naa jẹ idaniloju.",
-    "payment-dir-confirm": "Taara owo sisan ti a timo."
+    "payment-dir-confirm": "Taara owo sisan ti a timo.",
+    "vendor": "Ipo aṣẹ olutaja yipada lati <b>{from}</b> si <b>{to}</b> .",
+    "connect-sync": "Paṣẹ ṣiṣẹpọ nipasẹ So OS.",
+    "connect-shipped": "A ti fi aṣẹ asopọ ranṣẹ nipasẹ {shipping}.",
+    "connect-returned": "A ti da aṣẹ asopọ pada nipasẹ {shipping}.",
+    "connect-failed": "Imuṣẹ aṣẹ kuna nipasẹ alabaṣepọ. {reason}",
+    "connect-canceled": "A ti fagile aṣẹ naa nipasẹ alabaṣepọ. {reason}",
+    "connect-action-cancel": "Beere lati fagilee aṣẹ. {reason}",
+    "connect-put-hold": "A fi aṣẹ naa si idaduro. {reason}",
+    "connect-remove-hold": "A yọ aṣẹ naa kuro ni idaduro. {reason}",
+    "connect-confirmed": "A ti fi idi aṣẹ naa mulẹ.",
+    "email-vendor": "🔔 Imeeli ifitonileti ti fi aṣẹ ranṣẹ si <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Loni",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Ṣe owo",
     "menu": {
       "plans": "Awọn eto",
-      "accounts": "Awọn iroyin"
+      "accounts": "Awọn iroyin",
+      "participant": "Olukopa"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Awọn bọtini Wiwọle itaja",
     "shop_keys_message": "Awọn bọtini wọnyi ni a lo lati ṣẹda Tokini Wiwọle nipasẹ olupin rẹ. Ṣe akiyesi pe awọn bọtini jẹ aṣiri ati gbe sori olupin nikan ki wọn ko ba han si awọn miiran.",
     "personal_keys_title": "Awọn bọtini Wiwọle ti ara ẹni",
-    "personal_keys_message": "O le ṣẹda awọn bọtini si àkọọlẹ rẹ nibi. Ṣe akiyesi pe awọn bọtini wọnyi yoo ni anfani lati wọle si akọọlẹ rẹ. Ṣẹda ati lo awọn bọtini wọnyi nikan ti o ba mọ ohun ti o n ṣe ni pato."
+    "personal_keys_message": "O le ṣẹda awọn bọtini si àkọọlẹ rẹ nibi. Ṣe akiyesi pe awọn bọtini wọnyi yoo ni anfani lati wọle si akọọlẹ rẹ. Ṣẹda ati lo awọn bọtini wọnyi nikan ti o ba mọ ohun ti o n ṣe ni pato.",
+    "clients_title": "Awọn onibara",
+    "clients_message": "Awọn bọtini wọnyi ni a lo lati ṣẹda Tokini Wiwọle nipasẹ olupin rẹ. Ṣe akiyesi pe awọn bọtini jẹ aṣiri ati gbe sori olupin nikan ki wọn ko ba han si awọn miiran."
   },
   "user_security_control": {
     "title": "Aabo iroyin",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Ṣakoso awọn profaili",
       "description": "Ṣakoso awọn profaili itaja."
+    },
+    "shop-discount-code": {
+      "name": "Iṣakoso koodu eni",
+      "description": "Ṣakoso, ṣatunkọ ati ṣafikun awọn koodu ẹdinwo itaja."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Ètò",
       "change": "Gba agbara",
       "transfer": "Gbigbe",
-      "transactions": "Awọn iṣowo"
+      "transactions": "Awọn iṣowo",
+      "charge": "Gba agbara",
+      "history": "Itan"
     },
     "transactions": {
       "title": "Awọn iṣowo Account",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Fagilee ìmúdájú ṣiṣe alabapin",
       "message": "Ṣe o da ọ loju pe o fagile ṣiṣe alabapin yii bi?",
       "action": "Fagilee ṣiṣe alabapin"
-    }
+    },
+    "use_voucher_now": "Lo iwe-ẹri bayi",
+    "validity_duration": "Iye akoko iwulo",
+    "validity_duration_hint": "Nipa rira iwe-aṣẹ oṣu mejila, iwọ yoo gba ẹdinwo 30% kan."
   },
   "admin_shop_layout": {
     "download_txt": "Ṣe igbasilẹ ọrọ data",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Awọn lẹta nla",
     "large_font_message": "Ṣe afihan ọrọ ti o tobi ju deede lọ",
     "samples": "Ṣe afihan awọn ile itaja apẹẹrẹ",
-    "samples_message": "Ti o ba ti ṣiṣẹ, diẹ ninu awọn ile itaja ayẹwo yoo han ninu nronu rẹ."
+    "samples_message": "Ti o ba ti ṣiṣẹ, diẹ ninu awọn ile itaja ayẹwo yoo han ninu nronu rẹ.",
+    "automation": "Adaṣiṣẹ",
+    "automation_message": "Ṣe afihan taabu adaṣe lori dasibodu itaja. (Webhooks, Eto wiwo, ...)"
   },
   "shop_locations": {
     "title": "Awọn orilẹ-ede ti o ti pese iṣẹ",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kupọọnu ti paarẹ ni aṣeyọri."
-    }
+    },
+    "multiple_use": "Lilo pupọ"
   },
   "coupon_edit": {
     "title_edit": "kupọọnu Ṣatunkọ",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Idiwọn",
       "description": "Ṣeto opin si nọmba ti o pọju awọn olumulo."
+    },
+    "SEGMENTS": {
+      "title": "Awọn apakan",
+      "description": "Idinwo awọn onibara ni pato Afowoyi ipin."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Awọn lapapọ ibere iye ti a yorawonkuro lati ebun awọn kaadi! Olura ko nilo lati san diẹ sii.",
       "cod_msg": "Onibara yoo sanwo nigbati o ba gba aṣẹ naa.",
       "online_msg": "Beere lọwọ alabara lati ṣayẹwo koodu QR lori iboju alabara."
-    }
+    },
+    "name": "POS",
+    "message": "Ṣe iye owo ti o ṣeto-odo rẹ lori aaye tita ori ayelujara, ṣiṣẹ lori eyikeyi foonuiyara, tabulẹti, ati PC, tabi ṣẹda awọn aṣẹ pẹlu ọwọ."
   },
   "exporter": {
     "title": "okeere data",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Firanṣẹ si olupin",
     "shop_license": "Iwe-aṣẹ itaja",
     "max_items_limit": "O pọju awọn ohun kan iye to",
-    "total_items": "Lapapọ awọn nkan"
+    "total_items": "Lapapọ awọn nkan",
+    "customer": {
+      "title": "gbe wọle onibara",
+      "subtitle": "Ṣe igbasilẹ awọn faili CSV ti awọn alabara nibi. Rii daju pe o tẹle ọna kika boṣewa, ati paapaa, o ni lati tẹle awọn ofin ikọkọ."
+    }
   },
   "campaigns": {
     "title": "Awọn ipolongo",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Awọn ọna asopọ",
     "light_checkout": "Akori isanwo ina",
     "light_header": "Akọsori ina",
-    "light_footer": "Imọlẹ ẹlẹsẹ"
+    "light_footer": "Imọlẹ ẹlẹsẹ",
+    "product_page": "Oju-iwe ọja",
+    "typography": "Iwe kikọ",
+    "header": "Akọsori",
+    "custom_code": "koodu aṣa",
+    "custom_css": "CSS aṣa"
   },
   "app_templates": {
     "default": "Aiyipada",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Ṣakoso awọn iṣẹ",
     "option_deliver_by_courier": "Aṣayan 1: Firanṣẹ nipasẹ awọn ojiṣẹ rẹ.",
     "option_add_to_que": "Aṣayan 2: Ṣafikun si isinyi lati ṣe ilana lori oju-iwe iṣẹ gbigbe.",
-    "option_instant_shipping": "Aṣayan 3: Gbigbe lẹsẹkẹsẹ."
+    "option_instant_shipping": "Aṣayan 3: Gbigbe lẹsẹkẹsẹ.",
+    "pickup_action": "Imudaniloju gbigba"
   },
   "shop_home_edit": {
     "title": "Eto oju-iwe ile",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Fikun ọja si ile itaja rẹ.",
       "request_access": "A fi ibeere wiwọle rẹ ranṣẹ si alataja ni aṣeyọri."
-    }
+    },
+    "show_eligible_shops_message": "Ṣe afihan awọn ile itaja ti o yẹ"
   },
   "product_dropshipping": {
     "need_re_enable": "Ọja yii ti yipada nipasẹ olutaja atilẹba, awọn iyipada idiyele wọnyi ti pa ọja naa ni ile itaja rẹ. Ṣayẹwo awọn ayipada ati pe ti o ba gba lati tun ọja naa ṣiṣẹ, tẹ bọtini ni isalẹ.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Ko si ẹka ninu ile itaja rẹ.",
       "limit": "Awọn ọja ifilelẹ",
       "limit_message": "Tẹ awọn idiyele abajade ọja sii",
-      "select_categories": "Yan awọn ẹka to wa"
+      "select_categories": "Yan awọn ẹka to wa",
+      "categories_limit": "Awọn ẹka ifilelẹ",
+      "categories_limit_msg": "Tẹ nọmba ti o pọju ti awọn ẹka sii. Ṣeto odo fun ko si iye to."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avocado ti ni imudojuiwọn ni aṣeyọri.",
       "add_success": "Piha ti a ṣẹda ni aṣeyọri."
-    }
+    },
+    "name": "Piha oyinbo"
   },
   "avocado_orders": {
     "title": "Piha oyinbo",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "Aiṣiṣẹ",
     "active_message": "Ti o ba mu aṣayan yii ṣiṣẹ, o ṣeeṣe ti ṣiṣẹda Awọn koodu Tita-yara yoo han ni apakan iṣakoso ti ọja kọọkan.",
     "hyper_form_link_message": "Ọna asopọ oju-iwe hyper itaja rẹ",
-    "configuration": "Hyper Eto"
+    "configuration": "Hyper Eto",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Onibara Demography",
     "subtitle": "Ajọ ati okeere data awọn onibara rẹ lati ṣe awọn ipinnu to dara julọ lati fi iye diẹ sii pẹlu titaja kere si! Jọwọ bọwọ fun aṣiri awọn alabara rẹ ki o ma ṣe firanṣẹ awọn apamọ olopobobo si wọn! Maṣe pin alaye awọn onibara rẹ pẹlu awọn iṣẹ ẹgbẹ kẹta laisi gbigba igbanilaaye lati ọdọ gbogbo wọn."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Awọn adirẹsi gbigba",
+      "subtitle": "Ṣafikun ati ṣatunkọ awọn adirẹsi gbigba nibi. Awọn olumulo yoo ni anfani lati yan adirẹsi gbigba lori oju-iwe isanwo.",
+      "add_action": "Fi ipo titun kun"
+    }
+  },
+  "affiliate_pos": {
+    "title": "POS alafaramo",
+    "open_pos_action": "Yara ibere POS",
+    "description": "Aṣayan yii dara fun awọn alabojuto ti awọn oju-iwe Instagram ati awọn nẹtiwọọki awujọ miiran. Lo POS Alafaramo lati gba ati ṣafikun awọn aṣẹ lati ọdọ awọn alabara pẹlu ọwọ. Awọn alafaramo rẹ (tabi ẹtọ ẹtọ idibo) le ṣafikun awọn aṣẹ tuntun ni Affiliate POS ati gbejade isokuso idogo naa."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Awọn ọna wiwọle",
+      "subtitle": "Ṣe akanṣe ọna ti awọn olumulo ṣe wọle si ile itaja rẹ."
+    },
+    "checkout": {
+      "title": "Ṣiṣayẹwo isanwo",
+      "subtitle": "Ṣe akanṣe irin-ajo alabara rẹ ati ṣiṣan rira ni ecommerce rẹ.",
+      "map": {
+        "title": "Maapu",
+        "subtitle": "Awọn olumulo gbọdọ yan ipo ifijiṣẹ lori maapu (bii Uber).",
+        "subtitle_no_map": "Ijinna ni iṣiro sowo ka odo ti ipo ko ba si ni adirẹsi alabara ti a pese."
+      },
+      "mode": {
+        "title": "Onibara wiwọle ojuami",
+        "default": {
+          "title": "ASAP (Aiyipada)",
+          "msg": "Awọn olumulo wọle ni kete bi o ti ṣee. (Iyipada diẹ sii)"
+        },
+        "on_checkout": {
+          "title": "Lori isanwo",
+          "msg": "Fi ipa mu awọn olumulo lati wọle ni igbesẹ isanwo."
+        },
+        "login_free": {
+          "title": "Iyan wiwọle",
+          "msg": "Iyan buwolu wọle lẹhin sisan ibere .."
+        }
+      },
+      "express": {
+        "title": "Ṣe àtúnjúwe lẹhin fifi kun si rira",
+        "false": {
+          "title": "Ipo deede",
+          "msg": "Duro si oju-iwe naa ki o tẹsiwaju rira ọja lẹhin titẹ ṣafikun si rira."
+        },
+        "true": {
+          "title": "Ipo kiakia",
+          "msg": "Ṣe àtúnjúwe alabara si oju-iwe isanwo lẹhin tite ṣafikun si rira."
+        }
+      },
+      "shipping_address": {
+        "title": "Beere fun sowo adirẹsi"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Ti ara & Iṣẹ (Aiyipada)",
+      "desc": "Beere lọwọ alabara lati tẹ adirẹsi sii ni awọn isanwo ti ara ati iṣẹ."
+    },
+    "physical": {
+      "title": "Ti ara Nikan",
+      "desc": "Beere lọwọ alabara lati tẹ adirẹsi sii kan ni ibi isanwo ti ara."
+    },
+    "off": {
+      "title": "Kò",
+      "desc": "Maṣe beere fun adirẹsi gbigbe. ⚠ Lo aṣayan yii ti o ba gbero lati ni awọn iṣẹ pẹlu awọn iyatọ nipa yiyan iru ti ara fun awọn ọja dipo iru iṣẹ."
+    }
+  },
+  "business_model": {
+    "title": "Iṣeto awoṣe iṣowo",
+    "subtitle": "Ṣeto awoṣe iṣowo rẹ, ati pe a yoo tunto OS rẹ lẹhin iṣẹlẹ naa."
+  },
+  "business_type": {
+    "title": "Awọn iru ọjà",
+    "subtitle": "Ṣeto iru awọn ọja ti o fẹ ta ninu ile itaja rẹ. Awọn iru ọja ni Selldone jẹ diẹ sii ju iru awọn ọja lọ; o jẹ diẹ sii nipa ilana imuse.",
+    "send_activation_request_to_support": "Fi ibere ibere ranṣẹ ni tikẹti atilẹyin.",
+    "require_kyc": "Onisowo KYC.",
+    "needs_enterprise_license": "O nilo lati ni iwe-aṣẹ Idawọlẹ kan.",
+    "marketplace_caution_message": "Ṣeto Ibi ọja bi awoṣe rẹ ṣe ni ipa lori iṣeto OS iṣowo rẹ jinna. Fun apẹẹrẹ, o gbọdọ ṣalaye o kere ju olutaja kan fun ọja kọọkan pẹlu idiyele ominira ati akojo oja. Awọn onibara ko le ra awọn ọja ti ko ni ataja."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Deede Store",
+      "desc": "Ni igbagbogbo SME kan, iṣowo ile, tabi dropshipper - ti o ta ọja wọn taara si awọn alabara tabi ta awọn ọja alatapọ bi alatunta."
+    },
+    "dropshipping": {
+      "title": "Gbigbe silẹ",
+      "desc": "Jeki ko si ọja ko si si oja - o san si ẹgbẹ kẹta, maa a alatapọ (bi Printify, Wholesale2B, ...) tabi olupese, nwọn si mu awọn aṣẹ sile awọn ipele."
+    },
+    "wholesaler": {
+      "title": "Olupese Dropshipping",
+      "desc": "Ni igbagbogbo alataja tabi olupese - ti o firanṣẹ taara si olumulo ipari. Awọn oniṣowo miiran lori Selldone le sọ awọn ọja rẹ silẹ ni awọn ile itaja wọn."
+    },
+    "marketplace": {
+      "title": "Ibi ọja",
+      "desc": "Awọn ibi ọja ori ayelujara so awọn olura ati awọn ti o ntaa lori ohun-ini ati pẹpẹ ti aarin."
+    },
+    "franchise": {
+      "title": "Franchise / Alafaramo",
+      "desc": "Aṣẹ ẹtọ idibo jẹ ọna ti pinpin awọn ọja tabi awọn iṣẹ ti o kan franchisor kan ti o ṣe agbekalẹ ami iyasọtọ rẹ (Franchising) tabi ta awọn ọja rẹ nipasẹ ami iyasọtọ wọn (Affiliate)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Awọn apamọwọ",
+    "pricing_models": "Ifowoleri",
+    "add_vendor": "Fi si ataja",
+    "requests": "Awọn ibeere"
+  },
+  "price_input_type": {
+    "title": "Iru igbewọle owo",
+    "default": {
+      "title": "Aiyipada",
+      "desc": "Yan iye kan bi opoiye ninu rira."
+    },
+    "area": {
+      "title": "Agbegbe",
+      "desc": "Tẹ iwọn ati ipari sii bi awọn igbewọle lati ṣe iṣiro iye."
+    },
+    "volume": {
+      "title": "iwọn didun",
+      "desc": "Tẹ iwọn, ipari, ati giga sii bi awọn igbewọle lati ṣe iṣiro iye."
+    },
+    "custom": {
+      "title": "Aṣa (Nipasẹ fọọmu titẹ sii)",
+      "desc": "Ko si iwulo fun awọn ọgọọgọrun awọn iyatọ! Ṣẹda fọọmu iṣiro iye owo aṣa fun awọn ọja isọdi pupọ."
+    }
+  },
+  "vendors_list": {
+    "title": "Awọn olutaja mi",
+    "message": "Akojọ ti ara mi olùtajà."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Sopọ awọn ibugbe pupọ si OS iṣowo rẹ ati ṣakoso gbogbo wọn ni aye kan. O le lo ẹya-ara awọn ibugbe pupọ lati ṣẹda awọn ibugbe iyasọtọ fun apakan kọọkan ti oju opo wẹẹbu rẹ, bii bulọọgi ati agbegbe, tabi lo awọn ibugbe oriṣiriṣi fun awọn alafaramo rẹ."
+  },
+  "notes": {
+    "add_action": "Fi akọsilẹ kun fun ẹgbẹ rẹ",
+    "notifications": {
+      "success_add": "A ti ṣafikun akọsilẹ ni aṣeyọri.",
+      "success_delete": "Akiyesi ti paarẹ ni aṣeyọri."
+    }
+  },
+  "external_services": {
+    "title": "Awọn iṣẹ ita",
+    "subtitle": "Bojuto ipo ikẹhin ti awọn iṣẹ ita bi SMS ati awọn imeeli nibi."
   }
 };

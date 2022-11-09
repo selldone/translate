@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Lihlahisoa tse amanang",
     "price": "Theko",
     "rate": "Sekhahla",
-    "comment": "Maikutlo"
+    "comment": "Maikutlo",
+    "warranty": "Tiisetso",
+    "return_policy": "LEANO LA THEPA E KHUTLISOANG",
+    "guide": "Tataiso",
+    "shipping": "Ho tsamaisa ka sekepe"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Odara ea hau e entsoe ka katleho.",
       "delete_success": "Ntho e hlakotsoe."
-    }
+    },
+    "select_address_message": "Ka kopo, kenya aterese ea hau, 'me u ka fana ka odara."
   },
   "hyper": {
     "title": "Tlhophiso ea taelo",
@@ -541,5 +546,19 @@ export default {
       "message": "U boletse tefiso ea ntho ena. U ka fetola chelete ea tefiso bakeng sa ntho e rekiloeng ke moreki.",
       "charge": "Tefiso"
     }
+  },
+  "check_access": {
+    "waiting_message": "E emetse ho hlahloba phihlello...",
+    "no_access_message": "Ka bomalimabe, ha u khone ho kena lebenkeleng la rona.<br/> Ka kopo ikopanye le rona."
+  },
+  "share_order": {
+    "action": "Arolelana odara",
+    "title": "Arolelana odara ena le ba bang.",
+    "message": "Ke sehokelo se sireletsehileng, se arolelane feela le bao u ba tsebang. Motho e mong le e mong ea nang le sehokelo sena a ka kopitsa odara ea hau mme a bona aterese e khethiloeng. E tla ba le lintlha mabapi le kariki ea hau ea hajoale.",
+    "valid_period": "Sehokelo sena se tla felloa ke nako ka mor'a lihora tse 48.",
+    "import_order_action": "Odara kantle",
+    "retrieve_dialog_title": "Fumana odara ea kantle",
+    "address_included": "Arolelana lintho tsa baskete + Aterese",
+    "address_excluded": "Arolelana feela lintho tsa baskete"
   }
 };

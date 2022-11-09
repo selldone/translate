@@ -65,7 +65,9 @@ export default {
     "my_feed": "jo",
     "blocked_message": "Estàs bloquejat fins",
     "reported": "Reportat",
-    "report": "Informe"
+    "report": "Informe",
+    "post": "Publicació",
+    "attach_file": "Adjuntar arxiu"
   },
   "invite_message": "{user} t'ha convidat al fòrum {community}. Feu clic a l'enllaç següent per llegir les observacions dels vostres amics i compartir la vostra opinió amb ells. T'estic esperant.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Elimina l'enquesta",
     "take_screenshot": "Preneu com a coberta",
     "take_link_msg": "Passa l'enllaç aquí i entra",
-    "eligible_title": "Passos per ser elegible per publicar"
+    "eligible_title": "Passos per ser elegible per publicar",
+    "public": "Públic"
   },
   "tips": {
     "verify_email": "Introdueix i verifica el teu correu electrònic.",

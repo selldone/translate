@@ -155,7 +155,19 @@ export default {
       "Setup": "Buttek",
       "Sell": "Verkaf & Marketing",
       "Developer": "Entwéckelen",
-      "Application": "Uwendungen"
+      "Application": "Uwendungen",
+      "Product": "Produkter & Kategorien Management",
+      "Blog": "CMS & Blog",
+      "Order": "Bestellungen Erfëllung Center",
+      "Channel": "Verkaf Channels",
+      "Accounting": "Comptablesmethod & Bezuelen Methoden",
+      "Incentives": "Ureizer",
+      "Marketing": "Marketing & Campagnen",
+      "Logistic": "Logistik & Versand",
+      "Customers": "Clients Club & Segmentatioun",
+      "Page": "Landung & Benotzerdefinéiert Säiten",
+      "Access": "Personal / API Access Management",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github Repository",
@@ -193,7 +205,9 @@ export default {
       "stores": "Geschäfter",
       "roles": "Rollen",
       "home": "Doheem",
-      "expert": "Expert"
+      "expert": "Expert",
+      "deals": "Deals",
+      "providers": "Ubidder"
     },
     "shops": {
       "create_new": "Schafen neie Buttek",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Status",
           "created_at": "Créatioun Datum",
           "updated_at": "Leschten Update"
-        }
+        },
+        "subtitle": "Schreift Artikele mat engem modernen Inline Editor fir Iech selwer an Äert Geschäft ze presentéieren. Original Inhalt ass dat éischt wat Dir musst fokusséieren wann Dir e qualitativ héichwäerteg SEO-frëndlech Blog Post schreift."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Rapport",
         "tax": "Steier",
         "drop_shipping": "Reseller Empfang",
-        "reseller_accounts": "Reseller Konten"
+        "reseller_accounts": "Reseller Konten",
+        "valuations": "Bewäertungen"
       },
       "invoice": {
         "title": "Shop verbonne Portemonnaien",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Liwwerung",
         "inventory": "Inventar",
         "warehouse": "Warehouse",
-        "logistic_apps": "Logistik"
+        "logistic_apps": "Logistik",
+        "profiles": "Profiler"
       },
       "warehouse": {
         "title": "Store Warehouse",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Minimum Bestellungskäschte fir gratis Versand",
           "notifications": {
             "update_success": "Versandservice Astellungen erfollegräich ofgeschloss."
-          }
+          },
+          "shipping_cost_calculation": "Verschécken Käschten Berechnung",
+          "sod_true": "Kritt Versandkäschte op Destinatioun",
+          "sod_true_message": "Vergewëssert Iech datt Äre Versandservice d'Versandkäschte op der Destinatioun acceptéiert.",
+          "sod_false": "Auto Versandkäschte Berechnung",
+          "cod_true": "Akzeptéieren boer op Liwwerung",
+          "cod_false": "Akzeptéieren nëmmen online Bezuelen",
+          "cod_true_message": "Vergewëssert Iech datt Äre Versandservice COD akzeptéiert."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "E-Mail",
         "domain": "Domain",
-        "verifications": "Verifikatiounen"
+        "verifications": "Verifikatiounen",
+        "flow": "Flow",
+        "business_model": "Geschäftsmodell"
       },
       "delete_dialog": {
         "title": "Läschen Store",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Produit Eenheet",
       "unit_float": "Float Eenheet (geschwënn)",
       "unit_float_hint": "Zum Beispill kann de Client 3 kg Uebst bestellen, awer d'Quantitéit un de Client geschéckt ass liicht anescht wéi de bestallte Betrag.",
-      "unit_float_message": "Wärend der Bestellungsveraarbechtung kann de geliwwerte Betrag vum bestallte Betrag ënnerscheeden. De System berechent automatesch dësen Ënnerscheed an notéiert se als Är Schold un de Client, déi op déi nächst Bestellungen applizéiert ka ginn."
+      "unit_float_message": "Wärend der Bestellungsveraarbechtung kann de geliwwerte Betrag vum bestallte Betrag ënnerscheeden. De System berechent automatesch dësen Ënnerscheed an notéiert se als Är Schold un de Client, déi op déi nächst Bestellungen applizéiert ka ginn.",
+      "status_list": {
+        "active": {
+          "title": "Aktiv | Online & Offline Verkaf",
+          "description": "Dëst Produkt wäert verfügbar sinn fir online Bestellungen."
+        },
+        "inactive": {
+          "title": "Inaktiv | Nëmmen Offline Verkaf",
+          "description": "Dëst Produkt wäert net fir Online Bestellunge verfügbar sinn."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Ëmfro",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Wielt d'Ennzäit",
       "independent_price": "De Präis nëmmen fir dës Variant",
       "same_price": "De Präis fir den Haaptprodukt",
-      "variant_pricing_message": "Andeems Dir dës Optioun auswielt, kann de Präis vun dëser Variant onofhängeg vum Haaptprodukt festgeluecht ginn."
+      "variant_pricing_message": "Andeems Dir dës Optioun auswielt, kann de Präis vun dëser Variant onofhängeg vum Haaptprodukt festgeluecht ginn.",
+      "price_label_input": "Präis Label",
+      "price_label_message": "Füügt extra Info iwwer Präis wéi ($1.5 / Fl Oz). Benotzen Fäll: Epicerie, FMCG.",
+      "add_price_label_action": "Add Präis Label"
     },
     "inputs_edit": {
       "title": "Input Form vun Keefer Informatiounen",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gateway {gateway_name} geännert."
     },
-    "developer_setting": "Entwéckelen & Test"
+    "developer_setting": "Entwéckelen & Test",
+    "live_mode_message": "All Transaktioune wäerten am Live Modus sinn."
   },
   "gift_card": {
     "title": "Cadeau Kaarte",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Rechnungsadress geännert vum Keefer.",
     "payment-cod-confirm": "COD Bezuelung gouf bestätegt.",
     "payment-cash-confirm": "Bezuelung vun {amount} {currency} a boer fir d'Rechnung gouf bestätegt.",
-    "payment-dir-confirm": "Direkt Bezuelen Empfang gouf confirméiert."
+    "payment-dir-confirm": "Direkt Bezuelen Empfang gouf confirméiert.",
+    "vendor": "Uerdnungszoustand vum Verkeefer geännert vun <b>{from}</b> op <b>{to}</b> .",
+    "connect-sync": "Bestellung synchroniséiert duerch Connect OS.",
+    "connect-shipped": "Connect Bestellung gouf vum {shipping} verschéckt.",
+    "connect-returned": "Connect Bestellung gouf vum {shipping} zréckginn.",
+    "connect-failed": "Uerdnung Erfëllung vum Partner gescheitert. {reason}",
+    "connect-canceled": "D'Bestellung gouf vum Partner annuléiert. {reason}",
+    "connect-action-cancel": "Ufro fir Bestellung ze annuléieren. {reason}",
+    "connect-put-hold": "D'Uerdnung gouf agespaart. {reason}",
+    "connect-remove-hold": "D'Bestellung gouf aus der Haltung geläscht. {reason}",
+    "connect-confirmed": "D'Bestellung gouf bestätegt.",
+    "email-vendor": "🔔 Bestellungsinformatioun E-Mail gouf un <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Haut",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Geld verdéngen",
     "menu": {
       "plans": "Pläng",
-      "accounts": "Konten"
+      "accounts": "Konten",
+      "participant": "Participant"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Store Zougang Schlësselen",
     "shop_keys_message": "Dës Schlëssele gi benotzt fir Zougang Token vun Ärem Server ze kreéieren. Bedenkt datt d'Schlësselen vertraulech sinn an nëmmen op de Server plazéiert sinn, sou datt se net fir anerer sichtbar sinn.",
     "personal_keys_title": "Perséinlech Zougang Schlësselen",
-    "personal_keys_message": "Dir kënnt d'Schlësselen fir Äre Kont hei erstellen. Notéiert datt dës Schlësselen Zougang zu Ärem Kont kréien. Erstellt a benotzt dës Schlësselen nëmmen wann Dir wësst genau wat Dir maacht."
+    "personal_keys_message": "Dir kënnt d'Schlësselen fir Äre Kont hei erstellen. Notéiert datt dës Schlësselen Zougang zu Ärem Kont kréien. Erstellt a benotzt dës Schlësselen nëmmen wann Dir wësst genau wat Dir maacht.",
+    "clients_title": "Clienten",
+    "clients_message": "Dës Schlëssele gi benotzt fir Zougang Token vun Ärem Server ze kreéieren. Bedenkt datt d'Schlësselen vertraulech sinn an nëmmen op de Server plazéiert sinn, sou datt se net fir anerer sichtbar sinn."
   },
   "user_security_control": {
     "title": "Kont Sécherheet",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Managen Profiler",
       "description": "Managen Store Profiler."
+    },
+    "shop-discount-code": {
+      "name": "Remise Code Gestioun",
+      "description": "Verwalten, änneren a füügt Store Rabattcodes derbäi."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Astellungen",
       "change": "Charge",
       "transfer": "Transfert",
-      "transactions": "Transaktiounen"
+      "transactions": "Transaktiounen",
+      "charge": "Charge",
+      "history": "Geschicht"
     },
     "transactions": {
       "title": "Kont Transaktiounen",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Abonnement Confirmatioun annuléieren",
       "message": "Sidd Dir sécher dëst Abonnement ze annuléieren?",
       "action": "Abonnement annuléieren"
-    }
+    },
+    "use_voucher_now": "Benotzt de Bong elo",
+    "validity_duration": "Validitéit Dauer",
+    "validity_duration_hint": "Andeems Dir eng 12 Méint Lizenz kaaft, kritt Dir 30% Remise."
   },
   "admin_shop_layout": {
     "download_txt": "Download daten Text",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Grouss Schrëften",
     "large_font_message": "Show Text méi grouss wéi normal",
     "samples": "Show Prouf Geschäfter",
-    "samples_message": "Wann aktivéiert, ginn e puer Proufgeschäfter an Ärem Panel ugewisen."
+    "samples_message": "Wann aktivéiert, ginn e puer Proufgeschäfter an Ärem Panel ugewisen.",
+    "automation": "Automatisatioun",
+    "automation_message": "Show Automatisatiounstab am Buttek Dashboard. (Webhooks, Visuell Programméierung, ...)"
   },
   "shop_locations": {
     "title": "Länner wou Service geliwwert gëtt",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Coupon gouf erfollegräich geläscht."
-    }
+    },
+    "multiple_use": "Multiple Benotzung"
   },
   "coupon_edit": {
     "title_edit": "Coupon änneren",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Limitéieren",
       "description": "Setzt eng Limit op déi maximal Unzuel u Benotzer."
+    },
+    "SEGMENTS": {
+      "title": "Segmenter",
+      "description": "Limitéiert Clienten a spezifescher manueller Segmentéierung."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "De Gesamtbetrag vun der Bestellung gouf vun de Kaddoskaarten ofgezunn! De Keefer brauch net méi ze bezuelen.",
       "cod_msg": "De Client bezuele beim Empfang vun der Bestellung.",
       "online_msg": "Frot de Client QR Code um Client Écran ze scannen."
-    }
+    },
+    "name": "POS",
+    "message": "Hutt Är Null-Setup Käschten online Verkafspunkt, lafen se op all Smartphone, Tablet a PC, oder erstellt Bestellungen manuell."
   },
   "exporter": {
     "title": "Daten exportéieren",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Schéckt op de Server",
     "shop_license": "Buttek Lizenz",
     "max_items_limit": "Maximum Elementer Limite",
-    "total_items": "Ganzen Artikelen"
+    "total_items": "Ganzen Artikelen",
+    "customer": {
+      "title": "Import Clienten",
+      "subtitle": "Luet CSV Dateie vu Clienten hei erop. Gitt sécher datt Dir de Standardformat befollegt, an och Dir musst Privatsphärregelen befollegen."
+    }
   },
   "campaigns": {
     "title": "Campagnen",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Linken",
     "light_checkout": "Liicht Kees Thema",
     "light_header": "Liicht header",
-    "light_footer": "Liicht Fousszeilen"
+    "light_footer": "Liicht Fousszeilen",
+    "product_page": "Produit Säit",
+    "typography": "Typographie",
+    "header": "Header",
+    "custom_code": "Benotzerdefinéiert Code",
+    "custom_css": "Benotzerdefinéiert CSS"
   },
   "app_templates": {
     "default": "Default",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Verwalte Service",
     "option_deliver_by_courier": "Optioun 1: Liwwert vun Äre Courrieren.",
     "option_add_to_que": "Optioun 2: Füügt der Schlaang fir op der Versandservice Säit ze veraarbecht.",
-    "option_instant_shipping": "Optioun 3: Direktverschécken."
+    "option_instant_shipping": "Optioun 3: Direktverschécken.",
+    "pickup_action": "Pickup Confirmatioun"
   },
   "shop_home_edit": {
     "title": "Home Page Astellung",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Produit dobäi an Äre Buttek.",
       "request_access": "Mir geschéckt Är Zougang Ufro un de Grossist erfollegräich."
-    }
+    },
+    "show_eligible_shops_message": "Show berechtegt Geschäfter"
   },
   "product_dropshipping": {
     "need_re_enable": "Dëst Produkt gouf vum urspréngleche Verkeefer geännert, dës Präisännerungen hunn de Produit an Ärem Geschäft behënnert. Iwwerpréift d'Ännerungen a wann Dir averstane sidd de Produit nei z'aktivéieren, dréckt op de Knäppchen hei ënnen.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Et gëtt keng Kategorie an Ärem Geschäft.",
       "limit": "Produkter limitéieren",
       "limit_message": "Gitt Produkter Resultat zielt",
-      "select_categories": "Wielt verfügbare Kategorien"
+      "select_categories": "Wielt verfügbare Kategorien",
+      "categories_limit": "Kategorien Limite",
+      "categories_limit_msg": "Gitt déi maximal Unzuel u Kategorien un. Set null fir keng Limite."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avocado erfollegräich aktualiséiert.",
       "add_success": "Avocado erfollegräich erstallt."
-    }
+    },
+    "name": "Avocado"
   },
   "avocado_orders": {
     "title": "Avocado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "inaktiv",
     "active_message": "Wann Dir dës Optioun aktivéiert, gëtt d'Méiglechkeet fir de Fast-Sales-Codes ze kreéieren an der Gestiounssektioun vun all Produkt ugewisen.",
     "hyper_form_link_message": "Äre Geschäft Hyper Säit Link",
-    "configuration": "Hyper Astellungen"
+    "configuration": "Hyper Astellungen",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Clienten Demographie",
     "subtitle": "Filter an exportéiert Är Clientsdaten fir besser Entscheedungen ze treffen fir méi Wäert mat manner Marketing ze liwweren! Respektéiert w.e.g. d'Privatsphär vun Äre Clienten a schéckt ni masseg E-Mailen un hinnen! Deelt d'Informatioun vun Äre Clienten ni mat Drëtt Partei Servicer ouni Erlaabnis vun all eenzelne vun hinnen ze kréien."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Pickup Adressen",
+      "subtitle": "Füügt a ännert Pickup Adressen hei. D'Benotzer kënnen d'Adress op der Keess Säit wielen.",
+      "add_action": "Füügt nei Plaz"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Affiliate POS",
+    "open_pos_action": "Schnell bestellen POS",
+    "description": "Dës Optioun ass gëeegent fir Administrateuren vun Instagram Säiten an aner sozial Netzwierker. Benotzt Affiliate POS fir Bestellunge vu Clienten manuell ze kréien an derbäi. Är Affiliate (oder Franchise) kënnen nei Bestellungen am Affiliate POS derbäisetzen an den Depositiounsrutsch eroplueden."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Login Methoden",
+      "subtitle": "Personnaliséiert d'Art a Weis wéi d'Benotzer an Ärem Geschäft aloggen."
+    },
+    "checkout": {
+      "title": "Kasse Flux",
+      "subtitle": "Personnaliséiert Är Clientsrees a Kaffloss an Ärem Ecommerce.",
+      "map": {
+        "title": "Kaart",
+        "subtitle": "D'Benotzer mussen d'Liwwerplaz op der Kaart wielen (wéi Uber).",
+        "subtitle_no_map": "Distanz an der Schëffer Berechnung betruecht null wann de Standuert existéiert net an Client geliwwert Adress."
+      },
+      "mode": {
+        "title": "Client Login Punkt",
+        "default": {
+          "title": "ASAP (Standard)",
+          "msg": "Benotzer aloggen sou séier wéi méiglech. (Méi Konversioun)"
+        },
+        "on_checkout": {
+          "title": "Op Kees",
+          "msg": "Forcéiert d'Benotzer sech beim Keess Schrëtt unzemellen."
+        },
+        "login_free": {
+          "title": "Optional Login",
+          "msg": "Optional Login no Bestellungsbezuelung .."
+        }
+      },
+      "express": {
+        "title": "Viruleedung nom Add to Cart",
+        "false": {
+          "title": "Normal Modus",
+          "msg": "Bleift op der Säit a fuert weider Akafen nodeems Dir an de Wuerekuerf klickt."
+        },
+        "true": {
+          "title": "Express Modus",
+          "msg": "Redirect de Client op d'Kasse Säit nodeems Dir op der Këscht addéieren."
+        }
+      },
+      "shipping_address": {
+        "title": "Ufro fir Versandadress"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Kierperlech & Service (Standard)",
+      "desc": "Frot de Client eng Adress an de kierperlechen a Servicekäschten anzeginn."
+    },
+    "physical": {
+      "title": "Nëmme kierperlech",
+      "desc": "Frot de Client eng Adress just an der kierperlecher Kees anzeginn."
+    },
+    "off": {
+      "title": "Ni",
+      "desc": "Frot ni fir d'Versandadress. ⚠ Benotzt dës Optioun wann Dir plangt Servicer mat Varianten ze hunn andeems Dir physesch Typ fir Produkter auswielt anstatt Servicetyp."
+    }
+  },
+  "business_model": {
+    "title": "Business Model Setup",
+    "subtitle": "Setzt Äre Geschäftsmodell a mir konfiguréieren Ären OS hannert der Szen."
+  },
+  "business_type": {
+    "title": "Zorte vu Wueren",
+    "subtitle": "Setzt d'Art vu Produkter déi Dir an Ärem Geschäft wëllt verkafen. Produit Zorte an Selldone si méi wéi nëmmen eng Zort vun de Produiten; et ass méi iwwer Erfëllungsprozedur.",
+    "send_activation_request_to_support": "Schéckt eng Aktivéierungsufro an engem Support Ticket.",
+    "require_kyc": "Geschäftsbesëtzer KYC.",
+    "needs_enterprise_license": "Dir musst eng Enterprise Lizenz hunn.",
+    "marketplace_caution_message": "Setzt Maartplaz wéi Äre Modell déif Är Business OS Konfiguratioun beaflosst. Zum Beispill musst Dir op d'mannst ee Verkeefer fir all Produkt mat onofhängege Präisser an Inventar definéieren. Clienten kënnen keng Produkter kafen déi kee Verkeefer hunn."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Normale Buttek",
+      "desc": "Normalerweis e PME, Heemgeschäft oder Dropshipper - deen hire Produkt direkt un d'Cliente verkeeft oder d'Produkter vun Grossisten als Reseller verkeeft."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Halt kee Produkt a keen Inventar - Dir bezuelt un eng Drëtt Partei, normalerweis e Grossist (wéi Printify, Wholesale2B, ...) oder Hiersteller, a si erfëllen Bestellungen hannert der Szen."
+    },
+    "wholesaler": {
+      "title": "Dropshipping Supplier",
+      "desc": "Normalerweis e Grossist oder en Hiersteller - deen Bestellungen direkt un den Endverbraucher verschéckt. Aner Händler op Selldone kënnen Är Produkter an hire Geschäfter dropshippen."
+    },
+    "marketplace": {
+      "title": "Maartplaz",
+      "desc": "Online Maartplaze verbannen Keefer a Verkeefer op enger propriétaire an zentraliséierter Plattform."
+    },
+    "franchise": {
+      "title": "Franchise / Partner",
+      "desc": "Eng Franchise ass eng Method fir Produkter oder Servicer ze verdeelen mat engem Franchisegeber deen Är Mark (Franchising) etabléiert oder Är Produkter vun hirer Mark (Affiliate) verkeeft."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Portemonnaien",
+    "pricing_models": "Präisser",
+    "add_vendor": "Füügt Verkeefer",
+    "requests": "Ufroen"
+  },
+  "price_input_type": {
+    "title": "Präis Input Typ",
+    "default": {
+      "title": "Default",
+      "desc": "Wielt e Wäert als Quantitéit am Weenchen."
+    },
+    "area": {
+      "title": "Gebiet",
+      "desc": "Gitt d'Breet an d'Längt als Input fir d'Quantitéit ze berechnen."
+    },
+    "volume": {
+      "title": "volumen",
+      "desc": "Gitt Breet, Längt an Héicht als Input fir d'Quantitéit ze berechnen."
+    },
+    "custom": {
+      "title": "Benotzerdefinéiert (Mat Input Form)",
+      "desc": "Kee Besoin fir Honnerte vu Varianten! Erstellt e personaliséierte Käschteberechnungsform fir héich personaliséierbar Produkter."
+    }
+  },
+  "vendors_list": {
+    "title": "Meng Verkeefer",
+    "message": "Lëscht vu menge eegene Verkeefer."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Connect Multiple Domainen op Äre Business OS a verwalten se all op enger Plaz. Dir kënnt d'Multiple Domain Feature benotze fir engagéiert Domainen fir all Deel vun Ärer Websäit ze kreéieren, wéi Blog a Gemeinschaft, oder benotzt verschidden Domainen fir Är Partner."
+  },
+  "notes": {
+    "add_action": "Füügt eng Notiz fir Äert Team",
+    "notifications": {
+      "success_add": "Notiz gouf erfollegräich dobäigesat.",
+      "success_delete": "Notiz gouf erfollegräich geläscht."
+    }
+  },
+  "external_services": {
+    "title": "Extern Servicer",
+    "subtitle": "Iwwerwaacht de leschte Status vun den externen Servicer wéi SMS an E-Mailen hei."
   }
 };

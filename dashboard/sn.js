@@ -155,7 +155,19 @@ export default {
       "Setup": "store",
       "Sell": "Kutengesa & Kushambadzira",
       "Developer": "Develop",
-      "Application": "Applications"
+      "Application": "Applications",
+      "Product": "Zvigadzirwa & Categories Management",
+      "Blog": "CMS & Blog",
+      "Order": "Orders Fulfillment Center",
+      "Channel": "Sales Channels",
+      "Accounting": "Accounting & Kubhadhara Nzira",
+      "Incentives": "Incentives",
+      "Marketing": "Kushambadzira & Mishandirapamwe",
+      "Logistic": "Logistic & Shipping",
+      "Customers": "Customers Club & Segmentation",
+      "Page": "Kudzika & Tsika Mapeji",
+      "Access": "Vashandi / API Access Management",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github Repository",
@@ -193,7 +205,9 @@ export default {
       "stores": "Zvitoro",
       "roles": "Mabasa",
       "home": "Kumba",
-      "expert": "Nyanzvi"
+      "expert": "Nyanzvi",
+      "deals": "Zvibvumirano",
+      "providers": "Providers"
     },
     "shops": {
       "create_new": "Gadzira chitoro chitsva",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Status",
           "created_at": "Zuva reKusika",
           "updated_at": "Last update"
-        }
+        },
+        "subtitle": "Nyora zvinyorwa neinline edhita yemazuva ano kuti uzviratidze iwe nebhizinesi rako. Zvekutanga zvemukati ndicho chinhu chekutanga chaunofanirwa kutarisa pachiri kana uchinyora yemhando yepamusoro SEO-inoshamwaridzika blog post."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Report",
         "tax": "Mutero",
         "drop_shipping": "Reseller risiti",
-        "reseller_accounts": "Reseller maakaundi"
+        "reseller_accounts": "Reseller maakaundi",
+        "valuations": "Valuations"
       },
       "invoice": {
         "title": "Shop Linked Wallets",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Shipping",
         "inventory": "Inventory",
         "warehouse": "Warehouse",
-        "logistic_apps": "Logistics"
+        "logistic_apps": "Logistics",
+        "profiles": "Profiles"
       },
       "warehouse": {
         "title": "Store Warehouse",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Mari shoma yekuodha yekutumira mahara",
           "notifications": {
             "update_success": "Zvirongwa zvebasa rekutumira zvakapedzwa zvinobudirira."
-          }
+          },
+          "shipping_cost_calculation": "Kuverenga mutengo wekutumira",
+          "sod_true": "Wana mari yekutumira paunosvika",
+          "sod_true_message": "Ita shuwa kuti sevhisi yako yekutumira inotambira mutengo wekutumira pane kwaunoenda.",
+          "sod_false": "Kuverenga mutengo wekutumira otomatiki",
+          "cod_true": "Bvuma mari pakutumira",
+          "cod_false": "Bvuma kubhadhara pamhepo chete",
+          "cod_true_message": "Ita shuwa kuti sevhisi yako yekutumira inogamuchira COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "Sms",
         "email": "Email",
         "domain": "Domain",
-        "verifications": "Verifications"
+        "verifications": "Verifications",
+        "flow": "Flow",
+        "business_model": "Business Model"
       },
       "delete_dialog": {
         "title": "Delete Store",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Product unit",
       "unit_float": "Float unit (nenguva pfupi)",
       "unit_float_hint": "Semuenzaniso, mutengi anogona kuodha 3 kg yemuchero, asi mari inotumirwa kune mutengi inosiyana zvishoma kubva kumari yakarairwa.",
-      "unit_float_message": "Panguva yekugadzirisa kurongeka, mari yakaunzwa inogona kusiyana nemari yakarongedzerwa. Iyo sisitimu inoverengera mutsauko uyu uye inorekodha sechikwereti chako kumutengi, iyo inogona kuiswa kune inotevera mirairo."
+      "unit_float_message": "Panguva yekugadzirisa kurongeka, mari yakaunzwa inogona kusiyana nemari yakarongedzerwa. Iyo sisitimu inoverengera mutsauko uyu uye inorekodha sechikwereti chako kumutengi, iyo inogona kuiswa kune inotevera mirairo.",
+      "status_list": {
+        "active": {
+          "title": "Active | Online & Offline Sales",
+          "description": "Ichi chigadzirwa chichave chiripo kune maodha epamhepo."
+        },
+        "inactive": {
+          "title": "Inactive | Chete Offline Sales",
+          "description": "Ichi chigadzirwa hachizovepo kune maodha epamhepo."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Survey",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Sarudza nguva yekupedzisira",
       "independent_price": "Mutengo chete wekusiyana uku",
       "same_price": "Mutengo wechigadzirwa chikuru",
-      "variant_pricing_message": "Nekusarudza iyi sarudzo, mutengo wekusiyana uku unogona kuiswa wakazvimirira wechigadzirwa chikuru."
+      "variant_pricing_message": "Nekusarudza iyi sarudzo, mutengo wekusiyana uku unogona kuiswa wakazvimirira wechigadzirwa chikuru.",
+      "price_label_input": "Price label",
+      "price_label_message": "Wedzera rumwe ruzivo nezve mutengo se( $1.5/Fl Oz). Shandisa makesi: grocery, FMCG.",
+      "add_price_label_action": "Wedzera label yemutengo"
     },
     "inputs_edit": {
       "title": "Input Form yeMutengi Ruzivo",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gateway {gateway_name} yakagadziridzwa."
     },
-    "developer_setting": "Gadzira & Muedzo"
+    "developer_setting": "Gadzira & Muedzo",
+    "live_mode_message": "Zvese zvekutengesa zvichange zviri mu live mode."
   },
   "gift_card": {
     "title": "Zvipo Makadhi",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Kero yekubhadharisa inopepetwa nemutengi.",
     "payment-cod-confirm": "COD Payment yakasimbiswa.",
     "payment-cash-confirm": "Kubhadharwa kwe {amount} {currency} mumari yebhiri yakasimbiswa.",
-    "payment-dir-confirm": "Risiti yekubhadhara yakananga yakasimbiswa."
+    "payment-dir-confirm": "Risiti yekubhadhara yakananga yakasimbiswa.",
+    "vendor": "Vendor order state yachinja kubva <b>{kubva}</b> kuenda ku <b>{}</b> .",
+    "connect-sync": "Order yawiriraniswa neConnect OS.",
+    "connect-shipped": "Connect order yatumirwa ne{shipping}.",
+    "connect-returned": "Connect order yadzoswa ne{shipping}.",
+    "connect-failed": "Kuzadzikiswa kwehurongwa kwakundikana nemubatsiri. {reason}",
+    "connect-canceled": "Kurongeka kwakadzimwa nemumwe. {reason}",
+    "connect-action-cancel": "Chikumbiro chekukanzura odha. {reason}",
+    "connect-put-hold": "Order yakabva yamiswa. {reason}",
+    "connect-remove-hold": "Order yakabviswa pakubata. {reason}",
+    "connect-confirmed": "Kurongeka kwakasimbiswa.",
+    "email-vendor": "🔔 Odha yekuzivisa email yatumirwa kuna <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Nhasi",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Kuita mari",
     "menu": {
       "plans": "Zvirongwa",
-      "accounts": "Accounts"
+      "accounts": "Accounts",
+      "participant": "Mutori wechikamu"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Chengetedza Makiyi Ekupinda",
     "shop_keys_message": "Aya makiyi anoshandiswa kugadzira Access Token neserver yako. Ziva kuti makiyi akavanzika uye anongoiswa pane server kuitira kuti asaonekwe kune vamwe.",
     "personal_keys_title": "Personal Access Keys",
-    "personal_keys_message": "Unogona kugadzira makiyi eakaundi yako pano. Ziva kuti makiyi aya achakwanisa kuwana account yako. Gadzira uye shandisa makiyi aya chete kana iwe uchiziva chaizvo zvauri kuita."
+    "personal_keys_message": "Unogona kugadzira makiyi eakaundi yako pano. Ziva kuti makiyi aya achakwanisa kuwana account yako. Gadzira uye shandisa makiyi aya chete kana iwe uchiziva chaizvo zvauri kuita.",
+    "clients_title": "Clients",
+    "clients_message": "Aya makiyi anoshandiswa kugadzira Access Token neserver yako. Ziva kuti makiyi akavanzika uye anongoiswa pane server kuitira kuti asaonekwe kune vamwe."
   },
   "user_security_control": {
     "title": "Account Security",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Manage profiles",
       "description": "Ronga nhoroondo dzechitoro."
+    },
+    "shop-discount-code": {
+      "name": "Discount code management",
+      "description": "Tonga, gadzirisa uye wedzera makodhi emakodhi ezvitoro."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Settings",
       "change": "Charge",
       "transfer": "Transfer",
-      "transactions": "Transactions"
+      "transactions": "Transactions",
+      "charge": "Charge",
+      "history": "Nhoroondo"
     },
     "transactions": {
       "title": "Account Transactions",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Kanzura chibvumirano chekunyoreswa",
       "message": "Une chokwadi chekukanzura kunyoresa uku?",
       "action": "Kanzura kunyoresa"
-    }
+    },
+    "use_voucher_now": "Shandisa voucher izvozvi",
+    "validity_duration": "Validity duration",
+    "validity_duration_hint": "Nekutenga rezinesi remwedzi gumi nemiviri, unogashira 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Dhaunirodha data zvinyorwa",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Mafonti makuru",
     "large_font_message": "Ratidza mavara akakura kupfuura akajairwa",
     "samples": "Ratidza zvitoro zvemuenzaniso",
-    "samples_message": "Kana ikagoneswa, mamwe mashops emuenzaniso acharatidzwa pane yako."
+    "samples_message": "Kana ikagoneswa, mamwe mashops emuenzaniso acharatidzwa pane yako.",
+    "automation": "Automation",
+    "automation_message": "Ratidza otomatiki tab pane shop dashboard. (Webhooks, Visual programming, ...)"
   },
   "shop_locations": {
     "title": "Nyika dzinopihwa masevhisi",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kuponi yadzimwa zvakanaka."
-    }
+    },
+    "multiple_use": "Kushandisa kwakawanda"
   },
   "coupon_edit": {
     "title_edit": "Edit coupon",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Limit",
       "description": "Isa muganhu pahuwandu hwehuwandu hwevashandisi."
+    },
+    "SEGMENTS": {
+      "title": "Segments",
+      "description": "Deredzai vatengi mune chaiyo dhizaini segmentation."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Mari yeodha yese yakabviswa pamakadhi echipo! Mutengi haafanire kubhadhara yakawanda.",
       "cod_msg": "Mutengi achabhadhara paanogamuchira odha.",
       "online_msg": "Kumbira mutengi kuti atarise QR kodhi pane yevatengi skrini."
-    }
+    },
+    "name": "POS",
+    "message": "Iva ne zero-setup yako yepamhepo poindi yekutengesa, imhanye pane chero smartphone, piritsi, uye PC, kana gadzira maodha nemaoko."
   },
   "exporter": {
     "title": "Export data",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Tumira kune server",
     "shop_license": "Rezinesi rechitoro",
     "max_items_limit": "Maximum zvinhu zvinogumira",
-    "total_items": "Zvose zvinhu"
+    "total_items": "Zvose zvinhu",
+    "customer": {
+      "title": "Import vatengi",
+      "subtitle": "Isa mafaira eCSV evatengi pano. Ita shuwa kuti unotevera iyo yakajairwa fomati, uye zvakare, iwe unofanirwa kutevedzera zvakavanzika mitemo."
+    }
   },
   "campaigns": {
     "title": "Mishandirapamwe",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Links",
     "light_checkout": "Chiedza chekubhadhara dingindira",
     "light_header": "Musoro wakajeka",
-    "light_footer": "Light footer"
+    "light_footer": "Light footer",
+    "product_page": "Product Peji",
+    "typography": "Typography",
+    "header": "Header",
+    "custom_code": "Custom code",
+    "custom_css": "Custom CSS"
   },
   "app_templates": {
     "default": "Default",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Manage service",
     "option_deliver_by_courier": "Sarudzo 1: Huver nevatakuri vako.",
     "option_add_to_que": "Sarudzo 2: Wedzera kumutsara kugadzirisa pane kutumira sevhisi peji.",
-    "option_instant_shipping": "Sarudzo 3: Instant shipping."
+    "option_instant_shipping": "Sarudzo 3: Instant shipping.",
+    "pickup_action": "Pickup simbiso"
   },
   "shop_home_edit": {
     "title": "Kugadzirisa peji reimba",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Chigadzirwa chakawedzerwa kuchitoro chako.",
       "request_access": "Takatumira chikumbiro chako chekuwana kumutengesi zvakanaka."
-    }
+    },
+    "show_eligible_shops_message": "Ratidza zvitoro zvakakodzera"
   },
   "product_dropshipping": {
     "need_re_enable": "Ichi chigadzirwa chakashandurwa nemutengesi wekutanga, shanduko dzemitengo idzi dzadzima chigadzirwa muchitoro chako. Tarisa shanduko uye kana ukabvuma kumisa chigadzirwa, tinya bhatani riri pazasi.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Hapana chikamu muchitoro chako.",
       "limit": "Products limit",
       "limit_message": "Isa zviwanikwa zvechigadzirwa",
-      "select_categories": "Sarudza zvikamu zviripo"
+      "select_categories": "Sarudza zvikamu zviripo",
+      "categories_limit": "Categories limit",
+      "categories_limit_msg": "Isa huwandu hwehuwandu hwezvikamu. Seta zero pasina muganhu."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avocado yakagadziridzwa.",
       "add_success": "Avocado yakagadzirwa zvinobudirira."
-    }
+    },
+    "name": "Avocado"
   },
   "avocado_orders": {
     "title": "Avocado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "kusashanda",
     "active_message": "Kana iwe ukagonesa iyi sarudzo, mukana wekugadzira iyo Fast-Sales-Codes icharatidzwa muchikamu chekutonga chechigadzirwa chimwe nechimwe.",
     "hyper_form_link_message": "Chitoro chako che hyper peji link",
-    "configuration": "Hyper Settings"
+    "configuration": "Hyper Settings",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Customers Demography",
     "subtitle": "Sefa uye tumira kunze kwevatengi vako data kuita zvirinani sarudzo kuendesa kwakawanda kukosha nekushambadzira kushoma! Ndokumbira uremekedze kuvanzika kwevatengi vako uye usambofa wakatumira maemail akawanda kwavari! Usambofa wakagovera ruzivo rwevatengi vako nevechitatu-bato masevhisi pasina kuwana mvumo kubva kune yega yega."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Kero dzekutora",
+      "subtitle": "Wedzera uye gadzirisa kero dzekutora pano. Vashandisi vachakwanisa kusarudza kero yekutora pane peji rekubuda.",
+      "add_action": "Wedzera nzvimbo itsva"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Affiliate POS",
+    "open_pos_action": "Kurumidza kuodha POS",
+    "description": "Iyi sarudzo yakakodzera kune admins emapeji e Instagram uye mamwe masocial network. Shandisa Affiliate POS kugamuchira uye kuwedzera maodha kubva kune vatengi nemaoko. Vako vanobatana (kana franchise) vanogona kuwedzera maodha matsva muYakabatana POS uye kurodha dhipoziti slip."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Login nzira",
+      "subtitle": "Gadzirisa nzira iyo vashandisi vanopinda nayo muchitoro chako."
+    },
+    "checkout": {
+      "title": "Checkout flow",
+      "subtitle": "Gadzirisa rwendo rwako rwevatengi uye kuyerera kwekutenga mune yako ecommerce.",
+      "map": {
+        "title": "Map",
+        "subtitle": "Vashandisi vanofanira kusarudza nzvimbo yekutumira pamepu (seUber).",
+        "subtitle_no_map": "Chinhambwe mukuverenga chekutumira chinotarisa zero kana iyo nzvimbo isipo mutengi akapihwa kero."
+      },
+      "mode": {
+        "title": "Vatengi login nzvimbo",
+        "default": {
+          "title": "ASAP (Default)",
+          "msg": "Vashandisi vanopinda nekukurumidza sezvinobvira. (Kumwe kutendeuka)"
+        },
+        "on_checkout": {
+          "title": "Pakubuda",
+          "msg": "Manikidza vashandisi kupinda padanho rekubuda."
+        },
+        "login_free": {
+          "title": "Optional login",
+          "msg": "Optional login mushure mekubhadhara odha.."
+        }
+      },
+      "express": {
+        "title": "Dzorerazve mushure mekuwedzera kungoro",
+        "false": {
+          "title": "Normal mode",
+          "msg": "Ramba uri papeji uye enderera mberi nekutenga mushure mekudzvanya wedzera kungoro."
+        },
+        "true": {
+          "title": "Express mode",
+          "msg": "Tumira mutengi kune peji rekubhadhara mushure mekudzvanya wedzera kungoro."
+        }
+      },
+      "shipping_address": {
+        "title": "Kumbira kero yekutumira"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Zvenyama & Sevhisi (Default)",
+      "desc": "Kumbira mutengi kuti aise kero mune yemuviri uye sevhisi yekubhadhara."
+    },
+    "physical": {
+      "title": "Zvenyama Chete",
+      "desc": "Kumbira mutengi kuti aise kero panguva yekubhadhara."
+    },
+    "off": {
+      "title": "Never",
+      "desc": "Usambofa wakabvunza kero yekutumira. ⚠ Shandisa iyi sarudzo kana ukaronga kuve nemasevhisi ane akasiyana nekusarudza mhando yemhando yezvigadzirwa panzvimbo yerudzi rwesevhisi."
+    }
+  },
+  "business_model": {
+    "title": "Bhizinesi modhi setup",
+    "subtitle": "Seta bhizinesi rako modhi, uye isu tichagadzirisa yako OS kuseri kwechiitiko."
+  },
+  "business_type": {
+    "title": "Merchandise marudzi",
+    "subtitle": "Seta mhando yezvigadzirwa zvaunoda kutengesa muchitoro chako. Zvigadzirwa zvemhando muSelldone zvinopfuura kungori rudzi rwezvigadzirwa; zviri zvakawanda pamusoro kuzadzikiswa maitiro.",
+    "send_activation_request_to_support": "Tumira chikumbiro chekusimudzira mutikiti rekutsigira.",
+    "require_kyc": "Muridzi webhizinesi KYC.",
+    "needs_enterprise_license": "Iwe unofanirwa kuve uine Enterprise rezinesi.",
+    "marketplace_caution_message": "Seta Musika semuenzaniso wako unobata zvakanyanya bhizinesi rako OS kumisikidzwa. Semuenzaniso, iwe unofanirwa kutsanangura angangoita mutengesi mumwe chete kune chimwe nechimwe chigadzirwa chine yakazvimirira mitengo uye hesiti. Vatengi havagone kutenga zvigadzirwa zvisina mutengesi."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Normal Store",
+      "desc": "Kazhinji SME, bhizinesi repamba, kana dropshipper - anotengesa chigadzirwa chavo zvakananga kune vatengi kana kutengesa zvigadzirwa zvevatengesi semutengesi."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Chengetedza hapana chigadzirwa uye pasina hesiti - iwe unobhadhara kune wechitatu bato, kazhinji mutengesi (sePrintify, Wholesale2B, ...) kana mugadziri, uye vanozadzisa maodha kuseri kwechiitiko."
+    },
+    "wholesaler": {
+      "title": "Dropshipping Supplier",
+      "desc": "Kazhinji mutengesi kana mugadziri - anotumira maodha zvakananga kumutengi wekupedzisira. Vamwe vatengesi paSelldone vanogona kudonhedza zvigadzirwa zvako muzvitoro zvavo."
+    },
+    "marketplace": {
+      "title": "Marketplace",
+      "desc": "Misika yepamhepo inobatanidza vatengi nevatengesi pane yevaridzi uye yepakati chikuva."
+    },
+    "franchise": {
+      "title": "Franchise / Affiliate",
+      "desc": "Franchise inzira yekugovera zvigadzirwa kana masevhisi anosanganisira franchisor anomisikidza brand yako (Franchising) kana kutengesa zvigadzirwa zvako nemhando yavo (Affiliate)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Wallets",
+    "pricing_models": "Pricing",
+    "add_vendor": "Wedzera mutengesi",
+    "requests": "Zvikumbiro"
+  },
+  "price_input_type": {
+    "title": "Mutengo wekuisa mhando",
+    "default": {
+      "title": "Default",
+      "desc": "Sarudza kukosha sehuwandu huri mungoro."
+    },
+    "area": {
+      "title": "Area",
+      "desc": "Pinda hupamhi nehurefu semapindiro ekuverenga huwandu."
+    },
+    "volume": {
+      "title": "volume",
+      "desc": "Pinda hupamhi, hurefu, uye urefu sezvipimo kuti uverenge huwandu."
+    },
+    "custom": {
+      "title": "Tsika (Nekupinza fomu)",
+      "desc": "Hapana kudiwa kwemazana akasiyana! Gadzira fomu rekuverenga mutengo wetsika kune zvigadzirwa zvinogoneka."
+    }
+  },
+  "vendors_list": {
+    "title": "Vatengesi vangu",
+    "message": "Rondedzero yevatengesi vangu."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Batanidza akawanda madomasi kune rako bhizinesi OS uye tonga ese munzvimbo imwechete. Iwe unogona kushandisa akawanda madomasi maficha kugadzira akatsaurirwa madomasi kune yega yega webhusaiti webhusaiti yako, senge blog uye nharaunda, kana kushandisa akasiyana madomasi kune vako vanobatana."
+  },
+  "notes": {
+    "add_action": "Wedzera chinyorwa chechikwata chako",
+    "notifications": {
+      "success_add": "Mucherechedzo wawedzerwa zvinobudirira.",
+      "success_delete": "Tsamba yakadzimwa zvakanaka."
+    }
+  },
+  "external_services": {
+    "title": "Mabasa ekunze",
+    "subtitle": "Tarisa mamiriro ekupedzisira emasevhisi ekunze seSMS uye maemail pano."
   }
 };

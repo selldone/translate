@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Produtos relacionados",
     "price": "Prezo",
     "rate": "Valora",
-    "comment": "Comenta"
+    "comment": "Comenta",
+    "warranty": "Garantía",
+    "return_policy": "Política de devolucións",
+    "guide": "Guía",
+    "shipping": "Envío"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "O teu pedido realizouse correctamente.",
       "delete_success": "Elemento eliminado."
-    }
+    },
+    "select_address_message": "Introduza o seu enderezo e, a continuación, pode enviar o pedido."
   },
   "hyper": {
     "title": "Creación de pedidos",
@@ -541,5 +546,19 @@ export default {
       "message": "Especificou un cargo por este artigo. Pode cambiar o importe do cargo para o artigo adquirido polo cliente.",
       "charge": "Cargar"
     }
+  },
+  "check_access": {
+    "waiting_message": "Agardando para comprobar o acceso...",
+    "no_access_message": "Desafortunadamente, non tes acceso á nosa tenda.<br/> Póñase en contacto connosco."
+  },
+  "share_order": {
+    "action": "Compartir pedido",
+    "title": "Comparte este pedido con outros.",
+    "message": "É unha ligazón segura, só compártea con aqueles que coñeces. Todos os que teñan esta ligazón poden duplicar o teu pedido e ver o enderezo seleccionado. Conterá información sobre o teu carro actual.",
+    "valid_period": "Esta ligazón caducará despois de 48 horas.",
+    "import_order_action": "Pedido de importación",
+    "retrieve_dialog_title": "Recuperar orde externa",
+    "address_included": "Compartir artigos da cesta + Enderezo",
+    "address_excluded": "Comparte só os artigos da cesta"
   }
 };

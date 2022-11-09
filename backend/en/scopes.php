@@ -48,9 +48,21 @@ return [
     AuthServiceProvider::SCOPE_SHOP_OFFER => 'Manage offers.',
     AuthServiceProvider::SCOPE_SHOP_LOTTERY => 'Manage lotteries.',
     AuthServiceProvider::SCOPE_SHOP_COMMUNITY => 'Manage community.',
+    AuthServiceProvider::SCOPE_SHOP_CUSTOMERS => 'Manage customers.',
 
 
 
+
+    AuthServiceProvider::SCOPE_COMMUNITY_READ => 'Read Selldone community.',
+    AuthServiceProvider::SCOPE_COMMUNITY_WRITE => 'Write selldone community.',
+
+    AuthServiceProvider::SCOPE_PROFILE_WRITE => 'Write user profile information.',
+
+    AuthServiceProvider::SCOPE_VENDOR_READ => 'Access to fulfillment actions of vendor orders.',
+    AuthServiceProvider::SCOPE_VENDOR_WRITE => 'Read orders,payment and other information of the vendor.',
+
+
+    AuthServiceProvider::SCOPE_CONNECT_PROVIDERS => 'Add, read and write connect providers.',
 
 
 ];

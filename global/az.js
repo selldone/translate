@@ -558,7 +558,52 @@ export default {
     "merchant": "tacir",
     "per_product": "Məhsul başına",
     "journey": "Səyahət",
-    "after": "sonra"
+    "after": "sonra",
+    "waiting_for_payment": "Zəhmət olmasa ödənişi tamamlayın...",
+    "hour": "Saat",
+    "minute": "Dəqiqə",
+    "premium": "Premium",
+    "light": "İşıq",
+    "dark": "Qaranlıq",
+    "guest": "Qonaq",
+    "shops": "Mağazalar",
+    "vendor": "Satıcı",
+    "vendors": "Satıcılar",
+    "marketplace": "Bazar yeri",
+    "verify_date": "Tarixi təsdiqləyin",
+    "note": "Qeyd",
+    "panel": "Panel",
+    "removed": "Silindi",
+    "segments": "Seqmentlər",
+    "personal_info": "Şəxsi məlumat",
+    "preferences": "Üstünlüklər",
+    "spec": "Xüsusi",
+    "reviews": "Rəylər",
+    "constraints": "Məhdudiyyətlər",
+    "flexible": "Çevik",
+    "usage_limit": "İstifadə limiti",
+    "temporary": "Müvəqqəti",
+    "original": "Orijinal",
+    "saved": "Saxlandı!",
+    "sort": "Növ",
+    "documents": "Sənədlər",
+    "document": "Sənəd",
+    "please_wait": "Zəhmət olmasa, gözləyin...",
+    "pickup": "Götürmə",
+    "customize": "özəlləşdirmək",
+    "difficulty": "Çətinlik",
+    "banned": "Qadağan edilib",
+    "company": "Şirkət",
+    "tax_shipping": "Göndərmə Vergisi",
+    "warranty": "Zəmanət",
+    "return_policy": "Qaytarma Siyasəti",
+    "guide": "Bələdçi",
+    "translate": "Tərcümə etmək",
+    "public": "İctimai",
+    "deleted": "Silindi",
+    "variant": "Variant",
+    "secure": "Təhlükəsiz",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Track",
     "change_state": "Statusunu dəyişdirin",
     "done": "Bitdi",
-    "reply": "Cavab verin"
+    "reply": "Cavab verin",
+    "watch_now": "İndi baxın",
+    "unlock": "Kilidi aç",
+    "lock": "Bağlamaq",
+    "create_clone": "Klon yaradın",
+    "regenerate": "Yenidən canlandırmaq",
+    "add_message": "Mesaj əlavə edin",
+    "continue_chat": "Söhbətə davam edin",
+    "add_new_message": "Yeni mesaj əlavə edin"
   },
   "instance_message_title": "Ani mesaj göndərin",
   "instance_message": "Salam {name}, mənim adım {company} şirkətindən {author}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Poçt indeksi",
     "enter_value": "Bura doldurun",
     "address_note": "Qeyd",
-    "tel": "Əlaqə nömrəsi"
+    "tel": "Əlaqə nömrəsi",
+    "service_address": "Ünvanınızı seçin"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "funt sterlinq",
     "kvart",
     "meydançalar",
-    "otaq"
+    "otaq",
+    "saniyə",
+    "dəqiqə",
+    "saat",
+    "günlər",
+    "həftələr",
+    "ay",
+    "illər"
   ],
   "region_types": {
     "State": "dövlət",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Minimum uzunluq {length} olmalıdır",
     "invalid_min_array_length": "Ən azı {length} element seçin",
     "invalid_max_chars": "Maksimum {maxCount} simvol",
-    "invalid_url": "Yanlış URL"
+    "invalid_url": "Yanlış URL",
+    "country_invalid": "Təyinat ölkəsini seçin!",
+    "postal_code_invalid": "Etibarlı poçt kodu təyin edin!"
   },
   "colors": {
     "#D32F2F": "Qırmızı",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Ağ",
     "#FFF": "Ağ",
     "#000000": "Qara",
-    "#000": "Qara"
+    "#000": "Qara",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Qızıl",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Ordu",
+    "#474747": "Asfalt",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Yanmış Portağal",
+    "#80011F": "kardinal",
+    "#382829": "şokolad",
+    "#F06336": "Mərcan",
+    "#FAE7C9": "Krem",
+    "#6B2257": "qarağat",
+    "#222127": "Tünd Boz",
+    "#0D5A74": "Dərin Mavi",
+    "#00582F": "Həmişəyaşıl",
+    "#214C30": "Meşə",
+    "#DC2867": "fuşya",
+    "#38561": "Kelly",
+    "#5C884D": "yarpaq",
+    "#558450": "Light Aqua",
+    "#96B5C9": "Açıq mavi",
+    "#DCAFCE": "yasəmən",
+    "#D3E1A4": "Əhəng",
+    "#9DE7C2": "nanə",
+    "#F6EAD2": "Təbii",
+    "#1A1F35": "Dəniz",
+    "#404624": "Zeytun",
+    "#271020": "gavalı",
+    "#A8355C": "moruq",
+    "#D6BEA6": "Yumşaq krem",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Mavi",
+    "#A86EA9": "Bənövşə",
+    "#36454F": "Kömür",
+    "#b3b0ab": "karbon boz",
+    "#463e3d": "Kömür Heather",
+    "#282d3c": "Dəniz Blazer"
   },
   "address_info": {
     "name": "ad",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Bina nömrəsi",
     "building_unit": "Vahid",
     "postcode": "Poçt indeksi",
-    "note": "Qeyd"
+    "note": "Qeyd",
+    "county": "Rayon"
   },
   "product_types": {
     "physical": "Fiziki",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Rəng",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Sadə",
       "selective": "Seçici",
-      "switch": "Keçid"
-    }
+      "switch": "Keçid",
+      "file": "Fayl",
+      "number": "Nömrə"
+    },
+    "placeholder_input": "Yer tutucu",
+    "file_type_input": "Qəbul edilə bilən fayl növləri",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Məhsulun adı",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Mobil telefonunuzu daxil edin",
     "verification_code": "Yoxlama kodu",
     "msg_title": "salam,",
-    "msg_body": "Zəhmət olmasa daxil olun. Cəmi bir neçə saniyə çəkir."
+    "msg_body": "Zəhmət olmasa daxil olun. Cəmi bir neçə saniyə çəkir.",
+    "login_apple": "Apple ilə daxil olun"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Teqlər əlavə edildi"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Çox mürəkkəb",
+    "hard": "Çətin",
+    "intermediate": "Aralıq",
+    "easy": "Asan"
   }
 };

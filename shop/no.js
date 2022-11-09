@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Relaterte produkter",
     "price": "Pris",
     "rate": "Vurdere",
-    "comment": "Kommentar"
+    "comment": "Kommentar",
+    "warranty": "Garanti",
+    "return_policy": "Returpolicy",
+    "guide": "Guide",
+    "shipping": "Shipping"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Bestillingen din ble plassert.",
       "delete_success": "Element slettet."
-    }
+    },
+    "select_address_message": "Vennligst skriv inn adressen din, og deretter kan du sende inn bestillingen."
   },
   "hyper": {
     "title": "Ordreoppretting",
@@ -541,5 +546,19 @@ export default {
       "message": "Du har spesifisert en kostnad for denne varen. Du kan endre belastningsbeløpet for varen kjøpt av kunden.",
       "charge": "Lade"
     }
+  },
+  "check_access": {
+    "waiting_message": "Venter på å sjekke tilgang...",
+    "no_access_message": "Du har dessverre ikke tilgang til butikken vår.<br/> Værsåsnill kontakt oss."
+  },
+  "share_order": {
+    "action": "Del ordre",
+    "title": "Del denne bestillingen med andre.",
+    "message": "Det er en sikker lenke, bare del den med de du kjenner. Alle med denne lenken kan duplisere bestillingen din og se den valgte adressen. Den vil inneholde informasjon om din nåværende handlekurv.",
+    "valid_period": "Denne lenken vil utløpe etter 48 timer.",
+    "import_order_action": "Importbestilling",
+    "retrieve_dialog_title": "Hent ekstern ordre",
+    "address_included": "Del handlekurv + adresse",
+    "address_excluded": "Del kun kurvvarer"
   }
 };

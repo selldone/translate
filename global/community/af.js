@@ -65,7 +65,9 @@ export default {
     "my_feed": "Ek",
     "blocked_message": "Jy is geblokkeer tot",
     "reported": "Gerapporteer",
-    "report": "Rapporteer"
+    "report": "Rapporteer",
+    "post": "Post",
+    "attach_file": "Heg leër aan"
   },
   "invite_message": "{user} het jou na die forum {community} genooi. Klik op die skakel hieronder om jou vriende se waarnemings te lees en jou mening met hulle te deel. Ek wag vir jou.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Verwyder meningspeiling",
     "take_screenshot": "Neem as bedekking",
     "take_link_msg": "Vorige skakel hier en skryf in",
-    "eligible_title": "Stappe om te kwalifiseer om te plaas"
+    "eligible_title": "Stappe om te kwalifiseer om te plaas",
+    "public": "Publiek"
   },
   "tips": {
     "verify_email": "Tik en verifieer jou e-pos.",

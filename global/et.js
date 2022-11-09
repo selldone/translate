@@ -558,7 +558,52 @@ export default {
     "merchant": "Kaupmees",
     "per_product": "Toote kohta",
     "journey": "Teekond",
-    "after": "Pärast"
+    "after": "Pärast",
+    "waiting_for_payment": "Palun viige makse lõpule...",
+    "hour": "Tund",
+    "minute": "Minut",
+    "premium": "Premium",
+    "light": "Valgus",
+    "dark": "Tume",
+    "guest": "Külaline",
+    "shops": "Kauplused",
+    "vendor": "Müüja",
+    "vendors": "Müüjad",
+    "marketplace": "Turg",
+    "verify_date": "Kinnitage kuupäev",
+    "note": "Märge",
+    "panel": "Paneel",
+    "removed": "Eemaldatud",
+    "segments": "Segmendid",
+    "personal_info": "Personaalne informatsioon",
+    "preferences": "Eelistused",
+    "spec": "Spec",
+    "reviews": "Arvustused",
+    "constraints": "Piirangud",
+    "flexible": "Paindlik",
+    "usage_limit": "Kasutuspiirang",
+    "temporary": "Ajutine",
+    "original": "Originaal",
+    "saved": "Salvestatud!",
+    "sort": "Sorteeri",
+    "documents": "Dokumendid",
+    "document": "Dokument",
+    "please_wait": "Palun oota...",
+    "pickup": "Korja üles",
+    "customize": "kohandada",
+    "difficulty": "Raskus",
+    "banned": "Keelatud",
+    "company": "Ettevõte",
+    "tax_shipping": "Saatmismaks",
+    "warranty": "Garantii",
+    "return_policy": "Tagastusreeglid",
+    "guide": "Giid",
+    "translate": "Tõlgi",
+    "public": "Avalik",
+    "deleted": "Kustutatud",
+    "variant": "Variant",
+    "secure": "Turvaline",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Rada",
     "change_state": "Muuda olekut",
     "done": "Valmis",
-    "reply": "Vasta"
+    "reply": "Vasta",
+    "watch_now": "Vaata nüüd",
+    "unlock": "Avage lukustus",
+    "lock": "Lukk",
+    "create_clone": "Loo kloon",
+    "regenerate": "Regenereerida",
+    "add_message": "Lisa sõnum",
+    "continue_chat": "Jätkake vestlust",
+    "add_new_message": "Lisa uus sõnum"
   },
   "instance_message_title": "Saatke kiirsõnum",
   "instance_message": "Tere, {name}! Minu nimi on {author} ettevõttest {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Postiindeks",
     "enter_value": "Täida siia",
     "address_note": "Märge",
-    "tel": "Kontaktnumber"
+    "tel": "Kontaktnumber",
+    "service_address": "Valige oma aadress"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "naela",
     "kvarti",
     "jardid",
-    "tuba"
+    "tuba",
+    "sekundit",
+    "minutit",
+    "tundi",
+    "päevadel",
+    "nädalaid",
+    "kuud",
+    "aastat"
   ],
   "region_types": {
     "State": "osariik",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Minimaalne pikkus peab olema {length}",
     "invalid_min_array_length": "Valige vähemalt {length} üksust",
     "invalid_max_chars": "Max {maxCount} tähemärki",
-    "invalid_url": "vigane URL"
+    "invalid_url": "vigane URL",
+    "country_invalid": "Vali sihtriik!",
+    "postal_code_invalid": "Määra kehtiv sihtnumber!"
   },
   "colors": {
     "#D32F2F": "Punane",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Valge",
     "#FFF": "Valge",
     "#000000": "Must",
-    "#000": "Must"
+    "#000": "Must",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Kuldne",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Armee",
+    "#474747": "Asfalt",
+    "#E6195C": "Berry",
+    "#B2184C": "Marjakolmik",
+    "#FC7F5F": "Põletatud apelsin",
+    "#80011F": "kardinal",
+    "#382829": "Šokolaad",
+    "#F06336": "Korallid",
+    "#FAE7C9": "Kreem",
+    "#6B2257": "sõstar",
+    "#222127": "Tumehall",
+    "#0D5A74": "Sügav sinine",
+    "#00582F": "Igihaljas",
+    "#214C30": "Mets",
+    "#DC2867": "Fuksia",
+    "#38561": "Kelly",
+    "#5C884D": "Leht",
+    "#558450": "Hele vesi",
+    "#96B5C9": "Helesinine",
+    "#DCAFCE": "Lilla",
+    "#D3E1A4": "Laim",
+    "#9DE7C2": "Mint",
+    "#F6EAD2": "Loomulik",
+    "#1A1F35": "Merevägi",
+    "#404624": "Oliiv",
+    "#271020": "Ploom",
+    "#A8355C": "Vaarikas",
+    "#D6BEA6": "Pehme kreem",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Sinine",
+    "#A86EA9": "violetne",
+    "#36454F": "Süsi",
+    "#b3b0ab": "süsinikhall",
+    "#463e3d": "Süsi Kanarbik",
+    "#282d3c": "Mereväe bleiser"
   },
   "address_info": {
     "name": "Nimi",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Hoone number",
     "building_unit": "Üksus",
     "postcode": "Postiindeks",
-    "note": "Märge"
+    "note": "Märge",
+    "county": "Maakond"
   },
   "product_types": {
     "physical": "Füüsiline",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Värv",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Lihtne",
       "selective": "Valikuline",
-      "switch": "Lüliti"
-    }
+      "switch": "Lüliti",
+      "file": "Fail",
+      "number": "Number"
+    },
+    "placeholder_input": "Kohatäide",
+    "file_type_input": "Aktsepteeritavad failitüübid",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "tootenimi",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Sisestage oma mobiiltelefon",
     "verification_code": "Kinnituskood",
     "msg_title": "Tere,",
-    "msg_body": "Palun logige sisse. See võtab vaid mõne sekundi."
+    "msg_body": "Palun logige sisse. See võtab vaid mõne sekundi.",
+    "login_apple": "Logige sisse Apple'iga"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Sildid lisatud"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Väga keeruline",
+    "hard": "Raske",
+    "intermediate": "Keskmine",
+    "easy": "Lihtne"
   }
 };

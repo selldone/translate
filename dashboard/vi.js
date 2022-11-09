@@ -155,7 +155,19 @@ export default {
       "Setup": "cửa hàng",
       "Sell": "Bán hàng & Tiếp thị",
       "Developer": "Phát triển, xây dựng",
-      "Application": "Các ứng dụng"
+      "Application": "Các ứng dụng",
+      "Product": "Quản lý Sản phẩm & Danh mục",
+      "Blog": "CMS & Blog",
+      "Order": "Trung tâm thực hiện đơn hàng",
+      "Channel": "Kênh bán hàng",
+      "Accounting": "Kế toán & Phương thức Thanh toán",
+      "Incentives": "Ưu đãi",
+      "Marketing": "Chiến dịch quảng cáo",
+      "Logistic": "Logistic & Vận chuyển",
+      "Customers": "Câu lạc bộ khách hàng & Phân khúc",
+      "Page": "Trang đích & trang tùy chỉnh",
+      "Access": "Quản lý truy cập nhân viên / API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Kho lưu trữ Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Cửa hàng",
       "roles": "Vai trò",
       "home": "Nhà",
-      "expert": "Chuyên gia"
+      "expert": "Chuyên gia",
+      "deals": "Ưu đãi",
+      "providers": "Các nhà cung cấp"
     },
     "shops": {
       "create_new": "Tạo cửa hàng mới",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Tình trạng",
           "created_at": "Ngày thành lập",
           "updated_at": "Cập nhật cuối cùng"
-        }
+        },
+        "subtitle": "Viết bài bằng trình chỉnh sửa nội tuyến hiện đại để giới thiệu bản thân và doanh nghiệp của bạn. Nội dung gốc là điều đầu tiên bạn cần tập trung khi viết một bài blog thân thiện với SEO chất lượng cao."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Báo cáo",
         "tax": "Thuế",
         "drop_shipping": "Biên lai của người bán lại",
-        "reseller_accounts": "Tài khoản người bán lại"
+        "reseller_accounts": "Tài khoản người bán lại",
+        "valuations": "Định giá"
       },
       "invoice": {
         "title": "Mua ví được liên kết",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Đang chuyển hàng",
         "inventory": "Kiểm kê",
         "warehouse": "Kho",
-        "logistic_apps": "Logistics"
+        "logistic_apps": "Logistics",
+        "profiles": "Hồ sơ"
       },
       "warehouse": {
         "title": "Kho lưu trữ",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Chi phí đặt hàng tối thiểu để được giao hàng miễn phí",
           "notifications": {
             "update_success": "Đã hoàn tất cài đặt dịch vụ vận chuyển thành công."
-          }
+          },
+          "shipping_cost_calculation": "Tính toán chi phí vận chuyển",
+          "sod_true": "Nhận chi phí vận chuyển tại điểm đến",
+          "sod_true_message": "Đảm bảo rằng dịch vụ vận chuyển của bạn chấp nhận chi phí vận chuyển tại điểm đến.",
+          "sod_false": "Tính toán chi phí vận chuyển tự động",
+          "cod_true": "Nhận tiền mặt khi giao hàng",
+          "cod_false": "Chỉ chấp nhận thanh toán trực tuyến",
+          "cod_true_message": "Đảm bảo rằng dịch vụ vận chuyển của bạn chấp nhận COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "Tin nhắn",
         "email": "E-mail",
         "domain": "Lãnh địa",
-        "verifications": "Xác minh"
+        "verifications": "Xác minh",
+        "flow": "lưu lượng",
+        "business_model": "Mô hình kinh doanh"
       },
       "delete_dialog": {
         "title": "Xóa cửa hàng",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Đơn vị sản phẩm",
       "unit_float": "Đơn vị phao (sắp có)",
       "unit_float_hint": "Ví dụ, khách hàng có thể đặt 3 kg trái cây, nhưng số lượng gửi cho khách hàng hơi khác so với số lượng đã đặt.",
-      "unit_float_message": "Trong quá trình xử lý đơn đặt hàng, số lượng đã giao có thể khác với số lượng đã đặt. Hệ thống sẽ tự động tính toán khoản chênh lệch này và ghi lại thành khoản nợ của bạn cho khách hàng, khoản này có thể áp dụng cho các đơn hàng tiếp theo."
+      "unit_float_message": "Trong quá trình xử lý đơn đặt hàng, số lượng đã giao có thể khác với số lượng đã đặt. Hệ thống sẽ tự động tính toán khoản chênh lệch này và ghi lại thành khoản nợ của bạn cho khách hàng, khoản này có thể áp dụng cho các đơn hàng tiếp theo.",
+      "status_list": {
+        "active": {
+          "title": "Hoạt động | Bán hàng trực tuyến và ngoại tuyến",
+          "description": "Sản phẩm này sẽ có sẵn cho các đơn đặt hàng trực tuyến."
+        },
+        "inactive": {
+          "title": "Không hoạt động | Chỉ bán hàng ngoại tuyến",
+          "description": "Sản phẩm này sẽ không có sẵn cho các đơn đặt hàng trực tuyến."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Khảo sát",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Chọn thời gian kết thúc",
       "independent_price": "Giá chỉ dành cho biến thể này",
       "same_price": "Giá của sản phẩm chính",
-      "variant_pricing_message": "Bằng cách chọn tùy chọn này, giá của biến thể này có thể được đặt độc lập với sản phẩm chính."
+      "variant_pricing_message": "Bằng cách chọn tùy chọn này, giá của biến thể này có thể được đặt độc lập với sản phẩm chính.",
+      "price_label_input": "Nhãn giá",
+      "price_label_message": "Thêm thông tin bổ sung về giá như ($ 1,5 / Fl Oz). Các trường hợp sử dụng: tạp hóa, FMCG.",
+      "add_price_label_action": "Thêm nhãn giá"
     },
     "inputs_edit": {
       "title": "Mẫu đầu vào của thông tin người mua",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Đã chỉnh sửa cổng {gateway_name}."
     },
-    "developer_setting": "Phát triển và thử nghiệm"
+    "developer_setting": "Phát triển và thử nghiệm",
+    "live_mode_message": "Tất cả các giao dịch sẽ ở chế độ trực tiếp."
   },
   "gift_card": {
     "title": "Thẻ quà tặng",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Địa chỉ thanh toán do người mua chỉnh sửa.",
     "payment-cod-confirm": "Thanh toán COD đã được xác nhận.",
     "payment-cash-confirm": "Việc thanh toán {amount} {currency} bằng tiền mặt cho hóa đơn đã được xác nhận.",
-    "payment-dir-confirm": "Nhận thanh toán trực tiếp đã được xác nhận."
+    "payment-dir-confirm": "Nhận thanh toán trực tiếp đã được xác nhận.",
+    "vendor": "Trạng thái đơn đặt hàng của nhà cung cấp đã thay đổi từ <b>{from}</b> thành <b>{to}</b> .",
+    "connect-sync": "Đơn đặt hàng được Connect OS đồng bộ hóa.",
+    "connect-shipped": "Đơn đặt hàng Connect đã được vận chuyển bởi {shipping}.",
+    "connect-returned": "Đơn đặt hàng Connect đã được trả lại bởi {shipping}.",
+    "connect-failed": "Đối tác không thực hiện được đơn hàng. {reason}",
+    "connect-canceled": "Đơn hàng đã bị đối tác hủy. {reason}",
+    "connect-action-cancel": "Yêu cầu hủy đơn hàng. {reason}",
+    "connect-put-hold": "Đơn đặt hàng đã bị trì hoãn. {reason}",
+    "connect-remove-hold": "Đơn đặt hàng đã bị xóa khỏi trạng thái lưu giữ. {reason}",
+    "connect-confirmed": "Đơn đặt hàng đã được xác nhận.",
+    "email-vendor": "🔔 Email thông báo đơn hàng đã được gửi đến <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Hôm nay",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Làm ra tiền",
     "menu": {
       "plans": "Các kế hoạch",
-      "accounts": "Tài khoản"
+      "accounts": "Tài khoản",
+      "participant": "Người tham gia"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Chìa khóa truy cập cửa hàng",
     "shop_keys_message": "Các khóa này được sử dụng để tạo Mã truy cập bởi máy chủ của bạn. Lưu ý rằng các khóa là bí mật và chỉ được đặt trên máy chủ để người khác không nhìn thấy chúng.",
     "personal_keys_title": "Chìa khóa truy cập cá nhân",
-    "personal_keys_message": "Bạn có thể tạo các khóa cho tài khoản của mình tại đây. Lưu ý rằng các khóa này sẽ có thể truy cập vào tài khoản của bạn. Chỉ tạo và sử dụng các khóa này nếu bạn biết chính xác mình đang làm gì."
+    "personal_keys_message": "Bạn có thể tạo các khóa cho tài khoản của mình tại đây. Lưu ý rằng các khóa này sẽ có thể truy cập vào tài khoản của bạn. Chỉ tạo và sử dụng các khóa này nếu bạn biết chính xác mình đang làm gì.",
+    "clients_title": "Khách hàng",
+    "clients_message": "Các khóa này được sử dụng để tạo Mã truy cập bởi máy chủ của bạn. Lưu ý rằng các khóa là bí mật và chỉ được đặt trên máy chủ để người khác không nhìn thấy chúng."
   },
   "user_security_control": {
     "title": "Bảo mật tài khoản",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Quản lý hồ sơ",
       "description": "Quản lý hồ sơ cửa hàng."
+    },
+    "shop-discount-code": {
+      "name": "Quản lý mã giảm giá",
+      "description": "Quản lý, chỉnh sửa và thêm mã giảm giá cửa hàng."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Cài đặt",
       "change": "Thù lao",
       "transfer": "Chuyển giao",
-      "transactions": "Giao dịch"
+      "transactions": "Giao dịch",
+      "charge": "Thù lao",
+      "history": "Môn lịch sử"
     },
     "transactions": {
       "title": "Giao dịch tài khoản",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Hủy xác nhận đăng ký",
       "message": "Bạn có chắc chắn để hủy đăng ký này không?",
       "action": "Hủy đăng ký"
-    }
+    },
+    "use_voucher_now": "Sử dụng voucher ngay bây giờ",
+    "validity_duration": "Thời hạn hiệu lực",
+    "validity_duration_hint": "Bằng cách mua giấy phép 12 tháng, bạn sẽ được giảm giá 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Tải xuống văn bản dữ liệu",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Phông chữ lớn",
     "large_font_message": "Hiển thị văn bản lớn hơn bình thường",
     "samples": "Hiển thị các cửa hàng mẫu",
-    "samples_message": "Nếu được bật, một số cửa hàng mẫu sẽ được hiển thị trong bảng điều khiển của bạn."
+    "samples_message": "Nếu được bật, một số cửa hàng mẫu sẽ được hiển thị trong bảng điều khiển của bạn.",
+    "automation": "Tự động hóa",
+    "automation_message": "Hiển thị tab tự động hóa trên bảng điều khiển cửa hàng. (Webhooks, Lập trình trực quan, ...)"
   },
   "shop_locations": {
     "title": "Các quốc gia nơi dịch vụ được cung cấp",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Phiếu giảm giá đã được xóa thành công."
-    }
+    },
+    "multiple_use": "Sử dụng nhiều lần"
   },
   "coupon_edit": {
     "title_edit": "Chỉnh sửa phiếu giảm giá",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Giới hạn",
       "description": "Đặt giới hạn về số lượng người dùng tối đa."
+    },
+    "SEGMENTS": {
+      "title": "Phân đoạn",
+      "description": "Giới hạn khách hàng trong phân đoạn thủ công cụ thể."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Tổng số tiền đặt hàng đã được rút từ thẻ quà tặng! Người mua không cần phải trả thêm tiền.",
       "cod_msg": "Khách hàng sẽ thanh toán khi nhận được đơn hàng.",
       "online_msg": "Yêu cầu khách hàng quét mã QR trên màn hình khách hàng."
-    }
+    },
+    "name": "POS",
+    "message": "Có điểm bán hàng trực tuyến không tốn chi phí thiết lập của bạn, chạy nó trên bất kỳ điện thoại thông minh, máy tính bảng và PC nào hoặc tạo đơn đặt hàng theo cách thủ công."
   },
   "exporter": {
     "title": "Xuất dữ liệu",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Gửi đến máy chủ",
     "shop_license": "Giấy phép cửa hàng",
     "max_items_limit": "Giới hạn mặt hàng tối đa",
-    "total_items": "Tổng số mặt hàng"
+    "total_items": "Tổng số mặt hàng",
+    "customer": {
+      "title": "Nhập khách hàng",
+      "subtitle": "Tải lên tệp CSV của khách hàng tại đây. Đảm bảo rằng bạn tuân theo định dạng chuẩn và bạn cũng phải tuân theo các quy tắc về quyền riêng tư."
+    }
   },
   "campaigns": {
     "title": "Các chiến dịch",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Liên kết",
     "light_checkout": "Chủ đề thanh toán nhẹ",
     "light_header": "Tiêu đề nhẹ",
-    "light_footer": "Chân trang nhẹ"
+    "light_footer": "Chân trang nhẹ",
+    "product_page": "Trang sản phẩm",
+    "typography": "Kiểu chữ",
+    "header": "Tiêu đề",
+    "custom_code": "Mã tùy chỉnh",
+    "custom_css": "CSS tùy chỉnh"
   },
   "app_templates": {
     "default": "Mặc định",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Quản lý dịch vụ",
     "option_deliver_by_courier": "Tùy chọn 1: Giao hàng bởi người giao hàng của bạn.",
     "option_add_to_que": "Tùy chọn 2: Thêm vào hàng đợi để xử lý trên trang dịch vụ vận chuyển.",
-    "option_instant_shipping": "Tùy chọn 3: Vận chuyển ngay lập tức."
+    "option_instant_shipping": "Tùy chọn 3: Vận chuyển ngay lập tức.",
+    "pickup_action": "Xác nhận nhận hàng"
   },
   "shop_home_edit": {
     "title": "Cài đặt trang chủ",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Sản phẩm được thêm vào cửa hàng của bạn.",
       "request_access": "Chúng tôi đã gửi yêu cầu truy cập của bạn đến nhà bán buôn thành công."
-    }
+    },
+    "show_eligible_shops_message": "Hiển thị các cửa hàng đủ điều kiện"
   },
   "product_dropshipping": {
     "need_re_enable": "Sản phẩm này đã được thay đổi bởi người bán ban đầu, những thay đổi về giá này đã vô hiệu hóa sản phẩm trong cửa hàng của bạn. Kiểm tra các thay đổi và nếu bạn đồng ý kích hoạt lại sản phẩm, hãy nhấn nút bên dưới.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Không có danh mục trong cửa hàng của bạn.",
       "limit": "Sản phẩm giới hạn",
       "limit_message": "Nhập số lượng kết quả sản phẩm",
-      "select_categories": "Chọn các danh mục có sẵn"
+      "select_categories": "Chọn các danh mục có sẵn",
+      "categories_limit": "Giới hạn danh mục",
+      "categories_limit_msg": "Nhập số lượng danh mục tối đa. Đặt số 0 không giới hạn."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Đã cập nhật thành công quả bơ.",
       "add_success": "Đã tạo bơ thành công."
-    }
+    },
+    "name": "Trái bơ"
   },
   "avocado_orders": {
     "title": "Trái bơ",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "không hoạt động",
     "active_message": "Nếu bạn bật tùy chọn này, khả năng tạo Mã bán hàng nhanh sẽ được hiển thị trong phần quản lý của từng sản phẩm.",
     "hyper_form_link_message": "Liên kết siêu trang của cửa hàng của bạn",
-    "configuration": "Cài đặt Hyper"
+    "configuration": "Cài đặt Hyper",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Nhân khẩu học khách hàng",
     "subtitle": "Lọc và xuất dữ liệu khách hàng của bạn để đưa ra quyết định tốt hơn nhằm mang lại nhiều giá trị hơn mà không cần tiếp thị ít hơn! Hãy tôn trọng quyền riêng tư của khách hàng và không bao giờ gửi hàng loạt email hàng loạt cho họ! Không bao giờ chia sẻ thông tin của khách hàng của bạn với các dịch vụ của bên thứ 3 mà không được sự cho phép của từng người trong số họ."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Địa chỉ nhận hàng",
+      "subtitle": "Thêm và chỉnh sửa địa chỉ nhận hàng tại đây. Người dùng sẽ có thể chọn địa chỉ nhận hàng trên trang thanh toán.",
+      "add_action": "Thêm vị trí mới"
+    }
+  },
+  "affiliate_pos": {
+    "title": "POS liên kết",
+    "open_pos_action": "POS đặt hàng nhanh",
+    "description": "Tùy chọn này phù hợp với quản trị viên của trang Instagram và các mạng xã hội khác. Sử dụng Affiliate POS để nhận và thêm đơn đặt hàng từ khách hàng theo cách thủ công. Các chi nhánh của bạn (hoặc nhượng quyền thương mại) có thể thêm đơn đặt hàng mới trong POS của Chi nhánh và tải lên phiếu gửi tiền."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Phương thức đăng nhập",
+      "subtitle": "Tùy chỉnh cách người dùng đăng nhập vào cửa hàng của bạn."
+    },
+    "checkout": {
+      "title": "Quy trình thanh toán",
+      "subtitle": "Tùy chỉnh hành trình của khách hàng và quy trình mua hàng trong thương mại điện tử của bạn.",
+      "map": {
+        "title": "Bản đồ",
+        "subtitle": "Người dùng phải chọn địa điểm giao hàng trên bản đồ (giống như Uber).",
+        "subtitle_no_map": "Khoảng cách trong tính toán vận chuyển được coi là 0 nếu vị trí không tồn tại trong địa chỉ khách hàng cung cấp."
+      },
+      "mode": {
+        "title": "Điểm đăng nhập của khách hàng",
+        "default": {
+          "title": "ASAP (Mặc định)",
+          "msg": "Người dùng đăng nhập càng sớm càng tốt. (Nhiều chuyển đổi hơn)"
+        },
+        "on_checkout": {
+          "title": "Khi thanh toán",
+          "msg": "Bắt buộc người dùng đăng nhập ở bước thanh toán."
+        },
+        "login_free": {
+          "title": "Đăng nhập tùy chọn",
+          "msg": "Đăng nhập tùy chọn sau khi thanh toán đơn hàng .."
+        }
+      },
+      "express": {
+        "title": "Chuyển hướng sau khi thêm vào giỏ hàng",
+        "false": {
+          "title": "Chế độ bình thường",
+          "msg": "Ở lại trang và tiếp tục mua hàng sau khi nhấp vào thêm vào giỏ hàng."
+        },
+        "true": {
+          "title": "Chế độ cấp tốc",
+          "msg": "Chuyển hướng khách hàng đến trang thanh toán sau khi nhấp vào thêm vào giỏ hàng."
+        }
+      },
+      "shipping_address": {
+        "title": "Hỏi địa chỉ giao hàng"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Vật lý & Dịch vụ (Mặc định)",
+      "desc": "Yêu cầu khách hàng nhập địa chỉ trong thanh toán thực tế và dịch vụ."
+    },
+    "physical": {
+      "title": "Chỉ vật lý",
+      "desc": "Yêu cầu khách hàng nhập địa chỉ ngay trong thanh toán thực tế."
+    },
+    "off": {
+      "title": "Không bao giờ",
+      "desc": "Không bao giờ hỏi địa chỉ giao hàng. ⚠ Sử dụng tùy chọn này nếu bạn dự định có các dịch vụ với các biến thể bằng cách chọn loại vật lý cho sản phẩm thay vì loại dịch vụ."
+    }
+  },
+  "business_model": {
+    "title": "Thiết lập mô hình kinh doanh",
+    "subtitle": "Đặt mô hình kinh doanh của bạn và chúng tôi sẽ định cấu hình hệ điều hành của bạn phía sau."
+  },
+  "business_type": {
+    "title": "Các loại hàng hóa",
+    "subtitle": "Đặt loại sản phẩm bạn muốn bán trong cửa hàng của mình. Các loại sản phẩm ở Selldone không chỉ là một loại sản phẩm; nó nhiều hơn về thủ tục thực hiện.",
+    "send_activation_request_to_support": "Gửi yêu cầu kích hoạt trong phiếu hỗ trợ.",
+    "require_kyc": "Chủ doanh nghiệp KYC.",
+    "needs_enterprise_license": "Bạn cần phải có giấy phép Doanh nghiệp.",
+    "marketplace_caution_message": "Đặt Marketplace làm mô hình của bạn ảnh hưởng sâu sắc đến cấu hình hệ điều hành kinh doanh của bạn. Ví dụ: bạn phải xác định ít nhất một nhà cung cấp cho mỗi sản phẩm với giá cả và khoảng không quảng cáo độc lập. Khách hàng không thể mua sản phẩm không có nhà cung cấp."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Cửa hàng bình thường",
+      "desc": "Thường là doanh nghiệp vừa và nhỏ, doanh nghiệp gia đình hoặc dropshipper - người bán sản phẩm của họ trực tiếp cho khách hàng hoặc bán sản phẩm của người bán buôn với tư cách là người bán lại."
+    },
+    "dropshipping": {
+      "title": "Vận chuyển thả",
+      "desc": "Không có sản phẩm và không có hàng tồn kho - bạn trả tiền cho bên thứ ba, thường là nhà bán buôn (như Printify, Bán buôn2B, ...) hoặc nhà sản xuất và họ thực hiện các đơn đặt hàng ngay sau đó."
+    },
+    "wholesaler": {
+      "title": "Nhà cung cấp Dropshipping",
+      "desc": "Thường là nhà bán buôn hoặc nhà sản xuất - người vận chuyển đơn đặt hàng trực tiếp đến người tiêu dùng cuối cùng. Những người bán khác trên Selldone có thể dropship sản phẩm của bạn tại các cửa hàng của họ."
+    },
+    "marketplace": {
+      "title": "Thương trường",
+      "desc": "Thị trường trực tuyến kết nối người mua và người bán trên một nền tảng tập trung và độc quyền."
+    },
+    "franchise": {
+      "title": "Nhượng quyền thương mại / Chi nhánh",
+      "desc": "Nhượng quyền thương mại là một phương pháp phân phối sản phẩm hoặc dịch vụ liên quan đến người nhượng quyền thiết lập thương hiệu của bạn (Franchising) hoặc bán sản phẩm của bạn theo thương hiệu của họ (Đơn vị liên kết)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Ví",
+    "pricing_models": "Định giá",
+    "add_vendor": "Thêm nhà cung cấp",
+    "requests": "Yêu cầu"
+  },
+  "price_input_type": {
+    "title": "Loại đầu vào giá",
+    "default": {
+      "title": "Mặc định",
+      "desc": "Chọn một giá trị làm số lượng trong giỏ hàng."
+    },
+    "area": {
+      "title": "Diện tích",
+      "desc": "Nhập chiều rộng và chiều dài làm đầu vào để tính số lượng."
+    },
+    "volume": {
+      "title": "âm lượng",
+      "desc": "Nhập chiều rộng, chiều dài và chiều cao làm đầu vào để tính số lượng."
+    },
+    "custom": {
+      "title": "Tùy chỉnh (Theo mẫu đầu vào)",
+      "desc": "Không cần hàng trăm biến thể! Tạo biểu mẫu tính toán chi phí tùy chỉnh cho các sản phẩm có khả năng tùy chỉnh cao."
+    }
+  },
+  "vendors_list": {
+    "title": "Nhà cung cấp của tôi",
+    "message": "Danh sách các nhà cung cấp của riêng tôi."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Kết nối nhiều miền với hệ điều hành doanh nghiệp của bạn và quản lý tất cả chúng ở một nơi. Bạn có thể sử dụng tính năng nhiều miền để tạo các miền dành riêng cho từng phần của trang web, như blog và cộng đồng hoặc sử dụng các miền khác nhau cho các đơn vị liên kết của bạn."
+  },
+  "notes": {
+    "add_action": "Thêm ghi chú cho nhóm của bạn",
+    "notifications": {
+      "success_add": "Ghi chú đã được thêm thành công.",
+      "success_delete": "Ghi chú đã được xóa thành công."
+    }
+  },
+  "external_services": {
+    "title": "Dịch vụ bên ngoài",
+    "subtitle": "Theo dõi trạng thái cuối cùng của các dịch vụ bên ngoài như SMS và email tại đây."
   }
 };

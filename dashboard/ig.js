@@ -155,7 +155,19 @@ export default {
       "Setup": "ụlọ ahịa",
       "Sell": "Ahịa & Ahịa",
       "Developer": "Zụlite",
-      "Application": "Ngwa"
+      "Application": "Ngwa",
+      "Product": "Njikwa ngwaahịa & ngalaba",
+      "Blog": "CMS & blọọgụ",
+      "Order": "Ebe mmezu iwu",
+      "Channel": "Ọwa ire ere",
+      "Accounting": "Ụzọ ndekọ ego & ịkwụ ụgwọ",
+      "Incentives": "Ihe mkpali",
+      "Marketing": "Ahịa & Mgbasa Ozi",
+      "Logistic": "Logistic & Mbupu",
+      "Customers": "Ndị ahịa Club & Nkewa",
+      "Page": "Ibe ọdịda & omenala",
+      "Access": "Njikwa nnweta ndị ọrụ / API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Ebe nchekwa Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Ụlọ ahịa",
       "roles": "Ọrụ",
       "home": "Ụlọ",
-      "expert": "Ọkachamara"
+      "expert": "Ọkachamara",
+      "deals": "Nkwekọrịta",
+      "providers": "Ndị na-enye ihe"
     },
     "shops": {
       "create_new": "Mepụta ụlọ ahịa ọhụrụ",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Ọnọdụ",
           "created_at": "Ụbọchị okike",
           "updated_at": "Mmelite ikpeazụ"
-        }
+        },
+        "subtitle": "Jiri onye ndezi inline nke ọgbara ọhụrụ dee akụkọ iji gosi onwe gị na azụmahịa gị. Ọdịnaya mbụ bụ ihe mbụ ị ga-elekwasị anya mgbe ị na-ede blọgụ blọgụ SEO-enyi na enyi dị elu."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Akuko",
         "tax": "Ụtụ isi",
         "drop_shipping": "Nnata onye na-ere ere",
-        "reseller_accounts": "Akaụntụ reseller"
+        "reseller_accounts": "Akaụntụ reseller",
+        "valuations": "Ụkpụrụ"
       },
       "invoice": {
         "title": "Ụlọ ahịa ejikọrọ obere akpa",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Mbupu",
         "inventory": "Akụrụngwa",
         "warehouse": "Ụlọ nkwakọba ihe",
-        "logistic_apps": "Logistics"
+        "logistic_apps": "Logistics",
+        "profiles": "Profaịlụ"
       },
       "warehouse": {
         "title": "Ụlọ nkwakọba ihe",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Ọnụ ahịa kacha nta maka mbupu efu",
           "notifications": {
             "update_success": "Ntọala ọrụ mbupu emechara nke ọma."
-          }
+          },
+          "shipping_cost_calculation": "Mgbakọ ọnụ ahịa mbupu",
+          "sod_true": "Nweta ego mbupu na ebe ị na-aga",
+          "sod_true_message": "Gbaa mbọ hụ na ọrụ mbupu gị na-anabata ụgwọ mbupu na ebe ị na-aga.",
+          "sod_false": "Ọnụ ego mbupu akpaaka",
+          "cod_true": "Nabata ego na nnyefe",
+          "cod_false": "Nabata naanị ịkwụ ụgwọ ịntanetị",
+          "cod_true_message": "Gbaa mbọ hụ na ọrụ mbupu gị na-anabata COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "Email",
         "domain": "Ngalaba",
-        "verifications": "Nnwale"
+        "verifications": "Nnwale",
+        "flow": "Efere",
+        "business_model": "Ụdị azụmahịa"
       },
       "delete_dialog": {
         "title": "Hichapụ Ụlọ Ahịa",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Ngwa ngwaahịa",
       "unit_float": "Ngalaba na-ese n'elu mmiri (n'oge na-adịghị anya)",
       "unit_float_hint": "Dịka ọmụmaatụ, onye ahịa nwere ike ịnye 3 kg nke mkpụrụ osisi, ma ego ezigara onye ahịa dịtụ iche na ego a chọrọ.",
-      "unit_float_message": "N'oge nhazi usoro, ego a napụtara nwere ike ịdị iche na ego enyere iwu. Usoro ahụ na-agbakọ ihe dị iche na-akpaghị aka ma dekọọ ya dị ka ụgwọ gị nye onye ahịa, nke nwere ike itinye n'ọrụ na-esote iwu."
+      "unit_float_message": "N'oge nhazi usoro, ego a napụtara nwere ike ịdị iche na ego enyere iwu. Usoro ahụ na-agbakọ ihe dị iche na-akpaghị aka ma dekọọ ya dị ka ụgwọ gị nye onye ahịa, nke nwere ike itinye n'ọrụ na-esote iwu.",
+      "status_list": {
+        "active": {
+          "title": "Na-arụ ọrụ | Ịre ahịa n'ịntanetị & n'ịntanetị",
+          "description": "Ngwaahịa a ga-adị maka iwu ịntanetị."
+        },
+        "inactive": {
+          "title": "Arụghị ọrụ | Naanị ire ere n'ịntanetị",
+          "description": "Ngwaahịa a agaghị adị maka iwu ịntanetị."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Nyocha",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Họrọ oge ngwụcha",
       "independent_price": "Ọnụahịa naanị maka ụdị a",
       "same_price": "Ọnụahịa maka isi ngwaahịa",
-      "variant_pricing_message": "Site na ịhọrọ nhọrọ a, enwere ike ịtọ ọnụahịa nke ụdị a n'adabereghị na isi ngwaahịa."
+      "variant_pricing_message": "Site na ịhọrọ nhọrọ a, enwere ike ịtọ ọnụahịa nke ụdị a n'adabereghị na isi ngwaahịa.",
+      "price_label_input": "Akara ọnụahịa",
+      "price_label_message": "Tinyekwuo ozi gbasara ọnụ ahịa dị ka ($ 1.5/Fl Oz). Jiri ikpe: ụlọ nri, FMCG.",
+      "add_price_label_action": "Tinye akara ọnụahịa"
     },
     "inputs_edit": {
       "title": "Ụdị ntinye nke ozi onye zụrụ",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Edeziziri ọnụ ụzọ ámá {gateway_name}."
     },
-    "developer_setting": "Zụlite & Nwalee"
+    "developer_setting": "Zụlite & Nwalee",
+    "live_mode_message": "Azụmahịa niile ga-adị na ọnọdụ ndụ."
   },
   "gift_card": {
     "title": "Kaadị onyinye",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Adreesị ịgba ụgwọ nke onye zụrụ ya deziri.",
     "payment-cod-confirm": "Ekwenyere ịkwụ ụgwọ COD.",
     "payment-cash-confirm": "Ekwenyere ịkwụ ụgwọ {amount} {currency} na ego maka ụgwọ ahụ.",
-    "payment-dir-confirm": "Ekwenyere nnata ịkwụ ụgwọ ozugbo."
+    "payment-dir-confirm": "Ekwenyere nnata ịkwụ ụgwọ ozugbo.",
+    "vendor": "Ọnọdụ ndị na-ere ahịa gbanwere site na <b>{from}</b> gaa na <b>{to}</b> .",
+    "connect-sync": "Jikọọ OS mekọrịtara iwu.",
+    "connect-shipped": "Ebupula usoro njikọ site na {shipping}.",
+    "connect-returned": "Ejila {shipping} weghachite usoro njikọ.",
+    "connect-failed": "Mmezu iwu nke onye mmekọ dara. {reason}",
+    "connect-canceled": "Onye mmekọ kagburu iwu ahụ. {reason}",
+    "connect-action-cancel": "Arịrịọ ịkagbu ịtụ. {reason}",
+    "connect-put-hold": "Ejidere iwu a. {reason}",
+    "connect-remove-hold": "Ewepụrụ iwu ahụ na njide. {reason}",
+    "connect-confirmed": "Ekwenyere iwu a.",
+    "email-vendor": "🔔 Ezipula ozi email nye <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Taa",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Mee Ego",
     "menu": {
       "plans": "Atụmatụ",
-      "accounts": "Akaụntụ"
+      "accounts": "Akaụntụ",
+      "participant": "Onye so na ya"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Igodo nnweta ụlọ ahịa",
     "shop_keys_message": "A na-eji igodo ndị a mepụta Token Access site na sava gị. Rịba ama na igodo ndị ahụ bụ nzuzo ma tinye naanị na ihe nkesa ka ndị ọzọ ghara ịhụ ha.",
     "personal_keys_title": "Igodo nnweta nkeonwe",
-    "personal_keys_message": "Ị nwere ike ịmepụta igodo nke akaụntụ gị ebe a. Mara na igodo ndị a ga-enwe ike ịnweta akaụntụ gị. Mepụta ma jiri igodo ndị a naanị ma ọ bụrụ na ịmara nke ọma ihe ị na-eme."
+    "personal_keys_message": "Ị nwere ike ịmepụta igodo nke akaụntụ gị ebe a. Mara na igodo ndị a ga-enwe ike ịnweta akaụntụ gị. Mepụta ma jiri igodo ndị a naanị ma ọ bụrụ na ịmara nke ọma ihe ị na-eme.",
+    "clients_title": "Ndị ahịa",
+    "clients_message": "A na-eji igodo ndị a mepụta Token Access site na sava gị. Rịba ama na igodo ndị ahụ bụ nzuzo ma tinye naanị na ihe nkesa ka ndị ọzọ ghara ịhụ ha."
   },
   "user_security_control": {
     "title": "Nchekwa akaụntụ",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Jikwaa profaịlụ",
       "description": "Jikwaa profaịlụ ụlọ ahịa."
+    },
+    "shop-discount-code": {
+      "name": "njikwa koodu ego",
+      "description": "Jikwaa, dezie ma tinye koodu mbelata ụlọ ahịa."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Ntọala",
       "change": "ebubo",
       "transfer": "Nyefee",
-      "transactions": "Azụmahịa"
+      "transactions": "Azụmahịa",
+      "charge": "ebubo",
+      "history": "Akụkọ ihe mere eme"
     },
     "transactions": {
       "title": "Azụmahịa Akaụntụ",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Kagbuo nkwenye ndenye aha",
       "message": "Ị ji n'aka na ị ga-akagbu ndenye aha a?",
       "action": "Kagbuo ndenye aha"
-    }
+    },
+    "use_voucher_now": "Jiri akwụkwọ ego ugbu a",
+    "validity_duration": "Ogologo oge nkwado",
+    "validity_duration_hint": "Site na ịzụrụ ikikere ọnwa iri na abụọ, ị ga-enweta mbelata 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Budata ederede data",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Nnukwu mkpụrụedemede",
     "large_font_message": "Gosi ederede ka ukwuu",
     "samples": "Gosi ụlọ ahịa ihe atụ",
-    "samples_message": "Ọ bụrụ na agbanyere ya, a ga-egosipụta ụfọdụ ụlọ ahịa ihe nlele na panel gị."
+    "samples_message": "Ọ bụrụ na agbanyere ya, a ga-egosipụta ụfọdụ ụlọ ahịa ihe nlele na panel gị.",
+    "automation": "Akpaaka",
+    "automation_message": "Gosi taabụ akpaaka na dashboard ụlọ ahịa. (Webhooks, Visual programming,...)"
   },
   "shop_locations": {
     "title": "Mba ndị enyere ọrụ",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "E ehichapụla coupon nke ọma."
-    }
+    },
+    "multiple_use": "Ojiji otutu"
   },
   "coupon_edit": {
     "title_edit": "Dezie coupon",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Oke",
       "description": "Tọọ oke na ọnụọgụ ndị ọrụ kacha."
+    },
+    "SEGMENTS": {
+      "title": "Akụkụ",
+      "description": "Amachi ndị ahịa na ngalaba ntuziaka akọwapụtara."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "E wepụrụ ngụkọta ego n'usoro na kaadị onyinye! Onye na-azụ ihe adịghị mkpa ịkwụ ụgwọ karịa.",
       "cod_msg": "Onye ahịa ga-akwụ ụgwọ mgbe ọ na-anata iwu ahụ.",
       "online_msg": "Rịọ onye ahịa ka o nyochaa koodu QR na ihuenyo ndị ahịa."
-    }
+    },
+    "name": "POS",
+    "message": "Nweta ebe ịre ahịa n'ịntanetị efu, mee ya na ekwentị ọ bụla, mbadamba na PC, ma ọ bụ jiri aka mepụta iwu."
   },
   "exporter": {
     "title": "Mbupu data",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Ziga na nkesa",
     "shop_license": "Ikikere ụlọ ahịa",
     "max_items_limit": "Oke ihe kacha",
-    "total_items": "Ngụkọta ihe"
+    "total_items": "Ngụkọta ihe",
+    "customer": {
+      "title": "Bubata ndị ahịa",
+      "subtitle": "Bulite faịlụ CSV nke ndị ahịa ebe a. Gbaa mbọ hụ na ị gbasoro usoro ọkọlọtọ, yana kwa, ị ga-agbaso iwu nzuzo."
+    }
   },
   "campaigns": {
     "title": "Mgbasa ozi",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Njikọ",
     "light_checkout": "Isiokwu ndenye ọpụpụ dị mfe",
     "light_header": "nkụnye eji isi mee",
-    "light_footer": "Ọkụ ụkwụ"
+    "light_footer": "Ọkụ ụkwụ",
+    "product_page": "Ibe ngwaahịa",
+    "typography": "Ederede",
+    "header": "nkụnye eji isi mee",
+    "custom_code": "Koodu omenala",
+    "custom_css": "Omenala CSS"
   },
   "app_templates": {
     "default": "Ọdabara",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Jikwaa ọrụ",
     "option_deliver_by_courier": "Nhọrọ 1: Bufee site na ndị ozi gị.",
     "option_add_to_que": "Nhọrọ 2: Tinye n'ahịrị iji hazie na ibe ọrụ mbupu.",
-    "option_instant_shipping": "Nhọrọ 3: Mbupu ngwa ngwa."
+    "option_instant_shipping": "Nhọrọ 3: Mbupu ngwa ngwa.",
+    "pickup_action": "Nkwanye mbupu"
   },
   "shop_home_edit": {
     "title": "Ntọala ibe ụlọ",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Agbakwunyere ngwaahịa na ụlọ ahịa gị.",
       "request_access": "Anyị zigara onye na-ere ahịa arịrịọ ohere gị nke ọma."
-    }
+    },
+    "show_eligible_shops_message": "Gosi ụlọ ahịa tozuru oke"
   },
   "product_dropshipping": {
     "need_re_enable": "Onye mbụ ere ere agbanweela ngwaahịa a, mgbanwe ọnụahịa ndị a ewepụla ngwaahịa dị na ụlọ ahịa gị. Lelee mgbanwe ndị ahụ ma ọ bụrụ na ikwere ịmegharị ngwaahịa ahụ, pịa bọtịnụ dị n'okpuru.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Enweghị ụdị na ụlọ ahịa gị.",
       "limit": "Oke ngwaahịa",
       "limit_message": "Tinye ngụkọ nsonaazụ ngwaahịa",
-      "select_categories": "Họrọ otu dị"
+      "select_categories": "Họrọ otu dị",
+      "categories_limit": "Oke oke",
+      "categories_limit_msg": "Tinye ọnụ ọgụgụ kachasị nke edemede. Tọọ efu maka enweghị oke."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avocado emelitere nke ọma.",
       "add_success": "Avocado emepụtara nke ọma."
-    }
+    },
+    "name": "Ube oyibo"
   },
   "avocado_orders": {
     "title": "Ube oyibo",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "adịghị arụ ọrụ",
     "active_message": "Ọ bụrụ na ị mee nhọrọ a, a ga-egosipụta ohere nke ịmepụta ngwa ahịa-Codes na ngalaba njikwa nke ngwaahịa ọ bụla.",
     "hyper_form_link_message": "Njikọ hyper peeji nke ụlọ ahịa gị",
-    "configuration": "Ntọala Hyper"
+    "configuration": "Ntọala Hyper",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Ndị ahịa Demography",
     "subtitle": "Nyochaa ma bupụ data ndị ahịa gị ka ha mee mkpebi ka mma iji wepụta uru karịa na obere ahịa! Biko kwanyere nzuzo nke ndị ahịa gị ma ọlị iziga ha ozi-e buru ibu! Ekekọrịtala ozi ndị ahịa gị n'ọrụ ndị otu nke atọ na-enwetaghị ikike n'aka onye ọ bụla n'ime ha."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Adreesị mbupụ",
+      "subtitle": "Tinye ma dezie adreesị nchịkọta ebe a. Ndị ọrụ ga-enwe ike ịhọrọ adreesị nnabata na ibe ndenye ọpụpụ.",
+      "add_action": "Tinye ebe ọhụrụ"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Mgbakwunye POS",
+    "open_pos_action": "Ngwa ngwa ịtụ POS",
+    "description": "Nhọrọ a dabara adaba maka ndị nchịkwa nke ibe Instagram na netwọkụ mmekọrịta ndị ọzọ. Jiri POS Mgbakwunye iji aka nata na tinye iwu sitere n'aka ndị ahịa. Ndị mmekọ gị (ma ọ bụ franchise) nwere ike itinye iwu ọhụrụ na POS Mgbakwunye wee bulite mpempe akwụkwọ nkwụnye ego."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Ụzọ nbanye",
+      "subtitle": "Hazie ka ndị ọrụ si abanye na ụlọ ahịa gị."
+    },
+    "checkout": {
+      "title": "Ọpụpụ ego",
+      "subtitle": "Hazie njem ndị ahịa gị na usoro ịzụ ahịa na ecommerce gị.",
+      "map": {
+        "title": "Maapụ",
+        "subtitle": "Ndị ọrụ ga-ahọrọ ebe nnyefe na maapụ (dị ka Uber).",
+        "subtitle_no_map": "Anya na ngụkọ mbupu na-ewere efu ma ọ bụrụ na ọnọdụ adịghị na adreesị ndị ahịa nyere."
+      },
+      "mode": {
+        "title": "Ebe nbanye ndị ahịa",
+        "default": {
+          "title": "ASAP (Ebube)",
+          "msg": "Ndị ọrụ na-abanye ozugbo enwere ike. (Ntugharị ndị ọzọ)"
+        },
+        "on_checkout": {
+          "title": "Na ndenye ọpụpụ",
+          "msg": "Manye ndị ọrụ ịbanye na ntinye ego."
+        },
+        "login_free": {
+          "title": "Nbanye nhọrọ",
+          "msg": "Nbanye nhọrọ mgbe ịkwụ ụgwọ."
+        }
+      },
+      "express": {
+        "title": "Bugharịa ma gbakwunye na ụgbọ ibu",
+        "false": {
+          "title": "Ụdị nkịtị",
+          "msg": "Nọgide na ibe wee gaa n'ihu ịzụ ahịa mgbe ịpịrị tinye na ụgbọ ibu."
+        },
+        "true": {
+          "title": "Express mode",
+          "msg": "Redirect onye ahịa na ibe ndenye ọpụpụ mgbe ịpịrị tinye na ụgbọ ibu."
+        }
+      },
+      "shipping_address": {
+        "title": "Rịọ maka adreesị mbupu"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Anụ ahụ & Ọrụ (nke ndabara)",
+      "desc": "Rịọ onye ahịa ka ọ tinye adreesị na ndenye ọpụpụ anụ ahụ na ọrụ."
+    },
+    "physical": {
+      "title": "Naanị anụ ahụ",
+      "desc": "Rịọ onye ahịa ka ọ tinye adreesị naanị na ndenye ọpụpụ anụ ahụ."
+    },
+    "off": {
+      "title": "Ọ dịghị mgbe",
+      "desc": "Ajụla adreesị mbupu. ⚠ Jiri nhọrọ a ma ọ bụrụ na ị na-eme atụmatụ ịnwe ọrụ nwere ụdị dị iche iche site na ịhọrọ ụdị anụ ahụ maka ngwaahịa kama ụdị ọrụ."
+    }
+  },
+  "business_model": {
+    "title": "Ntọlite ụdị azụmahịa",
+    "subtitle": "Tọọ ụdị azụmahịa gị, anyị ga-ahazi OS gị n'azụ ọnọdụ ahụ."
+  },
+  "business_type": {
+    "title": "Ụdị ngwa ahịa",
+    "subtitle": "Tọọ ụdị ngwaahịa ịchọrọ ire n'ụlọ ahịa gị. Ụdị ngwaahịa dị na Selldone karịrị naanị ụdị ngwaahịa; ọ bụ ihe gbasara usoro mmezu.",
+    "send_activation_request_to_support": "Zipu arịrịọ mmalite na tiketi nkwado.",
+    "require_kyc": "Onye nwe azụmaahịa KYC.",
+    "needs_enterprise_license": "Ịkwesịrị ịnwe ikikere Enterprise.",
+    "marketplace_caution_message": "Tọọ Ebe Ahịa ka ihe nlereanya gị na-emetụta nhazi OS azụmahịa gị nke ukwuu. Dịka ọmụmaatụ, ị ga-akọwarịrị opekata mpe otu onye na-ere ngwaahịa maka ngwaahịa ọ bụla nwere ọnụ ahịa na ngwa ahịa nọọrọ onwe ya. Ndị ahịa enweghị ike ịzụta ngwaahịa na-enweghị onye na-ere ahịa."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Ụlọ ahịa nkịtị",
+      "desc": "A na-ahụkarị SME, azụmahịa ụlọ, ma ọ bụ dropshipper - onye na-ere ngwaahịa ha ozugbo nye ndị ahịa ma ọ bụ na-ere ngwaahịa ndị na-ere ahịa dị ka onye na-ere ere."
+    },
+    "dropshipping": {
+      "title": "Mbupu",
+      "desc": "Debe ngwaahịa na enweghị ngwa ahịa - ị na-akwụ ndị ọzọ ụgwọ, na-abụkarị onye na-ere ahịa (dị ka Bipụta, N'ogbe2B, ...) ma ọ bụ onye nrụpụta, ha na-emezu iwu n'azụ ihe nkiri ahụ."
+    },
+    "wholesaler": {
+      "title": "Onye na-ebubata mbupu",
+      "desc": "Ọtụtụ mgbe onye na-ere ahịa ma ọ bụ onye na-emepụta ihe - onye na-ebuga iwu ozugbo nye ndị ahịa njedebe. Ndị ahịa ndị ọzọ na Selldone nwere ike ibubata ngwaahịa gị n'ụlọ ahịa ha."
+    },
+    "marketplace": {
+      "title": "Ebe ahịa",
+      "desc": "Azụmaahịa dị n'ịntanetị na-ejikọ ndị na-azụ ahịa na ndị na-ere ahịa n'elu ikpo okwu nwere onwe yana nke etiti."
+    },
+    "franchise": {
+      "title": "Franchise / Mgbakwunye",
+      "desc": "Aha aha bụ usoro nkesa ngwaahịa ma ọ bụ ọrụ metụtara franchisor nke na-ewepụta akara gị (Franchising) ma ọ bụ na-ere ngwaahịa gị site na akara ha (Mgbakwunye)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Akpa akpa",
+    "pricing_models": "Ịnye ọnụ ahịa",
+    "add_vendor": "Tinye onye na-ere ahịa",
+    "requests": "Arịrịọ"
+  },
+  "price_input_type": {
+    "title": "Ụdị ntinye ọnụ ahịa",
+    "default": {
+      "title": "Ọdabara",
+      "desc": "Họrọ uru dị ka ọnụọgụ n'ime ụgbọ ibu ahụ."
+    },
+    "area": {
+      "title": "Mpaghara",
+      "desc": "Tinye obosara na ogologo dị ka ntinye iji gbakọọ ọnụọgụ."
+    },
+    "volume": {
+      "title": "olu",
+      "desc": "Tinye obosara, ogologo na ịdị elu dị ka ntinye iji gbakọọ ọnụọgụ."
+    },
+    "custom": {
+      "title": "Omenala (Site n'ụdị ntinye)",
+      "desc": "Enweghị mkpa ọtụtụ narị variants! Mepụta ụdị ngụkọ ọnụ ahịa maka ngwaahịa nwere ike ịhazi nke ukwuu."
+    }
+  },
+  "vendors_list": {
+    "title": "Ndị na-ere m",
+    "message": "Ndepụta nke ndị na-ere ahịa nke m."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Jikọọ ọtụtụ ngalaba na OS azụmahịa gị ma jikwaa ha niile n'otu ebe. Ị nwere ike iji ọtụtụ ngalaba atụmatụ ịmepụta ngalaba raara onwe ya nye maka akụkụ ọ bụla nke weebụsaịtị gị, dị ka blọọgụ na obodo, ma ọ bụ jiri ngalaba dị iche iche maka ndị mmekọ gị."
+  },
+  "notes": {
+    "add_action": "Tinye ndetu maka otu gị",
+    "notifications": {
+      "success_add": "E tinyela ndetu nke ọma.",
+      "success_delete": "E hichapụla ndetu nke ọma."
+    }
+  },
+  "external_services": {
+    "title": "Ọrụ mpụga",
+    "subtitle": "Nyochaa ọnọdụ ikpeazụ nke ọrụ mpụga dị ka SMS na ozi ịntanetị ebe a."
   }
 };

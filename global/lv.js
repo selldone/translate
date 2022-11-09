@@ -558,7 +558,52 @@ export default {
     "merchant": "Tirgotājs",
     "per_product": "Katram produktam",
     "journey": "Ceļojums",
-    "after": "Pēc"
+    "after": "Pēc",
+    "waiting_for_payment": "Lūdzu, pabeidziet maksājumu...",
+    "hour": "Stunda",
+    "minute": "Minūte",
+    "premium": "Premium",
+    "light": "Gaisma",
+    "dark": "Tumšs",
+    "guest": "Viesis",
+    "shops": "Veikali",
+    "vendor": "Pārdevējs",
+    "vendors": "Pārdevēji",
+    "marketplace": "Tirgus laukums",
+    "verify_date": "Apstipriniet datumu",
+    "note": "Piezīme",
+    "panel": "Panelis",
+    "removed": "Noņemts",
+    "segments": "Segmenti",
+    "personal_info": "Personiskā informācija",
+    "preferences": "Preferences",
+    "spec": "Spec",
+    "reviews": "Atsauksmes",
+    "constraints": "Ierobežojumi",
+    "flexible": "Elastīgs",
+    "usage_limit": "Lietošanas ierobežojums",
+    "temporary": "Pagaidu",
+    "original": "Oriģināls",
+    "saved": "Saglabāts!",
+    "sort": "Kārtot",
+    "documents": "Dokumenti",
+    "document": "Dokuments",
+    "please_wait": "Lūdzu uzgaidiet...",
+    "pickup": "Pacelt",
+    "customize": "pielāgot",
+    "difficulty": "Grūtības",
+    "banned": "Aizliegts",
+    "company": "Uzņēmums",
+    "tax_shipping": "Piegādes nodoklis",
+    "warranty": "Garantija",
+    "return_policy": "Atgriešanas nosacījumi",
+    "guide": "Vadīt",
+    "translate": "Tulkot",
+    "public": "Publisks",
+    "deleted": "Izdzēsts",
+    "variant": "Variants",
+    "secure": "Droši",
+    "admin": "Administrators"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Trase",
     "change_state": "Mainīt statusu",
     "done": "Gatavs",
-    "reply": "Atbildēt"
+    "reply": "Atbildēt",
+    "watch_now": "Skatīties tagad",
+    "unlock": "Atbloķēt",
+    "lock": "Slēdzene",
+    "create_clone": "Izveidot klonu",
+    "regenerate": "Atjaunot",
+    "add_message": "Pievienot ziņojumu",
+    "continue_chat": "Turpināt tērzēšanu",
+    "add_new_message": "Pievienot jaunu ziņojumu"
   },
   "instance_message_title": "Nosūtiet tūlītējo ziņojumu",
   "instance_message": "Sveiki, {name}! Mani sauc {author} no {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Pasta indekss",
     "enter_value": "Aizpildiet šeit",
     "address_note": "Piezīme",
-    "tel": "Kontaktpersonas numurs"
+    "tel": "Kontaktpersonas numurs",
+    "service_address": "Izvēlieties savu adresi"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "mārciņas",
     "ceturtdaļas",
     "pagalmiem",
-    "telpa"
+    "telpa",
+    "sekundes",
+    "minūtes",
+    "stundas",
+    "dienas",
+    "nedēļas",
+    "mēnešus",
+    "gadiem"
   ],
   "region_types": {
     "State": "Valsts",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Minimālajam garumam ir jābūt {length}",
     "invalid_min_array_length": "Atlasiet vismaz {length} vienumus",
     "invalid_max_chars": "Maksimālais rakstzīmju skaits: {maxCount}",
-    "invalid_url": "Nederīgs URL"
+    "invalid_url": "Nederīgs URL",
+    "country_invalid": "Izvēlieties galamērķa valsti!",
+    "postal_code_invalid": "Iestatiet derīgu pasta indeksu!"
   },
   "colors": {
     "#D32F2F": "sarkans",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Balts",
     "#FFF": "Balts",
     "#000000": "Melns",
-    "#000": "Melns"
+    "#000": "Melns",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Zelts",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Armija",
+    "#474747": "Asfalts",
+    "#E6195C": "Oga",
+    "#B2184C": "Ogu triblends",
+    "#FC7F5F": "Sadedzis apelsīns",
+    "#80011F": "Kardināls",
+    "#382829": "Šokolāde",
+    "#F06336": "Koraļļi",
+    "#FAE7C9": "Krēms",
+    "#6B2257": "jāņogas",
+    "#222127": "Tumši pelēks",
+    "#0D5A74": "Dziļi Teal",
+    "#00582F": "Mūžzaļš",
+    "#214C30": "Mežs",
+    "#DC2867": "Fuksija",
+    "#38561": "Kellija",
+    "#5C884D": "Lapa",
+    "#558450": "Gaišs Aqua",
+    "#96B5C9": "Gaiši zils",
+    "#DCAFCE": "Ceriņi",
+    "#D3E1A4": "Laims",
+    "#9DE7C2": "Piparmētra",
+    "#F6EAD2": "Dabiski",
+    "#1A1F35": "Navy",
+    "#404624": "Olīva",
+    "#271020": "Plūme",
+    "#A8355C": "Aveņu",
+    "#D6BEA6": "Mīksts krēms",
+    "#BEA994": "Iedegums",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "violets",
+    "#36454F": "Ogles",
+    "#b3b0ab": "oglekļa pelēks",
+    "#463e3d": "Ogles Virši",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Vārds",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Ēkas numurs",
     "building_unit": "Vienība",
     "postcode": "Pasta indekss",
-    "note": "Piezīme"
+    "note": "Piezīme",
+    "county": "Apgabals"
   },
   "product_types": {
     "physical": "Fiziskā",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Krāsa",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Vienkārši",
       "selective": "Selektīvs",
-      "switch": "Slēdzis"
-    }
+      "switch": "Slēdzis",
+      "file": "Fails",
+      "number": "Numurs"
+    },
+    "placeholder_input": "Vietturis",
+    "file_type_input": "Pieņemamie failu tipi",
+    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "produkta nosaukums",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Ievadiet savu mobilo tālruni",
     "verification_code": "Verifikācijas kods",
     "msg_title": "Sveiki,",
-    "msg_body": "Lūdzu, piesakieties. Tas aizņem tikai dažas sekundes."
+    "msg_body": "Lūdzu, piesakieties. Tas aizņem tikai dažas sekundes.",
+    "login_apple": "Piesakieties ar Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Atzīmes pievienotas"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Ļoti sarežģīti",
+    "hard": "Grūti",
+    "intermediate": "Vidēja līmeņa",
+    "easy": "Viegli"
   }
 };

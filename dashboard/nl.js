@@ -155,7 +155,19 @@ export default {
       "Setup": "op te slaan",
       "Sell": "Verkoop & Marketing",
       "Developer": "Ontwikkelen",
-      "Application": "Toepassingen"
+      "Application": "Toepassingen",
+      "Product": "Beheer van producten en categorieën",
+      "Blog": "CMS & Blog",
+      "Order": "Orderverwerkingscentrum",
+      "Channel": "Verkoopkanalen",
+      "Accounting": "Boekhoud- en betalingsmethoden",
+      "Incentives": "Stimulansen",
+      "Marketing": "Marketing en campagnes",
+      "Logistic": "Logistiek & verzending",
+      "Customers": "Klantenclub en segmentatie",
+      "Page": "Bestemmings- en aangepaste pagina's",
+      "Access": "Personeel / API-toegangsbeheer",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github-opslagplaats",
@@ -193,7 +205,9 @@ export default {
       "stores": "Winkels",
       "roles": "Rollen",
       "home": "Thuis",
-      "expert": "Deskundige"
+      "expert": "Deskundige",
+      "deals": "Aanbiedingen",
+      "providers": "Aanbieders"
     },
     "shops": {
       "create_new": "Nieuwe winkel maken",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Toestand",
           "created_at": "Aanmaakdatum",
           "updated_at": "Laatste update"
-        }
+        },
+        "subtitle": "Schrijf artikelen met een moderne inline editor om uzelf en uw bedrijf te presenteren. Originele inhoud is het eerste waar u zich op moet concentreren bij het schrijven van een SEO-vriendelijke blogpost van hoge kwaliteit."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Verslag doen van",
         "tax": "Belasting",
         "drop_shipping": "Resellerbonnen",
-        "reseller_accounts": "Reseller-accounts"
+        "reseller_accounts": "Reseller-accounts",
+        "valuations": "taxaties"
       },
       "invoice": {
         "title": "Gekoppelde portemonnees kopen",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Verzending",
         "inventory": "Voorraad",
         "warehouse": "Magazijn",
-        "logistic_apps": "Logistiek"
+        "logistic_apps": "Logistiek",
+        "profiles": "Profielen"
       },
       "warehouse": {
         "title": "Winkel magazijn",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Minimale bestelkosten voor gratis verzending",
           "notifications": {
             "update_success": "Instellingen van de verzendservice zijn voltooid."
-          }
+          },
+          "shipping_cost_calculation": "Verzendkosten berekening",
+          "sod_true": "Ontvang verzendkosten op bestemming",
+          "sod_true_message": "Zorg ervoor dat uw verzendservice de verzendkosten op de bestemming accepteert.",
+          "sod_false": "Automatische verzendkosten berekening",
+          "cod_true": "Accepteer onder rembours",
+          "cod_false": "Alleen online betaling accepteren",
+          "cod_true_message": "Zorg ervoor dat uw verzendservice rembours accepteert."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "Sms",
         "email": "E-mail",
         "domain": "Domein",
-        "verifications": "verificaties"
+        "verifications": "verificaties",
+        "flow": "Stromen",
+        "business_model": "Bedrijfsmodel"
       },
       "delete_dialog": {
         "title": "Winkel verwijderen",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Producteenheid:",
       "unit_float": "Vlottereenheid (binnenkort)",
       "unit_float_hint": "De klant kan bijvoorbeeld 3 kg fruit bestellen, maar het bedrag dat naar de klant wordt gestuurd wijkt iets af van het bestelde bedrag.",
-      "unit_float_message": "Tijdens de orderverwerking kan het geleverde bedrag afwijken van het bestelde bedrag. Het systeem berekent dit verschil automatisch en registreert het als uw schuld aan de klant, die kan worden verrekend met de volgende bestellingen."
+      "unit_float_message": "Tijdens de orderverwerking kan het geleverde bedrag afwijken van het bestelde bedrag. Het systeem berekent dit verschil automatisch en registreert het als uw schuld aan de klant, die kan worden verrekend met de volgende bestellingen.",
+      "status_list": {
+        "active": {
+          "title": "Actief | Online en offline verkoop",
+          "description": "Dit product zal beschikbaar zijn voor online bestellingen."
+        },
+        "inactive": {
+          "title": "Inactief | Alleen offline verkoop",
+          "description": "Dit product is niet beschikbaar voor online bestellingen."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Vragenlijst",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Selecteer de eindtijd",
       "independent_price": "De prijs alleen voor deze variant",
       "same_price": "De prijs voor het hoofdproduct:",
-      "variant_pricing_message": "Door deze optie te selecteren kan de prijs van deze variant onafhankelijk van het hoofdproduct worden ingesteld."
+      "variant_pricing_message": "Door deze optie te selecteren kan de prijs van deze variant onafhankelijk van het hoofdproduct worden ingesteld.",
+      "price_label_input": "Prijskaartje",
+      "price_label_message": "Voeg extra informatie over de prijs toe, zoals ( $ 1,5 / Fl Oz ). Gebruiksscenario's: supermarkt, FMCG.",
+      "add_price_label_action": "Prijslabel toevoegen"
     },
     "inputs_edit": {
       "title": "Invoerformulier voor kopersinformatie",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gateway {gateway_name} bewerkt."
     },
-    "developer_setting": "Ontwikkelen & testen"
+    "developer_setting": "Ontwikkelen & testen",
+    "live_mode_message": "Alle transacties zullen in de live-modus zijn."
   },
   "gift_card": {
     "title": "Cadeaubonnen",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Factuuradres aangepast door koper.",
     "payment-cod-confirm": "Onder rembours De betaling is bevestigd.",
     "payment-cash-confirm": "De betaling van {amount} {currency} in contanten voor de rekening is bevestigd.",
-    "payment-dir-confirm": "Ontvangst van directe betaling werd bevestigd."
+    "payment-dir-confirm": "Ontvangst van directe betaling werd bevestigd.",
+    "vendor": "Status van leveranciersorder gewijzigd van <b>{from}</b> in <b>{to}</b> .",
+    "connect-sync": "Bestelling gesynchroniseerd door Connect OS.",
+    "connect-shipped": "Connect-bestelling is verzonden door {shipping}.",
+    "connect-returned": "Connect-bestelling is geretourneerd door {shipping}.",
+    "connect-failed": "Afhandeling van bestelling is mislukt door de partner. {reason}",
+    "connect-canceled": "De bestelling is geannuleerd door de partner. {reason}",
+    "connect-action-cancel": "Verzoek om bestelling te annuleren. {reason}",
+    "connect-put-hold": "De bestelling werd in de wacht gezet. {reason}",
+    "connect-remove-hold": "De bestelling is uit de wacht gehaald. {reason}",
+    "connect-confirmed": "De bestelling is bevestigd.",
+    "email-vendor": "🔔 Bestelinformatie e-mail is verzonden naar <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Vandaag",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Geld verdienen",
     "menu": {
       "plans": "Plannen",
-      "accounts": "rekeningen"
+      "accounts": "rekeningen",
+      "participant": "Deelnemer"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Toegangssleutels opslaan",
     "shop_keys_message": "Deze sleutels worden gebruikt om Access Token te maken door uw server. Houd er rekening mee dat de sleutels vertrouwelijk zijn en alleen op de server worden geplaatst zodat ze niet zichtbaar zijn voor anderen.",
     "personal_keys_title": "Persoonlijke toegangssleutels",
-    "personal_keys_message": "U kunt hier de sleutels van uw account aanmaken. Houd er rekening mee dat deze sleutels toegang hebben tot uw account. Maak en gebruik deze sleutels alleen als u precies weet wat u doet."
+    "personal_keys_message": "U kunt hier de sleutels van uw account aanmaken. Houd er rekening mee dat deze sleutels toegang hebben tot uw account. Maak en gebruik deze sleutels alleen als u precies weet wat u doet.",
+    "clients_title": "Klanten",
+    "clients_message": "Deze sleutels worden gebruikt om Access Token te maken door uw server. Houd er rekening mee dat de sleutels vertrouwelijk zijn en alleen op de server worden geplaatst zodat ze niet zichtbaar zijn voor anderen."
   },
   "user_security_control": {
     "title": "accountbeveiliging",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Profielen beheren",
       "description": "Beheer winkelprofielen."
+    },
+    "shop-discount-code": {
+      "name": "Beheer van kortingscodes",
+      "description": "Beheer, bewerk en voeg winkelkortingscodes toe."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Instellingen",
       "change": "Aanval",
       "transfer": "Overdracht",
-      "transactions": "Transacties"
+      "transactions": "Transacties",
+      "charge": "Aanval",
+      "history": "Geschiedenis"
     },
     "transactions": {
       "title": "Accounttransacties",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Bevestiging abonnement annuleren",
       "message": "Weet je zeker dat je dit abonnement opzegt?",
       "action": "Annuleer abonnement"
-    }
+    },
+    "use_voucher_now": "Gebruik voucher nu",
+    "validity_duration": "Geldigheidsduur",
+    "validity_duration_hint": "Bij aanschaf van een licentie voor 12 maanden ontvangt u 30% korting."
   },
   "admin_shop_layout": {
     "download_txt": "Gegevenstekst downloaden",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Grote lettertypen",
     "large_font_message": "Tekst groter dan normaal weergeven",
     "samples": "Toon voorbeeldwinkels",
-    "samples_message": "Indien ingeschakeld, worden enkele voorbeeldwinkels weergegeven in uw paneel."
+    "samples_message": "Indien ingeschakeld, worden enkele voorbeeldwinkels weergegeven in uw paneel.",
+    "automation": "Automatisering",
+    "automation_message": "Toon automatiseringstabblad op winkeldashboard. (Webhooks, Visueel programmeren, ...)"
   },
   "shop_locations": {
     "title": "Landen waar service wordt verleend",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Coupon is succesvol verwijderd."
-    }
+    },
+    "multiple_use": "Meervoudig gebruik"
   },
   "coupon_edit": {
     "title_edit": "Coupon bewerken",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Begrenzing",
       "description": "Stel een limiet in op het maximum aantal gebruikers."
+    },
+    "SEGMENTS": {
+      "title": "Segmenten",
+      "description": "Beperk klanten tot specifieke handmatige segmentatie."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Het totale orderbedrag is van de cadeaubonnen afgeschreven! De koper hoeft niet meer te betalen.",
       "cod_msg": "De klant betaalt bij ontvangst van de bestelling.",
       "online_msg": "Vraag de klant om de QR-code op het klantenscherm te scannen."
-    }
+    },
+    "name": "POS",
+    "message": "Laat uw online verkooppunt kostenloos instellen, voer het uit op elke smartphone, tablet en pc, of maak handmatig bestellingen aan."
   },
   "exporter": {
     "title": "Exportgegevens",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Verzenden naar server",
     "shop_license": "Winkel licentie",
     "max_items_limit": "Maximum aantal items",
-    "total_items": "Totaal artikelen"
+    "total_items": "Totaal artikelen",
+    "customer": {
+      "title": "Klanten importeren",
+      "subtitle": "Upload hier CSV-bestanden van klanten. Zorg ervoor dat u het standaardformaat volgt en ook dat u zich aan de privacyregels moet houden."
+    }
   },
   "campaigns": {
     "title": "Campagnes",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Links",
     "light_checkout": "Licht afrekenthema",
     "light_header": "Lichte kop",
-    "light_footer": "Lichte voettekst"
+    "light_footer": "Lichte voettekst",
+    "product_page": "Productpagina",
+    "typography": "Typografie",
+    "header": "kop",
+    "custom_code": "Aangepaste code",
+    "custom_css": "Aangepaste CSS"
   },
   "app_templates": {
     "default": "Standaard",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Service beheren",
     "option_deliver_by_courier": "Optie 1: Bezorgen door uw koeriers.",
     "option_add_to_que": "Optie 2: Toevoegen aan wachtrij om te verwerken op de verzendservicepagina.",
-    "option_instant_shipping": "Optie 3: Directe verzending."
+    "option_instant_shipping": "Optie 3: Directe verzending.",
+    "pickup_action": "Ophaalbevestiging"
   },
   "shop_home_edit": {
     "title": "Instelling startpagina",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Product toegevoegd aan uw winkel.",
       "request_access": "We hebben uw toegangsverzoek met succes naar de groothandel verzonden."
-    }
+    },
+    "show_eligible_shops_message": "In aanmerking komende winkels weergeven"
   },
   "product_dropshipping": {
     "need_re_enable": "Dit product is gewijzigd door de oorspronkelijke verkoper, deze prijswijzigingen hebben het product in uw winkel uitgeschakeld. Controleer de wijzigingen en als u akkoord gaat met het opnieuw activeren van het product, drukt u op de onderstaande knop.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Er is geen categorie in uw winkel.",
       "limit": "Producten limiet",
       "limit_message": "Voer het aantal productresultaten in",
-      "select_categories": "Selecteer beschikbare categorieën"
+      "select_categories": "Selecteer beschikbare categorieën",
+      "categories_limit": "Categorieën limiet",
+      "categories_limit_msg": "Vul het maximum aantal categorieën in. Stel nul in voor geen limiet."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avocado is bijgewerkt.",
       "add_success": "Avocado met succes gemaakt."
-    }
+    },
+    "name": "Avocado"
   },
   "avocado_orders": {
     "title": "Avocado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "inactief",
     "active_message": "Als u deze optie inschakelt, wordt de mogelijkheid om de Fast-Sales-Codes aan te maken weergegeven in het beheergedeelte van elk product.",
     "hyper_form_link_message": "De hyperlink naar de hyperpagina van uw winkel",
-    "configuration": "Hyper-instellingen"
+    "configuration": "Hyper-instellingen",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Klantendemografie",
     "subtitle": "Filter en exporteer uw klantgegevens om betere beslissingen te nemen en meer waarde te leveren met minder marketing! Respecteer de privacy van uw klanten en stuur ze nooit massaal e-mails naar hen! Deel nooit de informatie van uw klanten met diensten van derden zonder toestemming van elk van hen."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Ophaaladressen",
+      "subtitle": "Voeg hier afhaaladressen toe en bewerk ze. Gebruikers kunnen het afhaaladres selecteren op de afrekenpagina.",
+      "add_action": "Nieuwe locatie toevoegen"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Affiliate POS",
+    "open_pos_action": "Snel bestellen POS",
+    "description": "Deze optie is geschikt voor beheerders van Instagram-pagina's en andere sociale netwerken. Gebruik Affiliate POS om handmatig bestellingen van klanten te ontvangen en toe te voegen. Uw filialen (of franchise) kunnen nieuwe bestellingen toevoegen in de Affiliate POS en de stortingsbon uploaden."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Inlogmethoden",
+      "subtitle": "Pas de manier aan waarop gebruikers inloggen bij uw winkel."
+    },
+    "checkout": {
+      "title": "Afrekenproces",
+      "subtitle": "Pas uw klantreis en aankoopstroom aan in uw e-commerce.",
+      "map": {
+        "title": "Kaart",
+        "subtitle": "Gebruikers moeten de bezorglocatie op de kaart selecteren (zoals Uber).",
+        "subtitle_no_map": "Afstand in verzendberekening wordt als nul beschouwd als de locatie niet bestaat in het door de klant opgegeven adres."
+      },
+      "mode": {
+        "title": "Inlogpunt klanten",
+        "default": {
+          "title": "zo snel mogelijk (standaard)",
+          "msg": "Gebruikers loggen zo snel mogelijk in. (Meer conversie)"
+        },
+        "on_checkout": {
+          "title": "Bij het afrekenen",
+          "msg": "Dwing gebruikers om in te loggen bij het afrekenen."
+        },
+        "login_free": {
+          "title": "Optioneel inloggen",
+          "msg": "Optioneel inloggen na bestelling betaling.."
+        }
+      },
+      "express": {
+        "title": "Omleiden na toevoegen aan winkelwagen",
+        "false": {
+          "title": "Normale modus",
+          "msg": "Blijf op de pagina en ga verder met winkelen nadat u op toevoegen aan winkelwagen heeft geklikt."
+        },
+        "true": {
+          "title": "Express-modus",
+          "msg": "Stuur de klant door naar de afrekenpagina nadat hij op toevoegen aan winkelwagen heeft geklikt."
+        }
+      },
+      "shipping_address": {
+        "title": "Vraag naar verzendadres"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fysiek en service (standaard)",
+      "desc": "Vraag de klant om een adres in te voeren in de fysieke en servicekassa's."
+    },
+    "physical": {
+      "title": "Alleen fysiek",
+      "desc": "Vraag de klant om een adres in te voeren in de fysieke kassa."
+    },
+    "off": {
+      "title": "Nooit",
+      "desc": "Vraag nooit naar het verzendadres. ⚠ Gebruik deze optie als u services met varianten wilt hebben door het fysieke type voor producten te selecteren in plaats van het servicetype."
+    }
+  },
+  "business_model": {
+    "title": "Bedrijfsmodel instellen",
+    "subtitle": "Stel uw bedrijfsmodel in en wij configureren uw besturingssysteem achter de schermen."
+  },
+  "business_type": {
+    "title": "Soorten goederen",
+    "subtitle": "Stel het type producten in dat u in uw winkel wilt verkopen. Producttypes in Selldone zijn meer dan alleen een type van de producten; het gaat meer om de uitvoeringsprocedure.",
+    "send_activation_request_to_support": "Stuur een activeringsverzoek in een supportticket.",
+    "require_kyc": "Bedrijfseigenaar KYC.",
+    "needs_enterprise_license": "U heeft een Enterprise-licentie nodig.",
+    "marketplace_caution_message": "Stel Marketplace in als uw model, dat grote invloed heeft op de configuratie van uw zakelijke besturingssysteem. U moet bijvoorbeeld voor elk product ten minste één leverancier definiëren met onafhankelijke prijzen en voorraad. Klanten kunnen geen producten kopen die geen leverancier hebben."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Normale winkel",
+      "desc": "Gewoonlijk een KMO, thuisbedrijf of dropshipper - die hun product rechtstreeks aan klanten verkoopt of de producten van groothandelaars als wederverkoper verkoopt."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Houd geen product en geen inventaris - u betaalt aan een derde partij, meestal een groothandel (zoals Printify, Wholesale2B, ...) of fabrikant, en zij voeren bestellingen achter de schermen uit."
+    },
+    "wholesaler": {
+      "title": "Dropshipping leverancier:",
+      "desc": "Meestal een groothandel of een fabrikant die bestellingen rechtstreeks naar de eindconsument verzendt. Andere verkopers op Selldone kunnen je producten dropshippen in hun winkels."
+    },
+    "marketplace": {
+      "title": "Marktplaats",
+      "desc": "Online marktplaatsen verbinden kopers en verkopers op een eigen en gecentraliseerd platform."
+    },
+    "franchise": {
+      "title": "Franchise / Aangeslotene",
+      "desc": "Een franchise is een methode voor het distribueren van producten of diensten waarbij een franchisegever betrokken is die uw merk opricht (franchising) of uw producten verkoopt via hun merk (affiliate)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Portemonnees",
+    "pricing_models": "Prijzen",
+    "add_vendor": "Leverancier toevoegen",
+    "requests": "Verzoeken"
+  },
+  "price_input_type": {
+    "title": "Invoertype prijs",
+    "default": {
+      "title": "Standaard",
+      "desc": "Selecteer een waarde als het aantal in de winkelwagen."
+    },
+    "area": {
+      "title": "Gebied",
+      "desc": "Voer breedte en lengte in als invoer om de hoeveelheid te berekenen."
+    },
+    "volume": {
+      "title": "volume",
+      "desc": "Voer breedte, lengte en hoogte in als invoer om de hoeveelheid te berekenen."
+    },
+    "custom": {
+      "title": "Aangepast (via invoerformulier)",
+      "desc": "Geen honderden varianten nodig! Maak een aangepast kostenberekeningsformulier voor zeer aanpasbare producten."
+    }
+  },
+  "vendors_list": {
+    "title": "Mijn leveranciers",
+    "message": "Lijst van mijn eigen leveranciers."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Koppel meerdere domeinen aan uw zakelijke besturingssysteem en beheer ze allemaal op één plek. U kunt de functie voor meerdere domeinen gebruiken om speciale domeinen te maken voor elk deel van uw website, zoals blog en community, of verschillende domeinen gebruiken voor uw gelieerde ondernemingen."
+  },
+  "notes": {
+    "add_action": "Voeg een notitie toe voor je team",
+    "notifications": {
+      "success_add": "Opmerking is succesvol toegevoegd.",
+      "success_delete": "Notitie is succesvol verwijderd."
+    }
+  },
+  "external_services": {
+    "title": "Externe dienstverlening",
+    "subtitle": "Volg hier de laatste status van de externe diensten zoals sms en e-mails."
   }
 };

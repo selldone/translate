@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Productes relacionats",
     "price": "Preu",
     "rate": "Taxa",
-    "comment": "Comenta"
+    "comment": "Comenta",
+    "warranty": "Garantia",
+    "return_policy": "Política de devolució",
+    "guide": "Guia",
+    "shipping": "Enviament"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "La teva comanda s'ha fet correctament.",
       "delete_success": "Element suprimit."
-    }
+    },
+    "select_address_message": "Introduïu la vostra adreça i després podreu enviar la comanda."
   },
   "hyper": {
     "title": "Creació d'ordres",
@@ -541,5 +546,19 @@ export default {
       "message": "Heu especificat un càrrec per a aquest article. Podeu canviar l'import del càrrec per a l'article comprat pel client.",
       "charge": "Càrrega"
     }
+  },
+  "check_access": {
+    "waiting_message": "S'està esperant per comprovar l'accés...",
+    "no_access_message": "Malauradament, no teniu accés a la nostra botiga.<br/> Si us plau, poseu-vos en contacte amb nosaltres."
+  },
+  "share_order": {
+    "action": "Comparteix l'ordre",
+    "title": "Comparteix aquesta comanda amb altres persones.",
+    "message": "És un enllaç segur, només compartiu-lo amb els que coneixeu. Tothom amb aquest enllaç pot duplicar la teva comanda i veure l'adreça seleccionada. Contindrà informació sobre el vostre carretó actual.",
+    "valid_period": "Aquest enllaç caducarà al cap de 48 hores.",
+    "import_order_action": "Comanda d'importació",
+    "retrieve_dialog_title": "Recuperar l'ordre extern",
+    "address_included": "Comparteix articles de cistella + Adreça",
+    "address_excluded": "Comparteix només articles de la cistella"
   }
 };

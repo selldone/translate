@@ -558,7 +558,52 @@ export default {
     "merchant": "Ganacsade",
     "per_product": "Alaabta kasta",
     "journey": "Safarka",
-    "after": "Kadib"
+    "after": "Kadib",
+    "waiting_for_payment": "Fadlan dhamaystir lacag bixinta...",
+    "hour": "Saacad",
+    "minute": "Daqiiqado",
+    "premium": "Premium",
+    "light": "Iftiin",
+    "dark": "Madow",
+    "guest": "Martida",
+    "shops": "Dukaamada",
+    "vendor": "Iibiyaha",
+    "vendors": "Iibiyeyaasha",
+    "marketplace": "Suuqa",
+    "verify_date": "Xaqiiji taariikhda",
+    "note": "Ogow",
+    "panel": "Guddi",
+    "removed": "Laga saaray",
+    "segments": "Qaybaha",
+    "personal_info": "Macluumaadka shakhsiyeed",
+    "preferences": "Dookhyada",
+    "spec": "Spec",
+    "reviews": "Faallooyin",
+    "constraints": "Caqabadaha",
+    "flexible": "Dabacsan",
+    "usage_limit": "Xadka isticmaalka",
+    "temporary": "Ku meel gaadh",
+    "original": "Asalka",
+    "saved": "la badbaadiyay!",
+    "sort": "Kala soocida",
+    "documents": "Dukumentiyada",
+    "document": "Dukumeenti",
+    "please_wait": "Fadlan sug...",
+    "pickup": "Qaadista",
+    "customize": "habayn",
+    "difficulty": "Dhib",
+    "banned": "La mamnuucay",
+    "company": "Shirkadda",
+    "tax_shipping": "Canshuurta dhoofinta",
+    "warranty": "dammaanad",
+    "return_policy": "Siyaasadda soo celinta",
+    "guide": "Hagaha",
+    "translate": "Turjun",
+    "public": "Dadweynaha",
+    "deleted": "La tirtiray",
+    "variant": "Kala duwanaansho",
+    "secure": "Aamin",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Raad raac",
     "change_state": "Beddel Xaaladda",
     "done": "La sameeyay",
-    "reply": "jawaab"
+    "reply": "jawaab",
+    "watch_now": "Daawo Hadda",
+    "unlock": "Fur",
+    "lock": "Quful",
+    "create_clone": "Abuur clone",
+    "regenerate": "Dib u soo noolayn",
+    "add_message": "Fariin ku dar",
+    "continue_chat": "Wada sheekeysiga",
+    "add_new_message": "Ku dar fariin cusub"
   },
   "instance_message_title": "Dir fariin degdeg ah",
   "instance_message": "Hi {name}, Magacaygu waa {author} ka {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Koodhka boostada",
     "enter_value": "Halkan ku buuxi",
     "address_note": "Ogow",
-    "tel": "Lambarka xiriirka"
+    "tel": "Lambarka xiriirka",
+    "service_address": "Dooro ciwaanka"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "rodol",
     "rubuc",
     "deyrar",
-    "Qol"
+    "Qol",
+    "ilbiriqsi",
+    "daqiiqado",
+    "saacadood",
+    "maalmo",
+    "toddobaadyo",
+    "bilo",
+    "sanado"
   ],
   "region_types": {
     "State": "Gobolka",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Dhererka ugu yar waa inuu ahaadaa {length}",
     "invalid_min_array_length": "Ugu yaraan dooro alaabta {length}",
     "invalid_max_chars": "Xarfaha ugu badan {maxCount}",
-    "invalid_url": "URL aan sax ahayn"
+    "invalid_url": "URL aan sax ahayn",
+    "country_invalid": "Dooro dalka aad u socoto!",
+    "postal_code_invalid": "Deji kood boosto sax ah!"
   },
   "colors": {
     "#D32F2F": "Casaan",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Caddaan",
     "#FFF": "Caddaan",
     "#000000": "Madow",
-    "#000": "Madow"
+    "#000": "Madow",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Dahab",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Ciidan",
+    "#474747": "Daamur",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Orange gubtay",
+    "#80011F": "Cardinal",
+    "#382829": "Chocolate",
+    "#F06336": "Coral",
+    "#FAE7C9": "Kareemka",
+    "#6B2257": "Currant",
+    "#222127": "Cawlan madow",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Evergreen",
+    "#214C30": "Kaynta",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Caleen",
+    "#558450": "Aqua Light",
+    "#96B5C9": "Buluug khafiif ah",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "lime",
+    "#9DE7C2": "Mint",
+    "#F6EAD2": "Dabiiciga ah",
+    "#1A1F35": "Ciidamada badda",
+    "#404624": "Saytuun",
+    "#271020": "Plum",
+    "#A8355C": "Raspberry",
+    "#D6BEA6": "Labeen Jilicsan",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teel",
+    "#A86EA9": "Violet",
+    "#36454F": "Dhuxul",
+    "#b3b0ab": "kaarboon Gray",
+    "#463e3d": "Dhuxusha",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Magaca",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Nambarka dhismaha",
     "building_unit": "Unug",
     "postcode": "Koodhka boostada",
-    "note": "Ogow"
+    "note": "Ogow",
+    "county": "Gobolka"
   },
   "product_types": {
     "physical": "Jireed",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Midabka",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Fudud",
       "selective": "Xulasho",
-      "switch": "Bedel"
-    }
+      "switch": "Bedel",
+      "file": "Faylka",
+      "number": "Tirada"
+    },
+    "placeholder_input": "Dhige",
+    "file_type_input": "Noocyada faylka la aqbali karo",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Magaca Alaabta",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Geli mobilkaaga",
     "verification_code": "Koodhka xaqiijinta",
     "msg_title": "Hi,",
-    "msg_body": "Fadlan soo gal Waxay qaadataa dhowr ilbiriqsi oo kaliya."
+    "msg_body": "Fadlan soo gal Waxay qaadataa dhowr ilbiriqsi oo kaliya.",
+    "login_apple": "Ku soo gal Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Tags daray"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Aad u adag",
+    "hard": "Adag",
+    "intermediate": "Dhexdhexaad",
+    "easy": "Fudud"
   }
 };

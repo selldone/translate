@@ -558,7 +558,52 @@ export default {
     "merchant": "Merchant",
     "per_product": "Per pruduttu",
     "journey": "Viaghju",
-    "after": "Dopu"
+    "after": "Dopu",
+    "waiting_for_payment": "Per piacè cumplete u pagamentu ...",
+    "hour": "Ora",
+    "minute": "Minutu",
+    "premium": "Premium",
+    "light": "Luce",
+    "dark": "scuru",
+    "guest": "Invitatu",
+    "shops": "Magazzini",
+    "vendor": "Venditore",
+    "vendors": "Venditori",
+    "marketplace": "Mercatu",
+    "verify_date": "Verificate a data",
+    "note": "Nota",
+    "panel": "Panel",
+    "removed": "Sguassatu",
+    "segments": "Segmenti",
+    "personal_info": "infurmazione persunale",
+    "preferences": "Preferenze",
+    "spec": "Spec",
+    "reviews": "Critiche",
+    "constraints": "Custrizzioni",
+    "flexible": "Flexible",
+    "usage_limit": "Limitu di usu",
+    "temporary": "Pruvisoriu",
+    "original": "Uriginale",
+    "saved": "Salvatu!",
+    "sort": "Sorte",
+    "documents": "Ducumenti",
+    "document": "Documentu",
+    "please_wait": "Per piacè aspettate...",
+    "pickup": "Piglia",
+    "customize": "persunalizà",
+    "difficulty": "Difficultà",
+    "banned": "Banned",
+    "company": "Cumpagnia",
+    "tax_shipping": "Tassa di spedizione",
+    "warranty": "Garanzia",
+    "return_policy": "Pulitica di ritornu",
+    "guide": "Guida",
+    "translate": "Traduce",
+    "public": "Publicu",
+    "deleted": "Sguassatu",
+    "variant": "Variante",
+    "secure": "Secure",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Pista",
     "change_state": "Cambia Status",
     "done": "Fattu",
-    "reply": "Rispondimi"
+    "reply": "Rispondimi",
+    "watch_now": "Fighjate avà",
+    "unlock": "Sbloccare",
+    "lock": "Lock",
+    "create_clone": "Crea un clone",
+    "regenerate": "Rigenerate",
+    "add_message": "Aggiungi missaghju",
+    "continue_chat": "Cuntinuà a chat",
+    "add_new_message": "Aghjunghjite un novu missaghju"
   },
   "instance_message_title": "Mandate un missaghju immediata",
   "instance_message": "Salute {name}, Mi chjamu {author} da {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "codice postale",
     "enter_value": "Riempite quì",
     "address_note": "Nota",
-    "tel": "Numeru di cuntattu"
+    "tel": "Numeru di cuntattu",
+    "service_address": "Sceglite u vostru indirizzu"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "libbra",
     "quarti",
     "cantieri",
-    "stanza"
+    "stanza",
+    "seconde",
+    "minuti",
+    "ore",
+    "ghjorni",
+    "settimane",
+    "mesi",
+    "anni"
   ],
   "region_types": {
     "State": "Statu",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "A lunghezza minima deve esse {length}",
     "invalid_min_array_length": "Almenu selezziunate {length} elementi",
     "invalid_max_chars": "Massimu {maxCount} caratteri",
-    "invalid_url": "URL invalidu"
+    "invalid_url": "URL invalidu",
+    "country_invalid": "Sceglite u paese di destinazione!",
+    "postal_code_invalid": "Stabilite un codice postale validu!"
   },
   "colors": {
     "#D32F2F": "Rossu",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Biancu",
     "#FFF": "Biancu",
     "#000000": "Neru",
-    "#000": "Neru"
+    "#000": "Neru",
+    "#7d263a": "marrone",
+    "#FD9F17": "Oru",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "armata",
+    "#474747": "Asfaltu",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Orange Burnt",
+    "#80011F": "Cardinale",
+    "#382829": "Cioccolata",
+    "#F06336": "Coralli",
+    "#FAE7C9": "Crema",
+    "#6B2257": "Ribes",
+    "#222127": "Grigiu scuru",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Evergreen",
+    "#214C30": "Foresta",
+    "#DC2867": "Fucsia",
+    "#38561": "Kelly",
+    "#5C884D": "Foglia",
+    "#558450": "Light Aqua",
+    "#96B5C9": "Light Blue",
+    "#DCAFCE": "Lilla",
+    "#D3E1A4": "Lime",
+    "#9DE7C2": "Mint",
+    "#F6EAD2": "Naturale",
+    "#1A1F35": "Marina",
+    "#404624": "Oliva",
+    "#271020": "Prugna",
+    "#A8355C": "lampone",
+    "#D6BEA6": "Crema Morbida",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Viola",
+    "#36454F": "Carbone",
+    "#b3b0ab": "gris carbone",
+    "#463e3d": "Erica di carbone",
+    "#282d3c": "Blazer navy"
   },
   "address_info": {
     "name": "Nome",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Numaru di l'edificiu",
     "building_unit": "Unità",
     "postcode": "codice postale",
-    "note": "Nota"
+    "note": "Nota",
+    "county": "Cuntea"
   },
   "product_types": {
     "physical": "Fisica",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Culore",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Semplice",
       "selective": "Selettivu",
-      "switch": "Cambia"
-    }
+      "switch": "Cambia",
+      "file": "File",
+      "number": "numeru"
+    },
+    "placeholder_input": "Placeholder",
+    "file_type_input": "Tipi di schedari accettati",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Nome di u produttu",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Entre in u vostru telefuninu",
     "verification_code": "Codice di verificazione",
     "msg_title": "Salute,",
-    "msg_body": "Per piacè accede. Piglia solu uni pochi di seconde."
+    "msg_body": "Per piacè accede. Piglia solu uni pochi di seconde.",
+    "login_apple": "Login cù Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Tags aghjustatu"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Assai cumplicatu",
+    "hard": "Duru",
+    "intermediate": "Intermediu",
+    "easy": "Facile"
   }
 };

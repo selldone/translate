@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Saistītie produkti",
     "price": "Cena",
     "rate": "Likme",
-    "comment": "komentēt"
+    "comment": "komentēt",
+    "warranty": "Garantija",
+    "return_policy": "Atgriešanas nosacījumi",
+    "guide": "Vadīt",
+    "shipping": "Piegāde"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Jūsu pasūtījums tika veiksmīgi veikts.",
       "delete_success": "Vienums izdzēsts."
-    }
+    },
+    "select_address_message": "Lūdzu, ievadiet savu adresi, un pēc tam varat iesniegt pasūtījumu."
   },
   "hyper": {
     "title": "Pasūtījuma izveide",
@@ -541,5 +546,19 @@ export default {
       "message": "Jūs esat norādījis maksu par šo preci. Jūs varat mainīt klienta iegādātās preces maksas summu.",
       "charge": "Uzlādē"
     }
+  },
+  "check_access": {
+    "waiting_message": "Gaida, lai pārbaudītu piekļuvi...",
+    "no_access_message": "Diemžēl jums nav piekļuves mūsu veikalam.<br/> Lūdzu, sazinieties ar mums."
+  },
+  "share_order": {
+    "action": "Kopīgojiet pasūtījumu",
+    "title": "Kopīgojiet šo pasūtījumu ar citiem.",
+    "message": "Tā ir droša saite, kopīgojiet to tikai ar tiem, kurus pazīstat. Ikviens, kam ir šī saite, var dublēt jūsu pasūtījumu un redzēt izvēlēto adresi. Tajā būs informācija par jūsu pašreizējo grozu.",
+    "valid_period": "Šīs saites derīguma termiņš beigsies pēc 48 stundām.",
+    "import_order_action": "Importa pasūtījums",
+    "retrieve_dialog_title": "Izgūt ārējo pasūtījumu",
+    "address_included": "Kopīgojiet groza preces + Adrese",
+    "address_excluded": "Kopīgojiet tikai groza preces"
   }
 };

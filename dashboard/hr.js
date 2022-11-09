@@ -155,7 +155,19 @@ export default {
       "Setup": "pohraniti",
       "Sell": "Prodaja i marketing",
       "Developer": "Razviti",
-      "Application": "Prijave"
+      "Application": "Prijave",
+      "Product": "Upravljanje proizvodima i kategorijama",
+      "Blog": "CMS i blog",
+      "Order": "Centar za ispunjenje narudžbi",
+      "Channel": "Kanali prodaje",
+      "Accounting": "Računovodstvo i načini plaćanja",
+      "Incentives": "Poticaji",
+      "Marketing": "Marketing i kampanje",
+      "Logistic": "Logistika i otprema",
+      "Customers": "Klub kupaca i segmentacija",
+      "Page": "Odredišne i prilagođene stranice",
+      "Access": "Osoblje / Upravljanje pristupom API-ju",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Github spremište",
@@ -193,7 +205,9 @@ export default {
       "stores": "Prodavnice",
       "roles": "Uloge",
       "home": "Dom",
-      "expert": "Stručnjak"
+      "expert": "Stručnjak",
+      "deals": "ponude",
+      "providers": "Pružatelji usluga"
     },
     "shops": {
       "create_new": "Napravite novu trgovinu",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Status",
           "created_at": "Datum stvaranja",
           "updated_at": "Zadnje ažuriranje"
-        }
+        },
+        "subtitle": "Pišite članke s modernim ugrađenim uređivačem kako biste predstavili sebe i svoju tvrtku. Izvorni sadržaj prva je stvar na koju se trebate usredotočiti kada pišete visokokvalitetan post na blogu prilagođen SEO-u."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "izvješće",
         "tax": "Porez",
         "drop_shipping": "Potvrde prodavača",
-        "reseller_accounts": "Računi prodavača"
+        "reseller_accounts": "Računi prodavača",
+        "valuations": "Vrednovanja"
       },
       "invoice": {
         "title": "Kupujte povezane novčanike",
@@ -605,7 +621,8 @@ export default {
         "delivery": "dostava",
         "inventory": "Inventar",
         "warehouse": "Skladište",
-        "logistic_apps": "Logistika"
+        "logistic_apps": "Logistika",
+        "profiles": "Profili"
       },
       "warehouse": {
         "title": "Skladište trgovine",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Minimalna cijena narudžbe za besplatnu dostavu",
           "notifications": {
             "update_success": "Postavke usluge dostave uspješno su dovršene."
-          }
+          },
+          "shipping_cost_calculation": "Izračun troškova dostave",
+          "sod_true": "Dobijte troškove dostave na odredište",
+          "sod_true_message": "Provjerite prihvaća li vaša služba za dostavu troškove dostave na odredištu.",
+          "sod_false": "Automatski izračun troškova dostave",
+          "cod_true": "Prihvaćamo plaćanje pouzećem",
+          "cod_false": "Prihvaćam samo online plaćanje",
+          "cod_true_message": "Provjerite prihvaća li vaša usluga dostave COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "sms",
         "email": "E-mail",
         "domain": "Domena",
-        "verifications": "Potvrde"
+        "verifications": "Potvrde",
+        "flow": "Teći",
+        "business_model": "Poslovni model"
       },
       "delete_dialog": {
         "title": "Izbriši trgovinu",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Jedinica proizvoda",
       "unit_float": "Jedinica za plutanje (uskoro)",
       "unit_float_hint": "Na primjer, kupac može naručiti 3 kg voća, ali se količina poslana kupcu malo razlikuje od naručene količine.",
-      "unit_float_message": "Tijekom obrade narudžbe, isporučeni iznos može se razlikovati od narudžbe. Sustav automatski izračunava tu razliku i bilježi je kao vaš dug prema kupcu, što se može primijeniti na sljedeće narudžbe."
+      "unit_float_message": "Tijekom obrade narudžbe, isporučeni iznos može se razlikovati od narudžbe. Sustav automatski izračunava tu razliku i bilježi je kao vaš dug prema kupcu, što se može primijeniti na sljedeće narudžbe.",
+      "status_list": {
+        "active": {
+          "title": "Aktivno | Online i offline prodaja",
+          "description": "Ovaj će proizvod biti dostupan za online narudžbe."
+        },
+        "inactive": {
+          "title": "Neaktivan | Samo izvanmrežna prodaja",
+          "description": "Ovaj proizvod neće biti dostupan za online narudžbe."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Pregled",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Odaberite vrijeme završetka",
       "independent_price": "Cijena samo za ovu varijantu",
       "same_price": "Cijena za glavni proizvod",
-      "variant_pricing_message": "Odabirom ove opcije cijena ove varijante može se postaviti neovisno o glavnom proizvodu."
+      "variant_pricing_message": "Odabirom ove opcije cijena ove varijante može se postaviti neovisno o glavnom proizvodu.",
+      "price_label_input": "Oznaka cijene",
+      "price_label_message": "Dodajte dodatne informacije o cijeni kao što je (1,5 USD/Fl Oz). Slučajevi upotrebe: trgovina namirnicama, FMCG.",
+      "add_price_label_action": "Dodajte oznaku cijene"
     },
     "inputs_edit": {
       "title": "Obrazac za unos podataka o kupcu",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Pristupnik {gateway_name} uređen."
     },
-    "developer_setting": "Razvijte i testirajte"
+    "developer_setting": "Razvijte i testirajte",
+    "live_mode_message": "Sve transakcije bit će u živom načinu rada."
   },
   "gift_card": {
     "title": "Darovne kartice",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Adresa za naplatu koju je uredio kupac.",
     "payment-cod-confirm": "COD Plaćanje je potvrđeno.",
     "payment-cash-confirm": "Potvrđeno je plaćanje u gotovini u iznosu od {amount} {currency} za račun.",
-    "payment-dir-confirm": "Potvrđena je potvrda o izravnom uplati."
+    "payment-dir-confirm": "Potvrđena je potvrda o izravnom uplati.",
+    "vendor": "Stanje narudžbe dobavljača promijenjeno je iz <b>{from}</b> u <b>{to}</b> .",
+    "connect-sync": "Narudžba sinkronizirana putem Connect OS-a.",
+    "connect-shipped": "Connect narudžba je otpremljena putem {shipping}.",
+    "connect-returned": "Connect narudžbu je vratio {shipping}.",
+    "connect-failed": "Partner nije uspio ispuniti narudžbu. {reason}",
+    "connect-canceled": "Narudžbu je otkazao partner. {reason}",
+    "connect-action-cancel": "Zahtjev za otkazivanje narudžbe. {reason}",
+    "connect-put-hold": "Narudžba je stavljena na čekanje. {reason}",
+    "connect-remove-hold": "Narudžba je uklonjena s čekanja. {reason}",
+    "connect-confirmed": "Narudžba je potvrđena.",
+    "email-vendor": "🔔 E-pošta s obavijesti o narudžbi poslana je <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Danas",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Zaraditi novac",
     "menu": {
       "plans": "Planovi",
-      "accounts": "Računi"
+      "accounts": "Računi",
+      "participant": "sudionik"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Spremite pristupne ključeve",
     "shop_keys_message": "Ovi ključevi se koriste za stvaranje Access Tokena od strane vašeg poslužitelja. Imajte na umu da su ključevi povjerljivi i postavljeni samo na poslužitelj tako da nisu vidljivi drugima.",
     "personal_keys_title": "Osobni pristupni ključevi",
-    "personal_keys_message": "Ovdje možete kreirati ključeve svog računa. Imajte na umu da će ovi ključevi moći pristupiti vašem računu. Kreirajte i koristite ove ključeve samo ako točno znate što radite."
+    "personal_keys_message": "Ovdje možete kreirati ključeve svog računa. Imajte na umu da će ovi ključevi moći pristupiti vašem računu. Kreirajte i koristite ove ključeve samo ako točno znate što radite.",
+    "clients_title": "Klijenti",
+    "clients_message": "Ovi ključevi se koriste za stvaranje Access Tokena od strane vašeg poslužitelja. Imajte na umu da su ključevi povjerljivi i postavljeni samo na poslužitelj tako da nisu vidljivi drugima."
   },
   "user_security_control": {
     "title": "Sigurnost računa",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Upravljajte profilima",
       "description": "Upravljajte profilima trgovine."
+    },
+    "shop-discount-code": {
+      "name": "Upravljanje kodom za popust",
+      "description": "Upravljajte, uređujte i dodajte kodove za popust trgovine."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Postavke",
       "change": "Naplatiti",
       "transfer": "Prijenos",
-      "transactions": "Transakcije"
+      "transactions": "Transakcije",
+      "charge": "Naplatiti",
+      "history": "Povijest"
     },
     "transactions": {
       "title": "Transakcije računa",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Otkažite potvrdu pretplate",
       "message": "Jeste li sigurni da ćete otkazati ovu pretplatu?",
       "action": "Otkažite pretplatu"
-    }
+    },
+    "use_voucher_now": "Iskoristite vaučer sada",
+    "validity_duration": "Trajanje valjanosti",
+    "validity_duration_hint": "Kupnjom licence na 12 mjeseci ostvarujete popust od 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Preuzmite tekst podataka",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Veliki fontovi",
     "large_font_message": "Prikaži tekst veći od uobičajenog",
     "samples": "Pokažite ogledne trgovine",
-    "samples_message": "Ako je omogućeno, neke trgovine uzoraka bit će prikazane na vašoj ploči."
+    "samples_message": "Ako je omogućeno, neke trgovine uzoraka bit će prikazane na vašoj ploči.",
+    "automation": "Automatizacija",
+    "automation_message": "Prikaži karticu automatizacije na nadzornoj ploči trgovine. (Webhookovi, vizualno programiranje, ...)"
   },
   "shop_locations": {
     "title": "Zemlje u kojima se pruža usluga",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kupon je uspješno izbrisan."
-    }
+    },
+    "multiple_use": "Višekratna upotreba"
   },
   "coupon_edit": {
     "title_edit": "Uredi kupon",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Ograničiti",
       "description": "Postavite ograničenje maksimalnog broja korisnika."
+    },
+    "SEGMENTS": {
+      "title": "Segmenti",
+      "description": "Ograničite kupce u određenoj ručnoj segmentaciji."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Ukupni iznos narudžbe je povučen s poklon kartica! Kupac ne mora platiti više.",
       "cod_msg": "Kupac će platiti prilikom primitka narudžbe.",
       "online_msg": "Zamolite kupca da skenira QR kod na zaslonu korisnika."
-    }
+    },
+    "name": "POS",
+    "message": "Imajte svoje mrežno prodajno mjesto bez troškova postavljanja, pokrenite ga na bilo kojem pametnom telefonu, tabletu ili osobnom računalu ili kreirajte narudžbe ručno."
   },
   "exporter": {
     "title": "Izvezi podatke",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Pošalji na poslužitelj",
     "shop_license": "Licenca za trgovinu",
     "max_items_limit": "Ograničenje maksimalnog broja stavki",
-    "total_items": "Ukupno stavki"
+    "total_items": "Ukupno stavki",
+    "customer": {
+      "title": "Uvoz kupaca",
+      "subtitle": "Ovdje prenesite CSV datoteke kupaca. Pazite da slijedite standardni format, a također morate slijediti pravila privatnosti."
+    }
   },
   "campaigns": {
     "title": "Kampanje",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Linkovi",
     "light_checkout": "Lagana tema naplate",
     "light_header": "Lagano zaglavlje",
-    "light_footer": "Lagano podnožje"
+    "light_footer": "Lagano podnožje",
+    "product_page": "Stranica proizvoda",
+    "typography": "Tipografija",
+    "header": "Zaglavlje",
+    "custom_code": "Prilagođeni kod",
+    "custom_css": "Prilagođeni CSS"
   },
   "app_templates": {
     "default": "Zadano",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Upravljajte uslugom",
     "option_deliver_by_courier": "Opcija 1: Isporuka putem kurira.",
     "option_add_to_que": "Opcija 2: dodajte u red čekanja za obradu na stranici usluge dostave.",
-    "option_instant_shipping": "Opcija 3: Trenutna dostava."
+    "option_instant_shipping": "Opcija 3: Trenutna dostava.",
+    "pickup_action": "Potvrda preuzimanja"
   },
   "shop_home_edit": {
     "title": "Postavka početne stranice",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Proizvod dodan u vašu trgovinu.",
       "request_access": "Vaš smo zahtjev za pristup uspješno poslali veletrgovcu."
-    }
+    },
+    "show_eligible_shops_message": "Prikažite trgovine koje ispunjavaju uvjete"
   },
   "product_dropshipping": {
     "need_re_enable": "Ovaj proizvod je promijenio izvorni prodavač, te su promjene cijene onemogućile proizvod u vašoj trgovini. Provjerite promjene i ako se slažete s ponovnim aktiviranjem proizvoda, pritisnite gumb ispod.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "U vašoj trgovini ne postoji kategorija.",
       "limit": "Ograničenje proizvoda",
       "limit_message": "Unesite broj rezultata proizvoda",
-      "select_categories": "Odaberite dostupne kategorije"
+      "select_categories": "Odaberite dostupne kategorije",
+      "categories_limit": "Ograničenje kategorija",
+      "categories_limit_msg": "Unesite najveći broj kategorija. Postavite nulu bez ograničenja."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avokado je uspješno ažuriran.",
       "add_success": "Avokado je uspješno kreiran."
-    }
+    },
+    "name": "Avokado"
   },
   "avocado_orders": {
     "title": "Avokado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "neaktivan",
     "active_message": "Ako omogućite ovu opciju, mogućnost kreiranja brzih prodajnih kodova bit će prikazana u odjeljku upravljanja svakog proizvoda.",
     "hyper_form_link_message": "Veza na hiper stranicu vaše trgovine",
-    "configuration": "Hiper postavke"
+    "configuration": "Hiper postavke",
+    "name": "Hiper"
   },
   "hyper_orders": {
     "title": "Hiper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Demografija kupaca",
     "subtitle": "Filtrirajte i izvezite podatke o svojim klijentima kako biste donosili bolje odluke za pružanje veće vrijednosti uz manje marketinga! Poštujte privatnost svojih klijenata i nikada im ne šaljite masovnu e-poštu! Nikada nemojte dijeliti podatke svojih klijenata sa uslugama trećih strana bez dopuštenja svakog od njih."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Adrese za preuzimanje",
+      "subtitle": "Ovdje dodajte i uredite adrese preuzimanja. Korisnici će moći odabrati adresu preuzimanja na stranici za naplatu.",
+      "add_action": "Dodajte novu lokaciju"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Affiliate POS",
+    "open_pos_action": "POS za brzo naručivanje",
+    "description": "Ova je opcija prikladna za administratore Instagram stranica i drugih društvenih mreža. Koristite Affiliate POS za ručno primanje i dodavanje narudžbi od kupaca. Vaše podružnice (ili franšize) mogu dodati nove narudžbe u Affiliate POS i učitati potvrdu o uplati."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Metode prijave",
+      "subtitle": "Prilagodite način na koji se korisnici prijavljuju u vašu trgovinu."
+    },
+    "checkout": {
+      "title": "Tijek naplate",
+      "subtitle": "Prilagodite svoje korisničko putovanje i tijek kupnje u svojoj e-trgovini.",
+      "map": {
+        "title": "Karta",
+        "subtitle": "Korisnici moraju odabrati mjesto dostave na karti (poput Ubera).",
+        "subtitle_no_map": "Udaljenost u izračunu otpreme uzima se u obzir nulom ako lokacija ne postoji na adresi koju je naveo korisnik."
+      },
+      "mode": {
+        "title": "Točka za prijavu kupaca",
+        "default": {
+          "title": "ASAP (zadano)",
+          "msg": "Korisnici se prijavljuju što je prije moguće. (Više konverzija)"
+        },
+        "on_checkout": {
+          "title": "Na blagajni",
+          "msg": "Prisilite korisnike da se prijave u koraku naplate."
+        },
+        "login_free": {
+          "title": "Neobavezna prijava",
+          "msg": "Neobavezna prijava nakon plaćanja narudžbe.."
+        }
+      },
+      "express": {
+        "title": "Preusmjeravanje nakon dodavanja u košaricu",
+        "false": {
+          "title": "Normalni mod",
+          "msg": "Ostanite na stranici i nastavite s kupnjom nakon klika Dodaj u košaricu."
+        },
+        "true": {
+          "title": "Ekspresni način rada",
+          "msg": "Preusmjerite kupca na stranicu za naplatu nakon klika Dodaj u košaricu."
+        }
+      },
+      "shipping_address": {
+        "title": "Zatražite adresu za dostavu"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fizički i servis (zadano)",
+      "desc": "Zamolite kupca da unese adresu u fizičku i uslužnu blagajnu."
+    },
+    "physical": {
+      "title": "Samo fizički",
+      "desc": "Zamolite kupca da unese adresu samo na fizičkoj blagajni."
+    },
+    "off": {
+      "title": "Nikada",
+      "desc": "Nikad ne tražite adresu za dostavu. ⚠ Koristite ovu opciju ako planirate imati usluge s varijantama odabirom fizičke vrste za proizvode umjesto vrste usluge."
+    }
+  },
+  "business_model": {
+    "title": "Postavljanje poslovnog modela",
+    "subtitle": "Postavite svoj poslovni model, a mi ćemo konfigurirati vaš OS iza scene."
+  },
+  "business_type": {
+    "title": "Vrste robe",
+    "subtitle": "Postavite vrstu proizvoda koje želite prodavati u svojoj trgovini. Vrste proizvoda u Selldoneu više su nego samo vrsta proizvoda; više se radi o postupku ispunjenja.",
+    "send_activation_request_to_support": "Pošaljite zahtjev za aktivaciju u tiketu za podršku.",
+    "require_kyc": "Vlasnik tvrtke KYC.",
+    "needs_enterprise_license": "Morate imati Enterprise licencu.",
+    "marketplace_caution_message": "Postavite Marketplace kao svoj model koji duboko utječe na konfiguraciju vašeg poslovnog OS-a. Na primjer, morate definirati barem jednog dobavljača za svaki proizvod s neovisnim cijenama i zalihama. Kupci ne mogu kupiti proizvode koji nemaju dobavljača."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Normalna trgovina",
+      "desc": "Obično malo i srednje poduzetništvo, kućna tvrtka ili dropshipper - koji prodaje svoje proizvode izravno kupcima ili prodaje proizvode veletrgovaca kao preprodavač."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Ne čuvajte proizvod niti inventar - plaćate trećoj strani, obično veletrgovcu (kao što je Printify, Wholesale2B, ...) ili proizvođaču, a oni ispunjavaju narudžbe iza scene."
+    },
+    "wholesaler": {
+      "title": "Dobavljač dropshippinga",
+      "desc": "Obično veletrgovac ili proizvođač – koji šalje narudžbe izravno krajnjem potrošaču. Drugi trgovci na Selldoneu mogu dostaviti vaše proizvode u svoje trgovine."
+    },
+    "marketplace": {
+      "title": "Tržnica",
+      "desc": "Mrežna tržišta povezuju kupce i prodavače na vlasničkoj i centraliziranoj platformi."
+    },
+    "franchise": {
+      "title": "Franšiza / podružnica",
+      "desc": "Franšiza je metoda distribucije proizvoda ili usluga koja uključuje davatelja franšize koji uspostavlja vaš brend (Franšiza) ili prodaje vaše proizvode pod svojim brendom (Affiliate)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Novčanici",
+    "pricing_models": "Određivanje cijene",
+    "add_vendor": "Dodajte dobavljača",
+    "requests": "Zahtjevi"
+  },
+  "price_input_type": {
+    "title": "Vrsta unosa cijene",
+    "default": {
+      "title": "Zadano",
+      "desc": "Odaberite vrijednost kao količinu u košarici."
+    },
+    "area": {
+      "title": "Površina",
+      "desc": "Unesite širinu i duljinu kao ulazne podatke za izračun količine."
+    },
+    "volume": {
+      "title": "volumen",
+      "desc": "Unesite širinu, duljinu i visinu kao ulazne podatke za izračun količine."
+    },
+    "custom": {
+      "title": "Prilagođeno (putem obrasca za unos)",
+      "desc": "Nema potrebe za stotinama varijanti! Napravite prilagođeni obrazac za izračun troškova za visoko prilagodljive proizvode."
+    }
+  },
+  "vendors_list": {
+    "title": "Moji dobavljači",
+    "message": "Popis mojih vlastitih dobavljača."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Povežite više domena sa svojim poslovnim OS-om i upravljajte svima na jednom mjestu. Možete koristiti značajku višestrukih domena za stvaranje namjenskih domena za svaki dio vaše web stranice, poput bloga i zajednice, ili koristiti različite domene za svoje podružnice."
+  },
+  "notes": {
+    "add_action": "Dodajte bilješku za svoj tim",
+    "notifications": {
+      "success_add": "Napomena je uspješno dodana.",
+      "success_delete": "Napomena je uspješno izbrisana."
+    }
+  },
+  "external_services": {
+    "title": "Vanjske usluge",
+    "subtitle": "Ovdje pratite posljednji status vanjskih usluga poput SMS-a i e-pošte."
   }
 };

@@ -65,7 +65,9 @@ export default {
     "my_feed": "Ég",
     "blocked_message": "Þú ert læst til",
     "reported": "Tilkynnt",
-    "report": "Skýrsla"
+    "report": "Skýrsla",
+    "post": "Post",
+    "attach_file": "Hengdu skrá"
   },
   "invite_message": "{user} hefur boðið þér á spjallborðið {community}. Smelltu á hlekkinn hér að neðan til að lesa athuganir vina þinna og deila skoðunum þínum með þeim. Ég er að bíða eftir þér.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Fjarlægðu skoðanakönnun",
     "take_screenshot": "Taktu sem skjól",
     "take_link_msg": "Fyrri hlekkur hér og sláðu inn",
-    "eligible_title": "Skref til að vera gjaldgeng til að birta"
+    "eligible_title": "Skref til að vera gjaldgeng til að birta",
+    "public": "Opinber"
   },
   "tips": {
     "verify_email": "Sláðu inn og staðfestu netfangið þitt.",

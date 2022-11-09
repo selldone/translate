@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Imikhiqizo ehlobene",
     "price": "Inani",
     "rate": "Linganisa",
-    "comment": "Phawula"
+    "comment": "Phawula",
+    "warranty": "Iwaranti",
+    "return_policy": "Inqubomgomo Yokubuyisela",
+    "guide": "Umhlahlandlela",
+    "shipping": "Ukuthumela ngomkhumbi"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "I-oda lakho lifakwe ngempumelelo.",
       "delete_success": "Into isusiwe."
-    }
+    },
+    "select_address_message": "Sicela ufake ikheli lakho, bese ungathumela i-oda."
   },
   "hyper": {
     "title": "Ukudalwa kwe-oda",
@@ -541,5 +546,19 @@ export default {
       "message": "Uyicacisile inkokhiso yale nto. Ungashintsha inani lenkokhiso yento ethengwe ikhasimende.",
       "charge": "Shaja"
     }
+  },
+  "check_access": {
+    "waiting_message": "Ilinde ukuhlola ukufinyelela...",
+    "no_access_message": "Ngeshwa, awukwazi ukufinyelela esitolo sethu.<br/> Sicela usithinte."
+  },
+  "share_order": {
+    "action": "Yabelana nge-oda",
+    "title": "Yabelana nabanye ngaleli oda.",
+    "message": "Isixhumanisi esivikelekile, yabelana ngaso nalabo obaziyo kuphela. Wonke umuntu onalesi sixhumanisi angakwazi ukuphinda i-oda lakho futhi abone ikheli elikhethiwe. Izoqukatha ulwazi mayelana nekalishi lakho lamanje.",
+    "valid_period": "Lesi sixhumanisi sizophelelwa yisikhathi ngemva kwamahora angu-48.",
+    "import_order_action": "Ngenisa i-oda",
+    "retrieve_dialog_title": "Buyisa i-oda langaphandle",
+    "address_included": "Yabelana ngezinto zikabhasikidi + Ikheli",
+    "address_excluded": "Yabelana ngezinto zikabhasikidi kuphela"
   }
 };

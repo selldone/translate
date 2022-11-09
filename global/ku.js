@@ -558,7 +558,52 @@ export default {
     "merchant": "Tacîr",
     "per_product": "Per hilberê",
     "journey": "Gerr",
-    "after": "Piştî"
+    "after": "Piştî",
+    "waiting_for_payment": "Ji kerema xwe dravdanê temam bikin...",
+    "hour": "Seet",
+    "minute": "Deqqe",
+    "premium": "Xelat",
+    "light": "Sivik",
+    "dark": "Tarî",
+    "guest": "Mêvan",
+    "shops": "Stores",
+    "vendor": "Firotkar",
+    "vendors": "Firoşkarên",
+    "marketplace": "Marketplace",
+    "verify_date": "Dîrokê verast bikin",
+    "note": "Not",
+    "panel": "Panel",
+    "removed": "Rakirin",
+    "segments": "Segments",
+    "personal_info": "Agahiyên kesane",
+    "preferences": "Preferences",
+    "spec": "Spec",
+    "reviews": "Reviews",
+    "constraints": "Constraints",
+    "flexible": "Gûherrane",
+    "usage_limit": "Sînorê Bikaranîna",
+    "temporary": "Derbasî",
+    "original": "Eslî",
+    "saved": "Saved!",
+    "sort": "Jiberhevxistin",
+    "documents": "Documents",
+    "document": "Belge",
+    "please_wait": "Ji kerema xwe bisekinin...",
+    "pickup": "Pîkap",
+    "customize": "xweş bike",
+    "difficulty": "Astengî",
+    "banned": "Qedexe kirin",
+    "company": "Şîrket",
+    "tax_shipping": "Baca barkirinê",
+    "warranty": "Libersekînîn",
+    "return_policy": "Siyaseta Vegerê",
+    "guide": "Birêvebir",
+    "translate": "Wergerandin",
+    "public": "Alenî",
+    "deleted": "Jêbirin",
+    "variant": "Variant",
+    "secure": "Bicî",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Şop",
     "change_state": "Guhertina Rewşê",
     "done": "Kirin",
-    "reply": "Bersiv"
+    "reply": "Bersiv",
+    "watch_now": "Niha temaşe bikin",
+    "unlock": "Vekirin",
+    "lock": "Qesr",
+    "create_clone": "Klonek çêbikin",
+    "regenerate": "Ji nû ve çêdibe",
+    "add_message": "Mesajê zêde bike",
+    "continue_chat": "Sohbetê bidomînin",
+    "add_new_message": "Peyama nû lê zêde bike"
   },
   "instance_message_title": "Peyama tavilê bişîne",
   "instance_message": "Silav {name}, Navê min {author} ji {company} ye.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Postcode",
     "enter_value": "Li vir dagirin",
     "address_note": "Not",
-    "tel": "Hejmara têkilî"
+    "tel": "Hejmara têkilî",
+    "service_address": "Navnîşana xwe hilbijêre"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "pounds",
     "quarts",
     "hewş",
-    "jûre"
+    "jûre",
+    "seconds",
+    "minutes",
+    "saetan",
+    "rojan",
+    "hefteyan",
+    "mehan",
+    "salan"
   ],
   "region_types": {
     "State": "Rewş",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Divê dirêjahiya herî kêm {length} be",
     "invalid_min_array_length": "Bi kêmanî {length} hêman hilbijêrin",
     "invalid_max_chars": "Herî zêde {maxCount} karakter",
-    "invalid_url": "URL nederbasdar"
+    "invalid_url": "URL nederbasdar",
+    "country_invalid": "Welatê mebestê hilbijêrin!",
+    "postal_code_invalid": "Koda posta derbasdar destnîşan bikin!"
   },
   "colors": {
     "#D32F2F": "Sor",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Spî",
     "#FFF": "Spî",
     "#000000": "Reş",
-    "#000": "Reş"
+    "#000": "Reş",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Zêr",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Artêş",
+    "#474747": "Asfalt",
+    "#E6195C": "Tû",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Orange şewitî",
+    "#80011F": "Cardinal",
+    "#382829": "Çîkolata",
+    "#F06336": "Darê kevirî nav avê",
+    "#FAE7C9": "Qeymax",
+    "#6B2257": "Currant",
+    "#222127": "Grey Tarî",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Evergreen",
+    "#214C30": "Daristan",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Pel",
+    "#558450": "Ronahî Aqua",
+    "#96B5C9": "Şînê vebûyî",
+    "#DCAFCE": "Lilac",
+    "#D3E1A4": "Lime",
+    "#9DE7C2": "Mint",
+    "#F6EAD2": "Xûriste",
+    "#1A1F35": "Hêzên deryayî",
+    "#404624": "Zeytûn",
+    "#271020": "Încaz",
+    "#A8355C": "Dirrîreşk",
+    "#D6BEA6": "Soft Cream",
+    "#BEA994": "Tavrengî",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Violet",
+    "#36454F": "Komir",
+    "#b3b0ab": "karbon Grey",
+    "#463e3d": "Charcoal Heather",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Nav",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Hejmara avahiyê",
     "building_unit": "Yekbûn",
     "postcode": "Postcode",
-    "note": "Not"
+    "note": "Not",
+    "county": "County"
   },
   "product_types": {
     "physical": "Cûsseyî",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Reng",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Asan",
       "selective": "Hilbijartî",
-      "switch": "Gûherr"
-    }
+      "switch": "Gûherr",
+      "file": "Dosî",
+      "number": "Jimare"
+    },
+    "placeholder_input": "Placeholder",
+    "file_type_input": "Cûreyên pelan ên pejirandî",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Navê hilberê",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Mobîla xwe têkevin",
     "verification_code": "Koda verastkirinê",
     "msg_title": "Merheba,",
-    "msg_body": "Ji kerema xwe têkevinê. Ew tenê çend saniyan digire."
+    "msg_body": "Ji kerema xwe têkevinê. Ew tenê çend saniyan digire.",
+    "login_apple": "Bi Apple re têkevin"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Etîket hatin zêdekirin"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Pir tevlîhev",
+    "hard": "Hişk",
+    "intermediate": "Di nav",
+    "easy": "Sivik"
   }
 };

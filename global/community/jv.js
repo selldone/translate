@@ -65,7 +65,9 @@ export default {
     "my_feed": "kula",
     "blocked_message": "Sampeyan diblokir nganti",
     "reported": "Kacarita",
-    "report": "Laporan"
+    "report": "Laporan",
+    "post": "Posting",
+    "attach_file": "Lampirake file"
   },
   "invite_message": "{user} wis ngundang sampeyan menyang forum {community}. Klik link ing ngisor iki kanggo maca pengamatan kanca lan nuduhake pendapat sampeyan. Aku ngenteni kowe.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Mbusak polling",
     "take_screenshot": "Njupuk minangka tutup",
     "take_link_msg": "Link kepungkur kene lan ketik",
-    "eligible_title": "Langkah-langkah kanggo layak kanggo ngirim"
+    "eligible_title": "Langkah-langkah kanggo layak kanggo ngirim",
+    "public": "Umum"
   },
   "tips": {
     "verify_email": "Ketik lan verifikasi email sampeyan.",

@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Cynhyrchion cysylltiedig",
     "price": "Pris",
     "rate": "Cyfradd",
-    "comment": "Sylw"
+    "comment": "Sylw",
+    "warranty": "Gwarant",
+    "return_policy": "Polisi Dychwelyd",
+    "guide": "Tywysydd",
+    "shipping": "Llongau"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Llwyddwyd i osod eich archeb.",
       "delete_success": "Eitem wedi'i dileu."
-    }
+    },
+    "select_address_message": "Rhowch eich cyfeiriad, ac yna gallwch gyflwyno'r archeb."
   },
   "hyper": {
     "title": "Creu archeb",
@@ -541,5 +546,19 @@ export default {
       "message": "Rydych wedi pennu tâl am yr eitem hon. Gallwch newid swm y tâl am yr eitem a brynwyd gan y cwsmer.",
       "charge": "Tâl"
     }
+  },
+  "check_access": {
+    "waiting_message": "Aros i wirio mynediad...",
+    "no_access_message": "Yn anffodus, nid oes gennych fynediad i'n siop.<br/> Cysylltwch â ni."
+  },
+  "share_order": {
+    "action": "Rhannu archeb",
+    "title": "Rhannwch y gorchymyn hwn ag eraill.",
+    "message": "Mae'n ddolen ddiogel, dim ond ei rannu gyda'r rhai rydych chi'n eu hadnabod. Gall pawb sydd â'r ddolen hon ddyblygu'ch archeb a gweld y cyfeiriad a ddewiswyd. Bydd yn cynnwys gwybodaeth am eich cart cyfredol.",
+    "valid_period": "Bydd y ddolen hon yn dod i ben ar ôl 48 awr.",
+    "import_order_action": "Gorchymyn mewnforio",
+    "retrieve_dialog_title": "Adalw trefn allanol",
+    "address_included": "Rhannu eitemau basged + Cyfeiriad",
+    "address_excluded": "Rhannwch eitemau basged yn unig"
   }
 };

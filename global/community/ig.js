@@ -65,7 +65,9 @@ export default {
     "my_feed": "M",
     "blocked_message": "A kpọchiri gị ruo",
     "reported": "Kwuru",
-    "report": "Akuko"
+    "report": "Akuko",
+    "post": "Biputere",
+    "attach_file": "Tinye faịlụ"
   },
   "invite_message": "{user} akpọọla gị òkù na ọgbakọ {community}. Pịa na njikọ dị n'okpuru ka ịgụọ ihe ndị enyi gị kwuru wee kesaa echiche gị na ha. Ana m eche gị.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Wepu ntuli aka",
     "take_screenshot": "Were dị ka mkpuchi",
     "take_link_msg": "Njikọ gara aga ebe a wee banye",
-    "eligible_title": "Nzọụkwụ iji tozuo biputere"
+    "eligible_title": "Nzọụkwụ iji tozuo biputere",
+    "public": "Ọha"
   },
   "tips": {
     "verify_email": "Tinye wee nyochaa email gị.",

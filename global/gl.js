@@ -558,7 +558,52 @@ export default {
     "merchant": "Comerciante",
     "per_product": "Por produto",
     "journey": "Viaxe",
-    "after": "Despois"
+    "after": "Despois",
+    "waiting_for_payment": "Complete o pago...",
+    "hour": "Hora",
+    "minute": "Minuto",
+    "premium": "Premium",
+    "light": "Luz",
+    "dark": "Escuro",
+    "guest": "Invitado",
+    "shops": "Tendas",
+    "vendor": "Vendedor",
+    "vendors": "Vendedores",
+    "marketplace": "Mercado",
+    "verify_date": "Verifica a data",
+    "note": "Nota",
+    "panel": "Panel",
+    "removed": "Eliminado",
+    "segments": "Segmentos",
+    "personal_info": "Información persoal",
+    "preferences": "Preferencias",
+    "spec": "Especificación",
+    "reviews": "Recensións",
+    "constraints": "Restricións",
+    "flexible": "Flexible",
+    "usage_limit": "Límite de uso",
+    "temporary": "Temporal",
+    "original": "Orixinal",
+    "saved": "Gardado!",
+    "sort": "Ordenar",
+    "documents": "Documentos",
+    "document": "Documento",
+    "please_wait": "Por favor, agarde...",
+    "pickup": "Recoller",
+    "customize": "personalizar",
+    "difficulty": "Dificultade",
+    "banned": "Prohibido",
+    "company": "Compañía",
+    "tax_shipping": "Imposto de envío",
+    "warranty": "Garantía",
+    "return_policy": "Política de devolucións",
+    "guide": "Guía",
+    "translate": "Traducir",
+    "public": "Público",
+    "deleted": "Eliminado",
+    "variant": "Variante",
+    "secure": "Seguro",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Pista",
     "change_state": "Cambiar estado",
     "done": "Feito",
-    "reply": "Responder"
+    "reply": "Responder",
+    "watch_now": "Mira agora",
+    "unlock": "Desbloquear",
+    "lock": "Botarlle o ferrollo",
+    "create_clone": "Crear clon",
+    "regenerate": "Rexenerar",
+    "add_message": "Engadir mensaxe",
+    "continue_chat": "Continuar conversando",
+    "add_new_message": "Engade nova mensaxe"
   },
   "instance_message_title": "Enviar mensaxe instantánea",
   "instance_message": "Ola {name}: Chámome {author} de {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Código postal",
     "enter_value": "Enche aquí",
     "address_note": "Nota",
-    "tel": "Número de contacto"
+    "tel": "Número de contacto",
+    "service_address": "Seleccione o seu enderezo"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "libras",
     "cuartos",
     "iardas",
-    "cuarto"
+    "cuarto",
+    "segundos",
+    "minutos",
+    "horas",
+    "días",
+    "semanas",
+    "meses",
+    "anos"
   ],
   "region_types": {
     "State": "Estado",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "A lonxitude mínima debe ser {length}",
     "invalid_min_array_length": "Selecciona polo menos {length} elementos",
     "invalid_max_chars": "{maxCount} caracteres como máximo",
-    "invalid_url": "URL non válido"
+    "invalid_url": "URL non válido",
+    "country_invalid": "Seleccione o país de destino!",
+    "postal_code_invalid": "Establece un código postal válido!"
   },
   "colors": {
     "#D32F2F": "vermello",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Branco",
     "#FFF": "Branco",
     "#000000": "Negro",
-    "#000": "Negro"
+    "#000": "Negro",
+    "#7d263a": "Granate",
+    "#FD9F17": "Ouro",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Exército",
+    "#474747": "Asfalto",
+    "#E6195C": "Baya",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Laranxa queimada",
+    "#80011F": "Cardeal",
+    "#382829": "Chocolate",
+    "#F06336": "Coral",
+    "#FAE7C9": "Crema",
+    "#6B2257": "groselha",
+    "#222127": "Gris escuro",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Perenne",
+    "#214C30": "Bosque",
+    "#DC2867": "Fucsia",
+    "#38561": "Kelly",
+    "#5C884D": "Folla",
+    "#558450": "Agua lixeira",
+    "#96B5C9": "Azul claro",
+    "#DCAFCE": "Lila",
+    "#D3E1A4": "Cal",
+    "#9DE7C2": "menta",
+    "#F6EAD2": "Natural",
+    "#1A1F35": "Mariña",
+    "#404624": "Oliva",
+    "#271020": "Ameixa",
+    "#A8355C": "Framboesa",
+    "#D6BEA6": "Crema suave",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Cerceta",
+    "#A86EA9": "Violeta",
+    "#36454F": "Carbón vexetal",
+    "#b3b0ab": "gris carbón",
+    "#463e3d": "Brezo de carbón",
+    "#282d3c": "Blazer azul marino"
   },
   "address_info": {
     "name": "Nome",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Número de edificio",
     "building_unit": "Unidade",
     "postcode": "Código postal",
-    "note": "Nota"
+    "note": "Nota",
+    "county": "Condado"
   },
   "product_types": {
     "physical": "Físico",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Cor",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Simple",
       "selective": "Selectivo",
-      "switch": "Cambiar"
-    }
+      "switch": "Cambiar",
+      "file": "Arquivo",
+      "number": "Número"
+    },
+    "placeholder_input": "Marcador de posición",
+    "file_type_input": "Tipos de ficheiros aceptables",
+    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "Nome do produto",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Introduce o teu móbil",
     "verification_code": "Código de verificación",
     "msg_title": "Ola,",
-    "msg_body": "Inicia sesión. Leva só uns segundos."
+    "msg_body": "Inicia sesión. Leva só uns segundos.",
+    "login_apple": "Inicia sesión con Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Etiquetas engadidas"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Moi complicado",
+    "hard": "Difícil",
+    "intermediate": "Intermediario",
+    "easy": "Fácil"
   }
 };

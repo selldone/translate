@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Əlaqədar məhsullar",
     "price": "Qiymət",
     "rate": "Qiymətləndirmə",
-    "comment": "Şərh"
+    "comment": "Şərh",
+    "warranty": "Zəmanət",
+    "return_policy": "Qaytarma Siyasəti",
+    "guide": "Bələdçi",
+    "shipping": "Göndərmə"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Sifarişiniz uğurla yerləşdirildi.",
       "delete_success": "Element silindi."
-    }
+    },
+    "select_address_message": "Zəhmət olmasa ünvanınızı daxil edin, sonra sifarişi təqdim edə bilərsiniz."
   },
   "hyper": {
     "title": "Sifarişin yaradılması",
@@ -541,5 +546,19 @@ export default {
       "message": "Bu element üçün ödəniş təyin etmisiniz. Müştərinin aldığı məhsul üçün ödəniş məbləğini dəyişə bilərsiniz.",
       "charge": "Şarj edin"
     }
+  },
+  "check_access": {
+    "waiting_message": "Girişi yoxlamaq gözlənilir...",
+    "no_access_message": "Təəssüf ki, mağazamıza daxil olmaq imkanınız yoxdur.<br/> Zəhmət olmasa bizimlə əlaqə saxlayın."
+  },
+  "share_order": {
+    "action": "Sifarişi paylaşın",
+    "title": "Bu sifarişi başqaları ilə paylaşın.",
+    "message": "Bu təhlükəsiz linkdir, onu yalnız tanıdığınız insanlarla paylaşın. Bu linkə malik olan hər kəs sifarişinizin dublikatını çıxara və seçilmiş ünvanı görə bilər. Bu, cari səbətiniz haqqında məlumat ehtiva edəcəkdir.",
+    "valid_period": "Bu keçid 48 saatdan sonra qüvvədən düşəcək.",
+    "import_order_action": "İdxal sifarişi",
+    "retrieve_dialog_title": "Xarici sifarişi əldə edin",
+    "address_included": "Səbət elementlərini paylaşın + Ünvan",
+    "address_excluded": "Yalnız səbət əşyalarını paylaşın"
   }
 };

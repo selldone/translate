@@ -105,7 +105,11 @@ export default {
     "related_products_title": "I prudutti cunnessi",
     "price": "prezzu",
     "rate": "Rate",
-    "comment": "Cumentu"
+    "comment": "Cumentu",
+    "warranty": "Garanzia",
+    "return_policy": "Pulitica di ritornu",
+    "guide": "Guida",
+    "shipping": "spedizione"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "U vostru ordine hè statu piazzatu bè.",
       "delete_success": "Elementu eliminatu."
-    }
+    },
+    "select_address_message": "Per piacè inserite u vostru indirizzu, è dopu pudete mandà l'ordine."
   },
   "hyper": {
     "title": "Creazione di ordini",
@@ -541,5 +546,19 @@ export default {
       "message": "Avete specificatu una carica per questu articulu. Pudete cambià a quantità di carica per l'articulu acquistatu da u cliente.",
       "charge": "Carica"
     }
+  },
+  "check_access": {
+    "waiting_message": "Aspetta per verificà l'accessu...",
+    "no_access_message": "Sfurtunatamente, ùn avete micca accessu à a nostra tenda.<br/> Per piacè cuntattateci."
+  },
+  "share_order": {
+    "action": "Sparte l'ordine",
+    "title": "Condividi stu ordine cù l'altri.",
+    "message": "Hè un ligame sicuru, sparte solu cù quelli chì cunnosci. Tutti cù stu ligame ponu duplicà u vostru ordine è vede l'indirizzu sceltu. Contenerà infurmazioni nantu à u vostru carrettu attuale.",
+    "valid_period": "Stu ligame scade dopu à 48 ore.",
+    "import_order_action": "Ordine d'importazione",
+    "retrieve_dialog_title": "Ritruvà l'ordine esternu",
+    "address_included": "Sparte l'articuli di a cesta + Indirizzu",
+    "address_excluded": "Sparte solu l'articuli di cesti"
   }
 };

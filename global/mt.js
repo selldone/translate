@@ -558,7 +558,52 @@ export default {
     "merchant": "Merkantili",
     "per_product": "Għal kull prodott",
     "journey": "Vjaġġ",
-    "after": "Wara"
+    "after": "Wara",
+    "waiting_for_payment": "Jekk jogħġbok imla l-ħlas...",
+    "hour": "Siegha",
+    "minute": "Minuta",
+    "premium": "Premium",
+    "light": "Dawl",
+    "dark": "Dlam",
+    "guest": "Mistieden",
+    "shops": "Ħwienet",
+    "vendor": "Bejjiegh",
+    "vendors": "Bejjiegħa",
+    "marketplace": "Suq",
+    "verify_date": "Ivverifika d-data",
+    "note": "Nota",
+    "panel": "Panel",
+    "removed": "Imneħħija",
+    "segments": "Segmenti",
+    "personal_info": "Informazzjoni personali",
+    "preferences": "Preferenzi",
+    "spec": "Speċ",
+    "reviews": "Reviżjonijiet",
+    "constraints": "Limitazzjonijiet",
+    "flexible": "Flessibbli",
+    "usage_limit": "Limitu ta 'użu",
+    "temporary": "Temporanju",
+    "original": "Oriġinali",
+    "saved": "Salvat!",
+    "sort": "Issortja",
+    "documents": "Dokumenti",
+    "document": "Dokument",
+    "please_wait": "Stenna...",
+    "pickup": "Pickup",
+    "customize": "tippersonalizza",
+    "difficulty": "Diffikultà",
+    "banned": "Ipprojbit",
+    "company": "Kumpanija",
+    "tax_shipping": "Taxxa tat-Tbaħħir",
+    "warranty": "Garanzija",
+    "return_policy": "Politika ta' Ritorn",
+    "guide": "Gwida",
+    "translate": "Ittraduċi",
+    "public": "Pubbliku",
+    "deleted": "Imħassar",
+    "variant": "Varjant",
+    "secure": "Sikura",
+    "admin": "Amministratur"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Track",
     "change_state": "Bidla l-Istatus",
     "done": "Magħmul",
-    "reply": "Irrispondi"
+    "reply": "Irrispondi",
+    "watch_now": "Watch Issa",
+    "unlock": "Nisfruttaw",
+    "lock": "Lock",
+    "create_clone": "Oħloq klonu",
+    "regenerate": "Riġenera",
+    "add_message": "Żid messaġġ",
+    "continue_chat": "Kompli chat",
+    "add_new_message": "Żid messaġġ ġdid"
   },
   "instance_message_title": "Ibgħat messaġġ immedjat",
   "instance_message": "Hi {name}, Jisimni {author} minn {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Kodiċi Postali",
     "enter_value": "Imla hawn",
     "address_note": "Nota",
-    "tel": "Numru ta' kuntatt"
+    "tel": "Numru ta' kuntatt",
+    "service_address": "Agħżel l-indirizz tiegħek"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "liri",
     "kwarti",
     "btieħi",
-    "kamra"
+    "kamra",
+    "sekondi",
+    "minuti",
+    "sigħat",
+    "jiem",
+    "ġimgħat",
+    "xhur",
+    "snin"
   ],
   "region_types": {
     "State": "Stat",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "It-tul minimu għandu jkun {length}",
     "invalid_min_array_length": "Mill-inqas agħżel {length} oġġetti",
     "invalid_max_chars": "Max {maxCount} karattri",
-    "invalid_url": "URL invalidu"
+    "invalid_url": "URL invalidu",
+    "country_invalid": "Agħżel il-pajjiż tad-destinazzjoni!",
+    "postal_code_invalid": "Issettja kodiċi postali validu!"
   },
   "colors": {
     "#D32F2F": "aħmar",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Abjad",
     "#FFF": "Abjad",
     "#000000": "Iswed",
-    "#000": "Iswed"
+    "#000": "Iswed",
+    "#7d263a": "Maroon",
+    "#FD9F17": "Deheb",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Armata",
+    "#474747": "Asfalt",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Oranġjo Maħruq",
+    "#80011F": "Kardinal",
+    "#382829": "Ċikkulata",
+    "#F06336": "Korall",
+    "#FAE7C9": "Krema",
+    "#6B2257": "Passolina",
+    "#222127": "Griż Skur",
+    "#0D5A74": "Teal Fond",
+    "#00582F": "Evergreen",
+    "#214C30": "Foresti",
+    "#DC2867": "Fuchsia",
+    "#38561": "Kelly",
+    "#5C884D": "Weraq",
+    "#558450": "Dawl Aqua",
+    "#96B5C9": "Blu ċar",
+    "#DCAFCE": "Lelà",
+    "#D3E1A4": "Ġir",
+    "#9DE7C2": "Mint",
+    "#F6EAD2": "Naturali",
+    "#1A1F35": "Navy",
+    "#404624": "Żebbuġa",
+    "#271020": "Għanbaqar",
+    "#A8355C": "Lampun",
+    "#D6BEA6": "Krema ratba",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Teal",
+    "#A86EA9": "Vjola",
+    "#36454F": "Faħam tal-kannol",
+    "#b3b0ab": "Griż tal-karbonju",
+    "#463e3d": "Faħam tal-Kannol",
+    "#282d3c": "Blazer Navy"
   },
   "address_info": {
     "name": "Isem",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Numru tal-bini",
     "building_unit": "Unità",
     "postcode": "Kodiċi Postali",
-    "note": "Nota"
+    "note": "Nota",
+    "county": "Kontea"
   },
   "product_types": {
     "physical": "Fiżiku",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Kulur",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Sempliċi",
       "selective": "Selettiv",
-      "switch": "Aqleb"
-    }
+      "switch": "Aqleb",
+      "file": "Fajl",
+      "number": "Numru"
+    },
+    "placeholder_input": "Placeholder",
+    "file_type_input": "Tipi ta' fajls aċċettabbli",
+    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "Isem tal-Prodott",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Daħħal il-mowbajl tiegħek",
     "verification_code": "Kodiċi ta' verifika",
     "msg_title": "Hi,",
-    "msg_body": "Jekk jogħġbok illoginja. Huwa jieħu biss ftit sekondi."
+    "msg_body": "Jekk jogħġbok illoginja. Huwa jieħu biss ftit sekondi.",
+    "login_apple": "Idħol ma 'Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Tikketti miżjuda"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Kkumplikata ħafna",
+    "hard": "Iebsa",
+    "intermediate": "Intermedju",
+    "easy": "Faċli"
   }
 };

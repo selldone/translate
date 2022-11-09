@@ -65,7 +65,9 @@ export default {
     "my_feed": "Aniga",
     "blocked_message": "Waa lagu xannibay ilaa",
     "reported": "la sheegay",
-    "report": "Warbixin"
+    "report": "Warbixin",
+    "post": "Ku dhaji",
+    "attach_file": "Ku dheji faylka"
   },
   "invite_message": "{user} ayaa kugu casuumay madasha {community}. Guji xiriirka hoose si aad u akhrido indha-indhaynta asxaabtaada oo ula wadaagto fikradaada iyaga. waan ku sugayaa",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Ka saar ra'yi ururinta",
     "take_screenshot": "Dabool ahaan u qaado",
     "take_link_msg": "Xidhiidhkii hore halkan oo gal",
-    "eligible_title": "Talaabooyinka lagu xaq u leeyahay in la soo dhejiyo"
+    "eligible_title": "Talaabooyinka lagu xaq u leeyahay in la soo dhejiyo",
+    "public": "Dadweynaha"
   },
   "tips": {
     "verify_email": "Geli oo xaqiiji iimaylkaga",

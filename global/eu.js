@@ -558,7 +558,52 @@ export default {
     "merchant": "Merkataria",
     "per_product": "Produktu bakoitzeko",
     "journey": "Bidaia",
-    "after": "Ondoren"
+    "after": "Ondoren",
+    "waiting_for_payment": "Mesedez, osatu ordainketa...",
+    "hour": "Ordua",
+    "minute": "Minutua",
+    "premium": "Premium",
+    "light": "Argia",
+    "dark": "Iluna",
+    "guest": "Gonbidatua",
+    "shops": "Dendak",
+    "vendor": "Saltzailea",
+    "vendors": "Saltzaileak",
+    "marketplace": "Merkatua",
+    "verify_date": "Egiaztatu data",
+    "note": "Ohar",
+    "panel": "Panela",
+    "removed": "Kendua",
+    "segments": "Segmentuak",
+    "personal_info": "Informazio pertsonala",
+    "preferences": "Hobespenak",
+    "spec": "Spec",
+    "reviews": "Iritziak",
+    "constraints": "Murrizketak",
+    "flexible": "Malgua",
+    "usage_limit": "Erabilera muga",
+    "temporary": "Behin-behinekoa",
+    "original": "Jatorrizkoa",
+    "saved": "Gordeta!",
+    "sort": "Ordenatu",
+    "documents": "Dokumentuak",
+    "document": "Dokumentua",
+    "please_wait": "Itxaron mesedez...",
+    "pickup": "Jaso",
+    "customize": "pertsonalizatu",
+    "difficulty": "Zailtasuna",
+    "banned": "Debekatua",
+    "company": "Enpresa",
+    "tax_shipping": "Bidalketa Zerga",
+    "warranty": "Bermea",
+    "return_policy": "Itzultze politika",
+    "guide": "Gida",
+    "translate": "Itzuli",
+    "public": "Publiko",
+    "deleted": "Ezabatu da",
+    "variant": "Aldaera",
+    "secure": "Segurua",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Pista",
     "change_state": "Aldatu egoera",
     "done": "Eginda",
-    "reply": "Erantzun"
+    "reply": "Erantzun",
+    "watch_now": "Ikusi orain",
+    "unlock": "Desblokeatu",
+    "lock": "Blokea",
+    "create_clone": "Sortu klona",
+    "regenerate": "Birsortu",
+    "add_message": "Gehitu mezua",
+    "continue_chat": "Jarraitu berriketan",
+    "add_new_message": "Gehitu mezu berria"
   },
   "instance_message_title": "Bidali berehalako mezua",
   "instance_message": "Kaixo {name}, {author}ko {company} naiz.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Posta kodea",
     "enter_value": "Bete hemen",
     "address_note": "Ohar",
-    "tel": "Harremanetarako zenbakia"
+    "tel": "Harremanetarako zenbakia",
+    "service_address": "Hautatu zure helbidea"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "kiloak",
     "laurdenak",
     "metroak",
-    "gela"
+    "gela",
+    "segundoak",
+    "minutu",
+    "orduak",
+    "egunak",
+    "asteak",
+    "hilabeteak",
+    "urteak"
   ],
   "region_types": {
     "State": "Estatu",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Gutxieneko luzerak {length} izan behar du",
     "invalid_min_array_length": "Hautatu gutxienez {length} elementuak",
     "invalid_max_chars": "Gehienez {maxCount} karaktere",
-    "invalid_url": "URL baliogabea"
+    "invalid_url": "URL baliogabea",
+    "country_invalid": "Hautatu helmugako herrialdea!",
+    "postal_code_invalid": "Ezarri baliozko posta kodea!"
   },
   "colors": {
     "#D32F2F": "Gorria",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Zuria",
     "#FFF": "Zuria",
     "#000000": "Beltza",
-    "#000": "Beltza"
+    "#000": "Beltza",
+    "#7d263a": "Marroia",
+    "#FD9F17": "Urrea",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Armada",
+    "#474747": "Asfaltoa",
+    "#E6195C": "Baia",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Laranja errea",
+    "#80011F": "Kardinala",
+    "#382829": "Txokolatea",
+    "#F06336": "Korala",
+    "#FAE7C9": "Krema",
+    "#6B2257": "Curranta",
+    "#222127": "Gris Iluna",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Hosto iraunkorrekoa",
+    "#214C30": "Basoa",
+    "#DC2867": "Fuksia",
+    "#38561": "Kelly",
+    "#5C884D": "Hostoa",
+    "#558450": "Aqua argia",
+    "#96B5C9": "Urdin argia",
+    "#DCAFCE": "Lila",
+    "#D3E1A4": "Karea",
+    "#9DE7C2": "Menta",
+    "#F6EAD2": "Naturala",
+    "#1A1F35": "Armada",
+    "#404624": "Oliba",
+    "#271020": "Inara",
+    "#A8355C": "Mugurdia",
+    "#D6BEA6": "Krema biguna",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Zertzeta",
+    "#A86EA9": "Violeta",
+    "#36454F": "Egur-ikatza",
+    "#b3b0ab": "karbono grisa",
+    "#463e3d": "Egur-ikatza txilarra",
+    "#282d3c": "Armadako Blazer"
   },
   "address_info": {
     "name": "Izena",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Eraikinaren zenbakia",
     "building_unit": "Unitatea",
     "postcode": "Posta kodea",
-    "note": "Ohar"
+    "note": "Ohar",
+    "county": "Konderria"
   },
   "product_types": {
     "physical": "Fisikoa",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Kolore",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Sinplea",
       "selective": "Selektiboa",
-      "switch": "Aldatu"
-    }
+      "switch": "Aldatu",
+      "file": "Fitxategia",
+      "number": "Zenbakia"
+    },
+    "placeholder_input": "Leku-marka",
+    "file_type_input": "Fitxategi mota onargarriak",
+    "file_type_message": "jpeg, png, zip,..."
   },
   "virtual_order_info_summery": {
     "title": "produktuaren izena",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Sartu zure mugikorra",
     "verification_code": "Egiaztapen-kodea",
     "msg_title": "Kaixo,",
-    "msg_body": "Mesedez, hasi saioa. Segundo batzuk besterik ez ditu behar."
+    "msg_body": "Mesedez, hasi saioa. Segundo batzuk besterik ez ditu behar.",
+    "login_apple": "Hasi saioa Apple-rekin"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Etiketak gehitu dira"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Oso konplikatua",
+    "hard": "Gogorra",
+    "intermediate": "Tartekoa",
+    "easy": "Erraza"
   }
 };

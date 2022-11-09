@@ -558,7 +558,52 @@ export default {
     "merchant": "تاجر",
     "per_product": "لكل منتج",
     "journey": "رحلة",
-    "after": "بعد"
+    "after": "بعد",
+    "waiting_for_payment": "الرجاء إتمام الدفع ...",
+    "hour": "ساعة",
+    "minute": "اللحظة",
+    "premium": "الممتازة",
+    "light": "خفيفة",
+    "dark": "داكن",
+    "guest": "زائر",
+    "shops": "المتاجر",
+    "vendor": "بائع",
+    "vendors": "الباعة",
+    "marketplace": "المتجر",
+    "verify_date": "تحقق من التاريخ",
+    "note": "ملحوظة",
+    "panel": "لوحة",
+    "removed": "إزالة",
+    "segments": "شرائح",
+    "personal_info": "معلومات شخصية",
+    "preferences": "التفضيلات",
+    "spec": "المواصفات",
+    "reviews": "المراجعات",
+    "constraints": "القيود",
+    "flexible": "مرن",
+    "usage_limit": "حد الاستخدام",
+    "temporary": "مؤقت",
+    "original": "أصلي",
+    "saved": "أنقذ!",
+    "sort": "فرز",
+    "documents": "وثائق",
+    "document": "وثيقة",
+    "please_wait": "أرجو الإنتظار...",
+    "pickup": "يلتقط",
+    "customize": "يعدل أو يكيف",
+    "difficulty": "صعوبة",
+    "banned": "محظور",
+    "company": "شركة",
+    "tax_shipping": "ضريبة الشحن",
+    "warranty": "ضمان",
+    "return_policy": "سياسة العائدات",
+    "guide": "مرشد",
+    "translate": "يترجم",
+    "public": "عام",
+    "deleted": "تم الحذف",
+    "variant": "متغير",
+    "secure": "يؤمن",
+    "admin": "مسؤل"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "مسار",
     "change_state": "تغيير الوضع",
     "done": "منتهي",
-    "reply": "رد"
+    "reply": "رد",
+    "watch_now": "شاهد الآن",
+    "unlock": "الغاء القفل",
+    "lock": "قفل",
+    "create_clone": "خلق استنساخ",
+    "regenerate": "تجديد",
+    "add_message": "اضافة رسالة",
+    "continue_chat": "تواصل الدردشة",
+    "add_new_message": "أضف رسالة جديدة"
   },
   "instance_message_title": "إرسال رسالة فورية",
   "instance_message": "مرحبًا {name} ، اسمي {author} من {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "الرمز البريدي",
     "enter_value": "املأ هنا",
     "address_note": "ملحوظة",
-    "tel": "رقم الاتصال"
+    "tel": "رقم الاتصال",
+    "service_address": "حدد عنوانك"
   },
   "weight": {
     "g": "ز",
@@ -753,7 +807,14 @@ export default {
     "جنيه أو رطل للوزن",
     "كوارت",
     "ياردات",
-    "مجال"
+    "مجال",
+    "ثواني",
+    "الدقائق",
+    "ساعات",
+    "أيام",
+    "أسابيع",
+    "الشهور",
+    "سنوات"
   ],
   "region_types": {
     "State": "حالة",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "يجب أن يكون الحد الأدنى للطول {length}",
     "invalid_min_array_length": "حدد على الأقل {length} عنصرًا",
     "invalid_max_chars": "الحد الأقصى {maxCount} حرفًا",
-    "invalid_url": "URL غير صالح"
+    "invalid_url": "URL غير صالح",
+    "country_invalid": "حدد بلد المقصد!",
+    "postal_code_invalid": "تعيين رمز بريدي صالح!"
   },
   "colors": {
     "#D32F2F": "أحمر",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "أبيض",
     "#FFF": "أبيض",
     "#000000": "أسود",
-    "#000": "أسود"
+    "#000": "أسود",
+    "#7d263a": "مارون",
+    "#FD9F17": "ذهب",
+    "#229DBF": "أكوا",
+    "#6DC9E2": "أكوا ترايبليند",
+    "#413B2D": "جيش",
+    "#474747": "أسفلت",
+    "#E6195C": "بيري",
+    "#B2184C": "بيري ترايبليند",
+    "#FC7F5F": "برتقالي محروق",
+    "#80011F": "أساسي",
+    "#382829": "شوكولاتة",
+    "#F06336": "المرجان",
+    "#FAE7C9": "كريم",
+    "#6B2257": "زبيب",
+    "#222127": "رمادي غامق",
+    "#0D5A74": "عميق البط البري",
+    "#00582F": "دائم الخضرة",
+    "#214C30": "غابة",
+    "#DC2867": "ضارب الى الحمرة",
+    "#38561": "كيلي",
+    "#5C884D": "ورقة",
+    "#558450": "لايت أكوا",
+    "#96B5C9": "أزرق فاتح",
+    "#DCAFCE": "أرجواني",
+    "#D3E1A4": "جير",
+    "#9DE7C2": "نعناع",
+    "#F6EAD2": "طبيعي",
+    "#1A1F35": "القوات البحرية",
+    "#404624": "زيتون",
+    "#271020": "وظيفة محترمة",
+    "#A8355C": "توت العُليق",
+    "#D6BEA6": "كريم لينة",
+    "#BEA994": "تان",
+    "#0DB2AE": "بط نهري صغير",
+    "#A86EA9": "البنفسجي",
+    "#36454F": "فحم",
+    "#b3b0ab": "الكربون الرمادي",
+    "#463e3d": "هيذر الفحم",
+    "#282d3c": "بليزر كحلي"
   },
   "address_info": {
     "name": "اسم",
@@ -838,7 +940,8 @@ export default {
     "building_number": "رقم المبنى",
     "building_unit": "وحدة",
     "postcode": "الرمز البريدي",
-    "note": "ملحوظة"
+    "note": "ملحوظة",
+    "county": "مقاطعة"
   },
   "product_types": {
     "physical": "منتج مادي",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "اللون",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "بسيط",
       "selective": "انتقائي",
-      "switch": "يُحوّل"
-    }
+      "switch": "يُحوّل",
+      "file": "ملف",
+      "number": "رقم"
+    },
+    "placeholder_input": "عنصر نائب",
+    "file_type_input": "أنواع الملفات المقبولة",
+    "file_type_message": "jpeg ، png ، الرمز البريدي ، ..."
   },
   "virtual_order_info_summery": {
     "title": "اسم المنتج",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "أدخل هاتفك المحمول",
     "verification_code": "شيفرة التأكيد",
     "msg_title": "أهلاً،",
-    "msg_body": "الرجاء تسجيل الدخول. يستغرق بضع ثوان فقط."
+    "msg_body": "الرجاء تسجيل الدخول. يستغرق بضع ثوان فقط.",
+    "login_apple": "تسجيل الدخول مع Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "تمت إضافة العلامات"
     }
+  },
+  "difficulties": {
+    "very_complicated": "معقد جدا",
+    "hard": "الصعب",
+    "intermediate": "متوسط",
+    "easy": "سهل"
   }
 };

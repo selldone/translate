@@ -558,7 +558,52 @@ export default {
     "merchant": "Söwdaçy",
     "per_product": "Her önüm üçin",
     "journey": "Syýahat",
-    "after": "Soň"
+    "after": "Soň",
+    "waiting_for_payment": "Tölegiňizi tamamlaň ...",
+    "hour": "Sagat",
+    "minute": "Minut",
+    "premium": "Premium",
+    "light": "Lightagtylyk",
+    "dark": "Garaňky",
+    "guest": "Myhman",
+    "shops": "Dükanlar",
+    "vendor": "Satyjy",
+    "vendors": "Satyjylar",
+    "marketplace": "Bazar",
+    "verify_date": "Sene barlaň",
+    "note": "Bellik",
+    "panel": "Panel",
+    "removed": "Aýyryldy",
+    "segments": "Bölümler",
+    "personal_info": "Şahsy maglumatlar",
+    "preferences": "Saýlamalar",
+    "spec": "Görnüş",
+    "reviews": "Synlar",
+    "constraints": "Çäklendirmeler",
+    "flexible": "Çeýe",
+    "usage_limit": "Ulanyş çäkleri",
+    "temporary": "Wagtlaýyn",
+    "original": "Asyl",
+    "saved": "Halas edildi!",
+    "sort": "Sort",
+    "documents": "Resminamalar",
+    "document": "Resminama",
+    "please_wait": "Haýyş edýärin ...",
+    "pickup": "Pikap",
+    "customize": "düzmek",
+    "difficulty": "Kynçylyk",
+    "banned": "Gadagan",
+    "company": "Kompaniýa",
+    "tax_shipping": "Eltip bermek salgydy",
+    "warranty": "Kepillik",
+    "return_policy": "Yzyna gaýdyp gelmek syýasaty",
+    "guide": "Gollanma",
+    "translate": "Terjime et",
+    "public": "Köpçülik",
+    "deleted": "Öçürildi",
+    "variant": "Wariant",
+    "secure": "Howpsuz",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Yzarla",
     "change_state": "Statusyny üýtgetmek",
     "done": "Boldy",
-    "reply": "Jogap ber"
+    "reply": "Jogap ber",
+    "watch_now": "Indi serediň",
+    "unlock": "Gulpy aç",
+    "lock": "Gulp",
+    "create_clone": "Klon dörediň",
+    "regenerate": "Täzelen",
+    "add_message": "Habar goş",
+    "continue_chat": "Söhbeti dowam etdiriň",
+    "add_new_message": "Täze habar goşuň"
   },
   "instance_message_title": "Derrew habar iber",
   "instance_message": "Salam {name}, Meniň adym {author} -dan {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Poçta kody",
     "enter_value": "Şu ýere dolduryň",
     "address_note": "Bellik",
-    "tel": "Habarlaşmak üçin belgisi"
+    "tel": "Habarlaşmak üçin belgisi",
+    "service_address": "Salgyňyzy saýlaň"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "funt",
     "kwartal",
     "howlylar",
-    "otag"
+    "otag",
+    "sekunt",
+    "minut",
+    "sagat",
+    "günler",
+    "hepdeler",
+    "aýlar",
+    "ýyllar"
   ],
   "region_types": {
     "State": "Döwlet",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Iň pes uzynlyk {length} bolmaly",
     "invalid_min_array_length": "Iň bolmanda {length} elementlerini saýlaň",
     "invalid_max_chars": "Maks {maxCount} nyşanlary",
-    "invalid_url": "Nädogry URL"
+    "invalid_url": "Nädogry URL",
+    "country_invalid": "Barjak ýurduňyzy saýlaň!",
+    "postal_code_invalid": "Dogry poçta koduny düzüň!"
   },
   "colors": {
     "#D32F2F": "Gyzyl",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Ak",
     "#FFF": "Ak",
     "#000000": "Gara",
-    "#000": "Gara"
+    "#000": "Gara",
+    "#7d263a": "Maron",
+    "#FD9F17": "Altyn",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Goşun",
+    "#474747": "Asfalt",
+    "#E6195C": "Berry",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Pyrtykal",
+    "#80011F": "Kardinal",
+    "#382829": "Şokolad",
+    "#F06336": "Merjen",
+    "#FAE7C9": "Krem",
+    "#6B2257": "Garant",
+    "#222127": "Gara çal",
+    "#0D5A74": "Çuň çaý",
+    "#00582F": "Hemişe gök öwüsýän",
+    "#214C30": "Tokaý",
+    "#DC2867": "Fuksiýa",
+    "#38561": "Kelli",
+    "#5C884D": "Leafaprak",
+    "#558450": "Lighteňil akwa",
+    "#96B5C9": "Açyk gök",
+    "#DCAFCE": "Kirpik",
+    "#D3E1A4": "Hek",
+    "#9DE7C2": "Mint",
+    "#F6EAD2": "Tebigy",
+    "#1A1F35": "Harby-deňiz güýçleri",
+    "#404624": "Zeýtun",
+    "#271020": "Erik",
+    "#A8355C": "Malina",
+    "#D6BEA6": "Softumşak krem",
+    "#BEA994": "Tan",
+    "#0DB2AE": "Çaý",
+    "#A86EA9": "Gyrmyzy",
+    "#36454F": "Kömür",
+    "#b3b0ab": "uglerod çal",
+    "#463e3d": "Kömür Heather",
+    "#282d3c": "Deňiz Blazer"
   },
   "address_info": {
     "name": "Ady",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Gurluşyk belgisi",
     "building_unit": "Bölüm",
     "postcode": "Poçta kody",
-    "note": "Bellik"
+    "note": "Bellik",
+    "county": "Welaýat"
   },
   "product_types": {
     "physical": "Fiziki",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Reňk",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Pleönekeý",
       "selective": "Saýlaw",
-      "switch": "Geçmek"
-    }
+      "switch": "Geçmek",
+      "file": "Faýl",
+      "number": "San"
+    },
+    "placeholder_input": "Placeer eýesi",
+    "file_type_input": "Kabul edilýän faýl görnüşleri",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Önümiň ady",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Jübi telefonyňyzy giriziň",
     "verification_code": "Barlag kody",
     "msg_title": "Salam,",
-    "msg_body": "Girişiňizi haýyş edýäris. Birnäçe sekunt gerek."
+    "msg_body": "Girişiňizi haýyş edýäris. Birnäçe sekunt gerek.",
+    "login_apple": "Apple bilen giriň"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Bellikler goşuldy"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Örän çylşyrymly",
+    "hard": "Gaty",
+    "intermediate": "Aralyk",
+    "easy": "Aňsat"
   }
 };

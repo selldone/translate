@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Gerelateerde producten",
     "price": "Prijs",
     "rate": "Tarief",
-    "comment": "Commentaar"
+    "comment": "Commentaar",
+    "warranty": "Garantie",
+    "return_policy": "TERUGSTUURBELEID",
+    "guide": "Gids",
+    "shipping": "Verzending"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Uw bestelling is succesvol geplaatst.",
       "delete_success": "Artikel verwijderd."
-    }
+    },
+    "select_address_message": "Voer uw adres in en u kunt de bestelling verzenden."
   },
   "hyper": {
     "title": "Bestelling maken",
@@ -541,5 +546,19 @@ export default {
       "message": "U heeft een toeslag voor dit artikel opgegeven. U kunt het afschrijvingsbedrag voor het door de klant gekochte artikel wijzigen.",
       "charge": "Aanval"
     }
+  },
+  "check_access": {
+    "waiting_message": "Wachten om toegang te controleren...",
+    "no_access_message": "Helaas heeft u geen toegang tot onze winkel.<br/> Gelieve ons te contacteren."
+  },
+  "share_order": {
+    "action": "Bestelling delen",
+    "title": "Deel deze bestelling met anderen.",
+    "message": "Het is een beveiligde link, deel deze alleen met degenen die u kent. Iedereen met deze link kan uw bestelling dupliceren en het geselecteerde adres zien. Het bevat informatie over uw huidige winkelwagen.",
+    "valid_period": "Deze link verloopt na 48 uur.",
+    "import_order_action": "Bestelling importeren",
+    "retrieve_dialog_title": "Externe bestelling ophalen",
+    "address_included": "Artikelen in winkelwagen delen + Adres",
+    "address_excluded": "Alleen winkelwagenitems delen"
   }
 };

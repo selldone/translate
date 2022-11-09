@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Samfura masu alaƙa",
     "price": "Farashin",
     "rate": "Rate",
-    "comment": "Sharhi"
+    "comment": "Sharhi",
+    "warranty": "Garanti",
+    "return_policy": "Manufar Komawa",
+    "guide": "Jagora",
+    "shipping": "Jirgin ruwa"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "An yi nasarar yin odar ku.",
       "delete_success": "An goge abu"
-    }
+    },
+    "select_address_message": "Da fatan za a shigar da adireshin ku, sannan zaku iya ƙaddamar da odar."
   },
   "hyper": {
     "title": "Halittar oda",
@@ -541,5 +546,19 @@ export default {
       "message": "Kun ƙayyade cajin wannan abu. Kuna iya canza adadin kuɗin abin da abokin ciniki ya saya.",
       "charge": "Caji"
     }
+  },
+  "check_access": {
+    "waiting_message": "Ana jira don duba shiga...",
+    "no_access_message": "Abin takaici, ba ku da damar shiga kantin sayar da mu.<br/> Da fatan za a tuntube mu."
+  },
+  "share_order": {
+    "action": "Raba oda",
+    "title": "Raba wannan odar ga wasu.",
+    "message": "Yana da amintaccen hanyar haɗi, kawai raba shi tare da waɗanda kuka sani. Duk mai wannan hanyar haɗin yanar gizon yana iya kwafin odar ku kuma ya ga adireshin da aka zaɓa. Zai ƙunshi bayani game da keken ku na yanzu.",
+    "valid_period": "Wannan hanyar haɗin za ta ƙare bayan awanni 48.",
+    "import_order_action": "oda shigo da",
+    "retrieve_dialog_title": "Maido oda na waje",
+    "address_included": "Raba abubuwan kwando + Adireshi",
+    "address_excluded": "Raba kayan kwando kawai"
   }
 };

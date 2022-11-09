@@ -65,7 +65,9 @@ export default {
     "my_feed": "Jien",
     "blocked_message": "Inti imblukkat till",
     "reported": "Rapportati",
-    "report": "Rapport"
+    "report": "Rapport",
+    "post": "Post",
+    "attach_file": "Ehmeż fajl"
   },
   "invite_message": "{user} stiednek għall-forum {community}. Ikklikkja fuq il-link hawn taħt biex taqra l-osservazzjonijiet tal-ħbieb tiegħek u taqsam l-opinjoni tiegħek magħhom. Qed nistenniek.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Neħħi l-istħarriġ",
     "take_screenshot": "Ħu bħala kopertura",
     "take_link_msg": "Past link hawn u daħħal",
-    "eligible_title": "Passi biex tkun eliġibbli għall-post"
+    "eligible_title": "Passi biex tkun eliġibbli għall-post",
+    "public": "Pubbliku"
   },
   "tips": {
     "verify_email": "Daħħal u vverifika l-email tiegħek.",

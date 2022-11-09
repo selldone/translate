@@ -558,7 +558,52 @@ export default {
     "merchant": "商人",
     "per_product": "製品ごと",
     "journey": "旅",
-    "after": "後"
+    "after": "後",
+    "waiting_for_payment": "お支払いを完了してください...",
+    "hour": "時間",
+    "minute": "分",
+    "premium": "プレミアム",
+    "light": "光",
+    "dark": "闇",
+    "guest": "ゲスト",
+    "shops": "店舗",
+    "vendor": "ベンダー",
+    "vendors": "ベンダー",
+    "marketplace": "市場",
+    "verify_date": "日付を確認",
+    "note": "ノート",
+    "panel": "パネル",
+    "removed": "削除されました",
+    "segments": "セグメント",
+    "personal_info": "個人情報",
+    "preferences": "環境設定",
+    "spec": "スペック",
+    "reviews": "レビュー",
+    "constraints": "制約",
+    "flexible": "フレキシブル",
+    "usage_limit": "利用制限",
+    "temporary": "一時的",
+    "original": "オリジナル",
+    "saved": "保存しました！",
+    "sort": "選別",
+    "documents": "ドキュメント",
+    "document": "書類",
+    "please_wait": "お待ちください...",
+    "pickup": "選び出す",
+    "customize": "カスタマイズ",
+    "difficulty": "困難",
+    "banned": "禁止された",
+    "company": "会社",
+    "tax_shipping": "配送料",
+    "warranty": "保証",
+    "return_policy": "返品規則",
+    "guide": "ガイド",
+    "translate": "翻訳",
+    "public": "公衆",
+    "deleted": "削除",
+    "variant": "変異体",
+    "secure": "安全",
+    "admin": "管理者"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "追跡",
     "change_state": "ステータスを変更する",
     "done": "終わり",
-    "reply": "返事"
+    "reply": "返事",
+    "watch_now": "今見る",
+    "unlock": "ロック解除",
+    "lock": "ロック",
+    "create_clone": "クローンを作成",
+    "regenerate": "再生する",
+    "add_message": "メッセージを追加",
+    "continue_chat": "チャットを続ける",
+    "add_new_message": "新しいメッセージを追加"
   },
   "instance_message_title": "インスタントメッセージを送信する",
   "instance_message": "こんにちは{name}、私の名前は{company}の{author}です。",
@@ -690,7 +743,8 @@ export default {
     "postcode": "郵便番号",
     "enter_value": "ここに記入",
     "address_note": "ノート",
-    "tel": "連絡先番号"
+    "tel": "連絡先番号",
+    "service_address": "住所を選択してください"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "ポンド",
     "クォート",
     "ヤード",
-    "部屋"
+    "部屋",
+    "秒",
+    "分",
+    "時間",
+    "日々",
+    "週間",
+    "月",
+    "年"
   ],
   "region_types": {
     "State": "州",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "最小の長さは{length}でなければなりません",
     "invalid_min_array_length": "少なくとも{length}のアイテムを選択してください",
     "invalid_max_chars": "最大{maxCount}文字",
-    "invalid_url": "無効なURL"
+    "invalid_url": "無効なURL",
+    "country_invalid": "目的地の国を選択してください！",
+    "postal_code_invalid": "有効な郵便番号を設定してください!"
   },
   "colors": {
     "#D32F2F": "赤",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "白",
     "#FFF": "白",
     "#000000": "黒",
-    "#000": "黒"
+    "#000": "黒",
+    "#7d263a": "あずき色",
+    "#FD9F17": "金",
+    "#229DBF": "アクア",
+    "#6DC9E2": "アクア・トリブレンド",
+    "#413B2D": "軍",
+    "#474747": "アスファルト",
+    "#E6195C": "ベリー",
+    "#B2184C": "ベリー・トリブレンド",
+    "#FC7F5F": "バーントオレンジ",
+    "#80011F": "枢機卿",
+    "#382829": "チョコレート",
+    "#F06336": "コーラル",
+    "#FAE7C9": "クリーム",
+    "#6B2257": "スグリ",
+    "#222127": "濃い灰色",
+    "#0D5A74": "ディープティール",
+    "#00582F": "エバーグリーン",
+    "#214C30": "森",
+    "#DC2867": "フクシア",
+    "#38561": "ケリー",
+    "#5C884D": "葉",
+    "#558450": "ライトアクア",
+    "#96B5C9": "ライトブルー",
+    "#DCAFCE": "ライラック",
+    "#D3E1A4": "ライム",
+    "#9DE7C2": "ミント",
+    "#F6EAD2": "自然",
+    "#1A1F35": "海軍",
+    "#404624": "オリーブ",
+    "#271020": "梅",
+    "#A8355C": "ラズベリー",
+    "#D6BEA6": "ソフトクリーム",
+    "#BEA994": "タン",
+    "#0DB2AE": "ティール",
+    "#A86EA9": "バイオレット",
+    "#36454F": "木炭",
+    "#b3b0ab": "カーボングレー",
+    "#463e3d": "チャコールヘザー",
+    "#282d3c": "ネイビー ブレザー"
   },
   "address_info": {
     "name": "名前",
@@ -838,7 +940,8 @@ export default {
     "building_number": "ビル番号",
     "building_unit": "単位",
     "postcode": "郵便番号",
-    "note": "ノート"
+    "note": "ノート",
+    "county": "郡"
   },
   "product_types": {
     "physical": "物理的",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "色",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "単純",
       "selective": "選択的",
-      "switch": "スイッチ"
-    }
+      "switch": "スイッチ",
+      "file": "ファイル",
+      "number": "番号"
+    },
+    "placeholder_input": "プレースホルダー",
+    "file_type_input": "受け入れ可能なファイルの種類",
+    "file_type_message": "jpeg、png、zip、..."
   },
   "virtual_order_info_summery": {
     "title": "商品名",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "あなたの携帯電話を入力してください",
     "verification_code": "検証コード",
     "msg_title": "やあ、",
-    "msg_body": "ログインしてください。ほんの数秒かかります。"
+    "msg_body": "ログインしてください。ほんの数秒かかります。",
+    "login_apple": "Appleでログイン"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "タグが追加されました"
     }
+  },
+  "difficulties": {
+    "very_complicated": "とても難しい",
+    "hard": "難しい",
+    "intermediate": "中級",
+    "easy": "簡単"
   }
 };

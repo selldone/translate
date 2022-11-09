@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Alaabooyinka la xidhiidha",
     "price": "Qiimo",
     "rate": "Qiime",
-    "comment": "Faallo"
+    "comment": "Faallo",
+    "warranty": "dammaanad",
+    "return_policy": "Siyaasadda soo celinta",
+    "guide": "Hagaha",
+    "shipping": "Raridda"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Dalabkaagii si guul leh ayaa loo dhigay",
       "delete_success": "Shayga waa la tirtiray"
-    }
+    },
+    "select_address_message": "Fadlan geli ciwaankaga,kadibna waxaad soo gudbin kartaa dalabka."
   },
   "hyper": {
     "title": "Dalbo abuur",
@@ -541,5 +546,19 @@ export default {
       "message": "Waxaad cayimay lacag shaygan. Waxaad bedeli kartaa qadarka kharashka shayga uu iibsaday macmiilku.",
       "charge": "Lacag"
     }
+  },
+  "check_access": {
+    "waiting_message": "Sugaya si loo hubiyo gelitaanka...",
+    "no_access_message": "Nasiib darro, ma heli kartid dukaankayaga.<br/> Fadlan nala soo xidhiidh"
+  },
+  "share_order": {
+    "action": "La wadaag dalabka",
+    "title": "La wadaag dalabkan dadka kale.",
+    "message": "Waa iskuxir sugan, la wadaag kaliya kuwa aad taqaan. Qof kasta oo leh xiriirkan ayaa nuqul ka sameysan kara dalabkaaga oo arki kara ciwaanka la doortay. Waxay ka koobnaan doontaa macluumaadka ku saabsan gaadhigaaga hadda.",
+    "valid_period": "Xiriirintani waxay dhacaysaa 48 saacadood ka dib.",
+    "import_order_action": "Dalabka soo dejinta",
+    "retrieve_dialog_title": "Soo celi amarka dibadda",
+    "address_included": "La wadaag alaabta dambiisha + Cinwaanka",
+    "address_excluded": "Wadaag kaliya alaabta dambiisha"
   }
 };

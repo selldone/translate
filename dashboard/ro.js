@@ -155,7 +155,19 @@ export default {
       "Setup": "magazin",
       "Sell": "Vanzari & Marketing",
       "Developer": "Dezvolta",
-      "Application": "Aplicații"
+      "Application": "Aplicații",
+      "Product": "Management de produse și categorii",
+      "Blog": "CMS și blog",
+      "Order": "Centrul de onorare a comenzilor",
+      "Channel": "Canalele de vânzări",
+      "Accounting": "Contabilitate și metode de plată",
+      "Incentives": "Stimulente",
+      "Marketing": "Marketing și campanii",
+      "Logistic": "Logistică și transport",
+      "Customers": "Clubul Clienților și Segmentarea",
+      "Page": "Pagini de destinație și personalizate",
+      "Access": "Managementul accesului personalului / API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Depozitul Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Magazine",
       "roles": "Roluri",
       "home": "Acasă",
-      "expert": "Expert"
+      "expert": "Expert",
+      "deals": "Oferte",
+      "providers": "Furnizorii"
     },
     "shops": {
       "create_new": "Creați un magazin nou",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "stare",
           "created_at": "Data crearii",
           "updated_at": "Ultima actualizare"
-        }
+        },
+        "subtitle": "Scrie articole cu un editor inline modern pentru a te prezenta pe tine și afacerea ta. Conținutul original este primul lucru pe care trebuie să vă concentrați atunci când scrieți o postare de blog de înaltă calitate, prietenoasă cu SEO."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Raport",
         "tax": "Impozit",
         "drop_shipping": "Chitanțe de reseller",
-        "reseller_accounts": "Conturi de reseller"
+        "reseller_accounts": "Conturi de reseller",
+        "valuations": "Evaluări"
       },
       "invoice": {
         "title": "Cumpărați portofele conectate",
@@ -605,7 +621,8 @@ export default {
         "delivery": "livrare",
         "inventory": "Inventar",
         "warehouse": "Depozit",
-        "logistic_apps": "Logistică"
+        "logistic_apps": "Logistică",
+        "profiles": "Profiluri"
       },
       "warehouse": {
         "title": "Magazin Depozit",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Costul minim al comenzii pentru transport gratuit",
           "notifications": {
             "update_success": "Setările serviciului de expediere au fost finalizate cu succes."
-          }
+          },
+          "shipping_cost_calculation": "Calculul costului de transport",
+          "sod_true": "Obțineți costul de transport la destinație",
+          "sod_true_message": "Asigurați-vă că serviciul dvs. de transport acceptă costul de transport la destinație.",
+          "sod_false": "Calculul automat al costului de transport",
+          "cod_true": "Acceptați ramburs la livrare",
+          "cod_false": "Acceptați doar plata online",
+          "cod_true_message": "Asigurați-vă că serviciul dvs. de expediere acceptă COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "Mesaj",
         "email": "E-mail",
         "domain": "Domeniu",
-        "verifications": "Verificări"
+        "verifications": "Verificări",
+        "flow": "curgere",
+        "business_model": "Model de afaceri"
       },
       "delete_dialog": {
         "title": "Ștergeți magazinul",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Unitatea de produs",
       "unit_float": "Unitate de plutire (în curând)",
       "unit_float_hint": "De exemplu, clientul poate comanda 3 kg de fructe, dar suma trimisă clientului este puțin diferită de cantitatea comandată.",
-      "unit_float_message": "În timpul procesării comenzii, suma livrată poate diferi de suma comandată. Sistemul calculează automat această diferență și o înregistrează ca datorie către client, care poate fi aplicată la comenzile următoare."
+      "unit_float_message": "În timpul procesării comenzii, suma livrată poate diferi de suma comandată. Sistemul calculează automat această diferență și o înregistrează ca datorie către client, care poate fi aplicată la comenzile următoare.",
+      "status_list": {
+        "active": {
+          "title": "Activ | Vânzări online și offline",
+          "description": "Acest produs va fi disponibil pentru comenzi online."
+        },
+        "inactive": {
+          "title": "Inactiv | Numai vânzări offline",
+          "description": "Acest produs nu va fi disponibil pentru comenzi online."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Studiu",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Selectați ora de încheiere",
       "independent_price": "Pretul doar pentru aceasta varianta",
       "same_price": "Prețul pentru produsul principal",
-      "variant_pricing_message": "Selectând această opțiune, prețul acestei variante poate fi setat independent de produsul principal."
+      "variant_pricing_message": "Selectând această opțiune, prețul acestei variante poate fi setat independent de produsul principal.",
+      "price_label_input": "Eticheta de preț",
+      "price_label_message": "Adăugați informații suplimentare despre preț, cum ar fi ($1,5/Fl Oz). Cazuri de utilizare: băcănie, FMCG.",
+      "add_price_label_action": "Adăugați eticheta de preț"
     },
     "inputs_edit": {
       "title": "Formularul de introducere a informațiilor despre cumpărător",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gateway {gateway_name} a fost editat."
     },
-    "developer_setting": "Dezvoltați și testați"
+    "developer_setting": "Dezvoltați și testați",
+    "live_mode_message": "Toate tranzacțiile vor fi în modul live."
   },
   "gift_card": {
     "title": "Carduri cadou",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Adresa de facturare editată de cumpărător.",
     "payment-cod-confirm": "Plata COD a fost confirmată.",
     "payment-cash-confirm": "A fost confirmată plata a {amount} {currency} în numerar pentru factura.",
-    "payment-dir-confirm": "Chitanța de plată directă a fost confirmată."
+    "payment-dir-confirm": "Chitanța de plată directă a fost confirmată.",
+    "vendor": "Starea comenzii furnizorului s-a schimbat de la <b>{from}</b> la <b>{to}</b> .",
+    "connect-sync": "Comanda sincronizată de Connect OS.",
+    "connect-shipped": "Comanda Connect a fost expediată de {shipping}.",
+    "connect-returned": "Comanda Connect a fost returnată de {shipping}.",
+    "connect-failed": "Onorarea comenzii a eșuat de partener. {reason}",
+    "connect-canceled": "Comanda a fost anulată de partener. {reason}",
+    "connect-action-cancel": "Solicitare de anulare a comenzii. {reason}",
+    "connect-put-hold": "Comanda a fost pusă în așteptare. {reason}",
+    "connect-remove-hold": "Comanda a fost eliminată din reținere. {reason}",
+    "connect-confirmed": "Comanda a fost confirmata.",
+    "email-vendor": "🔔 E-mailul de informare a comenzii a fost trimis către <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Azi",
@@ -2443,7 +2494,8 @@ export default {
     "title": "A face bani",
     "menu": {
       "plans": "Planuri",
-      "accounts": "Conturi"
+      "accounts": "Conturi",
+      "participant": "Participant"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Stocați cheile de acces",
     "shop_keys_message": "Aceste chei sunt folosite pentru a crea Access Token de către serverul dvs. Rețineți că cheile sunt confidențiale și sunt plasate doar pe server, astfel încât să nu fie vizibile pentru alții.",
     "personal_keys_title": "Chei personale de acces",
-    "personal_keys_message": "Puteți crea cheile pentru contul dvs. aici. Rețineți că aceste chei vor putea accesa contul dvs. Creați și utilizați aceste chei numai dacă știți exact ce faceți."
+    "personal_keys_message": "Puteți crea cheile pentru contul dvs. aici. Rețineți că aceste chei vor putea accesa contul dvs. Creați și utilizați aceste chei numai dacă știți exact ce faceți.",
+    "clients_title": "Clienții",
+    "clients_message": "Aceste chei sunt folosite pentru a crea Access Token de către serverul dvs. Rețineți că cheile sunt confidențiale și sunt plasate doar pe server, astfel încât să nu fie vizibile pentru alții."
   },
   "user_security_control": {
     "title": "Securitatea contului",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Gestionați profilurile",
       "description": "Gestionați profilurile magazinului."
+    },
+    "shop-discount-code": {
+      "name": "Gestionarea codurilor de reducere",
+      "description": "Gestionați, editați și adăugați coduri de reducere în magazin."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Setări",
       "change": "Încărca",
       "transfer": "Transfer",
-      "transactions": "Tranzacții"
+      "transactions": "Tranzacții",
+      "charge": "Încărca",
+      "history": "Istorie"
     },
     "transactions": {
       "title": "Tranzacții în cont",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Anulați confirmarea abonamentului",
       "message": "Sigur anulați acest abonament?",
       "action": "Anuleaza abonarea"
-    }
+    },
+    "use_voucher_now": "Folosește voucherul acum",
+    "validity_duration": "Durata de valabilitate",
+    "validity_duration_hint": "Prin achiziționarea unei licențe de 12 luni, veți primi o reducere de 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Descărcați textul de date",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Fonturi mari",
     "large_font_message": "Afișați textul mai mare decât în mod normal",
     "samples": "Afișați exemple de magazine",
-    "samples_message": "Dacă este activată, câteva exemple de magazine vor fi afișate în panoul dvs."
+    "samples_message": "Dacă este activată, câteva exemple de magazine vor fi afișate în panoul dvs.",
+    "automation": "Automatizare",
+    "automation_message": "Afișați fila de automatizare pe tabloul de bord al magazinului. (Webhooks, programare vizuală, ...)"
   },
   "shop_locations": {
     "title": "Țările în care se prestează serviciul",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Cuponul a fost șters cu succes."
-    }
+    },
+    "multiple_use": "Utilizare multiplă"
   },
   "coupon_edit": {
     "title_edit": "Editați cuponul",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Limită",
       "description": "Stabiliți o limită pentru numărul maxim de utilizatori."
+    },
+    "SEGMENTS": {
+      "title": "Segmente",
+      "description": "Limitați clienții în segmentarea manuală specifică."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Suma totală a comenzii a fost retrasă din cardurile cadou! Cumpărătorul nu trebuie să plătească mai mult.",
       "cod_msg": "Clientul va plati la primirea comenzii.",
       "online_msg": "Cereți clientului să scaneze codul QR pe ecranul clientului."
-    }
+    },
+    "name": "POS",
+    "message": "Aveți punctul de vânzare online cu costuri de configurare zero, rulați-l pe orice smartphone, tabletă și computer sau creați comenzi manual."
   },
   "exporter": {
     "title": "Export de date",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Trimite pe server",
     "shop_license": "Licență de magazin",
     "max_items_limit": "Limită maximă de articole",
-    "total_items": "Total articole"
+    "total_items": "Total articole",
+    "customer": {
+      "title": "Clienți de import",
+      "subtitle": "Încărcați fișierele CSV ale clienților aici. Asigurați-vă că urmați formatul standard și, de asemenea, trebuie să respectați regulile de confidențialitate."
+    }
   },
   "campaigns": {
     "title": "Campanii",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Legături",
     "light_checkout": "Tema ușoară de casă",
     "light_header": "Antet ușor",
-    "light_footer": "Subsol ușor"
+    "light_footer": "Subsol ușor",
+    "product_page": "Pagina de produs",
+    "typography": "Tipografie",
+    "header": "Antet",
+    "custom_code": "Cod personalizat",
+    "custom_css": "CSS personalizat"
   },
   "app_templates": {
     "default": "Mod implicit",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Gestionați serviciul",
     "option_deliver_by_courier": "Opțiunea 1: Livrare prin curieri.",
     "option_add_to_que": "Opțiunea 2: Adăugați la coadă pentru a procesa pe pagina serviciului de expediere.",
-    "option_instant_shipping": "Opțiunea 3: Livrare instantanee."
+    "option_instant_shipping": "Opțiunea 3: Livrare instantanee.",
+    "pickup_action": "Confirmare ridicare"
   },
   "shop_home_edit": {
     "title": "Setarea paginii de pornire",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Produs adăugat în magazinul dvs.",
       "request_access": "Am trimis cererea dvs. de acces la angrosist cu succes."
-    }
+    },
+    "show_eligible_shops_message": "Afișați magazinele eligibile"
   },
   "product_dropshipping": {
     "need_re_enable": "Acest produs a fost schimbat de vânzătorul inițial, aceste modificări de preț au dezactivat produsul din magazinul dvs. Verificați modificările și dacă sunteți de acord să reactivați produsul, apăsați butonul de mai jos.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Nu există nicio categorie în magazinul dvs.",
       "limit": "Limita de produse",
       "limit_message": "Introduceți numărul de rezultate ale produselor",
-      "select_categories": "Selectați categoriile disponibile"
+      "select_categories": "Selectați categoriile disponibile",
+      "categories_limit": "Limită de categorii",
+      "categories_limit_msg": "Introduceți numărul maxim de categorii. Setați zero pentru nicio limită."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avocado a fost actualizat cu succes.",
       "add_success": "Avocado creat cu succes."
-    }
+    },
+    "name": "Avocado"
   },
   "avocado_orders": {
     "title": "Avocado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "inactiv",
     "active_message": "Dacă activați această opțiune, în secțiunea de gestionare a fiecărui produs va fi afișată posibilitatea de a crea Fast-Sales-Codes.",
     "hyper_form_link_message": "Link-ul hiperpaginii magazinului dvs",
-    "configuration": "Hyper Settings"
+    "configuration": "Hyper Settings",
+    "name": "Hiper"
   },
   "hyper_orders": {
     "title": "Hiper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Demografia clienților",
     "subtitle": "Filtrați și exportați datele clienților dvs. pentru a lua decizii mai bune pentru a oferi mai multă valoare cu mai puțin marketing! Vă rugăm să respectați confidențialitatea clienților dvs. și să nu le trimiteți niciodată e-mailuri în masă! Nu partajați niciodată informațiile clienților dvs. cu servicii terțe fără a obține permisiunea fiecăruia dintre ei."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Adrese de ridicare",
+      "subtitle": "Adăugați și editați adresele de ridicare aici. Utilizatorii vor putea selecta adresa de ridicare pe pagina de finalizare a comenzii.",
+      "add_action": "Adăugați o nouă locație"
+    }
+  },
+  "affiliate_pos": {
+    "title": "POS afiliat",
+    "open_pos_action": "POS de comandă rapidă",
+    "description": "Această opțiune este potrivită pentru administratorii paginilor Instagram și ai altor rețele sociale. Utilizați Affiliate POS pentru a primi și adăuga comenzi de la clienți manual. Afiliații dvs. (sau franciza) pot adăuga comenzi noi în POS-ul afiliat și pot încărca bonul de depozit."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Metode de conectare",
+      "subtitle": "Personalizați modul în care utilizatorii se conectează la magazinul dvs."
+    },
+    "checkout": {
+      "title": "Fluxul de checkout",
+      "subtitle": "Personalizați-vă călătoria clienților și fluxul de achiziții în comerțul dvs. electronic.",
+      "map": {
+        "title": "Hartă",
+        "subtitle": "Utilizatorii trebuie să selecteze locația de livrare pe hartă (cum ar fi Uber).",
+        "subtitle_no_map": "Distanța în calculul transportului este considerată zero dacă locația nu există în adresa furnizată de client."
+      },
+      "mode": {
+        "title": "Punct de conectare a clienților",
+        "default": {
+          "title": "ASAP (implicit)",
+          "msg": "Utilizatorii se conectează cât mai curând posibil. (Mai multe conversii)"
+        },
+        "on_checkout": {
+          "title": "La casă",
+          "msg": "Forțați utilizatorii să se conecteze la pasul de finalizare."
+        },
+        "login_free": {
+          "title": "Autentificare opțională",
+          "msg": "Autentificare opțională după plata comenzii.."
+        }
+      },
+      "express": {
+        "title": "Redirecționează după adăugarea în coș",
+        "false": {
+          "title": "Mod normal",
+          "msg": "Rămâneți pe pagină și continuați cumpărăturile după ce faceți clic pe adăugați în coș."
+        },
+        "true": {
+          "title": "Modul expres",
+          "msg": "Redirecționați clientul către pagina de finalizare a comenzii după ce faceți clic pe adăugați în coș."
+        }
+      },
+      "shipping_address": {
+        "title": "Cere adresa de livrare"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fizice și servicii (implicit)",
+      "desc": "Cereți clientului să introducă o adresă în casele fizice și de serviciu."
+    },
+    "physical": {
+      "title": "Numai fizic",
+      "desc": "Cereți clientului să introducă o adresă doar în casă fizică."
+    },
+    "off": {
+      "title": "Nu",
+      "desc": "Nu cereți niciodată adresa de expediere. ⚠ Utilizați această opțiune dacă intenționați să aveți servicii cu variante selectând tipul fizic pentru produse în loc de tipul serviciului."
+    }
+  },
+  "business_model": {
+    "title": "Configurarea modelului de afaceri",
+    "subtitle": "Setați-vă modelul de afaceri și vă vom configura sistemul de operare în spatele scenei."
+  },
+  "business_type": {
+    "title": "Tipuri de marfă",
+    "subtitle": "Setați tipul de produse pe care doriți să le vindeți în magazinul dvs. Tipurile de produse din Selldone sunt mai mult decât un tip de produse; este mai mult despre procedura de îndeplinire.",
+    "send_activation_request_to_support": "Trimiteți o solicitare de activare într-un bilet de asistență.",
+    "require_kyc": "Proprietar de afaceri KYC.",
+    "needs_enterprise_license": "Trebuie să aveți o licență Enterprise.",
+    "marketplace_caution_message": "Setați Marketplace ca model vă afectează profund configurația sistemului de operare al companiei. De exemplu, trebuie să definiți cel puțin un furnizor pentru fiecare produs cu prețuri și inventar independente. Clienții nu pot cumpăra produse care nu au furnizor."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Magazin normal",
+      "desc": "De obicei, un IMM, o afacere acasă sau un dropshipper - care își vinde produsul direct clienților sau vinde produsele angrosilor ca revânzător."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Nu păstrați niciun produs și niciun inventar - plătiți unei terțe părți, de obicei unui angrosist (cum ar fi Printify, Wholesale2B, ...) sau producător, iar aceștia îndeplinesc comenzile în spatele scenei."
+    },
+    "wholesaler": {
+      "title": "Furnizor Dropshipping",
+      "desc": "De obicei, un angrosist sau un producător – care expediază comenzi direct consumatorului final. Alți comercianți de pe Selldone vă pot livra produsele în magazinele lor."
+    },
+    "marketplace": {
+      "title": "Piata de desfacere",
+      "desc": "Piețele online conectează cumpărătorii și vânzătorii pe o platformă proprietară și centralizată."
+    },
+    "franchise": {
+      "title": "Franciza / Afiliat",
+      "desc": "O franciză este o metodă de distribuire a produselor sau serviciilor care implică un francizor care îți stabilește marca (Francising) sau vinde produsele tale după marca sa (Afiliat)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Portofele",
+    "pricing_models": "Prețuri",
+    "add_vendor": "Adăugați un furnizor",
+    "requests": "Cereri"
+  },
+  "price_input_type": {
+    "title": "Tip de introducere a prețului",
+    "default": {
+      "title": "Mod implicit",
+      "desc": "Selectați o valoare ca cantitate din coș."
+    },
+    "area": {
+      "title": "Zonă",
+      "desc": "Introduceți lățimea și lungimea ca intrări pentru a calcula cantitatea."
+    },
+    "volume": {
+      "title": "volum",
+      "desc": "Introduceți lățimea, lungimea și înălțimea ca intrări pentru a calcula cantitatea."
+    },
+    "custom": {
+      "title": "Personalizat (prin formular de introducere)",
+      "desc": "Nu este nevoie de sute de variante! Creați un formular personalizat de calcul al costurilor pentru produse extrem de personalizabile."
+    }
+  },
+  "vendors_list": {
+    "title": "Furnizorii mei",
+    "message": "Lista propriilor mei furnizori."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Conectați mai multe domenii la sistemul de operare al companiei dvs. și gestionați-le pe toate într-un singur loc. Puteți utiliza funcția de mai multe domenii pentru a crea domenii dedicate pentru fiecare parte a site-ului dvs. web, cum ar fi blogul și comunitatea, sau puteți utiliza domenii diferite pentru afiliații dvs."
+  },
+  "notes": {
+    "add_action": "Adaugă o notă pentru echipa ta",
+    "notifications": {
+      "success_add": "Nota a fost adăugată cu succes.",
+      "success_delete": "Nota a fost ștearsă cu succes."
+    }
+  },
+  "external_services": {
+    "title": "Servicii externe",
+    "subtitle": "Monitorizați ultima stare a serviciilor externe, cum ar fi SMS-urile și e-mailurile aici."
   }
 };

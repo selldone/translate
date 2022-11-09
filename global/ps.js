@@ -558,7 +558,52 @@ export default {
     "merchant": "سوداګر",
     "per_product": "هر محصول",
     "journey": "سفر",
-    "after": "وروسته"
+    "after": "وروسته",
+    "waiting_for_payment": "مهرباني وکړئ تادیه بشپړه کړئ ...",
+    "hour": "ساعت",
+    "minute": "دقیقه",
+    "premium": "پریمیم",
+    "light": "رڼا",
+    "dark": "تیاره",
+    "guest": "مېلمه",
+    "shops": "پلورنځي",
+    "vendor": "پلورونکی",
+    "vendors": "پلورونکي",
+    "marketplace": "بازار",
+    "verify_date": "نیټه تایید کړئ",
+    "note": "نوټ",
+    "panel": "پینل",
+    "removed": "لرې کړل",
+    "segments": "برخې",
+    "personal_info": "شخصي معلومات",
+    "preferences": "غوره توبونه",
+    "spec": "سپیک",
+    "reviews": "بیاکتنې",
+    "constraints": "خنډونه",
+    "flexible": "انعطاف وړ",
+    "usage_limit": "د کارونې حد",
+    "temporary": "موقتي",
+    "original": "اصلي",
+    "saved": "خوندي شوی!",
+    "sort": "ترتیب",
+    "documents": "اسناد",
+    "document": "سند",
+    "please_wait": "هیله کوم لږ صبر وکړه...",
+    "pickup": "جګ که",
+    "customize": "دودیز کول",
+    "difficulty": "مشکل",
+    "banned": "بندیز ولګول شو",
+    "company": "شرکت",
+    "tax_shipping": "د بار وړلو مالیه",
+    "warranty": "تضمین",
+    "return_policy": "د راګرځولو شرايت",
+    "guide": "لارښود",
+    "translate": "ژباړه",
+    "public": "عامه",
+    "deleted": "ړنګ شوی",
+    "variant": "ویرینټ",
+    "secure": "خوندي",
+    "admin": "اډمین"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "تعقیب",
     "change_state": "د وضعیت بدلول",
     "done": "ترسره شو",
-    "reply": "ځواب ورکړئ"
+    "reply": "ځواب ورکړئ",
+    "watch_now": "اوس یې وګوره",
+    "unlock": "خلاصول",
+    "lock": "تالاشي",
+    "create_clone": "کلون جوړ کړئ",
+    "regenerate": "بیا پیدا کول",
+    "add_message": "پیغام اضافه کړئ",
+    "continue_chat": "خبرو اترو ته دوام ورکړئ",
+    "add_new_message": "نوی پیغام اضافه کړئ"
   },
   "instance_message_title": "فوري پیغام واستوئ",
   "instance_message": "سلام {name}، زما نوم {author} د {company} څخه دی.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "پوسټ کوډ",
     "enter_value": "دلته ډک کړئ",
     "address_note": "نوټ",
-    "tel": "د اړیکې شمیره"
+    "tel": "د اړیکې شمیره",
+    "service_address": "خپل پته وټاکئ"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "پونډه",
     "کوارټس",
     "گزونه",
-    "کوټه"
+    "کوټه",
+    "ثانیې",
+    "دقیقې",
+    "ساعتونه",
+    "ورځې",
+    "اونۍ",
+    "میاشتې",
+    "کلونه"
   ],
   "region_types": {
     "State": "ریاست",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "لږ تر لږه اوږدوالی باید {length} وي",
     "invalid_min_array_length": "لږ تر لږه {length} توکي وټاکئ",
     "invalid_max_chars": "اعظمي {maxCount} حروف",
-    "invalid_url": "ناسم URL"
+    "invalid_url": "ناسم URL",
+    "country_invalid": "د منزل هیواد وټاکئ!",
+    "postal_code_invalid": "د اعتبار وړ پوستی کوډ تنظیم کړئ!"
   },
   "colors": {
     "#D32F2F": "سور",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "سپین",
     "#FFF": "سپین",
     "#000000": "تور",
-    "#000": "تور"
+    "#000": "تور",
+    "#7d263a": "مارون",
+    "#FD9F17": "سرو زرو",
+    "#229DBF": "اکوا",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "پوځ",
+    "#474747": "اسفالټ",
+    "#E6195C": "بیری",
+    "#B2184C": "بیری ټریبلنډ",
+    "#FC7F5F": "سوځیدلی نارنج",
+    "#80011F": "کارډینل",
+    "#382829": "چاکلیټ",
+    "#F06336": "مرجان",
+    "#FAE7C9": "کریم",
+    "#6B2257": "currant",
+    "#222127": "تور خړ",
+    "#0D5A74": "ژور تېل",
+    "#00582F": "تل زرغون",
+    "#214C30": "ځنګل",
+    "#DC2867": "Fuchsia",
+    "#38561": "کیلي",
+    "#5C884D": "پاڼی",
+    "#558450": "رڼا Aqua",
+    "#96B5C9": "رڼا نیلي",
+    "#DCAFCE": "لیلاک",
+    "#D3E1A4": "لیمو",
+    "#9DE7C2": "مینټ",
+    "#F6EAD2": "طبیعي",
+    "#1A1F35": "بحري",
+    "#404624": "زیتون",
+    "#271020": "لو",
+    "#A8355C": "راسبیري",
+    "#D6BEA6": "نرم کریم",
+    "#BEA994": "تان",
+    "#0DB2AE": "تېل",
+    "#A86EA9": "وایلټ",
+    "#36454F": "چارکول",
+    "#b3b0ab": "کاربن خړ",
+    "#463e3d": "د چارکول هیدر",
+    "#282d3c": "بحري بلیزر"
   },
   "address_info": {
     "name": "نوم",
@@ -838,7 +940,8 @@ export default {
     "building_number": "د ودانۍ شمیره",
     "building_unit": "واحد",
     "postcode": "پوسټ کوډ",
-    "note": "نوټ"
+    "note": "نوټ",
+    "county": "کاونټي"
   },
   "product_types": {
     "physical": "فزیکي",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "رنګ",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "ساده",
       "selective": "انتخابي",
-      "switch": "سویچ"
-    }
+      "switch": "سویچ",
+      "file": "دوتنه",
+      "number": "شمیره"
+    },
+    "placeholder_input": "ځای لرونکی",
+    "file_type_input": "د منلو وړ فایل ډولونه",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "د محصول نوم",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "خپل موبایل دننه کړئ",
     "verification_code": "د تایید کوډ",
     "msg_title": "سلام،",
-    "msg_body": "مهرباني وکړئ ننوتل. دا یوازې څو ثانیې وخت نیسي."
+    "msg_body": "مهرباني وکړئ ننوتل. دا یوازې څو ثانیې وخت نیسي.",
+    "login_apple": "د ایپل سره ننوتل"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "ټګونه اضافه شوي"
     }
+  },
+  "difficulties": {
+    "very_complicated": "ډیر پیچلی",
+    "hard": "سخت",
+    "intermediate": "منځګړی",
+    "easy": "اسانه"
   }
 };

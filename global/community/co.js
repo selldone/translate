@@ -65,7 +65,9 @@ export default {
     "my_feed": "mè",
     "blocked_message": "Sò bluccatu finu à",
     "reported": "Reportatu",
-    "report": "Rapportu"
+    "report": "Rapportu",
+    "post": "Post",
+    "attach_file": "Attaccà u schedariu"
   },
   "invite_message": "{user} vi hà invitatu à u foru {community}. Cliccate nantu à u ligame sottu per leghje l'osservazioni di i vostri amichi è sparte a vostra opinione cun elli. t’aspettu.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Eliminate u sondaghju",
     "take_screenshot": "Pigliate cum'è coperta",
     "take_link_msg": "Passatu u ligame quì è entre",
-    "eligible_title": "Passi per esse ammissibile à post"
+    "eligible_title": "Passi per esse ammissibile à post",
+    "public": "Publicu"
   },
   "tips": {
     "verify_email": "Entra è verificate u vostru email.",

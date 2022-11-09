@@ -65,7 +65,9 @@ export default {
     "my_feed": "Emi",
     "blocked_message": "O ti dina mọ titi",
     "reported": "Iroyin",
-    "report": "Iroyin"
+    "report": "Iroyin",
+    "post": "Ifiweranṣẹ",
+    "attach_file": "So faili pọ"
   },
   "invite_message": "{user} ti pe e si ibi ipade {community}. Tẹ ọna asopọ ni isalẹ lati ka awọn akiyesi awọn ọrẹ rẹ ki o pin ero rẹ pẹlu wọn. Mo nduro de e.",
   "subscription_type": {
@@ -132,7 +134,8 @@ export default {
     "remove_poll": "Yọ idibo kuro",
     "take_screenshot": "Gba bi ideri",
     "take_link_msg": "Ti o ti kọja ọna asopọ nibi ki o si tẹ",
-    "eligible_title": "Awọn igbesẹ lati yẹ lati firanṣẹ"
+    "eligible_title": "Awọn igbesẹ lati yẹ lati firanṣẹ",
+    "public": "Gbangba"
   },
   "tips": {
     "verify_email": "Tẹ ki o si mọ daju imeeli rẹ.",

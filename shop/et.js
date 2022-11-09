@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Seotud tooted",
     "price": "Hind",
     "rate": "Hinda",
-    "comment": "kommenteerida"
+    "comment": "kommenteerida",
+    "warranty": "Garantii",
+    "return_policy": "Tagastusreeglid",
+    "guide": "Giid",
+    "shipping": "Saatmine"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Teie tellimus sooritati edukalt.",
       "delete_success": "Üksus kustutatud."
-    }
+    },
+    "select_address_message": "Sisestage oma aadress ja seejärel saate tellimuse esitada."
   },
   "hyper": {
     "title": "Tellimuse loomine",
@@ -541,5 +546,19 @@ export default {
       "message": "Olete määranud selle üksuse tasu. Saate muuta kliendi ostetud kauba tasu suurust.",
       "charge": "Lae"
     }
+  },
+  "check_access": {
+    "waiting_message": "Juurdepääsu kontrollimise ootel...",
+    "no_access_message": "Kahjuks pole teil meie kauplusele juurdepääsu.<br/> Palun võtke meiega ühendust."
+  },
+  "share_order": {
+    "action": "Jaga tellimust",
+    "title": "Jaga seda tellimust teistega.",
+    "message": "See on turvaline link, jagage seda ainult nendega, keda teate. Kõik, kellel on see link, saavad teie tellimust kopeerida ja valitud aadressi näha. See sisaldab teavet teie praeguse ostukorvi kohta.",
+    "valid_period": "See link aegub 48 tunni pärast.",
+    "import_order_action": "Impordi tellimus",
+    "retrieve_dialog_title": "Välise tellimuse toomine",
+    "address_included": "Jaga ostukorvi esemeid + aadress",
+    "address_excluded": "Jaga ainult ostukorvi tooteid"
   }
 };

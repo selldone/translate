@@ -155,7 +155,19 @@ export default {
       "Setup": "tallentaa",
       "Sell": "Myynti",
       "Developer": "Kehittää",
-      "Application": "Sovellukset"
+      "Application": "Sovellukset",
+      "Product": "Tuotteiden ja kategorioiden hallinta",
+      "Blog": "CMS ja blogi",
+      "Order": "Tilausten toteutuskeskus",
+      "Channel": "Myyntikanavat",
+      "Accounting": "Kirjanpito ja maksutavat",
+      "Incentives": "Kannustimet",
+      "Marketing": "Markkinointi ja kampanjat",
+      "Logistic": "Logistiikka & Toimitus",
+      "Customers": "Asiakasklubi ja segmentointi",
+      "Page": "Aloitussivut ja mukautetut sivut",
+      "Access": "Henkilökunnan / API-käyttöoikeuksien hallinta",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Githubin arkisto",
@@ -193,7 +205,9 @@ export default {
       "stores": "Kaupat",
       "roles": "Roolit",
       "home": "Koti",
-      "expert": "Asiantuntija"
+      "expert": "Asiantuntija",
+      "deals": "Tarjoukset",
+      "providers": "Palveluntarjoajat"
     },
     "shops": {
       "create_new": "Luo uusi kauppa",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Tila",
           "created_at": "Luomispäivä",
           "updated_at": "Viimeisin päivitys"
-        }
+        },
+        "subtitle": "Esittele itsesi ja yrityksesi kirjoittamalla artikkeleita nykyaikaisella sisäänrakennetulla editorilla. Alkuperäinen sisältö on ensimmäinen asia, johon sinun tulee keskittyä kirjoittaessasi laadukasta SEO-ystävällistä blogikirjoitusta."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Raportoi",
         "tax": "Verottaa",
         "drop_shipping": "Jälleenmyyjän kuitit",
-        "reseller_accounts": "Jälleenmyyjien tilit"
+        "reseller_accounts": "Jälleenmyyjien tilit",
+        "valuations": "Arvostukset"
       },
       "invoice": {
         "title": "Osta linkitettyjä lompakoita",
@@ -605,7 +621,8 @@ export default {
         "delivery": "laivaus",
         "inventory": "Varasto",
         "warehouse": "Varasto",
-        "logistic_apps": "Logistiikka"
+        "logistic_apps": "Logistiikka",
+        "profiles": "Profiilit"
       },
       "warehouse": {
         "title": "Kauppa Varasto",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Tilauksen vähimmäishinta ilmaisella toimituksella",
           "notifications": {
             "update_success": "Toimituspalvelun asetukset suoritettu onnistuneesti."
-          }
+          },
+          "shipping_cost_calculation": "Toimituskulujen laskelma",
+          "sod_true": "Saat toimituskulut määränpäähän",
+          "sod_true_message": "Varmista, että kuljetuspalvelusi hyväksyy toimituskulut määränpäähän.",
+          "sod_false": "Automaattinen toimituskululaskenta",
+          "cod_true": "Hyväksy postiennakko",
+          "cod_false": "Hyväksy vain verkkomaksu",
+          "cod_true_message": "Varmista, että kuljetuspalvelusi hyväksyy COD:n."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "Tekstiviesti",
         "email": "Sähköposti",
         "domain": "Verkkotunnus",
-        "verifications": "Vahvistukset"
+        "verifications": "Vahvistukset",
+        "flow": "Virtaus",
+        "business_model": "Bisnesmalli"
       },
       "delete_dialog": {
         "title": "Poista kauppa",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Tuoteyksikkö",
       "unit_float": "Kelluva yksikkö (pian)",
       "unit_float_hint": "Asiakas voi tilata esimerkiksi 3 kg hedelmiä, mutta asiakkaalle lähetettävä määrä poikkeaa hieman tilatusta määrästä.",
-      "unit_float_message": "Tilauksen käsittelyn aikana toimitettu summa voi poiketa tilauksesta. Järjestelmä laskee tämän erotuksen automaattisesti ja kirjaa sen velkasi asiakkaalle, jota voidaan soveltaa seuraaviin tilauksiin."
+      "unit_float_message": "Tilauksen käsittelyn aikana toimitettu summa voi poiketa tilauksesta. Järjestelmä laskee tämän erotuksen automaattisesti ja kirjaa sen velkasi asiakkaalle, jota voidaan soveltaa seuraaviin tilauksiin.",
+      "status_list": {
+        "active": {
+          "title": "Aktiivinen | Online- ja offline-myynti",
+          "description": "Tämä tuote on saatavilla verkkotilauksille."
+        },
+        "inactive": {
+          "title": "Epäaktiivinen | Vain offline-myynti",
+          "description": "Tämä tuote ei ole saatavilla verkkotilauksille."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Kysely",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Valitse lopetusaika",
       "independent_price": "Hinta vain tälle versiolle",
       "same_price": "Päätuotteen hinta",
-      "variant_pricing_message": "Valitsemalla tämän vaihtoehdon tämän vaihtoehdon hinta voidaan asettaa päätuotteesta riippumatta."
+      "variant_pricing_message": "Valitsemalla tämän vaihtoehdon tämän vaihtoehdon hinta voidaan asettaa päätuotteesta riippumatta.",
+      "price_label_input": "Hinta etiketti",
+      "price_label_message": "Lisää lisätietoa hinnasta, kuten ($1,5/Fl Oz). Käyttötapaukset: päivittäistavarakauppa, FMCG.",
+      "add_price_label_action": "Lisää hintalappu"
     },
     "inputs_edit": {
       "title": "Ostajan tietojen syöttölomake",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Yhdyskäytävää {gateway_name} muokattu."
     },
-    "developer_setting": "Kehitä & Testaa"
+    "developer_setting": "Kehitä & Testaa",
+    "live_mode_message": "Kaikki tapahtumat ovat live-tilassa."
   },
   "gift_card": {
     "title": "Lahjakortit",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Ostajan muokkaama laskutusosoite.",
     "payment-cod-confirm": "COD Maksu vahvistettiin.",
     "payment-cash-confirm": "Laskun maksu käteisellä {amount} {currency} vahvistettiin.",
-    "payment-dir-confirm": "Suora maksu kuitti vahvistettiin."
+    "payment-dir-confirm": "Suora maksu kuitti vahvistettiin.",
+    "vendor": "Toimittajatilauksen tila muutettiin tilasta <b>{from}</b> tilaksi <b>{to}</b> .",
+    "connect-sync": "Tilaus synkronoitu Connect OS:llä.",
+    "connect-shipped": "Yhdistämistilaus on lähetetty {shipping}.",
+    "connect-returned": "Connect-tilaus on palautettu {shipping} mennessä.",
+    "connect-failed": "Kumppani epäonnistui tilauksen täyttämisessä. {reason}",
+    "connect-canceled": "Kumppani peruutti tilauksen. {reason}",
+    "connect-action-cancel": "Tilauksen peruutuspyyntö. {reason}",
+    "connect-put-hold": "Tilaus pantiin odotustilaan. {reason}",
+    "connect-remove-hold": "Tilaus poistettiin odotustilasta. {reason}",
+    "connect-confirmed": "Tilaus vahvistettiin.",
+    "email-vendor": "🔔 Tilaustiedotussähköposti on lähetetty osoitteeseen <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Tänään",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Tehdä rahaa",
     "menu": {
       "plans": "Suunnitelmat",
-      "accounts": "Tilit"
+      "accounts": "Tilit",
+      "participant": "Osallistuja"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Store Access Keys",
     "shop_keys_message": "Palvelimesi käyttää näitä avaimia Access Tokenin luomiseen. Huomaa, että avaimet ovat luottamuksellisia ja sijoitetaan vain palvelimelle, jotta muut eivät näy.",
     "personal_keys_title": "Henkilökohtaiset avaimet",
-    "personal_keys_message": "Voit luoda tilillesi avaimet täällä. Huomaa, että näillä avaimilla pääsee tilillesi. Luo ja käytä näitä avaimia vain, jos tiedät tarkalleen mitä olet tekemässä."
+    "personal_keys_message": "Voit luoda tilillesi avaimet täällä. Huomaa, että näillä avaimilla pääsee tilillesi. Luo ja käytä näitä avaimia vain, jos tiedät tarkalleen mitä olet tekemässä.",
+    "clients_title": "Asiakkaat",
+    "clients_message": "Palvelimesi käyttää näitä avaimia Access Tokenin luomiseen. Huomaa, että avaimet ovat luottamuksellisia ja sijoitetaan vain palvelimelle, jotta muut eivät näy."
   },
   "user_security_control": {
     "title": "tilin turvallisuus",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Hallitse profiileja",
       "description": "Hallinnoi kaupan profiileja."
+    },
+    "shop-discount-code": {
+      "name": "Alennuskoodin hallinta",
+      "description": "Hallinnoi, muokkaa ja lisää kaupan alennuskoodeja."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "asetukset",
       "change": "Lataa",
       "transfer": "Siirtää",
-      "transactions": "Tapahtumat"
+      "transactions": "Tapahtumat",
+      "charge": "Lataa",
+      "history": "Historia"
     },
     "transactions": {
       "title": "Tilitapahtumat",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Peruuta tilausvahvistus",
       "message": "Haluatko varmasti peruuttaa tämän tilauksen?",
       "action": "Peruuta tilaus"
-    }
+    },
+    "use_voucher_now": "Käytä kuponki nyt",
+    "validity_duration": "Voimassaoloaika",
+    "validity_duration_hint": "Ostamalla 12 kuukauden lisenssin saat 30 % alennuksen."
   },
   "admin_shop_layout": {
     "download_txt": "Lataa datateksti",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Suuret fontit",
     "large_font_message": "Näytä normaalia suurempi teksti",
     "samples": "Näytä näytekaupat",
-    "samples_message": "Jos tämä on käytössä, paneelissasi näkyy näytekauppoja."
+    "samples_message": "Jos tämä on käytössä, paneelissasi näkyy näytekauppoja.",
+    "automation": "Automaatio",
+    "automation_message": "Näytä automaatiovälilehti kaupan kojelaudassa. (Webhookit, visuaalinen ohjelmointi,...)"
   },
   "shop_locations": {
     "title": "Maat, joissa palvelua tarjotaan",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kupongin poistaminen onnistui."
-    }
+    },
+    "multiple_use": "Monikäyttöinen"
   },
   "coupon_edit": {
     "title_edit": "Muokkaa kuponkia",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Raja",
       "description": "Aseta raja käyttäjien enimmäismäärälle."
+    },
+    "SEGMENTS": {
+      "title": "Segmentit",
+      "description": "Rajoita asiakkaita tietyssä manuaalisessa segmentoinnissa."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Lahjakorteista nostettiin tilauksen kokonaissumma! Ostajan ei tarvitse maksaa enempää.",
       "cod_msg": "Asiakas maksaa tilauksen saatuaan.",
       "online_msg": "Pyydä asiakasta skannaamaan QR-koodi asiakasnäytöltä."
-    }
+    },
+    "name": "POS",
+    "message": "Hanki nollahintainen verkkomyyntipiste, käytä sitä missä tahansa älypuhelimessa, tabletissa ja PC:ssä tai luo tilauksia manuaalisesti."
   },
   "exporter": {
     "title": "Vie tiedot",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Lähetä palvelimelle",
     "shop_license": "Kaupan lisenssi",
     "max_items_limit": "Tuotteiden enimmäismäärä",
-    "total_items": "Kohteita yhteensä"
+    "total_items": "Kohteita yhteensä",
+    "customer": {
+      "title": "Tuo asiakkaat",
+      "subtitle": "Lataa asiakkaiden CSV-tiedostoja tänne. Varmista, että noudatat vakiomuotoa, ja sinun on myös noudatettava tietosuojasääntöjä."
+    }
   },
   "campaigns": {
     "title": "Kampanjat",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Linkit",
     "light_checkout": "Kevyt kassan teema",
     "light_header": "Kevyt otsikko",
-    "light_footer": "Kevyt alatunniste"
+    "light_footer": "Kevyt alatunniste",
+    "product_page": "Tuotesivu",
+    "typography": "Typografia",
+    "header": "Otsikko",
+    "custom_code": "Kustomoitu koodi",
+    "custom_css": "Mukautettu CSS"
   },
   "app_templates": {
     "default": "Oletus",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Hallinnoi palvelua",
     "option_deliver_by_courier": "Vaihtoehto 1: Toimita kuriirit.",
     "option_add_to_que": "Vaihtoehto 2: Lisää jonoon käsittelyä varten toimituspalvelusivulla.",
-    "option_instant_shipping": "Vaihtoehto 3: Välitön toimitus."
+    "option_instant_shipping": "Vaihtoehto 3: Välitön toimitus.",
+    "pickup_action": "Noudon vahvistus"
   },
   "shop_home_edit": {
     "title": "Kotisivun asetus",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Tuote lisätty kauppaasi.",
       "request_access": "Lähetimme käyttöoikeuspyyntösi tukkukauppiaalle onnistuneesti."
-    }
+    },
+    "show_eligible_shops_message": "Näytä kelvolliset kaupat"
   },
   "product_dropshipping": {
     "need_re_enable": "Alkuperäinen myyjä on vaihtanut tämän tuotteen, nämä hintamuutokset ovat poistaneet tuotteen käytöstä kaupassasi. Tarkista muutokset ja jos suostut aktivoimaan tuotteen uudelleen, paina alla olevaa painiketta.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Kaupassasi ei ole luokkaa.",
       "limit": "Tuotteiden raja",
       "limit_message": "Syötä tuotteiden tulosten määrät",
-      "select_categories": "Valitse käytettävissä olevat luokat"
+      "select_categories": "Valitse käytettävissä olevat luokat",
+      "categories_limit": "Kategoriat raja",
+      "categories_limit_msg": "Anna luokkien enimmäismäärä. Aseta nolla ilman rajoitusta."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avokado päivitetty onnistuneesti.",
       "add_success": "Avokado luotu onnistuneesti."
-    }
+    },
+    "name": "Avokado"
   },
   "avocado_orders": {
     "title": "Avokado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "epäaktiivinen",
     "active_message": "Jos otat tämän vaihtoehdon käyttöön, mahdollisuus luoda pikamyyntikoodeja näkyy kunkin tuotteen hallintaosiossa.",
     "hyper_form_link_message": "Kauppasi hypersivulinkki",
-    "configuration": "Hyper-asetukset"
+    "configuration": "Hyper-asetukset",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Asiakkaiden demografia",
     "subtitle": "Suodata ja vie asiakkaidesi tiedot tehdäksesi parempia päätöksiä tuottaaksesi enemmän arvoa pienemmällä markkinoinnilla! Kunnioita asiakkaidesi yksityisyyttä äläkä koskaan lähetä heille joukkosähköposteja! Älä koskaan jaa asiakkaidesi tietoja kolmannen osapuolen palveluille ilman lupaa kaikilta heiltä."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Noutoosoitteet",
+      "subtitle": "Lisää ja muokkaa noutoosoitteita täällä. Käyttäjät voivat valita noutoosoitteen kassasivulta.",
+      "add_action": "Lisää uusi sijainti"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Affiliate POS",
+    "open_pos_action": "Nopea tilaus POS",
+    "description": "Tämä vaihtoehto sopii Instagram-sivujen ja muiden sosiaalisten verkostojen ylläpitäjille. Käytä Affiliate POS -palvelua asiakkaiden tilausten vastaanottamiseen ja lisäämiseen manuaalisesti. Tytäryhtiösi (tai franchising-yrityksesi) voivat lisätä uusia tilauksia Affiliate POS -palveluun ja ladata talletuskuitin."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Kirjautumistavat",
+      "subtitle": "Mukauta käyttäjien tapaa kirjautua kauppaasi."
+    },
+    "checkout": {
+      "title": "Kassavirta",
+      "subtitle": "Mukauta asiakaspolkuasi ja ostokulkuasi verkkokaupassasi.",
+      "map": {
+        "title": "Kartta",
+        "subtitle": "Käyttäjien on valittava toimituspaikka kartalta (kuten Uber).",
+        "subtitle_no_map": "Lähetyslaskelman etäisyys lasketaan nollaksi, jos sijaintia ei ole asiakkaan antamassa osoitteessa."
+      },
+      "mode": {
+        "title": "Asiakkaiden kirjautumispiste",
+        "default": {
+          "title": "ASAP (oletus)",
+          "msg": "Käyttäjät kirjautuvat sisään mahdollisimman pian. (Lisää muunnoksia)"
+        },
+        "on_checkout": {
+          "title": "Kassalla",
+          "msg": "Pakota käyttäjät kirjautumaan sisään kassalla."
+        },
+        "login_free": {
+          "title": "Valinnainen kirjautuminen",
+          "msg": "Valinnainen kirjautuminen tilauksen maksun jälkeen.."
+        }
+      },
+      "express": {
+        "title": "Ohjaa ostoskoriin lisäämisen jälkeen",
+        "false": {
+          "title": "Normaalitila",
+          "msg": "Pysy sivulla ja jatka ostosten tekemistä klikkaamalla Lisää ostoskoriin."
+        },
+        "true": {
+          "title": "Express-tila",
+          "msg": "Ohjaa asiakas kassasivulle klikattuasi Lisää ostoskoriin."
+        }
+      },
+      "shipping_address": {
+        "title": "Kysy toimitusosoite"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fyysinen ja palvelu (oletus)",
+      "desc": "Pyydä asiakasta syöttämään osoite fyysiseen ja palvelukassaan."
+    },
+    "physical": {
+      "title": "Vain fyysinen",
+      "desc": "Pyydä asiakasta syöttämään osoite vain fyysisessä kassassa."
+    },
+    "off": {
+      "title": "Ei koskaan",
+      "desc": "Älä koskaan kysy toimitusosoitetta. ⚠ Käytä tätä vaihtoehtoa, jos aiot tarjota palveluita muunnelmilla valitsemalla tuotteille fyysisen tyypin palvelutyypin sijaan."
+    }
+  },
+  "business_model": {
+    "title": "Liiketoimintamallin asettaminen",
+    "subtitle": "Määritä liiketoimintamallisi, niin me konfiguroimme käyttöjärjestelmäsi kulissien takana."
+  },
+  "business_type": {
+    "title": "Tavaratyypit",
+    "subtitle": "Määritä, minkä tyyppisiä tuotteita haluat myydä kaupassasi. Selldonen tuotetyypit ovat enemmän kuin pelkkä tuotetyyppi; kyse on enemmän täyttämismenettelystä.",
+    "send_activation_request_to_support": "Lähetä aktivointipyyntö tukilipussa.",
+    "require_kyc": "Yrityksen omistaja KYC.",
+    "needs_enterprise_license": "Sinulla on oltava Enterprise-lisenssi.",
+    "marketplace_caution_message": "Aseta Marketplace malliksi, joka vaikuttaa syvästi yrityksesi käyttöjärjestelmän kokoonpanoon. Sinun on esimerkiksi määritettävä kullekin tuotteelle vähintään yksi toimittaja, jolla on riippumaton hinnoittelu ja varasto. Asiakkaat eivät voi ostaa tuotteita, joilla ei ole myyjää."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Normaali kauppa",
+      "desc": "Yleensä pk-yritys, kotiyritys tai dropshipper - joka myy tuotteensa suoraan asiakkaille tai myy tukkukauppiaiden tuotteita jälleenmyyjänä."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Älä säilytä tuotetta tai varastoa – maksat kolmannelle osapuolelle, yleensä tukkumyyjälle (kuten Printify, Wholesale2B, ...) tai valmistajalle, ja he täyttävät tilaukset kulissien takana."
+    },
+    "wholesaler": {
+      "title": "Dropshipping-toimittaja",
+      "desc": "Yleensä tukkumyyjä tai valmistaja – joka toimittaa tilaukset suoraan loppukuluttajalle. Muut Selldonen kauppiaat voivat pudottaa tuotteesi myymälöihinsä."
+    },
+    "marketplace": {
+      "title": "Markkinapaikka",
+      "desc": "Verkkomarkkinapaikat yhdistävät ostajat ja myyjät omalla ja keskitetyllä alustalla."
+    },
+    "franchise": {
+      "title": "Franchising / tytäryhtiö",
+      "desc": "Franchising on tuotteiden tai palvelujen jakelumenetelmä, jossa franchising-antaja perustaa brändisi (Franchising) tai myy tuotteitasi brändillään (Affiliate)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Lompakot",
+    "pricing_models": "Hinnoittelu",
+    "add_vendor": "Lisää myyjä",
+    "requests": "Pyynnöt"
+  },
+  "price_input_type": {
+    "title": "Hinnan syöttötyyppi",
+    "default": {
+      "title": "Oletus",
+      "desc": "Valitse ostoskorin määräksi arvo."
+    },
+    "area": {
+      "title": "Alue",
+      "desc": "Syötä leveys ja pituus syötteiksi määrän laskemiseksi."
+    },
+    "volume": {
+      "title": "äänenvoimakkuutta",
+      "desc": "Syötä leveys, pituus ja korkeus syötteiksi määrän laskemiseksi."
+    },
+    "custom": {
+      "title": "Mukautettu (syöttölomakkeella)",
+      "desc": "Ei tarvita satoja muunnelmia! Luo mukautettu kustannuslaskentalomake erittäin muokattavissa oleville tuotteille."
+    }
+  },
+  "vendors_list": {
+    "title": "Minun myyjät",
+    "message": "Lista omista myyjistäni."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Yhdistä useita verkkotunnuksia yrityksesi käyttöjärjestelmään ja hallitse niitä kaikkia yhdessä paikassa. Voit käyttää useiden verkkotunnusten ominaisuutta luodaksesi omistettuja verkkotunnuksia verkkosivustosi jokaiselle osalle, kuten blogille ja yhteisölle, tai käyttää eri verkkotunnuksia yhteistyökumppaneille."
+  },
+  "notes": {
+    "add_action": "Lisää muistiinpano tiimillesi",
+    "notifications": {
+      "success_add": "Huomautus lisätty onnistuneesti.",
+      "success_delete": "Huomautus on poistettu onnistuneesti."
+    }
+  },
+  "external_services": {
+    "title": "Ulkoiset palvelut",
+    "subtitle": "Tarkkaile ulkoisten palveluiden, kuten tekstiviestien ja sähköpostien, viimeistä tilaa täällä."
   }
 };

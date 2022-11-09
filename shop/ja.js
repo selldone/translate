@@ -105,7 +105,11 @@ export default {
     "related_products_title": "関連製品",
     "price": "価格",
     "rate": "レート",
-    "comment": "コメント"
+    "comment": "コメント",
+    "warranty": "保証",
+    "return_policy": "返品規則",
+    "guide": "ガイド",
+    "shipping": "運送"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "ご注文は正常に行われました。",
       "delete_success": "アイテムが削除されました。"
-    }
+    },
+    "select_address_message": "住所を入力してください。注文を送信できます。"
   },
   "hyper": {
     "title": "注文の作成",
@@ -541,5 +546,19 @@ export default {
       "message": "このアイテムの料金を指定しました。お客様が購入した商品の請求額を変更することができます。",
       "charge": "充電"
     }
+  },
+  "check_access": {
+    "waiting_message": "アクセス確認待ち…",
+    "no_access_message": "残念ながら、あなたは私たちの店にアクセスできません。<br/>お問い合わせください。"
+  },
+  "share_order": {
+    "action": "シェアオーダー",
+    "title": "この注文を他のユーザーと共有します。",
+    "message": "これは安全なリンクです。知っている人だけに共有してください。このリンクを知っている人は誰でも、注文を複製して、選択した住所を確認できます。現在のカートに関する情報が含まれます。",
+    "valid_period": "このリンクは 48 時間後に期限切れになります。",
+    "import_order_action": "輸入注文",
+    "retrieve_dialog_title": "外部注文を取得する",
+    "address_included": "かごのアイテムを共有 + アドレス",
+    "address_excluded": "かごのアイテムのみを共有する"
   }
 };

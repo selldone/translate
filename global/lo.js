@@ -558,7 +558,52 @@ export default {
     "merchant": "ພໍ່ຄ້າ",
     "per_product": "ຕໍ່ຜະລິດຕະພັນ",
     "journey": "ການເດີນທາງ",
-    "after": "ຫຼັງຈາກ"
+    "after": "ຫຼັງຈາກ",
+    "waiting_for_payment": "ກະລຸນາຕື່ມເງິນໃຫ້ສຳເລັດ...",
+    "hour": "ຊົ່ວໂມງ",
+    "minute": "ນາທີ",
+    "premium": "ພຣີມຽມ",
+    "light": "ແສງສະຫວ່າງ",
+    "dark": "ມືດ",
+    "guest": "ແຂກ",
+    "shops": "ຮ້ານຄ້າ",
+    "vendor": "ຜູ້ຂາຍ",
+    "vendors": "ຜູ້ຂາຍ",
+    "marketplace": "ຕະຫຼາດ",
+    "verify_date": "ຢືນຢັນວັນທີ",
+    "note": "ຫມາຍ​ເຫດ​",
+    "panel": "ກະດານ",
+    "removed": "ລຶບອອກແລ້ວ",
+    "segments": "ພາກສ່ວນ",
+    "personal_info": "ຂໍ້ມູນສ່ວນຕົວ",
+    "preferences": "ຄວາມມັກ",
+    "spec": "ສະເພາະ",
+    "reviews": "ການທົບທວນຄືນ",
+    "constraints": "ຂໍ້ຈໍາກັດ",
+    "flexible": "ປ່ຽນແປງໄດ້",
+    "usage_limit": "ຈຳກັດການນຳໃຊ້",
+    "temporary": "ຊົ່ວຄາວ",
+    "original": "ຕົ້ນສະບັບ",
+    "saved": "ບັນທຶກແລ້ວ!",
+    "sort": "ຄັດ",
+    "documents": "ເອກະສານ",
+    "document": "ເອກະສານ",
+    "please_wait": "ກະ​ລຸ​ນາ​ລໍ​ຖ້າ...",
+    "pickup": "ຮັບ",
+    "customize": "ປັບແຕ່ງ",
+    "difficulty": "ຄວາມຫຍຸ້ງຍາກ",
+    "banned": "ຫ້າມ",
+    "company": "ບໍລິສັດ",
+    "tax_shipping": "ພາສີການຂົນສົ່ງ",
+    "warranty": "ຮັບປະກັນ",
+    "return_policy": "ນະໂຍບາຍການສົ່ງຄືນ",
+    "guide": "ຄູ່ມື",
+    "translate": "ແປ",
+    "public": "ສາທາລະນະ",
+    "deleted": "ລຶບແລ້ວ",
+    "variant": "ຕົວແປ",
+    "secure": "ປອດໄພ",
+    "admin": "ບໍລິຫານ"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "ຕິດຕາມ",
     "change_state": "ປ່ຽນສະຖານະ",
     "done": "ສຳເລັດແລ້ວ",
-    "reply": "ຕອບ"
+    "reply": "ຕອບ",
+    "watch_now": "ເບິ່ງດຽວນີ້",
+    "unlock": "ປົດລັອກ",
+    "lock": "ລັອກ",
+    "create_clone": "ສ້າງໂຄນ",
+    "regenerate": "ຟື້ນຟູ",
+    "add_message": "ເພີ່ມຂໍ້ຄວາມ",
+    "continue_chat": "ສືບຕໍ່ສົນທະນາ",
+    "add_new_message": "ເພີ່ມຂໍ້ຄວາມໃໝ່"
   },
   "instance_message_title": "ສົ່ງຂໍ້ຄວາມທັນທີ",
   "instance_message": "ສະບາຍດີ {name}, ຂ້ອຍຊື່ {author} ຈາກ {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "ລະຫັດໄປສະນີ",
     "enter_value": "ຕື່ມຂໍ້ມູນໃສ່ທີ່ນີ້",
     "address_note": "ຫມາຍ​ເຫດ​",
-    "tel": "ເບີໂທຕິດຕໍ່"
+    "tel": "ເບີໂທຕິດຕໍ່",
+    "service_address": "ເລືອກທີ່ຢູ່ຂອງເຈົ້າ"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "ປອນ",
     "quarts",
     "ເດີ່ນ",
-    "ຫ້ອງ"
+    "ຫ້ອງ",
+    "ວິນາທີ",
+    "ນາທີ",
+    "ຊົ່ວໂມງ",
+    "ມື້",
+    "ອາທິດ",
+    "ເດືອນ",
+    "ປີ"
   ],
   "region_types": {
     "State": "ລັດ",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "ຄວາມຍາວຕໍ່າສຸດຈະຕ້ອງເປັນ {length}",
     "invalid_min_array_length": "ຢ່າງໜ້ອຍເລືອກ {length} ລາຍການ",
     "invalid_max_chars": "ສູງສຸດ {maxCount} ຕົວອັກສອນ",
-    "invalid_url": "URL ບໍ່ຖືກຕ້ອງ"
+    "invalid_url": "URL ບໍ່ຖືກຕ້ອງ",
+    "country_invalid": "ເລືອກປະເທດປາຍທາງ!",
+    "postal_code_invalid": "ຕັ້ງລະຫັດໄປສະນີທີ່ຖືກຕ້ອງ!"
   },
   "colors": {
     "#D32F2F": "ສີແດງ",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "ສີຂາວ",
     "#FFF": "ສີຂາວ",
     "#000000": "ດຳ",
-    "#000": "ດຳ"
+    "#000": "ດຳ",
+    "#7d263a": "ມາຣູນ",
+    "#FD9F17": "ຄໍາ",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblen",
+    "#413B2D": "ກອງທັບ",
+    "#474747": "ປູຢາງ",
+    "#E6195C": "ເບີຣີ",
+    "#B2184C": "Berry Triblen",
+    "#FC7F5F": "ສີສົ້ມເຜົາ",
+    "#80011F": "Cardinal",
+    "#382829": "ຊັອກໂກແລັດ",
+    "#F06336": "ປະກາລັງ",
+    "#FAE7C9": "ຄີມ",
+    "#6B2257": "ໝາກເຜັດ",
+    "#222127": "ສີເທົາເຂັ້ມ",
+    "#0D5A74": "ນ້ຳເລິກ",
+    "#00582F": "ຂຽວຕະຫຼອດປີ",
+    "#214C30": "ປ່າໄມ້",
+    "#DC2867": "ດອກກຸຫຼາບ",
+    "#38561": "ເຄລີ",
+    "#5C884D": "ໃບ",
+    "#558450": "ແສງ Aqua",
+    "#96B5C9": "ສີຟ້າອ່ອນ",
+    "#DCAFCE": "ລີລາ",
+    "#D3E1A4": "ປູນຂາວ",
+    "#9DE7C2": "ໝາກເຜັດ",
+    "#F6EAD2": "ທໍາມະຊາດ",
+    "#1A1F35": "ກອງທັບເຮືອ",
+    "#404624": "ໝາກກອກ",
+    "#271020": "ໝາກພິລາ",
+    "#A8355C": "Raspberry",
+    "#D6BEA6": "ຄີມອ່ອນ",
+    "#BEA994": "ຕັນ",
+    "#0DB2AE": "ສີນ້ຳຕານ",
+    "#A86EA9": "ສີມ່ວງ",
+    "#36454F": "ຖ່ານ",
+    "#b3b0ab": "ສີຂີ້ເຖົ່າຄາບອນ",
+    "#463e3d": "ຖ່ານຫີນ Heather",
+    "#282d3c": "ກອງທັບເຮືອ Blazer"
   },
   "address_info": {
     "name": "ຊື່",
@@ -838,7 +940,8 @@ export default {
     "building_number": "ເລກອາຄານ",
     "building_unit": "ໜ່ວຍ",
     "postcode": "ລະຫັດໄປສະນີ",
-    "note": "ຫມາຍ​ເຫດ​"
+    "note": "ຫມາຍ​ເຫດ​",
+    "county": "ຄາວຕີ້"
   },
   "product_types": {
     "physical": "ທາງກາຍ",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "ສີ",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "ງ່າຍດາຍ",
       "selective": "ເລືອກ",
-      "switch": "ສະຫຼັບ"
-    }
+      "switch": "ສະຫຼັບ",
+      "file": "ໄຟລ໌",
+      "number": "ເລກ"
+    },
+    "placeholder_input": "ຕົວຍຶດ",
+    "file_type_input": "ປະເພດໄຟລ໌ທີ່ຍອມຮັບໄດ້",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "ຊື່​ຜະ​ລິດ​ຕະ​ພັນ",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "ໃສ່ມືຖືຂອງເຈົ້າ",
     "verification_code": "ລະຫັດຢືນຢັນ",
     "msg_title": "ສະບາຍດີ,",
-    "msg_body": "ກະລຸນາເຂົ້າສູ່ລະບົບ. ມັນໃຊ້ເວລາພຽງແຕ່ສອງສາມວິນາທີ."
+    "msg_body": "ກະລຸນາເຂົ້າສູ່ລະບົບ. ມັນໃຊ້ເວລາພຽງແຕ່ສອງສາມວິນາທີ.",
+    "login_apple": "ເຂົ້າສູ່ລະບົບດ້ວຍ Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "ເພີ່ມແທັກແລ້ວ"
     }
+  },
+  "difficulties": {
+    "very_complicated": "ສັບສົນຫຼາຍ",
+    "hard": "ແຂງ",
+    "intermediate": "ລະດັບປານກາງ",
+    "easy": "ງ່າຍ"
   }
 };

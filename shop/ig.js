@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Ngwaahịa ndị emetụtara",
     "price": "Ọnụ ahịa",
     "rate": "Ọnụ ego",
-    "comment": "Ikwu"
+    "comment": "Ikwu",
+    "warranty": "Akwụkwọ ikike",
+    "return_policy": "Iwu nloghachi",
+    "guide": "Nduzi",
+    "shipping": "Mbupu"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Edebere iwu gị nke ọma.",
       "delete_success": "ehichapụrụ ihe."
-    }
+    },
+    "select_address_message": "Biko tinye adreesị gị, wee nwee ike nyefee iwu ahụ."
   },
   "hyper": {
     "title": "Nye iwu okike",
@@ -541,5 +546,19 @@ export default {
       "message": "Ị kọwapụtala ụgwọ maka ihe a. Ị nwere ike ịgbanwe ego ịkwụ ụgwọ maka ihe onye ahịa zụtara.",
       "charge": "ebubo"
     }
+  },
+  "check_access": {
+    "waiting_message": "Na-eche ịlele ohere...",
+    "no_access_message": "Ọ dị nwute, ị nweghị ohere ịbanye na ụlọ ahịa anyị.<br/> Biko kpọtụrụ anyị."
+  },
+  "share_order": {
+    "action": "Kekọrịta usoro",
+    "title": "Kekọrịta ndị ọzọ usoro a.",
+    "message": "Ọ bụ njikọ echekwara, naanị kesaa ya ndị ị maara. Onye ọ bụla nwere njikọ a nwere ike megharịa usoro gị wee hụ adreesị ahọpụtara. Ọ ga-enwe ozi gbasara ụgbọ ibu gị ugbu a.",
+    "valid_period": "Njikọ a ga-agwụ mgbe awa 48 gachara.",
+    "import_order_action": "mbubata ịtụ",
+    "retrieve_dialog_title": "Weghachite usoro mpụga",
+    "address_included": "Kekọrịta ihe nkata + adreesị",
+    "address_excluded": "Kekọrịta naanị ihe nkata"
   }
 };

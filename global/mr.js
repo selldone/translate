@@ -558,7 +558,52 @@ export default {
     "merchant": "व्यापारी",
     "per_product": "प्रति उत्पादन",
     "journey": "प्रवास",
-    "after": "नंतर"
+    "after": "नंतर",
+    "waiting_for_payment": "कृपया पेमेंट पूर्ण करा...",
+    "hour": "तास",
+    "minute": "मिनिट",
+    "premium": "प्रीमियम",
+    "light": "प्रकाश",
+    "dark": "गडद",
+    "guest": "पाहुणे",
+    "shops": "स्टोअर्स",
+    "vendor": "विक्रेता",
+    "vendors": "विक्रेते",
+    "marketplace": "बाजारपेठ",
+    "verify_date": "तारीख सत्यापित करा",
+    "note": "नोंद",
+    "panel": "पॅनल",
+    "removed": "काढले",
+    "segments": "खंड",
+    "personal_info": "वैयक्तिक माहिती",
+    "preferences": "प्राधान्ये",
+    "spec": "तपशील",
+    "reviews": "पुनरावलोकने",
+    "constraints": "अडथळे",
+    "flexible": "लवचिक",
+    "usage_limit": "वापर मर्यादा",
+    "temporary": "तात्पुरता",
+    "original": "मूळ",
+    "saved": "जतन केले!",
+    "sort": "क्रमवारी लावा",
+    "documents": "कागदपत्रे",
+    "document": "दस्तऐवज",
+    "please_wait": "कृपया थांबा...",
+    "pickup": "पिकअप",
+    "customize": "सानुकूलित करा",
+    "difficulty": "अडचण",
+    "banned": "बंदी घातली",
+    "company": "कंपनी",
+    "tax_shipping": "शिपिंग कर",
+    "warranty": "हमी",
+    "return_policy": "रिटर्न पॉलिसी",
+    "guide": "मार्गदर्शन",
+    "translate": "भाषांतर करा",
+    "public": "सार्वजनिक",
+    "deleted": "हटवले",
+    "variant": "प्रकार",
+    "secure": "सुरक्षित",
+    "admin": "अॅडमिन"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "ट्रॅक",
     "change_state": "स्थिती बदला",
     "done": "झाले",
-    "reply": "उत्तर द्या"
+    "reply": "उत्तर द्या",
+    "watch_now": "आत्ता पाहा",
+    "unlock": "अनलॉक करा",
+    "lock": "कुलूप",
+    "create_clone": "क्लोन तयार करा",
+    "regenerate": "पुन्हा निर्माण करा",
+    "add_message": "संदेश जोडा",
+    "continue_chat": "गप्पा सुरू ठेवा",
+    "add_new_message": "नवीन संदेश जोडा"
   },
   "instance_message_title": "त्वरित संदेश पाठवा",
   "instance_message": "हाय {name}, माझे नाव {author} आहे {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "पिनकोड",
     "enter_value": "येथे भरा",
     "address_note": "नोंद",
-    "tel": "संपर्क क्रमांक"
+    "tel": "संपर्क क्रमांक",
+    "service_address": "तुमचा पत्ता निवडा"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "पाउंड",
     "क्वार्ट्स",
     "यार्ड",
-    "खोली"
+    "खोली",
+    "सेकंद",
+    "मिनिटे",
+    "तास",
+    "दिवस",
+    "आठवडे",
+    "महिने",
+    "वर्षे"
   ],
   "region_types": {
     "State": "राज्य",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "किमान लांबी {length} असणे आवश्यक आहे",
     "invalid_min_array_length": "किमान {length} आयटम निवडा",
     "invalid_max_chars": "कमाल {maxCount} वर्ण",
-    "invalid_url": "अवैध URL"
+    "invalid_url": "अवैध URL",
+    "country_invalid": "गंतव्य देश निवडा!",
+    "postal_code_invalid": "वैध पोस्टल कोड सेट करा!"
   },
   "colors": {
     "#D32F2F": "लाल",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "पांढरा",
     "#FFF": "पांढरा",
     "#000000": "काळा",
-    "#000": "काळा"
+    "#000": "काळा",
+    "#7d263a": "मरून",
+    "#FD9F17": "सोने",
+    "#229DBF": "एक्वा",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "सैन्य",
+    "#474747": "डांबर",
+    "#E6195C": "बेरी",
+    "#B2184C": "बेरी ट्रायब्लेंड",
+    "#FC7F5F": "जळलेली संत्रा",
+    "#80011F": "कार्डिनल",
+    "#382829": "चॉकलेट",
+    "#F06336": "कोरल",
+    "#FAE7C9": "मलई",
+    "#6B2257": "बेदाणा",
+    "#222127": "गडद राखाडी",
+    "#0D5A74": "खोल टील",
+    "#00582F": "सदाहरित",
+    "#214C30": "वन",
+    "#DC2867": "फुशिया",
+    "#38561": "केली",
+    "#5C884D": "लीफ",
+    "#558450": "हलका एक्वा",
+    "#96B5C9": "फिक्का निळा",
+    "#DCAFCE": "लिलाक",
+    "#D3E1A4": "चुना",
+    "#9DE7C2": "मिंट",
+    "#F6EAD2": "नैसर्गिक",
+    "#1A1F35": "नौदल",
+    "#404624": "ऑलिव्ह",
+    "#271020": "मनुका",
+    "#A8355C": "रास्पबेरी",
+    "#D6BEA6": "सॉफ्ट क्रीम",
+    "#BEA994": "टॅन",
+    "#0DB2AE": "टील",
+    "#A86EA9": "जांभळा",
+    "#36454F": "कोळसा",
+    "#b3b0ab": "कार्बन ग्रे",
+    "#463e3d": "चारकोल हेदर",
+    "#282d3c": "नेव्ही ब्लेझर"
   },
   "address_info": {
     "name": "नाव",
@@ -838,7 +940,8 @@ export default {
     "building_number": "इमारत क्रमांक",
     "building_unit": "युनिट",
     "postcode": "पिनकोड",
-    "note": "नोंद"
+    "note": "नोंद",
+    "county": "परगणा"
   },
   "product_types": {
     "physical": "शारीरिक",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "रंग",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "सोपे",
       "selective": "निवडक",
-      "switch": "स्विच करा"
-    }
+      "switch": "स्विच करा",
+      "file": "फाईल",
+      "number": "क्रमांक"
+    },
+    "placeholder_input": "प्लेसहोल्डर",
+    "file_type_input": "स्वीकार्य फाइल प्रकार",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "उत्पादनाचे नांव",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "तुमचा मोबाईल टाका",
     "verification_code": "सत्यापन कोड",
     "msg_title": "हाय,",
-    "msg_body": "कृपया लॉगिन करा. यास फक्त काही सेकंद लागतात."
+    "msg_body": "कृपया लॉगिन करा. यास फक्त काही सेकंद लागतात.",
+    "login_apple": "Apple सह लॉगिन करा"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "टॅग जोडले"
     }
+  },
+  "difficulties": {
+    "very_complicated": "खूप क्लिष्ट",
+    "hard": "कठिण",
+    "intermediate": "मध्यवर्ती",
+    "easy": "सोपे"
   }
 };

@@ -105,7 +105,11 @@ export default {
     "related_products_title": "Verwante Produkte",
     "price": "Prys",
     "rate": "Koers",
-    "comment": "Lewer kommentaar"
+    "comment": "Lewer kommentaar",
+    "warranty": "Waarborg",
+    "return_policy": "Retourbeleid",
+    "guide": "Gids",
+    "shipping": "Gestuur"
   },
   "layout_shop": {
     "shop_menu": {
@@ -490,7 +494,8 @@ export default {
     "notifications": {
       "order_success": "Jou bestelling is suksesvol geplaas.",
       "delete_success": "Item is uitgevee."
-    }
+    },
+    "select_address_message": "Voer asseblief jou adres in, en dan kan jy die bestelling indien."
   },
   "hyper": {
     "title": "Orde skepping",
@@ -541,5 +546,19 @@ export default {
       "message": "Jy het 'n heffing vir hierdie item gespesifiseer. Jy kan die heffingsbedrag verander vir die item wat deur die kliënt gekoop is.",
       "charge": "Laai"
     }
+  },
+  "check_access": {
+    "waiting_message": "Wag tans om toegang na te gaan...",
+    "no_access_message": "Ongelukkig het jy nie toegang tot ons winkel nie.<br/> Kontak ons asseblief."
+  },
+  "share_order": {
+    "action": "Deel bestelling",
+    "title": "Deel hierdie bestelling met ander.",
+    "message": "Dit is 'n veilige skakel, deel dit net met diegene wat jy ken. Almal met hierdie skakel kan jou bestelling dupliseer en die geselekteerde adres sien. Dit sal inligting oor jou huidige mandjie bevat.",
+    "valid_period": "Hierdie skakel sal na 48 uur verval.",
+    "import_order_action": "Voer bestelling in",
+    "retrieve_dialog_title": "Haal eksterne orde op",
+    "address_included": "Deel mandjie items + adres",
+    "address_excluded": "Deel slegs mandjie-items"
   }
 };

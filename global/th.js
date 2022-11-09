@@ -558,7 +558,52 @@ export default {
     "merchant": "พ่อค้า",
     "per_product": "ต่อผลิตภัณฑ์",
     "journey": "การเดินทาง",
-    "after": "หลังจาก"
+    "after": "หลังจาก",
+    "waiting_for_payment": "กรุณาชำระเงินให้ครบถ้วน...",
+    "hour": "ชั่วโมง",
+    "minute": "นาที",
+    "premium": "พรีเมี่ยม",
+    "light": "แสงสว่าง",
+    "dark": "มืด",
+    "guest": "แขก",
+    "shops": "ร้านค้า",
+    "vendor": "ผู้ขาย",
+    "vendors": "ผู้ขาย",
+    "marketplace": "ตลาดกลาง",
+    "verify_date": "ยืนยันวันที่",
+    "note": "บันทึก",
+    "panel": "แผงหน้าปัด",
+    "removed": "ลบออก",
+    "segments": "กลุ่ม",
+    "personal_info": "ข้อมูลส่วนตัว",
+    "preferences": "การตั้งค่า",
+    "spec": "Spec",
+    "reviews": "ความคิดเห็น",
+    "constraints": "ข้อจำกัด",
+    "flexible": "ยืดหยุ่นได้",
+    "usage_limit": "ขีดจำกัดการใช้งาน",
+    "temporary": "ชั่วคราว",
+    "original": "ต้นฉบับ",
+    "saved": "บันทึกแล้ว!",
+    "sort": "เรียงลำดับ",
+    "documents": "เอกสาร",
+    "document": "เอกสาร",
+    "please_wait": "โปรดรอ...",
+    "pickup": "หยิบ",
+    "customize": "ปรับแต่ง",
+    "difficulty": "ความยาก",
+    "banned": "ห้าม",
+    "company": "บริษัท",
+    "tax_shipping": "ภาษีขนส่ง",
+    "warranty": "การรับประกัน",
+    "return_policy": "นโยบายการคืนสินค้า",
+    "guide": "แนะนำ",
+    "translate": "แปลภาษา",
+    "public": "สาธารณะ",
+    "deleted": "ถูกลบ",
+    "variant": "ตัวแปร",
+    "secure": "ปลอดภัย",
+    "admin": "แอดมิน"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "ติดตาม",
     "change_state": "เปลี่ยนสถานะ",
     "done": "เสร็จแล้ว",
-    "reply": "ตอบกลับ"
+    "reply": "ตอบกลับ",
+    "watch_now": "ดูตอนนี้",
+    "unlock": "ปลดล็อค",
+    "lock": "ล็อค",
+    "create_clone": "สร้างโคลน",
+    "regenerate": "สร้างใหม่",
+    "add_message": "เพิ่มข้อความ",
+    "continue_chat": "สนทนาต่อ",
+    "add_new_message": "เพิ่มข้อความใหม่"
   },
   "instance_message_title": "ส่งข้อความโต้ตอบแบบทันที",
   "instance_message": "สวัสดี {name} ฉันชื่อ {author} จาก {company}",
@@ -690,7 +743,8 @@ export default {
     "postcode": "รหัสไปรษณีย์",
     "enter_value": "กรอกที่นี่",
     "address_note": "บันทึก",
-    "tel": "เบอร์ติดต่อ"
+    "tel": "เบอร์ติดต่อ",
+    "service_address": "เลือกที่อยู่ของคุณ"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "ปอนด์",
     "ควอร์ต",
     "หลา",
-    "ห้อง"
+    "ห้อง",
+    "วินาที",
+    "นาที",
+    "ชั่วโมง",
+    "วัน",
+    "สัปดาห์",
+    "เดือน",
+    "ปี"
   ],
   "region_types": {
     "State": "สถานะ",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "ความยาวขั้นต่ำต้อง {length}",
     "invalid_min_array_length": "อย่างน้อยเลือก {length} รายการ",
     "invalid_max_chars": "อักขระสูงสุด {maxCount} ตัว",
-    "invalid_url": "URL ไม่ถูกต้อง"
+    "invalid_url": "URL ไม่ถูกต้อง",
+    "country_invalid": "เลือกประเทศปลายทาง!",
+    "postal_code_invalid": "ตั้งรหัสไปรษณีย์ที่ถูกต้อง!"
   },
   "colors": {
     "#D32F2F": "สีแดง",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "สีขาว",
     "#FFF": "สีขาว",
     "#000000": "สีดำ",
-    "#000": "สีดำ"
+    "#000": "สีดำ",
+    "#7d263a": "มารูน",
+    "#FD9F17": "ทอง",
+    "#229DBF": "อควา",
+    "#6DC9E2": "อควา ทรีเบลนด์",
+    "#413B2D": "กองทัพบก",
+    "#474747": "ยางมะตอย",
+    "#E6195C": "เบอร์รี่",
+    "#B2184C": "เบอร์รี่ ทรีเบลนด์",
+    "#FC7F5F": "เผาส้ม",
+    "#80011F": "พระคาร์ดินัล",
+    "#382829": "ช็อคโกแลต",
+    "#F06336": "ปะการัง",
+    "#FAE7C9": "ครีม",
+    "#6B2257": "ลูกเกด",
+    "#222127": "เทาเข้ม",
+    "#0D5A74": "นกเป็ดน้ำลึก",
+    "#00582F": "เอเวอร์กรีน",
+    "#214C30": "ป่า",
+    "#DC2867": "บานเย็น",
+    "#38561": "Kelly",
+    "#5C884D": "ใบไม้",
+    "#558450": "ไลท์ อควา",
+    "#96B5C9": "ฟ้าอ่อน",
+    "#DCAFCE": "ม่วง",
+    "#D3E1A4": "มะนาว",
+    "#9DE7C2": "สะระแหน่",
+    "#F6EAD2": "เป็นธรรมชาติ",
+    "#1A1F35": "กองทัพเรือ",
+    "#404624": "มะกอก",
+    "#271020": "พลัม",
+    "#A8355C": "ราสเบอร์รี่",
+    "#D6BEA6": "ซอฟท์ครีม",
+    "#BEA994": "ตาล",
+    "#0DB2AE": "นกเป็ดน้ำ",
+    "#A86EA9": "สีม่วง",
+    "#36454F": "ถ่าน",
+    "#b3b0ab": "คาร์บอนสีเทา",
+    "#463e3d": "ถ่านเฮเทอร์",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "ชื่อ",
@@ -838,7 +940,8 @@ export default {
     "building_number": "อาคารเลขที่",
     "building_unit": "หน่วย",
     "postcode": "รหัสไปรษณีย์",
-    "note": "บันทึก"
+    "note": "บันทึก",
+    "county": "เขต"
   },
   "product_types": {
     "physical": "ทางกายภาพ",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "สี",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "เรียบง่าย",
       "selective": "คัดเลือก",
-      "switch": "สวิตช์"
-    }
+      "switch": "สวิตช์",
+      "file": "ไฟล์",
+      "number": "ตัวเลข"
+    },
+    "placeholder_input": "ตัวยึด",
+    "file_type_input": "ประเภทไฟล์ที่ยอมรับได้",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "ชื่อผลิตภัณฑ์",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "ใส่มือถือของคุณ",
     "verification_code": "รหัสยืนยัน",
     "msg_title": "สวัสดี,",
-    "msg_body": "กรุณาเข้าสู่ระบบ. ใช้เวลาเพียงไม่กี่วินาที"
+    "msg_body": "กรุณาเข้าสู่ระบบ. ใช้เวลาเพียงไม่กี่วินาที",
+    "login_apple": "เข้าสู่ระบบด้วย Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "แท็กเพิ่ม"
     }
+  },
+  "difficulties": {
+    "very_complicated": "ซับซ้อนมาก",
+    "hard": "แข็ง",
+    "intermediate": "ระดับกลาง",
+    "easy": "ง่าย"
   }
 };

@@ -558,7 +558,52 @@ export default {
     "merchant": "Kereskedő",
     "per_product": "Termékenként",
     "journey": "Utazás",
-    "after": "Után"
+    "after": "Után",
+    "waiting_for_payment": "Kérjük, fejezze be a fizetést...",
+    "hour": "Óra",
+    "minute": "Perc",
+    "premium": "Prémium",
+    "light": "Könnyű",
+    "dark": "Sötét",
+    "guest": "Vendég",
+    "shops": "Üzletek",
+    "vendor": "Eladó",
+    "vendors": "Eladók",
+    "marketplace": "Piactér",
+    "verify_date": "Dátum ellenőrzése",
+    "note": "jegyzet",
+    "panel": "Panel",
+    "removed": "Eltávolítva",
+    "segments": "Szegmensek",
+    "personal_info": "Személyes adatok",
+    "preferences": "preferenciák",
+    "spec": "Spec",
+    "reviews": "Vélemények",
+    "constraints": "Korlátok",
+    "flexible": "Rugalmas",
+    "usage_limit": "Használati korlát",
+    "temporary": "Ideiglenes",
+    "original": "Eredeti",
+    "saved": "Mentett!",
+    "sort": "Fajta",
+    "documents": "Dokumentumok",
+    "document": "Dokumentum",
+    "please_wait": "Kérlek várj...",
+    "pickup": "Felvenni",
+    "customize": "testreszab",
+    "difficulty": "Nehézség",
+    "banned": "Kitiltva",
+    "company": "Vállalat",
+    "tax_shipping": "Szállítási adó",
+    "warranty": "Garancia",
+    "return_policy": "Visszaküldési szabályzat",
+    "guide": "Útmutató",
+    "translate": "fordít",
+    "public": "Nyilvános",
+    "deleted": "Törölve",
+    "variant": "Változat",
+    "secure": "Biztonságos",
+    "admin": "Admin"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Nyomon követni",
     "change_state": "Állapotváltozás",
     "done": "Kész",
-    "reply": "Válasz"
+    "reply": "Válasz",
+    "watch_now": "Nézd meg most",
+    "unlock": "Kinyit",
+    "lock": "Zár",
+    "create_clone": "Klón létrehozása",
+    "regenerate": "Regenerátum",
+    "add_message": "Üzenet hozzáadása",
+    "continue_chat": "A csevegés folytatása",
+    "add_new_message": "Új üzenet hozzáadása"
   },
   "instance_message_title": "Azonnali üzenet küldése",
   "instance_message": "Kedves {name}! A nevem {author} a {company} cégtől.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Irányítószám",
     "enter_value": "Töltse ki itt",
     "address_note": "jegyzet",
-    "tel": "Elérhetőség"
+    "tel": "Elérhetőség",
+    "service_address": "Válassza ki a címét"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "fontot",
     "liter",
     "yard",
-    "szoba"
+    "szoba",
+    "másodpercig",
+    "percek",
+    "órák",
+    "napok",
+    "hétig",
+    "hónapok",
+    "évek"
   ],
   "region_types": {
     "State": "Állapot",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "A minimális hossznak {length} értékűnek kell lennie",
     "invalid_min_array_length": "Legalább {length} elemet válasszon ki",
     "invalid_max_chars": "Maximum {maxCount} karakter",
-    "invalid_url": "érvénytelen URL"
+    "invalid_url": "érvénytelen URL",
+    "country_invalid": "Válasszon célországot!",
+    "postal_code_invalid": "Állíts be érvényes irányítószámot!"
   },
   "colors": {
     "#D32F2F": "Piros",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "fehér",
     "#FFF": "fehér",
     "#000000": "Fekete",
-    "#000": "Fekete"
+    "#000": "Fekete",
+    "#7d263a": "Gesztenyebarna",
+    "#FD9F17": "Arany",
+    "#229DBF": "Aqua",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Hadsereg",
+    "#474747": "Aszfalt",
+    "#E6195C": "Bogyó",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Égetett narancs",
+    "#80011F": "Bíboros",
+    "#382829": "Csokoládé",
+    "#F06336": "Korall",
+    "#FAE7C9": "Krém",
+    "#6B2257": "Ribizli",
+    "#222127": "Sötétszürke",
+    "#0D5A74": "Mély kékeszöld",
+    "#00582F": "Örökzöld",
+    "#214C30": "Erdő",
+    "#DC2867": "Fukszia",
+    "#38561": "Kelly",
+    "#5C884D": "Levél növényen",
+    "#558450": "Light Aqua",
+    "#96B5C9": "Világoskék",
+    "#DCAFCE": "Halványlila",
+    "#D3E1A4": "Mész",
+    "#9DE7C2": "Menta",
+    "#F6EAD2": "Természetes",
+    "#1A1F35": "haditengerészet",
+    "#404624": "Olajbogyó",
+    "#271020": "Szilva",
+    "#A8355C": "Málna",
+    "#D6BEA6": "Lágy krém",
+    "#BEA994": "Cser",
+    "#0DB2AE": "A zöldeskék",
+    "#A86EA9": "Ibolya",
+    "#36454F": "Faszén",
+    "#b3b0ab": "szénszürke",
+    "#463e3d": "Faszén Heather",
+    "#282d3c": "Navy Blazer"
   },
   "address_info": {
     "name": "Név",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Épületszám",
     "building_unit": "Mértékegység",
     "postcode": "Irányítószám",
-    "note": "jegyzet"
+    "note": "jegyzet",
+    "county": "Megye"
   },
   "product_types": {
     "physical": "Fizikai",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Szín",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Egyszerű",
       "selective": "Szelektív",
-      "switch": "Kapcsoló"
-    }
+      "switch": "Kapcsoló",
+      "file": "Fájl",
+      "number": "Szám"
+    },
+    "placeholder_input": "Helykitöltő",
+    "file_type_input": "Elfogadható fájltípusok",
+    "file_type_message": "jpeg , png , zip , ..."
   },
   "virtual_order_info_summery": {
     "title": "termék név",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Adja meg a mobilját",
     "verification_code": "Ellenőrző kód",
     "msg_title": "Szia,",
-    "msg_body": "Kérjük jelentkezzen be. Csak néhány másodpercet vesz igénybe."
+    "msg_body": "Kérjük jelentkezzen be. Csak néhány másodpercet vesz igénybe.",
+    "login_apple": "Jelentkezzen be az Apple-lel"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Címkék hozzáadva"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Nagyon bonyolult",
+    "hard": "Kemény",
+    "intermediate": "Közbülső",
+    "easy": "Könnyen"
   }
 };

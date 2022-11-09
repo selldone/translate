@@ -558,7 +558,52 @@ export default {
     "merchant": "Tüccar",
     "per_product": "Ürün başına",
     "journey": "Seyahat",
-    "after": "Sonrasında"
+    "after": "Sonrasında",
+    "waiting_for_payment": "Lütfen ödemeyi tamamlayın...",
+    "hour": "Saat",
+    "minute": "Dakika",
+    "premium": "Ödül",
+    "light": "Işık",
+    "dark": "Karanlık",
+    "guest": "Misafir",
+    "shops": "Mağazalar",
+    "vendor": "SATICI",
+    "vendors": "Satıcılar",
+    "marketplace": "pazar yeri",
+    "verify_date": "Tarihi doğrula",
+    "note": "Not",
+    "panel": "Panel",
+    "removed": "Kaldırıldı",
+    "segments": "Segmentler",
+    "personal_info": "Kişisel bilgi",
+    "preferences": "tercihler",
+    "spec": "Özellik",
+    "reviews": "incelemeler",
+    "constraints": "kısıtlamalar",
+    "flexible": "Esnek",
+    "usage_limit": "Kullanım sınırı",
+    "temporary": "Geçici",
+    "original": "orijinal",
+    "saved": "Kaydedildi!",
+    "sort": "Çeşit",
+    "documents": "Belgeler",
+    "document": "Belge",
+    "please_wait": "Lütfen bekle...",
+    "pickup": "Toplamak",
+    "customize": "özelleştirme",
+    "difficulty": "Zorluk",
+    "banned": "yasaklandı",
+    "company": "Şirket",
+    "tax_shipping": "Nakliye Vergisi",
+    "warranty": "Garanti",
+    "return_policy": "İade politikasi",
+    "guide": "Kılavuz",
+    "translate": "Çevirmek",
+    "public": "Halk",
+    "deleted": "silindi",
+    "variant": "varyant",
+    "secure": "Güvenli",
+    "admin": "yönetici"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Izlemek",
     "change_state": "Durum değiştirmek",
     "done": "Tamamlandı",
-    "reply": "Cevap vermek"
+    "reply": "Cevap vermek",
+    "watch_now": "İzle şimdi",
+    "unlock": "Kilidini aç",
+    "lock": "Kilit",
+    "create_clone": "Klon oluştur",
+    "regenerate": "yeniden oluştur",
+    "add_message": "Mesaj ekle",
+    "continue_chat": "Sohbet Devam",
+    "add_new_message": "Yeni mesaj ekle"
   },
   "instance_message_title": "Anlık mesaj gönder",
   "instance_message": "Merhaba {name}, Benim adım {author} şirketinden {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Posta kodu",
     "enter_value": "Burayı doldurun",
     "address_note": "Not",
-    "tel": "İletişim numarası"
+    "tel": "İletişim numarası",
+    "service_address": "adresinizi seçin"
   },
   "weight": {
     "g": "g",
@@ -753,7 +807,14 @@ export default {
     "pound",
     "çeyrek",
     "yarda",
-    "oda"
+    "oda",
+    "saniye",
+    "dakika",
+    "saat",
+    "günler",
+    "haftalar",
+    "aylar",
+    "yıllar"
   ],
   "region_types": {
     "State": "Belirtmek, bildirmek",
@@ -796,7 +857,9 @@ export default {
     "invalid_min_length": "Minimum uzunluk {length} olmalıdır",
     "invalid_min_array_length": "En azından {length} öğe seçin",
     "invalid_max_chars": "Maks. {maxCount} karakter",
-    "invalid_url": "Geçersiz URL"
+    "invalid_url": "Geçersiz URL",
+    "country_invalid": "Hedef ülkeyi seçin!",
+    "postal_code_invalid": "Geçerli bir posta kodu belirleyin!"
   },
   "colors": {
     "#D32F2F": "Kırmızı",
@@ -825,7 +888,46 @@ export default {
     "#FFFFFF": "Beyaz",
     "#FFF": "Beyaz",
     "#000000": "Siyah",
-    "#000": "Siyah"
+    "#000": "Siyah",
+    "#7d263a": "bordo",
+    "#FD9F17": "Altın",
+    "#229DBF": "su",
+    "#6DC9E2": "Aqua Triblend",
+    "#413B2D": "Ordu",
+    "#474747": "Asfalt",
+    "#E6195C": "dut",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "yanmış portakal",
+    "#80011F": "Kardinal",
+    "#382829": "Çikolata",
+    "#F06336": "Mercan",
+    "#FAE7C9": "Krem",
+    "#6B2257": "Frenk üzümü",
+    "#222127": "Koyu gri",
+    "#0D5A74": "derin deniz mavisi",
+    "#00582F": "dökmeyen",
+    "#214C30": "Orman",
+    "#DC2867": "Fuşya",
+    "#38561": "Kelly",
+    "#5C884D": "Yaprak",
+    "#558450": "Hafif Su",
+    "#96B5C9": "Açık mavi",
+    "#DCAFCE": "leylak",
+    "#D3E1A4": "Kireç",
+    "#9DE7C2": "nane",
+    "#F6EAD2": "Doğal",
+    "#1A1F35": "Donanma",
+    "#404624": "zeytin",
+    "#271020": "Erik",
+    "#A8355C": "Ahududu",
+    "#D6BEA6": "Yumuşak Krem",
+    "#BEA994": "bronzluk",
+    "#0DB2AE": "deniz mavisi",
+    "#A86EA9": "Menekşe",
+    "#36454F": "Odun kömürü",
+    "#b3b0ab": "karbon grisi",
+    "#463e3d": "Kömür Heather",
+    "#282d3c": "Lacivert Blazer"
   },
   "address_info": {
     "name": "İsim",
@@ -838,7 +940,8 @@ export default {
     "building_number": "Bina numarası",
     "building_unit": "Birim",
     "postcode": "Posta kodu",
-    "note": "Not"
+    "note": "Not",
+    "county": "ilçe"
   },
   "product_types": {
     "physical": "Fiziksel",
@@ -999,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Renk",
@@ -1242,8 +1349,13 @@ export default {
     "types": {
       "simple": "Basit",
       "selective": "Seçici",
-      "switch": "Değiştirmek"
-    }
+      "switch": "Değiştirmek",
+      "file": "Dosya",
+      "number": "Sayı"
+    },
+    "placeholder_input": "Yer tutucu",
+    "file_type_input": "Kabul edilebilir dosya türleri",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Ürün adı",
@@ -1550,7 +1662,8 @@ export default {
     "mobile_input": "Cep telefonunuzu girin",
     "verification_code": "Doğrulama kodu",
     "msg_title": "Merhaba,",
-    "msg_body": "Lütfen giriş yapın. Sadece birkaç saniye sürer."
+    "msg_body": "Lütfen giriş yapın. Sadece birkaç saniye sürer.",
+    "login_apple": "Apple ile giriş yapın"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1773,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Etiketler eklendi"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Çok karmaşık",
+    "hard": "Sert",
+    "intermediate": "Orta düzey",
+    "easy": "Kolay"
   }
 };

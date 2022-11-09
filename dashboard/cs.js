@@ -155,7 +155,19 @@ export default {
       "Setup": "ukládat",
       "Sell": "prodej a marketing",
       "Developer": "Rozvíjet",
-      "Application": "Aplikace"
+      "Application": "Aplikace",
+      "Product": "Správa produktů a kategorií",
+      "Blog": "CMS a blog",
+      "Order": "Centrum plnění objednávek",
+      "Channel": "Prodejní kanály",
+      "Accounting": "Účetnictví a platební metody",
+      "Incentives": "Pobídky",
+      "Marketing": "Marketing & Kampaně",
+      "Logistic": "Logistika a doprava",
+      "Customers": "Zákaznický klub a segmentace",
+      "Page": "Vstupní a vlastní stránky",
+      "Access": "Řízení přístupu zaměstnanců / API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "úložiště Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Obchody",
       "roles": "Role",
       "home": "Domov",
-      "expert": "Expert"
+      "expert": "Expert",
+      "deals": "Nabídky",
+      "providers": "Poskytovatelé"
     },
     "shops": {
       "create_new": "Vytvořit nový obchod",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Postavení",
           "created_at": "Datum vzniku",
           "updated_at": "Poslední aktualizace"
-        }
+        },
+        "subtitle": "Pište články s moderním inline editorem, abyste prezentovali sebe a svou firmu. Originální obsah je první věc, na kterou se musíte zaměřit při psaní kvalitního blogového příspěvku, který je šetrný k SEO."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Zpráva",
         "tax": "Daň",
         "drop_shipping": "Účtenky od prodejce",
-        "reseller_accounts": "Účty distributorů"
+        "reseller_accounts": "Účty distributorů",
+        "valuations": "Oceňování"
       },
       "invoice": {
         "title": "Nakupujte propojené peněženky",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Lodní doprava",
         "inventory": "Inventář",
         "warehouse": "Sklad",
-        "logistic_apps": "Logistika"
+        "logistic_apps": "Logistika",
+        "profiles": "Profily"
       },
       "warehouse": {
         "title": "Sklad Sklad",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Minimální cena objednávky pro dopravu zdarma",
           "notifications": {
             "update_success": "Nastavení přepravní služby bylo úspěšně dokončeno."
-          }
+          },
+          "shipping_cost_calculation": "Kalkulace nákladů na dopravu",
+          "sod_true": "Získejte náklady na dopravu na místo určení",
+          "sod_true_message": "Ujistěte se, že vaše přepravní služba akceptuje náklady na dopravu na místo určení.",
+          "sod_false": "Automatická kalkulace nákladů na dopravu",
+          "cod_true": "Přijměte dobírku",
+          "cod_false": "Přijměte pouze online platbu",
+          "cod_true_message": "Ujistěte se, že vaše přepravní služba přijímá na dobírku."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "E-mailem",
         "domain": "Doména",
-        "verifications": "Ověřování"
+        "verifications": "Ověřování",
+        "flow": "Tok",
+        "business_model": "Obchodní model"
       },
       "delete_dialog": {
         "title": "Smazat obchod",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Produktová jednotka",
       "unit_float": "Plovoucí jednotka (brzy)",
       "unit_float_hint": "Zákazník si může objednat např. 3 kg ovoce, ale množství zaslané zákazníkovi se mírně liší od objednaného množství.",
-      "unit_float_message": "Při zpracování objednávky se dodané množství může lišit od objednaného množství. Systém tento rozdíl automaticky vypočítá a zaeviduje jako váš dluh vůči zákazníkovi, který lze uplatnit u dalších objednávek."
+      "unit_float_message": "Při zpracování objednávky se dodané množství může lišit od objednaného množství. Systém tento rozdíl automaticky vypočítá a zaeviduje jako váš dluh vůči zákazníkovi, který lze uplatnit u dalších objednávek.",
+      "status_list": {
+        "active": {
+          "title": "Aktivní | Online a offline prodej",
+          "description": "Tento produkt bude k dispozici pro online objednávky."
+        },
+        "inactive": {
+          "title": "Neaktivní | Pouze offline prodej",
+          "description": "Tento produkt nebude dostupný pro online objednávky."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Průzkum",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Vyberte čas ukončení",
       "independent_price": "Cena pouze za tuto variantu",
       "same_price": "Cena za hlavní produkt",
-      "variant_pricing_message": "Výběrem této možnosti lze cenu této varianty nastavit nezávisle na hlavním produktu."
+      "variant_pricing_message": "Výběrem této možnosti lze cenu této varianty nastavit nezávisle na hlavním produktu.",
+      "price_label_input": "Cenovka",
+      "price_label_message": "Přidejte další informace o ceně, jako je (1,5 $/Fl Oz). Případy použití: potraviny, FMCG.",
+      "add_price_label_action": "Přidejte cenovku"
     },
     "inputs_edit": {
       "title": "Vstupní formulář informací o kupujícím",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Brána {gateway_name} upravena."
     },
-    "developer_setting": "Vyvíjet a testovat"
+    "developer_setting": "Vyvíjet a testovat",
+    "live_mode_message": "Všechny transakce budou v živém režimu."
   },
   "gift_card": {
     "title": "Dárkové poukázky",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Fakturační adresa upravena kupujícím.",
     "payment-cod-confirm": "Platba na dobírku byla potvrzena.",
     "payment-cash-confirm": "Platba {amount} {currency} v hotovosti za účet byla potvrzena.",
-    "payment-dir-confirm": "Přímá platba byla potvrzena."
+    "payment-dir-confirm": "Přímá platba byla potvrzena.",
+    "vendor": "Stav objednávky dodavatele se změnil z <b>{from}</b> na <b>{to}</b> .",
+    "connect-sync": "Objednávka synchronizována systémem Connect OS.",
+    "connect-shipped": "Objednávka Connect byla odeslána {shipping}.",
+    "connect-returned": "Objednávka Connect byla vrácena {shipping}.",
+    "connect-failed": "Partnerovi se nepodařilo vyřídit objednávku. {reason}",
+    "connect-canceled": "Objednávka byla zrušena partnerem. {reason}",
+    "connect-action-cancel": "Žádost o zrušení objednávky. {reason}",
+    "connect-put-hold": "Objednávka byla odložena. {reason}",
+    "connect-remove-hold": "Objednávka byla odstraněna z pozastavení. {reason}",
+    "connect-confirmed": "Objednávka byla potvrzena.",
+    "email-vendor": "🔔 E-mail s informacemi o objednávce byl odeslán na adresu <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Dnes",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Vydělat peníze",
     "menu": {
       "plans": "Plány",
-      "accounts": "Účty"
+      "accounts": "Účty",
+      "participant": "Účastník"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Přístupové klíče úložiště",
     "shop_keys_message": "Tyto klíče se používají k vytvoření přístupového tokenu vaším serverem. Upozorňujeme, že klíče jsou důvěrné a jsou umístěny pouze na serveru, takže je ostatní nevidí.",
     "personal_keys_title": "Osobní přístupové klíče",
-    "personal_keys_message": "Zde si můžete vytvořit klíče ke svému účtu. Upozorňujeme, že tyto klíče budou mít přístup k vašemu účtu. Tyto klíče vytvářejte a používejte pouze v případě, že přesně víte, co děláte."
+    "personal_keys_message": "Zde si můžete vytvořit klíče ke svému účtu. Upozorňujeme, že tyto klíče budou mít přístup k vašemu účtu. Tyto klíče vytvářejte a používejte pouze v případě, že přesně víte, co děláte.",
+    "clients_title": "klienti",
+    "clients_message": "Tyto klíče se používají k vytvoření přístupového tokenu vaším serverem. Upozorňujeme, že klíče jsou důvěrné a jsou umístěny pouze na serveru, takže je ostatní nevidí."
   },
   "user_security_control": {
     "title": "Zabezpečení účtu",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Správa profilů",
       "description": "Správa profilů obchodů."
+    },
+    "shop-discount-code": {
+      "name": "Správa slevových kódů",
+      "description": "Spravujte, upravujte a přidávejte slevové kódy obchodů."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Nastavení",
       "change": "Nabít",
       "transfer": "Převod",
-      "transactions": "Transakce"
+      "transactions": "Transakce",
+      "charge": "Nabít",
+      "history": "Dějiny"
     },
     "transactions": {
       "title": "Účetní transakce",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Zrušit potvrzení předplatného",
       "message": "Opravdu chcete zrušit toto předplatné?",
       "action": "Zrušit předplatné"
-    }
+    },
+    "use_voucher_now": "Použijte voucher nyní",
+    "validity_duration": "Doba platnosti",
+    "validity_duration_hint": "Zakoupením 12měsíční licence získáte 30% slevu."
   },
   "admin_shop_layout": {
     "download_txt": "Stáhnout datový text",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Velká písma",
     "large_font_message": "Zobrazit text větší než normálně",
     "samples": "Zobrazit vzorkové prodejny",
-    "samples_message": "Pokud je povoleno, na vašem panelu se zobrazí některé vzorové obchody."
+    "samples_message": "Pokud je povoleno, na vašem panelu se zobrazí některé vzorové obchody.",
+    "automation": "Automatizace",
+    "automation_message": "Zobrazit kartu automatizace na řídicím panelu obchodu. (Webhooky, vizuální programování, ...)"
   },
   "shop_locations": {
     "title": "Země, kde je služba poskytována",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Kupón byl úspěšně smazán."
-    }
+    },
+    "multiple_use": "Vícenásobné použití"
   },
   "coupon_edit": {
     "title_edit": "Upravit kupón",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Omezit",
       "description": "Nastavte limit na maximální počet uživatelů."
+    },
+    "SEGMENTS": {
+      "title": "Segmenty",
+      "description": "Omezte zákazníky v konkrétní manuální segmentaci."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "Z dárkových karet byla stažena celková částka objednávky! Kupující nemusí platit více.",
       "cod_msg": "Zákazník zaplatí při převzetí objednávky.",
       "online_msg": "Požádejte zákazníka, aby naskenoval QR kód na zákaznické obrazovce."
-    }
+    },
+    "name": "POS",
+    "message": "Získejte online prodejní místo s nulovými náklady na nastavení, spusťte jej na libovolném smartphonu, tabletu a počítači nebo vytvářejte objednávky ručně."
   },
   "exporter": {
     "title": "Export dat",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Odeslat na server",
     "shop_license": "Licence obchodu",
     "max_items_limit": "Maximální počet položek",
-    "total_items": "Celkem položek"
+    "total_items": "Celkem položek",
+    "customer": {
+      "title": "Importovat zákazníky",
+      "subtitle": "Zde nahrajte soubory CSV zákazníků. Ujistěte se, že dodržujete standardní formát a také musíte dodržovat pravidla ochrany osobních údajů."
+    }
   },
   "campaigns": {
     "title": "Kampaně",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Odkazy",
     "light_checkout": "Světlý motiv pokladny",
     "light_header": "Lehká hlavička",
-    "light_footer": "Světlé zápatí"
+    "light_footer": "Světlé zápatí",
+    "product_page": "Stránka produktu",
+    "typography": "Typografie",
+    "header": "Záhlaví",
+    "custom_code": "Vlastní kód",
+    "custom_css": "Vlastní CSS"
   },
   "app_templates": {
     "default": "Výchozí",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Spravovat službu",
     "option_deliver_by_courier": "Možnost 1: Doručení vašimi kurýry.",
     "option_add_to_que": "Možnost 2: Přidat do fronty ke zpracování na stránce přepravní služby.",
-    "option_instant_shipping": "Možnost 3: Okamžité odeslání."
+    "option_instant_shipping": "Možnost 3: Okamžité odeslání.",
+    "pickup_action": "Potvrzení vyzvednutí"
   },
   "shop_home_edit": {
     "title": "Nastavení domovské stránky",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Produkt byl přidán do vašeho obchodu.",
       "request_access": "Vaši žádost o přístup jsme úspěšně odeslali velkoobchodu."
-    }
+    },
+    "show_eligible_shops_message": "Zobrazit vhodné obchody"
   },
   "product_dropshipping": {
     "need_re_enable": "Tento produkt byl změněn původním prodejcem, tyto změny ceny zakázaly produkt ve vašem obchodě. Zkontrolujte změny a pokud souhlasíte s reaktivací produktu, stiskněte tlačítko níže.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "Ve vašem obchodě není žádná kategorie.",
       "limit": "Limit produktů",
       "limit_message": "Zadejte počet výsledků produktů",
-      "select_categories": "Vyberte dostupné kategorie"
+      "select_categories": "Vyberte dostupné kategorie",
+      "categories_limit": "Limit kategorií",
+      "categories_limit_msg": "Zadejte maximální počet kategorií. Nastavte nulu pro žádný limit."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avokádo úspěšně aktualizováno.",
       "add_success": "Avokádo bylo úspěšně vytvořeno."
-    }
+    },
+    "name": "Avokádo"
   },
   "avocado_orders": {
     "title": "Avokádo",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "neaktivní",
     "active_message": "Pokud tuto možnost povolíte, zobrazí se v sekci správy každého produktu možnost vytvoření kódů rychlého prodeje.",
     "hyper_form_link_message": "Odkaz na hyperstránku vašeho obchodu",
-    "configuration": "Hyper nastavení"
+    "configuration": "Hyper nastavení",
+    "name": "Hyper"
   },
   "hyper_orders": {
     "title": "Hyper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Demografie zákazníků",
     "subtitle": "Filtrujte a exportujte data svých zákazníků, abyste se mohli lépe rozhodovat a přinášet vyšší hodnotu s menším množstvím marketingu! Respektujte prosím soukromí svých zákazníků a nikdy jim neposílejte hromadné hromadné e-maily! Nikdy nesdílejte informace o svých zákaznících se službami třetích stran, aniž byste získali povolení od každého z nich."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Adresy vyzvednutí",
+      "subtitle": "Zde přidejte a upravte adresy vyzvednutí. Uživatelé si budou moci vybrat adresu vyzvednutí na stránce pokladny.",
+      "add_action": "Přidat nové umístění"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Affiliate POS",
+    "open_pos_action": "Rychlé objednání POS",
+    "description": "Tato možnost je vhodná pro správce stránek Instagramu a dalších sociálních sítí. Pomocí Affiliate POS můžete ručně přijímat a přidávat objednávky od zákazníků. Vaši přidružení partneři (nebo franšíza) mohou přidávat nové objednávky do přidruženého POS a nahrát vkladový list."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Způsoby přihlášení",
+      "subtitle": "Přizpůsobte si způsob, jakým se uživatelé přihlašují do vašeho obchodu."
+    },
+    "checkout": {
+      "title": "Pokladní tok",
+      "subtitle": "Přizpůsobte si cestu zákazníka a tok nákupu ve svém elektronickém obchodu.",
+      "map": {
+        "title": "Mapa",
+        "subtitle": "Uživatelé musí vybrat místo doručení na mapě (například Uber).",
+        "subtitle_no_map": "Vzdálenost ve výpočtu přepravy se považuje za nulovou, pokud umístění neexistuje na adrese poskytnuté zákazníkem."
+      },
+      "mode": {
+        "title": "Přihlašovací bod zákazníků",
+        "default": {
+          "title": "ASAP (výchozí)",
+          "msg": "Uživatelé se přihlásí co nejdříve. (Další konverze)"
+        },
+        "on_checkout": {
+          "title": "Na pokladně",
+          "msg": "Přinutit uživatele přihlásit se v kroku pokladny."
+        },
+        "login_free": {
+          "title": "Volitelné přihlášení",
+          "msg": "Volitelné přihlášení po zaplacení objednávky.."
+        }
+      },
+      "express": {
+        "title": "Přesměrování po přidání do košíku",
+        "false": {
+          "title": "Normální mód",
+          "msg": "Zůstaňte na stránce a pokračujte v nákupu po kliknutí na přidat do košíku."
+        },
+        "true": {
+          "title": "Expresní režim",
+          "msg": "Přesměrujte zákazníka na stránku pokladny po kliknutí na přidat do košíku."
+        }
+      },
+      "shipping_address": {
+        "title": "Zeptejte se na dodací adresu"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fyzické a servisní (výchozí)",
+      "desc": "Požádejte zákazníka, aby zadal adresu do fyzických a servisních pokladen."
+    },
+    "physical": {
+      "title": "Pouze fyzické",
+      "desc": "Požádejte zákazníka, aby zadal adresu přímo ve fyzické pokladně."
+    },
+    "off": {
+      "title": "Nikdy",
+      "desc": "Nikdy se neptejte na dodací adresu. ⚠ Tuto možnost použijte, pokud plánujete mít služby s variantami výběrem fyzického typu produktů místo typu služby."
+    }
+  },
+  "business_model": {
+    "title": "Nastavení obchodního modelu",
+    "subtitle": "Nastavte svůj obchodní model a my nakonfigurujeme váš OS v zákulisí."
+  },
+  "business_type": {
+    "title": "Druhy zboží",
+    "subtitle": "Nastavte typ produktů, které chcete ve svém obchodě prodávat. Typy produktů v Selldone jsou více než jen druh produktů; jde spíše o postup plnění.",
+    "send_activation_request_to_support": "Odešlete žádost o aktivaci v lístku podpory.",
+    "require_kyc": "Majitel firmy KYC.",
+    "needs_enterprise_license": "Musíte mít Enterprise licenci.",
+    "marketplace_caution_message": "Nastavení Marketplace jako vašeho modelu hluboce ovlivní vaši podnikovou konfiguraci OS. Musíte například definovat alespoň jednoho dodavatele pro každý produkt s nezávislými cenami a skladovými zásobami. Zákazníci nemohou kupovat produkty, které nemají žádného prodejce."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Normální obchod",
+      "desc": "Obvykle se jedná o malé a střední podniky, domácí podniky nebo dropshipper – kteří své produkty prodávají přímo zákazníkům nebo jako prodejce prodává produkty velkoobchodníků."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Nenechávejte žádný produkt a žádné zásoby – platíte třetí straně, obvykle velkoobchodníkovi (jako Printify, Wholesale2B, ...) nebo výrobci, a ti plní objednávky za scénou."
+    },
+    "wholesaler": {
+      "title": "Dodavatel dropshippingu",
+      "desc": "Obvykle velkoobchodník nebo výrobce – který zasílá objednávky přímo konečnému spotřebiteli. Ostatní obchodníci na Selldone mohou zasílat vaše produkty do svých obchodů."
+    },
+    "marketplace": {
+      "title": "Tržiště",
+      "desc": "Online tržiště spojují kupující a prodávající na proprietární a centralizované platformě."
+    },
+    "franchise": {
+      "title": "Franšíza / Affiliate",
+      "desc": "Franšíza je způsob distribuce produktů nebo služeb zahrnující franšízora, který zakládá vaši značku (franchising) nebo prodává vaše produkty pod svou značkou (affiliate)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Peněženky",
+    "pricing_models": "Ceny",
+    "add_vendor": "Přidat dodavatele",
+    "requests": "Žádosti"
+  },
+  "price_input_type": {
+    "title": "Typ zadání ceny",
+    "default": {
+      "title": "Výchozí",
+      "desc": "Vyberte hodnotu jako množství v košíku."
+    },
+    "area": {
+      "title": "Plocha",
+      "desc": "Zadejte šířku a délku jako vstupy pro výpočet množství."
+    },
+    "volume": {
+      "title": "hlasitost",
+      "desc": "Zadejte šířku, délku a výšku jako vstupy pro výpočet množství."
+    },
+    "custom": {
+      "title": "Vlastní (Podle vstupního formuláře)",
+      "desc": "Není potřeba stovek variant! Vytvořte vlastní formulář pro kalkulaci nákladů pro vysoce přizpůsobitelné produkty."
+    }
+  },
+  "vendors_list": {
+    "title": "Moji prodejci",
+    "message": "Seznam mých vlastních prodejců."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Připojte více domén ke svému firemnímu OS a spravujte je všechny na jednom místě. Pomocí funkce více domén můžete vytvořit vyhrazené domény pro každou část svého webu, jako je blog a komunita, nebo můžete pro své přidružené společnosti použít různé domény."
+  },
+  "notes": {
+    "add_action": "Přidejte poznámku pro váš tým",
+    "notifications": {
+      "success_add": "Poznámka byla úspěšně přidána.",
+      "success_delete": "Poznámka byla úspěšně smazána."
+    }
+  },
+  "external_services": {
+    "title": "Externí služby",
+    "subtitle": "Zde můžete sledovat poslední stav externích služeb, jako jsou SMS a e-maily."
   }
 };

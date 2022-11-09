@@ -155,7 +155,19 @@ export default {
       "Setup": "jaħżen",
       "Sell": "Bejgħ u Marketing",
       "Developer": "Żviluppa",
-      "Application": "Applikazzjonijiet"
+      "Application": "Applikazzjonijiet",
+      "Product": "Ġestjoni ta' Prodotti u Kategoriji",
+      "Blog": "CMS u Blog",
+      "Order": "Ċentru ta' Sodisfar ta' Ordnijiet",
+      "Channel": "Kanali tal-Bejgħ",
+      "Accounting": "Metodi ta' Kontabilità u Ħlas",
+      "Incentives": "Inċentivi",
+      "Marketing": "Marketing u Kampanji",
+      "Logistic": "Loġistika & Shipping",
+      "Customers": "Klijenti Club & Segmentazzjoni",
+      "Page": "Inżul u Paġni tad-dwana",
+      "Access": "Ġestjoni tal-Aċċess tal-Persunal / API",
+      "POS": "POS"
     },
     "faq": "FAQ",
     "github": "Repożitorju Github",
@@ -193,7 +205,9 @@ export default {
       "stores": "Ħwienet",
       "roles": "Rwoli",
       "home": "Dar",
-      "expert": "Espert"
+      "expert": "Espert",
+      "deals": "Jittratta",
+      "providers": "Fornituri"
     },
     "shops": {
       "create_new": "Oħloq ħanut ġdid",
@@ -456,7 +470,8 @@ export default {
           "publish_state": "Status",
           "created_at": "Data tal-Ħolqien",
           "updated_at": "L-aħħar aġġornament"
-        }
+        },
+        "subtitle": "Ikteb artikli b'editur inline modern biex tippreżenta lilek innifsek u n-negozju tiegħek. Il-kontenut oriġinali huwa l-ewwel ħaġa li trid tiffoka fuqha meta tikteb post ta 'blog ta' kwalità għolja favur SEO."
       }
     },
     "orders": {
@@ -495,7 +510,8 @@ export default {
         "report": "Rapport",
         "tax": "Taxxa",
         "drop_shipping": "Irċevuti tal-bejjiegħ mill-ġdid",
-        "reseller_accounts": "Kontijiet tal-bejjiegħ mill-ġdid"
+        "reseller_accounts": "Kontijiet tal-bejjiegħ mill-ġdid",
+        "valuations": "Valutazzjonijiet"
       },
       "invoice": {
         "title": "Shop Linked Wallets",
@@ -605,7 +621,8 @@ export default {
         "delivery": "Tbaħħir",
         "inventory": "Inventarju",
         "warehouse": "Maħżen",
-        "logistic_apps": "Loġistika"
+        "logistic_apps": "Loġistika",
+        "profiles": "Profili"
       },
       "warehouse": {
         "title": "Maħżen tal-Aħżen",
@@ -656,7 +673,14 @@ export default {
           "free_shipping_limit_input": "Spiża minima tal-ordni għat-tbaħħir b'xejn",
           "notifications": {
             "update_success": "Is-settings tas-servizz tat-tbaħħir tlestew b'suċċess."
-          }
+          },
+          "shipping_cost_calculation": "Kalkolu tal-ispiża tat-tbaħħir",
+          "sod_true": "Ikseb l-ispiża tat-tbaħħir fid-destinazzjoni",
+          "sod_true_message": "Kun żgur li s-servizz tat-tbaħħir tiegħek jaċċetta l-ispiża tat-tbaħħir fid-destinazzjoni.",
+          "sod_false": "Kalkolu tal-ispiża tat-tbaħħir awtomatika",
+          "cod_true": "Aċċetta flus kontanti mal-kunsinna",
+          "cod_false": "Aċċetta ħlas onlajn biss",
+          "cod_true_message": "Kun żgur li s-servizz tat-tbaħħir tiegħek jaċċetta COD."
         }
       }
     },
@@ -908,7 +932,9 @@ export default {
         "sms": "SMS",
         "email": "Email",
         "domain": "Dominju",
-        "verifications": "Verifiki"
+        "verifications": "Verifiki",
+        "flow": "Fluss",
+        "business_model": "Mudell tan-Negozju"
       },
       "delete_dialog": {
         "title": "Ħassar Aħżen",
@@ -1050,7 +1076,17 @@ export default {
       "unit_section": "Unità tal-prodott",
       "unit_float": "Unità float (dalwaqt)",
       "unit_float_hint": "Pereżempju, il-klijent jista 'jordna 3 kg ta' frott, iżda l-ammont mibgħut lill-klijent huwa kemmxejn differenti mill-ammont ordnat.",
-      "unit_float_message": "Matul l-ipproċessar tal-ordni, l-ammont ikkunsinnat jista 'jkun differenti mill-ammont ordnat. Is-sistema awtomatikament tikkalkula din id-differenza u tirreġistraha bħala dejn tiegħek lill-klijent, li jista 'jiġi applikat għall-ordnijiet li jmiss."
+      "unit_float_message": "Matul l-ipproċessar tal-ordni, l-ammont ikkunsinnat jista 'jkun differenti mill-ammont ordnat. Is-sistema awtomatikament tikkalkula din id-differenza u tirreġistraha bħala dejn tiegħek lill-klijent, li jista 'jiġi applikat għall-ordnijiet li jmiss.",
+      "status_list": {
+        "active": {
+          "title": "Attiva | Bejgħ Online u Offline",
+          "description": "Dan il-prodott se jkun disponibbli għal ordnijiet onlajn."
+        },
+        "inactive": {
+          "title": "Inattiv | Bejgħ Offline biss",
+          "description": "Dan il-prodott mhux se jkun disponibbli għal ordnijiet onlajn."
+        }
+      }
     },
     "rating_pros_cons": {
       "title": "Stħarriġ",
@@ -1150,7 +1186,10 @@ export default {
       "end_input_placeholder": "Agħżel il-ħin tat-tmiem",
       "independent_price": "Il-prezz biss għal dan il-varjant",
       "same_price": "Il-prezz għall-prodott ewlieni",
-      "variant_pricing_message": "Billi tagħżel din l-għażla, il-prezz ta 'dan il-varjant jista' jiġi stabbilit indipendentement mill-prodott ewlieni."
+      "variant_pricing_message": "Billi tagħżel din l-għażla, il-prezz ta 'dan il-varjant jista' jiġi stabbilit indipendentement mill-prodott ewlieni.",
+      "price_label_input": "Tikketta tal-prezz",
+      "price_label_message": "Żid informazzjoni żejda dwar il-prezz bħal ($1.5/Fl Oz). Każijiet ta 'użu: grocer, FMCG.",
+      "add_price_label_action": "Żid it-tikketta tal-prezz"
     },
     "inputs_edit": {
       "title": "Formola ta' Input ta' Informazzjoni tax-Xerrej",
@@ -2078,7 +2117,8 @@ export default {
     "notifications": {
       "edit_success": "Gateway {gateway_name} editjat."
     },
-    "developer_setting": "Żviluppa & Test"
+    "developer_setting": "Żviluppa & Test",
+    "live_mode_message": "It-tranżazzjonijiet kollha se jkunu fil-modalità live."
   },
   "gift_card": {
     "title": "Gift Cards",
@@ -2275,7 +2315,18 @@ export default {
     "edit-billing-info": "Indirizz tal-kontijiet editjat mix-xerrej.",
     "payment-cod-confirm": "Ħlas COD ġie kkonfermat.",
     "payment-cash-confirm": "Il-ħlas ta' {amount} {currency} fi flus kontanti għall-kont ġie kkonfermat.",
-    "payment-dir-confirm": "Ġiet ikkonfermata l-irċevuta tal-ħlas dirett."
+    "payment-dir-confirm": "Ġiet ikkonfermata l-irċevuta tal-ħlas dirett.",
+    "vendor": "L-istat tal-ordni tal-bejjiegħ inbidel minn <b>{from}</b> għal <b>{to}</b> .",
+    "connect-sync": "Ordni sinkronizzat minn Connect OS.",
+    "connect-shipped": "L-ordni tal-konnessjoni ġiet mibgħuta minn {shipping}.",
+    "connect-returned": "L-ordni tal-konnessjoni ġiet irritornata minn {shipping}.",
+    "connect-failed": "It-twettiq tal-ordni fallut mis-sieħeb. {reason}",
+    "connect-canceled": "L-ordni ġiet ikkanċellata mis-sieħeb. {reason}",
+    "connect-action-cancel": "Talba biex tikkanċella l-ordni. {reason}",
+    "connect-put-hold": "L-ordni ġiet sospiża. {reason}",
+    "connect-remove-hold": "L-ordni tneħħa mill-istiva. {reason}",
+    "connect-confirmed": "L-ordni kienet ikkonfermata.",
+    "email-vendor": "🔔 L-email ta' informazzjoni dwar l-ordni ntbagħtet lil <b>{vendor}</b> | {email}."
   },
   "inline_chart": {
     "today": "Illum",
@@ -2443,7 +2494,8 @@ export default {
     "title": "Agħmel Flus",
     "menu": {
       "plans": "Pjanijiet",
-      "accounts": "Kontijiet"
+      "accounts": "Kontijiet",
+      "participant": "Parteċipant"
     }
   },
   "user_monetize_plans": {
@@ -2556,7 +2608,9 @@ export default {
     "shop_keys_title": "Aħżen Ċwievet Aċċess",
     "shop_keys_message": "Dawn iċ-ċwievet jintużaw biex joħolqu Access Token mis-server tiegħek. Innota li ċ-ċwievet huma kunfidenzjali u jitqiegħdu biss fuq is-server sabiex ma jkunux viżibbli għal ħaddieħor.",
     "personal_keys_title": "Ċwievet Aċċess Personali",
-    "personal_keys_message": "Tista' toħloq iċ-ċwievet għall-kont tiegħek hawn. Innota li dawn iċ-ċwievet se jkunu jistgħu jaċċessaw il-kont tiegħek. Oħloq u uża dawn iċ-ċwievet biss jekk tkun taf eżatt x'qed tagħmel."
+    "personal_keys_message": "Tista' toħloq iċ-ċwievet għall-kont tiegħek hawn. Innota li dawn iċ-ċwievet se jkunu jistgħu jaċċessaw il-kont tiegħek. Oħloq u uża dawn iċ-ċwievet biss jekk tkun taf eżatt x'qed tagħmel.",
+    "clients_title": "Klijenti",
+    "clients_message": "Dawn iċ-ċwievet jintużaw biex joħolqu Access Token mis-server tiegħek. Innota li ċ-ċwievet huma kunfidenzjali u jitqiegħdu biss fuq is-server sabiex ma jkunux viżibbli għal ħaddieħor."
   },
   "user_security_control": {
     "title": "Sigurtà tal-Kont",
@@ -2792,6 +2846,10 @@ export default {
     "shop-profile": {
       "name": "Immaniġġja profili",
       "description": "Immaniġġja l-profili tal-ħwienet."
+    },
+    "shop-discount-code": {
+      "name": "Ġestjoni tal-kodiċi ta 'skont",
+      "description": "Immaniġġja, editja u żid kodiċijiet ta 'skont tal-maħżen."
     }
   },
   "company_page": {
@@ -2948,7 +3006,9 @@ export default {
       "setting": "Settings",
       "change": "Ħlas",
       "transfer": "Trasferiment",
-      "transactions": "Transazzjonijiet"
+      "transactions": "Transazzjonijiet",
+      "charge": "Ħlas",
+      "history": "Storja"
     },
     "transactions": {
       "title": "Transazzjonijiet tal-Kont",
@@ -3258,7 +3318,10 @@ export default {
       "title": "Ikkanċella l-konferma tal-abbonament",
       "message": "Żgur li tikkanċella dan l-abbonament?",
       "action": "Ikkanċella l-abbonament"
-    }
+    },
+    "use_voucher_now": "Uża vawċer issa",
+    "validity_duration": "Tul ta' validità",
+    "validity_duration_hint": "Billi tixtri liċenzja ta’ 12-il xahar, tirċievi skont ta’ 30%."
   },
   "admin_shop_layout": {
     "download_txt": "Niżżel it-test tad-dejta",
@@ -3276,7 +3339,9 @@ export default {
     "large_font": "Fonts kbar",
     "large_font_message": "Uri test akbar min-normal",
     "samples": "Uri ħwienet tal-kampjuni",
-    "samples_message": "Jekk ikun attivat, xi ħwienet tal-kampjun jintwerew fil-pannell tiegħek."
+    "samples_message": "Jekk ikun attivat, xi ħwienet tal-kampjun jintwerew fil-pannell tiegħek.",
+    "automation": "Awtomazzjoni",
+    "automation_message": "Uri tab-awtomazzjoni fuq dashboard tal-ħanut. (Webhooks, Programmazzjoni viżwali, ...)"
   },
   "shop_locations": {
     "title": "Pajjiżi fejn jingħata s-servizz",
@@ -3490,7 +3555,8 @@ export default {
     },
     "notifications": {
       "delete_success": "Il-kupun tħassar b'suċċess."
-    }
+    },
+    "multiple_use": "Użu multiplu"
   },
   "coupon_edit": {
     "title_edit": "Editja l-kupun",
@@ -3772,6 +3838,10 @@ export default {
     "LIMIT": {
       "title": "Limitu",
       "description": "Issettja limitu fuq in-numru massimu ta' utenti."
+    },
+    "SEGMENTS": {
+      "title": "Segmenti",
+      "description": "Limitu l-klijenti fis-segmentazzjoni manwali speċifika."
     }
   },
   "inline_help": {
@@ -3991,7 +4061,9 @@ export default {
       "paid_by_gift_card_msg": "L-ammont totali tal-ordni ġie rtirat mill-karti tar-rigali! Ix-xerrej m'għandux għalfejn iħallas aktar.",
       "cod_msg": "Il-klijent iħallas meta jirċievi l-ordni.",
       "online_msg": "Staqsi lill-klijent biex jiskenja l-kodiċi QR fuq l-iskrin tal-klijent."
-    }
+    },
+    "name": "POS",
+    "message": "Ikollok il-punt tal-bejgħ online ta' spiża żero ta' setup tiegħek, ħaddem fuq kwalunkwe smartphone, tablet, u PC, jew oħloq ordnijiet manwalment."
   },
   "exporter": {
     "title": "Esportazzjoni tad-dejta",
@@ -4026,7 +4098,11 @@ export default {
     "send_to_server_action": "Ibgħat lil server",
     "shop_license": "Liċenzja tal-ħanut",
     "max_items_limit": "Limitu massimu ta' oġġetti",
-    "total_items": "Oġġetti totali"
+    "total_items": "Oġġetti totali",
+    "customer": {
+      "title": "Importa klijenti",
+      "subtitle": "Tella' fajls CSV tal-klijenti hawn. Kun żgur li ssegwi l-format standard, u wkoll, għandek issegwi r-regoli tal-privatezza."
+    }
   },
   "campaigns": {
     "title": "Kampanji",
@@ -4062,7 +4138,12 @@ export default {
     "color_info": "Links",
     "light_checkout": "Tema ta 'checkout ħafifa",
     "light_header": "Header ħafif",
-    "light_footer": "Footer ħafif"
+    "light_footer": "Footer ħafif",
+    "product_page": "Paġna tal-Prodott",
+    "typography": "Tipografija",
+    "header": "Header",
+    "custom_code": "Kodiċi tad-dwana",
+    "custom_css": "Custom CSS"
   },
   "app_templates": {
     "default": "Default",
@@ -4267,7 +4348,8 @@ export default {
     "manage_service": "Immaniġġja s-servizz",
     "option_deliver_by_courier": "Għażla 1: Kunsinna bil-kurrieri tiegħek.",
     "option_add_to_que": "Għażla 2: Żid mal-kju biex tipproċessa fuq il-paġna tas-servizz tat-tbaħħir.",
-    "option_instant_shipping": "Għażla 3: Tbaħħir istantanju."
+    "option_instant_shipping": "Għażla 3: Tbaħħir istantanju.",
+    "pickup_action": "Konferma tal-ġbir"
   },
   "shop_home_edit": {
     "title": "L-issettjar tal-paġna tad-dar",
@@ -4406,7 +4488,8 @@ export default {
     "notifications": {
       "add_product": "Prodott miżjud mal-maħżen tiegħek.",
       "request_access": "Bgħatna t-talba għall-aċċess tiegħek lill-bejjiegħ bl-ingrossa b'suċċess."
-    }
+    },
+    "show_eligible_shops_message": "Uri ħwienet eliġibbli"
   },
   "product_dropshipping": {
     "need_re_enable": "Dan il-prodott inbidel mill-bejjiegħ oriġinali, dawn il-bidliet fil-prezz iddiżattivaw il-prodott fil-maħżen tiegħek. Iċċekkja l-bidliet u jekk taqbel li tattiva mill-ġdid il-prodott, agħfas il-buttuna hawn taħt.",
@@ -4499,7 +4582,9 @@ export default {
       "no_category": "M'hemm l-ebda kategorija fil-maħżen tiegħek.",
       "limit": "Limitu tal-prodotti",
       "limit_message": "Daħħal l-għadd tar-riżultati tal-prodotti",
-      "select_categories": "Agħżel kategoriji disponibbli"
+      "select_categories": "Agħżel kategoriji disponibbli",
+      "categories_limit": "Limitu tal-kategoriji",
+      "categories_limit_msg": "Daħħal in-numru massimu ta' kategoriji. Issettja żero għall-ebda limitu."
     }
   },
   "shop_contacts": {
@@ -4718,7 +4803,8 @@ export default {
     "notifications": {
       "update_success": "Avokado aġġornat b'suċċess.",
       "add_success": "Avokado maħluqa b'suċċess."
-    }
+    },
+    "name": "Avokado"
   },
   "avocado_orders": {
     "title": "Avokado",
@@ -4752,7 +4838,8 @@ export default {
     "inactive_mode": "inattivi",
     "active_message": "Jekk tattiva din l-għażla, il-possibbiltà li toħloq il-Kodiċi tal-Bejgħ Mgħaġġel tintwera fit-taqsima tal-ġestjoni ta 'kull prodott.",
     "hyper_form_link_message": "Il-link tal-iper-paġna tal-maħżen tiegħek",
-    "configuration": "Iper Settings"
+    "configuration": "Iper Settings",
+    "name": "Iper"
   },
   "hyper_orders": {
     "title": "Iper",
@@ -4922,5 +5009,153 @@ export default {
   "customers_funnel": {
     "title": "Klijenti Demografija",
     "subtitle": "Iffiltra u esporta d-dejta tal-klijenti tiegħek biex tieħu deċiżjonijiet aħjar biex tagħti aktar valur b'inqas marketing! Jekk jogħġbok irrispetta l-privatezza tal-klijenti tiegħek u qatt ma tibgħatilhom emails bl-ingrossa! Qatt taqsam l-informazzjoni tal-klijenti tiegħek ma' servizzi ta' partijiet terzi mingħajr ma tieħu permess minn kull wieħed minnhom."
+  },
+  "transportation_pickups": {
+    "addresses": {
+      "title": "Indirizzi Pickup",
+      "subtitle": "Żid u editja l-indirizzi tal-ġbir hawn. L-utenti jkunu jistgħu jagħżlu l-indirizz tal-ġbir fuq il-paġna tal-ħruġ.",
+      "add_action": "Żid post ġdid"
+    }
+  },
+  "affiliate_pos": {
+    "title": "Affiljat POS",
+    "open_pos_action": "POS li tordna malajr",
+    "description": "Din l-għażla hija adattata għall-amministraturi ta 'paġni Instagram u netwerks soċjali oħra. Uża Affiljat POS biex tirċievi u żżid ordnijiet mill-klijenti manwalment. L-affiljati (jew il-konċessjoni) tiegħek jistgħu jżidu ordnijiet ġodda fil-POS Affiljat u jtellgħu l-karta tad-depożitu."
+  },
+  "shop_configuration": {
+    "login": {
+      "title": "Metodi ta' login",
+      "subtitle": "Ippersonalizza l-mod kif l-utenti jidħlu fil-maħżen tiegħek."
+    },
+    "checkout": {
+      "title": "Fluss ta 'checkout",
+      "subtitle": "Ippersonalizza l-vjaġġ tal-klijent tiegħek u l-fluss tax-xiri fil-kummerċ elettroniku tiegħek.",
+      "map": {
+        "title": "Mappa",
+        "subtitle": "L-utenti jridu jagħżlu l-post tal-kunsinna fuq il-mappa (bħal Uber).",
+        "subtitle_no_map": "Distanza fil-kalkolu tat-tbaħħir tikkunsidra żero jekk il-post ma jeżistix fl-indirizz ipprovdut mill-klijent."
+      },
+      "mode": {
+        "title": "Il-punt tal-login tal-klijenti",
+        "default": {
+          "title": "ASAP (Default)",
+          "msg": "L-utenti jidħlu mill-aktar fis possibbli. (Aktar konverżjoni)"
+        },
+        "on_checkout": {
+          "title": "Fit-checkout",
+          "msg": "Ġiegħel lill-utenti jidħlu fil-pass tal-checkout."
+        },
+        "login_free": {
+          "title": "Login fakultattiv",
+          "msg": "Login fakultattiv wara l-ħlas tal-ordni.."
+        }
+      },
+      "express": {
+        "title": "Redirect wara żid mal-karrettun",
+        "false": {
+          "title": "Modalità normali",
+          "msg": "Ibqa' fuq il-paġna u kompli x-xiri wara li tikklikkja żid mal-karrettun."
+        },
+        "true": {
+          "title": "Modalità Express",
+          "msg": "Idderieġi l-klijent lejn il-paġna tal-checkout wara li tikklikkja żid mal-karrettun."
+        }
+      },
+      "shipping_address": {
+        "title": "Staqsi għall-indirizz tat-tbaħħir"
+      }
+    }
+  },
+  "checkout_options": {
+    "default": {
+      "title": "Fiżika u Servizz (Default)",
+      "desc": "Staqsi lill-klijent biex idaħħal indirizz fil-kaxxijiet fiżiċi u tas-servizz."
+    },
+    "physical": {
+      "title": "Fiżiku Biss",
+      "desc": "Staqsi lill-klijent biex idaħħal indirizz biss fil-checkout fiżiku."
+    },
+    "off": {
+      "title": "Qatt",
+      "desc": "Qatt ma titlob għall-indirizz tat-tbaħħir. ⚠ Uża din l-għażla jekk qed tippjana li jkollok servizzi b'varjanti billi tagħżel it-tip fiżiku għall-prodotti minflok it-tip ta' servizz."
+    }
+  },
+  "business_model": {
+    "title": "Setup tal-mudell tan-negozju",
+    "subtitle": "Issettja l-mudell tan-negozju tiegħek, u aħna ser tikkonfigura l-OS tiegħek wara l-xena."
+  },
+  "business_type": {
+    "title": "Tipi ta' merkanzija",
+    "subtitle": "Issettja t-tip ta 'prodotti li trid tbigħ fil-maħżen tiegħek. Tipi ta 'prodotti f'Selldone huma aktar minn sempliċi tip tal-prodotti; huwa aktar dwar il-proċedura ta' twettiq.",
+    "send_activation_request_to_support": "Ibgħat talba ta' attivazzjoni f'biljett ta' appoġġ.",
+    "require_kyc": "Sid in-negozju KYC.",
+    "needs_enterprise_license": "Jeħtieġ li jkollok liċenzja tal-Intrapriża.",
+    "marketplace_caution_message": "Issettja Marketplace bħala l-mudell tiegħek taffettwa profondament il-konfigurazzjoni tal-OS tan-negozju tiegħek. Pereżempju, trid tiddefinixxi mill-inqas bejjiegħ wieħed għal kull prodott bi prezzijiet u inventarju indipendenti. Il-klijenti ma jistgħux jixtru prodotti li m'għandhomx bejjiegħ."
+  },
+  "business_model_view": {
+    "normal": {
+      "title": "Aħżen Normali",
+      "desc": "Komunement SME, negozju domestiku, jew dropshipper - li jbigħ il-prodott tagħhom direttament lill-klijenti jew ibigħ il-prodotti tal-bejjiegħa bl-ingrossa bħala bejjiegħ mill-ġdid."
+    },
+    "dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Żomm l-ebda prodott u l-ebda inventarju - inti tħallas lil parti terza, normalment bejjiegħ bl-ingrossa (bħal Printify, Wholesale2B, ...) jew manifattur, u dawn jissodisfaw ordnijiet wara l-xena."
+    },
+    "wholesaler": {
+      "title": "Fornitur Dropshipping",
+      "desc": "Komunement bejjiegħ bl-ingrossa jew manifattur – li jibgħat ordnijiet direttament lill-konsumatur aħħari. Negozjanti oħra fuq Selldone jistgħu jibagħtu l-prodotti tiegħek fil-ħwienet tagħhom."
+    },
+    "marketplace": {
+      "title": "Suq",
+      "desc": "Is-swieq onlajn jgħaqqdu xerrejja u bejjiegħa fuq pjattaforma proprjetarja u ċentralizzata."
+    },
+    "franchise": {
+      "title": "Franchise / Affiljat",
+      "desc": "Franchise hija metodu ta 'distribuzzjoni ta' prodotti jew servizzi li jinvolvi franchisor li jistabbilixxi l-marka tiegħek (Franchising) jew ibigħ il-prodotti tiegħek bil-marka tagħhom (Afljat)."
+    }
+  },
+  "marketplace": {
+    "vendor_wallets": "Kartieri",
+    "pricing_models": "Ipprezzar",
+    "add_vendor": "Żid il-bejjiegħ",
+    "requests": "Talbiet"
+  },
+  "price_input_type": {
+    "title": "Tip ta' input tal-prezz",
+    "default": {
+      "title": "Default",
+      "desc": "Agħżel valur bħala l-kwantità fil-karrettun."
+    },
+    "area": {
+      "title": "Żona",
+      "desc": "Daħħal il-wisa 'u t-tul bħala inputs biex tikkalkula l-kwantità."
+    },
+    "volume": {
+      "title": "volum",
+      "desc": "Daħħal il-wisa ', it-tul u l-għoli bħala inputs biex tikkalkula l-kwantità."
+    },
+    "custom": {
+      "title": "Custom (B'formola ta' input)",
+      "desc": "Ebda ħtieġa għal mijiet ta 'varjanti! Oħloq formola ta' kalkolu tal-ispejjeż tad-dwana għal prodotti li jistgħu jiġu personalizzati ħafna."
+    }
+  },
+  "vendors_list": {
+    "title": "Il-bejjiegħa tiegħi",
+    "message": "Lista tal-bejjiegħa tiegħi stess."
+  },
+  "vendor_page": {},
+  "domains": {
+    "message": "Qabbad diversi oqsma mal-OS tan-negozju tiegħek u mmaniġġjahom kollha f'post wieħed. Tista 'tuża l-karatteristika ta' oqsma multipli biex toħloq oqsma dedikati għal kull parti tal-websajt tiegħek, bħall-blog u l-komunità, jew tuża oqsma differenti għall-affiljati tiegħek."
+  },
+  "notes": {
+    "add_action": "Żid nota għat-tim tiegħek",
+    "notifications": {
+      "success_add": "Nota ġiet miżjuda b'suċċess.",
+      "success_delete": "Nota tħassret b'suċċess."
+    }
+  },
+  "external_services": {
+    "title": "Servizzi esterni",
+    "subtitle": "Immonitorja l-aħħar status tas-servizzi esterni bħal SMS u emails hawn."
   }
 };
