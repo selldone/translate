@@ -652,6 +652,10 @@ export default {
     public:'عمومی',
     deleted:'حذف شده',
 
+    variant:'تنوع',
+    secure:'امن',
+    admin:'مدیر',
+
   },
 
   difficulties: {
@@ -778,7 +782,10 @@ export default {
     unlock: "باز کردن قفل",
     lock: "قفل کردن",
     create_clone:'ایجاد کپی',
-    regenerate:'بازسازی'
+    regenerate:'بازسازی',
+    add_message:"ثبت پیام",
+    continue_chat:"ادامه گفت و گو",
+    add_new_message:"ارسال پیام جدید",
 
   },
 

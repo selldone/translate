@@ -558,7 +558,52 @@ export default {
     "merchant": "търговец",
     "per_product": "на продукт",
     "journey": "Пътуване",
-    "after": "След"
+    "after": "След",
+    "waiting_for_payment": "Моля, завършете плащането...",
+    "hour": "час",
+    "minute": "минута",
+    "premium": "Премиум",
+    "light": "Светлина",
+    "dark": "Тъмно",
+    "guest": "Гост",
+    "shops": "Магазини",
+    "vendor": "Доставчик",
+    "vendors": "Доставчици",
+    "marketplace": "Пазар",
+    "verify_date": "Потвърдете датата",
+    "note": "Забележка",
+    "panel": "Панел",
+    "removed": "Премахнато",
+    "segments": "Сегменти",
+    "personal_info": "Лична информация",
+    "preferences": "Предпочитания",
+    "spec": "Спец",
+    "reviews": "Отзиви",
+    "constraints": "Ограничения",
+    "flexible": "Гъвкав",
+    "usage_limit": "Ограничение за използване",
+    "temporary": "Временно",
+    "original": "Оригинален",
+    "saved": "Запазено!",
+    "sort": "Вид",
+    "documents": "Документи",
+    "document": "Документ",
+    "please_wait": "Моля Изчакай...",
+    "pickup": "Вдигни",
+    "customize": "персонализирайте",
+    "difficulty": "Трудност",
+    "banned": "Забранено",
+    "company": "Компания",
+    "tax_shipping": "Данък за доставка",
+    "warranty": "Гаранция",
+    "return_policy": "Условия за връщане",
+    "guide": "Ръководство",
+    "translate": "Превеждай",
+    "public": "Обществени",
+    "deleted": "Изтрит",
+    "variant": "Вариант",
+    "secure": "Сигурно",
+    "admin": "Админ"
   },
   "dialogs": {
     "delete": {
@@ -669,7 +714,15 @@ export default {
     "track": "Проследяване",
     "change_state": "Промяна на състоянието",
     "done": "Готово",
-    "reply": "Отговор"
+    "reply": "Отговор",
+    "watch_now": "Гледай сега",
+    "unlock": "Отключи",
+    "lock": "Ключалка",
+    "create_clone": "Създайте клонинг",
+    "regenerate": "Регенерирайте",
+    "add_message": "Добавете съобщение",
+    "continue_chat": "Продължаване на чата",
+    "add_new_message": "Добавете ново съобщение"
   },
   "instance_message_title": "Изпратете незабавно съобщение",
   "instance_message": "Здравейте, {name}, казвам се {author} от {company}.",
@@ -690,7 +743,8 @@ export default {
     "postcode": "Пощенски код",
     "enter_value": "Попълнете тук",
     "address_note": "Забележка",
-    "tel": "Номер за връзка"
+    "tel": "Номер за връзка",
+    "service_address": "Изберете своя адрес"
   },
   "weight": {
     "g": "гр",
@@ -712,7 +766,7 @@ export default {
     "m": "м",
     "yd": "ярд"
   },
-   "size_unit_name": {
+  "size_unit_name": {
     "cm": "сантиметър",
     "in": "инч",
     "ft": "фута",
@@ -730,7 +784,7 @@ export default {
     "minutes": "минути",
     "seconds": "секунди"
   },
-    "units": [
+  "units": [
     "мерна единица",
     "вещ",
     "всеки",
@@ -754,7 +808,13 @@ export default {
     "кварти",
     "ярда",
     "стая",
-    "продукт(а)"
+    "продукт(а)",
+    "минути",
+    "часа",
+    "дни",
+    "седмици",
+    "месеца",
+    "години"
   ],
   "region_types": {
     "State": "Област",
@@ -776,7 +836,6 @@ export default {
     "friend_name": "Името на Ваш приятел",
     "select_date": "Изберете дата..."
   },
-
   "notification": {
     "confirm": "Потвърдете",
     "confirm_message": "Промените са запазени успешно.",
@@ -798,7 +857,9 @@ export default {
     "invalid_min_length": "Минималната дължина трябва да бъде {length}",
     "invalid_min_array_length": "Изберете поне {length} елементи",
     "invalid_max_chars": "Макс. {maxCount} знака",
-    "invalid_url": "Невалиден адрес"
+    "invalid_url": "Невалиден адрес",
+    "country_invalid": "Изберете държава на дестинация!",
+    "postal_code_invalid": "Задайте валиден пощенски код!"
   },
   "colors": {
     "#D32F2F": "червен",
@@ -827,10 +888,49 @@ export default {
     "#FFFFFF": "бяла",
     "#FFF": "бяла",
     "#000000": "черен",
-    "#000": "черен"
+    "#000": "черен",
+    "#7d263a": "Кестеняво",
+    "#FD9F17": "злато",
+    "#229DBF": "Аква",
+    "#6DC9E2": "Аква Трибленд",
+    "#413B2D": "армия",
+    "#474747": "Асфалт",
+    "#E6195C": "Бери",
+    "#B2184C": "Berry Triblend",
+    "#FC7F5F": "Изгорен портокал",
+    "#80011F": "Кардинал",
+    "#382829": "Шоколад",
+    "#F06336": "Корал",
+    "#FAE7C9": "крем",
+    "#6B2257": "касис",
+    "#222127": "Тъмно сив",
+    "#0D5A74": "Deep Teal",
+    "#00582F": "Евъргрийн",
+    "#214C30": "гора",
+    "#DC2867": "Фуксия",
+    "#38561": "Кели",
+    "#5C884D": "листо",
+    "#558450": "Светла вода",
+    "#96B5C9": "Светло синьо",
+    "#DCAFCE": "Люляк",
+    "#D3E1A4": "Лайм",
+    "#9DE7C2": "Мента",
+    "#F6EAD2": "Естествено",
+    "#1A1F35": "ВМС",
+    "#404624": "Маслина",
+    "#271020": "слива",
+    "#A8355C": "Малина",
+    "#D6BEA6": "Мек крем",
+    "#BEA994": "тен",
+    "#0DB2AE": "Тил",
+    "#A86EA9": "Виолетово",
+    "#36454F": "дървени въглища",
+    "#b3b0ab": "въглеродно сиво",
+    "#463e3d": "Въглен Хедър",
+    "#282d3c": "Военноморски сако"
   },
   "address_info": {
-   "name": "Име",
+    "name": "Име",
     "tel": "Телефон",
     "email": "Електронна поща",
     "country": "Държава",
@@ -840,7 +940,8 @@ export default {
     "building_number": "Номер на сградата",
     "building_unit": "Етаж",
     "postcode": "Пощенски код",
-    "note": "Забележка"
+    "note": "Забележка",
+    "county": "окръг"
   },
   "product_types": {
     "physical": "Физически",
@@ -1001,7 +1102,11 @@ export default {
     "XPF": "XPF",
     "YER": "YER",
     "ZAR": "ZAR",
-    "ZMW": "ZMW"
+    "ZMW": "ZMW",
+    "GHS": "GHS",
+    "ZWD": "ZWD",
+    "IQD": "IQD",
+    "SYP": "SYP"
   },
   "variants": {
     "color": "Цвят",
@@ -1010,7 +1115,6 @@ export default {
     "weight": "Тегло",
     "type": "Материал",
     "style": "Стил"
-
   },
   "delivery_state": {
     "check_queue": "В очакване на преглед",
@@ -1245,8 +1349,13 @@ export default {
     "types": {
       "simple": "прост",
       "selective": "Селективни",
-      "switch": "Превключете"
-    }
+      "switch": "Превключете",
+      "file": "Файл",
+      "number": "Номер"
+    },
+    "placeholder_input": "Заместител",
+    "file_type_input": "Приемливи типове файлове",
+    "file_type_message": "jpeg, png, zip, ..."
   },
   "virtual_order_info_summery": {
     "title": "Име на продукта",
@@ -1318,7 +1427,7 @@ export default {
     "step_5": "Доставка"
   },
   "basket_return_request_view": {
-        "title": "Заявка за връщане",
+    "title": "Заявка за връщане",
     "delivery_date": "Дата на доставка",
     "return_date": "Дата на заявка",
     "items_count": "Върнатите продукти",
@@ -1333,7 +1442,7 @@ export default {
     "reject_by_admin_action": "Отхвърляне на заявка",
     "message_for_admin": "Съгласно споразумението, което сте приели с помощта на Selldone, трябва да се свържете с купувача и да го/я информирате за процеса на връщане на неговата/нейната поръчка. Това трябва да стане, ако искането бъде прието или отхвърлено и е получено пълното съгласие на купувача.",
     "notifications": {
-    "update_status_success": "Състоянието на заявката е обновено."
+      "update_status_success": "Състоянието на заявката е обновено."
     }
   },
   "basket_list": {
@@ -1553,7 +1662,8 @@ export default {
     "mobile_input": "Въведете мобилния си телефон",
     "verification_code": "Код за потвърждение",
     "msg_title": "Здравейте,",
-    "msg_body": "Може да влезете по следните начини:"
+    "msg_body": "Може да влезете по следните начини:",
+    "login_apple": "Влезте с Apple"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1776,5 +1886,11 @@ export default {
     "notification": {
       "add_success": "Добавени са етикети"
     }
+  },
+  "difficulties": {
+    "very_complicated": "Много сложно",
+    "hard": "Твърд",
+    "intermediate": "Междинен",
+    "easy": "лесно"
   }
 };

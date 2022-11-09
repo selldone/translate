@@ -73,6 +73,7 @@ export default {
     report: "گزارش تخلف",
 
     post: "مطلب",
+    attach_file:'فایل پیوست',
 
   },
 

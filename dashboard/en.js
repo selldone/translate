@@ -1052,9 +1052,9 @@ export default {
       /** {@see AdminShop_Applications_PWA} **/
       pwa: {
         title: "Web App",
-        sub_title: "View your store web app here",
+        sub_title: "It's the preview of your store's web app.",
         message:
-          "Note: You can edit your website welcome page on your iPhone and iPad in the iOS app",
+          "You can edit your website welcome page on your iPhone and iPad in the iOS app.",
         ios_app: "iOS app",
       },
 
@@ -2825,6 +2825,9 @@ export default {
     "connect-put-hold": "The order was putted on hold. {reason}",
     "connect-remove-hold": "The order was removed from hold. {reason}",
     "connect-confirmed": "The order was confirmed.",
+
+    "email-vendor": "🔔 Order inform email has been sent to <b>{vendor}</b> | {email}.",
+
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4565,7 +4568,7 @@ export default {
   email_builder: {
     service_unavailable: "The mail server is not active in your account.",
     design_section: "Your email design plate",
-    schedule_switch: "Schedule email sending?",
+    schedule_switch: "Schedule sending emails?",
     schedule_placeholder: "Select time to send email",
   },
 

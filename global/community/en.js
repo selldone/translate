@@ -72,6 +72,8 @@ export default  {
     report: "Report",
     post: "Post",
 
+    attach_file:'Attach file',
+
   },
 
   invite_message:

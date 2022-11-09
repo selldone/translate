@@ -653,6 +653,11 @@ export default {
     translate:'Translate',
     public:'Public',
     deleted:'Deleted',
+
+    variant:'Variant',
+    secure:'Secure',
+    admin:'Admin',
+
   },
   difficulties: {
     very_complicated: "Very complicated",
@@ -777,7 +782,11 @@ export default {
     unlock: "Unlock",
     lock: "Lock",
     create_clone:'Create clone',
-    regenerate:'Regenerate'
+    regenerate:'Regenerate',
+    add_message:"Add message",
+    continue_chat:"Continue chat",
+    add_new_message:"Add new message",
+
   },
 
   instance_message_title: "Send instant message",

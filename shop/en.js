@@ -574,7 +574,8 @@ export default {
     pricing_not_completed_message:
       "Your order is being reviewed. Your order will be reviewed and priced soon and you will be able to pay the order.",
 
-    select_address_message:"Please enter your address, and then you can submit the order.",
+    select_address_message:
+      "Please enter your address, and then you can submit the order.",
 
     delete_item_dialog: {
       title: "Remove item from the shopping cart",
@@ -659,5 +660,18 @@ export default {
     waiting_message: "Waiting to check access...",
     no_access_message:
       "Unfortunately, you do not have access to our store. <br/>Please contact us.",
+  },
+
+  /** @see ShareOrderButton **/
+  share_order: {
+    action: "Share order",
+    title: "Share this order with others.",
+    message:
+      "It's a secure link, only share it with those you know. Everybody with this link can duplicate your order and see the selected address. It will contain information about your current cart.",
+    valid_period: "This link will expire after 48 hours.",
+    import_order_action: "Import order",
+    retrieve_dialog_title: "Retrieve external order",
+    address_included: "Share basket items + Address",
+    address_excluded: "Share only basket items",
   },
 };
