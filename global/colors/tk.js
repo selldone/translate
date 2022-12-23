@@ -45,7 +45,7 @@ export default {
   "#00582F": "Hemişe gök öwüsýän",
   "#214C30": "Tokaý",
   "#DC2867": "Fuksiýa",
-  "#38561": "Kelli",
+  "#38561F" :"Kelli",
   "#5C884D": "Leafaprak",
   "#558450": "Lighteňil akwa",
   "#96B5C9": "Açyk gök",

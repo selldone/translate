@@ -655,6 +655,12 @@ export default {
     variant:'تنوع',
     secure:'امن',
     admin:'مدیر',
+    payment_not_settled:'در انتظار پرداخت!',
+    orders_list:'لیست سفارشات',
+
+    subscription_plan:'پلن اشتراک',
+    contents:'محتوا',
+    pricings:'قیمت ها',
 
   },
 
@@ -788,6 +794,18 @@ export default {
     add_new_message:"ارسال پیام جدید",
 
   },
+
+  /** @see BillingPeriod **/
+  billing_period:{
+    Daily:'روزانه',
+    Weekly:'هفتگی',
+    Monthly:'ماهانه',
+    Every3Months:'هز سه ماه',
+    Every6Months:'هر شش ماه',
+    Yearly:'سالانه',
+
+  },
+
 
   instance_message_title: "ارسال پیام فوری",
   instance_message: "سلام {name}، \nمن {author} از {company} هستم.",
@@ -975,6 +993,11 @@ export default {
 
     service: "سرویس",
     service_description: "خدمات مانند: تعمیر، حمل و نقل، تدریس.",
+
+    subscription:'اشتراک',
+    subscription_description:'خرید آبونمانی محصولات، خدمات و یا محتوا.',
+
+
   },
 
   license: {

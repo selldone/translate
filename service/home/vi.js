@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Nhãn trắng / Linh hoạt / Có thể tùy chỉnh sâu.",
-      "msg1": "Thiết kế các trang đích của bạn và thay đổi màu chủ đề của trang web phù hợp với thông điệp thương hiệu của bạn. Tính năng Kéo và Thả giúp tất cả điều này có thể thực hiện được mà không cần thuê chuyên gia."
+      "msg1": "Thiết kế các trang đích của bạn và thay đổi màu chủ đề của trang web phù hợp với thông điệp thương hiệu của bạn. Tính năng Kéo và Thả giúp tất cả điều này có thể thực hiện được mà không cần thuê chuyên gia.",
+      "view_sample_pages": "Cửa hàng SD tuyệt vời để truyền cảm hứng cho bạn"
     },
     "step4": {
       "title": "Thanh toán bằng một cú nhấp chuột: Trải nghiệm thanh toán hợp nhất trên toàn thế giới.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Dễ dàng xây dựng trang web mua sắm trực tuyến + Thanh toán trực tiếp.",
-    "subtitle": "Nếu bạn có kế hoạch xây dựng một công việc kinh doanh trực tuyến có lãi và biến ý tưởng kinh doanh của mình thành hiện thực thì Selldone là một sự lựa chọn hoàn hảo."
+    "subtitle": "Nếu bạn có kế hoạch xây dựng một công việc kinh doanh trực tuyến có lãi và biến ý tưởng kinh doanh của mình thành hiện thực thì Selldone là một sự lựa chọn hoàn hảo.",
+    "pacman": "Plugin thanh toán"
   },
   "os": {
     "title": "Truy cập vào các công cụ đẳng cấp thế giới - Miễn phí.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Đang chuyển hàng",
     "fulfilment": "Sự hoàn thành",
     "community": "Cộng đồng và phản hồi"
-  }
+  },
+  "select_language_dialog_title": "Thực hiện công việc kinh doanh của bạn bằng ngôn ngữ yêu thích của bạn",
+  "welcome_title": "Xây dựng, quản lý và mở rộng quy mô doanh nghiệp của bạn một cách trực quan",
+  "welcome_subtitle": "Tạo cửa hàng trực tuyến của bạn bằng giải pháp không cần mã & không cần chuyên gia cho hàng triệu đơn đặt hàng.",
+  "your_shop": "Mặt tiền cửa hàng của bạn",
+  "your_dashboard": "Văn phòng phụ của bạn",
+  "flow": {
+    "title": "Quy trình thanh toán có thể tùy chỉnh.",
+    "subtitle": "Thiết kế hành trình của khách hàng và quy trình mua hàng cũng như kết quả thử nghiệm.",
+    "pacman": "Plugin thanh toán"
+  },
+  "business_model": {
+    "title": "Áp dụng mô hình kinh doanh trực quan.",
+    "subtitle": "Thiết lập mô hình kinh doanh của bạn một cách trực quan, tất cả sự phức tạp sẽ được điều chỉnh ngay sau hiện trường.",
+    "pacman": "Thị trường & Plugin POD"
+  },
+  "team": {
+    "title": "Gặp gỡ đội ngũ.",
+    "msg": "Chúng tôi sẽ chơi theo các quy tắc khác nhau trong lĩnh vực tàn bạo của các nền tảng thương mại, đặc biệt là khi các đối thủ của chúng tôi chi hàng triệu đô la cho quảng cáo; chúng tôi đầu tư vào sản phẩm, con người và giải quyết các vấn đề thực tế. Nhóm này hỗ trợ doanh nghiệp của bạn!"
+  },
+  "customers": {
+    "title": "Gặp gỡ cộng đồng của chúng tôi.",
+    "msg": "Đó chỉ là sự khởi đầu của hành trình xây dựng các công cụ có ý nghĩa để mở khóa các doanh nhân tương lai bằng cách học hỏi từ khách hàng của chúng tôi."
+  },
+  "panorama": {
+    "title": "Không có plugin đắt tiền, <b class=\"font-weight-bold\">Tất cả các tính năng đều được tích hợp sẵn</b>",
+    "msg": "Không cần phải chi hàng trăm đô la cho các plugin và ứng dụng mỗi tháng và lo lắng về các bản cập nhật. Giống như macOS cho PC của bạn, Selldone OS chăm sóc tất cả các khía cạnh kỹ thuật của doanh nghiệp của bạn.",
+    "orders_management": "Quản lý đơn hàng",
+    "online_pos": "POS trực tuyến",
+    "shipping": "Đang chuyển hàng",
+    "inventory_management": "Quản lý hàng tồn kho",
+    "social_commerce": "Thương mại xã hội",
+    "in_store_sell": "Bán tại cửa hàng",
+    "team": "Đội ngũ / Nhân viên",
+    "incentives": "Khuyến khích / Mức độ trung thành",
+    "community": "Quản lý cộng đồng",
+    "payments": "Thanh toán địa phương",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Không — plugin"
 };

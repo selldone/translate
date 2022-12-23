@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Label putih / Fleksibel / Sangat dapat disesuaikan.",
-      "msg1": "Rancang halaman arahan Anda, dan ubah warna tema situs Anda yang disesuaikan dengan pesan merek Anda. Fitur Drag and Drop memungkinkan semua ini tanpa perlu menyewa seorang ahli."
+      "msg1": "Rancang halaman arahan Anda, dan ubah warna tema situs Anda yang disesuaikan dengan pesan merek Anda. Fitur Drag and Drop memungkinkan semua ini tanpa perlu menyewa seorang ahli.",
+      "view_sample_pages": "Toko SD Hebat untuk Menginspirasi Anda"
     },
     "step4": {
       "title": "Checkout sekali klik: Pengalaman checkout terpadu di seluruh dunia.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Pembuat situs web belanja online yang mudah + Pembayaran langsung.",
-    "subtitle": "Jika Anda berencana membangun bisnis online yang menguntungkan dan mewujudkan ide bisnis Anda, Selldone adalah pilihan yang tepat."
+    "subtitle": "Jika Anda berencana membangun bisnis online yang menguntungkan dan mewujudkan ide bisnis Anda, Selldone adalah pilihan yang tepat.",
+    "pacman": "Plugin Pembayaran"
   },
   "os": {
     "title": "Akses ke alat kelas dunia — Gratis.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Pengiriman",
     "fulfilment": "Pemenuhan",
     "community": "Komunitas & Umpan Balik"
-  }
+  },
+  "select_language_dialog_title": "Lakukan bisnis Anda dalam bahasa favorit Anda",
+  "welcome_title": "Bangun, kelola, dan skalakan bisnis Anda secara visual",
+  "welcome_subtitle": "Jadikan toko online Anda dengan solusi tanpa kode & tanpa ahli untuk jutaan pesanan.",
+  "your_shop": "Etalase Anda",
+  "your_dashboard": "Kantor Belakang Anda",
+  "flow": {
+    "title": "Alur checkout yang dapat disesuaikan.",
+    "subtitle": "Rancang perjalanan pelanggan dan alur pembelian serta hasil eksperimen Anda.",
+    "pacman": "Plugin Checkout"
+  },
+  "business_model": {
+    "title": "Adopsi model bisnis secara visual.",
+    "subtitle": "Siapkan model bisnis Anda secara visual, semua kerumitan akan disetel di belakang layar.",
+    "pacman": "Plugin Marketplace & POD"
+  },
+  "team": {
+    "title": "Temui Tim.",
+    "msg": "Kami akan bermain dengan aturan yang berbeda di bidang platform perdagangan yang brutal, terutama ketika pesaing kami menghabiskan jutaan dolar untuk iklan; kami berinvestasi dalam produk, orang, dan memecahkan masalah nyata. Tim ini mendukung bisnis Anda!"
+  },
+  "customers": {
+    "title": "Temui komunitas kami.",
+    "msg": "Ini hanyalah awal dari perjalanan untuk membangun alat yang berarti untuk membuka wirausahawan masa depan dengan belajar dari pelanggan kami."
+  },
+  "panorama": {
+    "title": "Tidak ada plugin mahal, <b class=\"font-weight-bold\">Semua fitur sudah dibuat sebelumnya</b>",
+    "msg": "Tidak perlu menghabiskan ratusan dolar untuk plugin dan aplikasi setiap bulan dan khawatir tentang pembaruan. Seperti macOS untuk PC Anda, Selldone OS menangani semua sisi teknis bisnis Anda.",
+    "orders_management": "Manajemen Pesanan",
+    "online_pos": "POS Online",
+    "shipping": "Pengiriman",
+    "inventory_management": "Manajemen persediaan",
+    "social_commerce": "Perdagangan Sosial",
+    "in_store_sell": "Jual di dalam toko",
+    "team": "Tim / Staf",
+    "incentives": "Insentif / Loyalitas",
+    "community": "Manajemen Komunitas",
+    "payments": "Pembayaran Lokal",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Tidak—plugin"
 };

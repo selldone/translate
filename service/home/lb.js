@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Wäiss Label / Flexibel / Déif personaliséierbar.",
-      "msg1": "Designt Är Landungssäiten, a ännert d'Themafaarf vun Ärem Site ugepasst op Är Markemeldung. Drag and Drop Feature mécht all dëst méiglech ouni de Besoin en Expert ze astellen."
+      "msg1": "Designt Är Landungssäiten, a ännert d'Themafaarf vun Ärem Site ugepasst op Är Markemeldung. Drag and Drop Feature mécht all dëst méiglech ouni de Besoin en Expert ze astellen.",
+      "view_sample_pages": "Grouss SD Stores fir Iech ze inspiréieren"
     },
     "step4": {
       "title": "One-Click Checkout: Unified Checkout Experience ronderëm d'Welt.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Einfach Online Shopping Websäit Builder + Direkt Bezuelung.",
-    "subtitle": "Wann Dir plangt e rentabelt Online Geschäft ze bauen an Är Geschäftsiddi an eng Realitéit ze maachen, ass Selldone eng perfekt Wiel."
+    "subtitle": "Wann Dir plangt e rentabelt Online Geschäft ze bauen an Är Geschäftsiddi an eng Realitéit ze maachen, ass Selldone eng perfekt Wiel.",
+    "pacman": "Bezuelen Plugins"
   },
   "os": {
     "title": "Zougang zu Weltklass Tools - Gratis.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Liwwerung",
     "fulfilment": "Erfëllung",
     "community": "Gemeinschaft & Feedback"
-  }
+  },
+  "select_language_dialog_title": "Maacht Äre Betrib an Ärer Liiblingssprooch",
+  "welcome_title": "Bauen, verwalten a skala Äert Geschäft visuell",
+  "welcome_subtitle": "Maacht Ären Online Geschäft mat kee Code & keng Expert erfuerderlech Léisung fir Millioune Bestellungen.",
+  "your_shop": "Äre Storefront",
+  "your_dashboard": "Äre Back Office",
+  "flow": {
+    "title": "Benotzerdefinéiert Kasse Flux.",
+    "subtitle": "Designt Är Clientsrees a kaaft Flow an Experimenter Resultater.",
+    "pacman": "Checkout Plugins"
+  },
+  "business_model": {
+    "title": "Visuell Geschäftsmodell Adoptioun.",
+    "subtitle": "Setzt Äre Geschäftsmodell visuell op, all Komplexitéit gëtt hannert der Szen ofgestëmmt.",
+    "pacman": "Maartplaz & POD Plugins"
+  },
+  "team": {
+    "title": "Trefft d'Team.",
+    "msg": "Mir wäerten duerch verschidde Regelen am brutale Beräich vun commerce Plattformen Spill, virun allem wann eis Konkurrenten Millioune Dollar op Reklammen verbréngen; mir investéieren an de Produit, Leit, an real Problemer léisen. Dëst Team zréck Äre Betrib!"
+  },
+  "customers": {
+    "title": "Trefft eis Gemeinschaft.",
+    "msg": "Et ass just den Ufank vun enger Rees fir sënnvoll Tools ze bauen fir zukünfteg Entrepreneuren ze spären andeems Dir vun eise Clienten léiert."
+  },
+  "panorama": {
+    "title": "Kee deiere Plugin, <b class=\"font-weight-bold\">All Feature virgebaut</b>",
+    "msg": "Kee Grond fir Honnerte vun Dollar op Plugins an Apps all Mount ze verbréngen a Suergen iwwer d'Aktualiséierungen. Wéi macOS fir Äre PC këmmert Selldone OS all technesch Säiten vun Ärem Geschäft.",
+    "orders_management": "Commande Management",
+    "online_pos": "Online POS",
+    "shipping": "Liwwerung",
+    "inventory_management": "Stamminventar Gestioun",
+    "social_commerce": "Sozial Commerce",
+    "in_store_sell": "Am Geschäft verkafen",
+    "team": "Team / Staff",
+    "incentives": "Ureizer / Loyalitéit",
+    "community": "Communautéit Gestioun",
+    "payments": "Lokal Bezuelungen",
+    "ar_3d": "3D/AR"
+  },
+  "no_plugin": "Nee - Plugin"
 };

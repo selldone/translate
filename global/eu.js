@@ -908,7 +908,7 @@ export default {
     "#00582F": "Hosto iraunkorrekoa",
     "#214C30": "Basoa",
     "#DC2867": "Fuksia",
-    "#38561": "Kelly",
+    "#38561F" :"Kelly",
     "#5C884D": "Hostoa",
     "#558450": "Aqua argia",
     "#96B5C9": "Urdin argia",

@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Balta etiketė / Lanksti / Giliai pritaikoma.",
-      "msg1": "Sukurkite nukreipimo puslapius ir pakeiskite svetainės temos spalvą pagal prekės ženklo pranešimą. „Drag and Drop“ funkcija leidžia visa tai padaryti nesamojant eksperto."
+      "msg1": "Sukurkite nukreipimo puslapius ir pakeiskite svetainės temos spalvą pagal prekės ženklo pranešimą. „Drag and Drop“ funkcija leidžia visa tai padaryti nesamojant eksperto.",
+      "view_sample_pages": "Puikios SD parduotuvės, kurios jus įkvėps"
     },
     "step4": {
       "title": "Atsiskaitymas vienu paspaudimu: vieninga atsiskaitymo patirtis visame pasaulyje.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Lengvas apsipirkimo internetu svetainių kūrėjas + tiesioginis mokėjimas.",
-    "subtitle": "Jei planuojate kurti pelningą internetinį verslą ir savo verslo idėją paversti realybe, Selldone yra puikus pasirinkimas."
+    "subtitle": "Jei planuojate kurti pelningą internetinį verslą ir savo verslo idėją paversti realybe, Selldone yra puikus pasirinkimas.",
+    "pacman": "Mokėjimo papildiniai"
   },
   "os": {
     "title": "Prieiga prie pasaulinio lygio įrankių – nemokama.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Siuntimas",
     "fulfilment": "Išsipildymas",
     "community": "Bendruomenė ir atsiliepimai"
-  }
+  },
+  "select_language_dialog_title": "Atlikite savo verslą mėgstama kalba",
+  "welcome_title": "Kurkite, valdykite ir vizualiai padidinkite savo verslą",
+  "welcome_subtitle": "Padarykite savo internetinę parduotuvę be kodo ir be eksperto reikalingo sprendimo milijonams užsakymų.",
+  "your_shop": "Jūsų parduotuvės filialas",
+  "your_dashboard": "Jūsų Back Office",
+  "flow": {
+    "title": "Pritaikomas atsiskaitymo srautas.",
+    "subtitle": "Sukurkite savo klientų kelionę ir pirkimo srautą bei eksperimentų rezultatus.",
+    "pacman": "Patikrinimo papildiniai"
+  },
+  "business_model": {
+    "title": "Vizualiai verslo modelio pritaikymas.",
+    "subtitle": "Vizualiai nustatykite savo verslo modelį, visas sudėtingumas bus suderintas užkulisiuose.",
+    "pacman": "Marketplace ir POD papildiniai"
+  },
+  "team": {
+    "title": "Susipažink su komanda.",
+    "msg": "Žaisime pagal skirtingas taisykles žiaurioje prekybos platformų srityje, ypač kai mūsų konkurentai reklamai išleidžia milijonus dolerių; investuojame į produktą, žmones ir realių problemų sprendimą. Ši komanda palaiko jūsų verslą!"
+  },
+  "customers": {
+    "title": "Susipažinkite su mūsų bendruomene.",
+    "msg": "Tai tik kelionės pradžia kuriant prasmingus įrankius, padėsiančius atrakinti būsimus verslininkus, mokantis iš mūsų klientų."
+  },
+  "panorama": {
+    "title": "Jokio brangaus papildinio, <b class=\"font-weight-bold\">visos funkcijos yra iš anksto sukurtos</b>",
+    "msg": "Nereikia kiekvieną mėnesį išleisti šimtų dolerių įskiepiams ir programoms ir nerimauti dėl atnaujinimų. Kaip ir jūsų asmeniniam kompiuteriui skirta „macOS“, „Selldone OS“ rūpinasi visomis techninėmis jūsų verslo pusėmis.",
+    "orders_management": "Užsakymų valdymas",
+    "online_pos": "Internetinė POS",
+    "shipping": "Siuntimas",
+    "inventory_management": "Atsargų valdymas",
+    "social_commerce": "Socialinė komercija",
+    "in_store_sell": "Parduodu parduotuvėje",
+    "team": "Komanda / personalas",
+    "incentives": "Paskatos / lojalumas",
+    "community": "Bendruomenės valdymas",
+    "payments": "Vietiniai mokėjimai",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Ne – papildinys"
 };

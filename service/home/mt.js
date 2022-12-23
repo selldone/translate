@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Tikketta bajda / Flessibbli / Personalizzabbli ħafna.",
-      "msg1": "Iddisinja l-paġni tal-inżul tiegħek, u biddel il-kulur tat-tema tas-sit tiegħek imfassal għall-messaġġ tal-marka tiegħek. Il-karatteristika Drag and Drop tagħmel dan kollu possibbli mingħajr il-ħtieġa li timpjega espert."
+      "msg1": "Iddisinja l-paġni tal-inżul tiegħek, u biddel il-kulur tat-tema tas-sit tiegħek imfassal għall-messaġġ tal-marka tiegħek. Il-karatteristika Drag and Drop tagħmel dan kollu possibbli mingħajr il-ħtieġa li timpjega espert.",
+      "view_sample_pages": "Ħwienet kbar SD biex Jispirawk"
     },
     "step4": {
       "title": "Iċċekkja waħda: Esperjenza ta' checkout unifikata madwar id-dinja.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Bennej ta 'websajt ta' xiri onlajn faċli + Ħlas dirett.",
-    "subtitle": "Jekk qed tippjana li tibni negozju online profitabbli u ddawwar l-idea tan-negozju tiegħek f'realtà, Selldone hija għażla perfetta."
+    "subtitle": "Jekk qed tippjana li tibni negozju online profitabbli u ddawwar l-idea tan-negozju tiegħek f'realtà, Selldone hija għażla perfetta.",
+    "pacman": "Plugins tal-Ħlas"
   },
   "os": {
     "title": "Aċċess għal għodod ta' klassi dinjija — B'xejn.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Tbaħħir",
     "fulfilment": "Sodisfar",
     "community": "Komunità & Feedback"
-  }
+  },
+  "select_language_dialog_title": "Agħmel in-negozju tiegħek fil-lingwa favorita tiegħek",
+  "welcome_title": "Ibni, immaniġġja, u skala n-negozju tiegħek viżwalment",
+  "welcome_subtitle": "Agħmel il-ħanut online tiegħek b'soluzzjoni bla kodiċi u mingħajr espert meħtieġ għal miljuni ta' ordnijiet.",
+  "your_shop": "Storefront tiegħek",
+  "your_dashboard": "Back Office tiegħek",
+  "flow": {
+    "title": "Fluss ta 'checkout customizable.",
+    "subtitle": "Iddisinja l-vjaġġ tal-klijent tiegħek u tixtri r-riżultati tal-fluss u tal-esperimenti.",
+    "pacman": "Checkout Plugins"
+  },
+  "business_model": {
+    "title": "Adozzjoni tal-mudell tan-negozju viżwalment.",
+    "subtitle": "Issettja l-mudell tan-negozju tiegħek viżwalment, il-kumplessità kollha se tiġi rranġata wara l-xena.",
+    "pacman": "Plugins tas-Suq & POD"
+  },
+  "team": {
+    "title": "Iltaqa' mat-tim.",
+    "msg": "Aħna se logħba b'regoli differenti fil-qasam brutali tal-pjattaformi tal-kummerċ, speċjalment meta l-kompetituri tagħna jonfqu miljuni ta 'dollari fuq ir-reklamar; ninvestu fil-prodott, in-nies, u nsolvu problemi reali. Dan it-tim lura n-negozju tiegħek!"
+  },
+  "customers": {
+    "title": "Iltaqa' mal-komunità tagħna.",
+    "msg": "Huwa biss il-bidu ta' vjaġġ biex nibnu għodod sinifikanti biex nisfruttaw intraprendituri futuri billi nitgħallmu mill-klijenti tagħna."
+  },
+  "panorama": {
+    "title": "L-ebda plugin għali, <b class=\"font-weight-bold\">Il-karatteristiċi kollha mibnija minn qabel</b>",
+    "msg": "M'hemmx għalfejn tonfoq mijiet ta 'dollari fuq plugins u apps kull xahar u tinkwieta dwar l-aġġornamenti. Bħal macOS għall-PC tiegħek, Selldone OS jieħu ħsieb in-naħat tekniċi kollha tan-negozju tiegħek.",
+    "orders_management": "Ġestjoni ta' Ordnijiet",
+    "online_pos": "POS onlajn",
+    "shipping": "Tbaħħir",
+    "inventory_management": "Ġestjoni tal-inventarju",
+    "social_commerce": "Kummerċ Soċjali",
+    "in_store_sell": "Biegħ fil-maħżen",
+    "team": "Tim / Persunal",
+    "incentives": "Inċentivi / Lealtà",
+    "community": "Ġestjoni tal-Komunità",
+    "payments": "Ħlasijiet Lokali",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Le—plugin"
 };

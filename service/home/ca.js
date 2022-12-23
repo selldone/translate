@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Marca blanca / Flexible / Profundament personalitzable.",
-      "msg1": "Dissenyeu les vostres pàgines de destinació i canvieu el color del tema del vostre lloc adaptat al missatge de la vostra marca. La funció d'arrossegar i deixar anar fa que tot això sigui possible sense la necessitat de contractar un expert."
+      "msg1": "Dissenyeu les vostres pàgines de destinació i canvieu el color del tema del vostre lloc adaptat al missatge de la vostra marca. La funció d'arrossegar i deixar anar fa que tot això sigui possible sense la necessitat de contractar un expert.",
+      "view_sample_pages": "Grans botigues SD per inspirar-vos"
     },
     "step4": {
       "title": "Pagament amb un sol clic: experiència de compra unificada a tot el món.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Creador de llocs web de compres en línia fàcil + Pagament directe.",
-    "subtitle": "Si teniu previst construir un negoci en línia rendible i convertir la vostra idea de negoci en una realitat, Selldone és una opció perfecta."
+    "subtitle": "Si teniu previst construir un negoci en línia rendible i convertir la vostra idea de negoci en una realitat, Selldone és una opció perfecta.",
+    "pacman": "Connectors de pagament"
   },
   "os": {
     "title": "Accés a eines de classe mundial — Gratuït.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Enviament",
     "fulfilment": "Realització",
     "community": "Comunitat i comentaris"
-  }
+  },
+  "select_language_dialog_title": "Feu el vostre negoci en el vostre idioma preferit",
+  "welcome_title": "Construeix, gestiona i escala el teu negoci visualment",
+  "welcome_subtitle": "Feu la vostra botiga en línia amb una solució sense codi i sense necessitat d'experts per a milions de comandes.",
+  "your_shop": "La teva botiga",
+  "your_dashboard": "El teu Back Office",
+  "flow": {
+    "title": "Flux de pagament personalitzable.",
+    "subtitle": "Dissenyeu el vostre recorregut del client i el flux de compres i els resultats de l'experimentació.",
+    "pacman": "Connectors de pagament"
+  },
+  "business_model": {
+    "title": "Adopció visual del model de negoci.",
+    "subtitle": "Configureu el vostre model de negoci visualment, tota la complexitat s'ajustarà darrere de l'escena.",
+    "pacman": "Connectors de mercat i POD"
+  },
+  "team": {
+    "title": "Coneix l'equip.",
+    "msg": "Jugarem amb diferents regles en el brutal camp de les plataformes de comerç, sobretot quan els nostres competidors gasten milions de dòlars en publicitat; invertim en el producte, les persones i la solució de problemes reals. Aquest equip recolza el teu negoci!"
+  },
+  "customers": {
+    "title": "Coneix la nostra comunitat.",
+    "msg": "És només l'inici d'un viatge per crear eines significatives per desbloquejar futurs emprenedors aprenent dels nostres clients."
+  },
+  "panorama": {
+    "title": "Cap connector costós, <b class=\"font-weight-bold\">totes les funcions preconstruïdes</b>",
+    "msg": "No cal gastar centenars de dòlars en complements i aplicacions cada mes i preocupar-se per les actualitzacions. Igual que macOS per al vostre ordinador, Selldone OS s'encarrega de tots els aspectes tècnics del vostre negoci.",
+    "orders_management": "Gestió de comandes",
+    "online_pos": "TPV en línia",
+    "shipping": "Enviament",
+    "inventory_management": "Gestió d'inventari",
+    "social_commerce": "Comerç Social",
+    "in_store_sell": "Venda a la botiga",
+    "team": "Equip / Personal",
+    "incentives": "Incentius / Fidelitat",
+    "community": "Gestió comunitària",
+    "payments": "Pagaments locals",
+    "ar_3d": "3D/AR"
+  },
+  "no_plugin": "No, connector"
 };

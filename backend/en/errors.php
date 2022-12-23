@@ -268,6 +268,11 @@ return [
     //――――――――――――――――――― Application ――――――――――――――――――
     'APPLICATION_BUILD_INVALID_MIN_VERSION'=>"The application version must be bigger than the previous version! Latest version: :version",
 
+    //――――――――――――――――――― Product ――――――――――――――――――
+    'NOT_FOUND_LOGISTIC_PROFILE_ERROR'=>"The logistic profile not found!",
+    'NOT_FOUND_TAX_PROFILE_ERROR'=>"The tax profile not found!",
+    'NOT_FOUND_MAP_TAG_PROFILE_ERROR'=>"The location tag not found!",
+
 
 
     //――――――――――――――――――― Vendor ――――――――――――――――――

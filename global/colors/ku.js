@@ -45,7 +45,7 @@ export default {
   "#00582F": "Evergreen",
   "#214C30": "Daristan",
   "#DC2867": "Fuchsia",
-  "#38561": "Kelly",
+  "#38561F" :"Kelly",
   "#5C884D": "Pel",
   "#558450": "Ronahî Aqua",
   "#96B5C9": "Şînê vebûyî",

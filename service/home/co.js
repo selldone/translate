@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Etichetta bianca / Flessibile / Profondamente persunalizabile.",
-      "msg1": "Cuncepisce e vostre pagine di destinazione, è cambia u culore di u tema di u vostru situ adattatu à u vostru missaghju di marca. A funzione Drag and Drop rende tuttu questu pussibule senza avè bisognu di cuntrullà un espertu."
+      "msg1": "Cuncepisce e vostre pagine di destinazione, è cambia u culore di u tema di u vostru situ adattatu à u vostru missaghju di marca. A funzione Drag and Drop rende tuttu questu pussibule senza avè bisognu di cuntrullà un espertu.",
+      "view_sample_pages": "Grandi magazzini SD per inspirà voi"
     },
     "step4": {
       "title": "Checkout in un clic: Esperienza di pagamentu unificata in u mondu.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Custruttore di siti web di shopping in linea faciule + Pagamentu direttu.",
-    "subtitle": "Se pensa à custruisce un affari in linea prufittu è trasfurmà a vostra idea di cummerciale in una realità, Selldone hè una scelta perfetta."
+    "subtitle": "Se pensa à custruisce un affari in linea prufittu è trasfurmà a vostra idea di cummerciale in una realità, Selldone hè una scelta perfetta.",
+    "pacman": "Plugins di pagamentu"
   },
   "os": {
     "title": "Accessu à arnesi di prima classe - Gratuitu.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "spedizione",
     "fulfilment": "Cumplimentu",
     "community": "Cumunità & Feedback"
-  }
+  },
+  "select_language_dialog_title": "Fate a vostra attività in a vostra lingua preferita",
+  "welcome_title": "Custruite, gestisce è scala a vostra attività visualmente",
+  "welcome_subtitle": "Fate a vostra tenda in linea cù una soluzione senza codice è senza espertu per milioni di ordini.",
+  "your_shop": "U vostru Storefront",
+  "your_dashboard": "U vostru Back Office",
+  "flow": {
+    "title": "Flussu di checkout persunalizabile.",
+    "subtitle": "Cuncepisce u vostru viaghju di u cliente è cumprà u flussu è sperimentà risultati.",
+    "pacman": "Checkout Plugins"
+  },
+  "business_model": {
+    "title": "Adopzione visuale di mudellu di cummerciale.",
+    "subtitle": "Configurate u vostru mudellu di cummerciale visualmente, tutta a cumplessità serà sintonizzata daretu à a scena.",
+    "pacman": "Mercatu è plugins POD"
+  },
+  "team": {
+    "title": "Incuntrà a squadra.",
+    "msg": "Avemu da ghjucà da diverse regule in u brutale campu di e plataforme di cummerciale, soprattuttu quandu i nostri cuncurrenti spende milioni di dollari in publicità; Investemu in u pruduttu, e persone, è risolve i prublemi veri. Questa squadra torna a vostra attività!"
+  },
+  "customers": {
+    "title": "Scuntrà a nostra cumunità.",
+    "msg": "Hè solu u principiu di un viaghju per custruisce strumenti significativi per sbloccare futuri imprenditori imparendu da i nostri clienti."
+  },
+  "panorama": {
+    "title": "Nisun plugin caru, <b class=\"font-weight-bold\">Tutte e funzioni pre-custruite</b>",
+    "msg": "Ùn ci hè bisognu di spende centinaie di dollari in plugins è app ogni mese è preoccupatevi di l'aghjurnamenti. Cum'è macOS per u vostru PC, Selldone OS cura di tutti i lati tecnichi di a vostra attività.",
+    "orders_management": "Gestione di ordini",
+    "online_pos": "POS in linea",
+    "shipping": "spedizione",
+    "inventory_management": "Gestione di l'inventariu",
+    "social_commerce": "Cummerciu suciale",
+    "in_store_sell": "Vende in a tenda",
+    "team": "Squadra / Staff",
+    "incentives": "Incentivi / Fideltà",
+    "community": "Gestione di a cumunità",
+    "payments": "Pagamenti lucali",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "No - plugin"
 };

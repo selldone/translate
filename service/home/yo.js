@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Aami funfun / rọ / asefara jinna.",
-      "msg1": "Ṣe apẹrẹ awọn oju-iwe ibalẹ rẹ, ki o yi awọ akori ti aaye rẹ pada si ifiranṣẹ ami iyasọtọ rẹ. Fa ati Ju ẹya jẹ ki gbogbo eyi ṣee ṣe laisi iwulo lati bẹwẹ alamọja kan."
+      "msg1": "Ṣe apẹrẹ awọn oju-iwe ibalẹ rẹ, ki o yi awọ akori ti aaye rẹ pada si ifiranṣẹ ami iyasọtọ rẹ. Fa ati Ju ẹya jẹ ki gbogbo eyi ṣee ṣe laisi iwulo lati bẹwẹ alamọja kan.",
+      "view_sample_pages": "Awọn ile itaja SD nla lati ṣe iwuri fun ọ"
     },
     "step4": {
       "title": "Ibi isanwo-ọkan: iriri isanwo iṣọkan ni ayika agbaye.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Akole oju opo wẹẹbu rira ori ayelujara ti o rọrun + isanwo taara.",
-    "subtitle": "Ti o ba gbero lati kọ iṣowo ori ayelujara ti o ni ere ati tan imọran iṣowo rẹ si otitọ, Selldone jẹ yiyan pipe."
+    "subtitle": "Ti o ba gbero lati kọ iṣowo ori ayelujara ti o ni ere ati tan imọran iṣowo rẹ si otitọ, Selldone jẹ yiyan pipe.",
+    "pacman": "Awọn afikun owo sisan"
   },
   "os": {
     "title": "Wiwọle si awọn irinṣẹ kilasi agbaye - Ọfẹ.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Gbigbe",
     "fulfilment": "Ìmúṣẹ",
     "community": "Agbegbe & Esi"
-  }
+  },
+  "select_language_dialog_title": "Ṣe iṣowo rẹ ni ede ayanfẹ rẹ",
+  "welcome_title": "Kọ, ṣakoso, ati iwọn iṣowo rẹ ni wiwo",
+  "welcome_subtitle": "Ṣe ile itaja ori ayelujara rẹ nipasẹ ko si koodu & ko si amoye ti o nilo ojutu fun awọn miliọnu awọn aṣẹ.",
+  "your_shop": "Iwaju Ile itaja rẹ",
+  "your_dashboard": "Rẹ Back Office",
+  "flow": {
+    "title": "Ṣiṣan isanwo isanwo asefara.",
+    "subtitle": "Ṣe ọnà rẹ onibara irin ajo ati ki o ra sisan ati ṣàdánwò esi.",
+    "pacman": "Ṣayẹwo Awọn afikun"
+  },
+  "business_model": {
+    "title": "Iboju iṣowo awoṣe olomo.",
+    "subtitle": "Ṣeto awoṣe iṣowo rẹ ni wiwo, gbogbo idiju yoo wa ni aifwy lẹhin iṣẹlẹ naa.",
+    "pacman": "Ibi ọja & Awọn afikun POD"
+  },
+  "team": {
+    "title": "Pade egbe.",
+    "msg": "A yoo ṣe ere nipasẹ awọn ofin oriṣiriṣi ni aaye ti o buruju ti awọn iru ẹrọ iṣowo, paapaa nigbati awọn oludije wa lo awọn miliọnu dọla lori ipolowo; a nawo ni ọja, eniyan, ati lohun gidi isoro. Ẹgbẹ yii ṣe afẹyinti iṣowo rẹ!"
+  },
+  "customers": {
+    "title": "Pade agbegbe wa.",
+    "msg": "O jẹ ibẹrẹ ti irin-ajo lati kọ awọn irinṣẹ to nilari lati ṣii awọn iṣowo iwaju nipasẹ kikọ ẹkọ lati ọdọ awọn alabara wa."
+  },
+  "panorama": {
+    "title": "Ko si ohun itanna ti o niyelori, <b class=\"font-weight-bold\">Gbogbo awọn ẹya ti a ti kọ tẹlẹ</b>",
+    "msg": "Ko si iwulo lati lo awọn ọgọọgọrun dọla lori awọn afikun ati awọn lw ni oṣu kọọkan ati ṣe aibalẹ nipa awọn imudojuiwọn. Bii macOS fun PC rẹ, Selldone OS ṣe itọju gbogbo awọn ẹgbẹ imọ-ẹrọ ti iṣowo rẹ.",
+    "orders_management": "Iṣakoso bibere",
+    "online_pos": "POS ori ayelujara",
+    "shipping": "Gbigbe",
+    "inventory_management": "Oja isakoso",
+    "social_commerce": "Iṣowo Awujọ",
+    "in_store_sell": "Ni-itaja Ta",
+    "team": "Ẹgbẹ / Oṣiṣẹ",
+    "incentives": "Awọn imoriya / Iṣootọ",
+    "community": "Community Management",
+    "payments": "Awọn sisanwo Agbegbe",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Rara-afikun"
 };

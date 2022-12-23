@@ -97,6 +97,8 @@ export default {
     up_to: "تا {per_order} مرتبه در هر سفارش",
     get_free: "رایگان",
     get_off: "تا {percent}% تخفیف بگیرید",
+    select_a_vendor_message:"لطفا یک فروشنده را انتخاب نمایید.",
+
   },
 
   /** @see BuyButton **/
@@ -111,6 +113,10 @@ export default {
     remove: "حذف",
     add_to_basket: "افزودن به سبد خرید",
     buy: "خرید",
+    subscribe_now:'مشترک شدن',
+    unsubscribe:'لغو اشتراک',
+    select_a_subscription_plan:'یک پلن را انتخاب کنید!',
+    manage_subscriptions:'مدیریت اشتراک',
     notifications: {
       inform_add_success: "هر وقت موجود شد خبرتان می کنیم.",
       inform_remove_success: "از لیست در انتظار موجود شدن خارج شدید.",
@@ -366,14 +372,26 @@ export default {
       select_billing_country: "کشور  برای صدور صورتحساب خود را انتخاب کنید",
       select_billing_state: "منطقه مالیاتی خود را انتخاب کنید",
     },
-    same_billing_address: "اطلاعات صورتحساب همان اطلاعات دریافت کننده است",
-    custom_billing_info: "ورود اطلاعات صورتحساب",
+    same_billing_address: "آدرس مشابه برای صورت حساب",
+    same_billing_address_desc: "آدرس صورتحساب همان آدرس ارسال است.",
+
+    custom_billing_info: "آدرس متفاوت برای صورت حساب",
+    custom_billing_info_desc: "می توانید شماره مالیات خود را وارد کنید و آدرس دیگری را برای صورتحساب تنظیم کنید.",
+
     basket_empty: "سبد خالی است",
     extra_shipping_count: "شما {count} بسته دریافت خواهید کرد.",
     extra_shipping_message:
       "در سریعترین زمان ممکن پس از آماده سازی سفارش تان، بسته های سفارش برای شما ارسال خواهد شد. ممکن است بسته ها در زمان های متفاوتی به دست شما برسد.",
     select_location_error:
       "محل دریافت مرسوله را بر روی نقشه یافته و بر روی نشانگر وسط نقشه کلیک نمایید تا آدرس دقیق دریافت کننده مشخص شود.",
+
+
+    billing_business_desc:"این یک حساب تجاری با شماره مالیات است.",
+     billing_personal_desc:"این یک حساب شخصی است.",
+
+     no_billing_title:"بدون صورتحساب",
+     no_billing_desc:'خالی رها کردن آدرس صورت حساب.'
+
   },
 
   /** {@see BasketListItems} **/

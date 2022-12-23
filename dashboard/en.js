@@ -7,6 +7,8 @@ export default {
     start_free: "Start free",
     featured_apps: "Featured apps",
     more_apps: "More apps",
+    my_public_profile: "My public profile page",
+
   },
 
   numbers: {
@@ -816,15 +818,15 @@ export default {
 
           pricing: "Calculate Price",
           const_input: "Fixed cost",
-          distance_cof_input: "Cost-to-distance coefficient",
+          distance_cof_input: "Distance factor",
           distance_cof_input_dim: "Per {dim}",
-          weight_cof_input: "Cost-to-weight factor",
+          weight_cof_input: "Weight factor",
           weight_cof_input_dim: "Per {dim}",
-          price_cof_input: "Shipping cost to product price factor",
+          price_cof_input: "Order price factor",
           price_cof_input_message:
             "Includes insurance costs and other services such as COD costs.",
           price_cof_input_dim: "Per {dim}",
-          distance_weight_cof_input: "Cost multiplier by weight multiplier",
+          distance_weight_cof_input: "Distance 🞬 Weight factor",
           distance_weight_cof_input_dim: "For every {weight} per {distance}",
           free_shipping_input: "Free shipping",
           free_shipping_limit_input: "Minimum order cost for free shipping",
@@ -1304,7 +1306,7 @@ export default {
       product_name_placeholder: "Your product name here..",
       product_code: "Product code (English)",
       sku: "SKU",
-      sku_message: "Stock keeping unit",
+      sku_message: "Stock Keeping Unit",
       mpn: "MPN",
       mpn_message: "Manufacturer Part Number",
       status: "Status",
@@ -1344,6 +1346,23 @@ export default {
           description: "This product will not be available for online orders.",
         },
       },
+
+
+
+      marketplace:{
+        // Vendor panel > Fixed mode
+        vendor_panel_message:"The <b> {vendor_name} </b> is the owner of the product.",
+        // Marketplace panel > Subscription products
+        subscription_message:"Subscription products can have one vendor, so you can create them in the vendor panel or assign a vendor to them on the creation step. The selected vendor will be the owner of the product.",
+        default_message:"You can specify whether this product belongs to one vendor and therefore only one vendor can sell it, or this product belongs to Marketplace and more than one vendor can sell it.",
+
+        single_vendor_title:"Single vendor",
+        single_vendor_desc:"This product belongs to a vendor, and the selected vendor can manage it.",
+
+        multi_vendors_title:"Multiple vendors",
+        multi_vendors_desc:"This product belongs to the marketplace and only can be edited in the marketplace panel."
+
+      }
     },
 
     /** {@see ProductEditRatingsProsCons} **/
@@ -1559,6 +1578,9 @@ export default {
         chart: {
           labels: ["Inventory", "Sale"],
         },
+        subscribers_title: "Subscribers",
+        subscribers_title_small: "Total subscribed orders",
+
       },
 
       /** {@see ProductFinanceWidget} **/
@@ -1642,7 +1664,7 @@ export default {
       /** {@see ProductVariantAddEdit} **/
       variant_add_edit: {
         title: "Defining Product Variant",
-        message: "Product Number Unique",
+        message: "Unique Product Variant Code",
         active_input: "Is this Variant active?",
         sku: "SKU",
         sku_tips: "Product Warehouse Code.",
@@ -2180,7 +2202,7 @@ export default {
     title_add: "Add item to product",
     sub_title: "Creating and Editing Virtual Products",
     message:
-      "The store manager can show buyer the value after the payment. These values must be entered in the form below. The structure of this form is set in the Edit Item> Edit Output Information section. ",
+      "After the payment is completed, we will send the virtual item values to the buyer. You can set the structure of this form in the Product >Edit > Output tab.",
     edit_outputs: "Edit output form",
     notifications: {
       edit_success: "Item edited.",
@@ -3641,9 +3663,7 @@ export default {
     deposit: {
       form: {
         title: "Charging Account",
-
-        sub_title:
-          "You must charge your account balance to purchase licenses, upgrade your account and pay system receipts.",
+        sub_title: "You need to top-up your account balance to purchase licenses, upgrade your account and pay system receipts.",
         amount_input: "Amount",
         charge_action: "Charge Account",
       },
@@ -3838,9 +3858,9 @@ export default {
       personal_information: "Personal Information and Profile",
       wallet: "Wallets & Accounts",
       companies: "Companies & Businesses",
-      access: "Access to My Account",
-      security: "Security",
-      preferences: "User Preferences",
+      access: "Developers & API Keys",
+      security: "Account Security",
+      preferences: "User Preferences & Personalization",
     },
   },
 
@@ -4652,11 +4672,13 @@ export default {
     tax_number_message:
       "Enter your tax number. This registration number will be recorded in the buyer's invoice.",
 
-    tax_included_in_price_input: "Tax included in products price",
-    tax_included_in_price_message:
-      "Select this option if you include the tax amount in the price of your product. The tax amount will be calculated with the following formula:",
-    tax_included_in_price_formula:
-      "Tax = (price * VAT) / (1 + VAT), for example, the amount of tax for a product at a price of 100$ with a value added rate of 10% becomes 9.09$.",
+    tax_included_in_price_input: "Included | Tax included in products price",
+    tax_included_in_price_message: "Select this option if you include the tax amount in the price of your product. The tax amount will be calculated with the following formula.",
+    tax_included_in_price_formula: "Tax = (price * VAT) / (1 + VAT), for example, the amount of tax for a product at a price of 100$ with a value added rate of 10% becomes 9.09$.",
+
+    tax_exclude_title: "Excluded | Tax will be added at checkout",
+    tax_excluded_message:"The taxes will be calculated before the payments during the checkout and added to the excluded tax price depending on your customer evidence.",
+
 
     tax_on_shipping_input: "Apply taxes to shipping",
     tax_on_shipping_message:
@@ -4997,6 +5019,7 @@ export default {
     light_checkout: "Checkout theme",
     light_header: "Header theme",
     light_footer: "Footer theme",
+    light_filter: "Category filter theme",
 
     product_page: "Product Page",
     typography: "Typography",
@@ -5904,7 +5927,7 @@ export default {
     hyper: "Received Orders",
   },
 
-  /** {@see ProductFileVariantsList} **/
+  /** {@see ProductFilesManagement} **/
   product_file: {
     no_file: "No file uploaded yet!",
     delete_dialog: {
@@ -6213,21 +6236,21 @@ export default {
   business_model_view: {
     normal: {
       title: "Normal Store",
-      desc: "Commonly an SME, home business, or dropshipper - who sells their product directly to customers or sells wholesalers' products as a reseller.",
+      desc: "Typically a small or medium-sized enterprise, home business, or dropshipper - selling products directly to customers or reselling products from wholesalers.",
     },
 
     dropshipping: {
       title: "Dropshipping",
-      desc: "Keep no product and no inventory - you pay to a third party, usually a wholesaler (like Printify, Wholesale2B, ...) or manufacturer, and they fulfill orders behind the scene.",
+      desc: "Outsource the fulfillment of orders by paying a third party, such as a wholesaler or manufacturer, to handle inventory and product management behind the scenes.",
     },
 
     wholesaler: {
       title: "Dropshipping Supplier",
-      desc: "Commonly a wholesaler or a manufacturer – who ships orders directly to the end consumer. Other merchants on Selldone can dropship your products in their stores.",
+      desc: "A wholesaler or manufacturer commonly ships orders directly to the end consumer. Other merchants on Selldone can also sell your products in their stores through the dropshipping model.",
     },
     marketplace: {
       title: "Marketplace",
-      desc: "Online marketplaces connect buyers and sellers on a proprietary and centralized platform.",
+      desc: "Online marketplaces connect buyers and sellers on a platform that is owned and controlled by a single company.",
     },
 
     franchise: {

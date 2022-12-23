@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Marca branca / Flexible / Profundamente personalizable.",
-      "msg1": "Deseña as túas páxinas de destino e cambia a cor do tema do teu sitio adaptado á mensaxe da túa marca. A función de arrastrar e soltar fai que todo isto sexa posible sen necesidade de contratar un experto."
+      "msg1": "Deseña as túas páxinas de destino e cambia a cor do tema do teu sitio adaptado á mensaxe da túa marca. A función de arrastrar e soltar fai que todo isto sexa posible sen necesidade de contratar un experto.",
+      "view_sample_pages": "Grandes tendas SD para inspirarte"
     },
     "step4": {
       "title": "Pago cun só clic: experiencia de pago unificada en todo o mundo.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Creador de sitios web de compras en liña fáciles + Pago directo.",
-    "subtitle": "Se planeas construír un negocio en liña rendible e converter a túa idea de negocio nunha realidade, Selldone é a opción perfecta."
+    "subtitle": "Se planeas construír un negocio en liña rendible e converter a túa idea de negocio nunha realidade, Selldone é a opción perfecta.",
+    "pacman": "Complementos de pago"
   },
   "os": {
     "title": "Acceso a ferramentas de clase mundial: gratuíto.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Envío",
     "fulfilment": "Cumprimento",
     "community": "Comunidade e comentarios"
-  }
+  },
+  "select_language_dialog_title": "Fai o teu negocio no teu idioma favorito",
+  "welcome_title": "Crea, xestiona e escala o teu negocio visualmente",
+  "welcome_subtitle": "Fai a túa tenda en liña cunha solución sen código e sen necesidade de expertos para millóns de pedidos.",
+  "your_shop": "O teu escaparate",
+  "your_dashboard": "O teu Back Office",
+  "flow": {
+    "title": "Fluxo de pago personalizable.",
+    "subtitle": "Deseña a túa viaxe ao cliente e o fluxo de compras e os resultados dos experimentos.",
+    "pacman": "Complementos de pago"
+  },
+  "business_model": {
+    "title": "Adopción visual do modelo de negocio.",
+    "subtitle": "Configura o teu modelo de negocio visualmente, toda a complexidade axustarase detrás de escena.",
+    "pacman": "Plugins de mercado e POD"
+  },
+  "team": {
+    "title": "Coñece o equipo.",
+    "msg": "Xogaremos con diferentes regras no brutal campo das plataformas de comercio, especialmente cando os nosos competidores gastan millóns de dólares en publicidade; investimos no produto, nas persoas e na solución de problemas reais. Este equipo respalda o teu negocio!"
+  },
+  "customers": {
+    "title": "Coñece a nosa comunidade.",
+    "msg": "É só o comezo dunha viaxe para crear ferramentas significativas para desbloquear futuros emprendedores aprendendo dos nosos clientes."
+  },
+  "panorama": {
+    "title": "Sen complementos custosos, <b class=\"font-weight-bold\">todas as funcións están predefinidas</b>",
+    "msg": "Non hai que gastar centos de dólares en complementos e aplicacións cada mes e preocuparse polas actualizacións. Do mesmo xeito que macOS para o teu PC, Selldone OS encárgase de todos os aspectos técnicos da túa empresa.",
+    "orders_management": "Xestión de pedidos",
+    "online_pos": "TPV en liña",
+    "shipping": "Envío",
+    "inventory_management": "Xestión de inventarios",
+    "social_commerce": "Comercio Social",
+    "in_store_sell": "Venda na tenda",
+    "team": "Equipo / Persoal",
+    "incentives": "Incentivos/Fidelización",
+    "community": "Xestión comunitaria",
+    "payments": "Pagos locais",
+    "ar_3d": "3D/AR"
+  },
+  "no_plugin": "Non, complemento"
 };

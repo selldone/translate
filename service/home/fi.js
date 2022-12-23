@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Valkoinen etiketti / Joustava / Syvästi muokattavissa.",
-      "msg1": "Suunnittele aloitussivusi ja vaihda sivustosi teemaväri brändiviestisi mukaan. Vedä ja pudota -ominaisuus mahdollistaa tämän kaiken ilman asiantuntijan palkkaamista."
+      "msg1": "Suunnittele aloitussivusi ja vaihda sivustosi teemaväri brändiviestisi mukaan. Vedä ja pudota -ominaisuus mahdollistaa tämän kaiken ilman asiantuntijan palkkaamista.",
+      "view_sample_pages": "Upeat SD-myymälät inspiroivat sinua"
     },
     "step4": {
       "title": "Kassa yhdellä napsautuksella: yhtenäinen kassakokemus ympäri maailmaa.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Helppo verkkokauppasivuston rakentaja + suoramaksu.",
-    "subtitle": "Jos aiot rakentaa kannattavaa verkkoliiketoimintaa ja muuttaa liikeideasi todeksi, Selldone on täydellinen valinta."
+    "subtitle": "Jos aiot rakentaa kannattavaa verkkoliiketoimintaa ja muuttaa liikeideasi todeksi, Selldone on täydellinen valinta.",
+    "pacman": "Maksulaajennukset"
   },
   "os": {
     "title": "Pääsy maailmanluokan työkaluihin – ilmainen.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "laivaus",
     "fulfilment": "Täyttäminen",
     "community": "Yhteisö ja palaute"
-  }
+  },
+  "select_language_dialog_title": "Tee yrityksesi suosikkikielelläsi",
+  "welcome_title": "Rakenna, hallitse ja skaalaa liiketoimintaasi visuaalisesti",
+  "welcome_subtitle": "Tee verkkokauppasi ilman koodia ja ilman asiantuntijaa tarvitsemalla ratkaisulla miljoonille tilauksille.",
+  "your_shop": "Julkisivusi",
+  "your_dashboard": "Back Office",
+  "flow": {
+    "title": "Muokattava kassakulku.",
+    "subtitle": "Suunnittele asiakaspolkusi ja ostokulkusi sekä kokeilutulokset.",
+    "pacman": "Checkout-laajennukset"
+  },
+  "business_model": {
+    "title": "Visuaalinen liiketoimintamallin käyttöönotto.",
+    "subtitle": "Määritä liiketoimintamallisi visuaalisesti, kaikki monimutkaisuus viritetään kulissien takana.",
+    "pacman": "Marketplace- ja POD-laajennukset"
+  },
+  "team": {
+    "title": "Tapaa tiimi.",
+    "msg": "Pelaamme erilaisilla säännöillä kaupankäyntialustojen julmalla alalla, varsinkin kun kilpailijamme käyttävät miljoonia dollareita mainontaan; panostamme tuotteeseen, ihmisiin ja todellisten ongelmien ratkaisemiseen. Tämä tiimi tukee yritystäsi!"
+  },
+  "customers": {
+    "title": "Tutustu yhteisöömme.",
+    "msg": "Se on vasta alku matkalle rakentaa mielekkäitä työkaluja tulevien yrittäjien avaamiseen asiakkailtamme oppimalla."
+  },
+  "panorama": {
+    "title": "Ei kallista laajennusta, <b class=\"font-weight-bold\">kaikki ominaisuudet on valmiiksi rakennettu</b>",
+    "msg": "Sinun ei tarvitse kuluttaa satoja dollareita laajennuksiin ja sovelluksiin joka kuukausi ja murehtia päivityksistä. Kuten MacOS PC:llesi, Selldone OS huolehtii kaikista yrityksesi teknisistä puolista.",
+    "orders_management": "Tilausten hallinta",
+    "online_pos": "Online POS",
+    "shipping": "laivaus",
+    "inventory_management": "Varastonhallinta",
+    "social_commerce": "Sosiaalinen kauppa",
+    "in_store_sell": "Myymälässä Myy",
+    "team": "Joukkue / Henkilökunta",
+    "incentives": "Kannustimet / uskollisuus",
+    "community": "Yhteisön hallinta",
+    "payments": "Paikalliset maksut",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Ei – liitännäinen"
 };

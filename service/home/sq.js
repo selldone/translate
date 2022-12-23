@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Etiketë e bardhë / Fleksibël / Thellësisht e personalizueshme.",
-      "msg1": "Dizajnoni faqet tuaja të uljes dhe ndryshoni ngjyrën e temës së faqes suaj të përshtatur me mesazhin tuaj të markës. Funksioni Drag and Drop i bën të gjitha këto të mundura pa pasur nevojë të punësosh një ekspert."
+      "msg1": "Dizajnoni faqet tuaja të uljes dhe ndryshoni ngjyrën e temës së faqes suaj të përshtatur me mesazhin tuaj të markës. Funksioni Drag and Drop i bën të gjitha këto të mundura pa pasur nevojë të punësosh një ekspert.",
+      "view_sample_pages": "Dyqane të shkëlqyera SD për t'ju frymëzuar"
     },
     "step4": {
       "title": "Pagesa me një klikim: Përvoja e unifikuar e arkëtimeve në mbarë botën.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Ndërtues i lehtë i faqes për blerje në internet + Pagesë direkte.",
-    "subtitle": "Nëse planifikoni të ndërtoni një biznes fitimprurës në internet dhe ta ktheni idenë tuaj të biznesit në realitet, Selldone është një zgjedhje perfekte."
+    "subtitle": "Nëse planifikoni të ndërtoni një biznes fitimprurës në internet dhe ta ktheni idenë tuaj të biznesit në realitet, Selldone është një zgjedhje perfekte.",
+    "pacman": "Shtojcat e pagesës"
   },
   "os": {
     "title": "Qasja në mjete të klasit botëror — Falas.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Transporti",
     "fulfilment": "Përmbushja",
     "community": "Komuniteti dhe komentet"
-  }
+  },
+  "select_language_dialog_title": "Bëni biznesin tuaj në gjuhën tuaj të preferuar",
+  "welcome_title": "Ndërtoni, menaxhoni dhe zgjeroni biznesin tuaj vizualisht",
+  "welcome_subtitle": "Bëni dyqanin tuaj online me zgjidhje pa kod dhe pa ekspertizë për miliona porosi.",
+  "your_shop": "Vitrina juaj",
+  "your_dashboard": "Zyra juaj e pasme",
+  "flow": {
+    "title": "Rrjedha e personalizueshme e arkës.",
+    "subtitle": "Dizajnoni udhëtimin tuaj të klientit dhe rrjedhën e blerjeve dhe rezultatet e eksperimentit.",
+    "pacman": "Pluginat e blerjes"
+  },
+  "business_model": {
+    "title": "Miratimi vizual i modelit të biznesit.",
+    "subtitle": "Vendosni vizualisht modelin tuaj të biznesit, i gjithë kompleksiteti do të akordohet prapa skenës.",
+    "pacman": "Shtojcat e tregut dhe POD"
+  },
+  "team": {
+    "title": "Njihuni me ekipin.",
+    "msg": "Ne do të luajmë me rregulla të ndryshme në fushën brutale të platformave të tregtisë, veçanërisht kur konkurrentët tanë shpenzojnë miliona dollarë për reklama; ne investojmë në produktin, njerëzit dhe zgjidhjen e problemeve reale. Ky ekip mbështet biznesin tuaj!"
+  },
+  "customers": {
+    "title": "Njihuni me komunitetin tonë.",
+    "msg": "Është vetëm një fillim i një udhëtimi për të ndërtuar mjete kuptimplote për të zhbllokuar sipërmarrësit e ardhshëm duke mësuar nga klientët tanë."
+  },
+  "panorama": {
+    "title": "Asnjë shtojcë e kushtueshme, <b class=\"font-weight-bold\">Të gjitha veçoritë janë të para-ndërtuara</b>",
+    "msg": "Nuk ka nevojë të shpenzoni qindra dollarë në shtojca dhe aplikacione çdo muaj dhe të shqetësoheni për përditësimet. Ashtu si macOS për kompjuterin tuaj, Selldone OS kujdeset për të gjitha anët teknike të biznesit tuaj.",
+    "orders_management": "Menaxhimi i porosive",
+    "online_pos": "POS në internet",
+    "shipping": "Transporti",
+    "inventory_management": "Menaxhimit të inventarit",
+    "social_commerce": "Tregti Sociale",
+    "in_store_sell": "Shitet në dyqan",
+    "team": "Ekipi / Stafi",
+    "incentives": "Stimuj / Besnik",
+    "community": "Menaxhimi i Komunitetit",
+    "payments": "Pagesat lokale",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Jo—plugin"
 };

@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Etiketa zuria / Malgua / Oso pertsonalizagarria.",
-      "msg1": "Diseinatu zure helmuga-orriak eta aldatu zure guneko gaiaren kolorea zure markaren mezura egokituta. Arrastatu eta Jaregin funtzioak hau guztia posible egiten du aditu bat kontratatu beharrik gabe."
+      "msg1": "Diseinatu zure helmuga-orriak eta aldatu zure guneko gaiaren kolorea zure markaren mezura egokituta. Arrastatu eta Jaregin funtzioak hau guztia posible egiten du aditu bat kontratatu beharrik gabe.",
+      "view_sample_pages": "Inspiratzeko SD denda bikainak"
     },
     "step4": {
       "title": "Klik bakarreko ordainketa: mundu osoko ordainketa-esperientzia bateratua.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Lineako erosketa webguneen eraikitzaile erraza + Ordainketa zuzena.",
-    "subtitle": "Lineako negozio errentagarri bat eraikitzeko eta zure negozio ideia errealitate bihurtzeko asmoa baduzu, Selldone aukera ezin hobea da."
+    "subtitle": "Lineako negozio errentagarri bat eraikitzeko eta zure negozio ideia errealitate bihurtzeko asmoa baduzu, Selldone aukera ezin hobea da.",
+    "pacman": "Ordainketa-pluginak"
   },
   "os": {
     "title": "Mundu mailako tresnetarako sarbidea — Doan.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Bidalketa",
     "fulfilment": "Betetzea",
     "community": "Komunitatea eta iritzia"
-  }
+  },
+  "select_language_dialog_title": "Egin zure negozioa gogoko duzun hizkuntzan",
+  "welcome_title": "Eraiki, kudeatu eta eskalatu zure negozioa bisualki",
+  "welcome_subtitle": "Egin zure lineako denda koderik gabeko eta aditurik gabeko irtenbidearen bidez milioika eskaeretarako.",
+  "your_shop": "Zure erakusleihoa",
+  "your_dashboard": "Zure Back Office",
+  "flow": {
+    "title": "Ordainketa-fluxu pertsonalizagarria.",
+    "subtitle": "Diseina ezazu zure bezero-bidaia eta erosketa-fluxua eta esperimentuen emaitzak.",
+    "pacman": "Checkout Pluginak"
+  },
+  "business_model": {
+    "title": "Bisualki negozio eredua hartzea.",
+    "subtitle": "Konfiguratu zure negozio eredua bisualki, konplexutasun guztia sintonizatuko da eszena atzean.",
+    "pacman": "Marketplace eta POD Pluginak"
+  },
+  "team": {
+    "title": "Ezagutu taldea.",
+    "msg": "Arau ezberdinekin joko dugu merkataritza-plataformen eremu basatian, batez ere gure lehiakideek milioika dolar gastatzen dituztenean publizitatean; produktuan, pertsonengan eta benetako arazoak konpontzen inbertitzen dugu. Talde honek zure negozioa babesten du!"
+  },
+  "customers": {
+    "title": "Ezagutu gure komunitatea.",
+    "msg": "Gure bezeroengandik ikasiz etorkizuneko ekintzaileak desblokeatzeko tresna esanguratsuak eraikitzeko bidaia baten hasiera besterik ez da."
+  },
+  "panorama": {
+    "title": "Ez dago plugin garestirik, <b class=\"font-weight-bold\">Ezaugarri guztiak aurrez eraikita</b>",
+    "msg": "Ez da hilero ehunka dolar gastatu pluginetan eta aplikazioetan eta eguneraketei buruz kezkatu. Zure ordenagailurako macOS bezala, Selldone OS zure negozioaren alderdi tekniko guztiak zaintzen ditu.",
+    "orders_management": "Eskaerak Kudeatzea",
+    "online_pos": "Lineako POS",
+    "shipping": "Bidalketa",
+    "inventory_management": "Inbentarioen kudeaketa",
+    "social_commerce": "Gizarte Merkataritza",
+    "in_store_sell": "Salmenta dendan",
+    "team": "Taldea / Langileak",
+    "incentives": "Pizgarriak / Leialtasuna",
+    "community": "Komunitatearen kudeaketa",
+    "payments": "Tokiko Ordainketak",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Ez, plugina"
 };

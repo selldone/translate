@@ -156,6 +156,15 @@ return [
 
         'vendor'=>'Vendor',
 
+        'view_content' => "View full content",
+        'files'=>'Files',
+        'download'=>'Download',
+        'file_name'=>'File Name',
+        'file_size'=>'Size',
+
+        'subscription'=>'Subscription',
+
+
 
     ],
     //―――――――――――――――――――――――――――― Titles ―――――――――――――――――――――――――

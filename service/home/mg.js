@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Etikety fotsy / Flexible / azo zahana lalina.",
-      "msg1": "Amboary ny pejinao fipetrahanao, ary ovay ny loko lohahevitry ny tranokalanao mifanaraka amin'ny hafatra marikao. Ny endri-javatra Drag sy Drop dia manao izany rehetra izany tsy mila manakarama manam-pahaizana."
+      "msg1": "Amboary ny pejinao fipetrahanao, ary ovay ny loko lohahevitry ny tranokalanao mifanaraka amin'ny hafatra marikao. Ny endri-javatra Drag sy Drop dia manao izany rehetra izany tsy mila manakarama manam-pahaizana.",
+      "view_sample_pages": "Fivarotana SD lehibe hanentanana anao"
     },
     "step4": {
       "title": "Kitihina tokana: traikefa mitambatra eran'izao tontolo izao.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Mpanorina tranokala fiantsenana mora + fandoavam-bola mivantana.",
-    "subtitle": "Raha mikasa ny hanorina orinasa an-tserasera mahasoa ianao ary hamadika ny hevitrao momba ny fandraharahana ho zava-misy dia safidy tonga lafatra i Selldone."
+    "subtitle": "Raha mikasa ny hanorina orinasa an-tserasera mahasoa ianao ary hamadika ny hevitrao momba ny fandraharahana ho zava-misy dia safidy tonga lafatra i Selldone.",
+    "pacman": "Plugins fandoavam-bola"
   },
   "os": {
     "title": "Fidirana amin'ny fitaovana manara-penitra eran-tany — Maimaim-poana.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Fandefasana",
     "fulfilment": "tanteraka",
     "community": "Community & Feedback"
-  }
+  },
+  "select_language_dialog_title": "Ataovy amin'ny fiteny tianao indrindra ny raharahanao",
+  "welcome_title": "Amboary, tantano ary ampitomboy amin'ny maso ny orinasanao",
+  "welcome_subtitle": "Ataovy ny fivarotanao an-tserasera amin'ny vahaolana tsy misy kaody & tsy misy manam-pahaizana ilaina amin'ny baiko an-tapitrisany.",
+  "your_shop": "Ny fivarotanao",
+  "your_dashboard": "Ny Back Office",
+  "flow": {
+    "title": "Fikojakojana azo zahana.",
+    "subtitle": "Amboary ny dian'ny mpanjifanao sy ny fizotran'ny fividianana ary ny valin'ny fanandramana.",
+    "pacman": "Checkout Plugins"
+  },
+  "business_model": {
+    "title": "Fananganana modely ara-barotra.",
+    "subtitle": "Ampifanaraho amin'ny maso ny maodelin'ny raharaham-barotrao, ny fahasarotana rehetra dia halamina ao ambadiky ny sehatra.",
+    "pacman": "Marketplace & POD Plugins"
+  },
+  "team": {
+    "title": "Hihaona amin'ny ekipa.",
+    "msg": "Hilalao amin'ny fitsipika samihafa isika eo amin'ny sehatry ny sehatry ny varotra, indrindra rehefa mandany dolara an-tapitrisany amin'ny dokam-barotra ny mpifaninana amintsika; mampiasa vola amin'ny vokatra, olona, ary famahana olana tena izy. Ity ekipa ity dia mamerina ny orinasanao!"
+  },
+  "customers": {
+    "title": "Hihaona amin'ny fiarahamonintsika.",
+    "msg": "Fiantombohan'ny dia amin'ny fananganana fitaovana manan-danja hamahana ireo mpandraharaha amin'ny ho avy amin'ny alàlan'ny fianarana amin'ny mpanjifantsika."
+  },
+  "panorama": {
+    "title": "Tsy misy plugin lafo, <b class=\"font-weight-bold\">Ny endri-javatra rehetra efa namboarina</b>",
+    "msg": "Tsy mila mandany dolara an-jatony amin'ny plugins sy apps isam-bolana ary manahy momba ny fanavaozana. Tahaka ny macOS ho an'ny PC-nao, ny Selldone OS dia mikarakara ny lafiny ara-teknika rehetra amin'ny orinasanao.",
+    "orders_management": "Fitantanana ny baiko",
+    "online_pos": "Online POS",
+    "shipping": "Fandefasana",
+    "inventory_management": "Fitantanana ny fanisana",
+    "social_commerce": "Social Commerce",
+    "in_store_sell": "Amidy an-tsena",
+    "team": "Ekipa / mpiasa",
+    "incentives": "Famporisihana / tsy fivadihana",
+    "community": "Fitantanana ny fiarahamonina",
+    "payments": "Fandoavana eo an-toerana",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Tsia—plugin"
 };

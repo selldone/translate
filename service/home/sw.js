@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Lebo nyeupe / Inayobadilika / Inayoweza kubinafsishwa kwa undani.",
-      "msg1": "Tengeneza kurasa zako za kutua, na ubadilishe rangi ya mandhari ya tovuti yako iliyoundwa na ujumbe wa chapa yako. Kipengele cha Buruta na Achia hufanya haya yote yawezekane bila hitaji la kuajiri mtaalam."
+      "msg1": "Tengeneza kurasa zako za kutua, na ubadilishe rangi ya mandhari ya tovuti yako iliyoundwa na ujumbe wa chapa yako. Kipengele cha Buruta na Achia hufanya haya yote yawezekane bila hitaji la kuajiri mtaalam.",
+      "view_sample_pages": "Maduka Mazuri ya SD ya Kukuhimiza"
     },
     "step4": {
       "title": "Lipa kwa mbofyo mmoja: Hali ya malipo iliyounganishwa kote ulimwenguni.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Mjenzi rahisi wa tovuti ya ununuzi mtandaoni + Malipo ya moja kwa moja.",
-    "subtitle": "Ikiwa unapanga kujenga biashara ya mtandaoni yenye faida na kugeuza wazo lako la biashara kuwa ukweli, Selldone ni chaguo bora."
+    "subtitle": "Ikiwa unapanga kujenga biashara ya mtandaoni yenye faida na kugeuza wazo lako la biashara kuwa ukweli, Selldone ni chaguo bora.",
+    "pacman": "Malipo Plugins"
   },
   "os": {
     "title": "Ufikiaji wa zana za kiwango cha kimataifa - Bure.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Usafirishaji",
     "fulfilment": "Utimilifu",
     "community": "Jumuiya na Maoni"
-  }
+  },
+  "select_language_dialog_title": "Fanya biashara yako katika lugha unayoipenda",
+  "welcome_title": "Jenga, simamia, na ongeza biashara yako kwa macho",
+  "welcome_subtitle": "Tengeneza duka lako la mtandaoni bila msimbo na suluhisho lisilohitajika la kitaalam kwa mamilioni ya maagizo.",
+  "your_shop": "Mbele ya Duka lako",
+  "your_dashboard": "Ofisi yako ya Nyuma",
+  "flow": {
+    "title": "Mtiririko wa malipo unaoweza kubinafsishwa.",
+    "subtitle": "Buni safari ya mteja wako na mtiririko wa ununuzi na matokeo ya majaribio.",
+    "pacman": "Checkout Plugins"
+  },
+  "business_model": {
+    "title": "Kupitishwa kwa mtindo wa biashara unaoonekana.",
+    "subtitle": "Sanidi muundo wa biashara yako kwa kuibua, ugumu wote utawekwa nyuma ya tukio.",
+    "pacman": "Soko & Plugins za POD"
+  },
+  "team": {
+    "title": "Kutana na timu.",
+    "msg": "Tutafuata sheria tofauti katika nyanja ya ukatili ya majukwaa ya biashara, haswa wakati washindani wetu wanatumia mamilioni ya dola kwenye utangazaji; tunawekeza katika bidhaa, watu, na kutatua matatizo halisi. Timu hii irudishe biashara yako!"
+  },
+  "customers": {
+    "title": "Kutana na jamii yetu.",
+    "msg": "Ni mwanzo tu wa safari ya kuunda zana muhimu za kufungua wajasiriamali wa siku zijazo kwa kujifunza kutoka kwa wateja wetu."
+  },
+  "panorama": {
+    "title": "Hakuna programu <b class=\"font-weight-bold\">-jalizi ya gharama kubwa, Vipengele vyote vimejengwa mapema</b>",
+    "msg": "Hakuna haja ya kutumia mamia ya dola kwenye programu jalizi na programu kila mwezi na kuwa na wasiwasi kuhusu masasisho. Kama vile macOS ya Kompyuta yako, Selldone OS hutunza pande zote za kiufundi za biashara yako.",
+    "orders_management": "Usimamizi wa Maagizo",
+    "online_pos": "POS ya mtandaoni",
+    "shipping": "Usafirishaji",
+    "inventory_management": "Usimamizi wa hesabu",
+    "social_commerce": "Biashara ya Kijamii",
+    "in_store_sell": "Uza katika duka",
+    "team": "Timu / Wafanyakazi",
+    "incentives": "Motisha / Uaminifu",
+    "community": "Usimamizi wa Jamii",
+    "payments": "Malipo ya Ndani",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Hapana - programu-jalizi"
 };

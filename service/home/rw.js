@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Ikirango cyera / Ihindagurika / Birashoboka cyane.",
-      "msg1": "Shushanya urupapuro rwawe, hanyuma uhindure ibara ryinsanganyamatsiko y'urubuga rwawe rujyanye n'ubutumwa bwawe. Ibiranga gukurura no Kureka bituma ibi byose bishoboka bitabaye ngombwa gushaka umuhanga."
+      "msg1": "Shushanya urupapuro rwawe, hanyuma uhindure ibara ryinsanganyamatsiko y'urubuga rwawe rujyanye n'ubutumwa bwawe. Ibiranga gukurura no Kureka bituma ibi byose bishoboka bitabaye ngombwa gushaka umuhanga.",
+      "view_sample_pages": "Ububiko bukomeye bwa SD bwo kugutera imbaraga"
     },
     "step4": {
       "title": "Igenzura rimwe gusa: Ubunararibonye bwo kugenzura kwisi yose.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Byoroshye kugura kumurongo wubaka + Kwishura bitaziguye.",
-    "subtitle": "Niba uteganya kubaka ubucuruzi bwunguka kumurongo no guhindura igitekerezo cyawe cyubucuruzi, Selldone ni amahitamo meza."
+    "subtitle": "Niba uteganya kubaka ubucuruzi bwunguka kumurongo no guhindura igitekerezo cyawe cyubucuruzi, Selldone ni amahitamo meza.",
+    "pacman": "Amacomeka yo Kwishura"
   },
   "os": {
     "title": "Kugera kubikoresho byo murwego rwisi - Ubuntu.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Kohereza",
     "fulfilment": "Kurangiza",
     "community": "Umuganda & Ibisubizo"
-  }
+  },
+  "select_language_dialog_title": "Kora ubucuruzi bwawe mururimi ukunda",
+  "welcome_title": "Kubaka, gucunga, no gupima ibikorwa byawe muburyo bugaragara",
+  "welcome_subtitle": "Kora ububiko bwawe bwo kumurongo ukoresheje nta-kode & nta-mpuguke ikeneye igisubizo cya miriyoni zicyemezo.",
+  "your_shop": "Ububiko bwawe",
+  "your_dashboard": "Ibiro byawe byinyuma",
+  "flow": {
+    "title": "Kugenzura ibicuruzwa byigenga.",
+    "subtitle": "Tegura urugendo rwabakiriya bawe hanyuma ugure ibicuruzwa nibisubizo byubushakashatsi.",
+    "pacman": "Amacomeka yo kugenzura"
+  },
+  "business_model": {
+    "title": "Biboneka mubucuruzi bwubucuruzi.",
+    "subtitle": "Shiraho imishinga yawe yubucuruzi muburyo bugaragara, ibintu byose bizakurikiranwa inyuma.",
+    "pacman": "Isoko & POD Amacomeka"
+  },
+  "team": {
+    "title": "Hura n'itsinda.",
+    "msg": "Tuzakina namategeko atandukanye murwego rwubugome bwubucuruzi bwubucuruzi, cyane cyane mugihe abanywanyi bacu bakoresha miriyoni yamadorari mukwamamaza; dushora mubicuruzwa, abantu, no gukemura ibibazo nyabyo. Iyi kipe isubize ibikorwa byawe!"
+  },
+  "customers": {
+    "title": "Tahura nabaturage bacu.",
+    "msg": "Nintangiriro yurugendo rwo kubaka ibikoresho bifatika byo gufungura ba rwiyemezamirimo bazaza twigira kubakiriya bacu."
+  },
+  "panorama": {
+    "title": "Nta plugin ihenze, <b class=\"font-weight-bold\">Ibiranga byose byubatswe mbere</b>",
+    "msg": "Ntibikenewe ko ukoresha amadorari amagana kuri plugins na porogaramu buri kwezi kandi uhangayikishijwe namakuru agezweho. Kimwe na macOS kuri PC yawe, Selldone OS yita kumpande zose za tekiniki zubucuruzi bwawe.",
+    "orders_management": "Gutegeka",
+    "online_pos": "POS kumurongo",
+    "shipping": "Kohereza",
+    "inventory_management": "Gucunga ibarura",
+    "social_commerce": "Ubucuruzi",
+    "in_store_sell": "Mu iduka Kugurisha",
+    "team": "Ikipe / Abakozi",
+    "incentives": "Ibitekerezo / Ubudahemuka",
+    "community": "Ubuyobozi bw'abaturage",
+    "payments": "Ubwishyu bwaho",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Oya"
 };

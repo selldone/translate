@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Hvit etikett / fleksibel / dypt tilpassbar.",
-      "msg1": "Design landingssidene dine, og endre temafargen på nettstedet ditt skreddersydd til merkevarebudskapet ditt. Dra og slipp-funksjonen gjør alt dette mulig uten å måtte ansette en ekspert."
+      "msg1": "Design landingssidene dine, og endre temafargen på nettstedet ditt skreddersydd til merkevarebudskapet ditt. Dra og slipp-funksjonen gjør alt dette mulig uten å måtte ansette en ekspert.",
+      "view_sample_pages": "Flotte SD-butikker for å inspirere deg"
     },
     "step4": {
       "title": "Kasse med ett klikk: Enhetlig betalingsopplevelse over hele verden.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Enkel nettstedbygger for netthandel + direkte betaling.",
-    "subtitle": "Hvis du planlegger å bygge en lønnsom nettvirksomhet og gjøre forretningsideen din til en realitet, er Selldone et perfekt valg."
+    "subtitle": "Hvis du planlegger å bygge en lønnsom nettvirksomhet og gjøre forretningsideen din til en realitet, er Selldone et perfekt valg.",
+    "pacman": "Betalingsplugins"
   },
   "os": {
     "title": "Tilgang til verktøy i verdensklasse – gratis.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Shipping",
     "fulfilment": "Oppfyllelse",
     "community": "Fellesskap og tilbakemelding"
-  }
+  },
+  "select_language_dialog_title": "Gjør forretninger på ditt favorittspråk",
+  "welcome_title": "Bygg, administrer og skaler virksomheten din visuelt",
+  "welcome_subtitle": "Lag nettbutikken din uten kode og ingen ekspertløsning for millioner av bestillinger.",
+  "your_shop": "Utstillingsvinduet ditt",
+  "your_dashboard": "Ditt backoffice",
+  "flow": {
+    "title": "Tilpassbar betalingsflyt.",
+    "subtitle": "Design kundereisen din og kjøpsflyt og eksperimentresultater.",
+    "pacman": "Checkout-plugins"
+  },
+  "business_model": {
+    "title": "Visuelt adopsjon av forretningsmodell.",
+    "subtitle": "Sett opp forretningsmodellen din visuelt, all kompleksitet vil bli stilt inn bak scenen.",
+    "pacman": "Markedsplass og POD-plugins"
+  },
+  "team": {
+    "title": "Møt teamet.",
+    "msg": "Vi vil spille etter forskjellige regler i det brutale feltet av handelsplattformer, spesielt når konkurrentene våre bruker millioner av dollar på reklame; vi investerer i produktet, menneskene og i å løse reelle problemer. Dette teamet støtter virksomheten din!"
+  },
+  "customers": {
+    "title": "Møt samfunnet vårt.",
+    "msg": "Det er bare starten på en reise for å bygge meningsfulle verktøy for å låse opp fremtidige gründere ved å lære av kundene våre."
+  },
+  "panorama": {
+    "title": "Ingen kostbar plugin, <b class=\"font-weight-bold\">alle funksjoner forhåndsbygd</b>",
+    "msg": "Du trenger ikke å bruke hundrevis av dollar på plugins og apper hver måned og bekymre deg for oppdateringene. Som macOS for PC-en din, tar Selldone OS seg av alle tekniske sider av virksomheten din.",
+    "orders_management": "Ordrehåndtering",
+    "online_pos": "Online POS",
+    "shipping": "Shipping",
+    "inventory_management": "Lagerstyring",
+    "social_commerce": "Sosial handel",
+    "in_store_sell": "Selg i butikk",
+    "team": "Team / stab",
+    "incentives": "Insentiver / lojalitet",
+    "community": "Samfunnsledelse",
+    "payments": "Lokale betalinger",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Nei—plugin"
 };

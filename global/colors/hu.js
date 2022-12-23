@@ -45,7 +45,7 @@ export default {
   "#00582F": "Örökzöld",
   "#214C30": "Erdő",
   "#DC2867": "Fukszia",
-  "#38561": "Kelly",
+  "#38561F" :"Kelly",
   "#5C884D": "Levél növényen",
   "#558450": "Light Aqua",
   "#96B5C9": "Világoskék",

@@ -45,7 +45,7 @@ export default {
   "#00582F": "Evergreen",
   "#214C30": "Miškas",
   "#DC2867": "Fuksija",
-  "#38561": "Kelly",
+  "#38561F" :"Kelly",
   "#5C884D": "Lapas",
   "#558450": "Šviesus Aqua",
   "#96B5C9": "Šviesiai mėlynas",

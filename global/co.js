@@ -908,7 +908,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Foresta",
     "#DC2867": "Fucsia",
-    "#38561": "Kelly",
+    "#38561F" :"Kelly",
     "#5C884D": "Foglia",
     "#558450": "Light Aqua",
     "#96B5C9": "Light Blue",

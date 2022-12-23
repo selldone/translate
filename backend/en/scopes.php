@@ -25,7 +25,7 @@ return [
     AuthServiceProvider::SCOPE_NOTIFICATIONS => 'Send and receive notifications.',
 
 
-    AuthServiceProvider::SCOPE_READ_SHOPS => 'Read Store List.',
+    AuthServiceProvider::SCOPE_READ_SHOPS => 'Read shops list.',
 
     AuthServiceProvider::SCOPE_SHOP_EDIT => 'Store editing access.',
 
@@ -49,6 +49,9 @@ return [
     AuthServiceProvider::SCOPE_SHOP_LOTTERY => 'Manage lotteries.',
     AuthServiceProvider::SCOPE_SHOP_COMMUNITY => 'Manage community.',
     AuthServiceProvider::SCOPE_SHOP_CUSTOMERS => 'Manage customers.',
+    AuthServiceProvider::SCOPE_SHOP_RIBBON => 'Manage Ribbon subscriptions.',
+
+
 
 
 
@@ -63,6 +66,13 @@ return [
 
 
     AuthServiceProvider::SCOPE_CONNECT_PROVIDERS => 'Add, read and write connect providers.',
+
+    // Restricted:
+    AuthServiceProvider::SCOPE_PERSONAL_IDENTIFICATION => 'Read personal information, accesses, and account config.',
+    AuthServiceProvider::SCOPE_ACCOUNTS => 'Access to wallets, read transactions and top-up histories.',
+    AuthServiceProvider::SCOPE_SHOP_ADD => 'Add new shop.',
+    AuthServiceProvider::SCOPE_SHOP_DELETE => 'Remove a shop.',
+
 
 
 ];

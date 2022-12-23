@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Label gwyn / Hyblyg / Gellir ei addasu'n ddwfn.",
-      "msg1": "Dyluniwch eich tudalennau glanio, a newidiwch liw thema eich gwefan wedi'i deilwra i'ch neges brand. Mae nodwedd Llusgo a Gollwng yn gwneud hyn i gyd yn bosibl heb fod angen llogi arbenigwr."
+      "msg1": "Dyluniwch eich tudalennau glanio, a newidiwch liw thema eich gwefan wedi'i deilwra i'ch neges brand. Mae nodwedd Llusgo a Gollwng yn gwneud hyn i gyd yn bosibl heb fod angen llogi arbenigwr.",
+      "view_sample_pages": "Storfeydd SD Gwych i'ch Ysbrydoli"
     },
     "step4": {
       "title": "Desg dalu un clic: Profiad desg dalu unedig ledled y byd.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Adeiladwr gwefan siopa ar-lein hawdd + Taliad uniongyrchol.",
-    "subtitle": "Os ydych chi'n bwriadu adeiladu busnes ar-lein proffidiol a throi'ch syniad busnes yn realiti, mae Soldone yn ddewis perffaith."
+    "subtitle": "Os ydych chi'n bwriadu adeiladu busnes ar-lein proffidiol a throi'ch syniad busnes yn realiti, mae Soldone yn ddewis perffaith.",
+    "pacman": "Ategion Talu"
   },
   "os": {
     "title": "Mynediad i offer o safon fyd-eang - Am ddim.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Llongau",
     "fulfilment": "Cyflawniad",
     "community": "Cymuned ac Adborth"
-  }
+  },
+  "select_language_dialog_title": "Gwnewch eich busnes yn eich hoff iaith",
+  "welcome_title": "Adeiladu, rheoli a graddio'ch busnes yn weledol",
+  "welcome_subtitle": "Gwnewch eich siop ar-lein yn ôl dim cod ac ateb nad oes ei angen ar arbenigwr ar gyfer miliynau o archebion.",
+  "your_shop": "Eich Blaen Siop",
+  "your_dashboard": "Eich Swyddfa Gefn",
+  "flow": {
+    "title": "Llif til y gellir ei addasu.",
+    "subtitle": "Dyluniwch eich taith cwsmer a phrynwch ganlyniadau llif ac arbrofion.",
+    "pacman": "Ategion desg dalu"
+  },
+  "business_model": {
+    "title": "Mabwysiadu model busnes yn weledol.",
+    "subtitle": "Gosodwch eich model busnes yn weledol, a bydd yr holl gymhlethdodau'n cael eu tiwnio y tu ôl i'r llenni.",
+    "pacman": "Ategion Marketplace & POD"
+  },
+  "team": {
+    "title": "Cwrdd â'r tîm.",
+    "msg": "Byddwn yn chwarae yn ôl rheolau gwahanol ym maes creulon llwyfannau masnach, yn enwedig pan fydd ein cystadleuwyr yn gwario miliynau o ddoleri ar hysbysebu; rydym yn buddsoddi yn y cynnyrch, pobl, a datrys problemau go iawn. Mae'r tîm hwn yn cefnogi'ch busnes!"
+  },
+  "customers": {
+    "title": "Cwrdd â'n cymuned.",
+    "msg": "Dim ond dechrau taith ydyw i adeiladu offer ystyrlon i ddatgloi entrepreneuriaid y dyfodol trwy ddysgu gan ein cwsmeriaid."
+  },
+  "panorama": {
+    "title": "Dim ategyn costus, <b class=\"font-weight-bold\">Mae'r holl nodweddion wedi'u hadeiladu ymlaen llaw</b>",
+    "msg": "Nid oes angen gwario cannoedd o ddoleri ar ategion ac apiau bob mis a phoeni am y diweddariadau. Fel macOS ar gyfer eich cyfrifiadur personol, mae Soldone OS yn gofalu am bob ochr dechnegol i'ch busnes.",
+    "orders_management": "Rheoli Gorchmynion",
+    "online_pos": "POS Ar-lein",
+    "shipping": "Llongau",
+    "inventory_management": "Rheoli rhestr eiddo",
+    "social_commerce": "Masnach Gymdeithasol",
+    "in_store_sell": "Gwerthu yn y Siop",
+    "team": "Tîm / Staff",
+    "incentives": "Cymhellion / Teyrngarwch",
+    "community": "Rheolaeth Gymunedol",
+    "payments": "Taliadau Lleol",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Na - ategyn"
 };

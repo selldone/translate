@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Beyaz etiket / Esnek / Derinden özelleştirilebilir.",
-      "msg1": "Açılış sayfalarınızı tasarlayın ve sitenizin tema rengini marka mesajınıza göre değiştirin. Sürükle ve Bırak özelliği, bir uzman kiralamaya gerek kalmadan tüm bunları mümkün kılar."
+      "msg1": "Açılış sayfalarınızı tasarlayın ve sitenizin tema rengini marka mesajınıza göre değiştirin. Sürükle ve Bırak özelliği, bir uzman kiralamaya gerek kalmadan tüm bunları mümkün kılar.",
+      "view_sample_pages": "Size İlham Verecek Harika SD Mağazaları"
     },
     "step4": {
       "title": "Tek tıkla ödeme: Tüm dünyada birleşik ödeme deneyimi.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Kolay çevrimiçi alışveriş sitesi oluşturucu + Doğrudan ödeme.",
-    "subtitle": "Karlı bir çevrimiçi iş kurmayı ve iş fikrinizi gerçeğe dönüştürmeyi planlıyorsanız, Selldone mükemmel bir seçimdir."
+    "subtitle": "Karlı bir çevrimiçi iş kurmayı ve iş fikrinizi gerçeğe dönüştürmeyi planlıyorsanız, Selldone mükemmel bir seçimdir.",
+    "pacman": "Ödeme Eklentileri"
   },
   "os": {
     "title": "Birinci sınıf araçlara erişim — Ücretsiz.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Nakliye",
     "fulfilment": "yerine getirme",
     "community": "Topluluk ve Geri Bildirim"
-  }
+  },
+  "select_language_dialog_title": "İşinizi en sevdiğiniz dilde yapın",
+  "welcome_title": "İşletmenizi görsel olarak oluşturun, yönetin ve ölçeklendirin",
+  "welcome_subtitle": "Milyonlarca sipariş için kodsuz ve uzman gerektirmeyen bir çözümle çevrimiçi mağazanızı oluşturun.",
+  "your_shop": "Vitrininiz",
+  "your_dashboard": "Arka Ofisiniz",
+  "flow": {
+    "title": "Özelleştirilebilir ödeme akışı.",
+    "subtitle": "Müşteri yolculuğunuzu ve satın alma akışınızı ve deney sonuçlarını tasarlayın.",
+    "pacman": "Ödeme Eklentileri"
+  },
+  "business_model": {
+    "title": "Görsel olarak iş modelinin benimsenmesi.",
+    "subtitle": "İş modelinizi görsel olarak kurun, tüm karmaşıklık sahne arkasında ayarlanacaktır.",
+    "pacman": "Pazar Yeri ve POD Eklentileri"
+  },
+  "team": {
+    "title": "Ekiple tanış.",
+    "msg": "Özellikle rakiplerimiz reklama milyonlarca dolar harcadıklarında, ticaret platformlarının acımasız alanında farklı kurallarla oyun oynayacağız; ürüne, insanlara ve gerçek sorunları çözmeye yatırım yapıyoruz. Bu ekip işinizi geri alıyor!"
+  },
+  "customers": {
+    "title": "Topluluğumuzla tanışın.",
+    "msg": "Müşterilerimizden öğrenerek geleceğin girişimcilerinin kilidini açmak için anlamlı araçlar oluşturma yolculuğunun sadece bir başlangıcı."
+  },
+  "panorama": {
+    "title": "Pahalı eklenti yok, <b class=\"font-weight-bold\">Tüm özellikler önceden oluşturulmuş</b>",
+    "msg": "Eklentilere ve uygulamalara her ay yüzlerce dolar harcamanıza ve güncellemeler için endişelenmenize gerek yok. PC'niz için macOS gibi, Selldone OS de işinizin tüm teknik yönleriyle ilgilenir.",
+    "orders_management": "Sipariş Yönetimi",
+    "online_pos": "Çevrimiçi POS",
+    "shipping": "Nakliye",
+    "inventory_management": "Envanter yönetimi",
+    "social_commerce": "Sosyal Ticaret",
+    "in_store_sell": "Mağazada Satış",
+    "team": "Ekip / Personel",
+    "incentives": "Teşvikler / Sadakat",
+    "community": "Topluluk yönetimi",
+    "payments": "Yerel Ödemeler",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Hayır—eklenti"
 };

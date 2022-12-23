@@ -45,7 +45,7 @@ export default {
   "#00582F": "Ikivihreä",
   "#214C30": "Metsä",
   "#DC2867": "fuksia",
-  "#38561": "Kelly",
+  "#38561F" :"Kelly",
   "#5C884D": "Puun lehti",
   "#558450": "Vaalea Aqua",
   "#96B5C9": "Vaaleansininen",

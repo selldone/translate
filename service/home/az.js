@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Ağ etiket / Çevik / Dərindən fərdiləşdirilə bilər.",
-      "msg1": "Açılış səhifələrinizi dizayn edin və brend mesajınıza uyğun olaraq saytınızın mövzu rəngini dəyişdirin. Drag and Drop xüsusiyyəti bütün bunları mütəxəssis işə götürmədən mümkün edir."
+      "msg1": "Açılış səhifələrinizi dizayn edin və brend mesajınıza uyğun olaraq saytınızın mövzu rəngini dəyişdirin. Drag and Drop xüsusiyyəti bütün bunları mütəxəssis işə götürmədən mümkün edir.",
+      "view_sample_pages": "Sizi ruhlandırmaq üçün əla SD mağazalar"
     },
     "step4": {
       "title": "Bir kliklə yoxlama: Bütün dünyada vahid yoxlama təcrübəsi.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Asan onlayn alış-veriş veb saytı qurucusu + Birbaşa ödəniş.",
-    "subtitle": "Əgər gəlirli onlayn biznes qurmağı və biznes ideyanızı reallığa çevirməyi planlaşdırırsınızsa, Selldone mükəmməl seçimdir."
+    "subtitle": "Əgər gəlirli onlayn biznes qurmağı və biznes ideyanızı reallığa çevirməyi planlaşdırırsınızsa, Selldone mükəmməl seçimdir.",
+    "pacman": "Ödəniş Pluginləri"
   },
   "os": {
     "title": "Dünya səviyyəli alətlərə giriş - Pulsuz.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Göndərmə",
     "fulfilment": "İcra",
     "community": "İcma və Əlaqə"
-  }
+  },
+  "select_language_dialog_title": "Sevdiyiniz dildə işinizi aparın",
+  "welcome_title": "Biznesinizi vizual olaraq qurun, idarə edin və genişləndirin",
+  "welcome_subtitle": "Milyonlarla sifariş üçün kodsuz və mütəxəssis tələb olunmayan həll yolu ilə onlayn mağazanızı edin.",
+  "your_shop": "Vitrininiz",
+  "your_dashboard": "Sizin Back Office",
+  "flow": {
+    "title": "Fərdiləşdirilə bilən ödəniş axını.",
+    "subtitle": "Müştəri səyahətinizi və alış axını və təcrübə nəticələrini dizayn edin.",
+    "pacman": "Checkout Pluginləri"
+  },
+  "business_model": {
+    "title": "Vizual olaraq biznes modelinin qəbulu.",
+    "subtitle": "Biznes modelinizi vizual olaraq qurun, bütün mürəkkəblik səhnə arxasında tənzimlənəcək.",
+    "pacman": "Marketplace və POD Pluginləri"
+  },
+  "team": {
+    "title": "Komanda ilə tanış olun.",
+    "msg": "Ticarət platformalarının qəddar sahəsində, xüsusən də rəqiblərimiz reklam üçün milyonlarla dollar xərclədikdə fərqli qaydalarla oynayacağıq; biz məhsula, insanlara və real problemlərin həllinə sərmayə qoyuruq. Bu komanda biznesinizi geri qaytarır!"
+  },
+  "customers": {
+    "title": "Cəmiyyətimizlə tanış olun.",
+    "msg": "Bu, müştərilərimizdən öyrənərək gələcək sahibkarların kilidini açmaq üçün mənalı alətlər yaratmaq üçün səyahətin sadəcə başlanğıcıdır."
+  },
+  "panorama": {
+    "title": "Heç bir bahalı plagin yoxdur, <b class=\"font-weight-bold\">Bütün funksiyalar əvvəlcədən qurulmuşdur</b>",
+    "msg": "Hər ay plaginlərə və tətbiqlərə yüzlərlə dollar xərcləməyə və yeniləmələrdən narahat olmağa ehtiyac yoxdur. Kompüteriniz üçün macOS kimi, Selldone OS də biznesinizin bütün texniki tərəfləri ilə maraqlanır.",
+    "orders_management": "Sifarişlərin idarə edilməsi",
+    "online_pos": "Onlayn POS",
+    "shipping": "Göndərmə",
+    "inventory_management": "İnventarın idarə edilməsi",
+    "social_commerce": "Sosial Ticarət",
+    "in_store_sell": "Mağazada Satılır",
+    "team": "Komanda / Heyət",
+    "incentives": "Təşviqlər / Sadiqlik",
+    "community": "İcma İdarəetmə",
+    "payments": "Yerli Ödənişlər",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Xeyr — plagin"
 };

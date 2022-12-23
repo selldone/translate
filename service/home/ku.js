@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Etîketa spî / Flexible / Deeply customizable.",
-      "msg1": "Rûpelên dakêşana xwe sêwirînin, û rengê mijara malpera xwe li gorî peyama marqeya xwe biguhezînin. Taybetmendiya Drag and Drop van hemîyan bêyî hewcedariya girtina pisporek gengaz dike."
+      "msg1": "Rûpelên dakêşana xwe sêwirînin, û rengê mijara malpera xwe li gorî peyama marqeya xwe biguhezînin. Taybetmendiya Drag and Drop van hemîyan bêyî hewcedariya girtina pisporek gengaz dike.",
+      "view_sample_pages": "Firoşgehên mezin ên SD-ê ku Te Teşwîq bikin"
     },
     "step4": {
       "title": "Serlêdana yek-klîk: Tecrûbeya danûstendinê ya yekbûyî li çaraliyê cîhanê.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Avakerê malpera kirîna serhêl a hêsan + dravdana rasterast.",
-    "subtitle": "Ger hûn plan dikin ku karsaziyek serhêl a sûdmend ava bikin û ramana karsaziya xwe veguherînin rastiyek, Selldone bijarek bêkêmasî ye."
+    "subtitle": "Ger hûn plan dikin ku karsaziyek serhêl a sûdmend ava bikin û ramana karsaziya xwe veguherînin rastiyek, Selldone bijarek bêkêmasî ye.",
+    "pacman": "Pêvekên Paymentê"
   },
   "os": {
     "title": "Gihîştina amûrên cîhanî - Belaş.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Shipping",
     "fulfilment": "Bicihanînî",
     "community": "Civak & Feedback"
-  }
+  },
+  "select_language_dialog_title": "Karsaziya xwe bi zimanê xweya bijare bikin",
+  "welcome_title": "Karsaziya xwe bi dîtbarî ava bikin, rêvebirin û mezin bikin",
+  "welcome_subtitle": "Dikana xweya serhêl ji bo bi mîlyonan fermanan bi çareseriyek bê-kod û ne pispor-pispor çêbikin.",
+  "your_shop": "Dikana we",
+  "your_dashboard": "Ofîsa paşiya we",
+  "flow": {
+    "title": "Herikîna danûstendinê ya Customizable.",
+    "subtitle": "Rêwîtiya xerîdar a xwe sêwirînin û herikîn û encamên ceribandinê bikirin.",
+    "pacman": "Pêvekên Checkout"
+  },
+  "business_model": {
+    "title": "Pejirandina modela karsaziyê ya dîtbarî.",
+    "subtitle": "Modela karsaziya xwe bi dîtbarî saz bikin, hemî tevlihevî dê li pişt dîmenê were guheztin.",
+    "pacman": "Pêvekên Marketplace & POD"
+  },
+  "team": {
+    "title": "Bi tîmê re hevdîtin bikin.",
+    "msg": "Em ê di qada hovane ya platformên bazirganiyê de bi qaîdeyên cûda bilîzin, nemaze dema ku hevrikên me bi mîlyonan dolaran li reklamê xerc dikin; em di hilber, mirov û çareserkirina pirsgirêkên rastîn de veberhênanê dikin. Ev tîmê karsaziya we vedigere!"
+  },
+  "customers": {
+    "title": "Bi civaka me re hevdîtin bikin.",
+    "msg": "Ew tenê destpêkek rêwîtiyek e ku em amûrên watedar ava bikin da ku bi fêrbûna ji xerîdarên me re karsazên pêşerojê vekin."
+  },
+  "panorama": {
+    "title": "Pêvekek biha tune, <b class=\"font-weight-bold\">Hemî taybetmendî pêş-avakirî ne</b>",
+    "msg": "Ne hewce ye ku her meh bi sedan dolar li ser pêvek û sepanan xerc bikin û ji nûvekirinan xeman bikin. Mîna macOS-ê ji bo PC-ya we, Selldone OS hemî aliyên teknîkî yên karsaziya we digire.",
+    "orders_management": "Orders Management",
+    "online_pos": "POS liserxetê",
+    "shipping": "Shipping",
+    "inventory_management": "rêveberiya envanterê",
+    "social_commerce": "Bazirganiya Civakî",
+    "in_store_sell": "Di firotgehê de difiroşin",
+    "team": "Tîm / Karmend",
+    "incentives": "Teşwîq / Dilsozî",
+    "community": "Rêveberiya Civakî",
+    "payments": "Payments Herêmî",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Na - pêvek"
 };

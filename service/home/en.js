@@ -9,8 +9,8 @@ export default {
   select_language_dialog_title: "Do your business in your favorite language",
 
   welcome_title: "Build, manage, and scale your business visually",
-  welcome_subtitle: "Make your online store by no-code & no-expert needed solution for millions of orders.",
-
+  welcome_subtitle:"Build your online store with a no-code & no-expert needed business os, for millions of orders and remove humans from your workflow.",
+    //"Make your online store by no-code & no-expert needed solution for millions of orders.",
 
   moto: "You try, we open the doors!",
   start_now_btn: "Start now — it's free",
@@ -69,19 +69,19 @@ export default {
 
     sec1: {
       title: "Easy + Professional",
-      msg: "It's built for you to game like a professional in the markets, even if you are a beginner but want to play like a professional, or you are an expert and deserve to play like yourself!",
+      //   msg: "It's built for you to game like a professional in the markets, even if you are a beginner but want to play like a professional, or you are an expert and deserve to play like yourself!",
     },
     sec2: {
       title: "Enterprise-grade tools",
-      msg: "We release new features, update APIs and apply new methods as a daily routine.  It's an operating system for your business, so your business scale up by our platform.",
+      //  msg: "We release new features, update APIs and apply new methods as a daily routine.  It's an operating system for your business, so your business scale up by our platform.",
     },
     sec3: {
       title: "Social sales",
-      msg: "Our product is designed on the real trading behavior of purchasers all around the world. We offer one-of-a-kind sales methods on Instagram, TikTok, and other social networks, named AVOCADO.",
+      //  msg: "Our product is designed on the real trading behavior of purchasers all around the world. We offer one-of-a-kind sales methods on Instagram, TikTok, and other social networks, named AVOCADO.",
     },
     sec4: {
       title: "Save money",
-      msg: "No need for any experts to have an ecommerce anymore! Say goodbye to the costly development, maintenance, programming process, and even ecommerce platforms experts' cost.",
+      // msg: "No need for any experts to have an ecommerce anymore! Say goodbye to the costly development, maintenance, programming process, and even ecommerce platforms experts' cost.",
     },
   },
 
@@ -105,7 +105,7 @@ export default {
     step3: {
       title: "White label / Flexible / Deeply customizable.",
       msg1: "Design your landing pages, and change the theme color of your site tailored to your brand message. Drag and Drop feature makes all this possible without the need to hire an expert.",
-      view_sample_pages:"Great SD Stores to Inspire You",
+      view_sample_pages: "Great SD Stores to Inspire You",
     },
     step4: {
       title:
@@ -131,7 +131,7 @@ export default {
     },
 
     job: {
-      title: "What is your industry?",
+      title: "Select your industry to start...",
       placeholder:
         "Switch your business to Selldone OS, no matter which platform you are currently using.",
     },
@@ -162,26 +162,29 @@ export default {
     title: "Multi payment providers + Direct payment.",
     subtitle:
       "A virtual wallet helps you control your cash flow and receive money directly through your payment services without any interference from your ecommerce platform.",
+    pacman: "Payment Plugins",
   },
 
   flow: {
     title: "Customizable checkout flow.",
     subtitle:
-        "Design your customer journey and purchase flow and experiment results.",
+      "Design your customer journey and purchase flow and experiment results.",
+    pacman: "Checkout Plugins",
   },
   business_model: {
     title: "Visually business model adoption.",
     subtitle:
-        "Setup your business model visually, all complexity will be tuned behind the scene.",
+      "Setup your business model visually, all complexity will be tuned behind the scene.",
+    pacman: "Marketplace & POD Plugins",
   },
-
 
   os: {
     title: "Access to world-class tools — All included.",
     msg: "We put the power of creating professional ecommerce at your fingertips.",
   },
   login: {
-    title: "Are you curious about building, managing, and scaling your business visually?",
+    title:
+      "Are you curious about building, managing, and scaling your business visually?",
   },
 
   currencies: {
@@ -342,9 +345,28 @@ export default {
     msg: "We will game by different rules in the brutal field of commerce platforms, especially when our competitors spend millions of dollars on advertising; we invest in the product, people, and solving real problems. This team back your business!",
   },
 
-  customers:{
+  customers: {
     title: "Meet our community.",
-    msg: "It's just a start of a journey to build meaningful tools to unlock future entrepreneurs by learning from our customers."
+    msg: "It's just a start of a journey to build meaningful tools to unlock future entrepreneurs by learning from our customers.",
+  },
+  /** {@see PanoramaImage} {@see HomePage} */
+
+  panorama: {
+    title:
+      'No costly plugins, <b class="font-weight-bold bg-gradient-animate text-gradient">All features pre-built</b>',
+    msg: "No need to spend hundreds of dollars on plugins and apps each month and worry about the updates. Like macOS for your PC, Selldone OS takes care of all technical sides of your business.",
+    orders_management: "Orders Management",
+    online_pos: "Online POS",
+    shipping: "Shipping",
+    inventory_management: "Inventory Management",
+    social_commerce: "Social Commerce",
+    in_store_sell: "In-store Sell",
+    team: "Team / Staff",
+    incentives: "Incentives / Loyalty",
+    community: "Community Management",
+    payments: "Local Payments",
+    ar_3d: "3D / AR",
   },
 
+  no_plugin: "No—plugin",
 };

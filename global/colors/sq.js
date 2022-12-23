@@ -45,7 +45,7 @@ export default {
   "#00582F": "Me gjelbërim të përhershëm",
   "#214C30": "Pyll",
   "#DC2867": "Fuchsia",
-  "#38561": "Kelly",
+  "#38561F" :"Kelly",
   "#5C884D": "Gjethja",
   "#558450": "Aqua e lehtë",
   "#96B5C9": "Blu e hapur",

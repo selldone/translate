@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Wit etiket / Buigsaam / Diep aanpasbaar.",
-      "msg1": "Ontwerp jou bestemmingsbladsye en verander die temakleur van jou werf wat aangepas is vir jou handelsmerkboodskap. Sleep en Drop-funksie maak dit alles moontlik sonder dat u 'n kundige hoef te huur."
+      "msg1": "Ontwerp jou bestemmingsbladsye en verander die temakleur van jou werf wat aangepas is vir jou handelsmerkboodskap. Sleep en Drop-funksie maak dit alles moontlik sonder dat u 'n kundige hoef te huur.",
+      "view_sample_pages": "Groot SD-winkels om jou te inspireer"
     },
     "step4": {
       "title": "Een-klik betaalpunt: verenigde betaalervaring regoor die wêreld.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Maklike aanlyn inkopie-webwerfbouer + direkte betaling.",
-    "subtitle": "As jy van plan is om 'n winsgewende aanlyn besigheid te bou en jou besigheidsidee in 'n werklikheid te omskep, is Selldone 'n perfekte keuse."
+    "subtitle": "As jy van plan is om 'n winsgewende aanlyn besigheid te bou en jou besigheidsidee in 'n werklikheid te omskep, is Selldone 'n perfekte keuse.",
+    "pacman": "Betaling plugins"
   },
   "os": {
     "title": "Toegang tot wêreldklas gereedskap - Gratis.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Gestuur",
     "fulfilment": "Vervulling",
     "community": "Gemeenskap en terugvoer"
-  }
+  },
+  "select_language_dialog_title": "Doen jou besigheid in jou gunsteling taal",
+  "welcome_title": "Bou, bestuur en skaal jou besigheid visueel",
+  "welcome_subtitle": "Maak jou aanlyn winkel deur geen-kode en geen kundige nodig oplossing vir miljoene bestellings.",
+  "your_shop": "Jou winkelfront",
+  "your_dashboard": "Jou Back Office",
+  "flow": {
+    "title": "Aanpasbare betaalvloei.",
+    "subtitle": "Ontwerp jou klantreis en aankoopvloei- en eksperimentresultate.",
+    "pacman": "Checkout-inproppe"
+  },
+  "business_model": {
+    "title": "Visuele aanneming van sakemodel.",
+    "subtitle": "Stel jou besigheidsmodel visueel op, alle kompleksiteit sal agter die toneel afgestem word.",
+    "pacman": "Marketplace & POD-inproppe"
+  },
+  "team": {
+    "title": "Ontmoet die span.",
+    "msg": "Ons sal volgens verskillende reëls speel in die brutale veld van handelsplatforms, veral wanneer ons mededingers miljoene dollars aan advertensies bestee; ons belê in die produk, mense, en die oplossing van werklike probleme. Hierdie span ondersteun jou besigheid!"
+  },
+  "customers": {
+    "title": "Ontmoet ons gemeenskap.",
+    "msg": "Dit is net 'n begin van 'n reis om betekenisvolle gereedskap te bou om toekomstige entrepreneurs te ontsluit deur van ons kliënte te leer."
+  },
+  "panorama": {
+    "title": "Geen duur inprop nie, <b class=\"font-weight-bold\">alle kenmerke voorafgebou</b>",
+    "msg": "U hoef nie elke maand honderde dollars aan inproppe en toepassings te spandeer en bekommerd te wees oor die opdaterings nie. Soos macOS vir jou rekenaar, sorg Selldone OS vir alle tegniese kante van jou besigheid.",
+    "orders_management": "Bestellingsbestuur",
+    "online_pos": "Aanlyn POS",
+    "shipping": "Gestuur",
+    "inventory_management": "Voorraadbestuur",
+    "social_commerce": "Sosiale handel",
+    "in_store_sell": "Verkoop in die winkel",
+    "team": "Span / Personeel",
+    "incentives": "Aansporings / lojaliteit",
+    "community": "Gemeenskapsbestuur",
+    "payments": "Plaaslike betalings",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Nee—inprop"
 };

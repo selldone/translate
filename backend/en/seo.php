@@ -166,7 +166,7 @@ return [
 
     'page.home' => ['title' => "Sales Like Professionals — Selldone® Business OS", 'image' => '/images/seo/en/create-my-ecommerce-website-free.jpg', 'description' => "Selldone is a Business OS to build, manage, and scale your business visually. Make it yourself with no-code and no-expert needed solution for millions of orders."],
     'page.helps' => ['title' => 'Help', 'image' => '/images/seo/en/help.jpg', 'description' => "How to make a successful business."],
-    'page.blogs' => ['title' => 'Blog', 'image' => '/images/seo/en/academy.jpg', 'description' => "The latest Selldone news and content."],
+    'page.blogs' => ['title' => 'Academy  | Selldone Business OS', 'image' => '/images/seo/en/academy.jpg', 'description' => "Your one-stop guide to selling online, tips, tricks, and expert advice, the do's and don'ts of online sales, with expert tips for maximizing your online revenue."],
     'page.faqs' => ['title' => 'Frequently Asked Questions', 'image' => '/images/seo/en/faq.jpg', 'description' => "Q&A on Selldone."],
     'page.price' => ['title' => 'Price list', 'image' => '/images/seo/en/price.jpg', 'description' => "All the professional features of building a store and site for free without any time limit are waiting for you."],
 
@@ -211,6 +211,7 @@ return [
 
     'page.participant' => ['title' => 'The community you want — Play and Win $20', 'image' => '/images/seo/en/participants.jpg', 'description' => "You can participate in the selldone community by creating short videos to help others and get up to 20 USD gift credit per video."],
 
+    'page.tax' => ['title' => 'Global Tax Rates List', 'image' => '/images/seo/en/tax.jpg', 'description' => "You can override tax rules and create more than one tax profile for different product categories."],
 
     /*
     |--------------------------------------------------------------------------

@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Bijela etiketa / Fleksibilna / Duboko prilagodljiva.",
-      "msg1": "Dizajnirajte svoje odredišne stranice i promijenite boju teme svoje stranice prilagođene poruci vaše robne marke. Značajka Drag and Drop čini sve to mogućim bez potrebe za angažiranjem stručnjaka."
+      "msg1": "Dizajnirajte svoje odredišne stranice i promijenite boju teme svoje stranice prilagođene poruci vaše robne marke. Značajka Drag and Drop čini sve to mogućim bez potrebe za angažiranjem stručnjaka.",
+      "view_sample_pages": "Sjajne SD trgovine koje će vas inspirirati"
     },
     "step4": {
       "title": "Naplata jednim klikom: Jedinstveno iskustvo naplate diljem svijeta.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Jednostavan alat za izradu web stranica za online kupnju + izravno plaćanje.",
-    "subtitle": "Ako planirate izgraditi profitabilan online posao i svoju poslovnu ideju pretvoriti u stvarnost, Selldone je savršen izbor."
+    "subtitle": "Ako planirate izgraditi profitabilan online posao i svoju poslovnu ideju pretvoriti u stvarnost, Selldone je savršen izbor.",
+    "pacman": "Dodaci za plaćanje"
   },
   "os": {
     "title": "Pristup vrhunskim alatima — besplatno.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "dostava",
     "fulfilment": "Ispunjenje",
     "community": "Zajednica i povratne informacije"
-  }
+  },
+  "select_language_dialog_title": "Posao na svom omiljenom jeziku",
+  "welcome_title": "Izgradite, upravljajte i vizualno proširite svoje poslovanje",
+  "welcome_subtitle": "Napravite svoju internetsku trgovinu rješenjem bez kodiranja i bez potrebe stručnjaka za milijune narudžbi.",
+  "your_shop": "Vaš izlog",
+  "your_dashboard": "Vaš Back Office",
+  "flow": {
+    "title": "Prilagodljiv tijek naplate.",
+    "subtitle": "Dizajnirajte svoje korisničko putovanje i tijek kupnje te rezultate eksperimenta.",
+    "pacman": "Dodaci za Checkout"
+  },
+  "business_model": {
+    "title": "Vizualno usvajanje poslovnog modela.",
+    "subtitle": "Postavite svoj poslovni model vizualno, sva će se složenost prilagoditi iza scene.",
+    "pacman": "Marketplace & POD dodaci"
+  },
+  "team": {
+    "title": "Upoznajte ekipu.",
+    "msg": "Igrat ćemo po drugačijim pravilima u brutalnom polju trgovačkih platformi, posebno kada naši konkurenti troše milijune dolara na oglašavanje; ulažemo u proizvod, ljude i rješavanje stvarnih problema. Ovaj tim podržava vaš posao!"
+  },
+  "customers": {
+    "title": "Upoznajte našu zajednicu.",
+    "msg": "To je samo početak puta ka izgradnji značajnih alata za otključavanje budućih poduzetnika učenjem od naših kupaca."
+  },
+  "panorama": {
+    "title": "Nema skupog dodatka, <b class=\"font-weight-bold\">sve su značajke unaprijed ugrađene</b>",
+    "msg": "Nema potrebe trošiti stotine dolara na dodatke i aplikacije svaki mjesec i brinuti se o ažuriranjima. Kao macOS za vaše računalo, Selldone OS brine o svim tehničkim stranama vašeg poslovanja.",
+    "orders_management": "Upravljanje narudžbama",
+    "online_pos": "Online POS",
+    "shipping": "dostava",
+    "inventory_management": "Upravljanje zalihama",
+    "social_commerce": "Društvena trgovina",
+    "in_store_sell": "Prodaja u trgovini",
+    "team": "Tim / Osoblje",
+    "incentives": "Poticaji/lojalnost",
+    "community": "Upravljanje zajednicom",
+    "payments": "Lokalna plaćanja",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Ne — dodatak"
 };

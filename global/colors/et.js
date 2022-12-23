@@ -45,7 +45,7 @@ export default {
   "#00582F": "Igihaljas",
   "#214C30": "Mets",
   "#DC2867": "Fuksia",
-  "#38561": "Kelly",
+  "#38561F" :"Kelly",
   "#5C884D": "Leht",
   "#558450": "Hele vesi",
   "#96B5C9": "Helesinine",

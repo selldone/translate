@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Summada cad / dabacsan / si qoto dheer loo beddeli karo.",
-      "msg1": "Nakhshad boggaga degitaanka, oo beddel midabka mawduuca boggaaga ee ku habboon farriinta astaantaada. Jiid iyo Jiid sifada ayaa ka dhigaysa waxaas oo dhan suurgal iyada oo aan loo baahnayn in la shaqaaleysiiyo khabiir."
+      "msg1": "Nakhshad boggaga degitaanka, oo beddel midabka mawduuca boggaaga ee ku habboon farriinta astaantaada. Jiid iyo Jiid sifada ayaa ka dhigaysa waxaas oo dhan suurgal iyada oo aan loo baahnayn in la shaqaaleysiiyo khabiir.",
+      "view_sample_pages": "Dukaammada SD ee Waaweyn si ay kuu Dhiirigeliyaan"
     },
     "step4": {
       "title": "Hubinta hal-guji: Khibrad hubineed midaysan oo adduunka ah.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Sameeyaha bogga wax iibsiga ee fudud ee internetka + lacag-bixin toos ah.",
-    "subtitle": "Haddii aad qorsheyneyso inaad dhisto ganacsi online ah oo faa'iido leh oo aad fikraddaada ganacsi u beddesho mid dhab ah, Selldone waa doorasho qumman."
+    "subtitle": "Haddii aad qorsheyneyso inaad dhisto ganacsi online ah oo faa'iido leh oo aad fikraddaada ganacsi u beddesho mid dhab ah, Selldone waa doorasho qumman.",
+    "pacman": "Lacag bixinta Plugins"
   },
   "os": {
     "title": "Helitaanka qalab heer caalami ah - Bilaash.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Raridda",
     "fulfilment": "Oofinta",
     "community": "Bulshada & Jawaab celinta"
-  }
+  },
+  "select_language_dialog_title": "Ku samee ganacsigaaga luqadda aad jeceshahay",
+  "welcome_title": "Dhis, maamul, oo cabbir ganacsigaaga muuqaal ahaan",
+  "welcome_subtitle": "U samee dukaanka khadka tooska ah adigoo isticmaalaya kood la'aan & khabiir aan loo baahnayn oo malaayiin dalab ah.",
+  "your_shop": "Dukaankaaga hortiisa",
+  "your_dashboard": "Xafiiskaaga dambe",
+  "flow": {
+    "title": "Socodka hubinta la beddeli karo.",
+    "subtitle": "Nakhshad safarkaaga macmiilka oo iibso qulqulka iyo natiijooyinka tijaabada.",
+    "pacman": "Hubinta Plugins"
+  },
+  "business_model": {
+    "title": "Korsashada qaabka ganacsiga muuqaal ahaan.",
+    "subtitle": "U deji qaabka ganacsigaaga muuqaal ahaan, dhammaan kakanaanta ayaa lagu hagaajin doonaa goobta gadaasheeda.",
+    "pacman": "Goobta suuqa & POD Plugins"
+  },
+  "team": {
+    "title": "La kulan kooxda",
+    "msg": "Waxaan ku ciyaari doonaa xeerar kala duwan oo ku saabsan goobta arxan darada ah ee goobaha ganacsiga, gaar ahaan marka tartamayaashayadu ay malaayiin doolar ku bixiyaan xayeysiinta; waxaanu maal galinaa badeecada, dadka, iyo xalinta dhibaatooyinka dhabta ah. Kooxdani waxay soo celisay ganacsigaaga!"
+  },
+  "customers": {
+    "title": "La kulan bulshadayada.",
+    "msg": "Kaliya waa bilawga safarka si loo dhiso qalab macne leh si loo furo ganacsatada mustaqbalka anagoo ka baranaya macaamiisheena."
+  },
+  "panorama": {
+    "title": "Ma jiro plugin qaali ah, <b class=\"font-weight-bold\">Dhammaan sifooyinka horay loo dhisay</b>",
+    "msg": "Looma baahna inaad boqolaal doolar ku kharash garayso plugins iyo apps bishii kasta oo aad ka werwerto cusbooneysiinta. Sida macOS kombuyutarkaaga, Selldone OS ayaa daryeesha dhammaan dhinacyada farsamada ee ganacsigaaga.",
+    "orders_management": "Maamulka Amarada",
+    "online_pos": "POS online",
+    "shipping": "Raridda",
+    "inventory_management": "Maamulka alaabada",
+    "social_commerce": "Ganacsiga Bulshada",
+    "in_store_sell": "Iibinta dukaanka dhexdiisa",
+    "team": "Kooxda / Shaqaalaha",
+    "incentives": "Dhiirrigelin / Daacadnimo",
+    "community": "Maamulka Bulshada",
+    "payments": "Lacagaha Maxaliga ah",
+    "ar_3d": "3D/AR"
+  },
+  "no_plugin": "Maya-plugin"
 };

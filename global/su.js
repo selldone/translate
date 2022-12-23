@@ -908,7 +908,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Leuweung",
     "#DC2867": "Fuchsia",
-    "#38561": "Kelly",
+    "#38561F" :"Kelly",
     "#5C884D": "Daun",
     "#558450": "Cahaya Aqua",
     "#96B5C9": "Biru Muda",

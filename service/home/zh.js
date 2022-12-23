@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "白标/灵活/深度可定制。",
-      "msg1": "设计您的登陆页面，并根据您的品牌信息更改网站的主题颜色。拖放功能使这一切成为可能，无需聘请专家。"
+      "msg1": "设计您的登陆页面，并根据您的品牌信息更改网站的主题颜色。拖放功能使这一切成为可能，无需聘请专家。",
+      "view_sample_pages": "伟大的 SD 商店给你灵感"
     },
     "step4": {
       "title": "一键结账：全球统一的结账体验。",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "简单的在线购物网站建设者+直接付款。",
-    "subtitle": "如果您打算建立一个有利可图的在线业务并将您的商业理念变为现实，Selldone 是一个完美的选择。"
+    "subtitle": "如果您打算建立一个有利可图的在线业务并将您的商业理念变为现实，Selldone 是一个完美的选择。",
+    "pacman": "支付插件"
   },
   "os": {
     "title": "使用世界一流的工具 — 免费。",
@@ -261,5 +263,44 @@ export default {
     "shipping": "船运",
     "fulfilment": "履行",
     "community": "社区与反馈"
-  }
+  },
+  "select_language_dialog_title": "用您最喜欢的语言开展业务",
+  "welcome_title": "直观地建立、管理和扩展您的业务",
+  "welcome_subtitle": "通过数百万个订单的无代码和无需专家的解决方案创建您的在线商店。",
+  "your_shop": "您的店面",
+  "your_dashboard": "您的后台",
+  "flow": {
+    "title": "可定制的结帐流程。",
+    "subtitle": "设计您的客户旅程和购买流程以及实验结果。",
+    "pacman": "结帐插件"
+  },
+  "business_model": {
+    "title": "可视化商业模式采用。",
+    "subtitle": "直观地设置您的业务模型，所有复杂性都将在幕后进行调整。",
+    "pacman": "市场和 POD 插件"
+  },
+  "team": {
+    "title": "认识团队。",
+    "msg": "我们将在残酷的商业平台领域中按不同的规则进行游戏，尤其是当我们的竞争对手在广告上花费数百万美元时；我们投资于产品、人员和解决实际问题。这个团队支持您的业务！"
+  },
+  "customers": {
+    "title": "认识我们的社区。",
+    "msg": "这只是构建有意义的工具以通过向客户学习来解锁未来企业家的旅程的开始。"
+  },
+  "panorama": {
+    "title": "没有昂贵的插件，<b class=\"font-weight-bold\">所有功能都是预先构建的</b>",
+    "msg": "无需每月在插件和应用程序上花费数百美元并担心更新。与适用于您 PC 的 macOS 一样，Selldone OS 负责您业务的所有技术方面。",
+    "orders_management": "订单管理",
+    "online_pos": "在线POS",
+    "shipping": "船运",
+    "inventory_management": "库存管理",
+    "social_commerce": "社交商务",
+    "in_store_sell": "店内销售",
+    "team": "团队/员工",
+    "incentives": "奖励/忠诚度",
+    "community": "社区管理",
+    "payments": "本地支付",
+    "ar_3d": "3D/AR"
+  },
+  "no_plugin": "否——插件"
 };

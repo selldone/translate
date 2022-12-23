@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "White label / Flexibel / Diep aanpasbaar.",
-      "msg1": "Ontwerp uw bestemmingspagina's en pas de themakleur van uw site aan op uw merkboodschap. De Drag and Drop-functie maakt dit allemaal mogelijk zonder dat u een expert hoeft in te huren."
+      "msg1": "Ontwerp uw bestemmingspagina's en pas de themakleur van uw site aan op uw merkboodschap. De Drag and Drop-functie maakt dit allemaal mogelijk zonder dat u een expert hoeft in te huren.",
+      "view_sample_pages": "Geweldige SD-winkels om u te inspireren"
     },
     "step4": {
       "title": "Afrekenen met één klik: uniforme betaalervaring over de hele wereld.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Eenvoudig online winkelen websitebouwer + Directe betaling.",
-    "subtitle": "Als u van plan bent een winstgevende online onderneming op te bouwen en uw bedrijfsidee werkelijkheid te laten worden, is Selldone de perfecte keuze."
+    "subtitle": "Als u van plan bent een winstgevende online onderneming op te bouwen en uw bedrijfsidee werkelijkheid te laten worden, is Selldone de perfecte keuze.",
+    "pacman": "Betaalplug-ins"
   },
   "os": {
     "title": "Toegang tot tools van wereldklasse - gratis.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Verzending",
     "fulfilment": "Vervulling",
     "community": "Gemeenschap & Feedback"
-  }
+  },
+  "select_language_dialog_title": "Doe uw zaken in uw favoriete taal",
+  "welcome_title": "Bouw, beheer en schaal uw bedrijf visueel",
+  "welcome_subtitle": "Maak uw online winkel door no-code & no-expert nodig oplossing voor miljoenen bestellingen.",
+  "your_shop": "Uw winkelpui",
+  "your_dashboard": "Uw backoffice",
+  "flow": {
+    "title": "Aanpasbare afrekenstroom.",
+    "subtitle": "Ontwerp uw klantreis en aankoopstroom en experimenteer resultaten.",
+    "pacman": "Checkout-plug-ins"
+  },
+  "business_model": {
+    "title": "Visueel bedrijfsmodel adoptie.",
+    "subtitle": "Stel uw businessmodel visueel in, alle complexiteit wordt achter de schermen afgestemd.",
+    "pacman": "Marktplaats- en POD-plug-ins"
+  },
+  "team": {
+    "title": "Ontmoet het team.",
+    "msg": "We zullen andere regels hanteren op het wrede gebied van handelsplatforms, vooral wanneer onze concurrenten miljoenen dollars uitgeven aan advertenties; we investeren in het product, de mensen en het oplossen van echte problemen. Dit team steunt uw bedrijf!"
+  },
+  "customers": {
+    "title": "Maak kennis met onze gemeenschap.",
+    "msg": "Het is slechts het begin van een reis om zinvolle tools te bouwen om toekomstige ondernemers te ontgrendelen door van onze klanten te leren."
+  },
+  "panorama": {
+    "title": "Geen dure plug-in, <b class=\"font-weight-bold\">alle functies zijn vooraf ingebouwd</b>",
+    "msg": "U hoeft niet elke maand honderden dollars uit te geven aan plug-ins en apps en u hoeft zich geen zorgen te maken over de updates. Net als macOS voor uw pc, zorgt Selldone OS voor alle technische aspecten van uw bedrijf.",
+    "orders_management": "Orderbeheer",
+    "online_pos": "Online kassa",
+    "shipping": "Verzending",
+    "inventory_management": "Voorraadbeheer",
+    "social_commerce": "Sociale handel",
+    "in_store_sell": "Verkoop in de winkel",
+    "team": "Team / Staf",
+    "incentives": "Incentives / Loyaliteit",
+    "community": "Gemeenschap beheer",
+    "payments": "Lokale betalingen",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Nee—plug-in"
 };

@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Biała etykieta / Elastyczny / Głęboko konfigurowalny.",
-      "msg1": "Zaprojektuj swoje strony docelowe i zmień kolor motywu witryny dostosowany do przekazu Twojej marki. Funkcja przeciągnij i upuść umożliwia to wszystko bez konieczności zatrudniania eksperta."
+      "msg1": "Zaprojektuj swoje strony docelowe i zmień kolor motywu witryny dostosowany do przekazu Twojej marki. Funkcja przeciągnij i upuść umożliwia to wszystko bez konieczności zatrudniania eksperta.",
+      "view_sample_pages": "Świetne sklepy SD, które Cię zainspirują"
     },
     "step4": {
       "title": "Kasa jednym kliknięciem: ujednolicona obsługa transakcji na całym świecie.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Prosty kreator stron do zakupów online + Płatność bezpośrednia.",
-    "subtitle": "Jeśli planujesz zbudować dochodowy biznes online i urzeczywistnić swój pomysł na biznes, Selldone jest idealnym wyborem."
+    "subtitle": "Jeśli planujesz zbudować dochodowy biznes online i urzeczywistnić swój pomysł na biznes, Selldone jest idealnym wyborem.",
+    "pacman": "Wtyczki do płatności"
   },
   "os": {
     "title": "Dostęp do światowej klasy narzędzi — bezpłatnie.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Wysyłka",
     "fulfilment": "Spełnienie",
     "community": "Społeczność i opinie"
-  }
+  },
+  "select_language_dialog_title": "Prowadź swój biznes w swoim ulubionym języku",
+  "welcome_title": "Buduj, zarządzaj i skaluj swoją firmę wizualnie",
+  "welcome_subtitle": "Stwórz swój sklep internetowy za pomocą rozwiązania bez kodu i bez eksperta dla milionów zamówień.",
+  "your_shop": "Twoja witryna sklepowa",
+  "your_dashboard": "Twoje Back Office",
+  "flow": {
+    "title": "Konfigurowalny przepływ kasy.",
+    "subtitle": "Zaprojektuj ścieżkę klienta, przepływ zakupów i wyniki eksperymentów.",
+    "pacman": "Wtyczki do kasy"
+  },
+  "business_model": {
+    "title": "Wizualne przyjęcie modelu biznesowego.",
+    "subtitle": "Skonfiguruj swój model biznesowy wizualnie, cała złożoność zostanie dostrojona za kulisami.",
+    "pacman": "Wtyczki Marketplace i POD"
+  },
+  "team": {
+    "title": "Poznaj drużynę.",
+    "msg": "Będziemy grać według różnych zasad w brutalnej dziedzinie platform handlowych, zwłaszcza gdy nasi konkurenci wydają miliony dolarów na reklamę; inwestujemy w produkt, ludzi i rozwiązywanie realnych problemów. Ten zespół wspiera Twój biznes!"
+  },
+  "customers": {
+    "title": "Poznaj naszą społeczność.",
+    "msg": "To dopiero początek drogi do budowania użytecznych narzędzi, które odblokowują przyszłych przedsiębiorców, ucząc się od naszych klientów."
+  },
+  "panorama": {
+    "title": "Brak kosztownych wtyczek, <b class=\"font-weight-bold\">wszystkie funkcje są wstępnie wbudowane</b>",
+    "msg": "Nie musisz co miesiąc wydawać setek dolarów na wtyczki i aplikacje i martwić się aktualizacjami. Podobnie jak macOS dla Twojego komputera, Selldone OS dba o wszystkie techniczne aspekty Twojej firmy.",
+    "orders_management": "Zarządzanie zamówieniami",
+    "online_pos": "POS online",
+    "shipping": "Wysyłka",
+    "inventory_management": "Zarządzanie zapasami",
+    "social_commerce": "Handel społecznościowy",
+    "in_store_sell": "Sprzedawaj w sklepie",
+    "team": "Zespół / Personel",
+    "incentives": "Zachęty / Lojalność",
+    "community": "Zarządzanie społecznością",
+    "payments": "Płatności lokalne",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Nie — wtyczka"
 };

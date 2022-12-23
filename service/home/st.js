@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "White label / Flexible / E ka tloaheleha ka botebo.",
-      "msg1": "Rala maqephe a hau a ho fihla, 'me u fetole' mala oa sehlooho sa sebaka sa hau se lumellanang le molaetsa oa lebitso la hau. Sebopeho sa Hula le ho Lahlela se etsa hore sena sohle se khonehe ntle le tlhoko ea ho hira setsebi."
+      "msg1": "Rala maqephe a hau a ho fihla, 'me u fetole' mala oa sehlooho sa sebaka sa hau se lumellanang le molaetsa oa lebitso la hau. Sebopeho sa Hula le ho Lahlela se etsa hore sena sohle se khonehe ntle le tlhoko ea ho hira setsebi.",
+      "view_sample_pages": "Mabenkele a Maholo a SD ho U Khothalletsa"
     },
     "step4": {
       "title": "Ho lefa ha 'ngoe feela: Boiphihlelo bo kopaneng ba ho lefa lefatšeng ka bophara.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Sehahi se bonolo sa marang-rang sa marang-rang + Tefo e tobileng.",
-    "subtitle": "Haeba u rera ho haha khoebo ea marang-rang e nang le phaello le ho fetola mohopolo oa hau oa khoebo hore e be oa nnete, Selldone ke khetho e phethahetseng."
+    "subtitle": "Haeba u rera ho haha khoebo ea marang-rang e nang le phaello le ho fetola mohopolo oa hau oa khoebo hore e be oa nnete, Selldone ke khetho e phethahetseng.",
+    "pacman": "Payment Plugins"
   },
   "os": {
     "title": "Ho fihlella lisebelisoa tsa maemo a lefats'e - Mahala.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Ho tsamaisa ka sekepe",
     "fulfilment": "Phethahatso",
     "community": "Sechaba le Maikutlo"
-  }
+  },
+  "select_language_dialog_title": "Etsa khoebo ea hau ka puo eo u e ratang haholo",
+  "welcome_title": "Theha, laola, 'me u ntlafatse khoebo ea hau ka pono",
+  "welcome_subtitle": "Etsa lebenkele la hau la Marang-rang ka ho se na khoutu le tharollo e hlokehang ea litsebi bakeng sa li-odara tse limilione.",
+  "your_shop": "Lebenkele la Hao",
+  "your_dashboard": "Ofisi ea hau e ka morao",
+  "flow": {
+    "title": "Mokhoa oa ho lefa oo u ka o khethang.",
+    "subtitle": "Rala leeto la bareki ba hao le ho reka thepa le liphetho tsa liteko.",
+    "pacman": "Li-plugins tsa Checkout"
+  },
+  "business_model": {
+    "title": "Kamohelo ea mohlala oa khoebo ka pono.",
+    "subtitle": "Beha mohlala oa hau oa khoebo ka pono, mathata ohle a tla beoa ka morao ho ketsahalo.",
+    "pacman": "Maraka le li-plugins tsa POD"
+  },
+  "team": {
+    "title": "Kopana le sehlopha.",
+    "msg": "Re tla bapala ka melao e fapaneng lebaleng le sehlōhō la sethala sa khoebo, haholo ha bahlolisani ba rona ba sebelisa limilione tsa lidolara ho bapatsa; re tsetela sehlahisoa, batho, le ho rarolla mathata a sebele. Sehlopha sena se tšehetsa khoebo ea hau!"
+  },
+  "customers": {
+    "title": "Kopana le sechaba sa rona.",
+    "msg": "Ke qalo feela ea leeto la ho aha lisebelisoa tsa bohlokoa tsa ho notlolla borakhoebo ba kamoso ka ho ithuta ho tsoa ho bareki ba rona."
+  },
+  "panorama": {
+    "title": "Ha ho plugin e turang, <b class=\"font-weight-bold\">Likarolo tsohle li entsoe esale pele</b>",
+    "msg": "Ha ho na tlhoko ea ho sebelisa lidolara tse makholo ho li-plugins le lits'ebetso khoeli le khoeli le ho tšoenyeha ka lintlafatso. Joalo ka macOS bakeng sa PC ea hau, Selldone OS e hlokomela mahlakore ohle a tekheniki a khoebo ea hau.",
+    "orders_management": "Tsamaiso ea Litaelo",
+    "online_pos": "POS ea inthaneteng",
+    "shipping": "Ho tsamaisa ka sekepe",
+    "inventory_management": "Tsamaiso ea thepa",
+    "social_commerce": "Khoebo ea Sechaba",
+    "in_store_sell": "Ka lebenkeleng Rekisa",
+    "team": "Sehlopha / Basebetsi",
+    "incentives": "Dikgothatso/ Botshepehi",
+    "community": "Tsamaiso ea Sechaba",
+    "payments": "Litefiso tsa lehae",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Che - plugin"
 };

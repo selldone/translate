@@ -134,6 +134,18 @@ We believe one person can make a change in the online humanity era, even who has
 
 * By translating each 1K words to your native language, you can claim a free 5USD (Or equivalent in your currency)  gift card to charge your selldone account. To verify, please send a mail.
 
+### Important 
+Please be aware of variables in translations! Do not change variables in translation. Variable patterns are variable_name  or {variable_name}. These variables must be precisely the same as in the English version. Please check it.
+
+**Wrong:**
+```
+"deposit-title" => "Dipòsit :import :moneda al compte :account_from.",
+```
+**Valid:**
+```
+"deposit-title" => "Dipòsit :amount :currency al compte :account_from.",
+```
+
 ### +140 Currencies
 Your customers can smoothly pay in their local currencies.
 

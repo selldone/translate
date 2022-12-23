@@ -908,7 +908,7 @@ export default {
     "#00582F": "Doim yashil",
     "#214C30": "O'rmon",
     "#DC2867": "Fuşya",
-    "#38561": "Kelli",
+    "#38561F" :"Kelli",
     "#5C884D": "Barg",
     "#558450": "Yengil Aqua",
     "#96B5C9": "Ochiq ko'k",

@@ -45,7 +45,7 @@ export default {
   "#00582F": "dökmeyen",
   "#214C30": "Orman",
   "#DC2867": "Fuşya",
-  "#38561": "Kelly",
+  "#38561F" :"Kelly",
   "#5C884D": "Yaprak",
   "#558450": "Hafif Su",
   "#96B5C9": "Açık mavi",

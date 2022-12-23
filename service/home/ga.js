@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Lipéad bán / Solúbtha / Go domhain saincheaptha.",
-      "msg1": "Dear do leathanaigh tuirlingthe, agus athraigh dath téama do shuíomh atá in oiriúint do theachtaireacht do bhranda. Déanann gné Tarraing agus Buail é seo ar fad gan gá le saineolaí a fhostú."
+      "msg1": "Dear do leathanaigh tuirlingthe, agus athraigh dath téama do shuíomh atá in oiriúint do theachtaireacht do bhranda. Déanann gné Tarraing agus Buail é seo ar fad gan gá le saineolaí a fhostú.",
+      "view_sample_pages": "Stórais SD iontacha chun Tú a Spreagadh"
     },
     "step4": {
       "title": "Seiceáil amach aon-cliceáil: Taithí seiceála aontaithe ar fud an domhain.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Tógálaí suíomh Gréasáin siopadóireachta éasca ar líne + Íocaíocht dhíreach.",
-    "subtitle": "Má tá sé ar intinn agat gnó brabúsach ar líne a thógáil agus do smaoineamh gnó a fhíorú, is rogha iontach é Soldone."
+    "subtitle": "Má tá sé ar intinn agat gnó brabúsach ar líne a thógáil agus do smaoineamh gnó a fhíorú, is rogha iontach é Soldone.",
+    "pacman": "Breiseáin Íocaíochta"
   },
   "os": {
     "title": "Rochtain ar uirlisí den scoth - Saor in Aisce.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Á sheoladh",
     "fulfilment": "Comhlíonadh",
     "community": "Pobal & Aiseolas"
-  }
+  },
+  "select_language_dialog_title": "Déan do ghnó sa teanga is fearr leat",
+  "welcome_title": "Tóg, bainistigh, agus scálaigh do ghnó ó thaobh amhairc",
+  "welcome_subtitle": "Déan do shiopa ar líne le réiteach gan chód agus gan saineolaí do na milliúin orduithe.",
+  "your_shop": "Do Aghaidh Stórais",
+  "your_dashboard": "D'Oifig Chúil",
+  "flow": {
+    "title": "Sreabhadh seiceála saincheaptha.",
+    "subtitle": "Dear do thuras custaiméara agus ceannaigh torthaí sreafa agus turgnaimh.",
+    "pacman": "Breiseáin Seiceáil Amach"
+  },
+  "business_model": {
+    "title": "Glacadh múnla gnó ó thaobh amhairc.",
+    "subtitle": "Socraigh do mhúnla gnó ó thaobh amhairc de, déanfar gach castacht a thiúnadh taobh thiar den radharc.",
+    "pacman": "Breiseáin Marketplace & POD"
+  },
+  "team": {
+    "title": "Buail leis an bhfoireann.",
+    "msg": "Déanfaimid cluiche de réir rialacha éagsúla i réimse brúidiúil na n-ardán tráchtála, go háirithe nuair a chaitheann ár n-iomaitheoirí na milliúin dollar ar fhógraíocht; déanaimid infheistíocht sa táirge, i ndaoine, agus i bhfíorfhadhbanna a réiteach. Tugann an fhoireann seo do ghnó ar ais!"
+  },
+  "customers": {
+    "title": "Buail lenár bpobal.",
+    "msg": "Níl ann ach tús aistir chun uirlisí lánbhríocha a thógáil chun fiontraithe na todhchaí a dhíghlasáil trí fhoghlaim ónár gcustaiméirí."
+  },
+  "panorama": {
+    "title": "Uimh breiseán costasach, <b class=\"font-weight-bold\">Gach gnéithe réamh-tógtha</b>",
+    "msg": "Ní gá na céadta dollar a chaitheamh ar fhorlíontáin agus aipeanna gach mí agus a bheith buartha faoi na nuashonruithe. Cosúil le macOS do do ríomhaire, tugann Soldone OS aire do gach taobh teicniúil de do ghnó.",
+    "orders_management": "Bainistíocht Orduithe",
+    "online_pos": "POS ar líne",
+    "shipping": "Á sheoladh",
+    "inventory_management": "Bainistíocht fardail",
+    "social_commerce": "Tráchtáil Shóisialta",
+    "in_store_sell": "Díol sa Siopa",
+    "team": "Foireann / Foireann",
+    "incentives": "Dreasachtaí / Dílseacht",
+    "community": "Bainistíocht Pobail",
+    "payments": "Íocaíochtaí Áitiúla",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Níl - breiseán"
 };

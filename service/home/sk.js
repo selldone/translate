@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Biely štítok / Flexibilný / Hlboko prispôsobiteľný.",
-      "msg1": "Navrhnite svoje vstupné stránky a zmeňte farbu témy svojej lokality prispôsobenú posolstvu vašej značky. Funkcia Drag and Drop toto všetko umožňuje bez toho, aby ste si museli najať odborníka."
+      "msg1": "Navrhnite svoje vstupné stránky a zmeňte farbu témy svojej lokality prispôsobenú posolstvu vašej značky. Funkcia Drag and Drop toto všetko umožňuje bez toho, aby ste si museli najať odborníka.",
+      "view_sample_pages": "Skvelé obchody SD, ktoré vás inšpirujú"
     },
     "step4": {
       "title": "Pokladňa jedným kliknutím: Jednotná platba za pokladňu po celom svete.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Jednoduchý nástroj na tvorbu webových stránok online nakupovania + priama platba.",
-    "subtitle": "Ak plánujete vybudovať ziskový online biznis a premeniť svoj podnikateľský nápad na realitu, Selldone je perfektnou voľbou."
+    "subtitle": "Ak plánujete vybudovať ziskový online biznis a premeniť svoj podnikateľský nápad na realitu, Selldone je perfektnou voľbou.",
+    "pacman": "Platobné doplnky"
   },
   "os": {
     "title": "Prístup k nástrojom svetovej triedy — zadarmo.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Doprava",
     "fulfilment": "Plnenie",
     "community": "Komunita a spätná väzba"
-  }
+  },
+  "select_language_dialog_title": "Podnikajte vo svojom obľúbenom jazyku",
+  "welcome_title": "Budujte, spravujte a škálujte svoju firmu vizuálne",
+  "welcome_subtitle": "Urobte si svoj online obchod pomocou riešenia bez kódu a bez odborníkov pre milióny objednávok.",
+  "your_shop": "Váš výklad",
+  "your_dashboard": "Vaša Back Office",
+  "flow": {
+    "title": "Prispôsobiteľný tok pokladne.",
+    "subtitle": "Navrhnite si cestu zákazníka, tok nákupu a výsledky experimentov.",
+    "pacman": "Pokladničné doplnky"
+  },
+  "business_model": {
+    "title": "Vizuálne prijatie obchodného modelu.",
+    "subtitle": "Nastavte svoj obchodný model vizuálne, všetka zložitosť bude vyladená v zákulisí.",
+    "pacman": "Trhovisko a doplnky POD"
+  },
+  "team": {
+    "title": "Zoznámte sa s tímom.",
+    "msg": "Na brutálnom poli obchodných platforiem budeme hrať podľa iných pravidiel, najmä keď naši konkurenti míňajú milióny dolárov na reklamu; investujeme do produktu, ľudí a riešenia skutočných problémov. Tento tím podporuje vaše podnikanie!"
+  },
+  "customers": {
+    "title": "Zoznámte sa s našou komunitou.",
+    "msg": "Je to len začiatok cesty k budovaniu zmysluplných nástrojov na odomknutie budúcich podnikateľov učením sa od našich zákazníkov."
+  },
+  "panorama": {
+    "title": "Žiadny nákladný doplnok, <b class=\"font-weight-bold\">všetky funkcie sú vopred pripravené</b>",
+    "msg": "Nemusíte každý mesiac míňať stovky dolárov za doplnky a aplikácie a starať sa o aktualizácie. Rovnako ako macOS pre váš počítač, aj Selldone OS sa stará o všetky technické stránky vášho podnikania.",
+    "orders_management": "Správa objednávok",
+    "online_pos": "Online POS",
+    "shipping": "Doprava",
+    "inventory_management": "Riadenie zásob",
+    "social_commerce": "Sociálny obchod",
+    "in_store_sell": "Predaj v obchode",
+    "team": "Tím / Zamestnanci",
+    "incentives": "Stimuly / Vernosť",
+    "community": "Správa komunity",
+    "payments": "Miestne platby",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Nie – plugin"
 };

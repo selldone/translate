@@ -45,7 +45,7 @@ export default {
   "#00582F": "Perenne",
   "#214C30": "Bosc",
   "#DC2867": "Fúcsia",
-  "#38561": "Kelly",
+  "#38561F" :"Kelly",
   "#5C884D": "Full",
   "#558450": "Aqua clar",
   "#96B5C9": "Blau clar",

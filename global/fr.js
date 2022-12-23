@@ -908,7 +908,7 @@ export default {
     "#00582F": "À feuilles persistantes",
     "#214C30": "Forêt",
     "#DC2867": "Fuchsia",
-    "#38561": "Kelly",
+    "#38561F" :"Kelly",
     "#5C884D": "Feuille",
     "#558450": "Aqua clair",
     "#96B5C9": "Bleu clair",

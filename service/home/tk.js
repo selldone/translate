@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Ak bellik / Çeýe / Çuňňur düzülip bilner.",
-      "msg1": "Giriş sahypalaryňyzy dizaýn ediň we sahypaňyzyň mowzuk reňkini marka habaryna görä üýtgediň. “Drag and Drop” aýratynlygy, bularyň hemmesini hünärmen işe almazdan mümkin edýär."
+      "msg1": "Giriş sahypalaryňyzy dizaýn ediň we sahypaňyzyň mowzuk reňkini marka habaryna görä üýtgediň. “Drag and Drop” aýratynlygy, bularyň hemmesini hünärmen işe almazdan mümkin edýär.",
+      "view_sample_pages": "Size ylham bermek üçin ajaýyp SD dükanlary"
     },
     "step4": {
       "title": "Bir gezek basmak üçin töleg: Bütin dünýäde birleşdirilen töleg tejribesi.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Onlineönekeý onlaýn söwda web sahypasyny dörediji + Göni töleg.",
-    "subtitle": "Girdejili onlaýn işewürlik gurmak we iş ideýaňyzy hakykata öwürmek isleseňiz, Selldone ajaýyp saýlawdyr."
+    "subtitle": "Girdejili onlaýn işewürlik gurmak we iş ideýaňyzy hakykata öwürmek isleseňiz, Selldone ajaýyp saýlawdyr.",
+    "pacman": "Töleg plaginleri"
   },
   "os": {
     "title": "Dünýä derejesindäki gurallara giriş - Mugt.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Eltip bermek",
     "fulfilment": "Erine ýetirmek",
     "community": "Jemgyýet we seslenme"
-  }
+  },
+  "select_language_dialog_title": "Işiňizi halaýan diliňizde ediň",
+  "welcome_title": "Işiňizi wizual görnüşde guruň, dolandyryň we ulaldyň",
+  "welcome_subtitle": "Onlaýn dükanyňyzy millionlarça sargytlar üçin kodsyz we hünärmen zerur çözgüt bilen düzüň.",
+  "your_shop": "Dükanyňyz",
+  "your_dashboard": "Yzky ofis",
+  "flow": {
+    "title": "Özbaşdak düzüliş akymy.",
+    "subtitle": "Müşderiňiziň syýahatyny dizaýn ediň we akym we synag netijelerini satyn alyň.",
+    "pacman": "Çykyş plaginleri"
+  },
+  "business_model": {
+    "title": "Wizual işewürlik modelini kabul etmek.",
+    "subtitle": "Iş modeliňizi wizual görnüşde düzüň, ähli çylşyrymlylyk sahnanyň aňyrsynda düzüler.",
+    "pacman": "Bazar we POD pluginleri"
+  },
+  "team": {
+    "title": "Topar bilen tanyş.",
+    "msg": "Söwda platformalarynyň zalym meýdanynda, esasanam bäsdeşlerimiz mahabat üçin millionlarça dollar sarp edenlerinde, dürli düzgünler bilen oýnarys; önüme, adamlara maýa goýýarys we hakyky meseleleri çözýäris. Bu topar işiňizi goldaýar!"
+  },
+  "customers": {
+    "title": "Jemgyýetimiz bilen tanyş.",
+    "msg": "Müşderilerimizden öwrenip, geljekki telekeçileri açmak üçin manyly gurallary gurmak üçin syýahatyň başlangyjydyr."
+  },
+  "panorama": {
+    "title": "Gymmat plugin ýok, <b class=\"font-weight-bold\">featureshli aýratynlyklar öňünden gurlan</b>",
+    "msg": "Her aý pluginlere we programmalara ýüzlerçe dollar sarp etmegiň we täzelenmeler barada alada etmegiň zerurlygy ýok. Kompýuteriňiz üçin macOS ýaly, Selldone OS işiňiziň ähli tehniki taraplaryna üns berýär.",
+    "orders_management": "Sargytlary dolandyrmak",
+    "online_pos": "Onlaýn POS",
+    "shipping": "Eltip bermek",
+    "inventory_management": "Inwentar dolandyryşy",
+    "social_commerce": "Sosial söwda",
+    "in_store_sell": "Dükanda sat",
+    "team": "Topar / işgärler",
+    "incentives": "Höweslendiriş / wepalylyk",
+    "community": "Jemgyýet dolandyryşy",
+    "payments": "Payerli tölegler",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "—Ok"
 };

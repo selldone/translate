@@ -45,7 +45,7 @@ export default {
   "#00582F": "Immergrün",
   "#214C30": "Wald",
   "#DC2867": "Fuchsie",
-  "#38561": "Kelly",
+  "#38561F" :"Kelly",
   "#5C884D": "Blatt",
   "#558450": "Helles Aqua",
   "#96B5C9": "Hellblau",

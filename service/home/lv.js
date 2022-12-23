@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Balta etiķete / Elastīga / Dziļi pielāgojama.",
-      "msg1": "Izstrādājiet savas galvenās lapas un mainiet savas vietnes motīva krāsu atbilstoši jūsu zīmola vēstījumam. Vilkšanas un nomešanas funkcija padara to visu iespējamu bez nepieciešamības nolīgt ekspertu."
+      "msg1": "Izstrādājiet savas galvenās lapas un mainiet savas vietnes motīva krāsu atbilstoši jūsu zīmola vēstījumam. Vilkšanas un nomešanas funkcija padara to visu iespējamu bez nepieciešamības nolīgt ekspertu.",
+      "view_sample_pages": "Lieliski SD veikali, lai jūs iedvesmotu"
     },
     "step4": {
       "title": "Izrakstīšanās ar vienu klikšķi: vienota norēķināšanās pieredze visā pasaulē.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Vienkāršs tiešsaistes iepirkšanās vietņu veidotājs + tiešais maksājums.",
-    "subtitle": "Ja plānojat izveidot ienesīgu tiešsaistes biznesu un pārvērst savu biznesa ideju par realitāti, Selldone ir lieliska izvēle."
+    "subtitle": "Ja plānojat izveidot ienesīgu tiešsaistes biznesu un pārvērst savu biznesa ideju par realitāti, Selldone ir lieliska izvēle.",
+    "pacman": "Maksājumu spraudņi"
   },
   "os": {
     "title": "Piekļuve pasaules līmeņa rīkiem — bez maksas.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Piegāde",
     "fulfilment": "Piepildīšana",
     "community": "Kopiena un atsauksmes"
-  }
+  },
+  "select_language_dialog_title": "Veiciet savu biznesu savā iecienītākajā valodā",
+  "welcome_title": "Veidojiet, pārvaldiet un vizuāli mērogojiet savu uzņēmumu",
+  "welcome_subtitle": "Izveidojiet savu tiešsaistes veikalu bez koda un bez ekspertiem, kas nepieciešami miljoniem pasūtījumu.",
+  "your_shop": "Jūsu veikala mājaslapa",
+  "your_dashboard": "Jūsu Back Office",
+  "flow": {
+    "title": "Pielāgojama izrakstīšanās plūsma.",
+    "subtitle": "Izstrādājiet savu klientu ceļu un pirkumu plūsmu un eksperimentējiet rezultātus.",
+    "pacman": "Checkout spraudņi"
+  },
+  "business_model": {
+    "title": "Vizuāli biznesa modeļa pieņemšana.",
+    "subtitle": "Iestatiet savu biznesa modeli vizuāli, visa sarežģītība tiks pielāgota aizkulisēs.",
+    "pacman": "Marketplace un POD spraudņi"
+  },
+  "team": {
+    "title": "Iepazīstieties ar komandu.",
+    "msg": "Mēs spēlēsim pēc dažādiem noteikumiem brutālajā tirdzniecības platformu jomā, it īpaši, ja mūsu konkurenti reklāmām tērē miljoniem dolāru; mēs ieguldām produktā, cilvēkos un reālu problēmu risināšanā. Šī komanda atbalsta jūsu biznesu!"
+  },
+  "customers": {
+    "title": "Iepazīstieties ar mūsu kopienu.",
+    "msg": "Tas ir tikai sākums ceļojumam, lai izveidotu jēgpilnus rīkus, lai atvērtu nākotnes uzņēmējus, mācoties no mūsu klientiem."
+  },
+  "panorama": {
+    "title": "Nav dārga spraudņa, <b class=\"font-weight-bold\">visas funkcijas ir iepriekš izveidotas</b>",
+    "msg": "Katru mēnesi nav jātērē simtiem dolāru par spraudņiem un lietotnēm un jāuztraucas par atjauninājumiem. Tāpat kā MacOS jūsu personālajam datoram, Selldone OS rūpējas par visām jūsu biznesa tehniskajām pusēm.",
+    "orders_management": "Pasūtījumu pārvaldība",
+    "online_pos": "Tiešsaistes POS",
+    "shipping": "Piegāde",
+    "inventory_management": "Krājumu vadība",
+    "social_commerce": "Sociālā komercija",
+    "in_store_sell": "Veikalā Pārdod",
+    "team": "Komanda / personāls",
+    "incentives": "Stimuli / lojalitāte",
+    "community": "Kopienas vadība",
+    "payments": "Vietējie maksājumi",
+    "ar_3d": "3D/AR"
+  },
+  "no_plugin": "Nē — spraudnis"
 };

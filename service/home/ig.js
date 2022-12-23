@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Akara ọcha / Mgbanwe / Na-ahazi nke ọma.",
-      "msg1": "Chepụta ibe ọdịda gị, wee gbanwee agba isiokwu nke saịtị gị nke ahaziri maka ozi ika gị. Njirimara ịdọrọ na dobe na-eme ka ihe a niile kwe omume na-enweghị mkpa ịkpọ onye ọkachamara n'ọrụ."
+      "msg1": "Chepụta ibe ọdịda gị, wee gbanwee agba isiokwu nke saịtị gị nke ahaziri maka ozi ika gị. Njirimara ịdọrọ na dobe na-eme ka ihe a niile kwe omume na-enweghị mkpa ịkpọ onye ọkachamara n'ọrụ.",
+      "view_sample_pages": "Ezigbo ụlọ ahịa SD na-akpali gị"
     },
     "step4": {
       "title": "Ntugharị otu pịa: Ahụmịhe ndenye ọpụpụ jikọtara ọnụ gburugburu ụwa.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Onye nrụpụta weebụsaịtị ịzụ ahịa n'ịntanetị dị mfe + ịkwụ ụgwọ ozugbo.",
-    "subtitle": "Ọ bụrụ na ị na-eme atụmatụ iwulite azụmaahịa n'ịntanetị na-erite uru ma tụgharịa echiche azụmaahịa gị ka ọ bụrụ eziokwu, Selldone bụ nhọrọ zuru oke."
+    "subtitle": "Ọ bụrụ na ị na-eme atụmatụ iwulite azụmaahịa n'ịntanetị na-erite uru ma tụgharịa echiche azụmaahịa gị ka ọ bụrụ eziokwu, Selldone bụ nhọrọ zuru oke.",
+    "pacman": "Ngwa nkwụnye ụgwọ"
   },
   "os": {
     "title": "Ịnweta ngwaọrụ ọkwa ụwa - efu.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Mbupu",
     "fulfilment": "Mmezu",
     "community": "Ogbe & Nzaghachi"
-  }
+  },
+  "select_language_dialog_title": "Mee azụmahịa gị n'asụsụ ọkacha mmasị gị",
+  "welcome_title": "Wulite, jikwaa, ma kwalite azụmahịa gị n'anya",
+  "welcome_subtitle": "Mepụta ụlọ ahịa dị n'ịntanetị site na enweghị koodu & enweghị ọkachamara chọrọ ngwọta maka nde iwu.",
+  "your_shop": "N'ihu ụlọ ahịa gị",
+  "your_dashboard": "Ụlọ ọrụ azụ gị",
+  "flow": {
+    "title": "Usoro ndenye ọpụpụ nwere ike ịhazi ya.",
+    "subtitle": "Chepụta njem ndị ahịa gị na ịzụrụ ọsọ na nnwale nnwale.",
+    "pacman": "Lelee ngwa mgbakwunye"
+  },
+  "business_model": {
+    "title": "Nkuchi ụdị azụmaahịa anya.",
+    "subtitle": "Tọọ ụdị azụmahịa gị n'anya, a ga-edozi mgbagwoju anya niile n'azụ ọnọdụ ahụ.",
+    "pacman": "Ebe ahịa & ngwa mgbakwunye POD"
+  },
+  "team": {
+    "title": "Zute otu.",
+    "msg": "Anyị ga-egwu dị iche iche iwu na obi ọjọọ ubi nke azụmahịa nyiwe, karịsịa mgbe anyị asọmpi na-eji ọtụtụ nde dollar na mgbasa ozi; anyị na-etinye ego na ngwaahịa, ndị mmadụ, na-edozi ezigbo nsogbu. Otu a kwadoro azụmahịa gị!"
+  },
+  "customers": {
+    "title": "Zute obodo anyị.",
+    "msg": "Ọ bụ naanị mmalite nke njem iji wuo ngwaọrụ bara uru iji kpọghee ndị ọchụnta ego n'ọdịnihu site n'ịmụ ihe n'aka ndị ahịa anyị."
+  },
+  "panorama": {
+    "title": "Enweghị ngwa mgbakwunye dị ọnụ, <b class=\"font-weight-bold\">arụrụrịrị atụmatụ niile</b>",
+    "msg": "Ọ dịghị mkpa na-emefu ọtụtụ narị dollar na plugins na ngwa kwa ọnwa na-echegbu onwe banyere mmelite. Dị ka macOS maka PC gị, Selldone OS na-elekọta akụkụ teknụzụ niile nke azụmahịa gị.",
+    "orders_management": "Njikwa iwu",
+    "online_pos": "POS dị n'ịntanetị",
+    "shipping": "Mbupu",
+    "inventory_management": "Njikwa ngwa ahịa",
+    "social_commerce": "Azụmahịa ọha",
+    "in_store_sell": "N'ụlọ ahịa ere",
+    "team": "Otu / Ndị ọrụ",
+    "incentives": "Ihe mkpali / iguzosi ike n'ihe",
+    "community": "Njikwa Obodo",
+    "payments": "Paymentkwụ ụgwọ mpaghara",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Mba — ngwa mgbakwunye"
 };

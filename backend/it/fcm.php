@@ -3,11 +3,11 @@
  return [
      "received-gift" => [
      "title" => "Regalo ricevuto.",
-     "message" => "Congratulazioni :nome, Ti inviamo :importo :un regalo in valuta.",
+     "message" => "Congratulazioni :name, Ti inviamo :amount :currency regalo in valuta.",
 ],
      "account-transaction" => [
-     "deposit-title" => "Deposito :importo :valuta sul conto :account_da.",
-     "withdraw-title" => "Prelievo :importo :valuta dall'account :account_from.",
+     "deposit-title" => "Deposito :amount :currency sul conto :account_from.",
+     "withdraw-title" => "Prelievo :amount :currency dall'account :account_from.",
      "message" => "È stata eseguita una nuova transazione nel tuo account.",
 ],
 ];

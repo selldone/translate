@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Blan etikèt / fleksib / Pwofondman customizable.",
-      "msg1": "Desine paj aterisaj ou yo, epi chanje koulè tèm nan sit ou adapte a mesaj mak ou a. Karakteristik trennen ak gout fè tout bagay sa a posib san yo pa bezwen anboche yon ekspè."
+      "msg1": "Desine paj aterisaj ou yo, epi chanje koulè tèm nan sit ou adapte a mesaj mak ou a. Karakteristik trennen ak gout fè tout bagay sa a posib san yo pa bezwen anboche yon ekspè.",
+      "view_sample_pages": "Gwo magazen SD pou enspire ou"
     },
     "step4": {
       "title": "Yon sèl-klike kesye: Eksperyans kesye inifye atravè mond lan.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Builder sit entènèt fasil pou fè makèt sou entènèt + Peman dirèk.",
-    "subtitle": "Si w gen plan pou konstwi yon biznis sou entènèt fwofitab epi fè lide biznis ou tounen yon reyalite, Selldone se yon chwa pafè."
+    "subtitle": "Si w gen plan pou konstwi yon biznis sou entènèt fwofitab epi fè lide biznis ou tounen yon reyalite, Selldone se yon chwa pafè.",
+    "pacman": "Plugins Peman"
   },
   "os": {
     "title": "Aksè nan zouti klas mondyal — Gratis.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Shipping",
     "fulfilment": "Akonplisman",
     "community": "Kominote & Feedback"
-  }
+  },
+  "select_language_dialog_title": "Fè biznis ou nan lang ou pi renmen",
+  "welcome_title": "Bati, jere, ak echèl biznis ou vizyèlman",
+  "welcome_subtitle": "Fè magazen sou entènèt ou a pa gen okenn kòd ak pa gen okenn ekspè solisyon nesesè pou dè milyon de lòd.",
+  "your_shop": "devan magazen ou a",
+  "your_dashboard": "Back Office ou",
+  "flow": {
+    "title": "Customizable koule kesye.",
+    "subtitle": "Konsepsyon vwayaj kliyan ou a epi achte rezilta ak rezilta eksperyans.",
+    "pacman": "Kès Plugins"
+  },
+  "business_model": {
+    "title": "Vizyèlman adopsyon modèl biznis.",
+    "subtitle": "Enstale modèl biznis ou vizyèlman, tout konpleksite yo pral branche dèyè sèn nan.",
+    "pacman": "Marketplace & POD Plugins"
+  },
+  "team": {
+    "title": "Rankontre ekip la.",
+    "msg": "Nou pral jwe selon règ diferan nan jaden an brital nan platfòm komès, espesyalman lè konpetitè nou yo depanse dè milyon de dola nan piblisite; nou envesti nan pwodwi a, moun, ak rezoud pwoblèm reyèl. Ekip sa a tounen biznis ou!"
+  },
+  "customers": {
+    "title": "Rankontre kominote nou an.",
+    "msg": "Se jis yon kòmansman yon vwayaj pou konstwi zouti siyifikatif pou déblotché fiti antreprenè nan aprann nan men kliyan nou yo."
+  },
+  "panorama": {
+    "title": "Pa gen plugin koute chè, <b class=\"font-weight-bold\">tout karakteristik pre-bati</b>",
+    "msg": "Pa bezwen depanse dè santèn de dola sou grefon ak apps chak mwa epi enkyete sou mizajou yo. Tankou macOS pou PC ou, Selldone OS pran swen tout pati teknik nan biznis ou.",
+    "orders_management": "Jesyon Lòd",
+    "online_pos": "POS sou entènèt",
+    "shipping": "Shipping",
+    "inventory_management": "Jesyon envantè",
+    "social_commerce": "Komès Sosyal",
+    "in_store_sell": "Vann nan magazen an",
+    "team": "Ekip / Anplwaye",
+    "incentives": "Ankourajman / Lwayote",
+    "community": "Jesyon Kominote",
+    "payments": "Peman lokal yo",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Non—plugin"
 };

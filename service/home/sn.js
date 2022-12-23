@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "White label / Flexible / Zvakadzama customizable.",
-      "msg1": "Gadzira mapeji ako ekumhara, uye shandura iyo theme color yesaiti yako yakarongedzerwa kune yako brand meseji. Dhova uye Drop chimiro chinoita kuti zvese izvi zvigoneke pasina chikonzero chekuhaya nyanzvi."
+      "msg1": "Gadzira mapeji ako ekumhara, uye shandura iyo theme color yesaiti yako yakarongedzerwa kune yako brand meseji. Dhova uye Drop chimiro chinoita kuti zvese izvi zvigoneke pasina chikonzero chekuhaya nyanzvi.",
+      "view_sample_pages": "Zvitoro Zvikuru zveSD Kukukurudzira"
     },
     "step4": {
       "title": "Kamwe-tinya kubuda: Yakabatana yekutarisa chiitiko kutenderera pasirese.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Easy online kutenga webhusaiti kuvaka + Kubhadhara kwakananga.",
-    "subtitle": "Kana iwe ukaronga kuvaka bhizimusi repamhepo rinoita mhindu uye woshandura bhizinesi rako zano kuita chokwadi, Selldone isarudzo yakakwana."
+    "subtitle": "Kana iwe ukaronga kuvaka bhizimusi repamhepo rinoita mhindu uye woshandura bhizinesi rako zano kuita chokwadi, Selldone isarudzo yakakwana.",
+    "pacman": "Payment Plugins"
   },
   "os": {
     "title": "Kuwanikwa kune maturusi epasirese - Yemahara.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Shipping",
     "fulfilment": "Kuzadzikiswa",
     "community": "Nharaunda & Feedback"
-  }
+  },
+  "select_language_dialog_title": "Ita bhizinesi rako nemutauro waunofarira",
+  "welcome_title": "Vaka, maneja, uye kuyera bhizinesi rako nekuona",
+  "welcome_subtitle": "Gadzira yako online chitoro pasina-kodhi & hapana-nyanzvi inodiwa mhinduro yemamirioni emaodha.",
+  "your_shop": "Chitoro Chako",
+  "your_dashboard": "Back Office yako",
+  "flow": {
+    "title": "Customizable Checkout flow.",
+    "subtitle": "Gadzira rwendo rwemutengi wako uye kuyerera kwekutenga uye mhinduro dzekuyedza.",
+    "pacman": "Checkout Plugins"
+  },
+  "business_model": {
+    "title": "Zvinoonekwa bhizinesi modhi yekugamuchirwa.",
+    "subtitle": "Gadzirisa bhizinesi rako modhi zvinoonekwa, kuomarara kwese kunozogadziriswa kuseri kwechiitiko.",
+    "pacman": "Musika & POD Plugins"
+  },
+  "team": {
+    "title": "Sangana nechikwata.",
+    "msg": "Tichatamba nemirau yakasiyana-siyana mundima ine hutsinye yemapuratifomu ekutengeserana, kunyanya kana vakwikwidzi vedu vachishandisa mamirioni emadhora pakushambadzira; isu tinodyara muchigadzirwa, vanhu, uye kugadzirisa matambudziko chaiwo. Chikwata ichi dzosera bhizinesi rako!"
+  },
+  "customers": {
+    "title": "Sangana nenharaunda yedu.",
+    "msg": "Ingori kutanga kwerwendo rwekuvaka maturusi ane musoro ekuvhura mabhizinesi emangwana nekudzidza kubva kune vatengi vedu."
+  },
+  "panorama": {
+    "title": "Hapana plugin inodhura, <b class=\"font-weight-bold\">Zvese zvinhu zvakafanovakwa</b>",
+    "msg": "Hapana chikonzero chekushandisa mazana emadhora pane plugins uye maapplication mwedzi wega wega uye kunetseka nezve inogadziridza. Kunge macOS yePC yako, Selldone OS inotarisira ese tekinoroji mativi ebhizinesi rako.",
+    "orders_management": "Orders Management",
+    "online_pos": "Online POS",
+    "shipping": "Shipping",
+    "inventory_management": "Inventory management",
+    "social_commerce": "Social Commerce",
+    "in_store_sell": "Muchitoro Sell",
+    "team": "Chikwata / Vashandi",
+    "incentives": "Kukurudzira / Kuvimbika",
+    "community": "Community Management",
+    "payments": "Local Payments",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Kwete-plugin"
 };

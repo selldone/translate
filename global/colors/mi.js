@@ -45,7 +45,7 @@ export default {
   "#00582F": "Evergreen",
   "#214C30": "Ngahere",
   "#DC2867": "Puhihia",
-  "#38561": "Kelly",
+  "#38561F" :"Kelly",
   "#5C884D": "Rau",
   "#558450": "Aqua Maama",
   "#96B5C9": "Kahurangi Maama",

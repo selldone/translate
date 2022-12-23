@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Etichetă albă / Flexibil / profund personalizabil.",
-      "msg1": "Proiectați-vă paginile de destinație și schimbați culoarea temei site-ului dvs., adaptată mesajului mărcii dvs. Funcția de glisare și plasare face toate acestea posibile fără a fi nevoie să angajați un expert."
+      "msg1": "Proiectați-vă paginile de destinație și schimbați culoarea temei site-ului dvs., adaptată mesajului mărcii dvs. Funcția de glisare și plasare face toate acestea posibile fără a fi nevoie să angajați un expert.",
+      "view_sample_pages": "Magazine SD excelente pentru a vă inspira"
     },
     "step4": {
       "title": "Checkout cu un singur clic: experiență de plată unificată în întreaga lume.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Creator simplu de site-uri de cumpărături online + plată directă.",
-    "subtitle": "Dacă intenționați să construiți o afacere online profitabilă și să vă transformați ideea de afaceri în realitate, Selldone este alegerea perfectă."
+    "subtitle": "Dacă intenționați să construiți o afacere online profitabilă și să vă transformați ideea de afaceri în realitate, Selldone este alegerea perfectă.",
+    "pacman": "Pluginuri de plată"
   },
   "os": {
     "title": "Acces la instrumente de clasă mondială — Gratuit.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "livrare",
     "fulfilment": "Împlinire",
     "community": "Comunitate și feedback"
-  }
+  },
+  "select_language_dialog_title": "Faceți-vă afacerea în limba preferată",
+  "welcome_title": "Construiți, gestionați și scalați-vă afacerea vizual",
+  "welcome_subtitle": "Creați-vă magazinul online cu o soluție fără cod și fără experti pentru milioane de comenzi.",
+  "your_shop": "Vitrina dvs",
+  "your_dashboard": "Back Office-ul tău",
+  "flow": {
+    "title": "Flux de plată personalizabil.",
+    "subtitle": "Proiectați-vă călătoria clientului și fluxul de achiziții și rezultatele experimentului.",
+    "pacman": "Pluginuri de checkout"
+  },
+  "business_model": {
+    "title": "Adoptarea vizuală a modelului de afaceri.",
+    "subtitle": "Configurați-vă vizual modelul de afaceri, toată complexitatea va fi reglată în spatele scenei.",
+    "pacman": "Pluginuri Marketplace și POD"
+  },
+  "team": {
+    "title": "Fa cunostinta cu echipa.",
+    "msg": "Ne vom juca după reguli diferite în domeniul brutal al platformelor de comerț, mai ales când concurenții noștri cheltuiesc milioane de dolari pe publicitate; investim în produs, oameni și rezolvarea problemelor reale. Această echipă vă sprijină afacerea!"
+  },
+  "customers": {
+    "title": "Faceți cunoștință cu comunitatea noastră.",
+    "msg": "Este doar începutul unei călătorii pentru a construi instrumente semnificative pentru a debloca viitorii antreprenori, învățând de la clienții noștri."
+  },
+  "panorama": {
+    "title": "Niciun plugin costisitor, <b class=\"font-weight-bold\">Toate caracteristicile sunt pre-construite</b>",
+    "msg": "Nu este nevoie să cheltuiți sute de dolari pe pluginuri și aplicații în fiecare lună și să vă faceți griji pentru actualizări. La fel ca macOS pentru computerul dvs., Selldone OS are grijă de toate aspectele tehnice ale afacerii dvs.",
+    "orders_management": "Managementul comenzilor",
+    "online_pos": "POS online",
+    "shipping": "livrare",
+    "inventory_management": "Gestionarea stocurilor",
+    "social_commerce": "Comertul Social",
+    "in_store_sell": "Vânzare în magazin",
+    "team": "Echipa / Personalul",
+    "incentives": "Stimulente / Loialitate",
+    "community": "Management comunitar",
+    "payments": "Plăți locale",
+    "ar_3d": "3D/AR"
+  },
+  "no_plugin": "Nu—plugin"
 };

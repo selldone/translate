@@ -908,7 +908,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Ihlathi",
     "#DC2867": "I-Fuchsia",
-    "#38561": "Kelly",
+    "#38561F" :"Kelly",
     "#5C884D": "Iqabunga",
     "#558450": "I-Aqua Ekhanyayo",
     "#96B5C9": "Okuluhlaza Okukhanyayo",

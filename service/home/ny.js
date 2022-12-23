@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Cholemba choyera / Chosinthika / Chosintha mwamakonda.",
-      "msg1": "Pangani masamba anu ofikira, ndikusintha mtundu wamutu watsamba lanu wogwirizana ndi uthenga wamtundu wanu. Kokani ndikugwetsa chimapangitsa zonsezi zotheka popanda kufunikira kolemba katswiri."
+      "msg1": "Pangani masamba anu ofikira, ndikusintha mtundu wamutu watsamba lanu wogwirizana ndi uthenga wamtundu wanu. Kokani ndikugwetsa chimapangitsa zonsezi zotheka popanda kufunikira kolemba katswiri.",
+      "view_sample_pages": "Masitolo Akuluakulu a SD Kuti Akulimbikitseni"
     },
     "step4": {
       "title": "Kutuluka kamodzi: Kulipira kogwirizana padziko lonse lapansi.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Wopanga webusayiti wosavuta pa intaneti + Kulipira kwachindunji.",
-    "subtitle": "Ngati mukufuna kupanga bizinesi yopindulitsa pa intaneti ndikusintha lingaliro lanu labizinesi kukhala zenizeni, Selldone ndi chisankho chabwino."
+    "subtitle": "Ngati mukufuna kupanga bizinesi yopindulitsa pa intaneti ndikusintha lingaliro lanu labizinesi kukhala zenizeni, Selldone ndi chisankho chabwino.",
+    "pacman": "Malipiro mapulagini"
   },
   "os": {
     "title": "Kupeza zida zapamwamba padziko lonse lapansi - Zaulere.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Manyamulidwe",
     "fulfilment": "Kukwaniritsidwa",
     "community": "Community & Ndemanga"
-  }
+  },
+  "select_language_dialog_title": "Chitani bizinesi yanu m'chilankhulo chomwe mumakonda",
+  "welcome_title": "Pangani, wongolerani, ndikukulitsa bizinesi yanu mowonekera",
+  "welcome_subtitle": "Pangani sitolo yanu yapaintaneti popanda-code & palibe-katswiri yankho lofunikira pazambiri zamaoda.",
+  "your_shop": "Kutsogolo Kwanu",
+  "your_dashboard": "Ofesi Yanu Yobwerera",
+  "flow": {
+    "title": "Customizable potuluka kutuluka.",
+    "subtitle": "Konzani ulendo wanu wamakasitomala ndikugula mayendedwe ndi zoyeserera.",
+    "pacman": "Checkout mapulagini"
+  },
+  "business_model": {
+    "title": "Kutengera mawonekedwe abizinesi.",
+    "subtitle": "Khazikitsani mtundu wabizinesi yanu mowonekera, zovuta zonse zidzasinthidwa pambuyo pake.",
+    "pacman": "Msika & POD mapulagini"
+  },
+  "team": {
+    "title": "Kumanani ndi gulu.",
+    "msg": "Tidzasewera ndi malamulo osiyanasiyana m'munda wankhanza wa nsanja zamalonda, makamaka pomwe opikisana nawo amawononga mamiliyoni a madola pakutsatsa; timayika ndalama pazogulitsa, anthu, ndikuthetsa mavuto enieni. Gulu ili libwezereni bizinesi yanu!"
+  },
+  "customers": {
+    "title": "Kumanani ndi anthu amdera lathu.",
+    "msg": "Ndi chiyambi chabe cha ulendo wopanga zida zatanthauzo zotsegula mabizinesi amtsogolo pophunzira kuchokera kwa makasitomala athu."
+  },
+  "panorama": {
+    "title": "Palibe pulogalamu <b class=\"font-weight-bold\">yowonjezera yokwera mtengo, Zinthu zonse zidakonzedweratu</b>",
+    "msg": "Palibe chifukwa chowonongera mazana a madola pamapulagini ndi mapulogalamu mwezi uliwonse ndikudandaula ndi zosintha. Monga macOS pa PC yanu, Selldone OS imasamalira mbali zonse zaukadaulo zabizinesi yanu.",
+    "orders_management": "Kuwongolera Maoda",
+    "online_pos": "Mtengo POS pa intaneti",
+    "shipping": "Manyamulidwe",
+    "inventory_management": "Kasamalidwe ka zinthu",
+    "social_commerce": "Social Commerce",
+    "in_store_sell": "M'sitolo Sell",
+    "team": "Gulu / Ogwira ntchito",
+    "incentives": "Zolimbikitsa / Kukhulupirika",
+    "community": "Community Management",
+    "payments": "Malipiro apafupi",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Ayi - pulogalamu yowonjezera"
 };

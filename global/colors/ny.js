@@ -45,7 +45,7 @@ export default {
   "#00582F": "Nthawi zonse",
   "#214C30": "Nkhalango",
   "#DC2867": "Fuchsia",
-  "#38561": "Kelly",
+  "#38561F" :"Kelly",
   "#5C884D": "Tsamba",
   "#558450": "Mwala Aqua",
   "#96B5C9": "Buluu Wowala",

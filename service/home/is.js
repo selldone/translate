@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Hvítt merki / sveigjanlegt / djúpt sérhannaðar.",
-      "msg1": "Hannaðu áfangasíðurnar þínar og breyttu þemalit síðunnar þinnar sem er sérsniðin að vörumerkjaboðskapnum þínum. Drag and Drop eiginleiki gerir allt þetta mögulegt án þess að þurfa að ráða sérfræðing."
+      "msg1": "Hannaðu áfangasíðurnar þínar og breyttu þemalit síðunnar þinnar sem er sérsniðin að vörumerkjaboðskapnum þínum. Drag and Drop eiginleiki gerir allt þetta mögulegt án þess að þurfa að ráða sérfræðing.",
+      "view_sample_pages": "Frábærar SD verslanir til að veita þér innblástur"
     },
     "step4": {
       "title": "Útskráning með einum smelli: Samræmd afgreiðsluupplifun um allan heim.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Auðvelt að byggja upp vefverslun á netinu + Bein greiðsla.",
-    "subtitle": "Ef þú ætlar að byggja upp arðbæran vefverslun og gera viðskiptahugmynd þína að veruleika, er Sellone fullkomið val."
+    "subtitle": "Ef þú ætlar að byggja upp arðbæran vefverslun og gera viðskiptahugmynd þína að veruleika, er Sellone fullkomið val.",
+    "pacman": "Greiðsluviðbætur"
   },
   "os": {
     "title": "Aðgangur að heimsklassa verkfærum - Ókeypis.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Sending",
     "fulfilment": "Uppfylling",
     "community": "Samfélag og endurgjöf"
-  }
+  },
+  "select_language_dialog_title": "Gerðu viðskipti þín á uppáhalds tungumálinu þínu",
+  "welcome_title": "Byggðu upp, stjórnaðu og breyttu fyrirtækinu þínu sjónrænt",
+  "welcome_subtitle": "Búðu til netverslun þína með lausn án kóða og án sérfræðings fyrir milljónir pantana.",
+  "your_shop": "Storefront þinn",
+  "your_dashboard": "Bakskrifstofan þín",
+  "flow": {
+    "title": "Sérhannaðar greiðsluflæði.",
+    "subtitle": "Hannaðu ferðalag viðskiptavina þinna og kaupflæði og niðurstöður tilrauna.",
+    "pacman": "Checkout viðbætur"
+  },
+  "business_model": {
+    "title": "Sjónrænt viðskiptamódel.",
+    "subtitle": "Settu upp viðskiptamódelið þitt sjónrænt, allt flókið verður stillt á bak við tjöldin.",
+    "pacman": "Markaðstorg og POD viðbætur"
+  },
+  "team": {
+    "title": "Hittu liðið.",
+    "msg": "Við munum leika eftir mismunandi reglum á hinu hrottalega sviði viðskiptakerfa, sérstaklega þegar samkeppnisaðilar okkar eyða milljónum dollara í auglýsingar; við fjárfestum í vörunni, fólki og leysum raunveruleg vandamál. Þetta lið styður fyrirtæki þitt!"
+  },
+  "customers": {
+    "title": "Kynntu þér samfélag okkar.",
+    "msg": "Þetta er bara byrjun á ferðalagi til að smíða þroskandi verkfæri til að opna frumkvöðla framtíðarinnar með því að læra af viðskiptavinum okkar."
+  },
+  "panorama": {
+    "title": "Engin dýr viðbót, <b class=\"font-weight-bold\">allir eiginleikar forsmíðaðir</b>",
+    "msg": "Engin þörf á að eyða hundruðum dollara í viðbætur og forrit í hverjum mánuði og hafa áhyggjur af uppfærslunum. Eins og macOS fyrir tölvuna þína sér Selldone OS um allar tæknilegar hliðar fyrirtækisins.",
+    "orders_management": "Pantanastjórnun",
+    "online_pos": "POS á netinu",
+    "shipping": "Sending",
+    "inventory_management": "Vörustjórnun",
+    "social_commerce": "Félagsleg viðskipti",
+    "in_store_sell": "Selja í verslun",
+    "team": "Lið / Starfsfólk",
+    "incentives": "Hvatningar / Hollusta",
+    "community": "Samfélagsstjórnun",
+    "payments": "Staðbundnar greiðslur",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Nei—viðbót"
 };

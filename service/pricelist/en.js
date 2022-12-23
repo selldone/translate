@@ -178,6 +178,10 @@ export default {
     tax: "Tax calculation",
     tax_info:
       "Auto tax calculation based on customer's location, B2B/B2C sales, and override tax rules ability for countries and states.",
+
+    tax_profiles: "Tax profiles - Professional",
+    tax_profiles_info:'You can set dedicated sales tax rules for products by creating tax profiles.',
+    extra_tax_profiles:"Extra {count} profiles."
   },
   gateways: {
     title: "Payment Gateways",

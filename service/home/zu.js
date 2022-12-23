@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Ilebula elimhlophe / Eguquguqukayo / Okwenziwa ngokwezifiso ngokujulile.",
-      "msg1": "Dala amakhasi akho okubikezela, futhi uguqule umbala wetimu yesayithi lakho ofanelana nomlayezo womkhiqizo wakho. Isici sikaHudula bese Wehlisa senza konke lokhu kwenzeke ngaphandle kwesidingo sokuqasha uchwepheshe."
+      "msg1": "Dala amakhasi akho okubikezela, futhi uguqule umbala wetimu yesayithi lakho ofanelana nomlayezo womkhiqizo wakho. Isici sikaHudula bese Wehlisa senza konke lokhu kwenzeke ngaphandle kwesidingo sokuqasha uchwepheshe.",
+      "view_sample_pages": "Izitolo Ezinhle Ze-SD Ukukugqugquzela"
     },
     "step4": {
       "title": "Ukuphuma ngokuchofoza kanye: Umuzwa wokuphuma ohlanganisiwe emhlabeni jikelele.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Umakhi wewebhusayithi yokuthenga elula + Ukukhokha okuqondile.",
-    "subtitle": "Uma uhlela ukwakha ibhizinisi eliku-inthanethi elinenzuzo futhi uguqule umbono wakho webhizinisi ube ngokoqobo, i-Selldone iyisinqumo esihle."
+    "subtitle": "Uma uhlela ukwakha ibhizinisi eliku-inthanethi elinenzuzo futhi uguqule umbono wakho webhizinisi ube ngokoqobo, i-Selldone iyisinqumo esihle.",
+    "pacman": "Ama-plugin okukhokha"
   },
   "os": {
     "title": "Ukufinyelela kumathuluzi asezingeni lomhlaba — Mahhala.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Ukuthumela ngomkhumbi",
     "fulfilment": "Ukugcwaliseka",
     "community": "Umphakathi kanye nempendulo"
-  }
+  },
+  "select_language_dialog_title": "Yenza ibhizinisi lakho ngolimi lwakho oluthandayo",
+  "welcome_title": "Yakha, uphathe, futhi ukale ibhizinisi lakho ngokubonakalayo",
+  "welcome_subtitle": "Yenza isitolo sakho esiku-inthanethi ngaphandle kwekhodi nesixazululo esidingekayo sezigidi zama-oda.",
+  "your_shop": "Isitolo sakho sangaphambili",
+  "your_dashboard": "Ihhovisi Lakho Elingemuva",
+  "flow": {
+    "title": "Ukugeleza kokuphuma okwenziwa ngendlela oyifisayo.",
+    "subtitle": "Dizayina uhambo lwakho lwekhasimende kanye nokugeleza kokuthenga nemiphumela yokuhlola.",
+    "pacman": "Checkout Plugins"
+  },
+  "business_model": {
+    "title": "Ukwamukelwa kwemodeli yebhizinisi ebonakalayo.",
+    "subtitle": "Setha imodeli yebhizinisi lakho ngokubukeka, konke okuyinkimbinkimbi kuzocushwa ngemuva kwesigcawu.",
+    "pacman": "Indawo yemakethe nama-POD Plugins"
+  },
+  "team": {
+    "title": "Hlangana neqembu.",
+    "msg": "Sizodlala ngemithetho ehlukene emkhakheni ononya wezinkundla zezentengiselwano, ikakhulukazi lapho esincintisana nabo bechitha izigidi zamadola ekukhangiseni; sitshala imali emkhiqizweni, kubantu, futhi sixazulula izinkinga zangempela. Leli qembu lisekela ibhizinisi lakho!"
+  },
+  "customers": {
+    "title": "Hlangana nomphakathi wethu.",
+    "msg": "Kuyisiqalo nje sohambo lokwakha amathuluzi anengqondo wokuvula osomabhizinisi bakusasa ngokufunda kumakhasimende ethu."
+  },
+  "panorama": {
+    "title": "Ayikho i-plugin ebizayo, <b class=\"font-weight-bold\">Zonke izici ezakhelwe kusengaphambili</b>",
+    "msg": "Asikho isidingo sokuchitha amakhulu amadola kuma-plugin nezinhlelo zokusebenza inyanga ngayinye futhi ukhathazeke ngezibuyekezo. Njenge-macOS ye-PC yakho, i-Selldone OS inakekela zonke izinhlangothi zobuchwepheshe zebhizinisi lakho.",
+    "orders_management": "Ukuphathwa kwama-oda",
+    "online_pos": "I-POS ye-intanethi",
+    "shipping": "Ukuthumela ngomkhumbi",
+    "inventory_management": "Ukuphathwa kwempahla",
+    "social_commerce": "I-Social Commerce",
+    "in_store_sell": "Thengisa esitolo",
+    "team": "Iqembu / Abasebenzi",
+    "incentives": "Izikhuthazo / Ubuqotho",
+    "community": "Ukuphathwa Komphakathi",
+    "payments": "Izinkokhelo Zasendaweni",
+    "ar_3d": "I-3D / AR"
+  },
+  "no_plugin": "Cha—i-plugin"
 };

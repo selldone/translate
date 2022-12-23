@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Oq yorliq / Moslashuvchan / Chuqur sozlanishi.",
-      "msg1": "Ochilish sahifalaringizni loyihalashtiring va brend xabaringizga moslashtirilgan saytingizning mavzu rangini o'zgartiring. Drag and Drop xususiyati bularning barchasini mutaxassisni yollashga hojat qoldirmasdan amalga oshiradi."
+      "msg1": "Ochilish sahifalaringizni loyihalashtiring va brend xabaringizga moslashtirilgan saytingizning mavzu rangini o'zgartiring. Drag and Drop xususiyati bularning barchasini mutaxassisni yollashga hojat qoldirmasdan amalga oshiradi.",
+      "view_sample_pages": "Sizni ilhomlantiradigan ajoyib SD do'konlari"
     },
     "step4": {
       "title": "Bir marta bosish orqali to'lov: butun dunyo bo'ylab yagona hisob-kitob tajribasi.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Oson onlayn xarid qilish veb-saytini yaratuvchisi + To'g'ridan-to'g'ri to'lov.",
-    "subtitle": "Agar siz daromadli onlayn biznes qurishni va biznes g'oyangizni haqiqatga aylantirishni rejalashtirmoqchi bo'lsangiz, Selldone mukammal tanlovdir."
+    "subtitle": "Agar siz daromadli onlayn biznes qurishni va biznes g'oyangizni haqiqatga aylantirishni rejalashtirmoqchi bo'lsangiz, Selldone mukammal tanlovdir.",
+    "pacman": "To'lov plaginlari"
   },
   "os": {
     "title": "Jahon darajasidagi vositalarga kirish — Bepul.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "yuk tashish; yetkazib berish",
     "fulfilment": "Bajarish",
     "community": "Hamjamiyat va fikr-mulohazalar"
-  }
+  },
+  "select_language_dialog_title": "O'z biznesingizni sevimli tilingizda qiling",
+  "welcome_title": "Biznesingizni vizual tarzda yarating, boshqaring va kengaytiring",
+  "welcome_subtitle": "O'zingizning onlayn-do'koningizni millionlab buyurtmalar uchun kodsiz va mutaxassissiz yechim bilan yarating.",
+  "your_shop": "Sizning do'koningiz",
+  "your_dashboard": "Sizning orqa ofisingiz",
+  "flow": {
+    "title": "Moslashtirilgan to'lov oqimi.",
+    "subtitle": "Mijoz sayohatingizni loyihalashtiring va xaridlar oqimi va tajriba natijalarini yarating.",
+    "pacman": "Checkout plaginlari"
+  },
+  "business_model": {
+    "title": "Vizual biznes modelini qabul qilish.",
+    "subtitle": "Biznes modelingizni vizual tarzda sozlang, barcha murakkabliklar sahna ortida sozlanadi.",
+    "pacman": "Marketplace va POD plaginlari"
+  },
+  "team": {
+    "title": "Jamoa bilan tanishing.",
+    "msg": "Biz savdo platformalarining shafqatsiz maydonida turli qoidalar bilan o'ynaymiz, ayniqsa raqobatchilarimiz reklama uchun millionlab dollar sarflaganda; biz mahsulotga, odamlarga va haqiqiy muammolarni hal qilishga sarmoya kiritamiz. Bu jamoa sizning biznesingizni qo'llab-quvvatlaydi!"
+  },
+  "customers": {
+    "title": "Jamoamiz bilan tanishing.",
+    "msg": "Bu mijozlarimizdan o‘rganish orqali bo‘lajak tadbirkorlarni ochish uchun mazmunli vositalarni yaratish bo‘yicha sayohatning boshlanishi."
+  },
+  "panorama": {
+    "title": "Hech qanday qimmat plagin yo'q, <b class=\"font-weight-bold\">barcha funksiyalar oldindan o'rnatilgan</b>",
+    "msg": "Har oy plaginlar va ilovalarga yuzlab dollar sarflash va yangilanishlar haqida tashvishlanishning hojati yo'q. Shaxsiy kompyuteringiz uchun macOS singari, Selldone OS ham biznesingizning barcha texnik tomonlariga g'amxo'rlik qiladi.",
+    "orders_management": "Buyurtmalarni boshqarish",
+    "online_pos": "Onlayn POS",
+    "shipping": "yuk tashish; yetkazib berish",
+    "inventory_management": "Inventarizatsiyani boshqarish",
+    "social_commerce": "Ijtimoiy tijorat",
+    "in_store_sell": "Do'konda sotish",
+    "team": "Jamoa / Xodimlar",
+    "incentives": "Rag'batlantirish / sodiqlik",
+    "community": "Jamiyat boshqaruvi",
+    "payments": "Mahalliy to'lovlar",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Yo'q - plagin"
 };

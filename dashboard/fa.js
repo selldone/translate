@@ -7,6 +7,8 @@ export default {
     start_free: "شروع رایگان",
     featured_apps: "اپلیکیشن های منتخب",
     more_apps: "اپلیکیشن های بیشتر",
+    my_public_profile: "صفحه پروفایل عمومی من",
+
   },
 
   numbers: {
@@ -1537,6 +1539,8 @@ export default {
         chart: {
           labels: ["موجودی", "فروش"],
         },
+        subscribers_title: "مشترکین",
+        subscribers_title_small: "مجموع سفارشات مشترک شده",
       },
 
       /** {@see ProductFinanceWidget} **/
@@ -3850,8 +3854,8 @@ export default {
       wallet: "کیف پول و حساب ها",
       companies: "شرکت ها و حساب های تجاری",
       access: "دسترسی ها به حساب من",
-      security: "امنیت",
-      preferences: "تنظیمات کاربر",
+      security: "توسعه دهندگان و کلید های دستسرسی",
+      preferences: "ترجیحات کاربر و شخصی سازی",
     },
   },
 
@@ -5010,6 +5014,7 @@ export default {
     light_checkout: "تم فرم ثبت سفارش",
     light_header: "تم منوی بالا",
     light_footer: "تم منوی پایین",
+    light_filter: "تیم فیلتر دسته بندی",
 
     product_page:'صفحه محصول',
     typography:'تایپوگرافی',
@@ -5909,7 +5914,7 @@ export default {
     hyper: "سفارشات دریافتی",
   },
 
-  /** {@see ProductFileVariantsList} **/
+  /** {@see ProductFilesManagement} **/
   product_file: {
     no_file: "هیچ فایلی آپلود نشده است!",
     delete_dialog: {

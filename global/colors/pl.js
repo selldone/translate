@@ -45,7 +45,7 @@ export default {
   "#00582F": "Zimozielony",
   "#214C30": "Las",
   "#DC2867": "Fuksja",
-  "#38561": "Kelly",
+  "#38561F" :"Kelly",
   "#5C884D": "Liść",
   "#558450": "Jasny Aqua",
   "#96B5C9": "Jasny niebieski",

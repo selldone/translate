@@ -45,7 +45,7 @@ export default {
   "#00582F": "vesnic verde",
   "#214C30": "pădure",
   "#DC2867": "Fucsie",
-  "#38561": "Kelly",
+  "#38561F" :"Kelly",
   "#5C884D": "Frunze",
   "#558450": "Light Aqua",
   "#96B5C9": "Albastru deschis",

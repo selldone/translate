@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Ileyibhile emhlophe / eguquguqukayo / enokwenzeka ngokunzulu.",
-      "msg1": "Yila amaphepha akho okumisa, kwaye utshintshe umbala womxholo wendawo yakho olungiselelwe umyalezo webhrendi yakho. Inqaku lokutsala kunye nokuLahla lenza konke oku kwenzeke ngaphandle kwesidingo sokuqesha ingcali."
+      "msg1": "Yila amaphepha akho okumisa, kwaye utshintshe umbala womxholo wendawo yakho olungiselelwe umyalezo webhrendi yakho. Inqaku lokutsala kunye nokuLahla lenza konke oku kwenzeke ngaphandle kwesidingo sokuqesha ingcali.",
+      "view_sample_pages": "IiVenkile ze-SD ezinkulu ukukukhuthaza"
     },
     "step4": {
       "title": "Ukucofa okukodwa kokuphuma: Amava okuphuma adibeneyo kwihlabathi liphela.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Umakhi wewebhusayithi yokuthenga ngokulula + Intlawulo ethe ngqo.",
-    "subtitle": "Ukuba ucwangcisa ukwakha ishishini elinengeniso kwi-intanethi kwaye ujike umbono wakho weshishini ube yinyani, iSelldone lukhetho olugqibeleleyo."
+    "subtitle": "Ukuba ucwangcisa ukwakha ishishini elinengeniso kwi-intanethi kwaye ujike umbono wakho weshishini ube yinyani, iSelldone lukhetho olugqibeleleyo.",
+    "pacman": "Iiplagi zentlawulo"
   },
   "os": {
     "title": "Ukufikelela kwizixhobo ezikumgangatho wehlabathi — Mahala.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Ukuhambisa ngenqanawe",
     "fulfilment": "Ukuzaliseka",
     "community": "Uluntu kunye neNgxelo"
-  }
+  },
+  "select_language_dialog_title": "Yenza ishishini lakho ngolwimi oluthandayo",
+  "welcome_title": "Yakha, ulawule, kwaye ulinganise ishishini lakho ngokubonakalayo",
+  "welcome_subtitle": "Yenza ivenkile yakho ye-intanethi ngekhowudi kunye nesisombululo esifunekayo kwizigidi zeeodolo.",
+  "your_shop": "Umphambili wakho weVenkile",
+  "your_dashboard": "Iofisi yakho yangasemva",
+  "flow": {
+    "title": "Customizable checkout flow.",
+    "subtitle": "Yila uhambo lwakho lomthengi kunye nokuhamba kokuthenga kunye neziphumo zovavanyo.",
+    "pacman": "Iiplagi zokuphuma"
+  },
+  "business_model": {
+    "title": "Ukwamkelwa kwemodeli yeshishini ngokubonakalayo.",
+    "subtitle": "Cwangcisa imodeli yeshishini lakho ngokubonakalayo, bonke ubunzima buya kulungiswa ngasemva kwendawo.",
+    "pacman": "Indawo yentengiso kunye neeplagi zePOD"
+  },
+  "team": {
+    "title": "Dibana neqela.",
+    "msg": "Siya kudlala ngemithetho eyahlukeneyo kwibala elikhohlakeleyo lamaqonga orhwebo, ngakumbi xa abo sikhuphisana nabo bechitha izigidi zeedola kwintengiso; sityala imali kwimveliso, abantu, kunye nokusombulula iingxaki zokwenyani. Eli qela libuyisela ishishini lakho!"
+  },
+  "customers": {
+    "title": "Dibana noluntu lwethu.",
+    "msg": "Sisiqalo nje sohambo lokwakha izixhobo ezinentsingiselo zokuvula oosomashishini bexesha elizayo ngokufunda kubathengi bethu."
+  },
+  "panorama": {
+    "title": "Akukho plugin ebizayo, <b class=\"font-weight-bold\">Zonke iimpawu zakhiwe kwangaphambili</b>",
+    "msg": "Akukho sidingo sokuchitha amakhulu eedola kwiiplagi kunye neeapps nyanga nganye kwaye ukhathazeke malunga nohlaziyo. Njenge-macOS yePC yakho, iSelldone OS ikhathalela onke amacala eshishini lakho.",
+    "orders_management": "Ulawulo lweeodolo",
+    "online_pos": "I-POS ekwi-intanethi",
+    "shipping": "Ukuhambisa ngenqanawe",
+    "inventory_management": "Ulawulo lwempahla",
+    "social_commerce": "URhwebo lweNtlalo",
+    "in_store_sell": "Kwivenkile Thengisa",
+    "team": "Iqela / Abasebenzi",
+    "incentives": "Inkuthazo / Ukunyaniseka",
+    "community": "Ulawulo loluntu",
+    "payments": "Iintlawulo zasekuhlaleni",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Hayi-plugin"
 };

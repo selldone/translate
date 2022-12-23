@@ -657,6 +657,12 @@ export default {
     variant:'Variant',
     secure:'Secure',
     admin:'Admin',
+    payment_not_settled:'Payment not settled!',
+    orders_list:'Orders list',
+
+    subscription_plan:'Subscription plan',
+    contents:'Contents',
+    pricings:'Pricings',
 
   },
   difficulties: {
@@ -786,6 +792,16 @@ export default {
     add_message:"Add message",
     continue_chat:"Continue chat",
     add_new_message:"Add new message",
+
+  },
+  /** @see BillingPeriod **/
+  billing_period:{
+    Daily:'Daily',
+    Weekly:'Weekly',
+    Monthly:'Monthly',
+    Every3Months:'Every 3 months',
+    Every6Months:'Every 6 months',
+    Yearly:'Yearly',
 
   },
 
@@ -985,6 +1001,12 @@ export default {
 
     service: "Service",
     service_description: "Services like: repair, transportation, teaching.",
+
+
+    subscription:'Subscription',
+    subscription_description:'Subscriptions and invoicing for products, services, or contents.',
+
+
   },
 
   license: {

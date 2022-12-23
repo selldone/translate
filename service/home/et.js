@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Valge silt / Paindlik / Sügavalt kohandatav.",
-      "msg1": "Kujundage oma sihtlehed ja muutke oma saidi teemavärvi vastavalt oma brändi sõnumile. Drag and Drop funktsioon teeb selle kõik võimalikuks ilma ekspertide palkamiseta."
+      "msg1": "Kujundage oma sihtlehed ja muutke oma saidi teemavärvi vastavalt oma brändi sõnumile. Drag and Drop funktsioon teeb selle kõik võimalikuks ilma ekspertide palkamiseta.",
+      "view_sample_pages": "Suurepärased SD-poed inspireerivad teid"
     },
     "step4": {
       "title": "Kassa ühe klõpsuga: ühtne kassakogemus üle maailma.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Lihtne veebipoodide veebisaidi koostaja + otsemakse.",
-    "subtitle": "Kui plaanite luua kasumliku veebiäri ja muuta oma äriidee teoks, on Selldone ideaalne valik."
+    "subtitle": "Kui plaanite luua kasumliku veebiäri ja muuta oma äriidee teoks, on Selldone ideaalne valik.",
+    "pacman": "Maksepluginad"
   },
   "os": {
     "title": "Juurdepääs maailmatasemel tööriistadele – tasuta.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Saatmine",
     "fulfilment": "Täitmine",
     "community": "Kogukond ja tagasiside"
-  }
+  },
+  "select_language_dialog_title": "Tehke oma äri oma lemmikkeeles",
+  "welcome_title": "Ehitage, hallake ja laiendage oma ettevõtet visuaalselt",
+  "welcome_subtitle": "Looge oma veebipood miljonite tellimuste jaoks ilma koodita ja ilma ekspertideta vajalike lahendustega.",
+  "your_shop": "Teie poe esileht",
+  "your_dashboard": "Teie tagakontor",
+  "flow": {
+    "title": "Kohandatav kassavoog.",
+    "subtitle": "Kujundage oma klienditeekond ning ostuvoog ja katsetulemused.",
+    "pacman": "Checkouti pistikprogrammid"
+  },
+  "business_model": {
+    "title": "Visuaalselt ärimudeli kasutuselevõtt.",
+    "subtitle": "Seadistage oma ärimudel visuaalselt, kogu keerukus häälestatakse kulisside taga.",
+    "pacman": "Marketplace'i ja POD-i pistikprogrammid"
+  },
+  "team": {
+    "title": "Tutvuge meeskonnaga.",
+    "msg": "Mängime kaubandusplatvormide jõhkras valdkonnas erinevate reeglite järgi, eriti kui meie konkurendid kulutavad reklaamile miljoneid dollareid; investeerime tootesse, inimestesse ja tegelike probleemide lahendamisse. See meeskond toetab teie ettevõtet!"
+  },
+  "customers": {
+    "title": "Tutvuge meie kogukonnaga.",
+    "msg": "See on alles algus teekonnale, mille eesmärk on luua sisukaid tööriistu tulevaste ettevõtjate avamiseks, õppides meie klientidelt."
+  },
+  "panorama": {
+    "title": "Pole kulukat pistikprogrammi, <b class=\"font-weight-bold\">kõik funktsioonid on eelnevalt ehitatud</b>",
+    "msg": "Pole vaja kulutada iga kuu sadu dollareid pistikprogrammidele ja rakendustele ning muretseda värskenduste pärast. Sarnaselt arvuti MacOS-iga hoolitseb Selldone OS teie ettevõtte kõigi tehniliste külgede eest.",
+    "orders_management": "Tellimuste haldamine",
+    "online_pos": "Online POS",
+    "shipping": "Saatmine",
+    "inventory_management": "Varude haldamine",
+    "social_commerce": "Sotsiaalne kaubandus",
+    "in_store_sell": "Poes müüa",
+    "team": "Meeskond / personal",
+    "incentives": "Stiimulid / lojaalsus",
+    "community": "Kogukonna juhtimine",
+    "payments": "Kohalikud maksed",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Ei – pistikprogramm"
 };

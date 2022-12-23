@@ -908,7 +908,7 @@ export default {
     "#00582F": "Zimzelena",
     "#214C30": "Gozd",
     "#DC2867": "Fuksija",
-    "#38561": "Kelly",
+    "#38561F" :"Kelly",
     "#5C884D": "List",
     "#558450": "Lahka Aqua",
     "#96B5C9": "Svetlo modra",

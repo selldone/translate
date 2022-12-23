@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "labél bodas / Fleksibel / Deeply customizable.",
-      "msg1": "Rancang halaman badarat anjeun, sareng robih warna téma situs anjeun anu cocog sareng pesen merek anjeun. Fitur Séred sareng Leupaskeun ngajantenkeun sadayana ieu tanpa kedah nyéwa ahli."
+      "msg1": "Rancang halaman badarat anjeun, sareng robih warna téma situs anjeun anu cocog sareng pesen merek anjeun. Fitur Séred sareng Leupaskeun ngajantenkeun sadayana ieu tanpa kedah nyéwa ahli.",
+      "view_sample_pages": "Toko SD hébat pikeun mere ilham Anjeun"
     },
     "step4": {
       "title": "Checkout hiji-klik: Pangalaman checkout ngahiji di sakumna dunya.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Pembina situs wéb balanja online anu gampang + Pembayaran langsung.",
-    "subtitle": "Upami anjeun ngarencanakeun ngawangun bisnis online anu nguntungkeun sareng kéngingkeun ideu bisnis anjeun janten kanyataan, Seldone mangrupikeun pilihan anu sampurna."
+    "subtitle": "Upami anjeun ngarencanakeun ngawangun bisnis online anu nguntungkeun sareng kéngingkeun ideu bisnis anjeun janten kanyataan, Seldone mangrupikeun pilihan anu sampurna.",
+    "pacman": "Plugins pamayaran"
   },
   "os": {
     "title": "Aksés ka alat-alat kelas dunya - Gratis.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Balanja",
     "fulfilment": "minuhan",
     "community": "Komunitas & Eupan Balik"
-  }
+  },
+  "select_language_dialog_title": "Ngalakukeun bisnis anjeun dina basa favorit anjeun",
+  "welcome_title": "Ngawangun, ngatur, sareng skala bisnis anjeun sacara visual",
+  "welcome_subtitle": "Jieun toko online anjeun ku no-kode & euweuh-ahli solusi diperlukeun pikeun jutaan pesenan.",
+  "your_shop": "Storefront Anjeun",
+  "your_dashboard": "Kantor Balik anjeun",
+  "flow": {
+    "title": "aliran Checkout customizable.",
+    "subtitle": "Rancang perjalanan palanggan anjeun sareng aliran pameseran sareng hasil ékspérimén.",
+    "pacman": "Checkout plugins"
+  },
+  "business_model": {
+    "title": "Visually nyoko model bisnis.",
+    "subtitle": "Nyetél modél bisnis anjeun sacara visual, sadaya pajeulitna bakal disetel di tukangeun layar.",
+    "pacman": "Pasar & POD Plugins"
+  },
+  "team": {
+    "title": "Papanggih tim.",
+    "msg": "Urang bakal kaulinan ku aturan béda dina widang brutal platform dagang, utamana lamun pesaing urang méakkeun jutaan dollar dina iklan; urang investasi dina produk, jalma, jeung ngarengsekeun masalah nyata. Tim ieu balik bisnis anjeun!"
+  },
+  "customers": {
+    "title": "Papanggih komunitas urang.",
+    "msg": "Ieu mangrupikeun awal perjalanan pikeun ngawangun alat anu bermakna pikeun muka konci pangusaha masa depan ku diajar ti para nasabah."
+  },
+  "panorama": {
+    "title": "Taya plugin ongkosna mahal, <b class=\"font-weight-bold\">Sadaya fitur tos diwangun</b>",
+    "msg": "Henteu kedah nyéépkeun ratusan dolar pikeun plugins sareng aplikasi unggal bulan sareng hariwang ngeunaan apdet. Sapertos macOS pikeun PC anjeun, Selldone OS ngurus sadaya sisi téknis bisnis anjeun.",
+    "orders_management": "Manajemén pesenan",
+    "online_pos": "POS online",
+    "shipping": "Balanja",
+    "inventory_management": "manajemén inventory",
+    "social_commerce": "Dagang sosial",
+    "in_store_sell": "Di-Toko Ngajual",
+    "team": "Tim / Staf",
+    "incentives": "Insentif / Kasatiaan",
+    "community": "Manajemén Komunitas",
+    "payments": "Pangmayaran Lokal",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Henteu—plugin"
 };

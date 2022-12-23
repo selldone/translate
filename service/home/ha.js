@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Farar lakabin / Mai sassauƙa / Mai sauƙin daidaitawa.",
-      "msg1": "Zana shafukan sauka, kuma canza launin jigon rukunin yanar gizonku wanda ya dace da saƙon alamar ku. Siffar Jawo da Jigo ta sa duk wannan ya yiwu ba tare da buƙatar hayar ƙwararren ba."
+      "msg1": "Zana shafukan sauka, kuma canza launin jigon rukunin yanar gizonku wanda ya dace da saƙon alamar ku. Siffar Jawo da Jigo ta sa duk wannan ya yiwu ba tare da buƙatar hayar ƙwararren ba.",
+      "view_sample_pages": "Manyan Shagunan SD don Ƙarfafa Ka"
     },
     "step4": {
       "title": "Bincika dannawa ɗaya: Haɗin kai gwaninta a duk duniya.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Mai gina gidan yanar gizon siyayyar kan layi mai sauƙi + biyan kuɗi kai tsaye.",
-    "subtitle": "Idan kuna shirin gina kasuwancin kan layi mai riba kuma ku canza tunanin kasuwancin ku zuwa gaskiya, Selldone kyakkyawan zaɓi ne."
+    "subtitle": "Idan kuna shirin gina kasuwancin kan layi mai riba kuma ku canza tunanin kasuwancin ku zuwa gaskiya, Selldone kyakkyawan zaɓi ne.",
+    "pacman": "Plugins Biya"
   },
   "os": {
     "title": "Samun dama ga kayan aikin duniya - Kyauta.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Jirgin ruwa",
     "fulfilment": "Cika",
     "community": "Al'umma & Amsa"
-  }
+  },
+  "select_language_dialog_title": "Yi kasuwancin ku a cikin yaren da kuka fi so",
+  "welcome_title": "Gina, sarrafa, da haɓaka kasuwancin ku na gani",
+  "welcome_subtitle": "Yi kantin sayar da kan layi ta hanyar no-code & babu kwararre da ake buƙata don miliyoyin umarni.",
+  "your_shop": "Gaban Store ɗin ku",
+  "your_dashboard": "Ofishin Baya",
+  "flow": {
+    "title": "Matsalolin da za a iya daidaitawa.",
+    "subtitle": "Tsara tafiyar abokin cinikin ku da sayan kwararar sa da sakamakon gwaji.",
+    "pacman": "Duba Plugins"
+  },
+  "business_model": {
+    "title": "Rikodin tsarin kasuwanci na gani.",
+    "subtitle": "Saita samfurin kasuwancin ku na gani, duk rikitarwa za a daidaita su a bayan fage.",
+    "pacman": "Wurin Kasuwa & POD Plugins"
+  },
+  "team": {
+    "title": "Haɗu da ƙungiyar.",
+    "msg": "Za mu yi wasa da ka'idoji daban-daban a cikin mummunan fagen dandamali na kasuwanci, musamman lokacin da masu fafatawa ke kashe miliyoyin daloli kan talla; muna saka hannun jari a cikin samfur, mutane, da magance matsalolin gaske. Wannan ƙungiyar ta dawo da kasuwancin ku!"
+  },
+  "customers": {
+    "title": "Haɗu da al'ummarmu.",
+    "msg": "Mafari ne kawai na tafiya don gina kayan aiki masu ma'ana don buɗe ƴan kasuwa na gaba ta hanyar koyo daga abokan cinikinmu."
+  },
+  "panorama": {
+    "title": "Babu plugin ɗin mai tsada, <b class=\"font-weight-bold\">Duk fasalulluka an riga an gina su</b>",
+    "msg": "Babu buƙatar kashe ɗaruruwan daloli akan plugins da ƙa'idodi kowane wata da damuwa game da sabuntawa. Kamar macOS don PC ɗin ku, Selldone OS yana kula da duk bangarorin fasaha na kasuwancin ku.",
+    "orders_management": "Gudanar da oda",
+    "online_pos": "POS na kan layi",
+    "shipping": "Jirgin ruwa",
+    "inventory_management": "Gudanar da kayayyaki",
+    "social_commerce": "Kasuwancin zamantakewa",
+    "in_store_sell": "A cikin kantin sayar da kayayyaki",
+    "team": "Ƙungiyar / Ma'aikata",
+    "incentives": "Ƙarfafawa / Aminci",
+    "community": "Gudanar da Al'umma",
+    "payments": "Biyan kuɗi na gida",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "A'a - plugin"
 };

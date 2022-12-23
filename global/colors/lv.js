@@ -45,7 +45,7 @@ export default {
   "#00582F": "Mūžzaļš",
   "#214C30": "Mežs",
   "#DC2867": "Fuksija",
-  "#38561": "Kellija",
+  "#38561F" :"Kellija",
   "#5C884D": "Lapa",
   "#558450": "Gaišs Aqua",
   "#96B5C9": "Gaiši zils",

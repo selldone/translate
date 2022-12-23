@@ -18,7 +18,7 @@ return [
 
 
     'title_shop'=>'Login to :name',
-    'title_app'=>'Application access of :name',
+    'title_app'=>'Application access for :name',
     'login_message'=>'Request access to your account.',
     'scopes_title'=>'This app will have access to the following scopes',
     'accept'=>'Confirm',

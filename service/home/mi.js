@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Tapanga ma / Hangawari / Tino whakarite.",
-      "msg1": "Hoahoa o wharangi taunga, ka huri i te tae kaupapa o to papaanga kia rite ki to karere tohu. Ko te Tōia me te Whakataka ka taea enei mea katoa me te kore e hiahia ki te utu tohunga."
+      "msg1": "Hoahoa o wharangi taunga, ka huri i te tae kaupapa o to papaanga kia rite ki to karere tohu. Ko te Tōia me te Whakataka ka taea enei mea katoa me te kore e hiahia ki te utu tohunga.",
+      "view_sample_pages": "Nga Toa SD Nui hei Whakahau i a koe"
     },
     "step4": {
       "title": "Takitahi-paataki: He wheako tirotiro kotahi puta noa i te ao.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Kaihanga paetukutuku hokohoko tuihono ngawari + Utu tika.",
-    "subtitle": "Mena kei te whakamahere koe ki te hanga pakihi ipurangi whai hua me te huri i to whakaaro pakihi ki roto i te pono, he tino pai a Seldone."
+    "subtitle": "Mena kei te whakamahere koe ki te hanga pakihi ipurangi whai hua me te huri i to whakaaro pakihi ki roto i te pono, he tino pai a Seldone.",
+    "pacman": "Mono Moni Utu"
   },
   "os": {
     "title": "Te uru ki nga taputapu o te ao — Kore utu.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Te tuku",
     "fulfilment": "Te whakatutuki",
     "community": "Hapori & Urupare"
-  }
+  },
+  "select_language_dialog_title": "Mahia to pakihi i roto i to reo tino pai",
+  "welcome_title": "Hanga, whakahaere, me te awhi i to pakihi",
+  "welcome_subtitle": "Hanga to toa ipurangi ma te kore-waehere me te kore-tohunga e hiahiatia ana he otinga mo nga miriona ota.",
+  "your_shop": "To Toa Toa",
+  "your_dashboard": "To Tari o muri",
+  "flow": {
+    "title": "Rere utu utu whakarite.",
+    "subtitle": "Hoahoa to haerenga kaihoko me te rerenga hoko me nga hua whakamatautau.",
+    "pacman": "Takitaki Mono mono"
+  },
+  "business_model": {
+    "title": "Te tango tauira pakihi tirohanga.",
+    "subtitle": "Whakaritehia to tauira pakihi ma te titiro, ka whakatikahia nga uaua katoa ki muri i te tirohanga.",
+    "pacman": "Maakete & POD monomai"
+  },
+  "team": {
+    "title": "Tutaki ki te kapa.",
+    "msg": "Ka takaro tatou i runga i nga ture rereke i roto i te waahi nanakia o nga papaa tauhokohoko, ina koa ka whakapaua e o tatou kaiwhakataetae nga miriona taara mo te panui; haumi tatou i roto i te hua, tangata, me te whakaoti rapanga tūturu. Ka whakahokia e tenei roopu to pakihi!"
+  },
+  "customers": {
+    "title": "Tutaki ki to tatou hapori.",
+    "msg": "He timatanga noa o te haerenga ki te hanga taputapu whai kiko hei whakatuwhera i nga kaipakihi a meake nei ma te ako mai i o taatau kaihoko."
+  },
+  "panorama": {
+    "title": "Kaore he mono utu nui, <b class=\"font-weight-bold\">Katoa nga ahuatanga kua oti te hanga</b>",
+    "msg": "Kaore he take ki te whakapau rau taara mo nga monomai me nga taupānga ia marama me te awangawanga mo nga whakahoutanga. Pērā i te macOS mo to PC, ko Seldone OS te tiaki i nga taha hangarau katoa o to pakihi.",
+    "orders_management": "Whakahaere ota",
+    "online_pos": "POS ipurangi",
+    "shipping": "Te tuku",
+    "inventory_management": "Te whakahaere pukapuka",
+    "social_commerce": "Tauhokohoko Hapori",
+    "in_store_sell": "Hokona i roto i te toa",
+    "team": "Kapa / Kaimahi",
+    "incentives": "Nga Whakaoho / Pono",
+    "community": "Whakahaere Hapori",
+    "payments": "Utu a rohe",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Kao—monomai"
 };

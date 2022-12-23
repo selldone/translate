@@ -908,7 +908,7 @@ export default {
     "#00582F": "Thường xanh",
     "#214C30": "Rừng",
     "#DC2867": "Fuchsia",
-    "#38561": "Kelly",
+    "#38561F" :"Kelly",
     "#5C884D": "Lá cây",
     "#558450": "Nước nhẹ",
     "#96B5C9": "Xanh lam nhạt",

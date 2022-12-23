@@ -98,6 +98,8 @@ export default {
     up_to: "Up to {per_order}x per order",
     get_free: "GET FREE",
     get_off: "GET {percent}% OFF",
+    select_a_vendor_message:"Please select a vendor.",
+
   },
 
   /** @see BuyButton **/
@@ -112,6 +114,10 @@ export default {
     remove: "Remove",
     add_to_basket: "Add to cart",
     buy: "Buy",
+    subscribe_now:'Subscribe Now',
+    unsubscribe:'Unsubscribe',
+    select_a_subscription_plan:'Select a plan first!',
+    manage_subscriptions:'Manage subscriptions',
     notifications: {
       inform_add_success: "We'll let you know when it's available.",
       inform_remove_success: "You have been removed from the waiting list.",
@@ -363,12 +369,20 @@ export default {
       select_billing_country: "Select your billing country",
       select_billing_state: "Select your tax region",
     },
-    same_billing_address: "Billing info same as Recipient info",
-    custom_billing_info: "Different billing info",
+    same_billing_address: "Same for billing",
+    same_billing_address_desc: "The billing address is the same as the shipping address.",
+    custom_billing_info: "Different billing address",
+    custom_billing_info_desc: "You can enter your TAX number and set a different address for billing.",
     basket_empty: "Basket is empty",
     extra_shipping_count: "You will receive {count} packages.",
     select_location_error:
       "Find the place of receipt of the shipment on the map and click on the indicator in the middle of the map to determine the exact address of the recipient.",
+
+    billing_business_desc:"It's a business account with a TAX number.",
+    billing_personal_desc:"It's a personal account.",
+
+    no_billing_title:'No billing',
+    no_billing_desc:'Leave billing address empty.'
   },
   /** {@see BasketListItems} **/
   basket_items: {

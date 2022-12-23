@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Label putih / Fleksibel / Sangat disesuaikan.",
-      "msg1": "Reka halaman pendaratan anda dan tukar warna tema tapak anda yang disesuaikan dengan mesej jenama anda. Ciri Drag dan Drop menjadikan semua ini mungkin tanpa perlu mengupah pakar."
+      "msg1": "Reka halaman pendaratan anda dan tukar warna tema tapak anda yang disesuaikan dengan mesej jenama anda. Ciri Drag dan Drop menjadikan semua ini mungkin tanpa perlu mengupah pakar.",
+      "view_sample_pages": "Kedai SD Hebat untuk Menginspirasi Anda"
     },
     "step4": {
       "title": "Pembayaran satu klik: Pengalaman pembayaran bersatu di seluruh dunia.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Pembina laman web beli-belah dalam talian yang mudah + Pembayaran terus.",
-    "subtitle": "Jika anda bercadang untuk membina perniagaan dalam talian yang menguntungkan dan menjadikan idea perniagaan anda menjadi kenyataan, Selldone ialah pilihan yang tepat."
+    "subtitle": "Jika anda bercadang untuk membina perniagaan dalam talian yang menguntungkan dan menjadikan idea perniagaan anda menjadi kenyataan, Selldone ialah pilihan yang tepat.",
+    "pacman": "Pemalam Pembayaran"
   },
   "os": {
     "title": "Akses kepada alatan bertaraf dunia — Percuma.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "penghantaran",
     "fulfilment": "Pemenuhan",
     "community": "Komuniti & Maklum Balas"
-  }
+  },
+  "select_language_dialog_title": "Lakukan perniagaan anda dalam bahasa kegemaran anda",
+  "welcome_title": "Bina, urus dan skala perniagaan anda secara visual",
+  "welcome_subtitle": "Buat kedai dalam talian anda dengan penyelesaian tanpa kod & tiada pakar yang diperlukan untuk berjuta-juta pesanan.",
+  "your_shop": "Etalase Anda",
+  "your_dashboard": "Pejabat Belakang Anda",
+  "flow": {
+    "title": "Aliran pembayaran yang boleh disesuaikan.",
+    "subtitle": "Reka bentuk perjalanan pelanggan anda dan aliran pembelian dan hasil percubaan.",
+    "pacman": "Pemalam Checkout"
+  },
+  "business_model": {
+    "title": "Penggunaan model perniagaan secara visual.",
+    "subtitle": "Sediakan model perniagaan anda secara visual, semua kerumitan akan ditala di belakang tabir.",
+    "pacman": "Pemalam Pasaran & POD"
+  },
+  "team": {
+    "title": "Jumpa pasukan.",
+    "msg": "Kami akan bermain mengikut peraturan yang berbeza dalam bidang kejam platform perdagangan, terutamanya apabila pesaing kami membelanjakan berjuta-juta dolar untuk pengiklanan; kami melabur dalam produk, orang, dan menyelesaikan masalah sebenar. Pasukan ini menyokong perniagaan anda!"
+  },
+  "customers": {
+    "title": "Bertemu komuniti kami.",
+    "msg": "Ini hanyalah permulaan perjalanan untuk membina alat yang bermakna untuk membuka kunci usahawan masa depan dengan belajar daripada pelanggan kami."
+  },
+  "panorama": {
+    "title": "Tiada pemalam yang mahal, <b class=\"font-weight-bold\">Semua ciri pra-dibina</b>",
+    "msg": "Tidak perlu membelanjakan ratusan dolar untuk pemalam dan aplikasi setiap bulan dan bimbang tentang kemas kini. Seperti macOS untuk PC anda, Selldone OS menjaga semua bahagian teknikal perniagaan anda.",
+    "orders_management": "Pengurusan Pesanan",
+    "online_pos": "POS dalam talian",
+    "shipping": "penghantaran",
+    "inventory_management": "Pengurusan inventori",
+    "social_commerce": "Perdagangan Sosial",
+    "in_store_sell": "Jualan Dalam Kedai",
+    "team": "Pasukan / Kakitangan",
+    "incentives": "Insentif / Kesetiaan",
+    "community": "Pengurusan Komuniti",
+    "payments": "Pembayaran Tempatan",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Tidak—pemalam"
 };

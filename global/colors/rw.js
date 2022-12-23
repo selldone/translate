@@ -45,7 +45,7 @@ export default {
   "#00582F": "Icyatsi cyose",
   "#214C30": "Ishyamba",
   "#DC2867": "Fuchsia",
-  "#38561": "Kelly",
+  "#38561F" :"Kelly",
   "#5C884D": "Ibibabi",
   "#558450": "Aqua Yoroheje",
   "#96B5C9": "Ubururu bwerurutse",

@@ -45,7 +45,7 @@ export default {
   "#00582F": "malar hijau",
   "#214C30": "Hutan",
   "#DC2867": "Fuchsia",
-  "#38561": "Kelly",
+  "#38561F" :"Kelly",
   "#5C884D": "Daun",
   "#558450": "Aqua Cahaya",
   "#96B5C9": "Biru muda",

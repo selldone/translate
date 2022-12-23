@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Label putih / Fleksibel / Bisa disesuaikan kanthi jero.",
-      "msg1": "Rancang kaca kebangkrutan sampeyan, lan ganti warna tema situs sampeyan sing cocog karo pesen merek sampeyan. Fitur Seret lan Selehake ndadekake kabeh iki bisa ditindakake tanpa perlu nyewa pakar."
+      "msg1": "Rancang kaca kebangkrutan sampeyan, lan ganti warna tema situs sampeyan sing cocog karo pesen merek sampeyan. Fitur Seret lan Selehake ndadekake kabeh iki bisa ditindakake tanpa perlu nyewa pakar.",
+      "view_sample_pages": "Toko SD sing apik kanggo menehi inspirasi"
     },
     "step4": {
       "title": "Checkout siji-klik: Pengalaman checkout terpadu ing saindenging jagad.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Gawe situs web blanja online sing gampang + Pembayaran langsung.",
-    "subtitle": "Yen sampeyan rencana mbangun bisnis online sing duwe bathi lan ngowahi ide bisnis dadi kasunyatan, Selldone minangka pilihan sing sampurna."
+    "subtitle": "Yen sampeyan rencana mbangun bisnis online sing duwe bathi lan ngowahi ide bisnis dadi kasunyatan, Selldone minangka pilihan sing sampurna.",
+    "pacman": "Plugins Pembayaran"
   },
   "os": {
     "title": "Akses menyang alat kelas donya - Gratis.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Pengiriman",
     "fulfilment": "Kasembadan",
     "community": "Komunitas & Umpan Balik"
-  }
+  },
+  "select_language_dialog_title": "Nggawe bisnis ing basa favorit",
+  "welcome_title": "Gawe, atur, lan skala bisnis sampeyan kanthi visual",
+  "welcome_subtitle": "Gawe toko online kanthi solusi tanpa kode & ora ana pakar sing dibutuhake kanggo mayuta-yuta pesenan.",
+  "your_shop": "Storefront Panjenengan",
+  "your_dashboard": "Kantor mburi sampeyan",
+  "flow": {
+    "title": "Aliran checkout sing bisa disesuaikan.",
+    "subtitle": "Rancang perjalanan pelanggan lan aliran tuku lan asil eksperimen.",
+    "pacman": "Plugins Checkout"
+  },
+  "business_model": {
+    "title": "Adopsi model bisnis visual.",
+    "subtitle": "Setel model bisnis sampeyan kanthi visual, kabeh kerumitan bakal disetel ing mburi layar.",
+    "pacman": "Marketplace & POD Plugins"
+  },
+  "team": {
+    "title": "Ketemu tim.",
+    "msg": "Kita bakal main kanthi aturan sing beda-beda ing lapangan platform dagang sing brutal, utamane nalika pesaing kita mbuwang jutaan dolar kanggo pariwara; kita nandur modal ing produk, wong, lan ngrampungake masalah nyata. Tim iki bali bisnis sampeyan!"
+  },
+  "customers": {
+    "title": "Ketemu komunitas kita.",
+    "msg": "Iki mung wiwitan lelungan kanggo mbangun alat sing migunani kanggo mbukak kunci wirausaha mbesuk kanthi sinau saka para pelanggan."
+  },
+  "panorama": {
+    "title": "Ora ana plugin sing larang regane, <b class=\"font-weight-bold\">Kabeh fitur sing wis dibangun</b>",
+    "msg": "Ora perlu mbuwang atusan dolar kanggo plugin lan aplikasi saben wulan lan kuwatir babagan nganyari. Kaya macOS kanggo PC, Selldone OS ngurus kabeh aspek teknis bisnis sampeyan.",
+    "orders_management": "Manajemen Pesenan",
+    "online_pos": "POS online",
+    "shipping": "Pengiriman",
+    "inventory_management": "Manajemen persediaan",
+    "social_commerce": "Perdagangan Sosial",
+    "in_store_sell": "Jual ing toko",
+    "team": "Tim / Staff",
+    "incentives": "Insentif / Kasetyan",
+    "community": "Manajemen Komunitas",
+    "payments": "Pembayaran Lokal",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Ora—plugin"
 };

@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Wyt label / fleksibel / djip oanpasber.",
-      "msg1": "Untwerp jo lâningssiden, en feroarje de temakleur fan jo side ôfstimd op jo merkberjocht. Drag and Drop-funksje makket dit alles mooglik sûnder de needsaak om in ekspert te hieren."
+      "msg1": "Untwerp jo lâningssiden, en feroarje de temakleur fan jo side ôfstimd op jo merkberjocht. Drag and Drop-funksje makket dit alles mooglik sûnder de needsaak om in ekspert te hieren.",
+      "view_sample_pages": "Geweldige SD-winkels om jo te ynspirearjen"
     },
     "step4": {
       "title": "Checkout mei ien klik: Unified checkout-ûnderfining oer de hiele wrâld.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Maklike online winkelwebside bouwer + Direkte betelling.",
-    "subtitle": "As jo fan plan binne om in rendabel online bedriuw te bouwen en jo bedriuwsidee yn werklikheid te meitsjen, is Selldone in perfekte kar."
+    "subtitle": "As jo fan plan binne om in rendabel online bedriuw te bouwen en jo bedriuwsidee yn werklikheid te meitsjen, is Selldone in perfekte kar.",
+    "pacman": "Betelling Plugins"
   },
   "os": {
     "title": "Tagong ta ark fan wrâldklasse - Fergees.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Skipfeart",
     "fulfilment": "Ferfolling",
     "community": "Mienskip & Feedback"
-  }
+  },
+  "select_language_dialog_title": "Doch jo bedriuw yn jo favorite taal",
+  "welcome_title": "Bou, beheare en skaalje jo bedriuw visueel",
+  "welcome_subtitle": "Meitsje jo online winkel mei gjin koade & gjin ekspert nedich oplossing foar miljoenen bestellingen.",
+  "your_shop": "Jo winkelfront",
+  "your_dashboard": "Jo Back Office",
+  "flow": {
+    "title": "Oanpasbere kassaflow.",
+    "subtitle": "Untwerp jo klantreis en oankeapflow- en eksperimintresultaten.",
+    "pacman": "Checkout Plugins"
+  },
+  "business_model": {
+    "title": "Fisueel oannimmen fan bedriuwsmodel.",
+    "subtitle": "Stel jo bedriuwsmodel visueel yn, alle kompleksiteit sil efter it toaniel wurde ôfstimd.",
+    "pacman": "Marketplace & POD Plugins"
+  },
+  "team": {
+    "title": "Moetsje it team.",
+    "msg": "Wy sille spielje troch ferskate regels op it brutale fjild fan kommersjele platfoarms, foaral as ús konkurrinten miljoenen dollars besteegje oan reklame; wy ynvestearje yn it produkt, minsken, en it oplossen fan echte problemen. Dit team stipet jo bedriuw!"
+  },
+  "customers": {
+    "title": "Moetsje ús mienskip.",
+    "msg": "It is gewoan in begjin fan in reis om sinfolle ark te bouwen om takomstige ûndernimmers te ûntsluten troch te learen fan ús klanten."
+  },
+  "panorama": {
+    "title": "Gjin kostbere plugin, <b class=\"font-weight-bold\">Alle funksjes foarboud</b>",
+    "msg": "Gjin needsaak om elke moanne hûnderten dollars te besteegjen oan plugins en apps en soargen oer de updates. Lykas macOS foar jo PC, soarget Selldone OS foar alle technyske kanten fan jo bedriuw.",
+    "orders_management": "Orders Management",
+    "online_pos": "Online POS",
+    "shipping": "Skipfeart",
+    "inventory_management": "Ynventarisaasje behear",
+    "social_commerce": "Sosjale hannel",
+    "in_store_sell": "In-store Ferkeapje",
+    "team": "Team / Personiel",
+    "incentives": "Incentives / Loyalty",
+    "community": "Mienskip Management",
+    "payments": "Lokale betellingen",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Nee - plugin"
 };

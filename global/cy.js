@@ -908,7 +908,7 @@ export default {
     "#00582F": "Bythwyrdd",
     "#214C30": "Coedwig",
     "#DC2867": "Ffwsia",
-    "#38561": "Kelly",
+    "#38561F" :"Kelly",
     "#5C884D": "Deilen",
     "#558450": "Aqua Ysgafn",
     "#96B5C9": "Glas golau",

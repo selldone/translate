@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Etiqueta branca / Flexível / Profundamente personalizável.",
-      "msg1": "Projete suas páginas de destino e altere a cor do tema do seu site de acordo com a mensagem da sua marca. O recurso de arrastar e soltar torna tudo isso possível sem a necessidade de contratar um especialista."
+      "msg1": "Projete suas páginas de destino e altere a cor do tema do seu site de acordo com a mensagem da sua marca. O recurso de arrastar e soltar torna tudo isso possível sem a necessidade de contratar um especialista.",
+      "view_sample_pages": "Ótimas lojas SD para inspirar você"
     },
     "step4": {
       "title": "Check-out com um clique: experiência unificada de checkout em todo o mundo.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Construtor de sites de compras online fácil + Pagamento direto.",
-    "subtitle": "Se você planeja construir um negócio online lucrativo e transformar sua ideia de negócio em realidade, o Selldone é a escolha perfeita."
+    "subtitle": "Se você planeja construir um negócio online lucrativo e transformar sua ideia de negócio em realidade, o Selldone é a escolha perfeita.",
+    "pacman": "Plug-ins de pagamento"
   },
   "os": {
     "title": "Acesso a ferramentas de classe mundial — Gratuito.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Envio",
     "fulfilment": "Cumprimento",
     "community": "Comunidade e comentários"
-  }
+  },
+  "select_language_dialog_title": "Faça o seu negócio no seu idioma favorito",
+  "welcome_title": "Crie, gerencie e dimensione seus negócios visualmente",
+  "welcome_subtitle": "Faça sua loja on-line por uma solução sem código e sem especialista para milhões de pedidos.",
+  "your_shop": "Sua vitrine",
+  "your_dashboard": "Seu BackOffice",
+  "flow": {
+    "title": "Fluxo de checkout personalizável.",
+    "subtitle": "Projete a jornada do cliente e o fluxo de compras e experimente os resultados.",
+    "pacman": "Plug-ins de checkout"
+  },
+  "business_model": {
+    "title": "Adoção visual do modelo de negócios.",
+    "subtitle": "Configure seu modelo de negócios visualmente, toda a complexidade será ajustada nos bastidores.",
+    "pacman": "Plug-ins do Marketplace e POD"
+  },
+  "team": {
+    "title": "Conheça o time.",
+    "msg": "Jogaremos com regras diferentes no campo brutal das plataformas de comércio, especialmente quando nossos concorrentes gastam milhões de dólares em publicidade; investimos no produto, nas pessoas e na solução de problemas reais. Esta equipa apoia o seu negócio!"
+  },
+  "customers": {
+    "title": "Conheça nossa comunidade.",
+    "msg": "É apenas o começo de uma jornada para criar ferramentas significativas para desbloquear futuros empreendedores aprendendo com nossos clientes."
+  },
+  "panorama": {
+    "title": "Nenhum plugin caro, <b class=\"font-weight-bold\">todos os recursos pré-construídos</b>",
+    "msg": "Não há necessidade de gastar centenas de dólares em plugins e aplicativos todos os meses e se preocupar com as atualizações. Assim como o macOS para o seu PC, o Selldone OS cuida de todos os aspectos técnicos do seu negócio.",
+    "orders_management": "Gestão de Pedidos",
+    "online_pos": "PDV on-line",
+    "shipping": "Envio",
+    "inventory_management": "Gestão de inventário",
+    "social_commerce": "Comércio Social",
+    "in_store_sell": "Venda na loja",
+    "team": "Equipe / Equipe",
+    "incentives": "Incentivos / Lealdade",
+    "community": "Gestão da Comunidade",
+    "payments": "Pagamentos locais",
+    "ar_3d": "3D / RA"
+  },
+  "no_plugin": "Não—plug-in"
 };

@@ -908,7 +908,7 @@ export default {
     "#00582F": "Síorghlas",
     "#214C30": "Foraoise",
     "#DC2867": "Fuchsia",
-    "#38561": "Ceallaigh",
+    "#38561F" :"Ceallaigh",
     "#5C884D": "Duilleog",
     "#558450": "Aqua Éadrom",
     "#96B5C9": "Éadrom Gorm",

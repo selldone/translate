@@ -908,7 +908,7 @@ export default {
     "#00582F": "Immergroen",
     "#214C30": "Bos",
     "#DC2867": "Fuchsia",
-    "#38561": "Kelly",
+    "#38561F" :"Kelly",
     "#5C884D": "Blaar",
     "#558450": "Ligte Aqua",
     "#96B5C9": "Ligblou",

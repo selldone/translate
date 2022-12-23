@@ -908,7 +908,7 @@ export default {
     "#00582F": "Stedsegrøn",
     "#214C30": "Skov",
     "#DC2867": "Fuchsia",
-    "#38561": "Kelly",
+    "#38561F" :"Kelly",
     "#5C884D": "Blad",
     "#558450": "Lys Aqua",
     "#96B5C9": "Lyseblå",

@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "White-Label / Flexibel / Weitgehend anpassbar.",
-      "msg1": "Gestalten Sie Ihre Zielseiten und ändern Sie die Themenfarbe Ihrer Website, die auf Ihre Markenbotschaft zugeschnitten ist. Die Drag-and-Drop-Funktion macht all dies möglich, ohne dass ein Experte eingestellt werden muss."
+      "msg1": "Gestalten Sie Ihre Zielseiten und ändern Sie die Themenfarbe Ihrer Website, die auf Ihre Markenbotschaft zugeschnitten ist. Die Drag-and-Drop-Funktion macht all dies möglich, ohne dass ein Experte eingestellt werden muss.",
+      "view_sample_pages": "Großartige SD-Shops, die Sie inspirieren werden"
     },
     "step4": {
       "title": "One-Click-Checkout: Einheitliches Checkout-Erlebnis auf der ganzen Welt.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Einfacher Online-Shopping-Website-Builder + Direktzahlung.",
-    "subtitle": "Wenn Sie vorhaben, ein profitables Online-Geschäft aufzubauen und Ihre Geschäftsidee in die Tat umzusetzen, ist Selldone die perfekte Wahl."
+    "subtitle": "Wenn Sie vorhaben, ein profitables Online-Geschäft aufzubauen und Ihre Geschäftsidee in die Tat umzusetzen, ist Selldone die perfekte Wahl.",
+    "pacman": "Zahlungs-Plugins"
   },
   "os": {
     "title": "Zugriff auf erstklassige Tools – kostenlos.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Versand",
     "fulfilment": "Erfüllung",
     "community": "Gemeinschaft & Feedback"
-  }
+  },
+  "select_language_dialog_title": "Erledigen Sie Ihre Geschäfte in Ihrer Lieblingssprache",
+  "welcome_title": "Erstellen, verwalten und skalieren Sie Ihr Unternehmen visuell",
+  "welcome_subtitle": "Erstellen Sie Ihren Online-Shop durch eine No-Code- und No-Expert-notwendige Lösung für Millionen von Bestellungen.",
+  "your_shop": "Ihr Schaufenster",
+  "your_dashboard": "Ihr Backoffice",
+  "flow": {
+    "title": "Anpassbarer Kassenablauf.",
+    "subtitle": "Gestalten Sie Ihre Customer Journey und Ihren Kauffluss und testen Sie die Ergebnisse.",
+    "pacman": "Checkout-Plugins"
+  },
+  "business_model": {
+    "title": "Visuelle Annahme des Geschäftsmodells.",
+    "subtitle": "Richten Sie Ihr Geschäftsmodell visuell ein, die gesamte Komplexität wird hinter den Kulissen abgestimmt.",
+    "pacman": "Marktplatz- und POD-Plugins"
+  },
+  "team": {
+    "title": "Triff das Team.",
+    "msg": "Wir werden im brutalen Bereich der Handelsplattformen nach anderen Regeln spielen, insbesondere wenn unsere Konkurrenten Millionen von Dollar für Werbung ausgeben; Wir investieren in das Produkt, die Menschen und die Lösung echter Probleme. Dieses Team unterstützt Ihr Geschäft!"
+  },
+  "customers": {
+    "title": "Lernen Sie unsere Community kennen.",
+    "msg": "Es ist nur der Anfang einer Reise, um sinnvolle Tools zu entwickeln, um zukünftige Unternehmer freizuschalten, indem wir von unseren Kunden lernen."
+  },
+  "panorama": {
+    "title": "Kein kostspieliges Plugin, <b class=\"font-weight-bold\">alle Funktionen vorgefertigt</b>",
+    "msg": "Sie müssen nicht jeden Monat Hunderte von Dollar für Plugins und Apps ausgeben und sich um die Updates kümmern. Wie macOS für Ihren PC kümmert sich Selldone OS um alle technischen Aspekte Ihres Unternehmens.",
+    "orders_management": "Auftragsverwaltung",
+    "online_pos": "Online-POS",
+    "shipping": "Versand",
+    "inventory_management": "Bestandsverwaltung",
+    "social_commerce": "Sozialer Handel",
+    "in_store_sell": "Verkauf im Geschäft",
+    "team": "Team / Mitarbeiter",
+    "incentives": "Anreize / Loyalität",
+    "community": "Community-Management",
+    "payments": "Lokale Zahlungen",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Nein – Plugin"
 };

@@ -78,7 +78,8 @@ export default {
     },
     "step3": {
       "title": "Fehér címke / Rugalmas / Mélyen testreszabható.",
-      "msg1": "Tervezze meg céloldalait, és módosítsa webhelye témaszínét a márkaüzenethez igazodva. A Drag and Drop funkció lehetővé teszi mindezt anélkül, hogy szakértőt kellene felvenni."
+      "msg1": "Tervezze meg céloldalait, és módosítsa webhelye témaszínét a márkaüzenethez igazodva. A Drag and Drop funkció lehetővé teszi mindezt anélkül, hogy szakértőt kellene felvenni.",
+      "view_sample_pages": "Nagyszerű SD-üzletek inspirálnak"
     },
     "step4": {
       "title": "Egykattintásos fizetés: Egységes fizetési élmény az egész világon.",
@@ -125,7 +126,8 @@ export default {
   },
   "stop": {
     "title": "Egyszerű online vásárlási weboldal készítő + Közvetlen fizetés.",
-    "subtitle": "Ha azt tervezi, hogy nyereséges online üzletet épít, és üzleti ötletét valóra váltja, a Selldone tökéletes választás."
+    "subtitle": "Ha azt tervezi, hogy nyereséges online üzletet épít, és üzleti ötletét valóra váltja, a Selldone tökéletes választás.",
+    "pacman": "Fizetési beépülő modulok"
   },
   "os": {
     "title": "Hozzáférés a világszínvonalú eszközökhöz – ingyenes.",
@@ -261,5 +263,44 @@ export default {
     "shipping": "Szállítás",
     "fulfilment": "Teljesítés",
     "community": "Közösség és visszajelzés"
-  }
+  },
+  "select_language_dialog_title": "Intézze vállalkozását kedvenc nyelvén",
+  "welcome_title": "Építse fel, kezelje és méretezze meg vállalkozását vizuálisan",
+  "welcome_subtitle": "Készítse el online áruházát kód nélküli és szakértő nélküli megoldással több millió megrendeléshez.",
+  "your_shop": "Az Ön kirakata",
+  "your_dashboard": "A Back Office",
+  "flow": {
+    "title": "Testreszabható fizetési folyamat.",
+    "subtitle": "Tervezze meg ügyfélútját, vásárlási folyamatát és kísérleti eredményeit.",
+    "pacman": "Checkout plugins"
+  },
+  "business_model": {
+    "title": "Vizuálisan üzleti modell elfogadása.",
+    "subtitle": "Állítsa be üzleti modelljét vizuálisan, minden bonyolultság a színfalak mögött hangolódik.",
+    "pacman": "Marketplace és POD beépülő modulok"
+  },
+  "team": {
+    "title": "Találkozni a csapattal.",
+    "msg": "Különböző szabályok szerint fogunk játszani a kereskedelmi platformok brutális területén, különösen akkor, ha versenytársaink dollármilliókat költenek reklámra; befektetünk a termékbe, az emberekbe és a valós problémák megoldásába. Ez a csapat támogatja vállalkozását!"
+  },
+  "customers": {
+    "title": "Ismerje meg közösségünket.",
+    "msg": "Ez csak a kezdete annak az útnak, amelynek célja, hogy értelmes eszközöket építsünk ki, amelyek segítségével ügyfeleinktől tanulva felszabadíthatjuk a jövő vállalkozóit."
+  },
+  "panorama": {
+    "title": "Nincs költséges bővítmény, <b class=\"font-weight-bold\">minden funkció előre be van építve</b>",
+    "msg": "Nem kell több száz dollárt költenie havonta bővítményekre és alkalmazásokra, és nem kell aggódnia a frissítések miatt. A számítógépes macOS-hez hasonlóan a Selldone OS gondoskodik vállalkozásának minden technikai oldaláról.",
+    "orders_management": "Megrendelések kezelése",
+    "online_pos": "Online POS",
+    "shipping": "Szállítás",
+    "inventory_management": "Készletgazdálkodás",
+    "social_commerce": "Társadalmi kereskedelem",
+    "in_store_sell": "Bolti Eladás",
+    "team": "Csapat / Személyzet",
+    "incentives": "Ösztönzők / Hűség",
+    "community": "Közösségi menedzsment",
+    "payments": "Helyi fizetések",
+    "ar_3d": "3D / AR"
+  },
+  "no_plugin": "Nem – plugin"
 };

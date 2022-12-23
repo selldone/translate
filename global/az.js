@@ -908,7 +908,7 @@ export default {
     "#00582F": "Həmişəyaşıl",
     "#214C30": "Meşə",
     "#DC2867": "fuşya",
-    "#38561": "Kelly",
+    "#38561F" :"Kelly",
     "#5C884D": "yarpaq",
     "#558450": "Light Aqua",
     "#96B5C9": "Açıq mavi",

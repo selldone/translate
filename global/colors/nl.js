@@ -45,7 +45,7 @@ export default {
   "#00582F": "groenblijvend",
   "#214C30": "Woud",
   "#DC2867": "Fuchsia",
-  "#38561": "Kelly",
+  "#38561F" :"Kelly",
   "#5C884D": "Blad",
   "#558450": "Licht Aqua",
   "#96B5C9": "Lichtblauw",
