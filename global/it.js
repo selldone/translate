@@ -46,7 +46,7 @@ export default {
     "finish": "Fine",
     "finished": "Finito",
     "preview": "Anteprima",
-    "free": "Libero",
+    "free": "Gratis",
     "free_completely": "Abbonamento completamente gratuito",
     "fee": "importo",
     "month": "Mese",
