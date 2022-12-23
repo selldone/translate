@@ -2,8 +2,8 @@
 
  return [
      "received-gift" => [
-     "title" => "Ricevi regali.",
-     "message" => "Congratulazioni Caro :nome, Ti inviamo un :importo :un regalo in valuta.",
+     "title" => "Regalo ricevuto.",
+     "message" => "Congratulazioni :nome, Ti inviamo :importo :un regalo in valuta.",
 ],
      "account-transaction" => [
      "deposit-title" => "Deposito :importo :valuta sul conto :account_da.",
