@@ -1,30 +1,38 @@
-# Business OS Translation 
+# Business OS Translation
+
 **Community Volunteers ❤** - Translation files of Selldone (Dashboards, Shops, Applications, ...)
 
-[Business OS](https://selldone.com), The next evolution step of commerce services from e-commerce platforms to something with no-theme, no-plugin, and no-code. 100% visually!
-
+[Business OS](https://selldone.com), The next evolution in commerce services will be a platform that allows users to
+create and manage their online store without the need for coding or the use of themes and plugins. This platform will be
+completely visually based, enabling users to create and customize their store simply by dragging and dropping elements
+into place. This will make it easier for users to set up and manage their online store, allowing them to focus on
+growing their business rather than worrying about technical details.
 
 ## How submit a change?
-**English** is the original language of selldone.
-1. Add a change request here.
-2. OR, Send original + corrected version to @SelldoneInc (Twitter) or lang@selldone.com.
-3. OR, Create new issue.
 
+**English** is the original language of selldone.
+
+1. Add a change request here.
+2. OR, Send the original and corrected versions to @SelldoneInc on Twitter or to lang@selldone.com .
+3. OR, Create a new issue.
 
 ## Business OS / Build, Manage, and Scale Your Business Visually
 
-We believe one person can make a change in the online humanity era, even who has no enough money, even has no tech experience, even has no bank account to pay the bills; we do it by creating a one-of-a-kind platform, the all-in-one, no-code commerce platform with enterprise-grade tools to act as a most reachable operating system on the internet.
+At Selldone, we believe that anyone can make a difference in the digital age, regardless of their financial resources,
+technical expertise, or access to a bank account. That's why we have developed a one-of-a-kind, all-in-one platform that
+allows anyone to create and manage an online store without any coding experience. Our platform provides enterprise-grade
+tools and is designed to be the most accessible operating system on the internet, empowering anyone to achieve their
+goals and make a positive impact in the online world.
 
 [**Selldone® - Business OS**](https://selldone.com/store-builder)
 
 ![Free ecommerce platform and custom community builder](https://cdn.selldone.com/app/contents/official-pages/store-builder/mockupboldfeaturesjpgcf839a27e0aeae46d4a4de1253108e42.jpg)
 
-
 ## Supported languages
 
-- **Dashboard**: Selldone management suite for merchants.
-- **Shop**: Storefront and customers panel.
-- **Backend**: Emails, invoices, server-side messages, and errors.
+- **Dashboard**: The Dashboard is a management suite for merchants on Selldone.
+- **Shop**: The Shop is the storefront and customer panel for an online store.
+- **Backend**: The Backend includes emails, invoices, server-side messages, and errors.
 
 | Code  | Language         | Dashboard | Shop | Backend | Fully Human Translation |
 |-------|------------------|:---------:|:----:|:-------:|:-----------------------:|
@@ -130,29 +138,37 @@ We believe one person can make a change in the online humanity era, even who has
 | YO    | Yorùbá           |     ✓     |  ✓   |    ✓    |                         |
 | ZU    | isiZulu          |     ✓     |  ✓   |    ✓    |                         |
 
+### Important
 
-
-* By translating each 1K words to your native language, you can claim a free 5USD (Or equivalent in your currency)  gift card to charge your selldone account. To verify, please send a mail.
-
-### Important 
-Please be aware of variables in translations! Do not change variables in translation. Variable patterns are variable_name  or {variable_name}. These variables must be precisely the same as in the English version. Please check it.
+Please pay attention to variables when translating! Do not change the variables in the translation. Variable patterns
+are represented as **:variable_name** or **{variable_name}**. These variables must be exactly the same as in the English version.
+Please double-check to ensure accuracy.
 
 **Wrong:**
+
 ```
 "deposit-title" => "Dipòsit :import :moneda al compte :account_from.",
 ```
+
 **Valid:**
+
 ```
 "deposit-title" => "Dipòsit :amount :currency al compte :account_from.",
 ```
 
 ### +140 Currencies
-Your customers can smoothly pay in their local currencies.
+
+Your customers can easily make payments in their local currency.
 
 ### +190 Countries
+
 The world’s most easy-to-scale Business OS.
 
-🇦🇨 🇦🇩 🇦🇪 🇦🇫 🇦🇬 🇦🇮 🇦🇱 🇦🇲 🇦🇴 🇦🇶 🇦🇷 🇦🇸 🇦🇹 🇦🇺 🇦🇼 🇦🇽 🇦🇿 🇧🇦 🇧🇧 🇧🇩 🇧🇪 🇧🇫 🇧🇬 🇧🇭 🇧🇮 🇧🇯 🇧🇱 🇧🇲 🇧🇳 🇧🇴 🇧🇶 🇧🇷 🇧🇸 🇧🇹 🇧🇻 🇧🇼 🇧🇾 🇧🇿 🇨🇦 🇨🇨 🇨🇩 🇨🇫 🇨🇬 🇨🇭 🇨🇮 🇨🇰 🇨🇱 🇨🇲 🇨🇳 🇨🇴 🇨🇵 🇨🇷 🇨🇺 🇨🇻 🇨🇼 🇨🇽 🇨🇾 🇨🇿 🇩🇪 🇩🇬 🇩🇯 🇩🇰 🇩🇲 🇩🇴 🇩🇿 🇪🇦 🇪🇨 🇪🇪 🇪🇬 🇪🇭 🇪🇷 🇪🇸 🇪🇹 🇪🇺 🇫🇮 🇫🇯 🇫🇰 🇫🇲 🇫🇴 🇫🇷 🇬🇦 🇬🇧 🇬🇩 🇬🇪 🇬🇫 🇬🇬 🇬🇭 🇬🇮 🇬🇱 🇬🇲 🇬🇳 🇬🇵 🇬🇶 🇬🇷 🇬🇸 🇬🇹 🇬🇺 🇬🇼 🇬🇾 🇭🇰 🇭🇲 🇭🇳 🇭🇷 🇭🇹 🇭🇺 🇮🇨 🇮🇩 🇮🇪 ...
+🇦🇨 🇦🇩 🇦🇪 🇦🇫 🇦🇬 🇦🇮 🇦🇱 🇦🇲 🇦🇴 🇦🇶 🇦🇷 🇦🇸 🇦🇹 🇦🇺 🇦🇼 🇦🇽 🇦🇿 🇧🇦 🇧🇧 🇧🇩 🇧🇪 🇧🇫 🇧🇬 🇧🇭
+🇧🇮 🇧🇯 🇧🇱 🇧🇲 🇧🇳 🇧🇴 🇧🇶 🇧🇷 🇧🇸 🇧🇹 🇧🇻 🇧🇼 🇧🇾 🇧🇿 🇨🇦 🇨🇨 🇨🇩 🇨🇫 🇨🇬 🇨🇭 🇨🇮 🇨🇰 🇨🇱 🇨🇲
+🇨🇳 🇨🇴 🇨🇵 🇨🇷 🇨🇺 🇨🇻 🇨🇼 🇨🇽 🇨🇾 🇨🇿 🇩🇪 🇩🇬 🇩🇯 🇩🇰 🇩🇲 🇩🇴 🇩🇿 🇪🇦 🇪🇨 🇪🇪 🇪🇬 🇪🇭 🇪🇷 🇪🇸
+🇪🇹 🇪🇺 🇫🇮 🇫🇯 🇫🇰 🇫🇲 🇫🇴 🇫🇷 🇬🇦 🇬🇧 🇬🇩 🇬🇪 🇬🇫 🇬🇬 🇬🇭 🇬🇮 🇬🇱 🇬🇲 🇬🇳 🇬🇵 🇬🇶 🇬🇷 🇬🇸 🇬🇹
+🇬🇺 🇬🇼 🇬🇾 🇭🇰 🇭🇲 🇭🇳 🇭🇷 🇭🇹 🇭🇺 🇮🇨 🇮🇩 🇮🇪 ...
 
-View list of [Supported Countries and Payments 
+View list of [Supported Countries and Payments
 ](https://selldone.com/countries).
