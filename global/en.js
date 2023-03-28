@@ -644,25 +644,29 @@ export default {
     difficulty: "Difficulty",
     banned: "Banned",
     company: "Company",
-    tax_shipping:'Shipping tax',
-
+    tax_shipping: "Shipping tax",
 
     warranty: "Warranty",
     return_policy: "Return Policy",
     guide: "Guide",
-    translate:'Translate',
-    public:'Public',
-    deleted:'Deleted',
+    translate: "Translate",
+    public: "Public",
+    deleted: "Deleted",
 
-    variant:'Variant',
-    secure:'Secure',
-    admin:'Admin',
-    payment_not_settled:'Payment not settled!',
-    orders_list:'Orders list',
+    variant: "Variant",
+    secure: "Secure",
+    admin: "Admin",
+    payment_not_settled: "Payment not settled!",
+    orders_list: "Orders list",
 
-    subscription_plan:'Subscription plan',
-    contents:'Contents',
-    pricings:'Pricings',
+    subscription_plan: "Subscription plan",
+    contents: "Contents",
+    pricings: "Pricings",
+    static_page: "Static page",
+
+    shop_button: "Shop Button",
+    embed:'Embed',
+    over:'Over',
 
   },
   difficulties: {
@@ -787,22 +791,20 @@ export default {
     reply: "Reply",
     unlock: "Unlock",
     lock: "Lock",
-    create_clone:'Create clone',
-    regenerate:'Regenerate',
-    add_message:"Add message",
-    continue_chat:"Continue chat",
-    add_new_message:"Add new message",
-
+    create_clone: "Create clone",
+    regenerate: "Regenerate",
+    add_message: "Add message",
+    continue_chat: "Continue chat",
+    add_new_message: "Add new message",
   },
   /** @see BillingPeriod **/
-  billing_period:{
-    Daily:'Daily',
-    Weekly:'Weekly',
-    Monthly:'Monthly',
-    Every3Months:'Every 3 months',
-    Every6Months:'Every 6 months',
-    Yearly:'Yearly',
-
+  billing_period: {
+    Daily: "Daily",
+    Weekly: "Weekly",
+    Monthly: "Monthly",
+    Every3Months: "Every 3 months",
+    Every6Months: "Every 6 months",
+    Yearly: "Yearly",
   },
 
   instance_message_title: "Send instant message",
@@ -1002,11 +1004,9 @@ export default {
     service: "Service",
     service_description: "Services like: repair, transportation, teaching.",
 
-
-    subscription:'Subscription',
-    subscription_description:'Subscriptions and invoicing for products, services, or contents.',
-
-
+    subscription: "Subscription",
+    subscription_description:
+      "Subscriptions and invoicing for products, services, or contents.",
   },
 
   license: {

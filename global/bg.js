@@ -824,7 +824,7 @@ export default {
     "Province": "Провинция"
   },
   "transaction_status": {
-    "RequireAction": "Изисква се действие",
+    "RequireAction": "Плащане с наложен платеж",
     "Processing": "Обработка",
     "Canceled": "Отменен",
     "Succeeded": "Успешно"
@@ -943,7 +943,7 @@ export default {
     "building_unit": "Етаж",
     "postcode": "Пощенски код",
     "note": "Забележка",
-    "county": "окръг"
+    "county": "Окръг"
   },
   "product_types": {
     "physical": "Физически",
@@ -1497,7 +1497,7 @@ export default {
     "paid": "Изхарчена сума",
     "currency": "Валута",
     "expire_at": "Срок на годност",
-    "discount_code": "Код за отстъпка",
+    "discount_code": "Промо код за отстъпка",
     "discount_percent": "Отстъпка",
     "discount_limit": "Лимит за отстъпка",
     "max_count": "Максимален брой",
@@ -1621,10 +1621,10 @@ export default {
   },
   "discount_input": {
     "limit": "{percent}% отстъпка до {limit} {currency}",
-    "action": "Добавете код за отстъпка",
-    "code_input": "Код за отстъпка",
+    "action": "Добавете ПРОМО КОД",
+    "code_input": "ПРОМО КОД",
     "notifications": {
-      "add_success": "Поздравления, валиден код за отстъпка."
+      "add_success": "Поздравления, валиден промо код."
     }
   },
   "gift_card": {

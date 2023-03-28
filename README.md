@@ -63,7 +63,7 @@ goals and make a positive impact in the online world.
 | HY    | Հայերեն          |     ✓     |  ✓   |    ✓    |                         |
 | BE    | Беларуская       |     ✓     |  ✓   |    ✓    |                         |
 | EU    | Euskara          |     ✓     |  ✓   |    ✓    |                         |
-| BG    | Български        |     ✓     |  ✓   |    ✓    |         Shop(✓)         |
+| BG    | Български        |     ✓     |  ✓   |    ✓    |            ✓            |
 | BS    | Bosanski         |     ✓     |  ✓   |    ✓    |                         |
 | CO    | Corsu            |     ✓     |  ✓   |    ✓    |                         |
 | CA    | Català           |     ✓     |  ✓   |    ✓    |                         |

@@ -103,7 +103,7 @@ export default {
         "title": "Solucions",
         "items": [
           {
-            "title": "🎨 NFT",
+            "title": "🎨 Art",
             "to": {
               "name": "Landing_NFT"
             }

@@ -984,6 +984,8 @@ export default {
         about_us: "درباره ما",
         landings: "لندینگ",
         popup: "پنجره بازشو",
+        static: "استاتیک",
+
       },
     }, // End of pages
 

@@ -103,7 +103,7 @@ export default {
         "title": "ວິທີແກ້ໄຂ",
         "items": [
           {
-            "title": "🎨 NFT",
+            "title": "🎨 Art",
             "to": {
               "name": "Landing_NFT"
             }

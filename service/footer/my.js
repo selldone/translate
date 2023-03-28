@@ -103,7 +103,7 @@ export default {
         "title": "ဖြေရှင်းချက်များ",
         "items": [
           {
-            "title": "🎨 NFT",
+            "title": "🎨 Art",
             "to": {
               "name": "Landing_NFT"
             }

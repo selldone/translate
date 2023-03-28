@@ -103,7 +103,7 @@ export default {
         "title": "გადაწყვეტილებები",
         "items": [
           {
-            "title": "🎨 NFT",
+            "title": "🎨 Art",
             "to": {
               "name": "Landing_NFT"
             }

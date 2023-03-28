@@ -87,9 +87,14 @@ export default {
   },
 
   name: "Setup",
+  overview: {
+    title: "Overview",
+    subtitle: "Gain insight into the Business OS and discover how it can help your business.",
+  },
+
   shop: {
     title: "Setup my shop",
-    subtitle: "Go to the next level by completing these simple steps.",
+    subtitle: "Go to the next level by following these straightforward steps.",
   },
 
   open_website: "Open my website",
@@ -115,10 +120,7 @@ export default {
       import_excel: "Import by Excel",
       download_template: "Download template",
     },
-    step3: {
-      title: "Option 3. Hire experts",
-      msg: "Have more than 100 items and need someone to add your products? send a request to expert@selldone.com, and book an appointment. We hire experts for you. It has a simple flat rate, just 5.99$ per item and 2.99$ per additional variants.",
-    },
+
   },
   shipping: {
     step1: {

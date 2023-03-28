@@ -8,8 +8,8 @@ export default {
   my_shops: "My Shops",
   select_language_dialog_title: "Do your business in your favorite language",
 
-  welcome_title: "Build, manage, and scale your business visually",
-  welcome_subtitle:"Build your online store with a no-code & no-expert needed business os, for millions of orders and remove humans from your workflow.",
+  welcome_title: "Reduce Your Many Daily Decisions into One",
+  welcome_subtitle:"Build, manage & scale your business like pros with the enterprise-grade and no-code business operating system for handling millions of orders and automating your workflow.",
     //"Make your online store by no-code & no-expert needed solution for millions of orders.",
 
   moto: "You try, we open the doors!",
@@ -34,7 +34,7 @@ export default {
      ],*/
 
     subtitle:
-      "Suppose you want to create a unique, fast, secure, and reliable experience for your customers. In that case, it's the tool for you to build your unique community and a fast ecommerce on an ads-free enterprise-grade business operating system.",
+      "For <b>business owners</b> and <b>merchants</b> looking for a unique, fast, secure, and reliable experience for their customers, this tool helps you build a fast ecommerce store, seamless in-store management and self-owned unique community around it on the <b>white-label enterprise-grade</b> business operating system.",
 
     domain_input: {
       message:
@@ -50,8 +50,9 @@ export default {
   },
 
   video: {
-    title: "An all-in-one solution for your online and in store sales.",
+    title: "Do your best.",
     msg: "Provide the fastest purchase experience / Make more $$$.",
+    pacman:"I'm not a technical founder",
 
     card_pos: {
       title: "Selldone POS",
@@ -90,21 +91,21 @@ export default {
     msg: "No-Credit card, No-Plugin, No-Template, No-Setup, No-Host, No-Technical solution for those who want to game like professionals.",
 
     step0: {
-      title: "Built for shoppers, Loved by sellers, One step away.",
-      msg1: "It's your time to have a real ecommerce, gather happy customers around your business, and focus on what you really love to do.",
+      title: "Designed for Shoppers, Adored by Sellers, Just One Step Away.",
+      msg1: "Experience the power of real ecommerce, build a loyal customer base, and focus on what you love with our tool.",
     },
     step1: {
-      title: "Add your products.",
-      msg1: "Add products manually, like adding photos on Instagram! Or add 100,000 items just by an Excel file. You can sell products, services, subscriptions, and files in one place.",
+      title: "Add Your Products.",
+      msg1: "Easily add products manually or import up to 100,000 items with an excel file. Sell products, services, subscriptions, and files all in one place, just like adding photos on instagram!",
     },
     step2: {
-      title: "Connect payment methods fit your need.",
+      title: "Connect Payment Methods that Meet Your Needs.",
       msg1: "We are not interested in interfering in financial transactions! 100% of customers' payments will be transfered directly to your bank account. Just connect your Stripe, PayPal, etc. You can have multiple active payment services in your store at the same time!",
       crypto_msg: "Available for active merchants",
     },
     step3: {
-      title: "White label / Flexible / Deeply customizable.",
-      msg1: "Design your landing pages, and change the theme color of your site tailored to your brand message. Drag and Drop feature makes all this possible without the need to hire an expert.",
+      title: "White Label, Flexible, and Deeply Customizable.",
+      msg1: "Easily design your landing pages and customize the theme colors of your site to reflect your brand message with the drag-and-drop feature - no expert required.",
       view_sample_pages: "Great SD Stores to Inspire You",
     },
     step4: {
@@ -159,7 +160,7 @@ export default {
   },
 
   stop: {
-    title: "Multi payment providers + Direct payment.",
+    title: "Multi gateway + Direct payment.",
     subtitle:
       "A virtual wallet helps you control your cash flow and receive money directly through your payment services without any interference from your ecommerce platform.",
     pacman: "Payment Plugins",
@@ -172,7 +173,7 @@ export default {
     pacman: "Checkout Plugins",
   },
   business_model: {
-    title: "Visually business model adoption.",
+    title: "Multi business models.",
     subtitle:
       "Setup your business model visually, all complexity will be tuned behind the scene.",
     pacman: "Marketplace & POD Plugins",
@@ -353,8 +354,8 @@ export default {
 
   panorama: {
     title:
-      'No costly plugins, <b class="font-weight-bold bg-gradient-animate text-gradient">All features pre-built</b>',
-    msg: "No need to spend hundreds of dollars on plugins and apps each month and worry about the updates. Like macOS for your PC, Selldone OS takes care of all technical sides of your business.",
+      '#1 Business OS — <b class="bg-gradient-animate text-gradient my-1">All features are pre-built.</b>',
+    msg: "No need to spend thousands of dollars on plugins and apps each month and worry about the updates. Like an angel, selldone takes care of all technical sides of your business.",
     orders_management: "Orders Management",
     online_pos: "Online POS",
     shipping: "Shipping",

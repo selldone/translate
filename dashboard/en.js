@@ -444,10 +444,11 @@ export default {
         title: "Orders",
         title_small: "Physical, File, Virtual and Service Orders",
         pending_orders: "Pending orders",
-        physical: "Physical product orders",
-        virtual: "Virtual product orders",
-        file: "File product orders",
-        service: "Service product orders",
+        physical: "Physical orders",
+        virtual: "Virtual orders",
+        file: "File orders",
+        service: "Service orders",
+        subscription: "Subscription orders",
       },
       /** {@see ShopProductsOverviewWidget} **/
       products: {
@@ -1007,6 +1008,7 @@ export default {
         about_us: "About Us",
         landings: "Landing",
         popup: "Popup",
+        static: "Static",
       },
     }, // End of pages
 
@@ -2699,7 +2701,7 @@ export default {
       enable_input_message: "Status of created cards",
       notifications: {
         create_success_title: "Save",
-        create_success: "{count} new cards created",
+        create_success: "{count} new cards created.",
       },
     },
 
@@ -4948,7 +4950,7 @@ export default {
     product_images: {
       title: "Import images",
       subtitle:
-        "Receiving image information is time consuming. Be sure to respect copyright when importing images.",
+        "Receiving image information is time consuming. Remember to honor copyright laws when importing images. Images that fail to import will be automatically deleted from the list after 7 days.",
     },
     inventory: {
       title: "Bulk update inventory",
@@ -6314,6 +6316,15 @@ export default {
   external_services:{
     title:'External services',
     subtitle:'Monitor the last status of the external services like SMS and emails here.'
+  },
+
+  /** {@see ShopEdit_Quota**/
+  shop_quota: {
+    title: "Usage quota",
+    sub_title: "This is the usage quota list for your shop. You can increase these limits by upgrading your shop's license. If you exceed the limits, you can request additional daily quota allowances from us. All usage will reset daily.\n",
+
   }
+
+
 
 };

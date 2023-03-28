@@ -42,7 +42,7 @@ export default {
       {
         title: "Solutions",
         items: [
-          { title: "🎨 NFT", to: { name: "Landing_NFT" } },
+          { title: "🎨 Art", to: { name: "Landing_NFT" } },
           { title: "🤝 Guild", to: { name: "GuildHome" } },
           { title: "🥑 Avocado", to: { name: "AvocadoHomePage" } },
           // { title: "Experts", to: { name: "ExpertsPage" } }, TODO: ACTIVATE AFTER RUNNING EXPERTS

@@ -644,23 +644,28 @@ export default {
     difficulty: "دشواری",
     banned: "منع شده",
     company: "شرکت",
-    tax_shipping:'مالیات حمل و نقل',
+    tax_shipping: "مالیات حمل و نقل",
     warranty: "ضمانتنامه",
     return_policy: "سیاست بازگشت",
     guide: "راهنما",
-    translate:'ترجمه',
-    public:'عمومی',
-    deleted:'حذف شده',
+    translate: "ترجمه",
+    public: "عمومی",
+    deleted: "حذف شده",
 
-    variant:'تنوع',
-    secure:'امن',
-    admin:'مدیر',
-    payment_not_settled:'در انتظار پرداخت!',
-    orders_list:'لیست سفارشات',
+    variant: "تنوع",
+    secure: "امن",
+    admin: "مدیر",
+    payment_not_settled: "در انتظار پرداخت!",
+    orders_list: "لیست سفارشات",
 
-    subscription_plan:'پلن اشتراک',
-    contents:'محتوا',
-    pricings:'قیمت ها',
+    subscription_plan: "پلن اشتراک",
+    contents: "محتوا",
+    pricings: "قیمت ها",
+    static_page: "صفحه استاتیک",
+
+    shop_button: "دکمه خرید",
+    embed:'جاسازی',
+    over:'بیش از',
 
   },
 
@@ -787,25 +792,22 @@ export default {
     reply: "ارسال پاسخ",
     unlock: "باز کردن قفل",
     lock: "قفل کردن",
-    create_clone:'ایجاد کپی',
-    regenerate:'بازسازی',
-    add_message:"ثبت پیام",
-    continue_chat:"ادامه گفت و گو",
-    add_new_message:"ارسال پیام جدید",
-
+    create_clone: "ایجاد کپی",
+    regenerate: "بازسازی",
+    add_message: "ثبت پیام",
+    continue_chat: "ادامه گفت و گو",
+    add_new_message: "ارسال پیام جدید",
   },
 
   /** @see BillingPeriod **/
-  billing_period:{
-    Daily:'روزانه',
-    Weekly:'هفتگی',
-    Monthly:'ماهانه',
-    Every3Months:'هز سه ماه',
-    Every6Months:'هر شش ماه',
-    Yearly:'سالانه',
-
+  billing_period: {
+    Daily: "روزانه",
+    Weekly: "هفتگی",
+    Monthly: "ماهانه",
+    Every3Months: "هز سه ماه",
+    Every6Months: "هر شش ماه",
+    Yearly: "سالانه",
   },
-
 
   instance_message_title: "ارسال پیام فوری",
   instance_message: "سلام {name}، \nمن {author} از {company} هستم.",
@@ -994,10 +996,8 @@ export default {
     service: "سرویس",
     service_description: "خدمات مانند: تعمیر، حمل و نقل، تدریس.",
 
-    subscription:'اشتراک',
-    subscription_description:'خرید آبونمانی محصولات، خدمات و یا محتوا.',
-
-
+    subscription: "اشتراک",
+    subscription_description: "خرید آبونمانی محصولات، خدمات و یا محتوا.",
   },
 
   license: {
