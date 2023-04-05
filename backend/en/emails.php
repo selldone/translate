@@ -120,7 +120,7 @@ return [
         'fee'=>'Fee',
 
         'location'=>'Location',
-        'ip'=>'Ip',
+        'ip'=>'IP',
 
         'bill'=>'Bill',
         'category'=>'Category',
@@ -174,15 +174,15 @@ return [
     'senders'=>[
         'WeeklyReport'=>[
             'id'=>'performance',
-            'name'=>'Performance Report, Selldone'
+            'name'=>'Selldone Performance Report'
         ],
         'SeasonalReport'=>[
             'id'=>'seasonal',
-            'name'=>'Seasonal Report, Selldone'
+            'name'=>'Selldone Seasonal Report'
         ],
         'Onboarding'=>[
             'id'=>'hi',
-            'name'=>'Selldone Team'
+            'name'=>'Selldone Merchants'
         ],
         'Support'=>[
             'id'=>'support',
@@ -190,19 +190,19 @@ return [
         ],
         'EmailVerify'=>[
             'id'=>'verify',
-            'name'=>'Verify, Selldone'
+            'name'=>'Selldone'
         ],
         'Welcome'=>[
             'id'=>'hi',
-            'name'=>'Community, Selldone'
+            'name'=>'Selldone Community'
         ],
         'NewShop'=>[
             'id'=>'merchants',
-            'name'=>'Merchants, Selldone'
+            'name'=>'Selldone Merchants'
         ],
         'Approve'=>[
             'id'=>'approve',
-            'name'=>'Approve, Selldone'
+            'name'=>'Selldone Merchants'
         ],
         'SellerReceiveOrder'=>[
             'id'=>'order',
@@ -252,15 +252,15 @@ return [
         'subject'=>"👋 Welcome :name, Some interesting things just for you.",
         'category' => 'CONGRATULATION',
         'title' => "WELCOME TO SELLDONE",
-        'message' => "Thank  you for choosing Selldone,\nYou're now part of Selldone community that connects global sellers to customers, Local business to enterprise, Individual to corporation! All master and pro tools have been provided **free** and **unlimited** for you.\nYou try, we open the doors,\nJust Do It!",
+        'message' => "Thank you for choosing Selldone! You are now part of the Selldone community that connects global sellers to customers, local businesses to enterprises, and individuals to corporations. All master and pro tools have been provided for you **free** and **unlimited**. We are here to support you and open the doors for you to succeed.",
         'seller' => [
             'title' => 'Are you a seller?',
-            'message' => 'To start selling, enter your dashboard in Selldone via the link below and create your first store completely free. This will take a few minutes and you will have your own store and online site. We will then guide you to the next steps and get the payment gateway. ',
+            'message' => "To start selling, simply follow the link below to enter your Selldone dashboard and create your first store for free. This process should only take a few minutes, and you'll have your own store and online site. Afterwards, we will guide you through the next steps and help you set up a payment gateway.",
             'action' => 'Login to my dashboard',
         ],
         'buyer' => [
             'title' => 'I am a buyer',
-            'message' => 'Congratulations. Once you are a member of Selldone, you will get rid of all the hassles of membership and authentication in online stores. To benefit from any store and site that uses the Selldone platform, you can log in with one click and make your purchase simple, fast and safe. ',
+            'message' => "Congratulations! As a member of Selldone, you won't have to worry about the hassle of membership and authentication in online stores. To take advantage of any store or site that uses the Selldone platform, simply log in with one click and enjoy a seamless, fast, and safe shopping experience.",
         ],
     ],
 
@@ -291,7 +291,7 @@ return [
     'onboarding-verify-email' => [
         'subject'=>"🎉 Your Shop Is Ready | :name",
         'category' => "YOU'RE ONE STEP AWAY",
-        'title' => "Setup completed",
+        'title' => "Setup Completed",
         'account_title'=>"Your account",
         'account_msg'=>"Verify and login to your account with this info.",
         'shop_msg'=>"Account info on the Selldone business operating system.",
@@ -308,7 +308,7 @@ return [
 
 
     'build-new-shop' => [
-        'subject' => "🎊 Your shop is ready now!",
+        'subject' => "🎊 Your store is now ready!",
         'category' => "BORN NEW ONLINE STORE IN THE WORLD",
         'title' => "Celebrating",
         'message' => "<b>Congratulation :name, you have created a new online business;</b> We wish you success in your business. Welcome to Selldoners community. <br>You try, we open the doors, and You did it.",
@@ -796,6 +796,14 @@ return [
         'reject'=>"Reject",
 
     ],
+
+    // -------------------------------------- ShopEmailLogin ------------------------------------
+    'shop-email-login'=>[
+        'subject'=>"Your Login Code for :shop",
+        'header-message'=>"We are sending you this email because you requested a login code for the shop. Please find your One-Time Password (OTP) below:",
+        'footer-message'=>"This code will be valid for 10 minutes. If you did not request this login code, please ignore this email.<br><br>
+Best regards,"
+    ]
 
 
 ];

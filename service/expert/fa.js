@@ -350,7 +350,7 @@ export default {
       "به متخصصان معتبری که می توانند کارهای با کیفیت ارائه دهند اعتماد کنید. از طریق سلدان.",
     who: {
       title: "چه کسانی را در اینجا می یابید؟",
-      box_image: require("../../../views/experts/assets/fa/selldone-expert-box.png"),
+      box_image: require("@/views/experts/assets/fa/selldone-expert-box.png"),
 
       spec1_title: "افراد متخصص هم در صنف خود و هم سلدان",
       spec1_desc:

@@ -348,7 +348,7 @@ export default {
       "Trust qualified professionals who can do work efficiently through Selldone.",
     who: {
       title: "Who do you find here?",
-      box_image: require("../../../views/experts/assets/en/selldone-expert-box.png"),
+      box_image: require("@/views/experts/assets/en/selldone-expert-box.png"),
 
       spec1_title: "Masters, both in their field and in Selldone",
       spec1_desc:

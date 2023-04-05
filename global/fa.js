@@ -202,6 +202,7 @@ export default {
     net_price: "قیمت خالص",
     tax: "مالیات",
     tax_included: "لحاظ شده در قیمت",
+    tax_included_abstract: "شامل.",
 
     limit: "سقف",
     min_purchase: "حداقل مبلغ خرید",
@@ -667,6 +668,9 @@ export default {
     embed:'جاسازی',
     over:'بیش از',
 
+    tax_vary_by_location:'متغییر با مکان',
+    product_type: "نوع محصول",
+
   },
 
   difficulties: {
@@ -797,6 +801,8 @@ export default {
     add_message: "ثبت پیام",
     continue_chat: "ادامه گفت و گو",
     add_new_message: "ارسال پیام جدید",
+    change_setting:'ویرایش تنظیمات',
+
   },
 
   /** @see BillingPeriod **/
@@ -1688,6 +1694,10 @@ export default {
     msg_title: "سلام،",
     msg_body:
       "لطفا وارد شوید، این کار چند ثانیه بیشتر زمان شما را نخواهد گرفت.",
+    login_email: "ورود با ایمیل",
+    email_login_step_1: "لطفاً یک آدرس ایمیل معتبر وارد کنید تا کد ورود به آن ارسال شود. نیازی به ثبت نام نیست.",
+    email_login_step_2: "آیا مطمئن هستید که آدرس ایمیل خود را به درستی وارد کرده اید؟ کد ورود به ایمیل ارائه شده ارسال خواهد شد ، بنابراین دقت کنید که دقیق باشد.",
+    email_login_step_3: "ما یک کد به ایمیل شما ارسال کرده ایم. لطفاً توجه داشته باشید که کد پس از 10 دقیقه منقضی می شود."
   },
 
   /** {@see ShopBadges} **/

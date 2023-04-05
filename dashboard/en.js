@@ -5236,7 +5236,7 @@ export default {
     add_to_delivery_que_action: "Add to shipping queue",
     in_que: "In shipping queue",
     message:
-      "After giving the package to the shipping courier, click the <b> Confirm Delivery </b> button.",
+      "Once the package has been handed over to the shipping courier, please click the <b>Confirm Delivery</b> button.",
     message_add_to_service:
       "Click the following button if you want to send this package by a <b>delivery service</b>.",
     action: "Delivery Confirmation",

@@ -75,4 +75,8 @@ return [
 
 
 
+    AuthServiceProvider::SCOPE_AI_WRITE => 'Allows the user to execute AI commands.',
+    AuthServiceProvider::SCOPE_AI_READ => 'Allows the user to access AI information without executing commands.'
+
+
 ];

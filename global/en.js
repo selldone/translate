@@ -202,6 +202,7 @@ export default {
     net_price: "Net price",
     tax: "Tax",
     tax_included: "Included in price",
+    tax_included_abstract: "incl.",
 
     limit: "Limit",
     min_purchase: "Minimum purchase",
@@ -668,6 +669,9 @@ export default {
     embed:'Embed',
     over:'Over',
 
+    tax_vary_by_location:'vary. location',
+    product_type: "Product type",
+
   },
   difficulties: {
     very_complicated: "Very complicated",
@@ -796,6 +800,7 @@ export default {
     add_message: "Add message",
     continue_chat: "Continue chat",
     add_new_message: "Add new message",
+    change_setting:'Change setting',
   },
   /** @see BillingPeriod **/
   billing_period: {
@@ -1813,6 +1818,12 @@ export default {
     verification_code: "Verification code",
     msg_title: "Hi,",
     msg_body: "Please login. It takes just a few seconds.",
+    login_email: "Login by Email",
+    email_login_step_1:"Please provide a valid email address, and we will send the login code to it. No registration is necessary.",
+    email_login_step_2:"Are you certain that you've entered your email address correctly? We will be sending the login code to the email provided, so please ensure its accuracy.",
+    email_login_step_3:"We have sent a code to your email. Please note that the code will expire in 10 minutes.",
+
+
   },
 
   /** {@see ShopBadges} **/

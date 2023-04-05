@@ -70,7 +70,7 @@ return [
         [
             'title' => 'Solutions',
             'items' => [
-                ['title' => 'NFT Collection', 'href' => '/nft'],
+                ['title' => 'Art Collection', 'href' => '/nft'],
                 ['title' => 'Guild', 'href' => '/guild'],
                 ['title' => 'Avocado', 'href' => '/avocado'],
                 ['title' => 'Experts', 'href' => '/experts'],
@@ -227,7 +227,7 @@ return [
     |--------------------------------------------------------------------------
     */
     'call-to-action' => [
-        'title' => "Make Your Business Online By The Best No—Technical Solution In The Market.",
+        'title' => "Make Your Business Online By The Best No—Code & No—Plugin Solution In The Market.",
         'money-back' => "30 Day Money-Back Guarantee",
         'action' => "Create Your Ecommerce",
         'action-sub' => "Start now — it's free",
