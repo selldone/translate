@@ -603,7 +603,34 @@ export default {
     "deleted": "Sguassatu",
     "variant": "Variante",
     "secure": "Secure",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "incl.",
+    "payment_not_settled": "Pagamentu micca stabilitu!",
+    "orders_list": "Lista di ordini",
+    "subscription_plan": "Pianu di abbunamentu",
+    "contents": "Cuntenuti",
+    "pricings": "Prezzi",
+    "static_page": "Pagina statica",
+    "shop_button": "Button Shop",
+    "embed": "Incrustà",
+    "over": "Over",
+    "tax_vary_by_location": "varià. locu",
+    "product_type": "Tipu di pruduttu",
+    "tax_id": "ID fiscale",
+    "business_name": "Nome di l'affari",
+    "invoice": "Fattura",
+    "included_in_the_product": "Inclusu in u pruduttu",
+    "included_in_the_product_description": "U pruduttu include i seguenti cumpunenti",
+    "cross_sell": "Cross Vendita",
+    "discount_off": "OFF",
+    "extra_discount": "Sconto extra",
+    "template": "Template",
+    "in_cart": "In Cart",
+    "pros_and_cons": "Pro è Cons",
+    "related_products": "I prudutti cunnessi",
+    "related_categories": "Categori cunnessi",
+    "badges": "Badges",
+    "explore": "Esplora"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Rigenerate",
     "add_message": "Aggiungi missaghju",
     "continue_chat": "Cuntinuà a chat",
-    "add_new_message": "Aghjunghjite un novu missaghju"
+    "add_new_message": "Aghjunghjite un novu missaghju",
+    "change_setting": "Cambia u paràmetru",
+    "delete_all": "Sguassà tuttu",
+    "transfer_fund": "Fondu di trasferimentu",
+    "reverse_fund": "Fondu inversu",
+    "settlement": "Insediamentu",
+    "refund": "Rimborsu",
+    "partial_refund": "Rimborsu Parziale",
+    "change_payment_method": "Cambia u metudu di pagamentu",
+    "buy": "Cumprà",
+    "view_all": "Vede tuttu",
+    "view_now": "Vede avà"
   },
   "instance_message_title": "Mandate un missaghju immediata",
   "instance_message": "Salute {name}, Mi chjamu {author} da {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Foresta",
     "#DC2867": "Fucsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Foglia",
     "#558450": "Light Aqua",
     "#96B5C9": "Light Blue",
@@ -951,7 +989,9 @@ export default {
     "file": "File",
     "file_description": "Tutti i fugliali permessi cum'è video di corsi in linea, documenti scaricabili.",
     "service": "serviziu",
-    "service_description": "I servizii cum'è: riparazione, trasportu, insignamentu."
+    "service_description": "I servizii cum'è: riparazione, trasportu, insignamentu.",
+    "subscription": "Abbonamentu",
+    "subscription_description": "Abbonamenti è fattura per i prudutti, servizii, o cuntenutu."
   },
   "license": {
     "free": "Gratuitu",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Primu postu",
     "comment_at": "On",
-    "edit_comment": "Edit Comment"
+    "edit_comment": "Edit Comment",
+    "my_comments": "I mo cumenti"
   },
   "customer_club": {
     "bronze": "Bronzu",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Codice di verificazione",
     "msg_title": "Salute,",
     "msg_body": "Per piacè accede. Piglia solu uni pochi di seconde.",
-    "login_apple": "Login cù Apple"
+    "login_apple": "Login cù Apple",
+    "login_email": "Login per Email",
+    "email_login_step_1": "Per piacè furnite un indirizzu email validu, è vi manderemu u codice di login. Nisuna registrazione hè necessaria.",
+    "email_login_step_2": "Sò sicuru d'avè inseritu u vostru indirizzu email currettamente? Manderemu u codice di login à l'email furnitu, cusì assicuratevi di a so precisione.",
+    "email_login_step_3": "Avemu mandatu un codice à u vostru email. Per piacè nutate chì u codice scadrà in 10 minuti."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Salvà u messagiu",
     "notifications": {
       "success": "I vostri dati di input sò stati salvati."
-    }
+    },
+    "product_inputs_preview_message": "Queste opzioni di persunalizazione sò dispunibuli per u vostru pruduttu urdinatu. Una volta chì l'articulu hè aghjuntu à u vostru carrettu, puderete fà aghjustamenti quì."
   },
   "faq": {
     "faq": "Domande Frequenti",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Duru",
     "intermediate": "Intermediu",
     "easy": "Facile"
+  },
+  "billing_period": {
+    "Daily": "Ogni ghjornu",
+    "Weekly": "Ogni settimana",
+    "Monthly": "Mensili",
+    "Every3Months": "Ogni 3 mesi",
+    "Every6Months": "Ogni 6 mesi",
+    "Yearly": "Annuale"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oh micca bè!",
+    "between2_3": "Va bè!",
+    "between3_4": "A ghjente piace !",
+    "between4_5": "A ghjente li piace!"
   }
 };

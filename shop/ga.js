@@ -81,7 +81,9 @@ export default {
     "offer_message": "Ceannaigh {min_quantity} Faigh {percent}% as do na míreanna seo",
     "up_to": "Suas le {per_order}x in aghaidh an ordaithe",
     "get_free": "FAIGH SAOR IN AISCE",
-    "get_off": "GET {percent}% OFF"
+    "get_off": "GET {percent}% OFF",
+    "select_a_vendor_message": "Roghnaigh díoltóir le do thoil.",
+    "product_description_header": "{product} á thabhairt isteach"
   },
   "buy_button": {
     "waiting_for_availability": "Ag fanacht le hinfhaighteacht",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Cuirfimid in iúl duit nuair a bheidh sé ar fáil.",
       "inform_remove_success": "Baineadh den liosta feithimh thú."
-    }
+    },
+    "subscribe_now": "Liostáil Anois",
+    "unsubscribe": "Díliostáil",
+    "select_a_subscription_plan": "Roghnaigh plean ar dtús!",
+    "manage_subscriptions": "Bainistigh síntiúis"
   },
   "product": {
     "review": "Léirmheas",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Bharántas",
     "return_policy": "Beartas um Fhilleadh",
     "guide": "Treoraí",
-    "shipping": "Á sheoladh"
+    "shipping": "Á sheoladh",
+    "related_categories_title": "Faigh amach i mbailiúcháin"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Praghas Iomlán na Míreanna",
       "total_items_discount": "Míreanna Lascaine",
       "total_price_after_offers": "Iomlán tar éis tairiscintí a chur i bhfeidhm",
-      "buyer_payment": "Méid íocaíochta an cheannaitheora"
+      "buyer_payment": "Méid íocaíochta an cheannaitheora",
+      "total_order_price_before_tax": "Praghas Iomlán Réamhcháin"
     },
     "delivery": {
       "title": "Seachadadh",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Faisnéis billeála éagsúla",
     "basket_empty": "Tá an ciseán folamh",
     "extra_shipping_count": "Gheobhaidh tú {count} pacáiste.",
-    "select_location_error": "Faigh áit a bhfuarthas an loingsiú ar an léarscáil agus cliceáil ar an táscaire i lár an léarscáil chun seoladh cruinn an fhaighteora a chinneadh."
+    "select_location_error": "Faigh áit a bhfuarthas an loingsiú ar an léarscáil agus cliceáil ar an táscaire i lár an léarscáil chun seoladh cruinn an fhaighteora a chinneadh.",
+    "same_billing_address_desc": "Tá an seoladh billeála mar an gcéanna leis an seoladh loingseoireachta.",
+    "custom_billing_info_desc": "Is féidir leat d’uimhir CÁNACH a chur isteach agus seoladh difriúil a shocrú le haghaidh billeála.",
+    "billing_business_desc": "Is cuntas gnó é a bhfuil uimhir CÁNACH aige.",
+    "billing_personal_desc": "Is cuntas pearsanta é.",
+    "no_billing_title": "Gan aon bhilleáil",
+    "no_billing_desc": "Fág an seoladh billeála folamh."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Faigh ordú seachtrach",
     "address_included": "Comhroinn míreanna ciseán + Seoladh",
     "address_excluded": "Roinn míreanna ciseán amháin"
+  },
+  "variants_view": {
+    "prices": "Praghsanna",
+    "inventory": "Fardal",
+    "discount": "Lascaine"
+  },
+  "rating": {
+    "product_rating_message": "Fuair an táirge seo rátáil {rate} as 5 réalta agus rátáil ag daoine {rate_count}."
+  },
+  "related_products": {
+    "card": {
+      "title": "Déan iniúchadh!",
+      "same_tags_subtitle": "Faigh míreanna gaolmhara níos suntasaí.",
+      "same_category_subtitle": "Faigh míreanna níos suntasaí sa chatagóir seo."
+    }
   }
 };

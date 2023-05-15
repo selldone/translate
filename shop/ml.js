@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity} വാങ്ങുക, ഈ ഇനങ്ങൾക്ക് {percent}% കിഴിവ് നേടുക",
     "up_to": "ഒരു ഓർഡറിന് {per_order}x വരെ",
     "get_free": "സൗജന്യമായി ലഭിക്കും",
-    "get_off": "{percent}% കിഴിവ് നേടൂ"
+    "get_off": "{percent}% കിഴിവ് നേടൂ",
+    "select_a_vendor_message": "ഒരു വെണ്ടറെ തിരഞ്ഞെടുക്കുക.",
+    "product_description_header": "{product} അവതരിപ്പിക്കുന്നു"
   },
   "buy_button": {
     "waiting_for_availability": "ലഭ്യതയ്ക്കായി കാത്തിരിക്കുന്നു",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "അത് ലഭ്യമാകുമ്പോൾ ഞങ്ങൾ നിങ്ങളെ അറിയിക്കും.",
       "inform_remove_success": "വെയിറ്റിംഗ് ലിസ്റ്റിൽ നിന്ന് നിങ്ങളെ നീക്കം ചെയ്തു."
-    }
+    },
+    "subscribe_now": "ഇപ്പോൾ സബ്സ്ക്രൈബ് ചെയ്യുക",
+    "unsubscribe": "അൺസബ്സ്ക്രൈബ് ചെയ്യുക",
+    "select_a_subscription_plan": "ആദ്യം ഒരു പ്ലാൻ തിരഞ്ഞെടുക്കുക!",
+    "manage_subscriptions": "സബ്‌സ്‌ക്രിപ്‌ഷനുകൾ നിയന്ത്രിക്കുക"
   },
   "product": {
     "review": "അവലോകനം",
@@ -109,7 +115,8 @@ export default {
     "warranty": "വാറന്റി",
     "return_policy": "തിരികെ നൽകൽ നയം",
     "guide": "വഴികാട്ടി",
-    "shipping": "ഷിപ്പിംഗ്"
+    "shipping": "ഷിപ്പിംഗ്",
+    "related_categories_title": "ശേഖരങ്ങളിൽ കണ്ടെത്തുക"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "മൊത്തം സാധനങ്ങളുടെ വില",
       "total_items_discount": "സാധനങ്ങളുടെ കിഴിവ്",
       "total_price_after_offers": "ഓഫറുകൾ പ്രയോഗിച്ചതിന് ശേഷമുള്ള ആകെ തുക",
-      "buyer_payment": "വാങ്ങുന്നയാൾ പേയ്മെന്റ് തുക"
+      "buyer_payment": "വാങ്ങുന്നയാൾ പേയ്മെന്റ് തുക",
+      "total_order_price_before_tax": "നികുതിക്ക് മുമ്പുള്ള മൊത്തം വില"
     },
     "delivery": {
       "title": "ഡെലിവറി",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "വ്യത്യസ്ത ബില്ലിംഗ് വിവരങ്ങൾ",
     "basket_empty": "കൊട്ട ശൂന്യമാണ്",
     "extra_shipping_count": "നിങ്ങൾക്ക് {count} പാക്കേജുകൾ ലഭിക്കും.",
-    "select_location_error": "സ്വീകർത്താവിന്റെ കൃത്യമായ വിലാസം നിർണ്ണയിക്കാൻ മാപ്പിൽ ഷിപ്പ്‌മെന്റ് ലഭിച്ച സ്ഥലം കണ്ടെത്തി മാപ്പിന്റെ മധ്യത്തിലുള്ള സൂചകത്തിൽ ക്ലിക്കുചെയ്യുക."
+    "select_location_error": "സ്വീകർത്താവിന്റെ കൃത്യമായ വിലാസം നിർണ്ണയിക്കാൻ മാപ്പിൽ ഷിപ്പ്‌മെന്റ് ലഭിച്ച സ്ഥലം കണ്ടെത്തി മാപ്പിന്റെ മധ്യത്തിലുള്ള സൂചകത്തിൽ ക്ലിക്കുചെയ്യുക.",
+    "same_billing_address_desc": "ബില്ലിംഗ് വിലാസവും ഷിപ്പിംഗ് വിലാസവും തന്നെയാണ്.",
+    "custom_billing_info_desc": "നിങ്ങളുടെ ടാക്സ് നമ്പർ നൽകുകയും ബില്ലിംഗിനായി മറ്റൊരു വിലാസം സജ്ജീകരിക്കുകയും ചെയ്യാം.",
+    "billing_business_desc": "ഇത് ഒരു TAX നമ്പറുള്ള ഒരു ബിസിനസ്സ് അക്കൗണ്ടാണ്.",
+    "billing_personal_desc": "അതൊരു സ്വകാര്യ അക്കൗണ്ടാണ്.",
+    "no_billing_title": "ബില്ലിംഗ് ഇല്ല",
+    "no_billing_desc": "ബില്ലിംഗ് വിലാസം ശൂന്യമായി വിടുക."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "ബാഹ്യ ഓർഡർ വീണ്ടെടുക്കുക",
     "address_included": "ബാസ്‌ക്കറ്റ് ഇനങ്ങൾ + വിലാസം പങ്കിടുക",
     "address_excluded": "ബാസ്‌ക്കറ്റ് ഇനങ്ങൾ മാത്രം പങ്കിടുക"
+  },
+  "variants_view": {
+    "prices": "വിലകൾ",
+    "inventory": "ഇൻവെന്ററി",
+    "discount": "കിഴിവ്"
+  },
+  "rating": {
+    "product_rating_message": "ഈ ഉൽപ്പന്നത്തിന് 5 നക്ഷത്രങ്ങളിൽ {rate} എന്ന റേറ്റിംഗ് ലഭിച്ചു കൂടാതെ {rate_count} ആളുകൾ റേറ്റുചെയ്‌തു."
+  },
+  "related_products": {
+    "card": {
+      "title": "പര്യവേക്ഷണം ചെയ്യുക!",
+      "same_tags_subtitle": "കൂടുതൽ ശ്രദ്ധേയമായ അനുബന്ധ ഇനങ്ങൾ കണ്ടെത്തുക.",
+      "same_category_subtitle": "ഈ വിഭാഗത്തിൽ കൂടുതൽ ശ്രദ്ധേയമായ ഇനങ്ങൾ കണ്ടെത്തുക."
+    }
   }
 };

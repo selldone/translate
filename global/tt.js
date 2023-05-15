@@ -603,7 +603,34 @@ export default {
     "deleted": "Бетерелгән",
     "variant": "Вариант",
     "secure": "Куркынычсыз",
-    "admin": "Админ"
+    "admin": "Админ",
+    "tax_included_abstract": "incl.",
+    "payment_not_settled": "Түләү түләнмәгән!",
+    "orders_list": "Заказлар исемлеге",
+    "subscription_plan": "Подписка планы",
+    "contents": "Эчтәлек",
+    "pricings": "Бәяләр",
+    "static_page": "Статик бит",
+    "shop_button": "Кибет төймәсе",
+    "embed": "Урнаштырыгыз",
+    "over": "Тәмам",
+    "tax_vary_by_location": "төрле. урнашу",
+    "product_type": "Продукция төре",
+    "tax_id": "Салым таныклыгы",
+    "business_name": "Эш исеме",
+    "invoice": "Фактура",
+    "included_in_the_product": "Продукциягә кертелгән",
+    "included_in_the_product_description": "Продукция түбәндәге компонентларны үз эченә ала",
+    "cross_sell": "Сату",
+    "discount_off": "OFF",
+    "extra_discount": "Өстәмә ташлама",
+    "template": "Шаблон",
+    "in_cart": "Арбада",
+    "pros_and_cons": "Яхшы һәм начар яклары",
+    "related_products": "Бәйләнешле продуктлар",
+    "related_categories": "Бәйләнешле категорияләр",
+    "badges": "Бейджлар",
+    "explore": "Тикшерү"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Яңарту",
     "add_message": "Хәбәр өстәгез",
     "continue_chat": "Чатны дәвам итегез",
-    "add_new_message": "Яңа хәбәр өстәгез"
+    "add_new_message": "Яңа хәбәр өстәгез",
+    "change_setting": "Көйләүләрне үзгәртү",
+    "delete_all": "Барысын да бетерегез",
+    "transfer_fund": "Күчерү фонды",
+    "reverse_fund": "Кире фонд",
+    "settlement": "Бистә",
+    "refund": "Кире кайтару",
+    "partial_refund": "Өлешчә кире кайтару",
+    "change_payment_method": "Түләү ысулын үзгәртү",
+    "buy": "Сатып ал",
+    "view_all": "Барысын да карау",
+    "view_now": "Хәзер карау"
   },
   "instance_message_title": "Тиз хәбәр җибәр",
   "instance_message": "Сәлам {name}, Минем исемем {author} {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Мәңге яшел",
     "#214C30": "Урман",
     "#DC2867": "Фуксия",
-    "#38561F" :"Келли",
+    "#38561F": "Келли",
     "#5C884D": "Яфрак",
     "#558450": "Lightиңел аквап",
     "#96B5C9": "Зәңгәрсу зәңгәр",
@@ -951,7 +989,9 @@ export default {
     "file": "Файл",
     "file_description": "Онлайн курс видео, йөкләнә торган документлар кебек барлык рөхсәт ителгән файллар.",
     "service": "Хезмәт",
-    "service_description": "Хезмәтләр: ремонт, транспорт, укыту."
+    "service_description": "Хезмәтләр: ремонт, транспорт, укыту.",
+    "subscription": "Подписка",
+    "subscription_description": "Продукция, хезмәтләр, эчтәлек өчен язылу һәм фактура."
   },
   "license": {
     "free": "Түләүсез",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Беренче язма",
     "comment_at": "Яна",
-    "edit_comment": "Аңлатманы үзгәртү"
+    "edit_comment": "Аңлатманы үзгәртү",
+    "my_comments": "Минем аңлатмалар"
   },
   "customer_club": {
     "bronze": "Бронза",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Тикшерү коды",
     "msg_title": "Сәлам,",
     "msg_body": "Зинһар, керегез. Бу берничә секунд кына.",
-    "login_apple": "Apple белән керегез"
+    "login_apple": "Apple белән керегез",
+    "login_email": "Электрон почта аша керегез",
+    "email_login_step_1": "Зинһар, дөрес электрон почта адресын бирегез, һәм без аңа логин кодын җибәрербез. Теркәлү кирәк түгел.",
+    "email_login_step_2": "Сезнең электрон почта адресыгызны дөрес язганыгызга ышанасызмы? Без логин кодын бирелгән электрон почтага җибәрәчәкбез, зинһар, аның төгәллеген тәэмин итегез.",
+    "email_login_step_3": "Без сезнең электрон почтагызга код җибәрдек. Зинһар, онытмагыз, код 10 минутта бетәчәк."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Хәбәрне сакла",
     "notifications": {
       "success": "Сезнең кертү мәгълүматлары сакланган."
-    }
+    },
+    "product_inputs_preview_message": "Бу көйләү вариантлары сезнең заказланган продукт өчен бар. Арбагызга әйбер өстәлгәч, сез монда үзгәрешләр кертә аласыз."
   },
   "faq": {
     "faq": "Еш бирелә торган сораулар",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Каты",
     "intermediate": "Арадаш",
     "easy": "Easyиңел"
+  },
+  "billing_period": {
+    "Daily": "Көн саен",
+    "Weekly": "Атна саен",
+    "Monthly": "Ай саен",
+    "Every3Months": "3 ай саен",
+    "Every6Months": "6 ай саен",
+    "Yearly": "Ел саен"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Яхшы түгел!",
+    "between2_3": "Ярый!",
+    "between3_4": "Кешеләргә ошый!",
+    "between4_5": "Кешеләр аны яраталар!"
   }
 };

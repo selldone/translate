@@ -81,7 +81,9 @@ export default {
     "offer_message": "Erosi {min_quantity} Lortu % {percent} deskontua elementu hauengatik",
     "up_to": "{per_order}x gehienez eskaera bakoitzeko",
     "get_free": "LORTU DOAN",
-    "get_off": "Lortu % {percent} DESKONTUA"
+    "get_off": "Lortu % {percent} DESKONTUA",
+    "select_a_vendor_message": "Mesedez, hautatu saltzaile bat.",
+    "product_description_header": "{product} aurkezten"
   },
   "buy_button": {
     "waiting_for_availability": "Erabilgarritasunaren zain",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Eskuragarri dagoenean jakinaraziko dizugu.",
       "inform_remove_success": "Itxaron zerrendatik kendu zaituzte."
-    }
+    },
+    "subscribe_now": "Harpidetu orain",
+    "unsubscribe": "Harpidetza kendu",
+    "select_a_subscription_plan": "Aukeratu plan bat lehenik!",
+    "manage_subscriptions": "Kudeatu harpidetzak"
   },
   "product": {
     "review": "Iritzia",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Bermea",
     "return_policy": "Itzultze politika",
     "guide": "Gida",
-    "shipping": "Bidalketa"
+    "shipping": "Bidalketa",
+    "related_categories_title": "Ezagutu bildumetan"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Elementuen prezioa guztira",
       "total_items_discount": "Elementuen deskontua",
       "total_price_after_offers": "Eskaintzak aplikatu ondoren guztira",
-      "buyer_payment": "Eroslearen ordainketaren zenbatekoa"
+      "buyer_payment": "Eroslearen ordainketaren zenbatekoa",
+      "total_order_price_before_tax": "Zerga aurreko Prezio osoa"
     },
     "delivery": {
       "title": "Entrega",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Fakturazio-informazio desberdinak",
     "basket_empty": "Saskia hutsik dago",
     "extra_shipping_count": "{count} pakete jasoko dituzu.",
-    "select_location_error": "Bilatu mapan bidalketa jaso duen lekua eta egin klik maparen erdiko adierazlean hartzailearen helbide zehatza zehazteko."
+    "select_location_error": "Bilatu mapan bidalketa jaso duen lekua eta egin klik maparen erdiko adierazlean hartzailearen helbide zehatza zehazteko.",
+    "same_billing_address_desc": "Fakturazio helbidea bidalketa helbidearen berdina da.",
+    "custom_billing_info_desc": "Zure FAX zenbakia sar dezakezu eta beste helbide bat ezar dezakezu fakturaziorako.",
+    "billing_business_desc": "FAX zenbakia duen negozio kontu bat da.",
+    "billing_personal_desc": "Kontu pertsonala da.",
+    "no_billing_title": "Fakturaziorik ez",
+    "no_billing_desc": "Utzi fakturazio helbidea hutsik."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Berreskuratu kanpoko ordena",
     "address_included": "Partekatu saskirako elementuak + Helbidea",
     "address_excluded": "Partekatu saskiko elementuak soilik"
+  },
+  "variants_view": {
+    "prices": "Prezioak",
+    "inventory": "Inbentarioa",
+    "discount": "Deskontua"
+  },
+  "rating": {
+    "product_rating_message": "Produktu honek 5 izarretako {rate} balorazioa jaso du eta {rate_count} pertsonek baloratu dute."
+  },
+  "related_products": {
+    "card": {
+      "title": "Arakatu!",
+      "same_tags_subtitle": "Aurkitu erlazionatutako elementu aipagarriagoak.",
+      "same_category_subtitle": "Aurkitu elementu aipagarri gehiago kategoria honetan."
+    }
   }
 };

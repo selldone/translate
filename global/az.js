@@ -603,7 +603,34 @@ export default {
     "deleted": "Silindi",
     "variant": "Variant",
     "secure": "Təhlükəsiz",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "daxil olmaqla",
+    "payment_not_settled": "Ödəniş həyata keçirilməyib!",
+    "orders_list": "Sifarişlər siyahısı",
+    "subscription_plan": "Abunə planı",
+    "contents": "İçindəkilər",
+    "pricings": "Qiymətlər",
+    "static_page": "Statik səhifə",
+    "shop_button": "Mağaza düyməsi",
+    "embed": "Yerləşdirin",
+    "over": "Bitdi",
+    "tax_vary_by_location": "dəyişir. yer",
+    "product_type": "Məhsulun növü",
+    "tax_id": "Vergi ID",
+    "business_name": "Biznes adı",
+    "invoice": "Faktura",
+    "included_in_the_product": "Məhsula daxildir",
+    "included_in_the_product_description": "Məhsula aşağıdakı komponentlər daxildir",
+    "cross_sell": "Çapraz Satış",
+    "discount_off": "OFF",
+    "extra_discount": "Əlavə Endirim",
+    "template": "Şablon",
+    "in_cart": "Səbətdə",
+    "pros_and_cons": "Lehte ve eksiklikleri",
+    "related_products": "Əlaqədar məhsullar",
+    "related_categories": "Əlaqədar Kateqoriyalar",
+    "badges": "Nişanlar",
+    "explore": "Araşdırın"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Yenidən canlandırmaq",
     "add_message": "Mesaj əlavə edin",
     "continue_chat": "Söhbətə davam edin",
-    "add_new_message": "Yeni mesaj əlavə edin"
+    "add_new_message": "Yeni mesaj əlavə edin",
+    "change_setting": "Parametrləri dəyişdirin",
+    "delete_all": "Hamısını Sil",
+    "transfer_fund": "Transfer fondu",
+    "reverse_fund": "Əks fond",
+    "settlement": "Qəsəbə",
+    "refund": "Geri qaytarma",
+    "partial_refund": "Qismən geri qaytarma",
+    "change_payment_method": "Ödəniş üsulunu dəyişdirin",
+    "buy": "al",
+    "view_all": "Hamısına Baxın",
+    "view_now": "İndi Baxın"
   },
   "instance_message_title": "Ani mesaj göndərin",
   "instance_message": "Salam {name}, mənim adım {company} şirkətindən {author}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Həmişəyaşıl",
     "#214C30": "Meşə",
     "#DC2867": "fuşya",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "yarpaq",
     "#558450": "Light Aqua",
     "#96B5C9": "Açıq mavi",
@@ -951,7 +989,9 @@ export default {
     "file": "Fayl",
     "file_description": "Onlayn kurs videosu, endirilə bilən sənədlər kimi bütün icazə verilən fayllar.",
     "service": "Xidmət",
-    "service_description": "Xidmətlər: təmir, nəqliyyat, tədris."
+    "service_description": "Xidmətlər: təmir, nəqliyyat, tədris.",
+    "subscription": "Abunəlik",
+    "subscription_description": "Məhsullar, xidmətlər və ya məzmunlar üçün abunəliklər və fakturalar."
   },
   "license": {
     "free": "Pulsuz",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "İlk yazı",
     "comment_at": "Aktiv",
-    "edit_comment": "Şərhi redaktə edin"
+    "edit_comment": "Şərhi redaktə edin",
+    "my_comments": "Şərhlərim"
   },
   "customer_club": {
     "bronze": "Bürünc",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Yoxlama kodu",
     "msg_title": "salam,",
     "msg_body": "Zəhmət olmasa daxil olun. Cəmi bir neçə saniyə çəkir.",
-    "login_apple": "Apple ilə daxil olun"
+    "login_apple": "Apple ilə daxil olun",
+    "login_email": "E-poçtla daxil olun",
+    "email_login_step_1": "Zəhmət olmasa düzgün e-poçt ünvanı təqdim edin və biz ona giriş kodunu göndərəcəyik. Qeydiyyata ehtiyac yoxdur.",
+    "email_login_step_2": "E-poçt ünvanınızı düzgün daxil etdiyinizə əminsinizmi? Təqdim olunan e-poçta giriş kodunu göndərəcəyik, ona görə də onun düzgünlüyünə əmin olun.",
+    "email_login_step_3": "E-poçtunuza kod göndərdik. Nəzərə alın ki, kodun müddəti 10 dəqiqə ərzində bitəcək."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Mesajı Saxla",
     "notifications": {
       "success": "Daxil etdiyiniz məlumat yadda saxlandı."
-    }
+    },
+    "product_inputs_preview_message": "Bu fərdiləşdirmə variantları sifariş etdiyiniz məhsul üçün mövcuddur. Element səbətinizə əlavə edildikdən sonra burada düzəlişlər edə biləcəksiniz."
   },
   "faq": {
     "faq": "Tez-tez soruşulan suallar",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Çətin",
     "intermediate": "Aralıq",
     "easy": "Asan"
+  },
+  "billing_period": {
+    "Daily": "Gündəlik",
+    "Weekly": "Həftəlik",
+    "Monthly": "Aylıq",
+    "Every3Months": "Hər 3 aydan bir",
+    "Every6Months": "Hər 6 aydan bir",
+    "Yearly": "İllik"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oh, yaxşı deyil!",
+    "between2_3": "Hər şey yaxşıdır!",
+    "between3_4": "İnsanların xoşuna gəlir!",
+    "between4_5": "İnsanlar onu sevirlər!"
   }
 };

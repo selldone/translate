@@ -77,7 +77,7 @@ export default {
     track_price: "Track price",
     waiting_for_auction: "Waiting for the auction?",
     inform_auction: "Tell me about auction",
-    return_in_days: "{days} Days Warranty Return",
+    return_in_days: "{days} Days Return Warranty",
     support24h7: "Support 24 hours 7 days",
     support_normal: "Working hours support",
     original_guarantee: "Original guarantee",
@@ -98,8 +98,8 @@ export default {
     up_to: "Up to {per_order}x per order",
     get_free: "GET FREE",
     get_off: "GET {percent}% OFF",
-    select_a_vendor_message:"Please select a vendor.",
-
+    select_a_vendor_message: "Please select a vendor.",
+    product_description_header: "Introducing {product}",
   },
 
   /** @see BuyButton **/
@@ -114,10 +114,10 @@ export default {
     remove: "Remove",
     add_to_basket: "Add to cart",
     buy: "Buy",
-    subscribe_now:'Subscribe Now',
-    unsubscribe:'Unsubscribe',
-    select_a_subscription_plan:'Select a plan first!',
-    manage_subscriptions:'Manage subscriptions',
+    subscribe_now: "Subscribe Now",
+    unsubscribe: "Unsubscribe",
+    select_a_subscription_plan: "Select a plan first!",
+    manage_subscriptions: "Manage subscriptions",
     notifications: {
       inform_add_success: "We'll let you know when it's available.",
       inform_remove_success: "You have been removed from the waiting list.",
@@ -130,7 +130,6 @@ export default {
     review: "Description",
     spec: "Spec",
     comments: "Reviews",
-    related_products_title: "Related products",
     price: "Price",
     rate: "Rate",
     comment: "Comment",
@@ -138,6 +137,8 @@ export default {
     return_policy: "Return Policy",
     guide: "Guide",
     shipping: "Shipping",
+    related_products_title: "You might also enjoy",
+    related_categories_title: "Discover in collections",
   },
 
   /** @see LayoutShop **/
@@ -231,8 +232,9 @@ export default {
       total_price: "Total Items Price",
       total_items_discount: "Items Discount",
       total_price_after_offers: "Total after applying offers",
+      total_order_price_before_tax: "Pre-tax Total Price",
 
-      buyer_payment: "Buyer payment amount",
+      buyer_payment: "Customer's Paid Amount",
     },
     /** {@see CustomerOrderDeliveryWidget} **/
     delivery: {
@@ -370,19 +372,21 @@ export default {
       select_billing_state: "Select your tax region",
     },
     same_billing_address: "Same for billing",
-    same_billing_address_desc: "The billing address is the same as the shipping address.",
+    same_billing_address_desc:
+      "The billing address is the same as the shipping address.",
     custom_billing_info: "Different billing address",
-    custom_billing_info_desc: "You can enter your TAX number and set a different address for billing.",
+    custom_billing_info_desc:
+      "You can enter your TAX number and set a different address for billing.",
     basket_empty: "Basket is empty",
     extra_shipping_count: "You will receive {count} packages.",
     select_location_error:
       "Find the place of receipt of the shipment on the map and click on the indicator in the middle of the map to determine the exact address of the recipient.",
 
-    billing_business_desc:"It's a business account with a TAX number.",
-    billing_personal_desc:"It's a personal account.",
+    billing_business_desc: "It's a business account with a TAX number.",
+    billing_personal_desc: "It's a personal account.",
 
-    no_billing_title:'No billing',
-    no_billing_desc:'Leave billing address empty.'
+    no_billing_title: "No billing",
+    no_billing_desc: "Leave billing address empty.",
   },
   /** {@see BasketListItems} **/
   basket_items: {
@@ -687,5 +691,26 @@ export default {
     retrieve_dialog_title: "Retrieve external order",
     address_included: "Share basket items + Address",
     address_excluded: "Share only basket items",
+  },
+
+  /** {@see ProductVariantsView} **/
+  variants_view: {
+    prices: "Prices",
+    inventory: "Inventory",
+    discount: "Discount",
+  },
+
+  rating: {
+    product_rating_message:
+      "This product has received a rating of {rate} out of 5 stars and rated by {rate_count} people.",
+  },
+
+  /** {@see RelatedProducts} **/
+  related_products: {
+    card: {
+      title: "Explore!",
+      same_tags_subtitle: "Find more remarkable related items.",
+      same_category_subtitle: "Find more remarkable items in this category.",
+    },
   },
 };

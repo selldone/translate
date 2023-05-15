@@ -81,7 +81,9 @@ export default {
     "offer_message": "Kauptu {min_quantity} Fáðu {percent}% afslátt af þessum vörum",
     "up_to": "Allt að {per_order}x fyrir hverja pöntun",
     "get_free": "FÁÐU ÓKEYPIS",
-    "get_off": "FÁÐU {percent}% AFSLÁTT"
+    "get_off": "FÁÐU {percent}% AFSLÁTT",
+    "select_a_vendor_message": "Vinsamlegast veldu söluaðila.",
+    "product_description_header": "Við kynnum {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Beðið eftir framboði",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Við látum þig vita þegar það er í boði.",
       "inform_remove_success": "Þú hefur verið tekinn af biðlista."
-    }
+    },
+    "subscribe_now": "Gerast áskrifandi núna",
+    "unsubscribe": "Hætta áskrift",
+    "select_a_subscription_plan": "Veldu áætlun fyrst!",
+    "manage_subscriptions": "Stjórna áskriftum"
   },
   "product": {
     "review": "Upprifjun",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Ábyrgð",
     "return_policy": "Skilareglur",
     "guide": "Leiðsögumaður",
-    "shipping": "Sending"
+    "shipping": "Sending",
+    "related_categories_title": "Uppgötvaðu í söfnum"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Heildarvöruverð",
       "total_items_discount": "Hlutaafsláttur",
       "total_price_after_offers": "Samtals eftir að tilboðum hefur verið beitt",
-      "buyer_payment": "Greiðsluupphæð kaupanda"
+      "buyer_payment": "Greiðsluupphæð kaupanda",
+      "total_order_price_before_tax": "Heildarverð fyrir skatta"
     },
     "delivery": {
       "title": "Afhending",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Mismunandi innheimtuupplýsingar",
     "basket_empty": "Karfan er tóm",
     "extra_shipping_count": "Þú færð {count} pakka.",
-    "select_location_error": "Finndu móttökustað sendingarinnar á kortinu og smelltu á vísirinn á miðju kortinu til að ákvarða nákvæmlega heimilisfang viðtakandans."
+    "select_location_error": "Finndu móttökustað sendingarinnar á kortinu og smelltu á vísirinn á miðju kortinu til að ákvarða nákvæmlega heimilisfang viðtakandans.",
+    "same_billing_address_desc": "Innheimtuheimilisfangið er það sama og sendingarheimilisfangið.",
+    "custom_billing_info_desc": "Þú getur slegið inn skattnúmerið þitt og stillt annað heimilisfang fyrir innheimtu.",
+    "billing_business_desc": "Það er viðskiptareikningur með skattnúmeri.",
+    "billing_personal_desc": "Það er persónulegur reikningur.",
+    "no_billing_title": "Engin innheimta",
+    "no_billing_desc": "Skildu heimilisfang innheimtu eftir autt."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Sækja ytri pöntun",
     "address_included": "Deildu körfuhlutum + heimilisfangi",
     "address_excluded": "Deildu aðeins körfuhlutum"
+  },
+  "variants_view": {
+    "prices": "Verð",
+    "inventory": "Birgðir",
+    "discount": "Afsláttur"
+  },
+  "rating": {
+    "product_rating_message": "Þessi vara hefur fengið einkunnina {rate} af 5 stjörnum og metið af {rate_count} aðilum."
+  },
+  "related_products": {
+    "card": {
+      "title": "Kanna!",
+      "same_tags_subtitle": "Finndu fleiri merkileg tengd atriði.",
+      "same_category_subtitle": "Finndu fleiri merkileg atriði í þessum flokki."
+    }
   }
 };

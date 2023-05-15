@@ -81,7 +81,9 @@ export default {
     "offer_message": "Thenga u-{min_quantity} Thola isaphulelo sika-{percent}% salezi zinto",
     "up_to": "Kufika ku-{per_order}x nge-oda ngalinye",
     "get_free": "THOLA MAHHALA",
-    "get_off": "THOLA UKWEPHULWA okungu-{percent}%."
+    "get_off": "THOLA UKWEPHULWA okungu-{percent}%.",
+    "select_a_vendor_message": "Sicela ukhethe umthengisi.",
+    "product_description_header": "Sethula i-{product}"
   },
   "buy_button": {
     "waiting_for_availability": "Ilinde ukutholakala",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Sizokwazisa uma isitholakala.",
       "inform_remove_success": "Ususiwe ohlwini lokulinda."
-    }
+    },
+    "subscribe_now": "Bhalisa Manje",
+    "unsubscribe": "Zikhiphe ohlwini",
+    "select_a_subscription_plan": "Khetha uhlelo kuqala!",
+    "manage_subscriptions": "Phatha okubhaliselwe"
   },
   "product": {
     "review": "Buyekeza",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Iwaranti",
     "return_policy": "Inqubomgomo Yokubuyisela",
     "guide": "Umhlahlandlela",
-    "shipping": "Ukuthumela ngomkhumbi"
+    "shipping": "Ukuthumela ngomkhumbi",
+    "related_categories_title": "Zitholele emaqoqweni"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Isamba Sentengo Yezinto",
       "total_items_discount": "Isaphulelo Sezinto",
       "total_price_after_offers": "Isamba ngemva kokufaka iminikelo",
-      "buyer_payment": "Inani lenkokhelo yomthengi"
+      "buyer_payment": "Inani lenkokhelo yomthengi",
+      "total_order_price_before_tax": "Isamba Sentengo Yangaphambi Kwentela"
     },
     "delivery": {
       "title": "Ukulethwa",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Ulwazi oluhlukile lokukhokha",
     "basket_empty": "Ubhasikidi awunalutho",
     "extra_shipping_count": "Uzothola amaphakheji angu-{count}.",
-    "select_location_error": "Thola indawo yokwamukela ukuthunyelwa kumephu bese uchofoza inkomba phakathi nemephu ukuze unqume ikheli eliqondile lomamukeli."
+    "select_location_error": "Thola indawo yokwamukela ukuthunyelwa kumephu bese uchofoza inkomba phakathi nemephu ukuze unqume ikheli eliqondile lomamukeli.",
+    "same_billing_address_desc": "Ikheli lokukhokha liyafana nekheli lokuthumela.",
+    "custom_billing_info_desc": "Ungafaka inombolo yakho ye-TAX bese usetha ikheli elihlukile lokukhokha.",
+    "billing_business_desc": "I-akhawunti yebhizinisi enenombolo ye-TAX.",
+    "billing_personal_desc": "I-akhawunti yomuntu siqu.",
+    "no_billing_title": "Akukho nkokhelo",
+    "no_billing_desc": "Shiya ikheli lokukhokha lingenalutho."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Buyisa i-oda langaphandle",
     "address_included": "Yabelana ngezinto zikabhasikidi + Ikheli",
     "address_excluded": "Yabelana ngezinto zikabhasikidi kuphela"
+  },
+  "variants_view": {
+    "prices": "Amanani",
+    "inventory": "Inventory",
+    "discount": "Isaphulelo"
+  },
+  "rating": {
+    "product_rating_message": "Lo mkhiqizo uthole isilinganiso esingu-{rate} ezinkanyezini ezingu-5 futhi ukalwe ngabantu abangu-{rate_count}."
+  },
+  "related_products": {
+    "card": {
+      "title": "Hlola!",
+      "same_tags_subtitle": "Thola izinto ezihlobene eziphawuleka kakhulu.",
+      "same_category_subtitle": "Thola izinto eziphawuleka kakhulu kulesi sigaba."
+    }
   }
 };

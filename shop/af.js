@@ -81,7 +81,9 @@ export default {
     "offer_message": "Koop {min_quantity} Kry {percent}% afslag vir hierdie items",
     "up_to": "Tot {per_order}x per bestelling",
     "get_free": "KRY GRATIS",
-    "get_off": "KRY {percent}% AFSLAG"
+    "get_off": "KRY {percent}% AFSLAG",
+    "select_a_vendor_message": "Kies asseblief 'n verkoper.",
+    "product_description_header": "Bekendstelling van {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Wag vir beskikbaarheid",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Ons sal jou laat weet wanneer dit beskikbaar is.",
       "inform_remove_success": "Jy is van die waglys verwyder."
-    }
+    },
+    "subscribe_now": "Sluit nou aan",
+    "unsubscribe": "Teken uit",
+    "select_a_subscription_plan": "Kies eers 'n plan!",
+    "manage_subscriptions": "Bestuur intekeninge"
   },
   "product": {
     "review": "Resensie",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Waarborg",
     "return_policy": "Retourbeleid",
     "guide": "Gids",
-    "shipping": "Gestuur"
+    "shipping": "Gestuur",
+    "related_categories_title": "Ontdek in versamelings"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Totale Items Prys",
       "total_items_discount": "Items afslag",
       "total_price_after_offers": "Totaal na toepassing van aanbiedinge",
-      "buyer_payment": "Koper se betalingsbedrag"
+      "buyer_payment": "Koper se betalingsbedrag",
+      "total_order_price_before_tax": "Totale prys voor belasting"
     },
     "delivery": {
       "title": "Aflewering",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Verskillende faktuurinligting",
     "basket_empty": "Mandjie is leeg",
     "extra_shipping_count": "Jy sal {count} pakkette ontvang.",
-    "select_location_error": "Vind die plek van ontvangs van die verskeping op die kaart en klik op die aanwyser in die middel van die kaart om die presiese adres van die ontvanger te bepaal."
+    "select_location_error": "Vind die plek van ontvangs van die verskeping op die kaart en klik op die aanwyser in die middel van die kaart om die presiese adres van die ontvanger te bepaal.",
+    "same_billing_address_desc": "Die faktuuradres is dieselfde as die afleweringsadres.",
+    "custom_billing_info_desc": "Jy kan jou BELASTINGnommer invoer en 'n ander adres vir fakturering stel.",
+    "billing_business_desc": "Dit is 'n besigheidsrekening met 'n BELASTINGnommer.",
+    "billing_personal_desc": "Dit is 'n persoonlike rekening.",
+    "no_billing_title": "Geen faktuur nie",
+    "no_billing_desc": "Laat faktuuradres leeg."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Haal eksterne orde op",
     "address_included": "Deel mandjie items + adres",
     "address_excluded": "Deel slegs mandjie-items"
+  },
+  "variants_view": {
+    "prices": "Pryse",
+    "inventory": "Voorraad",
+    "discount": "Afslag"
+  },
+  "rating": {
+    "product_rating_message": "Hierdie produk het 'n gradering van {rate} uit 5 sterre ontvang en deur {rate_count} mense gegradeer."
+  },
+  "related_products": {
+    "card": {
+      "title": "Verken!",
+      "same_tags_subtitle": "Vind meer merkwaardige verwante items.",
+      "same_category_subtitle": "Vind meer merkwaardige items in hierdie kategorie."
+    }
   }
 };

@@ -81,7 +81,9 @@ export default {
     "offer_message": "შეიძინეთ {min_quantity} მიიღეთ {percent}% ფასდაკლება ამ ნივთებზე",
     "up_to": "მაქსიმუმ {per_order}x თითო შეკვეთაზე",
     "get_free": "მიიღეთ უფასო",
-    "get_off": "მიიღეთ {percent}% ფასდაკლება"
+    "get_off": "მიიღეთ {percent}% ფასდაკლება",
+    "select_a_vendor_message": "გთხოვთ, აირჩიოთ გამყიდველი.",
+    "product_description_header": "წარმოგიდგენთ {product}"
   },
   "buy_button": {
     "waiting_for_availability": "ველოდები ხელმისაწვდომობას",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "ჩვენ შეგატყობინებთ, როდესაც ის ხელმისაწვდომი იქნება.",
       "inform_remove_success": "თქვენ ამოღებული ხართ ლოდინის სიიდან."
-    }
+    },
+    "subscribe_now": "გამოიწერეთ ახლავე",
+    "unsubscribe": "გამოწერის გაუქმება",
+    "select_a_subscription_plan": "ჯერ აირჩიეთ გეგმა!",
+    "manage_subscriptions": "მართეთ გამოწერები"
   },
   "product": {
     "review": "Მიმოხილვა",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Გარანტია",
     "return_policy": "დაბრუნების პოლიტიკა",
     "guide": "გზამკვლევი",
-    "shipping": "ტრანსპორტირება"
+    "shipping": "ტრანსპორტირება",
+    "related_categories_title": "აღმოაჩინეთ კოლექციებში"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "მთლიანი ნივთების ფასი",
       "total_items_discount": "პროდუქციის ფასდაკლება",
       "total_price_after_offers": "სულ შეთავაზებების გამოყენების შემდეგ",
-      "buyer_payment": "მყიდველის გადახდის თანხა"
+      "buyer_payment": "მყიდველის გადახდის თანხა",
+      "total_order_price_before_tax": "გადასახადამდე მთლიანი ფასი"
     },
     "delivery": {
       "title": "მიწოდება",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "ბილინგის სხვადასხვა ინფორმაცია",
     "basket_empty": "კალათა ცარიელია",
     "extra_shipping_count": "თქვენ მიიღებთ {count} პაკეტს.",
-    "select_location_error": "იპოვეთ ტვირთის მიღების ადგილი რუკაზე და დააწკაპუნეთ ინდიკატორზე რუკის შუაში, რათა დადგინდეს მიმღების ზუსტი მისამართი."
+    "select_location_error": "იპოვეთ ტვირთის მიღების ადგილი რუკაზე და დააწკაპუნეთ ინდიკატორზე რუკის შუაში, რათა დადგინდეს მიმღების ზუსტი მისამართი.",
+    "same_billing_address_desc": "ბილინგის მისამართი იგივეა, რაც მიწოდების მისამართი.",
+    "custom_billing_info_desc": "შეგიძლიათ შეიყვანოთ თქვენი საგადასახადო ნომერი და დააყენოთ ბილინგის სხვა მისამართი.",
+    "billing_business_desc": "ეს არის ბიზნეს ანგარიში საგადასახადო ნომრით.",
+    "billing_personal_desc": "ეს არის პირადი ანგარიში.",
+    "no_billing_title": "ბილინგი არ არის",
+    "no_billing_desc": "დატოვეთ ბილინგის მისამართი ცარიელი."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "გარე შეკვეთის აღდგენა",
     "address_included": "გააზიარეთ კალათის ნივთები + მისამართი",
     "address_excluded": "გააზიარეთ მხოლოდ კალათის ნივთები"
+  },
+  "variants_view": {
+    "prices": "ფასები",
+    "inventory": "ინვენტარი",
+    "discount": "ფასდაკლება"
+  },
+  "rating": {
+    "product_rating_message": "ამ პროდუქტმა მიიღო შეფასება 5 ვარსკვლავიდან {rate} და შეაფასა {rate_count} ადამიანის მიერ."
+  },
+  "related_products": {
+    "card": {
+      "title": "Გამოკვლევა!",
+      "same_tags_subtitle": "იპოვეთ უფრო მნიშვნელოვანი დაკავშირებული ნივთები.",
+      "same_category_subtitle": "იპოვეთ მეტი ღირსშესანიშნავი ნივთები ამ კატეგორიაში."
+    }
   }
 };

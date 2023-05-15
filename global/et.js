@@ -603,7 +603,34 @@ export default {
     "deleted": "Kustutatud",
     "variant": "Variant",
     "secure": "Turvaline",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "sh.",
+    "payment_not_settled": "Makse ei tasutud!",
+    "orders_list": "Tellimuste loend",
+    "subscription_plan": "Tellimisplaan",
+    "contents": "Sisu",
+    "pricings": "Hinnad",
+    "static_page": "Staatiline leht",
+    "shop_button": "Poe nupp",
+    "embed": "Manusta",
+    "over": "Läbi",
+    "tax_vary_by_location": "varieeruda. asukoht",
+    "product_type": "Toote tüüp",
+    "tax_id": "Maksu ID",
+    "business_name": "Ärinimi",
+    "invoice": "Arve",
+    "included_in_the_product": "Toote sees",
+    "included_in_the_product_description": "Toode sisaldab järgmisi komponente",
+    "cross_sell": "Risti müüa",
+    "discount_off": "OFF",
+    "extra_discount": "Lisaallahindlus",
+    "template": "Mall",
+    "in_cart": "Ostukorvis",
+    "pros_and_cons": "Plussid ja miinused",
+    "related_products": "Seotud tooted",
+    "related_categories": "Seotud kategooriad",
+    "badges": "Märgid",
+    "explore": "Uurige"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Regenereerida",
     "add_message": "Lisa sõnum",
     "continue_chat": "Jätkake vestlust",
-    "add_new_message": "Lisa uus sõnum"
+    "add_new_message": "Lisa uus sõnum",
+    "change_setting": "Muutke seadet",
+    "delete_all": "Kustutada kõik",
+    "transfer_fund": "Ülekandefond",
+    "reverse_fund": "Pöördfond",
+    "settlement": "Arveldamine",
+    "refund": "Tagasimakse",
+    "partial_refund": "Osaline tagasimakse",
+    "change_payment_method": "Muutke makseviisi",
+    "buy": "Osta",
+    "view_all": "Vaata kõiki",
+    "view_now": "Vaata kohe"
   },
   "instance_message_title": "Saatke kiirsõnum",
   "instance_message": "Tere, {name}! Minu nimi on {author} ettevõttest {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Igihaljas",
     "#214C30": "Mets",
     "#DC2867": "Fuksia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Leht",
     "#558450": "Hele vesi",
     "#96B5C9": "Helesinine",
@@ -951,7 +989,9 @@ export default {
     "file": "Fail",
     "file_description": "Kõik lubatud failid, nagu veebikursuse video, allalaaditavad dokumendid.",
     "service": "Teenindus",
-    "service_description": "Teenused nagu: remont, transport, õpetamine."
+    "service_description": "Teenused nagu: remont, transport, õpetamine.",
+    "subscription": "Tellimus",
+    "subscription_description": "Toodete, teenuste või sisu tellimused ja arved."
   },
   "license": {
     "free": "Tasuta",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Esimene postitus",
     "comment_at": "Peal",
-    "edit_comment": "Muuda kommentaari"
+    "edit_comment": "Muuda kommentaari",
+    "my_comments": "Minu kommentaarid"
   },
   "customer_club": {
     "bronze": "Pronks",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Kinnituskood",
     "msg_title": "Tere,",
     "msg_body": "Palun logige sisse. See võtab vaid mõne sekundi.",
-    "login_apple": "Logige sisse Apple'iga"
+    "login_apple": "Logige sisse Apple'iga",
+    "login_email": "Logi sisse e-posti teel",
+    "email_login_step_1": "Sisestage kehtiv e-posti aadress ja me saadame sellele sisselogimiskoodi. Registreerimine pole vajalik.",
+    "email_login_step_2": "Kas olete kindel, et sisestasite oma e-posti aadressi õigesti? Saadame sisselogimiskoodi esitatud e-posti aadressile, seega veenduge selle täpsuses.",
+    "email_login_step_3": "Saatsime teie meilile koodi. Pange tähele, et kood aegub 10 minuti pärast."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Salvesta sõnum",
     "notifications": {
       "success": "Teie sisendandmed on salvestatud."
-    }
+    },
+    "product_inputs_preview_message": "Need kohandamisvalikud on teie tellitud toote jaoks saadaval. Kui kaup on teie ostukorvi lisatud, saate siin muudatusi teha."
   },
   "faq": {
     "faq": "Korduma kippuvad küsimused",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Raske",
     "intermediate": "Keskmine",
     "easy": "Lihtne"
+  },
+  "billing_period": {
+    "Daily": "Igapäevane",
+    "Weekly": "Iganädalane",
+    "Monthly": "Igakuine",
+    "Every3Months": "Iga 3 kuu tagant",
+    "Every6Months": "Iga 6 kuu tagant",
+    "Yearly": "Aastane"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oh ei ole hea!",
+    "between2_3": "Kõik on korras!",
+    "between3_4": "Inimestele meeldib!",
+    "between4_5": "Inimestele meeldib see!"
   }
 };

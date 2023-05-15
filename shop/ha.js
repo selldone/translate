@@ -81,7 +81,9 @@ export default {
     "offer_message": "Sayi {min_quantity} Sami kashi kashi% na waɗannan abubuwan",
     "up_to": "Har zuwa {per_order}x kowane oda",
     "get_free": "SAMU KYAUTA",
-    "get_off": "SAMU {percent}% KASHE"
+    "get_off": "SAMU {percent}% KASHE",
+    "select_a_vendor_message": "Da fatan za a zaɓi mai siyarwa.",
+    "product_description_header": "Gabatar da {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Jiran samuwa",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Za mu sanar da ku idan akwai shi.",
       "inform_remove_success": "An cire ku daga lissafin jira."
-    }
+    },
+    "subscribe_now": "Yi rijista Yanzu",
+    "unsubscribe": "Cire rajista",
+    "select_a_subscription_plan": "Zaɓi tsari tukuna!",
+    "manage_subscriptions": "Sarrafa biyan kuɗi"
   },
   "product": {
     "review": "Bita",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Garanti",
     "return_policy": "Manufar Komawa",
     "guide": "Jagora",
-    "shipping": "Jirgin ruwa"
+    "shipping": "Jirgin ruwa",
+    "related_categories_title": "Gano a cikin tarin"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Jimlar Farashin Kaya",
       "total_items_discount": "Rangwamen kayayyaki",
       "total_price_after_offers": "Jimlar bayan amfani da tayi",
-      "buyer_payment": "Adadin biyan kuɗi na mai siye"
+      "buyer_payment": "Adadin biyan kuɗi na mai siye",
+      "total_order_price_before_tax": "Jimlar Farashi kafin haraji"
     },
     "delivery": {
       "title": "Bayarwa",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Bayanin lissafin kuɗi daban-daban",
     "basket_empty": "Kwando babu kowa",
     "extra_shipping_count": "Za ku karɓi fakitin {count}.",
-    "select_location_error": "Nemo wurin karɓar jigilar kaya akan taswira kuma danna kan mai nuna alama a tsakiyar taswirar don tantance ainihin adireshin mai karɓa."
+    "select_location_error": "Nemo wurin karɓar jigilar kaya akan taswira kuma danna kan mai nuna alama a tsakiyar taswirar don tantance ainihin adireshin mai karɓa.",
+    "same_billing_address_desc": "Adireshin lissafin daidai yake da adireshin jigilar kaya.",
+    "custom_billing_info_desc": "Kuna iya shigar da lambar TAX ɗin ku kuma saita wani adireshin daban don yin lissafin kuɗi.",
+    "billing_business_desc": "Asusun kasuwanci ne mai lambar TAX.",
+    "billing_personal_desc": "Asusun sirri ne.",
+    "no_billing_title": "Babu lissafin kuɗi",
+    "no_billing_desc": "Bar adireshin lissafin fanko."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Maido oda na waje",
     "address_included": "Raba abubuwan kwando + Adireshi",
     "address_excluded": "Raba kayan kwando kawai"
+  },
+  "variants_view": {
+    "prices": "Farashin",
+    "inventory": "Kaya",
+    "discount": "Rangwame"
+  },
+  "rating": {
+    "product_rating_message": "Wannan samfurin ya sami ƙima na {rate} cikin tauraro 5 kuma mutane {rate_count} sun ƙididdige shi."
+  },
+  "related_products": {
+    "card": {
+      "title": "Bincika!",
+      "same_tags_subtitle": "Nemo ƙarin abubuwan ban mamaki masu alaƙa.",
+      "same_category_subtitle": "Nemo ƙarin abubuwa masu ban mamaki a cikin wannan rukunin."
+    }
   }
 };

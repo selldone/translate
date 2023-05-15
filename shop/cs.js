@@ -81,7 +81,9 @@ export default {
     "offer_message": "Kupte {min_quantity} a získejte slevu {percent} % na tyto položky",
     "up_to": "Až {per_order}x na objednávku",
     "get_free": "ZÍSKAT ZDARMA",
-    "get_off": "ZÍSKEJTE SLEVU {percent} %."
+    "get_off": "ZÍSKEJTE SLEVU {percent} %.",
+    "select_a_vendor_message": "Vyberte dodavatele.",
+    "product_description_header": "Představujeme {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Čekání na dostupnost",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Dáme vám vědět, až bude k dispozici.",
       "inform_remove_success": "Byli jste odstraněni z čekací listiny."
-    }
+    },
+    "subscribe_now": "Přihlaste se k odběru",
+    "unsubscribe": "Odhlásit odběr",
+    "select_a_subscription_plan": "Nejprve vyberte plán!",
+    "manage_subscriptions": "Správa předplatných"
   },
   "product": {
     "review": "Posouzení",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Záruka",
     "return_policy": "Reklamační řád",
     "guide": "Průvodce",
-    "shipping": "Lodní doprava"
+    "shipping": "Lodní doprava",
+    "related_categories_title": "Objevte ve sbírkách"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Celková cena položek",
       "total_items_discount": "Sleva na položky",
       "total_price_after_offers": "Celkem po uplatnění nabídek",
-      "buyer_payment": "Částka platby kupujícím"
+      "buyer_payment": "Částka platby kupujícím",
+      "total_order_price_before_tax": "Celková cena před zdaněním"
     },
     "delivery": {
       "title": "dodávka",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Jiné fakturační údaje",
     "basket_empty": "Košík je prázdný",
     "extra_shipping_count": "Obdržíte {count} balíčků.",
-    "select_location_error": "Najděte na mapě místo příjmu zásilky a kliknutím na indikátor uprostřed mapy určíte přesnou adresu příjemce."
+    "select_location_error": "Najděte na mapě místo příjmu zásilky a kliknutím na indikátor uprostřed mapy určíte přesnou adresu příjemce.",
+    "same_billing_address_desc": "Fakturační adresa je stejná jako dodací adresa.",
+    "custom_billing_info_desc": "Můžete zadat své DIČ a nastavit jinou fakturační adresu.",
+    "billing_business_desc": "Je to podnikatelský účet s daňovým číslem.",
+    "billing_personal_desc": "Je to osobní účet.",
+    "no_billing_title": "Žádné účtování",
+    "no_billing_desc": "Fakturační adresu ponechte prázdnou."
   },
   "basket_items": {
     "items_unit": "X",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Načíst externí objednávku",
     "address_included": "Sdílejte položky košíku + adresa",
     "address_excluded": "Sdílejte pouze položky košíku"
+  },
+  "variants_view": {
+    "prices": "Ceny",
+    "inventory": "Inventář",
+    "discount": "Sleva"
+  },
+  "rating": {
+    "product_rating_message": "Tento produkt získal hodnocení {rate} z 5 hvězdiček a bylo hodnoceno {rate_count} lidmi."
+  },
+  "related_products": {
+    "card": {
+      "title": "Prozkoumat!",
+      "same_tags_subtitle": "Najděte další pozoruhodné související položky.",
+      "same_category_subtitle": "Další pozoruhodné položky najdete v této kategorii."
+    }
   }
 };

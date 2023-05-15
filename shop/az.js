@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity} alın Bu məhsullara {percent}% endirim qazanın",
     "up_to": "Hər sifariş üçün {per_order}x-ə qədər",
     "get_free": "PULSUZ OLUN",
-    "get_off": "{percent}% ENDİRİM ALIN"
+    "get_off": "{percent}% ENDİRİM ALIN",
+    "select_a_vendor_message": "Zəhmət olmasa satıcı seçin.",
+    "product_description_header": "{product} təqdim olunur"
   },
   "buy_button": {
     "waiting_for_availability": "Mövcudluq gözlənilir",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Əlçatan olduqda sizə xəbər verəcəyik.",
       "inform_remove_success": "Siz gözləmə siyahısından çıxarıldınız."
-    }
+    },
+    "subscribe_now": "İndi abunə olun",
+    "unsubscribe": "Abunəni dayandırın",
+    "select_a_subscription_plan": "Əvvəlcə plan seçin!",
+    "manage_subscriptions": "Abunəlikləri idarə edin"
   },
   "product": {
     "review": "Baxış-icmal",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Zəmanət",
     "return_policy": "Qaytarma Siyasəti",
     "guide": "Bələdçi",
-    "shipping": "Göndərmə"
+    "shipping": "Göndərmə",
+    "related_categories_title": "Kolleksiyalarda kəşf edin"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Ümumi maddələrin qiyməti",
       "total_items_discount": "Əşyalara Endirim",
       "total_price_after_offers": "Təklifləri tətbiq etdikdən sonra cəmi",
-      "buyer_payment": "Alıcı ödəniş məbləği"
+      "buyer_payment": "Alıcı ödəniş məbləği",
+      "total_order_price_before_tax": "Vergidən əvvəlki Ümumi Qiymət"
     },
     "delivery": {
       "title": "Çatdırılma",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Fərqli faktura məlumatları",
     "basket_empty": "Səbət boşdur",
     "extra_shipping_count": "Siz {count} paket alacaqsınız.",
-    "select_location_error": "Xəritədə yükün alındığı yeri tapın və alıcının dəqiq ünvanını müəyyən etmək üçün xəritənin ortasındakı göstəriciyə klikləyin."
+    "select_location_error": "Xəritədə yükün alındığı yeri tapın və alıcının dəqiq ünvanını müəyyən etmək üçün xəritənin ortasındakı göstəriciyə klikləyin.",
+    "same_billing_address_desc": "Faktura ünvanı göndərmə ünvanı ilə eynidir.",
+    "custom_billing_info_desc": "Siz VERGİ nömrənizi daxil edə və faktura üçün başqa ünvan təyin edə bilərsiniz.",
+    "billing_business_desc": "Bu, VERGİ nömrəsi olan biznes hesabıdır.",
+    "billing_personal_desc": "Şəxsi hesabdır.",
+    "no_billing_title": "Faktura yoxdur",
+    "no_billing_desc": "Faktura ünvanını boş buraxın."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Xarici sifarişi əldə edin",
     "address_included": "Səbət elementlərini paylaşın + Ünvan",
     "address_excluded": "Yalnız səbət əşyalarını paylaşın"
+  },
+  "variants_view": {
+    "prices": "Qiymətlər",
+    "inventory": "İnventar",
+    "discount": "Güzəşt"
+  },
+  "rating": {
+    "product_rating_message": "Bu məhsul 5 ulduzdan {rate} qiymətləndirilib və {rate_count} nəfər tərəfindən qiymətləndirilib."
+  },
+  "related_products": {
+    "card": {
+      "title": "Kəşf edin!",
+      "same_tags_subtitle": "Daha diqqətəlayiq əlaqəli maddələr tapın.",
+      "same_category_subtitle": "Bu kateqoriyada daha çox diqqət çəkən əşyalar tapın."
+    }
   }
 };

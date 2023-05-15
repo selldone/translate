@@ -604,8 +604,33 @@ export default {
     "variant": "Вариант",
     "secure": "Сигурно",
     "admin": "Админ",
-    "payment_not_settled":"Очаква се плащане",
-
+    "payment_not_settled": "Очаква се плащане",
+    "tax_included_abstract": "вкл.",
+    "orders_list": "Списък с поръчки",
+    "subscription_plan": "Абонаментен план",
+    "contents": "Съдържание",
+    "pricings": "Цени",
+    "static_page": "Статична страница",
+    "shop_button": "Бутон за пазаруване",
+    "embed": "Вграждане",
+    "over": "Над",
+    "tax_vary_by_location": "варират. местоположение",
+    "product_type": "Вид продукт",
+    "tax_id": "Данъчен номер",
+    "business_name": "Име на фирмата",
+    "invoice": "фактура",
+    "included_in_the_product": "Включен в продукта",
+    "included_in_the_product_description": "Продуктът включва следните компоненти",
+    "cross_sell": "Кръстосана продажба",
+    "discount_off": "OFF",
+    "extra_discount": "Допълнителна отстъпка",
+    "template": "Шаблон",
+    "in_cart": "В количката",
+    "pros_and_cons": "Предимства и недостатъци",
+    "related_products": "Свързани продукти",
+    "related_categories": "Свързани категории",
+    "badges": "Значки",
+    "explore": "Разгледайте"
   },
   "dialogs": {
     "delete": {
@@ -724,7 +749,18 @@ export default {
     "regenerate": "Регенерирайте",
     "add_message": "Добавете съобщение",
     "continue_chat": "Продължаване на чата",
-    "add_new_message": "Добавете ново съобщение"
+    "add_new_message": "Добавете ново съобщение",
+    "change_setting": "Промяна на настройката",
+    "delete_all": "Изтриване на всички",
+    "transfer_fund": "Трансферен фонд",
+    "reverse_fund": "Обратен фонд",
+    "settlement": "Уреждане",
+    "refund": "Възстановяване",
+    "partial_refund": "Частично възстановяване",
+    "change_payment_method": "Променете метода на плащане",
+    "buy": "Купува",
+    "view_all": "Виж всички",
+    "view_now": "Вижте сега"
   },
   "instance_message_title": "Изпратете незабавно съобщение",
   "instance_message": "Здравейте, {name}, казвам се {author} от {company}.",
@@ -910,7 +946,7 @@ export default {
     "#00582F": "Евъргрийн",
     "#214C30": "гора",
     "#DC2867": "Фуксия",
-    "#38561F" :"Кели",
+    "#38561F": "Кели",
     "#5C884D": "листо",
     "#558450": "Светла вода",
     "#96B5C9": "Светло синьо",
@@ -953,7 +989,9 @@ export default {
     "file": "Файл",
     "file_description": "Всички разрешени файлове като онлайн видео курсове, документи за изтегляне.",
     "service": "Обслужване",
-    "service_description": "Услуги като: ремонт, транспорт, обучение."
+    "service_description": "Услуги като: ремонт, транспорт, обучение.",
+    "subscription": "Абонамент",
+    "subscription_description": "Абонаменти и фактуриране за продукти, услуги или съдържание."
   },
   "license": {
     "free": "Безплатно",
@@ -1302,7 +1340,8 @@ export default {
     },
     "first_send": "Първи отзив",
     "comment_at": "На",
-    "edit_comment": "Редактиране на отзив"
+    "edit_comment": "Редактиране на отзив",
+    "my_comments": "Моите коментари"
   },
   "customer_club": {
     "bronze": "бронз",
@@ -1665,7 +1704,11 @@ export default {
     "verification_code": "Код за потвърждение",
     "msg_title": "Здравейте,",
     "msg_body": "Може да влезете по следните начини:",
-    "login_apple": "Влезте с Apple"
+    "login_apple": "Влезте с Apple",
+    "login_email": "Вход чрез имейл",
+    "email_login_step_1": "Моля, посочете валиден имейл адрес и ние ще изпратим кода за вход на него. Не е необходима регистрация.",
+    "email_login_step_2": "Сигурни ли сте, че сте въвели своя имейл адрес правилно? Ние ще изпратим кода за вход на предоставения имейл, така че, моля, уверете се, че е точен.",
+    "email_login_step_3": "Изпратихме код на вашия имейл. Моля, имайте предвид, че кодът ще изтече след 10 минути."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1728,7 +1771,8 @@ export default {
     "save_actions": "Запазване на съобщението",
     "notifications": {
       "success": "Вашите входни данни са запазени."
-    }
+    },
+    "product_inputs_preview_message": "Тези опции за персонализиране са налични за поръчания от вас продукт. След като артикулът бъде добавен в количката ви, ще можете да правите корекции тук."
   },
   "faq": {
     "faq": "Често задавани въпроси",
@@ -1894,5 +1938,19 @@ export default {
     "hard": "Твърд",
     "intermediate": "Междинен",
     "easy": "лесно"
+  },
+  "billing_period": {
+    "Daily": "Ежедневно",
+    "Weekly": "Ежеседмично",
+    "Monthly": "Месечно",
+    "Every3Months": "На всеки 3 месеца",
+    "Every6Months": "На всеки 6 месеца",
+    "Yearly": "Годишно"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "О, не е добре!",
+    "between2_3": "Всичко е наред!",
+    "between3_4": "Хората го харесват!",
+    "between4_5": "Хората го обожават!"
   }
 };

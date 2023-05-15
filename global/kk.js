@@ -603,7 +603,34 @@ export default {
     "deleted": "Жойылды",
     "variant": "Нұсқа",
     "secure": "Қауіпсіз",
-    "admin": "Админ"
+    "admin": "Админ",
+    "tax_included_abstract": "қоса",
+    "payment_not_settled": "Төлем жасалмады!",
+    "orders_list": "Тапсырыстар тізімі",
+    "subscription_plan": "Жазылым жоспары",
+    "contents": "Мазмұны",
+    "pricings": "Бағалар",
+    "static_page": "Статикалық бет",
+    "shop_button": "Дүкен түймесі",
+    "embed": "Енгізу",
+    "over": "Бітті",
+    "tax_vary_by_location": "өзгереді. орналасуы",
+    "product_type": "Өнім түрі",
+    "tax_id": "Салық идентификаторы",
+    "business_name": "Бизнес атауы",
+    "invoice": "Шот-фактура",
+    "included_in_the_product": "Өнімге кіреді",
+    "included_in_the_product_description": "Өнімге келесі компоненттер кіреді",
+    "cross_sell": "Айқас сату",
+    "discount_off": "OFF",
+    "extra_discount": "Қосымша жеңілдік",
+    "template": "Үлгі",
+    "in_cart": "Себетте",
+    "pros_and_cons": "Артықшылықтары мен кемшіліктері",
+    "related_products": "қосымша тауарлар",
+    "related_categories": "Қатысты санаттар",
+    "badges": "Белгілер",
+    "explore": "Зерттеу"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Қайта жасау",
     "add_message": "Хабар қосу",
     "continue_chat": "Сөйлесуді жалғастыру",
-    "add_new_message": "Жаңа хабар қосыңыз"
+    "add_new_message": "Жаңа хабар қосыңыз",
+    "change_setting": "Параметрді өзгерту",
+    "delete_all": "Барлығын жою",
+    "transfer_fund": "Трансферттік қор",
+    "reverse_fund": "Кері қор",
+    "settlement": "Есеп айырысу",
+    "refund": "Қайтару",
+    "partial_refund": "Жартылай қайтару",
+    "change_payment_method": "Төлеу әдісін өзгерту",
+    "buy": "Сатып алу",
+    "view_all": "Барлығын көру",
+    "view_now": "Қазір көру"
   },
   "instance_message_title": "Жедел хабарлама жіберу",
   "instance_message": "Сәлем {name}, менің атым {company} компаниясынан {author}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Мәңгі жасыл",
     "#214C30": "Орман",
     "#DC2867": "Фуксия",
-    "#38561F" :"Келли",
+    "#38561F": "Келли",
     "#5C884D": "Жапырақ",
     "#558450": "Жеңіл аква",
     "#96B5C9": "Көгілдір",
@@ -951,7 +989,9 @@ export default {
     "file": "Файл",
     "file_description": "Онлайн курстық бейне, жүктеп алынатын құжаттар сияқты барлық рұқсат етілген файлдар.",
     "service": "Қызмет",
-    "service_description": "Жөндеу, тасымалдау, оқыту сияқты қызметтер."
+    "service_description": "Жөндеу, тасымалдау, оқыту сияқты қызметтер.",
+    "subscription": "Жазылым",
+    "subscription_description": "Өнімдерге, қызметтерге немесе мазмұнға жазылымдар және шот-фактуралар."
   },
   "license": {
     "free": "Тегін",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Бірінші пост",
     "comment_at": "Қосулы",
-    "edit_comment": "Пікірді өңдеу"
+    "edit_comment": "Пікірді өңдеу",
+    "my_comments": "Менің пікірлерім"
   },
   "customer_club": {
     "bronze": "Қола",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Тексеру коды",
     "msg_title": "Сәлем,",
     "msg_body": "Жүйеге кіріңіз. Бұл бірнеше секундты алады.",
-    "login_apple": "Apple арқылы жүйеге кіріңіз"
+    "login_apple": "Apple арқылы жүйеге кіріңіз",
+    "login_email": "Электрондық пошта арқылы кіру",
+    "email_login_step_1": "Жарамды электрондық пошта мекенжайын көрсетіңіз, біз оған логин кодын жібереміз. Тіркелу қажет емес.",
+    "email_login_step_2": "Электрондық пошта мекенжайыңызды дұрыс енгізгеніңізге сенімдісіз бе? Біз логин кодын берілген электрондық поштаға жібереміз, сондықтан оның дұрыстығына көз жеткізіңіз.",
+    "email_login_step_3": "Электрондық поштаңызға код жібердік. Кодтың мерзімі 10 минуттан кейін аяқталатынын ескеріңіз."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Хабарды сақтау",
     "notifications": {
       "success": "Енгізілген деректеріңіз сақталды."
-    }
+    },
+    "product_inputs_preview_message": "Бұл теңшеу опциялары тапсырыс берген өнім үшін қол жетімді. Элемент себетіңізге қосылғаннан кейін осы жерде түзетулер жасай аласыз."
   },
   "faq": {
     "faq": "Жиі Қойылатын Сұрақтар",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Қатты",
     "intermediate": "Орташа",
     "easy": "Жеңіл"
+  },
+  "billing_period": {
+    "Daily": "Күнделікті",
+    "Weekly": "Апта сайын",
+    "Monthly": "Ай сайын",
+    "Every3Months": "Әр 3 ай сайын",
+    "Every6Months": "Әр 6 ай сайын",
+    "Yearly": "Жыл сайын"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "О, жақсы емес!",
+    "between2_3": "Бәрі жақсы!",
+    "between3_4": "Адамдарға ұнайды!",
+    "between4_5": "Адамдар оны жақсы көреді!"
   }
 };

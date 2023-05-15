@@ -603,7 +603,34 @@ export default {
     "deleted": "Efase",
     "variant": "Variant",
     "secure": "Sekirize",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "incl.",
+    "payment_not_settled": "Peman pa regle!",
+    "orders_list": "Lis lòd",
+    "subscription_plan": "Plan abònman",
+    "contents": "Kontni",
+    "pricings": "Pris yo",
+    "static_page": "Paj estatik",
+    "shop_button": "Bouton boutik",
+    "embed": "Afiche",
+    "over": "Plis pase",
+    "tax_vary_by_location": "varye. kote",
+    "product_type": "Kalite pwodwi",
+    "tax_id": "ID taks",
+    "business_name": "Non biznis",
+    "invoice": "Fakti",
+    "included_in_the_product": "Enkli nan pwodwi a",
+    "included_in_the_product_description": "Pwodwi a gen ladan eleman sa yo",
+    "cross_sell": "Kwa Vann",
+    "discount_off": "OFF",
+    "extra_discount": "Rabè siplemantè",
+    "template": "Modèl",
+    "in_cart": "Nan kabwa",
+    "pros_and_cons": "Avantaj ak enkonvenyan",
+    "related_products": "Pwodwi ki gen rapò",
+    "related_categories": "Kategori ki gen rapò",
+    "badges": "Badj",
+    "explore": "Eksplore"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Rejenere",
     "add_message": "Ajoute mesaj",
     "continue_chat": "Kontinye chat",
-    "add_new_message": "Ajoute nouvo mesaj"
+    "add_new_message": "Ajoute nouvo mesaj",
+    "change_setting": "Chanje anviwònman",
+    "delete_all": "Efase tout",
+    "transfer_fund": "Transfè fon",
+    "reverse_fund": "Fon ranvèse",
+    "settlement": "Règleman",
+    "refund": "Ranbousman",
+    "partial_refund": "Ranbousman pasyèl",
+    "change_payment_method": "Chanje metòd peman",
+    "buy": "Achte",
+    "view_all": "Wè tout",
+    "view_now": "Gade kounye a"
   },
   "instance_message_title": "Voye mesaj enstantane",
   "instance_message": "Bonjou {name}, Non mwen se {author} ki soti nan {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Forest",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Fèy",
     "#558450": "Limyè Aqua",
     "#96B5C9": "Limye ble",
@@ -951,7 +989,9 @@ export default {
     "file": "File",
     "file_description": "Tout fichye pèmèt yo tankou videyo kou sou entènèt, dokiman telechaje.",
     "service": "Sèvis",
-    "service_description": "Sèvis tankou: reparasyon, transpò, ansèyman."
+    "service_description": "Sèvis tankou: reparasyon, transpò, ansèyman.",
+    "subscription": "Abònman",
+    "subscription_description": "Abònman ak fakti pou pwodwi, sèvis, oswa kontni."
   },
   "license": {
     "free": "Gratis",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Premye pòs",
     "comment_at": "Sou",
-    "edit_comment": "Edit Kòmantè"
+    "edit_comment": "Edit Kòmantè",
+    "my_comments": "Kòmantè mwen yo"
   },
   "customer_club": {
     "bronze": "Bwonz",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Kòd Verifikasyon",
     "msg_title": "bonjou,",
     "msg_body": "Tanpri konekte. Li pran jis kèk segonn.",
-    "login_apple": "Konekte ak Apple"
+    "login_apple": "Konekte ak Apple",
+    "login_email": "Konekte pa Imèl",
+    "email_login_step_1": "Tanpri bay yon adrès imèl ki valab, epi n ap voye kòd login la ba li. Pa gen enskripsyon ki nesesè.",
+    "email_login_step_2": "Èske ou sèten ou te antre adrès imel ou kòrèkteman? Nou pral voye kòd login nan imel yo bay la, kidonk tanpri asire presizyon li.",
+    "email_login_step_3": "Nou voye yon kòd nan imel ou. Tanpri sonje ke kòd la ap ekspire nan 10 minit."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Sove mesaj",
     "notifications": {
       "success": "Done antre ou yo te sove."
-    }
+    },
+    "product_inputs_preview_message": "Opsyon personnalisation sa yo disponib pou pwodwi ou te bay lòd. Yon fwa yo ajoute atik la nan kabwa ou a, ou pral kapab fè ajisteman isit la."
   },
   "faq": {
     "faq": "Kesyon yo poze souvan",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Difisil",
     "intermediate": "Entèmedyè",
     "easy": "Fasil"
+  },
+  "billing_period": {
+    "Daily": "Chak jou",
+    "Weekly": "Chak semèn",
+    "Monthly": "Chak mwa",
+    "Every3Months": "Chak 3 mwa",
+    "Every6Months": "Chak 6 mwa",
+    "Yearly": "Chak ane"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Och pa bon!",
+    "between2_3": "Li Oke!",
+    "between3_4": "Moun renmen li!",
+    "between4_5": "Moun renmen li!"
   }
 };

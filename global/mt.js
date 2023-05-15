@@ -603,7 +603,34 @@ export default {
     "deleted": "Imħassar",
     "variant": "Varjant",
     "secure": "Sikura",
-    "admin": "Amministratur"
+    "admin": "Amministratur",
+    "tax_included_abstract": "inkl.",
+    "payment_not_settled": "Ħlas mhux regolat!",
+    "orders_list": "Lista ta' ordnijiet",
+    "subscription_plan": "Pjan ta' abbonament",
+    "contents": "Kontenut",
+    "pricings": "Prezzijiet",
+    "static_page": "Paġna statika",
+    "shop_button": "Buttuna tal-Ħanut",
+    "embed": "Inkorpora",
+    "over": "Fuq",
+    "tax_vary_by_location": "ivarjaw. post",
+    "product_type": "Tip ta' prodott",
+    "tax_id": "ID tat-Taxxa",
+    "business_name": "Isem tan-negozju",
+    "invoice": "Fattura",
+    "included_in_the_product": "Inkluż fil-prodott",
+    "included_in_the_product_description": "Il-prodott jinkludi l-komponenti li ġejjin",
+    "cross_sell": "Cross Sell",
+    "discount_off": "OFF",
+    "extra_discount": "Discount Extra",
+    "template": "Mudell",
+    "in_cart": "Fil-Cart",
+    "pros_and_cons": "Vantaġġi u Żvantaġġi",
+    "related_products": "Prodotti Relatati",
+    "related_categories": "Kategoriji Relatati",
+    "badges": "Badges",
+    "explore": "Esplora"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Riġenera",
     "add_message": "Żid messaġġ",
     "continue_chat": "Kompli chat",
-    "add_new_message": "Żid messaġġ ġdid"
+    "add_new_message": "Żid messaġġ ġdid",
+    "change_setting": "Ibdel is-setting",
+    "delete_all": "Ħassar Kollha",
+    "transfer_fund": "Fond ta' trasferiment",
+    "reverse_fund": "Fond maqlub",
+    "settlement": "Soluzzjoni",
+    "refund": "Rifużjoni",
+    "partial_refund": "Rifużjoni Parzjali",
+    "change_payment_method": "Ibdel il-metodu tal-ħlas",
+    "buy": "Ixtri",
+    "view_all": "Ara Kollha",
+    "view_now": "Ara Issa"
   },
   "instance_message_title": "Ibgħat messaġġ immedjat",
   "instance_message": "Hi {name}, Jisimni {author} minn {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Foresti",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Weraq",
     "#558450": "Dawl Aqua",
     "#96B5C9": "Blu ċar",
@@ -951,7 +989,9 @@ export default {
     "file": "Fajl",
     "file_description": "Il-fajls kollha permessi bħal vidjow tal-kors onlajn, dokumenti li jistgħu jitniżżlu.",
     "service": "Servizz",
-    "service_description": "Servizzi bħal: tiswija, trasport, tagħlim."
+    "service_description": "Servizzi bħal: tiswija, trasport, tagħlim.",
+    "subscription": "Abbonament",
+    "subscription_description": "Abbonamenti u fatturazzjoni għal prodotti, servizzi, jew kontenut."
   },
   "license": {
     "free": "Libera",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "L-ewwel post",
     "comment_at": "Fuq",
-    "edit_comment": "Editja Kumment"
+    "edit_comment": "Editja Kumment",
+    "my_comments": "Il-Kummenti Tiegħi"
   },
   "customer_club": {
     "bronze": "Bronż",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Kodiċi ta' verifika",
     "msg_title": "Hi,",
     "msg_body": "Jekk jogħġbok illoginja. Huwa jieħu biss ftit sekondi.",
-    "login_apple": "Idħol ma 'Apple"
+    "login_apple": "Idħol ma 'Apple",
+    "login_email": "Idħol bl-Email",
+    "email_login_step_1": "Jekk jogħġbok ipprovdi indirizz elettroniku validu, u aħna nibagħtulu l-kodiċi tal-login. L-ebda reġistrazzjoni mhi meħtieġa.",
+    "email_login_step_2": "Int ċert li daħħalt l-indirizz elettroniku tiegħek b'mod korrett? Aħna se nibagħtu l-kodiċi tal-login lill-email ipprovduta, għalhekk jekk jogħġbok aċċerta l-eżattezza tiegħu.",
+    "email_login_step_3": "Bgħatna kodiċi għall-email tiegħek. Jekk jogħġbok innota li l-kodiċi se jiskadi fi żmien 10 minuti."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Ħlief Messaġġ",
     "notifications": {
       "success": "Id-dejta tal-input tiegħek ġiet salvata."
-    }
+    },
+    "product_inputs_preview_message": "Dawn l-għażliet ta 'personalizzazzjoni huma disponibbli għall-prodott ordnat tiegħek. Ladarba l-oġġett jiġi miżjud mal-karrettun tiegħek, inti tkun tista 'tagħmel aġġustamenti hawn."
   },
   "faq": {
     "faq": "Mistoqsijiet Frekwenti",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Iebsa",
     "intermediate": "Intermedju",
     "easy": "Faċli"
+  },
+  "billing_period": {
+    "Daily": "Kuljum",
+    "Weekly": "Kull ġimgħa",
+    "Monthly": "Kull xahar",
+    "Every3Months": "Kull 3 xhur",
+    "Every6Months": "Kull 6 xhur",
+    "Yearly": "Kull sena"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Och mhux tajjeb!",
+    "between2_3": "Orrajt!",
+    "between3_4": "Nies bhalu!",
+    "between4_5": "In-nies iħobbuha!"
   }
 };

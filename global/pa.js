@@ -603,7 +603,34 @@ export default {
     "deleted": "ਮਿਟਾਇਆ ਗਿਆ",
     "variant": "ਰੂਪ",
     "secure": "ਸੁਰੱਖਿਅਤ",
-    "admin": "ਐਡਮਿਨ"
+    "admin": "ਐਡਮਿਨ",
+    "tax_included_abstract": "ਸਮੇਤ",
+    "payment_not_settled": "ਭੁਗਤਾਨ ਦਾ ਨਿਪਟਾਰਾ ਨਹੀਂ ਹੋਇਆ!",
+    "orders_list": "ਆਰਡਰ ਸੂਚੀ",
+    "subscription_plan": "ਗਾਹਕੀ ਯੋਜਨਾ",
+    "contents": "ਸਮੱਗਰੀ",
+    "pricings": "ਕੀਮਤਾਂ",
+    "static_page": "ਸਥਿਰ ਪੰਨਾ",
+    "shop_button": "ਸ਼ਾਪ ਬਟਨ",
+    "embed": "ਏਮਬੇਡ ਕਰੋ",
+    "over": "ਵੱਧ",
+    "tax_vary_by_location": "ਵੱਖ-ਵੱਖ ਟਿਕਾਣਾ",
+    "product_type": "ਉਤਪਾਦ ਦੀ ਕਿਸਮ",
+    "tax_id": "ਟੈਕਸ ਆਈ.ਡੀ",
+    "business_name": "ਵਪਾਰ ਨਾਮ",
+    "invoice": "ਚਲਾਨ",
+    "included_in_the_product": "ਉਤਪਾਦ ਵਿੱਚ ਸ਼ਾਮਲ ਹੈ",
+    "included_in_the_product_description": "ਉਤਪਾਦ ਵਿੱਚ ਹੇਠ ਦਿੱਤੇ ਭਾਗ ਸ਼ਾਮਲ ਹਨ",
+    "cross_sell": "ਕਰਾਸ ਸੇਲ",
+    "discount_off": "OFF",
+    "extra_discount": "ਵਾਧੂ ਛੋਟ",
+    "template": "ਟੈਂਪਲੇਟ",
+    "in_cart": "ਕਾਰਟ ਵਿੱਚ",
+    "pros_and_cons": "ਲਾਭ ਅਤੇ ਹਾਨੀਆਂ",
+    "related_products": "ਸੰਬੰਧਿਤ ਉਤਪਾਦ",
+    "related_categories": "ਸੰਬੰਧਿਤ ਸ਼੍ਰੇਣੀਆਂ",
+    "badges": "ਬੈਜ",
+    "explore": "ਪੜਚੋਲ ਕਰੋ"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "ਪੁਨਰਜਨਮ",
     "add_message": "ਸੁਨੇਹਾ ਸ਼ਾਮਲ ਕਰੋ",
     "continue_chat": "ਗੱਲਬਾਤ ਜਾਰੀ ਰੱਖੋ",
-    "add_new_message": "ਨਵਾਂ ਸੁਨੇਹਾ ਸ਼ਾਮਲ ਕਰੋ"
+    "add_new_message": "ਨਵਾਂ ਸੁਨੇਹਾ ਸ਼ਾਮਲ ਕਰੋ",
+    "change_setting": "ਸੈਟਿੰਗ ਬਦਲੋ",
+    "delete_all": "ਸਭ ਮਿਟਾਓ",
+    "transfer_fund": "ਫੰਡ ਟ੍ਰਾਂਸਫਰ ਕਰੋ",
+    "reverse_fund": "ਰਿਵਰਸ ਫੰਡ",
+    "settlement": "ਬੰਦੋਬਸਤ",
+    "refund": "ਰਿਫੰਡ",
+    "partial_refund": "ਅੰਸ਼ਕ ਰਿਫੰਡ",
+    "change_payment_method": "ਭੁਗਤਾਨ ਵਿਧੀ ਬਦਲੋ",
+    "buy": "ਖਰੀਦੋ",
+    "view_all": "ਸਭ ਦੇਖੋ",
+    "view_now": "ਹੁਣੇ ਵੇਖੋ"
   },
   "instance_message_title": "ਤੁਰੰਤ ਸੁਨੇਹਾ ਭੇਜੋ",
   "instance_message": "ਹੈਲੋ {name}, ਮੇਰਾ ਨਾਮ {company} ਤੋਂ {author} ਹੈ।",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "ਸਦਾਬਹਾਰ",
     "#214C30": "ਜੰਗਲ",
     "#DC2867": "ਫੁਸ਼ੀਆ",
-    "#38561F" :"ਕੈਲੀ",
+    "#38561F": "ਕੈਲੀ",
     "#5C884D": "ਪੱਤਾ",
     "#558450": "ਹਲਕਾ ਐਕਵਾ",
     "#96B5C9": "ਹਲਕਾ ਨੀਲਾ",
@@ -951,7 +989,9 @@ export default {
     "file": "ਫਾਈਲ",
     "file_description": "ਸਾਰੀਆਂ ਇਜਾਜ਼ਤ ਵਾਲੀਆਂ ਫਾਈਲਾਂ ਜਿਵੇਂ ਕਿ ਔਨਲਾਈਨ ਕੋਰਸ ਵੀਡੀਓ, ਡਾਊਨਲੋਡ ਕਰਨ ਯੋਗ ਦਸਤਾਵੇਜ਼।",
     "service": "ਸੇਵਾ",
-    "service_description": "ਸੇਵਾਵਾਂ ਜਿਵੇਂ: ਮੁਰੰਮਤ, ਆਵਾਜਾਈ, ਅਧਿਆਪਨ।"
+    "service_description": "ਸੇਵਾਵਾਂ ਜਿਵੇਂ: ਮੁਰੰਮਤ, ਆਵਾਜਾਈ, ਅਧਿਆਪਨ।",
+    "subscription": "ਗਾਹਕੀ",
+    "subscription_description": "ਉਤਪਾਦਾਂ, ਸੇਵਾਵਾਂ ਜਾਂ ਸਮੱਗਰੀਆਂ ਲਈ ਗਾਹਕੀ ਅਤੇ ਇਨਵੌਇਸਿੰਗ।"
   },
   "license": {
     "free": "ਮੁਫ਼ਤ",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "ਪਹਿਲੀ ਪੋਸਟ",
     "comment_at": "'ਤੇ",
-    "edit_comment": "ਟਿੱਪਣੀ ਦਾ ਸੰਪਾਦਨ ਕਰੋ"
+    "edit_comment": "ਟਿੱਪਣੀ ਦਾ ਸੰਪਾਦਨ ਕਰੋ",
+    "my_comments": "ਮੇਰੀਆਂ ਟਿੱਪਣੀਆਂ"
   },
   "customer_club": {
     "bronze": "ਕਾਂਸੀ",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "ਪੜਤਾਲ ਕੋਡ",
     "msg_title": "ਹੈਲੋ,",
     "msg_body": "ਕਿਰਪਾ ਕਰਕੇ ਲਾਗਇਨ ਕਰੋ। ਇਸ ਵਿੱਚ ਸਿਰਫ਼ ਕੁਝ ਸਕਿੰਟ ਲੱਗਦੇ ਹਨ।",
-    "login_apple": "ਐਪਲ ਨਾਲ ਲੌਗਇਨ ਕਰੋ"
+    "login_apple": "ਐਪਲ ਨਾਲ ਲੌਗਇਨ ਕਰੋ",
+    "login_email": "ਈਮੇਲ ਦੁਆਰਾ ਲੌਗਇਨ ਕਰੋ",
+    "email_login_step_1": "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੈਧ ਈਮੇਲ ਪਤਾ ਪ੍ਰਦਾਨ ਕਰੋ, ਅਤੇ ਅਸੀਂ ਇਸਨੂੰ ਲੌਗਇਨ ਕੋਡ ਭੇਜਾਂਗੇ। ਕੋਈ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।",
+    "email_login_step_2": "ਕੀ ਤੁਸੀਂ ਨਿਸ਼ਚਿਤ ਹੋ ਕਿ ਤੁਸੀਂ ਆਪਣਾ ਈਮੇਲ ਪਤਾ ਸਹੀ ਢੰਗ ਨਾਲ ਦਰਜ ਕੀਤਾ ਹੈ? ਅਸੀਂ ਪ੍ਰਦਾਨ ਕੀਤੀ ਈਮੇਲ 'ਤੇ ਲੌਗਇਨ ਕੋਡ ਭੇਜਾਂਗੇ, ਇਸ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਇਸਦੀ ਸ਼ੁੱਧਤਾ ਨੂੰ ਯਕੀਨੀ ਬਣਾਓ।",
+    "email_login_step_3": "ਅਸੀਂ ਤੁਹਾਡੀ ਈਮੇਲ 'ਤੇ ਇੱਕ ਕੋਡ ਭੇਜਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਧਿਆਨ ਦਿਓ ਕਿ ਕੋਡ ਦੀ ਮਿਆਦ 10 ਮਿੰਟਾਂ ਵਿੱਚ ਖਤਮ ਹੋ ਜਾਵੇਗੀ।"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "ਸੁਨੇਹਾ ਸੁਰੱਖਿਅਤ ਕਰੋ",
     "notifications": {
       "success": "ਤੁਹਾਡਾ ਇਨਪੁਟ ਡੇਟਾ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਗਿਆ ਹੈ।"
-    }
+    },
+    "product_inputs_preview_message": "ਇਹ ਕਸਟਮਾਈਜ਼ੇਸ਼ਨ ਵਿਕਲਪ ਤੁਹਾਡੇ ਆਰਡਰ ਕੀਤੇ ਉਤਪਾਦ ਲਈ ਉਪਲਬਧ ਹਨ। ਇੱਕ ਵਾਰ ਆਈਟਮ ਤੁਹਾਡੇ ਕਾਰਟ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋ ਜਾਣ ਤੋਂ ਬਾਅਦ, ਤੁਸੀਂ ਇੱਥੇ ਸਮਾਯੋਜਨ ਕਰਨ ਦੇ ਯੋਗ ਹੋਵੋਗੇ।"
   },
   "faq": {
     "faq": "ਅਕਸਰ ਪੁੱਛੇ ਜਾਣ ਵਾਲੇ ਸਵਾਲ",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "ਸਖ਼ਤ",
     "intermediate": "ਵਿਚਕਾਰਲਾ",
     "easy": "ਆਸਾਨ"
+  },
+  "billing_period": {
+    "Daily": "ਰੋਜ਼ਾਨਾ",
+    "Weekly": "ਹਫਤਾਵਾਰੀ",
+    "Monthly": "ਮਹੀਨਾਵਾਰ",
+    "Every3Months": "ਹਰ 3 ਮਹੀਨਿਆਂ ਬਾਅਦ",
+    "Every6Months": "ਹਰ 6 ਮਹੀਨਿਆਂ ਬਾਅਦ",
+    "Yearly": "ਸਾਲਾਨਾ"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "ਓ ਚੰਗਾ ਨਹੀਂ!",
+    "between2_3": "ਠੀਕ ਹੈ!",
+    "between3_4": "ਲੋਕ ਇਸਨੂੰ ਪਸੰਦ ਕਰਦੇ ਹਨ!",
+    "between4_5": "ਲੋਕ ਇਸਨੂੰ ਪਿਆਰ ਕਰਦੇ ਹਨ!"
   }
 };

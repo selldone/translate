@@ -81,7 +81,9 @@ export default {
     "offer_message": "קויפן {min_quantity} באַקומען {percent}% אַראָפּרעכענען פֿאַר די זאכן",
     "up_to": "אַרויף צו {per_order} רענטגענ פּער סדר",
     "get_free": "באַקומען פריי",
-    "get_off": "באַקומען {percent}% אַוועק"
+    "get_off": "באַקומען {percent}% אַוועק",
+    "select_a_vendor_message": "ביטע אויסקלייַבן אַ פאַרקויפער.",
+    "product_description_header": "באַקענען {product}"
   },
   "buy_button": {
     "waiting_for_availability": "ווארטן פֿאַר אַוויילאַבילאַטי",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "מיר וועט לאָזן איר וויסן ווען עס איז בנימצא.",
       "inform_remove_success": "איר האָט שוין אַוועקגענומען פון די ווארטן רשימה."
-    }
+    },
+    "subscribe_now": "אַבאָנירן איצט",
+    "unsubscribe": "אַנסאַבסקרייבד",
+    "select_a_subscription_plan": "אויסקלייַבן אַ פּלאַן ערשטער!",
+    "manage_subscriptions": "פירן סאַבסקריפּשאַנז"
   },
   "product": {
     "review": "איבערבליק",
@@ -109,7 +115,8 @@ export default {
     "warranty": "וואָראַנטי",
     "return_policy": "צוריקקומען פּאָליטיק",
     "guide": "גייד",
-    "shipping": "שיפּינג"
+    "shipping": "שיפּינג",
+    "related_categories_title": "אַנטדעקן אין זאַמלונגען"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "גאַנץ יטעמס פּרייַז",
       "total_items_discount": "ייטאַמז אַראָפּרעכענען",
       "total_price_after_offers": "גאַנץ נאָך אַפּלייינג אָפפערס",
-      "buyer_payment": "קוינע צאָלונג סומע"
+      "buyer_payment": "קוינע צאָלונג סומע",
+      "total_order_price_before_tax": "פאַר - שטייַער גאַנץ פּרייַז"
     },
     "delivery": {
       "title": "עקספּרעס",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "פאַרשידענע בילינג אינפֿאָרמאַציע",
     "basket_empty": "די קאָרב איז ליידיק",
     "extra_shipping_count": "איר וועט באַקומען {count} פּאַקאַדזשאַז.",
-    "select_location_error": "געפֿינען דעם אָרט פון קאַבאָלע פון די טראַנספּאָרט אויף דער מאַפּע און גיט אויף די גראדן אין די מיטן פון די מאַפּע צו באַשטימען די פּינטלעך אַדרעס פון די באַקומער."
+    "select_location_error": "געפֿינען דעם אָרט פון קאַבאָלע פון די טראַנספּאָרט אויף דער מאַפּע און גיט אויף די גראדן אין די מיטן פון די מאַפּע צו באַשטימען די פּינטלעך אַדרעס פון די באַקומער.",
+    "same_billing_address_desc": "די בילינג אַדרעס איז די זעלבע ווי די שיפּינג אַדרעס.",
+    "custom_billing_info_desc": "איר קענט אַרייַן דיין שטייער נומער און שטעלן אַ אַנדערש אַדרעס פֿאַר בילינג.",
+    "billing_business_desc": "עס איז אַ געשעפט חשבון מיט אַ שטייער נומער.",
+    "billing_personal_desc": "עס איז אַ פּערזענלעך חשבון.",
+    "no_billing_title": "קיין בילינג",
+    "no_billing_desc": "לאָזן בילינג אַדרעס ליידיק."
   },
   "basket_items": {
     "items_unit": "רענטגענ",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "צוריקקריגן פונדרויסנדיק סדר",
     "address_included": "ייַנטיילן קאָרב זאכן + אַדרעס",
     "address_excluded": "ייַנטיילן בלויז קאָרב זאכן"
+  },
+  "variants_view": {
+    "prices": "פּריסעס",
+    "inventory": "ינוואַנטאָרי",
+    "discount": "אַראָפּרעכענען"
+  },
+  "rating": {
+    "product_rating_message": "דער פּראָדוקט האט באקומען אַ שאַץ פון {rate} פון 5 שטערן און רייטאַד דורך {rate_count} מענטשן."
+  },
+  "related_products": {
+    "card": {
+      "title": "ויספאָרשן!",
+      "same_tags_subtitle": "געפֿינען מער מערקווירדיק פֿאַרבונדענע זאכן.",
+      "same_category_subtitle": "געפֿינען מער מערקווירדיק זאכן אין דעם קאַטעגאָריע."
+    }
   }
 };

@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity} खरीदें, इन आइटम पर {percent}% की छूट पाएं",
     "up_to": "अधिकतम {per_order}x प्रति आदेश",
     "get_free": "नि: शुल्क पाएं",
-    "get_off": "{percent}% की छूट पाएं"
+    "get_off": "{percent}% की छूट पाएं",
+    "select_a_vendor_message": "कृपया एक विक्रेता का चयन करें।",
+    "product_description_header": "पेश है {product}"
   },
   "buy_button": {
     "waiting_for_availability": "उपलब्धता की प्रतीक्षा में",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "इसके उपलब्ध होने पर हम आपको बताएंगे.",
       "inform_remove_success": "आपको प्रतीक्षा सूची से हटा दिया गया है।"
-    }
+    },
+    "subscribe_now": "अब सदस्यता लें",
+    "unsubscribe": "सदस्यता रद्द",
+    "select_a_subscription_plan": "पहले एक योजना चुनें!",
+    "manage_subscriptions": "सदस्यता प्रबंधित करें"
   },
   "product": {
     "review": "समीक्षा",
@@ -109,7 +115,8 @@ export default {
     "warranty": "गारंटी",
     "return_policy": "वापसी नीति",
     "guide": "मार्गदर्शक",
-    "shipping": "शिपिंग"
+    "shipping": "शिपिंग",
+    "related_categories_title": "संग्रह में खोजें"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "कुल आइटम मूल्य",
       "total_items_discount": "आइटम छूट",
       "total_price_after_offers": "ऑफ़र लागू करने के बाद कुल",
-      "buyer_payment": "खरीदार भुगतान राशि"
+      "buyer_payment": "खरीदार भुगतान राशि",
+      "total_order_price_before_tax": "प्री-टैक्स कुल मूल्य"
     },
     "delivery": {
       "title": "वितरण",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "अलग बिलिंग जानकारी",
     "basket_empty": "टोकरी खाली है",
     "extra_shipping_count": "आपको {गिनती} पैकेज प्राप्त होंगे।",
-    "select_location_error": "मानचित्र पर शिपमेंट की प्राप्ति का स्थान ढूंढें और प्राप्तकर्ता का सटीक पता निर्धारित करने के लिए मानचित्र के मध्य में संकेतक पर क्लिक करें।"
+    "select_location_error": "मानचित्र पर शिपमेंट की प्राप्ति का स्थान ढूंढें और प्राप्तकर्ता का सटीक पता निर्धारित करने के लिए मानचित्र के मध्य में संकेतक पर क्लिक करें।",
+    "same_billing_address_desc": "बिलिंग पता शिपिंग पते के समान है।",
+    "custom_billing_info_desc": "आप अपना टैक्स नंबर दर्ज कर सकते हैं और बिलिंग के लिए एक अलग पता सेट कर सकते हैं।",
+    "billing_business_desc": "यह एक TAX नंबर वाला व्यवसाय खाता है।",
+    "billing_personal_desc": "यह एक व्यक्तिगत खाता है।",
+    "no_billing_title": "कोई बिलिंग नहीं",
+    "no_billing_desc": "बिलिंग पता खाली छोड़ दें।"
   },
   "basket_items": {
     "items_unit": "एक्स",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "बाहरी आदेश पुनर्प्राप्त करें",
     "address_included": "बास्केट आइटम साझा करें + पता",
     "address_excluded": "केवल टोकरी आइटम साझा करें"
+  },
+  "variants_view": {
+    "prices": "कीमतों",
+    "inventory": "भंडार",
+    "discount": "छूट"
+  },
+  "rating": {
+    "product_rating_message": "इस उत्पाद को 5 में से {rate} की रेटिंग मिली है और इसे {rate_count} लोगों ने रेट किया है।"
+  },
+  "related_products": {
+    "card": {
+      "title": "अन्वेषण करना!",
+      "same_tags_subtitle": "अधिक उल्लेखनीय संबंधित आइटम खोजें।",
+      "same_category_subtitle": "इस श्रेणी में और उल्लेखनीय आइटम खोजें।"
+    }
   }
 };

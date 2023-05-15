@@ -603,7 +603,34 @@ export default {
     "deleted": "કાઢી નાખ્યું",
     "variant": "વેરિઅન્ટ",
     "secure": "સુરક્ષિત",
-    "admin": "એડમિન"
+    "admin": "એડમિન",
+    "tax_included_abstract": "સહિત",
+    "payment_not_settled": "ચુકવણી સેટલ નથી!",
+    "orders_list": "ઓર્ડર યાદી",
+    "subscription_plan": "સબ્સ્ક્રિપ્શન પ્લાન",
+    "contents": "સામગ્રી",
+    "pricings": "કિંમતો",
+    "static_page": "સ્થિર પૃષ્ઠ",
+    "shop_button": "દુકાન બટન",
+    "embed": "એમ્બેડ કરો",
+    "over": "ઉપર",
+    "tax_vary_by_location": "બદલાય છે સ્થાન",
+    "product_type": "ઉત્પાદનો પ્રકાર",
+    "tax_id": "ટેક્સ ID",
+    "business_name": "વ્યવસાયનું નામ",
+    "invoice": "ભરતિયું",
+    "included_in_the_product": "ઉત્પાદનમાં સમાવેશ થાય છે",
+    "included_in_the_product_description": "ઉત્પાદનમાં નીચેના ઘટકો શામેલ છે",
+    "cross_sell": "ક્રોસ સેલ",
+    "discount_off": "OFF",
+    "extra_discount": "વધારાનું ડિસ્કાઉન્ટ",
+    "template": "ઢાંચો",
+    "in_cart": "કાર્ટમાં",
+    "pros_and_cons": "ગુણદોષ",
+    "related_products": "સંબંધિત વસ્તુઓ",
+    "related_categories": "સંબંધિત શ્રેણીઓ",
+    "badges": "બેજ",
+    "explore": "અન્વેષણ કરો"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "પુનર્જીવિત કરો",
     "add_message": "સંદેશ ઉમેરો",
     "continue_chat": "ચેટ ચાલુ રાખો",
-    "add_new_message": "નવો સંદેશ ઉમેરો"
+    "add_new_message": "નવો સંદેશ ઉમેરો",
+    "change_setting": "સેટિંગ બદલો",
+    "delete_all": "બધું કાઢી નાંખો",
+    "transfer_fund": "ટ્રાન્સફર ફંડ",
+    "reverse_fund": "રિવર્સ ફંડ",
+    "settlement": "સમાધાન",
+    "refund": "પરત કરેલી રકમ",
+    "partial_refund": "આંશિક રિફંડ",
+    "change_payment_method": "ચુકવણી પદ્ધતિ બદલો",
+    "buy": "ખરીદો",
+    "view_all": "બધુજ જુઓ",
+    "view_now": "હવે જુઓ"
   },
   "instance_message_title": "ત્વરિત સંદેશ મોકલો",
   "instance_message": "હાય {name}, મારું નામ {company} તરફથી {author} છે.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "સદાબહાર",
     "#214C30": "વન",
     "#DC2867": "ફુચિયા",
-    "#38561F" :"કેલી",
+    "#38561F": "કેલી",
     "#5C884D": "પર્ણ",
     "#558450": "લાઇટ એક્વા",
     "#96B5C9": "પ્રકાશ વાદળી",
@@ -951,7 +989,9 @@ export default {
     "file": "ફાઈલ",
     "file_description": "ઓનલાઈન કોર્સ વિડિયો, ડાઉનલોડ કરી શકાય તેવા દસ્તાવેજો જેવી તમામ પરવાનગીવાળી ફાઈલો.",
     "service": "સેવા",
-    "service_description": "સેવાઓ જેવી કે: સમારકામ, પરિવહન, શિક્ષણ."
+    "service_description": "સેવાઓ જેવી કે: સમારકામ, પરિવહન, શિક્ષણ.",
+    "subscription": "સબ્સ્ક્રિપ્શન",
+    "subscription_description": "ઉત્પાદનો, સેવાઓ અથવા સામગ્રીઓ માટે સબ્સ્ક્રિપ્શન્સ અને ઇન્વૉઇસિંગ."
   },
   "license": {
     "free": "મફત",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "પ્રથમ પોસ્ટ",
     "comment_at": "ચાલુ",
-    "edit_comment": "ટિપ્પણી સંપાદિત કરો"
+    "edit_comment": "ટિપ્પણી સંપાદિત કરો",
+    "my_comments": "મારી ટિપ્પણીઓ"
   },
   "customer_club": {
     "bronze": "કાંસ્ય",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "ચકાસણી કોડ",
     "msg_title": "હાય,",
     "msg_body": "કૃપા કરીને લૉગિન કરો. તે માત્ર થોડી સેકન્ડ લે છે.",
-    "login_apple": "Apple સાથે લૉગિન કરો"
+    "login_apple": "Apple સાથે લૉગિન કરો",
+    "login_email": "ઈમેલ દ્વારા લૉગિન કરો",
+    "email_login_step_1": "કૃપા કરીને એક માન્ય ઇમેઇલ સરનામું પ્રદાન કરો, અને અમે તેના પર લૉગિન કોડ મોકલીશું. કોઈ નોંધણી જરૂરી નથી.",
+    "email_login_step_2": "શું તમે ચોક્કસ છો કે તમે તમારું ઇમેઇલ સરનામું યોગ્ય રીતે દાખલ કર્યું છે? અમે આપેલા ઇમેઇલ પર લોગિન કોડ મોકલીશું, તેથી કૃપા કરીને તેની ચોકસાઈની ખાતરી કરો.",
+    "email_login_step_3": "અમે તમારા ઇમેઇલ પર કોડ મોકલ્યો છે. કૃપા કરીને નોંધો કે કોડ 10 મિનિટમાં સમાપ્ત થઈ જશે."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "સંદેશ સાચવો",
     "notifications": {
       "success": "તમારો ઇનપુટ ડેટા સાચવવામાં આવ્યો છે."
-    }
+    },
+    "product_inputs_preview_message": "આ કસ્ટમાઇઝેશન વિકલ્પો તમારા ઓર્ડર કરેલ ઉત્પાદન માટે ઉપલબ્ધ છે. એકવાર આઇટમ તમારા કાર્ટમાં ઉમેરાઈ જાય, પછી તમે અહીં ગોઠવણો કરી શકશો."
   },
   "faq": {
     "faq": "વારંવાર પૂછાતા પ્રશ્નો",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "કઠણ",
     "intermediate": "મધ્યમ",
     "easy": "સરળ"
+  },
+  "billing_period": {
+    "Daily": "દૈનિક",
+    "Weekly": "સાપ્તાહિક",
+    "Monthly": "માસિક",
+    "Every3Months": "દર 3 મહિને",
+    "Every6Months": "દર 6 મહિને",
+    "Yearly": "વાર્ષિક"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "ઓહ સારું નથી!",
+    "between2_3": "ઠીક છે!",
+    "between3_4": "લોકોને તે ગમે છે!",
+    "between4_5": "લોકો તેને પ્રેમ કરે છે!"
   }
 };

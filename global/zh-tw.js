@@ -603,7 +603,34 @@ export default {
     "deleted": "已刪除",
     "variant": "變體",
     "secure": "安全的",
-    "admin": "行政"
+    "admin": "行政",
+    "tax_included_abstract": "包括。",
+    "payment_not_settled": "付款未結算！",
+    "orders_list": "訂單清單",
+    "subscription_plan": "訂閱計劃",
+    "contents": "內容",
+    "pricings": "定價",
+    "static_page": "靜態頁面",
+    "shop_button": "商店按鈕",
+    "embed": "嵌入",
+    "over": "超過",
+    "tax_vary_by_location": "各不相同。地點",
+    "product_type": "產品類別",
+    "tax_id": "稅號",
+    "business_name": "企業名稱",
+    "invoice": "發票",
+    "included_in_the_product": "包含在產品中",
+    "included_in_the_product_description": "該產品包括以下組件",
+    "cross_sell": "交叉銷售",
+    "discount_off": "OFF",
+    "extra_discount": "額外折扣",
+    "template": "模板",
+    "in_cart": "在購物車",
+    "pros_and_cons": "優點和缺點",
+    "related_products": "相關產品",
+    "related_categories": "相關類別",
+    "badges": "徽章",
+    "explore": "探索"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "再生",
     "add_message": "添加消息",
     "continue_chat": "繼續聊天",
-    "add_new_message": "添加新消息"
+    "add_new_message": "添加新消息",
+    "change_setting": "修改設置",
+    "delete_all": "刪除所有",
+    "transfer_fund": "轉移資金",
+    "reverse_fund": "逆向基金",
+    "settlement": "沉降",
+    "refund": "退款",
+    "partial_refund": "退還部分款項",
+    "change_payment_method": "更改付款方式",
+    "buy": "買",
+    "view_all": "查看全部",
+    "view_now": "現在查看"
   },
   "instance_message_title": "發送即時消息",
   "instance_message": "嗨，{name}，我的名字是來自 {company} 的 {author}。",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "常綠",
     "#214C30": "森林",
     "#DC2867": "紫紅色",
-    "#38561F" :"凱利",
+    "#38561F": "凱利",
     "#5C884D": "葉子",
     "#558450": "淺水色",
     "#96B5C9": "淺藍",
@@ -951,7 +989,9 @@ export default {
     "file": "文件",
     "file_description": "所有允許的文件，如在線課程視頻、可下載文件。",
     "service": "服務",
-    "service_description": "服務如：維修、運輸、教學。"
+    "service_description": "服務如：維修、運輸、教學。",
+    "subscription": "訂閱",
+    "subscription_description": "產品、服務或內容的訂閱和發票。"
   },
   "license": {
     "free": "自由的",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "第一篇文章",
     "comment_at": "上",
-    "edit_comment": "編輯評論"
+    "edit_comment": "編輯評論",
+    "my_comments": "我的評論"
   },
   "customer_club": {
     "bronze": "青銅",
@@ -1663,7 +1704,11 @@ export default {
     "mobile_input": "輸入您的手機",
     "verification_code": "驗證碼",
     "msg_title": "你好，",
-    "msg_body": "請登錄。只需幾秒鐘。"
+    "msg_body": "請登錄。只需幾秒鐘。",
+    "login_email": "郵箱登錄",
+    "email_login_step_1": "請提供一個有效的電子郵件地址，我們會將登錄代碼發送給它。無需註冊。",
+    "email_login_step_2": "您確定您輸入的電子郵件地址正確嗎？我們會將登錄代碼發送到提供的電子郵件中，因此請確保其準確性。",
+    "email_login_step_3": "我們已將代碼發送到您的電子郵箱。請注意，代碼將在 10 分鐘後過期。"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "保存消息",
     "notifications": {
       "success": "您的輸入數據已保存。"
-    }
+    },
+    "product_inputs_preview_message": "這些定制選項適用於您訂購的產品。將商品添加到您的購物車後，您就可以在此處進行調整。"
   },
   "faq": {
     "faq": "經常問的問題",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "難的",
     "intermediate": "中間的",
     "easy": "簡單的"
+  },
+  "billing_period": {
+    "Daily": "日常的",
+    "Weekly": "每週",
+    "Monthly": "月刊",
+    "Every3Months": "每3個月",
+    "Every6Months": "每 6 個月",
+    "Yearly": "每年"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "哦不好！",
+    "between2_3": "沒關係！",
+    "between3_4": "人們喜歡它！",
+    "between4_5": "人們喜歡它！"
   }
 };

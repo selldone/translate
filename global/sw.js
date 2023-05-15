@@ -603,7 +603,34 @@ export default {
     "deleted": "Imefutwa",
     "variant": "Lahaja",
     "secure": "Salama",
-    "admin": "Msimamizi"
+    "admin": "Msimamizi",
+    "tax_included_abstract": "pamoja na",
+    "payment_not_settled": "Malipo hayajatatuliwa!",
+    "orders_list": "Orodha ya maagizo",
+    "subscription_plan": "Mpango wa usajili",
+    "contents": "Yaliyomo",
+    "pricings": "Bei",
+    "static_page": "Ukurasa tuli",
+    "shop_button": "Kitufe cha Nunua",
+    "embed": "Pachika",
+    "over": "Zaidi",
+    "tax_vary_by_location": "kutofautiana. eneo",
+    "product_type": "Aina ya bidhaa",
+    "tax_id": "Kitambulisho cha Ushuru",
+    "business_name": "Jina la biashara",
+    "invoice": "ankara",
+    "included_in_the_product": "Imejumuishwa katika bidhaa",
+    "included_in_the_product_description": "Bidhaa inajumuisha vipengele vifuatavyo",
+    "cross_sell": "Msalaba Kuuza",
+    "discount_off": "OFF",
+    "extra_discount": "Punguzo la Ziada",
+    "template": "Kiolezo",
+    "in_cart": "Katika Cart",
+    "pros_and_cons": "Faida na hasara",
+    "related_products": "Bidhaa Zinazohusiana",
+    "related_categories": "Jamii Zinazohusiana",
+    "badges": "Beji",
+    "explore": "Chunguza"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Tengeneza upya",
     "add_message": "Ongeza ujumbe",
     "continue_chat": "Endelea kupiga gumzo",
-    "add_new_message": "Ongeza ujumbe mpya"
+    "add_new_message": "Ongeza ujumbe mpya",
+    "change_setting": "Badilisha mpangilio",
+    "delete_all": "Futa Zote",
+    "transfer_fund": "Mfuko wa uhamisho",
+    "reverse_fund": "Mfuko wa kurudi nyuma",
+    "settlement": "Suluhu",
+    "refund": "Rejesha pesa",
+    "partial_refund": "Marejesho ya Sehemu",
+    "change_payment_method": "Badilisha njia ya malipo",
+    "buy": "Nunua",
+    "view_all": "Tazama zote",
+    "view_now": "Tazama Sasa"
   },
   "instance_message_title": "Tuma ujumbe papo hapo",
   "instance_message": "Hujambo {name}, Jina langu ni {author} kutoka {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Msitu",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Jani",
     "#558450": "Aqua nyepesi",
     "#96B5C9": "Bluu Nyepesi",
@@ -951,7 +989,9 @@ export default {
     "file": "Faili",
     "file_description": "Faili zote zinazoruhusiwa kama vile video ya mtandaoni, hati zinazoweza kupakuliwa.",
     "service": "Huduma",
-    "service_description": "Huduma kama vile: ukarabati, usafiri, mafundisho."
+    "service_description": "Huduma kama vile: ukarabati, usafiri, mafundisho.",
+    "subscription": "Usajili",
+    "subscription_description": "Usajili na ankara za bidhaa, huduma au yaliyomo."
   },
   "license": {
     "free": "Bure",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Chapisho la kwanza",
     "comment_at": "Washa",
-    "edit_comment": "Hariri Maoni"
+    "edit_comment": "Hariri Maoni",
+    "my_comments": "Maoni Yangu"
   },
   "customer_club": {
     "bronze": "Shaba",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Nambari ya uthibitishaji",
     "msg_title": "Habari,",
     "msg_body": "Tafadhali ingia. Inachukua sekunde chache tu.",
-    "login_apple": "Ingia na Apple"
+    "login_apple": "Ingia na Apple",
+    "login_email": "Ingia kwa Barua Pepe",
+    "email_login_step_1": "Tafadhali toa barua pepe halali, na tutaitumia msimbo wa kuingia. Hakuna usajili unaohitajika.",
+    "email_login_step_2": "Je, una uhakika kuwa umeingiza anwani yako ya barua pepe kwa usahihi? Tutakuwa tukituma msimbo wa kuingia kwa barua pepe iliyotolewa, kwa hivyo tafadhali hakikisha usahihi wake.",
+    "email_login_step_3": "Tumekutumia nambari ya kuthibitisha kwenye barua pepe yako. Tafadhali kumbuka kuwa muda wa kutumia nambari utaisha baada ya dakika 10."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Hifadhi Ujumbe",
     "notifications": {
       "success": "Data yako ya ingizo imehifadhiwa."
-    }
+    },
+    "product_inputs_preview_message": "Chaguo hizi za kubinafsisha zinapatikana kwa bidhaa uliyoagiza. Kipengee kikishaongezwa kwenye rukwama yako, utaweza kufanya marekebisho hapa."
   },
   "faq": {
     "faq": "maswali yanayoulizwa mara kwa mara",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Ngumu",
     "intermediate": "Kati",
     "easy": "Rahisi"
+  },
+  "billing_period": {
+    "Daily": "Kila siku",
+    "Weekly": "Kila wiki",
+    "Monthly": "Kila mwezi",
+    "Every3Months": "Kila baada ya miezi 3",
+    "Every6Months": "Kila baada ya miezi 6",
+    "Yearly": "Kila mwaka"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oh si nzuri!",
+    "between2_3": "Ni sawa!",
+    "between3_4": "Watu kama hayo!",
+    "between4_5": "Watu wanaipenda!"
   }
 };

@@ -60,7 +60,7 @@ export default {
     price_list: "Price list",
     my_stores: "My Stores",
     roles: "My Roles",
-    wallet: "My Wallet",
+    wallet: "My Wallets",
     personal_info: "Personal Info | KYC",
     companies: "My Companies",
     access_control: "Access Control",
@@ -256,7 +256,7 @@ export default {
   user_dashboard: {
     title: "My shuttle",
     subtitle:
-      "Manage your business with up-to-date information and clear prospect.",
+      "Comprehensive overview of my businesses.",
     menu: {
       affiliate: "Affiliate",
       monetize: "Monetize",
@@ -409,7 +409,7 @@ export default {
           step1:
             "You can define the IP limit of record A for a DNS domain or subdomain from the following values:",
           step2: "Add a DNS TXT record:",
-          set_ip_alert: "Set the IP value of record A <b> {ip} </b>.",
+          set_ip_alert: "Set the IP value of record A <b> {ip} </b> - If your domain has not been added through CDNs.",
 
           input_domain: "Domain URL",
           correct: "Domain settings are correct.",
@@ -535,6 +535,7 @@ export default {
       drop_import_message:
         "Drop products list file (CSV, XLS, XLSX format) here to start adding bulk products. Ensure that the file has the Selldone products list format.",
 
+      menu_advanced_options:"Advanced options",
       /** {@see WidgetProductCard} **/
 
       product_widget: {
@@ -570,7 +571,7 @@ export default {
       list: {
         title: "My Articles",
         subtitle:
-          "Write articles with a modern inline editor to present yourself and your business. Original content is the first thing you need to focus on when writing a high-quality SEO-friendly blog post.",
+          "Compose articles using a contemporary inline editor to showcase yourself and your business effectively. Prioritizing original content is essential for crafting high-quality, SEO-friendly blog posts.",
         waiting_message: "Receiving information ... please wait",
         published: "Published",
         draft: "Draft",
@@ -642,7 +643,7 @@ export default {
       invoice: {
         title: "Shop Linked Wallets",
         subtitle:
-          "Charges, commissions and store costs are deducted from these wallet accounts.",
+          "Fees, commissions, and store expenses are debited from these virtual wallet accounts.",
 
         title_add: "Connect new wallet account",
         subtitle_add:
@@ -775,6 +776,7 @@ export default {
         warehouse: "warehouse",
         logistic_apps: "Logistics",
         profiles: "Profiles",
+        includes:'Includes',
       },
 
       /** {@see AdminShopLogistics_Inventory} **/
@@ -793,7 +795,7 @@ export default {
         title: "Shipping Methods",
 
         sub_title:
-          "By setting the values in this section, a variety of sending methods are activated in your store. Cash on Delivery method can also be activated in this section. ",
+          "By incorporating shipping options into your store in this section, you enable a range of delivery methods. The Cash on Delivery method can be activated for each shipping service. Each service allows for independent cost calculations, and you can customize these transportation services to suit your needs. Additionally, you have the option to integrate third-party shipping services or personal couriers with each shipping option.",
         add_transportation: "Add transportation",
 
         /** {@see DeliveryFormWidget} **/
@@ -1298,7 +1300,7 @@ export default {
     },
 
     select_type: {
-      title: "Choose your product or service type",
+      title: "Choose your product or service type.",
     },
 
     /** {@see ProductEditInfo} **/
@@ -1434,7 +1436,7 @@ export default {
       add_item_action: "Add Item",
 
       dialog: {
-        title: "Enter Technical Specifications",
+        title: "Import Technical Specifications",
         code_input: "Product ID",
         code_input_message: "Product Code: P0000 ...",
         spec_view_title: "Specifications of the selected product",
@@ -1621,10 +1623,10 @@ export default {
       /** {@see ProductInformWidget} **/
       inform: {
         title: "Customer Expectations",
-        title_small: "Waiting for discounts or availability",
+        title_small: "Waiting for discounts or availability.",
         message:
-          "Notify customers when products go on sale or become available",
-        waiting_for_auction: "Waiting for products go on sales",
+          "Notify customers when products go on sale or become available.",
+        waiting_for_auction: "Waiting for products go on sales.",
         waiting_for_available: "Waiting for the products to be available.",
         unit: "person(s)",
       },
@@ -2228,17 +2230,9 @@ export default {
       title: "Order Specifications",
       product_name: "Product Name",
     },
-    /** {@see VirtualInputsWidget} **/
-    inputs_widget: {
-      title: "Input Form",
-      table: {
-        title: "Title",
-        value: "Value",
-      },
-      change_inputs_action: "Edit input form",
-    },
 
-    /** {@see VirtualInputsWidget} **/
+
+    /** {@see VirtualOutputsWidget} **/
     outputs_widget: {
       title: "Output form",
       table: {
@@ -2408,7 +2402,10 @@ export default {
       total_price: "Total Items Price",
       total_items_discount: "Items Discount",
       total_price_after_offers: "Total after applying offers",
-      user_payment_amount: "Buyer payment amount",
+
+      total_order_price_before_tax: "Pre-tax Total Price",
+
+      user_payment_amount: "Customer's Paid Amount",
       samin_wage: "Selldone Fee",
       pay_cod_dialog: {
         title: "Did You Receive Order Money?",
@@ -2851,6 +2848,7 @@ export default {
     "connect-confirmed": "The order was confirmed.",
 
     "email-vendor": "🔔 Order inform email has been sent to <b>{vendor}</b> | {email}.",
+    "vendor-payout": "💸 Payout to vendor.",
 
   },
 
@@ -2916,9 +2914,9 @@ export default {
 
   /** {@see Accounts} **/
   accounts: {
-    title: "My Wallet",
+    title: "My Wallets",
     message:
-      "Please create at least one account for each currency that you use with Selldone. These funds will be used to pay the Selldone Service Fee.",
+      "Kindly set up a minimum of one account for each currency you utilize with Selldone. These funds will be dedicated to covering your service fees.",
     add_new: "Create new account",
     new_account: "Add new account",
     new_account_dialog: {
@@ -2959,7 +2957,7 @@ export default {
     /** {@see UserGiftReceived} **/
     received_gifts: {
       title: "Received Gifts",
-      sub_title: "Your received gifts from Selldone or others",
+      sub_title: "Here is a compilation of the gifts you have received, either from Selldone or other sources.",
 
       table: {
         amount: "Amount",
@@ -3484,15 +3482,7 @@ export default {
         apps: "Apps",
       },
 
-      /** {@see WidgetAppCard} **/
-      app_card: {
-        category: "Category",
-        installs: "Install",
-        actives: "Active",
-        uninstalls: "Uninstalls",
-        app_code: "App Code",
-        app_mode: "Application mode",
-      },
+
     },
     /** {@see AdminCompanyPage_Edit} **/
     edit: {
@@ -3656,7 +3646,7 @@ export default {
       title: "Transfer Charges",
       form: {
         title: "Transfer Request Form",
-        sub_title: "Deposit to your own accounts or others",
+        sub_title: "It is possible to move accessible funds within your wallet among wallets of the same currency, or transfer them to different wallets on Selldone.",
         message:
           "Be careful in transferring money, you will not be able to return if you complete the transfer.",
       },
@@ -3968,7 +3958,7 @@ export default {
     buy_now: "Buy now",
     use_voucher_now: "Use voucher now",
     auto_renewal: "Auto renewal",
-    plan_placeholder: "Select your subscription plan",
+    plan_placeholder: "Choose your subscription plan.",
     plan: "License plan",
     use_date: "Added date",
     validity_duration: "Validity duration",
@@ -3977,16 +3967,16 @@ export default {
 
     active_license: {
       title: "Active License",
-      subtitle: "Your active license info.",
-      subtitle_partner: "Your active {name} license info.",
+      subtitle: "This is your active license information. You can reduce your service fee by upgrading to a higher-tier plan.",
+      subtitle_partner: "Your active {name} license info. This shop currently has an active partner deal. If you wish to cancel the deal and upgrade to a higher-tier plan, please contact our support team for assistance.",
     },
     licenses_table: {
       title: "Purchased History",
-      subtitle: "Active and pending licenses.",
+      subtitle: "This is a list of active and pending licenses. You can purchase deals after funding your wallet. Additionally, please note that when you cancel a subscription, the remaining subscription amount will be returned to your virtual wallet.",
     },
     license_detail: {
       title: "Details",
-      subtitle: "Limits on your current plan.",
+      subtitle: "These are the limitations of your current plan. For more details, please visit the pricing page. You can access all features across all plans, including the free plan, to kickstart your business and grow. As you scale your business, consider upgrading to a higher-tier plan to lower your service fees.",
     },
 
     table: {
@@ -4070,11 +4060,12 @@ export default {
     category_mode_message:
       "If enable, product will be added in to the default category or subcategory.",
     sku_name_input: "SKU / Name",
+
   },
   /** @see Affiliates **/
   my_affiliate: {
     title: "My Affiliate Contracts",
-    message: "List of affiliate agreements with other stores.",
+    message: "This is a list of affiliate partnerships with other stores. When store owners designate you as an affiliate, you can view your commissions, order details, and related statistics here.",
   },
 
   /** @see AdminShopMarketing_Affiliate **/
@@ -4439,8 +4430,8 @@ export default {
   emails: {
     title: "Email Marketing",
     subtitle:
-      "Design emails by drag and drop, schedule and launch campaigns to increase retention, and see reliable and accurate information in one place.",
-    cation_message: "⚠ Restricted for not verified merchants. (Beta)",
+      "Effortlessly design emails with drag-and-drop functionality, schedule and initiate campaigns to boost customer retention, and access trustworthy, precise data all in one convenient location.",
+    cation_message: "⚠ Kindly connect your email provider to begin dispatching emails using your custom domain.",
 
     subject: "Subject",
     from: "From",
@@ -5074,7 +5065,7 @@ export default {
   my_roles: {
     title: "My roles ",
     message:
-      "Roles are type of access given to employees of a store. For example, staff responsible for sending or packing orders.",
+      "Roles represent the specific access permissions granted to store employees. For instance, roles may be assigned to staff members responsible for order processing, such as shipping or packaging.",
   },
   /** {@see WidgetMyRoleCard**/
   role_card: {
@@ -5503,6 +5494,11 @@ export default {
     count_unit: "x",
     remove: "Remove",
     add_to_basket: "Add to cart",
+    book_now: "Book now",
+    reserve_now: "Reserve now",
+    buy_now: "Buy now",
+
+
     buy: "Buy",
     notifications: {
       inform_add_success: "We'll let you know when it's available.",
@@ -5524,7 +5520,7 @@ export default {
     track_price: "Track price",
     waiting_for_auction: "Waiting for auction?",
     inform_auction: "Notify me when auction",
-    return_in_days: "{days} Days Warranty Return",
+    return_in_days: "{days} Days Return Warranty",
     support24h7: "Support 24 hours 7 days",
     support_normal: "Working hours support",
     original_guarantee: "Original guarantee",
@@ -5819,11 +5815,11 @@ export default {
     new_order: "New bill",
     create_by_seller_title: "Create Invoice",
     create_by_seller_message:
-      "If you want to create an invoice with a certain amount and send it to someone, you can hit the button below to show the invoice form. Give generated link to the buyer to pay and track their order through it.",
+      "To generate an invoice for a specific amount and send it to a recipient, simply click the button below to display the invoice form. Share the provided link with the buyer, allowing them to make a payment and monitor their order status.",
 
     create_by_buyer_title: "Avocado form",
     create_by_buyer_message:
-      "By activating this section, a link will be shown to you, provide this link to your buyers so that they can place their order.",
+      "Once you enable this feature, a link will be displayed. Share this link with your customers to facilitate their order placement.",
 
     orders_list: "Orders List",
     active_mode: "Order Receipt Active",
@@ -6038,7 +6034,7 @@ export default {
   /** {@see ShopList} **/
   shops_list: {
     title: "My Shops",
-    message: "List of my own shops, permitted and sample shops.",
+    message: "Here is a list of your owned shops, authorized shops, and sample shops. To hide sample shops, navigate to the bottom of the page and select the preferences.",
   },
 
   /** {@see DeliveryServiceProcessingTable} **/
@@ -6292,7 +6288,7 @@ export default {
   /** {@see VendorsList} **/
   vendors_list: {
     title: "My Vendors",
-    message: "List of my own vendors.",
+    message: "This is a list of your vendor accounts. All vendor accounts associated with shops utilizing the Selldone platform will be displayed here, allowing you to manage them with ease.",
   },
 
   vendor_page: {},
@@ -6323,7 +6319,18 @@ export default {
     title: "Usage quota",
     sub_title: "This is the usage quota list for your shop. You can increase these limits by upgrading your shop's license. If you exceed the limits, you can request additional daily quota allowances from us. All usage will reset daily.\n",
 
-  }
+  },
+
+  /** {@see WidgetAppCard} **/
+  app_card: {
+    category: "Category",
+    installs: "Install",
+    actives: "Active",
+    uninstalls: "Uninstalls",
+    app_code: "App Code",
+    app_mode: "Application mode",
+  },
+
 
 
 

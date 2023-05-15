@@ -81,7 +81,9 @@ export default {
     "offer_message": "Купіть {min_quantity} Отримайте знижку {percent}% на ці товари",
     "up_to": "До {per_order}x на замовлення",
     "get_free": "ЗВІЛЬНЯТИСЯ",
-    "get_off": "Отримайте знижку {percent}%."
+    "get_off": "Отримайте знижку {percent}%.",
+    "select_a_vendor_message": "Виберіть постачальника.",
+    "product_description_header": "Представляємо {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Чекаємо наявності",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Ми повідомимо вас, коли він буде доступний.",
       "inform_remove_success": "Вас вилучили зі списку очікування."
-    }
+    },
+    "subscribe_now": "Підпишись зараз",
+    "unsubscribe": "Відписатися",
+    "select_a_subscription_plan": "Спочатку виберіть тарифний план!",
+    "manage_subscriptions": "Керуйте підписками"
   },
   "product": {
     "review": "Огляд",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Гарантія",
     "return_policy": "Політика повернення",
     "guide": "Гід",
-    "shipping": "Доставка"
+    "shipping": "Доставка",
+    "related_categories_title": "Відкрийте для себе в колекціях"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Загальна ціна предметів",
       "total_items_discount": "Знижка на товари",
       "total_price_after_offers": "Всього після застосування пропозицій",
-      "buyer_payment": "Сума платежу покупця"
+      "buyer_payment": "Сума платежу покупця",
+      "total_order_price_before_tax": "Загальна ціна без урахування податків"
     },
     "delivery": {
       "title": "Доставка",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Різна платіжна інформація",
     "basket_empty": "Кошик порожній",
     "extra_shipping_count": "Ви отримаєте {count} пакетів.",
-    "select_location_error": "Знайдіть на карті місце отримання відправлення та натисніть на індикатор в середині карти, щоб визначити точну адресу одержувача."
+    "select_location_error": "Знайдіть на карті місце отримання відправлення та натисніть на індикатор в середині карти, щоб визначити точну адресу одержувача.",
+    "same_billing_address_desc": "Платіжна адреса збігається з адресою доставки.",
+    "custom_billing_info_desc": "Ви можете ввести свій податковий номер і встановити іншу адресу для виставлення рахунку.",
+    "billing_business_desc": "Це бізнес-акаунт із податковим номером.",
+    "billing_personal_desc": "Це особистий рахунок.",
+    "no_billing_title": "Без виставлення рахунків",
+    "no_billing_desc": "Залиште платіжну адресу пустою."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Отримати зовнішнє замовлення",
     "address_included": "Поділитися товарами в кошику + Адреса",
     "address_excluded": "Поділіться лише елементами кошика"
+  },
+  "variants_view": {
+    "prices": "Ціни",
+    "inventory": "Інвентаризація",
+    "discount": "Знижка"
+  },
+  "rating": {
+    "product_rating_message": "Цей продукт отримав оцінку {rate} із 5 зірок і оцінили {rate_count} людей."
+  },
+  "related_products": {
+    "card": {
+      "title": "Досліджуйте!",
+      "same_tags_subtitle": "Знайдіть більше цікавих пов’язаних предметів.",
+      "same_category_subtitle": "Знайдіть більше чудових предметів у цій категорії."
+    }
   }
 };

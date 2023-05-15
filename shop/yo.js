@@ -81,7 +81,9 @@ export default {
     "offer_message": "Ra {min_quantity} Gba {percent}% pipa fun awọn nkan wọnyi",
     "up_to": "Titi di {per_order}x fun ibere",
     "get_free": "GBA ỌFẸ",
-    "get_off": "Gba {percent}% PA"
+    "get_off": "Gba {percent}% PA",
+    "select_a_vendor_message": "Jọwọ yan olutaja kan.",
+    "product_description_header": "Ṣafihan {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Nduro fun wiwa",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "A yoo jẹ ki o mọ nigbati o ba wa.",
       "inform_remove_success": "O ti yọkuro kuro ninu atokọ idaduro."
-    }
+    },
+    "subscribe_now": "Alabapin Bayi",
+    "unsubscribe": "Yọọ alabapin",
+    "select_a_subscription_plan": "Yan eto akọkọ!",
+    "manage_subscriptions": "Ṣakoso awọn ṣiṣe alabapin"
   },
   "product": {
     "review": "Atunwo",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Atilẹyin ọja",
     "return_policy": "Pada Afihan",
     "guide": "Itọsọna",
-    "shipping": "Gbigbe"
+    "shipping": "Gbigbe",
+    "related_categories_title": "Iwari ninu awọn akojọpọ"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Lapapọ Iye Awọn nkan",
       "total_items_discount": "Eni nkan",
       "total_price_after_offers": "Lapapọ lẹhin lilo awọn ipese",
-      "buyer_payment": "Olura owo sisan iye"
+      "buyer_payment": "Olura owo sisan iye",
+      "total_order_price_before_tax": "Pre-ori Total Iye"
     },
     "delivery": {
       "title": "Ifijiṣẹ",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Awọn alaye ìdíyelé oriṣiriṣi",
     "basket_empty": "Agbọn ti ṣofo",
     "extra_shipping_count": "Iwọ yoo gba awọn akojọpọ {count}.",
-    "select_location_error": "Wa ibi ti o ti gba gbigbe lori maapu naa ki o tẹ atọka ni aarin maapu lati pinnu adirẹsi gangan ti olugba naa."
+    "select_location_error": "Wa ibi ti o ti gba gbigbe lori maapu naa ki o tẹ atọka ni aarin maapu lati pinnu adirẹsi gangan ti olugba naa.",
+    "same_billing_address_desc": "Adirẹsi ìdíyelé jẹ kanna bi adirẹsi sowo.",
+    "custom_billing_info_desc": "O le tẹ nọmba TAX rẹ sii ki o ṣeto adirẹsi ti o yatọ fun ìdíyelé.",
+    "billing_business_desc": "O jẹ akọọlẹ iṣowo pẹlu nọmba TAX kan.",
+    "billing_personal_desc": "O jẹ akọọlẹ ti ara ẹni.",
+    "no_billing_title": "Ko si ìdíyelé",
+    "no_billing_desc": "Fi adirẹsi ìdíyelé silẹ ofo."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Gba aṣẹ ita pada",
     "address_included": "Pin awọn ohun agbọn + Adirẹsi",
     "address_excluded": "Pin awọn nkan agbọn nikan"
+  },
+  "variants_view": {
+    "prices": "Awọn idiyele",
+    "inventory": "Oja",
+    "discount": "Eni owo"
+  },
+  "rating": {
+    "product_rating_message": "Ọja yii ti gba idiyele ti {rate} ninu awọn irawọ 5 ati pe awọn eniyan {rate_count} ti wọn wọn."
+  },
+  "related_products": {
+    "card": {
+      "title": "Ye!",
+      "same_tags_subtitle": "Wa awọn nkan ti o jọmọ iyalẹnu diẹ sii.",
+      "same_category_subtitle": "Wa awọn nkan iyalẹnu diẹ sii ni ẹka yii."
+    }
   }
 };

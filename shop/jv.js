@@ -81,7 +81,9 @@ export default {
     "offer_message": "Tuku {min_quantity} Entuk diskon {percent}% kanggo item kasebut",
     "up_to": "Nganti {per_order}x saben pesenan",
     "get_free": "GRATIS",
-    "get_off": "GET {percent}% OFF"
+    "get_off": "GET {percent}% OFF",
+    "select_a_vendor_message": "Mangga pilih vendor.",
+    "product_description_header": "Introducing {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Nunggu kasedhiyan",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Kita bakal ngandhani yen wis kasedhiya.",
       "inform_remove_success": "Sampeyan wis dibusak saka dhaptar tunggu."
-    }
+    },
+    "subscribe_now": "Langganan Saiki",
+    "unsubscribe": "Batal langganan",
+    "select_a_subscription_plan": "Pilih rencana dhisik!",
+    "manage_subscriptions": "Ngatur langganan"
   },
   "product": {
     "review": "Review",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Garansi",
     "return_policy": "Kawicaksanan bali",
     "guide": "Panuntun",
-    "shipping": "Pengiriman"
+    "shipping": "Pengiriman",
+    "related_categories_title": "Temokake ing koleksi"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Total rega barang",
       "total_items_discount": "Diskon Item",
       "total_price_after_offers": "Total sawise nglamar tawaran",
-      "buyer_payment": "Jumlah pembayaran panuku"
+      "buyer_payment": "Jumlah pembayaran panuku",
+      "total_order_price_before_tax": "Pre-pajak Total Price"
     },
     "delivery": {
       "title": "Pangiriman",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Informasi tagihan sing beda",
     "basket_empty": "Kranjang kosong",
     "extra_shipping_count": "Sampeyan bakal nampa {count} paket.",
-    "select_location_error": "Temokake papan panrimo kiriman ing peta lan klik ing indikator ing tengah peta kanggo nemtokake alamat sing tepat saka panampa."
+    "select_location_error": "Temokake papan panrimo kiriman ing peta lan klik ing indikator ing tengah peta kanggo nemtokake alamat sing tepat saka panampa.",
+    "same_billing_address_desc": "Alamat tagihan padha karo alamat pengiriman.",
+    "custom_billing_info_desc": "Sampeyan bisa ngetik nomer TAX lan nyetel alamat liyane kanggo tagihan.",
+    "billing_business_desc": "Iku akun bisnis karo nomer TAX.",
+    "billing_personal_desc": "Iku akun pribadi.",
+    "no_billing_title": "Ora ana tagihan",
+    "no_billing_desc": "Ninggalake alamat tagihan kosong."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Njupuk urutan njaba",
     "address_included": "Nuduhake item basket + Alamat",
     "address_excluded": "Nuduhake mung item basket"
+  },
+  "variants_view": {
+    "prices": "Rega",
+    "inventory": "Persediaan",
+    "discount": "Diskon"
+  },
+  "rating": {
+    "product_rating_message": "Prodhuk iki wis entuk rating {rate} saka 5 bintang lan dirating dening {rate_count} wong."
+  },
+  "related_products": {
+    "card": {
+      "title": "Jelajahi!",
+      "same_tags_subtitle": "Temokake item sing gegandhengan sing luwih apik.",
+      "same_category_subtitle": "Temokake item sing luwih apik ing kategori iki."
+    }
   }
 };

@@ -81,7 +81,9 @@ export default {
     "offer_message": "購買 {min_quantity} 這些商品可享受 {percent}% 折扣",
     "up_to": "每個訂單最多 {per_order}x",
     "get_free": "免費",
-    "get_off": "獲得 {percent}% 折扣"
+    "get_off": "獲得 {percent}% 折扣",
+    "select_a_vendor_message": "請選擇供應商。",
+    "product_description_header": "介紹{product}"
   },
   "buy_button": {
     "waiting_for_availability": "等待可用性",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "我們會在有貨時通知您。",
       "inform_remove_success": "您已從等候名單中刪除。"
-    }
+    },
+    "subscribe_now": "現在訂閱",
+    "unsubscribe": "退訂",
+    "select_a_subscription_plan": "先選方案！",
+    "manage_subscriptions": "管理訂閱"
   },
   "product": {
     "review": "描述",
@@ -109,7 +115,8 @@ export default {
     "warranty": "保修單",
     "return_policy": "退貨政策",
     "guide": "指導",
-    "shipping": "船運"
+    "shipping": "船運",
+    "related_categories_title": "在收藏中發現"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "總項目價格",
       "total_items_discount": "商品折扣",
       "total_price_after_offers": "申請報價後總計",
-      "buyer_payment": "買家付款金額"
+      "buyer_payment": "買家付款金額",
+      "total_order_price_before_tax": "稅前總價"
     },
     "delivery": {
       "title": "送貨",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "不同的帳單信息",
     "basket_empty": "籃子是空的",
     "extra_shipping_count": "您將收到 {count} 個包裹。",
-    "select_location_error": "在地圖上找到收貨地點，點擊地圖中間的指示符，確定收貨人的準確地址。"
+    "select_location_error": "在地圖上找到收貨地點，點擊地圖中間的指示符，確定收貨人的準確地址。",
+    "same_billing_address_desc": "賬單地址與送貨地址相同。",
+    "custom_billing_info_desc": "您可以輸入您的稅號並設置不同的帳單地址。",
+    "billing_business_desc": "這是一個帶有稅號的企業帳戶。",
+    "billing_personal_desc": "這是一個個人帳戶。",
+    "no_billing_title": "無計費",
+    "no_billing_desc": "將賬單地址留空。"
   },
   "basket_items": {
     "items_unit": "X",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "檢索外部訂單",
     "address_included": "分享籃子物品+地址",
     "address_excluded": "僅分享購物籃物品"
+  },
+  "variants_view": {
+    "prices": "價格",
+    "inventory": "存貨",
+    "discount": "折扣"
+  },
+  "rating": {
+    "product_rating_message": "該產品已獲得 {rate} 的評分（滿分 5 星）並由 {rate_count} 人評分。"
+  },
+  "related_products": {
+    "card": {
+      "title": "探索！",
+      "same_tags_subtitle": "查找更多卓越的相關項目。",
+      "same_category_subtitle": "在此類別中查找更多卓越的項目。"
+    }
   }
 };

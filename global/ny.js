@@ -603,7 +603,34 @@ export default {
     "deleted": "Zachotsedwa",
     "variant": "Zosiyana",
     "secure": "Otetezeka",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "kuphatikiza.",
+    "payment_not_settled": "Malipiro sanathe!",
+    "orders_list": "Mndandanda wamaoda",
+    "subscription_plan": "Mapulani olembetsa",
+    "contents": "Zamkatimu",
+    "pricings": "Mitengo",
+    "static_page": "Tsamba lokhazikika",
+    "shop_button": "Gulani Batani",
+    "embed": "Ikani",
+    "over": "Zatha",
+    "tax_vary_by_location": "siyana. malo",
+    "product_type": "Mtundu wa malonda",
+    "tax_id": "ID ya msonkho",
+    "business_name": "Dzina la bizinesi",
+    "invoice": "Invoice",
+    "included_in_the_product": "Kuphatikizidwa muzogulitsa",
+    "included_in_the_product_description": "Mankhwalawa akuphatikizapo zigawo zotsatirazi",
+    "cross_sell": "Cross Sell",
+    "discount_off": "OFF",
+    "extra_discount": "Zowonjezera Kuchotsera",
+    "template": "Template",
+    "in_cart": "Mu Ngolo",
+    "pros_and_cons": "Ubwino ndi kuipa",
+    "related_products": "Zogwirizana nazo",
+    "related_categories": "Magulu Ogwirizana",
+    "badges": "Mabaji",
+    "explore": "Onani"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Bweretsaninso",
     "add_message": "Onjezani uthenga",
     "continue_chat": "Pitirizani kucheza",
-    "add_new_message": "Onjezani uthenga watsopano"
+    "add_new_message": "Onjezani uthenga watsopano",
+    "change_setting": "Sinthani makonda",
+    "delete_all": "Chotsani Zonse",
+    "transfer_fund": "Transfer fund",
+    "reverse_fund": "Reverse fund",
+    "settlement": "Kukhazikika",
+    "refund": "Kubweza ndalama",
+    "partial_refund": "Kubwezera pang'ono",
+    "change_payment_method": "Sinthani njira yolipira",
+    "buy": "Gulani",
+    "view_all": "Onani Zonse",
+    "view_now": "Onani Tsopano"
   },
   "instance_message_title": "Tumizani uthenga pompopompo",
   "instance_message": "Moni {name}, Dzina langa ndine {author} wochokera ku {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Nthawi zonse",
     "#214C30": "Nkhalango",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Tsamba",
     "#558450": "Mwala Aqua",
     "#96B5C9": "Buluu Wowala",
@@ -951,7 +989,9 @@ export default {
     "file": "Fayilo",
     "file_description": "Mafayilo onse ololedwa ngati kanema wamaphunziro apaintaneti, zolemba zotsitsidwa.",
     "service": "Utumiki",
-    "service_description": "Ntchito monga: kukonza, mayendedwe, kuphunzitsa."
+    "service_description": "Ntchito monga: kukonza, mayendedwe, kuphunzitsa.",
+    "subscription": "Kulembetsa",
+    "subscription_description": "Kulembetsa ndi ma invoice azinthu, ntchito, kapena zomwe zili."
   },
   "license": {
     "free": "Kwaulere",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Cholemba choyamba",
     "comment_at": "Yambirani",
-    "edit_comment": "Sinthani Ndemanga"
+    "edit_comment": "Sinthani Ndemanga",
+    "my_comments": "Ndemanga Zanga"
   },
   "customer_club": {
     "bronze": "Bronze",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Nambala yotsimikizira",
     "msg_title": "Moni,",
     "msg_body": "Chonde lowani. Zimangotenga masekondi angapo.",
-    "login_apple": "Lowani ndi Apple"
+    "login_apple": "Lowani ndi Apple",
+    "login_email": "Lowani ndi Imelo",
+    "email_login_step_1": "Chonde perekani imelo yovomerezeka, ndipo tidzatumiza nambala yolowera. Palibe kulembetsa kofunikira.",
+    "email_login_step_2": "Kodi mukutsimikiza kuti mwalemba imelo yanu molondola? Tikhala tikutumiza nambala yolowera ku imelo yomwe tapatsidwa, kotero chonde onetsetsani kuti ndiyolondola.",
+    "email_login_step_3": "Takutumizirani khodi ku imelo yanu. Chonde dziwani kuti code idzatha pakadutsa mphindi 10."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Sungani Uthenga",
     "notifications": {
       "success": "Zomwe mwalowa zasungidwa."
-    }
+    },
+    "product_inputs_preview_message": "Zosankha izi makonda zilipo pazomwe mudayitanitsa. Chinthucho chikawonjezedwa kungolo yanu, mudzatha kusintha apa."
   },
   "faq": {
     "faq": "Mafunso Ofunsidwa Kawirikawiri",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Zovuta",
     "intermediate": "Wapakatikati",
     "easy": "Zosavuta"
+  },
+  "billing_period": {
+    "Daily": "Tsiku ndi tsiku",
+    "Weekly": "Mlungu uliwonse",
+    "Monthly": "Mwezi uliwonse",
+    "Every3Months": "Miyezi itatu iliyonse",
+    "Every6Months": "Miyezi 6 iliyonse",
+    "Yearly": "Chaka chilichonse"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "O, si bwino!",
+    "between2_3": "Palibe kanthu!",
+    "between3_4": "Anthu amakonda!",
+    "between4_5": "Anthu amachikonda!"
   }
 };

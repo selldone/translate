@@ -81,7 +81,9 @@ export default {
     "offer_message": "Cumpără {min_quantity} și primești o reducere de {percent}% pentru aceste articole",
     "up_to": "Până la {per_order}x per comandă",
     "get_free": "GRATUIT",
-    "get_off": "PROFITĂ DE {percent}% REDUCERE"
+    "get_off": "PROFITĂ DE {percent}% REDUCERE",
+    "select_a_vendor_message": "Vă rugăm să selectați un furnizor.",
+    "product_description_header": "Vă prezentăm {product}"
   },
   "buy_button": {
     "waiting_for_availability": "În așteptare disponibilitate produs",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Vă vom anunța când va fi disponibil.",
       "inform_remove_success": "Ați fost eliminat din lista de așteptare."
-    }
+    },
+    "subscribe_now": "Abonează-te acum",
+    "unsubscribe": "Dezabonați-vă",
+    "select_a_subscription_plan": "Selectează mai întâi un plan!",
+    "manage_subscriptions": "Gestionați abonamentele"
   },
   "product": {
     "review": "Descriere",
@@ -109,7 +115,8 @@ export default {
     "warranty": "garanție",
     "return_policy": "POLITICA DE RETURNARE",
     "guide": "Ghid",
-    "shipping": "livrare"
+    "shipping": "livrare",
+    "related_categories_title": "Descoperiți în colecții"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Prețul total al articolelor",
       "total_items_discount": "Reducere articole",
       "total_price_after_offers": "Total după aplicarea ofertelor",
-      "buyer_payment": "Suma de plată a cumpărătorului"
+      "buyer_payment": "Suma de plată a cumpărătorului",
+      "total_order_price_before_tax": "Preț total fără taxe"
     },
     "delivery": {
       "title": "Livrare",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Informații de facturare diferite",
     "basket_empty": "Coșul este gol",
     "extra_shipping_count": "Veți primi {count} pachete.",
-    "select_location_error": "Găsiți locul de primire a expedierii pe hartă și faceți clic pe indicatorul din mijlocul hărții pentru a determina adresa exactă a destinatarului."
+    "select_location_error": "Găsiți locul de primire a expedierii pe hartă și faceți clic pe indicatorul din mijlocul hărții pentru a determina adresa exactă a destinatarului.",
+    "same_billing_address_desc": "Adresa de facturare este aceeași cu adresa de expediere.",
+    "custom_billing_info_desc": "Puteți introduce numărul dvs. de taxe și puteți seta o altă adresă pentru facturare.",
+    "billing_business_desc": "Este un cont de afaceri cu un număr TAX.",
+    "billing_personal_desc": "Este un cont personal.",
+    "no_billing_title": "Fără facturare",
+    "no_billing_desc": "Lăsați adresa de facturare goală."
   },
   "basket_items": {
     "items_unit": "X",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Preluați comanda externă",
     "address_included": "Distribuie articole din coș + Adresă",
     "address_excluded": "Distribuiți numai articolele din coș"
+  },
+  "variants_view": {
+    "prices": "Preturi",
+    "inventory": "Inventar",
+    "discount": "Reducere"
+  },
+  "rating": {
+    "product_rating_message": "Acest produs a primit o evaluare de {rate} din 5 stele și a fost evaluat de {rate_count} persoane."
+  },
+  "related_products": {
+    "card": {
+      "title": "Explora!",
+      "same_tags_subtitle": "Găsiți mai multe articole conexe remarcabile.",
+      "same_category_subtitle": "Găsiți mai multe articole remarcabile în această categorie."
+    }
   }
 };

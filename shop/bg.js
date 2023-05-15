@@ -81,7 +81,9 @@ export default {
     "offer_message": "Купете {min_quantity} продукт(а) и вземете {percent}% отстъпка за тези продукти",
     "up_to": "Може да използвате до {per_order} пъти в една поръчка",
     "get_free": "ПОЛУЧЕТЕ БЕЗПЛАТНО",
-    "get_off": "ВЗЕМЕТЕ {percent}% ОТСТЪПКА"
+    "get_off": "ВЗЕМЕТЕ {percent}% ОТСТЪПКА",
+    "select_a_vendor_message": "Моля, изберете доставчик.",
+    "product_description_header": "Представяме ви {product}"
   },
   "buy_button": {
     "waiting_for_availability": "В очакване на наличност",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Ще Ви уведомим, когато бъде наличен.",
       "inform_remove_success": "Премахнат сте от списъка на чакащите."
-    }
+    },
+    "subscribe_now": "Абонирай се сега",
+    "unsubscribe": "Отписване",
+    "select_a_subscription_plan": "Първо изберете план!",
+    "manage_subscriptions": "Управление на абонаменти"
   },
   "product": {
     "review": "Описание",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Гаранция",
     "return_policy": "Условия за връщане",
     "guide": "Ръководство",
-    "shipping": "Доставка"
+    "shipping": "Доставка",
+    "related_categories_title": "Открийте в колекции"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Обща цена на продукт",
       "total_items_discount": "Отстъпка за продукти",
       "total_price_after_offers": "Сума след прилагане на отстъпка",
-      "buyer_payment": "Сума за плащане"
+      "buyer_payment": "Сума за плащане",
+      "total_order_price_before_tax": "Обща цена преди облагане"
     },
     "delivery": {
       "title": "Доставка",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Различна информация за фактуриране",
     "basket_empty": "Кошницата е празна",
     "extra_shipping_count": "Ще получите {count} пакета.",
-    "select_location_error": "Намерете мястото на получаване на пратката на картата и кликнете върху индикатора в средата на картата, за да определите точния адрес на получателя."
+    "select_location_error": "Намерете мястото на получаване на пратката на картата и кликнете върху индикатора в средата на картата, за да определите точния адрес на получателя.",
+    "same_billing_address_desc": "Адресът за фактуриране е същият като адреса за доставка.",
+    "custom_billing_info_desc": "Можете да въведете своя данъчен номер и да зададете различен адрес за фактуриране.",
+    "billing_business_desc": "Това е бизнес акаунт с данъчен номер.",
+    "billing_personal_desc": "Това е личен акаунт.",
+    "no_billing_title": "Без таксуване",
+    "no_billing_desc": "Оставете адреса за фактуриране празен."
   },
   "basket_items": {
     "items_unit": "х",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Извличане на външна поръчка",
     "address_included": "Споделете артикули от кошницата + Адрес",
     "address_excluded": "Споделяйте само елементи от кошницата"
+  },
+  "variants_view": {
+    "prices": "Цени",
+    "inventory": "Складова наличност",
+    "discount": "Отстъпка"
+  },
+  "rating": {
+    "product_rating_message": "Този продукт е получил оценка {rate} от 5 звезди и е оценен от {rate_count} души."
+  },
+  "related_products": {
+    "card": {
+      "title": "Разгледайте!",
+      "same_tags_subtitle": "Намерете още забележителни свързани елементи.",
+      "same_category_subtitle": "Намерете още забележителни предмети в тази категория."
+    }
   }
 };

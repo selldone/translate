@@ -81,7 +81,9 @@ export default {
     "offer_message": "Αγοράστε {min_quantity} Λάβετε έκπτωση {percent}% για αυτά τα είδη",
     "up_to": "Έως {per_order}x ανά παραγγελία",
     "get_free": "ΑΠΟΚΤΗΣΕΤΕ ΔΩΡΕΑΝ",
-    "get_off": "ΕΚΠΤΩΣΗ {percent}%."
+    "get_off": "ΕΚΠΤΩΣΗ {percent}%.",
+    "select_a_vendor_message": "Επιλέξτε έναν προμηθευτή.",
+    "product_description_header": "Παρουσιάζοντας το {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Αναμονή για διαθεσιμότητα",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Θα σας ενημερώσουμε όταν είναι διαθέσιμο.",
       "inform_remove_success": "Έχετε αφαιρεθεί από τη λίστα αναμονής."
-    }
+    },
+    "subscribe_now": "Εγγραφείτε τώρα",
+    "unsubscribe": "Απεγγραφή",
+    "select_a_subscription_plan": "Επιλέξτε πρώτα ένα σχέδιο!",
+    "manage_subscriptions": "Διαχείριση συνδρομών"
   },
   "product": {
     "review": "Ανασκόπηση",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Εγγύηση",
     "return_policy": "ΠΟΛΙΤΙΚΗ ΕΠΙΣΤΡΟΦΗΣ ΠΡΟΪΟΝΤΩΝ",
     "guide": "Οδηγός",
-    "shipping": "Αποστολή"
+    "shipping": "Αποστολή",
+    "related_categories_title": "Ανακαλύψτε σε συλλογές"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Συνολική Τιμή Ειδών",
       "total_items_discount": "Έκπτωση σε είδη",
       "total_price_after_offers": "Σύνολο μετά την υποβολή προσφορών",
-      "buyer_payment": "Ποσό πληρωμής αγοραστή"
+      "buyer_payment": "Ποσό πληρωμής αγοραστή",
+      "total_order_price_before_tax": "Συνολική τιμή προ φόρων"
     },
     "delivery": {
       "title": "Διανομή",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Διαφορετικές πληροφορίες χρέωσης",
     "basket_empty": "Το καλάθι είναι άδειο",
     "extra_shipping_count": "Θα λάβετε {count} πακέτα.",
-    "select_location_error": "Βρείτε τον τόπο παραλαβής της αποστολής στον χάρτη και κάντε κλικ στην ένδειξη στη μέση του χάρτη για να προσδιορίσετε την ακριβή διεύθυνση του παραλήπτη."
+    "select_location_error": "Βρείτε τον τόπο παραλαβής της αποστολής στον χάρτη και κάντε κλικ στην ένδειξη στη μέση του χάρτη για να προσδιορίσετε την ακριβή διεύθυνση του παραλήπτη.",
+    "same_billing_address_desc": "Η διεύθυνση χρέωσης είναι ίδια με τη διεύθυνση αποστολής.",
+    "custom_billing_info_desc": "Μπορείτε να εισαγάγετε τον ΑΦΜ σας και να ορίσετε διαφορετική διεύθυνση χρέωσης.",
+    "billing_business_desc": "Είναι ένας επαγγελματικός λογαριασμός με ΑΦΜ.",
+    "billing_personal_desc": "Είναι προσωπικός λογαριασμός.",
+    "no_billing_title": "Χωρίς χρέωση",
+    "no_billing_desc": "Αφήστε κενή τη διεύθυνση χρέωσης."
   },
   "basket_items": {
     "items_unit": "Χ",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Ανάκτηση εξωτερικής παραγγελίας",
     "address_included": "Κοινή χρήση ειδών καλαθιού + Διεύθυνση",
     "address_excluded": "Μοιραστείτε μόνο είδη καλαθιού"
+  },
+  "variants_view": {
+    "prices": "Τιμές",
+    "inventory": "Καταγραφή εμπορευμάτων",
+    "discount": "Εκπτωση"
+  },
+  "rating": {
+    "product_rating_message": "Αυτό το προϊόν έχει λάβει βαθμολογία {rate} από 5 αστέρια και βαθμολογήθηκε από {rate_count} άτομα."
+  },
+  "related_products": {
+    "card": {
+      "title": "Εξερευνώ!",
+      "same_tags_subtitle": "Βρείτε περισσότερα αξιόλογα σχετικά αντικείμενα.",
+      "same_category_subtitle": "Βρείτε περισσότερα αξιόλογα αντικείμενα σε αυτήν την κατηγορία."
+    }
   }
 };

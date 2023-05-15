@@ -139,7 +139,7 @@ export default {
     daily: "Daily",
     monthly: "Monthly",
     yearly: "Yearly",
-    state: "Status",
+    state: "State",
     disable: "Disable",
     enable: "Enable",
     activation_code: "Activation code",
@@ -666,11 +666,29 @@ export default {
     static_page: "Static page",
 
     shop_button: "Shop Button",
-    embed:'Embed',
-    over:'Over',
+    embed: "Embed",
+    over: "Over",
 
-    tax_vary_by_location:'vary. location',
+    tax_vary_by_location: "vary. location",
     product_type: "Product type",
+
+    tax_id: "Tax ID",
+    business_name: "Business name",
+    invoice: "Invoice",
+    included_in_the_product: "Included in the product",
+    included_in_the_product_description:
+      "The product includes the following components",
+    cross_sell: "Cross Sell",
+    discount_off: "OFF",
+    extra_discount: "Extra Discount",
+    template: "Template",
+    in_cart: "In Cart",
+    pros_and_cons:'Pros and Cons',
+    related_products:'Related Products',
+    related_categories:'Related Categories',
+    badges:"Badges",
+    explore:"Explore",
+
 
   },
   difficulties: {
@@ -800,7 +818,17 @@ export default {
     add_message: "Add message",
     continue_chat: "Continue chat",
     add_new_message: "Add new message",
-    change_setting:'Change setting',
+    change_setting: "Change setting",
+    delete_all: "Delete All",
+    transfer_fund: "Transfer fund",
+    reverse_fund: "Reverse fund",
+    settlement: "Settlement",
+    refund: "Refund",
+    partial_refund: "Partial Refund",
+    change_payment_method: "Change payment method",
+    buy: "Buy",
+    view_all: "View All",
+    view_now: "View Now",
   },
   /** @see BillingPeriod **/
   billing_period: {
@@ -1379,6 +1407,7 @@ export default {
     cant_send_comment: "You cannot add new post.",
     cant_remove_this_comment: "You cannot delete this comment!",
     product_buyer: "Buyer",
+    my_comments: "My Comments",
 
     delete_alert: {
       title: "Delete Comment",
@@ -1819,11 +1848,12 @@ export default {
     msg_title: "Hi,",
     msg_body: "Please login. It takes just a few seconds.",
     login_email: "Login by Email",
-    email_login_step_1:"Please provide a valid email address, and we will send the login code to it. No registration is necessary.",
-    email_login_step_2:"Are you certain that you've entered your email address correctly? We will be sending the login code to the email provided, so please ensure its accuracy.",
-    email_login_step_3:"We have sent a code to your email. Please note that the code will expire in 10 minutes.",
-
-
+    email_login_step_1:
+      "Please provide a valid email address, and we will send the login code to it. No registration is necessary.",
+    email_login_step_2:
+      "Are you certain that you've entered your email address correctly? We will be sending the login code to the email provided, so please ensure its accuracy.",
+    email_login_step_3:
+      "We have sent a code to your email. Please note that the code will expire in 10 minutes.",
   },
 
   /** {@see ShopBadges} **/
@@ -1891,6 +1921,9 @@ export default {
   basket_item_message: {
     title: "Required information for this item",
     save_actions: "Save Message",
+    product_inputs_preview_message:
+      "These customization options are available for your ordered product. Once the item is added to your cart, you will be able to make adjustments here.",
+
     notifications: {
       success: "Your input data has been saved.",
     },
@@ -2093,5 +2126,12 @@ export default {
     notification: {
       add_success: "Tags added",
     },
+  },
+
+  buyer_rating_statement: {
+    between1_2: "Och not good!",
+    between2_3: "It's Ok!",
+    between3_4: "People like it!",
+    between4_5: "People love it!",
   },
 };

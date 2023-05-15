@@ -81,7 +81,9 @@ export default {
     "offer_message": "Compra {min_quantity} Aconsegueix un {percent}% de descompte en aquests articles",
     "up_to": "Fins a {per_order}x per comanda",
     "get_free": "OBTENIR GRATIS",
-    "get_off": "OBTENIU un {percent}% de descompte"
+    "get_off": "OBTENIU un {percent}% de descompte",
+    "select_a_vendor_message": "Seleccioneu un venedor.",
+    "product_description_header": "Presentació de {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Esperant disponibilitat",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "T'informarem quan estigui disponible.",
       "inform_remove_success": "Has estat eliminat de la llista d'espera."
-    }
+    },
+    "subscribe_now": "Subscriu-te ara",
+    "unsubscribe": "Cancel·la la subscripció",
+    "select_a_subscription_plan": "Seleccioneu primer un pla!",
+    "manage_subscriptions": "Gestionar les subscripcions"
   },
   "product": {
     "review": "Revisió",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Garantia",
     "return_policy": "Política de devolució",
     "guide": "Guia",
-    "shipping": "Enviament"
+    "shipping": "Enviament",
+    "related_categories_title": "Descobreix a les col·leccions"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Preu total dels articles",
       "total_items_discount": "Descompte d'articles",
       "total_price_after_offers": "Total després d'aplicar ofertes",
-      "buyer_payment": "Import del pagament del comprador"
+      "buyer_payment": "Import del pagament del comprador",
+      "total_order_price_before_tax": "Preu total abans d'impostos"
     },
     "delivery": {
       "title": "Lliurament",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Informació de facturació diferent",
     "basket_empty": "La cistella està buida",
     "extra_shipping_count": "Rebràs {count} paquets.",
-    "select_location_error": "Cerqueu el lloc de recepció de l'enviament al mapa i feu clic a l'indicador que hi ha al mig del mapa per determinar l'adreça exacta del destinatari."
+    "select_location_error": "Cerqueu el lloc de recepció de l'enviament al mapa i feu clic a l'indicador que hi ha al mig del mapa per determinar l'adreça exacta del destinatari.",
+    "same_billing_address_desc": "L'adreça de facturació és la mateixa que l'adreça d'enviament.",
+    "custom_billing_info_desc": "Podeu introduir el vostre número fiscal i establir una adreça diferent per a la facturació.",
+    "billing_business_desc": "És un compte d'empresa amb un número fiscal.",
+    "billing_personal_desc": "És un compte personal.",
+    "no_billing_title": "Sense facturació",
+    "no_billing_desc": "Deixa l'adreça de facturació buida."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Recuperar l'ordre extern",
     "address_included": "Comparteix articles de cistella + Adreça",
     "address_excluded": "Comparteix només articles de la cistella"
+  },
+  "variants_view": {
+    "prices": "Preus",
+    "inventory": "Inventari",
+    "discount": "Descompte"
+  },
+  "rating": {
+    "product_rating_message": "Aquest producte ha rebut una puntuació de {rate} de 5 estrelles i ha rebut una puntuació per {rate_count} persones."
+  },
+  "related_products": {
+    "card": {
+      "title": "Explora!",
+      "same_tags_subtitle": "Trobeu articles relacionats més notables.",
+      "same_category_subtitle": "Trobeu més articles destacats en aquesta categoria."
+    }
   }
 };

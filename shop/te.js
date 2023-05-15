@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity} కొనుగోలు చేయండి, ఈ వస్తువులపై {percent}% తగ్గింపు పొందండి",
     "up_to": "ఒక్కో ఆర్డర్‌కి గరిష్టంగా {per_order}x వరకు",
     "get_free": "ఉచితముగా పొందుము",
-    "get_off": "{percent}% తగ్గింపు పొందండి"
+    "get_off": "{percent}% తగ్గింపు పొందండి",
+    "select_a_vendor_message": "దయచేసి విక్రేతను ఎంచుకోండి.",
+    "product_description_header": "{product}ని పరిచయం చేస్తున్నాము"
   },
   "buy_button": {
     "waiting_for_availability": "లభ్యత కోసం వేచి ఉంది",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "ఇది అందుబాటులో ఉన్నప్పుడు మేము మీకు తెలియజేస్తాము.",
       "inform_remove_success": "మీరు వెయిటింగ్ లిస్ట్ నుండి తీసివేయబడ్డారు."
-    }
+    },
+    "subscribe_now": "ఇప్పుడే సభ్యత్వం పొందండి",
+    "unsubscribe": "చందాను తీసివేయండి",
+    "select_a_subscription_plan": "ముందుగా ఒక ప్రణాళికను ఎంచుకోండి!",
+    "manage_subscriptions": "సభ్యత్వాలను నిర్వహించండి"
   },
   "product": {
     "review": "సమీక్ష",
@@ -109,7 +115,8 @@ export default {
     "warranty": "వారంటీ",
     "return_policy": "రిటర్న్ పాలసీ",
     "guide": "గైడ్",
-    "shipping": "షిప్పింగ్"
+    "shipping": "షిప్పింగ్",
+    "related_categories_title": "సేకరణలలో కనుగొనండి"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "మొత్తం వస్తువుల ధర",
       "total_items_discount": "వస్తువుల తగ్గింపు",
       "total_price_after_offers": "ఆఫర్‌లను వర్తింపజేసిన తర్వాత మొత్తం",
-      "buyer_payment": "కొనుగోలుదారు చెల్లింపు మొత్తం"
+      "buyer_payment": "కొనుగోలుదారు చెల్లింపు మొత్తం",
+      "total_order_price_before_tax": "ప్రీ-టాక్స్ మొత్తం ధర"
     },
     "delivery": {
       "title": "డెలివరీ",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "విభిన్న బిల్లింగ్ సమాచారం",
     "basket_empty": "బుట్ట ఖాళీగా ఉంది",
     "extra_shipping_count": "మీరు {count} ప్యాకేజీలను అందుకుంటారు.",
-    "select_location_error": "గ్రహీత యొక్క ఖచ్చితమైన చిరునామాను గుర్తించడానికి మ్యాప్‌లో రవాణా రసీదు స్థలాన్ని కనుగొని, మ్యాప్ మధ్యలో ఉన్న సూచికపై క్లిక్ చేయండి."
+    "select_location_error": "గ్రహీత యొక్క ఖచ్చితమైన చిరునామాను గుర్తించడానికి మ్యాప్‌లో రవాణా రసీదు స్థలాన్ని కనుగొని, మ్యాప్ మధ్యలో ఉన్న సూచికపై క్లిక్ చేయండి.",
+    "same_billing_address_desc": "బిల్లింగ్ చిరునామా షిప్పింగ్ చిరునామా వలె ఉంటుంది.",
+    "custom_billing_info_desc": "మీరు మీ పన్ను నంబర్‌ను నమోదు చేయవచ్చు మరియు బిల్లింగ్ కోసం వేరే చిరునామాను సెట్ చేయవచ్చు.",
+    "billing_business_desc": "ఇది TAX నంబర్‌తో కూడిన వ్యాపార ఖాతా.",
+    "billing_personal_desc": "ఇది వ్యక్తిగత ఖాతా.",
+    "no_billing_title": "బిల్లింగ్ లేదు",
+    "no_billing_desc": "బిల్లింగ్ చిరునామాను ఖాళీగా ఉంచండి."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "బాహ్య క్రమాన్ని తిరిగి పొందండి",
     "address_included": "బాస్కెట్ అంశాలు + చిరునామాను భాగస్వామ్యం చేయండి",
     "address_excluded": "బాస్కెట్ వస్తువులను మాత్రమే భాగస్వామ్యం చేయండి"
+  },
+  "variants_view": {
+    "prices": "ధరలు",
+    "inventory": "ఇన్వెంటరీ",
+    "discount": "తగ్గింపు"
+  },
+  "rating": {
+    "product_rating_message": "ఈ ఉత్పత్తి 5 నక్షత్రాలలో {rate} రేటింగ్‌ను పొందింది మరియు {rate_count} మంది వ్యక్తులచే రేట్ చేయబడింది."
+  },
+  "related_products": {
+    "card": {
+      "title": "అన్వేషించండి!",
+      "same_tags_subtitle": "మరిన్ని విశేషమైన సంబంధిత అంశాలను కనుగొనండి.",
+      "same_category_subtitle": "ఈ వర్గంలో మరిన్ని విశేషమైన అంశాలను కనుగొనండి."
+    }
   }
 };

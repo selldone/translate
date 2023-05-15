@@ -603,7 +603,34 @@ export default {
     "deleted": "ລຶບແລ້ວ",
     "variant": "ຕົວແປ",
     "secure": "ປອດໄພ",
-    "admin": "ບໍລິຫານ"
+    "admin": "ບໍລິຫານ",
+    "tax_included_abstract": "ລວມ.",
+    "payment_not_settled": "ຊໍາລະບໍ່ໄດ້!",
+    "orders_list": "ລາຍການຄໍາສັ່ງ",
+    "subscription_plan": "ແຜນການຈອງ",
+    "contents": "ເນື້ອໃນ",
+    "pricings": "ລາຄາ",
+    "static_page": "ຫນ້າຄົງທີ່",
+    "shop_button": "ປຸ່ມຮ້ານຄ້າ",
+    "embed": "ຝັງ",
+    "over": "ເກີນ",
+    "tax_vary_by_location": "ແຕກຕ່າງກັນ. ສະຖານທີ່",
+    "product_type": "ປະເພດຜະລິດຕະພັນ",
+    "tax_id": "ID ພາ​ສີ",
+    "business_name": "ຊື່​ທຸ​ລະ​ກິດ",
+    "invoice": "ໃບເກັບເງິນ",
+    "included_in_the_product": "ລວມຢູ່ໃນຜະລິດຕະພັນ",
+    "included_in_the_product_description": "ຜະລິດຕະພັນປະກອບມີອົງປະກອບດັ່ງຕໍ່ໄປນີ້",
+    "cross_sell": "ຂາຍຂ້າມ",
+    "discount_off": "OFF",
+    "extra_discount": "ສ່ວນຫຼຸດພິເສດ",
+    "template": "ແມ່ແບບ",
+    "in_cart": "ໃນໂຄງຮ່າງການ",
+    "pros_and_cons": "Pros ແລະ Cons",
+    "related_products": "ຜະ​ລິດ​ຕະ​ພັນ​ທີ່​ກ່ຽວ​ຂ້ອງ",
+    "related_categories": "ປະເພດທີ່ກ່ຽວຂ້ອງ",
+    "badges": "ປ້າຍ",
+    "explore": "ສຳຫຼວດ"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "ຟື້ນຟູ",
     "add_message": "ເພີ່ມຂໍ້ຄວາມ",
     "continue_chat": "ສືບຕໍ່ສົນທະນາ",
-    "add_new_message": "ເພີ່ມຂໍ້ຄວາມໃໝ່"
+    "add_new_message": "ເພີ່ມຂໍ້ຄວາມໃໝ່",
+    "change_setting": "ປ່ຽນການຕັ້ງຄ່າ",
+    "delete_all": "ລົບ​ທັງ​ຫມົດ",
+    "transfer_fund": "ໂອນເງິນ",
+    "reverse_fund": "ກອງທຶນປີ້ນກັບກັນ",
+    "settlement": "ການຕັ້ງຖິ່ນຖານ",
+    "refund": "ເງິນຄືນ",
+    "partial_refund": "ການຄືນເງິນບາງສ່ວນ",
+    "change_payment_method": "ປ່ຽນວິທີການຊໍາລະ",
+    "buy": "ຊື້",
+    "view_all": "ເບິ່ງ​ທັງ​ຫມົດ",
+    "view_now": "ເບິ່ງດຽວນີ້"
   },
   "instance_message_title": "ສົ່ງຂໍ້ຄວາມທັນທີ",
   "instance_message": "ສະບາຍດີ {name}, ຂ້ອຍຊື່ {author} ຈາກ {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "ຂຽວຕະຫຼອດປີ",
     "#214C30": "ປ່າໄມ້",
     "#DC2867": "ດອກກຸຫຼາບ",
-    "#38561F" :"ເຄລີ",
+    "#38561F": "ເຄລີ",
     "#5C884D": "ໃບ",
     "#558450": "ແສງ Aqua",
     "#96B5C9": "ສີຟ້າອ່ອນ",
@@ -951,7 +989,9 @@ export default {
     "file": "ໄຟລ໌",
     "file_description": "ໄຟລ໌ທີ່ອະນຸຍາດທັງໝົດເຊັ່ນວິດີໂອຫຼັກສູດອອນໄລນ໌, ເອກະສານທີ່ສາມາດດາວໂຫຼດໄດ້.",
     "service": "ການບໍລິການ",
-    "service_description": "ການບໍລິການເຊັ່ນ: ການສ້ອມແປງ, ການຂົນສົ່ງ, ການສອນ."
+    "service_description": "ການບໍລິການເຊັ່ນ: ການສ້ອມແປງ, ການຂົນສົ່ງ, ການສອນ.",
+    "subscription": "ການສະໝັກໃຊ້",
+    "subscription_description": "ການສະໝັກໃຊ້ ແລະໃບແຈ້ງໜີ້ສຳລັບຜະລິດຕະພັນ, ບໍລິການ, ຫຼືເນື້ອຫາ."
   },
   "license": {
     "free": "ຟຣີ",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "ຕອບທໍາອິດ",
     "comment_at": "ສຸດ",
-    "edit_comment": "ແກ້ໄຂຄຳເຫັນ"
+    "edit_comment": "ແກ້ໄຂຄຳເຫັນ",
+    "my_comments": "ຄວາມຄິດເຫັນຂອງຂ້ອຍ"
   },
   "customer_club": {
     "bronze": "ທອງແດງ",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "ລະຫັດຢືນຢັນ",
     "msg_title": "ສະບາຍດີ,",
     "msg_body": "ກະລຸນາເຂົ້າສູ່ລະບົບ. ມັນໃຊ້ເວລາພຽງແຕ່ສອງສາມວິນາທີ.",
-    "login_apple": "ເຂົ້າສູ່ລະບົບດ້ວຍ Apple"
+    "login_apple": "ເຂົ້າສູ່ລະບົບດ້ວຍ Apple",
+    "login_email": "ເຂົ້າສູ່ລະບົບທາງອີເມລ໌",
+    "email_login_step_1": "ກະລຸນາໃຫ້ທີ່ຢູ່ອີເມວທີ່ຖືກຕ້ອງ, ແລະພວກເຮົາຈະສົ່ງລະຫັດເຂົ້າສູ່ລະບົບໄປຫາມັນ. ບໍ່ຈໍາເປັນຕ້ອງລົງທະບຽນ.",
+    "email_login_step_2": "ທ່ານແນ່ໃຈບໍ່ວ່າທ່ານໄດ້ໃສ່ທີ່ຢູ່ອີເມວຂອງທ່ານຢ່າງຖືກຕ້ອງ? ພວກເຮົາຈະສົ່ງລະຫັດເຂົ້າສູ່ລະບົບໄປຫາອີເມລ໌ທີ່ສະຫນອງໃຫ້, ດັ່ງນັ້ນກະລຸນາຮັບປະກັນຄວາມຖືກຕ້ອງຂອງມັນ.",
+    "email_login_step_3": "ພວກເຮົາໄດ້ສົ່ງລະຫັດໄປຫາອີເມວຂອງທ່ານ. ກະລຸນາຮັບຊາບວ່າລະຫັດຈະໝົດອາຍຸໃນ 10 ນາທີ."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "ບັນທຶກຂໍ້ຄວາມ",
     "notifications": {
       "success": "ຂໍ້ມູນການປ້ອນຂໍ້ມູນຂອງທ່ານຖືກບັນທຶກໄວ້."
-    }
+    },
+    "product_inputs_preview_message": "ຕົວເລືອກການປັບແຕ່ງເຫຼົ່ານີ້ແມ່ນມີໃຫ້ສໍາລັບຜະລິດຕະພັນທີ່ທ່ານສັ່ງ. ເມື່ອລາຍການຖືກເພີ່ມໃສ່ກະຕ່າຂອງເຈົ້າ, ທ່ານຈະສາມາດປັບປ່ຽນໄດ້ທີ່ນີ້."
   },
   "faq": {
     "faq": "ຄໍາ​ຖາມ​ທີ່​ຖືກ​ຖາມ​ເລື້ອຍໆ",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "ແຂງ",
     "intermediate": "ລະດັບປານກາງ",
     "easy": "ງ່າຍ"
+  },
+  "billing_period": {
+    "Daily": "ປະຈໍາວັນ",
+    "Weekly": "ອາທິດ",
+    "Monthly": "ປະຈໍາເດືອນ",
+    "Every3Months": "ທຸກໆ 3 ເດືອນ",
+    "Every6Months": "ທຸກໆ 6 ເດືອນ",
+    "Yearly": "ປະຈຳປີ"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "ບໍ່ດີ!",
+    "between2_3": "ບໍ່​ເປັນ​ຫຍັງ!",
+    "between3_4": "ຄົນມັກ!",
+    "between4_5": "ຄົນຮັກມັນ!"
   }
 };

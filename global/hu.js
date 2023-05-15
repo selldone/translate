@@ -603,7 +603,34 @@ export default {
     "deleted": "Törölve",
     "variant": "Változat",
     "secure": "Biztonságos",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "incl.",
+    "payment_not_settled": "Fizetés nincs rendezve!",
+    "orders_list": "Megrendelések listája",
+    "subscription_plan": "Előfizetési terv",
+    "contents": "Tartalom",
+    "pricings": "Árak",
+    "static_page": "Statikus oldal",
+    "shop_button": "Shop gomb",
+    "embed": "Beágyaz",
+    "over": "Felett",
+    "tax_vary_by_location": "változnak. elhelyezkedés",
+    "product_type": "Terméktípus",
+    "tax_id": "Adóazonosító",
+    "business_name": "Vállalkozás neve",
+    "invoice": "Számla",
+    "included_in_the_product": "A termék tartalmazza",
+    "included_in_the_product_description": "A termék a következő összetevőket tartalmazza",
+    "cross_sell": "Kereszt eladás",
+    "discount_off": "OFF",
+    "extra_discount": "Extra kedvezmény",
+    "template": "Sablon",
+    "in_cart": "Kosárban",
+    "pros_and_cons": "Érvek és ellenérvek",
+    "related_products": "Kapcsolódó termékek",
+    "related_categories": "Kapcsolódó kategóriák",
+    "badges": "Jelvények",
+    "explore": "Fedezd fel"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Regenerátum",
     "add_message": "Üzenet hozzáadása",
     "continue_chat": "A csevegés folytatása",
-    "add_new_message": "Új üzenet hozzáadása"
+    "add_new_message": "Új üzenet hozzáadása",
+    "change_setting": "Beállítások megváltoztatása",
+    "delete_all": "Mindet törölni",
+    "transfer_fund": "Átutalási alap",
+    "reverse_fund": "Fordított alap",
+    "settlement": "Település",
+    "refund": "Visszatérítés",
+    "partial_refund": "Részleges visszatérítés",
+    "change_payment_method": "Fizetési mód megváltoztatása",
+    "buy": "megvesz",
+    "view_all": "Összes megtekintése",
+    "view_now": "Nézd meg most"
   },
   "instance_message_title": "Azonnali üzenet küldése",
   "instance_message": "Kedves {name}! A nevem {author} a {company} cégtől.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Örökzöld",
     "#214C30": "Erdő",
     "#DC2867": "Fukszia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Levél növényen",
     "#558450": "Light Aqua",
     "#96B5C9": "Világoskék",
@@ -951,7 +989,9 @@ export default {
     "file": "Fájl",
     "file_description": "Minden engedélyezett fájl, például online kurzusvideó, letölthető dokumentumok.",
     "service": "Szolgáltatás",
-    "service_description": "Szolgáltatások: javítás, szállítás, oktatás."
+    "service_description": "Szolgáltatások: javítás, szállítás, oktatás.",
+    "subscription": "Feliratkozás",
+    "subscription_description": "Termékek, szolgáltatások vagy tartalom előfizetései és számlázása."
   },
   "license": {
     "free": "Ingyenes",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Első poszt",
     "comment_at": "Tovább",
-    "edit_comment": "Megjegyzés szerkesztése"
+    "edit_comment": "Megjegyzés szerkesztése",
+    "my_comments": "Saját megjegyzéseim"
   },
   "customer_club": {
     "bronze": "Bronz",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Ellenőrző kód",
     "msg_title": "Szia,",
     "msg_body": "Kérjük jelentkezzen be. Csak néhány másodpercet vesz igénybe.",
-    "login_apple": "Jelentkezzen be az Apple-lel"
+    "login_apple": "Jelentkezzen be az Apple-lel",
+    "login_email": "Bejelentkezés e-mailben",
+    "email_login_step_1": "Kérjük, adjon meg egy érvényes e-mail címet, és erre küldjük a belépési kódot. Nincs szükség regisztrációra.",
+    "email_login_step_2": "Biztos benne, hogy helyesen adta meg az e-mail címét? A bejelentkezési kódot a megadott e-mail címre küldjük, ezért kérjük, ellenőrizze annak pontosságát.",
+    "email_login_step_3": "Kódot küldtünk az e-mail címére. Felhívjuk figyelmét, hogy a kód 10 percen belül lejár."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Üzenet mentése",
     "notifications": {
       "success": "A bevitt adatok el lettek mentve."
-    }
+    },
+    "product_inputs_preview_message": "Ezek a testreszabási lehetőségek állnak rendelkezésre a megrendelt termékéhez. Miután a terméket hozzáadta a kosarához, itt módosíthatja."
   },
   "faq": {
     "faq": "Gyakran Ismételt Kérdések",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Kemény",
     "intermediate": "Közbülső",
     "easy": "Könnyen"
+  },
+  "billing_period": {
+    "Daily": "Napi",
+    "Weekly": "Heti",
+    "Monthly": "Havi",
+    "Every3Months": "3 havonta",
+    "Every6Months": "6 havonta",
+    "Yearly": "Évi"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Jaj nem jó!",
+    "between2_3": "Ez rendben van!",
+    "between3_4": "Az embereknek tetszik!",
+    "between4_5": "Az emberek szeretik!"
   }
 };

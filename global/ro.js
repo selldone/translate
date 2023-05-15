@@ -603,7 +603,34 @@ export default {
     "deleted": "Șters",
     "variant": "Variantă",
     "secure": "Sigur",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "incl.",
+    "payment_not_settled": "Plata nu a fost decontată!",
+    "orders_list": "Lista comenzilor",
+    "subscription_plan": "Plan de abonament",
+    "contents": "Cuprins",
+    "pricings": "Prețuri",
+    "static_page": "Pagina statica",
+    "shop_button": "Butonul de magazin",
+    "embed": "Încorporare",
+    "over": "Peste",
+    "tax_vary_by_location": "varia. Locație",
+    "product_type": "Tip produs",
+    "tax_id": "Cod fiscal",
+    "business_name": "Nume de afaceri",
+    "invoice": "Factura fiscala",
+    "included_in_the_product": "Inclus în produs",
+    "included_in_the_product_description": "Produsul include următoarele componente",
+    "cross_sell": "Vânzare încrucișată",
+    "discount_off": "OFF",
+    "extra_discount": "Reducere suplimentară",
+    "template": "Șablon",
+    "in_cart": "În coș",
+    "pros_and_cons": "Argumente pro şi contra",
+    "related_products": "produse asemanatoare",
+    "related_categories": "categorii relevante",
+    "badges": "Ecusoane",
+    "explore": "Explora"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Regenera",
     "add_message": "Adăugați mesaj",
     "continue_chat": "Continuați conversația",
-    "add_new_message": "Adăugați un mesaj nou"
+    "add_new_message": "Adăugați un mesaj nou",
+    "change_setting": "Schimbați setarea",
+    "delete_all": "Sterge tot",
+    "transfer_fund": "Fond de transfer",
+    "reverse_fund": "Fond inversat",
+    "settlement": "Așezarea",
+    "refund": "Restituire",
+    "partial_refund": "Rambursare parțială",
+    "change_payment_method": "Schimbă modalitatea de plată",
+    "buy": "Cumpără",
+    "view_all": "A vedea tot",
+    "view_now": "Vezi acum"
   },
   "instance_message_title": "Trimite mesaj instant",
   "instance_message": "Bună {name}, Numele meu este {author} de la {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "vesnic verde",
     "#214C30": "pădure",
     "#DC2867": "Fucsie",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Frunze",
     "#558450": "Light Aqua",
     "#96B5C9": "Albastru deschis",
@@ -951,7 +989,9 @@ export default {
     "file": "Fişier",
     "file_description": "Toate fișierele permise, cum ar fi videoclipurile cursului online, documentele descărcabile.",
     "service": "Serviciu",
-    "service_description": "Servicii precum: reparatii, transport, predare."
+    "service_description": "Servicii precum: reparatii, transport, predare.",
+    "subscription": "Abonament",
+    "subscription_description": "Abonamente și facturare pentru produse, servicii sau conținut."
   },
   "license": {
     "free": "Liber",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Prima postare",
     "comment_at": "Pe",
-    "edit_comment": "Editați comentariul"
+    "edit_comment": "Editați comentariul",
+    "my_comments": "Comentariile mele"
   },
   "customer_club": {
     "bronze": "Bronz",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Cod de verificare",
     "msg_title": "Salut,",
     "msg_body": "Va rugam sa va logati. Durează doar câteva secunde.",
-    "login_apple": "Conectați-vă cu Apple"
+    "login_apple": "Conectați-vă cu Apple",
+    "login_email": "Conectați-vă prin e-mail",
+    "email_login_step_1": "Vă rugăm să furnizați o adresă de e-mail validă, iar noi îi vom trimite codul de autentificare. Nu este necesară înregistrarea.",
+    "email_login_step_2": "Sunteți sigur că ați introdus corect adresa de e-mail? Vom trimite codul de conectare la adresa de e-mail furnizată, așa că vă rugăm să vă asigurați exactitatea acestuia.",
+    "email_login_step_3": "Am trimis un cod pe adresa ta de e-mail. Vă rugăm să rețineți că codul va expira în 10 minute."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Salvați mesajul",
     "notifications": {
       "success": "Datele dvs. introduse au fost salvate."
-    }
+    },
+    "product_inputs_preview_message": "Aceste opțiuni de personalizare sunt disponibile pentru produsul comandat. Odată ce articolul este adăugat în coș, veți putea face ajustări aici."
   },
   "faq": {
     "faq": "întrebări frecvente",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Greu",
     "intermediate": "Intermediar",
     "easy": "Uşor"
+  },
+  "billing_period": {
+    "Daily": "Zilnic",
+    "Weekly": "Săptămânal",
+    "Monthly": "Lunar",
+    "Every3Months": "La fiecare 3 luni",
+    "Every6Months": "La fiecare 6 luni",
+    "Yearly": "Anual"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oh, nu e bine!",
+    "between2_3": "E bine!",
+    "between3_4": "Oamenilor le place!",
+    "between4_5": "Oamenilor le place!"
   }
 };

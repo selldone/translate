@@ -81,7 +81,9 @@ export default {
     "offer_message": "Achte {min_quantity} Jwenn {percent}% remise pou atik sa yo",
     "up_to": "Jiska {per_order}x pou chak lòd",
     "get_free": "JWENN GRATIS",
-    "get_off": "JWENN {percent}% OFF"
+    "get_off": "JWENN {percent}% OFF",
+    "select_a_vendor_message": "Tanpri chwazi yon machann.",
+    "product_description_header": "Prezante {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Ap tann disponiblite",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Nou pral fè w konnen lè li disponib.",
       "inform_remove_success": "Yo retire w nan lis datant la."
-    }
+    },
+    "subscribe_now": "Abònman Kounye a",
+    "unsubscribe": "Dezabòne",
+    "select_a_subscription_plan": "Chwazi yon plan an premye!",
+    "manage_subscriptions": "Jere abònman"
   },
   "product": {
     "review": "Revizyon",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Garanti",
     "return_policy": "Règleman retounen",
     "guide": "Gid",
-    "shipping": "Shipping"
+    "shipping": "Shipping",
+    "related_categories_title": "Dekouvri nan koleksyon yo"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Total Atik Pri",
       "total_items_discount": "Atik rabè",
       "total_price_after_offers": "Total apre aplike òf",
-      "buyer_payment": "Montan peman achtè"
+      "buyer_payment": "Montan peman achtè",
+      "total_order_price_before_tax": "Pri total anvan taks"
     },
     "delivery": {
       "title": "Livrezon",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Diferan enfòmasyon bòdwo",
     "basket_empty": "Panyen vid",
     "extra_shipping_count": "Ou pral resevwa {count} pakè.",
-    "select_location_error": "Jwenn kote ou resevwa chajman an sou kat jeyografik la epi klike sou endikatè ki nan mitan kat la pou detèmine adrès egzak moun k ap resevwa a."
+    "select_location_error": "Jwenn kote ou resevwa chajman an sou kat jeyografik la epi klike sou endikatè ki nan mitan kat la pou detèmine adrès egzak moun k ap resevwa a.",
+    "same_billing_address_desc": "Adrès bòdwo a se menm ak adrès anbake.",
+    "custom_billing_info_desc": "Ou ka antre nimewo TAX ou a epi mete yon lòt adrès pou voye bòdwo.",
+    "billing_business_desc": "Se yon kont biznis ki gen yon nimewo TAX.",
+    "billing_personal_desc": "Se yon kont pèsonèl.",
+    "no_billing_title": "Pa gen bòdwo",
+    "no_billing_desc": "Kite adrès facturation vid."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Rekipere lòd ekstèn",
     "address_included": "Pataje atik panyen + Adrès",
     "address_excluded": "Pataje sèlman atik panyen yo"
+  },
+  "variants_view": {
+    "prices": "Pri yo",
+    "inventory": "Envantè",
+    "discount": "Rabè"
+  },
+  "rating": {
+    "product_rating_message": "Pwodui sa a te resevwa yon evalyasyon de {rate} sou 5 etwal ak evalye pa {rate_count} moun."
+  },
+  "related_products": {
+    "card": {
+      "title": "Eksplore!",
+      "same_tags_subtitle": "Jwenn plis atik ki gen rapò remakab.",
+      "same_category_subtitle": "Jwenn plis atik remakab nan kategori sa a."
+    }
   }
 };

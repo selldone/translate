@@ -81,7 +81,9 @@ export default {
     "offer_message": "Mésér {min_quantity} Kéngingkeun potongan {percent}% kanggo barang-barang ieu",
     "up_to": "Nepi ka {per_order}x per pesenan",
     "get_free": "Kéngingkeun GRATIS",
-    "get_off": "Kéngingkeun potongan {percent}%."
+    "get_off": "Kéngingkeun potongan {percent}%.",
+    "select_a_vendor_message": "Mangga pilih vendor a.",
+    "product_description_header": "Nepangkeun {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Ngadagoan kasadiaan",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Kami bakal nginpokeun ka anjeun nalika éta sayogi.",
       "inform_remove_success": "Anjeun geus dikaluarkeun tina daptar antosan."
-    }
+    },
+    "subscribe_now": "Ngalanggan Ayeuna",
+    "unsubscribe": "Unsubscribe",
+    "select_a_subscription_plan": "Pilih rencana heula!",
+    "manage_subscriptions": "Ngatur langganan"
   },
   "product": {
     "review": "Tinjauan",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Garansi",
     "return_policy": "Kabijakan pamulangan",
     "guide": "Pituduh",
-    "shipping": "Balanja"
+    "shipping": "Balanja",
+    "related_categories_title": "Panggihan dina kumpulan"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Total Item Harga",
       "total_items_discount": "Barang Diskon",
       "total_price_after_offers": "Total sanggeus nerapkeun nawaran",
-      "buyer_payment": "Jumlah pamayaran pembeli"
+      "buyer_payment": "Jumlah pamayaran pembeli",
+      "total_order_price_before_tax": "Pra-pajeg Total Harga"
     },
     "delivery": {
       "title": "Pangiriman",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Inpo tagihan béda",
     "basket_empty": "Karanjang kosong",
     "extra_shipping_count": "Anjeun bakal nampi {count} bungkusan.",
-    "select_location_error": "Panggihan tempat resi kiriman dina peta teras klik dina indikator di tengah peta pikeun nangtukeun alamat pasti tina panarima."
+    "select_location_error": "Panggihan tempat resi kiriman dina peta teras klik dina indikator di tengah peta pikeun nangtukeun alamat pasti tina panarima.",
+    "same_billing_address_desc": "Alamat tagihanana sami sareng alamat pengiriman barang.",
+    "custom_billing_info_desc": "Anjeun tiasa ngalebetkeun nomer PAJAK anjeun sareng nyetél alamat anu béda pikeun tagihan.",
+    "billing_business_desc": "Ieu akun bisnis sareng nomer PAJAK.",
+    "billing_personal_desc": "Ieu akun pribadi.",
+    "no_billing_title": "Taya tagihan",
+    "no_billing_desc": "Ninggalkeun alamat tagihan kosong."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Meunangkeun urutan éksternal",
     "address_included": "Bagikeun barang karanjang + Alamat",
     "address_excluded": "Bagikeun ukur barang karanjang"
+  },
+  "variants_view": {
+    "prices": "Harga",
+    "inventory": "Inventarisasi",
+    "discount": "Diskon"
+  },
+  "rating": {
+    "product_rating_message": "Produk ieu nampi rating {rate} tina 5 béntang sareng dipeunteun ku {rate_count} jalma."
+  },
+  "related_products": {
+    "card": {
+      "title": "Jelajah!",
+      "same_tags_subtitle": "Manggihan item patali leuwih luar biasa.",
+      "same_category_subtitle": "Milarian barang anu langkung luar biasa dina kategori ieu."
+    }
   }
 };

@@ -603,7 +603,34 @@ export default {
     "deleted": "Избрисан",
     "variant": "Варијанта",
     "secure": "Сецуре",
-    "admin": "Админ"
+    "admin": "Админ",
+    "tax_included_abstract": "укљ.",
+    "payment_not_settled": "Плаћање није измирено!",
+    "orders_list": "Листа налога",
+    "subscription_plan": "План претплате",
+    "contents": "Садржај",
+    "pricings": "Цене",
+    "static_page": "Статичка страница",
+    "shop_button": "Дугме за куповину",
+    "embed": "Уграђивање",
+    "over": "Готово",
+    "tax_vary_by_location": "варирати. локација",
+    "product_type": "Врста производа",
+    "tax_id": "Пиб",
+    "business_name": "Пословно име",
+    "invoice": "Фактура",
+    "included_in_the_product": "Укључено у производ",
+    "included_in_the_product_description": "Производ укључује следеће компоненте",
+    "cross_sell": "Препродаја",
+    "discount_off": "OFF",
+    "extra_discount": "Ектра Дисцоунт",
+    "template": "Шаблон",
+    "in_cart": "Ин Царт",
+    "pros_and_cons": "За и против",
+    "related_products": "Повезани производи",
+    "related_categories": "Повезане категорије",
+    "badges": "Значке",
+    "explore": "Истражите"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Регенерисати",
     "add_message": "Додај поруку",
     "continue_chat": "Наставите ћаскање",
-    "add_new_message": "Додајте нову поруку"
+    "add_new_message": "Додајте нову поруку",
+    "change_setting": "Подешавање промена",
+    "delete_all": "Избриши све",
+    "transfer_fund": "Трансфер фонд",
+    "reverse_fund": "Реверзни фонд",
+    "settlement": "Поравнање",
+    "refund": "Враћање новца",
+    "partial_refund": "Делимична повраћај",
+    "change_payment_method": "Промените начин плаћања",
+    "buy": "Купи",
+    "view_all": "Погледати све",
+    "view_now": "Погледај одмах"
   },
   "instance_message_title": "Пошаљите тренутну поруку",
   "instance_message": "Здраво {name}, ја сам {author} из {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Евергреен",
     "#214C30": "Форест",
     "#DC2867": "Фуксија",
-    "#38561F" :"Келли",
+    "#38561F": "Келли",
     "#5C884D": "Лист",
     "#558450": "Лигхт Акуа",
     "#96B5C9": "Светло плава",
@@ -951,7 +989,9 @@ export default {
     "file": "Филе",
     "file_description": "Све дозвољене датотеке попут видео записа о курсу на мрежи, докумената за преузимање.",
     "service": "Услуга",
-    "service_description": "Услуге као што су: поправка, превоз, подучавање."
+    "service_description": "Услуге као што су: поправка, превоз, подучавање.",
+    "subscription": "Претплата",
+    "subscription_description": "Претплате и фактурисање за производе, услуге или садржаје."
   },
   "license": {
     "free": "бесплатно",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Први пост",
     "comment_at": "на",
-    "edit_comment": "Уреди коментар"
+    "edit_comment": "Уреди коментар",
+    "my_comments": "Моји коментари"
   },
   "customer_club": {
     "bronze": "Бронза",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Верификациони код",
     "msg_title": "Здраво,",
     "msg_body": "Молим вас пријавите се. Потребно је само неколико секунди.",
-    "login_apple": "Пријавите се са Аппле-ом"
+    "login_apple": "Пријавите се са Аппле-ом",
+    "login_email": "Пријавите се путем е-поште",
+    "email_login_step_1": "Наведите важећу адресу е-поште, а ми ћемо на њу послати код за пријаву. Није потребна регистрација.",
+    "email_login_step_2": "Да ли сте сигурни да сте исправно унели своју адресу е-поште? Послаћемо шифру за пријаву на наведену адресу е-поште, па се уверите да је тачност.",
+    "email_login_step_3": "Послали смо код на вашу е-пошту. Имајте на уму да код истиче за 10 минута."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Сачувај поруку",
     "notifications": {
       "success": "Ваши улазни подаци су сачувани."
-    }
+    },
+    "product_inputs_preview_message": "Ове опције прилагођавања су доступне за ваш наручени производ. Када се артикал дода у корпу, овде ћете моћи да извршите подешавања."
   },
   "faq": {
     "faq": "Често постављана питања",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Тешко",
     "intermediate": "Средњи",
     "easy": "Лако"
+  },
+  "billing_period": {
+    "Daily": "Даили",
+    "Weekly": "Недељно",
+    "Monthly": "Месечно",
+    "Every3Months": "Свака 3 месеца",
+    "Every6Months": "Сваких 6 месеци",
+    "Yearly": "Годишње"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "О, није добро!",
+    "between2_3": "У реду је!",
+    "between3_4": "Људима се свиђа!",
+    "between4_5": "Људи то воле!"
   }
 };

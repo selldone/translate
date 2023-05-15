@@ -603,7 +603,34 @@ export default {
     "deleted": "Dipupus",
     "variant": "Varian",
     "secure": "Aman",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "kaasup.",
+    "payment_not_settled": "Pamayaran teu dilunasan!",
+    "orders_list": "Daptar pesenan",
+    "subscription_plan": "Rencana langganan",
+    "contents": "eusi",
+    "pricings": "Hargaan",
+    "static_page": "Kaca statik",
+    "shop_button": "Tombol Toko",
+    "embed": "Lebetkeun",
+    "over": "Leuwih",
+    "tax_vary_by_location": "rupa-rupa. lokasi",
+    "product_type": "Jenis produk",
+    "tax_id": "ID Pajak",
+    "business_name": "Ngaran Bisnis",
+    "invoice": "Invoice",
+    "included_in_the_product": "Kaasup dina produk",
+    "included_in_the_product_description": "Produk kalebet komponén di handap ieu",
+    "cross_sell": "Cross Ngajual",
+    "discount_off": "OFF",
+    "extra_discount": "Diskon tambahan",
+    "template": "Citakan",
+    "in_cart": "Dina Gorobag",
+    "pros_and_cons": "Pro jeung kontra",
+    "related_products": "Produk patali",
+    "related_categories": "Kategori patali",
+    "badges": "Lencana",
+    "explore": "Ngajalajah"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Regenerasi",
     "add_message": "Tambahkeun pesen",
     "continue_chat": "Terus ngobrol",
-    "add_new_message": "Tambahkeun pesen anyar"
+    "add_new_message": "Tambahkeun pesen anyar",
+    "change_setting": "Robah setélan",
+    "delete_all": "Pupus Sadayana",
+    "transfer_fund": "Dana mindahkeun",
+    "reverse_fund": "Dana ngabalikeun",
+    "settlement": "Patempatan",
+    "refund": "Ngabalikeun duit",
+    "partial_refund": "Ngabalikeun duit parsial",
+    "change_payment_method": "Robah metode pamayaran",
+    "buy": "Meuli",
+    "view_all": "Témbongkeun Sadaya",
+    "view_now": "Témbongkeun Ayeuna"
   },
   "instance_message_title": "Kirim pesen instan",
   "instance_message": "Hai {name}, Nami abdi {author} ti {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Leuweung",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Daun",
     "#558450": "Cahaya Aqua",
     "#96B5C9": "Biru Muda",
@@ -951,7 +989,9 @@ export default {
     "file": "File",
     "file_description": "Sadaya file anu diidinan sapertos video kursus online, dokumén anu tiasa diunduh.",
     "service": "Palayanan",
-    "service_description": "Jasa sapertos: perbaikan, transportasi, pangajaran."
+    "service_description": "Jasa sapertos: perbaikan, transportasi, pangajaran.",
+    "subscription": "Langganan",
+    "subscription_description": "Langganan sareng invoice pikeun produk, jasa, atanapi eusi."
   },
   "license": {
     "free": "Gratis",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Tulisan munggaran",
     "comment_at": "Dina",
-    "edit_comment": "Edit Koméntar"
+    "edit_comment": "Edit Koméntar",
+    "my_comments": "Koméntar abdi"
   },
   "customer_club": {
     "bronze": "Perunggu",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Kodeu vérifikasi",
     "msg_title": "hi,",
     "msg_body": "Mangga lebet. Butuh ngan sababaraha detik.",
-    "login_apple": "Login sareng Apple"
+    "login_apple": "Login sareng Apple",
+    "login_email": "Login ku Surélék",
+    "email_login_step_1": "Mangga nyadiakeun alamat surélék nu sah, sarta kami bakal ngirim kodeu login ka dinya. Taya pendaptaran diperlukeun.",
+    "email_login_step_2": "Naha anjeun yakin yén anjeun parantos ngalebetkeun alamat email anjeun leres? Kami bakal ngirim kodeu login ka email anu disayogikeun, janten punten pastikeun katepatanana.",
+    "email_login_step_3": "Kami geus dikirim kode ka surélék anjeun. Perhatikeun yén kode bakal kadaluwarsa dina 10 menit."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Simpen Pesen",
     "notifications": {
       "success": "Data input anjeun parantos disimpen."
-    }
+    },
+    "product_inputs_preview_message": "Pilihan kustomisasi ieu sayogi pikeun produk anu dipesen anjeun. Sakali item nu ditambahkeun kana karanjang anjeun, anjeun bakal bisa nyieun pangaluyuan dieu."
   },
   "faq": {
     "faq": "Patarosan anu sering ditaroskeun",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Teuas",
     "intermediate": "Panengah",
     "easy": "gampil"
+  },
+  "billing_period": {
+    "Daily": "Sapopoe",
+    "Weekly": "Mingguan",
+    "Monthly": "Bulanan",
+    "Every3Months": "Unggal 3 bulan",
+    "Every6Months": "Unggal 6 bulan",
+    "Yearly": "taunan"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oh henteu saé!",
+    "between2_3": "Henteu kunanaon!",
+    "between3_4": "Jalma resep!",
+    "between4_5": "Jalma resep eta!"
   }
 };

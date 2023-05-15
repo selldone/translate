@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity} сатып алыңыз. Осы тауарларға {percent}% жеңілдік алыңыз",
     "up_to": "Тапсырыс үшін {per_order}x дейін",
     "get_free": "ТЕГІН АЛУ",
-    "get_off": "{percent}% ЖЕҢІЛДІКТІ АЛУ"
+    "get_off": "{percent}% ЖЕҢІЛДІКТІ АЛУ",
+    "select_a_vendor_message": "Сатушыны таңдаңыз.",
+    "product_description_header": "{product} таныстыру"
   },
   "buy_button": {
     "waiting_for_availability": "Қолжетімділік күтілуде",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Ол қолжетімді болғанда сізге хабарлаймыз.",
       "inform_remove_success": "Сіз күту тізімінен жойылдыңыз."
-    }
+    },
+    "subscribe_now": "Қазір жазылыңыз",
+    "unsubscribe": "Жазылымнан бас тарту",
+    "select_a_subscription_plan": "Алдымен жоспарды таңдаңыз!",
+    "manage_subscriptions": "Жазылымдарды басқару"
   },
   "product": {
     "review": "Қарау",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Кепілдік",
     "return_policy": "ТАУАРДЫ ҚАЙТАРУ ШАРТТАРЫ",
     "guide": "Гид",
-    "shipping": "Жүк тасу"
+    "shipping": "Жүк тасу",
+    "related_categories_title": "Жинақтарда ашыңыз"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Заттардың жалпы бағасы",
       "total_items_discount": "Заттарға жеңілдік",
       "total_price_after_offers": "Ұсыныстарды қолданғаннан кейін барлығы",
-      "buyer_payment": "Сатып алушының төлем сомасы"
+      "buyer_payment": "Сатып алушының төлем сомасы",
+      "total_order_price_before_tax": "Салық салуға дейінгі жалпы баға"
     },
     "delivery": {
       "title": "Жеткізу",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Төлем туралы әртүрлі ақпарат",
     "basket_empty": "Себет бос",
     "extra_shipping_count": "Сіз {count} пакет аласыз.",
-    "select_location_error": "Картадан жөнелтілімді қабылдау орнын тауып, картаның ортасындағы индикаторды басып, алушының нақты мекенжайын анықтаңыз."
+    "select_location_error": "Картадан жөнелтілімді қабылдау орнын тауып, картаның ортасындағы индикаторды басып, алушының нақты мекенжайын анықтаңыз.",
+    "same_billing_address_desc": "Төлем мекенжайы жеткізу мекенжайымен бірдей.",
+    "custom_billing_info_desc": "САЛЫҚ нөмірін енгізіп, шот жіберу үшін басқа мекенжай орнатуға болады.",
+    "billing_business_desc": "Бұл САЛЫҚ нөмірі бар бизнес шоты.",
+    "billing_personal_desc": "Бұл жеке шот.",
+    "no_billing_title": "Есепшот жоқ",
+    "no_billing_desc": "Төлем мекенжайын бос қалдырыңыз."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Сыртқы тапсырысты шығарып алыңыз",
     "address_included": "Себет элементтерін бөлісіңіз + Мекенжай",
     "address_excluded": "Тек себет элементтерін бөлісіңіз"
+  },
+  "variants_view": {
+    "prices": "Бағалар",
+    "inventory": "Түгендеу",
+    "discount": "Жеңілдік"
+  },
+  "rating": {
+    "product_rating_message": "Бұл өнім 5 жұлдыздан {rate} бағасын алды және оны {rate_count} адам бағалады."
+  },
+  "related_products": {
+    "card": {
+      "title": "Зерттеу!",
+      "same_tags_subtitle": "Тағы да маңызды қатысты элементтерді табыңыз.",
+      "same_category_subtitle": "Осы санаттағы басқа да қызықты заттарды табыңыз."
+    }
   }
 };

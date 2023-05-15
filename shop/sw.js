@@ -81,7 +81,9 @@ export default {
     "offer_message": "Nunua {min_quantity} Pata punguzo la {percent}% kwa bidhaa hizi",
     "up_to": "Hadi {per_order}x kwa kila agizo",
     "get_free": "PATA BURE",
-    "get_off": "PATA PUNGUZO la {percent}%."
+    "get_off": "PATA PUNGUZO la {percent}%.",
+    "select_a_vendor_message": "Tafadhali chagua mchuuzi.",
+    "product_description_header": "Tunakuletea {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Inasubiri upatikanaji",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Tutakujulisha itakapopatikana.",
       "inform_remove_success": "Umeondolewa kwenye orodha ya wanaosubiri."
-    }
+    },
+    "subscribe_now": "Jisajili Sasa",
+    "unsubscribe": "Jiondoe",
+    "select_a_subscription_plan": "Chagua mpango kwanza!",
+    "manage_subscriptions": "Dhibiti usajili"
   },
   "product": {
     "review": "Kagua",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Udhamini",
     "return_policy": "Sera ya Kurudisha",
     "guide": "Mwongozo",
-    "shipping": "Usafirishaji"
+    "shipping": "Usafirishaji",
+    "related_categories_title": "Gundua katika mikusanyiko"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Bei ya Jumla ya Bidhaa",
       "total_items_discount": "Punguzo la Bidhaa",
       "total_price_after_offers": "Jumla baada ya kutuma ofa",
-      "buyer_payment": "Kiasi cha malipo ya mnunuzi"
+      "buyer_payment": "Kiasi cha malipo ya mnunuzi",
+      "total_order_price_before_tax": "Jumla ya Bei ya Kabla ya Kodi"
     },
     "delivery": {
       "title": "Uwasilishaji",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Maelezo tofauti ya malipo",
     "basket_empty": "Kikapu ni tupu",
     "extra_shipping_count": "Utapokea vifurushi {count}.",
-    "select_location_error": "Tafuta mahali pa kupokea usafirishaji kwenye ramani na ubofye kiashiria kilicho katikati ya ramani ili kuamua anwani halisi ya mpokeaji."
+    "select_location_error": "Tafuta mahali pa kupokea usafirishaji kwenye ramani na ubofye kiashiria kilicho katikati ya ramani ili kuamua anwani halisi ya mpokeaji.",
+    "same_billing_address_desc": "Anwani ya kutuma bili ni sawa na anwani ya usafirishaji.",
+    "custom_billing_info_desc": "Unaweza kuingiza nambari yako ya TAX na kuweka anwani tofauti ya malipo.",
+    "billing_business_desc": "Ni akaunti ya biashara yenye nambari ya TAX.",
+    "billing_personal_desc": "Ni akaunti ya kibinafsi.",
+    "no_billing_title": "Hakuna malipo",
+    "no_billing_desc": "Acha anwani ya bili tupu."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Rejesha agizo la nje",
     "address_included": "Shiriki vitu vya kikapu + Anwani",
     "address_excluded": "Shiriki vitu vya kikapu pekee"
+  },
+  "variants_view": {
+    "prices": "Bei",
+    "inventory": "Malipo",
+    "discount": "Punguzo"
+  },
+  "rating": {
+    "product_rating_message": "Bidhaa hii imepokea ukadiriaji wa {rate} kati ya nyota 5 na ukadiriaji wa watu {rate_count}."
+  },
+  "related_products": {
+    "card": {
+      "title": "Chunguza!",
+      "same_tags_subtitle": "Pata vitu vya kushangaza zaidi vinavyohusiana.",
+      "same_category_subtitle": "Pata vitu vya kushangaza zaidi katika kitengo hiki."
+    }
   }
 };

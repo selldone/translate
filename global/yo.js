@@ -603,7 +603,34 @@ export default {
     "deleted": "Parẹ",
     "variant": "Iyatọ",
     "secure": "Ni aabo",
-    "admin": "Abojuto"
+    "admin": "Abojuto",
+    "tax_included_abstract": "pẹlu.",
+    "payment_not_settled": "Owo sisan ko yanju!",
+    "orders_list": "Akojọ awọn ibere",
+    "subscription_plan": "Eto ṣiṣe alabapin",
+    "contents": "Awọn akoonu",
+    "pricings": "Awọn idiyele",
+    "static_page": "Oju-iwe aimi",
+    "shop_button": "Bọtini itaja",
+    "embed": "Fi sii",
+    "over": "Pari",
+    "tax_vary_by_location": "yatọ. ipo",
+    "product_type": "Iru ọja",
+    "tax_id": "ID owo-ori",
+    "business_name": "Orukọ iṣowo",
+    "invoice": "risiti",
+    "included_in_the_product": "Ti o wa ninu ọja naa",
+    "included_in_the_product_description": "Ọja naa pẹlu awọn paati wọnyi",
+    "cross_sell": "Agbelebu Ta",
+    "discount_off": "OFF",
+    "extra_discount": "Eni afikun",
+    "template": "Àdàkọ",
+    "in_cart": "Ninu rira",
+    "pros_and_cons": "Aleebu ati awọn konsi",
+    "related_products": "Jẹmọ Products",
+    "related_categories": "Awọn ẹka ibatan",
+    "badges": "Baajii",
+    "explore": "Ye"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Tuntun-pada",
     "add_message": "Fi ifiranṣẹ kun",
     "continue_chat": "Tesiwaju iwiregbe",
-    "add_new_message": "Fi ifiranṣẹ titun kun"
+    "add_new_message": "Fi ifiranṣẹ titun kun",
+    "change_setting": "Yi eto pada",
+    "delete_all": "Pa Gbogbo Rẹ",
+    "transfer_fund": "Owo gbigbe",
+    "reverse_fund": "Iyipada owo",
+    "settlement": "Ibugbe",
+    "refund": "agbapada",
+    "partial_refund": "Agbapada Apa kan",
+    "change_payment_method": "Yi owo sisan ọna",
+    "buy": "Ra",
+    "view_all": "Wo Gbogbo",
+    "view_now": "Wo Bayi"
   },
   "instance_message_title": "Firanṣẹ lẹsẹkẹsẹ ifiranṣẹ",
   "instance_message": "Hi {name}, Oruko mi ni {author} lati {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Igbo",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Ewe",
     "#558450": "Imọlẹ Aqua",
     "#96B5C9": "Buluu Imọlẹ",
@@ -951,7 +989,9 @@ export default {
     "file": "Faili",
     "file_description": "Gbogbo awọn faili ti a gba laaye gẹgẹbi fidio dajudaju ori ayelujara, awọn iwe aṣẹ ti o ṣe igbasilẹ.",
     "service": "Iṣẹ",
-    "service_description": "Awọn iṣẹ bii: atunṣe, gbigbe, ẹkọ."
+    "service_description": "Awọn iṣẹ bii: atunṣe, gbigbe, ẹkọ.",
+    "subscription": "Ṣiṣe alabapin",
+    "subscription_description": "Ṣiṣe alabapin ati risiti fun awọn ọja, awọn iṣẹ, tabi akoonu."
   },
   "license": {
     "free": "Ọfẹ",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Ifiweranṣẹ akọkọ",
     "comment_at": "Tan-an",
-    "edit_comment": "Ṣatunkọ Ọrọìwòye"
+    "edit_comment": "Ṣatunkọ Ọrọìwòye",
+    "my_comments": "Mi Comments"
   },
   "customer_club": {
     "bronze": "Idẹ",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Kodu afimo",
     "msg_title": "Hi,",
     "msg_body": "Jọwọ buwolu wọle. Yoo gba to iṣẹju-aaya diẹ.",
-    "login_apple": "Buwolu wọle pẹlu Apple"
+    "login_apple": "Buwolu wọle pẹlu Apple",
+    "login_email": "Buwolu wọle nipasẹ Imeeli",
+    "email_login_step_1": "Jọwọ pese adirẹsi imeeli ti o wulo, ati pe a yoo fi koodu iwọle ranṣẹ si. Ko si ìforúkọsílẹ jẹ pataki.",
+    "email_login_step_2": "Ṣe o da ọ loju pe o ti tẹ adirẹsi imeeli rẹ sii bi o ti tọ bi? A yoo firanṣẹ koodu iwọle si imeeli ti a pese, nitorinaa jọwọ rii daju pe deede.",
+    "email_login_step_3": "A ti fi koodu ranṣẹ si imeeli rẹ. Jọwọ ṣe akiyesi pe koodu naa yoo pari ni iṣẹju 10."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Fi ifiranṣẹ pamọ",
     "notifications": {
       "success": "Ti fipamọ data titẹ sii rẹ."
-    }
+    },
+    "product_inputs_preview_message": "Awọn aṣayan isọdi wọnyi wa fun ọja ti o paṣẹ. Ni kete ti nkan naa ba ti ṣafikun si rira rẹ, iwọ yoo ni anfani lati ṣe awọn atunṣe nibi."
   },
   "faq": {
     "faq": "Awon ibeere ti awon eniyan saaba ma n beere",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Lile",
     "intermediate": "Agbedemeji",
     "easy": "Rọrun"
+  },
+  "billing_period": {
+    "Daily": "Ojoojumọ",
+    "Weekly": "Osẹ-ọsẹ",
+    "Monthly": "Oṣooṣu",
+    "Every3Months": "Ni gbogbo oṣu mẹta",
+    "Every6Months": "Ni gbogbo oṣu 6",
+    "Yearly": "Odoodun"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oh ko dara!",
+    "between2_3": "O dara!",
+    "between3_4": "Eniyan fẹran rẹ!",
+    "between4_5": "Awọn eniyan nifẹ rẹ!"
   }
 };

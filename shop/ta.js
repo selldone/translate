@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity} வாங்கினால், இந்தப் பொருட்களுக்கு {percent}% தள்ளுபடி கிடைக்கும்",
     "up_to": "ஒரு ஆர்டருக்கு {per_order}x வரை",
     "get_free": "இலவசமாக பெற்றுகொள்",
-    "get_off": "{percent}% தள்ளுபடி பெறவும்"
+    "get_off": "{percent}% தள்ளுபடி பெறவும்",
+    "select_a_vendor_message": "ஒரு விற்பனையாளரைத் தேர்ந்தெடுக்கவும்.",
+    "product_description_header": "அறிமுகப்படுத்துகிறது {product}"
   },
   "buy_button": {
     "waiting_for_availability": "கிடைக்கும் வரை காத்திருக்கிறது",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "அது கிடைக்கும்போது உங்களுக்குத் தெரிவிப்போம்.",
       "inform_remove_success": "காத்திருப்புப் பட்டியலில் இருந்து நீக்கப்பட்டுள்ளீர்கள்."
-    }
+    },
+    "subscribe_now": "இப்போது குழுசேரவும்",
+    "unsubscribe": "குழுவிலகவும்",
+    "select_a_subscription_plan": "முதலில் ஒரு திட்டத்தை தேர்ந்தெடுங்கள்!",
+    "manage_subscriptions": "சந்தாக்களை நிர்வகிக்கவும்"
   },
   "product": {
     "review": "விமர்சனம்",
@@ -109,7 +115,8 @@ export default {
     "warranty": "உத்தரவாதம்",
     "return_policy": "திரும்பும் கொள்கை",
     "guide": "வழிகாட்டி",
-    "shipping": "கப்பல் போக்குவரத்து"
+    "shipping": "கப்பல் போக்குவரத்து",
+    "related_categories_title": "சேகரிப்புகளில் கண்டறியவும்"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "மொத்த பொருட்களின் விலை",
       "total_items_discount": "பொருட்கள் தள்ளுபடி",
       "total_price_after_offers": "சலுகைகளைப் பயன்படுத்திய பிறகு மொத்தம்",
-      "buyer_payment": "வாங்குபவர் செலுத்தும் தொகை"
+      "buyer_payment": "வாங்குபவர் செலுத்தும் தொகை",
+      "total_order_price_before_tax": "வரிக்கு முந்தைய மொத்த விலை"
     },
     "delivery": {
       "title": "டெலிவரி",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "வெவ்வேறு பில்லிங் தகவல்",
     "basket_empty": "கூடை காலியாக உள்ளது",
     "extra_shipping_count": "நீங்கள் {count} தொகுப்புகளைப் பெறுவீர்கள்.",
-    "select_location_error": "வரைபடத்தில் கப்பலின் ரசீது இடத்தைக் கண்டுபிடித்து, பெறுநரின் சரியான முகவரியைத் தீர்மானிக்க வரைபடத்தின் நடுவில் உள்ள குறிகாட்டியைக் கிளிக் செய்யவும்."
+    "select_location_error": "வரைபடத்தில் கப்பலின் ரசீது இடத்தைக் கண்டுபிடித்து, பெறுநரின் சரியான முகவரியைத் தீர்மானிக்க வரைபடத்தின் நடுவில் உள்ள குறிகாட்டியைக் கிளிக் செய்யவும்.",
+    "same_billing_address_desc": "பில்லிங் முகவரியும் ஷிப்பிங் முகவரியும் ஒன்றுதான்.",
+    "custom_billing_info_desc": "உங்கள் TAX எண்ணை உள்ளிட்டு பில்லிங்கிற்கு வேறு முகவரியை அமைக்கலாம்.",
+    "billing_business_desc": "இது TAX எண்ணைக் கொண்ட வணிகக் கணக்கு.",
+    "billing_personal_desc": "இது ஒரு தனிப்பட்ட கணக்கு.",
+    "no_billing_title": "பில்லிங் இல்லை",
+    "no_billing_desc": "பில்லிங் முகவரியை காலியாக விடவும்."
   },
   "basket_items": {
     "items_unit": "எக்ஸ்",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "வெளிப்புற வரிசையை மீட்டெடுக்கவும்",
     "address_included": "கூடை பொருட்களைப் பகிரவும் + முகவரி",
     "address_excluded": "கூடை பொருட்களை மட்டும் பகிரவும்"
+  },
+  "variants_view": {
+    "prices": "விலைகள்",
+    "inventory": "சரக்கு",
+    "discount": "தள்ளுபடி"
+  },
+  "rating": {
+    "product_rating_message": "இந்தத் தயாரிப்பு 5 நட்சத்திரங்களில் {rate} மதிப்பீட்டைப் பெற்றுள்ளது மற்றும் {rate_count} நபர்களால் மதிப்பிடப்பட்டுள்ளது."
+  },
+  "related_products": {
+    "card": {
+      "title": "ஆராயுங்கள்!",
+      "same_tags_subtitle": "மேலும் குறிப்பிடத்தக்க தொடர்புடைய பொருட்களைக் கண்டறியவும்.",
+      "same_category_subtitle": "இந்த வகையில் மேலும் குறிப்பிடத்தக்க பொருட்களைக் கண்டறியவும்."
+    }
   }
 };

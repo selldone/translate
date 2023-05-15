@@ -603,7 +603,34 @@ export default {
     "deleted": "ถูกลบ",
     "variant": "ตัวแปร",
     "secure": "ปลอดภัย",
-    "admin": "แอดมิน"
+    "admin": "แอดมิน",
+    "tax_included_abstract": "รวม",
+    "payment_not_settled": "การชำระเงินไม่ถูกตัดสิน!",
+    "orders_list": "รายการสั่งซื้อ",
+    "subscription_plan": "แผนการสมัครสมาชิก",
+    "contents": "เนื้อหา",
+    "pricings": "ราคา",
+    "static_page": "หน้าคงที่",
+    "shop_button": "ปุ่มร้านค้า",
+    "embed": "ฝัง",
+    "over": "เกิน",
+    "tax_vary_by_location": "ต่างกันไป. ที่ตั้ง",
+    "product_type": "ประเภทสินค้า",
+    "tax_id": "หมายเลขประจำตัวผู้เสียภาษี",
+    "business_name": "ชื่อธุรกิจ",
+    "invoice": "ใบแจ้งหนี้",
+    "included_in_the_product": "รวมอยู่ในผลิตภัณฑ์",
+    "included_in_the_product_description": "ผลิตภัณฑ์ประกอบด้วยส่วนประกอบดังต่อไปนี้",
+    "cross_sell": "ขายข้าม",
+    "discount_off": "OFF",
+    "extra_discount": "ส่วนลดพิเศษ",
+    "template": "แม่แบบ",
+    "in_cart": "ในรถเข็น",
+    "pros_and_cons": "ข้อดีและข้อเสีย",
+    "related_products": "สินค้าที่เกี่ยวข้อง",
+    "related_categories": "หมวดหมู่ที่เกี่ยวข้อง",
+    "badges": "ป้าย",
+    "explore": "สำรวจ"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "สร้างใหม่",
     "add_message": "เพิ่มข้อความ",
     "continue_chat": "สนทนาต่อ",
-    "add_new_message": "เพิ่มข้อความใหม่"
+    "add_new_message": "เพิ่มข้อความใหม่",
+    "change_setting": "เปลี่ยนการตั้งค่า",
+    "delete_all": "ลบทั้งหมด",
+    "transfer_fund": "โอนเงิน",
+    "reverse_fund": "กองทุนสำรองเลี้ยงชีพ",
+    "settlement": "การตั้งถิ่นฐาน",
+    "refund": "คืนเงิน",
+    "partial_refund": "คืนเงินบางส่วน",
+    "change_payment_method": "เปลี่ยนวิธีการชำระเงิน",
+    "buy": "ซื้อ",
+    "view_all": "ดูทั้งหมด",
+    "view_now": "ดูตอนนี้"
   },
   "instance_message_title": "ส่งข้อความโต้ตอบแบบทันที",
   "instance_message": "สวัสดี {name} ฉันชื่อ {author} จาก {company}",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "เอเวอร์กรีน",
     "#214C30": "ป่า",
     "#DC2867": "บานเย็น",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "ใบไม้",
     "#558450": "ไลท์ อควา",
     "#96B5C9": "ฟ้าอ่อน",
@@ -951,7 +989,9 @@ export default {
     "file": "ไฟล์",
     "file_description": "ไฟล์ที่อนุญาตทั้งหมด เช่น วิดีโอหลักสูตรออนไลน์ เอกสารที่ดาวน์โหลดได้",
     "service": "บริการ",
-    "service_description": "บริการเช่น: ซ่อม, ขนส่ง, การสอน."
+    "service_description": "บริการเช่น: ซ่อม, ขนส่ง, การสอน.",
+    "subscription": "สมัครสมาชิก",
+    "subscription_description": "การสมัครสมาชิกและการออกใบแจ้งหนี้สำหรับผลิตภัณฑ์ บริการ หรือเนื้อหา"
   },
   "license": {
     "free": "ฟรี",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "โพสต์แรก",
     "comment_at": "บน",
-    "edit_comment": "แก้ไขความคิดเห็น"
+    "edit_comment": "แก้ไขความคิดเห็น",
+    "my_comments": "ความคิดเห็นของฉัน"
   },
   "customer_club": {
     "bronze": "บรอนซ์",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "รหัสยืนยัน",
     "msg_title": "สวัสดี,",
     "msg_body": "กรุณาเข้าสู่ระบบ. ใช้เวลาเพียงไม่กี่วินาที",
-    "login_apple": "เข้าสู่ระบบด้วย Apple"
+    "login_apple": "เข้าสู่ระบบด้วย Apple",
+    "login_email": "เข้าสู่ระบบด้วยอีเมล",
+    "email_login_step_1": "โปรดระบุที่อยู่อีเมลที่ถูกต้อง แล้วเราจะส่งรหัสเข้าสู่ระบบไปให้ ไม่จำเป็นต้องลงทะเบียน",
+    "email_login_step_2": "คุณแน่ใจหรือไม่ว่าคุณป้อนที่อยู่อีเมลถูกต้อง เราจะส่งรหัสเข้าสู่ระบบไปยังอีเมลที่ให้ไว้ ดังนั้นโปรดตรวจสอบความถูกต้อง",
+    "email_login_step_3": "เราได้ส่งรหัสไปยังอีเมลของคุณแล้ว โปรดทราบว่ารหัสจะหมดอายุใน 10 นาที"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "บันทึกข้อความ",
     "notifications": {
       "success": "ข้อมูลที่ป้อนของคุณได้รับการบันทึกแล้ว"
-    }
+    },
+    "product_inputs_preview_message": "ตัวเลือกการปรับแต่งเหล่านี้มีให้สำหรับผลิตภัณฑ์ที่คุณสั่งซื้อ เมื่อเพิ่มสินค้าลงในรถเข็นแล้ว คุณจะสามารถปรับเปลี่ยนได้ที่นี่"
   },
   "faq": {
     "faq": "คำถามที่พบบ่อย",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "แข็ง",
     "intermediate": "ระดับกลาง",
     "easy": "ง่าย"
+  },
+  "billing_period": {
+    "Daily": "รายวัน",
+    "Weekly": "รายสัปดาห์",
+    "Monthly": "รายเดือน",
+    "Every3Months": "ทุก 3 เดือน",
+    "Every6Months": "ทุก 6 เดือน",
+    "Yearly": "รายปี"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "โอเค ไม่ดี!",
+    "between2_3": "ไม่เป็นไร!",
+    "between3_4": "คนชอบ!",
+    "between4_5": "คนรักมัน!"
   }
 };

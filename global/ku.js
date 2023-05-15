@@ -603,7 +603,34 @@ export default {
     "deleted": "Jêbirin",
     "variant": "Variant",
     "secure": "Bicî",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "incl.",
+    "payment_not_settled": "Tezmînat nayê çareser kirin!",
+    "orders_list": "Lîsteya fermanan",
+    "subscription_plan": "Plana abonetiyê",
+    "contents": "Contents",
+    "pricings": "Pricings",
+    "static_page": "Rûpelê statîk",
+    "shop_button": "Bişkojka Shop",
+    "embed": "Embed",
+    "over": "Ser",
+    "tax_vary_by_location": "gûherrandin. cîh",
+    "product_type": "Cureyê hilberê",
+    "tax_id": "Nasnameya bacê",
+    "business_name": "Navê karsaziyê",
+    "invoice": "Biha",
+    "included_in_the_product": "Di hilberê de tête kirin",
+    "included_in_the_product_description": "Hilber pêkhateyên jêrîn pêk tîne",
+    "cross_sell": "Cross Sell",
+    "discount_off": "OFF",
+    "extra_discount": "Discount Extra",
+    "template": "Şablon",
+    "in_cart": "Di selikê de",
+    "pros_and_cons": "Pros and Cons",
+    "related_products": "Berhemên Têkildar",
+    "related_categories": "Kategoriyên peywendîdar",
+    "badges": "Badges",
+    "explore": "Lêkolîn"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Ji nû ve çêdibe",
     "add_message": "Mesajê zêde bike",
     "continue_chat": "Sohbetê bidomînin",
-    "add_new_message": "Peyama nû lê zêde bike"
+    "add_new_message": "Peyama nû lê zêde bike",
+    "change_setting": "Guhertina mîhengê",
+    "delete_all": "Hemî jêbirin",
+    "transfer_fund": "Fona veguhastinê",
+    "reverse_fund": "Fona berevajî",
+    "settlement": "Berhevgirtinî",
+    "refund": "Şûndadan",
+    "partial_refund": "Vegerandina Qismî",
+    "change_payment_method": "Rêbaza dravdanê biguherînin",
+    "buy": "Kirrîn",
+    "view_all": "Binêre Hemî",
+    "view_now": "Niha Binêre"
   },
   "instance_message_title": "Peyama tavilê bişîne",
   "instance_message": "Silav {name}, Navê min {author} ji {company} ye.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Daristan",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Pel",
     "#558450": "Ronahî Aqua",
     "#96B5C9": "Şînê vebûyî",
@@ -951,7 +989,9 @@ export default {
     "file": "Dosî",
     "file_description": "Hemî pelên destûrdar ên mîna vîdyoya qursa serhêl, belgeyên dakêşandî.",
     "service": "Xizmetkar",
-    "service_description": "Xizmetên wekî: tamîrkirin, veguhestin, hînkirin."
+    "service_description": "Xizmetên wekî: tamîrkirin, veguhestin, hînkirin.",
+    "subscription": "Abonetî",
+    "subscription_description": "Ji bo hilber, karûbar, an naverokê abonetî û fatûrekirin."
   },
   "license": {
     "free": "Belaş",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Post yekem",
     "comment_at": "Li",
-    "edit_comment": "Biguherîne Comment"
+    "edit_comment": "Biguherîne Comment",
+    "my_comments": "Şîroveyên min"
   },
   "customer_club": {
     "bronze": "Tunc",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Koda verastkirinê",
     "msg_title": "Merheba,",
     "msg_body": "Ji kerema xwe têkevinê. Ew tenê çend saniyan digire.",
-    "login_apple": "Bi Apple re têkevin"
+    "login_apple": "Bi Apple re têkevin",
+    "login_email": "Têkeve bi E-nameyê",
+    "email_login_step_1": "Ji kerema xwe navnîşanek e-nameyek derbasdar peyda bikin, û em ê koda têketinê jê re bişînin. No qeydkirin pêwîst e.",
+    "email_login_step_2": "Ma hûn guman dikin ku we navnîşana e-nameya xwe rast nivîsandiye? Em ê koda têketinê ji e-nameya hatî peyda kirin re bişînin, ji ber vê yekê ji kerema xwe rastiya wê piştrast bikin.",
+    "email_login_step_3": "Me kodek ji e-nameya we re şandiye. Ji kerema xwe not bikin ku kod dê di 10 hûrdeman de biqede."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Save Message",
     "notifications": {
       "success": "Daneyên têketina we hatine tomarkirin."
-    }
+    },
+    "product_inputs_preview_message": "Van vebijarkên xwerûkirinê ji bo hilbera weya fermankirî hene. Dema ku tişt li selika we were zêdekirin, hûn ê bikaribin li vir sererastkirinê bikin."
   },
   "faq": {
     "faq": "Pirsên Pir Pir Pirs",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Hişk",
     "intermediate": "Di nav",
     "easy": "Sivik"
+  },
+  "billing_period": {
+    "Daily": "Rojane",
+    "Weekly": "Heftane",
+    "Monthly": "Mehane",
+    "Every3Months": "Her 3 mehan carekê",
+    "Every6Months": "Her 6 mehan carekê",
+    "Yearly": "Salane"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oh ne baş e!",
+    "between2_3": "Başe!",
+    "between3_4": "Mirov jê hez dike!",
+    "between4_5": "Mirov jê hez dike!"
   }
 };

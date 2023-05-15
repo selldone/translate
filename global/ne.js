@@ -603,7 +603,34 @@ export default {
     "deleted": "मेटाइयो",
     "variant": "संस्करण",
     "secure": "सुरक्षित",
-    "admin": "व्यवस्थापक"
+    "admin": "व्यवस्थापक",
+    "tax_included_abstract": "समावेश",
+    "payment_not_settled": "भुक्तानी तय भएन!",
+    "orders_list": "अर्डर सूची",
+    "subscription_plan": "सदस्यता योजना",
+    "contents": "सामग्री",
+    "pricings": "मूल्य निर्धारण",
+    "static_page": "स्थिर पृष्ठ",
+    "shop_button": "पसल बटन",
+    "embed": "इम्बेड गर्नुहोस्",
+    "over": "माथि",
+    "tax_vary_by_location": "भिन्न हुन्छ। स्थान",
+    "product_type": "उत्पादन प्रकार",
+    "tax_id": "कर ID",
+    "business_name": "व्यवसायिक नाम",
+    "invoice": "इनभ्वाइस",
+    "included_in_the_product": "उत्पादनमा समावेश छ",
+    "included_in_the_product_description": "उत्पादनले निम्न अवयवहरू समावेश गर्दछ",
+    "cross_sell": "क्रस बिक्री",
+    "discount_off": "OFF",
+    "extra_discount": "अतिरिक्त छुट",
+    "template": "टेम्प्लेट",
+    "in_cart": "कार्टमा",
+    "pros_and_cons": "फाइदा र बेफाइदा",
+    "related_products": "सम्बन्धित उत्पादनहरु",
+    "related_categories": "सम्बन्धित कोटीहरू",
+    "badges": "ब्याजहरू",
+    "explore": "अन्वेषण गर्नुहोस्"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "पुन: उत्पन्न गर्नुहोस्",
     "add_message": "सन्देश थप्नुहोस्",
     "continue_chat": "च्याट जारी राख्नुहोस्",
-    "add_new_message": "नयाँ सन्देश थप्नुहोस्"
+    "add_new_message": "नयाँ सन्देश थप्नुहोस्",
+    "change_setting": "सेटिङ परिवर्तन गर्नुहोस्",
+    "delete_all": "सबै मेटाउनुहोस्",
+    "transfer_fund": "कोष स्थानान्तरण",
+    "reverse_fund": "उल्टो कोष",
+    "settlement": "बस्ती",
+    "refund": "फिर्ता",
+    "partial_refund": "आंशिक फिर्ता",
+    "change_payment_method": "भुक्तानी विधि परिवर्तन गर्नुहोस्",
+    "buy": "किन्नुहोस्",
+    "view_all": "सबै हेर्नुहोस्",
+    "view_now": "अहिले हेर्नुहोस्"
   },
   "instance_message_title": "तत्काल सन्देश पठाउनुहोस्",
   "instance_message": "नमस्ते {name}, मेरो नाम {company} बाट {author} हो।",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "सदाबहार",
     "#214C30": "जङ्गल",
     "#DC2867": "Fuchsia",
-    "#38561F" :"केली",
+    "#38561F": "केली",
     "#5C884D": "पात",
     "#558450": "लाइट एक्वा",
     "#96B5C9": "हल्का निलो",
@@ -951,7 +989,9 @@ export default {
     "file": "फाइल",
     "file_description": "सबै अनुमति प्राप्त फाइलहरू जस्तै अनलाइन पाठ्यक्रम भिडियो, डाउनलोड योग्य कागजातहरू।",
     "service": "सेवा",
-    "service_description": "सेवाहरू जस्तै: मर्मत, यातायात, शिक्षण।"
+    "service_description": "सेवाहरू जस्तै: मर्मत, यातायात, शिक्षण।",
+    "subscription": "सदस्यता",
+    "subscription_description": "उत्पादनहरू, सेवाहरू, वा सामग्रीहरूको लागि सदस्यता र इनभ्वाइसिङ।"
   },
   "license": {
     "free": "नि:शुल्क",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "पहिलो पोस्ट",
     "comment_at": "अन",
-    "edit_comment": "टिप्पणी सम्पादन गर्नुहोस्"
+    "edit_comment": "टिप्पणी सम्पादन गर्नुहोस्",
+    "my_comments": "मेरा टिप्पणीहरू"
   },
   "customer_club": {
     "bronze": "कांस्य",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "प्रमाणीकरण कोड",
     "msg_title": "नमस्ते,",
     "msg_body": "कृपया लगइन गर्नुहोस्। यसले केही सेकेन्ड मात्र लिन्छ।",
-    "login_apple": "Apple सँग लग इन गर्नुहोस्"
+    "login_apple": "Apple सँग लग इन गर्नुहोस्",
+    "login_email": "इमेल मार्फत लगइन गर्नुहोस्",
+    "email_login_step_1": "कृपया वैध इमेल ठेगाना प्रदान गर्नुहोस्, र हामी यसमा लगइन कोड पठाउनेछौं। कुनै दर्ता आवश्यक छैन।",
+    "email_login_step_2": "के तपाइँ निश्चित हुनुहुन्छ कि तपाइँ तपाइँको इमेल ठेगाना सही रूपमा प्रविष्ट गर्नुभयो? हामी प्रदान गरिएको इमेलमा लगइन कोड पठाउने छौं, त्यसैले कृपया यसको शुद्धता सुनिश्चित गर्नुहोस्।",
+    "email_login_step_3": "हामीले तपाईंको इमेलमा कोड पठाएका छौं। कृपया नोट गर्नुहोस् कि कोड 10 मिनेटमा समाप्त हुनेछ।"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "सन्देश बचत गर्नुहोस्",
     "notifications": {
       "success": "तपाईंको इनपुट डाटा बचत गरिएको छ।"
-    }
+    },
+    "product_inputs_preview_message": "यी अनुकूलन विकल्पहरू तपाईंको अर्डर गरिएको उत्पादनको लागि उपलब्ध छन्। तपाईंको कार्टमा वस्तु थपिएपछि, तपाईं यहाँ समायोजन गर्न सक्षम हुनुहुनेछ।"
   },
   "faq": {
     "faq": "बारम्बार सोधिने प्रश्नहरू",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "कडा",
     "intermediate": "मध्यवर्ती",
     "easy": "सजिलो"
+  },
+  "billing_period": {
+    "Daily": "दैनिक",
+    "Weekly": "साप्ताहिक",
+    "Monthly": "मासिक",
+    "Every3Months": "हरेक ३ महिनामा",
+    "Every6Months": "हरेक ६ महिनामा",
+    "Yearly": "वार्षिक"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "ओहो राम्रो छैन!",
+    "between2_3": "ठिकै छ!",
+    "between3_4": "मानिसहरू यो मनपर्छ!",
+    "between4_5": "मानिसहरूले यसलाई माया गर्छन्!"
   }
 };

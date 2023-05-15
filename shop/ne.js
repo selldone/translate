@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity} किन्नुहोस् यी वस्तुहरूमा {percent}% छुट पाउनुहोस्",
     "up_to": "प्रति अर्डर {per_order}x सम्म",
     "get_free": "सित्तैमा पाउनुहोस्",
-    "get_off": "{percent}% छुट पाउनुहोस्"
+    "get_off": "{percent}% छुट पाउनुहोस्",
+    "select_a_vendor_message": "कृपया विक्रेता चयन गर्नुहोस्।",
+    "product_description_header": "प्रस्तुत गर्दै {product}"
   },
   "buy_button": {
     "waiting_for_availability": "उपलब्धता को लागी प्रतिक्षा गर्दै",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "यो उपलब्ध हुँदा हामी तपाईंलाई थाहा दिनेछौं।",
       "inform_remove_success": "तपाईंलाई प्रतीक्षा सूचीबाट हटाइयो।"
-    }
+    },
+    "subscribe_now": "अब सदस्यता लिनुहोस्",
+    "unsubscribe": "सदस्यता रद्द गर्नुहोस्",
+    "select_a_subscription_plan": "पहिले योजना छान्नुहोस्!",
+    "manage_subscriptions": "सदस्यताहरू प्रबन्ध गर्नुहोस्"
   },
   "product": {
     "review": "समीक्षा गर्नुहोस्",
@@ -109,7 +115,8 @@ export default {
     "warranty": "वारेन्टी",
     "return_policy": "फिर्ता नीति",
     "guide": "गाइड",
-    "shipping": "ढुवानी"
+    "shipping": "ढुवानी",
+    "related_categories_title": "सङ्ग्रहमा पत्ता लगाउनुहोस्"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "कुल वस्तु मूल्य",
       "total_items_discount": "वस्तु छुट",
       "total_price_after_offers": "प्रस्तावहरू लागू गरेपछि कुल",
-      "buyer_payment": "क्रेता भुक्तानी रकम"
+      "buyer_payment": "क्रेता भुक्तानी रकम",
+      "total_order_price_before_tax": "पूर्व कर कुल मूल्य"
     },
     "delivery": {
       "title": "डेलिभरी",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "फरक बिलिङ जानकारी",
     "basket_empty": "टोकरी खाली छ",
     "extra_shipping_count": "तपाईंले {count} प्याकेजहरू प्राप्त गर्नुहुनेछ।",
-    "select_location_error": "नक्सामा ढुवानी प्राप्त गर्ने ठाउँ पत्ता लगाउनुहोस् र प्राप्तकर्ताको सही ठेगाना निर्धारण गर्न नक्साको बीचमा रहेको सूचकमा क्लिक गर्नुहोस्।"
+    "select_location_error": "नक्सामा ढुवानी प्राप्त गर्ने ठाउँ पत्ता लगाउनुहोस् र प्राप्तकर्ताको सही ठेगाना निर्धारण गर्न नक्साको बीचमा रहेको सूचकमा क्लिक गर्नुहोस्।",
+    "same_billing_address_desc": "बिलिङ ठेगाना ढुवानी ठेगाना जस्तै हो।",
+    "custom_billing_info_desc": "तपाईंले आफ्नो कर नम्बर प्रविष्ट गर्न सक्नुहुन्छ र बिलिङको लागि फरक ठेगाना सेट गर्न सक्नुहुन्छ।",
+    "billing_business_desc": "यो TAX नम्बर भएको व्यापार खाता हो।",
+    "billing_personal_desc": "यो एक व्यक्तिगत खाता हो।",
+    "no_billing_title": "कुनै बिलिङ छैन",
+    "no_billing_desc": "बिलिङ ठेगाना खाली छोड्नुहोस्।"
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "बाह्य अर्डर पुन: प्राप्त गर्नुहोस्",
     "address_included": "टोकरी वस्तुहरू + ठेगाना साझेदारी गर्नुहोस्",
     "address_excluded": "टोकरी वस्तुहरू मात्र साझेदारी गर्नुहोस्"
+  },
+  "variants_view": {
+    "prices": "मूल्यहरू",
+    "inventory": "सूची",
+    "discount": "छुट"
+  },
+  "rating": {
+    "product_rating_message": "यस उत्पादनले 5 ताराहरू मध्ये {rate} को मूल्याङ्कन प्राप्त गरेको छ र {rate_count} व्यक्तिहरूद्वारा मूल्याङ्कन गरिएको छ।"
+  },
+  "related_products": {
+    "card": {
+      "title": "अन्वेषण गर्नुहोस्!",
+      "same_tags_subtitle": "थप उल्लेखनीय सम्बन्धित वस्तुहरू फेला पार्नुहोस्।",
+      "same_category_subtitle": "यस श्रेणीमा थप उल्लेखनीय वस्तुहरू फेला पार्नुहोस्।"
+    }
   }
 };

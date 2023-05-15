@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity} vásárlás {percent}% kedvezményt kap ezekre a termékekre",
     "up_to": "Rendelésenként legfeljebb {per_order}x",
     "get_free": "INGYENES",
-    "get_off": "{percent}% KEDVEZMÉNYT KERESZT"
+    "get_off": "{percent}% KEDVEZMÉNYT KERESZT",
+    "select_a_vendor_message": "Kérjük, válasszon szállítót.",
+    "product_description_header": "Bemutatkozik a {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Várakozás az elérhetőségre",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Értesítjük, ha elérhető lesz.",
       "inform_remove_success": "Lekerültél a várólistáról."
-    }
+    },
+    "subscribe_now": "Iratkozz fel most",
+    "unsubscribe": "Leiratkozás",
+    "select_a_subscription_plan": "Először válasszon tervet!",
+    "manage_subscriptions": "Előfizetések kezelése"
   },
   "product": {
     "review": "Felülvizsgálat",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Garancia",
     "return_policy": "Visszaküldési szabályzat",
     "guide": "Útmutató",
-    "shipping": "Szállítás"
+    "shipping": "Szállítás",
+    "related_categories_title": "Fedezze fel a gyűjteményekben"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Teljes tétel ára",
       "total_items_discount": "Tételek kedvezmény",
       "total_price_after_offers": "Az ajánlatok alkalmazása után összesen",
-      "buyer_payment": "Vevő fizetési összege"
+      "buyer_payment": "Vevő fizetési összege",
+      "total_order_price_before_tax": "Adózás előtti teljes ár"
     },
     "delivery": {
       "title": "Szállítás",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Különböző számlázási adatok",
     "basket_empty": "A kosár üres",
     "extra_shipping_count": "{count} csomagot fog kapni.",
-    "select_location_error": "Keresse meg a térképen a küldemény átvételének helyét, és kattintson a térkép közepén található jelzőre a címzett pontos címének meghatározásához."
+    "select_location_error": "Keresse meg a térképen a küldemény átvételének helyét, és kattintson a térkép közepén található jelzőre a címzett pontos címének meghatározásához.",
+    "same_billing_address_desc": "A számlázási cím megegyezik a szállítási címmel.",
+    "custom_billing_info_desc": "Megadhatja az adószámát, és beállíthat egy másik címet a számlázáshoz.",
+    "billing_business_desc": "Ez egy üzleti számla adószámmal.",
+    "billing_personal_desc": "Ez egy személyes fiók.",
+    "no_billing_title": "Nincs számlázás",
+    "no_billing_desc": "Hagyja üresen a számlázási címet."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Külső rendelés lekérése",
     "address_included": "Megosztás kosár tételek + Cím",
     "address_excluded": "Csak a kosár tételeit ossza meg"
+  },
+  "variants_view": {
+    "prices": "Árak",
+    "inventory": "Leltár",
+    "discount": "Kedvezmény"
+  },
+  "rating": {
+    "product_rating_message": "Ez a termék {rate}/5 csillagot kapott, és {rate_count} ember értékelte."
+  },
+  "related_products": {
+    "card": {
+      "title": "Fedezd fel!",
+      "same_tags_subtitle": "Keressen további figyelemre méltó kapcsolódó elemeket.",
+      "same_category_subtitle": "További figyelemre méltó elemeket találhat ebben a kategóriában."
+    }
   }
 };

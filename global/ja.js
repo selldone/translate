@@ -603,7 +603,34 @@ export default {
     "deleted": "削除",
     "variant": "変異体",
     "secure": "安全",
-    "admin": "管理者"
+    "admin": "管理者",
+    "tax_included_abstract": "含む",
+    "payment_not_settled": "支払いが完了していない！",
+    "orders_list": "注文リスト",
+    "subscription_plan": "定期購入プラン",
+    "contents": "コンテンツ",
+    "pricings": "価格設定",
+    "static_page": "静的ページ",
+    "shop_button": "ショップボタン",
+    "embed": "埋め込む",
+    "over": "以上",
+    "tax_vary_by_location": "変化。位置",
+    "product_type": "製品型",
+    "tax_id": "納税者番号",
+    "business_name": "商号",
+    "invoice": "請求書",
+    "included_in_the_product": "製品に含まれるもの",
+    "included_in_the_product_description": "製品には以下のコンポーネントが含まれています",
+    "cross_sell": "抱き合わせ販売",
+    "discount_off": "OFF",
+    "extra_discount": "追加割引",
+    "template": "レンプレート",
+    "in_cart": "カート内",
+    "pros_and_cons": "長所と短所",
+    "related_products": "関連製品",
+    "related_categories": "関連カテゴリ",
+    "badges": "バッジ",
+    "explore": "探検"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "再生する",
     "add_message": "メッセージを追加",
     "continue_chat": "チャットを続ける",
-    "add_new_message": "新しいメッセージを追加"
+    "add_new_message": "新しいメッセージを追加",
+    "change_setting": "設定変更",
+    "delete_all": "すべて削除",
+    "transfer_fund": "資金移動",
+    "reverse_fund": "リバースファンド",
+    "settlement": "決済",
+    "refund": "返金",
+    "partial_refund": "一部払い戻し",
+    "change_payment_method": "支払い方法を変更する",
+    "buy": "買う",
+    "view_all": "すべて見る",
+    "view_now": "今すぐ見る"
   },
   "instance_message_title": "インスタントメッセージを送信する",
   "instance_message": "こんにちは{name}、私の名前は{company}の{author}です。",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "エバーグリーン",
     "#214C30": "森",
     "#DC2867": "フクシア",
-    "#38561F" :"ケリー",
+    "#38561F": "ケリー",
     "#5C884D": "葉",
     "#558450": "ライトアクア",
     "#96B5C9": "ライトブルー",
@@ -951,7 +989,9 @@ export default {
     "file": "ファイル",
     "file_description": "オンラインコースビデオ、ダウンロード可能なドキュメントなど、許可されているすべてのファイル。",
     "service": "サービス",
-    "service_description": "修理、輸送、教育などのサービス。"
+    "service_description": "修理、輸送、教育などのサービス。",
+    "subscription": "サブスクリプション",
+    "subscription_description": "製品、サービス、またはコンテンツのサブスクリプションと請求書発行。"
   },
   "license": {
     "free": "無料",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "最初の投稿",
     "comment_at": "の上",
-    "edit_comment": "コメントを編集"
+    "edit_comment": "コメントを編集",
+    "my_comments": "私のコメント"
   },
   "customer_club": {
     "bronze": "ブロンズ",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "検証コード",
     "msg_title": "やあ、",
     "msg_body": "ログインしてください。ほんの数秒かかります。",
-    "login_apple": "Appleでログイン"
+    "login_apple": "Appleでログイン",
+    "login_email": "メールによるログイン",
+    "email_login_step_1": "有効な電子メール アドレスを入力してください。ログイン コードを送信します。登録は必要ありません。",
+    "email_login_step_2": "メールアドレスを正しく入力しましたか?入力されたメールアドレスにログイン コードを送信しますので、正確であることをご確認ください。",
+    "email_login_step_3": "あなたのメールアドレスにコードを送信しました。コードの有効期限は 10 分で切れますのでご注意ください。"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "メッセージを保存",
     "notifications": {
       "success": "入力データが保存されました。"
-    }
+    },
+    "product_inputs_preview_message": "これらのカスタマイズ オプションは、注文した製品で利用できます。商品をカートに追加すると、ここで調整できるようになります。"
   },
   "faq": {
     "faq": "よくある質問",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "難しい",
     "intermediate": "中級",
     "easy": "簡単"
+  },
+  "billing_period": {
+    "Daily": "毎日",
+    "Weekly": "毎週",
+    "Monthly": "毎月",
+    "Every3Months": "3か月ごと",
+    "Every6Months": "6か月ごと",
+    "Yearly": "毎年"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "ああ、良くない！",
+    "between2_3": "大丈夫です！",
+    "between3_4": "人々はそれを気に入っています！",
+    "between4_5": "人々はそれを愛しています！"
   }
 };

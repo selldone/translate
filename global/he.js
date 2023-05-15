@@ -603,7 +603,34 @@ export default {
     "deleted": "נמחק",
     "variant": "גִרְסָה אַחֶרֶת",
     "secure": "לבטח",
-    "admin": "מנהל מערכת"
+    "admin": "מנהל מערכת",
+    "tax_included_abstract": "כולל",
+    "payment_not_settled": "התשלום לא הוסדר!",
+    "orders_list": "רשימת הזמנות",
+    "subscription_plan": "תוכנית מנוי",
+    "contents": "תוכן",
+    "pricings": "מחירים",
+    "static_page": "עמוד סטטי",
+    "shop_button": "כפתור חנות",
+    "embed": "לְשַׁבֵּץ",
+    "over": "על",
+    "tax_vary_by_location": "לְהִשְׁתַנוֹת. מקום",
+    "product_type": "סוג המוצר",
+    "tax_id": "מספר זהות לצורך מס",
+    "business_name": "שם עסק",
+    "invoice": "חשבונית",
+    "included_in_the_product": "כלול במוצר",
+    "included_in_the_product_description": "המוצר כולל את הרכיבים הבאים",
+    "cross_sell": "מכירה צולבת",
+    "discount_off": "OFF",
+    "extra_discount": "הנחה נוספת",
+    "template": "תבנית",
+    "in_cart": "בעגלה",
+    "pros_and_cons": "יתרונות וחסרונות",
+    "related_products": "מוצרים קשורים",
+    "related_categories": "קטגוריות קשורות",
+    "badges": "תגים",
+    "explore": "לַחקוֹר"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "לְהִתְחַדֵשׁ",
     "add_message": "הוסף הודעה",
     "continue_chat": "המשך בצ'אט",
-    "add_new_message": "הוסף הודעה חדשה"
+    "add_new_message": "הוסף הודעה חדשה",
+    "change_setting": "שנה הגדרה",
+    "delete_all": "מחק הכל",
+    "transfer_fund": "העבר קרן",
+    "reverse_fund": "קרן הפוכה",
+    "settlement": "הֶסדֵר",
+    "refund": "הֶחזֵר",
+    "partial_refund": "החזר חלקי",
+    "change_payment_method": "שנה אמצעי תשלום",
+    "buy": "לִקְנוֹת",
+    "view_all": "צפה בהכל",
+    "view_now": "תראה עכשיו"
   },
   "instance_message_title": "שלח הודעה מיידית",
   "instance_message": "היי {name}, שמי {author} מ-{company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "יָרוֹק עַד",
     "#214C30": "יַעַר",
     "#DC2867": "ורוד פוקסיה",
-    "#38561F" :"קלי",
+    "#38561F": "קלי",
     "#5C884D": "עלה",
     "#558450": "אקווה קלה",
     "#96B5C9": "כחול בהיר",
@@ -951,7 +989,9 @@ export default {
     "file": "קוֹבֶץ",
     "file_description": "כל הקבצים המותרים כמו וידאו קורס מקוון, מסמכים להורדה.",
     "service": "שֵׁרוּת",
-    "service_description": "שירותים כמו: תיקון, הובלה, הוראה."
+    "service_description": "שירותים כמו: תיקון, הובלה, הוראה.",
+    "subscription": "מִנוּי",
+    "subscription_description": "מנויים וחשבוניות עבור מוצרים, שירותים או תוכן."
   },
   "license": {
     "free": "חינם",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "פוסט ראשון",
     "comment_at": "עַל",
-    "edit_comment": "ערוך תגובה"
+    "edit_comment": "ערוך תגובה",
+    "my_comments": "התגובות שלי"
   },
   "customer_club": {
     "bronze": "בְּרוֹנזָה",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "קוד אימות",
     "msg_title": "היי,",
     "msg_body": "אנא התחבר. זה לוקח רק כמה שניות.",
-    "login_apple": "התחבר עם אפל"
+    "login_apple": "התחבר עם אפל",
+    "login_email": "כניסה באמצעות דואר אלקטרוני",
+    "email_login_step_1": "אנא ספק כתובת דוא\"ל חוקית, ואנו נשלח אליה את קוד הכניסה. אין צורך ברישום.",
+    "email_login_step_2": "האם אתה בטוח שהזנת את כתובת הדוא\"ל שלך כהלכה? אנו נשלח את קוד הכניסה לאימייל שסופק, אז נא לוודא את דיוקו.",
+    "email_login_step_3": "שלחנו קוד למייל שלך. שימו לב שתוקף הקוד יפוג בעוד 10 דקות."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "שמור הודעה",
     "notifications": {
       "success": "נתוני הקלט שלך נשמרו."
-    }
+    },
+    "product_inputs_preview_message": "אפשרויות התאמה אישית אלו זמינות עבור המוצר שהזמנת. לאחר הוספת הפריט לעגלת הקניות שלך, תוכל לבצע התאמות כאן."
   },
   "faq": {
     "faq": "שאלות נפוצות",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "קָשֶׁה",
     "intermediate": "ביניים",
     "easy": "קַל"
+  },
+  "billing_period": {
+    "Daily": "יומי",
+    "Weekly": "שְׁבוּעִי",
+    "Monthly": "יַרחוֹן",
+    "Every3Months": "כל 3 חודשים",
+    "Every6Months": "כל 6 חודשים",
+    "Yearly": "שְׁנָתִי"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "אוח לא טוב!",
+    "between2_3": "זה בסדר!",
+    "between3_4": "אנשים אוהבים את זה!",
+    "between4_5": "אנשים אוהבים את זה!"
   }
 };

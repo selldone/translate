@@ -81,7 +81,9 @@ export default {
     "offer_message": "קנה {min_quantity} קבל הנחה של {percent}% עבור פריטים אלה",
     "up_to": "עד {per_order}x להזמנה",
     "get_free": "לקבל ללא תשלום",
-    "get_off": "קבל {percent}% הנחה"
+    "get_off": "קבל {percent}% הנחה",
+    "select_a_vendor_message": "אנא בחר ספק.",
+    "product_description_header": "הכירו את {product}"
   },
   "buy_button": {
     "waiting_for_availability": "מחכה לזמינות",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "נודיע לך כשהיא תהיה זמינה.",
       "inform_remove_success": "הוסרת מרשימת ההמתנה."
-    }
+    },
+    "subscribe_now": "הירשם עכשיו",
+    "unsubscribe": "בטל את הרישום",
+    "select_a_subscription_plan": "תחילה בחר תוכנית!",
+    "manage_subscriptions": "ניהול מנויים"
   },
   "product": {
     "review": "סקירה",
@@ -109,7 +115,8 @@ export default {
     "warranty": "אַחֲרָיוּת",
     "return_policy": "מדיניות החזרה",
     "guide": "להנחות",
-    "shipping": "משלוח"
+    "shipping": "משלוח",
+    "related_categories_title": "גלה באוספים"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "מחיר סה\"כ פריטים",
       "total_items_discount": "הנחה על פריטים",
       "total_price_after_offers": "סך הכל לאחר החלת הצעות",
-      "buyer_payment": "סכום תשלום הקונה"
+      "buyer_payment": "סכום תשלום הקונה",
+      "total_order_price_before_tax": "מחיר כולל לפני מס"
     },
     "delivery": {
       "title": "מְסִירָה",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "פרטי חיוב שונים",
     "basket_empty": "הסל ריק",
     "extra_shipping_count": "תקבל {count} חבילות.",
-    "select_location_error": "מצא את מקום קבלת המשלוח במפה ולחץ על המחוון באמצע המפה כדי לקבוע את כתובתו המדויקת של הנמען."
+    "select_location_error": "מצא את מקום קבלת המשלוח במפה ולחץ על המחוון באמצע המפה כדי לקבוע את כתובתו המדויקת של הנמען.",
+    "same_billing_address_desc": "הכתובת לחיוב זהה לכתובת המשלוח.",
+    "custom_billing_info_desc": "אתה יכול להזין את מספר המס שלך ולהגדיר כתובת אחרת לחיוב.",
+    "billing_business_desc": "זה חשבון עסקי עם מספר מס.",
+    "billing_personal_desc": "זה חשבון אישי.",
+    "no_billing_title": "אין חיוב",
+    "no_billing_desc": "השאר את כתובת החיוב ריקה."
   },
   "basket_items": {
     "items_unit": "איקס",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "אחזר הזמנה חיצונית",
     "address_included": "שתף פריטי סל + כתובת",
     "address_excluded": "שתף רק פריטי סל"
+  },
+  "variants_view": {
+    "prices": "מחירים",
+    "inventory": "מְלַאי",
+    "discount": "הנחה"
+  },
+  "rating": {
+    "product_rating_message": "מוצר זה קיבל דירוג של {rate} מתוך 5 כוכבים ודורג על ידי {rate_count} אנשים."
+  },
+  "related_products": {
+    "card": {
+      "title": "לַחקוֹר!",
+      "same_tags_subtitle": "מצא עוד פריטים קשורים מדהימים.",
+      "same_category_subtitle": "מצא פריטים מדהימים נוספים בקטגוריה זו."
+    }
   }
 };

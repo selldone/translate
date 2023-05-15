@@ -81,7 +81,9 @@ export default {
     "offer_message": "Ixtri {min_quantity} Ikseb {percent}% off għal dawn l-oġġetti",
     "up_to": "Sa {per_order}x għal kull ordni",
     "get_free": "IKOLLOK B'XEJN",
-    "get_off": "IKOLLOK {percent}% OFF"
+    "get_off": "IKOLLOK {percent}% OFF",
+    "select_a_vendor_message": "Jekk jogħġbok agħżel bejjiegħ.",
+    "product_description_header": "Nintroduċu {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Stennija għad-disponibbiltà",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Aħna ser tavżak meta tkun disponibbli.",
       "inform_remove_success": "Int tneħħejt mil-lista ta' stennija."
-    }
+    },
+    "subscribe_now": "Abbona Issa",
+    "unsubscribe": "Unsubscribe",
+    "select_a_subscription_plan": "Agħżel pjan l-ewwel!",
+    "manage_subscriptions": "Immaniġġja l-abbonamenti"
   },
   "product": {
     "review": "Reviżjoni",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Garanzija",
     "return_policy": "Politika ta' Ritorn",
     "guide": "Gwida",
-    "shipping": "Tbaħħir"
+    "shipping": "Tbaħħir",
+    "related_categories_title": "Skopri fil-kollezzjonijiet"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Prezz tal-Oġġetti Totali",
       "total_items_discount": "Oġġetti Discount",
       "total_price_after_offers": "Total wara li tapplika l-offerti",
-      "buyer_payment": "Ammont tal-ħlas tax-xerrej"
+      "buyer_payment": "Ammont tal-ħlas tax-xerrej",
+      "total_order_price_before_tax": "Prezz Totali qabel it-taxxa"
     },
     "delivery": {
       "title": "Kunsinna",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Informazzjoni differenti dwar il-kontijiet",
     "basket_empty": "Basket huwa vojt",
     "extra_shipping_count": "Inti ser tirċievi {count} pakketti.",
-    "select_location_error": "Sib il-post tal-wasla tal-konsenja fuq il-mappa u kklikkja fuq l-indikatur fin-nofs tal-mappa biex tiddetermina l-indirizz eżatt tar-riċevitur."
+    "select_location_error": "Sib il-post tal-wasla tal-konsenja fuq il-mappa u kklikkja fuq l-indikatur fin-nofs tal-mappa biex tiddetermina l-indirizz eżatt tar-riċevitur.",
+    "same_billing_address_desc": "L-indirizz tal-kontijiet huwa l-istess bħall-indirizz tat-tbaħħir.",
+    "custom_billing_info_desc": "Tista' ddaħħal in-numru tat-TAXXA tiegħek u tissettja indirizz differenti għall-kontijiet.",
+    "billing_business_desc": "Huwa kont tan-negozju b'numru tat-TAXXA.",
+    "billing_personal_desc": "Huwa kont personali.",
+    "no_billing_title": "Ebda kontijiet",
+    "no_billing_desc": "Ħalli l-indirizz tal-kontijiet vojt."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Irkupra ordni esterna",
     "address_included": "Aqsam oġġetti tal-basket + Indirizz",
     "address_excluded": "Aqsam biss oġġetti tal-basket"
+  },
+  "variants_view": {
+    "prices": "Prezzijiet",
+    "inventory": "Inventarju",
+    "discount": "Roħs"
+  },
+  "rating": {
+    "product_rating_message": "Dan il-prodott irċieva klassifikazzjoni ta' {rate} minn 5 stilel u kklassifikat minn {rate_count} nies."
+  },
+  "related_products": {
+    "card": {
+      "title": "Esplora!",
+      "same_tags_subtitle": "Sib oġġetti relatati aktar notevoli.",
+      "same_category_subtitle": "Sib aktar oġġetti notevoli f'din il-kategorija."
+    }
   }
 };

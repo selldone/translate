@@ -603,7 +603,34 @@ export default {
     "deleted": "Dibusak",
     "variant": "Varian",
     "secure": "Aman",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "kalebu.",
+    "payment_not_settled": "Pembayaran durung rampung!",
+    "orders_list": "Daftar pesenan",
+    "subscription_plan": "Rencana langganan",
+    "contents": "Isine",
+    "pricings": "pricings",
+    "static_page": "Kaca statis",
+    "shop_button": "Tombol Toko",
+    "embed": "Embed",
+    "over": "Swara",
+    "tax_vary_by_location": "beda-beda. lokasi",
+    "product_type": "jinis produk",
+    "tax_id": "ID Pajak",
+    "business_name": "Jeneng bisnis",
+    "invoice": "Invoice",
+    "included_in_the_product": "Klebu ing prodhuk",
+    "included_in_the_product_description": "Produk kasebut kalebu komponen ing ngisor iki",
+    "cross_sell": "Cross Sell",
+    "discount_off": "OFF",
+    "extra_discount": "Diskon Tambahan",
+    "template": "Cithakan",
+    "in_cart": "Ing Kréta",
+    "pros_and_cons": "Untung lan rugine",
+    "related_products": "Produk sing gegandhengan",
+    "related_categories": "Kategori sing gegandhengan",
+    "badges": "Lencana",
+    "explore": "Jelajahi"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "regenerasi",
     "add_message": "Tambah pesen",
     "continue_chat": "Terus ngobrol",
-    "add_new_message": "Tambah pesen anyar"
+    "add_new_message": "Tambah pesen anyar",
+    "change_setting": "Ngganti setelan",
+    "delete_all": "Busak Kabeh",
+    "transfer_fund": "Transfer dana",
+    "reverse_fund": "Dana mbalikke",
+    "settlement": "Pemukiman",
+    "refund": "mbalekaken",
+    "partial_refund": "Mbalekaken sebagean",
+    "change_payment_method": "Ganti cara pembayaran",
+    "buy": "tuku",
+    "view_all": "Ndeleng Kabeh",
+    "view_now": "Ndeleng Saiki"
   },
   "instance_message_title": "Kirim pesen cepet",
   "instance_message": "Halo {name}, Jenengku {author} saka {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "alas",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "godhong",
     "#558450": "Aqua cahya",
     "#96B5C9": "Biru Muda",
@@ -951,7 +989,9 @@ export default {
     "file": "File",
     "file_description": "Kabeh file sing diidini kayata video kursus online, dokumen sing bisa didownload.",
     "service": "Layanan",
-    "service_description": "Layanan kaya: ndandani, transportasi, pengajaran."
+    "service_description": "Layanan kaya: ndandani, transportasi, pengajaran.",
+    "subscription": "Langganan",
+    "subscription_description": "Langganan lan invoice kanggo produk, layanan, utawa isi."
   },
   "license": {
     "free": "Gratis",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "kirim pisanan",
     "comment_at": "On",
-    "edit_comment": "Sunting Komentar"
+    "edit_comment": "Sunting Komentar",
+    "my_comments": "Komentar Kula"
   },
   "customer_club": {
     "bronze": "gangsa",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Kode verifikasi",
     "msg_title": "halo,",
     "msg_body": "Mangga mlebet. Butuh mung sawetara detik.",
-    "login_apple": "Mlebet karo Apple"
+    "login_apple": "Mlebet karo Apple",
+    "login_email": "Mlebu liwat Email",
+    "email_login_step_1": "Mangga wenehi alamat email sing bener, lan kita bakal ngirim kode login kasebut. Ora ana registrasi sing dibutuhake.",
+    "email_login_step_2": "Apa sampeyan yakin wis ngetik alamat email kanthi bener? Kita bakal ngirim kode login menyang email sing diwenehake, mula priksa manawa akurasie.",
+    "email_login_step_3": "Kita wis ngirim kode menyang email sampeyan. Elinga yen kode bakal kadaluwarsa sajrone 10 menit."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Simpen Pesen",
     "notifications": {
       "success": "Data input sampeyan wis disimpen."
-    }
+    },
+    "product_inputs_preview_message": "Opsi pangaturan dhewe iki kasedhiya kanggo produk sing dipesen. Sawise item ditambahake menyang cart, sampeyan bakal bisa nggawe pangaturan kene."
   },
   "faq": {
     "faq": "Pitakonan Paling Sering",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Hard",
     "intermediate": "penengah",
     "easy": "Gampang"
+  },
+  "billing_period": {
+    "Daily": "Saben dina",
+    "Weekly": "Mingguan",
+    "Monthly": "Saben wulan",
+    "Every3Months": "Saben 3 sasi",
+    "Every6Months": "Saben 6 sasi",
+    "Yearly": "taunan"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Opo ora apik!",
+    "between2_3": "Ora apa-apa!",
+    "between3_4": "Wong kaya iku!",
+    "between4_5": "Wong tresna iku!"
   }
 };

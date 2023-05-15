@@ -603,7 +603,34 @@ export default {
     "deleted": "Geläscht",
     "variant": "Variant",
     "secure": "Séchert",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "inkl.",
+    "payment_not_settled": "Bezuelung net geléist!",
+    "orders_list": "Bestellungslëscht",
+    "subscription_plan": "Abonnement plangen",
+    "contents": "Inhalter",
+    "pricings": "Präisser",
+    "static_page": "Statesch Säit",
+    "shop_button": "Buttek Button",
+    "embed": "Embed",
+    "over": "Eriwwer",
+    "tax_vary_by_location": "variéieren. Standuert",
+    "product_type": "Produit Typ",
+    "tax_id": "Steier ID",
+    "business_name": "Business Numm",
+    "invoice": "Rechnung",
+    "included_in_the_product": "Am Produkt abegraff",
+    "included_in_the_product_description": "De Produit enthält déi folgend Komponenten",
+    "cross_sell": "Kräiz verkafen",
+    "discount_off": "OFF",
+    "extra_discount": "Extra Remise",
+    "template": "Schabloun",
+    "in_cart": "Am Weenchen",
+    "pros_and_cons": "Fierdeeler an Nodeeler",
+    "related_products": "Zesummenhang Produkter",
+    "related_categories": "Zesummenhang Kategorien",
+    "badges": "Schëlder",
+    "explore": "Entdeckt"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Regeneréieren",
     "add_message": "Add Message",
     "continue_chat": "Chat weider",
-    "add_new_message": "Füügt neie Message"
+    "add_new_message": "Füügt neie Message",
+    "change_setting": "Astellung änneren",
+    "delete_all": "Alles läschen",
+    "transfer_fund": "Transfert Fonds",
+    "reverse_fund": "Reverse Fonds",
+    "settlement": "Siidlung",
+    "refund": "Remboursement",
+    "partial_refund": "Deelweis Remboursement",
+    "change_payment_method": "Bezuelen Method änneren",
+    "buy": "Kafen",
+    "view_all": "View All",
+    "view_now": "Kuckt elo"
   },
   "instance_message_title": "Schécken Direktnoriichten",
   "instance_message": "Salut {name}, Mäin Numm ass {author} vun {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Bësch",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Blat",
     "#558450": "Liicht Aqua",
     "#96B5C9": "Hellblo",
@@ -951,7 +989,9 @@ export default {
     "file": "Fichier",
     "file_description": "All erlaabt Dateien wéi Online Course Video, Erofluede Dokumenter.",
     "service": "Service",
-    "service_description": "Servicer wéi: Reparatur, Transport, Unterrécht."
+    "service_description": "Servicer wéi: Reparatur, Transport, Unterrécht.",
+    "subscription": "Abonnement",
+    "subscription_description": "Abonnementer a Rechnung fir Produkter, Servicer oder Inhalter."
   },
   "license": {
     "free": "fräi",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Éischte Post",
     "comment_at": "Op",
-    "edit_comment": "Commentaire änneren"
+    "edit_comment": "Commentaire änneren",
+    "my_comments": "Meng Kommentaren"
   },
   "customer_club": {
     "bronze": "Bronze",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Sëcherheetscode",
     "msg_title": "Salut,",
     "msg_body": "Weg aloggen. Et dauert just e puer Sekonnen.",
-    "login_apple": "Login mat Apple"
+    "login_apple": "Login mat Apple",
+    "login_email": "Login per E-Mail",
+    "email_login_step_1": "Gitt w.e.g. eng valabel E-Mailadress un, a mir schécken de Logincode un. Keng Aschreiwung ass néideg.",
+    "email_login_step_2": "Sidd Dir sécher datt Dir Är E-Mailadress richteg aginn hutt? Mir schécken de Logincode op déi geliwwert E-Mail, also vergewëssert Iech datt seng Richtegkeet ass.",
+    "email_login_step_3": "Mir hunn e Code op Är E-Mail geschéckt. Maacht weg datt de Code an 10 Minutten ofleeft."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Message späicheren",
     "notifications": {
       "success": "Är Inputdaten goufen gespäichert."
-    }
+    },
+    "product_inputs_preview_message": "Dës Personnalisatiounsoptioune si verfügbar fir Ären bestallte Produkt. Wann den Artikel an Äre Wuerekuerf bäigefüügt ass, kënnt Dir hei Upassunge maachen."
   },
   "faq": {
     "faq": "Oft gestallten Froen",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Schwéier",
     "intermediate": "Mëttelméisseg",
     "easy": "Einfach"
+  },
+  "billing_period": {
+    "Daily": "Deeglech",
+    "Weekly": "Wochemaart",
+    "Monthly": "Mount",
+    "Every3Months": "All 3 Méint",
+    "Every6Months": "All 6 Méint",
+    "Yearly": "Jährlech"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Och net gutt!",
+    "between2_3": "Et ass ok!",
+    "between3_4": "D'Leit hunn et gär!",
+    "between4_5": "D'Leit hunn et gär!"
   }
 };

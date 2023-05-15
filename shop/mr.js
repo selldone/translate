@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity} खरेदी करा या आयटमसाठी {percent}% सूट मिळवा",
     "up_to": "प्रति ऑर्डर {per_order}x पर्यंत",
     "get_free": "मोफत मिळवा",
-    "get_off": "{percent}% सूट मिळवा"
+    "get_off": "{percent}% सूट मिळवा",
+    "select_a_vendor_message": "कृपया विक्रेता निवडा.",
+    "product_description_header": "{product} सादर करत आहे"
   },
   "buy_button": {
     "waiting_for_availability": "उपलब्धतेची वाट पाहत आहे",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "ते उपलब्ध झाल्यावर आम्ही तुम्हाला कळवू.",
       "inform_remove_success": "तुम्हाला प्रतीक्षा यादीतून काढून टाकण्यात आले आहे."
-    }
+    },
+    "subscribe_now": "आत्ता सभासद व्हा",
+    "unsubscribe": "सदस्यत्व रद्द करा",
+    "select_a_subscription_plan": "प्रथम एक योजना निवडा!",
+    "manage_subscriptions": "सदस्यता व्यवस्थापित करा"
   },
   "product": {
     "review": "पुनरावलोकन करा",
@@ -109,7 +115,8 @@ export default {
     "warranty": "हमी",
     "return_policy": "रिटर्न पॉलिसी",
     "guide": "मार्गदर्शन",
-    "shipping": "शिपिंग"
+    "shipping": "शिपिंग",
+    "related_categories_title": "संग्रहांमध्ये शोधा"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "एकूण वस्तूंची किंमत",
       "total_items_discount": "आयटम सवलत",
       "total_price_after_offers": "ऑफर लागू केल्यानंतर एकूण",
-      "buyer_payment": "खरेदीदार पेमेंट रक्कम"
+      "buyer_payment": "खरेदीदार पेमेंट रक्कम",
+      "total_order_price_before_tax": "करपूर्व एकूण किंमत"
     },
     "delivery": {
       "title": "डिलिव्हरी",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "भिन्न बिलिंग माहिती",
     "basket_empty": "टोपली रिकामी आहे",
     "extra_shipping_count": "तुम्हाला {count} पॅकेजेस मिळतील.",
-    "select_location_error": "नकाशावर शिपमेंटच्या पावतीचे ठिकाण शोधा आणि प्राप्तकर्त्याचा अचूक पत्ता निर्धारित करण्यासाठी नकाशाच्या मध्यभागी असलेल्या निर्देशकावर क्लिक करा."
+    "select_location_error": "नकाशावर शिपमेंटच्या पावतीचे ठिकाण शोधा आणि प्राप्तकर्त्याचा अचूक पत्ता निर्धारित करण्यासाठी नकाशाच्या मध्यभागी असलेल्या निर्देशकावर क्लिक करा.",
+    "same_billing_address_desc": "बिलिंग पत्ता शिपिंग पत्त्यासारखाच आहे.",
+    "custom_billing_info_desc": "तुम्ही तुमचा कर क्रमांक टाकू शकता आणि बिलिंगसाठी वेगळा पत्ता सेट करू शकता.",
+    "billing_business_desc": "हे TAX क्रमांक असलेले व्यवसाय खाते आहे.",
+    "billing_personal_desc": "ते वैयक्तिक खाते आहे.",
+    "no_billing_title": "बिलिंग नाही",
+    "no_billing_desc": "बिलिंग पत्ता रिकामा सोडा."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "बाह्य ऑर्डर पुनर्प्राप्त करा",
     "address_included": "बास्केट आयटम + पत्ता सामायिक करा",
     "address_excluded": "फक्त बास्केट आयटम सामायिक करा"
+  },
+  "variants_view": {
+    "prices": "किमती",
+    "inventory": "इन्व्हेंटरी",
+    "discount": "सवलत"
+  },
+  "rating": {
+    "product_rating_message": "या उत्पादनाला 5 पैकी {rate} तारे मिळाले आहेत आणि {rate_count} लोकांनी रेट केले आहे."
+  },
+  "related_products": {
+    "card": {
+      "title": "अन्वेषण!",
+      "same_tags_subtitle": "अधिक उल्लेखनीय संबंधित आयटम शोधा.",
+      "same_category_subtitle": "या श्रेणीतील आणखी उल्लेखनीय वस्तू शोधा."
+    }
   }
 };

@@ -603,7 +603,34 @@ export default {
     "deleted": "মুছে ফেলা হয়েছে",
     "variant": "বৈকল্পিক",
     "secure": "নিরাপদ",
-    "admin": "অ্যাডমিন"
+    "admin": "অ্যাডমিন",
+    "tax_included_abstract": "সহ",
+    "payment_not_settled": "পরিশোধ হয়নি!",
+    "orders_list": "অর্ডার তালিকা",
+    "subscription_plan": "সাবস্ক্রিপশন পরিকল্পনা",
+    "contents": "বিষয়বস্তু",
+    "pricings": "মূল্য",
+    "static_page": "স্ট্যাটিক পেজ",
+    "shop_button": "দোকান বোতাম",
+    "embed": "বসান",
+    "over": "ওভার",
+    "tax_vary_by_location": "পরিবর্তিত অবস্থান",
+    "product_type": "পণ্যের ধরন",
+    "tax_id": "ট্যাক্স আইডি",
+    "business_name": "প্রাতিষ্ঠানিক নাম",
+    "invoice": "চালান",
+    "included_in_the_product": "পণ্য অন্তর্ভুক্ত",
+    "included_in_the_product_description": "পণ্য নিম্নলিখিত উপাদান অন্তর্ভুক্ত",
+    "cross_sell": "ক্রস বিক্রি",
+    "discount_off": "OFF",
+    "extra_discount": "অতিরিক্ত ডিসকাউন্ট",
+    "template": "টেমপ্লেট",
+    "in_cart": "কার্টে",
+    "pros_and_cons": "সুবিধা - অসুবিধা",
+    "related_products": "সংশ্লিষ্ট পণ্য",
+    "related_categories": "সম্পর্কিত বিভাগ",
+    "badges": "ব্যাজ",
+    "explore": "অন্বেষণ"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "পুনর্জন্ম",
     "add_message": "বার্তা যুক্ত কর",
     "continue_chat": "চ্যাট চালিয়ে যান",
-    "add_new_message": "নতুন বার্তা যোগ করুন"
+    "add_new_message": "নতুন বার্তা যোগ করুন",
+    "change_setting": "সেটিং পরিবর্তন করুন",
+    "delete_all": "সব মুছে ফেলুন",
+    "transfer_fund": "তহবিল স্থানান্তর",
+    "reverse_fund": "বিপরীত তহবিল",
+    "settlement": "বসতি",
+    "refund": "ফেরত",
+    "partial_refund": "আংশিক টাকা ফেরত",
+    "change_payment_method": "টাকা পরিশোধের পদ্ধতি পরিবর্তন করুন",
+    "buy": "কেনা",
+    "view_all": "সব দেখ",
+    "view_now": "এখন দেখুন"
   },
   "instance_message_title": "তাৎক্ষণিক বার্তা পাঠান",
   "instance_message": "হাই {name}, আমার নাম হল {author} {company} থেকে৷",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "চিরসবুজ",
     "#214C30": "বন। জংগল",
     "#DC2867": "ফুচিয়া",
-    "#38561F" :"কেলি",
+    "#38561F": "কেলি",
     "#5C884D": "পাতা",
     "#558450": "হালকা অ্যাকোয়া",
     "#96B5C9": "হালকা নীল",
@@ -951,7 +989,9 @@ export default {
     "file": "ফাইল",
     "file_description": "সমস্ত অনুমোদিত ফাইল যেমন অনলাইন কোর্স ভিডিও, ডাউনলোডযোগ্য নথি।",
     "service": "সেবা",
-    "service_description": "পরিষেবা যেমন: মেরামত, পরিবহন, শিক্ষাদান।"
+    "service_description": "পরিষেবা যেমন: মেরামত, পরিবহন, শিক্ষাদান।",
+    "subscription": "সাবস্ক্রিপশন",
+    "subscription_description": "পণ্য, পরিষেবা বা বিষয়বস্তুর জন্য সদস্যতা এবং চালান।"
   },
   "license": {
     "free": "বিনামূল্যে",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "প্রথম পোস্ট",
     "comment_at": "চালু",
-    "edit_comment": "মন্তব্য সম্পাদনা করুন"
+    "edit_comment": "মন্তব্য সম্পাদনা করুন",
+    "my_comments": "আমার মন্তব্য"
   },
   "customer_club": {
     "bronze": "ব্রোঞ্জ",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "যাচাইকরণ কোড",
     "msg_title": "ওহে,",
     "msg_body": "দয়া করে লগইন করুন. এটি মাত্র কয়েক সেকেন্ড সময় নেয়।",
-    "login_apple": "অ্যাপল দিয়ে লগইন করুন"
+    "login_apple": "অ্যাপল দিয়ে লগইন করুন",
+    "login_email": "ইমেল দ্বারা লগইন করুন",
+    "email_login_step_1": "অনুগ্রহ করে একটি বৈধ ইমেল ঠিকানা প্রদান করুন এবং আমরা এতে লগইন কোড পাঠাব। কোন নিবন্ধন প্রয়োজন নেই.",
+    "email_login_step_2": "আপনি কি নিশ্চিত যে আপনি আপনার ইমেল ঠিকানা সঠিকভাবে প্রবেশ করেছেন? আমরা প্রদত্ত ইমেলে লগইন কোডটি পাঠাব, তাই দয়া করে এটির যথার্থতা নিশ্চিত করুন৷",
+    "email_login_step_3": "আমরা আপনার ইমেইলে একটি কোড পাঠিয়েছি। দয়া করে নোট করুন যে কোডটির মেয়াদ 10 মিনিটের মধ্যে শেষ হয়ে যাবে।"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "বার্তা সংরক্ষণ করুন",
     "notifications": {
       "success": "আপনার ইনপুট তথ্য সংরক্ষণ করা হয়েছে."
-    }
+    },
+    "product_inputs_preview_message": "এই কাস্টমাইজেশন বিকল্পগুলি আপনার অর্ডার করা পণ্যের জন্য উপলব্ধ। একবার আপনার কার্টে আইটেম যোগ করা হলে, আপনি এখানে সামঞ্জস্য করতে সক্ষম হবেন।"
   },
   "faq": {
     "faq": "সচরাচর জিজ্ঞাস্য",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "কঠিন",
     "intermediate": "মধ্যবর্তী",
     "easy": "সহজ"
+  },
+  "billing_period": {
+    "Daily": "দৈনিক",
+    "Weekly": "সাপ্তাহিক",
+    "Monthly": "মাসিক",
+    "Every3Months": "প্রতি ৩ মাস অন্তর",
+    "Every6Months": "প্রতি ৬ মাস অন্তর",
+    "Yearly": "বার্ষিক"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "ওহ ভালো না!",
+    "between2_3": "ঠিক আছে!",
+    "between3_4": "মানুষ এটা পছন্দ!",
+    "between4_5": "মানুষ এটা ভালোবাসি!"
   }
 };

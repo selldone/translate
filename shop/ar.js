@@ -81,7 +81,9 @@ export default {
     "offer_message": "اشترِ {min_quantity} واحصل على خصم {percent}٪ على هذه العناصر",
     "up_to": "ما يصل إلى {per_order} x لكل طلب",
     "get_free": "احصل مجانا",
-    "get_off": "احصل على خصم بنسبة {percent}٪"
+    "get_off": "احصل على خصم بنسبة {percent}٪",
+    "select_a_vendor_message": "الرجاء تحديد بائع.",
+    "product_description_header": "تقديم {product}"
   },
   "buy_button": {
     "waiting_for_availability": "في انتظار توفر المنتج",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "سنخبرك عندما يكون متاحًا.",
       "inform_remove_success": "لقد تم حذفك من قائمة الانتظار."
-    }
+    },
+    "subscribe_now": "إشترك الآن",
+    "unsubscribe": "إلغاء الاشتراك",
+    "select_a_subscription_plan": "حدد خطة أولا!",
+    "manage_subscriptions": "إدارة الاشتراكات"
   },
   "product": {
     "review": "وصف المنتج",
@@ -109,7 +115,8 @@ export default {
     "warranty": "ضمان",
     "return_policy": "سياسة العائدات",
     "guide": "مرشد",
-    "shipping": "شحن"
+    "shipping": "شحن",
+    "related_categories_title": "اكتشف في المجموعات"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "إجمالي سعر العناصر",
       "total_items_discount": "قيمة الخصم الكلية",
       "total_price_after_offers": "السعر الإجمالي بعد تطبيق الخصومات",
-      "buyer_payment": "مبلغ الشراء"
+      "buyer_payment": "مبلغ الشراء",
+      "total_order_price_before_tax": "السعر الإجمالي قبل الضريبة"
     },
     "delivery": {
       "title": "توصيل",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "معلومات الفواتير المختلفة",
     "basket_empty": "السلة فارغة",
     "extra_shipping_count": "سوف تتلقى {عدد} حزم.",
-    "select_location_error": "ابحث عن مكان استلام الشحنة على الخريطة وانقر على المؤشر في منتصف الخريطة لتحديد العنوان الدقيق للمستلم."
+    "select_location_error": "ابحث عن مكان استلام الشحنة على الخريطة وانقر على المؤشر في منتصف الخريطة لتحديد العنوان الدقيق للمستلم.",
+    "same_billing_address_desc": "عنوان الفواتير هو نفسه عنوان الشحن.",
+    "custom_billing_info_desc": "يمكنك إدخال الرقم الضريبي الخاص بك وتعيين عنوان مختلف للفواتير.",
+    "billing_business_desc": "إنه حساب تجاري برقم ضريبي.",
+    "billing_personal_desc": "إنه حساب شخصي.",
+    "no_billing_title": "لا يوجد فواتير",
+    "no_billing_desc": "اترك عنوان الفاتورة فارغًا."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "استرجاع الأمر الخارجي",
     "address_included": "مشاركة عناصر السلة + العنوان",
     "address_excluded": "مشاركة عناصر السلة فقط"
+  },
+  "variants_view": {
+    "prices": "الأسعار",
+    "inventory": "المخزون",
+    "discount": "خصم"
+  },
+  "rating": {
+    "product_rating_message": "لقد حصل هذا المنتج على تقييم {rate} من أصل 5 نجوم وتم تقييمه بواسطة {rate_count} من الأشخاص."
+  },
+  "related_products": {
+    "card": {
+      "title": "يستكشف!",
+      "same_tags_subtitle": "ابحث عن المزيد من العناصر ذات الصلة الرائعة.",
+      "same_category_subtitle": "ابحث عن المزيد من العناصر الرائعة في هذه الفئة."
+    }
   }
 };

@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity} xarid qiling, bu mahsulotlarga {percent}% chegirma oling",
     "up_to": "Har bir buyurtma uchun {per_order}x gacha",
     "get_free": "BEPUL OLING",
-    "get_off": "{percent}% CHEGIRMA OLING"
+    "get_off": "{percent}% CHEGIRMA OLING",
+    "select_a_vendor_message": "Iltimos, sotuvchini tanlang.",
+    "product_description_header": "{product} taqdim etilmoqda"
   },
   "buy_button": {
     "waiting_for_availability": "Mavjudligi kutilmoqda",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "U mavjud boʻlganda sizga xabar beramiz.",
       "inform_remove_success": "Siz kutish roʻyxatidan oʻchirildingiz."
-    }
+    },
+    "subscribe_now": "Hozir obuna bo'ling",
+    "unsubscribe": "Obunani bekor qilish",
+    "select_a_subscription_plan": "Avval rejani tanlang!",
+    "manage_subscriptions": "Obunalarni boshqarish"
   },
   "product": {
     "review": "Ko‘rib chiqish",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Kafolat",
     "return_policy": "Qaytarish siyosati",
     "guide": "Qoʻllanma",
-    "shipping": "yuk tashish; yetkazib berish"
+    "shipping": "yuk tashish; yetkazib berish",
+    "related_categories_title": "To'plamlarda kashf qiling"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Tovarlarning umumiy narxi",
       "total_items_discount": "Elementlarga chegirma",
       "total_price_after_offers": "Takliflarni qo'llashdan keyin jami",
-      "buyer_payment": "Xaridorning to'lov miqdori"
+      "buyer_payment": "Xaridorning to'lov miqdori",
+      "total_order_price_before_tax": "Soliqdan oldingi umumiy narx"
     },
     "delivery": {
       "title": "Yetkazib berish",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Turli xil hisob-kitob ma'lumotlari",
     "basket_empty": "Savat bo'sh",
     "extra_shipping_count": "Siz {count} ta paket olasiz.",
-    "select_location_error": "Xaritada jo'natishni qabul qilish joyini toping va qabul qiluvchining aniq manzilini aniqlash uchun xaritaning o'rtasida joylashgan ko'rsatkichni bosing."
+    "select_location_error": "Xaritada jo'natishni qabul qilish joyini toping va qabul qiluvchining aniq manzilini aniqlash uchun xaritaning o'rtasida joylashgan ko'rsatkichni bosing.",
+    "same_billing_address_desc": "Hisob-kitob manzili etkazib berish manzili bilan bir xil.",
+    "custom_billing_info_desc": "Siz TAX raqamingizni kiritishingiz va hisob-kitob qilish uchun boshqa manzilni belgilashingiz mumkin.",
+    "billing_business_desc": "Bu TAX raqamiga ega biznes hisobi.",
+    "billing_personal_desc": "Bu shaxsiy hisob.",
+    "no_billing_title": "To‘lov yo‘q",
+    "no_billing_desc": "Hisob-kitob manzilini bo'sh qoldiring."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Tashqi buyurtmani oling",
     "address_included": "Savatdagi narsalarni ulashish + Manzil",
     "address_excluded": "Faqat savatdagi narsalarni baham ko'ring"
+  },
+  "variants_view": {
+    "prices": "Narxlar",
+    "inventory": "Inventarizatsiya",
+    "discount": "Chegirma"
+  },
+  "rating": {
+    "product_rating_message": "Bu mahsulot 5 yulduzdan {rate} ball oldi va {rate_count} kishi tomonidan baholandi."
+  },
+  "related_products": {
+    "card": {
+      "title": "Tashrif qiling!",
+      "same_tags_subtitle": "Ko'proq diqqatga sazovor narsalarni toping.",
+      "same_category_subtitle": "Ushbu turkumdagi boshqa diqqatga sazovor narsalarni toping."
+    }
   }
 };

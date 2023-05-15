@@ -603,7 +603,34 @@ export default {
     "deleted": "Geskrap",
     "variant": "Variant",
     "secure": "Veilig",
-    "admin": "admin"
+    "admin": "admin",
+    "tax_included_abstract": "inkl.",
+    "payment_not_settled": "Betaling nie vereffen nie!",
+    "orders_list": "Bestellings lys",
+    "subscription_plan": "Intekenplan",
+    "contents": "Inhoud",
+    "pricings": "Pryse",
+    "static_page": "Statiese bladsy",
+    "shop_button": "Winkel-knoppie",
+    "embed": "Ingebed",
+    "over": "verby",
+    "tax_vary_by_location": "wissel. ligging",
+    "product_type": "Produk Tipe",
+    "tax_id": "Belasting ID",
+    "business_name": "Besigheids naam",
+    "invoice": "Faktuur",
+    "included_in_the_product": "Ingesluit in die produk",
+    "included_in_the_product_description": "Die produk bevat die volgende komponente",
+    "cross_sell": "Kruis verkoop",
+    "discount_off": "OFF",
+    "extra_discount": "Ekstra afslag",
+    "template": "Sjabloon",
+    "in_cart": "In kar",
+    "pros_and_cons": "Voordele en nadele",
+    "related_products": "Verwante Produkte",
+    "related_categories": "Verwante kategorieë",
+    "badges": "Kentekens",
+    "explore": "Verken"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Regenereer",
     "add_message": "Voeg boodskap by",
     "continue_chat": "Gaan voort om te klets",
-    "add_new_message": "Voeg nuwe boodskap by"
+    "add_new_message": "Voeg nuwe boodskap by",
+    "change_setting": "Verander instelling",
+    "delete_all": "Vee alles uit",
+    "transfer_fund": "Oordrag fonds",
+    "reverse_fund": "Omgekeerde fonds",
+    "settlement": "Nedersetting",
+    "refund": "Terugbetaling",
+    "partial_refund": "Gedeeltelike terugbetaling",
+    "change_payment_method": "Verander betaalmetode",
+    "buy": "Koop",
+    "view_all": "Sien alles",
+    "view_now": "Kyk nou"
   },
   "instance_message_title": "Stuur kitsboodskap",
   "instance_message": "Hallo {name}, my naam is {author} van {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Immergroen",
     "#214C30": "Bos",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Blaar",
     "#558450": "Ligte Aqua",
     "#96B5C9": "Ligblou",
@@ -951,7 +989,9 @@ export default {
     "file": "lêer",
     "file_description": "Alle toegelate lêers soos aanlyn kursusvideo, aflaaibare dokumente.",
     "service": "Diens",
-    "service_description": "Dienste soos: herstel, vervoer, onderrig."
+    "service_description": "Dienste soos: herstel, vervoer, onderrig.",
+    "subscription": "Intekening",
+    "subscription_description": "Intekeninge en fakturering vir produkte, dienste of inhoud."
   },
   "license": {
     "free": "Vry",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Eerste pos",
     "comment_at": "Aan",
-    "edit_comment": "Wysig opmerking"
+    "edit_comment": "Wysig opmerking",
+    "my_comments": "My opmerkings"
   },
   "customer_club": {
     "bronze": "Brons",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Verifikasiekode",
     "msg_title": "Hi,",
     "msg_body": "Meld asseblief aan. Dit neem net 'n paar sekondes.",
-    "login_apple": "Teken in met Apple"
+    "login_apple": "Teken in met Apple",
+    "login_email": "Teken in per e-pos",
+    "email_login_step_1": "Verskaf asseblief 'n geldige e-posadres, en ons sal die aanmeldkode daarheen stuur. Geen registrasie is nodig nie.",
+    "email_login_step_2": "Is jy seker dat jy jou e-posadres korrek ingevoer het? Ons sal die aanmeldkode na die e-pos stuur wat verskaf word, so verseker asseblief dat dit akkuraat is.",
+    "email_login_step_3": "Ons het 'n kode na jou e-pos gestuur. Neem asseblief kennis dat die kode oor 10 minute sal verval."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Stoor boodskap",
     "notifications": {
       "success": "Jou invoerdata is gestoor."
-    }
+    },
+    "product_inputs_preview_message": "Hierdie aanpassingsopsies is beskikbaar vir jou bestelde produk. Sodra die item by jou mandjie gevoeg is, sal jy hier aanpassings kan maak."
   },
   "faq": {
     "faq": "Gereelde Vrae",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Hard",
     "intermediate": "Intermediêr",
     "easy": "Maklik"
+  },
+  "billing_period": {
+    "Daily": "Daagliks",
+    "Weekly": "Weekliks",
+    "Monthly": "Maandeliks",
+    "Every3Months": "Elke 3 maande",
+    "Every6Months": "Elke 6 maande",
+    "Yearly": "Jaarliks"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Och nie goed nie!",
+    "between2_3": "Dit is OK!",
+    "between3_4": "Mense hou daarvan!",
+    "between4_5": "Mense is mal daaroor!"
   }
 };

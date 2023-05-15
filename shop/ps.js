@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity} واخلئ د دې توکو لپاره {percent}% تخفیف ترلاسه کړئ",
     "up_to": "په هر امر تر {per_order}x پورې",
     "get_free": "وړیا ترلاسه کړئ",
-    "get_off": "په سلو کې {% تخفیف ترلاسه کړئ"
+    "get_off": "په سلو کې {% تخفیف ترلاسه کړئ",
+    "select_a_vendor_message": "مهرباني وکړئ یو پلورونکی وټاکئ.",
+    "product_description_header": "معرفي کول {product}"
   },
   "buy_button": {
     "waiting_for_availability": "د شتون په تمه",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "موږ به تاسو ته خبر درکړو کله چې دا شتون ولري.",
       "inform_remove_success": "تاسو د انتظار لیست څخه لیرې شوي یاست."
-    }
+    },
+    "subscribe_now": "همدا اوس ګډون وکړئ",
+    "unsubscribe": "ګډون نه کول",
+    "select_a_subscription_plan": "لومړی پلان غوره کړئ!",
+    "manage_subscriptions": "ګډونونه اداره کړئ"
   },
   "product": {
     "review": "بیاکتنه",
@@ -109,7 +115,8 @@ export default {
     "warranty": "تضمین",
     "return_policy": "د راګرځولو شرايت",
     "guide": "لارښود",
-    "shipping": "لېږدول"
+    "shipping": "لېږدول",
+    "related_categories_title": "په ټولګه کې کشف کړئ"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "د توکو ټول قیمت",
       "total_items_discount": "د توکو تخفیف",
       "total_price_after_offers": "د وړاندیزونو پلي کولو وروسته ټولټال",
-      "buyer_payment": "د پیرودونکي تادیه اندازه"
+      "buyer_payment": "د پیرودونکي تادیه اندازه",
+      "total_order_price_before_tax": "مخکې له مالیې ټول قیمت"
     },
     "delivery": {
       "title": "تحویلي",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "د بیل کولو مختلف معلومات",
     "basket_empty": "کڅوړه خالي ده",
     "extra_shipping_count": "تاسو به {count} کڅوړې ترلاسه کړئ.",
-    "select_location_error": "په نقشه کې د بار وړلو د رسیدلو ځای ومومئ او د نقشې په مینځ کې په شاخص باندې کلیک وکړئ ترڅو د ترلاسه کونکي دقیق پته معلومه کړئ."
+    "select_location_error": "په نقشه کې د بار وړلو د رسیدلو ځای ومومئ او د نقشې په مینځ کې په شاخص باندې کلیک وکړئ ترڅو د ترلاسه کونکي دقیق پته معلومه کړئ.",
+    "same_billing_address_desc": "د بل کولو پته د بار وړلو پته سره ورته ده.",
+    "custom_billing_info_desc": "تاسو کولی شئ خپل د مالیې شمیره دننه کړئ او د بل کولو لپاره مختلف پته وټاکئ.",
+    "billing_business_desc": "دا یو سوداګریز حساب دی چې د TAX شمیره لري.",
+    "billing_personal_desc": "دا یو شخصي حساب دی.",
+    "no_billing_title": "هیڅ بلینګ نشته",
+    "no_billing_desc": "د بل کولو پته خالي پریږدئ."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "بهرنۍ امر ترلاسه کړئ",
     "address_included": "د ټوکر توکي شریک کړئ + پته",
     "address_excluded": "یوازې د ټوکر توکي شریک کړئ"
+  },
+  "variants_view": {
+    "prices": "قیمتونه",
+    "inventory": "انوینٹری",
+    "discount": "تخفیف"
+  },
+  "rating": {
+    "product_rating_message": "دې محصول له 5 ستورو څخه {rate} درجه ترلاسه کړې او د {rate_count} خلکو لخوا درجه بندي شوې."
+  },
+  "related_products": {
+    "card": {
+      "title": "سپړنه!",
+      "same_tags_subtitle": "نور د پام وړ اړوند توکي ومومئ.",
+      "same_category_subtitle": "په دې کټګورۍ کې نور د پام وړ توکي ومومئ."
+    }
   }
 };

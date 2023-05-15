@@ -81,7 +81,9 @@ export default {
     "offer_message": "Gulani {min_quantity} Pezani kuchotsera {percent}% pa zinthuzi",
     "up_to": "Mpaka {per_order}x pa kuyitanitsa",
     "get_free": "KHALANI UFULU",
-    "get_off": "CHOZANI {percent} %."
+    "get_off": "CHOZANI {percent} %.",
+    "select_a_vendor_message": "Chonde sankhani wogulitsa.",
+    "product_description_header": "Tikuyambitsa {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Kuyembekezera kupezeka",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Tikudziwitsani ikapezeka.",
       "inform_remove_success": "Mwachotsedwa pamndandanda wodikirira."
-    }
+    },
+    "subscribe_now": "Lembetsani Tsopano",
+    "unsubscribe": "Chotsani kulembetsa",
+    "select_a_subscription_plan": "Sankhani pulani kaye!",
+    "manage_subscriptions": "Konzani zolembetsa"
   },
   "product": {
     "review": "Ndemanga",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Chitsimikizo",
     "return_policy": "Mfundo PAZAKABWEZEDWE",
     "guide": "Wotsogolera",
-    "shipping": "Manyamulidwe"
+    "shipping": "Manyamulidwe",
+    "related_categories_title": "Dziwani m'zosonkhanitsa"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Mtengo Wonse wa Zinthu",
       "total_items_discount": "Zinthu Kuchotsera",
       "total_price_after_offers": "Zonse pambuyo pofunsira zotsatsa",
-      "buyer_payment": "Ndalama zolipirira wogula"
+      "buyer_payment": "Ndalama zolipirira wogula",
+      "total_order_price_before_tax": "Mtengo Wonse Wopereka msonkho"
     },
     "delivery": {
       "title": "Kutumiza",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Zambiri zolipirira",
     "basket_empty": "Basket alibe kanthu",
     "extra_shipping_count": "Mudzalandira {count} phukusi.",
-    "select_location_error": "Pezani malo olandirira katundu pamapu ndikudina chizindikiro chomwe chili pakati pa mapu kuti mudziwe adilesi yeniyeni ya wolandila."
+    "select_location_error": "Pezani malo olandirira katundu pamapu ndikudina chizindikiro chomwe chili pakati pa mapu kuti mudziwe adilesi yeniyeni ya wolandila.",
+    "same_billing_address_desc": "Adilesi yolipirira ndiyofanana ndi adilesi yotumizira.",
+    "custom_billing_info_desc": "Mutha kuyika nambala yanu ya TAX ndikukhazikitsa adilesi ina yolipira.",
+    "billing_business_desc": "Ndi akaunti yabizinesi yokhala ndi nambala ya TAX.",
+    "billing_personal_desc": "Ndi akaunti yanu.",
+    "no_billing_title": "Palibe malipiro",
+    "no_billing_desc": "Siyani adilesi yolipirira yopanda kanthu."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Pezani dongosolo lakunja",
     "address_included": "Gawani zinthu za basket + Adilesi",
     "address_excluded": "Gawani zinthu zamabasiketi okha"
+  },
+  "variants_view": {
+    "prices": "Mitengo",
+    "inventory": "Inventory",
+    "discount": "Kuchotsera"
+  },
+  "rating": {
+    "product_rating_message": "Chogulitsachi chalandila {rate} mwa nyenyezi 5 ndikuvoteledwa ndi anthu {rate_count}."
+  },
+  "related_products": {
+    "card": {
+      "title": "Onani!",
+      "same_tags_subtitle": "Pezani zinthu zambiri zofananira.",
+      "same_category_subtitle": "Pezani zinthu zochititsa chidwi kwambiri m'gululi."
+    }
   }
 };

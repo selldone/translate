@@ -603,7 +603,34 @@ export default {
     "deleted": "Öçürildi",
     "variant": "Wariant",
     "secure": "Howpsuz",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "goş.",
+    "payment_not_settled": "Töleg çözülmedi!",
+    "orders_list": "Sargytlaryň sanawy",
+    "subscription_plan": "Abunalyk meýilnamasy",
+    "contents": "Mazmuny",
+    "pricings": "Bahalar",
+    "static_page": "Statik sahypa",
+    "shop_button": "Dükan düwmesi",
+    "embed": "Goýuň",
+    "over": "Tamamlandy",
+    "tax_vary_by_location": "üýtgeýär. ýerleşýän ýeri",
+    "product_type": "Önümiň görnüşi",
+    "tax_id": "Salgyt belgisi",
+    "business_name": "Iş ady",
+    "invoice": "Hasap-faktura",
+    "included_in_the_product": "Önüme goşulýar",
+    "included_in_the_product_description": "Önüm aşakdaky bölekleri öz içine alýar",
+    "cross_sell": "Haç satmak",
+    "discount_off": "OFF",
+    "extra_discount": "Goşmaça arzanladyş",
+    "template": "Şablon",
+    "in_cart": "Sebetde",
+    "pros_and_cons": "Gowy tarapy we erbet tarapy",
+    "related_products": "Degişli önümler",
+    "related_categories": "Degişli kategoriýalar",
+    "badges": "Nyşanlar",
+    "explore": "Gözläň"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Täzelen",
     "add_message": "Habar goş",
     "continue_chat": "Söhbeti dowam etdiriň",
-    "add_new_message": "Täze habar goşuň"
+    "add_new_message": "Täze habar goşuň",
+    "change_setting": "Sazlamany üýtgediň",
+    "delete_all": "Hemmesini poz",
+    "transfer_fund": "Geçiriş gaznasy",
+    "reverse_fund": "Ters gazna",
+    "settlement": "Hasaplaşyk",
+    "refund": "Yzyna gaýtaryp bermek",
+    "partial_refund": "Bölekleýin yzyna gaýtarmak",
+    "change_payment_method": "Töleg usulyny üýtgediň",
+    "buy": "Satyn alyň",
+    "view_all": "Hemmesini gormek",
+    "view_now": "Indi gör"
   },
   "instance_message_title": "Derrew habar iber",
   "instance_message": "Salam {name}, Meniň adym {author} -dan {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Hemişe gök öwüsýän",
     "#214C30": "Tokaý",
     "#DC2867": "Fuksiýa",
-    "#38561F" :"Kelli",
+    "#38561F": "Kelli",
     "#5C884D": "Leafaprak",
     "#558450": "Lighteňil akwa",
     "#96B5C9": "Açyk gök",
@@ -951,7 +989,9 @@ export default {
     "file": "Faýl",
     "file_description": "Onlaýn kurs wideosy, göçürip alyp bolýan resminamalar ýaly ähli rugsat edilen faýllar.",
     "service": "Hyzmat",
-    "service_description": "Servicesaly hyzmatlar: abatlamak, daşamak, okatmak."
+    "service_description": "Servicesaly hyzmatlar: abatlamak, daşamak, okatmak.",
+    "subscription": "Abuna ýazylmak",
+    "subscription_description": "Önümler, hyzmatlar ýa-da mazmun üçin abunalyk we hasap-faktura."
   },
   "license": {
     "free": "Mugt",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Ilkinji ýazgy",
     "comment_at": "Işlediň",
-    "edit_comment": "Teswirleri redaktirläň"
+    "edit_comment": "Teswirleri redaktirläň",
+    "my_comments": "Meniň teswirlerim"
   },
   "customer_club": {
     "bronze": "Bürünç",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Barlag kody",
     "msg_title": "Salam,",
     "msg_body": "Girişiňizi haýyş edýäris. Birnäçe sekunt gerek.",
-    "login_apple": "Apple bilen giriň"
+    "login_apple": "Apple bilen giriň",
+    "login_email": "E-poçta bilen giriň",
+    "email_login_step_1": "Dogry e-poçta salgysyny bermegiňizi haýyş edýäris, biz oňa giriş koduny ibereris. Hasaba alynmak hökman däl.",
+    "email_login_step_2": "E-poçta salgyňyzy dogry girizendigiňize ynanýarsyňyzmy? Giriş koduny berlen e-poçta ibereris, şonuň üçin onuň takyklygyna göz ýetiriň.",
+    "email_login_step_3": "E-poçtaňyza kod iberdik. Koduň 10 minutda gutarjakdygyny ýadyňyzdan çykarmaň."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Habary ýazdyryň",
     "notifications": {
       "success": "Giriş maglumatlaryňyz ýazdyryldy."
-    }
+    },
+    "product_inputs_preview_message": "Bu özleşdirme opsiýalary sargyt edilen önümiňiz üçin elýeterlidir. Haryt sebediňize goşulandan soň, bu ýerde düzediş girizip bilersiňiz."
   },
   "faq": {
     "faq": "Freygy-ýygydan berilýän soraglar",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Gaty",
     "intermediate": "Aralyk",
     "easy": "Aňsat"
+  },
+  "billing_period": {
+    "Daily": "Her gün",
+    "Weekly": "Hepdelik",
+    "Monthly": "Aýlyk",
+    "Every3Months": "Her 3 aýdan",
+    "Every6Months": "Her 6 aýdan",
+    "Yearly": "Lyyllyk"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Gowy däl!",
+    "between2_3": "Bolýar!",
+    "between3_4": "Adamlar halaýarlar!",
+    "between4_5": "Adamlar muny gowy görýärler!"
   }
 };

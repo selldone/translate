@@ -81,7 +81,9 @@ export default {
     "offer_message": "Zụrụ {min_quantity} Nweta {percent}% ego maka ihe ndị a",
     "up_to": "Ruo {per_order}x n'usoro",
     "get_free": "Nweta n'efu",
-    "get_off": "Nweta {percent}% Gbanyụọ"
+    "get_off": "Nweta {percent}% Gbanyụọ",
+    "select_a_vendor_message": "Biko họrọ onye na-ere ahịa.",
+    "product_description_header": "Na-ewebata {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Na-eche maka nnweta",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Anyị ga-eme ka ị mara mgbe ọ dị.",
       "inform_remove_success": "Ewepụla gị na ndetu echere."
-    }
+    },
+    "subscribe_now": "Debanye aha ugbu a",
+    "unsubscribe": "Wepụ aha",
+    "select_a_subscription_plan": "Buru ụzọ họrọ atụmatụ!",
+    "manage_subscriptions": "Jikwaa ndenye aha"
   },
   "product": {
     "review": "Nyochaa",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Akwụkwọ ikike",
     "return_policy": "Iwu nloghachi",
     "guide": "Nduzi",
-    "shipping": "Mbupu"
+    "shipping": "Mbupu",
+    "related_categories_title": "Chọpụta na mkpokọta"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Mkpokọta ọnụ ahịa ihe",
       "total_items_discount": "Mbelata ihe",
       "total_price_after_offers": "Mkpokọta mgbe itinye onyinye",
-      "buyer_payment": "Ọnụ ego ịkwụ ụgwọ onye zụrụ"
+      "buyer_payment": "Ọnụ ego ịkwụ ụgwọ onye zụrụ",
+      "total_order_price_before_tax": "Mkpokọta ọnụ ahịa tupu ụtụ isi"
     },
     "delivery": {
       "title": "Nnyefe",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Ozi ịgba ụgwọ dị iche iche",
     "basket_empty": "Nkata tọgbọrọ chakoo",
     "extra_shipping_count": "Ị ga-enweta ngwugwu {count}.",
-    "select_location_error": "Chọta ebe nnata nke mbupu na map wee pịa akara ngosi dị n'etiti map ahụ iji chọpụta kpọmkwem adreesị onye nnata ahụ."
+    "select_location_error": "Chọta ebe nnata nke mbupu na map wee pịa akara ngosi dị n'etiti map ahụ iji chọpụta kpọmkwem adreesị onye nnata ahụ.",
+    "same_billing_address_desc": "Adreesị ịgba ụgwọ bụ otu adreesị mbupu.",
+    "custom_billing_info_desc": "Ị nwere ike tinye nọmba TAX gị wee tọọ adreesị dị iche maka ịgba ụgwọ.",
+    "billing_business_desc": "Ọ bụ akaụntụ azụmahịa nwere nọmba TAX.",
+    "billing_personal_desc": "Ọ bụ akaụntụ nkeonwe.",
+    "no_billing_title": "Enweghị ụgwọ ịgba ụgwọ",
+    "no_billing_desc": "Hapụ adreesị ịgba ụgwọ efu."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Weghachite usoro mpụga",
     "address_included": "Kekọrịta ihe nkata + adreesị",
     "address_excluded": "Kekọrịta naanị ihe nkata"
+  },
+  "variants_view": {
+    "prices": "Ọnụ ahịa",
+    "inventory": "Akụrụngwa",
+    "discount": "Mbelata"
+  },
+  "rating": {
+    "product_rating_message": "Ngwaahịa a anatala ọkwa nke {rate} n'ime kpakpando 5 yana ndị mmadụ {rate_count} kwadoro ya."
+  },
+  "related_products": {
+    "card": {
+      "title": "Nyochaa!",
+      "same_tags_subtitle": "Chọta ihe ndị ọzọ dị ịrịba ama metụtara.",
+      "same_category_subtitle": "Chọta ihe ndị ọzọ dị ịrịba ama na ngalaba a."
+    }
   }
 };

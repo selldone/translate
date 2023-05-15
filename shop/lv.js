@@ -81,7 +81,9 @@ export default {
     "offer_message": "Pērciet {min_quantity} Saņemiet {percent}% atlaidi šīm precēm",
     "up_to": "Līdz {per_order}x vienam pasūtījumam",
     "get_free": "SAŅEMT BEZMAKSAS",
-    "get_off": "SAŅEMIET {percent}% ATLAIDI"
+    "get_off": "SAŅEMIET {percent}% ATLAIDI",
+    "select_a_vendor_message": "Lūdzu, atlasiet pārdevēju.",
+    "product_description_header": "Iepazīstinām ar {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Gaida pieejamību",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Mēs jūs informēsim, kad tas būs pieejams.",
       "inform_remove_success": "Jūs esat izņemts no gaidīšanas saraksta."
-    }
+    },
+    "subscribe_now": "Abonē tagad",
+    "unsubscribe": "Anulēt abonementu",
+    "select_a_subscription_plan": "Vispirms izvēlieties plānu!",
+    "manage_subscriptions": "Pārvaldīt abonementus"
   },
   "product": {
     "review": "Pārskats",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Garantija",
     "return_policy": "Atgriešanas nosacījumi",
     "guide": "Vadīt",
-    "shipping": "Piegāde"
+    "shipping": "Piegāde",
+    "related_categories_title": "Atklājiet kolekcijās"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Kopējā preču cena",
       "total_items_discount": "Preces Atlaide",
       "total_price_after_offers": "Kopā pēc piedāvājumu pieteikšanas",
-      "buyer_payment": "Pircēja maksājuma summa"
+      "buyer_payment": "Pircēja maksājuma summa",
+      "total_order_price_before_tax": "Kopējā cena pirms nodokļu nomaksas"
     },
     "delivery": {
       "title": "Piegāde",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Dažāda norēķinu informācija",
     "basket_empty": "Grozs ir tukšs",
     "extra_shipping_count": "Jūs saņemsiet {count} pakas.",
-    "select_location_error": "Atrodiet kartē sūtījuma saņemšanas vietu un noklikšķiniet uz indikatora kartes vidū, lai noteiktu precīzu saņēmēja adresi."
+    "select_location_error": "Atrodiet kartē sūtījuma saņemšanas vietu un noklikšķiniet uz indikatora kartes vidū, lai noteiktu precīzu saņēmēja adresi.",
+    "same_billing_address_desc": "Norēķinu adrese ir tāda pati kā piegādes adrese.",
+    "custom_billing_info_desc": "Varat ievadīt savu nodokļu numuru un iestatīt citu norēķinu adresi.",
+    "billing_business_desc": "Tas ir uzņēmuma konts ar nodokļu numuru.",
+    "billing_personal_desc": "Tas ir personīgais konts.",
+    "no_billing_title": "Nav norēķinu",
+    "no_billing_desc": "Atstājiet norēķinu adresi tukšu."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Izgūt ārējo pasūtījumu",
     "address_included": "Kopīgojiet groza preces + Adrese",
     "address_excluded": "Kopīgojiet tikai groza preces"
+  },
+  "variants_view": {
+    "prices": "Cenas",
+    "inventory": "Inventārs",
+    "discount": "Atlaide"
+  },
+  "rating": {
+    "product_rating_message": "Šis produkts ir saņēmis vērtējumu {rate} no 5 zvaigznēm, un to ir novērtējuši {rate_count} cilvēki."
+  },
+  "related_products": {
+    "card": {
+      "title": "Izpētiet!",
+      "same_tags_subtitle": "Atrodiet vairāk ievērojamu saistīto priekšmetu.",
+      "same_category_subtitle": "Atrodiet citas ievērojamas preces šajā kategorijā."
+    }
   }
 };

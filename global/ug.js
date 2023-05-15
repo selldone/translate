@@ -603,7 +603,34 @@ export default {
     "deleted": "ئۆچۈرۈلدى",
     "variant": "Variant",
     "secure": "بىخەتەر",
-    "admin": "باشقۇرغۇچى"
+    "admin": "باشقۇرغۇچى",
+    "tax_included_abstract": "incl.",
+    "payment_not_settled": "ھەق تۆلەنمىدى!",
+    "orders_list": "زاكاز تىزىملىكى",
+    "subscription_plan": "مۇشتەرىلىك پىلانى",
+    "contents": "مەزمۇنى",
+    "pricings": "باھا",
+    "static_page": "تۇراقلىق بەت",
+    "shop_button": "دۇكان كۇنۇپكىسى",
+    "embed": "Embed",
+    "over": "ئاخىرلاشتى",
+    "tax_vary_by_location": "ئوخشىمايدۇ. ئورنى",
+    "product_type": "مەھسۇلات تىپى",
+    "tax_id": "باج كىملىكى",
+    "business_name": "تىجارەت ئىسمى",
+    "invoice": "تالون",
+    "included_in_the_product": "مەھسۇلاتقا كىرگۈزۈلگەن",
+    "included_in_the_product_description": "بۇ مەھسۇلات تۆۋەندىكى زاپچاسلارنى ئۆز ئىچىگە ئالىدۇ",
+    "cross_sell": "Cross Sell",
+    "discount_off": "OFF",
+    "extra_discount": "قوشۇمچە ئېتىبار",
+    "template": "قېلىپ",
+    "in_cart": "ھارۋىدا",
+    "pros_and_cons": "Pros and Cons",
+    "related_products": "مۇناسىۋەتلىك مەھسۇلاتلار",
+    "related_categories": "مۇناسىۋەتلىك تۈرلەر",
+    "badges": "Badges",
+    "explore": "ئىزدىنىش"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "قايتا ھاسىل",
     "add_message": "ئۇچۇر قوشۇڭ",
     "continue_chat": "سۆھبەتنى داۋاملاشتۇرۇڭ",
-    "add_new_message": "يېڭى ئۇچۇر قوشۇڭ"
+    "add_new_message": "يېڭى ئۇچۇر قوشۇڭ",
+    "change_setting": "تەڭشەكنى ئۆزگەرتىش",
+    "delete_all": "ھەممىنى ئۆچۈرۈڭ",
+    "transfer_fund": "يۆتكىلىش مەبلىغى",
+    "reverse_fund": "تەتۈر فوند",
+    "settlement": "راسچوت",
+    "refund": "پۇل قايتۇرۇش",
+    "partial_refund": "قىسمەن پۇل قايتۇرۇش",
+    "change_payment_method": "پۇل تۆلەش ئۇسۇلىنى ئۆزگەرتىڭ",
+    "buy": "سېتىۋېلىش",
+    "view_all": "ھەممىنى كۆرۈش",
+    "view_now": "ھازىر كۆرۈش"
   },
   "instance_message_title": "تېز ئۇچۇر يوللاڭ",
   "instance_message": "ئەسسالامۇئەلەيكۇم {name} ، مېنىڭ ئىسمىم {شىركەت {author} ئاپتور}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "مەڭگۈ يېشىل",
     "#214C30": "ئورمان",
     "#DC2867": "Fuchsia",
-    "#38561F" :"كېللىي",
+    "#38561F": "كېللىي",
     "#5C884D": "يوپۇرماق",
     "#558450": "Light Aqua",
     "#96B5C9": "سۇس كۆك",
@@ -951,7 +989,9 @@ export default {
     "file": "ھۆججەت",
     "file_description": "تور دەرسلىكى ، چۈشۈرگىلى بولىدىغان ھۆججەتلەرگە ئوخشاش بارلىق رۇخسەت قىلىنغان ھۆججەتلەر.",
     "service": "مۇلازىمەت",
-    "service_description": "قاتارلىق مۇلازىمەتلەر: رېمونت قىلىش ، توشۇش ، ئوقۇتۇش."
+    "service_description": "قاتارلىق مۇلازىمەتلەر: رېمونت قىلىش ، توشۇش ، ئوقۇتۇش.",
+    "subscription": "مۇشتەرى بولۇش",
+    "subscription_description": "مەھسۇلات ، مۇلازىمەت ياكى مەزمۇنغا مۇشتەرى بولۇش ۋە تالون."
   },
   "license": {
     "free": "ھەقسىز",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "بىرىنچى يازما",
     "comment_at": "On",
-    "edit_comment": "ئىنكاسنى تەھرىرلەش"
+    "edit_comment": "ئىنكاسنى تەھرىرلەش",
+    "my_comments": "مېنىڭ باھالىرىم"
   },
   "customer_club": {
     "bronze": "مىس",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "دەلىللەش كودى",
     "msg_title": "ياخشىمۇسىز ،",
     "msg_body": "كىرىڭ. بۇنىڭغا بىر نەچچە سېكۇنت كېتىدۇ.",
-    "login_apple": "ئالما بىلەن كىرىش"
+    "login_apple": "ئالما بىلەن كىرىش",
+    "login_email": "ئېلخەت ئارقىلىق كىرىش",
+    "email_login_step_1": "ئىناۋەتلىك ئېلېكترونلۇق خەت ئادرېسى بىلەن تەمىنلەڭ ، بىز ئۇنىڭغا كىرىش كودىنى ئەۋەتىمىز. تىزىملىتىش ھاجەتسىز.",
+    "email_login_step_2": "ئېلېكترونلۇق خەت ئادرېسىڭىزنى توغرا كىرگۈزگەنلىكىڭىزگە ئىشىنەمسىز؟ بىز تەمىنلەنگەن ئېلېكترونلۇق خەتكە كىرىش كودىنى ئەۋەتىمىز ، شۇڭا ئۇنىڭ توغرىلىقىغا كاپالەتلىك قىلىڭ.",
+    "email_login_step_3": "بىز ئېلېكترونلۇق خەتكە بىر كود ئەۋەتتۇق. شۇنىڭغا دىققەت قىلىڭكى ، بۇ كودنىڭ ۋاقتى 10 مىنۇتتا توشىدۇ."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "ئۇچۇرنى ساقلاش",
     "notifications": {
       "success": "كىرگۈزگەن سانلىق مەلۇماتلىرىڭىز ساقلاندى."
-    }
+    },
+    "product_inputs_preview_message": "بۇ خاسلاشتۇرۇش تاللانمىلىرى زاكاز قىلىنغان مەھسۇلاتىڭىزغا تەمىنلىنىدۇ. بۇ نەرسە ھارۋىڭىزغا قوشۇلغاندىن كېيىن ، بۇ يەردە تەڭشىيەلەيسىز."
   },
   "faq": {
     "faq": "دائىم سورايدىغان سوئاللار",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "قاتتىق",
     "intermediate": "Intermediate",
     "easy": "ئاسان"
+  },
+  "billing_period": {
+    "Daily": "كۈندىلىك",
+    "Weekly": "ھەپتىلىك",
+    "Monthly": "ئايلىق",
+    "Every3Months": "ھەر 3 ئايدا",
+    "Every6Months": "ھەر 6 ئايدا",
+    "Yearly": "يىللىق"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "ياخشى ئەمەس!",
+    "between2_3": "بولدى!",
+    "between3_4": "كىشىلەر ياقتۇرىدۇ!",
+    "between4_5": "كىشىلەر ئۇنى ياخشى كۆرىدۇ!"
   }
 };

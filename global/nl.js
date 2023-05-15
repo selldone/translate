@@ -603,7 +603,34 @@ export default {
     "deleted": "verwijderd",
     "variant": "Variant",
     "secure": "Zeker",
-    "admin": "beheerder"
+    "admin": "beheerder",
+    "tax_included_abstract": "inclusief",
+    "payment_not_settled": "Betaling niet geregeld!",
+    "orders_list": "Bestellingen lijst",
+    "subscription_plan": "Abonnementsplan",
+    "contents": "Inhoud",
+    "pricings": "Prijzen",
+    "static_page": "Statische pagina",
+    "shop_button": "Winkel knop",
+    "embed": "Integreren",
+    "over": "Over",
+    "tax_vary_by_location": "variëren. plaats",
+    "product_type": "Product type",
+    "tax_id": "BTW-nummer",
+    "business_name": "Bedrijfsnaam",
+    "invoice": "Factuur",
+    "included_in_the_product": "Inbegrepen in het artikel",
+    "included_in_the_product_description": "Het product bevat de volgende componenten",
+    "cross_sell": "Kruis verkopen",
+    "discount_off": "OFF",
+    "extra_discount": "Extra korting",
+    "template": "Sjabloon",
+    "in_cart": "In winkelmandje",
+    "pros_and_cons": "Voors en tegens",
+    "related_products": "gerelateerde producten",
+    "related_categories": "Gerelateerde categorieën",
+    "badges": "Insignes",
+    "explore": "Ontdekken"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "regenereren",
     "add_message": "Bericht toevoegen",
     "continue_chat": "Doorgaan met chatten",
-    "add_new_message": "Nieuw bericht toevoegen"
+    "add_new_message": "Nieuw bericht toevoegen",
+    "change_setting": "Verander instelling",
+    "delete_all": "Verwijder alles",
+    "transfer_fund": "Fonds overmaken",
+    "reverse_fund": "Omgekeerd fonds",
+    "settlement": "Schikking",
+    "refund": "Terugbetaling",
+    "partial_refund": "Gedeeltelijke terugbetaling",
+    "change_payment_method": "Verander betaalmethode",
+    "buy": "Kopen",
+    "view_all": "Bekijk alles",
+    "view_now": "Kijk nu"
   },
   "instance_message_title": "Stuur een expresbericht",
   "instance_message": "Hallo {name}, Mijn naam is {author} van {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "groenblijvend",
     "#214C30": "Woud",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Blad",
     "#558450": "Licht Aqua",
     "#96B5C9": "Lichtblauw",
@@ -951,7 +989,9 @@ export default {
     "file": "Bestand",
     "file_description": "Alle toegestane bestanden zoals online cursusvideo, downloadbare documenten.",
     "service": "Onderhoud",
-    "service_description": "Diensten zoals: reparatie, transport, onderwijs."
+    "service_description": "Diensten zoals: reparatie, transport, onderwijs.",
+    "subscription": "Abonnement",
+    "subscription_description": "Abonnementen en facturering voor producten, diensten of inhoud."
   },
   "license": {
     "free": "Vrij",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Eerste post",
     "comment_at": "Op",
-    "edit_comment": "Opmerking bewerken"
+    "edit_comment": "Opmerking bewerken",
+    "my_comments": "Mijn opmerkingen"
   },
   "customer_club": {
     "bronze": "Bronzen",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Verificatie code",
     "msg_title": "Hoi,",
     "msg_body": "Log alsjeblieft in. Het duurt slechts een paar seconden.",
-    "login_apple": "Inloggen met Apple"
+    "login_apple": "Inloggen met Apple",
+    "login_email": "Inloggen via e-mail",
+    "email_login_step_1": "Geef een geldig e-mailadres op, dan sturen we de inlogcode ernaar toe. Registratie is niet nodig.",
+    "email_login_step_2": "Weet je zeker dat je je e-mailadres correct hebt ingevuld? We sturen de inlogcode naar het opgegeven e-mailadres, dus zorg ervoor dat deze correct is.",
+    "email_login_step_3": "We hebben een code naar je e-mailadres gestuurd. Houd er rekening mee dat de code binnen 10 minuten verloopt."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Bericht opslaan",
     "notifications": {
       "success": "Uw invoergegevens zijn opgeslagen."
-    }
+    },
+    "product_inputs_preview_message": "Deze aanpassingsopties zijn beschikbaar voor uw bestelde product. Zodra het artikel aan uw winkelwagen is toegevoegd, kunt u hier aanpassingen maken."
   },
   "faq": {
     "faq": "Veel Gestelde Vragen",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Moeilijk",
     "intermediate": "Tussenliggend",
     "easy": "Eenvoudig"
+  },
+  "billing_period": {
+    "Daily": "Dagelijks",
+    "Weekly": "Wekelijks",
+    "Monthly": "Maandelijks",
+    "Every3Months": "Elke 3 maanden",
+    "Every6Months": "Elke 6 maanden",
+    "Yearly": "Jaarlijks"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Och niet goed!",
+    "between2_3": "Het is ok!",
+    "between3_4": "Mensen vinden het leuk!",
+    "between4_5": "Mensen zijn er dol op!"
   }
 };

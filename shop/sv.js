@@ -81,7 +81,9 @@ export default {
     "offer_message": "Köp {min_quantity} Få {percent} % rabatt på dessa varor",
     "up_to": "Upp till {per_order}x per beställning",
     "get_free": "FÅ GRATIS",
-    "get_off": "FÅ {percent} % RABATT"
+    "get_off": "FÅ {percent} % RABATT",
+    "select_a_vendor_message": "Välj en leverantör.",
+    "product_description_header": "Vi presenterar {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Väntar på tillgänglighet",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Vi meddelar dig när den är tillgänglig.",
       "inform_remove_success": "Du har tagits bort från väntelistan."
-    }
+    },
+    "subscribe_now": "Prenumerera nu",
+    "unsubscribe": "Säga upp",
+    "select_a_subscription_plan": "Välj en plan först!",
+    "manage_subscriptions": "Hantera prenumerationer"
   },
   "product": {
     "review": "Recension",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Garanti",
     "return_policy": "Returpolicy",
     "guide": "Guide",
-    "shipping": "Frakt"
+    "shipping": "Frakt",
+    "related_categories_title": "Upptäck i samlingar"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Totalt artiklar pris",
       "total_items_discount": "Artiklar rabatt",
       "total_price_after_offers": "Totalt efter ansökning av erbjudanden",
-      "buyer_payment": "Köparens betalningsbelopp"
+      "buyer_payment": "Köparens betalningsbelopp",
+      "total_order_price_before_tax": "Totalpris före skatt"
     },
     "delivery": {
       "title": "Leverans",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Olika faktureringsuppgifter",
     "basket_empty": "Korgen är tom",
     "extra_shipping_count": "Du kommer att få {count} paket.",
-    "select_location_error": "Hitta platsen för mottagandet av försändelsen på kartan och klicka på indikatorn i mitten av kartan för att fastställa mottagarens exakta adress."
+    "select_location_error": "Hitta platsen för mottagandet av försändelsen på kartan och klicka på indikatorn i mitten av kartan för att fastställa mottagarens exakta adress.",
+    "same_billing_address_desc": "Faktureringsadressen är densamma som leveransadressen.",
+    "custom_billing_info_desc": "Du kan ange ditt skattenummer och ange en annan adress för fakturering.",
+    "billing_business_desc": "Det är ett företagskonto med ett skattenummer.",
+    "billing_personal_desc": "Det är ett personligt konto.",
+    "no_billing_title": "Ingen fakturering",
+    "no_billing_desc": "Lämna faktureringsadressen tom."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Hämta extern order",
     "address_included": "Dela korgartiklar + Adress",
     "address_excluded": "Dela endast korgartiklar"
+  },
+  "variants_view": {
+    "prices": "Priser",
+    "inventory": "Lager",
+    "discount": "Rabatt"
+  },
+  "rating": {
+    "product_rating_message": "Den här produkten har fått betyget {rate} av 5 stjärnor och betygsatt av {rate_count} personer."
+  },
+  "related_products": {
+    "card": {
+      "title": "Utforska!",
+      "same_tags_subtitle": "Hitta fler anmärkningsvärda relaterade föremål.",
+      "same_category_subtitle": "Hitta fler anmärkningsvärda föremål i denna kategori."
+    }
   }
 };

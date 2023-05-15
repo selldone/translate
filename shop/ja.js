@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity}を購入すると、これらのアイテムが{percent}％オフになります",
     "up_to": "注文ごとに最大{per_order}x",
     "get_free": "自由になる",
-    "get_off": "{percent}％オフをゲット"
+    "get_off": "{percent}％オフをゲット",
+    "select_a_vendor_message": "ベンダーを選択してください。",
+    "product_description_header": "{product} のご紹介"
   },
   "buy_button": {
     "waiting_for_availability": "空き状況を待っています",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "利用可能になり次第お知らせします。",
       "inform_remove_success": "順番待ちリストから削除されました。"
-    }
+    },
+    "subscribe_now": "今すぐ購読する",
+    "unsubscribe": "購読を解除する",
+    "select_a_subscription_plan": "まずはプランを選んでみましょう！",
+    "manage_subscriptions": "サブスクリプションを管理する"
   },
   "product": {
     "review": "レビュー",
@@ -109,7 +115,8 @@ export default {
     "warranty": "保証",
     "return_policy": "返品規則",
     "guide": "ガイド",
-    "shipping": "運送"
+    "shipping": "運送",
+    "related_categories_title": "コレクションから発見する"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "アイテムの合計価格",
       "total_items_discount": "アイテム割引",
       "total_price_after_offers": "オファーを適用した後の合計",
-      "buyer_payment": "購入者の支払い額"
+      "buyer_payment": "購入者の支払い額",
+      "total_order_price_before_tax": "税引き前の合計価格"
     },
     "delivery": {
       "title": "配達",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "別の請求情報",
     "basket_empty": "バスケットが空です",
     "extra_shipping_count": "{count}パッケージを受け取ります。",
-    "select_location_error": "地図上で貨物の受け取り場所を見つけ、地図の中央にあるインジケーターをクリックして、受取人の正確な住所を確認します。"
+    "select_location_error": "地図上で貨物の受け取り場所を見つけ、地図の中央にあるインジケーターをクリックして、受取人の正確な住所を確認します。",
+    "same_billing_address_desc": "請求先住所は配送先住所と同じです。",
+    "custom_billing_info_desc": "TAX 番号を入力し、請求先として別の住所を設定できます。",
+    "billing_business_desc": "納税番号のあるビジネスアカウントです。",
+    "billing_personal_desc": "個人アカウントです。",
+    "no_billing_title": "課金なし",
+    "no_billing_desc": "請求先住所は空のままにしておきます。"
   },
   "basket_items": {
     "items_unit": "バツ",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "外部注文を取得する",
     "address_included": "かごのアイテムを共有 + アドレス",
     "address_excluded": "かごのアイテムのみを共有する"
+  },
+  "variants_view": {
+    "prices": "価格",
+    "inventory": "在庫",
+    "discount": "割引"
+  },
+  "rating": {
+    "product_rating_message": "この商品は 5 つ星中 {rate} の評価を受けており、{rate_count} 人が評価しています。"
+  },
+  "related_products": {
+    "card": {
+      "title": "探検！",
+      "same_tags_subtitle": "さらに注目すべき関連アイテムを見つけてください。",
+      "same_category_subtitle": "このカテゴリでさらに注目すべきアイテムを見つけてください。"
+    }
   }
 };

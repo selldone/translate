@@ -603,7 +603,34 @@ export default {
     "deleted": "Wiske",
     "variant": "Fariant",
     "secure": "Feilich",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "ynkl.",
+    "payment_not_settled": "Betelling net regele!",
+    "orders_list": "Oarders list",
+    "subscription_plan": "Abonnemint plan",
+    "contents": "Ynhâld",
+    "pricings": "Prizen",
+    "static_page": "Statyske side",
+    "shop_button": "Winkelknop",
+    "embed": "Ynbêde",
+    "over": "Oer",
+    "tax_vary_by_location": "ôfwikselje. lokaasje",
+    "product_type": "Produkt type",
+    "tax_id": "Tax ID",
+    "business_name": "Bedriuwsnamme",
+    "invoice": "Invoice",
+    "included_in_the_product": "Opnaam yn it produkt",
+    "included_in_the_product_description": "It produkt befettet de folgjende komponinten",
+    "cross_sell": "Cross Sell",
+    "discount_off": "OFF",
+    "extra_discount": "Ekstra koarting",
+    "template": "Sjabloan",
+    "in_cart": "Yn Cart",
+    "pros_and_cons": "Foar- en neidielen",
+    "related_products": "relatearre produkten",
+    "related_categories": "Related kategoryen",
+    "badges": "Badges",
+    "explore": "Ferkenne"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Regenerearje",
     "add_message": "Add berjocht",
     "continue_chat": "Trochgean petear",
-    "add_new_message": "Add nij berjocht"
+    "add_new_message": "Add nij berjocht",
+    "change_setting": "Feroarje ynstelling",
+    "delete_all": "Ferwiderje alles",
+    "transfer_fund": "Oerdracht fûns",
+    "reverse_fund": "Omkearde fûns",
+    "settlement": "Koloanje",
+    "refund": "Werombetelje",
+    "partial_refund": "Partial Refund",
+    "change_payment_method": "Feroarje betelling metoade",
+    "buy": "Keapje",
+    "view_all": "Alles besjen",
+    "view_now": "Sjoch no"
   },
   "instance_message_title": "Stjoer direkte berjocht",
   "instance_message": "Hoi {name}, Myn namme is {author} fan {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Wâld",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Blêd",
     "#558450": "Ljocht Aqua",
     "#96B5C9": "Ljochtblau",
@@ -951,7 +989,9 @@ export default {
     "file": "Map",
     "file_description": "Alle tastiene bestannen lykas online kursusfideo, downloadbare dokuminten.",
     "service": "Tsjinst",
-    "service_description": "Tsjinsten lykas: reparaasje, ferfier, lesjaan."
+    "service_description": "Tsjinsten lykas: reparaasje, ferfier, lesjaan.",
+    "subscription": "Ynskriuwing",
+    "subscription_description": "Abonneminten en fakturearring foar produkten, tsjinsten of ynhâld."
   },
   "license": {
     "free": "Frij",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Earste post",
     "comment_at": "Op",
-    "edit_comment": "Comment bewurkje"
+    "edit_comment": "Comment bewurkje",
+    "my_comments": "Myn opmerkings"
   },
   "customer_club": {
     "bronze": "Brûns",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Ferifikaasjekoade",
     "msg_title": "Hoi,",
     "msg_body": "Graach oanmelde. It duorret mar in pear sekonden.",
-    "login_apple": "Oanmelde mei Apple"
+    "login_apple": "Oanmelde mei Apple",
+    "login_email": "Oanmelde fia e-post",
+    "email_login_step_1": "Jou asjebleaft in jildich e-mailadres, en wy sille stjoere de oanmeldkoade nei it. Gjin registraasje is nedich.",
+    "email_login_step_2": "Binne jo wis dat jo jo e-mailadres goed ynfierd hawwe? Wy stjoere de oanmeldkoade nei de levere e-post, dus soargje asjebleaft foar de krektens.",
+    "email_login_step_3": "Wy hawwe stjoerd in koade nei jo e-mail. Tink derom dat de koade yn 10 minuten ferrint."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Berjocht opslaan",
     "notifications": {
       "success": "Jo ynfiergegevens binne bewarre."
-    }
+    },
+    "product_inputs_preview_message": "Dizze oanpassingsopsjes binne beskikber foar jo bestelde produkt. Sadree't it item is tafoege oan jo cart, do silst kinne meitsje oanpassings hjir."
   },
   "faq": {
     "faq": "Faak Stelde Fragen",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Hurd",
     "intermediate": "Intermediate",
     "easy": "Maklik"
+  },
+  "billing_period": {
+    "Daily": "Deistich",
+    "Weekly": "Wykliks",
+    "Monthly": "Moanne",
+    "Every3Months": "Elke 3 moannen",
+    "Every6Months": "Elke 6 moannen",
+    "Yearly": "Jierliks"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Och net goed!",
+    "between2_3": "It is ok!",
+    "between3_4": "Minsken fine it leuk!",
+    "between4_5": "Minsken love it!"
   }
 };

@@ -603,7 +603,34 @@ export default {
     "deleted": "Đã xóa",
     "variant": "Khác nhau",
     "secure": "Chắc chắn",
-    "admin": "Quản trị viên"
+    "admin": "Quản trị viên",
+    "tax_included_abstract": "bao gồm",
+    "payment_not_settled": "Thanh toán không được giải quyết!",
+    "orders_list": "danh sách đơn hàng",
+    "subscription_plan": "kế hoạch đăng ký",
+    "contents": "nội dung",
+    "pricings": "giá cả",
+    "static_page": "trang tĩnh",
+    "shop_button": "nút cửa hàng",
+    "embed": "Nhúng",
+    "over": "Qua",
+    "tax_vary_by_location": "thay đổi. vị trí",
+    "product_type": "Loại sản phẩm",
+    "tax_id": "mã số thuế",
+    "business_name": "Tên doanh nghiệp",
+    "invoice": "Hóa đơn",
+    "included_in_the_product": "Bao gồm trong sản phẩm",
+    "included_in_the_product_description": "Sản phẩm bao gồm các thành phần sau",
+    "cross_sell": "Bán chéo",
+    "discount_off": "OFF",
+    "extra_discount": "giảm giá thêm",
+    "template": "Bản mẫu",
+    "in_cart": "Trong xe đẩy",
+    "pros_and_cons": "Ưu và nhược điểm",
+    "related_products": "Những sảm phẩm tương tự",
+    "related_categories": "thể loại liên quan",
+    "badges": "danh hiệu",
+    "explore": "Khám phá"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Tái tạo",
     "add_message": "Thêm thông điệp",
     "continue_chat": "Tiếp tục trò chuyện",
-    "add_new_message": "Thêm tin nhắn mới"
+    "add_new_message": "Thêm tin nhắn mới",
+    "change_setting": "Thay đổi cài đặt",
+    "delete_all": "Xóa hết",
+    "transfer_fund": "Quỹ chuyển tiền",
+    "reverse_fund": "đảo ngược quỹ",
+    "settlement": "định cư",
+    "refund": "Đền bù",
+    "partial_refund": "Hoàn lại một phần",
+    "change_payment_method": "Thay đổi phương pháp thanh toán",
+    "buy": "Mua",
+    "view_all": "Xem tất cả",
+    "view_now": "Xem ngay bây giờ"
   },
   "instance_message_title": "Gửi tin nhắn tức thì",
   "instance_message": "Xin chào {name}, Tên tôi là {author} đến từ {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Thường xanh",
     "#214C30": "Rừng",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Lá cây",
     "#558450": "Nước nhẹ",
     "#96B5C9": "Xanh lam nhạt",
@@ -951,7 +989,9 @@ export default {
     "file": "Tập tin",
     "file_description": "Tất cả các tệp được phép như video khóa học trực tuyến, tài liệu có thể tải xuống.",
     "service": "Dịch vụ",
-    "service_description": "Các dịch vụ như: sửa chữa, vận chuyển, dạy học."
+    "service_description": "Các dịch vụ như: sửa chữa, vận chuyển, dạy học.",
+    "subscription": "Đăng ký",
+    "subscription_description": "Đăng ký và lập hóa đơn cho các sản phẩm, dịch vụ hoặc nội dung."
   },
   "license": {
     "free": "Miễn phí",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Bài viết đầu tiên",
     "comment_at": "Trên",
-    "edit_comment": "Chỉnh sửa nhận xét"
+    "edit_comment": "Chỉnh sửa nhận xét",
+    "my_comments": "Những bình luận của tôi"
   },
   "customer_club": {
     "bronze": "Đồng",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Mã xác nhận",
     "msg_title": "Xin chào,",
     "msg_body": "Vui lòng hãy đăng nhập. Nó chỉ mất một vài giây.",
-    "login_apple": "Đăng nhập với Apple"
+    "login_apple": "Đăng nhập với Apple",
+    "login_email": "Đăng nhập bằng Email",
+    "email_login_step_1": "Vui lòng cung cấp địa chỉ email hợp lệ và chúng tôi sẽ gửi mã đăng nhập đến địa chỉ đó. Không đăng ký là cần thiết.",
+    "email_login_step_2": "Bạn có chắc chắn rằng bạn đã nhập chính xác địa chỉ email của mình không? Chúng tôi sẽ gửi mã đăng nhập đến email được cung cấp, vì vậy hãy đảm bảo tính chính xác của nó.",
+    "email_login_step_3": "Chúng tôi đã gửi một mã đến email của bạn. Xin lưu ý rằng mã sẽ hết hạn sau 10 phút."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Lưu tin nhắn",
     "notifications": {
       "success": "Dữ liệu đầu vào của bạn đã được lưu."
-    }
+    },
+    "product_inputs_preview_message": "Các tùy chọn tùy chỉnh này có sẵn cho sản phẩm đã đặt hàng của bạn. Sau khi mặt hàng được thêm vào giỏ hàng của bạn, bạn sẽ có thể thực hiện các điều chỉnh tại đây."
   },
   "faq": {
     "faq": "Các câu hỏi thường gặp",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Cứng",
     "intermediate": "Trung gian",
     "easy": "Dễ"
+  },
+  "billing_period": {
+    "Daily": "Hằng ngày",
+    "Weekly": "hàng tuần",
+    "Monthly": "Hàng tháng",
+    "Every3Months": "3 tháng một lần",
+    "Every6Months": "6 tháng một lần",
+    "Yearly": "Hàng năm"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Ách không tốt!",
+    "between2_3": "Được rồi!",
+    "between3_4": "Mọi người thích nó!",
+    "between4_5": "Mọi người yêu thích nó!"
   }
 };

@@ -81,7 +81,9 @@ export default {
     "offer_message": "Купите {min_quantity} Добијте {percent}% попуста за ове артикле",
     "up_to": "До {per_order}к по поруџбини",
     "get_free": "СЕ ОСЛОБОДИ",
-    "get_off": "ОСТВАРИТЕ {percent}% ПОПУСТА"
+    "get_off": "ОСТВАРИТЕ {percent}% ПОПУСТА",
+    "select_a_vendor_message": "Изаберите продавца.",
+    "product_description_header": "Представљамо {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Чека се доступност",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Обавестићемо вас када буде доступно.",
       "inform_remove_success": "Уклоњени сте са листе чекања."
-    }
+    },
+    "subscribe_now": "Претплати се сада",
+    "unsubscribe": "Откажи претплату",
+    "select_a_subscription_plan": "Прво изаберите план!",
+    "manage_subscriptions": "Управљајте претплатама"
   },
   "product": {
     "review": "Преглед",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Гаранција",
     "return_policy": "Политика поврата",
     "guide": "Водич",
-    "shipping": "поштарина"
+    "shipping": "поштарина",
+    "related_categories_title": "Откријте у колекцијама"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Укупна цена предмета",
       "total_items_discount": "Попуст на артикле",
       "total_price_after_offers": "Укупно након примене понуда",
-      "buyer_payment": "Износ плаћања купца"
+      "buyer_payment": "Износ плаћања купца",
+      "total_order_price_before_tax": "Укупна цена пре опорезивања"
     },
     "delivery": {
       "title": "Испорука",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Различите информације о обрачуну",
     "basket_empty": "Корпа је празна",
     "extra_shipping_count": "Добићете {count} пакета.",
-    "select_location_error": "Пронађите место пријема пошиљке на мапи и кликните на индикатор у средини карте да бисте утврдили тачну адресу примаоца."
+    "select_location_error": "Пронађите место пријема пошиљке на мапи и кликните на индикатор у средини карте да бисте утврдили тачну адресу примаоца.",
+    "same_billing_address_desc": "Адреса за обрачун је иста као и адреса за испоруку.",
+    "custom_billing_info_desc": "Можете унети свој ПОРЕСКИ број и поставити другу адресу за наплату.",
+    "billing_business_desc": "То је пословни рачун са ПОРЕСКИМ бројем.",
+    "billing_personal_desc": "То је лични рачун.",
+    "no_billing_title": "Нема наплате",
+    "no_billing_desc": "Оставите адресу за обрачун празну."
   },
   "basket_items": {
     "items_unit": "Икс",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Преузми спољни налог",
     "address_included": "Делите ставке из корпе + Адреса",
     "address_excluded": "Делите само ставке из корпе"
+  },
+  "variants_view": {
+    "prices": "Цене",
+    "inventory": "Инвентар",
+    "discount": "Попуст"
+  },
+  "rating": {
+    "product_rating_message": "Овај производ је добио оцену {rate} од 5 звездица и оценио га је {rate_count} људи."
+  },
+  "related_products": {
+    "card": {
+      "title": "Истражите!",
+      "same_tags_subtitle": "Пронађите још изузетних сродних предмета.",
+      "same_category_subtitle": "Пронађите још изузетних предмета у овој категорији."
+    }
   }
 };

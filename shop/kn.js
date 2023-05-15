@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity} ಖರೀದಿಸಿ ಈ ಐಟಂಗಳಿಗೆ {percent}% ರಿಯಾಯಿತಿ ಪಡೆಯಿರಿ",
     "up_to": "ಪ್ರತಿ ಆರ್ಡರ್‌ಗೆ {per_order}x ವರೆಗೆ",
     "get_free": "ಉಚಿತವಾಗಿ ಪಡೆಯಿರಿ",
-    "get_off": "{percent}% ರಿಯಾಯಿತಿ ಪಡೆಯಿರಿ"
+    "get_off": "{percent}% ರಿಯಾಯಿತಿ ಪಡೆಯಿರಿ",
+    "select_a_vendor_message": "ದಯವಿಟ್ಟು ಮಾರಾಟಗಾರರನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+    "product_description_header": "{product} ಅನ್ನು ಪರಿಚಯಿಸಲಾಗುತ್ತಿದೆ"
   },
   "buy_button": {
     "waiting_for_availability": "ಲಭ್ಯತೆಗಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "ಅದು ಲಭ್ಯವಾದಾಗ ನಾವು ನಿಮಗೆ ತಿಳಿಸುತ್ತೇವೆ.",
       "inform_remove_success": "ನಿಮ್ಮನ್ನು ಕಾಯುವ ಪಟ್ಟಿಯಿಂದ ತೆಗೆದುಹಾಕಲಾಗಿದೆ."
-    }
+    },
+    "subscribe_now": "ಈಗ ಚಂದಾದಾರರಾಗಿ",
+    "unsubscribe": "ಅನ್‌ಸಬ್‌ಸ್ಕ್ರೈಬ್ ಮಾಡಿ",
+    "select_a_subscription_plan": "ಮೊದಲು ಯೋಜನೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ!",
+    "manage_subscriptions": "ಚಂದಾದಾರಿಕೆಗಳನ್ನು ನಿರ್ವಹಿಸಿ"
   },
   "product": {
     "review": "ಸಮೀಕ್ಷೆ",
@@ -109,7 +115,8 @@ export default {
     "warranty": "ಖಾತರಿ",
     "return_policy": "ಹಿಂತಿರುಗಿಸುವ ಕಾರ್ಯನೀತಿ",
     "guide": "ಮಾರ್ಗದರ್ಶಿ",
-    "shipping": "ಶಿಪ್ಪಿಂಗ್"
+    "shipping": "ಶಿಪ್ಪಿಂಗ್",
+    "related_categories_title": "ಸಂಗ್ರಹಣೆಗಳಲ್ಲಿ ಅನ್ವೇಷಿಸಿ"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "ಒಟ್ಟು ವಸ್ತುಗಳ ಬೆಲೆ",
       "total_items_discount": "ಐಟಂಗಳ ರಿಯಾಯಿತಿ",
       "total_price_after_offers": "ಕೊಡುಗೆಗಳನ್ನು ಅನ್ವಯಿಸಿದ ನಂತರ ಒಟ್ಟು",
-      "buyer_payment": "ಖರೀದಿದಾರ ಪಾವತಿ ಮೊತ್ತ"
+      "buyer_payment": "ಖರೀದಿದಾರ ಪಾವತಿ ಮೊತ್ತ",
+      "total_order_price_before_tax": "ಪೂರ್ವ-ತೆರಿಗೆ ಒಟ್ಟು ಬೆಲೆ"
     },
     "delivery": {
       "title": "ವಿತರಣೆ",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "ವಿಭಿನ್ನ ಬಿಲ್ಲಿಂಗ್ ಮಾಹಿತಿ",
     "basket_empty": "ಬುಟ್ಟಿ ಖಾಲಿಯಾಗಿದೆ",
     "extra_shipping_count": "ನೀವು {count} ಪ್ಯಾಕೇಜ್‌ಗಳನ್ನು ಸ್ವೀಕರಿಸುತ್ತೀರಿ.",
-    "select_location_error": "ನಕ್ಷೆಯಲ್ಲಿ ಸಾಗಣೆಯ ಸ್ವೀಕೃತಿಯ ಸ್ಥಳವನ್ನು ಹುಡುಕಿ ಮತ್ತು ಸ್ವೀಕರಿಸುವವರ ನಿಖರವಾದ ವಿಳಾಸವನ್ನು ನಿರ್ಧರಿಸಲು ನಕ್ಷೆಯ ಮಧ್ಯದಲ್ಲಿರುವ ಸೂಚಕದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ."
+    "select_location_error": "ನಕ್ಷೆಯಲ್ಲಿ ಸಾಗಣೆಯ ಸ್ವೀಕೃತಿಯ ಸ್ಥಳವನ್ನು ಹುಡುಕಿ ಮತ್ತು ಸ್ವೀಕರಿಸುವವರ ನಿಖರವಾದ ವಿಳಾಸವನ್ನು ನಿರ್ಧರಿಸಲು ನಕ್ಷೆಯ ಮಧ್ಯದಲ್ಲಿರುವ ಸೂಚಕದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.",
+    "same_billing_address_desc": "ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸವು ಶಿಪ್ಪಿಂಗ್ ವಿಳಾಸದಂತೆಯೇ ಇರುತ್ತದೆ.",
+    "custom_billing_info_desc": "ನೀವು ನಿಮ್ಮ ತೆರಿಗೆ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಬಹುದು ಮತ್ತು ಬಿಲ್ಲಿಂಗ್‌ಗಾಗಿ ಬೇರೆ ವಿಳಾಸವನ್ನು ಹೊಂದಿಸಬಹುದು.",
+    "billing_business_desc": "ಇದು TAX ಸಂಖ್ಯೆಯನ್ನು ಹೊಂದಿರುವ ವ್ಯಾಪಾರ ಖಾತೆಯಾಗಿದೆ.",
+    "billing_personal_desc": "ಇದು ವೈಯಕ್ತಿಕ ಖಾತೆ.",
+    "no_billing_title": "ಬಿಲ್ಲಿಂಗ್ ಇಲ್ಲ",
+    "no_billing_desc": "ಬಿಲ್ಲಿಂಗ್ ವಿಳಾಸವನ್ನು ಖಾಲಿ ಬಿಡಿ."
   },
   "basket_items": {
     "items_unit": "X",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "ಬಾಹ್ಯ ಆದೇಶವನ್ನು ಹಿಂಪಡೆಯಿರಿ",
     "address_included": "ಬುಟ್ಟಿ ಐಟಂಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಿ + ವಿಳಾಸ",
     "address_excluded": "ಬುಟ್ಟಿಯ ವಸ್ತುಗಳನ್ನು ಮಾತ್ರ ಹಂಚಿಕೊಳ್ಳಿ"
+  },
+  "variants_view": {
+    "prices": "ಬೆಲೆಗಳು",
+    "inventory": "ದಾಸ್ತಾನು",
+    "discount": "ರಿಯಾಯಿತಿ"
+  },
+  "rating": {
+    "product_rating_message": "ಈ ಉತ್ಪನ್ನವು 5 ನಕ್ಷತ್ರಗಳಲ್ಲಿ {rate} ರೇಟಿಂಗ್ ಅನ್ನು ಪಡೆದುಕೊಂಡಿದೆ ಮತ್ತು {rate_count} ಜನರಿಂದ ರೇಟ್ ಮಾಡಲಾಗಿದೆ."
+  },
+  "related_products": {
+    "card": {
+      "title": "ಅನ್ವೇಷಿಸಿ!",
+      "same_tags_subtitle": "ಹೆಚ್ಚು ಗಮನಾರ್ಹವಾದ ಸಂಬಂಧಿತ ವಸ್ತುಗಳನ್ನು ಹುಡುಕಿ.",
+      "same_category_subtitle": "ಈ ವರ್ಗದಲ್ಲಿ ಹೆಚ್ಚು ಗಮನಾರ್ಹವಾದ ವಸ್ತುಗಳನ್ನು ಹುಡುಕಿ."
+    }
   }
 };

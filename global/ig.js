@@ -603,7 +603,34 @@ export default {
     "deleted": "ehichapụ",
     "variant": "Ọdịiche",
     "secure": "Chekwaa",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "gụnyere.",
+    "payment_not_settled": "Akwụsịghị ịkwụ ụgwọ!",
+    "orders_list": "Ndepụta iwu",
+    "subscription_plan": "Atụmatụ ndenye aha",
+    "contents": "ọdịnaya",
+    "pricings": "Ọnụ ahịa",
+    "static_page": "ibe kwụ ọtọ",
+    "shop_button": "Bọtịnụ ụlọ ahịa",
+    "embed": "Tinye",
+    "over": "gafere",
+    "tax_vary_by_location": "iche iche. ebe",
+    "product_type": "Ụdị ngwaahịa",
+    "tax_id": "NJ ụtụ isi",
+    "business_name": "Aha azụmahịa",
+    "invoice": "Akwụkwọ ọnụahịa",
+    "included_in_the_product": "Agụnyere na ngwaahịa",
+    "included_in_the_product_description": "Ngwaahịa ahụ gụnyere ihe ndị a",
+    "cross_sell": "Ofe ire",
+    "discount_off": "OFF",
+    "extra_discount": "Mbelata ego",
+    "template": "Ụdị",
+    "in_cart": "Na ụgbọ ibu",
+    "pros_and_cons": "Uru na ọghọm",
+    "related_products": "Ngwaahịa ndị emetụtara",
+    "related_categories": "Ụdị emetụtara",
+    "badges": "Akara",
+    "explore": "Nyochaa"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Megharịa",
     "add_message": "Tinye ozi",
     "continue_chat": "Gaa n'ihu nkata",
-    "add_new_message": "Tinye ozi ọhụrụ"
+    "add_new_message": "Tinye ozi ọhụrụ",
+    "change_setting": "Gbanwee ntọala",
+    "delete_all": "Hichapụ ha niile",
+    "transfer_fund": "Ego mbufe",
+    "reverse_fund": "Ego ego",
+    "settlement": "Nkwazi",
+    "refund": "Nkwụghachi",
+    "partial_refund": "Nkwụghachi akụkụ",
+    "change_payment_method": "Gbanwee usoro ịkwụ ụgwọ",
+    "buy": "Zụrụ",
+    "view_all": "Lelee All",
+    "view_now": "Lelee Ugbu a"
   },
   "instance_message_title": "Zipu ozi ozugbo",
   "instance_message": "Ndewo {name}, aha m bụ {author} sitere na {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Ohia",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Akwukwo",
     "#558450": "Light Aqua",
     "#96B5C9": "Acha anụnụ anụnụ",
@@ -951,7 +989,9 @@ export default {
     "file": "Faịlụ",
     "file_description": "Faịlụ niile anabatara dị ka vidiyo nkuzi ịntanetị, akwụkwọ enwere ike nbudata.",
     "service": "Ọrụ",
-    "service_description": "Ọrụ dị ka: mmezi, njem, nkuzi."
+    "service_description": "Ọrụ dị ka: mmezi, njem, nkuzi.",
+    "subscription": "Ndebanye aha",
+    "subscription_description": "Ndebanye aha na akwụkwọ ọnụahịa maka ngwaahịa, ọrụ ma ọ bụ ọdịnaya."
   },
   "license": {
     "free": "N'efu",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Ozi izizi",
     "comment_at": "Gbanye",
-    "edit_comment": "Dezie nkọwa"
+    "edit_comment": "Dezie nkọwa",
+    "my_comments": "Okwu m"
   },
   "customer_club": {
     "bronze": "Ọla",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Koodu nyocha",
     "msg_title": "Ndewo,",
     "msg_body": "Biko banye. Ọ na-ewe naanị sekọnd ole na ole.",
-    "login_apple": "Banye na Apple"
+    "login_apple": "Banye na Apple",
+    "login_email": "Banye site na Email",
+    "email_login_step_1": "Biko nye adreesị ozi-e ziri ezi, anyị ga-ezigara ya koodu nbanye. Enweghị ndebanye aha dị mkpa.",
+    "email_login_step_2": "Ị ji n'aka na i tinyela adreesị ozi-e gị nke ọma? Anyị ga na-eziga koodu nbanye na email enyere, biko hụ na ọ bụ eziokwu.",
+    "email_login_step_3": "Anyị ezipụla koodu na email gị. Biko mara na koodu ahụ ga-ekubi ume n'ime nkeji iri."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Chekwaa ozi",
     "notifications": {
       "success": "Achekwala data ntinye gị."
-    }
+    },
+    "product_inputs_preview_message": "Nhọrọ nhazi ndị a dị maka ngwaahịa gị nyere iwu. Ozugbo etinyere ihe ahụ n'ụgbọ gị, ị ga-enwe ike ime mgbanwe ebe a."
   },
   "faq": {
     "faq": "Ajụjụ a na-ajụkarị",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "siri ike",
     "intermediate": "Ọkara",
     "easy": "Mfe"
+  },
+  "billing_period": {
+    "Daily": "Kwa ụbọchị",
+    "Weekly": "Kwa izu",
+    "Monthly": "Kwa ọnwa",
+    "Every3Months": "Kwa ọnwa 3",
+    "Every6Months": "Kwa ọnwa 6",
+    "Yearly": "Kwa afọ"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oh adịghị mma!",
+    "between2_3": "Ọ dị mma!",
+    "between3_4": "Ndị mmadụ masịrị ya!",
+    "between4_5": "Ndị mmadụ hụrụ ya n'anya!"
   }
 };

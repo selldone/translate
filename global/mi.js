@@ -603,7 +603,34 @@ export default {
     "deleted": "Kua mukua",
     "variant": "He rereke",
     "secure": "Haumaru",
-    "admin": "Kaiwhakahaere"
+    "admin": "Kaiwhakahaere",
+    "tax_included_abstract": "incl.",
+    "payment_not_settled": "Kare ano te utu i tau!",
+    "orders_list": "Rarangi ota",
+    "subscription_plan": "Mahere ohaurunga",
+    "contents": "Ihirangi",
+    "pricings": "Nga utu",
+    "static_page": "Whārangi pateko",
+    "shop_button": "Pātene Toa",
+    "embed": "Whakamau",
+    "over": "Ka mutu",
+    "tax_vary_by_location": "rerekē. wāhi",
+    "product_type": "Momo hua",
+    "tax_id": "ID Taake",
+    "business_name": "Ingoa pakihi",
+    "invoice": "nama",
+    "included_in_the_product": "Kei roto i te hua",
+    "included_in_the_product_description": "Kei roto i te hua nga waahanga e whai ake nei",
+    "cross_sell": "Ripeka Hoko",
+    "discount_off": "OFF",
+    "extra_discount": "He utu taapiri",
+    "template": "tauira",
+    "in_cart": "Kei te Kaata",
+    "pros_and_cons": "Nga pai me nga kino",
+    "related_products": "Hua e Pa ana",
+    "related_categories": "Nga waahanga e pa ana",
+    "badges": "Tohu",
+    "explore": "Torotoro"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Whakahou",
     "add_message": "Tāpiri karere",
     "continue_chat": "Kōrerorero tonu",
-    "add_new_message": "Tāpiri karere hōu"
+    "add_new_message": "Tāpiri karere hōu",
+    "change_setting": "Hurihia te tautuhinga",
+    "delete_all": "Mukua Katoa",
+    "transfer_fund": "Putea whakawhiti",
+    "reverse_fund": "Putea whakamuri",
+    "settlement": "Whakataunga",
+    "refund": "Whakahoki",
+    "partial_refund": "Whakahokinga Wahi",
+    "change_payment_method": "Hurihia te tikanga utu",
+    "buy": "Hoko",
+    "view_all": "Tiro Katoa",
+    "view_now": "Tirohia Inaianei"
   },
   "instance_message_title": "Tukuna he karere inamata",
   "instance_message": "Kia ora {name}, Ko {author} toku ingoa no {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Ngahere",
     "#DC2867": "Puhihia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Rau",
     "#558450": "Aqua Maama",
     "#96B5C9": "Kahurangi Maama",
@@ -951,7 +989,9 @@ export default {
     "file": "Kōnae",
     "file_description": "Ko nga konae katoa e whakaaetia ana penei i te ataata akoranga ipurangi, nga tuhinga ka taea te tango.",
     "service": "Ratonga",
-    "service_description": "Nga ratonga penei: whakatika, kawe waka, whakaako."
+    "service_description": "Nga ratonga penei: whakatika, kawe waka, whakaako.",
+    "subscription": "Ohaurunga",
+    "subscription_description": "Ohaurunga me te nama mo nga hua, ratonga, ihirangi ranei."
   },
   "license": {
     "free": "Kore utu",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Panui tuatahi",
     "comment_at": "Kei runga",
-    "edit_comment": "Whakatika Kōrero"
+    "edit_comment": "Whakatika Kōrero",
+    "my_comments": "Aku Korero"
   },
   "customer_club": {
     "bronze": "Parahi",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Waehere manatoko",
     "msg_title": "Kia ora,",
     "msg_body": "Takiuru koa. He hēkona noa iho.",
-    "login_apple": "Takiuru me Apple"
+    "login_apple": "Takiuru me Apple",
+    "login_email": "Takiuru mā te Īmēra",
+    "email_login_step_1": "Tena koa homai he wahitau imeera whaimana, ka tukuna atu e matou te waehere takiuru. Kaore he rehitatanga.",
+    "email_login_step_2": "Kei te tino mohio koe kua whakauru tika koe i to wahitau imeera? Ka tukuna atu e matou te waehere takiuru ki te imeera kua whakaratohia, na me whakarite te tika.",
+    "email_login_step_3": "Kua tukuna e matou he waehere ki to imeera. Kia mahara ka pau te waehere i roto i te 10 meneti."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Tiaki Karere",
     "notifications": {
       "success": "Kua tiakina to raraunga whakauru."
-    }
+    },
+    "product_inputs_preview_message": "Kei te waatea enei whiringa whakaritenga mo to hua kua ota. Ina whakauruhia te taonga ki to kaata, ka taea e koe te whakarereke i konei."
   },
   "faq": {
     "faq": "Pātai Auau",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "pakeke",
     "intermediate": "Takawaenga",
     "easy": "Māmā"
+  },
+  "billing_period": {
+    "Daily": "Ia rā",
+    "Weekly": "Ia wiki",
+    "Monthly": "Ia marama",
+    "Every3Months": "Ia 3 marama",
+    "Every6Months": "Ia 6 marama",
+    "Yearly": "Ia tau"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Aue kaore i te pai!",
+    "between2_3": "Kei te pai!",
+    "between3_4": "He pai ki nga tangata!",
+    "between4_5": "Aroha ana te tangata!"
   }
 };

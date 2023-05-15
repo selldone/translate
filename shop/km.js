@@ -81,7 +81,9 @@ export default {
     "offer_message": "ទិញ {min_quantity} ទទួលបានការបញ្ចុះតម្លៃ {percent}% សម្រាប់ទំនិញទាំងនេះ",
     "up_to": "រហូតដល់ {per_order}x ក្នុងការបញ្ជាទិញ",
     "get_free": "ទទួល​បាន​ដោយ​ឥត​គិត​ថ្លៃ",
-    "get_off": "ទទួលបាន {percent}% OFF"
+    "get_off": "ទទួលបាន {percent}% OFF",
+    "select_a_vendor_message": "សូមជ្រើសរើសអ្នកលក់។",
+    "product_description_header": "ណែនាំ {product}"
   },
   "buy_button": {
     "waiting_for_availability": "កំពុងរង់ចាំភាពអាចរកបាន",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "យើងនឹងប្រាប់អ្នកនៅពេលវាមាន។",
       "inform_remove_success": "អ្នកត្រូវបានដកចេញពីបញ្ជីរង់ចាំ។"
-    }
+    },
+    "subscribe_now": "ជាវឥឡូវនេះ",
+    "unsubscribe": "ឈប់ជាវ",
+    "select_a_subscription_plan": "ជ្រើសរើសគម្រោងជាមុនសិន!",
+    "manage_subscriptions": "គ្រប់គ្រងការជាវ"
   },
   "product": {
     "review": "ពិនិត្យឡើងវិញ",
@@ -109,7 +115,8 @@ export default {
     "warranty": "ការធានា",
     "return_policy": "គោលនយោបាយត្រឡប់មកវិញ",
     "guide": "មគ្គុទ្ទេសក៍",
-    "shipping": "ការដឹកជញ្ជូន"
+    "shipping": "ការដឹកជញ្ជូន",
+    "related_categories_title": "ស្វែងរកនៅក្នុងការប្រមូល"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "តម្លៃទំនិញសរុប",
       "total_items_discount": "ទំនិញបញ្ចុះតម្លៃ",
       "total_price_after_offers": "សរុបបន្ទាប់ពីអនុវត្តការផ្តល់ជូន",
-      "buyer_payment": "ចំនួនទឹកប្រាក់ទូទាត់របស់អ្នកទិញ"
+      "buyer_payment": "ចំនួនទឹកប្រាក់ទូទាត់របស់អ្នកទិញ",
+      "total_order_price_before_tax": "តម្លៃសរុបមុនពន្ធ"
     },
     "delivery": {
       "title": "ការដឹកជញ្ជូន",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "ព័ត៌មានវិក្កយបត្រផ្សេងៗ",
     "basket_empty": "កន្ត្រកគឺទទេ",
     "extra_shipping_count": "អ្នកនឹងទទួលបានកញ្ចប់ {count} ។",
-    "select_location_error": "ស្វែងរកកន្លែងទទួលទំនិញនៅលើផែនទី ហើយចុចលើសូចនាករនៅកណ្តាលផែនទី ដើម្បីកំណត់អាសយដ្ឋានពិតប្រាកដរបស់អ្នកទទួល។"
+    "select_location_error": "ស្វែងរកកន្លែងទទួលទំនិញនៅលើផែនទី ហើយចុចលើសូចនាករនៅកណ្តាលផែនទី ដើម្បីកំណត់អាសយដ្ឋានពិតប្រាកដរបស់អ្នកទទួល។",
+    "same_billing_address_desc": "អាសយដ្ឋានចេញវិក្កយបត្រគឺដូចគ្នានឹងអាសយដ្ឋានដឹកជញ្ជូន។",
+    "custom_billing_info_desc": "អ្នកអាចបញ្ចូលលេខពន្ធរបស់អ្នក ហើយកំណត់អាសយដ្ឋានផ្សេងសម្រាប់ការចេញវិក្កយបត្រ។",
+    "billing_business_desc": "វាជាគណនីអាជីវកម្មដែលមានលេខពន្ធ។",
+    "billing_personal_desc": "វាជាគណនីផ្ទាល់ខ្លួន។",
+    "no_billing_title": "គ្មានវិក្កយបត្រទេ។",
+    "no_billing_desc": "ទុក​អាសយដ្ឋាន​ចេញ​វិក្កយបត្រ​ឱ្យ​ទទេ។"
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "ទទួលបានការបញ្ជាទិញខាងក្រៅ",
     "address_included": "ចែករំលែកធាតុកញ្ចប់ + អាស័យដ្ឋាន",
     "address_excluded": "ចែករំលែកតែទំនិញក្នុងកញ្ចប់"
+  },
+  "variants_view": {
+    "prices": "តម្លៃ",
+    "inventory": "សារពើភ័ណ្ឌ",
+    "discount": "បញ្ចុះតម្លៃ"
+  },
+  "rating": {
+    "product_rating_message": "ផលិតផលនេះបានទទួលការវាយតម្លៃ {rate} ក្នុងចំណោមផ្កាយ 5 និងវាយតម្លៃដោយមនុស្ស {rate_count} ។"
+  },
+  "related_products": {
+    "card": {
+      "title": "រុករក!",
+      "same_tags_subtitle": "ស្វែងរកធាតុដែលពាក់ព័ន្ធគួរឱ្យកត់សម្គាល់បន្ថែមទៀត។",
+      "same_category_subtitle": "ស្វែងរកធាតុគួរឱ្យកត់សម្គាល់បន្ថែមទៀតនៅក្នុងប្រភេទនេះ។"
+    }
   }
 };

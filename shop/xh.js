@@ -81,7 +81,9 @@ export default {
     "offer_message": "Thenga {min_quantity} Fumana {percent}% isaphulelo kwezi zinto",
     "up_to": "Ukuya kuthi ga kwi- {per_order}x nge-odolo nganye",
     "get_free": "PHUMELA",
-    "get_off": "FUMANA ngepesenti}% OFF"
+    "get_off": "FUMANA ngepesenti}% OFF",
+    "select_a_vendor_message": "Nceda ukhethe umthengisi.",
+    "product_description_header": "Ukwazisa {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Ilinde ukufumaneka",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Siza kukwazisa xa sele ikhona.",
       "inform_remove_success": "Ususiwe kuluhlu lokulinda."
-    }
+    },
+    "subscribe_now": "Bhalisa Ngoku",
+    "unsubscribe": "Yeka ukubhalisa",
+    "select_a_subscription_plan": "Khetha isicwangciso kuqala!",
+    "manage_subscriptions": "Lawula imirhumo"
   },
   "product": {
     "review": "Uphononongo",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Iwaranti",
     "return_policy": "Umthetho WOKUBUYISA",
     "guide": "Isikhokelo",
-    "shipping": "Ukuhambisa ngenqanawe"
+    "shipping": "Ukuhambisa ngenqanawe",
+    "related_categories_title": "Fumana kwingqokelela"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Ixabiso lezinto ezipheleleyo",
       "total_items_discount": "Izinto Isaphulelo",
       "total_price_after_offers": "Iyonke emva kokufaka izicelo",
-      "buyer_payment": "Imali yentlawulo yomthengi"
+      "buyer_payment": "Imali yentlawulo yomthengi",
+      "total_order_price_before_tax": "Ixabiso elipheleleyo lerhafu"
     },
     "delivery": {
       "title": "Ukuhanjiswa",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Ulwazi olwahlukileyo lokuhlawula",
     "basket_empty": "Ingobozi ayinanto",
     "extra_shipping_count": "Uya kufumana {count} iipakethe.",
-    "select_location_error": "Fumana indawo yokufumana ukuthunyelwa kwimephu kwaye nqakraza kwisalathisi esiphakathi kwimephu ukumisela idilesi echanekileyo yommkeli."
+    "select_location_error": "Fumana indawo yokufumana ukuthunyelwa kwimephu kwaye nqakraza kwisalathisi esiphakathi kwimephu ukumisela idilesi echanekileyo yommkeli.",
+    "same_billing_address_desc": "Idilesi yokuhlawula iyafana nedilesi yokuthumela.",
+    "custom_billing_info_desc": "Ungafaka inombolo yakho ye-TAX kwaye usete idilesi eyahlukileyo yokuhlawula.",
+    "billing_business_desc": "Yiakhawunti yeshishini enenombolo TAX.",
+    "billing_personal_desc": "Yiakhawunti yakho.",
+    "no_billing_title": "Akukho ntlawulo",
+    "no_billing_desc": "Shiya idilesi yamatyala ingenanto."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Fumana iodolo yangaphandle",
     "address_included": "Yabelana ngezinto zebhaskithi + Idilesi",
     "address_excluded": "Yabelana kuphela ngezinto zebhaskithi"
+  },
+  "variants_view": {
+    "prices": "Amaxabiso",
+    "inventory": "Uluhlu lwempahla",
+    "discount": "Isaphulelo"
+  },
+  "rating": {
+    "product_rating_message": "Le mveliso ifumene ukalo lwe- {rate} kwiinkwenkwezi ezi-5 kwaye ikalwa ngabantu abangu- {rate_count}."
+  },
+  "related_products": {
+    "card": {
+      "title": "Phonononga!",
+      "same_tags_subtitle": "Fumana izinto eziyelelene ngakumbi.",
+      "same_category_subtitle": "Fumana izinto eziphawuleka ngakumbi kolu didi."
+    }
   }
 };

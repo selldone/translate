@@ -603,7 +603,34 @@ export default {
     "deleted": "Нобуд",
     "variant": "Варианти",
     "secure": "Бехатар",
-    "admin": "Админ"
+    "admin": "Админ",
+    "tax_included_abstract": "аз ҷумла",
+    "payment_not_settled": "Пардохт ҳал нашудааст!",
+    "orders_list": "Рӯйхати фармоишҳо",
+    "subscription_plan": "Нақшаи обуна",
+    "contents": "Мундариҷа",
+    "pricings": "Нархҳо",
+    "static_page": "Саҳифаи статикӣ",
+    "shop_button": "Тугмаи мағоза",
+    "embed": "Ҷойгир кардан",
+    "over": "Бар",
+    "tax_vary_by_location": "гуногун. ҷойгиршавӣ",
+    "product_type": "Навъи маҳсулот",
+    "tax_id": "ID андоз",
+    "business_name": "Номи тиҷорат",
+    "invoice": "Ҳисобнома-фактура",
+    "included_in_the_product": "Ба маҳсулот дохил карда шудааст",
+    "included_in_the_product_description": "Маҳсулот ҷузъҳои зеринро дар бар мегирад",
+    "cross_sell": "Фурӯши салиб",
+    "discount_off": "OFF",
+    "extra_discount": "Тахфифи иловагӣ",
+    "template": "Шаблон",
+    "in_cart": "Дар Ароба",
+    "pros_and_cons": "Тарафҳо ва тарафҳо",
+    "related_products": "Маҳсулоти марбут",
+    "related_categories": "Категорияҳои марбут",
+    "badges": "Нишонҳо",
+    "explore": "Кашф кунед"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Бозсозӣ",
     "add_message": "Иловаи паём",
     "continue_chat": "Давом додани сӯҳбат",
-    "add_new_message": "Паёми нав илова кунед"
+    "add_new_message": "Паёми нав илова кунед",
+    "change_setting": "Танзимотро тағир диҳед",
+    "delete_all": "Ҳамаро нест кунед",
+    "transfer_fund": "Фонди интиқол",
+    "reverse_fund": "Фонди баръакс",
+    "settlement": "Сукунат",
+    "refund": "Бозгашт",
+    "partial_refund": "Баргардонидани қисман",
+    "change_payment_method": "Тағир додани усули пардохт",
+    "buy": "харид",
+    "view_all": "Ҳамаро дидан",
+    "view_now": "Ҳоло бинед"
   },
   "instance_message_title": "Паёми фаврӣ фиристед",
   "instance_message": "Салом {name}, номи ман {author} аз {company} мебошад.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Ҳамешасабз",
     "#214C30": "Чангал",
     "#DC2867": "Фуксия",
-    "#38561F" :"Келли",
+    "#38561F": "Келли",
     "#5C884D": "Барг",
     "#558450": "Aqua Light",
     "#96B5C9": "Кабуди равшан",
@@ -951,7 +989,9 @@ export default {
     "file": "Файл",
     "file_description": "Ҳама файлҳои иҷозатдодашуда ба монанди видеои курси онлайн, ҳуҷҷатҳои зеркашишаванда.",
     "service": "Хизмат",
-    "service_description": "Хизматрасониҳо ба монанди: таъмир, нақлиёт, таълим."
+    "service_description": "Хизматрасониҳо ба монанди: таъмир, нақлиёт, таълим.",
+    "subscription": "Обуна",
+    "subscription_description": "Обунаҳо ва ҳисобнома барои маҳсулот, хидматҳо ё мундариҷа."
   },
   "license": {
     "free": "Озод",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Паёми аввал",
     "comment_at": "Дар бораи",
-    "edit_comment": "Таҳрири Шарҳ"
+    "edit_comment": "Таҳрири Шарҳ",
+    "my_comments": "Шарҳҳои ман"
   },
   "customer_club": {
     "bronze": "Бронза",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Рамзи озмоиш",
     "msg_title": "Салом,",
     "msg_body": "Лутфан ворид шавед. Ин ҳамагӣ чанд сонияро мегирад.",
-    "login_apple": "Бо Apple ворид шавед"
+    "login_apple": "Бо Apple ворид шавед",
+    "login_email": "Воридшавӣ тавассути почтаи электронӣ",
+    "email_login_step_1": "Лутфан суроғаи почтаи электронии дурустро пешниҳод кунед ва мо рамзи воридшавиро ба он мефиристем. Бақайдгирӣ лозим нест.",
+    "email_login_step_2": "Оё мутмаин ҳастед, ки суроғаи почтаи электронии худро дуруст ворид кардаед? Мо рамзи воридшавиро ба почтаи электронии пешниҳодшуда мефиристем, аз ин рӯ лутфан дурустии онро таъмин кунед.",
+    "email_login_step_3": "Мо ба почтаи электронии шумо код фиристодем. Лутфан қайд кунед, ки мӯҳлати рамз пас аз 10 дақиқа тамом мешавад."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Захира кардани паём",
     "notifications": {
       "success": "Маълумоти воридшудаи шумо захира карда шуд."
-    }
+    },
+    "product_inputs_preview_message": "Ин имконоти мутобиқсозӣ барои маҳсулоти фармоишии шумо дастрасанд. Вақте ки ашё ба аробаи шумо илова карда мешавад, шумо метавонед дар ин ҷо ислоҳот ворид кунед."
   },
   "faq": {
     "faq": "Саволҳои зуд-зуд додашаванда",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Сахт",
     "intermediate": "Миёна",
     "easy": "Осон"
+  },
+  "billing_period": {
+    "Daily": "Ҳар рӯз",
+    "Weekly": "Ҳар ҳафта",
+    "Monthly": "Ҳармоҳа",
+    "Every3Months": "Ҳар 3 моҳ",
+    "Every6Months": "Ҳар 6 моҳ",
+    "Yearly": "солона"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Оҳ, хуб нест!",
+    "between2_3": "Ин дуруст аст!",
+    "between3_4": "Ба одамон маъқул аст!",
+    "between4_5": "Одамон онро дӯст медоранд!"
   }
 };

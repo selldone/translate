@@ -603,7 +603,34 @@ export default {
     "deleted": "Supprimé",
     "variant": "Une variante",
     "secure": "Sécurisé",
-    "admin": "Administrateur"
+    "admin": "Administrateur",
+    "tax_included_abstract": "incl.",
+    "payment_not_settled": "Paiement non réglé !",
+    "orders_list": "Liste des commandes",
+    "subscription_plan": "Formule d'abonnement",
+    "contents": "Contenu",
+    "pricings": "Tarifs",
+    "static_page": "Page statique",
+    "shop_button": "Bouton Boutique",
+    "embed": "Intégrer",
+    "over": "Sur",
+    "tax_vary_by_location": "varier. emplacement",
+    "product_type": "Type de produit",
+    "tax_id": "Numéro d'identification fiscale",
+    "business_name": "Nom de l'entreprise",
+    "invoice": "Facturer",
+    "included_in_the_product": "Inclus dans le produit",
+    "included_in_the_product_description": "Le produit comprend les composants suivants",
+    "cross_sell": "Vente croisée",
+    "discount_off": "OFF",
+    "extra_discount": "Remise supplémentaire",
+    "template": "Modèle",
+    "in_cart": "Dans un chariot",
+    "pros_and_cons": "Avantages et inconvénients",
+    "related_products": "Produits connexes",
+    "related_categories": "Catégories associées",
+    "badges": "Insignes",
+    "explore": "Explorer"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Régénérer",
     "add_message": "Ajouter un message",
     "continue_chat": "Continuer à discuter",
-    "add_new_message": "Ajouter un nouveau message"
+    "add_new_message": "Ajouter un nouveau message",
+    "change_setting": "Modifier le paramètre",
+    "delete_all": "Supprimer tout",
+    "transfer_fund": "Fonds de transfert",
+    "reverse_fund": "Fonds inversé",
+    "settlement": "Règlement",
+    "refund": "Remboursement",
+    "partial_refund": "Remboursement partiel",
+    "change_payment_method": "Changer la méthode de paiement",
+    "buy": "Acheter",
+    "view_all": "Voir tout",
+    "view_now": "Voir maintenant"
   },
   "instance_message_title": "Envoyer un message instantané",
   "instance_message": "Bonjour {name}, Je m'appelle {author} de {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "À feuilles persistantes",
     "#214C30": "Forêt",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Feuille",
     "#558450": "Aqua clair",
     "#96B5C9": "Bleu clair",
@@ -951,7 +989,9 @@ export default {
     "file": "Dossier",
     "file_description": "Tous les fichiers autorisés comme la vidéo de cours en ligne, les documents téléchargeables.",
     "service": "Un service",
-    "service_description": "Services comme : réparation, transport, enseignement."
+    "service_description": "Services comme : réparation, transport, enseignement.",
+    "subscription": "Abonnement",
+    "subscription_description": "Abonnements et facturation de produits, services ou contenus."
   },
   "license": {
     "free": "Libre",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Premier poste",
     "comment_at": "Sur",
-    "edit_comment": "Modifier le commentaire"
+    "edit_comment": "Modifier le commentaire",
+    "my_comments": "Mes commentaires"
   },
   "customer_club": {
     "bronze": "Bronze",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Code de vérification",
     "msg_title": "Salut,",
     "msg_body": "Veuillez vous connecter. Cela ne prend que quelques secondes.",
-    "login_apple": "Connectez-vous avec Apple"
+    "login_apple": "Connectez-vous avec Apple",
+    "login_email": "Connexion par e-mail",
+    "email_login_step_1": "Veuillez fournir une adresse e-mail valide et nous lui enverrons le code de connexion. Aucune inscription n'est nécessaire.",
+    "email_login_step_2": "Êtes-vous certain d'avoir correctement saisi votre adresse e-mail ? Nous enverrons le code de connexion à l'e-mail fourni, veuillez donc vous assurer de son exactitude.",
+    "email_login_step_3": "Nous avons envoyé un code à votre adresse e-mail. Veuillez noter que le code expirera dans 10 minutes."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Enregistrer le message",
     "notifications": {
       "success": "Vos données d'entrée ont été enregistrées."
-    }
+    },
+    "product_inputs_preview_message": "Ces options de personnalisation sont disponibles pour votre produit commandé. Une fois l'article ajouté à votre panier, vous pourrez faire des ajustements ici."
   },
   "faq": {
     "faq": "Questions fréquemment posées",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Dur",
     "intermediate": "Intermédiaire",
     "easy": "Facile"
+  },
+  "billing_period": {
+    "Daily": "du quotidien",
+    "Weekly": "Hebdomadaire",
+    "Monthly": "Mensuel",
+    "Every3Months": "Tous les 3 mois",
+    "Every6Months": "Tous les 6 mois",
+    "Yearly": "Annuel"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Ah pas bon !",
+    "between2_3": "C'est bon!",
+    "between3_4": "Les gens aiment ça!",
+    "between4_5": "Les gens adorent ça !"
   }
 };

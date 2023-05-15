@@ -603,7 +603,34 @@ export default {
     "deleted": "Dzadzimwa",
     "variant": "Variant",
     "secure": "Secure",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "incl.",
+    "payment_not_settled": "Payment haina kugadziriswa!",
+    "orders_list": "Orders list",
+    "subscription_plan": "Kunyoresa chirongwa",
+    "contents": "Zviri mukati",
+    "pricings": "Mitengo",
+    "static_page": "Static peji",
+    "shop_button": "Bhatani rekutenga",
+    "embed": "Embed",
+    "over": "Over",
+    "tax_vary_by_location": "siyana. nzvimbo",
+    "product_type": "Chigadzirwa mhando",
+    "tax_id": "Mutero ID",
+    "business_name": "Zita rebhizimisi",
+    "invoice": "Invoice",
+    "included_in_the_product": "Inosanganisirwa muchigadzirwa",
+    "included_in_the_product_description": "Chigadzirwa chacho chinosanganisira zvikamu zvinotevera",
+    "cross_sell": "Muchinjikwa Sell",
+    "discount_off": "OFF",
+    "extra_discount": "Extra Discount",
+    "template": "Template",
+    "in_cart": "Mungoro",
+    "pros_and_cons": "Zvayakanakira nezvayakaipira",
+    "related_products": "Related Products",
+    "related_categories": "Related Categories",
+    "badges": "Mabheji",
+    "explore": "Explore"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Regenerate",
     "add_message": "Wedzera meseji",
     "continue_chat": "Ramba uchikurukura",
-    "add_new_message": "Wedzera mutsva meseji"
+    "add_new_message": "Wedzera mutsva meseji",
+    "change_setting": "Chinja marongero",
+    "delete_all": "Delete All",
+    "transfer_fund": "Transfer fund",
+    "reverse_fund": "Reverse fund",
+    "settlement": "Settlement",
+    "refund": "Refund",
+    "partial_refund": "Partial Refund",
+    "change_payment_method": "Chinja nzira yekubhadhara",
+    "buy": "Buy",
+    "view_all": "View All",
+    "view_now": "Ona Iyezvino"
   },
   "instance_message_title": "Tumira meseji ipapo",
   "instance_message": "Hi {name}, Zita rangu ndinonzi {author} kubva ku{company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Sango",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Leaf",
     "#558450": "Light Aqua",
     "#96B5C9": "Chiedza cheBlue",
@@ -951,7 +989,9 @@ export default {
     "file": "File",
     "file_description": "Ese mafaera anotenderwa senge online kosi vhidhiyo, zvinyorwa zvinodhawunirodha.",
     "service": "Service",
-    "service_description": "Masevhisi akaita se: kugadzirisa, chekufambisa, kudzidzisa."
+    "service_description": "Masevhisi akaita se: kugadzirisa, chekufambisa, kudzidzisa.",
+    "subscription": "Kunyoresa",
+    "subscription_description": "Kunyoreswa uye invoice yezvigadzirwa, masevhisi, kana zvirimo."
   },
   "license": {
     "free": "Free",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "First post",
     "comment_at": "On",
-    "edit_comment": "Edit Comment"
+    "edit_comment": "Edit Comment",
+    "my_comments": "Maonero angu"
   },
   "customer_club": {
     "bronze": "Bronze",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Verification code",
     "msg_title": "Mhoro,",
     "msg_body": "Please login. Zvinotora masekonzi mashoma.",
-    "login_apple": "Pinda neApple"
+    "login_apple": "Pinda neApple",
+    "login_email": "Login ne Email",
+    "email_login_step_1": "Ndokumbira upe kero yeemail inoshanda, uye isu tichatumira iyo login kodhi kwairi. Hapana kunyoresa kunodiwa.",
+    "email_login_step_2": "Une chokwadi here kuti waisa email kero yako nenzira kwayo? Tichange tichitumira kodhi yekupinda kune iyo email yakapihwa, saka ndapota ita shuwa kuti ndeyechokwadi.",
+    "email_login_step_3": "Tatumira kodhi kune yako email. Ndokumbira utarise kuti kodhi ichapera mumaminitsi gumi."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Sevha Mharidzo",
     "notifications": {
       "success": "Yako data yachengetwa."
-    }
+    },
+    "product_inputs_preview_message": "Idzi sarudzo dzekugadzirisa dziripo kune chako chigadzirwa. Kana chinhu chacho chawedzerwa pangoro yako, uchakwanisa kugadzirisa pano."
   },
   "faq": {
     "faq": "Mibvunzo Inowanzo bvunzwa",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Zvakaoma",
     "intermediate": "Pakati",
     "easy": "Easy"
+  },
+  "billing_period": {
+    "Daily": "Daily",
+    "Weekly": "Weekly",
+    "Monthly": "Monthly",
+    "Every3Months": "Every 3 months",
+    "Every6Months": "Mwedzi mitanhatu yese",
+    "Yearly": "Gore negore"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Ah hazvina kunaka!",
+    "between2_3": "Zvakanaka!",
+    "between3_4": "Vanhu vanozvifarira!",
+    "between4_5": "Vanhu vanozvida!"
   }
 };

@@ -603,7 +603,34 @@ export default {
     "deleted": "ተሰርዟል።",
     "variant": "ተለዋጭ",
     "secure": "ደህንነቱ የተጠበቀ",
-    "admin": "አስተዳዳሪ"
+    "admin": "አስተዳዳሪ",
+    "tax_included_abstract": "ጨምሮ።",
+    "payment_not_settled": "ክፍያ አልተጠናቀቀም!",
+    "orders_list": "የትእዛዝ ዝርዝር",
+    "subscription_plan": "የደንበኝነት ምዝገባ እቅድ",
+    "contents": "ይዘቶች",
+    "pricings": "ዋጋዎች",
+    "static_page": "የማይንቀሳቀስ ገጽ",
+    "shop_button": "የሱቅ አዝራር",
+    "embed": "መክተት",
+    "over": "አልቋል",
+    "tax_vary_by_location": "ይለያያሉ. አካባቢ",
+    "product_type": "የምርት አይነት",
+    "tax_id": "የግብር መታወቂያ",
+    "business_name": "የንግድ ስም",
+    "invoice": "ደረሰኝ",
+    "included_in_the_product": "በምርቱ ውስጥ ተካትቷል",
+    "included_in_the_product_description": "ምርቱ የሚከተሉትን አካላት ያካትታል",
+    "cross_sell": "ተሻጋሪ ሽያጭ",
+    "discount_off": "OFF",
+    "extra_discount": "ተጨማሪ ቅናሽ",
+    "template": "አብነት",
+    "in_cart": "በጋሪ",
+    "pros_and_cons": "ጥቅሞች እና ጉዳቶች",
+    "related_products": "ተዛማጅ ምርቶች",
+    "related_categories": "ተዛማጅ ምድቦች",
+    "badges": "ባጆች",
+    "explore": "ያስሱ"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "እንደገና ማመንጨት",
     "add_message": "መልእክት ጨምር",
     "continue_chat": "ውይይት ይቀጥሉ",
-    "add_new_message": "አዲስ መልእክት ጨምር"
+    "add_new_message": "አዲስ መልእክት ጨምር",
+    "change_setting": "ቅንብርን ይቀይሩ",
+    "delete_all": "ሁሉንም ሰርዝ",
+    "transfer_fund": "የዝውውር ፈንድ",
+    "reverse_fund": "የተገላቢጦሽ ፈንድ",
+    "settlement": "ሰፈራ",
+    "refund": "ተመላሽ ገንዘብ",
+    "partial_refund": "ከፊል ተመላሽ ገንዘብ",
+    "change_payment_method": "የመክፈያ ዘዴን ይቀይሩ",
+    "buy": "ግዛ",
+    "view_all": "ሁሉንም ይመልከቱ",
+    "view_now": "አሁን ይመልከቱ"
   },
   "instance_message_title": "ፈጣን መልእክት ላክ",
   "instance_message": "ሰላም {name}፣ ስሜ {author} ነው ከ{company}።",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "ጫካ",
     "#DC2867": "ፉቺያ",
-    "#38561F" :"ኬሊ",
+    "#38561F": "ኬሊ",
     "#5C884D": "ቅጠል",
     "#558450": "ፈካ ያለ አኳ",
     "#96B5C9": "ዉሃ ሰማያዊ",
@@ -951,7 +989,9 @@ export default {
     "file": "ፋይል",
     "file_description": "ሁሉም የተፈቀዱ ፋይሎች እንደ የመስመር ላይ ኮርስ ቪዲዮ፣ ሊወርዱ የሚችሉ ሰነዶች።",
     "service": "አገልግሎት",
-    "service_description": "አገልግሎቶች እንደ: ጥገና, መጓጓዣ, ማስተማር."
+    "service_description": "አገልግሎቶች እንደ: ጥገና, መጓጓዣ, ማስተማር.",
+    "subscription": "የደንበኝነት ምዝገባ",
+    "subscription_description": "ለምርቶች፣ አገልግሎቶች ወይም ይዘቶች የደንበኝነት ምዝገባዎች እና ደረሰኞች።"
   },
   "license": {
     "free": "ፍርይ",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "የመጀመሪያ ልጥፍ",
     "comment_at": "በርቷል",
-    "edit_comment": "አስተያየት አርትዕ"
+    "edit_comment": "አስተያየት አርትዕ",
+    "my_comments": "የእኔ አስተያየቶች"
   },
   "customer_club": {
     "bronze": "ነሐስ",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "የማረጋገጫ የሚስጥር ቁጥር",
     "msg_title": "ታዲያስ,",
     "msg_body": "እባክዎ ይግቡ። ጥቂት ሰከንዶች ብቻ ይወስዳል።",
-    "login_apple": "በአፕል ይግቡ"
+    "login_apple": "በአፕል ይግቡ",
+    "login_email": "በኢሜል ይግቡ",
+    "email_login_step_1": "እባክዎ ትክክለኛ የኢሜይል አድራሻ ያቅርቡ፣ እና የመግቢያ ኮዱን ወደ እሱ እንልካለን። ምንም ምዝገባ አያስፈልግም.",
+    "email_login_step_2": "የኢሜል አድራሻህን በትክክል እንዳስገባህ እርግጠኛ ነህ? የመግቢያ ኮዱን ወደ ተጠቀሰው ኢሜል እንልካለን፣ ስለዚህ እባክዎን ትክክለኛነት ያረጋግጡ።",
+    "email_login_step_3": "ወደ ኢሜልዎ ኮድ ልከናል። እባክዎን ኮዱ በ10 ደቂቃ ውስጥ ጊዜው ያበቃል።"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "መልእክት አስቀምጥ",
     "notifications": {
       "success": "የግቤትዎ ውሂብ ተቀምጧል።"
-    }
+    },
+    "product_inputs_preview_message": "እነዚህ የማበጀት አማራጮች ለታዘዙት ምርትዎ ይገኛሉ። አንዴ እቃው ወደ ጋሪዎ ከተጨመረ፣ እዚህ ማስተካከያዎችን ማድረግ ይችላሉ።"
   },
   "faq": {
     "faq": "ተደጋግሞ የሚነሱ ጥያቄዎች",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "ከባድ",
     "intermediate": "መካከለኛ",
     "easy": "ቀላል"
+  },
+  "billing_period": {
+    "Daily": "በየቀኑ",
+    "Weekly": "በየሳምንቱ",
+    "Monthly": "ወርሃዊ",
+    "Every3Months": "በየ 3 ወሩ",
+    "Every6Months": "በየ6 ወሩ",
+    "Yearly": "በየአመቱ"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "ኦህ ጥሩ አይደለም!",
+    "between2_3": "እሺ ይሁን!",
+    "between3_4": "ሰዎች ይወዳሉ!",
+    "between4_5": "ሰዎች ይወዳሉ!"
   }
 };

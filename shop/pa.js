@@ -81,7 +81,9 @@ export default {
     "offer_message": "ਇਹਨਾਂ ਆਈਟਮਾਂ ਲਈ {min_quantity} ਖਰੀਦੋ {percent}% ਦੀ ਛੋਟ ਪ੍ਰਾਪਤ ਕਰੋ",
     "up_to": "ਪ੍ਰਤੀ ਆਰਡਰ {per_order}x ਤੱਕ",
     "get_free": "ਮੁਫ਼ਤ ਪ੍ਰਾਪਤ ਕਰੋ",
-    "get_off": "{percent}% ਦੀ ਛੋਟ ਪ੍ਰਾਪਤ ਕਰੋ"
+    "get_off": "{percent}% ਦੀ ਛੋਟ ਪ੍ਰਾਪਤ ਕਰੋ",
+    "select_a_vendor_message": "ਕਿਰਪਾ ਕਰਕੇ ਕੋਈ ਵਿਕਰੇਤਾ ਚੁਣੋ।",
+    "product_description_header": "ਪੇਸ਼ ਹੈ {product}"
   },
   "buy_button": {
     "waiting_for_availability": "ਉਪਲਬਧਤਾ ਦੀ ਉਡੀਕ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "ਇਹ ਉਪਲਬਧ ਹੋਣ 'ਤੇ ਅਸੀਂ ਤੁਹਾਨੂੰ ਦੱਸਾਂਗੇ।",
       "inform_remove_success": "ਤੁਹਾਨੂੰ ਉਡੀਕ ਸੂਚੀ ਵਿੱਚੋਂ ਹਟਾ ਦਿੱਤਾ ਗਿਆ ਹੈ।"
-    }
+    },
+    "subscribe_now": "ਹੁਣੇ ਸਬਸਕ੍ਰਾਈਬ ਕਰੋ",
+    "unsubscribe": "ਗਾਹਕੀ ਰੱਦ ਕਰੋ",
+    "select_a_subscription_plan": "ਪਹਿਲਾਂ ਇੱਕ ਯੋਜਨਾ ਚੁਣੋ!",
+    "manage_subscriptions": "ਗਾਹਕੀਆਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ"
   },
   "product": {
     "review": "ਸਮੀਖਿਆ",
@@ -109,7 +115,8 @@ export default {
     "warranty": "ਵਾਰੰਟੀ",
     "return_policy": "ਵਾਪਸੀ ਨੀਤੀ",
     "guide": "ਗਾਈਡ",
-    "shipping": "ਸ਼ਿਪਿੰਗ"
+    "shipping": "ਸ਼ਿਪਿੰਗ",
+    "related_categories_title": "ਸੰਗ੍ਰਹਿ ਵਿੱਚ ਖੋਜੋ"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "ਕੁੱਲ ਆਈਟਮਾਂ ਦੀ ਕੀਮਤ",
       "total_items_discount": "ਆਈਟਮਾਂ ਦੀ ਛੋਟ",
       "total_price_after_offers": "ਪੇਸ਼ਕਸ਼ਾਂ ਨੂੰ ਲਾਗੂ ਕਰਨ ਤੋਂ ਬਾਅਦ ਕੁੱਲ",
-      "buyer_payment": "ਖਰੀਦਦਾਰ ਭੁਗਤਾਨ ਦੀ ਰਕਮ"
+      "buyer_payment": "ਖਰੀਦਦਾਰ ਭੁਗਤਾਨ ਦੀ ਰਕਮ",
+      "total_order_price_before_tax": "ਪ੍ਰੀ-ਟੈਕਸ ਕੁੱਲ ਕੀਮਤ"
     },
     "delivery": {
       "title": "ਡਿਲਿਵਰੀ",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "ਵੱਖਰੀ ਬਿਲਿੰਗ ਜਾਣਕਾਰੀ",
     "basket_empty": "ਟੋਕਰੀ ਖਾਲੀ ਹੈ",
     "extra_shipping_count": "ਤੁਹਾਨੂੰ {count} ਪੈਕੇਜ ਪ੍ਰਾਪਤ ਹੋਣਗੇ।",
-    "select_location_error": "ਨਕਸ਼ੇ 'ਤੇ ਮਾਲ ਦੀ ਰਸੀਦ ਦਾ ਸਥਾਨ ਲੱਭੋ ਅਤੇ ਪ੍ਰਾਪਤਕਰਤਾ ਦਾ ਸਹੀ ਪਤਾ ਨਿਰਧਾਰਤ ਕਰਨ ਲਈ ਨਕਸ਼ੇ ਦੇ ਵਿਚਕਾਰ ਸੂਚਕ 'ਤੇ ਕਲਿੱਕ ਕਰੋ।"
+    "select_location_error": "ਨਕਸ਼ੇ 'ਤੇ ਮਾਲ ਦੀ ਰਸੀਦ ਦਾ ਸਥਾਨ ਲੱਭੋ ਅਤੇ ਪ੍ਰਾਪਤਕਰਤਾ ਦਾ ਸਹੀ ਪਤਾ ਨਿਰਧਾਰਤ ਕਰਨ ਲਈ ਨਕਸ਼ੇ ਦੇ ਵਿਚਕਾਰ ਸੂਚਕ 'ਤੇ ਕਲਿੱਕ ਕਰੋ।",
+    "same_billing_address_desc": "ਬਿਲਿੰਗ ਪਤਾ ਸ਼ਿਪਿੰਗ ਪਤੇ ਦੇ ਸਮਾਨ ਹੈ।",
+    "custom_billing_info_desc": "ਤੁਸੀਂ ਆਪਣਾ ਟੈਕਸ ਨੰਬਰ ਦਰਜ ਕਰ ਸਕਦੇ ਹੋ ਅਤੇ ਬਿਲਿੰਗ ਲਈ ਇੱਕ ਵੱਖਰਾ ਪਤਾ ਸੈੱਟ ਕਰ ਸਕਦੇ ਹੋ।",
+    "billing_business_desc": "ਇਹ ਟੈਕਸ ਨੰਬਰ ਵਾਲਾ ਕਾਰੋਬਾਰੀ ਖਾਤਾ ਹੈ।",
+    "billing_personal_desc": "ਇਹ ਇੱਕ ਨਿੱਜੀ ਖਾਤਾ ਹੈ।",
+    "no_billing_title": "ਕੋਈ ਬਿਲਿੰਗ ਨਹੀਂ",
+    "no_billing_desc": "ਬਿਲਿੰਗ ਪਤਾ ਖਾਲੀ ਛੱਡੋ।"
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "ਬਾਹਰੀ ਆਰਡਰ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰੋ",
     "address_included": "ਟੋਕਰੀ ਦੀਆਂ ਚੀਜ਼ਾਂ + ਪਤਾ ਸਾਂਝਾ ਕਰੋ",
     "address_excluded": "ਸਿਰਫ਼ ਟੋਕਰੀ ਦੀਆਂ ਚੀਜ਼ਾਂ ਸਾਂਝੀਆਂ ਕਰੋ"
+  },
+  "variants_view": {
+    "prices": "ਕੀਮਤਾਂ",
+    "inventory": "ਵਸਤੂ ਸੂਚੀ",
+    "discount": "ਛੂਟ"
+  },
+  "rating": {
+    "product_rating_message": "ਇਸ ਉਤਪਾਦ ਨੂੰ 5 ਵਿੱਚੋਂ {rate} ਸਿਤਾਰੇ ਅਤੇ {rate_count} ਲੋਕਾਂ ਦੁਆਰਾ ਰੇਟਿੰਗ ਪ੍ਰਾਪਤ ਹੋਈ ਹੈ।"
+  },
+  "related_products": {
+    "card": {
+      "title": "ਪੜਚੋਲ ਕਰੋ!",
+      "same_tags_subtitle": "ਹੋਰ ਕਮਾਲ ਦੀਆਂ ਸਬੰਧਤ ਚੀਜ਼ਾਂ ਲੱਭੋ।",
+      "same_category_subtitle": "ਇਸ ਸ਼੍ਰੇਣੀ ਵਿੱਚ ਹੋਰ ਕਮਾਲ ਦੀਆਂ ਚੀਜ਼ਾਂ ਲੱਭੋ।"
+    }
   }
 };

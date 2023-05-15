@@ -603,7 +603,34 @@ export default {
     "deleted": "Ezabatu da",
     "variant": "Aldaera",
     "secure": "Segurua",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "barne",
+    "payment_not_settled": "Ordainketa ez da kitatu!",
+    "orders_list": "Eskaerak zerrenda",
+    "subscription_plan": "Harpidetza plana",
+    "contents": "Edukiak",
+    "pricings": "Prezioak",
+    "static_page": "Orri estatikoa",
+    "shop_button": "Dendaren botoia",
+    "embed": "Kapsulatu",
+    "over": "Amaitu",
+    "tax_vary_by_location": "aldatu. kokapena",
+    "product_type": "Produktu mota",
+    "tax_id": "NAN fiskala",
+    "business_name": "Enpresaren izena",
+    "invoice": "Faktura",
+    "included_in_the_product": "Produktuan sartuta",
+    "included_in_the_product_description": "Produktuak osagai hauek ditu",
+    "cross_sell": "Salmenta gurutzatua",
+    "discount_off": "OFF",
+    "extra_discount": "Deskontu gehigarria",
+    "template": "Txantiloia",
+    "in_cart": "Saskian",
+    "pros_and_cons": "Abantailak eta desabantailak",
+    "related_products": "Lotutako produktuak",
+    "related_categories": "Erlazionatutako Kategoriak",
+    "badges": "Txapak",
+    "explore": "Arakatu"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Birsortu",
     "add_message": "Gehitu mezua",
     "continue_chat": "Jarraitu berriketan",
-    "add_new_message": "Gehitu mezu berria"
+    "add_new_message": "Gehitu mezu berria",
+    "change_setting": "Aldatu ezarpena",
+    "delete_all": "Ezabatu guztiak",
+    "transfer_fund": "Transferentzia funtsa",
+    "reverse_fund": "Alderantzizko funtsa",
+    "settlement": "Likidazioa",
+    "refund": "Itzulketa",
+    "partial_refund": "Itzulketa partziala",
+    "change_payment_method": "Aldatu ordainketa-metodoa",
+    "buy": "Erosi",
+    "view_all": "Ikusi guztiak",
+    "view_now": "Ikusi orain"
   },
   "instance_message_title": "Bidali berehalako mezua",
   "instance_message": "Kaixo {name}, {author}ko {company} naiz.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Hosto iraunkorrekoa",
     "#214C30": "Basoa",
     "#DC2867": "Fuksia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Hostoa",
     "#558450": "Aqua argia",
     "#96B5C9": "Urdin argia",
@@ -951,7 +989,9 @@ export default {
     "file": "Fitxategia",
     "file_description": "Baimendutako fitxategi guztiak, adibidez, lineako ikastaroaren bideoa, deskarga daitezkeen dokumentuak.",
     "service": "Zerbitzua",
-    "service_description": "Honelako zerbitzuak: konponketa, garraioa, irakaskuntza."
+    "service_description": "Honelako zerbitzuak: konponketa, garraioa, irakaskuntza.",
+    "subscription": "Harpidetza",
+    "subscription_description": "Produktu, zerbitzu edo edukien harpidetzak eta fakturazioa."
   },
   "license": {
     "free": "Doan",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Lehenengo mezua",
     "comment_at": "On",
-    "edit_comment": "Editatu iruzkina"
+    "edit_comment": "Editatu iruzkina",
+    "my_comments": "Nire iruzkinak"
   },
   "customer_club": {
     "bronze": "Brontzea",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Egiaztapen-kodea",
     "msg_title": "Kaixo,",
     "msg_body": "Mesedez, hasi saioa. Segundo batzuk besterik ez ditu behar.",
-    "login_apple": "Hasi saioa Apple-rekin"
+    "login_apple": "Hasi saioa Apple-rekin",
+    "login_email": "Hasi saioa posta elektroniko bidez",
+    "email_login_step_1": "Mesedez, eman baliozko helbide elektroniko bat eta hari saio-hasiera kodea bidaliko diogu. Ez da izena eman behar.",
+    "email_login_step_2": "Ziur zure helbide elektronikoa behar bezala sartu duzula? Saio-kodea bidaliko dugu emandako posta elektronikora, beraz, ziurtatu zehaztasuna.",
+    "email_login_step_3": "Kode bat bidali dugu zure posta elektronikora. Kontuan izan kodea 10 minutu barru iraungiko dela."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Gorde mezua",
     "notifications": {
       "success": "Zure sarrerako datuak gorde dira."
-    }
+    },
+    "product_inputs_preview_message": "Pertsonalizazio aukera hauek eskuragarri daude eskatutako produkturako. Artikulua zure saskira gehitu ondoren, hemen doikuntzak egin ahal izango dituzu."
   },
   "faq": {
     "faq": "Galdera arruntak",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Gogorra",
     "intermediate": "Tartekoa",
     "easy": "Erraza"
+  },
+  "billing_period": {
+    "Daily": "Egunero",
+    "Weekly": "Asterokoa",
+    "Monthly": "Hilerokoa",
+    "Every3Months": "3 hilabetero",
+    "Every6Months": "6 hilabetero",
+    "Yearly": "Urtero"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oi ez ona!",
+    "between2_3": "Ondo da!",
+    "between3_4": "Jendeari gustatzen zaio!",
+    "between4_5": "Jendeak maite du!"
   }
 };

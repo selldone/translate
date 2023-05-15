@@ -81,7 +81,9 @@ export default {
     "offer_message": "Ji bo van tiştan {min_quantity} bikire {percent}% erzaniyê bistînin",
     "up_to": "Ji her fermanê heya {per_order}x",
     "get_free": "BERSÎVÊ BIBIN",
-    "get_off": "BIBIN {percent}% JIN"
+    "get_off": "BIBIN {percent}% JIN",
+    "select_a_vendor_message": "Ji kerema xwe firoşkarek hilbijêre.",
+    "product_description_header": "Naskirina {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Li benda hebûna",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Dema ku hebe em ê we agahdar bikin.",
       "inform_remove_success": "Tu ji lîsteya bendewariyê hatin derxistin."
-    }
+    },
+    "subscribe_now": "Subscribe Now",
+    "unsubscribe": "Abonetiyê nekirin",
+    "select_a_subscription_plan": "Pêşî planek hilbijêrin!",
+    "manage_subscriptions": "Birêvebirina abonetiyê"
   },
   "product": {
     "review": "Axaftin",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Libersekînîn",
     "return_policy": "Siyaseta Vegerê",
     "guide": "Birêvebir",
-    "shipping": "Shipping"
+    "shipping": "Shipping",
+    "related_categories_title": "Di berhevokan de kifş bikin"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Tevahiya Tiştên Biha",
       "total_items_discount": "Tiştên Discount",
       "total_price_after_offers": "Bi tevahî piştî serlêdana pêşniyaran",
-      "buyer_payment": "Mîqdara dravdana xerîdar"
+      "buyer_payment": "Mîqdara dravdana xerîdar",
+      "total_order_price_before_tax": "Berî bacê Bihayê Giştî"
     },
     "delivery": {
       "title": "Şandinî",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Agahiyên billing cuda",
     "basket_empty": "Basket vala ye",
     "extra_shipping_count": "Hûn dê {count} pakêtan bistînin.",
-    "select_location_error": "Li ser nexşeyê cîhê wergirtina barkirinê bibînin û li ser nîşana li nîvê nexşeyê bikirtînin da ku navnîşana rastîn a wergir diyar bikin."
+    "select_location_error": "Li ser nexşeyê cîhê wergirtina barkirinê bibînin û li ser nîşana li nîvê nexşeyê bikirtînin da ku navnîşana rastîn a wergir diyar bikin.",
+    "same_billing_address_desc": "Navnîşana billing heman navnîşana barkirinê ye.",
+    "custom_billing_info_desc": "Hûn dikarin jimara TAX-a xwe têkevin û navnîşek cûda ji bo fatûreyê destnîşan bikin.",
+    "billing_business_desc": "Ew hesabek karsaziyek bi jimareyek TAX-ê ye.",
+    "billing_personal_desc": "Ew hesabek kesane ye.",
+    "no_billing_title": "No billing",
+    "no_billing_desc": "Navnîşana fatûreyê vala bihêle."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Fermana derveyî bistînin",
     "address_included": "Tiştên selikê + Navnîşan parve bikin",
     "address_excluded": "Tenê tiştên selikê parve bikin"
+  },
+  "variants_view": {
+    "prices": "Prices",
+    "inventory": "Inventory",
+    "discount": "Kêmkirinî"
+  },
+  "rating": {
+    "product_rating_message": "Vê hilberê ji 5 stêran {rate} nirxandiye û ji hêla {rate_count} kesan ve hatiye nirxand."
+  },
+  "related_products": {
+    "card": {
+      "title": "Lêkolîn!",
+      "same_tags_subtitle": "Tiştên têkildar ên balkêştir bibînin.",
+      "same_category_subtitle": "Di vê kategoriyê de bêtir tiştên balkêş bibînin."
+    }
   }
 };

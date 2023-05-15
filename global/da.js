@@ -603,7 +603,34 @@ export default {
     "deleted": "Slettet",
     "variant": "Variant",
     "secure": "Sikker",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "inkl.",
+    "payment_not_settled": "Betaling ikke afgjort!",
+    "orders_list": "Ordreliste",
+    "subscription_plan": "Abonnementsplan",
+    "contents": "Indhold",
+    "pricings": "Priser",
+    "static_page": "Statisk side",
+    "shop_button": "Butiksknap",
+    "embed": "Indlejre",
+    "over": "Over",
+    "tax_vary_by_location": "variere. Beliggenhed",
+    "product_type": "Produkttype",
+    "tax_id": "Skatte ID",
+    "business_name": "Virksomhedens navn",
+    "invoice": "Faktura",
+    "included_in_the_product": "Inkluderet i produktet",
+    "included_in_the_product_description": "Produktet indeholder følgende komponenter",
+    "cross_sell": "Krydssalg",
+    "discount_off": "OFF",
+    "extra_discount": "Ekstra rabat",
+    "template": "Skabelon",
+    "in_cart": "I kurv",
+    "pros_and_cons": "Fordele og ulemper",
+    "related_products": "Relaterede produkter",
+    "related_categories": "Relaterede kategorier",
+    "badges": "Badges",
+    "explore": "Udforske"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Regenerer",
     "add_message": "Tilføj besked",
     "continue_chat": "Fortsæt chatten",
-    "add_new_message": "Tilføj ny besked"
+    "add_new_message": "Tilføj ny besked",
+    "change_setting": "Skift indstilling",
+    "delete_all": "Slet alt",
+    "transfer_fund": "Overfør fond",
+    "reverse_fund": "Omvendt fond",
+    "settlement": "Afregning",
+    "refund": "Tilbagebetale",
+    "partial_refund": "Delvis tilbagebetaling",
+    "change_payment_method": "Skift betalingsmetode",
+    "buy": "Købe",
+    "view_all": "Se alt",
+    "view_now": "Se nu"
   },
   "instance_message_title": "Send øjeblikkelig besked",
   "instance_message": "Hej {name}, Mit navn er {author} fra {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Stedsegrøn",
     "#214C30": "Skov",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Blad",
     "#558450": "Lys Aqua",
     "#96B5C9": "Lyseblå",
@@ -951,7 +989,9 @@ export default {
     "file": "Fil",
     "file_description": "Alle tilladte filer såsom online kursusvideo, dokumenter, der kan downloades.",
     "service": "Service",
-    "service_description": "Tjenester som: reparation, transport, undervisning."
+    "service_description": "Tjenester som: reparation, transport, undervisning.",
+    "subscription": "Abonnement",
+    "subscription_description": "Abonnementer og fakturering for produkter, tjenester eller indhold."
   },
   "license": {
     "free": "Ledig",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Første indlæg",
     "comment_at": "På",
-    "edit_comment": "Rediger kommentar"
+    "edit_comment": "Rediger kommentar",
+    "my_comments": "Mine kommentarer"
   },
   "customer_club": {
     "bronze": "Bronze",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Verifikationskode",
     "msg_title": "Hej,",
     "msg_body": "Vær venlig at logge ind. Det tager kun et par sekunder.",
-    "login_apple": "Log ind med Apple"
+    "login_apple": "Log ind med Apple",
+    "login_email": "Log på via e-mail",
+    "email_login_step_1": "Angiv venligst en gyldig e-mailadresse, så sender vi loginkoden til den. Ingen registrering er nødvendig.",
+    "email_login_step_2": "Er du sikker på, at du har indtastet din e-mailadresse korrekt? Vi sender loginkoden til den angivne e-mail, så sørg for, at den er nøjagtig.",
+    "email_login_step_3": "Vi har sendt en kode til din e-mail. Bemærk venligst, at koden udløber om 10 minutter."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Gem besked",
     "notifications": {
       "success": "Dine inputdata er blevet gemt."
-    }
+    },
+    "product_inputs_preview_message": "Disse tilpasningsmuligheder er tilgængelige for dit bestilte produkt. Når varen er tilføjet til din indkøbskurv, vil du kunne foretage justeringer her."
   },
   "faq": {
     "faq": "Ofte stillede spørgsmål",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Svært",
     "intermediate": "Mellemliggende",
     "easy": "Let"
+  },
+  "billing_period": {
+    "Daily": "Daglige",
+    "Weekly": "Ugentlig",
+    "Monthly": "Månedlige",
+    "Every3Months": "Hver 3. måned",
+    "Every6Months": "Hver 6. måned",
+    "Yearly": "Årligt"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Og ikke godt!",
+    "between2_3": "Det er ok!",
+    "between3_4": "Folk kan lide det!",
+    "between4_5": "Folk elsker det!"
   }
 };

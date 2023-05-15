@@ -603,7 +603,34 @@ export default {
     "deleted": "raderade",
     "variant": "Variant",
     "secure": "Säkra",
-    "admin": "Administration"
+    "admin": "Administration",
+    "tax_included_abstract": "inkl.",
+    "payment_not_settled": "Betalning ej reglerad!",
+    "orders_list": "Beställningslista",
+    "subscription_plan": "Prenumerationsplan",
+    "contents": "Innehåll",
+    "pricings": "Priser",
+    "static_page": "Statisk sida",
+    "shop_button": "Butiksknapp",
+    "embed": "Bädda in",
+    "over": "Över",
+    "tax_vary_by_location": "variera. plats",
+    "product_type": "Produkttyp",
+    "tax_id": "Skatte ID",
+    "business_name": "Företagsnamn",
+    "invoice": "Faktura",
+    "included_in_the_product": "Ingår i produkten",
+    "included_in_the_product_description": "Produkten innehåller följande komponenter",
+    "cross_sell": "Korsförsäljning",
+    "discount_off": "OFF",
+    "extra_discount": "Extra rabatt",
+    "template": "Mall",
+    "in_cart": "I kundvagn",
+    "pros_and_cons": "För-och nackdelar",
+    "related_products": "Relaterade produkter",
+    "related_categories": "relaterade kategorier",
+    "badges": "Märken",
+    "explore": "Utforska"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Regenerera",
     "add_message": "Lägg till meddelande",
     "continue_chat": "Fortsätt chatta",
-    "add_new_message": "Lägg till nytt meddelande"
+    "add_new_message": "Lägg till nytt meddelande",
+    "change_setting": "Ändra inställning",
+    "delete_all": "Radera allt",
+    "transfer_fund": "Överföra fond",
+    "reverse_fund": "Omvänd fond",
+    "settlement": "Lösning",
+    "refund": "Återbetalning",
+    "partial_refund": "Partiell återbetalning",
+    "change_payment_method": "Ändra betalningsmetod",
+    "buy": "köpa",
+    "view_all": "Visa alla",
+    "view_now": "Visa nu"
   },
   "instance_message_title": "Skicka snabbmeddelande",
   "instance_message": "Hej {name}, Jag heter {author} från {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Skog",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Blad",
     "#558450": "Ljus Aqua",
     "#96B5C9": "Ljusblå",
@@ -951,7 +989,9 @@ export default {
     "file": "Fil",
     "file_description": "Alla tillåtna filer som onlinekursvideo, nedladdningsbara dokument.",
     "service": "Service",
-    "service_description": "Tjänster som: reparation, transport, undervisning."
+    "service_description": "Tjänster som: reparation, transport, undervisning.",
+    "subscription": "Prenumeration",
+    "subscription_description": "Prenumerationer och fakturering för produkter, tjänster eller innehåll."
   },
   "license": {
     "free": "Fri",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Första inlägg",
     "comment_at": "På",
-    "edit_comment": "Redigera kommentar"
+    "edit_comment": "Redigera kommentar",
+    "my_comments": "Mina kommentarer"
   },
   "customer_club": {
     "bronze": "Brons",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Verifierings kod",
     "msg_title": "Hej,",
     "msg_body": "Vänligen logga in. Det tar bara några sekunder.",
-    "login_apple": "Logga in med Apple"
+    "login_apple": "Logga in med Apple",
+    "login_email": "Logga in via e-post",
+    "email_login_step_1": "Ange en giltig e-postadress så skickar vi inloggningskoden till den. Ingen registrering behövs.",
+    "email_login_step_2": "Är du säker på att du har angett din e-postadress korrekt? Vi kommer att skicka inloggningskoden till den angivna e-postadressen, så se till att den är korrekt.",
+    "email_login_step_3": "Vi har skickat en kod till din e-post. Observera att koden upphör att gälla om 10 minuter."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Spara meddelande",
     "notifications": {
       "success": "Dina indata har sparats."
-    }
+    },
+    "product_inputs_preview_message": "Dessa anpassningsalternativ är tillgängliga för din beställda produkt. När varan har lagts till i din varukorg kommer du att kunna göra justeringar här."
   },
   "faq": {
     "faq": "Vanliga frågor",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Hård",
     "intermediate": "Mellanliggande",
     "easy": "Lätt"
+  },
+  "billing_period": {
+    "Daily": "Dagligen",
+    "Weekly": "Varje vecka",
+    "Monthly": "En gång i månaden",
+    "Every3Months": "Var 3:e månad",
+    "Every6Months": "Var 6:e månad",
+    "Yearly": "Årlig"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Och inte bra!",
+    "between2_3": "Det är ok!",
+    "between3_4": "Folk gillar det!",
+    "between4_5": "Folk älskar det!"
   }
 };

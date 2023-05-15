@@ -603,7 +603,34 @@ export default {
     "deleted": "Gusiba",
     "variant": "Ibitandukanye",
     "secure": "Umutekano",
-    "admin": "Umuyobozi"
+    "admin": "Umuyobozi",
+    "tax_included_abstract": "incl.",
+    "payment_not_settled": "Kwishura ntabwo byakemuwe!",
+    "orders_list": "Urutonde",
+    "subscription_plan": "Gahunda yo kwiyandikisha",
+    "contents": "Ibirimo",
+    "pricings": "Ibiciro",
+    "static_page": "Urupapuro ruhagaze",
+    "shop_button": "Kugura Buto",
+    "embed": "Embed",
+    "over": "Byarangiye",
+    "tax_vary_by_location": "biratandukanye. ahantu",
+    "product_type": "Ubwoko bwibicuruzwa",
+    "tax_id": "Indangamuntu",
+    "business_name": "Izina ryubucuruzi",
+    "invoice": "Inyemezabuguzi",
+    "included_in_the_product": "Bikubiye mubicuruzwa",
+    "included_in_the_product_description": "Igicuruzwa kirimo ibice bikurikira",
+    "cross_sell": "Kugurisha Umusaraba",
+    "discount_off": "OFF",
+    "extra_discount": "Kugabanuka",
+    "template": "Inyandikorugero",
+    "in_cart": "Mu Gare",
+    "pros_and_cons": "Ibyiza n'ibibi",
+    "related_products": "Ibicuruzwa bifitanye isano",
+    "related_categories": "Ibyiciro bifitanye isano",
+    "badges": "Ikarita",
+    "explore": "Shakisha"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Kuvugurura",
     "add_message": "Ongeraho ubutumwa",
     "continue_chat": "Komeza kuganira",
-    "add_new_message": "Ongeraho ubutumwa bushya"
+    "add_new_message": "Ongeraho ubutumwa bushya",
+    "change_setting": "Hindura igenamiterere",
+    "delete_all": "Siba Byose",
+    "transfer_fund": "Kohereza ikigega",
+    "reverse_fund": "Subiza ikigega",
+    "settlement": "Gutura",
+    "refund": "Gusubizwa",
+    "partial_refund": "Gusubizwa igice",
+    "change_payment_method": "Hindura uburyo bwo kwishyura",
+    "buy": "Gura",
+    "view_all": "Reba Byose",
+    "view_now": "Reba Noneho"
   },
   "instance_message_title": "Ohereza ubutumwa bwihuse",
   "instance_message": "Muraho {name}, Nitwa {author} kuva {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Icyatsi cyose",
     "#214C30": "Ishyamba",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Ibibabi",
     "#558450": "Aqua Yoroheje",
     "#96B5C9": "Ubururu bwerurutse",
@@ -951,7 +989,9 @@ export default {
     "file": "Idosiye",
     "file_description": "Amadosiye yose yemewe nka videwo yamasomo kumurongo, inyandiko zishobora gukururwa.",
     "service": "Serivisi",
-    "service_description": "Serivisi nka: gusana, gutwara, kwigisha."
+    "service_description": "Serivisi nka: gusana, gutwara, kwigisha.",
+    "subscription": "Kwiyandikisha",
+    "subscription_description": "Kwiyandikisha no gutanga inyemezabuguzi kubicuruzwa, serivisi, cyangwa ibirimo."
   },
   "license": {
     "free": "Ubuntu",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Inyandiko ya mbere",
     "comment_at": "Kuri",
-    "edit_comment": "Hindura Igitekerezo"
+    "edit_comment": "Hindura Igitekerezo",
+    "my_comments": "Ibitekerezo byanjye"
   },
   "customer_club": {
     "bronze": "Umuringa",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Kode yo kugenzura",
     "msg_title": "Muraho,",
     "msg_body": "Nyamuneka injira. Bifata amasegonda make.",
-    "login_apple": "Injira na Apple"
+    "login_apple": "Injira na Apple",
+    "login_email": "Injira kuri imeri",
+    "email_login_step_1": "Nyamuneka tanga imeri yemewe, kandi twohereze kode yinjira. Nta kwiyandikisha bikenewe.",
+    "email_login_step_2": "Uzi neza ko winjije aderesi imeri neza? Tuzohereza kode yinjira kuri imeri yatanzwe, nyamuneka reba neza niba ari ukuri.",
+    "email_login_step_3": "Twohereje kode kuri imeri yawe. Nyamuneka menya ko code izarangira muminota 10."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Bika Ubutumwa",
     "notifications": {
       "success": "Amakuru yawe yinjiye yabitswe."
-    }
+    },
+    "product_inputs_preview_message": "Ihitamo ryihariye rirahari kubicuruzwa byawe byateganijwe. Ikintu kimaze kongerwaho mumagare yawe, uzashobora kugira ibyo uhindura hano."
   },
   "faq": {
     "faq": "Ibibazo Bikunze Kubazwa",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Biragoye",
     "intermediate": "Hagati",
     "easy": "Biroroshye"
+  },
+  "billing_period": {
+    "Daily": "Buri munsi",
+    "Weekly": "Buri cyumweru",
+    "Monthly": "Buri kwezi",
+    "Every3Months": "Buri mezi 3",
+    "Every6Months": "Buri mezi 6",
+    "Yearly": "Buri mwaka"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Och ntabwo ari byiza!",
+    "between2_3": "Nibyiza!",
+    "between3_4": "Abantu barabikunda!",
+    "between4_5": "Abantu barabikunda!"
   }
 };

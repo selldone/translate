@@ -603,7 +603,34 @@ export default {
     "deleted": "אויסגעמעקט",
     "variant": "וואַריאַנט",
     "secure": "זיכער",
-    "admin": "אַדמין"
+    "admin": "אַדמין",
+    "tax_included_abstract": "ינקל.",
+    "payment_not_settled": "צאָלונג נישט געזעצט!",
+    "orders_list": "אָרדערס רשימה",
+    "subscription_plan": "אַבאָנעמענט פּלאַן",
+    "contents": "אינהאַלט",
+    "pricings": "פּרייסינג",
+    "static_page": "סטאַטיק בלאַט",
+    "shop_button": "קראָם קנעפּל",
+    "embed": "עמבעד",
+    "over": "אַריבער",
+    "tax_vary_by_location": "בייַטן. אָרט",
+    "product_type": "פּראָדוקט טיפּ",
+    "tax_id": "שטייער שייַן",
+    "business_name": "געשעפט נאָמען",
+    "invoice": "ינווויס",
+    "included_in_the_product": "אַרייַנגערעכנט אין די פּראָדוקט",
+    "included_in_the_product_description": "דער פּראָדוקט כולל די פאלגענדע קאַמפּאָונאַנץ",
+    "cross_sell": "קרייַז פאַרקויפן",
+    "discount_off": "OFF",
+    "extra_discount": "עקסטרע אַראָפּרעכענען",
+    "template": "מוסטער",
+    "in_cart": "אין קאַרט",
+    "pros_and_cons": "מעלות און חסרונות",
+    "related_products": "פֿאַרבונדענע פּראָדוקטן",
+    "related_categories": "שייַכות קאַטעגאָריעס",
+    "badges": "באַדזשיז",
+    "explore": "ויספאָרשן"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "רידזשענערייט",
     "add_message": "לייג אָנזאָג",
     "continue_chat": "פאָרזעצן שמועסן",
-    "add_new_message": "לייג אַ נייַע אָנזאָג"
+    "add_new_message": "לייג אַ נייַע אָנזאָג",
+    "change_setting": "טוישן באַשטעטיקן",
+    "delete_all": "ויסמעקן אַלע",
+    "transfer_fund": "אַריבערפירן פאָנד",
+    "reverse_fund": "פאַרקערט פאָנד",
+    "settlement": "ייִשובֿ",
+    "refund": "צוריקצאָל",
+    "partial_refund": "טייל צוריקצאָל",
+    "change_payment_method": "טוישן צאָלונג אופֿן",
+    "buy": "קויפן",
+    "view_all": "זעה אלעס",
+    "view_now": "View איצט"
   },
   "instance_message_title": "שיקן רעגע אָנזאָג",
   "instance_message": "הי {name}, מיין נאָמען איז {author} פֿון {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "עווערגרין",
     "#214C30": "וואַלד",
     "#DC2867": "פוטשסיאַ",
-    "#38561F" :"קעלי",
+    "#38561F": "קעלי",
     "#5C884D": "בלאַט",
     "#558450": "ליכט אַקוואַ",
     "#96B5C9": "ליכטיג בלוי",
@@ -951,7 +989,9 @@ export default {
     "file": "טעקע",
     "file_description": "כל דערלויבט טעקעס ווי אָנליין לויף ווידעא, דאָוונלאָאַדאַבלע דאָקומענטן.",
     "service": "סערוויס",
-    "service_description": "סערוויסעס ווי: פאַרריכטן, טראַנספּערטיישאַן, לערנען."
+    "service_description": "סערוויסעס ווי: פאַרריכטן, טראַנספּערטיישאַן, לערנען.",
+    "subscription": "אַבאָנעמענט",
+    "subscription_description": "אַבאָנעמענט און ינווויסינג פֿאַר פּראָדוקטן, באַדינונגס אָדער אינהאַלט."
   },
   "license": {
     "free": "פרייַ",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "ערשטער פּאָסטן",
     "comment_at": "אויף",
-    "edit_comment": "רעדאַגירן באַמערקונג"
+    "edit_comment": "רעדאַגירן באַמערקונג",
+    "my_comments": "מייַן באַמערקונגען"
   },
   "customer_club": {
     "bronze": "בראָנדז",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "וועראַפאַקיישאַן קאָד",
     "msg_title": "העלא,",
     "msg_body": "ביטע קלאָץ אין. עס נעמט נאָר אַ ביסל סעקונדעס.",
-    "login_apple": "לאָגין מיט עפּל"
+    "login_apple": "לאָגין מיט עפּל",
+    "login_email": "לאָגין דורך בליצפּאָסט",
+    "email_login_step_1": "ביטע צושטעלן אַ גילטיק בליצפּאָסט אַדרעס, און מיר וועלן שיקן די לאָגין קאָד צו עס. קיין רעגיסטראַציע איז נייטיק.",
+    "email_login_step_2": "זענט איר זיכער אַז איר האָט אריין דיין בליצפּאָסט אַדרעס ריכטיק? מיר וועלן שיקן די לאָגין קאָד צו די צוגעשטעלט E- בריוו, אַזוי ביטע ענשור די אַקיעראַסי.",
+    "email_login_step_3": "מיר האָבן געשיקט אַ קאָד צו דיין בליצפּאָסט. ביטע טאָן אַז די קאָד וועט ויסגיין אין 10 מינוט."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "היט אָנזאָג",
     "notifications": {
       "success": "דיין אַרייַנשרייַב דאַטן איז געראטעוועט."
-    }
+    },
+    "product_inputs_preview_message": "די קוסטאָמיזאַטיאָן אָפּציעס זענען בארעכטיגט פֿאַר דיין אָרדערד פּראָדוקט. אַמאָל די נומער איז מוסיף צו דיין וואָגן, איר קענען מאַכן אַדזשאַסטמאַנץ דאָ."
   },
   "faq": {
     "faq": "אָפט געשטעלטע פֿראגן",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "שווער",
     "intermediate": "ינטערמידייט",
     "easy": "לייַכט"
+  },
+  "billing_period": {
+    "Daily": "טעגלעך",
+    "Weekly": "וואכנשריפט",
+    "Monthly": "כוידעשלעך",
+    "Every3Months": "יעדער 3 חדשים",
+    "Every6Months": "יעדער 6 חדשים",
+    "Yearly": "יאָריק"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "אוי נישט גוט!",
+    "between2_3": "ס 'איז גוט!",
+    "between3_4": "מענטשן ווי עס!",
+    "between4_5": "מענטשן ליבע עס!"
   }
 };

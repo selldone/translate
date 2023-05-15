@@ -603,7 +603,34 @@ export default {
     "deleted": "Жок кылынды",
     "variant": "Variant",
     "secure": "Коопсуз",
-    "admin": "Админ"
+    "admin": "Админ",
+    "tax_included_abstract": "анын ичинде",
+    "payment_not_settled": "Төлөм чечилген жок!",
+    "orders_list": "Заказдардын тизмеси",
+    "subscription_plan": "Жазылуу планы",
+    "contents": "Мазмуну",
+    "pricings": "Баалар",
+    "static_page": "Статикалык барак",
+    "shop_button": "Дүкөн баскычы",
+    "embed": "Embed",
+    "over": "Бүттү",
+    "tax_vary_by_location": "ар түрдүү. жайгашкан жери",
+    "product_type": "Продукт түрү",
+    "tax_id": "Салык ID",
+    "business_name": "Бизнес аты",
+    "invoice": "Эсеп-фактура",
+    "included_in_the_product": "Продукцияга киргизилген",
+    "included_in_the_product_description": "продукт төмөнкү компоненттерди камтыйт",
+    "cross_sell": "Кайчылаш сатуу",
+    "discount_off": "OFF",
+    "extra_discount": "Кошумча арзандатуу",
+    "template": "Шаблон",
+    "in_cart": "Арабада",
+    "pros_and_cons": "Жакшы жана жаман жактары",
+    "related_products": "Related Products",
+    "related_categories": "Окшош категориялар",
+    "badges": "Белгилер",
+    "explore": "Изилдөө"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Regenerate",
     "add_message": "Билдирүү кошуу",
     "continue_chat": "Маекти улантуу",
-    "add_new_message": "Жаңы билдирүү кошуу"
+    "add_new_message": "Жаңы билдирүү кошуу",
+    "change_setting": "Жөндөөнү өзгөртүү",
+    "delete_all": "Баарын жок кылуу",
+    "transfer_fund": "Трансферттик фонд",
+    "reverse_fund": "Тескери фонд",
+    "settlement": "Эсептешүү",
+    "refund": "Төлөмдү кайтаруу",
+    "partial_refund": "Жарым-жартылай кайтаруу",
+    "change_payment_method": "Төлөм ыкмасын өзгөртүү",
+    "buy": "Сатып алуу",
+    "view_all": "Баарын көрүү",
+    "view_now": "Азыр көрүү"
   },
   "instance_message_title": "Ыкчам билдирүү жөнөтүү",
   "instance_message": "Салам {name}, менин атым {company} компаниясынан {author}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Дайыма жашыл",
     "#214C30": "Токой",
     "#DC2867": "Фуксия",
-    "#38561F" :"Келли",
+    "#38561F": "Келли",
     "#5C884D": "Leaf",
     "#558450": "Light Aqua",
     "#96B5C9": "Ачык көк",
@@ -951,7 +989,9 @@ export default {
     "file": "Файл",
     "file_description": "Онлайн курс видеосу, жүктөлүп алынуучу документтер сыяктуу бардык уруксат берилген файлдар.",
     "service": "Кызмат",
-    "service_description": "Мындай кызматтар: оңдоо, транспорт, окутуу."
+    "service_description": "Мындай кызматтар: оңдоо, транспорт, окутуу.",
+    "subscription": "Жазылуу",
+    "subscription_description": "Товарлар, кызматтар же мазмундар үчүн жазылуулар жана эсеп-фактуралар."
   },
   "license": {
     "free": "бекер",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Биринчи пост",
     "comment_at": "Күйүк",
-    "edit_comment": "Комментарийди түзөтүү"
+    "edit_comment": "Комментарийди түзөтүү",
+    "my_comments": "Менин комментарийлерим"
   },
   "customer_club": {
     "bronze": "Бронза",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Текшерүү коду",
     "msg_title": "Салам,",
     "msg_body": "Сураныч, кириңиз. Бул бир нече секунд талап кылынат.",
-    "login_apple": "Apple менен кирүү"
+    "login_apple": "Apple менен кирүү",
+    "login_email": "Электрондук почта аркылуу кирүү",
+    "email_login_step_1": "Жарактуу электрондук почта дарегин бериңиз, биз ага логин кодун жөнөтөбүз. Эч кандай каттоо талап кылынбайт.",
+    "email_login_step_2": "Электрондук почта дарегиңизди туура киргизгениңизге ишенесизби? Биз берилген электрондук почтага логин кодун жөнөтөбүз, андыктан анын тактыгын текшериңиз.",
+    "email_login_step_3": "Биз сиздин электрондук почтаңызга код жөнөттүк. Коддун мөөнөтү 10 мүнөттөн кийин бүтөөрүн эске алыңыз."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Кабарды сактоо",
     "notifications": {
       "success": "Киргизилген маалыматтарыңыз сакталды."
-    }
+    },
+    "product_inputs_preview_message": "Бул ыңгайлаштыруу параметрлери буйрутма берген продукт үчүн жеткиликтүү. Буюм арабага кошулгандан кийин, сиз бул жерден тууралоолорду киргизе аласыз."
   },
   "faq": {
     "faq": "Көп берилүүчү суроолор",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Катуу",
     "intermediate": "Орто",
     "easy": "Оңой"
+  },
+  "billing_period": {
+    "Daily": "Күнүмдүк",
+    "Weekly": "Апта сайын",
+    "Monthly": "Ай сайын",
+    "Every3Months": "3 ай сайын",
+    "Every6Months": "6 ай сайын",
+    "Yearly": "Жыл сайын"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Ох жакшы эмес!",
+    "between2_3": "Жарайт!",
+    "between3_4": "Адамдарга жагат!",
+    "between4_5": "Адамдар аны жакшы көрөт!"
   }
 };

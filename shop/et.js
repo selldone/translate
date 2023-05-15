@@ -81,7 +81,9 @@ export default {
     "offer_message": "Ostke {min_quantity} Saate nende kaupade puhul {percent}% allahindlust",
     "up_to": "Kuni {per_order}x tellimuse kohta",
     "get_free": "SAA TASUTA",
-    "get_off": "SAADA {percent}% SOODSALT"
+    "get_off": "SAADA {percent}% SOODSALT",
+    "select_a_vendor_message": "Valige müüja.",
+    "product_description_header": "Tutvustame {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Saadavuse ootel",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Anname teile teada, kui see on saadaval.",
       "inform_remove_success": "Olete ootenimekirjast eemaldatud."
-    }
+    },
+    "subscribe_now": "Telli nüüd",
+    "unsubscribe": "Loobu tellimusest",
+    "select_a_subscription_plan": "Valige esmalt plaan!",
+    "manage_subscriptions": "Hallake tellimusi"
   },
   "product": {
     "review": "Ülevaade",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Garantii",
     "return_policy": "Tagastusreeglid",
     "guide": "Giid",
-    "shipping": "Saatmine"
+    "shipping": "Saatmine",
+    "related_categories_title": "Avastage kollektsioonides"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Kauba koguhind",
       "total_items_discount": "Kaupade allahindlus",
       "total_price_after_offers": "Kokku pärast pakkumiste rakendamist",
-      "buyer_payment": "Ostja maksesumma"
+      "buyer_payment": "Ostja maksesumma",
+      "total_order_price_before_tax": "Maksueelne koguhind"
     },
     "delivery": {
       "title": "Kohaletoimetamine",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Erinevad arveldusandmed",
     "basket_empty": "Korv on tühi",
     "extra_shipping_count": "Saate {count} pakki.",
-    "select_location_error": "Leia kaardilt saadetise kättesaamise koht ja kliki kaardi keskel asuvale indikaatorile, et määrata saaja täpne aadress."
+    "select_location_error": "Leia kaardilt saadetise kättesaamise koht ja kliki kaardi keskel asuvale indikaatorile, et määrata saaja täpne aadress.",
+    "same_billing_address_desc": "Arveldusaadress on sama mis tarneaadress.",
+    "custom_billing_info_desc": "Saate sisestada oma TAX-numbri ja määrata arveldamiseks teise aadressi.",
+    "billing_business_desc": "See on TAX-numbriga ettevõttekonto.",
+    "billing_personal_desc": "See on isiklik konto.",
+    "no_billing_title": "Ei mingit arveldust",
+    "no_billing_desc": "Jätke arveldusaadress tühjaks."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Välise tellimuse toomine",
     "address_included": "Jaga ostukorvi esemeid + aadress",
     "address_excluded": "Jaga ainult ostukorvi tooteid"
+  },
+  "variants_view": {
+    "prices": "Hinnad",
+    "inventory": "Inventuur",
+    "discount": "Allahindlus"
+  },
+  "rating": {
+    "product_rating_message": "See toode on saanud hinnangu {rate} tärnist 5-st ja seda on hinnanud {rate_count} inimest."
+  },
+  "related_products": {
+    "card": {
+      "title": "Avastage!",
+      "same_tags_subtitle": "Otsige rohkem tähelepanuväärseid seotud üksusi.",
+      "same_category_subtitle": "Otsige sellest kategooriast rohkem tähelepanuväärseid esemeid."
+    }
   }
 };

@@ -603,7 +603,34 @@ export default {
     "deleted": "Διαγράφηκε",
     "variant": "Παραλαγή",
     "secure": "Ασφαλής",
-    "admin": "διαχειριστής"
+    "admin": "διαχειριστής",
+    "tax_included_abstract": "συμπεριλαμβανομένου",
+    "payment_not_settled": "Η πληρωμή δεν διευθετήθηκε!",
+    "orders_list": "Λίστα παραγγελιών",
+    "subscription_plan": "Πρόγραμμα συνδρομής",
+    "contents": "Περιεχόμενα",
+    "pricings": "Τιμές",
+    "static_page": "Στατική σελίδα",
+    "shop_button": "Κουμπί καταστήματος",
+    "embed": "Ενθέτω",
+    "over": "Πάνω από",
+    "tax_vary_by_location": "ποικίλλω. τοποθεσία",
+    "product_type": "Τύπος Προϊόντος",
+    "tax_id": "Τον αριθμό φορολογικού μητρώου",
+    "business_name": "Επωνυμία Επιχείρησης",
+    "invoice": "Τιμολόγιο",
+    "included_in_the_product": "Περιλαμβάνεται στο προϊόν",
+    "included_in_the_product_description": "Το προϊόν περιλαμβάνει τα ακόλουθα συστατικά",
+    "cross_sell": "Cross Sell",
+    "discount_off": "OFF",
+    "extra_discount": "Επιπλέον Έκπτωση",
+    "template": "Πρότυπο",
+    "in_cart": "Στο καλάθι",
+    "pros_and_cons": "Υπέρ και κατά",
+    "related_products": "Σχετικά προϊόντα",
+    "related_categories": "Σχετικές Κατηγορίες",
+    "badges": "Σήματα",
+    "explore": "Εξερευνώ"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Αναγεννηθείς",
     "add_message": "Πρόσθεσε μήνυμα",
     "continue_chat": "Συνεχίστε τη συνομιλία",
-    "add_new_message": "Προσθήκη νέου μηνύματος"
+    "add_new_message": "Προσθήκη νέου μηνύματος",
+    "change_setting": "Αλλαγή ρύθμισης",
+    "delete_all": "Διαγραφή όλων",
+    "transfer_fund": "Ταμείο μεταφοράς",
+    "reverse_fund": "Αντίστροφο κεφάλαιο",
+    "settlement": "Επίλυση",
+    "refund": "Επιστροφή χρημάτων",
+    "partial_refund": "Μερική αποζημίωση",
+    "change_payment_method": "ΑΛΛΑΓΗ μεθόδου πληρωμής",
+    "buy": "Αγορά",
+    "view_all": "Προβολή όλων",
+    "view_now": "Προβολή τώρα"
   },
   "instance_message_title": "Αποστολή άμεσου μηνύματος",
   "instance_message": "Γεια σας {name}, Το όνομά μου είναι {author} από την {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Αειθαλής",
     "#214C30": "Δάσος",
     "#DC2867": "Φουξία",
-    "#38561F" :"Κέλλυ",
+    "#38561F": "Κέλλυ",
     "#5C884D": "Φύλλο",
     "#558450": "Light Aqua",
     "#96B5C9": "Γαλάζιο",
@@ -951,7 +989,9 @@ export default {
     "file": "Αρχείο",
     "file_description": "Όλα τα επιτρεπόμενα αρχεία, όπως βίντεο διαδικτυακού μαθήματος, έγγραφα με δυνατότητα λήψης.",
     "service": "Υπηρεσία",
-    "service_description": "Υπηρεσίες όπως: επισκευή, μεταφορά, διδασκαλία."
+    "service_description": "Υπηρεσίες όπως: επισκευή, μεταφορά, διδασκαλία.",
+    "subscription": "Συνδρομή",
+    "subscription_description": "Συνδρομές και τιμολόγηση προϊόντων, υπηρεσιών ή περιεχομένων."
   },
   "license": {
     "free": "Ελεύθερος",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Πρώτη ανάρτηση",
     "comment_at": "Επί",
-    "edit_comment": "Επεξεργασία σχολίου"
+    "edit_comment": "Επεξεργασία σχολίου",
+    "my_comments": "Τα σχόλιά μου"
   },
   "customer_club": {
     "bronze": "Μπρούντζος",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Κωδικός επαλήθευσης",
     "msg_title": "Γεια,",
     "msg_body": "ΠΑΡΑΚΑΛΩ ΣΥΝΔΕΘΕΙΤΕ. Χρειάζονται μόνο λίγα δευτερόλεπτα.",
-    "login_apple": "Συνδεθείτε με την Apple"
+    "login_apple": "Συνδεθείτε με την Apple",
+    "login_email": "Είσοδος μέσω email",
+    "email_login_step_1": "Δώστε μια έγκυρη διεύθυνση email και θα στείλουμε τον κωδικό σύνδεσης σε αυτήν. Δεν απαιτείται εγγραφή.",
+    "email_login_step_2": "Είστε σίγουροι ότι έχετε εισαγάγει σωστά τη διεύθυνση email σας; Θα στείλουμε τον κωδικό σύνδεσης στο παρεχόμενο email, επομένως βεβαιωθείτε για την ακρίβειά του.",
+    "email_login_step_3": "Έχουμε στείλει έναν κωδικό στο email σας. Λάβετε υπόψη ότι ο κωδικός θα λήξει σε 10 λεπτά."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Αποθήκευση μηνύματος",
     "notifications": {
       "success": "Τα δεδομένα εισόδου σας έχουν αποθηκευτεί."
-    }
+    },
+    "product_inputs_preview_message": "Αυτές οι επιλογές προσαρμογής είναι διαθέσιμες για το προϊόν που έχετε παραγγείλει. Μόλις το προϊόν προστεθεί στο καλάθι σας, θα μπορείτε να κάνετε προσαρμογές εδώ."
   },
   "faq": {
     "faq": "Συχνές Ερωτήσεις",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Σκληρός",
     "intermediate": "Ενδιάμεσος",
     "easy": "Ανετα"
+  },
+  "billing_period": {
+    "Daily": "Καθημερινά",
+    "Weekly": "Εβδομαδιαίος",
+    "Monthly": "Μηνιαίο",
+    "Every3Months": "Κάθε 3 μήνες",
+    "Every6Months": "Κάθε 6 μήνες",
+    "Yearly": "Ετήσια"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Ωχ δεν είναι καλό!",
+    "between2_3": "Είναι εντάξει!",
+    "between3_4": "Αρέσει στον κόσμο!",
+    "between4_5": "Ο κόσμος το λατρεύει!"
   }
 };

@@ -81,7 +81,9 @@ export default {
     "offer_message": "Prynu {min_quantity} Cael {percent}% i ffwrdd ar gyfer yr eitemau hyn",
     "up_to": "Hyd at {per_order}x fesul archeb",
     "get_free": "CAEL AM DDIM",
-    "get_off": "GET {percent}% OFF"
+    "get_off": "GET {percent}% OFF",
+    "select_a_vendor_message": "Dewiswch werthwr.",
+    "product_description_header": "Yn cyflwyno {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Aros am argaeledd",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Byddwn yn rhoi gwybod i chi pan fydd ar gael.",
       "inform_remove_success": "Rydych chi wedi cael eich tynnu oddi ar y rhestr aros."
-    }
+    },
+    "subscribe_now": "Tanysgrifiwch Nawr",
+    "unsubscribe": "Dad-danysgrifio",
+    "select_a_subscription_plan": "Dewiswch gynllun yn gyntaf!",
+    "manage_subscriptions": "Rheoli tanysgrifiadau"
   },
   "product": {
     "review": "Adolygu",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Gwarant",
     "return_policy": "Polisi Dychwelyd",
     "guide": "Tywysydd",
-    "shipping": "Llongau"
+    "shipping": "Llongau",
+    "related_categories_title": "Darganfod mewn casgliadau"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Cyfanswm Pris yr Eitemau",
       "total_items_discount": "Disgownt Eitemau",
       "total_price_after_offers": "Cyfanswm ar ôl gwneud cais am gynigion",
-      "buyer_payment": "Swm taliad y prynwr"
+      "buyer_payment": "Swm taliad y prynwr",
+      "total_order_price_before_tax": "Cyfanswm Pris Cyn Treth"
     },
     "delivery": {
       "title": "Cyflwyno",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Gwahanol wybodaeth bilio",
     "basket_empty": "Mae'r fasged yn wag",
     "extra_shipping_count": "Byddwch yn derbyn pecynnau {count}.",
-    "select_location_error": "Darganfyddwch y man derbyn y llwyth ar y map a chliciwch ar y dangosydd yng nghanol y map i bennu union gyfeiriad y derbynnydd."
+    "select_location_error": "Darganfyddwch y man derbyn y llwyth ar y map a chliciwch ar y dangosydd yng nghanol y map i bennu union gyfeiriad y derbynnydd.",
+    "same_billing_address_desc": "Mae'r cyfeiriad bilio yr un fath â'r cyfeiriad cludo.",
+    "custom_billing_info_desc": "Gallwch nodi eich rhif TRETH a gosod cyfeiriad gwahanol ar gyfer bilio.",
+    "billing_business_desc": "Mae'n gyfrif busnes gyda rhif TRETH.",
+    "billing_personal_desc": "Mae'n gyfrif personol.",
+    "no_billing_title": "Dim bilio",
+    "no_billing_desc": "Gadewch y cyfeiriad bilio yn wag."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Adalw trefn allanol",
     "address_included": "Rhannu eitemau basged + Cyfeiriad",
     "address_excluded": "Rhannwch eitemau basged yn unig"
+  },
+  "variants_view": {
+    "prices": "Prisiau",
+    "inventory": "Stocrestr",
+    "discount": "Disgownt"
+  },
+  "rating": {
+    "product_rating_message": "Mae'r cynnyrch hwn wedi cael sgôr o {rate} allan o 5 seren ac wedi'i raddio gan {rate_count} o bobl."
+  },
+  "related_products": {
+    "card": {
+      "title": "Archwiliwch!",
+      "same_tags_subtitle": "Dewch o hyd i eitemau cysylltiedig mwy rhyfeddol.",
+      "same_category_subtitle": "Dewch o hyd i eitemau mwy rhyfeddol yn y categori hwn."
+    }
   }
 };

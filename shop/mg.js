@@ -81,7 +81,9 @@ export default {
     "offer_message": "Vidio {min_quantity} Mahazoa fihenam-bidy {percent}% amin'ireo entana ireo",
     "up_to": "Hatramin'ny {per_order}x isaky ny baiko",
     "get_free": "MAhazoa maimaim-poana",
-    "get_off": "MAhazoa fihenam-bidy {percent}%."
+    "get_off": "MAhazoa fihenam-bidy {percent}%.",
+    "select_a_vendor_message": "Mifidiana mpivarotra iray azafady.",
+    "product_description_header": "Fampidirana {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Miandry ny fisiany",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Hampahafantatra anao izahay rehefa misy izany.",
       "inform_remove_success": "Nesorina tao amin'ny lisitra miandry ianao."
-    }
+    },
+    "subscribe_now": "Misoratra anarana izao",
+    "unsubscribe": "Tsy misoratra anarana",
+    "select_a_subscription_plan": "Mifidiana drafitra aloha!",
+    "manage_subscriptions": "Tantano ny famandrihana"
   },
   "product": {
     "review": "FAMERENANA",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Warranty",
     "return_policy": "Politika famerenana",
     "guide": "Torolalana",
-    "shipping": "Fandefasana"
+    "shipping": "Fandefasana",
+    "related_categories_title": "Hiverina any amin'ny collections"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Vidin'ny entana total",
       "total_items_discount": "Items fihenam-bidy",
       "total_price_after_offers": "Total aorian'ny fampiharana ny tolotra",
-      "buyer_payment": "Vola aloa amin'ny mpividy"
+      "buyer_payment": "Vola aloa amin'ny mpividy",
+      "total_order_price_before_tax": "Vidiny Total alohan'ny hetra"
     },
     "delivery": {
       "title": "Delivery",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Fampahafantarana faktiora samihafa",
     "basket_empty": "Foana ny harona",
     "extra_shipping_count": "Hahazo fonosana {count} ianao.",
-    "select_location_error": "Tadiavo ny toerana fandraisana ny entana eo amin'ny sarintany ary tsindrio eo amin'ny famantarana eo afovoan'ny sarintany mba hamaritana ny tena adiresin'ny mpandray."
+    "select_location_error": "Tadiavo ny toerana fandraisana ny entana eo amin'ny sarintany ary tsindrio eo amin'ny famantarana eo afovoan'ny sarintany mba hamaritana ny tena adiresin'ny mpandray.",
+    "same_billing_address_desc": "Ny adiresy faktiora dia mitovy amin'ny adiresy fandefasana.",
+    "custom_billing_info_desc": "Azonao atao ny mampiditra ny laharan'ny TAX anao ary mametraka adiresy hafa ho an'ny faktiora.",
+    "billing_business_desc": "Kaonty fandraharahana misy laharan'ny TAX izany.",
+    "billing_personal_desc": "Kaonty manokana io.",
+    "no_billing_title": "Tsy misy faktiora",
+    "no_billing_desc": "Avelao ho foana ny adiresy faktiora."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Alao ny baiko ivelany",
     "address_included": "Mizara entana harona + Adiresy",
     "address_excluded": "Zarao ihany ny entana harona"
+  },
+  "variants_view": {
+    "prices": "vidin'ny",
+    "inventory": "lisitra",
+    "discount": "Discount"
+  },
+  "rating": {
+    "product_rating_message": "Ity vokatra ity dia nahazo naoty {rate} amin'ny kintana 5 ary naoty {rate_count} olona."
+  },
+  "related_products": {
+    "card": {
+      "title": "Mikaroka!",
+      "same_tags_subtitle": "Mitadiava zavatra mifandray miavaka kokoa.",
+      "same_category_subtitle": "Mitadiava zavatra miavaka kokoa amin'ity sokajy ity."
+    }
   }
 };

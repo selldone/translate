@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity} خریدیں ان آئٹمز پر {percent}% رعایت حاصل کریں۔",
     "up_to": "فی آرڈر {per_order}x تک",
     "get_free": "مفت حاصل",
-    "get_off": "{percent}% رعایت حاصل کریں۔"
+    "get_off": "{percent}% رعایت حاصل کریں۔",
+    "select_a_vendor_message": "براہ کرم ایک وینڈر منتخب کریں۔",
+    "product_description_header": "پیش ہے {product}"
   },
   "buy_button": {
     "waiting_for_availability": "دستیابی کا انتظار ہے۔",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "یہ دستیاب ہونے پر ہم آپ کو بتائیں گے۔",
       "inform_remove_success": "آپ کو انتظار کی فہرست سے نکال دیا گیا ہے۔"
-    }
+    },
+    "subscribe_now": "اب سبسکرائب کریں",
+    "unsubscribe": "ان سبسکرائب کریں۔",
+    "select_a_subscription_plan": "پہلے ایک منصوبہ منتخب کریں!",
+    "manage_subscriptions": "سبسکرپشنز کا نظم کریں۔"
   },
   "product": {
     "review": "جائزہ لیں",
@@ -109,7 +115,8 @@ export default {
     "warranty": "وارنٹی",
     "return_policy": "واپسی کی پالیسی",
     "guide": "رہنما",
-    "shipping": "شپنگ"
+    "shipping": "شپنگ",
+    "related_categories_title": "مجموعوں میں دریافت کریں۔"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "اشیاء کی کل قیمت",
       "total_items_discount": "آئٹمز ڈسکاؤنٹ",
       "total_price_after_offers": "آفرز کو لاگو کرنے کے بعد کل",
-      "buyer_payment": "خریدار کی ادائیگی کی رقم"
+      "buyer_payment": "خریدار کی ادائیگی کی رقم",
+      "total_order_price_before_tax": "قبل از ٹیکس کل قیمت"
     },
     "delivery": {
       "title": "ترسیل",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "بلنگ کی مختلف معلومات",
     "basket_empty": "ٹوکری خالی ہے۔",
     "extra_shipping_count": "آپ کو {count} پیکیج موصول ہوں گے۔",
-    "select_location_error": "نقشے پر کھیپ کی وصولی کی جگہ تلاش کریں اور وصول کنندہ کا درست پتہ معلوم کرنے کے لیے نقشے کے بیچ میں اشارے پر کلک کریں۔"
+    "select_location_error": "نقشے پر کھیپ کی وصولی کی جگہ تلاش کریں اور وصول کنندہ کا درست پتہ معلوم کرنے کے لیے نقشے کے بیچ میں اشارے پر کلک کریں۔",
+    "same_billing_address_desc": "بلنگ ایڈریس شپنگ ایڈریس جیسا ہی ہے۔",
+    "custom_billing_info_desc": "آپ اپنا ٹیکس نمبر درج کر سکتے ہیں اور بلنگ کے لیے ایک مختلف پتہ سیٹ کر سکتے ہیں۔",
+    "billing_business_desc": "یہ ایک کاروباری اکاؤنٹ ہے جس میں TAX نمبر ہے۔",
+    "billing_personal_desc": "یہ ایک ذاتی اکاؤنٹ ہے۔",
+    "no_billing_title": "کوئی بلنگ نہیں۔",
+    "no_billing_desc": "بلنگ ایڈریس کو خالی چھوڑ دیں۔"
   },
   "basket_items": {
     "items_unit": "ایکس",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "بیرونی آرڈر بازیافت کریں۔",
     "address_included": "باسکٹ آئٹمز + ایڈریس شیئر کریں۔",
     "address_excluded": "صرف ٹوکری کی اشیاء کا اشتراک کریں۔"
+  },
+  "variants_view": {
+    "prices": "قیمتیں",
+    "inventory": "انوینٹری",
+    "discount": "رعایت"
+  },
+  "rating": {
+    "product_rating_message": "اس پروڈکٹ کو 5 ستاروں میں سے {rate} کی درجہ بندی ملی ہے اور {rate_count} لوگوں نے درجہ بندی کی ہے۔"
+  },
+  "related_products": {
+    "card": {
+      "title": "دریافت کریں!",
+      "same_tags_subtitle": "مزید قابل ذکر متعلقہ اشیاء تلاش کریں۔",
+      "same_category_subtitle": "اس زمرے میں مزید قابل ذکر اشیاء تلاش کریں۔"
+    }
   }
 };

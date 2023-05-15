@@ -81,7 +81,9 @@ export default {
     "offer_message": "આ વસ્તુઓ માટે {min_quantity} ખરીદો {percent}% છૂટ",
     "up_to": "ઑર્ડર દીઠ {per_order}x સુધી",
     "get_free": "મફત મેળવો",
-    "get_off": "{percent}% છૂટ મેળવો"
+    "get_off": "{percent}% છૂટ મેળવો",
+    "select_a_vendor_message": "કૃપા કરીને વિક્રેતા પસંદ કરો.",
+    "product_description_header": "રજૂ કરી રહ્યાં છીએ {product}"
   },
   "buy_button": {
     "waiting_for_availability": "ઉપલબ્ધતા માટે રાહ જોઈ રહ્યું છે",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "જ્યારે તે ઉપલબ્ધ થશે ત્યારે અમે તમને જણાવીશું.",
       "inform_remove_success": "તમને પ્રતીક્ષા સૂચિમાંથી દૂર કરવામાં આવ્યા છે."
-    }
+    },
+    "subscribe_now": "અત્યારે જ નામ નોંધાવો",
+    "unsubscribe": "અનસબ્સ્ક્રાઇબ કરો",
+    "select_a_subscription_plan": "પ્રથમ યોજના પસંદ કરો!",
+    "manage_subscriptions": "સબ્સ્ક્રિપ્શન્સ મેનેજ કરો"
   },
   "product": {
     "review": "સમીક્ષા",
@@ -109,7 +115,8 @@ export default {
     "warranty": "વોરંટી",
     "return_policy": "રીટર્ન પોલિસી",
     "guide": "માર્ગદર્શન",
-    "shipping": "વહાણ પરિવહન"
+    "shipping": "વહાણ પરિવહન",
+    "related_categories_title": "સંગ્રહોમાં શોધો"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "કુલ વસ્તુઓ કિંમત",
       "total_items_discount": "વસ્તુઓ ડિસ્કાઉન્ટ",
       "total_price_after_offers": "ઑફર્સ લાગુ કર્યા પછી કુલ",
-      "buyer_payment": "ખરીદનાર ચુકવણી રકમ"
+      "buyer_payment": "ખરીદનાર ચુકવણી રકમ",
+      "total_order_price_before_tax": "પ્રી-ટેક્સ કુલ કિંમત"
     },
     "delivery": {
       "title": "ડિલિવરી",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "વિવિધ બિલિંગ માહિતી",
     "basket_empty": "ટોપલી ખાલી છે",
     "extra_shipping_count": "તમને {count} પેકેજ પ્રાપ્ત થશે.",
-    "select_location_error": "નકશા પર શિપમેન્ટની પ્રાપ્તિનું સ્થાન શોધો અને પ્રાપ્તકર્તાનું ચોક્કસ સરનામું નક્કી કરવા માટે નકશાની મધ્યમાં સૂચક પર ક્લિક કરો."
+    "select_location_error": "નકશા પર શિપમેન્ટની પ્રાપ્તિનું સ્થાન શોધો અને પ્રાપ્તકર્તાનું ચોક્કસ સરનામું નક્કી કરવા માટે નકશાની મધ્યમાં સૂચક પર ક્લિક કરો.",
+    "same_billing_address_desc": "બિલિંગ સરનામું શિપિંગ સરનામા જેવું જ છે.",
+    "custom_billing_info_desc": "તમે તમારો TAX નંબર દાખલ કરી શકો છો અને બિલિંગ માટે અલગ સરનામું સેટ કરી શકો છો.",
+    "billing_business_desc": "તે TAX નંબર ધરાવતું વ્યવસાય ખાતું છે.",
+    "billing_personal_desc": "તે વ્યક્તિગત ખાતું છે.",
+    "no_billing_title": "બિલિંગ નથી",
+    "no_billing_desc": "બિલિંગ સરનામું ખાલી રાખો."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "બાહ્ય ઓર્ડર પુનઃપ્રાપ્ત કરો",
     "address_included": "બાસ્કેટ વસ્તુઓ + સરનામું શેર કરો",
     "address_excluded": "ફક્ત ટોપલી વસ્તુઓ શેર કરો"
+  },
+  "variants_view": {
+    "prices": "કિંમતો",
+    "inventory": "ઇન્વેન્ટરી",
+    "discount": "ડિસ્કાઉન્ટ"
+  },
+  "rating": {
+    "product_rating_message": "આ પ્રોડક્ટને 5માંથી {rate} સ્ટારનું રેટિંગ મળ્યું છે અને {rate_count} લોકો દ્વારા રેટ કરવામાં આવ્યું છે."
+  },
+  "related_products": {
+    "card": {
+      "title": "અન્વેષણ કરો!",
+      "same_tags_subtitle": "વધુ નોંધપાત્ર સંબંધિત વસ્તુઓ શોધો.",
+      "same_category_subtitle": "આ શ્રેણીમાં વધુ નોંધપાત્ર વસ્તુઓ શોધો."
+    }
   }
 };

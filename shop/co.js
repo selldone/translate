@@ -81,7 +81,9 @@ export default {
     "offer_message": "Cumprate {min_quantity} Ottene un {percent}% di sconto per questi articuli",
     "up_to": "Finu à {per_order}x per ordine",
     "get_free": "GET FREE",
-    "get_off": "GET {percent}% OFF"
+    "get_off": "GET {percent}% OFF",
+    "select_a_vendor_message": "Per piacè selezziunate un venditore.",
+    "product_description_header": "Presentazione di {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Aspittendu a dispunibilità",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Vi faremu sapè quandu hè dispunibule.",
       "inform_remove_success": "Avete statu cacciatu da a lista d'attesa."
-    }
+    },
+    "subscribe_now": "Abbonate avà",
+    "unsubscribe": "Unsubscribe",
+    "select_a_subscription_plan": "Prima sceglite un pianu!",
+    "manage_subscriptions": "Gestisce l'abbonamenti"
   },
   "product": {
     "review": "Rivista",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Garanzia",
     "return_policy": "Pulitica di ritornu",
     "guide": "Guida",
-    "shipping": "spedizione"
+    "shipping": "spedizione",
+    "related_categories_title": "Scopre in cullezzione"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "U prezzu tutale di l'articuli",
       "total_items_discount": "Discount d'articuli",
       "total_price_after_offers": "Totale dopu applicà offerte",
-      "buyer_payment": "A quantità di pagamentu di u cumpratore"
+      "buyer_payment": "A quantità di pagamentu di u cumpratore",
+      "total_order_price_before_tax": "Prezzu tutale senza imposte"
     },
     "delivery": {
       "title": "Consegna",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Diverse infurmazione di fattura",
     "basket_empty": "A cesta hè viota",
     "extra_shipping_count": "Riceverete {count} pacchetti.",
-    "select_location_error": "Truvate u locu di ricezione di a spedizione nantu à a mappa è cliccate nantu à l'indicatore à mezu à a mappa per determinà l'indirizzu esatta di u destinatariu."
+    "select_location_error": "Truvate u locu di ricezione di a spedizione nantu à a mappa è cliccate nantu à l'indicatore à mezu à a mappa per determinà l'indirizzu esatta di u destinatariu.",
+    "same_billing_address_desc": "L'indirizzu di fatturazione hè u listessu cum'è l'indirizzu di spedizione.",
+    "custom_billing_info_desc": "Pudete inserisce u vostru numeru TAX è stabilisce un indirizzu diversu per a fatturazione.",
+    "billing_business_desc": "Hè un contu cummerciale cù un numeru TAX.",
+    "billing_personal_desc": "Hè un contu persunale.",
+    "no_billing_title": "Nisuna fattura",
+    "no_billing_desc": "Lasciate l'indirizzu di fatturazione viotu."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Ritruvà l'ordine esternu",
     "address_included": "Sparte l'articuli di a cesta + Indirizzu",
     "address_excluded": "Sparte solu l'articuli di cesti"
+  },
+  "variants_view": {
+    "prices": "Prezzi",
+    "inventory": "Invintariu",
+    "discount": "Scontu"
+  },
+  "rating": {
+    "product_rating_message": "Stu pruduttu hà ricevutu una valutazione di {rate} fora di 5 stelle è valutatu da {rate_count} persone."
+  },
+  "related_products": {
+    "card": {
+      "title": "Esplora!",
+      "same_tags_subtitle": "Truvate articuli cunnessi più notevuli.",
+      "same_category_subtitle": "Truvate articuli più notevoli in questa categuria."
+    }
   }
 };

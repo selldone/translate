@@ -603,7 +603,34 @@ export default {
     "deleted": "Fshirë",
     "variant": "Variant",
     "secure": "Sigurt",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "përfshirë.",
+    "payment_not_settled": "Pagesa nuk u krye!",
+    "orders_list": "Lista e porosive",
+    "subscription_plan": "Plani i abonimit",
+    "contents": "Përmbajtja",
+    "pricings": "Çmimet",
+    "static_page": "Faqe statike",
+    "shop_button": "Butoni i dyqanit",
+    "embed": "Embed",
+    "over": "Mbi",
+    "tax_vary_by_location": "ndryshon. vendndodhjen",
+    "product_type": "Tipi i produktit",
+    "tax_id": "Identiteti i taksave",
+    "business_name": "Emri i biznesit",
+    "invoice": "Fatura",
+    "included_in_the_product": "Të përfshira në produkt",
+    "included_in_the_product_description": "Produkti përfshin përbërësit e mëposhtëm",
+    "cross_sell": "Shitet kryq",
+    "discount_off": "OFF",
+    "extra_discount": "Zbritje shtesë",
+    "template": "shabllon",
+    "in_cart": "Në Shportë",
+    "pros_and_cons": "Pro dhe kundra",
+    "related_products": "Produkte të ngjashme",
+    "related_categories": "Kategoritë e ngjashme",
+    "badges": "Shenjat",
+    "explore": "Eksploroni"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Rigjeneroni",
     "add_message": "Shto mesazh",
     "continue_chat": "Vazhdo bisedën",
-    "add_new_message": "Shto mesazh të ri"
+    "add_new_message": "Shto mesazh të ri",
+    "change_setting": "Ndrysho cilësimin",
+    "delete_all": "Fshij te gjitha",
+    "transfer_fund": "Fondi i transferimit",
+    "reverse_fund": "Fondi i kundërt",
+    "settlement": "Zgjidhje",
+    "refund": "Rimbursimi",
+    "partial_refund": "Rimbursimi i pjesshëm",
+    "change_payment_method": "Ndrysho mënyrën e pagesës",
+    "buy": "Blej",
+    "view_all": "Shiko te gjitha",
+    "view_now": "Shiko Tani"
   },
   "instance_message_title": "Dërgo mesazh të menjëhershëm",
   "instance_message": "Përshëndetje {name}, emri im është {author} nga {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Me gjelbërim të përhershëm",
     "#214C30": "Pyll",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Gjethja",
     "#558450": "Aqua e lehtë",
     "#96B5C9": "Blu e hapur",
@@ -951,7 +989,9 @@ export default {
     "file": "Skedari",
     "file_description": "Të gjithë skedarët e lejuar si video e kursit në internet, dokumente të shkarkueshme.",
     "service": "Shërbimi",
-    "service_description": "Shërbime si: riparimi, transporti, mësimi."
+    "service_description": "Shërbime si: riparimi, transporti, mësimi.",
+    "subscription": "Abonimi",
+    "subscription_description": "Abonimet dhe faturimet për produkte, shërbime ose përmbajtje."
   },
   "license": {
     "free": "Falas",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Postimi i parë",
     "comment_at": "Aktiv",
-    "edit_comment": "Redakto komentin"
+    "edit_comment": "Redakto komentin",
+    "my_comments": "Komentet e mia"
   },
   "customer_club": {
     "bronze": "Bronzi",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Kodi i Verifikimit",
     "msg_title": "Përshëndetje,",
     "msg_body": "Ju lutemi identifikohuni. Duhen vetëm disa sekonda.",
-    "login_apple": "Hyni me Apple"
+    "login_apple": "Hyni me Apple",
+    "login_email": "Hyni me email",
+    "email_login_step_1": "Ju lutemi jepni një adresë të vlefshme emaili dhe ne do t'i dërgojmë kodin e hyrjes. Nuk ka nevojë për regjistrim.",
+    "email_login_step_2": "Jeni i sigurt që e keni futur saktë adresën tuaj të emailit? Ne do të dërgojmë kodin e hyrjes në emailin e dhënë, kështu që ju lutemi sigurohuni për saktësinë e tij.",
+    "email_login_step_3": "Ne kemi dërguar një kod në emailin tuaj. Ju lutemi vini re se kodi do të skadojë për 10 minuta."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Ruaj mesazhin",
     "notifications": {
       "success": "Të dhënat tuaja hyrëse janë ruajtur."
-    }
+    },
+    "product_inputs_preview_message": "Këto opsione personalizimi janë të disponueshme për produktin tuaj të porositur. Pasi artikulli të shtohet në shportën tuaj, do të mund të bëni rregullime këtu."
   },
   "faq": {
     "faq": "Pyetjet e bëra më shpesh",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "E vështirë",
     "intermediate": "E ndërmjetme",
     "easy": "Lehtë"
+  },
+  "billing_period": {
+    "Daily": "Ditore",
+    "Weekly": "Javore",
+    "Monthly": "Mujore",
+    "Every3Months": "Çdo 3 muaj",
+    "Every6Months": "Çdo 6 muaj",
+    "Yearly": "vjetore"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oh jo mirë!",
+    "between2_3": "Është në rregull!",
+    "between3_4": "Njerëzve u pëlqen!",
+    "between4_5": "Njerëzit e duan atë!"
   }
 };

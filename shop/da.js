@@ -81,7 +81,9 @@ export default {
     "offer_message": "Køb {min_quantity} Få {percent} % i rabat på disse varer",
     "up_to": "Op til {per_order}x pr. ordre",
     "get_free": "FÅ GRATIS",
-    "get_off": "FÅ {percent} % i rabat"
+    "get_off": "FÅ {percent} % i rabat",
+    "select_a_vendor_message": "Vælg venligst en leverandør.",
+    "product_description_header": "Vi præsenterer {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Venter på tilgængelighed",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Vi giver dig besked, når den er tilgængelig.",
       "inform_remove_success": "Du er blevet fjernet fra ventelisten."
-    }
+    },
+    "subscribe_now": "Tilmeld nu",
+    "unsubscribe": "Opsige abonnement",
+    "select_a_subscription_plan": "Vælg først en plan!",
+    "manage_subscriptions": "Administrer abonnementer"
   },
   "product": {
     "review": "Anmeldelse",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Garanti",
     "return_policy": "Returpolitik",
     "guide": "Guide",
-    "shipping": "Forsendelse"
+    "shipping": "Forsendelse",
+    "related_categories_title": "Oplev i samlinger"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Samlet varepris",
       "total_items_discount": "Varerabat",
       "total_price_after_offers": "I alt efter ansøgning om tilbud",
-      "buyer_payment": "Købers betalingsbeløb"
+      "buyer_payment": "Købers betalingsbeløb",
+      "total_order_price_before_tax": "Samlet pris før skat"
     },
     "delivery": {
       "title": "Levering",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Forskellige faktureringsoplysninger",
     "basket_empty": "Kurven er tom",
     "extra_shipping_count": "Du modtager {count} pakker.",
-    "select_location_error": "Find modtagelsesstedet for forsendelsen på kortet, og klik på indikatoren i midten af kortet for at bestemme modtagerens nøjagtige adresse."
+    "select_location_error": "Find modtagelsesstedet for forsendelsen på kortet, og klik på indikatoren i midten af kortet for at bestemme modtagerens nøjagtige adresse.",
+    "same_billing_address_desc": "Faktureringsadressen er den samme som forsendelsesadressen.",
+    "custom_billing_info_desc": "Du kan indtaste dit SKAT-nummer og angive en anden adresse til fakturering.",
+    "billing_business_desc": "Det er en virksomhedskonto med et SKAT-nummer.",
+    "billing_personal_desc": "Det er en personlig konto.",
+    "no_billing_title": "Ingen fakturering",
+    "no_billing_desc": "Lad faktureringsadressen være tom."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Hent ekstern ordre",
     "address_included": "Del kurv varer + adresse",
     "address_excluded": "Del kun kurvevarer"
+  },
+  "variants_view": {
+    "prices": "Priser",
+    "inventory": "Beholdning",
+    "discount": "Rabat"
+  },
+  "rating": {
+    "product_rating_message": "Dette produkt har modtaget en vurdering på {rate} ud af 5 stjerner og bedømt af {rate_count} personer."
+  },
+  "related_products": {
+    "card": {
+      "title": "Udforske!",
+      "same_tags_subtitle": "Find mere bemærkelsesværdige relaterede genstande.",
+      "same_category_subtitle": "Find flere bemærkelsesværdige varer i denne kategori."
+    }
   }
 };

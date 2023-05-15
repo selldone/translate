@@ -81,7 +81,9 @@ export default {
     "offer_message": "Bli {min_quantity} Merr {percent}% ulje për këta artikuj",
     "up_to": "Deri në {per_order}x për porosi",
     "get_free": "ÇLIROHEM",
-    "get_off": "PËRFERNI {percent}% ULJE"
+    "get_off": "PËRFERNI {percent}% ULJE",
+    "select_a_vendor_message": "Ju lutemi zgjidhni një shitës.",
+    "product_description_header": "Prezantimi i {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Në pritje të disponueshmërisë",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Ne do t'ju njoftojmë kur të jetë i disponueshëm.",
       "inform_remove_success": "Ju jeni hequr nga lista e pritjes."
-    }
+    },
+    "subscribe_now": "Abonohu Tani",
+    "unsubscribe": "Çregjistrohu",
+    "select_a_subscription_plan": "Së pari zgjidhni një plan!",
+    "manage_subscriptions": "Menaxho abonimet"
   },
   "product": {
     "review": "Rishikimi",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Garancia",
     "return_policy": "Politika e Kthimit",
     "guide": "Udhëzues",
-    "shipping": "Transporti"
+    "shipping": "Transporti",
+    "related_categories_title": "Zbuloni në koleksione"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Çmimi total i artikujve",
       "total_items_discount": "Zbritje për artikujt",
       "total_price_after_offers": "Totali pas aplikimit të ofertave",
-      "buyer_payment": "Shuma e pagesës së blerësit"
+      "buyer_payment": "Shuma e pagesës së blerësit",
+      "total_order_price_before_tax": "Çmimi total para tatimit"
     },
     "delivery": {
       "title": "Dorëzimi",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Informacione të ndryshme faturimi",
     "basket_empty": "Shporta është bosh",
     "extra_shipping_count": "Do të merrni {count} paketa.",
-    "select_location_error": "Gjeni vendin e marrjes së dërgesës në hartë dhe klikoni në treguesin në mes të hartës për të përcaktuar adresën e saktë të marrësit."
+    "select_location_error": "Gjeni vendin e marrjes së dërgesës në hartë dhe klikoni në treguesin në mes të hartës për të përcaktuar adresën e saktë të marrësit.",
+    "same_billing_address_desc": "Adresa e faturimit është e njëjtë me adresën e transportit.",
+    "custom_billing_info_desc": "Mund të vendosni numrin tuaj TATIMOR dhe të vendosni një adresë tjetër për faturimin.",
+    "billing_business_desc": "Është një llogari biznesi me një numër TAX.",
+    "billing_personal_desc": "Është një llogari personale.",
+    "no_billing_title": "Nuk ka faturim",
+    "no_billing_desc": "Lëreni adresën e faturimit bosh."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Merr porosinë e jashtme",
     "address_included": "Ndani artikujt e shportës + Adresën",
     "address_excluded": "Ndani vetëm artikujt e shportës"
+  },
+  "variants_view": {
+    "prices": "Çmimet",
+    "inventory": "Inventari",
+    "discount": "Zbritje"
+  },
+  "rating": {
+    "product_rating_message": "Ky produkt ka marrë një vlerësim prej {rate} nga 5 yje dhe është vlerësuar nga {rate_count} njerëz."
+  },
+  "related_products": {
+    "card": {
+      "title": "Eksploroni!",
+      "same_tags_subtitle": "Gjeni më shumë artikuj të rëndësishëm të lidhur.",
+      "same_category_subtitle": "Gjeni më shumë artikuj të shquar në këtë kategori."
+    }
   }
 };

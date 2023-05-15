@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity}-г худалдаж аваарай, эдгээр барааг {percent}%-н хямдруулж аваарай",
     "up_to": "Захиалга бүрт {per_order}x хүртэл",
     "get_free": "ҮНЭГҮЙ АВАХ",
-    "get_off": "{percent}% ХЯМДРАЛ АВАХ"
+    "get_off": "{percent}% ХЯМДРАЛ АВАХ",
+    "select_a_vendor_message": "Худалдагчийг сонгоно уу.",
+    "product_description_header": "{product}-г танилцуулж байна"
   },
   "buy_button": {
     "waiting_for_availability": "Боломжтой байхыг хүлээж байна",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Үүнийг бэлэн болсон үед бид танд мэдэгдэх болно.",
       "inform_remove_success": "Таныг хүлээлгийн жагсаалтаас хаслаа."
-    }
+    },
+    "subscribe_now": "Одоо бүртгүүлээрэй",
+    "unsubscribe": "Бүртгэлээ цуцлах",
+    "select_a_subscription_plan": "Эхлээд төлөвлөгөө сонго!",
+    "manage_subscriptions": "Захиалга удирдах"
   },
   "product": {
     "review": "Шүүмж",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Баталгаат хугацаа",
     "return_policy": "Буцаах бодлого",
     "guide": "Хөтөч",
-    "shipping": "Хүргэлт"
+    "shipping": "Хүргэлт",
+    "related_categories_title": "Цуглуулгаас олж мэдээрэй"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Нийт барааны үнэ",
       "total_items_discount": "Барааны хөнгөлөлт",
       "total_price_after_offers": "Саналыг хэрэглэсний дараа нийт",
-      "buyer_payment": "Худалдан авагчийн төлбөрийн хэмжээ"
+      "buyer_payment": "Худалдан авагчийн төлбөрийн хэмжээ",
+      "total_order_price_before_tax": "Татварын өмнөх нийт үнэ"
     },
     "delivery": {
       "title": "Хүргэлт",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Өөр өөр тооцооны мэдээлэл",
     "basket_empty": "Сагс хоосон байна",
     "extra_shipping_count": "Та {count} багц хүлээн авах болно.",
-    "select_location_error": "Ачаа хүлээн авсан газрыг газрын зураг дээрээс олж, газрын зургийн дунд байрлах заагч дээр дарж хүлээн авагчийн яг хаягийг тодорхойлно."
+    "select_location_error": "Ачаа хүлээн авсан газрыг газрын зураг дээрээс олж, газрын зургийн дунд байрлах заагч дээр дарж хүлээн авагчийн яг хаягийг тодорхойлно.",
+    "same_billing_address_desc": "Төлбөрийн хаяг нь хүргэлтийн хаягтай ижил байна.",
+    "custom_billing_info_desc": "Та TAX дугаараа оруулаад өөр хаягаар тооцоо хийх боломжтой.",
+    "billing_business_desc": "Энэ нь TAX дугаартай бизнесийн данс юм.",
+    "billing_personal_desc": "Энэ бол хувийн данс.",
+    "no_billing_title": "Тооцоо байхгүй",
+    "no_billing_desc": "Төлбөрийн хаягийг хоосон орхи."
   },
   "basket_items": {
     "items_unit": "х",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Гадаад захиалгыг авах",
     "address_included": "Сагстай зүйлс + Хаяг хуваалцах",
     "address_excluded": "Зөвхөн сагсны зүйлсийг хуваалцаарай"
+  },
+  "variants_view": {
+    "prices": "Үнэ",
+    "inventory": "Бараа материал",
+    "discount": "Хөнгөлөлт"
+  },
+  "rating": {
+    "product_rating_message": "Энэ бүтээгдэхүүн нь 5 одноос {rate} үнэлгээ авсан бөгөөд {rate_count} хүнээр үнэлсэн."
+  },
+  "related_products": {
+    "card": {
+      "title": "Судлаарай!",
+      "same_tags_subtitle": "Илүү гайхалтай холбоотой зүйлсийг олоорой.",
+      "same_category_subtitle": "Энэ ангилалд илүү гайхалтай зүйлсийг олоорой."
+    }
   }
 };

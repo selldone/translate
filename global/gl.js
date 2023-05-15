@@ -603,7 +603,34 @@ export default {
     "deleted": "Eliminado",
     "variant": "Variante",
     "secure": "Seguro",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "incl.",
+    "payment_not_settled": "Pago non liquidado!",
+    "orders_list": "Lista de pedidos",
+    "subscription_plan": "Plan de subscrición",
+    "contents": "Contidos",
+    "pricings": "Prezos",
+    "static_page": "Páxina estática",
+    "shop_button": "Botón de compra",
+    "embed": "Inserir",
+    "over": "Acabado",
+    "tax_vary_by_location": "variar. localización",
+    "product_type": "Tipo de produto",
+    "tax_id": "Número de identificación fiscal",
+    "business_name": "Nome da empresa",
+    "invoice": "Factura",
+    "included_in_the_product": "Incluído no produto",
+    "included_in_the_product_description": "O produto inclúe os seguintes compoñentes",
+    "cross_sell": "Venta cruzada",
+    "discount_off": "OFF",
+    "extra_discount": "Desconto extra",
+    "template": "Modelo",
+    "in_cart": "No carro",
+    "pros_and_cons": "Pros e contras",
+    "related_products": "Produtos relacionados",
+    "related_categories": "Categorías relacionadas",
+    "badges": "Insignias",
+    "explore": "Explora"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Rexenerar",
     "add_message": "Engadir mensaxe",
     "continue_chat": "Continuar conversando",
-    "add_new_message": "Engade nova mensaxe"
+    "add_new_message": "Engade nova mensaxe",
+    "change_setting": "Cambiar a configuración",
+    "delete_all": "Eliminar todo",
+    "transfer_fund": "Fondo de transferencia",
+    "reverse_fund": "Fondo inverso",
+    "settlement": "Liquidación",
+    "refund": "Reembolso",
+    "partial_refund": "Reembolso parcial",
+    "change_payment_method": "Cambiar método de pago",
+    "buy": "Mercar",
+    "view_all": "Ver todo",
+    "view_now": "Ver agora"
   },
   "instance_message_title": "Enviar mensaxe instantánea",
   "instance_message": "Ola {name}: Chámome {author} de {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Perenne",
     "#214C30": "Bosque",
     "#DC2867": "Fucsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Folla",
     "#558450": "Agua lixeira",
     "#96B5C9": "Azul claro",
@@ -951,7 +989,9 @@ export default {
     "file": "Arquivo",
     "file_description": "Todos os ficheiros permitidos, como vídeos do curso en liña, documentos descargables.",
     "service": "Servizo",
-    "service_description": "Servizos como: reparación, transporte, docencia."
+    "service_description": "Servizos como: reparación, transporte, docencia.",
+    "subscription": "Subscrición",
+    "subscription_description": "Subscricións e facturación de produtos, servizos ou contidos."
   },
   "license": {
     "free": "Libre",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Primeira publicación",
     "comment_at": "Activado",
-    "edit_comment": "Editar comentario"
+    "edit_comment": "Editar comentario",
+    "my_comments": "Os meus comentarios"
   },
   "customer_club": {
     "bronze": "Bronce",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Código de verificación",
     "msg_title": "Ola,",
     "msg_body": "Inicia sesión. Leva só uns segundos.",
-    "login_apple": "Inicia sesión con Apple"
+    "login_apple": "Inicia sesión con Apple",
+    "login_email": "Iniciar sesión por correo electrónico",
+    "email_login_step_1": "Proporcione un enderezo de correo electrónico válido e enviarémoslle o código de inicio de sesión. Non é necesario rexistro.",
+    "email_login_step_2": "Estás seguro de que introduciches o teu enderezo de correo electrónico correctamente? Enviaremos o código de inicio de sesión ao correo electrónico proporcionado, polo que asegúrese de que sexa exacto.",
+    "email_login_step_3": "Enviamos un código ao teu correo electrónico. Ten en conta que o código caducará en 10 minutos."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Gardar mensaxe",
     "notifications": {
       "success": "Os teus datos de entrada gardáronse."
-    }
+    },
+    "product_inputs_preview_message": "Estas opcións de personalización están dispoñibles para o produto solicitado. Unha vez que se engade o artigo ao carro, poderás facer axustes aquí."
   },
   "faq": {
     "faq": "Preguntas máis frecuentes",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Difícil",
     "intermediate": "Intermediario",
     "easy": "Fácil"
+  },
+  "billing_period": {
+    "Daily": "Diariamente",
+    "Weekly": "Semanalmente",
+    "Monthly": "Mensuais",
+    "Every3Months": "Cada 3 meses",
+    "Every6Months": "Cada 6 meses",
+    "Yearly": "Anual"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Ai non bo!",
+    "between2_3": "Está ben!",
+    "between3_4": "Á xente gústalle!",
+    "between4_5": "Á xente encántalle!"
   }
 };

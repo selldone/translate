@@ -603,7 +603,34 @@ export default {
     "deleted": "Slettet",
     "variant": "Variant",
     "secure": "Sikre",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "inkl.",
+    "payment_not_settled": "Betaling ikke avgjort!",
+    "orders_list": "Bestillingsliste",
+    "subscription_plan": "Abonnementsplan",
+    "contents": "Innhold",
+    "pricings": "Priser",
+    "static_page": "Statisk side",
+    "shop_button": "Butikk-knapp",
+    "embed": "Bygg inn",
+    "over": "Over",
+    "tax_vary_by_location": "variere. plassering",
+    "product_type": "Produkttype",
+    "tax_id": "Skatte-ID",
+    "business_name": "Firmanavn",
+    "invoice": "Faktura",
+    "included_in_the_product": "Inkludert i produktet",
+    "included_in_the_product_description": "Produktet inneholder følgende komponenter",
+    "cross_sell": "Kryssalg",
+    "discount_off": "OFF",
+    "extra_discount": "Ekstra rabatt",
+    "template": "Mal",
+    "in_cart": "I handlekurven",
+    "pros_and_cons": "Fordeler og ulemper",
+    "related_products": "Relaterte produkter",
+    "related_categories": "Relaterte kategorier",
+    "badges": "Merker",
+    "explore": "Utforske"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Regenerer",
     "add_message": "Legg til melding",
     "continue_chat": "Fortsett chatten",
-    "add_new_message": "Legg til ny melding"
+    "add_new_message": "Legg til ny melding",
+    "change_setting": "Endre innstilling",
+    "delete_all": "Slette alle",
+    "transfer_fund": "Overfør fond",
+    "reverse_fund": "Omvendt fond",
+    "settlement": "Bosetting",
+    "refund": "Refusjon",
+    "partial_refund": "Delvis refusjon",
+    "change_payment_method": "Endre betalingsmåte",
+    "buy": "Kjøpe",
+    "view_all": "Se alt",
+    "view_now": "Se nå"
   },
   "instance_message_title": "Send direktemelding",
   "instance_message": "Hei {name}, Mitt navn er {author} fra {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "skog",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Blad",
     "#558450": "Lys Aqua",
     "#96B5C9": "Lyse blå",
@@ -951,7 +989,9 @@ export default {
     "file": "Fil",
     "file_description": "Alle tillatte filer som online kursvideo, nedlastbare dokumenter.",
     "service": "Service",
-    "service_description": "Tjenester som: reparasjon, transport, undervisning."
+    "service_description": "Tjenester som: reparasjon, transport, undervisning.",
+    "subscription": "Abonnement",
+    "subscription_description": "Abonnementer og fakturering for produkter, tjenester eller innhold."
   },
   "license": {
     "free": "Gratis",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Første innlegg",
     "comment_at": "På",
-    "edit_comment": "Rediger kommentar"
+    "edit_comment": "Rediger kommentar",
+    "my_comments": "Mine kommentarer"
   },
   "customer_club": {
     "bronze": "Bronse",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Bekreftelseskode",
     "msg_title": "hei!",
     "msg_body": "Vennligst Logg inn. Det tar bare noen få sekunder.",
-    "login_apple": "Logg på med Apple"
+    "login_apple": "Logg på med Apple",
+    "login_email": "Logg inn på e-post",
+    "email_login_step_1": "Vennligst oppgi en gyldig e-postadresse, så sender vi innloggingskoden til den. Ingen registrering er nødvendig.",
+    "email_login_step_2": "Er du sikker på at du har skrevet inn e-postadressen din riktig? Vi vil sende innloggingskoden til e-postadressen som er oppgitt, så sørg for at den er nøyaktig.",
+    "email_login_step_3": "Vi har sendt en kode til din e-post. Vær oppmerksom på at koden utløper om 10 minutter."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Lagre melding",
     "notifications": {
       "success": "Inndataene dine er lagret."
-    }
+    },
+    "product_inputs_preview_message": "Disse tilpasningsalternativene er tilgjengelige for ditt bestilte produkt. Når varen er lagt i handlekurven din, vil du kunne gjøre justeringer her."
   },
   "faq": {
     "faq": "ofte stilte spørsmål",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Hard",
     "intermediate": "Middels",
     "easy": "Lett"
+  },
+  "billing_period": {
+    "Daily": "Daglig",
+    "Weekly": "Ukentlig",
+    "Monthly": "Månedlig",
+    "Every3Months": "Hver 3. måned",
+    "Every6Months": "Hver 6. måned",
+    "Yearly": "Årlig"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Og ikke bra!",
+    "between2_3": "Det er greit!",
+    "between3_4": "Folk liker det!",
+    "between4_5": "Folk elsker det!"
   }
 };

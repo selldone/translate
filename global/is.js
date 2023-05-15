@@ -603,7 +603,34 @@ export default {
     "deleted": "Eytt",
     "variant": "Afbrigði",
     "secure": "Öruggt",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "þ.m.t.",
+    "payment_not_settled": "Greiðsla ekki gerð upp!",
+    "orders_list": "Pantanalisti",
+    "subscription_plan": "Áskriftaráætlun",
+    "contents": "Innihald",
+    "pricings": "Verðlag",
+    "static_page": "Statísk síða",
+    "shop_button": "Verslunarhnappur",
+    "embed": "Fella inn",
+    "over": "Yfir",
+    "tax_vary_by_location": "mismunandi. staðsetningu",
+    "product_type": "Vörugerð",
+    "tax_id": "Skattkenni",
+    "business_name": "Viðskiptanafn",
+    "invoice": "Reikningur",
+    "included_in_the_product": "Innifalið í vörunni",
+    "included_in_the_product_description": "Varan inniheldur eftirfarandi íhluti",
+    "cross_sell": "Krosssala",
+    "discount_off": "OFF",
+    "extra_discount": "Auka afsláttur",
+    "template": "Sniðmát",
+    "in_cart": "Í körfu",
+    "pros_and_cons": "Kostir og gallar",
+    "related_products": "skyldar vörur",
+    "related_categories": "Tengdir flokkar",
+    "badges": "Merki",
+    "explore": "Kanna"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Endurnýja",
     "add_message": "Bæta við skilaboðum",
     "continue_chat": "Haltu áfram spjallinu",
-    "add_new_message": "Bæta við nýjum skilaboðum"
+    "add_new_message": "Bæta við nýjum skilaboðum",
+    "change_setting": "Breyta stillingu",
+    "delete_all": "Eyða öllu",
+    "transfer_fund": "Flutningasjóður",
+    "reverse_fund": "Bakgrunnur",
+    "settlement": "Uppgjör",
+    "refund": "Endurgreiðsla",
+    "partial_refund": "Endurgreiðsla að hluta",
+    "change_payment_method": "Breyta greiðslumáta",
+    "buy": "Kaupa",
+    "view_all": "Sjá allt",
+    "view_now": "Skoða núna"
   },
   "instance_message_title": "Sendu spjallskilaboð",
   "instance_message": "Hæ {name}, ég heiti {author} frá {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Skógur",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Lauf",
     "#558450": "Ljós Aqua",
     "#96B5C9": "Ljósblár",
@@ -951,7 +989,9 @@ export default {
     "file": "Skrá",
     "file_description": "Allar leyfilegar skrár eins og myndband á netinu, niðurhalanleg skjöl.",
     "service": "Þjónusta",
-    "service_description": "Þjónusta eins og: viðgerðir, flutningar, kennsla."
+    "service_description": "Þjónusta eins og: viðgerðir, flutningar, kennsla.",
+    "subscription": "Áskrift",
+    "subscription_description": "Áskriftir og reikningar fyrir vörur, þjónustu eða innihald."
   },
   "license": {
     "free": "Ókeypis",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Fyrsta færslan",
     "comment_at": "Á",
-    "edit_comment": "Breyta athugasemd"
+    "edit_comment": "Breyta athugasemd",
+    "my_comments": "Athugasemdir mínar"
   },
   "customer_club": {
     "bronze": "Brons",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Staðfestingarkóði",
     "msg_title": "Hæ,",
     "msg_body": "Vinsamlegast skráðu þig inn. Það tekur aðeins nokkrar sekúndur.",
-    "login_apple": "Skráðu þig inn með Apple"
+    "login_apple": "Skráðu þig inn með Apple",
+    "login_email": "Innskráning með tölvupósti",
+    "email_login_step_1": "Vinsamlegast gefðu upp gilt netfang og við munum senda innskráningarkóðann á það. Engin skráning er nauðsynleg.",
+    "email_login_step_2": "Ertu viss um að þú hafir slegið inn netfangið þitt rétt? Við munum senda innskráningarkóðann á uppgefið netfang, svo vinsamlegast vertu viss um að hann sé nákvæmur.",
+    "email_login_step_3": "Við höfum sent kóða á netfangið þitt. Athugið að kóðinn rennur út eftir 10 mínútur."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Vista skilaboð",
     "notifications": {
       "success": "Inntaksgögnin þín hafa verið vistuð."
-    }
+    },
+    "product_inputs_preview_message": "Þessir sérsniðmöguleikar eru í boði fyrir pantaða vöru. Þegar hlutnum hefur verið bætt við körfuna þína muntu geta gert breytingar hér."
   },
   "faq": {
     "faq": "Algengar spurningar",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Erfitt",
     "intermediate": "Millistig",
     "easy": "Auðvelt"
+  },
+  "billing_period": {
+    "Daily": "Daglega",
+    "Weekly": "Vikulega",
+    "Monthly": "Mánaðarlega",
+    "Every3Months": "Á 3ja mánaða fresti",
+    "Every6Months": "Á 6 mánaða fresti",
+    "Yearly": "Árlega"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Och ekki gott!",
+    "between2_3": "Það er í lagi!",
+    "between3_4": "Fólki líkar það!",
+    "between4_5": "Fólk elskar það!"
   }
 };

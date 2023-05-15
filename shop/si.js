@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity} මිලදී ගන්න මෙම අයිතම සඳහා {percent}% වට්ටමක් ලබා ගන්න",
     "up_to": "ඇණවුමකට {per_order}x දක්වා",
     "get_free": "නිදහස් වෙන්න",
-    "get_off": "{percent}% අඩුවෙන් ලබා ගන්න"
+    "get_off": "{percent}% අඩුවෙන් ලබා ගන්න",
+    "select_a_vendor_message": "කරුණාකර විකුණුම්කරුවෙකු තෝරන්න.",
+    "product_description_header": "{product} හඳුන්වා දෙමින්"
   },
   "buy_button": {
     "waiting_for_availability": "ලබා ගැනීම සඳහා රැඳී සිටිමින්",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "එය ලැබෙන විට අපි ඔබට දන්වන්නෙමු.",
       "inform_remove_success": "ඔබව පොරොත්තු ලේඛනයෙන් ඉවත් කර ඇත."
-    }
+    },
+    "subscribe_now": "දැන්ම දායක වන්න",
+    "unsubscribe": "දායක නොවන්න",
+    "select_a_subscription_plan": "මුලින්ම සැලැස්මක් තෝරන්න!",
+    "manage_subscriptions": "දායකත්ව කළමනාකරණය කරන්න"
   },
   "product": {
     "review": "සමාලෝචනය කරන්න",
@@ -109,7 +115,8 @@ export default {
     "warranty": "වගකීම් සහතිකය",
     "return_policy": "ආපසු දෙන ප්රතිපත්තිය",
     "guide": "මගපෙන්වීම",
-    "shipping": "නාවික"
+    "shipping": "නාවික",
+    "related_categories_title": "එකතුව තුළ සොයා ගන්න"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "මුළු භාණ්ඩ මිල",
       "total_items_discount": "භාණ්ඩ වට්ටම්",
       "total_price_after_offers": "දීමනා අයදුම් කිරීමෙන් පසු එකතුව",
-      "buyer_payment": "ගැනුම්කරුගේ ගෙවීම් ප්රමාණය"
+      "buyer_payment": "ගැනුම්කරුගේ ගෙවීම් ප්රමාණය",
+      "total_order_price_before_tax": "බදු පෙර මුළු මිල"
     },
     "delivery": {
       "title": "භාරදීම",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "විවිධ බිල්පත් තොරතුරු",
     "basket_empty": "කූඩය හිස් ය",
     "extra_shipping_count": "ඔබට {count} පැකේජ ලැබෙනු ඇත.",
-    "select_location_error": "සිතියමේ නැව්ගත කිරීම ලැබුණු ස්ථානය සොයාගන්න සහ ලබන්නාගේ නිවැරදි ලිපිනය තීරණය කිරීම සඳහා සිතියමේ මැද ඇති දර්ශකය මත ක්ලික් කරන්න."
+    "select_location_error": "සිතියමේ නැව්ගත කිරීම ලැබුණු ස්ථානය සොයාගන්න සහ ලබන්නාගේ නිවැරදි ලිපිනය තීරණය කිරීම සඳහා සිතියමේ මැද ඇති දර්ශකය මත ක්ලික් කරන්න.",
+    "same_billing_address_desc": "බිල්පත් ලිපිනය නැව්ගත කිරීමේ ලිපිනයට සමාන වේ.",
+    "custom_billing_info_desc": "ඔබට ඔබේ බදු අංකය ඇතුළත් කර බිල්පත් කිරීම සඳහා වෙනත් ලිපිනයක් සැකසිය හැක.",
+    "billing_business_desc": "එය TAX අංකයක් සහිත ව්‍යාපාරික ගිණුමකි.",
+    "billing_personal_desc": "එය පුද්ගලික ගිණුමකි.",
+    "no_billing_title": "බිල්පත් නැත",
+    "no_billing_desc": "බිල්පත් ලිපිනය හිස්ව තබන්න."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "බාහිර ඇණවුම ලබා ගන්න",
     "address_included": "බාස්කට් අයිතම + ලිපිනය බෙදා ගන්න",
     "address_excluded": "බාස්කට් අයිතම පමණක් බෙදා ගන්න"
+  },
+  "variants_view": {
+    "prices": "මිල",
+    "inventory": "ඉන්වෙන්ටරි",
+    "discount": "වට්ටම්"
+  },
+  "rating": {
+    "product_rating_message": "මෙම නිෂ්පාදනයට තරු 5 න් {rate} ක ඇගයීමක් ලැබී ඇති අතර පුද්ගලයින් {rate_count} විසින් ශ්‍රේණිගත කර ඇත."
+  },
+  "related_products": {
+    "card": {
+      "title": "ගවේෂණය කරන්න!",
+      "same_tags_subtitle": "වඩාත් කැපී පෙනෙන අදාළ අයිතම සොයා ගන්න.",
+      "same_category_subtitle": "මෙම කාණ්ඩයේ තවත් කැපී පෙනෙන අයිතම සොයා ගන්න."
+    }
   }
 };

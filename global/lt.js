@@ -603,7 +603,34 @@ export default {
     "deleted": "Ištrinta",
     "variant": "Variantas",
     "secure": "Saugus",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "įskaitant",
+    "payment_not_settled": "Mokėjimas neapmokėtas!",
+    "orders_list": "Užsakymų sąrašas",
+    "subscription_plan": "Prenumeratos planas",
+    "contents": "Turinys",
+    "pricings": "Kainos",
+    "static_page": "Statinis puslapis",
+    "shop_button": "Parduotuvės mygtukas",
+    "embed": "Įterpti",
+    "over": "Baigėsi",
+    "tax_vary_by_location": "skirtis. vieta",
+    "product_type": "Produkto tipas",
+    "tax_id": "Mokesčių ID",
+    "business_name": "Verslo pavadinimas",
+    "invoice": "Sąskaita faktūra",
+    "included_in_the_product": "Įeina į gaminį",
+    "included_in_the_product_description": "Produktą sudaro šie komponentai",
+    "cross_sell": "Kryžminis pardavimas",
+    "discount_off": "OFF",
+    "extra_discount": "Papildoma nuolaida",
+    "template": "Šablonas",
+    "in_cart": "Krepšelyje",
+    "pros_and_cons": "Už ir prieš",
+    "related_products": "Susiję produktai",
+    "related_categories": "Susijusios kategorijos",
+    "badges": "Ženkliukai",
+    "explore": "Naršyti"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Regeneruoti",
     "add_message": "Pridėti pranešimą",
     "continue_chat": "Tęsti pokalbį",
-    "add_new_message": "Pridėti naują pranešimą"
+    "add_new_message": "Pridėti naują pranešimą",
+    "change_setting": "Pakeiskite nustatymą",
+    "delete_all": "Ištrinti viską",
+    "transfer_fund": "Pervedimo fondas",
+    "reverse_fund": "Atvirkštinis fondas",
+    "settlement": "Atsiskaitymas",
+    "refund": "Grąžinti pinigus",
+    "partial_refund": "Dalinis grąžinimas",
+    "change_payment_method": "Keisti mokėjimo būdą",
+    "buy": "Pirkti",
+    "view_all": "Peržiūrėti visus",
+    "view_now": "Žiūrėti dabar"
   },
   "instance_message_title": "Siųsti momentinę žinutę",
   "instance_message": "Sveiki, {name}, mano vardas yra {author} iš {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Miškas",
     "#DC2867": "Fuksija",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Lapas",
     "#558450": "Šviesus Aqua",
     "#96B5C9": "Šviesiai mėlynas",
@@ -951,7 +989,9 @@ export default {
     "file": "Failas",
     "file_description": "Visi leidžiami failai, pvz., internetinio kurso vaizdo įrašas, atsisiunčiami dokumentai.",
     "service": "Aptarnavimas",
-    "service_description": "Tokios paslaugos kaip: remontas, transportavimas, mokymas."
+    "service_description": "Tokios paslaugos kaip: remontas, transportavimas, mokymas.",
+    "subscription": "Prenumerata",
+    "subscription_description": "Prenumeratos ir sąskaitų faktūrų išrašymas už produktus, paslaugas ar turinį."
   },
   "license": {
     "free": "Laisvas",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Pirmas postas",
     "comment_at": "Įjungta",
-    "edit_comment": "Redaguoti komentarą"
+    "edit_comment": "Redaguoti komentarą",
+    "my_comments": "Mano komentarai"
   },
   "customer_club": {
     "bronze": "Bronza",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Patvirtinimo kodas",
     "msg_title": "Sveiki,",
     "msg_body": "Prašome prisijungti. Tai užtrunka vos kelias sekundes.",
-    "login_apple": "Prisijunkite naudodami „Apple“."
+    "login_apple": "Prisijunkite naudodami „Apple“.",
+    "login_email": "Prisijunkite el. paštu",
+    "email_login_step_1": "Nurodykite galiojantį el. pašto adresą ir mes atsiųsime prisijungimo kodą. Registracija nereikalinga.",
+    "email_login_step_2": "Ar esate tikri, kad teisingai įvedėte savo el. pašto adresą? Prisijungimo kodą atsiųsime nurodytu el. pašto adresu, todėl įsitikinkite, kad jis yra tikslus.",
+    "email_login_step_3": "Išsiuntėme kodą į jūsų el. Atminkite, kad kodas baigs galioti po 10 minučių."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Išsaugoti pranešimą",
     "notifications": {
       "success": "Jūsų įvesties duomenys buvo išsaugoti."
-    }
+    },
+    "product_inputs_preview_message": "Šios tinkinimo parinktys galimos jūsų užsakytam produktui. Kai prekė bus įtraukta į krepšelį, čia galėsite atlikti pakeitimus."
   },
   "faq": {
     "faq": "Dažnai užduodami klausimai",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Sunku",
     "intermediate": "Tarpinis",
     "easy": "Lengva"
+  },
+  "billing_period": {
+    "Daily": "Kasdien",
+    "Weekly": "Kas savaitę",
+    "Monthly": "Kas mėnesį",
+    "Every3Months": "Kas 3 mėnesius",
+    "Every6Months": "Kas 6 mėnesius",
+    "Yearly": "Kasmet"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oi neblogai!",
+    "between2_3": "Viskas gerai!",
+    "between3_4": "Žmonėms tai patinka!",
+    "between4_5": "Žmonėms tai patinka!"
   }
 };

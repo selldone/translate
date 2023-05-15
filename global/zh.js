@@ -603,7 +603,34 @@ export default {
     "deleted": "已删除",
     "variant": "变体",
     "secure": "安全的",
-    "admin": "行政"
+    "admin": "行政",
+    "tax_included_abstract": "包括。",
+    "payment_not_settled": "付款未结算！",
+    "orders_list": "订单清单",
+    "subscription_plan": "订阅计划",
+    "contents": "内容",
+    "pricings": "定价",
+    "static_page": "静态页面",
+    "shop_button": "商店按钮",
+    "embed": "嵌入",
+    "over": "超过",
+    "tax_vary_by_location": "各不相同。地点",
+    "product_type": "产品类别",
+    "tax_id": "税号",
+    "business_name": "企业名称",
+    "invoice": "发票",
+    "included_in_the_product": "包含在产品中",
+    "included_in_the_product_description": "该产品包括以下组件",
+    "cross_sell": "交叉销售",
+    "discount_off": "OFF",
+    "extra_discount": "额外折扣",
+    "template": "模板",
+    "in_cart": "在购物车",
+    "pros_and_cons": "优点和缺点",
+    "related_products": "相关产品",
+    "related_categories": "相关类别",
+    "badges": "徽章",
+    "explore": "探索"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "再生",
     "add_message": "添加消息",
     "continue_chat": "继续聊天",
-    "add_new_message": "添加新消息"
+    "add_new_message": "添加新消息",
+    "change_setting": "修改设置",
+    "delete_all": "删除所有",
+    "transfer_fund": "转移资金",
+    "reverse_fund": "逆向基金",
+    "settlement": "沉降",
+    "refund": "退款",
+    "partial_refund": "退还部分款项",
+    "change_payment_method": "更改付款方式",
+    "buy": "买",
+    "view_all": "查看全部",
+    "view_now": "现在查看"
   },
   "instance_message_title": "发送即时消息",
   "instance_message": "嗨，{name}，我的名字是来自 {company} 的 {author}。",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "常绿",
     "#214C30": "森林",
     "#DC2867": "紫红色",
-    "#38561F" :"凯利",
+    "#38561F": "凯利",
     "#5C884D": "叶子",
     "#558450": "浅水色",
     "#96B5C9": "浅蓝",
@@ -951,7 +989,9 @@ export default {
     "file": "文件",
     "file_description": "所有允许的文件，如在线课程视频、可下载文件。",
     "service": "服务",
-    "service_description": "服务如：维修、运输、教学。"
+    "service_description": "服务如：维修、运输、教学。",
+    "subscription": "订阅",
+    "subscription_description": "产品、服务或内容的订阅和发票。"
   },
   "license": {
     "free": "自由",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "第一篇文章",
     "comment_at": "在",
-    "edit_comment": "编辑评论"
+    "edit_comment": "编辑评论",
+    "my_comments": "我的评论"
   },
   "customer_club": {
     "bronze": "青铜",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "验证码",
     "msg_title": "你好，",
     "msg_body": "请登录。只需几秒钟。",
-    "login_apple": "用苹果登录"
+    "login_apple": "用苹果登录",
+    "login_email": "邮箱登录",
+    "email_login_step_1": "请提供一个有效的电子邮件地址，我们会将登录代码发送给它。无需注册。",
+    "email_login_step_2": "您确定您输入的电子邮件地址正确吗？我们会将登录代码发送到提供的电子邮件中，因此请确保其准确性。",
+    "email_login_step_3": "我们已将代码发送到您的电子邮箱。请注意，代码将在 10 分钟后过期。"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "保存消息",
     "notifications": {
       "success": "您的输入数据已保存。"
-    }
+    },
+    "product_inputs_preview_message": "这些定制选项适用于您订购的产品。将商品添加到您的购物车后，您就可以在此处进行调整。"
   },
   "faq": {
     "faq": "经常问的问题",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "难的",
     "intermediate": "中间的",
     "easy": "简单的"
+  },
+  "billing_period": {
+    "Daily": "日常",
+    "Weekly": "每周",
+    "Monthly": "月刊",
+    "Every3Months": "每3个月",
+    "Every6Months": "每 6 个月",
+    "Yearly": "每年"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "哦不好！",
+    "between2_3": "没关系！",
+    "between3_4": "人们喜欢它！",
+    "between4_5": "人们喜欢它！"
   }
 };

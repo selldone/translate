@@ -81,7 +81,9 @@ export default {
     "offer_message": "Beli {min_quantity} Dapatkan potongan {percent}% untuk item ini",
     "up_to": "Sehingga {per_order}x setiap pesanan",
     "get_free": "DAPATKAN PERCUMA",
-    "get_off": "DAPATKAN DISKAUN {percent}%."
+    "get_off": "DAPATKAN DISKAUN {percent}%.",
+    "select_a_vendor_message": "Sila pilih vendor.",
+    "product_description_header": "Memperkenalkan {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Menunggu ketersediaan",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Kami akan memberitahu anda apabila ia tersedia.",
       "inform_remove_success": "Anda telah dialih keluar daripada senarai menunggu."
-    }
+    },
+    "subscribe_now": "Langgan sekarang",
+    "unsubscribe": "Nyahlanggan",
+    "select_a_subscription_plan": "Pilih pelan dahulu!",
+    "manage_subscriptions": "Urus langganan"
   },
   "product": {
     "review": "Semakan",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Waranti",
     "return_policy": "Syarat pengembalian",
     "guide": "Panduan",
-    "shipping": "penghantaran"
+    "shipping": "penghantaran",
+    "related_categories_title": "Temui dalam koleksi"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Jumlah Harga Barang",
       "total_items_discount": "Diskaun Barangan",
       "total_price_after_offers": "Jumlah selepas memohon tawaran",
-      "buyer_payment": "Jumlah bayaran pembeli"
+      "buyer_payment": "Jumlah bayaran pembeli",
+      "total_order_price_before_tax": "Jumlah Harga Sebelum Cukai"
     },
     "delivery": {
       "title": "Penghantaran",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Maklumat pengebilan yang berbeza",
     "basket_empty": "Bakul kosong",
     "extra_shipping_count": "Anda akan menerima {count} pakej.",
-    "select_location_error": "Cari tempat penerimaan penghantaran pada peta dan klik pada penunjuk di tengah peta untuk menentukan alamat sebenar penerima."
+    "select_location_error": "Cari tempat penerimaan penghantaran pada peta dan klik pada penunjuk di tengah peta untuk menentukan alamat sebenar penerima.",
+    "same_billing_address_desc": "Alamat pengebilan adalah sama dengan alamat penghantaran.",
+    "custom_billing_info_desc": "Anda boleh memasukkan nombor CUKAI anda dan menetapkan alamat lain untuk pengebilan.",
+    "billing_business_desc": "Ia adalah akaun perniagaan dengan nombor CUKAI.",
+    "billing_personal_desc": "Ia adalah akaun peribadi.",
+    "no_billing_title": "Tiada pengebilan",
+    "no_billing_desc": "Biarkan alamat pengebilan kosong."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Dapatkan semula pesanan luaran",
     "address_included": "Kongsi barang bakul + Alamat",
     "address_excluded": "Kongsi barang bakul sahaja"
+  },
+  "variants_view": {
+    "prices": "harga",
+    "inventory": "Inventori",
+    "discount": "Diskaun"
+  },
+  "rating": {
+    "product_rating_message": "Produk ini telah menerima penarafan {rate} daripada 5 bintang dan dinilai oleh {rate_count} orang."
+  },
+  "related_products": {
+    "card": {
+      "title": "Meneroka!",
+      "same_tags_subtitle": "Cari item berkaitan yang lebih menarik.",
+      "same_category_subtitle": "Cari lebih banyak item yang luar biasa dalam kategori ini."
+    }
   }
 };

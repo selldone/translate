@@ -81,7 +81,9 @@ export default {
     "offer_message": "Kaaft {min_quantity} Kritt {percent}% Remise fir dës Artikelen",
     "up_to": "Bis zu {per_order}x pro Bestellung",
     "get_free": "GRATIS",
-    "get_off": "Kritt {percent}% OFF"
+    "get_off": "Kritt {percent}% OFF",
+    "select_a_vendor_message": "Wielt w.e.g. e Verkeefer.",
+    "product_description_header": "Aféierung {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Waarden op Disponibilitéit",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Mir soen Iech wann et verfügbar ass.",
       "inform_remove_success": "Dir sidd aus der Waardelëscht geläscht."
-    }
+    },
+    "subscribe_now": "Abonnéiert Iech elo",
+    "unsubscribe": "Abonnéieren",
+    "select_a_subscription_plan": "Wielt als éischt e Plang!",
+    "manage_subscriptions": "Managen Abonnementer"
   },
   "product": {
     "review": "Iwwerpréiwung",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Garantie",
     "return_policy": "Reckgaberecht",
     "guide": "Guide",
-    "shipping": "Liwwerung"
+    "shipping": "Liwwerung",
+    "related_categories_title": "Entdeckt an Kollektiounen"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Ganzen Artikel Präis",
       "total_items_discount": "Artikelen Remise",
       "total_price_after_offers": "Ganzen no Uwendung vun Offeren",
-      "buyer_payment": "Keefer Bezuelen Betrag"
+      "buyer_payment": "Keefer Bezuelen Betrag",
+      "total_order_price_before_tax": "Pre-Tax Total Präis"
     },
     "delivery": {
       "title": "Liwwerung",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Verschidde Rechnungsinformatiounen",
     "basket_empty": "Kuerf ass eidel",
     "extra_shipping_count": "Dir kritt {count} Packagen.",
-    "select_location_error": "Fannt d'Plaz vun der Empfang vun der Sendung op der Kaart a klickt op den Indikator an der Mëtt vun der Kaart fir déi exakt Adress vum Empfänger ze bestëmmen."
+    "select_location_error": "Fannt d'Plaz vun der Empfang vun der Sendung op der Kaart a klickt op den Indikator an der Mëtt vun der Kaart fir déi exakt Adress vum Empfänger ze bestëmmen.",
+    "same_billing_address_desc": "D'Rechnungsadress ass d'selwecht wéi d'Versandadress.",
+    "custom_billing_info_desc": "Dir kënnt Är TAX Nummer aginn an eng aner Adress fir Rechnung setzen.",
+    "billing_business_desc": "Et ass e Business Kont mat enger TAX Zuel.",
+    "billing_personal_desc": "Et ass e perséinleche Kont.",
+    "no_billing_title": "Keng Rechnung",
+    "no_billing_desc": "Loosst d'Rechnungsadress eidel."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Recuperéieren extern Uerdnung",
     "address_included": "Deelen Kuerf Artikelen + Adress",
     "address_excluded": "Deelt nëmmen Kuerfartikelen"
+  },
+  "variants_view": {
+    "prices": "Präisser",
+    "inventory": "Inventar",
+    "discount": "Remise"
+  },
+  "rating": {
+    "product_rating_message": "Dëst Produkt huet eng Bewäertung vun {rate} vu 5 Stäre kritt a vun {rate_count} Leit bewäert."
+  },
+  "related_products": {
+    "card": {
+      "title": "Entdeckt!",
+      "same_tags_subtitle": "Fannt méi bemierkenswäert Zesummenhang Elementer.",
+      "same_category_subtitle": "Fannt méi bemierkenswäert Elementer an dëser Kategorie."
+    }
   }
 };

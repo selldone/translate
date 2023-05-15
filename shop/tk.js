@@ -81,7 +81,9 @@ export default {
     "offer_message": "Bu zatlar üçin {min_quantity} {percent}% satyn alyň",
     "up_to": "Sargyt üçin {per_order} x çenli",
     "get_free": "Mugt alyň",
-    "get_off": "{percent}% Öçürmek"
+    "get_off": "{percent}% Öçürmek",
+    "select_a_vendor_message": "Satyjy saýlaň.",
+    "product_description_header": "{product} bilen tanyşdyrmak"
   },
   "buy_button": {
     "waiting_for_availability": "Elýeterlilige garaşmak",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Elýeterli bolanda size habar bereris.",
       "inform_remove_success": "Garaşmak sanawyndan aýryldyňyz."
-    }
+    },
+    "subscribe_now": "Indi ýazylyň",
+    "unsubscribe": "Abunalygy aýyrmak",
+    "select_a_subscription_plan": "Ilki bilen meýilnama saýlaň!",
+    "manage_subscriptions": "Abunalary dolandyryň"
   },
   "product": {
     "review": "Syn",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Kepillik",
     "return_policy": "Yzyna gaýdyp gelmek syýasaty",
     "guide": "Gollanma",
-    "shipping": "Eltip bermek"
+    "shipping": "Eltip bermek",
+    "related_categories_title": "Kolleksiýalarda tapyň"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Jemi önümleriň bahasy",
       "total_items_discount": "Harytlar arzanladyş",
       "total_price_after_offers": "Tekliplerden soň jemi",
-      "buyer_payment": "Alyjynyň töleg mukdary"
+      "buyer_payment": "Alyjynyň töleg mukdary",
+      "total_order_price_before_tax": "Salgytdan öňki jemi bahasy"
     },
     "delivery": {
       "title": "Eltip bermek",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Dürli hasaplaşyk maglumatlary",
     "basket_empty": "Sebet boş",
     "extra_shipping_count": "{count} paketlerini alarsyňyz.",
-    "select_location_error": "Iberilen ýeriň kartasyny tapyň we alyjynyň takyk salgysyny kesgitlemek üçin kartanyň ortasyndaky görkezijä basyň."
+    "select_location_error": "Iberilen ýeriň kartasyny tapyň we alyjynyň takyk salgysyny kesgitlemek üçin kartanyň ortasyndaky görkezijä basyň.",
+    "same_billing_address_desc": "Hasaplaşyk salgysy, iberiş salgysy bilen deňdir.",
+    "custom_billing_info_desc": "TAX belgiňizi girizip, hasaplaşyk üçin başga adresi düzüp bilersiňiz.",
+    "billing_business_desc": "Bu, TAX belgili iş hasaby.",
+    "billing_personal_desc": "Bu şahsy hasap.",
+    "no_billing_title": "Hasaplaşyk ýok",
+    "no_billing_desc": "Hasaplaşyk salgysyny boş goýuň."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Daşarky tertibi alyň",
     "address_included": "Sebet elementlerini + Salgyny paýlaşyň",
     "address_excluded": "Diňe sebet zatlaryny paýlaşyň"
+  },
+  "variants_view": {
+    "prices": "Bahalar",
+    "inventory": "Öwsele",
+    "discount": "Arzanladyş"
+  },
+  "rating": {
+    "product_rating_message": "Bu önüm 5 ýyldyzdan {stawka “derejesini aldy we {rate_count} adamlar tarapyndan baha berildi."
+  },
+  "related_products": {
+    "card": {
+      "title": "Gözläň!",
+      "same_tags_subtitle": "Has ajaýyp baglanyşykly zatlary tapyň.",
+      "same_category_subtitle": "Bu kategoriýada has ajaýyp zatlary tapyň."
+    }
   }
 };

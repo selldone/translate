@@ -81,7 +81,9 @@ export default {
     "offer_message": "ለእነዚህ እቃዎች {min_quantity} ይግዙ {percent}% ቅናሽ ያግኙ",
     "up_to": "በትዕዛዝ እስከ {per_order}x ድረስ",
     "get_free": "ነፃ ያግኙ",
-    "get_off": "{percent}% ቅናሽ ያግኙ"
+    "get_off": "{percent}% ቅናሽ ያግኙ",
+    "select_a_vendor_message": "እባክዎን ሻጭ ይምረጡ።",
+    "product_description_header": "{product}ን በማስተዋወቅ ላይ"
   },
   "buy_button": {
     "waiting_for_availability": "ተገኝነትን በመጠበቅ ላይ",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "ሲገኝ እናሳውቅዎታለን።",
       "inform_remove_success": "ከተጠባባቂ ዝርዝር ውስጥ ተወግደዋል።"
-    }
+    },
+    "subscribe_now": "አሁን ይመዝገቡ",
+    "unsubscribe": "ከደንበኝነት ምዝገባ ይውጡ",
+    "select_a_subscription_plan": "መጀመሪያ እቅድ ይምረጡ!",
+    "manage_subscriptions": "የደንበኝነት ምዝገባዎችን ያስተዳድሩ"
   },
   "product": {
     "review": "ግምገማ",
@@ -109,7 +115,8 @@ export default {
     "warranty": "ዋስትና",
     "return_policy": "የተመላሽ እቃ አፈፃፀም ሂደት",
     "guide": "መመሪያ",
-    "shipping": "ማጓጓዣ"
+    "shipping": "ማጓጓዣ",
+    "related_categories_title": "በክምችቶች ውስጥ ያግኙ"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "ጠቅላላ ዕቃዎች ዋጋ",
       "total_items_discount": "የዕቃዎች ቅናሽ",
       "total_price_after_offers": "ቅናሾችን ከተገበሩ በኋላ አጠቃላይ",
-      "buyer_payment": "የገዢ ክፍያ መጠን"
+      "buyer_payment": "የገዢ ክፍያ መጠን",
+      "total_order_price_before_tax": "ቅድመ-ታክስ ጠቅላላ ዋጋ"
     },
     "delivery": {
       "title": "ማድረስ",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "የተለያዩ የሂሳብ አከፋፈል መረጃ",
     "basket_empty": "ቅርጫቱ ባዶ ነው።",
     "extra_shipping_count": "{count} ፓኬጆችን ይቀበላሉ።",
-    "select_location_error": "በካርታው ላይ የጭነት ደረሰኝ ቦታ ይፈልጉ እና በካርታው መሃል ላይ ያለውን አመላካች ጠቅ ያድርጉ የተቀባዩን ትክክለኛ አድራሻ ለመወሰን."
+    "select_location_error": "በካርታው ላይ የጭነት ደረሰኝ ቦታ ይፈልጉ እና በካርታው መሃል ላይ ያለውን አመላካች ጠቅ ያድርጉ የተቀባዩን ትክክለኛ አድራሻ ለመወሰን.",
+    "same_billing_address_desc": "የክፍያ መጠየቂያ አድራሻ ከመላኪያ አድራሻ ጋር አንድ ነው።",
+    "custom_billing_info_desc": "የታክስ ቁጥርዎን ማስገባት እና ለክፍያ መጠየቂያ ሌላ አድራሻ ማዘጋጀት ይችላሉ።",
+    "billing_business_desc": "የታክስ ቁጥር ያለው የንግድ መለያ ነው።",
+    "billing_personal_desc": "የግል መለያ ነው።",
+    "no_billing_title": "የሂሳብ አከፋፈል የለም።",
+    "no_billing_desc": "የክፍያ መጠየቂያ አድራሻን ባዶ ይተዉት።"
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "ውጫዊ ትዕዛዝ ሰርስሮ ውሰድ",
     "address_included": "የቅርጫት እቃዎችን + አድራሻ ያጋሩ",
     "address_excluded": "የቅርጫት እቃዎችን ብቻ ያጋሩ"
+  },
+  "variants_view": {
+    "prices": "ዋጋዎች",
+    "inventory": "ቆጠራ",
+    "discount": "ቅናሽ"
+  },
+  "rating": {
+    "product_rating_message": "ይህ ምርት ከ5 ኮከቦች {rate} ደረጃ አግኝቷል እና በ{rate_count} ሰዎች ደረጃ ተሰጥቶታል።"
+  },
+  "related_products": {
+    "card": {
+      "title": "አስስ!",
+      "same_tags_subtitle": "ተዛማጅ የሆኑ ተጨማሪ ነገሮችን ያግኙ።",
+      "same_category_subtitle": "በዚህ ምድብ ውስጥ ተጨማሪ አስደናቂ ነገሮችን ያግኙ።"
+    }
   }
 };

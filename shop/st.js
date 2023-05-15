@@ -81,7 +81,9 @@ export default {
     "offer_message": "Reka {min_quantity} Fumana phokoletso ea {percent}% bakeng sa thepa ena",
     "up_to": "Ho fihla ho {per_order}x ka otara e 'ngoe",
     "get_free": "HLOKOMELA",
-    "get_off": "FUMANA {percent}%."
+    "get_off": "FUMANA {percent}%.",
+    "select_a_vendor_message": "Ka kopo, khetha morekisi.",
+    "product_description_header": "Re hlahisa {product}"
   },
   "buy_button": {
     "waiting_for_availability": "E emetse ho fumaneha",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Re tla u tsebisa ha e fumaneha.",
       "inform_remove_success": "U tlositsoe lethathamong la ba emetseng."
-    }
+    },
+    "subscribe_now": "Ngolisa Hona Joale",
+    "unsubscribe": "Tlosa boingodiso",
+    "select_a_subscription_plan": "Khetha moralo pele!",
+    "manage_subscriptions": "Laola lipeeletso"
   },
   "product": {
     "review": "Hlahloba",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Tiisetso",
     "return_policy": "LEANO LA THEPA E KHUTLISOANG",
     "guide": "Tataiso",
-    "shipping": "Ho tsamaisa ka sekepe"
+    "shipping": "Ho tsamaisa ka sekepe",
+    "related_categories_title": "Fumana ka likoleke"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Kakaretso ea Theko ea Lintho",
       "total_items_discount": "Thepa Theolelo",
       "total_price_after_offers": "Kakaretso ka mor'a ho kenya kopo",
-      "buyer_payment": "Chelete ea tefo ea moreki"
+      "buyer_payment": "Chelete ea tefo ea moreki",
+      "total_order_price_before_tax": "Pele ho lekhetho Kakaretso ea Theko"
     },
     "delivery": {
       "title": "Phano",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Lintlha tse fapaneng tsa litefiso",
     "basket_empty": "Basket ha e na letho",
     "extra_shipping_count": "U tla fumana liphutheloana tse {count}.",
-    "select_location_error": "Fumana sebaka seo thomello e romelloang ho sona 'mapeng, 'me u tobetse sesupo se bohareng ba 'mapa ho fumana aterese e nepahetseng ea moamoheli."
+    "select_location_error": "Fumana sebaka seo thomello e romelloang ho sona 'mapeng, 'me u tobetse sesupo se bohareng ba 'mapa ho fumana aterese e nepahetseng ea moamoheli.",
+    "same_billing_address_desc": "Aterese ea tefiso e tšoana le aterese ea thomello.",
+    "custom_billing_info_desc": "U ka kenya nomoro ea hau ea TAX ebe u seta aterese e fapaneng bakeng sa tefo.",
+    "billing_business_desc": "Ke ak'haonte ea khoebo e nang le nomoro ea TAX.",
+    "billing_personal_desc": "Ke ak'haonte ea hau.",
+    "no_billing_title": "Ha ho tefiso",
+    "no_billing_desc": "Tlohela aterese ea tefiso e se na letho."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Fumana odara ea kantle",
     "address_included": "Arolelana lintho tsa baskete + Aterese",
     "address_excluded": "Arolelana feela lintho tsa baskete"
+  },
+  "variants_view": {
+    "prices": "Litheko",
+    "inventory": "Inventory",
+    "discount": "Theolelo"
+  },
+  "rating": {
+    "product_rating_message": "Sehlahisoa sena se fumane lintlha tse {rate} ho linaleli tse 5 'me li fuoe batho ba {rate_count}."
+  },
+  "related_products": {
+    "card": {
+      "title": "Tseba!",
+      "same_tags_subtitle": "Fumana lintlha tse eketsehileng tse amanang le tsona.",
+      "same_category_subtitle": "Fumana lintho tse ling tse ikhethang sehlopheng sena."
+    }
   }
 };

@@ -78,6 +78,8 @@ export default {
   partners: {
     title: "{name} is partnering with Selldone",
     subtitle: "in unlocking the next-generation of online businesses.",
+    subtitle_official: "Unlock the next-generation of online businesses.",
+
     create_new_shop: "Create a new shop",
     select_a_shop: "Select a shop",
     apply_deal_to: "Apply deal to {shop}",

@@ -665,11 +665,28 @@ export default {
     static_page: "صفحه استاتیک",
 
     shop_button: "دکمه خرید",
-    embed:'جاسازی',
-    over:'بیش از',
+    embed: "جاسازی",
+    over: "بیش از",
 
-    tax_vary_by_location:'متغییر با مکان',
+    tax_vary_by_location: "متغییر با مکان",
     product_type: "نوع محصول",
+
+    tax_id: "کد مالیاتی",
+    business_name: "نام شرکت",
+    invoice: "صورت حساب",
+    included_in_the_product: "محتویات محصول",
+    included_in_the_product_description: "این محصول شامل این محتویات می باشد",
+    cross_sell: "فروش متقابل",
+    view_now: "مشاهده",
+    discount_off: "تخفیف",
+    extra_discount: "تخفیف تشویقی",
+    template: "تمپلیت",
+    in_cart: "در سبد",
+    pros_and_cons: "مزایا معایب",
+    related_products:'محصولات مرتبط',
+    related_categories:'دسته بندی های مرتبط',
+    badges:"نشان ها",
+    explore:"کاوش",
 
   },
 
@@ -801,8 +818,16 @@ export default {
     add_message: "ثبت پیام",
     continue_chat: "ادامه گفت و گو",
     add_new_message: "ارسال پیام جدید",
-    change_setting:'ویرایش تنظیمات',
-
+    change_setting: "ویرایش تنظیمات",
+    delete_all: "حذف همه",
+    transfer_fund: "انتقال وجه",
+    reverse_fund: "برگشت وجه",
+    settlement: "تسویه",
+    refund: "بازپرداخت",
+    partial_refund: "بازپرداخت جزئی",
+    change_payment_method: "تغییر روش پرداخت",
+    buy: "خرید",
+    view_all: "نمایش همه",
   },
 
   /** @see BillingPeriod **/
@@ -1247,6 +1272,7 @@ export default {
     cant_send_comment: "شما نمی توانید پست جدیدی بگذارید.",
     cant_remove_this_comment: "نمیتوانید این نظر را حذف نمایید!",
     product_buyer: "خریدار محصول",
+    my_comments: "نظرات من",
 
     delete_alert: {
       title: "حذف نظر",
@@ -1695,9 +1721,12 @@ export default {
     msg_body:
       "لطفا وارد شوید، این کار چند ثانیه بیشتر زمان شما را نخواهد گرفت.",
     login_email: "ورود با ایمیل",
-    email_login_step_1: "لطفاً یک آدرس ایمیل معتبر وارد کنید تا کد ورود به آن ارسال شود. نیازی به ثبت نام نیست.",
-    email_login_step_2: "آیا مطمئن هستید که آدرس ایمیل خود را به درستی وارد کرده اید؟ کد ورود به ایمیل ارائه شده ارسال خواهد شد ، بنابراین دقت کنید که دقیق باشد.",
-    email_login_step_3: "ما یک کد به ایمیل شما ارسال کرده ایم. لطفاً توجه داشته باشید که کد پس از 10 دقیقه منقضی می شود."
+    email_login_step_1:
+      "لطفاً یک آدرس ایمیل معتبر وارد کنید تا کد ورود به آن ارسال شود. نیازی به ثبت نام نیست.",
+    email_login_step_2:
+      "آیا مطمئن هستید که آدرس ایمیل خود را به درستی وارد کرده اید؟ کد ورود به ایمیل ارائه شده ارسال خواهد شد ، بنابراین دقت کنید که دقیق باشد.",
+    email_login_step_3:
+      "ما یک کد به ایمیل شما ارسال کرده ایم. لطفاً توجه داشته باشید که کد پس از 10 دقیقه منقضی می شود.",
   },
 
   /** {@see ShopBadges} **/
@@ -1765,6 +1794,9 @@ export default {
   basket_item_message: {
     title: "ورودی اطلاعات برای سفارش این کالا",
     save_actions: "ذخیره مقادیر",
+    product_inputs_preview_message:
+      "این گزینه‌های سفارشی‌سازی برای محصول سفارش داده شده شما در دسترس است. پس از افزودن آیتم به سبد خریدتان، شما می‌توانید در اینجا تغییرات را اعمال کنید.",
+
     notifications: {
       success: "پیام شما ثبت شد",
     },
@@ -1966,5 +1998,11 @@ export default {
     notification: {
       add_success: "تگ ها افزوده شد",
     },
+  },
+  buyer_rating_statement: {
+    between1_2: "چندان مورد پستند نیست!",
+    between2_3: "قابل قبوله!",
+    between3_4: "بقیه دوستش داشتن!",
+    between4_5: "بقیه عاشقش شدن!",
   },
 };

@@ -81,7 +81,9 @@ export default {
     "offer_message": "Mua {min_quantity} Được giảm giá {percent}% cho những mặt hàng này",
     "up_to": "Lên đến {per_order} x mỗi đơn đặt hàng",
     "get_free": "DÙNG MIỄN PHÍ",
-    "get_off": "ĐƯỢC GIẢM GIÁ {percent}%"
+    "get_off": "ĐƯỢC GIẢM GIÁ {percent}%",
+    "select_a_vendor_message": "Vui lòng chọn một nhà cung cấp.",
+    "product_description_header": "Giới thiệu {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Đang chờ sẵn sàng",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Chúng tôi sẽ cho bạn biết khi có sẵn.",
       "inform_remove_success": "Bạn đã bị loại khỏi danh sách chờ."
-    }
+    },
+    "subscribe_now": "Theo dõi ngay",
+    "unsubscribe": "hủy đăng ký",
+    "select_a_subscription_plan": "Chọn một kế hoạch đầu tiên!",
+    "manage_subscriptions": "Quản lý các mục đăng kí"
   },
   "product": {
     "review": "Xét lại",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Sự bảo đảm",
     "return_policy": "Chính sách hoàn trả",
     "guide": "Hướng dẫn",
-    "shipping": "Đang chuyển hàng"
+    "shipping": "Đang chuyển hàng",
+    "related_categories_title": "Khám phá trong bộ sưu tập"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Tổng giá các mặt hàng",
       "total_items_discount": "Giảm giá mặt hàng",
       "total_price_after_offers": "Tổng sau khi áp dụng ưu đãi",
-      "buyer_payment": "Số tiền thanh toán của người mua"
+      "buyer_payment": "Số tiền thanh toán của người mua",
+      "total_order_price_before_tax": "Tổng giá trước thuế"
     },
     "delivery": {
       "title": "Vận chuyển",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Thông tin thanh toán khác nhau",
     "basket_empty": "Giỏ trống",
     "extra_shipping_count": "Bạn sẽ nhận được {count} gói.",
-    "select_location_error": "Tìm nơi nhận lô hàng trên bản đồ và bấm vào chỉ số ở giữa bản đồ để xác định chính xác địa chỉ người nhận."
+    "select_location_error": "Tìm nơi nhận lô hàng trên bản đồ và bấm vào chỉ số ở giữa bản đồ để xác định chính xác địa chỉ người nhận.",
+    "same_billing_address_desc": "Địa chỉ thanh toán giống như địa chỉ giao hàng.",
+    "custom_billing_info_desc": "Bạn có thể nhập mã số THUẾ của mình và đặt một địa chỉ khác để thanh toán.",
+    "billing_business_desc": "Đó là tài khoản doanh nghiệp có mã số TAX.",
+    "billing_personal_desc": "Đó là một tài khoản cá nhân.",
+    "no_billing_title": "không thanh toán",
+    "no_billing_desc": "Để trống địa chỉ thanh toán."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Lấy đơn đặt hàng bên ngoài",
     "address_included": "Chia sẻ các mặt hàng trong giỏ + Địa chỉ",
     "address_excluded": "Chỉ chia sẻ các mặt hàng trong giỏ"
+  },
+  "variants_view": {
+    "prices": "Giá cả",
+    "inventory": "Kiểm kê",
+    "discount": "Chiết khấu"
+  },
+  "rating": {
+    "product_rating_message": "Sản phẩm này đã nhận được xếp hạng {rate} trên 5 sao và được đánh giá bởi {rate_count} người."
+  },
+  "related_products": {
+    "card": {
+      "title": "Khám phá!",
+      "same_tags_subtitle": "Tìm các mặt hàng liên quan đáng chú ý hơn.",
+      "same_category_subtitle": "Tìm các mặt hàng đáng chú ý hơn trong thể loại này."
+    }
   }
 };

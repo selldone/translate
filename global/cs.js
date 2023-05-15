@@ -603,7 +603,34 @@ export default {
     "deleted": "Smazáno",
     "variant": "Varianta",
     "secure": "Zajistit",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "vč.",
+    "payment_not_settled": "Platba neproběhla!",
+    "orders_list": "Seznam objednávek",
+    "subscription_plan": "Plán předplatného",
+    "contents": "Obsah",
+    "pricings": "Ceny",
+    "static_page": "Statická stránka",
+    "shop_button": "Tlačítko Obchod",
+    "embed": "Vložit",
+    "over": "Přes",
+    "tax_vary_by_location": "lišit se. umístění",
+    "product_type": "Typ produktu",
+    "tax_id": "DIČ",
+    "business_name": "Obchodní jméno",
+    "invoice": "Faktura",
+    "included_in_the_product": "Součástí produktu",
+    "included_in_the_product_description": "Výrobek obsahuje následující komponenty",
+    "cross_sell": "Křížový prodej",
+    "discount_off": "OFF",
+    "extra_discount": "Extra sleva",
+    "template": "Šablona",
+    "in_cart": "V košíku",
+    "pros_and_cons": "Výhody a nevýhody",
+    "related_products": "Související produkty",
+    "related_categories": "Související kategorie",
+    "badges": "Odznaky",
+    "explore": "Prozkoumat"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Regenerovat",
     "add_message": "Přidat zprávu",
     "continue_chat": "Pokračovat v chatu",
-    "add_new_message": "Přidat novou zprávu"
+    "add_new_message": "Přidat novou zprávu",
+    "change_setting": "Změnit nastavení",
+    "delete_all": "Smazat všechny",
+    "transfer_fund": "Převodový fond",
+    "reverse_fund": "Reverzní fond",
+    "settlement": "Vyrovnání",
+    "refund": "Vrácení peněz",
+    "partial_refund": "Částečné vrácení peněz",
+    "change_payment_method": "Změňte způsob platby",
+    "buy": "Koupit",
+    "view_all": "Zobrazit vše",
+    "view_now": "Zobrazit nyní"
   },
   "instance_message_title": "Odeslat okamžitou zprávu",
   "instance_message": "Ahoj {name}, jmenuji se {author} ze společnosti {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Les",
     "#DC2867": "Fuchsie",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "List",
     "#558450": "Světlá Aqua",
     "#96B5C9": "Světle modrá",
@@ -951,7 +989,9 @@ export default {
     "file": "Soubor",
     "file_description": "Všechny povolené soubory, jako je video z online kurzu, dokumenty ke stažení.",
     "service": "Servis",
-    "service_description": "Služby jako: opravy, doprava, výuka."
+    "service_description": "Služby jako: opravy, doprava, výuka.",
+    "subscription": "Předplatné",
+    "subscription_description": "Předplatné a fakturace za produkty, služby nebo obsah."
   },
   "license": {
     "free": "Volný, uvolnit",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "První příspěvek",
     "comment_at": "Na",
-    "edit_comment": "Upravit komentář"
+    "edit_comment": "Upravit komentář",
+    "my_comments": "Moje komentáře"
   },
   "customer_club": {
     "bronze": "Bronz",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Ověřovací kód",
     "msg_title": "Ahoj,",
     "msg_body": "Prosím přihlašte se. Zabere to jen pár sekund.",
-    "login_apple": "Přihlaste se pomocí Apple"
+    "login_apple": "Přihlaste se pomocí Apple",
+    "login_email": "Přihlaste se emailem",
+    "email_login_step_1": "Zadejte prosím platnou e-mailovou adresu a my na ni zašleme přihlašovací kód. Není nutná žádná registrace.",
+    "email_login_step_2": "Jste si jisti, že jste svou e-mailovou adresu zadali správně? Přihlašovací kód zašleme na uvedený e-mail, dbejte proto prosím na jeho správnost.",
+    "email_login_step_3": "Na váš e-mail jsme zaslali kód. Upozorňujeme, že platnost kódu vyprší za 10 minut."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Uložit zprávu",
     "notifications": {
       "success": "Vaše vstupní data byla uložena."
-    }
+    },
+    "product_inputs_preview_message": "Tyto možnosti přizpůsobení jsou k dispozici pro váš objednaný produkt. Po přidání položky do košíku zde budete moci provést úpravy."
   },
   "faq": {
     "faq": "Často kladené otázky",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Tvrdý",
     "intermediate": "středně pokročilí",
     "easy": "Snadný"
+  },
+  "billing_period": {
+    "Daily": "Denně",
+    "Weekly": "Týdně",
+    "Monthly": "Měsíční",
+    "Every3Months": "Každé 3 měsíce",
+    "Every6Months": "Každých 6 měsíců",
+    "Yearly": "Roční"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Och to není dobré!",
+    "between2_3": "To je v pořádku!",
+    "between3_4": "Lidem se to líbí!",
+    "between4_5": "Lidé to milují!"
   }
 };

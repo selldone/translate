@@ -81,7 +81,9 @@ export default {
     "offer_message": "Osta {min_quantity} Saat {percent}% alennusta näistä tuotteista",
     "up_to": "Jopa {per_order}x tilausta kohti",
     "get_free": "SAAT ILMAISEKSI",
-    "get_off": "SAAT {percent}% ALennusta"
+    "get_off": "SAAT {percent}% ALennusta",
+    "select_a_vendor_message": "Valitse toimittaja.",
+    "product_description_header": "Esittelyssä {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Odotetaan saatavuutta",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Ilmoitamme, kun se on saatavilla.",
       "inform_remove_success": "Sinut on poistettu jonotuslistalta."
-    }
+    },
+    "subscribe_now": "Tilaa nyt",
+    "unsubscribe": "Lopeta tilaus",
+    "select_a_subscription_plan": "Valitse ensin suunnitelma!",
+    "manage_subscriptions": "Hallinnoi tilauksia"
   },
   "product": {
     "review": "Arvostelu",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Takuu",
     "return_policy": "PALAUTUSKÄYTÄNTÖ",
     "guide": "Opas",
-    "shipping": "laivaus"
+    "shipping": "laivaus",
+    "related_categories_title": "Tutustu kokoelmiin"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Tuotteiden kokonaishinta",
       "total_items_discount": "Tuotteet alennus",
       "total_price_after_offers": "Yhteensä tarjousten jättämisen jälkeen",
-      "buyer_payment": "Ostajan maksun summa"
+      "buyer_payment": "Ostajan maksun summa",
+      "total_order_price_before_tax": "Kokonaishinta ennen veroja"
     },
     "delivery": {
       "title": "Toimitus",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Eri laskutustiedot",
     "basket_empty": "Kori on tyhjä",
     "extra_shipping_count": "Saat {count} pakettia.",
-    "select_location_error": "Etsi lähetyksen vastaanottopaikka kartalta ja napsauta kartan keskellä olevaa osoitinta saadaksesi tarkan vastaanottajan osoitteen."
+    "select_location_error": "Etsi lähetyksen vastaanottopaikka kartalta ja napsauta kartan keskellä olevaa osoitinta saadaksesi tarkan vastaanottajan osoitteen.",
+    "same_billing_address_desc": "Laskutusosoite on sama kuin toimitusosoite.",
+    "custom_billing_info_desc": "Voit syöttää TAX-numerosi ja asettaa toisen laskutusosoitteen.",
+    "billing_business_desc": "Se on yritystili, jolla on TAX-numero.",
+    "billing_personal_desc": "Se on henkilökohtainen tili.",
+    "no_billing_title": "Ei laskutusta",
+    "no_billing_desc": "Jätä laskutusosoite tyhjäksi."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Hae ulkoinen tilaus",
     "address_included": "Jaa korituotteet + Osoite",
     "address_excluded": "Jaa vain korituotteita"
+  },
+  "variants_view": {
+    "prices": "hinnat",
+    "inventory": "Varasto",
+    "discount": "Alennus"
+  },
+  "rating": {
+    "product_rating_message": "Tämä tuote on saanut arvosanan {rate}/5 tähteä, ja sen on arvioinut {rate_count} henkilöä."
+  },
+  "related_products": {
+    "card": {
+      "title": "Tutkia!",
+      "same_tags_subtitle": "Löydä lisää merkittäviä aiheeseen liittyviä kohteita.",
+      "same_category_subtitle": "Löydä lisää merkittäviä kohteita tästä kategoriasta."
+    }
   }
 };

@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity} 구매 이 항목에 대해 {percent}% 할인 받기",
     "up_to": "주문당 최대 {per_order}x",
     "get_free": "무료로 얻을",
-    "get_off": "{percent}% 할인 받기"
+    "get_off": "{percent}% 할인 받기",
+    "select_a_vendor_message": "공급업체를 선택하세요.",
+    "product_description_header": "{product} 소개"
   },
   "buy_button": {
     "waiting_for_availability": "사용 가능 여부를 기다리는 중",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "사용 가능하게 되면 알려 드리겠습니다.",
       "inform_remove_success": "대기자 명단에서 삭제되었습니다."
-    }
+    },
+    "subscribe_now": "지금 구독",
+    "unsubscribe": "구독 취소",
+    "select_a_subscription_plan": "플랜을 먼저 선택하세요!",
+    "manage_subscriptions": "구독 관리"
   },
   "product": {
     "review": "검토",
@@ -109,7 +115,8 @@ export default {
     "warranty": "보증",
     "return_policy": "반품 정책",
     "guide": "가이드",
-    "shipping": "배송"
+    "shipping": "배송",
+    "related_categories_title": "컬렉션에서 발견"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "총 품목 가격",
       "total_items_discount": "아이템 할인",
       "total_price_after_offers": "제안 적용 후 합계",
-      "buyer_payment": "구매자 지불 금액"
+      "buyer_payment": "구매자 지불 금액",
+      "total_order_price_before_tax": "세전 총 가격"
     },
     "delivery": {
       "title": "배달",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "다른 결제 정보",
     "basket_empty": "바구니가 비어 있습니다",
     "extra_shipping_count": "{count}개의 패키지를 받게 됩니다.",
-    "select_location_error": "지도에서 화물 수령 장소를 찾아 지도 중앙에 있는 표시를 클릭하면 정확한 수령인 주소를 알 수 있습니다."
+    "select_location_error": "지도에서 화물 수령 장소를 찾아 지도 중앙에 있는 표시를 클릭하면 정확한 수령인 주소를 알 수 있습니다.",
+    "same_billing_address_desc": "청구 주소는 배송 주소와 동일합니다.",
+    "custom_billing_info_desc": "TAX 번호를 입력하고 청구를 위해 다른 주소를 설정할 수 있습니다.",
+    "billing_business_desc": "TAX 번호가 있는 비즈니스 계정입니다.",
+    "billing_personal_desc": "개인 계정입니다.",
+    "no_billing_title": "청구 없음",
+    "no_billing_desc": "청구 주소를 비워 둡니다."
   },
   "basket_items": {
     "items_unit": "엑스",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "외부 주문 검색",
     "address_included": "장바구니 항목 공유 + 주소",
     "address_excluded": "장바구니 항목만 공유"
+  },
+  "variants_view": {
+    "prices": "물가",
+    "inventory": "목록",
+    "discount": "할인"
+  },
+  "rating": {
+    "product_rating_message": "이 제품은 별 5개 중 {rate} 등급을 받았으며 {rate_count}명이 평가했습니다."
+  },
+  "related_products": {
+    "card": {
+      "title": "탐구하다!",
+      "same_tags_subtitle": "더 주목할만한 관련 항목을 찾으십시오.",
+      "same_category_subtitle": "이 카테고리에서 더 많은 주목할만한 항목을 찾으십시오."
+    }
   }
 };

@@ -603,7 +603,34 @@ export default {
     "deleted": "Dipadamkan",
     "variant": "Pelbagai",
     "secure": "selamat",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "termasuk.",
+    "payment_not_settled": "Bayaran belum selesai!",
+    "orders_list": "Senarai pesanan",
+    "subscription_plan": "Pelan langganan",
+    "contents": "Kandungan",
+    "pricings": "penetapan harga",
+    "static_page": "Halaman statik",
+    "shop_button": "Butang Kedai",
+    "embed": "Benamkan",
+    "over": "Berakhir",
+    "tax_vary_by_location": "berbeza-beza. lokasi",
+    "product_type": "Jenis produk",
+    "tax_id": "ID cukai",
+    "business_name": "Nama Perniagaan",
+    "invoice": "Invois",
+    "included_in_the_product": "Termasuk dalam produk",
+    "included_in_the_product_description": "Produk termasuk komponen berikut",
+    "cross_sell": "Jualan Silang",
+    "discount_off": "OFF",
+    "extra_discount": "Diskaun Tambahan",
+    "template": "templat",
+    "in_cart": "Dalam Troli",
+    "pros_and_cons": "Kebaikan dan keburukan",
+    "related_products": "Produk Berkaitan",
+    "related_categories": "Kategori Berkaitan",
+    "badges": "Lencana",
+    "explore": "Meneroka"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Menjana semula",
     "add_message": "Tambah mesej",
     "continue_chat": "Teruskan sembang",
-    "add_new_message": "Tambah mesej baharu"
+    "add_new_message": "Tambah mesej baharu",
+    "change_setting": "Tukar tetapan",
+    "delete_all": "Memadam semua",
+    "transfer_fund": "Dana pemindahan",
+    "reverse_fund": "Dana terbalik",
+    "settlement": "Penyelesaian",
+    "refund": "Bayaran balik",
+    "partial_refund": "Bayaran Balik Separa",
+    "change_payment_method": "Tukar kaedah pembayaran",
+    "buy": "Beli",
+    "view_all": "Lihat semua",
+    "view_now": "Lihat Sekarang"
   },
   "instance_message_title": "Hantar mesej segera",
   "instance_message": "Hai {name}, Nama saya {author} daripada {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "malar hijau",
     "#214C30": "Hutan",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Daun",
     "#558450": "Aqua Cahaya",
     "#96B5C9": "Biru muda",
@@ -951,7 +989,9 @@ export default {
     "file": "Fail",
     "file_description": "Semua fail yang dibenarkan seperti video kursus dalam talian, dokumen yang boleh dimuat turun.",
     "service": "Perkhidmatan",
-    "service_description": "Perkhidmatan seperti: pembaikan, pengangkutan, pengajaran."
+    "service_description": "Perkhidmatan seperti: pembaikan, pengangkutan, pengajaran.",
+    "subscription": "Langganan",
+    "subscription_description": "Langganan dan invois untuk produk, perkhidmatan atau kandungan."
   },
   "license": {
     "free": "Percuma",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Jawatan pertama",
     "comment_at": "hidup",
-    "edit_comment": "Edit Komen"
+    "edit_comment": "Edit Komen",
+    "my_comments": "Komen Saya"
   },
   "customer_club": {
     "bronze": "Gangsa",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Kod pengesahan",
     "msg_title": "Hai,",
     "msg_body": "Sila daftar masuk. Ia mengambil masa beberapa saat sahaja.",
-    "login_apple": "Log masuk dengan Apple"
+    "login_apple": "Log masuk dengan Apple",
+    "login_email": "Log masuk melalui E-mel",
+    "email_login_step_1": "Sila berikan alamat e-mel yang sah, dan kami akan menghantar kod log masuk kepadanya. Tiada pendaftaran diperlukan.",
+    "email_login_step_2": "Adakah anda pasti anda telah memasukkan alamat e-mel anda dengan betul? Kami akan menghantar kod log masuk ke e-mel yang diberikan, jadi sila pastikan ketepatannya.",
+    "email_login_step_3": "Kami telah menghantar kod ke e-mel anda. Sila ambil perhatian bahawa kod akan tamat tempoh dalam masa 10 minit."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Simpan Mesej",
     "notifications": {
       "success": "Data input anda telah disimpan."
-    }
+    },
+    "product_inputs_preview_message": "Pilihan penyesuaian ini tersedia untuk produk pesanan anda. Setelah item ditambahkan pada troli anda, anda akan dapat membuat pelarasan di sini."
   },
   "faq": {
     "faq": "Soalan Lazim",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Keras",
     "intermediate": "Pertengahan",
     "easy": "Mudah"
+  },
+  "billing_period": {
+    "Daily": "Setiap hari",
+    "Weekly": "Setiap minggu",
+    "Monthly": "Bulanan",
+    "Every3Months": "Setiap 3 bulan",
+    "Every6Months": "Setiap 6 bulan",
+    "Yearly": "setiap tahun"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oh tidak baik!",
+    "between2_3": "Tak apalah!",
+    "between3_4": "Orang suka!",
+    "between4_5": "Orang suka!"
   }
 };

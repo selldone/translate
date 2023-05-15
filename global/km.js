@@ -603,7 +603,34 @@ export default {
     "deleted": "បានលុប",
     "variant": "វ៉ារ្យ៉ង់",
     "secure": "សុវត្ថិភាព",
-    "admin": "អ្នកគ្រប់គ្រង"
+    "admin": "អ្នកគ្រប់គ្រង",
+    "tax_included_abstract": "រួមបញ្ចូល",
+    "payment_not_settled": "ការទូទាត់មិនបាន!",
+    "orders_list": "បញ្ជីបញ្ជាទិញ",
+    "subscription_plan": "គម្រោងការជាវ",
+    "contents": "មាតិកា",
+    "pricings": "តម្លៃ",
+    "static_page": "ទំព័រឋិតិវន្ត",
+    "shop_button": "ប៊ូតុងហាង",
+    "embed": "បង្កប់",
+    "over": "ជាង",
+    "tax_vary_by_location": "ប្រែប្រួល។ ទីតាំង",
+    "product_type": "ប្រភេទ​ផលិតផល",
+    "tax_id": "លេខសម្គាល់ពន្ធ",
+    "business_name": "ឈ្មោះ​អាជីវកម្ម",
+    "invoice": "វិក្កយបត្រ",
+    "included_in_the_product": "រួមបញ្ចូលនៅក្នុងផលិតផល",
+    "included_in_the_product_description": "ផលិតផលរួមមានសមាសធាតុដូចខាងក្រោម",
+    "cross_sell": "លក់ឆ្លង",
+    "discount_off": "OFF",
+    "extra_discount": "ការបញ្ចុះតម្លៃបន្ថែម",
+    "template": "គំរូ",
+    "in_cart": "នៅក្នុងរទេះ",
+    "pros_and_cons": "វិជ្ជមាន​និង​អវិជ្ជមាន",
+    "related_products": "ផលិតផលដែលពាក់ព័ន្ធ",
+    "related_categories": "ប្រភេទដែលពាក់ព័ន្ធ",
+    "badges": "ផ្លាកសញ្ញា",
+    "explore": "រុករក"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "បង្កើតឡើងវិញ",
     "add_message": "បន្ថែមសារ",
     "continue_chat": "បន្តការជជែក",
-    "add_new_message": "បន្ថែមសារថ្មី។"
+    "add_new_message": "បន្ថែមសារថ្មី។",
+    "change_setting": "ផ្លាស់ប្តូរការកំណត់",
+    "delete_all": "លុប​ទាំងអស់",
+    "transfer_fund": "ផ្ទេរប្រាក់",
+    "reverse_fund": "មូលនិធិបញ្ច្រាស",
+    "settlement": "ការតាំងទីលំនៅ",
+    "refund": "សងប្រាក់វិញ។",
+    "partial_refund": "ការសងប្រាក់វិញដោយផ្នែក",
+    "change_payment_method": "ផ្លាស់ប្តូរវិធីបង់ប្រាក់",
+    "buy": "ទិញ",
+    "view_all": "មើលទាំងអស់។",
+    "view_now": "មើលឥឡូវនេះ"
   },
   "instance_message_title": "ផ្ញើសារបន្ទាន់",
   "instance_message": "សួស្តី {name} ខ្ញុំឈ្មោះ {author} មកពី {company}។",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "បៃតង",
     "#214C30": "ព្រៃ",
     "#DC2867": "ហ្វូចស៊ី",
-    "#38561F" :"ខេលី",
+    "#38561F": "ខេលី",
     "#5C884D": "ស្លឹកឈើ",
     "#558450": "ពន្លឺ Aqua",
     "#96B5C9": "ពណ៌ខៀវ​ស្រាល",
@@ -951,7 +989,9 @@ export default {
     "file": "ឯកសារ",
     "file_description": "ឯកសារដែលបានអនុញ្ញាតទាំងអស់ ដូចជាវីដេអូវគ្គសិក្សាតាមអ៊ីនធឺណិត ឯកសារដែលអាចទាញយកបាន។",
     "service": "សេវាកម្ម",
-    "service_description": "សេវាកម្មដូចជា៖ ជួសជុល ដឹកជញ្ជូន បង្រៀន។"
+    "service_description": "សេវាកម្មដូចជា៖ ជួសជុល ដឹកជញ្ជូន បង្រៀន។",
+    "subscription": "ការជាវ",
+    "subscription_description": "ការជាវ និងវិក្កយបត្រសម្រាប់ផលិតផល សេវាកម្ម ឬខ្លឹមសារ។"
   },
   "license": {
     "free": "ឥតគិតថ្លៃ",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "ប្រកាសដំបូង",
     "comment_at": "បើក",
-    "edit_comment": "កែសម្រួល​មតិ"
+    "edit_comment": "កែសម្រួល​មតិ",
+    "my_comments": "យោបល់របស់ខ្ញុំ"
   },
   "customer_club": {
     "bronze": "សំរិទ្ធ",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "កូដ​ផ្ទៀង​ផ្ទាត់",
     "msg_title": "សួស្តី",
     "msg_body": "សូមចូល។ វាចំណាយពេលតែប៉ុន្មានវិនាទីប៉ុណ្ណោះ។",
-    "login_apple": "ចូលជាមួយ Apple"
+    "login_apple": "ចូលជាមួយ Apple",
+    "login_email": "ចូលតាមអ៊ីមែល",
+    "email_login_step_1": "សូមផ្តល់អាសយដ្ឋានអ៊ីមែលដែលមានសុពលភាព ហើយយើងនឹងផ្ញើលេខកូដចូលទៅកាន់វា។ មិនចាំបាច់ចុះឈ្មោះទេ។",
+    "email_login_step_2": "តើអ្នកប្រាកដទេថាអ្នកបានបញ្ចូលអាសយដ្ឋានអ៊ីមែលរបស់អ្នកត្រឹមត្រូវ? យើង​នឹង​ផ្ញើ​លេខ​កូដ​ចូល​ទៅ​អ៊ីមែល​ដែល​បាន​ផ្ដល់ ដូច្នេះ​សូម​ធានា​ឱ្យ​បាន​នូវ​ភាព​ត្រឹមត្រូវ​របស់​វា។",
+    "email_login_step_3": "យើងបានផ្ញើលេខកូដទៅអ៊ីមែលរបស់អ្នក។ សូមចំណាំថាលេខកូដនឹងផុតកំណត់ក្នុងរយៈពេល 10 នាទី។"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "រក្សាទុកសារ",
     "notifications": {
       "success": "ទិន្នន័យបញ្ចូលរបស់អ្នកត្រូវបានរក្សាទុក។"
-    }
+    },
+    "product_inputs_preview_message": "ជម្រើសប្ដូរតាមបំណងទាំងនេះមានសម្រាប់ផលិតផលដែលអ្នកបានបញ្ជាទិញ។ នៅពេលដែលធាតុត្រូវបានបញ្ចូលទៅក្នុងរទេះរបស់អ្នក អ្នកនឹងអាចធ្វើការកែតម្រូវនៅទីនេះ។"
   },
   "faq": {
     "faq": "សំណួរ​ដែល​សួរ​ញឹកញាប់",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "រឹង",
     "intermediate": "កម្រិតមធ្យម",
     "easy": "ងាយស្រួល"
+  },
+  "billing_period": {
+    "Daily": "ប្រចាំថ្ងៃ",
+    "Weekly": "ប្រចាំសប្តាហ៍",
+    "Monthly": "ប្រចាំខែ",
+    "Every3Months": "រៀងរាល់ 3 ខែ",
+    "Every6Months": "រៀងរាល់ 6 ខែ",
+    "Yearly": "ប្រចាំឆ្នាំ"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "មិនល្អទេ!",
+    "between2_3": "មិន​អី​ទេ!",
+    "between3_4": "មនុស្សចូលចិត្ត!",
+    "between4_5": "មនុស្សចូលចិត្តវា!"
   }
 };

@@ -603,7 +603,34 @@ export default {
     "deleted": "हटाए गए",
     "variant": "प्रकार",
     "secure": "सुरक्षित",
-    "admin": "व्यवस्थापक"
+    "admin": "व्यवस्थापक",
+    "tax_included_abstract": "सहित।",
+    "payment_not_settled": "भुगतान नहीं हुआ!",
+    "orders_list": "आदेश सूची",
+    "subscription_plan": "सदस्यता योजना",
+    "contents": "अंतर्वस्तु",
+    "pricings": "मूल्य निर्धारण",
+    "static_page": "स्थैतिक पृष्ठ",
+    "shop_button": "दुकान बटन",
+    "embed": "एम्बेड",
+    "over": "ऊपर",
+    "tax_vary_by_location": "अलग होना। जगह",
+    "product_type": "उत्पाद प्रकार",
+    "tax_id": "टैक्स आईडी",
+    "business_name": "व्यवसाय का नाम",
+    "invoice": "इनवॉइस",
+    "included_in_the_product": "उत्पाद में शामिल है",
+    "included_in_the_product_description": "उत्पाद में निम्नलिखित घटक शामिल हैं",
+    "cross_sell": "पार बेचने",
+    "discount_off": "OFF",
+    "extra_discount": "अतिरिक्त छूट",
+    "template": "टेम्पलेट",
+    "in_cart": "गाड़ी में",
+    "pros_and_cons": "पक्ष - विपक्ष",
+    "related_products": "संबंधित उत्पाद",
+    "related_categories": "संबंधित श्रेणियाँ",
+    "badges": "बैज",
+    "explore": "खोजना"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "पुनः जेनरेट",
     "add_message": "संदेश जोड़ें",
     "continue_chat": "चैट जारी रखें",
-    "add_new_message": "नया संदेश जोड़ें"
+    "add_new_message": "नया संदेश जोड़ें",
+    "change_setting": "सेटिंग बदलें",
+    "delete_all": "सभी हटा दो",
+    "transfer_fund": "ट्रांसफर फंड",
+    "reverse_fund": "उल्टा कोष",
+    "settlement": "समझौता",
+    "refund": "धनवापसी",
+    "partial_refund": "आंशिक वापसी",
+    "change_payment_method": "भुगतान का तरीका बदलें",
+    "buy": "खरीदना",
+    "view_all": "सभी को देखें",
+    "view_now": "अभी देखें"
   },
   "instance_message_title": "तत्काल संदेश भेजें",
   "instance_message": "नमस्ते {name}, मेरा नाम {author} से {author} है।",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "सदाबहार",
     "#214C30": "जंगल",
     "#DC2867": "फ्यूशिया",
-    "#38561F" :"केली",
+    "#38561F": "केली",
     "#5C884D": "पत्ती",
     "#558450": "लाइट एक्वा",
     "#96B5C9": "हल्का नीला रंग",
@@ -951,7 +989,9 @@ export default {
     "file": "फ़ाइल",
     "file_description": "सभी अनुमत फाइलें जैसे ऑनलाइन पाठ्यक्रम वीडियो, डाउनलोड करने योग्य दस्तावेज।",
     "service": "सेवा",
-    "service_description": "सेवाएं जैसे: मरम्मत, परिवहन, शिक्षण।"
+    "service_description": "सेवाएं जैसे: मरम्मत, परिवहन, शिक्षण।",
+    "subscription": "अंशदान",
+    "subscription_description": "उत्पादों, सेवाओं, या सामग्री के लिए सदस्यता और चालान।"
   },
   "license": {
     "free": "नि: शुल्क",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "पहिला पद",
     "comment_at": "पर",
-    "edit_comment": "टिप्पणी संपादित करें"
+    "edit_comment": "टिप्पणी संपादित करें",
+    "my_comments": "मेरी टिप्पणियां"
   },
   "customer_club": {
     "bronze": "पीतल",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "सत्यापन कोड",
     "msg_title": "हैलो,",
     "msg_body": "कृपया लॉगिन करें। इसमें कुछ ही सेकंड लगते हैं।",
-    "login_apple": "ऐप्पल के साथ लॉगिन करें"
+    "login_apple": "ऐप्पल के साथ लॉगिन करें",
+    "login_email": "ईमेल द्वारा लॉगिन करें",
+    "email_login_step_1": "कृपया एक वैध ईमेल पता प्रदान करें, और हम इसे लॉगिन कोड भेज देंगे। कोई पंजीकरण आवश्यक नहीं है।",
+    "email_login_step_2": "क्या आप निश्चित हैं कि आपने अपना ईमेल पता सही दर्ज किया है? हम प्रदान किए गए ईमेल पर लॉगिन कोड भेजेंगे, इसलिए कृपया इसकी सटीकता सुनिश्चित करें।",
+    "email_login_step_3": "हमने आपके ईमेल पर एक कोड भेजा है। कृपया ध्यान दें कि कोड 10 मिनट में समाप्त हो जाएगा।"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "संदेश सहेजें",
     "notifications": {
       "success": "आपका इनपुट डेटा सहेज लिया गया है।"
-    }
+    },
+    "product_inputs_preview_message": "ये अनुकूलन विकल्प आपके ऑर्डर किए गए उत्पाद के लिए उपलब्ध हैं। आपके कार्ट में एक बार आइटम जुड़ जाने के बाद, आप यहां एडजस्टमेंट कर पाएंगे।"
   },
   "faq": {
     "faq": "सामान्यतःपूछे जाने वाले प्रश्न",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "सख्त",
     "intermediate": "मध्यम",
     "easy": "आसान"
+  },
+  "billing_period": {
+    "Daily": "दैनिक",
+    "Weekly": "साप्ताहिक",
+    "Monthly": "महीने के",
+    "Every3Months": "हर 3 महीने",
+    "Every6Months": "हर 6 महीने में",
+    "Yearly": "सालाना"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "ओह अच्छा नहीं!",
+    "between2_3": "कोई बात नहीं!",
+    "between3_4": "लोग इसे पसंद करते हैं!",
+    "between4_5": "लोग इसे प्यार करते हैं!"
   }
 };

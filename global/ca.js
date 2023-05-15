@@ -603,7 +603,34 @@ export default {
     "deleted": "S'ha suprimit",
     "variant": "Variant",
     "secure": "Segur",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "incl.",
+    "payment_not_settled": "Pagament no liquidat!",
+    "orders_list": "Llista de comandes",
+    "subscription_plan": "Pla de subscripció",
+    "contents": "Continguts",
+    "pricings": "Preus",
+    "static_page": "Pàgina estàtica",
+    "shop_button": "Botó de la botiga",
+    "embed": "Insereix",
+    "over": "Acabat",
+    "tax_vary_by_location": "variar. ubicació",
+    "product_type": "Tipus de Producte",
+    "tax_id": "Identificació fiscal",
+    "business_name": "Nom del Negoci",
+    "invoice": "Factura",
+    "included_in_the_product": "Inclòs en el producte",
+    "included_in_the_product_description": "El producte inclou els components següents",
+    "cross_sell": "Venda creuada",
+    "discount_off": "OFF",
+    "extra_discount": "Descompte extra",
+    "template": "Plantilla",
+    "in_cart": "Al carro",
+    "pros_and_cons": "Pros i contres",
+    "related_products": "Productes relacionats",
+    "related_categories": "Categories relacionades",
+    "badges": "Insígnies",
+    "explore": "Explora"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Regenerar",
     "add_message": "Afegeix missatge",
     "continue_chat": "Continua el xat",
-    "add_new_message": "Afegeix un missatge nou"
+    "add_new_message": "Afegeix un missatge nou",
+    "change_setting": "Canvia la configuració",
+    "delete_all": "Eliminar tots",
+    "transfer_fund": "Fons de transferència",
+    "reverse_fund": "Fons invers",
+    "settlement": "Assentament",
+    "refund": "Devolució",
+    "partial_refund": "Devolució parcial",
+    "change_payment_method": "Canvia la forma de pagament",
+    "buy": "Comprar",
+    "view_all": "Veure tot",
+    "view_now": "Veure ara"
   },
   "instance_message_title": "Enviar missatge instantani",
   "instance_message": "Hola {name}, Em dic {author} de {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Perenne",
     "#214C30": "Bosc",
     "#DC2867": "Fúcsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Full",
     "#558450": "Aqua clar",
     "#96B5C9": "Blau clar",
@@ -951,7 +989,9 @@ export default {
     "file": "Dossier",
     "file_description": "Tots els fitxers permesos, com ara vídeos del curs en línia, documents que es poden descarregar.",
     "service": "Servei",
-    "service_description": "Serveis com: reparació, transport, docència."
+    "service_description": "Serveis com: reparació, transport, docència.",
+    "subscription": "Subscripció",
+    "subscription_description": "Subscripcions i facturació de productes, serveis o continguts."
   },
   "license": {
     "free": "Gratuït",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Primera publicació",
     "comment_at": "Encès",
-    "edit_comment": "Edita el comentari"
+    "edit_comment": "Edita el comentari",
+    "my_comments": "Els meus comentaris"
   },
   "customer_club": {
     "bronze": "Bronze",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Codi de verificació",
     "msg_title": "hola,",
     "msg_body": "Si us plau inicieu sessió. Només triguen uns segons.",
-    "login_apple": "Inicieu sessió amb Apple"
+    "login_apple": "Inicieu sessió amb Apple",
+    "login_email": "Inicieu sessió per correu electrònic",
+    "email_login_step_1": "Proporcioneu una adreça de correu electrònic vàlida i li enviarem el codi d'inici de sessió. No cal registrar-se.",
+    "email_login_step_2": "Esteu segur que heu introduït la vostra adreça de correu electrònic correctament? Enviarem el codi d'inici de sessió al correu electrònic proporcionat, així que assegureu-vos que sigui exacte.",
+    "email_login_step_3": "Hem enviat un codi al teu correu electrònic. Tingueu en compte que el codi caducarà en 10 minuts."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Guarda el missatge",
     "notifications": {
       "success": "Les vostres dades d'entrada s'han desat."
-    }
+    },
+    "product_inputs_preview_message": "Aquestes opcions de personalització estan disponibles per al producte demanat. Un cop l'article s'ha afegit al carretó, aquí podreu fer els ajustos."
   },
   "faq": {
     "faq": "Preguntes freqüents",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Dur",
     "intermediate": "Intermedi",
     "easy": "Fàcil"
+  },
+  "billing_period": {
+    "Daily": "Diàriament",
+    "Weekly": "Setmanalment",
+    "Monthly": "Mensual",
+    "Every3Months": "Cada 3 mesos",
+    "Every6Months": "Cada 6 mesos",
+    "Yearly": "Anualment"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oh, no està bé!",
+    "between2_3": "Està bé!",
+    "between3_4": "A la gent li agrada!",
+    "between4_5": "A la gent li encanta!"
   }
 };

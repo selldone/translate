@@ -81,7 +81,9 @@ export default {
     "offer_message": "U soo iibso {min_quantity} Hel {percent}% off alaabtan",
     "up_to": "Ilaa {per_order}x dalabkiiba",
     "get_free": "BILAASH hel",
-    "get_off": "HEL {percent}% dhimis"
+    "get_off": "HEL {percent}% dhimis",
+    "select_a_vendor_message": "Fadlan door iibiye",
+    "product_description_header": "Soo bandhigida {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Sugitaanka helitaanka",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Waan ku ogeysiin doonaa marka la heli karo.",
       "inform_remove_success": "Waxa laga saaray liiska sugitaanka"
-    }
+    },
+    "subscribe_now": "Hada isdiiwaangeli",
+    "unsubscribe": "Is-diiwaangelinta",
+    "select_a_subscription_plan": "Marka hore dooro qorshe!",
+    "manage_subscriptions": "Maamul isdiiwaangelinta"
   },
   "product": {
     "review": "Dib u eegis",
@@ -109,7 +115,8 @@ export default {
     "warranty": "dammaanad",
     "return_policy": "Siyaasadda soo celinta",
     "guide": "Hagaha",
-    "shipping": "Raridda"
+    "shipping": "Raridda",
+    "related_categories_title": "Soo hel ururinta"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Wadarta Qiimaha Alaabta",
       "total_items_discount": "Qiimo dhimista Alaabta",
       "total_price_after_offers": "Wadarta ka dib marka la codsado dalabyada",
-      "buyer_payment": "Lacagta iibsadaha"
+      "buyer_payment": "Lacagta iibsadaha",
+      "total_order_price_before_tax": "Wadarta Qiimaha Canshuurta kahor"
     },
     "delivery": {
       "title": "gaarsiin",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Macluumaadka biilasha kala duwan",
     "basket_empty": "Danbiil waa madhan",
     "extra_shipping_count": "Waxaad heli doontaa baakado {count}",
-    "select_location_error": "Ka hel goobta rasiidka rasiidka oo ku yaal khariidada oo guji tusaha badhtanka qariirada si aad u go'aamiso ciwaanka saxda ah ee qaataha."
+    "select_location_error": "Ka hel goobta rasiidka rasiidka oo ku yaal khariidada oo guji tusaha badhtanka qariirada si aad u go'aamiso ciwaanka saxda ah ee qaataha.",
+    "same_billing_address_desc": "Ciwaanka biilasha waxa uu la mid yahay ciwaanka rarida",
+    "custom_billing_info_desc": "Waxaad geli kartaa lambarkaaga TAX oo aad u dejin kartaa ciwaan ka duwan biilasha.",
+    "billing_business_desc": "Waa akoon ganacsi oo leh nambar TAX",
+    "billing_personal_desc": "Waa xisaab shakhsi.",
+    "no_billing_title": "Wax biil ah ma jiro",
+    "no_billing_desc": "Ciwaanka qaansheegadka ka dhig faaruq."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Soo celi amarka dibadda",
     "address_included": "La wadaag alaabta dambiisha + Cinwaanka",
     "address_excluded": "Wadaag kaliya alaabta dambiisha"
+  },
+  "variants_view": {
+    "prices": "Qiimaha",
+    "inventory": "Alaabada",
+    "discount": "Qiimo dhimis"
+  },
+  "rating": {
+    "product_rating_message": "Alaabtani waxa ay heshay qiimaynta {rate} ee 5 xidigood oo ay ku qiimeeyeen {rate_count} dadka"
+  },
+  "related_products": {
+    "card": {
+      "title": "Baadh!",
+      "same_tags_subtitle": "Soo hel waxyaabo kale oo cajiib ah oo laxiriira.",
+      "same_category_subtitle": "Ka hel waxyaabo badan oo cajiib ah qaybtan."
+    }
   }
 };

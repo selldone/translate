@@ -603,7 +603,34 @@ export default {
     "deleted": "Poistettu",
     "variant": "Variantti",
     "secure": "Turvallinen",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "sis.",
+    "payment_not_settled": "Maksua ei suoritettu!",
+    "orders_list": "Tilauslista",
+    "subscription_plan": "Tilaussuunnitelma",
+    "contents": "Sisällys",
+    "pricings": "Hinnat",
+    "static_page": "Staattinen sivu",
+    "shop_button": "Kauppa-painike",
+    "embed": "Upottaa",
+    "over": "Yli",
+    "tax_vary_by_location": "vaihdella. sijainti",
+    "product_type": "Tuotetyyppi",
+    "tax_id": "Verotunnus",
+    "business_name": "Yrityksen nimi",
+    "invoice": "Lasku",
+    "included_in_the_product": "Sisältyy tuotteeseen",
+    "included_in_the_product_description": "Tuote sisältää seuraavat komponentit",
+    "cross_sell": "Ristimyynti",
+    "discount_off": "OFF",
+    "extra_discount": "Ylimääräinen alennus",
+    "template": "Sapluuna",
+    "in_cart": "Ostoskorissa",
+    "pros_and_cons": "Hyvät ja huonot puolet",
+    "related_products": "Liittyvät tuotteet",
+    "related_categories": "Liittyvät kategoriat",
+    "badges": "Tunnusmerkit",
+    "explore": "Tutkia"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Luo uudelleen",
     "add_message": "Lisää viesti",
     "continue_chat": "Jatka keskustelua",
-    "add_new_message": "Lisää uusi viesti"
+    "add_new_message": "Lisää uusi viesti",
+    "change_setting": "Muuta asetuksia",
+    "delete_all": "Poista kaikki",
+    "transfer_fund": "Siirtorahasto",
+    "reverse_fund": "Käänteinen rahasto",
+    "settlement": "Ratkaisu",
+    "refund": "Maksun palautus",
+    "partial_refund": "Osittainen hyvitys",
+    "change_payment_method": "Vaihda maksutapaa",
+    "buy": "Ostaa",
+    "view_all": "Näytä kaikki",
+    "view_now": "Näytä nyt"
   },
   "instance_message_title": "Lähetä pikaviesti",
   "instance_message": "Hei {name}, Nimeni on {author} yrityksestä {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Ikivihreä",
     "#214C30": "Metsä",
     "#DC2867": "fuksia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Puun lehti",
     "#558450": "Vaalea Aqua",
     "#96B5C9": "Vaaleansininen",
@@ -951,7 +989,9 @@ export default {
     "file": "Tiedosto",
     "file_description": "Kaikki sallitut tiedostot, kuten verkkokurssivideot, ladattavat asiakirjat.",
     "service": "Palvelu",
-    "service_description": "Palvelut kuten: korjaus, kuljetus, opetus."
+    "service_description": "Palvelut kuten: korjaus, kuljetus, opetus.",
+    "subscription": "Tilaus",
+    "subscription_description": "Tilaukset ja laskutus tuotteista, palveluista tai sisällöstä."
   },
   "license": {
     "free": "Vapaa",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Ensimmäinen postaus",
     "comment_at": "Päällä",
-    "edit_comment": "Muokkaa kommenttia"
+    "edit_comment": "Muokkaa kommenttia",
+    "my_comments": "Omat kommentit"
   },
   "customer_club": {
     "bronze": "Pronssi",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Vahvistuskoodi",
     "msg_title": "Moi,",
     "msg_body": "Kirjaudu sisään, ole hyvä. Se kestää vain muutaman sekunnin.",
-    "login_apple": "Kirjaudu sisään Applella"
+    "login_apple": "Kirjaudu sisään Applella",
+    "login_email": "Kirjaudu sisään sähköpostilla",
+    "email_login_step_1": "Anna voimassa oleva sähköpostiosoite, niin lähetämme siihen kirjautumiskoodin. Rekisteröintiä ei tarvita.",
+    "email_login_step_2": "Oletko varma, että olet kirjoittanut sähköpostiosoitteesi oikein? Lähetämme kirjautumiskoodin antamaasi sähköpostiosoitteeseen, joten varmistathan sen oikeellisuuden.",
+    "email_login_step_3": "Olemme lähettäneet koodin sähköpostiisi. Huomaa, että koodi vanhenee 10 minuutin kuluttua."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Tallenna viesti",
     "notifications": {
       "success": "Syöttötietosi on tallennettu."
-    }
+    },
+    "product_inputs_preview_message": "Nämä mukautusvaihtoehdot ovat käytettävissä tilaamallesi tuotteelle. Kun tuote on lisätty ostoskoriin, voit tehdä muutoksia täällä."
   },
   "faq": {
     "faq": "Usein Kysytyt Kysymykset",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Kovaa",
     "intermediate": "Keskitason",
     "easy": "Helppo"
+  },
+  "billing_period": {
+    "Daily": "Päivittäin",
+    "Weekly": "Viikoittain",
+    "Monthly": "Kuukausittain",
+    "Every3Months": "3 kuukauden välein",
+    "Every6Months": "6 kuukauden välein",
+    "Yearly": "Vuosittain"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oi ei hyvä!",
+    "between2_3": "Se on okei!",
+    "between3_4": "Ihmiset pitävät siitä!",
+    "between4_5": "Ihmiset rakastavat sitä!"
   }
 };

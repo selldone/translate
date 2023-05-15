@@ -81,7 +81,9 @@ export default {
     "offer_message": "购买 {min_quantity} 这些商品可享受 {percent}% 折扣",
     "up_to": "每个订单最多 {per_order}x",
     "get_free": "免费",
-    "get_off": "获得 {percent}% 折扣"
+    "get_off": "获得 {percent}% 折扣",
+    "select_a_vendor_message": "请选择供应商。",
+    "product_description_header": "介绍{product}"
   },
   "buy_button": {
     "waiting_for_availability": "等待可用性",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "我们会在有货时通知您。",
       "inform_remove_success": "您已从等候名单中删除。"
-    }
+    },
+    "subscribe_now": "现在订阅",
+    "unsubscribe": "退订",
+    "select_a_subscription_plan": "先选方案！",
+    "manage_subscriptions": "管理订阅"
   },
   "product": {
     "review": "审查",
@@ -109,7 +115,8 @@ export default {
     "warranty": "保修单",
     "return_policy": "退货政策",
     "guide": "指导",
-    "shipping": "船运"
+    "shipping": "船运",
+    "related_categories_title": "在收藏中发现"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "总项目价格",
       "total_items_discount": "商品折扣",
       "total_price_after_offers": "申请报价后总计",
-      "buyer_payment": "买家付款金额"
+      "buyer_payment": "买家付款金额",
+      "total_order_price_before_tax": "税前总价"
     },
     "delivery": {
       "title": "交货",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "不同的帐单信息",
     "basket_empty": "篮子是空的",
     "extra_shipping_count": "您将收到 {count} 个包裹。",
-    "select_location_error": "在地图上找到收货地点，点击地图中间的指示符，确定收货人的准确地址。"
+    "select_location_error": "在地图上找到收货地点，点击地图中间的指示符，确定收货人的准确地址。",
+    "same_billing_address_desc": "账单地址与送货地址相同。",
+    "custom_billing_info_desc": "您可以输入您的税号并设置不同的帐单地址。",
+    "billing_business_desc": "这是一个带有税号的企业帐户。",
+    "billing_personal_desc": "这是一个个人帐户。",
+    "no_billing_title": "无计费",
+    "no_billing_desc": "将账单地址留空。"
   },
   "basket_items": {
     "items_unit": "X",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "检索外部订单",
     "address_included": "分享篮子物品+地址",
     "address_excluded": "仅分享购物篮物品"
+  },
+  "variants_view": {
+    "prices": "价格",
+    "inventory": "存货",
+    "discount": "折扣"
+  },
+  "rating": {
+    "product_rating_message": "该产品已获得 {rate} 的评分（满分 5 星）并由 {rate_count} 人评分。"
+  },
+  "related_products": {
+    "card": {
+      "title": "探索！",
+      "same_tags_subtitle": "查找更多卓越的相关项目。",
+      "same_category_subtitle": "在此类别中查找更多卓越的项目。"
+    }
   }
 };

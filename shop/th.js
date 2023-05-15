@@ -81,7 +81,9 @@ export default {
     "offer_message": "ซื้อ {min_quantity} รับส่วนลด {percent}% สำหรับสินค้าเหล่านี้",
     "up_to": "สูงสุด {per_order}x ต่อคำสั่งซื้อ",
     "get_free": "รับฟรี",
-    "get_off": "รับส่วนลด {percent}%"
+    "get_off": "รับส่วนลด {percent}%",
+    "select_a_vendor_message": "กรุณาเลือกผู้ขาย",
+    "product_description_header": "แนะนำ {product}"
   },
   "buy_button": {
     "waiting_for_availability": "รอคิวว่าง",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "เราจะแจ้งให้คุณทราบเมื่อพร้อมให้บริการ",
       "inform_remove_success": "คุณถูกลบออกจากรายการรอ"
-    }
+    },
+    "subscribe_now": "สมัครสมาชิกตอนนี้",
+    "unsubscribe": "ยกเลิกการสมัคร",
+    "select_a_subscription_plan": "เลือกแผนก่อน!",
+    "manage_subscriptions": "จัดการการสมัครรับข้อมูล"
   },
   "product": {
     "review": "ทบทวน",
@@ -109,7 +115,8 @@ export default {
     "warranty": "การรับประกัน",
     "return_policy": "นโยบายการคืนสินค้า",
     "guide": "แนะนำ",
-    "shipping": "การส่งสินค้า"
+    "shipping": "การส่งสินค้า",
+    "related_categories_title": "ค้นพบในคอลเลกชัน"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "ราคาสินค้าทั้งหมด",
       "total_items_discount": "ส่วนลดรายการ",
       "total_price_after_offers": "รวมหลังจากสมัครข้อเสนอ",
-      "buyer_payment": "จำนวนเงินที่ผู้ซื้อชำระ"
+      "buyer_payment": "จำนวนเงินที่ผู้ซื้อชำระ",
+      "total_order_price_before_tax": "ราคารวมก่อนหักภาษี"
     },
     "delivery": {
       "title": "จัดส่ง",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "ข้อมูลการเรียกเก็บเงินที่แตกต่างกัน",
     "basket_empty": "ตะกร้าว่างเปล่า",
     "extra_shipping_count": "คุณจะได้รับ {count} แพ็คเกจ",
-    "select_location_error": "ค้นหาสถานที่รับสินค้าบนแผนที่และคลิกที่ตัวบ่งชี้ที่อยู่ตรงกลางแผนที่เพื่อระบุที่อยู่ที่แน่นอนของผู้รับ"
+    "select_location_error": "ค้นหาสถานที่รับสินค้าบนแผนที่และคลิกที่ตัวบ่งชี้ที่อยู่ตรงกลางแผนที่เพื่อระบุที่อยู่ที่แน่นอนของผู้รับ",
+    "same_billing_address_desc": "ที่อยู่สำหรับการเรียกเก็บเงินจะเหมือนกับที่อยู่ในการจัดส่ง",
+    "custom_billing_info_desc": "คุณสามารถป้อนหมายเลขภาษีของคุณและตั้งค่าที่อยู่อื่นสำหรับการเรียกเก็บเงิน",
+    "billing_business_desc": "เป็นบัญชีธุรกิจที่มีหมายเลขภาษี",
+    "billing_personal_desc": "มันเป็นบัญชีส่วนบุคคล",
+    "no_billing_title": "ไม่มีการเรียกเก็บเงิน",
+    "no_billing_desc": "เว้นที่อยู่สำหรับการเรียกเก็บเงินว่างไว้"
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "เรียกคำสั่งภายนอก",
     "address_included": "แบ่งปันรายการตะกร้า + ที่อยู่",
     "address_excluded": "แชร์เฉพาะรายการตะกร้า"
+  },
+  "variants_view": {
+    "prices": "ราคา",
+    "inventory": "รายการสิ่งของ",
+    "discount": "การลดราคา"
+  },
+  "rating": {
+    "product_rating_message": "ผลิตภัณฑ์นี้ได้รับคะแนน {rate} จาก 5 ดาวและให้คะแนนโดย {rate_count} คน"
+  },
+  "related_products": {
+    "card": {
+      "title": "สำรวจ!",
+      "same_tags_subtitle": "ค้นหารายการที่เกี่ยวข้องที่น่าทึ่งมากขึ้น",
+      "same_category_subtitle": "ค้นหารายการที่โดดเด่นอื่น ๆ ในหมวดนี้"
+    }
   }
 };

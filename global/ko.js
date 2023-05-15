@@ -603,7 +603,34 @@ export default {
     "deleted": "삭제됨",
     "variant": "변종",
     "secure": "안전한",
-    "admin": "관리자"
+    "admin": "관리자",
+    "tax_included_abstract": "포함",
+    "payment_not_settled": "결제가 완료되지 않았습니다!",
+    "orders_list": "주문 목록",
+    "subscription_plan": "가입 계획",
+    "contents": "내용물",
+    "pricings": "가격",
+    "static_page": "정적 페이지",
+    "shop_button": "쇼핑 버튼",
+    "embed": "포함시키다",
+    "over": "위에",
+    "tax_vary_by_location": "달라지다. 위치",
+    "product_type": "상품 유형",
+    "tax_id": "세금 아이디",
+    "business_name": "비즈니스 이름",
+    "invoice": "송장",
+    "included_in_the_product": "제품에 포함",
+    "included_in_the_product_description": "제품에는 다음 구성 요소가 포함됩니다.",
+    "cross_sell": "교차 판매",
+    "discount_off": "OFF",
+    "extra_discount": "추가 할인",
+    "template": "주형",
+    "in_cart": "장바구니에",
+    "pros_and_cons": "장점과 단점",
+    "related_products": "관련 상품",
+    "related_categories": "관련 카테고리",
+    "badges": "배지",
+    "explore": "탐구하다"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "재생성",
     "add_message": "메시지 추가",
     "continue_chat": "채팅 계속",
-    "add_new_message": "새 메시지 추가"
+    "add_new_message": "새 메시지 추가",
+    "change_setting": "설정을 바꾸다",
+    "delete_all": "모두 삭제",
+    "transfer_fund": "자금 이체",
+    "reverse_fund": "리버스 펀드",
+    "settlement": "합의",
+    "refund": "환불하다",
+    "partial_refund": "부분 환불",
+    "change_payment_method": "결제 수단 변경",
+    "buy": "구입하다",
+    "view_all": "모두보기",
+    "view_now": "지금 보기"
   },
   "instance_message_title": "인스턴트 메시지 보내기",
   "instance_message": "안녕하세요 {name}님, 제 이름은 {company}의 {author}입니다.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "상록수",
     "#214C30": "숲",
     "#DC2867": "푹샤",
-    "#38561F" :"켈리",
+    "#38561F": "켈리",
     "#5C884D": "잎",
     "#558450": "라이트 아쿠아",
     "#96B5C9": "라이트 블루",
@@ -951,7 +989,9 @@ export default {
     "file": "파일",
     "file_description": "온라인 코스 비디오, 다운로드 가능한 문서와 같은 모든 허용된 파일.",
     "service": "서비스",
-    "service_description": "서비스: 수리, 운송, 교육."
+    "service_description": "서비스: 수리, 운송, 교육.",
+    "subscription": "신청",
+    "subscription_description": "제품, 서비스 또는 콘텐츠에 대한 구독 및 송장 발행."
   },
   "license": {
     "free": "무료",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "첫 번째 게시물",
     "comment_at": "에",
-    "edit_comment": "댓글 수정"
+    "edit_comment": "댓글 수정",
+    "my_comments": "내 댓글"
   },
   "customer_club": {
     "bronze": "청동",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "확인 코드",
     "msg_title": "안녕,",
     "msg_body": "로그인 해주세요. 몇 초밖에 걸리지 않습니다.",
-    "login_apple": "애플로 로그인"
+    "login_apple": "애플로 로그인",
+    "login_email": "이메일로 로그인",
+    "email_login_step_1": "유효한 이메일 주소를 입력하시면 로그인 코드를 보내드립니다. 등록이 필요하지 않습니다.",
+    "email_login_step_2": "이메일 주소를 정확히 입력하셨습니까? 제공된 이메일로 로그인 코드를 보내드리니 정확한 정보를 확인하시기 바랍니다.",
+    "email_login_step_3": "귀하의 이메일로 코드를 전송했습니다. 코드는 10분 후에 만료됩니다."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "메시지 저장",
     "notifications": {
       "success": "입력 데이터가 저장되었습니다."
-    }
+    },
+    "product_inputs_preview_message": "이러한 사용자 지정 옵션은 주문한 제품에 사용할 수 있습니다. 항목이 장바구니에 추가되면 여기에서 조정할 수 있습니다."
   },
   "faq": {
     "faq": "자주 묻는 질문",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "딱딱한",
     "intermediate": "중급",
     "easy": "쉬운"
+  },
+  "billing_period": {
+    "Daily": "일일",
+    "Weekly": "주간",
+    "Monthly": "월간 간행물",
+    "Every3Months": "3개월마다",
+    "Every6Months": "6개월마다",
+    "Yearly": "매년"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "좋지 않아!",
+    "between2_3": "괜찮아요!",
+    "between3_4": "사람들은 그것을 좋아합니다!",
+    "between4_5": "사람들은 그것을 좋아합니다!"
   }
 };

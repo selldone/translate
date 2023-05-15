@@ -81,7 +81,9 @@ export default {
     "offer_message": "Kupite {min_quantity} Dobijte {percent}% popusta za ove artikle",
     "up_to": "Do {per_order}x po narudžbi",
     "get_free": "DOBITI BESPLATNO",
-    "get_off": "OSTVARITE {percent}% POPUSTA"
+    "get_off": "OSTVARITE {percent}% POPUSTA",
+    "select_a_vendor_message": "Odaberite dobavljača.",
+    "product_description_header": "Predstavljamo {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Čeka se dostupnost",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Obavijestit ćemo vas kada bude dostupno.",
       "inform_remove_success": "Uklonjeni ste s liste čekanja."
-    }
+    },
+    "subscribe_now": "Pretplatite se sada",
+    "unsubscribe": "Odjavi pretplatu",
+    "select_a_subscription_plan": "Prvo odaberite plan!",
+    "manage_subscriptions": "Upravljanje pretplatama"
   },
   "product": {
     "review": "Pregled",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Jamstvo",
     "return_policy": "Politika povrata",
     "guide": "Vodič",
-    "shipping": "dostava"
+    "shipping": "dostava",
+    "related_categories_title": "Otkrijte u zbirkama"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Ukupna cijena predmeta",
       "total_items_discount": "Popust na artikle",
       "total_price_after_offers": "Ukupno nakon primjene ponuda",
-      "buyer_payment": "Iznos plaćanja kupca"
+      "buyer_payment": "Iznos plaćanja kupca",
+      "total_order_price_before_tax": "Ukupna cijena prije poreza"
     },
     "delivery": {
       "title": "Dostava",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Različite informacije o naplati",
     "basket_empty": "Košarica je prazna",
     "extra_shipping_count": "Primit ćete {count} paketa.",
-    "select_location_error": "Na karti pronađite mjesto primitka pošiljke i kliknite na indikator u sredini karte kako biste odredili točnu adresu primatelja."
+    "select_location_error": "Na karti pronađite mjesto primitka pošiljke i kliknite na indikator u sredini karte kako biste odredili točnu adresu primatelja.",
+    "same_billing_address_desc": "Adresa za naplatu ista je kao adresa za dostavu.",
+    "custom_billing_info_desc": "Možete unijeti svoj POREZNI broj i postaviti drugu adresu za naplatu.",
+    "billing_business_desc": "To je poslovni račun s poreznim brojem.",
+    "billing_personal_desc": "To je osobni račun.",
+    "no_billing_title": "Nema naplate",
+    "no_billing_desc": "Ostavite adresu za naplatu praznu."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Dohvati vanjski nalog",
     "address_included": "Podijelite artikle u košarici + adresu",
     "address_excluded": "Podijelite samo artikle iz košarice"
+  },
+  "variants_view": {
+    "prices": "Cijene",
+    "inventory": "Inventar",
+    "discount": "Popust"
+  },
+  "rating": {
+    "product_rating_message": "Ovaj je proizvod dobio ocjenu {rate} od 5 zvjezdica i ocijenilo ga je {rate_count} ljudi."
+  },
+  "related_products": {
+    "card": {
+      "title": "Istražiti!",
+      "same_tags_subtitle": "Pronađite još izvanrednih povezanih stavki.",
+      "same_category_subtitle": "Pronađite još izvanrednih predmeta u ovoj kategoriji."
+    }
   }
 };

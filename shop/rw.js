@@ -81,7 +81,9 @@ export default {
     "offer_message": "Gura {min_quantity} Kubona {percent}% kubintu",
     "up_to": "Kugeza kuri {per_order} x kuri buri cyegeranyo",
     "get_free": "SHAKA KUBUNTU",
-    "get_off": "KUBONA {percent}% OFF"
+    "get_off": "KUBONA {percent}% OFF",
+    "select_a_vendor_message": "Nyamuneka hitamo umucuruzi.",
+    "product_description_header": "Kumenyekanisha {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Gutegereza kuboneka",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Tuzakumenyesha igihe biboneka.",
       "inform_remove_success": "Wakuwe kurutonde rwo gutegereza."
-    }
+    },
+    "subscribe_now": "Iyandikishe nonaha",
+    "unsubscribe": "Kwiyandikisha",
+    "select_a_subscription_plan": "Hitamo gahunda mbere!",
+    "manage_subscriptions": "Gucunga abiyandikishije"
   },
   "product": {
     "review": "Isubiramo",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Garanti",
     "return_policy": "Politiki yo kugaruka",
     "guide": "Ubuyobozi",
-    "shipping": "Kohereza"
+    "shipping": "Kohereza",
+    "related_categories_title": "Menya mu byegeranyo"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Igiciro cyose",
       "total_items_discount": "Ibintu Kugabanuka",
       "total_price_after_offers": "Igiteranyo nyuma yo gusaba ibyifuzo",
-      "buyer_payment": "Amafaranga yo kugura"
+      "buyer_payment": "Amafaranga yo kugura",
+      "total_order_price_before_tax": "Imbere yumusoro Igiciro cyose"
     },
     "delivery": {
       "title": "Gutanga",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Amakuru atandukanye yo kwishyuza",
     "basket_empty": "Igitebo kirimo ubusa",
     "extra_shipping_count": "Uzakira {count} paki.",
-    "select_location_error": "Shakisha aho wakiriye ibyoherejwe ku ikarita hanyuma ukande ku kimenyetso kiri hagati yikarita kugirango umenye aderesi nyayo yuwahawe."
+    "select_location_error": "Shakisha aho wakiriye ibyoherejwe ku ikarita hanyuma ukande ku kimenyetso kiri hagati yikarita kugirango umenye aderesi nyayo yuwahawe.",
+    "same_billing_address_desc": "Aderesi yo kwishyuza ni kimwe na aderesi yoherejwe.",
+    "custom_billing_info_desc": "Urashobora kwinjiza numero yawe ya TAX hanyuma ugashyiraho aderesi itandukanye yo kwishyuza.",
+    "billing_business_desc": "Ni konti yubucuruzi ifite nimero ya TAX.",
+    "billing_personal_desc": "Ni konte yawe.",
+    "no_billing_title": "Nta fagitire",
+    "no_billing_desc": "Kureka aderesi yubusa."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Kuramo gahunda yo hanze",
     "address_included": "Sangira ibintu by'agaseke + Aderesi",
     "address_excluded": "Sangira gusa ibitebo"
+  },
+  "variants_view": {
+    "prices": "Ibiciro",
+    "inventory": "Ibarura",
+    "discount": "Kugabanuka"
+  },
+  "rating": {
+    "product_rating_message": "Iki gicuruzwa cyakiriye igipimo cya {rate} ku nyenyeri 5 kandi cyagenwe n {rate_count} abantu."
+  },
+  "related_products": {
+    "card": {
+      "title": "Shakisha!",
+      "same_tags_subtitle": "Shakisha ibintu bitangaje bijyanye.",
+      "same_category_subtitle": "Shakisha ibintu bitangaje muri iki cyiciro."
+    }
   }
 };

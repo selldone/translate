@@ -603,7 +603,34 @@ export default {
     "deleted": "Scriosta",
     "variant": "Athrú",
     "secure": "Slán",
-    "admin": "Riarachán"
+    "admin": "Riarachán",
+    "tax_included_abstract": "san áireamh.",
+    "payment_not_settled": "Níl an íocaíocht socraithe!",
+    "orders_list": "Liosta orduithe",
+    "subscription_plan": "Plean síntiús",
+    "contents": "Clár ábhair",
+    "pricings": "Praghsanna",
+    "static_page": "Leathanach statach",
+    "shop_button": "Cnaipe Siopa",
+    "embed": "Leabú",
+    "over": "Thar",
+    "tax_vary_by_location": "athrú. suíomh",
+    "product_type": "Cineál táirge",
+    "tax_id": "Aitheantas Cánach",
+    "business_name": "Ainm gnó",
+    "invoice": "Sonrasc",
+    "included_in_the_product": "San áireamh sa táirge",
+    "included_in_the_product_description": "Áirítear ar an táirge na comhpháirteanna seo a leanas",
+    "cross_sell": "Crois Díol",
+    "discount_off": "OFF",
+    "extra_discount": "Lascaine Breise",
+    "template": "Teimpléad",
+    "in_cart": "I gCart",
+    "pros_and_cons": "Buntáistí agus míbhuntáistí",
+    "related_products": "Táirgí Gaolmhara",
+    "related_categories": "Catagóirí Gaolmhara",
+    "badges": "Suaitheantais",
+    "explore": "Déan iniúchadh"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Athghin",
     "add_message": "Cuir teachtaireacht leis",
     "continue_chat": "Leanúint ar aghaidh ag comhrá",
-    "add_new_message": "Cuir teachtaireacht nua leis"
+    "add_new_message": "Cuir teachtaireacht nua leis",
+    "change_setting": "Athraigh an socrú",
+    "delete_all": "Scrios Uile",
+    "transfer_fund": "Ciste aistrithe",
+    "reverse_fund": "Ciste droim ar ais",
+    "settlement": "Socrú",
+    "refund": "Aisíocaíocht",
+    "partial_refund": "Aisíocaíocht Pháirteach",
+    "change_payment_method": "Athraigh modh íocaíochta",
+    "buy": "Ceannaigh",
+    "view_all": "Féach ar Uile",
+    "view_now": "Féach anois"
   },
   "instance_message_title": "Seol teachtaireacht mheandarach",
   "instance_message": "Dia duit {name}, {author} ó {company} is ainm dom.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Síorghlas",
     "#214C30": "Foraoise",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Ceallaigh",
+    "#38561F": "Ceallaigh",
     "#5C884D": "Duilleog",
     "#558450": "Aqua Éadrom",
     "#96B5C9": "Éadrom Gorm",
@@ -951,7 +989,9 @@ export default {
     "file": "Comhad",
     "file_description": "Gach comhad ceadaithe amhail físeán cúrsa ar líne, doiciméid in-íoslódáilte.",
     "service": "Seirbhís",
-    "service_description": "Seirbhísí cosúil le: deisiú, iompar, teagasc."
+    "service_description": "Seirbhísí cosúil le: deisiú, iompar, teagasc.",
+    "subscription": "Sintiús",
+    "subscription_description": "Síntiúis agus sonraisc le haghaidh táirgí, seirbhísí, nó inneachar."
   },
   "license": {
     "free": "Saor",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "An chéad phostáil",
     "comment_at": "Ar",
-    "edit_comment": "Cuir Trácht in Eagar"
+    "edit_comment": "Cuir Trácht in Eagar",
+    "my_comments": "Mo Thuairimí"
   },
   "customer_club": {
     "bronze": "Cré-umha",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Cód fíorúcháin",
     "msg_title": "Haigh,",
     "msg_body": "Logáil isteach le do thoil. Ní thógann sé ach cúpla soicind.",
-    "login_apple": "Logáil isteach le Apple"
+    "login_apple": "Logáil isteach le Apple",
+    "login_email": "Logáil isteach le Ríomhphost",
+    "email_login_step_1": "Tabhair seoladh ríomhphoist bailí le do thoil, agus seolfaimid an cód logáil isteach chuige. Níl gá le clárú.",
+    "email_login_step_2": "An bhfuil tú cinnte gur chuir tú do sheoladh ríomhphoist isteach i gceart? Beidh an cód logáil isteach á sheoladh againn chuig an ríomhphost a chuirtear ar fáil, mar sin cinntigh go bhfuil sé cruinn.",
+    "email_login_step_3": "Táimid tar éis cód a sheoladh chuig do ríomhphost. Tabhair faoi deara le do thoil go rachaidh an cód in éag i gceann 10 nóiméad."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Sábháil Teachtaireacht",
     "notifications": {
       "success": "Sábháladh do shonraí ionchuir."
-    }
+    },
+    "product_inputs_preview_message": "Tá na roghanna saincheaptha seo ar fáil do do tháirge ordaithe. Nuair a chuirtear an mhír le do thralaí, beidh tú in ann coigeartuithe a dhéanamh anseo."
   },
   "faq": {
     "faq": "Ceisteanna Coitianta",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Deacair",
     "intermediate": "Meánrang",
     "easy": "Éasca"
+  },
+  "billing_period": {
+    "Daily": "laethúil",
+    "Weekly": "Seachtainiúil",
+    "Monthly": "go míosúil",
+    "Every3Months": "Gach 3 mhí",
+    "Every6Months": "Gach 6 mhí",
+    "Yearly": "Bliantúil"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Och nach maith!",
+    "between2_3": "Tá sé ceart go leor!",
+    "between3_4": "Is maith le daoine é!",
+    "between4_5": "Is breá le daoine é!"
   }
 };

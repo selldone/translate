@@ -81,7 +81,9 @@ export default {
     "offer_message": "Бу әйберләр өчен {min_quantity} {percent}% сатып алыгыз",
     "up_to": "Заказ өчен {per_order} x кадәр",
     "get_free": "Түләүсез",
-    "get_off": "{percent}% ОЧЫРЫГЫЗ"
+    "get_off": "{percent}% ОЧЫРЫГЫЗ",
+    "select_a_vendor_message": "Зинһар, сатучы сайлагыз.",
+    "product_description_header": "{product} белән таныштыру"
   },
   "buy_button": {
     "waiting_for_availability": "Мөмкинлекне көтү",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Мөмкин булганда сезгә хәбәр итәрбез.",
       "inform_remove_success": "Сез көтү исемлегеннән алындыгыз."
-    }
+    },
+    "subscribe_now": "Хәзер язылу",
+    "unsubscribe": "Язылудан баш тарту",
+    "select_a_subscription_plan": "Башта план сайлагыз!",
+    "manage_subscriptions": "Подписка белән идарә итү"
   },
   "product": {
     "review": "Кабатлау",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Гарантия",
     "return_policy": "Кайтару сәясәте",
     "guide": "Белешмәлек",
-    "shipping": "Юллау"
+    "shipping": "Юллау",
+    "related_categories_title": "Коллекцияләрдә табыгыз"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Барлык әйберләрнең бәясе",
       "total_items_discount": "Ташламалар",
       "total_price_after_offers": "Тәкъдимнәрне кулланганнан соң барлыгы",
-      "buyer_payment": "Сатып алучының түләү күләме"
+      "buyer_payment": "Сатып алучының түләү күләме",
+      "total_order_price_before_tax": "Салым алдыннан гомуми бәя"
     },
     "delivery": {
       "title": "Тапшыру",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Төрле исәп-хисап мәгълүматлары",
     "basket_empty": "Кәрзин буш",
     "extra_shipping_count": "Сез {count} пакетларын алырсыз.",
-    "select_location_error": "Картаны җибәрү урынын табыгыз һәм алучының төгәл адресын билгеләр өчен карта уртасындагы индикаторга басыгыз."
+    "select_location_error": "Картаны җибәрү урынын табыгыз һәм алучының төгәл адресын билгеләр өчен карта уртасындагы индикаторга басыгыз.",
+    "same_billing_address_desc": "Хисап адресы җибәрү адресы белән бертигез.",
+    "custom_billing_info_desc": "Сез салым номерыгызны кертә аласыз һәм исәп-хисап өчен бүтән адрес куя аласыз.",
+    "billing_business_desc": "Бу салым номеры булган бизнес-счет.",
+    "billing_personal_desc": "Бу шәхси хисап.",
+    "no_billing_title": "Хисап юк",
+    "no_billing_desc": "Хисап адресын буш калдырыгыз."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Тышкы тәртипне алу",
     "address_included": "Кәрзин әйберләрен бүлешү + Адрес",
     "address_excluded": "Кәрзин әйберләрен генә бүлешегез"
+  },
+  "variants_view": {
+    "prices": "Бәяләр",
+    "inventory": "Инвентаризация",
+    "discount": "Ташлама"
+  },
+  "rating": {
+    "product_rating_message": "Бу продукт 5 йолдыздан {rate} рейтингын алды һәм {rate_count} кешеләр тарафыннан бәяләнде."
+  },
+  "related_products": {
+    "card": {
+      "title": "Тикшерегез!",
+      "same_tags_subtitle": "Күбрәк искиткеч әйберләр табыгыз.",
+      "same_category_subtitle": "Бу категориядә тагын да искиткеч әйберләр табыгыз."
+    }
   }
 };

@@ -603,7 +603,34 @@ export default {
     "deleted": "Oʻchirildi",
     "variant": "Variant",
     "secure": "Xavfsiz",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "shu jumladan",
+    "payment_not_settled": "To'lov amalga oshirilmadi!",
+    "orders_list": "Buyurtmalar ro'yxati",
+    "subscription_plan": "Obuna rejasi",
+    "contents": "Tarkib",
+    "pricings": "Narxlar",
+    "static_page": "Statik sahifa",
+    "shop_button": "Do'kon tugmasi",
+    "embed": "Oʻrnatish",
+    "over": "Ustida",
+    "tax_vary_by_location": "farqlanadi. Manzil",
+    "product_type": "Mahsulot turi",
+    "tax_id": "Soliq identifikatori",
+    "business_name": "Biznes nomi",
+    "invoice": "Hisob-faktura",
+    "included_in_the_product": "Mahsulot tarkibiga kiritilgan",
+    "included_in_the_product_description": "Mahsulot quyidagi komponentlarni o'z ichiga oladi",
+    "cross_sell": "O'zaro sotish",
+    "discount_off": "OFF",
+    "extra_discount": "Qo'shimcha chegirma",
+    "template": "Shablon",
+    "in_cart": "Savatda",
+    "pros_and_cons": "Ijobiy va salbiy tomonlari",
+    "related_products": "Tegishli mahsulotlar",
+    "related_categories": "Tegishli toifalar",
+    "badges": "Belgilar",
+    "explore": "Tadqiq qiling"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Qayta tiklash",
     "add_message": "Xabar qo'shish",
     "continue_chat": "Suhbatni davom ettiring",
-    "add_new_message": "Yangi xabar qo'shing"
+    "add_new_message": "Yangi xabar qo'shing",
+    "change_setting": "Sozlamani o'zgartirish",
+    "delete_all": "Hammasini o'chirish",
+    "transfer_fund": "Transfer fondi",
+    "reverse_fund": "Teskari fond",
+    "settlement": "Hisob-kitob",
+    "refund": "To'lovni qaytarish",
+    "partial_refund": "Qisman qaytarish",
+    "change_payment_method": "To'lov usulini o'zgartirish",
+    "buy": "Sotib olish",
+    "view_all": "Hammasini ko'rish",
+    "view_now": "Hozir koʻrish"
   },
   "instance_message_title": "Tezkor xabar yuboring",
   "instance_message": "Salom {name}, mening ismim {company} kompaniyasidan {author}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Doim yashil",
     "#214C30": "O'rmon",
     "#DC2867": "Fuşya",
-    "#38561F" :"Kelli",
+    "#38561F": "Kelli",
     "#5C884D": "Barg",
     "#558450": "Yengil Aqua",
     "#96B5C9": "Ochiq ko'k",
@@ -951,7 +989,9 @@ export default {
     "file": "Fayl",
     "file_description": "Onlayn kurs videosi, yuklab olinadigan hujjatlar kabi barcha ruxsat etilgan fayllar.",
     "service": "Xizmat",
-    "service_description": "Xizmatlar: ta'mirlash, tashish, o'qitish."
+    "service_description": "Xizmatlar: ta'mirlash, tashish, o'qitish.",
+    "subscription": "Obuna",
+    "subscription_description": "Mahsulotlar, xizmatlar yoki kontent uchun obuna va hisob-faktura."
   },
   "license": {
     "free": "Ozod",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Birinchi post",
     "comment_at": "Yoniq",
-    "edit_comment": "Fikrni tahrirlash"
+    "edit_comment": "Fikrni tahrirlash",
+    "my_comments": "Mening sharhlarim"
   },
   "customer_club": {
     "bronze": "Bronza",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Tasdiq kodi",
     "msg_title": "Salom,",
     "msg_body": "Iltimos, tizimga kiring. Bu bir necha soniya vaqt oladi.",
-    "login_apple": "Apple bilan tizimga kiring"
+    "login_apple": "Apple bilan tizimga kiring",
+    "login_email": "Elektron pochta orqali kiring",
+    "email_login_step_1": "Iltimos, to'g'ri elektron pochta manzilini kiriting va biz unga kirish kodini yuboramiz. Hech qanday ro'yxatdan o'tish shart emas.",
+    "email_login_step_2": "Elektron pochta manzilingizni to'g'ri kiritganingizga ishonchingiz komilmi? Biz kirish kodini taqdim etilgan elektron pochta manziliga yuboramiz, shuning uchun uning to'g'riligiga ishonch hosil qiling.",
+    "email_login_step_3": "E-pochtangizga kod yubordik. E'tibor bering, kodning amal qilish muddati 10 daqiqada tugaydi."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Xabarni saqlash",
     "notifications": {
       "success": "Kiritilgan maʼlumotlaringiz saqlandi."
-    }
+    },
+    "product_inputs_preview_message": "Bu moslashtirish imkoniyatlari buyurtma qilingan mahsulot uchun mavjud. Buyum savatga qo'shilgach, siz bu yerda o'zgartirishlar kiritishingiz mumkin bo'ladi."
   },
   "faq": {
     "faq": "tez-tez so'raladigan savollar",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Qattiq",
     "intermediate": "O'rta",
     "easy": "Oson"
+  },
+  "billing_period": {
+    "Daily": "Kundalik",
+    "Weekly": "Haftalik",
+    "Monthly": "Oylik",
+    "Every3Months": "Har 3 oyda",
+    "Every6Months": "Har 6 oyda",
+    "Yearly": "Yillik"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oh, yaxshi emas!",
+    "between2_3": "Hammasi joyida; shu bo'ladi!",
+    "between3_4": "Odamlarga yoqadi!",
+    "between4_5": "Odamlar buni yaxshi ko'radilar!"
   }
 };

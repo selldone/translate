@@ -81,7 +81,9 @@ export default {
     "offer_message": "Kjøp {min_quantity} Få {percent} % rabatt for disse varene",
     "up_to": "Opptil {per_order}x per bestilling",
     "get_free": "FÅ GRATIS",
-    "get_off": "FÅ {percent} % RABATT"
+    "get_off": "FÅ {percent} % RABATT",
+    "select_a_vendor_message": "Velg en leverandør.",
+    "product_description_header": "Vi introduserer {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Venter på tilgjengelighet",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Vi gir deg beskjed når den er tilgjengelig.",
       "inform_remove_success": "Du er fjernet fra ventelisten."
-    }
+    },
+    "subscribe_now": "Abonner nå",
+    "unsubscribe": "Avslutte abonnementet",
+    "select_a_subscription_plan": "Velg en plan først!",
+    "manage_subscriptions": "Administrer abonnementer"
   },
   "product": {
     "review": "Anmeldelse",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Garanti",
     "return_policy": "Returpolicy",
     "guide": "Guide",
-    "shipping": "Shipping"
+    "shipping": "Shipping",
+    "related_categories_title": "Oppdag i samlinger"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Totalpris for varer",
       "total_items_discount": "Varer rabatt",
       "total_price_after_offers": "Totalt etter søknad om tilbud",
-      "buyer_payment": "Kjøpers betalingsbeløp"
+      "buyer_payment": "Kjøpers betalingsbeløp",
+      "total_order_price_before_tax": "Totalpris før skatt"
     },
     "delivery": {
       "title": "Leveranse",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Ulik faktureringsinformasjon",
     "basket_empty": "Kurven er tom",
     "extra_shipping_count": "Du vil motta {count} pakker.",
-    "select_location_error": "Finn mottaksstedet for forsendelsen på kartet og klikk på indikatoren i midten av kartet for å finne den nøyaktige adressen til mottakeren."
+    "select_location_error": "Finn mottaksstedet for forsendelsen på kartet og klikk på indikatoren i midten av kartet for å finne den nøyaktige adressen til mottakeren.",
+    "same_billing_address_desc": "Faktureringsadressen er den samme som leveringsadressen.",
+    "custom_billing_info_desc": "Du kan angi skattenummeret ditt og angi en annen adresse for fakturering.",
+    "billing_business_desc": "Det er en bedriftskonto med et skattenummer.",
+    "billing_personal_desc": "Det er en personlig konto.",
+    "no_billing_title": "Ingen fakturering",
+    "no_billing_desc": "La faktureringsadressen stå tom."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Hent ekstern ordre",
     "address_included": "Del handlekurv + adresse",
     "address_excluded": "Del kun kurvvarer"
+  },
+  "variants_view": {
+    "prices": "Priser",
+    "inventory": "Inventar",
+    "discount": "Rabatt"
+  },
+  "rating": {
+    "product_rating_message": "Dette produktet har fått en vurdering på {rate} av 5 stjerner og vurdert av {rate_count} personer."
+  },
+  "related_products": {
+    "card": {
+      "title": "Utforske!",
+      "same_tags_subtitle": "Finn flere bemerkelsesverdige relaterte elementer.",
+      "same_category_subtitle": "Finn flere bemerkelsesverdige varer i denne kategorien."
+    }
   }
 };

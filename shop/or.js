@@ -81,7 +81,9 @@ export default {
     "offer_message": "ଏହି ଆଇଟମଗୁଡିକ ପାଇଁ {min_quantity Buy {ଶତକଡା Off% କିଣନ୍ତୁ |",
     "up_to": "କ୍ରମରେ {per_order} x ପର୍ଯ୍ୟନ୍ତ |",
     "get_free": "ମାଗଣା ପାଆନ୍ତୁ |",
-    "get_off": "{percent}% ବନ୍ଦ କରନ୍ତୁ |"
+    "get_off": "{percent}% ବନ୍ଦ କରନ୍ତୁ |",
+    "select_a_vendor_message": "ଦୟାକରି ଏକ ବିକ୍ରେତା ଚୟନ କରନ୍ତୁ |",
+    "product_description_header": "{product}"
   },
   "buy_button": {
     "waiting_for_availability": "ଉପଲବ୍ଧତା ପାଇଁ ଅପେକ୍ଷା |",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "ଯେତେବେଳେ ଏହା ଉପଲବ୍ଧ ହେବ ଆମେ ଆପଣଙ୍କୁ ଜଣାଇବୁ |",
       "inform_remove_success": "ଆପଣଙ୍କୁ ଅପେକ୍ଷା ତାଲିକାରୁ ହଟାଇ ଦିଆଯାଇଛି |"
-    }
+    },
+    "subscribe_now": "ବର୍ତ୍ତମାନ ସବସ୍କ୍ରାଇବ କରନ୍ତୁ |",
+    "unsubscribe": "ସଦସ୍ୟତା ରଦ୍ଦ କରନ୍ତୁ |",
+    "select_a_subscription_plan": "ପ୍ରଥମେ ଏକ ଯୋଜନା ଚୟନ କରନ୍ତୁ!",
+    "manage_subscriptions": "ସଦସ୍ୟତା ପରିଚାଳନା କରନ୍ତୁ |"
   },
   "product": {
     "review": "ସମୀକ୍ଷା କରନ୍ତୁ |",
@@ -109,7 +115,8 @@ export default {
     "warranty": "ୱାରେଣ୍ଟି",
     "return_policy": "ଫେରସ୍ତ ନୀତି",
     "guide": "ଗାଇଡ୍",
-    "shipping": "ପରିବହନ"
+    "shipping": "ପରିବହନ",
+    "related_categories_title": "ସଂଗ୍ରହରେ ଆବିଷ୍କାର କରନ୍ତୁ |"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "ମୋଟ ଆଇଟମ୍ ମୂଲ୍ୟ |",
       "total_items_discount": "ଆଇଟମ୍ ରିହାତି",
       "total_price_after_offers": "ଅଫର୍ ଆବେଦନ କରିବା ପରେ ସମୁଦାୟ |",
-      "buyer_payment": "କ୍ରେତା ଦେୟ ରାଶି |"
+      "buyer_payment": "କ୍ରେତା ଦେୟ ରାଶି |",
+      "total_order_price_before_tax": "ପ୍ରି-ଟ୍ୟାକ୍ସ ମୋଟ ମୂଲ୍ୟ |"
     },
     "delivery": {
       "title": "ବିତରଣ",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "ବିଭିନ୍ନ ବିଲିଂ ସୂଚନା |",
     "basket_empty": "ଟୋକେଇ ଖାଲି ଅଛି |",
     "extra_shipping_count": "ଆପଣ {count} ପ୍ୟାକେଜ୍ ଗ୍ରହଣ କରିବେ |",
-    "select_location_error": "ମାନଚିତ୍ରରେ ପଠାଣର ସ୍ଥାନ ଖୋଜ ଏବଂ ଗ୍ରହୀତାର ସଠିକ ଠିକଣା ନିର୍ଣ୍ଣୟ କରିବାକୁ ମାନଚିତ୍ରର ମ in ିରେ ଥିବା ସୂଚକ ଉପରେ କ୍ଲିକ୍ କର |"
+    "select_location_error": "ମାନଚିତ୍ରରେ ପଠାଣର ସ୍ଥାନ ଖୋଜ ଏବଂ ଗ୍ରହୀତାର ସଠିକ ଠିକଣା ନିର୍ଣ୍ଣୟ କରିବାକୁ ମାନଚିତ୍ରର ମ in ିରେ ଥିବା ସୂଚକ ଉପରେ କ୍ଲିକ୍ କର |",
+    "same_billing_address_desc": "ସିଲିଂ ଠିକଣା ସହିତ ବିଲିଂ ଠିକଣା ସମାନ |",
+    "custom_billing_info_desc": "ଆପଣ ଆପଣଙ୍କର TAX ନମ୍ବର ପ୍ରବେଶ କରିପାରିବେ ଏବଂ ବିଲିଂ ପାଇଁ ଏକ ଭିନ୍ନ ଠିକଣା ସେଟ୍ କରିପାରିବେ |",
+    "billing_business_desc": "ଏହା ଏକ TAX ନମ୍ବର ସହିତ ଏକ ବ୍ୟବସାୟ ଖାତା |",
+    "billing_personal_desc": "ଏହା ଏକ ବ୍ୟକ୍ତିଗତ ଖାତା |",
+    "no_billing_title": "କ bill ଣସି ବିଲିଂ ନାହିଁ |",
+    "no_billing_desc": "ବିଲିଂ ଠିକଣା ଖାଲି ରଖନ୍ତୁ |"
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "ବାହ୍ୟ କ୍ରମ ପୁନରୁଦ୍ଧାର କରନ୍ତୁ |",
     "address_included": "ଟୋକେଇ ଆଇଟମ୍ + ଠିକଣା ଅଂଶୀଦାର କରନ୍ତୁ |",
     "address_excluded": "କେବଳ ଟୋକେଇ ଆଇଟମ୍ ଅଂଶୀଦାର କରନ୍ତୁ |"
+  },
+  "variants_view": {
+    "prices": "ମୂଲ୍ୟ",
+    "inventory": "ଭଣ୍ଡାର",
+    "discount": "ରିହାତି"
+  },
+  "rating": {
+    "product_rating_message": "ଏହି ଉତ୍ପାଦ 5 ତାରକା ମଧ୍ୟରୁ {ରେଟ୍ a ରେଟିଂ ପାଇଛି ଏବଂ {ରେଟ୍_କାଉଣ୍ଟ୍} ଲୋକଙ୍କ ଦ୍ୱାରା ରେଟିଂ ହୋଇଛି |"
+  },
+  "related_products": {
+    "card": {
+      "title": "ଏକ୍ସପ୍ଲୋର୍ କରନ୍ତୁ!",
+      "same_tags_subtitle": "ଅଧିକ ଉଲ୍ଲେଖନୀୟ ସମ୍ବନ୍ଧୀୟ ଆଇଟମ୍ ଖୋଜ |",
+      "same_category_subtitle": "ଏହି ବର୍ଗରେ ଅଧିକ ଉଲ୍ଲେଖନୀୟ ବସ୍ତୁ ଖୋଜ |"
+    }
   }
 };

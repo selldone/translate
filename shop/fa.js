@@ -97,8 +97,8 @@ export default {
     up_to: "تا {per_order} مرتبه در هر سفارش",
     get_free: "رایگان",
     get_off: "تا {percent}% تخفیف بگیرید",
-    select_a_vendor_message:"لطفا یک فروشنده را انتخاب نمایید.",
-
+    select_a_vendor_message: "لطفا یک فروشنده را انتخاب نمایید.",
+    product_description_header: "معرفی {product}",
   },
 
   /** @see BuyButton **/
@@ -113,10 +113,10 @@ export default {
     remove: "حذف",
     add_to_basket: "افزودن به سبد خرید",
     buy: "خرید",
-    subscribe_now:'مشترک شدن',
-    unsubscribe:'لغو اشتراک',
-    select_a_subscription_plan:'یک پلن را انتخاب کنید!',
-    manage_subscriptions:'مدیریت اشتراک',
+    subscribe_now: "مشترک شدن",
+    unsubscribe: "لغو اشتراک",
+    select_a_subscription_plan: "یک پلن را انتخاب کنید!",
+    manage_subscriptions: "مدیریت اشتراک",
     notifications: {
       inform_add_success: "هر وقت موجود شد خبرتان می کنیم.",
       inform_remove_success: "از لیست در انتظار موجود شدن خارج شدید.",
@@ -129,7 +129,6 @@ export default {
     review: "بررسی",
     spec: "مشخصات",
     comments: "نظرات",
-    related_products_title: "محصولات مرتبط با این محصول",
     price: "قیمت",
     rate: "امتیاز",
     comment: "نظر",
@@ -137,6 +136,8 @@ export default {
     return_policy: "سیاست بازگشت",
     guide: "راهنما",
     shipping: "حمل و نقل",
+    related_products_title: "محصولات مرتبط با این محصول",
+    related_categories_title: "جستجو در مجموعه های مرتبط",
   },
 
   /** @see LayoutShop **/
@@ -233,6 +234,7 @@ export default {
       total_price: "قیمت مجموع اقلام",
       total_items_discount: "تخفیف محصولات",
       total_price_after_offers: "قیمت مجموع بعد از اعمال آفر",
+      total_order_price_before_tax: "مجموع قبل از اعمال مالیات",
 
       buyer_payment: "مبلغ پرداختی خریدار",
     },
@@ -376,7 +378,8 @@ export default {
     same_billing_address_desc: "آدرس صورتحساب همان آدرس ارسال است.",
 
     custom_billing_info: "آدرس متفاوت برای صورت حساب",
-    custom_billing_info_desc: "می توانید شماره مالیات خود را وارد کنید و آدرس دیگری را برای صورتحساب تنظیم کنید.",
+    custom_billing_info_desc:
+      "می توانید شماره مالیات خود را وارد کنید و آدرس دیگری را برای صورتحساب تنظیم کنید.",
 
     basket_empty: "سبد خالی است",
     extra_shipping_count: "شما {count} بسته دریافت خواهید کرد.",
@@ -385,13 +388,11 @@ export default {
     select_location_error:
       "محل دریافت مرسوله را بر روی نقشه یافته و بر روی نشانگر وسط نقشه کلیک نمایید تا آدرس دقیق دریافت کننده مشخص شود.",
 
+    billing_business_desc: "این یک حساب تجاری با شماره مالیات است.",
+    billing_personal_desc: "این یک حساب شخصی است.",
 
-    billing_business_desc:"این یک حساب تجاری با شماره مالیات است.",
-     billing_personal_desc:"این یک حساب شخصی است.",
-
-     no_billing_title:"بدون صورتحساب",
-     no_billing_desc:'خالی رها کردن آدرس صورت حساب.'
-
+    no_billing_title: "بدون صورتحساب",
+    no_billing_desc: "خالی رها کردن آدرس صورت حساب.",
   },
 
   /** {@see BasketListItems} **/
@@ -699,5 +700,26 @@ export default {
     retrieve_dialog_title: "بازیابی سفارش",
     address_included: "اشتراک اقلام سبد + آدرس",
     address_excluded: "اشتراک اقلام سبد",
+  },
+
+  /** {@see ProductVariantsView} **/
+  variants_view: {
+    prices: "قیمت",
+    inventory: "موجودی",
+    discount: "تخفیف",
+  },
+
+  rating: {
+    product_rating_message:
+      "این محصول امتیاز {rate} از 5 ستاره دریافت کرده است و توسط {rate_count} نفر امتیازدهی شده است.",
+  },
+
+  /** {@see RelatedProducts} **/
+  related_products: {
+    card: {
+      title: "کاوش کنید!",
+      same_tags_subtitle: "موارد مرتبط جذاب بیشتری پیدا کنید.",
+      same_category_subtitle: "موارد جذاب بیشتری در این دسته بندی پیدا کنید.",
+    },
   },
 };

@@ -81,7 +81,9 @@ export default {
     "offer_message": "Купите {min_quantity} и получите скидку {percent}% на эти товары",
     "up_to": "До {per_order}x за заказ",
     "get_free": "ПОЛУЧИТЬ БЕСПЛАТНО",
-    "get_off": "ПОЛУЧИТЕ СКИДКУ {percent}%"
+    "get_off": "ПОЛУЧИТЕ СКИДКУ {percent}%",
+    "select_a_vendor_message": "Выберите поставщика.",
+    "product_description_header": "Представляем {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Ожидание доступности",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Мы сообщим вам, когда он будет доступен.",
       "inform_remove_success": "Вы были исключены из списка ожидания."
-    }
+    },
+    "subscribe_now": "Подпишись сейчас",
+    "unsubscribe": "Отписаться",
+    "select_a_subscription_plan": "Сначала выберите план!",
+    "manage_subscriptions": "Управление подписками"
   },
   "product": {
     "review": "Рассмотрение",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Гарантия",
     "return_policy": "Политика возврата",
     "guide": "Руководство",
-    "shipping": "Перевозки"
+    "shipping": "Перевозки",
+    "related_categories_title": "Откройте для себя в коллекциях"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Общая стоимость товаров",
       "total_items_discount": "Скидка на товары",
       "total_price_after_offers": "Итого после применения предложений",
-      "buyer_payment": "Сумма платежа покупателя"
+      "buyer_payment": "Сумма платежа покупателя",
+      "total_order_price_before_tax": "Общая стоимость до налогообложения"
     },
     "delivery": {
       "title": "Доставка",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Разная платежная информация",
     "basket_empty": "Корзина пуста",
     "extra_shipping_count": "Вы получите {count} посылок.",
-    "select_location_error": "Найдите на карте место получения отправления и нажмите на индикатор в середине карты, чтобы определить точный адрес получателя."
+    "select_location_error": "Найдите на карте место получения отправления и нажмите на индикатор в середине карты, чтобы определить точный адрес получателя.",
+    "same_billing_address_desc": "Платежный адрес совпадает с адресом доставки.",
+    "custom_billing_info_desc": "Вы можете ввести свой налоговый номер и указать другой адрес для выставления счетов.",
+    "billing_business_desc": "Это бизнес-аккаунт с налоговым номером.",
+    "billing_personal_desc": "Это личный кабинет.",
+    "no_billing_title": "Без выставления счетов",
+    "no_billing_desc": "Оставьте платежный адрес пустым."
   },
   "basket_items": {
     "items_unit": "Икс",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Получить внешний заказ",
     "address_included": "Поделиться элементами корзины + Адрес",
     "address_excluded": "Поделиться только элементами корзины"
+  },
+  "variants_view": {
+    "prices": "Цены",
+    "inventory": "Инвентарь",
+    "discount": "Скидка"
+  },
+  "rating": {
+    "product_rating_message": "Этот продукт получил оценку {rate} из 5 звезд и оценили {rate_count} человек."
+  },
+  "related_products": {
+    "card": {
+      "title": "Исследовать!",
+      "same_tags_subtitle": "Найдите более замечательные сопутствующие товары.",
+      "same_category_subtitle": "Найдите больше замечательных предметов в этой категории."
+    }
   }
 };

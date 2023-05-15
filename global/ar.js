@@ -603,7 +603,34 @@ export default {
     "deleted": "تم الحذف",
     "variant": "متغير",
     "secure": "يؤمن",
-    "admin": "مسؤل"
+    "admin": "مسؤل",
+    "tax_included_abstract": "بما في ذلك.",
+    "payment_not_settled": "الدفع لم يتم تسويته!",
+    "orders_list": "قائمة الطلبات",
+    "subscription_plan": "خطة الاشتراك",
+    "contents": "محتويات",
+    "pricings": "الأسعار",
+    "static_page": "صفحة ثابتة",
+    "shop_button": "زر التسوق",
+    "embed": "تضمين",
+    "over": "زيادة",
+    "tax_vary_by_location": "يتغير. موقع",
+    "product_type": "نوع المنتج",
+    "tax_id": "الرقم الضريبي",
+    "business_name": "الاسم التجاري",
+    "invoice": "فاتورة",
+    "included_in_the_product": "المدرجة في المنتج",
+    "included_in_the_product_description": "يتضمن المنتج المكونات التالية",
+    "cross_sell": "بيع عبر",
+    "discount_off": "OFF",
+    "extra_discount": "خصم اضافي",
+    "template": "نموذج",
+    "in_cart": "في العربة",
+    "pros_and_cons": "إيجابيات وسلبيات",
+    "related_products": "منتجات ذات صله",
+    "related_categories": "فئات ذات صلة",
+    "badges": "شارات",
+    "explore": "يستكشف"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "تجديد",
     "add_message": "اضافة رسالة",
     "continue_chat": "تواصل الدردشة",
-    "add_new_message": "أضف رسالة جديدة"
+    "add_new_message": "أضف رسالة جديدة",
+    "change_setting": "تغيير الإعدادات",
+    "delete_all": "حذف الكل",
+    "transfer_fund": "تحويل الأموال",
+    "reverse_fund": "الصندوق العكسي",
+    "settlement": "مستعمرة",
+    "refund": "استرداد",
+    "partial_refund": "رد جزئي",
+    "change_payment_method": "قم بتغيير آلية الدفع",
+    "buy": "يشتري",
+    "view_all": "مشاهدة الكل",
+    "view_now": "عرض الآن"
   },
   "instance_message_title": "إرسال رسالة فورية",
   "instance_message": "مرحبًا {name} ، اسمي {author} من {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "دائم الخضرة",
     "#214C30": "غابة",
     "#DC2867": "ضارب الى الحمرة",
-    "#38561F" :"كيلي",
+    "#38561F": "كيلي",
     "#5C884D": "ورقة",
     "#558450": "لايت أكوا",
     "#96B5C9": "أزرق فاتح",
@@ -951,7 +989,9 @@ export default {
     "file": "ملف",
     "file_description": "جميع الملفات المسموح بها مثل فيديو الدورة التدريبية عبر الإنترنت والمستندات القابلة للتنزيل.",
     "service": "خدمة",
-    "service_description": "خدمات مثل: الإصلاح ، النقل ، التدريس."
+    "service_description": "خدمات مثل: الإصلاح ، النقل ، التدريس.",
+    "subscription": "الاشتراك",
+    "subscription_description": "الاشتراكات والفواتير للمنتجات أو الخدمات أو المحتويات."
   },
   "license": {
     "free": "حر",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "أول منشور",
     "comment_at": "تشغيل",
-    "edit_comment": "تعديل التعليق"
+    "edit_comment": "تعديل التعليق",
+    "my_comments": "تعليقاتي"
   },
   "customer_club": {
     "bronze": "برونزية",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "شيفرة التأكيد",
     "msg_title": "أهلاً،",
     "msg_body": "الرجاء تسجيل الدخول. يستغرق بضع ثوان فقط.",
-    "login_apple": "تسجيل الدخول مع Apple"
+    "login_apple": "تسجيل الدخول مع Apple",
+    "login_email": "تسجيل الدخول عن طريق البريد الإلكتروني",
+    "email_login_step_1": "يرجى تقديم عنوان بريد إلكتروني صالح وسنرسل رمز تسجيل الدخول إليه. لا يلزم التسجيل.",
+    "email_login_step_2": "هل أنت متأكد من أنك أدخلت عنوان بريدك الإلكتروني بشكل صحيح؟ سنرسل رمز تسجيل الدخول إلى البريد الإلكتروني المقدم ، لذا يرجى التأكد من دقته.",
+    "email_login_step_3": "لقد أرسلنا رمزًا إلى بريدك الإلكتروني. يرجى ملاحظة أن الرمز ستنتهي صلاحيته خلال 10 دقائق."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "حفظ الرسالة",
     "notifications": {
       "success": "تم حفظ بيانات الإدخال الخاصة بك."
-    }
+    },
+    "product_inputs_preview_message": "خيارات التخصيص هذه متاحة لمنتجك الذي طلبته. بمجرد إضافة العنصر إلى سلة التسوق الخاصة بك ، ستتمكن من إجراء التعديلات هنا."
   },
   "faq": {
     "faq": "أسئلة مكررة",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "الصعب",
     "intermediate": "متوسط",
     "easy": "سهل"
+  },
+  "billing_period": {
+    "Daily": "يوميًا",
+    "Weekly": "أسبوعي",
+    "Monthly": "شهريا",
+    "Every3Months": "كل 3 أشهر",
+    "Every6Months": "كل 6 شهور",
+    "Yearly": "سنوي"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "اوك ليس جيدا!",
+    "between2_3": "لا بأس!",
+    "between3_4": "يحبها الناس!",
+    "between4_5": "الناس يحبونه!"
   }
 };

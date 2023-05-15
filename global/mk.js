@@ -603,7 +603,34 @@ export default {
     "deleted": "Избришано",
     "variant": "Варијанта",
     "secure": "Безбедна",
-    "admin": "Админ"
+    "admin": "Админ",
+    "tax_included_abstract": "вкл.",
+    "payment_not_settled": "Плаќањето не е подмирено!",
+    "orders_list": "Список на нарачки",
+    "subscription_plan": "План за претплата",
+    "contents": "Содржини",
+    "pricings": "Цените",
+    "static_page": "Статична страница",
+    "shop_button": "Копче за купување",
+    "embed": "Вградување",
+    "over": "Во текот на",
+    "tax_vary_by_location": "се разликуваат. локација",
+    "product_type": "Тип на производ",
+    "tax_id": "Даночен ID",
+    "business_name": "Име на бизнисот",
+    "invoice": "Фактура",
+    "included_in_the_product": "Вклучено во производот",
+    "included_in_the_product_description": "Производот ги вклучува следните компоненти",
+    "cross_sell": "Вкрстено продавање",
+    "discount_off": "OFF",
+    "extra_discount": "Дополнителен попуст",
+    "template": "Шаблон",
+    "in_cart": "Во количка",
+    "pros_and_cons": "Добрите и лошите страни",
+    "related_products": "Поврзани производи",
+    "related_categories": "Поврзани категории",
+    "badges": "Значки",
+    "explore": "Истражува"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Регенерирајте",
     "add_message": "Додадете порака",
     "continue_chat": "Продолжи со разговор",
-    "add_new_message": "Додадете нова порака"
+    "add_new_message": "Додадете нова порака",
+    "change_setting": "Променете ја поставката",
+    "delete_all": "Избриши ги сите",
+    "transfer_fund": "Трансфер фонд",
+    "reverse_fund": "Обратен фонд",
+    "settlement": "Населба",
+    "refund": "Рефундирање",
+    "partial_refund": "Делумно рефундирање",
+    "change_payment_method": "Променете го начинот на плаќање",
+    "buy": "Купи",
+    "view_all": "Види се",
+    "view_now": "Прикажи сега"
   },
   "instance_message_title": "Испрати инстант порака",
   "instance_message": "Здраво {name}, моето име е {author} од {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Зимзелени",
     "#214C30": "Шума",
     "#DC2867": "Фуксија",
-    "#38561F" :"Кели",
+    "#38561F": "Кели",
     "#5C884D": "Лист",
     "#558450": "Лесна аква",
     "#96B5C9": "Светло сино",
@@ -951,7 +989,9 @@ export default {
     "file": "Датотека",
     "file_description": "Сите дозволени датотеки како видео на курсеви преку Интернет, документи за преземање.",
     "service": "Сервис",
-    "service_description": "Услуги како: поправка, транспорт, настава."
+    "service_description": "Услуги како: поправка, транспорт, настава.",
+    "subscription": "Претплата",
+    "subscription_description": "Претплати и фактурирање за производи, услуги или содржини."
   },
   "license": {
     "free": "Бесплатно",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Прв пост",
     "comment_at": "На",
-    "edit_comment": "Уреди коментар"
+    "edit_comment": "Уреди коментар",
+    "my_comments": "Мои коментари"
   },
   "customer_club": {
     "bronze": "Бронза",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Код за верификација",
     "msg_title": "Здраво,",
     "msg_body": "Ве молиме најавете се. Потребни се само неколку секунди.",
-    "login_apple": "Најавете се со Apple"
+    "login_apple": "Најавете се со Apple",
+    "login_email": "Најавете се преку е-пошта",
+    "email_login_step_1": "Ве молиме наведете валидна адреса за е-пошта и ние ќе ѝ го испратиме кодот за најава. Не е потребна регистрација.",
+    "email_login_step_2": "Дали сте сигурни дека правилно сте ја внеле адресата на е-пошта? Ќе го испратиме кодот за најавување на дадената е-пошта, затоа ве молиме проверете ја неговата точност.",
+    "email_login_step_3": "Испративме код на вашата е-пошта. Имајте предвид дека кодот ќе истече за 10 минути."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Зачувај порака",
     "notifications": {
       "success": "Вашите влезни податоци се зачувани."
-    }
+    },
+    "product_inputs_preview_message": "Овие опции за прилагодување се достапни за вашиот нарачан производ. Откако ставката ќе се додаде во вашата кошничка, ќе можете да направите прилагодувања овде."
   },
   "faq": {
     "faq": "Најчесто поставувани прашања",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Тешко",
     "intermediate": "Средно",
     "easy": "Лесно"
+  },
+  "billing_period": {
+    "Daily": "Дневно",
+    "Weekly": "Неделно",
+    "Monthly": "Месечно",
+    "Every3Months": "На секои 3 месеци",
+    "Every6Months": "На секои 6 месеци",
+    "Yearly": "Годишно"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "О, не е добро!",
+    "between2_3": "Во ред е!",
+    "between3_4": "На луѓето им се допаѓа!",
+    "between4_5": "Луѓето го сакаат тоа!"
   }
 };

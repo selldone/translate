@@ -278,7 +278,7 @@ export default {
 
   /** @see UserExpertPanel **/
   expert_panel: {
-    title: "Selldone Experts Management Panel",
+    title: "Expert Hub",
     add_dialog: {
       title: "Add new job",
     },
@@ -519,8 +519,8 @@ export default {
     add_title: "Add new job",
     edit_title: "Edit job",
     message:
-      "Enter the job title and job description that you can do in this section. Note that you must not write contact information and links in the text of your job description.",
-    start_price_message: "Minimum cost of each order.",
+      "In this section, please input the job title and a description of the work you are capable of performing. Keep in mind that including contact information and links within the text of your job description is not permitted.",
+    start_price_message: "Lowest price for each professional service order.",
     currency_message:
       "Changing currency resets your financial records for this job.",
     job_desc_message: "Describe your full service for this job.",

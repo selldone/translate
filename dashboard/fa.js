@@ -387,7 +387,7 @@ export default {
           step1:
             "مقدار IP رکورد A را برای DNS دامنه یا زیر دامنه یکی از مقادیر زیر تعریف نمایید:",
           step2: "مقدار رکورد TXT را برای DNS دامنه تنظیم نمایید:",
-          set_ip_alert: "مقدار IP رکورد A را<b>{ip}</b>تنظیم نمایید.",
+          set_ip_alert: "مقدار IP رکورد A را<b>{ip}</b>تنظیم نمایید - اگر از طریق CDN اضافه نشده است.",
           input_domain: "آدرس دامنه",
           correct: "تنظیمات دامنه صحیح است.",
           set_message: "مقدار رکورد CNAME را {cname} تنظیم نمایید.",
@@ -508,6 +508,7 @@ export default {
       menu_show_deletes: "نمایش محصولات حذف شده",
       drop_import_message:
         "فایل فهرست محصولات (فرمت CSV، XLS، XLSX) را در اینجا رها کنید تا وارد کردن محصولات انبوه شروع شود. مطمئن شوید که فایل دارای فرمت استاندارد فهرست محصولات سلدان است.",
+      menu_advanced_options:"تنظیمات پیشرفته",
 
       /** {@see WidgetProductCard} **/
       product_widget: {
@@ -746,6 +747,7 @@ export default {
         warehouse: "انبار",
         logistic_apps: "اپلیکیشن های لجستیک",
         profiles: "پروفایل ها",
+        includes:'محتویات',
 
       },
 
@@ -2192,17 +2194,9 @@ export default {
       title: "مشخصات سفارش",
       product_name: "نام محصول",
     },
-    /** {@see VirtualInputsWidget} **/
-    inputs_widget: {
-      title: "اطلاعات ورودی",
-      table: {
-        title: "عنوان",
-        value: "مقدار",
-      },
-      change_inputs_action: "ویرایش فرم ورودی",
-    },
 
-    /** {@see VirtualInputsWidget} **/
+
+    /** {@see VirtualOutputsWidget} **/
     outputs_widget: {
       title: "اطلاعات خروجی",
       table: {
@@ -2373,6 +2367,8 @@ export default {
       total_price: "قیمت مجموع اقلام",
       total_items_discount: "تخفیف محصولات",
       total_price_after_offers: "قیمت مجموع بعد از اعمال پیشنهاد ویژه",
+      total_order_price_before_tax: "مجموع قبل از اعمال مالیات",
+
       user_payment_amount: "مبلغ پرداختی خریدار",
       samin_wage: "کارمزد سلدان",
       pay_cod_dialog: {
@@ -2824,6 +2820,7 @@ export default {
      "connect-confirmed": "سفارش تایید شد.",
 
     "email-vendor": "🔔 ایمیل اطلاع رسانی سفارش به <b>{vendor}</b> | ارسال شد {email}.",
+    "vendor-payout": "💸 تسویه با فروشنده.",
 
   },
 
@@ -3471,15 +3468,7 @@ export default {
         apps: "اپ ها",
       },
 
-      /** {@see WidgetAppCard} **/
-      app_card: {
-        category: "دسته بندی",
-        installs: "نصب",
-        actives: "فعال",
-        uninstalls: "حذف",
-        app_code: "کد اپلیکیشن",
-        app_mode: "نوع اپلیکیشن",
-      },
+
     },
     /** {@see AdminCompanyPage_Edit} **/
     edit: {
@@ -5494,6 +5483,10 @@ export default {
     count_unit: "عدد",
     remove: "حذف",
     add_to_basket: "افزودن به سبد خرید",
+    book_now: "ثبت نام کردن",
+    reserve_now: "رزرو کردن",
+    buy_now: "خرید",
+
     buy: "خرید",
     notifications: {
       inform_add_success: "هروقت موجود شد خبرتان می کنیم.",
@@ -6299,6 +6292,16 @@ export default {
       success_add: "یادداشت با موفقیت اضافه شد.",
       success_delete: "یادداشت با موفقیت حذف شد.",
     },
+  },
+
+  /** {@see WidgetAppCard} **/
+  app_card: {
+    category: "دسته بندی",
+    installs: "نصب",
+    actives: "فعال",
+    uninstalls: "حذف",
+    app_code: "کد اپلیکیشن",
+    app_mode: "نوع اپلیکیشن",
   },
 
 

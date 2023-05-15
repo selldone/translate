@@ -603,7 +603,34 @@ export default {
     "deleted": "Устгасан",
     "variant": "Хувилбар",
     "secure": "Аюулгүй",
-    "admin": "админ"
+    "admin": "админ",
+    "tax_included_abstract": "зэрэг",
+    "payment_not_settled": "Төлбөрийг барагдуулаагүй!",
+    "orders_list": "Захиалгын жагсаалт",
+    "subscription_plan": "Захиалгын төлөвлөгөө",
+    "contents": "Агуулга",
+    "pricings": "Үнэ",
+    "static_page": "Статик хуудас",
+    "shop_button": "Дэлгүүрийн товчлуур",
+    "embed": "Оруулсан",
+    "over": "Дууслаа",
+    "tax_vary_by_location": "ялгаатай. байршил",
+    "product_type": "Бүтээгдэхүүний төрөл",
+    "tax_id": "Татварын ID",
+    "business_name": "Бизнес нэр",
+    "invoice": "Нэхэмжлэх",
+    "included_in_the_product": "Бүтээгдэхүүнд багтсан болно",
+    "included_in_the_product_description": "Бүтээгдэхүүн нь дараахь бүрэлдэхүүн хэсгүүдийг агуулдаг",
+    "cross_sell": "Хөндлөн зарах",
+    "discount_off": "OFF",
+    "extra_discount": "Нэмэлт хөнгөлөлт",
+    "template": "Загвар",
+    "in_cart": "Сагсанд",
+    "pros_and_cons": "Сайн болон сул талууд",
+    "related_products": "Холбоотой бүтээгдэхүүн",
+    "related_categories": "Холбоотой ангилал",
+    "badges": "Тэмдгүүд",
+    "explore": "Судлах"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Дахин сэргээх",
     "add_message": "Зурвас нэмэх",
     "continue_chat": "Үргэлжлүүлэн чатлах",
-    "add_new_message": "Шинэ мессеж нэмэх"
+    "add_new_message": "Шинэ мессеж нэмэх",
+    "change_setting": "Тохиргоог өөрчлөх",
+    "delete_all": "Бүгдийг устгах",
+    "transfer_fund": "Шилжүүлгийн сан",
+    "reverse_fund": "Урвуу сан",
+    "settlement": "Суурин газар",
+    "refund": "Буцаан олголт",
+    "partial_refund": "Хэсэгчилсэн буцаан олголт",
+    "change_payment_method": "Төлбөрийн аргыг өөрчлөх",
+    "buy": "Худалдан авах",
+    "view_all": "Бүгдийг харах",
+    "view_now": "Одоо үзэх"
   },
   "instance_message_title": "Шуурхай мессеж илгээх",
   "instance_message": "Сайн уу {name}, миний нэр {company}-н {author}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Мөнх ногоон",
     "#214C30": "Ой",
     "#DC2867": "Фуксия",
-    "#38561F" :"Келли",
+    "#38561F": "Келли",
     "#5C884D": "Навч",
     "#558450": "Хөнгөн ус",
     "#96B5C9": "Цайвар цэнхэр",
@@ -951,7 +989,9 @@ export default {
     "file": "Файл",
     "file_description": "Онлайн хичээлийн видео, татаж авах боломжтой баримт бичиг гэх мэт бүх зөвшөөрөгдсөн файлууд.",
     "service": "Үйлчилгээ",
-    "service_description": "Засвар, тээвэрлэлт, заах зэрэг үйлчилгээ."
+    "service_description": "Засвар, тээвэрлэлт, заах зэрэг үйлчилгээ.",
+    "subscription": "Захиалга",
+    "subscription_description": "Бүтээгдэхүүн, үйлчилгээ, контентын захиалга, нэхэмжлэх."
   },
   "license": {
     "free": "Үнэгүй",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Эхний бичлэг",
     "comment_at": "Асаалттай",
-    "edit_comment": "Сэтгэгдэл засах"
+    "edit_comment": "Сэтгэгдэл засах",
+    "my_comments": "Миний сэтгэгдэл"
   },
   "customer_club": {
     "bronze": "Хүрэл",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Баталгаажуулах код",
     "msg_title": "Сайн уу",
     "msg_body": "Та нэвтэрнэ үү. Энэ нь хэдхэн секунд болно.",
-    "login_apple": "Apple-ээр нэвтэрнэ үү"
+    "login_apple": "Apple-ээр нэвтэрнэ үү",
+    "login_email": "Имэйлээр нэвтэрнэ үү",
+    "email_login_step_1": "Хүчинтэй и-мэйл хаягаа оруулна уу, бид түүнд нэвтрэх кодыг илгээх болно. Бүртгүүлэх шаардлагагүй.",
+    "email_login_step_2": "Та имэйл хаягаа зөв оруулсан гэдэгтээ итгэлтэй байна уу? Бид оруулсан имэйл рүү нэвтрэх кодыг илгээх тул түүний үнэн зөвийг шалгана уу.",
+    "email_login_step_3": "Бид таны имэйл рүү код илгээсэн. Кодын хугацаа 10 минутын дараа дуусна гэдгийг анхаарна уу."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Зурвас хадгалах",
     "notifications": {
       "success": "Таны оруулсан өгөгдөл хадгалагдлаа."
-    }
+    },
+    "product_inputs_preview_message": "Эдгээр тохируулгын сонголтууд таны захиалсан бүтээгдэхүүнд боломжтой. Тухайн зүйлийг сагсандаа нэмсний дараа та энд тохируулга хийх боломжтой болно."
   },
   "faq": {
     "faq": "Түгээмэл асуултууд",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Хэцүү",
     "intermediate": "Дунд зэрэг",
     "easy": "Хялбар"
+  },
+  "billing_period": {
+    "Daily": "Өдөр бүр",
+    "Weekly": "Долоо хоног бүр",
+    "Monthly": "Сар бүр",
+    "Every3Months": "3 сар тутамд",
+    "Every6Months": "6 сар тутамд",
+    "Yearly": "Жил бүр"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Өө сайн биш!",
+    "between2_3": "Зүгээр дээ!",
+    "between3_4": "Хүмүүст таалагдаж байна!",
+    "between4_5": "Хүмүүс үүнд дуртай!"
   }
 };

@@ -603,7 +603,34 @@ export default {
     "deleted": "ବିଲୋପ",
     "variant": "ବିଭିନ୍ନ ପ୍ରକାର |",
     "secure": "ସୁରକ୍ଷିତ",
-    "admin": "ଆଡମିନି"
+    "admin": "ଆଡମିନି",
+    "tax_included_abstract": "ଅନ୍ତର୍ଭୂକ୍ତ",
+    "payment_not_settled": "ଦେୟ ସମାଧାନ ହୋଇନାହିଁ!",
+    "orders_list": "ଅର୍ଡର ତାଲିକା |",
+    "subscription_plan": "ସଦସ୍ୟତା ଯୋଜନା",
+    "contents": "ବିଷୟବସ୍ତୁ",
+    "pricings": "ମୂଲ୍ୟ",
+    "static_page": "ଷ୍ଟାଟିକ୍ ପୃଷ୍ଠା |",
+    "shop_button": "ଦୋକାନ ବଟନ୍ |",
+    "embed": "ଏମ୍ବେଡ୍ କରନ୍ତୁ |",
+    "over": "ସମାପ୍ତ",
+    "tax_vary_by_location": "ଭିନ୍ନ ଅଟେ | ଅବସ୍ଥାନ",
+    "product_type": "ଉତ୍ପାଦ ପ୍ରକାର |",
+    "tax_id": "ଟ୍ୟାକ୍ସ ID",
+    "business_name": "ବ୍ୟବସାୟ ନାମ",
+    "invoice": "ଇନଭଏସ୍ |",
+    "included_in_the_product": "ଉତ୍ପାଦରେ ଅନ୍ତର୍ଭୁକ୍ତ |",
+    "included_in_the_product_description": "ଉତ୍ପାଦଟି ନିମ୍ନଲିଖିତ ଉପାଦାନଗୁଡ଼ିକୁ ଅନ୍ତର୍ଭୁକ୍ତ କରେ |",
+    "cross_sell": "କ୍ରସ୍ ବିକ୍ରୟ |",
+    "discount_off": "OFF",
+    "extra_discount": "ଅତିରିକ୍ତ ରିହାତି",
+    "template": "ଟେମ୍ପଲେଟ୍ |",
+    "in_cart": "କାର୍ଟରେ |",
+    "pros_and_cons": "ଭଲ ଏବଂ ମନ୍ଦ",
+    "related_products": "ସମ୍ବନ୍ଧୀୟ ଉତ୍ପାଦଗୁଡିକ |",
+    "related_categories": "ସମ୍ବନ୍ଧିତ ବର୍ଗଗୁଡିକ |",
+    "badges": "ବ୍ୟାଜ୍",
+    "explore": "ଏକ୍ସପ୍ଲୋର୍ କରନ୍ତୁ |"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "ପୁନ ener ନିର୍ମାଣ କରନ୍ତୁ |",
     "add_message": "ବାର୍ତ୍ତା ଯୋଡନ୍ତୁ |",
     "continue_chat": "ଚାଟ୍ ଜାରି ରଖନ୍ତୁ |",
-    "add_new_message": "ନୂତନ ବାର୍ତ୍ତା ଯୋଡନ୍ତୁ |"
+    "add_new_message": "ନୂତନ ବାର୍ତ୍ତା ଯୋଡନ୍ତୁ |",
+    "change_setting": "ସେଟିଂ ପରିବର୍ତ୍ତନ କରନ୍ତୁ |",
+    "delete_all": "ସମସ୍ତ ବିଲୋପ କରନ୍ତୁ |",
+    "transfer_fund": "ସ୍ଥାନାନ୍ତର ପାଣ୍ଠି",
+    "reverse_fund": "ଓଲଟା ପାଣ୍ଠି |",
+    "settlement": "ସମାଧାନ",
+    "refund": "ଫେରସ୍ତ",
+    "partial_refund": "ଆଂଶିକ ଫେରସ୍ତ",
+    "change_payment_method": "ଦେୟ ପଦ୍ଧତି ପରିବର୍ତ୍ତନ କରନ୍ତୁ |",
+    "buy": "କିଣନ୍ତୁ |",
+    "view_all": "ସମସ୍ତ ଦେଖନ୍ତୁ |",
+    "view_now": "ବର୍ତ୍ତମାନ ଦେଖନ୍ତୁ |"
   },
   "instance_message_title": "ତତକ୍ଷଣାତ୍ ବାର୍ତ୍ତା ପଠାନ୍ତୁ |",
   "instance_message": "ହାଏ {name}, ମୋ ନାମ {company} ରୁ {author} |",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "ଚିର ସବୁଜ |",
     "#214C30": "ଜଙ୍ଗଲ",
     "#DC2867": "ଫୁଚସିଆ |",
-    "#38561F" :"କେଲି |",
+    "#38561F": "କେଲି |",
     "#5C884D": "ପତ୍ର |",
     "#558450": "ହାଲୁକା କୁମ୍ଭ",
     "#96B5C9": "ହାଲୁକା ନୀଳ",
@@ -951,7 +989,9 @@ export default {
     "file": "ଫାଇଲ୍ |",
     "file_description": "ଅନଲାଇନ୍ କୋର୍ସ ଭିଡିଓ, ଡାଉନଲୋଡ୍ ଯୋଗ୍ୟ ଡକ୍ୟୁମେଣ୍ଟ୍ ପରି ସମସ୍ତ ଅନୁମତିପ୍ରାପ୍ତ ଫାଇଲଗୁଡିକ |",
     "service": "ସେବା",
-    "service_description": "ସେବାଗୁଡିକ: ମରାମତି, ପରିବହନ, ଶିକ୍ଷାଦାନ |"
+    "service_description": "ସେବାଗୁଡିକ: ମରାମତି, ପରିବହନ, ଶିକ୍ଷାଦାନ |",
+    "subscription": "ସଦସ୍ୟତା",
+    "subscription_description": "ଉତ୍ପାଦ, ସେବା, କିମ୍ବା ବିଷୟବସ୍ତୁ ପାଇଁ ସଦସ୍ୟତା ଏବଂ ଇନଭଏସ୍ |"
   },
   "license": {
     "free": "ମାଗଣା |",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "ପ୍ରଥମ ପୋଷ୍ଟ |",
     "comment_at": "ଅନ୍",
-    "edit_comment": "ମନ୍ତବ୍ୟ ସଂପାଦନ କରନ୍ତୁ |"
+    "edit_comment": "ମନ୍ତବ୍ୟ ସଂପାଦନ କରନ୍ତୁ |",
+    "my_comments": "ମୋର ମନ୍ତବ୍ୟ"
   },
   "customer_club": {
     "bronze": "ପିତ୍ତଳ |",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "ପ୍ରମାଣ ସଂକେତ",
     "msg_title": "ହାଏ,",
     "msg_body": "ଦୟାକରି ଲଗଇନ୍ କରନ୍ତୁ | ଏହା ମାତ୍ର କିଛି ସେକେଣ୍ଡ ନେଇଥାଏ |",
-    "login_apple": "ଆପଲ୍ ସହିତ ଲଗ୍ଇନ୍ କରନ୍ତୁ |"
+    "login_apple": "ଆପଲ୍ ସହିତ ଲଗ୍ଇନ୍ କରନ୍ତୁ |",
+    "login_email": "ଇମେଲ ଦ୍ୱାରା ଲଗଇନ୍ କରନ୍ତୁ |",
+    "email_login_step_1": "ଦୟାକରି ଏକ ବ email ଧ ଇମେଲ୍ ଠିକଣା ପ୍ରଦାନ କରନ୍ତୁ, ଏବଂ ଆମେ ଏହାକୁ ଲଗ୍ଇନ୍ କୋଡ୍ ପଠାଇବୁ | କ registration ଣସି ପଞ୍ଜୀକରଣ ଆବଶ୍ୟକ ନାହିଁ |",
+    "email_login_step_2": "ଆପଣ ନିଶ୍ଚିତ କି ଆପଣ ଆପଣଙ୍କର ଇମେଲ୍ ଠିକଣା ସଠିକ୍ ଭାବରେ ପ୍ରବେଶ କରିଛନ୍ତି? ପ୍ରଦାନ କରାଯାଇଥିବା ଇମେଲକୁ ଆମେ ଲଗଇନ୍ କୋଡ୍ ପଠାଇବୁ, ତେଣୁ ଦୟାକରି ଏହାର ସଠିକତା ନିଶ୍ଚିତ କରନ୍ତୁ |",
+    "email_login_step_3": "ଆମେ ଆପଣଙ୍କ ଇମେଲକୁ ଏକ କୋଡ୍ ପଠାଇଛୁ | ଦୟାକରି ଧ୍ୟାନ ଦିଅନ୍ତୁ ଯେ କୋଡ୍ 10 ମିନିଟରେ ସମାପ୍ତ ହେବ |"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "ବାର୍ତ୍ତା ସଞ୍ଚୟ କରନ୍ତୁ |",
     "notifications": {
       "success": "ତୁମର ଇନପୁଟ୍ ଡାଟା ସେଭ୍ ହୋଇଛି |"
-    }
+    },
+    "product_inputs_preview_message": "ଏହି କଷ୍ଟୋମାଇଜେସନ୍ ବିକଳ୍ପଗୁଡ଼ିକ ତୁମର ଅର୍ଡର ହୋଇଥିବା ଉତ୍ପାଦ ପାଇଁ ଉପଲବ୍ଧ | ଥରେ ଆଇଟମ୍ ଆପଣଙ୍କ କାର୍ଟରେ ଯୋଡି ହୋଇଗଲେ, ଆପଣ ଏଠାରେ ସଂଶୋଧନ କରିବାକୁ ସମର୍ଥ ହେବେ |"
   },
   "faq": {
     "faq": "ପ୍ରାୟତଃ ପଚରାଯାଇଥିବା ପ୍ରଶ୍ନ",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "କଠିନ |",
     "intermediate": "ମଧ୍ୟବର୍ତ୍ତୀ",
     "easy": "ସହଜ"
+  },
+  "billing_period": {
+    "Daily": "ଦ Daily ନିକ |",
+    "Weekly": "ସାପ୍ତାହିକ",
+    "Monthly": "ମାସିକ",
+    "Every3Months": "ପ୍ରତି 3 ମାସରେ |",
+    "Every6Months": "ପ୍ରତି 6 ମାସରେ |",
+    "Yearly": "ବାର୍ଷିକ"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "ଭଲ ନୁହେଁ!",
+    "between2_3": "ଠିକ୍ ଅଛି!",
+    "between3_4": "ଲୋକମାନେ ଏହାକୁ ପସନ୍ଦ କରନ୍ତି!",
+    "between4_5": "ଲୋକମାନେ ଏହାକୁ ଭଲ ପାଆନ୍ତି!"
   }
 };

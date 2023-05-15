@@ -81,7 +81,9 @@ export default {
     "offer_message": "Hokona {min_quantity} Whiwhi {percent}% mo enei mea",
     "up_to": "Tae atu ki te {per_order}x mo ia ota",
     "get_free": "HAERE KOREUTU",
-    "get_off": "TIKI {percent}% OFF"
+    "get_off": "TIKI {percent}% OFF",
+    "select_a_vendor_message": "Tīpakohia koa he kaihoko.",
+    "product_description_header": "Te whakauru {product}"
   },
   "buy_button": {
     "waiting_for_availability": "E tatari ana mo te waatea",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Ka whakamohio atu koe ina watea ana.",
       "inform_remove_success": "Kua tangohia koe i te rarangi tatari."
-    }
+    },
+    "subscribe_now": "Ohauru Inaianei",
+    "unsubscribe": "Wete haina",
+    "select_a_subscription_plan": "Tīpakohia he mahere tuatahi!",
+    "manage_subscriptions": "Whakahaere ohaurunga"
   },
   "product": {
     "review": "Arotake",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Pūtāhui",
     "return_policy": "Kaupapa Whakahoki",
     "guide": "Arataki",
-    "shipping": "Te tuku"
+    "shipping": "Te tuku",
+    "related_categories_title": "Tirohia i roto i nga kohinga"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Utu Tapeke Utu",
       "total_items_discount": "Hekenga Tuemi",
       "total_price_after_offers": "Tapeke i muri i te tono tuku",
-      "buyer_payment": "Te utu utu a te kaihoko"
+      "buyer_payment": "Te utu utu a te kaihoko",
+      "total_order_price_before_tax": "Utu Tapeke i mua i te taake"
     },
     "delivery": {
       "title": "Tukunga",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Nga korero putea rereke",
     "basket_empty": "Kei te putua te kete",
     "extra_shipping_count": "Ka whiwhi koe i nga putea {count}.",
-    "select_location_error": "Kimihia te waahi o te whiwhinga o te tuku i runga i te mapi ka paato i te tohu tohu kei waenganui o te mapi hei whakatau i te wahitau tika o te kaiwhiwhi."
+    "select_location_error": "Kimihia te waahi o te whiwhinga o te tuku i runga i te mapi ka paato i te tohu tohu kei waenganui o te mapi hei whakatau i te wahitau tika o te kaiwhiwhi.",
+    "same_billing_address_desc": "He rite te wahitau nama ki te wahitau tuku.",
+    "custom_billing_info_desc": "Ka taea e koe te whakauru i to nama TAX me te whakarite i tetahi wahitau rereke mo te nama.",
+    "billing_business_desc": "He putea pakihi me te nama TAX.",
+    "billing_personal_desc": "He pūkete whaiaro.",
+    "no_billing_title": "Kaore he nama",
+    "no_billing_desc": "Waiho kia noho kau te wahitau nama."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Tikina te raupapa o waho",
     "address_included": "Tiria nga taonga kete + Wāhitau",
     "address_excluded": "Tiria noa nga taonga kete"
+  },
+  "variants_view": {
+    "prices": "Utu",
+    "inventory": "Inventory",
+    "discount": "Te utu"
+  },
+  "rating": {
+    "product_rating_message": "Kua whiwhi tenei hua i te whakatauranga o te {rate} mai i te 5 whetu, ka whakatauhia e {rate_count} tangata."
+  },
+  "related_products": {
+    "card": {
+      "title": "Torotoro!",
+      "same_tags_subtitle": "Kimihia etahi atu mea whakamiharo e pa ana.",
+      "same_category_subtitle": "Kimihia etahi atu mea whakamiharo i tenei waahanga."
+    }
   }
 };

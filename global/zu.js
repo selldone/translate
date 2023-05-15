@@ -603,7 +603,34 @@ export default {
     "deleted": "Kususiwe",
     "variant": "Okuhlukile",
     "secure": "Kuvikelekile",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "kuhlanganisa.",
+    "payment_not_settled": "Inkokhelo ayixazululiwe!",
+    "orders_list": "Uhlu lwama-oda",
+    "subscription_plan": "Uhlelo lokubhalisa",
+    "contents": "Okuqukethwe",
+    "pricings": "Izintengo",
+    "static_page": "Ikhasi elimile",
+    "shop_button": "Inkinobho Yokuthenga",
+    "embed": "Shumeka",
+    "over": "Kuphelile",
+    "tax_vary_by_location": "ziyahlukahluka. indawo",
+    "product_type": "Uhlobo lomkhiqizo",
+    "tax_id": "I-ID yentela",
+    "business_name": "Igama lebhizinisi",
+    "invoice": "I-invoyisi",
+    "included_in_the_product": "Kufakwe emkhiqizweni",
+    "included_in_the_product_description": "Umkhiqizo uhlanganisa izingxenye ezilandelayo",
+    "cross_sell": "Cross Thengisa",
+    "discount_off": "OFF",
+    "extra_discount": "Isaphulelo Esengeziwe",
+    "template": "Isifanekiso",
+    "in_cart": "Enqoleni",
+    "pros_and_cons": "Ubuhle nobubi",
+    "related_products": "Imikhiqizo Ehlobene",
+    "related_categories": "Izigaba Ezihlobene",
+    "badges": "Amabheji",
+    "explore": "Hlola"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Khiqiza kabusha",
     "add_message": "Engeza umlayezo",
     "continue_chat": "Qhubeka nengxoxo",
-    "add_new_message": "Engeza umlayezo omusha"
+    "add_new_message": "Engeza umlayezo omusha",
+    "change_setting": "Shintsha izilungiselelo",
+    "delete_all": "Susa Konke",
+    "transfer_fund": "Isikhwama sokudlulisa",
+    "reverse_fund": "Isikhwama sokuhlehlisa",
+    "settlement": "Ukuxazulula",
+    "refund": "Imbuyiselo",
+    "partial_refund": "Imbuyiselo Eyingxenye",
+    "change_payment_method": "Shintsha indlela yokukhokha",
+    "buy": "Thenga",
+    "view_all": "Buka konke",
+    "view_now": "Buka Manje"
   },
   "instance_message_title": "Thumela umlayezo osheshayo",
   "instance_message": "Sawubona {name}, Igama lami ngingu-{author} kusuka ku-{company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Ihlathi",
     "#DC2867": "I-Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Iqabunga",
     "#558450": "I-Aqua Ekhanyayo",
     "#96B5C9": "Okuluhlaza Okukhanyayo",
@@ -951,7 +989,9 @@ export default {
     "file": "Ifayela",
     "file_description": "Wonke amafayela avunyelwe njengevidiyo yesifundo esiku-inthanethi, imibhalo elandekayo.",
     "service": "Isevisi",
-    "service_description": "Izinkonzo ezifana: ukulungisa, ezokuthutha, ukufundisa."
+    "service_description": "Izinkonzo ezifana: ukulungisa, ezokuthutha, ukufundisa.",
+    "subscription": "Ukubhalisa",
+    "subscription_description": "Okubhaliselwe nama-invoyisi emikhiqizo, amasevisi, noma okuqukethwe."
   },
   "license": {
     "free": "Mahhala",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Iposi lokuqala",
     "comment_at": "Vuliwe",
-    "edit_comment": "Hlela Amazwana"
+    "edit_comment": "Hlela Amazwana",
+    "my_comments": "Amazwana Ami"
   },
   "customer_club": {
     "bronze": "Ithusi",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Ikhodi yokuqinisekisa",
     "msg_title": "Sawubona,",
     "msg_body": "Sicela ungene ngemvume. Kuthatha imizuzwana embalwa.",
-    "login_apple": "Ngena ngemvume nge-Apple"
+    "login_apple": "Ngena ngemvume nge-Apple",
+    "login_email": "Ngena ngemvume nge-imeyili",
+    "email_login_step_1": "Sicela unikeze ikheli le-imeyili elivumelekile, futhi sizothumela ikhodi yokungena kuyo. Akukho ukubhaliswa okudingekayo.",
+    "email_login_step_2": "Ingabe uqinisekile ukuthi ufake ikheli lakho le-imeyili ngendlela efanele? Sizobe sithumela ikhodi yokungena ku-imeyili enikeziwe, ngakho-ke sicela uqinisekise ukunemba kwayo.",
+    "email_login_step_3": "Sithumele ikhodi ku-imeyili yakho. Sicela uqaphele ukuthi ikhodi izophelelwa yisikhathi emaminithini angu-10."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Londoloza umlayezo",
     "notifications": {
       "success": "Idatha yakho yokufaka ilondoloziwe."
-    }
+    },
+    "product_inputs_preview_message": "Lezi zinketho zokwenza ngendlela oyifisayo ziyatholakala kumkhiqizo wakho owu-odwe. Uma into isingeziwe ekalishini yakho, uzokwazi ukwenza izinguquko lapha."
   },
   "faq": {
     "faq": "imibuzo ejwayelekile ukubuzwa",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Kunzima",
     "intermediate": "Ophakathi",
     "easy": "Kulula"
+  },
+  "billing_period": {
+    "Daily": "Nsuku zonke",
+    "Weekly": "Maviki onke",
+    "Monthly": "Nyanga zonke",
+    "Every3Months": "Njalo ezinyangeni ezi-3",
+    "Every6Months": "Njalo ezinyangeni eziyisi-6",
+    "Yearly": "Minyaka yonke"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Hhayi kuhle!",
+    "between2_3": "Kulungile!",
+    "between3_4": "Abantu bayayithanda!",
+    "between4_5": "Abantu bayayithanda!"
   }
 };

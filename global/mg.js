@@ -603,7 +603,34 @@ export default {
     "deleted": "nofafana",
     "variant": "Variant",
     "secure": "fiarovana",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "incl.",
+    "payment_not_settled": "Tsy voalamina ny fandoavam-bola!",
+    "orders_list": "Lisitry ny kaomandy",
+    "subscription_plan": "Drafitra famandrihana",
+    "contents": "Hevitra ato Anatiny",
+    "pricings": "Pricings",
+    "static_page": "Pejy static",
+    "shop_button": "bokotra fivarotana",
+    "embed": "Ampidiro",
+    "over": "TAPITRA",
+    "tax_vary_by_location": "miovaova. toerana",
+    "product_type": "Karazana vokatra",
+    "tax_id": "ID hetra",
+    "business_name": "Anaran'ny orinasa",
+    "invoice": "faktiora",
+    "included_in_the_product": "Tafiditra ao anatin'ny vokatra",
+    "included_in_the_product_description": "Ny vokatra dia ahitana ireto singa manaraka ireto",
+    "cross_sell": "Cross Sell",
+    "discount_off": "OFF",
+    "extra_discount": "Fihenam-bidy fanampiny",
+    "template": "Endrika",
+    "in_cart": "Ao anaty sarety",
+    "pros_and_cons": "Mahatsara sy maharatsy azy",
+    "related_products": "Vokatra mifandraika",
+    "related_categories": "Sokajy mifandraika",
+    "badges": "Badges",
+    "explore": "hijery"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": ", vokatr'izany",
     "add_message": "Ampio hafatra",
     "continue_chat": "Tohizo ny resaka",
-    "add_new_message": "Hanampy hafatra vaovao"
+    "add_new_message": "Hanampy hafatra vaovao",
+    "change_setting": "Ovay ny fika",
+    "delete_all": "Fafao daholo",
+    "transfer_fund": "Famindrana vola",
+    "reverse_fund": "Reverse fund",
+    "settlement": "ponenana",
+    "refund": "Famerenana",
+    "partial_refund": "Famerenana ampahany",
+    "change_payment_method": "Hanova fomba fandoavam-bola",
+    "buy": "Buy",
+    "view_all": "Jereo daholo",
+    "view_now": "Jereo izao"
   },
   "instance_message_title": "Mandefasa hafatra eo noho eo",
   "instance_message": "Salama {name}, Ny anarako dia {author} avy amin'ny {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "ALA",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Ravina",
     "#558450": "Light Aqua",
     "#96B5C9": "Manga tanora",
@@ -951,7 +989,9 @@ export default {
     "file": "rakitra",
     "file_description": "Ny rakitra rehetra azo alaina toy ny horonan-tsarimihetsika an-tserasera, antontan-taratasy azo alaina.",
     "service": "fanompoana",
-    "service_description": "Serivisy toy ny: fanamboarana, fitaterana, fampianarana."
+    "service_description": "Serivisy toy ny: fanamboarana, fitaterana, fampianarana.",
+    "subscription": "Famandrihana",
+    "subscription_description": "Famandrihana sy faktiora ho an'ny vokatra, serivisy, na atiny."
   },
   "license": {
     "free": "maimaim-poana",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Lahatsoratra voalohany",
     "comment_at": "On",
-    "edit_comment": "Ahitsio Hevitra"
+    "edit_comment": "Ahitsio Hevitra",
+    "my_comments": "Ny hevitrao"
   },
   "customer_club": {
     "bronze": "Bronze",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Kaody fanamarinana",
     "msg_title": "Salama,",
     "msg_body": "Midira azafady. Mitaky segondra vitsy monja.",
-    "login_apple": "Midira amin'ny Apple"
+    "login_apple": "Midira amin'ny Apple",
+    "login_email": "Midira amin'ny mailaka",
+    "email_login_step_1": "Omeo adiresy mailaka manan-kery azafady, ary halefanay aminy ny kaody fidirana. Tsy ilaina ny fisoratana anarana.",
+    "email_login_step_2": "Tena azonao antoka ve fa nampidirinao tsara ny adiresy mailakao? Handefa ny kaody fidirana amin'ny mailaka nomena izahay, koa azafady mba ho azo antoka ny fahamarinany.",
+    "email_login_step_3": "Nandefa code amin'ny mailakao izahay. Mariho fa ny kaody dia ho tapitra afaka 10 minitra."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Save Message",
     "notifications": {
       "success": "Voatahiry ny angona fidiranao."
-    }
+    },
+    "product_inputs_preview_message": "Ireo safidy fanamboarana ireo dia azo alaina amin'ny vokatra voafantinao. Rehefa ampidirina ao anaty sarety ilay entana dia afaka manao fanitsiana eto ianao."
   },
   "faq": {
     "faq": "Fanontaniana matetika",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Sarotra",
     "intermediate": "kafa",
     "easy": "Mora"
+  },
+  "billing_period": {
+    "Daily": "isan'andro",
+    "Weekly": "isan-kerinandro",
+    "Monthly": "Isam-bolana",
+    "Every3Months": "Isaky ny 3 volana",
+    "Every6Months": "Isaky ny 6 volana",
+    "Yearly": "isan-taona"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oh tsy tsara!",
+    "between2_3": "Tsy maninona!",
+    "between3_4": "Tian'ny olona izany!",
+    "between4_5": "Tian'ny olona izany!"
   }
 };

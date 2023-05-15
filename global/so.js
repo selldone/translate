@@ -603,7 +603,34 @@ export default {
     "deleted": "La tirtiray",
     "variant": "Kala duwanaansho",
     "secure": "Aamin",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "oo ay ku jiraan",
+    "payment_not_settled": "Lacag-bixinta lama dejin!",
+    "orders_list": "Liiska dalabaadka",
+    "subscription_plan": "Qorshaha isdiiwaangelinta",
+    "contents": "Nuxurka",
+    "pricings": "Qiimayaasha",
+    "static_page": "Bogga taagan",
+    "shop_button": "Badhanka Dukaanka",
+    "embed": "Ku dheji",
+    "over": "Dhamaaday",
+    "tax_vary_by_location": "kala duwanaansho goobta",
+    "product_type": "Nooca alaabta",
+    "tax_id": "Aqoonsiga canshuurta",
+    "business_name": "Magaca ganacsiga",
+    "invoice": "qaansheeg",
+    "included_in_the_product": "Lagu daray alaabta",
+    "included_in_the_product_description": "Alaabta waxaa ku jira qaybaha soo socda",
+    "cross_sell": "Isdhaafka Iibinta",
+    "discount_off": "OFF",
+    "extra_discount": "Qiimo dhimis Dheeraad ah",
+    "template": "Template",
+    "in_cart": "Gaariga dhexdiisa",
+    "pros_and_cons": "Faa'iidooyinka iyo khasaaraha",
+    "related_products": "Alaabooyinka La Xiriira",
+    "related_categories": "Qaybaha la xidhiidha",
+    "badges": "Calaamadaha",
+    "explore": "Baadh"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Dib u soo noolayn",
     "add_message": "Fariin ku dar",
     "continue_chat": "Wada sheekeysiga",
-    "add_new_message": "Ku dar fariin cusub"
+    "add_new_message": "Ku dar fariin cusub",
+    "change_setting": "Beddel goobta",
+    "delete_all": "Tirtir Dhammaan",
+    "transfer_fund": "Sanduuqa wareejinta",
+    "reverse_fund": "Lacag celinta",
+    "settlement": "Dejinta",
+    "refund": "Lacag soo celin",
+    "partial_refund": "Soo celinta qayb ahaan",
+    "change_payment_method": "Beddel habka lacag bixinta",
+    "buy": "Iibso",
+    "view_all": "Daawo Dhammaan",
+    "view_now": "Daawo Hadda"
   },
   "instance_message_title": "Dir fariin degdeg ah",
   "instance_message": "Hi {name}, Magacaygu waa {author} ka {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Kaynta",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Caleen",
     "#558450": "Aqua Light",
     "#96B5C9": "Buluug khafiif ah",
@@ -951,7 +989,9 @@ export default {
     "file": "Faylka",
     "file_description": "Dhammaan faylasha la oggol yahay sida fiidiyoowga koorsada onlaynka ah, dukumeenti la soo dajin karo.",
     "service": "Adeegga",
-    "service_description": "Adeegyada sida: dayactirka, gaadiidka, waxbaridda."
+    "service_description": "Adeegyada sida: dayactirka, gaadiidka, waxbaridda.",
+    "subscription": "Isdiiwaangelinta",
+    "subscription_description": "Diiwaangelinta iyo qaansheegta alaabada, adeegyada, ama waxa ku jira."
   },
   "license": {
     "free": "Bilaash",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Boostada ugu horeysa",
     "comment_at": "Daar",
-    "edit_comment": "Wax ka beddel faallooyinka"
+    "edit_comment": "Wax ka beddel faallooyinka",
+    "my_comments": "Faallooyinkayga"
   },
   "customer_club": {
     "bronze": "Bronze",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Koodhka xaqiijinta",
     "msg_title": "Hi,",
     "msg_body": "Fadlan soo gal Waxay qaadataa dhowr ilbiriqsi oo kaliya.",
-    "login_apple": "Ku soo gal Apple"
+    "login_apple": "Ku soo gal Apple",
+    "login_email": "Ku soo gal iimaylka",
+    "email_login_step_1": "Fadlan bixi ciwaanka iimayl sax ah, waxaanan u soo diri doonaa summada galitaanka Diiwaangelin looma baahna.",
+    "email_login_step_2": "Ma hubtaa inaad si sax ah u gashay cinwaankaaga iimaylka? Waxaan u diri doonaa summada galitaanka iimaylka la bixiyay, marka fadlan hubi saxnimadiisa.",
+    "email_login_step_3": "Waxaan u dirnay kood emailkaaga Fadlan ogow in koodku ku dhacayo 10 daqiiqo gudahood."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Keydi fariinta",
     "notifications": {
       "success": "Xog galintaada waa la keydiyay"
-    }
+    },
+    "product_inputs_preview_message": "Ikhtiyaaradan habaynta ayaa diyaar u ah alaabtaada dalbatay. Marka shayga lagu daro gaadhigaaga, waxaad awoodi doontaa inaad halkan ku hagaajiso."
   },
   "faq": {
     "faq": "Su'aalaha Inta Badan La Isweydiiyo",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Adag",
     "intermediate": "Dhexdhexaad",
     "easy": "Fudud"
+  },
+  "billing_period": {
+    "Daily": "Maalin walba",
+    "Weekly": "Todobaadle",
+    "Monthly": "Bishii",
+    "Every3Months": "3dii biloodba mar",
+    "Every6Months": "6dii biloodba mar",
+    "Yearly": "Sannadkii"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oh ma wanaagsana!",
+    "between2_3": "Waa Okay!",
+    "between3_4": "Dadku way jecel yihiin!",
+    "between4_5": "Dadku way jecel yihiin!"
   }
 };

@@ -81,7 +81,9 @@ export default {
     "offer_message": "এই আইটেমগুলির জন্য {min_quantity} কিনুন {percent}% ছাড়",
     "up_to": "অর্ডার প্রতি {per_order}x পর্যন্ত",
     "get_free": "স্বাধীন",
-    "get_off": "{percent}% ছাড় পান"
+    "get_off": "{percent}% ছাড় পান",
+    "select_a_vendor_message": "একটি বিক্রেতা নির্বাচন করুন.",
+    "product_description_header": "{product} পরিচয় করিয়ে দেওয়া হচ্ছে"
   },
   "buy_button": {
     "waiting_for_availability": "প্রাপ্যতা জন্য অপেক্ষা",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "এটি উপলব্ধ হলে আমরা আপনাকে জানাব৷",
       "inform_remove_success": "আপনাকে অপেক্ষমাণ তালিকা থেকে বাদ দেওয়া হয়েছে।"
-    }
+    },
+    "subscribe_now": "এখন সাবস্ক্রাইব করুন",
+    "unsubscribe": "সদস্যতা ত্যাগ করুন",
+    "select_a_subscription_plan": "প্রথমে একটি পরিকল্পনা নির্বাচন করুন!",
+    "manage_subscriptions": "সাবস্ক্রিপশন পরিচালনা"
   },
   "product": {
     "review": "পুনঃমূল্যায়ন",
@@ -109,7 +115,8 @@ export default {
     "warranty": "ওয়ারেন্টি",
     "return_policy": "প্রত্যাবর্তন নীতিমালা",
     "guide": "গাইড",
-    "shipping": "স্থানান্তর"
+    "shipping": "স্থানান্তর",
+    "related_categories_title": "সংগ্রহে আবিষ্কার করুন"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "মোট আইটেম মূল্য",
       "total_items_discount": "আইটেম ডিসকাউন্ট",
       "total_price_after_offers": "অফার আবেদন করার পর মোট",
-      "buyer_payment": "ক্রেতা প্রদানের পরিমাণ"
+      "buyer_payment": "ক্রেতা প্রদানের পরিমাণ",
+      "total_order_price_before_tax": "প্রি-ট্যাক্স মোট মূল্য"
     },
     "delivery": {
       "title": "ডেলিভারি",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "বিভিন্ন বিলিং তথ্য",
     "basket_empty": "ঝুড়ি খালি",
     "extra_shipping_count": "আপনি {count}টি প্যাকেজ পাবেন।",
-    "select_location_error": "মানচিত্রে চালানের প্রাপ্তির স্থানটি খুঁজুন এবং প্রাপকের সঠিক ঠিকানা নির্ধারণ করতে মানচিত্রের মাঝখানে নির্দেশকটিতে ক্লিক করুন।"
+    "select_location_error": "মানচিত্রে চালানের প্রাপ্তির স্থানটি খুঁজুন এবং প্রাপকের সঠিক ঠিকানা নির্ধারণ করতে মানচিত্রের মাঝখানে নির্দেশকটিতে ক্লিক করুন।",
+    "same_billing_address_desc": "বিলিং ঠিকানা শিপিং ঠিকানা হিসাবে একই.",
+    "custom_billing_info_desc": "আপনি আপনার TAX নম্বর লিখতে পারেন এবং বিলিং এর জন্য একটি ভিন্ন ঠিকানা সেট করতে পারেন৷",
+    "billing_business_desc": "এটি একটি TAX নম্বর সহ একটি ব্যবসায়িক অ্যাকাউন্ট৷",
+    "billing_personal_desc": "এটি একটি ব্যক্তিগত অ্যাকাউন্ট।",
+    "no_billing_title": "কোনো বিলিং নেই",
+    "no_billing_desc": "বিলিং ঠিকানা খালি রাখুন।"
   },
   "basket_items": {
     "items_unit": "এক্স",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "বাহ্যিক আদেশ পুনরুদ্ধার করুন",
     "address_included": "শেয়ার ঝুড়ি আইটেম + ঠিকানা",
     "address_excluded": "শুধুমাত্র ঝুড়ি আইটেম শেয়ার করুন"
+  },
+  "variants_view": {
+    "prices": "দাম",
+    "inventory": "ইনভেন্টরি",
+    "discount": "ছাড়"
+  },
+  "rating": {
+    "product_rating_message": "এই পণ্যটি 5 স্টারের মধ্যে {rate} রেটিং পেয়েছে এবং {rate_count} জন লোক রেটিং দিয়েছে৷"
+  },
+  "related_products": {
+    "card": {
+      "title": "অন্বেষণ!",
+      "same_tags_subtitle": "আরো উল্লেখযোগ্য সম্পর্কিত আইটেম খুঁজুন.",
+      "same_category_subtitle": "এই বিভাগে আরো উল্লেখযোগ্য আইটেম খুঁজুন."
+    }
   }
 };

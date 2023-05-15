@@ -603,7 +603,34 @@ export default {
     "deleted": "Выдалены",
     "variant": "Варыянт",
     "secure": "Бяспечны",
-    "admin": "Адмін"
+    "admin": "Адмін",
+    "tax_included_abstract": "укл.",
+    "payment_not_settled": "Аплата не праведзена!",
+    "orders_list": "Спіс заказаў",
+    "subscription_plan": "План падпіскі",
+    "contents": "Змест",
+    "pricings": "Цэны",
+    "static_page": "Статычная старонка",
+    "shop_button": "Кнопка крамы",
+    "embed": "Ўстаўляць",
+    "over": "Скончана",
+    "tax_vary_by_location": "вар'іравацца. размяшчэнне",
+    "product_type": "Тып прадукту",
+    "tax_id": "ІНН",
+    "business_name": "Назва фірмы",
+    "invoice": "Рахунак-фактура",
+    "included_in_the_product": "Уваходзіць у склад прадукту",
+    "included_in_the_product_description": "Прадукт ўключае ў сябе наступныя кампаненты",
+    "cross_sell": "Cross Sell",
+    "discount_off": "OFF",
+    "extra_discount": "Дадатковая зніжка",
+    "template": "Шаблон",
+    "in_cart": "У кошыку",
+    "pros_and_cons": "Плюсы і мінусы",
+    "related_products": "Спадарожныя тавары",
+    "related_categories": "Звязаныя катэгорыі",
+    "badges": "Значкі",
+    "explore": "Даследуйце"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Рэгенераваць",
     "add_message": "Дадаць паведамленне",
     "continue_chat": "Працягнуць чат",
-    "add_new_message": "Дадаць новае паведамленне"
+    "add_new_message": "Дадаць новае паведамленне",
+    "change_setting": "Змяніць наладу",
+    "delete_all": "Выдаліць усе",
+    "transfer_fund": "Трансфертны фонд",
+    "reverse_fund": "Зваротны фонд",
+    "settlement": "Паселішча",
+    "refund": "Вяртанне грошай",
+    "partial_refund": "Частковае вяртанне грошай",
+    "change_payment_method": "Змяніць спосаб аплаты",
+    "buy": "Купіць",
+    "view_all": "Прагледзець усе",
+    "view_now": "Праглядзіце зараз"
   },
   "instance_message_title": "Адправіць імгненнае паведамленне",
   "instance_message": "Прывітанне, {name}, мяне завуць {author} з {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Вечназялёныя",
     "#214C30": "Лес",
     "#DC2867": "Фуксія",
-    "#38561F" :"Кэлі",
+    "#38561F": "Кэлі",
     "#5C884D": "Лісток",
     "#558450": "Светлая аква",
     "#96B5C9": "Светлаблакітны",
@@ -951,7 +989,9 @@ export default {
     "file": "Файл",
     "file_description": "Усе дазволеныя файлы, такія як відэа онлайн-курса, дакументы для запампоўкі.",
     "service": "Абслугоўванне",
-    "service_description": "Такія паслугі, як: рамонт, транспарт, навучанне."
+    "service_description": "Такія паслугі, як: рамонт, транспарт, навучанне.",
+    "subscription": "Падпіска",
+    "subscription_description": "Падпіскі і выстаўленне рахункаў за прадукты, паслугі або кантэнт."
   },
   "license": {
     "free": "Бясплатна",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Першы пост",
     "comment_at": "На",
-    "edit_comment": "Рэдагаваць каментар"
+    "edit_comment": "Рэдагаваць каментар",
+    "my_comments": "Мае каментарыі"
   },
   "customer_club": {
     "bronze": "Бронзавы",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Код верыфікацыі",
     "msg_title": "прывітанне,",
     "msg_body": "Калі ласка, увайдзіце. Гэта займае ўсяго некалькі секунд.",
-    "login_apple": "Уваход праз Apple"
+    "login_apple": "Уваход праз Apple",
+    "login_email": "Уваход па электроннай пошце",
+    "email_login_step_1": "Увядзіце сапраўдны адрас электроннай пошты, і мы вышлем на яго код для ўваходу. Рэгістрацыя не патрабуецца.",
+    "email_login_step_2": "Вы ўпэўнены, што ўвялі свой адрас электроннай пошты правільна? Мы вышлем код для ўваходу на ўказаны адрас электроннай пошты, таму пераканайцеся, што ён дакладны.",
+    "email_login_step_3": "Мы адправілі код на вашу электронную пошту. Звярніце ўвагу, што тэрмін дзеяння кода скончыцца праз 10 хвілін."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Захаваць паведамленне",
     "notifications": {
       "success": "Вашы ўваходныя даныя былі захаваны."
-    }
+    },
+    "product_inputs_preview_message": "Гэтыя параметры налады даступныя для замоўленага прадукту. Пасля таго, як тавар будзе дададзены ў ваш кошык, вы зможаце ўнесці тут карэктывы."
   },
   "faq": {
     "faq": "Частыя пытанні",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Цяжка",
     "intermediate": "Сярэдні",
     "easy": "лёгка"
+  },
+  "billing_period": {
+    "Daily": "Штодня",
+    "Weekly": "Штотыдзень",
+    "Monthly": "Штомесяц",
+    "Every3Months": "Кожныя 3 месяцы",
+    "Every6Months": "Кожныя 6 месяцаў",
+    "Yearly": "Штогод"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Ох нядобра!",
+    "between2_3": "Добра!",
+    "between3_4": "Людзям падабаецца!",
+    "between4_5": "Людзі любяць гэта!"
   }
 };

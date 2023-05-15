@@ -603,7 +603,34 @@ export default {
     "deleted": "silindi",
     "variant": "varyant",
     "secure": "Güvenli",
-    "admin": "yönetici"
+    "admin": "yönetici",
+    "tax_included_abstract": "dahil",
+    "payment_not_settled": "Ödeme yapılmadı!",
+    "orders_list": "sipariş listesi",
+    "subscription_plan": "Abonelik planı",
+    "contents": "İçindekiler",
+    "pricings": "fiyatlar",
+    "static_page": "statik sayfa",
+    "shop_button": "Mağaza Düğmesi",
+    "embed": "Göm",
+    "over": "Üzerinde",
+    "tax_vary_by_location": "çeşitli. konum",
+    "product_type": "Ürün tipi",
+    "tax_id": "Vergi numarası",
+    "business_name": "İş adı",
+    "invoice": "Fatura",
+    "included_in_the_product": "ürüne dahildir",
+    "included_in_the_product_description": "Ürün aşağıdaki bileşenleri içerir",
+    "cross_sell": "Çapraz satış",
+    "discount_off": "OFF",
+    "extra_discount": "Ekstra İndirim",
+    "template": "Şablon",
+    "in_cart": "Sepetinde",
+    "pros_and_cons": "Lehte ve aleyhte olanlar",
+    "related_products": "ilgili ürünler",
+    "related_categories": "İlgili Kategoriler",
+    "badges": "Rozetler",
+    "explore": "Keşfetmek"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "yeniden oluştur",
     "add_message": "Mesaj ekle",
     "continue_chat": "Sohbet Devam",
-    "add_new_message": "Yeni mesaj ekle"
+    "add_new_message": "Yeni mesaj ekle",
+    "change_setting": "Ayarları değiştir",
+    "delete_all": "Hepsini sil",
+    "transfer_fund": "transfer fonu",
+    "reverse_fund": "ters fon",
+    "settlement": "Yerleşme",
+    "refund": "Geri ödemek",
+    "partial_refund": "Kısmi iade",
+    "change_payment_method": "Ödeme yöntemini değiştir",
+    "buy": "Satın almak",
+    "view_all": "Hepsini gör",
+    "view_now": "Şimdi Görüntüle"
   },
   "instance_message_title": "Anlık mesaj gönder",
   "instance_message": "Merhaba {name}, Benim adım {author} şirketinden {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "dökmeyen",
     "#214C30": "Orman",
     "#DC2867": "Fuşya",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Yaprak",
     "#558450": "Hafif Su",
     "#96B5C9": "Açık mavi",
@@ -951,7 +989,9 @@ export default {
     "file": "Dosya",
     "file_description": "Çevrimiçi kurs videosu, indirilebilir belgeler gibi izin verilen tüm dosyalar.",
     "service": "Hizmet",
-    "service_description": "Hizmetler: onarım, ulaşım, öğretim."
+    "service_description": "Hizmetler: onarım, ulaşım, öğretim.",
+    "subscription": "abonelik",
+    "subscription_description": "Ürünler, hizmetler veya içerikler için abonelikler ve faturalandırma."
   },
   "license": {
     "free": "Özgür",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "İlk gönderi",
     "comment_at": "Açık",
-    "edit_comment": "Yorumu Düzenle"
+    "edit_comment": "Yorumu Düzenle",
+    "my_comments": "Yorumlarım"
   },
   "customer_club": {
     "bronze": "Bronz",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Doğrulama kodu",
     "msg_title": "Merhaba,",
     "msg_body": "Lütfen giriş yapın. Sadece birkaç saniye sürer.",
-    "login_apple": "Apple ile giriş yapın"
+    "login_apple": "Apple ile giriş yapın",
+    "login_email": "E-posta ile Giriş",
+    "email_login_step_1": "Lütfen geçerli bir e-posta adresi girin, giriş kodunu ona göndereceğiz. Kayıt gerekli değildir.",
+    "email_login_step_2": "E-posta adresinizi doğru girdiğinizden emin misiniz? Giriş kodunu sağlanan e-postaya göndereceğiz, bu yüzden lütfen doğruluğundan emin olun.",
+    "email_login_step_3": "E-postanıza bir kod gönderdik. Lütfen kodun süresinin 10 dakika içinde dolacağını unutmayın."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Mesajı Kaydet",
     "notifications": {
       "success": "Giriş verileriniz kaydedildi."
-    }
+    },
+    "product_inputs_preview_message": "Bu özelleştirme seçenekleri, sipariş ettiğiniz ürün için mevcuttur. Ürün sepetinize eklendikten sonra, burada ayarlamalar yapabileceksiniz."
   },
   "faq": {
     "faq": "Sıkça Sorulan Sorular",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Sert",
     "intermediate": "Orta düzey",
     "easy": "Kolay"
+  },
+  "billing_period": {
+    "Daily": "Günlük",
+    "Weekly": "Haftalık",
+    "Monthly": "Aylık",
+    "Every3Months": "Her 3 ay",
+    "Every6Months": "6 ayda bir",
+    "Yearly": "Yıllık"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Ah iyi değil!",
+    "between2_3": "Önemli değil!",
+    "between3_4": "İnsanlar bundan hoşlanıyor!",
+    "between4_5": "İnsanlar onu seviyor!"
   }
 };

@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity} ဝယ်ပါ ဤပစ္စည်းများအတွက် {percent}% လျှော့စျေး ရယူလိုက်ပါ။",
     "up_to": "မှာယူမှုတစ်ခုလျှင် {per_order}x အထိ",
     "get_free": "အခမဲ့ရယူပါ။",
-    "get_off": "{percent}% OFF ရယူပါ။"
+    "get_off": "{percent}% OFF ရယူပါ။",
+    "select_a_vendor_message": "ကျေးဇူးပြု၍ ရောင်းချသူကို ရွေးချယ်ပါ။",
+    "product_description_header": "{product} ကို မိတ်ဆက်ခြင်း"
   },
   "buy_button": {
     "waiting_for_availability": "ရရှိနိုင်မှုကို စောင့်နေသည်။",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "ရနိုင်သည့်အခါတွင် ကျွန်ုပ်တို့ သင့်အား အသိပေးပါမည်။",
       "inform_remove_success": "သင့်ကို စောင့်ဆိုင်းစာရင်းမှ ဖယ်ရှားလိုက်ပါပြီ။"
-    }
+    },
+    "subscribe_now": "အခုပဲစာရင်းသွင်းလိုက်ပါတော့",
+    "unsubscribe": "စာရင်းမှဖြုတ်ပါ။",
+    "select_a_subscription_plan": "အစီအစဉ်တစ်ခုကို ဦးစွာရွေးချယ်ပါ။",
+    "manage_subscriptions": "စာရင်းသွင်းမှုများကို စီမံပါ။"
   },
   "product": {
     "review": "သုံးသပ်ချက်",
@@ -109,7 +115,8 @@ export default {
     "warranty": "အာမခံ",
     "return_policy": "ပြန်လည်ပေးပို့ခြင်းဆိုင်ရာမူဝါဒ",
     "guide": "လမ်းညွှန်",
-    "shipping": "သင်္ဘောဖြင့်ကုန်ပစ္စည်းပို့ခြင်း"
+    "shipping": "သင်္ဘောဖြင့်ကုန်ပစ္စည်းပို့ခြင်း",
+    "related_categories_title": "စုစည်းမှုများတွင် ရှာဖွေပါ။"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "စုစုပေါင်းပစ္စည်းများစျေးနှုန်း",
       "total_items_discount": "လျှော့စျေး",
       "total_price_after_offers": "ကမ်းလှမ်းချက်များကို လျှောက်ထားပြီးနောက် စုစုပေါင်း",
-      "buyer_payment": "ဝယ်သူငွေပေးချေမှုပမာဏ"
+      "buyer_payment": "ဝယ်သူငွေပေးချေမှုပမာဏ",
+      "total_order_price_before_tax": "ကြိုတင်အခွန်စုစုပေါင်းစျေးနှုန်း"
     },
     "delivery": {
       "title": "ပေးပို့ခြင်း။",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "မတူညီသော ငွေပေးချေမှုအချက်အလက်",
     "basket_empty": "တောင်းသည် ဗလာ",
     "extra_shipping_count": "သင်သည် ပက်ကေ့ဂျ် {count} ခုကို လက်ခံရရှိပါမည်။",
-    "select_location_error": "မြေပုံပေါ်ရှိ ပို့ဆောင်မှုလက်ခံရရှိမည့်နေရာကို ရှာပြီး လက်ခံသူ၏လိပ်စာအတိအကျကို ဆုံးဖြတ်ရန် မြေပုံအလယ်ရှိ အညွှန်းကို နှိပ်ပါ။"
+    "select_location_error": "မြေပုံပေါ်ရှိ ပို့ဆောင်မှုလက်ခံရရှိမည့်နေရာကို ရှာပြီး လက်ခံသူ၏လိပ်စာအတိအကျကို ဆုံးဖြတ်ရန် မြေပုံအလယ်ရှိ အညွှန်းကို နှိပ်ပါ။",
+    "same_billing_address_desc": "ငွေပေးချေရမည့်လိပ်စာသည် ပို့ဆောင်ရေးလိပ်စာနှင့် အတူတူပင်ဖြစ်ပါသည်။",
+    "custom_billing_info_desc": "သင်သည် သင်၏ TAX နံပါတ်ကို ထည့်သွင်းပြီး ငွေတောင်းခံခြင်းအတွက် မတူညီသောလိပ်စာကို သတ်မှတ်နိုင်သည်။",
+    "billing_business_desc": "၎င်းသည် အခွန်နံပါတ်တစ်ခုပါသည့် လုပ်ငန်းအကောင့်တစ်ခုဖြစ်သည်။",
+    "billing_personal_desc": "၎င်းသည် ကိုယ်ပိုင်အကောင့်တစ်ခုဖြစ်သည်။",
+    "no_billing_title": "ငွေတောင်းခံခြင်း မရှိပါ။",
+    "no_billing_desc": "ငွေတောင်းခံလွှာလိပ်စာကို ဗလာချန်ထားပါ။"
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "ပြင်ပအမိန့်ကို ရယူပါ။",
     "address_included": "ခြင်းတောင်းပစ္စည်းများ + လိပ်စာကို မျှဝေပါ။",
     "address_excluded": "ခြင်းတောင်းပစ္စည်းများကိုသာ မျှဝေပါ။"
+  },
+  "variants_view": {
+    "prices": "စျေးနှုန်းများ",
+    "inventory": "စာရင်း",
+    "discount": "လျှော့စျေး"
+  },
+  "rating": {
+    "product_rating_message": "ဤထုတ်ကုန်သည် ကြယ် 5 ပွင့်မှ {rate} အဆင့်သတ်မှတ်ခြင်းကို လက်ခံရရှိပြီး လူ {rate_count} ဦးဖြင့် အဆင့်သတ်မှတ်ထားသည်။"
+  },
+  "related_products": {
+    "card": {
+      "title": "စူးစမ်းပါ။",
+      "same_tags_subtitle": "ပိုမိုထူးခြားသော ဆက်စပ်ပစ္စည်းများကို ရှာဖွေပါ။",
+      "same_category_subtitle": "ဤအမျိုးအစားတွင် ပိုမိုထူးခြားသော အရာများကို ရှာဖွေပါ။"
+    }
   }
 };

@@ -603,7 +603,34 @@ export default {
     "deleted": "මකා දමන ලදී",
     "variant": "ප්රභේදය",
     "secure": "ආරක්ෂිතයි",
-    "admin": "පරිපාලක"
+    "admin": "පරිපාලක",
+    "tax_included_abstract": "ඇතුළු",
+    "payment_not_settled": "ගෙවීම් පියවා නැත!",
+    "orders_list": "ඇණවුම් ලැයිස්තුව",
+    "subscription_plan": "දායක සැලැස්ම",
+    "contents": "අන්තර්ගතය",
+    "pricings": "මිල ගණන්",
+    "static_page": "ස්ථිතික පිටුව",
+    "shop_button": "සාප්පු බොත්තම",
+    "embed": "Embed",
+    "over": "ඉවරයි",
+    "tax_vary_by_location": "වෙනස් වේ. ස්ථානය",
+    "product_type": "නිෂ්පාදන වර්ගය",
+    "tax_id": "බදු හැඳුනුම්පත",
+    "business_name": "ව්යාපාරික නාමය",
+    "invoice": "ඉන්වොයිසිය",
+    "included_in_the_product": "නිෂ්පාදනයේ ඇතුළත් වේ",
+    "included_in_the_product_description": "නිෂ්පාදනයට පහත සඳහන් සංරචක ඇතුළත් වේ",
+    "cross_sell": "හරස් විකිණීම",
+    "discount_off": "OFF",
+    "extra_discount": "අමතර වට්ටම්",
+    "template": "සැකිල්ල",
+    "in_cart": "කරත්තයේ",
+    "pros_and_cons": "වාසි සහ අවාසි",
+    "related_products": "ආශ්රිත නිෂ්පාදන",
+    "related_categories": "අදාළ කාණ්ඩ",
+    "badges": "ලාංඡන",
+    "explore": "ගවේෂණය කරන්න"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "නැවත උත්පාදනය කරන්න",
     "add_message": "පණිවිඩය එක් කරන්න",
     "continue_chat": "කතාබස් කරගෙන යන්න",
-    "add_new_message": "නව පණිවිඩයක් එක් කරන්න"
+    "add_new_message": "නව පණිවිඩයක් එක් කරන්න",
+    "change_setting": "සැකසුම වෙනස් කරන්න",
+    "delete_all": "සියල්ල මකන්න",
+    "transfer_fund": "අරමුදල් මාරු කිරීම",
+    "reverse_fund": "ප්රතිලෝම අරමුදල",
+    "settlement": "නිරවුල්",
+    "refund": "ආපසු ගෙවීම",
+    "partial_refund": "අර්ධ ආපසු ගෙවීම",
+    "change_payment_method": "ගෙවීමේ ක්‍රමය වෙනස් කරන්න",
+    "buy": "මිලදී ගන්න",
+    "view_all": "සියල්ල බලන්න",
+    "view_now": "දැන් බලන්න"
   },
   "instance_message_title": "ක්ෂණික පණිවිඩයක් යවන්න",
   "instance_message": "ආයුබෝවන් {name}, මගේ නම {author} {company} වෙතින්.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "සදාහරිත",
     "#214C30": "වන",
     "#DC2867": "Fuchsia",
-    "#38561F" :"කෙලී",
+    "#38561F": "කෙලී",
     "#5C884D": "කොළ",
     "#558450": "සැහැල්ලු ඇක්වා",
     "#96B5C9": "ලා නිල්",
@@ -951,7 +989,9 @@ export default {
     "file": "ගොනුව",
     "file_description": "සබැඳි පාඨමාලා වීඩියෝ, බාගත හැකි ලේඛන වැනි සියලුම අවසර ලත් ගොනු.",
     "service": "සේවය",
-    "service_description": "වැනි සේවාවන්: අලුත්වැඩියාව, ප්‍රවාහනය, ඉගැන්වීම."
+    "service_description": "වැනි සේවාවන්: අලුත්වැඩියාව, ප්‍රවාහනය, ඉගැන්වීම.",
+    "subscription": "දායකත්වය",
+    "subscription_description": "නිෂ්පාදන, සේවා, හෝ අන්තර්ගතය සඳහා දායකත්ව සහ ඉන්වොයිසි."
   },
   "license": {
     "free": "නිදහස්",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "පළමු පෝස්ට් එක",
     "comment_at": "මත",
-    "edit_comment": "අදහස සංස්කරණය කරන්න"
+    "edit_comment": "අදහස සංස්කරණය කරන්න",
+    "my_comments": "මගේ අදහස්"
   },
   "customer_club": {
     "bronze": "ලෝකඩ",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "සත්යාපන කේතය",
     "msg_title": "හායි,",
     "msg_body": "කරුණාකර පිවිසෙන්න. එය ගත වන්නේ තත්පර කිහිපයක් පමණි.",
-    "login_apple": "Apple සමඟ ලොග් වන්න"
+    "login_apple": "Apple සමඟ ලොග් වන්න",
+    "login_email": "විද්‍යුත් තැපෑලෙන් ලොග් වන්න",
+    "email_login_step_1": "කරුණාකර වලංගු විද්‍යුත් තැපැල් ලිපිනයක් සපයන්න, අපි එයට පිවිසුම් කේතය එවන්නෙමු. ලියාපදිංචිය අවශ්ය නොවේ.",
+    "email_login_step_2": "ඔබ ඔබේ විද්‍යුත් තැපැල් ලිපිනය නිවැරදිව ඇතුළත් කර ඇති බව ඔබට විශ්වාසද? අපි පිවිසුම් කේතය ලබා දී ඇති විද්‍යුත් තැපෑලට යවන්නෙමු, එබැවින් කරුණාකර එහි නිරවද්‍යතාවය සහතික කරන්න.",
+    "email_login_step_3": "අපි ඔබගේ විද්‍යුත් තැපෑලට කේතයක් එවා ඇත. කේතය විනාඩි 10 කින් කල් ඉකුත් වන බව කරුණාවෙන් සලකන්න."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "පණිවිඩය සුරකින්න",
     "notifications": {
       "success": "ඔබගේ ආදාන දත්ත සුරැකී ඇත."
-    }
+    },
+    "product_inputs_preview_message": "මෙම අභිරුචිකරණ විකල්ප ඔබගේ ඇනවුම් කරන ලද නිෂ්පාදනය සඳහා ලබා ගත හැකිය. අයිතමය ඔබේ කරත්තයට එක් කළ පසු, ඔබට මෙහි ගැලපීම් කිරීමට හැකි වනු ඇත."
   },
   "faq": {
     "faq": "නිතර අසන ප්රශ්න",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "අමාරුයි",
     "intermediate": "අතරමැදි",
     "easy": "පහසු"
+  },
+  "billing_period": {
+    "Daily": "දිනපතා",
+    "Weekly": "සතිපතා",
+    "Monthly": "මාසික",
+    "Every3Months": "සෑම මාස 3 කට වරක්",
+    "Every6Months": "සෑම මාස 6 කට වරක්",
+    "Yearly": "වාර්ෂිකව"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "අපොයි හොඳ නැහැ!",
+    "between2_3": "ඒකට කමක් නැහැ!",
+    "between3_4": "මිනිස්සු කැමතියි!",
+    "between4_5": "මිනිස්සු ඒකට ආදරෙයි!"
   }
 };

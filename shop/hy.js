@@ -81,7 +81,9 @@ export default {
     "offer_message": "Գնեք {min_quantity} Ստացեք {percent}% զեղչ այս ապրանքների համար",
     "up_to": "Յուրաքանչյուր պատվերի համար մինչև {per_order}x",
     "get_free": "ՍՏԱՆԱԼ ԱՆՎՃԱՐ",
-    "get_off": "ՍՏԱՆԱԼ {percent}% ԶԵՂՉ"
+    "get_off": "ՍՏԱՆԱԼ {percent}% ԶԵՂՉ",
+    "select_a_vendor_message": "Խնդրում ենք ընտրել վաճառող:",
+    "product_description_header": "Ներկայացնում ենք {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Սպասում է առկայությանը",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Մենք ձեզ կտեղեկացնենք, երբ այն հասանելի լինի:",
       "inform_remove_success": "Դուք հեռացվել եք սպասման ցուցակից։"
-    }
+    },
+    "subscribe_now": "Բաժանորդագրվեք հիմա",
+    "unsubscribe": "Չեղարկել բաժանորդագրությունը",
+    "select_a_subscription_plan": "Նախ ընտրեք պլան:",
+    "manage_subscriptions": "Կառավարեք բաժանորդագրությունները"
   },
   "product": {
     "review": "Վերանայում",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Երաշխիք",
     "return_policy": "Վերադարձի քաղաքականություն",
     "guide": "Ուղեցույց",
-    "shipping": "առաքում"
+    "shipping": "առաքում",
+    "related_categories_title": "Բացահայտեք հավաքածուներում"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Ապրանքների ընդհանուր արժեքը",
       "total_items_discount": "Ապրանքների զեղչ",
       "total_price_after_offers": "Ընդամենը առաջարկներ կիրառելուց հետո",
-      "buyer_payment": "Գնորդի վճարման գումարը"
+      "buyer_payment": "Գնորդի վճարման գումարը",
+      "total_order_price_before_tax": "Նախքան հարկը Ընդհանուր գինը"
     },
     "delivery": {
       "title": "Առաքում",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Տարբեր հաշվարկային տեղեկություններ",
     "basket_empty": "Զամբյուղը դատարկ է",
     "extra_shipping_count": "Դուք կստանաք {count} փաթեթ:",
-    "select_location_error": "Քարտեզի վրա գտեք բեռնափոխադրման ստացման վայրը և կտտացրեք քարտեզի մեջտեղում գտնվող ցուցիչը՝ ստացողի ճշգրիտ հասցեն որոշելու համար:"
+    "select_location_error": "Քարտեզի վրա գտեք բեռնափոխադրման ստացման վայրը և կտտացրեք քարտեզի մեջտեղում գտնվող ցուցիչը՝ ստացողի ճշգրիտ հասցեն որոշելու համար:",
+    "same_billing_address_desc": "Վճարման հասցեն նույնն է, ինչ առաքման հասցեն:",
+    "custom_billing_info_desc": "Դուք կարող եք մուտքագրել ձեր հարկային համարը և վճարման այլ հասցե սահմանել:",
+    "billing_business_desc": "Դա բիզնես հաշիվ է, որի համարը հարկային համար է:",
+    "billing_personal_desc": "Դա անձնական հաշիվ է:",
+    "no_billing_title": "Բիլինգ չկա",
+    "no_billing_desc": "Վճարման հասցեն դատարկ թողեք:"
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Առբերեք արտաքին պատվերը",
     "address_included": "Կիսվեք զամբյուղի իրերով + Հասցե",
     "address_excluded": "Կիսվեք միայն զամբյուղի իրերով"
+  },
+  "variants_view": {
+    "prices": "Գները",
+    "inventory": "Գույքագրում",
+    "discount": "Զեղչ"
+  },
+  "rating": {
+    "product_rating_message": "Այս ապրանքը ստացել է {rate} գնահատականը 5 աստղից և գնահատվել է {rate_count} հոգու կողմից:"
+  },
+  "related_products": {
+    "card": {
+      "title": "Բացահայտե՛ք",
+      "same_tags_subtitle": "Գտեք ավելի ուշագրավ հարակից իրեր:",
+      "same_category_subtitle": "Գտեք այս կատեգորիայի ավելի ուշագրավ իրեր:"
+    }
   }
 };

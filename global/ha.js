@@ -603,7 +603,34 @@ export default {
     "deleted": "An share",
     "variant": "Bambance-bambance",
     "secure": "Amintacce",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "hada da",
+    "payment_not_settled": "Biyan bai daidaita ba!",
+    "orders_list": "Jerin umarni",
+    "subscription_plan": "Shirin biyan kuɗi",
+    "contents": "Abubuwan da ke ciki",
+    "pricings": "Farashin farashi",
+    "static_page": "A tsaye shafi",
+    "shop_button": "Button kantin",
+    "embed": "Saka",
+    "over": "Ƙarshe",
+    "tax_vary_by_location": "bambanta. wuri",
+    "product_type": "Nau'in samfur",
+    "tax_id": "ID na haraji",
+    "business_name": "Sunan kasuwanci",
+    "invoice": "Daftari",
+    "included_in_the_product": "Kunshe a cikin samfurin",
+    "included_in_the_product_description": "Samfurin ya ƙunshi abubuwa masu zuwa",
+    "cross_sell": "Ketare Sell",
+    "discount_off": "OFF",
+    "extra_discount": "Ƙarin Rangwame",
+    "template": "Samfura",
+    "in_cart": "A cikin Cart",
+    "pros_and_cons": "Ribobi da Fursunoni",
+    "related_products": "Samfura masu dangantaka",
+    "related_categories": "Rukunin masu alaƙa",
+    "badges": "Baji",
+    "explore": "Bincika"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Sake haɓakawa",
     "add_message": "Ƙara sako",
     "continue_chat": "Ci gaba da hira",
-    "add_new_message": "Ƙara sabon saƙo"
+    "add_new_message": "Ƙara sabon saƙo",
+    "change_setting": "Canja saitin",
+    "delete_all": "Share Duk",
+    "transfer_fund": "Asusun canja wuri",
+    "reverse_fund": "Juya asusun",
+    "settlement": "Zaure",
+    "refund": "Maida kuɗi",
+    "partial_refund": "Maida Sashe na Kuɗi",
+    "change_payment_method": "Canja hanyar biyan kuɗi",
+    "buy": "Saya",
+    "view_all": "Duba Duk",
+    "view_now": "Duba Yanzu"
   },
   "instance_message_title": "Aika saƙon take",
   "instance_message": "Barka dai {name}, sunana {author} daga {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Daji",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Leaf",
     "#558450": "Haske Aqua",
     "#96B5C9": "Launi mai haske",
@@ -951,7 +989,9 @@ export default {
     "file": "Fayil",
     "file_description": "Duk fayilolin da aka halatta kamar bidiyo na kwas ɗin kan layi, takaddun da za a iya saukewa.",
     "service": "Sabis",
-    "service_description": "Ayyuka kamar: gyara, sufuri, koyarwa."
+    "service_description": "Ayyuka kamar: gyara, sufuri, koyarwa.",
+    "subscription": "Biyan kuɗi",
+    "subscription_description": "Biyan kuɗi da lissafin kuɗi don samfura, ayyuka, ko abun ciki."
   },
   "license": {
     "free": "Kyauta",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Rubutu na farko",
     "comment_at": "Kunna",
-    "edit_comment": "Gyara Sharhi"
+    "edit_comment": "Gyara Sharhi",
+    "my_comments": "Sharhi na"
   },
   "customer_club": {
     "bronze": "Tagulla",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Lambar tabbaci",
     "msg_title": "Sannu,",
     "msg_body": "Da fatan za a shiga Yana ɗaukar 'yan daƙiƙa kaɗan kawai.",
-    "login_apple": "Login tare da Apple"
+    "login_apple": "Login tare da Apple",
+    "login_email": "Shiga ta Imel",
+    "email_login_step_1": "Da fatan za a ba da ingantaccen adireshin imel, kuma za mu aika da lambar shiga gare ta. Babu rajista ya zama dole.",
+    "email_login_step_2": "Shin kun tabbata cewa kun shigar da adireshin imel ɗinku daidai? Za mu aika da lambar shiga zuwa imel ɗin da aka bayar, don haka da fatan za a tabbatar da daidaito.",
+    "email_login_step_3": "Mun aika da lamba zuwa imel ɗin ku. Lura cewa lambar zata ƙare a cikin mintuna 10."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Ajiye saƙo",
     "notifications": {
       "success": "An adana bayanan shigar ku."
-    }
+    },
+    "product_inputs_preview_message": "Ana samun waɗannan zaɓuɓɓukan keɓancewa don samfurin da aka umarce ku. Da zarar an ƙara abu a cikin keken ku, za ku iya yin gyare-gyare a nan."
   },
   "faq": {
     "faq": "Tambayoyin da ake yawan yi",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Mai wuya",
     "intermediate": "Matsakaici",
     "easy": "Sauƙi"
+  },
+  "billing_period": {
+    "Daily": "Kullum",
+    "Weekly": "mako-mako",
+    "Monthly": "kowane wata",
+    "Every3Months": "Duk wata 3",
+    "Every6Months": "Duk wata 6",
+    "Yearly": "kowace shekara"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oh ba kyau!",
+    "between2_3": "Ya yi!",
+    "between3_4": "Mutane suna son shi!",
+    "between4_5": "Mutane suna son shi!"
   }
 };

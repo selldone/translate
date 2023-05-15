@@ -603,7 +603,34 @@ export default {
     "deleted": "Wedi'i ddileu",
     "variant": "Amrywiad",
     "secure": "Diogel",
-    "admin": "Gweinyddol"
+    "admin": "Gweinyddol",
+    "tax_included_abstract": "gan gynnwys.",
+    "payment_not_settled": "Taliad heb ei setlo!",
+    "orders_list": "Rhestr archebion",
+    "subscription_plan": "Cynllun tanysgrifio",
+    "contents": "Cynnwys",
+    "pricings": "Prisiau",
+    "static_page": "Tudalen statig",
+    "shop_button": "Botwm Siop",
+    "embed": "Gwreiddio",
+    "over": "Drosodd",
+    "tax_vary_by_location": "amrywio. lleoliad",
+    "product_type": "Math o gynnyrch",
+    "tax_id": "ID Treth",
+    "business_name": "Enw busnes",
+    "invoice": "Anfoneb",
+    "included_in_the_product": "Wedi'i gynnwys yn y cynnyrch",
+    "included_in_the_product_description": "Mae'r cynnyrch yn cynnwys y cydrannau canlynol",
+    "cross_sell": "Gwerthu Croes",
+    "discount_off": "OFF",
+    "extra_discount": "Disgownt Ychwanegol",
+    "template": "Templed",
+    "in_cart": "Yn Cart",
+    "pros_and_cons": "Manteision ac Anfanteision",
+    "related_products": "Cynhyrchion Cysylltiedig",
+    "related_categories": "Categorïau Cysylltiedig",
+    "badges": "Bathodynnau",
+    "explore": "Archwiliwch"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Adfywio",
     "add_message": "Ychwanegu neges",
     "continue_chat": "Parhau i sgwrsio",
-    "add_new_message": "Ychwanegu neges newydd"
+    "add_new_message": "Ychwanegu neges newydd",
+    "change_setting": "Newid gosodiad",
+    "delete_all": "Dileu Pawb",
+    "transfer_fund": "Cronfa drosglwyddo",
+    "reverse_fund": "Cronfa wrthdroi",
+    "settlement": "Setliad",
+    "refund": "Ad-daliad",
+    "partial_refund": "Ad-daliad Rhannol",
+    "change_payment_method": "Newid y dull talu",
+    "buy": "Prynwch",
+    "view_all": "Gweld popeth",
+    "view_now": "Gweld Nawr"
   },
   "instance_message_title": "Anfon neges ar unwaith",
   "instance_message": "Helo {name}, Fy enw i yw {author} o {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Bythwyrdd",
     "#214C30": "Coedwig",
     "#DC2867": "Ffwsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Deilen",
     "#558450": "Aqua Ysgafn",
     "#96B5C9": "Glas golau",
@@ -951,7 +989,9 @@ export default {
     "file": "Ffeil",
     "file_description": "Pob ffeil a ganiateir fel fideo cwrs ar-lein, dogfennau y gellir eu lawrlwytho.",
     "service": "Gwasanaeth",
-    "service_description": "Gwasanaethau fel: atgyweirio, cludo, addysgu."
+    "service_description": "Gwasanaethau fel: atgyweirio, cludo, addysgu.",
+    "subscription": "Tanysgrifiad",
+    "subscription_description": "Tanysgrifiadau ac anfonebu ar gyfer cynhyrchion, gwasanaethau neu gynnwys."
   },
   "license": {
     "free": "Rhad ac am ddim",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Post cyntaf",
     "comment_at": "Ar",
-    "edit_comment": "Golygu Sylw"
+    "edit_comment": "Golygu Sylw",
+    "my_comments": "Fy Sylwadau"
   },
   "customer_club": {
     "bronze": "Efydd",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Cod dilysu",
     "msg_title": "Helo,",
     "msg_body": "Mewngofnodwch os gwelwch yn dda. Mae'n cymryd dim ond ychydig eiliadau.",
-    "login_apple": "Mewngofnodi gydag Apple"
+    "login_apple": "Mewngofnodi gydag Apple",
+    "login_email": "Mewngofnodi trwy E-bost",
+    "email_login_step_1": "Rhowch gyfeiriad e-bost dilys, a byddwn yn anfon y cod mewngofnodi iddo. Nid oes angen cofrestru.",
+    "email_login_step_2": "A ydych yn sicr eich bod wedi rhoi eich cyfeiriad e-bost yn gywir? Byddwn yn anfon y cod mewngofnodi i'r e-bost a ddarparwyd, felly sicrhewch ei fod yn gywir.",
+    "email_login_step_3": "Rydym wedi anfon cod i'ch e-bost. Sylwch y bydd y cod yn dod i ben mewn 10 munud."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Cadw Neges",
     "notifications": {
       "success": "Mae eich data mewnbwn wedi'i gadw."
-    }
+    },
+    "product_inputs_preview_message": "Mae'r opsiynau addasu hyn ar gael ar gyfer eich cynnyrch a archebwyd. Unwaith y bydd yr eitem yn cael ei hychwanegu at eich trol, byddwch yn gallu gwneud addasiadau yma."
   },
   "faq": {
     "faq": "Cwestiynau Cyffredin",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Caled",
     "intermediate": "Canolradd",
     "easy": "Hawdd"
+  },
+  "billing_period": {
+    "Daily": "Dyddiol",
+    "Weekly": "Wythnosol",
+    "Monthly": "Yn fisol",
+    "Every3Months": "Bob 3 mis",
+    "Every6Months": "Bob 6 mis",
+    "Yearly": "Yn flynyddol"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Och ddim yn dda!",
+    "between2_3": "Mae'n iawn!",
+    "between3_4": "Mae pobl yn ei hoffi!",
+    "between4_5": "Mae pobl wrth eu bodd!"
   }
 };

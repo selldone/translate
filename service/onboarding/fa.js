@@ -79,6 +79,8 @@ export default {
   partners: {
     title: "همکاری {name} با سلدان",
     subtitle: "در کمک به توسعه کسب و کارهای آنلاین.",
+    subtitle_official: "دوست شما در توسعه کسب و کارتان.",
+
     create_new_shop: "ساخت فروشگاه جدید",
     select_a_shop: "انتخاب فروشگاه",
     apply_deal_to: "اعمال قرارداد برای {shop}",

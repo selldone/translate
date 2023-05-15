@@ -603,7 +603,34 @@ export default {
     "deleted": "Izbrisano",
     "variant": "Varijanta",
     "secure": "Siguran",
-    "admin": "Administrator"
+    "admin": "Administrator",
+    "tax_included_abstract": "uklj.",
+    "payment_not_settled": "Plaćanje nije izvršeno!",
+    "orders_list": "Popis narudžbi",
+    "subscription_plan": "Plan pretplate",
+    "contents": "Sadržaj",
+    "pricings": "Cijene",
+    "static_page": "Statična stranica",
+    "shop_button": "Dugme za kupovinu",
+    "embed": "Ugraditi",
+    "over": "Nad",
+    "tax_vary_by_location": "varirati. mjesto",
+    "product_type": "Vrsta proizvoda",
+    "tax_id": "PDV ID",
+    "business_name": "Naziv tvrtke",
+    "invoice": "Dostavnica",
+    "included_in_the_product": "Uključeno u proizvod",
+    "included_in_the_product_description": "Proizvod uključuje sljedeće komponente",
+    "cross_sell": "Križna prodaja",
+    "discount_off": "OFF",
+    "extra_discount": "Dodatni popust",
+    "template": "Predložak",
+    "in_cart": "U košarici",
+    "pros_and_cons": "Za i protiv",
+    "related_products": "Povezani proizvodi",
+    "related_categories": "Povezane kategorije",
+    "badges": "Značke",
+    "explore": "Istražiti"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Regenerirati",
     "add_message": "Dodaj poruku",
     "continue_chat": "Nastavi razgovor",
-    "add_new_message": "Dodaj novu poruku"
+    "add_new_message": "Dodaj novu poruku",
+    "change_setting": "Promjena postavke",
+    "delete_all": "Izbrisati sve",
+    "transfer_fund": "Prijenosni fond",
+    "reverse_fund": "Obrnuti fond",
+    "settlement": "Naselje",
+    "refund": "Povrat novca",
+    "partial_refund": "Djelomični povrat novca",
+    "change_payment_method": "Promjena načina plaćanja",
+    "buy": "Kupiti",
+    "view_all": "Pogledaj sve",
+    "view_now": "Pogledaj sada"
   },
   "instance_message_title": "Pošaljite trenutnu poruku",
   "instance_message": "Pozdrav {name}, ja sam {author} iz {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Zimzelen",
     "#214C30": "Šuma",
     "#DC2867": "Fuksija",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "List",
     "#558450": "Lagana voda",
     "#96B5C9": "Svijetlo plava",
@@ -951,7 +989,9 @@ export default {
     "file": "Datoteka",
     "file_description": "Sve dopuštene datoteke kao što su video o online tečaju, dokumenti za preuzimanje.",
     "service": "Servis",
-    "service_description": "Usluge kao što su: popravak, prijevoz, podučavanje."
+    "service_description": "Usluge kao što su: popravak, prijevoz, podučavanje.",
+    "subscription": "Pretplata",
+    "subscription_description": "Pretplate i fakturiranje za proizvode, usluge ili sadržaje."
   },
   "license": {
     "free": "Besplatno",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Prvi post",
     "comment_at": "Na",
-    "edit_comment": "Uredi komentar"
+    "edit_comment": "Uredi komentar",
+    "my_comments": "Moji komentari"
   },
   "customer_club": {
     "bronze": "brončani",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Verifikacijski kod",
     "msg_title": "Bok,",
     "msg_body": "Molimo prijavite se. Potrebno je samo nekoliko sekundi.",
-    "login_apple": "Prijavite se s Appleom"
+    "login_apple": "Prijavite se s Appleom",
+    "login_email": "Prijava putem e-pošte",
+    "email_login_step_1": "Navedite važeću adresu e-pošte, a mi ćemo na nju poslati kod za prijavu. Nije potrebna registracija.",
+    "email_login_step_2": "Jeste li sigurni da ste ispravno unijeli svoju adresu e-pošte? Poslat ćemo šifru za prijavu na navedenu e-poštu, pa molimo provjerite njegovu točnost.",
+    "email_login_step_3": "Poslali smo kod na vaš e-mail. Imajte na umu da će kôd isteći za 10 minuta."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Spremi poruku",
     "notifications": {
       "success": "Vaši ulazni podaci su spremljeni."
-    }
+    },
+    "product_inputs_preview_message": "Ove mogućnosti prilagodbe dostupne su za vaš naručeni proizvod. Nakon što je artikl dodan u vašu košaricu, ovdje ćete moći napraviti prilagodbe."
   },
   "faq": {
     "faq": "Često postavljana pitanja",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "teško",
     "intermediate": "Srednji",
     "easy": "Lako"
+  },
+  "billing_period": {
+    "Daily": "Dnevno",
+    "Weekly": "Tjedni",
+    "Monthly": "Mjesečno",
+    "Every3Months": "Svaka 3 mjeseca",
+    "Every6Months": "Svakih 6 mjeseci",
+    "Yearly": "Godišnje"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "O, nije dobro!",
+    "between2_3": "U redu je!",
+    "between3_4": "Ljudima se sviđa!",
+    "between4_5": "Ljudi to vole!"
   }
 };

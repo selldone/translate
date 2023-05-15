@@ -81,7 +81,9 @@ export default {
     "offer_message": "بۇ تۈرلەر ئۈچۈن {min_quantity}% {ئېتىبار قىلىڭ",
     "up_to": "ھەر بىر تەرتىپ بويىچە {per_order} x غىچە",
     "get_free": "ھەقسىز",
-    "get_off": "GET {percent}% OFF"
+    "get_off": "GET {percent}% OFF",
+    "select_a_vendor_message": "ساتقۇچىنى تاللاڭ.",
+    "product_description_header": "تونۇشتۇرۇش {product}"
   },
   "buy_button": {
     "waiting_for_availability": "مەۋجۇتلۇقىنى ساقلاش",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "قاچان بولىدىغانلىقىنى سىزگە ئېيتىپ بېرىمىز.",
       "inform_remove_success": "ساقلاش تىزىملىكىدىن ئۆچۈرۈلدىڭىز."
-    }
+    },
+    "subscribe_now": "ھازىر مۇشتەرى بولۇڭ",
+    "unsubscribe": "مۇشتەرى بولۇش",
+    "select_a_subscription_plan": "ئالدى بىلەن پىلاننى تاللاڭ!",
+    "manage_subscriptions": "مۇشتەرىلىكنى باشقۇرۇش"
   },
   "product": {
     "review": "Review",
@@ -109,7 +115,8 @@ export default {
     "warranty": "كېپىللىك",
     "return_policy": "قايتىش سىياسىتى",
     "guide": "يېتەكچى",
-    "shipping": "توشۇش"
+    "shipping": "توشۇش",
+    "related_categories_title": "توپلاملاردا بايقاش"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "ئومۇمىي تۈر باھاسى",
       "total_items_discount": "تۈرلەر ئېتىبار قىلىنىدۇ",
       "total_price_after_offers": "تەكلىپلەرنى ئىلتىماس قىلغاندىن كېيىنكى ئومۇمىي",
-      "buyer_payment": "سېتىۋالغۇچىنىڭ پۇل تۆلەش سوممىسى"
+      "buyer_payment": "سېتىۋالغۇچىنىڭ پۇل تۆلەش سوممىسى",
+      "total_order_price_before_tax": "باجدىن بۇرۇنقى ئومۇمىي باھا"
     },
     "delivery": {
       "title": "يەتكۈزۈش",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "ئوخشىمىغان ھېسابات ئۇچۇرلىرى",
     "basket_empty": "سېۋەت قۇرۇق",
     "extra_shipping_count": "سىز {count} بوغچىسىنى تاپشۇرۇۋالىسىز.",
-    "select_location_error": "خەرىتە مال تاپشۇرۇۋالغان جاينى تېپىپ ، خەرىتىنىڭ ئوتتۇرىسىدىكى كۆرسەتكۈچنى چېكىپ ، تاپشۇرۇۋالغۇچىنىڭ ئېنىق ئادرېسىنى ئېنىقلاڭ."
+    "select_location_error": "خەرىتە مال تاپشۇرۇۋالغان جاينى تېپىپ ، خەرىتىنىڭ ئوتتۇرىسىدىكى كۆرسەتكۈچنى چېكىپ ، تاپشۇرۇۋالغۇچىنىڭ ئېنىق ئادرېسىنى ئېنىقلاڭ.",
+    "same_billing_address_desc": "چىقىم قىلىش ئادرېسى توشۇش ئادرېسى بىلەن ئوخشاش.",
+    "custom_billing_info_desc": "TAX نومۇرىڭىزنى كىرگۈزۈپ ، ھېسابات قىلىش ئۈچۈن باشقا ئادرېس بەلگىلىيەلەيسىز.",
+    "billing_business_desc": "ئۇ TAX نومۇرى بار سودا ھېساباتى.",
+    "billing_personal_desc": "بۇ شەخسىي ھېسابات.",
+    "no_billing_title": "تالون يوق",
+    "no_billing_desc": "ھېسابات ئادرېسىنى بوش قويۇڭ."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "تاشقى تەرتىپنى ئېلىڭ",
     "address_included": "سېۋەت تۈرلىرىنى ئورتاقلىشىش + ئادرېس",
     "address_excluded": "سېۋەت تۈرلىرىنىلا ھەمبەھىرلەڭ"
+  },
+  "variants_view": {
+    "prices": "باھاسى",
+    "inventory": "كەشپىيات",
+    "discount": "ئېتىبار"
+  },
+  "rating": {
+    "product_rating_message": "بۇ مەھسۇلات 5 يۇلتۇز ئىچىدىن {rate} دەرىجىسىگە ئېرىشتى ۋە {rate_count} كىشىلەر تەرىپىدىن باھالاندى."
+  },
+  "related_products": {
+    "card": {
+      "title": "ئىزدىنىش!",
+      "same_tags_subtitle": "تېخىمۇ كۆرۈنەرلىك مۇناسىۋەتلىك تۈرلەرنى تېپىڭ.",
+      "same_category_subtitle": "بۇ تۈردىكى تېخىمۇ كۆرۈنەرلىك تۈرلەرنى تېپىڭ."
+    }
   }
 };

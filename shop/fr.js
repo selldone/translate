@@ -81,7 +81,9 @@ export default {
     "offer_message": "Achetez {min_quantity} et obtenez {percent} % de réduction sur ces articles",
     "up_to": "Jusqu'à {per_order}x par commande",
     "get_free": "OBTENEZ GRATUITEMENT",
-    "get_off": "OBTENEZ {percent} % DE RÉDUCTION"
+    "get_off": "OBTENEZ {percent} % DE RÉDUCTION",
+    "select_a_vendor_message": "Veuillez sélectionner un fournisseur.",
+    "product_description_header": "Présentation de {product}"
   },
   "buy_button": {
     "waiting_for_availability": "En attente de disponibilité",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Nous vous ferons savoir quand il sera disponible.",
       "inform_remove_success": "Vous avez été retiré de la liste d'attente."
-    }
+    },
+    "subscribe_now": "Abonnez-vous maintenant",
+    "unsubscribe": "Se désabonner",
+    "select_a_subscription_plan": "Sélectionnez d'abord un plan !",
+    "manage_subscriptions": "Gérer les abonnements"
   },
   "product": {
     "review": "La revue",
@@ -109,7 +115,8 @@ export default {
     "warranty": "garantie",
     "return_policy": "Politique de retour",
     "guide": "Guide",
-    "shipping": "Expédition"
+    "shipping": "Expédition",
+    "related_categories_title": "Découvrir dans les collections"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Prix total des articles",
       "total_items_discount": "Rabais sur les articles",
       "total_price_after_offers": "Total après application des offres",
-      "buyer_payment": "Montant du paiement de l'acheteur"
+      "buyer_payment": "Montant du paiement de l'acheteur",
+      "total_order_price_before_tax": "Prix total hors taxe"
     },
     "delivery": {
       "title": "Livraison",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Informations de facturation différentes",
     "basket_empty": "Le panier est vide",
     "extra_shipping_count": "Vous recevrez {count} colis.",
-    "select_location_error": "Trouvez le lieu de réception de l'envoi sur la carte et cliquez sur l'indicateur au milieu de la carte pour déterminer l'adresse exacte du destinataire."
+    "select_location_error": "Trouvez le lieu de réception de l'envoi sur la carte et cliquez sur l'indicateur au milieu de la carte pour déterminer l'adresse exacte du destinataire.",
+    "same_billing_address_desc": "L'adresse de facturation est la même que l'adresse de livraison.",
+    "custom_billing_info_desc": "Vous pouvez entrer votre numéro de taxe et définir une adresse différente pour la facturation.",
+    "billing_business_desc": "Il s'agit d'un compte professionnel avec un numéro fiscal.",
+    "billing_personal_desc": "C'est un compte personnel.",
+    "no_billing_title": "Pas de facturation",
+    "no_billing_desc": "Laissez l'adresse de facturation vide."
   },
   "basket_items": {
     "items_unit": "X",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Récupérer la commande externe",
     "address_included": "Partager les articles du panier + Adresse",
     "address_excluded": "Partager uniquement les articles du panier"
+  },
+  "variants_view": {
+    "prices": "Des prix",
+    "inventory": "Inventaire",
+    "discount": "Remise"
+  },
+  "rating": {
+    "product_rating_message": "Ce produit a reçu une note de {rate} sur 5 étoiles et évalué par {rate_count} personnes."
+  },
+  "related_products": {
+    "card": {
+      "title": "Explorer!",
+      "same_tags_subtitle": "Trouvez des articles connexes plus remarquables.",
+      "same_category_subtitle": "Trouvez des articles plus remarquables dans cette catégorie."
+    }
   }
 };

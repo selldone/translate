@@ -603,7 +603,34 @@ export default {
     "deleted": "Izdzēsts",
     "variant": "Variants",
     "secure": "Droši",
-    "admin": "Administrators"
+    "admin": "Administrators",
+    "tax_included_abstract": "t.sk.",
+    "payment_not_settled": "Maksājums nav nokārtots!",
+    "orders_list": "Pasūtījumu saraksts",
+    "subscription_plan": "Abonēšanas plāns",
+    "contents": "Saturs",
+    "pricings": "Cenas",
+    "static_page": "Statiska lapa",
+    "shop_button": "Poga Veikals",
+    "embed": "Iegult",
+    "over": "Beigās",
+    "tax_vary_by_location": "variēt. atrašanās vieta",
+    "product_type": "Produkta veids",
+    "tax_id": "Nodokļu ID",
+    "business_name": "Uzņēmuma nosaukums",
+    "invoice": "Rēķins",
+    "included_in_the_product": "Iekļauts produktā",
+    "included_in_the_product_description": "Produkts ietver šādas sastāvdaļas",
+    "cross_sell": "Pārdod krustu",
+    "discount_off": "OFF",
+    "extra_discount": "Papildu atlaide",
+    "template": "Veidne",
+    "in_cart": "Grozā",
+    "pros_and_cons": "Plusi un mīnusi",
+    "related_products": "Saistītie produkti",
+    "related_categories": "Saistītās kategorijas",
+    "badges": "Nozīmītes",
+    "explore": "Izpētīt"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Atjaunot",
     "add_message": "Pievienot ziņojumu",
     "continue_chat": "Turpināt tērzēšanu",
-    "add_new_message": "Pievienot jaunu ziņojumu"
+    "add_new_message": "Pievienot jaunu ziņojumu",
+    "change_setting": "Mainiet iestatījumu",
+    "delete_all": "Dzēst visus",
+    "transfer_fund": "Pārskaitījuma fonds",
+    "reverse_fund": "Reversais fonds",
+    "settlement": "Norēķins",
+    "refund": "Atmaksa",
+    "partial_refund": "Daļēja atmaksa",
+    "change_payment_method": "Mainiet maksājuma veidu",
+    "buy": "Pirkt",
+    "view_all": "Apskati visus",
+    "view_now": "Skatīt tūlīt"
   },
   "instance_message_title": "Nosūtiet tūlītējo ziņojumu",
   "instance_message": "Sveiki, {name}! Mani sauc {author} no {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Mūžzaļš",
     "#214C30": "Mežs",
     "#DC2867": "Fuksija",
-    "#38561F" :"Kellija",
+    "#38561F": "Kellija",
     "#5C884D": "Lapa",
     "#558450": "Gaišs Aqua",
     "#96B5C9": "Gaiši zils",
@@ -951,7 +989,9 @@ export default {
     "file": "Fails",
     "file_description": "Visi atļautie faili, piemēram, tiešsaistes kursu video, lejupielādējami dokumenti.",
     "service": "apkalpošana",
-    "service_description": "Pakalpojumi, piemēram: remonts, transportēšana, apmācība."
+    "service_description": "Pakalpojumi, piemēram: remonts, transportēšana, apmācība.",
+    "subscription": "Abonēšana",
+    "subscription_description": "Produktu, pakalpojumu vai satura abonementi un rēķini."
   },
   "license": {
     "free": "Bezmaksas",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Pirmais ieraksts",
     "comment_at": "Ieslēgts",
-    "edit_comment": "Rediģēt komentāru"
+    "edit_comment": "Rediģēt komentāru",
+    "my_comments": "Mani komentāri"
   },
   "customer_club": {
     "bronze": "Bronza",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Verifikācijas kods",
     "msg_title": "Sveiki,",
     "msg_body": "Lūdzu, piesakieties. Tas aizņem tikai dažas sekundes.",
-    "login_apple": "Piesakieties ar Apple"
+    "login_apple": "Piesakieties ar Apple",
+    "login_email": "Pieteikšanās pa e-pastu",
+    "email_login_step_1": "Lūdzu, norādiet derīgu e-pasta adresi, un mēs uz to nosūtīsim pieteikšanās kodu. Reģistrācija nav nepieciešama.",
+    "email_login_step_2": "Vai esat pārliecināts, ka esat pareizi ievadījis savu e-pasta adresi? Mēs nosūtīsim pieteikšanās kodu uz norādīto e-pastu, tāpēc, lūdzu, pārbaudiet tā precizitāti.",
+    "email_login_step_3": "Mēs esam nosūtījuši kodu uz jūsu e-pastu. Lūdzu, ņemiet vērā, ka koda derīguma termiņš beigsies pēc 10 minūtēm."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Saglabāt ziņojumu",
     "notifications": {
       "success": "Jūsu ievadītie dati ir saglabāti."
-    }
+    },
+    "product_inputs_preview_message": "Šīs pielāgošanas iespējas ir pieejamas jūsu pasūtītajam produktam. Kad prece ir pievienota jūsu grozam, šeit varēsiet veikt korekcijas."
   },
   "faq": {
     "faq": "bieži uzdotie jautājumi",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "Grūti",
     "intermediate": "Vidēja līmeņa",
     "easy": "Viegli"
+  },
+  "billing_period": {
+    "Daily": "Ikdienas",
+    "Weekly": "Iknedēļas",
+    "Monthly": "Ikmēneša",
+    "Every3Months": "Ik pēc 3 mēnešiem",
+    "Every6Months": "Ik pēc 6 mēnešiem",
+    "Yearly": "Ik gadu"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Ak nav labi!",
+    "between2_3": "Ir labi!",
+    "between3_4": "Cilvēkiem patīk!",
+    "between4_5": "Cilvēkiem tas patīk!"
   }
 };

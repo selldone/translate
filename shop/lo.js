@@ -81,7 +81,9 @@ export default {
     "offer_message": "ຊື້ {min_quantity} ຮັບສ່ວນຫຼຸດ {percent}% ສໍາລັບລາຍການເຫຼົ່ານີ້",
     "up_to": "ສູງສຸດ {per_order}x ຕໍ່ຄຳສັ່ງ",
     "get_free": "ໄດ້ຟຣີ",
-    "get_off": "ຮັບສ່ວນຫຼຸດ {percent}%."
+    "get_off": "ຮັບສ່ວນຫຼຸດ {percent}%.",
+    "select_a_vendor_message": "ກະລຸນາເລືອກຜູ້ຂາຍ.",
+    "product_description_header": "ແນະນຳ {product}"
   },
   "buy_button": {
     "waiting_for_availability": "ກຳລັງລໍຖ້າການມີຢູ່",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "ພວກເຮົາຈະແຈ້ງໃຫ້ເຈົ້າຮູ້ເມື່ອມີໃຫ້.",
       "inform_remove_success": "ເຈົ້າໄດ້ຖືກໂຍກຍ້າຍອອກຈາກບັນຊີລາຍຊື່ລໍຖ້າ."
-    }
+    },
+    "subscribe_now": "ຈອງດຽວນີ້",
+    "unsubscribe": "ເຊົາຕິດຕາມ",
+    "select_a_subscription_plan": "ເລືອກແຜນກ່ອນ!",
+    "manage_subscriptions": "ຈັດການການສະໝັກໃຊ້"
   },
   "product": {
     "review": "ທົບທວນຄືນ",
@@ -109,7 +115,8 @@ export default {
     "warranty": "ຮັບປະກັນ",
     "return_policy": "ນະໂຍບາຍການສົ່ງຄືນ",
     "guide": "ຄູ່ມື",
-    "shipping": "ການ​ຂົນ​ສົ່ງ"
+    "shipping": "ການ​ຂົນ​ສົ່ງ",
+    "related_categories_title": "ຄົ້ນພົບໃນຄໍເລັກຊັນ"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "ລາຄາລາຍການທັງໝົດ",
       "total_items_discount": "ລາຍການຫຼຸດລາຄາ",
       "total_price_after_offers": "ທັງໝົດຫຼັງຈາກນຳໃຊ້ຂໍ້ສະເໜີ",
-      "buyer_payment": "ຈໍານວນການຈ່າຍເງິນຂອງຜູ້ຊື້"
+      "buyer_payment": "ຈໍານວນການຈ່າຍເງິນຂອງຜູ້ຊື້",
+      "total_order_price_before_tax": "ລາຄາລວມກ່ອນພາສີ"
     },
     "delivery": {
       "title": "ການຈັດສົ່ງ",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "ຂໍ້ມູນໃບບິນທີ່ແຕກຕ່າງກັນ",
     "basket_empty": "ກະຕ່າຫວ່າງເປົ່າ",
     "extra_shipping_count": "ທ່ານຈະໄດ້ຮັບແພັກເກດ {count}.",
-    "select_location_error": "ຊອກຫາສະຖານທີ່ຮັບການຂົນສົ່ງໃນແຜນທີ່ ແລະຄລິກໃສ່ຕົວຊີ້ບອກທີ່ຢູ່ເຄິ່ງກາງຂອງແຜນທີ່ເພື່ອກໍານົດທີ່ຢູ່ທີ່ແນ່ນອນຂອງຜູ້ຮັບ."
+    "select_location_error": "ຊອກຫາສະຖານທີ່ຮັບການຂົນສົ່ງໃນແຜນທີ່ ແລະຄລິກໃສ່ຕົວຊີ້ບອກທີ່ຢູ່ເຄິ່ງກາງຂອງແຜນທີ່ເພື່ອກໍານົດທີ່ຢູ່ທີ່ແນ່ນອນຂອງຜູ້ຮັບ.",
+    "same_billing_address_desc": "ທີ່ຢູ່ໃບບິນແມ່ນຄືກັນກັບທີ່ຢູ່ຈັດສົ່ງ.",
+    "custom_billing_info_desc": "ທ່ານສາມາດໃສ່ຕົວເລກພາສີຂອງທ່ານແລະກໍານົດທີ່ຢູ່ທີ່ແຕກຕ່າງກັນສໍາລັບການເອີ້ນເກັບເງິນ.",
+    "billing_business_desc": "ມັນເປັນບັນຊີທຸລະກິດທີ່ມີຕົວເລກພາສີ.",
+    "billing_personal_desc": "ມັນເປັນບັນຊີສ່ວນຕົວ.",
+    "no_billing_title": "ບໍ່ມີໃບບິນ",
+    "no_billing_desc": "ປ່ອຍໃຫ້ທີ່ຢູ່ໃບບິນຫວ່າງເປົ່າ."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "ດຶງເອົາຄໍາສັ່ງພາຍນອກ",
     "address_included": "ແບ່ງປັນລາຍການກະຕ່າ + ທີ່ຢູ່",
     "address_excluded": "ແບ່ງປັນພຽງແຕ່ລາຍການກະຕ່າ"
+  },
+  "variants_view": {
+    "prices": "ລາຄາ",
+    "inventory": "ສາງ",
+    "discount": "ສ່ວນຫຼຸດ"
+  },
+  "rating": {
+    "product_rating_message": "ຜະລິດຕະພັນນີ້ໄດ້ຮັບການໃຫ້ຄະແນນ {rate} ຈາກທັງໝົດ 5 ດາວ ແລະໃຫ້ຄະແນນໂດຍ {rate_count} ຄົນ."
+  },
+  "related_products": {
+    "card": {
+      "title": "ສຳຫຼວດ!",
+      "same_tags_subtitle": "ຊອກຫາລາຍການທີ່ກ່ຽວຂ້ອງທີ່ໂດດເດັ່ນ.",
+      "same_category_subtitle": "ຊອກຫາລາຍການທີ່ໂດດເດັ່ນໃນໝວດນີ້."
+    }
   }
 };

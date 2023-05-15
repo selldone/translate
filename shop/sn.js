@@ -81,7 +81,9 @@ export default {
     "offer_message": "Tenga {min_quantity} Wana {percent}% off pazvinhu izvi",
     "up_to": "Kusvika pa{per_order}x pahodha imwe neimwe",
     "get_free": "WANA MAHARA",
-    "get_off": "WANA {percent}% DZIDZISO"
+    "get_off": "WANA {percent}% DZIDZISO",
+    "select_a_vendor_message": "Ndapota sarudza mutengesi.",
+    "product_description_header": "Kusuma {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Kumirira kuwanikwa",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Tichakuzivisai kana yavepo.",
       "inform_remove_success": "Iwe wakabviswa kubva pane yakamirira list."
-    }
+    },
+    "subscribe_now": "Nyorera Izvozvi",
+    "unsubscribe": "Unsubscribe",
+    "select_a_subscription_plan": "Sarudza chirongwa kutanga!",
+    "manage_subscriptions": "Manage zvinyoreso"
   },
   "product": {
     "review": "Ongorora",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Warranty",
     "return_policy": "Return Policy",
     "guide": "Guide",
-    "shipping": "Shipping"
+    "shipping": "Shipping",
+    "related_categories_title": "Ziva mumiunganidzwa"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Total Items Price",
       "total_items_discount": "Zvinhu Discount",
       "total_price_after_offers": "Total mushure mekushandisa zvinopihwa",
-      "buyer_payment": "Mutengi kubhadhara mari"
+      "buyer_payment": "Mutengi kubhadhara mari",
+      "total_order_price_before_tax": "Pre-mutero Total Price"
     },
     "delivery": {
       "title": "Delivery",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Ruzivo rwekubhadharisa rwakasiyana",
     "basket_empty": "Dengu harina chinhu",
     "extra_shipping_count": "Iwe uchagashira {count} mapakeji.",
-    "select_location_error": "Tsvaga nzvimbo yekugamuchira yekutumira pamepu uye tinya pane chiratidzo chiri pakati pemepu kuti uone kero chaiyo yeanogamuchira."
+    "select_location_error": "Tsvaga nzvimbo yekugamuchira yekutumira pamepu uye tinya pane chiratidzo chiri pakati pemepu kuti uone kero chaiyo yeanogamuchira.",
+    "same_billing_address_desc": "Kero yekubhadhara yakafanana nekero yekutumira.",
+    "custom_billing_info_desc": "Iwe unogona kuisa yako TAX nhamba uye kuseta imwe kero yekubhadhara.",
+    "billing_business_desc": "Iaccount account ine nhamba yeTAX.",
+    "billing_personal_desc": "Iakaundi yako pachako.",
+    "no_billing_title": "Hapana kubhadhara",
+    "no_billing_desc": "Siya kero yekubhadhara isina chinhu."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Dzora kurongeka kwekunze",
     "address_included": "Govera bhasiketi zvinhu + Kero",
     "address_excluded": "Goverana chete zvinhu zvetswanda"
+  },
+  "variants_view": {
+    "prices": "Mitengo",
+    "inventory": "Inventory",
+    "discount": "Discount"
+  },
+  "rating": {
+    "product_rating_message": "Chigadzirwa ichi chakawana kuyerwa kwe{rate} kubva panyeredzi 5 uye zvakayerwa nevanhu {rate_count}."
+  },
+  "related_products": {
+    "card": {
+      "title": "Explore!",
+      "same_tags_subtitle": "Tsvaga zvimwe zvinoshamisa zvine hukama.",
+      "same_category_subtitle": "Tsvaga zvimwe zvinhu zvinoshamisa muchikamu ichi."
+    }
   }
 };

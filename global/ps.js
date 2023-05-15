@@ -603,7 +603,34 @@ export default {
     "deleted": "ړنګ شوی",
     "variant": "ویرینټ",
     "secure": "خوندي",
-    "admin": "اډمین"
+    "admin": "اډمین",
+    "tax_included_abstract": "په شمول",
+    "payment_not_settled": "تادیه نه ده شوې!",
+    "orders_list": "د امرونو لیست",
+    "subscription_plan": "د ګډون پلان",
+    "contents": "منځپانګې",
+    "pricings": "نرخونه",
+    "static_page": "جامد پاڼه",
+    "shop_button": "د پلورنځي تڼۍ",
+    "embed": "امبډ کړئ",
+    "over": "اوور",
+    "tax_vary_by_location": "توپیر ځای",
+    "product_type": "د محصول ډول",
+    "tax_id": "د مالیې ID",
+    "business_name": "تجارتي نوم",
+    "invoice": "رسید",
+    "included_in_the_product": "په محصول کې شامل دي",
+    "included_in_the_product_description": "په محصول کې لاندې اجزا شامل دي",
+    "cross_sell": "کراس پلورل",
+    "discount_off": "OFF",
+    "extra_discount": "اضافي تخفیف",
+    "template": "کينډۍ",
+    "in_cart": "په کارټ کې",
+    "pros_and_cons": "ګټې او زیانونه",
+    "related_products": "اړوند توليدات",
+    "related_categories": "اړونده کټګورۍ",
+    "badges": "برجونه",
+    "explore": "سپړنه"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "بیا پیدا کول",
     "add_message": "پیغام اضافه کړئ",
     "continue_chat": "خبرو اترو ته دوام ورکړئ",
-    "add_new_message": "نوی پیغام اضافه کړئ"
+    "add_new_message": "نوی پیغام اضافه کړئ",
+    "change_setting": "ترتیب بدل کړئ",
+    "delete_all": "ټول ړنګ کړئ",
+    "transfer_fund": "د لیږد فنډ",
+    "reverse_fund": "ریورس فنډ",
+    "settlement": "تصفیه",
+    "refund": "بیرته ورکول",
+    "partial_refund": "جزوی بیرته ورکول",
+    "change_payment_method": "د تادیې طریقه بدله کړئ",
+    "buy": "پېرود",
+    "view_all": "ټول وګوری",
+    "view_now": "اوس وګورئ"
   },
   "instance_message_title": "فوري پیغام واستوئ",
   "instance_message": "سلام {name}، زما نوم {author} د {company} څخه دی.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "تل زرغون",
     "#214C30": "ځنګل",
     "#DC2867": "Fuchsia",
-    "#38561F" :"کیلي",
+    "#38561F": "کیلي",
     "#5C884D": "پاڼی",
     "#558450": "رڼا Aqua",
     "#96B5C9": "رڼا نیلي",
@@ -951,7 +989,9 @@ export default {
     "file": "دوتنه",
     "file_description": "ټول اجازه ورکړل شوي فایلونه لکه د آنلاین کورس ویډیو، د ډاونلوډ وړ اسناد.",
     "service": "خدمت",
-    "service_description": "خدمتونه لکه: ترمیم، ترانسپورت، تدریس."
+    "service_description": "خدمتونه لکه: ترمیم، ترانسپورت، تدریس.",
+    "subscription": "ګډون",
+    "subscription_description": "د محصولاتو، خدماتو، یا منځپانګو لپاره ګډون او رسید."
   },
   "license": {
     "free": "وړيا",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "لومړی پوسټ",
     "comment_at": "پر",
-    "edit_comment": "تبصره ایډیټ کړئ"
+    "edit_comment": "تبصره ایډیټ کړئ",
+    "my_comments": "زما نظرونه"
   },
   "customer_club": {
     "bronze": "د برونزو",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "د تایید کوډ",
     "msg_title": "سلام،",
     "msg_body": "مهرباني وکړئ ننوتل. دا یوازې څو ثانیې وخت نیسي.",
-    "login_apple": "د ایپل سره ننوتل"
+    "login_apple": "د ایپل سره ننوتل",
+    "login_email": "د بریښنالیک له لارې ننوتل",
+    "email_login_step_1": "مهرباني وکړئ یو باوري بریښنالیک آدرس ورکړئ، او موږ به دې ته د ننوتلو کوډ واستوو. هیڅ راجسټریشن ته اړتیا نشته.",
+    "email_login_step_2": "ایا تاسو ډاډه یاست چې تاسو خپل بریښنالیک آدرس په سمه توګه داخل کړی دی؟ موږ به چمتو شوي بریښنالیک ته د ننوتلو کوډ واستوو، نو مهرباني وکړئ د هغې دقت ډاډ ترلاسه کړئ.",
+    "email_login_step_3": "موږ ستاسو بریښنالیک ته یو کوډ لیږلی دی. مهرباني وکړئ په یاد ولرئ چې کوډ به په 10 دقیقو کې پای ته ورسیږي."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "پیغام خوندي کړئ",
     "notifications": {
       "success": "ستاسو د ننوتلو معلومات خوندي شوي."
-    }
+    },
+    "product_inputs_preview_message": "دا د اصلاح کولو اختیارونه ستاسو د امر شوي محصول لپاره شتون لري. یوځل چې توکي ستاسو په کارټ کې اضافه شي ، تاسو به وکولی شئ دلته تنظیمات وکړئ."
   },
   "faq": {
     "faq": "په مکرر ډول پوښتل شوي پوښتنې",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "سخت",
     "intermediate": "منځګړی",
     "easy": "اسانه"
+  },
+  "billing_period": {
+    "Daily": "ورځنی",
+    "Weekly": "اونیزه",
+    "Monthly": "میاشتنی",
+    "Every3Months": "په هرو 3 میاشتو کې",
+    "Every6Months": "په هرو 6 میاشتو کې",
+    "Yearly": "کلنۍ"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "او ښه نه!",
+    "between2_3": "سمه ده!",
+    "between3_4": "خلک یې خوښوي!",
+    "between4_5": "خلک یې خوښوي!"
   }
 };

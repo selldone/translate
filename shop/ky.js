@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity} сатып алыңыз, бул нерселерге {percent}% арзандатуу алыңыз",
     "up_to": "Ар бир буйрутма үчүн {per_order}x чейин",
     "get_free": "АКЫСЫЗ АЛУУ",
-    "get_off": "{percent}% АЛУУ"
+    "get_off": "{percent}% АЛУУ",
+    "select_a_vendor_message": "Сатуучуну тандаңыз.",
+    "product_description_header": "{product} менен тааныштыруу"
   },
   "buy_button": {
     "waiting_for_availability": "Жеткиликтүүлүк күтүүдө",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Ал жеткиликтүү болгондо сизге кабарлайбыз.",
       "inform_remove_success": "Сиз күтүү тизмесинен чыгарылдыңыз."
-    }
+    },
+    "subscribe_now": "Азыр жазылыңыз",
+    "unsubscribe": "Жазылууну токтотуу",
+    "select_a_subscription_plan": "Биринчи планды тандаңыз!",
+    "manage_subscriptions": "Жазылууну башкаруу"
   },
   "product": {
     "review": "карап чыгуу",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Кепилдик",
     "return_policy": "Кайтаруу саясаты",
     "guide": "Гид",
-    "shipping": "Жеткирүү"
+    "shipping": "Жеткирүү",
+    "related_categories_title": "Коллекциялардан табуу"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Жалпы буюмдардын баасы",
       "total_items_discount": "буюмдар арзандатуу",
       "total_price_after_offers": "Сунуштарды колдонгондон кийин бардыгы",
-      "buyer_payment": "Сатып алуучунун төлөм суммасы"
+      "buyer_payment": "Сатып алуучунун төлөм суммасы",
+      "total_order_price_before_tax": "Салык салынганга чейинки жалпы баа"
     },
     "delivery": {
       "title": "Жеткирүү",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Башка эсеп-кысап маалыматы",
     "basket_empty": "Себет бош",
     "extra_shipping_count": "Сиз {count} топтом аласыз.",
-    "select_location_error": "Картадан жүктү алган жерди табыңыз жана алуучунун так дарегин аныктоо үчүн картанын ортосундагы индикаторду басыңыз."
+    "select_location_error": "Картадан жүктү алган жерди табыңыз жана алуучунун так дарегин аныктоо үчүн картанын ортосундагы индикаторду басыңыз.",
+    "same_billing_address_desc": "Биллинг дареги жеткирүү дареги менен бирдей.",
+    "custom_billing_info_desc": "Сиз САЛЫК номериңизди киргизип, эсеп коюу үчүн башка даректи коё аласыз.",
+    "billing_business_desc": "Бул салык номери бар бизнес эсеби.",
+    "billing_personal_desc": "Бул жеке эсеп.",
+    "no_billing_title": "Эсеп коюу жок",
+    "no_billing_desc": "Эсеп коюу дарегин бош калтырыңыз."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Тышкы тартипти алуу",
     "address_included": "Себет буюмдарын бөлүшүү + Дарек",
     "address_excluded": "Себет буюмдарын гана бөлүшүңүз"
+  },
+  "variants_view": {
+    "prices": "Баалар",
+    "inventory": "Инвентаризация",
+    "discount": "Арзандатуу"
+  },
+  "rating": {
+    "product_rating_message": "Бул продукт 5 жылдыздын ичинен {rate} рейтингине ээ жана {rate_count} адам тарабынан бааланган."
+  },
+  "related_products": {
+    "card": {
+      "title": "Изилдөө!",
+      "same_tags_subtitle": "Көбүрөөк окшош нерселерди табыңыз.",
+      "same_category_subtitle": "Бул категориядагы эң сонун нерселерди табыңыз."
+    }
   }
 };

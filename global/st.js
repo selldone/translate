@@ -603,7 +603,34 @@ export default {
     "deleted": "E hlakotsoe",
     "variant": "Mofuta o fapaneng",
     "secure": "Sireletsehile",
-    "admin": "Admin"
+    "admin": "Admin",
+    "tax_included_abstract": "ho kenyeletsa.",
+    "payment_not_settled": "Tefo ha e so rarolloe!",
+    "orders_list": "Lethathamo la litaelo",
+    "subscription_plan": "Morero oa ho ngolisa",
+    "contents": "Litaba",
+    "pricings": "Litheko",
+    "static_page": "Leqephe le tsitsitseng",
+    "shop_button": "Konopo ea ho Reka",
+    "embed": "Kenya",
+    "over": "Fetile",
+    "tax_vary_by_location": "fapana. sebaka",
+    "product_type": "Mofuta oa sehlahisoa",
+    "tax_id": "ID ea Lekhetho",
+    "business_name": "Lebitso la khoebo",
+    "invoice": "Invoice",
+    "included_in_the_product": "E kenyelelitsoe sehlahisoa",
+    "included_in_the_product_description": "Sehlahisoa se kenyelletsa likarolo tse latelang",
+    "cross_sell": "Sefapano Thekisa",
+    "discount_off": "OFF",
+    "extra_discount": "Phaello e Eketsehileng",
+    "template": "Setšoantšo",
+    "in_cart": "Ka Kariki",
+    "pros_and_cons": "Melemo le Melemo",
+    "related_products": "Lihlahisoa tse Amanang",
+    "related_categories": "Mekhahlelo e Amanang",
+    "badges": "Libeche",
+    "explore": "Hlahloba"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "Hlahisa bocha",
     "add_message": "Kenya molaetsa",
     "continue_chat": "Tsoela pele ho qoqa",
-    "add_new_message": "Kenya molaetsa o mocha"
+    "add_new_message": "Kenya molaetsa o mocha",
+    "change_setting": "Fetola maemo",
+    "delete_all": "Hlakola Tsohle",
+    "transfer_fund": "Letlole la phetiso",
+    "reverse_fund": "Reverse fund",
+    "settlement": "Bolulo",
+    "refund": "Puseletso",
+    "partial_refund": "Puseletso e sa Lekaneng",
+    "change_payment_method": "Fetola mokhoa oa ho lefa",
+    "buy": "Reka",
+    "view_all": "Sheba Tsohle",
+    "view_now": "Sheba Hona Joale"
   },
   "instance_message_title": "Romela molaetsa hang hang",
   "instance_message": "Lumela {name}, Lebitso la ka ke {author} ho tsoa {company}.",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "Evergreen",
     "#214C30": "Meru",
     "#DC2867": "Fuchsia",
-    "#38561F" :"Kelly",
+    "#38561F": "Kelly",
     "#5C884D": "Lekhasi",
     "#558450": "Aqua e khanyang",
     "#96B5C9": "Botala bo Khanyang",
@@ -951,7 +989,9 @@ export default {
     "file": "Faele",
     "file_description": "Lifaele tsohle tse lumelletsoeng joalo ka video ea thupelo ea inthaneteng, litokomane tse jarollotsoeng.",
     "service": "Tshebeletso",
-    "service_description": "Litšebeletso tse kang: ho lokisa, lipalangoang, ho ruta."
+    "service_description": "Litšebeletso tse kang: ho lokisa, lipalangoang, ho ruta.",
+    "subscription": "Ngoliso",
+    "subscription_description": "Lipehelo le li-invoice bakeng sa lihlahisoa, litšebeletso, kapa litaba."
   },
   "license": {
     "free": "Mahala",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "Poso ea pele",
     "comment_at": "E butsoe",
-    "edit_comment": "Fetola Maikutlo"
+    "edit_comment": "Fetola Maikutlo",
+    "my_comments": "Maikutlo a ka"
   },
   "customer_club": {
     "bronze": "Boronse",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "Nomoro ea netefatso",
     "msg_title": "Lumela,",
     "msg_body": "Ke kopa o kene. Ho nka metsotsoana e seng mekae feela.",
-    "login_apple": "Kena ka Apple"
+    "login_apple": "Kena ka Apple",
+    "login_email": "Kena ka Imeile",
+    "email_login_step_1": "Ka kopo fana ka aterese ea lengolo-tsoibila e nepahetseng, 'me re tla e romella khoutu ea ho kena. Ha ho hlokahale ngoliso.",
+    "email_login_step_2": "Na u na le bonnete ba hore u kentse aterese ea hau ea lengolo-tsoibila ka nepo? Re tla romella khoutu ea ho kena ho lengolo-tsoibila le fanoeng, kahoo ka kopo netefatsa ho nepahala ha eona.",
+    "email_login_step_3": "Re rometse khoutu ho lengolo-tsoibila la hau. Ka kopo hlokomela hore khoutu e tla felloa ke nako ka mor'a metsotso e 10."
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "Boloka Molaetsa",
     "notifications": {
       "success": "Lintlha tsa hau li bolokiloe."
-    }
+    },
+    "product_inputs_preview_message": "Likhetho tsena tsa ho itlhophisa li teng bakeng sa sehlahisoa sa hau se otarang. Hang ha ntho e kentsoe kariking ea hau, u tla khona ho etsa litokiso mona."
   },
   "faq": {
     "faq": "Lipotso Tse Botsoang Hangata",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "E thata",
     "intermediate": "Mahareng",
     "easy": "Bonolo"
+  },
+  "billing_period": {
+    "Daily": "Letsatsi le letsatsi",
+    "Weekly": "Beke le beke",
+    "Monthly": "Khoeli le khoeli",
+    "Every3Months": "Likhoeli tse ling le tse ling tse 3",
+    "Every6Months": "Likhoeli tse ling le tse ling tse 6",
+    "Yearly": "Selemo le selemo"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "Oh ha e ntle!",
+    "between2_3": "Ho lokile!",
+    "between3_4": "Batho ba e rata!",
+    "between4_5": "Batho ba e rata!"
   }
 };

@@ -81,7 +81,9 @@ export default {
     "offer_message": "Pirkite {min_quantity} Gaukite {percent} % nuolaidą šioms prekėms",
     "up_to": "Iki {per_order} x už užsakymą",
     "get_free": "IŠSIVADUOTI",
-    "get_off": "GAUTI {percent} % NUOLAIDA"
+    "get_off": "GAUTI {percent} % NUOLAIDA",
+    "select_a_vendor_message": "Pasirinkite pardavėją.",
+    "product_description_header": "Pristatome {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Laukiama laisvumo",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Informuosime, kai jis bus pasiekiamas.",
       "inform_remove_success": "Jūs buvote pašalintas iš laukiančiųjų sąrašo."
-    }
+    },
+    "subscribe_now": "Prenumeruokite Dabar",
+    "unsubscribe": "Atsisakyti prenumeratos",
+    "select_a_subscription_plan": "Pirmiausia pasirinkite planą!",
+    "manage_subscriptions": "Tvarkyti prenumeratas"
   },
   "product": {
     "review": "Apžvalga",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Garantija",
     "return_policy": "Gražinimo politika",
     "guide": "Vadovas",
-    "shipping": "Siuntimas"
+    "shipping": "Siuntimas",
+    "related_categories_title": "Atraskite kolekcijose"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Bendra prekių kaina",
       "total_items_discount": "Prekės Nuolaida",
       "total_price_after_offers": "Iš viso pritaikius pasiūlymus",
-      "buyer_payment": "Pirkėjo mokėjimo suma"
+      "buyer_payment": "Pirkėjo mokėjimo suma",
+      "total_order_price_before_tax": "Bendra kaina neatskaičius mokesčių"
     },
     "delivery": {
       "title": "Pristatymas",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Skirtinga atsiskaitymo informacija",
     "basket_empty": "Krepšelis tuščias",
     "extra_shipping_count": "Gausite {count} siuntinių.",
-    "select_location_error": "Žemėlapyje susiraskite siuntos gavimo vietą ir spustelėkite žemėlapio viduryje esantį indikatorių, kad nustatytumėte tikslų gavėjo adresą."
+    "select_location_error": "Žemėlapyje susiraskite siuntos gavimo vietą ir spustelėkite žemėlapio viduryje esantį indikatorių, kad nustatytumėte tikslų gavėjo adresą.",
+    "same_billing_address_desc": "Atsiskaitymo adresas yra toks pat kaip ir pristatymo adresas.",
+    "custom_billing_info_desc": "Galite įvesti savo TAX numerį ir nustatyti kitą adresą atsiskaitymui.",
+    "billing_business_desc": "Tai verslo sąskaita su TAX numeriu.",
+    "billing_personal_desc": "Tai asmeninė sąskaita.",
+    "no_billing_title": "Jokio atsiskaitymo",
+    "no_billing_desc": "Atsiskaitymo adresą palikite tuščią."
   },
   "basket_items": {
     "items_unit": "x",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Gauti išorinį užsakymą",
     "address_included": "Dalytis krepšelio prekėmis + Adresas",
     "address_excluded": "Dalinkitės tik krepšelio prekėmis"
+  },
+  "variants_view": {
+    "prices": "Kainos",
+    "inventory": "Inventorius",
+    "discount": "Nuolaida"
+  },
+  "rating": {
+    "product_rating_message": "Šis produktas buvo įvertintas {rate} iš 5 žvaigždučių ir jį įvertino {rate_count} žmonės."
+  },
+  "related_products": {
+    "card": {
+      "title": "Naršyti!",
+      "same_tags_subtitle": "Raskite daugiau įdomių susijusių elementų.",
+      "same_category_subtitle": "Raskite daugiau nuostabių prekių šioje kategorijoje."
+    }
   }
 };

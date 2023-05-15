@@ -81,7 +81,9 @@ export default {
     "offer_message": "{min_quantity}-ро харед Барои ин ашёҳо {percent}% тахфиф ба даст оред",
     "up_to": "То {per_order}x барои як фармоиш",
     "get_free": "РОЙГОН ГИРИФТ",
-    "get_off": "{percent}% ТАХФИ ГИРИФТ"
+    "get_off": "{percent}% ТАХФИ ГИРИФТ",
+    "select_a_vendor_message": "Лутфан фурӯшандаеро интихоб кунед.",
+    "product_description_header": "Муаррифии {product}"
   },
   "buy_button": {
     "waiting_for_availability": "Интизори дастрас будан",
@@ -96,7 +98,11 @@ export default {
     "notifications": {
       "inform_add_success": "Вақте ки он дастрас аст, мо ба шумо хабар медиҳем.",
       "inform_remove_success": "Шумо аз рӯйхати интизорӣ хориҷ кардаед."
-    }
+    },
+    "subscribe_now": "Ҳоло обуна шавед",
+    "unsubscribe": "Қатъ кардани обуна",
+    "select_a_subscription_plan": "Аввал нақшаро интихоб кунед!",
+    "manage_subscriptions": "Обунаҳоро идора кунед"
   },
   "product": {
     "review": "Барраси",
@@ -109,7 +115,8 @@ export default {
     "warranty": "Кафолат",
     "return_policy": "Шеваи Бозгардон",
     "guide": "Роҳнамо",
-    "shipping": "Фиристодан"
+    "shipping": "Фиристодан",
+    "related_categories_title": "Дар коллексияҳо кашф кунед"
   },
   "layout_shop": {
     "shop_menu": {
@@ -190,7 +197,8 @@ export default {
       "total_price": "Нархи умумии ашё",
       "total_items_discount": "Тахфифи мол",
       "total_price_after_offers": "Ҳамагӣ пас аз татбиқи пешниҳодҳо",
-      "buyer_payment": "Маблағи пардохти харидор"
+      "buyer_payment": "Маблағи пардохти харидор",
+      "total_order_price_before_tax": "Нархи умумии пеш аз андоз"
     },
     "delivery": {
       "title": "Таҳвил",
@@ -317,7 +325,13 @@ export default {
     "custom_billing_info": "Маълумоти гуногуни ҳисобдорӣ",
     "basket_empty": "Сабад холӣ аст",
     "extra_shipping_count": "Шумо бастаҳои {count} мегиред.",
-    "select_location_error": "Ҷои қабули борро дар харита ёбед ва нишондиҳандаи миёнаи харитаро клик кунед, то суроғаи дақиқи қабулкунандаро муайян кунед."
+    "select_location_error": "Ҷои қабули борро дар харита ёбед ва нишондиҳандаи миёнаи харитаро клик кунед, то суроғаи дақиқи қабулкунандаро муайян кунед.",
+    "same_billing_address_desc": "Суроғаи биллинг бо суроғаи интиқол якхела аст.",
+    "custom_billing_info_desc": "Шумо метавонед рақами андози худро ворид кунед ва суроғаи дигарро барои пардохт таъин кунед.",
+    "billing_business_desc": "Ин як ҳисоби тиҷорӣ бо рақами TAX аст.",
+    "billing_personal_desc": "Ин ҳисоби шахсӣ аст.",
+    "no_billing_title": "Ҳисобкунӣ нест",
+    "no_billing_desc": "Суроғаи ҳисобро холӣ гузоред."
   },
   "basket_items": {
     "items_unit": "х",
@@ -560,5 +574,20 @@ export default {
     "retrieve_dialog_title": "Тартиби берунаро дарёфт кунед",
     "address_included": "Мубодилаи ашёҳои сабад + Суроға",
     "address_excluded": "Танҳо ашёҳои сабадро мубодила кунед"
+  },
+  "variants_view": {
+    "prices": "Нархҳо",
+    "inventory": "Инвентаризатсия",
+    "discount": "Тахфиф"
+  },
+  "rating": {
+    "product_rating_message": "Ин маҳсулот баҳои {rate} аз 5 ситора гирифтааст ва аз ҷониби {rate_count} нафар баҳо дода шудааст."
+  },
+  "related_products": {
+    "card": {
+      "title": "Кашф кунед!",
+      "same_tags_subtitle": "Ҷузъҳои ҷолиби бештареро пайдо кунед.",
+      "same_category_subtitle": "Дар ин категория чизҳои ҷолибтар пайдо кунед."
+    }
   }
 };

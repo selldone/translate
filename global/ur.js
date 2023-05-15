@@ -603,7 +603,34 @@ export default {
     "deleted": "حذف کر دیا گیا۔",
     "variant": "متغیر",
     "secure": "محفوظ",
-    "admin": "ایڈمن"
+    "admin": "ایڈمن",
+    "tax_included_abstract": "بشمول",
+    "payment_not_settled": "ادائیگی طے نہیں ہوئی!",
+    "orders_list": "آرڈرز کی فہرست",
+    "subscription_plan": "سبسکرپشن پلان",
+    "contents": "مشمولات",
+    "pricings": "قیمتوں کا تعین",
+    "static_page": "جامد صفحہ",
+    "shop_button": "شاپ بٹن",
+    "embed": "ایمبیڈ",
+    "over": "ختم",
+    "tax_vary_by_location": "مختلف مقام",
+    "product_type": "مصنوعات کی قسم",
+    "tax_id": "ٹیکس شناخت",
+    "business_name": "کاروبار کا نام",
+    "invoice": "رسید",
+    "included_in_the_product": "مصنوعات میں شامل ہے۔",
+    "included_in_the_product_description": "مصنوعات میں مندرجہ ذیل اجزاء شامل ہیں۔",
+    "cross_sell": "کراس فروخت",
+    "discount_off": "OFF",
+    "extra_discount": "اضافی رعایت",
+    "template": "سانچے",
+    "in_cart": "ٹوکری میں",
+    "pros_and_cons": "فائدے اور نقصانات",
+    "related_products": "متعلقہ مصنوعات",
+    "related_categories": "متعلقہ زمرے",
+    "badges": "بیجز",
+    "explore": "دریافت کریں۔"
   },
   "dialogs": {
     "delete": {
@@ -722,7 +749,18 @@ export default {
     "regenerate": "دوبارہ پیدا کرنا",
     "add_message": "پیغام شامل کریں۔",
     "continue_chat": "چیٹ جاری رکھیں",
-    "add_new_message": "نیا پیغام شامل کریں۔"
+    "add_new_message": "نیا پیغام شامل کریں۔",
+    "change_setting": "ترتیب تبدیل کریں۔",
+    "delete_all": "تمام حذف کریں",
+    "transfer_fund": "فنڈ منتقل کریں۔",
+    "reverse_fund": "ریورس فنڈ",
+    "settlement": "تصفیہ",
+    "refund": "واپس کرنا",
+    "partial_refund": "جزوی رقم کی واپسی۔",
+    "change_payment_method": "ادائیگی کا طریقہ تبدیل کریں۔",
+    "buy": "خریدنے",
+    "view_all": "سب دیکھیں",
+    "view_now": "ابھی دیکھیں"
   },
   "instance_message_title": "فوری پیغام بھیجیں۔",
   "instance_message": "ہائے {name}، میرا نام {company} کی طرف سے {author} ہے۔",
@@ -908,7 +946,7 @@ export default {
     "#00582F": "سدا بہار",
     "#214C30": "جنگل",
     "#DC2867": "فوشیا",
-    "#38561F" :"کیلی",
+    "#38561F": "کیلی",
     "#5C884D": "پتی۔",
     "#558450": "لائٹ ایکوا",
     "#96B5C9": "ہلکے نیلے رنگ کے",
@@ -951,7 +989,9 @@ export default {
     "file": "فائل",
     "file_description": "تمام اجازت یافتہ فائلیں جیسے آن لائن کورس ویڈیو، ڈاؤن لوڈ کے قابل دستاویزات۔",
     "service": "سروس",
-    "service_description": "خدمات جیسے: مرمت، نقل و حمل، تدریس۔"
+    "service_description": "خدمات جیسے: مرمت، نقل و حمل، تدریس۔",
+    "subscription": "رکنیت",
+    "subscription_description": "مصنوعات، خدمات، یا مواد کے لیے سبسکرپشنز اور انوائسنگ۔"
   },
   "license": {
     "free": "مفت",
@@ -1300,7 +1340,8 @@ export default {
     },
     "first_send": "پہلی پوسٹ",
     "comment_at": "پر",
-    "edit_comment": "تبصرہ میں ترمیم کریں۔"
+    "edit_comment": "تبصرہ میں ترمیم کریں۔",
+    "my_comments": "میرے تبصرے"
   },
   "customer_club": {
     "bronze": "کانسی",
@@ -1663,7 +1704,11 @@ export default {
     "verification_code": "تصدیقی کوڈ",
     "msg_title": "ہیلو،",
     "msg_body": "برائے مہربانی لاگ ان کریں. اس میں صرف چند سیکنڈ لگتے ہیں۔",
-    "login_apple": "ایپل کے ساتھ لاگ ان کریں۔"
+    "login_apple": "ایپل کے ساتھ لاگ ان کریں۔",
+    "login_email": "ای میل کے ذریعے لاگ ان کریں۔",
+    "email_login_step_1": "براہ کرم ایک درست ای میل ایڈریس فراہم کریں، اور ہم اس پر لاگ ان کوڈ بھیجیں گے۔ کوئی رجسٹریشن ضروری نہیں ہے۔",
+    "email_login_step_2": "کیا آپ کو یقین ہے کہ آپ نے اپنا ای میل پتہ صحیح درج کیا ہے؟ ہم فراہم کردہ ای میل پر لاگ ان کوڈ بھیجیں گے، لہذا براہ کرم اس کی درستگی کو یقینی بنائیں۔",
+    "email_login_step_3": "ہم نے آپ کے ای میل پر ایک کوڈ بھیجا ہے۔ براہ کرم نوٹ کریں کہ کوڈ کی میعاد 10 منٹ میں ختم ہو جائے گی۔"
   },
   "shop_badges": {
     "GOLDEN_1YEAR": {
@@ -1726,7 +1771,8 @@ export default {
     "save_actions": "پیغام محفوظ کریں۔",
     "notifications": {
       "success": "آپ کا ان پٹ ڈیٹا محفوظ ہو گیا ہے۔"
-    }
+    },
+    "product_inputs_preview_message": "حسب ضرورت کے یہ اختیارات آپ کے آرڈر کردہ پروڈکٹ کے لیے دستیاب ہیں۔ آپ کے کارٹ میں آئٹم شامل ہونے کے بعد، آپ یہاں ایڈجسٹمنٹ کر سکیں گے۔"
   },
   "faq": {
     "faq": "اکثر پوچھے گئے سوالات",
@@ -1892,5 +1938,19 @@ export default {
     "hard": "سخت",
     "intermediate": "انٹرمیڈیٹ",
     "easy": "آسان"
+  },
+  "billing_period": {
+    "Daily": "روزانہ",
+    "Weekly": "ہفتہ وار",
+    "Monthly": "ماہانہ",
+    "Every3Months": "ہر 3 ماہ بعد",
+    "Every6Months": "ہر 6 ماہ بعد",
+    "Yearly": "سالانہ"
+  },
+  "buyer_rating_statement": {
+    "between1_2": "اوہ اچھا نہیں!",
+    "between2_3": "ٹھیک ہے!",
+    "between3_4": "لوگ اسے پسند کرتے ہیں!",
+    "between4_5": "لوگ اس سے محبت کرتے ہیں!"
   }
 };
