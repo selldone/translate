@@ -27,7 +27,7 @@ export default {
     "not_original": "Не оригинално"
   },
   "shop": {
-    "products_filter": "Филтрирайте",
+    "products_filter": "Филтър",
     "native": {
       "title": "Вход в приложението",
       "message": "Това приложение изисква достъп до информацията за профила Ви в магазина. Това включва достъп до име, номер за контакт, адрес, имейл, история на поръчките, поръчка и публикуване на коментари в този магазин.",
@@ -35,8 +35,8 @@ export default {
     }
   },
   "sort": {
-    "title": "Сортиране по",
-    "title_small": "Сортиране по..",
+    "title": "Подреждане по",
+    "title_small": "Подреждане по..",
     "nothing": "Нищо",
     "most_views": "Най-разглеждани",
     "most_likes": "Най-харесвани",
@@ -46,10 +46,10 @@ export default {
     "most_expensive": "Най-скъпи",
     "only_available": "В наличност",
     "view_mode": {
-      "normal": "Нормално",
-      "grid": "Решетка",
-      "list": "Списък",
-      "insta": "Кръгчета"
+      "normal": "Изглед Едри ",
+      "grid": "Изглед Средни",
+      "list": "Изглед Списък",
+      "insta": "Изглед Малки "
     }
   },
   "product_info": {
@@ -116,7 +116,7 @@ export default {
     "return_policy": "Условия за връщане",
     "guide": "Ръководство",
     "shipping": "Доставка",
-    "related_categories_title": "Открийте в колекции"
+    "related_categories_title": "Други категории"
   },
   "layout_shop": {
     "shop_menu": {
@@ -141,7 +141,7 @@ export default {
   "basket_top_menu": {
     "basket": "Кошница",
     "basket_is_empty": "Вашата кошница е празна.",
-    "total_price": "Обща сума",
+    "total_price": "Обща сума на продуктите",
     "view_basket": "Вашата кошница",
     "more": "Повече",
     "accept_and_pay": "КУПИ",
@@ -289,8 +289,8 @@ export default {
     }
   },
   "basket_page": {
-    "title": "Карта за пазаруване",
-    "total_price": "Обща сума",
+    "title": "Продължете с пазаруването",
+    "total_price": "Обща сума за продуктите",
     "shipping": "Цена за доставка",
     "free_shipping": "Безплатна доставка",
     "shipping_not_pay": "Доставката не е включена",
@@ -299,7 +299,7 @@ export default {
     "customer_club_discount": "Членска отстъпка",
     "final_price": "Общо за плащане",
     "lead_time": "Време за подготовка",
-    "lead_time_unit": "Час",
+    "lead_time_unit": "часа",
     "receive_time": "Предпочитано време за доставка",
     "select_time": "Изберете време за доставка",
     "no_select_time": "Възможно най-скоро",
@@ -316,7 +316,7 @@ export default {
     "pay_and_complete_action": "ПЛАЩАНЕ",
     "pre_confirm_service": "ИЗПРАЩАНЕ НА ПОРЪЧКАТА",
     "errors": {
-      "no_address": "Изберете адреса, до който искате да бъде изпратена поръчката Ви.",
+      "no_address": "Въведете офис на Спиди или личен адрес, до който искате да бъде изпратена поръчката Ви.",
       "no_phone": "Въведете номер за връзка с Вас",
       "select_billing_country": "Изберете държава",
       "select_billing_state": "Изберете област"
@@ -335,7 +335,7 @@ export default {
   },
   "basket_items": {
     "items_unit": "х",
-    "lead_unit": "Час",
+    "lead_unit": "часа",
     "count_input": "бр.",
     "price_changed": "Цената се промени. Нова цена:",
     "offer": "Вземете {count}x продукт(а) с {percent}% отстъпка",
@@ -350,7 +350,7 @@ export default {
     "building_unit": "Етаж",
     "postcode": "Пощенски код",
     "tel": "Телефон",
-    "description": "Забележка",
+    "description": "E-mail / Забележка към поръчката ",
     "map": {
       "title": "Моите адреси",
       "confirm": "Адресна регистрация",
@@ -414,10 +414,10 @@ export default {
     }
   },
   "product_filter_menu": {
-    "only_original": "Само оригинали",
-    "only_has_discount": "Само с отстъпка",
-    "price_range": "Ценови диапазон",
-    "brands": "Бранд",
+    "only_original": "Авторски дизайни",
+    "only_has_discount": "Продукти с отстъпка",
+    "price_range": "Цена",
+    "brands": "Брандове",
     "main_shop_page": "Главна страница на магазина",
     "home": "Начало"
   },
@@ -469,14 +469,14 @@ export default {
     "title_before_start": "Остана до началото",
     "title_between_start_end": "Остана до края",
     "title_after_end": "Готово",
-    "title_no_start_end": "Без период от време!"
+    "title_no_start_end": "Няма зададен период"
   },
   "lottery_prizes": {
     "message": "Можете да получите един подарък на поръчка."
   },
   "coupons": {
-    "coupon_code": "КАРТА ЗА ОТСТЪПКА",
-    "add_coupon": "Добавете кода от КАРТАТА ЗА ОТСТЪПКА"
+    "coupon_code": "КАРТА С ОТСТЪПКА",
+    "add_coupon": "Добавете кода от КАРТАТА С ОТСТЪПКА"
   },
   "avocado": {
     "not_enable": "Формулярът за авокадо не е активиран!",
@@ -509,7 +509,7 @@ export default {
       "order_success": "Вашата поръчка беше успешно изпратена.",
       "delete_success": "Елементът е изтрит."
     },
-    "select_address_message": "Моля, въведете адреса си и след това можете да изпратите поръчката."
+    "select_address_message": "Моля, въведете адрес и след това можете да изпратите поръчката."
   },
   "hyper": {
     "title": "Създаване на поръчка",
