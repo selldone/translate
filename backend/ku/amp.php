@@ -1,5 +1,5 @@
-<?php 
-
+<?php
+// Kurdish
  return [
      "home" => "firotin",
      "blogs" => "Blog",

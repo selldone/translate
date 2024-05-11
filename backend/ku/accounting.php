@@ -1,4 +1,4 @@
-<?php 
+<?php
 
  return [
      "RECEIPT_ACCOUNT_FEE" => "Ji bo hesabê heqê hesabê çêbikin: :account_number",
