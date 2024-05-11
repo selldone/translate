@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "private": false,
   "type": "module",
-  "author": "Mehrdad Pajuhaan <mehrdad@selldone.com> (https://pajuhaan.com)",
+  "author": "Mehrdad Pajuhaan <mehrdad@selldone.com> (https://selldone.com)",
   "scripts": {
     "publish": "npm publish --access public"
   },
