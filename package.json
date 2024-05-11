@@ -5,6 +5,7 @@
   "type": "module",
   "author": "Mehrdad Pajuhaan <mehrdad@selldone.com> (https://selldone.com)",
   "scripts": {
+    "clean": "tsc --build --clean",
     "publish": "npm publish --access public"
   },
 
@@ -22,6 +23,6 @@
 
   },
   "devDependencies": {
-
+    "typescript": "^5.4.5"
   }
 }
