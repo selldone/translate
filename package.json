@@ -1,0 +1,27 @@
+{
+  "name": "@selldone/translate",
+  "version": "1.0.1",
+  "private": false,
+  "type": "module",
+  "author": "Mehrdad Pajuhaan <mehrdad@selldone.com> (https://pajuhaan.com)",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
+
+  "bugs": {
+    "url": "https://github.com/selldone/translate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selldone/translate.git"
+  },
+  "homepage": "https://selldone.com",
+  "license": "MIT",
+
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  }
+}
