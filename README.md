@@ -1,3 +1,5 @@
+![npm](https://img.shields.io/npm/v/selldone/translate)
+
 # Business OS Translation
 
 **Community Volunteers ❤** - Translation files of Selldone (Dashboards, Shops, Applications, ...)
