@@ -1,0 +1,60 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "ESNext",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+
+    "noEmitOnError": false,
+
+
+    // Required in Vue projects
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
+
+    // `"noImplicitThis": true` is part of `strict`
+    // Added again here in case some users decide to disable `strict`.
+    // This enables stricter inference for data properties on `this`.
+    "noImplicitThis": false,
+    "strict": true,
+
+
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "allowImportingTsExtensions": true,
+    "downlevelIteration": true,
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "rootDir": ".",
+    "paths": {
+      "@selldone/core-js/*": [
+
+        "*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "*.ts",
+    "*.tsx",
+  ],
+  "exclude": [
+    "node_modules",
+    "Backend",
+    "_docs",
+    "public"
+  ]
+}
