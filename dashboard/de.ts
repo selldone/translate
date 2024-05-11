@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "GitHub",
   "page_titles": {
-    "home": "Ausverkauft | Das Geschäftsbetriebssystem für schnell wachsende Unternehmen",
+    "home": "Ausverkauft ╏ Das Geschäftsbetriebssystem für schnell wachsende Unternehmen",
     "login": "Anmeldung",
     "register": "Registrieren",
     "auth_2fa": "2-Faktor-Authentifizierung 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Meine Geschäfte",
     "roles": "Meine Rollen",
     "wallet": "Mein Geldbeutel",
-    "personal_info": "Persönliche Informationen | KYC",
+    "personal_info": "Persönliche Informationen ╏ KYC",
     "companies": "Meine Unternehmen",
     "access_control": "Zugangskontrolle",
     "security_center": "Sicherheitscenter",
     "gifts": {
-      "received": "Geschenke | Empfangen",
-      "send": "Geschenke | Geschickt"
+      "received": "Geschenke ╏ Empfangen",
+      "send": "Geschenke ╏ Geschickt"
     },
     "monetization": {
-      "linked_accounts": "Monetarisierung | Verbundene Konten",
-      "plans": "Monetarisierung | Plan & Links"
+      "linked_accounts": "Monetarisierung ╏ Verbundene Konten",
+      "plans": "Monetarisierung ╏ Plan & Links"
     },
     "affiliate": "Affiliate",
     "avocado": "Avocado – moderner sozialer Vertriebskanal",
     "guild": "Gilde – Kollektiver Vertriebskanal",
-    "partners_login": "Partner | Client-Login"
+    "partners_login": "Partner ╏ Client-Login"
   },
   "blank_is_all_products": "Leer lassen, um alle Produkte einzuschließen!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Während der Bestellabwicklung kann die gelieferte Menge von der bestellten Menge abweichen. Das System berechnet diese Differenz automatisch und erfasst sie als Ihre Schuld gegenüber dem Kunden, die für die nächsten Bestellungen verwendet werden kann.",
       "status_list": {
         "active": {
-          "title": "Aktiv | Online- und Offline-Verkauf",
+          "title": "Aktiv ╏ Online- und Offline-Verkauf",
           "description": "Dieses Produkt wird für Online-Bestellungen verfügbar sein."
         },
         "inactive": {
-          "title": "Inaktiv | Nur Offline-Verkäufe",
+          "title": "Inaktiv ╏ Nur Offline-Verkäufe",
           "description": "Dieses Produkt ist nicht für Online-Bestellungen verfügbar."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Einfach",
         "dark_input": "Dunkles Thema?",
         "icon_input": "Symbol",
-        "icon_input_hint": "Material Design Icon Name oder Fontawsom: fas fa-star",
+        "icon_input_hint": "Material Design Icon Name oder Fontawsom: fa:fas fa-star",
         "anim_input": "Animationsadresse",
         "anim_input_message": "URL der Lottie-Animationsdatei",
         "preview": "Vorschau",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Die Bestellung wurde auf Eis gelegt. {reason}",
     "connect-remove-hold": "Die Bestellung wurde aus der Warteschleife entfernt. {reason}",
     "connect-confirmed": "Die Bestellung wurde bestätigt.",
-    "email-vendor": "🔔 Bestellbenachrichtigungs-E-Mail wurde an <b>{vendor}</b> | gesendet {email}.",
+    "email-vendor": "🔔 Bestellbenachrichtigungs-E-Mail wurde an <b>{vendor}</b> ╏ gesendet {email}.",
     "vendor-payout": "💸 Auszahlung an den Verkäufer."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Rechner | Passend zu Ihrem Unternehmen",
+    "title": "Rechner ╏ Passend zu Ihrem Unternehmen",
     "description": "Berechnen und wählen Sie den besten Plan basierend auf Ihren monatlichen Verkäufen:",
     "sale_input": "Monatlicher Verkaufsbetrag",
     "hypernova_plan": "Bewerben Sie sich für Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Standorteinstellungen speichern",
     "save_alert": "Einstellungen werden nicht gespeichert!",
     "pos_tax_setting": "POS-Steuereinstellungen",
-    "tax_exclude_title": "Ausgeschlossen | Die Mehrwertsteuer wird an der Kasse hinzugefügt",
+    "tax_exclude_title": "Ausgeschlossen ╏ Die Mehrwertsteuer wird an der Kasse hinzugefügt",
     "tax_excluded_message": "Die Steuern werden vor den Zahlungen während des Bezahlvorgangs berechnet und abhängig von Ihren Kundennachweisen zum Preis ohne Steuern hinzugerechnet."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktiv",
-      "title": "Aktiv | Online- und Offline-Verkauf",
+      "title": "Aktiv ╏ Online- und Offline-Verkauf",
       "description": "Dieses Produkt wird für Online-Bestellungen verfügbar sein."
     },
     "close": {
       "name": "inaktiv",
-      "title": "Inaktiv | Nur Offline-Verkäufe",
+      "title": "Inaktiv ╏ Nur Offline-Verkäufe",
       "description": "Dieses Produkt ist nicht für Online-Bestellungen verfügbar."
     },
     "pending": {

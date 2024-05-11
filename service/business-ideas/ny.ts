@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Zogulitsa Zamagulu",
-      "subtitle": "Avocado | Yambani kugulitsa ndi ulalo umodzi wokha",
+      "subtitle": "Avocado ╏ Yambani kugulitsa ndi ulalo umodzi wokha",
       "custom_form": "Fomu yoyitanitsa mwamakonda",
       "step1": "Kukwaniritsidwa kwa Avocado",
       "step2": "Mitengo ndi invoice nkhani",

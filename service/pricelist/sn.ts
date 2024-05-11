@@ -2,7 +2,7 @@ export default {
   "title": "Tanga Mahara, Kura Nekukurumidza!",
   "sub_title": "Unlimited kuwana kune ese maficha pasina muripo! Chete <b>2% yekutengesa</b> , mushure mekutenga kwakabudirira. Iwe une zvakawanda zvekutengesa uye unoda kuderedza mari?",
   "show_detail_list": "Ratidza rondedzero yezvakawanda",
-  "plan_free_detail": "<b class='text-capitalize'>Iyo inoshanda sisitimu yemabhizinesi ari kukurumidza kukura</b> | Tanga bhizinesi rako nehurongwa hwedu hwemahara. Zvese zvaunoda kuti utange uye kuvhura yako eCommerce webhusaiti yakagadzirira pano. Selldone inopa ese software, maturusi, uye gore rekubata mhinduro nemahara kunyorera chirongwa. Selldone inowedzera inotarisira zvese zvekuvandudza software uye kufunga nezvekuchengetedza. Saka iwe unogona kutarisa zvese zvaunoedza pakutengesa uye usazvinetse nezve tekinoroji nyaya uye mutengo.",
+  "plan_free_detail": "<b class='text-capitalize'>Iyo inoshanda sisitimu yemabhizinesi ari kukurumidza kukura</b> ╏ Tanga bhizinesi rako nehurongwa hwedu hwemahara. Zvese zvaunoda kuti utange uye kuvhura yako eCommerce webhusaiti yakagadzirira pano. Selldone inopa ese software, maturusi, uye gore rekubata mhinduro nemahara kunyorera chirongwa. Selldone inowedzera inotarisira zvese zvekuvandudza software uye kufunga nezvekuchengetedza. Saka iwe unogona kutarisa zvese zvaunoedza pakutengesa uye usazvinetse nezve tekinoroji nyaya uye mutengo.",
   "pay_monthly": "Bhadhara pamwedzi",
   "pay_yearly": "Bhadhara gore negore",
   "pay_yearly_off": "30% kubva",

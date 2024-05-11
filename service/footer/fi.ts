@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Kilta",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Suunnitelmat ja hinnoittelu",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

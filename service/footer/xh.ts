@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Umbutho",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Izicwangciso & Amaxabiso",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

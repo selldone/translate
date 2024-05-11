@@ -2,7 +2,7 @@ export default {
   "title": "Filloni falas, rrituni shpejt!",
   "sub_title": "Qasje e pakufizuar në të gjitha veçoritë pa asnjë kosto! Vetëm <b>2% e shitjes</b> , menjëherë pas blerjeve të suksesshme. Keni shumë shitje dhe dëshironi të ulni tarifat?",
   "show_detail_list": "Shfaq listën e detajeve",
-  "plan_free_detail": "<b class='text-capitalize'>Një sistem operativ për bizneset me rritje të shpejtë</b> | Filloni biznesin tuaj me planin tonë falas. Gjithçka që ju nevojitet për të filluar dhe nisur uebsajtin tuaj të tregtisë elektronike është gati këtu. Selldone ofron të gjithë softuerin, mjetet dhe zgjidhjen e pritjes në cloud me planin e abonimit falas. Selldone kujdeset gjithashtu për të gjitha përditësimet e softuerit dhe konsideratat e sigurisë. Kështu që ju mund t'i përqendroni të gjitha përpjekjet tuaja në shitje dhe të mos shqetësoheni për çështje teknike dhe kosto.",
+  "plan_free_detail": "<b class='text-capitalize'>Një sistem operativ për bizneset me rritje të shpejtë</b> ╏ Filloni biznesin tuaj me planin tonë falas. Gjithçka që ju nevojitet për të filluar dhe nisur uebsajtin tuaj të tregtisë elektronike është gati këtu. Selldone ofron të gjithë softuerin, mjetet dhe zgjidhjen e pritjes në cloud me planin e abonimit falas. Selldone kujdeset gjithashtu për të gjitha përditësimet e softuerit dhe konsideratat e sigurisë. Kështu që ju mund t'i përqendroni të gjitha përpjekjet tuaja në shitje dhe të mos shqetësoheni për çështje teknike dhe kosto.",
   "pay_monthly": "Paguani çdo muaj",
   "pay_yearly": "Paguani çdo vit",
   "pay_yearly_off": "30% ulje",

@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Guilda",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Piani è Prezzi",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

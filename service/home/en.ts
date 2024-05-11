@@ -42,14 +42,14 @@ export default {
 
   s1: {
     /* title: "Make Your Online Store By<br>No—Code & No—Expert Needed Solution",
-     title_animated_words: [
-       "Entrepreneurs",
-       "Artists",
-       "Independent Businesses",
-       "Brands",
-       "Retails",
-       "Creators",
-     ],*/
+         title_animated_words: [
+           "Entrepreneurs",
+           "Artists",
+           "Independent Businesses",
+           "Brands",
+           "Retails",
+           "Creators",
+         ],*/
 
     subtitle:
       "For <b>business owners</b> and <b>merchants</b> looking for a unique, fast, secure, and reliable experience for their customers, this tool helps you build a fast ecommerce store, seamless in-store management and self-owned unique community around it on the <b>white-label enterprise-grade</b> business operating system.",
@@ -147,6 +147,11 @@ export default {
       pos: "Point of Sale",
       blog: "Blog & CMS",
       community: "Community & Forum",
+
+      ecommerce_desc: "Sell your products and services online.",
+      pos_desc: "Sell your products and services in-person.",
+      blog_desc: "Powerful CMS to publish your articles and posts.",
+      community_desc: "Create your own community and forum.",
     },
 
     job: {
@@ -224,6 +229,7 @@ export default {
   },
 
   api: {
+    header:'Open Source API & SDK With {infinite} Customization',
     title: "Dev. friendly",
     msg: "A fully open API-based solution for online businesses.",
 
@@ -290,9 +296,9 @@ export default {
     msg: "Congratulation, you have had most things done before. Create your online store just by one tap! Selldone takes care of the rest.",
   },
   /* demo: {
-    title: "View Demo",
-    msg: "See professional live e-commerces",
-  },*/
+      title: "View Demo",
+      msg: "See professional live e-commerces",
+    },*/
 
   unbanked: {
     title: "Onetime action, Lifetime benefit — Objective.",
@@ -327,6 +333,9 @@ export default {
   },
 
   why_boxes: {
+    title:'Optimized for online & in-store sales at scale',
+    subtitle:'Crafted for conversion. Elevate your online shop with intuitive tools designed to turn visitors into customers.',
+
     block1: {
       title: "Save initial cost",
       subtitle: "No-theme & No-plugin Solution.",
@@ -392,7 +401,32 @@ export default {
   product_page: {
     title: "The Output After Adding Your First Product.",
     msg: "Bring your ideas to life with just a few clicks.",
-    open_sample_product_link:"Open Live Product",
-    open_templates:'View Templates'
+    open_sample_product_link: "Open Live Product",
+    open_templates: "View Templates",
   },
+
+  /** {@see CountrySupportBox} */
+  support_box: {
+    country_select_label: "Select your country",
+    we_support_message: "We support {country}",
+    we_limited_support: "We limited support {country}",
+    support_message_long:
+      "Experience seamless online transactions in your country with Selldone! Alongside professional TAX calculations, we offer diverse payment methods including cash, POS, bank transfers, and more. Start building your business on a platform that fully supports your country's needs.",
+    limited_support_message_long:
+      "            Online payments might not be available in your country, but no need to worry! At Selldone, we offer cash payments, bank transfers, and Cash on Delivery (COD) worldwide. You can confidently build your online business with us while adhering to your country's and Europe's regulations. For further details or to inquire about online payment support in your country, please feel free to contact our support team.\n",
+    more_about_selldone_in_country: "About Selldone in this country",
+    support_worldwide_customers:
+      "You can sell your products and services to all customers in <b>all countries</b>!",
+  },
+
+  hero: {
+    intro: "#1 Operating System for Businesses",
+    title: "Replace {infinite} Plugins & Apps with One {app}",
+    functionality:'Functionality',
+    screenshots:'Screenshots',
+    functionality_tooltip:'Select your business infrastructure with ease and confidence! We display <b>real product screenshots</b>, not photoshopped images!'
+
+  },
+
+
 };

@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Predané | Podnikový operačný systém pre rýchlo rastúce spoločnosti",
+    "home": "Predané ╏ Podnikový operačný systém pre rýchlo rastúce spoločnosti",
     "login": "Prihlásiť sa",
     "register": "Registrovať",
     "auth_2fa": "2-faktorová autentifikácia 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Moje obchody",
     "roles": "Moje role",
     "wallet": "Moja peňaženka",
-    "personal_info": "Osobné údaje | KYC",
+    "personal_info": "Osobné údaje ╏ KYC",
     "companies": "Moje spoločnosti",
     "access_control": "Riadenie prístupu",
     "security_center": "Centrum zabezpečenia",
     "gifts": {
-      "received": "Darčeky | Prijaté",
-      "send": "Darčeky | Odoslané"
+      "received": "Darčeky ╏ Prijaté",
+      "send": "Darčeky ╏ Odoslané"
     },
     "monetization": {
-      "linked_accounts": "Speňaženie | Prepojené účty",
-      "plans": "Speňaženie | Plán a odkazy"
+      "linked_accounts": "Speňaženie ╏ Prepojené účty",
+      "plans": "Speňaženie ╏ Plán a odkazy"
     },
     "affiliate": "Pridružený",
     "avocado": "Avokádo – moderný sociálny predajný kanál",
     "guild": "Guild — kolektívny predajný kanál",
-    "partners_login": "Partneri | Prihlásenie klienta"
+    "partners_login": "Partneri ╏ Prihlásenie klienta"
   },
   "blank_is_all_products": "Ak chcete zahrnúť všetky produkty, nechajte prázdne!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Počas spracovania objednávky sa dodané množstvo môže líšiť od objednaného množstva. Systém tento rozdiel automaticky vypočíta a zaeviduje ako váš dlh voči zákazníkovi, ktorý je možné uplatniť pri ďalších objednávkach.",
       "status_list": {
         "active": {
-          "title": "Aktívne | Online a offline predaj",
+          "title": "Aktívne ╏ Online a offline predaj",
           "description": "Tento produkt bude dostupný pre online objednávky."
         },
         "inactive": {
-          "title": "Neaktívne | Iba offline predaj",
+          "title": "Neaktívne ╏ Iba offline predaj",
           "description": "Tento produkt nebude dostupný pre online objednávky."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Jednoduché",
         "dark_input": "Tmavá téma?",
         "icon_input": "Ikona",
-        "icon_input_hint": "Názov ikony Material Design alebo Fontawsom: fas fa-star",
+        "icon_input_hint": "Názov ikony Material Design alebo Fontawsom: fa:fas fa-star",
         "anim_input": "Adresa animácie",
         "anim_input_message": "Adresa URL súboru animácie lotie",
         "preview": "Náhľad",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Objednávka bola pozastavená. {reason}",
     "connect-remove-hold": "Objednávka bola stiahnutá z pozastavenia. {reason}",
     "connect-confirmed": "Objednávka bola potvrdená.",
-    "email-vendor": "🔔 E-mail s informáciami o objednávke bol odoslaný <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 E-mail s informáciami o objednávke bol odoslaný <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Výplata predajcovi."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Kalkulačka | Prispôsobte sa vášmu podnikaniu",
+    "title": "Kalkulačka ╏ Prispôsobte sa vášmu podnikaniu",
     "description": "Vypočítajte a vyberte si najlepší plán na základe mesačného predaja:",
     "sale_input": "Mesačný objem predaja",
     "hypernova_plan": "Prihláste sa na Hypernovu %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Nastavenia miest uloženia",
     "save_alert": "Nastavenia sa neuložia!",
     "pos_tax_setting": "Nastavenia dane POS",
-    "tax_exclude_title": "Vylúčené | Daň bude pripočítaná pri pokladni",
+    "tax_exclude_title": "Vylúčené ╏ Daň bude pripočítaná pri pokladni",
     "tax_excluded_message": "Dane sa vypočítajú pred platbami počas platby a pripočítajú sa k cene bez dane v závislosti od dôkazov vášho zákazníka."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktívne",
-      "title": "Aktívne | Online a offline predaj",
+      "title": "Aktívne ╏ Online a offline predaj",
       "description": "Tento produkt bude dostupný pre online objednávky."
     },
     "close": {
       "name": "neaktívne",
-      "title": "Neaktívne | Iba offline predaj",
+      "title": "Neaktívne ╏ Iba offline predaj",
       "description": "Tento produkt nebude dostupný pre online objednávky."
     },
     "pending": {

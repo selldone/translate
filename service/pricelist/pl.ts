@@ -2,7 +2,7 @@ export default {
   "title": "Zacznij bezpłatnie, rozwijaj się szybko!",
   "sub_title": "Nieograniczony dostęp do wszystkich funkcji bez żadnych kosztów! Tylko <b>2% sprzedaży</b> , zaraz po udanych zakupach. Masz dużo sprzedaży i chcesz obniżyć opłaty?",
   "show_detail_list": "Pokaż listę szczegółów",
-  "plan_free_detail": "<b class='text-capitalize'>System operacyjny dla szybko rozwijających się firm</b> | Rozpocznij swoją działalność dzięki naszemu bezpłatnemu planowi. Wszystko, czego potrzebujesz do uruchomienia i uruchomienia witryny eCommerce, jest tutaj gotowe. Selldone zapewnia całe oprogramowanie, narzędzia i rozwiązania hostingowe w chmurze w ramach bezpłatnego abonamentu. Selldone dodatkowo dba o wszystkie aktualizacje oprogramowania i kwestie bezpieczeństwa. Dzięki temu możesz skupić wszystkie swoje wysiłki na sprzedaży i nie martwić się problemami technicznymi i kosztami.",
+  "plan_free_detail": "<b class='text-capitalize'>System operacyjny dla szybko rozwijających się firm</b> ╏ Rozpocznij swoją działalność dzięki naszemu bezpłatnemu planowi. Wszystko, czego potrzebujesz do uruchomienia i uruchomienia witryny eCommerce, jest tutaj gotowe. Selldone zapewnia całe oprogramowanie, narzędzia i rozwiązania hostingowe w chmurze w ramach bezpłatnego abonamentu. Selldone dodatkowo dba o wszystkie aktualizacje oprogramowania i kwestie bezpieczeństwa. Dzięki temu możesz skupić wszystkie swoje wysiłki na sprzedaży i nie martwić się problemami technicznymi i kosztami.",
   "pay_monthly": "Płać co miesiąc",
   "pay_yearly": "Płać co roku",
   "pay_yearly_off": "30% z",

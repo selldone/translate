@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 ગિલ્ડ",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "યોજનાઓ અને કિંમત",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

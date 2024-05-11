@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Sosiale verkope",
-      "subtitle": "Avokado | Begin verkoop net deur een skakel",
+      "subtitle": "Avokado ╏ Begin verkoop net deur een skakel",
       "custom_form": "Pasgemaakte bestelvorm",
       "step1": "Avokado vervulling",
       "step2": "Pryse en faktuur kwessie",

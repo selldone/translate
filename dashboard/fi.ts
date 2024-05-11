@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "myyty | Liiketoiminnan käyttöjärjestelmä nopeasti kasvaville yrityksille",
+    "home": "myyty ╏ Liiketoiminnan käyttöjärjestelmä nopeasti kasvaville yrityksille",
     "login": "Kirjaudu sisään",
     "register": "Rekisteröidy",
     "auth_2fa": "2-kerroksinen todennus 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Omat kaupat",
     "roles": "Minun roolini",
     "wallet": "Lompakkoni",
-    "personal_info": "Henkilökohtaiset tiedot | KYC",
+    "personal_info": "Henkilökohtaiset tiedot ╏ KYC",
     "companies": "Yritykseni",
     "access_control": "Kulunvalvonta",
     "security_center": "Turvallisuuskeskus",
     "gifts": {
-      "received": "Lahjat | Sai",
-      "send": "Lahjat | Lähetetty"
+      "received": "Lahjat ╏ Sai",
+      "send": "Lahjat ╏ Lähetetty"
     },
     "monetization": {
-      "linked_accounts": "Kaupallistaminen | Linkitetyt tilit",
-      "plans": "Kaupallistaminen | Suunnitelma & Linkit"
+      "linked_accounts": "Kaupallistaminen ╏ Linkitetyt tilit",
+      "plans": "Kaupallistaminen ╏ Suunnitelma & Linkit"
     },
     "affiliate": "Yhteistyökumppani",
     "avocado": "Avocado – moderni sosiaalinen myyntikanava",
     "guild": "Kilta – kollektiivinen myyntikanava",
-    "partners_login": "Yhteistyökumppanit | Asiakkaan kirjautuminen"
+    "partners_login": "Yhteistyökumppanit ╏ Asiakkaan kirjautuminen"
   },
   "blank_is_all_products": "Jätä tyhjäksi sisällyttääksesi kaikki tuotteet!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Tilauksen käsittelyn aikana toimitettu summa voi poiketa tilauksesta. Järjestelmä laskee tämän erotuksen automaattisesti ja kirjaa sen velkasi asiakkaalle, jota voidaan soveltaa seuraaviin tilauksiin.",
       "status_list": {
         "active": {
-          "title": "Aktiivinen | Online- ja offline-myynti",
+          "title": "Aktiivinen ╏ Online- ja offline-myynti",
           "description": "Tämä tuote on saatavilla verkkotilauksille."
         },
         "inactive": {
-          "title": "Epäaktiivinen | Vain offline-myynti",
+          "title": "Epäaktiivinen ╏ Vain offline-myynti",
           "description": "Tämä tuote ei ole saatavilla verkkotilauksille."
         }
       },
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Tilaus pantiin odotustilaan. {reason}",
     "connect-remove-hold": "Tilaus poistettiin odotustilasta. {reason}",
     "connect-confirmed": "Tilaus vahvistettiin.",
-    "email-vendor": "🔔 Tilaustiedotussähköposti on lähetetty osoitteeseen <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 Tilaustiedotussähköposti on lähetetty osoitteeseen <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Maksu myyjälle."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Laskin | Sopii yritykseesi",
+    "title": "Laskin ╏ Sopii yritykseesi",
     "description": "Laske ja valitse paras suunnitelma kuukausimyyntisi perusteella:",
     "sale_input": "Kuukauden myyntimäärä",
     "hypernova_plan": "Hae Hypernova %0:aan!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Kaupan sijainnit Asetukset",
     "save_alert": "Asetuksia ei tallenneta!",
     "pos_tax_setting": "POS-veroasetukset",
-    "tax_exclude_title": "Poissuljettu | Vero lisätään kassalla",
+    "tax_exclude_title": "Poissuljettu ╏ Vero lisätään kassalla",
     "tax_excluded_message": "Verot lasketaan ennen maksuja kassalla ja lisätään verottomaan hintaan asiakastodistuksistasi riippuen."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktiivinen",
-      "title": "Aktiivinen | Online- ja offline-myynti",
+      "title": "Aktiivinen ╏ Online- ja offline-myynti",
       "description": "Tämä tuote on saatavilla verkkotilauksille."
     },
     "close": {
       "name": "epäaktiivinen",
-      "title": "Epäaktiivinen | Vain offline-myynti",
+      "title": "Epäaktiivinen ╏ Vain offline-myynti",
       "description": "Tämä tuote ei ole saatavilla verkkotilauksille."
     },
     "pending": {

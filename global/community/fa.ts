@@ -128,7 +128,7 @@ export default {
     reports: "گزارش ها",
   },
 
-  /** @see CommunityBreadcrumb **/
+  /** @see CBreadcrumb **/
 
   nominate: {
     note: "شما می توانید فردی که میشناسید را معرفی نمایید. در صورتی که این فرد قبلا توسط فردی دیگر تایید نشده باشد, شما به عنوان تایید کننده ایشان ثبت خواهید شد. دوست شما بایستی قبلا عضو سلدان شده باشد تا بتوانید ایشان را تایید نمایید.",
@@ -297,7 +297,7 @@ export default {
     },
   },
 
-  /** @see CommunityBreadcrumb **/
+  /** @see CBreadcrumb **/
   invite: {
     not_have_profile_error: "این کاربر پروفایل خود را تکمیل ننموده است!",
     nominated_before_error: "این کاربر قبلا معرفی و تایید شده است!",

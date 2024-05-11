@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "satıldı | Hızlı Büyüyen Şirketler İçin İş İşletim Sistemi",
+    "home": "satıldı ╏ Hızlı Büyüyen Şirketler İçin İş İşletim Sistemi",
     "login": "Giriş yapmak",
     "register": "Kayıt olmak",
     "auth_2fa": "2 faktörlü Kimlik Doğrulama 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Mağazalarım",
     "roles": "Rollerim",
     "wallet": "Cüzdanım",
-    "personal_info": "Kişisel Bilgiler | KYC",
+    "personal_info": "Kişisel Bilgiler ╏ KYC",
     "companies": "Şirketlerim",
     "access_control": "Giriş kontrolu",
     "security_center": "Güvenlik Merkezi",
     "gifts": {
-      "received": "Hediyeler | Alınan",
-      "send": "Hediyeler | Gönderilmiş"
+      "received": "Hediyeler ╏ Alınan",
+      "send": "Hediyeler ╏ Gönderilmiş"
     },
     "monetization": {
-      "linked_accounts": "para kazanma | Bağlı Hesaplar",
-      "plans": "para kazanma | Plan ve Bağlantılar"
+      "linked_accounts": "para kazanma ╏ Bağlı Hesaplar",
+      "plans": "para kazanma ╏ Plan ve Bağlantılar"
     },
     "affiliate": "bağlı kuruluş",
     "avocado": "Avokado — Modern Sosyal Satış Kanalı",
     "guild": "Lonca — Toplu Satış Kanalı",
-    "partners_login": "Ortaklar | Kullanıcı girişi"
+    "partners_login": "Ortaklar ╏ Kullanıcı girişi"
   },
   "blank_is_all_products": "Tüm ürünleri dahil etmek için boş bırakın!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Sipariş işleme sırasında, teslim edilen miktar sipariş edilen miktardan farklı olabilir. Sistem bu farkı otomatik olarak hesaplar ve müşteriye borcunuz olarak kaydeder, sonraki siparişlerde uygulanabilmektedir.",
       "status_list": {
         "active": {
-          "title": "Aktif | Çevrimiçi ve Çevrimdışı Satışlar",
+          "title": "Aktif ╏ Çevrimiçi ve Çevrimdışı Satışlar",
           "description": "Bu ürün internet üzerinden sipariş edilebilecektir."
         },
         "inactive": {
-          "title": "Etkin değil | Yalnızca Çevrimdışı Satışlar",
+          "title": "Etkin değil ╏ Yalnızca Çevrimdışı Satışlar",
           "description": "Bu ürün online siparişler için mevcut olmayacaktır."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Basit",
         "dark_input": "Karanlık tema?",
         "icon_input": "Simge",
-        "icon_input_hint": "Materyal Tasarım Simgesi Adı veya Fontawsom: fas fa-star",
+        "icon_input_hint": "Materyal Tasarım Simgesi Adı veya Fontawsom: fa:fas fa-star",
         "anim_input": "Animasyon Adresi",
         "anim_input_message": "Lottie animasyon dosyası URL'si",
         "preview": "Ön izleme",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Sipariş beklemeye alındı. {reason}",
     "connect-remove-hold": "Sipariş beklemeden kaldırıldı. {reason}",
     "connect-confirmed": "Sipariş onaylandı.",
-    "email-vendor": "🔔 Sipariş bilgisi e-postası <b>{vendor}</b> 'a gönderildi | {email}.",
+    "email-vendor": "🔔 Sipariş bilgisi e-postası <b>{vendor}</b> 'a gönderildi ╏ {email}.",
     "vendor-payout": "💸 Satıcıya ödeme."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Hesap Makinesi | İşletmenize uygun",
+    "title": "Hesap Makinesi ╏ İşletmenize uygun",
     "description": "Aylık satışlarınıza göre en iyi planı hesaplayın ve seçin:",
     "sale_input": "Aylık satış tutarı",
     "hypernova_plan": "%0 Hipernova için Başvurun!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Mağaza konumları Ayarlar",
     "save_alert": "Ayarlar kaydedilmedi!",
     "pos_tax_setting": "POS Vergi ayarları",
-    "tax_exclude_title": "Hariç tutuldu | Vergi ödeme sırasında eklenecektir",
+    "tax_exclude_title": "Hariç tutuldu ╏ Vergi ödeme sırasında eklenecektir",
     "tax_excluded_message": "Vergiler, ödeme sırasında ödemelerden önce hesaplanacak ve müşteri kanıtlarınıza bağlı olarak hariç tutulan vergi fiyatına eklenecektir."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktif",
-      "title": "Aktif | Çevrimiçi ve Çevrimdışı Satışlar",
+      "title": "Aktif ╏ Çevrimiçi ve Çevrimdışı Satışlar",
       "description": "Bu ürün internet üzerinden sipariş edilebilecektir."
     },
     "close": {
       "name": "aktif değil",
-      "title": "Etkin değil | Yalnızca Çevrimdışı Satışlar",
+      "title": "Etkin değil ╏ Yalnızca Çevrimdışı Satışlar",
       "description": "Bu ürün online siparişler için mevcut olmayacaktır."
     },
     "pending": {

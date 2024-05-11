@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Huihuinga",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Mahere me te utu",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

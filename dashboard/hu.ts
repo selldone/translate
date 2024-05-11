@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Eladva | Az üzleti operációs rendszer gyorsan növekvő vállalatok számára",
+    "home": "Eladva ╏ Az üzleti operációs rendszer gyorsan növekvő vállalatok számára",
     "login": "Belépés",
     "register": "Regisztráció",
     "auth_2fa": "2 faktoros hitelesítés 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Saját üzletek",
     "roles": "Az én szerepeim",
     "wallet": "A pénztárcám",
-    "personal_info": "Személyes adatok | KYC",
+    "personal_info": "Személyes adatok ╏ KYC",
     "companies": "Cégeim",
     "access_control": "Hozzáférés-szabályozás",
     "security_center": "Biztonsági Központ",
     "gifts": {
-      "received": "Ajándékok | Megkapta",
-      "send": "Ajándékok | Küldött"
+      "received": "Ajándékok ╏ Megkapta",
+      "send": "Ajándékok ╏ Küldött"
     },
     "monetization": {
-      "linked_accounts": "Bevételszerzés | Csatolt fiókok",
-      "plans": "Bevételszerzés | Terv és linkek"
+      "linked_accounts": "Bevételszerzés ╏ Csatolt fiókok",
+      "plans": "Bevételszerzés ╏ Terv és linkek"
     },
     "affiliate": "Leányvállalat",
     "avocado": "Avokádó – Modern közösségi értékesítési csatorna",
     "guild": "Guild – Kollektív értékesítési csatorna",
-    "partners_login": "Partnerek | Ügyfél bejelentkezés"
+    "partners_login": "Partnerek ╏ Ügyfél bejelentkezés"
   },
   "blank_is_all_products": "Hagyja üresen az összes terméket!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "A megrendelés feldolgozása során a szállított összeg eltérhet a megrendelt mennyiségtől. Ezt a különbözetet a rendszer automatikusan kiszámolja és az Ön tartozásaként tartja nyilván a vevő felé, amit a következő rendeléseknél lehet alkalmazni.",
       "status_list": {
         "active": {
-          "title": "Aktív | Online és offline értékesítés",
+          "title": "Aktív ╏ Online és offline értékesítés",
           "description": "Ez a termék online rendelhető lesz."
         },
         "inactive": {
-          "title": "Inaktív | Csak offline értékesítés",
+          "title": "Inaktív ╏ Csak offline értékesítés",
           "description": "Ez a termék online rendelés esetén nem lesz elérhető."
         }
       },
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "A parancsot felfüggesztették. {reason}",
     "connect-remove-hold": "A megrendelés megőrzésre került. {reason}",
     "connect-confirmed": "A rendelést megerősítették.",
-    "email-vendor": "🔔 A rendelésről értesítő e-mailt elküldtük a(z <b>) {vendor}</b> | címre {email}.",
+    "email-vendor": "🔔 A rendelésről értesítő e-mailt elküldtük a(z <b>) {vendor}</b> ╏ címre {email}.",
     "vendor-payout": "💸 Kifizetés az eladónak."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Számológép | Illeszkedik vállalkozásához",
+    "title": "Számológép ╏ Illeszkedik vállalkozásához",
     "description": "Számolja ki és válassza ki a legjobb tervet a havi eladásai alapján:",
     "sale_input": "Havi eladási összeg",
     "hypernova_plan": "Jelentkezz a Hypernova %0-ra!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Üzlethelyiségek Beállítások",
     "save_alert": "A beállítások nincsenek elmentve!",
     "pos_tax_setting": "POS adóbeállítások",
-    "tax_exclude_title": "Kizárva | Az adó a pénztárnál kerül hozzáadásra",
+    "tax_exclude_title": "Kizárva ╏ Az adó a pénztárnál kerül hozzáadásra",
     "tax_excluded_message": "Az adókat a fizetés előtt számítjuk ki a fizetés során, és hozzáadjuk a nem tartalmazott adóhoz, az Ön ügyféligazolásától függően."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktív",
-      "title": "Aktív | Online és offline értékesítés",
+      "title": "Aktív ╏ Online és offline értékesítés",
       "description": "Ez a termék online rendelhető lesz."
     },
     "close": {
       "name": "inaktív",
-      "title": "Inaktív | Csak offline értékesítés",
+      "title": "Inaktív ╏ Csak offline értékesítés",
       "description": "Ez a termék online rendelés esetén nem lesz elérhető."
     },
     "pending": {

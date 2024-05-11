@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 ගිල්ඩ්",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "සැලසුම් සහ මිලකරණය",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

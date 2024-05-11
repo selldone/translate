@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Sales Civakî",
-      "subtitle": "Avokado | Tenê bi yek girêdanê dest bi firotanê bikin",
+      "subtitle": "Avokado ╏ Tenê bi yek girêdanê dest bi firotanê bikin",
       "custom_form": "forma fermana Custom",
       "step1": "Pêkanîna avokado",
       "step2": "Pirsgirêka bihayê û fatûreyê",

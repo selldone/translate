@@ -1669,7 +1669,7 @@ export default {
         "simple": "単純",
         "dark_input": "暗いテーマ？",
         "icon_input": "アイコン",
-        "icon_input_hint": "マテリアルデザインのアイコン名またはFontawsom：fas fa-star",
+        "icon_input_hint": "マテリアルデザインのアイコン名またはFontawsom：fa:fas fa-star",
         "anim_input": "アニメーションアドレス",
         "anim_input_message": "ロッティアニメーションファイルのURL",
         "preview": "プレビュー",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "注文は保留されました。 {reason}",
     "connect-remove-hold": "注文は保留から削除されました。 {reason}",
     "connect-confirmed": "注文が確認されました。",
-    "email-vendor": "🔔 注文通知メールが<b>{vendor}</b>に送信されました | {email}。",
+    "email-vendor": "🔔 注文通知メールが<b>{vendor}</b>に送信されました ╏ {email}。",
     "vendor-payout": "💸ベンダーへの支払い。"
   },
   "inline_chart": {

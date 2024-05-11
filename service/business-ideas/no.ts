@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Sosialt salg",
-      "subtitle": "Avokado | Begynn å selge bare med én lenke",
+      "subtitle": "Avokado ╏ Begynn å selge bare med én lenke",
       "custom_form": "Egendefinert bestillingsskjema",
       "step1": "Oppfyllelse av avokado",
       "step2": "Pris- og fakturautstedelse",

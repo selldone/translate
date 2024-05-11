@@ -2,7 +2,7 @@ export default {
   "title": "Begin gratis, groei snel!",
   "sub_title": "Onbeperkte toegang tot alle functies zonder kosten! Slechts <b>2% van de verkoop</b> , net na succesvolle aankopen. Heeft u veel verkopen en wilt u de kosten verlagen?",
   "show_detail_list": "Lijst met details weergeven",
-  "plan_free_detail": "<b class='text-capitalize'>Een besturingssysteem voor snelgroeiende bedrijven</b> | Start uw bedrijf met ons gratis abonnement. Alles wat u nodig heeft om uw eCommerce-website te starten en te lanceren, is hier klaar. Selldone biedt alle software, tools en cloudhostingoplossingen via een gratis abonnement. Selldone zorgt bovendien voor alle software-updates en veiligheidsoverwegingen. U kunt dus al uw inspanningen richten op verkopen en u geen zorgen maken over technische problemen en kosten.",
+  "plan_free_detail": "<b class='text-capitalize'>Een besturingssysteem voor snelgroeiende bedrijven</b> ╏ Start uw bedrijf met ons gratis abonnement. Alles wat u nodig heeft om uw eCommerce-website te starten en te lanceren, is hier klaar. Selldone biedt alle software, tools en cloudhostingoplossingen via een gratis abonnement. Selldone zorgt bovendien voor alle software-updates en veiligheidsoverwegingen. U kunt dus al uw inspanningen richten op verkopen en u geen zorgen maken over technische problemen en kosten.",
   "pay_monthly": "Betaal maandelijks",
   "pay_yearly": "Betaal jaarlijks",
   "pay_yearly_off": "30% korting",

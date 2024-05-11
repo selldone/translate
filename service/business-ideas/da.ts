@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Socialt salg",
-      "subtitle": "Avocado | Begynd at sælge kun ved et link",
+      "subtitle": "Avocado ╏ Begynd at sælge kun ved et link",
       "custom_form": "Brugerdefineret bestillingsformular",
       "step1": "Avocado-opfyldelse",
       "step2": "Pris- og fakturaudstedelse",

@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Sosial satuwlar",
-      "subtitle": "Awokado | Diňe bir baglanyşyk bilen satyp başlaň",
+      "subtitle": "Awokado ╏ Diňe bir baglanyşyk bilen satyp başlaň",
       "custom_form": "Hususy sargyt formasy",
       "step1": "Awokadonyň ýerine ýetirilmegi",
       "step2": "Bahalar we hasap-faktura meselesi",

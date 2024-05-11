@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 gremio",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Planes y precios",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

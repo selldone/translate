@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Gild",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Plaanid ja hinnakujundus",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

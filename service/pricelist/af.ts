@@ -2,7 +2,7 @@ export default {
   "title": "Begin gratis, groei vinnig!",
   "sub_title": "Onbeperkte toegang tot alle funksies teen geen koste! Slegs <b>2% van uitverkoping</b> , net na suksesvolle aankope. Het jy baie verkope en wil jy die fooie verminder?",
   "show_detail_list": "Wys besonderhedelys",
-  "plan_free_detail": "<b class='text-capitalize'>'n Bedryfstelsel vir vinnig groeiende besighede</b> | Begin jou besigheid deur ons gratis plan. Alles wat u nodig het om u e-handelswebwerf te begin en bekend te stel, is hier gereed. Selldone bied alle sagteware, gereedskap en wolkgasheeroplossing deur 'n gratis intekeningplan. Selldone sorg ook vir alle sagteware-opdaterings en sekuriteitsoorwegings. U kan dus al u pogings op verkoop fokus en nie bekommerd wees oor tegniese probleme en koste nie.",
+  "plan_free_detail": "<b class='text-capitalize'>'n Bedryfstelsel vir vinnig groeiende besighede</b> ╏ Begin jou besigheid deur ons gratis plan. Alles wat u nodig het om u e-handelswebwerf te begin en bekend te stel, is hier gereed. Selldone bied alle sagteware, gereedskap en wolkgasheeroplossing deur 'n gratis intekeningplan. Selldone sorg ook vir alle sagteware-opdaterings en sekuriteitsoorwegings. U kan dus al u pogings op verkoop fokus en nie bekommerd wees oor tegniese probleme en koste nie.",
   "pay_monthly": "Betaal maandeliks",
   "pay_yearly": "Betaal jaarliks",
   "pay_yearly_off": "30% afslag",

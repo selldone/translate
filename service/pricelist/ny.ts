@@ -2,7 +2,7 @@ export default {
   "title": "Yambani Mwaulere, Kulani Mwachangu!",
   "sub_title": "Kupeza zopanda malire pazinthu zonse popanda mtengo! <b>2% yokha yogulitsa</b> , mutangogula bwino. Kodi mumagulitsa zambiri ndipo mukufuna kuchepetsa chindapusa?",
   "show_detail_list": "Onetsani mndandanda watsatanetsatane",
-  "plan_free_detail": "<b class='text-capitalize'>Makina opangira mabizinesi omwe akukula mwachangu</b> | Yambitsani bizinesi yanu ndi pulani yathu yaulere. Chilichonse chomwe mungafune kuti muyambe ndikuyambitsa tsamba lanu la eCommerce zakonzeka apa. Selldone imapereka mapulogalamu onse, zida, ndi njira yosungira mitambo ndi dongosolo lolembetsa laulere. Selldone amasamaliranso zosintha zonse zamapulogalamu ndi malingaliro achitetezo. Chifukwa chake mutha kuyang'ana zoyesayesa zanu zonse pakugulitsa komanso osadandaula zaukadaulo ndi mtengo wake.",
+  "plan_free_detail": "<b class='text-capitalize'>Makina opangira mabizinesi omwe akukula mwachangu</b> ╏ Yambitsani bizinesi yanu ndi pulani yathu yaulere. Chilichonse chomwe mungafune kuti muyambe ndikuyambitsa tsamba lanu la eCommerce zakonzeka apa. Selldone imapereka mapulogalamu onse, zida, ndi njira yosungira mitambo ndi dongosolo lolembetsa laulere. Selldone amasamaliranso zosintha zonse zamapulogalamu ndi malingaliro achitetezo. Chifukwa chake mutha kuyang'ana zoyesayesa zanu zonse pakugulitsa komanso osadandaula zaukadaulo ndi mtengo wake.",
   "pay_monthly": "Lipirani mwezi uliwonse",
   "pay_yearly": "Lipirani chaka chilichonse",
   "pay_yearly_off": "30% kuchotsera",

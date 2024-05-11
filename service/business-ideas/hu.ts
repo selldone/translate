@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Social Sales",
-      "subtitle": "Avokádó | Kezdje el az értékesítést egyetlen linkkel",
+      "subtitle": "Avokádó ╏ Kezdje el az értékesítést egyetlen linkkel",
       "custom_form": "Egyedi megrendelőlap",
       "step1": "Az avokádó beteljesülése",
       "step2": "Ár- és számlakérdés",

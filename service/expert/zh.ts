@@ -360,7 +360,7 @@ export default {
     "contact": "联系信息",
     "name_placeholder": "必需的*",
     "email": "电子邮件",
-    "email_placeholder": "必填* your-email@gmail.com",
+    "email_placeholder": "必填* your-mail{'@'}mail.com",
     "request_title": "描述你的需求。",
     "request_message": "提供有关您业务的具体信息，以帮助我们的专家更好地满足您的要求，并为您提供负担得起的价格和时间估计。",
     "description": "告诉我们更多关于您的业务",

@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Uuzaji wa Jamii",
-      "subtitle": "Parachichi | Anza kuuza kwa kiungo kimoja tu",
+      "subtitle": "Parachichi ╏ Anza kuuza kwa kiungo kimoja tu",
       "custom_form": "Fomu ya agizo maalum",
       "step1": "Utimilifu wa parachichi",
       "step2": "Suala la bei na ankara",

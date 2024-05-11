@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Penjualan Sosial",
-      "subtitle": "Alpuket | Mimitian ngajual ngan ku hiji link",
+      "subtitle": "Alpuket ╏ Mimitian ngajual ngan ku hiji link",
       "custom_form": "formulir pesenan custom",
       "step1": "minuhan alpuket",
       "step2": "Masalah harga sareng invoice",

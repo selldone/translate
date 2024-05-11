@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Bejgħ Soċjali",
-      "subtitle": "Avokado | Ibda tbigħ b'rabta waħda biss",
+      "subtitle": "Avokado ╏ Ibda tbigħ b'rabta waħda biss",
       "custom_form": "Formola tal-ordni tad-dwana",
       "step1": "Sodisfar tal-avokado",
       "step2": "Ħruġ ta' prezzijiet u fattura",

@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Breasla",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Planuri și prețuri",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

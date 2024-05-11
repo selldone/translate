@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Selldone | Sistemul de operare pentru afaceri pentru companii cu creștere rapidă",
+    "home": "Selldone ╏ Sistemul de operare pentru afaceri pentru companii cu creștere rapidă",
     "login": "Autentificare",
     "register": "Inregistreaza-te",
     "auth_2fa": "Autentificare cu 2 factori 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Magazinele mele",
     "roles": "Rolurile mele",
     "wallet": "Portofelul meu",
-    "personal_info": "Informații personale | KYC",
+    "personal_info": "Informații personale ╏ KYC",
     "companies": "Companiile mele",
     "access_control": "Controlul accesului",
     "security_center": "Centru de securitate",
     "gifts": {
-      "received": "Cadouri | Primit",
-      "send": "Cadouri | Trimis"
+      "received": "Cadouri ╏ Primit",
+      "send": "Cadouri ╏ Trimis"
     },
     "monetization": {
-      "linked_accounts": "Monetizare | Conturi asociate",
-      "plans": "Monetizare | Plan și linkuri"
+      "linked_accounts": "Monetizare ╏ Conturi asociate",
+      "plans": "Monetizare ╏ Plan și linkuri"
     },
     "affiliate": "Afiliat",
     "avocado": "Avocado — Canal modern de vânzări sociale",
     "guild": "Breasla — Canal de vânzări colectiv",
-    "partners_login": "Parteneri | Autentificare client"
+    "partners_login": "Parteneri ╏ Autentificare client"
   },
   "blank_is_all_products": "Lăsați necompletat pentru a include toate produsele!",
   "cautions": {
@@ -582,7 +582,7 @@ export default {
           "from": "Din",
           "to": "La",
           "exchange_rate": "Rata de schimb",
-          "edit": "Editați | ×",
+          "edit": "Editați ╏ ×",
           "delete": "Șterge",
           "auto": "Rata automată"
         },
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "În timpul procesării comenzii, suma livrată poate diferi de suma comandată. Sistemul calculează automat această diferență și o înregistrează ca datorie către client, care poate fi aplicată la comenzile următoare.",
       "status_list": {
         "active": {
-          "title": "Activ | Vânzări online și offline",
+          "title": "Activ ╏ Vânzări online și offline",
           "description": "Acest produs va fi disponibil pentru comenzi online."
         },
         "inactive": {
-          "title": "Inactiv | Numai vânzări offline",
+          "title": "Inactiv ╏ Numai vânzări offline",
           "description": "Acest produs nu va fi disponibil pentru comenzi online."
         }
       },
@@ -1258,7 +1258,7 @@ export default {
     "products_list": "Lista de produse",
     "product": "Produs",
     "menu": {
-      "edit": "Editați | ×",
+      "edit": "Editați ╏ ×",
       "review": "Revizuire",
       "orders": "Comenzi",
       "inventory": "Inventar",
@@ -1520,7 +1520,7 @@ export default {
       "answer": "Răspuns",
       "created_at": "Data",
       "priority": "Prioritate",
-      "edit": "Editați | ×"
+      "edit": "Editați ╏ ×"
     },
     "dialog": {
       "add_new_action": "Trimiteți o nouă întrebare",
@@ -1556,7 +1556,7 @@ export default {
       "answer": "Răspuns",
       "created_at": "Data",
       "contact": "a lua legatura",
-      "edit": "Editați | ×"
+      "edit": "Editați ╏ ×"
     },
     "dialog": {
       "title": "Răspunde la mesaj",
@@ -2082,7 +2082,7 @@ export default {
     "title": "Poarta de acces",
     "menu": {
       "dashboard": "Bord",
-      "edit": "Editați | ×",
+      "edit": "Editați ╏ ×",
       "transactions": "Tranzacții",
       "back": "Gateway-uri"
     },
@@ -2164,7 +2164,7 @@ export default {
   "gift_card": {
     "title": "Carduri cadou",
     "menu": {
-      "edit": "Editați | ×",
+      "edit": "Editați ╏ ×",
       "new_card": "Creați card",
       "list": "Carduri",
       "orders": "Comenzi",
@@ -2215,7 +2215,7 @@ export default {
         "card_number": "Număr de card",
         "balance": "Echilibru",
         "paid": "Plătit",
-        "edit": "Editați | ×",
+        "edit": "Editați ╏ ×",
         "delete": "Șterge",
         "expire": "Expiră",
         "user": "utilizator"
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Comanda a fost pusă în așteptare. {reason}",
     "connect-remove-hold": "Comanda a fost eliminată din reținere. {reason}",
     "connect-confirmed": "Comanda a fost confirmata.",
-    "email-vendor": "🔔 E-mailul de informare a comenzii a fost trimis către <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 E-mailul de informare a comenzii a fost trimis către <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Plată către furnizor."
   },
   "inline_chart": {
@@ -2904,7 +2904,7 @@ export default {
     "title": "Companie",
     "create_app": "Creați o nouă aplicație",
     "menu": {
-      "edit": "Editați | ×",
+      "edit": "Editați ╏ ×",
       "apps": "Aplicații",
       "dashboard": "Bord",
       "companies": "Companii"
@@ -2938,7 +2938,7 @@ export default {
       }
     },
     "edit": {
-      "title": "Editați | ×"
+      "title": "Editați ╏ ×"
     }
   },
   "add_app": {
@@ -2962,7 +2962,7 @@ export default {
   "app_page": {
     "title": "Aplicație",
     "menu": {
-      "edit": "Editați | ×",
+      "edit": "Editați ╏ ×",
       "publish": "Publica",
       "history": "Versiuni",
       "dashboard": "Bord",
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Calculator | Potrivit pentru afacerea dvs",
+    "title": "Calculator ╏ Potrivit pentru afacerea dvs",
     "description": "Calculați și alegeți cel mai bun plan pe baza vânzărilor dvs. lunare:",
     "sale_input": "Valoarea vânzărilor lunare",
     "hypernova_plan": "Aplicați pentru Hypernova %0!",
@@ -3756,7 +3756,7 @@ export default {
   },
   "email_page": {
     "emails": "E-mailuri",
-    "edit": "Editați | ×"
+    "edit": "Editați ╏ ×"
   },
   "affiliate_page": {
     "affiliates": "Parteneri afiliați",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Setări locații magazin",
     "save_alert": "Setările nu sunt salvate!",
     "pos_tax_setting": "Setări POS Tax",
-    "tax_exclude_title": "Exclus | Taxa va fi adăugată la finalizare",
+    "tax_exclude_title": "Exclus ╏ Taxa va fi adăugată la finalizare",
     "tax_excluded_message": "Taxele vor fi calculate înainte de plăți în timpul plății și adăugate la prețul cu taxe excluse, în funcție de dovezile clienților dvs."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Activ",
-      "title": "Activ | Vânzări online și offline",
+      "title": "Activ ╏ Vânzări online și offline",
       "description": "Acest produs va fi disponibil pentru comenzi online."
     },
     "close": {
       "name": "inactiv",
-      "title": "Inactiv | Numai vânzări offline",
+      "title": "Inactiv ╏ Numai vânzări offline",
       "description": "Acest produs nu va fi disponibil pentru comenzi online."
     },
     "pending": {

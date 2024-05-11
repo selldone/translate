@@ -2,7 +2,7 @@ export default {
   "title": "Tosaigh saor in aisce, fás go tapa!",
   "sub_title": "Rochtain neamhtheoranta ar na gnéithe go léir gan aon chostas! Níl ach <b>2 % den díol</b> , díreach tar éis ceannacháin rathúil . An bhfuil go leor díolacháin agat agus gur mhaith leat na táillí a laghdú?",
   "show_detail_list": "Taispeáin liosta sonraí",
-  "plan_free_detail": "<b class='text-capitalize'>Córas oibriúcháin do ghnólachtaí atá ag fás go tapa</b> | Cuir tús le do ghnó lenár bplean saor in aisce. Tá gach rud atá uait chun do shuíomh Gréasáin ríomhthráchtála a thosú agus a sheoladh réidh anseo. Soláthraíonn Soldone na bogearraí, na huirlisí agus an réiteach óstála scamall go léir trí phlean síntiús saor in aisce. Tugann Soldone aire freisin do gach nuashonrú bogearraí agus breithniú slándála. Mar sin is féidir leat do chuid iarrachtaí go léir a dhíriú ar dhíolachán agus gan a bheith buartha faoi shaincheisteanna teicniúla agus costais.",
+  "plan_free_detail": "<b class='text-capitalize'>Córas oibriúcháin do ghnólachtaí atá ag fás go tapa</b> ╏ Cuir tús le do ghnó lenár bplean saor in aisce. Tá gach rud atá uait chun do shuíomh Gréasáin ríomhthráchtála a thosú agus a sheoladh réidh anseo. Soláthraíonn Soldone na bogearraí, na huirlisí agus an réiteach óstála scamall go léir trí phlean síntiús saor in aisce. Tugann Soldone aire freisin do gach nuashonrú bogearraí agus breithniú slándála. Mar sin is féidir leat do chuid iarrachtaí go léir a dhíriú ar dhíolachán agus gan a bheith buartha faoi shaincheisteanna teicniúla agus costais.",
   "pay_monthly": "Íoc go míosúil",
   "pay_yearly": "Íoc go bliantúil",
   "pay_yearly_off": "30% as",

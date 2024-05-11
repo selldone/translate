@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Jualan Sosial",
-      "subtitle": "Avokado | Mula menjual hanya dengan satu pautan",
+      "subtitle": "Avokado ╏ Mula menjual hanya dengan satu pautan",
       "custom_form": "Borang pesanan tersuai",
       "step1": "Pemenuhan alpukat",
       "step2": "Isu harga dan invois",

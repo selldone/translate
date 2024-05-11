@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 גילדה",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "תוכניות ותמחור",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

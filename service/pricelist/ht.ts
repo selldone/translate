@@ -2,7 +2,7 @@ export default {
   "title": "Kòmanse gratis, grandi vit!",
   "sub_title": "Aksè san limit nan tout karakteristik gratis! Se sèlman <b>2% nan vant</b> , jis apre acha siksè. Ou gen anpil lavant epi ou vle redwi frè yo?",
   "show_detail_list": "Montre lis detay",
-  "plan_free_detail": "<b class='text-capitalize'>Yon sistèm operasyon pou biznis k ap grandi rapid</b> | Kòmanse biznis ou pa plan gratis nou an. Tout sa ou bezwen pou kòmanse ak lanse sit entènèt eCommerce ou a pare isit la. Selldone bay tout lojisyèl, zouti, ak solisyon hosting nwaj pa plan abònman gratis. Selldone anplis pran swen tout mizajou lojisyèl ak konsiderasyon sekirite. Se konsa, ou ka konsantre tout efò ou sou vann epi pa enkyete sou pwoblèm teknik ak depans yo.",
+  "plan_free_detail": "<b class='text-capitalize'>Yon sistèm operasyon pou biznis k ap grandi rapid</b> ╏ Kòmanse biznis ou pa plan gratis nou an. Tout sa ou bezwen pou kòmanse ak lanse sit entènèt eCommerce ou a pare isit la. Selldone bay tout lojisyèl, zouti, ak solisyon hosting nwaj pa plan abònman gratis. Selldone anplis pran swen tout mizajou lojisyèl ak konsiderasyon sekirite. Se konsa, ou ka konsantre tout efò ou sou vann epi pa enkyete sou pwoblèm teknik ak depans yo.",
   "pay_monthly": "Peye chak mwa",
   "pay_yearly": "Peye chak ane",
   "pay_yearly_off": "30% remise",

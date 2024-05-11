@@ -2,7 +2,7 @@ export default {
   "title": "Mulai Gratis, Tumbuh Cepat!",
   "sub_title": "Akses tak terbatas ke semua fitur tanpa biaya! Hanya <b>2% dari penjualan</b> , setelah pembelian berhasil. Apakah Anda memiliki banyak penjualan dan ingin mengurangi biaya?",
   "show_detail_list": "Tampilkan daftar detail",
-  "plan_free_detail": "<b class='text-capitalize'>Sistem operasi untuk bisnis yang berkembang pesat</b> | Mulai bisnis Anda dengan paket gratis kami. Semua yang Anda butuhkan untuk memulai dan meluncurkan situs web eCommerce Anda sudah siap di sini. Selldone menyediakan semua perangkat lunak, alat, dan solusi cloud hosting dengan paket berlangganan gratis. Selldone juga menangani semua pembaruan perangkat lunak dan pertimbangan keamanan. Jadi Anda dapat memfokuskan semua upaya Anda pada penjualan dan tidak khawatir tentang masalah teknis dan biaya.",
+  "plan_free_detail": "<b class='text-capitalize'>Sistem operasi untuk bisnis yang berkembang pesat</b> ╏ Mulai bisnis Anda dengan paket gratis kami. Semua yang Anda butuhkan untuk memulai dan meluncurkan situs web eCommerce Anda sudah siap di sini. Selldone menyediakan semua perangkat lunak, alat, dan solusi cloud hosting dengan paket berlangganan gratis. Selldone juga menangani semua pembaruan perangkat lunak dan pertimbangan keamanan. Jadi Anda dapat memfokuskan semua upaya Anda pada penjualan dan tidak khawatir tentang masalah teknis dan biaya.",
   "pay_monthly": "Bayar bulanan",
   "pay_yearly": "Bayar tahunan",
   "pay_yearly_off": "diskon 30%",

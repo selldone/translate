@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Vânzări sociale",
-      "subtitle": "Avocado | Începeți să vindeți doar printr-un singur link",
+      "subtitle": "Avocado ╏ Începeți să vindeți doar printr-un singur link",
       "custom_form": "Formular de comandă personalizat",
       "step1": "Avocado împlinire",
       "step2": "Problemă de preț și factură",

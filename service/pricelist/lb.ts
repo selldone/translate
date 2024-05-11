@@ -2,7 +2,7 @@ export default {
   "title": "Start Gratis, Wuesse séier!",
   "sub_title": "Onlimitéiert Zougang zu all Funktiounen ouni Käschten! Nëmmen <b>2% vum Verkaf</b> , just no erfollegräichen Akeef. Hutt Dir vill Verkaf a wëllt d'Fraisen reduzéieren?",
   "show_detail_list": "Show Detailer Lëscht",
-  "plan_free_detail": "<b class='text-capitalize'>En Betribssystem fir séier wuessend Geschäfter</b> | Start Äert Geschäft mat eisem gratis Plang. Alles wat Dir braucht fir Är eCommerce Websäit ze starten an ze starten ass hei prett. Selldone bitt all Software, Tools, a Cloud Hosting Léisung duerch gratis Abonnement Plang. Selldone këmmert sech zousätzlech ëm all Softwareupdates a Sécherheetsbedenken. Also kënnt Dir all Är Efforten op de Verkaf konzentréieren an Iech keng Suergen iwwer technesch Themen a Käschten.",
+  "plan_free_detail": "<b class='text-capitalize'>En Betribssystem fir séier wuessend Geschäfter</b> ╏ Start Äert Geschäft mat eisem gratis Plang. Alles wat Dir braucht fir Är eCommerce Websäit ze starten an ze starten ass hei prett. Selldone bitt all Software, Tools, a Cloud Hosting Léisung duerch gratis Abonnement Plang. Selldone këmmert sech zousätzlech ëm all Softwareupdates a Sécherheetsbedenken. Also kënnt Dir all Är Efforten op de Verkaf konzentréieren an Iech keng Suergen iwwer technesch Themen a Käschten.",
   "pay_monthly": "Bezuelen monatlecht",
   "pay_yearly": "Bezuelen jäerlech",
   "pay_yearly_off": "30% Remise",

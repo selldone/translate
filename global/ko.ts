@@ -880,7 +880,7 @@ export default {
   },
   "placeholders": {
     "name": "존 콕스",
-    "email": "your-mail@mail.com",
+    "email": "your-mail{'@'}mail.com",
     "phone": "+1 000 0000",
     "language": "언어 선택..",
     "friend_email": "친구의 이메일...",

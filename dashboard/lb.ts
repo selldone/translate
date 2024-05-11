@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Selldon | De Business Betribssystem Fir séier wuessend Firmen",
+    "home": "Selldon ╏ De Business Betribssystem Fir séier wuessend Firmen",
     "login": "aloggen",
     "register": "Aschreiwen",
     "auth_2fa": "2 Faktor Authentifikatioun 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Meng Geschäfter",
     "roles": "Meng Rollen",
     "wallet": "Meng Portemonnaie",
-    "personal_info": "Perséinlech Informatiounen | KYC",
+    "personal_info": "Perséinlech Informatiounen ╏ KYC",
     "companies": "Meng Firmen",
     "access_control": "Zougang Kontroll",
     "security_center": "Sécherheetszentrum",
     "gifts": {
-      "received": "Geschenker | Empfang",
-      "send": "Geschenker | Geschéckt"
+      "received": "Geschenker ╏ Empfang",
+      "send": "Geschenker ╏ Geschéckt"
     },
     "monetization": {
-      "linked_accounts": "Monetiséierung | Verknëppelt Konten",
-      "plans": "Monetiséierung | Plang & Linken"
+      "linked_accounts": "Monetiséierung ╏ Verknëppelt Konten",
+      "plans": "Monetiséierung ╏ Plang & Linken"
     },
     "affiliate": "Affiliate",
     "avocado": "Avocado - Modern Social Sales Channel",
     "guild": "Gild - Collective Sales Channel",
-    "partners_login": "Partner | Client Login"
+    "partners_login": "Partner ╏ Client Login"
   },
   "blank_is_all_products": "Loosst eidel fir all Produkter ze enthalen!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Wärend der Bestellungsveraarbechtung kann de geliwwerte Betrag vum bestallte Betrag ënnerscheeden. De System berechent automatesch dësen Ënnerscheed an notéiert se als Är Schold un de Client, déi op déi nächst Bestellungen applizéiert ka ginn.",
       "status_list": {
         "active": {
-          "title": "Aktiv | Online & Offline Verkaf",
+          "title": "Aktiv ╏ Online & Offline Verkaf",
           "description": "Dëst Produkt wäert verfügbar sinn fir online Bestellungen."
         },
         "inactive": {
-          "title": "Inaktiv | Nëmmen Offline Verkaf",
+          "title": "Inaktiv ╏ Nëmmen Offline Verkaf",
           "description": "Dëst Produkt wäert net fir Online Bestellunge verfügbar sinn."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Einfach",
         "dark_input": "Däischter Thema?",
         "icon_input": "Ikon",
-        "icon_input_hint": "Material Design Ikon Numm oder Fontawsom: fas fa-Stär",
+        "icon_input_hint": "Material Design Ikon Numm oder Fontawsom: fa:fas fa-Stär",
         "anim_input": "Animatioun Adress",
         "anim_input_message": "Lottie Animatiounsdatei URL",
         "preview": "Virschau",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "D'Uerdnung gouf agespaart. {reason}",
     "connect-remove-hold": "D'Bestellung gouf aus der Haltung geläscht. {reason}",
     "connect-confirmed": "D'Bestellung gouf bestätegt.",
-    "email-vendor": "🔔 Bestellungsinformatioun E-Mail gouf un <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 Bestellungsinformatioun E-Mail gouf un <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Ausbezuelen un de Verkeefer."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Rechner | Passt op Äre Betrib",
+    "title": "Rechner ╏ Passt op Äre Betrib",
     "description": "Berechent a wielt de beschte Plang baséiert op Ärem monatlecht Verkaf:",
     "sale_input": "Monatlecht Verkafsbetrag",
     "hypernova_plan": "Ufro fir Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Store Plaze Astellunge",
     "save_alert": "Astellunge ginn net gespäichert!",
     "pos_tax_setting": "POS Steier Astellungen",
-    "tax_exclude_title": "Ausgeschloss | Steier gëtt bei Kees dobäi ginn",
+    "tax_exclude_title": "Ausgeschloss ╏ Steier gëtt bei Kees dobäi ginn",
     "tax_excluded_message": "D'Steiere gi virum Bezuelen während der Kees berechent an un den ausgeschlossene Steierpräis bäigefüügt ofhängeg vun Ärem Client Beweis."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktiv",
-      "title": "Aktiv | Online & Offline Verkaf",
+      "title": "Aktiv ╏ Online & Offline Verkaf",
       "description": "Dëst Produkt wäert verfügbar sinn fir online Bestellungen."
     },
     "close": {
       "name": "inaktiv",
-      "title": "Inaktiv | Nëmmen Offline Verkaf",
+      "title": "Inaktiv ╏ Nëmmen Offline Verkaf",
       "description": "Dëst Produkt wäert net fir Online Bestellunge verfügbar sinn."
     },
     "pending": {

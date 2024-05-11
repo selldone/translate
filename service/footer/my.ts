@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 အစည်းအရုံး",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "အစီအစဉ်များနှင့် ဈေးနှုန်း",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

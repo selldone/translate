@@ -2,7 +2,7 @@ export default {
   "title": "Alustage tasuta, kasvage kiiresti!",
   "sub_title": "Piiramatu juurdepääs kõikidele funktsioonidele tasuta! Ainult <b>2% müügist</b> , vahetult pärast edukaid oste. Kas teil on palju müüki ja soovite tasusid alandada?",
   "show_detail_list": "Kuva üksikasjade loend",
-  "plan_free_detail": "<b class='text-capitalize'>Operatsioonisüsteem kiiresti kasvavatele ettevõtetele</b> | Alustage oma äri meie tasuta paketiga. Kõik, mida vajate oma e-kaubanduse veebisaidi käivitamiseks ja käivitamiseks, on siin valmis. Selldone pakub kogu tarkvara, tööriistu ja pilvemajutuslahendusi tasuta tellimisplaani alusel. Selldone hoolitseb lisaks kõigi tarkvaravärskenduste ja turvakaalutluste eest. Nii saate keskenduda kõik oma jõupingutused müügile ja mitte muretseda tehniliste probleemide ja kulude pärast.",
+  "plan_free_detail": "<b class='text-capitalize'>Operatsioonisüsteem kiiresti kasvavatele ettevõtetele</b> ╏ Alustage oma äri meie tasuta paketiga. Kõik, mida vajate oma e-kaubanduse veebisaidi käivitamiseks ja käivitamiseks, on siin valmis. Selldone pakub kogu tarkvara, tööriistu ja pilvemajutuslahendusi tasuta tellimisplaani alusel. Selldone hoolitseb lisaks kõigi tarkvaravärskenduste ja turvakaalutluste eest. Nii saate keskenduda kõik oma jõupingutused müügile ja mitte muretseda tehniliste probleemide ja kulude pärast.",
   "pay_monthly": "Maksa igakuiselt",
   "pay_yearly": "Maksa igal aastal",
   "pay_yearly_off": "30% soodsamalt",

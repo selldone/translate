@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Díolta | An Córas Oibriúcháin Gnó Do Chuideachtaí atá ag méadú go tapa",
+    "home": "Díolta ╏ An Córas Oibriúcháin Gnó Do Chuideachtaí atá ag méadú go tapa",
     "login": "Logáil isteach",
     "register": "Clár",
     "auth_2fa": "Fíordheimhnigh 2 fhachtóir 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Mo Stórais",
     "roles": "Mo róil",
     "wallet": "Mo Sparán",
-    "personal_info": "Eolas Pearsanta | KYC",
+    "personal_info": "Eolas Pearsanta ╏ KYC",
     "companies": "Mo Chuideachtaí",
     "access_control": "Rialú Rochtana",
     "security_center": "Ionad Slándála",
     "gifts": {
-      "received": "Bronntanais | Faighte",
-      "send": "Bronntanais | Seolta"
+      "received": "Bronntanais ╏ Faighte",
+      "send": "Bronntanais ╏ Seolta"
     },
     "monetization": {
-      "linked_accounts": "Airgeadú | Cuntais Nasctha",
-      "plans": "Airgeadú | Plean & Naisc"
+      "linked_accounts": "Airgeadú ╏ Cuntais Nasctha",
+      "plans": "Airgeadú ╏ Plean & Naisc"
     },
     "affiliate": "Cleamhnaithe",
     "avocado": "Avocado - Cainéal Díolacháin Shóisialta Nua-Aimseartha",
     "guild": "Guild — Cainéal Díolacháin Comhchoiteann",
-    "partners_login": "Comhpháirtithe | Logáil isteach cliant"
+    "partners_login": "Comhpháirtithe ╏ Logáil isteach cliant"
   },
   "blank_is_all_products": "Fág bán chun na táirgí go léir a chur san áireamh!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Le linn próiseála ordú, féadfaidh an méid seachadta a bheith difriúil ón méid ordaithe. Ríomhann an córas an difríocht seo go huathoibríoch agus taifeadann sé é mar fhiachas don chustaiméir, ar féidir é a chur i bhfeidhm ar na chéad orduithe eile.",
       "status_list": {
         "active": {
-          "title": "Gníomhach | Díolacháin Ar Líne & As Líne",
+          "title": "Gníomhach ╏ Díolacháin Ar Líne & As Líne",
           "description": "Beidh an táirge seo ar fáil le haghaidh orduithe ar líne."
         },
         "inactive": {
-          "title": "Neamhghníomhach | Díolacháin As Líne amháin",
+          "title": "Neamhghníomhach ╏ Díolacháin As Líne amháin",
           "description": "Ní bheidh an táirge seo ar fáil le haghaidh orduithe ar líne."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Simplí",
         "dark_input": "Téama dorcha?",
         "icon_input": "Deilbhín",
-        "icon_input_hint": "Deilbhín Dearaidh Ábhar Ainm nó Fonawsom: fas fa-star",
+        "icon_input_hint": "Deilbhín Dearaidh Ábhar Ainm nó Fonawsom: fa:fas fa-star",
         "anim_input": "Seoladh Beochana",
         "anim_input_message": "URL comhad beochana Lottie",
         "preview": "Réamhamharc",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Cuireadh an t-ordú ar fionraí. {reason}",
     "connect-remove-hold": "Baineadh an t-ordú den shealbhú. {reason}",
     "connect-confirmed": "Deimhníodh an t-ordú.",
-    "email-vendor": "🔔 Seoladh ríomhphost an eolas faoi ordú chuig an <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 Seoladh ríomhphost an eolas faoi ordú chuig an <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Íocaíocht leis an díoltóir."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Áireamhán | Oiriúnach do do ghnó",
+    "title": "Áireamhán ╏ Oiriúnach do do ghnó",
     "description": "Ríomh agus roghnaigh an plean is fearr bunaithe ar do dhíolacháin mhíosúla:",
     "sale_input": "Méid díolacháin mhíosúla",
     "hypernova_plan": "Déan iarratas ar Hypernova % 0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Socruithe suímh stórais",
     "save_alert": "Níl na socruithe sábháilte!",
     "pos_tax_setting": "Socruithe Cánach POS",
-    "tax_exclude_title": "Eisiata | Cuirfear cáin leis ag an tseiceáil amach",
+    "tax_exclude_title": "Eisiata ╏ Cuirfear cáin leis ag an tseiceáil amach",
     "tax_excluded_message": "Ríomhfar na cánacha roimh na híocaíochtaí le linn an tseiceáil amach agus cuirfear leis an bpraghas cánach eisiata iad ag brath ar d’fhianaise chustaiméara."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Gníomhach",
-      "title": "Gníomhach | Díolacháin Ar Líne & As Líne",
+      "title": "Gníomhach ╏ Díolacháin Ar Líne & As Líne",
       "description": "Beidh an táirge seo ar fáil le haghaidh orduithe ar líne."
     },
     "close": {
       "name": "neamhghníomhach",
-      "title": "Neamhghníomhach | Díolacháin As Líne amháin",
+      "title": "Neamhghníomhach ╏ Díolacháin As Líne amháin",
       "description": "Ní bheidh an táirge seo ar fáil le haghaidh orduithe ar líne."
     },
     "pending": {

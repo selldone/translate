@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Ukuthengisa Komphakathi",
-      "subtitle": "Ukwatapheya | Qala ukuthengisa ngesixhumanisi esisodwa",
+      "subtitle": "Ukwatapheya ╏ Qala ukuthengisa ngesixhumanisi esisodwa",
       "custom_form": "Ifomu loku-oda ngokwezifiso",
       "step1": "Ukugcwaliseka kukakotapheya",
       "step2": "Intengo kanye nokukhishwa kwe-invoyisi",

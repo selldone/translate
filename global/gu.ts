@@ -880,7 +880,7 @@ export default {
   },
   "placeholders": {
     "name": "જોન કોક્સ",
-    "email": "your-mail@mail.com",
+    "email": "your-mail{'@'}mail.com",
     "phone": "+1 000 0000",
     "language": "ભાષા પસંદ કરો..",
     "friend_email": "તમારા મિત્રનો ઈમેલ...",

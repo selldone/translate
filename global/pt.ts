@@ -1819,7 +1819,7 @@ export default {
     "enter_address_hint": "Digite o endereço de destino",
     "enter_your_address": "Digite seu endereço.",
     "postal_code": "Código postal",
-    "phone_input": "Tipo de telefone}",
+    "phone_input": "Tipo de telefone",
     "building_number": "Número do prédio",
     "building_unit": "Unidade",
     "full_name_input": "Nome completo {type}",

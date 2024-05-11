@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 גילד",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "פּלאַנז & פּרייסינג",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

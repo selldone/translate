@@ -2,7 +2,7 @@ export default {
   "title": "Qala Mahhala, Khula Ngokushesha!",
   "sub_title": "Ukufinyelela okungenamkhawulo kuzo zonke izici ngaphandle kwenkokhiso! U <b>-2% kuphela wendali</b> , ngemva nje kokuthenga okuyimpumelelo. Ingabe unokuningi okuthengiswayo futhi ufuna ukunciphisa izinkokhelo?",
   "show_detail_list": "Bonisa uhlu lwemininingwane",
-  "plan_free_detail": "<b class='text-capitalize'>Uhlelo lokusebenza lwamabhizinisi akhula ngokushesha</b> | Qala ibhizinisi lakho ngohlelo lwethu lwamahhala. Konke okudingayo ukuze uqale futhi wethule iwebhusayithi yakho ye-eCommerce isilungile lapha. I-Selldone inikeza yonke isofthiwe, amathuluzi, nesisombululo sokusingatha ifu ngohlelo lokubhalisa lwamahhala. I-Selldone ngaphezu kwalokho inakekela zonke izibuyekezo zesofthiwe nokucatshangelwa kokuphepha. Ngakho-ke ungakwazi ukugxila yonke imizamo yakho ekuthengiseni futhi ungakhathazeki ngezinkinga zobuchwepheshe nezindleko.",
+  "plan_free_detail": "<b class='text-capitalize'>Uhlelo lokusebenza lwamabhizinisi akhula ngokushesha</b> ╏ Qala ibhizinisi lakho ngohlelo lwethu lwamahhala. Konke okudingayo ukuze uqale futhi wethule iwebhusayithi yakho ye-eCommerce isilungile lapha. I-Selldone inikeza yonke isofthiwe, amathuluzi, nesisombululo sokusingatha ifu ngohlelo lokubhalisa lwamahhala. I-Selldone ngaphezu kwalokho inakekela zonke izibuyekezo zesofthiwe nokucatshangelwa kokuphepha. Ngakho-ke ungakwazi ukugxila yonke imizamo yakho ekuthengiseni futhi ungakhathazeki ngezinkinga zobuchwepheshe nezindleko.",
   "pay_monthly": "Khokha nyanga zonke",
   "pay_yearly": "Khokha minyaka yonke",
   "pay_yearly_off": "30% isephulelo",

@@ -37,7 +37,7 @@ export default {
     },
   },
 
-  /** @see LayoutSaminPages **/
+  /** @see OLayout **/
   home_menu: {
     buttons_header: "ابزارهای فروش شما",
     beta: "آزمایشی",

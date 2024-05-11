@@ -13,7 +13,7 @@
  */
 
 export default {
-  /** @see SaminFooter **/
+  /** @see OLayoutFooter **/
   footer: {
     title: "The #1 operating system for fast-growing companies",
     message:
@@ -57,7 +57,7 @@ export default {
         title: "Solutions",
         items: [
           { title: "🎨 Art", to: { name: "Landing_NFT" } },
-          { title: "🤝 Guild", to: { name: "GuildHome" } },
+          { title: "🤝 Guild", to: { name: "GPageHome" } },
           { title: "🥑 Avocado", to: { name: "AvocadoHomePage" } },
           // { title: "Experts", to: { name: "ExpertsPage" } }, TODO: ACTIVATE AFTER RUNNING EXPERTS
           { title: "🧱 API / Developers", to: { name: "DocHome" } },
@@ -70,7 +70,7 @@ export default {
       {
         title: "Services",
         items: [
-          { title: "Plans & Pricing", to: { name: "PriceList" } },
+          { title: "Plans & Pricing", to: { name: "OPagePrice" } },
           { title: "Applications", to: { name: "AppStore_List" } },
           { title: "Application Builder", to: { name: "Landing_AppBuilder" } },
           { title: "Page Builder", to: { name: "Landing_PageBuilder" } },
@@ -85,7 +85,7 @@ export default {
   },
 
   admin_footer: {
-    title: "Quick access menu:",
+    title: "Quick access menu",
     boost_mode: "Boost",
     normal_mode: "Normal",
     boost_message: "Poor internet connection and need boost?",

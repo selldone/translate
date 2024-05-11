@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Selldone | Sürətlə inkişaf edən şirkətlər üçün Biznes Əməliyyat Sistemi",
+    "home": "Selldone ╏ Sürətlə inkişaf edən şirkətlər üçün Biznes Əməliyyat Sistemi",
     "login": "daxil ol",
     "register": "Qeydiyyatdan keçin",
     "auth_2fa": "2 faktorlu Doğrulama 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Mağazalarım",
     "roles": "Mənim rollarım",
     "wallet": "Mənim portmanatım",
-    "personal_info": "Şəxsi Məlumat | KYC",
+    "personal_info": "Şəxsi Məlumat ╏ KYC",
     "companies": "Şirkətlərim",
     "access_control": "Giriş nəzarəti",
     "security_center": "Təhlükəsizlik Mərkəzi",
     "gifts": {
-      "received": "Hədiyyələr | Qəbul edildi",
-      "send": "Hədiyyələr | Göndərildi"
+      "received": "Hədiyyələr ╏ Qəbul edildi",
+      "send": "Hədiyyələr ╏ Göndərildi"
     },
     "monetization": {
-      "linked_accounts": "Monetizasiya | Əlaqədar Hesablar",
-      "plans": "Monetizasiya | Plan və Linklər"
+      "linked_accounts": "Monetizasiya ╏ Əlaqədar Hesablar",
+      "plans": "Monetizasiya ╏ Plan və Linklər"
     },
     "affiliate": "Tərəfdaş",
     "avocado": "Avokado — Müasir Sosial Satış Kanalı",
     "guild": "Gildiya — Kollektiv Satış Kanalı",
-    "partners_login": "Tərəfdaşlar | Müştəri girişi"
+    "partners_login": "Tərəfdaşlar ╏ Müştəri girişi"
   },
   "blank_is_all_products": "Bütün məhsulları daxil etmək üçün boş buraxın!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Sifarişin işlənməsi zamanı çatdırılan məbləğ sifariş edilən məbləğdən fərqli ola bilər. Sistem avtomatik olaraq bu fərqi hesablayır və müştəriyə borcunuz kimi qeyd edir ki, bu da növbəti sifarişlərə tətbiq oluna bilər.",
       "status_list": {
         "active": {
-          "title": "Aktiv | Onlayn və Offline Satış",
+          "title": "Aktiv ╏ Onlayn və Offline Satış",
           "description": "Bu məhsul onlayn sifariş üçün əlçatan olacaq."
         },
         "inactive": {
-          "title": "Qeyri-aktiv | Yalnız Offline Satışlar",
+          "title": "Qeyri-aktiv ╏ Yalnız Offline Satışlar",
           "description": "Bu məhsul onlayn sifarişlər üçün mövcud olmayacaq."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Sadə",
         "dark_input": "Qaranlıq mövzu?",
         "icon_input": "İkon",
-        "icon_input_hint": "Material Design Icon Name və ya Fontawsom: fas fa-star",
+        "icon_input_hint": "Material Design Icon Name və ya Fontawsom: fa:fas fa-star",
         "anim_input": "Animasiya ünvanı",
         "anim_input_message": "Lottie animasiya faylının URL-i",
         "preview": "Önizləmə",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Sifariş təxirə salınıb. {reason}",
     "connect-remove-hold": "Sifariş gözləmədən çıxarıldı. {reason}",
     "connect-confirmed": "Sifariş təsdiqləndi.",
-    "email-vendor": "🔔 Sifariş məlumatı e-poçtu <b>{vendor}</b> | ünvanına göndərildi {email}.",
+    "email-vendor": "🔔 Sifariş məlumatı e-poçtu <b>{vendor}</b> ╏ ünvanına göndərildi {email}.",
     "vendor-payout": "💸 Satıcıya ödəniş."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Kalkulyator | Biznesinizə uyğun",
+    "title": "Kalkulyator ╏ Biznesinizə uyğun",
     "description": "Aylıq satışlarınız əsasında ən yaxşı planı hesablayın və seçin:",
     "sale_input": "Aylıq satış məbləği",
     "hypernova_plan": "Hypernova %0 üçün müraciət edin!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Mağaza yerləri Parametrlər",
     "save_alert": "Parametrlər yadda saxlanmayıb!",
     "pos_tax_setting": "POS Vergisi parametrləri",
-    "tax_exclude_title": "Çıxarıldı | Vergi ödəniş zamanı əlavə olunacaq",
+    "tax_exclude_title": "Çıxarıldı ╏ Vergi ödəniş zamanı əlavə olunacaq",
     "tax_excluded_message": "Vergilər ödəniş zamanı ödənişlərdən əvvəl hesablanacaq və müştəri sübutlarınızdan asılı olaraq istisna edilmiş vergi qiymətinə əlavə olunacaq."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktiv",
-      "title": "Aktiv | Onlayn və Offline Satış",
+      "title": "Aktiv ╏ Onlayn və Offline Satış",
       "description": "Bu məhsul onlayn sifariş üçün əlçatan olacaq."
     },
     "close": {
       "name": "qeyri-aktiv",
-      "title": "Qeyri-aktiv | Yalnız Offline Satışlar",
+      "title": "Qeyri-aktiv ╏ Yalnız Offline Satışlar",
       "description": "Bu məhsul onlayn sifarişlər üçün mövcud olmayacaq."
     },
     "pending": {

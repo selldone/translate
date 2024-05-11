@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Shitur | Sistemi operativ i biznesit për kompanitë me rritje të shpejtë",
+    "home": "Shitur ╏ Sistemi operativ i biznesit për kompanitë me rritje të shpejtë",
     "login": "identifikimi",
     "register": "Regjistrohu",
     "auth_2fa": "Autentifikimi me 2 faktorë 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Dyqanet e Mia",
     "roles": "Rolet e mia",
     "wallet": "Portofoli im",
-    "personal_info": "Të dhënat personale | KYC",
+    "personal_info": "Të dhënat personale ╏ KYC",
     "companies": "Kompanitë e Mia",
     "access_control": "Kontrolli i aksesit",
     "security_center": "Qendra e Sigurisë",
     "gifts": {
-      "received": "Dhurata | Marrë",
-      "send": "Dhurata | Dërguar"
+      "received": "Dhurata ╏ Marrë",
+      "send": "Dhurata ╏ Dërguar"
     },
     "monetization": {
-      "linked_accounts": "Monetizimi | Llogaritë e lidhura",
-      "plans": "Monetizimi | Plani & Lidhjet"
+      "linked_accounts": "Monetizimi ╏ Llogaritë e lidhura",
+      "plans": "Monetizimi ╏ Plani & Lidhjet"
     },
     "affiliate": "Filialin",
     "avocado": "Avokado - Kanali modern i shitjeve sociale",
     "guild": "Guild — Kanali i shitjeve kolektive",
-    "partners_login": "Partnerët | Hyrja e klientit"
+    "partners_login": "Partnerët ╏ Hyrja e klientit"
   },
   "blank_is_all_products": "Lëreni bosh për të përfshirë të gjitha produktet!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Gjatë përpunimit të porosisë, shuma e dorëzuar mund të ndryshojë nga shuma e porositur. Sistemi llogarit automatikisht këtë diferencë dhe e regjistron atë si borxhin tuaj ndaj klientit, i cili mund të zbatohet për porositë e radhës.",
       "status_list": {
         "active": {
-          "title": "Aktiv | Shitjet online dhe offline",
+          "title": "Aktiv ╏ Shitjet online dhe offline",
           "description": "Ky produkt do të jetë i disponueshëm për porosi online."
         },
         "inactive": {
-          "title": "Joaktive | Vetëm Shitjet Offline",
+          "title": "Joaktive ╏ Vetëm Shitjet Offline",
           "description": "Ky produkt nuk do të jetë i disponueshëm për porosi online."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "E thjeshtë",
         "dark_input": "Tema e errët?",
         "icon_input": "Ikona",
-        "icon_input_hint": "Emri i ikonës së dizajnit të materialit ose Fontawsom: fas fa-star",
+        "icon_input_hint": "Emri i ikonës së dizajnit të materialit ose Fontawsom: fa:fas fa-star",
         "anim_input": "Adresa e animacionit",
         "anim_input_message": "URL e skedarit të animacionit Lottie",
         "preview": "Parapamje",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Urdhri ishte vënë në pritje. {reason}",
     "connect-remove-hold": "Urdhri u hoq nga mbajtja. {reason}",
     "connect-confirmed": "Urdhri u konfirmua.",
-    "email-vendor": "🔔 Emaili i informimit të porosisë është dërguar te <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 Emaili i informimit të porosisë është dërguar te <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Pagesa për shitësin."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Llogaritësi | Përshtatet me biznesin tuaj",
+    "title": "Llogaritësi ╏ Përshtatet me biznesin tuaj",
     "description": "Llogaritni dhe zgjidhni planin më të mirë bazuar në shitjet tuaja mujore:",
     "sale_input": "Shuma e shitjeve mujore",
     "hypernova_plan": "Aplikoni për Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Cilësimet e vendndodhjeve të dyqaneve",
     "save_alert": "Cilësimet nuk ruhen!",
     "pos_tax_setting": "Cilësimet e taksave POS",
-    "tax_exclude_title": "Përjashtuar | Taksa do të shtohet në arkë",
+    "tax_exclude_title": "Përjashtuar ╏ Taksa do të shtohet në arkë",
     "tax_excluded_message": "Taksat do të llogariten para pagesave gjatë arkës dhe do t'i shtohen çmimit të taksës së përjashtuar në varësi të dëshmive të klientit tuaj."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktiv",
-      "title": "Aktiv | Shitjet online dhe offline",
+      "title": "Aktiv ╏ Shitjet online dhe offline",
       "description": "Ky produkt do të jetë i disponueshëm për porosi online."
     },
     "close": {
       "name": "joaktive",
-      "title": "Joaktive | Vetëm Shitjet Offline",
+      "title": "Joaktive ╏ Vetëm Shitjet Offline",
       "description": "Ky produkt nuk do të jetë i disponueshëm për porosi online."
     },
     "pending": {

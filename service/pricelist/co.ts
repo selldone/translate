@@ -2,7 +2,7 @@ export default {
   "title": "Cuminciate Gratuitu, Cresce Rapidu!",
   "sub_title": "Accessu illimitatu à tutte e funzioni senza costu! Solu <b>u 2% di a vendita</b> , ghjustu dopu a compra successu. Avete assai vendite è vulete riduce i tariffi?",
   "show_detail_list": "Mostra a lista di dettagli",
-  "plan_free_detail": "<b class='text-capitalize'>Un sistema upirativu per l'imprese in rapida crescita</b> | Cumincià a vostra attività cù u nostru pianu gratuitu. Tuttu ciò chì avete bisognu per inizià è lancià u vostru situ web di eCommerce hè prontu quì. Selldone furnisce tuttu u software, l'arnesi è a suluzione di hosting cloud per un pianu di abbonamentu gratuitu. Selldone si occupa in più di tutte l'aghjurnamenti di u software è di e considerazioni di sicurezza. Cusì pudete concentrà tutti i vostri sforzi nantu à a vendita è ùn preoccupate micca di prublemi tecnichi è costi.",
+  "plan_free_detail": "<b class='text-capitalize'>Un sistema upirativu per l'imprese in rapida crescita</b> ╏ Cumincià a vostra attività cù u nostru pianu gratuitu. Tuttu ciò chì avete bisognu per inizià è lancià u vostru situ web di eCommerce hè prontu quì. Selldone furnisce tuttu u software, l'arnesi è a suluzione di hosting cloud per un pianu di abbonamentu gratuitu. Selldone si occupa in più di tutte l'aghjurnamenti di u software è di e considerazioni di sicurezza. Cusì pudete concentrà tutti i vostri sforzi nantu à a vendita è ùn preoccupate micca di prublemi tecnichi è costi.",
   "pay_monthly": "Paga mensili",
   "pay_yearly": "Paga annu",
   "pay_yearly_off": "30% off",

@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Selldone | Bedriftsoperativsystemet for raskt voksende selskaper",
+    "home": "Selldone ╏ Bedriftsoperativsystemet for raskt voksende selskaper",
     "login": "Logg Inn",
     "register": "Registrere",
     "auth_2fa": "2-faktor autentiser 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Mine butikker",
     "roles": "Mine roller",
     "wallet": "Min lommebok",
-    "personal_info": "Personlig informasjon | KYC",
+    "personal_info": "Personlig informasjon ╏ KYC",
     "companies": "Mine selskaper",
     "access_control": "Adgangskontroll",
     "security_center": "Sikkerhetssenter",
     "gifts": {
-      "received": "Gaver | Mottatt",
-      "send": "Gaver | Sendt"
+      "received": "Gaver ╏ Mottatt",
+      "send": "Gaver ╏ Sendt"
     },
     "monetization": {
-      "linked_accounts": "Inntektsgenerering | Tilknyttede kontoer",
-      "plans": "Inntektsgenerering | Plan og lenker"
+      "linked_accounts": "Inntektsgenerering ╏ Tilknyttede kontoer",
+      "plans": "Inntektsgenerering ╏ Plan og lenker"
     },
     "affiliate": "Tilknytte",
     "avocado": "Avocado — Moderne sosial salgskanal",
     "guild": "Guild — Kollektiv salgskanal",
-    "partners_login": "Partnere | Klientpålogging"
+    "partners_login": "Partnere ╏ Klientpålogging"
   },
   "blank_is_all_products": "La stå tomt for å inkludere alle produkter!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Under ordrebehandling kan det leverte beløpet avvike fra det bestilte beløpet. Systemet beregner automatisk denne forskjellen og registrerer den som din gjeld til kunden, som kan brukes på de neste bestillingene.",
       "status_list": {
         "active": {
-          "title": "Aktiv | Online og offline salg",
+          "title": "Aktiv ╏ Online og offline salg",
           "description": "Dette produktet vil være tilgjengelig for nettbestillinger."
         },
         "inactive": {
-          "title": "Inaktiv | Kun frakoblet salg",
+          "title": "Inaktiv ╏ Kun frakoblet salg",
           "description": "Dette produktet vil ikke være tilgjengelig for nettbestillinger."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Enkel",
         "dark_input": "Mørkt tema?",
         "icon_input": "Ikon",
-        "icon_input_hint": "Material Design Ikon Navn eller Fontawsom: fas fa-stjerne",
+        "icon_input_hint": "Material Design Ikon Navn eller Fontawsom: fa:fas fa-stjerne",
         "anim_input": "Animasjonsadresse",
         "anim_input_message": "Lottie animasjonsfil URL",
         "preview": "Forhåndsvisning",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Bestillingen ble satt på vent. {reason}",
     "connect-remove-hold": "Bestillingen ble fjernet fra venting. {reason}",
     "connect-confirmed": "Bestillingen ble bekreftet.",
-    "email-vendor": "🔔 Bestillingsinformasjon e-post er sendt til <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 Bestillingsinformasjon e-post er sendt til <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Utbetaling til leverandør."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Kalkulator | Passer til virksomheten din",
+    "title": "Kalkulator ╏ Passer til virksomheten din",
     "description": "Beregn og velg den beste planen basert på ditt månedlige salg:",
     "sale_input": "Månedlig salgssum",
     "hypernova_plan": "Søk om Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Lagringsplasseringsinnstillinger",
     "save_alert": "Innstillinger er ikke lagret!",
     "pos_tax_setting": "POS-avgiftsinnstillinger",
-    "tax_exclude_title": "Ekskludert | Skatt legges til i kassen",
+    "tax_exclude_title": "Ekskludert ╏ Skatt legges til i kassen",
     "tax_excluded_message": "Skattene vil bli beregnet før betalingene under kassen og lagt til den ekskluderte avgiftsprisen avhengig av kundebeviset ditt."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktiv",
-      "title": "Aktiv | Online og offline salg",
+      "title": "Aktiv ╏ Online og offline salg",
       "description": "Dette produktet vil være tilgjengelig for nettbestillinger."
     },
     "close": {
       "name": "inaktiv",
-      "title": "Inaktiv | Kun frakoblet salg",
+      "title": "Inaktiv ╏ Kun frakoblet salg",
       "description": "Dette produktet vil ikke være tilgjengelig for nettbestillinger."
     },
     "pending": {

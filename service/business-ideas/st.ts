@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Lithekiso tsa Sechaba",
-      "subtitle": "Avocado | Qala ho rekisa ka sehokelo se le seng",
+      "subtitle": "Avocado ╏ Qala ho rekisa ka sehokelo se le seng",
       "custom_form": "Foromo e ikhethileng ea ho odara",
       "step1": "Phethahatso ea avocado",
       "step2": "Theko le taba ea invoice",

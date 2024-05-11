@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Selldone | Pergala Xebatê ya Karsaziyê Ji bo Pargîdaniyên Zû Pêşkeftî",
+    "home": "Selldone ╏ Pergala Xebatê ya Karsaziyê Ji bo Pargîdaniyên Zû Pêşkeftî",
     "login": "login",
     "register": "Fêhrist",
     "auth_2fa": "Faktora 2 Rastrastkirin 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "My Stores",
     "roles": "Rolên min",
     "wallet": "My Wallet",
-    "personal_info": "Agahiyên Kesane | KYC",
+    "personal_info": "Agahiyên Kesane ╏ KYC",
     "companies": "Şîrketên min",
     "access_control": "Kontrola gihîştinê",
     "security_center": "Navenda Ewlekariyê",
     "gifts": {
-      "received": "Gifts | Wergirtin",
-      "send": "Gifts | şandin"
+      "received": "Gifts ╏ Wergirtin",
+      "send": "Gifts ╏ şandin"
     },
     "monetization": {
-      "linked_accounts": "Diravkirin | Hesabên Girêdayî",
-      "plans": "Diravkirin | Plan & Girêdan"
+      "linked_accounts": "Diravkirin ╏ Hesabên Girêdayî",
+      "plans": "Diravkirin ╏ Plan & Girêdan"
     },
     "affiliate": "Affiliate",
     "avocado": "Avocado - Kanala Firotana Civakî ya Nûjen",
     "guild": "Guild - Kanala Firotanê ya Kolektîf",
-    "partners_login": "Partners | Têketina xerîdar"
+    "partners_login": "Partners ╏ Têketina xerîdar"
   },
   "blank_is_all_products": "Vala bihêlin da ku hemî hilberan tê de bin!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Di dema pêvajoya fermanê de, dibe ku mîqdara radestkirî ji mîqdara fermankirî cûda be. Pergal bixweber vê cûdahiyê hesab dike û wê wekî deynê we ji xerîdar re tomar dike, ku dikare li ser fermanên din were sepandin.",
       "status_list": {
         "active": {
-          "title": "Çalak | Firotana Serhêl & Offline",
+          "title": "Çalak ╏ Firotana Serhêl & Offline",
           "description": "Ev hilber dê ji bo fermanên serhêl peyda bibe."
         },
         "inactive": {
-          "title": "Neçalak | Tenê Firotana Offline",
+          "title": "Neçalak ╏ Tenê Firotana Offline",
           "description": "Ev hilber dê ji bo fermanên serhêl peyda nebe."
         }
       },
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Ferman hat sekinandin. {reason}",
     "connect-remove-hold": "Ferman ji rêzê hat derxistin. {reason}",
     "connect-confirmed": "Ferman hate pejirandin.",
-    "email-vendor": "🔔 E-nameya agahdarkirina fermanê ji <b>{vendor}</b> re hat şandin | {email}.",
+    "email-vendor": "🔔 E-nameya agahdarkirina fermanê ji <b>{vendor}</b> re hat şandin ╏ {email}.",
     "vendor-payout": "💸 Peredana ji firoşker re."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Calculator | Bi karsaziya xwe ve girêdayî ye",
+    "title": "Calculator ╏ Bi karsaziya xwe ve girêdayî ye",
     "description": "Li ser bingeha firotana xweya mehane pilana çêtirîn hesab bikin û hilbijêrin:",
     "sale_input": "Mîqdara firotina mehane",
     "hypernova_plan": "Serlêdana Hypernova %0 bikin!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Cihên Store Mîhengan",
     "save_alert": "Mîheng nehatine tomarkirin!",
     "pos_tax_setting": "Mîhengên Bacê POS",
-    "tax_exclude_title": "Jêbirin | Dê bac di dravdanê de were zêdekirin",
+    "tax_exclude_title": "Jêbirin ╏ Dê bac di dravdanê de were zêdekirin",
     "tax_excluded_message": "Dê bac berî dravdanan di dema danûstendinê de bêne hesibandin û li gorî delîlên xerîdarên we li bihayê baca jêderkirî zêde bibin."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Jîr",
-      "title": "Çalak | Firotana Serhêl & Offline",
+      "title": "Çalak ╏ Firotana Serhêl & Offline",
       "description": "Ev hilber dê ji bo fermanên serhêl peyda bibe."
     },
     "close": {
       "name": "bêkar",
-      "title": "Neçalak | Tenê Firotana Offline",
+      "title": "Neçalak ╏ Tenê Firotana Offline",
       "description": "Ev hilber dê ji bo fermanên serhêl peyda nebe."
     },
     "pending": {

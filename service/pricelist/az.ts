@@ -2,7 +2,7 @@ export default {
   "title": "Pulsuz başlayın, sürətli inkişaf edin!",
   "sub_title": "Heç bir ödəniş etmədən bütün xüsusiyyətlərə məhdudiyyətsiz giriş! Uğurlu alışdan sonra yalnız <b>2% satış</b> . Satışlarınız çoxdur və ödənişləri azaltmaq istəyirsiniz?",
   "show_detail_list": "Detallar siyahısını göstərin",
-  "plan_free_detail": "<b class='text-capitalize'>Sürətlə böyüyən bizneslər üçün əməliyyat sistemi</b> | Pulsuz planımızla biznesinizə başlayın. Elektron ticarət veb saytınızı başlamaq və işə salmaq üçün lazım olan hər şey burada hazırdır. Selldone pulsuz abunə planı ilə bütün proqram təminatı, alətlər və bulud hostinq həllini təmin edir. Selldone əlavə olaraq bütün proqram yeniləmələri və təhlükəsizlik məsələləri ilə maraqlanır. Beləliklə, siz bütün səylərinizi satışa yönəldə və texniki problemlər və xərclər barədə narahat olmaya bilərsiniz.",
+  "plan_free_detail": "<b class='text-capitalize'>Sürətlə böyüyən bizneslər üçün əməliyyat sistemi</b> ╏ Pulsuz planımızla biznesinizə başlayın. Elektron ticarət veb saytınızı başlamaq və işə salmaq üçün lazım olan hər şey burada hazırdır. Selldone pulsuz abunə planı ilə bütün proqram təminatı, alətlər və bulud hostinq həllini təmin edir. Selldone əlavə olaraq bütün proqram yeniləmələri və təhlükəsizlik məsələləri ilə maraqlanır. Beləliklə, siz bütün səylərinizi satışa yönəldə və texniki problemlər və xərclər barədə narahat olmaya bilərsiniz.",
   "pay_monthly": "Aylıq ödəyin",
   "pay_yearly": "İllik ödəyin",
   "pay_yearly_off": "30% endirim",

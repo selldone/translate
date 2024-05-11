@@ -2,7 +2,7 @@ export default {
   "title": "Dechreuwch Am Ddim, Tyfu'n Gyflym!",
   "sub_title": "Mynediad diderfyn i'r holl nodweddion heb unrhyw gost! Dim ond <b>2 % o werthu</b> , yn union ar ôl prynu llwyddiannus . Oes gennych chi lawer o werthiannau ac eisiau lleihau'r ffioedd?",
   "show_detail_list": "Dangos rhestr fanylion",
-  "plan_free_detail": "<b class='text-capitalize'>System weithredu ar gyfer busnesau sy'n tyfu'n gyflym</b> | Dechreuwch eich busnes trwy ein cynllun rhad ac am ddim. Mae popeth sydd ei angen arnoch i ddechrau a lansio'ch gwefan eFasnach yn barod yma. Mae Soldone yn darparu'r holl feddalwedd, offer, a datrysiad cynnal cwmwl trwy gynllun tanysgrifio am ddim. Mae Soldone hefyd yn gofalu am yr holl ddiweddariadau meddalwedd ac ystyriaethau diogelwch. Felly gallwch chi ganolbwyntio'ch holl ymdrechion ar werthu a pheidio â phoeni am faterion a chostau technegol.",
+  "plan_free_detail": "<b class='text-capitalize'>System weithredu ar gyfer busnesau sy'n tyfu'n gyflym</b> ╏ Dechreuwch eich busnes trwy ein cynllun rhad ac am ddim. Mae popeth sydd ei angen arnoch i ddechrau a lansio'ch gwefan eFasnach yn barod yma. Mae Soldone yn darparu'r holl feddalwedd, offer, a datrysiad cynnal cwmwl trwy gynllun tanysgrifio am ddim. Mae Soldone hefyd yn gofalu am yr holl ddiweddariadau meddalwedd ac ystyriaethau diogelwch. Felly gallwch chi ganolbwyntio'ch holl ymdrechion ar werthu a pheidio â phoeni am faterion a chostau technegol.",
   "pay_monthly": "Talu'n fisol",
   "pay_yearly": "Talu'n flynyddol",
   "pay_yearly_off": "30% i ffwrdd",

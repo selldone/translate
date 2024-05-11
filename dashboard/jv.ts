@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Seldone | Sistem Operasi Bisnis Kanggo Perusahaan sing Tuwuh Cepet",
+    "home": "Seldone ╏ Sistem Operasi Bisnis Kanggo Perusahaan sing Tuwuh Cepet",
     "login": "mlebu",
     "register": "Ndaftar",
     "auth_2fa": "2 faktor Authenticate 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Toko Kula",
     "roles": "Peranku",
     "wallet": "Dompetku",
-    "personal_info": "Informasi Pribadi | KYC",
+    "personal_info": "Informasi Pribadi ╏ KYC",
     "companies": "Perusahaan Kula",
     "access_control": "Kontrol Akses",
     "security_center": "Pusat Keamanan",
     "gifts": {
-      "received": "peparingé | Ditampa",
-      "send": "peparingé | Dikirim"
+      "received": "peparingé ╏ Ditampa",
+      "send": "peparingé ╏ Dikirim"
     },
     "monetization": {
-      "linked_accounts": "Monetisasi | Akun sing disambung",
-      "plans": "Monetisasi | Rencana & Link"
+      "linked_accounts": "Monetisasi ╏ Akun sing disambung",
+      "plans": "Monetisasi ╏ Rencana & Link"
     },
     "affiliate": "Nggabung",
     "avocado": "Avocado - Saluran Penjualan Sosial Modern",
     "guild": "Guild - Saluran Penjualan Kolektif",
-    "partners_login": "Mitra | Mlebet klien"
+    "partners_login": "Mitra ╏ Mlebet klien"
   },
   "blank_is_all_products": "Ninggalake kothong kanggo nyakup kabeh produk!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Sajrone pangolahan pesenan, jumlah sing dikirim bisa beda karo jumlah sing dipesen. Sistem kanthi otomatis ngetung prabédan iki lan ngrekam minangka utang kanggo customer, kang bisa Applied kanggo pesenan sabanjuré.",
       "status_list": {
         "active": {
-          "title": "Aktif | Penjualan Online & Offline",
+          "title": "Aktif ╏ Penjualan Online & Offline",
           "description": "Produk iki bakal kasedhiya kanggo pesenan online."
         },
         "inactive": {
-          "title": "Ora aktif | Mung Offline Sales",
+          "title": "Ora aktif ╏ Mung Offline Sales",
           "description": "Produk iki ora bakal kasedhiya kanggo pesenan online."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Prasaja",
         "dark_input": "Tema peteng?",
         "icon_input": "Ikon",
-        "icon_input_hint": "Jeneng Ikon Desain Material utawa Fontawsom: fas fa-star",
+        "icon_input_hint": "Jeneng Ikon Desain Material utawa Fontawsom: fa:fas fa-star",
         "anim_input": "Alamat Animasi",
         "anim_input_message": "URL file animasi Lottie",
         "preview": "Pratinjau",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Pesen kasebut ditahan. {reason}",
     "connect-remove-hold": "Pesenan kasebut dicopot saka ditahan. {reason}",
     "connect-confirmed": "Pesenan kasebut dikonfirmasi.",
-    "email-vendor": "🔔 Email informasi pesen wis dikirim menyang <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 Email informasi pesen wis dikirim menyang <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Pembayaran menyang vendor."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Kalkulator | Cocog karo bisnis sampeyan",
+    "title": "Kalkulator ╏ Cocog karo bisnis sampeyan",
     "description": "Etung lan pilih rencana sing paling apik adhedhasar dodolan saben wulan:",
     "sale_input": "Jumlah dodolan saben wulan",
     "hypernova_plan": "Aplikasi kanggo Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Setelan lokasi toko",
     "save_alert": "Setelan ora disimpen!",
     "pos_tax_setting": "Setelan Pajak POS",
-    "tax_exclude_title": "Ora kalebu | Pajak bakal ditambahake ing checkout",
+    "tax_exclude_title": "Ora kalebu ╏ Pajak bakal ditambahake ing checkout",
     "tax_excluded_message": "Pajak bakal diwilang sadurunge pembayaran sajrone checkout lan ditambahake menyang rega pajak sing ora kalebu gumantung saka bukti pelanggan."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktif",
-      "title": "Aktif | Penjualan Online & Offline",
+      "title": "Aktif ╏ Penjualan Online & Offline",
       "description": "Produk iki bakal kasedhiya kanggo pesenan online."
     },
     "close": {
       "name": "ora aktif",
-      "title": "Ora aktif | Mung Offline Sales",
+      "title": "Ora aktif ╏ Mung Offline Sales",
       "description": "Produk iki ora bakal kasedhiya kanggo pesenan online."
     },
     "pending": {

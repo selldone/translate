@@ -2,7 +2,7 @@ export default {
   "title": "Hasi doan, hazi azkar!",
   "sub_title": "Ezaugarri guztietarako sarbide mugagabea kosturik gabe! Salmenten <b>% 2</b> bakarrik, erosketa arrakastatsuen ondoren. Salmenta asko dituzu eta kuotak murriztu nahi dituzu?",
   "show_detail_list": "Erakutsi xehetasunen zerrenda",
-  "plan_free_detail": "<b class='text-capitalize'>Bizkor hazten ari diren negozioetarako sistema eragilea</b> | Hasi zure negozioa gure doako planarekin. Zure eCommerce webgunea hasteko eta abiarazteko behar duzun guztia prest dago hemen. Selldone-k software, tresna eta hodeiko ostalaritza irtenbide guztiak eskaintzen ditu doako harpidetza planaren bidez. Selldone-k, gainera, software eguneraketa eta segurtasun kontuak zaintzen ditu. Beraz, zure ahalegin guztiak saltzera bideratu ditzakezu eta arazo teknikoez eta kostuez kezkatu gabe.",
+  "plan_free_detail": "<b class='text-capitalize'>Bizkor hazten ari diren negozioetarako sistema eragilea</b> ╏ Hasi zure negozioa gure doako planarekin. Zure eCommerce webgunea hasteko eta abiarazteko behar duzun guztia prest dago hemen. Selldone-k software, tresna eta hodeiko ostalaritza irtenbide guztiak eskaintzen ditu doako harpidetza planaren bidez. Selldone-k, gainera, software eguneraketa eta segurtasun kontuak zaintzen ditu. Beraz, zure ahalegin guztiak saltzera bideratu ditzakezu eta arazo teknikoez eta kostuez kezkatu gabe.",
   "pay_monthly": "Ordaindu hilero",
   "pay_yearly": "Urtero ordaindu",
   "pay_yearly_off": "%30eko deskontua",

@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Selldone | Poslovni operativni sistem za brzorastuće kompanije",
+    "home": "Selldone ╏ Poslovni operativni sistem za brzorastuće kompanije",
     "login": "Ulogovati se",
     "register": "Registrirajte se",
     "auth_2fa": "Provjera autentičnosti s 2 faktora 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Moje prodavnice",
     "roles": "Moje uloge",
     "wallet": "Moj novčanik",
-    "personal_info": "Lični podaci | KYC",
+    "personal_info": "Lični podaci ╏ KYC",
     "companies": "Moje kompanije",
     "access_control": "Kontrole pristupa",
     "security_center": "Sigurnosni centar",
     "gifts": {
-      "received": "Pokloni | Primljeno",
-      "send": "Pokloni | Poslano"
+      "received": "Pokloni ╏ Primljeno",
+      "send": "Pokloni ╏ Poslano"
     },
     "monetization": {
-      "linked_accounts": "Monetizacija | Povezani računi",
-      "plans": "Monetizacija | Plan & Linkovi"
+      "linked_accounts": "Monetizacija ╏ Povezani računi",
+      "plans": "Monetizacija ╏ Plan & Linkovi"
     },
     "affiliate": "Affiliate",
     "avocado": "Avokado — moderni društveni prodajni kanal",
     "guild": "Ceh — Kolektivni prodajni kanal",
-    "partners_login": "Partneri | Prijava klijenta"
+    "partners_login": "Partneri ╏ Prijava klijenta"
   },
   "blank_is_all_products": "Ostavite prazno da biste uključili sve proizvode!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Prilikom obrade narudžbe isporučeni iznos može se razlikovati od narudžbe. Sistem automatski izračunava ovu razliku i bilježi je kao vaš dug prema kupcu, što se može primijeniti na sljedeće narudžbe.",
       "status_list": {
         "active": {
-          "title": "Aktivan | Online i Offline prodaja",
+          "title": "Aktivan ╏ Online i Offline prodaja",
           "description": "Ovaj proizvod će biti dostupan za online narudžbe."
         },
         "inactive": {
-          "title": "Neaktivan | Samo vanmrežna prodaja",
+          "title": "Neaktivan ╏ Samo vanmrežna prodaja",
           "description": "Ovaj proizvod neće biti dostupan za online narudžbe."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Jednostavno",
         "dark_input": "Tamna tema?",
         "icon_input": "Ikona",
-        "icon_input_hint": "Ime ikone dizajna materijala ili Fontawsom: fas fa-star",
+        "icon_input_hint": "Ime ikone dizajna materijala ili Fontawsom: fa:fas fa-star",
         "anim_input": "Adresa animacije",
         "anim_input_message": "URL datoteke Lottie animacije",
         "preview": "Pregled",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Nalog je stavljen na čekanje. {reason}",
     "connect-remove-hold": "Nalog je uklonjen sa čekanja. {reason}",
     "connect-confirmed": "Narudžba je potvrđena.",
-    "email-vendor": "🔔 E-poruka s informacijama o narudžbi je poslana na <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 E-poruka s informacijama o narudžbi je poslana na <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Isplata dobavljaču."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Kalkulator | Prilagođeno vašem poslovanju",
+    "title": "Kalkulator ╏ Prilagođeno vašem poslovanju",
     "description": "Izračunajte i odaberite najbolji plan na osnovu vaše mjesečne prodaje:",
     "sale_input": "Mjesečni iznos prodaje",
     "hypernova_plan": "Prijavite se za Hypernova %0!",
@@ -3182,7 +3182,7 @@ export default {
     "products_views": "Pogledajte proizvod"
   },
   "shop_visitors_widget": {
-    "title": "Visitors Analytics",
+    "title": "Acquisition Analytics",
     "new_visitors": "Novi posjetitelji",
     "amp": "AMP pregledi",
     "returning_visitors": "Posjetioci koji se vraćaju",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Pohranjivanje lokacija Postavke",
     "save_alert": "Postavke nisu sačuvane!",
     "pos_tax_setting": "POS Porezna podešavanja",
-    "tax_exclude_title": "Isključeno | Porez će biti dodat pri odlasku",
+    "tax_exclude_title": "Isključeno ╏ Porez će biti dodat pri odlasku",
     "tax_excluded_message": "Porezi će biti izračunati prije plaćanja tokom plaćanja i dodati cijeni bez poreza u zavisnosti od dokaza vašeg klijenta."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktivan",
-      "title": "Aktivan | Online i Offline prodaja",
+      "title": "Aktivan ╏ Online i Offline prodaja",
       "description": "Ovaj proizvod će biti dostupan za online narudžbe."
     },
     "close": {
       "name": "neaktivan",
-      "title": "Neaktivan | Samo vanmrežna prodaja",
+      "title": "Neaktivan ╏ Samo vanmrežna prodaja",
       "description": "Ovaj proizvod neće biti dostupan za online narudžbe."
     },
     "pending": {

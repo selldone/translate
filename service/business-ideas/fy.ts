@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Sosjale ferkeap",
-      "subtitle": "Avocado | Begjin te ferkeapjen mar troch ien keppeling",
+      "subtitle": "Avocado ╏ Begjin te ferkeapjen mar troch ien keppeling",
       "custom_form": "Oanpaste bestelling formulier",
       "step1": "Avocado ferfolling",
       "step2": "Prizen en faktueren probleem",

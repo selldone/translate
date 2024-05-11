@@ -16,7 +16,7 @@ export default {
   /** @see SShopProductRatingView **/
   surveys: ["Very poor", "Poor", "Normal", "Good", "Excellent"],
 
-  /** @see SStorefrontPrimaryFooter **/
+  /** @see SFooterSection **/
   footer: {
     map: "Map",
     email: "Email",
@@ -76,7 +76,7 @@ export default {
     },
   },
 
-  /** @see SShopProductMainCard **/
+  /** @see SProductOverview **/
   product_info: {
     fake: "Fake",
     action: "Auction",
@@ -136,9 +136,13 @@ export default {
       inform_add_success: "We'll let you know when it's available.",
       inform_remove_success: "You have been removed from the waiting list.",
     },
+    zip_pin_input:"ZIP / PIN",
+    zip_pin_not_available_msg:"Not available in this location!",
+    zip_pin_placeholder:"Select ZIP/PIN Code..."
+
   },
 
-  /** @see SStorefrontProfilePage **/
+  /** @see StorefrontPageProduct **/
 
   product: {
     review: "Description",
@@ -155,7 +159,7 @@ export default {
     related_categories_title: "Discover in collections",
   },
 
-  /** @see SStorefrontLayout **/
+  /** @see StorefrontLayout **/
   layout_shop: {
     shop_menu: {
       orders_history: "Orders History",
@@ -188,7 +192,7 @@ export default {
     items: "Item(s)",
   },
 
-  /** {@see SStorefrontHistoryOrdersPhysicalPage} **/
+  /** {@see StorefrontPageUserOrdersPhysical} **/
   history_orders_physical: {
     rejected: "Rejected",
     table: {
@@ -199,7 +203,7 @@ export default {
       status: "Payment Status",
     },
   },
-  /** {@see SStorefrontOrdersList} **/
+  /** {@see SOrdersList} **/
   history_orders: {
     table: {
       code: "Order Code",
@@ -211,7 +215,7 @@ export default {
     },
   },
 
-  /** {@see SStorefrontUserPagesLayout} **/
+  /** {@see StorefrontPageUser} **/
   user_page: {
     menu: {
       gift_card: "Gift Card",
@@ -223,7 +227,7 @@ export default {
       orders: "Orders",
     },
   },
-  /** {@see SStorefrontPhysicalOrderDetailPage} **/
+  /** {@see StorefrontPageBasketOrderPhysicalDashboard} **/
   order_page: {
     title: "Order",
 
@@ -317,7 +321,7 @@ export default {
     add_action: "Send return request",
     notifications: "Your return request has been successfully registered.",
   },
-  /** {@see SStorefrontVirtualOrderDetailPage} **/
+  /** {@see StorefrontPageBasketOrderVirtualDashboard} **/
   virtual_order_page: {
     title: "Order",
     info: {
@@ -325,7 +329,7 @@ export default {
     },
   },
 
-  /** {@see SStorefrontUserProfilePage} **/
+  /** {@see StorefrontPageUserProfile} **/
   user_profile: {
     title: "My Personal Information",
     name: "Name",
@@ -354,7 +358,7 @@ export default {
       free_shipping: "Free Shipping",
     },
   },
-  /** {@see SStorefrontBasketPage} **/
+  /** {@see StorefrontPageBasketCart} **/
   basket_page: {
     title: "Shopping Cart",
     total_price: "Total amount",
@@ -418,7 +422,7 @@ export default {
     offer_free: "Get {count}x free",
   },
 
-  /** {@see SStorefrontUserAddressesPage} **/
+  /** {@see StorefrontUserAddresses} **/
   addresses_page: {
     title: "My Addresses",
     new_action: "New Address",
@@ -442,21 +446,21 @@ export default {
       address_name_input: "Address (required)",
     },
   },
-  /** {@see SStorefrontUserReturnRequests} **/
+  /** {@see StorefrontPageUserReturns} **/
   return_requests: {
     title: "Return requests",
   },
-  /** {@see SStorefrontUserFavoritesPage} **/
+  /** {@see StorefrontPageUserWishlist} **/
   user_favorites: {
     title: "Wishlist",
   },
-  /** {@see SStorefrontUserCommentsPage} **/
+  /** {@see StorefrontPageUserComments} **/
   user_comments: {
     title: "My Comments",
     first_post: "First post",
     last_edit: "Last edit",
   },
-  /** {@see SStorefrontUserGiftCardsPage} **/
+  /** {@see StorefrontPageUserGiftcards} **/
   user_gift_cards: {
     title: "My Gift Cards",
     add_action: "Add card",
@@ -465,17 +469,17 @@ export default {
       message:
         "Enter the card number and security code. A gift card will be added to your account.",
       card_number_input: "Card number",
-      info: "Note: When buying from the store, you will be shown the option of paying with gift cards. By selecting this option, the amount of your recharge balance will be deducted from the order amount. ",
+      info: "Please note that when purchasing from the store, you will have the option to pay using gift cards. If you choose this payment method, the amount will be deducted from your recharge balance, directly affecting your order's total.",
       add_action: "Card Registration",
     },
   },
 
-  /** {@see SStorefrontProductsComparisonButton} **/
+  /** {@see SComparisonButton} **/
   product_comparison: {
     title: "Compare Products",
     action_button: "Compare",
 
-    /** {@see ProductComparisonList} **/
+    /** {@see SComparisonList} **/
     list: {
       no_data: "No products were added to the comparison list.",
       price: "Price",
@@ -495,7 +499,7 @@ export default {
       cross_list: ["No", "Hasn't"],
     },
   },
-  /** {@see SStorefrontProductsFilterMenu} **/
+  /** {@see SCategoryFilter} **/
   product_filter_menu: {
     only_original: "Only originals",
     only_has_discount: "Only discounted",
@@ -515,7 +519,7 @@ export default {
     },
   },
 
-  /** @see SStorefrontBlogsPage **/
+  /** @see StorefrontPageBlogsList **/
   blogs: {
     title: "Blog",
     add_new_blog: "New Blog",
@@ -524,7 +528,7 @@ export default {
     suggestions: "Suggestions",
   },
 
-  /** @see SStorefrontProfilePage **/
+  /** @see StorefrontPageOfficial **/
   official_pages: {
     about_us: "About us",
     terms: "Terms of use",
@@ -585,8 +589,8 @@ export default {
   /** {@see SStorefrontAvocadoCustomerOrderForm} **/
   /** {@see SShopAvocadoCustomerOrderItems} **/
   /** {@see SStorefrontAvocadoCustomerOrderList} **/
-  /** {@see SStorefrontAvocadoPage} **/
-  /** {@see SStorefrontAvocadoOrderPage} **/
+  /** {@see StorefrontPageAvocado} **/
+  /** {@see StorefrontPageAvocadoCart} **/
 
   avocado: {
     not_enable: "The avocado form is not enabled!",
@@ -629,7 +633,7 @@ export default {
     },
   },
 
-  /** {@see SStorefrontHyperAddOrderForm} **/
+  /** {@see SHyperCart} **/
   hyper: {
     title: "Order creation",
     message:
@@ -695,7 +699,7 @@ export default {
     },
   },
 
-  /** @see SStorefrontPrivateAccessCheckView **/
+  /** @see SAccessPrivateCheck **/
   check_access: {
     waiting_message: "Waiting to check access...",
     no_access_message:
@@ -727,7 +731,7 @@ export default {
       "This product has received a rating of {rate} out of 5 stars and rated by {rate_count} people.",
   },
 
-  /** {@see SShopRelatedProducts} **/
+  /** {@see SProductRelatedProducts} **/
   related_products: {
     card: {
       title: "Explore!",
@@ -735,4 +739,20 @@ export default {
       same_category_subtitle: "Find more remarkable items in this category.",
     },
   },
+
+  /** {@see SProductCrossSells} **/
+  cross_selling: {
+    title:'Order {product} with'
+  },
+
+
+  /** {@see SSmartSelectVendor} **/
+  select_vendor: {
+    item_title:'View store of {vendor}'
+  },
+
+
+login:{
+    welcome:'Welcome'
+}
 };

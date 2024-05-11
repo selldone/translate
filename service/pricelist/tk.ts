@@ -2,7 +2,7 @@ export default {
   "title": "Mugt başlaň, çalt ulalyň!",
   "sub_title": "Featureshli aýratynlyklara tölegsiz giriş! Üstünlikli satyn almalardan soň <b>satuwyň diňe 2% -i</b> . Satuwyňyz köpmi we tölegleri azaltmak isleýärsiňizmi?",
   "show_detail_list": "Jikme-jiklikleriň sanawyny görkeziň",
-  "plan_free_detail": "<b class='text-capitalize'>Çalt ösýän kärhanalar üçin operasiýa ulgamy</b> | Mugt meýilnamamyz bilen işiňize başlaň. Elektron telekeçilik web sahypaňyzy açmak we açmak üçin zerur zatlaryň hemmesi şu ýerde taýýar. Selldone mugt abuna meýilnamasy arkaly ähli programma üpjünçiligini, gurallary we bulut hosting çözgüdini üpjün edýär. Selldone goşmaça programma üpjünçiliginiň täzelenmeleri we howpsuzlyk pikirleri barada alada edýär. Şonuň üçin ähli güýjüňizi satmaga gönükdirip bilersiňiz we tehniki meseleler we çykdajylar barada alada etmersiňiz.",
+  "plan_free_detail": "<b class='text-capitalize'>Çalt ösýän kärhanalar üçin operasiýa ulgamy</b> ╏ Mugt meýilnamamyz bilen işiňize başlaň. Elektron telekeçilik web sahypaňyzy açmak we açmak üçin zerur zatlaryň hemmesi şu ýerde taýýar. Selldone mugt abuna meýilnamasy arkaly ähli programma üpjünçiligini, gurallary we bulut hosting çözgüdini üpjün edýär. Selldone goşmaça programma üpjünçiliginiň täzelenmeleri we howpsuzlyk pikirleri barada alada edýär. Şonuň üçin ähli güýjüňizi satmaga gönükdirip bilersiňiz we tehniki meseleler we çykdajylar barada alada etmersiňiz.",
   "pay_monthly": "Aýda töläň",
   "pay_yearly": "Lyyllyk töläň",
   "pay_yearly_off": "30% arzanladyş",

@@ -2,7 +2,7 @@ export default {
   "title": "Bepul boshlang, tez rivojlaning!",
   "sub_title": "Hech qanday to'lovsiz barcha funktsiyalardan cheksiz foydalanish! Muvaffaqiyatli xaridlardan so'ng sotuvning atigi <b>2%</b> . Sizda sotuvlar ko'p va to'lovlarni kamaytirmoqchimisiz?",
   "show_detail_list": "Tafsilotlar roʻyxatini koʻrsatish",
-  "plan_free_detail": "<b class='text-capitalize'>Tez rivojlanayotgan korxonalar uchun operatsion tizim</b> | Bizning bepul rejamiz asosida biznesingizni boshlang. Elektron tijorat veb-saytingizni boshlash va ishga tushirish uchun kerak bo'lgan hamma narsa shu yerda tayyor. Selldone bepul obuna rejasi bo'yicha barcha dasturiy ta'minot, vositalar va bulutli hosting yechimlarini taqdim etadi. Selldone qo'shimcha ravishda barcha dasturiy ta'minot yangilanishlari va xavfsizlik masalalari bilan shug'ullanadi. Shunday qilib, siz barcha sa'y-harakatlaringizni sotishga qaratishingiz va texnik muammolar va xarajatlar haqida qayg'urmasligingiz mumkin.",
+  "plan_free_detail": "<b class='text-capitalize'>Tez rivojlanayotgan korxonalar uchun operatsion tizim</b> ╏ Bizning bepul rejamiz asosida biznesingizni boshlang. Elektron tijorat veb-saytingizni boshlash va ishga tushirish uchun kerak bo'lgan hamma narsa shu yerda tayyor. Selldone bepul obuna rejasi bo'yicha barcha dasturiy ta'minot, vositalar va bulutli hosting yechimlarini taqdim etadi. Selldone qo'shimcha ravishda barcha dasturiy ta'minot yangilanishlari va xavfsizlik masalalari bilan shug'ullanadi. Shunday qilib, siz barcha sa'y-harakatlaringizni sotishga qaratishingiz va texnik muammolar va xarajatlar haqida qayg'urmasligingiz mumkin.",
   "pay_monthly": "Oylik to'lash",
   "pay_yearly": "Yillik to'lash",
   "pay_yearly_off": "30% chegirma",

@@ -2,7 +2,7 @@ export default {
   "title": "Comença gratis, creix ràpid!",
   "sub_title": "Accés il·limitat a totes les funcions sense cap cost! Només el <b>2% de la venda</b> , just després de les compres reeixides. Tens moltes vendes i vols reduir les tarifes?",
   "show_detail_list": "Mostra la llista de detalls",
-  "plan_free_detail": "<b class='text-capitalize'>Un sistema operatiu per a empreses de ràpid creixement</b> | Comença el teu negoci amb el nostre pla gratuït. Tot el que necessiteu per iniciar i llançar el vostre lloc web de comerç electrònic està a punt aquí. Selldone ofereix tot el programari, les eines i la solució d'allotjament en núvol mitjançant un pla de subscripció gratuït. Selldone també s'encarrega de totes les actualitzacions de programari i consideracions de seguretat. Així podeu centrar tots els vostres esforços a vendre i no preocupar-vos per problemes tècnics i costos.",
+  "plan_free_detail": "<b class='text-capitalize'>Un sistema operatiu per a empreses de ràpid creixement</b> ╏ Comença el teu negoci amb el nostre pla gratuït. Tot el que necessiteu per iniciar i llançar el vostre lloc web de comerç electrònic està a punt aquí. Selldone ofereix tot el programari, les eines i la solució d'allotjament en núvol mitjançant un pla de subscripció gratuït. Selldone també s'encarrega de totes les actualitzacions de programari i consideracions de seguretat. Així podeu centrar tots els vostres esforços a vendre i no preocupar-vos per problemes tècnics i costos.",
   "pay_monthly": "Paga mensualment",
   "pay_yearly": "Paga anualment",
   "pay_yearly_off": "30% de descompte",

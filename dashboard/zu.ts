@@ -41,7 +41,7 @@ export default {
   "Reddit": "I-Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Selldone | Uhlelo Lokusebenza Lwebhizinisi Lwezinkampani Ezikhula Ngokushesha",
+    "home": "Selldone ╏ Uhlelo Lokusebenza Lwebhizinisi Lwezinkampani Ezikhula Ngokushesha",
     "login": "Ngena ngemvume",
     "register": "Bhalisa",
     "auth_2fa": "2 factor Qinisekisa 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Izitolo Zami",
     "roles": "Izindima zami",
     "wallet": "Isikhwama sami semali",
-    "personal_info": "Ulwazi lomuntu siqu | I-KYC",
+    "personal_info": "Ulwazi lomuntu siqu ╏ I-KYC",
     "companies": "Izinkampani Zami",
     "access_control": "Ukulawula Ukufinyelela",
     "security_center": "Isikhungo Sokuphepha",
     "gifts": {
-      "received": "Izipho | Kwamukelwe",
-      "send": "Izipho | Ithunyelwe"
+      "received": "Izipho ╏ Kwamukelwe",
+      "send": "Izipho ╏ Ithunyelwe"
     },
     "monetization": {
-      "linked_accounts": "Indlela yokwenza imali | Ama-akhawunti Axhunyiwe",
-      "plans": "Indlela yokwenza imali | Uhlelo & Izixhumanisi"
+      "linked_accounts": "Indlela yokwenza imali ╏ Ama-akhawunti Axhunyiwe",
+      "plans": "Indlela yokwenza imali ╏ Uhlelo & Izixhumanisi"
     },
     "affiliate": "Inxusa",
     "avocado": "Ukwatapheya — Isiteshi Sesimanje Sokuthengisa Komphakathi",
     "guild": "Inhlangano - Isiteshi Sokuthengisa Esihlanganisiwe",
-    "partners_login": "Ozakwethu | Ukungena ngemvume kweklayenti"
+    "partners_login": "Ozakwethu ╏ Ukungena ngemvume kweklayenti"
   },
   "blank_is_all_products": "Shiya kungenalutho ukufaka yonke imikhiqizo!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Ngesikhathi sokucubungula i-oda, inani elilethiwe lingahluka enanini eli-odiwe. Uhlelo lubala ngokuzenzakalelayo lo mehluko futhi luwurekhode njengesikweletu sakho kukhasimende, esingase sisetshenziswe kuma-oda alandelayo.",
       "status_list": {
         "active": {
-          "title": "Iyasebenza | Ukuthengisa okuku-inthanethi nokungaxhunyiwe ku-inthanethi",
+          "title": "Iyasebenza ╏ Ukuthengisa okuku-inthanethi nokungaxhunyiwe ku-inthanethi",
           "description": "Lo mkhiqizo uzotholakala kuma-oda aku-inthanethi."
         },
         "inactive": {
-          "title": "Ayisebenzi | Ukuthengisa Okungaxhunyiwe Ku-inthanethi Kuphela",
+          "title": "Ayisebenzi ╏ Ukuthengisa Okungaxhunyiwe Ku-inthanethi Kuphela",
           "description": "Lo mkhiqizo ngeke utholakale kuma-oda aku-inthanethi."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Kulula",
         "dark_input": "Itimu emnyama?",
         "icon_input": "Isithonjana",
-        "icon_input_hint": "Igama Lesithonjana Sokuklama Okubalulekile noma i-Fontawsom: fas fa-star",
+        "icon_input_hint": "Igama Lesithonjana Sokuklama Okubalulekile noma i-Fontawsom: fa:fas fa-star",
         "anim_input": "Ikheli Lopopayi",
         "anim_input_message": "I-URL yefayela lopopayi le-Lottie",
         "preview": "Buka kuqala",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "I-oda liye lamiswa. {reason}",
     "connect-remove-hold": "I-oda lisusiwe ekubanjweni. {reason}",
     "connect-confirmed": "I-oda liqinisekisiwe.",
-    "email-vendor": "🔔 I-imeyili yokwaziswa kwe-oda ithunyelwe ku- <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 I-imeyili yokwaziswa kwe-oda ithunyelwe ku- <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Inkokhelo kumthengisi."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Isibali | Ifanele ibhizinisi lakho",
+    "title": "Isibali ╏ Ifanele ibhizinisi lakho",
     "description": "Bala bese ukhetha uhlelo olungcono kakhulu olususelwa ekuthengisweni kwakho kwanyanga zonke:",
     "sale_input": "Inani lokuthengisa lanyanga zonke",
     "hypernova_plan": "Faka isicelo se-Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Gcina izindawo Izilungiselelo",
     "save_alert": "Izilungiselelo azilondoloziwe!",
     "pos_tax_setting": "Izilungiselelo zentela ye-POS",
-    "tax_exclude_title": "Akufakiwe | Intela izokwengezwa ekuphumeni",
+    "tax_exclude_title": "Akufakiwe ╏ Intela izokwengezwa ekuphumeni",
     "tax_excluded_message": "Izintela zizobalwa ngaphambi kwezinkokhelo ngesikhathi sokukhokha futhi zengezwe enanini lentela elingafakiwe kuye ngobufakazi bekhasimende lakho."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Iyasebenza",
-      "title": "Iyasebenza | Ukuthengisa okuku-inthanethi nokungaxhunyiwe ku-inthanethi",
+      "title": "Iyasebenza ╏ Ukuthengisa okuku-inthanethi nokungaxhunyiwe ku-inthanethi",
       "description": "Lo mkhiqizo uzotholakala kuma-oda aku-inthanethi."
     },
     "close": {
       "name": "engasebenzi",
-      "title": "Ayisebenzi | Ukuthengisa Okungaxhunyiwe Ku-inthanethi Kuphela",
+      "title": "Ayisebenzi ╏ Ukuthengisa Okungaxhunyiwe Ku-inthanethi Kuphela",
       "description": "Lo mkhiqizo ngeke utholakale kuma-oda aku-inthanethi."
     },
     "pending": {

@@ -2,7 +2,7 @@ export default {
   "title": "Inizia gratis, cresci velocemente!",
   "sub_title": "Accesso illimitato a tutte le funzionalità a costo zero! Solo il <b>2% della vendita</b> , subito dopo gli acquisti andati a buon fine. Hai molte vendite e vuoi ridurre le commissioni?",
   "show_detail_list": "Mostra elenco dettagli",
-  "plan_free_detail": "<b class='text-capitalize'>Un sistema operativo per aziende in rapida crescita</b> | Inizia la tua attività con il nostro piano gratuito. Tutto ciò di cui hai bisogno per avviare e lanciare il tuo sito eCommerce è pronto qui. Selldone fornisce tutto il software, gli strumenti e la soluzione di hosting cloud tramite un piano di abbonamento gratuito. Selldone si occupa inoltre di tutti gli aggiornamenti software e delle considerazioni sulla sicurezza. Così puoi concentrare tutti i tuoi sforzi sulla vendita e non preoccuparti di problemi tecnici e costi.",
+  "plan_free_detail": "<b class='text-capitalize'>Un sistema operativo per aziende in rapida crescita</b> ╏ Inizia la tua attività con il nostro piano gratuito. Tutto ciò di cui hai bisogno per avviare e lanciare il tuo sito eCommerce è pronto qui. Selldone fornisce tutto il software, gli strumenti e la soluzione di hosting cloud tramite un piano di abbonamento gratuito. Selldone si occupa inoltre di tutti gli aggiornamenti software e delle considerazioni sulla sicurezza. Così puoi concentrare tutti i tuoi sforzi sulla vendita e non preoccuparti di problemi tecnici e costi.",
   "pay_monthly": "Paga mensilmente",
   "pay_yearly": "Paga annualmente",
   "pay_yearly_off": "30% di sconto",

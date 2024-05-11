@@ -2,7 +2,7 @@ export default {
   "title": "Start gratis, vokse hurtigt!",
   "sub_title": "Ubegrænset adgang til alle funktioner uden omkostninger! Kun <b>2% af salget</b> , lige efter vellykkede køb. Har du meget salg og ønsker at reducere gebyrerne?",
   "show_detail_list": "Vis liste med detaljer",
-  "plan_free_detail": "<b class='text-capitalize'>Et styresystem til hurtigtvoksende virksomheder</b> | Start din virksomhed med vores gratis plan. Alt hvad du behøver for at starte og starte dit e-handelswebsted er klar her. Selldone leverer al software, værktøjer og cloud-hostingløsninger med gratis abonnement. Selldone tager sig desuden af alle softwareopdateringer og sikkerhedsovervejelser. Så du kan fokusere alle dine kræfter på at sælge og ikke bekymre dig om tekniske problemer og omkostninger.",
+  "plan_free_detail": "<b class='text-capitalize'>Et styresystem til hurtigtvoksende virksomheder</b> ╏ Start din virksomhed med vores gratis plan. Alt hvad du behøver for at starte og starte dit e-handelswebsted er klar her. Selldone leverer al software, værktøjer og cloud-hostingløsninger med gratis abonnement. Selldone tager sig desuden af alle softwareopdateringer og sikkerhedsovervejelser. Så du kan fokusere alle dine kræfter på at sælge og ikke bekymre dig om tekniske problemer og omkostninger.",
   "pay_monthly": "Betal månedligt",
   "pay_yearly": "Betal årligt",
   "pay_yearly_off": "30 % rabat",

@@ -300,7 +300,7 @@ export default {
     AUTOMOTIVE: "Automotive",
   },
 
-  /** @see UserExpertPanel **/
+  /** @see BPageShuttleExpert **/
   expert_panel: {
     title: "Expert Hub",
     add_dialog: {
@@ -318,9 +318,9 @@ export default {
     cost_timeline: "Cost & Timeline",
     timespan: "Duration of the contract",
     cost: "Contract cost",
-    pay_now_action: "I agree | Pay now",
-    complete_action: "Yes | Finish contract",
-    reject_action: "No | Completion not approved",
+    pay_now_action: "I agree ╏ Pay now",
+    complete_action: "Yes ╏ Finish contract",
+    reject_action: "No ╏ Completion not approved",
     all_tasks_completed_message:
       "You have completed all the defined tasks. If you have finished this, press the order completion key. After this step, the customer must confirm the delivery of the work.",
     waiting_complete_by_customer_message:
@@ -443,7 +443,7 @@ export default {
     contact: "Contact information",
     name_placeholder: "Required*",
     email: "Email",
-    email_placeholder: "Required* your-email@gmail.com",
+    email_placeholder: "Required* your-mail{'@'}mail.com",
     request_title: "Describe your needs.",
     request_message:
       "Give specific information about your business to help our expert meet your requirements better and provide you affordable price and estimation of time.",

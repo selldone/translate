@@ -2,7 +2,7 @@ export default {
   "title": "Malite n'efu, too ngwa ngwa!",
   "sub_title": "Nweta njirimara niile na-akparaghị ókè n'efu! Naanị <b>2% nke ire ere</b> , obere oge ịzụrụ ihe ịga nke ọma. Ị nwere ọtụtụ ahịa ma chọọ ibelata ụgwọ?",
   "show_detail_list": "Gosi ndepụta nkọwa",
-  "plan_free_detail": "<b class='text-capitalize'>Sistemụ arụmọrụ maka azụmaahịa na-eto ngwa ngwa</b> | Malite azụmahịa gị site na atụmatụ efu anyị. Ihe niile ịchọrọ ịmalite wee malite webụsaịtị eCommerce gị adịla njikere ebe a. Selldone na-enye sọftụwia niile, ngwa ọrụ, yana ngwọta nnabata igwe ojii site na atụmatụ ndenye aha efu. Selldone na-elekọtakwa mmelite ngwanrọ niile yana nlebanya nchekwa. Ya mere, ị nwere ike ilekwasị anya mgbalị gị niile na ire ere ma ghara ichegbu onwe gị banyere okwu teknụzụ na ụgwọ.",
+  "plan_free_detail": "<b class='text-capitalize'>Sistemụ arụmọrụ maka azụmaahịa na-eto ngwa ngwa</b> ╏ Malite azụmahịa gị site na atụmatụ efu anyị. Ihe niile ịchọrọ ịmalite wee malite webụsaịtị eCommerce gị adịla njikere ebe a. Selldone na-enye sọftụwia niile, ngwa ọrụ, yana ngwọta nnabata igwe ojii site na atụmatụ ndenye aha efu. Selldone na-elekọtakwa mmelite ngwanrọ niile yana nlebanya nchekwa. Ya mere, ị nwere ike ilekwasị anya mgbalị gị niile na ire ere ma ghara ichegbu onwe gị banyere okwu teknụzụ na ụgwọ.",
   "pay_monthly": "Na-akwụ ụgwọ kwa ọnwa",
   "pay_yearly": "Na-akwụ ụgwọ kwa afọ",
   "pay_yearly_off": "30% kwụsịrị",

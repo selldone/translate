@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Seldone | It bedriuwsbestjoeringssysteem foar rapst groeiende bedriuwen",
+    "home": "Seldone ╏ It bedriuwsbestjoeringssysteem foar rapst groeiende bedriuwen",
     "login": "login",
     "register": "Register",
     "auth_2fa": "2 faktor ferifiearje 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Myn winkels",
     "roles": "Myn rollen",
     "wallet": "Myn beurs",
-    "personal_info": "Persoanlike ynformaasje | KYC",
+    "personal_info": "Persoanlike ynformaasje ╏ KYC",
     "companies": "Myn Bedriuwen",
     "access_control": "Tagongskontrôle",
     "security_center": "Feiligens Sintrum",
     "gifts": {
-      "received": "Gifts | Untfongen",
-      "send": "Gifts | Ferstjoerd"
+      "received": "Gifts ╏ Untfongen",
+      "send": "Gifts ╏ Ferstjoerd"
     },
     "monetization": {
-      "linked_accounts": "Monetarisaasje | Keppele akkounts",
-      "plans": "Monetarisaasje | Plan & Links"
+      "linked_accounts": "Monetarisaasje ╏ Keppele akkounts",
+      "plans": "Monetarisaasje ╏ Plan & Links"
     },
     "affiliate": "Affiliate",
     "avocado": "Avocado - Modern sosjale ferkeapkanaal",
     "guild": "Gilde - Kollektive ferkeapkanaal",
-    "partners_login": "Partners | Client login"
+    "partners_login": "Partners ╏ Client login"
   },
   "blank_is_all_products": "Lit leech om alle produkten op te nimmen!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "By it ferwurkjen fan bestelling kin it levere bedrach ferskille fan it bestelde bedrach. It systeem automatysk berekkent dit ferskil en registrearret it as jo skuld oan de klant, dat kin tapast wurde op de folgjende oarders.",
       "status_list": {
         "active": {
-          "title": "Aktyf | Online & Offline Ferkeap",
+          "title": "Aktyf ╏ Online & Offline Ferkeap",
           "description": "Dit produkt sil beskikber wêze foar online bestellingen."
         },
         "inactive": {
-          "title": "Ynaktyf | Allinnich offline ferkeap",
+          "title": "Ynaktyf ╏ Allinnich offline ferkeap",
           "description": "Dit produkt sil net beskikber wêze foar online oarders."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Ienfâldich",
         "dark_input": "Dûnker tema?",
         "icon_input": "Ikoan",
-        "icon_input_hint": "Materiaal Design Ikoan Namme of Fontawsom: fas fa-stjer",
+        "icon_input_hint": "Materiaal Design Ikoan Namme of Fontawsom: fa:fas fa-stjer",
         "anim_input": "Animation Adres",
         "anim_input_message": "Lottie animaasje triem URL",
         "preview": "Foarbyld",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "De opdracht waard ophâlden. {reason}",
     "connect-remove-hold": "De opdracht is út de wacht helle. {reason}",
     "connect-confirmed": "De oarder waard befêstige.",
-    "email-vendor": "🔔 Bestelynformaasje e-post is stjoerd nei <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 Bestelynformaasje e-post is stjoerd nei <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Betelling oan ferkeaper."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Calculator | Pas by jo bedriuw",
+    "title": "Calculator ╏ Pas by jo bedriuw",
     "description": "Berekkenje en kies it bêste plan basearre op jo moanlikse ferkeap:",
     "sale_input": "Moanlikse ferkeap bedrach",
     "hypernova_plan": "Oanfreegje foar Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Winkel lokaasjes Ynstellings",
     "save_alert": "Ynstellings wurde net bewarre!",
     "pos_tax_setting": "POS Tax ynstellings",
-    "tax_exclude_title": "Útsletten | Belesting wurdt tafoege by kassa",
+    "tax_exclude_title": "Útsletten ╏ Belesting wurdt tafoege by kassa",
     "tax_excluded_message": "De belestingen wurde berekkene foar de betellingen tidens de kassa en tafoege oan 'e útsletten belestingpriis ôfhinklik fan jo klantbewiis."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktyf",
-      "title": "Aktyf | Online & Offline Ferkeap",
+      "title": "Aktyf ╏ Online & Offline Ferkeap",
       "description": "Dit produkt sil beskikber wêze foar online bestellingen."
     },
     "close": {
       "name": "ynaktyf",
-      "title": "Ynaktyf | Allinnich offline ferkeap",
+      "title": "Ynaktyf ╏ Allinnich offline ferkeap",
       "description": "Dit produkt sil net beskikber wêze foar online oarders."
     },
     "pending": {

@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Selldone | Hazkunde azkarreko enpresentzako negozio-sistema eragilea",
+    "home": "Selldone ╏ Hazkunde azkarreko enpresentzako negozio-sistema eragilea",
     "login": "saioa hasi",
     "register": "Izena eman",
     "auth_2fa": "2 faktore autentifikatu 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Nire dendak",
     "roles": "Nire rolak",
     "wallet": "Nire zorroa",
-    "personal_info": "Informazio pertsonala | KYC",
+    "personal_info": "Informazio pertsonala ╏ KYC",
     "companies": "Nire Enpresak",
     "access_control": "Sarbide Kontrola",
     "security_center": "Segurtasun Zentroa",
     "gifts": {
-      "received": "Opariak | Jaso",
-      "send": "Opariak | Bidali"
+      "received": "Opariak ╏ Jaso",
+      "send": "Opariak ╏ Bidali"
     },
     "monetization": {
-      "linked_accounts": "Dirua irabaztea | Lotutako kontuak",
-      "plans": "Dirua irabaztea | Plana eta Estekak"
+      "linked_accounts": "Dirua irabaztea ╏ Lotutako kontuak",
+      "plans": "Dirua irabaztea ╏ Plana eta Estekak"
     },
     "affiliate": "Afiliatua",
     "avocado": "Avocado — Salmenta Sozialaren Kanal Modernoa",
     "guild": "Gremioa — Salmenta kolektiborako kanala",
-    "partners_login": "Bazkideak | Bezeroaren saioa"
+    "partners_login": "Bazkideak ╏ Bezeroaren saioa"
   },
   "blank_is_all_products": "Utzi hutsik produktu guztiak sartzeko!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Eskaerak prozesatzen diren bitartean, entregatutako zenbatekoa eskatutakoaren desberdina izan daiteke. Sistemak automatikoki kalkulatzen du diferentzia hori eta bezeroarekin duzun zor gisa erregistratzen du, hurrengo eskaeretan aplikatu ahal izateko.",
       "status_list": {
         "active": {
-          "title": "Aktiboa | Lineako eta lineaz kanpoko salmentak",
+          "title": "Aktiboa ╏ Lineako eta lineaz kanpoko salmentak",
           "description": "Produktu hau lineako eskaerak egiteko eskuragarri egongo da."
         },
         "inactive": {
-          "title": "Inaktibo | Lineaz kanpoko salmentak bakarrik",
+          "title": "Inaktibo ╏ Lineaz kanpoko salmentak bakarrik",
           "description": "Produktu hau ez da eskuragarri egongo lineako eskaerak egiteko."
         }
       },
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Agindua eten egin zen. {reason}",
     "connect-remove-hold": "Agindua atxikipenetik kendu da. {reason}",
     "connect-confirmed": "Agindua baieztatu zen.",
-    "email-vendor": "🔔 Eskaera jakinarazteko mezu elektronikoa bidali da <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 Eskaera jakinarazteko mezu elektronikoa bidali da <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Ordainketa saltzaileari."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Kalkulagailua | Zure negoziora egokitu",
+    "title": "Kalkulagailua ╏ Zure negoziora egokitu",
     "description": "Kalkulatu eta aukeratu plan onena zure hileko salmenten arabera:",
     "sale_input": "Hileko salmenten zenbatekoa",
     "hypernova_plan": "Eskatu Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Denda-kokapenen ezarpenak",
     "save_alert": "Ezarpenak ez dira gordetzen!",
     "pos_tax_setting": "POS Zergaren ezarpenak",
-    "tax_exclude_title": "Baztertuta | Zerga ordaintzerakoan gehituko da",
+    "tax_exclude_title": "Baztertuta ╏ Zerga ordaintzerakoan gehituko da",
     "tax_excluded_message": "Zergak ordainketak egitean ordaindu baino lehen kalkulatuko dira eta salbuetsitako zerga prezioari gehituko zaizkio bezeroaren frogaren arabera."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktiboa",
-      "title": "Aktiboa | Lineako eta lineaz kanpoko salmentak",
+      "title": "Aktiboa ╏ Lineako eta lineaz kanpoko salmentak",
       "description": "Produktu hau lineako eskaerak egiteko eskuragarri egongo da."
     },
     "close": {
       "name": "inaktibo",
-      "title": "Inaktibo | Lineaz kanpoko salmentak bakarrik",
+      "title": "Inaktibo ╏ Lineaz kanpoko salmentak bakarrik",
       "description": "Produktu hau ez da eskuragarri egongo lineako eskaerak egiteko."
     },
     "pending": {

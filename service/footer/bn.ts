@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 গিল্ড",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "পরিকল্পনা এবং মূল্য নির্ধারণ",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

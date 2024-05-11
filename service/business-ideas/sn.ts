@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Social Sales",
-      "subtitle": "Avocado | Tanga kutengesa chete nechinhu chimwe chete",
+      "subtitle": "Avocado ╏ Tanga kutengesa chete nechinhu chimwe chete",
       "custom_form": "Custom odha fomu",
       "step1": "Avocado kuzadzikiswa",
       "step2": "Mitengo uye invoice nyaya",

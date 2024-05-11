@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Tallace-tallacen Jama'a",
-      "subtitle": "Avocado | Fara siyarwa ta hanyar mahaɗi ɗaya kawai",
+      "subtitle": "Avocado ╏ Fara siyarwa ta hanyar mahaɗi ɗaya kawai",
       "custom_form": "Tsarin tsari na al'ada",
       "step1": "Avocado cika",
       "step2": "Matsalar farashi da daftari",

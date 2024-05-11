@@ -2,7 +2,7 @@ export default {
   "title": "Kezdje ingyen, fejlődjön gyorsan!",
   "sub_title": "Korlátlan hozzáférés minden funkcióhoz ingyenesen! Csak <b>az eladás 2%-a</b> , közvetlenül a sikeres vásárlások után. Sok értékesítése van, és szeretné csökkenteni a díjakat?",
   "show_detail_list": "Részletes lista megjelenítése",
-  "plan_free_detail": "<b class='text-capitalize'>Operációs rendszer gyorsan növekvő vállalkozások számára</b> | Indítsa el vállalkozását ingyenes csomagunkkal. Itt minden készen áll, amire szüksége van az e-kereskedelmi webhely elindításához és elindításához. A Selldone minden szoftvert, eszközt és felhőtárhely-megoldást biztosít ingyenes előfizetési csomaggal. A Selldone emellett gondoskodik minden szoftverfrissítésről és biztonsági megfontolásról. Így minden erőfeszítését az értékesítésre összpontosíthatja, és nem kell aggódnia a technikai problémák és a költségek miatt.",
+  "plan_free_detail": "<b class='text-capitalize'>Operációs rendszer gyorsan növekvő vállalkozások számára</b> ╏ Indítsa el vállalkozását ingyenes csomagunkkal. Itt minden készen áll, amire szüksége van az e-kereskedelmi webhely elindításához és elindításához. A Selldone minden szoftvert, eszközt és felhőtárhely-megoldást biztosít ingyenes előfizetési csomaggal. A Selldone emellett gondoskodik minden szoftverfrissítésről és biztonsági megfontolásról. Így minden erőfeszítését az értékesítésre összpontosíthatja, és nem kell aggódnia a technikai problémák és a költségek miatt.",
   "pay_monthly": "Fizetés havonta",
   "pay_yearly": "Fizessen évente",
   "pay_yearly_off": "30% kedvezmény",

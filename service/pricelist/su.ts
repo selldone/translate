@@ -2,7 +2,7 @@ export default {
   "title": "Mimitian Gratis, Tumuwuh Gancang!",
   "sub_title": "Aksés anu teu terbatas ka sadaya fitur tanpa biaya! Ngan ukur <b>2% tina penjualan</b> , saatos pameseran suksés. Naha anjeun gaduh seueur penjualan sareng hoyong ngirangan biaya?",
   "show_detail_list": "Témbongkeun daptar rinci",
-  "plan_free_detail": "<b class='text-capitalize'>Hiji sistem operasi pikeun bisnis tumuwuh gancang</b> | Mimitian bisnis anjeun ku rencana gratis kami. Sadayana anu anjeun peryogikeun pikeun ngamimitian sareng ngaluncurkeun halaman wéb eCommerce anjeun parantos siap di dieu. Selldone nyayogikeun sadaya parangkat lunak, alat, sareng solusi hosting awan ku rencana langganan gratis. Seldone ogé ngurus sadaya apdet parangkat lunak sareng pertimbangan kaamanan. Janten anjeun tiasa museurkeun sadaya usaha anjeun pikeun ngajual sareng henteu hariwang ngeunaan masalah téknis sareng biaya.",
+  "plan_free_detail": "<b class='text-capitalize'>Hiji sistem operasi pikeun bisnis tumuwuh gancang</b> ╏ Mimitian bisnis anjeun ku rencana gratis kami. Sadayana anu anjeun peryogikeun pikeun ngamimitian sareng ngaluncurkeun halaman wéb eCommerce anjeun parantos siap di dieu. Selldone nyayogikeun sadaya parangkat lunak, alat, sareng solusi hosting awan ku rencana langganan gratis. Seldone ogé ngurus sadaya apdet parangkat lunak sareng pertimbangan kaamanan. Janten anjeun tiasa museurkeun sadaya usaha anjeun pikeun ngajual sareng henteu hariwang ngeunaan masalah téknis sareng biaya.",
   "pay_monthly": "Mayar bulanan",
   "pay_yearly": "Mayar taunan",
   "pay_yearly_off": "diskon 30%.",

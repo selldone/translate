@@ -880,7 +880,7 @@ export default {
   },
   "placeholders": {
     "name": "Ջոն Քոքս",
-    "email": "your-mail@mail.com",
+    "email": "your-mail{'@'}mail.com",
     "phone": "+1 000 0000",
     "language": "Ընտրել լեզուն..",
     "friend_email": "Ձեր ընկերոջ էլ․․․",

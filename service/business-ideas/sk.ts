@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Sociálny predaj",
-      "subtitle": "Avokádo | Začnite predávať iba jedným odkazom",
+      "subtitle": "Avokádo ╏ Začnite predávať iba jedným odkazom",
       "custom_form": "Vlastný objednávkový formulár",
       "step1": "Plnenie z avokáda",
       "step2": "Ceny a vystavenie faktúry",

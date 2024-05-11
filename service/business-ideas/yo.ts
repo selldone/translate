@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Social Sales",
-      "subtitle": "Piha | Bẹrẹ ta nipasẹ ọna asopọ kan",
+      "subtitle": "Piha ╏ Bẹrẹ ta nipasẹ ọna asopọ kan",
       "custom_form": "Aṣa ibere fọọmu",
       "step1": "Avokado imuse",
       "step2": "Ifowoleri ati risiti oro",

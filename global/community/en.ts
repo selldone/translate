@@ -127,7 +127,7 @@ export default  {
     reports: "Reports",
   },
 
-  /** @see CommunityBreadcrumb **/
+  /** @see CBreadcrumb **/
 
   nominate: {
     note: "You can nominate someone you know. If this person has not already been approved by another person, you will be registered as their verifier. Your friend must be a member of Selldone before you can nominate them.",
@@ -294,7 +294,7 @@ export default  {
 
   },
 
-  /** @see CommunityBreadcrumb **/
+  /** @see CBreadcrumb **/
   invite: {
     not_have_profile_error: "This user not complete his/her profile!",
     nominated_before_error: "This user nominated before!",

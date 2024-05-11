@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Guilde",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Forfaits et tarifs",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

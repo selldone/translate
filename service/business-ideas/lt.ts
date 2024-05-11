@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Socialiniai pardavimai",
-      "subtitle": "Avokadas | Pradėkite pardavinėti tik naudodami vieną nuorodą",
+      "subtitle": "Avokadas ╏ Pradėkite pardavinėti tik naudodami vieną nuorodą",
       "custom_form": "Individualizuota užsakymo forma",
       "step1": "Avokado išpildymas",
       "step2": "Kainodaros ir sąskaitų faktūrų išrašymas",

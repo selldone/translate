@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Ceh",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Načrti in cene",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

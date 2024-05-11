@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Bán hàng trên mạng xã hội",
-      "subtitle": "Quả bơ | Bắt đầu bán hàng chỉ bằng một liên kết",
+      "subtitle": "Quả bơ ╏ Bắt đầu bán hàng chỉ bằng một liên kết",
       "custom_form": "Đơn đặt hàng tùy chỉnh",
       "step1": "Quả bơ",
       "step2": "Định giá và xuất hóa đơn",

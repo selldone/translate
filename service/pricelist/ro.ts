@@ -2,7 +2,7 @@ export default {
   "title": "Începe gratuit, crește rapid!",
   "sub_title": "Acces nelimitat la toate funcțiile fără costuri! Doar <b>2% din vânzare</b> , imediat după achiziții reușite. Aveți multe vânzări și doriți să reduceți taxele?",
   "show_detail_list": "Afișează lista de detalii",
-  "plan_free_detail": "<b class='text-capitalize'>Un sistem de operare pentru afaceri cu creștere rapidă</b> | Începeți-vă afacerea cu planul nostru gratuit. Tot ce aveți nevoie pentru a începe și a lansa site-ul dvs. de comerț electronic este gata aici. Selldone oferă toate programele, instrumentele și soluțiile de găzduire în cloud prin plan de abonament gratuit. Selldone se ocupă în plus de toate actualizările de software și de considerentele de securitate. Astfel, vă puteți concentra toate eforturile pe vânzare și nu vă faceți griji cu privire la problemele tehnice și costurile.",
+  "plan_free_detail": "<b class='text-capitalize'>Un sistem de operare pentru afaceri cu creștere rapidă</b> ╏ Începeți-vă afacerea cu planul nostru gratuit. Tot ce aveți nevoie pentru a începe și a lansa site-ul dvs. de comerț electronic este gata aici. Selldone oferă toate programele, instrumentele și soluțiile de găzduire în cloud prin plan de abonament gratuit. Selldone se ocupă în plus de toate actualizările de software și de considerentele de securitate. Astfel, vă puteți concentra toate eforturile pe vânzare și nu vă faceți griji cu privire la problemele tehnice și costurile.",
   "pay_monthly": "Plătiți lunar",
   "pay_yearly": "Plătiți anual",
   "pay_yearly_off": "30% reducere",

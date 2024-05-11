@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Xirka",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Pjanijiet u Ipprezzar",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

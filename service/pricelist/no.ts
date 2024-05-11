@@ -2,7 +2,7 @@ export default {
   "title": "Start gratis, veks raskt!",
   "sub_title": "Ubegrenset tilgang til alle funksjoner uten kostnad! Bare <b>2% av salget</b> , like etter vellykkede kjøp. Har du mye salg og ønsker å redusere gebyrene?",
   "show_detail_list": "Vis detaljliste",
-  "plan_free_detail": "<b class='text-capitalize'>Et operativsystem for raskt voksende virksomheter</b> | Start din bedrift med vår gratis plan. Alt du trenger for å starte og lansere e-handelsnettstedet ditt er klart her. Selldone tilbyr all programvare, verktøy og nettskyløsninger med gratis abonnement. Selldone tar seg i tillegg av alle programvareoppdateringer og sikkerhetshensyn. Så du kan fokusere all innsats på salg og ikke bekymre deg for tekniske problemer og kostnader.",
+  "plan_free_detail": "<b class='text-capitalize'>Et operativsystem for raskt voksende virksomheter</b> ╏ Start din bedrift med vår gratis plan. Alt du trenger for å starte og lansere e-handelsnettstedet ditt er klart her. Selldone tilbyr all programvare, verktøy og nettskyløsninger med gratis abonnement. Selldone tar seg i tillegg av alle programvareoppdateringer og sikkerhetshensyn. Så du kan fokusere all innsats på salg og ikke bekymre deg for tekniske problemer og kostnader.",
   "pay_monthly": "Betal månedlig",
   "pay_yearly": "Betal årlig",
   "pay_yearly_off": "30 % rabatt",

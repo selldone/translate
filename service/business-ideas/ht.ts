@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Komèsyal Sosyal",
-      "subtitle": "zaboka | Kòmanse vann jis pa yon sèl lyen",
+      "subtitle": "zaboka ╏ Kòmanse vann jis pa yon sèl lyen",
       "custom_form": "Fòm lòd koutim",
       "step1": "Akonplisman zaboka",
       "step2": "Pwoblèm pri ak fakti",

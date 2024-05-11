@@ -2,7 +2,7 @@ export default {
   "title": "Aloita ilmaiseksi, kasva nopeasti!",
   "sub_title": "Rajoittamaton pääsy kaikkiin ominaisuuksiin maksutta! Vain <b>2 % myynnistä</b> , juuri onnistuneiden ostosten jälkeen. Onko sinulla paljon myyntiä ja haluat alentaa maksuja?",
   "show_detail_list": "Näytä tietoluettelo",
-  "plan_free_detail": "<b class='text-capitalize'>Käyttöjärjestelmä nopeasti kasvaville yrityksille</b> | Aloita yrityksesi ilmaisella suunnitelmallamme. Kaikki mitä tarvitset verkkokauppasivustosi käynnistämiseen ja käynnistämiseen, on täällä. Selldone tarjoaa kaikki ohjelmistot, työkalut ja pilvipalveluratkaisut ilmaisella tilaussopimuksella. Selldone huolehtii lisäksi kaikista ohjelmistopäivityksistä ja turvallisuusnäkökohdista. Voit siis keskittää kaikki voimasi myyntiin etkä murehdi teknisistä ongelmista ja kustannuksista.",
+  "plan_free_detail": "<b class='text-capitalize'>Käyttöjärjestelmä nopeasti kasvaville yrityksille</b> ╏ Aloita yrityksesi ilmaisella suunnitelmallamme. Kaikki mitä tarvitset verkkokauppasivustosi käynnistämiseen ja käynnistämiseen, on täällä. Selldone tarjoaa kaikki ohjelmistot, työkalut ja pilvipalveluratkaisut ilmaisella tilaussopimuksella. Selldone huolehtii lisäksi kaikista ohjelmistopäivityksistä ja turvallisuusnäkökohdista. Voit siis keskittää kaikki voimasi myyntiin etkä murehdi teknisistä ongelmista ja kustannuksista.",
   "pay_monthly": "Maksa kuukausittain",
   "pay_yearly": "Maksa vuosittain",
   "pay_yearly_off": "30% alennus",

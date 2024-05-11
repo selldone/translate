@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Sangano",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Zvirongwa & Mitengo",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

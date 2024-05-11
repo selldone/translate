@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Lonca",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Planlar ve Fiyatlandırma",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

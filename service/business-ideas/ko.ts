@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "소셜 세일즈",
-      "subtitle": "아보카도 | 하나의 링크로 판매 시작",
+      "subtitle": "아보카도 ╏ 하나의 링크로 판매 시작",
       "custom_form": "맞춤 주문 양식",
       "step1": "아보카도 주문 처리",
       "step2": "가격 및 인보이스 발행",

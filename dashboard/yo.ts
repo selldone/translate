@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Selldone | Eto Ṣiṣẹ Iṣowo Fun Awọn ile-iṣẹ ti o dagba ni iyara",
+    "home": "Selldone ╏ Eto Ṣiṣẹ Iṣowo Fun Awọn ile-iṣẹ ti o dagba ni iyara",
     "login": "wo ile",
     "register": "Forukọsilẹ",
     "auth_2fa": "2 ifosiwewe Ijeri 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Awọn ile itaja Mi",
     "roles": "Awọn ipa mi",
     "wallet": "Apamọwọ Mi",
-    "personal_info": "Alaye ti ara ẹni | KYC",
+    "personal_info": "Alaye ti ara ẹni ╏ KYC",
     "companies": "Awọn ile-iṣẹ mi",
     "access_control": "Iṣakoso wiwọle",
     "security_center": "Ile-iṣẹ Aabo",
     "gifts": {
-      "received": "Ebun | Ti gba",
-      "send": "Ebun | Ti firanṣẹ"
+      "received": "Ebun ╏ Ti gba",
+      "send": "Ebun ╏ Ti firanṣẹ"
     },
     "monetization": {
-      "linked_accounts": "Owo owo | Awọn iroyin ti o sopọ",
-      "plans": "Owo owo | Eto & Awọn ọna asopọ"
+      "linked_accounts": "Owo owo ╏ Awọn iroyin ti o sopọ",
+      "plans": "Owo owo ╏ Eto & Awọn ọna asopọ"
     },
     "affiliate": "Alafaramo",
     "avocado": "Piha - Modern Social Sales ikanni",
     "guild": "Guild - Akopọ Sales ikanni",
-    "partners_login": "Awọn alabaṣepọ | Wiwọle alabara"
+    "partners_login": "Awọn alabaṣepọ ╏ Wiwọle alabara"
   },
   "blank_is_all_products": "Fi òfo silẹ lati ṣafikun gbogbo awọn ọja!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Lakoko sisẹ aṣẹ, iye ti a firanṣẹ le yatọ si iye ti a paṣẹ. Eto naa ṣe iṣiro iyatọ yii laifọwọyi ati ṣe igbasilẹ bi gbese rẹ si alabara, eyiti o le lo si awọn aṣẹ atẹle.",
       "status_list": {
         "active": {
-          "title": "Ti nṣiṣe lọwọ | Online & Aisinipo Tita",
+          "title": "Ti nṣiṣe lọwọ ╏ Online & Aisinipo Tita",
           "description": "Ọja yii yoo wa fun awọn ibere ori ayelujara."
         },
         "inactive": {
-          "title": "Aisise | Titaja Aisinipo nikan",
+          "title": "Aisise ╏ Titaja Aisinipo nikan",
           "description": "Ọja yii kii yoo wa fun awọn ibere ori ayelujara."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Rọrun",
         "dark_input": "Akori dudu?",
         "icon_input": "Aami",
-        "icon_input_hint": "Ohun elo Apẹrẹ Aami Name tabi Fontawsom: fas fa-Star",
+        "icon_input_hint": "Ohun elo Apẹrẹ Aami Name tabi Fontawsom: fa:fas fa-Star",
         "anim_input": "Animation adirẹsi",
         "anim_input_message": "Lottie iwara faili URL",
         "preview": "Awotẹlẹ",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "A fi aṣẹ naa si idaduro. {reason}",
     "connect-remove-hold": "A yọ aṣẹ naa kuro ni idaduro. {reason}",
     "connect-confirmed": "A ti fi idi aṣẹ naa mulẹ.",
-    "email-vendor": "🔔 Imeeli ifitonileti ti fi aṣẹ ranṣẹ si <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 Imeeli ifitonileti ti fi aṣẹ ranṣẹ si <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Payout si ataja."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Ẹrọ iṣiro | Dara si iṣowo rẹ",
+    "title": "Ẹrọ iṣiro ╏ Dara si iṣowo rẹ",
     "description": "Ṣe iṣiro ki o yan ero ti o dara julọ ti o da lori awọn tita oṣooṣu rẹ:",
     "sale_input": "Oṣooṣu tita iye",
     "hypernova_plan": "Waye fun Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Itaja awọn ipo Eto",
     "save_alert": "Eto ko ni ipamọ!",
     "pos_tax_setting": "POS Tax eto",
-    "tax_exclude_title": "Iyasoto | Owo-ori yoo wa ni afikun ni ibi isanwo",
+    "tax_exclude_title": "Iyasoto ╏ Owo-ori yoo wa ni afikun ni ibi isanwo",
     "tax_excluded_message": "Awọn owo-ori naa yoo ṣe iṣiro ṣaaju awọn sisanwo lakoko isanwo ati ṣafikun si idiyele owo-ori ti a yọkuro ti o da lori ẹri alabara rẹ."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Ti nṣiṣe lọwọ",
-      "title": "Ti nṣiṣe lọwọ | Online & Aisinipo Tita",
+      "title": "Ti nṣiṣe lọwọ ╏ Online & Aisinipo Tita",
       "description": "Ọja yii yoo wa fun awọn ibere ori ayelujara."
     },
     "close": {
       "name": "aiṣiṣẹ",
-      "title": "Aisise | Titaja Aisinipo nikan",
+      "title": "Aisise ╏ Titaja Aisinipo nikan",
       "description": "Ọja yii kii yoo wa fun awọn ibere ori ayelujara."
     },
     "pending": {

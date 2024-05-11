@@ -880,7 +880,7 @@ export default {
   },
   "placeholders": {
     "name": "Jone Cox",
-    "email": "your-mail@mail.com",
+    "email": "your-mail{'@'}mail.com",
     "phone": "+ 1 000 0000",
     "language": "Sarudza mutauro..",
     "friend_email": "email yeshamwari yako...",
@@ -1467,7 +1467,7 @@ export default {
     "reserved": "Reserved",
     "paid": "Yakabhadharwa",
     "canceled": "Kanzurwa",
-    "cod": "Pay On Delivery",
+    "cod": "COD",
     "receipt_added": "Receipt yakawedzerwa",
     "payment_processing": "Payment processing"
   },

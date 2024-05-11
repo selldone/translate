@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Ventas Sociales",
-      "subtitle": "Aguacate | Empieza a vender con solo un enlace",
+      "subtitle": "Aguacate ╏ Empieza a vender con solo un enlace",
       "custom_form": "formulario de pedido personalizado",
       "step1": "Cumplimiento de aguacate",
       "step2": "Emisión de precios y facturas",

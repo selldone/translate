@@ -719,6 +719,12 @@ export default {
     video: "Video",
     ends_in: "Ends in",
     current: "Current",
+    important: "Important",
+
+    web: "Web",
+    payout:"Payout",
+    vendor_panel:"Vendor panel",
+    vendors_panel:"Vendors panel",
   },
   difficulties: {
     very_complicated: "Very complicated",
@@ -858,6 +864,9 @@ export default {
     buy: "Buy",
     view_all: "View All",
     view_now: "View Now",
+    edit_address:"Edit address",
+    resend:"Resend",
+
   },
   /** @see BillingPeriod **/
   billing_period: {
@@ -994,12 +1003,13 @@ export default {
 
   placeholders: {
     name: "Jone Cox",
-    email: "your-mail@mail.com",
+    email: "your-mail{'@'}mail.com",
     phone: "+1 000 0000",
     language: "Select language..",
     friend_email: "Your friend's email...",
     friend_name: "Opt. Your friend's name",
     select_date: "Select a date...",
+    address:'123 Main St, Anytown, 12345',
   },
 
   notification: {
@@ -1230,6 +1240,8 @@ export default {
     ZWD: "ZWD",
     IQD: "IQD",
     SYP: "SYP",
+    KWD: "KWD",
+    BTN: "BTN",
   },
 
   variants: {
@@ -1305,7 +1317,7 @@ export default {
       "Customers pick up the items at your physical store or warehouse.",
   },
 
-  /** {@see SArticleView} **/
+  /** {@see ArticleViewer} **/
   article: {
     login_to_see_error: "Login to access the article",
     create_new_action: "Create New Content",
@@ -1584,7 +1596,7 @@ export default {
     reserved: "Reserved",
     paid: "Paid",
     canceled: "Canceled",
-    cod: "Pay On Delivery",
+    cod: "COD",
     receipt_added: "Receipt added",
     payment_processing: "Payment processing",
     payment_require_capture: "Require capture",
@@ -1600,7 +1612,7 @@ export default {
     step_4: "On delivery",
     step_5: "Delivered",
   },
-  /** {@see SBasketReturnItemsList} **/
+  /** {@see SOrderBasketReturn} **/
   basket_return_request_view: {
     title: "Return Request",
     delivery_date: "Delivery date",
@@ -1622,7 +1634,7 @@ export default {
     },
   },
 
-  /** {@see ShopProcessCenterBasketList} **/
+  /** {@see BOrderCart} **/
   basket_list: {
     return_count: "Return: {count} number",
     table: {
@@ -1798,13 +1810,13 @@ export default {
     Thursday: "Thursday",
     Friday: "Friday",
   },
-  /** {@see SPaymentForm} **/
+  /** {@see UPaymentForm} **/
   payment_form: {
     title: "Select Payment Method",
     gift_cards_input: "Gift Cards",
     gift_cards_input_empty: "No gift cards found..",
     more: "Other",
-    pay_amount_by_gift_cards: "Charge Card Payment",
+    pay_amount_by_gift_cards: "Giftcard payment",
     select_payment_method:
       "Choose your payment method from the following options.",
     payment_amount_remained: "Remaining payment amount",
@@ -1821,7 +1833,7 @@ export default {
       amount: "Amount",
     },
   },
-  /** {@see SStorefrontDiscountCodeInput} **/
+  /** {@see SDiscountCodeInput} **/
   discount_input: {
     limit: "{percent}% discount up to {limit} {currency}",
     action: "Add Discount Code",
@@ -1837,7 +1849,7 @@ export default {
     transfer: "Transfer",
     send_to_friend: "Send to friend",
   },
-  /** {@see SCountDown} **/
+  /** {@see UCountDown} **/
   count_down: {
     days: "Day",
     hours: "Hour",
@@ -1939,7 +1951,7 @@ export default {
     },
   },
 
-  /** {@see SStorefrontCookieDialog} **/
+  /** {@see SCookieConsent} **/
 
   cookie: {
     title: "This website uses cookies",
@@ -1978,10 +1990,10 @@ export default {
     },
   },
 
-  /** {@see RatingInput} **/
+  /** {@see URatingInput} **/
   rating_labels: ["Very bad", "Bad", "Normal", "Good", "Excellent"],
 
-  /** {@see SMapView} **/
+  /** {@see UMapView} **/
   map_view: {
     address_detail: "Address details",
     change: "Change",
@@ -2028,15 +2040,15 @@ export default {
   },
   /** {@see Calculator} **/
   /* calculator: {
-    title: "Calculator title",
-    formula: "Formula",
-    variable_name: "Variable name",
-    variable_name_message:
-      "Enter variable name and add it to use in your formula.",
-    type: "Variable type",
-    variable_title: "Variable title",
-    duplicate_var_name_error: "Can not add variable with same name!",
-  },*/
+      title: "Calculator title",
+      formula: "Formula",
+      variable_name: "Variable name",
+      variable_name_message:
+        "Enter variable name and add it to use in your formula.",
+      type: "Variable type",
+      variable_title: "Variable title",
+      duplicate_var_name_error: "Can not add variable with same name!",
+    },*/
 
   /** {@see SArticleStructuredData} **/
   json: {
@@ -2171,4 +2183,20 @@ export default {
     autumn: "Autumn",
     winter: "Winter",
   },
+
+
+  /** {@see SOrderChatBox} **/
+  order_chat: {
+    seller:{
+        history_title:"Messages history between you and the customer.",
+      input_message:"Here, you have the ability to directly exchange messages with customers."
+
+    },
+    customer:{
+      history_title:"Messages history between you and the seller.",
+      input_message:"Here, you have the ability to directly communicate with the seller by sending messages."
+    }
+  },
+
+
 };

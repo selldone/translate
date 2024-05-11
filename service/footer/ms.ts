@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Persatuan",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Pelan & Harga",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

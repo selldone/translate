@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Vendite suciale",
-      "subtitle": "Avocado | Cumincià à vende solu per un ligame",
+      "subtitle": "Avocado ╏ Cumincià à vende solu per un ligame",
       "custom_form": "Forma d'ordine persunalizata",
       "step1": "Cumplimentu di l'avocado",
       "step2": "Emissione di prezzu è fattura",

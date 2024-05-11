@@ -2,7 +2,7 @@ export default {
   "title": "Manomboka maimaim-poana, mitombo haingana!",
   "sub_title": "Fidirana tsy misy fetra amin'ny endri-javatra rehetra tsy misy vidiny! <b>2% monja amin'ny varotra</b> , vao vita ny fividianana nahomby. Manana varotra be ve ianao ary te hampihena ny sarany?",
   "show_detail_list": "Asehoy ny lisitry ny antsipiriany",
-  "plan_free_detail": "<b class='text-capitalize'>Rafitra fiasa ho an'ny orinasa mitombo haingana</b> | Atombohy amin'ny drafitra maimaim-poana ny orinasanao. Efa vonona eto ny zavatra rehetra ilainao hanombohana sy hanombohana ny tranokalanao eCommerce. Selldone dia manome ny rindrambaiko, fitaovana ary vahaolana fampiantranoana rahona amin'ny alàlan'ny drafitra famandrihana maimaim-poana. Selldone koa dia mikarakara ny fanavaozana rindrambaiko rehetra sy ny fiheverana fiarovana. Noho izany dia azonao atao ny mampifantoka ny ezaka rehetra ataonao amin'ny fivarotana ary tsy manahy momba ny olana ara-teknika sy ny fandaniana.",
+  "plan_free_detail": "<b class='text-capitalize'>Rafitra fiasa ho an'ny orinasa mitombo haingana</b> ╏ Atombohy amin'ny drafitra maimaim-poana ny orinasanao. Efa vonona eto ny zavatra rehetra ilainao hanombohana sy hanombohana ny tranokalanao eCommerce. Selldone dia manome ny rindrambaiko, fitaovana ary vahaolana fampiantranoana rahona amin'ny alàlan'ny drafitra famandrihana maimaim-poana. Selldone koa dia mikarakara ny fanavaozana rindrambaiko rehetra sy ny fiheverana fiarovana. Noho izany dia azonao atao ny mampifantoka ny ezaka rehetra ataonao amin'ny fivarotana ary tsy manahy momba ny olana ara-teknika sy ny fandaniana.",
   "pay_monthly": "Mandoa isam-bolana",
   "pay_yearly": "Mandoa isan-taona",
   "pay_yearly_off": "fihenam-bidy 30%.",

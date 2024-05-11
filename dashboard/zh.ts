@@ -1669,7 +1669,7 @@ export default {
         "simple": "简单的",
         "dark_input": "黑暗主题？",
         "icon_input": "图标",
-        "icon_input_hint": "材料设计图标名称或字体：fas fa-star",
+        "icon_input_hint": "材料设计图标名称或字体：fa:fas fa-star",
         "anim_input": "动画地址",
         "anim_input_message": "Lottie 动画文件 URL",
         "preview": "预览",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "订单被搁置。 {reason}",
     "connect-remove-hold": "订单已解除保留。 {reason}",
     "connect-confirmed": "订单得到确认。",
-    "email-vendor": "🔔 订单通知邮件已发送至<b>{vendor}</b> | {email}。",
+    "email-vendor": "🔔 订单通知邮件已发送至<b>{vendor}</b> ╏ {email}。",
     "vendor-payout": "💸 支付给供应商。"
   },
   "inline_chart": {

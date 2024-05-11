@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Vendas sociais",
-      "subtitle": "Abacate | Comece a vender apenas por um link",
+      "subtitle": "Abacate ╏ Comece a vender apenas por um link",
       "custom_form": "Formulário de pedido personalizado",
       "step1": "Cumprimento de abacate",
       "step2": "Preço e emissão de fatura",

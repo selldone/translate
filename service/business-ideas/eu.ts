@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Salmenta soziala",
-      "subtitle": "aguakatea | Hasi saltzen esteka bakarrarekin",
+      "subtitle": "aguakatea ╏ Hasi saltzen esteka bakarrarekin",
       "custom_form": "Eskaera-orria pertsonalizatua",
       "step1": "Ahuakatearen betetzea",
       "step2": "Prezioa eta fakturaren arazoa",

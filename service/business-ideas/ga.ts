@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Díolacháin Shóisialta",
-      "subtitle": "Avocado | Tosaigh ag díol ach trí nasc amháin",
+      "subtitle": "Avocado ╏ Tosaigh ag díol ach trí nasc amháin",
       "custom_form": "Foirm ordaithe saincheaptha",
       "step1": "Comhlíonadh avocado",
       "step2": "Praghsáil agus eisiúint sonraisc",

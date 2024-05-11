@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Parduota | Verslo operacinė sistema, skirta greitai augančioms įmonėms",
+    "home": "Parduota ╏ Verslo operacinė sistema, skirta greitai augančioms įmonėms",
     "login": "Prisijungti",
     "register": "Registruotis",
     "auth_2fa": "2 faktorių autentifikavimas 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Mano parduotuvės",
     "roles": "Mano vaidmenys",
     "wallet": "Mano piniginė",
-    "personal_info": "Asmeninė informacija | KYC",
+    "personal_info": "Asmeninė informacija ╏ KYC",
     "companies": "Mano įmonės",
     "access_control": "Prieigos kontrolė",
     "security_center": "Apsaugos centras",
     "gifts": {
-      "received": "Dovanos | Gauta",
-      "send": "Dovanos | Išsiųsta"
+      "received": "Dovanos ╏ Gauta",
+      "send": "Dovanos ╏ Išsiųsta"
     },
     "monetization": {
-      "linked_accounts": "Pajamų gavimas | Susietos paskyros",
-      "plans": "Pajamų gavimas | Planas ir nuorodos"
+      "linked_accounts": "Pajamų gavimas ╏ Susietos paskyros",
+      "plans": "Pajamų gavimas ╏ Planas ir nuorodos"
     },
     "affiliate": "Filialas",
     "avocado": "Avokadas – modernus socialinis pardavimo kanalas",
     "guild": "Gildija – kolektyvinio pardavimo kanalas",
-    "partners_login": "Partneriai | Kliento prisijungimas"
+    "partners_login": "Partneriai ╏ Kliento prisijungimas"
   },
   "blank_is_all_products": "Palikite tuščią, kad įtrauktumėte visus produktus!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Užsakymo apdorojimo metu pristatyta suma gali skirtis nuo užsakytos sumos. Sistema automatiškai apskaičiuoja šį skirtumą ir įrašo jį kaip Jūsų skolą klientui, kurią galima pritaikyti kitiems užsakymams.",
       "status_list": {
         "active": {
-          "title": "Aktyvus | Pardavimas internetu ir neprisijungus",
+          "title": "Aktyvus ╏ Pardavimas internetu ir neprisijungus",
           "description": "Šį produktą bus galima užsisakyti internetu."
         },
         "inactive": {
-          "title": "Neaktyvus | Tik pardavimas neprisijungus",
+          "title": "Neaktyvus ╏ Tik pardavimas neprisijungus",
           "description": "Šis produktas nebus prieinamas užsakymams internetu."
         }
       },
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Užsakymas buvo atidėtas. {reason}",
     "connect-remove-hold": "Užsakymas buvo pašalintas. {reason}",
     "connect-confirmed": "Užsakymas buvo patvirtintas.",
-    "email-vendor": "🔔 Užsakymo informavimo el. laiškas išsiųstas <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 Užsakymo informavimo el. laiškas išsiųstas <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Išmokėjimas pardavėjui."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Skaičiuoklė | Tinka jūsų verslui",
+    "title": "Skaičiuoklė ╏ Tinka jūsų verslui",
     "description": "Apskaičiuokite ir pasirinkite geriausią planą, atsižvelgdami į jūsų mėnesio pardavimus:",
     "sale_input": "Mėnesio pardavimo suma",
     "hypernova_plan": "Kreipkitės į Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Parduotuvės vietos Nustatymai",
     "save_alert": "Nustatymai neišsaugomi!",
     "pos_tax_setting": "POS mokesčių nustatymai",
-    "tax_exclude_title": "Neįtraukta | Mokestis bus pridėtas atsiskaitant",
+    "tax_exclude_title": "Neįtraukta ╏ Mokestis bus pridėtas atsiskaitant",
     "tax_excluded_message": "Mokesčiai bus apskaičiuojami prieš mokėjimą atsiskaitymo metu ir pridedami prie neįtrauktos mokesčių kainos, atsižvelgiant į jūsų kliento įrodymus."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktyvus",
-      "title": "Aktyvus | Pardavimas internetu ir neprisijungus",
+      "title": "Aktyvus ╏ Pardavimas internetu ir neprisijungus",
       "description": "Šį produktą bus galima užsisakyti internetu."
     },
     "close": {
       "name": "neaktyvus",
-      "title": "Neaktyvus | Tik pardavimas neprisijungus",
+      "title": "Neaktyvus ╏ Tik pardavimas neprisijungus",
       "description": "Šis produktas nebus prieinamas užsakymams internetu."
     },
     "pending": {

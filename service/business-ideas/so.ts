@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Iibka Bulshada",
-      "subtitle": "Avocado | Bilow inaad ku iibiso hal iskuxir kaliya",
+      "subtitle": "Avocado ╏ Bilow inaad ku iibiso hal iskuxir kaliya",
       "custom_form": "Foomka dalbashada gaarka ah",
       "step1": "Avocado buuxinta",
       "step2": "Arrinta qiimaha iyo qaansheegta",

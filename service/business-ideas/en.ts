@@ -86,7 +86,7 @@ export default {
     },
     social: {
       title: "Social Sales",
-      subtitle: "Avocado | Start selling just by one link",
+      subtitle: "Avocado ╏ Start selling just by one link",
       custom_form: "Custom order form",
       step1: "Avocado fulfillment",
       step2: "Pricing and invoice issue",

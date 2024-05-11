@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Prodano | Poslovni operacijski sistem za hitro rastoča podjetja",
+    "home": "Prodano ╏ Poslovni operacijski sistem za hitro rastoča podjetja",
     "login": "Vpiši se",
     "register": "Registriraj se",
     "auth_2fa": "2-faktorska avtentikacija 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Moje trgovine",
     "roles": "Moje vloge",
     "wallet": "Moja denarnica",
-    "personal_info": "Osebni podatki | KYC",
+    "personal_info": "Osebni podatki ╏ KYC",
     "companies": "Moja podjetja",
     "access_control": "Nadzor dostopa",
     "security_center": "Varnostni center",
     "gifts": {
-      "received": "Darila | Prejeto",
-      "send": "Darila | Poslano"
+      "received": "Darila ╏ Prejeto",
+      "send": "Darila ╏ Poslano"
     },
     "monetization": {
-      "linked_accounts": "Monetizacija | Povezani računi",
-      "plans": "Monetizacija | Načrt in povezave"
+      "linked_accounts": "Monetizacija ╏ Povezani računi",
+      "plans": "Monetizacija ╏ Načrt in povezave"
     },
     "affiliate": "Affiliate",
     "avocado": "Avokado — sodoben družabni prodajni kanal",
     "guild": "Ceh — Skupni prodajni kanal",
-    "partners_login": "Partnerji | Prijava odjemalca"
+    "partners_login": "Partnerji ╏ Prijava odjemalca"
   },
   "blank_is_all_products": "Pustite prazno, da vključite vse izdelke!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Med obdelavo naročila se lahko dostavljeni znesek razlikuje od naročenega. Sistem samodejno izračuna to razliko in jo zabeleži kot vaš dolg do kupca, ki ga lahko uporabite pri naslednjih naročilih.",
       "status_list": {
         "active": {
-          "title": "Aktivno | Spletna in izven spletna prodaja",
+          "title": "Aktivno ╏ Spletna in izven spletna prodaja",
           "description": "Ta izdelek bo na voljo za spletno naročilo."
         },
         "inactive": {
-          "title": "Neaktivno | Samo prodaja zunaj spleta",
+          "title": "Neaktivno ╏ Samo prodaja zunaj spleta",
           "description": "Ta izdelek ne bo na voljo za spletno naročilo."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Preprosto",
         "dark_input": "Temna tema?",
         "icon_input": "ikona",
-        "icon_input_hint": "Ime ikone materialnega oblikovanja ali Fontawsom: fas fa-star",
+        "icon_input_hint": "Ime ikone materialnega oblikovanja ali Fontawsom: fa:fas fa-star",
         "anim_input": "Animacijski naslov",
         "anim_input_message": "URL animacijske datoteke Lottie",
         "preview": "Predogled",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Naročilo je bilo zadržano. {reason}",
     "connect-remove-hold": "Naročilo je bilo odstranjeno iz čakanja. {reason}",
     "connect-confirmed": "Naročilo je bilo potrjeno.",
-    "email-vendor": "🔔 E-poštno sporočilo z obvestilom o naročilu je bilo poslano <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 E-poštno sporočilo z obvestilom o naročilu je bilo poslano <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Izplačilo prodajalcu."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Kalkulator | Primerno za vaše podjetje",
+    "title": "Kalkulator ╏ Primerno za vaše podjetje",
     "description": "Izračunajte in izberite najboljši načrt glede na vašo mesečno prodajo:",
     "sale_input": "Mesečni znesek prodaje",
     "hypernova_plan": "Prijavite se za Hypernovo %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Nastavitve lokacij shranjevanja",
     "save_alert": "Nastavitve niso shranjene!",
     "pos_tax_setting": "Nastavitve davka na POS",
-    "tax_exclude_title": "Izključeno | Davek bo dodan ob blagajni",
+    "tax_exclude_title": "Izključeno ╏ Davek bo dodan ob blagajni",
     "tax_excluded_message": "Davki bodo izračunani pred plačili med blagajno in dodani ceni brez davka glede na dokazila vaše stranke."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktiven",
-      "title": "Aktivno | Spletna in izven spletna prodaja",
+      "title": "Aktivno ╏ Spletna in izven spletna prodaja",
       "description": "Ta izdelek bo na voljo za spletno naročilo."
     },
     "close": {
       "name": "neaktiven",
-      "title": "Neaktivno | Samo prodaja zunaj spleta",
+      "title": "Neaktivno ╏ Samo prodaja zunaj spleta",
       "description": "Ta izdelek ne bo na voljo za spletno naročilo."
     },
     "pending": {

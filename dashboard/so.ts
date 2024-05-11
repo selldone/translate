@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "La iibiyay | Nidaamka Ku Shaqeynta Ganacsiga ee Shirkadaha aadka u koraya",
+    "home": "La iibiyay ╏ Nidaamka Ku Shaqeynta Ganacsiga ee Shirkadaha aadka u koraya",
     "login": "soo gal",
     "register": "Is diwaangeli",
     "auth_2fa": "2 factor Authenticate 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Dukaamadayda",
     "roles": "Doorarkayda",
     "wallet": "Shandadayda",
-    "personal_info": "Xogta Gaarka ah | KYC",
+    "personal_info": "Xogta Gaarka ah ╏ KYC",
     "companies": "Shirkadahayga",
     "access_control": "Xakamaynta gelitaanka",
     "security_center": "Xarunta Amniga",
     "gifts": {
-      "received": "Hadiyadaha | helay",
-      "send": "Hadiyadaha | Diray"
+      "received": "Hadiyadaha ╏ helay",
+      "send": "Hadiyadaha ╏ Diray"
     },
     "monetization": {
-      "linked_accounts": "Lacag-ururinta | Xisaabaadka ku xidhan",
-      "plans": "Lacag-ururinta | Qorshaha & Xiriirinta"
+      "linked_accounts": "Lacag-ururinta ╏ Xisaabaadka ku xidhan",
+      "plans": "Lacag-ururinta ╏ Qorshaha & Xiriirinta"
     },
     "affiliate": "Xiriirinta",
     "avocado": "Avocado - Channel Iibka Bulshada Casriga ah",
     "guild": "Guild - Kanaalka Iibka Wadareed",
-    "partners_login": "Shuraakada | Soo gal macmiilka"
+    "partners_login": "Shuraakada ╏ Soo gal macmiilka"
   },
   "blank_is_all_products": "Banaan ku daa dhammaan alaabooyinka!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Inta lagu jiro habaynta dalabka, lacagta la keenay way ka duwanaan kartaa cadadka la dalbaday. Nidaamku si toos ah ayuu u xisaabiyaa farqigan wuxuuna u diiwaangeliyaa sida deyntaada macaamiisha, taas oo lagu dabaqi karo amarrada soo socda.",
       "status_list": {
         "active": {
-          "title": "Firfircoon | Iibka Khadka Tooska ah & Khadka Tooska ah",
+          "title": "Firfircoon ╏ Iibka Khadka Tooska ah & Khadka Tooska ah",
           "description": "Alaabtan waxay diyaar u ahaan doontaa dalabaadka khadka tooska ah."
         },
         "inactive": {
-          "title": "Firfircoonayn | Kaliya Iibka Khadka Tooska ah",
+          "title": "Firfircoonayn ╏ Kaliya Iibka Khadka Tooska ah",
           "description": "Alaabtan looma heli doono dalabaadka onlaynka ah."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Fudud",
         "dark_input": "Mawduuc madow?",
         "icon_input": "Astaan",
-        "icon_input_hint": "Astaanta Naqshadaynta Agabka Magaca ama Fontawsom: fas fa-star",
+        "icon_input_hint": "Astaanta Naqshadaynta Agabka Magaca ama Fontawsom: fa:fas fa-star",
         "anim_input": "Cinwaanka Animation",
         "anim_input_message": "Lottie animation file URL",
         "preview": "Horudhac",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Dalabka waa la hakiyay. {reason}",
     "connect-remove-hold": "Dalabka waa laga saaray haynta {reason}",
     "connect-confirmed": "Amarka waa la xaqiijiyay.",
-    "email-vendor": "🔔 Amarka wargelinta emaylka ayaa loo diray <b>{vendor}</b> | {email}",
+    "email-vendor": "🔔 Amarka wargelinta emaylka ayaa loo diray <b>{vendor}</b> ╏ {email}",
     "vendor-payout": "💸 Lacag bixinta iibiyaha."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Xisaabiyaha | Ku habboon ganacsigaaga",
+    "title": "Xisaabiyaha ╏ Ku habboon ganacsigaaga",
     "description": "Xisaabi oo dooro qorshaha ugu fiican iyadoo lagu salaynayo iibkaaga bishii:",
     "sale_input": "Qadarka iibka bishii",
     "hypernova_plan": "Codso Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Dejinta goobaha kaydka",
     "save_alert": "Dejinta lama kaydin!",
     "pos_tax_setting": "Dejinta cashuuraha POS",
-    "tax_exclude_title": "Ka Reebay | Canshuurta ayaa lagu dari doonaa marka la hubinayo",
+    "tax_exclude_title": "Ka Reebay ╏ Canshuurta ayaa lagu dari doonaa marka la hubinayo",
     "tax_excluded_message": "Canshuuraha waxaa la xisaabin doonaa ka hor inta aan la bixin inta lagu jiro hubinta waxaana lagu dari doonaa qiimaha canshuurta laga saaray iyadoo ku xiran caddaynta macaamiishaada."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Firfircoon",
-      "title": "Firfircoon | Iibka Khadka Tooska ah & Khadka Tooska ah",
+      "title": "Firfircoon ╏ Iibka Khadka Tooska ah & Khadka Tooska ah",
       "description": "Alaabtan waxay diyaar u ahaan doontaa dalabaadka khadka tooska ah."
     },
     "close": {
       "name": "firfircoonayn",
-      "title": "Firfircoonayn | Kaliya Iibka Khadka Tooska ah",
+      "title": "Firfircoonayn ╏ Kaliya Iibka Khadka Tooska ah",
       "description": "Alaabtan looma heli doono dalabaadka onlaynka ah."
     },
     "pending": {

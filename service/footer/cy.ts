@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Urdd",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Cynlluniau a Phrisiau",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

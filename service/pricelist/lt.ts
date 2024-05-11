@@ -2,7 +2,7 @@ export default {
   "title": "Pradėkite nemokamai, greitai augkite!",
   "sub_title": "Neribota prieiga prie visų funkcijų nemokamai! Tik <b>2% pardavimo</b> , tik po sėkmingų pirkimų. Ar turite daug pardavimų ir norite sumažinti mokesčius?",
   "show_detail_list": "Rodyti išsamios informacijos sąrašą",
-  "plan_free_detail": "<b class='text-capitalize'>Operacinė sistema sparčiai augančiam verslui</b> | Pradėkite savo verslą pagal mūsų nemokamą planą. Viskas, ko reikia norint pradėti ir paleisti savo el. prekybos svetainę, yra paruošta čia. „Selldone“ teikia visą programinę įrangą, įrankius ir debesies prieglobos sprendimą pagal nemokamą prenumeratos planą. „Selldone“ papildomai rūpinasi visais programinės įrangos atnaujinimais ir saugumo sumetimais. Taigi galite sutelkti visas savo pastangas į pardavimą ir nesijaudinti dėl techninių problemų ir išlaidų.",
+  "plan_free_detail": "<b class='text-capitalize'>Operacinė sistema sparčiai augančiam verslui</b> ╏ Pradėkite savo verslą pagal mūsų nemokamą planą. Viskas, ko reikia norint pradėti ir paleisti savo el. prekybos svetainę, yra paruošta čia. „Selldone“ teikia visą programinę įrangą, įrankius ir debesies prieglobos sprendimą pagal nemokamą prenumeratos planą. „Selldone“ papildomai rūpinasi visais programinės įrangos atnaujinimais ir saugumo sumetimais. Taigi galite sutelkti visas savo pastangas į pardavimą ir nesijaudinti dėl techninių problemų ir išlaidų.",
   "pay_monthly": "Mokėti kas mėnesį",
   "pay_yearly": "Mokėti kasmet",
   "pay_yearly_off": "30% nuolaida",

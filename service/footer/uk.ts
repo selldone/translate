@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Гільдія",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Плани та ціни",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

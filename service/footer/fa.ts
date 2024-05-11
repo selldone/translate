@@ -13,7 +13,7 @@
  */
 
 export default {
-  /** @see SaminFooter **/
+  /** @see OLayoutFooter **/
   footer: {
     title: "سیستم عامل  کسب و کار شما برای فروش آنلاین",
     message:
@@ -53,7 +53,7 @@ export default {
         title: "راه حل ها",
         items: [
           { title: "🎨 NFT", to: { name: "Landing_NFT" } },
-          { title: "🤝 قبیله", to: { name: "GuildHome" } },
+          { title: "🤝 قبیله", to: { name: "GPageHome" } },
           { title: "🥑 آووکادو", to: { name: "AvocadoHomePage" } },
           //{ title: "متخصصین", to: { name: "ExpertsPage" } }, TODO: ACTIVATE AFTER RUNNING EXPERTS
           { title: "موتور SEO", to: { name: "Landing_SEO" } },
@@ -66,7 +66,7 @@ export default {
       {
         title: "سرویس ها",
         items: [
-          { title: "لیست قیمت", to: { name: "PriceList" } },
+          { title: "لیست قیمت", to: { name: "OPagePrice" } },
           { title: "اپلیکیشن ها", to: { name: "AppStore_List" } },
           { title: "اپلیکیشن ساز", to: { name: "Landing_AppBuilder" } },
           { title: "صفحه لندینگ ساز", to: { name: "Landing_PageBuilder" } },
@@ -86,7 +86,7 @@ export default {
   },
 
   admin_footer: {
-    title: "منوی تنظیمات سریع:",
+    title: "منوی تنظیمات سریع",
     boost_mode: "حالت سریع",
     normal_mode: "حالت عادی",
     boost_message: "سرعت اینترنت تان کم است؟",

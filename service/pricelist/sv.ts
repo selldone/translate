@@ -2,7 +2,7 @@ export default {
   "title": "Börja gratis, växa snabbt!",
   "sub_title": "Obegränsad tillgång till alla funktioner utan kostnad! Endast <b>2% av försäljningen</b> , precis efter lyckade köp. Har du mycket försäljning och vill sänka avgifterna?",
   "show_detail_list": "Visa detaljlista",
-  "plan_free_detail": "<b class='text-capitalize'>Ett operativsystem för snabbväxande företag</b> | Starta ditt företag med vår kostnadsfria plan. Allt du behöver för att starta och lansera din e-handelswebbplats är redo här. Selldone tillhandahåller all programvara, verktyg och molnvärdlösningar med gratis prenumerationsplan. Selldone tar dessutom hand om alla programuppdateringar och säkerhetsöverväganden. Så du kan fokusera alla dina ansträngningar på att sälja och inte oroa dig för tekniska problem och kostnader.",
+  "plan_free_detail": "<b class='text-capitalize'>Ett operativsystem för snabbväxande företag</b> ╏ Starta ditt företag med vår kostnadsfria plan. Allt du behöver för att starta och lansera din e-handelswebbplats är redo här. Selldone tillhandahåller all programvara, verktyg och molnvärdlösningar med gratis prenumerationsplan. Selldone tar dessutom hand om alla programuppdateringar och säkerhetsöverväganden. Så du kan fokusera alla dina ansträngningar på att sälja och inte oroa dig för tekniska problem och kostnader.",
   "pay_monthly": "Betala månadsvis",
   "pay_yearly": "Betala årligen",
   "pay_yearly_off": "30% rabatt",

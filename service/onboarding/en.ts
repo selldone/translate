@@ -105,7 +105,8 @@ export default {
   name: "Setup",
   overview: {
     title: "Overview",
-    subtitle: "Gain insight into the Business OS and discover how it can help your business.",
+    subtitle:
+      "Gain insight into the Business OS and discover how it can help your business.",
   },
 
   shop: {
@@ -116,7 +117,7 @@ export default {
   open_website: "Open my website",
 
   customize_theme: "Customize Website",
-  setup_business:'Setup Business',
+  setup_business: "Setup Business",
   add_product: "Add Products",
   setup_shipping: "Setup Shipping",
   add_domain: "Add Domain",
@@ -138,7 +139,6 @@ export default {
       import_excel: "Import by Excel",
       download_template: "Download template",
     },
-
   },
   shipping: {
     step1: {
@@ -200,42 +200,39 @@ export default {
   intro_inline_help_message:
     "Look for this red help button. It helps you to practise yourself from zero to expert in your Business OS.",
 
-
   /**
-   * @see ShopOnboardingCustomizeTab
+   * @see SShopOnboardingCustomization
    */
   customize: {
-    template:{
-      title:"Templates",
-      msg:'Kickstart your shop with our pre-built templates! Easily diversify by adding multiple pages, each boasting its own unique design.'
+    template: {
+      title: "Templates",
+      msg: "Kickstart your shop with our pre-built templates! Easily diversify by adding multiple pages, each boasting its own unique design.",
     },
 
-    colors:{
-      title:"Colors & Layout",
+    colors: {
+      title: "Colors & Layout",
 
-      msg:"Looking to tailor your product page and shop layout to better fit your vision? Dive into the theme customization section in your shop and watch the magic unfold effortlessly!"
-    }
+      msg: "Looking to tailor your product page and shop layout to better fit your vision? Dive into the theme customization section in your shop and watch the magic unfold effortlessly!",
+    },
   },
 
   /**
    * @see ShopOnboardingSetupBusinessTab
    */
-  business:{
-    step1:{
-      title:"Business Model",
-      msg:'Every business is unique, and often requires more than just a basic online store. Define your revenue model, and we will seamlessly handle the rest for you.'
-    }
+  business: {
+    step1: {
+      title: "Business Model",
+      msg: "Every business is unique, and often requires more than just a basic online store. Define your revenue model, and we will seamlessly handle the rest for you.",
+    },
   },
 
-
-  migration:{
-    title:'Migration',
-    shopify:{
-      msg:"Switch to Selldone seamlessly from Shopify! Enjoy effortless migration, enhanced features, and cost-effective solutions for your online store."
+  migration: {
+    title: "Migration",
+    shopify: {
+      msg: "Switch to Selldone seamlessly from Shopify! Enjoy effortless migration, enhanced features, and cost-effective solutions for your online store.",
     },
-    woocommerce:{
-      msg:"Seamlessly migrate your WooCommerce products to Selldone in just a few clicks! Enjoy enhanced performance, intuitive design, and top-tier customer support. Upgrade your e-commerce experience now."
-    }
-  }
-
+    woocommerce: {
+      msg: "Seamlessly migrate your WooCommerce products to Selldone in just a few clicks! Enjoy enhanced performance, intuitive design, and top-tier customer support. Upgrade your e-commerce experience now.",
+    },
+  },
 };

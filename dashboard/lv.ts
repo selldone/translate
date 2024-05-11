@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Pārdots | Biznesa operētājsistēma strauji augošiem uzņēmumiem",
+    "home": "Pārdots ╏ Biznesa operētājsistēma strauji augošiem uzņēmumiem",
     "login": "Pieslēgties",
     "register": "Reģistrēties",
     "auth_2fa": "2 faktoru autentifikācija 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Mani veikali",
     "roles": "Manas lomas",
     "wallet": "Mans maks",
-    "personal_info": "Personiskā informācija | KYC",
+    "personal_info": "Personiskā informācija ╏ KYC",
     "companies": "Mani uzņēmumi",
     "access_control": "Piekļuves kontrole",
     "security_center": "Drošības centrs",
     "gifts": {
-      "received": "Dāvanas | Saņemts",
-      "send": "Dāvanas | Nosūtīts"
+      "received": "Dāvanas ╏ Saņemts",
+      "send": "Dāvanas ╏ Nosūtīts"
     },
     "monetization": {
-      "linked_accounts": "Monetizācija | Saistītie konti",
-      "plans": "Monetizācija | Plāns un saites"
+      "linked_accounts": "Monetizācija ╏ Saistītie konti",
+      "plans": "Monetizācija ╏ Plāns un saites"
     },
     "affiliate": "Filiāle",
     "avocado": "Avokado — mūsdienīgs sociālās pārdošanas kanāls",
     "guild": "Ģilde — kolektīvās pārdošanas kanāls",
-    "partners_login": "Partneri | Klienta pieteikšanās"
+    "partners_login": "Partneri ╏ Klienta pieteikšanās"
   },
   "blank_is_all_products": "Atstājiet tukšu, lai iekļautu visus produktus!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Pasūtījuma apstrādes laikā piegādātā summa var atšķirties no pasūtītās summas. Sistēma automātiski aprēķina šo starpību un ieraksta to kā jūsu parādu klientam, ko var attiecināt uz nākamajiem pasūtījumiem.",
       "status_list": {
         "active": {
-          "title": "Aktīvs | Pārdošana tiešsaistē un bezsaistē",
+          "title": "Aktīvs ╏ Pārdošana tiešsaistē un bezsaistē",
           "description": "Šis produkts būs pieejams tiešsaistes pasūtījumiem."
         },
         "inactive": {
-          "title": "Neaktīvs | Tikai pārdošana bezsaistē",
+          "title": "Neaktīvs ╏ Tikai pārdošana bezsaistē",
           "description": "Šis produkts nebūs pieejams tiešsaistes pasūtījumiem."
         }
       },
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Pasūtījums tika aizturēts. {reason}",
     "connect-remove-hold": "Pasūtījums tika noņemts no aizturēšanas. {reason}",
     "connect-confirmed": "Pasūtījums tika apstiprināts.",
-    "email-vendor": "🔔 Pasūtījuma informēšanas e-pasts ir nosūtīts uz <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 Pasūtījuma informēšanas e-pasts ir nosūtīts uz <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Izmaksa pārdevējam."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Kalkulators | Piemērots jūsu biznesam",
+    "title": "Kalkulators ╏ Piemērots jūsu biznesam",
     "description": "Aprēķiniet un izvēlieties labāko plānu, pamatojoties uz jūsu ikmēneša pārdošanas apjomu:",
     "sale_input": "Mēneša pārdošanas apjoms",
     "hypernova_plan": "Piesakies Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Veikalu atrašanās vietas Iestatījumi",
     "save_alert": "Iestatījumi netiek saglabāti!",
     "pos_tax_setting": "POS nodokļu iestatījumi",
-    "tax_exclude_title": "Izslēgts | Nodoklis tiks pievienots izrakstīšanās laikā",
+    "tax_exclude_title": "Izslēgts ╏ Nodoklis tiks pievienots izrakstīšanās laikā",
     "tax_excluded_message": "Nodokļi tiks aprēķināti pirms maksājumiem norēķināšanās laikā un pievienoti neiekļautajai nodokļa cenai atkarībā no jūsu klienta pierādījumiem."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktīvs",
-      "title": "Aktīvs | Pārdošana tiešsaistē un bezsaistē",
+      "title": "Aktīvs ╏ Pārdošana tiešsaistē un bezsaistē",
       "description": "Šis produkts būs pieejams tiešsaistes pasūtījumiem."
     },
     "close": {
       "name": "neaktīvs",
-      "title": "Neaktīvs | Tikai pārdošana bezsaistē",
+      "title": "Neaktīvs ╏ Tikai pārdošana bezsaistē",
       "description": "Šis produkts nebūs pieejams tiešsaistes pasūtījumiem."
     },
     "pending": {

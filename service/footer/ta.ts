@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 கில்ட்",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "திட்டங்கள் & விலை",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

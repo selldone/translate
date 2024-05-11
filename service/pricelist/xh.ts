@@ -2,7 +2,7 @@ export default {
   "title": "Qala Mahala, Khula ngokukhawuleza!",
   "sub_title": "Ukufikelela okungenamkhawulo kuzo zonke iimpawu ngaphandle kweendleko! Kuphela <b>i-2% yokuthengisa</b> , emva nje kokuthenga okuyimpumelelo. Ngaba uneentengiso ezininzi kwaye ufuna ukunciphisa imirhumo?",
   "show_detail_list": "Bonisa uluhlu lweenkcukacha",
-  "plan_free_detail": "<b class='text-capitalize'>Inkqubo yokusebenza yamashishini akhula ngokukhawuleza</b> | Qala ishishini lakho ngesicwangciso sethu sasimahla. Yonke into oyifunayo ukuqala kwaye uqalise iwebhusayithi yakho ye-eCommerce ilungile apha. I-Selldone ibonelela ngayo yonke isoftware, izixhobo, kunye nesisombululo sokusingatha ilifu ngesicwangciso sobhaliso lwasimahla. U-Selldone ukongezelela ukhathalela lonke uhlaziyo lwesoftware kunye nokuqwalaselwa kokhuseleko. Ngoko unokugxila kuyo yonke imizamo yakho ekuthengiseni kwaye ungakhathazeki malunga nemiba yobugcisa kunye neendleko.",
+  "plan_free_detail": "<b class='text-capitalize'>Inkqubo yokusebenza yamashishini akhula ngokukhawuleza</b> ╏ Qala ishishini lakho ngesicwangciso sethu sasimahla. Yonke into oyifunayo ukuqala kwaye uqalise iwebhusayithi yakho ye-eCommerce ilungile apha. I-Selldone ibonelela ngayo yonke isoftware, izixhobo, kunye nesisombululo sokusingatha ilifu ngesicwangciso sobhaliso lwasimahla. U-Selldone ukongezelela ukhathalela lonke uhlaziyo lwesoftware kunye nokuqwalaselwa kokhuseleko. Ngoko unokugxila kuyo yonke imizamo yakho ekuthengiseni kwaye ungakhathazeki malunga nemiba yobugcisa kunye neendleko.",
   "pay_monthly": "Hlawula ngenyanga",
   "pay_yearly": "Hlawula ngonyaka",
   "pay_yearly_off": "30% isaphulelo",

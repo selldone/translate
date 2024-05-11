@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Guild",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "پىلان ۋە باھا",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

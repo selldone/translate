@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Seldone | Sistem Operasi Usaha Pikeun Pausahaan Tumuwuh Gancang",
+    "home": "Seldone ╏ Sistem Operasi Usaha Pikeun Pausahaan Tumuwuh Gancang",
     "login": "lebet",
     "register": "Ngadaptar",
     "auth_2fa": "2 faktor ngaoténtikasi 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Toko abdi",
     "roles": "Kalungguhan kuring",
     "wallet": "Dompét abdi",
-    "personal_info": "Inpormasi Pribadi | KYC",
+    "personal_info": "Inpormasi Pribadi ╏ KYC",
     "companies": "Pausahaan kuring",
     "access_control": "Kontrol Aksés",
     "security_center": "Puseur Kaamanan",
     "gifts": {
-      "received": "Hadiah | Ditampi",
-      "send": "Hadiah | Dikirim"
+      "received": "Hadiah ╏ Ditampi",
+      "send": "Hadiah ╏ Dikirim"
     },
     "monetization": {
-      "linked_accounts": "Monetisasi | Akun numbu",
-      "plans": "Monetisasi | Rencana & Tumbu"
+      "linked_accounts": "Monetisasi ╏ Akun numbu",
+      "plans": "Monetisasi ╏ Rencana & Tumbu"
     },
     "affiliate": "Affiliate",
     "avocado": "Alpukat - Saluran Penjualan Sosial Modern",
     "guild": "Guild - Saluran Penjualan Koléktif",
-    "partners_login": "Mitra | login klien"
+    "partners_login": "Mitra ╏ login klien"
   },
   "blank_is_all_products": "Ninggalkeun kosong pikeun ngalebetkeun sadaya produk!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Salila ngolah pesenan, jumlah anu dikirimkeun tiasa bénten sareng jumlah anu dipesen. Sistem otomatis ngitung bédana ieu sareng ngarékam salaku hutang anjeun ka nasabah, anu tiasa diterapkeun kana pesenan salajengna.",
       "status_list": {
         "active": {
-          "title": "aktip | Penjualan Online & Offline",
+          "title": "aktip ╏ Penjualan Online & Offline",
           "description": "Produk ieu bakal sayogi pikeun pesenan online."
         },
         "inactive": {
-          "title": "Teu aktip | Ngan Penjualan Offline",
+          "title": "Teu aktip ╏ Ngan Penjualan Offline",
           "description": "Produk ieu moal sadia pikeun pesenan online."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Basajan",
         "dark_input": "Téma poék?",
         "icon_input": "Ikon",
-        "icon_input_hint": "Bahan Desain Ngaran Ikon atanapi Fontawsom: fas fa-béntang",
+        "icon_input_hint": "Bahan Desain Ngaran Ikon atanapi Fontawsom: fa:fas fa-béntang",
         "anim_input": "Alamat animasi",
         "anim_input_message": "URL file animasi Lottie",
         "preview": "Sawangan",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Paréntah ditunda. {reason}",
     "connect-remove-hold": "Paréntah ieu dikaluarkeun tina ditahan. {reason}",
     "connect-confirmed": "Pesenan dikonfirmasi.",
-    "email-vendor": "🔔 Inpormasi pesen email parantos dikirim ka <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 Inpormasi pesen email parantos dikirim ka <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Payout ka vendor."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Kalkulator | Cocog jeung bisnis Anjeun",
+    "title": "Kalkulator ╏ Cocog jeung bisnis Anjeun",
     "description": "Itung sareng pilih rencana anu pangsaéna dumasar kana penjualan bulanan anjeun:",
     "sale_input": "Jumlah jualan bulanan",
     "hypernova_plan": "Panawaran pikeun Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Setélan lokasi toko",
     "save_alert": "Setélan teu disimpen!",
     "pos_tax_setting": "Setélan Pajak POS",
-    "tax_exclude_title": "Kaasup | Pajak bakal ditambahkeun dina Checkout",
+    "tax_exclude_title": "Kaasup ╏ Pajak bakal ditambahkeun dina Checkout",
     "tax_excluded_message": "Pajeg bakal diitung sateuacan pamayaran salami pamariksaan sareng ditambah kana harga pajeg anu teu kalebet gumantung kana bukti palanggan anjeun."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktip",
-      "title": "aktip | Penjualan Online & Offline",
+      "title": "aktip ╏ Penjualan Online & Offline",
       "description": "Produk ieu bakal sayogi pikeun pesenan online."
     },
     "close": {
       "name": "teu aktif",
-      "title": "Teu aktip | Ngan Penjualan Offline",
+      "title": "Teu aktip ╏ Ngan Penjualan Offline",
       "description": "Produk ieu moal sadia pikeun pesenan online."
     },
     "pending": {

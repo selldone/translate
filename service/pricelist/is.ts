@@ -2,7 +2,7 @@ export default {
   "title": "Byrjaðu ókeypis, vaxa hratt!",
   "sub_title": "Ótakmarkaður aðgangur að öllum eiginleikum án kostnaðar! Aðeins <b>2% af sölu</b> , rétt eftir vel heppnuð kaup. Ertu með mikla sölu og vilt lækka gjöldin?",
   "show_detail_list": "Sýna upplýsingar lista",
-  "plan_free_detail": "<b class='text-capitalize'>Stýrikerfi fyrir ört vaxandi fyrirtæki</b> | Byrjaðu fyrirtæki þitt með ókeypis áætlun okkar. Allt sem þú þarft til að hefja og opna netverslunarvefsíðuna þína er tilbúið hér. Selldone býður upp á allan hugbúnað, verkfæri og skýhýsingarlausn með ókeypis áskriftaráætlun. Selldone sér að auki um allar hugbúnaðaruppfærslur og öryggissjónarmið. Þannig að þú getur einbeitt þér að því að selja og ekki hafa áhyggjur af tæknilegum vandamálum og kostnaði.",
+  "plan_free_detail": "<b class='text-capitalize'>Stýrikerfi fyrir ört vaxandi fyrirtæki</b> ╏ Byrjaðu fyrirtæki þitt með ókeypis áætlun okkar. Allt sem þú þarft til að hefja og opna netverslunarvefsíðuna þína er tilbúið hér. Selldone býður upp á allan hugbúnað, verkfæri og skýhýsingarlausn með ókeypis áskriftaráætlun. Selldone sér að auki um allar hugbúnaðaruppfærslur og öryggissjónarmið. Þannig að þú getur einbeitt þér að því að selja og ekki hafa áhyggjur af tæknilegum vandamálum og kostnaði.",
   "pay_monthly": "Borga mánaðarlega",
   "pay_yearly": "Borga árlega",
   "pay_yearly_off": "30% afsláttur",

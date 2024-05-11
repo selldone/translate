@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Vendes Socials",
-      "subtitle": "Alvocat | Comença a vendre només amb un enllaç",
+      "subtitle": "Alvocat ╏ Comença a vendre només amb un enllaç",
       "custom_form": "Formulari de comanda personalitzat",
       "step1": "Compliment de l'alvocat",
       "step2": "Problema de preus i factures",

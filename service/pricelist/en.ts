@@ -18,7 +18,7 @@ export default {
     "Unlimited access to all features at no cost! Only<b> 2% of sale</b>, just after successful purchases. Do you have a lot of sales and want to reduce the fees?",
   show_detail_list: "Show details list",
   plan_free_detail:
-    "<b class='text-capitalize'>An operating system for fast-growing businesses</b> | Start your business by our free plan. Everything you need to start and launch your eCommerce website is ready here. Selldone provides all software, tools, and cloud hosting solution by free subscription plan. Selldone additionally takes care of all software updates and security considerations. So you can focus all your efforts on selling and not worry about technical issues and costs.",
+    "<b class='text-capitalize'>An operating system for fast-growing businesses</b> ╏ Start your business by our free plan. Everything you need to start and launch your eCommerce website is ready here. Selldone provides all software, tools, and cloud hosting solution by free subscription plan. Selldone additionally takes care of all software updates and security considerations. So you can focus all your efforts on selling and not worry about technical issues and costs.",
   pay_monthly: "Pay monthly",
   pay_yearly: "Pay yearly",
   pay_yearly_off: "30% off",
@@ -194,9 +194,10 @@ export default {
       "Auto tax calculation based on customer's location, B2B/B2C sales, and override tax rules ability for countries and states.",
 
     tax_profiles: "Tax profiles - Professional",
-    tax_profiles_info:'You can set dedicated sales tax rules for products by creating tax profiles.',
-    extra_tax_profiles:"Extra {count} profiles.",
-    tax_profile_fee:"0.0% fee (totally free service)",
+    tax_profiles_info:
+      "You can set dedicated sales tax rules for products by creating tax profiles.",
+    extra_tax_profiles: "Extra {count} profiles.",
+    tax_profile_fee: "0.0% fee (totally free service)",
     tax_pro: "Pro.",
   },
   gateways: {
@@ -473,4 +474,21 @@ export default {
     subtitle:
       "Connect to dropshipping suppliers with one click. You can connect to POD like Prinful or Import Woocomerce store for free.",
   },
+  ai: {
+    title: "AI",
+    sub_title: "Copilot and AI assistant features.",
+    bg_remove: "AI Remove Background",
+    bg_remove_info: "Auto remove background from images.",
+    content_creation: "AI Content Creation",
+    content_creation_info: "Create content for products automatically.",
+    add_product: "AI Product Assistance",
+    add_product_info: "Add product automatically by image and voice.",
+    magic_ai_buttons: "Magic AI Buttons",
+    magic_ai_buttons_info:
+      "Auto remove background, bulk translate, generate content and more with one click.",
+    translate: "AI Translate",
+    translate_info: "Translate content to any language.",
+  },
+
+
 };

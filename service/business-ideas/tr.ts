@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Sosyal Satış",
-      "subtitle": "avokado | Tek bir bağlantıyla satış yapmaya başlayın",
+      "subtitle": "avokado ╏ Tek bir bağlantıyla satış yapmaya başlayın",
       "custom_form": "Özel sipariş formu",
       "step1": "avokado gerçekleştirme",
       "step2": "Fiyatlandırma ve fatura sorunu",

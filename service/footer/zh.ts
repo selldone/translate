@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝公会",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "计划和定价",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

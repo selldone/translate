@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "E rerela | Sistemụ arụmọrụ azụmahịa maka ụlọ ọrụ na-eto ngwa ngwa",
+    "home": "E rerela ╏ Sistemụ arụmọrụ azụmahịa maka ụlọ ọrụ na-eto ngwa ngwa",
     "login": "banye",
     "register": "Debanye aha",
     "auth_2fa": "2 Factor Authenticate 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Ụlọ ahịa m",
     "roles": "Ọrụ m",
     "wallet": "Akpa m",
-    "personal_info": "Ozi nkeonwe | KYC",
+    "personal_info": "Ozi nkeonwe ╏ KYC",
     "companies": "Ụlọ ọrụ m",
     "access_control": "Njikwa nnweta",
     "security_center": "Ebe nchekwa",
     "gifts": {
-      "received": "Onyinye | natara",
-      "send": "Onyinye | E zigara ya"
+      "received": "Onyinye ╏ natara",
+      "send": "Onyinye ╏ E zigara ya"
     },
     "monetization": {
-      "linked_accounts": "Ị nweta ego | Akaụntụ ejikọrọ",
-      "plans": "Ị nweta ego | Atụmatụ & Njikọ"
+      "linked_accounts": "Ị nweta ego ╏ Akaụntụ ejikọrọ",
+      "plans": "Ị nweta ego ╏ Atụmatụ & Njikọ"
     },
     "affiliate": "Mgbakwunye",
     "avocado": "Ube oyibo — Modern Social Sales Channel",
     "guild": "Guild - mkpokọta ire ọwa",
-    "partners_login": "Ndị mmekọ | Nbanye onye ahịa"
+    "partners_login": "Ndị mmekọ ╏ Nbanye onye ahịa"
   },
   "blank_is_all_products": "Hapụ oghere ka ịgụnye ngwaahịa niile!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "N'oge nhazi usoro, ego a napụtara nwere ike ịdị iche na ego enyere iwu. Usoro ahụ na-agbakọ ihe dị iche na-akpaghị aka ma dekọọ ya dị ka ụgwọ gị nye onye ahịa, nke nwere ike itinye n'ọrụ na-esote iwu.",
       "status_list": {
         "active": {
-          "title": "Na-arụ ọrụ | Ịre ahịa n'ịntanetị & n'ịntanetị",
+          "title": "Na-arụ ọrụ ╏ Ịre ahịa n'ịntanetị & n'ịntanetị",
           "description": "Ngwaahịa a ga-adị maka iwu ịntanetị."
         },
         "inactive": {
-          "title": "Arụghị ọrụ | Naanị ire ere n'ịntanetị",
+          "title": "Arụghị ọrụ ╏ Naanị ire ere n'ịntanetị",
           "description": "Ngwaahịa a agaghị adị maka iwu ịntanetị."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Dị mfe",
         "dark_input": "Isiokwu gbara ọchịchịrị?",
         "icon_input": "Akara ngosi",
-        "icon_input_hint": "Ihe ngosi akara ngosi aha ma ọ bụ Fontawsom: fas fa-star",
+        "icon_input_hint": "Ihe ngosi akara ngosi aha ma ọ bụ Fontawsom: fa:fas fa-star",
         "anim_input": "Adreesị ihe nkiri",
         "anim_input_message": "URL faịlụ animation Lottie",
         "preview": "Nhụchalụ",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Ejidere iwu a. {reason}",
     "connect-remove-hold": "Ewepụrụ iwu ahụ na njide. {reason}",
     "connect-confirmed": "Ekwenyere iwu a.",
-    "email-vendor": "🔔 Ezipula ozi email nye <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 Ezipula ozi email nye <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Ịkwụ ụgwọ maka ndị na-ere ahịa."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Ihe mgbako | Kwesịrị ekwesị maka azụmahịa gị",
+    "title": "Ihe mgbako ╏ Kwesịrị ekwesị maka azụmahịa gị",
     "description": "Gbakọọ wee họrọ atụmatụ kacha mma dabere na ire gị kwa ọnwa:",
     "sale_input": "Ọnụ ego ịre ahịa kwa ọnwa",
     "hypernova_plan": "Tinye akwụkwọ maka Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Ntọala ebe nchekwa",
     "save_alert": "Echekwaghị ntọala!",
     "pos_tax_setting": "Ntọala ụtụ isi POS",
-    "tax_exclude_title": "Ewepula | A ga-agbakwunye ụtụ isi na ndenye ọpụpụ",
+    "tax_exclude_title": "Ewepula ╏ A ga-agbakwunye ụtụ isi na ndenye ọpụpụ",
     "tax_excluded_message": "A ga-agbakọ ụtụ isi ahụ tupu ịkwụ ụgwọ n'oge ndenye ọpụpụ ma tinye ya na ọnụahịa ụtụ isi ewepụghị dabere na akaebe ndị ahịa gị."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Na-arụ ọrụ",
-      "title": "Na-arụ ọrụ | Ịre ahịa n'ịntanetị & n'ịntanetị",
+      "title": "Na-arụ ọrụ ╏ Ịre ahịa n'ịntanetị & n'ịntanetị",
       "description": "Ngwaahịa a ga-adị maka iwu ịntanetị."
     },
     "close": {
       "name": "adịghị arụ ọrụ",
-      "title": "Arụghị ọrụ | Naanị ire ere n'ịntanetị",
+      "title": "Arụghị ọrụ ╏ Naanị ire ere n'ịntanetị",
       "description": "Ngwaahịa a agaghị adị maka iwu ịntanetị."
     },
     "pending": {

@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Ģilde",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Plāni un cenas",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

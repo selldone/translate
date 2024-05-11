@@ -2,7 +2,7 @@ export default {
   "title": "Bilaaw bilaash, dhaqso u kora!",
   "sub_title": "Helitaanka aan xadidnayn ee dhammaan sifooyinka qiimo la'aan! Kaliya <b>2% iibka</b> , wax yar uun ka dib iibsiyada guuleysta. Ma haysaa iibyo badan oo waxaad doonaysaa inaad dhimo khidmadaha?",
   "show_detail_list": "Muuji liiska faahfaahinta",
-  "plan_free_detail": "<b class='text-capitalize'>Nidaamka hawlgalka ee ganacsiyada aadka u kobcaya</b> | Ka bilow ganacsigaaga qorshahayaga bilaashka ah. Wax kasta oo aad u baahan tahay si aad u bilowdo oo aad u bilowdo degelkaaga eCommerce waa diyaar halkan. Selldone waxay ku siisaa dhammaan software-ka, agabka, iyo xalalka martigelinta daruuraha iyadoo la raacayo qorshe is-diiwaangelin bilaash ah. Selldone waxa kale oo ay daryeeshaa dhammaan cusboonaysiinta softiweerka iyo tixgelinta amniga. Markaa waxaad xoogga saari kartaa dhammaan dadaalkaaga iibinta oo ha ka welwelin arrimaha farsamada iyo kharashyada.",
+  "plan_free_detail": "<b class='text-capitalize'>Nidaamka hawlgalka ee ganacsiyada aadka u kobcaya</b> ╏ Ka bilow ganacsigaaga qorshahayaga bilaashka ah. Wax kasta oo aad u baahan tahay si aad u bilowdo oo aad u bilowdo degelkaaga eCommerce waa diyaar halkan. Selldone waxay ku siisaa dhammaan software-ka, agabka, iyo xalalka martigelinta daruuraha iyadoo la raacayo qorshe is-diiwaangelin bilaash ah. Selldone waxa kale oo ay daryeeshaa dhammaan cusboonaysiinta softiweerka iyo tixgelinta amniga. Markaa waxaad xoogga saari kartaa dhammaan dadaalkaaga iibinta oo ha ka welwelin arrimaha farsamada iyo kharashyada.",
   "pay_monthly": "Bixi bishii",
   "pay_yearly": "Bixi sanadkii",
   "pay_yearly_off": "30% dhimis",

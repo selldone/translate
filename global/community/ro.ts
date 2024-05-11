@@ -58,7 +58,7 @@ export default {
     "show_deleted_posts": "Afișează postările șterse",
     "moderators": "Moderatori",
     "analytics": "Analytics",
-    "edit": "Editați | ×",
+    "edit": "Editați ╏ ×",
     "notify": "Notifică",
     "rules": "Reguli",
     "explore": "Explora",

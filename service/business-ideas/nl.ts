@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Sociale verkoop",
-      "subtitle": "Avocado | Begin met verkopen via één link",
+      "subtitle": "Avocado ╏ Begin met verkopen via één link",
       "custom_form": "Aangepast bestelformulier",
       "step1": "Avocado vervulling",
       "step2": "Prijs- en factuurkwestie",

@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Chama",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Mipango na Bei",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

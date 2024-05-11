@@ -2,7 +2,7 @@ export default {
   "title": "Ibda Ħieles, Ikber Mgħaġġel!",
   "sub_title": "Aċċess bla limitu għall-karatteristiċi kollha mingħajr ebda spiża! <b>2% biss tal-bejgħ</b> , eżatt wara xiri ta 'suċċess . Għandek ħafna bejgħ u trid tnaqqas it-tariffi?",
   "show_detail_list": "Uri l-lista tad-dettalji",
-  "plan_free_detail": "<b class='text-capitalize'>Sistema operattiva għal negozji li qed jikbru malajr</b> | Ibda n-negozju tiegħek bil-pjan b'xejn tagħna. Dak kollu li għandek bżonn biex tibda u tniedi l-websajt tal-kummerċ elettroniku tiegħek hija lesta hawn. Selldone jipprovdi s-softwer, l-għodda, u s-soluzzjoni kollha tal-cloud hosting permezz ta’ pjan ta’ abbonament b’xejn. Barra minn hekk, Selldone jieħu ħsieb l-aġġornamenti tas-softwer u l-kunsiderazzjonijiet tas-sigurtà kollha. Allura tista 'tiffoka l-isforzi kollha tiegħek fuq il-bejgħ u ma tinkwieta dwar kwistjonijiet tekniċi u spejjeż.",
+  "plan_free_detail": "<b class='text-capitalize'>Sistema operattiva għal negozji li qed jikbru malajr</b> ╏ Ibda n-negozju tiegħek bil-pjan b'xejn tagħna. Dak kollu li għandek bżonn biex tibda u tniedi l-websajt tal-kummerċ elettroniku tiegħek hija lesta hawn. Selldone jipprovdi s-softwer, l-għodda, u s-soluzzjoni kollha tal-cloud hosting permezz ta’ pjan ta’ abbonament b’xejn. Barra minn hekk, Selldone jieħu ħsieb l-aġġornamenti tas-softwer u l-kunsiderazzjonijiet tas-sigurtà kollha. Allura tista 'tiffoka l-isforzi kollha tiegħek fuq il-bejgħ u ma tinkwieta dwar kwistjonijiet tekniċi u spejjeż.",
   "pay_monthly": "Ħlas kull xahar",
   "pay_yearly": "Ħlas kull sena",
   "pay_yearly_off": "30% off",

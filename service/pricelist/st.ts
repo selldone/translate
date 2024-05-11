@@ -2,7 +2,7 @@ export default {
   "title": "Qala Mahala, Hola ka Potlako!",
   "sub_title": "Phihlello e sa lekanyetsoang ea likarolo tsohle ntle le tefo! Ke <b>2% feela ea thekiso</b> , hang ka mor'a ho reka ka katleho. O na le thekiso e ngata mme o batla ho fokotsa litefiso?",
   "show_detail_list": "Hlahisa lenane la lintlha",
-  "plan_free_detail": "<b class='text-capitalize'>Sistimi ea ts'ebetso ea likhoebo tse ntseng li hola ka potlako</b> | Qala khoebo ea hau ka moralo oa rona oa mahala. Ntho e ngoe le e ngoe eo u e hlokang ho qala le ho qala sebaka sa hau sa Marang-rang sa eCommerce se lokile mona. Selldone e fana ka lisebelisoa tsohle tsa software, lisebelisoa le tharollo ea leru ka leano la ho ngolisa mahala. Selldone e boetse e hlokomela lintlafatso tsohle tsa software le lintlha tsa ts'ireletso. Kahoo o ka tsepamisa maikutlo ohle a hau ho rekisa mme o seke oa tšoenyeha ka litaba tsa tekheniki le litšenyehelo.",
+  "plan_free_detail": "<b class='text-capitalize'>Sistimi ea ts'ebetso ea likhoebo tse ntseng li hola ka potlako</b> ╏ Qala khoebo ea hau ka moralo oa rona oa mahala. Ntho e ngoe le e ngoe eo u e hlokang ho qala le ho qala sebaka sa hau sa Marang-rang sa eCommerce se lokile mona. Selldone e fana ka lisebelisoa tsohle tsa software, lisebelisoa le tharollo ea leru ka leano la ho ngolisa mahala. Selldone e boetse e hlokomela lintlafatso tsohle tsa software le lintlha tsa ts'ireletso. Kahoo o ka tsepamisa maikutlo ohle a hau ho rekisa mme o seke oa tšoenyeha ka litaba tsa tekheniki le litšenyehelo.",
   "pay_monthly": "Lefa khoeli le khoeli",
   "pay_yearly": "Lefa selemo le selemo",
   "pay_yearly_off": "30% e fokotsehile",

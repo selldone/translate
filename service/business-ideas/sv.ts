@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Social försäljning",
-      "subtitle": "Avokado | Börja sälja bara med en länk",
+      "subtitle": "Avokado ╏ Börja sälja bara med en länk",
       "custom_form": "Anpassad beställningsblankett",
       "step1": "Avokadouppfyllelse",
       "step2": "Prissättning och fakturafråga",

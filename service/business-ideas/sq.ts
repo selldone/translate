@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Shitjet sociale",
-      "subtitle": "Avokado | Filloni të shisni vetëm me një lidhje",
+      "subtitle": "Avokado ╏ Filloni të shisni vetëm me një lidhje",
       "custom_form": "Formulari i porosisë me porosi",
       "step1": "Plotësimi i avokados",
       "step2": "Çështja e çmimit dhe e faturës",

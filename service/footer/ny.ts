@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Gulu",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Mapulani & Mitengo",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

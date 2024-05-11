@@ -2,7 +2,7 @@ export default {
   "title": "Ücretsiz Başlayın, Hızlı Büyüyün!",
   "sub_title": "Tüm özelliklere ücretsiz olarak sınırsız erişim! Başarılı satın alımlardan hemen sonra <b>satışın sadece %2'si</b> . Çok satışınız var ve ücretleri düşürmek mi istiyorsunuz?",
   "show_detail_list": "Ayrıntılar listesini göster",
-  "plan_free_detail": "<b class='text-capitalize'>Hızla büyüyen işletmeler için bir işletim sistemi</b> | Ücretsiz planımızla işinize başlayın. E-Ticaret web sitenizi başlatmak ve başlatmak için ihtiyacınız olan her şey burada hazır. Selldone, tüm yazılımları, araçları ve bulut barındırma çözümünü ücretsiz abonelik planıyla sağlar. Selldone ayrıca tüm yazılım güncellemeleri ve güvenlik hususlarıyla ilgilenir. Böylece teknik sorunlar ve maliyetler hakkında endişelenmeden tüm çabanızı satışa odaklayabilirsiniz.",
+  "plan_free_detail": "<b class='text-capitalize'>Hızla büyüyen işletmeler için bir işletim sistemi</b> ╏ Ücretsiz planımızla işinize başlayın. E-Ticaret web sitenizi başlatmak ve başlatmak için ihtiyacınız olan her şey burada hazır. Selldone, tüm yazılımları, araçları ve bulut barındırma çözümünü ücretsiz abonelik planıyla sağlar. Selldone ayrıca tüm yazılım güncellemeleri ve güvenlik hususlarıyla ilgilenir. Böylece teknik sorunlar ve maliyetler hakkında endişelenmeden tüm çabanızı satışa odaklayabilirsiniz.",
   "pay_monthly": "Aylık ödeme",
   "pay_yearly": "Yıllık ödeme",
   "pay_yearly_off": "%30 indirim",

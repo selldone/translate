@@ -2,7 +2,7 @@ export default {
   "title": "Tangira Ubuntu, Gukura Byihuse!",
   "sub_title": "Kugera kutagira imipaka kubintu byose nta kiguzi! <b>2% gusa yo kugurisha</b> , nyuma yo kugura neza. Ufite ibicuruzwa byinshi kandi ushaka kugabanya amafaranga?",
   "show_detail_list": "Erekana urutonde rurambuye",
-  "plan_free_detail": "<b class='text-capitalize'>Sisitemu ikora kubucuruzi butera imbere byihuse</b> | Tangira ubucuruzi bwawe kuri gahunda yacu yubuntu. Ikintu cyose ukeneye gutangira no gutangiza urubuga rwa eCommerce rwiteguye hano. Selldone itanga software zose, ibikoresho, hamwe nigicu cyakira igisubizo kuri gahunda yo kwiyandikisha kubuntu. Selldone wongeyeho kwita kuri software zose hamwe no gutekereza kumutekano. Urashobora rero gushira imbaraga zawe zose kugurisha kandi ntuhangayikishwe nibibazo bya tekiniki nibiciro.",
+  "plan_free_detail": "<b class='text-capitalize'>Sisitemu ikora kubucuruzi butera imbere byihuse</b> ╏ Tangira ubucuruzi bwawe kuri gahunda yacu yubuntu. Ikintu cyose ukeneye gutangira no gutangiza urubuga rwa eCommerce rwiteguye hano. Selldone itanga software zose, ibikoresho, hamwe nigicu cyakira igisubizo kuri gahunda yo kwiyandikisha kubuntu. Selldone wongeyeho kwita kuri software zose hamwe no gutekereza kumutekano. Urashobora rero gushira imbaraga zawe zose kugurisha kandi ntuhangayikishwe nibibazo bya tekiniki nibiciro.",
   "pay_monthly": "Kwishura buri kwezi",
   "pay_yearly": "Kwishura buri mwaka",
   "pay_yearly_off": "30%",

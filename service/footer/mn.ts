@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Гильд",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Төлөвлөгөө ба үнэ",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

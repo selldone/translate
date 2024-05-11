@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Félagsleg sala",
-      "subtitle": "Avókadó | Byrjaðu að selja bara með einum hlekk",
+      "subtitle": "Avókadó ╏ Byrjaðu að selja bara með einum hlekk",
       "custom_form": "Sérsniðið pöntunarform",
       "step1": "Uppfylling avókadó",
       "step2": "Verðlagning og útgáfa reikninga",

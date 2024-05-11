@@ -2,7 +2,7 @@ export default {
   "title": "Sāciet bez maksas, strauji augiet!",
   "sub_title": "Neierobežota piekļuve visām funkcijām bez maksas! Tikai <b>2% no pārdošanas</b> , tikko pēc veiksmīgiem pirkumiem. Vai jums ir daudz pārdošanas un vēlaties samazināt maksas?",
   "show_detail_list": "Rādīt detalizētu sarakstu",
-  "plan_free_detail": "<b class='text-capitalize'>Operētājsistēma strauji augošiem uzņēmumiem</b> | Sāciet savu biznesu, izmantojot mūsu bezmaksas plānu. Šeit ir gatavs viss, kas nepieciešams, lai sāktu un palaistu savu e-komercijas vietni. Selldone nodrošina visu programmatūru, rīkus un mākoņa mitināšanas risinājumu, izmantojot bezmaksas abonēšanas plānu. Selldone papildus rūpējas par visiem programmatūras atjauninājumiem un drošības apsvērumiem. Tātad jūs varat koncentrēt visus savus spēkus uz pārdošanu un neuztraukties par tehniskām problēmām un izmaksām.",
+  "plan_free_detail": "<b class='text-capitalize'>Operētājsistēma strauji augošiem uzņēmumiem</b> ╏ Sāciet savu biznesu, izmantojot mūsu bezmaksas plānu. Šeit ir gatavs viss, kas nepieciešams, lai sāktu un palaistu savu e-komercijas vietni. Selldone nodrošina visu programmatūru, rīkus un mākoņa mitināšanas risinājumu, izmantojot bezmaksas abonēšanas plānu. Selldone papildus rūpējas par visiem programmatūras atjauninājumiem un drošības apsvērumiem. Tātad jūs varat koncentrēt visus savus spēkus uz pārdošanu un neuztraukties par tehniskām problēmām un izmaksām.",
   "pay_monthly": "Maksājiet katru mēnesi",
   "pay_yearly": "Maksājiet katru gadu",
   "pay_yearly_off": "30% atlaide",

@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Ọha ahịa ọha",
-      "subtitle": "Ube oyibo | Malite ire naanị otu njikọ",
+      "subtitle": "Ube oyibo ╏ Malite ire naanị otu njikọ",
       "custom_form": "Ụdị ịtụ ahịa omenala",
       "step1": "Mmezu ube oyibo",
       "step2": "Okwu ọnụahịa na akwụkwọ ọnụahịa",

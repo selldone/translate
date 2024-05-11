@@ -880,7 +880,7 @@ export default {
   },
   "placeholders": {
     "name": "Jone Cox",
-    "email": "your-mail@mail.com",
+    "email": "your-mail{'@'}mail.com",
     "phone": "+1 000 0000",
     "language": "Chọn ngôn ngữ..",
     "friend_email": "Email của bạn bè ...",
@@ -1819,7 +1819,7 @@ export default {
     "enter_address_hint": "Nhập địa chỉ đích",
     "enter_your_address": "Nhập địa chỉ của bạn.",
     "postal_code": "Mã bưu điện",
-    "phone_input": "Loại điện thoại}",
+    "phone_input": "Loại điện thoại",
     "building_number": "Số tòa nhà",
     "building_unit": "Đơn vị",
     "full_name_input": "Tên đầy đủ {type}",

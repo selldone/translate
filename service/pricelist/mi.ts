@@ -2,7 +2,7 @@ export default {
   "title": "Tīmata Kore, Kia Tere!",
   "sub_title": "Te urunga mutunga kore ki nga ahuatanga katoa kaore he utu! <b>2% anake o te hoko</b> , i muri tonu i nga hoko angitu. He maha nga hoko me te hiahia ki te whakaiti i nga utu?",
   "show_detail_list": "Whakaatu rārangi taipitopito",
-  "plan_free_detail": "<b class='text-capitalize'>He punaha whakahaere mo nga pakihi tere tipu</b> | Tīmatahia to pakihi ma to maatau mahere kore utu. Ko nga mea katoa e hiahia ana koe ki te tiimata me te whakarewa i to paetukutuku eCommerce kua rite ki konei. Ka whakaratohia e Selldone nga raupaparorohiko katoa, taputapu, me te otinga manaaki kapua ma te mahere ohaurunga kore utu. Kei a Selldone ano te tiaki i nga whakahoutanga rorohiko me nga whakaaro haumarutanga. Na ka taea e koe te arotahi ki o mahi katoa ki te hoko me te kore e awangawanga mo nga take hangarau me nga utu.",
+  "plan_free_detail": "<b class='text-capitalize'>He punaha whakahaere mo nga pakihi tere tipu</b> ╏ Tīmatahia to pakihi ma to maatau mahere kore utu. Ko nga mea katoa e hiahia ana koe ki te tiimata me te whakarewa i to paetukutuku eCommerce kua rite ki konei. Ka whakaratohia e Selldone nga raupaparorohiko katoa, taputapu, me te otinga manaaki kapua ma te mahere ohaurunga kore utu. Kei a Selldone ano te tiaki i nga whakahoutanga rorohiko me nga whakaaro haumarutanga. Na ka taea e koe te arotahi ki o mahi katoa ki te hoko me te kore e awangawanga mo nga take hangarau me nga utu.",
   "pay_monthly": "Utu ia marama",
   "pay_yearly": "Utu ia tau",
   "pay_yearly_off": "30% utu",

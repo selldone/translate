@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Gwerthu | Y System Weithredu Busnes ar gyfer Cwmnïau sy'n Tyfu'n Gyflym",
+    "home": "Gwerthu ╏ Y System Weithredu Busnes ar gyfer Cwmnïau sy'n Tyfu'n Gyflym",
     "login": "Mewngofnodi",
     "register": "Cofrestrwch",
     "auth_2fa": "2 ffactor Dilysu 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Fy Storfeydd",
     "roles": "Fy rolau",
     "wallet": "Fy Waled",
-    "personal_info": "Gwybodaeth Bersonol | KYC",
+    "personal_info": "Gwybodaeth Bersonol ╏ KYC",
     "companies": "Fy Nghwmnïau",
     "access_control": "Rheoli Mynediad",
     "security_center": "Canolfan Ddiogelwch",
     "gifts": {
-      "received": "Anrhegion | Derbyniwyd",
-      "send": "Anrhegion | Anfonwyd"
+      "received": "Anrhegion ╏ Derbyniwyd",
+      "send": "Anrhegion ╏ Anfonwyd"
     },
     "monetization": {
-      "linked_accounts": "Monetization | Cyfrifon Cysylltiedig",
-      "plans": "Monetization | Cynllun a Chysylltiadau"
+      "linked_accounts": "Monetization ╏ Cyfrifon Cysylltiedig",
+      "plans": "Monetization ╏ Cynllun a Chysylltiadau"
     },
     "affiliate": "Affiliate",
     "avocado": "Afocado - Sianel Gwerthu Cymdeithasol Modern",
     "guild": "Urdd — Sianel Werthu ar y Cyd",
-    "partners_login": "Partneriaid | Mewngofnodi cleient"
+    "partners_login": "Partneriaid ╏ Mewngofnodi cleient"
   },
   "blank_is_all_products": "Gadewch yn wag i gynnwys pob cynnyrch!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Yn ystod prosesu archeb, gall y swm a ddanfonwyd fod yn wahanol i'r swm a archebwyd. Mae'r system yn cyfrifo'r gwahaniaeth hwn yn awtomatig ac yn ei gofnodi fel eich dyled i'r cwsmer, y gellir ei gymhwyso i'r archebion nesaf.",
       "status_list": {
         "active": {
-          "title": "Actif | Gwerthiannau Ar-lein ac All-lein",
+          "title": "Actif ╏ Gwerthiannau Ar-lein ac All-lein",
           "description": "Bydd y cynnyrch hwn ar gael ar gyfer archebion ar-lein."
         },
         "inactive": {
-          "title": "Anactif | Dim ond Gwerthiannau All-lein",
+          "title": "Anactif ╏ Dim ond Gwerthiannau All-lein",
           "description": "Ni fydd y cynnyrch hwn ar gael ar gyfer archebion ar-lein."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Syml",
         "dark_input": "Thema dywyll?",
         "icon_input": "Eicon",
-        "icon_input_hint": "Eicon Dylunio Deunydd Enw neu Fonawsom: fas fa-star",
+        "icon_input_hint": "Eicon Dylunio Deunydd Enw neu Fonawsom: fa:fas fa-star",
         "anim_input": "Cyfeiriad Animeiddiad",
         "anim_input_message": "URL ffeil animeiddiad Lottie",
         "preview": "Rhagolwg",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Gohiriwyd y gorchymyn. {reason}",
     "connect-remove-hold": "Tynnwyd y gorchymyn o'r daliad. {reason}",
     "connect-confirmed": "Cadarnhawyd y gorchymyn.",
-    "email-vendor": "🔔 Mae e-bost archebu gwybodaeth wedi'i anfon at <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 Mae e-bost archebu gwybodaeth wedi'i anfon at <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Taliad i'r gwerthwr."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Cyfrifiannell | Addas i'ch busnes",
+    "title": "Cyfrifiannell ╏ Addas i'ch busnes",
     "description": "Cyfrifwch a dewiswch y cynllun gorau yn seiliedig ar eich gwerthiant misol:",
     "sale_input": "Swm gwerthiant misol",
     "hypernova_plan": "Gwnewch gais am Hypernova % 0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Gosodiadau lleoliadau storio",
     "save_alert": "Nid yw gosodiadau yn cael eu cadw!",
     "pos_tax_setting": "Gosodiadau Treth POS",
-    "tax_exclude_title": "Eithriedig | Bydd treth yn cael ei hychwanegu wrth y ddesg dalu",
+    "tax_exclude_title": "Eithriedig ╏ Bydd treth yn cael ei hychwanegu wrth y ddesg dalu",
     "tax_excluded_message": "Bydd y trethi yn cael eu cyfrifo cyn y taliadau yn ystod y ddesg dalu a'u hychwanegu at y pris treth eithriedig yn dibynnu ar eich tystiolaeth cwsmer."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Actif",
-      "title": "Actif | Gwerthiannau Ar-lein ac All-lein",
+      "title": "Actif ╏ Gwerthiannau Ar-lein ac All-lein",
       "description": "Bydd y cynnyrch hwn ar gael ar gyfer archebion ar-lein."
     },
     "close": {
       "name": "anactif",
-      "title": "Anactif | Dim ond Gwerthiannau All-lein",
+      "title": "Anactif ╏ Dim ond Gwerthiannau All-lein",
       "description": "Ni fydd y cynnyrch hwn ar gael ar gyfer archebion ar-lein."
     },
     "pending": {

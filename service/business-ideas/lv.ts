@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Sociālā pārdošana",
-      "subtitle": "Avokado | Sāciet pārdošanu, izmantojot vienu saiti",
+      "subtitle": "Avokado ╏ Sāciet pārdošanu, izmantojot vienu saiti",
       "custom_form": "Pielāgota pasūtījuma forma",
       "step1": "Avokado piepildījums",
       "step2": "Cenu un rēķinu izsniegšana",

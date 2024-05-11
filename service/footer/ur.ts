@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 گلڈ",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "منصوبے اور قیمتوں کا تعین",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

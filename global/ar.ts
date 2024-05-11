@@ -880,7 +880,7 @@ export default {
   },
   "placeholders": {
     "name": "جون كوكس",
-    "email": "your-mail@mail.com",
+    "email": "your-mail{'@'}mail.com",
     "phone": "+1 000 0000",
     "language": "اختار اللغة..",
     "friend_email": "بريد اصدقائك الالكتروني...",
@@ -1819,7 +1819,7 @@ export default {
     "enter_address_hint": "أدخل عنوان الوجهة",
     "enter_your_address": "أدخل عنوانك.",
     "postal_code": "الرمز البريدي",
-    "phone_input": "نوع الهاتف}",
+    "phone_input": "نوع الهاتف",
     "building_number": "رقم المبنى",
     "building_unit": "وحدة",
     "full_name_input": "الاسم الكامل {type}",

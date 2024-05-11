@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Seldone | Die besigheidsbedryfstelsel vir vinnig groeiende maatskappye",
+    "home": "Seldone ╏ Die besigheidsbedryfstelsel vir vinnig groeiende maatskappye",
     "login": "Teken aan",
     "register": "Registreer",
     "auth_2fa": "2 faktor staaf 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "My Winkels",
     "roles": "My rolle",
     "wallet": "My beursie",
-    "personal_info": "Persoonlike inligting | KYC",
+    "personal_info": "Persoonlike inligting ╏ KYC",
     "companies": "My Maatskappye",
     "access_control": "Toegangsbeheer",
     "security_center": "Sekuriteitsentrum",
     "gifts": {
-      "received": "Geskenke | Ontvang",
-      "send": "Geskenke | Gestuur"
+      "received": "Geskenke ╏ Ontvang",
+      "send": "Geskenke ╏ Gestuur"
     },
     "monetization": {
-      "linked_accounts": "Monetisering | Gekoppelde rekeninge",
-      "plans": "Monetisering | Beplan & Skakels"
+      "linked_accounts": "Monetisering ╏ Gekoppelde rekeninge",
+      "plans": "Monetisering ╏ Beplan & Skakels"
     },
     "affiliate": "Geaffilieerde",
     "avocado": "Avokado - Moderne sosiale verkoopskanaal",
     "guild": "Gilde — Kollektiewe verkoopskanaal",
-    "partners_login": "Vennote | Kliënt-aanmelding"
+    "partners_login": "Vennote ╏ Kliënt-aanmelding"
   },
   "blank_is_all_products": "Laat leeg om alle produkte in te sluit!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Tydens bestellingverwerking kan die gelewerde bedrag verskil van die bestelde bedrag. Die stelsel bereken hierdie verskil outomaties en teken dit aan as jou skuld aan die kliënt, wat op die volgende bestellings toegepas kan word.",
       "status_list": {
         "active": {
-          "title": "Aktief | Aanlyn en vanlyn verkope",
+          "title": "Aktief ╏ Aanlyn en vanlyn verkope",
           "description": "Hierdie produk sal beskikbaar wees vir aanlyn bestellings."
         },
         "inactive": {
-          "title": "Onaktief | Slegs vanlyn verkope",
+          "title": "Onaktief ╏ Slegs vanlyn verkope",
           "description": "Hierdie produk sal nie beskikbaar wees vir aanlyn bestellings nie."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Eenvoudig",
         "dark_input": "Donker tema?",
         "icon_input": "Ikoon",
-        "icon_input_hint": "Materiaalontwerp-ikoonnaam of Fontawsom: fas fa-ster",
+        "icon_input_hint": "Materiaalontwerp-ikoonnaam of Fontawsom: fa:fas fa-ster",
         "anim_input": "Animasie-adres",
         "anim_input_message": "Lottie animasie lêer URL",
         "preview": "Voorskou",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Die bestelling is opgehou. {reason}",
     "connect-remove-hold": "Die bevel is uit hou verwyder. {reason}",
     "connect-confirmed": "Die bestelling is bevestig.",
-    "email-vendor": "🔔 Bestelinligting e-pos is gestuur aan <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 Bestelinligting e-pos is gestuur aan <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Uitbetaling aan verkoper."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Sakrekenaar | Pas by jou besigheid",
+    "title": "Sakrekenaar ╏ Pas by jou besigheid",
     "description": "Bereken en kies die beste plan gebaseer op jou maandelikse verkope:",
     "sale_input": "Maandelikse verkoopsbedrag",
     "hypernova_plan": "Doen aansoek vir Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Stoor liggings instellings",
     "save_alert": "Instellings word nie gestoor nie!",
     "pos_tax_setting": "POS-belastinginstellings",
-    "tax_exclude_title": "Uitgesluit | Belasting sal by betaalpunt bygevoeg word",
+    "tax_exclude_title": "Uitgesluit ╏ Belasting sal by betaalpunt bygevoeg word",
     "tax_excluded_message": "Die belasting sal voor die betalings tydens die betaalpunt bereken word en by die uitgeslote belastingprys gevoeg word, afhangende van u kliëntbewyse."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktief",
-      "title": "Aktief | Aanlyn en vanlyn verkope",
+      "title": "Aktief ╏ Aanlyn en vanlyn verkope",
       "description": "Hierdie produk sal beskikbaar wees vir aanlyn bestellings."
     },
     "close": {
       "name": "onaktief",
-      "title": "Onaktief | Slegs vanlyn verkope",
+      "title": "Onaktief ╏ Slegs vanlyn verkope",
       "description": "Hierdie produk sal nie beskikbaar wees vir aanlyn bestellings nie."
     },
     "pending": {

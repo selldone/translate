@@ -15,7 +15,7 @@
 export default {
   surveys: ["خیلی ضعیف", "ضعیف", "معمولی", "خوب", "عالی"],
 
-  /** @see SStorefrontPrimaryFooter **/
+  /** @see SFooterSection **/
   footer: {
     map: "نقشه",
     email: "ایمیل",
@@ -75,7 +75,7 @@ export default {
     },
   },
 
-  /** @see SShopProductMainCard **/
+  /** @see SProductOverview **/
   product_info: {
     fake: "غیر اصل",
     action: "حراج",
@@ -135,9 +135,12 @@ export default {
       inform_add_success: "هر وقت موجود شد خبرتان می کنیم.",
       inform_remove_success: "از لیست در انتظار موجود شدن خارج شدید.",
     },
+    zip_pin_input:"شهر / محله",
+    zip_pin_not_available_msg: "در این مکان موجود نیست!",
+    zip_pin_placeholder: "محل خود را انتخاب کنید..."
   },
 
-  /** @see SStorefrontProfilePage **/
+  /** @see StorefrontPageProduct **/
 
   product: {
     review: "بررسی",
@@ -154,7 +157,7 @@ export default {
     related_categories_title: "جستجو در مجموعه های مرتبط",
   },
 
-  /** @see SStorefrontLayout **/
+  /** @see StorefrontLayout **/
   layout_shop: {
     shop_menu: {
       orders_history: "تاریخچه سفارشات",
@@ -188,7 +191,7 @@ export default {
     items: "عدد",
   },
 
-  /** {@see SStorefrontHistoryOrdersPhysicalPage} **/
+  /** {@see StorefrontPageUserOrdersPhysical} **/
   history_orders_physical: {
     rejected: "رد شده است",
     table: {
@@ -200,7 +203,7 @@ export default {
     },
   },
 
-  /** {@see SStorefrontOrdersList} **/
+  /** {@see SOrdersList} **/
   history_orders: {
     table: {
       code: "کد سفارش",
@@ -212,7 +215,7 @@ export default {
     },
   },
 
-  /** {@see SStorefrontUserPagesLayout} **/
+  /** {@see StorefrontPageUser} **/
   user_page: {
     menu: {
       gift_card: "کارت هدیه",
@@ -225,7 +228,7 @@ export default {
     },
   },
 
-  /** {@see SStorefrontPhysicalOrderDetailPage} **/
+  /** {@see StorefrontPageBasketOrderPhysicalDashboard} **/
   order_page: {
     title: "سفارش",
 
@@ -318,14 +321,14 @@ export default {
     notifications: "درخواست مرجوعی شما با موفقیت ثبت گردید.",
   },
 
-  /** {@see SStorefrontVirtualOrderDetailPage} **/
+  /** {@see StorefrontPageBasketOrderVirtualDashboard} **/
   virtual_order_page: {
     title: "سفارش",
     info: {
       title: "محصول خریداری شده",
     },
   },
-  /** {@see SStorefrontUserProfilePage} **/
+  /** {@see StorefrontPageUserProfile} **/
   user_profile: {
     title: "اطلاعات شخصی من",
     name: "نام",
@@ -356,7 +359,7 @@ export default {
     },
   },
 
-  /** {@see SStorefrontBasketPage} **/
+  /** {@see StorefrontPageBasketCart} **/
   basket_page: {
     title: "سبد خرید",
     total_price: "مبلغ کل",
@@ -423,7 +426,7 @@ export default {
     offer: "دریافت {count} عدد با {percent}% تخفیف",
     offer_free: "دریافت {count} عدد رایگان",
   },
-  /** {@see SStorefrontUserAddressesPage} **/
+  /** {@see StorefrontUserAddresses} **/
   addresses_page: {
     title: "آدرس های من",
     new_action: "آدرس جدید",
@@ -448,22 +451,22 @@ export default {
     },
   },
 
-  /** {@see SStorefrontUserReturnRequests} **/
+  /** {@see StorefrontPageUserReturns} **/
   return_requests: {
     title: "درخواست های مرجوعی",
   },
 
-  /** {@see SStorefrontUserFavoritesPage} **/
+  /** {@see StorefrontPageUserWishlist} **/
   user_favorites: {
     title: "لیست علاقه مندی ها",
   },
-  /** {@see SStorefrontUserCommentsPage} **/
+  /** {@see StorefrontPageUserComments} **/
   user_comments: {
     title: "نظرات من",
     first_post: "اولین ارسال",
     last_edit: "آخرین ویرایش",
   },
-  /** {@see SStorefrontUserGiftCardsPage} **/
+  /** {@see StorefrontPageUserGiftcards} **/
   user_gift_cards: {
     title: "کارت های هدیه من",
     add_action: "افزودن کارت",
@@ -476,12 +479,12 @@ export default {
       add_action: "ثبت کارت",
     },
   },
-  /** {@see SStorefrontProductsComparisonButton} **/
+  /** {@see SComparisonButton} **/
   product_comparison: {
     title: "مقایسه محصول",
     action_button: "مقایسه",
 
-    /** {@see ProductComparisonList} **/
+    /** {@see SComparisonList} **/
     list: {
       no_data: "هیچ محصولی به لیست مقایسه افزوده نشده است.",
       price: "قیمت",
@@ -502,7 +505,7 @@ export default {
     },
   },
 
-  /** {@see SStorefrontProductsFilterMenu} **/
+  /** {@see SCategoryFilter} **/
   product_filter_menu: {
     only_original: "کالاهای اصل",
     only_has_discount: "کالاهای دارای تخفیف",
@@ -522,7 +525,7 @@ export default {
     },
   },
 
-  /** @see SStorefrontBlogsPage **/
+  /** @see StorefrontPageBlogsList **/
   blogs: {
     title: "وبلاگ",
 
@@ -531,7 +534,7 @@ export default {
     topics: "موضوعات",
     suggestions: "پیشنهادها",
   },
-  /** @see SStorefrontProfilePage **/
+  /** @see StorefrontPageOfficial **/
   official_pages: {
     about_us: "درباره ما",
     terms: "قوانین و مقرارت",
@@ -594,8 +597,8 @@ export default {
   /** {@see SStorefrontAvocadoCustomerOrderForm} **/
   /** {@see SShopAvocadoCustomerOrderItems} **/
   /** {@see SStorefrontAvocadoCustomerOrderList} **/
-  /** {@see SStorefrontAvocadoPage} **/
-  /** {@see SStorefrontAvocadoOrderPage} **/
+  /** {@see StorefrontPageAvocado} **/
+  /** {@see StorefrontPageAvocadoCart} **/
 
   avocado: {
     not_enable: "فرم دریافت سفارشات آووکادو فعال نیست!",
@@ -638,7 +641,7 @@ export default {
     },
   },
 
-  /** {@see SStorefrontHyperAddOrderForm} **/
+  /** {@see SHyperCart} **/
   hyper: {
     title: "ثبت سفارش",
     message:
@@ -704,7 +707,7 @@ export default {
     },
   },
 
-  /** @see SStorefrontPrivateAccessCheckView **/
+  /** @see SAccessPrivateCheck **/
   check_access: {
     waiting_message: "در انتظار بررسی دسترسی...",
     no_access_message:
@@ -736,7 +739,7 @@ export default {
       "این محصول امتیاز {rate} از 5 ستاره دریافت کرده است و توسط {rate_count} نفر امتیازدهی شده است.",
   },
 
-  /** {@see SShopRelatedProducts} **/
+  /** {@see SProductRelatedProducts} **/
   related_products: {
     card: {
       title: "کاوش کنید!",
@@ -744,4 +747,18 @@ export default {
       same_category_subtitle: "موارد جذاب بیشتری در این دسته بندی پیدا کنید.",
     },
   },
+
+  /** {@see SProductCrossSells} **/
+  cross_selling: {
+    title:'محصولات پیشنهادی با {product}'
+  },
+
+  /** {@see SSmartSelectVendor} **/
+  select_vendor: {
+    item_title:'مشاهده فروشگاه {vendor}'
+  },
+  login:{
+    welcome:'خوش آمدید'
+  }
+
 };

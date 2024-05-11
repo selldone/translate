@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Penjualan Sosial",
-      "subtitle": "Alpukat | Mulai menjual hanya dengan satu tautan",
+      "subtitle": "Alpukat ╏ Mulai menjual hanya dengan satu tautan",
       "custom_form": "Formulir pesanan khusus",
       "step1": "pemenuhan alpukat",
       "step2": "Masalah harga dan faktur",

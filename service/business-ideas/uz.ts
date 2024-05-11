@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Ijtimoiy savdo",
-      "subtitle": "Avakado | Bitta havola orqali sotishni boshlang",
+      "subtitle": "Avakado ╏ Bitta havola orqali sotishni boshlang",
       "custom_form": "Maxsus buyurtma shakli",
       "step1": "Avakadoning bajarilishi",
       "step2": "Narxlar va hisob-faktura muammosi",

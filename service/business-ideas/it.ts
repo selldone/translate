@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Vendite Sociali",
-      "subtitle": "avocado | Inizia a vendere solo da un link",
+      "subtitle": "avocado ╏ Inizia a vendere solo da un link",
       "custom_form": "Modulo d'ordine personalizzato",
       "step1": "Realizzazione di avocado",
       "step2": "Emissione prezzi e fattura",

@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Sosiaalinen myynti",
-      "subtitle": "Avokado | Aloita myynti yhdellä linkillä",
+      "subtitle": "Avokado ╏ Aloita myynti yhdellä linkillä",
       "custom_form": "Mukautettu tilauslomake",
       "step1": "Avokadon täyttymys",
       "step2": "Hinnoittelu ja laskutus",

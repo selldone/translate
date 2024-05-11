@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Sozialer Verkauf",
-      "subtitle": "Avocado | Beginnen Sie mit dem Verkauf nur über einen Link",
+      "subtitle": "Avocado ╏ Beginnen Sie mit dem Verkauf nur über einen Link",
       "custom_form": "Kundenspezifisches Bestellformular",
       "step1": "Avocado-Erfüllung",
       "step2": "Preis- und Rechnungsstellung",

@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Selldone | Hệ điều hành kinh doanh cho các công ty phát triển nhanh",
+    "home": "Selldone ╏ Hệ điều hành kinh doanh cho các công ty phát triển nhanh",
     "login": "đăng nhập",
     "register": "Đăng ký",
     "auth_2fa": "2 yếu tố Xác thực 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Cửa hàng của tôi",
     "roles": "Vai trò của tôi",
     "wallet": "Ví của tôi",
-    "personal_info": "Thông tin cá nhân | KYC",
+    "personal_info": "Thông tin cá nhân ╏ KYC",
     "companies": "Công ty của tôi",
     "access_control": "Kiểm soát truy cập",
     "security_center": "Trung tâm bảo vệ",
     "gifts": {
-      "received": "Quà tặng | Nhận",
-      "send": "Quà tặng | Đã gửi"
+      "received": "Quà tặng ╏ Nhận",
+      "send": "Quà tặng ╏ Đã gửi"
     },
     "monetization": {
-      "linked_accounts": "Kiếm tiền | Các tài khoản được liên kết",
-      "plans": "Kiếm tiền | Kế hoạch & Liên kết"
+      "linked_accounts": "Kiếm tiền ╏ Các tài khoản được liên kết",
+      "plans": "Kiếm tiền ╏ Kế hoạch & Liên kết"
     },
     "affiliate": "Chi nhánh",
     "avocado": "Quả bơ - Kênh bán hàng xã hội hiện đại",
     "guild": "Guild - Kênh bán hàng tập thể",
-    "partners_login": "Đối tác | Đăng nhập của khách hàng"
+    "partners_login": "Đối tác ╏ Đăng nhập của khách hàng"
   },
   "blank_is_all_products": "Để trống để bao gồm tất cả các sản phẩm!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Trong quá trình xử lý đơn đặt hàng, số lượng đã giao có thể khác với số lượng đã đặt. Hệ thống sẽ tự động tính toán khoản chênh lệch này và ghi lại thành khoản nợ của bạn cho khách hàng, khoản này có thể áp dụng cho các đơn hàng tiếp theo.",
       "status_list": {
         "active": {
-          "title": "Hoạt động | Bán hàng trực tuyến và ngoại tuyến",
+          "title": "Hoạt động ╏ Bán hàng trực tuyến và ngoại tuyến",
           "description": "Sản phẩm này sẽ có sẵn cho các đơn đặt hàng trực tuyến."
         },
         "inactive": {
-          "title": "Không hoạt động | Chỉ bán hàng ngoại tuyến",
+          "title": "Không hoạt động ╏ Chỉ bán hàng ngoại tuyến",
           "description": "Sản phẩm này sẽ không có sẵn cho các đơn đặt hàng trực tuyến."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Giản dị",
         "dark_input": "Chủ đề tối?",
         "icon_input": "Biểu tượng",
-        "icon_input_hint": "Tên biểu tượng thiết kế Material Design hoặc Fontawsom: fas fa-star",
+        "icon_input_hint": "Tên biểu tượng thiết kế Material Design hoặc Fontawsom: fa:fas fa-star",
         "anim_input": "Địa chỉ hoạt ảnh",
         "anim_input_message": "URL tệp hoạt hình Lottie",
         "preview": "Xem trước",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Đơn đặt hàng đã bị trì hoãn. {reason}",
     "connect-remove-hold": "Đơn đặt hàng đã bị xóa khỏi trạng thái lưu giữ. {reason}",
     "connect-confirmed": "Đơn đặt hàng đã được xác nhận.",
-    "email-vendor": "🔔 Email thông báo đơn hàng đã được gửi đến <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 Email thông báo đơn hàng đã được gửi đến <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Thanh toán cho nhà cung cấp."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Máy tính | Phù hợp với doanh nghiệp của bạn",
+    "title": "Máy tính ╏ Phù hợp với doanh nghiệp của bạn",
     "description": "Tính toán và chọn phương án tốt nhất dựa trên doanh số hàng tháng của bạn:",
     "sale_input": "Số tiền bán hàng hàng tháng",
     "hypernova_plan": "Đăng ký Hypernova% 0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Vị trí cửa hàng Cài đặt",
     "save_alert": "Cài đặt không được lưu!",
     "pos_tax_setting": "Cài đặt thuế POS",
-    "tax_exclude_title": "Bị loại trừ | Thuế sẽ được thêm vào lúc thanh toán",
+    "tax_exclude_title": "Bị loại trừ ╏ Thuế sẽ được thêm vào lúc thanh toán",
     "tax_excluded_message": "Các khoản thuế sẽ được tính trước khi thanh toán trong quá trình thanh toán và được cộng vào giá chưa bao gồm thuế tùy thuộc vào bằng chứng khách hàng của bạn."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Tích cực",
-      "title": "Hoạt động | Bán hàng trực tuyến và ngoại tuyến",
+      "title": "Hoạt động ╏ Bán hàng trực tuyến và ngoại tuyến",
       "description": "Sản phẩm này sẽ có sẵn cho các đơn đặt hàng trực tuyến."
     },
     "close": {
       "name": "không hoạt động",
-      "title": "Không hoạt động | Chỉ bán hàng ngoại tuyến",
+      "title": "Không hoạt động ╏ Chỉ bán hàng ngoại tuyến",
       "description": "Sản phẩm này sẽ không có sẵn cho các đơn đặt hàng trực tuyến."
     },
     "pending": {

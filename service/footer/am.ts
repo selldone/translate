@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 ማህበር",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "ዕቅዶች እና ዋጋ",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

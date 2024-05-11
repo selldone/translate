@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Гуилд",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Планови и цене",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

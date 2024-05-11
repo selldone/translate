@@ -718,6 +718,12 @@ export default {
     video: "ویدئو",
     ends_in: "تا پایان",
     current: "فعلی",
+    important: "مهم",
+
+    web: "وب",
+    payout: "پرداخت",
+    vendor_panel:"پنل فروشنده",
+    vendors_panel:"پنل فروشنده ها",
 
   },
 
@@ -859,6 +865,10 @@ export default {
     change_payment_method: "تغییر روش پرداخت",
     buy: "خرید",
     view_all: "نمایش همه",
+    view_now: "مشاهده",
+    edit_address: "ویرایش آدرس",
+    resend:"ارسال مجدد",
+
   },
 
   /** @see BillingPeriod **/
@@ -982,18 +992,18 @@ export default {
     Processing: "درحال پردازش",
     Canceled: "لغو شده",
     Succeeded: "تایید پرداخت",
-    RequireCapture:"نیاز به تایید"
-
+    RequireCapture: "نیاز به تایید",
   },
 
   placeholders: {
     name: "نام کامل شما",
-    email: "your-mail@mail.com",
+    email: "your-mail{'@'}mail.com",
     phone: "0900 0000 0000",
     language: "انتخاب زبان..",
     friend_email: "آدرس ایمیل...",
     friend_name: "نام دریافت کننده",
     select_date: "یک تاریخ را انتخاب کنید...",
+    address: "خیابان اصلی 123، شهرستان، 12345",
   },
 
   notification: {
@@ -1099,6 +1109,131 @@ export default {
     PKR: "روپی",
     ALL: "لک",
     AMD: "درم",
+    ANG: "ANG",
+    AOA: "AOA",
+    ARS: "ARS",
+    AUD: "AUD",
+    AWG: "AWG",
+    AZN: "AZN",
+    BAM: "BAM",
+    BBD: "BBD",
+    BDT: "BDT",
+    BGN: "BGN",
+    BIF: "BIF",
+    BMD: "BMD",
+    BND: "BND",
+    BOB: "BOB",
+    BRL: "BRL",
+    BSD: "BSD",
+    BWP: "BWP",
+    BYN: "BYN",
+    BZD: "BZD",
+    CDF: "CDF",
+    CHF: "CHF",
+    CLP: "CLP",
+    COP: "COP",
+    CRC: "CRC",
+    CVE: "CVE",
+    CZK: "CZK",
+    DJF: "DJF",
+    DOP: "DOP",
+    DZD: "DZD",
+    ETB: "ETB",
+    FJD: "FJD",
+    FKP: "FKP",
+    GEL: "GEL",
+    GIP: "GIP",
+    GMD: "GMD",
+    GNF: "GNF",
+    GTQ: "GTQ",
+    GYD: "GYD",
+    GHS: "GHS",
+    HKD: "HKD",
+    HNL: "HNL",
+    HRK: "HRK",
+    HTG: "HTG",
+    HUF: "HUF",
+    IDR: "IDR",
+    ILS: "ILS",
+    ISK: "ISK",
+    JMD: "JMD",
+    JPY: "JPY",
+    KES: "KES",
+    KGS: "KGS",
+    KHR: "KHR",
+    KMF: "KMF",
+    KRW: "KRW",
+    KYD: "KYD",
+    KZT: "KZT",
+    LAK: "LAK",
+    LKR: "LKR",
+    LRD: "LRD",
+    LSL: "LSL",
+    MAD: "MAD",
+    MDL: "MDL",
+    MGA: "MGA",
+    MKD: "MKD",
+    MMK: "MMK",
+    MNT: "MNT",
+    MOP: "MOP",
+    MRO: "MRO",
+    MUR: "MUR",
+    MVR: "MVR",
+    MWK: "MWK",
+    MXN: "MXN",
+    MYR: "MYR",
+    MZN: "MZN",
+    NAD: "NAD",
+    NGN: "NGN",
+    NIO: "NIO",
+    NOK: "NOK",
+    NPR: "NPR",
+    NZD: "NZD",
+    PAB: "PAB",
+    PEN: "PEN",
+    PGK: "PGK",
+    PHP: "PHP",
+
+    PLN: "PLN",
+    PYG: "PYG",
+    RON: "RON",
+    RSD: "RSD",
+    RWF: "RWF",
+    SBD: "SBD",
+    SCR: "SCR",
+    SGD: "SGD",
+    SEK: "SEK",
+    SHP: "SHP",
+    SLL: "SLL",
+    SOS: "SOS",
+    SRD: "SRD",
+    STD: "STD",
+    SZL: "SZL",
+    THB: "THB",
+    TJS: "TJS",
+    TOP: "TOP",
+    TTD: "TTD",
+    TWD: "TWD",
+    TZS: "TZS",
+    UAH: "UAH",
+    UGX: "UGX",
+    UYU: "UYU",
+    UZS: "UZS",
+    VND: "VND",
+    VUV: "VUV",
+    WST: "WST",
+    XAF: "XAF",
+    XCD: "XCD",
+    XOF: "XOF",
+    XPF: "XPF",
+    YER: "YER",
+    ZAR: "ZAR",
+    ZMW: "ZMW",
+    ZWD: "ZWD",
+    IQD: "IQD",
+    SYP: "SYP",
+    KWD: "KWD",
+    BTN: "BTN",
   },
 
   variants: {
@@ -1176,7 +1311,7 @@ export default {
       "سفارشات از داخل مغازه و یا درب انبار توسط مشتری تحویل گرفته می شود.",
   },
 
-  /** {@see SArticleView} **/
+  /** {@see ArticleViewer} **/
   article: {
     login_to_see_error: "برای دسترسی به مقاله وارد شوید",
     create_new_action: "ایجاد مطلب جدید",
@@ -1456,8 +1591,7 @@ export default {
     cod: "پرداخت در محل",
     receipt_added: "ثبت رسید",
     payment_processing: "پردازش پرداخت",
-    payment_require_capture:'نیاز به تایید',
-
+    payment_require_capture: "نیاز به تایید",
   },
 
   /** {@see BasketDeliveryState} **/
@@ -1471,7 +1605,7 @@ export default {
     step_5: "تحویل به مشتری",
   },
 
-  /** {@see SBasketReturnItemsList} **/
+  /** {@see SOrderBasketReturn} **/
   basket_return_request_view: {
     title: "درخواست مرجوعی",
     delivery_date: "تاریخ دریافت توسط مشتری",
@@ -1493,7 +1627,7 @@ export default {
     },
   },
 
-  /** {@see ShopProcessCenterBasketList} **/
+  /** {@see BOrderCart} **/
   basket_list: {
     return_count: "مرجوعی: {count} عدد",
     table: {
@@ -1671,7 +1805,7 @@ export default {
     Friday: "جمعه",
   },
 
-  /** {@see SPaymentForm} **/
+  /** {@see UPaymentForm} **/
   payment_form: {
     title: "انتخاب روش پرداخت",
     gift_cards_input: "کارت های هدیه",
@@ -1695,7 +1829,7 @@ export default {
     },
   },
 
-  /** {@see SStorefrontDiscountCodeInput} **/
+  /** {@see SDiscountCodeInput} **/
   discount_input: {
     limit: "{percent}% تخفیف تا سقف {limit} {currency}",
     action: "افزودن کد تخفیف",
@@ -1712,7 +1846,7 @@ export default {
     transfer: "انتقال",
     send_to_friend: "ارسال به یک دوست",
   },
-  /** {@see SCountDown} **/
+  /** {@see UCountDown} **/
   count_down: {
     days: "روز",
     hours: "ساعت",
@@ -1815,7 +1949,7 @@ export default {
       name: "پادشاه بازار",
     },
   },
-  /** {@see SStorefrontCookieDialog} **/
+  /** {@see SCookieConsent} **/
 
   cookie: {
     title: "استفاده از کوکی",
@@ -1857,10 +1991,10 @@ export default {
     },
   },
 
-  /** {@see RatingInput} **/
+  /** {@see URatingInput} **/
   rating_labels: ["خیلی ضعیف", "ضعیف", "معمولی", "خوب", "عالی"],
 
-  /** {@see SMapView} **/
+  /** {@see UMapView} **/
   map_view: {
     address_detail: "جزئیات آدرس",
     change: "تغییر",
@@ -1907,14 +2041,14 @@ export default {
 
   /** {@see Calculator} **/
   /* calculator: {
-    title: "عنوان ماشین حساب",
-    formula: "فرمول",
-    variable_name: "نام متغیر",
-    variable_name_message: "نام متغیر را وارد نموده و کلید افزودن را بزنید.",
-    type: "نوع متغیر",
-    variable_title: "عنوان متغیر",
-    duplicate_var_name_error: "نمیتوان دو متغیر با یک نام وارد نمود.",
-  },*/
+      title: "عنوان ماشین حساب",
+      formula: "فرمول",
+      variable_name: "نام متغیر",
+      variable_name_message: "نام متغیر را وارد نموده و کلید افزودن را بزنید.",
+      type: "نوع متغیر",
+      variable_title: "عنوان متغیر",
+      duplicate_var_name_error: "نمیتوان دو متغیر با یک نام وارد نمود.",
+    },*/
   /** {@see SArticleStructuredData} **/
   json: {
     add: "افزودن داده های بیشتر",
@@ -2047,4 +2181,20 @@ export default {
     autumn: "پاییز",
     winter: "زمستان",
   },
+
+  /** {@see SOrderChatBox} **/
+  order_chat: {
+    seller:{
+      history_title: "تاریخچه پیام‌ها بین شما و مشتری.",
+      input_message: "در اینجا، شما قابلیت تبادل مستقیم پیام‌ها با مشتریان را دارید."
+    },
+    customer:{
+      history_title: "تاریخچه پیام‌ها بین شما و فروشنده.",
+      input_message: "در اینجا، شما قابلیت برقراری ارتباط مستقیم با فروشنده از طریق ارسال پیام‌ها را دارید."
+    }
+  },
+
+
+
+
 };

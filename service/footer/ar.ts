@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 نقابة",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "الخطط والتسعير",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

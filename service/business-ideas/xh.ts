@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Intengiso yeNtlalo",
-      "subtitle": "Iavokhado | Qala ukuthengisa ngekhonkco elinye",
+      "subtitle": "Iavokhado ╏ Qala ukuthengisa ngekhonkco elinye",
       "custom_form": "Ifom yoku-odola ngokwezifiso",
       "step1": "Ukuzaliseka kweavokhado",
       "step2": "Amaxabiso kunye nokukhutshwa kwe-invoyisi",

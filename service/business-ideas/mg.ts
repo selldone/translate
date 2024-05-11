@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Varotra ara-tsosialy",
-      "subtitle": "avocado | Manomboka mivarotra amin'ny rohy iray fotsiny",
+      "subtitle": "avocado ╏ Manomboka mivarotra amin'ny rohy iray fotsiny",
       "custom_form": "Fomba fibaikoana manokana",
       "step1": "Fahatanterahan'ny avocado",
       "step2": "Olana amin'ny vidiny sy faktiora",

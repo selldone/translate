@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Penjualan Sosial",
-      "subtitle": "alpukat | Mulai adol mung siji link",
+      "subtitle": "alpukat ╏ Mulai adol mung siji link",
       "custom_form": "Formulir pesenan khusus",
       "step1": "Avocado kapenuhan",
       "step2": "Pricing lan masalah invoice",

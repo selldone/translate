@@ -2,7 +2,7 @@ export default {
   "title": "Belaş dest pê bikin, bi lez mezin bibin!",
   "sub_title": "Gihîştina bêsînor ji hemî taybetmendiyan re bêyî lêçûn! Tenê <b>2% ji firotanê</b> , tenê piştî kirîna serketî. Gelek firotana we heye û hûn dixwazin xercê kêm bikin?",
   "show_detail_list": "Lîsteya hûrguliyan nîşan bide",
-  "plan_free_detail": "<b class='text-capitalize'>Pergalek xebitandinê ji bo karsaziyên ku zû mezin dibin</b> | Karsaziya xwe bi plansaziya meya belaş dest pê bikin. Her tiştê ku hûn hewce ne ku hûn malpera xweya e-commerce dest pê bikin û bidin destpêkirin li vir amade ye. Selldone hemî nermalava, amûr û çareseriya mêvandariya cloudê bi plansaziya abonetiya belaş peyda dike. Selldone di heman demê de hemî nûvekirinên nermalavê û ramanên ewlehiyê digire. Ji ber vê yekê hûn dikarin hemî hewildanên xwe li ser firotanê bikin û ji pirsgirêk û lêçûnên teknîkî netirsin.",
+  "plan_free_detail": "<b class='text-capitalize'>Pergalek xebitandinê ji bo karsaziyên ku zû mezin dibin</b> ╏ Karsaziya xwe bi plansaziya meya belaş dest pê bikin. Her tiştê ku hûn hewce ne ku hûn malpera xweya e-commerce dest pê bikin û bidin destpêkirin li vir amade ye. Selldone hemî nermalava, amûr û çareseriya mêvandariya cloudê bi plansaziya abonetiya belaş peyda dike. Selldone di heman demê de hemî nûvekirinên nermalavê û ramanên ewlehiyê digire. Ji ber vê yekê hûn dikarin hemî hewildanên xwe li ser firotanê bikin û ji pirsgirêk û lêçûnên teknîkî netirsin.",
   "pay_monthly": "Bi mehane bidin",
   "pay_yearly": "Salê bidin",
   "pay_yearly_off": "30% off",

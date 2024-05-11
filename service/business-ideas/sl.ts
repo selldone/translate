@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Družabna prodaja",
-      "subtitle": "Avokado | Začnite prodajati samo z eno povezavo",
+      "subtitle": "Avokado ╏ Začnite prodajati samo z eno povezavo",
       "custom_form": "Naročilnica po meri",
       "step1": "Izpolnitev avokada",
       "step2": "Težava s cenami in računi",

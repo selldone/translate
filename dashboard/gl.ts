@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Vendo | O sistema operativo empresarial para empresas de rápido crecemento",
+    "home": "Vendo ╏ O sistema operativo empresarial para empresas de rápido crecemento",
     "login": "acceder",
     "register": "Rexistrarse",
     "auth_2fa": "Autenticación de 2 factores 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "As miñas tendas",
     "roles": "Os meus papeis",
     "wallet": "A miña carteira",
-    "personal_info": "Información persoal | KYC",
+    "personal_info": "Información persoal ╏ KYC",
     "companies": "As miñas empresas",
     "access_control": "Control de acceso",
     "security_center": "Centro de Seguridade",
     "gifts": {
-      "received": "Agasallos | Recibido",
-      "send": "Agasallos | Enviado"
+      "received": "Agasallos ╏ Recibido",
+      "send": "Agasallos ╏ Enviado"
     },
     "monetization": {
-      "linked_accounts": "Monetización | Contas vinculadas",
-      "plans": "Monetización | Plan e ligazóns"
+      "linked_accounts": "Monetización ╏ Contas vinculadas",
+      "plans": "Monetización ╏ Plan e ligazóns"
     },
     "affiliate": "Afiliado",
     "avocado": "Avocado — Moderna canle de vendas sociais",
     "guild": "Gremio — Canle de Vendas Colectivas",
-    "partners_login": "Socios | Inicio de sesión do cliente"
+    "partners_login": "Socios ╏ Inicio de sesión do cliente"
   },
   "blank_is_all_products": "Deixa en branco para incluír todos os produtos!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Durante o procesamento do pedido, o importe entregado pode diferir do pedido. O sistema calcula automaticamente esta diferenza e rexistraa como a súa débeda co cliente, que se pode aplicar aos seguintes pedidos.",
       "status_list": {
         "active": {
-          "title": "Activo | Vendas en liña e fóra de liña",
+          "title": "Activo ╏ Vendas en liña e fóra de liña",
           "description": "Este produto estará dispoñible para pedidos en liña."
         },
         "inactive": {
-          "title": "Inactivo | Só vendas fóra de liña",
+          "title": "Inactivo ╏ Só vendas fóra de liña",
           "description": "Este produto non estará dispoñible para pedidos en liña."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Simple",
         "dark_input": "¿Tema escuro?",
         "icon_input": "Ícona",
-        "icon_input_hint": "Material Design Icon Nome ou Fontawsom: fas fa-star",
+        "icon_input_hint": "Material Design Icon Nome ou Fontawsom: fa:fas fa-star",
         "anim_input": "Dirección de animación",
         "anim_input_message": "URL do ficheiro de animación Lottie",
         "preview": "Vista previa",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "A orde quedou en suspenso. {reason}",
     "connect-remove-hold": "Eliminouse a orde da espera. {reason}",
     "connect-confirmed": "O pedido foi confirmado.",
-    "email-vendor": "🔔 O correo electrónico de información do pedido foi enviado a <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 O correo electrónico de información do pedido foi enviado a <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Pago ao vendedor."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Calculadora | Adecuado ao teu negocio",
+    "title": "Calculadora ╏ Adecuado ao teu negocio",
     "description": "Calcula e elixe o mellor plan en función das túas vendas mensuais:",
     "sale_input": "Importe das vendas mensuais",
     "hypernova_plan": "Solicita Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Configuración de localizacións da tenda",
     "save_alert": "A configuración non está gardada!",
     "pos_tax_setting": "Configuración de impostos POS",
-    "tax_exclude_title": "Excluído | O imposto engadirase ao realizar a compra",
+    "tax_exclude_title": "Excluído ╏ O imposto engadirase ao realizar a compra",
     "tax_excluded_message": "Os impostos calcularanse antes dos pagos durante a compra e engadiranse ao prezo do imposto excluído dependendo da proba do cliente."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Activo",
-      "title": "Activo | Vendas en liña e fóra de liña",
+      "title": "Activo ╏ Vendas en liña e fóra de liña",
       "description": "Este produto estará dispoñible para pedidos en liña."
     },
     "close": {
       "name": "inactivo",
-      "title": "Inactivo | Só vendas fóra de liña",
+      "title": "Inactivo ╏ Só vendas fóra de liña",
       "description": "Este produto non estará dispoñible para pedidos en liña."
     },
     "pending": {

@@ -22,6 +22,8 @@ export default {
     featured_apps: "Featured apps",
     more_apps: "More apps",
     my_public_profile: "My public profile page",
+    product_admin:"Product Admin",
+
   },
 
   numbers: {
@@ -73,7 +75,7 @@ export default {
 
   // ------------------ Pages Title ------------------
   page_titles: {
-    home: "Selldone | The Business Operating System For Fast-growing Companies",
+    home: "Selldone ╏ The Business Operating System For Fast-growing Companies",
     login: "Login",
     register: "Register",
     auth_2fa: "2 factor Authenticate 🔐",
@@ -83,22 +85,22 @@ export default {
     my_stores: "My Stores",
     roles: "My Roles",
     wallet: "My Wallets",
-    personal_info: "Personal Info | KYC",
+    personal_info: "Personal Info ╏ KYC",
     companies: "My Companies",
     access_control: "Access Control",
     security_center: "Security Center",
     gifts: {
-      received: "Gifts | Received",
-      send: "Gifts | Sent",
+      received: "Gifts ╏ Received",
+      send: "Gifts ╏ Sent",
     },
     monetization: {
-      linked_accounts: "Monetization | Linked Accounts",
-      plans: "Monetization | Plan & Links",
+      linked_accounts: "Monetization ╏ Linked Accounts",
+      plans: "Monetization ╏ Plan & Links",
     },
     affiliate: "Affiliate",
     avocado: "Avocado — Modern Social Sales Channel",
     guild: "Guild — Collective Sales Channel",
-    partners_login: "Partners | Client login",
+    partners_login: "Partners ╏ Client login",
   },
 
   /** NOT USED! */
@@ -182,7 +184,7 @@ export default {
     },
   },
 
-  /** @see SupportMenu **/
+  /** @see BSupportMenu **/
   support: {
     request: "Request support",
 
@@ -277,7 +279,7 @@ export default {
       "One of the key features of Selldone is providing robust and secure APIs to manage and connect stores to other services such as warehousing, accounting, etc. You can also design custom apps and web apps for your store. Without having to worry about server and data management. Just use the domain APIs. You will have all the process of managing users, authentication and other domain features.",
   },
 
-  /** {@see UserDashboardPage} **/
+  /** {@see BPageShuttle} **/
   user_dashboard: {
     title: "My shuttle",
     subtitle: "Comprehensive overview of my businesses.",
@@ -289,7 +291,7 @@ export default {
       access: "Access",
       business: "Company",
       wallet: "Wallet",
-      identification: "KYC",
+      identification: "Identity",
       stores: "Stores",
       roles: "Roles",
       home: "Home",
@@ -310,7 +312,7 @@ export default {
       },
 
       accept_invite_question: "Do you accept this invitation?",
-      /** {@see SShopCard} **/
+      /** {@see BShopCard} **/
 
       shop_card: {
         menu_orders: {
@@ -323,7 +325,7 @@ export default {
         status: "Status",
         license: "License",
         volume: "Used space",
-        expire: "License Expired",
+        expire: "License expiration",
         products: "Products",
         page_views: "Views",
         user_behavior: "Customer behavior",
@@ -338,7 +340,7 @@ export default {
   },
 
   widgets: {
-    /** {@see OverviewWidget} **/
+    /** {@see BDashboardFeedback} **/
     overview: {
       title: "Customers feedback",
       title_small: "overview",
@@ -354,7 +356,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopPage} **/
+  /** {@see BPageShop} **/
   admin_shop: {
     title: "Store",
     menu: {
@@ -364,7 +366,7 @@ export default {
       access: "Access",
       pages: "Pages",
       channels: "Channels",
-      categories: "Categories",
+      classification: "Classification",
       marketing: "Marketing",
       customers: "Customers",
       logistic: "Logistic",
@@ -382,17 +384,17 @@ export default {
       localization: "Localization",
     },
 
-    /** {@see ShopDashboard} **/
+    /** {@see BPageShopDashboard} **/
     dashboard: {
       title: "Shop dashboard",
-      online_staff: "Online staff(s)",
+      online_staff: "Online staff",
 
       notify_referral: {
         message: "Send your invitation link to friends and get free vouchers.",
         action: "My referral link",
       },
 
-      /** {@see ShopInfoWidget} **/
+      /** {@see BDashboardShopTechnical} **/
       info: {
         title: "Technical",
         subtitle: "Technical overview of your business OS.",
@@ -419,7 +421,7 @@ export default {
         hide_domains: "Hide my domains",
         show_domains: "Show my domains",
 
-        /** {@see ShopDomains} **/
+        /** {@see BDomainsList} **/
         table: {
           primary: "Primary",
           url: "Url",
@@ -465,7 +467,7 @@ export default {
         },
       },
 
-      /** {@see ShopActiveOrdersWidget} **/
+      /** {@see BDashboardShopOrders} **/
       active_orders: {
         title: "Orders",
         title_small:
@@ -477,14 +479,14 @@ export default {
         service: "Service orders",
         subscription: "Subscription orders",
       },
-      /** {@see ShopProductsOverviewWidget} **/
+      /** {@see BDashboardShopProducts} **/
       products: {
         title: "Inventory",
         title_small: "Products, Services, Files",
 
         total_products: "Total product types",
       },
-      /** {@see ShopFinanceWidget} **/
+      /** {@see BDashboardShopFinance} **/
       finance: {
         title: "Financial",
         title_small: "Financial report",
@@ -514,7 +516,7 @@ export default {
           pay: "Pay",
         },
       },
-      /** {@see ShopUsersWidget} **/
+      /** {@see BDashboardShopCustomers} **/
       customers: {
         title: "Shop customers",
         title_small: "Conversion report",
@@ -531,8 +533,7 @@ export default {
         },
       },
 
-
-      /** {@see ShopPerformanceWidget} **/
+      /** {@see BDashboardShopPerformance} **/
       performance: {
         title: "Today",
         title_small: "Users and sales overview",
@@ -544,12 +545,12 @@ export default {
       },
     },
 
-    /** {@see BackofficeProductsManagementPage} **/
+    /** {@see BPageShopProductsList} **/
     products: {
       title: "Products list",
       products_list: "Back to list",
       products_menu: "Products management",
-      process_que: "Processing imported products",
+
       view_que_list: "View queue list",
       menu_products_list: "Products list",
       menu_export: "Export products",
@@ -559,7 +560,7 @@ export default {
         "Drop products list file (CSV, XLS, XLSX format) here to start adding bulk products. Ensure that the file has the Selldone products list format.",
 
       menu_advanced_options: "Advanced options",
-      /** {@see WidgetProductCard} **/
+      /** {@see BProductWindowProductLarge} **/
 
       product_widget: {
         product_type: "Product type",
@@ -585,12 +586,12 @@ export default {
       },
     },
 
-    /** {@see AdminShop_Blogs}  **/
+    /** {@see BPageShopBlogs}  **/
     blogs: {
       new: "Write new",
       blogs: "Blog",
 
-      /** {@see AdminShopBlogsList} **/
+      /** {@see BPageShopBlogsList} **/
       list: {
         title: "My Articles",
         subtitle:
@@ -614,9 +615,9 @@ export default {
       },
     },
 
-    /** {@see ShopProcessCenter} **/
+    /** {@see ShopPBPageShopOrdersrocessCenter} **/
     orders: {
-      /** {@see ShopProcessCenterTemplate} **/
+      /** {@see BProcessCenterList} **/
       physical: {
         waiting_message: "Receiving information ... please wait",
         rejected: "Rejected",
@@ -633,7 +634,7 @@ export default {
         },
       },
 
-      /** {@see ShopProcessCenter_Virtual} **/
+      /** {@see BPageShopOrdersVirtual} **/
       virtual: {
         waiting_message: "Receiving information ... please wait",
 
@@ -649,7 +650,7 @@ export default {
       },
     },
 
-    /** {@see AdminShopFinance} **/
+    /** {@see BPageShopFinance} **/
     auditing: {
       menu: {
         exchange: "Exchange",
@@ -662,7 +663,7 @@ export default {
         valuations: "Valuations",
       },
 
-      /** {@see AdminShopFinance_Bill} **/
+      /** {@see BPageShopFinanceBill} **/
       invoice: {
         title: "Shop Linked Wallets",
         subtitle:
@@ -686,7 +687,7 @@ export default {
         add_account_dialog: {
           title: "Connecting credit account to store",
           subtitle:
-            "When you open a wallet account with Selldone, we will give you a virtual credit card and account like any other credit card. Selldone sales fee will be deducted from this account, but if your account balance is not enough, this amount will be owed. You can use Selldone services as much as you need.",
+            "Upon opening a wallet account with Selldone, you will receive a virtual credit card. The Selldone service fee will be charged to this account. However, if your account balance is insufficient, the fee will become a payable debt.",
           account_number: "Account Number",
           account_number_input_message:
             "The store will be linked to this account. This account will be used for fees and costs. ",
@@ -709,7 +710,7 @@ export default {
           "Charge your account to prevent service suspension!",
       },
 
-      /** {@see AdminShopFinanceGateway} **/
+      /** {@see BPageShopFinanceGateways} **/
       gateway: {
         title: "Payment Methods",
         sub_title:
@@ -726,7 +727,7 @@ export default {
         },
       },
 
-      /** {@see AdminShopFinanceExchangeRate} **/
+      /** {@see BPageShopFinanceExchange} **/
       exchange: {
         title: "Store Active Currencies",
         subtitle:
@@ -772,9 +773,9 @@ export default {
       },
     }, // End of auditing
 
-    /** {@see AdminShopLogistics} **/
+    /** {@see BPageShopLogistic} **/
     logistic: {
-      /** {@see AdminShopLogistics_Warehouse} **/
+      /** {@see BPageShopLogisticWarehouse} **/
       warehouses: {
         title: "Warehouses",
         subtitle: "List of my warehouses.",
@@ -802,7 +803,7 @@ export default {
         includes: "Includes",
       },
 
-      /** {@see AdminShopLogistics_Inventory} **/
+      /** {@see BPageShopLogisticInventory} **/
       warehouse: {
         title: "Store Warehouse",
         sub_title: "This address is used as the origin of the shipping.",
@@ -813,7 +814,7 @@ export default {
         },
       },
 
-      /** {@see AdminShopLogistics_Transportations} **/
+      /** {@see BPageShopLogisticShipping} **/
       delivery: {
         title: "Shipping Methods",
 
@@ -875,7 +876,7 @@ export default {
       },
     }, // End of logistic
 
-    /** {@see ShopUsers} **/
+    /** {@see BPageShopCrm} **/
     users: {
       menu: {
         customers: "Customers",
@@ -885,7 +886,7 @@ export default {
         report: "Report",
       },
 
-      /** {@see ShopUsers_Report} **/
+      /** {@see BPageShopCrmReport} **/
       report: {
         title: "Customers Overview",
         sub_title: "You will see the live status of your customers here. ",
@@ -894,7 +895,7 @@ export default {
         report_30days_by_location:
           "Geolocation users activity in the last 30 days",
       },
-      /** {@see ShopUsers_Club} **/
+      /** {@see BPageShopCrmClub} **/
       club: {
         title: "Customers Club",
         sub_title:
@@ -925,14 +926,14 @@ export default {
           update_success: "Changes applied to the customer club.",
         },
       },
-      /** {@see ShopUsers_FAQ} **/
+      /** {@see BPageShopCrmFaq} **/
       faq: {
         title: "Frequently Asked Questions",
         sub_title: "Add, edit, and answer your customers questions.",
       },
     }, // End of users
 
-    /** {@see AdminShopMarketing} **/
+    /** {@see BPageShopMarketing} **/
     marketing: {
       menu: {
         campaigns: "Campaigns",
@@ -942,7 +943,7 @@ export default {
         funnel: "Funnel",
       },
 
-      /** {@see AdminShopMarketing_Campaign} **/
+      /** {@see BPageShopMarketingCampaign} **/
       campaign: {
         name_input_name: "Campaign Name",
         name_input_placeholder: "Enter your campaign title.",
@@ -962,7 +963,7 @@ export default {
       },
     }, // End of marketing
 
-    /** {@see CategoriesManagement} **/
+    /** {@see BPageShopClassification} **/
     categories: {
       title: "Category List",
       subtitle:
@@ -984,21 +985,6 @@ export default {
         items_count: "Number of items",
         home: "Home",
       },
-      /** {@see WidgetCategoryCard} **/
-      category_widget: {
-        parent: "Parent",
-        not_exist: "Does not exist",
-        children: "Subcategories",
-        delete_alert: {
-          title: "Remove child category",
-          message:
-            "Do you want to remove {title} from the {parent_title} list?",
-          action: "Delete",
-        },
-        notifications: {
-          edit_success: "Category edited.",
-        },
-      },
     }, // End of categories
     /** {@see AdminShopApps} **/
     apps: {
@@ -1006,13 +992,14 @@ export default {
         app_store: "App Store",
         my_apps: "Apps",
       },
-      /** {@see AdminShopApps_List} **/
+      /** {@see BPageShopSettingApplications} **/
       my_apps: {
         title: "Applications",
-        subtitle: "Discover the ease of managing your business applications with Selldone App Store. Our platform offers a comprehensive suite of tools designed to optimize your business operations. From innovative management solutions to productivity-boosting apps, Selldone provides a seamless experience for businesses seeking efficiency and growth.",
+        subtitle:
+          "Discover the ease of managing your business applications with Selldone App Store. Our platform offers a comprehensive suite of tools designed to optimize your business operations. From innovative management solutions to productivity-boosting apps, Selldone provides a seamless experience for businesses seeking efficiency and growth.",
         all: "All",
       },
-      /** {@see SBackofficeAppStoreShop} **/
+      /** {@see BAppShopStore} **/
       store: {
         title: "App store",
         subtitle:
@@ -1023,7 +1010,7 @@ export default {
         more: "more",
       },
     }, // End of apps
-    /** {@see PagesManagement} **/
+    /** {@see BPageShopPages} **/
     pages: {
       menu: {
         new_page: "New Page",
@@ -1037,14 +1024,14 @@ export default {
       },
     }, // End of pages
 
-    /** {@see AdminShopPermission} **/
+    /** {@see BPageShopPermission} **/
     permissions: {
       menu: {
         persons: "Staff",
         roles: "Roles",
         api: "API",
       },
-      /** {@see AdminShopPermission_Personnel} **/
+      /** {@see BPageShopPermissionStaff} **/
       shop_permissions: {
         menu: {
           users: "Personnel List",
@@ -1069,16 +1056,16 @@ export default {
         },
       },
 
-      /** {@see AdminShopPermission_API} **/
+      /** {@see BPageShopPermissionApi} **/
       shop_api: {
-        title: "Store Access Keys",
+        title: "Clients",
         message:
           "These keys are used to create Access Token by your server. Note that the keys are confidential and only on the server in a way that is not visible to others. ",
       },
     }, // End of permissions
-    /** {@see AdminShop_Applications} **/
+    /** {@see BPageShopApplications} **/
     applications: {
-      /** {@see AdminShop_Applications_PWA} **/
+      /** {@see BPageShopApplicationsPwa} **/
       pwa: {
         title: "Web App",
         sub_title: "It's the preview of your store's web app.",
@@ -1087,14 +1074,14 @@ export default {
         ios_app: "iOS app",
       },
 
-      /** {@see AdminShop_Applications_iOS} **/
+      /** {@see BPageShopApplicationsIos} **/
       ios: {
         title: "iOS app",
         sub_title: "You will soon be able to build an iOS app for your store.",
         message:
           "Maximum file size: 512 KB, you can upload files up to 1MB in size, provided our compression system is able to reduce the size to 512KB. The uploaded image will be intelligently resized. ",
       },
-      /** {@see AdminShop_Applications_Android} **/
+      /** {@see BPageShopApplicationsAndroid} **/
       android: {
         title: "Android Application",
         sub_title: "Build your own Android app",
@@ -1166,7 +1153,7 @@ export default {
       },
     },
 
-    /** {@see ShopEditPage} **/
+    /** {@see BPageShopSetting} **/
     edit: {
       menu: {
         delete: "Delete Store",
@@ -1195,7 +1182,7 @@ export default {
         delete_success: "Store deleted.",
       },
 
-      /** {@see ShopEdit_Info} **/
+      /** {@see BPageShopSettingInfo} **/
       info: {
         title_tab: {
           title: "Business name & Language",
@@ -1228,7 +1215,7 @@ export default {
         external_message:
           "Here, you can enter the address of the badge image and the link to it. URLs must be from an approved website. ",
       },
-      /** {@see ShopEdit_Menu} **/
+      /** {@see BPageShopSettingMenus} **/
       edit_menu: {
         title: "Menus",
 
@@ -1271,7 +1258,7 @@ export default {
           "Enter your official social media link in this section. Follow the instructions for each item to confirm the addresses. ",
       },
 
-      /** {@see ShopEdit_Time} **/
+      /** {@see BShopSettingWorkingDays} **/
       time: {
         title: "Working Days",
         sub_title: "Set working days and time",
@@ -1281,7 +1268,7 @@ export default {
         start_time_input_hint: "Store Open hours",
         end_time_input: "Store Close time",
         end_time_input_hint: "Store activity end time",
-        customer_support_service: "Accountability and Customer Service",
+        customer_support_service: "Customer Service",
         response_time_input: "Customer Service Status",
         support_24h: "24 hours 7 days a week ",
         support_normal: "Only during office hours",
@@ -1293,12 +1280,12 @@ export default {
     }, // End of edit
   }, // End of admin_shop
 
-  /** {@see CategorySelect} **/
+  /** {@see BCategoryInput} **/
   category_select: {
     category_input_no_category: "No category",
   },
 
-  /** {@see AddProduct} **/
+  /** {@see BProductAddFull} **/
   add_product: {
     title_new: "New product",
     title_new_category: "New category",
@@ -1327,7 +1314,7 @@ export default {
       title: "Choose your product or service type.",
     },
 
-    /** {@see ProductEditInfo} **/
+    /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Category",
       product_name: "Product name*",
@@ -1384,7 +1371,7 @@ export default {
       },
     },
 
-    /** {@see ProductEditRatingsProsCons} **/
+    /** {@see BProductEditFeatures} **/
     rating_pros_cons: {
       title: "Survey",
       message:
@@ -1453,7 +1440,7 @@ export default {
       },
     },
 
-    /** {@see ProductEditSpec} **/
+    /** {@see BProductEditInputs} **/
     edit_spec: {
       title: "Technical Specifications",
       sub_title: "You can import technical secifications of similar products.",
@@ -1486,7 +1473,7 @@ export default {
         spec_saved_success: "Product specifications saved.",
       },
     },
-    /** {@see ProductEditImages} **/
+    /** {@see BProductEditImages} **/
     edit_images: {
       title: "Main image",
       main_image_input_nodata: "Upload product image.",
@@ -1507,7 +1494,7 @@ export default {
           "First, upload your product video on Youtube, and then put the video URL here.",
       },
     },
-    /** {@see ProductEditPrice} **/
+    /** {@see BProductEditPrice} **/
     pricing: {
       edit_price: "Pricing",
       price_input: "Price",
@@ -1546,7 +1533,7 @@ export default {
       inputs_form: "Input Form Structure",
     },
 
-    /** {@see ProductEditExtra} **/
+    /** {@see BProductEditExtra} **/
     extra_edit: {
       physical: {
         title: "Shipping Information",
@@ -1571,7 +1558,7 @@ export default {
     },
   },
 
-  /** {@see ProductAdminPage} **/
+  /** {@see BPageProduct} **/
   product_admin: {
     products_list: "Product List",
     product: "Product",
@@ -1586,9 +1573,9 @@ export default {
       drop_shipping: "Dropshipping",
     },
 
-    /** {@see ProductDashboard} **/
+    /** {@see BPageProductDashboard} **/
     dashboard: {
-      /** {@see ProductInfoWidget} **/
+      /** {@see BProductInfoAbstractView} **/
       info: {
         title: "Profile",
         title_small: "Product",
@@ -1599,23 +1586,23 @@ export default {
         outputs: "Output information",
         user_data_form: "Buyer Information Form",
       },
-      /** {@see ProductActiveOrdersWidget} **/
+      /** {@see BProductOrdersAbstractView} **/
       orders: {
         title: "Orders",
         title_small: "Unprocessed",
-        physical_orders_title: "Shopping Carts With This Product",
-        send_30days_title: "Shipped orders in last 30 days",
-        downloads_30days_title: "File downloaded number in last 30 days",
-        virtual_orders_title: "This product's orders awaiting completion", // todo: remove!?
+        physical_orders_title: "Shopping carts with this product",
+        send_count_in_period: "Shipped orders between {start} ~ {end}",
+        downloads_count_in_period:
+          "File downloaded count between {start} ~ {end}",
       },
 
-      /** {@see ProductInventoryWidget} **/
+      /** {@see BProductInventoryAbstractView} **/
       inventory: {
         title: "Inventory",
         title_small: "Warehouse",
         total_sell: "Total Sales",
         total_sell_today: "Today Sales",
-        total_sell_30days: "Last 4 Days Sales",
+        total_sell_timespan: "Total Sales between {start} ~ {end}",
         chart: {
           labels: ["Inventory", "Sale"],
         },
@@ -1623,10 +1610,10 @@ export default {
         subscribers_title_small: "Total subscribed orders",
       },
 
-      /** {@see ProductFinanceWidget} **/
+      /** {@see BProductFinanceCharts} **/
       finance: {
         title: "Financial",
-        title_small: "Last 6 Month Purchase Report",
+        title_small: "Purchase Report between  {start} ~ {end}.",
         select_mode_title: "Show By",
         modes: {
           sell: "Sale",
@@ -1642,11 +1629,11 @@ export default {
         sell_yesterday: "Yesterday sales",
       },
 
-      /** {@see ProductSurveyWidget} **/
+      /** {@see BProductRatingCharts} **/
       survey: {
         title: "Product Rating",
         title_small: "Customer Satisfaction Report",
-        total_participation: "Total number of contributions",
+        total_participation: "Total contributions",
         today_participation: "Today ratings",
         last7days_participation: "Last 7 days contributions",
         chart: {
@@ -1656,7 +1643,7 @@ export default {
         },
       },
 
-      /** {@see ProductInformWidget} **/
+      /** {@see BProductMarketingAbstractView} **/
       inform: {
         title: "Customer Expectations",
         title_small: "Waiting for discounts or availability.",
@@ -1668,9 +1655,9 @@ export default {
       },
     },
 
-    /** {@see ProductInventoryPage} **/
+    /** {@see BPageProductInventory} **/
     inventory: {
-      /** {@see ProductVariantsList} **/
+      /** {@see BProductInventoryManagement} **/
       variants: {
         inventory_list: "Inventory list",
         add_variant: "Add variant",
@@ -1691,7 +1678,7 @@ export default {
         },
       },
 
-      /** {@see VirtualItemsList} **/
+      /** {@see BProductInventoryManagementVirtual} **/
       variant_item: {
         price: "price",
         same_as_product: "Similar to the main product",
@@ -1701,7 +1688,7 @@ export default {
           message: "Do you want to delete this variant?",
         },
       },
-      /** {@see ProductVariantAddEdit} **/
+      /** {@see BProductVariantAdd} **/
       variant_add_edit: {
         title: "Defining Product Variant",
         message: "Unique Product Variant Code",
@@ -1722,7 +1709,7 @@ export default {
       },
     },
 
-    /** {@see ProductAdminEditArticle} **/
+    /** {@see BPageProductArticle} **/
     edit_article: {
       menu: {
         tags: "Tags",
@@ -1731,7 +1718,7 @@ export default {
     },
   }, // product_admin
 
-  /** {@see ProductExtraPhysicalForm} **/
+  /** {@see BProductExtraInput} **/
   product_extra_physical: {
     weight: "Package weight",
     weight_unit: "Kg",
@@ -1749,7 +1736,7 @@ export default {
       "Set product packaging and preparation time for all variants.",
   },
 
-  /** {@see ProductImagesList} **/
+  /** {@see BProductImagesGallery} **/
   product_images_list: {
     upload_button: "More Product Images",
     upload_an_image: "Select an image.",
@@ -1767,7 +1754,7 @@ export default {
     discount: "Discount",
   },
 
-  /** {@see GiftCardTypeEdit} **/
+  /** {@see BGiftcardTypeAdd} **/
   gift_card_type_edit: {
     title_input: "Title",
     color_input: "Card color",
@@ -1784,7 +1771,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopLogisticsWarehouseEditor} **/
+  /** {@see BInventoryWarehouse} **/
   shop_warehouse_edit: {
     title: "Add Warehouse",
     message:
@@ -1802,7 +1789,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopLogisticsWarehouseInventoryList} **/
+  /** {@see BPageShopLogisticInventoryList} **/
   inventory_list: {
     search_input: "Product Search...",
     search_input_title: "Search among store products",
@@ -1830,7 +1817,7 @@ export default {
     bulk_price_dialog: {
       title: "Bulk actions > Price",
       message:
-        "Note: The following amount will apply as a percentage to the price of all products in your store. Also, the calculated price values will be intelligently converted to the closest round number based on the selected currency.Be careful in entering the values.",
+        "The following amount will apply as a percentage to the price of all products in your store. Also, the calculated price values will be intelligently converted to the closest round number based on the selected currency.Be careful in entering the values.",
       check: "I approve price changes.",
       add_percent_tab: "Add Percent",
       add_constant_tab: "Add Constant",
@@ -1847,7 +1834,7 @@ export default {
     },
   },
 
-  /** {@see ProductSpecView} **/
+  /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "Auto save",
   },
@@ -1950,7 +1937,7 @@ export default {
       delete_success: "Message deleted.",
     },
   },
-  /** {@see AdminShopCampaignPage} **/
+  /** {@see BPageCampaign} **/
   campaign: {
     title: "Campaign",
     menu: {
@@ -1962,7 +1949,7 @@ export default {
       ads: "Ads",
       finance: "Finance",
     },
-    /** {@see AdminShopCampaignPage_Dashboard} **/
+    /** {@see BPageCampaignDashboard} **/
     dashboard: {
       title: "Dashboard",
       status: "Status overview",
@@ -1977,7 +1964,7 @@ export default {
       conversion_over_time: "Conversion over time",
       total_campaign_sell: "Total sales by campaign",
     },
-    /** {@see AdminShopCampaignPage_Finance} **/
+    /** {@see BPageCampaignFinance} **/
     finance: {
       title: "Finance report",
       campaign_revenue: "Campaign revenue",
@@ -1987,20 +1974,20 @@ export default {
       payments_over_time: "Sales over time",
       all_links: "All links",
     },
-    /** {@see AdminShopCampaignPage_Landing} **/
+    /** {@see BPageCampaignLanding} **/
     landing: {
       empty_message: "You can specify a custom landing page for the campaign.",
       set_landing: "Set landing page",
       create_landing: "Create new landing page",
     },
 
-    /** {@see AdminShopCampaignPage_Links} **/
+    /** {@see BPageCampaignLinks} **/
     links: {
       title: "Campaign links",
       url_input_message: "Enter your target page url",
     },
 
-    /** {@see AdminShopCampaignPage_Setting} **/
+    /** {@see BPageCampaignSetting} **/
     setting: {
       menu: {
         config: "Config",
@@ -2055,7 +2042,8 @@ export default {
         simple: "Simple",
         dark_input: "Dark theme?",
         icon_input: "Icon",
-        icon_input_hint: "Material Design Icon Name or Fontawsom: fas fa-star",
+        icon_input_hint:
+          "Material Design Icon Name or Fontawsom: fa:fas fa-star",
         anim_input: "Animation Address",
         anim_input_message: "Lottie animation file URL",
         preview: "Preview",
@@ -2084,7 +2072,7 @@ export default {
     },
   },
 
-  /** {@see AddCategory} **/
+  /** {@see BCategoryAdd} **/
   add_category: {
     title_edit: "Edit category",
     title_update: "Add new category",
@@ -2126,7 +2114,7 @@ export default {
       edit_success: "Category edited.",
       delete_success: "Deleted {title}.",
     },
-    /** {@see CategoriesManagementFilter} **/
+    /** {@see BCategoryFilterEditor} **/
     edit_filter: {
       spec_input: "Technical Specifications List",
       spec_input_message:
@@ -2149,7 +2137,7 @@ export default {
     },
   },
 
-  /** {@see AppsList} **/
+  /** {@see BAppShopList} **/
   apps_list: {
     nodata: "There is no app installed on your store",
     inactive: "Inactive",
@@ -2157,7 +2145,7 @@ export default {
     app_store: "Add new app",
   },
 
-  /** {@see AddShop} **/
+  /** {@see BShopAdd} **/
   add_shop: {
     menu: {
       shop_title: "Store title",
@@ -2176,6 +2164,8 @@ export default {
       "Do not use non-English characters, spaces or letters, if used, the store name may not be displayed properly.",
     description_input: "Store description",
     description_input_message: "Write a brief description about your business.",
+    description_input_tips:
+      "This description will appear in your store's footer and will also be used as the default meta tag description for your store pages.",
     address_input: "Store Address",
     address_input_message: "Enter exact store location address",
 
@@ -2213,7 +2203,7 @@ export default {
     },
   },
 
-  /** {@see VirtualItemsList} **/
+  /** {@see BProductInventoryManagementVirtual} **/
   virtual_items_list: {
     add_virtual_item: "Add virtual item",
     add_virtual_item_desc:
@@ -2239,7 +2229,7 @@ export default {
     },
   },
 
-  /** {@see AddVirtualItem} **/
+  /** {@see BProductVirtualItemAdd} **/
   add_virtual_item: {
     title_edit: "Edit values",
     title_add: "Add item to product",
@@ -2253,7 +2243,7 @@ export default {
     },
   },
 
-  /** {@see ShopProcessCenterVirtualOrderPage} **/
+  /** {@see BPageOrderVirtual} **/
   virtual_process_center: {
     title: "Processing Center",
     sub_title: "Order Processing",
@@ -2264,13 +2254,7 @@ export default {
       order: "Order",
     },
 
-    /** {@see OrderVirtualListWidget} **/
-    list_widget: {
-      title: "Order Specifications",
-      product_name: "Product Name",
-    },
-
-    /** {@see VirtualOutputsWidget} **/
+    /** {@see BOrderVirtualItem} **/
     outputs_widget: {
       title: "Output form",
       table: {
@@ -2289,7 +2273,7 @@ export default {
     },
   },
 
-  /** {@see ShopProcessCenterFileOrderPage} **/
+  /** {@see BPageOrderFile} **/
   file_process_center: {
     title: "Processing Center",
     sub_title: "Order Processing",
@@ -2300,7 +2284,7 @@ export default {
     },
   },
 
-  /** {@see OrderPageDashboardTemplate} **/
+  /** {@see BOrderDashboard} **/
   process_order_page_dashboard: {
     title: "Order Processing",
     cancel_order_action: "Cancel Order",
@@ -2322,10 +2306,10 @@ export default {
       set_tracking_success: "Order Track ID saved successfully.",
     },
   },
-  /** {@see ShopProcessCenterPhysicalOrderPage} **/
-  /** {@see ShopProcessCenterVirtualOrderPage} **/
-  /** {@see ShopProcessCenterFileOrderPage} **/
-  /** {@see ShopProcessCenterServiceOrderPage} **/
+  /** {@see BPageOrderPhysical} **/
+  /** {@see BPageOrderVirtual} **/
+  /** {@see BPageOrderFile} **/
+  /** {@see BPageOrderService} **/
   process_center: {
     title: "Processing Center",
 
@@ -2357,7 +2341,7 @@ export default {
       waiting_for_pay: "Pending payment",
       processing_payment: "Processing payment",
       processing_cancel: "Payment canceled",
-      require_capture:'Require capture',
+      require_capture: "Require capture",
       paid: "Paid",
       cod_pay_info:
         "When you have received the order from the customer you can confirm payment and complete the order.",
@@ -2466,7 +2450,7 @@ export default {
         pay_fail_message: "Payment cannot be approved!",
       },
     },
-    /** {@see OrderBasketListWidget} **/
+    /** {@see BOrderDashboardCart} **/
     basket_list: {
       checklist: [
         "Check inventory.",
@@ -2481,7 +2465,7 @@ export default {
       lottery_prize_inform:
         "Your customer win 1x of this product. Send  gift with this order.",
     },
-    /** {@see OrderPreparingWidget} **/
+    /** {@see BOrderDashboardPreparing} **/
     preparing: {
       title: "Preparation",
       packing_weight: "Packing Weight",
@@ -2490,6 +2474,10 @@ export default {
       distance_warning: "Exceeds the allowed distance limit.",
       weight_warning: "Exceeds the allowed weight.",
       volume_warning: "Exceeds the allowed package size.",
+      items_weight_calculation:
+        "Combined weight of all items is {weight} {unit}",
+      not_available_message:
+        "It's not available when you are disabled asking for shipping address and also user did not fill address after purchase!",
 
       message:
         "Click the following <b> Order Ready</b> button if the order is ready to ship.",
@@ -2548,11 +2536,11 @@ export default {
       back: "Gateways",
     },
 
-    /** {@see AdminShopGatewayManagement_DashboardPage} **/
+    /** {@see BPageGatewayDashboard} **/
     dashboard: {
       title: "Gateway Management",
 
-      /** {@see GatewayDataWidget} **/
+      /** {@see BGatewayPaymentsChart} **/
       gateway_data_widget: {
         title: "Payments Report",
         title_small: "Gateway",
@@ -2565,7 +2553,7 @@ export default {
         },
       },
 
-      /** {@see GatewayInfoWidget} **/
+      /** {@see BGatewayOverview} **/
       gateway_info_widget: {
         title: "Info",
         title_small: "Gateway",
@@ -2592,7 +2580,7 @@ export default {
       },
     },
 
-    /** {@see AdminShopGatewayManagement_EditPage} **/
+    /** {@see BPageGatewayEdit} **/
     edit: {
       title: "Edit Gateway",
       menu: {
@@ -2601,7 +2589,7 @@ export default {
       edit_action: "Edit Gateway",
     },
 
-    /** {@see AdminShopGatewayManagementPage_Transactions} **/
+    /** {@see BPageGatewayTransactions} **/
     transactions: {
       title: "Transactions",
       table: {
@@ -2620,7 +2608,7 @@ export default {
     },
   },
 
-  /** {@see AddEditGatewayForm} **/
+  /** {@see BGatewayAdd} **/
   edit_gateway: {
     public_keys: "Public keys",
     private_keys: "Private keys (confidential)",
@@ -2645,7 +2633,7 @@ export default {
     developer_setting: "Develop & Test",
   },
 
-  /** {@see AdminGiftCardPage} **/
+  /** {@see BPageGiftcard} **/
   gift_card: {
     title: "Gift Cards",
     menu: {
@@ -2661,7 +2649,7 @@ export default {
     dashboard: {
       title: "Gift Card Management Dashboard",
 
-      /** {@see GiftCardAmountWidget} **/
+      /** {@see BGiftcardStatisticsPayment} **/
       amount_widget: {
         title: "Card Payment",
         title_small: "30 days",
@@ -2678,7 +2666,7 @@ export default {
         total_pay_today: "Today's payment",
       },
 
-      /** {@see GiftCardCountWidget} **/
+      /** {@see BGiftcardStatisticsCount} **/
       count_widget: {
         title: "Number of issued cards",
         title_small: "30 days",
@@ -2693,7 +2681,7 @@ export default {
         },
       },
 
-      /** {@see GiftCardExportWidget} **/
+      /** {@see BGiftcardExport} **/
       export: {
         title: "Get Output file",
         cards_list: "Get a list of cards",
@@ -2731,7 +2719,7 @@ export default {
       },
     }, // End of cards
 
-    /** {@see GiftCardEdit} **/
+    /** {@see BGiftcardAdd} **/
     gift_card_edit: {
       title: "Create Gift Card",
       validity: "Validity",
@@ -2753,7 +2741,7 @@ export default {
     },
   },
 
-  /** {@see AdminDiscountCodePage} **/
+  /** {@see BPageDiscountCode} **/
   shop_discount: {
     title: "Discount code",
     up_to: "Up to",
@@ -2763,7 +2751,7 @@ export default {
       back: "Discount Codes",
     },
 
-    /** {@see AdminDiscountCodeDashboardPage} **/
+    /** {@see BPageDiscountCodeDashboard} **/
     dashboard: {
       title: "Discount Code Management Dashboard",
       chart_amount_buy: {
@@ -2781,7 +2769,7 @@ export default {
     },
   },
 
-  /** {@see AdminCouponPage} **/
+  /** {@see BPageCoupon} **/
   shop_coupon: {
     title: "Coupons",
     up_to: "up to",
@@ -2791,7 +2779,7 @@ export default {
       orders: "Orders",
     },
 
-    /** {@see AdminCouponDashboardPage} **/
+    /** {@see BPageCouponDashboard} **/
     dashboard: {
       title: "Coupon Management Dashboard",
       chart_amount_buy: {
@@ -2809,7 +2797,7 @@ export default {
     },
   },
 
-  /** {@see AdminOfferPage} **/
+  /** {@see BPageOffer} **/
   shop_offer: {
     title: "Offers",
     up_to: "up to",
@@ -2819,7 +2807,7 @@ export default {
       back: "Offers",
     },
 
-    /** {@see AdminOfferDashboardPage} **/
+    /** {@see BPageOfferDashboard} **/
     dashboard: {
       title: "Offer Management Dashboard",
       chart_amount_buy: {
@@ -2837,7 +2825,7 @@ export default {
     },
   },
 
-  /** {@see WidgetAccount} **/
+  /** {@see BAccountCard} **/
   account_card: {
     pay_create_receipt: "Pay activation fee",
     balance: "Balance",
@@ -2893,7 +2881,7 @@ export default {
     "connect-confirmed": "The order was confirmed.",
 
     "email-vendor":
-      "🔔 Order inform email has been sent to <b>{vendor}</b> | {email}.",
+      "🔔 Order inform email has been sent to <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Payout to vendor.",
   },
 
@@ -2902,7 +2890,7 @@ export default {
     today: "Today",
     last_days: "{days} days ago",
   },
-  /** {@see SBackofficeProductsManagementView} **/
+  /** {@see BProductsWindow} **/
   products_select: {
     move_category: "Move category <b> {category} </b> to another category",
     move_product: "Move product <b> {product} </b> to category",
@@ -2914,27 +2902,99 @@ export default {
       copy_success: "Copy of product.",
       change_category_success: "Product category edited.",
     },
+
+    filter_box: {
+      no_root_filter_message: "You have products in root but no filter.",
+      has_root_filter_message: "You set filters for root category.",
+      set_filter_message: "You can set filters.",
+      edit_action: "Edit Root Filters",
+      clear_action: "Clear Root Filters",
+    },
+    ai: {
+      title: "AI Product Assistance",
+    },
+    menu: {
+      select_all_products: "Select all products",
+      unselect: "Unselect",
+      sort_categories: "Arrange / Sort Categories",
+      subscription_vendor_not_support_message:
+        "Can not assign vendor for subscription products! Subscription products must always have a vendor as their owner!",
+      vendor_owner_not_assignable_message:
+        "Can not assign a vendor for products with a vendor as its owner!",
+      category_assign_profile: "Assign profile to products in the category",
+      category_assign_profile_subtitle: "Tax, Shipping, Guide, Warranty, ...",
+      bulk_discount: "Bulk discount",
+      bulk_discount_subtitle: "Apply discount on all products.",
+    },
   },
-  /** {@see ShopProcessCenterPhysicalOrderPage_Track} **/
+  /** {@see BProductsPanel} **/
+  product_panel: {
+    excel_import: {
+      title: "Drop Excel / CSV file here.",
+      select_file: "Select file",
+      max_file: "Maximum file size: 20mb",
+      download_sample: "Download sample",
+    },
+    ai: {
+      title: "AI Product Assistance",
+    },
+  },
+
+  /** {@see BOrderDashboardVendor} **/
+  order_vendor: {
+    has_panel: "Has panel",
+    no_panel: "No panel",
+    manual_action: {
+      title: "Manual actions",
+      message: "You can update the vendor order status manually.",
+      guides: [
+        "Vendors with panel access can update their fulfillment (sub-orders) in their dedicated dashboard.",
+        "If the vendor has no panel access, the vendor order status will be changed automatically by changing the basket status.",
+        "You can update vendor orders manually.",
+      ],
+    },
+    payouts: {
+      title: "Payouts",
+      message: "Manage the vendor payouts and transactions.",
+
+      charge_tooltip: "Charge vendor wallet.",
+      withdraw_tooltip: "Withdraw from vendor wallet.",
+      payout_tooltip: "Payout to the vendor.",
+    },
+  },
+
+  /** {@see BOrderVendorPaymentManagement} **/
+  order_vendor_payment: {
+    message:
+      "This is an overview of the transactions in your virtual wallet on the marketplace.",
+    vendor_wallets: "Vendor Wallets",
+    my_wallets: "My Wallets",
+  },
+
+  /** {@see BPageOrderPhysicalTrack} **/
   physical_order_track: {
     title: "Risk Reports and Assessments",
   },
-  /** {@see ShopProcessCenterVirtualOrderPage_Track} **/
+  /** {@see BPageOrderVirtualTrack} **/
   virtual_order_track: {
     title: "Risk Reports and Assessments",
   },
-  /** {@see ShopProcessCenterVirtualOrderPage_Timeline} **/
+  /** {@see BPageOrderVirtualTimeline} **/
   virtual_order_timeline: {
     title: "Timeline",
   },
-  /** {@see ShopProcessCenterPhysicalOrderPage_Timeline} **/
+  /** {@see BPageOrderPhysicalTimeline} **/
   physical_order_timeline: {
     title: "Timeline",
   },
-  /** {@see ShopProcessCenterPhysicalOrderPage_Inputs} **/
+  /** {@see BPageOrderPhysicalInput} **/
   physical_order_inputs: {},
-  /** {@see SBackofficeOrderTimeline} **/
+  /** {@see BOrderTimeline} **/
   order_timeline: {
+    message:
+      "In this section, you can view the timeline of events related to the order, fulfillment, payment, and their respective statuses. Additionally, you can observe the orders dispatched to both customers and vendors.",
+    add_note_subtitle: "Write a message and mention your colleagues.",
+
     message_input: "Write a message here...",
     pin_action: "Pin to top",
     unpin_action: "Unpin",
@@ -2957,7 +3017,7 @@ export default {
     },
   },
 
-  /** {@see Accounts} **/
+  /** {@see BPageShuttleWalletAccounts} **/
   accounts: {
     title: "My Wallets",
     message:
@@ -2983,7 +3043,7 @@ export default {
       received: "Received",
     },
 
-    /** {@see UserGiftSend} **/
+    /** {@see BPageShuttleWalletGiftsSend} **/
     send_gifts: {
       title: "Sent Gifts",
       sub_title:
@@ -2999,7 +3059,7 @@ export default {
       },
     },
 
-    /** {@see UserGiftReceived} **/
+    /** {@see BPageShuttleWalletGiftsReceived} **/
     received_gifts: {
       title: "Received Gifts",
       sub_title:
@@ -3017,7 +3077,7 @@ export default {
     },
   },
 
-  /** {@see GetGiftDialog} **/
+  /** {@see BAccountGiftRedeem} **/
   get_gift_dialog: {
     title: "Receive a Gift",
     more: "More ..",
@@ -3032,7 +3092,7 @@ export default {
         "The amount of gift {amount} {currency} has been deposited into your account.",
     },
   },
-  /** {@see SendGiftDialog} **/
+  /** {@see BAccountGiftSend} **/
   send_gift_dialog: {
     title: "Send Gift",
     account_from_input: "Choose an account",
@@ -3050,7 +3110,7 @@ export default {
     },
   },
 
-  /** {@see AccountList} **/
+  /** {@see BAccountInput} **/
   account_list: {
     account_input: "Account Number",
     account_input_message:
@@ -3128,7 +3188,7 @@ export default {
         "The requested amount has been deposited into your account.",
     },
   },
-  /** {@see BasicInformation} **/
+  /** {@see BPageShuttleIdentity} **/
   basic_information: {
     title: "My Identity and Profile",
     email: "Email address",
@@ -3185,7 +3245,7 @@ export default {
     add_residential_address:
       "Add your location and proof of residential address documents.",
   },
-  /** {@see PhoneVerifyDialog} **/
+  /** {@see BUserPhoneVerify} **/
   phone_verify: {
     title: "Mobile Number Verification",
     step1_title:
@@ -3203,14 +3263,14 @@ export default {
       verify_success: "Your mobile number has been verified",
     },
   },
-  /** {@see UserCompanies} **/
+  /** {@see BPageShuttleCompanies} **/
   companies: {
     title: "My Business Accounts",
     message:
       "Businesses, entrepreneurs, and professional teams can develop products and applications based on the Selldone. It is a requirement to create a business profile.",
     new_company: "New company",
   },
-  /** {@see AddCompany} **/
+  /** {@see BCompanyAdd} **/
   add_company: {
     name_input: "Company name",
     website_input: "Website",
@@ -3243,7 +3303,7 @@ export default {
       "You can create the keys to your account here. Note that these keys will be able to access your account. Create and use these keys only if you know exactly what you are doing.",
   },
 
-  /** {@see UserSecurityControl} **/
+  /** {@see BPageShuttleSecurity} **/
   user_security_control: {
     title: "Account Security",
     message: "You can edit your account security settings here.",
@@ -3541,7 +3601,7 @@ export default {
       title: "Edit",
     },
   },
-  /** {@see AddApp} **/
+  /** {@see BAppAdd} **/
   add_app: {
     category_input: "Category",
     code_input: "Code",
@@ -3658,7 +3718,7 @@ export default {
     SelldoneSprite: "Selldone Wallet Account",
     SelldoneStorage: "Selldone Storage",
   },
-  /** {@see AccountPage} **/
+  /** {@see BPageAccount} **/
   account_page: {
     title: "Account",
     menu: {
@@ -3670,7 +3730,7 @@ export default {
       cards: "Cards",
     },
 
-    /** {@see AccountPage_Transactions} **/
+    /** {@see BPageAccountTransactions} **/
     transactions: {
       title: "Account Transactions",
       detail: {
@@ -3694,7 +3754,7 @@ export default {
       },
     },
 
-    /** {@see AccountPage_Transfer} **/
+    /** {@see BPageAccountTransfer} **/
     transfer: {
       title: "Transfer Charges",
       form: {
@@ -3705,7 +3765,7 @@ export default {
           "Be careful in transferring money, you will not be able to return if you complete the transfer.",
       },
     },
-    /** {@see AccountPage_Deposit} **/
+    /** {@see BPageAccountDeposit} **/
     deposit: {
       form: {
         title: "Charging Account",
@@ -3722,7 +3782,7 @@ export default {
       },
     },
 
-    /** {@see AccountPage_Edit} **/
+    /** {@see BPageAccountEdit} **/
     setting: {
       title: "Account Settings",
       account_name_input: "Account name",
@@ -3732,7 +3792,7 @@ export default {
     },
   },
 
-  /** {@see ReceiptPaymentDialog} **/
+  /** {@see BAccountReceiptPaymentDialog} **/
   receipt_payment_dialog: {
     title: "Receipt Payment",
     /*  message: 'If the following information is correct, hit the transaction confirmation key to make the transaction.',
@@ -3745,7 +3805,7 @@ export default {
       pay_action: 'Pay via port',
       pay_internal_action: 'Payment from account',*/
   },
-  /** {@see TransactionForm} **/
+  /** {@see BAccountTransactionForm} **/
   transaction_form: {
     title: "Transaction Form",
     from_input: "From account number",
@@ -3794,9 +3854,9 @@ export default {
     },
   },
 
-  /** {@see PriceCalculator} **/
+  /** {@see OPlanCalculator} **/
   price_calculator: {
-    title: "Calculator | Fit to your business",
+    title: "Calculator ╏ Fit to your business",
     description:
       "Calculate and choose the best plan based on your monthly sales:",
     sale_input: "Monthly sales amount",
@@ -3805,7 +3865,7 @@ export default {
     show_hypernova_mode: "My transaction is over 20M$!",
   },
 
-  /** {@see PriceCard} **/
+  /** {@see OPlanFeaturesCard} **/
   price_card: {
     billed_monthly: "Billed {amount} monthly.",
     billed_yearly: "Billed {amount} yearly.",
@@ -3813,20 +3873,20 @@ export default {
     select_your_store: "Select your store",
   },
 
-  /** {@see ShopSessionsWorldMap} **/
+  /** {@see BSessionsMap} **/
   shop_session_widget: {
     total_sessions: "Total sessions",
   },
-  /** {@see UserActivityWorldMap} **/
+  /** {@see BDashboardShopCustomersActivityMap} **/
   user_activities_keys: {
     add_baskets: "Add to Cart",
     remove_baskets: "Delete from Cart",
     buys: "Buy",
     products_views: "View Product",
   },
-  /** {@see ShopVisitorsWidget} **/
+  /** {@see BDashboardShopAcquisition} **/
   shop_visitors_widget: {
-    title: "Visitors Analytics",
+    title: "Acquisition Analytics",
     new_visitors: "New visitors",
     amp: "AMP views",
     returning_visitors: "Returning visitors",
@@ -3835,7 +3895,7 @@ export default {
     from_previous_7_days: "from last 7 days",
   },
 
-  /** {@see AppLevelSelector}   {@see AppLevel}  **/
+  /** {@see BUserAppLevel}   {@see AppLevel}  **/
   app_levels: {
     title: "App Level",
     Newbie: "Newbie",
@@ -3943,7 +4003,7 @@ export default {
       title: "Saved History",
     },
 
-    /** {@see SPageEditor} **/
+    /** {@see LPageEditor} **/
     design: {
       themes: {
         title: "Inline Page Builder",
@@ -3960,7 +4020,7 @@ export default {
       no_category: "No Categories",
     },
 
-    /** {@see SPageBuilderSeo} **/
+    /** {@see LPageEditorSeo} **/
     seo: {
       message:
         "SEO settings are adjusted automatically by the Selldone SEO engine.",
@@ -4059,17 +4119,18 @@ export default {
     },
   },
 
-  /** {@see SBackofficeAdminShopLayout} **/
+  /** {@see BLayoutBackofficeShop} **/
 
   admin_shop_layout: {
     download_txt: "Download data text",
     download_excel: "Download data excel",
   },
-  /** {@see UserPreferences} **/
+  /** {@see BUserPreferences} **/
   user_preferences: {
     access: "Access",
     template: "Template",
     feedback: "Feedback",
+    date_time: "Date & Time",
 
     company: "Company",
     company_message: "If you have company and want to publish apps.",
@@ -4087,7 +4148,7 @@ export default {
       "Show automation tab on shop dashboard. (Webhooks, Visual programming, ...)",
   },
 
-  /** {@see ShopEdit_Locations} **/
+  /** {@see BPageShopSettingLocations} **/
   shop_locations: {
     title: "Countries where service is provided",
     sub_title:
@@ -4112,7 +4173,7 @@ export default {
     not_original: "Not original",
   },
 
-  /** @see AddProductStudio **/
+  /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Add more details",
     add_by_sku: "Add by SKU",
@@ -4129,7 +4190,7 @@ export default {
       "This is a list of affiliate partnerships with other stores. When store owners designate you as an affiliate, you can view your commissions, order details, and related statistics here.",
   },
 
-  /** @see AdminShopMarketing_Affiliate **/
+  /** @see BPageShopMarketingAffiliate **/
   affiliates: {
     title: "Affiliate Partners",
     subtitle:
@@ -4187,7 +4248,7 @@ export default {
     },
   },
 
-  /** @see AdminOfferPage_Orders **/
+  /** @see BPageOfferOrders **/
   offer_orders: {
     title: "Offer Orders",
     table: {
@@ -4200,7 +4261,7 @@ export default {
     },
   },
 
-  /** @see AdminCouponPage_Orders **/
+  /** @see BPageCouponOrders **/
   coupon_orders: {
     title: "Coupon Orders",
     table: {
@@ -4212,7 +4273,7 @@ export default {
     },
   },
 
-  /** @see AdminDiscountPage_Orders **/
+  /** @see BPageDiscountCodeOrders **/
   discount_code_orders: {
     title: "Orders with Discount Code ",
     table: {
@@ -4224,7 +4285,7 @@ export default {
     },
   },
 
-  /** @see AdminShopIncentives **/
+  /** @see BPageShopIncentives **/
   incentives: {
     discount_code: "Discount",
     coupon: "Coupon",
@@ -4233,7 +4294,7 @@ export default {
     lottery: "Lottery",
   },
 
-  /** {@see AdminShopDiscountCode} **/
+  /** {@see BPageShopIncentivesDiscountCode} **/
   discount_codes: {
     title: "Discount Codes",
     sub_title:
@@ -4253,7 +4314,7 @@ export default {
       count: "Count",
       unit: "item(s)",
     },
-    /** {@see DiscountCodeEditForm} **/
+    /** {@see BDiscountCodeAdd} **/
     dialog: {
       title_edit: "Edit discount code",
       title_add: "Add new discount code",
@@ -4291,7 +4352,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopGiftCard} **/
+  /** {@see BPageShopIncentivesGiftcard} **/
   gift_cards: {
     title: "Gift Card",
     sub_title:
@@ -4323,7 +4384,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopCoupon} **/
+  /** {@see BPageShopIncentivesCoupon} **/
   coupons: {
     title: "Coupons",
     sub_title:
@@ -4346,7 +4407,7 @@ export default {
       delete_success: "Coupon has been deleted successfully.",
     },
   },
-  /** {@see CouponEditForm} **/
+  /** {@see BCouponAdd} **/
   coupon_edit: {
     title_edit: "Edit coupon",
     title_add: "New coupon",
@@ -4406,7 +4467,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopOffer} **/
+  /** {@see BPageShopIncentivesOffer} **/
   offers: {
     title: "Offers",
     sub_title:
@@ -4479,7 +4540,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopCampaignPage_Ads} **/
+  /** {@see BPageCampaignAds} **/
   campaign_ads: {
     menu: {
       banner: "Banner",
@@ -4489,7 +4550,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopMarketing_EmailMarketing} **/
+  /** {@see BPageShopMarketingEmail} **/
   emails: {
     title: "Email Marketing",
     subtitle:
@@ -4511,7 +4572,7 @@ export default {
     new_email_message: "Create & schedule new marketing email",
   },
 
-  /** {@see AdminShopEmailPage_Dashboard} **/
+  /** {@see BPageEmailMarketingDashboard} **/
   email_dashboard: {
     review: "Review",
     waiting_for_approve: "Waiting for confirmation by {name}",
@@ -4532,19 +4593,19 @@ export default {
     actions: "User activity",
   },
 
-  /** {@see AdminShopEmailPage} **/
+  /** {@see BPageEmailMarketing} **/
   email_page: {
     emails: "Emails",
     edit: "Edit",
   },
-  /** {@see AdminShopAffiliatePage} **/
+  /** {@see BPageAffiliator} **/
   affiliate_page: {
     affiliates: "Affiliate partners",
     orders: "Orders",
     payments: "Payments",
   },
 
-  /** {@see AdminShopAffiliatePage_Dashboard**/
+  /** {@see BPageAffiliateDashboard**/
   affiliate_dashboard: {
     link: "Affiliate partner link",
     fix_commission: "Fixed commission",
@@ -4568,7 +4629,7 @@ export default {
     pay_now: "Pay now",
   },
 
-  /** {@see AdminShopPermission_Role**/
+  /** {@see BPageShopPermissionRoles**/
   permission_roles: {
     new_role: "Add New role",
     new_role_message: "Make teamwork easier.",
@@ -4576,7 +4637,7 @@ export default {
   },
   /** {@see Affiliate**/
   user_affiliates: {},
-  /** {@see AdminShopLottery**/
+  /** {@see BPageShopIncentivesLottery**/
   shop_lotteries: {
     title: "Lottery",
     sub_title:
@@ -4598,7 +4659,7 @@ export default {
     },
   },
 
-  /** {@see LotteryEditForm**/
+  /** {@see BLotteryAdd**/
   lottery_edit: {
     title_edit: "Edit lottery item",
     title_add: "New lottery item",
@@ -4635,13 +4696,13 @@ export default {
     },
   },
 
-  /** {@see SelectGiftCardType**/
+  /** {@see BGiftcardTypeInput**/
   gift_card_types_list: {
     label: "Gift card type",
     message: "Select a gift card type from the list.",
   },
 
-  /** {@see EmailBuilder**/
+  /** {@see BEmailMarketingEditor**/
   email_builder: {
     service_unavailable: "The mail server is not active in your account.",
     design_section: "Your email design plate",
@@ -4649,7 +4710,7 @@ export default {
     schedule_placeholder: "Select time to send email",
   },
 
-  /** {@see ShopUsersFunnelFactory**/
+  /** {@see BCustomersFunnel**/
   user_funnel: {
     REGISTER_DATE: {
       title: "Registration date",
@@ -4701,7 +4762,7 @@ export default {
     blogs_title: "Related Content in Selldone Blog",
   },
 
-  /** {@see AdminShopFinance_Tax**/
+  /** {@see BPageShopFinanceTax**/
   shop_tax: {
     region: "Region",
     label: "Label",
@@ -4729,13 +4790,13 @@ export default {
     tax_number_message:
       "Enter your tax number. This registration number will be recorded in the buyer's invoice.",
 
-    tax_included_in_price_input: "Included | Tax included in products price",
+    tax_included_in_price_input: "Included ╏ Tax included in products price",
     tax_included_in_price_message:
       "Select this option if you include the tax amount in the price of your product. The tax amount will be calculated with the following formula.",
     tax_included_in_price_formula:
       "Tax = (price * VAT) / (1 + VAT), for example, the amount of tax for a product at a price of 100$ with a value added rate of 10% becomes 9.09$.",
 
-    tax_exclude_title: "Excluded | Tax will be added at checkout",
+    tax_exclude_title: "Excluded ╏ Tax will be added at checkout",
     tax_excluded_message:
       "The taxes will be calculated before the payments during the checkout and added to the excluded tax price depending on your customer evidence.",
 
@@ -4755,7 +4816,7 @@ export default {
     pos_tax_setting: "POS Tax settings",
   },
 
-  /** {@see AdminShopTransportationPage**/
+  /** {@see BPageTransportation**/
   transportation_page: {
     menu: {
       dashboard: "Dashboard",
@@ -4770,7 +4831,7 @@ export default {
     go_to_service_list: "View shipping services list",
   },
 
-  /** {@see AdminShopTransportationPage_Persons**/
+  /** {@see BPageTransportationCouriers**/
   transportation_persons: {
     title: "Couriers",
     notifications: {
@@ -4794,7 +4855,7 @@ export default {
       action: "Add courier",
     },
   },
-  /** {@see AdminShopTransportationPage_Orders**/
+  /** {@see BPageTransportationOrders**/
   transportation_orders: {
     title: "Orders for Shipping",
     notifications: {
@@ -4802,7 +4863,7 @@ export default {
       success_payment: "COD payment confirmed successfully.",
     },
   },
-  /** {@see DeliveryPersonPage**/
+  /** {@see BPageCourier**/
   delivery_person: {
     actions_title: "Courier Settings",
     action_delivered: "Shipped",
@@ -4827,7 +4888,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopTransportationPage_Services**/
+  /** {@see BPageTransportationServices**/
   transportation_services: {
     title: "Delivery service",
     notifications: {
@@ -4851,7 +4912,7 @@ export default {
       action: "Add service",
     },
   },
-  /** {@see AdminShopTransportationPage_PickupAddresses**/
+  /** {@see BPageTransportationPickups**/
   transportation_pickups: {
     addresses: {
       title: "Pickup addresses",
@@ -4867,7 +4928,7 @@ export default {
     has_return: "Return of delivery",
     cashed: "Cash payment",
   },
-  /** {@see AdminShop_DeliveryService_Dashboard**/
+  /** {@see BPageTransportationServiceDashboard**/
   delivery_dashboard: {
     select_destinations: "Add orders to the list",
     price_calculation: "Estimate shipping rates",
@@ -4884,7 +4945,7 @@ export default {
     cashed: "Cash payment",
   },
 
-  /** {@see CashRegisterPage**/
+  /** {@see BPagePos**/
   cash_register: {
     menu: {
       panel: "Cash Register",
@@ -4897,7 +4958,7 @@ export default {
     payment_confirm_msg: "Customer paid order {basket_id}.",
   },
 
-  /** {@see BarcodeScannerConnectWidget**/
+  /** {@see BPosDeviceBarcodeScanner**/
   barcode_scanner: {
     wifi_pass: "Your Wi-Fi Password",
     message: "Enter your WiFi router password and scan the QR code.",
@@ -4921,7 +4982,7 @@ export default {
     ChipReader: "Chip Reader",
     ChipReader_desc: "NFC tag reader to add items to cart using tags.",
   },
-  /** {@see CashRegister_Devices**/
+  /** {@see BPagePosDevices**/
   pos_register_devices: {
     delete_dialog: {
       title: "Remove device",
@@ -4930,7 +4991,7 @@ export default {
     },
   },
 
-  /** {@see ShopProcessCenterPOSOrderPage**/
+  /** {@see BPageOrderPos**/
   pos_process_center: {
     title: "POS order processing center",
     menu: {
@@ -4941,7 +5002,7 @@ export default {
       order: "Order",
     },
   },
-  /** {@see CashRegister_Dashboard**/
+  /** {@see BPagePosPanel**/
   pos: {
     name: "POS",
     message:
@@ -4982,7 +5043,7 @@ export default {
     },
   },
 
-  /** {@see ProductsManagement_Importer**/
+  /** {@see BPageShopProductsImporter**/
   exporter: {
     title: "Export data",
     subtitle:
@@ -4992,7 +5053,7 @@ export default {
       "You will receive a list of all the {type} in the store along with complete information in Excel format.",
     csv: "You will receive a list of all the {type} in the store along with complete information in CSV format. This format is in accordance with the standard format of Selldone for importing {type} into the store.",
   },
-  /** {@see ProductsManagement_Importer**/
+  /** {@see BPageShopProductsImporter**/
   importer: {
     category: {
       title: "Import categories",
@@ -5029,14 +5090,14 @@ export default {
     max_items_limit: "Maximum items limit",
     total_items: "Total items",
 
-    /** {@see CustomerImportView**/
+    /** {@see BShopCustomerImporter**/
     customer: {
       title: "Import customers",
       subtitle:
         "Upload CSV files of customers here. Make sure you follow the standard format, and also, you have to follow privacy rules.",
     },
   },
-  /** {@see AdminShopMarketingCampaign**/
+  /** {@see BPageShopMarketingCampaign**/
   campaigns: {
     title: "Campaigns",
     subtitle:
@@ -5066,7 +5127,7 @@ export default {
     jewellery: "Jewelry",
   },
 
-  /** {@see ShopEdit_Theme**/
+  /** {@see BPageShopSettingTheme**/
   shop_theme: {
     theme_colors: "Theme colors",
     products_view_mode: "Shopping list view",
@@ -5102,7 +5163,7 @@ export default {
     black: "Dark side",
   },
 
-  /** {@see AdminShopAffiliatePage_Orders**/
+  /** {@see BPageAffiliateOrders**/
   affiliate_orders: {
     title: "Affiliate Partner Orders",
     table: {
@@ -5120,7 +5181,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopAffiliatePage_Payments**/
+  /** {@see BPageAffiliatePayments**/
   affiliate_payments: {
     title: "Affiliate Partner Payments",
     table: {
@@ -5130,7 +5191,7 @@ export default {
       date: "Date",
     },
   },
-  /** {@see MyRolesList**/
+  /** {@see BPageShuttleRoles**/
   my_roles: {
     title: "My roles ",
     message:
@@ -5155,7 +5216,7 @@ export default {
     accepted: "Accepted user",
   },
 
-  /** {@see AppConfigDialog**/
+  /** {@see BAppConfigDialog**/
   app_config: {
     reviews: "Reviews",
     rate_now: "Rate now",
@@ -5185,7 +5246,7 @@ export default {
     },
   },
 
-  /** {@see AdminShop_Channels_Bots**/
+  /** {@see BPageShopChannelBots**/
   shop_bots: {
     not_set: "Not Set!",
     tokens: "Token(s)",
@@ -5198,7 +5259,7 @@ export default {
     },
   },
 
-  /** {@see ShopUsers_Customers**/
+  /** {@see BPageShopCrmCustomers**/
   shop_customers: {
     title: "Customers Management",
 
@@ -5243,14 +5304,14 @@ export default {
     client_name: "Client name",
   },
 
-  /** {@see ApplicationLoaderPage**/
+  /** {@see BPageApplication**/
   app_loader_page: {
     no_ui_title: "This application does not have any UI!",
     no_ui_desc:
       "Some applications do not require a user interface in their admin area. This application may only add code to the header section of your store website.",
     header: "Header code",
   },
-  /** {@see AdminShopFinance_Report**/
+  /** {@see BPageShopFinanceReport**/
   finance_report: {
     export_title: "Export financial data",
     export_sub_title:
@@ -5260,10 +5321,9 @@ export default {
     download_action: "Download finance list",
   },
 
-  /** {@see ShopEdit_Notifications**/
+  /** {@see BPageShopSettingNotifications**/
   shop_notifications: {
     title: "Shop notifications",
-    sub_title: "Bot, Email, SMS, ... ",
     message: "Edit your store notification settings and preferences",
     channel: "Channel",
     status: "Status",
@@ -5291,7 +5351,7 @@ export default {
     weekly_report: "📈 Weekly Reports",
   },
 
-  /** {@see OrderDeliveryWidget} **/
+  /** {@see BOrderDashboardDelivery} **/
   order_delivery: {
     title: "Delivery",
     add_to_delivery_que_action: "Add to shipping queue",
@@ -5299,9 +5359,14 @@ export default {
     message:
       "Once the package has been handed over to the shipping courier, please click the <b>Confirm Delivery</b> button.",
     message_add_to_service:
-      "Click the following button if you want to send this package by a <b>delivery service</b>.",
-    action: "Delivery Confirmation",
+      "Press the button below to add your order to the shipping queue and dispatch the package via a <b>delivery service</b>.",
+    courier_action: "Delivery Confirmation",
+    courier_action_subtitle: "My courier will pick up the parcel.",
+
     pickup_action: "Pickup confirmation",
+    pickup_action_subtitle: "The customer picked up the order.",
+
+    service_action: "Execution Confirmation",
 
     checklist: [
       "Check courier's identity card.",
@@ -5341,11 +5406,11 @@ export default {
     option_instant_shipping: "Option 3: Instant shipping.",
   },
 
-  /** {@see ShopEdit_Home} **/
+  /** {@see BShopHomeSelect} **/
   shop_home_edit: {
     title: "Home page setting",
     sub_title:
-      "Configure the default page for your website here. Additionally, you have the option to assign a custom homepage for each domain individually by navigating to the Settings > Domains tab.",
+      "Set up the default page for your website in this section. You also have the flexibility to designate a custom homepage for each domain separately through the domain settings.",
 
     default_home: "Default home page",
     default_home_placeholder: "Shop page is the website home page",
@@ -5373,18 +5438,18 @@ export default {
     date: "Date",
   },
 
-  /** {@see WidgetShopGateway} **/
+  /** {@see BGatewayCard} **/
   widget_shop_gateway: {
     link_account_caution:
       "Link an account ({currency}) to your shop! Click here..",
   },
 
-  /** {@see ProductSellWidget} **/
+  /** {@see BProductOrderSalesPerformance} **/
   product_sell_widget: {
     title: "Product sales performance",
   },
 
-  /** {@see OrderFulfillmentWidget} **/
+  /** {@see BOrderDashboardDropshippingFulfillment} **/
   fulfilment_order_widget: {
     title: "Dropshipping fulfillment",
     check_action: "Accept dropshipping",
@@ -5402,7 +5467,7 @@ export default {
       "After paying the order fee to the supplier, see the progress of sending the order in this section.",
   },
 
-  /** {@see DropshippingPage} **/
+  /** {@see BPageWholesaler} **/
   drop_shipping: {
     menu: {
       dashboard: "Dashboard",
@@ -5421,7 +5486,7 @@ export default {
     REJECT: "Reject",
   },
 
-  /** {@see DropshippingShopPage} **/
+  /** {@see BPageWholesalerShop} **/
   dropshipping_reseller_page: {
     menu: {
       dashboard: "Dashboard",
@@ -5430,17 +5495,17 @@ export default {
     },
   },
 
-  /** {@see DropshippingShopPage_Dashboard} **/
+  /** {@see BPageWholesalerShopDashboard} **/
   dropshipping_reseller_dashboard: {
     title: "Reseller dashboard",
   },
 
-  /** {@see DropshippingShopPage_Orders} **/
+  /** {@see BPageWholesalerShopOrders} **/
   dropshipping_reseller_orders: {
     title: "Reseller orders",
   },
 
-  /** {@see DropshippingShopPage_Wallet} **/
+  /** {@see BPageWholesalerShopWallet} **/
   dropshipping_reseller_wallet: {
     title: "Reseller wallet",
   },
@@ -5472,7 +5537,7 @@ export default {
     },
   },
 
-  /** @see AdminShopFinance_DropShippingCheckout **/
+  /** @see BPageShopFinanceResellerFulfillment **/
   dropship_checkout: {
     pay_dialog: {
       title: "Reseller orders payment",
@@ -5487,7 +5552,7 @@ export default {
         "Your payment for these orders confirmed and completed successfully.",
     },
   },
-  /** @see AdminShopFinance_DropShippingAccounts **/
+  /** @see BPageShopFinanceResellerWallets **/
   dropship_accounts: {
     charge_account: "Charge account",
     charge_dialog: {
@@ -5497,7 +5562,7 @@ export default {
     },
   },
 
-  /** @see Dropshipping_Dashboard **/
+  /** @see BPageWholesalerDashboard **/
   dropship_admin_dashboard: {
     title: "Reseller requests",
     today_order_count: "Today orders count",
@@ -5505,7 +5570,7 @@ export default {
     total_7_days: "Total orders in last 7 days",
   },
 
-  /** @see DropShippingSelectProducts **/
+  /** @see BProductAddDropshipping **/
   dropshipping_products: {
     no_shops:
       "Sorry, no store found. There will be more stores in the future so you can put their products in your store.",
@@ -5524,7 +5589,7 @@ export default {
     },
   },
 
-  /** @see ProductDropShippingMiddleSellerWidget **/
+  /** @see BProductDropshippingAbstractView **/
   product_dropshipping: {
     need_re_enable:
       "This product has been changed by the original seller, these price changes have disabled the product in your store. Check the changes and if you agree to reactivate the product, press the button below.",
@@ -5542,7 +5607,7 @@ export default {
     },
   },
 
-  /** @see ProductDropShippingPage **/
+  /** @see BPageProductDropshipping **/
   product_dropshipping_admin: {
     title: "Dropshipping",
     save_alert:
@@ -5575,7 +5640,7 @@ export default {
       inform_remove_success: "You have been removed from the waiting list.",
     },
   },
-  /** @see ProductInfo **/
+  /** @see SProductOverview **/
   product_info: {
     fake: "Fake",
     action: "Auction",
@@ -5649,14 +5714,14 @@ export default {
     },
   },
 
-  /** @see ShopUsersContactForm **/
+  /** @see BPageShopCrmChat **/
   shop_contacts: {
     popup: "Enable popup support",
     popup_message:
       "By activating this option, the support key will be seen at the bottom right of your store.",
   },
 
-  /** @see ShopPopupBuilderPage **/
+  /** @see BPagePopup **/
   popup_page: {
     preview: "View live popup",
 
@@ -5671,7 +5736,7 @@ export default {
       edit: "Popup updated successfully.",
     },
   },
-  /** @see SettingPopupAppearance **/
+  /** @see BPagePopupAppearance **/
   popup_appearance: {
     position: "Position",
     position_desc:
@@ -5694,7 +5759,7 @@ export default {
     transition: "Popup animation",
   },
 
-  /** @see SettingPopupFilter **/
+  /** @see BPagePopupFilter **/
   popup_filter: {
     registered: "Membership and login requirement",
     registered_desc:
@@ -5720,7 +5785,7 @@ export default {
       "Do you want this notification to be displayed only to users coming from a specific country?",
   },
 
-  /** @see SettingPopup **/
+  /** @see BPagePopupSetting **/
   popup_setting: {
     published: "Published status",
     repeat: "Repeat",
@@ -5744,7 +5809,7 @@ export default {
     },
   },
 
-  /** @see ShopEdit_Sms **/
+  /** @see BPageShopSettingSms **/
   shop_sms: {
     title: "Manage SMS",
     sub_title: "SMS templates",
@@ -5752,7 +5817,7 @@ export default {
       "You can see the content of the text messages sent by your store here. Due to the limitation in registering the validation patterns in the messaging service, it is not possible to personalize the text messages at the moment.",
   },
 
-  /** @see ShopEdit_Emails **/
+  /** @see BPageShopSettingEmail **/
   shop_emails: {
     title: "Manage emails",
     sub_title:
@@ -5811,7 +5876,7 @@ export default {
     start_service: "Start service",
     end_service: "Finish",
   },
-  /** @see ServiceTasksTableWidget **/
+  /** @see BOrderDashboardServiceTasks **/
   service_tasks: {
     notification_finish: {
       title: "Finish of service",
@@ -5821,7 +5886,7 @@ export default {
     },
   },
 
-  /** {@see ProductEditOutputs} **/
+  /** {@see BProductEditOutputs} **/
   product_outputs: {
     outputs_form: "Output Form structure",
 
@@ -5837,7 +5902,7 @@ export default {
     },
   },
 
-  /** {@see ServiceDesign} **/
+  /** {@see BProductServiceManage} **/
   service_design: {
     type: "Service type",
     type_message:
@@ -5940,14 +6005,14 @@ export default {
     },
   },
 
-  /** {@see ShopActiveAvocadosWidget} **/
+  /** {@see BDashboardShopOrdersAvocado} **/
   avocado_orders: {
     title: "Avocado",
     title_small: "Social Media Sales",
     pending_orders: "Active orders",
     avocado: "Order Avocado",
   },
-  /** {@see AvocadoAddEdit} **/
+  /** {@see BAvocadoInvoice} **/
   avocado_process: {
     step1: "Pricing",
     step1_msg:
@@ -5968,8 +6033,8 @@ export default {
     tax_add_messages: "Tax should be added to the final price.",
   },
 
-  /** {@see ProductHyperPage} **/
-  /** {@see AdminShop_Channels_Hyper} **/
+  /** {@see BPageProductHyper} **/
+  /** {@see BPageShopChannelHyper} **/
   hyper: {
     name: "Hyper",
     print_label:
@@ -5988,14 +6053,14 @@ export default {
     configuration: "Hyper Settings",
   },
 
-  /** {@see ShopActiveHyperWidget} **/
+  /** {@see BDashboardShopOrdersHyper} **/
   hyper_orders: {
     title: "Hyper",
     title_small: "Sales Report",
     hyper: "Received Orders",
   },
 
-  /** {@see ProductFilesManagement} **/
+  /** {@see BProductInventoryManagementFile} **/
   product_file: {
     no_file: "No file uploaded yet!",
     delete_dialog: {
@@ -6019,13 +6084,13 @@ export default {
     account_msg: "Charge will be applied to this account",
   },
 
-  /** {@see SelldoneApplicationsWidget} **/
+  /** {@see BDashboardShopApplications} **/
   selldone_applications: {
     title: "Don't miss your orders! ",
     msg: "Manage your business anywhere & anytime.",
   },
 
-  /** {@see ShopEdit_SEO**/
+  /** {@see BPageShopSettingSeo**/
   shop_seo: {
     title: "SEO Configuration",
     msg: "Fast-forward to online marketing by empowering organic customers acquisition channels.",
@@ -6040,7 +6105,7 @@ export default {
     },
   },
 
-  /** {@see ShopEdit_Emails} **/
+  /** {@see BPageShopSettingEmail} **/
   shop_preferences: {
     order: {
       title: "Orders",
@@ -6080,7 +6145,7 @@ export default {
     },
   },
 
-  /** {@see ShopEdit_Languages} **/
+  /** {@see BPageShopSettingLanguages} **/
   shop_languages: {
     title: "Store languages",
     sub_title: "Install and activate store auto-translation packages.",
@@ -6088,7 +6153,7 @@ export default {
       "You can install up to 10 language packs in your store. Contact us if you need to install more packages.",
   },
 
-  /** {@see InviteFriendsDialog} **/
+  /** {@see SInviteFriendsDialog} **/
   invite_friends: {
     title: "Tell about your business to the world and make money!",
     msg: "Refer Selldone to your friends. When they sign up, they'll receive a $99 Company voucher. After they make their first transaction, you'll earn a $15 Startup voucher and receive 5% from all license and transaction fees of new users. For more opportunities, check out our affiliate page.",
@@ -6101,14 +6166,14 @@ export default {
     },
   },
 
-  /** {@see ShopsListPage} **/
+  /** {@see BPageShuttleShops} **/
   shops_list: {
     title: "My Shops",
     message:
       "Here is a list of your owned shops, authorized shops, and sample shops. To hide sample shops, navigate to the bottom of the page and select the preferences.",
   },
 
-  /** {@see DeliveryServiceProcessingTable} **/
+  /** {@see BTransportationServiceLabels} **/
   shipping: {
     warehouse_error:
       "Set your warehouse first! This address will be used as the origin of shipping.",
@@ -6127,7 +6192,7 @@ export default {
     drop_orders_here: "Drop orders here...",
   },
 
-  /** {@see AdminShop_Blog_Categories} **/
+  /** {@see BPageShopBlogsCategories} **/
   blog_category: {
     title: "Blog Categories",
     add_action: "Add new category",
@@ -6143,32 +6208,32 @@ export default {
     },
   },
 
-  /** {@see PagesManagement_AboutUs} **/
+  /** {@see BPageShopPagesAboutUs} **/
   about_us: {
     title: "About us page",
     subtitle:
       "Write an article about your business to show on the About Us page. This page will help your audience to know your brand and mission.",
   },
-  /** {@see PagesManagement_Terms} **/
+  /** {@see BPageShopPagesTerms} **/
   terms: {
     title: "Terms of service page",
     subtitle:
       "Explain the terms of purchase and use of your services for your customers.",
   },
-  /** {@see PagesManagement_Privacy} **/
+  /** {@see BPageShopPagesPrivacy} **/
   privacy: {
     title: "Privacy policy page",
     subtitle:
       "A privacy policy is a statement or legal document that discloses some or all of the ways a party gathers, uses, discloses, and manages a customer or client's data.",
   },
-  /** {@see PagesManagement_ContactUs} **/
+  /** {@see BPageShopPagesContactUs} **/
   contact_us: {
     title: "Contact us page",
     subtitle:
       "Write your contact information, address, and phone number to be shown to your customers on the contact us page.",
   },
 
-  /** {@see AdminShop_Applications_Metaverse} **/
+  /** {@see BPageShopApplicationsMetaverse} **/
   metaverse: {
     title: "Metaverse Bridge",
     subtitle:
@@ -6176,7 +6241,7 @@ export default {
     message: "Early Access For Game Developers",
   },
 
-  /** {@see ShopProcessCenterBulkExportActionsBasket} **/
+  /** {@see BProcessCenterBulkExport} **/
   orders_bulk_export: {
     title: "Orders Assistant",
     timespan: {
@@ -6197,14 +6262,14 @@ export default {
     },
   },
 
-  /** {@see AdminShopMarketing_Funnels} **/
+  /** {@see BPageShopMarketingFunnel} **/
   customers_funnel: {
     title: "Customers Demography",
     subtitle:
       "Filter and export your customers data to make better decisions to deliver more value with less marketing! Please respect your customers' privacy and never send mass bulk emails to them! Never share your customers' information with 3rd party services without getting permission from every single of them.",
   },
 
-  /** {@see AffiliatePage_Dashboard} **/
+  /** {@see BPageAffiliatorDashboard} **/
   affiliate_pos: {
     title: "Affiliate POS",
     open_pos_action: "Fast ordering POS",
@@ -6212,15 +6277,15 @@ export default {
       "This option is suitable for admins of Instagram pages and other social networks. Use Affiliate POS to receive and add orders from customers manually. Your affiliates (or franchise) can add new orders in the Affiliate POS and upload the deposit slip.",
   },
 
-  /** {@see ShopEdit_Shop} **/
+  /** {@see BPageShopSettingFlow} **/
   shop_configuration: {
-    /** {@see ShopConfigurationLoginMethods} **/
+    /** {@see BShopOptionsLoginMethods} **/
     login: {
       title: "Login methods",
       subtitle: "Customize the way users log in to your store.",
     },
 
-    /** {@see ShopConfigurationCheckout} **/
+    /** {@see BShopOptionsCheckout} **/
     checkout: {
       title: "Checkout flow",
       subtitle:
@@ -6282,7 +6347,7 @@ export default {
     },
   },
 
-  /** {@see ShopEdit_BusinessModel} **/
+  /** {@see BPageShopSettingBusinessModel} **/
   business_model: {
     title: "Business model setup",
     subtitle:
@@ -6328,7 +6393,7 @@ export default {
     },
   },
 
-  /** {@see MarketplacePage} **/
+  /** {@see BPageMarketplace} **/
   marketplace: {
     vendor_wallets: "Wallets",
     pricing_models: "Pricing",
@@ -6356,7 +6421,7 @@ export default {
     },
   },
 
-  /** {@see VendorsList} **/
+  /** {@see BPageShuttleVendors} **/
   vendors_list: {
     title: "My Vendors",
     message:
@@ -6365,13 +6430,13 @@ export default {
 
   vendor_page: {},
 
-  /** {@see ShopDomains} **/
+  /** {@see BDomainsList} **/
   domains: {
     message:
       "Connect multiple domains to your business OS and manage all of them in one place. You can use the multiple domains feature to create dedicated domains for each part of your website, like blog and community, or use different domains for your affiliates.",
   },
 
-  /** {@see TeamNoteButton}   {@see TeamNoteDialog} **/
+  /** {@see BNoteButton}   {@see BNoteDialog} **/
   notes: {
     add_action: "Add a note for your team",
     notifications: {
@@ -6380,14 +6445,14 @@ export default {
     },
   },
 
-  /** {@see ShopExternalServicesWidget} **/
+  /** {@see BDashboardShopExternalServices} **/
   external_services: {
     title: "External services",
     subtitle:
       "Monitor the last status of the external services like SMS and emails here.",
   },
 
-  /** {@see ShopEdit_Quota**/
+  /** {@see BPageShopSettingQuota**/
   shop_quota: {
     title: "Usage quota",
     sub_title:
@@ -6407,12 +6472,12 @@ export default {
   product_status: {
     open: {
       name: "Active",
-      title: "Active | Online & Offline Sales",
+      title: "Active ╏ Online & Offline Sales",
       description: "This product will be available for online orders.",
     },
     close: {
       name: "Inactive",
-      title: "Inactive | Only Offline Sales",
+      title: "Inactive ╏ Only Offline Sales",
       description: "This product will not be available for online orders.",
     },
     pending: {
@@ -6426,6 +6491,57 @@ export default {
       description: "This product was rejected by the marketplace.",
     },
   },
+
+  /**
+   * BDashboardShopFeedback
+   */
+  direct_feedback: {
+    title: "Send Direct Request",
+    message:
+      "Identify your top 3 business needs to thrive and profit on Selldone. This information will be shared directly with founders and directors and will be considered carefully. You can also update your needs over time after submission.",
+    expand_action: "Write the request...",
+    input_label: "Your Request",
+    to: {
+      ceo: "Send to CEO",
+      team: "Send to Team",
+    },
+    placeholder: {
+      ceo: "Absolutely no need to be nice, I like to hear your direct, right-to-the-point ask.\ne.g. I need to have...",
+      team: "Please try to be nice to them.\ne.g. I need to have...",
+    },
+  },
+
+  /**
+   * BInventoryFilter
+   */
+  inventory_filter: {
+    placeholder: "Select Filter *.*",
+  },
+  /**
+   * BVendorInput
+   */
+  vendor_input: {
+    placeholder: "Filter vendor...",
+  },
+
+  /**
+   * BShopProductsImportProcessing
+   */
+  product_import_processing: {
+    title: "Processing imported products",
+    message:
+      "We are in the process of importing products and images, which may take some time to complete.",
+  },
+
+
+  /**
+   * BOrderInput
+   */
+  order_input: {
+    message: "The information displayed here has been submitted by the customer, in accordance with the product input form structure.",
+  },
+
+
 
   /**
    * AUto fill suggestions
@@ -7024,6 +7140,135 @@ export default {
         "The wheel of fortune is spinning – catch your lucky prize!",
         "Spin, win, and smile – surprise rewards with every turn.",
         "Take a spin and let the fortune decide your prize!",
+      ],
+    },
+
+    /**
+     * Subscription Price
+     */
+    subscription_price: {
+      title: [
+        "Basic Access",
+        "Premium Membership",
+        "Gold Package",
+        "Silver Plan",
+        "Platinum Subscription",
+        "Enterprise Tier",
+        "Starter Bundle",
+        "Unlimited Offer",
+        "Family Pack",
+        "Professional Suite",
+      ],
+      description: [
+        "Ideal for individuals exploring the basics.",
+        "Access to all premium features and content.",
+        "Exclusive benefits and priority support.",
+        "A balanced package for regular users.",
+        "Ultimate access with top-tier perks.",
+        "Custom solutions for large organizations.",
+        "An affordable entry-level option.",
+        "No limits on usage, for the power user.",
+        "A special plan for families, up to 4 members.",
+        "Designed for professionals seeking advanced tools.",
+      ],
+    },
+
+    spec: {
+      group: [
+        "Technical Specifications",
+        "Physical Dimensions",
+        "Performance Features",
+        "Connectivity Options",
+        "Power Requirements",
+        "Material and Build Quality",
+        "Color and Finish Options",
+        "Storage and Memory",
+        "Operating System Compatibility",
+        "Safety and Compliance",
+        "Package Contents",
+        "Warranty and Support",
+        "Brand and Manufacturer",
+        "Environmental Friendliness",
+        "Energy Efficiency",
+        "Care and Maintenance",
+        "Customization Options",
+        "Included Accessories",
+        "User Ratings and Reviews",
+        "Pricing and Availability",
+      ],
+    },
+
+    avocado: {
+      title: [
+        "Purchase Receipt",
+        "Sale Confirmation",
+        "Order Invoice",
+        "Payment Invoice",
+        "Customer Receipt",
+        "Transaction Summary",
+        "Billing Statement",
+        "Checkout Receipt",
+        "Order Summary",
+        "Purchase Order Invoice",
+        "Sales Receipt",
+        "Retail Invoice",
+        "E-Receipt",
+        "Service Invoice",
+        "Product Invoice",
+        "Payment Receipt",
+        "Order Confirmation",
+        "Billing Invoice",
+        "Checkout Invoice",
+        "Customer Invoice",
+      ],
+      message: [
+        "Thank you for your purchase!",
+        "We appreciate your business.",
+        "Your order is on its way!",
+        "Thanks for shopping with us.",
+        "Looking forward to serving you again.",
+        "Your satisfaction is our top priority.",
+        "Don't forget to rate your experience.",
+        "Thank you for supporting our store.",
+        "We hope you enjoy your new purchase!",
+        "Save your invoice for future reference.",
+        "Visit us again for more great products.",
+        "Stay connected for exclusive offers.",
+        "Thank you for being a valued customer.",
+        "We're here to help if you need assistance.",
+        "Your feedback helps us improve.",
+        "Enjoy a special discount on your next purchase.",
+        "You've made a great choice!",
+        "Thank you for your trust in us.",
+        "Looking forward to your feedback.",
+        "A heartfelt thank you from our team.",
+      ],
+    },
+
+    /**
+     * Map Tag
+     */
+    map_tag: {
+      title: [
+        "Property Showcase",
+        "Vendor Plaza",
+        "Featured Homes",
+        "Local Market",
+        "New Arrivals",
+        "Estate Gardens",
+        "Shopping District",
+        "Artisan Alley",
+        "Luxury Estates",
+        "Rental Hub",
+        "Open Houses",
+        "Tech Innovations",
+        "Fashion Lane",
+        "Crafts Corner",
+        "Food Court",
+        "Book Nook",
+        "Jewelry Junction",
+        "Antique Avenue",
+        "Fitness Zone",
       ],
     },
   },

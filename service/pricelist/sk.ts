@@ -2,7 +2,7 @@ export default {
   "title": "Začnite zadarmo, rýchlo rásť!",
   "sub_title": "Neobmedzený prístup ku všetkým funkciám zadarmo! Len <b>2% z predaja</b> , hneď po úspešných nákupoch. Máte veľa výpredajov a chcete znížiť poplatky?",
   "show_detail_list": "Zobraziť zoznam podrobností",
-  "plan_free_detail": "<b class='text-capitalize'>Operačný systém pre rýchlo rastúce podniky</b> | Začnite podnikať podľa nášho bezplatného plánu. Všetko, čo potrebujete na spustenie a spustenie vašej webovej stránky elektronického obchodu, je tu pripravené. Selldone poskytuje všetok softvér, nástroje a cloudové hostingové riešenia podľa bezplatného plánu predplatného. Selldone sa navyše stará o všetky aktualizácie softvéru a bezpečnostné aspekty. Všetko svoje úsilie tak môžete sústrediť na predaj a nemusíte sa obávať technických problémov a nákladov.",
+  "plan_free_detail": "<b class='text-capitalize'>Operačný systém pre rýchlo rastúce podniky</b> ╏ Začnite podnikať podľa nášho bezplatného plánu. Všetko, čo potrebujete na spustenie a spustenie vašej webovej stránky elektronického obchodu, je tu pripravené. Selldone poskytuje všetok softvér, nástroje a cloudové hostingové riešenia podľa bezplatného plánu predplatného. Selldone sa navyše stará o všetky aktualizácie softvéru a bezpečnostné aspekty. Všetko svoje úsilie tak môžete sústrediť na predaj a nemusíte sa obávať technických problémov a nákladov.",
   "pay_monthly": "Platiť mesačne",
   "pay_yearly": "Platiť ročne",
   "pay_yearly_off": "30% zľava",

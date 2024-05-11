@@ -292,7 +292,7 @@ export default {
     AUTOMOTIVE: "خودرو",
   },
 
-  /** @see UserExpertPanel **/
+  /** @see BPageShuttleExpert **/
   expert_panel: {
     title: "پنل مدیریت متخصصین سلدان",
     add_dialog: {
@@ -310,9 +310,9 @@ export default {
     cost_timeline: "هزینه و زمانبندی",
     timespan: "مدت زمان اجرا",
     cost: "مبلغ قرارداد",
-    pay_now_action: "موافقم | پرداخت مبلغ",
-    complete_action: "بله | تایید و تکمیل سفارش",
-    reject_action: "خیر | رد تکمیل سفارش",
+    pay_now_action: "موافقم ╏ پرداخت مبلغ",
+    complete_action: "بله ╏ تایید و تکمیل سفارش",
+    reject_action: "خیر ╏ رد تکمیل سفارش",
     all_tasks_completed_message:
       "شما تمام تسک های تعریف شده را کامل کرده اید. در صورتی که این کار را تمام کرده اید کلید تکمیل سفارش را بزنید. پس از این مرحله مشتری بایستی تحویل کار را تایید نماید.",
     waiting_complete_by_customer_message:
@@ -448,7 +448,7 @@ export default {
     contact: "اطلاعات تماس",
     name_placeholder: "الزامی*",
     email: "ایمیل برای تماس با شما",
-    email_placeholder: "الزامی* your-email@gmail.com",
+    email_placeholder: "الزامی* your-mail{'@'}mail.com",
     request_title: "چه می خواهید",
     request_message:
       "جزئیات درخواست خود را اضافه نمایید تا به متخصصین کمک کنید نیازهای شما را بهتر درک کرده و قیمت و جدول زمانی مناسبی برای کار ارائه دهند.",

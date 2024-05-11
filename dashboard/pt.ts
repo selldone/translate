@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Vendido | O sistema operacional de negócios para empresas em rápido crescimento",
+    "home": "Vendido ╏ O sistema operacional de negócios para empresas em rápido crescimento",
     "login": "Conecte-se",
     "register": "Registro",
     "auth_2fa": "Autenticação de 2 fatores 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Minhas lojas",
     "roles": "Meus papéis",
     "wallet": "Minha carteira",
-    "personal_info": "Informações pessoais | KYC",
+    "personal_info": "Informações pessoais ╏ KYC",
     "companies": "Minhas empresas",
     "access_control": "Controle de acesso",
     "security_center": "Centro de Segurança",
     "gifts": {
-      "received": "Presentes | Recebido",
-      "send": "Presentes | Enviei"
+      "received": "Presentes ╏ Recebido",
+      "send": "Presentes ╏ Enviei"
     },
     "monetization": {
-      "linked_accounts": "Monetização | Contas ligadas",
-      "plans": "Monetização | Plano e links"
+      "linked_accounts": "Monetização ╏ Contas ligadas",
+      "plans": "Monetização ╏ Plano e links"
     },
     "affiliate": "Afiliado",
     "avocado": "Abacate — Canal de vendas social moderno",
     "guild": "Guilda - Canal de Vendas Coletivo",
-    "partners_login": "Parceiros | Login do cliente"
+    "partners_login": "Parceiros ╏ Login do cliente"
   },
   "blank_is_all_products": "Deixe em branco para incluir todos os produtos!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Durante o processamento do pedido, o valor entregue pode diferir do valor pedido. O sistema calcula automaticamente essa diferença e a registra como sua dívida com o cliente, que pode ser aplicada nos próximos pedidos.",
       "status_list": {
         "active": {
-          "title": "Ativo | Vendas on-line e off-line",
+          "title": "Ativo ╏ Vendas on-line e off-line",
           "description": "Este produto estará disponível para pedidos online."
         },
         "inactive": {
-          "title": "Inativo | Somente vendas off-line",
+          "title": "Inativo ╏ Somente vendas off-line",
           "description": "Este produto não estará disponível para pedidos online."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Simples",
         "dark_input": "Tema escuro?",
         "icon_input": "Ícone",
-        "icon_input_hint": "Nome do ícone de design de material ou Fontawsom: fas fa-star",
+        "icon_input_hint": "Nome do ícone de design de material ou Fontawsom: fa:fas fa-star",
         "anim_input": "Endereço de animação",
         "anim_input_message": "URL do arquivo de animação Lottie",
         "preview": "Visualizar",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "A ordem foi colocada em espera. {reason}",
     "connect-remove-hold": "O pedido foi removido da espera. {reason}",
     "connect-confirmed": "A ordem foi confirmada.",
-    "email-vendor": "🔔 O e-mail de informação do pedido foi enviado para <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 O e-mail de informação do pedido foi enviado para <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Pagamento ao fornecedor."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Calculadora | Adequado ao seu negócio",
+    "title": "Calculadora ╏ Adequado ao seu negócio",
     "description": "Calcule e escolha o melhor plano com base nas suas vendas mensais:",
     "sale_input": "Valor mensal de vendas",
     "hypernova_plan": "Inscreva-se para Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Configurações de locais de loja",
     "save_alert": "As configurações não são salvas!",
     "pos_tax_setting": "Configurações de imposto de PDV",
-    "tax_exclude_title": "Excluído | O imposto será adicionado na finalização da compra",
+    "tax_exclude_title": "Excluído ╏ O imposto será adicionado na finalização da compra",
     "tax_excluded_message": "Os impostos serão calculados antes dos pagamentos durante a finalização da compra e adicionados ao preço do imposto excluído dependendo da evidência do seu cliente."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Ativo",
-      "title": "Ativo | Vendas on-line e off-line",
+      "title": "Ativo ╏ Vendas on-line e off-line",
       "description": "Este produto estará disponível para pedidos online."
     },
     "close": {
       "name": "inativo",
-      "title": "Inativo | Somente vendas off-line",
+      "title": "Inativo ╏ Somente vendas off-line",
       "description": "Este produto não estará disponível para pedidos online."
     },
     "pending": {

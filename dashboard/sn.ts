@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Selldone | Iyo Bhizinesi Rekushandisa Sisitimu YeMakambani Anokurumidza Kukura",
+    "home": "Selldone ╏ Iyo Bhizinesi Rekushandisa Sisitimu YeMakambani Anokurumidza Kukura",
     "login": "login",
     "register": "Register",
     "auth_2fa": "2 factor Authenticate 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Zvitoro Zvangu",
     "roles": "Mabasa angu",
     "wallet": "Wallet yangu",
-    "personal_info": "Personal Info | KYC",
+    "personal_info": "Personal Info ╏ KYC",
     "companies": "Makambani angu",
     "access_control": "Access Control",
     "security_center": "Security Center",
     "gifts": {
-      "received": "Zvipo | Received",
-      "send": "Zvipo | Sent"
+      "received": "Zvipo ╏ Received",
+      "send": "Zvipo ╏ Sent"
     },
     "monetization": {
-      "linked_accounts": "Kuita mari | Akaunzi Akabatanidzwa",
-      "plans": "Kuita mari | Plan & Links"
+      "linked_accounts": "Kuita mari ╏ Akaunzi Akabatanidzwa",
+      "plans": "Kuita mari ╏ Plan & Links"
     },
     "affiliate": "Affiliate",
     "avocado": "Avocado — Modern Social Sales Channel",
     "guild": "Guild - Collective Sales Channel",
-    "partners_login": "Partners | Client login"
+    "partners_login": "Partners ╏ Client login"
   },
   "blank_is_all_products": "Siya isina chinhu kusanganisa zvese zvigadzirwa!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Panguva yekugadzirisa kurongeka, mari yakaunzwa inogona kusiyana nemari yakarongedzerwa. Iyo sisitimu inoverengera mutsauko uyu uye inorekodha sechikwereti chako kumutengi, iyo inogona kuiswa kune inotevera mirairo.",
       "status_list": {
         "active": {
-          "title": "Active | Online & Offline Sales",
+          "title": "Active ╏ Online & Offline Sales",
           "description": "Ichi chigadzirwa chichave chiripo kune maodha epamhepo."
         },
         "inactive": {
-          "title": "Inactive | Chete Offline Sales",
+          "title": "Inactive ╏ Chete Offline Sales",
           "description": "Ichi chigadzirwa hachizovepo kune maodha epamhepo."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Simple",
         "dark_input": "Dingindira rakasviba?",
         "icon_input": "Icon",
-        "icon_input_hint": "Material Dhizaini Icon Zita kana Fontawsom: fas fa-nyeredzi",
+        "icon_input_hint": "Material Dhizaini Icon Zita kana Fontawsom: fa:fas fa-nyeredzi",
         "anim_input": "Animation Address",
         "anim_input_message": "Lottie animation file URL",
         "preview": "Preview",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Order yakabva yamiswa. {reason}",
     "connect-remove-hold": "Order yakabviswa pakubata. {reason}",
     "connect-confirmed": "Kurongeka kwakasimbiswa.",
-    "email-vendor": "🔔 Odha yekuzivisa email yatumirwa kuna <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 Odha yekuzivisa email yatumirwa kuna <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Kubhadhara kune mutengesi."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Calculator | Inokodzera bhizinesi rako",
+    "title": "Calculator ╏ Inokodzera bhizinesi rako",
     "description": "Verenga uye sarudza yakanakisa hurongwa zvichienderana nekutengesa kwako pamwedzi:",
     "sale_input": "Mwedzi wekutengesa mari",
     "hypernova_plan": "Nyorera Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Chengetedza nzvimbo Settings",
     "save_alert": "Zvirongwa hazvina kuchengetwa!",
     "pos_tax_setting": "POS Mutero marongero",
-    "tax_exclude_title": "Kunze | Mutero uchawedzerwa pakubuda",
+    "tax_exclude_title": "Kunze ╏ Mutero uchawedzerwa pakubuda",
     "tax_excluded_message": "Mitero ichaverengerwa musati wabhadharwa panguva yekubhadhara uye yakawedzerwa kumutengo wemutero usingabatanidzwe zvichienderana nehumbowo hwevatengi vako."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Active",
-      "title": "Active | Online & Offline Sales",
+      "title": "Active ╏ Online & Offline Sales",
       "description": "Ichi chigadzirwa chichave chiripo kune maodha epamhepo."
     },
     "close": {
       "name": "kusashanda",
-      "title": "Inactive | Chete Offline Sales",
+      "title": "Inactive ╏ Chete Offline Sales",
       "description": "Ichi chigadzirwa hachizovepo kune maodha epamhepo."
     },
     "pending": {

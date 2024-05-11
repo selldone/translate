@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Selldone | Çalt ösýän kompaniýalar üçin işewürlik ulgamy",
+    "home": "Selldone ╏ Çalt ösýän kompaniýalar üçin işewürlik ulgamy",
     "login": "giriş",
     "register": "Hasaba al",
     "auth_2fa": "2 faktor Hakyky tassyklamak 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Dükanlarym",
     "roles": "Meniň rollarym",
     "wallet": "Gapjygym",
-    "personal_info": "Şahsy maglumatlar | KYC",
+    "personal_info": "Şahsy maglumatlar ╏ KYC",
     "companies": "Kompaniýalarym",
     "access_control": "Giriş Dolandyryşy",
     "security_center": "Howpsuzlyk merkezi",
     "gifts": {
-      "received": "Sowgatlar | Alnan",
-      "send": "Sowgatlar | Iberildi"
+      "received": "Sowgatlar ╏ Alnan",
+      "send": "Sowgatlar ╏ Iberildi"
     },
     "monetization": {
-      "linked_accounts": "Monetizasiýa | Baglanan hasaplar",
-      "plans": "Monetizasiýa | Meýilnama we baglanyşyklar"
+      "linked_accounts": "Monetizasiýa ╏ Baglanan hasaplar",
+      "plans": "Monetizasiýa ╏ Meýilnama we baglanyşyklar"
     },
     "affiliate": "Şahamça",
     "avocado": "Awakado - Häzirki zaman Sosial Satyş Kanaly",
     "guild": "Gild - Kollektiw satuw kanaly",
-    "partners_login": "Hyzmatdaşlar | Müşderiniň girişi"
+    "partners_login": "Hyzmatdaşlar ╏ Müşderiniň girişi"
   },
   "blank_is_all_products": "Productshli önümleri goşmak üçin boş goýuň!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Sargyt gaýtadan işlenilende, gowşurylan mukdar sargyt edilen mukdardan tapawutlanyp biler. Ulgam bu tapawudy awtomatiki hasaplaýar we indiki sargytlara ulanyp boljak müşderä bergiňiz hökmünde ýazýar.",
       "status_list": {
         "active": {
-          "title": "Işjeň | Onlaýn we awtonom satuw",
+          "title": "Işjeň ╏ Onlaýn we awtonom satuw",
           "description": "Bu önüm onlaýn sargytlar üçin elýeterli bolar."
         },
         "inactive": {
-          "title": "Işlemeýän | Diňe awtonom satuw",
+          "title": "Işlemeýän ╏ Diňe awtonom satuw",
           "description": "Bu önüm onlaýn sargytlar üçin elýeterli bolmaz."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Pleönekeý",
         "dark_input": "Garaňky tema?",
         "icon_input": "Nyşan",
-        "icon_input_hint": "Material dizaýn nyşanynyň ady ýa-da Fontawsom: fas fa-star",
+        "icon_input_hint": "Material dizaýn nyşanynyň ady ýa-da Fontawsom: fa:fas fa-star",
         "anim_input": "Animasiýa salgysy",
         "anim_input_message": "Lottie animasiýa faýly URL",
         "preview": "Öňünden syn",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Buýruk saklandy. {reason}",
     "connect-remove-hold": "Buýruk saklandy. {reason}",
     "connect-confirmed": "Buýruk tassyklandy",
-    "email-vendor": "🔔 Sargyt habar beriji e-poçta <b>{vendor}</b> | iberildi {email}.",
+    "email-vendor": "🔔 Sargyt habar beriji e-poçta <b>{vendor}</b> ╏ iberildi {email}.",
     "vendor-payout": "V Satyjy üçin töleg."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Kalkulýator | Işiňize laýyk",
+    "title": "Kalkulýator ╏ Işiňize laýyk",
     "description": "Aýlyk satuwyňyza görä iň oňat meýilnamany hasaplaň we saýlaň:",
     "sale_input": "Aýlyk satuw mukdary",
     "hypernova_plan": "Hypernowa% 0 üçin ýüz tutuň!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Locationerleşýän ýerleri Sazlamalar",
     "save_alert": "Sazlamalar ýazdyrylmaýar!",
     "pos_tax_setting": "POS Salgyt sazlamalary",
-    "tax_exclude_title": "Aýyryldy | Salgyt töleg wagtynda goşular",
+    "tax_exclude_title": "Aýyryldy ╏ Salgyt töleg wagtynda goşular",
     "tax_excluded_message": "Salgytlar töleg wagtynda töleglerden öň hasaplanar we müşderiňiziň subutnamalaryna baglylykda aýrylan salgyt bahasyna goşular."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Işjeň",
-      "title": "Işjeň | Onlaýn we awtonom satuw",
+      "title": "Işjeň ╏ Onlaýn we awtonom satuw",
       "description": "Bu önüm onlaýn sargytlar üçin elýeterli bolar."
     },
     "close": {
       "name": "hereketsiz",
-      "title": "Işlemeýän | Diňe awtonom satuw",
+      "title": "Işlemeýän ╏ Diňe awtonom satuw",
       "description": "Bu önüm onlaýn sargytlar üçin elýeterli bolmaz."
     },
     "pending": {

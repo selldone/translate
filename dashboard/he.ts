@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "סלדון | מערכת ההפעלה העסקית לחברות בצמיחה מהירה",
+    "home": "סלדון ╏ מערכת ההפעלה העסקית לחברות בצמיחה מהירה",
     "login": "התחברות",
     "register": "להירשם",
     "auth_2fa": "אימות דו גורם 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "החנויות שלי",
     "roles": "התפקידים שלי",
     "wallet": "הארנק שלי",
-    "personal_info": "מידע אישי | KYC",
+    "personal_info": "מידע אישי ╏ KYC",
     "companies": "החברות שלי",
     "access_control": "בקרת גישה",
     "security_center": "מרכז אבטחה",
     "gifts": {
-      "received": "מתנות | קיבלו",
-      "send": "מתנות | נשלח"
+      "received": "מתנות ╏ קיבלו",
+      "send": "מתנות ╏ נשלח"
     },
     "monetization": {
-      "linked_accounts": "מונטיזציה | חשבונות מקושרים",
-      "plans": "מונטיזציה | תוכנית וקישורים"
+      "linked_accounts": "מונטיזציה ╏ חשבונות מקושרים",
+      "plans": "מונטיזציה ╏ תוכנית וקישורים"
     },
     "affiliate": "שותף",
     "avocado": "אבוקדו - ערוץ מכירות חברתי מודרני",
     "guild": "גילדה - ערוץ מכירות קולקטיבי",
-    "partners_login": "שותפים | כניסה ללקוח"
+    "partners_login": "שותפים ╏ כניסה ללקוח"
   },
   "blank_is_all_products": "השאר ריק כדי לכלול את כל המוצרים!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "במהלך עיבוד ההזמנה, הסכום שנמסר עשוי להיות שונה מהסכום שהוזמן. המערכת מחשבת את ההפרש באופן אוטומטי ורושמת אותו כחוב שלך ללקוח, אותו ניתן להחיל על ההזמנות הבאות.",
       "status_list": {
         "active": {
-          "title": "פעיל | מכירות מקוונות ואופליין",
+          "title": "פעיל ╏ מכירות מקוונות ואופליין",
           "description": "מוצר זה יהיה זמין להזמנות מקוונות."
         },
         "inactive": {
-          "title": "לא פעיל | רק מכירות לא מקוונות",
+          "title": "לא פעיל ╏ רק מכירות לא מקוונות",
           "description": "מוצר זה לא יהיה זמין להזמנות מקוונות."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "פָּשׁוּט",
         "dark_input": "ערכת נושא כהה?",
         "icon_input": "סמל",
-        "icon_input_hint": "שם אייקון עיצוב חומרי או Fontawsom: fas fa-star",
+        "icon_input_hint": "שם אייקון עיצוב חומרי או Fontawsom: fa:fas fa-star",
         "anim_input": "כתובת אנימציה",
         "anim_input_message": "כתובת האתר של קובץ האנימציה של לוטי",
         "preview": "תצוגה מקדימה",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "ההזמנה הושהתה. {reason}",
     "connect-remove-hold": "ההזמנה הוסרה מהשהייה. {reason}",
     "connect-confirmed": "ההזמנה אושרה.",
-    "email-vendor": "🔔 הודעת הזמנה דוא\"ל נשלח אל <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 הודעת הזמנה דוא\"ל נשלח אל <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 תשלום לספק."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "מחשבון | מתאים לעסק שלך",
+    "title": "מחשבון ╏ מתאים לעסק שלך",
     "description": "חשב ובחר את התוכנית הטובה ביותר על סמך המכירות החודשיות שלך:",
     "sale_input": "סכום מכירות חודשי",
     "hypernova_plan": "הגש בקשה להיפרנובה %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "הגדרות מיקומים של חנות",
     "save_alert": "ההגדרות לא נשמרות!",
     "pos_tax_setting": "הגדרות מס קופה",
-    "tax_exclude_title": "לא נכלל | מס יתווסף בקופה",
+    "tax_exclude_title": "לא נכלל ╏ מס יתווסף בקופה",
     "tax_excluded_message": "המסים יחושבו לפני התשלומים במהלך התשלום ויתווספו למחיר המס שלא נכלל בהתאם לראיות הלקוח שלך."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "פָּעִיל",
-      "title": "פעיל | מכירות מקוונות ואופליין",
+      "title": "פעיל ╏ מכירות מקוונות ואופליין",
       "description": "מוצר זה יהיה זמין להזמנות מקוונות."
     },
     "close": {
       "name": "לֹא פָּעִיל",
-      "title": "לא פעיל | רק מכירות לא מקוונות",
+      "title": "לא פעיל ╏ רק מכירות לא מקוונות",
       "description": "מוצר זה לא יהיה זמין להזמנות מקוונות."
     },
     "pending": {

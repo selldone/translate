@@ -2,7 +2,7 @@ export default {
   "title": "Anza Bure, Ukue Haraka!",
   "sub_title": "Ufikiaji usio na kikomo wa huduma zote bila gharama! <b>2% tu ya mauzo</b> , baada ya ununuzi uliofanikiwa. Je! una mauzo mengi na unataka kupunguza ada?",
   "show_detail_list": "Onyesha orodha ya maelezo",
-  "plan_free_detail": "<b class='text-capitalize'>Mfumo wa uendeshaji kwa biashara zinazokua kwa kasi</b> | Anzisha biashara yako kwa mpango wetu wa bure. Kila kitu unachohitaji ili kuanza na kuzindua tovuti yako ya eCommerce iko tayari hapa. Selldone hutoa programu zote, zana, na suluhisho la mwenyeji wa wingu kwa mpango wa usajili bila malipo. Selldone pia hutunza masasisho yote ya programu na masuala ya usalama. Kwa hivyo unaweza kuzingatia juhudi zako zote kwenye uuzaji na usiwe na wasiwasi juu ya maswala ya kiufundi na gharama.",
+  "plan_free_detail": "<b class='text-capitalize'>Mfumo wa uendeshaji kwa biashara zinazokua kwa kasi</b> ╏ Anzisha biashara yako kwa mpango wetu wa bure. Kila kitu unachohitaji ili kuanza na kuzindua tovuti yako ya eCommerce iko tayari hapa. Selldone hutoa programu zote, zana, na suluhisho la mwenyeji wa wingu kwa mpango wa usajili bila malipo. Selldone pia hutunza masasisho yote ya programu na masuala ya usalama. Kwa hivyo unaweza kuzingatia juhudi zako zote kwenye uuzaji na usiwe na wasiwasi juu ya maswala ya kiufundi na gharama.",
   "pay_monthly": "Lipa kila mwezi",
   "pay_yearly": "Lipa kila mwaka",
   "pay_yearly_off": "Punguzo la 30%.",

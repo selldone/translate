@@ -2,7 +2,7 @@ export default {
   "title": "Bẹrẹ Ọfẹ, Dagba Yara!",
   "sub_title": "Wiwọle ailopin si gbogbo awọn ẹya laisi idiyele! Nikan <b>2% ti tita</b> , ni kete lẹhin awọn rira aṣeyọri. Ṣe o ni ọpọlọpọ awọn tita ati pe o fẹ lati dinku awọn idiyele naa?",
   "show_detail_list": "Ṣe afihan atokọ alaye",
-  "plan_free_detail": "<b class='text-capitalize'>Ẹya ẹrọ fun sare-dagba owo</b> | Bẹrẹ iṣowo rẹ nipasẹ ero ọfẹ wa. Ohun gbogbo ti o nilo lati bẹrẹ ati ṣe ifilọlẹ oju opo wẹẹbu eCommerce rẹ ti ṣetan nibi. Selldone n pese gbogbo sọfitiwia, awọn irinṣẹ, ati ojutu alejo gbigba awọsanma nipasẹ ero ṣiṣe alabapin ọfẹ. Selldone ni afikun ṣe abojuto gbogbo awọn imudojuiwọn sọfitiwia ati awọn ero aabo. Nitorinaa o le dojukọ gbogbo awọn akitiyan rẹ lori tita ati maṣe yọ ara rẹ lẹnu nipa awọn ọran imọ-ẹrọ ati awọn idiyele.",
+  "plan_free_detail": "<b class='text-capitalize'>Ẹya ẹrọ fun sare-dagba owo</b> ╏ Bẹrẹ iṣowo rẹ nipasẹ ero ọfẹ wa. Ohun gbogbo ti o nilo lati bẹrẹ ati ṣe ifilọlẹ oju opo wẹẹbu eCommerce rẹ ti ṣetan nibi. Selldone n pese gbogbo sọfitiwia, awọn irinṣẹ, ati ojutu alejo gbigba awọsanma nipasẹ ero ṣiṣe alabapin ọfẹ. Selldone ni afikun ṣe abojuto gbogbo awọn imudojuiwọn sọfitiwia ati awọn ero aabo. Nitorinaa o le dojukọ gbogbo awọn akitiyan rẹ lori tita ati maṣe yọ ara rẹ lẹnu nipa awọn ọran imọ-ẹrọ ati awọn idiyele.",
   "pay_monthly": "Sanwo oṣooṣu",
   "pay_yearly": "Sanwo lododun",
   "pay_yearly_off": "30% kuro",

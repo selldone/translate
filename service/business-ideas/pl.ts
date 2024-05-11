@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Sprzedaż społecznościowa",
-      "subtitle": "Awokado | Zacznij sprzedawać tylko jednym linkiem",
+      "subtitle": "Awokado ╏ Zacznij sprzedawać tylko jednym linkiem",
       "custom_form": "Niestandardowy formularz zamówienia",
       "step1": "Spełnienie awokado",
       "step2": "Cennik i wystawienie faktury",

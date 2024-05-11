@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Hoko Hapori",
-      "subtitle": "Awhekātō | Me timata te hoko ma te hono kotahi",
+      "subtitle": "Awhekātō ╏ Me timata te hoko ma te hono kotahi",
       "custom_form": "Puka tono ritenga",
       "step1": "Te whakatutuki i te avocado",
       "step2": "Te utu me te take nama",

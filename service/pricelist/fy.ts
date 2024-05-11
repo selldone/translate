@@ -2,7 +2,7 @@ export default {
   "title": "Begjin fergees, groeie fluch!",
   "sub_title": "Unbeheinde tagong ta alle funksjes sûnder kosten! Allinich <b>2% fan ferkeap</b> , krekt nei suksesfolle oankeapen. Hawwe jo in protte ferkeap en wolle jo de fergoedingen ferminderje?",
   "show_detail_list": "Lit detaillist sjen",
-  "plan_free_detail": "<b class='text-capitalize'>In bestjoeringssysteem foar fluch groeiende bedriuwen</b> | Begjin jo bedriuw troch ús fergese plan. Alles wat jo nedich binne om jo eCommerce-webside te begjinnen en te starten is hjir klear. Selldone leveret alle software, ark en oplossing foar wolkhosting troch fergees abonnemintsplan. Selldone soarget ek foar alle software-updates en befeiligingssoarch. Sa kinne jo al jo ynspanningen rjochtsje op ferkeapjen en gjin soargen meitsje oer technyske problemen en kosten.",
+  "plan_free_detail": "<b class='text-capitalize'>In bestjoeringssysteem foar fluch groeiende bedriuwen</b> ╏ Begjin jo bedriuw troch ús fergese plan. Alles wat jo nedich binne om jo eCommerce-webside te begjinnen en te starten is hjir klear. Selldone leveret alle software, ark en oplossing foar wolkhosting troch fergees abonnemintsplan. Selldone soarget ek foar alle software-updates en befeiligingssoarch. Sa kinne jo al jo ynspanningen rjochtsje op ferkeapjen en gjin soargen meitsje oer technyske problemen en kosten.",
   "pay_monthly": "Betelje moanliks",
   "pay_yearly": "Betelje jierliks",
   "pay_yearly_off": "30% koarting",

@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Mokhatlo",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Merero & Theko",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

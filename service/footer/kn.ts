@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 ಗಿಲ್ಡ್",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "ಯೋಜನೆಗಳು ಮತ್ತು ಬೆಲೆ",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

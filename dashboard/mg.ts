@@ -41,7 +41,7 @@ export default {
   "Reddit": "reddit Google",
   "Github": "Github",
   "page_titles": {
-    "home": "Seldone | Ny rafitra fiasan'ny orinasa ho an'ny orinasa mitombo haingana",
+    "home": "Seldone ╏ Ny rafitra fiasan'ny orinasa ho an'ny orinasa mitombo haingana",
     "login": "Hiditra",
     "register": "hisoratra anarana",
     "auth_2fa": "Antony 2 Authenticate 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "My Stores",
     "roles": "Ny anjarako",
     "wallet": "Ny kitapoko",
-    "personal_info": "Info manokana | KYC",
+    "personal_info": "Info manokana ╏ KYC",
     "companies": "Ny Orinasako",
     "access_control": "Access Control",
     "security_center": "Foibe fiarovana",
     "gifts": {
-      "received": "Fanomezana | nahazo",
-      "send": "Fanomezana | Nalefa"
+      "received": "Fanomezana ╏ nahazo",
+      "send": "Fanomezana ╏ Nalefa"
     },
     "monetization": {
-      "linked_accounts": "Monetization | Kaonty mifandray",
-      "plans": "Monetization | Plan & Rohy"
+      "linked_accounts": "Monetization ╏ Kaonty mifandray",
+      "plans": "Monetization ╏ Plan & Rohy"
     },
     "affiliate": "Affiliate",
     "avocado": "Avocado - Fantsona varotra ara-tsosialy maoderina",
     "guild": "Guild - Fantsona varotra iombonana",
-    "partners_login": "mpiara-miasa | Fidirana mpanjifa"
+    "partners_login": "mpiara-miasa ╏ Fidirana mpanjifa"
   },
   "blank_is_all_products": "Avelao ho banga mba hampidirana ny vokatra rehetra!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Mandritra ny fanodinana ny kaomandy, ny vola aterina dia mety tsy mitovy amin'ny vola voabaiko. Ny rafitra dia manao kajy ho azy io fahasamihafana io ary mirakitra izany ho trosanao amin'ny mpanjifa, izay azo ampiharina amin'ny baiko manaraka.",
       "status_list": {
         "active": {
-          "title": "Active | Varotra an-tserasera & an-tserasera",
+          "title": "Active ╏ Varotra an-tserasera & an-tserasera",
           "description": "Ity vokatra ity dia azo alaina amin'ny baiko an-tserasera."
         },
         "inactive": {
-          "title": "Inactive | Varotra an-tserasera ihany",
+          "title": "Inactive ╏ Varotra an-tserasera ihany",
           "description": "Ity vokatra ity dia tsy ho hita amin'ny baiko an-tserasera."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "tsotra",
         "dark_input": "Lohahevitra maizina?",
         "icon_input": "matoanteny",
-        "icon_input_hint": "Anarana kisary famolavolana fitaovana na Fontawsom: fas fa-star",
+        "icon_input_hint": "Anarana kisary famolavolana fitaovana na Fontawsom: fa:fas fa-star",
         "anim_input": "Adiresy momba ny animation",
         "anim_input_message": "URL rakitra animation Lottie",
         "preview": "topi-maso",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Najanona ny baiko. {reason}",
     "connect-remove-hold": "Nesorina tamin'ny fitazonana ilay baiko. {reason}",
     "connect-confirmed": "Nohamafisina ny baiko.",
-    "email-vendor": "🔔 Nalefa tany amin'ny <b>{vendor}</b> ny mailaka fampahafantarana ny kaomandy | {email}.",
+    "email-vendor": "🔔 Nalefa tany amin'ny <b>{vendor}</b> ny mailaka fampahafantarana ny kaomandy ╏ {email}.",
     "vendor-payout": "💸 Vola amin'ny mpivarotra."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Calculator | Mifanaraka amin'ny orinasanao",
+    "title": "Calculator ╏ Mifanaraka amin'ny orinasanao",
     "description": "Kajy ary fidio ny drafitra tsara indrindra mifototra amin'ny varotrao isam-bolana:",
     "sale_input": "Vola isam-bolana",
     "hypernova_plan": "Mangataha Hypernova %0!",
@@ -3182,7 +3182,7 @@ export default {
     "products_views": "Jereo ny vokatra"
   },
   "shop_visitors_widget": {
-    "title": "Visitors Analytics",
+    "title": "Acquisition Analytics",
     "new_visitors": "Vahiny vaovao",
     "amp": "Vidin'ny AMP",
     "returning_visitors": "Miverina mpitsidika",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Fivarotana toerana fitehirizana",
     "save_alert": "Tsy voatahiry ny fika!",
     "pos_tax_setting": "Fikirana hetra POS",
-    "tax_exclude_title": "Voahilika | Hampiana ny hetra rehefa mivoaka",
+    "tax_exclude_title": "Voahilika ╏ Hampiana ny hetra rehefa mivoaka",
     "tax_excluded_message": "Ny hetra dia hokajiana alohan'ny fandoavam-bola mandritra ny fisavana ary ampiana amin'ny vidin'ny hetra voahilika arakaraka ny porofon'ny mpanjifanao."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Active",
-      "title": "Active | Varotra an-tserasera & an-tserasera",
+      "title": "Active ╏ Varotra an-tserasera & an-tserasera",
       "description": "Ity vokatra ity dia azo alaina amin'ny baiko an-tserasera."
     },
     "close": {
       "name": "tsy mavitrika",
-      "title": "Inactive | Varotra an-tserasera ihany",
+      "title": "Inactive ╏ Varotra an-tserasera ihany",
       "description": "Ity vokatra ity dia tsy ho hita amin'ny baiko an-tserasera."
     },
     "pending": {

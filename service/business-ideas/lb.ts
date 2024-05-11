@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Sozial Verkaf",
-      "subtitle": "Avocado | Fänkt just mat engem Link ze verkafen",
+      "subtitle": "Avocado ╏ Fänkt just mat engem Link ze verkafen",
       "custom_form": "Benotzerdefinéiert Bestellung Form",
       "step1": "Avocado Erfëllung",
       "step2": "Präisser a Rechnung Thema",

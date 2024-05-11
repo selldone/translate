@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Selldone | Sistèm operasyon biznis la pou konpayi kap grandi rapid",
+    "home": "Selldone ╏ Sistèm operasyon biznis la pou konpayi kap grandi rapid",
     "login": "ouvri sesyon an",
     "register": "Enskri",
     "auth_2fa": "2 faktè Otantifye 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Magazen mwen yo",
     "roles": "Wòl mwen yo",
     "wallet": "Bous mwen an",
-    "personal_info": "Enfòmasyon pèsonèl | KYC",
+    "personal_info": "Enfòmasyon pèsonèl ╏ KYC",
     "companies": "Konpayi mwen yo",
     "access_control": "Kontwòl Aksè",
     "security_center": "Sant Sekirite",
     "gifts": {
-      "received": "Kado | Resevwa",
-      "send": "Kado | Voye"
+      "received": "Kado ╏ Resevwa",
+      "send": "Kado ╏ Voye"
     },
     "monetization": {
-      "linked_accounts": "Monetizasyon | Kont ki lye",
-      "plans": "Monetizasyon | Plan & Lyen"
+      "linked_accounts": "Monetizasyon ╏ Kont ki lye",
+      "plans": "Monetizasyon ╏ Plan & Lyen"
     },
     "affiliate": "Afilye",
     "avocado": "Zaboka — Chanèl Komèsyal Sosyal modèn",
     "guild": "Guild — Chanèl Komèsyal Kolektif",
-    "partners_login": "Patnè | Login kliyan"
+    "partners_login": "Patnè ╏ Login kliyan"
   },
   "blank_is_all_products": "Kite vid pou mete tout pwodwi yo!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Pandan pwosesis lòd la, kantite lajan an delivre ka diferan de kantite lajan yo bay lòd la. Sistèm nan otomatikman kalkile diferans sa a epi anrejistre li kòm dèt ou a kliyan an, ki ka aplike nan pwochen lòd yo.",
       "status_list": {
         "active": {
-          "title": "Aktif | Komèsyal sou entènèt ak offline",
+          "title": "Aktif ╏ Komèsyal sou entènèt ak offline",
           "description": "Pwodwi sa a ap disponib pou lòd sou entènèt."
         },
         "inactive": {
-          "title": "Inaktif | Sèlman Offline Komèsyal",
+          "title": "Inaktif ╏ Sèlman Offline Komèsyal",
           "description": "Pwodwi sa a p ap disponib pou lòd sou entènèt."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Senp",
         "dark_input": "Tèm nwa?",
         "icon_input": "Icône",
-        "icon_input_hint": "Materyèl Design Icon Non oswa Fontawsom: fas fa-star",
+        "icon_input_hint": "Materyèl Design Icon Non oswa Fontawsom: fa:fas fa-star",
         "anim_input": "Adrès Animasyon",
         "anim_input_message": "URL dosye animasyon Lottie",
         "preview": "Preview",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Yo te mete lòd la nan kenbe. {reason}",
     "connect-remove-hold": "Yo te retire lòd la nan kenbe. {reason}",
     "connect-confirmed": "Lòd la te konfime.",
-    "email-vendor": "🔔 Yo voye yon imèl bay <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 Yo voye yon imèl bay <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Peman bay vandè."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Kalkilatè | Anfòm nan biznis ou",
+    "title": "Kalkilatè ╏ Anfòm nan biznis ou",
     "description": "Kalkile epi chwazi pi bon plan ki baze sou lavant chak mwa ou:",
     "sale_input": "Kantite lavant chak mwa",
     "hypernova_plan": "Aplike pou Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Anviwònman kote magazen yo",
     "save_alert": "Anviwònman yo pa sove!",
     "pos_tax_setting": "Anviwònman taks POS",
-    "tax_exclude_title": "Ekskli | Taks yo pral ajoute nan kesye",
+    "tax_exclude_title": "Ekskli ╏ Taks yo pral ajoute nan kesye",
     "tax_excluded_message": "Taks yo pral kalkile anvan peman yo pandan kesye a epi yo pral ajoute nan pri taks la eskli selon prèv kliyan ou yo."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktif",
-      "title": "Aktif | Komèsyal sou entènèt ak offline",
+      "title": "Aktif ╏ Komèsyal sou entènèt ak offline",
       "description": "Pwodwi sa a ap disponib pou lòd sou entènèt."
     },
     "close": {
       "name": "inaktif",
-      "title": "Inaktif | Sèlman Offline Komèsyal",
+      "title": "Inaktif ╏ Sèlman Offline Komèsyal",
       "description": "Pwodwi sa a p ap disponib pou lòd sou entènèt."
     },
     "pending": {

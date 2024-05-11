@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Selldone | El sistema operativo comercial para empresas de rápido crecimiento",
+    "home": "Selldone ╏ El sistema operativo comercial para empresas de rápido crecimiento",
     "login": "Acceso",
     "register": "Registro",
     "auth_2fa": "Autenticación de 2 factores 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Mis tiendas",
     "roles": "mis roles",
     "wallet": "Mi billetera",
-    "personal_info": "Información personal | KYC",
+    "personal_info": "Información personal ╏ KYC",
     "companies": "Mis Empresas",
     "access_control": "Control de acceso",
     "security_center": "Centro de Seguridad",
     "gifts": {
-      "received": "Regalos | Recibió",
-      "send": "Regalos | Enviado"
+      "received": "Regalos ╏ Recibió",
+      "send": "Regalos ╏ Enviado"
     },
     "monetization": {
-      "linked_accounts": "Monetización | Cuentas Vinculadas",
-      "plans": "Monetización | Plan y enlaces"
+      "linked_accounts": "Monetización ╏ Cuentas Vinculadas",
+      "plans": "Monetización ╏ Plan y enlaces"
     },
     "affiliate": "Afiliado",
     "avocado": "Aguacate — Canal moderno de ventas sociales",
     "guild": "Gremio — Canal de ventas colectivas",
-    "partners_login": "Socios | Acceso de clientes"
+    "partners_login": "Socios ╏ Acceso de clientes"
   },
   "blank_is_all_products": "¡Deje en blanco para incluir todos los productos!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Durante el procesamiento del pedido, la cantidad entregada puede diferir de la cantidad solicitada. El sistema calcula automáticamente esta diferencia y la registra como su deuda con el cliente, que se puede aplicar a los próximos pedidos.",
       "status_list": {
         "active": {
-          "title": "Activo | Ventas en línea y fuera de línea",
+          "title": "Activo ╏ Ventas en línea y fuera de línea",
           "description": "Este producto estará disponible para pedidos en línea."
         },
         "inactive": {
-          "title": "Inactivo | Solo ventas fuera de línea",
+          "title": "Inactivo ╏ Solo ventas fuera de línea",
           "description": "Este producto no estará disponible para pedidos en línea."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Sencillo",
         "dark_input": "tema oscuro?",
         "icon_input": "Icono",
-        "icon_input_hint": "Nombre del icono de diseño de materiales o Fontawsom: fas fa-star",
+        "icon_input_hint": "Nombre del icono de diseño de materiales o Fontawsom: fa:fas fa-star",
         "anim_input": "Dirección de animación",
         "anim_input_message": "URL del archivo de animación de Lottie",
         "preview": "Avance",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "La orden fue puesta en espera. {reason}",
     "connect-remove-hold": "El pedido se eliminó de la espera. {reason}",
     "connect-confirmed": "El pedido fue confirmado.",
-    "email-vendor": "🔔 El correo electrónico de información del pedido se ha enviado a <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 El correo electrónico de información del pedido se ha enviado a <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Pago al proveedor."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Calculadora | Ajuste a su negocio",
+    "title": "Calculadora ╏ Ajuste a su negocio",
     "description": "Calcula y elige el mejor plan en función de tus ventas mensuales:",
     "sale_input": "Cantidad de ventas mensuales",
     "hypernova_plan": "¡Solicite Hipernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Configuración de las ubicaciones de las tiendas",
     "save_alert": "¡La configuración no se guarda!",
     "pos_tax_setting": "Configuración de impuestos de POS",
-    "tax_exclude_title": "Excluido | El impuesto se agregará al finalizar la compra",
+    "tax_exclude_title": "Excluido ╏ El impuesto se agregará al finalizar la compra",
     "tax_excluded_message": "Los impuestos se calcularán antes de los pagos durante el proceso de pago y se agregarán al precio del impuesto excluido según la evidencia de su cliente."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Activo",
-      "title": "Activo | Ventas en línea y fuera de línea",
+      "title": "Activo ╏ Ventas en línea y fuera de línea",
       "description": "Este producto estará disponible para pedidos en línea."
     },
     "close": {
       "name": "inactivo",
-      "title": "Inactivo | Solo ventas fuera de línea",
+      "title": "Inactivo ╏ Solo ventas fuera de línea",
       "description": "Este producto no estará disponible para pedidos en línea."
     },
     "pending": {

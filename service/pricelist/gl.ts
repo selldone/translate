@@ -2,7 +2,7 @@ export default {
   "title": "Comeza gratis, crece rápido!",
   "sub_title": "Acceso ilimitado a todas as funcións sen custo! Só o <b>2% da venda</b> , xusto despois das compras exitosas. Tes moitas vendas e queres reducir as taxas?",
   "show_detail_list": "Mostrar a lista de detalles",
-  "plan_free_detail": "<b class='text-capitalize'>Un sistema operativo para empresas de rápido crecemento</b> | Comeza o teu negocio co noso plan gratuíto. Todo o que necesitas para comezar e lanzar o teu sitio web de comercio electrónico está listo aquí. Selldone ofrece todo o software, as ferramentas e a solución de hospedaxe na nube mediante un plan de subscrición gratuíto. Selldone tamén se ocupa de todas as actualizacións de software e consideracións de seguridade. Así podes centrar todos os teus esforzos en vender e non preocuparte por problemas técnicos e custos.",
+  "plan_free_detail": "<b class='text-capitalize'>Un sistema operativo para empresas de rápido crecemento</b> ╏ Comeza o teu negocio co noso plan gratuíto. Todo o que necesitas para comezar e lanzar o teu sitio web de comercio electrónico está listo aquí. Selldone ofrece todo o software, as ferramentas e a solución de hospedaxe na nube mediante un plan de subscrición gratuíto. Selldone tamén se ocupa de todas as actualizacións de software e consideracións de seguridade. Así podes centrar todos os teus esforzos en vender e non preocuparte por problemas técnicos e custos.",
   "pay_monthly": "Paga mensualmente",
   "pay_yearly": "Paga anualmente",
   "pay_yearly_off": "30% de desconto",

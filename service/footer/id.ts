@@ -111,7 +111,7 @@ export default {
           {
             "title": "Persekutuan",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Paket & Harga",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

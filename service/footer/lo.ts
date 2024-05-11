@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 ສະມາຄົມ",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "ແຜນການ & ລາຄາ",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

@@ -72,7 +72,7 @@ export default {
     "cod_payment": "Piştgiriya dravê li ser radestkirinê",
     "pros": "Pros",
     "cons": "Cons",
-    "external_link": "Read More",
+    "external_link": "Girêdana Derve",
     "notifications": {
       "congratulation": "Pîrozbahî",
       "waiting_list_add_success": "Dema ku ev hilber were mezad kirin em ê we agahdar bikin.",
@@ -107,8 +107,8 @@ export default {
   "product": {
     "review": "Axaftin",
     "spec": "Spec",
-    "comments": "Comments",
-    "related_products_title": "berhemên Related",
+    "comments": "Şîroveyên",
+    "related_products_title": "Sernavê hilberên têkildar",
     "price": "Biha",
     "rate": "Qûrs",
     "comment": "Agahkişî",
@@ -125,15 +125,15 @@ export default {
       "favorites": "Favorite Items",
       "gift_cards": "Kartên diyariyê",
       "return_requests": "Orders Vegerandin",
-      "basket": "Shopping Cart"
+      "basket": "Selika Kirînê"
     },
     "user_menu": {
-      "my_shops": "My Stores",
+      "my_shops": "Dikanan min",
       "go_to_admin": "Birêvebirina {shop_name}",
       "exit_from": "Derketin {shop_name}",
       "chips": "{chips} Çîp"
     },
-    "login_to_shop": "Têkeve Store",
+    "login_to_shop": "Têkeve Dikanê",
     "login_to_shop_short": "login",
     "item_in_basket_message": "{count} Ev tişt di selika te de ye.",
     "search_title": "Li firotgeha {shop_name} bigerin"
@@ -143,14 +143,14 @@ export default {
     "basket_is_empty": "Selika we vala ye.",
     "total_price": "Hemî",
     "view_basket": "Selika we",
-    "more": "More ...",
+    "more": "Zêdetir ...",
     "accept_and_pay": "Lêkolîn",
     "items": "Babet(ên)"
   },
   "history_orders_physical": {
     "rejected": "Redkirin",
     "table": {
-      "code": "Order Code",
+      "code": "Kodê Fermanê",
       "reserved": "Rojek",
       "delivery_state": "Rewşa radestkirinê",
       "price": "Bihayê tevahî",
@@ -159,7 +159,7 @@ export default {
   },
   "history_orders": {
     "table": {
-      "code": "Order Code",
+      "code": "Kodê Fermanê",
       "items": "Items",
       "reserved": "Rojek",
       "delivery_state": "Rewşa herî dawî",
@@ -169,8 +169,8 @@ export default {
   },
   "user_page": {
     "menu": {
-      "gift_card": "Gift Card",
-      "comments": "Comments",
+      "gift_card": "Karta diyariyê",
+      "comments": "Şîroveyên",
       "favorites": "Favorites",
       "return_requests": "Vedigere",
       "addresses": "Navnîşan",
@@ -417,7 +417,7 @@ export default {
   "product_filter_menu": {
     "only_original": "Tenê orîjînal",
     "only_has_discount": "Tenê daxistin",
-    "price_range": "range Price",
+    "price_range": "Rêza Bihayê",
     "brands": "Şanika şewatê",
     "main_shop_page": "Rûpelê sereke yê firotanê",
     "home": "Xane"
@@ -515,7 +515,7 @@ export default {
     "select_address_message": "Ji kerema xwe navnîşana xwe binivîse, û paşê hûn dikarin fermanê bişînin."
   },
   "hyper": {
-    "title": "Order çêkirina",
+    "title": "Ferman biafirîne",
     "message": "Bi şopandina koda hilberê navnîşa hilberên ku hûn dixwazin bikirin biafirînin.",
     "currency_msg": "Pereyê ku hûn dixwazin pê bidin.",
     "order_action": "Diravdanî",
@@ -550,7 +550,7 @@ export default {
       "show_calendar": "Salnameya Fermanan nîşan bide"
     },
     "pricing": {
-      "title": "Pricing",
+      "title": "Buhayê",
       "message": "Hûn ji bo vê xizmetê çiqas heq dikin?"
     },
     "subscription": {
@@ -580,7 +580,7 @@ export default {
   },
   "variants_view": {
     "prices": "Prices",
-    "inventory": "Inventory",
+    "inventory": "Embar",
     "discount": "Kêmkirinî"
   },
   "rating": {

@@ -2,7 +2,7 @@ export default {
   "title": "Mulai Gratis, Tuwuh Cepet!",
   "sub_title": "Akses tanpa wates kanggo kabeh fitur tanpa biaya! Mung <b>2% saka sale</b> , mung sawise tuku sukses. Apa sampeyan duwe akeh dodolan lan pengin nyuda biaya?",
   "show_detail_list": "Tampilake dhaptar rincian",
-  "plan_free_detail": "<b class='text-capitalize'>Sistem operasi kanggo bisnis sing berkembang cepet</b> | Miwiti bisnis kanthi rencana gratis. Kabeh sing dibutuhake kanggo miwiti lan mbukak situs web eCommerce sampeyan wis siyap ing kene. Selldone nyedhiyakake kabeh piranti lunak, alat, lan solusi hosting awan kanthi rencana langganan gratis. Selldone uga ngurus kabeh nganyari piranti lunak lan pertimbangan keamanan. Supaya sampeyan bisa fokus kabeh efforts ing sade lan ora kuwatir bab masalah technical lan biaya.",
+  "plan_free_detail": "<b class='text-capitalize'>Sistem operasi kanggo bisnis sing berkembang cepet</b> ╏ Miwiti bisnis kanthi rencana gratis. Kabeh sing dibutuhake kanggo miwiti lan mbukak situs web eCommerce sampeyan wis siyap ing kene. Selldone nyedhiyakake kabeh piranti lunak, alat, lan solusi hosting awan kanthi rencana langganan gratis. Selldone uga ngurus kabeh nganyari piranti lunak lan pertimbangan keamanan. Supaya sampeyan bisa fokus kabeh efforts ing sade lan ora kuwatir bab masalah technical lan biaya.",
   "pay_monthly": "Bayar saben wulan",
   "pay_yearly": "Bayar saben taun",
   "pay_yearly_off": "diskon 30%.",

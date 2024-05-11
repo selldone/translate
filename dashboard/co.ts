@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Selldone | U Sistema Operativu di l'Aziende Per l'imprese in rapida crescita",
+    "home": "Selldone ╏ U Sistema Operativu di l'Aziende Per l'imprese in rapida crescita",
     "login": "login",
     "register": "Registrate",
     "auth_2fa": "Autentificazione à 2 fattori 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "I mo Stores",
     "roles": "I mo roli",
     "wallet": "My Wallet",
-    "personal_info": "infurmazione persunale | KYC",
+    "personal_info": "infurmazione persunale ╏ KYC",
     "companies": "I mo cumpagnie",
     "access_control": "Cuntrolla di Accessu",
     "security_center": "Centru di Sicurezza",
     "gifts": {
-      "received": "Rigali | Ricevutu",
-      "send": "Rigali | Mandatu"
+      "received": "Rigali ╏ Ricevutu",
+      "send": "Rigali ╏ Mandatu"
     },
     "monetization": {
-      "linked_accounts": "Monetizazione | Cunti cunnessi",
-      "plans": "Monetizazione | Pianu è ligami"
+      "linked_accounts": "Monetizazione ╏ Cunti cunnessi",
+      "plans": "Monetizazione ╏ Pianu è ligami"
     },
     "affiliate": "Affiliate",
     "avocado": "Avocado - Canale mudernu di vendita suciale",
     "guild": "Guild - Canale di vendita cullettiva",
-    "partners_login": "Partenarii | Login di u cliente"
+    "partners_login": "Partenarii ╏ Login di u cliente"
   },
   "blank_is_all_products": "Lasciate in biancu per include tutti i prudutti!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Durante a trasfurmazioni di l'ordine, a quantità consegnata pò differisce da a quantità urdinata. U sistema calcula automaticamente sta diferenza è a registra cum'è u vostru debitu à u cliente, chì pò esse appiicatu à i prossime ordini.",
       "status_list": {
         "active": {
-          "title": "Attivu | Vendite in linea è offline",
+          "title": "Attivu ╏ Vendite in linea è offline",
           "description": "Stu pruduttu serà dispunibule per ordini in linea."
         },
         "inactive": {
-          "title": "Inattivu | Solu Vendite Offline",
+          "title": "Inattivu ╏ Solu Vendite Offline",
           "description": "Stu pruduttu ùn serà micca dispunibule per ordini in linea."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Semplice",
         "dark_input": "Tema scuru?",
         "icon_input": "Icona",
-        "icon_input_hint": "Material Design Icon Nome o Fontawsom: fas fa-star",
+        "icon_input_hint": "Material Design Icon Nome o Fontawsom: fa:fas fa-star",
         "anim_input": "Indirizzu di l'animazione",
         "anim_input_message": "URL di u schedariu d'animazione Lottie",
         "preview": "Anteprima",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "L'ordine hè statu messu in attesa. {reason}",
     "connect-remove-hold": "L'ordine hè statu cacciatu da u hold. {reason}",
     "connect-confirmed": "L'ordine hè statu cunfirmatu.",
-    "email-vendor": "🔔 L'email d'informazioni di l'ordine hè stata mandata à <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 L'email d'informazioni di l'ordine hè stata mandata à <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Pagamentu à u venditore."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Calculatrice | Adatta à a vostra attività",
+    "title": "Calculatrice ╏ Adatta à a vostra attività",
     "description": "Calculate è sceglite u megliu pianu basatu annantu à e vostre vendite mensili:",
     "sale_input": "A quantità di vendita mensili",
     "hypernova_plan": "Candidate per Hypernova %0!",
@@ -3182,7 +3182,7 @@ export default {
     "products_views": "Vede u pruduttu"
   },
   "shop_visitors_widget": {
-    "title": "Visitors Analytics",
+    "title": "Acquisition Analytics",
     "new_visitors": "Novi visitatori",
     "amp": "Viste AMP",
     "returning_visitors": "I visitatori di ritornu",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Paràmetri di lochi di Store",
     "save_alert": "I paràmetri ùn sò micca salvati!",
     "pos_tax_setting": "Impostazioni di POS Tax",
-    "tax_exclude_title": "Escludu | L'impositu serà aghjuntu à u checkout",
+    "tax_exclude_title": "Escludu ╏ L'impositu serà aghjuntu à u checkout",
     "tax_excluded_message": "I tassi seranu calculati prima di i pagamenti durante u checkout è aghjuntu à u prezzu di l'impositu esclusu secondu a vostra evidenza di u cliente."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Attivu",
-      "title": "Attivu | Vendite in linea è offline",
+      "title": "Attivu ╏ Vendite in linea è offline",
       "description": "Stu pruduttu serà dispunibule per ordini in linea."
     },
     "close": {
       "name": "inattivu",
-      "title": "Inattivu | Solu Vendite Offline",
+      "title": "Inattivu ╏ Solu Vendite Offline",
       "description": "Stu pruduttu ùn serà micca dispunibule per ordini in linea."
     },
     "pending": {

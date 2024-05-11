@@ -41,7 +41,7 @@ export default {
   "Reddit": "레딧",
   "Github": "깃허브",
   "page_titles": {
-    "home": "판매완료 | 빠르게 성장하는 기업을 위한 비즈니스 운영 체제",
+    "home": "판매완료 ╏ 빠르게 성장하는 기업을 위한 비즈니스 운영 체제",
     "login": "로그인",
     "register": "등록하다",
     "auth_2fa": "2단계 인증 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "내 상점",
     "roles": "내 역할",
     "wallet": "내 지갑",
-    "personal_info": "개인정보 | KYC",
+    "personal_info": "개인정보 ╏ KYC",
     "companies": "내 회사",
     "access_control": "액세스 제어",
     "security_center": "보안 센터",
     "gifts": {
-      "received": "선물 | 받았다",
-      "send": "선물 | 전송된"
+      "received": "선물 ╏ 받았다",
+      "send": "선물 ╏ 전송된"
     },
     "monetization": {
-      "linked_accounts": "수익화 | 연결된 계정",
-      "plans": "수익화 | 계획 및 링크"
+      "linked_accounts": "수익화 ╏ 연결된 계정",
+      "plans": "수익화 ╏ 계획 및 링크"
     },
     "affiliate": "제휴하다",
     "avocado": "아보카도 — 현대 소셜 판매 채널",
     "guild": "길드 - 공동 판매 채널",
-    "partners_login": "파트너 | 클라이언트 로그인"
+    "partners_login": "파트너 ╏ 클라이언트 로그인"
   },
   "blank_is_all_products": "모든 제품을 포함하려면 공백으로 두십시오!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "주문 처리 중 배송된 금액과 주문한 금액이 다를 수 있습니다. 시스템은 이 차액을 자동으로 계산하고 다음 주문에 적용할 수 있는 고객에 대한 부채로 기록합니다.",
       "status_list": {
         "active": {
-          "title": "활성 | 온라인 및 오프라인 판매",
+          "title": "활성 ╏ 온라인 및 오프라인 판매",
           "description": "이 제품은 온라인 주문이 가능합니다."
         },
         "inactive": {
-          "title": "비활성 | 오프라인 판매만",
+          "title": "비활성 ╏ 오프라인 판매만",
           "description": "이 제품은 온라인 주문이 불가능합니다."
         }
       },
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "주문이 보류되었습니다. {reason}",
     "connect-remove-hold": "주문이 보류에서 제거되었습니다. {reason}",
     "connect-confirmed": "주문이 확인되었습니다.",
-    "email-vendor": "🔔 주문 알림 이메일이 <b>{vendor}(</b> 으)로 발송되었습니다 | {email}.",
+    "email-vendor": "🔔 주문 알림 이메일이 <b>{vendor}(</b> 으)로 발송되었습니다 ╏ {email}.",
     "vendor-payout": "💸 판매자에게 지급합니다."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "계산기 | 귀하의 비즈니스에 적합",
+    "title": "계산기 ╏ 귀하의 비즈니스에 적합",
     "description": "월별 매출을 기준으로 최상의 계획을 계산하고 선택하십시오.",
     "sale_input": "월매출액",
     "hypernova_plan": "하이퍼노바 %0 신청하세요!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "매장 위치 설정",
     "save_alert": "설정이 저장되지 않았습니다!",
     "pos_tax_setting": "POS 세금 설정",
-    "tax_exclude_title": "제외됨 | 결제 시 세금이 추가됩니다.",
+    "tax_exclude_title": "제외됨 ╏ 결제 시 세금이 추가됩니다.",
     "tax_excluded_message": "세금은 결제 시 결제 전에 계산되며 고객 증거에 따라 제외된 세금 가격에 추가됩니다."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "활동적인",
-      "title": "활성 | 온라인 및 오프라인 판매",
+      "title": "활성 ╏ 온라인 및 오프라인 판매",
       "description": "이 제품은 온라인 주문이 가능합니다."
     },
     "close": {
       "name": "비활성",
-      "title": "비활성 | 오프라인 판매만",
+      "title": "비활성 ╏ 오프라인 판매만",
       "description": "이 제품은 온라인 주문이 불가능합니다."
     },
     "pending": {

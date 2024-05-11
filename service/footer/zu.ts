@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Inhlangano",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Izinhlelo namanani",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

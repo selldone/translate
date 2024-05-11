@@ -880,7 +880,7 @@ export default {
   },
   "placeholders": {
     "name": "Ҷон Кокс",
-    "email": "your-mail@mail.com",
+    "email": "your-mail{'@'}mail.com",
     "phone": "+1 000 0000",
     "language": "Забонро интихоб кунед..",
     "friend_email": "Почтаи электронии дӯсти шумо...",

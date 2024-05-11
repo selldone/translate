@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Σωματείο",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Σχέδια & Τιμολόγηση",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

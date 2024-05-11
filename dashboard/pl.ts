@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Sprzedane | Biznesowy system operacyjny dla szybko rozwijających się firm",
+    "home": "Sprzedane ╏ Biznesowy system operacyjny dla szybko rozwijających się firm",
     "login": "Zaloguj sie",
     "register": "Zarejestrować",
     "auth_2fa": "Uwierzytelnianie dwuetapowe 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Moje sklepy",
     "roles": "Moje role",
     "wallet": "Mój portfel",
-    "personal_info": "Informacje osobiste | KYC",
+    "personal_info": "Informacje osobiste ╏ KYC",
     "companies": "Moje firmy",
     "access_control": "Kontrola dostępu",
     "security_center": "Centrum Bezpieczeństwa",
     "gifts": {
-      "received": "Prezenty | Otrzymane",
-      "send": "Prezenty | Wysłano"
+      "received": "Prezenty ╏ Otrzymane",
+      "send": "Prezenty ╏ Wysłano"
     },
     "monetization": {
-      "linked_accounts": "Zarabianie | Połączone konta",
-      "plans": "Zarabianie | Plan i linki"
+      "linked_accounts": "Zarabianie ╏ Połączone konta",
+      "plans": "Zarabianie ╏ Plan i linki"
     },
     "affiliate": "Przyłączać",
     "avocado": "Awokado — nowoczesny kanał sprzedaży społecznościowej",
     "guild": "Gildia — kanał sprzedaży zbiorowej",
-    "partners_login": "Partnerzy | Logowanie klienta"
+    "partners_login": "Partnerzy ╏ Logowanie klienta"
   },
   "blank_is_all_products": "Pozostaw puste, aby uwzględnić wszystkie produkty!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "W trakcie realizacji zamówienia dostarczona ilość może różnić się od zamówionej. System automatycznie wylicza tę różnicę i zapisuje ją jako Twój dług wobec klienta, który można zastosować przy kolejnych zamówieniach.",
       "status_list": {
         "active": {
-          "title": "Aktywny | Sprzedaż online i offline",
+          "title": "Aktywny ╏ Sprzedaż online i offline",
           "description": "Ten produkt będzie dostępny do zamówień online."
         },
         "inactive": {
-          "title": "Nieaktywny | Tylko sprzedaż offline",
+          "title": "Nieaktywny ╏ Tylko sprzedaż offline",
           "description": "Ten produkt nie będzie dostępny do zamówień online."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Jedyny",
         "dark_input": "Ciemny schemat?",
         "icon_input": "Ikona",
-        "icon_input_hint": "Nazwa ikony Material Design lub Fontawsom: fas fa-star",
+        "icon_input_hint": "Nazwa ikony Material Design lub Fontawsom: fa:fas fa-star",
         "anim_input": "Adres animacji",
         "anim_input_message": "URL pliku animacji Lottie",
         "preview": "Zapowiedź",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "Rozkaz został wstrzymany. {reason}",
     "connect-remove-hold": "Zamówienie zostało usunięte z wstrzymania. {reason}",
     "connect-confirmed": "Zamówienie zostało potwierdzone.",
-    "email-vendor": "🔔 E-mail z informacją o zamówieniu został wysłany do <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 E-mail z informacją o zamówieniu został wysłany do <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Wypłata dostawcy."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Kalkulator | Dopasuj do Twojej firmy",
+    "title": "Kalkulator ╏ Dopasuj do Twojej firmy",
     "description": "Oblicz i wybierz najlepszy plan na podstawie miesięcznej sprzedaży:",
     "sale_input": "Miesięczna kwota sprzedaży",
     "hypernova_plan": "Złóż wniosek o Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Przechowuj lokalizacje Ustawienia",
     "save_alert": "Ustawienia nie są zapisywane!",
     "pos_tax_setting": "Ustawienia podatku POS",
-    "tax_exclude_title": "wykluczone | Podatek zostanie dodany przy kasie",
+    "tax_exclude_title": "wykluczone ╏ Podatek zostanie dodany przy kasie",
     "tax_excluded_message": "Podatki zostaną obliczone przed dokonaniem płatności podczas realizacji transakcji i dodane do ceny wyłączonej z podatku, w zależności od dowodów klienta."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Aktywny",
-      "title": "Aktywny | Sprzedaż online i offline",
+      "title": "Aktywny ╏ Sprzedaż online i offline",
       "description": "Ten produkt będzie dostępny do zamówień online."
     },
     "close": {
       "name": "nieaktywny",
-      "title": "Nieaktywny | Tylko sprzedaż offline",
+      "title": "Nieaktywny ╏ Tylko sprzedaż offline",
       "description": "Ten produkt nie będzie dostępny do zamówień online."
     },
     "pending": {

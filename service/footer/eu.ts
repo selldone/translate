@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Kofradia",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Planak eta prezioak",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

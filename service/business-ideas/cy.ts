@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Gwerthiant Cymdeithasol",
-      "subtitle": "Afocado | Dechreuwch werthu trwy un ddolen yn unig",
+      "subtitle": "Afocado ╏ Dechreuwch werthu trwy un ddolen yn unig",
       "custom_form": "Ffurflen archebu personol",
       "step1": "Cyflawniad afocado",
       "step2": "Prisio a chyhoeddi anfoneb",

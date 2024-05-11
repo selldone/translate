@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Social Sales",
-      "subtitle": "Avokado | Počnite prodavati samo jednim linkom",
+      "subtitle": "Avokado ╏ Počnite prodavati samo jednim linkom",
       "custom_form": "Prilagođeni obrazac za narudžbu",
       "step1": "Ispunjenje avokada",
       "step2": "Pitanje cijena i faktura",

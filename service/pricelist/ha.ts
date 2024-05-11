@@ -2,7 +2,7 @@ export default {
   "title": "Fara Kyauta, Girma da sauri!",
   "sub_title": "Unlimited damar zuwa duk fasalulluka ba tare da tsada ba! Kashi <b>2% na siyarwa</b> kawai, bayan sayayya mai nasara. Kuna da tallace-tallace da yawa kuma kuna son rage kudaden?",
   "show_detail_list": "Nuna jerin cikakkun bayanai",
-  "plan_free_detail": "<b class='text-capitalize'>Tsarin aiki don kasuwanci masu saurin girma</b> | Fara kasuwancin ku ta tsarin mu kyauta. Duk abin da kuke buƙatar farawa da ƙaddamar da gidan yanar gizon ku na eCommerce yana shirye anan. Selldone yana ba da duk software, kayan aiki, da mafita na karɓar girgije ta tsarin biyan kuɗi kyauta. Har ila yau, Selldone yana kula da duk sabunta software da abubuwan tsaro. Don haka zaku iya mayar da hankali kan duk ƙoƙarin ku akan siyarwa kuma kada ku damu da al'amuran fasaha da farashi.",
+  "plan_free_detail": "<b class='text-capitalize'>Tsarin aiki don kasuwanci masu saurin girma</b> ╏ Fara kasuwancin ku ta tsarin mu kyauta. Duk abin da kuke buƙatar farawa da ƙaddamar da gidan yanar gizon ku na eCommerce yana shirye anan. Selldone yana ba da duk software, kayan aiki, da mafita na karɓar girgije ta tsarin biyan kuɗi kyauta. Har ila yau, Selldone yana kula da duk sabunta software da abubuwan tsaro. Don haka zaku iya mayar da hankali kan duk ƙoƙarin ku akan siyarwa kuma kada ku damu da al'amuran fasaha da farashi.",
   "pay_monthly": "Biya kowane wata",
   "pay_yearly": "Biya kowace shekara",
   "pay_yearly_off": "30% rangwame",

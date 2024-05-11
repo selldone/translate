@@ -2,7 +2,7 @@ export default {
   "title": "Bắt đầu miễn phí, phát triển nhanh chóng!",
   "sub_title": "Quyền truy cập không giới hạn vào tất cả các tính năng miễn phí! Chỉ <b>2%</b> khi mua hàng thành công. Bạn có nhiều doanh số và muốn giảm phí?",
   "show_detail_list": "Hiển thị danh sách chi tiết",
-  "plan_free_detail": "<b class='text-capitalize'>Hệ điều hành dành cho các doanh nghiệp phát triển nhanh</b> | Bắt đầu kinh doanh của bạn bằng gói miễn phí của chúng tôi. Mọi thứ bạn cần để bắt đầu và khởi chạy trang web Thương mại điện tử của mình đã sẵn sàng ở đây. Selldone cung cấp tất cả phần mềm, công cụ và giải pháp lưu trữ đám mây theo gói đăng ký miễn phí. Selldone cũng quan tâm đến tất cả các bản cập nhật phần mềm và các cân nhắc về bảo mật. Vì vậy, bạn có thể tập trung mọi nỗ lực của mình vào việc bán hàng và không phải lo lắng về các vấn đề kỹ thuật và chi phí.",
+  "plan_free_detail": "<b class='text-capitalize'>Hệ điều hành dành cho các doanh nghiệp phát triển nhanh</b> ╏ Bắt đầu kinh doanh của bạn bằng gói miễn phí của chúng tôi. Mọi thứ bạn cần để bắt đầu và khởi chạy trang web Thương mại điện tử của mình đã sẵn sàng ở đây. Selldone cung cấp tất cả phần mềm, công cụ và giải pháp lưu trữ đám mây theo gói đăng ký miễn phí. Selldone cũng quan tâm đến tất cả các bản cập nhật phần mềm và các cân nhắc về bảo mật. Vì vậy, bạn có thể tập trung mọi nỗ lực của mình vào việc bán hàng và không phải lo lắng về các vấn đề kỹ thuật và chi phí.",
   "pay_monthly": "Trả hàng tháng",
   "pay_yearly": "Thanh toán hàng năm",
   "pay_yearly_off": "giảm giá 30",

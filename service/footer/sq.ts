@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Esnaf",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Planet dhe Çmimet",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

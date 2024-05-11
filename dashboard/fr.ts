@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "GithubGenericName",
   "page_titles": {
-    "home": "Vendufait | Le système d'exploitation d'entreprise pour les entreprises à croissance rapide",
+    "home": "Vendufait ╏ Le système d'exploitation d'entreprise pour les entreprises à croissance rapide",
     "login": "Connexion",
     "register": "S'inscrire",
     "auth_2fa": "Authentification à 2 facteurs 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "Mes magasins",
     "roles": "Mes rôles",
     "wallet": "Mon portefeuille",
-    "personal_info": "Informations personnelles | KYC",
+    "personal_info": "Informations personnelles ╏ KYC",
     "companies": "Mes entreprises",
     "access_control": "Contrôle d'accès",
     "security_center": "Centre de sécurité",
     "gifts": {
-      "received": "Cadeaux | A reçu",
-      "send": "Cadeaux | Expédié"
+      "received": "Cadeaux ╏ A reçu",
+      "send": "Cadeaux ╏ Expédié"
     },
     "monetization": {
-      "linked_accounts": "Monétisation | Comptes liés",
-      "plans": "Monétisation | Plan & Liens"
+      "linked_accounts": "Monétisation ╏ Comptes liés",
+      "plans": "Monétisation ╏ Plan & Liens"
     },
     "affiliate": "Affilier",
     "avocado": "Avocat — Canal de vente social moderne",
     "guild": "Guilde — Canal de vente collectif",
-    "partners_login": "Partenaires | Connexion client"
+    "partners_login": "Partenaires ╏ Connexion client"
   },
   "blank_is_all_products": "Laissez vide pour inclure tous les produits !",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Lors du traitement de la commande, le montant livré peut différer du montant commandé. Le système calcule automatiquement cette différence et l'enregistre comme votre dette envers le client, qui peut être appliquée aux prochaines commandes.",
       "status_list": {
         "active": {
-          "title": "Actif | Ventes en ligne et hors ligne",
+          "title": "Actif ╏ Ventes en ligne et hors ligne",
           "description": "Ce produit sera disponible pour les commandes en ligne."
         },
         "inactive": {
-          "title": "Inactif | Ventes hors ligne uniquement",
+          "title": "Inactif ╏ Ventes hors ligne uniquement",
           "description": "Ce produit ne sera pas disponible pour les commandes en ligne."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Simple",
         "dark_input": "Thème sombre?",
         "icon_input": "Icône",
-        "icon_input_hint": "Nom de l'icône de conception matérielle ou police : fas fa-star",
+        "icon_input_hint": "Nom de l'icône de conception matérielle ou police : fa:fas fa-star",
         "anim_input": "Adresse animée",
         "anim_input_message": "URL du fichier d'animation Lottie",
         "preview": "Aperçu",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "La commande a été mise en attente. {reason}",
     "connect-remove-hold": "La commande a été retirée de la suspension. {reason}",
     "connect-confirmed": "La commande a été confirmée.",
-    "email-vendor": "🔔 L'e-mail d'information de la commande a été envoyé à <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 L'e-mail d'information de la commande a été envoyé à <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Paiement au fournisseur."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Calculatrice | Adapté à votre entreprise",
+    "title": "Calculatrice ╏ Adapté à votre entreprise",
     "description": "Calculez et choisissez le meilleur plan en fonction de vos ventes mensuelles :",
     "sale_input": "Montant des ventes mensuelles",
     "hypernova_plan": "Postulez pour Hypernova %0 !",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Emplacements des magasins Paramètres",
     "save_alert": "Les paramètres ne sont pas enregistrés !",
     "pos_tax_setting": "Paramètres de taxe PDV",
-    "tax_exclude_title": "Exclus | La taxe sera ajoutée à la caisse",
+    "tax_exclude_title": "Exclus ╏ La taxe sera ajoutée à la caisse",
     "tax_excluded_message": "Les taxes seront calculées avant les paiements lors du paiement et ajoutées au prix hors taxe en fonction de votre justificatif client."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Actif",
-      "title": "Actif | Ventes en ligne et hors ligne",
+      "title": "Actif ╏ Ventes en ligne et hors ligne",
       "description": "Ce produit sera disponible pour les commandes en ligne."
     },
     "close": {
       "name": "inactif",
-      "title": "Inactif | Ventes hors ligne uniquement",
+      "title": "Inactif ╏ Ventes hors ligne uniquement",
       "description": "Ce produit ne sera pas disponible pour les commandes en ligne."
     },
     "pending": {

@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝ギルド",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "プランと価格",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

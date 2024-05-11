@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Sotsiaalne müük",
-      "subtitle": "Avokaado | Alustage müüki ühe lingi kaudu",
+      "subtitle": "Avokaado ╏ Alustage müüki ühe lingi kaudu",
       "custom_form": "Kohandatud tellimisvorm",
       "step1": "Avokaado täitmine",
       "step2": "Hinnakujundus ja arve väljastamine",

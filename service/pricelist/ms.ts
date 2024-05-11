@@ -2,7 +2,7 @@ export default {
   "title": "Mula Percuma, Berkembang Pantas!",
   "sub_title": "Akses tanpa had kepada semua ciri tanpa kos! Hanya <b>2% daripada jualan</b> , selepas pembelian berjaya. Adakah anda mempunyai banyak jualan dan ingin mengurangkan yuran?",
   "show_detail_list": "Tunjukkan senarai butiran",
-  "plan_free_detail": "<b class='text-capitalize'>Sistem pengendalian untuk perniagaan yang berkembang pesat</b> | Mulakan perniagaan anda dengan pelan percuma kami. Semua yang anda perlukan untuk memulakan dan melancarkan tapak web eCommerce anda sudah sedia di sini. Selldone menyediakan semua perisian, alatan dan penyelesaian pengehosan awan dengan pelan langganan percuma. Selldone juga menjaga semua kemas kini perisian dan pertimbangan keselamatan. Jadi anda boleh menumpukan semua usaha anda untuk menjual dan tidak bimbang tentang isu teknikal dan kos.",
+  "plan_free_detail": "<b class='text-capitalize'>Sistem pengendalian untuk perniagaan yang berkembang pesat</b> ╏ Mulakan perniagaan anda dengan pelan percuma kami. Semua yang anda perlukan untuk memulakan dan melancarkan tapak web eCommerce anda sudah sedia di sini. Selldone menyediakan semua perisian, alatan dan penyelesaian pengehosan awan dengan pelan langganan percuma. Selldone juga menjaga semua kemas kini perisian dan pertimbangan keselamatan. Jadi anda boleh menumpukan semua usaha anda untuk menjual dan tidak bimbang tentang isu teknikal dan kos.",
   "pay_monthly": "Bayar bulanan",
   "pay_yearly": "Bayar setiap tahun",
   "pay_yearly_off": "30% diskaun",

@@ -22,6 +22,7 @@ export default {
     featured_apps: "اپلیکیشن های منتخب",
     more_apps: "اپلیکیشن های بیشتر",
     my_public_profile: "صفحه پروفایل عمومی من",
+    product_admin:"مدیریت محصول",
   },
 
   numbers: {
@@ -73,7 +74,7 @@ export default {
 
   // ------------------ Pages Title ------------------
   page_titles: {
-    home: "سلدان | فروشگاه ساز حرفه ای ها",
+    home: "سلدان ╏ فروشگاه ساز حرفه ای ها",
     login: "ورود",
     register: "ثبت نام",
     auth_2fa: "ورود2 مرحله ای 🔐",
@@ -83,22 +84,22 @@ export default {
     my_stores: "فروشگاه های من",
     roles: "نقش های من",
     wallet: "کیف پول",
-    personal_info: "اطلاعات شخصی | تایید هویت",
+    personal_info: "اطلاعات شخصی ╏ تایید هویت",
     companies: "شرکت ها",
     access_control: "مدیریت دسترسی ها",
     security_center: "امنیت حساب کاربری",
     gifts: {
-      received: "هدایا | دریافتی",
-      send: "هدایا | ارسالی",
+      received: "هدایا ╏ دریافتی",
+      send: "هدایا ╏ ارسالی",
     },
     monetization: {
-      linked_accounts: "کسب درآمد | حساب های متصل",
-      plans: "کسب درآمد | برنامه ها و لینک ها",
+      linked_accounts: "کسب درآمد ╏ حساب های متصل",
+      plans: "کسب درآمد ╏ برنامه ها و لینک ها",
     },
     affiliate: "همکاری در فروش",
     avocado: "آووکادو — کانال فروش شبکه های اجتمائی",
     guild: "قبیله — فروش جمعی",
-    partners_login: "شرکا | ورود کاربران",
+    partners_login: "شرکا ╏ ورود کاربران",
   },
   // ---------------------------------------------
 
@@ -156,7 +157,7 @@ export default {
     },
   },
 
-  /** @see SupportMenu **/
+  /** @see BSupportMenu **/
   support: {
     request: "درخواست پشتیبانی",
 
@@ -251,7 +252,7 @@ export default {
       "یکی از ویژگی های کلیدی سلدان ارائه API های قوی و امن برای مدیریت و اتصال فروشگاه ها به سرویس های دیگر مانند سرویس های انبارداری، حسابداری و غیره می باشد. همچنین شما می توانید اپلیکیشن و وب اپلیکیشن های اختصاصی برای فروشگاه خود طراحی نمایید بدون آنکه نگران بخش سرور و مدیریت داده های خود باشید. تنها کافیست از API های سلدان استفاده نمایید. تمام مراحل مدیریت کاربران، تایید هویت و دیگر امکانات سلدان در اختیار شما خواهد بود.",
   },
 
-  /** {@see UserDashboardPage} **/
+  /** {@see BPageShuttle} **/
   user_dashboard: {
     title: "آشیانه من در سلدان",
     subtitle: "کسب و کار خود را با اطلاعات کافی و به روز شده مدیریت نمایید.",
@@ -283,7 +284,7 @@ export default {
       },
       accept_invite_question: "آیا این دعوت نامه را می پذیرید؟",
 
-      /** {@see SShopCard} **/
+      /** {@see BShopCard} **/
 
       shop_card: {
         menu_orders: {
@@ -311,7 +312,7 @@ export default {
   },
 
   widgets: {
-    /** {@see OverviewWidget} **/
+    /** {@see BDashboardFeedback} **/
     overview: {
       title: "نظرات کاربران",
       title_small: "نمای کلی",
@@ -327,7 +328,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopPage} **/
+  /** {@see BPageShop} **/
   admin_shop: {
     title: "فروشگاه",
     menu: {
@@ -337,7 +338,7 @@ export default {
       access: "دسترسی",
       pages: "صفحات",
       channels: "کانال ها",
-      categories: "دسته بندی",
+      classification: "طبقه بندی",
       marketing: "مارکتینگ",
       customers: "کاربران",
       logistic: "لجستیک",
@@ -355,7 +356,7 @@ export default {
       localization: "بومی سازی",
     },
 
-    /** {@see ShopDashboard} **/
+    /** {@see SShopDashboard} **/
     dashboard: {
       title: "داشبورد فروشگاه",
       online_staff: "کارمندان آنلاین",
@@ -366,7 +367,7 @@ export default {
         action: "لینک دعوت من",
       },
 
-      /** {@see ShopInfoWidget} **/
+      /** {@see BDashboardShopTechnical} **/
       info: {
         title: "مشخصات",
         subtitle:
@@ -394,7 +395,7 @@ export default {
         hide_domains: "مخفی کردن دامنه ها",
         show_domains: "نمایش دامنه های من",
 
-        /** {@see ShopDomains} **/
+        /** {@see BDomainsList} **/
         table: {
           primary: "اصلی",
           url: "آدرس",
@@ -438,7 +439,7 @@ export default {
             "آیا می خواهید این دامنه را حذف نمایید؟ دقت نمایید برای جلوگیری از سوء استفاده دیگران مقادیر رکورد DNS دامنه خود را به حالت قبل بازگردانید.",
         },
       },
-      /** {@see ShopActiveOrdersWidget} **/
+      /** {@see BDashboardShopOrders} **/
       active_orders: {
         title: "سفارشات",
         title_small: "در صف انتظار",
@@ -448,13 +449,13 @@ export default {
         file: "سفارش فایل",
         service: "سفارش خدمات",
       },
-      /** {@see ShopProductsOverviewWidget} **/
+      /** {@see BDashboardShopProducts} **/
       products: {
         title: "محصولات",
         title_small: "کالا، خدمات، فایل",
         total_products: "تعداد تنوع کالا",
       },
-      /** {@see ShopFinanceWidget} **/
+      /** {@see BDashboardShopFinance} **/
       finance: {
         title: "مالی",
         title_small: "گزارش مالی",
@@ -484,7 +485,7 @@ export default {
           pay: "پرداخت",
         },
       },
-      /** {@see ShopUsersWidget} **/
+      /** {@see BDashboardShopCustomers} **/
       customers: {
         title: "کاربران فروشگاه",
         title_small: "گزارش فعالیت",
@@ -506,7 +507,7 @@ export default {
         title_small: "نصب شده",
       },
 
-      /** {@see ShopPerformanceWidget} **/
+      /** {@see BDashboardShopPerformance} **/
       performance: {
         title: "امروز",
         title_small: "تعداد کاربران و فروش",
@@ -518,12 +519,11 @@ export default {
       },
     },
 
-    /** {@see BackofficeProductsManagementPage} **/
+    /** {@see BPageShopProductsList} **/
     products: {
       title: "لیست محصولات",
       products_list: "لیست محصولات",
       products_menu: "مدیریت محصولات",
-      process_que: "درحال پردازش و افزودن محصولات",
       view_que_list: "لیست محصولات در صف",
       menu_products_list: "لیست محصولات",
       menu_export: "دانلود لیست محصولات",
@@ -533,7 +533,7 @@ export default {
         "فایل فهرست محصولات (فرمت CSV، XLS، XLSX) را در اینجا رها کنید تا وارد کردن محصولات انبوه شروع شود. مطمئن شوید که فایل دارای فرمت استاندارد فهرست محصولات سلدان است.",
       menu_advanced_options: "تنظیمات پیشرفته",
 
-      /** {@see WidgetProductCard} **/
+      /** {@see BProductWindowProductLarge} **/
       product_widget: {
         product_type: "نوع کالا",
         price: "قیمت",
@@ -558,12 +558,12 @@ export default {
       },
     },
 
-    /** {@see AdminShop_Blogs} **/
+    /** {@see BPageShopBlogs} **/
     blogs: {
       new: "جدید",
       blogs: "وبلاگ ها",
 
-      /** {@see AdminShopBlogsList} **/
+      /** {@see BPageShopBlogsList} **/
       list: {
         title: "مقالات من",
         subtitle:
@@ -587,9 +587,9 @@ export default {
       },
     },
 
-    /** {@see ShopProcessCenter} **/
+    /** {@see BPageShopOrders} **/
     orders: {
-      /** {@see ShopProcessCenterTemplate} **/
+      /** {@see BProcessCenterList} **/
       physical: {
         waiting_message: "در حال دریافت اطلاعات... لطفا منتظر بمانید",
         rejected: "رد شده است",
@@ -606,7 +606,7 @@ export default {
         },
       },
 
-      /** {@see ShopProcessCenter_Virtual} **/
+      /** {@see BPageShopOrdersVirtual} **/
       virtual: {
         waiting_message: "در حال دریافت اطلاعات... لطفا منتظر بمانید",
 
@@ -622,7 +622,7 @@ export default {
       },
     },
 
-    /** {@see AdminShopFinance} **/
+    /** {@see BPageShopFinance} **/
     auditing: {
       menu: {
         exchange: "نرخ ارز",
@@ -635,7 +635,7 @@ export default {
         valuations: "قیمت گذاری",
       },
 
-      /** {@see AdminShopFinance_Bill} **/
+      /** {@see BPageShopFinanceBill} **/
       invoice: {
         title: "حساب های پرداخت فروشگاه",
         subtitle:
@@ -681,7 +681,7 @@ export default {
           "برای جلوگیری از قطع سرویس، حساب خود را شارژ نمایید!",
       },
 
-      /** {@see AdminShopFinanceGateway} **/
+      /** {@see BPageShopFinanceGateways} **/
       gateway: {
         title: "درگاه های پرداخت",
         sub_title:
@@ -698,7 +698,7 @@ export default {
         },
       },
 
-      /** {@see AdminShopFinanceExchangeRate} **/
+      /** {@see BPageShopFinanceExchange} **/
       exchange: {
         title: "ارزهای فعال فروشگاه",
         subtitle:
@@ -744,9 +744,9 @@ export default {
       },
     }, // End of auditing
 
-    /** {@see AdminShopLogistics} **/
+    /** {@see BPageShopLogistic} **/
     logistic: {
-      /** {@see AdminShopLogistics_Warehouse} **/
+      /** {@see BPageShopLogisticWarehouse} **/
       warehouses: {
         title: "انبارها",
         subtitle: "لیست انبارهای من.",
@@ -773,7 +773,7 @@ export default {
         includes: "محتویات",
       },
 
-      /** {@see AdminShopLogistics_Inventory} **/
+      /** {@see BPageShopLogisticInventory} **/
       warehouse: {
         title: "انبار فروشگاه",
         sub_title: "این آدرس به عنوان مبدا ارسال مرسولات در نظر گرفته می شود.",
@@ -784,7 +784,7 @@ export default {
         },
       },
 
-      /** {@see AdminShopLogistics_Transportations} **/
+      /** {@see BPageShopLogisticShipping} **/
       delivery: {
         title: "روش های ارسال مرسولات",
 
@@ -846,7 +846,7 @@ export default {
       },
     }, // End of logistic
 
-    /** {@see ShopUsers} **/
+    /** {@see BPageShopCrm} **/
     users: {
       menu: {
         customers: "مشتریان",
@@ -856,7 +856,7 @@ export default {
         report: "گزارش",
       },
 
-      /** {@see ShopUsers_Report} **/
+      /** {@see BPageShopCrmReport} **/
       report: {
         title: "گزارش کاربران فروشگاه",
         sub_title:
@@ -866,7 +866,7 @@ export default {
         report_30days_by_location:
           "فعالیت کاربران بر اساس موقعیت جغرافیایی در 30 روز گذشته",
       },
-      /** {@see ShopUsers_Club} **/
+      /** {@see BPageShopCrmClub} **/
       club: {
         title: "باشگاه مشتریان",
         sub_title:
@@ -897,14 +897,14 @@ export default {
           update_success: "تغییرات بر روی باشگاه مشتریان اعمال گردید.",
         },
       },
-      /** {@see ShopUsers_FAQ} **/
+      /** {@see BPageShopCrmFaq} **/
       faq: {
         title: "سوالات متداول",
         sub_title: "پرسش های مطرح شده در بخش پرسش و پاسخ فروشگاه.",
       },
     }, // End of users
 
-    /** {@see AdminShopMarketing} **/
+    /** {@see BPageShopMarketing} **/
     marketing: {
       menu: {
         campaigns: "کمپین ها",
@@ -914,7 +914,7 @@ export default {
         funnel: "فیلتر",
       },
 
-      /** {@see AdminShopMarketing_Campaign} **/
+      /** {@see BPageShopMarketingCampaign} **/
       campaign: {
         name_input_name: "نام کمپین",
         name_input_placeholder: "عنوان کمیپن خود را وارد نمایید.",
@@ -934,7 +934,7 @@ export default {
       },
     }, // End of marketing
 
-    /** {@see CategoriesManagement} **/
+    /** {@see BPageShopClassification} **/
     categories: {
       title: "لیست دسته بندی ها",
       subtitle:
@@ -957,21 +957,6 @@ export default {
         items_count: "تعداد ایتم ها",
         home: "خانه",
       },
-      /** {@see WidgetCategoryCard} **/
-      category_widget: {
-        parent: "دسته مادر",
-        not_exist: "ندارد",
-        children: "دسته های زیر مجموعه",
-        delete_alert: {
-          title: "حذف دسته بندی فرزند",
-          message:
-            "آیا می خواهید {title} را از لیست زیر مجموعه های  {parent_title} خارج نمایید؟",
-          action: "حذف",
-        },
-        notifications: {
-          edit_success: "دسته بندی ویرایش شد.",
-        },
-      },
     }, // End of categories
 
     /** {@see AdminShopApps} **/
@@ -980,13 +965,13 @@ export default {
         app_store: "فروشگاه اپ",
         my_apps: "اپلیکیشن ها",
       },
-      /** {@see AdminShopApps_List} **/
+      /** {@see BPageShopSettingApplications} **/
       my_apps: {
         title: "اپلیکیشن های فعال فروشگاه",
         subtitle: "اپلیکیشن های سایت خود را در این بخش مدیریت نمایید.",
         all: "همه",
       },
-      /** {@see SBackofficeAppStoreShop} **/
+      /** {@see BAppShopStore} **/
       store: {
         title: "فروشگاه اپلیکیشن",
         subtitle:
@@ -998,7 +983,7 @@ export default {
       },
     }, // End of apps
 
-    /** {@see PagesManagement} **/
+    /** {@see BPageShopPages} **/
     pages: {
       menu: {
         new_page: "صفحه جدید",
@@ -1012,14 +997,14 @@ export default {
       },
     }, // End of pages
 
-    /** {@see AdminShopPermission} **/
+    /** {@see BPageShopPermission} **/
     permissions: {
       menu: {
         persons: "کارمندان",
         roles: "نقش ها",
         api: "API",
       },
-      /** {@see AdminShopPermission_Personnel} **/
+      /** {@see BPageShopPermissionStaff} **/
       shop_permissions: {
         menu: {
           users: "لیست کارمندان",
@@ -1044,7 +1029,7 @@ export default {
         },
       },
 
-      /** {@see AdminShopPermission_API} **/
+      /** {@see BPageShopPermissionApi} **/
       shop_api: {
         title: "کلیدهای دسترسی به فروشگاه",
         message:
@@ -1052,9 +1037,9 @@ export default {
       },
     }, // End of permissions
 
-    /** {@see AdminShop_Applications} **/
+    /** {@see BPageShopApplications} **/
     applications: {
-      /** {@see AdminShop_Applications_PWA} **/
+      /** {@see BPageShopApplicationsPwa} **/
       pwa: {
         title: "وب اپلیکیشن",
         sub_title: "وب اپلیکیشن فروشگاه خود را اینجا مشاهده نمایید.",
@@ -1063,7 +1048,7 @@ export default {
         ios_app: "اپلیکیشن iOS",
       },
 
-      /** {@see AdminShop_Applications_iOS} **/
+      /** {@see BPageShopApplicationsIos} **/
       ios: {
         title: "اپلیکیشن iOS",
         sub_title:
@@ -1071,7 +1056,7 @@ export default {
         message:
           "حداکثر حجم فایل :512 کیلوبایت، شما می توانید فایل هایی تا حجم 1MB را نیز آپلود نمایید به شرط آنکه سیستم فشرده سازی ما قادر به کاهش حجم آن تا 512KB باشد. تصویر آپلود شده توسط شما به صورت هوشمند به سایز مناسب تغییر داده خواهد شد.",
       },
-      /** {@see AdminShop_Applications_Android} **/
+      /** {@see BPageShopApplicationsAndroid} **/
       android: {
         title: "اپلیکیشن اندروید",
         sub_title: "اپلیکیشن اندروید خود را بسازید.",
@@ -1143,7 +1128,7 @@ export default {
       },
     },
 
-    /** {@see ShopEditPage} **/
+    /** {@see BPageShopSetting} **/
     edit: {
       menu: {
         delete: "حذف فروشگاه",
@@ -1172,7 +1157,7 @@ export default {
         delete_success: "فروشگاه حذف شد.",
       },
 
-      /** {@see ShopEdit_Info} **/
+      /** {@see BPageShopSettingInfo} **/
       info: {
         title_tab: {
           title: "تنظیمات نام و زبان",
@@ -1204,7 +1189,7 @@ export default {
         external_message:
           "آدرس تصویر نشان و لینک مربوط به آن را میتوانید در این بخش وارد نمایید. آدرس ها باید از یک سایت مورد تایید باشد.",
       },
-      /** {@see ShopEdit_Menu} **/
+      /** {@see BPageShopSettingMenus} **/
       edit_menu: {
         title: "منوها",
 
@@ -1247,7 +1232,7 @@ export default {
           "لینک شبکه های رسمی خود را در این بخش وارد نمایید. جهت تایید آدرس ها طبق راهنمای هر مورد عمل نمایید.",
       },
 
-      /** {@see ShopEdit_Time} **/
+      /** {@see BShopSettingWorkingDays} **/
       time: {
         title: "روزهای فعالیت کسب و کار شما",
         sub_title: "تنظیم روزها و ساعت های فعالیت فروشگاه",
@@ -1269,12 +1254,12 @@ export default {
     }, // End of edit
   }, // End of admin_shop
 
-  /** {@see CategorySelect} **/
+  /** {@see BCategoryInput} **/
   category_select: {
     category_input_no_category: "بدون دسته بندی",
   },
 
-  /** {@see AddProduct} **/
+  /** {@see BProductAddFull} **/
   add_product: {
     title_new: "محصول جدید",
     title_new_category: "دسته بندی جدید",
@@ -1303,7 +1288,7 @@ export default {
       title: "نوع محصول، خدمات و یا کالای خود را انتخاب نمایید.",
     },
 
-    /** {@see ProductEditInfo} **/
+    /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "دسته بندی",
 
@@ -1343,7 +1328,7 @@ export default {
         "درهنگام پردازش سفارش مقدار واقعی ممکن است با مقدار سفارش داده شده متفاوت باشد، سیستم هزینه این تفاوت را به صورت خودکار محاسبه کرده و به عنوان طلب یا بدهی مشتری برای وی ثب می نماید تا در سفارش بعدی اعمال گردد.",
     },
 
-    /** {@see ProductEditRatingsProsCons} **/
+    /** {@see BProductEditFeatures} **/
     rating_pros_cons: {
       title: "نظر سنجی",
       message:
@@ -1412,7 +1397,7 @@ export default {
       },
     },
 
-    /** {@see ProductEditSpec} **/
+    /** {@see BProductEditInputs} **/
     edit_spec: {
       title: "مشخصات",
       sub_title:
@@ -1446,7 +1431,7 @@ export default {
         spec_saved_success: "مشخصات محصول ذخیره شد.",
       },
     },
-    /** {@see ProductEditImages} **/
+    /** {@see BProductEditImages} **/
     edit_images: {
       title: "تصویر اصلی",
       main_image_input_nodata: "تصویر محصول را آپلود نمایید.",
@@ -1466,7 +1451,7 @@ export default {
           "ابتدا ویدیوی محصول خود را در یوتیوب آپلود کنید و سپس آدرس ویدیو یا شناسه ویدیو را در اینجا قرار دهید.",
       },
     },
-    /** {@see ProductEditPrice} **/
+    /** {@see BProductEditPrice} **/
     pricing: {
       edit_price: "قیمت گذاری",
       price_input: "قیمت",
@@ -1504,7 +1489,7 @@ export default {
       inputs_form: "ساختار اطلاعات دریافتی (ورودی)",
     },
 
-    /** {@see ProductEditExtra} **/
+    /** {@see BProductEditExtra} **/
     extra_edit: {
       physical: {
         title: "اطلاعات ارسال کالا",
@@ -1528,7 +1513,7 @@ export default {
     },
   },
 
-  /** {@see ProductAdminPage} **/
+  /** {@see BPageProduct} **/
   product_admin: {
     products_list: "لیست محصولات",
     product: "محصول",
@@ -1543,9 +1528,9 @@ export default {
       drop_shipping: "دراپ شیپینگ",
     },
 
-    /** {@see ProductDashboard} **/
+    /** {@see BPageProductDashboard} **/
     dashboard: {
-      /** {@see ProductInfoWidget} **/
+      /** {@see BProductInfoAbstractView} **/
       info: {
         title: "مشخصات",
         title_small: "محصول",
@@ -1556,23 +1541,22 @@ export default {
         outputs: "اطلاعات خروجی",
         user_data_form: "فرم اطلاعات خریدار",
       },
-      /** {@see ProductActiveOrdersWidget} **/
+      /** {@see BProductOrdersAbstractView} **/
       orders: {
         title: "سفارشات",
         title_small: "پردازش نشده",
         physical_orders_title: "سبدهای خریدی که این کالا در آن ها وجود دارد",
-        send_30days_title: "تعداد ارسال در 30 روز اخیر",
-        downloads_30days_title: "تعداد دانلودها در 30 روز اخیر",
-        virtual_orders_title: "سفارشات این کالا که در انتظار تکمیل هستند",
+        send_count_in_period: "تعداد ارسال بین {start} ~ {end}",
+        downloads_count_in_period: "تعداد دانلودها بین {start} ~ {end}",
       },
 
-      /** {@see ProductInventoryWidget} **/
+      /** {@see BProductInventoryAbstractView} **/
       inventory: {
         title: "موجودی",
         title_small: "انبار",
         total_sell: "تعداد کل فروش",
         total_sell_today: "فروش امروز",
-        total_sell_30days: "فروش ۳۰ روز اخیر",
+        total_sell_timespan: "مجموع فروش در بازه  {start} ~ {end}",
         chart: {
           labels: ["موجودی", "فروش"],
         },
@@ -1580,10 +1564,10 @@ export default {
         subscribers_title_small: "مجموع سفارشات مشترک شده",
       },
 
-      /** {@see ProductFinanceWidget} **/
+      /** {@see BProductFinanceCharts} **/
       finance: {
         title: "مالی",
-        title_small: "گزارش خرید ۱ ماه اخیر",
+        title_small: "گزارش خرید از {start} تا {end}.",
         select_mode_title: "نمایش بر اساس",
         modes: {
           sell: "فروش",
@@ -1599,11 +1583,11 @@ export default {
         sell_yesterday: "فروش دیروز",
       },
 
-      /** {@see ProductSurveyWidget} **/
+      /** {@see BProductRatingCharts} **/
       survey: {
         title: "امتیاز محصول",
         title_small: "گزارش رضایت خریداران",
-        total_participation: "تعداد کل مشارکت",
+        total_participation: "کل مشارکت",
         today_participation: "مشارکت امروز",
         last7days_participation: "مشارکت هفت روز اخیر",
         chart: {
@@ -1613,7 +1597,7 @@ export default {
         },
       },
 
-      /** {@see ProductInformWidget} **/
+      /** {@see BProductMarketingAbstractView} **/
       inform: {
         title: "انتظارات مشتریان",
         title_small: "در انتظار تخفیف یا موجود شدن",
@@ -1625,9 +1609,9 @@ export default {
       },
     },
 
-    /** {@see ProductInventoryPage} **/
+    /** {@see BPageProductInventory} **/
     inventory: {
-      /** {@see ProductVariantsList} **/
+      /** {@see BProductInventoryManagement} **/
       variants: {
         inventory_list: "لیست موجودی",
         add_variant: "افزودن تنوع محصول",
@@ -1648,7 +1632,7 @@ export default {
         },
       },
 
-      /** {@see VirtualItemsList} **/
+      /** {@see BProductInventoryManagementVirtual} **/
       variant_item: {
         price: "قیمت",
         same_as_product: "مشابه محصول اصلی",
@@ -1658,7 +1642,7 @@ export default {
           message: "آیا می خواهید این دسته از کالا را حذف نمایید؟",
         },
       },
-      /** {@see ProductVariantAddEdit} **/
+      /** {@see BProductVariantAdd} **/
       variant_add_edit: {
         title: "تعریف تنوع محصول",
         message: "شماره یکتای نوع محصول",
@@ -1680,7 +1664,7 @@ export default {
       },
     },
 
-    /** {@see ProductAdminEditArticle} **/
+    /** {@see BPageProductArticle} **/
     edit_article: {
       menu: {
         tags: "تگ ها",
@@ -1689,7 +1673,7 @@ export default {
     },
   }, // product_admin
 
-  /** {@see ProductExtraPhysicalForm} **/
+  /** {@see BProductExtraInput} **/
   product_extra_physical: {
     weight: "وزن کالا",
     weight_unit: "کیلوگرم",
@@ -1707,7 +1691,7 @@ export default {
       "زمان بسته بندی و آماده سازی محصول را برای همه تنوع ها تنظیم کنید.",
   },
 
-  /** {@see ProductImagesList} **/
+  /** {@see BProductImagesGallery} **/
   product_images_list: {
     upload_button: "تصویرهای بیشتر محصول",
     upload_an_image: "یک تصویر انتخاب نمایید.",
@@ -1725,7 +1709,7 @@ export default {
     discount: "تخفیف",
   },
 
-  /** {@see GiftCardTypeEdit} **/
+  /** {@see BGiftcardTypeAdd} **/
   gift_card_type_edit: {
     title_input: "عنوان",
     color_input: "رنگ کارت",
@@ -1743,7 +1727,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopLogisticsWarehouseEditor} **/
+  /** {@see BInventoryWarehouse} **/
   shop_warehouse_edit: {
     title: "افزودن انبار",
     message: "آدرس و مشخصات انبار خود را جهت محاسبه هزینه ارسال وارد نمایید.",
@@ -1760,7 +1744,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopLogisticsWarehouseInventoryList} **/
+  /** {@see BPageShopLogisticInventoryList} **/
   inventory_list: {
     search_input: "جستجو در محصولات...",
     search_input_title: "جستجو در میان کالاهای فروشگاه",
@@ -1808,7 +1792,7 @@ export default {
     },
   },
 
-  /** {@see ProductSpecView} **/
+  /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "ذخیره خودکار",
   },
@@ -1913,7 +1897,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopCampaignPage} **/
+  /** {@see BPageCampaign} **/
   campaign: {
     title: "کمپین",
     menu: {
@@ -1925,7 +1909,7 @@ export default {
       ads: "تبلیغات",
       finance: "مالی",
     },
-    /** {@see AdminShopCampaignPage_Dashboard} **/
+    /** {@see BPageCampaignDashboard} **/
     dashboard: {
       title: "داشبورد",
       status: "وضعیت کمپین",
@@ -1940,7 +1924,7 @@ export default {
       conversion_over_time: "نرخ تبدیل در طی زمان",
       total_campaign_sell: "مجموع فروش با این کمپین",
     },
-    /** {@see AdminShopCampaignPage_Finance} **/
+    /** {@see BPageCampaignFinance} **/
     finance: {
       title: "گزارش مالی",
       campaign_revenue: "درآمد کمپین",
@@ -1949,20 +1933,20 @@ export default {
       payments_over_time: "میزان فروش در طی زمان",
       all_links: "همه لینک ها",
     },
-    /** {@see AdminShopCampaignPage_Landing} **/
+    /** {@see BPageCampaignLanding} **/
     landing: {
       empty_message: "یک صفحه   برای کمپین خود انتخاب نمایید!",
       set_landing: "افزودن صفحه لندینگ",
       create_landing: "ساخت صفحه لندینگ جدید",
     },
 
-    /** {@see AdminShopCampaignPage_Links} **/
+    /** {@see BPageCampaignLinks} **/
     links: {
       title: "لینک های کمپین",
       url_input_message: "آدرس صفحه مورد نظر را وارد نمایید",
     },
 
-    /** {@see AdminShopCampaignPage_Setting} **/
+    /** {@see BPageCampaignSetting} **/
     setting: {
       menu: {
         config: "پیکربندی",
@@ -2013,7 +1997,8 @@ export default {
         simple: "ساده",
         dark_input: "تم تیره؟",
         icon_input: "آیکون",
-        icon_input_hint: "نام آیکون متریال دیزاین یا fontawsom : fas fa-star",
+        icon_input_hint:
+          "نام آیکون متریال دیزاین یا fontawsom : fa:fas fa-star",
         anim_input: "آدرس انیمیشن",
         anim_input_message: "آدرس فایل انیمیشن lottie",
         preview: "پیش نمایش",
@@ -2042,7 +2027,7 @@ export default {
     },
   },
 
-  /** {@see AddCategory} **/
+  /** {@see BCategoryAdd} **/
   add_category: {
     title_edit: "ویرایش دسته بندی",
     title_update: "افزودن دسته بندی به لیست",
@@ -2085,7 +2070,7 @@ export default {
       edit_success: "دسته ویرایش شد.",
       delete_success: "دسته {title} حذف شد.",
     },
-    /** {@see CategoriesManagementFilter} **/
+    /** {@see BCategoryFilterEditor} **/
     edit_filter: {
       spec_input: "لیست عناوین مشخصه های فنی",
       spec_input_message: "لیست عناوین مشصه های فنی قابل فیلتر کردن",
@@ -2107,7 +2092,7 @@ export default {
     },
   },
 
-  /** {@see AppsList} **/
+  /** {@see BAppShopList} **/
   apps_list: {
     nodata: "اپلیکیشنی بر روی فروشگاه شما نصب نیست.",
     inactive: "غیر فعال",
@@ -2115,7 +2100,7 @@ export default {
     app_store: "نصب اپلیکیشن",
   },
 
-  /** {@see AddShop} **/
+  /** {@see BShopAdd} **/
   add_shop: {
     menu: {
       shop_title: "عنوان فروشگاه",
@@ -2134,6 +2119,8 @@ export default {
       "نام لاتین، حتما از فاصله و حروف الفبای انگلیسی استفاده نمایید، درصورت عدم استفاده از زبان انگلیسی ممکن است نام فروشگاه به درستی نشان داده نشود.",
     description_input: "توضیح درباره فروشگاه",
     description_input_message: "توضیح کوتاه در رابطه با کسب و کارتان بنویسید.",
+    description_input_tips:
+      "این توضیحات در پاورقی فروشگاه شما نمایش داده خواهد شد و همچنین به عنوان برچسب متا توضیحات پیش‌فرض صفحات فروشگاه شما استفاده می‌شود.",
     address_input: "آدرس فروشگاه",
     address_input_message: "آدرس دقیق محل فروشگاه را وارد نمایید.",
 
@@ -2171,7 +2158,7 @@ export default {
     },
   },
 
-  /** {@see VirtualItemsList} **/
+  /** {@see BProductInventoryManagementVirtual} **/
   virtual_items_list: {
     add_virtual_item: "افزودن آیتم مجازی",
     add_virtual_item_desc:
@@ -2196,7 +2183,7 @@ export default {
     },
   },
 
-  /** {@see AddVirtualItem} **/
+  /** {@see BProductVirtualItemAdd} **/
   add_virtual_item: {
     title_edit: "ویرایش مقادیر",
     title_add: "افزودن آیتم به محصول",
@@ -2210,7 +2197,7 @@ export default {
     },
   },
 
-  /** {@see ShopProcessCenterVirtualOrderPage} **/
+  /** {@see BPageOrderVirtual} **/
   virtual_process_center: {
     title: "مرکز پردازش",
     sub_title: "پردازش سفارش",
@@ -2222,13 +2209,7 @@ export default {
       order: "سفارش",
     },
 
-    /** {@see OrderVirtualListWidget} **/
-    list_widget: {
-      title: "مشخصات سفارش",
-      product_name: "نام محصول",
-    },
-
-    /** {@see VirtualOutputsWidget} **/
+    /** {@see BOrderVirtualItem} **/
     outputs_widget: {
       title: "اطلاعات خروجی",
       table: {
@@ -2247,7 +2228,7 @@ export default {
     },
   },
 
-  /** {@see ShopProcessCenterFileOrderPage} **/
+  /** {@see BPageOrderFile} **/
   file_process_center: {
     title: "مرکز پردازش",
     sub_title: "پردازش سفارش",
@@ -2258,7 +2239,7 @@ export default {
     },
   },
 
-  /** {@see OrderPageDashboardTemplate} **/
+  /** {@see BOrderDashboard} **/
   process_order_page_dashboard: {
     title: "پردازش سفارشات",
     cancel_order_action: "لغو سفارش",
@@ -2281,10 +2262,10 @@ export default {
     },
   },
 
-  /** {@see ShopProcessCenterPhysicalOrderPage} **/
-  /** {@see ShopProcessCenterVirtualOrderPage} **/
-  /** {@see ShopProcessCenterFileOrderPage} **/
-  /** {@see ShopProcessCenterServiceOrderPage} **/
+  /** {@see BPageOrderPhysical} **/
+  /** {@see BPageOrderVirtual} **/
+  /** {@see BPageOrderFile} **/
+  /** {@see BPageOrderService} **/
   process_center: {
     title: "مرکز پردازش",
     sub_title: "پردازش سفارش",
@@ -2317,7 +2298,7 @@ export default {
       waiting_for_pay: "در انتظار پرداخت",
       processing_payment: "پردازش تراکنش",
       processing_cancel: "رد تراکنش",
-      require_capture:'نیاز به تایید',
+      require_capture: "نیاز به تایید",
 
       paid: "پرداخت شده",
       cod_pay_info:
@@ -2425,7 +2406,7 @@ export default {
         pay_fail_message: "پرداخت تایید نمی شود.",
       },
     },
-    /** {@see OrderBasketListWidget} **/
+    /** {@see BOrderDashboardCart} **/
     basket_list: {
       checklist: [
         "بررسی موجودی کالا.",
@@ -2441,7 +2422,7 @@ export default {
         "مشتری شما یک محصول برنده شده است. این محصول را به همراه سفارش، ارسال نمایید.",
     },
 
-    /** {@see OrderPreparingWidget} **/
+    /** {@see BOrderDashboardPreparing} **/
     preparing: {
       title: "آماده سازی",
       packing_weight: "وزن بسته بندی",
@@ -2450,6 +2431,9 @@ export default {
       distance_warning: "از محدوده فاصله مجاز فراتر رفته است.",
       weight_warning: "از حداکثر وزن مجاز فراتر رفته است.",
       volume_warning: "بیشتر از حداکثر ابعاد قابل حمل است.",
+      items_weight_calculation: "وزن ترکیبی تمام موارد {weight} {unit} است",
+      not_available_message:
+        "زمانی که درخواست آدرس حمل و نقل غیرفعال شده و همچنین کاربر پس از خرید آدرس را وارد نکرده باشد، در دسترس نیست!",
 
       message:
         "درصورتی که سفارش آماده ارسال است بر روی کلید<b> سفارش آماده ارسال است</b> کلیک نمایید.",
@@ -2514,11 +2498,11 @@ export default {
       back: "درگاه ها",
     },
 
-    /** {@see AdminShopGatewayManagement_DashboardPage} **/
+    /** {@see BPageGatewayDashboard} **/
     dashboard: {
       title: "مدیریت درگاه",
 
-      /** {@see GatewayDataWidget} **/
+      /** {@see BGatewayPaymentsChart} **/
       gateway_data_widget: {
         title: "گزارش پرداخت از",
         title_small: "درگاه",
@@ -2531,7 +2515,7 @@ export default {
         },
       },
 
-      /** {@see GatewayInfoWidget} **/
+      /** {@see BGatewayOverview} **/
       gateway_info_widget: {
         title: "مشخصات",
         title_small: "درگاه",
@@ -2558,7 +2542,7 @@ export default {
       },
     },
 
-    /** {@see AdminShopGatewayManagement_EditPage} **/
+    /** {@see BPageGatewayEdit} **/
     edit: {
       title: "ویرایش درگاه",
       menu: {
@@ -2567,7 +2551,7 @@ export default {
       edit_action: "ویرایش درگاه",
     },
 
-    /** {@see AdminShopGatewayManagementPage_Transactions} **/
+    /** {@see BPageGatewayTransactions} **/
     transactions: {
       title: "تراکنش ها",
       table: {
@@ -2586,7 +2570,7 @@ export default {
     },
   },
 
-  /** {@see AddEditGatewayForm} **/
+  /** {@see BGatewayAdd} **/
   edit_gateway: {
     public_keys: "کلید های عمومی",
     private_keys: "کلید های خصوصی (محرمانه)",
@@ -2611,7 +2595,7 @@ export default {
     developer_setting: "تنظیمات توسعه دهنده",
   },
 
-  /** {@see AdminGiftCardPage} **/
+  /** {@see BPageGiftcard} **/
   gift_card: {
     title: "کارت های هدیه",
     menu: {
@@ -2627,7 +2611,7 @@ export default {
     dashboard: {
       title: "پنل مدیریت کارت هدیه",
 
-      /** {@see GiftCardAmountWidget} **/
+      /** {@see BGiftcardStatisticsPayment} **/
       amount_widget: {
         title: "پرداخت با کارت",
         title_small: "30 روز",
@@ -2644,7 +2628,7 @@ export default {
         total_pay_today: "مقدار پرداختی امروز",
       },
 
-      /** {@see GiftCardCountWidget} **/
+      /** {@see BGiftcardStatisticsCount} **/
       count_widget: {
         title: "تعداد کارت های صادر شده",
         title_small: "30 روز",
@@ -2659,7 +2643,7 @@ export default {
         },
       },
 
-      /** {@see GiftCardExportWidget} **/
+      /** {@see BGiftcardExport} **/
       export: {
         title: "دریافت خروجی",
         cards_list: "دریافت لیست کارت ها",
@@ -2697,7 +2681,7 @@ export default {
       },
     }, // End of cards
 
-    /** {@see GiftCardEdit} **/
+    /** {@see BGiftcardAdd} **/
     gift_card_edit: {
       title: "ایجاد کارت هدیه",
       validity: "اعتبار",
@@ -2719,7 +2703,7 @@ export default {
     },
   },
 
-  /** {@see AdminDiscountCodePage} **/
+  /** {@see BPageDiscountCode} **/
   shop_discount: {
     title: "کد تخفیف",
     up_to: "تا سقف",
@@ -2729,7 +2713,7 @@ export default {
       back: "کدهای تخفیف",
     },
 
-    /** {@see AdminDiscountCodeDashboardPage} **/
+    /** {@see BPageDiscountCodeDashboard} **/
     dashboard: {
       title: "پنل مدیریت کد تخفیف",
       chart_amount_buy: {
@@ -2747,7 +2731,7 @@ export default {
     },
   },
 
-  /** {@see AdminCouponPage} **/
+  /** {@see BPageCoupon} **/
   shop_coupon: {
     title: "کوپن ها",
     up_to: "تا تاریخ",
@@ -2757,7 +2741,7 @@ export default {
       orders: "سفارشات",
     },
 
-    /** {@see AdminCouponDashboardPage} **/
+    /** {@see BPageCouponDashboard} **/
     dashboard: {
       title: "پنل مدیریت کوپن",
       chart_amount_buy: {
@@ -2775,7 +2759,7 @@ export default {
     },
   },
 
-  /** {@see AdminOfferPage} **/
+  /** {@see BPageOffer} **/
   shop_offer: {
     title: "پیشنهاد ویژه",
     up_to: "تا تاریخ",
@@ -2785,7 +2769,7 @@ export default {
       back: "پیشنهاد های",
     },
 
-    /** {@see AdminOfferDashboardPage} **/
+    /** {@see BPageOfferDashboard} **/
     dashboard: {
       title: "پنل مدیریت پیشنهاد ویژه",
       chart_amount_buy: {
@@ -2803,7 +2787,7 @@ export default {
     },
   },
 
-  /** {@see WidgetAccount} **/
+  /** {@see BAccountCard} **/
   account_card: {
     pay_create_receipt: "پرداخت مبلغ فعال سازی",
     balance: "موجودی",
@@ -2860,7 +2844,7 @@ export default {
     "connect-confirmed": "سفارش تایید شد.",
 
     "email-vendor":
-      "🔔 ایمیل اطلاع رسانی سفارش به <b>{vendor}</b> | ارسال شد {email}.",
+      "🔔 ایمیل اطلاع رسانی سفارش به <b>{vendor}</b> ╏ ارسال شد {email}.",
     "vendor-payout": "💸 تسویه با فروشنده.",
   },
 
@@ -2870,7 +2854,7 @@ export default {
     last_days: "{days} روز پیش",
   },
 
-  /** {@see SBackofficeProductsManagementView} **/
+  /** {@see BProductsWindow} **/
   products_select: {
     move_category: "انتقال دسته بندی<b> {category} </b>به یک دسته دیگر",
     move_product: "انتقال محصول<b> {product} </b>به دسته بندی",
@@ -2882,30 +2866,105 @@ export default {
       copy_success: "محصول کپی شد.",
       change_category_success: "دسته بندی محصول ویرایش شد.",
     },
+
+    filter_box: {
+      no_root_filter_message:
+        "محصولاتی در ریشه دارید اما فیلتری تنظیم نشده است.",
+      has_root_filter_message: "فیلترهایی برای دسته‌بندی ریشه تنظیم کرده‌اید.",
+      set_filter_message: "می‌توانید فیلترها را تنظیم کنید.",
+      edit_action: "ویرایش فیلترهای ریشه",
+      clear_action: "پاک کردن فیلترهای ریشه",
+    },
+    ai: {
+      title: "دستیار هوش مصنوعی محصول",
+    },
+
+    menu: {
+      select_all_products: "انتخاب تمام محصولات",
+      unselect: "لغو انتخاب",
+      sort_categories: "مرتب‌سازی / تنظیم دسته‌بندی‌ها",
+      subscription_vendor_not_support_message:
+        "امکان تخصیص فروشنده برای محصولات اشتراکی وجود ندارد! محصولات اشتراکی همیشه باید صاحب فروشنده داشته باشند!",
+      vendor_owner_not_assignable_message:
+        "امکان تخصیص فروشنده برای محصولاتی که دارای صاحب فروشنده هستند، وجود ندارد!",
+      category_assign_profile: "تخصیص پروفایل به محصولات در دسته‌بندی",
+      category_assign_profile_subtitle:
+        "مالیات، حمل و نقل، راهنما، گارانتی، ...",
+      bulk_discount: "تخفیف عمده",
+      bulk_discount_subtitle: "اعمال تخفیف بر تمام محصولات.",
+    },
   },
 
-  /** {@see ShopProcessCenterPhysicalOrderPage_Track} **/
+  /** {@see BProductsPanel} **/
+  product_panel: {
+    excel_import: {
+      title: "فایل اکسل / CSV را اینجا رها کنید.",
+      select_file: "انتخاب فایل",
+      max_file: "حداکثر اندازه فایل: 20 مگابایت",
+      download_sample: "دانلود نمونه",
+    },
+    ai: {
+      title: "دستیار هوش مصنوعی محصول",
+    },
+  },
+
+  /** {@see BOrderDashboardVendor} **/
+  order_vendor: {
+    has_panel: "دارای پنل",
+    no_panel: "بدون پنل",
+    manual_action: {
+      title: "اقدامات دستی",
+      message:
+        "می‌توانید وضعیت سفارش فروشنده را به صورت دستی به‌روزرسانی کنید.",
+      guides: [
+        "فروشندگان دارای دسترسی به پنل می‌توانند تکمیل (زیرسفارش‌ها) خود را در داشبورد اختصاصی‌شان به‌روزرسانی کنند.",
+        "اگر فروشنده دسترسی به پنل نداشته باشد، وضعیت سفارش فروشنده به صورت خودکار با تغییر وضعیت سبد خرید تغییر خواهد کرد.",
+        "می‌توانید سفارشات فروشنده را به صورت دستی به‌روزرسانی کنید.",
+      ],
+    },
+    payouts: {
+      title: "پرداخت‌ها",
+      message: "مدیریت پرداخت‌ها و تراکنش‌های فروشنده.",
+
+      charge_tooltip: "شارژ کیف پول فروشنده.",
+      withdraw_tooltip: "برداشت از کیف پول فروشنده.",
+      payout_tooltip: "پرداخت به فروشنده.",
+    },
+  },
+
+  /** {@see BOrderVendorPaymentManagement} **/
+  order_vendor_payment: {
+    message: "این نمای کلی از تراکنش‌ها در کیف پول مجازی شما در بازار است.",
+    vendor_wallets: "کیف پول‌های فروشنده",
+    my_wallets: "کیف پول‌های من",
+  },
+
+  /** {@see BPageOrderPhysicalTrack} **/
   physical_order_track: {
     title: "گزارشات و ارزیابی ریسک",
   },
-  /** {@see ShopProcessCenterVirtualOrderPage_Track} **/
+  /** {@see BPageOrderVirtualTrack} **/
   virtual_order_track: {
     title: "گزارشات و ارزیابی ریسک",
   },
-  /** {@see ShopProcessCenterVirtualOrderPage_Timeline} **/
+  /** {@see BPageOrderVirtualTimeline} **/
   virtual_order_timeline: {
     title: "جدول زمانی",
   },
-  /** {@see ShopProcessCenterPhysicalOrderPage_Timeline} **/
+  /** {@see BPageOrderPhysicalTimeline} **/
   physical_order_timeline: {
     title: "جدول زمانی",
   },
 
-  /** {@see ShopProcessCenterPhysicalOrderPage_Inputs} **/
+  /** {@see BPageOrderPhysicalInput} **/
   physical_order_inputs: {},
 
-  /** {@see SBackofficeOrderTimeline} **/
+  /** {@see BOrderTimeline} **/
   order_timeline: {
+    message:
+      "در این بخش، شما می‌توانید جدول زمانی رویدادهای مرتبط با سفارش، اجرای سفارش، پرداخت و وضعیت‌های مربوط به آن‌ها را مشاهده کنید. علاوه بر این، می‌توانید سفارش‌های ارسال شده به مشتریان و فروشندگان را نیز بررسی کنید.",
+    add_note_subtitle: "پیامی بنویسید و همکاران خود را ذکر کنید.",
+
     message_input: "متن پیام",
     pin_action: "چسباندن به بالا",
     unpin_action: "حذف پین",
@@ -2929,7 +2988,7 @@ export default {
     },
   },
 
-  /** {@see Accounts} **/
+  /** {@see BPageShuttleWalletAccounts} **/
   accounts: {
     title: "کیف پول من",
     message:
@@ -2955,7 +3014,7 @@ export default {
       received: "دریافتی",
     },
 
-    /** {@see UserGiftSend} **/
+    /** {@see BPageShuttleWalletGiftsSend} **/
     send_gifts: {
       title: "لیست هدایای ارسالی",
       sub_title:
@@ -2971,7 +3030,7 @@ export default {
       },
     },
 
-    /** {@see UserGiftReceived} **/
+    /** {@see BPageShuttleWalletGiftsReceived} **/
     received_gifts: {
       title: "لیست دریافتی ها",
       sub_title: "تمامی هدایای دریافتی از طرف سلدان و دیگر افراد به شما.",
@@ -2988,7 +3047,7 @@ export default {
     },
   },
 
-  /** {@see GetGiftDialog} **/
+  /** {@see BAccountGiftRedeem} **/
   get_gift_dialog: {
     title: "دریافت هدیه",
     more: "بیشتر..",
@@ -3003,7 +3062,7 @@ export default {
         "مبلغ هدیه {amount} {currency}  به حساب شما واریز گردید.`",
     },
   },
-  /** {@see SendGiftDialog} **/
+  /** {@see BAccountGiftSend} **/
   send_gift_dialog: {
     title: "ارسال هدیه",
     account_from_input: "حساب مبدا",
@@ -3023,7 +3082,7 @@ export default {
     },
   },
 
-  /** {@see AccountList} **/
+  /** {@see BAccountInput} **/
   account_list: {
     account_input: "شماره حساب",
     account_input_message: "مبالغ هدایا برای این ارز به این حساب واریز میگردد.",
@@ -3101,7 +3160,7 @@ export default {
     },
   },
 
-  /** {@see BasicInformation} **/
+  /** {@see BPageShuttleIdentity} **/
   basic_information: {
     title: "اطلاعات هویتی و پروفایل من",
     email: "آدرس ایمیل",
@@ -3156,7 +3215,7 @@ export default {
       "درخواست تایید آدرس محل سکونت شما در صف انجام قرار دارد.",
     add_residential_address: "آدرس خود  و مدارک اثبات آن را اضافه کنید.",
   },
-  /** {@see PhoneVerifyDialog} **/
+  /** {@see BUserPhoneVerify} **/
   phone_verify: {
     title: "شماره تلفن همراه",
     step1_title: "شماره تلفن همراه خود را وارد نمایید.",
@@ -3174,7 +3233,7 @@ export default {
     },
   },
 
-  /** {@see UserCompanies} **/
+  /** {@see BPageShuttleCompanies} **/
   companies: {
     title: "حساب های تجاری من",
     message:
@@ -3182,7 +3241,7 @@ export default {
     new_company: "شرکت جدید",
   },
 
-  /** {@see AddCompany} **/
+  /** {@see BCompanyAdd} **/
   add_company: {
     name_input: "نام شرکت",
     website_input: "وب سایت",
@@ -3214,7 +3273,7 @@ export default {
     personal_keys_message:
       "شما می توانید کلیدهای دسترسی به حساب کاربری خود را در اینجا ایجاد نمایید. دقت نمایید این کلیدها امکان دسترسی به حساب شما را خواهند داشت و تنها در صورتی این کلیدها را ایجاد و مصرف نمایید که دقیقا از کاری که می کنید اطلاع داشته باشید.",
   },
-  /** {@see UserSecurityControl} **/
+  /** {@see BPageShuttleSecurity} **/
   user_security_control: {
     title: "امنیت حساب",
     message: "تنظیمات امنیتی حساب خود را در اینجا می توانید انجام دهید.",
@@ -3522,7 +3581,7 @@ export default {
     },
   },
 
-  /** {@see AddApp} **/
+  /** {@see BAppAdd} **/
   add_app: {
     category_input: "دسته بندی",
     code_input: "کد",
@@ -3643,7 +3702,7 @@ export default {
     SelldoneStorage: "فضای ذخیره رسمی سلدان",
   },
 
-  /** {@see AccountPage} **/
+  /** {@see BPageAccount} **/
   account_page: {
     title: "حساب",
     menu: {
@@ -3655,7 +3714,7 @@ export default {
       cards: "حساب متصل",
     },
 
-    /** {@see AccountPage_Transactions} **/
+    /** {@see BPageAccountTransactions} **/
     transactions: {
       title: "تراکنش های حساب",
       detail: {
@@ -3679,7 +3738,7 @@ export default {
       },
     },
 
-    /** {@see AccountPage_Transfer} **/
+    /** {@see BPageAccountTransfer} **/
     transfer: {
       title: "انتقال شارژ",
       form: {
@@ -3689,7 +3748,7 @@ export default {
           "در انتقال وجه دقت نمایید، در صورت تکمیل انتقال وجه توسط شما امکان بازگشت وجود نخواهد داشت.",
       },
     },
-    /** {@see AccountPage_Deposit} **/
+    /** {@see BPageAccountDeposit} **/
     deposit: {
       form: {
         title: "شارژ حساب",
@@ -3706,7 +3765,7 @@ export default {
         gateway_message: "در حال اتصال به درگاه پرداخت.",
       },
     },
-    /** {@see AccountPage_Edit} **/
+    /** {@see BPageAccountEdit} **/
     setting: {
       title: "تنظیمات حساب",
       account_name_input: "نام حساب",
@@ -3716,7 +3775,7 @@ export default {
     },
   },
 
-  /** {@see ReceiptPaymentDialog} **/
+  /** {@see BAccountReceiptPaymentDialog} **/
   receipt_payment_dialog: {
     title: "پرداخت رسید",
     /*  message: 'در صورتی که اطلاعات زیر صحیح است کلید تایید تراکنش را زده تا تراکنش صورت گیرد.',
@@ -3729,7 +3788,7 @@ export default {
     pay_action: 'پرداخت از طریق درگاه',
     pay_internal_action: 'پرداخت از حساب سلدان',*/
   },
-  /** {@see TransactionForm} **/
+  /** {@see BAccountTransactionForm} **/
   transaction_form: {
     title: "انتقال وجه",
     from_input: "شماره حساب مبدا",
@@ -3777,9 +3836,9 @@ export default {
     },
   },
 
-  /** {@see PriceCalculator} **/
+  /** {@see OPlanCalculator} **/
   price_calculator: {
-    title: "ماشین حساب | بر اساس نیاز خود بخرید",
+    title: "ماشین حساب ╏ بر اساس نیاز خود بخرید",
     description:
       "با وارد کردن میزان حدودی فروش ماهانه خود، بهترین پلن توسط سیستم برای شما محاسبه می گردد. همچنین میزان صرفه جویی ماهانه با خرید این پلن را می توانید در همین بخش مشاهده نمایید.",
     sale_input: "فروش ماهانه شما",
@@ -3788,7 +3847,7 @@ export default {
     show_hypernova_mode: "میزان فروش من بیشتر از این مبالغ است!",
   },
 
-  /** {@see PriceCard} **/
+  /** {@see OPlanFeaturesCard} **/
   price_card: {
     billed_monthly: "صورت حساب ماهانه به مبلغ {amount}.",
     billed_yearly: "صورت حساب سالانه به مبلغ {amount}.",
@@ -3796,12 +3855,12 @@ export default {
     select_your_store: "انتخاب فروشگاه",
   },
 
-  /** {@see ShopSessionsWorldMap} **/
+  /** {@see BSessionsMap} **/
   shop_session_widget: {
     total_sessions: "کل کاربران(sessions)",
   },
 
-  /** {@see UserActivityWorldMap} **/
+  /** {@see BDashboardShopCustomersActivityMap} **/
   user_activities_keys: {
     add_baskets: "افزودن به سبد خرید",
     remove_baskets: "حذف از سبد خرید",
@@ -3809,7 +3868,7 @@ export default {
     products_views: "نمایش محصول",
   },
 
-  /** {@see ShopVisitorsWidget} **/
+  /** {@see BDashboardShopAcquisition} **/
   shop_visitors_widget: {
     title: "گزارش بازدید کنندگان",
     new_visitors: "بازدید کننده جدید",
@@ -3820,7 +3879,7 @@ export default {
     from_previous_7_days: "از 7 روز پیش",
   },
 
-  /** {@see AppLevelSelector}   {@see AppLevel}  **/
+  /** {@see BUserAppLevel}   {@see AppLevel}  **/
   app_levels: {
     title: "سطح  تجربه کاربر",
     Newbie: "تازه وارد",
@@ -3928,7 +3987,7 @@ export default {
       title: "تاریخچه ذخیره شده صفحه",
     },
 
-    /** {@see SPageEditor} **/
+    /** {@see LPageEditor} **/
     design: {
       themes: {
         title: "دستیار طراحی صفحات لندینگ",
@@ -3946,7 +4005,7 @@ export default {
       no_category: "بدون دسته بندی",
     },
 
-    /** {@see SPageBuilderSeo} **/
+    /** {@see LPageEditorSeo} **/
     seo: {
       message: "تنظیمات SEO به صورت خودکار توسط موتور SEO سلدان انجام می گیرد.",
     },
@@ -3968,7 +4027,7 @@ export default {
     end: "زمان پایان",
   },
 
-  /** {@see Help} **/
+  /** {@see OPageHelp} **/
   help: {
     menu: "منو",
     more_helps: "بیشتر بخوانید",
@@ -4041,17 +4100,18 @@ export default {
     },
   },
 
-  /** {@see SBackofficeAdminShopLayout} **/
+  /** {@see BLayoutBackofficeShop} **/
 
   admin_shop_layout: {
     download_txt: "دانلود فایل متنی داده ها",
     download_excel: "دانلود فایل اکسل داده ها",
   },
-  /** {@see UserPreferences} **/
+  /** {@see BUserPreferences} **/
   user_preferences: {
     access: "دسترسی",
     template: "قالب",
     feedback: "بازخورد",
+    date_time: "تاریخ و زمان",
 
     company: "حساب های تجاری",
     company_message:
@@ -4069,7 +4129,7 @@ export default {
     automation_message: "نمایش تب اتوماسیون در داشبورد فروشگاه.",
   },
 
-  /** {@see ShopEdit_Locations} **/
+  /** {@see BPageShopSettingLocations} **/
   shop_locations: {
     title: "محدوده جغرافیایی تحت پوشش",
     sub_title:
@@ -4094,7 +4154,7 @@ export default {
     not_original: "کالای غیر اصل",
   },
 
-  /** @see AddProductStudio **/
+  /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "افزودن جزئیات بیشتر",
     add_by_sku: "افزودن سریع با بارکد",
@@ -4109,7 +4169,7 @@ export default {
     title: "قراردادهای همکاری در فروش",
     message: "لیست قراردادهای همکاری در فروش من با فروشگاه ها.",
   },
-  /** @see AdminShopMarketing_Affiliate **/
+  /** @see BPageShopMarketingAffiliate **/
   affiliates: {
     title: "همکاران فروش",
     subtitle:
@@ -4163,7 +4223,7 @@ export default {
       date: "تاریخ",
     },
   },
-  /** @see AdminOfferPage_Orders **/
+  /** @see BPageOfferOrders **/
   offer_orders: {
     title: "سفارشات با پیشنهاد ویژه",
     table: {
@@ -4176,7 +4236,7 @@ export default {
     },
   },
 
-  /** @see AdminCouponPage_Orders **/
+  /** @see BPageCouponOrders **/
   coupon_orders: {
     title: "سفارشات با کوپن",
     table: {
@@ -4187,7 +4247,7 @@ export default {
       date: "تاریخ",
     },
   },
-  /** @see AdminDiscountPage_Orders **/
+  /** @see BPageDiscountCodeOrders **/
   discount_code_orders: {
     title: "سفارشات با کد تخفیف",
     table: {
@@ -4199,7 +4259,7 @@ export default {
     },
   },
 
-  /** @see AdminShopIncentives **/
+  /** @see BPageShopIncentives **/
   incentives: {
     discount_code: "کد تخفیف",
     coupon: "کوپن",
@@ -4208,7 +4268,7 @@ export default {
     lottery: "بازی",
   },
 
-  /** {@see AdminShopDiscountCode} **/
+  /** {@see BPageShopIncentivesDiscountCode} **/
   discount_codes: {
     title: "کد تخفیف",
     sub_title:
@@ -4228,7 +4288,7 @@ export default {
       count: "تعداد",
       unit: "عدد",
     },
-    /** {@see DiscountCodeEditForm} **/
+    /** {@see BDiscountCodeAdd} **/
     dialog: {
       title_edit: "ویرایش کد تخفیف",
       title_add: "کد تخفیف جدید",
@@ -4266,7 +4326,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopGiftCard} **/
+  /** {@see BPageShopIncentivesGiftcard} **/
   gift_cards: {
     title: "کارت هدیه",
     sub_title:
@@ -4298,7 +4358,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopCoupon} **/
+  /** {@see BPageShopIncentivesCoupon} **/
   coupons: {
     title: "کوپن ها",
     sub_title:
@@ -4322,7 +4382,7 @@ export default {
     },
   },
 
-  /** {@see CouponEditForm} **/
+  /** {@see BCouponAdd} **/
   coupon_edit: {
     title_edit: "ویرایش کوپن",
     title_add: "کوپن جدید",
@@ -4385,7 +4445,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopOffer} **/
+  /** {@see BPageShopIncentivesOffer} **/
   offers: {
     title: "پیشنهاد ویژه",
     sub_title:
@@ -4463,7 +4523,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopCampaignPage_Ads} **/
+  /** {@see BPageCampaignAds} **/
   campaign_ads: {
     menu: {
       banner: "بنر",
@@ -4473,7 +4533,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopMarketing_EmailMarketing} **/
+  /** {@see BPageShopMarketingEmail} **/
   emails: {
     title: "ایمیل مارکتینگ",
     subtitle:
@@ -4494,7 +4554,7 @@ export default {
     new_email_message: "یک ایمیل جدید ایجاد نمایید",
   },
 
-  /** {@see AdminShopEmailPage_Dashboard} **/
+  /** {@see BPageEmailMarketingDashboard} **/
   email_dashboard: {
     review: "بازخوانی",
     waiting_for_approve: "در انتظار تایید توسط {name}",
@@ -4515,20 +4575,20 @@ export default {
     actions: "فعالیت کاربر",
   },
 
-  /** {@see AdminShopEmailPage} **/
+  /** {@see BPageEmailMarketing} **/
   email_page: {
     emails: "ایمیل ها",
     edit: "ویرایش",
   },
 
-  /** {@see AdminShopAffiliatePage} **/
+  /** {@see BPageAffiliator} **/
   affiliate_page: {
     affiliates: "همکاران تجاری",
     orders: "سفارشات",
     payments: "پرداخت ها",
   },
 
-  /** {@see AdminShopAffiliatePage_Dashboard**/
+  /** {@see BPageAffiliateDashboard**/
   affiliate_dashboard: {
     link: "لینک همکار",
     fix_commission: "پورسانت ثابت",
@@ -4552,7 +4612,7 @@ export default {
     pay_now: "تسویه حساب",
   },
 
-  /** {@see AdminShopPermission_Role**/
+  /** {@see BPageShopPermissionRoles**/
   permission_roles: {
     new_role: "نقش جدید",
     new_role_message: "با تعریف نقش ها، کار تیمی در مقیاس بزرگ را آسان نمایید.",
@@ -4562,7 +4622,7 @@ export default {
   /** {@see Affiliate**/
   user_affiliates: {},
 
-  /** {@see AdminShopLottery**/
+  /** {@see BPageShopIncentivesLottery**/
   shop_lotteries: {
     title: "بازی",
     sub_title:
@@ -4584,7 +4644,7 @@ export default {
     },
   },
 
-  /** {@see LotteryEditForm**/
+  /** {@see BLotteryAdd**/
   lottery_edit: {
     title_edit: "ویرایش جایزه",
     title_add: "جایزه جدید",
@@ -4622,13 +4682,13 @@ export default {
     },
   },
 
-  /** {@see SelectGiftCardType**/
+  /** {@see BGiftcardTypeInput**/
   gift_card_types_list: {
     label: "نوع کارت هدیه",
     message: "نوع کارت هدیه را از لیست انتخاب کنید.",
   },
 
-  /** {@see EmailBuilder**/
+  /** {@see BEmailMarketingEditor**/
   email_builder: {
     service_unavailable: "سرویس ایمیل در حساب شما فعال نیست.",
     design_section: "صفحه طراحی ایمیل",
@@ -4636,7 +4696,7 @@ export default {
     schedule_placeholder: "زمان ارسال را انتخاب نمایید",
   },
 
-  /** {@see ShopUsersFunnelFactory**/
+  /** {@see BCustomersFunnel**/
   user_funnel: {
     REGISTER_DATE: {
       title: "تاریخ عضویت",
@@ -4683,7 +4743,7 @@ export default {
     blogs_title: "مطالب مرتبط در وبلاگ سلدان",
   },
 
-  /** {@see AdminShopFinance_Tax**/
+  /** {@see BPageShopFinanceTax**/
   shop_tax: {
     region: "ناحیه",
     label: "برچسب",
@@ -4733,7 +4793,7 @@ export default {
     pos_tax_setting: "تنظیمات مالیات صندوق فروش",
   },
 
-  /** {@see AdminShopTransportationPage**/
+  /** {@see BPageTransportationService**/
   transportation_page: {
     menu: {
       dashboard: "داشبورد",
@@ -4747,7 +4807,7 @@ export default {
     go_to_service_list: "مشاهده لیست سرویس های حمل",
   },
 
-  /** {@see AdminShopTransportationPage_Persons**/
+  /** {@see BPageTransportationCouriers**/
   transportation_persons: {
     title: "مدیریت سفیران",
     notifications: {
@@ -4771,7 +4831,7 @@ export default {
       action: "افزودن سفیر",
     },
   },
-  /** {@see AdminShopTransportationPage_Orders**/
+  /** {@see BPageTransportationOrders**/
   transportation_orders: {
     title: "سفارشات ارسالی",
     notifications: {
@@ -4779,7 +4839,7 @@ export default {
       success_payment: "پرداخت در محل با موفقیت تأیید شد.",
     },
   },
-  /** {@see DeliveryPersonPage**/
+  /** {@see BPageCourier**/
   delivery_person: {
     actions_title: "منوی سفیر",
     action_delivered: "ارسال شد",
@@ -4804,7 +4864,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopTransportationPage_Services**/
+  /** {@see BPageTransportationServices**/
   transportation_services: {
     title: "مدیریت سرویس های ارسال",
     notifications: {
@@ -4828,7 +4888,7 @@ export default {
       action: "افزودن سرویس",
     },
   },
-  /** {@see AdminShopTransportationPage_PickupAddresses**/
+  /** {@see BPageTransportationPickups**/
   transportation_pickups: {
     addresses: {
       title: "آدرس های پیکآپ",
@@ -4845,7 +4905,7 @@ export default {
     cashed: "پرداخت نقدی",
   },
 
-  /** {@see AdminShop_DeliveryService_Dashboard**/
+  /** {@see BPageTransportationServiceDashboard**/
   delivery_dashboard: {
     select_destinations: "افزودن سفارشات به لیست",
     price_calculation: "برآورد هزینه حمل و نقل",
@@ -4869,7 +4929,7 @@ export default {
     CANCELED: "لغو شده",
   },
 
-  /** {@see CashRegisterPage**/
+  /** {@see BPagePos**/
   cash_register: {
     menu: {
       panel: "صندوق",
@@ -4881,7 +4941,7 @@ export default {
     payment_confirm: "تایید پرداخت",
     payment_confirm_msg: "سفارش {basket_id} توسط مشتری پرداخت گردید.",
   },
-  /** {@see BarcodeScannerConnectWidget**/
+  /** {@see BPosDeviceBarcodeScanner**/
   barcode_scanner: {
     wifi_pass: "رمز اتصال به شبکه بیسیم",
     message: "رمز وای فای خود را وارد نموده و کد بالا را اسکن نمایید.",
@@ -4905,7 +4965,7 @@ export default {
     ChipReader_desc:
       "تگ خوان NFC برای اضافه کردن کالا به سبد با استفاده از تگ.",
   },
-  /** {@see CashRegister_Devices**/
+  /** {@see BPagePosDevices**/
   pos_register_devices: {
     delete_dialog: {
       title: "حذف دستگاه",
@@ -4914,7 +4974,7 @@ export default {
     },
   },
 
-  /** {@see ShopProcessCenterPOSOrderPage**/
+  /** {@see BPageOrderPos**/
   pos_process_center: {
     title: "سفارش صندوق",
     menu: {
@@ -4925,7 +4985,7 @@ export default {
       order: "سفارش",
     },
   },
-  /** {@see CashRegister_Dashboard**/
+  /** {@see BPagePosPanel**/
   pos: {
     name: "صندوق فروشگاهی",
 
@@ -4967,7 +5027,7 @@ export default {
       online_msg: "از مشتری بخواهید کد QR را روی صفحه مشتری اسکن کند.",
     },
   },
-  /** {@see ProductsManagement_Importer**/
+  /** {@see BPageShopProductsImporter**/
   exporter: {
     title: "گرفتن خروجی اطلاعات",
     subtitle:
@@ -4977,7 +5037,7 @@ export default {
       "لیست تمام {type} فروشگاه را به همراه اطلاعات کامل در فرمت اکسل دریافت خواهید نمود.",
     csv: "لیست تمام {type} فروشگاه را به همراه اطلاعات کامل در فرمت csv دریافت خواهید نمود. این فرمت مطابق به فرمت استاندارد سلدان برای وارد نمودن لیست {type} به فروشگاه است.",
   },
-  /** {@see ProductsManagement_Importer**/
+  /** {@see BPageShopProductsImporter**/
   importer: {
     category: {
       title: "وارد کردن دسته بندی ها",
@@ -5014,7 +5074,7 @@ export default {
     max_items_limit: "محدودیت بیشترین تعداد",
     total_items: "تعداد آیتم ها",
   },
-  /** {@see AdminShopMarketingCampaign**/
+  /** {@see BPageShopMarketingCampaign**/
   campaigns: {
     title: "کمپین ها",
     subtitle:
@@ -5043,7 +5103,7 @@ export default {
     clothing: "لباس و کفش",
     jewellery: "جواهرات",
   },
-  /** {@see ShopEdit_Theme**/
+  /** {@see BPageShopSettingTheme**/
   shop_theme: {
     theme_colors: "رنگبندی سایت",
     products_view_mode: "نمایش لیست محصولات",
@@ -5079,7 +5139,7 @@ export default {
     black: "دارک ساید",
   },
 
-  /** {@see AdminShopAffiliatePage_Orders**/
+  /** {@see BPageAffiliateOrders**/
   affiliate_orders: {
     title: "سفارشات نمایندگی",
     table: {
@@ -5097,7 +5157,7 @@ export default {
     },
   },
 
-  /** {@see AdminShopAffiliatePage_Payments**/
+  /** {@see BPageAffiliatePayments**/
   affiliate_payments: {
     title: "پرداخت ها به نمایندگی",
     table: {
@@ -5107,7 +5167,7 @@ export default {
       date: "تاریخ",
     },
   },
-  /** {@see MyRolesList**/
+  /** {@see BPageShuttleRoles**/
   my_roles: {
     title: "نقش های من",
     message:
@@ -5133,7 +5193,7 @@ export default {
     accepted: "عضو تایید شده",
   },
 
-  /** {@see AppConfigDialog**/
+  /** {@see BAppConfigDialog**/
   app_config: {
     reviews: "نظرات",
     rate_now: "نظر دهید",
@@ -5163,7 +5223,7 @@ export default {
     },
   },
 
-  /** {@see AdminShop_Channels_Bots**/
+  /** {@see BPageShopChannelBots**/
   shop_bots: {
     not_set: "تنظیم نشده!",
     tokens: "توکن (ها)",
@@ -5175,7 +5235,7 @@ export default {
         "با یک کلیک بات فروشگاهی برای خود خواهید ساخت. مشتریانتان از طریق این بات قادر به خرید از شما خواهند بود.",
     },
   },
-  /** {@see ShopUsers_Customers**/
+  /** {@see BPageShopCrmCustomers**/
   shop_customers: {
     title: "مدیریت کاربران",
 
@@ -5218,14 +5278,14 @@ export default {
     redirect_url: "آدرس بازگشت",
     client_name: "نام کلاینت",
   },
-  /** {@see ApplicationLoaderPage**/
+  /** {@see BPageApplication**/
   app_loader_page: {
     no_ui_title: "این اپلیکیشن فاقد واسط کاربری است!",
     no_ui_desc:
       "برخی از اپلیکیشن ها نیازی به واسط کاربری در بخش ادمین خود ندارند. ممکن است این اپلیکیشن تنها کدی را به بخش هدر سایت فروشگاه شما اضافه نماید.",
     header: "کد هدر",
   },
-  /** {@see AdminShopFinance_Report**/
+  /** {@see BPageShopFinanceReport**/
   finance_report: {
     export_title: "دریافت داده های مالی",
     export_sub_title: "دانلود فایل اکسل لیست فروش ها",
@@ -5233,10 +5293,9 @@ export default {
     end_input_placeholder: "تاریخ پایان گزارش را انتخاب نمایید",
     download_action: "دانلود فایل مالی",
   },
-  /** {@see ShopEdit_Notifications**/
+  /** {@see BPageShopSettingNotifications**/
   shop_notifications: {
     title: "نوتیفیکیشن های فروشگاه",
-    sub_title: "بات ها, ایمیل, پیامک, ... ",
     message:
       "شما می توانید نوتیفیکیشن های فروشگاه خود را در این بخش مدیریت و ویرایش نمایید.",
     channel: "کانال",
@@ -5265,7 +5324,7 @@ export default {
     weekly_report: "📈 گزارش هفتگی",
   },
 
-  /** {@see OrderDeliveryWidget} **/
+  /** {@see BOrderDashboardDelivery} **/
   order_delivery: {
     title: "ارسال",
     add_to_delivery_que_action: "افزودن به لیست ارسال مرسولات",
@@ -5275,8 +5334,13 @@ export default {
     message_add_to_service:
       "اگر می خواهید این بسته را با <b>سرویس حمل بار</b> ارسال کنید ، روی دکمه زیر کلیک کنید.",
 
-    action: "تایید تحویل به مامور ارسال",
+    courier_action: "تایید تحویل به مامور ارسال",
+    courier_action_subtitle: "مامور ارسال من بسته را جمع‌آوری خواهد کرد.",
+
     pickup_action: "تایید دریافت سفارش",
+    pickup_action_subtitle: "مشتری سفارش را دریافت کرد.",
+
+    service_action: "تایید اجرا",
 
     checklist: [
       "کارت شناسایی مامور ارسال را بررسی نمایید.",
@@ -5315,7 +5379,7 @@ export default {
     option_add_to_que: "گزینه 2: اضافه کردن به صف ارسال.",
     option_instant_shipping: "گزینه 3: ارسال فوری از طریق سرویس حمل.",
   },
-  /** {@see ShopEdit_Home} **/
+  /** {@see BShopHomeSelect} **/
   shop_home_edit: {
     title: "تنظیمات صفحه اصلی فروشگاه",
     sub_title: "انتخاب دامنه و صفحه اصلی (خانه) فروشگاه",
@@ -5346,17 +5410,17 @@ export default {
     note: "یادداشت",
     date: "تاریخ",
   },
-  /** {@see WidgetShopGateway} **/
+  /** {@see BGatewayCard} **/
   widget_shop_gateway: {
     link_account_caution:
       "شما بایستی یک حساب در کیف پولتان با ارز ({currency}) را به فروشگاه خود اضافه نمایید! کلیک نمایید..",
   },
-  /** {@see ProductSellWidget} **/
+  /** {@see BProductOrderSalesPerformance} **/
   product_sell_widget: {
     title: "بازدهی فروش محصول",
   },
 
-  /** {@see OrderFulfillmentWidget} **/
+  /** {@see BOrderDashboardDropshippingFulfillment} **/
   fulfilment_order_widget: {
     title: "وضعیت فروش دراپ شیپینگ",
     check_action: "تایید دراپ شیپینگ",
@@ -5374,7 +5438,7 @@ export default {
       "پس از پرداخت هزینه سفارش به تامین کننده مراحل پیشرفت ارسال سفارش را در این بخش مشاهده نمایید.",
   },
 
-  /** {@see DropshippingPage} **/
+  /** {@see BPageWholesaler} **/
   drop_shipping: {
     menu: {
       dashboard: "داشبورد",
@@ -5393,7 +5457,7 @@ export default {
     REJECT: "رد شده",
   },
 
-  /** {@see DropshippingShopPage} **/
+  /** {@see BPageWholesalerShop} **/
   dropshipping_reseller_page: {
     menu: {
       dashboard: "داشبورد",
@@ -5402,17 +5466,17 @@ export default {
     },
   },
 
-  /** {@see DropshippingShopPage_Dashboard} **/
+  /** {@see BPageWholesalerShopDashboard} **/
   dropshipping_reseller_dashboard: {
     title: "داشبورد فروشنده واسط",
   },
 
-  /** {@see DropshippingShopPage_Orders} **/
+  /** {@see BPageWholesalerShopOrders} **/
   dropshipping_reseller_orders: {
     title: "سفارشات فروشنده واسط",
   },
 
-  /** {@see DropshippingShopPage_Wallet} **/
+  /** {@see BPageWholesalerShopWallet} **/
   dropshipping_reseller_wallet: {
     title: "حساب های فروشنده واسط",
   },
@@ -5444,7 +5508,7 @@ export default {
     },
   },
 
-  /** @see AdminShopFinance_DropShippingCheckout **/
+  /** @see BPageShopFinanceResellerFulfillment **/
   dropship_checkout: {
     pay_dialog: {
       title: "پرداخت مبلغ سفارش عمده فروش",
@@ -5460,7 +5524,7 @@ export default {
     },
   },
 
-  /** @see AdminShopFinance_DropShippingAccounts **/
+  /** @see BPageShopFinanceResellerWallets **/
   dropship_accounts: {
     charge_account: "شارژ حساب",
     charge_dialog: {
@@ -5470,14 +5534,14 @@ export default {
     },
   },
 
-  /** @see Dropshipping_Dashboard **/
+  /** @see BPageWholesalerDashboard **/
   dropship_admin_dashboard: {
     title: "درخواست های خرده فروشی",
     today_order_count: "تعداد سفارشات امروز",
     yesterday_order_count: "تعداد سفارشات دیروز",
     total_7_days: "مجموع سفارشات 7 روز اخیر",
   },
-  /** @see DropShippingSelectProducts **/
+  /** @see BProductAddDropshipping **/
   dropshipping_products: {
     no_shops:
       "متاسفانه فروشگاهی یافت نشد. در آینده فروشگاه های بیشتری وجود خواهند داشت تا شما محصولات آن ها را در فروشگاه خود قرار دهید.",
@@ -5495,7 +5559,7 @@ export default {
     },
   },
 
-  /** @see ProductDropShippingMiddleSellerWidget **/
+  /** @see BProductDropshippingAbstractView **/
   product_dropshipping: {
     need_re_enable:
       "این کالا توسط فروشنده اصلی تغییر کرده است، این تغییرات در قیمت موجب غیر فعال شدن محصول در فروشگاه شما شده است. تغییرات را بررسی نمایید و در صورت موافقت با فعال شدن مجدد محصول، کلید زیر را بزنید.",
@@ -5512,7 +5576,7 @@ export default {
         "اطلاعات این محصول با اطلاعات محصول اصلی به روز رسانی شد.",
     },
   },
-  /** @see ProductDropShippingPage **/
+  /** @see BPageProductDropshipping **/
   product_dropshipping_admin: {
     title: "دراپ شیپینگ",
     save_alert:
@@ -5546,7 +5610,7 @@ export default {
     },
   },
 
-  /** @see ProductInfo **/
+  /** @see SProductOverview **/
   product_info: {
     fake: "غیر اصل",
     action: "حراج",
@@ -5617,14 +5681,14 @@ export default {
     },
   },
 
-  /** @see ShopUsersContactForm **/
+  /** @see BPageShopCrmChat **/
   shop_contacts: {
     popup: "چت باکس پشتیبانی",
     popup_message:
       "با فعال کردن این گزینه، کلید پشتیبانی در سمت راست و پایین فروشگاه شما دیده خواهد شد.",
   },
 
-  /** @see ShopPopupBuilderPage **/
+  /** @see BPagePopup **/
   popup_page: {
     preview: "پیش نمایش",
 
@@ -5639,7 +5703,7 @@ export default {
       edit: "نوتیفیکیشن با موفقیت به روز شد.",
     },
   },
-  /** @see SettingPopupAppearance **/
+  /** @see BPagePopupAppearance **/
   popup_appearance: {
     position: "موقعیت",
     position_desc: "موقعیت نمایش این نوتیفیکیشن را در صفحه مشخص نمایید.",
@@ -5661,7 +5725,7 @@ export default {
     transition: "انیمیشن",
   },
 
-  /** @see SettingPopupFilter **/
+  /** @see BPagePopupFilter **/
   popup_filter: {
     registered: "شرط عضویت و ورود کاربر",
     registered_desc:
@@ -5686,7 +5750,7 @@ export default {
     countries_desc:
       "آیا می خواهید این نوتیفیکیشن تنها به کاربرانی که از یک کشور خاص وارد می شوند نمایش داده شود؟",
   },
-  /** @see SettingPopup **/
+  /** @see BPagePopupSetting **/
   popup_setting: {
     published: "منتشر شده",
     repeat: "تکرار نمایش",
@@ -5709,14 +5773,14 @@ export default {
       delete: "نوتیفیکیشن با موفقیت حذف گردید.",
     },
   },
-  /** @see ShopEdit_Sms **/
+  /** @see BPageShopSettingSms **/
   shop_sms: {
     title: "مدیریت پیامک ها",
     sub_title: "الگوی پیامک ها",
     message:
       "محتوای پیامک های ارسالی فروشگاه خود را در اینجا مشاهده می نمایید. به دلیل محدودیت در ثبت الگوهای اعتبارسنجی در سرویس ارسال پیامک، امکان شخصی سازی پیامک ها در حال حاضر فراهم نیست.",
   },
-  /** @see ShopEdit_Emails **/
+  /** @see BPageShopSettingEmail **/
   shop_emails: {
     title: "مدیریت ایمیل ها",
     sub_title:
@@ -5724,7 +5788,7 @@ export default {
   },
 
   /** @see InstagramViewMedias **/
-  /** @see AdminShop_Channels_Instagram **/
+  /** @see BPageShopChannelInstagram **/
   instagram: {
     title: "فروش در اینستاگرام",
     message:
@@ -5776,7 +5840,7 @@ export default {
     start_service: "شروع انجام خدمت",
     end_service: "پایان خدمت",
   },
-  /** @see ServiceTasksTableWidget **/
+  /** @see BOrderDashboardServiceTasks **/
   service_tasks: {
     notification_finish: {
       title: "اتمام خدمت",
@@ -5786,7 +5850,7 @@ export default {
     },
   },
 
-  /** {@see ProductEditOutputs} **/
+  /** {@see BProductEditOutputs} **/
   product_outputs: {
     outputs_form: "ساختار نمایش اطلاعات (خروجی)",
 
@@ -5803,7 +5867,7 @@ export default {
     },
   },
 
-  /** {@see ServiceDesign} **/
+  /** {@see BProductServiceManage} **/
   service_design: {
     type: "نوع خدمت",
     type_message:
@@ -5906,7 +5970,7 @@ export default {
     },
   },
 
-  /** {@see ShopActiveAvocadosWidget} **/
+  /** {@see BDashboardShopOrdersAvocado} **/
   avocado_orders: {
     title: "سرویس فروش آووکادو",
     title_small: "گزارش سفارشات",
@@ -5914,7 +5978,7 @@ export default {
     avocado: "سفارش آووکادو",
   },
 
-  /** {@see AvocadoAddEdit} **/
+  /** {@see BAvocadoInvoice} **/
   avocado_process: {
     step1: " قیمت گذاری",
     step1_msg:
@@ -5935,8 +5999,8 @@ export default {
     tax_add_messages: "مالیات به مبلغ نهایی افزوده شود.",
   },
 
-  /** {@see ProductHyperPage} **/
-  /** {@see AdminShop_Channels_Hyper} **/
+  /** {@see BPageProductHyper} **/
+  /** {@see BPageShopChannelHyper} **/
   hyper: {
     name: "هایپر",
     print_label: "لیبل زیر را پرینت کرده و در مقابل محصول بگذارید",
@@ -5954,14 +6018,14 @@ export default {
     configuration: "تنظیمات هایپر",
   },
 
-  /** {@see ShopActiveHyperWidget} **/
+  /** {@see BDashboardShopOrdersHyper} **/
   hyper_orders: {
     title: "سرویس فروش هایپر",
     title_small: "گزارش فروش",
     hyper: "سفارشات دریافتی",
   },
 
-  /** {@see ProductFilesManagement} **/
+  /** {@see BProductInventoryManagementFile} **/
   product_file: {
     no_file: "هیچ فایلی آپلود نشده است!",
     delete_dialog: {
@@ -5986,13 +6050,13 @@ export default {
     account_msg: "حسابی که قصد واریز شارژ هدیه را دارید انتخاب نمایید.",
   },
 
-  /** {@see SelldoneApplicationsWidget} **/
+  /** {@see BDashboardShopApplications} **/
   selldone_applications: {
     title: "از سفارشات جدید در لحظه خبردار شوید!",
     msg: "کسب و کار خود را در هر مکان و هر زمان مدیریت کنید.",
   },
 
-  /** {@see ShopEdit_SEO**/
+  /** {@see BPageShopSettingSeo**/
   shop_seo: {
     title: "تنظیمات سئو سایت",
     msg: "با استفاده از بهینه سازی برای موتورهای جستجو، کانال فروش اورگانیک خود را تقویت نمایید.",
@@ -6007,7 +6071,7 @@ export default {
     },
   },
 
-  /** {@see ShopEdit_Emails} **/
+  /** {@see BPageShopSettingEmail} **/
   shop_preferences: {
     order: {
       title: "سفارش ها",
@@ -6046,7 +6110,7 @@ export default {
       desc: "در صورت نیاز به تایید یک فرایند در فروشگاه، ایمیل مربوطه به این آدرس ارسال خواهد شد. برای مثل برای تایید ارسال ایمیل مارکتینگ به کاربران فروشگاه.",
     },
   },
-  /** {@see ShopEdit_Languages} **/
+  /** {@see BPageShopSettingLanguages} **/
   shop_languages: {
     title: "زبان های فروشگاه",
     sub_title: "نصب و فعال سازی پکیج های ترجمه خودکار فروشگاه.",
@@ -6054,7 +6118,7 @@ export default {
       "شما می توانید تا 10 بسته زبانی را در فروشگاه خود نصب نماید. در صورت نیاز به نصب پکیج های بیشتر با ما تماس بگیرید.",
   },
 
-  /** {@see InviteFriendsDialog} **/
+  /** {@see SInviteFriendsDialog} **/
   invite_friends: {
     title: "کسب و کارتان را به دوستانتان معرفی نمایید!",
     msg: "یک دوست را به سلدان معرفی کنید. آنها هنگام ثبت نام یک کوپن 99 دلاری دریافت می کنند، پس از اولین شارژ ایشان، شما نیز یک کوپن 15 دلاری دریافت خواهید کرد.",
@@ -6068,14 +6132,14 @@ export default {
     },
   },
 
-  /** {@see ShopsListPage} **/
+  /** {@see BPageShuttleShops} **/
   shops_list: {
     title: "فروشگاه های من",
     message:
       "لیست فروشگاه های من، فروشگاه های دارای دسترسی و فروشگاه های نمونه.",
   },
 
-  /** {@see DeliveryServiceProcessingTable} **/
+  /** {@see BTransportationServiceLabels} **/
   shipping: {
     warehouse_error:
       "ابتدا انبار خود را تنظیم کنید! این آدرس به عنوان مبدأ حمل و نقل استفاده خواهد شد.",
@@ -6094,7 +6158,7 @@ export default {
     drop_orders_here: "سفارش را اینجا بندازید...",
   },
 
-  /** {@see AdminShop_Blog_Categories} **/
+  /** {@see BPageShopBlogsCategories} **/
   blog_category: {
     title: "دسته بندی مقالات",
     add_action: "ایجاد دسته بندی جدید",
@@ -6110,31 +6174,31 @@ export default {
     },
   },
 
-  /** {@see PagesManagement_AboutUs} **/
+  /** {@see BPageShopPagesAboutUs} **/
   about_us: {
     title: "صفحه درباره ما",
     subtitle:
       "یک مقاله درباره کسبو کار خود بنویسید تا در صفحه درباره ما نشان داده شود. این صفحه به شناخت برند و کسب و کار شما برای مخاطبانتان کمک خواهد کرد.",
   },
-  /** {@see PagesManagement_Terms} **/
+  /** {@see BPageShopPagesTerms} **/
   terms: {
     title: "صفحه شرایط استفاده",
     subtitle:
       "شرایط خرید و استفاده از خدمات خود را برای مشتریانتان توضیح دهید.",
   },
-  /** {@see PagesManagement_Privacy} **/
+  /** {@see BPageShopPagesPrivacy} **/
   privacy: {
     title: "صفحه سیاست حفظ حریم خصوصی",
     subtitle:
       "سیاست حفظ حریم خصوصی یک بیانیه یا سند قانونی است که برخی یا همه روش‌های جمع‌آوری، استفاده، افشای و مدیریت داده‌های مشتری یا مشتری را توسط یک طرف مشخص می‌کند.",
   },
-  /** {@see PagesManagement_ContactUs} **/
+  /** {@see BPageShopPagesContactUs} **/
   contact_us: {
     title: "صفحه ارتباط با ما",
     subtitle:
       "اطلاعات تماس، آدرس و شماره تماس خود را در این بخش بنویسید تا به مشتریان شما در صفحه تماس با ما نشان داده شود.",
   },
-  /** {@see AdminShop_Applications_Metaverse} **/
+  /** {@see BPageShopApplicationsMetaverse} **/
   metaverse: {
     title: "پل متاورس",
     subtitle:
@@ -6142,7 +6206,7 @@ export default {
     message: "دسترسی زودهنگام برای توسعه دهندگان بازی",
   },
 
-  /** {@see ShopProcessCenterBulkExportActionsBasket} **/
+  /** {@see BProcessCenterBulkExport} **/
   orders_bulk_export: {
     title: "دستیار سفارشات",
     timespan: {
@@ -6163,14 +6227,14 @@ export default {
     },
   },
 
-  /** {@see AdminShopMarketing_Funnels} **/
+  /** {@see BPageShopMarketingFunnel} **/
   customers_funnel: {
     title: "جمعیت شناسی مشتریان",
     subtitle:
       "مشتریان خود را فیلتر کنید و به صورت یک فایل خروجی بگیرید.  با این اطلاعات می توانید تصمیمات بهتری برای ارتقاع خدماتتان بگیرید.  لطفا به حریم خصوصی مشتریان خود احترام بگذارید و هرگز ایمیل های انبوه برای آنها ارسال نکنید! هرگز اطلاعات مشتریان خود را با شرکت های ثالث بدون کسب اجازه از تک تک مشتریان، به اشتراک نگذارید.",
   },
 
-  /** {@see AffiliatePage_Dashboard} **/
+  /** {@see BPageAffiliatorDashboard} **/
   affiliate_pos: {
     title: "پنل ثبت سفارش",
     open_pos_action: "ثبت سفارش سریع",
@@ -6178,14 +6242,14 @@ export default {
       "این گزینه برای ادمین های پیج های اینستاگرام و دیگر شبکه های اجتمائی مناسب است. زمانی که شما سفارشات را مستقیما از مشتریان دریافت می کنید این گزینه برای شما مناسب است. تنها کافیست سفارش را در پوز ثبت کرده و فیش واریز را آپلود نمایید تا کارمندان فروشگاه سفارش شما را دریافت نموده و پس از تایید برای مشتری نهایی ارسال کنند.",
   },
 
-  /** {@see ShopEdit_Shop} **/
+  /** {@see BPageShopSettingFlow} **/
   shop_configuration: {
     login: {
       title: "روش های ورود",
       subtitle: "روش های ورود کاربران به فروشگاه خود را شخصی سازی نمایید.",
     },
 
-    /** {@see ShopConfigurationCheckout} **/
+    /** {@see BShopOptionsCheckout} **/
     checkout: {
       title: "مراحل خرید",
       subtitle:
@@ -6248,7 +6312,7 @@ export default {
     },
   },
 
-  /** {@see ShopEdit_BusinessModel} **/
+  /** {@see BPageShopSettingBusinessModel} **/
   business_model: {
     title: "تنظیمات مدل کسب و کار",
     subtitle:
@@ -6293,7 +6357,7 @@ export default {
     },
   },
 
-  /** {@see MarketplacePage} **/
+  /** {@see BPageMarketplace} **/
   marketplace: {
     vendor_wallets: "کیف پول ها",
     pricing_models: "قیمت گذاری",
@@ -6321,7 +6385,7 @@ export default {
     },
   },
 
-  /** {@see VendorsList} **/
+  /** {@see BPageShuttleVendors} **/
   vendors_list: {
     title: "وندورهای من",
     message: "لیست فروشگاهایی که به عنوان تامین کننده به آنها اضافه شده ام.",
@@ -6329,13 +6393,13 @@ export default {
 
   vendor_page: {},
 
-  /** {@see ShopDomains} **/
+  /** {@see BDomainsList} **/
   domains: {
     message:
       "چندین دامنه را به سیستم عامل کسب و کار خود متصل کنید و همه آنها را در یک مکان مدیریت کنید. می توانید از ویژگی چند دامنه برای ایجاد دامنه های اختصاصی برای هر قسمت از وب سایت خود مانند وبلاگ و انجمن استفاده کنید یا از دامنه های اختصاصی برای  هر یک از شرکای تجاری خود  و افیلیت ها استفاده کنید.",
   },
 
-  /** {@see TeamNoteButton}   {@see TeamNoteDialog} **/
+  /** {@see BNoteButton}   {@see BNoteDialog} **/
   notes: {
     add_action: "اضافه کردن یادداشت برای تیم",
     notifications: {
@@ -6357,12 +6421,12 @@ export default {
   product_status: {
     open: {
       name: "فعال",
-      title: "فعال | فروش آنلاین و غیر حضوری",
+      title: "فعال ╏ فروش آنلاین و غیر حضوری",
       description: "این محصول برای سفارش آنلاین در دسترس خواهد بود.",
     },
     close: {
       name: "غیر فعال",
-      title: "غیر فعال | فقط فروش حضوری",
+      title: "غیر فعال ╏ فقط فروش حضوری",
       description: "این محصول برای سفارش آنلاین در دسترس نخواهد بود.",
     },
     pending: {
@@ -6376,6 +6440,56 @@ export default {
       description: "این محصول توسط بازار رد شده است.",
     },
   },
+
+  /**
+   * BDashboardShopFeedback
+   */
+  direct_feedback: {
+    title: "ارسال درخواست مستقیم",
+    message:
+      "سه نیاز اصلی کسب‌وکار خود را برای شکوفایی و سودآوری در سلدان شناسایی کنید. این اطلاعات به طور مستقیم با بنیان‌گذاران و مدیران به اشتراک گذاشته شده و به دقت بررسی خواهد شد. شما همچنین می‌توانید پس از ارسال، نیازهای خود را به مرور زمان به‌روزرسانی کنید.",
+    expand_action: "درخواست را بنویسید...",
+    input_label: "درخواست شما",
+    to: {
+      ceo: "ارسال به مدیرعامل",
+      team: "ارسال به تیم",
+    },
+    placeholder: {
+      ceo: "اصلاً لازم نیست محترمانه صحبت کنید، دوست دارم درخواست مستقیم و روشن شما را بشنوم.\nمثلاً من نیاز دارم به...",
+      team: "لطفاً سعی کنید با آن‌ها مهربان باشید.\nمثلاً من نیاز دارم به...",
+    },
+  },
+
+  /**
+   * BInventoryFilter
+   */
+  inventory_filter: {
+    placeholder: "انتخاب فیلتر *.*",
+  },
+  /**
+   * BVendorInput
+   */
+  vendor_input: {
+    placeholder: "انتخاب فروشنده...",
+  },
+
+  /**
+   * BShopProductsImportProcessing
+   */
+  product_import_processing: {
+    title: "درحال پردازش و افزودن محصولات",
+    message:
+      "در حال وارد کردن محصولات و تصاویر هستیم، که ممکن است مدتی زمان ببرد.",
+  },
+
+  /**
+   * BOrderInput
+   */
+  order_input: {
+    message: "اطلاعات نمایش داده شده در اینجا توسط مشتری و بر اساس ساختار فرم ورودی محصول ارائه شده است.",
+  },
+
+
 
   /**
    * AUto fill suggestions
@@ -6916,6 +7030,110 @@ export default {
           "اندازه تجهیزات ورزشی",
         ],
       },
+    },
+
+    /**
+     * Subscription Price
+     */
+    subscription_price: {
+      title: [
+        "دسترسی پایه",
+        "عضویت پرمیوم",
+        "بسته طلایی",
+        "طرح نقره‌ای",
+        "اشتراک پلاتین",
+        "سطح سازمانی",
+        "باندل مقدماتی",
+        "پیشنهاد نامحدود",
+        "بسته خانوادگی",
+        "مجموعه حرفه‌ای",
+      ],
+      description: [
+        "مناسب برای افرادی که مایل به کشف ابتدایی‌ها هستند.",
+        "دسترسی به تمامی ویژگی‌ها و محتوای پرمیوم.",
+        "مزایای انحصاری و پشتیبانی اولویت‌دار.",
+        "یک بسته متعادل برای کاربران منظم.",
+        "دسترسی نهایی با مزایای درجه‌یک.",
+        "راه‌حل‌های سفارشی برای سازمان‌های بزرگ.",
+        "گزینه‌ای مقرون‌به‌صرفه برای سطح مقدماتی.",
+        "بدون محدودیت استفاده، برای کاربر قدرتمند.",
+        "یک طرح ویژه برای خانواده‌ها، تا ۴ عضو.",
+        "طراحی شده برای حرفه‌ای‌هایی که به دنبال ابزارهای پیشرفته هستند.",
+      ],
+    },
+
+    avocado: {
+      title: [
+        "رسید خرید",
+        "تأیید فروش",
+        "فاکتور سفارش",
+        "فاکتور پرداخت",
+        "رسید مشتری",
+        "خلاصه تراکنش",
+        "بیانیه بیلینگ",
+        "رسید پرداخت",
+        "خلاصه سفارش",
+        "فاکتور سفارش خرید",
+        "رسید فروش",
+        "فاکتور خرده فروشی",
+        "رسید الکترونیکی",
+        "فاکتور خدمات",
+        "فاکتور محصول",
+        "رسید پرداخت",
+        "تأییدیه سفارش",
+        "فاکتور بیلینگ",
+        "فاکتور پرداخت",
+        "فاکتور مشتری",
+      ],
+      message: [
+        "از خرید شما متشکریم!",
+        "قدردانی می‌کنیم از حمایت شما.",
+        "سفارش شما در راه است!",
+        "از خرید شما سپاسگزاریم.",
+        "به امید دیدار مجدد شما.",
+        "رضایت شما بالاترین اولویت ما است.",
+        "فراموش نکنید تجربه‌تان را امتیاز دهید.",
+        "از حمایت شما از فروشگاه ما سپاسگزاریم.",
+        "امیدواریم از خرید جدیدتان لذت ببرید!",
+        "فاکتور خود را برای مراجعه در آینده نگه دارید.",
+        "دوباره برای محصولات بیشتر به ما سر بزنید.",
+        "برای پیشنهادات انحصاری در ارتباط باشید.",
+        "از اینکه مشتری ارزشمند ما هستید سپاسگزاریم.",
+        "اگر به کمک نیاز داشتید، ما در خدمتیم.",
+        "بازخورد شما به ما کمک می‌کند تا بهبود یابیم.",
+        "از تخفیف ویژه برای خرید بعدی خود لذت ببرید.",
+        "انتخاب خوبی داشته‌اید!",
+        "از اعتماد شما به ما متشکریم.",
+        "به امید بازخورد شما.",
+        "از طرف تیم، صمیمانه سپاسگزاریم.",
+      ],
+    },
+
+    /**
+     * Map Tag
+     */
+    map_tag: {
+      title: [
+        "ویترین املاک",
+        "میدان فروشندگان",
+        "خانه‌های برگزیده",
+        "بازار محلی",
+        "تازه‌های ورود",
+        "باغ‌های املاک",
+        "منطقه خرید",
+        "کوچه صنعتگران",
+        "املاک لوکس",
+        "مرکز اجاره",
+        "خانه‌های باز",
+        "نوآوری‌های فناوری",
+        "خیابان مد",
+        "گوشه صنایع دستی",
+        "محوطه غذا",
+        "گوشه کتاب",
+        "تقاطع جواهرات",
+        "خیابان عتیقه‌جات",
+        "منطقه تناسب اندام",
+      ],
     },
   },
 };

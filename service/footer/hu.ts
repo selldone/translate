@@ -111,7 +111,7 @@ export default {
           {
             "title": "🤝 Céh",
             "to": {
-              "name": "GuildHome"
+              "name": "GPageHome"
             }
           },
           {
@@ -152,7 +152,7 @@ export default {
           {
             "title": "Tervek és árak",
             "to": {
-              "name": "PriceList"
+              "name": "OPagePrice"
             }
           },
           {

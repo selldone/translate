@@ -41,7 +41,7 @@ export default {
   "Reddit": "Reddit",
   "Github": "Github",
   "page_titles": {
-    "home": "Selldone | Is-Sistema Operattiva tan-Negozju Għall-Kumpaniji li qed jikbru malajr",
+    "home": "Selldone ╏ Is-Sistema Operattiva tan-Negozju Għall-Kumpaniji li qed jikbru malajr",
     "login": "Idħol",
     "register": "Irreġistra",
     "auth_2fa": "2 fattur Awtentika 🔐",
@@ -51,22 +51,22 @@ export default {
     "my_stores": "L-Imħażen Tiegħi",
     "roles": "Ir-rwoli tiegħi",
     "wallet": "Kartiera Tiegħi",
-    "personal_info": "Informazzjoni Personali | KYC",
+    "personal_info": "Informazzjoni Personali ╏ KYC",
     "companies": "Il-Kumpanniji Tiegħi",
     "access_control": "Kontroll ta' Aċċess",
     "security_center": "Ċentru tas-Sigurtà",
     "gifts": {
-      "received": "Rigali | Riċevuti",
-      "send": "Rigali | Mibgħuta"
+      "received": "Rigali ╏ Riċevuti",
+      "send": "Rigali ╏ Mibgħuta"
     },
     "monetization": {
-      "linked_accounts": "Monetizzazzjoni | Kontijiet Konnessi",
-      "plans": "Monetizzazzjoni | Pjan & Links"
+      "linked_accounts": "Monetizzazzjoni ╏ Kontijiet Konnessi",
+      "plans": "Monetizzazzjoni ╏ Pjan & Links"
     },
     "affiliate": "Affiljat",
     "avocado": "Avokado — Kanal Modern tal-Bejgħ Soċjali",
     "guild": "Xirka — Kanal tal-Bejgħ Kollettiv",
-    "partners_login": "Imsieħba | Login tal-klijent"
+    "partners_login": "Imsieħba ╏ Login tal-klijent"
   },
   "blank_is_all_products": "Ħalli vojt biex tinkludi l-prodotti kollha!",
   "cautions": {
@@ -1087,11 +1087,11 @@ export default {
       "unit_float_message": "Matul l-ipproċessar tal-ordni, l-ammont ikkunsinnat jista 'jkun differenti mill-ammont ordnat. Is-sistema awtomatikament tikkalkula din id-differenza u tirreġistraha bħala dejn tiegħek lill-klijent, li jista 'jiġi applikat għall-ordnijiet li jmiss.",
       "status_list": {
         "active": {
-          "title": "Attiva | Bejgħ Online u Offline",
+          "title": "Attiva ╏ Bejgħ Online u Offline",
           "description": "Dan il-prodott se jkun disponibbli għal ordnijiet onlajn."
         },
         "inactive": {
-          "title": "Inattiv | Bejgħ Offline biss",
+          "title": "Inattiv ╏ Bejgħ Offline biss",
           "description": "Dan il-prodott mhux se jkun disponibbli għal ordnijiet onlajn."
         }
       },
@@ -1669,7 +1669,7 @@ export default {
         "simple": "Sempliċi",
         "dark_input": "Tema skura?",
         "icon_input": "Ikona",
-        "icon_input_hint": "Materjal Design Icon Isem jew Fontawsom: fas fa-star",
+        "icon_input_hint": "Materjal Design Icon Isem jew Fontawsom: fa:fas fa-star",
         "anim_input": "Indirizz ta' Animazzjoni",
         "anim_input_message": "URL tal-fajl tal-animazzjoni Lottie",
         "preview": "Preview",
@@ -2367,7 +2367,7 @@ export default {
     "connect-put-hold": "L-ordni ġiet sospiża. {reason}",
     "connect-remove-hold": "L-ordni tneħħa mill-istiva. {reason}",
     "connect-confirmed": "L-ordni kienet ikkonfermata.",
-    "email-vendor": "🔔 L-email ta' informazzjoni dwar l-ordni ntbagħtet lil <b>{vendor}</b> | {email}.",
+    "email-vendor": "🔔 L-email ta' informazzjoni dwar l-ordni ntbagħtet lil <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Ħlas lill-bejjiegħ."
   },
   "inline_chart": {
@@ -3159,7 +3159,7 @@ export default {
     }
   },
   "price_calculator": {
-    "title": "Kalkulatur | Tajjeb għan-negozju tiegħek",
+    "title": "Kalkulatur ╏ Tajjeb għan-negozju tiegħek",
     "description": "Ikkalkula u agħżel l-aħjar pjan ibbażat fuq il-bejgħ ta' kull xahar tiegħek:",
     "sale_input": "Ammont tal-bejgħ ta 'kull xahar",
     "hypernova_plan": "Applika għal Hypernova %0!",
@@ -3931,7 +3931,7 @@ export default {
     "locations_action": "Issettjar tal-postijiet tal-maħżen",
     "save_alert": "Is-settings mhumiex salvati!",
     "pos_tax_setting": "POS settings tat-Taxxa",
-    "tax_exclude_title": "Esklużi | It-taxxa se tiżdied waqt iċ-checkout",
+    "tax_exclude_title": "Esklużi ╏ It-taxxa se tiżdied waqt iċ-checkout",
     "tax_excluded_message": "It-taxxi se jiġu kkalkulati qabel il-ħlasijiet waqt iċ-checkout u miżjuda mal-prezz tat-taxxa eskluża skont l-evidenza tal-klijent tiegħek."
   },
   "transportation_page": {
@@ -5238,12 +5238,12 @@ export default {
   "product_status": {
     "open": {
       "name": "Attiva",
-      "title": "Attiva | Bejgħ Online u Offline",
+      "title": "Attiva ╏ Bejgħ Online u Offline",
       "description": "Dan il-prodott se jkun disponibbli għal ordnijiet onlajn."
     },
     "close": {
       "name": "inattivi",
-      "title": "Inattiv | Bejgħ Offline biss",
+      "title": "Inattiv ╏ Bejgħ Offline biss",
       "description": "Dan il-prodott mhux se jkun disponibbli għal ordnijiet onlajn."
     },
     "pending": {

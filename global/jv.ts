@@ -880,7 +880,7 @@ export default {
   },
   "placeholders": {
     "name": "Jone Cox",
-    "email": "your-mail@mail.com",
+    "email": "your-mail{'@'}mail.com",
     "phone": "+1 000 0000",
     "language": "Pilih basa..",
     "friend_email": "Email kancamu...",
@@ -1467,7 +1467,7 @@ export default {
     "reserved": "dilindhungi",
     "paid": "Dibayar",
     "canceled": "dibatalake",
-    "cod": "Pay On Delivery",
+    "cod": "COD",
     "receipt_added": "Resi ditambahake",
     "payment_processing": "Proses pambayaran"
   },

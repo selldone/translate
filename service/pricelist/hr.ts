@@ -2,7 +2,7 @@ export default {
   "title": "Počnite besplatno, brzo rasti!",
   "sub_title": "Neograničen pristup svim značajkama bez ikakvih troškova! Samo <b>2% od prodaje</b> , odmah nakon uspješne kupnje. Imate li veliku prodaju i želite smanjiti naknade?",
   "show_detail_list": "Prikaži popis pojedinosti",
-  "plan_free_detail": "<b class='text-capitalize'>Operativni sustav za brzorastuća poduzeća</b> | Započnite svoj posao pomoću našeg besplatnog plana. Ovdje je spremno sve što trebate za pokretanje i pokretanje vaše web stranice za e-trgovinu. Selldone pruža sav softver, alate i rješenja za hosting u oblaku putem besplatnog plana pretplate. Selldone dodatno brine o svim ažuriranjima softvera i sigurnosnim razmatranjima. Tako možete sve svoje napore usmjeriti na prodaju i ne brinuti o tehničkim problemima i troškovima.",
+  "plan_free_detail": "<b class='text-capitalize'>Operativni sustav za brzorastuća poduzeća</b> ╏ Započnite svoj posao pomoću našeg besplatnog plana. Ovdje je spremno sve što trebate za pokretanje i pokretanje vaše web stranice za e-trgovinu. Selldone pruža sav softver, alate i rješenja za hosting u oblaku putem besplatnog plana pretplate. Selldone dodatno brine o svim ažuriranjima softvera i sigurnosnim razmatranjima. Tako možete sve svoje napore usmjeriti na prodaju i ne brinuti o tehničkim problemima i troškovima.",
   "pay_monthly": "Plaćanje mjesečno",
   "pay_yearly": "Plaćanje godišnje",
   "pay_yearly_off": "30% popusta",

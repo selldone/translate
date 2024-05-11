@@ -58,7 +58,7 @@ export default {
     },
     "social": {
       "title": "Ventes sociales",
-      "subtitle": "Avocat | Commencez à vendre par un seul lien",
+      "subtitle": "Avocat ╏ Commencez à vendre par un seul lien",
       "custom_form": "Bon de commande personnalisé",
       "step1": "Réalisation d'avocat",
       "step2": "Tarification et émission de facture",
