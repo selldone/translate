@@ -1,4 +1,4 @@
-![npm](https://img.shields.io/npm/v/selldone/translate)
+![npm](https://img.shields.io/npm/v/@selldone/translate)
 
 # Business OS Translation
 
