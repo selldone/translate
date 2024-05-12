@@ -1,4 +1,4 @@
-![npm](https://img.shields.io/npm/v/@selldone/translate)
+<a href="https://www.npmjs.com/package/@selldone/translate"><img src="https://img.shields.io/npm/v/@selldone/translate.svg?sanitize=true" alt="Version"></a>
 
 # Business OS Translation
 
