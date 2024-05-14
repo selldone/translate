@@ -724,6 +724,8 @@ export default {
     payout: "پرداخت",
     vendor_panel:"پنل فروشنده",
     vendors_panel:"پنل فروشنده ها",
+    syncing:'همگام سازی',
+    level:'سطح',
 
   },
 

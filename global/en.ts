@@ -725,6 +725,10 @@ export default {
     payout:"Payout",
     vendor_panel:"Vendor panel",
     vendors_panel:"Vendors panel",
+
+    syncing:'Syncing',
+    level:'Level',
+
   },
   difficulties: {
     very_complicated: "Very complicated",
