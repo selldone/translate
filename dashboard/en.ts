@@ -4571,7 +4571,6 @@ export default {
       "For products to be eligible, total items in cart must be equal or greater than minimum quantity.",
     min_items: "Minimum quantity of items",
     min_items_message: "The number of items that the customer must buy",
-    discounted_products: "Discounted products",
     offered_products: "Offered products",
     offered_products_message: "At least one of these products must be in cart.",
     discount_percent: "Discount percentage",

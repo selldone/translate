@@ -4515,7 +4515,6 @@ export default {
     qualified_products: "محصولات واجد شرایط",
     min_quantity: "حداقل تعداد در سبد خرید",
     min_purchase: "حداقل مبلغ خرید",
-    discounted_products: "محصول هدف (تخفیف خورده)",
     amount_usage: "میزان مصرف",
 
     delete_alert: {
