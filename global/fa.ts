@@ -722,11 +722,13 @@ export default {
 
     web: "وب",
     payout: "پرداخت",
-    vendor_panel:"پنل فروشنده",
-    vendors_panel:"پنل فروشنده ها",
-    syncing:'همگام سازی',
-    level:'سطح',
+    vendor_panel: "پنل فروشنده",
+    vendors_panel: "پنل فروشنده ها",
+    syncing: "همگام سازی",
+    level: "سطح",
 
+    available: "موجود",
+    limited: "محدود",
   },
 
   difficulties: {
@@ -869,8 +871,7 @@ export default {
     view_all: "نمایش همه",
     view_now: "مشاهده",
     edit_address: "ویرایش آدرس",
-    resend:"ارسال مجدد",
-
+    resend: "ارسال مجدد",
   },
 
   /** @see BillingPeriod **/
@@ -2043,14 +2044,14 @@ export default {
 
   /** {@see Calculator} **/
   /* calculator: {
-      title: "عنوان ماشین حساب",
-      formula: "فرمول",
-      variable_name: "نام متغیر",
-      variable_name_message: "نام متغیر را وارد نموده و کلید افزودن را بزنید.",
-      type: "نوع متغیر",
-      variable_title: "عنوان متغیر",
-      duplicate_var_name_error: "نمیتوان دو متغیر با یک نام وارد نمود.",
-    },*/
+        title: "عنوان ماشین حساب",
+        formula: "فرمول",
+        variable_name: "نام متغیر",
+        variable_name_message: "نام متغیر را وارد نموده و کلید افزودن را بزنید.",
+        type: "نوع متغیر",
+        variable_title: "عنوان متغیر",
+        duplicate_var_name_error: "نمیتوان دو متغیر با یک نام وارد نمود.",
+      },*/
   /** {@see SArticleStructuredData} **/
   json: {
     add: "افزودن داده های بیشتر",
@@ -2186,17 +2187,15 @@ export default {
 
   /** {@see SOrderChatBox} **/
   order_chat: {
-    seller:{
+    seller: {
       history_title: "تاریخچه پیام‌ها بین شما و مشتری.",
-      input_message: "در اینجا، شما قابلیت تبادل مستقیم پیام‌ها با مشتریان را دارید."
+      input_message:
+        "در اینجا، شما قابلیت تبادل مستقیم پیام‌ها با مشتریان را دارید.",
     },
-    customer:{
+    customer: {
       history_title: "تاریخچه پیام‌ها بین شما و فروشنده.",
-      input_message: "در اینجا، شما قابلیت برقراری ارتباط مستقیم با فروشنده از طریق ارسال پیام‌ها را دارید."
-    }
+      input_message:
+        "در اینجا، شما قابلیت برقراری ارتباط مستقیم با فروشنده از طریق ارسال پیام‌ها را دارید.",
+    },
   },
-
-
-
-
 };

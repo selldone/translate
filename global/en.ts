@@ -722,13 +722,15 @@ export default {
     important: "Important",
 
     web: "Web",
-    payout:"Payout",
-    vendor_panel:"Vendor panel",
-    vendors_panel:"Vendors panel",
+    payout: "Payout",
+    vendor_panel: "Vendor panel",
+    vendors_panel: "Vendors panel",
 
-    syncing:'Syncing',
-    level:'Level',
+    syncing: "Syncing",
+    level: "Level",
 
+    available: "Available",
+    limited: "Limited",
   },
   difficulties: {
     very_complicated: "Very complicated",
@@ -868,9 +870,8 @@ export default {
     buy: "Buy",
     view_all: "View All",
     view_now: "View Now",
-    edit_address:"Edit address",
-    resend:"Resend",
-
+    edit_address: "Edit address",
+    resend: "Resend",
   },
   /** @see BillingPeriod **/
   billing_period: {
@@ -1013,7 +1014,7 @@ export default {
     friend_email: "Your friend's email...",
     friend_name: "Opt. Your friend's name",
     select_date: "Select a date...",
-    address:'123 Main St, Anytown, 12345',
+    address: "123 Main St, Anytown, 12345",
   },
 
   notification: {
@@ -2044,15 +2045,15 @@ export default {
   },
   /** {@see Calculator} **/
   /* calculator: {
-      title: "Calculator title",
-      formula: "Formula",
-      variable_name: "Variable name",
-      variable_name_message:
-        "Enter variable name and add it to use in your formula.",
-      type: "Variable type",
-      variable_title: "Variable title",
-      duplicate_var_name_error: "Can not add variable with same name!",
-    },*/
+        title: "Calculator title",
+        formula: "Formula",
+        variable_name: "Variable name",
+        variable_name_message:
+          "Enter variable name and add it to use in your formula.",
+        type: "Variable type",
+        variable_title: "Variable title",
+        duplicate_var_name_error: "Can not add variable with same name!",
+      },*/
 
   /** {@see SArticleStructuredData} **/
   json: {
@@ -2188,19 +2189,17 @@ export default {
     winter: "Winter",
   },
 
-
   /** {@see SOrderChatBox} **/
   order_chat: {
-    seller:{
-        history_title:"Messages history between you and the customer.",
-      input_message:"Here, you have the ability to directly exchange messages with customers."
-
+    seller: {
+      history_title: "Messages history between you and the customer.",
+      input_message:
+        "Here, you have the ability to directly exchange messages with customers.",
     },
-    customer:{
-      history_title:"Messages history between you and the seller.",
-      input_message:"Here, you have the ability to directly communicate with the seller by sending messages."
-    }
+    customer: {
+      history_title: "Messages history between you and the seller.",
+      input_message:
+        "Here, you have the ability to directly communicate with the seller by sending messages.",
+    },
   },
-
-
 };
