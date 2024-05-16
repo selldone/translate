@@ -428,5 +428,164 @@ export default {
 
   },
 
+  "screenshots": {
+    "item_1": {
+      "title": "Streamline your orders management.",
+      "desc": "Efficiently manage a large volume of orders daily using our advanced list and filter functions."
+    },
+    "item_2": {
+      "title": "Connect your store to PODs.",
+      "desc": "Easily connect your store to a print on demand dropshipping service such as Printful and sell your artwork on printed materials without the need for any additional plugins."
+    },
+    "item_3": {
+      "title": "Fulfill orders with intuitive enterprise tools.",
+      "desc": "Experience a streamlined ordering process with the ability to intuitively format requests, make necessary changes, and update status with just a click. Elevate your fulfillment capabilities to new heights with our enterprise-level tools."
+    },
+    "item_4": {
+      "title": "Tracking actions on the order timeline.",
+      "desc": "The timeline of an order provides a detailed record of all actions and changes made to the order. You can easily see who made the changes and when they were made."
+    },
+    "item_5": {
+      "title": "Simplifying customer and vendor communication.",
+      "desc": "Emails with your brand branding will automatically be sent to customers, vendors, and any custom email addresses specified after the checkout and payment process is completed."
+    },
+    "item_6": {
+      "title": "Effortlessly organize products with drag and drop.",
+      "desc": "The product in this system will function similar to files, while categories will act like folders. You will have the ability to easily drag and drop products, rearrange them, copy and paste, and even import bulk products using a simple Excel file."
+    },
+    "item_7": {
+      "title": "Easily track your subscription orders.",
+      "desc": "Retrieve an intuitive and compact list containing all current and past subscription orders, including the time until the next payment and detailed information for each order."
+    },
+    "item_8": {
+      "title": "Utilize built-in blog and CMS tools to engage customers.",
+      "desc": "Leverage the in-house blog and content management system features to create content about your company and offerings, and attract new audiences through search engine optimization. By doing so, you can also interact with your clients."
+    },
+    "item_9": {
+      "title": "Connect OS — Effortlessly connect to external services.",
+      "desc": "It is possible to connect to external services, such as marketplaces, dropshipping suppliers, PODs, and financial software, without the need for any additional plugins."
+    },
+    "item_10": {
+      "title": "Simplify product imports from external services.",
+      "desc": "Easily import products from external services such as Woocommerce and Printful with just a few clicks and full automation."
+    },
+    "item_11": {
+      "title": "Connecting your shop to Google Merchant Center.",
+      "desc": "Link your store with Google Merchant Center and synchronize all items and categories seamlessly to advertise them on Google."
+    },
+    "item_12": {
+      "title": "Avocado — Easily sell products on social media.",
+      "desc": "With Avocado, you can sell products on social media without the need to manually add products and pricing. The tool automatically generates a payment link for orders and allows you to create custom bills with payment links."
+    },
+    "item_13": {
+      "title": "Ribbon — Easily create and sell subscriptions.",
+      "desc": "Ribbon is a powerful tool that allows you to easily create and sell subscriptions such as subscription boxes, paywalls, and various types of content with just a few clicks."
+    },
+    "item_14": {
+      "title": "Offer multiple payment options in your store.",
+      "desc": "It's beneficial to offer various payment options in your store, such as incorporating both Stripe and PayPal."
+    },
+    "item_15": {
+      "title": "Incentivize customer purchases with discounts, offers, coupons, and gamification.",
+      "desc": "Incentivize your customers to make more purchases from your store by using various methods such as offering discount codes, promotional offers, smart discounts, coupons, gift cards, and incorporating elements of gamification into the shopping experience."
+    },
+    "item_16": {
+      "title": "Maximize performance with server-side campaign management.",
+      "desc": "Utilize server-side marketing and campaign management to gain the most insightful and accurate information regarding the performance of your campaign."
+    },
+    "item_17": {
+      "title": "Manage affiliate payments and sales.",
+      "desc": "Include affiliates and efficiently handle their payments and sales. Utilize various advanced options for affiliate management such as assigning unique customer domains for each affiliate."
+    },
+    "item_18": {
+      "title": "Efficiently manage inventory and pricing.",
+      "desc": "Logistic and Inventory management tools assist in organizing, filtering, and managing the inventory and pricing for thousands of products and their variations."
+    },
+    "item_19": {
+      "title": "Real-time customer activity and statistics.",
+      "desc": "Gain access to the most recent data on customer activity and website statistics to make informed, data-driven decisions."
+    },
+    "item_20": {
+      "title": "Increase sales by community builder.",
+      "desc": "Build an interactive community to boost sales in your shop, enhance audience engagement, foster trust, and leverage the SEO benefits of free content."
+    },
+    "item_21": {
+      "title": "Elevate your customers experience.",
+      "desc": "Organize and segment your customer base, analyze their lifetime value, past online and in-store purchases, and track their journey to enhance their experience while respect their privacy."
+    },
+    "item_22": {
+      "title": "Design responsive pages with ease.",
+      "desc": "Easily design captivating and responsive internal and landing pages using our built-in No-code page builder. Simply drag and drop sections to create custom pages."
+    },
+    "item_23": {
+      "title": "Streamline editing with an inline page editor.",
+      "desc": "Easily edit texts and images within pages using an inline page editor, making it simple and intuitive to update your content."
+    },
+    "item_24": {
+      "title": "Manage team access and roles.",
+      "desc": "Invite your team members, establish staff roles and set their access levels. As your business and team expand, your business operating system will adapt accordingly."
+    },
+    "item_25": {
+      "title": "Have your apps.",
+      "desc": "Begin your business with a Progressive Web App and provide your customers with a faster experience compared to your competitors."
+    },
+    "item_26": {
+      "title": "Advanced automation and saving tools.",
+      "desc": "Streamline your business operations and save valuable time and resources by utilizing advanced automation tools that can be integrated into your shop."
+    },
+    "item_27": {
+      "title": "Customize your storefront with ease.",
+      "desc": "Easily personalize your storefront to match your brand by utilizing visual customization options such as theme, color schemes, fonts, and more - all without the need for coding or technical skills."
+    },
+    "item_28": {
+      "title": "Design a personalized customer journey.",
+      "desc": "Design a personalized customer journey using the various options available on Selldone, such as choosing the login point or enabling guest shopping."
+    },
+    "item_29": {
+      "title": "Enhance experience with custom login and flow options.",
+      "desc": "Create a personalized login and flow experience, providing various social login options for your online store."
+    },
+    "item_30": {
+      "title": "Support complex business models.",
+      "desc": "Selldone Support offers advanced business model support, such as marketplace, dropshipping suppliers, affiliate, and franchise, which you can easily set up and switch between with just a click."
+    },
+    "item_31": {
+      "title": "Link multiple custom domains.",
+      "desc": "You can link multiple custom domains to specific aspects of your business such as the community, shop, blog, landing pages, or even affiliates."
+    },
+    "item_32": {
+      "title": "Support multiple languages and auto-translation.",
+      "desc": "Your store fully supports multiple languages, both RTL and LTR. You can easily install and activate automatic translation packages for your store."
+    },
+    "item_33": {
+      "title": "Built-in multi-profile tax calculation.",
+      "desc": "With the ability to create multiple tax profiles and assign them to specific products, you have greater flexibility in calculating VAT and sales tax. For instance, you can apply different tax rates for food items or electrical devices."
+    },
+    "item_34": {
+      "title": "Multi-regional tax calculation.",
+      "desc": "Utilize either the default or custom rules for sales tax and VAT when selling to different countries and regions. Override rules for specific regions and tax territories as needed."
+    },
+    "item_35": {
+      "title": "Publish articles with a powerful inline editor.",
+      "desc": "An advanced inline article editor streamlines the process of publishing and reviewing your articles, making it fast and easy while maintaining consistency."
+    },
+    "item_36": {
+      "title": "Dedicated dashboard for each product.",
+      "desc": "Every product has a dedicated dashboard that provides statistics, all necessary information and access to all actions required for management."
+    },
+    "item_37": {
+      "title": "Auto translate articles.",
+      "desc": "Utilize the in-built enterprise-level AI translation feature to effortlessly translate product descriptions into different languages with just one click."
+    },
+    "item_38": {
+      "title": "Built-in analytics tools.",
+      "desc": "You will have access to built-in analytics tools that are entirely server-side, safe, and compliant with GDPR, without the use of cookies."
+    },
+    "item_39": {
+      "title": "Cover most of your advanced SEO needs.",
+      "desc": "Our internal tool provides you with the most active keywords, top performing URLs, and an overview of your business's performance on Google search, all presented in the form of tables and graphs."
+    }
+  }
+
 
 };
