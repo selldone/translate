@@ -572,7 +572,7 @@ export default {
     limits_config: "محدودیت ها",
     design_config: "طراحی و ظاهر",
     duration_config: "محدودیت زمانی",
-    constraints_config: "ظرایط واجد شرایط",
+    constraints_config: "شرایط احراز صلاحیت",
     clubs_config: "کلوپ مشتریان",
     additional_config: "تنظیمات بیشتر",
     import: "وارد کردن",
@@ -729,6 +729,17 @@ export default {
 
     available: "موجود",
     limited: "محدود",
+
+    management:'مدیریت',
+    topics:'تاپیک ها',
+    posts:'پست ها',
+    replies:'پاسخ‌ها',
+    reports:'گزارش‌ها',
+    post:'مطلب',
+    impressions:'بازدیدها',
+    resources:'منابع',
+
+
   },
 
   difficulties: {
@@ -872,6 +883,10 @@ export default {
     view_now: "مشاهده",
     edit_address: "ویرایش آدرس",
     resend: "ارسال مجدد",
+    deploy_now:'هم‌اکنون استقرار دهید',
+    become_premium:'پرمیوم شوید',
+    bulk_export: "خروجی دسته جمعی",
+
   },
 
   /** @see BillingPeriod **/
@@ -1007,6 +1022,10 @@ export default {
     friend_name: "نام دریافت کننده",
     select_date: "یک تاریخ را انتخاب کنید...",
     address: "خیابان اصلی 123، شهرستان، 12345",
+    cluster:'یک خوشه را انتخاب کنید...',
+    select_products:'انتخاب محصول',
+    birthday:'انتخاب تاریخ تولد',
+
   },
 
   notification: {
@@ -1375,6 +1394,10 @@ export default {
       publish_at: "انتشار در",
       last_edit: "آخرین ویرایش",
       view_action: "مشاهده مطلب",
+      no_article:'هیچ مقاله‌ای برنامه‌ریزی نشده است!',
+      current_article:'مقاله جاری',
+      article_for_product:'مقاله برای محصول'
+
     },
     notifications: {
       update_success_title: "ثبت اطلاعات",

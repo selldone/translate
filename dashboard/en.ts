@@ -334,9 +334,8 @@ export default {
         payments: "Payments",
         orders: "Orders",
         currency: "Currency",
-        no_payment:'No payment!',
-        no_purchase:'No purchase!',
-
+        no_payment: "No payment!",
+        no_purchase: "No purchase!",
       },
     },
   },
@@ -1793,6 +1792,10 @@ export default {
 
   /** {@see BPageShopLogisticInventoryList} **/
   inventory_list: {
+    title: "Store Inventory",
+    subtitle: "List of all products in store.",
+    cant_set_here: "Can't set here",
+
     search_input: "Product Search...",
     search_input_title: "Search among store products",
     apply_filter: "Apply filter",
@@ -4343,6 +4346,29 @@ export default {
         add: "Discount code successfully added.",
         edit: "Discount code successfully edited.",
       },
+      config: {
+        title: "Genral Config",
+        subtitle:
+          "The formula of the discount code calculation is: max (LIMIT, PERCENT * cart price). Remember to make the codes relevant and easy to remember.",
+      },
+      limit: {
+        title: "Limitations",
+        subtitle:
+          "You can define the maximum usage limit for each discount code, as well as the maximum discount amount, in this section.",
+      },
+      duration: {
+        title: "Duration Limit",
+        subtitle:
+          "Should you want to activate a discount code for a specific timeframe, you can establish that duration here.",
+      },
+      design: {
+        subtitle:
+          "You can set a title and description for each discount code. These details will be displayed to the user.",
+      },
+      cluster: {
+        subtitle:
+          "By associating this discount code with a cluster, you can easily manage it alongside other resources in a single location.",
+      },
     },
     delete_alert: {
       title: "Remove Discount Code",
@@ -4467,6 +4493,42 @@ export default {
       add: "New coupon created successfully.",
       edit: "Coupon has been updated.",
     },
+
+    config: {
+      subtitle:
+        "The formula of the coupon discount calculation is: CHARGE + max (LIMIT, PERCENT * cart price).",
+    },
+    limit: {
+      subtitle:
+        "In this section, you're able to set both the maximum number of uses per coupon and the highest discount amount each coupon can provide.",
+      zero_message: "zero: there is no limit!",
+    },
+    duration: {
+      subtitle:
+        "If you wish to set a specific timeframe for a coupon to be active, you can configure the duration in this section.",
+    },
+    design: {
+      subtitle:
+        "Each coupon allows for the addition of a title and description. These details will be visible to the customer.",
+    },
+    constraints: {
+      subtitle:
+        "Here, you have the ability to establish additional personalized parameters for the coupon.",
+      no_limit: "No extra limitation",
+      has_limit: "Extra constraints",
+      has_code_message: "User should enter the code to add coupon.",
+    },
+    club: {
+      subtitle:
+        "This coupon's use can be restricted exclusively to members of chosen customer clubs.",
+    },
+    cluster: {
+      subtitle:
+        "By associating this coupon with a cluster, you can easily manage it alongside other resources in a single location.",
+    },
+    preview: {
+      subtitle: "Here's the public preview of the coupon.",
+    },
   },
 
   /** {@see BPageShopIncentivesOffer} **/
@@ -4478,7 +4540,6 @@ export default {
     qualified_products: "Eligible products",
     min_quantity: "Minimum quantity",
     min_purchase: "Minimum purchase",
-    discounted_products: "Discounted products",
     amount_usage: "Used amount ",
 
     delete_alert: {
@@ -4491,7 +4552,7 @@ export default {
     },
   },
 
-  /** {@see OfferEditForm} **/
+  /** {@see BOfferAdd} **/
   offer_edit: {
     title_edit: "Edit offer",
     title_add: "New offer",
@@ -4539,6 +4600,30 @@ export default {
     notifications: {
       add: "New offer created successfully.",
       edit: "Offer updated successfully.",
+    },
+    config: {
+      subtitle:
+        "Begin crafting an intelligent deal by establishing its title, description, and public availability status.",
+    },
+    limit: {
+      subtitle: "Set the maximum usage limit for this offer in this section.",
+    },
+    duration: {
+      subtitle:
+        "If you wish to set a specific timeframe for an offer, you can configure the duration here.",
+    },
+    constraints: {
+      subtitle:
+        "Set the eligibility criteria and conditions for the offer here. The offer applies to cart items that meet these conditions.",
+    },
+    discounted_products: {
+      title: "Discounted products",
+      subtitle:
+        "You can specify the products to which this offer will apply a discount.",
+    },
+    cluster: {
+      subtitle:
+        "By associating this offer with a cluster, you can easily manage it alongside other resources in a single location.",
     },
   },
 
@@ -4645,6 +4730,7 @@ export default {
     sub_title:
       "Your customers can play game and win. Customers of your store must consume 10 chips for each game. For example, if you want your customers to have a chance to win 1000 USD, you can set the amount of each chip price at 100 USD. A value of 0 for each chip means that the buyer will receive one chip for each purchase.",
     manually_send_chip: "Do you want to manually send chips to users?",
+    manual_send_token_action: "Manual Tokens",
     lottery_enable: "Is lottery enabled?",
     chip_price_input: "Chip price",
     zero_chip_message: "Give 1x chip per order",
@@ -4659,6 +4745,12 @@ export default {
     notifications: {
       delete_success: "Prize deleted successfully.",
     },
+
+    config: {
+      subtitle:
+        "Boost customer purchases with a gamified experience in your store. Set up prizes and winning odds for customers who earn tokens through purchases. Each game play costs 10 tokens, and you can offer special prizes for first-time buyers. The default game is Wheel of Fortune, but you can customize it to fit your shop's layout.",
+    },
+    empty_prize_list: "Create and manage prizes here...",
   },
 
   /** {@see BLotteryAdd**/
@@ -4680,7 +4772,8 @@ export default {
     chance_message: "Winning Chance in percent",
     free_for_first: "Is it free for new customers?",
     free_for_first_message: "New customers can win this item.",
-    prize: "Prize",
+    not_free_for_first_message: "This prize not available for first free play.",
+
     amount: "Prize amount",
     amount_hint: "Users win this amount of charge for their order.",
     currency_message:
@@ -4695,6 +4788,26 @@ export default {
     notifications: {
       add: "New lottery item created successfully.",
       edit: "Lottery items changed successfully.",
+    },
+    config: {
+      subtitle:
+        "Here, you can create your shop's lottery prizes. Set the title, description, color, and image for each prize.",
+    },
+    design: {
+      subtitle:
+        "Here, you have the option to choose an image and color for the prize.",
+    },
+    constraints: {
+      subtitle: "Specify the criteria and limitations for winning this prize.",
+    },
+    prize: {
+      title: "Prize",
+      subtitle:
+        "Set up the prize details here. Options include discount codes, gift cards, credits, and other discounts as lottery rewards.",
+    },
+    product_input: {
+      label: "Product prize",
+      message: "Select a product for prize (is free)",
     },
   },
 
@@ -5264,6 +5377,9 @@ export default {
   /** {@see BPageShopCrmCustomers**/
   shop_customers: {
     title: "Customers Management",
+    subtitle:
+      "Customers can be added to your store in several ways; manually, bulk Excel import, through the POS, or via your online store. Whenever a user logs into your store, they will automatically be registered as a customer.",
+    add_customer_action: "Add new customer",
 
     all_customers: "Download all customers",
     filtered_customers: "Filtered customers",
@@ -5274,6 +5390,30 @@ export default {
       title: "Set customer club level",
     },
   },
+
+  /** {@see BCustomerAdd**/
+  customer_add: {
+    edit_title: "Edit customer",
+    add_title: "Add new customer",
+    subtitle:
+      "To add a customer to your store, please provide either an email address or a phone number.",
+    more: {
+      title: "Add more details",
+      subtitle: "Set currency, customer club, segments, address and more.",
+    },
+    detail: {
+      subtitle:
+        "Keep a record of personal information about your customer. Please respect your customer's privacy.",
+    },
+    preferences: {
+      subtitle: "Set default user currency, customer club, and segments here.",
+    },
+    address: {
+      subtitle:
+        "This address can be used in the POS. The user can not see this information.",
+    },
+  },
+
   /** {@see AppPageDashboard**/
   app_dashboard: {
     status: "Publish status",
@@ -6090,6 +6230,20 @@ export default {
   selldone_applications: {
     title: "Don't miss your orders! ",
     msg: "Manage your business anywhere & anytime.",
+    scan_qr_code: "Scan me with your phone!",
+
+    notification: {
+      title: "Notification",
+      subtitle: "Get new orders notification.",
+    },
+    order: {
+      title: "Orders",
+      subtitle: "See your orders and manage them.",
+    },
+    product: {
+      title: "Products",
+      subtitle: "Inventory management and product plain.",
+    },
   },
 
   /** {@see BPageShopSettingSeo**/
@@ -6174,16 +6328,17 @@ export default {
     message:
       "Here is a list of your owned shops, authorized shops, and sample shops. To hide sample shops, navigate to the bottom of the page and select the preferences.",
 
-    sample:{
-      title:"Sample Stores",
-      subtitle:"Here, you can discover a selection of sample stores. You are granted permission to peruse the information available in these stores. However, please refrain from logging in or placing orders using real personal information, as this data will be accessible to the public. If you accidentally enter your information here, kindly exit the store and get in touch with us for further assistance."
+    sample: {
+      title: "Sample Stores",
+      subtitle:
+        "Here, you can discover a selection of sample stores. You are granted permission to peruse the information available in these stores. However, please refrain from logging in or placing orders using real personal information, as this data will be accessible to the public. If you accidentally enter your information here, kindly exit the store and get in touch with us for further assistance.",
     },
 
-    add_new_store:'Add New Store',
-    i_have_a_deal:'I have a deal',
-    access:{
-      title:'Access Invitation',
-    }
+    add_new_store: "Add New Store",
+    i_have_a_deal: "I have a deal",
+    access: {
+      title: "Access Invitation",
+    },
   },
 
   /** {@see BTransportationServiceLabels} **/
@@ -6208,6 +6363,8 @@ export default {
   /** {@see BPageShopBlogsCategories} **/
   blog_category: {
     title: "Blog Categories",
+    subtitle:"You can create a limited number of categories for your blog posts to manage them more efficiently. Having a category limit promotes better organization on your website. Notably, even the top news agencies maintain a limited number of categories, often fewer than 100, to streamline management and maintain a broader focus.",
+
     add_action: "Add new category",
     add_dialog: {
       title: "New / Update Category",
@@ -6219,6 +6376,11 @@ export default {
       add_action: "Add Category",
       edit_action: "Edit category",
     },
+  },
+  /** {@see BPageShopBlogsTimeline} **/
+  blog_timeline:{
+    title:'Content Release Schedule ',
+    subtitle:"Here is the list of scheduled articles set for future publication. You have the ability to schedule blog posts and even product descriptions to be published at specific times.",
   },
 
   /** {@see BPageShopPagesAboutUs} **/
@@ -6257,6 +6419,8 @@ export default {
   /** {@see BProcessCenterBulkExport} **/
   orders_bulk_export: {
     title: "Orders Assistant",
+    subtitle:"Export and download labels for bulk order processing - ideal for handling over 100 orders daily.",
+
     timespan: {
       title: "Time period",
       subtitle: "Choose the start and end dates for placing orders.",
@@ -6731,6 +6895,63 @@ export default {
     pending: {
       title: "Pending",
       message: "Show pending invitations.",
+    },
+  },
+
+  /**
+   * BPageShopCommunityComments
+   */
+  community_comments: {
+    title: "Comments",
+    subtitle: "This is a list of the community's comments.",
+    empty_msg: "No comments have been created so far...",
+  },
+
+  /**
+   * BPageShopCommunityCategories
+   */
+  community_categories: {
+    title: "Categories",
+    subtitle: "This is a list of the community's categories.",
+    new_category_action: "New Category",
+    empty_msg: "No categories have been created so far...",
+    filter: {
+      delete: {
+        title: "Deleted",
+        description: "Show deleted categories.",
+      },
+    },
+  },
+  /**
+   * BPageShopCommunityPosts
+   */
+  community_posts: {
+    title: "Posts",
+    subtitle: "This is a list of the community's posts.",
+    filter: {
+      deleted: {
+        title: "Deleted",
+        description: "Show deleted posts.",
+      },
+      reported: {
+        title: "Reported",
+        description: "Show reported posts.",
+      },
+    },
+    empty_msg: "No posts have been created so far...",
+    menu: {
+      open_post: {
+        title: "Open Post",
+        subtitle: "View and edit post in the community.",
+      },
+      spam: {
+        title: "Report & Remove Spams",
+        subtitle: "Bulk remove posts and ban user.",
+      },
+      delete: {
+        title: "Delete Post",
+        subtitle: "Remove this post.",
+      },
     },
   },
 

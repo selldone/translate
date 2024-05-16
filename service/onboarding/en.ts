@@ -207,13 +207,19 @@ export default {
     template: {
       title: "Templates",
       msg: "Kickstart your shop with our pre-built templates! Easily diversify by adding multiple pages, each boasting its own unique design.",
+      action:'View all templates...'
+
     },
 
     colors: {
       title: "Colors & Layout",
 
       msg: "Looking to tailor your product page and shop layout to better fit your vision? Dive into the theme customization section in your shop and watch the magic unfold effortlessly!",
+
+      action:'Customize Colors & Theme'
+
     },
+
   },
 
   /**
@@ -235,4 +241,9 @@ export default {
       msg: "Seamlessly migrate your WooCommerce products to Selldone in just a few clicks! Enjoy enhanced performance, intuitive design, and top-tier customer support. Upgrade your e-commerce experience now.",
     },
   },
+
+
+
+
+
 };

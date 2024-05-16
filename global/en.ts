@@ -731,6 +731,16 @@ export default {
 
     available: "Available",
     limited: "Limited",
+
+    management:'Management',
+    topics:'Topics',
+    posts:'Posts',
+    replies:'Replies',
+    reports:'Reports',
+    post:'Post',
+    impressions:'Impressions',
+    resources:'Resources',
+
   },
   difficulties: {
     very_complicated: "Very complicated",
@@ -872,6 +882,11 @@ export default {
     view_now: "View Now",
     edit_address: "Edit address",
     resend: "Resend",
+
+    deploy_now:'Deploy Now',
+    become_premium:'Become Premium',
+    bulk_export: "Bulk Export",
+
   },
   /** @see BillingPeriod **/
   billing_period: {
@@ -1015,6 +1030,9 @@ export default {
     friend_name: "Opt. Your friend's name",
     select_date: "Select a date...",
     address: "123 Main St, Anytown, 12345",
+    cluster:'Select a cluster...',
+    select_products:'Select products',
+    birthday:'Select birthday',
   },
 
   notification: {
@@ -1383,6 +1401,9 @@ export default {
       publish_at: "Publish at",
       last_edit: "Last edit",
       view_action: "View Article",
+      no_article:'No scheduled article!',
+      current_article:'Current Article',
+      article_for_product:'Article For Product'
     },
     notifications: {
       update_success_title: "Submit Information",
