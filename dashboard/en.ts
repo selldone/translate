@@ -22,8 +22,7 @@ export default {
     featured_apps: "Featured apps",
     more_apps: "More apps",
     my_public_profile: "My public profile page",
-    product_admin:"Product Admin",
-
+    product_admin: "Product Admin",
   },
 
   numbers: {
@@ -335,6 +334,9 @@ export default {
         payments: "Payments",
         orders: "Orders",
         currency: "Currency",
+        no_payment:'No payment!',
+        no_purchase:'No purchase!',
+
       },
     },
   },
@@ -6171,6 +6173,17 @@ export default {
     title: "My Shops",
     message:
       "Here is a list of your owned shops, authorized shops, and sample shops. To hide sample shops, navigate to the bottom of the page and select the preferences.",
+
+    sample:{
+      title:"Sample Stores",
+      subtitle:"Here, you can discover a selection of sample stores. You are granted permission to peruse the information available in these stores. However, please refrain from logging in or placing orders using real personal information, as this data will be accessible to the public. If you accidentally enter your information here, kindly exit the store and get in touch with us for further assistance."
+    },
+
+    add_new_store:'Add New Store',
+    i_have_a_deal:'I have a deal',
+    access:{
+      title:'Access Invitation',
+    }
   },
 
   /** {@see BTransportationServiceLabels} **/
@@ -6533,200 +6546,193 @@ export default {
       "We are in the process of importing products and images, which may take some time to complete.",
   },
 
-
   /**
    * BOrderInput
    */
   order_input: {
-    message: "The information displayed here has been submitted by the customer, in accordance with the product input form structure.",
+    message:
+      "The information displayed here has been submitted by the customer, in accordance with the product input form structure.",
   },
-
 
   /**
    * BPageConnectDashboard
    */
-  shop_connect:{
-    test:{
-      title:'Setup',
-      subtitle:'External service report',
-      action:'Test connection',
-      last_update:'Last updated by',
-
+  shop_connect: {
+    test: {
+      title: "Setup",
+      subtitle: "External service report",
+      action: "Test connection",
+      last_update: "Last updated by",
     },
-    service_status:{
-      title:'Service status',
-      syncing_message:'On syncing process...',
-      action:'Sync all',
-      connect_status:'Connect status',
-      service_status:'Service status',
-      auto_confirm_enable_msg:'Auto-confirmation for orders is enabled.',
-      auto_confirm_disable_msg:'Automatic confirmation of orders is not enabled.',
-      shipping_enable_msg:'The shipping cost will be calculated based on the information provided at checkout.',
+    service_status: {
+      title: "Service status",
+      syncing_message: "On syncing process...",
+      action: "Sync all",
+      connect_status: "Connect status",
+      service_status: "Service status",
+      auto_confirm_enable_msg: "Auto-confirmation for orders is enabled.",
+      auto_confirm_disable_msg:
+        "Automatic confirmation of orders is not enabled.",
+      shipping_enable_msg:
+        "The shipping cost will be calculated based on the information provided at checkout.",
     },
-    detail:{
-      title:'Connect detail',
-      auto_confirm_order:'Auto confirm orders',
-      test_mode:'Test mode',
-      status:{
-        subtitle:'Overall information about sync status.',
+    detail: {
+      title: "Connect detail",
+      auto_confirm_order: "Auto confirm orders",
+      test_mode: "Test mode",
+      status: {
+        subtitle: "Overall information about sync status.",
       },
-      sync:{
-        title:'Sync detail',
-        subtitle:'Internal sync details. This information is saved after a sync process epoch successfully ends.',
-        no_data:'No sync information!'
-
-      }
-    },
-
-
-    products:{
-      title:'Products',
-      subtitle:"List of added products from {name}. Make sure your product has a unique name and SKU. Some Connect services are used for migration, so if you have products with duplicate <b>SKUs</b> and <b>Names</b>, those products will be changed!",
-      action:'Fetch products',
-      syncing_message:'On syncing process...',
+      sync: {
+        title: "Sync detail",
+        subtitle:
+          "Internal sync details. This information is saved after a sync process epoch successfully ends.",
+        no_data: "No sync information!",
+      },
     },
 
-
-    logs:{
-      title:'Logs',
-      subtitle:"The list of all logs in the last 7 days. Logging feature supported only on external service providers."
+    products: {
+      title: "Products",
+      subtitle:
+        "List of added products from {name}. Make sure your product has a unique name and SKU. Some Connect services are used for migration, so if you have products with duplicate <b>SKUs</b> and <b>Names</b>, those products will be changed!",
+      action: "Fetch products",
+      syncing_message: "On syncing process...",
     },
 
-    edit:{
-      title:'Add new Connect',
-
-      service:{
-        title:'Service',
-        subtitle:"Select target platform, dropshipping supplier, or marketplace to connect."
-      },
-      test:{
-        false_title:"Sync all",
-        false_desc:"Get all available products, categories, customers.",
-        true_title:"Limited (Recommended for beginners)",
-        true_desc:"Get max 5 products, categories, and customers. You can turn it to full mode in the Connect > Setting at any time."
-      },
-      overwrite:{
-        false_title:"Do not change if exist",
-        false_desc:"Retain existing product and category details as they are.",
-        true_title:"Overwrite",
-        true_desc:"Update existing product, variant, and category information."
-      },
-      migration_tips:"<b>Tips: </b>If you want to test the functionality please select\n" +
-          "            <b>Limited</b> option. By selecting 'Sync all', we get all data from your connected services and download related images, so it will reduce your free storage. Also, removing many products, categories, and customers would be hard!",
-      add_action:"Auto connect to",
-      order:{
-        title:'Ordering Status',
-        subtitle:"Configure the connected service's order management settings for your store. This includes setting up order acceptance, enabling automatic order confirmation (if supported), and configuring shipping cost calculations.",
-      },
-      enable:{
-        label:'Connect status',
-        true_desc:"Inventory and orders will be synced."
-      },
-      confirm:{
-        label:'Auto confirm orders',
-        false_desc:"You should confirm order manually.",
-        true_desc:"Orders with live payment will be automatically approved. Orders with debug payment will not approve automatically. ",
-        tips:"Orders paid by gift card or COD or payment gateways in the debug mode are exceptions and will not be confirmed automatically."
-      },
-
-      shipping:{
-        label:'Shipping',
-        tips:"This service offers shipping calculation, which can be enabled or disabled as per your preference. If enabled, cost calculation APIs with 3rd party services will be required, which may cause a delay of over 300ms for updating the price on the checkout page.",
-        false_title:"Disable",
-        false_desc:"Use my shipping cost calculation, in Shop > Logistic > Transportation for all products, including imported ones.",
-       true_title:"Calculate shipping",
-        true_desc:"Employ the shipping rate calculation API offered by this service.",
-
-      },
-
-      remove:{
-        verify:'I verify to remove this connection.',
-        action:'Remove connect'
-      }
-
+    logs: {
+      title: "Logs",
+      subtitle:
+        "The list of all logs in the last 7 days. Logging feature supported only on external service providers.",
     },
 
+    edit: {
+      title: "Add new Connect",
+
+      service: {
+        title: "Service",
+        subtitle:
+          "Select target platform, dropshipping supplier, or marketplace to connect.",
+      },
+      test: {
+        false_title: "Sync all",
+        false_desc: "Get all available products, categories, customers.",
+        true_title: "Limited (Recommended for beginners)",
+        true_desc:
+          "Get max 5 products, categories, and customers. You can turn it to full mode in the Connect > Setting at any time.",
+      },
+      overwrite: {
+        false_title: "Do not change if exist",
+        false_desc: "Retain existing product and category details as they are.",
+        true_title: "Overwrite",
+        true_desc:
+          "Update existing product, variant, and category information.",
+      },
+      migration_tips:
+        "<b>Tips: </b>If you want to test the functionality please select\n" +
+        "            <b>Limited</b> option. By selecting 'Sync all', we get all data from your connected services and download related images, so it will reduce your free storage. Also, removing many products, categories, and customers would be hard!",
+      add_action: "Auto connect to",
+      order: {
+        title: "Ordering Status",
+        subtitle:
+          "Configure the connected service's order management settings for your store. This includes setting up order acceptance, enabling automatic order confirmation (if supported), and configuring shipping cost calculations.",
+      },
+      enable: {
+        label: "Connect status",
+        true_desc: "Inventory and orders will be synced.",
+      },
+      confirm: {
+        label: "Auto confirm orders",
+        false_desc: "You should confirm order manually.",
+        true_desc:
+          "Orders with live payment will be automatically approved. Orders with debug payment will not approve automatically. ",
+        tips: "Orders paid by gift card or COD or payment gateways in the debug mode are exceptions and will not be confirmed automatically.",
+      },
+
+      shipping: {
+        label: "Shipping",
+        tips: "This service offers shipping calculation, which can be enabled or disabled as per your preference. If enabled, cost calculation APIs with 3rd party services will be required, which may cause a delay of over 300ms for updating the price on the checkout page.",
+        false_title: "Disable",
+        false_desc:
+          "Use my shipping cost calculation, in Shop > Logistic > Transportation for all products, including imported ones.",
+        true_title: "Calculate shipping",
+        true_desc:
+          "Employ the shipping rate calculation API offered by this service.",
+      },
+
+      remove: {
+        verify: "I verify to remove this connection.",
+        action: "Remove connect",
+      },
+    },
 
     /**
      * BPageShopChannelConnect
      */
-    list:{
-      title:'Connect OS',
-      subtitle:"Connect your business os to external services and manage all channels in the same place.",
-      action:'Connect new services',
-      empty_message:"Forget apps and plugins for dropshipping! Connect is the future of cross-platform order management.",
-      auto_confirm:'Auto Confirm',
-      shipping:'Shipping',
-      syncing_now:"Syncing now!",
-      sync_not_started:"Sync has not started yet!"
-    }
-
-
+    list: {
+      title: "Connect OS",
+      subtitle:
+        "Connect your business os to external services and manage all channels in the same place.",
+      action: "Connect new services",
+      empty_message:
+        "Forget apps and plugins for dropshipping! Connect is the future of cross-platform order management.",
+      auto_confirm: "Auto Confirm",
+      shipping: "Shipping",
+      syncing_now: "Syncing now!",
+      sync_not_started: "Sync has not started yet!",
+    },
   },
-
-
-
-
-
-
-
 
   /**
    * ConnectMode
    */
-  connect_mode:{
-    Migration:{
-      title:'Migration',
-      desc:"Get products, categories, and customers. After the user deletes this service, the received products, categories, and customers will not be deleted.",
+  connect_mode: {
+    Migration: {
+      title: "Migration",
+      desc: "Get products, categories, and customers. After the user deletes this service, the received products, categories, and customers will not be deleted.",
     },
-    Dropshipping:{
-      title:'Dropshipping',
-      desc:'Get products, categories, and orders. The system removes products after the user removes the service.'
+    Dropshipping: {
+      title: "Dropshipping",
+      desc: "Get products, categories, and orders. The system removes products after the user removes the service.",
     },
-    Marketplace:{
-      title:'Marketplace',
-      desc:'Just sync inventory and receive orders (Products will be linked by SKU).'
+    Marketplace: {
+      title: "Marketplace",
+      desc: "Just sync inventory and receive orders (Products will be linked by SKU).",
     },
-    Accounting:{
-      title:'Accounting',
-      desc:'Send orders and financial information.'
+    Accounting: {
+      title: "Accounting",
+      desc: "Send orders and financial information.",
     },
-    Other:{
-      title:'Other',
-      desc:'Other services.'
-    }
-
+    Other: {
+      title: "Other",
+      desc: "Other services.",
+    },
   },
-
 
   /**
    * BPageShopPagesLandings
    */
-  shop_landings:{
-    title:'Landing pages',
-    add_new_action:'Add New Page',
-    subtitle:"Create distinctive, responsive custom pages for your brand using a versatile AI-powered inline editor, and automatically generate dynamic content by feeding in data.",
-    empty_message:"Design custom pages by drag & drop...",
-
-
+  shop_landings: {
+    title: "Landing pages",
+    add_new_action: "Add New Page",
+    subtitle:
+      "Create distinctive, responsive custom pages for your brand using a versatile AI-powered inline editor, and automatically generate dynamic content by feeding in data.",
+    empty_message: "Design custom pages by drag & drop...",
   },
 
   /**
    * BPageShopPermissionStaff
    */
-  shop_staff:{
-    list:{
-      title:' Staff management ',
-      subtitle:'Users granted access to the dashboard and administrative sections of this store.',
-
+  shop_staff: {
+    list: {
+      title: " Staff management ",
+      subtitle:
+        "Users granted access to the dashboard and administrative sections of this store.",
     },
-    pending:{
-      title:'Pending',
-      message:'Show pending invitations.'
-    }
+    pending: {
+      title: "Pending",
+      message: "Show pending invitations.",
+    },
   },
-
-
 
   /**
    * AUto fill suggestions
