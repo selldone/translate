@@ -1033,6 +1033,7 @@ export default {
     cluster:'Select a cluster...',
     select_products:'Select products',
     birthday:'Select birthday',
+    select_category:'Select a category...'
   },
 
   notification: {

@@ -1025,6 +1025,7 @@ export default {
     cluster:'یک خوشه را انتخاب کنید...',
     select_products:'انتخاب محصول',
     birthday:'انتخاب تاریخ تولد',
+    select_category: 'یک دسته‌بندی انتخاب کنید...'
 
   },
 

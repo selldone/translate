@@ -1318,18 +1318,23 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Category",
+      category_input_msg: "Empty: In the store's root",
       product_name: "Product name*",
       product_name_placeholder: "Your product name here..",
       product_code: "Product code (English)",
-      sku: "SKU",
-      sku_message: "Stock Keeping Unit",
-      mpn: "MPN",
-      mpn_message: "Manufacturer Part Number",
-      status: "Status",
+      sku: {
+        label: "SKU",
+        message: "Stock Keeping Unit",
+      },
+      mpn: {
+        label: "MPN",
+        message: "Manufacturer Part Number",
+      },
+
       external_link: "External link",
-      brand: "Brand",
+
       brand_placeholder: "Brand Ex. Apple.. (Optional)",
-      warranty: "Warranty",
+
       is_original: "Is this an original product?",
       is_original_message:
         "If you do not set your product original, the fake badge will be shown for this product.",
@@ -1339,11 +1344,8 @@ export default {
       conditions_section: "Product conditions",
       warranty_section: "Warranty & Delivery",
 
-      unit: "Product unit",
+      unit_input: "Product unit",
       unit_message: "Enter the unit if needed. Ex: KG, Meter, ...",
-
-      condition: "Product condition in your store",
-      condition_message: "Please choose the condition of this product.",
 
       unit_section: "Product unit",
       unit_float: "Float unit (soon)",
@@ -1369,6 +1371,79 @@ export default {
         multi_vendors_title: "Multiple vendors",
         multi_vendors_desc:
           "This product belongs to the marketplace and only can be edited in the marketplace panel.",
+      },
+
+      category: {
+        subtitle:
+          "Configure the category and title to be displayed in your listing.",
+      },
+      unit: {
+        subtitle:
+          "You can personalize the display of pricing and call-to-action elements on the product page.",
+      },
+      custom_pricing: {
+        title: "Custom pricing form",
+        subtitle:
+          "You can create or assign a valuation (a pricing input form) to the product, and your customers can select between variants or customize your merchandise by an intuitive input form.",
+        valuation_need_saved_product_message:
+          "Please save the product first, and then you can assign a valuation model.",
+        assign_valuation_message:
+          "Please assign a valuation model to this product.",
+        edit_pricing_action: "Edit pricing form",
+        add_pricing_action: "Create new pricing form",
+      },
+      action: {
+        title: "Custom buy button",
+        message:
+          "You can change icon by following this pattern : {icon name} caption...",
+        placeholder: "Enter call to action...",
+        multi_language_dialog_title: "Custom buy button caption",
+      },
+      warehouse: {
+        subtitle:
+          "This information is utilized by the warehouse management system and serves to globally identify the product.",
+      },
+      gtin: {
+        hint: "Supported values are UPC (North America, 12 digits), EAN (Europe, 13 digits), JAN (Japan, 8 or 13 digits), ISBN (books, 13 digits).",
+        label: "Product's Global Trade Item Number",
+        placeholder: "Global trade number here.. (Optional)",
+      },
+      hsn: {
+        hint: "HSN, or Harmonized System of Nomenclature, is an internationally standardized classification system for categorizing goods and products.",
+        placeholder: "6~16 digits HSN code.. (Optional)",
+        label: "HSN",
+      },
+      condition: {
+        label: "Product condition in your store",
+        message: "Please choose the condition of this product.",
+        subtitle:
+          "Inform your customers about the condition and brand of the product you're offering.",
+      },
+      brand: {
+        label: "Brand",
+        placeholder: "Brand Ex. Apple.. (Optional)",
+      },
+      warranty: {
+        subtitle:
+          "Set the warranty and product status, as this information regarding warranty will be displayed to the customer and helps establish the time frame within which products can be returned after purchase.",
+
+        label: "Warranty",
+        placeholder: "Golden 24 months warranty.. (Optional)",
+      },
+      status: {
+        title: "Status",
+        subtitle:
+          "The product's status determines its availability online and in-store. To make a product draft, just switch its status to 'Inactive'..",
+      },
+      profiles: {
+        title: "Profiles",
+        subtitle:
+          "You can define warranty, return policy, shipping, and guide and assign them to this product. It will be shown as new tabs on the product page.",
+      },
+      shortcuts: {
+        title: "Assign Product to Additional Categories",
+        subtitle:
+          "This feature allows you to list the product in multiple categories while retaining its placement in the primary category set under Product > Edit > Category. Essentially, it functions similarly to creating 'shortcuts' in operating systems, enabling the product to appear in additional specified categories.",
       },
     },
 
@@ -1441,11 +1516,30 @@ export default {
       },
     },
 
-    /** {@see BProductEditInputs} **/
+    /** {@see BProductEditSpec} **/
     edit_spec: {
       title: "Technical Specifications",
-      sub_title: "You can import technical secifications of similar products.",
-      import_action: "Import",
+      subtitle:"Insert product specifications here. This information will be displayed to customers and can also be utilized in the category's intelligent filtering system.",
+      manual:{
+        title:'Manually',
+        subtitle:'Add product specifications manually by defining groups and key-values pair.',
+        add_group_action:'Add Group',
+        add_item_action:'Add Spec Value'
+      },
+      import:{
+        subtitle: "You can import technical specifications of similar products.",
+        action_title:"Import",
+        action_subtitle:'Clone spec from another product.'
+      },
+      ai:{
+        title:'AI',
+        subtitle:"You can automatically create product specifications by submitting the product's raw data in textual form.",
+        action_title:'Auto Generate by AI',
+        action_subtitle:"Create product specifications by abstract prompt.",
+
+      },
+
+
       group_input_header: "Add Group",
       item_title_header: "Add Item",
       group_input: "Group header",
@@ -1522,6 +1616,22 @@ export default {
       same_price: "The price for the main product",
       variant_pricing_message:
         "By selecting this option, the price of this variant can be set independently of the main product.",
+
+      subtitle: {
+        marketplace:
+          "Within the marketplace, the primary product pricing displayed is the listing price, while the actual price is determined based on the vendor-product relationship records.",
+        subscription:
+          "For subscriptions, only the listing price is displayed, while the actual cost will be determined based on the selected subscription plan.",
+        service:
+          "For service-based products, the listed pricing is solely for display purposes, providing an estimated cost of the service. The actual service price will be determined by you once the customer has placed their order (upon checkout).",
+        file: "This refers to the listed and actual price of the file, which customers must pay in order to gain access to the files.",
+        default:
+          "This refers to the product's listed price and also takes into account the price of any variants that do not have separate pricing.",
+      },
+      extra_pricings: {
+        title: "Add extra pricing",
+        subtitle: "Apply varying prices based on the quantity purchased.",
+      },
     },
     /** {@see ProductEditInputs} **/
     inputs_edit: {
@@ -1556,8 +1666,133 @@ export default {
     delete_product: {
       title: "Remove product",
       message: `Do you want to delete <b> {product_title} </b>?`,
+      tips: "If you accidentally delete a product, you can recover it by navigating to your Shop > Products, enabling Show Deleted Items, and then right-clicking on the product, and selecting Restore.",
     },
   },
+
+  /** {@see BProductExtraPricingAdd} **/
+  extra_pricing_add_dialog: {
+    title: "Extra Pricing for over {min}",
+    subtitle:
+      "The system automatically determines the order and priority for price calculation. Please input the minimum quantity required for this pricing to take effect.",
+    min_quantity: "Minimum quantity",
+  },
+  /** {@see BProductInventoryManagementPhysical} **/
+  product_inventory_management_physical: {
+    subtitle: {
+      dropshipping:
+        "Inventory for dropshipping products is set by wholesalers, and cannot be modified here.",
+      marketplace:
+        "The overall product inventory in the marketplace is determined by adding up the inventories of all vendors. You cannot modify it here.",
+      default: "Specify the product's inventory count here.",
+    },
+  },
+
+  /** {@see BProductGoogleCategoryInput} **/
+  google_product_category_input: {
+    label: "Google product category code",
+    hint: "Represents the category of your product according to the Google's product taxonomy.",
+    placeholder: "Enter product or service category.. (Optional)",
+  },
+  /** {@see LogisticProfileType} **/
+  LogisticProfileType: {
+    WARRANTY: {
+      title: "Warranty",
+      desc: "A warranty is a term of a contract. Depending on the terms of the contract, a product warranty may cover a product such that a manufacturer provides a warranty to a consumer with which the manufacturer has no direct contractual relationship. ",
+    },
+    RETURN_POLICY: {
+      title: "Return Policy",
+      desc: "Return policies are the rules a retailer creates to manage how customers return and exchange unwanted merchandise they purchased. A return policy tells customers what items can be returned and for what reasons, as well as the timeframe over which returns are accepted.",
+    },
+    GUIDE: {
+      title: "Guide",
+      desc: "It can be a size table of dresses or a diamond selection guide. The important thing to consider before creating guide profiles is that they should be applicable to more than one product.",
+    },
+    SHIPPING: {
+      title: "Shipping",
+      desc: "A shipping policy is a concise document or webpage that outlines important information around shipping when an order is placed online. It often includes details on shipping costs and methods, delivery times, and more.",
+    },
+  },
+  /** {@see BProductProfileLogistic} **/
+  product_logistic_profile: {
+    dialog: {
+      title: "Select logistic profile",
+      add_new_action: "Add new profile",
+      add_new_disable_msg: "Marketplace owner",
+    },
+  },
+
+  /** {@see BProductProfileTax} **/
+  product_tax_profile: {
+    description: {
+      default: "Default",
+      dedicated: "Dedicated",
+
+      subscription: "We can apply tax only on the payment creation step.",
+      is_disabled: "This tax profile is disabled! (⚠️Warning)",
+      shipping: "Shipping",
+      fixed_rate: "TAX",
+      location_based_rate: "Tax: Location based",
+      shipping_location_based_rate: "Shipping: Location based",
+      include_in_price: "Included in price",
+    },
+    dialog: {
+      header:'Select tax profile',
+
+      title: "Tax profile",
+      subtitle:
+          "You can assign particular tax regulations to the product. Should a tax profile not be chosen for the product, the default store tax regulations will then be applied.",
+
+      action_manage:'Manage tax',
+      action_manage_sub:'Shop > Finance > Tax',
+
+      subscription_tips:
+          "When you select a tax profile for subscription product, we update<code>tax code</code> and set inclusive/exclusive mode on your payment service provider. The selected tax profile specifies whether the price is considered inclusive of taxes or exclusive of taxes. One of <code>inclusive</code> or <code>exclusive</code>. Once specified as either inclusive or exclusive, it cannot be changed.<br /><br /><b>Important!</b> After changing the tax profile, you should click on pricing plans on the Product > Inventory tab and click the Save button to apply changes.",
+    },
+
+  },
+
+
+  /** {@see BProductProfileMap} **/
+  product_location_profile:{
+    title:'Location',
+    empty_subtitle:"Assign a location to the product if it's a location-based item.",
+    dialog:{
+      header:'Select location profile',
+      action_new_location:'Add new location',
+      title:'Location profile',
+      subtitle:'You can pin products on the map location by assigning location tags to the products.',
+      tips:"<b>Important: </b> Assign a location to the product <b>only</b> if you want to show the product on the specific location on the map. The pined product must have the location as its main specification, like <b>rental homes/places</b> or in-person services like<b>Hairdressing and Spa</b>.",
+
+    }
+  },
+
+  /** {@see BTranslationButton} **/
+translation_button:{
+  header:'Multi Language',
+    auto_action:'Auto Translate',
+    premium_user_only:'Premium Users',
+
+  },
+
+  /** {@see BProductProfileInclude} **/
+  product_include_profile:{
+    subtitle:"Include a list of items that come with the product or service package.",
+    dialog:{
+      header:'Product Package Items',
+      title:'Included items',
+      subtitle:"This is a compilation of items that come with the product.",
+      action_manage:'Manage items',
+      action_disable_msg:'Marketplace owner',
+      select_items_tips:"Create or choose package components that come with the product or service. Utilize this feature to emphasize what customers can anticipate receiving upon purchasing the item. We advise employing this function only when it is crucial for the customer to understand the contents included, such as when buying a smartphone.",
+      create_item_tips:"Alternatively, you can include a new item. Utilize square images, as we will automatically resize uploaded pictures to a 256x256 square format. To ensure optimal appearance across all templates, use minimalistic images with transparent backgrounds and maintain a consistent pattern for all your products.",
+      create_new_item_action:'Create new included item',
+
+
+    }
+  },
+
+
 
   /** {@see BPageProduct} **/
   product_admin: {
@@ -6362,7 +6597,8 @@ export default {
   /** {@see BPageShopBlogsCategories} **/
   blog_category: {
     title: "Blog Categories",
-    subtitle:"You can create a limited number of categories for your blog posts to manage them more efficiently. Having a category limit promotes better organization on your website. Notably, even the top news agencies maintain a limited number of categories, often fewer than 100, to streamline management and maintain a broader focus.",
+    subtitle:
+      "You can create a limited number of categories for your blog posts to manage them more efficiently. Having a category limit promotes better organization on your website. Notably, even the top news agencies maintain a limited number of categories, often fewer than 100, to streamline management and maintain a broader focus.",
 
     add_action: "Add new category",
     add_dialog: {
@@ -6377,9 +6613,10 @@ export default {
     },
   },
   /** {@see BPageShopBlogsTimeline} **/
-  blog_timeline:{
-    title:'Content Release Schedule ',
-    subtitle:"Here is the list of scheduled articles set for future publication. You have the ability to schedule blog posts and even product descriptions to be published at specific times.",
+  blog_timeline: {
+    title: "Content Release Schedule ",
+    subtitle:
+      "Here is the list of scheduled articles set for future publication. You have the ability to schedule blog posts and even product descriptions to be published at specific times.",
   },
 
   /** {@see BPageShopPagesAboutUs} **/
@@ -6418,7 +6655,8 @@ export default {
   /** {@see BProcessCenterBulkExport} **/
   orders_bulk_export: {
     title: "Orders Assistant",
-    subtitle:"Export and download labels for bulk order processing - ideal for handling over 100 orders daily.",
+    subtitle:
+      "Export and download labels for bulk order processing - ideal for handling over 100 orders daily.",
 
     timespan: {
       title: "Time period",
