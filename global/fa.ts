@@ -738,6 +738,7 @@ export default {
     post:'مطلب',
     impressions:'بازدیدها',
     resources:'منابع',
+    engine:'موتور',
 
 
   },
