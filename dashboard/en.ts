@@ -1519,26 +1519,28 @@ export default {
     /** {@see BProductEditSpec} **/
     edit_spec: {
       title: "Technical Specifications",
-      subtitle:"Insert product specifications here. This information will be displayed to customers and can also be utilized in the category's intelligent filtering system.",
-      manual:{
-        title:'Manually',
-        subtitle:'Add product specifications manually by defining groups and key-values pair.',
-        add_group_action:'Add Group',
-        add_item_action:'Add Spec Value'
+      subtitle:
+        "Insert product specifications here. This information will be displayed to customers and can also be utilized in the category's intelligent filtering system.",
+      manual: {
+        title: "Manually",
+        subtitle:
+          "Add product specifications manually by defining groups and key-values pair.",
+        add_group_action: "Add Group",
+        add_item_action: "Add Spec Value",
       },
-      import:{
-        subtitle: "You can import technical specifications of similar products.",
-        action_title:"Import",
-        action_subtitle:'Clone spec from another product.'
+      import: {
+        subtitle:
+          "You can import technical specifications of similar products.",
+        action_title: "Import",
+        action_subtitle: "Clone spec from another product.",
       },
-      ai:{
-        title:'AI',
-        subtitle:"You can automatically create product specifications by submitting the product's raw data in textual form.",
-        action_title:'Auto Generate by AI',
-        action_subtitle:"Create product specifications by abstract prompt.",
-
+      ai: {
+        title: "AI",
+        subtitle:
+          "You can automatically create product specifications by submitting the product's raw data in textual form.",
+        action_title: "Auto Generate by AI",
+        action_subtitle: "Create product specifications by abstract prompt.",
       },
-
 
       group_input_header: "Add Group",
       item_title_header: "Add Item",
@@ -1737,62 +1739,59 @@ export default {
       include_in_price: "Included in price",
     },
     dialog: {
-      header:'Select tax profile',
+      header: "Select tax profile",
 
       title: "Tax profile",
       subtitle:
-          "You can assign particular tax regulations to the product. Should a tax profile not be chosen for the product, the default store tax regulations will then be applied.",
+        "You can assign particular tax regulations to the product. Should a tax profile not be chosen for the product, the default store tax regulations will then be applied.",
 
-      action_manage:'Manage tax',
-      action_manage_sub:'Shop > Finance > Tax',
+      action_manage: "Manage tax",
+      action_manage_sub: "Shop > Finance > Tax",
 
       subscription_tips:
-          "When you select a tax profile for subscription product, we update<code>tax code</code> and set inclusive/exclusive mode on your payment service provider. The selected tax profile specifies whether the price is considered inclusive of taxes or exclusive of taxes. One of <code>inclusive</code> or <code>exclusive</code>. Once specified as either inclusive or exclusive, it cannot be changed.<br /><br /><b>Important!</b> After changing the tax profile, you should click on pricing plans on the Product > Inventory tab and click the Save button to apply changes.",
+        "When you select a tax profile for subscription product, we update<code>tax code</code> and set inclusive/exclusive mode on your payment service provider. The selected tax profile specifies whether the price is considered inclusive of taxes or exclusive of taxes. One of <code>inclusive</code> or <code>exclusive</code>. Once specified as either inclusive or exclusive, it cannot be changed.<br /><br /><b>Important!</b> After changing the tax profile, you should click on pricing plans on the Product > Inventory tab and click the Save button to apply changes.",
     },
-
   },
 
-
   /** {@see BProductProfileMap} **/
-  product_location_profile:{
-    title:'Location',
-    empty_subtitle:"Assign a location to the product if it's a location-based item.",
-    dialog:{
-      header:'Select location profile',
-      action_new_location:'Add new location',
-      title:'Location profile',
-      subtitle:'You can pin products on the map location by assigning location tags to the products.',
-      tips:"<b>Important: </b> Assign a location to the product <b>only</b> if you want to show the product on the specific location on the map. The pined product must have the location as its main specification, like <b>rental homes/places</b> or in-person services like<b>Hairdressing and Spa</b>.",
-
-    }
+  product_location_profile: {
+    title: "Location",
+    empty_subtitle:
+      "Assign a location to the product if it's a location-based item.",
+    dialog: {
+      header: "Select location profile",
+      action_new_location: "Add new location",
+      title: "Location profile",
+      subtitle:
+        "You can pin products on the map location by assigning location tags to the products.",
+      tips: "<b>Important: </b> Assign a location to the product <b>only</b> if you want to show the product on the specific location on the map. The pined product must have the location as its main specification, like <b>rental homes/places</b> or in-person services like<b>Hairdressing and Spa</b>.",
+    },
   },
 
   /** {@see BTranslationButton} **/
-translation_button:{
-  header:'Multi Language',
-    auto_action:'Auto Translate',
-    premium_user_only:'Premium Users',
-
+  translation_button: {
+    header: "Multi Language",
+    auto_action: "Auto Translate",
+    premium_user_only: "Premium Users",
   },
 
   /** {@see BProductProfileInclude} **/
-  product_include_profile:{
-    subtitle:"Include a list of items that come with the product or service package.",
-    dialog:{
-      header:'Product Package Items',
-      title:'Included items',
-      subtitle:"This is a compilation of items that come with the product.",
-      action_manage:'Manage items',
-      action_disable_msg:'Marketplace owner',
-      select_items_tips:"Create or choose package components that come with the product or service. Utilize this feature to emphasize what customers can anticipate receiving upon purchasing the item. We advise employing this function only when it is crucial for the customer to understand the contents included, such as when buying a smartphone.",
-      create_item_tips:"Alternatively, you can include a new item. Utilize square images, as we will automatically resize uploaded pictures to a 256x256 square format. To ensure optimal appearance across all templates, use minimalistic images with transparent backgrounds and maintain a consistent pattern for all your products.",
-      create_new_item_action:'Create new included item',
-
-
-    }
+  product_include_profile: {
+    subtitle:
+      "Include a list of items that come with the product or service package.",
+    dialog: {
+      header: "Product Package Items",
+      title: "Included items",
+      subtitle: "This is a compilation of items that come with the product.",
+      action_manage: "Manage items",
+      action_disable_msg: "Marketplace owner",
+      select_items_tips:
+        "Create or choose package components that come with the product or service. Utilize this feature to emphasize what customers can anticipate receiving upon purchasing the item. We advise employing this function only when it is crucial for the customer to understand the contents included, such as when buying a smartphone.",
+      create_item_tips:
+        "Alternatively, you can include a new item. Utilize square images, as we will automatically resize uploaded pictures to a 256x256 square format. To ensure optimal appearance across all templates, use minimalistic images with transparent backgrounds and maintain a consistent pattern for all your products.",
+      create_new_item_action: "Create new included item",
+    },
   },
-
-
 
   /** {@see BPageProduct} **/
   product_admin: {
@@ -4202,13 +4201,26 @@ translation_button:{
   layout: {
     logout: "Logout",
     menu: {
+      my_public_profile_subtitle:'My public profile {name}.',
+
       personal_information: "Personal Information and Profile",
+      personal_information_subtitle:"Edit my profile, address and KYC.",
       wallet: "Wallets & Accounts",
+      wallet_subtitle: "Virtual accounts and connected payment cards.",
+
       companies: "Companies & Businesses",
+      companies_subtitle: "Register my business and tax profiles.",
+
       access: "Developers & API Keys",
+      access_subtitle: "OAuth clients, personal access tokens and connected apps.",
+
       security: "Account Security",
+      security_subtitle: "Set two factor and manage social login options.",
+
       preferences: "User Preferences & Personalization",
+      preferences_subtitle: "Change theme, level, language and default currency.",
       my_subscriptions: "My Subscriptions",
+      my_subscriptions_subtitle: "Access to premium AI and customization features.",
     },
   },
 
@@ -4422,6 +4434,12 @@ translation_button:{
     category_mode_message:
       "If enable, product will be added in to the default category or subcategory.",
     sku_name_input: "SKU / Name",
+    info:{
+      subtitle:"To generate the product, you can enter only the essential details necessary for its creation."
+    },
+    price:{
+      subtitle:"Enter the price and discount for this product. Once the product is added, you'll have access to more options."
+    }
   },
   /** @see Affiliates **/
   my_affiliate: {
@@ -7189,6 +7207,54 @@ translation_button:{
         title: "Delete Post",
         subtitle: "Remove this post.",
       },
+    },
+  },
+
+  /**
+   * {@see BGoogleTagManager}
+   */
+  channel_google: {
+    gtag: {
+      title: "Tag Manager",
+      subtitle:
+        "Google Analytics enables measurement of ad ROI while tracking Flash, video, and social media sites and apps. Manage website tags effortlessly with Google Tag Manager's free, simple, and reliable solutions—no code editing required.",
+      tag_id: {
+        label: "Google Tag Manger ID",
+      },
+    },
+    shopping: {
+      title: "Google Shopping",
+      subtitle:
+        "Data Sources indicate the origins of your catalog information on Google. Follow this link to automatically add all products and categories to Google merchandise.",
+      tips: "You can utilize this tool to effortlessly and automatically manage Google ads.",
+      link_message: "Google Products Feed URL",
+    },
+    console: {
+      title: "Search Console",
+      subtitle: `Add a meta tag to your homepage for Google Search Console verification.`,
+      code: {
+        label: "Verification meta tag",
+        placeholder: "From google, e.g. viQg9mjdBj...",
+      },
+    },
+    serp: {
+      title: "Google SERP & Keywords",
+      subtitle:
+        "We obtain the most precise SEO audit data from Google and present it to you in a convenient manner. Simply follow the steps provided.",
+    },
+    serp_content: {
+      title: "Connect to Google Search Console",
+      subtitle:
+        "Connect your shop to the search console and start exploring keywords, ranks, and other free SEO tools on Selldone.",
+      tips: {
+        title:
+          "Prior to linking Selldone with Google Search Console, ensure the following:",
+        add_in_selldone: "Add, verify, and set as primary your Custom Domain.",
+        add_in_google: `Add and verify <b>{domain}</b> in your<a href="https://search.google.com/search-console" target="_blank"> <b>Google Search Console</b></a>.`,
+      },
+      action_custom_domain:'Custom Domain',
+      action_connect_now:'Connect Now',
+      action_remove_connection:'Remove connection'
     },
   },
 
