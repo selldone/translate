@@ -739,6 +739,7 @@ export default {
     impressions:'بازدیدها',
     resources:'منابع',
     engine:'موتور',
+    attachments:'ضمیمه ها',
 
 
   },

@@ -741,6 +741,7 @@ export default {
     impressions:'Impressions',
     resources:'Resources',
     engine:'Engine',
+    attachments:'Attachments',
 
   },
   difficulties: {
