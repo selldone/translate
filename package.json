@@ -1,12 +1,12 @@
 {
   "name": "@selldone/translate",
-  "version": "1.5.14",
+  "version": "1.5.23",
   "private": false,
   "type": "module",
   "author": "Mehrdad Pajuhaan <mehrdad@selldone.com> (https://selldone.com)",
   "scripts": {
     "clean": "tsc --build --clean",
-    "publish": "npm publish --access public"
+    "publish-npm": "npm publish --access public"
   },
 
   "bugs": {
