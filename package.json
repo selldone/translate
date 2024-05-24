@@ -6,7 +6,8 @@
   "author": "Mehrdad Pajuhaan <mehrdad@selldone.com> (https://selldone.com)",
   "scripts": {
     "clean": "tsc --build --clean",
-    "publish-npm": "npm publish --access public"
+    "publish-npm": "npm publish --access public",
+    "lint": "eslint --ext .js,.ts,.vue global/ dashboard/ repository/ service/ shop/"
   },
 
   "bugs": {
