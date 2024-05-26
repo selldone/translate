@@ -155,16 +155,13 @@ export default {
   },
 
   domain: {
-    step1: {
+    buy_domain_step: {
       title: "Step 1. Buy a domain",
       msg: "If you do not have your personal domain yet, it's time to buy your own domain from websites like namecheap.com .",
     },
-    step2: {
-      title: "Step 2. Enable SSL",
-      msg: "If you use services like Namecheap that provides CDN and SSL, you just need to activate 1.CDN and 2.SSL on your domain.",
-    },
-    step3: {
-      title: "Step 3. Set DNS records",
+
+    set_dns_step: {
+      title: "Step 2. Set DNS records",
       msg: "Congratulations, Now all you have to do is configure DNS in your domain service provider and add the domain to your account.",
     },
   },
