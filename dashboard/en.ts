@@ -1210,7 +1210,7 @@ export default {
         },
       },
 
-      /** {@see ShopEdit_Badges} **/
+      /** {@see ShopEditMenuFooter} **/
       badge: {
         external_title: "Manage external badges",
         external_message:
@@ -7986,5 +7986,34 @@ export default {
         "Fitness Zone",
       ],
     },
+
+    /**
+     * Marketplace Documents (For vendors)
+     */
+    marketplace_document: {
+      title: [
+        "Business Registration Certificate",
+        "Tax Identification Number (TIN)",
+        "Vendor Agreement Form",
+        "Product Catalog",
+        "Pricing List",
+        "Bank Account Details",
+        "Proof of Address",
+        "Insurance Certificate",
+        "Company Profile",
+        "Quality Assurance Certificate",
+        "Safety Data Sheet (SDS)",
+        "Product Warranty Information",
+        "Return Policy",
+        "Shipping and Handling Procedures",
+        "Customer Service Policy",
+        "Marketing and Promotion Plans",
+        "Social Media Links",
+        "Trade References",
+        "Supplier Code of Conduct",
+        "Non-Disclosure Agreement (NDA)"
+          ]
+    }
+
   },
 };
