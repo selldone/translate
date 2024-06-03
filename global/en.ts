@@ -742,6 +742,8 @@ export default {
     resources:'Resources',
     engine:'Engine',
     attachments:'Attachments',
+    owner:'Owner',
+
 
   },
   difficulties: {
@@ -888,6 +890,7 @@ export default {
     deploy_now:'Deploy Now',
     become_premium:'Become Premium',
     bulk_export: "Bulk Export",
+    see_all:'See All',
 
   },
   /** @see BillingPeriod **/

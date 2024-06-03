@@ -740,6 +740,7 @@ export default {
     resources:'منابع',
     engine:'موتور',
     attachments:'ضمیمه ها',
+    owner:'مالک',
 
 
   },
@@ -888,6 +889,7 @@ export default {
     deploy_now:'هم‌اکنون استقرار دهید',
     become_premium:'پرمیوم شوید',
     bulk_export: "خروجی دسته جمعی",
+    see_all:'مشاهده همه',
 
   },
 
