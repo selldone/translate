@@ -7143,7 +7143,7 @@ export default {
    */
   shop_staff: {
     list: {
-      title: " Staff management ",
+      title: "Staff management ",
       subtitle:
         "Users granted access to the dashboard and administrative sections of this store.",
     },
