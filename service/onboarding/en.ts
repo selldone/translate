@@ -194,8 +194,6 @@ export default {
     },
   },
 
-  intro_inline_help_message:
-    "Look for this red help button. It helps you to practise yourself from zero to expert in your Business OS.",
 
   /**
    * @see SShopOnboardingCustomization

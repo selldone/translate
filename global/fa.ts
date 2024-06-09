@@ -741,6 +741,7 @@ export default {
     engine:'موتور',
     attachments:'ضمیمه ها',
     owner:'مالک',
+    wholesaler:'عمده فروش',
 
 
   },

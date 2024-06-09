@@ -743,7 +743,7 @@ export default {
     engine:'Engine',
     attachments:'Attachments',
     owner:'Owner',
-
+    wholesaler:'Wholesaler',
 
   },
   difficulties: {
