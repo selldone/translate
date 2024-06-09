@@ -742,6 +742,9 @@ export default {
     attachments:'ضمیمه ها',
     owner:'مالک',
     wholesaler:'عمده فروش',
+    hidden:'مخفی',
+    visible:'آشکار',
+    warehouse:'انبار',
 
 
   },

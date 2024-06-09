@@ -744,7 +744,9 @@ export default {
     attachments:'Attachments',
     owner:'Owner',
     wholesaler:'Wholesaler',
-
+    hidden:'Hidden',
+    visible:'Visible',
+    warehouse:'Warehouse',
   },
   difficulties: {
     very_complicated: "Very complicated",
