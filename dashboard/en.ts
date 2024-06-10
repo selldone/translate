@@ -6290,10 +6290,14 @@ export default {
         auto_fill: {
           title: "Auto fill parameters",
           subtitle:
-            "You can set each of these parameters as a value, and Selldone will replace them with the corresponding value.",
+            "You can set each of these parameters as a value, and Selldone will replace them with the corresponding value. It's better to define the default values as templates in your SMS provider for simplicity. In this case, there will be no need to define parameter values here.",
+        },
+        request: {
+          title: "Sample payload",
         },
         sample: {
-          title: "Sample payload",
+          title: "Sample template message",
+          subtitle:"You can copy and past this template to your SMS provider.",
         },
         add_message_action: "Add message template",
       },
