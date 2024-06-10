@@ -4201,10 +4201,10 @@ export default {
   layout: {
     logout: "Logout",
     menu: {
-      my_public_profile_subtitle:'My public profile {name}.',
+      my_public_profile_subtitle: "My public profile {name}.",
 
       personal_information: "Personal Information and Profile",
-      personal_information_subtitle:"Edit my profile, address and KYC.",
+      personal_information_subtitle: "Edit my profile, address and KYC.",
       wallet: "Wallets & Accounts",
       wallet_subtitle: "Virtual accounts and connected payment cards.",
 
@@ -4212,15 +4212,18 @@ export default {
       companies_subtitle: "Register my business and tax profiles.",
 
       access: "Developers & API Keys",
-      access_subtitle: "OAuth clients, personal access tokens and connected apps.",
+      access_subtitle:
+        "OAuth clients, personal access tokens and connected apps.",
 
       security: "Account Security",
       security_subtitle: "Set two factor and manage social login options.",
 
       preferences: "User Preferences & Personalization",
-      preferences_subtitle: "Change theme, level, language and default currency.",
+      preferences_subtitle:
+        "Change theme, level, language and default currency.",
       my_subscriptions: "My Subscriptions",
-      my_subscriptions_subtitle: "Access to premium AI and customization features.",
+      my_subscriptions_subtitle:
+        "Access to premium AI and customization features.",
     },
   },
 
@@ -4434,12 +4437,14 @@ export default {
     category_mode_message:
       "If enable, product will be added in to the default category or subcategory.",
     sku_name_input: "SKU / Name",
-    info:{
-      subtitle:"To generate the product, you can enter only the essential details necessary for its creation."
+    info: {
+      subtitle:
+        "To generate the product, you can enter only the essential details necessary for its creation.",
     },
-    price:{
-      subtitle:"Enter the price and discount for this product. Once the product is added, you'll have access to more options."
-    }
+    price: {
+      subtitle:
+        "Enter the price and discount for this product. Once the product is added, you'll have access to more options.",
+    },
   },
   /** @see Affiliates **/
   my_affiliate: {
@@ -6203,12 +6208,153 @@ export default {
     },
   },
 
-  /** @see BPageShopSettingSms **/
+  /**
+   *  {@see BPageShopSettingSms}
+   *  {@see BShopSmsTemplateList}
+   *  {@see BShopSmsTemplateEditor}
+   *
+   **/
   shop_sms: {
-    title: "Manage SMS",
-    sub_title: "SMS templates",
-    message:
-      "You can see the content of the text messages sent by your store here. Due to the limitation in registering the validation patterns in the messaging service, it is not possible to personalize the text messages at the moment.",
+    tabs: {
+      templates: "Templates",
+      provider: "Provider",
+    },
+
+    manage: {
+      title: "Manage SMS",
+      subtitle:
+        "You can see the content of the text messages sent by your store here. Due to the limitation in registering the validation patterns in the messaging service, it is not possible to personalize the text messages at the moment.",
+    },
+
+    template: {
+      title: "Templates",
+      valid_message: "You can create custom SMS messages.",
+      provider_not_enable_message: "The SMS provider is not enabled!",
+      need_custom_provider_message:
+        "Customized SMS messages only work if you set a custom provider.",
+      add_new: "Add New",
+      disable_reason: {
+        set_provider: "Set your provider first!",
+        provider_is_disabled: "Provider is disable!",
+        otp: "OTP - None customizable!",
+        select_another_provider: "Select another provider.",
+      },
+      enable_only_filter: "Show only enabled",
+
+      text_template_not_supported_msg:
+        "Your provider does not support plain text messages.",
+      structure_template_not_supported_msg:
+        "Your provider does not support structural messages.",
+
+      structured_data: "Structured Data",
+
+      menu: {
+        reset_error: "Reset errors",
+        send_test: "Send test message",
+      },
+    },
+    template_edit: {
+      title_add: "Add new message template",
+      title_edit: "Edit message template",
+      config: {
+        title: "Message Config",
+        subtitle:
+          "You can create a template for the SMS message on your SMS provider's website, then specify its code and data structure here. We'll forward this information to your provider, where the actual SMS message will be generated.",
+        code: "Code",
+        language_msg: "Leave it empty to set it as default.",
+        enable_msg: "This template will be used to create messages.",
+      },
+      text: {
+        title: "Plain text",
+        subtitle:
+          "Enter a personalized SMS message here. Dynamic values will be substituted with their actual values before being sent to the user.",
+        message: "Message",
+        reset_to_default: "Reset to default",
+
+        auto_fill: {
+          title: "Auto fill parameters",
+          subtitle:
+            "You can use each of these parameters in the text and Selldone will replace them with the corresponding value.",
+        },
+
+        sample: {
+          title: "Sample message",
+        },
+      },
+      template: {
+        title: "Structural Template",
+        subtitle:
+          "You can set the template key and value here. The template code should be exactly what you set in your SMS service provider, and the key is what your provider wants to send the code through. If the <code>value</code> field is empty, then <code>{code}</code> will be considered as the template code.",
+        add_new_parameter: "Add new parameter",
+
+        auto_fill: {
+          title: "Auto fill parameters",
+          subtitle:
+            "You can set each of these parameters as a value, and Selldone will replace them with the corresponding value.",
+        },
+        sample: {
+          title: "Sample payload",
+        },
+        add_message_action: "Add message template",
+      },
+    },
+  },
+  /** @see SmsTemplateMode **/
+  sms_template_mode: {
+    text: {
+      title: "Plain Text",
+      desc: "Message will be created from a text with auto replace parameters and send.",
+    },
+    template: {
+      title: "Structural Template",
+      desc: "An object will be created from parameters and send to the provider.",
+    },
+  },
+
+  /** @see BShopSmsProvider **/
+  shop_sms_provider: {
+    title: "Custom SMS provider",
+    reset_error: "Reset errors",
+    subtitle:
+      "Set up a custom SMS service provider and customize your authentication SMS and business name. The default provider just sends authentication SMS and inform messages in some white-listed countries.",
+    plain_text: "Plain text",
+    structural_template: "Structural template",
+    errors_limit_msg:
+      "If your service exceeds 100 errors, it will be disabled automatically! You can reset errors to re-enable it.",
+
+    enable_input: {
+      false_description:
+        "OTP messages will be dispatched through Selldone in select countries, while other order notification SMS will be sent as well.",
+      true_description:
+        "SMS messages will be delivered using your service provider.",
+    },
+    test_input: {
+      true_title: "Validate Configuration",
+      true_description:
+        "We will send a test message to your phone number 📞 <b>{phone}</b>, it can charge you, but you can make sure everything works well.",
+    },
+    sync_action: {
+      title: "Actions",
+      subtitle:
+        "Some SMS services provide extra services like campaigns, marketing, and other features. You can sync your contacts or additional information to use their features more quickly.",
+      action: "Sync contacts",
+    },
+    tokens: {
+      title: "Parameters",
+      subtitle:
+        "Set the following parameters to link your SMS service provider with your shop.",
+    },
+  },
+  sms_messages_options: {
+    all: {
+      title: "OPT + Order Notifications",
+      description:
+        "Authentication messages and order notification will be sent.",
+    },
+    otp: {
+      title: "OTP Only",
+      description: "Authentication messages will be sent.",
+    },
   },
 
   /** @see BPageShopSettingEmail **/
@@ -7252,9 +7398,9 @@ export default {
         add_in_selldone: "Add, verify, and set as primary your Custom Domain.",
         add_in_google: `Add and verify <b>{domain}</b> in your<a href="https://search.google.com/search-console" target="_blank"> <b>Google Search Console</b></a>.`,
       },
-      action_custom_domain:'Custom Domain',
-      action_connect_now:'Connect Now',
-      action_remove_connection:'Remove connection'
+      action_custom_domain: "Custom Domain",
+      action_connect_now: "Connect Now",
+      action_remove_connection: "Remove connection",
     },
   },
 
@@ -8011,9 +8157,8 @@ export default {
         "Social Media Links",
         "Trade References",
         "Supplier Code of Conduct",
-        "Non-Disclosure Agreement (NDA)"
-          ]
-    }
-
+        "Non-Disclosure Agreement (NDA)",
+      ],
+    },
   },
 };

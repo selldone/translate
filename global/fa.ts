@@ -894,6 +894,7 @@ export default {
     become_premium:'پرمیوم شوید',
     bulk_export: "خروجی دسته جمعی",
     see_all:'مشاهده همه',
+    visit:'مشاهده',
 
   },
 

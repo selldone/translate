@@ -893,6 +893,8 @@ export default {
     become_premium:'Become Premium',
     bulk_export: "Bulk Export",
     see_all:'See All',
+    visit:'Visit',
+
 
   },
   /** @see BillingPeriod **/
