@@ -6284,7 +6284,7 @@ export default {
       template: {
         title: "Structural Template",
         subtitle:
-          "You can set the template key and value here. The template code should be exactly what you set in your SMS service provider, and the key is what your provider wants to send the code through. If the <code>value</code> field is empty, then <code>{code}</code> will be considered as the template code.",
+          "You can set the template key and value here. The template code should be exactly what you set in your SMS service provider, and the <code>key</code> is what your provider wants to send the code through. If the <code>value</code> field of template is empty, then <code>{code}</code> will be considered as the template code.",
         add_new_parameter: "Add new parameter",
 
         auto_fill: {
