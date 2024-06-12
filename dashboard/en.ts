@@ -3097,6 +3097,7 @@ export default {
 
     "email-buy": "Send purchase confirmation email to customer.",
     "email-payment": "Send payment confirmation email to customer.",
+    "sms-payment": "Send payment confirmation SMS to customer via {phone}.",
     "delivery-returned":
       "The order was not received by the customer and was returned. It is necessary to ship again.",
     "delivery-canceled": "Delivery canceled. It is necessary to ship again.",
@@ -3122,6 +3123,8 @@ export default {
     "email-vendor":
       "🔔 Order inform email has been sent to <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Payout to vendor.",
+    "vendor-sms":  "🔔 Order inform SMS has been sent to <b>{vendor}</b> ╏ {phone}.",
+
   },
 
   /** {@see FinanceInlineChart} **/
