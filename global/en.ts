@@ -747,6 +747,7 @@ export default {
     hidden:'Hidden',
     visible:'Visible',
     warehouse:'Warehouse',
+    billed_yearly:'Billed yearly',
   },
   difficulties: {
     very_complicated: "Very complicated",

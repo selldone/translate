@@ -745,6 +745,7 @@ export default {
     hidden:'مخفی',
     visible:'آشکار',
     warehouse:'انبار',
+    billed_yearly:'پرداخت سالیانه',
 
 
   },

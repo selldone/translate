@@ -414,7 +414,7 @@ export default {
       "Experience seamless online transactions in your country with Selldone! Alongside professional TAX calculations, we offer diverse payment methods including cash, POS, bank transfers, and more. Start building your business on a platform that fully supports your country's needs.",
     limited_support_message_long:
       "            Online payments might not be available in your country, but no need to worry! At Selldone, we offer cash payments, bank transfers, and Cash on Delivery (COD) worldwide. You can confidently build your online business with us while adhering to your country's and Europe's regulations. For further details or to inquire about online payment support in your country, please feel free to contact our support team.\n",
-    more_about_selldone_in_country: "About Selldone in this country",
+    more_about_selldone_in_country: "About Selldone in your country",
     support_worldwide_customers:
       "You can sell your products and services to all customers in <b>all countries</b>!",
   },
