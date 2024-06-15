@@ -32,10 +32,9 @@ export default {
   error: {
     not_fount_data: "Data not found!",
     license_max_limit: "Your license reached the limit!",
-    no_read_access:'No read access',
-    no_write_access:'No write access',
-    no_access:'No access',
-
+    no_read_access: "No read access",
+    no_write_access: "No write access",
+    no_access: "No access",
   },
 
   time_spans: {
@@ -1703,19 +1702,19 @@ export default {
   LogisticProfileType: {
     WARRANTY: {
       title: "Warranty",
-      desc: "A warranty is a term of a contract. Depending on the terms of the contract, a product warranty may cover a product such that a manufacturer provides a warranty to a consumer with which the manufacturer has no direct contractual relationship. ",
+      desc: "A warranty is part of a contract where the manufacturer promises to repair or replace a product within a specified period. This commitment can extend even to consumers who do not have a direct contract with the manufacturer.",
     },
     RETURN_POLICY: {
       title: "Return Policy",
-      desc: "Return policies are the rules a retailer creates to manage how customers return and exchange unwanted merchandise they purchased. A return policy tells customers what items can be returned and for what reasons, as well as the timeframe over which returns are accepted.",
+      desc: "Return policies outline how customers can return or exchange unwanted merchandise. They specify eligible items, acceptable reasons for returns, and the timeframe for making returns.",
     },
     GUIDE: {
       title: "Guide",
-      desc: "It can be a size table of dresses or a diamond selection guide. The important thing to consider before creating guide profiles is that they should be applicable to more than one product.",
+      desc: "A guide could include a size chart for apparel or a selection guide for diamonds. It's important that guides are versatile and applicable across multiple products.",
     },
     SHIPPING: {
       title: "Shipping",
-      desc: "A shipping policy is a concise document or webpage that outlines important information around shipping when an order is placed online. It often includes details on shipping costs and methods, delivery times, and more.",
+      desc: "A shipping policy details the key aspects of shipping for online orders, including shipping costs, methods, and estimated delivery times.",
     },
   },
   /** {@see BProductProfileLogistic} **/
@@ -3126,8 +3125,8 @@ export default {
     "email-vendor":
       "🔔 Order inform email has been sent to <b>{vendor}</b> ╏ {email}.",
     "vendor-payout": "💸 Payout to vendor.",
-    "vendor-sms":  "🔔 Order inform SMS has been sent to <b>{vendor}</b> ╏ {phone}.",
-
+    "vendor-sms":
+      "🔔 Order inform SMS has been sent to <b>{vendor}</b> ╏ {phone}.",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -6303,7 +6302,7 @@ export default {
         },
         sample: {
           title: "Sample template message",
-          subtitle:"You can copy and past this template to your SMS provider.",
+          subtitle: "You can copy and past this template to your SMS provider.",
         },
         add_message_action: "Add message template",
       },
