@@ -32,6 +32,9 @@ export default {
   error: {
     not_fount_data: "مقداری یافت نشد",
     license_max_limit: "مجوز شما به حد خود رسید!",
+    no_read_access:'عدم دسترسی خواندن',
+    no_write_access:'عدم دسترسی نوشتن',
+    no_access:'عدم دسترسی',
   },
 
   time_spans: {
@@ -274,7 +277,6 @@ export default {
     },
     shops: {
       create_new: "ایجاد فروشگاه جدید",
-      create_new_sub: "رایگان",
       create_new_sub_need_initial_charge:
         "ساخت اولین فروشگاه رایگان است، احتمالا همان یک فروشگاه برای کسب و کار شما کافی است اما اگر نیاز به ساخت فروشگاه بیشتری دارید هزینه ساخت فروشگاه جدید 100 هزار تومان می باشد. این مبلغ از حساب کیف پول شما کسر خواهد شد.",
       menu: {

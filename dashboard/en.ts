@@ -32,6 +32,10 @@ export default {
   error: {
     not_fount_data: "Data not found!",
     license_max_limit: "Your license reached the limit!",
+    no_read_access:'No read access',
+    no_write_access:'No write access',
+    no_access:'No access',
+
   },
 
   time_spans: {
@@ -300,7 +304,6 @@ export default {
     },
     shops: {
       create_new: "Create new shop",
-      create_new_sub: "Free",
       create_new_sub_need_initial_charge:
         "Building the first store is free. Probably one shop is enough for your business, but if you need to build more stores, the cost of building a new store is 25$. We withdraw the amount from your wallet account.",
 
@@ -2596,7 +2599,7 @@ export default {
 
       add_transaction: "Add new bill",
       add_transactions_message:
-        "You need to generate a minimum of one bill for this order. Sometimes, multi-step payments may be necessary. You will decide which bills the user needs to pay for as you progress with the work.",
+        "You are required to issue at least one bill for this order. Multi-step payments may sometimes be necessary. As the work progresses, you will determine which bills the user needs to pay.",
 
       add_bill_dialog: {
         title: "Add Invoice",
@@ -2611,7 +2614,7 @@ export default {
         action: "Edit Invoice",
       },
       bill_cash_payment_dialog: {
-        title: "Register cash payment",
+        title: "Set cash payment",
         message:
           "If the buyer has paid the amount of this invoice in cash or in a way other than online payment, in this section, by selecting an option, register and confirm his payment. In this section, you can see only the cash payment gateways of your store,If you do not see such an option, you can activate a cash payment gateway in the selected currency in your store.",
         action: "Confirm bill payment",
@@ -6399,7 +6402,7 @@ export default {
       selected_checkin: "Checkin Date",
       selected_checkout: "Checkout date",
       change_days_question:
-        "Do you need to change during the customer selected days?",
+        "Do you need to modify the booking duration for the selected days?",
       show_calendar: "Show Calendar of Orders",
     },
     pricing: {

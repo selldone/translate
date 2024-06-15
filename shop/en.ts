@@ -679,7 +679,7 @@ export default {
       selected_checkin: "Selected check-in by customer",
       selected_checkout: "Selected check-out by customer",
       change_days_question:
-        "Do you need to change during the customer selected days?",
+        "Do you need to modify the booking duration for the selected days?",
       show_calendar: "Show Calendar of Orders",
     },
     pricing: {
