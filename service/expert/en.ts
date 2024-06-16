@@ -41,63 +41,51 @@ export default {
   topic_categories: {
     SETUP: {
       title: "Online Shop Setup",
-      desc:
-        "Engage professionals to construct and establish your online shop swiftly and seamlessly.",
+      desc: "Engage professionals to construct and establish your online shop swiftly and seamlessly.",
     },
     ADD_PAGE: {
       title: "Creation of Website Pages",
-      desc:
-        "Trust experts to generate your website's landing pages, 'about us' section, and more.",
+      desc: "Trust experts to generate your website's landing pages, 'about us' section, and more.",
     },
     ADD_PRODUCT: {
       title: "Product and Category Addition",
-      desc:
-        "Recruit professionals to assist in adding products and categories to your store.",
+      desc: "Recruit professionals to assist in adding products and categories to your store.",
     },
     PAYMENT: {
       title: "Payment Method Integration",
-      desc:
-        "Employ a payment gateway specialist to manage the process of incorporating and updating your payment system.",
+      desc: "Employ a payment gateway specialist to manage the process of incorporating and updating your payment system.",
     },
     MARKETING: {
       title: "Marketing Strategy",
-      desc:
-        "Marketing professionals are available to refine your campaigns, provide incentive solutions or kickstart a potent advertising strategy.",
+      desc: "Marketing professionals are available to refine your campaigns, provide incentive solutions or kickstart a potent advertising strategy.",
     },
     MIGRATION: {
       title: "Ecommerce Platform Migration",
-      desc:
-        "If you have an existing store, entrust the task of migration to a specialist for a smooth transition and continued professional support.",
+      desc: "If you have an existing store, entrust the task of migration to a specialist for a smooth transition and continued professional support.",
     },
     APP_SETUP: {
       title: "Application Setup",
-      desc:
-        "Need help installing apps in your store or developing a custom application? Experts in this field are here to assist you.",
+      desc: "Need help installing apps in your store or developing a custom application? Experts in this field are here to assist you.",
     },
     MANAGEMENT: {
       title: "Store Management",
-      desc:
-        "Delegate certain aspects of store management to specialists who also offer expert advice on all facets of business operations.",
+      desc: "Delegate certain aspects of store management to specialists who also offer expert advice on all facets of business operations.",
     },
     CONTENT: {
       title: "Content Creation",
-      desc:
-        "Delegate the crafting of product, brand, or store content to professional writers.",
+      desc: "Delegate the crafting of product, brand, or store content to professional writers.",
     },
     PHOTOGRAPHY: {
       title: "Photography and Editing",
-      desc:
-        "Professional photographers and editors can create engaging images, animations, and 3D models for your products and services.",
+      desc: "Professional photographers and editors can create engaging images, animations, and 3D models for your products and services.",
     },
     DROP_SHIPPING: {
       title: "Dropshipping Setup",
-      desc:
-        "For wholesalers or retailers, Selldone dropshipping experts are available to assist in discovering innovative ways to expand your business.",
+      desc: "For wholesalers or retailers, Selldone dropshipping experts are available to assist in discovering innovative ways to expand your business.",
     },
     POS_SETUP: {
       title: "Selldone POS Setup",
-      desc:
-        "Engage a specialist to establish your store's online Point Of Sale system.",
+      desc: "Engage a specialist to establish your store's online Point Of Sale system.",
     },
   },
 
@@ -108,6 +96,10 @@ export default {
     "store-design": {
       title: "Ecommerce Store Creation",
       desc: "Entrust the design and establishment of your online store to professionals, proficient in bringing your vision to life.",
+    },
+    "marketplace-setup":{
+      title: "Setup a Marketplace",
+      desc: "Create a marketplace for your products and services with the help of experts.",
     },
     "store-configuration": {
       title: "Expert Store Configuration",
@@ -122,6 +114,11 @@ export default {
       title: "Custom Domain Integration",
       desc: "Connect a custom domain to your online store and website for a professional touch.",
     },
+    "pod-setup": {
+      title: "Setup POD Store",
+      desc: "Create a print-on-demand store with the help of experts.",
+    },
+
 
     "page-design": {
       title: "Custom Landing Page and Template Design",
@@ -429,8 +426,6 @@ export default {
 
     new_shop_mode_title: "Create new shop",
     new_shop_mode_description: "I want to create a new shop",
-
-
 
     shop_id: "Shop",
     shop_id_message:
