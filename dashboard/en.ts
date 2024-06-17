@@ -8169,5 +8169,52 @@ export default {
         "Non-Disclosure Agreement (NDA)",
       ],
     },
+
+    /**
+     * Expert Contract
+     */
+    expert_contract: {
+      title: [
+        "Marketplace Setup Services Agreement",
+        "Shop Configuration Contract",
+        "Print-On-Demand Services Agreement",
+        "Digital Marketing Service Agreement",
+        "E-commerce Platform Setup Agreement",
+        "Expert Consultancy Contract for Business Owners",
+        "Service Agreement for Marketplace Configuration",
+        "Shop Setup and Configuration Services Contract",
+        "POD Service Provision Agreement",
+        "Marketing Strategy Implementation Agreement",
+        "Business Development Service Contract",
+        "E-commerce Store Setup Agreement",
+        "Expert Service Provision Agreement",
+        "Business Solutions and Setup Contract",
+        "Custom Shop Setup Services Agreement",
+        "Marketplace Optimization Service Agreement",
+        "Consulting and Setup Services Contract",
+        "POD Integration Services Agreement",
+        "Marketing and Promotion Services Contract",
+        "Business Expansion Service Agreement",
+      ],
+    },
+
+    /**
+     * Account
+     */
+    account:{
+      account_name:[
+        "Main Wallet",
+        "Business Account",
+        "Personal Wallet",
+        "Savings Wallet",
+        "Expense Account",
+        "Primary Wallet",
+        "General Account",
+        "Reserve Wallet",
+        "Transaction Wallet",
+        "Fund Account"
+      ]
+    }
+
   },
 };
