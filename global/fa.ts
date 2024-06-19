@@ -748,6 +748,9 @@ export default {
     billed_yearly: "پرداخت سالیانه",
 
     my_wallet: "کیف پول من",
+    boosted: "تقویت شده",
+    cashback: "کش بک",
+
   },
 
   difficulties: {

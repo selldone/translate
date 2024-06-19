@@ -7415,118 +7415,159 @@ export default {
     },
   },
 
-
   /**
    * {@see BPageShopIncentivesCoupon}
    */
-  cashback:{
+  cashback: {
     add_new: "Add New Cashback",
-    title:"Cashback Programs",
-    boosted:"Boost (2x)",
-    min_purchase:'Minimum Purchase',
-    only_first_order:'Only First Order',
-    total_cashback:'Total Cashback',
-    delete_alert:{
-      title:"Delete Cashback Program",
-      message:'Are you sure to delete this cashback program?',
-      action:"Yes, delete now"
+    title: "Cashback Programs",
+    boosted: "Boost (2x)",
+    min_purchase: "Minimum Purchase",
+    only_first_order: "Only First Order",
+    total_cashback: "Total Cashback",
+    delete_alert: {
+      title: "Delete Cashback Program",
+      message: "Are you sure to delete this cashback program?",
+      action: "Yes, delete now",
     },
-    notifications:{
-      delete_success:"Cashback program deleted successfully."
-    }
+    notifications: {
+      delete_success: "Cashback program deleted successfully.",
+    },
   },
+  /**
+   * {@see BPageCashback}
+   */
+  shop_cashback: {
+    title: "Cashback Program",
+    up_to: "Up to",
+    menu: {
+      back: "Back Programs",
+      dashboard: "Dashboard",
+      orders: "Orders",
+      edit: "Edit",
+    },
+    /**
+     * {@see BPageCashbackDashboard}
+     */
+    dashboard:{
+      chart_amount_buy:{
+        label:'Buy',
+        y: "Purchase amount {currency}",
+      },
+      chart_amount_cashback:{
+        label:'Cashback',
+        y: "Cashback amount {currency}",
+      },
+      chart_used:{
+        label:'Used',
+        y: "Times",
+      },
+
+    },
+    /**
+     * {@see BPageCashbackOrders}
+     */
+    orders:{
+      title:'Cashback Orders',
+      table:{
+        amount_cashback:'Cashback Amount',
+        payment_status:'Payment Status',
+        date:'Date',
+      }
+    },
+  },
+
+
   /**
    * {@see BCashbackAdd}
    */
-  cashback_edit:{
-    config:{
-      subtitle:'Set the chasback percent, limit and its status here.',
+  cashback_edit: {
+    config: {
+      subtitle: "Set the chasback percent, limit and its status here.",
     },
-    percent_input:{
-      title:'Cashback Percentage',
-      message:'Enter the cashback percentage from 1% to 20%.',
+    percent_input: {
+      title: "Cashback Percentage",
+      message: "Enter the cashback percentage from 1% to 20%.",
     },
-    currency_input:{
-      message:'The cashback program will be available just for this currency.'
+    currency_input: {
+      message: "The cashback program will be available just for this currency.",
     },
-    limit_input:{
-      title:'Limit',
-      hint:'Enter the maximum amount of cashback.',
-      zero_message:'Enter 0 for unlimited cashback.',
+    limit_input: {
+      title: "Limit",
+      hint: "Enter the maximum amount of cashback.",
+      zero_message: "Enter 0 for unlimited cashback.",
     },
-    duration:{
-      title:'Duration Limit',
-      subtitle:"Set duration of cashback program. It's optional.",
+    duration: {
+      title: "Duration Limit",
+      subtitle: "Set duration of cashback program. It's optional.",
     },
-    start_input:{
-      title:'Start Date',
-      placeholder:'Select start date...'
+    start_input: {
+      title: "Start Date",
+      placeholder: "Select start date...",
     },
-    end_input:{
-      title:'End Date',
-      placeholder:'Select end date...'
+    end_input: {
+      title: "End Date",
+      placeholder: "Select end date...",
     },
-    design:{
-      subtitle:"Set title and short description for the cashback program. These information will be shown to customers.",
+    design: {
+      subtitle:
+        "Set title and short description for the cashback program. These information will be shown to customers.",
     },
-    title_input:{
-      title:'Title'
+    title_input: {
+      title: "Title",
     },
-    description_input:{
-      title:'Description'
+    description_input: {
+      title: "Description",
     },
-    constraints:{
-      subtitle:'Set the constraints for the cashback program.',
+    constraints: {
+      subtitle: "Set the constraints for the cashback program.",
     },
-    min_purchase_input:{
-      hint:'Enter the minimum purchase amount for cashback program.',
-      title:'Minimum Purchase',
-
+    min_purchase_input: {
+      hint: "Enter the minimum purchase amount for cashback program.",
+      title: "Minimum Purchase",
     },
-    only_first_buy_input:{
-      false_desc:'The cashback program will be available for all orders.',
-      true_desc:'The cashback program will be available just for the first order.',
-    true_title:'Only First Order',
-    false_title:'All Orders',
-
+    only_first_buy_input: {
+      false_desc: "The cashback program will be available for all orders.",
+      true_desc:
+        "The cashback program will be available just for the first order.",
+      true_title: "Only First Order",
+      false_title: "All Orders",
     },
-    qualify_input:{
-      false_title:'All Customers',
-    true_title:'Qualify Customers',
-      true_msg:'The cashback program will be available just for the customers who are qualified.',
-
+    qualify_input: {
+      false_title: "All Customers",
+      true_title: "Qualify Customers",
+      true_msg:
+        "The cashback program will be available just for the customers who are qualified.",
     },
-    club:{
-      subtitle:'Set the club for the cashback program. The cashback program will be available just for the customers who are in this club.',
+    club: {
+      subtitle:
+        "Set the club for the cashback program. The cashback program will be available just for the customers who are in this club.",
     },
-    cluster:{
-      subtitle:'By associating a cluster with the cashback program, you can manage it more effectively.',
+    cluster: {
+      subtitle:
+        "By associating a cluster with the cashback program, you can manage it more effectively.",
     },
-    notifications:{
-      add:'Cashback program added successfully.',
-      edit:'Cashback program updated successfully.'
+    notifications: {
+      add: "Cashback program added successfully.",
+      edit: "Cashback program updated successfully.",
     },
-    enable_input:{
-      true_msg:'The cashback program is active and customers can use it.',
-        false_msg:'The cashback program is inactive and customers can not use it.',
+    enable_input: {
+      true_msg: "The cashback program is active and customers can use it.",
+      false_msg:
+        "The cashback program is inactive and customers can not use it.",
     },
-    boosted_input:{
-      false_title:'Normal',
-        true_title:'Boost (2x Cashback)',
-      true_msg:'The cashback program is in boost mode and customers will receive 2x cashback.',
-      false_msg:'The cashback program is in normal mode and customers will receive normal cashback.',
-
-    }
-
-
-
-
-
+    boosted_input: {
+      false_title: "Normal",
+      true_title: "Boost (2x Cashback)",
+      true_msg:
+        "The cashback program is in boost mode and customers will receive 2x cashback.",
+      false_msg:
+        "The cashback program is in normal mode and customers will receive normal cashback.",
+    },
   },
 
-
   /**
-   * AUto fill suggestions
+   * Auto fill suggestions
    */
   suggestions: {
     /**
@@ -8313,8 +8354,8 @@ export default {
     /**
      * Account
      */
-    account:{
-      account_name:[
+    account: {
+      account_name: [
         "Main Wallet",
         "Business Account",
         "Personal Wallet",
@@ -8324,15 +8365,15 @@ export default {
         "General Account",
         "Reserve Wallet",
         "Transaction Wallet",
-        "Fund Account"
-      ]
+        "Fund Account",
+      ],
     },
 
     /**
      * Cashback
      */
-    cashback:{
-      title:[
+    cashback: {
+      title: [
         "Shop & Earn Cashback",
         "Loyalty Rewards Cashback",
         "Exclusive Cashback Offers",
@@ -8347,9 +8388,9 @@ export default {
         "Cashback Rewards Club",
         "Shop More, Save More",
         "Ultimate Cashback Rewards",
-        "Cashback Extravaganza"
+        "Cashback Extravaganza",
       ],
-      description:[
+      description: [
         "Earn cashback on every purchase!",
         "Get rewarded for your loyalty.",
         "Exclusive cashback offers just for you.",
@@ -8364,10 +8405,8 @@ export default {
         "Join our Cashback Rewards Club now.",
         "The more you shop, the more you save.",
         "Unlock the ultimate cashback rewards.",
-        "Experience the best cashback deals around."
-      ]
-    }
-
-
+        "Experience the best cashback deals around.",
+      ],
+    },
   },
 };

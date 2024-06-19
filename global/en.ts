@@ -750,6 +750,9 @@ export default {
     billed_yearly: "Billed yearly",
 
     my_wallet: "My wallet",
+    boosted: "Boosted",
+    cashback: "Cashback",
+
   },
   difficulties: {
     very_complicated: "Very complicated",
