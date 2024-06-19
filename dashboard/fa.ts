@@ -637,6 +637,7 @@ export default {
         drop_shipping: "تسویه دراپ شیپینگ",
         reseller_accounts: "حساب های دراپ شیپینگ",
         valuations: "قیمت گذاری",
+        customer_wallets: "کیف پول مشتریان",
       },
 
       /** {@see BPageShopFinanceBill} **/
@@ -4541,6 +4542,8 @@ export default {
     offer: "پیشنهاد ویژه",
     gift_card: "کارت هدیه",
     lottery: "بازی",
+    cashback: "برگشت پول",
+
   },
 
   /** {@see BPageShopIncentivesDiscountCode} **/

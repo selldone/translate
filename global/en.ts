@@ -732,22 +732,24 @@ export default {
     available: "Available",
     limited: "Limited",
 
-    management:'Management',
-    topics:'Topics',
-    posts:'Posts',
-    replies:'Replies',
-    reports:'Reports',
-    post:'Post',
-    impressions:'Impressions',
-    resources:'Resources',
-    engine:'Engine',
-    attachments:'Attachments',
-    owner:'Owner',
-    wholesaler:'Wholesaler',
-    hidden:'Hidden',
-    visible:'Visible',
-    warehouse:'Warehouse',
-    billed_yearly:'Billed yearly',
+    management: "Management",
+    topics: "Topics",
+    posts: "Posts",
+    replies: "Replies",
+    reports: "Reports",
+    post: "Post",
+    impressions: "Impressions",
+    resources: "Resources",
+    engine: "Engine",
+    attachments: "Attachments",
+    owner: "Owner",
+    wholesaler: "Wholesaler",
+    hidden: "Hidden",
+    visible: "Visible",
+    warehouse: "Warehouse",
+    billed_yearly: "Billed yearly",
+
+    my_wallet: "My wallet",
   },
   difficulties: {
     very_complicated: "Very complicated",
@@ -890,13 +892,11 @@ export default {
     edit_address: "Edit address",
     resend: "Resend",
 
-    deploy_now:'Deploy Now',
-    become_premium:'Become Premium',
+    deploy_now: "Deploy Now",
+    become_premium: "Become Premium",
     bulk_export: "Bulk Export",
-    see_all:'See All',
-    visit:'Visit',
-
-
+    see_all: "See All",
+    visit: "Visit",
   },
   /** @see BillingPeriod **/
   billing_period: {
@@ -1040,10 +1040,10 @@ export default {
     friend_name: "Opt. Your friend's name",
     select_date: "Select a date...",
     address: "123 Main St, Anytown, 12345",
-    cluster:'Select a cluster...',
-    select_products:'Select products',
-    birthday:'Select birthday',
-    select_category:'Select a category...'
+    cluster: "Select a cluster...",
+    select_products: "Select products",
+    birthday: "Select birthday",
+    select_category: "Select a category...",
   },
 
   notification: {
@@ -1412,9 +1412,9 @@ export default {
       publish_at: "Publish at",
       last_edit: "Last edit",
       view_action: "View Article",
-      no_article:'No scheduled article!',
-      current_article:'Current Article',
-      article_for_product:'Article For Product'
+      no_article: "No scheduled article!",
+      current_article: "Current Article",
+      article_for_product: "Article For Product",
     },
     notifications: {
       update_success_title: "Submit Information",
@@ -2077,15 +2077,15 @@ export default {
   },
   /** {@see Calculator} **/
   /* calculator: {
-        title: "Calculator title",
-        formula: "Formula",
-        variable_name: "Variable name",
-        variable_name_message:
-          "Enter variable name and add it to use in your formula.",
-        type: "Variable type",
-        variable_title: "Variable title",
-        duplicate_var_name_error: "Can not add variable with same name!",
-      },*/
+          title: "Calculator title",
+          formula: "Formula",
+          variable_name: "Variable name",
+          variable_name_message:
+            "Enter variable name and add it to use in your formula.",
+          type: "Variable type",
+          variable_title: "Variable title",
+          duplicate_var_name_error: "Can not add variable with same name!",
+        },*/
 
   /** {@see SArticleStructuredData} **/
   json: {

@@ -730,24 +730,24 @@ export default {
     available: "موجود",
     limited: "محدود",
 
-    management:'مدیریت',
-    topics:'تاپیک ها',
-    posts:'پست ها',
-    replies:'پاسخ‌ها',
-    reports:'گزارش‌ها',
-    post:'مطلب',
-    impressions:'بازدیدها',
-    resources:'منابع',
-    engine:'موتور',
-    attachments:'ضمیمه ها',
-    owner:'مالک',
-    wholesaler:'عمده فروش',
-    hidden:'مخفی',
-    visible:'آشکار',
-    warehouse:'انبار',
-    billed_yearly:'پرداخت سالیانه',
+    management: "مدیریت",
+    topics: "تاپیک ها",
+    posts: "پست ها",
+    replies: "پاسخ‌ها",
+    reports: "گزارش‌ها",
+    post: "مطلب",
+    impressions: "بازدیدها",
+    resources: "منابع",
+    engine: "موتور",
+    attachments: "ضمیمه ها",
+    owner: "مالک",
+    wholesaler: "عمده فروش",
+    hidden: "مخفی",
+    visible: "آشکار",
+    warehouse: "انبار",
+    billed_yearly: "پرداخت سالیانه",
 
-
+    my_wallet: "کیف پول من",
   },
 
   difficulties: {
@@ -891,12 +891,11 @@ export default {
     view_now: "مشاهده",
     edit_address: "ویرایش آدرس",
     resend: "ارسال مجدد",
-    deploy_now:'هم‌اکنون استقرار دهید',
-    become_premium:'پرمیوم شوید',
+    deploy_now: "هم‌اکنون استقرار دهید",
+    become_premium: "پرمیوم شوید",
     bulk_export: "خروجی دسته جمعی",
-    see_all:'مشاهده همه',
-    visit:'مشاهده',
-
+    see_all: "مشاهده همه",
+    visit: "مشاهده",
   },
 
   /** @see BillingPeriod **/
@@ -1032,11 +1031,10 @@ export default {
     friend_name: "نام دریافت کننده",
     select_date: "یک تاریخ را انتخاب کنید...",
     address: "خیابان اصلی 123، شهرستان، 12345",
-    cluster:'یک خوشه را انتخاب کنید...',
-    select_products:'انتخاب محصول',
-    birthday:'انتخاب تاریخ تولد',
-    select_category: 'یک دسته‌بندی انتخاب کنید...'
-
+    cluster: "یک خوشه را انتخاب کنید...",
+    select_products: "انتخاب محصول",
+    birthday: "انتخاب تاریخ تولد",
+    select_category: "یک دسته‌بندی انتخاب کنید...",
   },
 
   notification: {
@@ -1405,10 +1403,9 @@ export default {
       publish_at: "انتشار در",
       last_edit: "آخرین ویرایش",
       view_action: "مشاهده مطلب",
-      no_article:'هیچ مقاله‌ای برنامه‌ریزی نشده است!',
-      current_article:'مقاله جاری',
-      article_for_product:'مقاله برای محصول'
-
+      no_article: "هیچ مقاله‌ای برنامه‌ریزی نشده است!",
+      current_article: "مقاله جاری",
+      article_for_product: "مقاله برای محصول",
     },
     notifications: {
       update_success_title: "ثبت اطلاعات",
@@ -2078,14 +2075,14 @@ export default {
 
   /** {@see Calculator} **/
   /* calculator: {
-        title: "عنوان ماشین حساب",
-        formula: "فرمول",
-        variable_name: "نام متغیر",
-        variable_name_message: "نام متغیر را وارد نموده و کلید افزودن را بزنید.",
-        type: "نوع متغیر",
-        variable_title: "عنوان متغیر",
-        duplicate_var_name_error: "نمیتوان دو متغیر با یک نام وارد نمود.",
-      },*/
+          title: "عنوان ماشین حساب",
+          formula: "فرمول",
+          variable_name: "نام متغیر",
+          variable_name_message: "نام متغیر را وارد نموده و کلید افزودن را بزنید.",
+          type: "نوع متغیر",
+          variable_title: "عنوان متغیر",
+          duplicate_var_name_error: "نمیتوان دو متغیر با یک نام وارد نمود.",
+        },*/
   /** {@see SArticleStructuredData} **/
   json: {
     add: "افزودن داده های بیشتر",

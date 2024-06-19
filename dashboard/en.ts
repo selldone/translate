@@ -664,6 +664,7 @@ export default {
         drop_shipping: "Reseller receipts",
         reseller_accounts: "Reseller accounts",
         valuations: "Valuations",
+        customer_wallets: "Customer Wallets",
       },
 
       /** {@see BPageShopFinanceBill} **/
@@ -4560,6 +4561,7 @@ export default {
     offer: "Offer",
     gift_card: "Gift card",
     lottery: "Lottery",
+    cashback: "Cashback",
   },
 
   /** {@see BPageShopIncentivesDiscountCode} **/
@@ -7413,6 +7415,116 @@ export default {
     },
   },
 
+
+  /**
+   * {@see BPageShopIncentivesCoupon}
+   */
+  cashback:{
+    add_new: "Add New Cashback",
+    title:"Cashback Programs",
+    boosted:"Boost (2x)",
+    min_purchase:'Minimum Purchase',
+    only_first_order:'Only First Order',
+    total_cashback:'Total Cashback',
+    delete_alert:{
+      title:"Delete Cashback Program",
+      message:'Are you sure to delete this cashback program?',
+      action:"Yes, delete now"
+    },
+    notifications:{
+      delete_success:"Cashback program deleted successfully."
+    }
+  },
+  /**
+   * {@see BCashbackAdd}
+   */
+  cashback_edit:{
+    config:{
+      subtitle:'Set the chasback percent, limit and its status here.',
+    },
+    percent_input:{
+      title:'Cashback Percentage',
+      message:'Enter the cashback percentage from 1% to 20%.',
+    },
+    currency_input:{
+      message:'The cashback program will be available just for this currency.'
+    },
+    limit_input:{
+      title:'Limit',
+      hint:'Enter the maximum amount of cashback.',
+      zero_message:'Enter 0 for unlimited cashback.',
+    },
+    duration:{
+      title:'Duration Limit',
+      subtitle:"Set duration of cashback program. It's optional.",
+    },
+    start_input:{
+      title:'Start Date',
+      placeholder:'Select start date...'
+    },
+    end_input:{
+      title:'End Date',
+      placeholder:'Select end date...'
+    },
+    design:{
+      subtitle:"Set title and short description for the cashback program. These information will be shown to customers.",
+    },
+    title_input:{
+      title:'Title'
+    },
+    description_input:{
+      title:'Description'
+    },
+    constraints:{
+      subtitle:'Set the constraints for the cashback program.',
+    },
+    min_purchase_input:{
+      hint:'Enter the minimum purchase amount for cashback program.',
+      title:'Minimum Purchase',
+
+    },
+    only_first_buy_input:{
+      false_desc:'The cashback program will be available for all orders.',
+      true_desc:'The cashback program will be available just for the first order.',
+    true_title:'Only First Order',
+    false_title:'All Orders',
+
+    },
+    qualify_input:{
+      false_title:'All Customers',
+    true_title:'Qualify Customers',
+      true_msg:'The cashback program will be available just for the customers who are qualified.',
+
+    },
+    club:{
+      subtitle:'Set the club for the cashback program. The cashback program will be available just for the customers who are in this club.',
+    },
+    cluster:{
+      subtitle:'By associating a cluster with the cashback program, you can manage it more effectively.',
+    },
+    notifications:{
+      add:'Cashback program added successfully.',
+      edit:'Cashback program updated successfully.'
+    },
+    enable_input:{
+      true_msg:'The cashback program is active and customers can use it.',
+        false_msg:'The cashback program is inactive and customers can not use it.',
+    },
+    boosted_input:{
+      false_title:'Normal',
+        true_title:'Boost (2x Cashback)',
+      true_msg:'The cashback program is in boost mode and customers will receive 2x cashback.',
+      false_msg:'The cashback program is in normal mode and customers will receive normal cashback.',
+
+    }
+
+
+
+
+
+  },
+
+
   /**
    * AUto fill suggestions
    */
@@ -8214,7 +8326,48 @@ export default {
         "Transaction Wallet",
         "Fund Account"
       ]
+    },
+
+    /**
+     * Cashback
+     */
+    cashback:{
+      title:[
+        "Shop & Earn Cashback",
+        "Loyalty Rewards Cashback",
+        "Exclusive Cashback Offers",
+        "Cashback Bonanza",
+        "Instant Cashback Deals",
+        "Seasonal Cashback Savings",
+        "Double Cashback Days",
+        "Cashback on Every Purchase",
+        "Cashback Frenzy",
+        "VIP Cashback Program",
+        "Limited Time Cashback",
+        "Cashback Rewards Club",
+        "Shop More, Save More",
+        "Ultimate Cashback Rewards",
+        "Cashback Extravaganza"
+      ],
+      description:[
+        "Earn cashback on every purchase!",
+        "Get rewarded for your loyalty.",
+        "Exclusive cashback offers just for you.",
+        "Enjoy great savings with cashback rewards.",
+        "Instant cashback on all your favorite items.",
+        "Save more with seasonal cashback deals.",
+        "Double your cashback on special days!",
+        "Earn cashback every time you shop.",
+        "Join the cashback frenzy today!",
+        "VIP members enjoy exclusive cashback.",
+        "Hurry! Limited time cashback offers.",
+        "Join our Cashback Rewards Club now.",
+        "The more you shop, the more you save.",
+        "Unlock the ultimate cashback rewards.",
+        "Experience the best cashback deals around."
+      ]
     }
+
 
   },
 };
