@@ -2818,7 +2818,7 @@ export default {
         config_extra_info: "Payment service configuration",
         oauth2_button: "Auto Connect to {gateway}",
         fee_payment_message:
-          "The entire amount paid by the customer will be transferred to your account. Service's fee will be deducted from your wallet in Selldone.",
+          "The entire amount paid by the customer will be transferred to your account. The service fee will be deducted from your wallet in Selldone.",
       },
     },
 
