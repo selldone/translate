@@ -2873,6 +2873,15 @@ export default {
       edit_success: "Gateway {gateway_name} edited.",
     },
     developer_setting: "Develop & Test",
+
+    limit:{
+      title:"Order Limit",
+      subtitle:"Set the minimum order amount for this payment gateway.",
+    },
+    limit_input:{
+      title:'Minimum order amount',
+      msg:"Zero means no limit.",
+    }
   },
 
   /** {@see BPageGiftcard} **/
