@@ -5988,7 +5988,7 @@ export default {
   /** @see BProductAddDropshipping **/
   dropshipping_products: {
     no_shops:
-      "Sorry, no store found. There will be more stores in the future so you can put their products in your store.",
+      "Sorry, no wholesaler stores were found. More stores will be added in the future, allowing you to include their products in your store.",
     show_all_shops: "Show all shops",
     show_eligible_shops_message: "Show eligible shops",
     show_all_message: "You can see all shops",
@@ -6031,7 +6031,7 @@ export default {
       "By activating this option, other sellers will be able to add your product to their store.",
     reselling: "Enable Dropshipping",
     price_merchants: "Price for merchants",
-    price_commission: "Merchant commission (Fixed)",
+    price_commission: "Merchant commission",
   },
 
   /** @see SShopBuyButton **/
