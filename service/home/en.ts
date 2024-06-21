@@ -423,10 +423,7 @@ export default {
   hero: {
     intro: "#1 Operating System for Businesses",
     title: "Replace {infinite} Plugins & Apps with One {app}",
-    functionality: "Functionality",
-    screenshots: "Screenshots",
-    functionality_tooltip:
-      "Select your business infrastructure with ease and confidence! We display <b>real product screenshots</b>, not photoshopped images!",
+
   },
 
   /**
@@ -476,6 +473,8 @@ export default {
       subtitle: "Manage everything from one place without need of any plugin.",
       see_action: "See Demo Backoffice",
     },
+
+
   },
 
   /**
