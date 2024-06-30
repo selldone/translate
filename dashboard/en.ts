@@ -4286,6 +4286,7 @@ export default {
         history: "History",
         style: "Style",
         typography: "Typography",
+        hierarchy: "Hierarchy",
       },
       no_category: "No Categories",
     },

@@ -4269,6 +4269,7 @@ export default {
         history: "تاریخچه",
         style: "استایل",
         typography: "تایپوگرافی",
+        hierarchy: "سلسله مراتب",
       },
       no_category: "بدون دسته بندی",
     },
