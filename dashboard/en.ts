@@ -4269,9 +4269,7 @@ export default {
       rtl: "Right to Left",
       designer_note: "Designer Note",
     },
-    history: {
-      title: "Saved History",
-    },
+
 
     /** {@see LPageEditor} **/
     design: {

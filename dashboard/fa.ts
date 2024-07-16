@@ -4251,9 +4251,7 @@ export default {
       rtl: "راست چین",
       designer_note: "یادداشت طراح",
     },
-    history: {
-      title: "تاریخچه ذخیره شده صفحه",
-    },
+
 
     /** {@see LPageEditor} **/
     design: {
