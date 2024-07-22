@@ -6119,7 +6119,7 @@ export default {
       edit: "نوتیفیکیشن با موفقیت به روز شد.",
     },
   },
-  /** @see BPagePopupAppearance **/
+  /** @see LMenuLeftPopupAppearance **/
   popup_appearance: {
     position: "موقعیت",
     position_desc: "موقعیت نمایش این نوتیفیکیشن را در صفحه مشخص نمایید.",

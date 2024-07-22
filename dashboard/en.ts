@@ -6150,7 +6150,7 @@ export default {
       edit: "Popup updated successfully.",
     },
   },
-  /** @see BPagePopupAppearance **/
+  /** @see LMenuLeftPopupAppearance **/
   popup_appearance: {
     position: "Position",
     position_desc:
