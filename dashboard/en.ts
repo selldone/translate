@@ -3372,7 +3372,7 @@ export default {
     free_balance: "Free balance",
     account_name: "Account Name",
   },
-  /** {@see UserMonetizeAccounts} **/
+  /** {@see OPageMonetizeAccounts} **/
   user_monetize_accounts: {
     title: "Deposit Accounts",
     sub_title:
@@ -3416,7 +3416,7 @@ export default {
       participant: "Participant",
     },
   },
-  /** {@see UserMonetizePlans} **/
+  /** {@see OPageMonetizeReferral} **/
   user_monetize_plans: {
     title: "Collaboration and Monetization",
     sub_title:
@@ -5591,17 +5591,7 @@ export default {
     last_check: "Recent checking",
   },
 
-  /** {@see ReferralLinkWidget**/
-  referral_widget: {
-    apply_now: "Apply now for this program!",
-    no_bonus: "Receive the first prize by inviting a friend.",
-    your_gift: "Your gift",
-    invited_gift: "Invited gift",
-    percent_bonus: "Percent bonus",
-    discount_bonus: "Discount bonus",
-    registered: "New user",
-    accepted: "Accepted user",
-  },
+
 
   /** {@see BAppConfigDialog**/
   app_config: {
@@ -5829,7 +5819,7 @@ export default {
     default_home: "Default home page",
     default_home_placeholder: "Shop page is the website home page",
   },
-  /** {@see ReferralLinkPage_Dashboard} **/
+  /** {@see OPageMonetizeReferral} **/
   selldone_referral_page: {
     title: "Referral Dashboard",
     referral_link: "Referral link",
@@ -5843,7 +5833,7 @@ export default {
     get_stickers: "Get sticker Html code to copy & past",
     click_copy_sticker_code: "Click on the badge to copy html code.",
   },
-  /** {@see ReferralLinkPage_Payments} **/
+  /** {@see OReferralTransactions} **/
   selldone_referral_payment: {
     title: "Referral Payments",
     officer: "Officer",

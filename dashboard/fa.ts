@@ -3341,7 +3341,7 @@ export default {
     account_name: "نام حساب",
   },
 
-  /** {@see UserMonetizeAccounts} **/
+  /** {@see OPageMonetizeAccounts} **/
   user_monetize_accounts: {
     title: "حساب های واریز",
     sub_title: "مبلغ هدیه به صورت خودکار به این حساب ها واریز می گردد.",
@@ -3385,7 +3385,7 @@ export default {
     },
   },
 
-  /** {@see UserMonetizePlans} **/
+  /** {@see OPageMonetizeReferral} **/
   user_monetize_plans: {
     title: "طرح های همکاری و کسب درآمد",
     sub_title:
@@ -5570,17 +5570,6 @@ export default {
     last_check: "آخرین بررسی",
   },
 
-  /** {@see ReferralLinkWidget**/
-  referral_widget: {
-    apply_now: "برای این برنامه اکنون اقدام نمایید!",
-    no_bonus: "با دعوت از یک دوست اولین جایزه را دریافت نمایید.",
-    your_gift: "هدیه شما",
-    invited_gift: "هدیه مدعو",
-    percent_bonus: "پاداش درصد فروش",
-    discount_bonus: "پاداش تخفیف",
-    registered: "عضو جدید",
-    accepted: "عضو تایید شده",
-  },
 
   /** {@see BAppConfigDialog**/
   app_config: {
@@ -5804,7 +5793,7 @@ export default {
     default_home_placeholder: "صفحه فروشگاه، صفحه اصلی سایت است",
   },
 
-  /** {@see ReferralLinkPage_Dashboard} **/
+  /** {@see OPageMonetizeReferral} **/
   selldone_referral_page: {
     title: "داشبورد کسب اعتبار از معرفی به دوستان",
     referral_link: "لینک معرفی",
@@ -5818,7 +5807,7 @@ export default {
     get_stickers: " دریافت کد Html استیکرها",
     click_copy_sticker_code: "برای کپی کردن کد هر استیکر روی آن کلیک کنید.",
   },
-  /** {@see ReferralLinkPage_Payments} **/
+  /** {@see OReferralTransactions} **/
   selldone_referral_payment: {
     title: "پرداخت ها",
     officer: "مسئول",
