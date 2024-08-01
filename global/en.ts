@@ -752,6 +752,7 @@ export default {
     my_wallet: "My wallet",
     boosted: "Boosted",
     cashback: "Cashback",
+    leads: "Leads",
 
   },
   difficulties: {

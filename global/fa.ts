@@ -750,6 +750,7 @@ export default {
     my_wallet: "کیف پول من",
     boosted: "تقویت شده",
     cashback: "کش بک",
+    leads: "سرنخ ها",
 
   },
 
