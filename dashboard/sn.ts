@@ -2519,7 +2519,7 @@ export default {
       "account_number": "Account Number",
       "account_name": "Zita",
       "payment": "Deposit amount",
-      "reset_at": "Reset to",
+      "reset_at": "Reset date",
       "delete": "Delete"
     },
     "notifications": {

@@ -2519,7 +2519,7 @@ export default {
       "account_number": "Számlaszám",
       "account_name": "Név",
       "payment": "Betét összege",
-      "reset_at": "Reset to",
+      "reset_at": "Reset date",
       "delete": "Töröl"
     },
     "notifications": {
