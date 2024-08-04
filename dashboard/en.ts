@@ -6716,10 +6716,10 @@ export default {
       "You can install up to 10 language packs in your store. Contact us if you need to install more packages.",
   },
 
-  /** {@see SInviteFriendsDialog} **/
+  /** {@see SInviteFriends} **/
   invite_friends: {
     title: "Tell about your business to the world and make money!",
-    msg: "Refer Selldone to your friends. When they sign up, they'll receive a $99 Company voucher. After they make their first transaction, you'll earn a $15 Startup voucher and receive 5% from all license and transaction fees of new users. For more opportunities, check out our affiliate page.",
+    msg: "Refer your friends to Selldone and give them a $99 Company voucher when they sign up. Once they make their first transaction, you'll earn a lifetime commission from all their future transactions. Visit our affiliate page to start earning today!",
     invite: {
       title: "Join Selldone business OS to get a free $99 voucher.",
       description:
