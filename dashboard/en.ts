@@ -6719,7 +6719,7 @@ export default {
   /** {@see SInviteFriends} **/
   invite_friends: {
     title: "Tell about your business to the world and make money!",
-    msg: "Refer your friends to Selldone and give them a $99 Company voucher when they sign up. Once they make their first transaction, you'll earn a lifetime commission from all their future transactions. Visit our affiliate page to start earning today!",
+    msg: "Refer your friends to Selldone and give them a $99 Company voucher when they sign up. Once they make their first transaction, you'll earn a lifetime commission from all their transactions. Visit our affiliate page to start earning today!",
     invite: {
       title: "Join Selldone business OS to get a free $99 voucher.",
       description:
