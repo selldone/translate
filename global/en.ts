@@ -385,6 +385,7 @@ export default {
 
     tracking_code: "Tracking code",
     tracking_url: "Tracking URL",
+    fulfillment: "Fulfillment",
     fulfillments: "Fulfillments",
     reject: "Reject",
     reserved: "Reserved",

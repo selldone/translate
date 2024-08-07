@@ -385,6 +385,7 @@ export default {
 
     tracking_code: "کد رهگیری",
     tracking_url: "آدرس رهگیری",
+    fulfillment: "سفارش",
     fulfillments: "سفارشات",
     reject: "رد شده",
     reserved: "رزرو شده",
