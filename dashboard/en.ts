@@ -8406,5 +8406,22 @@ export default {
         "Experience the best cashback deals around.",
       ],
     },
+
+
+    page:{
+      prompts:[
+        "Welcome to {shop} - Explore Our Distinctive Range of Items",
+        "{shop} - Your Ultimate Source for Quality Merchandise and Outstanding Service",
+        "Exclusive Deals and Savings Only at {shop} - Seize the Opportunity!",
+        "Get to Know {shop}'s Dedication to Eco-friendliness and Ethical Practices",
+        "Become a Part of the {shop} Family - Subscribe to Our Newsletter for Updates",
+        "Dive into Top Picks and Highly-rated Goods at {shop}",
+        "Present Ideas and Creative Suggestions for All Events at {shop}",
+        "Unrivalled Offers and Time-sensitive Specials at {shop} - Act Fast!",
+        "{shop}'s Comprehensive Buying Tips and Product Evaluations - Shop with Confidence",
+        "Reach Out to {shop} - We Strive to Deliver an Unmatched Shopping Experience",
+      ]
+    }
+
   },
 };
