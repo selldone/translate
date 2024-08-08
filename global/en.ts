@@ -902,6 +902,7 @@ export default {
     bulk_export: "Bulk Export",
     see_all: "See All",
     visit: "Visit",
+    rate_now:'Rate Now',
   },
   /** @see BillingPeriod **/
   billing_period: {

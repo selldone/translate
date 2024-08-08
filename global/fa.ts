@@ -901,6 +901,7 @@ export default {
     bulk_export: "خروجی دسته جمعی",
     see_all: "مشاهده همه",
     visit: "مشاهده",
+    rate_now:'امتیاز دهید',
   },
 
   /** @see BillingPeriod **/
