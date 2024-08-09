@@ -2240,4 +2240,39 @@ export default {
         "Here, you have the ability to directly communicate with the seller by sending messages.",
     },
   },
+
+
+  /** ServiceTypes **/
+  ServiceTypes: {
+    DEMAND: {
+      title: "On-Demand",
+      desc: "such as home repairs, painting, car repair, etc.",
+    },
+    BOOKING: {
+      title: "Booking",
+      desc: "Like booking a hotel room or villa.",
+    },
+    APPOINTMENT: {
+      title: "Appointment",
+      desc: "Like a pet care appointment or in-person training.",
+    },
+    RENTAL: {
+      title: "Rental",
+      desc: "Like renting a place or a car.",
+    },
+    SUBSCRIPTION: {
+      title: "Subscription",
+      desc: "Like club membership or Online Coaching.",
+    },
+    CHARGE: {
+      title: "Charge",
+      desc: "Such as charging an account or charging to use an application.",
+    },
+    CUSTOM: {
+      title: "Custom",
+      desc: "Select this option if the service you provide is none of the above.",
+    },
+  },
+
+
 };

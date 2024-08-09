@@ -669,12 +669,12 @@ export default {
     task: {
       title: "To-do list",
       message:
-        "Specify the titles of the work you want to do and let the buyer know how far it has progressed.",
+        "The list of tasks included in the ordered service package.",
     },
     booking: {
       title: "Booking / Reservation",
       message:
-        "This order will be processed at a specified time, the customer has selected the desired period, if you want to make any changes in the selected period, let the customer know.",
+          "The date range for receiving this order was selected by me.",
 
       selected_checkin: "Selected check-in by customer",
       selected_checkout: "Selected check-out by customer",
