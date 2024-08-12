@@ -565,6 +565,7 @@ export default {
     tablet: "Tablet",
     pc: "PC",
     acquisition_channel: "Acquisition channel",
+    channels_overview: "Channels overview",
     to: "To",
     info: "Info",
     general: "General",

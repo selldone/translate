@@ -565,6 +565,7 @@ export default {
     tablet: "تبلت",
     pc: "کامپیوتر",
     acquisition_channel: "کانال جذب",
+    channels_overview: "جزئیات کانال ها",
     to: "تا",
     info: "مشخصات",
     general: "عمومی",
