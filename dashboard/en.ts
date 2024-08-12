@@ -2543,8 +2543,15 @@ export default {
       title: "Reason to Reject the Order",
       message:
         "Select the reason for rejecting this order from the list below. Make sure to inform the customer of the cancellation and refund process. Refunds must be made within 12 hours.",
-      confirm_action: "Cancel order",
+      confirm_now_action: "Cancel Order Now",
+      confirm_in48h_action: "Cancel Order In 48 Hours",
+
       dismiss_reject_action: "Dismiss the order cancellation",
+
+      options:{
+        title:'Options',
+        subtitle:"If you want to cancel your order immediately, you can use this option."
+      }
     },
 
     notifications: {
