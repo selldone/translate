@@ -505,11 +505,14 @@ export default {
           customers: "کاربران",
         },
       },
-      /** {@see ShopPluginsWidget} **/
-      plugins: {
-        title: "افزونه ها",
-        title_small: "نصب شده",
+      /** {@see BDashboardShopChannels} **/
+
+      channels:{
+        title:'کانال های جذب مخاطب',
+        subtitle:'کسب و کار شما در حال رشد است. در اینجا گزارش کانال‌های جذب مشتری شما آمده است.',
       },
+
+
 
       /** {@see BDashboardShopPerformance} **/
       performance: {

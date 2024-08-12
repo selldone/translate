@@ -535,6 +535,12 @@ export default {
           customers: "Total customers",
         },
       },
+      /** {@see BDashboardShopChannels} **/
+
+      channels:{
+        title:'Acquisition Channels',
+        subtitle:'Your business is growing. Here is the report of your customer acquisition channels.',
+      },
 
       /** {@see BDashboardShopPerformance} **/
       performance: {
