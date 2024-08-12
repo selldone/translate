@@ -752,6 +752,7 @@ export default {
     boosted: "تقویت شده",
     cashback: "کش بک",
     leads: "سرنخ ها",
+    invalid: "نامعتبر",
 
   },
 

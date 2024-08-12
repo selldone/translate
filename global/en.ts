@@ -754,6 +754,7 @@ export default {
     boosted: "Boosted",
     cashback: "Cashback",
     leads: "Leads",
+    invalid: "Invalid",
 
   },
   difficulties: {
