@@ -1481,7 +1481,7 @@ export default {
     load_more_action: "دریافت نظرات بیشتر..",
     cant_send_comment: "شما نمی توانید پست جدیدی بگذارید.",
     cant_remove_this_comment: "نمیتوانید این نظر را حذف نمایید!",
-    product_buyer: "خریدار محصول",
+    verified_buyer: "خریدار تایید شده",
     my_comments: "نظرات من",
 
     delete_alert: {

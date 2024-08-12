@@ -1493,7 +1493,7 @@ export default {
     load_more_action: "Get more comments ..",
     cant_send_comment: "You cannot add new post.",
     cant_remove_this_comment: "You cannot delete this comment!",
-    product_buyer: "Buyer",
+    verified_buyer: "Verified Buyer",
     my_comments: "My Comments",
 
     delete_alert: {
