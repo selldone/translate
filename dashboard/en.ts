@@ -537,9 +537,10 @@ export default {
       },
       /** {@see BDashboardShopChannels} **/
 
-      channels:{
-        title:'Acquisition Channels',
-        subtitle:'Your business is growing. Here is the report of your customer acquisition channels.',
+      channels: {
+        title: "Acquisition Channels",
+        subtitle:
+          "Your business is growing. Here is the report of your customer acquisition channels.",
       },
 
       /** {@see BDashboardShopPerformance} **/
@@ -2548,10 +2549,11 @@ export default {
 
       dismiss_reject_action: "Dismiss the order cancellation",
 
-      options:{
-        title:'Options',
-        subtitle:"If you want to cancel your order immediately, you can use this option."
-      }
+      options: {
+        title: "Options",
+        subtitle:
+          "If you want to cancel your order immediately, you can use this option.",
+      },
     },
 
     notifications: {
@@ -2720,21 +2722,26 @@ export default {
       lottery_prize_inform:
         "Your customer win 1x of this product. Send  gift with this order.",
 
-      need_to_refund:{
-        title:'Refund required to the customer',
-        message:"We calculate the total amount of refunds that you need to make manually. It calculated based on unavailable items and total refunded values yet."
+      need_to_refund: {
+        title: "Refund required to the customer",
+        message:
+          "We calculate the total amount of refunds that you need to make manually. It calculated based on unavailable items and total refunded values yet.",
+        calculated_approximately:
+          "The amount is calculated approximately. Please calculate the exact amount yourself.",
       },
-      need_payback:{
-        title:"Customer pay back required",
-        message:"We've noticed that the total refunded to the customer is higher than the amount due based on the items in the cart. You may need to charge your customer to recover the excess amount.",
+      need_payback: {
+        title: "Customer pay back required",
+        message:
+          "We've noticed that the total refunded to the customer is higher than the amount due based on the items in the cart. You may need to charge your customer to recover the excess amount.",
       },
-      need_no_refund:{
-        title:"No refund necessary"
+      need_no_refund: {
+        title: "No refund necessary",
       },
-      total_refund:{
-        title:"Total refunded",
-        message:"It's the total amount of refunds automatically made by your payment gateway. Only some payment services support this feature, so you need to refund manually."
-      }
+      total_refund: {
+        title: "Total refunded",
+        message:
+          "It's the total amount of refunds automatically made by your payment gateway. Only some payment services support this feature, so you need to refund manually.",
+      },
     },
     /** {@see BOrderDashboardPreparing} **/
     preparing: {
@@ -2903,14 +2910,14 @@ export default {
     },
     developer_setting: "Develop & Test",
 
-    limit:{
-      title:"Order Limit",
-      subtitle:"Set the minimum order amount for this payment gateway.",
+    limit: {
+      title: "Order Limit",
+      subtitle: "Set the minimum order amount for this payment gateway.",
     },
-    limit_input:{
-      title:'Minimum order amount',
-      msg:"Zero means no limit.",
-    }
+    limit_input: {
+      title: "Minimum order amount",
+      msg: "Zero means no limit.",
+    },
   },
 
   /** {@see BPageGiftcard} **/
@@ -4299,7 +4306,6 @@ export default {
       designer_note: "Designer Note",
     },
 
-
     /** {@see LPageEditor} **/
     design: {
       themes: {
@@ -5620,8 +5626,6 @@ export default {
     last_check: "Recent checking",
   },
 
-
-
   /** {@see BAppConfigDialog**/
   app_config: {
     reviews: "Reviews",
@@ -6486,8 +6490,6 @@ export default {
     type_message:
       "Select the type of service you provide for this product. By selecting each item, the relevant form will be displayed. Depending on the type of service you choose, more information may be received from the customer when ordering. ",
   },
-
-
 
   /** {@see AvocadoHomePage} **/
   avocado: {
@@ -7446,34 +7448,32 @@ export default {
     /**
      * {@see BPageCashbackDashboard}
      */
-    dashboard:{
-      chart_amount_buy:{
-        label:'Buy',
+    dashboard: {
+      chart_amount_buy: {
+        label: "Buy",
         y: "Purchase amount {currency}",
       },
-      chart_amount_cashback:{
-        label:'Cashback',
+      chart_amount_cashback: {
+        label: "Cashback",
         y: "Cashback amount {currency}",
       },
-      chart_used:{
-        label:'Used',
+      chart_used: {
+        label: "Used",
         y: "Times",
       },
-
     },
     /**
      * {@see BPageCashbackOrders}
      */
-    orders:{
-      title:'Cashback Orders',
-      table:{
-        amount_cashback:'Cashback Amount',
-        payment_status:'Payment Status',
-        date:'Date',
-      }
+    orders: {
+      title: "Cashback Orders",
+      table: {
+        amount_cashback: "Cashback Amount",
+        payment_status: "Payment Status",
+        date: "Date",
+      },
     },
   },
-
 
   /**
    * {@see BCashbackAdd}
@@ -7562,6 +7562,55 @@ export default {
         "The cashback program is in normal mode and customers will receive normal cashback.",
     },
   },
+
+  /**
+   * @see BOrderPaymentRowPayment
+   */
+  row_payment: {
+    actions: {
+      refund: {
+        title: "Refund Payment",
+        subtitle: "Partial or full refund supported.",
+      },
+      delivery: {
+        title: "Confirm On Delivery",
+        subtitle: "You can manually confirm delivery for payment provider.",
+      },
+    },
+  },
+
+  /**
+   * @see BOrderPaymentActionsRefundDialog
+   */
+  payment_refund_dialog:{
+    title:"Refund Payment",
+    message:"For security reasons, only orders paid within the last 7 days are eligible for refunds.",
+    payment_amount:'Payment Amount',
+    total_refund_amount:'Total Refunded Amount',
+    can_refund:'Can Refund',
+    refund_amount:'Refund Amount',
+    verify:{
+      title:'Verify Refund',
+      description:"I confirm that the refund amount is correct and I want to proceed."
+
+    },
+    action:'Refund Now'
+  },
+
+  /**
+   * @see BOrderPaymentActionsDeliveryDialog
+   */
+  payment_delivery_dialog:{
+    title:"Customer Delivery Confirmation",
+    message:"Certain payment services require confirmation that the order has been delivered to the customer. We typically send this confirmation during the final step of order fulfillment when we receive the customer's delivery confirmation. However, if you need to perform this action manually, you can do so here.",
+    verify:{
+      title:"Verify Delivery",
+      description:"I confirm that the order has been delivered to the customer.",
+    },
+    action:'Confirm Now'
+  },
+
+
 
   /**
    * Auto fill suggestions
@@ -8406,9 +8455,8 @@ export default {
       ],
     },
 
-
-    page:{
-      prompts:[
+    page: {
+      prompts: [
         "Welcome to {shop} - Explore Our Distinctive Range of Items",
         "{shop} - Your Ultimate Source for Quality Merchandise and Outstanding Service",
         "Exclusive Deals and Savings Only at {shop} - Seize the Opportunity!",
@@ -8419,8 +8467,7 @@ export default {
         "Unrivalled Offers and Time-sensitive Specials at {shop} - Act Fast!",
         "{shop}'s Comprehensive Buying Tips and Product Evaluations - Shop with Confidence",
         "Reach Out to {shop} - We Strive to Deliver an Unmatched Shopping Experience",
-      ]
-    }
-
+      ],
+    },
   },
 };
