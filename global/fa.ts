@@ -754,7 +754,11 @@ export default {
     cashback: "کش بک",
     leads: "سرنخ ها",
     invalid: "نامعتبر",
-
+    refund_date: "تاریخ برگشت پول",
+    refund: "برگشت پول",
+    items:"آیتم ها",
+    incentives: "مشوق ها",
+    you:"شما"
   },
 
   difficulties: {

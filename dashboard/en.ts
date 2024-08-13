@@ -2719,6 +2719,22 @@ export default {
       cant_apply_change: "Cannot make changes",
       lottery_prize_inform:
         "Your customer win 1x of this product. Send  gift with this order.",
+
+      need_to_refund:{
+        title:'Refund required to the customer',
+        message:"We calculate the total amount of refunds that you need to make manually. It calculated based on unavailable items and total refunded values yet."
+      },
+      need_payback:{
+        title:"Customer pay back required",
+        message:"We've noticed that the total refunded to the customer is higher than the amount due based on the items in the cart. You may need to charge your customer to recover the excess amount.",
+      },
+      need_no_refund:{
+        title:"No refund necessary"
+      },
+      total_refund:{
+        title:"Total refunded",
+        message:"It's the total amount of refunds automatically made by your payment gateway. Only some payment services support this feature, so you need to refund manually."
+      }
     },
     /** {@see BOrderDashboardPreparing} **/
     preparing: {
