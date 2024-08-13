@@ -7610,6 +7610,63 @@ export default {
     action:'Confirm Now'
   },
 
+  /**
+   * @see BPageProductCrossSelling
+   */
+  product_cross_selling:{
+    title:'Cross Selling',
+    add_new_actions:'Add New Product',
+    subtitle:"In this section, you can add and manage cross-sell products for this product page. These products will be displayed as suggestions for customers to purchase alongside the main item. You can also set discounts to encourage and incentivize additional purchases. The system will showcase a maximum of 3 items for the customer to consider.",
+    dialog:{
+      edit_title:"Edit cross selling product",
+      add_title:"Add new cross selling products",
+      target:{
+        title:"Target Product",
+        subtitle:"Choose the products you'd like to promote as cross-sell options alongside this product.",
+        select_products:'Select product(s)',
+      },
+      list:{
+        title:"Target Product",
+        subtitle:"This product has been chosen for cross-selling promotion.",
+        manage_product:'Manage Product'
+
+      },
+      discount:{
+        title:"Discount & Message",
+        subtitle:"You have the option to include a message and offer a discount to motivate customers to buy the selected additional items. These incentives can help drive sales and enhance the overall shopping experience.",
+        amount_input:{
+          message:"The discount percentage will be applied to the product price after taking into account all existing discounts."
+        },
+        mismatch_type_warning:"Discounts cannot be applied to other types besides the main product types, as the source and target items will not be placed in separate baskets.",
+        not_support_subscription_type_warning:"Setting discounts for cross-selling subscription products is not possible, as the pricing plans cannot be adjusted dynamically.",
+        message_input:{
+          message:"Craft a compelling and enticing title to capture customers' attention.",
+          placeholder:"Bundle & Save: Complete Your Look with Our Handpicked Selection!"
+        }
+      },
+      action:{
+        title:'Action',
+        subtitle:"Modify the cross-selling product's action here. If your product requires the input of custom information, such as through a Valuation Form, do not choose \"Add To Cart\" as the action, as this may lead to errors.",
+
+      }
+
+    }
+  },
+  /**
+   * @see CrossSellActionType
+   */
+  CrossSellActionType:{
+    AddToCart:{
+      title: "Add to cart",
+      description:
+          "Display the Add to Cart button directly. Note that this is not applicable for subscription products.",
+    },
+    ViewProduct:{
+      title: "View Product",
+      description:
+          "Display a View More button that directs customers to the product page by opening a new window.",
+    }
+  },
 
 
   /**
@@ -8455,6 +8512,10 @@ export default {
       ],
     },
 
+
+    /**
+     * Page
+     */
     page: {
       prompts: [
         "Welcome to {shop} - Explore Our Distinctive Range of Items",
@@ -8469,5 +8530,35 @@ export default {
         "Reach Out to {shop} - We Strive to Deliver an Unmatched Shopping Experience",
       ],
     },
+
+
+    /**
+     * Cross-Selling
+     */
+    cross_selling: {
+      message:[
+        "Complete your look, grab the set!",
+        "Save big with our bundle deals!",
+        "Don't miss our perfect pairings!",
+        "Enhance your purchase, add-ons await!",
+        "Unlock exclusive savings, buy together!",
+        "Complementary items, special discounts!",
+        "Get more, spend less – bundle up!",
+        "Limited-time offer: matched products!",
+        "Upgrade your experience, combo deals!",
+        "Discover our curated combos, save now!",
+        "Pair it up for the ultimate combo!",
+        "Shop smart, bundle and save!",
+        "Double the value, double the fun!",
+        "Your perfect match is here – shop now!",
+        "Exclusive bundle pricing just for you!",
+        "Maximize your savings with our combos!",
+        "Enhance your collection with these picks!",
+        "Curated for you: match and save!",
+        "The perfect pair for a perfect day!",
+        "Bundle your favorites for extra savings!"
+      ]
+
+    }
   },
 };
