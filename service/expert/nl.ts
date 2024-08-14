@@ -360,7 +360,7 @@ export default {
     "contact": "Contactgegevens",
     "name_placeholder": "Vereist*",
     "email": "E-mail",
-    "email_placeholder": "Vereist* uw-e-mail@gmail.com",
+    "email_placeholder": "Vereist* uw-e-mail{'@'}gmail.com",
     "request_title": "Beschrijf uw behoeften.",
     "request_message": "Geef specifieke informatie over uw bedrijf om onze expert te helpen beter aan uw eisen te voldoen en u een betaalbare prijs en een schatting van de tijd te bieden.",
     "description": "Vertel ons meer over uw bedrijf",

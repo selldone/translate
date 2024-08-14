@@ -360,7 +360,7 @@ export default {
     "contact": "Kontak informasi",
     "name_placeholder": "Diperlukan*",
     "email": "Surel",
-    "email_placeholder": "Diperlukan* email-anda@gmail.com",
+    "email_placeholder": "Diperlukan* email-anda{'@'}gmail.com",
     "request_title": "Jelaskan kebutuhan Anda.",
     "request_message": "Berikan informasi spesifik tentang bisnis Anda untuk membantu ahli kami memenuhi kebutuhan Anda dengan lebih baik dan memberikan harga yang terjangkau serta perkiraan waktu.",
     "description": "Ceritakan lebih banyak tentang bisnis Anda",

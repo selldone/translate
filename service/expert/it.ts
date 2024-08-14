@@ -360,7 +360,7 @@ export default {
     "contact": "Informazioni sui contatti",
     "name_placeholder": "Necessario*",
     "email": "E-mail",
-    "email_placeholder": "Richiesto* tua-email@gmail.com",
+    "email_placeholder": "Richiesto* tua-email{'@'}gmail.com",
     "request_title": "Descrivi le tue esigenze.",
     "request_message": "Fornisci informazioni specifiche sulla tua attività per aiutare il nostro esperto a soddisfare meglio le tue esigenze e fornirti un prezzo accessibile e una stima del tempo.",
     "description": "Raccontaci di più sulla tua attività",

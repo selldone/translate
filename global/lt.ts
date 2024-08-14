@@ -880,7 +880,7 @@ export default {
   },
   "placeholders": {
     "name": "Jone'as Coxas",
-    "email": "jūsų-paštas@mail.com",
+    "email": "jūsų-paštas{'@'}mail.com",
     "phone": "+1 000 0000",
     "language": "Pasirinkite kalbą..",
     "friend_email": "Jūsų draugo el. paštas...",

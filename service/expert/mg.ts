@@ -360,7 +360,7 @@ export default {
     "contact": "Antsipiriany ifandraisana",
     "name_placeholder": "Ilaina*",
     "email": "mailaka",
-    "email_placeholder": "Ilaina* ny mailaka@gmail.com",
+    "email_placeholder": "Ilaina* ny mailaka{'@'}gmail.com",
     "request_title": "Lazao ny zavatra ilainao.",
     "request_message": "Omeo fampahafantarana manokana momba ny orinasanao mba hanampiana ny manam-pahaizanay hahafeno tsara ny zavatra takinao ary hanome anao vidiny mora sy tombanana ny fotoana.",
     "description": "Lazao anay bebe kokoa momba ny orinasanao",

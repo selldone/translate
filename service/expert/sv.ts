@@ -360,7 +360,7 @@ export default {
     "contact": "Kontaktinformation",
     "name_placeholder": "Nödvändig*",
     "email": "E-post",
-    "email_placeholder": "Obligatoriskt* din-e-post@gmail.com",
+    "email_placeholder": "Obligatoriskt* din-e-post{'@'}gmail.com",
     "request_title": "Beskriv dina behov.",
     "request_message": "Ge specifik information om ditt företag för att hjälpa vår expert att bättre möta dina krav och ge dig ett överkomligt pris och en tidsuppskattning.",
     "description": "Berätta mer om ditt företag",

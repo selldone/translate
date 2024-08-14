@@ -360,7 +360,7 @@ export default {
     "contact": "Kontakt ynformaasje",
     "name_placeholder": "Ferplicht*",
     "email": "Email",
-    "email_placeholder": "Fereaske * jo-e-post@gmail.com",
+    "email_placeholder": "Fereaske * jo-e-post{'@'}gmail.com",
     "request_title": "Beskriuw jo behoeften.",
     "request_message": "Jou spesifike ynformaasje oer jo bedriuw om ús saakkundige te helpen better oan jo easken te foldwaan en jo betelbere priis en tiidskatting te leverjen.",
     "description": "Fertel ús mear oer jo bedriuw",

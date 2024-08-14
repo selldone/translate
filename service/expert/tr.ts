@@ -360,7 +360,7 @@ export default {
     "contact": "İletişim bilgileri",
     "name_placeholder": "Gerekli*",
     "email": "E-posta",
-    "email_placeholder": "Gerekli* email@gmail.com",
+    "email_placeholder": "Gerekli* email{'@'}gmail.com",
     "request_title": "İhtiyaçlarınızı tanımlayın.",
     "request_message": "Uzmanımızın gereksinimlerinizi daha iyi karşılamasına ve size uygun fiyat ve zaman tahmini sağlamasına yardımcı olmak için işiniz hakkında özel bilgiler verin.",
     "description": "Bize işiniz hakkında daha fazla bilgi verin",

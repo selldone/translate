@@ -360,7 +360,7 @@ export default {
     "contact": "Gwybodaeth Cyswllt",
     "name_placeholder": "Angenrheidiol*",
     "email": "Ebost",
-    "email_placeholder": "Yn ofynnol* eich-email@gmail.com",
+    "email_placeholder": "Yn ofynnol* eich-email{'@'}gmail.com",
     "request_title": "Disgrifiwch eich anghenion.",
     "request_message": "Rhowch wybodaeth benodol am eich busnes i helpu ein harbenigwr i fodloni'ch gofynion yn well a darparu pris fforddiadwy ac amcangyfrif o amser i chi.",
     "description": "Dywedwch fwy wrthym am eich busnes",

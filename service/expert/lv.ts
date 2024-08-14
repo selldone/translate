@@ -360,7 +360,7 @@ export default {
     "contact": "Kontaktinformācija",
     "name_placeholder": "Obligāti*",
     "email": "E-pasts",
-    "email_placeholder": "Obligāti* jūsu-e-pasts@gmail.com",
+    "email_placeholder": "Obligāti* jūsu-e-pasts{'@'}gmail.com",
     "request_title": "Aprakstiet savas vajadzības.",
     "request_message": "Sniedziet konkrētu informāciju par savu uzņēmumu, lai palīdzētu mūsu ekspertam labāk izpildīt jūsu prasības un sniegtu jums pieņemamu cenu un laika aprēķinu.",
     "description": "Pastāstiet mums vairāk par savu uzņēmumu",

@@ -360,7 +360,7 @@ export default {
     "contact": "Yhteystiedot",
     "name_placeholder": "Edellytetään*",
     "email": "Sähköposti",
-    "email_placeholder": "Pakollinen* oma-sähköposti@gmail.com",
+    "email_placeholder": "Pakollinen* oma-sähköposti{'@'}gmail.com",
     "request_title": "Kuvaile tarpeitasi.",
     "request_message": "Anna tarkkoja tietoja yrityksestäsi, jotta asiantuntijamme vastaa paremmin tarpeisiisi ja saat edullisen hinnan ja arvion ajasta.",
     "description": "Kerro meille lisää yrityksestäsi",

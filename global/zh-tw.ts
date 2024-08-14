@@ -880,7 +880,7 @@ export default {
   },
   "placeholders": {
     "name": "瓊斯考克斯",
-    "email": "你的郵件@mail.com",
+    "email": "你的郵件{'@'}mail.com",
     "phone": "+1 000 0000",
     "language": "選擇語言..",
     "friend_email": "你朋友的郵箱...",

@@ -360,7 +360,7 @@ export default {
     "contact": "Kontaktinė informacija",
     "name_placeholder": "Reikalingas*",
     "email": "El. paštas",
-    "email_placeholder": "Būtina* jūsų-el.paštas@gmail.com",
+    "email_placeholder": "Būtina* jūsų-el.paštas{'@'}gmail.com",
     "request_title": "Apibūdinkite savo poreikius.",
     "request_message": "Pateikite konkrečią informaciją apie savo verslą, kad mūsų ekspertas geriau atitiktų jūsų reikalavimus ir pateiktų jums prieinamą kainą bei numatomą laiką.",
     "description": "Papasakokite daugiau apie savo verslą",

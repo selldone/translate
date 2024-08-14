@@ -880,7 +880,7 @@ export default {
   },
   "placeholders": {
     "name": "Džons Kokss",
-    "email": "jūsu-pasts@mail.com",
+    "email": "jūsu-pasts{'@'}mail.com",
     "phone": "+1 000 0000",
     "language": "Izvēlēties valodu..",
     "friend_email": "Jūsu drauga e-pasts...",

@@ -360,7 +360,7 @@ export default {
     "contact": "Dettalji ta 'kuntatt",
     "name_placeholder": "Meħtieġ*",
     "email": "Email",
-    "email_placeholder": "Meħtieġa* tiegħek-email@gmail.com",
+    "email_placeholder": "Meħtieġa* tiegħek-email{'@'}gmail.com",
     "request_title": "Iddeskrivi l-bżonnijiet tiegħek.",
     "request_message": "Agħti informazzjoni speċifika dwar in-negozju tiegħek biex tgħin lill-espert tagħna jilħaq ir-rekwiżiti tiegħek aħjar u jagħtik prezz raġonevoli u stima taż-żmien.",
     "description": "Għidilna aktar dwar in-negozju tiegħek",

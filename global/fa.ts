@@ -385,8 +385,8 @@ export default {
 
     tracking_code: "کد رهگیری",
     tracking_url: "آدرس رهگیری",
-    fulfillment: "سفارش",
-    fulfillments: "سفارشات",
+    fulfillment: "تحویل",
+    fulfillments: "تحویل ها",
     reject: "رد شده",
     reserved: "رزرو شده",
     score: "امتیاز",
@@ -636,6 +636,8 @@ export default {
     shops: "فروشگاه",
     vendor: "فروشنده",
     vendors: "فروشندگان",
+    no_vendors:"فروشنده ای یافت نشد",
+
     marketplace: "مارکتپلیس",
     verify_date: "تاریخ تایید",
     note: "یادداشت",
@@ -758,7 +760,13 @@ export default {
     refund: "برگشت پول",
     items:"آیتم ها",
     incentives: "مشوق ها",
-    you:"شما"
+    you:"شما",
+    recurring_payment: "پرداخت دوره ای",
+    pricing: "قیمت گذاری",
+    purchase:"خرید",
+    confirmation: "تایید",
+    manage: "مدیریت",
+    warning: "هشدار",
   },
 
   difficulties: {
@@ -908,6 +916,8 @@ export default {
     see_all: "مشاهده همه",
     visit: "مشاهده",
     rate_now:'امتیاز دهید',
+    load:'بارگذاری',
+
   },
 
   /** @see BillingPeriod **/
@@ -1047,6 +1057,8 @@ export default {
     select_products: "انتخاب محصول",
     birthday: "انتخاب تاریخ تولد",
     select_category: "یک دسته‌بندی انتخاب کنید...",
+    select_a_country:"یک کشور انتخاب کنید...",
+
   },
 
   notification: {

@@ -880,7 +880,7 @@ export default {
   },
   "placeholders": {
     "name": "Mario Rossi",
-    "email": "tua-mail@mail.com",
+    "email": "tua-mail{'@'}mail.com",
     "phone": "+1 000 0000",
     "language": "Seleziona la lingua..",
     "friend_email": "L'e-mail del tuo amico...",

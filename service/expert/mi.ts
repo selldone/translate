@@ -360,7 +360,7 @@ export default {
     "contact": "Nga korero Whakapā",
     "name_placeholder": "E hiahiatia ana*",
     "email": "Īmēra",
-    "email_placeholder": "E hiahiatia ana * to-email@gmail.com",
+    "email_placeholder": "E hiahiatia ana * to-email{'@'}gmail.com",
     "request_title": "Whakaahuahia o hiahia.",
     "request_message": "Homai he korero motuhake mo to pakihi hei awhina i to maatau tohunga ki te whakatutuki pai ake i o hiahia me te utu utu me te whakatau tata o te waa ki a koe.",
     "description": "Korerohia mai ki a maatau mo to pakihi",

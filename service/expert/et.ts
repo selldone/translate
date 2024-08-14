@@ -360,7 +360,7 @@ export default {
     "contact": "Kontaktinfo",
     "name_placeholder": "Nõutud*",
     "email": "Meil",
-    "email_placeholder": "Nõutav* teie-e-post@gmail.com",
+    "email_placeholder": "Nõutav* teie-e-post{'@'}gmail.com",
     "request_title": "Kirjeldage oma vajadusi.",
     "request_message": "Esitage oma ettevõtte kohta konkreetset teavet, et aidata meie eksperdil teie nõudeid paremini täita ning pakkuda teile taskukohast hinda ja hinnangulist aega.",
     "description": "Rääkige meile oma ettevõttest lähemalt",

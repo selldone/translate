@@ -360,7 +360,7 @@ export default {
     "contact": "Informazioni di cuntattu",
     "name_placeholder": "Ubligatoriu *",
     "email": "E-mail",
-    "email_placeholder": "Ubligatoriu * u vostru email@gmail.com",
+    "email_placeholder": "Ubligatoriu * u vostru email{'@'}gmail.com",
     "request_title": "Descrivite i vostri bisogni.",
     "request_message": "Dà infurmazione specifica nantu à a vostra attività per aiutà u nostru espertu à risponde megliu à i vostri bisogni è furnisce un prezzu accessibile è stima di u tempu.",
     "description": "Diteci più nantu à a vostra attività",

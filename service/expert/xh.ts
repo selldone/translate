@@ -360,7 +360,7 @@ export default {
     "contact": "Iinkcukacha zoqhakamshelwano",
     "name_placeholder": "Kuyafuneka*",
     "email": "I-imeyile",
-    "email_placeholder": "Kuyafuneka* your-imeyile@gmail.com",
+    "email_placeholder": "Kuyafuneka* your-imeyile{'@'}gmail.com",
     "request_title": "Chaza iimfuno zakho.",
     "request_message": "Nika ulwazi oluthile malunga neshishini lakho ukunceda ingcali yethu ukuba ihlangabezane neemfuno zakho ngcono kwaye ikunike ixabiso elifikelelekayo kunye noqikelelo lwexesha.",
     "description": "Sixelele ngakumbi malunga neshishini lakho",

@@ -880,7 +880,7 @@ export default {
   },
   "placeholders": {
     "name": "Jon Cox",
-    "email": "email tiegħek@mail.com",
+    "email": "email tiegħek{'@'}mail.com",
     "phone": "+1 000 0000",
     "language": "Agħżel il-lingwa..",
     "friend_email": "L-email tal-ħabib tiegħek...",

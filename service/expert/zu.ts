@@ -360,7 +360,7 @@ export default {
     "contact": "Ulwazi lokuxhumana",
     "name_placeholder": "Kudingeka*",
     "email": "I-imeyili",
-    "email_placeholder": "Kudingeka* your-imeyili@gmail.com",
+    "email_placeholder": "Kudingeka* your-imeyili{'@'}gmail.com",
     "request_title": "Chaza izidingo zakho.",
     "request_message": "Nikeza ulwazi oluthile mayelana nebhizinisi lakho ukuze usize uchwepheshe wethu ahlangabezane nezimfuneko zakho kangcono futhi akunikeze amanani athengekayo kanye nesilinganiso sesikhathi.",
     "description": "Sitshele kabanzi mayelana nebhizinisi lakho",

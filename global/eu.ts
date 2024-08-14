@@ -880,7 +880,7 @@ export default {
   },
   "placeholders": {
     "name": "Jon Cox",
-    "email": "zure-mail@mail.com",
+    "email": "zure-mail{'@'}mail.com",
     "phone": "+1 000 0000",
     "language": "Hautatu hizkuntza...",
     "friend_email": "Zure lagunaren posta elektronikoa...",

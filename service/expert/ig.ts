@@ -360,7 +360,7 @@ export default {
     "contact": "Ozi mkpọtụrụ",
     "name_placeholder": "achọrọ*",
     "email": "Email",
-    "email_placeholder": "Achọrọ * email gị@gmail.com",
+    "email_placeholder": "Achọrọ * email gị{'@'}gmail.com",
     "request_title": "Kọwaa mkpa gị.",
     "request_message": "Nye ozi akọwapụtara gbasara azụmahịa gị iji nyere ndị ọkachamara anyị aka imezu ihe ị chọrọ nke ọma ma nye gị ọnụ ahịa dị ọnụ ala na atụmatụ oge.",
     "description": "Gwa anyị ihe gbasara azụmahịa gị",

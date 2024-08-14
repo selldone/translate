@@ -360,7 +360,7 @@ export default {
     "contact": "Macluumaadka xiriirka",
     "name_placeholder": "loo baahan yahay*",
     "email": "iimaylka",
-    "email_placeholder": "Loo baahan yahay* emailkaaga@gmail.com",
+    "email_placeholder": "Loo baahan yahay* emailkaaga{'@'}gmail.com",
     "request_title": "Sharaxaad ka bixi baahiyahaaga.",
     "request_message": "Sii macluumaad gaar ah oo ku saabsan ganacsigaaga si aad uga caawiso khabiirkayaga inuu si fiican u buuxiyo shuruudahaaga oo uu ku siiyo qiimo jaban iyo qiyaasta wakhtiga.",
     "description": "Wax badan nooga sheeg ganacsigaaga",

@@ -880,7 +880,7 @@ export default {
   },
   "placeholders": {
     "name": "Jon Cox",
-    "email": "u vostru mail@mail.com",
+    "email": "u vostru mail{'@'}mail.com",
     "phone": "+ 1 000 000",
     "language": "Sceglite a lingua..",
     "friend_email": "L'email di u vostru amicu...",

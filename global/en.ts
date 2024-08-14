@@ -636,6 +636,7 @@ export default {
     shops: "Stores",
     vendor: "Vendor",
     vendors: "Vendors",
+    no_vendors:"No vendors",
     marketplace: "Marketplace",
     verify_date: "Verify date",
     note: "Note",
@@ -760,8 +761,13 @@ export default {
     refund: "Refund",
     items:"Items",
     incentives: "Incentives",
-    you:"You"
-
+    you:"You",
+    recurring_payment: "Recurring payment",
+    pricing: "Pricing",
+    purchase:"Purchase",
+    confirmation: "Confirmation",
+    manage: "Manage",
+    warning: "Warning",
   },
   difficulties: {
     very_complicated: "Very complicated",
@@ -910,6 +916,8 @@ export default {
     see_all: "See All",
     visit: "Visit",
     rate_now:'Rate Now',
+    load:'Load',
+
   },
   /** @see BillingPeriod **/
   billing_period: {
@@ -1057,6 +1065,7 @@ export default {
     select_products: "Select products",
     birthday: "Select birthday",
     select_category: "Select a category...",
+    select_a_country:"Select a country...",
   },
 
   notification: {

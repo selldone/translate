@@ -360,7 +360,7 @@ export default {
     "contact": "Ibi iwifunni",
     "name_placeholder": "beere*",
     "email": "Imeeli",
-    "email_placeholder": "Ti beere * rẹ-email@gmail.com",
+    "email_placeholder": "Ti beere * rẹ-email{'@'}gmail.com",
     "request_title": "Ṣe apejuwe awọn aini rẹ.",
     "request_message": "Fun alaye ni pato nipa iṣowo rẹ lati ṣe iranlọwọ fun amoye wa lati pade awọn ibeere rẹ dara julọ ati pese idiyele ti ifarada ati idiyele akoko.",
     "description": "Sọ fun wa diẹ sii nipa iṣowo rẹ",

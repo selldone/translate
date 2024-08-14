@@ -880,7 +880,7 @@ export default {
   },
   "placeholders": {
     "name": "Jon Cox",
-    "email": "do-phost@mail.com",
+    "email": "do-phost{'@'}mail.com",
     "phone": "+1 000 0000",
     "language": "Roghnaigh teanga. .",
     "friend_email": "Ríomhphost do chara...",

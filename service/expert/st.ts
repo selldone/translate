@@ -360,7 +360,7 @@ export default {
     "contact": "Mokhoa oa puisano",
     "name_placeholder": "Ho hlokahala*",
     "email": "Email",
-    "email_placeholder": "Ho hlokahala* your-mail@gmail.com",
+    "email_placeholder": "Ho hlokahala* your-mail{'@'}gmail.com",
     "request_title": "Hlalosa litlhoko tsa hau.",
     "request_message": "Fana ka lintlha tse tobileng mabapi le khoebo ea hau ho thusa setsebi sa rona ho fihlela litlhoko tsa hau betere le ho u fa theko e tlase le khakanyo ea nako.",
     "description": "Re bolelle haholoanyane ka khoebo ea hau",

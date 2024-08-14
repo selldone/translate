@@ -360,7 +360,7 @@ export default {
     "contact": "Kontak inligting",
     "name_placeholder": "Vereis*",
     "email": "E-pos",
-    "email_placeholder": "Vereiste* jou-e-pos@gmail.com",
+    "email_placeholder": "Vereiste* jou-e-pos{'@'}gmail.com",
     "request_title": "Beskryf jou behoeftes.",
     "request_message": "Gee spesifieke inligting oor jou besigheid om ons deskundige te help om beter aan jou vereistes te voldoen en om jou bekostigbare prys en tydskatting te gee.",
     "description": "Vertel ons meer oor jou besigheid",

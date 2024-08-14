@@ -360,7 +360,7 @@ export default {
     "contact": "Bayanin hulda",
     "name_placeholder": "ake bukata*",
     "email": "Imel",
-    "email_placeholder": "Ana buƙata* imel ɗinku@gmail.com",
+    "email_placeholder": "Ana buƙata* imel ɗinku{'@'}gmail.com",
     "request_title": "Bayyana bukatun ku.",
     "request_message": "Ba da takamaiman bayani game da kasuwancin ku don taimaka wa ƙwararrunmu su cika buƙatunku mafi kyau da samar muku da farashi mai araha da kimanta lokaci.",
     "description": "Faɗa mana game da kasuwancin ku",

@@ -360,7 +360,7 @@ export default {
     "contact": "Kumenyesha amakuru",
     "name_placeholder": "Ibisabwa *",
     "email": "Imeri",
-    "email_placeholder": "Ibisabwa * yawe-email@gmail.com",
+    "email_placeholder": "Ibisabwa * yawe-email{'@'}gmail.com",
     "request_title": "Sobanura ibyo ukeneye.",
     "request_message": "Tanga amakuru yihariye kubucuruzi bwawe kugirango ufashe inzobere yacu kuzuza ibyo usabwa neza no kuguha igiciro cyiza no kugereranya igihe.",
     "description": "Tubwire byinshi kubucuruzi bwawe",

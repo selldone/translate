@@ -1830,6 +1830,10 @@ export default {
         inputs: "Input information",
         outputs: "Output information",
         user_data_form: "Buyer Information Form",
+        staff_messages: "Staff messages",
+        add_note: "Add note",
+        product_tags: "Product tags",
+        edit_tags: "Edit tags",
       },
       /** {@see BProductOrdersAbstractView} **/
       orders: {
@@ -1879,6 +1883,7 @@ export default {
         title: "Product Rating",
         title_small: "Customer Satisfaction Report",
         total_participation: "Total contributions",
+        total_participation_tooltip:"Total count of raters for the product.",
         today_participation: "Today ratings",
         last7days_participation: "Last 7 days contributions",
         chart: {
@@ -1886,6 +1891,7 @@ export default {
           participate_title: "The number of contributions",
           score: "Score",
         },
+        users_not_rated_msg:"Users have not rated this product yet.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -6621,6 +6627,71 @@ export default {
     notifications: {
       delete_success: "File deleted successfully.",
     },
+    drag_sort_msg: "You can drag and sort files.",
+    paid_mode_msg: "Users can download it only after purchasing the product.",
+    free_mode_msg:
+      "Users can download it for free. Sample files must be under 50 MB.",
+    has_gust_shopping_msg:
+      "Registered and guest users can download files since guest purchases are enabled in the shop's settings > flow.",
+    only_registered_shopping_msg:
+      "Only registered users can download sample files.",
+    file_count_limit: "Files count limit",
+  },
+
+  /**
+   * @see BProductLocationRestrictionsList
+   */
+  product_location_restrictions: {
+    title: "Available Locations",
+    subtitle:
+      "If your product or service is only available in specific regions, defined by country and zip or pin codes, you can designate those locations here. These location restrictions are enforced at the product level. On the product page, customers will be prompted to select their location. If the product is available in their chosen area, they will be able to proceed with the purchase.",
+
+    add_location_action: "Add Country",
+    no_restriction: "No restriction",
+    import: {
+      title: "Load profile",
+      subtitle: "Select a saved locations profile.",
+    },
+    export: {
+      title: "Save profile",
+      subtitle: "Store locations for future use.",
+    },
+    has_restriction_input: {
+      title: "Has location restriction",
+      description:
+        "Customers can only purchase this product within the specified country and zip code, due to the established location restriction.",
+    },
+    zip_pin_code: "Zip / Pin Codes",
+    no_country_selected_error:
+      "Please include at least one country along with a list of zip/pin codes. Without it, this product will not be available.",
+    tips: "Click on the <b>+ Add Country</b> button to start creating a new location set. Once you're done, you can save it by clicking on the top-right <b>⋮ Menu</b> and selecting <b>Save Profile</b>.",
+    need_save_message:
+      "The location restriction settings for the product have been changed. To preserve these changes, please click on the 'Save' button below.",
+
+    add_dialog: {
+      title: "Add Country",
+      message:
+        "Choose a country and click 'Add'. This will append the country to the table, allowing you to assign Zipcodes, Pin codes, City names, or Region names to it.",
+    },
+    save_profile_dialog: {
+      title: "Add Locations Profile",
+      message:
+        "Please input a name to save this set of locations. This saved location set can be applied to other products, allowing for quick location loading with just a single click. If a profile with the provided name already exists, it will be updated with these new values.",
+      title_input: {
+        title: "Profile title",
+        placeholder: "A category name, or store name, ...",
+      },
+    },
+    load_profile_dialog: {
+      title: "Load Locations Profile",
+      message:
+        "You can load locations by selecting a previously saved location set here.",
+
+      select_input: {
+        title: "Location Profile",
+        placeholder: "Select a profile...",
+      },
+    },
   },
 
   /** {@see NotificationTopBar} **/
@@ -7582,89 +7653,261 @@ export default {
   /**
    * @see BOrderPaymentActionsRefundDialog
    */
-  payment_refund_dialog:{
-    title:"Refund Payment",
-    message:"For security reasons, only orders paid within the last 7 days are eligible for refunds.",
-    payment_amount:'Payment Amount',
-    total_refund_amount:'Total Refunded Amount',
-    can_refund:'Can Refund',
-    refund_amount:'Refund Amount',
-    verify:{
-      title:'Verify Refund',
-      description:"I confirm that the refund amount is correct and I want to proceed."
-
+  payment_refund_dialog: {
+    title: "Refund Payment",
+    message:
+      "For security reasons, only orders paid within the last 7 days are eligible for refunds.",
+    payment_amount: "Payment Amount",
+    total_refund_amount: "Total Refunded Amount",
+    can_refund: "Can Refund",
+    refund_amount: "Refund Amount",
+    verify: {
+      title: "Verify Refund",
+      description:
+        "I confirm that the refund amount is correct and I want to proceed.",
     },
-    action:'Refund Now'
+    action: "Refund Now",
   },
 
   /**
    * @see BOrderPaymentActionsDeliveryDialog
    */
-  payment_delivery_dialog:{
-    title:"Customer Delivery Confirmation",
-    message:"Certain payment services require confirmation that the order has been delivered to the customer. We typically send this confirmation during the final step of order fulfillment when we receive the customer's delivery confirmation. However, if you need to perform this action manually, you can do so here.",
-    verify:{
-      title:"Verify Delivery",
-      description:"I confirm that the order has been delivered to the customer.",
+  payment_delivery_dialog: {
+    title: "Customer Delivery Confirmation",
+    message:
+      "Certain payment services require confirmation that the order has been delivered to the customer. We typically send this confirmation during the final step of order fulfillment when we receive the customer's delivery confirmation. However, if you need to perform this action manually, you can do so here.",
+    verify: {
+      title: "Verify Delivery",
+      description:
+        "I confirm that the order has been delivered to the customer.",
     },
-    action:'Confirm Now'
+    action: "Confirm Now",
   },
 
   /**
    * @see BPageProductCrossSelling
    */
-  product_cross_selling:{
-    title:'Cross Selling',
-    add_new_actions:'Add New Product',
-    subtitle:"In this section, you can add and manage cross-sell products for this product page. These products will be displayed as suggestions for customers to purchase alongside the main item. You can also set discounts to encourage and incentivize additional purchases. The system will showcase a maximum of 3 items for the customer to consider.",
-    dialog:{
-      edit_title:"Edit cross selling product",
-      add_title:"Add new cross selling products",
-      target:{
-        title:"Target Product",
-        subtitle:"Choose the products you'd like to promote as cross-sell options alongside this product.",
-        select_products:'Select product(s)',
+  product_cross_selling: {
+    title: "Cross Selling",
+    add_new_actions: "Add New Product",
+    subtitle:
+      "In this section, you can add and manage cross-sell products for this product page. These products will be displayed as suggestions for customers to purchase alongside the main item. You can also set discounts to encourage and incentivize additional purchases. The system will showcase a maximum of 3 items for the customer to consider.",
+    dialog: {
+      edit_title: "Edit cross selling product",
+      add_title: "Add new cross selling products",
+      target: {
+        title: "Target Product",
+        subtitle:
+          "Choose the products you'd like to promote as cross-sell options alongside this product.",
+        select_products: "Select product(s)",
       },
-      list:{
-        title:"Target Product",
-        subtitle:"This product has been chosen for cross-selling promotion.",
-        manage_product:'Manage Product'
-
+      list: {
+        title: "Target Product",
+        subtitle: "This product has been chosen for cross-selling promotion.",
+        manage_product: "Manage Product",
       },
-      discount:{
-        title:"Discount & Message",
-        subtitle:"You have the option to include a message and offer a discount to motivate customers to buy the selected additional items. These incentives can help drive sales and enhance the overall shopping experience.",
-        amount_input:{
-          message:"The discount percentage will be applied to the product price after taking into account all existing discounts."
+      discount: {
+        title: "Discount & Message",
+        subtitle:
+          "You have the option to include a message and offer a discount to motivate customers to buy the selected additional items. These incentives can help drive sales and enhance the overall shopping experience.",
+        amount_input: {
+          message:
+            "The discount percentage will be applied to the product price after taking into account all existing discounts.",
         },
-        mismatch_type_warning:"Discounts cannot be applied to other types besides the main product types, as the source and target items will not be placed in separate baskets.",
-        not_support_subscription_type_warning:"Setting discounts for cross-selling subscription products is not possible, as the pricing plans cannot be adjusted dynamically.",
-        message_input:{
-          message:"Craft a compelling and enticing title to capture customers' attention.",
-          placeholder:"Bundle & Save: Complete Your Look with Our Handpicked Selection!"
-        }
+        mismatch_type_warning:
+          "Discounts cannot be applied to other types besides the main product types, as the source and target items will not be placed in separate baskets.",
+        not_support_subscription_type_warning:
+          "Setting discounts for cross-selling subscription products is not possible, as the pricing plans cannot be adjusted dynamically.",
+        message_input: {
+          message:
+            "Craft a compelling and enticing title to capture customers' attention.",
+          placeholder:
+            "Bundle & Save: Complete Your Look with Our Handpicked Selection!",
+        },
       },
-      action:{
-        title:'Action',
-        subtitle:"Modify the cross-selling product's action here. If your product requires the input of custom information, such as through a Valuation Form, do not choose \"Add To Cart\" as the action, as this may lead to errors.",
-
-      }
-
-    }
+      action: {
+        title: "Action",
+        subtitle:
+          'Modify the cross-selling product\'s action here. If your product requires the input of custom information, such as through a Valuation Form, do not choose "Add To Cart" as the action, as this may lead to errors.',
+      },
+    },
   },
   /**
    * @see CrossSellActionType
    */
-  CrossSellActionType:{
-    AddToCart:{
+  CrossSellActionType: {
+    AddToCart: {
       title: "Add to cart",
       description:
-          "Display the Add to Cart button directly. Note that this is not applicable for subscription products.",
+        "Display the Add to Cart button directly. Note that this is not applicable for subscription products.",
     },
-    ViewProduct:{
+    ViewProduct: {
       title: "View Product",
       description:
-          "Display a View More button that directs customers to the product page by opening a new window.",
+        "Display a View More button that directs customers to the product page by opening a new window.",
+    },
+  },
+
+  /**
+   * @see BProductFlow
+   */
+
+  product_flow: {
+    title: "Purchase flow",
+    subtitle: "This is the purchase flow and health check of your product.",
+
+    /**
+     * @see BProductFlowRowConnect
+     */
+    connect: {
+      subtitle: "This product has been added via <b>{name}</b>.",
+      enable_msg: "This bridge to external service is enabled.",
+      disable_msg: "This bridge to external service is disabled.",
+      has_shipping_msg:
+        "{name} support shipping. So you have the option to enable auto shipping calculation by {name} on the checkout page.",
+    },
+    /**
+     * @see BProductFlowRowHealth
+     */
+    health: {
+      title: "Product Health",
+      available_in_stock_msg: "Product is available in stock.",
+      out_of_stock_msg: "Product is out of stock.",
+      file_count_msg:
+        "{files_count} files with total {files_size} uploaded for this product.",
+      no_file_uploaded_msg: "No file has been uploaded yet.",
+      no_image_uploaded_msg:
+        "Upload a product image to make it more attractive.",
+    },
+    /**
+     * @see BProductFlowErrorsVendor
+     */
+    vendor_errors: {
+      title: "Missing Vendors",
+      subtitle:
+        "This product currently has no associated vendors. For a product to be purchasable in the marketplace, it must have at least one vendor.",
+      manage_vendors: "Manage Vendors",
+    },
+
+    /**
+     * @see BProductFlowErrorsFile
+     */
+    file_errors: {
+      title: "Missing Files",
+      subtitle:
+        "Currently, no files have been uploaded for this product. Please upload files to proceed.",
+      manage_files: "Manage Files",
+    },
+
+    /**
+     * @see BProductFlowRowPricing
+     */
+    pricing: {
+      title: "Pricing",
+      no_product_price_msg: "The default product price not set yet!",
+      listing_pricing_msg: "Listing pricing:",
+      has_valuation_msg: "Product has valuation.",
+      subscription_pricing_msg:
+        "This product has {count} subscription pricing plans.",
+      has_no_subscription_pricing_msg:
+        "This product has no subscription pricing plans.",
+    },
+    /**
+     * @see BProductFlowErrorsSubscription
+     */
+    subscription_errors: {
+      title: "Missing Subscription Pricing Plans",
+      subtitle:
+        "This product has no subscription pricing plans. You need to add at least one subscription pricing plan to make this product available for subscription purchase.",
+      pricing_plans: "Pricing Plans",
+    },
+
+    /**
+     * @see BProductFlowRowLocation
+     */
+    location: {
+      title: "Selling location restriction ● {status}",
+      status:{
+        has_restriction:"Available in {count} countries",
+        no_restriction:'Not restricted'
+      },
+      available_countries_msg:
+        "Shopping globally restricted to {count} countries. These countries are {countries}.",
+      disable_for_all_countries_msg:
+        "Shopping is disabled for all countries in your shop > locations setting.",
+      location_is_not_in_permitted_shop_locations_msg:
+        "You set {country} as a selling location but in the store level you not permit this country. Please check your store level settings.",
+      shop_locations: "Shop Locations",
+      product_locations: "Product Locations",
+    },
+
+    /**
+     * @see BProductFlowErrorsLocation
+     */
+    location_errors: {
+      title: "Available locations error",
+      no_location_error_subtitle:
+        "You have activated a location restriction for purchasing the product, but currently, no country is listed under this restriction. As a result, this product is unavailable for purchase by anyone.",
+      invalid_location_error_subtitle:
+        "The location restriction settings for your product contain an error: certain locations listed do not have any associated ZIP codes. Consequently, users are unable to select a ZIP code, rendering the product unavailable for purchase.",
+
+      manage_locations: "Manage Locations",
+    },
+
+    /**
+     * @see BProductFlowRowTax
+     */
+    tax: {
+      title: "Subscription tax",
+      default_shop: "Default Shop Tax",
+      tax_profiles: "Tax Profiles",
+      description: {
+        subscription_tax_msg:
+          "We can apply tax only on the payment creation step.",
+        dedicated: "Dedicated",
+        is_disabled: "This tax profile is disabled!",
+        tax_is_based_on_location: "Tax: Location based",
+        shipping_tax_is_based_on_location: "Shipping: Location based",
+        included_in_price: "Included in price.",
+      },
+    },
+
+    /**
+     * @see BProductFlowRowVendor
+     */
+    vendor: {
+      vendor_owner_msg: "This product belongs to <b>{vendor}</b>.",
+      has_vendors_msg: "There is {count} vendors for this product.",
+      no_vendor_msg:
+        "You haven't assigned a vendor to this product, so customers are unable to purchase it.",
+      add_vendors: "Add Vendors",
+    },
+  },
+
+  /**
+   * @see BPageProductTemplate
+   */
+  product_template:{
+    title:'Product Page Template',
+    subtitle:"You can embed a page within your product page for an enhanced presentation. The optimal approach is to create pages featuring a transparent background and 1 to 3 sections tailored to each product category. Then, assign one page to multiple products for a consistent and appealing display.",
+    edit_page:'Edit Page',
+    list_of_pages:'List of Pages',
+
+
+  },
+  /**
+   * @see BPageProductEmbed
+   */
+    product_embed:{
+      subtitle:"You can easily embed a product or a list of products in your blog or other web pages by simply copying and pasting the codes we provide. Although this feature is still in its early stages, we are actively working to expand its functionality beyond what is currently available elsewhere. While it currently offers limited capabilities, we have plans to introduce more templates and customization options in the future.",
+    card:{
+        title:'Minimal',
+      description:'Generate HTML code to add product cards in other platforms and HTML pages.',
+    },
+    iframe:{
+      title: 'Iframe',
+      description:
+          'Generate the iframe code to display comprehensive product details in an embedded window.',
     }
   },
 
@@ -7695,6 +7938,8 @@ export default {
         "Funds Reversal: Replenishment of vendor's wallet from bank.",
       ],
     },
+
+
 
     /**
      * Email Marketing
@@ -8512,7 +8757,6 @@ export default {
       ],
     },
 
-
     /**
      * Page
      */
@@ -8531,12 +8775,11 @@ export default {
       ],
     },
 
-
     /**
      * Cross-Selling
      */
     cross_selling: {
-      message:[
+      message: [
         "Complete your look, grab the set!",
         "Save big with our bundle deals!",
         "Don't miss our perfect pairings!",
@@ -8556,9 +8799,8 @@ export default {
         "Enhance your collection with these picks!",
         "Curated for you: match and save!",
         "The perfect pair for a perfect day!",
-        "Bundle your favorites for extra savings!"
-      ]
-
-    }
+        "Bundle your favorites for extra savings!",
+      ],
+    },
   },
 };

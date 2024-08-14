@@ -360,7 +360,7 @@ export default {
     "contact": "Harremanetarako informazioa",
     "name_placeholder": "Beharrezkoa*",
     "email": "Posta elektronikoa",
-    "email_placeholder": "Beharrezkoa* zure-email@gmail.com",
+    "email_placeholder": "Beharrezkoa* zure-email{'@'}gmail.com",
     "request_title": "Deskribatu zure beharrak.",
     "request_message": "Eman zure negozioari buruzko informazio zehatza gure adituak zure eskakizunak hobeto betetzen laguntzeko eta prezio merkean eta denboraren estimazioa eskaintzeko.",
     "description": "Esaiguzu zure negozioari buruz gehiago",

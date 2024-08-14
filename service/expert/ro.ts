@@ -360,7 +360,7 @@ export default {
     "contact": "Informații de contact",
     "name_placeholder": "Necesar*",
     "email": "E-mail",
-    "email_placeholder": "Necesar* dvs. e-mail@gmail.com",
+    "email_placeholder": "Necesar* dvs. e-mail{'@'}gmail.com",
     "request_title": "Descrieți nevoile dvs.",
     "request_message": "Oferiți informații specifice despre afacerea dvs. pentru a ajuta expertul nostru să vă satisfacă mai bine cerințele și să vă ofere prețuri accesibile și o estimare a timpului.",
     "description": "Spune-ne mai multe despre afacerea ta",

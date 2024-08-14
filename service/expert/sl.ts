@@ -360,7 +360,7 @@ export default {
     "contact": "Kontaktni podatki",
     "name_placeholder": "Obvezno*",
     "email": "E-naslov",
-    "email_placeholder": "Obvezno* vaš-e-pošta@gmail.com",
+    "email_placeholder": "Obvezno* vaš-e-pošta{'@'}gmail.com",
     "request_title": "Opišite svoje potrebe.",
     "request_message": "Podajte posebne informacije o vašem podjetju, da bo naš strokovnjak bolje izpolnil vaše zahteve ter vam zagotovil dostopno ceno in oceno časa.",
     "description": "Povejte nam več o svojem podjetju",

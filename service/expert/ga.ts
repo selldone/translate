@@ -360,7 +360,7 @@ export default {
     "contact": "Eolas teagmhála",
     "name_placeholder": "Riachtanach*",
     "email": "Ríomhphost",
-    "email_placeholder": "Ag teastáil* do-r-phost@gmail.com",
+    "email_placeholder": "Ag teastáil* do-r-phost{'@'}gmail.com",
     "request_title": "Déan cur síos ar do chuid riachtanas.",
     "request_message": "Tabhair faisnéis shonrach faoi do ghnó chun cabhrú lenár saineolaí freastal níos fearr ar do chuid riachtanas agus chun praghas inacmhainne agus meastachán ama a sholáthar duit.",
     "description": "Inis dúinn tuilleadh faoi do ghnó",

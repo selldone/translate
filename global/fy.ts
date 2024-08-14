@@ -880,7 +880,7 @@ export default {
   },
   "placeholders": {
     "name": "Jo Cox",
-    "email": "dyn-mail@mail.com",
+    "email": "dyn-mail{'@'}mail.com",
     "phone": "+1 000 0000",
     "language": "Taal selektearje..",
     "friend_email": "De e-post fan jo freon...",
