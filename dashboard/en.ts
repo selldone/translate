@@ -6410,7 +6410,67 @@ export default {
     title: "Manage emails",
     sub_title:
       "You will see the list of emails sent by the store to customers and managers in this section. Emails are automatically designed and created based on the information you have entered for your store. Also, the possibility of personalizing messages and images will be available to the public in the future. ",
+
+    tabs:{
+      preferences:'Preferences',
+      templates:'Templates',
+      provider:'Provider',
+
+
+    },
+
+    preferences:{
+      title:'Notification emails'
+ }
   },
+
+  /**
+   * @see BShopEmailProvider
+   */
+    shop_email_provider: {
+      title:'Custom mail server',
+    subtitle:"Connect your mail service provider to send emails via your custom domain.",
+    provider:'Provider',
+    enable_input:{
+      false_description:"Your emails will be sent via your myselldone domain.",
+      true_description:"Your emails will be sent via your custom mail domain.",
+
+    },
+    config:{
+      title:'Configs',
+      subtitle:'To configure your custom mail service for your shop, input your service API key along with other necessary settings.',
+
+    },
+    sender:{
+      title:'From',
+      subtitle:"You can configure the default sender's name and email address, which will be used for dispatching emails to your customers."
+    },
+
+    inputs:{
+      from:{
+        label:'From Email',
+      },
+      from_name:{
+        label:'From Name',
+      },
+
+    },
+
+
+    actions:{
+      send_test_email:'Send a test email'
+    },
+
+    messages:{
+      provider_error_limit:"If your service exceeds 100 errors, it will be disabled automatically! You can reset errors to re-enable it.",
+
+      encryption_ports_guide:"Email providers may offer SSL, TLS, or unencrypted connections based on available ports. If connecting results in an error, altering the encryption mode might resolve the issue. Standard <b>TLS</b> use Port : <b>587</b> and <b>SSL</b> use Port : <b>465</b>.",
+
+      enable_receive_test:"After save changes, you will receive a test mail on <b>{email}</b>. Save changes before sending a test email with the new configuration."
+    }
+  },
+
+
 
   /** @see InstagramViewMedias **/
   instagram: {

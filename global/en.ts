@@ -768,6 +768,14 @@ export default {
     confirmation: "Confirmation",
     manage: "Manage",
     warning: "Warning",
+    custom: "Custom",
+
+
+
+
+
+
+
   },
   difficulties: {
     very_complicated: "Very complicated",

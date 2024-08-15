@@ -767,6 +767,15 @@ export default {
     confirmation: "تایید",
     manage: "مدیریت",
     warning: "هشدار",
+    custom: "سفارشی",
+
+
+
+
+
+
+
+
   },
 
   difficulties: {
