@@ -768,7 +768,10 @@ export default {
     manage: "مدیریت",
     warning: "هشدار",
     custom: "سفارشی",
-
+    read: "خواندن",
+    write: "نوشتن",
+    root: "ریشه",
+    nothing_set:'تنظیمی انجام نشده',
 
 
 

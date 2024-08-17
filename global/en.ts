@@ -769,9 +769,10 @@ export default {
     manage: "Manage",
     warning: "Warning",
     custom: "Custom",
-
-
-
+    read: "Read",
+    write: "Write",
+    root: "Root",
+    nothing_set:'Nothing set!',
 
 
 

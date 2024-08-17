@@ -199,6 +199,35 @@ export default {
    * @see SShopOnboardingCustomization
    */
   customize: {
+    tour:{
+      title:'Tour',
+      subtitle:"Discover what's possible here that isn't anywhere else.",
+      /**
+       * @see BShopOnboardingTour
+       */
+      avocado:{
+        title:"Avocado - Sell Without Adding Any Product",
+        description: "With Avocado, you can offer services or products without predefined prices or details. Create a custom form for your customers to request services or products. Once they submit their request, you can set the price and process the payment. Share the form on your social media, allowing customers to add items, upload images, and submit orders easily.",
+        action:'Read About Avocado',
+      },
+      marketplace:{
+        title: "Multi-vendor Marketplace & Auto Payout",
+        description: "Build a thriving marketplace with Selldone by adding multiple vendors. Vendors can list their products, and you can set a commission rate for each sale. When a customer makes a purchase, the vendor receives the payment directly, manages the order through their dedicated panel, and you earn a commission via the auto payout feature.",
+        action:'Auto Vendors Payout',
+      },
+      business_model:{
+        title: "Support Complex Business Models",
+        description:
+            "Selldone supports both simple and complex business models, allowing you to adapt as needed. Configure everything behind the scenes without installing additional plugins or apps, ensuring seamless transitions and operations.",
+      },
+      gift_shopping:{
+        title: "Product Locations Restriction & Gift Shopping",
+        description:
+            "Set location restrictions for each product by specifying multiple countries, ZIP codes, and cities. This feature is perfect for creating a personalized gift shopping experience or limiting product availability to specific locations, such as for restaurants.",
+
+      }
+    },
+
     template: {
       title: "Templates",
       msg: "Kickstart your shop with our pre-built templates! Easily diversify by adding multiple pages, each boasting its own unique design.",

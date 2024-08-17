@@ -1049,10 +1049,9 @@ export default {
           new_user: "Add New Staff",
           new_user_message:
             "Users granted access to the dashboard and administrative sections of this store.",
-          email_input_placeholder: "Email",
-          email_input: "User Email Address",
-          level_input: "Access level",
-          add_user_action: "Add Staff",
+
+
+
         },
         delete_alert: {
           title: "Remove Access",
@@ -3190,6 +3189,7 @@ export default {
   products_select: {
     move_category: "Move category <b> {category} </b> to another category",
     move_product: "Move product <b> {product} </b> to category",
+    load_more_products:"More products are available in this category. Click to load more items.",
     product_menu: {
       dashboard: "Product dashboard",
       inventory: "Inventory and Variants",
@@ -3222,6 +3222,13 @@ export default {
       bulk_discount: "Bulk discount",
       bulk_discount_subtitle: "Apply discount on all products.",
     },
+
+    engine:{
+      title:"Extra Products Engine",
+      subtitle:"More products will be loaded from selected categories and tags.",
+      load_in_tips:"Load products from categories in the {category}.",
+      action:"Edit {category} Engine"
+    }
   },
   /** {@see BProductsPanel} **/
   product_panel: {
@@ -7971,6 +7978,84 @@ export default {
     }
   },
 
+
+  /**
+   * @see BPermissionStaffAddDialog
+   */
+  permission_staff_add:{
+    title_new:'New Staff',
+    title_edit:'Edit Staff',
+
+    staff:{
+      title:'Add Staff & Access',
+      subtitle:"All users with staff access can log in to your dashboard and see financial information. To add users with limited access, define Role.",
+      go_to_roles:'Go to Roles',
+
+    },
+    access:{
+      customization_tips:"<b>Customization:</b> Click on each item to customize the default read/write access. Each row represents an access level corresponding to the main shop dashboard.",
+      simplify_tips:'<b>Important!</b> We simplify the access control from over 300 to under 10 levels. More detailed and up-to-date access levels will be published in the documentation.',
+      multi_permission_tips:"<b>Custom limits?</b> You can add more access to one user, so after adding the first access, create additional access with the same steps.",
+      view_data:'View Data',
+      apply_changes:'Apply Changes',
+    },
+
+    inputs:{
+      email:{
+        placeholder: "Email",
+        label: "User Email Address",
+      },
+      level:{
+        label:  "Access level",
+        placeholder:'Select a level...'
+      }
+
+    },
+
+    actions:{
+
+      add:    "Add Staff",
+    },
+    notifications: {
+      add_success: {
+        title: "Access Granted",
+        message: "New access has been successfully added."
+      },
+      update_success: {
+        title: "Access Updated",
+        message: "Permissions have been updated successfully."
+      }
+    }
+
+  },
+
+  /**
+   * @see BCategoryEngineEditor
+   */
+    category_engine_editor:{
+      title:"Extra Products Listing",
+    subtitle:"Display products from various categories. You have the option to choose multiple categories to showcase products or filter products by tags.",
+    aut_add_sub_categories_tips:"You can automatically add all subcategories to the current category by clicking the button below.",
+    inputs:{
+      categories:{
+        label:"Categories",
+        messages:"Products in these categories will be shown.",
+        placeholder:"Select categories..."
+      },
+      tags:{
+        label:'Product tags',
+        messages:"Products with these tags will be show.",
+        placeholder:"Wire tags here and press enter. ex. new collection",
+      }
+
+    },
+    actions:{
+      save_engine:'Save Engine',
+      auto_add_subcategories:'Auto add sub-categories',
+
+    }
+
+  },
 
   /**
    * Auto fill suggestions
