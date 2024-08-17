@@ -773,9 +773,12 @@ export default {
     write: "Write",
     root: "Root",
     nothing_set:'Nothing set!',
-
-
-
+    installment: "Installment",
+    split_payment: "Split payment",
+    profiles: "Profiles",
+    location_limited:'Location limited',
+    no_limit:'No limit',
+    max_range:'Max range',
 
   },
   difficulties: {
@@ -926,6 +929,7 @@ export default {
     visit: "Visit",
     rate_now:'Rate Now',
     load:'Load',
+    duplicate:'Duplicate',
 
   },
   /** @see BillingPeriod **/

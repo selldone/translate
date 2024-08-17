@@ -772,9 +772,12 @@ export default {
     write: "نوشتن",
     root: "ریشه",
     nothing_set:'تنظیمی انجام نشده',
-
-
-
+    installment: "قسطی",
+    split_payment: "پرداخت اقساطی",
+    profiles: "پروفایل ها",
+    location_limited:'محدودیت مکانی',
+    no_limit:'بدون محدودیت',
+    max_range:'حداکثر محدوده',
 
 
 
@@ -929,6 +932,7 @@ export default {
     visit: "مشاهده",
     rate_now:'امتیاز دهید',
     load:'بارگذاری',
+    duplicate:'کپی',
 
   },
 

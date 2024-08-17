@@ -570,6 +570,47 @@ export default {
         "Drop products list file (CSV, XLS, XLSX format) here to start adding bulk products. Ensure that the file has the Selldone products list format.",
 
       menu_advanced_options: "Advanced options",
+
+      products_rss: {
+        title: "Products RSS",
+        subtitle: "Importing products into Google, Meta, ...",
+      },
+      products_api: {
+        title: "Products API",
+        subtitle: "Importing products via a publicly accessible API call.",
+      },
+      google_sheet: {
+        action: "Linked Sheet",
+        tooltip:
+          "The products in this shop are linked to a Google Sheet in Google Drive.",
+      },
+      show_deletes: {
+        false_title: "Hide deleted",
+        true_title: "Show deleted",
+      },
+      show_vendors: {
+        false_title: "Hide vendors",
+        false_description: "Show all vendors, ⌘Ctrl+1",
+        true_title: "Show vendors",
+      },
+
+      show_notes: {
+        false_title: "Hide notes",
+        false_description: "Show all notes, ⌘Ctrl+2",
+        true_title: "Show notes",
+      },
+
+      rss_dialog: {
+        title: "Products RSS",
+        subtitle:
+          "Utilize this RSS feed to maintain an up-to-date list of all products.",
+      },
+      api_dialog: {
+        title: "Products API",
+        subtitle:
+          "Use this API feed to keep your product list up-to-date. It provides a publicly accessible API to fetch products from your store, making it ideal for product listing and comparison websites.",
+      },
+
       /** {@see BProductWindowProductLarge} **/
 
       product_widget: {
@@ -791,10 +832,26 @@ export default {
         title: "Warehouses",
         subtitle: "List of my warehouses.",
       },
+      restriction:{
+        title:'Shipping restriction',
+        subtitle:"You can implement restrictions to ensure that only customers within the designated shipping areas can make purchases from you!",
+        no_enable_shipping_error:"No one can buy from you because you have no enabled shipping method!",
+        customer_must_select_a_shipping_msg:"Customer must select a shipping method to place order.",
+        customer_can_order_without_shipping_method_msg:"Customer can place the order even if no shipping method supported for the selected location.",
+        inputs:{
+          restriction:{
+            false_description:"Customers can still place orders even if no specific shipping method has been selected.",
+            false_title:"Accept all orders",
+            true_title:"Restricted accept order",
+            true_description:"Customers are required to choose either a shipping or pickup option in order to complete their purchase."
+          }
+        }
+      },
 
       warehouse_btn: "Add new warehouse",
       warehouse_btn_error:
         "Set your warehouse, store, or origin of your business. It's vital to have in the shipping cost calculation and checkout process.",
+      no_multi_warehouse_support_message:"For simplicity, this feature is not available in normal stores.",
       size_unit: {
         title: "Size unit",
         subtitle: "The unit used for length, width and height.",
@@ -1049,9 +1106,6 @@ export default {
           new_user: "Add New Staff",
           new_user_message:
             "Users granted access to the dashboard and administrative sections of this store.",
-
-
-
         },
         delete_alert: {
           title: "Remove Access",
@@ -1882,7 +1936,7 @@ export default {
         title: "Product Rating",
         title_small: "Customer Satisfaction Report",
         total_participation: "Total contributions",
-        total_participation_tooltip:"Total count of raters for the product.",
+        total_participation_tooltip: "Total count of raters for the product.",
         today_participation: "Today ratings",
         last7days_participation: "Last 7 days contributions",
         chart: {
@@ -1890,7 +1944,7 @@ export default {
           participate_title: "The number of contributions",
           score: "Score",
         },
-        users_not_rated_msg:"Users have not rated this product yet.",
+        users_not_rated_msg: "Users have not rated this product yet.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2330,6 +2384,32 @@ export default {
   add_category: {
     title_edit: "Edit category",
     title_update: "Add new category",
+
+    config: {
+      subtitle:
+        "Categories help streamline product management and make it easier for your customers to find products in your store.",
+    },
+    parent: {
+      subtitle:
+        "This category will appear under its parent category. If a product doesn’t have a parent category, it will be displayed in the main category.",
+    },
+    template: {
+      title: "Template",
+      edit_page: "Edit Page",
+      Pages_list: "Page List",
+      subtitle:
+        "You can enhance the display of your category page by overlaying a custom page. The best approach is to create pages with transparent backgrounds and design 1 to 2 sections specific to each category. You can then link one page to multiple categories, using dynamic content to tailor each category individually.",
+    },
+    critical_zone: {
+      title: "Critical Zone",
+      subtitle:
+        "If you remove a category, its subcategories and products will be moved to the parent directory<b>📁 {parent}</b>. To manage categories that are not in the product list, go to the Shop > Categories tab.",
+      accept_delete: {
+        true_description: "I want to remove this category.",
+        true_title: "Confirm Remove Category",
+      },
+    },
+
     menu: {
       delete: "Delete category",
       filter: "Filters",
@@ -2371,8 +2451,7 @@ export default {
     /** {@see BCategoryFilterEditor} **/
     edit_filter: {
       spec_input: "Technical Specifications List",
-      spec_input_message:
-        "List of features that you want to be shown in the filter section",
+
       price: "Price",
       min: "Min",
       max: "Max",
@@ -2387,6 +2466,16 @@ export default {
       },
       notifications: {
         edit_success: "Category edited.",
+      },
+      manually_update_filters_tips:
+        "<b>Important!</b> Filters are automatically updated when products change. However, after making changes to products in a category, please return here and click the save/regenerate button to refresh the filter.",
+
+      inputs: {
+        spec: {
+          message:
+            "List of features that you want to be shown in the filter section",
+          placeholder: "Select specs to show in filter...",
+        },
       },
     },
   },
@@ -3189,7 +3278,8 @@ export default {
   products_select: {
     move_category: "Move category <b> {category} </b> to another category",
     move_product: "Move product <b> {product} </b> to category",
-    load_more_products:"More products are available in this category. Click to load more items.",
+    load_more_products:
+      "More products are available in this category. Click to load more items.",
     product_menu: {
       dashboard: "Product dashboard",
       inventory: "Inventory and Variants",
@@ -3223,12 +3313,13 @@ export default {
       bulk_discount_subtitle: "Apply discount on all products.",
     },
 
-    engine:{
-      title:"Extra Products Engine",
-      subtitle:"More products will be loaded from selected categories and tags.",
-      load_in_tips:"Load products from categories in the {category}.",
-      action:"Edit {category} Engine"
-    }
+    engine: {
+      title: "Extra Products Engine",
+      subtitle:
+        "More products will be loaded from selected categories and tags.",
+      load_in_tips: "Load products from categories in the {category}.",
+      action: "Edit {category} Engine",
+    },
   },
   /** {@see BProductsPanel} **/
   product_panel: {
@@ -4493,7 +4584,6 @@ export default {
   /** @see BProductAddStudio **/
   product_studio: {
     add_mode: "Add more details",
-    add_by_sku: "Add by SKU",
     auto_category: "Auto-set category",
     add_in_current_category: "Add to the current category",
     category_mode_message:
@@ -4507,7 +4597,37 @@ export default {
       subtitle:
         "Enter the price and discount for this product. Once the product is added, you'll have access to more options.",
     },
+    by_sku: {
+      title: "Add by SKU",
+      subtitle: "The database in your country is not available.",
+    },
+    drop_shipping: {
+      subtitle:
+        "Find products in the wholesale marketplace and add them to your store.",
+    },
+    by_connect: {
+      subtitle:
+        "Easily add products from POD or dropshipping suppliers with Selldone Connect OS—just connect your store and enjoy automatic product integration, no plugins needed.",
+    },
+    your_license_is_not_eligible: "Your license is not eligible.",
+    sku_dialog: {
+      title: "Add Product by SKU",
+      subtitle:
+        "You have the ability to locate products by their SKU in our database and add them with just a single click.",
+    },
+    dropshipping_dialog: {
+      title: "Add dropshipping products",
+    },
   },
+
+  /**
+   * @see BProductAddDropshippingShops
+   */
+  product_add_dropshipping_shops: {
+    subtitle:
+      "Here, you can find wholesalers who list their products on Selldone, making them available for other merchants. Selldone's built-in dropshipping platform simplifies the process, making it easy and straightforward for both wholesalers and merchants.",
+  },
+
   /** @see Affiliates **/
   my_affiliate: {
     title: "My Affiliate Contracts",
@@ -6418,66 +6538,64 @@ export default {
     sub_title:
       "You will see the list of emails sent by the store to customers and managers in this section. Emails are automatically designed and created based on the information you have entered for your store. Also, the possibility of personalizing messages and images will be available to the public in the future. ",
 
-    tabs:{
-      preferences:'Preferences',
-      templates:'Templates',
-      provider:'Provider',
-
-
+    tabs: {
+      preferences: "Preferences",
+      templates: "Templates",
+      provider: "Provider",
     },
 
-    preferences:{
-      title:'Notification emails'
- }
+    preferences: {
+      title: "Notification emails",
+    },
   },
 
   /**
    * @see BShopEmailProvider
    */
-    shop_email_provider: {
-      title:'Custom mail server',
-    subtitle:"Connect your mail service provider to send emails via your custom domain.",
-    provider:'Provider',
-    enable_input:{
-      false_description:"Your emails will be sent via your myselldone domain.",
-      true_description:"Your emails will be sent via your custom mail domain.",
-
+  shop_email_provider: {
+    title: "Custom mail server",
+    subtitle:
+      "Connect your mail service provider to send emails via your custom domain.",
+    provider: "Provider",
+    enable_input: {
+      false_description: "Your emails will be sent via your myselldone domain.",
+      true_description: "Your emails will be sent via your custom mail domain.",
     },
-    config:{
-      title:'Configs',
-      subtitle:'To configure your custom mail service for your shop, input your service API key along with other necessary settings.',
-
+    config: {
+      title: "Configs",
+      subtitle:
+        "To configure your custom mail service for your shop, input your service API key along with other necessary settings.",
     },
-    sender:{
-      title:'From',
-      subtitle:"You can configure the default sender's name and email address, which will be used for dispatching emails to your customers."
+    sender: {
+      title: "From",
+      subtitle:
+        "You can configure the default sender's name and email address, which will be used for dispatching emails to your customers.",
     },
 
-    inputs:{
-      from:{
-        label:'From Email',
+    inputs: {
+      from: {
+        label: "From Email",
       },
-      from_name:{
-        label:'From Name',
+      from_name: {
+        label: "From Name",
       },
-
     },
 
-
-    actions:{
-      send_test_email:'Send a test email'
+    actions: {
+      send_test_email: "Send a test email",
     },
 
-    messages:{
-      provider_error_limit:"If your service exceeds 100 errors, it will be disabled automatically! You can reset errors to re-enable it.",
+    messages: {
+      provider_error_limit:
+        "If your service exceeds 100 errors, it will be disabled automatically! You can reset errors to re-enable it.",
 
-      encryption_ports_guide:"Email providers may offer SSL, TLS, or unencrypted connections based on available ports. If connecting results in an error, altering the encryption mode might resolve the issue. Standard <b>TLS</b> use Port : <b>587</b> and <b>SSL</b> use Port : <b>465</b>.",
+      encryption_ports_guide:
+        "Email providers may offer SSL, TLS, or unencrypted connections based on available ports. If connecting results in an error, altering the encryption mode might resolve the issue. Standard <b>TLS</b> use Port : <b>587</b> and <b>SSL</b> use Port : <b>465</b>.",
 
-      enable_receive_test:"After save changes, you will receive a test mail on <b>{email}</b>. Save changes before sending a test email with the new configuration."
-    }
+      enable_receive_test:
+        "After save changes, you will receive a test mail on <b>{email}</b>. Save changes before sending a test email with the new configuration.",
+    },
   },
-
-
 
   /** @see InstagramViewMedias **/
   instagram: {
@@ -7894,9 +8012,9 @@ export default {
      */
     location: {
       title: "Selling location restriction ● {status}",
-      status:{
-        has_restriction:"Available in {count} countries",
-        no_restriction:'Not restricted'
+      status: {
+        has_restriction: "Available in {count} countries",
+        no_restriction: "Not restricted",
       },
       available_countries_msg:
         "Shopping globally restricted to {count} countries. These countries are {countries}.",
@@ -7954,106 +8072,343 @@ export default {
   /**
    * @see BPageProductTemplate
    */
-  product_template:{
-    title:'Product Page Template',
-    subtitle:"You can embed a page within your product page for an enhanced presentation. The optimal approach is to create pages featuring a transparent background and 1 to 3 sections tailored to each product category. Then, assign one page to multiple products for a consistent and appealing display.",
-    edit_page:'Edit Page',
-    list_of_pages:'List of Pages',
-
-
+  product_template: {
+    title: "Product Page Template",
+    subtitle:
+      "You can embed a page within your product page for an enhanced presentation. The optimal approach is to create pages featuring a transparent background and 1 to 3 sections tailored to each product category. Then, assign one page to multiple products for a consistent and appealing display.",
+    edit_page: "Edit Page",
+    list_of_pages: "List of Pages",
   },
   /**
    * @see BPageProductEmbed
    */
-    product_embed:{
-      subtitle:"You can easily embed a product or a list of products in your blog or other web pages by simply copying and pasting the codes we provide. Although this feature is still in its early stages, we are actively working to expand its functionality beyond what is currently available elsewhere. While it currently offers limited capabilities, we have plans to introduce more templates and customization options in the future.",
-    card:{
-        title:'Minimal',
-      description:'Generate HTML code to add product cards in other platforms and HTML pages.',
-    },
-    iframe:{
-      title: 'Iframe',
+  product_embed: {
+    subtitle:
+      "You can easily embed a product or a list of products in your blog or other web pages by simply copying and pasting the codes we provide. Although this feature is still in its early stages, we are actively working to expand its functionality beyond what is currently available elsewhere. While it currently offers limited capabilities, we have plans to introduce more templates and customization options in the future.",
+    card: {
+      title: "Minimal",
       description:
-          'Generate the iframe code to display comprehensive product details in an embedded window.',
-    }
+        "Generate HTML code to add product cards in other platforms and HTML pages.",
+    },
+    iframe: {
+      title: "Iframe",
+      description:
+        "Generate the iframe code to display comprehensive product details in an embedded window.",
+    },
   },
-
 
   /**
    * @see BPermissionStaffAddDialog
    */
-  permission_staff_add:{
-    title_new:'New Staff',
-    title_edit:'Edit Staff',
+  permission_staff_add: {
+    title_new: "New Staff",
+    title_edit: "Edit Staff",
 
-    staff:{
-      title:'Add Staff & Access',
-      subtitle:"All users with staff access can log in to your dashboard and see financial information. To add users with limited access, define Role.",
-      go_to_roles:'Go to Roles',
-
+    staff: {
+      title: "Add Staff & Access",
+      subtitle:
+        "All users with staff access can log in to your dashboard and see financial information. To add users with limited access, define Role.",
+      go_to_roles: "Go to Roles",
     },
-    access:{
-      customization_tips:"<b>Customization:</b> Click on each item to customize the default read/write access. Each row represents an access level corresponding to the main shop dashboard.",
-      simplify_tips:'<b>Important!</b> We simplify the access control from over 300 to under 10 levels. More detailed and up-to-date access levels will be published in the documentation.',
-      multi_permission_tips:"<b>Custom limits?</b> You can add more access to one user, so after adding the first access, create additional access with the same steps.",
-      view_data:'View Data',
-      apply_changes:'Apply Changes',
+    access: {
+      customization_tips:
+        "<b>Customization:</b> Click on each item to customize the default read/write access. Each row represents an access level corresponding to the main shop dashboard.",
+      simplify_tips:
+        "<b>Important!</b> We simplify the access control from over 300 to under 10 levels. More detailed and up-to-date access levels will be published in the documentation.",
+      multi_permission_tips:
+        "<b>Custom limits?</b> You can add more access to one user, so after adding the first access, create additional access with the same steps.",
+      view_data: "View Data",
+      apply_changes: "Apply Changes",
     },
 
-    inputs:{
-      email:{
+    inputs: {
+      email: {
         placeholder: "Email",
         label: "User Email Address",
       },
-      level:{
-        label:  "Access level",
-        placeholder:'Select a level...'
-      }
-
+      level: {
+        label: "Access level",
+        placeholder: "Select a level...",
+      },
     },
 
-    actions:{
-
-      add:    "Add Staff",
+    actions: {
+      add: "Add Staff",
     },
     notifications: {
       add_success: {
         title: "Access Granted",
-        message: "New access has been successfully added."
+        message: "New access has been successfully added.",
       },
       update_success: {
         title: "Access Updated",
-        message: "Permissions have been updated successfully."
-      }
-    }
-
+        message: "Permissions have been updated successfully.",
+      },
+    },
   },
 
   /**
    * @see BCategoryEngineEditor
    */
-    category_engine_editor:{
-      title:"Extra Products Listing",
-    subtitle:"Display products from various categories. You have the option to choose multiple categories to showcase products or filter products by tags.",
-    aut_add_sub_categories_tips:"You can automatically add all subcategories to the current category by clicking the button below.",
-    inputs:{
-      categories:{
-        label:"Categories",
-        messages:"Products in these categories will be shown.",
-        placeholder:"Select categories..."
+  category_engine_editor: {
+    title: "Extra Products Listing",
+    subtitle:
+      "Display products from various categories. You have the option to choose multiple categories to showcase products or filter products by tags.",
+    aut_add_sub_categories_tips:
+      "You can automatically add all subcategories to the current category by clicking the button below.",
+    inputs: {
+      categories: {
+        label: "Categories",
+        messages: "Products in these categories will be shown.",
+        placeholder: "Select categories...",
       },
-      tags:{
-        label:'Product tags',
-        messages:"Products with these tags will be show.",
-        placeholder:"Wire tags here and press enter. ex. new collection",
+      tags: {
+        label: "Product tags",
+        messages: "Products with these tags will be show.",
+        placeholder: "Wire tags here and press enter. ex. new collection",
+      },
+    },
+    actions: {
+      save_engine: "Save Engine",
+      auto_add_subcategories: "Auto add sub-categories",
+    },
+  },
+
+  /**
+   * @see SProductsSortView
+   */
+  products_sort_view: {
+    search_tips: {
+      title: "Search Tips",
+      normal:
+        "<b>General Search: </b>Search by Title, MPN, SKU, Brand, or Tags.",
+      product:
+        '<b>Exact Product ID: </b>Use P+Product ID to find a specific product, e.g., <b class="text-green">P</b><i class="text-yellow">360</i>.',
+      quotes:
+        '<b>Exact Phrase: </b>Use quotation marks to search for an exact phrase, e.g., <b class="text-green">"</b><i class="text-yellow">your text here</i><b class="text-green">"</b>.',
+      tax: '<b>Tax Profile: </b>Search for products with a specific tax profile using "tax:", e.g., <b class="text-green">tax:</b><i class="text-yellow">tax profile name</i>.',
+      new_products:
+        '<b>New Products: </b>Find products added within a specific date range, e.g., <b class="text-green">new~</b><i class="text-yellow">2023-08-10</i><b class="text-green">~</b><i class="text-yellow">2023-08-20</i>.',
+    },
+  },
+
+  /**
+   * @see LAugmentForm
+   */
+  augment_form: {
+    title: "Augmentation",
+    subtitle:
+      "Input the key that will be swapped with its corresponding value in the page content. Keys should be max 32 characters.",
+    add_caption: "Add New Item",
+    add_sub_caption: "Add custom key-value pair.",
+    add_dialog: {
+      title: "Select input type",
+      html: {
+        title: "Text & Html",
+        subtitle: "The item's value can be designated as either text or HTML.",
+      },
+      image: {
+        title: "Image",
+        subtitle: "You can upload an image.",
+      },
+    },
+    help_dialog: {
+      title: "How to use dynamic content",
+      how_it_works_tips:
+        "In the landing pages, you have the flexibility to designate dynamic placeholders for both text and images. These placeholders serve a significant role in customizing the content according to the context.   The dynamic nature of these placeholders allows them to be populated by augmentation values, which can vary based on different factors. For example, the augmentation values might be different for each product or category. The real advantage of this feature comes into play when you have a variety of items with differing attributes. You can effectively utilize these dynamic placeholders to personalize and enhance the display of each item, thereby creating a unique and interactive experience on your landing pages.",
+      assign_tips:
+        "To assign dynamic values to images, click on the feeder button located on the left side of the section.",
+      set_dynamic_image_tips:
+        "You now have the ability to modify the image URL and assign it a dynamic value.",
+      enter_values_tips:
+        "For every product, you have the ability to assign dedicated key-value pairs.",
+      result_tips:
+        "This is the final outcome of the page, where placeholders have been substituted with augmented values.",
+    },
+  },
+
+  /**
+   * @see BLogisticProfileEditor
+   */
+  logistic_profile_editor: {
+    languages: {
+      title: "Multi Language",
+      subtitle:
+        "This is the list of content languages. You can set different content for the logistics profile in each language.",
+      add_caption: "Add new article",
+      no_more_language: "No more language!",
+    },
+    content: {
+      title: "Content",
+      subtitle:
+        "You can customize the content for the logistics profile in multiple languages.",
+
+      language_input: "Current article language",
+      delete_article: "Delete Article",
+      menu_tooltip: "Auto translate / Delete article",
+    },
+    translate_to: "Translate to",
+    notifications: {
+      translate: {
+        message: "Article translation completed successfully.",
+      },
+      save_article: {
+        message: "Article has been saved successfully.",
+      },
+      delete_article: {
+        message: "Article has been deleted successfully.",
+      },
+    },
+    delete_dialog: {
+      message: "Are you sure to delete this article for ever?",
+      action: "Yes, delete now",
+    },
+  },
+
+  /**
+   * @see LogisticProfilePage_Products
+   */
+  logistic_profile_products: {
+    title: "Products",
+    subtitle: "List of products associated with this profile.",
+  },
+  /**
+   * @see LogisticProfilePage_Setting
+   */
+  logistic_profile_setting: {
+    title: "General information",
+    inputs: {
+      name: {
+        message:
+          "This name shows to you and will not be revealed to the public.",
+      },
+      accept_delete: {
+        true_description:
+          "This action will remove all articles and profiles links.",
+        true_title: "I verify to remove this connection.",
+      },
+    },
+    actions: {
+      remove: "Remove profile & relations",
+    },
+  },
+
+  /**
+   * @see BPageShopLogisticProfiles
+   */
+  shop_logistic_profiles: {
+    title: "Logistics Profiles",
+    add_caption: "Add new Profile",
+    subtitle:
+      "You can create and edit the warranty and return policy for products here and assign it to any products. You can define different warranty policies for different types of products.",
+    add_dialog: {
+      title: "Create new logistic profile",
+      config: {
+        title: "General information",
+        subtitle:
+          "Choose the profile type. It can be a guide, warranty, or any other content and material commonly shared among multiple products.",
+      },
+      article: {
+        title: "Article",
+        subtitle:
+          "You can add more languages after creating this logistic profile.",
+      },
+      inputs: {
+        name: {
+          message:
+            "This name shows to you and will not be revealed to the public.",
+          placeholder: "Enter a name for the profile...",
+        },
+      },
+    },
+  },
+
+  /**
+   * @see BPageShopLogisticIncludes
+   */
+    shop_logistic_includes: {
+    title:"Included Items Management",
+    add_caption:"Add new item",
+    subtitle:"Here, you can manage the items included in your products. To ensure a flawless appearance for your store, consistently use items with similar image patterns, such as wireframes, across all products.",
+    empty_list_msg:"List of included items...",
+    notifications:{
+      delete:{
+        message:"The item has been deleted.",
+      }
+    },
+    delete_dialog:{
+      title:"Delete included item",
+      message:"Are you certain you want to permanently delete this item? Please note that it will also be removed from all associated products!",
+      action:"Yes, Delete now",
+    },
+    actions:{
+      edit_linked_page:'Edit linked page'
+    }
+
+  },
+
+  /**
+   * @see BIncludeItemAdd
+   */
+    include_item_add: {
+    dialog_title_edit:"Edit included item",
+    dialog_title_add:"Create new included item",
+
+    title:'Included item',
+    subtitle:"Choose a brief title, ideally with 2 to 3 words at most. Use square images, as we will auto-resize uploaded pictures to a 256x256 square format. For the best appearance across all templates, employ minimalistic images with transparent backgrounds and sustain a uniform pattern throughout your products.",
+    inputs:{
+      title:{
+        placeholder:"Concise title displayed on product page..."
+      },
+      code:{
+        placeholder:"Unique code, ex. mobile_cable_usb",
+        hint:"Use this code to streamline the search process for locating items.",
+
+      },
+      description:{
+        placeholder:"A short description about this item...",
+        hint:"Description will be used for SEO and maybe visible to users on some custom layouts in the product page.",
+
+      },
+      image:{
+        message:"Max image size: 1MB"
+      },
+      path:{
+        label:'Page path'
+      }
+    },
+    mode:{
+      no_link:{
+        title: 'No link'
+      },
+      external_link:{
+        title:"External link",
+        description:"Set a link to an external url.",
+        tips:"You can attach any URL to the item. When users click on the item on the product page, they will be redirected to that link."
+      },
+      internal_link:{
+        title: 'Internal link',
+        description:    'Create dynamic page by provided augment data for this item.',
+        tips:"You can link a landing page with the profile and set a custom path and dynamic content for it. Selldone will generate a dynamic link for the item."
       }
 
     },
-    actions:{
-      save_engine:'Save Engine',
-      auto_add_subcategories:'Auto add sub-categories',
-
+    notifications:{
+      add:{
+        message:"The included item has been added successfully."
+      },
+      edit:{
+        message:"The included item has been updated successfully."
+      }
     }
+
+  },
+  /**
+   * @see BPageShopLogisticReturns
+   */
+    shop_logistic_returns: {
+      title:'Returned Orders',
+    subtitle:"Your customers can return their physical orders, and you can view return requests on the order processing page or access a complete list of returned orders here."
 
   },
 
@@ -8083,8 +8438,6 @@ export default {
         "Funds Reversal: Replenishment of vendor's wallet from bank.",
       ],
     },
-
-
 
     /**
      * Email Marketing
