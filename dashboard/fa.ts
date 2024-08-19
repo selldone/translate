@@ -4236,7 +4236,7 @@ export default {
 
   /** {@see BSessionsMap} **/
   shop_session_widget: {
-    total_sessions: "کل کاربران(sessions)",
+    total_sessions: "کل کاربران (سشن ها)",
   },
 
   /** {@see BDashboardShopCustomersActivityMap} **/
