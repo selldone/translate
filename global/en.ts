@@ -779,6 +779,8 @@ export default {
     location_limited:'Location limited',
     no_limit:'No limit',
     max_range:'Max range',
+    settled_date: "Settled Date",
+    paid_date: "Paid Date",
 
   },
   difficulties: {

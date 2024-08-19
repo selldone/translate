@@ -778,7 +778,8 @@ export default {
     location_limited:'محدودیت مکانی',
     no_limit:'بدون محدودیت',
     max_range:'حداکثر محدوده',
-
+    settled_date: "تاریخ تسویه",
+    paid_date: "تاریخ پرداخت",
 
 
 

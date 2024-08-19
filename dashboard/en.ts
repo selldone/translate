@@ -12,6 +12,8 @@
  * Tread carefully, for you're treading on dreams.
  */
 
+import {ReferralTiers} from "../../../src/Applications/Selldone/pages/monetize/referral/tier/ReferralTiers.ts";
+
 export default {
   commons: {
     pay_today: "Today payment",
@@ -5985,9 +5987,123 @@ export default {
     default_home: "Default home page",
     default_home_placeholder: "Shop page is the website home page",
   },
+  /**
+   * @see OReferralBank
+   */
+    referral_bank: {
+    title: "Referral Dashboard",
+    subtitle:"Upon your request, the commission fee will be paid to the bank account specified by you. Please provide your bank information here.",
+    no_bank_info:"No bank info!",
+    actions:{
+      edit_my_bank_info:"Edit My Bank Info"
+    },
+    bank_dialog:{
+      title:"My Bank Details",
+      info:{
+        title:"Bank",
+        subtitle:"Please input your bank information here. We will use this information to transfer funds. Ensure that the bank account is in your name or under your business name, as applicable."
+      },
+      inputs:{
+        name:{
+          label:"Bank Name",
+          message:"The full name of the bank where the account is held."
+        },
+        holder_name:{
+          label:"Account Holder Name",
+          message:"The full name of the person or entity that holds the account."
+        },
+        account_number:{
+          label:"Account Number",
+          message:"The unique number associated with the specific bank account."
+        },
+        routing_number:{
+          label:"Routing Number (USA) or Sort Code (UK)",
+          message:"A number that identifies the specific bank branch (different terms are used in different countries)."
+        },
+        swift:{
+          label:"SWIFT/BIC Code",
+          message:"An international code used to identify banks globally, especially for international transfers."
+        },
+        iban:{
+          label:"IBAN (International Bank Account Number)",
+          message:"Used primarily in Europe, the IBAN is an internationally agreed-upon system for identifying bank accounts across national borders."
+        },
+        contact:{
+          label:"Contact Information",
+          message:"Phone number or email address associated with the account."
+        },
+        note:{
+          label:"Note",
+          message:"Extra note"
+        }
+      }
+
+    },
+    notifications:{
+      save:{
+        message:"Your bank info been successfully updated."
+      }
+    }
+
+  },
+
+  /**
+   * @see OReferralTier
+   */
+    referral_tier: {
+    message:"From all service fees, subscription and other payments made by your referrals."
+  },
+
+  /**
+   * @see ReferralTiers
+   */
+  ReferralTiers: {
+    Bronze: {
+      title: "Tier Bronze",
+      description:
+          "You are in the Bronze Tier. You have earned 2% commission from your referrals.",
+
+    },
+    Silver: {
+      title: "Tier Silver",
+      description:
+          "You are in the Silver Tier. You have earned 4% commission from your referrals.",
+
+    },
+    Gold: {
+      title: "Tier Gold",
+      description:
+          "You are in the Gold Tier. You have earned 6% commission from your referrals.",
+
+    },
+    Platinum: {
+      title: "Tier Platinum",
+      description:
+          "You are in the Platinum Tier. You have earned 8% commission from your referrals.",
+
+
+    },
+    Diamond: {
+      title: "Tier Diamond",
+      description:
+          "You are in the Diamond Tier. You have earned 10% commission from your referrals.",
+
+
+    },
+  },
+
+  /**
+   * @see OPageMonetize
+   */
+    page_monetize: {
+    title:"Monetize",
+    subtitle:"Spread access to business opportunities."
+  },
+
+
   /** {@see OPageMonetizeReferral} **/
   selldone_referral_page: {
-    title: "Referral Dashboard",
+
     referral_link: "Referral link",
     registered: "Registered",
     accepted: "Accepted",
@@ -6001,7 +6117,9 @@ export default {
   },
   /** {@see OReferralTransactions} **/
   selldone_referral_payment: {
-    title: "Referral Payments",
+    title: "Withdrawals",
+    subtitle:"It's the list of withdrawal transactions. When you transfer fund from referral wallet to your bank account or your Selldone wallet, it will be listed here.",
+
     officer: "Officer",
     amount: "Amount transaction",
     note: "Note",
@@ -8410,6 +8528,75 @@ export default {
       title:'Returned Orders',
     subtitle:"Your customers can return their physical orders, and you can view return requests on the order processing page or access a complete list of returned orders here."
 
+  },
+  /**
+   * @see OReferralFees
+   */
+    referral_fees: {
+    title:"Commissions",
+    subtitle:"The list of all commissions you have earned from your referrals. It takes up to 30 days for the commission to be approved and transfer to your wallet.",
+
+  },
+  /**
+   * @see OReferralWallets
+   */
+    referral_wallets: {
+      title:'Wallets',
+    subtitle:"Here you can see the commission fees you have earned. You can transfer your commission fees to your bank account or your Selldone wallet.",
+    no_commission_yet:"You have not received any commission yet.",
+    no_wallet:"No Wallet!",
+
+    withdraw_dialog:{
+      title:"Withdraw Commission Fees",
+
+      need_bank_info_message:"Please enter you bank info first.",
+
+      to_wallet:{
+        title:"To Wallet",
+        subtitle:"With this option, you can transfer commission fees to your Selldone wallet. Please make sure that a wallet is connected as your gift wallet, and that it operates with the same currency."
+      },
+      to_bank:{
+        title:"To Bank",
+        subtitle:"With this option, you can transfer commission fees to your Selldone wallet. Please make sure that a wallet is connected as your gift wallet, and that it operates with the same currency.",
+
+      },
+      inputs:{
+        verify_to_wallet:{
+          true_description:"I want to transfer my commission to my Selldone wallet."
+        },
+        verify_to_bank:{
+          true_description:"I verify my bank info and I want to transfer my commission to my bank account."
+        }
+      },
+      actions:{
+        withdraw_to_wallet:"Withdraw to wallet",
+        withdraw_to_bank:"Withdraw to bank"
+      }
+    },
+    notifications:{
+      request_transfer_to_bank_success:"Your request has been successfully received, and we will review it."
+    }
+  },
+
+  /**
+   * @see OPageMonetizeReferral
+   */
+    monetize_referral: {
+    copy_box:{
+      message:"You can add <b>?ref={code}</b> to any selldone url."
+    },
+      intro:{
+        title:"Join the Selldone Affiliate Program",
+        message:"The Selldone Affiliate Program is simple and straightforward, designed for you to earn effortlessly. Share your unique affiliate link to invite new users to Selldone, and you'll earn a commission from every transaction they make—forever. This includes earnings from subscriptions, service fees, shop upgrades, and all other revenue streams. Start earning a share of the revenue without any limits on time or earnings. Join us and turn your network into a steady income!",
+        why_join_selldone_affiliate:"Why is this a unique opportunity?",
+        reasons:[
+            "It lasts forever!",
+            "Covers all subscription and transaction fees. Literally every payment of the user on Selldone.",
+            "We send a free $99 voucher to anyone who registers using your link.",
+            "When your tier upgrades, you will earn at the new rate from all previously referred users."
+        ]
+
+      }
   },
 
   /**
