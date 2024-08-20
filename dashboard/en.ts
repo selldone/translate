@@ -2124,16 +2124,7 @@ export default {
       in_stock: "In stock",
       edit: "Change",
     },
-    bulk_price_dialog: {
-      title: "Bulk actions > Price",
-      message:
-        "The following amount will apply as a percentage to the price of all products in your store. Also, the calculated price values will be intelligently converted to the closest round number based on the selected currency.Be careful in entering the values.",
-      check: "I approve price changes.",
-      add_percent_tab: "Add Percent",
-      add_constant_tab: "Add Constant",
-      ending_tab: "Ending strategy",
-      marketplace_listing_price:'Listing Price',
-    },
+
     bulk_discount_dialog: {
       title: "Bulk actions > Discount",
       message:
@@ -2144,6 +2135,57 @@ export default {
       save_success: "Inventory change saved.",
     },
   },
+
+  /**
+   * @see BInventoryBulkPrice
+   */
+  bulk_price_dialog: {
+    title: "Bulk actions > Price",
+    message:
+        "The following amount will apply as a percentage to the price of all products in your store. Also, the calculated price values will be intelligently converted to the closest round number based on the selected currency.Be careful in entering the values.",
+    check: "I approve price changes.",
+    check_description:"The price will be changed for the selected category and all subcategories.",
+    add_percent_tab: "Add Percent",
+    add_constant_tab: "Add Constant",
+    ending_tab: "Ending strategy",
+    marketplace_listing_price:'Listing Price',
+
+    constant:{
+      subtitle:"The amount will be added or subtracted from the current price of products."
+    },
+    ending:{
+      subtitle:"The ending of the current price of products will be changed to the specified value."
+    },
+    marketplace:{
+      title:"Marketplace Listing Price",
+      subtitle:"This option allows you to automatically update the listing price of products in the marketplace. Occasionally, the main product price may not align with vendor pricing due to manual price changes.",
+      strategy:{
+        min:{
+          title:'Set Minimum Price',
+          description: 'Set the minimum price of the product as the listing price.',
+        },
+        max:{
+          title: 'Set Maximum Price',
+          description:
+              'Set the maximum price of the product as the listing price.',
+        }
+      }
+    },
+
+    category:{
+      subtitle:"Limit bulk action to a category and all subcategories."
+    },
+    vendor:{
+      subtitle:"Limit bulk actions to a specific vendor. When a vendor is selected, the price update will be applied to the vendor's products, which represents the selling price for that vendor.",
+      listing_price_need_update_msg:"If you want to update the listing price (the price displayed in the product list), you should resubmit the bulk update with the same filters but without selecting a vendor."
+    },
+    listing_products_changes:"Listing products change",
+    total_vendor_products:"Total vendor products",
+    total_products:"Total products",
+    total_variants:"Total variants"
+
+  },
+
 
   /** {@see BProductSpecTable} **/
   spec_view: {
