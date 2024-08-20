@@ -781,6 +781,15 @@ export default {
     max_range:'Max range',
     settled_date: "Settled Date",
     paid_date: "Paid Date",
+    physical_orders:"Physical orders",
+    virtual_orders:"Virtual orders",
+    file_orders:"File orders",
+    service_orders:"Service orders",
+    subscription_orders:"Subscription orders",
+    avocado_orders:"Avocado orders",
+    hyper_orders:"Hyper orders",
+    pos_orders:"POS orders",
+
 
   },
   difficulties: {

@@ -780,7 +780,14 @@ export default {
     max_range:'حداکثر محدوده',
     settled_date: "تاریخ تسویه",
     paid_date: "تاریخ پرداخت",
-
+    "physical_orders": "سفارش‌های فیزیکی",
+    "virtual_orders": "سفارش‌های مجازی",
+    "file_orders": "سفارش‌های فایل",
+    "service_orders": "سفارش‌های خدمات",
+    "subscription_orders": "سفارش‌های اشتراک",
+    "avocado_orders": "سفارش‌های آووکادو",
+    "hyper_orders": "سفارش‌های هایپر",
+    "pos_orders": "سفارش‌های صندوق"
 
 
   },
