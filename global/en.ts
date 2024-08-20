@@ -788,8 +788,10 @@ export default {
     subscription_orders:"Subscription orders",
     avocado_orders:"Avocado orders",
     hyper_orders:"Hyper orders",
-    pos_orders:"POS orders",
-
+    connected: "Connected",
+    system: "System",
+    unknown:"Unknown",
+    week: "Week",
 
   },
   difficulties: {
@@ -941,6 +943,9 @@ export default {
     rate_now:'Rate Now',
     load:'Load',
     duplicate:'Duplicate',
+    connect:'Connect',
+    connect_now:'Connect Now',
+    verify_now: "Verify now",
 
   },
   /** @see BillingPeriod **/

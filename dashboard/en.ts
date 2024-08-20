@@ -834,26 +834,33 @@ export default {
         title: "Warehouses",
         subtitle: "List of my warehouses.",
       },
-      restriction:{
-        title:'Shipping restriction',
-        subtitle:"You can implement restrictions to ensure that only customers within the designated shipping areas can make purchases from you!",
-        no_enable_shipping_error:"No one can buy from you because you have no enabled shipping method!",
-        customer_must_select_a_shipping_msg:"Customer must select a shipping method to place order.",
-        customer_can_order_without_shipping_method_msg:"Customer can place the order even if no shipping method supported for the selected location.",
-        inputs:{
-          restriction:{
-            false_description:"Customers can still place orders even if no specific shipping method has been selected.",
-            false_title:"Accept all orders",
-            true_title:"Restricted accept order",
-            true_description:"Customers are required to choose either a shipping or pickup option in order to complete their purchase."
-          }
-        }
+      restriction: {
+        title: "Shipping restriction",
+        subtitle:
+          "You can implement restrictions to ensure that only customers within the designated shipping areas can make purchases from you!",
+        no_enable_shipping_error:
+          "No one can buy from you because you have no enabled shipping method!",
+        customer_must_select_a_shipping_msg:
+          "Customer must select a shipping method to place order.",
+        customer_can_order_without_shipping_method_msg:
+          "Customer can place the order even if no shipping method supported for the selected location.",
+        inputs: {
+          restriction: {
+            false_description:
+              "Customers can still place orders even if no specific shipping method has been selected.",
+            false_title: "Accept all orders",
+            true_title: "Restricted accept order",
+            true_description:
+              "Customers are required to choose either a shipping or pickup option in order to complete their purchase.",
+          },
+        },
       },
 
       warehouse_btn: "Add new warehouse",
       warehouse_btn_error:
         "Set your warehouse, store, or origin of your business. It's vital to have in the shipping cost calculation and checkout process.",
-      no_multi_warehouse_support_message:"For simplicity, this feature is not available in normal stores.",
+      no_multi_warehouse_support_message:
+        "For simplicity, this feature is not available in normal stores.",
       size_unit: {
         title: "Size unit",
         subtitle: "The unit used for length, width and height.",
@@ -1699,6 +1706,17 @@ export default {
         title: "Add extra pricing",
         subtitle: "Apply varying prices based on the quantity purchased.",
       },
+
+      vendor: {
+        title: "Vendor pricing",
+        subtitle:
+          "This price will be shown only in the products listing. You can set vendor price in the Product > Vendors tab.",
+        manage_vendors: "Manage Vendors",
+        vendor_product_pricing_link:
+          "The vendor's product pricing is connected. Changing the listing price here will affect vendor products without variants or those with variants that don't have their own pricing (using the same price as the main product). This price will be treated as the marketplace price, and the vendor's price will be set based on the pricing model or the previous marketplace profit margin.",
+        vendor_variant_pricing_link:
+          "Changing the variant price here will affect the pricing of vendor products with the same variant. This price will be considered the marketplace price, and the vendor's price will be set according to the pricing model or the previous marketplace profit margin.",
+      },
     },
     /** {@see ProductEditInputs} **/
     inputs_edit: {
@@ -1709,6 +1727,8 @@ export default {
       message_input_message:
         "This message will be shown to the customer when purchasing products.",
       inputs_form: "Input Form Structure",
+      inputs_hint:
+        "You have the option to set up a personalized form to gather details from your customers when they're ready to place an order.",
     },
 
     /** {@see BProductEditExtra} **/
@@ -1722,6 +1742,15 @@ export default {
       notifications: {
         save_title: "Packaging Updated",
         save_msg: "Product packaging information updated successfully.",
+      },
+
+      order_limit: {
+        title: "Order limits",
+        subtitle:
+          "If you're a wholesaler or there's a minimum or maximum limit on the quantity of this item per order, you can specify that here.",
+        no_limit: "No Limit",
+        minimum_purchase_quantity: "Minimum purchase quantity",
+        maximum_purchase_quantity: "Maximum purchase quantity",
       },
     },
 
@@ -1815,6 +1844,184 @@ export default {
 
       subscription_tips:
         "When you select a tax profile for subscription product, we update<code>tax code</code> and set inclusive/exclusive mode on your payment service provider. The selected tax profile specifies whether the price is considered inclusive of taxes or exclusive of taxes. One of <code>inclusive</code> or <code>exclusive</code>. Once specified as either inclusive or exclusive, it cannot be changed.<br /><br /><b>Important!</b> After changing the tax profile, you should click on pricing plans on the Product > Inventory tab and click the Save button to apply changes.",
+    },
+  },
+
+  /**
+   * @see BProductVendorAbstractView
+   */
+  product_vendor_profile: {
+    vendor: {
+      subtitle:
+        "The price and quantity of this product are set by a particular vendor to whom it belongs.",
+    },
+    vendors: {
+      subtitle:
+        "Here's a list of suppliers for the product. The quantity and price will be set by the suppliers.",
+    },
+  },
+  /**
+   * @see BVendorAdd
+   */
+    vendor_add: {
+    profile:{
+      title:'Vendor info',
+      subtitle:"This information is shown to customers publicly.",
+      action_sub_caption:'Public products listing page.',
+      action_see_listing_page: 'See Listing Page',
+
+    },
+    page:{
+      title:"Custom page",
+      subtitle:"Set a custom landing page for the vendor, providing them with a unique link to their dedicated page.",
+      action_set_page:'See Public Page',
+      action_sub_caption:'Custom landing page.',
+      vendor_has_landing_msg:"Vendor has a custom landing page.",
+      no_landing_selected_msg:"No landing page selected.",
+      no_landing_page:'No landing page',
+      we_can_create_dedicated_landing_msg:"We can create a dedicated landing page for you."
+    },
+    contact:{
+      title:"Contact info",
+      subtitle:"Kindly provide valid contact details.",
+    },
+    business:{
+      title:"Business info",
+      subtitle:"Please provide accurate information about your business to ensure a swift and seamless revenue collection process.",
+
+    },
+    bank:{
+      title:"Payout Information",
+      subtitle:"Input your bank details here for payouts.",
+    },
+    default_pricing:{
+      title:'Default Pricing',
+      subtitle:"You can assign a default pricing model for the vendor. When the vendor adds a new product, this pricing model will be used to calculate the marketplace margin on the product's price. You can later adjust the pricing model for each product individually.",
+      no_pricing:"No pricing",
+    },
+    shipping:{
+      title:"Shipping",
+      subtitle:"Vendors can setup their own shipping services and couriers.",
+      shipping_services:'Shipping Services',
+      total_number_of_services:"The total number of shipping services that the vendor has.",
+      couriers:"Couriers",
+      total_couriers_count:"The total number of couriers that the vendor has."
+    },
+    configuration:{
+      title:'Configuration'
+    },
+    delete:{
+      title:"Remove vendor",
+      action:"Remove vendor",
+      verify_description:"I know that all vendor product relations will be removed!",
+      verify_title:"I want to delete this vendor."
+
+    },
+
+
+    send_invitation_tips:"We will send an invitation email to this user. If the user joins your shop as a vendor, their account will be automatically assigned to them.",
+    only_marketplace_owner_can_edit_user:"Only the marketplace owner can edit the user. If you want to change the owner of this vendor, you can send the request to us.",
+    vendor_is_disable_msg:'Vendor is disabled.',
+    email_not_match_with_user_msg:"Entered email does not match with user's email (<b>{user_name}:</b>{user_email}). Are you sure to send emails to<b>{email}</b>?",
+    we_will_send_invitation_to_user_msg:"We will send an invitation email to the user.",
+    set_a_user_for_the_vendor_first_msg:'Set a user for the vendor first.',
+
+    inputs:{
+      slug:{
+        label:'Path',
+        placeholder:"Enter a custom path...",
+        hint:"Change the path the vendor's dynamic landing page."
+      },
+      email:{
+        message:"This email will receive all notifications and updates."
+      },
+      business:{
+        false_description:'I work as an individual.',
+        true_description:"I operate as a legally recognized business entity.",
+        false_title:'Individual',
+        true_title:'Business'
+      },
+      bank:{
+        hint:"The name of the bank where the vendor has their account.",
+        placeholder:"Your bank name..",
+
+      },
+      account_name:{
+        hint:"This should match the name associated with the bank account.",
+        placeholder:"Your name.."
+      },
+      account_number:{
+        hint:"The vendor's unique account number.",
+        placeholder:"Your bank account number.."
+      },
+      routing_number:{
+        hint:"This number varies by country. It's used to identify the specific bank branch the vendor uses.",
+        placeholder:"Your bank routing number, sort code, or BSB number.."
+      },
+      iban:{
+        hint:"International Bank Account Number): If the vendor's bank is in Europe or certain other countries.",
+        placeholder:"Your IBAN number..  eg. DE89 3704 0044 0000 0000 00"
+      },
+      swift:{
+        hint:"International Bank Account Number): If the vendor's bank is in Europe or certain other countries.",
+        placeholder:"Your Swift code/BIC.."
+      },
+      branch_address:{
+        hint:"The address of the bank branch where the vendor has their account.",
+        placeholder:"Your bank address.."
+      },
+      enable:{
+        label:"Vendor status",
+        hint:"You can enable or disable vendors globally. Customers will not be able to purchase anything from disabled vendors.",
+        true_description:'They will be able to sell their products through your marketplace.',
+
+      },
+      access:{
+        label:"Vendor panel & access",
+        true_description:"The vendor has a dedicated panel to update quantity and price.",
+        hint:"You can enable or disable the vendor panel, which allows vendors to update product quantities and prices and receive partial orders.",
+        false_description:"The vendor has no access to anything.",
+
+      }
+    }
+  },
+
+  /**
+   * @see BVendorDocumentsList
+   */
+    vendor_documents_list: {
+    title:"Documents",
+    action_upload_doc:"Upload Doc",
+    vendor_subtitle:"Please upload the necessary business, IP, and address verification documents. We require this information to confirm your partnership and provide you with the necessary access.",
+    marketplace_subtitle:"Vendors can submit documents such as business, intellectual property, and address verification to facilitate their KYC process, allowing you to grant them the appropriate access.",
+    upload_dialog:{
+      title:"Upload Document",
+      type:{
+        title:'Document Type',
+        subtitle:"Please upload only the necessary documents. Avoid sharing any documents that contain sensitive information. We request documents that are publicly available.",
+
+      }
+    }
+
+  },
+
+
+
+  /**
+   * @see VPageVendorShippingServices
+   */
+  vendor_shipping_services: {
+    title: "Shipping",
+    subtitle:
+      "You can add shipping services and couriers here. The shipping services and couriers should be under predefined transportation methods defined by the marketplace. By adding shipping services and couriers, you can easily assign orders to them and automatically order labels or couriers.",
+    action: "Add Service",
+    add_dialog: {
+      select_method: "Select Method",
+      select_method_msg:
+        "Please select a transportation method from the following list. Shipping methods define by the marketplace.",
+      select_service_msg:
+        "Choose a shipping service from the list below. Only the available services that can be added to your store are displayed here.",
+      no_available_service: "No available service!",
     },
   },
 
@@ -2024,19 +2231,38 @@ export default {
     },
   }, // product_admin
 
+  /**
+   * @see TransportationsEligibleView
+   */
+  transportation_eligible: {
+    subtitle:
+      "Shipping services available depend on the provided size and weight.",
+  },
+
   /** {@see BProductExtraInput} **/
   product_extra_physical: {
     weight: "Package weight",
+    weight_subtitle:
+      "Input the product's total packaging weight here. This information helps choose the right shipping method and ensures the order doesn't surpass the shipping limit.",
     weight_unit: "Kg",
     size: "Package Dimensions",
+    size_subtitle:
+      "Input the product's full packaging size here. This information is used to choose the correct shipping method and ensure the order doesn't exceed the parcel size limit.",
+
     dimension: "Cm",
     width: "Width",
     length: "Length",
     height: "Height",
     lead_time_title: "Preparation time",
     lead_time: "Preparation time",
+    lead_time_subtitle:
+      "Lead time estimates the duration required to prepare a product for shipping, which helps in estimating the delivery time.",
+
     lead_time_dimension: "Hour(s)",
     bulk_action: "Bulk Actions",
+    bulk_action_subtitle:
+      "You can apply the packaging information to all product variants.",
+
     bulk_action_input: "Update all variants",
     bulk_action_msg:
       "Set product packaging and preparation time for all variants.",
@@ -2142,54 +2368,60 @@ export default {
   bulk_price_dialog: {
     title: "Bulk actions > Price",
     message:
-        "The following amount will apply as a percentage to the price of all products in your store. Also, the calculated price values will be intelligently converted to the closest round number based on the selected currency.Be careful in entering the values.",
+      "The following amount will apply as a percentage to the price of all products in your store. Also, the calculated price values will be intelligently converted to the closest round number based on the selected currency.Be careful in entering the values.",
     check: "I approve price changes.",
-    check_description:"The price will be changed for the selected category and all subcategories.",
+    check_description:
+      "The price will be changed for the selected category and all subcategories.",
     add_percent_tab: "Add Percent",
     add_constant_tab: "Add Constant",
     ending_tab: "Ending strategy",
-    marketplace_listing_price:'Listing Price',
+    marketplace_listing_price: "Listing Price",
 
-    constant:{
-      subtitle:"The amount will be added or subtracted from the current price of products."
+    constant: {
+      subtitle:
+        "The amount will be added or subtracted from the current price of products.",
     },
-    ending:{
-      subtitle:"The ending of the current price of products will be changed to the specified value."
+    ending: {
+      subtitle:
+        "The ending of the current price of products will be changed to the specified value.",
     },
-    marketplace:{
-      title:"Marketplace Listing Price",
-      subtitle:"This option allows you to automatically update the listing price of products in the marketplace. Occasionally, the main product price may not align with vendor pricing due to manual price changes.",
-      strategy:{
-        min:{
-          title:'Set Minimum Price',
-          description: 'Set the minimum price of the product as the listing price.',
-        },
-        max:{
-          title: 'Set Maximum Price',
+    marketplace: {
+      title: "Marketplace Listing Price",
+      subtitle:
+        "This option allows you to automatically update the listing price of products in the marketplace. Occasionally, the main product price may not align with vendor pricing due to manual price changes.",
+      strategy: {
+        min: {
+          title: "Set Minimum Price",
           description:
-              'Set the maximum price of the product as the listing price.',
-        }
-      }
+            "Set the minimum price of the product as the listing price.",
+        },
+        max: {
+          title: "Set Maximum Price",
+          description:
+            "Set the maximum price of the product as the listing price.",
+        },
+      },
     },
 
-    category:{
-      subtitle:"Limit bulk action to a category and all subcategories."
+    category: {
+      subtitle: "Limit bulk action to a category and all subcategories.",
     },
-    vendor:{
-      subtitle:"Limit bulk actions to a specific vendor. When a vendor is selected, the price update will be applied to the vendor's products, which represents the selling price for that vendor.",
-      listing_price_need_update_msg:"If you want to update the listing price (the price displayed in the product list), you should resubmit the bulk update with the same filters but without selecting a vendor."
+    vendor: {
+      subtitle:
+        "Limit bulk actions to a specific vendor. When a vendor is selected, the price update will be applied to the vendor's products, which represents the selling price for that vendor.",
+      listing_price_need_update_msg:
+        "If you want to update the listing price (the price displayed in the product list), you should resubmit the bulk update with the same filters but without selecting a vendor.",
     },
-    listing_products_changes:"Listing products change",
-    total_vendor_products:"Total vendor products",
-    total_products:"Total products",
-    total_variants:"Total variants"
-
+    listing_products_changes: "Listing products change",
+    total_vendor_products: "Total vendor products",
+    total_products: "Total products",
+    total_variants: "Total variants",
   },
-
 
   /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "Auto save",
+    auto_save_input_message: "Changes will be saved automatically.",
   },
 
   /** {@see STimeProgressBar} **/
@@ -3399,6 +3631,75 @@ export default {
       charge_tooltip: "Charge vendor wallet.",
       withdraw_tooltip: "Withdraw from vendor wallet.",
       payout_tooltip: "Payout to the vendor.",
+    },
+  },
+
+  /**
+   * @see VPageVendorDashboard
+   */
+  vendor_dashboard: {
+    info: {
+      subtitle: "Marketplace information.",
+    },
+    performance: {
+      subtitle: "My sales performance.",
+    },
+    products: {
+      title: "Products",
+      subtitle:
+        "Here you can view the count of your products listed on the marketplace. Products by multiple vendors are not included.",
+    },
+    wallets: {
+      title: "My wallets",
+      subtitle:
+        "You don't need to add wallets manually! Vendor wallets will be created automatically.",
+    },
+
+    open_marketplace_page: "Open marketplace page",
+    open_my_store_page: "Open my store page",
+    open_my_listing_page: "Open my listing page",
+    add_products_permission: "Add products permission",
+    add_categories_permission: "Add categories permission",
+  },
+
+  /**
+   * @see VPageVendorInventory
+   */
+  vendor_inventory: {
+    title: "Products list",
+    subtitle:
+      "This is a list of your products in the marketplace. Update prices and quantities for your assigned products in the inventory. As a vendor, you'll only see single-vendor products you own in the product list. Other assigned products can be modified here as well.",
+  },
+
+  /**
+   * @see VPageVendorPayments
+   */
+  vendor_payments: {
+    list: {
+      title: "Payout history",
+      subtitle:
+        "You can view your payout history here. These payouts may be processed manually through bank transfers or automatically using payment services that offer payout capabilities.",
+    },
+    connect: {
+      title: "Connect bank",
+      subtitle:
+        "We offer split payment capabilities for the following payment gateways. To receive payments seamlessly after each purchase, please connect your bank account using these options.",
+    },
+    verify_dialog: {
+      title: "Verify payment",
+      option: {
+        title: "Vendor action",
+        subtitle:
+          "You have the option to accept or reject this transfer. This action serves as a historical record only. Simply confirm if you have received the funds; if not, there's no need to take any action.",
+      },
+      inputs: {
+        verify: {
+          label: "Have you confirmed this payment?",
+          false_description:
+            "No, I have not yet received this payment in my bank account.",
+          true_description: "Yes, I have received and verified this payment.",
+        },
+      },
     },
   },
 
@@ -6033,68 +6334,74 @@ export default {
   /**
    * @see OReferralBank
    */
-    referral_bank: {
+  referral_bank: {
     title: "Referral Dashboard",
-    subtitle:"Upon your request, the commission fee will be paid to the bank account specified by you. Please provide your bank information here.",
-    no_bank_info:"No bank info!",
-    actions:{
-      edit_my_bank_info:"Edit My Bank Info"
+    subtitle:
+      "Upon your request, the commission fee will be paid to the bank account specified by you. Please provide your bank information here.",
+    no_bank_info: "No bank info!",
+    actions: {
+      edit_my_bank_info: "Edit My Bank Info",
     },
-    bank_dialog:{
-      title:"My Bank Details",
-      info:{
-        title:"Bank",
-        subtitle:"Please input your bank information here. We will use this information to transfer funds. Ensure that the bank account is in your name or under your business name, as applicable."
+    bank_dialog: {
+      title: "My Bank Details",
+      info: {
+        title: "Bank",
+        subtitle:
+          "Please input your bank information here. We will use this information to transfer funds. Ensure that the bank account is in your name or under your business name, as applicable.",
       },
-      inputs:{
-        name:{
-          label:"Bank Name",
-          message:"The full name of the bank where the account is held."
+      inputs: {
+        name: {
+          label: "Bank Name",
+          message: "The full name of the bank where the account is held.",
         },
-        holder_name:{
-          label:"Account Holder Name",
-          message:"The full name of the person or entity that holds the account."
+        holder_name: {
+          label: "Account Holder Name",
+          message:
+            "The full name of the person or entity that holds the account.",
         },
-        account_number:{
-          label:"Account Number",
-          message:"The unique number associated with the specific bank account."
+        account_number: {
+          label: "Account Number",
+          message:
+            "The unique number associated with the specific bank account.",
         },
-        routing_number:{
-          label:"Routing Number (USA) or Sort Code (UK)",
-          message:"A number that identifies the specific bank branch (different terms are used in different countries)."
+        routing_number: {
+          label: "Routing Number (USA) or Sort Code (UK)",
+          message:
+            "A number that identifies the specific bank branch (different terms are used in different countries).",
         },
-        swift:{
-          label:"SWIFT/BIC Code",
-          message:"An international code used to identify banks globally, especially for international transfers."
+        swift: {
+          label: "SWIFT/BIC Code",
+          message:
+            "An international code used to identify banks globally, especially for international transfers.",
         },
-        iban:{
-          label:"IBAN (International Bank Account Number)",
-          message:"Used primarily in Europe, the IBAN is an internationally agreed-upon system for identifying bank accounts across national borders."
+        iban: {
+          label: "IBAN (International Bank Account Number)",
+          message:
+            "Used primarily in Europe, the IBAN is an internationally agreed-upon system for identifying bank accounts across national borders.",
         },
-        contact:{
-          label:"Contact Information",
-          message:"Phone number or email address associated with the account."
+        contact: {
+          label: "Contact Information",
+          message: "Phone number or email address associated with the account.",
         },
-        note:{
-          label:"Note",
-          message:"Extra note"
-        }
-      }
-
+        note: {
+          label: "Note",
+          message: "Extra note",
+        },
+      },
     },
-    notifications:{
-      save:{
-        message:"Your bank info been successfully updated."
-      }
-    }
-
+    notifications: {
+      save: {
+        message: "Your bank info been successfully updated.",
+      },
+    },
   },
 
   /**
    * @see OReferralTier
    */
-    referral_tier: {
-    message:"From all service fees, subscription and other payments made by your referrals."
+  referral_tier: {
+    message:
+      "From all service fees, subscription and other payments made by your referrals.",
   },
 
   /**
@@ -6104,49 +6411,40 @@ export default {
     Bronze: {
       title: "Tier Bronze",
       description:
-          "You are in the Bronze Tier. You have earned 2% commission from your referrals.",
-
+        "You are in the Bronze Tier. You have earned 2% commission from your referrals.",
     },
     Silver: {
       title: "Tier Silver",
       description:
-          "You are in the Silver Tier. You have earned 4% commission from your referrals.",
-
+        "You are in the Silver Tier. You have earned 4% commission from your referrals.",
     },
     Gold: {
       title: "Tier Gold",
       description:
-          "You are in the Gold Tier. You have earned 6% commission from your referrals.",
-
+        "You are in the Gold Tier. You have earned 6% commission from your referrals.",
     },
     Platinum: {
       title: "Tier Platinum",
       description:
-          "You are in the Platinum Tier. You have earned 8% commission from your referrals.",
-
-
+        "You are in the Platinum Tier. You have earned 8% commission from your referrals.",
     },
     Diamond: {
       title: "Tier Diamond",
       description:
-          "You are in the Diamond Tier. You have earned 10% commission from your referrals.",
-
-
+        "You are in the Diamond Tier. You have earned 10% commission from your referrals.",
     },
   },
 
   /**
    * @see OPageMonetize
    */
-    page_monetize: {
-    title:"Monetize",
-    subtitle:"Spread access to business opportunities."
+  page_monetize: {
+    title: "Monetize",
+    subtitle: "Spread access to business opportunities.",
   },
-
 
   /** {@see OPageMonetizeReferral} **/
   selldone_referral_page: {
-
     referral_link: "Referral link",
     registered: "Registered",
     accepted: "Accepted",
@@ -6161,7 +6459,8 @@ export default {
   /** {@see OReferralTransactions} **/
   selldone_referral_payment: {
     title: "Withdrawals",
-    subtitle:"It's the list of withdrawal transactions. When you transfer fund from referral wallet to your bank account or your Selldone wallet, it will be listed here.",
+    subtitle:
+      "It's the list of withdrawal transactions. When you transfer fund from referral wallet to your bank account or your Selldone wallet, it will be listed here.",
 
     officer: "Officer",
     amount: "Amount transaction",
@@ -8487,159 +8786,163 @@ export default {
   /**
    * @see BPageShopLogisticIncludes
    */
-    shop_logistic_includes: {
-    title:"Included Items Management",
-    add_caption:"Add new item",
-    subtitle:"Here, you can manage the items included in your products. To ensure a flawless appearance for your store, consistently use items with similar image patterns, such as wireframes, across all products.",
-    empty_list_msg:"List of included items...",
-    notifications:{
-      delete:{
-        message:"The item has been deleted.",
-      }
+  shop_logistic_includes: {
+    title: "Included Items Management",
+    add_caption: "Add new item",
+    subtitle:
+      "Here, you can manage the items included in your products. To ensure a flawless appearance for your store, consistently use items with similar image patterns, such as wireframes, across all products.",
+    empty_list_msg: "List of included items...",
+    notifications: {
+      delete: {
+        message: "The item has been deleted.",
+      },
     },
-    delete_dialog:{
-      title:"Delete included item",
-      message:"Are you certain you want to permanently delete this item? Please note that it will also be removed from all associated products!",
-      action:"Yes, Delete now",
+    delete_dialog: {
+      title: "Delete included item",
+      message:
+        "Are you certain you want to permanently delete this item? Please note that it will also be removed from all associated products!",
+      action: "Yes, Delete now",
     },
-    actions:{
-      edit_linked_page:'Edit linked page'
-    }
-
+    actions: {
+      edit_linked_page: "Edit linked page",
+    },
   },
 
   /**
    * @see BIncludeItemAdd
    */
-    include_item_add: {
-    dialog_title_edit:"Edit included item",
-    dialog_title_add:"Create new included item",
+  include_item_add: {
+    dialog_title_edit: "Edit included item",
+    dialog_title_add: "Create new included item",
 
-    title:'Included item',
-    subtitle:"Choose a brief title, ideally with 2 to 3 words at most. Use square images, as we will auto-resize uploaded pictures to a 256x256 square format. For the best appearance across all templates, employ minimalistic images with transparent backgrounds and sustain a uniform pattern throughout your products.",
-    inputs:{
-      title:{
-        placeholder:"Concise title displayed on product page..."
+    title: "Included item",
+    subtitle:
+      "Choose a brief title, ideally with 2 to 3 words at most. Use square images, as we will auto-resize uploaded pictures to a 256x256 square format. For the best appearance across all templates, employ minimalistic images with transparent backgrounds and sustain a uniform pattern throughout your products.",
+    inputs: {
+      title: {
+        placeholder: "Concise title displayed on product page...",
       },
-      code:{
-        placeholder:"Unique code, ex. mobile_cable_usb",
-        hint:"Use this code to streamline the search process for locating items.",
-
+      code: {
+        placeholder: "Unique code, ex. mobile_cable_usb",
+        hint: "Use this code to streamline the search process for locating items.",
       },
-      description:{
-        placeholder:"A short description about this item...",
-        hint:"Description will be used for SEO and maybe visible to users on some custom layouts in the product page.",
-
+      description: {
+        placeholder: "A short description about this item...",
+        hint: "Description will be used for SEO and maybe visible to users on some custom layouts in the product page.",
       },
-      image:{
-        message:"Max image size: 1MB"
+      image: {
+        message: "Max image size: 1MB",
       },
-      path:{
-        label:'Page path'
-      }
+      path: {
+        label: "Page path",
+      },
     },
-    mode:{
-      no_link:{
-        title: 'No link'
+    mode: {
+      no_link: {
+        title: "No link",
       },
-      external_link:{
-        title:"External link",
-        description:"Set a link to an external url.",
-        tips:"You can attach any URL to the item. When users click on the item on the product page, they will be redirected to that link."
+      external_link: {
+        title: "External link",
+        description: "Set a link to an external url.",
+        tips: "You can attach any URL to the item. When users click on the item on the product page, they will be redirected to that link.",
       },
-      internal_link:{
-        title: 'Internal link',
-        description:    'Create dynamic page by provided augment data for this item.',
-        tips:"You can link a landing page with the profile and set a custom path and dynamic content for it. Selldone will generate a dynamic link for the item."
-      }
-
+      internal_link: {
+        title: "Internal link",
+        description:
+          "Create dynamic page by provided augment data for this item.",
+        tips: "You can link a landing page with the profile and set a custom path and dynamic content for it. Selldone will generate a dynamic link for the item.",
+      },
     },
-    notifications:{
-      add:{
-        message:"The included item has been added successfully."
+    notifications: {
+      add: {
+        message: "The included item has been added successfully.",
       },
-      edit:{
-        message:"The included item has been updated successfully."
-      }
-    }
-
+      edit: {
+        message: "The included item has been updated successfully.",
+      },
+    },
   },
   /**
    * @see BPageShopLogisticReturns
    */
-    shop_logistic_returns: {
-      title:'Returned Orders',
-    subtitle:"Your customers can return their physical orders, and you can view return requests on the order processing page or access a complete list of returned orders here."
-
+  shop_logistic_returns: {
+    title: "Returned Orders",
+    subtitle:
+      "Your customers can return their physical orders, and you can view return requests on the order processing page or access a complete list of returned orders here.",
   },
   /**
    * @see OReferralFees
    */
-    referral_fees: {
-    title:"Commissions",
-    subtitle:"The list of all commissions you have earned from your referrals. It takes up to 30 days for the commission to be approved and transfer to your wallet.",
-
+  referral_fees: {
+    title: "Commissions",
+    subtitle:
+      "The list of all commissions you have earned from your referrals. It takes up to 30 days for the commission to be approved and transfer to your wallet.",
   },
   /**
    * @see OReferralWallets
    */
-    referral_wallets: {
-      title:'Wallets',
-    subtitle:"Here you can see the commission fees you have earned. You can transfer your commission fees to your bank account or your Selldone wallet.",
-    no_commission_yet:"You have not received any commission yet.",
-    no_wallet:"No Wallet!",
+  referral_wallets: {
+    title: "Wallets",
+    subtitle:
+      "Here you can see the commission fees you have earned. You can transfer your commission fees to your bank account or your Selldone wallet.",
+    no_commission_yet: "You have not received any commission yet.",
+    no_wallet: "No Wallet!",
 
-    withdraw_dialog:{
-      title:"Withdraw Commission Fees",
+    withdraw_dialog: {
+      title: "Withdraw Commission Fees",
 
-      need_bank_info_message:"Please enter you bank info first.",
+      need_bank_info_message: "Please enter you bank info first.",
 
-      to_wallet:{
-        title:"To Wallet",
-        subtitle:"With this option, you can transfer commission fees to your Selldone wallet. Please make sure that a wallet is connected as your gift wallet, and that it operates with the same currency."
+      to_wallet: {
+        title: "To Wallet",
+        subtitle:
+          "With this option, you can transfer commission fees to your Selldone wallet. Please make sure that a wallet is connected as your gift wallet, and that it operates with the same currency.",
       },
-      to_bank:{
-        title:"To Bank",
-        subtitle:"With this option, you can transfer commission fees to your Selldone wallet. Please make sure that a wallet is connected as your gift wallet, and that it operates with the same currency.",
-
+      to_bank: {
+        title: "To Bank",
+        subtitle:
+          "With this option, you can transfer commission fees to your Selldone wallet. Please make sure that a wallet is connected as your gift wallet, and that it operates with the same currency.",
       },
-      inputs:{
-        verify_to_wallet:{
-          true_description:"I want to transfer my commission to my Selldone wallet."
+      inputs: {
+        verify_to_wallet: {
+          true_description:
+            "I want to transfer my commission to my Selldone wallet.",
         },
-        verify_to_bank:{
-          true_description:"I verify my bank info and I want to transfer my commission to my bank account."
-        }
+        verify_to_bank: {
+          true_description:
+            "I verify my bank info and I want to transfer my commission to my bank account.",
+        },
       },
-      actions:{
-        withdraw_to_wallet:"Withdraw to wallet",
-        withdraw_to_bank:"Withdraw to bank"
-      }
+      actions: {
+        withdraw_to_wallet: "Withdraw to wallet",
+        withdraw_to_bank: "Withdraw to bank",
+      },
     },
-    notifications:{
-      request_transfer_to_bank_success:"Your request has been successfully received, and we will review it."
-    }
+    notifications: {
+      request_transfer_to_bank_success:
+        "Your request has been successfully received, and we will review it.",
+    },
   },
 
   /**
    * @see OPageMonetizeReferral
    */
-    monetize_referral: {
-    copy_box:{
-      message:"You can add <b>?ref={code}</b> to any selldone url."
+  monetize_referral: {
+    copy_box: {
+      message: "You can add <b>?ref={code}</b> to any selldone url.",
     },
-      intro:{
-        title:"Join the Selldone Affiliate Program",
-        message:"The Selldone Affiliate Program is simple and straightforward, designed for you to earn effortlessly. Share your unique affiliate link to invite new users to Selldone, and you'll earn a commission from every transaction they make—forever. This includes earnings from subscriptions, service fees, shop upgrades, and all other revenue streams. Start earning a share of the revenue without any limits on time or earnings. Join us and turn your network into a steady income!",
-        why_join_selldone_affiliate:"Why is this a unique opportunity?",
-        reasons:[
-            "It lasts forever!",
-            "Covers all subscription and transaction fees. Literally every payment of the user on Selldone.",
-            "We send a free $99 voucher to anyone who registers using your link.",
-            "When your tier upgrades, you will earn at the new rate from all previously referred users."
-        ]
-
-      }
+    intro: {
+      title: "Join the Selldone Affiliate Program",
+      message:
+        "The Selldone Affiliate Program is simple and straightforward, designed for you to earn effortlessly. Share your unique affiliate link to invite new users to Selldone, and you'll earn a commission from every transaction they make—forever. This includes earnings from subscriptions, service fees, shop upgrades, and all other revenue streams. Start earning a share of the revenue without any limits on time or earnings. Join us and turn your network into a steady income!",
+      why_join_selldone_affiliate: "Why is this a unique opportunity?",
+      reasons: [
+        "It lasts forever!",
+        "Covers all subscription and transaction fees. Literally every payment of the user on Selldone.",
+        "We send a free $99 voucher to anyone who registers using your link.",
+        "When your tier upgrades, you will earn at the new rate from all previously referred users.",
+      ],
+    },
   },
 
   /**

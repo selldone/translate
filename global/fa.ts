@@ -787,8 +787,10 @@ export default {
     "subscription_orders": "سفارش‌های اشتراک",
     "avocado_orders": "سفارش‌های آووکادو",
     "hyper_orders": "سفارش‌های هایپر",
-    "pos_orders": "سفارش‌های صندوق"
-
+    connected: "متصل",
+    system: "سیستم",
+    unknown:"نامشخص",
+    week: "هفته",
 
   },
 
@@ -941,6 +943,9 @@ export default {
     rate_now:'امتیاز دهید',
     load:'بارگذاری',
     duplicate:'کپی',
+    connect:'اتصال',
+    connect_now:'اتصال',
+    verify_now: "تایید",
 
   },
 
