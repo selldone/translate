@@ -2132,6 +2132,7 @@ export default {
       add_percent_tab: "Add Percent",
       add_constant_tab: "Add Constant",
       ending_tab: "Ending strategy",
+      marketplace_listing_price:'Listing Price',
     },
     bulk_discount_dialog: {
       title: "Bulk actions > Discount",

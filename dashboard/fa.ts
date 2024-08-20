@@ -2090,6 +2090,8 @@ export default {
       add_percent_tab: "تغییر درصدی",
       add_constant_tab: "تغییر قیمت ثابت",
       ending_tab: "گرد کردن",
+      marketplace_listing_price:'قیمت لیستینگ',
+
     },
     bulk_discount_dialog: {
       title: "تغییر کلی > تخفیف",
