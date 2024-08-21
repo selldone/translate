@@ -791,6 +791,7 @@ export default {
     system: "سیستم",
     unknown:"نامشخص",
     week: "هفته",
+    agencies: "آژانس ها",
 
   },
 

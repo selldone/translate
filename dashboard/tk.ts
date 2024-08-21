@@ -5218,7 +5218,7 @@ export default {
     "subtitle": "SMS we e-poçta ýaly daşarky hyzmatlaryň soňky ýagdaýyna gözegçilik ediň."
   },
   "theme": {
-    "dark_mode": "Darnk tertibi",
+    "dark_mode": "Dark tertibi",
     "dark_mode_description": "Ak tekst reňkli garaňky fon isleseňiz, bu opsiýany saýlaň.",
     "light_mode": "Lightagtylyk tertibi",
     "light_mode_description": "Fonyň açyk we tekstiň gara reňkde bolmagyny isleseňiz, bu opsiýany saýlaň."

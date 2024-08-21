@@ -792,6 +792,7 @@ export default {
     system: "System",
     unknown:"Unknown",
     week: "Week",
+    agencies: "Agencies",
 
   },
   difficulties: {
