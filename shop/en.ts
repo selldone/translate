@@ -136,10 +136,9 @@ export default {
       inform_add_success: "We'll let you know when it's available.",
       inform_remove_success: "You have been removed from the waiting list.",
     },
-    zip_pin_input:"ZIP / PIN",
-    zip_pin_not_available_msg:"Not available in this location!",
-    zip_pin_placeholder:"Select ZIP/PIN Code..."
-
+    zip_pin_input: "ZIP / PIN",
+    zip_pin_not_available_msg: "Not available in this location!",
+    zip_pin_placeholder: "Select ZIP/PIN Code...",
   },
 
   /** @see StorefrontPageProduct **/
@@ -668,13 +667,11 @@ export default {
   service_bill: {
     task: {
       title: "To-do list",
-      message:
-        "The list of tasks included in the ordered service package.",
+      message: "The list of tasks included in the ordered service package.",
     },
     booking: {
       title: "Booking / Reservation",
-      message:
-          "The date range for receiving this order was selected by me.",
+      message: "The date range for receiving this order was selected by me.",
 
       selected_checkin: "Selected check-in by customer",
       selected_checkout: "Selected check-out by customer",
@@ -743,17 +740,39 @@ export default {
 
   /** {@see SProductCrossSells} **/
   cross_selling: {
-    title:'Order {product} with'
+    title: "Order {product} with",
   },
-
 
   /** {@see SSmartSelectVendor} **/
   select_vendor: {
-    item_title:'View store of {vendor}'
+    item_title: "View store of {vendor}",
   },
 
+  login: {
+    welcome: "Welcome",
+  },
 
-login:{
-    welcome:'Welcome'
-}
+  /**
+   * @see SProductSectionIncentivise
+   */
+  product_section_incentivise: {
+    total_sold:'Total Sold',
+    available_items:'Available Items',
+
+    physical: {
+      popular_selling_with_low_quantity:"🎉 Popular choice! Stocks are running low, grab yours while you can!",
+      has_sell_has_quantity:"🌟 Highly sought-after item! Get it before it's gone.",
+      just_has_low_quantity:"🛒 Limited stock available! Don't miss out!",
+      just_has_very_low_quantity:"⏳ Almost out of stock! Act fast before it's too late!",
+
+
+    },
+    file:{
+      very_popular_selling:"🔥 Top seller! Join the crowd and download it now!",
+      popular_selling:"🎉 This file is getting a lot of attention. Don't miss out!",
+      has_normal_selling:"📈 Popular file! Secure your copy today.",
+      just_release_has_some_sales:"✨ Just released! Be one of the first to get it."
+
+    }
+  },
 };
