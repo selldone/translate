@@ -422,12 +422,14 @@ export default {
     title: "ساخت فروشگاه خودتان",
     amazon: "آمازون",
     local_store: "سوپرمارکت",
-    fiverr: "فایور",
+    instagram: "فروشگاه اینستاگرام",
     dropshipping: "دراپ شیپینگ",
     coursera: "کورسرا",
     gift_store: "اینستاگرامی",
     airbnb: "ایربی‌ان‌بی",
     simple_store: "خرده فروشی",
+    tiktok: "فروشگاه تیک تاک",
+
   },
   /**
    * {@see SectionShowItsSimplicity}

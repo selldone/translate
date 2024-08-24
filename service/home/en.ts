@@ -433,12 +433,14 @@ export default {
     title: "Make your own",
     amazon: "Amazon",
     local_store: "Local Store",
-    fiverr: "Fiverr",
+    instagram: "Instagram Store",
     dropshipping: "Dropshipping",
     coursera: "Coursera",
     gift_store: "Gift Store",
     airbnb: "Airbnb",
     simple_store: "Simple Store",
+    tiktok: "Tiktok Store",
+
   },
   /**
    * {@see SectionShowItsSimplicity}
