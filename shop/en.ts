@@ -758,6 +758,7 @@ export default {
   product_section_incentivise: {
     total_sold:'Total Sold',
     available_items:'Available Items',
+    have_in_their_bag:"<b>{in_carts}</b> others have this in their carts!",
 
     physical: {
       popular_selling_with_low_quantity:"🎉 Popular choice! Stocks are running low, grab yours while you can!",

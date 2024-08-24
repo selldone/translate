@@ -767,6 +767,7 @@ export default {
   product_section_incentivise: {
     total_sold: "کل فروش",
     available_items: "آیتم‌های موجود",
+    have_in_their_bag: "<b>{in_carts}</b> نفر دیگر این کالا را در سبد خرید خود دارند!",
 
     physical: {
       popular_selling_with_low_quantity:
