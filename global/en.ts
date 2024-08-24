@@ -2276,16 +2276,23 @@ export default {
   /** {@see SOrderChatBox} **/
   order_chat: {
     seller: {
-      history_title: "Messages history between you and the customer.",
-      input_message:
-        "Here, you have the ability to directly exchange messages with customers.",
+      history: {
+        subtitle: "View the message history between you and the customer."
+      },
+      new_message: {
+        subtitle: "You can send messages directly to customers here. When you send a message, the customer will receive an email notification after 20 minutes. This notification will only be sent once every 24 hours."
+      }
     },
     customer: {
-      history_title: "Messages history between you and the seller.",
-      input_message:
-        "Here, you have the ability to directly communicate with the seller by sending messages.",
-    },
+      history: {
+        subtitle: "View the message history between you and the seller."
+      },
+      new_message: {
+        subtitle: "You can send messages directly to us here."
+      }
+    }
   },
+
 
 
   /** ServiceTypes **/
