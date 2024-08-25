@@ -6472,6 +6472,13 @@ export default {
     option_add_to_que:
       "Option 2: Add to queue to process on shipping service page.",
     option_instant_shipping: "Option 3: Instant shipping.",
+
+
+    verify_delivery_input: {
+      true_title: "Confirm Delivery Completion",
+      true_description: "I confirm that the order has been delivered to the customer."
+    }
+
   },
 
   /** {@see BShopHomeSelect} **/
@@ -7384,6 +7391,9 @@ export default {
     tax_message: "You can choose whether tax is included in the price or not.",
     tax_included_messages: "Tax is included in the price.",
     tax_add_messages: "Tax should be added to the final price.",
+    invoice:{
+      subtitle:"By using this form, you can create a payment link for a specific amount. It also makes tracking the invoice and confirming payment completion straightforward and easy."
+    }
   },
 
   /** {@see BPageProductHyper} **/

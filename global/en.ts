@@ -793,7 +793,7 @@ export default {
     unknown:"Unknown",
     week: "Week",
     agencies: "Agencies",
-
+    not_available: "Not Available",
   },
   difficulties: {
     very_complicated: "Very complicated",

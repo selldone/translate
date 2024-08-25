@@ -792,7 +792,7 @@ export default {
     unknown:"نامشخص",
     week: "هفته",
     agencies: "آژانس ها",
-
+    not_available: "نا موجود",
   },
 
   difficulties: {

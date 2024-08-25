@@ -6447,6 +6447,12 @@ export default {
     option_deliver_by_courier: "گزینه 1: تحویل توسط پیک های شما.",
     option_add_to_que: "گزینه 2: اضافه کردن به صف ارسال.",
     option_instant_shipping: "گزینه 3: ارسال فوری از طریق سرویس حمل.",
+    verify_delivery_input: {
+      true_title: "تأیید تکمیل تحویل",
+      true_description: "تأیید می‌کنم که سفارش به مشتری تحویل داده شده است."
+    }
+
+
   },
   /** {@see BShopHomeSelect} **/
   shop_home_edit: {
@@ -7350,6 +7356,10 @@ export default {
     tax_message: "می توانید انتخاب نمایید مالیات در قیمت لحاظ شده است یا خیر.",
     tax_included_messages: "مالیات در قیمت لحاظ شده است.",
     tax_add_messages: "مالیات به مبلغ نهایی افزوده شود.",
+    invoice: {
+      subtitle: "با استفاده از این فرم، می‌توانید یک لینک پرداخت برای مبلغ مشخص ایجاد کنید. همچنین پیگیری فاکتور و تأیید تکمیل پرداخت را به سادگی و راحتی ممکن می‌سازد."
+    }
+
   },
 
   /** {@see BPageProductHyper} **/
