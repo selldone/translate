@@ -1096,6 +1096,8 @@ export default {
     birthday: "Select birthday",
     select_category: "Select a category...",
     select_a_country:"Select a country...",
+    filter_country:'Filter by country...',
+
   },
 
   notification: {

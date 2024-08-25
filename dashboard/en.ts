@@ -3386,6 +3386,10 @@ export default {
     status_title: "Payment service status",
     status_message:
       "Configure the payment method as Active or Inactive. Only methods set as active will be displayed to customers.",
+    status_true_description:"Your customers can pay with this payment method.",
+
+
+
     manual_title: "Manual / Auto capture payment",
     manual_message:
       "When you create a payment, you can place a hold on an eligible payment method to reserve funds that you can capture later. For example, hotels often authorize a payment in full before a guest arrives, then capture the money when the guest checks out.",
@@ -3400,7 +3404,10 @@ export default {
     notifications: {
       edit_success: "Gateway {gateway_name} edited.",
     },
-    developer_setting: "Develop & Test",
+    debug:{
+      title:  "Develop & Test",
+      subtitle:"You can enable the debug mode to test the payment gateway."
+    },
 
     limit: {
       title: "Order Limit",
@@ -3410,6 +3417,30 @@ export default {
       title: "Minimum order amount",
       msg: "Zero means no limit.",
     },
+    currency_input:{
+      message:"The currency that this payment gateway supports."
+    },
+    gateway_code:'Gateway Code',
+
+    hold_only_for:"Hold payment only available for",
+    manual_input:{
+      false_description:"The payment status will be changed automatically from pending to confirmed in the payment provider system.",
+      false_title:"Auto payment confirmation",
+      true_title:"Hold payments and Manual confirmation",
+      true_description:"Place a hold on a payment so you need to verify the payments for an order to change their status from pending to confirmed in the payment provider system."
+    },
+    delete_verify_input:{
+      true_title:"I want to remove this payment method.",
+      true_description:"This payment method will be removed from the store and will not be available to customers."
+    },
+    delete_alert:{
+      title:"Delete payment method",
+      message:"Are you sure delete this payment method from your shop?",
+      action:"Delete payment method"
+    },
+    notifications:{
+      success_delete:"Payment method has been deleted!"
+    }
   },
 
   /** {@see BPageGiftcard} **/

@@ -21,6 +21,28 @@ export default {
 
     contact_us: "Contact us",
     about_us: "About Selldone",
+    supported_countries_and_payments:"Supported Countries and Payments",
+
+    affiliate_program:'Affiliate Program',
+    business_idea:"Business Ideas",
+    roadmap:"Roadmap",
+    apply_partner:"Apply Partner",
+    partner:{
+      title: "Join as a Partner",
+      subtitle: "We provide our partners with a fantastic opportunity to expand their businesses and earn consistent, monthly revenue."
+
+    },
+    add_service:"Add service",
+    service:{
+      title: "Integrate Your Service",
+      subtitle: "Showcase your service to thousands of thriving businesses today and millions more in the future!"
+    },
+    add_supplier:"Add supplier",
+    supplier:{
+      title: "Join as a Supplier",
+      subtitle: "We can help your products reach thousands of active online and local stores worldwide."
+    },
+
 
     menu: [
       {
@@ -103,4 +125,12 @@ export default {
   admin_shop_footer: {
     title: "Quick access panel of {shop_name}",
   },
+
+
+  /**
+   * @see SelldonePressView
+   */
+  press_view:{
+    on_all_review_websites:"On All Review Websites",
+  }
 };

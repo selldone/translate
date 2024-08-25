@@ -1088,6 +1088,7 @@ export default {
     birthday: "انتخاب تاریخ تولد",
     select_category: "یک دسته‌بندی انتخاب کنید...",
     select_a_country:"یک کشور انتخاب کنید...",
+    filter_country:'فیلتر بر اساس کشور...',
 
   },
 
