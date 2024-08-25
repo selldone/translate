@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Ordni kkonfermata mix-xerrej",
+     "email-types-description" => [
+     "shop-customer-join" => "Dan il-messaġġ jilqa' xerrej ġdid fil-ħanut.",
+     "order-checkout" => "Din in-notifika tintbagħat meta xerrej jikkonferma ordni.",
+     "order-payment" => "Din in-notifika tikkonferma l-ħlas b'suċċess magħmul minn klijent.",
+     "order-payment-admin" => "Dan il-messaġġ jintbagħat lil bejjiegħ biex jinnotifikah b'ordni kkonfermata.",
+     "pos-checkout" => "Din in-notifika tintbagħat biex tikkonferma ordni ta' punt ta' bejgħ għal xerrej.",
+     "pos-payment" => "Din in-notifika tikkonferma ħlas tal-punt tal-bejgħ magħmul minn xerrej.",
+     "pos-payment-admin" => "Dan il-messaġġ jinnotifika lill-bejjiegħ dwar xirja magħmula fil-punt tal-bejgħ tiegħu.",
+     "shop-contact" => "Din in-notifika tintbagħat meta tkun ġiet sottomessa formola ta' kuntatt.",
+     "shop-giftcard" => "Din in-notifika tinforma lil utent li rċieva karta rigal.",
+     "shop-vendor-join" => "Dan il-messaġġ jilqa' bejjiegħ ġdid fil-ħanut.",
+     "shop-vendor-invite" => "Dan il-messaġġ jintbagħat biex jistieden bejjiegħ biex jissieħeb fis-suq tiegħek.",
+     "shop-vendor-order" => "Dan il-messaġġ jintbagħat lill-bejjiegħ meta ordni tiġi riċevuta jew fi stat ta' Mħallas jew ta' Kontijiet mal-Konsenja (COD).",
+     "shop-vendor-products" => "Mibgħuta kuljum biex taġġorna lill-bejjiegħa dwar l-istatus tal-prodotti tagħhom.",
+     "shop-login" => "Avża lill-utent bid-dettalji tal-login, inkluż l-indirizz IP, id-data u l-apparat, għal skopijiet ta’ sigurtà.",
+     "login-code" => "Ibgħat kodiċi ta' password ta' darba għall-utenti biex jidħlu fil-maħżen.",
+     "shop-email-verify-link" => "Ibgħat link biex tivverifika l-indirizz elettroniku tal-utent. Din il-posta tintbagħat meta utent jirreġistra permezz ta' SMS u jdaħħal l-email tiegħu u ma jintbagħatx meta l-utent jirreġistra permezz soċjali jew email direttament.",
 ],
-        [
-     "title" => "Konferma tal-ħlas tal-klijent",
-],
-        [
-     "title" => "Avviż ta' konferma tal-ordni lill-bejjiegħ",
-],
-        [
-     "title" => "Ikkonferma l-ordni tal-kaxxa tal-maħżen għax-xerrej",
-],
-        [
-     "title" => "Ikkonferma l-ħlas tal-cash register għax-xerrej",
-],
-        [
-     "title" => "Avviż tax-xiri fil-kaxxa tal-bejjiegħ",
-],
-        [
-     "title" => "Informa formola ta' kuntatt",
-],
-        [
-     "title" => "Prosit talli ingħaqad mal-maħżen",
-],
-        [
-     "title" => "Tħabbira li tirċievi karta rigal lill-utent",
-]
-     ],
      "global" => [
      "greetings" => "Hi :isem",
      "end-statement" => "Tim ta' appoġġ",
@@ -126,7 +115,7 @@
      "transaction" => "Transazzjoni",
      "fee" => "Ħlas",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Kategorija",
      "password" => "Password",
@@ -150,6 +139,18 @@
      "receiver" => "Riċevitur",
      "virtual-items" => "Oġġetti virtwali",
      "no-payment" => "Ebda ħlas!",
+     "enable" => "Attiva",
+     "access" => "Aċċess",
+     "bank" => "Informazzjoni bankarja",
+     "vendor" => "Bejjiegh",
+     "view_content" => "Ara l-kontenut sħiħ",
+     "files" => "Fajls",
+     "download" => "Niżżel",
+     "file_name" => "Isem tal-Fajl",
+     "file_size" => "Daqs",
+     "subscription" => "Abbonament",
+     "products" => "Prodotti",
+     "vendor_products" => "Prodotti tal-Bejjiegħa",
 ],
      "selldone-business-os" => "Selldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "hi",
-     "name" => "Selldone Team",
+     "name" => "Approva, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "negozjanti",
-     "name" => "Merkanti, Selldone",
+     "name" => "Approva, Selldone",
 ],
      "Approve" => [
      "id" => "japprova",
@@ -339,6 +340,12 @@
      "category" => "Ċelebrazzjoni ġdida tal-klijenti",
      "title" => "Aħna kuntenti għas-sħubija tiegħek",
      "action" => "Żur issa",
+],
+     "shop-vendor-join" => [
+     "subject" => "Abbord tal-bejjiegħ | :shop_title",
+     "category" => "Ċelebrazzjoni tal-bejjiegħ ġdid",
+     "title" => "Aħna kuntenti għas-sħubija tiegħek",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Giftcard :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Notifiki ta' sigurtà",
      "title" => "Idħol fil-Kont",
      "message" => "Għażiż :isem, ġejt illoginja fil-kont tiegħek ta' Selldone.",
+     "message-shop" => "Għażiż :name, ġejt illoggjat f' :shop_title .",
      "footer" => "Jekk m'intix illoggjat, jekk jogħġbok ibdel il-password tiegħek.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Total ta' opinjonijiet tal-paġna tal-websajt",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Irċevejt ordni ġdida. Jekk jogħġbok mur fil-paġna tal-ipproċessar tal-ordnijiet fil-panel tal-bejjiegħ tiegħek.",
+     "subject" => "🛍 Ordni Ġdida Riċevuta | :order_id",
+     "your_revenue" => "Id-Dħul Tiegħek",
+],
+     "vendor-invite" => [
+     "title" => "Stedina tal-Bejjiegh",
+     "message" => "Irċevejt stedina biex issir bejjiegħ ta' :shop_name. Tista' taċċettaha jew tirrifjuta billi tikklikkja fuq il-buttuni li ġejjin.",
+     "subject" => ":isem_ħanut | Irċevejt stedina biex issir il-bejjiegħ tagħna",
+     "accept" => "Aċċetta & Issir Bejjiegħa",
+     "reject" => "Tiċħad",
+],
+     "shop-email-login" => [
+     "subject" => "Il-Kodiċi tal-Login tiegħek għal :shop",
+     "header-message" => "Qed nibagħtulek din l-email għax tlabt kodiċi ta' login għall-ħanut. Jekk jogħġbok sib il-Password ta' One-Time (OTP) tiegħek hawn taħt:",
+     "footer-message" => "Dan il-kodiċi se jkun validu għal 10 minuti. Jekk ma tlabtx dan il-kodiċi tal-login, jekk jogħġbok injora din l-email.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Ivverifika l-email tiegħek | :ħanut",
+     "title" => "Verifika tal-Email",
+     "header-message" => "Hi :isem,<br> Jekk jogħġbok ikkonferma li **:email** huwa l-indirizz elettroniku tiegħek billi tikklikkja fuq il-buttuna jew uża l-link hawn taħt fi żmien 48 siegħa.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Aġġornament tal-Prodotti:ħanut",
+     "title" => "Aġġornament dwar l-Istatus tal-Prodott - L-aħħar 24 Siegħa",
+     "message" => "Nispera li dan il-messaġġ isibkom tajjeb. Dan huwa aġġornament qasir biex ninfurmak dwar l-istatus tal-prodotti tiegħek fuq il-pjattaforma tagħna matul l-aħħar 24 siegħa. Matul dan il-perjodu, kien hemm bidliet fl-istatus ta 'xi prodotti. Dawn il-bidliet jistgħu jkunu dovuti għal xiri, aġġornamenti tal-istokk, jew avvenimenti oħra relatati. Għal aktar informazzjoni dettaljata dwar kull prodott, jekk jogħġbok idħol fil-kont tiegħek u iċċekkja t-taqsima 'Status tal-Prodott'.",
+     "action" => "Iftaħ il-Panel tal-Bejjiegħa",
 ],
 ];

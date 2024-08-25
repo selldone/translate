@@ -1628,4 +1628,8 @@
      "#FFFF99" => "I-Pale Canary",
      "#FFFFB4" => "I-Portafino",
      "#FFFFF0" => "Indlovu",
+     "#B3E5FC" => "Iqhwa",
+     "#F1C40F" => "Ekuseni",
+     "#7DF9FF" => "Ugesi",
+     "#FF6B35" => "Ukushona kwelanga",
 ];

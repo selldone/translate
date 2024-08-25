@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Bleek Kanarie",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Ivoor",
+     "#B3E5FC" => "Ys",
+     "#F1C40F" => "Dagbreek",
+     "#7DF9FF" => "Elektries",
+     "#FF6B35" => "Sonsondergang",
 ];

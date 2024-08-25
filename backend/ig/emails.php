@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Onye zụrụ ahịa kwadoro iwu",
+     "email-types-description" => [
+     "shop-customer-join" => "Ozi a na-anabata onye zụrụ ahịa ọhụrụ n'ụlọ ahịa ahụ.",
+     "order-checkout" => "A na-eziga ọkwa a mgbe onye zụrụ ahịa kwadoro iwu.",
+     "order-payment" => "Ọkwa a na-akwado ịkwụ ụgwọ nke ọma nke onye ahịa kwụrụ.",
+     "order-payment-admin" => "A na-ezigara onye na-ere ahịa ozi a ka ọ gwa ha maka iwu akwadoro.",
+     "pos-checkout" => "A na-eziga ọkwa a iji kwado ebe ịre ahịa maka onye zụrụ ya.",
+     "pos-payment" => "Ọkwa a na-akwado ebe ịkwụ ụgwọ ire nke onye zụrụ ya mere.",
+     "pos-payment-admin" => "Ozi a na-eme ka onye na-ere ahịa mara ihe azụrụ n'ebe erere ha.",
+     "shop-contact" => "A na-eziga ọkwa a mgbe etinyere fọm kọntaktị.",
+     "shop-giftcard" => "Ozi a na-agwa onye ọrụ na ha enwetala kaadị onyinye.",
+     "shop-vendor-join" => "Ozi a na-anabata onye na-ere ahịa ọhụrụ na ụlọ ahịa ahụ.",
+     "shop-vendor-invite" => "E zigara ozi a ịkpọ onye na-ere ahịa òkù isonye n'ahịa gị.",
+     "shop-vendor-order" => "A na-ezigara onye na-ere ahịa ozi a mgbe enwetara iwu na ọkwa akwụ ụgwọ ma ọ bụ ego na nnyefe (COD).",
+     "shop-vendor-products" => "A na-ezigara ya kwa ụbọchị iji kwalite ndị na-ere ahịa na ọkwa ngwaahịa ha.",
+     "shop-login" => "Gwa onye ọrụ na nkọwa nbanye, gụnyere adreesị IP, ụbọchị na ngwaọrụ, maka ebumnuche nchekwa.",
+     "login-code" => "Zipu koodu paswọọdụ otu oge maka ndị ọrụ ịbanye n'ụlọ ahịa ahụ.",
+     "shop-email-verify-link" => "Zipụ njikọ iji nyochaa adreesị ozi-e onye ọrụ. A na-eziga ozi a mgbe onye ọrụ debanyere aha site na SMS wee tinye email ha na ezipụghị ya mgbe onye ọrụ debanyere aha site na mmadụ ma ọ bụ email ozugbo.",
 ],
-        [
-     "title" => "Nkwenye ịkwụ ụgwọ ndị ahịa",
-],
-        [
-     "title" => "Nye onye na-ere ahịa iwu ọkwa nkwenye",
-],
-        [
-     "title" => "Kwenye usoro igbe ụlọ ahịa maka onye zụrụ ya",
-],
-        [
-     "title" => "Kwado ịkwụ ụgwọ ndekọ ego maka onye zụrụ ya",
-],
-        [
-     "title" => "Akwụkwọ ozi ịzụrụ n'igbe onye na-ere ere",
-],
-        [
-     "title" => "Gwa ụdị kọntaktị",
-],
-        [
-     "title" => "Ekele maka ịbanye n'ụlọ ahịa ahụ",
-],
-        [
-     "title" => "Nkwupụta nke ịnata kaadị onyinye nye onye ọrụ",
-]
-     ],
      "global" => [
      "greetings" => "Ndewo: aha",
      "end-statement" => "Otu nkwado",
@@ -126,7 +115,7 @@
      "transaction" => "Azụmahịa",
      "fee" => "Ụgwọ",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Otu",
      "password" => "Okwuntughe",
@@ -150,6 +139,18 @@
      "receiver" => "onye nnata",
      "virtual-items" => "Ihe mebere",
      "no-payment" => "Enweghị ụgwọ!",
+     "enable" => "Kwado",
+     "access" => "Nweta",
+     "bank" => "Ozi ụlọ akụ",
+     "vendor" => "Onye na-ere ahịa",
+     "view_content" => "Lelee ọdịnaya zuru oke",
+     "files" => "Faịlụ",
+     "download" => "Budata",
+     "file_name" => "Aha faịlụ",
+     "file_size" => "Nha",
+     "subscription" => "Ndebanye aha",
+     "products" => "Ngwaahịa",
+     "vendor_products" => "Ngwaahịa ndị na-ere ahịa",
 ],
      "selldone-business-os" => "Azụmahịa ere ere",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "ndewo",
-     "name" => "Ndị ere ere",
+     "name" => "Kwadoro, rere ere",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "ndị ahịa",
-     "name" => "Ndị ahịa, Selldone",
+     "name" => "Kwadoro, rere ere",
 ],
      "Approve" => [
      "id" => "kwadoro",
@@ -339,6 +340,12 @@
      "category" => "Ememme ndị ahịa ọhụrụ",
      "title" => "Obi dị anyị ụtọ maka ịbụ otu gị",
      "action" => "Gaa leta ugbu a",
+],
+     "shop-vendor-join" => [
+     "subject" => "Onye na-ere ihe n'ụgbọ mmiri | : shop_title",
+     "category" => "Ememme onye na-ere ahịa ọhụrụ",
+     "title" => "Obi dị anyị ụtọ maka ịbụ otu gị",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Kaadị onyinye: shop_title",
@@ -558,6 +565,7 @@
      "category" => "Ozi nche",
      "title" => "Nbanye na Akaụntụ",
      "message" => "Ezigbo : aha, ị banyela na akaụntụ Selldone gị.",
+     "message-shop" => "Ezigbo :name, abanyela na :shop_title.",
      "footer" => "Ọ bụrụ na ịbanyeghị, biko gbanwee paswọọdụ gị.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Ngụkọta nlele ibe weebụ",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Ị nwetala usoro ọhụrụ. Biko gaa na ibe nhazi usoro na panel nke ndị na-ere gị.",
+     "subject" => "🛍 Ọhụrụ anabatara | :order_id",
+     "your_revenue" => "Ego ị nweta",
+],
+     "vendor-invite" => [
+     "title" => "Nkuku onye na-ere ere",
+     "message" => "Ị nwetala akwụkwọ ịkpọ òkù ka ị bụrụ onye na-ere :shop_name. Ị nwere ike ịnakwere ma ọ bụ jụ ya site na ịpị bọtịnụ ndị a.",
+     "subject" => ": shop_aha | Ị nwetara ọkpụkpọ òkù ịbụ onye na-ere anyị",
+     "accept" => "Nabata & bụrụ onye na-ere ahịa",
+     "reject" => "Jụ",
+],
+     "shop-email-login" => [
+     "subject" => "Koodu nbanye gị maka: ụlọ ahịa",
+     "header-message" => "Anyị na-ezitere gị email a n'ihi na ị rịọrọ koodu nbanye maka ụlọ ahịa ahụ. Biko chọta paswọọdụ otu oge gị (OTP) n'okpuru:",
+     "footer-message" => "Koodu a ga-adị irè maka nkeji iri. Ọ bụrụ na ị rịọghị koodu nbanye a, biko leghara email a anya.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Nyochaa email gị | : ụlọ ahịa",
+     "title" => "nkwenye email",
+     "header-message" => "Hi: aha,<br> Biko gosi na **:email** bụ adreesị ozi-e gị site na ịpị bọtịnụ ma ọ bụ jiri njikọ dị n'okpuru n'ime awa 48.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Mmelite ngwaahịa: ụlọ ahịa",
+     "title" => "Mmelite na Ọnọdụ ngwaahịa - Awa 24 ikpeazụ",
+     "message" => "Enwere m olileanya na ozi a ga-ahụ gị nke ọma. Nke a bụ mmelite dị nkenke iji mee ka ị mata ọkwa nke ngwaahịa gị n'elu ikpo okwu anyị n'ime awa 24 gara aga. N'ime oge a, enweela mgbanwe na ọnọdụ nke ụfọdụ ngwaahịa. Mgbanwe ndị a nwere ike ịbụ n'ihi ịzụrụ ihe, mmelite ngwaahịa ma ọ bụ mmemme ndị ọzọ metụtara ya. Maka ozi zuru ezu gbasara ngwaahịa ọ bụla, biko banye na akaụntụ gị wee lelee ngalaba 'Ọnọdụ Ngwaahịa'.",
+     "action" => "Mepee ogwe ndị na-ere ere",
 ],
 ];

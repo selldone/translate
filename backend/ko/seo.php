@@ -14,8 +14,8 @@
         "커스텀 커뮤니티 빌더",
         "화이트 라벨 전자 상거래"
      ],
-     "samin" => "팔다",
-     "Selldone" => "팔다",
+     "samin" => "판매 완료",
+     "Selldone" => "판매 완료",
      "related" => "관련된",
      "share" => "공유하다",
      "global" => [
@@ -33,7 +33,7 @@
 ],
      "footer-menu" => [
         [
-     "title" => "팔다",
+     "title" => "판매 완료",
      "items" => [
         [
      "title" => "비즈니스 플랫폼",
@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "시간 제한 없이 매장과 사이트를 무료로 구축할 수 있는 모든 전문 기능이 여러분을 기다리고 있습니다.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "웹 서비스, 애플리케이션 개발을 위한 문서 및 서비스 연결.",
-],
      "apps" => [
      "title" => "앱 스토어",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "지원 국가 및 현지 결제 - 비즈니스 OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "비즈니스 OS, 전자 상거래 플랫폼에서 테마, 플러그인 또는 코드가 없는 상거래 서비스의 다음 진화 단계입니다. 비주얼 100%!",
+],
+     "participant" => [
+     "title" => "당신이 원하는 커뮤니티 - 플레이하고 $20를 받으세요",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "다른 사람을 돕기 위해 짧은 영상을 제작하면 selldone 커뮤니티에 참여하여 영상당 최대 20달러의 선물 크레딧을 받을 수 있습니다.",
+],
+     "tax" => [
+     "title" => "글로벌 세율 목록",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "세금 규칙을 재정의하고 다양한 제품 카테고리에 대해 두 개 이상의 세금 프로필을 만들 수 있습니다.",
+],
+     "premium" => [
+     "title" => "프리미엄으로 업그레이드하고 전자상거래 게임을 혁신하세요",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Selldone Premium으로 온라인 매장을 한 단계 업그레이드하세요. 독점적인 AI 도구, 맞춤형 템플릿 등에 액세스하여 효율성을 높이고 디지털 시장에서 두각을 나타내세요. 지금 가입하여 더욱 스마트하고 세련된 전자상거래 경험을 하세요!",
+],
+     "builder" => [
+     "title" => "무료 페이지 빌더 및 랜딩 페이지 편집기 웹앱 - 로그인 불필요",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "무료의 사용자 친화적인 페이지 빌더와 편집기로 멋진 웹 페이지와 랜딩 페이지를 손쉽게 만드세요. 로그인이 필요 없습니다. 직관적인 드래그 앤 드롭 인터페이스로 웹 페이지를 빠르게 디자인, 사용자 지정 및 게시하세요. 번거로움 없는 웹 디자인 솔루션을 찾는 마케터, 소규모 사업주 및 개발자에게 적합합니다.",
 ],
 ],
      "shuttle" => [

@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "I-oda liqinisekiswe umthengi",
+     "email-types-description" => [
+     "shop-customer-join" => "Lo mlayezo wamukela umthengi omusha esitolo.",
+     "order-checkout" => "Lesi saziso sithunyelwa uma umthengi eqinisekisa i-oda.",
+     "order-payment" => "Lesi saziso siqinisekisa inkokhelo eyimpumelelo eyenziwe yikhasimende.",
+     "order-payment-admin" => "Lo mlayezo uthunyelwa kumthengisi ukuze amazise nge-oda eliqinisekisiwe.",
+     "pos-checkout" => "Lesi saziso sithunyelwa ukuze kuqinisekiswe iphuzu lokuthengisa lomthengi.",
+     "pos-payment" => "Lesi saziso siqinisekisa iphuzu lenkokhelo yokuthengisa eyenziwe umthengi.",
+     "pos-payment-admin" => "Lo mlayezo wazisa umthengisi ngokuthenga okwenziwa endaweni yakhe yokuthengisa.",
+     "shop-contact" => "Lesi saziso sithunyelwa lapho ifomu lokuxhumana selithunyelwe.",
+     "shop-giftcard" => "Lesi saziso sazisa umsebenzisi ukuthi uthole ikhadi lesipho.",
+     "shop-vendor-join" => "Lo mlayezo wamukela umdayisi omusha esitolo.",
+     "shop-vendor-invite" => "Lo mlayezo uthunyelwe ukuze umeme umdayisi ukuthi ajoyine imakethe yakho.",
+     "shop-vendor-order" => "Lo mlayezo uthunyelwa kumthengisi uma i-oda litholwa ngesimo sokuthi Okukhokhiwe noma Imali Ekulethwayo (COD).",
+     "shop-vendor-products" => "Kuthunyelwa nsuku zonke ukuze kubuyekezwe abathengisi ngesimo semikhiqizo yabo.",
+     "shop-login" => "Yazisa umsebenzisi ngemininingwane yokungena, okuhlanganisa ikheli le-IP, idethi, kanye nedivayisi, ngezinjongo zokuphepha.",
+     "login-code" => "Thumela ikhodi yephasiwedi yesikhathi esisodwa ukuze abasebenzisi bangene esitolo.",
+     "shop-email-verify-link" => "Thumela isixhumanisi ukuze uqinisekise ikheli le-imeyili lomsebenzisi. Le imeyili ithunyelwa lapho umsebenzisi ebhalisa nge-SMS futhi efaka i-imeyili yakhe futhi ayithunyelwa lapho umsebenzisi ebhalisa ngomphakathi noma nge-imeyili ngokuqondile.",
 ],
-        [
-     "title" => "Ukuqinisekiswa kwenkokhelo yekhasimende",
-],
-        [
-     "title" => "Isaziso sokuqinisekisa i-oda kumdayisi",
-],
-        [
-     "title" => "Qinisekisa i-oda lebhokisi lesitolo lomthengi",
-],
-        [
-     "title" => "Qinisekisa ukukhokhelwa kwerejista yemali yomthengi",
-],
-        [
-     "title" => "Isaziso sokuthenga ebhokisini lomdayisi",
-],
-        [
-     "title" => "Yazisa ifomu lokuxhumana",
-],
-        [
-     "title" => "Siyakuhalalisela ngokujoyina isitolo",
-],
-        [
-     "title" => "Isimemezelo sokuthola ikhadi lesipho kumsebenzisi",
-]
-     ],
      "global" => [
      "greetings" => "Sawubona :igama",
      "end-statement" => "Ithimba labasekeli",
@@ -126,7 +115,7 @@
      "transaction" => "Okwenziwayo",
      "fee" => "Imali",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Umthethosivivinywa",
      "category" => "Isigaba",
      "password" => "Iphasiwedi",
@@ -150,6 +139,18 @@
      "receiver" => "Umamukeli",
      "virtual-items" => "Izinto ezibonakalayo",
      "no-payment" => "Ayikho inkokhelo!",
+     "enable" => "Vumela",
+     "access" => "Ukufinyelela",
+     "bank" => "Ulwazi lwebhange",
+     "vendor" => "Umthengisi",
+     "view_content" => "Buka okuqukethwe okugcwele",
+     "files" => "Amafayela",
+     "download" => "Landa",
+     "file_name" => "Igama lefayela",
+     "file_size" => "Usayizi",
+     "subscription" => "Ukubhalisa",
+     "products" => "Imikhiqizo",
+     "vendor_products" => "Imikhiqizo yomthengisi",
 ],
      "selldone-business-os" => "Selldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "sawubona",
-     "name" => "Selldone Team",
+     "name" => "Vuma, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "abathengisi",
-     "name" => "Abathengisi, Selldone",
+     "name" => "Vuma, Selldone",
 ],
      "Approve" => [
      "id" => "vuma",
@@ -339,6 +340,12 @@
      "category" => "Umgubho wamakhasimende amasha",
      "title" => "Siyajabula ngobulungu bakho",
      "action" => "Vakashela manje",
+],
+     "shop-vendor-join" => [
+     "subject" => "Ukugibela Umthengisi | :isihloko_sesitolo",
+     "category" => "Umgubho womthengisi omusha",
+     "title" => "Siyajabula ngobulungu bakho",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Ikhadi lesipho :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Izaziso zokuphepha",
      "title" => "Ngena ngemvume ku-Akhawunti",
      "message" => "Sawubona :igama, ubulokhu ungene ku-akhawunti yakho ye-Selldone.",
+     "message-shop" => "Sawubona :igama, ungene ngemvume ku-:shop_title.",
      "footer" => "Uma ungangenile, sicela ushintshe iphasiwedi yakho.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Isamba sokubukwa kwekhasi lewebhusayithi",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Uthole i-oda elisha. Sicela uye ekhasini lokucubungula i-oda kuphaneli yakho yomthengisi.",
+     "subject" => "🛍 I-oda Elisha Yamukelwe | :i-id_ye-oda",
+     "your_revenue" => "Imali Engenayo Yakho",
+],
+     "vendor-invite" => [
+     "title" => "Isimemo somthengisi",
+     "message" => "Uthole isimemo sokuba umthengisi we-:shop_name. Ungakwamukela noma ukwenqabe ngokuchofoza izinkinobho ezilandelayo.",
+     "subject" => ":igama_lesitolo | Uthole isimemo sokuba umthengisi wethu",
+     "accept" => "Yamukela Futhi Ube Umthengisi",
+     "reject" => "Yenqaba",
+],
+     "shop-email-login" => [
+     "subject" => "Ikhodi yakho yokungena ye-:shop",
+     "header-message" => "Sikuthumelela le imeyili ngoba ucele ikhodi yokungena esitolo. Sicela uthole iphasiwedi yakho yesikhathi esisodwa (OTP) ngezansi:",
+     "footer-message" => "Le khodi izosebenza imizuzu eyi-10. Uma ungazange ucele le khodi yokungena, sicela uzibe le imeyili.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Qinisekisa i-imeyili yakho | :esitolo",
+     "title" => "Ukuqinisekiswa Kwe-imeyili",
+     "header-message" => "Sawubona :igama,<br> Sicela uqinisekise ukuthi **:i-imeyili** ikheli lakho le-imeyili ngokuchofoza inkinobho noma usebenzise isixhumanisi esingezansi phakathi namahora angu-48.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Isibuyekezo Semikhiqizo :shop",
+     "title" => "Buyekeza Ngesimo Somkhiqizo - Amahora angu-24 edlule",
+     "message" => "Ngethemba ukuthi lo mlayezo ukuthole kahle. Lesi isibuyekezo esifushane sokukwazisa ngesimo semikhiqizo yakho kungxenyekazi yethu emahoreni angama-24 edlule. Ngalesi sikhathi, kube nezinguquko esimweni seminye imikhiqizo. Lezi zinguquko zingaba ngenxa yokuthenga, izibuyekezo zesitoko, noma eminye imicimbi ehlobene. Ukuze uthole ukwaziswa okwengeziwe mayelana nomkhiqizo ngamunye, sicela ungene ku-akhawunti yakho bese uhlola isigaba 'sesimo somkhiqizo'.",
+     "action" => "Vula Iphaneli yomthengisi",
 ],
 ];

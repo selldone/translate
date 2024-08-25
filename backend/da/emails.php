@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Ordre bekræftet af køber",
+     "email-types-description" => [
+     "shop-customer-join" => "Denne besked byder en ny køber velkommen til butikken.",
+     "order-checkout" => "Denne meddelelse sendes, når en køber bekræfter en ordre.",
+     "order-payment" => "Denne meddelelse bekræfter den vellykkede betaling foretaget af en kunde.",
+     "order-payment-admin" => "Denne besked sendes til en sælger for at give dem besked om en bekræftet ordre.",
+     "pos-checkout" => "Denne meddelelse sendes for at bekræfte en ordre på et salgssted for en køber.",
+     "pos-payment" => "Denne meddelelse bekræfter en betaling på et salgssted foretaget af en køber.",
+     "pos-payment-admin" => "Denne meddelelse giver sælgeren besked om et køb foretaget på deres salgssted.",
+     "shop-contact" => "Denne meddelelse sendes, når en kontaktformular er indsendt.",
+     "shop-giftcard" => "Denne meddelelse informerer en bruger om, at de har modtaget et gavekort.",
+     "shop-vendor-join" => "Denne besked byder en ny leverandør velkommen til butikken.",
+     "shop-vendor-invite" => "Denne meddelelse sendes for at invitere en leverandør til at deltage i din markedsplads.",
+     "shop-vendor-order" => "Denne meddelelse sendes til leverandøren, når en ordre modtages i enten betalt eller efterkravsstatus.",
+     "shop-vendor-products" => "Udsendes dagligt for at opdatere leverandører om status for deres produkter.",
+     "shop-login" => "Giv brugeren besked med loginoplysninger, herunder IP-adresse, dato og enhed, af sikkerhedsmæssige årsager.",
+     "login-code" => "Send en engangsadgangskode, så brugerne kan logge ind i butikken.",
+     "shop-email-verify-link" => "Send et link for at bekræfte brugerens e-mailadresse. Denne mail sendes, når en bruger registrerer sig via SMS og indtaster sin e-mail og sendes ikke, når brugeren registrerer sig via social eller e-mail direkte.",
 ],
-        [
-     "title" => "Kundebetalingsbekræftelse",
-],
-        [
-     "title" => "Meddelelse om ordrebekræftelse til sælger",
-],
-        [
-     "title" => "Bekræft butiksboksordre til køber",
-],
-        [
-     "title" => "Bekræft betaling af kasseapparat til køber",
-],
-        [
-     "title" => "Meddelelse om køb i sælgers æske",
-],
-        [
-     "title" => "Oplys kontaktformular",
-],
-        [
-     "title" => "Tillykke med at komme i butikken",
-],
-        [
-     "title" => "Meddelelse om modtagelse af gavekort til bruger",
-]
-     ],
      "global" => [
      "greetings" => "Hej :navn",
      "end-statement" => "Støttegruppe",
@@ -126,7 +115,7 @@
      "transaction" => "Transaktion",
      "fee" => "Betaling",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Regning",
      "category" => "Kategori",
      "password" => "Adgangskode",
@@ -150,6 +139,18 @@
      "receiver" => "Modtager",
      "virtual-items" => "Virtuelle genstande",
      "no-payment" => "Ingen betaling!",
+     "enable" => "Aktiver",
+     "access" => "Adgang",
+     "bank" => "Bankoplysninger",
+     "vendor" => "Sælger",
+     "view_content" => "Se hele indholdet",
+     "files" => "Filer",
+     "download" => "Hent",
+     "file_name" => "Filnavn",
+     "file_size" => "Størrelse",
+     "subscription" => "Abonnement",
+     "products" => "Produkter",
+     "vendor_products" => "Leverandørprodukter",
 ],
      "selldone-business-os" => "Selldon Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "Hej",
-     "name" => "Selldon Team",
+     "name" => "Godkend, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "købmænd",
-     "name" => "Købmænd, Selldone",
+     "name" => "Godkend, Selldone",
 ],
      "Approve" => [
      "id" => "godkende",
@@ -340,6 +341,12 @@
      "title" => "Vi er glade for dit medlemskab",
      "action" => "Besøg nu",
 ],
+     "shop-vendor-join" => [
+     "subject" => "Leverandør onboarding | :shop_title",
+     "category" => "Ny leverandør fest",
+     "title" => "Vi er glade for dit medlemskab",
+     "action" => "Vendor Panel",
+],
      "shop-giftcard" => [
      "subject" => "Gavekort :shop_title",
      "category" => "Tilføj nyt kort",
@@ -349,7 +356,7 @@
 ],
      "contact" => [
      "subject" => "Supportcenter | :butik",
-     "category" => "support",
+     "category" => "støtte",
      "title" => "Du har modtaget et svar",
 ],
      "order-checkout" => [
@@ -558,6 +565,7 @@
      "category" => "Sikkerhedsmeddelelser",
      "title" => "Log ind på konto",
      "message" => "Kære :name, du har været logget ind på din Selldone-konto.",
+     "message-shop" => "Kære :name, du er blevet logget ind på :shop_title .",
      "footer" => "Hvis du ikke er logget ind, bedes du ændre din adgangskode.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Samlet sidevisninger på hjemmesiden",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Du har modtaget en ny ordre. Gå til ordrebehandlingssiden i dit leverandørpanel.",
+     "subject" => "🛍 Ny ordre modtaget | :Ordre ID",
+     "your_revenue" => "Din indtægt",
+],
+     "vendor-invite" => [
+     "title" => "Sælger invitation",
+     "message" => "Du har modtaget en invitation til at blive leverandør af :shop_name. Du kan acceptere eller afvise det ved at klikke på følgende knapper.",
+     "subject" => ":butiksnavn | Du har modtaget en invitation til at blive vores forhandler",
+     "accept" => "Accepter og bliv en leverandør",
+     "reject" => "Afvise",
+],
+     "shop-email-login" => [
+     "subject" => "Din loginkode til :shop",
+     "header-message" => "Vi sender dig denne e-mail, fordi du har anmodet om en loginkode til butikken. Find venligst din engangsadgangskode (OTP) nedenfor:",
+     "footer-message" => "Denne kode vil være gyldig i 10 minutter. Hvis du ikke har anmodet om denne login-kode, skal du ignorere denne e-mail.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Bekræft din e-mail | :butik",
+     "title" => "E-mailbekræftelse",
+     "header-message" => "Hej :navn,<br> Bekræft venligst, at **:e-mail** er din e-mailadresse ved at klikke på knappen eller brug nedenstående link inden for 48 timer.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Produktopdatering :shop",
+     "title" => "Opdatering om produktstatus - sidste 24 timer",
+     "message" => "Jeg håber, at denne besked finder dig godt. Dette er en kort opdatering for at informere dig om status for dine produkter på vores platform i løbet af de seneste 24 timer. I denne periode har der været ændringer i status for nogle produkter. Disse ændringer kan skyldes køb, lageropdateringer eller andre relaterede begivenheder. For mere detaljeret information om hvert produkt skal du logge ind på din konto og tjekke afsnittet 'Produktstatus'.",
+     "action" => "Åbn leverandørpanelet",
 ],
 ];

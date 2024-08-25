@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Kanarju pallidu",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Avorju",
+     "#B3E5FC" => "Silġ",
+     "#F1C40F" => "Dawn",
+     "#7DF9FF" => "Elettriku",
+     "#FF6B35" => "Inżul ix-xemx",
 ];

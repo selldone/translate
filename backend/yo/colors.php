@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Bia Canary",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Eyo",
+     "#B3E5FC" => "Yinyin",
+     "#F1C40F" => "Owurọ",
+     "#7DF9FF" => "Itanna",
+     "#FF6B35" => "Iwọoorun",
 ];

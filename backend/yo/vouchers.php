@@ -73,14 +73,4 @@
      "price" => 3.588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Oriire, forukọsilẹ ati gba kaadi ẹbun yii",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "O ti tẹ aaye sii nipasẹ ọna asopọ ti olumulo ti nṣiṣe lọwọ ti Selldone, ti o ba forukọsilẹ ni Selldone ni bayi, iwọ yoo gba kaadi ẹbun kan ti o tọ $ 14.9. Fiforukọṣilẹ ati kikọ ile itaja kan ni Selldone jẹ ọfẹ 100%, ṣugbọn o le lo awọn kaadi gbigba agbara wọnyi lati yọkuro iṣẹ.",
-],
 ];

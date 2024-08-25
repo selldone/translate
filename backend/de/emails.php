@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Bestellung vom Käufer bestätigt",
+     "email-types-description" => [
+     "shop-customer-join" => "Diese Nachricht heißt einen neuen Käufer im Shop willkommen.",
+     "order-checkout" => "Diese Benachrichtigung wird gesendet, wenn ein Käufer eine Bestellung bestätigt.",
+     "order-payment" => "Diese Benachrichtigung bestätigt die erfolgreiche Zahlung eines Kunden.",
+     "order-payment-admin" => "Diese Nachricht wird an einen Verkäufer gesendet, um ihn über eine bestätigte Bestellung zu benachrichtigen.",
+     "pos-checkout" => "Diese Benachrichtigung wird gesendet, um eine Point-of-Sale-Bestellung für einen Käufer zu bestätigen.",
+     "pos-payment" => "Diese Benachrichtigung bestätigt eine von einem Käufer an einer Verkaufsstelle getätigte Zahlung.",
+     "pos-payment-admin" => "Diese Nachricht benachrichtigt den Verkäufer über einen an seiner Verkaufsstelle getätigten Kauf.",
+     "shop-contact" => "Diese Benachrichtigung wird gesendet, wenn ein Kontaktformular abgeschickt wurde.",
+     "shop-giftcard" => "Diese Benachrichtigung informiert einen Benutzer darüber, dass er eine Geschenkkarte erhalten hat.",
+     "shop-vendor-join" => "Diese Nachricht heißt einen neuen Verkäufer im Shop willkommen.",
+     "shop-vendor-invite" => "Diese Nachricht wird versendet, um einen Anbieter einzuladen, Ihrem Marktplatz beizutreten.",
+     "shop-vendor-order" => "Diese Nachricht wird an den Lieferanten gesendet, wenn eine Bestellung im Status „Bezahlt“ oder „Nachnahme“ eingeht.",
+     "shop-vendor-products" => "Wird täglich versendet, um die Anbieter über den Status ihrer Produkte zu informieren.",
+     "shop-login" => "Benachrichtigen Sie den Benutzer aus Sicherheitsgründen über die Anmeldedaten, einschließlich IP-Adresse, Datum und Gerät.",
+     "login-code" => "Senden Sie Benutzern einen Einmalkennwortcode, damit sie sich im Store anmelden können.",
+     "shop-email-verify-link" => "Senden Sie einen Link zur Bestätigung der E-Mail-Adresse des Benutzers. Diese E-Mail wird gesendet, wenn sich ein Benutzer per SMS registriert und seine E-Mail-Adresse eingibt. Sie wird nicht gesendet, wenn sich der Benutzer direkt über soziale Medien oder E-Mail registriert.",
 ],
-        [
-     "title" => "Zahlungsbestätigung des Kunden",
-],
-        [
-     "title" => "Auftragsbestätigung an den Verkäufer",
-],
-        [
-     "title" => "Bestätigen Sie die Bestellung der Lagerbox für den Käufer",
-],
-        [
-     "title" => "Bestätigen Sie die Zahlung der Kasse für den Käufer",
-],
-        [
-     "title" => "Kaufbenachrichtigung im Karton des Verkäufers",
-],
-        [
-     "title" => "Kontaktformular informieren",
-],
-        [
-     "title" => "Herzlichen Glückwunsch zum Beitritt zum Shop",
-],
-        [
-     "title" => "Ankündigung des Erhalts einer Geschenkkarte an den Benutzer",
-]
-     ],
      "global" => [
      "greetings" => "Hallo :name",
      "end-statement" => "Support-team",
@@ -55,7 +44,7 @@
      "cvv" => "Lebenslauf",
      "expire_date" => "Ablaufdatum",
      "dashboard" => "Armaturenbrett",
-     "order" => "bestellen",
+     "order" => "Befehl",
      "view_order" => "Bestellung ansehen",
      "pay_now" => "Pay now",
      "official_selldone" => "OFFIZIELLER VERKAUF",
@@ -126,7 +115,7 @@
      "transaction" => "Transaktion",
      "fee" => "Gebühr",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Rechnung",
      "category" => "Kategorie",
      "password" => "Passwort",
@@ -150,6 +139,18 @@
      "receiver" => "Empfänger",
      "virtual-items" => "Virtuelle Gegenstände",
      "no-payment" => "Keine Zahlung!",
+     "enable" => "Ermöglichen",
+     "access" => "Zugriff",
+     "bank" => "Bankinfo",
+     "vendor" => "Verkäufer",
+     "view_content" => "Vollständigen Inhalt anzeigen",
+     "files" => "Dateien",
+     "download" => "Download",
+     "file_name" => "Dateiname",
+     "file_size" => "Größe",
+     "subscription" => "Abonnement",
+     "products" => "Produkte",
+     "vendor_products" => "Herstellerprodukte",
 ],
      "selldone-business-os" => "Selldone Business-Betriebssystem",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "hallo",
-     "name" => "Selldone-Team",
+     "name" => "Genehmigen, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "Kaufleute",
-     "name" => "Kaufleute, Selldone",
+     "name" => "Genehmigen, Selldone",
 ],
      "Approve" => [
      "id" => "genehmigen",
@@ -340,6 +341,12 @@
      "title" => "Wir freuen uns über Ihre Mitgliedschaft",
      "action" => "Jetzt besuchen",
 ],
+     "shop-vendor-join" => [
+     "subject" => "Lieferanten-Onboarding | :shop_title",
+     "category" => "Feier zum neuen Anbieter",
+     "title" => "Wir freuen uns über Ihre Mitgliedschaft",
+     "action" => "Vendor Panel",
+],
      "shop-giftcard" => [
      "subject" => "Geschenkkarte :shop_title",
      "category" => "Neue Karte hinzufügen",
@@ -354,7 +361,7 @@
 ],
      "order-checkout" => [
      "subject" => "🛍 Kasse bestellen | :Auftragsnummer",
-     "title" => "bestellen",
+     "title" => "Befehl",
      "message" => "Ihre Bestellung bestätigen,<br> Wir haben Ihre Bestellung. Wir senden Ihnen eine weitere E-Mail, wenn Ihre Bestellung versandt wird.",
      "payments" => "Zahlungen",
 ],
@@ -558,6 +565,7 @@
      "category" => "Sicherheitsbenachrichtigungen",
      "title" => "Melden Sie sich beim Konto an",
      "message" => "Sehr geehrter :name, Sie haben sich bei Ihrem Selldone-Konto angemeldet.",
+     "message-shop" => "Sehr geehrter :name, Sie wurden bei :shop_title angemeldet.",
      "footer" => "Wenn Sie nicht eingeloggt sind, ändern Sie bitte Ihr Passwort.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Seitenaufrufe insgesamt",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Sie haben eine neue Bestellung erhalten. Bitte gehen Sie in Ihrem Lieferantenbereich auf die Seite zur Bestellabwicklung.",
+     "subject" => "🛍 Neue Bestellung erhalten | :Auftragsnummer",
+     "your_revenue" => "Ihr Umsatz",
+],
+     "vendor-invite" => [
+     "title" => "Lieferanteneinladung",
+     "message" => "Sie haben eine Einladung erhalten, Lieferant von :shop_name zu werden. Sie können die Einladung annehmen oder ablehnen, indem Sie auf die folgenden Schaltflächen klicken.",
+     "subject" => ":shop_name | Sie haben eine Einladung erhalten, unser Lieferant zu werden",
+     "accept" => "Akzeptieren und Verkäufer werden",
+     "reject" => "Ablehnen",
+],
+     "shop-email-login" => [
+     "subject" => "Ihr Login-Code für :shop",
+     "header-message" => "Wir senden Ihnen diese E-Mail, weil Sie einen Login-Code für den Shop angefordert haben. Ihr Einmalpasswort (OTP) finden Sie unten:",
+     "footer-message" => "Dieser Code ist 10 Minuten lang gültig. Wenn Sie diesen Anmeldecode nicht angefordert haben, ignorieren Sie diese E-Mail bitte.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Bestätigen Sie Ihre E-Mail | :shop",
+     "title" => "E-Mail-Verifizierung",
+     "header-message" => "Hallo :name,<br> Bitte bestätigen Sie, dass **:email** Ihre E-Mail-Adresse ist, indem Sie innerhalb von 48 Stunden auf die Schaltfläche klicken oder den untenstehenden Link verwenden.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Produkt-Update: Shop",
+     "title" => "Update zum Produktstatus – Letzte 24 Stunden",
+     "message" => "Ich hoffe, diese Nachricht erreicht Sie wohlbehalten. Dies ist ein kurzes Update, um Sie über den Status Ihrer Produkte auf unserer Plattform in den letzten 24 Stunden zu informieren. Während dieses Zeitraums hat sich der Status einiger Produkte geändert. Diese Änderungen können auf Käufe, Bestandsaktualisierungen oder andere damit verbundene Ereignisse zurückzuführen sein. Für detailliertere Informationen zu jedem Produkt melden Sie sich bitte bei Ihrem Konto an und überprüfen Sie den Abschnitt „Produktstatus“.",
+     "action" => "Lieferanten-Panel öffnen",
 ],
 ];

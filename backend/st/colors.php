@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Pale Canary",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Lenaka la tlou",
+     "#B3E5FC" => "Leqhoa",
+     "#F1C40F" => "Hoseng",
+     "#7DF9FF" => "Motlakase",
+     "#FF6B35" => "Ha letsatsi le likela",
 ];

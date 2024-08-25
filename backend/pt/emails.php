@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Pedido confirmado pelo comprador",
+     "email-types-description" => [
+     "shop-customer-join" => "Esta mensagem dá boas-vindas a um novo comprador na loja.",
+     "order-checkout" => "Esta notificação é enviada quando um comprador confirma um pedido.",
+     "order-payment" => "Esta notificação confirma o pagamento bem-sucedido feito por um cliente.",
+     "order-payment-admin" => "Esta mensagem é enviada a um vendedor para notificá-lo de um pedido confirmado.",
+     "pos-checkout" => "Esta notificação é enviada para confirmar um pedido de ponto de venda para um comprador.",
+     "pos-payment" => "Esta notificação confirma um pagamento no ponto de venda feito por um comprador.",
+     "pos-payment-admin" => "Esta mensagem notifica o vendedor sobre uma compra feita em seu ponto de venda.",
+     "shop-contact" => "Esta notificação é enviada quando um formulário de contato é enviado.",
+     "shop-giftcard" => "Esta notificação informa ao usuário que ele recebeu um vale-presente.",
+     "shop-vendor-join" => "Esta mensagem dá boas-vindas a um novo fornecedor na loja.",
+     "shop-vendor-invite" => "Esta mensagem é enviada para convidar um fornecedor a participar do seu mercado.",
+     "shop-vendor-order" => "Esta mensagem é enviada ao fornecedor quando um pedido é recebido no status Pago ou Pagamento na Entrega (COD).",
+     "shop-vendor-products" => "Enviado diariamente para atualizar os fornecedores sobre o status de seus produtos.",
+     "shop-login" => "Notifique o usuário com detalhes de login, incluindo endereço IP, data e dispositivo, para fins de segurança.",
+     "login-code" => "Envie um código de senha de uso único para que os usuários façam login na loja.",
+     "shop-email-verify-link" => "Envie um link para verificar o endereço de e-mail do usuário. Este e-mail é enviado quando um usuário se registra por SMS e insere seu e-mail e não é enviado quando o usuário se registra por rede social ou e-mail diretamente.",
 ],
-        [
-     "title" => "Confirmação de pagamento do cliente",
-],
-        [
-     "title" => "Aviso de confirmação do pedido ao vendedor",
-],
-        [
-     "title" => "Confirme o pedido da caixa da loja para o comprador",
-],
-        [
-     "title" => "Confirme o pagamento da caixa registradora para o comprador",
-],
-        [
-     "title" => "Aviso de compra na caixa do vendedor",
-],
-        [
-     "title" => "Informe o formulário de contato",
-],
-        [
-     "title" => "Parabéns por entrar na loja",
-],
-        [
-     "title" => "Anúncio de recebimento de um vale-presente para o usuário",
-]
-     ],
      "global" => [
      "greetings" => "Oi :nome",
      "end-statement" => "Equipe de suporte",
@@ -126,7 +115,7 @@
      "transaction" => "Transação",
      "fee" => "Taxa",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Projeto de lei",
      "category" => "Categoria",
      "password" => "Senha",
@@ -150,6 +139,18 @@
      "receiver" => "Receptor",
      "virtual-items" => "Itens virtuais",
      "no-payment" => "Sem pagamento!",
+     "enable" => "Habilitar",
+     "access" => "Acesso",
+     "bank" => "Informações bancárias",
+     "vendor" => "Fornecedor",
+     "view_content" => "Ver conteúdo completo",
+     "files" => "arquivos",
+     "download" => "Download",
+     "file_name" => "Nome do arquivo",
+     "file_size" => "Tamanho",
+     "subscription" => "Inscrição",
+     "products" => "Produtos",
+     "vendor_products" => "Produtos do fornecedor",
 ],
      "selldone-business-os" => "SO Comercial Vendido",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "Oi",
-     "name" => "Equipe Vendida",
+     "name" => "Aprovar, Vendido",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "comerciantes",
-     "name" => "Comerciantes, Selldone",
+     "name" => "Aprovar, Vendido",
 ],
      "Approve" => [
      "id" => "aprovar",
@@ -340,6 +341,12 @@
      "title" => "Estamos felizes por sua adesão",
      "action" => "Visite agora",
 ],
+     "shop-vendor-join" => [
+     "subject" => "Integração de fornecedores | :shop_title",
+     "category" => "Celebração de novo fornecedor",
+     "title" => "Estamos felizes por sua adesão",
+     "action" => "Vendor Panel",
+],
      "shop-giftcard" => [
      "subject" => "Cartão-presente :shop_title",
      "category" => "Adicionar novo cartão",
@@ -349,7 +356,7 @@
 ],
      "contact" => [
      "subject" => "Centro de apoio | :fazer compras",
-     "category" => "Apoio, suporte",
+     "category" => "apoiar",
      "title" => "Você recebeu uma resposta",
 ],
      "order-checkout" => [
@@ -558,6 +565,7 @@
      "category" => "Notificações de segurança",
      "title" => "Entrar na conta",
      "message" => "Caro :name, você fez login na sua conta Selldone.",
+     "message-shop" => "Caro :name, você foi conectado em :shop_title .",
      "footer" => "Se você não estiver logado, altere sua senha.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Total de visualizações de página do site",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Você recebeu um novo pedido. Por favor, vá para a página de processamento de pedidos no seu painel de fornecedor.",
+     "subject" => "🛍 Novo Pedido Recebido | :order_id",
+     "your_revenue" => "Sua Receita",
+],
+     "vendor-invite" => [
+     "title" => "Convite para Fornecedor",
+     "message" => "Você recebeu um convite para se tornar um fornecedor de :shop_name. Você pode aceitar ou rejeitar clicando nos seguintes botões.",
+     "subject" => ":shop_name | Você recebeu um convite para se tornar nosso fornecedor",
+     "accept" => "Aceite e torne-se um fornecedor",
+     "reject" => "Rejeitar",
+],
+     "shop-email-login" => [
+     "subject" => "Seu código de login para :shop",
+     "header-message" => "Estamos enviando este e-mail porque você solicitou um código de login para a loja. Por favor, encontre sua Senha Única (OTP) abaixo:",
+     "footer-message" => "Este código será válido por 10 minutos. Se você não solicitou este código de login, ignore este e-mail.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Verifique seu e-mail | :shop",
+     "title" => "Verificação de e-mail",
+     "header-message" => "Olá :name,<br> Confirme se **:email** é seu endereço de e-mail clicando no botão ou use o link abaixo dentro de 48 horas.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Atualização de produtos: loja",
+     "title" => "Atualização do status do produto - últimas 24 horas",
+     "message" => "Espero que esta mensagem o encontre bem. Esta é uma breve atualização para informá-lo sobre o status dos seus produtos em nossa plataforma nas últimas 24 horas. Durante este período, houve alterações no status de alguns produtos. Essas alterações podem ser devido a compras, atualizações de estoque ou outros eventos relacionados. Para obter informações mais detalhadas sobre cada produto, faça login em sua conta e verifique a seção 'Status do produto'.",
+     "action" => "Painel de Fornecedores Aberto",
 ],
 ];

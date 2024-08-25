@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Gutlaýarys, hasaba alyň we bu sowgat kartyny alyň",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Selldone-yň işjeň ulanyjysynyň baglanyşygy arkaly sahypa girdiňiz, eger Selldone-da hasaba dursaňyz, 14,9 dollarlyk sowgat kartyny alarsyňyz. Selldone dükanyny hasaba almak we gurmak 100% mugt, ýöne hyzmaty doldurmak üçin bu zarýad kartalaryny ulanyp bilersiňiz.",
-],
 ];

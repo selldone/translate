@@ -1,9 +1,10 @@
 <?php 
 
  return [
-     "password" => "Heslá musia mať aspoň šesť znakov a musia zodpovedať potvrdeniu.",
      "reset" => "Vaše heslo bolo obnovené!",
      "sent" => "Poslali sme vám e-mailom odkaz na obnovenie hesla!",
+     "throttled" => "Pred opätovným pokusom počkajte.",
      "token" => "Tento token na obnovenie hesla je neplatný.",
      "user" => "Nemôžeme nájsť používateľa s touto e-mailovou adresou.",
+     "password" => "Heslá musia mať aspoň šesť znakov a musia zodpovedať potvrdeniu.",
 ];

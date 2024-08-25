@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Dessa uppgifter stämmer inte överens med våra uppgifter.",
+     "password" => "Det angivna lösenordet är felaktigt.",
      "throttle" => "För många inloggningsförsök. Försök igen om :seconds sekunder.",
      "title_shop" => "Logga in på :name",
      "title_app" => "Applikationsåtkomst för :name",

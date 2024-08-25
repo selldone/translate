@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Pesanan disahkan oleh pembeli",
+     "email-types-description" => [
+     "shop-customer-join" => "Mesej ini mengalu-alukan pembeli baharu ke kedai.",
+     "order-checkout" => "Pemberitahuan ini dihantar apabila pembeli mengesahkan pesanan.",
+     "order-payment" => "Pemberitahuan ini mengesahkan pembayaran yang berjaya dibuat oleh pelanggan.",
+     "order-payment-admin" => "Mesej ini dihantar kepada penjual untuk memberitahu mereka tentang pesanan yang disahkan.",
+     "pos-checkout" => "Pemberitahuan ini dihantar untuk mengesahkan pesanan tempat jualan untuk pembeli.",
+     "pos-payment" => "Pemberitahuan ini mengesahkan pembayaran tempat jualan yang dibuat oleh pembeli.",
+     "pos-payment-admin" => "Mesej ini memberitahu penjual tentang pembelian yang dibuat di tempat jualan mereka.",
+     "shop-contact" => "Pemberitahuan ini dihantar apabila borang hubungan telah diserahkan.",
+     "shop-giftcard" => "Pemberitahuan ini memberitahu pengguna bahawa mereka telah menerima kad hadiah.",
+     "shop-vendor-join" => "Mesej ini mengalu-alukan vendor baharu ke kedai.",
+     "shop-vendor-invite" => "Mesej ini dihantar untuk menjemput vendor menyertai pasaran anda.",
+     "shop-vendor-order" => "Mesej ini dihantar kepada vendor apabila pesanan diterima sama ada dalam status Dibayar atau Tunai Semasa Penghantaran (COD).",
+     "shop-vendor-products" => "Dihantar setiap hari untuk mengemas kini vendor tentang status produk mereka.",
+     "shop-login" => "Beritahu pengguna dengan butiran log masuk, termasuk alamat IP, tarikh dan peranti, untuk tujuan keselamatan.",
+     "login-code" => "Hantar kod kata laluan sekali untuk pengguna log masuk ke kedai.",
+     "shop-email-verify-link" => "Hantar pautan untuk mengesahkan alamat e-mel pengguna. Mel ini dihantar apabila pengguna mendaftar melalui SMS dan memasukkan e-mel mereka dan tidak dihantar apabila pengguna mendaftar melalui sosial atau e-mel secara langsung.",
 ],
-        [
-     "title" => "Pengesahan pembayaran pelanggan",
-],
-        [
-     "title" => "Notis pengesahan pesanan kepada penjual",
-],
-        [
-     "title" => "Sahkan pesanan kotak kedai untuk pembeli",
-],
-        [
-     "title" => "Sahkan pembayaran daftar tunai untuk pembeli",
-],
-        [
-     "title" => "Notis pembelian dalam kotak penjual",
-],
-        [
-     "title" => "Maklumkan borang hubungan",
-],
-        [
-     "title" => "Tahniah kerana menyertai kedai",
-],
-        [
-     "title" => "Pengumuman menerima kad hadiah kepada pengguna",
-]
-     ],
      "global" => [
      "greetings" => "Hai : nama",
      "end-statement" => "Pasukan penyokong",
@@ -126,7 +115,7 @@
      "transaction" => "Transaksi",
      "fee" => "Bayaran",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bil",
      "category" => "kategori",
      "password" => "Kata laluan",
@@ -150,6 +139,18 @@
      "receiver" => "Penerima",
      "virtual-items" => "Item maya",
      "no-payment" => "Tiada bayaran!",
+     "enable" => "Dayakan",
+     "access" => "Akses",
+     "bank" => "Maklumat bank",
+     "vendor" => "Penjual",
+     "view_content" => "Lihat kandungan penuh",
+     "files" => "Fail",
+     "download" => "Muat turun",
+     "file_name" => "Nama Fail",
+     "file_size" => "Saiz",
+     "subscription" => "Langganan",
+     "products" => "Produk",
+     "vendor_products" => "Produk Penjual",
 ],
      "selldone-business-os" => "OS Perniagaan Selldone",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "hai",
-     "name" => "Pasukan Seldone",
+     "name" => "Luluskan, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "peniaga",
-     "name" => "Pedagang, Seldone",
+     "name" => "Luluskan, Selldone",
 ],
      "Approve" => [
      "id" => "terima",
@@ -339,6 +340,12 @@
      "category" => "Sambutan pelanggan baru",
      "title" => "Kami gembira untuk keahlian anda",
      "action" => "Lawati sekarang",
+],
+     "shop-vendor-join" => [
+     "subject" => "Vendor Onboarding | :shop_title",
+     "category" => "Sambutan vendor baru",
+     "title" => "Kami gembira untuk keahlian anda",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Giftcard :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Pemberitahuan keselamatan",
      "title" => "Log masuk ke Akaun",
      "message" => "Dear :name, anda telah log masuk ke akaun Seldone anda.",
+     "message-shop" => "Dear :name, anda telah log masuk ke :shop_title .",
      "footer" => "Jika anda tidak log masuk, sila tukar kata laluan anda.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Jumlah paparan halaman tapak web",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Anda telah menerima pesanan baharu. Sila pergi ke halaman pemprosesan pesanan dalam panel vendor anda.",
+     "subject" => "🛍 Pesanan Baru Diterima | :order_id",
+     "your_revenue" => "Hasil Anda",
+],
+     "vendor-invite" => [
+     "title" => "Jemputan Penjual",
+     "message" => "Anda telah menerima jemputan untuk menjadi vendor :shop_name. Anda boleh menerima atau menolaknya dengan mengklik pada butang berikut.",
+     "subject" => ":nama_kedai | Anda menerima jemputan untuk menjadi vendor kami",
+     "accept" => "Terima & Jadi Vendor",
+     "reject" => "Tolak",
+],
+     "shop-email-login" => [
+     "subject" => "Kod Log Masuk anda untuk :shop",
+     "header-message" => "Kami menghantar e-mel ini kepada anda kerana anda meminta kod log masuk untuk kedai. Sila dapatkan Kata Laluan Sekali Semula (OTP) anda di bawah:",
+     "footer-message" => "Kod ini akan sah selama 10 minit. Jika anda tidak meminta kod log masuk ini, sila abaikan e-mel ini.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Sahkan e-mel anda | :kedai",
+     "title" => "Pengesahan E-mel",
+     "header-message" => "Hai: nama,<br> Sila sahkan bahawa **:email** ialah alamat e-mel anda dengan mengklik butang atau gunakan pautan di bawah dalam masa 48 jam.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Kemas Kini Produk :kedai",
+     "title" => "Kemas kini tentang Status Produk - 24 Jam Terakhir",
+     "message" => "Saya harap mesej ini menemui anda dengan baik. Ini adalah kemas kini ringkas untuk memaklumkan anda tentang status produk anda di platform kami sepanjang 24 jam yang lalu. Dalam tempoh ini, terdapat perubahan dalam status beberapa produk. Perubahan ini mungkin disebabkan oleh pembelian, kemas kini stok atau acara lain yang berkaitan. Untuk maklumat lebih terperinci tentang setiap produk, sila log masuk ke akaun anda dan semak bahagian 'Status Produk'.",
+     "action" => "Buka Panel Vendor",
 ],
 ];

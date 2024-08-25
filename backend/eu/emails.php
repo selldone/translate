@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Erosleak berretsitako eskaera",
+     "email-types-description" => [
+     "shop-customer-join" => "Mezu honek erosle berri bati ongietorria ematen dio dendara.",
+     "order-checkout" => "Jakinarazpen hau erosle batek eskaera bat berresten duenean bidaltzen da.",
+     "order-payment" => "Jakinarazpen honek bezero batek egindako ordainketa arrakastatsua berresten du.",
+     "order-payment-admin" => "Mezu hau saltzaile bati bidaltzen zaio berretsitako eskaeraren berri emateko.",
+     "pos-checkout" => "Jakinarazpen hau erosle baten salmenta puntuko eskaera berresteko bidaltzen da.",
+     "pos-payment" => "Jakinarazpen honek erosle batek egindako salmenta puntuko ordainketa berresten du.",
+     "pos-payment-admin" => "Mezu honek bere salmenta puntuan egindako erosketa baten berri ematen dio saltzaileari.",
+     "shop-contact" => "Jakinarazpen hau harremanetarako formularioa bidaltzen denean bidaltzen da.",
+     "shop-giftcard" => "Jakinarazpen honek erabiltzaile bati opari-txartel bat jaso duela jakinarazten dio.",
+     "shop-vendor-join" => "Mezu honek saltzaile berri bati ongi etorria ematen dio dendara.",
+     "shop-vendor-invite" => "Mezu hau saltzaile bat zure merkatuan sartzera gonbidatzeko bidaltzen da.",
+     "shop-vendor-order" => "Mezu hau saltzaileari bidaltzen zaio eskaera bat Ordaindu edo Eskudirutan (COD) egoeran jasotzen denean.",
+     "shop-vendor-products" => "Egunero bidaltzen dira saltzaileek beren produktuen egoerari buruz eguneratzeko.",
+     "shop-login" => "Jakinarazi erabiltzaileari saioa hasteko xehetasunak, IP helbidea, data eta gailua barne, segurtasun helburuetarako.",
+     "login-code" => "Bidali behin-behineko pasahitz kodea erabiltzaileei dendan saioa hasteko.",
+     "shop-email-verify-link" => "Bidali esteka bat erabiltzailearen helbide elektronikoa egiaztatzeko. Mezu hau erabiltzaile bat SMS bidez erregistratzen denean eta bere posta elektronikoa sartzen denean bidaltzen da eta ez da erabiltzailea zuzenean sare sozialen edo posta elektroniko bidez erregistratzen denean bidaltzen.",
 ],
-        [
-     "title" => "Bezeroaren ordainketaren berrespena",
-],
-        [
-     "title" => "Eskaera berrespen-oharra saltzaileari",
-],
-        [
-     "title" => "Berretsi dendako kutxaren eskaera eroslearentzat",
-],
-        [
-     "title" => "Berretsi kutxa erregistratzailearen ordainketa eroslearentzat",
-],
-        [
-     "title" => "Erosketaren oharra saltzailearen kutxan",
-],
-        [
-     "title" => "Harremanetarako formularioari jakinarazi",
-],
-        [
-     "title" => "Zorionak dendan sartzeagatik",
-],
-        [
-     "title" => "Erabiltzaileari opari txartela jasotzearen iragarpena",
-]
-     ],
      "global" => [
      "greetings" => "Kaixo: izena",
      "end-statement" => "Laguntza taldea",
@@ -126,7 +115,7 @@
      "transaction" => "Transakzioa",
      "fee" => "Kuota",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Kategoria",
      "password" => "Pasahitza",
@@ -150,6 +139,18 @@
      "receiver" => "Hartzailea",
      "virtual-items" => "Elementu birtualak",
      "no-payment" => "Ordainketarik ez!",
+     "enable" => "Gaitu",
+     "access" => "Sarbidea",
+     "bank" => "Bankuaren informazioa",
+     "vendor" => "Saltzailea",
+     "view_content" => "Ikusi eduki osoa",
+     "files" => "Fitxategiak",
+     "download" => "Deskargatu",
+     "file_name" => "Fitxategiaren izena",
+     "file_size" => "Tamaina",
+     "subscription" => "Harpidetza",
+     "products" => "Produktuak",
+     "vendor_products" => "Saltzaileen produktuak",
 ],
      "selldone-business-os" => "Selldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "hi",
-     "name" => "Selldone taldea",
+     "name" => "Onartu, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "merkatariak",
-     "name" => "Merkatariak, Selldone",
+     "name" => "Onartu, Selldone",
 ],
      "Approve" => [
      "id" => "onartzea",
@@ -339,6 +340,12 @@
      "category" => "Bezero berrien ospakizuna",
      "title" => "Pozik gaude zure kide izateagatik",
      "action" => "Bisitatu orain",
+],
+     "shop-vendor-join" => [
+     "subject" => "Saltzaileak sartzea | :denda_titulua",
+     "category" => "Saltzaile berrien ospakizuna",
+     "title" => "Pozik gaude zure kide izateagatik",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Opari txartela:shop_title",
@@ -558,6 +565,7 @@
      "category" => "Segurtasun jakinarazpenak",
      "title" => "Hasi saioa Kontuan",
      "message" => "Maitea :izena, zure Selldone kontuan saioa hasi zara.",
+     "message-shop" => "Maitea :name, saioa hasi zara :shop_title .",
      "footer" => "Hasi saioa ez bazaude, mesedez aldatu pasahitza.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Webguneko orrialdeen bistak guztira",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Eskaera berri bat jaso duzu. Mesedez, joan zure saltzaileen paneleko eskaerak prozesatzeko orrira.",
+     "subject" => "🛍 Eskaera berria jaso da | :order_id",
+     "your_revenue" => "Zure diru-sarrerak",
+],
+     "vendor-invite" => [
+     "title" => "Saltzaileen gonbidapena",
+     "message" => ":shop_name-ren saltzaile izateko gonbidapena jaso duzu. Onartu edo baztertu dezakezu hurrengo botoietan klik eginez.",
+     "subject" => ":denda_izena | Gure saltzaile izateko gonbidapena jaso duzu",
+     "accept" => "Onartu eta bihurtu saltzaile",
+     "reject" => "Baztertu",
+],
+     "shop-email-login" => [
+     "subject" => "Zure saioa hasteko kodea :shop",
+     "header-message" => "Mezu elektroniko hau bidaltzen dizugu dendarako saioa hasteko kodea eskatu duzulako. Mesedez, aurkitu behean zure behin-behineko pasahitza (OTP):",
+     "footer-message" => "Kode honek 10 minutuko balioa izango du. Saio-hasierako kode hau eskatu ez baduzu, mesedez, ez ikusi mezu elektroniko honi.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Egiaztatu zure helbide elektronikoa | :denda",
+     "title" => "Posta elektronikoaren egiaztapena",
+     "header-message" => "Kaixo :izena,<br> Mesedez, berretsi **:email** zure helbide elektronikoa dela botoian klik eginez edo erabili beheko esteka 48 orduko epean.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Produktuen eguneraketa: denda",
+     "title" => "Produktuen egoerari buruzko eguneratzea - Azken 24 orduak",
+     "message" => "Espero dut mezu honek ondo aurkitzea. Eguneratze labur bat da gure plataforman azken 24 orduetan zure produktuen egoeraren berri emateko. Tarte horretan, produktu batzuen egoeran aldaketak egon dira. Aldaketa hauek erosketak, akzioen eguneraketak edo erlazionatutako beste gertakari batzuk izan daitezke. Produktu bakoitzari buruzko informazio zehatzagoa lortzeko, hasi saioa zure kontuan eta egiaztatu 'Produktuen egoera' atala.",
+     "action" => "Ireki Saltzaileen panela",
 ],
 ];

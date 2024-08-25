@@ -73,14 +73,4 @@
      "price" => 3.588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Xin chúc mừng, đăng ký và nhận thẻ quà tặng này",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Bạn đã vào trang web thông qua liên kết của một người dùng đang hoạt động của Selldone, nếu bạn đăng ký tại Selldone ngay bây giờ, bạn sẽ nhận được một thẻ quà tặng trị giá 14,9 đô la. Đăng ký và xây dựng cửa hàng tại Selldone là miễn phí 100%, tuy nhiên bạn có thể sử dụng các thẻ nạp này để giải tỏa dịch vụ.",
-],
 ];

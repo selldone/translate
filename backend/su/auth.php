@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Kapercayaan ieu henteu cocog sareng catetan urang.",
+     "password" => "Sandi anu disayogikeun lepat.",
      "throttle" => "Loba teuing usaha login. Mangga cobian deui dina : detik detik.",
      "title_shop" => "Asup ka: ngaran",
      "title_app" => "Aksés aplikasi tina:name",

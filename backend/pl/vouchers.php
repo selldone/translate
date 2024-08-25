@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Gratulacje, zarejestruj się i otrzymaj tę kartę podarunkową",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Wszedłeś na stronę poprzez link aktywnego użytkownika Selldone, jeśli zarejestrujesz się teraz w Selldone, otrzymasz kartę podarunkową o wartości 14,9 $. Rejestracja i budowa sklepu w Selldone jest w 100% darmowa, ale możesz użyć tych kart doładowania, aby odciążyć obsługę.",
-],
 ];

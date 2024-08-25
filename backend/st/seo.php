@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Likarolo tsohle tsa botsebi tsa ho aha lebenkele le sebaka sa marang-rang mahala ntle le moeli oa nako li u emetse.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Ts'ebeletso ea webo, litokomane tsa nts'etsopele ea ts'ebeliso le litšebeletso tse hokahaneng.",
-],
      "apps" => [
      "title" => "App Store",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Linaha Tse Tšehetsoeng le Litefo tsa Lehae - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, Mohato o latelang oa ntlafatso ea lits'ebeletso tsa khoebo ho tloha sethaleng sa e-commerce ho ea ho ntho e se nang sehlooho, plugin, kapa khoutu. 100% ponong!",
+],
+     "participant" => [
+     "title" => "Sechaba seo u se batlang - Bapala 'me u Hlōle $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "U ka nka karolo sechabeng sa selldone ka ho theha livideo tse khutšoane ho thusa ba bang le ho fumana chelete e ka bang 20 USD ka mpho ka video.",
+],
+     "tax" => [
+     "title" => "Lenane la Litefiso tsa Lekhetho la Lefatše",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "U ka hlokomoloha melao ea lekhetho 'me ua theha boemo ba lekhetho bo fetang bo le bong bakeng sa mekhahlelo e fapaneng ea lihlahisoa.",
+],
+     "premium" => [
+     "title" => "Ntlafatsa ho ea ho Premium 'me U Fetole Papali ea Hau ea E-Commerce",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Ntlafatsa lebenkele la hau la inthanete ka Selldone Premium. Fumana lisebelisoa tse ikhethileng tsa AI, litempele tsa bespoke, le tse ling ho matlafatsa ts'ebetso le ho hlahella 'marakeng oa dijithale. Eba setho hona joale bakeng sa boiphihlelo bo ntlafetseng, bo bobebe ba e-commerce!",
+],
+     "builder" => [
+     "title" => "Webapp ea Sehahi sa Leqephe le Leqephe la ho Lula ea Mahala - Ha ho hlokahale ho Kena",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Theha maqephe a marang-rang a makatsang le maqephe a ho lulisa ntle le matla ka sehahi le mohlophisi oa rona oa mahala, o bonolo oa basebelisi. Ha ho hlokahale ho kena. Rala, iketsetse, 'me u phatlalatse maqephe a hau a marang-rang kapele ka sebopeho sa rona se hlakileng sa ho hula le ho theola. E nepahetse bakeng sa barekisi, beng ba likhoebo tse nyane, le bahlahisi ba batlang tharollo ea meralo ea webo e se nang mathata.",
 ],
 ],
      "shuttle" => [

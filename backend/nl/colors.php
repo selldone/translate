@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Bleke Kanarie",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "ivoor",
+     "#B3E5FC" => "Ijs",
+     "#F1C40F" => "Ochtendgloren",
+     "#7DF9FF" => "Elektrisch",
+     "#FF6B35" => "Zonsondergang",
 ];

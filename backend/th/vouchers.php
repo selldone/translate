@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "ยินดีด้วย ลงทะเบียนและรับบัตรของขวัญนี้",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "คุณได้เข้าสู่ไซต์ผ่านลิงก์ของผู้ใช้ที่ใช้งานอยู่ของ Selldone หากคุณลงทะเบียนใน Selldone ตอนนี้ คุณจะได้รับบัตรของขวัญมูลค่า 14.9 ดอลลาร์ การลงทะเบียนและสร้างร้านค้าใน Selldone นั้นฟรี 100% แต่คุณสามารถใช้บัตรเติมเงินเหล่านี้เพื่อบรรเทาบริการได้",
-],
 ];

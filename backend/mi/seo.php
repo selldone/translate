@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Ko nga ahuatanga ngaio katoa mo te hanga toa me te waahi mo te kore utu me te kore he wa e tatari ana ki a koe.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Ratonga Tukutuku, tuhinga mo te whanaketanga tono me te ratonga hono.",
-],
      "apps" => [
      "title" => "Toa taupānga",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Nga Whenua Tautokohia me nga utu a-rohe - Pakihi OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "OS Pakihi, Ko te waahanga whanaketanga e whai ake nei o nga ratonga tauhokohoko mai i nga papaaho e-tauhokohoko ki tetahi mea kaore he kaupapa, monomai, waehere ranei. 100% tirohanga!",
+],
+     "participant" => [
+     "title" => "Ko te hapori e hiahia ana koe — Play and Win $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Ka taea e koe te uru atu ki te hapori seldone ma te hanga ataata poto hei awhina i etahi atu ka eke ki te 20 USD nama koha mo ia ataata.",
+],
+     "tax" => [
+     "title" => "Rarangi Reiti Taake o te Ao",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Ka taea e koe te whakakore i nga ture taake me te hanga i nga korero taake neke atu i te kotahi mo nga waahanga hua rereke.",
+],
+     "premium" => [
+     "title" => "Whakapai ake ki te Premium me te Hurihia To Keemu E-tauhokohoko",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Whakanuia to toa ipurangi me te Selldone Premium. Whakauru atu ki nga taputapu AI motuhake, nga tauira kua tohua, me etahi atu hei whakanui ake i te kaha me te tu atu ki te maakete matihiko. Hono mai inaianei mo te wheako e-tauhokohoko maamaa ake!",
+],
+     "builder" => [
+     "title" => "Kaihanga Whārangi Kore me te Kaiwhakatika Whārangi Taunga Webapp - Karekau he Takiuru",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Waihangahia nga wharangi tukutuku me nga wharangi taunga ma te ngawari me to maatau kaihanga wharangi kore utu, ratarata-kaiwhakamahi me te ētita. Karekau he takiuru e hiahiatia. Hoahoa, whakarite, me te whakaputa tere i o wharangi paetukutuku me to maatau atanga toia-ma-taka. He tino pai mo nga kaihokohoko, kaipakihi iti, me nga kaiwhakawhanake e rapu ana i te otinga hoahoa paetukutuku kore he raru.",
 ],
 ],
      "shuttle" => [

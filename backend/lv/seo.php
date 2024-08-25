@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Jūs gaida visas profesionālās iespējas, kā bez maksas izveidot veikalu un vietni bez laika ierobežojuma.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Web pakalpojums, dokumentācija lietojumprogrammu izstrādei un savienots pakalpojums.",
-],
      "apps" => [
      "title" => "Aplikāciju veikals",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Atbalstītās valstis un vietējie maksājumi — biznesa operētājsistēma",
      "image" => "/images/seo/en/countries.png",
      "description" => "Biznesa operētājsistēma — nākamais tirdzniecības pakalpojumu attīstības solis no e-komercijas platformām uz kaut ko bez motīva, spraudņa vai koda. 100% vizuāli!",
+],
+     "participant" => [
+     "title" => "Vēlamā kopiena — spēlējiet un laimējiet 20 $",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Varat piedalīties pārdotajā kopienā, izveidojot īsus videoklipus, lai palīdzētu citiem, un saņemt dāvanu kredītu līdz 20 USD par katru videoklipu.",
+],
+     "tax" => [
+     "title" => "Globālais nodokļu likmju saraksts",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Varat ignorēt nodokļu noteikumus un izveidot vairāk nekā vienu nodokļu profilu dažādām produktu kategorijām.",
+],
+     "premium" => [
+     "title" => "Jauniniet uz Premium un pārveidojiet savu e-komercijas spēli",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Uzlabojiet savu tiešsaistes veikalu ar Selldone Premium. Piekļūstiet ekskluzīviem AI rīkiem, pielāgotām veidnēm un citam, lai palielinātu efektivitāti un izceltos digitālajā tirgū. Pievienojieties tagad, lai iegūtu gudrāku un gludāku e-komercijas pieredzi!",
+],
+     "builder" => [
+     "title" => "Bezmaksas lapu veidotājs un galveno lapu redaktors tīmekļa lietotne — nav nepieciešama pieteikšanās",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Bez piepūles izveidojiet satriecošas tīmekļa lapas un galvenās lapas, izmantojot mūsu bezmaksas, lietotājam draudzīgo lapu veidotāju un redaktoru. Nav nepieciešama pieteikšanās. Ātri noformējiet, pielāgojiet un publicējiet savas tīmekļa lapas, izmantojot mūsu intuitīvo vilkšanas un nomešanas saskarni. Lieliski piemērots mārketinga speciālistiem, mazo uzņēmumu īpašniekiem un izstrādātājiem, kuri meklē tīmekļa dizaina risinājumu bez problēmām.",
 ],
 ],
      "shuttle" => [

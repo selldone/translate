@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "恭喜，註冊並收到此禮品卡",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "您已通過 Selldone 活躍用戶的鏈接進入網站，如果您現在在 Selldone 註冊，您將收到價值 14.9 美元的禮品卡。在 Selldone 註冊和建立商店是 100% 免費的，但您可以使用這些充值卡來減輕服務。",
-],
 ];

@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Az ingyenes, időkorlátozás nélküli üzlet- és telephelyépítés minden professzionális funkciója Önre vár.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Webszolgáltatás, alkalmazásfejlesztési dokumentáció és szolgáltatás csatlakoztatva.",
-],
      "apps" => [
      "title" => "Alkalmazásbolt",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Támogatott országok és helyi fizetések – Üzleti operációs rendszer",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS: A kereskedelmi szolgáltatások következő evolúciós lépése az e-kereskedelmi platformoktól a téma, beépülő modul vagy kód nélküli dolgok felé. 100% vizuálisan!",
+],
+     "participant" => [
+     "title" => "A kívánt közösség – Játssz és nyerj 20 dollárt",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Részt vehetsz a selldon közösségben, ha rövid videókat készítesz másoknak, és videónként akár 20 USD ajándék jóváírást is kaphatsz.",
+],
+     "tax" => [
+     "title" => "Globális adókulcsok listája",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Felülbírálhatja az adószabályokat, és több adóprofilt is létrehozhat a különböző termékkategóriákhoz.",
+],
+     "premium" => [
+     "title" => "Frissítsen Premiumra, és alakítsa át e-kereskedelmi játékát",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Emelje fel online áruházát a Selldone Premium segítségével. Hozzáférés exkluzív AI-eszközökhöz, testreszabott sablonokhoz és még sok máshoz, hogy növelje a hatékonyságot és kiemelkedjen a digitális piacon. Csatlakozzon most egy okosabb, elegánsabb e-kereskedelmi élményért!",
+],
+     "builder" => [
+     "title" => "Ingyenes oldalkészítő és céloldalszerkesztő webalkalmazás – nincs szükség bejelentkezésre",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Ingyenes, felhasználóbarát oldalkészítőnkkel és szerkesztőnkkel könnyedén készíthet lenyűgöző weboldalakat és céloldalakat. Nincs szükség bejelentkezésre. Tervezze meg, szabja testre és tegye közzé weboldalait gyorsan az intuitív fogd és vidd felületünkkel. Tökéletes marketingesek, kisvállalkozások tulajdonosai és fejlesztők számára, akik problémamentes webdesign megoldást keresnek.",
 ],
 ],
      "shuttle" => [

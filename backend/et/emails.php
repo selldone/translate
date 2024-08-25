@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Ostja poolt kinnitatud tellimus",
+     "email-types-description" => [
+     "shop-customer-join" => "See teade tervitab uut ostjat poes.",
+     "order-checkout" => "See teade saadetakse siis, kui ostja kinnitab tellimuse.",
+     "order-payment" => "See teatis kinnitab kliendi sooritatud makse õnnestumist.",
+     "order-payment-admin" => "See teade saadetakse müüjale, et teavitada teda kinnitatud tellimusest.",
+     "pos-checkout" => "See teade saadetakse ostja müügikoha tellimuse kinnitamiseks.",
+     "pos-payment" => "See teatis kinnitab ostja tehtud müügikoha makse.",
+     "pos-payment-admin" => "See teade teavitab müüjat tema müügikohas tehtud ostust.",
+     "shop-contact" => "See teade saadetakse pärast kontaktivormi esitamist.",
+     "shop-giftcard" => "See teatis teavitab kasutajat kinkekaardi saamisest.",
+     "shop-vendor-join" => "See sõnum tervitab poodi uut müüjat.",
+     "shop-vendor-invite" => "See sõnum saadetakse selleks, et kutsuda müüjat teie turuplatsiga liituma.",
+     "shop-vendor-order" => "See teade saadetakse hankijale, kui tellimus on vastu võetud kas tasutud või sularahas (COD) olekus.",
+     "shop-vendor-products" => "Saadetakse iga päev, et teavitada tarnijaid oma toodete olekust.",
+     "shop-login" => "Turvalisuse huvides teavitage kasutajat sisselogimisandmetega, sealhulgas IP-aadressi, kuupäeva ja seadmega.",
+     "login-code" => "Saatke kasutajatele poodi sisselogimiseks ühekordne paroolikood.",
+     "shop-email-verify-link" => "Saatke link kasutaja e-posti aadressi kinnitamiseks. See e-kiri saadetakse siis, kui kasutaja registreerub SMS-iga ja sisestab oma e-posti aadressi ning seda ei saadeta, kui kasutaja registreerub suhtlusvõrgustiku või e-posti teel.",
 ],
-        [
-     "title" => "Kliendi makse kinnitus",
-],
-        [
-     "title" => "Tellimuse kinnitamise teade müüjale",
-],
-        [
-     "title" => "Kinnitage ostja jaoks poe kasti tellimus",
-],
-        [
-     "title" => "Kinnitage ostjale kassa eest tasumine",
-],
-        [
-     "title" => "Ostuteade müüja karbis",
-],
-        [
-     "title" => "Teavita kontaktivorm",
-],
-        [
-     "title" => "Õnnitleme teid kauplusega liitumise puhul",
-],
-        [
-     "title" => "Kinkekaardi kättesaamise teade kasutajale",
-]
-     ],
      "global" => [
      "greetings" => "Tere :nimi",
      "end-statement" => "Tugimeeskond",
@@ -126,7 +115,7 @@
      "transaction" => "Tehing",
      "fee" => "Tasu",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Kategooria",
      "password" => "Parool",
@@ -150,6 +139,18 @@
      "receiver" => "Vastuvõtja",
      "virtual-items" => "Virtuaalsed üksused",
      "no-payment" => "Ei mingit makset!",
+     "enable" => "Luba",
+     "access" => "Juurdepääs",
+     "bank" => "Pangainfo",
+     "vendor" => "Müüja",
+     "view_content" => "Vaadake täielikku sisu",
+     "files" => "Failid",
+     "download" => "Lae alla",
+     "file_name" => "Faili nimi",
+     "file_size" => "Suurus",
+     "subscription" => "Tellimus",
+     "products" => "Tooted",
+     "vendor_products" => "Müüja tooted",
 ],
      "selldone-business-os" => "Müüdud äri OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "Tere",
-     "name" => "Müüdud meeskond",
+     "name" => "Kinnita, müüdud",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "kaupmehed",
-     "name" => "Kaupmehed, Müüdud",
+     "name" => "Kinnita, müüdud",
 ],
      "Approve" => [
      "id" => "heaks kiitma",
@@ -340,6 +341,12 @@
      "title" => "Meil on hea meel teie liikmelisuse üle",
      "action" => "Külastage kohe",
 ],
+     "shop-vendor-join" => [
+     "subject" => "Müüja kaasamine | :poe_nimi",
+     "category" => "Uue müüja tähistamine",
+     "title" => "Meil on hea meel teie liikmelisuse üle",
+     "action" => "Vendor Panel",
+],
      "shop-giftcard" => [
      "subject" => "Kinkekaart :shop_title",
      "category" => "Lisa uus kaart",
@@ -349,7 +356,7 @@
 ],
      "contact" => [
      "subject" => "Tugikeskus | :pood",
-     "category" => "toetus",
+     "category" => "toetust",
      "title" => "Saite vastuse",
 ],
      "order-checkout" => [
@@ -558,6 +565,7 @@
      "category" => "Turvateated",
      "title" => "Logige sisse kontole",
      "message" => "Kallis :name, olete oma Selldone'i kontole sisse loginud.",
+     "message-shop" => "Kallis :name, sa oled sisse logitud saidile :shop_title.",
      "footer" => "Kui te pole sisse logitud, muutke oma parool.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Veebisaidi lehtede vaatamiste koguarv",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Saite uue tellimuse. Minge oma tarnija paneeli tellimuste töötlemise lehele.",
+     "subject" => "🛍 Uus tellimus vastu võetud | :Tellimuse ID",
+     "your_revenue" => "Teie tulu",
+],
+     "vendor-invite" => [
+     "title" => "Müüja kutse",
+     "message" => "Olete saanud kutse saada poe :poe_nimi müüjaks. Saate selle vastu võtta või tagasi lükata, klõpsates järgmistel nuppudel.",
+     "subject" => ":poe_nimi | Saite kutse hakata meie müüjaks",
+     "accept" => "Nõustuge ja hakake müüjaks",
+     "reject" => "Keeldu",
+],
+     "shop-email-login" => [
+     "subject" => "Teie :shop sisselogimiskood",
+     "header-message" => "Saadame teile selle meili, kuna taotlesite poe sisselogimiskoodi. Leidke allpool oma ühekordne parool (OTP):",
+     "footer-message" => "See kood kehtib 10 minutit. Kui te seda sisselogimiskoodi ei taotlenud, ignoreerige seda meili.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Kinnitage oma e-posti aadress | :pood",
+     "title" => "E-posti kinnitamine",
+     "header-message" => "Tere :nimi,<br> Kinnitage, et **:e-post** on teie e-posti aadress, klõpsates nuppu või kasutage allolevat linki 48 tunni jooksul.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Toodete värskendus: pood",
+     "title" => "Toote oleku värskendus – viimased 24 tundi",
+     "message" => "Loodan, et see sõnum leiab teid hästi üles. See on lühike värskendus, et teavitada teid teie toodete olekust meie platvormil viimase 24 tunni jooksul. Selle perioodi jooksul on mõne toote staatuses toimunud muudatusi. Need muudatused võivad olla tingitud ostudest, varude värskendustest või muudest seotud sündmustest. Iga toote kohta täpsema teabe saamiseks logige sisse oma kontole ja vaadake jaotist Toote olek.",
+     "action" => "Avage tarnija paneel",
 ],
 ];

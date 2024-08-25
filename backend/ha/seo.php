@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Duk fasalulluka na ƙwararru na gina shago da rukunin yanar gizo kyauta ba tare da iyakancewar lokaci suna jiran ku ba.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Sabis na yanar gizo, takaddun haɓaka aikace-aikace da haɗin sabis.",
-],
      "apps" => [
      "title" => "App Store",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Ƙasashe masu goyan baya da Biyan kuɗi na gida - OS na Kasuwanci",
      "image" => "/images/seo/en/countries.png",
      "description" => "Kasuwancin OS, Matakin juyin halitta na gaba na sabis na kasuwanci daga dandamalin kasuwancin e-commerce zuwa wani abu maras jigo, plugin, ko lamba. 100% na gani!",
+],
+     "participant" => [
+     "title" => "Al'ummar da kuke so - Kunna kuma ku ci $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Kuna iya shiga cikin al'ummar da aka sayar ta hanyar ƙirƙirar gajerun bidiyoyi don taimakawa wasu kuma ku sami kyautar kyautar USD 20 akan kowane bidiyo.",
+],
+     "tax" => [
+     "title" => "Jerin Adadin Haraji na Duniya",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Kuna iya soke dokokin haraji kuma ƙirƙirar bayanan haraji fiye da ɗaya don nau'ikan samfuri daban-daban.",
+],
+     "premium" => [
+     "title" => "Haɓaka zuwa Premium kuma Canza Wasan Ciniki naku na e-commerce",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Haɓaka kantin sayar da kan layi tare da Selldone Premium. Samun dama ga kayan aikin AI na keɓancewa, samfuran bespoke, da ƙari don haɓaka inganci da ficewa a cikin kasuwar dijital. Shiga yanzu don mafi wayo, ƙwarewar kasuwancin e-kasuwanci!",
+],
+     "builder" => [
+     "title" => "Webapp Editan Maginin Shafi na Kyauta & Saukowa - Babu Buƙatar Shiga",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Ƙirƙirar shafukan yanar gizo masu ban sha'awa da shafukan saukowa ba tare da wahala ba tare da kyauta, maginin shafi na mai amfani da edita. Babu shiga da ake buƙata. Ƙirƙira, keɓancewa, da buga shafukan yanar gizonku cikin sauri tare da ilhamar ja-da-saukar da mu. Cikakke ga 'yan kasuwa, ƙananan masu kasuwanci, da masu haɓakawa waɗanda ke neman hanyar ƙirar gidan yanar gizo mara wahala.",
 ],
 ],
      "shuttle" => [

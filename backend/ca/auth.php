@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Aquestes credencials no coincideixen amb els nostres registres.",
+     "password" => "La contrasenya proporcionada és incorrecta.",
      "throttle" => "Massa intents d'inici de sessió. Si us plau, torna-ho a provar d'aquí a :segons segons.",
      "title_shop" => "Inicieu sessió a :nom",
      "title_app" => "Accés a l'aplicació de :name",

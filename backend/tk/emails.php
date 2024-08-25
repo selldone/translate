@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Sargyt alyjy tarapyndan tassyklandy",
+     "email-types-description" => [
+     "shop-customer-join" => "Bu habar dükana täze alyjyny garşylaýar.",
+     "order-checkout" => "Bu bildiriş alyjy buýrugy tassyklanda iberilýär.",
+     "order-payment" => "Bu bildiriş, müşderiniň üstünlikli tölegini tassyklaýar.",
+     "order-payment-admin" => "Bu habar satyja tassyklanan sargyt barada habar bermek üçin iberilýär.",
+     "pos-checkout" => "Bu bildiriş alyjy üçin satuw nokadyny tassyklamak üçin iberilýär.",
+     "pos-payment" => "Bu bildiriş, alyjy tarapyndan satylan töleg nokadyny tassyklaýar.",
+     "pos-payment-admin" => "Bu habar satyjylara satuw nokadynda edilen satyn alyş barada habar berýär.",
+     "shop-contact" => "Bu bildiriş aragatnaşyk formasy tabşyrylanda iberilýär.",
+     "shop-giftcard" => "Bu bildiriş ulanyja sowgat kartyny alandyklaryny habar berýär.",
+     "shop-vendor-join" => "Bu habar dükana täze satyjyny garşylaýar.",
+     "shop-vendor-invite" => "Bu habar satyjyny bazaryňyza goşulmaga çagyrmak üçin iberilýär.",
+     "shop-vendor-order" => "Bu habar tölenen ýa-da nagt pul gowşuryş (COD) ýagdaýynda sargyt alnanda satyja iberilýär.",
+     "shop-vendor-products" => "Satyjylary önümleriniň ýagdaýy barada täzelemek üçin her gün iberilýär.",
+     "shop-login" => "Howpsuzlyk maksady bilen IP adresi, senesi we enjamy ýaly giriş maglumatlary bilen ulanyja habar beriň.",
+     "login-code" => "Ulanyjylaryň dükana girmegi üçin bir gezeklik parol kody iberiň.",
+     "shop-email-verify-link" => "Ulanyjynyň e-poçta salgysyny barlamak üçin baglanyşyk iberiň. Bu hat, ulanyjy SMS arkaly hasaba alnanda we e-poçta girizilende iberilýär we ulanyjy sosial ýa-da e-poçta bilen gönüden-göni hasaba alnanda iberilmeýär.",
 ],
-        [
-     "title" => "Müşderi tölegini tassyklamak",
-],
-        [
-     "title" => "Satyja tassyklama habarnamasy",
-],
-        [
-     "title" => "Satyn alyjy üçin dükan gutusynyň tertibini tassyklaň",
-],
-        [
-     "title" => "Alyjy üçin kassa ýygymynyň tölenendigini tassyklaň",
-],
-        [
-     "title" => "Satyjynyň gutusynda satyn alyş habarnamasy",
-],
-        [
-     "title" => "Aragatnaşyk görnüşini habar beriň",
-],
-        [
-     "title" => "Dükana goşulmagyňyz bilen gutlaýarys",
-],
-        [
-     "title" => "Ulanyja sowgat kartyny alýandygy barada bildiriş",
-]
-     ],
      "global" => [
      "greetings" => "Salam: ady",
      "end-statement" => "Goldaw topary",
@@ -126,7 +115,7 @@
      "transaction" => "Geleşik",
      "fee" => "Töleg",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Kategoriýa",
      "password" => "Parol",
@@ -150,6 +139,18 @@
      "receiver" => "Alyjy",
      "virtual-items" => "Wirtual elementler",
      "no-payment" => "Töleg ýok!",
+     "enable" => "Işletmek",
+     "access" => "Giriş",
+     "bank" => "Bank maglumatlary",
+     "vendor" => "Satyjy",
+     "view_content" => "Doly mazmuny görüň",
+     "files" => "Faýllar",
+     "download" => "Göçürip al",
+     "file_name" => "Faýlyň ady",
+     "file_size" => "Ölçegi",
+     "subscription" => "Abuna ýazylmak",
+     "products" => "Önümler",
+     "vendor_products" => "Satyjy önümleri",
 ],
      "selldone-business-os" => "Selldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "salam",
-     "name" => "Selldone topary",
+     "name" => "Tassykla, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "söwdagärler",
-     "name" => "Söwdaçylar, Selldone",
+     "name" => "Tassykla, Selldone",
 ],
      "Approve" => [
      "id" => "tassyklamaly",
@@ -339,6 +340,12 @@
      "category" => "Täze müşderi baýramçylygy",
      "title" => "Siziň agzalygyňyz üçin begenýäris",
      "action" => "Häzir baryp görüň",
+],
+     "shop-vendor-join" => [
+     "subject" => "Satyjy münmek | : shop_title",
+     "category" => "Täze satyjy baýramçylygy",
+     "title" => "Siziň agzalygyňyz üçin begenýäris",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Sowgat karty: shop_title",
@@ -558,6 +565,7 @@
      "category" => "Howpsuzlyk habarnamalary",
      "title" => "Hasaba giriň",
      "message" => "Gadyrly: ady, Selldone hasabyňyza girdiňiz.",
+     "message-shop" => "Gadyrly: ady, sessiýa açdyňyz: shop_title.",
      "footer" => "Hasabyňyza girmedik bolsaňyz, parolyňyzy üýtgediň.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Jemi web sahypasynyň görnüşleri",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Täze sargyt aldyňyz Satyjy paneliňizdäki sargytlary gaýtadan işlemek sahypasyna girmegiňizi haýyş edýäris.",
+     "subject" => "🛍 Täze sargyt alyndy | : order_id",
+     "your_revenue" => "Girdejiňiz",
+],
+     "vendor-invite" => [
+     "title" => "Satyjy çakylygy",
+     "message" => "Satyjy bolmak üçin çakylyk aldyňyz: shop_name. Aşakdaky düwmelere basyp kabul edip ýa-da ret edip bilersiňiz.",
+     "subject" => ": shop_name | Satyjymyz bolmak üçin çakylyk aldyňyz",
+     "accept" => "Satyjy boluň we kabul ediň",
+     "reject" => "Ret et",
+],
+     "shop-email-login" => [
+     "subject" => "Giriş koduňyz: dükan",
+     "header-message" => "Dükana giriş koduny talap edeniňiz üçin size bu e-poçta iberýäris. Aşakda bir gezeklik parolyňyzy (OTP) tapmagyňyzy haýyş edýäris:",
+     "footer-message" => "Bu kod 10 minut dowam eder. Bu giriş koduny soramadyk bolsaňyz, bu e-poçta üns bermäň.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "E-poçtaňyzy barlaň | : dükan",
+     "title" => "E-poçta tassyklamasy",
+     "header-message" => "Salam: ady,<br> **: e-poçta ** düwmesine basyp ýa-da 48 sagadyň içinde aşakdaky baglanyşygy ulanyp, e-poçta salgyňyzdygyny tassyklaň.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Önümleriň täzelenişi: dükan",
+     "title" => "Önümiň ýagdaýy barada täzelenme - Soňky 24 sagat",
+     "message" => "Bu habar sizi gowy tapar diýip umyt edýärin. Bu, soňky 24 sagadyň dowamynda platformamyzdaky önümleriňiziň ýagdaýy barada size maglumat bermek üçin gysga täzelenme. Bu döwürde käbir önümleriň ýagdaýynda üýtgeşmeler boldy. Bu üýtgeşmeler satyn alyşlar, aksiýa täzelenmeleri ýa-da beýleki baglanyşykly wakalar sebäpli bolup biler. Her önüm barada has giňişleýin maglumat üçin hasabyňyza giriň we 'Haryt ýagdaýy' bölümini barlaň.",
+     "action" => "Satyjy paneli açyň",
 ],
 ];

@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Canary na-acha uhie uhie",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Ivory",
+     "#B3E5FC" => "Akpụrụ mmiri",
+     "#F1C40F" => "Ụtụtụ",
+     "#7DF9FF" => "Eletriki",
+     "#FF6B35" => "Anyanwụ dara",
 ];

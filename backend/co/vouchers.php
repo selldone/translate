@@ -73,14 +73,4 @@
      "price" => 3.588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Felicitazioni, registrate è riceve sta carta rigalu",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Avete intrutu in u situ attraversu u ligame di un utilizatore attivu di Selldone, se vi registrate in Selldone avà, riceverete una carta rigalu per un valore di $ 14,9. A registrazione è a custruzzione di una tenda in Selldone hè 100% gratis, ma pudete aduprà queste carte di ricarica per allevà u serviziu.",
-],
 ];

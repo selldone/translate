@@ -73,14 +73,4 @@
      "price" => "3,588 પર રાખવામાં આવી છે",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "અભિનંદન, નોંધણી કરો અને આ ભેટ કાર્ડ મેળવો",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "તમે Selldone ના સક્રિય વપરાશકર્તાની લિંક દ્વારા સાઇટમાં પ્રવેશ કર્યો છે, જો તમે અત્યારે Selldone માં નોંધણી કરાવો છો, તો તમને $14.9 નું ગિફ્ટ કાર્ડ પ્રાપ્ત થશે. Selldone માં સ્ટોરની નોંધણી અને નિર્માણ 100% મફત છે, પરંતુ તમે સેવાને રાહત આપવા માટે આ રિચાર્જ કાર્ડનો ઉપયોગ કરી શકો છો.",
-],
 ];

@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Ní mheaitseálann na dintiúir seo ár dtaifid.",
+     "password" => "Tá an pasfhocal a soláthraíodh mícheart.",
      "throttle" => "An iomarca iarrachtaí logáil isteach. Bain triail eile as i gceann :soicindí soicind.",
      "title_shop" => "Logáil isteach ar :name",
      "title_app" => "Rochtain iarratais ar :name",

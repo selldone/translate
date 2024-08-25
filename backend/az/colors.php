@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Solğun Kanarya",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Fil sümüyü",
+     "#B3E5FC" => "Buz",
+     "#F1C40F" => "Sübh",
+     "#7DF9FF" => "Elektrik",
+     "#FF6B35" => "Gün batımı",
 ];

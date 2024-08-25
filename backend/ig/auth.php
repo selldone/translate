@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Asambodo ndị a adabaghị na ndekọ anyị.",
+     "password" => "Okwuntughe enyere ezighi ezi.",
      "throttle" => "Ọtụtụ mbọ nbanye. Biko nwaa ọzọ n'ime: sekọnd abụọ.",
      "title_shop" => "Banye na: aha",
      "title_app" => "Nweta ngwa nke: aha",

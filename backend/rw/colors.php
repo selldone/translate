@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Canary",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Ivory",
+     "#B3E5FC" => "Urubura",
+     "#F1C40F" => "Umuseke",
+     "#7DF9FF" => "Amashanyarazi",
+     "#FF6B35" => "Izuba rirenze",
 ];

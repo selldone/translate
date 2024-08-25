@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Pale Canary",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Fildeş",
+     "#B3E5FC" => "Gheaţă",
+     "#F1C40F" => "Zori",
+     "#7DF9FF" => "Electric",
+     "#FF6B35" => "Apus de soare",
 ];

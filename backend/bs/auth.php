@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Ovi akreditivi se ne poklapaju sa našom evidencijom.",
+     "password" => "Navedena lozinka je netačna.",
      "throttle" => "Previše pokušaja prijave. Molimo pokušajte ponovo za :seconds sekundi.",
      "title_shop" => "Prijavite se na :name",
      "title_app" => "Pristup aplikaciji :name",

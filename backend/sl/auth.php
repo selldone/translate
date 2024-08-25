@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Te poverilnice se ne ujemajo z našo evidenco.",
+     "password" => "Navedeno geslo ni pravilno.",
      "throttle" => "Preveč poskusov prijave. Poskusite ponovno čez :seconds sekund.",
      "title_shop" => "Prijavite se v :name",
      "title_app" => "Dostop do aplikacije :name",

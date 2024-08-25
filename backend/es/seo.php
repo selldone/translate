@@ -14,8 +14,8 @@
         "constructor de comunidad personalizado",
         "comercio electrónico de marca blanca"
      ],
-     "samin" => "vendido",
-     "Selldone" => "vendido",
+     "samin" => "vendido hecho",
+     "Selldone" => "vendido hecho",
      "related" => "Relacionado",
      "share" => "Cuota",
      "global" => [
@@ -33,7 +33,7 @@
 ],
      "footer-menu" => [
         [
-     "title" => "vendido",
+     "title" => "vendido hecho",
      "items" => [
         [
      "title" => "plataforma de negocios",
@@ -172,7 +172,7 @@
      "seo" => "Motor SEO automático",
      "automation" => "Automatización e IoT",
      "ai" => "Comercio de IA",
-     "app-builder" => "Creador de aplicaciones",
+     "app-builder" => "Constructor de aplicaciones",
 ],
      "build" => "Construir",
      "build-sub" => "Creamos un sistema a tu alrededor para crear tu historia de éxito.",
@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Todas las características profesionales de construir una tienda y un sitio de forma gratuita y sin límite de tiempo te están esperando.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Servicio web, documentación para desarrollo de aplicaciones y servicio conectado.",
-],
      "apps" => [
      "title" => "Tienda de aplicaciones",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Países admitidos y pagos locales: sistema operativo empresarial",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, el siguiente paso de la evolución de los servicios de comercio desde las plataformas de comercio electrónico hasta algo sin tema, complemento o código. 100% visual!",
+],
+     "participant" => [
+     "title" => "La comunidad que quieres: juega y gana $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Puedes participar en la comunidad selldone creando videos cortos para ayudar a otros y obtener hasta 20 USD de crédito de regalo por video.",
+],
+     "tax" => [
+     "title" => "Lista de tasas impositivas globales",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Puede anular las reglas impositivas y crear más de un perfil impositivo para diferentes categorías de productos.",
+],
+     "premium" => [
+     "title" => "Actualice a Premium y transforme su estrategia de comercio electrónico",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Mejore su tienda en línea con Selldone Premium. Acceda a herramientas de inteligencia artificial exclusivas, plantillas personalizadas y más para aumentar la eficiencia y destacarse en el mercado digital. ¡Regístrese ahora para disfrutar de una experiencia de comercio electrónico más inteligente y elegante!",
+],
+     "builder" => [
+     "title" => "Creador de páginas gratuito y editor de páginas de destino Webapp (no es necesario iniciar sesión)",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Cree páginas web y páginas de destino impresionantes sin esfuerzo con nuestro editor y creador de páginas gratuito y fácil de usar. No es necesario iniciar sesión. Diseñe, personalice y publique sus páginas web rápidamente con nuestra interfaz intuitiva de arrastrar y soltar. Perfecta para vendedores, propietarios de pequeñas empresas y desarrolladores que buscan una solución de diseño web sin complicaciones.",
 ],
 ],
      "shuttle" => [

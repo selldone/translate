@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Ekele, deba aha ma nweta kaadị onyinye a",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Ị banyere na saịtị ahụ site na njikọ nke onye na-arụsi ọrụ ike nke Selldone, ọ bụrụ na ị debanyere aha na Selldone ugbu a, ị ga-enweta kaadị onyinye bara uru $ 14.9. Ịdenye aha na iwu ụlọ ahịa na Selldone bụ 100% n'efu, mana ị nwere ike iji kaadị fanye ndị a iji weghachi ọrụ.",
-],
 ];

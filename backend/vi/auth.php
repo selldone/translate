@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Những thông tin xác thực này không khớp với hồ sơ của chúng tôi.",
+     "password" => "Mật khẩu đã cung cấp không đúng.",
      "throttle" => "Quá nhiều lần đăng nhập. Vui lòng thử lại sau: giây giây.",
      "title_shop" => "Đăng nhập vào: name",
      "title_app" => "Quyền truy cập ứng dụng của: name",

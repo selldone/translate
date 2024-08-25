@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Gratulálunk, regisztráljon, és vegye át ezt az ajándékutalványt",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "A Selldone egyik aktív felhasználójának linkjén keresztül lépett be az oldalra, ha most regisztrál a Selldone-ba, 14,9 USD értékű ajándékutalványt kap. A Selldone-ban a regisztráció és az üzlet építése 100%-ban ingyenes, de ezeket a feltöltőkártyákat a szolgáltatás tehermentesítésére használhatja.",
-],
 ];

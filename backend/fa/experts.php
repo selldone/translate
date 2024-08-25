@@ -11,7 +11,11 @@ return [
         'image' => '/images/experts/topics-sub/store-design.jpg',
         'desc' => 'طراحی و ساخت فروشگاه آنلاین خود را به متخصصین بسپارید تا آن ها ایده های شما را اجرا کنند.',
     ],
-
+    JobTopic::MARKETPLACE_SETUP => [
+        'title' => 'ساخت مارکت پلیس',
+        'image' => '/images/experts/topics-sub/marketplace-setup.jpg',
+        'desc' => 'برای ساخت مارکت پلیس خود از متخصصین این حوزه کمک بگیرید.',
+    ],
 
     JobTopic::STORE_CONFIGURATION => [
         'title' => 'تنظیمات فروشگاه',
@@ -24,6 +28,19 @@ return [
         'title' => 'بهبود عملکرد و سرعت',
         'image' => '/images/experts/topics-sub/store-optimization.jpg',
         'desc' => 'متخصصین بر روی سایت شما کار خواهند کرد تا سرعت و کارایی آن را افزایش دهند.',
+    ],
+
+    JobTopic::DOMAIN => [
+        'title' => 'اتصال دامنه',
+        'image' => '/images/experts/topics-sub/domain.jpg',
+        'desc' => 'فروشگاه خود را بر روی دامنه اختصاصی خودتان قرار دهید.',
+    ],
+
+
+    JobTopic::POD_SETUP => [
+        'title' => 'راه اندازی فروشگاه POD',
+        'image' => '/images/experts/topics-sub/pod-setup.jpg',
+        'desc' => 'با کمک کارشناسان، یک فروشگاه چاپ بر اساس تقاضا ایجاد کنید.',
     ],
 
 
@@ -41,11 +58,6 @@ return [
     ],
 
 
-    JobTopic::DOMAIN => [
-        'title' => 'اتصال دامنه',
-        'image' => '/images/experts/topics-sub/domain.jpg',
-        'desc' => 'فروشگاه خود را بر روی دامنه اختصاصی خودتان قرار دهید.',
-    ],
 
 
     JobTopic::PAYMENT => [

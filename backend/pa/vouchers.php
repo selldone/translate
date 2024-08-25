@@ -73,14 +73,4 @@
      "price" => "3,588 ਹੈ",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "ਵਧਾਈਆਂ, ਰਜਿਸਟਰ ਕਰੋ ਅਤੇ ਇਹ ਗਿਫਟ ਕਾਰਡ ਪ੍ਰਾਪਤ ਕਰੋ",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "ਤੁਸੀਂ Selldone ਦੇ ਇੱਕ ਸਰਗਰਮ ਉਪਭੋਗਤਾ ਦੇ ਲਿੰਕ ਰਾਹੀਂ ਸਾਈਟ ਵਿੱਚ ਦਾਖਲ ਹੋਏ ਹੋ, ਜੇਕਰ ਤੁਸੀਂ ਹੁਣੇ Selldone ਵਿੱਚ ਰਜਿਸਟਰ ਕਰਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਨੂੰ $14.9 ਦਾ ਇੱਕ ਤੋਹਫ਼ਾ ਕਾਰਡ ਮਿਲੇਗਾ। Selldone ਵਿੱਚ ਇੱਕ ਸਟੋਰ ਨੂੰ ਰਜਿਸਟਰ ਕਰਨਾ ਅਤੇ ਬਣਾਉਣਾ 100% ਮੁਫ਼ਤ ਹੈ, ਪਰ ਤੁਸੀਂ ਸੇਵਾ ਤੋਂ ਰਾਹਤ ਪਾਉਣ ਲਈ ਇਹਨਾਂ ਰੀਚਾਰਜ ਕਾਰਡਾਂ ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹੋ।",
-],
 ];

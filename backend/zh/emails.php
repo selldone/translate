@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "买家确认订单",
+     "email-types-description" => [
+     "shop-customer-join" => "此消息欢迎新买家光临本店。",
+     "order-checkout" => "当买家确认订单时发送此通知。",
+     "order-payment" => "此通知确认客户付款成功。",
+     "order-payment-admin" => "此消息发送给卖家以通知他们订单已确认。",
+     "pos-checkout" => "发送此通知是为了确认买家的销售点订单。",
+     "pos-payment" => "此通知确认买家已完成销售点付款。",
+     "pos-payment-admin" => "此消息通知卖家在其销售点进行了购买。",
+     "shop-contact" => "提交联系表格时发送此通知。",
+     "shop-giftcard" => "此通知告知用户他们已收到礼品卡。",
+     "shop-vendor-join" => "此消息欢迎新供应商加入商店。",
+     "shop-vendor-invite" => "发送此消息是为了邀请供应商加入您的市场。",
+     "shop-vendor-order" => "当收到已付款或货到付款 (COD) 状态的订单时，此消息将发送给供应商。",
+     "shop-vendor-products" => "每日发送消息，向供应商更新其产品的状态。",
+     "shop-login" => "出于安全目的，通知用户登录详细信息，包括 IP 地址、日期和设备。",
+     "login-code" => "发送一次性密码代码，供用户登录商店。",
+     "shop-email-verify-link" => "发送链接以验证用户的电子邮件地址。当用户通过短信注册并输入其电子邮件时会发送此邮件，而当用户直接通过社交或电子邮件注册时则不会发送此邮件。",
 ],
-        [
-     "title" => "客户付款确认",
-],
-        [
-     "title" => "给卖家的订单确认通知",
-],
-        [
-     "title" => "确认买家的商店盒子订单",
-],
-        [
-     "title" => "为买家确认收银台付款",
-],
-        [
-     "title" => "卖家盒子里的购买通知",
-],
-        [
-     "title" => "通知联系表",
-],
-        [
-     "title" => "恭喜您加入本店",
-],
-        [
-     "title" => "收到用户礼品卡的公告",
-]
-     ],
      "global" => [
      "greetings" => "嗨：名字",
      "end-statement" => "支持团队",
@@ -126,7 +115,7 @@
      "transaction" => "交易",
      "fee" => "费用",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "账单",
      "category" => "类别",
      "password" => "密码",
@@ -150,6 +139,18 @@
      "receiver" => "接收者",
      "virtual-items" => "虚拟物品",
      "no-payment" => "没有付款！",
+     "enable" => "使能够",
+     "access" => "使用权",
+     "bank" => "银行信息",
+     "vendor" => "小贩",
+     "view_content" => "查看完整内容",
+     "files" => "文件",
+     "download" => "下载",
+     "file_name" => "文件名",
+     "file_size" => "尺寸",
+     "subscription" => "订阅",
+     "products" => "产品",
+     "vendor_products" => "供应商产品",
 ],
      "selldone-business-os" => "Selldone 商业操作系统",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "你好",
-     "name" => "销售团队",
+     "name" => "批准，出售",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "商人",
-     "name" => "商人，Selldone",
+     "name" => "批准，出售",
 ],
      "Approve" => [
      "id" => "批准",
@@ -339,6 +340,12 @@
      "category" => "新客户庆典",
      "title" => "我们很高兴成为您的会员",
      "action" => "立即访问",
+],
+     "shop-vendor-join" => [
+     "subject" => "供应商入职 | :shop_title",
+     "category" => "新供应商庆祝活动",
+     "title" => "我们很高兴成为您的会员",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "礼品卡：shop_title",
@@ -558,6 +565,7 @@
      "category" => "安全通知",
      "title" => "登录帐户",
      "message" => "亲爱的 :name，您已登录您的 Selldone 帐户。",
+     "message-shop" => "亲爱的 :name，您已登录 :shop_title 。",
      "footer" => "如果您没有登录，请更改您的密码。",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "网站总浏览量",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "您已收到新订单。请转至供应商面板中的订单处理页面。",
+     "subject" => "🛍 收到新订单 | :order_id",
+     "your_revenue" => "您的收入",
+],
+     "vendor-invite" => [
+     "title" => "供应商邀请",
+     "message" => "您已收到成为 :shop_name 供应商的邀请。您可以点击以下按钮接受或拒绝。",
+     "subject" => ":shop_name | 您收到了成为我们供应商的邀请",
+     "accept" => "接受并成为供应商",
+     "reject" => "拒绝",
+],
+     "shop-email-login" => [
+     "subject" => "您的 :shop 登录代码",
+     "header-message" => "我们向您发送这封电子邮件是因为您请求了商店的登录代码。请在下面找到您的一次性密码 (OTP)：",
+     "footer-message" => "此代码有效期为 10 分钟。如果您未请求此登录代码，请忽略此电子邮件。",
+],
+     "shop-email-verify-link" => [
+     "subject" => "验证您的电子邮件 | :shop",
+     "title" => "电子邮件验证",
+     "header-message" => "你好：name，<br>请点击按钮或在 48 小时内使用以下链接确认 **:email** 是您的电子邮件地址。",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "产品更新：商店",
+     "title" => "产品状态更新 - 过去 24 小时",
+     "message" => "希望您收到这条消息时一切安好。这是一条简短的更新信息，旨在告知您过去 24 小时内我们平台上您的产品的状态。在此期间，部分产品的状态发生了变化。这些变化可能是由于购买、库存更新或其他相关事件造成的。有关每种产品的更多详细信息，请登录您的帐户并查看“产品状态”部分。",
+     "action" => "打开供应商面板",
 ],
 ];

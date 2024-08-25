@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Pale Canary",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Ivwa",
+     "#B3E5FC" => "Glas",
+     "#F1C40F" => "Dawn",
+     "#7DF9FF" => "Elektrik",
+     "#FF6B35" => "Sunset",
 ];

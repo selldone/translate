@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Bleg kanarisk",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "elfenben",
+     "#B3E5FC" => "Is",
+     "#F1C40F" => "Daggry",
+     "#7DF9FF" => "Elektrisk",
+     "#FF6B35" => "Solnedgang",
 ];

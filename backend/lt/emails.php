@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Užsakymas patvirtintas pirkėjo",
+     "email-types-description" => [
+     "shop-customer-join" => "Šia žinute sveikiname naują pirkėją parduotuvėje.",
+     "order-checkout" => "Šis pranešimas išsiunčiamas, kai pirkėjas patvirtina užsakymą.",
+     "order-payment" => "Šis pranešimas patvirtina sėkmingą kliento mokėjimą.",
+     "order-payment-admin" => "Šis pranešimas siunčiamas pardavėjui, kad praneštų apie patvirtintą užsakymą.",
+     "pos-checkout" => "Šis pranešimas siunčiamas siekiant patvirtinti pirkėjo pardavimo taško užsakymą.",
+     "pos-payment" => "Šis pranešimas patvirtina pirkėjo atliktą mokėjimą pardavimo vietoje.",
+     "pos-payment-admin" => "Šiuo pranešimu pardavėjas pranešamas apie pirkinį, įsigytą jo pardavimo vietoje.",
+     "shop-contact" => "Šis pranešimas išsiunčiamas, kai pateikiama kontaktinė forma.",
+     "shop-giftcard" => "Šis pranešimas informuoja vartotoją, kad jis gavo dovanų kortelę.",
+     "shop-vendor-join" => "Šis pranešimas sveikina naują pardavėją parduotuvėje.",
+     "shop-vendor-invite" => "Šis pranešimas išsiųstas pakviesti pardavėją prisijungti prie jūsų prekyvietės.",
+     "shop-vendor-order" => "Šis pranešimas siunčiamas tiekėjui, kai gaunamas užsakymas sumokėto arba grynaisiais pristatymo metu (COD).",
+     "shop-vendor-products" => "Siunčiamas kasdien, kad pardavėjai būtų informuoti apie savo produktų būseną.",
+     "shop-login" => "Saugumo sumetimais praneškite vartotojui pateikdami prisijungimo duomenis, įskaitant IP adresą, datą ir įrenginį.",
+     "login-code" => "Siųskite vienkartinį slaptažodžio kodą, kad vartotojai galėtų prisijungti prie parduotuvės.",
+     "shop-email-verify-link" => "Siųskite nuorodą, kad patvirtintumėte vartotojo el. pašto adresą. Šis laiškas siunčiamas, kai vartotojas užsiregistruoja SMS žinute ir įveda savo el. pašto adresą, ir nėra siunčiamas, kai vartotojas registruojasi socialiniuose tinkluose arba tiesiogiai el.",
 ],
-        [
-     "title" => "Kliento mokėjimo patvirtinimas",
-],
-        [
-     "title" => "Užsakymo patvirtinimo pranešimas pardavėjui",
-],
-        [
-     "title" => "Patvirtinkite pirkėjo parduotuvės dėžutės užsakymą",
-],
-        [
-     "title" => "Patvirtinti pirkėjo apmokėjimą kasos aparatu",
-],
-        [
-     "title" => "Pirkimo pranešimas pardavėjo dėžutėje",
-],
-        [
-     "title" => "Informuokite kontaktinę formą",
-],
-        [
-     "title" => "Sveikiname prisijungus prie parduotuvės",
-],
-        [
-     "title" => "Pranešimas apie dovanų kortelės gavimą vartotojui",
-]
-     ],
      "global" => [
      "greetings" => "Sveiki :vardas",
      "end-statement" => "Palaikymo komanda",
@@ -55,7 +44,7 @@
      "cvv" => "Cvv",
      "expire_date" => "Galiojimo pabaigos data",
      "dashboard" => "prietaisų skydelis",
-     "order" => "įsakymas",
+     "order" => "tvarka",
      "view_order" => "Peržiūrėti užsakymą",
      "pay_now" => "Pay now",
      "official_selldone" => "OFICIALIAI PARDUOTA",
@@ -126,7 +115,7 @@
      "transaction" => "Sandoris",
      "fee" => "Rinkliava",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Kategorija",
      "password" => "Slaptažodis",
@@ -150,6 +139,18 @@
      "receiver" => "Imtuvas",
      "virtual-items" => "Virtualūs daiktai",
      "no-payment" => "Jokio mokėjimo!",
+     "enable" => "Įgalinti",
+     "access" => "Prieiga",
+     "bank" => "Banko informacija",
+     "vendor" => "Pardavėjas",
+     "view_content" => "Žiūrėti visą turinį",
+     "files" => "Failai",
+     "download" => "parsisiųsti",
+     "file_name" => "Failo pavadinimas",
+     "file_size" => "Dydis",
+     "subscription" => "Prenumerata",
+     "products" => "Produktai",
+     "vendor_products" => "Pardavėjo produktai",
 ],
      "selldone-business-os" => "Parduota verslo OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "labas",
-     "name" => "Parduota komanda",
+     "name" => "Patvirtinti, parduota",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "pirkliai",
-     "name" => "Prekybininkai, Parduota",
+     "name" => "Patvirtinti, parduota",
 ],
      "Approve" => [
      "id" => "patvirtinti",
@@ -340,6 +341,12 @@
      "title" => "Džiaugiamės jūsų naryste",
      "action" => "Apsilankykite dabar",
 ],
+     "shop-vendor-join" => [
+     "subject" => "Pardavėjo įtraukimas | :shop_title",
+     "category" => "Naujų pardavėjų šventė",
+     "title" => "Džiaugiamės jūsų naryste",
+     "action" => "Vendor Panel",
+],
      "shop-giftcard" => [
      "subject" => "Dovanų kortelė :shop_title",
      "category" => "Pridėti naują kortelę",
@@ -354,7 +361,7 @@
 ],
      "order-checkout" => [
      "subject" => "🛍 Užsisakykite Patikra | :užsakymo_id",
-     "title" => "įsakymas",
+     "title" => "tvarka",
      "message" => "Patvirtinti jūsų užsakymą,<br> Gavome jūsų užsakymą. Kai užsakymas bus išsiųstas, atsiųsime jums kitą el. laišką.",
      "payments" => "Mokėjimai",
 ],
@@ -558,6 +565,7 @@
      "category" => "Saugumo pranešimai",
      "title" => "Prisijunkite prie paskyros",
      "message" => "Gerb. :name, jūs prisijungėte prie savo Selldone paskyros.",
+     "message-shop" => "Gerb. :name, buvote prisijungę prie :shop_title .",
      "footer" => "Jei nesate prisijungę, pakeiskite slaptažodį.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Bendras svetainės puslapių peržiūrų skaičius",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Gavote naują užsakymą. Eikite į užsakymo apdorojimo puslapį pardavėjo skydelyje.",
+     "subject" => "🛍 Gautas naujas užsakymas | :užsakymo_id",
+     "your_revenue" => "Jūsų pajamos",
+],
+     "vendor-invite" => [
+     "title" => "Pardavėjo kvietimas",
+     "message" => "Gavote kvietimą tapti :shop_name pardavėju. Galite jį priimti arba atmesti spustelėdami šiuos mygtukus.",
+     "subject" => ":parduotuvės_pavadinimas | Gavote kvietimą tapti mūsų pardavėju",
+     "accept" => "Priimkite ir tapkite pardavėju",
+     "reject" => "Atmesti",
+],
+     "shop-email-login" => [
+     "subject" => "Jūsų prisijungimo kodas prie :shop",
+     "header-message" => "Siunčiame jums šį el. laišką, nes paprašėte prisijungimo prie parduotuvės kodo. Žemiau rasite savo vienkartinį slaptažodį (OTP):",
+     "footer-message" => "Šis kodas galios 10 minučių. Jei neprašėte šio prisijungimo kodo, nekreipkite dėmesio į šį el. laišką.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Patvirtinkite savo el. pašto adresą | :parduotuvė",
+     "title" => "El. pašto patvirtinimas",
+     "header-message" => "Sveiki :vardas,<br> Patvirtinkite, kad **:el. paštas** yra jūsų el. pašto adresas, spustelėdami mygtuką arba naudokite toliau pateiktą nuorodą per 48 valandas.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Produktų atnaujinimas: parduotuvė",
+     "title" => "Produkto būsenos atnaujinimas – paskutinės 24 valandos",
+     "message" => "Tikiuosi, kad ši žinutė jus gerai suras. Tai trumpas atnaujinimas, skirtas informuoti jus apie jūsų produktų būseną mūsų platformoje per pastarąsias 24 valandas. Per šį laikotarpį kai kurių produktų statusas pasikeitė. Šie pakeitimai gali atsirasti dėl pirkinių, atsargų atnaujinimų ar kitų susijusių įvykių. Norėdami gauti daugiau informacijos apie kiekvieną produktą, prisijunkite prie savo paskyros ir patikrinkite skyrių „Produkto būsena“.",
+     "action" => "Atidarykite Pardavėjo skydelį",
 ],
 ];

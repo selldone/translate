@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Kanaria zurbila",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Boli",
+     "#B3E5FC" => "Izotza",
+     "#F1C40F" => "Egunsentia",
+     "#7DF9FF" => "Elektrikoa",
+     "#FF6B35" => "Ilunabarra",
 ];

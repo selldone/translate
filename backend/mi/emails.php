@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Ko te ota i whakapumautia e te kaihoko",
+     "email-types-description" => [
+     "shop-customer-join" => "Ka mihi tenei karere ki tetahi kaihoko hou ki te toa.",
+     "order-checkout" => "Ka tukuna tenei panui ina whakamanahia e te kaihoko tetahi ota.",
+     "order-payment" => "Ko tenei whakamohiotanga e whakapumau ana i te utu angitu i mahia e tetahi kaihoko.",
+     "order-payment-admin" => "Ka tukuna tenei karere ki tetahi kaihoko ki te whakamohio ki a raatau mo te ota kua whakapumautia.",
+     "pos-checkout" => "Ka tukuna tenei panui ki te whakaū i tetahi ota hoko mo tetahi kaihoko.",
+     "pos-payment" => "Ko tenei whakamohiotanga e whakapumau ana i te utu hoko i mahia e tetahi kaihoko.",
+     "pos-payment-admin" => "Ko tenei karere ka whakamohio atu ki te kaihoko mo te hokonga mai i tana waahi hokonga.",
+     "shop-contact" => "Ka tukuna tenei panui ina tukuna he puka whakapā.",
+     "shop-giftcard" => "Ko tenei whakamohiotanga ka whakamohio ki tetahi kaiwhakamahi kua whiwhi ia i tetahi kaari koha.",
+     "shop-vendor-join" => "Ka mihi tenei karere ki tetahi kaihoko hou ki te toa.",
+     "shop-vendor-invite" => "Ka tukuna tenei karere ki te tono i tetahi kaihoko kia uru mai ki to maakete.",
+     "shop-vendor-order" => "Ka tukuna tenei karere ki te kaihoko ina tae mai he ota i roto i te mana Utu, Moni ranei mo te Tukunga (COD).",
+     "shop-vendor-products" => "Ka tukuna ia ra ki te whakahou i nga kaihoko mo te ahuatanga o a raatau hua.",
+     "shop-login" => "Whakamōhiohia te kaiwhakamahi me nga taipitopito takiuru, tae atu ki te wahitau IP, te ra, me te taputapu, mo nga kaupapa haumaru.",
+     "login-code" => "Tukuna he waehere kupuhipa kotahi wa mo nga kaiwhakamahi ki te takiuru ki te toa.",
+     "shop-email-verify-link" => "Tukuna he hononga ki te manatoko i te wahitau imeera o te kaiwhakamahi. Ka tukuna tenei mēra ina rehita te kaiwhakamahi ma te SMS me te whakauru i a raatau imeera, kaore e tukuna ina rehita te kaiwhakamahi ma te paapori, imeera ranei.",
 ],
-        [
-     "title" => "Te haamauraa i te utu a te kaihoko",
-],
-        [
-     "title" => "Panui whakapumau ota ki te kaihoko",
-],
-        [
-     "title" => "Whakaūhia te ota pouaka toa mo te kaihoko",
-],
-        [
-     "title" => "Whakapumautia te utu o te rehita moni mo te kaihoko",
-],
-        [
-     "title" => "Panui mo te hoko i roto i te pouaka a te kaihoko",
-],
-        [
-     "title" => "Whakamōhiotia te puka whakapā",
-],
-        [
-     "title" => "Nga mihi mo to uru mai ki te toa",
-],
-        [
-     "title" => "Panuitanga mo te whiwhi kaari koha ki te kaiwhakamahi",
-]
-     ],
      "global" => [
      "greetings" => "Kia ora :name",
      "end-statement" => "Rōpū tautoko",
@@ -126,7 +115,7 @@
      "transaction" => "Tauwhitinga",
      "fee" => "Utu",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Pire",
      "category" => "Kāwai",
      "password" => "Kupuhipa",
@@ -150,6 +139,18 @@
      "receiver" => "Kaiwhiwhi",
      "virtual-items" => "Tuemi mariko",
      "no-payment" => "Kaore he utu!",
+     "enable" => "Whakahohe",
+     "access" => "Urunga",
+     "bank" => "Nga korero putea",
+     "vendor" => "Kaihoko",
+     "view_content" => "Tirohia nga korero katoa",
+     "files" => "Kōnae",
+     "download" => "Tikiake",
+     "file_name" => "Ingoa Kōnae",
+     "file_size" => "Rahi",
+     "subscription" => "Ohaurunga",
+     "products" => "Hua",
+     "vendor_products" => "Nga Hua Kaihoko",
 ],
      "selldone-business-os" => "Seldone Pakihi OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "hi",
-     "name" => "Ko te kapa Seldone",
+     "name" => "Whakaae, Seldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "nga kaihokohoko",
-     "name" => "Kaihoko, Seldone",
+     "name" => "Whakaae, Seldone",
 ],
      "Approve" => [
      "id" => "whakaae",
@@ -339,6 +340,12 @@
      "category" => "Te whakanui i nga kaihoko hou",
      "title" => "Kei te koa matou mo to mema",
      "action" => "Tirohia inaianei",
+],
+     "shop-vendor-join" => [
+     "subject" => "Kaihoko Whakauru | :shop_title",
+     "category" => "Te whakanui kaihoko hou",
+     "title" => "Kei te koa matou mo to mema",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Kaari koha :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Nga whakamohiotanga haumarutanga",
      "title" => "Takiuru ki te Pūkete",
      "message" => "E :name, kua takiuru koe ki to putea Seldone.",
+     "message-shop" => "E :name, kua takiuru koe ki :shop_title .",
      "footer" => "Mena kaore koe i te takiuru, hurihia to kupuhipa.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Katoa nga tirohanga wharangi paetukutuku",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Kua whiwhi koe i tetahi ota hou. Tena koa haere ki te wharangi tukatuka ota i to roopu kaihoko.",
+     "subject" => "🛍 Kua Taea Te Ota Hou | : order_id",
+     "your_revenue" => "To Utu",
+],
+     "vendor-invite" => [
+     "title" => "Powhiri Kaihoko",
+     "message" => "Kua whiwhi koe i te powhiri kia noho hei kaihoko mo :shop_name. Ka taea e koe te whakaae, te whakakore ranei ma te panui i nga paatene e whai ake nei.",
+     "subject" => ":shop_name | I whiwhi koe i te tono kia noho hei kaihoko",
+     "accept" => "Whakaae & Hoko Kaihoko",
+     "reject" => "Whakakahore",
+],
+     "shop-email-login" => [
+     "subject" => "To Waehere Takiuru mo :shop",
+     "header-message" => "Ka tukuna atu e matou tenei imeera na te mea i tono koe i tetahi waehere takiuru mo te toa. Kimihia to Kupuhipa Kotahi-Wa (OTP) i raro nei:",
+     "footer-message" => "Ka whai mana tenei waehere mo te 10 meneti. Mena kaore koe i tono i tenei waehere takiuru, kaua e wareware ki tenei imeera.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Manatokohia to imeera | :toa",
+     "title" => "Īmēra Manatoko",
+     "header-message" => "Kia ora:name,<br> Tena koa whakaū ko **:email** to wahitau imeera ma te panui i te paatene ka whakamahi ranei i te hono i raro nei i roto i nga haora 48.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Whakahoutanga Hua: toa",
+     "title" => "Whakahou mo te Turanga Hua - Nga haora 24 kua hipa",
+     "message" => "Ko taku tumanako ka kitea pai koe e tenei karere. He korero poto tenei hei whakamohio ki a koe mo te ahuatanga o o hua i runga i to maatau papaahi i nga haora 24 kua hipa. I roto i tenei waa, kua rereke te ahua o etahi hua. Ko enei huringa pea na nga hokonga, nga whakahoutanga o nga taonga, me etahi atu huihuinga e pa ana. Mo etahi atu korero mo ia hua, tena koa takiuru ki to putea me te tirotiro i te waahanga 'Tunga Hua'.",
+     "action" => "Whakatuwherahia te Paewhiri Kaihoko",
 ],
 ];

@@ -73,14 +73,4 @@
      "price" => 3588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Apsveicam, reģistrējieties un saņemiet šo dāvanu karti",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Jūs esat ienācis vietnē, izmantojot Selldone aktīva lietotāja saiti, ja tagad reģistrējaties Selldone, jūs saņemsiet dāvanu karti 14,9 $ vērtībā. Veikala reģistrācija un izveide Selldonē ir 100% bez maksas, taču jūs varat izmantot šīs papildināšanas kartes, lai atvieglotu pakalpojumu.",
-],
 ];

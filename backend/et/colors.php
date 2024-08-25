@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Kahvatu Kanaari",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Elevandiluu",
+     "#B3E5FC" => "Jää",
+     "#F1C40F" => "Koit",
+     "#7DF9FF" => "Elektriline",
+     "#FF6B35" => "Päikeseloojang",
 ];

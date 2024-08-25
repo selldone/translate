@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Šie kredencialai neatitinka mūsų įrašų.",
+     "password" => "Pateiktas slaptažodis neteisingas.",
      "throttle" => "Per daug bandymų prisijungti. Bandykite dar kartą po :seconds sekundžių.",
      "title_shop" => "Prisijunkite prie :name",
      "title_app" => "Programos prieiga prie :name",

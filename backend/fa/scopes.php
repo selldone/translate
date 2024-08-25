@@ -33,7 +33,7 @@ return [
     AuthServiceProvider::SCOPE_SHOP_GIFT_CARDS => 'ایجاد، ویرایش و مدیریت گیفت کارت ها.',
     AuthServiceProvider::SCOPE_SHOP_FAQS => 'ایجاد، ویرایش و مدیریت سوالات متداول.',
     AuthServiceProvider::SCOPE_SHOP_CATEGORIES => 'ایجاد، ویرایش و مدیریت دسته بندی ها.',
-    AuthServiceProvider::SCOPE_SHOP_PRODUCTS => 'ایجاد، ویرایش و مدیریت محصولات.',
+    AuthServiceProvider::SCOPE_BACKOFFICE_WRITE_PRODUCTS => 'ایجاد، ویرایش و مدیریت محصولات.',
     AuthServiceProvider::SCOPE_SHOP_READ_REPORTS => 'خواندن اطلاعات و گزارشات.',
     AuthServiceProvider::SCOPE_SHOP_SOCIALS => 'ویرایش شبکه های اجتمائی فروشگاه.',
     AuthServiceProvider::SCOPE_SHOP_ACCOUNTS => 'ویرایش و حذف حساب های مالی متصل به فروشگاه.',
@@ -46,6 +46,8 @@ return [
     AuthServiceProvider::SCOPE_SHOP_DISCOUNT_CODE => 'مدیریت کدهای تخفیف.',
     AuthServiceProvider::SCOPE_SHOP_COUPON => 'مدیریت کپون ها.',
     AuthServiceProvider::SCOPE_SHOP_OFFER => 'مدیریت پیشنهادهای فروش.',
+    AuthServiceProvider::SCOPE_SHOP_CASHBACK => 'مدیریت کش بک فروشگاه.',
+
     AuthServiceProvider::SCOPE_SHOP_LOTTERY => 'مدیریت گردونه شانس فروشگاه.',
     AuthServiceProvider::SCOPE_SHOP_COMMUNITY => 'مدیریت انجمن فروشگاه.',
 

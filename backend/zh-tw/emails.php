@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "買家確認訂單",
+     "email-types-description" => [
+     "shop-customer-join" => "此消息歡迎新買家來到商店。",
+     "order-checkout" => "當買家確認訂單時發送此通知。",
+     "order-payment" => "此通知確認客戶已成功付款。",
+     "order-payment-admin" => "此訊息發送給賣家，通知他們訂單已確認。",
+     "pos-checkout" => "發送此通知是為了確認買家的銷售點訂單。",
+     "pos-payment" => "此通知確認買家進行的銷售點付款。",
+     "pos-payment-admin" => "此訊息通知賣家在其銷售點進行的購買。",
+     "shop-contact" => "提交聯絡表單後會發送此通知。",
+     "shop-giftcard" => "此通知通知用戶他們已收到禮品卡。",
+     "shop-vendor-join" => "此消息歡迎新供應商來到商店。",
+     "shop-vendor-invite" => "發送此訊息是為了邀請供應商加入您的市場。",
+     "shop-vendor-order" => "當收到處於「已付款」或「貨到付款」(COD) 狀態的訂單時，將向供應商發送此訊息。",
+     "shop-vendor-products" => "每天發送，向供應商更新其產品狀態。",
+     "shop-login" => "出於安全目的，通知用戶登入詳細信息，包括 IP 位址、日期和設備。",
+     "login-code" => "發送一次性密碼，供用戶登入商店。",
+     "shop-email-verify-link" => "發送連結以驗證使用者的電子郵件地址。當用戶透過簡訊註冊並輸入電子郵件時會發送此郵件，而當用戶直接透過社交或電子郵件註冊時不會發送此郵件。",
 ],
-        [
-     "title" => "客戶付款確認",
-],
-        [
-     "title" => "給賣家的訂單確認通知",
-],
-        [
-     "title" => "確認買家的商店盒子訂單",
-],
-        [
-     "title" => "為買家確認收銀台付款",
-],
-        [
-     "title" => "賣家盒子裡的購買通知",
-],
-        [
-     "title" => "通知聯繫表",
-],
-        [
-     "title" => "恭喜您加入本店",
-],
-        [
-     "title" => "收到用戶禮品卡的公告",
-]
-     ],
      "global" => [
      "greetings" => "嗨：名字",
      "end-statement" => "支持團隊",
@@ -126,7 +115,7 @@
      "transaction" => "交易",
      "fee" => "費用",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "賬單",
      "category" => "類別",
      "password" => "密碼",
@@ -150,6 +139,18 @@
      "receiver" => "接收者",
      "virtual-items" => "虛擬物品",
      "no-payment" => "沒有付款！",
+     "enable" => "使能夠",
+     "access" => "使用權",
+     "bank" => "銀行信息",
+     "vendor" => "小販",
+     "view_content" => "看完整內容",
+     "files" => "文件",
+     "download" => "下載",
+     "file_name" => "檔案名稱",
+     "file_size" => "尺寸",
+     "subscription" => "訂閱",
+     "products" => "產品",
+     "vendor_products" => "供應商產品",
 ],
      "selldone-business-os" => "Selldone 商業操作系統",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "你好",
-     "name" => "銷售團隊",
+     "name" => "批准，出售",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "商人",
-     "name" => "商人，Selldone",
+     "name" => "批准，出售",
 ],
      "Approve" => [
      "id" => "批准",
@@ -340,6 +341,12 @@
      "title" => "我們很高興成為您的會員",
      "action" => "立即訪問",
 ],
+     "shop-vendor-join" => [
+     "subject" => "供應商入職| :商店名稱",
+     "category" => "新供應商慶祝活動",
+     "title" => "我們很高興成為您的會員",
+     "action" => "Vendor Panel",
+],
      "shop-giftcard" => [
      "subject" => "禮品卡：shop_title",
      "category" => "添加新卡",
@@ -349,7 +356,7 @@
 ],
      "contact" => [
      "subject" => "支持中心 | ：店鋪",
-     "category" => "支持",
+     "category" => "支援",
      "title" => "您收到了回复",
 ],
      "order-checkout" => [
@@ -558,6 +565,7 @@
      "category" => "安全通知",
      "title" => "登錄帳戶",
      "message" => "親愛的 :name，您已登錄您的 Selldone 帳戶。",
+     "message-shop" => "親愛的 :name，您已登入 :shop_title 。",
      "footer" => "如果您沒有登錄，請更改您的密碼。",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "網站總瀏覽量",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "您收到了一份新訂單。請前往供應商面板中的訂單處理頁面。",
+     "subject" => "🛍 收到新訂單 | :order_id",
+     "your_revenue" => "您的收入",
+],
+     "vendor-invite" => [
+     "title" => "供應商邀請",
+     "message" => "您已收到成為 :shop_name 供應商的邀請。您可以透過點擊以下按鈕來接受或拒絕它。",
+     "subject" => ":店鋪名稱 |您收到成為我們供應商的邀請",
+     "accept" => "接受並成為供應商",
+     "reject" => "拒絕",
+],
+     "shop-email-login" => [
+     "subject" => "您的 :shop 登入代碼",
+     "header-message" => "我們向您發送這封電子郵件是因為您要求了商店的登入代碼。請在下面找到您的一次性密碼 (OTP)：",
+     "footer-message" => "該代碼的有效期為 10 分鐘。如果您沒有請求此登入代碼，請忽略此電子郵件。",
+],
+     "shop-email-verify-link" => [
+     "subject" => "驗證您的電子郵件 | ：店鋪",
+     "title" => "電子郵件驗證",
+     "header-message" => "嗨：名字，<br>請在 48 小時內點擊按鈕或使用以下連結確認 **:email** 是您的電子郵件地址。",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "產品更新：商店",
+     "title" => "產品狀態更新 - 過去 24 小時",
+     "message" => "我希望這封郵件對您有好處。這是一個簡短的更新，旨在告知您過去 24 小時內您的產品在我們平台上的狀態。在此期間，部分產品的狀態發生了變化。這些變化可能是由於購買、庫存更新或其他相關事件造成的。有關每個產品的更多詳細信息，請登入您的帳戶並查看“產品狀態”部分。",
+     "action" => "打開供應商面板",
 ],
 ];

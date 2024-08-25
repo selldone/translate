@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Hemî taybetmendiyên profesyonel ên avakirina firotgehek û malperek belaş bêyî ti sînorek dem li benda we ne.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Karûbarê malperê, belgeyên ji bo pêşkeftina serîlêdanê û karûbarê girêdayî ye.",
-],
      "apps" => [
      "title" => "App store",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Welatên Piştevanî û Tezmînata Herêmî - OS-ya Karsaziyê",
      "image" => "/images/seo/en/countries.png",
      "description" => "OS-ya Karsaziyê, Pêngava pêşkeftina din a karûbarên bazirganiyê ji platformên e-bazirganiyê heya tiştek bê mijar, pêvek, an kod. 100% dîtbarî!",
+],
+     "participant" => [
+     "title" => "Civaka ku hûn dixwazin - Bileyzin û 20 $ qezenc bikin",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Hûn dikarin beşdarî civata selldone bi afirandina vîdyoyên kurt bibin da ku alîkariya kesên din bikin û her vîdyoyê heya 20 USD krediya diyariyê bistînin.",
+],
+     "tax" => [
+     "title" => "Lîsteya Rêjeyên Bacê ya Gerdûnî",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Hûn dikarin qaîdeyên bacê bişopînin û ji bo kategoriyên hilberên cûda bêtir ji yek profîlên bacê biafirînin.",
+],
+     "premium" => [
+     "title" => "Nûve bikin Premium û Lîstika xweya E-Bazirganî Biguherînin",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Bi Selldone Premium firotgeha xweya serhêl bilind bikin. Bigihîjin amûrên AI-ê yên taybetî, şablonên xwerû, û hêj bêtir da ku karbidestiyê zêde bikin û li sûka dîjîtal rawestin. Ji bo ezmûnek e-bazirganiya e-bazirganî ya biaqiltir, naha tevlê bibin!",
+],
+     "builder" => [
+     "title" => "Afirînerê Rûpelê Belaş & Edîtorê Rûpelê Zevî Webapp - Têketinê Ne Pêdivî ye",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Bi çêker û edîtorê rûpela meya bêpere, bikarhêner-heval re, rûpelên malperê û rûpelên dakêşanê yên balkêş biafirînin. No login pêwîst. Bi navbeynkariya meya kaş-û-davêjê ya xwerû bi lez û bez rûpelên weba xwe sêwirînin, xweş bikin û biweşînin. Ji bo kirrûbirra, xwedan karsaziyên piçûk, û pêşdebiran ku li çareseriyek sêwirana malperê ya bê-kêşe digerin bêkêmasî ye.",
 ],
 ],
      "shuttle" => [

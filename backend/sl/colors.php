@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Bledi kanarček",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Slonokoščena",
+     "#B3E5FC" => "Led",
+     "#F1C40F" => "Zora",
+     "#7DF9FF" => "Električni",
+     "#FF6B35" => "sončni zahod",
 ];

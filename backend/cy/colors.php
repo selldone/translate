@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Dedwydd Pale",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Ifori",
+     "#B3E5FC" => "Iâ",
+     "#F1C40F" => "Gwawr",
+     "#7DF9FF" => "Trydan",
+     "#FF6B35" => "Machlud",
 ];

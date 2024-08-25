@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Dhammaan sifooyinka xirfadeed ee dhismaha dukaanka iyo goobta bilaashka ah iyada oo aan wax xaddidan waqti la xadidin ayaa ku sugaya adiga.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Adeegga shabakadda, dukumeentiyada horumarinta codsiga iyo adeegga ku xiran.",
-],
      "apps" => [
      "title" => "App Store",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Wadamada la Taageero iyo Lacagaha Maxaliga ah - Ganacsiga OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Ganacsiga OS, Talaabada xigta ee kobcinta adeegyada ganacsiga laga bilaabo goobaha ganacsiga e-commerce ilaa shay aan lahayn mawduuc, plugin, ama kood. 100% muuqaal ah!",
+],
+     "participant" => [
+     "title" => "Bulshada aad rabto - Ciyaar oo guulayso $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Waxaad ka qayb qaadan kartaa bulshada la iibiyay adiga oo abuuraya muuqaalo gaagaaban si aad u caawiso kuwa kale oo aad u hesho ilaa 20 USD hadiyad hadiyad fiidyow kasta.",
+],
+     "tax" => [
+     "title" => "Liiska Heerarka Canshuuraha Adduunka",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Waxaad burin kartaa sharciyada canshuurta oo waxaad abuuri kartaa wax ka badan hal nooc oo canshuur ah qaybaha badeecadaha kala duwan.",
+],
+     "premium" => [
+     "title" => "U cusboonaysii Premium oo beddel ciyaartaada ganacsiga e-commerce",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Kor u qaad dukaankaaga onlaynka ah ee Selldone Premium. Soo gal qalab gaar ah oo AI ah, moodello la hadal hayo, iyo in ka badan si kor loogu qaado hufnaanta loogana dhex muuqdo suuqa dhijitaalka ah. Ku biir hadda si aad u hesho khibrad ganacsi e-commerce ka xariifsan oo qurux badan!",
+],
+     "builder" => [
+     "title" => "Tifaftiraha Bogga Dhisaha & Soo Degista ee Bilaashka ah Webapp - Looma baahna Login",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "U samee bogag internet oo cajiib ah iyo bogag degitaan la'aan adigoo isticmaalaya bog dhisaha iyo tafatiraha bilaashka ah. Looma baahna gal Nakhshad, habbee, oo u daabac boggaga shabakada si deg deg ah adigoo isticmaalaya is-dhexgalkeena dareenka leh ee jiid-iyo-jiidashada. Ku fiican suuqgeynayaasha, milkiilayaasha ganacsiga yaryar, iyo horumariyeyaal doonaya xal nakhshad shabakad oo aan dhib lahayn.",
 ],
 ],
      "shuttle" => [

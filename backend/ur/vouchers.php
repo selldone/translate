@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "مبارک ہو، رجسٹر کریں اور یہ گفٹ کارڈ وصول کریں۔",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "آپ Selldone کے ایک فعال صارف کے لنک کے ذریعے سائٹ میں داخل ہوئے ہیں، اگر آپ Selldone میں ابھی رجسٹر ہوتے ہیں، تو آپ کو $14.9 مالیت کا گفٹ کارڈ ملے گا۔ سیلڈون میں سٹور کو رجسٹر کرنا اور بنانا 100% مفت ہے، لیکن آپ ان ریچارج کارڈز کو سروس سے نجات دلانے کے لیے استعمال کر سکتے ہیں۔",
-],
 ];

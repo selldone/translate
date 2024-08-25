@@ -134,7 +134,7 @@ return [
     'NOT_FOUNT_BASKET_ERROR' => "Cart not found.",
     'NOT_FOUNT_PRODUCT_ERROR' => "Product not found.",
     'NOT_FOUNT_BASKET_ITEM_ERROR' => "The item was not found in your cart.",
-    'NOT_FOUNT_VARIANT_ERROR' => "Variety not found.",
+    'NOT_FOUNT_VARIANT_ERROR' => "Variant not found.",
     'MAX_RATINGS_COUNT_ERROR' => "Maximum evaluable options are 5 numbers",
     'DUPLICATED_RATING_ERROR' => "This item has already been added.",
     'NOT_FOUND_RATING_ERROR' => "The desired option was not found.",
@@ -174,6 +174,7 @@ return [
     'LOTTERY_PRIZE_NOT_SELECT_VARIANT_ERROR' => "Variant of prize not selected.",
     'SHOP_LOTTERY_NOT_ENABLE_ERROR' => "Shop lottery not enable.",
 
+    'NOT_FOUND_CASHBACK_ERROR' => 'Cashback not found.',
 
 
 
@@ -279,6 +280,8 @@ return [
     'NOT_FOUND_VENDOR_ERROR' => "Vendor not found.",
     'NOT_FOUND_VENDOR_ORDER_ERROR' => "Vendor order not found.",
     'NOT_FOUND_ACCESS_ERROR' => "Your vendor account has no necessary access for this action.",
+    'MARKETPLACE_NOT_PERMITTED_EDIT_PRODUCTS' => "Vendors are not allowed to edit products in this marketplace. You currently lack the required permissions to modify products here. Please verify that you have the appropriate access privileges or reach out to the marketplace administrator for help.",
+
 
 
 

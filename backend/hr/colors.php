@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Blijedi kanarinac",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Bjelokost",
+     "#B3E5FC" => "Led",
+     "#F1C40F" => "Zora",
+     "#7DF9FF" => "Električni",
+     "#FF6B35" => "Zalazak sunca",
 ];

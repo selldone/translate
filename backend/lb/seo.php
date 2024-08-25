@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "All déi professionell Features fir e Geschäft a Site gratis ze bauen ouni Zäitlimit waarden op Iech.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Web Service, Dokumentatioun fir Applikatioun Entwécklung a Service verbonnen.",
-],
      "apps" => [
      "title" => "App Store",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Ënnerstëtzt Länner a Lokal Bezuelungen - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, Den nächsten Evolutiounsschrëtt vu Commerce Servicer vun E-Commerce Plattformen op eppes ouni Thema, Plugin oder Code. 100% visuell!",
+],
+     "participant" => [
+     "title" => "D'Gemeinschaft déi Dir wëllt - Spill a gewannt $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Dir kënnt un der selldone Gemeinschaft deelhuelen andeems Dir kuerz Videoen erstellt fir anerer ze hëllefen a bis zu 20 USD Kaddokredit pro Video ze kréien.",
+],
+     "tax" => [
+     "title" => "Global Steier Tariffer Lëscht",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Dir kënnt Steierregelen iwwerschreiden a méi wéi ee Steierprofil fir verschidde Produktkategorien erstellen.",
+],
+     "premium" => [
+     "title" => "Upgrade op Premium an transforméiert Äert E-Commerce Spill",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Erhéije Ären Online Store mat Selldone Premium. Zougrëff op exklusiv AI Tools, personaliséiert Templates, a méi fir Effizienz ze stäerken an op der digitaler Maartplaz erauszekommen. Maacht elo mat fir eng méi schlau, schlank E-Commerce Erfahrung!",
+],
+     "builder" => [
+     "title" => "Gratis Page Builder & Landing Page Editor Webapp - Kee Login erfuerderlech",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Erstellt beandrockend Websäiten a Landungssäiten ouni Ustrengung mat eisem gratis, userfrëndleche Säitebauer an Editeur. Nee Login néideg. Designt, personaliséiert a publizéiert Är Websäite séier mat eisem intuitiven Drag-and-Drop Interface. Perfekt fir Bemarker, kleng Geschäftsbesëtzer, an Entwéckler déi eng problemfräi Webdesign Léisung sichen.",
 ],
 ],
      "shuttle" => [

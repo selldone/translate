@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Tout karakteristik pwofesyonèl yo nan bati yon magazen ak sit pou gratis san okenn limit tan ap tann pou ou.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Sèvis entènèt, dokimantasyon pou devlopman aplikasyon ak sèvis konekte.",
-],
      "apps" => [
      "title" => "App store",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Peyi Sipòte ak Peman Lokal - Biznis OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Biznis OS, Pwochen etap evolisyon sèvis komès soti nan tribin e-commerce rive nan yon bagay ki pa gen okenn tèm, plugin, oswa kòd. 100% vizyèlman!",
+],
+     "participant" => [
+     "title" => "Kominote ou vle a — Jwe ak genyen $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Ou ka patisipe nan kominote selldone a lè w kreye videyo kout pou ede lòt moun epi jwenn jiska 20 USD kredi kado pou chak videyo.",
+],
+     "tax" => [
+     "title" => "Lis pousantaj taks mondyal yo",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Ou ka pase sou kont règleman taks yo epi kreye plis pase yon pwofil taks pou diferan kategori pwodwi.",
+],
+     "premium" => [
+     "title" => "Upgrade nan Premium ak transfòme jwèt E-Commerce ou a",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Ogmante magazen sou entènèt ou a ak Selldone Premium. Aksè ak zouti AI eksklizif, modèl ki sou mezi, ak plis ankò pou ogmante efikasite ak kanpe deyò sou mache dijital la. Antre nan kounye a pou yon eksperyans e-commerce pi entelijan, pi dous!",
+],
+     "builder" => [
+     "title" => "Gratis Builder paj ak Landing Page Editè Webapp - Pa gen okenn koneksyon obligatwa",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Kreye paj entènèt sansasyonèl ak paj aterisaj san efò ak builder paj gratis, zanmitay ak editè nou an. Pa gen okenn login obligatwa. Konsepsyon, pèsonalize, epi pibliye paj wèb ou yo byen vit ak koòdone entwisyon tren-and-drop nou an. Pafè pou mache, pwopriyetè ti biznis, ak devlopè k ap chèche yon solisyon konsepsyon entènèt san pwoblèm.",
 ],
 ],
      "shuttle" => [

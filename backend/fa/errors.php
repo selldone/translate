@@ -168,6 +168,7 @@ return [
     'LOTTERY_PRIZE_NOT_SELECT_VARIANT_ERROR' => "نوع محصول برای جایزه انتخاب نشده است.",
     'SHOP_LOTTERY_NOT_ENABLE_ERROR' => "بازی فروشگاه فعال نیست.",
 
+    'NOT_FOUND_CASHBACK_ERROR' => 'کش بک یافت نشد.',
 
 
     'CLIENT_BASKET_PAYMENT_AMOUNT_NOT_MATCH_ERROR'=>"مبلغ پرداخت با مبلغ محاسبه شده در سرور یکسان نیست. این خطا را مستقیما به support@selldone.com گزارش دهید.",

@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Þessi skilríki passa ekki við skrár okkar.",
+     "password" => "Uppgefið lykilorð er rangt.",
      "throttle" => "Of margar innskráningartilraunir. Vinsamlegast reyndu aftur eftir :sekúndur sekúndur.",
      "title_shop" => "Skráðu þig inn á :name",
      "title_app" => "Forritsaðgangur :name",

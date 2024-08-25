@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Bledý Kanársky",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Slonovina",
+     "#B3E5FC" => "Ľad",
+     "#F1C40F" => "Svitanie",
+     "#7DF9FF" => "Elektrické",
+     "#FF6B35" => "Západ slnka",
 ];

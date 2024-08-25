@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Alıcı tarafından onaylanan sipariş",
+     "email-types-description" => [
+     "shop-customer-join" => "Bu mesaj mağazamıza yeni gelen alıcıyı memnuniyetle karşılar.",
+     "order-checkout" => "Bu bildirim, bir alıcı siparişi onayladığında gönderilir.",
+     "order-payment" => "Bu bildirim, müşteri tarafından yapılan ödemenin başarılı olduğunu teyit eder.",
+     "order-payment-admin" => "Bu mesaj, satıcıya siparişin onaylandığını bildirmek için gönderilir.",
+     "pos-checkout" => "Bu bildirim, bir alıcıya satış noktası siparişini onaylamak için gönderilir.",
+     "pos-payment" => "Bu bildirim, alıcı tarafından yapılan bir satış noktası ödemesini teyit eder.",
+     "pos-payment-admin" => "Bu mesaj, satıcıya satış noktasında yapılan bir satın alma işlemini bildirir.",
+     "shop-contact" => "Bu bildirim bir iletişim formu gönderildiğinde gönderilir.",
+     "shop-giftcard" => "Bu bildirim, kullanıcıya hediye kartı aldığını bildirir.",
+     "shop-vendor-join" => "Bu mesaj mağazamıza yeni katılan bir satıcıya hoş geldiniz mesajıdır.",
+     "shop-vendor-invite" => "Bu mesaj, bir satıcıyı pazaryerinize katılmaya davet etmek için gönderilir.",
+     "shop-vendor-order" => "Bu mesaj, bir siparişin Ödenmiş veya Kapıda Ödeme (COD) durumunda alınması durumunda satıcıya gönderilir.",
+     "shop-vendor-products" => "Satıcılara ürünlerinin durumu hakkında günlük olarak güncelleme gönderilir.",
+     "shop-login" => "Güvenlik amacıyla kullanıcıya IP adresi, tarih ve cihaz gibi oturum açma bilgilerini bildirin.",
+     "login-code" => "Kullanıcıların mağazaya giriş yapabilmeleri için tek seferlik şifre kodu gönderin.",
+     "shop-email-verify-link" => "Kullanıcının e-posta adresini doğrulamak için bir bağlantı gönder. Bu posta, bir kullanıcı SMS ile kayıt yaptırdığında ve e-postasını girdiğinde gönderilir ve kullanıcı doğrudan sosyal veya e-posta ile kayıt yaptırdığında gönderilmez.",
 ],
-        [
-     "title" => "Müşteri ödeme onayı",
-],
-        [
-     "title" => "Satıcıya sipariş onay bildirimi",
-],
-        [
-     "title" => "Alıcı için mağaza kutusu siparişini onaylayın",
-],
-        [
-     "title" => "Alıcı için yazarkasa ödemesini onaylayın",
-],
-        [
-     "title" => "Satıcının kutusundaki satın alma bildirimi",
-],
-        [
-     "title" => "İletişim formunu bilgilendir",
-],
-        [
-     "title" => "Mağazaya katıldığınız için tebrikler",
-],
-        [
-     "title" => "Kullanıcıya hediye kartı alma duyurusu",
-]
-     ],
      "global" => [
      "greetings" => "merhaba :isim",
      "end-statement" => "Destek ekibi",
@@ -38,7 +27,7 @@
      "footer-shop" => "Herhangi bir konuda yardıma ihtiyacınız olursa lütfen bize bir e-posta göndermekten çekinmeyin: :shop_mail",
      "accept" => "Kabul etmek",
      "reject" => "Reddetmek",
-     "verify" => "Doğrulayın",
+     "verify" => "doğrulamak",
      "title" => "Başlık",
      "value" => "Değer",
      "description" => "Tanım",
@@ -126,7 +115,7 @@
      "transaction" => "işlem",
      "fee" => "Ücret",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Fatura",
      "category" => "Kategori",
      "password" => "Parola",
@@ -150,6 +139,18 @@
      "receiver" => "Alıcı",
      "virtual-items" => "Sanal öğeler",
      "no-payment" => "Ödeme yok!",
+     "enable" => "Olanak vermek",
+     "access" => "Giriş",
+     "bank" => "Banka bilgileri",
+     "vendor" => "SATICI",
+     "view_content" => "Tüm içeriği görüntüle",
+     "files" => "Dosyalar",
+     "download" => "İndirmek",
+     "file_name" => "Dosya adı",
+     "file_size" => "Boy",
+     "subscription" => "abonelik",
+     "products" => "Ürün:% s",
+     "vendor_products" => "Satıcı Ürünleri",
 ],
      "selldone-business-os" => "Selldone İş İşletim Sistemi",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "merhaba",
-     "name" => "Satılan Takım",
+     "name" => "Onaylamak, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "tüccarlar",
-     "name" => "Tüccarlar, Selldone",
+     "name" => "Onaylamak, Selldone",
 ],
      "Approve" => [
      "id" => "onaylamak",
@@ -340,6 +341,12 @@
      "title" => "Üyeliğiniz için mutluyuz",
      "action" => "Şimdi ziyaret edin",
 ],
+     "shop-vendor-join" => [
+     "subject" => "Satıcı Katılımı | :shop_title",
+     "category" => "Yeni satıcı kutlaması",
+     "title" => "Üyeliğiniz için mutluyuz",
+     "action" => "Vendor Panel",
+],
      "shop-giftcard" => [
      "subject" => "Hediye kartı :shop_title",
      "category" => "Yeni kart ekle",
@@ -349,7 +356,7 @@
 ],
      "contact" => [
      "subject" => "Destek merkezi | :Dükkan",
-     "category" => "destek",
+     "category" => "Destek",
      "title" => "bir yanıt aldınız",
 ],
      "order-checkout" => [
@@ -558,6 +565,7 @@
      "category" => "Güvenlik bildirimleri",
      "title" => "Hesaba Giriş Yap",
      "message" => "Sevgili :name, Selldone hesabınıza giriş yaptınız.",
+     "message-shop" => "Sevgili :name, :shop_title 'a giriş yaptınız.",
      "footer" => "Giriş yapmadıysanız, lütfen şifrenizi değiştirin.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Toplam web sitesi sayfa görüntülemeleri",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Yeni bir sipariş aldınız. Lütfen satıcı panelinizdeki sipariş işleme sayfasına gidin.",
+     "subject" => "🛍 Yeni Sipariş Alındı | :Sipariş Kimliği",
+     "your_revenue" => "Geliriniz",
+],
+     "vendor-invite" => [
+     "title" => "Satıcı Davetiyesi",
+     "message" => ":shop_name satıcısı olmak için bir davet aldınız. Aşağıdaki düğmelere tıklayarak daveti kabul edebilir veya reddedebilirsiniz.",
+     "subject" => ":shop_name | Satıcımız olmanız için bir davet aldınız",
+     "accept" => "Kabul Et ve Satıcı Ol",
+     "reject" => "Reddetmek",
+],
+     "shop-email-login" => [
+     "subject" => ":shop için Giriş Kodunuz",
+     "header-message" => "Mağaza için bir giriş kodu talep ettiğiniz için size bu e-postayı gönderiyoruz. Lütfen Tek Seferlik Parolanızı (OTP) aşağıda bulabilirsiniz:",
+     "footer-message" => "Bu kod 10 dakika geçerli olacaktır. Bu giriş kodunu siz talep etmediyseniz, lütfen bu e-postayı dikkate almayın.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "E-postanızı doğrulayın | :shop",
+     "title" => "E-posta Doğrulaması",
+     "header-message" => "Merhaba :isim,<br> Lütfen **:email** adresinin sizin e-posta adresiniz olduğunu 48 saat içinde butona tıklayarak veya aşağıdaki bağlantıyı kullanarak doğrulayın.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Ürün Güncellemesi :shop",
+     "title" => "Ürün Durumu Güncellemesi - Son 24 Saat",
+     "message" => "Umarım bu mesaj size iyi ulaşır. Bu, platformumuzdaki ürünlerinizin son 24 saat içindeki durumu hakkında sizi bilgilendirmek için kısa bir güncellemedir. Bu süre zarfında bazı ürünlerin durumunda değişiklikler oldu. Bu değişiklikler satın alımlar, stok güncellemeleri veya diğer ilgili olaylardan kaynaklanıyor olabilir. Her ürün hakkında daha ayrıntılı bilgi için lütfen hesabınıza giriş yapın ve 'Ürün Durumu' bölümünü kontrol edin.",
+     "action" => "Satıcı Panelini Aç",
 ],
 ];

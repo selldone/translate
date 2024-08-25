@@ -73,14 +73,4 @@
      "price" => 3588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Urime, regjistrohuni dhe merrni këtë kartë dhuratë",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Ju keni hyrë në faqe përmes lidhjes së një përdoruesi aktiv të Selldone, nëse regjistroheni në Selldone tani, do të merrni një kartë dhuratë me vlerë 14,9 dollarë. Regjistrimi dhe ndërtimi i një dyqani në Selldone është 100% falas, por ju mund t'i përdorni këto karta rimbushje për të lehtësuar shërbimin.",
-],
 ];

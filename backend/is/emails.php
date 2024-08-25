@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Pöntun staðfest af kaupanda",
+     "email-types-description" => [
+     "shop-customer-join" => "Þessi skilaboð bjóða nýjan kaupanda velkominn í búðina.",
+     "order-checkout" => "Þessi tilkynning er send þegar kaupandi staðfestir pöntun.",
+     "order-payment" => "Þessi tilkynning staðfestir árangursríka greiðslu sem viðskiptavinur hefur gert.",
+     "order-payment-admin" => "Þessi skilaboð eru send til seljanda til að tilkynna þeim um staðfesta pöntun.",
+     "pos-checkout" => "Þessi tilkynning er send til að staðfesta pöntun á sölustað fyrir kaupanda.",
+     "pos-payment" => "Þessi tilkynning staðfestir greiðslu á sölustað sem kaupandi hefur gert.",
+     "pos-payment-admin" => "Þessi skilaboð tilkynna seljanda um kaup sem gerðar eru á sölustað þeirra.",
+     "shop-contact" => "Þessi tilkynning er send þegar snertingareyðublað hefur verið sent.",
+     "shop-giftcard" => "Þessi tilkynning lætur notanda vita að hann hafi fengið gjafakort.",
+     "shop-vendor-join" => "Þessi skilaboð bjóða nýjan söluaðila velkominn í búðina.",
+     "shop-vendor-invite" => "Þessi skilaboð eru send til að bjóða söluaðila að taka þátt í markaðstorginu þínu.",
+     "shop-vendor-order" => "Þessi skilaboð eru send til lánardrottins þegar pöntun er móttekin í annaðhvort Greitt eða staðgreiðslu (COD).",
+     "shop-vendor-products" => "Sendt daglega til að uppfæra söluaðila um stöðu vara þeirra.",
+     "shop-login" => "Láttu notandann vita með innskráningarupplýsingum, þar á meðal IP-tölu, dagsetningu og tæki, í öryggisskyni.",
+     "login-code" => "Sendu einu sinni lykilorðskóða fyrir notendur til að skrá sig inn í verslunina.",
+     "shop-email-verify-link" => "Sendu tengil til að staðfesta netfang notandans. Þessi póstur er sendur þegar notandi skráir sig með SMS og slær inn tölvupóstinn sinn og er ekki sendur þegar notandi skráir sig á samfélagsmiðlum eða beint með tölvupósti.",
 ],
-        [
-     "title" => "Staðfesting á greiðslu viðskiptavina",
-],
-        [
-     "title" => "Tilkynning um pöntun til seljanda",
-],
-        [
-     "title" => "Staðfestu pöntun á kassa fyrir kaupanda",
-],
-        [
-     "title" => "Staðfestu greiðslu á sjóðvél fyrir kaupanda",
-],
-        [
-     "title" => "Tilkynning um kaup í kassa seljanda",
-],
-        [
-     "title" => "Upplýsa tengiliðaform",
-],
-        [
-     "title" => "Til hamingju með verslunina",
-],
-        [
-     "title" => "Tilkynning um móttöku gjafakorts til notanda",
-]
-     ],
      "global" => [
      "greetings" => "Hæ :nafn",
      "end-statement" => "Stuðningsteymi",
@@ -126,7 +115,7 @@
      "transaction" => "Viðskipti",
      "fee" => "Gjald",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Flokkur",
      "password" => "Lykilorð",
@@ -150,6 +139,18 @@
      "receiver" => "Viðtakandi",
      "virtual-items" => "Sýndarhlutir",
      "no-payment" => "Engin greiðsla!",
+     "enable" => "Virkja",
+     "access" => "Aðgangur",
+     "bank" => "Bankaupplýsingar",
+     "vendor" => "Seljandi",
+     "view_content" => "Skoða allt efnið",
+     "files" => "Skrár",
+     "download" => "Sækja",
+     "file_name" => "Skráarheiti",
+     "file_size" => "Stærð",
+     "subscription" => "Áskrift",
+     "products" => "Vörur",
+     "vendor_products" => "Vörur söluaðila",
 ],
      "selldone-business-os" => "Sellone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "hæ",
-     "name" => "Selldon Team",
+     "name" => "Samþykkja, Sellone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "kaupmenn",
-     "name" => "Kaupmenn, Selldone",
+     "name" => "Samþykkja, Sellone",
 ],
      "Approve" => [
      "id" => "samþykkja",
@@ -339,6 +340,12 @@
      "category" => "Nýr viðskiptavinur hátíð",
      "title" => "Við erum ánægð með aðild þína",
      "action" => "Heimsókn núna",
+],
+     "shop-vendor-join" => [
+     "subject" => "Seljendur um borð | :verslun_heiti",
+     "category" => "Nýr söluaðila hátíð",
+     "title" => "Við erum ánægð með aðild þína",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Gjafakort :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Öryggistilkynningar",
      "title" => "Skráðu þig inn á reikning",
      "message" => "Kæri :name, þú hefur verið skráður inn á Selldone reikninginn þinn.",
+     "message-shop" => "Kæri :name, þú hefur verið skráður inn á :shop_title .",
      "footer" => "Ef þú ert ekki skráður inn skaltu breyta lykilorðinu þínu.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Heildarsíðuflettingar á vefsíðu",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Þú hefur fengið nýja pöntun. Vinsamlegast farðu á pöntunarvinnslusíðuna í spjaldið söluaðila.",
+     "subject" => "🛍 Ný pöntun móttekin | :pöntunarnúmer",
+     "your_revenue" => "Tekjur þínar",
+],
+     "vendor-invite" => [
+     "title" => "Boð söluaðila",
+     "message" => "Þú hefur fengið boð um að gerast söluaðili :shop_name. Þú getur samþykkt eða hafnað því með því að smella á eftirfarandi hnappa.",
+     "subject" => ":nafn verslunar | Þú fékkst boð um að gerast söluaðili okkar",
+     "accept" => "Samþykkja og gerast söluaðili",
+     "reject" => "Hafna",
+],
+     "shop-email-login" => [
+     "subject" => "Innskráningarkóði þinn fyrir :shop",
+     "header-message" => "Við erum að senda þér þennan tölvupóst vegna þess að þú baðst um innskráningarkóða fyrir verslunina. Vinsamlega finndu Eingangs lykilorðið þitt (OTP) hér að neðan:",
+     "footer-message" => "Þessi kóði mun gilda í 10 mínútur. Ef þú baðst ekki um þennan innskráningarkóða skaltu hunsa þennan tölvupóst.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Staðfestu netfangið þitt | :búð",
+     "title" => "Staðfesting tölvupósts",
+     "header-message" => "Hæ :nafn,<br> Vinsamlegast staðfestu að **:email** sé netfangið þitt með því að smella á hnappinn eða notaðu tengilinn hér að neðan innan 48 klukkustunda.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Vöruuppfærsla: búð",
+     "title" => "Uppfærsla á vörustöðu - Síðasti 24 klst",
+     "message" => "Ég vona að þessi skilaboð finnist þér vel. Þetta er stutt uppfærsla til að upplýsa þig um stöðu vara þinna á vettvangi okkar síðastliðinn 24 klukkustundir. Á þessu tímabili hafa orðið breytingar á stöðu sumra vara. Þessar breytingar gætu verið vegna kaupa, hlutabréfauppfærslu eða annarra tengdra atburða. Fyrir frekari upplýsingar um hverja vöru, vinsamlegast skráðu þig inn á reikninginn þinn og athugaðu hlutann 'Vörustaða'.",
+     "action" => "Opnaðu lánardrottinsspjaldið",
 ],
 ];

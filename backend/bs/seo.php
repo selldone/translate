@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Sve profesionalne mogućnosti izgradnje trgovine i web stranice besplatno bez ikakvog vremenskog ograničenja čekaju na vas.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Web servis, dokumentacija za razvoj aplikacija i servis povezan.",
-],
      "apps" => [
      "title" => "Prodavnica aplikacija",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Podržane zemlje i lokalna plaćanja - Poslovni OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Poslovni OS, sljedeći korak evolucije komercijalnih usluga od platformi za e-trgovinu do nečega bez teme, dodatka ili koda. 100% vizuelno!",
+],
+     "participant" => [
+     "title" => "Zajednica koju želite — igrajte i osvojite $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Možete učestvovati u selldone zajednici tako što ćete kreirati kratke video zapise kako biste pomogli drugima i dobili do 20 USD poklon kredita po videu.",
+],
+     "tax" => [
+     "title" => "Globalna lista poreskih stopa",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Možete nadjačati porezna pravila i kreirati više od jednog poreznog profila za različite kategorije proizvoda.",
+],
+     "premium" => [
+     "title" => "Nadogradite na Premium i transformirajte svoju e-trgovinu igru",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Podignite svoju online prodavnicu uz Selldone Premium. Pristupite ekskluzivnim AI alatima, prilagođenim predlošcima i još mnogo toga kako biste poboljšali efikasnost i istaknuli se na digitalnom tržištu. Pridružite se sada za pametnije, elegantnije iskustvo e-trgovine!",
+],
+     "builder" => [
+     "title" => "Besplatna web aplikacija za izradu stranica i uređivač odredišne stranice - nije potrebna prijava",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Kreirajte zapanjujuće web stranice i odredišne stranice bez napora pomoću našeg besplatnog alata za pravljenje stranica i uređivača prilagođenog korisniku. Nije potrebna prijava. Dizajnirajte, prilagodite i objavite svoje web stranice brzo pomoću našeg intuitivnog drag-and-drop interfejsa. Savršeno za trgovce, vlasnike malih preduzeća i programere koji traže rješenje za web dizajn bez problema.",
 ],
 ],
      "shuttle" => [

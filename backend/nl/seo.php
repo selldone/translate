@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Alle professionele functies van het gratis en zonder tijdslimiet bouwen van een winkel en site wachten op u.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Webservice, documentatie voor applicatieontwikkeling en service connected.",
-],
      "apps" => [
      "title" => "App Winkel",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Ondersteunde landen en lokale betalingen - Besturingssysteem voor bedrijven",
      "image" => "/images/seo/en/countries.png",
      "description" => "Zakelijk besturingssysteem, de volgende stap in de evolutie van handelsservices van e-commerceplatforms naar iets zonder thema, plug-in of code. 100% visueel!",
+],
+     "participant" => [
+     "title" => "De community die je wilt: speel en win $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Je kunt deelnemen aan de selldone-community door korte video's te maken om anderen te helpen. Je krijgt dan tot wel 20 USD tegoed per video.",
+],
+     "tax" => [
+     "title" => "Wereldwijde lijst met belastingtarieven",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "U kunt belastingregels negeren en meer dan één belastingprofiel voor verschillende productcategorieën maken.",
+],
+     "premium" => [
+     "title" => "Upgrade naar Premium en transformeer uw e-commercespel",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Til uw online winkel naar een hoger niveau met Selldone Premium. Krijg toegang tot exclusieve AI-tools, op maat gemaakte sjablonen en meer om de efficiëntie te verhogen en op te vallen op de digitale marktplaats. Word nu lid voor een slimmere, strakkere e-commerce-ervaring!",
+],
+     "builder" => [
+     "title" => "Gratis pagina-builder en landingspagina-editor webapp - geen aanmelding vereist",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Maak moeiteloos verbluffende webpagina's en landingspagina's met onze gratis, gebruiksvriendelijke paginabuilder en editor. Geen login vereist. Ontwerp, pas aan en publiceer uw webpagina's snel met onze intuïtieve drag-and-dropinterface. Perfect voor marketeers, eigenaren van kleine bedrijven en ontwikkelaars die op zoek zijn naar een probleemloze webdesignoplossing.",
 ],
 ],
      "shuttle" => [

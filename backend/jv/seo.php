@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Kabeh fitur profesional kanggo mbangun toko lan situs gratis tanpa watesan wektu nunggu sampeyan.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Layanan web, dokumentasi kanggo pangembangan aplikasi lan layanan sing disambungake.",
-],
      "apps" => [
      "title" => "Toko aplikasi",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Negara sing Didhukung lan Pembayaran Lokal - OS Bisnis",
      "image" => "/images/seo/en/countries.png",
      "description" => "OS Bisnis, Langkah evolusi sabanjure layanan dagang saka platform e-commerce menyang soko tanpa tema, plugin, utawa kode. 100% visual!",
+],
+     "participant" => [
+     "title" => "Komunitas sing dikarepake - Muter lan Menang $ 20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Sampeyan bisa melu ing komunitas seldone kanthi nggawe video cendhak kanggo mbantu wong liya lan entuk kredit hadiah nganti 20 USD saben video.",
+],
+     "tax" => [
+     "title" => "Dhaptar Tarif Pajak Global",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Sampeyan bisa ngilangi aturan pajak lan nggawe luwih saka siji profil pajak kanggo macem-macem kategori produk.",
+],
+     "premium" => [
+     "title" => "Nganyarke menyang Premium lan Ganti Game E-Commerce Panjenengan",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Tingkatake toko online sampeyan nganggo Selldone Premium. Ngakses alat AI eksklusif, cithakan bespoke, lan liya-liyane kanggo ngedongkrak efisiensi lan menonjol ing pasar digital. Gabung saiki kanggo pengalaman e-commerce sing luwih cerdas lan ramping!",
+],
+     "builder" => [
+     "title" => "Free Page Builder & Landing Page Editor Webapp - Ora Perlu Mlebet",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Gawe kaca web lan kaca kebangkrutan sing nggumunake kanthi gampang karo pembangun lan editor halaman sing gratis lan ramah pangguna. Ora perlu mlebu. Desain, ngatur, lan nerbitake kaca web kanthi cepet nganggo antarmuka seret lan selehake sing intuisi. Sampurna kanggo para pemasar, pamilik bisnis cilik, lan pangembang sing golek solusi desain web tanpa repot.",
 ],
 ],
      "shuttle" => [

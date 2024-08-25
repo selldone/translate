@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Bestellung bestätegt vum Keefer",
+     "email-types-description" => [
+     "shop-customer-join" => "Dëse Message begréisst en neie Keefer an de Buttek.",
+     "order-checkout" => "Dës Notifikatioun gëtt geschéckt wann e Keefer eng Bestellung bestätegt.",
+     "order-payment" => "Dës Notifikatioun bestätegt déi erfollegräich Bezuelung vun engem Client.",
+     "order-payment-admin" => "Dëse Message gëtt un e Verkeefer geschéckt fir se vun enger bestätegter Bestellung z'informéieren.",
+     "pos-checkout" => "Dës Notifikatioun gëtt geschéckt fir e Verkafsbestellung fir e Keefer ze bestätegen.",
+     "pos-payment" => "Dës Notifikatioun bestätegt e Punkt vum Verkaf vun engem Keefer.",
+     "pos-payment-admin" => "Dëse Message informéiert de Verkeefer vun engem Akaf op hirem Verkafspunkt.",
+     "shop-contact" => "Dës Notifikatioun gëtt geschéckt wann e Kontaktformular ofginn ass.",
+     "shop-giftcard" => "Dës Notifikatioun informéiert e Benotzer datt se eng Geschenkkaart kritt hunn.",
+     "shop-vendor-join" => "Dëse Message begréisst en neie Verkeefer an de Buttek.",
+     "shop-vendor-invite" => "Dëse Message gëtt geschéckt fir e Verkeefer ze invitéieren op Äre Maartplaz matzemaachen.",
+     "shop-vendor-order" => "Dëse Message gëtt un de Verkeefer geschéckt wann eng Bestellung an entweder Paid oder Cash on Delivery (COD) Status kritt gëtt.",
+     "shop-vendor-products" => "All Dag verschéckt fir Ubidder iwwer de Status vun hire Produkter ze aktualiséieren.",
+     "shop-login" => "Notéiert de Benotzer mat Umeldungsdetailer, dorënner IP Adress, Datum an Apparat, fir Sécherheetszwecker.",
+     "login-code" => "Schéckt eng eemoleg Passwuert Code fir Benotzer an de Buttek aloggen.",
+     "shop-email-verify-link" => "Schéckt e Link fir d'E-Mailadress vum Benotzer z'iwwerpréiwen. Dës E-Mail gëtt geschéckt wann e Benotzer sech per SMS registréiert an seng E-Mail aginn a gëtt net geschéckt wann de Benotzer sech per sozial oder direkt E-Mail registréiert.",
 ],
-        [
-     "title" => "Client Bezuelen Bestätegung",
-],
-        [
-     "title" => "Uerdnung Bestätegung Notiz dem Verkeefer",
-],
-        [
-     "title" => "Confirméieren Buttek Box Uerdnung fir Keefer",
-],
-        [
-     "title" => "Bestätegt d'Bezuelung vum Keeser fir de Keefer",
-],
-        [
-     "title" => "Notiz vum Kaf an der Këscht vum Verkeefer",
-],
-        [
-     "title" => "Informéieren Kontakt Form",
-],
-        [
-     "title" => "Gratulatioun fir de Buttek",
-],
-        [
-     "title" => "Ukënnegung fir eng Kaddokaart fir de Benotzer ze kréien",
-]
-     ],
      "global" => [
      "greetings" => "Moien: Numm",
      "end-statement" => "Ënnerstëtzung Equipe",
@@ -126,7 +115,7 @@
      "transaction" => "Transaktioun",
      "fee" => "Fee",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Kategorie",
      "password" => "Passwuert",
@@ -150,6 +139,18 @@
      "receiver" => "Empfänger",
      "virtual-items" => "Virtuell Artikelen",
      "no-payment" => "Keng Bezuelung!",
+     "enable" => "Aktivéieren",
+     "access" => "Zougang",
+     "bank" => "Bankinfo",
+     "vendor" => "Verkeefer",
+     "view_content" => "Gesinn voll Inhalt",
+     "files" => "Fichieren",
+     "download" => "Download",
+     "file_name" => "Dateinumm",
+     "file_size" => "Gréisst",
+     "subscription" => "Abonnement",
+     "products" => "Produkter",
+     "vendor_products" => "Verkeefer Produkter",
 ],
      "selldone-business-os" => "Selldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "Salut",
-     "name" => "Selldon Team",
+     "name" => "Genehmegt, Seldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "Händler",
-     "name" => "Händler, Selldone",
+     "name" => "Genehmegt, Seldone",
 ],
      "Approve" => [
      "id" => "stëmmen",
@@ -339,6 +340,12 @@
      "category" => "Neie Client Feier",
      "title" => "Mir si frou fir Är Memberschaft",
      "action" => "Besicht elo",
+],
+     "shop-vendor-join" => [
+     "subject" => "Verkeefer Onboarding | :shop_title",
+     "category" => "Neie Verkeefer Feier",
+     "title" => "Mir si frou fir Är Memberschaft",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Giftcard :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Sécherheet Notifikatiounen",
      "title" => "Login op Kont",
      "message" => "Léif :name, Dir sidd op Äre Selldone Kont ageloggt.",
+     "message-shop" => "Léif :name, Dir sidd op :shop_title ageloggt.",
      "footer" => "Wann Dir net ageloggt sidd, ännert w.e.g. Äert Passwuert.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Total Websäit Säit Meenung",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Dir hutt eng nei Bestellung kritt. Gitt w.e.g. op d'Bestellungsveraarbechtungssäit an Ärem Verkeefer Panel.",
+     "subject" => "🛍 Nei Bestellung kritt | :order_id",
+     "your_revenue" => "Är Recetten",
+],
+     "vendor-invite" => [
+     "title" => "Verkeefer Invitatioun",
+     "message" => "Dir hutt eng Invitatioun kritt fir Verkeefer vun :shop_name ze ginn. Dir kënnt et akzeptéieren oder refuséieren andeems Dir op déi folgend Knäppercher klickt.",
+     "subject" => ":shop_numm | Dir krut eng Invitatioun fir eise Verkeefer ze ginn",
+     "accept" => "Akzeptéieren & Gitt e Verkeefer",
+     "reject" => "Oflehnen",
+],
+     "shop-email-login" => [
+     "subject" => "Äre Login Code fir: Shop",
+     "header-message" => "Mir schécken Iech dës E-Mail well Dir e Logincode fir de Buttek gefrot hutt. Fannt w.e.g. Äert One-Time Passwuert (OTP) hei ënnen:",
+     "footer-message" => "Dëse Code gëlteg fir 10 Minutten. Wann Dir dëse Logincode net gefrot hutt, ignoréiert w.e.g. dës E-Mail.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Verifizéiert Är E-Mail | :shop",
+     "title" => "E-Mail Verifikatioun",
+     "header-message" => "Moien: Numm,<br> Bestätegt w.e.g. datt **:E-Mail** Är E-Mailadress ass andeems Dir op de Knäppchen klickt oder de Link hei ënnen bannent 48 Stonnen benotzt.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Produkter Update: Shop",
+     "title" => "Update op Produktstatus - lescht 24 Stonnen",
+     "message" => "Ech hoffen dëse Message fënnt Iech gutt. Dëst ass e kuerzen Update fir Iech iwwer de Status vun Äre Produkter op eiser Plattform an de leschten 24 Stonnen z'informéieren. Wärend dëser Period goufen et Ännerungen am Status vun e puer Produkter. Dës Ännerungen kënne wéinst Akeef, Aktieupdates oder aner verbonne Eventer sinn. Fir méi detailléiert Informatiounen iwwer all Produkt, mellt Iech w.e.g. op Äre Kont a kontrolléiert d'Sektioun 'Produktstatus'.",
+     "action" => "Open Vendor Panel",
 ],
 ];

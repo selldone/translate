@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Oda ya tabbatar da mai siye",
+     "email-types-description" => [
+     "shop-customer-join" => "Wannan sakon yana maraba da sabon mai siye zuwa shagon.",
+     "order-checkout" => "Ana aika wannan sanarwar lokacin da mai siye ya tabbatar da oda.",
+     "order-payment" => "Wannan sanarwar tana tabbatar da nasarar biyan kuɗin da abokin ciniki ya yi.",
+     "order-payment-admin" => "Ana aika wannan sakon zuwa ga mai siyarwa don sanar da su wani tabbataccen oda.",
+     "pos-checkout" => "Ana aika wannan sanarwar don tabbatar da odar siyarwa ga mai siye.",
+     "pos-payment" => "Wannan sanarwar tana tabbatar da wurin biyan siyar da mai siye ya yi.",
+     "pos-payment-admin" => "Wannan sakon yana sanar da mai siyar da siyan da aka yi a wurin siyar da su.",
+     "shop-contact" => "Ana aika wannan sanarwar lokacin da aka ƙaddamar da fam ɗin lamba.",
+     "shop-giftcard" => "Wannan sanarwar tana sanar da mai amfani cewa sun karɓi katin kyauta.",
+     "shop-vendor-join" => "Wannan sakon yana maraba da sabon mai siyarwa zuwa shagon.",
+     "shop-vendor-invite" => "An aika wannan saƙon don gayyatar mai siyarwa don shiga kasuwan ku.",
+     "shop-vendor-order" => "Ana aika wannan saƙon zuwa mai siyarwa lokacin da aka karɓi oda a cikin ko dai Biya ko Kuɗi akan Bayarwa (COD).",
+     "shop-vendor-products" => "Ana aika kullun don sabunta masu siyar da matsayin samfuran su.",
+     "shop-login" => "Sanar da mai amfani tare da bayanan shiga, gami da adireshin IP, kwanan wata, da na'ura, don dalilai na tsaro.",
+     "login-code" => "Aika lambar kalmar sirri ta lokaci ɗaya don masu amfani don shiga cikin shagon.",
+     "shop-email-verify-link" => "Aika hanyar haɗi don tabbatar da adireshin imel ɗin mai amfani. Ana aika wannan wasiƙar lokacin da mai amfani ya yi rajista ta SMS kuma ya shigar da imel ɗin su kuma ba a aika shi lokacin rajistar mai amfani ta hanyar zamantakewa ko imel kai tsaye.",
 ],
-        [
-     "title" => "Tabbatar da biyan kuɗi na abokin ciniki",
-],
-        [
-     "title" => "Oda sanarwar tabbatarwa ga mai siyarwa",
-],
-        [
-     "title" => "Tabbatar da odar akwatin ajiya don mai siye",
-],
-        [
-     "title" => "Tabbatar da biyan kuɗin rajistar kuɗi don mai siye",
-],
-        [
-     "title" => "Sanarwa na siyan a cikin akwatin mai siyarwa",
-],
-        [
-     "title" => "Sanar da hanyar tuntuɓar",
-],
-        [
-     "title" => "Barka da shiga kantin",
-],
-        [
-     "title" => "Sanarwa na karɓar katin kyauta ga mai amfani",
-]
-     ],
      "global" => [
      "greetings" => "Hi: suna",
      "end-statement" => "Taimako tawagar",
@@ -126,7 +115,7 @@
      "transaction" => "Ma'amala",
      "fee" => "Kudin",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Rukuni",
      "password" => "Kalmar wucewa",
@@ -150,6 +139,18 @@
      "receiver" => "Mai karɓa",
      "virtual-items" => "Abubuwa na zahiri",
      "no-payment" => "Babu biya!",
+     "enable" => "Kunna",
+     "access" => "Shiga",
+     "bank" => "Bayanin banki",
+     "vendor" => "Mai sayarwa",
+     "view_content" => "Duba cikakken abun ciki",
+     "files" => "Fayiloli",
+     "download" => "Zazzagewa",
+     "file_name" => "Sunan Fayil",
+     "file_size" => "Girman",
+     "subscription" => "Biyan kuɗi",
+     "products" => "Kayayyaki",
+     "vendor_products" => "Kayayyakin Dillali",
 ],
      "selldone-business-os" => "Siyar da Kasuwancin OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "sannu",
-     "name" => "Ƙungiyar Selldone",
+     "name" => "Amincewa, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "yan kasuwa",
-     "name" => "Yan kasuwa, Selldone",
+     "name" => "Amincewa, Selldone",
 ],
      "Approve" => [
      "id" => "yarda",
@@ -339,6 +340,12 @@
      "category" => "Sabuwar bikin abokin ciniki",
      "title" => "Muna farin ciki da kasancewar ku",
      "action" => "Ziyarci yanzu",
+],
+     "shop-vendor-join" => [
+     "subject" => "Dillali Onboarding | : shop_title",
+     "category" => "Bikin sabon mai siyarwa",
+     "title" => "Muna farin ciki da kasancewar ku",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Katin kyauta: shop_title",
@@ -558,6 +565,7 @@
      "category" => "Sanarwa na tsaro",
      "title" => "Shiga Account",
      "message" => "Dear :name, an shiga cikin asusunka na Selldone.",
+     "message-shop" => "Dear :name, an shigar da ku zuwa :shop_title.",
      "footer" => "Idan ba a shiga ba, da fatan za a canza kalmar sirrinku.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Jimlar ra'ayoyin shafin yanar gizon",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Kun karɓi sabon oda. Da fatan za a je shafin sarrafa oda a cikin kwamitin mai siyar ku.",
+     "subject" => "🛍 An Karɓi Sabon Umarni | : order_id",
+     "your_revenue" => "Harajin Ku",
+],
+     "vendor-invite" => [
+     "title" => "Gayyatar mai siyarwa",
+     "message" => "Kun karɓi gayyata don zama mai siyar da :shop_name. Kuna iya karba ko ƙin yarda da shi ta danna maballin masu zuwa.",
+     "subject" => ": shop_name | Kun sami gayyata don zama mai siyar da mu",
+     "accept" => "Karɓa & Zama Mai siyarwa",
+     "reject" => "Ƙi",
+],
+     "shop-email-login" => [
+     "subject" => "Lambar shiga ku don: shop",
+     "header-message" => "Muna aika muku wannan imel ɗin saboda kun nemi lambar shiga shagon. Da fatan za a nemo kalmar wucewa ta lokaci ɗaya (OTP) a ƙasa:",
+     "footer-message" => "Wannan lambar za ta yi aiki na mintuna 10. Idan baku nemi wannan lambar shiga ba, da fatan za a yi watsi da wannan imel.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Tabbatar da imel ɗin ku | : kantin",
+     "title" => "Tabbatar da Imel",
+     "header-message" => "Hi :name,<br> Da fatan za a tabbatar da cewa **:email** shine adireshin imel ɗin ku ta danna maballin ko amfani da hanyar haɗin da ke ƙasa cikin awanni 48.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Sabunta samfuran: kantin",
+     "title" => "Sabuntawa akan Matsayin Samfur - Sa'o'i 24 na ƙarshe",
+     "message" => "Ina fatan wannan sakon ya same ku lafiya. Wannan taƙaitaccen sabuntawa ne don sanar da ku game da matsayin samfuran ku akan dandalinmu a cikin sa'o'i 24 da suka gabata. A wannan lokacin, an sami canje-canje a matsayin wasu samfuran. Waɗannan canje-canjen na iya kasancewa saboda sayayya, sabunta haja, ko wasu abubuwan da suka shafi alaƙa. Don ƙarin cikakkun bayanai game da kowane samfur, da fatan za a shiga cikin asusun ku kuma duba sashin 'Yanayin Samfur'.",
+     "action" => "Buɗe Panel mai siyarwa",
 ],
 ];

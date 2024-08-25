@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Kaikki ammattimaiset ominaisuudet myymälän ja sivuston rakentamiseen ilmaiseksi ilman aikarajaa odottavat sinua.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Verkkopalvelu, dokumentaatio sovelluskehitykseen ja palvelu yhdistettynä.",
-],
      "apps" => [
      "title" => "Sovelluskauppa",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Tuetut maat ja paikalliset maksut – Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, seuraava kehitysvaihe kaupankäyntipalveluissa verkkokauppaalustoista johonkin ilman teemaa, laajennusta tai koodia. 100% visuaalisesti!",
+],
+     "participant" => [
+     "title" => "Haluamasi yhteisö – Pelaa ja voita 20 dollaria",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Voit osallistua selldone-yhteisöön luomalla lyhyitä videoita auttaaksesi muita ja saada jopa 20 USD lahjahyvitystä videota kohden.",
+],
+     "tax" => [
+     "title" => "Maailmanlaajuinen veroprosenttiluettelo",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Voit ohittaa verosäännöt ja luoda useamman kuin yhden veroprofiilin eri tuoteluokille.",
+],
+     "premium" => [
+     "title" => "Päivitä Premiumiin ja muuta verkkokauppapelisi",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Nosta verkkokauppaasi Selldone Premiumilla. Käytä ainutlaatuisia tekoälytyökaluja, räätälöityjä malleja ja paljon muuta tehostaaksesi tehokkuutta ja erottuaksesi joukosta digitaalisilla markkinoilla. Liity nyt saadaksesi älykkäämmän ja tyylikkäämmän verkkokauppakokemuksen!",
+],
+     "builder" => [
+     "title" => "Ilmainen sivunrakennus ja aloitussivueditori Webapp - kirjautumista ei vaadita",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Luo upeita verkkosivuja ja aloitussivuja vaivattomasti ilmaisella, käyttäjäystävällisellä sivunrakennus- ja muokkausohjelmallamme. Kirjautumista ei vaadita. Suunnittele, mukauta ja julkaise verkkosivusi nopeasti intuitiivisen vedä ja pudota -käyttöliittymämme avulla. Täydellinen markkinoijille, pienyritysten omistajille ja kehittäjille, jotka etsivät vaivatonta web-suunnitteluratkaisua.",
 ],
 ],
      "shuttle" => [

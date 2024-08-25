@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Canárach Pale",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Eabhair",
+     "#B3E5FC" => "Oighear",
+     "#F1C40F" => "breacadh an lae",
+     "#7DF9FF" => "Leictreach",
+     "#FF6B35" => "Luí na gréine",
 ];

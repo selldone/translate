@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Odara e netefalitsoe ke moreki",
+     "email-types-description" => [
+     "shop-customer-join" => "Molaetsa ona o amohela moreki e mocha lebenkeleng.",
+     "order-checkout" => "Tsebiso ena e romelloa ha moreki a tiisa taelo.",
+     "order-payment" => "Tsebiso ena e tiisa tefo e atlehileng e entsoeng ke moreki.",
+     "order-payment-admin" => "Molaetsa ona o romelloa ho morekisi ho mo tsebisa ka odara e tiisitsoeng.",
+     "pos-checkout" => "Tsebiso ena e romelloa ho netefatsa ntlha ea thekiso bakeng sa moreki.",
+     "pos-payment" => "Tsebiso ena e tiisa ntlha ea tefo ea thekiso e entsoeng ke moreki.",
+     "pos-payment-admin" => "Molaetsa ona o tsebisa morekisi ka theko e entsoeng sebakeng sa bona sa thekiso.",
+     "shop-contact" => "Tsebiso ena e romelloa ha foromo ea khokahanyo e kentsoe.",
+     "shop-giftcard" => "Tsebiso ena e tsebisa mosebelisi hore o fumane karete ea mpho.",
+     "shop-vendor-join" => "Molaetsa ona o amohela morekisi e mocha lebenkeleng.",
+     "shop-vendor-invite" => "Molaetsa ona o rometsoe ho mema morekisi hore a kene 'marakeng oa hau.",
+     "shop-vendor-order" => "Molaetsa ona o romelloa ho morekisi ha odara e amoheloa e le E lefelloang kapa Cash on Delivery (COD) boemo.",
+     "shop-vendor-products" => "E romelloa letsatsi le letsatsi ho nchafatsa barekisi ka boemo ba lihlahisoa tsa bona.",
+     "shop-login" => "Tsebisa mosebelisi ka lintlha tsa ho kena, ho kenyeletsoa aterese ea IP, letsatsi, le sesebelisoa, molemong oa ts'ireletso.",
+     "login-code" => "Romela password ea nako e le 'ngoe hore basebelisi ba kene ka lebenkeleng.",
+     "shop-email-verify-link" => "Romela sehokelo ho netefatsa aterese ea lengolo-tsoibila la mosebelisi. Lengolo lena le romelloa ha mosebelisi a ngolisa ka SMS mme a kenya lengolo-tsoibila la bona mme ha a romelloe ha mosebelisi a ingolisa ka sechaba kapa lengolo-tsoibila ka kotloloho.",
 ],
-        [
-     "title" => "Netefatso ea tefo ea bareki",
-],
-        [
-     "title" => "Tsebiso ea netefatso ea odara ho morekisi",
-],
-        [
-     "title" => "Netefatsa odara ea lebokose la lebenkele bakeng sa moreki",
-],
-        [
-     "title" => "Netefatsa tefo ea ngoliso ea chelete bakeng sa moreki",
-],
-        [
-     "title" => "Tsebiso ea theko ka lebokoseng la morekisi",
-],
-        [
-     "title" => "Tsebisa foromo ea ho ikopanya",
-],
-        [
-     "title" => "Kea u lebohela ho kena lebenkeleng",
-],
-        [
-     "title" => "Tsebiso ea ho amohela karete ea mpho ho mosebelisi",
-]
-     ],
      "global" => [
      "greetings" => "Hi: lebitso",
      "end-statement" => "Sehlopha sa tšehetso",
@@ -126,7 +115,7 @@
      "transaction" => "Transaction",
      "fee" => "Tefo",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Sehlopha",
      "password" => "Password",
@@ -150,6 +139,18 @@
      "receiver" => "Moamoheli",
      "virtual-items" => "Lintho tse bonahalang",
      "no-payment" => "Ha ho tefo!",
+     "enable" => "Thusa",
+     "access" => "Phihlello",
+     "bank" => "Lintlha tsa banka",
+     "vendor" => "Morekisi",
+     "view_content" => "Sheba litaba tse felletseng",
+     "files" => "Lifaele",
+     "download" => "Khoasolla",
+     "file_name" => "Lebitso la faele",
+     "file_size" => "Boholo",
+     "subscription" => "Ngoliso",
+     "products" => "Lihlahisoa",
+     "vendor_products" => "Lihlahisoa tsa barekisi",
 ],
      "selldone-business-os" => "Selldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "dumela",
-     "name" => "Sehlopha sa Selldone",
+     "name" => "Amohela, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "bahoebi",
-     "name" => "Bahoebi, Selldone",
+     "name" => "Amohela, Selldone",
 ],
      "Approve" => [
      "id" => "amohela",
@@ -339,6 +340,12 @@
      "category" => "Mokete o mocha oa bareki",
      "title" => "Re thabetse ho ba setho sa hau",
      "action" => "Etela hona joale",
+],
+     "shop-vendor-join" => [
+     "subject" => "Morekisi Onboarding | :hlooho_ea_lebenkele",
+     "category" => "Mokete o mocha oa barekisi",
+     "title" => "Re thabetse ho ba setho sa hau",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Karete ea limpho :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Litsebiso tsa tšireletso",
      "title" => "Kena ho Account",
      "message" => "Ratehang :lebitso, esale o kena akhaonteng ea hau ea Selldone.",
+     "message-shop" => "Moratuoa :lebitso, u kene ho :shop_title.",
      "footer" => "Haeba u sa kena, ka kopo fetola phasewete ea hau.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Kakaretso ea maikutlo a leqephe la sebaka sa Marang-rang",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "O fumane taelo e ncha. Ka kopo, e-ea leqepheng la ts'ebetso ea liodara sebakeng sa hau sa barekisi.",
+     "subject" => "🛍 Order e Ncha e Fumanehile | :oda_id",
+     "your_revenue" => "Chelete ea Hao",
+],
+     "vendor-invite" => [
+     "title" => "Memo ea Morekisi",
+     "message" => "U fumane memo ea ho ba morekisi oa :shop_name. U ka e amohela kapa ua e hana ka ho tobetsa likonopo tse latelang.",
+     "subject" => ":lebitso_la lebenkele | U fumane memo ea ho ba morekisi oa rona",
+     "accept" => "Amohela 'me U be Morekisi",
+     "reject" => "Hana",
+],
+     "shop-email-login" => [
+     "subject" => "Khoutu ea hau ea ho Kena bakeng sa :shop",
+     "header-message" => "Re u romella lengolo-tsoibila lena hobane u kopile khoutu ea ho kena bakeng sa lebenkele. Ka kopo fumana Password ea hau ea Nako e le 'Ngoe (OTP) ka tlase:",
+     "footer-message" => "Khouto ena e tla sebetsa metsotso e 10. Haeba u sa kopa khoutu ena ea ho kena, ka kopo hlokomoloha lengolo-tsoibila lena.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Netefatsa lengolo-tsoibila la hau | : lebenkele",
+     "title" => "Netefatso ea Imeile",
+     "header-message" => "Lumela: lebitso,<br> Ka kopo netefatsa hore **:imeile** ke aterese ea hau ea lengolo-tsoibila ka ho tobetsa konopo kapa sebelisa sehokelo se ka tlase nakong ea lihora tse 48.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Tlhahiso ea Lihlahisoa : lebenkele",
+     "title" => "Ntlafatso ea Boemo ba Sehlahisoa - Lihora tse 24 tse fetileng",
+     "message" => "Ke tšepa hore molaetsa ona o tla o fumana hantle. Ena ke tlhaiso-leseling e khutšoane ho u tsebisa ka boemo ba lihlahisoa tsa hau sethaleng sa rona nakong ea lihora tse 24 tse fetileng. Nakong ena, ho bile le liphetoho boemong ba lihlahisoa tse ling. Liphetoho tsena li ka ba ka lebaka la ho reka, ho ntlafatsa thepa, kapa liketsahalo tse ling tse amanang. Ho fumana lintlha tse felletseng mabapi le sehlahisoa ka seng, ka kopo kena akhaonteng ea hau 'me u hlahlobe karolo ea' Boemo ba Sehlahisoa.",
+     "action" => "Bula Panel ea Barekisi",
 ],
 ];

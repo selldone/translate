@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Gratulujeme, zaregistrujte se a získejte tento dárkový poukaz",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Vstoupili jste na stránky prostřednictvím odkazu aktivního uživatele Selldone, pokud se nyní zaregistrujete na Selldone, obdržíte dárkovou kartu v hodnotě 14,9 $. Registrace a vybudování obchodu v Selldone je 100% zdarma, ale tyto dobíjecí karty můžete použít ke zlevnění služeb.",
-],
 ];

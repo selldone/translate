@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Hongera, jiandikishe na upokee kadi hii ya zawadi",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Umeingiza tovuti kupitia kiungo cha mtumiaji anayetumika wa Selldone, ikiwa utajiandikisha katika Selldone sasa, utapokea kadi ya zawadi yenye thamani ya $14.9. Kusajili na kujenga duka katika Selldone ni bure 100%, lakini unaweza kutumia kadi hizi za kuchaji upya ili kupunguza huduma.",
-],
 ];

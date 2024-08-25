@@ -11,6 +11,11 @@ return [
         'image' => '/images/experts/topics-sub/store-design.jpg',
         'desc' => 'Leave the design and construction of your online store to professionals so that they can implement your ideas.',
     ],
+    JobTopic::MARKETPLACE_SETUP => [
+        'title' => 'Setup a marketplace',
+        'image' => '/images/experts/topics-sub/marketplace-setup.jpg',
+        'desc' => 'Build a marketplace to sell your products and services to a wider audience.',
+    ],
 
 
     JobTopic::STORE_CONFIGURATION => [
@@ -21,9 +26,20 @@ return [
 
 
     JobTopic::STORE_OPTIMIZATION => [
-        'title' => 'Performance and Speed ​​Improvement',
+        'title' => 'Performance and Speed and Improvement',
         'image' => '/images/experts/topics-sub/store-optimization.jpg',
         'desc' => 'Experts will work on your site to increase its speed and performance.',
+    ],
+
+    JobTopic::DOMAIN => [
+        'title' => 'Domain connection',
+        'image' => '/images/experts/topics-sub/domain.jpg',
+        'desc' => 'Add custom domain to your store and website.',
+    ],
+    JobTopic::POD_SETUP => [
+        'title' => 'Setup POD Store',
+        'image' => '/images/experts/topics-sub/pod-setup.jpg',
+        'desc' => 'Create a print-on-demand store with the help of experts.',
     ],
 
 
@@ -41,11 +57,7 @@ return [
     ],
 
 
-    JobTopic::DOMAIN => [
-        'title' => 'Domain connection',
-        'image' => '/images/experts/topics-sub/domain.jpg',
-        'desc' => 'Add custom domain to your store and website.',
-    ],
+
 
 
     JobTopic::PAYMENT => [

@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Ese maficha ehunyanzvi ekuvaka chitoro uye saiti yemahara pasina chero nguva yakatarwa akamirira iwe.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Webhu sevhisi, zvinyorwa zvekuvandudza application uye sevhisi yakabatana.",
-],
      "apps" => [
      "title" => "App store",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Nyika Dzakatsigirwa uye Kubhadhara Kwemunharaunda - Bhizinesi OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Bhizinesi OS, Iyo inotevera shanduko nhanho yekutengeserana masevhisi kubva e-commerce mapuratifomu kune chimwe chinhu chisina dingindira, plugin, kana kodhi. 100% zvinoonekwa!",
+],
+     "participant" => [
+     "title" => "Nharaunda yaunoda - Tamba uye Win $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Unogona kutora chikamu munharaunda inotengeswa nekugadzira mavhidhiyo mapfupi kubatsira vamwe uye kukwira kusvika ku20 USD chipo chechikwereti pavhidhiyo.",
+],
+     "tax" => [
+     "title" => "Global Tax Rates List",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Iwe unogona kudarika mitemo yemutero uye kugadzira inopfuura imwe mutero mbiri kune akasiyana zvigadzirwa zvikamu.",
+],
+     "premium" => [
+     "title" => "Simudzira kuPremium uye Shandura Yako E-Commerce Game",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Simudza chitoro chako chepamhepo neSelldone Premium. Svika ega maturusi eAI, matemplate ebespoke, uye nezvimwe kuti uwedzere kushanda nesimba uye kumira kunze mumusika wedhijitari. Joinha izvozvi kuti uwane hungwaru, hwakapfava e-commerce ruzivo!",
+],
+     "builder" => [
+     "title" => "Yemahara Peji Kuvaka & Yekumisikidza Peji Mupepeti Webapp - Hapana Kupinda Kunodiwa",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Gadzira mapeji ewebhu anokatyamadza uye mapeji ekumhara zvisingaite nemahara edu, mushandisi-ane hushamwari peji muvaki uye mupepeti. Hapana kupinda kunodiwa. Dhizaina, gadzirisa, uye shambadza mapeji ako ewebhu nekukurumidza neyedu intuitive kudhonza-uye-kudonha interface. Yakakwana kune vatengesi, varidzi vebhizinesi madiki, uye vanogadzira vanotsvaga inonetsa-isina webhu dhizaini mhinduro.",
 ],
 ],
      "shuttle" => [

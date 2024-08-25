@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Al die professionele kenmerke van die bou van 'n winkel en webwerf gratis sonder enige tydsbeperking wag vir jou.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Webdiens, dokumentasie vir toepassingsontwikkeling en diens gekoppel.",
-],
      "apps" => [
      "title" => "Toepassingswinkel",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Ondersteunde lande en plaaslike betalings - Besigheidsbedryfstelsel",
      "image" => "/images/seo/en/countries.png",
      "description" => "Besigheidsbedryfstelsel, die volgende evolusiestap van handelsdienste van e-handelsplatforms tot iets met geen tema, inprop of kode nie. 100% visueel!",
+],
+     "participant" => [
+     "title" => "Die gemeenskap wat jy wil hê - Speel en wen $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Jy kan deelneem aan die selldonte-gemeenskap deur kort video's te skep om ander te help en tot 20 USD-geskenkkrediet per video te kry.",
+],
+     "tax" => [
+     "title" => "Globale lys van belastingkoerse",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Jy kan belastingreëls ignoreer en meer as een belastingprofiel vir verskillende produkkategorieë skep.",
+],
+     "premium" => [
+     "title" => "Gradeer op na Premium en transformeer jou e-handelspeletjie",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Verhoog jou aanlynwinkel met Selldone Premium. Kry toegang tot eksklusiewe KI-nutsgoed, pasgemaakte sjablone en meer om doeltreffendheid te verhoog en uit te staan in die digitale mark. Sluit nou aan vir 'n slimmer, slanker e-handel-ervaring!",
+],
+     "builder" => [
+     "title" => "Gratis bladsybouer en bestemmingsbladsyredigeerder-webtoepassing - geen aanmelding nodig nie",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Skep pragtige webblaaie en bestemmingsbladsye moeiteloos met ons gratis, gebruikersvriendelike bladsybouer en -redigeerder. Geen aanmelding nodig nie. Ontwerp, pasmaak en publiseer jou webblaaie vinnig met ons intuïtiewe sleep-en-los koppelvlak. Ideaal vir bemarkers, kleinsake-eienaars en ontwikkelaars wat 'n moeitevrye webontwerpoplossing soek.",
 ],
 ],
      "shuttle" => [

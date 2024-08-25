@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Atụmatụ ọkachamara niile nke iwu ụlọ ahịa na saịtị n'efu na-enweghị oke oge ọ bụla na-echere gị.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Ọrụ webụ, akwụkwọ maka mmepe ngwa na ọrụ ejikọrọ.",
-],
      "apps" => [
      "title" => "Ụlọ ahịa ngwa",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Mba akwadoro na ịkwụ ụgwọ mpaghara - OS azụmahịa",
      "image" => "/images/seo/en/countries.png",
      "description" => "OS azụmahịa, nzọụkwụ na-esote mgbanwe mgbanwe nke ọrụ azụmaahịa sitere na nyiwe e-azụmahịa na ihe na-enweghị isiokwu, ngwa mgbakwunye, ma ọ bụ koodu. 100% anya!",
+],
+     "participant" => [
+     "title" => "Obodo ị chọrọ — Gwuo wee merie $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Ị nwere ike isonye na obodo a na-ere ere site na ịmepụta obere vidiyo iji nyere ndị ọzọ aka ma nweta kredit onyinye USD 20 kwa vidiyo.",
+],
+     "tax" => [
+     "title" => "Ndepụta Ọnụ Ụtụ Isi Obodo",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Ị nwere ike ịkagbu iwu ụtụ isi wee mepụta profaịlụ ụtụ isi maka otu ngwaahịa dị iche iche.",
+],
+     "premium" => [
+     "title" => "Nweta nkwalite gaa na adịchaghị ma gbanwee egwuregwu e-azụmahịa gị",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Jiri Selldone Premium bulie ụlọ ahịa gị n'ịntanetị. Nweta ngwa AI pụrụ iche, ndebiri bespoke, na ndị ọzọ iji kwalite arụmọrụ yana pụta ìhè n'ahịa dijitalụ. Sonye ugbu a maka ahụmịhe azụmahịa e-azụmahịa ka nke nwere amamihe karịa!",
+],
+     "builder" => [
+     "title" => "Webapp Onye Nrụpụta Peeji efu & Onye na-agbadata ibe - Enweghị nbanye achọrọ",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Mepụta ibe weebụ dị egwu na ibe ọdịda na-enweghị ike iji onye na-ewu ibe na onye na-edezi ihe na-eme enyi. Enweghị nbanye achọrọ. Chepụta, hazie, ma bipụta ibe weebụ gị ngwa ngwa site na iji interface ịdọrọ na dobe anyị nwere nghọta. Zuru oke maka ndị na-ere ahịa, ndị nwe obere azụmaahịa, na ndị mmepe na-achọ ngwọta nhazi webụ na-enweghị nsogbu.",
 ],
 ],
      "shuttle" => [

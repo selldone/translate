@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Kaomandy nohamafisin'ny mpividy",
+     "email-types-description" => [
+     "shop-customer-join" => "Ity hafatra ity dia mandray mpividy vaovao amin'ny fivarotana.",
+     "order-checkout" => "Ity fampahafantarana ity dia alefa rehefa misy mpividy manamafy baiko.",
+     "order-payment" => "Ity fampandrenesana ity dia manamarina ny fahombiazan'ny fandoavam-bola nataon'ny mpanjifa.",
+     "order-payment-admin" => "Ity hafatra ity dia alefa any amin'ny mpivarotra iray mba hampahafantarana azy ireo ny kaomandy voamarina.",
+     "pos-checkout" => "Ity fampandrenesana ity dia alefa hanamarina ny baikon'ny fivarotana ho an'ny mpividy.",
+     "pos-payment" => "Ity fampandrenesana ity dia manamarina ny fandoavam-bola nataon'ny mpividy iray.",
+     "pos-payment-admin" => "Ity hafatra ity dia mampahafantatra ny mpivarotra momba ny fividianana natao teo amin'ny toeram-pivarotana azy.",
+     "shop-contact" => "Ity fampandrenesana ity dia alefa rehefa misy taratasy fifandraisana napetraka.",
+     "shop-giftcard" => "Ity fampahafantarana ity dia mampahafantatra ny mpampiasa iray fa nahazo karatra fanomezana izy ireo.",
+     "shop-vendor-join" => "Ity hafatra ity dia miarahaba mpivarotra vaovao amin'ny fivarotana.",
+     "shop-vendor-invite" => "Ity hafatra ity dia alefa hanasana mpivarotra hanatevin-daharana ny tsenanao.",
+     "shop-vendor-order" => "Ity hafatra ity dia alefa any amin'ny mpivarotra rehefa misy baiko voaray amin'ny sata Paid na Cash on Delivery (COD).",
+     "shop-vendor-products" => "Nalefa isan'andro hanavao ny mpivarotra momba ny satan'ny vokatra.",
+     "shop-login" => "Ampahafantaro ny mpampiasa ny antsipirian'ny fidirana, ao anatin'izany ny adiresy IP, ny daty ary ny fitaovana, ho fiarovana.",
+     "login-code" => "Alefaso kaody tenimiafina indray mandeha ho an'ny mpampiasa hiditra ao amin'ny fivarotana.",
+     "shop-email-verify-link" => "Alefaso rohy hanamarina ny adiresy mailaka an'ny mpampiasa. Ity mailaka ity dia alefa rehefa misoratra anarana amin'ny SMS ny mpampiasa ary miditra ny mailaka ary tsy alefa rehefa misoratra anarana amin'ny alàlan'ny tambajotra sosialy na mailaka mivantana ny mpampiasa.",
 ],
-        [
-     "title" => "Fanamafisana ny fandoavana ny mpanjifa",
-],
-        [
-     "title" => "Fampandrenesana fanamafisana ny kaomandy amin'ny mpivarotra",
-],
-        [
-     "title" => "Hamafiso ny kaomandin'ny boaty fivarotana ho an'ny mpividy",
-],
-        [
-     "title" => "Hamarino ny fandoavana ny rejisitra ho an'ny mpividy",
-],
-        [
-     "title" => "Fampandrenesana momba ny fividianana ao amin'ny boaty mpivarotra",
-],
-        [
-     "title" => "Ampahafantaro ny taratasy fifandraisana",
-],
-        [
-     "title" => "Arahabaina ianao niditra tao amin'ny fivarotana",
-],
-        [
-     "title" => "Fanambarana ny fahazoana karatra fanomezana ho an'ny mpampiasa",
-]
-     ],
      "global" => [
      "greetings" => "salut:name",
      "end-statement" => "Ekipa mpanohana",
@@ -126,7 +115,7 @@
      "transaction" => "raharaham-barotra",
      "fee" => "saram-",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Sokajy",
      "password" => "Password",
@@ -150,6 +139,18 @@
      "receiver" => "Mpandray",
      "virtual-items" => "Zavatra virtoaly",
      "no-payment" => "Tsy misy fandoavam-bola!",
+     "enable" => "Tadiavo",
+     "access" => "Access",
+     "bank" => "Bank info",
+     "vendor" => "Mpivarotra",
+     "view_content" => "Jereo ny atiny feno",
+     "files" => "rakitra",
+     "download" => "DOWNLOAD",
+     "file_name" => "Anaran'ny fisie",
+     "file_size" => "Size",
+     "subscription" => "Famandrihana",
+     "products" => "Products",
+     "vendor_products" => "Vendor Products",
 ],
      "selldone-business-os" => "Seldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "salut",
-     "name" => "Ekipa Seldone",
+     "name" => "Mankasitraka, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "mpivarotra",
-     "name" => "Mpivarotra, Seldone",
+     "name" => "Mankasitraka, Selldone",
 ],
      "Approve" => [
      "id" => "hanaiky",
@@ -339,6 +340,12 @@
      "category" => "Fankalazana ny mpanjifa vaovao",
      "title" => "Faly izahay amin'ny maha-mpikambana anao",
      "action" => "Tsidiho izao",
+],
+     "shop-vendor-join" => [
+     "subject" => "Vendor Onboarding | :shop_title",
+     "category" => "Fankalazana ny mpivarotra vaovao",
+     "title" => "Faly izahay amin'ny maha-mpikambana anao",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Giftcard:shop_title",
@@ -558,6 +565,7 @@
      "category" => "Fampandrenesana fiarovana",
      "title" => "Midira amin'ny kaonty",
      "message" => "Ry :name, niditra tao amin'ny kaontinao Seldone ianao.",
+     "message-shop" => "Ry :name, niditra tao amin'ny :shop_title ianao.",
      "footer" => "Raha tsy tafiditra ianao dia ovay ny tenimiafinao.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Totalin'ny pejin'ny tranonkala",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Nahazo baiko vaovao ianao. Mankanesa any amin'ny pejy fanodinana kaomandy azafady, ao amin'ny tontolon'ny mpivarotra anao.",
+     "subject" => "🛍 Voaray ny baiko vaovao | : order_id",
+     "your_revenue" => "Ny vola miditra aminao",
+],
+     "vendor-invite" => [
+     "title" => "Fanasana mpivarotra",
+     "message" => "Nahazo fanasana ho lasa mpivarotra ny :shop_name ianao. Azonao atao ny manaiky na mandà izany amin'ny fipihana ireto bokotra manaraka ireto.",
+     "subject" => ":shop_name | Nahazo fanasana ho lasa mpivarotra anay ianao",
+     "accept" => "Ekeo & ho lasa mpivarotra",
+     "reject" => "mandà",
+],
+     "shop-email-login" => [
+     "subject" => "Ny kaody fidiranao ho an'ny :shop",
+     "header-message" => "Alefanay aminao ity mailaka ity satria nangataka kaody fidirana ho an'ny fivarotana ianao. Azafady, tadiavo eto ambany ny tenimiafinao tokana (OTP):",
+     "footer-message" => "Ity kaody ity dia manan-kery mandritra ny 10 minitra. Raha tsy nangataka ity kaody fidirana ity ianao dia tsidiho azafady ity mailaka ity.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Hamarino ny mailakao | : fivarotana",
+     "title" => "Fanamarinana mailaka",
+     "header-message" => "Salut: anarana,<br> Azafady, hamafiso fa **:email** dia adiresy mailakao amin'ny fipihana ny bokotra na ampiasao ny rohy eto ambany ao anatin'ny 48 ora.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Fanavaozana ny vokatra: fivarotana",
+     "title" => "Fanavaozana momba ny toetry ny vokatra - 24 ora farany",
+     "message" => "Manantena aho fa hahita anao tsara ity hafatra ity. Fanavaozana fohy ity hampahafantarana anao momba ny satan'ny vokatrao teo amin'ny lampihazonay nandritra ny 24 ora lasa. Nandritra io vanim-potoana io dia nisy fiovana teo amin'ny satan'ny vokatra sasany. Mety ho noho ny fividianana, fanavaozana stock, na hetsika hafa mifandraika amin'izany ireo fiovana ireo. Raha mila fanazavana fanampiny momba ny vokatra tsirairay dia midira ao amin'ny kaontinao ary jereo ny fizarana 'State vokatra'.",
+     "action" => "Sokafy ny Vendor Panel",
 ],
 ];

@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Bāla Kanārija",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Ziloņkauls",
+     "#B3E5FC" => "Ledus",
+     "#F1C40F" => "Rītausma",
+     "#7DF9FF" => "Elektriskā",
+     "#FF6B35" => "Saulriets",
 ];

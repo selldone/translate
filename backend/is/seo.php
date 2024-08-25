@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Allir faglegir eiginleikar þess að byggja upp verslun og síðu ókeypis án nokkurra tímamarka bíða þín.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Vefþjónusta, skjöl fyrir þróun forrita og þjónusta tengd.",
-],
      "apps" => [
      "title" => "App verslun",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Lönd sem studd eru og staðbundnar greiðslur - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, næsta þróunarskref viðskiptaþjónustu frá rafrænum viðskiptakerfum yfir í eitthvað án þema, viðbóta eða kóða. 100% sjónrænt!",
+],
+     "participant" => [
+     "title" => "Samfélagið sem þú vilt — Spilaðu og vinndu $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Þú getur tekið þátt í selda samfélaginu með því að búa til stutt myndbönd til að hjálpa öðrum og fá allt að 20 USD gjafainneign fyrir hvert myndband.",
+],
+     "tax" => [
+     "title" => "Alþjóðlegur skattaskrá",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Þú getur hnekið skattareglum og búið til fleiri en einn skattsnið fyrir mismunandi vöruflokka.",
+],
+     "premium" => [
+     "title" => "Uppfærðu í Premium og umbreyttu rafrænu viðskiptaleiknum þínum",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Lyftu netversluninni þinni með Selldone Premium. Fáðu aðgang að sérstökum gervigreindarverkfærum, sérsniðnum sniðmátum og fleira til að auka skilvirkni og skera sig úr á stafrænum markaði. Vertu með núna fyrir snjallari, sléttari rafræn viðskipti!",
+],
+     "builder" => [
+     "title" => "Ókeypis vefforrit fyrir síðugerð og áfangasíðuritara - engin innskráning krafist",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Búðu til töfrandi vefsíður og áfangasíður áreynslulaust með ókeypis, notendavæna síðugerðinni og ritstjóranum okkar. Engin innskráning krafist. Hannaðu, sérsníddu og birtu vefsíðurnar þínar fljótt með leiðandi drag-og-sleppu viðmóti okkar. Fullkomið fyrir markaðsfólk, eigendur lítilla fyrirtækja og forritara sem leita að vandræðalausri vefhönnunarlausn.",
 ],
 ],
      "shuttle" => [

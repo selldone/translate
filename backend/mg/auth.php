@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Ireo fahazoan-dàlana ireo dia tsy mifanaraka amin'ny firaketanay.",
+     "password" => "Diso ny tenimiafina nomena.",
      "throttle" => "Be loatra ny andrana fidirana. Andramo indray ao anatin'ny : segondra segondra.",
      "title_shop" => "Midira ao amin'ny :name",
      "title_app" => "Fampidirana fampiharana amin'ny:name",

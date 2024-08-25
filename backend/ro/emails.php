@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Comanda confirmata de cumparator",
+     "email-types-description" => [
+     "shop-customer-join" => "Acest mesaj salută un nou cumpărător în magazin.",
+     "order-checkout" => "Această notificare este trimisă atunci când un cumpărător confirmă o comandă.",
+     "order-payment" => "Această notificare confirmă plata cu succes efectuată de un client.",
+     "order-payment-admin" => "Acest mesaj este trimis unui vânzător pentru a-l notifica despre o comandă confirmată.",
+     "pos-checkout" => "Această notificare este trimisă pentru a confirma o comandă la punctul de vânzare pentru un cumpărător.",
+     "pos-payment" => "Această notificare confirmă o plată la punctul de vânzare efectuată de un cumpărător.",
+     "pos-payment-admin" => "Acest mesaj anunță vânzătorul cu privire la o achiziție efectuată la punctul său de vânzare.",
+     "shop-contact" => "Această notificare este trimisă atunci când a fost trimis un formular de contact.",
+     "shop-giftcard" => "Această notificare informează un utilizator că a primit un card cadou.",
+     "shop-vendor-join" => "Acest mesaj salută un nou furnizor în magazin.",
+     "shop-vendor-invite" => "Acest mesaj este trimis pentru a invita un furnizor să se alăture pieței dvs.",
+     "shop-vendor-order" => "Acest mesaj este trimis vânzătorului atunci când o comandă este primită fie în stare plătită, fie în ramburs la livrare (COD).",
+     "shop-vendor-products" => "Expediat zilnic pentru a actualiza furnizorii cu privire la starea produselor lor.",
+     "shop-login" => "Notificați utilizatorul cu detaliile de conectare, inclusiv adresa IP, data și dispozitivul, din motive de securitate.",
+     "login-code" => "Trimiteți un cod de parolă unic pentru ca utilizatorii să se conecteze la magazin.",
+     "shop-email-verify-link" => "Trimiteți un link pentru a verifica adresa de e-mail a utilizatorului. Acest e-mail este trimis atunci când un utilizator se înregistrează prin SMS și îi introduce e-mailul și nu este trimis atunci când utilizatorul se înregistrează prin social sau prin e-mail direct.",
 ],
-        [
-     "title" => "Confirmarea plății clientului",
-],
-        [
-     "title" => "Notificare de confirmare a comenzii către vânzător",
-],
-        [
-     "title" => "Confirmați comanda cutiei din magazin pentru cumpărător",
-],
-        [
-     "title" => "Confirmați plata casei de marcat pentru cumpărător",
-],
-        [
-     "title" => "Anunț de cumpărare în cutia vânzătorului",
-],
-        [
-     "title" => "Informați formularul de contact",
-],
-        [
-     "title" => "Felicitări pentru înscrierea în magazin",
-],
-        [
-     "title" => "Anunțul primirii unui card cadou către utilizator",
-]
-     ],
      "global" => [
      "greetings" => "Salut :nume",
      "end-statement" => "Echipa de suport",
@@ -55,7 +44,7 @@
      "cvv" => "Cvv",
      "expire_date" => "Data de expirare",
      "dashboard" => "bord",
-     "order" => "Ordin",
+     "order" => "comanda",
      "view_order" => "Vezi comanda",
      "pay_now" => "Pay now",
      "official_selldone" => "VANZAT OFICIAL",
@@ -126,7 +115,7 @@
      "transaction" => "Tranzacţie",
      "fee" => "Taxa",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Factură",
      "category" => "Categorie",
      "password" => "Parola",
@@ -150,6 +139,18 @@
      "receiver" => "Receptor",
      "virtual-items" => "Articole virtuale",
      "no-payment" => "Fara plata!",
+     "enable" => "Permite",
+     "access" => "Acces",
+     "bank" => "Informații bancare",
+     "vendor" => "Furnizor",
+     "view_content" => "Vizualizați conținutul complet",
+     "files" => "Fișiere",
+     "download" => "Descarca",
+     "file_name" => "Nume de fișier",
+     "file_size" => "mărimea",
+     "subscription" => "Abonament",
+     "products" => "Produse",
+     "vendor_products" => "Produse vânzători",
 ],
      "selldone-business-os" => "Selldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "Bună",
-     "name" => "Echipa Selldone",
+     "name" => "Aprobă, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "negustori",
-     "name" => "Comercianți, Selldone",
+     "name" => "Aprobă, Selldone",
 ],
      "Approve" => [
      "id" => "aproba",
@@ -340,6 +341,12 @@
      "title" => "Ne bucurăm pentru calitatea ta de membru",
      "action" => "Vizitează acum",
 ],
+     "shop-vendor-join" => [
+     "subject" => "Incorporarea furnizorului | :shop_title",
+     "category" => "Sărbătoarea noului furnizor",
+     "title" => "Ne bucurăm pentru calitatea ta de membru",
+     "action" => "Vendor Panel",
+],
      "shop-giftcard" => [
      "subject" => "Card cadou :shop_title",
      "category" => "Adăugați un card nou",
@@ -349,12 +356,12 @@
 ],
      "contact" => [
      "subject" => "Centru de suport | :magazin",
-     "category" => "a sustine",
+     "category" => "sprijin",
      "title" => "Ai primit un răspuns",
 ],
      "order-checkout" => [
      "subject" => "🛍 Comandă Checkout | :Comanda ID",
-     "title" => "Ordin",
+     "title" => "comanda",
      "message" => "Confirmați comanda dvs.,<br> Avem comanda ta. Vă vom trimite un alt e-mail când comanda dvs. este expediată.",
      "payments" => "Plăți",
 ],
@@ -558,6 +565,7 @@
      "category" => "Notificări de securitate",
      "title" => "Conectați-vă la Cont",
      "message" => "Dragă :name, v-ați conectat la contul dvs. Selldone.",
+     "message-shop" => "Dragă :name, ați fost conectat la :shop_title .",
      "footer" => "Dacă nu sunteți autentificat, vă rugăm să vă schimbați parola.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Numărul total de vizualizări ale paginilor site-ului web",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Ați primit o nouă comandă. Vă rugăm să accesați pagina de procesare a comenzii din panoul furnizorului dvs.",
+     "subject" => "🛍 Comandă nouă primită | :Comanda ID",
+     "your_revenue" => "Venitul dvs",
+],
+     "vendor-invite" => [
+     "title" => "Invitația vânzătorului",
+     "message" => "Ați primit o invitație pentru a deveni furnizor de :shop_name. O puteți accepta sau respinge făcând clic pe următoarele butoane.",
+     "subject" => ":nume_magazin | Ați primit o invitație pentru a deveni furnizorul nostru",
+     "accept" => "Acceptați și deveniți un furnizor",
+     "reject" => "Respinge",
+],
+     "shop-email-login" => [
+     "subject" => "Codul dvs. de conectare pentru :shop",
+     "header-message" => "Vă trimitem acest e-mail deoarece ați solicitat un cod de conectare pentru magazin. Vă rugăm să găsiți mai jos parola dvs. unică (OTP):",
+     "footer-message" => "Acest cod va fi valabil timp de 10 minute. Dacă nu ați solicitat acest cod de conectare, vă rugăm să ignorați acest e-mail.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Verificați-vă adresa de e-mail | :magazin",
+     "title" => "Verificare e-mail",
+     "header-message" => "Salut :nume,<br> Vă rugăm să confirmați că **:email** este adresa dvs. de e-mail făcând clic pe butonul sau folosiți linkul de mai jos în termen de 48 de ore.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Actualizare produse: magazin",
+     "title" => "Actualizare privind starea produsului - ultimele 24 de ore",
+     "message" => "Sper că acest mesaj te va găsi bine. Aceasta este o scurtă actualizare pentru a vă informa despre starea produselor dvs. pe platforma noastră în ultimele 24 de ore. În această perioadă s-au produs schimbări în statutul unor produse. Aceste modificări se pot datora achizițiilor, actualizărilor de stoc sau altor evenimente conexe. Pentru informații mai detaliate despre fiecare produs, vă rugăm să vă conectați la contul dvs. și să verificați secțiunea „Starea produsului”.",
+     "action" => "Deschideți Panoul furnizorului",
 ],
 ];

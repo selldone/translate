@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Sizni hech qanday muddatsiz bepul do'kon va sayt qurishning barcha professional xususiyatlari kutmoqda.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Veb-xizmat, ilovalarni ishlab chiqish uchun hujjatlar va ulangan xizmat.",
-],
      "apps" => [
      "title" => "Uskunalar Do'koni",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Qo'llab-quvvatlanadigan mamlakatlar va mahalliy to'lovlar - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, elektron tijorat platformalaridan mavzu, plagin yoki kodsiz narsaga qadar tijorat xizmatlarining navbatdagi evolyutsiyasi bosqichi. 100% vizual!",
+],
+     "participant" => [
+     "title" => "Siz xohlagan hamjamiyat — $20 oʻynang va yutib oling",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Siz boshqalarga yordam berish uchun qisqa videolar yaratish orqali selldone hamjamiyatida ishtirok etishingiz va har bir video uchun 20 AQSh dollarigacha sovg‘a kreditiga ega bo‘lishingiz mumkin.",
+],
+     "tax" => [
+     "title" => "Global soliq stavkalari ro'yxati",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Siz soliq qoidalarini bekor qilishingiz va turli mahsulot toifalari uchun bir nechta soliq profilini yaratishingiz mumkin.",
+],
+     "premium" => [
+     "title" => "Premiumga yangilang va elektron tijorat oʻyiningizni oʻzgartiring",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Selldone Premium bilan onlayn-do'koningizni yuksaltiring. Samaradorlikni oshirish va raqamli bozorda ajralib turish uchun eksklyuziv sunʼiy intellekt vositalari, buyurtma shablonlari va boshqalardan foydalaning. Aqlliroq va zamonaviy elektron tijorat tajribasiga ega bo'lish uchun hozir qo'shiling!",
+],
+     "builder" => [
+     "title" => "Bepul sahifa yaratuvchisi va ochilish sahifasi muharriri veb-ilovasi - tizimga kirish shart emas",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Bepul, foydalanuvchilarga qulay sahifa yaratuvchimiz va muharririmiz yordamida ajoyib veb-sahifalar va ochilish sahifalarini yarating. Kirish shart emas. Bizning intuitiv sudrab tashlash interfeysimiz yordamida veb-sahifalaringizni tezda loyihalashtiring, sozlang va nashr eting. Muammosiz veb-dizayn yechimini qidirayotgan marketologlar, kichik biznes egalari va dasturchilar uchun juda mos.",
 ],
 ],
      "shuttle" => [

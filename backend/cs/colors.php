@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Bledý Kanárský",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Slonová kost",
+     "#B3E5FC" => "Led",
+     "#F1C40F" => "Svítání",
+     "#7DF9FF" => "Elektrický",
+     "#FF6B35" => "Západ slunce",
 ];

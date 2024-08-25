@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Pale Canary",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Piliory",
+     "#B3E5FC" => "Buz",
+     "#F1C40F" => "Daň",
+     "#7DF9FF" => "Elektrik",
+     "#FF6B35" => "Gün ýaşmagy",
 ];

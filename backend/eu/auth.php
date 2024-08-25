@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Kredentzial hauek ez datoz bat gure erregistroekin.",
+     "password" => "Emandako pasahitza okerra da.",
      "throttle" => "Saioa hasteko saiakera gehiegi. Mesedez, saiatu berriro :segundo segundo barru.",
      "title_shop" => "Hasi saioa: izena",
      "title_app" => "Aplikaziorako sarbidea :name",

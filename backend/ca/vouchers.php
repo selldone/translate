@@ -73,14 +73,4 @@
      "price" => 3.588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Enhorabona, registra't i rep aquesta targeta regal",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Heu entrat al lloc a través de l'enllaç d'un usuari actiu de Selldone, si us registreu a Selldone ara, rebreu una targeta regal per valor de 14,9 $. El registre i la construcció d'una botiga a Selldone és 100% gratuït, però podeu utilitzar aquestes targetes de recàrrega per alleujar el servei.",
-],
 ];

@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Tahniah, daftar dan terima kad hadiah ini",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Anda telah memasuki tapak melalui pautan pengguna aktif Selldone, jika anda mendaftar di Selldone sekarang, anda akan menerima kad hadiah bernilai $ 14.9. Mendaftar dan membina kedai di Selldone adalah 100% percuma, tetapi anda boleh menggunakan kad cas semula ini untuk melegakan perkhidmatan.",
-],
 ];

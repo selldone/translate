@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Dükany we sahypany hiç wagt çäklendirmesiz mugt gurmagyň ähli hünär aýratynlyklary size garaşýar.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Web hyzmaty, amaly ösdürmek we birikdirilen hyzmat üçin resminamalar.",
-],
      "apps" => [
      "title" => "Programma dükany",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Goldanýan ýurtlar we ýerli tölegler - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, Elektron söwda platformalaryndan tä mowzuk, plugin ýa-da kody bolmadyk söwda hyzmatlarynyň indiki ewolýusiýa ädimi. 100% wizual!",
+],
+     "participant" => [
+     "title" => "Isleýän jemgyýetiňiz - 20 $ oýnaň we utuň",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Başgalara kömek etmek we her wideo üçin 20 ABŞ dollaryna çenli sowgat kreditini almak üçin gysga wideo döredip, satylan jemgyýete gatnaşyp bilersiňiz.",
+],
+     "tax" => [
+     "title" => "Global salgyt nyrhlarynyň sanawy",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Salgyt düzgünlerini ýok edip, dürli önüm kategoriýalary üçin birden köp salgyt profilini döredip bilersiňiz.",
+],
+     "premium" => [
+     "title" => "Premium-a täzeläň we elektron söwda oýnuňyzy üýtgediň",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Selldone Premium bilen onlaýn dükanyňyzy ýokarlandyryň. Netijeliligi ýokarlandyrmak we sanly bazarda tapawutlanmak üçin aýratyn AI gurallaryna, galyp şablonlaryna we başga zatlara giriň. Has akylly, has ýumşak elektron söwda tejribesi üçin goşulyň!",
+],
+     "builder" => [
+     "title" => "Mugt sahypa ýasaýjy we ýere düşmek sahypasynyň redaktory Webapp - Giriş hökman däl",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Mugt, ulanyjy üçin amatly sahypa gurluşykçymyz we redaktorymyz bilen ajaýyp web sahypalaryny dörediň. Giriş hökman däl. Düşünjeli süýräp-çekmek interfeýsimiz bilen web sahypalaryňyzy çalt dizaýn ediň, düzüň we neşir ediň. Marketologlar, kiçi telekeçiler we kynçylyksyz web dizaýn çözgüdini gözleýän döredijiler üçin ajaýyp.",
 ],
 ],
      "shuttle" => [

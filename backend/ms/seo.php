@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Semua ciri profesional membina kedai dan tapak secara percuma tanpa sebarang had masa menanti anda.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Perkhidmatan web, dokumentasi untuk pembangunan aplikasi dan perkhidmatan yang disambungkan.",
-],
      "apps" => [
      "title" => "Stor aplikasi",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Negara yang Disokong dan Pembayaran Tempatan - OS Perniagaan",
      "image" => "/images/seo/en/countries.png",
      "description" => "OS Perniagaan, Langkah evolusi seterusnya perkhidmatan perdagangan daripada platform e-dagang kepada sesuatu tanpa tema, pemalam atau kod. 100% secara visual!",
+],
+     "participant" => [
+     "title" => "Komuniti yang anda inginkan — Main dan Menang $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Anda boleh mengambil bahagian dalam komuniti seldone dengan membuat video pendek untuk membantu orang lain dan mendapatkan sehingga 20 USD hadiah kredit setiap video.",
+],
+     "tax" => [
+     "title" => "Senarai Kadar Cukai Global",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Anda boleh mengatasi peraturan cukai dan membuat lebih daripada satu profil cukai untuk kategori produk yang berbeza.",
+],
+     "premium" => [
+     "title" => "Naik taraf kepada Premium dan Ubah Permainan E-Dagang Anda",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Tingkatkan kedai dalam talian anda dengan Seldone Premium. Akses alat AI eksklusif, templat yang dipesan lebih dahulu dan banyak lagi untuk meningkatkan kecekapan dan menonjol dalam pasaran digital. Sertai sekarang untuk pengalaman e-dagang yang lebih bijak dan anggun!",
+],
+     "builder" => [
+     "title" => "Pembina Halaman Percuma & Editor Halaman Pendaratan Webapp - Tiada Log Masuk Diperlukan",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Cipta halaman web dan halaman pendaratan yang menakjubkan dengan mudah dengan pembangun dan editor halaman percuma dan mesra pengguna kami. Tiada log masuk diperlukan. Reka bentuk, sesuaikan dan terbitkan halaman web anda dengan cepat menggunakan antara muka seret dan lepas intuitif kami. Sesuai untuk pemasar, pemilik perniagaan kecil dan pembangun yang mencari penyelesaian reka bentuk web tanpa kerumitan.",
 ],
 ],
      "shuttle" => [

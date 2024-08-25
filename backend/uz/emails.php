@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Buyurtma xaridor tomonidan tasdiqlangan",
+     "email-types-description" => [
+     "shop-customer-join" => "Ushbu xabar do'konga yangi xaridorni qabul qiladi.",
+     "order-checkout" => "Ushbu bildirishnoma xaridor buyurtmani tasdiqlaganida yuboriladi.",
+     "order-payment" => "Ushbu bildirishnoma mijoz tomonidan muvaffaqiyatli to'langanligini tasdiqlaydi.",
+     "order-payment-admin" => "Bu xabar sotuvchiga tasdiqlangan buyurtma haqida xabar berish uchun yuboriladi.",
+     "pos-checkout" => "Ushbu bildirishnoma xaridor uchun savdo nuqtasi buyurtmasini tasdiqlash uchun yuboriladi.",
+     "pos-payment" => "Ushbu bildirishnoma xaridor tomonidan to'langan savdo nuqtasini tasdiqlaydi.",
+     "pos-payment-admin" => "Ushbu xabar sotuvchiga o'z savdo nuqtasida qilingan xarid haqida xabar beradi.",
+     "shop-contact" => "Ushbu bildirishnoma aloqa shakli yuborilganda yuboriladi.",
+     "shop-giftcard" => "Ushbu bildirishnoma foydalanuvchiga sovg'a kartasini olganligi haqida xabar beradi.",
+     "shop-vendor-join" => "Ushbu xabar do'konga yangi sotuvchini tabriklaydi.",
+     "shop-vendor-invite" => "Ushbu xabar sotuvchini bozoringizga qo'shilishga taklif qilish uchun yuborilgan.",
+     "shop-vendor-order" => "Bu xabar sotuvchiga pullik yoki yetkazib berishda naqd pul (COD) holatida buyurtma qabul qilinganda yuboriladi.",
+     "shop-vendor-products" => "Sotuvchilarga o'z mahsulotlarining holati to'g'risida yangilash uchun har kuni yuboriladi.",
+     "shop-login" => "Xavfsizlik maqsadida foydalanuvchini kirish ma'lumotlari, jumladan IP manzili, sanasi va qurilmasi bilan xabardor qiling.",
+     "login-code" => "Foydalanuvchilar do'konga kirishlari uchun bir martalik parol kodini yuboring.",
+     "shop-email-verify-link" => "Foydalanuvchining elektron pochta manzilini tekshirish uchun havolani yuboring. Ushbu xat foydalanuvchi SMS orqali ro'yxatdan o'tganda va elektron pochta manzilini kiritganda yuboriladi va foydalanuvchi ijtimoiy yoki elektron pochta orqali ro'yxatdan o'tganda yuborilmaydi.",
 ],
-        [
-     "title" => "Mijoz to'lovini tasdiqlash",
-],
-        [
-     "title" => "Sotuvchiga buyurtmani tasdiqlash to'g'risida bildirishnoma",
-],
-        [
-     "title" => "Xaridor uchun do'kon qutisi buyurtmasini tasdiqlang",
-],
-        [
-     "title" => "Xaridor uchun kassa apparati to'lovini tasdiqlang",
-],
-        [
-     "title" => "Sotuvchining qutisida sotib olish to'g'risida bildirishnoma",
-],
-        [
-     "title" => "Aloqa formasini xabardor qiling",
-],
-        [
-     "title" => "Do'konga qo'shilganingiz bilan tabriklaymiz",
-],
-        [
-     "title" => "Foydalanuvchiga sovg'a kartasini olish to'g'risida e'lon",
-]
-     ],
      "global" => [
      "greetings" => "Salom: ism",
      "end-statement" => "Yordam jamoasi",
@@ -126,7 +115,7 @@
      "transaction" => "Tranzaksiya",
      "fee" => "Haq",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Turkum",
      "password" => "Parol",
@@ -150,6 +139,18 @@
      "receiver" => "Qabul qiluvchi",
      "virtual-items" => "Virtual elementlar",
      "no-payment" => "To'lov yo'q!",
+     "enable" => "Yoqish",
+     "access" => "Kirish",
+     "bank" => "Bank ma'lumotlari",
+     "vendor" => "Sotuvchi",
+     "view_content" => "Toʻliq tarkibni koʻrish",
+     "files" => "Fayllar",
+     "download" => "Yuklab olish",
+     "file_name" => "Fayl nomi",
+     "file_size" => "Hajmi",
+     "subscription" => "Obuna",
+     "products" => "Mahsulotlar",
+     "vendor_products" => "Sotuvchi mahsulotlari",
 ],
      "selldone-business-os" => "Selldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "salom",
-     "name" => "Selldone jamoasi",
+     "name" => "Qabul qiling, Seldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "savdogarlar",
-     "name" => "Savdogarlar, Seldone",
+     "name" => "Qabul qiling, Seldone",
 ],
      "Approve" => [
      "id" => "ma'qullash",
@@ -339,6 +340,12 @@
      "category" => "Yangi mijozlar bayrami",
      "title" => "Sizning a'zoligingizdan xursandmiz",
      "action" => "Hozir tashrif buyuring",
+],
+     "shop-vendor-join" => [
+     "subject" => "Sotuvchini ishga tushirish | :shop_title",
+     "category" => "Yangi sotuvchi bayrami",
+     "title" => "Sizning a'zoligingizdan xursandmiz",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Sovg'a kartasi: shop_title",
@@ -558,6 +565,7 @@
      "category" => "Xavfsizlik bildirishnomalari",
      "title" => "Hisobga kiring",
      "message" => "Hurmatli :name, siz Selldone hisobingizga kirgansiz.",
+     "message-shop" => "Hurmatli :name, siz :shop_title ga kirgansiz.",
      "footer" => "Agar tizimga kirmagan bo'lsangiz, parolingizni o'zgartiring.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Veb-sayt sahifalarining umumiy ko'rinishi",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Siz yangi buyurtma oldingiz. Iltimos, sotuvchi panelidagi buyurtmani qayta ishlash sahifasiga o'ting.",
+     "subject" => "🛍 Yangi buyurtma olindi | : order_id",
+     "your_revenue" => "Sizning daromadingiz",
+],
+     "vendor-invite" => [
+     "title" => "Sotuvchiga taklifnoma",
+     "message" => "Siz :shop_name sotuvchisi bo'lish taklifini oldingiz. Quyidagi tugmalarni bosish orqali uni qabul qilishingiz yoki rad etishingiz mumkin.",
+     "subject" => ":shop_name | Siz bizning sotuvchimiz bo'lish taklifini oldingiz",
+     "accept" => "Qabul qiling va sotuvchiga aylaning",
+     "reject" => "Rad etish",
+],
+     "shop-email-login" => [
+     "subject" => ":shop uchun login kodingiz",
+     "header-message" => "Siz doʻkonga kirish kodini soʻraganingiz uchun sizga ushbu xatni yubormoqdamiz. Bir martalik parolingizni (OTP) quyida toping:",
+     "footer-message" => "Ushbu kod 10 daqiqa davomida amal qiladi. Agar siz ushbu login kodini so'ramagan bo'lsangiz, iltimos, ushbu xatga e'tibor bermang.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Elektron pochtangizni tasdiqlang | :do'kon",
+     "title" => "Elektron pochtani tekshirish",
+     "header-message" => "Salom :name,<br> Iltimos, tugmani bosish orqali **:email** sizning elektron pochta manzilingiz ekanligini tasdiqlang yoki 48 soat ichida quyidagi havoladan foydalaning.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Mahsulotlarni yangilash: do'kon",
+     "title" => "Mahsulot holati haqida yangilanish - Oxirgi 24 soat",
+     "message" => "Umid qilamanki, bu xabar sizni yaxshi topadi. Bu oxirgi 24 soat ichida platformamizdagi mahsulotlaringiz holati haqida sizni xabardor qilish uchun qisqacha yangilanishdir. Ushbu davr mobaynida ayrim mahsulotlarning holatida o'zgarishlar yuz berdi. Ushbu o'zgarishlar xaridlar, birja yangilanishlari yoki boshqa tegishli voqealar tufayli bo'lishi mumkin. Har bir mahsulot haqida batafsil ma'lumot olish uchun, iltimos, hisobingizga kiring va 'Mahsulot holati' bo'limini tekshiring.",
+     "action" => "Sotuvchi panelini oching",
 ],
 ];

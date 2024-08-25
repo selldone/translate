@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Heç bir zaman məhdudiyyəti olmadan pulsuz mağaza və sayt tikməyin bütün peşəkar xüsusiyyətləri sizi gözləyir.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Veb xidməti, tətbiqin inkişafı üçün sənədlər və qoşulmuş xidmət.",
-],
      "apps" => [
      "title" => "Proqram mağazası",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Dəstəklənən Ölkələr və Yerli Ödənişlər - Biznes ƏS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, e-ticarət platformalarından mövzu, plagin və ya kod olmayan bir şeyə qədər ticarət xidmətlərinin növbəti təkamül addımı. 100% vizual!",
+],
+     "participant" => [
+     "title" => "İstədiyiniz icma — Oynayın və $20 qazanın",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Başqalarına kömək etmək üçün qısa videolar yaradaraq, hər video üçün 20 ABŞ dollarına qədər hədiyyə krediti əldə edərək, satılan cəmiyyətdə iştirak edə bilərsiniz.",
+],
+     "tax" => [
+     "title" => "Qlobal Vergi Dərəcələri Siyahısı",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Siz vergi qaydalarını ləğv edə və müxtəlif məhsul kateqoriyaları üçün birdən çox vergi profili yarada bilərsiniz.",
+],
+     "premium" => [
+     "title" => "Premiuma yüksəldin və Elektron Ticarət Oyununuzu Transformasiya edin",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Selldone Premium ilə onlayn mağazanızı yüksəldin. Səmərəliliyi artırmaq və rəqəmsal bazarda fərqlənmək üçün eksklüziv AI alətlərinə, sifarişli şablonlara və daha çoxuna daxil olun. Daha ağıllı, daha parlaq e-ticarət təcrübəsi üçün indi qoşulun!",
+],
+     "builder" => [
+     "title" => "Pulsuz Səhifə Qurucusu və Açılış Səhifəsi Redaktoru Veb Proqramı - Giriş tələb olunmur",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Pulsuz, istifadəçi dostu səhifə qurucusumuz və redaktorumuzla asanlıqla heyrətamiz veb səhifələr və açılış səhifələri yaradın. Giriş tələb olunmur. Bizim intuitiv sürüklə və burax interfeysimizlə veb səhifələrinizi tez dizayn edin, fərdiləşdirin və dərc edin. Əngəlsiz veb dizayn həlli axtaran marketoloqlar, kiçik biznes sahibləri və tərtibatçılar üçün mükəmməldir.",
 ],
 ],
      "shuttle" => [

@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Twishimiye, iyandikishe kandi wakire iyi karita yimpano",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Winjiye kurubuga unyuze kumurongo wumukoresha ukora wa Selldone, niba wiyandikishije muri Selldone ubungubu, uzakira ikarita yimpano ifite agaciro ka $ 14.9. Kwiyandikisha no kubaka iduka muri Selldone ni ubuntu 100%, ariko urashobora gukoresha aya makarita yo kwishyuza kugirango woroshye serivisi.",
-],
 ];

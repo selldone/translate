@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Pale Canary",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Pembe za Ndovu",
+     "#B3E5FC" => "Barafu",
+     "#F1C40F" => "Alfajiri",
+     "#7DF9FF" => "Umeme",
+     "#FF6B35" => "machweo",
 ];

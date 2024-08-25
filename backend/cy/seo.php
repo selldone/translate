@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Mae holl nodweddion proffesiynol adeiladu storfa a safle am ddim heb unrhyw derfyn amser yn aros amdanoch chi.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Gwasanaeth gwe, dogfennaeth ar gyfer datblygu cymwysiadau a gwasanaeth cysylltiedig.",
-],
      "apps" => [
      "title" => "Siop app",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Gwledydd â Chymorth a Thaliadau Lleol - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, Cam esblygiad nesaf gwasanaethau masnach o lwyfannau e-fasnach i rywbeth heb unrhyw thema, ategyn na chod. 100% yn weledol!",
+],
+     "participant" => [
+     "title" => "Y gymuned rydych chi ei heisiau - Chwarae ac Ennill $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Gallwch chi gymryd rhan yn y gymuned wedi'i gwerthu trwy greu fideos byr i helpu eraill a chael hyd at 20 credyd rhodd USD fesul fideo.",
+],
+     "tax" => [
+     "title" => "Rhestr Cyfraddau Treth Fyd-eang",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Gallwch ddiystyru rheolau treth a chreu mwy nag un proffil treth ar gyfer gwahanol gategorïau cynnyrch.",
+],
+     "premium" => [
+     "title" => "Uwchraddio i Premiwm a Thrawsnewid Eich Gêm E-Fasnach",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Codwch eich siop ar-lein gyda Selldone Premium. Cyrchwch offer AI unigryw, templedi pwrpasol, a mwy i hybu effeithlonrwydd a sefyll allan yn y farchnad ddigidol. Ymunwch nawr am brofiad e-fasnach craffach a lluniaidd!",
+],
+     "builder" => [
+     "title" => "Adeiladwr Tudalen Am Ddim a Golygydd Tudalen Glanio Webapp - Dim Angen Mewngofnodi",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Creu tudalennau gwe a thudalennau glanio syfrdanol yn ddiymdrech gyda'n crëwr tudalennau a'n golygydd rhad ac am ddim, hawdd eu defnyddio. Nid oes angen mewngofnodi. Dyluniwch, addaswch a chyhoeddwch eich tudalennau gwe yn gyflym gyda'n rhyngwyneb llusgo a gollwng greddfol. Perffaith ar gyfer marchnatwyr, perchnogion busnesau bach, a datblygwyr sy'n ceisio datrysiad dylunio gwe di-drafferth.",
 ],
 ],
      "shuttle" => [

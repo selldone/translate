@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Queste credenziali ùn currispondenu micca à i nostri registri.",
+     "password" => "A password furnita hè sbagliata.",
      "throttle" => "Troppi tentativi di login. Per piacè pruvate di novu in : seconde seconde.",
      "title_shop" => "Accedi à :name",
      "title_app" => "Accessu à l'applicazione di :name",

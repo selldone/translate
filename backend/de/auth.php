@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Diese Anmeldeinformationen stimmen nicht mit unseren Aufzeichnungen überein.",
+     "password" => "Das angegebene Passwort ist falsch.",
      "throttle" => "Zu viele Anmeldeversuche. Bitte versuchen Sie es in :Sekunden Sekunden erneut.",
      "title_shop" => "Melden Sie sich bei :name an",
      "title_app" => "Anwendungszugriff von :name",

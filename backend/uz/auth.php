@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Bu hisob ma'lumotlari bizning yozuvlarimizga mos kelmaydi.",
+     "password" => "Taqdim etilgan parol noto'g'ri.",
      "throttle" => "Kirish urinishlari juda koʻp. Iltimos, :soniya soniyadan keyin qayta urinib ko'ring.",
      "title_shop" => ":name ga kiring",
      "title_app" => "Ilovaga kirish :name",

@@ -213,6 +213,16 @@ return [
 
     'page.tax' => ['title' => 'Global Tax Rates List', 'image' => '/images/seo/en/tax.jpg', 'description' => "You can override tax rules and create more than one tax profile for different product categories."],
 
+
+    'page.premium' => ['title' => 'Upgrade to Premium and Transform Your E-Commerce Game', 'image' => '/images/seo/en/premium.jpg', 'description' => "Elevate your online store with Selldone Premium. Access exclusive AI tools, bespoke templates, and more to boost efficiency and stand out in the digital marketplace. Join now for a smarter, sleeker e-commerce experience!"],
+
+
+    'page.builder' => [
+        'title' => 'Free Page Builder & Landing Page Editor Webapp - No Login Required',
+        'image' => '/images/seo/en/builder.png',
+        'description' => 'Create stunning web pages and landing pages effortlessly with our free, user-friendly page builder and editor. No login required. Design, customize, and publish your web pages quickly with our intuitive drag-and-drop interface. Perfect for marketers, small business owners, and developers seeking a hassle-free web design solution.'
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | App pages

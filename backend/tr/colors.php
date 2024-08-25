@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Soluk Kanarya",
      "#FFFFB4" => "portafino",
      "#FFFFF0" => "Fildişi",
+     "#B3E5FC" => "Buz",
+     "#F1C40F" => "Şafak",
+     "#7DF9FF" => "Elektrik",
+     "#FF6B35" => "Gün batımı",
 ];

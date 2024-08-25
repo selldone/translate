@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Bestilling bekreftet av kjøper",
+     "email-types-description" => [
+     "shop-customer-join" => "Denne meldingen ønsker en ny kjøper velkommen til butikken.",
+     "order-checkout" => "Dette varselet sendes når en kjøper bekrefter en bestilling.",
+     "order-payment" => "Dette varselet bekrefter vellykket betaling utført av en kunde.",
+     "order-payment-admin" => "Denne meldingen sendes til en selger for å varsle dem om en bekreftet bestilling.",
+     "pos-checkout" => "Dette varselet sendes for å bekrefte en salgsstedsordre for en kjøper.",
+     "pos-payment" => "Denne varslingen bekrefter en utsalgsbetaling utført av en kjøper.",
+     "pos-payment-admin" => "Denne meldingen varsler selgeren om et kjøp gjort på deres salgssted.",
+     "shop-contact" => "Dette varselet sendes når et kontaktskjema er sendt inn.",
+     "shop-giftcard" => "Denne varslingen informerer en bruker om at de har mottatt et gavekort.",
+     "shop-vendor-join" => "Denne meldingen ønsker en ny leverandør velkommen til butikken.",
+     "shop-vendor-invite" => "Denne meldingen sendes for å invitere en leverandør til å bli med på markedsplassen din.",
+     "shop-vendor-order" => "Denne meldingen sendes til leverandøren når en bestilling mottas i enten betalt eller postoppkravsstatus (COD).",
+     "shop-vendor-products" => "Sendes daglig for å oppdatere leverandører om statusen til produktene deres.",
+     "shop-login" => "Varsle brukeren med påloggingsdetaljer, inkludert IP-adresse, dato og enhet, av sikkerhetshensyn.",
+     "login-code" => "Send en engangspassordkode slik at brukerne kan logge inn i butikken.",
+     "shop-email-verify-link" => "Send en lenke for å bekrefte brukerens e-postadresse. Denne e-posten sendes når en bruker registrerer seg på SMS og skriver inn e-posten sin og sendes ikke når brukeren registrerer seg via sosialt eller direkte e-post.",
 ],
-        [
-     "title" => "Kundebetalingsbekreftelse",
-],
-        [
-     "title" => "Bestillingsbekreftelsesvarsel til selger",
-],
-        [
-     "title" => "Bekreft bestilling av butikkboks for kjøper",
-],
-        [
-     "title" => "Bekreft betaling av kassaapparat for kjøper",
-],
-        [
-     "title" => "Melding om kjøp i selgers boks",
-],
-        [
-     "title" => "Informer kontaktskjema",
-],
-        [
-     "title" => "Gratulerer med å bli med i butikken",
-],
-        [
-     "title" => "Kunngjøring om mottak av gavekort til bruker",
-]
-     ],
      "global" => [
      "greetings" => "Hei :navn",
      "end-statement" => "Støtteteam",
@@ -38,7 +27,7 @@
      "footer-shop" => "Hvis du trenger hjelp med noe, ikke nøl med å sende oss en e-post: :shop_mail",
      "accept" => "Aksepterer",
      "reject" => "Avvis",
-     "verify" => "bekrefte",
+     "verify" => "verifisere",
      "title" => "Tittel",
      "value" => "Verdi",
      "description" => "Beskrivelse",
@@ -55,7 +44,7 @@
      "cvv" => "Cvv",
      "expire_date" => "Utløpsdato",
      "dashboard" => "dashbord",
-     "order" => "rekkefølge",
+     "order" => "bestille",
      "view_order" => "Se bestilling",
      "pay_now" => "Pay now",
      "official_selldone" => "OFFISIELL SELGT",
@@ -126,7 +115,7 @@
      "transaction" => "Transaksjon",
      "fee" => "Avgift",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Regning",
      "category" => "Kategori",
      "password" => "Passord",
@@ -150,6 +139,18 @@
      "receiver" => "Mottaker",
      "virtual-items" => "Virtuelle gjenstander",
      "no-payment" => "Ingen betaling!",
+     "enable" => "Muliggjøre",
+     "access" => "Adgang",
+     "bank" => "Bankinformasjon",
+     "vendor" => "Leverandør",
+     "view_content" => "Se hele innholdet",
+     "files" => "Filer",
+     "download" => "nedlasting",
+     "file_name" => "Filnavn",
+     "file_size" => "Størrelse",
+     "subscription" => "Abonnement",
+     "products" => "Produkter",
+     "vendor_products" => "Leverandørprodukter",
 ],
      "selldone-business-os" => "Selldon Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "hei",
-     "name" => "Selldone-teamet",
+     "name" => "Godkjenne, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "kjøpmenn",
-     "name" => "Kjøpmenn, Selldone",
+     "name" => "Godkjenne, Selldone",
 ],
      "Approve" => [
      "id" => "vedta",
@@ -340,6 +341,12 @@
      "title" => "Vi er glade for ditt medlemskap",
      "action" => "Besøk nå",
 ],
+     "shop-vendor-join" => [
+     "subject" => "Leverandør onboarding | :shop_title",
+     "category" => "Ny leverandør feiring",
+     "title" => "Vi er glade for ditt medlemskap",
+     "action" => "Vendor Panel",
+],
      "shop-giftcard" => [
      "subject" => "Gavekort :shop_title",
      "category" => "Legg til nytt kort",
@@ -349,12 +356,12 @@
 ],
      "contact" => [
      "subject" => "Støttesenter | :butikk",
-     "category" => "Brukerstøtte",
+     "category" => "støtte",
      "title" => "Du har fått svar",
 ],
      "order-checkout" => [
      "subject" => "🛍 Bestill Kasse | :Bestillings ID",
-     "title" => "rekkefølge",
+     "title" => "bestille",
      "message" => "Bekreftelsen din,<br> Vi har bestillingen din. Vi sender deg en ny e-post når bestillingen din sendes.",
      "payments" => "Betalinger",
 ],
@@ -558,6 +565,7 @@
      "category" => "Sikkerhetsvarsler",
      "title" => "Logg inn på konto",
      "message" => "Kjære :name, du har logget på Selldone-kontoen din.",
+     "message-shop" => "Kjære :name, du er logget inn på :shop_title .",
      "footer" => "Hvis du ikke er logget inn, vennligst endre passordet ditt.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Totalt antall sidevisninger på nettstedet",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Du har mottatt en ny bestilling. Vennligst gå til ordrebehandlingssiden i leverandørpanelet.",
+     "subject" => "🛍 Ny bestilling mottatt | :Bestillings ID",
+     "your_revenue" => "Dine inntekter",
+],
+     "vendor-invite" => [
+     "title" => "Leverandørinvitasjon",
+     "message" => "Du har mottatt en invitasjon til å bli leverandør av :shop_name. Du kan godta eller avvise den ved å klikke på følgende knapper.",
+     "subject" => ":butikknavn | Du har mottatt en invitasjon til å bli vår leverandør",
+     "accept" => "Godta og bli en leverandør",
+     "reject" => "Avvis",
+],
+     "shop-email-login" => [
+     "subject" => "Din påloggingskode for :shop",
+     "header-message" => "Vi sender deg denne e-posten fordi du ba om en påloggingskode for butikken. Vennligst finn ditt engangspassord (OTP) nedenfor:",
+     "footer-message" => "Denne koden vil være gyldig i 10 minutter. Hvis du ikke ba om denne påloggingskoden, vennligst ignorer denne e-posten.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Bekreft e-posten din | :butikk",
+     "title" => "E-postbekreftelse",
+     "header-message" => "Hei :navn,<br> Vennligst bekreft at **:e-post** er e-postadressen din ved å klikke på knappen eller bruk lenken nedenfor innen 48 timer.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Produktoppdatering :shop",
+     "title" => "Oppdatering om produktstatus – siste 24 timer",
+     "message" => "Jeg håper denne meldingen finner deg godt. Dette er en kort oppdatering for å informere deg om statusen til produktene dine på plattformen vår de siste 24 timene. I løpet av denne perioden har det vært endringer i statusen til enkelte produkter. Disse endringene kan skyldes kjøp, lageroppdateringer eller andre relaterte hendelser. For mer detaljert informasjon om hvert produkt, vennligst logg på kontoen din og sjekk 'Produktstatus'-delen.",
+     "action" => "Åpne Leverandørpanelet",
 ],
 ];

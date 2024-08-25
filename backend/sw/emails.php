@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Agizo limethibitishwa na mnunuzi",
+     "email-types-description" => [
+     "shop-customer-join" => "Ujumbe huu unakaribisha mnunuzi mpya kwenye duka.",
+     "order-checkout" => "Arifa hii inatumwa wakati mnunuzi anathibitisha agizo.",
+     "order-payment" => "Arifa hii inathibitisha malipo yaliyofaulu yaliyofanywa na mteja.",
+     "order-payment-admin" => "Ujumbe huu unatumwa kwa muuzaji ili kuwaarifu kuhusu agizo lililothibitishwa.",
+     "pos-checkout" => "Arifa hii inatumwa ili kuthibitisha eneo la mauzo kwa mnunuzi.",
+     "pos-payment" => "Arifa hii inathibitisha malipo ya mauzo yaliyofanywa na mnunuzi.",
+     "pos-payment-admin" => "Ujumbe huu unamjulisha muuzaji kuhusu ununuzi uliofanywa katika eneo lao la mauzo.",
+     "shop-contact" => "Arifa hii inatumwa wakati fomu ya mawasiliano imewasilishwa.",
+     "shop-giftcard" => "Arifa hii hufahamisha mtumiaji kuwa amepokea kadi ya zawadi.",
+     "shop-vendor-join" => "Ujumbe huu unakaribisha mchuuzi mpya kwenye duka.",
+     "shop-vendor-invite" => "Ujumbe huu unatumwa ili kumwalika mchuuzi ajiunge na soko lako.",
+     "shop-vendor-order" => "Ujumbe huu hutumwa kwa muuzaji agizo linapopokelewa katika hali ya Kulipiwa au Pesa kwenye Utumaji (COD).",
+     "shop-vendor-products" => "Hutumwa kila siku ili kusasisha wachuuzi kuhusu hali ya bidhaa zao.",
+     "shop-login" => "Mjulishe mtumiaji kwa maelezo ya kuingia, ikiwa ni pamoja na anwani ya IP, tarehe na kifaa, kwa madhumuni ya usalama.",
+     "login-code" => "Tuma msimbo wa nenosiri wa mara moja ili watumiaji waingie kwenye duka.",
+     "shop-email-verify-link" => "Tuma kiungo ili kuthibitisha anwani ya barua pepe ya mtumiaji. Barua hii hutumwa mtumiaji anapojiandikisha kwa SMS na kuingiza barua pepe zake na haitumiwi mtumiaji anapojiandikisha kwa njia ya kijamii au barua pepe moja kwa moja.",
 ],
-        [
-     "title" => "Uthibitisho wa malipo ya mteja",
-],
-        [
-     "title" => "Ilani ya uthibitishaji wa agizo kwa muuzaji",
-],
-        [
-     "title" => "Thibitisha agizo la sanduku la duka kwa mnunuzi",
-],
-        [
-     "title" => "Thibitisha malipo ya rejista ya pesa kwa mnunuzi",
-],
-        [
-     "title" => "Taarifa ya ununuzi katika sanduku la muuzaji",
-],
-        [
-     "title" => "Taarifa fomu ya mawasiliano",
-],
-        [
-     "title" => "Hongera kwa kujiunga na duka",
-],
-        [
-     "title" => "Tangazo la kupokea kadi ya zawadi kwa mtumiaji",
-]
-     ],
      "global" => [
      "greetings" => "Hi: jina",
      "end-statement" => "Timu ya usaidizi",
@@ -126,7 +115,7 @@
      "transaction" => "Shughuli",
      "fee" => "Ada",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Kategoria",
      "password" => "Nenosiri",
@@ -150,6 +139,18 @@
      "receiver" => "Mpokeaji",
      "virtual-items" => "Vipengee pepe",
      "no-payment" => "Hakuna malipo!",
+     "enable" => "Washa",
+     "access" => "Ufikiaji",
+     "bank" => "Taarifa za benki",
+     "vendor" => "Mchuuzi",
+     "view_content" => "Tazama maudhui kamili",
+     "files" => "Mafaili",
+     "download" => "Pakua",
+     "file_name" => "Jina la Faili",
+     "file_size" => "Ukubwa",
+     "subscription" => "Usajili",
+     "products" => "Bidhaa",
+     "vendor_products" => "Bidhaa za Wauzaji",
 ],
      "selldone-business-os" => "Selldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "habari",
-     "name" => "Timu ya Selldone",
+     "name" => "Idhinisha, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "wafanyabiashara",
-     "name" => "Wafanyabiashara, Selldone",
+     "name" => "Idhinisha, Selldone",
 ],
      "Approve" => [
      "id" => "kuidhinisha",
@@ -339,6 +340,12 @@
      "category" => "Sherehe ya mteja mpya",
      "title" => "Tuna furaha kwa uanachama wako",
      "action" => "Tembelea sasa",
+],
+     "shop-vendor-join" => [
+     "subject" => "Kupanda kwa Wachuuzi | :kichwa_cha_duka",
+     "category" => "Sherehe ya muuzaji mpya",
+     "title" => "Tuna furaha kwa uanachama wako",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Kadi ya zawadi :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Arifa za usalama",
      "title" => "Ingia kwa Akaunti",
      "message" => "Mpendwa :jina, umekuwa ukiingia kwenye akaunti yako ya Selldone.",
+     "message-shop" => "Mpendwa :name, umeingia kwenye :shop_title .",
      "footer" => "Ikiwa hujaingia, tafadhali badilisha nenosiri lako.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Jumla ya mionekano ya ukurasa wa tovuti",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Umepokea agizo jipya. Tafadhali nenda kwenye ukurasa wa kuchakata agizo katika paneli yako ya muuzaji.",
+     "subject" => "🛍 Agizo Jipya Limepokelewa | :kitambulisho_cha_agizo",
+     "your_revenue" => "Mapato Yako",
+],
+     "vendor-invite" => [
+     "title" => "Mwaliko wa Muuzaji",
+     "message" => "Umepokea mwaliko wa kuwa mchuuzi wa :shop_name. Unaweza kuikubali au kuikataa kwa kubofya vitufe vifuatavyo.",
+     "subject" => ":jina_la_duka | Umepokea mwaliko wa kuwa mchuuzi wetu",
+     "accept" => "Kubali na Uwe Muuzaji",
+     "reject" => "Kataa",
+],
+     "shop-email-login" => [
+     "subject" => "Nambari yako ya Kuingia ya :shop",
+     "header-message" => "Tunakutumia barua pepe hii kwa sababu uliomba msimbo wa kuingia katika duka. Tafadhali tafuta Nenosiri lako la Wakati Mmoja (OTP) hapa chini:",
+     "footer-message" => "Nambari hii itatumika kwa dakika 10. Ikiwa hukuomba msimbo huu wa kuingia, tafadhali puuza barua pepe hii.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Thibitisha barua pepe yako | : duka",
+     "title" => "Uthibitishaji wa Barua Pepe",
+     "header-message" => "Hi: jina,<br> Tafadhali thibitisha kwamba **:barua pepe** ni anwani yako ya barua pepe kwa kubofya kitufe au tumia kiungo kilicho hapa chini ndani ya saa 48.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Bidhaa Update :duka",
+     "title" => "Sasisha kuhusu Hali ya Bidhaa - Saa 24 Zilizopita",
+     "message" => "Natumai ujumbe huu utakupata vyema. Hili ni sasisho fupi la kukuarifu kuhusu hali ya bidhaa zako kwenye jukwaa letu katika muda wa saa 24 zilizopita. Katika kipindi hiki, kumekuwa na mabadiliko katika hali ya baadhi ya bidhaa. Mabadiliko haya yanaweza kutokana na ununuzi, masasisho ya hisa au matukio mengine yanayohusiana. Kwa maelezo zaidi kuhusu kila bidhaa, tafadhali ingia katika akaunti yako na uangalie sehemu ya 'Hali ya Bidhaa'.",
+     "action" => "Fungua Paneli ya Wauzaji",
 ],
 ];

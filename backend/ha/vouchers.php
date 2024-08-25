@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Taya murna, yi rajista da karɓar wannan katin kyauta",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Kun shigar da rukunin yanar gizon ta hanyar hanyar haɗin mai amfani da Selldone, idan kun yi rajista a cikin Selldone yanzu, zaku karɓi katin kyauta mai daraja $ 14.9. Yin rijista da gina kantin sayar da kayayyaki a Selldone kyauta ne 100%, amma zaka iya amfani da waɗannan katunan caji don sauƙaƙe sabis.",
-],
 ];

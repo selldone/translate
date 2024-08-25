@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Čestitamo, registrirajte se in prejmite to darilno kartico",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Na spletno mesto ste vstopili prek povezave aktivnega uporabnika Selldone, če se zdaj registrirate v Selldone, boste prejeli darilno kartico v vrednosti 14,9 USD. Registracija in izgradnja trgovine v Selldone je 100 % brezplačna, vendar lahko uporabite te kartice za polnjenje, da razbremenite storitev.",
-],
 ];

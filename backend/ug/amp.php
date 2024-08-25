@@ -1,7 +1,7 @@
 <?php 
 
  return [
-     "home" => "Selldone",
+     "home" => "selldone",
      "blogs" => "بىلوگ",
      "helps" => "ياردەم",
      "current_location" => "بۇ تۈر",
@@ -22,7 +22,7 @@
      "style" => "style",
      "volume" => "volume",
      "weight" => "weight",
-     "pack" => "pack",
+     "pack" => "Pack",
      "type" => "type",
      "add_to_card" => "ھارۋىغا قوشۇڭ",
      "overview" => "Overview",

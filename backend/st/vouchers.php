@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Kea u lebohela, ngodisa 'me u fumane karete ena ea mpho",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "U kentse sebaka sa marang-rang ka sehokelo sa mosebelisi ea sebetsang oa Selldone, haeba u ingolisa ho Selldone hona joale, u tla fumana karete ea mpho e jang $ 14.9. Ho ngolisa le ho aha lebenkele Selldone ke mahala 100%, empa u ka sebelisa likarete tsena tsa ho tjhaja hape ho imolla litšebeletso.",
-],
 ];

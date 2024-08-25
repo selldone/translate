@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Canary cirro leh",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Maroodiga",
+     "#B3E5FC" => "Baraf",
+     "#F1C40F" => "Waaberiga",
+     "#7DF9FF" => "Koronto",
+     "#FF6B35" => "Qorrax dhaca",
 ];

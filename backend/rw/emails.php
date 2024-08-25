@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Ibicuruzwa byemejwe nabaguzi",
+     "email-types-description" => [
+     "shop-customer-join" => "Ubu butumwa bwakira umuguzi mushya kumaduka.",
+     "order-checkout" => "Iri menyesha ryoherejwe mugihe umuguzi yemeje itegeko.",
+     "order-payment" => "Iri menyesha ryemeza ko wishyuye neza wakozwe n'umukiriya.",
+     "order-payment-admin" => "Ubu butumwa bwoherejwe kubagurisha kugirango babamenyeshe ibyemezo byemejwe.",
+     "pos-checkout" => "Iri menyesha ryoherejwe kwemeza ingingo yo kugurisha kubaguzi.",
+     "pos-payment" => "Iri menyesha ryemeza ingingo yo kugurisha yakozwe numuguzi.",
+     "pos-payment-admin" => "Ubu butumwa buramenyesha ugurisha kugura byakozwe aho bagurishije.",
+     "shop-contact" => "Iri menyesha ryoherejwe iyo urupapuro rwabigenewe rwatanzwe.",
+     "shop-giftcard" => "Iri menyesha rimenyesha umukoresha ko bakiriye ikarita yimpano.",
+     "shop-vendor-join" => "Ubu butumwa bwakira umucuruzi mushya kumaduka.",
+     "shop-vendor-invite" => "Ubu butumwa bwoherejwe gutumira umucuruzi kwinjira mumasoko yawe.",
+     "shop-vendor-order" => "Ubu butumwa bwoherejwe kubacuruzi mugihe itegeko ryakiriwe haba murihembwa cyangwa amafaranga kuri Delivery (COD).",
+     "shop-vendor-products" => "Yoherejwe buri munsi kugirango ivugurure abacuruzi kumiterere yibicuruzwa byabo.",
+     "shop-login" => "Menyesha umukoresha ufite ibisobanuro birambuye byinjira, harimo aderesi ya IP, itariki, nigikoresho, kubwumutekano.",
+     "login-code" => "Kohereza ijambo rimwe ryibanga kubakoresha kugirango binjire mububiko.",
+     "shop-email-verify-link" => "Ohereza umurongo kugirango umenye aderesi imeri ukoresha. Iyi imeri yoherejwe mugihe umukoresha yiyandikishije kuri SMS hanyuma akandika imeri yabo kandi ntabwo yoherejwe mugihe umukoresha yiyandikishije kumibereho cyangwa imeri muburyo butaziguye.",
 ],
-        [
-     "title" => "Icyemezo cyo kwishyura cyabakiriya",
-],
-        [
-     "title" => "Tegeka icyemezo cyo kugurisha",
-],
-        [
-     "title" => "Emeza agasanduku k'ububiko gutumiza abaguzi",
-],
-        [
-     "title" => "Emeza ko wishyuye igitabo cyabiguzi",
-],
-        [
-     "title" => "Menyesha kugura mu gasanduku k'umugurisha",
-],
-        [
-     "title" => "Menyesha urupapuro rwabigenewe",
-],
-        [
-     "title" => "Twishimiye kwinjira mu iduka",
-],
-        [
-     "title" => "Itangazo ryo kwakira ikarita yimpano kubakoresha",
-]
-     ],
      "global" => [
      "greetings" => "Muraho: izina",
      "end-statement" => "Itsinda ryunganira",
@@ -126,7 +115,7 @@
      "transaction" => "Gucuruza",
      "fee" => "Amafaranga",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Icyiciro",
      "password" => "Ijambobanga",
@@ -150,6 +139,18 @@
      "receiver" => "Kwakira",
      "virtual-items" => "Ibintu bifatika",
      "no-payment" => "Nta bwishyu!",
+     "enable" => "Gushoboza",
+     "access" => "Kwinjira",
+     "bank" => "Amakuru ya banki",
+     "vendor" => "Umucuruzi",
+     "view_content" => "Reba ibirimo byose",
+     "files" => "Amadosiye",
+     "download" => "Kuramo",
+     "file_name" => "Izina rya dosiye",
+     "file_size" => "Ingano",
+     "subscription" => "Kwiyandikisha",
+     "products" => "Ibicuruzwa",
+     "vendor_products" => "Ibicuruzwa",
 ],
      "selldone-business-os" => "Ubucuruzi bwa Selldone",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "muraho",
-     "name" => "Ikipe ya Selldone",
+     "name" => "Emeza, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "abacuruzi",
-     "name" => "Abacuruzi, Selldone",
+     "name" => "Emeza, Selldone",
 ],
      "Approve" => [
      "id" => "kwemeza",
@@ -339,6 +340,12 @@
      "category" => "Ibirori bishya byabakiriya",
      "title" => "Twishimiye kuba umunyamuryango",
      "action" => "Sura nonaha",
+],
+     "shop-vendor-join" => [
+     "subject" => "Abacuruzi Kumurongo | : iduka",
+     "category" => "Ibirori bishya byabacuruzi",
+     "title" => "Twishimiye kuba umunyamuryango",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Ikarita y'impano: iduka",
@@ -558,6 +565,7 @@
      "category" => "Kumenyesha umutekano",
      "title" => "Injira kuri Konti",
      "message" => "Nshuti: izina, winjiye kuri konte yawe ya Selldone.",
+     "message-shop" => "Nshuti: izina, winjiye muri: iduka_title.",
      "footer" => "Niba utinjiye, nyamuneka hindura ijambo ryibanga.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Urubuga rwose",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Wakiriye itegeko rishya. Nyamuneka jya kurupapuro rutunganya ibicuruzwa mubucuruzi bwawe.",
+     "subject" => "Order Iteka Rishya ryakiriwe | : order_id",
+     "your_revenue" => "Amafaranga yinjira",
+],
+     "vendor-invite" => [
+     "title" => "Ubutumire bw'abacuruzi",
+     "message" => "Wakiriye ubutumire bwo kuba umucuruzi wa: iduka_izina. Urashobora kubyemera cyangwa kubyanga ukanze kuri buto ikurikira.",
+     "subject" => ": iduka_izina | Wakiriye ubutumire bwo kutugurisha",
+     "accept" => "Emera & Ba Umucuruzi",
+     "reject" => "Wange",
+],
+     "shop-email-login" => [
+     "subject" => "Kode yawe yinjira kuri: iduka",
+     "header-message" => "Turaboherereje iyi imeri kuko wasabye kode yinjira kububiko. Nyamuneka shakisha ijambo ryibanga rimwe (OTP) hepfo:",
+     "footer-message" => "Iyi kode izamara iminota 10. Niba utasabye iyi code yinjira, nyamuneka wirengagize iyi imeri.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Kugenzura imeri yawe | : iduka",
+     "title" => "Kugenzura imeri",
+     "header-message" => "Muraho: izina,<br> Nyamuneka wemeze ko **: imeri ** ni aderesi imeri yawe ukanze kuri buto cyangwa ukoreshe umurongo ukurikira mumasaha 48.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Kuvugurura ibicuruzwa: iduka",
+     "title" => "Kuvugurura kumiterere yibicuruzwa - Amasaha 24 yanyuma",
+     "message" => "Nizere ko ubu butumwa bubona neza. Nibintu bigezweho kugirango nkumenyeshe uko ibicuruzwa byawe bihagaze kurubuga rwacu mumasaha 24 ashize. Muri iki gihe, habaye impinduka muburyo bwibicuruzwa bimwe. Izi mpinduka zishobora guterwa no kugura, kuvugurura imigabane, cyangwa ibindi bintu bifitanye isano. Kubindi bisobanuro birambuye kuri buri gicuruzwa, nyamuneka injira kuri konte yawe hanyuma urebe igice cyibicuruzwa.",
+     "action" => "Fungura akanama gacuruza",
 ],
 ];

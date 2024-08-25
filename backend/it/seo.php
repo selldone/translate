@@ -172,7 +172,7 @@
      "seo" => "Motore SEO automatico",
      "automation" => "Automazione e IoT",
      "ai" => "Commercio AI",
-     "app-builder" => "Generatore di applicazioni",
+     "app-builder" => "Costruttore di applicazioni",
 ],
      "build" => "Costruire",
      "build-sub" => "Creiamo un sistema intorno a te per creare la tua storia di successo.",
@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Tutte le funzionalità professionali per realizzare un negozio e un sito gratuitamente senza alcun limite di tempo ti aspettano.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Servizio Web, documentazione per lo sviluppo dell'applicazione e servizio connesso.",
-],
      "apps" => [
      "title" => "App Store",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Paesi supportati e pagamenti locali - Sistema operativo aziendale",
      "image" => "/images/seo/en/countries.png",
      "description" => "Sistema operativo aziendale, il passaggio successivo dell'evoluzione dei servizi commerciali dalle piattaforme di e-commerce a qualcosa senza tema, plug-in o codice. 100% visivamente!",
+],
+     "participant" => [
+     "title" => "La community che desideri: gioca e vinci 20 $",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Puoi partecipare alla community di Selldone creando brevi video per aiutare gli altri e ricevere fino a 20 USD di credito regalo per video.",
+],
+     "tax" => [
+     "title" => "Elenco delle aliquote fiscali globali",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "È possibile ignorare le regole fiscali e creare più profili fiscali per diverse categorie di prodotti.",
+],
+     "premium" => [
+     "title" => "Passa a Premium e trasforma il tuo gioco di e-commerce",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Migliora il tuo negozio online con Selldone Premium. Accedi a strumenti AI esclusivi, modelli personalizzati e altro ancora per aumentare l'efficienza e distinguerti nel mercato digitale. Iscriviti ora per un'esperienza di e-commerce più intelligente e raffinata!",
+],
+     "builder" => [
+     "title" => "Webapp gratuita per la creazione di pagine e l'editor di landing page - Nessun accesso richiesto",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Crea pagine web e landing page sbalorditive senza sforzo con il nostro editor e page builder gratuito e intuitivo. Non è richiesto alcun login. Progetta, personalizza e pubblica le tue pagine web rapidamente con la nostra intuitiva interfaccia drag-and-drop. Perfetto per addetti al marketing, titolari di piccole imprese e sviluppatori che cercano una soluzione di web design senza problemi.",
 ],
 ],
      "shuttle" => [

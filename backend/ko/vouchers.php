@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "축하합니다. 등록하고 이 기프트 카드를 받으세요",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Selldone의 활성 사용자의 링크를 통해 사이트에 들어왔습니다. 지금 Selldone에 등록하면 $ 14.9 상당의 기프트 카드를 받게 됩니다. Selldone에서 등록 및 상점 구축은 100% 무료이지만 이러한 충전 카드를 사용하여 서비스를 완화할 수 있습니다.",
-],
 ];

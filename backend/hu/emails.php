@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "A megrendelést a vásárló visszaigazolta",
+     "email-types-description" => [
+     "shop-customer-join" => "Ez az üzenet új vásárlót köszönt az üzletben.",
+     "order-checkout" => "Ezt az értesítést akkor küldjük el, amikor a vásárló visszaigazolja a megrendelését.",
+     "order-payment" => "Ez az értesítés megerősíti az ügyfél sikeres fizetését.",
+     "order-payment-admin" => "Ezt az üzenetet az eladónak küldjük, hogy értesítse őket a visszaigazolt megrendelésről.",
+     "pos-checkout" => "Ezt az értesítést azért küldjük, hogy megerősítsük a vevő értékesítési pontján leadott megrendelését.",
+     "pos-payment" => "Ez az értesítés megerősíti a vevő által az értékesítés helyén végrehajtott fizetést.",
+     "pos-payment-admin" => "Ez az üzenet értesíti az eladót az értékesítési helyén történt vásárlásról.",
+     "shop-contact" => "Ezt az értesítést a kapcsolatfelvételi űrlap elküldésekor küldjük el.",
+     "shop-giftcard" => "Ez az értesítés értesíti a felhasználót, hogy ajándékutalványt kapott.",
+     "shop-vendor-join" => "Ez az üzenet új eladót köszönt az üzletben.",
+     "shop-vendor-invite" => "Ezt az üzenetet azért küldtük, hogy meghívjunk egy szállítót, hogy csatlakozzon a piacteréhez.",
+     "shop-vendor-order" => "Ezt az üzenetet a rendszer akkor küldi el a szállítónak, amikor a megrendelés Fizetett vagy Utánvétes (COD) státuszban érkezik.",
+     "shop-vendor-products" => "Naponta küldjük, hogy tájékoztassuk a szállítókat termékeik állapotáról.",
+     "shop-login" => "Biztonsági okokból értesítse a felhasználót a bejelentkezési adatokkal, beleértve az IP-címet, a dátumot és az eszközt.",
+     "login-code" => "Egyszeri jelszókód küldése a felhasználóknak az áruházba való bejelentkezéshez.",
+     "shop-email-verify-link" => "Link küldése a felhasználó e-mail címének ellenőrzéséhez. Ezt az e-mailt a rendszer akkor küldi el, amikor a felhasználó SMS-ben regisztrál, és megadja e-mail címét, és nem küldi el, amikor a felhasználó közösségi oldalon vagy közvetlenül e-mailben regisztrál.",
 ],
-        [
-     "title" => "Ügyfél fizetési visszaigazolása",
-],
-        [
-     "title" => "Megrendelés megerősítéséről szóló értesítés az eladónak",
-],
-        [
-     "title" => "Erősítse meg a bolti doboz megrendelését a vásárló számára",
-],
-        [
-     "title" => "A pénztárgép fizetésének megerősítése a vevő számára",
-],
-        [
-     "title" => "Vásárlási értesítés az eladó dobozában",
-],
-        [
-     "title" => "Tájékoztatási kapcsolatfelvételi űrlap",
-],
-        [
-     "title" => "Gratulálunk az üzlethez való csatlakozáshoz",
-],
-        [
-     "title" => "Ajándékkártya átvételének bejelentése a felhasználónak",
-]
-     ],
      "global" => [
      "greetings" => "Szia :name",
      "end-statement" => "Támogatói csoport",
@@ -126,7 +115,7 @@
      "transaction" => "Tranzakció",
      "fee" => "Díj",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Számla",
      "category" => "Kategória",
      "password" => "Jelszó",
@@ -150,6 +139,18 @@
      "receiver" => "Vevő",
      "virtual-items" => "Virtuális elemek",
      "no-payment" => "Nincs fizetés!",
+     "enable" => "Engedélyezze",
+     "access" => "Hozzáférés",
+     "bank" => "Bank info",
+     "vendor" => "Eladó",
+     "view_content" => "Teljes tartalom megtekintése",
+     "files" => "Fájlok",
+     "download" => "Letöltés",
+     "file_name" => "Fájlnév",
+     "file_size" => "Méret",
+     "subscription" => "Feliratkozás",
+     "products" => "Termékek",
+     "vendor_products" => "Eladói termékek",
 ],
      "selldone-business-os" => "Eladott üzleti operációs rendszer",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "Szia",
-     "name" => "Eladó csapat",
+     "name" => "Jóváhagyni, eladva",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "kereskedők",
-     "name" => "Kereskedők, Selldone",
+     "name" => "Jóváhagyni, eladva",
 ],
      "Approve" => [
      "id" => "jóváhagy",
@@ -339,6 +340,12 @@
      "category" => "Új vásárló ünnepe",
      "title" => "Örülünk tagságodnak",
      "action" => "Látogassa meg most",
+],
+     "shop-vendor-join" => [
+     "subject" => "Szállítói beépítés | :shop_title",
+     "category" => "Új eladó ünnepe",
+     "title" => "Örülünk tagságodnak",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Ajándékkártya :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Biztonsági értesítések",
      "title" => "Jelentkezzen be a fiókba",
      "message" => "Kedves :name, Ön bejelentkezett Selldone fiókjába.",
+     "message-shop" => "Kedves :name, Ön bejelentkezett a :shop_title oldalra.",
      "footer" => "Ha nincs bejelentkezve, kérjük, változtassa meg jelszavát.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "A webhely összes oldalmegtekintése",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Új rendelés érkezett. Kérjük, lépjen a szállítói panel rendelésfeldolgozási oldalára.",
+     "subject" => "🛍 Új rendelés érkezett | :Rendelés azonosító",
+     "your_revenue" => "Az Ön bevétele",
+],
+     "vendor-invite" => [
+     "title" => "Eladói Meghívás",
+     "message" => "Meghívást kapott, hogy legyen a :shop_name szállítója. Elfogadhatja vagy elutasíthatja az alábbi gombokra kattintva.",
+     "subject" => ":shop_name | Meghívást kapott, hogy legyen eladónk",
+     "accept" => "Elfogadás és eladóvá válás",
+     "reject" => "Elutasít",
+],
+     "shop-email-login" => [
+     "subject" => "Az Ön bejelentkezési kódja a :shophoz",
+     "header-message" => "Azért küldjük Önnek ezt az e-mailt, mert bejelentkezési kódot kért az üzlethez. Az alábbiakban keresse meg egyszeri jelszavát (OTP):",
+     "footer-message" => "Ez a kód 10 percig lesz érvényes. Ha nem Ön kérte ezt a bejelentkezési kódot, kérjük, hagyja figyelmen kívül ezt az e-mailt.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Igazolja e-mail-címét | :üzlet",
+     "title" => "E-mail ellenőrzés",
+     "header-message" => "Szia :name,<br> Kérjük, erősítse meg, hogy **:email** az Ön e-mail címe a gombra kattintva, vagy használja az alábbi linket 48 órán belül.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Termékfrissítés :shop",
+     "title" => "Frissítés a termék állapotáról – az elmúlt 24 órában",
+     "message" => "Remélem, ez az üzenet jól talál. Ez egy rövid frissítés, amely tájékoztatja Önt termékeinek állapotáról a platformunkon az elmúlt 24 órában. Ebben az időszakban néhány termék állapota megváltozott. Ezeket a változásokat vásárlások, készletfrissítések vagy egyéb kapcsolódó események okozhatják. Az egyes termékekre vonatkozó részletesebb információkért kérjük, jelentkezzen be fiókjába, és ellenőrizze a „Termék állapota” részt.",
+     "action" => "Nyissa meg a szállítói panelt",
 ],
 ];

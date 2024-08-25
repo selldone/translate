@@ -14,8 +14,8 @@
         "pembangun komunitas khusus",
         "e-niaga label putih"
      ],
-     "samin" => "habis terjual",
-     "Selldone" => "habis terjual",
+     "samin" => "sudah terjual",
+     "Selldone" => "sudah terjual",
      "related" => "Terkait",
      "share" => "Membagikan",
      "global" => [
@@ -33,7 +33,7 @@
 ],
      "footer-menu" => [
         [
-     "title" => "habis terjual",
+     "title" => "sudah terjual",
      "items" => [
         [
      "title" => "Platform bisnis",
@@ -172,7 +172,7 @@
      "seo" => "Mesin SEO Otomatis",
      "automation" => "Otomatisasi & IoT",
      "ai" => "Perdagangan AI",
-     "app-builder" => "Pembuat aplikasi",
+     "app-builder" => "Pembangun aplikasi",
 ],
      "build" => "Membangun",
      "build-sub" => "Kami menciptakan sistem di sekitar Anda untuk menciptakan kisah sukses Anda.",
@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Semua fitur profesional membangun toko dan situs secara gratis tanpa batas waktu menunggu Anda.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Layanan web, dokumentasi untuk pengembangan aplikasi dan layanan terhubung.",
-],
      "apps" => [
      "title" => "Toko aplikasi",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Negara yang Didukung dan Pembayaran Lokal - OS Bisnis",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, Langkah evolusi layanan perdagangan berikutnya dari platform e-niaga menjadi sesuatu tanpa tema, plugin, atau kode. 100% secara visual!",
+],
+     "participant" => [
+     "title" => "Komunitas yang Anda inginkan — Mainkan dan Menangkan $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Anda dapat berpartisipasi dalam komunitas selldone dengan membuat video pendek untuk membantu orang lain dan mendapatkan kredit hadiah hingga 20 USD per video.",
+],
+     "tax" => [
+     "title" => "Daftar Tarif Pajak Global",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Anda dapat mengesampingkan aturan pajak dan membuat lebih dari satu profil pajak untuk kategori produk yang berbeda.",
+],
+     "premium" => [
+     "title" => "Tingkatkan ke Premium dan Ubah Permainan E-Commerce Anda",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Tingkatkan toko online Anda dengan Selldone Premium. Akses berbagai alat AI eksklusif, templat khusus, dan banyak lagi untuk meningkatkan efisiensi dan tampil menonjol di pasar digital. Bergabunglah sekarang untuk pengalaman e-commerce yang lebih cerdas dan lebih ramping!",
+],
+     "builder" => [
+     "title" => "Pembuat Halaman Gratis & Editor Halaman Arahan Webapp - Tidak Perlu Login",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Buat halaman web dan halaman landing yang memukau dengan mudah menggunakan pembuat dan editor halaman yang mudah digunakan. Tidak perlu login. Desain, sesuaikan, dan publikasikan halaman web Anda dengan cepat menggunakan antarmuka drag-and-drop yang intuitif. Sempurna untuk pemasar, pemilik usaha kecil, dan pengembang yang mencari solusi desain web yang mudah.",
 ],
 ],
      "shuttle" => [

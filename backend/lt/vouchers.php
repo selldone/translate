@@ -73,14 +73,4 @@
      "price" => "3 588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Sveikiname, registruokitės ir gaukite šią dovanų kortelę",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Į svetainę įėjote per aktyvaus Selldone vartotojo nuorodą, jei dabar užsiregistruosite Selldone, gausite 14,9 USD vertės dovanų kortelę. Registracija ir parduotuvės kūrimas Selldone yra 100% nemokama, tačiau galite naudoti šias papildymo korteles, kad sumažintumėte paslaugą.",
-],
 ];

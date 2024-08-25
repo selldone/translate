@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Arahabaina, misoratra anarana ary raiso ity karatra fanomezana ity",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Niditra tao amin'ny tranokala ianao tamin'ny alàlan'ny rohin'ny mpampiasa mavitrika an'i Selldone, raha misoratra anarana ao amin'ny Selldone ianao izao dia hahazo karatra fanomezana mitentina $ 14.9. Maimaim-poana 100% ny fisoratana anarana sy fananganana magazay ao Selldone, saingy azonao ampiasaina ireto karatra famerenam-bola ireto mba hanamaivanana ny serivisy.",
-],
 ];

@@ -14,8 +14,8 @@
         "niestandardowy kreator społeczności",
         "e-commerce z własną etykietą"
      ],
-     "samin" => "sprzedane",
-     "Selldone" => "sprzedane",
+     "samin" => "sprzedany",
+     "Selldone" => "sprzedany",
      "related" => "Związane z",
      "share" => "Udział",
      "global" => [
@@ -33,7 +33,7 @@
 ],
      "footer-menu" => [
         [
-     "title" => "sprzedane",
+     "title" => "sprzedany",
      "items" => [
         [
      "title" => "Platforma biznesowa",
@@ -172,7 +172,7 @@
      "seo" => "Silnik automatycznego SEO",
      "automation" => "Automatyzacja i IoT",
      "ai" => "Handel AI",
-     "app-builder" => "Kreator aplikacji",
+     "app-builder" => "Twórca aplikacji",
 ],
      "build" => "Budować",
      "build-sub" => "Tworzymy system wokół Ciebie, aby stworzyć Twoją historię sukcesu.",
@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Wszystkie profesjonalne funkcje budowania sklepu i witryny za darmo bez ograniczeń czasowych czekają na Ciebie.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Serwis WWW, dokumentacja do tworzenia aplikacji i serwis podłączony.",
-],
      "apps" => [
      "title" => "Sklep z aplikacjami",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Obsługiwane kraje i płatności lokalne — system operacyjny firmy",
      "image" => "/images/seo/en/countries.png",
      "description" => "Biznesowy system operacyjny, kolejny krok w ewolucji usług handlowych od platform e-commerce do czegoś bez motywu, wtyczki lub kodu. 100% wizualnie!",
+],
+     "participant" => [
+     "title" => "Społeczność, której pragniesz — graj i wygraj 20 USD",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Możesz wziąć udział w społeczności selldone, tworząc krótkie filmy, którymi możesz pomagać innym, i otrzymać do 20 USD w prezencie za każdy film.",
+],
+     "tax" => [
+     "title" => "Globalna lista stawek podatkowych",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Możesz ominąć reguły podatkowe i utworzyć więcej niż jeden profil podatkowy dla różnych kategorii produktów.",
+],
+     "premium" => [
+     "title" => "Przejdź na wersję Premium i zmień swoją grę w e-commerce",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Ulepsz swój sklep internetowy dzięki Selldone Premium. Uzyskaj dostęp do ekskluzywnych narzędzi AI, niestandardowych szablonów i innych, aby zwiększyć wydajność i wyróżnić się na rynku cyfrowym. Dołącz teraz, aby uzyskać inteligentniejsze, bardziej eleganckie doświadczenie e-commerce!",
+],
+     "builder" => [
+     "title" => "Darmowy kreator stron i edytor stron docelowych w aplikacji internetowej — bez konieczności logowania",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Twórz oszałamiające strony internetowe i strony docelowe bez wysiłku dzięki naszemu bezpłatnemu, przyjaznemu użytkownikowi kreatorowi stron i edytorowi. Nie jest wymagane logowanie. Projektuj, dostosowuj i publikuj swoje strony internetowe szybko dzięki naszemu intuicyjnemu interfejsowi typu „przeciągnij i upuść”. Idealne dla marketerów, właścicieli małych firm i deweloperów poszukujących bezproblemowego rozwiązania do projektowania stron internetowych.",
 ],
 ],
      "shuttle" => [

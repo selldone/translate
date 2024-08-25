@@ -14,8 +14,8 @@
         "aṣa awujo Akole",
         "whitelabel ecommerce"
      ],
-     "samin" => "ti o ta",
-     "Selldone" => "ti o ta",
+     "samin" => "ta ṣe",
+     "Selldone" => "ta ṣe",
      "related" => "Jẹmọ",
      "share" => "Pin",
      "global" => [
@@ -33,7 +33,7 @@
 ],
      "footer-menu" => [
         [
-     "title" => "ti o ta",
+     "title" => "ta ṣe",
      "items" => [
         [
      "title" => "Syeed iṣowo",
@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Gbogbo awọn ẹya amọdaju ti kikọ ile itaja ati aaye fun ọfẹ laisi opin akoko eyikeyi n duro de ọ.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Iṣẹ wẹẹbu, iwe fun idagbasoke ohun elo ati iṣẹ ti a ti sopọ.",
-],
      "apps" => [
      "title" => "App itaja",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Awọn orilẹ-ede atilẹyin ati Awọn sisanwo Agbegbe - OS Iṣowo",
      "image" => "/images/seo/en/countries.png",
      "description" => "OS Iṣowo, Igbesẹ itankalẹ atẹle ti awọn iṣẹ iṣowo lati awọn iru ẹrọ e-commerce si nkan ti ko ni akori, itanna, tabi koodu. 100% oju!",
+],
+     "participant" => [
+     "title" => "Agbegbe ti o fẹ - Mu ṣiṣẹ ati win $ 20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "O le kopa ninu agbegbe ti o ta nipasẹ ṣiṣẹda awọn fidio kukuru lati ṣe iranlọwọ fun awọn miiran ati gba kirẹditi ẹbun USD 20 fun fidio kan.",
+],
+     "tax" => [
+     "title" => "Agbaye Tax Awọn ošuwọn Akojọ",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "O le fagilee awọn ofin owo-ori ki o ṣẹda profaili owo-ori diẹ sii fun awọn ẹka ọja oriṣiriṣi.",
+],
+     "premium" => [
+     "title" => "Igbesoke si Ere ati Yipada Ere Iṣowo E-commerce Rẹ",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Gbe ile itaja ori ayelujara rẹ ga pẹlu Ere Selldone. Wọle si awọn irinṣẹ AI iyasọtọ, awọn awoṣe bespoke, ati diẹ sii lati ṣe alekun ṣiṣe ati duro jade ni ibi ọja oni-nọmba. Darapọ mọ ni bayi fun ijafafa, iriri iṣowo e-sleeker!",
+],
+     "builder" => [
+     "title" => "Akole Oju-iwe Ọfẹ & Olootu Oju-iwe Ibalẹ Webapp - Ko si Wọle ti beere",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Ṣẹda awọn oju-iwe wẹẹbu ti o yanilenu ati awọn oju-iwe ibalẹ lainidi pẹlu ọfẹ wa, oluṣe oju-iwe ore-olumulo ati olootu. Ko si wiwọle ti a beere. Ṣe apẹrẹ, ṣe akanṣe, ati ṣe atẹjade awọn oju-iwe wẹẹbu rẹ ni iyara pẹlu wiwo fa-ati-ju silẹ ogbon inu wa. Pipe fun awọn olutaja, awọn oniwun iṣowo kekere, ati awọn olupilẹṣẹ ti n wa ojutu apẹrẹ wẹẹbu ti ko ni wahala.",
 ],
 ],
      "shuttle" => [

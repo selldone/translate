@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Ostajan vahvistama tilaus",
+     "email-types-description" => [
+     "shop-customer-join" => "Tämä viesti toivottaa uuden ostajan tervetulleeksi myymälään.",
+     "order-checkout" => "Tämä ilmoitus lähetetään, kun ostaja vahvistaa tilauksen.",
+     "order-payment" => "Tämä ilmoitus vahvistaa asiakkaan maksun onnistuneen.",
+     "order-payment-admin" => "Tämä viesti lähetetään myyjälle ilmoittamaan heille vahvistetusta tilauksesta.",
+     "pos-checkout" => "Tämä ilmoitus lähetetään ostajan myyntipistetilauksen vahvistamiseksi.",
+     "pos-payment" => "Tämä ilmoitus vahvistaa ostajan suorittaman myyntipistemaksun.",
+     "pos-payment-admin" => "Tämä viesti ilmoittaa myyjälle heidän myyntipisteessään tehdystä ostoksesta.",
+     "shop-contact" => "Tämä ilmoitus lähetetään, kun yhteydenottolomake on lähetetty.",
+     "shop-giftcard" => "Tämä ilmoitus ilmoittaa käyttäjälle lahjakortin vastaanottamisesta.",
+     "shop-vendor-join" => "Tämä viesti toivottaa uuden myyjän tervetulleeksi myymälään.",
+     "shop-vendor-invite" => "Tämä viesti lähetetään kutsumaan myyjä liittymään kauppapaikallesi.",
+     "shop-vendor-order" => "Tämä viesti lähetetään toimittajalle, kun tilaus vastaanotetaan joko maksettuina tai postiennakolla (COD).",
+     "shop-vendor-products" => "Toimitetaan päivittäin päivittämään myyjiä tuotteidensa tilasta.",
+     "shop-login" => "Ilmoita käyttäjälle kirjautumistiedoilla, mukaan lukien IP-osoite, päivämäärä ja laite, turvallisuussyistä.",
+     "login-code" => "Lähetä kertaluonteinen salasanakoodi, jotta käyttäjät voivat kirjautua kauppaan.",
+     "shop-email-verify-link" => "Lähetä linkki käyttäjän sähköpostiosoitteen vahvistamiseksi. Tämä sähköposti lähetetään, kun käyttäjä rekisteröityy tekstiviestillä ja syöttää sähköpostiosoitteensa, eikä sitä lähetetä, kun käyttäjä rekisteröityy sosiaalisessa mediassa tai sähköpostitse suoraan.",
 ],
-        [
-     "title" => "Asiakasmaksun vahvistus",
-],
-        [
-     "title" => "Tilausvahvistusilmoitus myyjälle",
-],
-        [
-     "title" => "Vahvista myymälälaatikon tilaus ostajalle",
-],
-        [
-     "title" => "Vahvista ostajalle kassanmaksu",
-],
-        [
-     "title" => "Ostoilmoitus myyjän laatikossa",
-],
-        [
-     "title" => "Ilmoita yhteydenottolomake",
-],
-        [
-     "title" => "Onnittelut myymälään liittymisestä",
-],
-        [
-     "title" => "Ilmoitus lahjakortin vastaanottamisesta käyttäjälle",
-]
-     ],
      "global" => [
      "greetings" => "Hei :name",
      "end-statement" => "Tukitiimi",
@@ -55,7 +44,7 @@
      "cvv" => "Cvv",
      "expire_date" => "Viimeinen käyttöpäivä",
      "dashboard" => "kojelauta",
-     "order" => "Tilaus",
+     "order" => "tilata",
      "view_order" => "Katso tilaus",
      "pay_now" => "Pay now",
      "official_selldone" => "VIRALLINEN MYYTY",
@@ -126,7 +115,7 @@
      "transaction" => "Tapahtuma",
      "fee" => "Maksu",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Laskuttaa",
      "category" => "Kategoria",
      "password" => "Salasana",
@@ -150,6 +139,18 @@
      "receiver" => "Vastaanotin",
      "virtual-items" => "Virtuaaliset kohteet",
      "no-payment" => "Ei maksua!",
+     "enable" => "ota käyttöön",
+     "access" => "Pääsy",
+     "bank" => "Pankin tiedot",
+     "vendor" => "Myyjä",
+     "view_content" => "Näytä koko sisältö",
+     "files" => "Tiedostot",
+     "download" => "ladata",
+     "file_name" => "Tiedoston nimi",
+     "file_size" => "Koko",
+     "subscription" => "Tilaus",
+     "products" => "Tuotteet",
+     "vendor_products" => "Myyjän tuotteet",
 ],
      "selldone-business-os" => "Myyty yrityskäyttöjärjestelmä",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "Hei",
-     "name" => "Myyty tiimi",
+     "name" => "Hyväksy, myyty",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "kauppiaita",
-     "name" => "Kauppiaat, Selldone",
+     "name" => "Hyväksy, myyty",
 ],
      "Approve" => [
      "id" => "hyväksyä",
@@ -340,6 +341,12 @@
      "title" => "Olemme iloisia jäsenyydestäsi",
      "action" => "Vieraile nyt",
 ],
+     "shop-vendor-join" => [
+     "subject" => "Toimittajan perehdytys | :shop_title",
+     "category" => "Uuden myyjän juhla",
+     "title" => "Olemme iloisia jäsenyydestäsi",
+     "action" => "Vendor Panel",
+],
      "shop-giftcard" => [
      "subject" => "Lahjakortti :shop_title",
      "category" => "Lisää uusi kortti",
@@ -349,12 +356,12 @@
 ],
      "contact" => [
      "subject" => "Tukikeskus | :myymälä",
-     "category" => "tuki",
+     "category" => "tukea",
      "title" => "Sait vastauksen",
 ],
      "order-checkout" => [
      "subject" => "🛍 Tilaa Kassalle | :tilausnumero",
-     "title" => "Tilaus",
+     "title" => "tilata",
      "message" => "Vahvista tilauksesi,<br> Meillä on tilauksesi. Lähetämme sinulle toisen sähköpostin, kun tilauksesi lähetetään.",
      "payments" => "Maksut",
 ],
@@ -558,6 +565,7 @@
      "category" => "Turvallisuusilmoitukset",
      "title" => "Kirjaudu tilille",
      "message" => "Hyvä :name, olet kirjautunut Selldone-tilillesi.",
+     "message-shop" => "Hyvä :name, olet kirjautunut sisään :shop_title -palveluun.",
      "footer" => "Jos et ole kirjautunut sisään, vaihda salasanasi.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Sivuston näyttökerrat yhteensä",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Olet saanut uuden tilauksen. Siirry toimittajapaneelin tilauksen käsittelysivulle.",
+     "subject" => "🛍 Uusi tilaus vastaanotettu | :tilausnumero",
+     "your_revenue" => "Sinun tulosi",
+],
+     "vendor-invite" => [
+     "title" => "Myyjän kutsu",
+     "message" => "Olet saanut kutsun tulla :shop_name -toimittajaksi. Voit hyväksyä tai hylätä sen napsauttamalla seuraavia painikkeita.",
+     "subject" => ":shop_name | Sait kutsun toimittajaksemme",
+     "accept" => "Hyväksy ja Ryhdy myyjäksi",
+     "reject" => "Hylätä",
+],
+     "shop-email-login" => [
+     "subject" => "Kirjautumiskoodisi :shopille",
+     "header-message" => "Lähetämme sinulle tämän sähköpostin, koska pyysit kirjautumiskoodia myymälään. Löydät kertakäyttöisen salasanasi (OTP) alta:",
+     "footer-message" => "Tämä koodi on voimassa 10 minuuttia. Jos et pyytänyt tätä kirjautumiskoodia, jätä tämä sähköposti huomiotta.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Vahvista sähköpostiosoitteesi | :kauppa",
+     "title" => "Sähköpostin vahvistus",
+     "header-message" => "Hei :name,<br> Vahvista, että **:email** on sähköpostiosoitteesi napsauttamalla painiketta tai käytä alla olevaa linkkiä 48 tunnin sisällä.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Tuotepäivitys :shop",
+     "title" => "Päivitys tuotteen tilasta - viimeiset 24 tuntia",
+     "message" => "Toivottavasti tämä viesti löytää sinut hyvin. Tämä on lyhyt päivitys, joka kertoo tuotteidesi tilasta alustallamme viimeisen 24 tunnin aikana. Tänä aikana joidenkin tuotteiden tilassa on tapahtunut muutoksia. Nämä muutokset voivat johtua ostoista, varastopäivityksistä tai muista asiaan liittyvistä tapahtumista. Tarkempia tietoja kustakin tuotteesta saat kirjautumalla tilillesi ja tarkistamalla Tuotteen tila -osiossa.",
+     "action" => "Avaa Toimittajapaneeli",
 ],
 ];

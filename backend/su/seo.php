@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Sadaya fitur profésional pikeun ngawangun toko sareng situs gratis tanpa wates waktos ngantosan anjeun.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Ladenan wéb, dokuméntasi pikeun pamekaran aplikasi sareng jasa disambungkeun.",
-],
      "apps" => [
      "title" => "Toko aplikasi",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Nagara Dirojong sareng Pangmayaran Lokal - OS Usaha",
      "image" => "/images/seo/en/countries.png",
      "description" => "OS Bisnis, Léngkah évolusi salajengna jasa dagang tina platform e-commerce kana hal anu henteu aya téma, plugin, atanapi kode. 100% sacara visual!",
+],
+     "participant" => [
+     "title" => "Komunitas anu anjeun pikahoyong - Puter sareng Win $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Anjeun tiasa ilubiung dina komunitas seldone ku nyieun video pondok pikeun mantuan batur jeung meunang nepi ka 20 USD kado kiridit per video.",
+],
+     "tax" => [
+     "title" => "Daptar Tarif Pajak Global",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Anjeun tiasa override aturan pajeg jeung nyieun leuwih ti hiji profil pajeg pikeun kategori produk béda.",
+],
+     "premium" => [
+     "title" => "Ningkatkeun kana Premium sareng Transformasi Game E-Commerce anjeun",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Angkat toko online anjeun nganggo Selldone Premium. Aksés alat AI éksklusif, témplat bespoke, sareng seueur deui pikeun ningkatkeun efisiensi sareng menonjol di pasar digital. Gabung ayeuna pikeun pangalaman e-commerce anu langkung pinter, langkung ramping!",
+],
+     "builder" => [
+     "title" => "Pangwangun Halaman Gratis & Éditor Halaman Landing Webapp - Henteu Dibutuhkeun Login",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Jieun halaman wéb sareng halaman badarat anu saé kalayan gampang sareng pembina halaman sareng pangropéa gratis anu ramah-pamaké. Taya login diperlukeun. Rarancang, saluyukeun, sareng publikasikeun halaman wéb anjeun gancang kalayan antarmuka sered-sareng-leupaskeun intuitif kami. Sampurna pikeun pemasar, pamilik usaha leutik, sareng pamekar anu milarian solusi desain wéb anu teu repot.",
 ],
 ],
      "shuttle" => [

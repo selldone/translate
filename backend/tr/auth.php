@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Bu kimlik bilgileri kayıtlarımızla eşleşmiyor.",
+     "password" => "Verilen şifre hatalı.",
      "throttle" => "Çok fazla giriş denemesi. Lütfen :saniye içinde tekrar deneyin.",
      "title_shop" => "Giriş yap: isim",
      "title_app" => "Uygulama erişimi :name",

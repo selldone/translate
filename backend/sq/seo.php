@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Ju presin të gjitha veçoritë profesionale të ndërtimit të një dyqani dhe faqeje falas pa asnjë kufizim kohor.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Ueb shërbim, dokumentacion për zhvillimin e aplikacioneve dhe shërbim të lidhur.",
-],
      "apps" => [
      "title" => "Dyqani i Aplikacioneve",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Vendet e mbështetura dhe pagesat lokale - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, Hapi tjetër i evolucionit të shërbimeve të tregtisë nga platformat e e-commerce në diçka pa temë, shtojcë ose kod. 100% vizualisht!",
+],
+     "participant" => [
+     "title" => "Komuniteti që dëshironi — Luaj dhe fito 20 dollarë",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Mund të marrësh pjesë në komunitetin e shitur duke krijuar video të shkurtra për të ndihmuar të tjerët dhe për të marrë kredit dhuratë deri në 20 USD për video.",
+],
+     "tax" => [
+     "title" => "Lista globale e normave të taksave",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Mund të anashkaloni rregullat tatimore dhe të krijoni më shumë se një profil tatimor për kategori të ndryshme produktesh.",
+],
+     "premium" => [
+     "title" => "Përmirësoni në Premium dhe transformoni lojën tuaj të tregtisë elektronike",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Ngrini dyqanin tuaj online me Selldone Premium. Përdorni mjete ekskluzive të AI, shabllone të personalizuara dhe më shumë për të rritur efikasitetin dhe për t'u dalluar në tregun dixhital. Bashkohuni tani për një përvojë më të zgjuar dhe më elegante të tregtisë elektronike!",
+],
+     "builder" => [
+     "title" => "Uebfaqja falas e ndërtuesit të faqeve dhe redaktuesit të faqeve të uljes - Nuk kërkohet hyrje",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Krijoni faqe uebi mahnitëse dhe faqe uljeje pa mundim me ndërtuesin dhe redaktuesin tonë falas të faqeve miqësore për përdoruesit. Nuk kërkohet hyrje. Dizajnoni, personalizoni dhe publikoni shpejt faqet tuaja të internetit me ndërfaqen tonë intuitive të tërheqjes dhe lëshimit. E përkryer për tregtarët, pronarët e bizneseve të vogla dhe zhvilluesit që kërkojnë një zgjidhje të dizajnit të internetit pa probleme.",
 ],
 ],
      "shuttle" => [

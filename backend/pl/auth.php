@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Te dane uwierzytelniające nie są zgodne z naszymi danymi.",
+     "password" => "Podane hasło jest nieprawidłowe.",
      "throttle" => "Za dużo prób logowania. Spróbuj ponownie za :sekundy sekund.",
      "title_shop" => "Zaloguj się do :nazwa",
      "title_app" => "Dostęp do aplikacji :nazwa",

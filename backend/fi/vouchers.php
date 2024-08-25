@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Onnittelut, rekisteröidy ja vastaanota tämä lahjakortti",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Olet tullut sivustolle Selldonen aktiivisen käyttäjän linkin kautta, jos rekisteröidyt Selldoneen nyt, saat lahjakortin arvoltaan 14,9 dollaria. Rekisteröityminen ja myymälän rakentaminen Selldonessa on 100% ilmaista, mutta voit käyttää näitä latauskortteja palvelun keventämiseen.",
-],
 ];

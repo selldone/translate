@@ -73,14 +73,4 @@
      "price" => 3.588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Tillykke, tilmeld dig og modtag dette gavekort",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Du er kommet ind på siden via linket til en aktiv bruger af Selldone, hvis du registrerer dig i Selldone nu, vil du modtage et gavekort til en værdi af $ 14,9. Det er 100 % gratis at registrere og bygge en butik i Selldone, men du kan bruge disse genopladningskort til at aflaste servicen.",
-],
 ];

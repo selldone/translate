@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Zamówienie potwierdzone przez kupującego",
+     "email-types-description" => [
+     "shop-customer-join" => "Ta wiadomość wita nowego klienta w sklepie.",
+     "order-checkout" => "To powiadomienie jest wysyłane, gdy kupujący potwierdzi zamówienie.",
+     "order-payment" => "Powiadomienie to stanowi potwierdzenie pomyślnego dokonania płatności przez klienta.",
+     "order-payment-admin" => "Wiadomość ta jest wysyłana do sprzedawcy w celu powiadomienia go o potwierdzeniu zamówienia.",
+     "pos-checkout" => "To powiadomienie wysyłane jest w celu potwierdzenia zamówienia złożonego w punkcie sprzedaży przez kupującego.",
+     "pos-payment" => "Powiadomienie to potwierdza dokonanie płatności w punkcie sprzedaży przez kupującego.",
+     "pos-payment-admin" => "Ta wiadomość powiadamia sprzedawcę o zakupie dokonanym w jego punkcie sprzedaży.",
+     "shop-contact" => "To powiadomienie jest wysyłane po wysłaniu formularza kontaktowego.",
+     "shop-giftcard" => "To powiadomienie informuje użytkownika, że otrzymał kartę podarunkową.",
+     "shop-vendor-join" => "Ta wiadomość wita nowego sprzedawcę w sklepie.",
+     "shop-vendor-invite" => "Wysyłamy tę wiadomość, aby zaprosić sprzedawcę do dołączenia do Twojego rynku.",
+     "shop-vendor-order" => "Ta wiadomość jest wysyłana do sprzedawcy po otrzymaniu zamówienia ze statusem Zapłacone lub Płatne przy odbiorze (COD).",
+     "shop-vendor-products" => "Wysyłane codziennie w celu poinformowania dostawców o statusie ich produktów.",
+     "shop-login" => "Powiadom użytkownika, podając dane logowania, takie jak adres IP, data i urządzenie, ze względów bezpieczeństwa.",
+     "login-code" => "Wyślij jednorazowy kod hasła, aby użytkownicy mogli zalogować się do sklepu.",
+     "shop-email-verify-link" => "Wyślij link, aby zweryfikować adres e-mail użytkownika. Ta wiadomość e-mail jest wysyłana, gdy użytkownik rejestruje się za pomocą wiadomości SMS i wprowadza swój adres e-mail, a nie jest wysyłana, gdy użytkownik rejestruje się bezpośrednio za pomocą mediów społecznościowych lub poczty e-mail.",
 ],
-        [
-     "title" => "Potwierdzenie płatności klienta",
-],
-        [
-     "title" => "Powiadomienie o potwierdzeniu zamówienia do sprzedawcy",
-],
-        [
-     "title" => "Potwierdź zamówienie w sklepie dla kupującego",
-],
-        [
-     "title" => "Potwierdź płatność kasy dla kupującego",
-],
-        [
-     "title" => "Zawiadomienie o zakupie w pudełku sprzedawcy",
-],
-        [
-     "title" => "Poinformuj formularz kontaktowy",
-],
-        [
-     "title" => "Gratulujemy dołączenia do sklepu",
-],
-        [
-     "title" => "Ogłoszenie o otrzymaniu karty podarunkowej dla użytkownika",
-]
-     ],
      "global" => [
      "greetings" => "Cześć :imię",
      "end-statement" => "Grupa wsparcia",
@@ -126,7 +115,7 @@
      "transaction" => "Transakcja",
      "fee" => "Opłata",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Rachunek",
      "category" => "Kategoria",
      "password" => "Hasło",
@@ -150,6 +139,18 @@
      "receiver" => "Odbiorca",
      "virtual-items" => "Przedmioty wirtualne",
      "no-payment" => "Brak płatności!",
+     "enable" => "Włączyć",
+     "access" => "Dostęp",
+     "bank" => "Informacje bankowe",
+     "vendor" => "Sprzedawca",
+     "view_content" => "Zobacz pełną treść",
+     "files" => "Akta",
+     "download" => "Pobierać",
+     "file_name" => "Nazwa pliku",
+     "file_size" => "Rozmiar",
+     "subscription" => "Subskrypcja",
+     "products" => "Produkty",
+     "vendor_products" => "Produkty dostawcy",
 ],
      "selldone-business-os" => "Sprzedany biznesowy system operacyjny",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "cześć",
-     "name" => "Sprzedany zespół",
+     "name" => "Zatwierdź, sprzedane",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "kupcy",
-     "name" => "Kupcy, Sprzedane",
+     "name" => "Zatwierdź, sprzedane",
 ],
      "Approve" => [
      "id" => "zatwierdzić",
@@ -340,6 +341,12 @@
      "title" => "Cieszymy się z Twojego członkostwa",
      "action" => "Odwiedź teraz",
 ],
+     "shop-vendor-join" => [
+     "subject" => "Wdrażanie dostawców | :shop_title",
+     "category" => "Świętowanie nowego sprzedawcy",
+     "title" => "Cieszymy się z Twojego członkostwa",
+     "action" => "Vendor Panel",
+],
      "shop-giftcard" => [
      "subject" => "Karta podarunkowa :shop_title",
      "category" => "Dodaj nową kartę",
@@ -349,7 +356,7 @@
 ],
      "contact" => [
      "subject" => "Centrum wsparcia | :sklep",
-     "category" => "Pomoc",
+     "category" => "wsparcie",
      "title" => "Otrzymałeś odpowiedź",
 ],
      "order-checkout" => [
@@ -558,6 +565,7 @@
      "category" => "Powiadomienia dotyczące bezpieczeństwa",
      "title" => "Zaloguj się do konta",
      "message" => "Drogi :name, byłeś zalogowany do swojego konta Selldone.",
+     "message-shop" => "Drogi :name, zalogowałeś się do :shop_title .",
      "footer" => "Jeśli nie jesteś zalogowany, zmień hasło.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Całkowita liczba wyświetleń strony internetowej",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Otrzymałeś nowe zamówienie. Przejdź na stronę przetwarzania zamówienia w panelu sprzedawcy.",
+     "subject" => "🛍 Otrzymano nowe zamówienie | :id_zamówienia",
+     "your_revenue" => "Twój dochód",
+],
+     "vendor-invite" => [
+     "title" => "Zaproszenie dla sprzedawcy",
+     "message" => "Otrzymałeś zaproszenie do zostania sprzedawcą :shop_name. Możesz je zaakceptować lub odrzucić, klikając na następujące przyciski.",
+     "subject" => ":shop_name | Otrzymałeś zaproszenie do zostania naszym dostawcą",
+     "accept" => "Akceptuj i zostań dostawcą",
+     "reject" => "Odrzucić",
+],
+     "shop-email-login" => [
+     "subject" => "Twój kod logowania dla :shop",
+     "header-message" => "Wysyłamy Ci ten e-mail, ponieważ poprosiłeś o kod logowania do sklepu. Poniżej znajdziesz swoje jednorazowe hasło (OTP):",
+     "footer-message" => "Ten kod będzie ważny przez 10 minut. Jeśli nie poprosiłeś o ten kod logowania, zignoruj ten e-mail.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Zweryfikuj swój adres e-mail | :shop",
+     "title" => "Weryfikacja adresu e-mail",
+     "header-message" => "Cześć :name,<br> Potwierdź, że **:email** jest Twoim adresem e-mail, klikając przycisk lub korzystając z poniższego łącza w ciągu 48 godzin.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Aktualizacja produktów :sklep",
+     "title" => "Aktualizacja statusu produktu – ostatnie 24 godziny",
+     "message" => "Mam nadzieję, że ta wiadomość zastanie Cię w dobrym zdrowiu. To krótka aktualizacja, która ma na celu poinformowanie Cię o statusie Twoich produktów na naszej platformie w ciągu ostatnich 24 godzin. W tym okresie nastąpiły zmiany w statusie niektórych produktów. Zmiany te mogą być spowodowane zakupami, aktualizacjami stanu magazynowego lub innymi powiązanymi zdarzeniami. Aby uzyskać bardziej szczegółowe informacje o każdym produkcie, zaloguj się na swoje konto i sprawdź sekcję „Status produktu”.",
+     "action" => "Otwórz panel dostawcy",
 ],
 ];

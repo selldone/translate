@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Todas as funcións profesionais de construír unha tenda e un sitio web de balde sen límite de tempo están esperando por ti.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Servizo web, documentación para o desenvolvemento de aplicacións e servizo conectado.",
-],
      "apps" => [
      "title" => "Tenda de aplicacións",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Países compatibles e pagos locais: sistema operativo empresarial",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, o seguinte paso de evolución dos servizos de comercio de plataformas de comercio electrónico a algo sen tema, complemento ou código. 100% visual!",
+],
+     "participant" => [
+     "title" => "A comunidade que queres: xoga e gaña $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Podes participar na comunidade de selldone creando vídeos curtos para axudar aos demais e obter ata 20 USD de crédito de agasallo por vídeo.",
+],
+     "tax" => [
+     "title" => "Lista global de taxas impositivas",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Podes anular as regras fiscais e crear máis dun perfil fiscal para diferentes categorías de produtos.",
+],
+     "premium" => [
+     "title" => "Actualiza a Premium e transforma o teu xogo de comercio electrónico",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Eleva a túa tenda en liña con Selldone Premium. Accede a ferramentas de IA exclusivas, modelos personalizados e moito máis para aumentar a eficiencia e destacar no mercado dixital. Únete agora para unha experiencia de comercio electrónico máis intelixente e elegante.",
+],
+     "builder" => [
+     "title" => "Aplicación web gratuíta para crear páxinas e editor de páxinas de destino: non é necesario iniciar sesión",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Crea páxinas web e páxinas de destino impresionantes sen esforzo co noso creador e editor de páxinas gratuíto e sinxelo. Non é necesario iniciar sesión. Deseña, personaliza e publica as túas páxinas web rapidamente coa nosa intuitiva interface de arrastrar e soltar. Perfecto para comerciantes, propietarios de pequenas empresas e desenvolvedores que buscan unha solución de deseño web sen complicacións.",
 ],
 ],
      "shuttle" => [

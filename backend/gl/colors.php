@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Canario Pálido",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Marfil",
+     "#B3E5FC" => "Xeo",
+     "#F1C40F" => "Amanecer",
+     "#7DF9FF" => "Eléctrico",
+     "#FF6B35" => "Solpor",
 ];

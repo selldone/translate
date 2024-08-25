@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Ibere timo nipa eniti o",
+     "email-types-description" => [
+     "shop-customer-join" => "Ifiranṣẹ yii ṣe itẹwọgba olura tuntun si ile itaja naa.",
+     "order-checkout" => "Ifitonileti yii jẹ fifiranṣẹ nigbati olura kan jẹrisi aṣẹ kan.",
+     "order-payment" => "Ifitonileti yii jẹrisi isanwo aṣeyọri ti alabara ṣe.",
+     "order-payment-admin" => "Ifiranṣẹ yii ni a fi ranṣẹ si olutaja kan lati fi to wọn leti ti aṣẹ ti a fọwọsi.",
+     "pos-checkout" => "Ifitonileti yii ni a fi ranṣẹ lati jẹrisi aaye ti aṣẹ tita fun olura kan.",
+     "pos-payment" => "Ifitonileti yii jẹrisi aaye ti isanwo tita ti olura kan ṣe.",
+     "pos-payment-admin" => "Ifiranṣẹ yii ṣe ifitonileti olutaja ti rira ti a ṣe ni aaye tita wọn.",
+     "shop-contact" => "Ifitonileti yii ti wa ni fifiranṣẹ nigbati fọọmu olubasọrọ ti fi silẹ.",
+     "shop-giftcard" => "Ifitonileti yii sọ fun olumulo kan pe wọn ti gba kaadi ẹbun kan.",
+     "shop-vendor-join" => "Ifiranṣẹ yii ṣe itẹwọgba olutaja tuntun si ile itaja naa.",
+     "shop-vendor-invite" => "Ifiranṣẹ yii ni a fi ranṣẹ lati pe ataja kan lati darapọ mọ ibi ọja rẹ.",
+     "shop-vendor-order" => "Ifiranṣẹ yii ni a fi ranṣẹ si ataja nigbati aṣẹ ba gba ni boya Sanwo tabi Owo lori Ipo Ifijiṣẹ (COD).",
+     "shop-vendor-products" => "Firanṣẹ lojoojumọ lati ṣe imudojuiwọn awọn olutaja lori ipo awọn ọja wọn.",
+     "shop-login" => "Fi leti olumulo pẹlu awọn alaye wiwọle, pẹlu adiresi IP, ọjọ, ati ẹrọ, fun awọn idi aabo.",
+     "login-code" => "Fi koodu igbaniwọle kan ranṣẹ fun awọn olumulo lati wọle si ile itaja.",
+     "shop-email-verify-link" => "Fi ọna asopọ ranṣẹ lati mọ daju adirẹsi imeeli olumulo. Imeeli yii ni a fi ranṣẹ nigbati olumulo ba forukọsilẹ nipasẹ SMS ati tẹ imeeli sii ati pe ko firanṣẹ nigbati olumulo forukọsilẹ nipasẹ awujọ tabi imeeli taara.",
 ],
-        [
-     "title" => "Onibara owo ìmúdájú",
-],
-        [
-     "title" => "Bere fun ìmúdájú akiyesi si eniti o",
-],
-        [
-     "title" => "Jẹrisi aṣẹ apoti itaja fun olura",
-],
-        [
-     "title" => "Jẹrisi sisanwo ti iforukọsilẹ owo fun olura",
-],
-        [
-     "title" => "Akiyesi ti rira ninu apoti eniti o ta",
-],
-        [
-     "title" => "Sọfun fọọmu olubasọrọ",
-],
-        [
-     "title" => "Oriire fun didapọ mọ ile itaja naa",
-],
-        [
-     "title" => "Ikede ti gbigba kaadi ẹbun si olumulo",
-]
-     ],
      "global" => [
      "greetings" => "Hi: oruko",
      "end-statement" => "Ẹgbẹ atilẹyin",
@@ -126,7 +115,7 @@
      "transaction" => "Idunadura",
      "fee" => "Ọya",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Ẹka",
      "password" => "Ọrọigbaniwọle",
@@ -150,6 +139,18 @@
      "receiver" => "Olugba",
      "virtual-items" => "Awọn nkan foju",
      "no-payment" => "Ko si sisan!",
+     "enable" => "Mu ṣiṣẹ",
+     "access" => "Wiwọle",
+     "bank" => "Alaye banki",
+     "vendor" => "Olutaja",
+     "view_content" => "Wo ni kikun akoonu",
+     "files" => "Awọn faili",
+     "download" => "Gba lati ayelujara",
+     "file_name" => "Orukọ faili",
+     "file_size" => "Iwọn",
+     "subscription" => "Ṣiṣe alabapin",
+     "products" => "Awọn ọja",
+     "vendor_products" => "ataja Products",
 ],
      "selldone-business-os" => "Selldone Iṣowo OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "hi",
-     "name" => "Selldone Egbe",
+     "name" => "fọwọsi, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "oniṣòwo",
-     "name" => "Awọn oniṣowo, Selldone",
+     "name" => "fọwọsi, Selldone",
 ],
      "Approve" => [
      "id" => "fi ọwọ si",
@@ -339,6 +340,12 @@
      "category" => "New onibara ajoyo",
      "title" => "A ni idunnu fun ẹgbẹ rẹ",
      "action" => "Ṣabẹwo ni bayi",
+],
+     "shop-vendor-join" => [
+     "subject" => "Olutaja Onboarding | : shop_akọle",
+     "category" => "New ataja ajoyo",
+     "title" => "A ni idunnu fun ẹgbẹ rẹ",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Kaadi ebun: shop_title",
@@ -558,6 +565,7 @@
      "category" => "Awọn iwifunni aabo",
      "title" => "Buwolu wọle si Account",
      "message" => "Eyin :name, o ti buwolu wọle si akọọlẹ Selldone rẹ.",
+     "message-shop" => "Eyin :name, o ti wọle si :shop_title.",
      "footer" => "Ti o ko ba wọle, jọwọ yi ọrọ igbaniwọle rẹ pada.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Lapapọ awọn iwo oju-iwe wẹẹbu",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "O ti gba aṣẹ tuntun kan. Jọwọ lọ si oju-iwe sisẹ aṣẹ ni nronu ataja rẹ.",
+     "subject" => "🛍 Aṣẹ Tuntun Ti gba | :order_id",
+     "your_revenue" => "Owo-wiwọle Rẹ",
+],
+     "vendor-invite" => [
+     "title" => "Olutaja ifiwepe",
+     "message" => "O ti gba ifiwepe lati di ataja ti: shop_name. O le gba tabi kọ nipa tite lori awọn wọnyi bọtini.",
+     "subject" => ": shop_name | O gba ifiwepe lati di olutaja wa",
+     "accept" => "Gba & Di Olutaja",
+     "reject" => "Kọ",
+],
+     "shop-email-login" => [
+     "subject" => "Koodu iwọle rẹ fun: itaja",
+     "header-message" => "A n fi imeeli ranṣẹ si ọ nitori pe o beere koodu iwọle kan fun ile itaja naa. Jọwọ wa Ọrọigbaniwọle Igba Kan (OTP) ni isalẹ:",
+     "footer-message" => "Koodu yii yoo wulo fun iṣẹju mẹwa 10. Ti o ko ba beere koodu iwọle yii, jọwọ foju imeeli yii.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Daju imeeli rẹ | : itaja",
+     "title" => "Imeeli Ijerisi",
+     "header-message" => "Hi: oruko,<br> Jọwọ jẹrisi pe **: imeeli *** jẹ adirẹsi imeeli rẹ nipa tite lori bọtini tabi lo ọna asopọ isalẹ laarin awọn wakati 48.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Imudojuiwọn ọja: itaja",
+     "title" => "Imudojuiwọn lori Ipo Ọja - Awọn wakati 24 kẹhin",
+     "message" => "Mo nireti pe ifiranṣẹ yii wa ọ daradara. Eyi jẹ imudojuiwọn kukuru lati sọ fun ọ nipa ipo awọn ọja rẹ lori pẹpẹ wa ni awọn wakati 24 sẹhin. Lakoko yii, awọn ayipada ti wa ni ipo ti diẹ ninu awọn ọja. Awọn ayipada wọnyi le jẹ nitori awọn rira, awọn imudojuiwọn ọja, tabi awọn iṣẹlẹ miiran ti o jọmọ. Fun alaye diẹ sii nipa ọja kọọkan, jọwọ wọle si akọọlẹ rẹ ki o ṣayẹwo apakan 'Ipo Ọja'.",
+     "action" => "Ṣii Igbimọ Olutaja",
 ],
 ];

@@ -16,7 +16,7 @@
      "price" => "باھاسى",
      "discount" => "ئېتىبار",
      "tax" => "باج",
-     "sub_total" => "Sub total",
+     "sub_total" => "Sub Total",
      "total_discount" => "ئومۇمىي ئېتىبار",
      "taxable_amount" => "باج تاپشۇرۇشقا تېگىشلىك سومما",
      "total_taxes" => "ئومۇمىي باج",

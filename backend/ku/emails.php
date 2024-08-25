@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Siparîş ji hêla kirrûbir ve hatî pejirandin",
+     "email-types-description" => [
+     "shop-customer-join" => "Ev peyam xêrhatina kirrûbirek nû li dikanê dike.",
+     "order-checkout" => "Dema ku kiryar fermanek piştrast dike ev agahdarî tê şandin.",
+     "order-payment" => "Ev agahdarî dravdana serketî ya ku ji hêla xerîdar ve hatî çêkirin piştrast dike.",
+     "order-payment-admin" => "Ev peyam ji firoşkarek re tê şandin da ku wan ji fermanek pejirandî agahdar bike.",
+     "pos-checkout" => "Ev agahdarî ji bo piştrastkirina fermanek firotanê ji bo kirrûbirek tê şandin.",
+     "pos-payment" => "Ev agahdarî dravdana xala firotanê ya ku ji hêla kirrûbirek ve hatî çêkirin piştrast dike.",
+     "pos-payment-admin" => "Ev peyam firoşkarê kirîna ku li cîhê firotanê hatî çêkirin agahdar dike.",
+     "shop-contact" => "Dema ku forma pêwendiyê hate şandin ev agahdarî tê şandin.",
+     "shop-giftcard" => "Ev agahdarî bikarhênerek agahdar dike ku wan qertek diyariyê wergirtiye.",
+     "shop-vendor-join" => "Ev peyam pêşwaziya firoşkarek nû li dikanê dike.",
+     "shop-vendor-invite" => "Ev peyam tê şandin da ku firoşkarek vexwîne ku beşdarî bazara we bibe.",
+     "shop-vendor-order" => "Dema ku fermanek di statûya Pad an Diravê Li Ser Radestkirinê (COD) de tê wergirtin ev peyam ji firoşker re tê şandin.",
+     "shop-vendor-products" => "Her roj têne şandin da ku firoşkaran li ser rewşa hilberên xwe nûve bikin.",
+     "shop-login" => "Ji bo armancên ewlehiyê, bi hûrguliyên têketinê, tevî navnîşana IP, tarîx û cîhazê, bikarhêner agahdar bikin.",
+     "login-code" => "Ji bo bikarhêneran kodek şîfreyek yek-car bişînin da ku têkevin firotgehê.",
+     "shop-email-verify-link" => "Zencîreyek bişînin da ku navnîşana e-nameya bikarhêner piştrast bikin. Dema ku bikarhênerek bi SMS-ê qeyd dike û e-nameya xwe binivîse ev e-name tê şandin û dema ku bikarhêner rasterast bi riya civakî an e-nameyê qeyd dike nayê şandin.",
 ],
-        [
-     "title" => "erêkirina dayina Mişterî",
-],
-        [
-     "title" => "Daxuyaniya pejirandina fermanê ji firotanê re",
-],
-        [
-     "title" => "Ji bo kiriyar fermana qutiya dikanê piştrast bikin",
-],
-        [
-     "title" => "Ji bo kirrûbirrê dravdana dravê piştrast bikin",
-],
-        [
-     "title" => "Daxuyaniya kirînê di qutiya firotanê de",
-],
-        [
-     "title" => "Forma têkiliyê agahdar bikin",
-],
-        [
-     "title" => "Ji bo tevlêbûna dikanê pîroz dikim",
-],
-        [
-     "title" => "Daxuyaniya wergirtina karta diyariyê ji bikarhênerê re",
-]
-     ],
      "global" => [
      "greetings" => "Silav :name",
      "end-statement" => "Tîma Piştgiriyê",
@@ -126,7 +115,7 @@
      "transaction" => "Şandindayinî",
      "fee" => "Xerc",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Hesab",
      "category" => "Liq",
      "password" => "Şîfre",
@@ -150,6 +139,18 @@
      "receiver" => "Receiver",
      "virtual-items" => "Tiştên virtual",
      "no-payment" => "Ne pere!",
+     "enable" => "Bikêrkirin",
+     "access" => "Navketin",
+     "bank" => "Agahdariya bankê",
+     "vendor" => "Firotkar",
+     "view_content" => "Naveroka tevahî bibînin",
+     "files" => "Pelên",
+     "download" => "Download",
+     "file_name" => "Navê Pelê",
+     "file_size" => "Mezinayî",
+     "subscription" => "Abonetî",
+     "products" => "Products",
+     "vendor_products" => "Berhemên Vendor",
 ],
      "selldone-business-os" => "Selldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "merheba",
-     "name" => "Tîma Selldone",
+     "name" => "Pejirandin, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "bazirganan",
-     "name" => "Bazirgan, Selldone",
+     "name" => "Pejirandin, Selldone",
 ],
      "Approve" => [
      "id" => "destûrdan",
@@ -339,6 +340,12 @@
      "category" => "pîrozbahiya xerîdarên nû",
      "title" => "Em ji bo endamtiya we kêfxweş in",
      "action" => "Serdana niha",
+],
+     "shop-vendor-join" => [
+     "subject" => "Firoşkar Onboarding | :shop_title",
+     "category" => "Pîrozbahiya firoşkarê nû",
+     "title" => "Em ji bo endamtiya we kêfxweş in",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Karta diyariyê :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Agahiyên ewlehiyê",
      "title" => "Têkeve Hesabê",
      "message" => "Birêz :name, tu têkevî hesabê xwe yê Selldone.",
+     "message-shop" => "Birêz :name, tu têkevî :shop_title .",
      "footer" => "Heke hûn ne têketinê, ji kerema xwe şîfreya xwe biguherînin.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Tevahiya dîtinên rûpela malperê",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "We fermanek nû wergirt. Ji kerema xwe di panelê firoşkarê xwe de biçin rûpela pêvajoya fermanê.",
+     "subject" => "🛍 Siparîşa Nû Hatiye Wergirtin | :order_id",
+     "your_revenue" => "Dahata we",
+],
+     "vendor-invite" => [
+     "title" => "Vexwendina Vendor",
+     "message" => "Te dawetname standiye ku bibe firoşkarê :shop_name. Hûn dikarin wê bi tikandina bişkokên jêrîn qebûl bikin an red bikin.",
+     "subject" => ":shop_name | We vexwendinek wergirt ku hûn bibin firoşkarê me",
+     "accept" => "Bipejirînin û Bibin Firoşyar",
+     "reject" => "Refzkirin",
+],
+     "shop-email-login" => [
+     "subject" => "Koda Têketina we ji bo :shop",
+     "header-message" => "Em vê e-nameyê ji we re dişînin ji ber ku we kodek têketinê ji bo dikanê xwestiye. Ji kerema xwe şîfreya xweya yek-car (OTP) li jêr bibînin:",
+     "footer-message" => "Ev kod dê 10 hûrdem derbasdar be. Ger we ev koda têketinê daxwaz nekir, ji kerema xwe vê e-nameyê paşguh nekin.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "E-nameya xwe piştrast bikin | :dikan",
+     "title" => "Verification Email",
+     "header-message" => "Silav :name,<br> Ji kerema xwe piştrast bikin ku **:email** navnîşana e-nameya we ye bi tikandina bişkojê an jî lînka jêrîn di nav 48 demjimêran de bikar bînin.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Nûvekirina Berheman: dikan",
+     "title" => "Nûvekirina li ser Rewşa Hilberê - 24 Saetên Dawî",
+     "message" => "Ez hêvî dikim ku ev peyam we baş dibîne. Ev nûvekirinek kurt e ku hûn di 24 demjimêrên borî de li ser rewşa hilberên we li ser platforma me agahdar bikin. Di vê heyamê de di rewşa hin berheman de guhertin çêbûne. Dibe ku ev guhertin ji ber kirîn, nûvekirinên pargîdanî, an bûyerên din ên têkildar bin. Ji bo agahdariya berfirehtir li ser her hilberê, ji kerema xwe têkevin hesabê xwe û beşa 'Rewşa Hilberê' kontrol bikin.",
+     "action" => "Panela Firoşkar vekin",
 ],
 ];

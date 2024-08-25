@@ -14,8 +14,8 @@
         "benutzerdefinierter Community-Builder",
         "Whitelabel-E-Commerce"
      ],
-     "samin" => "verkauftfertig",
-     "Selldone" => "verkauftfertig",
+     "samin" => "Verkauf erledigt",
+     "Selldone" => "Verkauf erledigt",
      "related" => "Verwandt",
      "share" => "Teilen",
      "global" => [
@@ -33,7 +33,7 @@
 ],
      "footer-menu" => [
         [
-     "title" => "verkauftfertig",
+     "title" => "Verkauf erledigt",
      "items" => [
         [
      "title" => "Geschäftsplattform",
@@ -172,7 +172,7 @@
      "seo" => "Automatische SEO-Engine",
      "automation" => "Automatisierung & IoT",
      "ai" => "KI-Handel",
-     "app-builder" => "Anwendungsersteller",
+     "app-builder" => "Anwendungsgenerator",
 ],
      "build" => "Bauen",
      "build-sub" => "Wir schaffen ein System um Sie herum, um Ihre Erfolgsgeschichte zu schreiben.",
@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Alle professionellen Funktionen zum kostenlosen Erstellen eines Geschäfts und einer Website ohne zeitliche Begrenzung warten auf Sie.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Webservice, Dokumentation für Anwendungsentwicklung und Service Connected.",
-],
      "apps" => [
      "title" => "Appstore",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Unterstützte Länder und lokale Zahlungen – Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, Der nächste Evolutionsschritt von Handelsdiensten von E-Commerce-Plattformen zu etwas ohne Thema, Plugin oder Code. 100% optisch!",
+],
+     "participant" => [
+     "title" => "Die Community, die Sie wollen – Spielen Sie und gewinnen Sie 20 $",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Sie können an der selldone-Community teilnehmen, indem Sie kurze Videos erstellen, um anderen zu helfen und bis zu 20 USD Geschenkguthaben pro Video zu erhalten.",
+],
+     "tax" => [
+     "title" => "Liste globaler Steuersätze",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Sie können Steuerregeln überschreiben und mehr als ein Steuerprofil für verschiedene Produktkategorien erstellen.",
+],
+     "premium" => [
+     "title" => "Upgraden Sie auf Premium und transformieren Sie Ihr E-Commerce-Geschäft",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Werten Sie Ihren Onlineshop mit Selldone Premium auf. Greifen Sie auf exklusive KI-Tools, maßgeschneiderte Vorlagen und mehr zu, um die Effizienz zu steigern und sich auf dem digitalen Markt abzuheben. Werden Sie jetzt Mitglied und erleben Sie ein intelligenteres, eleganteres E-Commerce-Erlebnis!",
+],
+     "builder" => [
+     "title" => "Kostenloser Page Builder und Landing Page Editor Webapp - Keine Anmeldung erforderlich",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Erstellen Sie mühelos beeindruckende Webseiten und Zielseiten mit unserem kostenlosen, benutzerfreundlichen Seitenersteller und -editor. Keine Anmeldung erforderlich. Gestalten, personalisieren und veröffentlichen Sie Ihre Webseiten schnell mit unserer intuitiven Drag-and-Drop-Oberfläche. Perfekt für Vermarkter, Kleinunternehmer und Entwickler, die eine unkomplizierte Webdesign-Lösung suchen.",
 ],
 ],
      "shuttle" => [

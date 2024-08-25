@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Pale Canary",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Ivory",
+     "#B3E5FC" => "Ice",
+     "#F1C40F" => "Kwayedza",
+     "#7DF9FF" => "Electric",
+     "#FF6B35" => "Kuvira kwezuva",
 ];

@@ -1,7 +1,7 @@
 <?php 
 
  return [
-     "home" => "Selldone",
+     "home" => "kuthengisiwe",
      "blogs" => "Ibhlog",
      "helps" => "Nceda",
      "current_location" => "Olungeno",

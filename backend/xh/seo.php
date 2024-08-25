@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Zonke iimpawu zobuchwephesha bokwakha ivenkile kunye nesiza simahla ngaphandle komda wexesha zikulindile.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Inkonzo yewebhu, amaxwebhu ophuhliso lwesicelo kunye nenkonzo eqhagamshelwe.",
-],
      "apps" => [
      "title" => "Ivenkile yosetyenziso",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Amazwe axhaswayo kunye neeNtlawulo zeNdawo - I-OS yeShishini",
      "image" => "/images/seo/en/countries.png",
      "description" => "I-Business OS, Inyathelo elilandelayo lokuzivelela kweenkonzo zorhwebo ukusuka kwiiplatifti ze-e-commerce ukuya kwinto engenamxholo, iplagin, okanye ikhowudi. 100% ngokubonakalayo!",
+],
+     "participant" => [
+     "title" => "Uluntu olufunayo - Dlala kwaye Win $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Unokuthatha inxaxheba kuluntu oluthengiswayo ngokwenza iividiyo ezimfutshane ukunceda abanye kwaye ufumane ukuya kuthi ga kwi-20 USD yekhredithi yesipho ngevidiyo nganye.",
+],
+     "tax" => [
+     "title" => "Uluhlu lweeRhafu zehlabathi jikelele",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Ungayihoya imithetho yerhafu kwaye udale ngaphezulu kweprofayile yerhafu kwiindidi ezahlukeneyo zemveliso.",
+],
+     "premium" => [
+     "title" => "Nyukela kwiPremiyamu kwaye uguqule umdlalo wakho we-E-Commerce",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Nyusa ivenkile yakho ye-intanethi ngeSelldone Premium. Fikelela kwizixhobo ze-AI ezikhethekileyo, iitemplates ezibekiweyo, kunye nokunye ukonyusa ukusebenza kakuhle kwaye ugqame kwindawo yentengiso yedijithali. Joyina ngoku ukuze ufumane amava akrelekrele, athambileyo e-e-commerce!",
+],
+     "builder" => [
+     "title" => "Umakhi wePhepha waSimahla kunye neWebapp yoMhleli wephepha lokuLandisa-Akukho ukungena kuFunwayo",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Yenza amaphepha ewebhu amangalisayo kunye namaphepha okuhlala ngaphandle kwamandla kunye nomhleli wethu wasimahla, osebenziseka lula kunye nomhleli. Akukho login efunekayo. Yila, wenze ngokwezifiso, kwaye upapashe amaphepha akho ewebhu ngokukhawuleza ngojongano lwethu lokutsala kunye nokulahla. Ifanelekile kubathengisi, abanini bamashishini amancinci, kunye nabaphuhlisi abafuna isisombululo soyilo lwewebhu esingenangxaki.",
 ],
 ],
      "shuttle" => [

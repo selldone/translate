@@ -1628,4 +1628,8 @@
      "#FFFF99" => "canarino pallido",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Avorio",
+     "#B3E5FC" => "Ghiaccio",
+     "#F1C40F" => "Alba",
+     "#7DF9FF" => "Elettrico",
+     "#FF6B35" => "Tramonto",
 ];

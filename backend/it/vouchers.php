@@ -73,14 +73,4 @@
      "price" => 3.588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Congratulazioni, registrati e ricevi questa carta regalo",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Sei entrato nel sito tramite il link di un utente attivo di Selldone, se ti registri subito a Selldone, riceverai una carta regalo del valore di $ 14,9. La registrazione e la realizzazione di un negozio a Selldone è gratuita al 100%, ma puoi utilizzare queste ricariche per alleviare il servizio.",
-],
 ];

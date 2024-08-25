@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Ordú deimhnithe ag ceannaitheoir",
+     "email-types-description" => [
+     "shop-customer-join" => "Fáiltíonn an teachtaireacht seo roimh cheannaitheoir nua chuig an siopa.",
+     "order-checkout" => "Seoltar an fógra seo nuair a dheimhníonn ceannaitheoir ordú.",
+     "order-payment" => "Deimhníonn an fógra seo an íocaíocht rathúil a rinne custaiméir.",
+     "order-payment-admin" => "Seoltar an teachtaireacht seo chuig díoltóir chun ordú deimhnithe a chur in iúl dó.",
+     "pos-checkout" => "Seoltar an fógra seo chun ordú díolphointe a dheimhniú do cheannaitheoir.",
+     "pos-payment" => "Deimhníonn an fógra seo íocaíocht pointe díola a rinne ceannaitheoir.",
+     "pos-payment-admin" => "Cuireann an teachtaireacht seo an díoltóir ar an eolas faoi cheannachán a rinneadh ag an díolphointe.",
+     "shop-contact" => "Seoltar an fógra seo nuair a chuirtear foirm teagmhála isteach.",
+     "shop-giftcard" => "Cuireann an fógra seo in iúl d'úsáideoir go bhfuil cárta bronntanais faighte aige.",
+     "shop-vendor-join" => "Fáiltíonn an teachtaireacht seo roimh dhíoltóir nua chuig an siopa.",
+     "shop-vendor-invite" => "Seoltar an teachtaireacht seo chun cuireadh a thabhairt do dhíoltóir dul isteach i do mhargadh.",
+     "shop-vendor-order" => "Seoltar an teachtaireacht seo chuig an díoltóir nuair a fhaightear ordú i stádas Íoctha nó Airgead Tirim ar Sheachadadh (COD).",
+     "shop-vendor-products" => "Seolta go laethúil chun díoltóirí a nuashonrú ar stádas a gcuid táirgí.",
+     "shop-login" => "Fógra a thabhairt don úsáideoir le sonraí logáil isteach, lena n-áirítear seoladh IP, dáta, agus gléas, chun críocha slándála.",
+     "login-code" => "Seol cód pasfhocal aonuaire le go bhféadfaidh úsáideoirí logáil isteach sa siopa.",
+     "shop-email-verify-link" => "Seol nasc chun seoladh ríomhphoist an úsáideora a fhíorú. Seoltar an ríomhphost seo nuair a chláraíonn úsáideoir trí SMS agus nuair a chuireann siad a ríomhphost isteach agus ní sheoltar é nuair a chláraíonn úsáideoir trí ríomhphost nó trí ríomhphost go díreach.",
 ],
-        [
-     "title" => "Deimhniú íocaíochta custaiméara",
-],
-        [
-     "title" => "Fógra deimhnithe ordú don díoltóir",
-],
-        [
-     "title" => "Deimhnigh ordú bosca siopa don cheannaitheoir",
-],
-        [
-     "title" => "Deimhnigh íocaíocht scipéad airgid don cheannaitheoir",
-],
-        [
-     "title" => "Fógra ceannaigh i mbosca an díoltóra",
-],
-        [
-     "title" => "Cuir an fhoirm teagmhála ar an eolas",
-],
-        [
-     "title" => "Comhghairdeachas as bheith sa siopa",
-],
-        [
-     "title" => "Fógra faighte cárta bronntanais don úsáideoir",
-]
-     ],
      "global" => [
      "greetings" => "Hi : ainm",
      "end-statement" => "Foireann tacaíochta",
@@ -126,7 +115,7 @@
      "transaction" => "Idirbheart",
      "fee" => "Táille",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bille",
      "category" => "Catagóir",
      "password" => "Pasfhocal",
@@ -150,6 +139,18 @@
      "receiver" => "Glacadóir",
      "virtual-items" => "Míreanna fíorúil",
      "no-payment" => "Gan íocaíocht!",
+     "enable" => "Cumasaigh",
+     "access" => "Rochtain",
+     "bank" => "Eolas bainc",
+     "vendor" => "Díoltóir",
+     "view_content" => "Féach ar an ábhar iomlán",
+     "files" => "Comhaid",
+     "download" => "Íosluchtaigh",
+     "file_name" => "Ainm an Chomhaid",
+     "file_size" => "Méid",
+     "subscription" => "Sintiús",
+     "products" => "Táirgí",
+     "vendor_products" => "Táirgí Díoltóra",
 ],
      "selldone-business-os" => "OS Gnó Soldone",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "Haigh",
-     "name" => "Foireann Díolta",
+     "name" => "Ceadaigh, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "ceannaithe",
-     "name" => "Ceannaithe, Selldone",
+     "name" => "Ceadaigh, Selldone",
 ],
      "Approve" => [
      "id" => "cheadú",
@@ -339,6 +340,12 @@
      "category" => "Ceiliúradh custaiméara nua",
      "title" => "Tá áthas orainn as do bhallraíocht",
      "action" => "Tabhair cuairt anois",
+],
+     "shop-vendor-join" => [
+     "subject" => "Bordáil Díoltóra | : siopa_teideal",
+     "category" => "Ceiliúradh díoltóir nua",
+     "title" => "Tá áthas orainn as do bhallraíocht",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Cárta bronntanais : shop_title",
@@ -558,6 +565,7 @@
      "category" => "Fógraí slándála",
      "title" => "Logáil isteach sa Chuntas",
      "message" => "A chara :name, tá tú logáilte isteach i do chuntas Selldone.",
+     "message-shop" => "A chara :ainm, tá tú logáilte isteach i : shop_title .",
      "footer" => "Mura bhfuil tú logáilte isteach, athraigh do phasfhocal.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Radhairc iomlán leathanaigh an tsuímh Ghréasáin",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Tá ordú nua faighte agat. Téigh go dtí an leathanach próiseála orduithe i do phainéal díoltóirí.",
+     "subject" => "🛍 Ordú Nua Faighte | : ordú_id",
+     "your_revenue" => "Do na Coimisinéirí Ioncaim",
+],
+     "vendor-invite" => [
+     "title" => "Cuireadh Díoltóra",
+     "message" => "Tá cuireadh faighte agat a bheith mar dhíoltóir :shop_name. Is féidir leat glacadh leis nó diúltú dó trí chliceáil ar na cnaipí seo a leanas.",
+     "subject" => ":siopa_ainm | Fuair tú cuireadh a bheith inár ndíoltóir",
+     "accept" => "Glac & Bí i do Dhíoltóir",
+     "reject" => "Diúltaigh",
+],
+     "shop-email-login" => [
+     "subject" => "Do Chód Logála Isteach le haghaidh :siopa",
+     "header-message" => "Táimid ag seoladh an ríomhphost seo chugat toisc gur iarr tú cód logáil isteach don siopa. Faigh do Phasfhocal Aonuaire (OTP) thíos:",
+     "footer-message" => "Beidh an cód seo bailí ar feadh 10 nóiméad. Murar iarr tú an cód logála isteach seo, déan neamhaird den ríomhphost seo le do thoil.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Fíoraigh do ríomhphost | :siopa",
+     "title" => "Fíorú Ríomhphoist",
+     "header-message" => "Hi : ainm,<br> Deimhnigh le do thoil gurb é **:ríomhphost** do sheoladh ríomhphoist trí chliceáil ar an gcnaipe nó úsáid an nasc thíos laistigh de 48 uair an chloig.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Nuashonrú Táirgí: siopa",
+     "title" => "Nuashonrú ar Stádas Táirge - 24 uair an chloig is déanaí",
+     "message" => "Tá súil agam go bhfaighidh an teachtaireacht seo go maith thú. Is nuashonrú gairid é seo chun tú a chur ar an eolas faoi stádas do tháirgí ar ár n-ardán le 24 uair an chloig anuas. Le linn na tréimhse seo, tá athruithe tagtha ar stádas roinnt táirgí. D'fhéadfadh na hathruithe seo a bheith mar gheall ar cheannacháin, nuashonruithe stoic nó imeachtaí gaolmhara eile. Chun faisnéis níos mionsonraithe a fháil faoi gach táirge, logáil isteach i do chuntas agus seiceáil an rannán 'Stádas Táirge'.",
+     "action" => "Oscail Painéal Díoltóra",
 ],
 ];

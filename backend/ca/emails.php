@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Comanda confirmada pel comprador",
+     "email-types-description" => [
+     "shop-customer-join" => "Aquest missatge dóna la benvinguda a un nou comprador a la botiga.",
+     "order-checkout" => "Aquesta notificació s'envia quan un comprador confirma una comanda.",
+     "order-payment" => "Aquesta notificació confirma l'èxit del pagament fet per un client.",
+     "order-payment-admin" => "Aquest missatge s'envia a un venedor per notificar-li una comanda confirmada.",
+     "pos-checkout" => "Aquesta notificació s'envia per confirmar una comanda de punt de venda per a un comprador.",
+     "pos-payment" => "Aquesta notificació confirma un pagament al punt de venda fet per un comprador.",
+     "pos-payment-admin" => "Aquest missatge notifica al venedor una compra feta al seu punt de venda.",
+     "shop-contact" => "Aquesta notificació s'envia quan s'ha enviat un formulari de contacte.",
+     "shop-giftcard" => "Aquesta notificació informa a un usuari que ha rebut una targeta regal.",
+     "shop-vendor-join" => "Aquest missatge dóna la benvinguda a un nou venedor a la botiga.",
+     "shop-vendor-invite" => "Aquest missatge s'envia per convidar un venedor a unir-se al vostre mercat.",
+     "shop-vendor-order" => "Aquest missatge s'envia al venedor quan es rep una comanda en estat de pagament o contra lliurament (COD).",
+     "shop-vendor-products" => "S'envia diàriament per actualitzar els venedors sobre l'estat dels seus productes.",
+     "shop-login" => "Notifiqueu a l'usuari les dades d'inici de sessió, inclosa l'adreça IP, la data i el dispositiu, per motius de seguretat.",
+     "login-code" => "Envieu un codi de contrasenya d'un sol ús perquè els usuaris iniciïn sessió a la botiga.",
+     "shop-email-verify-link" => "Envia un enllaç per verificar l'adreça de correu electrònic de l'usuari. Aquest correu s'envia quan un usuari es registra per SMS i introdueix el seu correu electrònic i no s'envia quan l'usuari es registra per mitjà de xarxes socials o directament per correu electrònic.",
 ],
-        [
-     "title" => "Confirmació de pagament del client",
-],
-        [
-     "title" => "Avís de confirmació de comanda al venedor",
-],
-        [
-     "title" => "Confirmeu la comanda de la caixa de la botiga per al comprador",
-],
-        [
-     "title" => "Confirmeu el pagament de la caixa registradora per al comprador",
-],
-        [
-     "title" => "Avís de compra a la caixa del venedor",
-],
-        [
-     "title" => "Informar formulari de contacte",
-],
-        [
-     "title" => "Felicitats per unir-te a la botiga",
-],
-        [
-     "title" => "Anunci de recepció d'una targeta regal a l'usuari",
-]
-     ],
      "global" => [
      "greetings" => "Hola :nom",
      "end-statement" => "Equip de suport",
@@ -126,7 +115,7 @@
      "transaction" => "Transacció",
      "fee" => "Quota",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Categoria",
      "password" => "Contrasenya",
@@ -150,6 +139,18 @@
      "receiver" => "Receptor",
      "virtual-items" => "Elements virtuals",
      "no-payment" => "Sense pagament!",
+     "enable" => "Activa",
+     "access" => "Accés",
+     "bank" => "Informació bancària",
+     "vendor" => "Venedor",
+     "view_content" => "Veure contingut complet",
+     "files" => "Fitxers",
+     "download" => "descarregar",
+     "file_name" => "Nom del fitxer",
+     "file_size" => "Mida",
+     "subscription" => "Subscripció",
+     "products" => "Productes",
+     "vendor_products" => "Productes venedors",
 ],
      "selldone-business-os" => "Selldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "hola",
-     "name" => "Equip Selldone",
+     "name" => "Aprova, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "comerciants",
-     "name" => "Comerciants, Selldone",
+     "name" => "Aprova, Selldone",
 ],
      "Approve" => [
      "id" => "aprovar",
@@ -339,6 +340,12 @@
      "category" => "Celebració de nous clients",
      "title" => "Estem contents per la teva pertinença",
      "action" => "Visita ara",
+],
+     "shop-vendor-join" => [
+     "subject" => "Incorporació de venedors | :shop_title",
+     "category" => "Celebració de nous venedors",
+     "title" => "Estem contents per la teva pertinença",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Targeta de regal:shop_title",
@@ -558,6 +565,7 @@
      "category" => "Notificacions de seguretat",
      "title" => "Inicieu sessió al compte",
      "message" => "Benvolgut :nom, heu iniciat sessió al vostre compte de Selldone.",
+     "message-shop" => "Benvolgut :name, heu iniciat sessió a :shop_title .",
      "footer" => "Si no heu iniciat sessió, canvieu la contrasenya.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Total de visites de pàgines web",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Heu rebut una nova comanda. Aneu a la pàgina de processament de comandes del vostre tauler de proveïdors.",
+     "subject" => "🛍 Nova comanda rebuda | :order_id",
+     "your_revenue" => "Els teus ingressos",
+],
+     "vendor-invite" => [
+     "title" => "Invitació del venedor",
+     "message" => "Heu rebut una invitació per convertir-vos en venedor de :shop_name. Podeu acceptar-lo o rebutjar-lo fent clic als botons següents.",
+     "subject" => ":nom_botiga | Has rebut una invitació per convertir-te en el nostre proveïdor",
+     "accept" => "Accepta i converteix-te en venedor",
+     "reject" => "Rebutjar",
+],
+     "shop-email-login" => [
+     "subject" => "El vostre codi d'inici de sessió per a :shop",
+     "header-message" => "T'enviem aquest correu electrònic perquè has sol·licitat un codi d'inici de sessió per a la botiga. Trobeu la vostra contrasenya única (OTP) a continuació:",
+     "footer-message" => "Aquest codi serà vàlid durant 10 minuts. Si no heu sol·licitat aquest codi d'inici de sessió, ignoreu aquest correu electrònic.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Verifica el teu correu electrònic | : botiga",
+     "title" => "Verificació del correu electrònic",
+     "header-message" => "Hola :nom,<br> Si us plau, confirmeu que **:email** és la vostra adreça de correu electrònic fent clic al botó o utilitzeu l'enllaç següent en un termini de 48 hores.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Actualització de productes: botiga",
+     "title" => "Actualització sobre l'estat del producte: últimes 24 hores",
+     "message" => "Espero que aquest missatge us trobi bé. Aquesta és una breu actualització per informar-vos de l'estat dels vostres productes a la nostra plataforma durant les últimes 24 hores. Durant aquest període, hi ha hagut canvis en l'estat d'alguns productes. Aquests canvis poden ser deguts a compres, actualitzacions d'estocs o altres esdeveniments relacionats. Per obtenir informació més detallada sobre cada producte, inicieu sessió al vostre compte i consulteu la secció 'Estat del producte'.",
+     "action" => "Obriu el panell de proveïdors",
 ],
 ];

@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Beställning bekräftad av köparen",
+     "email-types-description" => [
+     "shop-customer-join" => "Detta meddelande välkomnar en ny köpare till butiken.",
+     "order-checkout" => "Detta meddelande skickas när en köpare bekräftar en beställning.",
+     "order-payment" => "Detta meddelande bekräftar den framgångsrika betalningen som gjorts av en kund.",
+     "order-payment-admin" => "Detta meddelande skickas till en säljare för att meddela dem om en bekräftad beställning.",
+     "pos-checkout" => "Detta meddelande skickas för att bekräfta en beställning på ett försäljningsställe för en köpare.",
+     "pos-payment" => "Detta meddelande bekräftar en betalning på försäljningsstället som gjorts av en köpare.",
+     "pos-payment-admin" => "Detta meddelande meddelar säljaren om ett köp som gjorts vid deras försäljningsställe.",
+     "shop-contact" => "Detta meddelande skickas när ett kontaktformulär har skickats in.",
+     "shop-giftcard" => "Detta meddelande informerar en användare om att de har fått ett presentkort.",
+     "shop-vendor-join" => "Detta meddelande välkomnar en ny leverantör till butiken.",
+     "shop-vendor-invite" => "Det här meddelandet skickas för att bjuda in en leverantör att gå med på din marknadsplats.",
+     "shop-vendor-order" => "Detta meddelande skickas till leverantören när en beställning tas emot i antingen betald eller postförskottsstatus (COD).",
+     "shop-vendor-products" => "Skickas dagligen för att uppdatera leverantörer om status för deras produkter.",
+     "shop-login" => "Meddela användaren med inloggningsuppgifter, inklusive IP-adress, datum och enhet, av säkerhetsskäl.",
+     "login-code" => "Skicka en engångslösenordskod så att användare kan logga in i butiken.",
+     "shop-email-verify-link" => "Skicka en länk för att verifiera användarens e-postadress. Detta mail skickas när en användare registrerar sig via SMS och anger sin e-post och skickas inte när användaren registrerar sig via sociala medier eller e-post direkt.",
 ],
-        [
-     "title" => "Kundens betalningsbekräftelse",
-],
-        [
-     "title" => "Orderbekräftelsemeddelande till säljaren",
-],
-        [
-     "title" => "Bekräfta beställning av butikslådan för köparen",
-],
-        [
-     "title" => "Bekräfta betalning av kassaapparat för köpare",
-],
-        [
-     "title" => "Köpmeddelande i säljarens kartong",
-],
-        [
-     "title" => "Informera kontaktformulär",
-],
-        [
-     "title" => "Grattis till att du är med i butiken",
-],
-        [
-     "title" => "Meddelande om mottagande av ett presentkort till användaren",
-]
-     ],
      "global" => [
      "greetings" => "Hej :namn",
      "end-statement" => "Supportteam",
@@ -55,7 +44,7 @@
      "cvv" => "Cvv",
      "expire_date" => "Utgångsdatum",
      "dashboard" => "instrumentbräda",
-     "order" => "ordning",
+     "order" => "beställa",
      "view_order" => "Se beställning",
      "pay_now" => "Pay now",
      "official_selldone" => "OFFICIELL SÅLDA",
@@ -126,7 +115,7 @@
      "transaction" => "Transaktion",
      "fee" => "Avgift",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Räkningen",
      "category" => "Kategori",
      "password" => "Lösenord",
@@ -150,6 +139,18 @@
      "receiver" => "Mottagare",
      "virtual-items" => "Virtuella föremål",
      "no-payment" => "Ingen betalning!",
+     "enable" => "Gör det möjligt",
+     "access" => "Tillgång",
+     "bank" => "Bankinformation",
+     "vendor" => "Säljare",
+     "view_content" => "Se hela innehållet",
+     "files" => "Filer",
+     "download" => "Ladda ner",
+     "file_name" => "Filnamn",
+     "file_size" => "Storlek",
+     "subscription" => "Prenumeration",
+     "products" => "Produkter",
+     "vendor_products" => "Leverantörsprodukter",
 ],
      "selldone-business-os" => "Selldon Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "Hej",
-     "name" => "Selldones team",
+     "name" => "Godkänn, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "köpmän",
-     "name" => "Köpmän, Selldone",
+     "name" => "Godkänn, Selldone",
 ],
      "Approve" => [
      "id" => "godkänna",
@@ -340,6 +341,12 @@
      "title" => "Vi är glada för ditt medlemskap",
      "action" => "Besök nu",
 ],
+     "shop-vendor-join" => [
+     "subject" => "Introduktion av leverantörer | :butik_titel",
+     "category" => "Ny leverantörsfirande",
+     "title" => "Vi är glada för ditt medlemskap",
+     "action" => "Vendor Panel",
+],
      "shop-giftcard" => [
      "subject" => "Presentkort :shop_title",
      "category" => "Lägg till nytt kort",
@@ -349,12 +356,12 @@
 ],
      "contact" => [
      "subject" => "Supportcenter | :affär",
-     "category" => "Stöd",
+     "category" => "stöd",
      "title" => "Du fick ett svar",
 ],
      "order-checkout" => [
      "subject" => "🛍 Beställ Kassa | :order_id",
-     "title" => "ordning",
+     "title" => "beställa",
      "message" => "Din beställning bekräfta,<br> Vi har din beställning. Vi skickar ett nytt e-postmeddelande när din beställning skickas.",
      "payments" => "Betalningar",
 ],
@@ -558,6 +565,7 @@
      "category" => "Säkerhetsmeddelanden",
      "title" => "Logga in på konto",
      "message" => "Bästa :name, du har loggat in på ditt Selldone-konto.",
+     "message-shop" => "Bästa :name, du har loggat in på :shop_title .",
      "footer" => "Om du inte är inloggad, vänligen ändra ditt lösenord.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Totalt antal sidvisningar på webbplatsen",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Du har fått en ny beställning. Gå till sidan för orderhantering i din leverantörspanel.",
+     "subject" => "🛍 Ny beställning mottagen | :order_id",
+     "your_revenue" => "Dina intäkter",
+],
+     "vendor-invite" => [
+     "title" => "Försäljarinbjudan",
+     "message" => "Du har fått en inbjudan att bli leverantör av :shop_name. Du kan acceptera eller avvisa det genom att klicka på följande knappar.",
+     "subject" => ":butiksnamn | Du har fått en inbjudan att bli vår leverantör",
+     "accept" => "Acceptera och bli en leverantör",
+     "reject" => "Avvisa",
+],
+     "shop-email-login" => [
+     "subject" => "Din inloggningskod för :shop",
+     "header-message" => "Vi skickar det här e-postmeddelandet till dig eftersom du har begärt en inloggningskod för butiken. Vänligen hitta ditt engångslösenord (OTP) nedan:",
+     "footer-message" => "Denna kod kommer att vara giltig i 10 minuter. Om du inte har begärt denna inloggningskod, vänligen ignorera detta e-postmeddelande.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Verifiera din e-post | :handla",
+     "title" => "E-postverifiering",
+     "header-message" => "Hej :namn,<br> Bekräfta att **:email** är din e-postadress genom att klicka på knappen eller använd länken nedan inom 48 timmar.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Produktuppdatering :shop",
+     "title" => "Uppdatering om produktstatus - senaste 24 timmarna",
+     "message" => "Jag hoppas att det här meddelandet finner dig bra. Detta är en kort uppdatering för att informera dig om statusen för dina produkter på vår plattform under de senaste 24 timmarna. Under denna period har det skett förändringar i status för vissa produkter. Dessa ändringar kan bero på köp, lageruppdateringar eller andra relaterade händelser. För mer detaljerad information om varje produkt, vänligen logga in på ditt konto och kolla avsnittet 'Produktstatus'.",
+     "action" => "Öppna leverantörspanelen",
 ],
 ];

@@ -73,14 +73,4 @@
      "price" => 3.588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Herzlichen Glückwunsch, registrieren Sie sich und erhalten Sie diese Geschenkkarte",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Sie haben die Seite über den Link eines aktiven Benutzers von Selldone betreten, wenn Sie sich jetzt bei Selldone registrieren, erhalten Sie eine Geschenkkarte im Wert von 14,9 $. Die Registrierung und Einrichtung eines Shops in Selldone ist 100 % kostenlos, aber Sie können diese Aufladekarten verwenden, um den Service zu entlasten.",
-],
 ];

@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Dawn il-kredenzjali ma jaqblux mar-rekords tagħna.",
+     "password" => "Il-password ipprovduta mhix korretta.",
      "throttle" => "Wisq tentattivi ta' login. Jekk jogħġbok erġa' pprova fi :sekondi sekondi.",
      "title_shop" => "Idħol f':isem",
      "title_app" => "Aċċess għall-applikazzjoni ta':isem",

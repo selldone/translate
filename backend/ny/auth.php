@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Izi sizikugwirizana ndi zolemba zathu.",
+     "password" => "Mawu achinsinsi omwe aperekedwa ndi olakwika.",
      "throttle" => "Mayesero ambiri olowera. Chonde yesaninso mu :seconds.",
      "title_shop" => "Lowani ku :name",
      "title_app" => "Kugwiritsa ntchito :name",

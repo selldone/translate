@@ -14,8 +14,8 @@
         "người xây dựng cộng đồng tùy chỉnh",
         "thương mại điện tử nhãn trắng"
      ],
-     "samin" => "selldone",
-     "Selldone" => "selldone",
+     "samin" => "đã bán xong",
+     "Selldone" => "đã bán xong",
      "related" => "Có liên quan",
      "share" => "Đăng lại",
      "global" => [
@@ -33,7 +33,7 @@
 ],
      "footer-menu" => [
         [
-     "title" => "selldone",
+     "title" => "đã bán xong",
      "items" => [
         [
      "title" => "Nền tảng kinh doanh",
@@ -172,7 +172,7 @@
      "seo" => "Công cụ SEO tự động",
      "automation" => "Tự động hóa & IoT",
      "ai" => "Thương mại AI",
-     "app-builder" => "Người xây dựng ứng dụng",
+     "app-builder" => "Trình xây dựng ứng dụng",
 ],
      "build" => "Xây dựng",
      "build-sub" => "Chúng tôi tạo ra một hệ thống xung quanh bạn để tạo ra câu chuyện thành công của bạn.",
@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Tất cả các tính năng chuyên nghiệp của việc xây dựng cửa hàng và trang web miễn phí không giới hạn thời gian đang chờ bạn.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Dịch vụ web, tài liệu để phát triển ứng dụng và dịch vụ được kết nối.",
-],
      "apps" => [
      "title" => "Cửa hàng ứng dụng",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Các quốc gia được hỗ trợ và thanh toán địa phương - Hệ điều hành doanh nghiệp",
      "image" => "/images/seo/en/countries.png",
      "description" => "Hệ điều hành kinh doanh, Bước phát triển tiếp theo của dịch vụ thương mại từ nền tảng thương mại điện tử sang thứ không có chủ đề, plugin hoặc mã. 100% trực quan!",
+],
+     "participant" => [
+     "title" => "Cộng đồng bạn muốn — Chơi và thắng $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Bạn có thể tham gia cộng đồng selldone bằng cách tạo các video ngắn để giúp đỡ người khác và nhận được khoản tín dụng quà tặng lên tới 20 USD cho mỗi video.",
+],
+     "tax" => [
+     "title" => "Danh sách thuế suất toàn cầu",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Bạn có thể ghi đè các quy tắc thuế và tạo nhiều hồ sơ thuế cho các danh mục sản phẩm khác nhau.",
+],
+     "premium" => [
+     "title" => "Nâng cấp lên Premium và chuyển đổi trò chơi thương mại điện tử của bạn",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Nâng cao cửa hàng trực tuyến của bạn với Selldone Premium. Truy cập các công cụ AI độc quyền, mẫu tùy chỉnh và nhiều hơn nữa để tăng hiệu quả và nổi bật trên thị trường kỹ thuật số. Tham gia ngay để có trải nghiệm thương mại điện tử thông minh hơn, đẹp hơn!",
+],
+     "builder" => [
+     "title" => "Trình tạo trang miễn phí & Trình chỉnh sửa trang đích Webapp - Không cần đăng nhập",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Tạo các trang web và trang đích tuyệt đẹp một cách dễ dàng với trình tạo trang và trình chỉnh sửa miễn phí, thân thiện với người dùng của chúng tôi. Không cần đăng nhập. Thiết kế, tùy chỉnh và xuất bản các trang web của bạn một cách nhanh chóng với giao diện kéo và thả trực quan của chúng tôi. Hoàn hảo cho các nhà tiếp thị, chủ doanh nghiệp nhỏ và nhà phát triển đang tìm kiếm giải pháp thiết kế web không rắc rối.",
 ],
 ],
      "shuttle" => [

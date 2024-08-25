@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Bestelling deur koper bevestig",
+     "email-types-description" => [
+     "shop-customer-join" => "Hierdie boodskap verwelkom 'n nuwe koper by die winkel.",
+     "order-checkout" => "Hierdie kennisgewing word gestuur wanneer 'n koper 'n bestelling bevestig.",
+     "order-payment" => "Hierdie kennisgewing bevestig die suksesvolle betaling wat deur 'n kliënt gemaak is.",
+     "order-payment-admin" => "Hierdie boodskap word aan 'n verkoper gestuur om hulle in kennis te stel van 'n bevestigde bestelling.",
+     "pos-checkout" => "Hierdie kennisgewing word gestuur om 'n verkoopspuntbestelling vir 'n koper te bevestig.",
+     "pos-payment" => "Hierdie kennisgewing bevestig 'n verkooppuntbetaling wat deur 'n koper gemaak is.",
+     "pos-payment-admin" => "Hierdie boodskap stel die verkoper in kennis van 'n aankoop wat by hul verkoopspunt gemaak is.",
+     "shop-contact" => "Hierdie kennisgewing word gestuur wanneer 'n kontakvorm ingedien is.",
+     "shop-giftcard" => "Hierdie kennisgewing lig 'n gebruiker in dat hulle 'n geskenkbewys ontvang het.",
+     "shop-vendor-join" => "Hierdie boodskap verwelkom 'n nuwe verkoper by die winkel.",
+     "shop-vendor-invite" => "Hierdie boodskap word gestuur om 'n verkoper te nooi om by jou mark aan te sluit.",
+     "shop-vendor-order" => "Hierdie boodskap word aan die verkoper gestuur wanneer 'n bestelling ontvang word in óf Betaal óf Kontant by aflewering (COD) status.",
+     "shop-vendor-products" => "Daagliks uitgestuur om verskaffers op te dateer oor die status van hul produkte.",
+     "shop-login" => "Stel die gebruiker in kennis met aanmeldbesonderhede, insluitend IP-adres, datum en toestel, vir sekuriteitsdoeleindes.",
+     "login-code" => "Stuur 'n eenmalige wagwoordkode vir gebruikers om by die winkel aan te meld.",
+     "shop-email-verify-link" => "Stuur 'n skakel om die gebruiker se e-posadres te verifieer. Hierdie e-pos word gestuur wanneer 'n gebruiker per SMS registreer en hul e-pos invoer en word nie gestuur wanneer gebruiker direk per sosiale of e-pos registreer nie.",
 ],
-        [
-     "title" => "Kliënt betaling bevestiging",
-],
-        [
-     "title" => "Bestellingsbevestiging kennisgewing aan verkoper",
-],
-        [
-     "title" => "Bevestig winkelboksbestelling vir koper",
-],
-        [
-     "title" => "Bevestig betaling van kasregister vir koper",
-],
-        [
-     "title" => "Kennisgewing van aankoop in die verkoper se boks",
-],
-        [
-     "title" => "Stel kontakvorm in kennis",
-],
-        [
-     "title" => "Baie geluk met die aansluiting by die winkel",
-],
-        [
-     "title" => "Aankondiging van die ontvangs van 'n geskenkbewys aan die gebruiker",
-]
-     ],
      "global" => [
      "greetings" => "Hallo :naam",
      "end-statement" => "Ondersteuningspan",
@@ -55,7 +44,7 @@
      "cvv" => "Cvv",
      "expire_date" => "Verval datum",
      "dashboard" => "dashboard",
-     "order" => "orde",
+     "order" => "bestel",
      "view_order" => "Besigtig bestelling",
      "pay_now" => "Pay now",
      "official_selldone" => "AMPTELIKE VERKOOP",
@@ -126,7 +115,7 @@
      "transaction" => "Transaksie",
      "fee" => "Fooi",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Kategorie",
      "password" => "Wagwoord",
@@ -150,6 +139,18 @@
      "receiver" => "Ontvanger",
      "virtual-items" => "Virtuele items",
      "no-payment" => "Geen betaling nie!",
+     "enable" => "Aktiveer",
+     "access" => "Toegang",
+     "bank" => "Bank inligting",
+     "vendor" => "Verkoper",
+     "view_content" => "Bekyk volledige inhoud",
+     "files" => "Lêers",
+     "download" => "Aflaai",
+     "file_name" => "Lêernaam",
+     "file_size" => "Grootte",
+     "subscription" => "Intekening",
+     "products" => "Produkte",
+     "vendor_products" => "Verkoper produkte",
 ],
      "selldone-business-os" => "Seldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "Hi",
-     "name" => "Seldone-span",
+     "name" => "Keur dit goed, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "handelaars",
-     "name" => "Handelaars, Selldone",
+     "name" => "Keur dit goed, Selldone",
 ],
      "Approve" => [
      "id" => "goedkeur",
@@ -340,6 +341,12 @@
      "title" => "Ons is bly vir jou lidmaatskap",
      "action" => "Besoek nou",
 ],
+     "shop-vendor-join" => [
+     "subject" => "Verkoper aanboord | :winkel_titel",
+     "category" => "Nuwe verkoper viering",
+     "title" => "Ons is bly vir jou lidmaatskap",
+     "action" => "Vendor Panel",
+],
      "shop-giftcard" => [
      "subject" => "Geskenkbewys: winkel_titel",
      "category" => "Voeg nuwe kaart by",
@@ -354,7 +361,7 @@
 ],
      "order-checkout" => [
      "subject" => "🛍 Bestel Checkout | :Bestel ID",
-     "title" => "orde",
+     "title" => "bestel",
      "message" => "U bestelling bevestig,<br> Ons het jou bestelling. Ons sal vir jou nog 'n e-pos stuur wanneer jou bestelling verskeep word.",
      "payments" => "Betalings",
 ],
@@ -558,6 +565,7 @@
      "category" => "Sekuriteit kennisgewings",
      "title" => "Teken in op rekening",
      "message" => "Beste :name, jy het by jou Selldone-rekening aangemeld.",
+     "message-shop" => "Beste :name, jy is aangemeld by :shop_title .",
      "footer" => "As jy nie aangemeld is nie, verander asseblief jou wagwoord.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Totale webwerf-bladsykyke",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Jy het 'n nuwe bestelling ontvang. Gaan asseblief na die bestellingverwerkingsbladsy in u verkoperpaneel.",
+     "subject" => "🛍 Nuwe bestelling ontvang | :Bestel ID",
+     "your_revenue" => "Jou inkomste",
+],
+     "vendor-invite" => [
+     "title" => "Verkoper uitnodiging",
+     "message" => "Jy het 'n uitnodiging ontvang om verkoper van :shop_name te word. Jy kan dit aanvaar of verwerp deur op die volgende knoppies te klik.",
+     "subject" => ":winkelnaam | Jy het 'n uitnodiging ontvang om ons verkoper te word",
+     "accept" => "Aanvaar en word 'n verkoper",
+     "reject" => "Verwerp",
+],
+     "shop-email-login" => [
+     "subject" => "Jou aanmeldkode vir :shop",
+     "header-message" => "Ons stuur vir jou hierdie e-pos omdat jy 'n aanmeldkode vir die winkel aangevra het. Vind asseblief jou eenmalige wagwoord (OTP) hieronder:",
+     "footer-message" => "Hierdie kode sal vir 10 minute geldig wees. As jy nie hierdie aanmeldkode versoek het nie, ignoreer asseblief hierdie e-pos.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Verifieer jou e-posadres | : winkel",
+     "title" => "E-posverifikasie",
+     "header-message" => "Hallo :naam,<br> Bevestig asseblief dat **:e-pos** jou e-posadres is deur op die knoppie te klik of gebruik die onderstaande skakel binne 48 uur.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Produkte-opdatering: winkel",
+     "title" => "Opdatering oor produkstatus – laaste 24 uur",
+     "message" => "Ek hoop hierdie boodskap vind jou goed. Hierdie is 'n kort opdatering om jou in te lig oor die status van jou produkte op ons platform oor die afgelope 24 uur. Gedurende hierdie tydperk was daar veranderinge in die status van sommige produkte. Hierdie veranderinge kan wees as gevolg van aankope, voorraadopdaterings of ander verwante gebeurtenisse. Vir meer gedetailleerde inligting oor elke produk, meld asseblief aan by jou rekening en gaan na die 'Produkstatus'-afdeling.",
+     "action" => "Maak verkoperpaneel oop",
 ],
 ];

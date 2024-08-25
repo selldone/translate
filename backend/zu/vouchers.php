@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Siyakuhalalisela, bhalisa futhi uthole leli khadi lesipho",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Ufake isayithi ngesixhumanisi somsebenzisi osebenzayo we-Selldone, uma ubhalisa e-Selldone manje, uzothola ikhadi lesipho elibiza u-$14.9. Ukubhalisa nokwakha isitolo e-Selldone kumahhala ngo-100%, kodwa ungasebenzisa lawa makhadi okugcwalisa ukuze ukhulule isevisi.",
-],
 ];

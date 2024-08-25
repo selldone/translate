@@ -73,14 +73,4 @@
      "price" => 3588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "تهانينا ، سجل واحصل على بطاقة الهدايا هذه",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "لقد قمت بالدخول إلى الموقع من خلال رابط مستخدم نشط لـ Selldone ، إذا قمت بالتسجيل في Selldone الآن ، فستتلقى بطاقة هدايا بقيمة 14.9 دولارًا. التسجيل وبناء متجر في سيلدون مجاني 100٪ ، ولكن يمكنك استخدام بطاقات إعادة الشحن هذه لتخفيف الخدمة.",
-],
 ];

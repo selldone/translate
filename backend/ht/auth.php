@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Kalifikasyon sa yo pa matche ak dosye nou yo.",
+     "password" => "Modpas yo bay la pa kòrèk.",
      "throttle" => "Twòp tantativ konekte. Tanpri eseye ankò nan : segonn segonn.",
      "title_shop" => "Konekte nan :name",
      "title_app" => "Aksè aplikasyon nan :name",

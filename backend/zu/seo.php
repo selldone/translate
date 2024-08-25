@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Zonke izici zobungcweti zokwakha isitolo nesayithi mahhala ngaphandle komkhawulo wesikhathi zikulindile.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Isevisi yewebhu, imibhalo yokuthuthukiswa kohlelo lokusebenza nesevisi ixhunyiwe.",
-],
      "apps" => [
      "title" => "Isitolo sohlelo lokusebenza",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Amazwe Asekelwe Nezinkokhelo Zasendaweni - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "I-Business OS, Isinyathelo esilandelayo sokuvela kwezinsizakalo zezentengiselwano kusuka ezinkundleni zokuxhumana ze-e-commerce kuya kokuthile okungenayo itimu, i-plugin, noma ikhodi. 100% ngokubukeka!",
+],
+     "participant" => [
+     "title" => "Umphakathi owufunayo - Dlala futhi Uzuze u-$20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Ungabamba iqhaza emphakathini othengisiwe ngokudala amavidiyo amafushane ukuze usize abanye futhi uthole isipho sesikweletu esingu-20 USD ngevidiyo ngayinye.",
+],
+     "tax" => [
+     "title" => "Uhlu Lwezilinganiso Zentela Lomhlaba Wonke",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Ungakwazi ukukhipha imithetho yentela futhi udale iphrofayela yentela engaphezu kweyodwa ezigabeni ezihlukene zemikhiqizo.",
+],
+     "premium" => [
+     "title" => "Thuthukela ku-Premium futhi Uguqule Igeyimu Yakho Ye-E-Commerce",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Phakamisa isitolo sakho esiku-inthanethi nge-Selldone Premium. Finyelela amathuluzi e-AI akhethekile, izifanekiso ze-bespoke, nokunye ukuze uthuthukise ukusebenza kahle futhi uvelele endaweni yemakethe yedijithali. Joyina manje ukuze uthole ulwazi lwe-e-commerce oluhlakaniphile, olusha!",
+],
+     "builder" => [
+     "title" => "I-Webapp Yamahhala Yomakhi Wekhasi Nomhleli Wekhasi Lokuhlala - Akukho Ukungena Ngemvume Okudingekayo",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Dala amakhasi ewebhu amahle kanye namakhasi okuhlala kalula ngomakhi wethu wekhasi wamahhala, osebenziseka kalula kanye nomhleli. Akukho ukungena okudingekile. Dizayina, yenza ngendlela oyifisayo, futhi ushicilele amakhasi akho ewebhu ngokushesha ngesixhumi esibonakalayo sokudonsa nokuwisa. Ilungele abakhangisi, abanikazi bamabhizinisi amancane, nabathuthukisi abafuna isisombululo sewebhu esingenazinkinga.",
 ],
 ],
      "shuttle" => [

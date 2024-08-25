@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Ochiq kanareyka",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Fil suyagi",
+     "#B3E5FC" => "Muz",
+     "#F1C40F" => "Tong",
+     "#7DF9FF" => "Elektr",
+     "#FF6B35" => "Quyosh botishi",
 ];

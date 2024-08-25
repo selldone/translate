@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Queste credenziali non corrispondono ai nostri record.",
+     "password" => "La password fornita non è corretta.",
      "throttle" => "Troppi tentativi di accesso. Riprova tra :secondi secondi.",
      "title_shop" => "Accedi a :nome",
      "title_app" => "Accesso all'applicazione di :nome",

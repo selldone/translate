@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Jūsų laukia visos profesionalios parduotuvės ir svetainės kūrimo nemokamai be jokių laiko apribojimų funkcijos.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Interneto paslauga, programų kūrimo dokumentacija ir prijungta paslauga.",
-],
      "apps" => [
      "title" => "Programėlių parduotuvė",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Palaikomos šalys ir vietiniai mokėjimai – verslo OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Verslo OS, kitas prekybos paslaugų evoliucijos žingsnis nuo el. prekybos platformų į kažką be temos, papildinio ar kodo. 100% vizualiai!",
+],
+     "participant" => [
+     "title" => "Norima bendruomenė – žaisk ir laimėk 20 USD",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Galite dalyvauti parduotų bendruomenėje kurdami trumpus vaizdo įrašus, kad padėtumėte kitiems, ir gaukite iki 20 USD dovanų kreditą už vieną vaizdo įrašą.",
+],
+     "tax" => [
+     "title" => "Pasaulinis mokesčių tarifų sąrašas",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Galite nepaisyti mokesčių taisyklių ir sukurti daugiau nei vieną mokesčių profilį skirtingoms produktų kategorijoms.",
+],
+     "premium" => [
+     "title" => "Naujovinkite į Premium ir pakeiskite savo el. prekybos žaidimą",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Padidinkite savo internetinę parduotuvę naudodami Selldone Premium. Pasiekite išskirtinius AI įrankius, pagal užsakymą sukurtus šablonus ir dar daugiau, kad padidintumėte efektyvumą ir išsiskirtumėte skaitmeninėje rinkoje. Prisijunkite dabar, kad el. prekybos patirtis būtų išmanesnė ir aptakesnė!",
+],
+     "builder" => [
+     "title" => "Nemokama puslapių kūrimo priemonė ir nukreipimo puslapio redaktorius žiniatinklio programa – nereikia prisijungti",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Lengvai kurkite nuostabius tinklalapius ir nukreipimo puslapius naudodami nemokamą, patogią puslapių kūrimo priemonę ir redaktorių. Nereikia prisijungti. Greitai kurkite, tinkinkite ir skelbkite savo tinklalapius naudodami mūsų intuityvią nuvilkimo sąsają. Puikiai tinka rinkodaros specialistams, smulkaus verslo savininkams ir kūrėjams, ieškantiems be rūpesčių interneto dizaino sprendimo.",
 ],
 ],
      "shuttle" => [

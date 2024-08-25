@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Alle profesjonele funksjes fan it bouwen fan in winkel en side fergees sûnder tiidlimyt wachtsje op jo.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Web tsjinst, dokumintaasje foar applikaasje ûntwikkeling en tsjinst ferbûn.",
-],
      "apps" => [
      "title" => "App store",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Stipe lannen en lokale betellingen - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, De folgjende evolúsjestap fan kommersjele tsjinsten fan e-commerce platfoarms nei iets sûnder tema, plugin, of koade. 100% visueel!",
+],
+     "participant" => [
+     "title" => "De mienskip dy't jo wolle - Spielje en win $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Jo kinne meidwaan oan 'e selldone-mienskip troch koarte fideo's te meitsjen om oaren te helpen en oant 20 USD kadokredyt per fideo te krijen.",
+],
+     "tax" => [
+     "title" => "Global Tax Tariven List",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Jo kinne belestingregels oerskriuwe en mear dan ien belestingprofyl meitsje foar ferskate produktkategoryen.",
+],
+     "premium" => [
+     "title" => "Upgrade nei Premium en transformearje jo e-commerce-spiel",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Ferheegje jo online winkel mei Selldone Premium. Tagong ta eksklusive AI-ark, op maat makke sjabloanen, en mear om effisjinsje te ferheegjen en út te stean op 'e digitale merk. Doch no mei foar in slimmer, slanker e-commerce ûnderfining!",
+],
+     "builder" => [
+     "title" => "Fergese Page Builder & Landing Page Editor Webapp - Gjin oanmelding fereaske",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Meitsje prachtige websiden en lâningssiden sûnder muoite mei ús fergese, brûkerfreonlike sidebouwer en bewurker. Gjin login nedich. Untwerp, oanpasse en publisearje jo websiden fluch mei ús yntuïtive slepe-en-drop-ynterface. Perfekt foar marketeers, eigners fan lyts bedriuw, en ûntwikkelders op syk nei in probleemfrije oplossing foar webûntwerp.",
 ],
 ],
      "shuttle" => [

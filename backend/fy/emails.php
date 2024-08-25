@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Bestelling befêstige troch keaper",
+     "email-types-description" => [
+     "shop-customer-join" => "Dit berjocht wolkom in nije keaper wolkom yn 'e winkel.",
+     "order-checkout" => "Dizze notifikaasje wurdt stjoerd as in keaper in bestelling befêstiget.",
+     "order-payment" => "Dizze notifikaasje befêstiget de suksesfolle betelling makke troch in klant.",
+     "order-payment-admin" => "Dit berjocht wurdt stjoerd nei in ferkeaper om har te melden fan in befêstige bestelling.",
+     "pos-checkout" => "Dizze notifikaasje wurdt stjoerd om in bestelling fan ferkeappunt foar in keaper te befêstigjen.",
+     "pos-payment" => "Dizze notifikaasje befêstiget in betelling fan in ferkeappunt makke troch in keaper.",
+     "pos-payment-admin" => "Dit berjocht meldt de ferkeaper fan in oankeap makke op har ferkeappunt.",
+     "shop-contact" => "Dizze notifikaasje wurdt ferstjoerd as in kontaktformulier yntsjinne is.",
+     "shop-giftcard" => "Dizze notifikaasje ynformearret in brûker dat se in kadokaart krigen hawwe.",
+     "shop-vendor-join" => "Dit berjocht wolkom in nije ferkeaper wolkom yn 'e winkel.",
+     "shop-vendor-invite" => "Dit berjocht is ferstjoerd om in ferkeaper út te noegjen om mei te dwaan oan jo merk.",
+     "shop-vendor-order" => "Dit berjocht wurdt stjoerd nei de ferkeaper as in bestelling wurdt ûntfongen yn beide betelle of Cash by Delivery (COD) status.",
+     "shop-vendor-products" => "Deistich ferstjoerd om leveransiers te aktualisearjen oer de status fan har produkten.",
+     "shop-login" => "Notify de brûker mei oanmeldgegevens, ynklusyf IP-adres, datum en apparaat, foar feiligensdoelen.",
+     "login-code" => "Stjoer in ienmalige wachtwurdkoade foar brûkers om oan te melden by de winkel.",
+     "shop-email-verify-link" => "Stjoer in keppeling om it e-postadres fan de brûker te ferifiearjen. Dizze e-post wurdt ferstjoerd as in brûker registrearret fia SMS en har e-post ynfiere en wurdt net ferstjoerd as brûker registrearret fia sosjale of e-post direkt.",
 ],
-        [
-     "title" => "Klant betelling befêstiging",
-],
-        [
-     "title" => "Order befêstiging notice oan ferkeaper",
-],
-        [
-     "title" => "Befêstigje winkel doaze oarder foar keaper",
-],
-        [
-     "title" => "Befêstigje betelling fan kassa foar keaper",
-],
-        [
-     "title" => "Meidieling fan oankeap yn 'e doaze fan' e ferkeaper",
-],
-        [
-     "title" => "Ynformearje kontaktformulier",
-],
-        [
-     "title" => "Lokwinske mei jo by de winkel",
-],
-        [
-     "title" => "Oankundiging fan it ûntfangen fan in kadokaart oan de brûker",
-]
-     ],
      "global" => [
      "greetings" => "hoi: namme",
      "end-statement" => "Support team",
@@ -126,7 +115,7 @@
      "transaction" => "Transaksje",
      "fee" => "Honorarium",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Kategory",
      "password" => "Wachtwurd",
@@ -150,6 +139,18 @@
      "receiver" => "Untfanger",
      "virtual-items" => "Firtuele items",
      "no-payment" => "Gjin betelling!",
+     "enable" => "Ynskeakelje",
+     "access" => "Tagong",
+     "bank" => "Bank ynformaasje",
+     "vendor" => "Ferkeaper",
+     "view_content" => "Besjoch folsleine ynhâld",
+     "files" => "Bestannen",
+     "download" => "Download",
+     "file_name" => "Triemnamme",
+     "file_size" => "Grutte",
+     "subscription" => "Ynskriuwing",
+     "products" => "Products",
+     "vendor_products" => "Ferkeaper Products",
 ],
      "selldone-business-os" => "Seldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "hoi",
-     "name" => "Seldone Team",
+     "name" => "Goedkarre, Seldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "keaplju",
-     "name" => "Keaplju, Seldone",
+     "name" => "Goedkarre, Seldone",
 ],
      "Approve" => [
      "id" => "goedkarre",
@@ -339,6 +340,12 @@
      "category" => "Nije klant fiering",
      "title" => "Wy binne bliid foar jo lidmaatskip",
      "action" => "Besykje no",
+],
+     "shop-vendor-join" => [
+     "subject" => "Ferkeaper Onboarding | :shop_title",
+     "category" => "Nije ferkeaper fiering",
+     "title" => "Wy binne bliid foar jo lidmaatskip",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Giftcard :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Feiligens notifikaasjes",
      "title" => "Oanmelde by Account",
      "message" => "Beste :name, jo binne oanmeld by jo Selldone-akkount.",
+     "message-shop" => "Beste :name, jo binne oanmeld by :shop_title .",
      "footer" => "As jo net oanmeld binne, feroarje jo wachtwurd.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Totaal webside views",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Jo hawwe in nije bestelling krigen. Gean asjebleaft nei de side foar it ferwurkjen fan bestelling yn jo leveransierspaniel.",
+     "subject" => "🛍 Nije oarder ûntfongen | :Bestelnûmer",
+     "your_revenue" => "Jo ynkomsten",
+],
+     "vendor-invite" => [
+     "title" => "Vendor útnoeging",
+     "message" => "Jo hawwe in útnoeging krigen om ferkeaper te wurden fan :shop_name. Jo kinne it akseptearje of ôfwize troch op de folgjende knoppen te klikken.",
+     "subject" => ":winkel_namme | Jo hawwe in útnoeging krigen om ús ferkeaper te wurden",
+     "accept" => "Akseptearje en wurde in ferkeaper",
+     "reject" => "Reject",
+],
+     "shop-email-login" => [
+     "subject" => "Jo oanmeldkoade foar: winkel",
+     "header-message" => "Wy stjoere jo dizze e-post om't jo in oanmeldkoade foar de winkel hawwe oanfrege. Fyn jo ienmalige wachtwurd (OTP) hjirûnder:",
+     "footer-message" => "Dizze koade sil 10 minuten jildich wêze. As jo dizze oanmeldingskoade net oanfrege hawwe, negearje dan dizze e-post.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Ferifiearje jo e-post | :winkel",
+     "title" => "E-post ferifikaasje",
+     "header-message" => "hoi :namme,<br> Befêstigje asjebleaft dat **:e-post** jo e-postadres is troch te klikken op de knop of brûk de ûndersteande keppeling binnen 48 oeren.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Produktupdate: winkel",
+     "title" => "Update op produktstatus - lêste 24 oeren",
+     "message" => "Ik hoopje dat dit berjocht jo goed fynt. Dit is in koarte update om jo te ynformearjen oer de status fan jo produkten op ús platfoarm yn 'e ôfrûne 24 oeren. Yn dizze perioade hawwe d'r feroaringen west yn 'e status fan guon produkten. Dizze wizigingen kinne wêze fanwege oankeapen, stock updates, of oare relatearre barrens. Foar mear detaillearre ynformaasje oer elk produkt, meld jo asjebleaft oan by jo akkount en kontrolearje de seksje 'Produktstatus'.",
+     "action" => "Iepenje Vendor Panel",
 ],
 ];

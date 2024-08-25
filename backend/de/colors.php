@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Blasser Kanarienvogel",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Elfenbein",
+     "#B3E5FC" => "Eis",
+     "#F1C40F" => "Dämmerung",
+     "#7DF9FF" => "Elektrisch",
+     "#FF6B35" => "Sonnenuntergang",
 ];

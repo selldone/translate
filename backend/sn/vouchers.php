@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Makorokoto, nyoresa uye ugamuchire iyi kadhi rechipo",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Iwe wakapinda saiti kuburikidza neicho chinongedzo chemushandisi anoshanda weSelldone, kana ukanyoresa muSelldone izvozvi, unogashira kadhi rechipo rinokosha $ 14.9. Kunyoresa nekuvaka chitoro muSelldone ndeye 100% yemahara, asi unogona kushandisa aya recharge makadhi kuzorodza sevhisi.",
-],
 ];

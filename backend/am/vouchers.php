@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "እንኳን ደስ አለዎት, ይመዝገቡ እና ይህን የስጦታ ካርድ ይቀበሉ",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "በሴልዶን ንቁ ተጠቃሚ አገናኝ በኩል ወደ ጣቢያው ገብተዋል፣ አሁን በሴልዶኔ ከተመዘገቡ 14.9 ዶላር የሚያወጣ የስጦታ ካርድ ይደርስዎታል። በ Selldone ውስጥ ሱቅ መመዝገብ እና መገንባት 100% ነፃ ነው፣ ነገር ግን አገልግሎቱን ለማስታገስ እነዚህን መሙላት ካርዶች መጠቀም ይችላሉ።",
-],
 ];

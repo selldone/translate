@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Lezi zifakazo azifani namarekhodi ethu.",
+     "password" => "Iphasiwedi enikeziwe ayilungile.",
      "throttle" => "Miningi kakhulu imizamo yokungena ngemvume. Sicela uzame futhi ngemva kwemizuzwana engu-:isekhondi.",
      "title_shop" => "Ngena ngemvume ku-:igama",
      "title_app" => "Ukufinyelela kuhlelo lokusebenza lwe-:name",

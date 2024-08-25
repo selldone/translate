@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Ezi ziqinisekiso azihambelani neerekhodi zethu.",
+     "password" => "Igama lokugqithisa elinikiweyo alichanekanga.",
      "throttle" => "Mininzi kakhulu imizamo yokungena. Nceda uzame kwakhona kwimizuzwana eyi-:.",
      "title_shop" => "Ngena kwi :igama",
      "title_app" => "Ukufikelela kwisicelo se :igama",

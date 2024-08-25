@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Izvi zvitupa hazvienderani nemarekodhi edu.",
+     "password" => "Pasiwedhi yakapihwa haina kururama.",
      "throttle" => "Kuedza kupinda kwakawanda. Edza zvakare mu:seconds seconds.",
      "title_shop" => "Login ku:zita",
      "title_app" => "Kuwanikwa kwekushandisa kwe:zita",

@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Miandry anao ny endri-javatra matihanina rehetra amin'ny fananganana fivarotana sy tranokala maimaim-poana tsy misy fe-potoana.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Serivisy tranonkala, antontan-taratasy momba ny fampivoarana fampiharana ary serivisy mifandray.",
-],
      "apps" => [
      "title" => "App store",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Firenena tohanana sy fandoavam-bola eo an-toerana - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, Ny dingana evolisiona manaraka amin'ny serivisy varotra avy amin'ny sehatra e-varotra mankany amin'ny zavatra tsy misy lohahevitra, plugin, na code. 100% hita maso!",
+],
+     "participant" => [
+     "title" => "Ny vondrom-piarahamonina tianao - Milalao ary mahazo $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Afaka mandray anjara amin'ny vondrom-piarahamonina seldone ianao amin'ny alàlan'ny famoronana horonan-tsary fohy hanampiana ny hafa ary hahazoana crédit fanomezana hatramin'ny 20 USD isaky ny horonan-tsary.",
+],
+     "tax" => [
+     "title" => "Lisitry ny tahan'ny hetra maneran-tany",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Azonao atao ny manafoana ny fitsipiky ny hetra ary mamorona mombamomba hetra mihoatra ny iray ho an'ny sokajy vokatra samihafa.",
+],
+     "premium" => [
+     "title" => "Havaozy ho Premium ary Ovao ny lalao E-Commerce-nao",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Amboary ny fivarotanao an-tserasera miaraka amin'ny Seldone Premium. Midira amin'ny fitaovana AI manokana, ny maodely voatokana, ary ny maro hafa mba hanamafisana ny fahombiazany sy hisongadina amin'ny tsena nomerika. Midira izao mba hahazoana traikefa e-varotra marani-tsaina kokoa sy malefaka!",
+],
+     "builder" => [
+     "title" => "Mpamorona Pejy maimaim-poana & Mpanonta Pejy Fametrahana Webapp - Tsy ilaina ny fidirana",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Mamorona pejin-tranonkala manaitra sy pejy fipetrahana amin'ny fomba mora miaraka amin'ny mpamorona sy mpamoaka pejy maimaim-poana sy mora ampiasaina. Tsy ilaina ny fidirana. Mamolavola, amboary ary avoaka haingana ny pejin-tranonkalanao miaraka amin'ny seha-pifandraisana misintona sy milatsaka intuitive. Tonga lafatra ho an'ny mpivarotra, tompona orinasa madinika ary mpamorona mitady vahaolana amin'ny famolavolana tranonkala tsy misy olana.",
 ],
 ],
      "shuttle" => [

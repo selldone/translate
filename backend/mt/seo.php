@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Il-karatteristiċi professjonali kollha tal-bini ta 'maħżen u sit b'xejn mingħajr ebda limitu ta' żmien qed jistennewk.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Servizz tal-web, dokumentazzjoni għall-iżvilupp tal-applikazzjoni u servizz konness.",
-],
      "apps" => [
      "title" => "App store",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Pajjiżi Appoġġjati u Ħlasijiet Lokali - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, Il-pass ta 'evoluzzjoni li jmiss tas-servizzi tal-kummerċ minn pjattaformi tal-kummerċ elettroniku għal xi ħaġa mingħajr tema, plugin jew kodiċi. 100% viżwalment!",
+],
+     "participant" => [
+     "title" => "Il-komunità li trid — Ilgħab u Irbaħ $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Tista' tipparteċipa fil-komunità selldone billi toħloq vidjows qosra biex tgħin lil ħaddieħor u tikseb sa kreditu ta' rigal ta' USD 20 għal kull vidjo.",
+],
+     "tax" => [
+     "title" => "Lista tar-Rati Globali tat-Taxxa",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Tista' tegħleb ir-regoli tat-taxxa u toħloq aktar minn profil tat-taxxa wieħed għal kategoriji ta' prodotti differenti.",
+],
+     "premium" => [
+     "title" => "Aġġorna għal Premium u Ittrasforma l-Logħba tal-Kummerċ Elettroniku Tiegħek",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Eleva l-ħanut online tiegħek b'Selldone Premium. Aċċessa għodod esklussivi tal-IA, mudelli apposta, u aktar biex tingħata spinta lill-effiċjenza u tispikka fis-suq diġitali. Ingħaqad issa għal esperjenza ta' kummerċ elettroniku aktar intelliġenti u aktar eleganti!",
+],
+     "builder" => [
+     "title" => "Bennej tal-Paġni B'xejn u Editur tal-Paġni tal-Inżul Webapp - Ebda Login Meħtieġa",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Oħloq paġni tal-web tal-isturdament u paġni ta' inżul mingħajr sforz bil-bennej u l-editur tagħna b'xejn u faċli għall-utent. Ebda login meħtieġ. Iddisinja, ippersonalizza, u ppubblika l-paġni tal-web tiegħek malajr bl-interface intuwittivi tagħna drag-and-drop. Perfetta għal negozjaturi, sidien ta 'negozji żgħar, u żviluppaturi li qed ifittxu soluzzjoni ta' disinn tal-web bla tbatija.",
 ],
 ],
      "shuttle" => [

@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Canari pâle",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Ivoire",
+     "#B3E5FC" => "Glace",
+     "#F1C40F" => "Aube",
+     "#7DF9FF" => "Électrique",
+     "#FF6B35" => "Coucher de soleil",
 ];

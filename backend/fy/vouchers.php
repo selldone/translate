@@ -73,14 +73,4 @@
      "price" => 3.588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Lokwinske, registrearje en ûntfange dizze kadokaart",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Jo binne de side ynfierd fia de keppeling fan in aktive brûker fan Selldone, as jo no registrearje yn Selldone, krije jo in kadokaart wurdich $ 14,9. It registrearjen en bouwen fan in winkel yn Selldone is 100% fergees, mar jo kinne dizze oplaadkaarten brûke om tsjinst te ûntlêsten.",
-],
 ];

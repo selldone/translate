@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Kenari pucat",
      "#FFFFB4" => "Portafin",
      "#FFFFF0" => "gadhing",
+     "#B3E5FC" => "es",
+     "#F1C40F" => "subuh",
+     "#7DF9FF" => "Listrik",
+     "#FF6B35" => "Sunset",
 ];

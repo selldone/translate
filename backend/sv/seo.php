@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Alla professionella funktioner för att bygga en butik och webbplats gratis utan tidsbegränsning väntar på dig.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Webbtjänst, dokumentation för applikationsutveckling och service kopplad.",
-],
      "apps" => [
      "title" => "App store",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Länder som stöds och lokala betalningar - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, nästa steg i utvecklingen av handelstjänster från e-handelsplattformar till något utan tema, plugin eller kod. 100% visuellt!",
+],
+     "participant" => [
+     "title" => "Gemenskapen du vill ha — Spela och vinn $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Du kan delta i selldone-gemenskapen genom att skapa korta videor för att hjälpa andra och få upp till 20 USD i presentkredit per video.",
+],
+     "tax" => [
+     "title" => "Global skattesatslista",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Du kan åsidosätta skatteregler och skapa mer än en skatteprofil för olika produktkategorier.",
+],
+     "premium" => [
+     "title" => "Uppgradera till Premium och förvandla ditt e-handelsspel",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Lyft din webbutik med Selldone Premium. Få tillgång till exklusiva AI-verktyg, skräddarsydda mallar och mer för att öka effektiviteten och sticka ut på den digitala marknaden. Gå med nu för en smartare, snyggare e-handelsupplevelse!",
+],
+     "builder" => [
+     "title" => "Gratis webbapp för sidbyggare och målsideredigerare - ingen inloggning krävs",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Skapa fantastiska webbsidor och målsidor utan ansträngning med vår kostnadsfria, användarvänliga sidbyggare och redigerare. Ingen inloggning krävs. Designa, anpassa och publicera dina webbsidor snabbt med vårt intuitiva dra-och-släpp-gränssnitt. Perfekt för marknadsförare, småföretagare och utvecklare som söker en problemfri webbdesignlösning.",
 ],
 ],
      "shuttle" => [

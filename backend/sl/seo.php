@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Vse profesionalne funkcije brezplačne gradnje trgovine in spletnega mesta brez časovne omejitve čakajo na vas.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Spletna storitev, dokumentacija za razvoj aplikacij in storitev povezana.",
-],
      "apps" => [
      "title" => "Trgovina z aplikacijami",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Podprte države in lokalna plačila - Poslovni OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Poslovni OS, naslednji razvojni korak komercialnih storitev od platform za e-trgovino do nečesa brez teme, vtičnika ali kode. 100% vizualno!",
+],
+     "participant" => [
+     "title" => "Skupnost, ki si jo želite – igrajte in osvojite 20 $",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "V skupnosti selldone lahko sodelujete tako, da ustvarite kratke videoposnetke, s katerimi pomagate drugim, in prejmete do 20 USD darilnega dobropisa na videoposnetek.",
+],
+     "tax" => [
+     "title" => "Globalni seznam davčnih stopenj",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Lahko preglasite davčna pravila in ustvarite več kot en davčni profil za različne kategorije izdelkov.",
+],
+     "premium" => [
+     "title" => "Nadgradite na Premium in spremenite svojo e-trgovinsko igro",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Izboljšajte svojo spletno trgovino s Selldone Premium. Dostopajte do ekskluzivnih orodij AI, prilagojenih predlog in še več, da povečate učinkovitost in izstopate na digitalnem trgu. Pridružite se zdaj za pametnejšo in elegantnejšo izkušnjo e-trgovine!",
+],
+     "builder" => [
+     "title" => "Brezplačna spletna aplikacija za ustvarjanje strani in urejevalnik ciljne strani – prijava ni potrebna",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Ustvarite osupljive spletne in ciljne strani brez napora z našim brezplačnim, uporabniku prijaznim graditeljem in urejevalnikom strani. Prijava ni potrebna. Hitro oblikujte, prilagodite in objavite svoje spletne strani z našim intuitivnim vmesnikom povleci in spusti. Popoln za tržnike, lastnike malih podjetij in razvijalce, ki iščejo rešitev za spletno oblikovanje brez težav.",
 ],
 ],
      "shuttle" => [

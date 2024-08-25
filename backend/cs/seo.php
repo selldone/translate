@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Čekají na vás všechny profesionální funkce budování obchodu a stránek zdarma bez jakéhokoli časového omezení.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Webová služba, dokumentace pro vývoj aplikací a připojená služba.",
-],
      "apps" => [
      "title" => "Obchod s aplikacemi",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Podporované země a místní platby – firemní OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Obchodní OS, další evoluční krok obchodních služeb od platforem elektronického obchodování k něčemu bez motivu, pluginu nebo kódu. 100% vizuálně!",
+],
+     "participant" => [
+     "title" => "Komunita, kterou chcete – hrajte a vyhrajte 20 $",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Můžete se zapojit do komunity selldone vytvořením krátkých videí, která pomohou ostatním, a získat dárkový kredit až 20 USD na video.",
+],
+     "tax" => [
+     "title" => "Globální seznam daňových sazeb",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Můžete přepsat daňová pravidla a vytvořit více než jeden daňový profil pro různé kategorie produktů.",
+],
+     "premium" => [
+     "title" => "Upgradujte na Premium a transformujte svou hru elektronického obchodu",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Pozvedněte svůj internetový obchod s Selldone Premium. Získejte přístup k exkluzivním nástrojům AI, šablonám na míru a dalším, abyste zvýšili efektivitu a vynikli na digitálním trhu. Připojte se nyní a získejte chytřejší a elegantnější e-commerce!",
+],
+     "builder" => [
+     "title" => "Bezplatná webová aplikace pro tvorbu stránek a editor vstupních stránek – není vyžadováno přihlášení",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Vytvářejte úžasné webové stránky a vstupní stránky bez námahy pomocí našeho bezplatného, uživatelsky přívětivého tvůrce a editoru stránek. Není vyžadováno žádné přihlášení. Navrhujte, přizpůsobujte a publikujte své webové stránky rychle pomocí našeho intuitivního rozhraní přetahování. Ideální pro obchodníky, majitele malých podniků a vývojáře, kteří hledají bezproblémové řešení pro návrh webu.",
 ],
 ],
      "shuttle" => [

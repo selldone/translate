@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Gefeliciteerd, registreer en ontvang deze cadeaubon",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "U bent op de site gekomen via de link van een actieve gebruiker van Selldone, als u zich nu in Selldone registreert, ontvangt u een cadeaubon ter waarde van $ 14,9. Het registreren en bouwen van een winkel in Selldone is 100% gratis, maar u kunt deze oplaadkaarten gebruiken om de service te ontlasten.",
-],
 ];

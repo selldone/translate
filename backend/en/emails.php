@@ -1,27 +1,40 @@
 <?php
 
 
+use App\Shop\Mail\enums\ShopMailTemplateCodes;
+
 return [
 
-    'email-types' => [
-        ['code' => 'order-checkout', 'title' => 'Order confirmed by buyer','icon'=>'shopping_bag'],
-        ['code' => 'order-payment', 'title' => 'Customer payment confirmation','icon'=>'shopping_bag add payment'],
-        ['code' => 'order-payment-admin', 'title' => 'Order confirmation notice to seller','icon'=>'shopping_bag add payment'],
-        ['code' => 'pos-checkout', 'title' => 'Confirm store box order for buyer','icon'=>'point_of_sale'],
-        ['code' => 'pos-payment', 'title' => 'Confirm payment of cash register for buyer','icon'=>'point_of_sale add payment'],
-        ['code' => 'pos-payment-admin', 'title' => "Notice of purchase in the seller's box",'icon'=>'point_of_sale add payment'],
-        ['code' => 'shop-contact', 'title' => 'Inform contact form','icon'=>'contact_support'],
-        ['code' => 'shop-customer-join', 'title' => 'Congratulations on joining the store','icon'=>'celebration'],
-        ['code' => 'shop-giftcard', 'title' => 'Announcement of receiving a gift card to the user','icon'=>'card_giftcard'],
+    'email-types-description' => [
+        ShopMailTemplateCodes::ShopCustomerJoin => 'This message welcomes a new buyer to the shop.',
+        ShopMailTemplateCodes::OrderCheckout => 'This notification is sent when a buyer confirms an order.',
+        ShopMailTemplateCodes::OrderPayment => 'This notification confirms the successful payment made by a customer.',
+        ShopMailTemplateCodes::OrderPaymentAdmin => 'This message is sent to a seller to notify them of a confirmed order.',
+        ShopMailTemplateCodes::PosCheckout => 'This notification is sent to confirm a point of sale order for a buyer.',
+        ShopMailTemplateCodes::PosPayment => 'This notification confirms a point of sale payment made by a buyer.',
+        ShopMailTemplateCodes::PosPaymentAdmin => 'This message notifies the seller of a purchase made at their point of sale.',
+        ShopMailTemplateCodes::ShopContact => 'This notification is sent when a contact form has been submitted.',
+        ShopMailTemplateCodes::ShopGiftCard => 'This notification informs a user that they have received a gift card.',
+
+        ShopMailTemplateCodes::ShopVendorJoin => 'This message welcomes a new vendor to the shop.',
+        ShopMailTemplateCodes::ShopVendorInvite => "This message is dispatched to invite a vendor to join your marketplace.",
+        ShopMailTemplateCodes::ShopVendorOrder => "This message is sent to the vendor when an order is received in either Paid or Cash on Delivery (COD) status.",
+        ShopMailTemplateCodes::ShopVendorProducts =>  "Dispatched daily to update vendors on the status of their products.",
+
+        ShopMailTemplateCodes::UserLogin =>  "Notify the user with login details, including IP address, date, and device, for security purposes.",
+        ShopMailTemplateCodes::LoginCode =>  "Send a one-time password code for users to log into the store.",
+
+        ShopMailTemplateCodes::EmailVerifyLink =>  "Send a link to verify the user's email address. This mail is sent when a user register by SMS and enter their email and is not sent when user register by social or email directly."
 
     ],
+
 
     'global' => [
         'greetings' => 'Hi, :name!',
         'end-statement' => 'Support team',
 
         'receiver_name' => 'Hi :user_name',
-        'footer-help' => "Need help? Ask at [support@selldone.com](mailto:support@selldone.com) or visit our [help center](https://selldone.com/help)",
+        'footer-help' => "Need help? Ask at [support@selldone.com](mailto:support@selldone.com) or visit our [help center](https://selldone.com/community)",
         'footer-shop' => "If you need help with anything please don't hesitate to drop us an email: :shop_mail",
         'accept' => "Accept",
         'reject' => "Reject",
@@ -117,117 +130,113 @@ return [
 
         'account' => 'Account',
         'transaction' => 'Transaction',
-        'fee'=>'Fee',
+        'fee' => 'Fee',
 
-        'location'=>'Location',
-        'ip'=>'IP',
+        'location' => 'Location',
+        'ip' => 'IP',
 
-        'bill'=>'Bill',
-        'category'=>'Category',
+        'bill' => 'Bill',
+        'category' => 'Category',
         'password' => 'Password',
         'shop' => 'Shop',
         'verify-login' => "Verify & Login",
-        'url'=>'URL',
-        'avocado'=>'Avocado',
-        'hyper'=>'Hyper',
-        'buy-now'=>"Buy Now",
-        'add-domain'=>"Add Domain",
-        'views'=>'Views',
+        'url' => 'URL',
+        'avocado' => 'Avocado',
+        'hyper' => 'Hyper',
+        'buy-now' => "Buy Now",
+        'add-domain' => "Add Domain",
+        'views' => 'Views',
 
 
-        'country'=>'Country',
-        'address'=>'Address',
-        'postal'=>'Postal Code',
-        'building_no'=>'Building #',
-        'building_unit'=>'Unit #',
-        'message'=>'Message',
+        'country' => 'Country',
+        'address' => 'Address',
+        'postal' => 'Postal Code',
+        'building_no' => 'Building #',
+        'building_unit' => 'Unit #',
+        'message' => 'Message',
 
 
-        'customer'=>'Customer',
-        'cart-items'=>'Cart items',
-        'payment'=>'Payment',
-        'receiver'=>'Receiver',
-        'virtual-items'=>'Virtual items',
-        'no-payment'=>'No payment!',
+        'customer' => 'Customer',
+        'cart-items' => 'Cart items',
+        'payment' => 'Payment',
+        'receiver' => 'Receiver',
+        'virtual-items' => 'Virtual items',
+        'no-payment' => 'No payment!',
 
-        'enable'=>'Enable',
-        'access'=>'Access',
-        'bank'=>'Bank info',
+        'enable' => 'Enable',
+        'access' => 'Access',
+        'bank' => 'Bank info',
 
-        'vendor'=>'Vendor',
+        'vendor' => 'Vendor',
 
         'view_content' => "View full content",
-        'files'=>'Files',
-        'download'=>'Download',
-        'file_name'=>'File Name',
-        'file_size'=>'Size',
+        'files' => 'Files',
+        'download' => 'Download',
+        'file_name' => 'File Name',
+        'file_size' => 'Size',
 
-        'subscription'=>'Subscription',
-
+        'subscription' => 'Subscription',
+        'products' => 'Products',
+        'vendor_products' => 'Vendor Products',
 
 
     ],
     //―――――――――――――――――――――――――――― Titles ―――――――――――――――――――――――――
-    'selldone-business-os'=>"Selldone Business OS",
+    'selldone-business-os' => "Selldone Business OS",
 
     //―――――――――――――――――――――――――――― Senders name & emails ―――――――――――――――――――――――――
-    'senders'=>[
-        'WeeklyReport'=>[
-            'id'=>'performance',
-            'name'=>'Selldone Performance Report'
+    'senders' => [
+        'WeeklyReport' => [
+            'id' => 'performance',
+            'name' => 'Selldone Performance Report'
         ],
-        'SeasonalReport'=>[
-            'id'=>'seasonal',
-            'name'=>'Selldone Seasonal Report'
+        'SeasonalReport' => [
+            'id' => 'seasonal',
+            'name' => 'Selldone Seasonal Report'
         ],
-        'Onboarding'=>[
-            'id'=>'hi',
-            'name'=>'Selldone Merchants'
+        'Onboarding' => [
+            'id' => 'hi',
+            'name' => 'Selldone Merchants'
         ],
-        'Support'=>[
-            'id'=>'support',
-            'name'=>'Support :name'
+        'Support' => [
+            'id' => 'support',
+            'name' => 'Support :name'
         ],
-        'EmailVerify'=>[
-            'id'=>'verify',
-            'name'=>'Selldone'
+        'EmailVerify' => [
+            'id' => 'verify',
+            'name' => 'Selldone'
         ],
-        'Welcome'=>[
-            'id'=>'hi',
-            'name'=>'Selldone Community'
+        'Welcome' => [
+            'id' => 'hi',
+            'name' => 'Selldone Community'
         ],
-        'NewShop'=>[
-            'id'=>'merchants',
-            'name'=>'Selldone Merchants'
+        'NewShop' => [
+            'id' => 'merchants',
+            'name' => 'Selldone Merchants'
         ],
-        'Approve'=>[
-            'id'=>'approve',
-            'name'=>'Selldone Merchants'
+        'Approve' => [
+            'id' => 'approve',
+            'name' => 'Selldone Merchants'
         ],
-        'SellerReceiveOrder'=>[
-            'id'=>'order',
-            'name'=>'Orders Management :name'
+        'SellerReceiveOrder' => [
+            'id' => 'order',
+            'name' => 'Orders Management :name'
         ],
 
-        'Recovery'=>[
-            'id'=>'recovery',
-            'name'=>'Selldone Recovery Team'
+        'Recovery' => [
+            'id' => 'recovery',
+            'name' => 'Selldone Recovery Team'
         ],
 
     ],
 
 
-
-
-
-
-
     'bill-status' => [
-        'PENDING'=>'Pending ⌛',
-        'PAYED'=>'Paid ✅',
-        'CANCELED'=>'Canceled ❌',
+        'PENDING' => 'Pending ⌛',
+        'PAYED' => 'Paid ✅',
+        'CANCELED' => 'Canceled ❌',
 
-        ],
+    ],
 
     'shop-invite' => [
         'LEVEL-NAME' => [
@@ -241,15 +250,15 @@ return [
             'VIEWER' => 'Viewer',
 
         ],
-        'subject'=>":inviter  Invite you as :level | :shop",
+        'subject' => ":inviter  Invite you as :level | :shop",
         'category' => "Staff invitation",
         'title' => "You have been invited to <b>:shop_name</b> as <b>:level</b>.",
-        'message' => "An invitation has been sent to you. You can confirm or reject it. If this invitation is approved by you, you must enter the Selldone service to confirm it. By confirming this invitation, you will have access to the store management section.",
+        'message' => "You've received an invitation to collaborate with the <b>:shop_title</b> team in business. You have the option to accept or decline this offer. Should you choose to accept, please log in to the Selldone service to confirm your decision. Upon confirmation, you will gain access to the store management section.",
 
     ],
 
     'welcome-email' => [
-        'subject'=>"👋 Welcome :name, Some interesting things just for you.",
+        'subject' => "👋 Welcome :name, Some interesting things just for you.",
         'category' => 'CONGRATULATION',
         'title' => "WELCOME TO SELLDONE",
         'message' => "Thank you for choosing Selldone! You are now part of the Selldone community that connects global sellers to customers, local businesses to enterprises, and individuals to corporations. All master and pro tools have been provided for you **free** and **unlimited**. We are here to support you and open the doors for you to succeed.",
@@ -276,25 +285,25 @@ return [
     ],
 
     'verify-email' => [
-        'subject'=>"🙌 Complete your sign up to Selldone! Verify link.",
+        'subject' => "🙌 Complete your sign up to Selldone! Verify link.",
         'category' => "YOU'RE ONE STEP AWAY",
         'title' => "Verify your email address",
         'message' => "Hi :name,<br>Thank  you for choosing Selldone.<br>Please confirm that **:email** is your e-mail address by clicking on the button or use the below link within 48 hours.",
         'footer' => "If you’re having trouble clicking the Verify button, copy and paste the URL below into your web browser: __:activation_url__"
     ],
     'verify-email-code' => [
-        'subject'=>"Verification code for :name",
+        'subject' => "Verification code for :name",
         'category' => "SECURITY",
         'title' => "Email verification code",
         'message' => "Hi :name,<br><br>Please confirm that **:email** is your e-mail address by this code within 10 minutes.",
     ],
     'onboarding-verify-email' => [
-        'subject'=>"🎉 Your Shop Is Ready | :name",
+        'subject' => "🎉 Your Shop Is Ready | :name",
         'category' => "YOU'RE ONE STEP AWAY",
         'title' => "Setup Completed",
-        'account_title'=>"Your account",
-        'account_msg'=>"Verify and login to your account with this info.",
-        'shop_msg'=>"Account info on the Selldone business operating system.",
+        'account_title' => "Your account",
+        'account_msg' => "Verify and login to your account with this info.",
+        'shop_msg' => "Account info on the Selldone business operating system.",
 
     ],
 
@@ -312,7 +321,7 @@ return [
         'category' => "BORN NEW ONLINE STORE IN THE WORLD",
         'title' => "Celebrating",
         'message' => "<b>Congratulation :name, you have created a new online business;</b> We wish you success in your business. Welcome to Selldoners community. <br>You try, we open the doors, and You did it.",
-        'pdf-book'=>"Don't miss attached hand book: Do Your Business Like A Game",
+        'pdf-book' => "Don't miss attached hand book: Do Your Business Like A Game",
         'account' => [
             'title' => 'Step 1: Create an account in the Selldone wallet',
             'message' => 'If you do not have an account in your wallet, create one. Selldone deducts the fee from this account. You can top up this account, and Selldone will also charge you an amount of credit so that if this account is negative, your site and Store will continue to operate.',
@@ -385,8 +394,16 @@ return [
         'subject' => "Join :shop_title",
         'category' => "New customer celebration",
         'title' => "We are happy for your membership",
-        'action' => "Visit now",
+        'action' => "View Shopping List",
     ],
+
+    'shop-vendor-join' => [
+        'subject' => "Vendor Onboarding | :shop_title",
+        'category' => "New vendor celebration",
+        'title' => "We are happy for your membership",
+        'action' => "Vendor Panel",
+    ],
+
 
     'shop-giftcard' => [
         'subject' => "Giftcard :shop_title",
@@ -401,7 +418,6 @@ return [
         'subject' => "Support center | :shop",
         'category' => "Support",
         'title' => "You received a response",
-        // 'action' => "Open shop admin",
     ],
 
     // -------------------------------------- Shop Customer ------------------------------------
@@ -456,14 +472,14 @@ return [
 
     // -------------------------------------- Weekly shop report ------------------------------------
     'selldone-weekly-report' => [
-        'subject'=>'📬 :shop_title | Weekly Report :time',
+        'subject' => '📬 :shop_title | Weekly Report :time',
         'title' => 'Weekly store performance report',
         'message' => "This is your store's weekly report from :start to :end. This report includes tips for improving your business, you can also check the status of your online store and recent orders. I hope you have a good day and week ahead."
     ],
 
     // -------------------------------------- Seasonal shop report ------------------------------------
     'shop-seasonal-report' => [
-        'subject'=>'☘ Your :amount saving report in the last three months | :shop_title',
+        'subject' => '☘ Your :amount saving report in the last three months | :shop_title',
         'title' => 'Seasonal report about your business activity, rewards and financial savings',
         'message' => "This is your :shop_title seasonal report from :start to :end."
     ],
@@ -641,9 +657,9 @@ return [
         'yes-coin-reward' => "<b style='color: #4CAF50'>Reward:</b> Congratulations, because of your fantastic performance, we gave you a :amount SEL Coin free reward.",
 
 
-        'need-buy-license'=>"<b>Level-up your business: </b>You have not registered any subscription plan for your business website! So it's the time to buy at least one subscription. It just costs :amount monthly for annual purchase.",
-        'not-afford-message'=>"If you can't afford or have any trouble with payment, feel free to tell us via support@selldone.com.",
-        'add-domain'=>"<b>Why not have a custom domain for your business?</b><br> Add a domain to your website now; it's free!",
+        'need-buy-license' => "<b>Level-up your business: </b>You have not registered any subscription plan for your business website! So it's the time to buy at least one subscription. It just costs :amount monthly for annual purchase.",
+        'not-afford-message' => "If you can't afford or have any trouble with payment, feel free to tell us via support@selldone.com.",
+        'add-domain' => "<b>Why not have a custom domain for your business?</b><br> Add a domain to your website now; it's free!",
 
     ],
 
@@ -659,10 +675,10 @@ return [
         'subject' => 'Received new Avocado orders | :shop_title :time',
         'title' => "Performance report for the last 24 hours",
         'message' => "Your customers are waiting for your orders to be reviewed and priced. Respond to your customers' requests as soon as possible to get more sales.",
-        'card_title'=>"Orders in the queue",
-        'card_subtitle'=>"From :date",
+        'card_title' => "Orders in the queue",
+        'card_subtitle' => "From :date",
 
-        'card_payed'=>"Paid orders",
+        'card_payed' => "Paid orders",
 
     ],
 
@@ -683,31 +699,33 @@ return [
     // -------------------------------------- User > Login ------------------------------------
     'user-login' => [
         'subject' => '🔔 New Login :name',
-        'category'=>'Security notifications',
+        'category' => 'Security notifications',
         'title' => "Login to Account",
-        'message' => "Dear :name, you have been login to your Selldone account.",
-        'footer'=>"If you are not logged in, please change your password. ",
+        'message' => "Dear :name, you have been logged in to your Selldone account.",   // Login in selldone (seller)
+        'message-shop' => "Dear :name, you have been logged in to :shop_title .",  // Login in shop (buyer)
+
+        'footer' => "If you are not logged in, please change your password. ",
 
     ],
 
 
     // -------------------------------------- Account > TransactionNotification ------------------------------------
-    'account-transaction'=>[
-        'withdraw'=>"Withdrawal",
-        'deposit'=>"Deposit",
+    'account-transaction' => [
+        'withdraw' => "Withdrawal",
+        'deposit' => "Deposit",
 
-        'withdraw_subject'=>"withdraw from account :account",
-        'deposit_subject'=>"Deposit to account :account",
+        'withdraw_subject' => "withdraw from account :account",
+        'deposit_subject' => "Deposit to account :account",
 
-        'message'=>"The money transfer has been done with the following specifications.",
+        'message' => "The money transfer has been done with the following specifications.",
 
-        'type'=>"Transaction type",
+        'type' => "Transaction type",
 
-        'from'=>"Source account",
-        'to'=>"Destination account",
+        'from' => "Source account",
+        'to' => "Destination account",
 
-        'desc'=>"Transaction description",
-        'action'=>"View transaction",
+        'desc' => "Transaction description",
+        'action' => "View transaction",
     ],
     // -------------------------------------- Shop > Penalty ------------------------------------
 
@@ -721,7 +739,7 @@ return [
 
     // -------------------------------------- User > Invite friend ------------------------------------
     'invite' => [
-        'subject'=>":inviter invited you to Selldone",
+        'subject' => ":inviter invited you to Selldone",
         'title' => ":name sent you :amount to help you launch your new online website and monetize it!",
         'message' => "On Selldone, you can create your e-commerce, blogging website, and online community and even get an online POS and set up in-person sales in minutes. It’s an online business operating system to make your business online, better and faster. Just sign up by <b>:date</b> to get a :amount voucher.",
         'accept' => "Accept invitation",
@@ -732,7 +750,7 @@ return [
 
     // -------------------------------------- Shop > Recovery mail ------------------------------------
     'shop-recovery' => [
-        'subject'=>"Recovery link | :shop",
+        'subject' => "Recovery link | :shop",
         'category' => "Shop security",
         'title' => "Store recovery link of <b>:shop_name</b>.",
         'message' => "This email was sent to you because you requested to restore your store. Clicking on the link below will recover your shop and all data belonging to it.",
@@ -753,7 +771,7 @@ return [
             'title' => 'Experts & Staff',
             'subtitle' => 'Developers, maintenance, and support',
         ],
-'total_save'=>'Total saved money'
+        'total_save' => 'Total saved money'
     ],
     // -------------------------------------- SR-SeasonalPerformance ------------------------------------
     'SR-SeasonalPerformance' => [
@@ -785,25 +803,41 @@ return [
     'vendor-order' => [
         'title' => 'New Order',
         'message' => "You have received a new order. Please go to the order processing page in your vendor panel.",
-        'subject' =>  "🛍️ New Order Received | :order_id ",
-        'your_revenue'=>"Your Revenue",
+        'subject' => "🛍️ New Order Received | :order_id ",
+        'your_revenue' => "Your Revenue",
     ],
     'vendor-invite' => [
         'title' => 'Vendor Invitation',
         'message' => "You have received an invitation to become vendor of :shop_name. You can accept or reject it by clicking on the following buttons.",
-        'subject' =>  ":shop_name | You received an invitation to become our vendor",
-        'accept'=>"Accept & Become a Vendor",
-        'reject'=>"Reject",
+        'subject' => ":shop_name | You received an invitation to become our vendor",
+        'accept' => "Accept & Become a Vendor",
+        'reject' => "Reject",
 
     ],
 
     // -------------------------------------- ShopEmailLogin ------------------------------------
-    'shop-email-login'=>[
-        'subject'=>"Your Login Code for :shop",
-        'header-message'=>"We are sending you this email because you requested a login code for the shop. Please find your One-Time Password (OTP) below:",
-        'footer-message'=>"This code will be valid for 10 minutes. If you did not request this login code, please ignore this email.<br><br>
-Best regards,"
-    ]
+    'shop-email-login' => [
+        'subject' => "Your Login Code for :shop",
+        'header-message' => "We are sending you this email because you requested a login code for the shop. Please find your One-Time Password (OTP) below:",
+        'footer-message' => "This code will be valid for 10 minutes. If you did not request this login code, please ignore this email."
+    ],
+
+    // -------------------------------------- ShopEmailVerifyLinkEmail ------------------------------------
+    'shop-email-verify-link' => [
+        'subject' => "Verify your email | :shop",
+        'title'=>'Email Verification',
+        'header-message' => "Hi :name,<br>Please confirm that **:email** is your e-mail address by clicking on the button or use the below link within 48 hours.",
+        'footer-message' => ""
+    ],
+
+
+    // -------------------------------------- ShopEmailLogin ------------------------------------
+    'vendor-products' => [
+        'subject' => "Products Update :shop",
+        'title' => "Update on Product Status - Last 24 Hours",
+        'message' => "I hope this message finds you well. This is a brief update to inform you about the status of your products on our platform over the past 24 hours.\nDuring this period, there have been changes in the status of some products. These changes may be due to purchases, stock updates, or other related events.\nFor more detailed information about each product, please log in to your account and check the 'Product Status' section.",
+        'action' => "Open Vendor Panel",
+    ],
 
 
 ];

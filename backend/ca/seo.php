@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Totes les característiques professionals de crear una botiga i un lloc de forma gratuïta sense cap límit de temps us esperen.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Servei web, documentació per al desenvolupament d'aplicacions i servei connectat.",
-],
      "apps" => [
      "title" => "Tenda d'aplicacions",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Països admesos i pagaments locals: sistema operatiu empresarial",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, el següent pas d'evolució dels serveis de comerç des de plataformes de comerç electrònic fins a alguna cosa sense tema, connector o codi. 100% visual!",
+],
+     "participant" => [
+     "title" => "La comunitat que vols: Juga i guanya 20 dòlars",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Pots participar a la comunitat selldone creant vídeos breus per ajudar els altres i obtenir un crèdit de regal de fins a 20 USD per vídeo.",
+],
+     "tax" => [
+     "title" => "Llista global de taxes fiscals",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Podeu anul·lar les normes fiscals i crear més d'un perfil fiscal per a diferents categories de productes.",
+],
+     "premium" => [
+     "title" => "Actualitza a Premium i transforma el teu joc de comerç electrònic",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Augmenta la teva botiga en línia amb Selldone Premium. Accediu a eines d'IA exclusives, plantilles a mida i més per augmentar l'eficiència i destacar al mercat digital. Uneix-te ara per a una experiència de comerç electrònic més intel·ligent i elegant!",
+],
+     "builder" => [
+     "title" => "Aplicació web gratuïta Creador de pàgines i Editor de pàgines de destinació: no cal iniciar sessió",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Creeu pàgines web i pàgines de destinació impressionants sense esforç amb el nostre creador i editor de pàgines gratuït i fàcil d'utilitzar. No cal iniciar sessió. Dissenyeu, personalitzeu i publiqueu les vostres pàgines web ràpidament amb la nostra interfície intuïtiva d'arrossegar i deixar anar. Perfecte per a venedors, propietaris de petites empreses i desenvolupadors que busquen una solució de disseny web sense problemes.",
 ],
 ],
      "shuttle" => [

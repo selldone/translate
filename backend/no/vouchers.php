@@ -73,14 +73,4 @@
      "price" => 3.588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Gratulerer, registrer deg og motta dette gavekortet",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Du har kommet inn på siden via lenken til en aktiv bruker av Selldone, hvis du registrerer deg i Selldone nå, vil du motta et gavekort verdt $ 14,9. Å registrere og bygge en butikk i Selldone er 100 % gratis, men du kan bruke disse ladekortene for å avlaste tjenesten.",
-],
 ];

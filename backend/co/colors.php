@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Canarie pallida",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Ivory",
+     "#B3E5FC" => "Ghiaccio",
+     "#F1C40F" => "Alba",
+     "#7DF9FF" => "Elettricu",
+     "#FF6B35" => "Tramontu",
 ];

@@ -73,14 +73,4 @@
      "price" => 3.588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "ucapan salamet, ngadaptar sarta nampa kartu kado ieu",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Anjeun parantos lebet kana situs ngalangkungan tautan pangguna aktif Seldone, upami anjeun ngadaptar di Selldone ayeuna, anjeun bakal nampi kartu kado bernilai $ 14,9. Ngadaptar sareng ngawangun toko di Selldone 100% gratis, tapi anjeun tiasa nganggo kartu ngecas ieu pikeun ngagentos jasa.",
-],
 ];

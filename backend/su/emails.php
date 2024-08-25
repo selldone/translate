@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Pesenan dikonfirmasi ku pembeli",
+     "email-types-description" => [
+     "shop-customer-join" => "Pesen ieu ngabagéakeun anu mésér énggal ka toko.",
+     "order-checkout" => "Bewara ieu dikirim nalika pembeli mastikeun pesenan.",
+     "order-payment" => "Bewara ieu mastikeun pamayaran anu suksés dilakukeun ku palanggan.",
+     "order-payment-admin" => "Pesen ieu dikirim ka seller pikeun ngabéjaan yén pesenan anu dikonfirmasi.",
+     "pos-checkout" => "Bewara ieu dikirim pikeun ngonfirmasi pesenan titik jual pikeun anu mésér.",
+     "pos-payment" => "Bewara ieu mastikeun pamayaran titik jual anu dilakukeun ku anu mésér.",
+     "pos-payment-admin" => "Pesen ieu ngabéjaan seller ngeunaan pameseran anu dilakukeun di tempat penjualanna.",
+     "shop-contact" => "Bewara ieu dikirim nalika formulir kontak parantos dikintunkeun.",
+     "shop-giftcard" => "Bewara ieu ngawartosan pangguna yén aranjeunna nampi kartu kado.",
+     "shop-vendor-join" => "Pesen ieu ngabagéakeun vendor énggal ka toko.",
+     "shop-vendor-invite" => "Pesen ieu dikirim pikeun ngundang vendor pikeun gabung ka pasar anjeun.",
+     "shop-vendor-order" => "Pesen ieu dikirim ka anu ngajual nalika pesenan ditampi dina status Paid atanapi Cash on Delivery (COD).",
+     "shop-vendor-products" => "Dikirim unggal dinten pikeun ngapdet para vendor ngeunaan status produkna.",
+     "shop-login" => "Béjakeun ka pangguna ngeunaan detil login, kalebet alamat IP, tanggal, sareng alat, pikeun tujuan kaamanan.",
+     "login-code" => "Kirim hiji-waktos kodeu sandi pikeun pamaké pikeun asup ka toko.",
+     "shop-email-verify-link" => "Kirim tautan pikeun pariksa alamat email pangguna. Surat ieu dikirim nalika pangguna ngadaptar ku SMS sareng asupkeun emailna sareng henteu dikirim nalika pangguna ngadaptar ku sosial atanapi email langsung.",
 ],
-        [
-     "title" => "Konfirmasi pamayaran customer",
-],
-        [
-     "title" => "bewara konfirmasi pesenan ka seller",
-],
-        [
-     "title" => "Konfirmasi pesenan kotak toko pikeun pembeli",
-],
-        [
-     "title" => "Konfirmasi pamayaran kasir pikeun pembeli",
-],
-        [
-     "title" => "Bewara pameseran dina kotak seller",
-],
-        [
-     "title" => "Ngawartosan formulir kontak",
-],
-        [
-     "title" => "Wilujeng sumping di toko",
-],
-        [
-     "title" => "Pengumuman narima kartu kado ka pamaké",
-]
-     ],
      "global" => [
      "greetings" => "Hi: ngaran",
      "end-statement" => "Tim rojongan",
@@ -126,7 +115,7 @@
      "transaction" => "Transaksi",
      "fee" => "waragad",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Kategori",
      "password" => "Sandi",
@@ -150,6 +139,18 @@
      "receiver" => "panarima",
      "virtual-items" => "Barang virtual",
      "no-payment" => "Teu mayar!",
+     "enable" => "Aktipkeun",
+     "access" => "Aksés",
+     "bank" => "Inpo bank",
+     "vendor" => "Ngajual",
+     "view_content" => "Nempo eusi pinuh",
+     "files" => "File",
+     "download" => "Ngundeur",
+     "file_name" => "Nami file",
+     "file_size" => "Ukuran",
+     "subscription" => "Langganan",
+     "products" => "Produk",
+     "vendor_products" => "Ngajual Produk",
 ],
      "selldone-business-os" => "OS Usaha Seldone",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "hi",
-     "name" => "Tim Seldone",
+     "name" => "Nyatujuan, Seldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "padagang",
-     "name" => "Padagang, Seldone",
+     "name" => "Nyatujuan, Seldone",
 ],
      "Approve" => [
      "id" => "nyatujuan",
@@ -339,6 +340,12 @@
      "category" => "Perayaan konsumén anyar",
      "title" => "Kami senang pikeun kaanggotaan Anjeun",
      "action" => "Nganjang ayeuna",
+],
+     "shop-vendor-join" => [
+     "subject" => "Ngajual Onboarding | :judul_toko",
+     "category" => "Perayaan vendor anyar",
+     "title" => "Kami senang pikeun kaanggotaan Anjeun",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Giftcard: shop_title",
@@ -558,6 +565,7 @@
      "category" => "Bewara kaamanan",
      "title" => "Login ka Akun",
      "message" => "Dear :nami, anjeun parantos lebet kana akun Seldone anjeun.",
+     "message-shop" => "Dear :name, anjeun geus asup ka :shop_title .",
      "footer" => "Mun anjeun teu asup log, mangga ngarobah sandi anjeun.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Total pintonan kaca ramatloka",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Anjeun parantos nampi pesenan énggal. Punten angkat ka halaman pangolahan pesenan dina panel vendor anjeun.",
+     "subject" => "🛍 Pesenan Anyar Ditampi | : id_pesenan",
+     "your_revenue" => "Panghasilan Anjeun",
+],
+     "vendor-invite" => [
+     "title" => "Ngajual Uleman",
+     "message" => "Anjeun parantos nampi uleman janten padagang: shop_name. Anjeun tiasa nampi atanapi nampik ku ngaklik tombol di handap ieu.",
+     "subject" => ":ngaran_toko | Anjeun nampi uleman pikeun janten vendor kami",
+     "accept" => "Tampa & Janten Vendor",
+     "reject" => "Nolak",
+],
+     "shop-email-login" => [
+     "subject" => "Kode Login anjeun pikeun: toko",
+     "header-message" => "Kami ngirim anjeun email ieu kusabab anjeun naroskeun kode login pikeun toko. Mangga panggihan Sandi Hiji-waktos (OTP) anjeun di handap:",
+     "footer-message" => "Kode ieu bakal valid pikeun 10 menit. Upami anjeun henteu menta kodeu login ieu, mangga malire email ieu.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Verifikasi surélék anjeun | : warung",
+     "title" => "Verifikasi surélék",
+     "header-message" => "hi: ngaran,<br> Punten pastikeun yén **: email ** mangrupikeun alamat e-mail anjeun ku ngaklik tombol atanapi nganggo tautan di handap dina 48 jam.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Update Produk: Toko",
+     "title" => "Apdet dina Status Produk - 24 Jam Terakhir",
+     "message" => "Kuring miharep pesen ieu manggihan anjeun ogé. Ieu mangrupikeun pembaruan ringkes pikeun nginpokeun ka anjeun ngeunaan status produk anjeun dina platform kami salami 24 jam katukang. Salila periode ieu, aya parobahan dina status sababaraha produk. Parobihan ieu tiasa disababkeun ku pameseran, apdet saham, atanapi acara anu aya hubunganana. Kanggo inpo nu langkung lengkep ihwal unggal produk, mangga lebet kana akun anjeun sareng pariksa bagian 'Status Produk'.",
+     "action" => "Buka Panel Vendor",
 ],
 ];

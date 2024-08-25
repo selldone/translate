@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Deze gegevens komen niet overeen met onze gegevens.",
+     "password" => "Het opgegeven wachtwoord is onjuist.",
      "throttle" => "Te veel inlogpogingen. Probeer het over :seconds seconden opnieuw.",
      "title_shop" => "Log in op :naam",
      "title_app" => "Toepassingstoegang van :naam",

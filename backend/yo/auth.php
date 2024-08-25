@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Awọn iwe-ẹri wọnyi ko baramu awọn igbasilẹ wa.",
+     "password" => "Ọrọigbaniwọle ti a pese ko tọ.",
      "throttle" => "Awọn igbiyanju iwọle pupọ ju. Jọwọ gbiyanju lẹẹkansi ni: iṣẹju-aaya.",
      "title_shop" => "Wọle si:name",
      "title_app" => "Wiwọle ohun elo ti :name",

@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Objednávka potvrzena kupujícím",
+     "email-types-description" => [
+     "shop-customer-join" => "Tato zpráva vítá nového kupujícího v obchodě.",
+     "order-checkout" => "Toto oznámení je odesláno, když kupující potvrdí objednávku.",
+     "order-payment" => "Toto oznámení potvrzuje úspěšnou platbu provedenou zákazníkem.",
+     "order-payment-admin" => "Tato zpráva je zaslána prodejci, aby jej informoval o potvrzené objednávce.",
+     "pos-checkout" => "Toto oznámení je odesláno za účelem potvrzení objednávky místa prodeje pro kupujícího.",
+     "pos-payment" => "Toto oznámení potvrzuje platbu v místě prodeje provedenou kupujícím.",
+     "pos-payment-admin" => "Tato zpráva informuje prodejce o nákupu uskutečněném v jeho prodejním místě.",
+     "shop-contact" => "Toto oznámení je odesláno po odeslání kontaktního formuláře.",
+     "shop-giftcard" => "Toto oznámení informuje uživatele, že obdržel dárkovou kartu.",
+     "shop-vendor-join" => "Tato zpráva vítá nového prodejce v obchodě.",
+     "shop-vendor-invite" => "Tato zpráva je odeslána, abychom pozvali dodavatele, aby se připojil k vašemu trhu.",
+     "shop-vendor-order" => "Tato zpráva je odeslána dodavateli, když je objednávka přijata ve stavu Zaplaceno nebo na dobírku (COD).",
+     "shop-vendor-products" => "Odesílá se denně, aby dodavatelé informovali o stavu jejich produktů.",
+     "shop-login" => "Informujte uživatele s přihlašovacími údaji, včetně IP adresy, data a zařízení, z bezpečnostních důvodů.",
+     "login-code" => "Odešlete jednorázový kód hesla, aby se uživatelé mohli přihlásit do obchodu.",
+     "shop-email-verify-link" => "Pošlete odkaz pro ověření e-mailové adresy uživatele. Tento e-mail je odeslán, když se uživatel zaregistruje pomocí SMS a zadá svůj e-mail, a není odeslán, když se uživatel zaregistruje přímo na sociální síti nebo e-mailem.",
 ],
-        [
-     "title" => "Potvrzení platby zákazníka",
-],
-        [
-     "title" => "Oznámení o potvrzení objednávky prodávajícímu",
-],
-        [
-     "title" => "Potvrďte objednávku skladové krabice pro kupujícího",
-],
-        [
-     "title" => "Potvrďte platbu pokladny pro kupujícího",
-],
-        [
-     "title" => "Oznámení o koupi v krabici prodávajícího",
-],
-        [
-     "title" => "Informujte kontaktní formulář",
-],
-        [
-     "title" => "Gratuluji k vstupu do obchodu",
-],
-        [
-     "title" => "Oznámení o přijetí dárkové karty uživateli",
-]
-     ],
      "global" => [
      "greetings" => "Ahoj: jmeno",
      "end-statement" => "Tým podpory",
@@ -55,7 +44,7 @@
      "cvv" => "CVV",
      "expire_date" => "Datum spotřeby",
      "dashboard" => "přístrojová deska",
-     "order" => "objednat",
+     "order" => "objednávka",
      "view_order" => "Zobrazit objednávku",
      "pay_now" => "Pay now",
      "official_selldone" => "OFICIÁLNĚ PRODÁNO",
@@ -126,7 +115,7 @@
      "transaction" => "Transakce",
      "fee" => "Poplatek",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Účtovat",
      "category" => "Kategorie",
      "password" => "Heslo",
@@ -150,6 +139,18 @@
      "receiver" => "Přijímač",
      "virtual-items" => "Virtuální předměty",
      "no-payment" => "Žádná platba!",
+     "enable" => "Umožnit",
+     "access" => "Přístup",
+     "bank" => "Bankovní informace",
+     "vendor" => "Prodejce",
+     "view_content" => "Zobrazit celý obsah",
+     "files" => "Soubory",
+     "download" => "Stažení",
+     "file_name" => "Název souboru",
+     "file_size" => "Velikost",
+     "subscription" => "Předplatné",
+     "products" => "produkty",
+     "vendor_products" => "Prodejce produktů",
 ],
      "selldone-business-os" => "Prodaný obchodní OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "Ahoj",
-     "name" => "Prodaný tým",
+     "name" => "Schvalujte, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "obchodníků",
-     "name" => "Obchodníci, Selldone",
+     "name" => "Schvalujte, Selldone",
 ],
      "Approve" => [
      "id" => "Schválit",
@@ -340,6 +341,12 @@
      "title" => "Jsme rádi za vaše členství",
      "action" => "Navštivte nyní",
 ],
+     "shop-vendor-join" => [
+     "subject" => "Registrace dodavatele | :název_obchodu",
+     "category" => "Oslava nového prodejce",
+     "title" => "Jsme rádi za vaše členství",
+     "action" => "Vendor Panel",
+],
      "shop-giftcard" => [
      "subject" => "Dárkový poukaz: název_obchodu",
      "category" => "Přidat novou kartu",
@@ -349,12 +356,12 @@
 ],
      "contact" => [
      "subject" => "Centrum podpory | :prodejna",
-     "category" => "Podpěra, podpora",
+     "category" => "podpora",
      "title" => "Obdrželi jste odpověď",
 ],
      "order-checkout" => [
      "subject" => "🛍 Objednávka Pokladna | :číslo objednávky",
-     "title" => "objednat",
+     "title" => "objednávka",
      "message" => "Vaši objednávku potvrďte,<br> Máme vaši objednávku. Po odeslání objednávky vám pošleme další e-mail.",
      "payments" => "Platby",
 ],
@@ -558,6 +565,7 @@
      "category" => "Bezpečnostní upozornění",
      "title" => "Přihlaste se k účtu",
      "message" => "Vážený :name, byli jste přihlášeni ke svému účtu Soldone.",
+     "message-shop" => "Vážený :name, jste přihlášeni do :shop_title .",
      "footer" => "Pokud nejste přihlášeni, změňte si prosím heslo.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Celkový počet zobrazení stránky webu",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Obdrželi jste novou objednávku. Přejděte prosím na stránku zpracování objednávky na panelu dodavatele.",
+     "subject" => "🛍 Nová objednávka přijata | :číslo objednávky",
+     "your_revenue" => "Váš příjem",
+],
+     "vendor-invite" => [
+     "title" => "Pozvánka dodavatele",
+     "message" => "Obdrželi jste pozvánku, abyste se stali dodavatelem :shop_name. Můžete jej přijmout nebo odmítnout kliknutím na následující tlačítka.",
+     "subject" => ":název_obchodu | Dostali jste pozvánku stát se naším prodejcem",
+     "accept" => "Přijměte a staňte se dodavatelem",
+     "reject" => "Odmítnout",
+],
+     "shop-email-login" => [
+     "subject" => "Váš přihlašovací kód pro :shop",
+     "header-message" => "Tento e-mail vám posíláme, protože jste požadovali přihlašovací kód do obchodu. Níže naleznete své jednorázové heslo (OTP):",
+     "footer-message" => "Tento kód bude platný 10 minut. Pokud jste si tento přihlašovací kód nevyžádali, ignorujte prosím tento e-mail.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Ověřte svůj email | :nakupovat",
+     "title" => "Ověření e-mailem",
+     "header-message" => "Ahoj: jmeno,<br> Do 48 hodin potvrďte, že **:email** je vaše e-mailová adresa, kliknutím na tlačítko nebo použijte níže uvedený odkaz.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Aktualizace produktů: obchod",
+     "title" => "Aktualizace stavu produktu – posledních 24 hodin",
+     "message" => "Doufám, že vás tato zpráva najde dobře. Toto je stručná aktualizace, která vás informuje o stavu vašich produktů na naší platformě za posledních 24 hodin. V tomto období došlo ke změnám ve stavu některých produktů. Tyto změny mohou být způsobeny nákupy, aktualizacemi zásob nebo jinými souvisejícími událostmi. Pro podrobnější informace o každém produktu se prosím přihlaste ke svému účtu a podívejte se do sekce 'Stav produktu'.",
+     "action" => "Otevřete panel dodavatele",
 ],
 ];

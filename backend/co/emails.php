@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Ordine cunfirmatu da u cumpratore",
+     "email-types-description" => [
+     "shop-customer-join" => "Stu messagiu accoglie un novu cumpratore in a buttrega.",
+     "order-checkout" => "Questa notificazione hè mandata quandu un cumpratore cunfirma un ordine.",
+     "order-payment" => "Questa notificazione cunfirma u pagamentu successu fattu da un cliente.",
+     "order-payment-admin" => "Stu messagiu hè mandatu à un venditore per avvisà li di un ordine cunfirmatu.",
+     "pos-checkout" => "Questa notificazione hè mandata per cunfirmà un ordine di puntu di vendita per un cumpratore.",
+     "pos-payment" => "Questa notificazione cunfirma un pagamentu puntu di vendita fattu da un cumpratore.",
+     "pos-payment-admin" => "Stu missaghju informa u vinditore di una compra fatta in u so puntu di vendita.",
+     "shop-contact" => "Questa notificazione hè mandata quandu un furmulariu di cuntattu hè statu sottumessu.",
+     "shop-giftcard" => "Questa notificazione informa un utilizatore chì hà ricevutu una carta rigalu.",
+     "shop-vendor-join" => "Stu messagiu accoglie un novu venditore in a buttrega.",
+     "shop-vendor-invite" => "Stu messagiu hè speditu per invità un venditore à unisce à u vostru mercatu.",
+     "shop-vendor-order" => "Stu missaghju hè mandatu à u vinditore quandu un ordine hè ricevutu in u statu Paid o Cash on Delivery (COD).",
+     "shop-vendor-products" => "Speditu ogni ghjornu per aghjurnà i venditori nantu à u statutu di i so prudutti.",
+     "shop-login" => "Notificà l'utilizatore cù i dati di login, cumpresu l'indirizzu IP, a data è u dispositivu, per scopi di sicurità.",
+     "login-code" => "Mandate un codice di password una volta per l'utilizatori per accede à a tenda.",
+     "shop-email-verify-link" => "Mandate un ligame per verificà l'indirizzu email di l'utilizatore. Stu mail hè mandatu quandu un utilizatore si registra per SMS è entre in u so email è ùn hè micca mandatu quandu l'utilizatore si registra per e-mail o suciali direttamente.",
 ],
-        [
-     "title" => "Cunferma di pagamentu di u cliente",
-],
-        [
-     "title" => "Avvisu di cunferma di ordine à u venditore",
-],
-        [
-     "title" => "Cunfirmà l'ordine di scatula di a tenda per u cumpratore",
-],
-        [
-     "title" => "Cunfirmà u pagamentu di u cash register per u cumpratore",
-],
-        [
-     "title" => "Avvisu di compra in a scatula di u venditore",
-],
-        [
-     "title" => "Informate forma di cuntattu",
-],
-        [
-     "title" => "Felicitazioni per unisce à a tenda",
-],
-        [
-     "title" => "Annunciu di riceve una carta rigalu à l'utilizatori",
-]
-     ],
      "global" => [
      "greetings" => "Salute : nome",
      "end-statement" => "Squadra di sustegnu",
@@ -126,7 +115,7 @@
      "transaction" => "Transazzione",
      "fee" => "Tariffa",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "categuria",
      "password" => "Codice",
@@ -150,6 +139,18 @@
      "receiver" => "Ricevitore",
      "virtual-items" => "Articuli virtuali",
      "no-payment" => "Nisun pagamentu !",
+     "enable" => "Attivà",
+     "access" => "Accessu",
+     "bank" => "infurmazione bancaria",
+     "vendor" => "Venditore",
+     "view_content" => "Vede u cuntenutu sanu",
+     "files" => "I schedari",
+     "download" => "Scaricate",
+     "file_name" => "File Name",
+     "file_size" => "Taglia",
+     "subscription" => "Abbonamentu",
+     "products" => "I prudutti",
+     "vendor_products" => "I prudutti di u venditore",
 ],
      "selldone-business-os" => "Selldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "salute",
-     "name" => "Selldone Team",
+     "name" => "Approva, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "i cummercianti",
-     "name" => "I cummercianti, Selldone",
+     "name" => "Approva, Selldone",
 ],
      "Approve" => [
      "id" => "appruvà",
@@ -339,6 +340,12 @@
      "category" => "Festa di u novu cliente",
      "title" => "Semu felici per a vostra adesione",
      "action" => "Visita avà",
+],
+     "shop-vendor-join" => [
+     "subject" => "Vendor Onboarding | : shop_title",
+     "category" => "Festa di u novu venditore",
+     "title" => "Semu felici per a vostra adesione",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Giftcard :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Notificazioni di sicurità",
      "title" => "Accedi à u contu",
      "message" => "Caru : nome, avete statu login à u vostru contu Selldone.",
+     "message-shop" => "Caru :name, site cunnessu à :shop_title .",
      "footer" => "Se ùn site micca cunnessu, cambiate a vostra password.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Totale viste di pagina di u situ web",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Avete ricevutu un novu ordine. Per piacè andate à a pagina di trattamentu di l'ordine in u vostru pannellu di venditore.",
+     "subject" => "🛍 Novu Ordine Ricevutu | : id_ordine",
+     "your_revenue" => "U vostru Revenue",
+],
+     "vendor-invite" => [
+     "title" => "Invitu di u venditore",
+     "message" => "Avete ricevutu un invitu à diventà venditore di :shop_name. Pudete accettà o ricusà clicchendu nantu à i seguenti buttoni.",
+     "subject" => ":shop_name | Avete ricevutu un invitu à diventà u nostru venditore",
+     "accept" => "Accetta è diventa un venditore",
+     "reject" => "Rifiuta",
+],
+     "shop-email-login" => [
+     "subject" => "U vostru codice di login per :shop",
+     "header-message" => "Vi mandemu stu email perchè avete dumandatu un codice di login per a buttrega. Per piacè truvate a vostra Password One-Time (OTP) quì sottu:",
+     "footer-message" => "Stu codice serà validu per 10 minuti. Se ùn avete micca dumandatu stu codice di login, ignurate stu email.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Verificate u vostru email | : buttrega",
+     "title" => "Verificazione di e-mail",
+     "header-message" => "Salute : nome,<br> Per piacè cunfirmà chì **:email** hè u vostru indirizzu e-mail clicchendu nant'à u buttone o aduprate u ligame sottu in 48 ore.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Actualizazione di i prudutti: shop",
+     "title" => "Actualizazione nantu à u Statu di u Produttu - Ultime 24 Ore",
+     "message" => "Spergu chì stu missaghju vi trova bè. Questa hè una breve aghjurnazione per informàvi di u statutu di i vostri prudutti nantu à a nostra piattaforma in l'ultime 24 ore. Duranti stu periodu, ci sò stati cambiamenti in u statutu di certi prudutti. Questi cambiamenti pò esse dovutu à compra, aghjurnamenti di stock, o altri avvenimenti rilativi. Per infurmazione più dettagliata nantu à ogni pruduttu, accede à u vostru contu è verificate a sezione 'Status di u produttu'.",
+     "action" => "Open Vendor Panel",
 ],
 ];

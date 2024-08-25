@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Pesanan dikonfirmasi oleh pembeli",
+     "email-types-description" => [
+     "shop-customer-join" => "Pesan ini menyambut pembeli baru di toko.",
+     "order-checkout" => "Pemberitahuan ini dikirim saat pembeli mengonfirmasi pesanan.",
+     "order-payment" => "Pemberitahuan ini mengonfirmasi keberhasilan pembayaran yang dilakukan oleh pelanggan.",
+     "order-payment-admin" => "Pesan ini dikirim ke penjual untuk memberitahukan mereka tentang pesanan yang terkonfirmasi.",
+     "pos-checkout" => "Pemberitahuan ini dikirim untuk mengonfirmasi pesanan titik penjualan untuk pembeli.",
+     "pos-payment" => "Pemberitahuan ini mengonfirmasi pembayaran di tempat penjualan yang dilakukan oleh pembeli.",
+     "pos-payment-admin" => "Pesan ini memberitahukan penjual tentang pembelian yang dilakukan di tempat penjualan mereka.",
+     "shop-contact" => "Pemberitahuan ini dikirimkan saat formulir kontak telah dikirimkan.",
+     "shop-giftcard" => "Pemberitahuan ini menginformasikan pengguna bahwa mereka telah menerima kartu hadiah.",
+     "shop-vendor-join" => "Pesan ini menyambut vendor baru di toko.",
+     "shop-vendor-invite" => "Pesan ini dikirim untuk mengundang vendor untuk bergabung dengan pasar Anda.",
+     "shop-vendor-order" => "Pesan ini dikirimkan ke vendor saat pesanan diterima dalam status Dibayar atau Tunai saat Pengiriman (COD).",
+     "shop-vendor-products" => "Dikirim setiap hari untuk memberi tahu vendor tentang status produk mereka.",
+     "shop-login" => "Beritahu pengguna dengan rincian login, termasuk alamat IP, tanggal, dan perangkat, untuk tujuan keamanan.",
+     "login-code" => "Kirim kode kata sandi satu kali bagi pengguna untuk masuk ke toko.",
+     "shop-email-verify-link" => "Kirim tautan untuk memverifikasi alamat email pengguna. Email ini dikirim saat pengguna mendaftar melalui SMS dan memasukkan email mereka, dan tidak dikirim saat pengguna mendaftar melalui media sosial atau email secara langsung.",
 ],
-        [
-     "title" => "Konfirmasi pembayaran pelanggan",
-],
-        [
-     "title" => "Pemberitahuan konfirmasi pesanan kepada penjual",
-],
-        [
-     "title" => "Konfirmasi pesanan kotak toko untuk pembeli",
-],
-        [
-     "title" => "Konfirmasi pembayaran kasir untuk pembeli",
-],
-        [
-     "title" => "Pemberitahuan pembelian di kotak penjual",
-],
-        [
-     "title" => "Informasikan formulir kontak",
-],
-        [
-     "title" => "Selamat bergabung di toko",
-],
-        [
-     "title" => "Pengumuman menerima kartu hadiah kepada pengguna",
-]
-     ],
      "global" => [
      "greetings" => "hai :nama",
      "end-statement" => "Tim pendukung",
@@ -126,7 +115,7 @@
      "transaction" => "Transaksi",
      "fee" => "Biaya",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Tagihan",
      "category" => "Kategori",
      "password" => "Kata sandi",
@@ -150,6 +139,18 @@
      "receiver" => "Penerima",
      "virtual-items" => "Barang virtual",
      "no-payment" => "Tidak ada pembayaran!",
+     "enable" => "Memungkinkan",
+     "access" => "Mengakses",
+     "bank" => "informasi bank",
+     "vendor" => "Penjual",
+     "view_content" => "Lihat konten lengkapnya",
+     "files" => "File",
+     "download" => "Unduh",
+     "file_name" => "Nama Berkas",
+     "file_size" => "Ukuran",
+     "subscription" => "Berlangganan",
+     "products" => "Produk",
+     "vendor_products" => "Produk Penjual",
 ],
      "selldone-business-os" => "OS Bisnis Selldone",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "hai",
-     "name" => "Tim Selldone",
+     "name" => "Setuju, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "pedagang",
-     "name" => "Pedagang, Selldone",
+     "name" => "Setuju, Selldone",
 ],
      "Approve" => [
      "id" => "menyetujui",
@@ -339,6 +340,12 @@
      "category" => "Perayaan pelanggan baru",
      "title" => "Kami senang atas keanggotaan Anda",
      "action" => "Kunjungi sekarang",
+],
+     "shop-vendor-join" => [
+     "subject" => "Pendaftaran Vendor | :shop_title",
+     "category" => "Perayaan vendor baru",
+     "title" => "Kami senang atas keanggotaan Anda",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Kartu hadiah :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Pemberitahuan keamanan",
      "title" => "Masuk ke Akun",
      "message" => "Dear :name, Anda telah login ke akun Selldone Anda.",
+     "message-shop" => "Yang terhormat :name, Anda telah masuk ke :shop_title .",
      "footer" => "Jika Anda belum masuk, silakan ubah kata sandi Anda.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Total tampilan halaman situs web",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Anda telah menerima pesanan baru. Silakan buka halaman pemrosesan pesanan di panel vendor Anda.",
+     "subject" => "Pesanan Baru Diterima | :Id pemesanan",
+     "your_revenue" => "Pendapatan Anda",
+],
+     "vendor-invite" => [
+     "title" => "Undangan Vendor",
+     "message" => "Anda telah menerima undangan untuk menjadi vendor :shop_name. Anda dapat menerima atau menolaknya dengan mengeklik tombol berikut.",
+     "subject" => ":shop_name | Anda menerima undangan untuk menjadi vendor kami",
+     "accept" => "Terima & Menjadi Vendor",
+     "reject" => "Menolak",
+],
+     "shop-email-login" => [
+     "subject" => "Kode Login Anda untuk :shop",
+     "header-message" => "Kami mengirimkan email ini karena Anda meminta kode login untuk toko. Temukan Kata Sandi Sekali Pakai (OTP) Anda di bawah ini:",
+     "footer-message" => "Kode ini akan berlaku selama 10 menit. Jika Anda tidak meminta kode login ini, abaikan email ini.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Verifikasi email Anda | :shop",
+     "title" => "Verifikasi Email",
+     "header-message" => "Hai :nama,<br> Harap konfirmasikan bahwa **:email** adalah alamat e-mail Anda dengan mengeklik tombol atau menggunakan tautan di bawah ini dalam waktu 48 jam.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Pembaruan Produk :toko",
+     "title" => "Pembaruan Status Produk - 24 Jam Terakhir",
+     "message" => "Saya harap pesan ini sampai kepada Anda dengan baik. Ini adalah pembaruan singkat untuk memberi tahu Anda tentang status produk Anda di platform kami selama 24 jam terakhir. Selama periode ini, telah terjadi perubahan status pada beberapa produk. Perubahan ini mungkin terjadi karena pembelian, pembaruan stok, atau kejadian terkait lainnya. Untuk informasi lebih rinci tentang setiap produk, silakan masuk ke akun Anda dan periksa bagian 'Status Produk'.",
+     "action" => "Panel Vendor Terbuka",
 ],
 ];

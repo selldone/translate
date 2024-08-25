@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Narudžbu potvrdio kupac",
+     "email-types-description" => [
+     "shop-customer-join" => "Ova poruka želi dobrodošlicu novom kupcu u radnju.",
+     "order-checkout" => "Ova obavijest se šalje kada kupac potvrdi narudžbu.",
+     "order-payment" => "Ovo obavještenje potvrđuje uspješno plaćanje od strane kupca.",
+     "order-payment-admin" => "Ova poruka se šalje prodavcu da ga obavijesti o potvrđenoj narudžbi.",
+     "pos-checkout" => "Ova obavijest se šalje za potvrdu narudžbe na prodajnom mjestu za kupca.",
+     "pos-payment" => "Ovo obavještenje potvrđuje plaćanje na prodajnom mjestu koje je izvršio kupac.",
+     "pos-payment-admin" => "Ova poruka obavještava prodavca o kupovini obavljenoj na njegovom prodajnom mjestu.",
+     "shop-contact" => "Ovo obavještenje se šalje kada se pošalje obrazac za kontakt.",
+     "shop-giftcard" => "Ovo obavještenje obavještava korisnika da je primio poklon karticu.",
+     "shop-vendor-join" => "Ova poruka želi dobrodošlicu novom prodavcu u radnju.",
+     "shop-vendor-invite" => "Ova poruka se šalje da pozovete prodavca da se pridruži vašem tržištu.",
+     "shop-vendor-order" => "Ova poruka se šalje prodavcu kada se narudžba primi u statusu Plaćeno ili Pouzećem (COD).",
+     "shop-vendor-products" => "Šalje se svakodnevno radi ažuriranja dobavljača o statusu njihovih proizvoda.",
+     "shop-login" => "Obavijestite korisnika s detaljima za prijavu, uključujući IP adresu, datum i uređaj, iz sigurnosnih razloga.",
+     "login-code" => "Pošaljite kod za jednokratnu lozinku za korisnike da se prijave u prodavnicu.",
+     "shop-email-verify-link" => "Pošaljite link da potvrdite adresu e-pošte korisnika. Ovaj mail se šalje kada se korisnik registruje putem SMS-a i unese svoju e-poštu i ne šalje se kada se korisnik registruje putem društvene mreže ili direktno putem e-pošte.",
 ],
-        [
-     "title" => "Potvrda plaćanja kupca",
-],
-        [
-     "title" => "Obavijest o potvrdi narudžbe prodavcu",
-],
-        [
-     "title" => "Potvrdite narudžbu u kutiji za kupca",
-],
-        [
-     "title" => "Potvrdite uplatu kase za kupca",
-],
-        [
-     "title" => "Obavijest o kupovini u kutiji prodavca",
-],
-        [
-     "title" => "Informirajte kontakt formu",
-],
-        [
-     "title" => "Čestitam na pridruživanju trgovini",
-],
-        [
-     "title" => "Najava prijema poklon kartice korisniku",
-]
-     ],
      "global" => [
      "greetings" => "Zdravo :name",
      "end-statement" => "Tim za podršku",
@@ -126,7 +115,7 @@
      "transaction" => "Transakcija",
      "fee" => "Naknada",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Kategorija",
      "password" => "Lozinka",
@@ -150,6 +139,18 @@
      "receiver" => "Prijemnik",
      "virtual-items" => "Virtuelne stavke",
      "no-payment" => "Nema plaćanja!",
+     "enable" => "Omogući",
+     "access" => "Pristup",
+     "bank" => "Podaci o banci",
+     "vendor" => "Vendor",
+     "view_content" => "Pogledajte cijeli sadržaj",
+     "files" => "Fajlovi",
+     "download" => "Skinuti",
+     "file_name" => "Ime datoteke",
+     "file_size" => "Veličina",
+     "subscription" => "Pretplata",
+     "products" => "Proizvodi",
+     "vendor_products" => "Vendor Products",
 ],
      "selldone-business-os" => "Selldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "zdravo",
-     "name" => "Selldone Team",
+     "name" => "Odobri, Seldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "trgovci",
-     "name" => "Trgovci, Seldone",
+     "name" => "Odobri, Seldone",
 ],
      "Approve" => [
      "id" => "odobriti",
@@ -339,6 +340,12 @@
      "category" => "Proslava novih kupaca",
      "title" => "Sretni smo zbog vašeg članstva",
      "action" => "Posjetite sada",
+],
+     "shop-vendor-join" => [
+     "subject" => "Uključivanje dobavljača | :shop_title",
+     "category" => "Proslava novog prodavca",
+     "title" => "Sretni smo zbog vašeg članstva",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Poklon kartica :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Sigurnosna obavještenja",
      "title" => "Prijavite se na račun",
      "message" => "Poštovani :name, bili ste prijavljeni na svoj Selldone nalog.",
+     "message-shop" => "Poštovani :name, prijavljeni ste na :shop_title .",
      "footer" => "Ako niste prijavljeni, promijenite lozinku.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Ukupan broj pregleda web stranice",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Primili ste novu narudžbu. Idite na stranicu za obradu narudžbi u panelu vašeg dobavljača.",
+     "subject" => "🛍 Nova narudžba primljena | :order_id",
+     "your_revenue" => "Vaš prihod",
+],
+     "vendor-invite" => [
+     "title" => "Vendor Invitation",
+     "message" => "Primili ste poziv da postanete prodavac :shop_name. Možete ga prihvatiti ili odbiti klikom na sljedeća dugmad.",
+     "subject" => ":shop_name | Dobili ste poziv da postanete naš prodavac",
+     "accept" => "Prihvatite i postanite prodavac",
+     "reject" => "Odbiti",
+],
+     "shop-email-login" => [
+     "subject" => "Vaš kod za prijavu za :shop",
+     "header-message" => "Šaljemo vam ovu e-poštu jer ste zatražili kod za prijavu u trgovinu. Molimo pronađite svoju jednokratnu lozinku (OTP) ispod:",
+     "footer-message" => "Ovaj kod će važiti 10 minuta. Ako niste zatražili ovaj kod za prijavu, zanemarite ovu e-poštu.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Potvrdite svoju e-poštu | :shop",
+     "title" => "Potvrda e-pošte",
+     "header-message" => "Zdravo :name,<br> Molimo potvrdite da je **:e-pošta** vaša e-mail adresa klikom na dugme ili koristite link ispod u roku od 48 sati.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Ažuriranje proizvoda :shop",
+     "title" => "Ažuriranje statusa proizvoda - zadnja 24 sata",
+     "message" => "Nadam se da će vas ova poruka dobro naći. Ovo je kratko ažuriranje kako bismo vas obavijestili o statusu vaših proizvoda na našoj platformi u protekla 24 sata. Tokom ovog perioda došlo je do promjena u statusu nekih proizvoda. Ove promjene mogu biti posljedica kupovina, ažuriranja zaliha ili drugih povezanih događaja. Za detaljnije informacije o svakom proizvodu, prijavite se na svoj račun i provjerite odjeljak 'Status proizvoda'.",
+     "action" => "Otvorite Panel dobavljača",
 ],
 ];

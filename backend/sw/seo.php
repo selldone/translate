@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Vipengele vyote vya kitaalamu vya kujenga duka na tovuti bila malipo bila kikomo cha muda vinakungoja.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Huduma ya wavuti, hati za ukuzaji wa programu na huduma zimeunganishwa.",
-],
      "apps" => [
      "title" => "Duka la programu",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Nchi Zinazotumika na Malipo ya Ndani - Mfumo wa Uendeshaji wa Biashara",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, Hatua inayofuata ya mageuzi ya huduma za biashara kutoka kwa majukwaa ya biashara ya mtandaoni hadi kitu kisicho na mandhari, programu-jalizi au msimbo. 100% kwa macho!",
+],
+     "participant" => [
+     "title" => "Jumuiya unayotaka - Cheza na Ushinde $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Unaweza kushiriki katika jumuiya ya selldone kwa kuunda video fupi ili kuwasaidia wengine na kupata zawadi ya zawadi ya hadi USD 20 kwa kila video.",
+],
+     "tax" => [
+     "title" => "Orodha ya Viwango vya Ushuru Ulimwenguni",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Unaweza kubatilisha sheria za ushuru na kuunda zaidi ya wasifu mmoja wa ushuru kwa aina tofauti za bidhaa.",
+],
+     "premium" => [
+     "title" => "Pata toleo jipya la Premium na Ubadilishe Mchezo Wako wa Biashara ya Mtandaoni",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Kuinua duka lako la mtandaoni kwa Selldone Premium. Fikia zana za kipekee za AI, violezo vilivyopendekezwa, na zaidi ili kuongeza ufanisi na kujulikana katika soko la kidijitali. Jiunge sasa ili upate uzoefu nadhifu na maridadi wa biashara ya mtandaoni!",
+],
+     "builder" => [
+     "title" => "Mjenzi wa Ukurasa wa Bure na Kihariri cha Ukurasa wa Kutua - Hakuna Kuingia Kunahitajika",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Unda kurasa za wavuti zinazovutia na kurasa za kutua kwa urahisi ukitumia kiunda na kihariri chetu cha kurasa zisizolipishwa na zinazofaa mtumiaji. Hakuna kuingia kunahitajika. Buni, geuza kukufaa, na uchapishe kurasa zako za wavuti kwa haraka ukitumia kiolesura chetu cha angavu cha kuburuta na kudondosha. Ni kamili kwa wauzaji bidhaa, wamiliki wa biashara ndogo ndogo, na watengenezaji wanaotafuta suluhisho la uundaji wa wavuti bila usumbufu.",
 ],
 ],
      "shuttle" => [

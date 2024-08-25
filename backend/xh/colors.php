@@ -1628,4 +1628,8 @@
      "#FFFF99" => "IPale Canary",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Uphondo lwendlovu",
+     "#B3E5FC" => "Umkhenkce",
+     "#F1C40F" => "Kwasa",
+     "#7DF9FF" => "Umbane",
+     "#FF6B35" => "Ukutshona kwelanga",
 ];

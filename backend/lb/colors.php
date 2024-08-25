@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Bleech Kanaresch",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Elfebeen",
+     "#B3E5FC" => "Eis",
+     "#F1C40F" => "Sonnenopgang",
+     "#7DF9FF" => "Elektresch",
+     "#FF6B35" => "Sonnenënnergang",
 ];

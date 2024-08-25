@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Kanaria mavo",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Ivory",
+     "#B3E5FC" => "gilasy",
+     "#F1C40F" => "mangiran-dratsy",
+     "#7DF9FF" => "elektrika",
+     "#FF6B35" => "masoandro",
 ];

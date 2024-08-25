@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Ev pêbawer bi qeydên me re li hev nakin.",
+     "password" => "Şîfreya pêşkêşkirî çewt e.",
      "throttle" => "Gelek hewldanên têketinê. Ji kerema xwe di nav: çirkeyan de dîsa biceribîne.",
      "title_shop" => "Têkeve :name",
      "title_app" => "Gihîştina serîlêdanê ya :name",

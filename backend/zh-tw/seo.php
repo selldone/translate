@@ -14,8 +14,8 @@
         "自定義社區構建器",
         "白標電子商務"
      ],
-     "samin" => "賣完了",
-     "Selldone" => "賣完了",
+     "samin" => "塞爾多內",
+     "Selldone" => "塞爾多內",
      "related" => "有關的",
      "share" => "分享",
      "global" => [
@@ -33,7 +33,7 @@
 ],
      "footer-menu" => [
         [
-     "title" => "賣完了",
+     "title" => "塞爾多內",
      "items" => [
         [
      "title" => "業務平台",
@@ -172,7 +172,7 @@
      "seo" => "自動搜索引擎優化引擎",
      "automation" => "自動化與物聯網",
      "ai" => "人工智能商務",
-     "app-builder" => "應用程序構建器",
+     "app-builder" => "應用程式建構器",
 ],
      "build" => "建造",
      "build-sub" => "我們圍繞您創建一個系統來創建您的成功故事。",
@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "無時間限制免費建店建站的所有專業功能等著你。",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Web 服務、應用程序開發文檔和連接的服務。",
-],
      "apps" => [
      "title" => "應用商店",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "支持的國家和本地支付 - 商業操作系統",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS，從電子商務平台到沒有主題、插件或代碼的商業服務的下一步發展。 100% 視覺效果！",
+],
+     "participant" => [
+     "title" => "您想要的社區 — 玩並贏取 20 美元",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "您可以透過創建短影片來參與 selldone 社群來幫助他人，每個影片最多可獲得 20 美元的禮物積分。",
+],
+     "tax" => [
+     "title" => "全球稅率表",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "您可以覆寫稅務規則並為不同的產品類別建立多個稅務設定檔。",
+],
+     "premium" => [
+     "title" => "升級到高級版並轉換您的電子商務遊戲",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "使用 Seldone Premium 提升您的線上商店。訪問獨家人工智慧工具、客製化模板等，以提高效率並在數位市場中脫穎而出。立即加入，享受更聰明、更時尚的電子商務體驗！",
+],
+     "builder" => [
+     "title" => "免費頁面產生器和登陸頁面編輯器網頁應用程式 - 無需登入",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "使用我們免費、用戶友好的頁面建立器和編輯器輕鬆創建令人驚嘆的網頁和登陸頁面。無需登入。使用我們直覺的拖放介面快速設計、自訂和發佈您的網頁。非常適合尋求無憂網頁設計解決方案的行銷人員、小型企業主和開發人員。",
 ],
 ],
      "shuttle" => [

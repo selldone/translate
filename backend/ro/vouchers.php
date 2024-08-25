@@ -73,14 +73,4 @@
      "price" => 3.588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Felicitări, înregistrează-te și primești acest card cadou",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Ați intrat pe site prin linkul unui utilizator activ al Selldone, dacă vă înregistrați acum în Selldone, veți primi un card cadou în valoare de 14,9 USD. Înregistrarea și construirea unui magazin în Selldone este 100% gratuită, dar puteți folosi aceste carduri de reîncărcare pentru a reduce serviciul.",
-],
 ];

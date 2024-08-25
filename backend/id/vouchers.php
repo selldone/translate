@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Selamat, daftar dan terima kartu hadiah ini",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Anda telah memasuki situs melalui tautan pengguna aktif Selldone, jika Anda mendaftar di Selldone sekarang, Anda akan menerima kartu hadiah senilai $14.9. Mendaftar dan membangun toko di Selldone adalah 100% gratis, tetapi Anda dapat menggunakan kartu isi ulang ini untuk meringankan layanan.",
-],
 ];

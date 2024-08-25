@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Koma Kanari",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Rei rei",
+     "#B3E5FC" => "Hukapapa",
+     "#F1C40F" => "Ataata",
+     "#7DF9FF" => "Hiko",
+     "#FF6B35" => "Toto o te ra",
 ];

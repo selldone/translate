@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Süre sınırlaması olmadan ücretsiz mağaza ve site kurmanın tüm profesyonel özellikleri sizleri bekliyor.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Web hizmeti, uygulama geliştirme için belgeler ve bağlı hizmet.",
-],
      "apps" => [
      "title" => "Uygulama mağazası",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Desteklenen Ülkeler ve Yerel Ödemeler - İşletme İşletim Sistemi",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, Ticaret hizmetlerinin e-ticaret platformlarından teması, eklentisi veya kodu olmayan bir şeye sonraki evrim adımı. %100 görsel olarak!",
+],
+     "participant" => [
+     "title" => "İstediğiniz topluluk — Oynayın ve 20$ Kazanın",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Başkalarına yardım etmek için kısa videolar oluşturarak selldone topluluğuna katılabilir ve video başına 20 ABD dolarına kadar hediye kredisi kazanabilirsiniz.",
+],
+     "tax" => [
+     "title" => "Küresel Vergi Oranları Listesi",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Vergi kurallarını geçersiz kılabilir ve farklı ürün kategorileri için birden fazla vergi profili oluşturabilirsiniz.",
+],
+     "premium" => [
+     "title" => "Premium'a Yükseltin ve E-Ticaret Oyununuzu Dönüştürün",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Selldone Premium ile çevrimiçi mağazanızı yükseltin. Verimliliği artırmak ve dijital pazarda öne çıkmak için özel AI araçlarına, özel şablonlara ve daha fazlasına erişin. Daha akıllı, daha şık bir e-ticaret deneyimi için hemen katılın!",
+],
+     "builder" => [
+     "title" => "Ücretsiz Sayfa Oluşturucu ve Açılış Sayfası Düzenleyici Web Uygulaması - Giriş Gerektirmez",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Ücretsiz, kullanıcı dostu sayfa oluşturucumuz ve düzenleyicimizle zahmetsizce çarpıcı web sayfaları ve açılış sayfaları oluşturun. Oturum açmaya gerek yok. Sezgisel sürükle ve bırak arayüzümüzle web sayfalarınızı hızla tasarlayın, özelleştirin ve yayınlayın. Sorunsuz bir web tasarım çözümü arayan pazarlamacılar, küçük işletme sahipleri ve geliştiriciler için mükemmeldir.",
 ],
 ],
      "shuttle" => [

@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Enhorabuena, regístrate y recibe esta tarjeta regalo",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Ha ingresado al sitio a través del enlace de un usuario activo de Selldone, si se registra en Selldone ahora, recibirá una tarjeta de regalo por valor de $ 14.9. Registrarse y construir una tienda en Selldone es 100% gratis, pero puede usar estas tarjetas de recarga para aliviar el servicio.",
-],
 ];

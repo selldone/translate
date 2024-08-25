@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Hambalyo, diwaangeli oo hel kaadhkan hadiyadda ah",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Waxaad ka soo gashay goobta isku xirka isticmaale firfircoon ee Selldone, haddii aad hadda iska diiwaan geliso Selldone, waxaad heli doontaa kaarka hadiyadda qiimihiisu yahay $ 14.9. Diiwaangelinta iyo dhisida dukaanka Selldone waa 100% bilaash, laakiin waxaad isticmaali kartaa kaadhadhkan dib u dallaca si aad u nafiso adeegga.",
-],
 ];

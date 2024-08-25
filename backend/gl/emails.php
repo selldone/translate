@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Pedido confirmado polo comprador",
+     "email-types-description" => [
+     "shop-customer-join" => "Esta mensaxe dá a benvida a un novo comprador á tenda.",
+     "order-checkout" => "Esta notificación envíase cando un comprador confirma un pedido.",
+     "order-payment" => "Esta notificación confirma o pago exitoso realizado por un cliente.",
+     "order-payment-admin" => "Esta mensaxe envíase a un vendedor para notificarlle un pedido confirmado.",
+     "pos-checkout" => "Esta notificación envíase para confirmar un pedido de punto de venda para un comprador.",
+     "pos-payment" => "Esta notificación confirma un pago no punto de venda realizado por un comprador.",
+     "pos-payment-admin" => "Esta mensaxe notifica ao vendedor unha compra realizada no seu punto de venda.",
+     "shop-contact" => "Esta notificación envíase cando se enviou un formulario de contacto.",
+     "shop-giftcard" => "Esta notificación informa a un usuario de que recibiu unha tarxeta regalo.",
+     "shop-vendor-join" => "Esta mensaxe dá a benvida a un novo vendedor na tenda.",
+     "shop-vendor-invite" => "Esta mensaxe envíase para invitar a un provedor a unirse ao teu mercado.",
+     "shop-vendor-order" => "Esta mensaxe envíase ao provedor cando se recibe un pedido no estado Pago ou contra reembolso (COD).",
+     "shop-vendor-products" => "Envíase diariamente para actualizar os provedores sobre o estado dos seus produtos.",
+     "shop-login" => "Notifique ao usuario os detalles de inicio de sesión, incluído o enderezo IP, a data e o dispositivo, por motivos de seguridade.",
+     "login-code" => "Envía un código de contrasinal único para que os usuarios inicien sesión na tenda.",
+     "shop-email-verify-link" => "Envía unha ligazón para verificar o enderezo de correo electrónico do usuario. Este correo envíase cando un usuario se rexistra por SMS e introduce o seu correo electrónico e non se envía cando o usuario se rexistra por redes sociais ou directamente por correo electrónico.",
 ],
-        [
-     "title" => "Confirmación do pago do cliente",
-],
-        [
-     "title" => "Aviso de confirmación de pedido ao vendedor",
-],
-        [
-     "title" => "Confirme o pedido da caixa da tenda para o comprador",
-],
-        [
-     "title" => "Confirme o pago da caixa rexistradora para o comprador",
-],
-        [
-     "title" => "Aviso de compra na caixa do vendedor",
-],
-        [
-     "title" => "Informar formulario de contacto",
-],
-        [
-     "title" => "Parabéns por unirte á tenda",
-],
-        [
-     "title" => "Anuncio de recepción dunha tarxeta regalo ao usuario",
-]
-     ],
      "global" => [
      "greetings" => "Ola :nome",
      "end-statement" => "Equipo de apoio",
@@ -126,7 +115,7 @@
      "transaction" => "Transacción",
      "fee" => "Taxa",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Categoría",
      "password" => "Contrasinal",
@@ -150,6 +139,18 @@
      "receiver" => "Receptor",
      "virtual-items" => "Elementos virtuais",
      "no-payment" => "Sen pago!",
+     "enable" => "Activar",
+     "access" => "Acceso",
+     "bank" => "Información bancaria",
+     "vendor" => "Vendedor",
+     "view_content" => "Ver contido completo",
+     "files" => "Arquivos",
+     "download" => "Descargar",
+     "file_name" => "Nome do ficheiro",
+     "file_size" => "Tamaño",
+     "subscription" => "Subscrición",
+     "products" => "Produtos",
+     "vendor_products" => "Produtos Vendedores",
 ],
      "selldone-business-os" => "Selldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "ola",
-     "name" => "Equipo Selldone",
+     "name" => "Aproba, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "comerciantes",
-     "name" => "Comerciantes, Selldone",
+     "name" => "Aproba, Selldone",
 ],
      "Approve" => [
      "id" => "aprobar",
@@ -340,6 +341,12 @@
      "title" => "Estamos felices pola túa adhesión",
      "action" => "Visita agora",
 ],
+     "shop-vendor-join" => [
+     "subject" => "Incorporación de provedores | : título_tenda",
+     "category" => "Festa do novo vendedor",
+     "title" => "Estamos felices pola túa adhesión",
+     "action" => "Vendor Panel",
+],
      "shop-giftcard" => [
      "subject" => "Tarxeta de agasallo: shop_title",
      "category" => "Engadir tarxeta nova",
@@ -349,7 +356,7 @@
 ],
      "contact" => [
      "subject" => "Centro de apoio | : tenda",
-     "category" => "apoiar",
+     "category" => "apoio",
      "title" => "Recibiches unha resposta",
 ],
      "order-checkout" => [
@@ -558,6 +565,7 @@
      "category" => "Notificacións de seguridade",
      "title" => "Inicie sesión na conta",
      "message" => "Estimado :nome, iniciaches sesión na túa conta de Selldone.",
+     "message-shop" => "Estimado :name, iniciaches sesión en :shop_title .",
      "footer" => "Se non iniciaches sesión, cambia o teu contrasinal.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Total de visitas á páxina do sitio web",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Recibiches un novo pedido. Vaia á páxina de procesamento de pedidos no seu panel de provedores.",
+     "subject" => "🛍 Novo pedido recibido | :id_orde",
+     "your_revenue" => "Os teus ingresos",
+],
+     "vendor-invite" => [
+     "title" => "Invitación do vendedor",
+     "message" => "Recibiches unha invitación para converterte en vendedor de :shop_name. Pode aceptalo ou rexeitalo premendo nos seguintes botóns.",
+     "subject" => ":nome_tenda | Recibiches unha invitación para ser o noso vendedor",
+     "accept" => "Acepta e convértete nun vendedor",
+     "reject" => "Rexeitar",
+],
+     "shop-email-login" => [
+     "subject" => "O teu código de inicio de sesión para :shop",
+     "header-message" => "Enviámosche este correo electrónico porque solicitaches un código de inicio de sesión para a tenda. Busca o teu contrasinal único (OTP) a continuación:",
+     "footer-message" => "Este código será válido durante 10 minutos. Se non solicitou este código de inicio de sesión, ignore este correo electrónico.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Verifica o teu correo electrónico | : tenda",
+     "title" => "Verificación de correo electrónico",
+     "header-message" => "Ola :nome,<br> Confirma que **:email** é o teu enderezo de correo electrónico facendo clic no botón ou utiliza a seguinte ligazón nun prazo de 48 horas.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Actualización de produtos: tenda",
+     "title" => "Actualización sobre o estado do produto: últimas 24 horas",
+     "message" => "Espero que esta mensaxe che atope ben. Esta é unha breve actualización para informarte sobre o estado dos teus produtos na nosa plataforma durante as últimas 24 horas. Durante este período, producíronse cambios no estado dalgúns produtos. Estes cambios poden deberse a compras, actualizacións de stock ou outros eventos relacionados. Para obter información máis detallada sobre cada produto, inicie sesión na súa conta e consulte a sección 'Estado do produto'.",
+     "action" => "Abre o panel de provedores",
 ],
 ];

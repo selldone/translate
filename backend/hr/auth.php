@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Ove vjerodajnice ne odgovaraju našoj evidenciji.",
+     "password" => "Navedena lozinka je netočna.",
      "throttle" => "Previše pokušaja prijave. Pokušajte ponovno za :seconds sekundi.",
      "title_shop" => "Prijavite se na :name",
      "title_app" => "Pristup aplikaciji :name",

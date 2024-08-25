@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Bu şahsyýetnamalar, ýazgylarymyza gabat gelmeýär.",
+     "password" => "Berlen parol nädogry.",
      "throttle" => "Giriş synanyşyklary gaty köp. Gaýtadan synanyşyň: sekuntlar.",
      "title_shop" => "Giriş: ady",
      "title_app" => "Arza giriş: ady",

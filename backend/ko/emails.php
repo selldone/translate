@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "구매자가 주문 확인",
+     "email-types-description" => [
+     "shop-customer-join" => "이 메시지는 매장에 새로운 구매자가 온 것을 환영합니다.",
+     "order-checkout" => "이 알림은 구매자가 주문을 확인할 때 전송됩니다.",
+     "order-payment" => "이 알림은 고객이 성공적으로 결제를 완료했음을 확인하는 메시지입니다.",
+     "order-payment-admin" => "이 메시지는 판매자에게 주문이 확인되었음을 알리기 위해 전송됩니다.",
+     "pos-checkout" => "이 알림은 구매자의 판매 시점 주문을 확인하기 위해 전송됩니다.",
+     "pos-payment" => "이 알림은 구매자가 판매 시점에서 결제를 했다는 것을 확인합니다.",
+     "pos-payment-admin" => "이 메시지는 판매자에게 판매 시점에서 구매가 이루어졌음을 알립니다.",
+     "shop-contact" => "이 알림은 연락처 양식이 제출되면 전송됩니다.",
+     "shop-giftcard" => "이 알림은 사용자에게 기프트 카드를 받았음을 알려줍니다.",
+     "shop-vendor-join" => "이 메시지는 매장에 새로운 공급업체가 들어온 것을 환영합니다.",
+     "shop-vendor-invite" => "이 메시지는 판매자를 귀하의 마켓플레이스에 초대하기 위해 전송됩니다.",
+     "shop-vendor-order" => "이 메시지는 결제 완료 또는 착불(COD) 상태로 주문이 접수될 때 판매자에게 전송됩니다.",
+     "shop-vendor-products" => "공급업체에 제품 상태를 매일 업데이트하기 위해 전송됩니다.",
+     "shop-login" => "보안 목적으로 IP 주소, 날짜, 기기를 포함한 로그인 세부 정보를 사용자에게 알립니다.",
+     "login-code" => "사용자가 매장에 로그인할 수 있도록 일회용 비밀번호 코드를 보냅니다.",
+     "shop-email-verify-link" => "사용자의 이메일 주소를 확인하기 위한 링크를 보냅니다. 이 메일은 사용자가 SMS로 등록하고 이메일을 입력할 때 전송되며 사용자가 소셜이나 이메일로 직접 등록할 때는 전송되지 않습니다.",
 ],
-        [
-     "title" => "고객 결제 확인",
-],
-        [
-     "title" => "판매자에게 주문 확인 통지",
-],
-        [
-     "title" => "구매자의 스토어 박스 주문 확인",
-],
-        [
-     "title" => "구매자의 금전 등록기 결제 확인",
-],
-        [
-     "title" => "판매자의 상자에 있는 구매 알림",
-],
-        [
-     "title" => "문의 양식을 알려주세요",
-],
-        [
-     "title" => "스토어 가입을 축하합니다",
-],
-        [
-     "title" => "이용자에게 상품권 수령 안내",
-]
-     ],
      "global" => [
      "greetings" => "안녕하세요 :이름",
      "end-statement" => "지원팀",
@@ -126,7 +115,7 @@
      "transaction" => "거래",
      "fee" => "요금",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "청구서",
      "category" => "범주",
      "password" => "비밀번호",
@@ -150,6 +139,18 @@
      "receiver" => "수화기",
      "virtual-items" => "가상 아이템",
      "no-payment" => "무료!",
+     "enable" => "할 수 있게 하다",
+     "access" => "접속하다",
+     "bank" => "은행 정보",
+     "vendor" => "공급업체",
+     "view_content" => "전체 내용 보기",
+     "files" => "파일",
+     "download" => "다운로드",
+     "file_name" => "파일 이름",
+     "file_size" => "크기",
+     "subscription" => "신청",
+     "products" => "제품",
+     "vendor_products" => "공급업체 제품",
 ],
      "selldone-business-os" => "Selldone 비즈니스 OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "안녕",
-     "name" => "Selldone 팀",
+     "name" => "승인, 판매 완료",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "상인",
-     "name" => "판매자, Selldone",
+     "name" => "승인, 판매 완료",
 ],
      "Approve" => [
      "id" => "승인하다",
@@ -339,6 +340,12 @@
      "category" => "신규 고객 축하",
      "title" => "우리는 당신의 회원을 기쁘게 생각합니다",
      "action" => "지금 방문",
+],
+     "shop-vendor-join" => [
+     "subject" => "공급업체 온보딩 | :shop_title",
+     "category" => "새로운 공급업체 축하",
+     "title" => "우리는 당신의 회원을 기쁘게 생각합니다",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "기프트 카드:shop_title",
@@ -558,6 +565,7 @@
      "category" => "보안 알림",
      "title" => "계정에 로그인",
      "message" => "친애하는 :name, 귀하는 Selldone 계정에 로그인했습니다.",
+     "message-shop" => "안녕하세요 :name, :shop_title에 로그인하셨습니다.",
      "footer" => "로그인이 되어 있지 않다면 비밀번호를 변경해주세요.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "총 웹사이트 페이지 조회수",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "새로운 주문을 받았습니다. 공급업체 패널의 주문 처리 페이지로 이동하세요.",
+     "subject" => "🛍 새로운 주문 접수 | :주문 아이디",
+     "your_revenue" => "귀하의 수익",
+],
+     "vendor-invite" => [
+     "title" => "공급업체 초대",
+     "message" => ":shop_name의 공급업체가 되라는 초대장을 받았습니다. 다음 버튼을 클릭하여 수락하거나 거부할 수 있습니다.",
+     "subject" => ":shop_name | 귀하께서는 당사의 공급업체가 되라는 초대를 받으셨습니다.",
+     "accept" => "수락하고 공급업체가 되세요",
+     "reject" => "거부하다",
+],
+     "shop-email-login" => [
+     "subject" => ":shop에 대한 로그인 코드",
+     "header-message" => "매장 로그인 코드를 요청하셨기 때문에 이 이메일을 보내드립니다. 아래에서 일회용 비밀번호(OTP)를 확인하세요.",
+     "footer-message" => "이 코드는 10분 동안 유효합니다. 이 로그인 코드를 요청하지 않으셨다면 이 이메일을 무시하세요.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "이메일 확인 | :shop",
+     "title" => "이메일 확인",
+     "header-message" => "안녕하세요 :name,<br> 버튼을 클릭하거나 48시간 이내에 아래 링크를 사용하여 **:email**이 귀하의 이메일 주소인지 확인하세요.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "제품 업데이트 :shop",
+     "title" => "제품 상태 업데이트 - 최근 24시간",
+     "message" => "이 메시지가 잘 전달되기를 바랍니다. 이는 지난 24시간 동안 플랫폼에서 귀하의 제품 상태를 알려드리기 위한 간략한 업데이트입니다. 이 기간 동안 일부 제품의 상태가 변경되었습니다. 이러한 변경은 구매, 재고 업데이트 또는 기타 관련 이벤트 때문일 수 있습니다. 각 제품에 대한 자세한 내용은 계정에 로그인하여 '제품 상태' 섹션을 확인하세요.",
+     "action" => "공급업체 패널 열기",
 ],
 ];

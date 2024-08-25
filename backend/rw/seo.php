@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Ibintu byose byumwuga byo kubaka iduka nurubuga kubuntu nta gihe ntarengwa kiragutegereje.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Serivisi y'urubuga, inyandiko zo guteza imbere porogaramu na serivisi ihujwe.",
-],
      "apps" => [
      "title" => "Ububiko bwa porogaramu",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Ibihugu Bishyigikiwe nubwishyu bwaho - OS yubucuruzi",
      "image" => "/images/seo/en/countries.png",
      "description" => "Ubucuruzi OS, Intambwe ikurikira yubwihindurize ya serivise yubucuruzi kuva kuri e-ubucuruzi kumurongo kubintu bidafite insanganyamatsiko, plugin, cyangwa code. 100% mumashusho!",
+],
+     "participant" => [
+     "title" => "Umuganda ushaka - Kina kandi Utsinde $ 20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Urashobora kwitabira umuryango wa selldone ukora amashusho magufi yo gufasha abandi no kubona inguzanyo ya USD igera kuri 20 kuri buri videwo.",
+],
+     "tax" => [
+     "title" => "Urutonde rw'Imisoro ku Isi",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Urashobora kurenga ku mategeko yimisoro hanyuma ugashiraho umwirondoro urenze umwe mubyiciro bitandukanye.",
+],
+     "premium" => [
+     "title" => "Kuzamura Premium no Guhindura Umukino wawe wa E-Ubucuruzi",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Uzamure ububiko bwawe bwo kumurongo hamwe na Selldone Premium. Injira ibikoresho bya AI byihariye, inyandikorugero ya bespoke, nibindi byinshi kugirango uzamure imikorere kandi uhagarare kumasoko ya digitale. Injira nonaha kuburambe bwa e-ubucuruzi bworoshye!",
+],
+     "builder" => [
+     "title" => "Urupapuro rwubusa Kubaka & Kumanura Urupapuro Muhinduzi Webapp - Nta kwinjira bisabwa",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Kora paji zitangaje zurubuga no kumanura paji bitagoranye hamwe nubuntu, bworohereza abakoresha paji yubaka hamwe na editor. Nta kwinjira bisabwa. Shushanya, uhindure, kandi utangaze urupapuro rwurubuga byihuse hamwe na interineti yacu yo gukurura-guta. Byuzuye kubacuruzi, abafite ubucuruzi buciriritse, nabateza imbere bashaka igisubizo cyurubuga rutagira ikibazo.",
 ],
 ],
      "shuttle" => [

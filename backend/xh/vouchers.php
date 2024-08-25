@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Sivuyisana nawe, bhalisa kwaye ufumane eli khadi lesipho",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Ungene kwindawo ngekhonkco lomsebenzisi osebenzayo we-Selldone, ukuba ubhalisa kwi-Selldone ngoku, uya kufumana ikhadi lesipho elixabisa i-$ 14.9. Ukubhalisa kunye nokwakha ivenkile eSelldone yi-100% yasimahla, kodwa ungasebenzisa la makhadi okuhlaziya ukukhulula inkonzo.",
-],
 ];

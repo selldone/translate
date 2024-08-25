@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Təbrik edirik, qeydiyyatdan keçin və bu hədiyyə kartını əldə edin",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Siz Selldone-un aktiv istifadəçisinin linki ilə sayta daxil olmusunuz, əgər indi Selldone-da qeydiyyatdan keçsəniz, 14,9 dollar dəyərində hədiyyə kartı alacaqsınız. Selldone-da qeydiyyatdan keçmək və mağaza tikmək 100% pulsuzdur, lakin siz xidmətdən azad olmaq üçün bu doldurma kartlarından istifadə edə bilərsiniz.",
-],
 ];

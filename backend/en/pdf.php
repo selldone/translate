@@ -62,5 +62,24 @@ return [
     'pack' => 'Pack',
     'type' => 'Type',
 
+    'country' => 'Country',
+    'state' => 'State',
+    'city' => 'City',
+    'wallet' => 'Wallet',
+
+    'Sunday' => 'Sunday',
+    'Monday' => 'Monday',
+    'Tuesday' => 'Tuesday',
+    'Wednesday' => 'Wednesday',
+    'Thursday' => 'Thursday',
+    'Friday' => 'Friday',
+    'Saturday' => 'Saturday',
+
+    'Morning'=>'Morning',
+    'Evening'=>'Evening',
+    'Night'=>'Night',
+    'Instant'=>'Instant',
+
+
 
 ];

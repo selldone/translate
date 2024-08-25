@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Hierdie geloofsbriewe stem nie ooreen met ons rekords nie.",
+     "password" => "Die verskafde wagwoord is verkeerd.",
      "throttle" => "Te veel aanmeldpogings. Probeer asseblief weer oor :sekondes sekondes.",
      "title_shop" => "Teken in by :name",
      "title_app" => "Toegang tot toepassing van :name",

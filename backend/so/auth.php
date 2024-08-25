@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Aqoonsigani kuma habboona diiwaannadayada.",
+     "password" => "Furaha sirta ah ee la bixiyay waa khalad.",
      "throttle" => "Isku dayo soo gal oo aad u badan Fadlan isku day marlabaad :ilbiriqsi gudahood.",
      "title_shop" => "Soo gal :name",
      "title_app" => "Helitaanka codsiga ee:name",

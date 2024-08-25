@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Čestitamo, registrujte se i primite ovu poklon karticu",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Ušli ste na stranicu preko linka aktivnog korisnika Selldone, ako se sada registrujete u Selldone, dobit ćete poklon karticu u vrijednosti od 14,9 USD. Registracija i izgradnja trgovine u Selldoneu je 100% besplatna, ali možete koristiti ove kartice za dopunu da biste olakšali uslugu.",
-],
 ];

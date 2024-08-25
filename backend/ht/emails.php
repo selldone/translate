@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Lòd konfime pa achtè",
+     "email-types-description" => [
+     "shop-customer-join" => "Mesaj sa a akeyi yon nouvo achtè nan boutik la.",
+     "order-checkout" => "Yo voye notifikasyon sa a lè yon achtè konfime yon lòd.",
+     "order-payment" => "Notifikasyon sa a konfime peman yon kliyan fè siksè.",
+     "order-payment-admin" => "Yo voye mesaj sa a bay yon vandè pou fè yo konnen yon lòd konfime.",
+     "pos-checkout" => "Yo voye notifikasyon sa a pou konfime yon pwen nan lòd vann pou yon achtè.",
+     "pos-payment" => "Notifikasyon sa a konfime yon peman pwen nan lavant fè pa yon achtè.",
+     "pos-payment-admin" => "Mesaj sa a fè vandè a konnen yon acha ki fèt nan pwen lavant yo.",
+     "shop-contact" => "Yo voye notifikasyon sa a lè yo soumèt yon fòm kontak.",
+     "shop-giftcard" => "Notifikasyon sa a enfòme yon itilizatè ke yo te resevwa yon kat kado.",
+     "shop-vendor-join" => "Mesaj sa a akeyi yon nouvo machann nan boutik la.",
+     "shop-vendor-invite" => "Yo voye mesaj sa a pou envite yon machann rantre nan mache ou a.",
+     "shop-vendor-order" => "Yo voye mesaj sa a bay vandè a lè yo resevwa yon lòd nan swa Peye oswa Lajan Kach sou Livrezon (COD).",
+     "shop-vendor-products" => "Voye chak jou pou mete ajou fournisseurs sou estati pwodwi yo.",
+     "shop-login" => "Notifye itilizatè a ak detay login, ki gen ladan adrès IP, dat, ak aparèy, pou rezon sekirite.",
+     "login-code" => "Voye yon kòd modpas yon sèl fwa pou itilizatè yo konekte nan magazen an.",
+     "shop-email-verify-link" => "Voye yon lyen pou verifye adrès imel itilizatè a. Yo voye lapòs sa a lè yon itilizatè anrejistre pa SMS epi antre imel yo epi li pa voye lè itilizatè anrejistre pa sosyal oswa imèl dirèkteman.",
 ],
-        [
-     "title" => "Konfimasyon peman kliyan an",
-],
-        [
-     "title" => "Avi konfimasyon lòd bay vandè",
-],
-        [
-     "title" => "Konfime lòd bwat magazen pou achtè",
-],
-        [
-     "title" => "Konfime peman nan kach anrejistre pou achtè",
-],
-        [
-     "title" => "Avi sou achte nan bwat vandè a",
-],
-        [
-     "title" => "Enfòme fòm kontak",
-],
-        [
-     "title" => "Felisitasyon pou rantre nan magazen an",
-],
-        [
-     "title" => "Anons pou itilizatè a resevwa yon kat kado",
-]
-     ],
      "global" => [
      "greetings" => "Alo : non",
      "end-statement" => "Ekip sipò",
@@ -126,7 +115,7 @@
      "transaction" => "Tranzaksyon",
      "fee" => "Frè",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Kategori",
      "password" => "Modpas",
@@ -150,6 +139,18 @@
      "receiver" => "Reseptè",
      "virtual-items" => "Atik vityèl",
      "no-payment" => "Pa gen peman!",
+     "enable" => "Pèmèt",
+     "access" => "Aksè",
+     "bank" => "Enfòmasyon labank",
+     "vendor" => "Vandè",
+     "view_content" => "Gade kontni konplè",
+     "files" => "Dosye",
+     "download" => "Telechaje",
+     "file_name" => "Non dosye",
+     "file_size" => "Gwosè",
+     "subscription" => "Abònman",
+     "products" => "Pwodwi yo",
+     "vendor_products" => "Pwodwi vandè",
 ],
      "selldone-business-os" => "Selldone biznis OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "alo",
-     "name" => "Ekip Selldone",
+     "name" => "Apwouve, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "machann yo",
-     "name" => "Machann yo, Selldone",
+     "name" => "Apwouve, Selldone",
 ],
      "Approve" => [
      "id" => "apwouve",
@@ -339,6 +340,12 @@
      "category" => "Nouvo selebrasyon kliyan",
      "title" => "Nou kontan pou manm ou",
      "action" => "Vizite kounye a",
+],
+     "shop-vendor-join" => [
+     "subject" => "Abònman vandè | :shop_title",
+     "category" => "Nouvo selebrasyon vandè",
+     "title" => "Nou kontan pou manm ou",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Kat kado :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Notifikasyon sekirite",
      "title" => "Konekte nan kont",
      "message" => "Chè:non, ou te konekte sou kont Selldone ou.",
+     "message-shop" => "Chè :name, ou te konekte nan :shop_title .",
      "footer" => "Si ou pa konekte, tanpri chanje modpas ou.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Total de vi paj sit entènèt",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Ou te resevwa yon nouvo lòd. Tanpri ale nan paj pwosesis lòd la nan panèl machann ou a.",
+     "subject" => "🛍 Nouvo Lòd Resevwa | :order_id",
+     "your_revenue" => "Revni ou",
+],
+     "vendor-invite" => [
+     "title" => "Envitasyon vandè",
+     "message" => "Ou te resevwa yon envitasyon pou vin machann :shop_name. Ou ka aksepte oswa rejte li lè w klike sou bouton sa yo.",
+     "subject" => ":non_boutik | Ou te resevwa yon envitasyon pou vin machann nou an",
+     "accept" => "Aksepte & Vin yon machann",
+     "reject" => "Rejte",
+],
+     "shop-email-login" => [
+     "subject" => "Kòd Login ou pou :shop",
+     "header-message" => "Nou ap voye imèl sa a ba ou paske ou te mande yon kòd login pou boutik la. Tanpri jwenn yon sèl modpas ou (OTP) anba a:",
+     "footer-message" => "Kòd sa a pral valab pou 10 minit. Si ou pa t mande kòd login sa a, tanpri inyore imel sa a.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Verifye imel ou | :boutik",
+     "title" => "Verifikasyon Imèl",
+     "header-message" => "Bonjou : non,<br> Tanpri konfime ke **:imel** se adrès imel ou lè w klike sou bouton an oswa itilize lyen ki anba a nan 48 èdtan.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Pwodwi Mizajou: boutik",
+     "title" => "Mizajou sou estati pwodwi - dènye 24 èdtan",
+     "message" => "Mwen espere mesaj sa a jwenn ou byen. Sa a se yon ti aktyalizasyon tou kout pou enfòme w sou estati pwodwi ou yo sou platfòm nou an pandan 24 èdtan ki sot pase yo. Pandan peryòd sa a, te gen chanjman nan estati a nan kèk pwodwi. Chanjman sa yo ka akòz acha, mizajou aksyon, oswa lòt evènman ki gen rapò. Pou plis enfòmasyon detaye sou chak pwodwi, tanpri konekte sou kont ou epi tcheke seksyon 'Sitiyasyon Pwodui' la.",
+     "action" => "Louvri Vandè Panel",
 ],
 ];

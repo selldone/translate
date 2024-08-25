@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "מזל טוב, הירשמו וקבלו את כרטיס המתנה הזה",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "נכנסת לאתר דרך הקישור של משתמש פעיל ב-Seldone, אם תירשם עכשיו ב-Seldone, תקבל כרטיס מתנה בשווי 14.9$. רישום ובניית חנות ב-Seldone הם 100% בחינם, אבל אתה יכול להשתמש בכרטיסי הטעינה האלה כדי להקל על השירות.",
-],
 ];

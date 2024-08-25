@@ -73,14 +73,4 @@
      "price" => 3.588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Zorionak, izena eman eta jaso opari txartel hau",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Selldone-ren erabiltzaile aktibo baten estekaren bidez sartu zara webgunean, orain Selldone-n erregistratzen bazara, 14,9 $ balio duen opari-txartel bat jasoko duzu. Selldone-n denda bat erregistratzea eta eraikitzea %100 doakoa da, baina kargatzeko txartel hauek erabil ditzakezu zerbitzua arintzeko.",
-],
 ];

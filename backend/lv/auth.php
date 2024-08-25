@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Šie akreditācijas dati neatbilst mūsu ierakstiem.",
+     "password" => "Norādītā parole ir nepareiza.",
      "throttle" => "Pārāk daudz pieteikšanās mēģinājumu. Lūdzu, mēģiniet vēlreiz pēc :seconds sekundēm.",
      "title_shop" => "Piesakieties :name",
      "title_app" => "Lietojumprogrammas piekļuve :name",

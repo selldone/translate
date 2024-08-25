@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Sifariş alıcı tərəfindən təsdiqlənir",
+     "email-types-description" => [
+     "shop-customer-join" => "Bu mesaj mağazaya yeni alıcını salamlayır.",
+     "order-checkout" => "Bu bildiriş alıcı sifarişi təsdiqlədikdə göndərilir.",
+     "order-payment" => "Bu bildiriş müştəri tərəfindən uğurlu ödənişi təsdiqləyir.",
+     "order-payment-admin" => "Bu mesaj satıcıya təsdiqlənmiş sifariş barədə məlumat vermək üçün göndərilir.",
+     "pos-checkout" => "Bu bildiriş alıcı üçün satış nöqtəsi sifarişini təsdiqləmək üçün göndərilir.",
+     "pos-payment" => "Bu bildiriş alıcı tərəfindən həyata keçirilən satış nöqtəsi ödənişini təsdiq edir.",
+     "pos-payment-admin" => "Bu mesaj satıcıya satış nöqtəsində edilən alış haqqında məlumat verir.",
+     "shop-contact" => "Bu bildiriş əlaqə forması təqdim edildikdə göndərilir.",
+     "shop-giftcard" => "Bu bildiriş istifadəçiyə hədiyyə kartı aldığını bildirir.",
+     "shop-vendor-join" => "Bu mesaj mağazaya yeni satıcını salamlayır.",
+     "shop-vendor-invite" => "Bu mesaj satıcını bazarınıza qoşulmağa dəvət etmək üçün göndərilib.",
+     "shop-vendor-order" => "Sifariş Ödənişli və ya Çatdırılmada Nağd (COD) statusunda alındıqda bu mesaj satıcıya göndərilir.",
+     "shop-vendor-products" => "Satıcıları məhsullarının vəziyyəti haqqında yeniləmək üçün gündəlik göndərilir.",
+     "shop-login" => "Təhlükəsizlik məqsədləri üçün istifadəçini IP ünvanı, tarix və cihaz daxil olmaqla, giriş məlumatları ilə xəbərdar edin.",
+     "login-code" => "İstifadəçilərin mağazaya daxil olması üçün birdəfəlik parol kodu göndərin.",
+     "shop-email-verify-link" => "İstifadəçinin e-poçt ünvanını yoxlamaq üçün keçid göndərin. Bu poçt istifadəçi SMS vasitəsilə qeydiyyatdan keçib öz e-poçtunu daxil etdikdə göndərilir və istifadəçi birbaşa sosial və ya e-poçt vasitəsilə qeydiyyatdan keçdikdə göndərilmir.",
 ],
-        [
-     "title" => "Müştəri ödənişinin təsdiqi",
-],
-        [
-     "title" => "Satıcıya sifarişin təsdiqi bildirişi",
-],
-        [
-     "title" => "Alıcı üçün mağaza qutusu sifarişini təsdiqləyin",
-],
-        [
-     "title" => "Alıcı üçün kassa aparatının ödənişini təsdiqləyin",
-],
-        [
-     "title" => "Satıcı qutusunda alış bildirişi",
-],
-        [
-     "title" => "Əlaqə formasını məlumatlandırın",
-],
-        [
-     "title" => "Mağazaya qoşulmağınız münasibətilə təbrik edirik",
-],
-        [
-     "title" => "İstifadəçiyə hədiyyə kartının alınması barədə elan",
-]
-     ],
      "global" => [
      "greetings" => "salam :name",
      "end-statement" => "Dəstək komandası",
@@ -126,7 +115,7 @@
      "transaction" => "Əməliyyat",
      "fee" => "Haqq",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Kateqoriya",
      "password" => "parol",
@@ -150,6 +139,18 @@
      "receiver" => "Qəbuledici",
      "virtual-items" => "Virtual əşyalar",
      "no-payment" => "Ödəniş yoxdur!",
+     "enable" => "Aktivləşdirin",
+     "access" => "Giriş",
+     "bank" => "Bank məlumatı",
+     "vendor" => "Satıcı",
+     "view_content" => "Tam məzmuna baxın",
+     "files" => "Fayllar",
+     "download" => "Yüklə",
+     "file_name" => "Fayl adı",
+     "file_size" => "Ölçü",
+     "subscription" => "Abunəlik",
+     "products" => "Məhsullar",
+     "vendor_products" => "Satıcı Məhsullar",
 ],
      "selldone-business-os" => "Selldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "salam",
-     "name" => "Selldone Komandası",
+     "name" => "Təsdiq et, Seldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "tacirlər",
-     "name" => "Tacirlər, Selldone",
+     "name" => "Təsdiq et, Seldone",
 ],
      "Approve" => [
      "id" => "təsdiq etmək",
@@ -339,6 +340,12 @@
      "category" => "Yeni müştəri bayramı",
      "title" => "Üzvlüyünüzdən məmnunuq",
      "action" => "İndi ziyarət edin",
+],
+     "shop-vendor-join" => [
+     "subject" => "Vendor Onboarding | :mağaza_başlığı",
+     "category" => "Yeni satıcı bayramı",
+     "title" => "Üzvlüyünüzdən məmnunuq",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Hədiyyə kartı: shop_title",
@@ -558,6 +565,7 @@
      "category" => "Təhlükəsizlik bildirişləri",
      "title" => "Hesaba daxil olun",
      "message" => "Hörmətli :name, siz Selldone hesabınıza daxil olmusunuz.",
+     "message-shop" => "Hörmətli :name, siz :shop_title saytına daxil olmusunuz.",
      "footer" => "Daxil olmamısınızsa, parolunuzu dəyişdirin.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Veb sayt səhifəsinin ümumi baxışları",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Yeni sifariş aldınız. Lütfən, satıcı panelinizdə sifariş emalı səhifəsinə keçin.",
+     "subject" => "🛍 Yeni Sifariş Alındı | :order_id",
+     "your_revenue" => "Sizin Gəliriniz",
+],
+     "vendor-invite" => [
+     "title" => "Satıcı dəvəti",
+     "message" => "Siz :shop_name satıcısı olmaq üçün dəvət aldınız. Aşağıdakı düymələrə klikləməklə onu qəbul edə və ya rədd edə bilərsiniz.",
+     "subject" => ":mağaza_adı | Siz satıcımız olmaq üçün dəvət aldınız",
+     "accept" => "Qəbul et və Satıcı ol",
+     "reject" => "Rədd edin",
+],
+     "shop-email-login" => [
+     "subject" => ":shop üçün Giriş Kodunuz",
+     "header-message" => "Mağaza üçün giriş kodu tələb etdiyiniz üçün bu e-məktubu sizə göndəririk. Lütfən, Aşağıda Birdəfəlik Şifrənizi (OTP) tapın:",
+     "footer-message" => "Bu kod 10 dəqiqə etibarlı olacaq. Bu giriş kodunu tələb etməmisinizsə, lütfən, bu e-məktubu iqnor edin.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "E-poçtunuzu doğrulayın | :mağaza",
+     "title" => "E-poçt Doğrulaması",
+     "header-message" => "salam :name,<br> Lütfən, 48 saat ərzində düyməni sıxmaqla və ya aşağıdakı linkdən istifadə etməklə **:email**-in sizin e-poçt ünvanınız olduğunu təsdiqləyin.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Məhsul yeniləməsi: mağaza",
+     "title" => "Məhsul Statusunda Yenilik - Son 24 Saat",
+     "message" => "Ümid edirəm bu mesaj sizi yaxşı tapacaq. Bu, son 24 saat ərzində platformamızdakı məhsullarınızın vəziyyəti haqqında sizə məlumat vermək üçün qısa bir yeniləmədir. Bu müddət ərzində bəzi məhsulların statusunda dəyişikliklər olub. Bu dəyişikliklər alışlar, səhm yeniləmələri və ya digər əlaqəli hadisələrlə bağlı ola bilər. Hər bir məhsul haqqında daha ətraflı məlumat üçün hesabınıza daxil olun və 'Məhsul Status' bölməsini yoxlayın.",
+     "action" => "Satıcı Panelini açın",
 ],
 ];

@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Tena koe, rehita me te whiwhi i tenei kaari koha",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Kua uru koe ki te pae na roto i te hononga o tetahi kaiwhakamahi kaha o Selldone, mena ka rehita koe ki Selldone inaianei, ka whiwhi koe i tetahi kaari koha $14.9 te utu. Ko te rehita me te hanga toa i Selldone he 100% kore utu, engari ka taea e koe te whakamahi i enei kaari utu hei whakamaarama i te ratonga.",
-],
 ];

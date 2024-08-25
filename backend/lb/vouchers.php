@@ -73,14 +73,4 @@
      "price" => 3.588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Gratulatioun, registréiert Iech a kritt dës Kaddokaart",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Dir sidd op de Site aginn duerch de Link vun engem aktive Benotzer vu Selldone, wann Dir Iech elo bei Selldone registréiert, kritt Dir eng Geschenkkaart am Wäert vun $ 14,9. Aschreiwen an e Buttek zu Selldone bauen ass 100% gratis, awer Dir kënnt dës Opluedkaarte benotze fir de Service ze entlaaschten.",
-],
 ];

@@ -73,14 +73,4 @@
      "price" => 3.588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Sugeng, ndhaftar lan nampa kertu hadiah iki",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Sampeyan wis mlebu situs kasebut liwat tautan pangguna aktif Selldone, yen sampeyan ndhaptar ing Selldone saiki, sampeyan bakal nampa kertu hadiah sing regane $ 14.9. Ndhaptar lan mbangun toko ing Selldone 100% gratis, nanging sampeyan bisa nggunakake kertu ngisi daya iki kanggo nyuda layanan.",
-],
 ];

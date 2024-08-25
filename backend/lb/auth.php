@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Dës Umeldungsinformatiounen entspriechen net eise Rekorder.",
+     "password" => "Dat uginn Passwuert ass falsch.",
      "throttle" => "Ze vill Login Versich. Probéiert w.e.g. nach eng Kéier an: Sekonnen Sekonnen.",
      "title_shop" => "Login op: Numm",
      "title_app" => "Applikatioun Zougang vun: Numm",

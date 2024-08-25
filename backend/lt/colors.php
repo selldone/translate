@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Blyški kanarė",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Dramblio kaulas",
+     "#B3E5FC" => "Ledas",
+     "#F1C40F" => "Aušra",
+     "#7DF9FF" => "Elektrinis",
+     "#FF6B35" => "Saulėlydis",
 ];

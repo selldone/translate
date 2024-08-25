@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Pale Canary",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Ivory Coast",
+     "#B3E5FC" => "Kankara",
+     "#F1C40F" => "Alfijir",
+     "#7DF9FF" => "Lantarki",
+     "#FF6B35" => "Faɗuwar rana",
 ];

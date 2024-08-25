@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Tutte e funzioni prufessiunali di custruisce un magazinu è un situ gratuitamente senza limiti di tempu vi aspettanu.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Serviziu web, documentazione per u sviluppu di l'applicazioni è serviziu cunnessu.",
-],
      "apps" => [
      "title" => "App store",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Paesi Supportati è Pagamenti Locali - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, U prossimu passu di evoluzione di i servizii di cummerciale da e plataforme di e-commerce à qualcosa senza tema, plugin o codice. 100% visualmente!",
+],
+     "participant" => [
+     "title" => "A cumunità chì vulete - Ghjucate è vincite $ 20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Pudete participà à a cumunità di selldone creendu video brevi per aiutà l'altri è uttene un creditu di rigalu finu à 20 USD per video.",
+],
+     "tax" => [
+     "title" => "Lista di i Tassi di Tassi Globali",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Pudete annullà e regule fiscali è creà più di un prufilu fiscale per diverse categurie di prudutti.",
+],
+     "premium" => [
+     "title" => "Avanzate à Premium è Trasfurmà u vostru ghjocu E-Commerce",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Elevate a vostra tenda in linea cù Selldone Premium. Accede à strumenti AI esclusivi, mudelli persunalizati è più per aumentà l'efficienza è spiccà in u mercatu digitale. Uniscite avà per una sperienza di e-commerce più intelligente è più elegante!",
+],
+     "builder" => [
+     "title" => "Webapp gratuitu di creazione di pagine è editore di pagine di destinazione - Nisun login necessariu",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Crea pagine web straordinarie è pagine di destinazione senza sforzu cù u nostru creatore è editore di pagine gratuiti è amichevuli. Nisun login necessariu. Cuncepisce, persunalizà è pubblicà e vostre pagine web rapidamente cù a nostra interfaccia intuitiva di drag-and-drop. Perfetta per i cummercializatori, i pruprietarii di picculi imprese è i sviluppatori chì cercanu una soluzione di cuncepimentu web senza prublemi.",
 ],
 ],
      "shuttle" => [

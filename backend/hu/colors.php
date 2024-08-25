@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Sápadt kanári",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Elefántcsont",
+     "#B3E5FC" => "Jég",
+     "#F1C40F" => "Hajnal",
+     "#7DF9FF" => "Elektromos",
+     "#FF6B35" => "Napnyugta",
 ];

@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Všetky profesionálne funkcie budovania obchodu a stránky zadarmo bez časového obmedzenia čakajú na vás.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Webová služba, dokumentácia pre vývoj aplikácií a pripojená služba.",
-],
      "apps" => [
      "title" => "Obchod s aplikaciami",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Podporované krajiny a miestne platby – obchodný operačný systém",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, ďalší vývojový krok obchodných služieb od platforiem elektronického obchodu k niečomu, čo nemá žiadnu tému, doplnok alebo kód. 100% vizuálne!",
+],
+     "participant" => [
+     "title" => "Komunita, ktorú chcete – Hrajte a vyhrajte 20 $",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Môžete sa zapojiť do predanej komunity vytvorením krátkych videí na pomoc ostatným a získať až 20 USD darčekového kreditu na video.",
+],
+     "tax" => [
+     "title" => "Globálny zoznam daňových sadzieb",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Môžete prepísať daňové pravidlá a vytvoriť viac ako jeden daňový profil pre rôzne kategórie produktov.",
+],
+     "premium" => [
+     "title" => "Inovujte na Premium a premeňte svoju hru elektronického obchodu",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Pozdvihnite svoj online obchod pomocou Selldone Premium. Získajte prístup k exkluzívnym nástrojom AI, šablónam na mieru a ďalším, aby ste zvýšili efektivitu a vynikli na digitálnom trhu. Pripojte sa teraz a získajte inteligentnejší a elegantnejší zážitok z elektronického obchodu!",
+],
+     "builder" => [
+     "title" => "Bezplatná webová aplikácia na tvorbu stránok a editor vstupných stránok – nevyžaduje sa žiadne prihlásenie",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Vytvorte úžasné webové stránky a vstupné stránky bez námahy pomocou nášho bezplatného, používateľsky prívetivého nástroja na tvorbu a editor stránok. Nevyžaduje sa žiadne prihlásenie. Navrhujte, prispôsobujte a publikujte svoje webové stránky rýchlo pomocou nášho intuitívneho rozhrania pre ťahanie a presúvanie. Ideálne pre obchodníkov, vlastníkov malých firiem a vývojárov, ktorí hľadajú bezproblémové riešenie na tvorbu webu.",
 ],
 ],
      "shuttle" => [

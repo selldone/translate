@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Dongosolo limatsimikiziridwa ndi wogula",
+     "email-types-description" => [
+     "shop-customer-join" => "Uthenga uwu ukulandira wogula watsopano kusitolo.",
+     "order-checkout" => "Chidziwitsochi chimatumizidwa pamene wogula akutsimikizira kuyitanitsa.",
+     "order-payment" => "Chidziwitsochi chikutsimikizira kulipira bwino komwe kasitomala amalipira.",
+     "order-payment-admin" => "Uthengawu umatumizidwa kwa wogulitsa kuti awadziwitse za dongosolo lotsimikizika.",
+     "pos-checkout" => "Chidziwitsochi chimatumizidwa kutsimikizira malo ogulitsa kwa wogula.",
+     "pos-payment" => "Chidziwitso ichi chimatsimikizira malo ogulitsa omwe amaperekedwa ndi wogula.",
+     "pos-payment-admin" => "Uthengawu umadziwitsa wogulitsa za kugula komwe amagulitsa.",
+     "shop-contact" => "Chidziwitsochi chimatumizidwa pamene fomu yolumikizana nayo yatumizidwa.",
+     "shop-giftcard" => "Chidziwitsochi chimadziwitsa wogwiritsa ntchito kuti walandira khadi lamphatso.",
+     "shop-vendor-join" => "Uthenga uwu ukulandira wogulitsa watsopano ku shopu.",
+     "shop-vendor-invite" => "Uthengawu watumizidwa kuyitanitsa wogulitsa kuti alowe nawo pamsika wanu.",
+     "shop-vendor-order" => "Uthengawu umatumizidwa kwa wogulitsa malonda akalandira ngati Paid kapena Cash on Delivery (COD).",
+     "shop-vendor-products" => "Amatumizidwa tsiku lililonse kuti asinthe mavenda momwe zinthu zawo zilili.",
+     "shop-login" => "Dziwitsani wogwiritsa ntchito zambiri zolowera, kuphatikiza adilesi ya IP, tsiku, ndi chipangizo, pazifukwa zachitetezo.",
+     "login-code" => "Tumizani nambala yachinsinsi yanthawi imodzi kuti ogwiritsa ntchito alowe musitolo.",
+     "shop-email-verify-link" => "Tumizani ulalo kuti mutsimikizire adilesi ya imelo ya ogwiritsa ntchito. Imelo imatumizidwa pamene wosuta amalembetsa ndi SMS ndikulowetsa imelo yawo ndipo samatumizidwa pamene wosuta amalembetsa ndi chikhalidwe kapena imelo mwachindunji.",
 ],
-        [
-     "title" => "Kutsimikizira kulipira kwamakasitomala",
-],
-        [
-     "title" => "Chidziwitso chotsimikizira kuyitanitsa kwa wogulitsa",
-],
-        [
-     "title" => "Tsimikizirani kuyitanitsa bokosi la sitolo kwa wogula",
-],
-        [
-     "title" => "Tsimikizirani kulipira kaundula wa ndalama kwa wogula",
-],
-        [
-     "title" => "Chidziwitso cha kugula mubokosi la wogulitsa",
-],
-        [
-     "title" => "Dziwani fomu yolumikizirana",
-],
-        [
-     "title" => "Zabwino zonse polowa m'sitolo",
-],
-        [
-     "title" => "Chilengezo cholandira khadi lamphatso kwa wogwiritsa ntchito",
-]
-     ],
      "global" => [
      "greetings" => "Hi: dzina",
      "end-statement" => "Gulu lothandizira",
@@ -126,7 +115,7 @@
      "transaction" => "Kugulitsa",
      "fee" => "Malipiro",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Gulu",
      "password" => "Mawu achinsinsi",
@@ -150,6 +139,18 @@
      "receiver" => "Wolandira",
      "virtual-items" => "Zinthu zenizeni",
      "no-payment" => "Palibe malipiro!",
+     "enable" => "Yambitsani",
+     "access" => "Kufikira",
+     "bank" => "Zambiri za banki",
+     "vendor" => "Wogulitsa",
+     "view_content" => "Onani zonse",
+     "files" => "Mafayilo",
+     "download" => "Tsitsani",
+     "file_name" => "Dzina lafayilo",
+     "file_size" => "Kukula",
+     "subscription" => "Kulembetsa",
+     "products" => "Zogulitsa",
+     "vendor_products" => "Zogulitsa Zamalonda",
 ],
      "selldone-business-os" => "Selldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "moni",
-     "name" => "Selldone Team",
+     "name" => "Kuvomereza, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "amalonda",
-     "name" => "Amalonda, Selldone",
+     "name" => "Kuvomereza, Selldone",
 ],
      "Approve" => [
      "id" => "vomereza",
@@ -339,6 +340,12 @@
      "category" => "Chikondwerero chatsopano chamakasitomala",
      "title" => "Ndife okondwa ndi umembala wanu",
      "action" => "Pitani tsopano",
+],
+     "shop-vendor-join" => [
+     "subject" => "Wogulitsa Kukwera | :shop_mutu",
+     "category" => "Chikondwerero chatsopano cha ogulitsa",
+     "title" => "Ndife okondwa ndi umembala wanu",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Giftcard :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Zidziwitso zachitetezo",
      "title" => "Lowani ku Akaunti",
      "message" => "Wokondedwa :dzina, mwakhala mukulowa muakaunti yanu ya Selldone.",
+     "message-shop" => "Wokondedwa :dzina, mudalowetsedwa ku :shop_title.",
      "footer" => "Ngati simunalowe, chonde sinthani mawu achinsinsi.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Mawonedwe amasamba onse",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Mwalandira dongosolo latsopano. Chonde pitani patsamba lokonzekera maoda mugulu lanu la ogulitsa.",
+     "subject" => "🛍 Dongosolo Latsopano Lalandilidwa | :order_id",
+     "your_revenue" => "Ndalama Zanu",
+],
+     "vendor-invite" => [
+     "title" => "Kuyitanira kwa ogulitsa",
+     "message" => "Mwalandira kuitanidwa kuti mukhale wogulitsa :shop_name. Mutha kuvomereza kapena kukana podina mabatani otsatirawa.",
+     "subject" => ":shop_dzina | Munalandira kuitanidwa kuti mukhale wogulitsa wathu",
+     "accept" => "Landirani & Khalani Wogulitsa",
+     "reject" => "Kana",
+],
+     "shop-email-login" => [
+     "subject" => "Khodi Yanu Yolowera pa :shop",
+     "header-message" => "Tikukutumizirani imelo iyi chifukwa mwapempha khodi yolowera m'sitolo. Chonde pezani Mawu Achinsinsi Anthawi Imodzi (OTP) pansipa:",
+     "footer-message" => "Khodi iyi ikhala yovomerezeka kwa mphindi 10. Ngati simunapemphe khodiyi, chonde nyalanyazani imelo iyi.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Tsimikizirani imelo yanu | : shopu",
+     "title" => "Kutsimikizira Imelo",
+     "header-message" => "Hi :name,<br> Chonde tsimikizirani kuti **:imelo** ndi adilesi yanu ya imelo podina batani kapena gwiritsani ntchito ulalo womwe uli pansipa mkati mwa maola 48.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Zosintha Zamalonda :shop",
+     "title" => "Kusintha pa Zomwe Zagulitsa - Maola 24 Omaliza",
+     "message" => "Ndikukhulupirira kuti uthengawu wakupezani bwino. Izi ndi zosintha zazifupi zakudziwitsani za momwe zinthu ziliri papulatifomu yathu maola 24 apitawa. Panthawi imeneyi, pakhala kusintha kwa zinthu zina. Zosinthazi zitha kukhala chifukwa cha kugula, zosintha zamasheya, kapena zochitika zina zokhudzana ndi izi. Kuti mumve zambiri za chinthu chilichonse, chonde lowani muakaunti yanu ndikuwona gawo la 'Product Status'.",
+     "action" => "Tsegulani gulu la ogulitsa",
 ],
 ];

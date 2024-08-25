@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Pale Canary",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Hestîyê fîl",
+     "#B3E5FC" => "Qeşa",
+     "#F1C40F" => "Bandev",
+     "#7DF9FF" => "Elatrîkî",
+     "#FF6B35" => "Roava",
 ];

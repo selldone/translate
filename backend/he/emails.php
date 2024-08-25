@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "הזמנה מאושרת על ידי הקונה",
+     "email-types-description" => [
+     "shop-customer-join" => "הודעה זו מברכת קונה חדש לחנות.",
+     "order-checkout" => "הודעה זו נשלחת כאשר קונה מאשר הזמנה.",
+     "order-payment" => "הודעה זו מאשרת את התשלום המוצלח שבוצע על ידי לקוח.",
+     "order-payment-admin" => "הודעה זו נשלחת למוכר כדי להודיע לו על הזמנה מאושרת.",
+     "pos-checkout" => "הודעה זו נשלחת כדי לאשר הזמנת נקודת מכירה עבור קונה.",
+     "pos-payment" => "הודעה זו מאשרת תשלום בנקודת מכירה שבוצע על ידי קונה.",
+     "pos-payment-admin" => "הודעה זו מודיעה למוכר על רכישה שבוצעה בנקודת המכירה שלו.",
+     "shop-contact" => "הודעה זו נשלחת כאשר טופס יצירת קשר נשלח.",
+     "shop-giftcard" => "הודעה זו מודיעה למשתמש שהוא קיבל כרטיס מתנה.",
+     "shop-vendor-join" => "הודעה זו מברך על ספק חדש לחנות.",
+     "shop-vendor-invite" => "הודעה זו נשלחת כדי להזמין ספק להצטרף לשוק שלך.",
+     "shop-vendor-order" => "הודעה זו נשלחת לספק כאשר הזמנה מתקבלת במצב של תשלום או מזומן במשלוח (COD).",
+     "shop-vendor-products" => "נשלח מדי יום כדי לעדכן את הספקים על מצב המוצרים שלהם.",
+     "shop-login" => "הודע למשתמש עם פרטי התחברות, כולל כתובת IP, תאריך ומכשיר, למטרות אבטחה.",
+     "login-code" => "שלח קוד סיסמה חד פעמי לכניסה של משתמשים לחנות.",
+     "shop-email-verify-link" => "שלח קישור לאימות כתובת הדוא'ל של המשתמש. דואר זה נשלח כאשר משתמש נרשם ב-SMS ומזין את הדואר האלקטרוני שלו ואינו נשלח כאשר המשתמש נרשם בחברתי או בדוא'ל ישירות.",
 ],
-        [
-     "title" => "אישור תשלום לקוח",
-],
-        [
-     "title" => "הודעת אישור הזמנה למוכר",
-],
-        [
-     "title" => "אשר את הזמנת קופסת החנות עבור הקונה",
-],
-        [
-     "title" => "אשר תשלום קופה רושמת לקונה",
-],
-        [
-     "title" => "הודעת רכישה בקופסת המוכר",
-],
-        [
-     "title" => "טופס צור קשר",
-],
-        [
-     "title" => "ברכות על ההצטרפות לחנות",
-],
-        [
-     "title" => "הודעה על קבלת כרטיס מתנה למשתמש",
-]
-     ],
      "global" => [
      "greetings" => "היי :שם",
      "end-statement" => "צוות תמיכה",
@@ -38,7 +27,7 @@
      "footer-shop" => "אם אתה צריך עזרה במשהו, אל תהסס לשלוח לנו דוא'ל: :shop_mail",
      "accept" => "לְקַבֵּל",
      "reject" => "לִדחוֹת",
-     "verify" => "תאשר",
+     "verify" => "לְאַמֵת",
      "title" => "כותרת",
      "value" => "ערך",
      "description" => "תיאור",
@@ -55,7 +44,7 @@
      "cvv" => "Cvv",
      "expire_date" => "תאריך תפוגה",
      "dashboard" => "לוּחַ מַחווָנִים",
-     "order" => "להזמין",
+     "order" => "לְהַזמִין",
      "view_order" => "צפה בהזמנה",
      "pay_now" => "Pay now",
      "official_selldone" => "נמכר רשמי",
@@ -126,7 +115,7 @@
      "transaction" => "עִסקָה",
      "fee" => "תַשְׁלוּם",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "שטר כסף",
      "category" => "קטגוריה",
      "password" => "סיסמה",
@@ -150,6 +139,18 @@
      "receiver" => "מַקְלֵט",
      "virtual-items" => "פריטים וירטואליים",
      "no-payment" => "אין תשלום!",
+     "enable" => "לְאַפשֵׁר",
+     "access" => "גִישָׁה",
+     "bank" => "מידע בנק",
+     "vendor" => "מוֹכֵר",
+     "view_content" => "הצג את התוכן המלא",
+     "files" => "קבצים",
+     "download" => "הורד",
+     "file_name" => "שם הקובץ",
+     "file_size" => "גודל",
+     "subscription" => "מִנוּי",
+     "products" => "מוצרים",
+     "vendor_products" => "מוצרי ספק",
 ],
      "selldone-business-os" => "Seldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "היי",
-     "name" => "צוות סלדון",
+     "name" => "תאשר, סלדון",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "סוחרים",
-     "name" => "סוחרים, סלדון",
+     "name" => "תאשר, סלדון",
 ],
      "Approve" => [
      "id" => "לְאַשֵׁר",
@@ -340,6 +341,12 @@
      "title" => "אנו שמחים על החברות שלך",
      "action" => "בקר עכשיו",
 ],
+     "shop-vendor-join" => [
+     "subject" => "כניסת ספקים | :shop_title",
+     "category" => "חגיגת ספק חדש",
+     "title" => "אנו שמחים על החברות שלך",
+     "action" => "Vendor Panel",
+],
      "shop-giftcard" => [
      "subject" => "כרטיס מתנה :shop_title",
      "category" => "הוסף כרטיס חדש",
@@ -349,12 +356,12 @@
 ],
      "contact" => [
      "subject" => "מרכז תמיכה | :לִקְנוֹת",
-     "category" => "תמיכה",
+     "category" => "תְמִיכָה",
      "title" => "קיבלת תגובה",
 ],
      "order-checkout" => [
      "subject" => "🛍 הזמנה לקופה | :מספר הזמנה",
-     "title" => "להזמין",
+     "title" => "לְהַזמִין",
      "message" => "אישור ההזמנה שלך,<br> קיבלנו את ההזמנה שלך. אנו נשלח לך דוא'ל נוסף כאשר ההזמנה שלך תישלח.",
      "payments" => "תשלומים",
 ],
@@ -558,6 +565,7 @@
      "category" => "הודעות אבטחה",
      "title" => "התחבר לחשבון",
      "message" => "היקר :name, נכנסת לחשבון Seldone שלך.",
+     "message-shop" => "היקר :name, נכנסת ל-:shop_title .",
      "footer" => "אם אינך מחובר, אנא שנה את הסיסמה שלך.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "סך כל הצפיות בדפי האתר",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "קיבלת הזמנה חדשה. נא עבור אל דף עיבוד ההזמנות בפאנל הספקים שלך.",
+     "subject" => "🛍 הזמנה חדשה התקבלה | :מספר הזמנה",
+     "your_revenue" => "ההכנסה שלך",
+],
+     "vendor-invite" => [
+     "title" => "הזמנת ספק",
+     "message" => "קיבלת הזמנה להפוך לספק של :shop_name. אתה יכול לקבל או לדחות אותו על ידי לחיצה על הכפתורים הבאים.",
+     "subject" => ":שם_חנות | קיבלת הזמנה להפוך לספק שלנו",
+     "accept" => "קבל והפוך לספק",
+     "reject" => "לִדחוֹת",
+],
+     "shop-email-login" => [
+     "subject" => "קוד הכניסה שלך עבור :shop",
+     "header-message" => "אנו שולחים לך דוא'ל זה מכיוון שביקשת קוד כניסה לחנות. אנא מצא את הסיסמה החד פעמית שלך (OTP) למטה:",
+     "footer-message" => "קוד זה יהיה תקף למשך 10 דקות. אם לא ביקשת את קוד ההתחברות הזה, אנא התעלם מאימייל זה.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "אמת את האימייל שלך | :לִקְנוֹת",
+     "title" => "אימות דוא'ל",
+     "header-message" => "היי :שם,<br> אנא אשר כי **:email** היא כתובת הדואר האלקטרוני שלך על ידי לחיצה על הכפתור או השתמש בקישור למטה תוך 48 שעות.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "עדכון מוצרים: חנות",
+     "title" => "עדכון על סטטוס המוצר - 24 השעות האחרונות",
+     "message" => "אני מקווה שההודעה הזו תמצא אותך טוב. זהו עדכון קצר כדי ליידע אותך לגבי מצב המוצרים שלך בפלטפורמה שלנו במהלך 24 השעות האחרונות. במהלך תקופה זו, חלו שינויים בסטטוס של חלק מהמוצרים. שינויים אלה עשויים לנבוע מרכישות, עדכוני מלאי או אירועים קשורים אחרים. למידע מפורט יותר על כל מוצר, היכנס לחשבונך ובדוק את הסעיף 'סטטוס מוצר'.",
+     "action" => "פתח את לוח הספקים",
 ],
 ];

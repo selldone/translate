@@ -73,14 +73,4 @@
      "price" => 3588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Palju õnne, registreeruge ja saage see kinkekaart",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Sisenesite saidile Selldone'i aktiivse kasutaja lingi kaudu, kui registreerute praegu Selldone'is, saate kinkekaardi väärtusega 14,9 $. Poe registreerimine ja ehitamine Selldones on 100% tasuta, kuid saate neid laadimiskaarte kasutada teenuse leevendamiseks.",
-],
 ];

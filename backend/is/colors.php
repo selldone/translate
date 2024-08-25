@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Föl Kanarí",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Fílabein",
+     "#B3E5FC" => "Ís",
+     "#F1C40F" => "Dögun",
+     "#7DF9FF" => "Rafmagns",
+     "#FF6B35" => "Sólsetur",
 ];

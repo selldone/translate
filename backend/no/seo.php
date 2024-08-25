@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Alle de profesjonelle funksjonene ved å bygge en butikk og et nettsted gratis uten noen tidsbegrensning venter på deg.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Webservice, dokumentasjon for applikasjonsutvikling og service tilknyttet.",
-],
      "apps" => [
      "title" => "App Store",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Støttede land og lokale betalinger - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, det neste utviklingstrinnet for handelstjenester fra e-handelsplattformer til noe uten tema, plugin eller kode. 100% visuelt!",
+],
+     "participant" => [
+     "title" => "Fellesskapet du vil ha — Spill og vinn $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Du kan delta i det solgte fellesskapet ved å lage korte videoer for å hjelpe andre og få opptil 20 USD i gavekreditt per video.",
+],
+     "tax" => [
+     "title" => "Global skattesatsliste",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Du kan overstyre skatteregler og opprette mer enn én skatteprofil for ulike produktkategorier.",
+],
+     "premium" => [
+     "title" => "Oppgrader til Premium og transformer e-handelsspillet ditt",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Hev nettbutikken din med Selldone Premium. Få tilgang til eksklusive AI-verktøy, skreddersydde maler og mer for å øke effektiviteten og skille seg ut på den digitale markedsplassen. Bli med nå for en smartere og slankere e-handelsopplevelse!",
+],
+     "builder" => [
+     "title" => "Gratis webapp for sidebygger og landingssideredigering – ingen pålogging kreves",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Lag fantastiske nettsider og landingssider uten problemer med vår gratis, brukervennlige sidebygger og editor. Ingen pålogging kreves. Design, tilpass og publiser nettsidene dine raskt med vårt intuitive dra-og-slipp-grensesnitt. Perfekt for markedsførere, småbedriftseiere og utviklere som søker en problemfri webdesignløsning.",
 ],
 ],
      "shuttle" => [

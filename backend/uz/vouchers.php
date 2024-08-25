@@ -73,14 +73,4 @@
      "price" => 3588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Tabriklaymiz, ro'yxatdan o'ting va ushbu sovg'a kartasini oling",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Siz Selldone-ning faol foydalanuvchisi havolasi orqali saytga kirgansiz, agar siz hozir Selldone-da ro'yxatdan o'tsangiz, sizga 14,9 dollarlik sovg'a kartasi beriladi. Selldone-da ro'yxatdan o'tish va do'kon qurish 100% bepul, ammo xizmatni engillashtirish uchun ushbu to'ldirish kartalaridan foydalanishingiz mumkin.",
-],
 ];

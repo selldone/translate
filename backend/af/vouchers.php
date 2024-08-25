@@ -73,14 +73,4 @@
      "price" => "3 588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Baie geluk, registreer en ontvang hierdie geskenkbewys",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Jy het die webwerf betree deur die skakel van 'n aktiewe gebruiker van Selldone, as jy nou in Selldone registreer, sal jy 'n geskenkbewys ter waarde van $ 14,9 ontvang. Registrasie en bou van 'n winkel in Selldone is 100% gratis, maar jy kan hierdie herlaaikaarte gebruik om diens te verlig.",
-],
 ];

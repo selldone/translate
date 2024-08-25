@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Zinthu zonse zamaluso zomanga sitolo ndi malo kwaulere popanda malire a nthawi zikukuyembekezerani.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Utumiki wapaintaneti, zolembedwa zachitukuko cha mapulogalamu ndi ntchito zolumikizidwa.",
-],
      "apps" => [
      "title" => "App Store",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Maiko Othandizidwa ndi Malipiro Apafupi - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, Chisinthiko chotsatira cha ntchito zamalonda kuchokera pamapulatifomu a e-commerce kupita ku china chake chopanda mutu, pulogalamu yowonjezera, kapena code. 100% zowoneka!",
+],
+     "participant" => [
+     "title" => "Dera lomwe mukufuna - Sewerani ndikupambana $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Mutha kutenga nawo gawo pagulu la selldone popanga makanema achidule kuti muthandize ena ndikupeza mphatso zokwana 20 USD pavidiyo iliyonse.",
+],
+     "tax" => [
+     "title" => "Mndandanda wa Mitengo ya Misonkho Padziko Lonse",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Mutha kupitilira malamulo amisonkho ndikupanga mbiri yamisonkho yopitilira imodzi yamagulu osiyanasiyana azinthu.",
+],
+     "premium" => [
+     "title" => "Sinthani ku Premium ndikusintha Masewera Anu a E-Commerce",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Kwezani sitolo yanu yapaintaneti ndi Selldone Premium. Pezani zida zapadera za AI, ma tempulo opangidwa ndi bespoke, ndi zina zambiri kuti muwongolere bwino komanso kuti muwoneke bwino pamsika wa digito. Lowani nawo tsopano kuti mugwiritse ntchito mwanzeru, mwanzeru pa e-commerce!",
+],
+     "builder" => [
+     "title" => "Wopanga Masamba Waulere & Mkonzi Watsamba Lofika pa Webapp - Palibe Kulowa Kofunikira",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Pangani masamba odabwitsa ndi masamba ofikira mosavuta ndi tsamba lathu laulere, losavuta kugwiritsa ntchito komanso mkonzi. Palibe malowedwe ofunikira. Konzani, sinthani mwamakonda, ndikufalitsa masamba anu mwachangu ndi mawonekedwe athu osavuta kukokera ndikugwetsa. Ndiwabwino kwa otsatsa, eni mabizinesi ang'onoang'ono, ndi opanga omwe akufuna njira yopangira mawebusayiti yopanda zovuta.",
 ],
 ],
      "shuttle" => [

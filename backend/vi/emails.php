@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Đơn đặt hàng được xác nhận bởi người mua",
+     "email-types-description" => [
+     "shop-customer-join" => "Tin nhắn này chào đón người mua mới đến với cửa hàng.",
+     "order-checkout" => "Thông báo này được gửi khi người mua xác nhận đơn hàng.",
+     "order-payment" => "Thông báo này xác nhận khách hàng đã thanh toán thành công.",
+     "order-payment-admin" => "Tin nhắn này được gửi đến người bán để thông báo cho họ về đơn hàng đã được xác nhận.",
+     "pos-checkout" => "Thông báo này được gửi để xác nhận đơn hàng tại điểm bán cho người mua.",
+     "pos-payment" => "Thông báo này xác nhận khoản thanh toán tại điểm bán hàng được người mua thực hiện.",
+     "pos-payment-admin" => "Tin nhắn này thông báo cho người bán về giao dịch mua hàng được thực hiện tại điểm bán hàng của họ.",
+     "shop-contact" => "Thông báo này được gửi khi biểu mẫu liên hệ đã được gửi.",
+     "shop-giftcard" => "Thông báo này cho người dùng biết rằng họ đã nhận được thẻ quà tặng.",
+     "shop-vendor-join" => "Tin nhắn này chào mừng nhà cung cấp mới đến với cửa hàng.",
+     "shop-vendor-invite" => "Tin nhắn này được gửi đi để mời nhà cung cấp tham gia thị trường của bạn.",
+     "shop-vendor-order" => "Tin nhắn này được gửi đến nhà cung cấp khi đơn hàng được nhận ở trạng thái Đã thanh toán hoặc Thu tiền khi nhận hàng (COD).",
+     "shop-vendor-products" => "Gửi hàng ngày để cập nhật cho nhà cung cấp về tình trạng sản phẩm của họ.",
+     "shop-login" => "Thông báo cho người dùng thông tin đăng nhập, bao gồm địa chỉ IP, ngày tháng và thiết bị, vì mục đích bảo mật.",
+     "login-code" => "Gửi mã mật khẩu một lần để người dùng đăng nhập vào cửa hàng.",
+     "shop-email-verify-link" => "Gửi liên kết để xác minh địa chỉ email của người dùng. Email này được gửi khi người dùng đăng ký bằng SMS và nhập email của họ và không được gửi khi người dùng đăng ký trực tiếp bằng mạng xã hội hoặc email.",
 ],
-        [
-     "title" => "Xác nhận thanh toán của khách hàng",
-],
-        [
-     "title" => "Thông báo xác nhận đơn hàng cho người bán",
-],
-        [
-     "title" => "Xác nhận đơn đặt hàng hộp cửa hàng cho người mua",
-],
-        [
-     "title" => "Xác nhận thanh toán máy tính tiền cho người mua",
-],
-        [
-     "title" => "Thông báo mua hàng trong hộp của người bán",
-],
-        [
-     "title" => "Thông báo biểu mẫu liên hệ",
-],
-        [
-     "title" => "Chúc mừng bạn đã tham gia cửa hàng",
-],
-        [
-     "title" => "Thông báo nhận thẻ quà tặng cho người dùng",
-]
-     ],
      "global" => [
      "greetings" => "Xin chào tên",
      "end-statement" => "Nhóm hỗ trợ",
@@ -38,7 +27,7 @@
      "footer-shop" => "Nếu bạn cần trợ giúp về bất cứ điều gì, vui lòng gửi email cho chúng tôi:: shop_mail",
      "accept" => "Chấp nhận",
      "reject" => "Từ chối",
-     "verify" => "kiểm chứng",
+     "verify" => "xác minh",
      "title" => "Tiêu đề",
      "value" => "Giá trị",
      "description" => "Sự miêu tả",
@@ -55,7 +44,7 @@
      "cvv" => "Cvv",
      "expire_date" => "Hạn sử dụng",
      "dashboard" => "bảng điều khiển",
-     "order" => "gọi món",
+     "order" => "đặt hàng",
      "view_order" => "Xem đơn đặt hàng",
      "pay_now" => "Pay now",
      "official_selldone" => "NGƯỜI BÁN CHÍNH THỨC",
@@ -126,7 +115,7 @@
      "transaction" => "Giao dịch",
      "fee" => "Học phí",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Hóa đơn thanh toán",
      "category" => "Danh mục",
      "password" => "Mật khẩu",
@@ -150,6 +139,18 @@
      "receiver" => "Người nhận",
      "virtual-items" => "Vật phẩm ảo",
      "no-payment" => "Không thanh toán!",
+     "enable" => "Cho phép",
+     "access" => "Truy cập",
+     "bank" => "Thông tin ngân hàng",
+     "vendor" => "Người bán",
+     "view_content" => "Xem nội dung đầy đủ",
+     "files" => "Các tập tin",
+     "download" => "Tải xuống",
+     "file_name" => "Tên tập tin",
+     "file_size" => "Kích thước",
+     "subscription" => "Đăng ký",
+     "products" => "Các sản phẩm",
+     "vendor_products" => "Sản phẩm của nhà cung cấp",
 ],
      "selldone-business-os" => "Hệ điều hành doanh nghiệp Selldone",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "Chào",
-     "name" => "Đội Selldone",
+     "name" => "Chấp thuận, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "thương gia",
-     "name" => "Thương gia, Selldone",
+     "name" => "Chấp thuận, Selldone",
 ],
      "Approve" => [
      "id" => "chấp thuận",
@@ -340,6 +341,12 @@
      "title" => "Chúng tôi rất vui vì thành viên của bạn",
      "action" => "Đến thăm bây giờ",
 ],
+     "shop-vendor-join" => [
+     "subject" => "Nhà cung cấp Onboarding | :shop_title",
+     "category" => "Lễ mừng nhà cung cấp mới",
+     "title" => "Chúng tôi rất vui vì thành viên của bạn",
+     "action" => "Vendor Panel",
+],
      "shop-giftcard" => [
      "subject" => "Thẻ quà tặng: shop_title",
      "category" => "Thêm thẻ mới",
@@ -354,7 +361,7 @@
 ],
      "order-checkout" => [
      "subject" => "🛍 Đặt hàng Thanh toán | : order_id",
-     "title" => "gọi món",
+     "title" => "đặt hàng",
      "message" => "Đơn đặt hàng của bạn xác nhận,<br> Chúng tôi đã nhận được đơn đặt hàng của bạn. Chúng tôi sẽ gửi cho bạn một email khác khi đơn đặt hàng của bạn được giao.",
      "payments" => "Thanh toán",
 ],
@@ -558,6 +565,7 @@
      "category" => "Thông báo bảo mật",
      "title" => "Đăng nhập vào tài khoản",
      "message" => "Kính gửi: tên, bạn đã đăng nhập vào tài khoản Selldone của mình.",
+     "message-shop" => "Thân gửi :name, bạn đã đăng nhập vào :shop_title.",
      "footer" => "Nếu bạn chưa đăng nhập, vui lòng thay đổi mật khẩu của bạn.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Tổng số lượt xem trang của trang web",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Bạn đã nhận được đơn hàng mới. Vui lòng đến trang xử lý đơn hàng trong bảng điều khiển nhà cung cấp của bạn.",
+     "subject" => "🛍 Đơn hàng mới đã nhận | : order_id",
+     "your_revenue" => "Doanh thu của bạn",
+],
+     "vendor-invite" => [
+     "title" => "Lời mời của nhà cung cấp",
+     "message" => "Bạn đã nhận được lời mời trở thành nhà cung cấp của :shop_name. Bạn có thể chấp nhận hoặc từ chối bằng cách nhấp vào các nút sau.",
+     "subject" => ":shop_name | Bạn đã nhận được lời mời trở thành nhà cung cấp của chúng tôi",
+     "accept" => "Chấp nhận & Trở thành Nhà cung cấp",
+     "reject" => "Từ chối",
+],
+     "shop-email-login" => [
+     "subject" => "Mã đăng nhập của bạn cho :shop",
+     "header-message" => "Chúng tôi gửi cho bạn email này vì bạn đã yêu cầu mã đăng nhập cho cửa hàng. Vui lòng tìm Mật khẩu một lần (OTP) của bạn bên dưới:",
+     "footer-message" => "Mã này sẽ có hiệu lực trong 10 phút. Nếu bạn không yêu cầu mã đăng nhập này, vui lòng bỏ qua email này.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Xác minh email của bạn | :shop",
+     "title" => "Xác minh Email",
+     "header-message" => "Xin chào: tên,<br> Vui lòng xác nhận rằng **:email** là địa chỉ email của bạn bằng cách nhấp vào nút hoặc sử dụng liên kết bên dưới trong vòng 48 giờ.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Cập nhật sản phẩm :shop",
+     "title" => "Cập nhật về tình trạng sản phẩm - 24 giờ qua",
+     "message" => "Tôi hy vọng tin nhắn này sẽ đến được với bạn. Đây là bản cập nhật ngắn gọn để thông báo cho bạn về trạng thái sản phẩm của bạn trên nền tảng của chúng tôi trong 24 giờ qua. Trong thời gian này, đã có những thay đổi về trạng thái của một số sản phẩm. Những thay đổi này có thể là do mua hàng, cập nhật kho hoặc các sự kiện liên quan khác. Để biết thông tin chi tiết hơn về từng sản phẩm, vui lòng đăng nhập vào tài khoản của bạn và kiểm tra phần 'Trạng thái sản phẩm'.",
+     "action" => "Mở Bảng điều khiển nhà cung cấp",
 ],
 ];

@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Kanaria bulak",
      "#FFFFB4" => "Portafin",
      "#FFFFF0" => "gading",
+     "#B3E5FC" => "És",
+     "#F1C40F" => "Subuh",
+     "#7DF9FF" => "Listrik",
+     "#FF6B35" => "Panonpoé surup",
 ];

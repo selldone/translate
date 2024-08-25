@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "おめでとうございます、登録してこのギフトカードを受け取りましょう",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Selldone のアクティブ ユーザーのリンクからサイトにアクセスしました。今すぐ Selldone に登録すると、14.9 ドル相当のギフトカードを受け取ります。 Selldone でのストアの登録と構築は 100% 無料ですが、これらのリチャージ カードを使用してサービスを軽減できます。",
-],
 ];

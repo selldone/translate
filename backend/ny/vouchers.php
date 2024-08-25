@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Zabwino zonse, lembani ndi kulandira khadi lamphatsoli",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Mwalowa patsambali kudzera pa ulalo wa ogwiritsa ntchito a Selldone, ngati mungalembetse ku Selldone tsopano, mudzalandira khadi lamphatso la $ 14.9. Kulembetsa ndi kumanga sitolo ku Selldone ndi 100% kwaulere, koma mutha kugwiritsa ntchito makhadi owonjezerawa kuti muchepetse ntchito.",
-],
 ];

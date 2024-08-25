@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Pasūtījumu apstiprina pircējs",
+     "email-types-description" => [
+     "shop-customer-join" => "Šī ziņa sveic jaunu pircēju veikalā.",
+     "order-checkout" => "Šis paziņojums tiek nosūtīts, kad pircējs apstiprina pasūtījumu.",
+     "order-payment" => "Šis paziņojums apstiprina veiksmīgu klienta veikto maksājumu.",
+     "order-payment-admin" => "Šis ziņojums tiek nosūtīts pārdevējam, lai informētu viņu par apstiprinātu pasūtījumu.",
+     "pos-checkout" => "Šis paziņojums tiek nosūtīts, lai apstiprinātu pircēja pasūtījumu tirdzniecības vietā.",
+     "pos-payment" => "Šis paziņojums apstiprina pircēja veikto maksājumu tirdzniecības vietā.",
+     "pos-payment-admin" => "Šis ziņojums informē pārdevēju par pirkumu, kas veikts viņa tirdzniecības vietā.",
+     "shop-contact" => "Šis paziņojums tiek nosūtīts, kad ir iesniegta saziņas veidlapa.",
+     "shop-giftcard" => "Šis paziņojums informē lietotāju, ka viņš ir saņēmis dāvanu karti.",
+     "shop-vendor-join" => "Šis ziņojums sveic jaunu pārdevēju veikalā.",
+     "shop-vendor-invite" => "Šis ziņojums ir nosūtīts, lai uzaicinātu pārdevēju pievienoties jūsu tirgum.",
+     "shop-vendor-order" => "Šis ziņojums tiek nosūtīts pārdevējam, kad pasūtījums tiek saņemts vai nu apmaksātā, vai skaidrās piegādes (COD) statusā.",
+     "shop-vendor-products" => "Sūta katru dienu, lai informētu pārdevējus par savu produktu statusu.",
+     "shop-login" => "Drošības nolūkos paziņojiet lietotājam pieteikšanās informāciju, tostarp IP adresi, datumu un ierīci.",
+     "login-code" => "Nosūtiet vienreizēju paroles kodu, lai lietotāji varētu pieteikties veikalā.",
+     "shop-email-verify-link" => "Nosūtiet saiti, lai verificētu lietotāja e-pasta adresi. Šis pasts tiek nosūtīts, kad lietotājs reģistrējas ar SMS un ievada savu e-pastu, un netiek nosūtīts, kad lietotājs reģistrējas tieši sociālajā tīklā vai e-pastā.",
 ],
-        [
-     "title" => "Klienta maksājuma apstiprinājums",
-],
-        [
-     "title" => "Pasūtījuma apstiprinājuma paziņojums pārdevējam",
-],
-        [
-     "title" => "Apstipriniet veikala kastes pasūtījumu pircējam",
-],
-        [
-     "title" => "Apstiprināt pircēja kases aparāta apmaksu",
-],
-        [
-     "title" => "Paziņojums par pirkumu pārdevēja kastē",
-],
-        [
-     "title" => "Informējiet kontaktu formu",
-],
-        [
-     "title" => "Apsveicam ar pievienošanos veikalam",
-],
-        [
-     "title" => "Paziņojums par dāvanu kartes saņemšanu lietotājam",
-]
-     ],
      "global" => [
      "greetings" => "Sveiki :name",
      "end-statement" => "Atbalsta komanda",
@@ -126,7 +115,7 @@
      "transaction" => "Darījums",
      "fee" => "Maksa",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bils",
      "category" => "Kategorija",
      "password" => "Parole",
@@ -150,6 +139,18 @@
      "receiver" => "Uztvērējs",
      "virtual-items" => "Virtuālie priekšmeti",
      "no-payment" => "Bez maksas!",
+     "enable" => "Iespējot",
+     "access" => "Piekļuve",
+     "bank" => "Bankas informācija",
+     "vendor" => "Pārdevējs",
+     "view_content" => "Skatīt pilnu saturu",
+     "files" => "Faili",
+     "download" => "Lejupielādēt",
+     "file_name" => "Faila nosaukums",
+     "file_size" => "Izmērs",
+     "subscription" => "Abonēšana",
+     "products" => "Produkti",
+     "vendor_products" => "Pārdevēju produkti",
 ],
      "selldone-business-os" => "Pārdots biznesa OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "Sveiki",
-     "name" => "Pārdotā komanda",
+     "name" => "Apstiprināt, pārdots",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "tirgotāji",
-     "name" => "Tirgotāji, Selldone",
+     "name" => "Apstiprināt, pārdots",
 ],
      "Approve" => [
      "id" => "apstiprināt",
@@ -339,6 +340,12 @@
      "category" => "Jauno klientu svinības",
      "title" => "Mēs priecājamies par jūsu dalību",
      "action" => "Apmeklējiet tagad",
+],
+     "shop-vendor-join" => [
+     "subject" => "Pārdevēja uzņemšana | :shop_title",
+     "category" => "Jaunā pārdevēja svētki",
+     "title" => "Mēs priecājamies par jūsu dalību",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Dāvanu karte :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Drošības paziņojumi",
      "title" => "Piesakieties kontā",
      "message" => "Dārgais :name, jūs esat pieteicies savā Selldone kontā.",
+     "message-shop" => "Dārgais :name, jūs esat pieteicies vietnē :shop_title .",
      "footer" => "Ja neesat pieteicies, lūdzu, nomainiet savu paroli.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Kopējais vietnes lapu skatījumu skaits",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Jūs esat saņēmis jaunu pasūtījumu. Lūdzu, pārejiet uz pasūtījumu apstrādes lapu savā piegādātāja panelī.",
+     "subject" => "🛍 Saņemts jauns pasūtījums | :pasūtījuma_id",
+     "your_revenue" => "Jūsu ieņēmumi",
+],
+     "vendor-invite" => [
+     "title" => "Pārdevēja ielūgums",
+     "message" => "Jūs esat saņēmis uzaicinājumu kļūt par :shop_name piegādātāju. Varat to pieņemt vai noraidīt, noklikšķinot uz tālāk norādītajām pogām.",
+     "subject" => ":veikala_nosaukums | Jūs saņēmāt uzaicinājumu kļūt par mūsu pārdevēju",
+     "accept" => "Pieņemiet un kļūstiet par pārdevēju",
+     "reject" => "Noraidīt",
+],
+     "shop-email-login" => [
+     "subject" => "Jūsu pieteikšanās kods :shop",
+     "header-message" => "Mēs nosūtām jums šo e-pasta ziņojumu, jo pieprasījāt veikala pieteikšanās kodu. Lūdzu, tālāk atrodiet savu vienreizējo paroli (OTP):",
+     "footer-message" => "Šis kods būs derīgs 10 minūtes. Ja nepieprasījāt šo pieteikšanās kodu, lūdzu, ignorējiet šo e-pasta ziņojumu.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Apstipriniet savu e-pastu | :veikals",
+     "title" => "E-pasta verifikācija",
+     "header-message" => "Sveiki :name,<br> Lūdzu, apstipriniet, ka **:email** ir jūsu e-pasta adrese, noklikšķinot uz pogas vai izmantojiet zemāk esošo saiti 48 stundu laikā.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Produktu atjauninājums: veikals",
+     "title" => "Produkta statusa atjauninājums — pēdējās 24 stundas",
+     "message" => "Es ceru, ka šī ziņa jūs atradīs. Šis ir īss atjauninājums, lai informētu jūs par jūsu produktu statusu mūsu platformā pēdējo 24 stundu laikā. Šajā periodā ir notikušas izmaiņas atsevišķu produktu statusā. Šīs izmaiņas var būt saistītas ar pirkumiem, krājumu atjauninājumiem vai citiem saistītiem notikumiem. Lai iegūtu sīkāku informāciju par katru produktu, lūdzu, piesakieties savā kontā un pārbaudiet sadaļu 'Produkta statuss'.",
+     "action" => "Atveriet piegādātāju paneli",
 ],
 ];

@@ -59,4 +59,25 @@ return [
 
     'selldone_sign' => 'SELLDONE',
 
+
+    'country' => 'کشور',
+    'state' => 'استان',
+    'city' => 'شهر',
+    'wallet' => 'کیف پول',
+
+
+    'Sunday' => 'یکشنبه',
+    'Monday' => 'دوشنبه',
+    'Tuesday' => 'سه شنبه',
+    'Wednesday' => 'چهارشنبه',
+    'Thursday' => 'پنجشنبه',
+    'Friday' => 'جمعه',
+    'Saturday' => 'شنبه',
+
+    'Morning'=>'صبح',
+    'Evening'=>'عصر',
+    'Night'=>'شب',
+    'Instant'=>'فوری',
+
+
 ];

@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Disse legitimationsoplysninger stemmer ikke overens med vores optegnelser.",
+     "password" => "Den angivne adgangskode er forkert.",
      "throttle" => "For mange loginforsøg. Prøv venligst igen om :sekunder sekunder.",
      "title_shop" => "Log ind på :name",
      "title_app" => "Applikationsadgang for :name",

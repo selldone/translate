@@ -1,7 +1,7 @@
 <?php 
 
  return [
-     "home" => "Selldone",
+     "home" => "selldone",
      "blogs" => "Blog",
      "helps" => "Giúp đỡ",
      "current_location" => "Mục này",

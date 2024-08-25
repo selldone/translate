@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Denbora-mugarik gabe denda eta gune bat doan eraikitzeko ezaugarri profesional guztiak zure zain daude.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Web zerbitzua, aplikazioak garatzeko dokumentazioa eta konektatutako zerbitzua.",
-],
      "apps" => [
      "title" => "App denda",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Onartutako herrialdeak eta tokiko ordainketak - Enpresa OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, merkataritza zerbitzuen hurrengo bilakaera urratsa merkataritza elektronikoko plataformetatik gai, plugin edo koderik gabeko zerbaitetara. %100 bisualki!",
+],
+     "participant" => [
+     "title" => "Nahi duzun komunitatea — Jokatu eta irabazi $ 20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Selldone komunitatean parte hartu dezakezu besteei laguntzeko bideo laburrak sortuz eta bideo bakoitzeko 20 USD-ko opari-kreditua lortuz.",
+],
+     "tax" => [
+     "title" => "Zerga Tasa Globalen Zerrenda",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Zerga-arauak gainidatzi eta zerga-profil bat baino gehiago sor ditzakezu produktu-kategoria desberdinetarako.",
+],
+     "premium" => [
+     "title" => "Berritu Premium-era eta eraldatu zure merkataritza elektronikoko jokoa",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Igo zure lineako denda Selldone Premium-ekin. Sar zaitez AI tresna esklusiboak, neurrira egindako txantiloiak eta gehiago eraginkortasuna areagotzeko eta merkatu digitalean nabarmentzeko. Erregistratu orain merkataritza elektronikoko esperientzia dotoreago eta dotoreago bat lortzeko!",
+],
+     "builder" => [
+     "title" => "Doako orriaren eraikitzailea eta lurreratze orrien editorearen web-aplikazioa - Ez da saioa hasi behar",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Sortu web-orri zoragarriak eta helmuga-orriak esfortzurik gabe gure orri-sortzaile eta editore erabilerraz eta doakoarekin. Ez da saioa hasi behar. Diseinatu, pertsonalizatu eta argitaratu zure web orriak azkar arrastatu eta jaregin interfaze intuitiboarekin. Aproposa web-diseinuko irtenbide bat bilatzen duten merkatarientzat, enpresa txikien jabeentzat eta garatzaileentzat.",
 ],
 ],
      "shuttle" => [

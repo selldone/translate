@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Porosia e konfirmuar nga blerësi",
+     "email-types-description" => [
+     "shop-customer-join" => "Ky mesazh mirëpret një blerës të ri në dyqan.",
+     "order-checkout" => "Ky njoftim dërgohet kur një blerës konfirmon një porosi.",
+     "order-payment" => "Ky njoftim konfirmon pagesën e suksesshme të bërë nga një klient.",
+     "order-payment-admin" => "Ky mesazh i dërgohet një shitësi për t'i njoftuar ata për një porosi të konfirmuar.",
+     "pos-checkout" => "Ky njoftim dërgohet për të konfirmuar një porosi në pikën e shitjes për një blerës.",
+     "pos-payment" => "Ky njoftim konfirmon një pagesë në pikën e shitjes të bërë nga një blerës.",
+     "pos-payment-admin" => "Ky mesazh njofton shitësin për një blerje të bërë në pikën e tyre të shitjes.",
+     "shop-contact" => "Ky njoftim dërgohet kur të jetë dorëzuar një formular kontakti.",
+     "shop-giftcard" => "Ky njoftim informon një përdorues që ka marrë një kartë dhuratë.",
+     "shop-vendor-join" => "Ky mesazh mirëpret një shitës të ri në dyqan.",
+     "shop-vendor-invite" => "Ky mesazh dërgohet për të ftuar një shitës që të bashkohet me tregun tuaj.",
+     "shop-vendor-order" => "Ky mesazh i dërgohet shitësit kur një porosi merret në statusin e paguar ose me para në dorëzim (COD).",
+     "shop-vendor-products" => "Dërguar çdo ditë për të përditësuar shitësit mbi statusin e produkteve të tyre.",
+     "shop-login" => "Njoftoni përdoruesin me detajet e hyrjes, duke përfshirë adresën IP, datën dhe pajisjen, për qëllime sigurie.",
+     "login-code" => "Dërgoni një kod fjalëkalimi një herë për përdoruesit që të hyjnë në dyqan.",
+     "shop-email-verify-link" => "Dërgoni një lidhje për të verifikuar adresën e emailit të përdoruesit. Kjo postë dërgohet kur një përdorues regjistrohet me SMS dhe fut email-in e tij dhe nuk dërgohet kur përdoruesi regjistrohet me rrjet social ose email direkt.",
 ],
-        [
-     "title" => "Konfirmimi i pagesës së klientit",
-],
-        [
-     "title" => "Njoftimi për konfirmimin e porosisë për shitësin",
-],
-        [
-     "title" => "Konfirmo porosinë e kutisë së dyqanit për blerësin",
-],
-        [
-     "title" => "Konfirmoni pagesën e arkës për blerësin",
-],
-        [
-     "title" => "Njoftimi i blerjes në kutinë e shitësit",
-],
-        [
-     "title" => "Informoni formularin e kontaktit",
-],
-        [
-     "title" => "Urime për anëtarësimin në dyqan",
-],
-        [
-     "title" => "Njoftim për marrjen e një karte dhuratë për përdoruesin",
-]
-     ],
      "global" => [
      "greetings" => "Përshëndetje :name",
      "end-statement" => "Ekipi mbështetës",
@@ -126,7 +115,7 @@
      "transaction" => "Transaksioni",
      "fee" => "Tarifa",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Fature",
      "category" => "Kategoria",
      "password" => "Fjalëkalimi",
@@ -150,6 +139,18 @@
      "receiver" => "Marrësi",
      "virtual-items" => "Artikuj virtualë",
      "no-payment" => "Asnjë pagesë!",
+     "enable" => "Aktivizo",
+     "access" => "Qasja",
+     "bank" => "Informacioni i bankës",
+     "vendor" => "Shitësi",
+     "view_content" => "Shikoni përmbajtjen e plotë",
+     "files" => "Skedarët",
+     "download" => "Shkarko",
+     "file_name" => "Emri i skedarit",
+     "file_size" => "Madhësia",
+     "subscription" => "Abonimi",
+     "products" => "Produktet",
+     "vendor_products" => "Produktet e shitësit",
 ],
      "selldone-business-os" => "Shitet OS Biznesi",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "përshëndetje",
-     "name" => "Ekipi i shitur",
+     "name" => "Mirato, Shitet",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "tregtarët",
-     "name" => "Tregtarët, Shitës",
+     "name" => "Mirato, Shitet",
 ],
      "Approve" => [
      "id" => "miratojnë",
@@ -339,6 +340,12 @@
      "category" => "Festa e klientëve të rinj",
      "title" => "Jemi të lumtur për anëtarësimin tuaj",
      "action" => "Vizitoni tani",
+],
+     "shop-vendor-join" => [
+     "subject" => "Futja e shitësit | :shop_title",
+     "category" => "Festimi i shitësve të rinj",
+     "title" => "Jemi të lumtur për anëtarësimin tuaj",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Kartë dhuratë :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Njoftimet e sigurisë",
      "title" => "Hyni në Llogari",
      "message" => "I dashur :name, ju keni hyrë në llogarinë tuaj të Seldone.",
+     "message-shop" => "I dashur :name, ju keni hyrë në :shop_title.",
      "footer" => "Nëse nuk jeni të identifikuar, ju lutemi ndryshoni fjalëkalimin tuaj.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Shikimet totale të faqeve të internetit",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Ju keni marrë një porosi të re. Ju lutemi shkoni te faqja e përpunimit të porosive në panelin tuaj të shitësit.",
+     "subject" => "🛍 U mor porosi e re | :order_id",
+     "your_revenue" => "Të ardhurat tuaja",
+],
+     "vendor-invite" => [
+     "title" => "Ftesa e shitësit",
+     "message" => "Ju keni marrë një ftesë për t'u bërë shitës i :shop_name. Mund ta pranoni ose refuzoni duke klikuar në butonat e mëposhtëm.",
+     "subject" => ":shop_name | Ju morët një ftesë për t'u bërë shitësi ynë",
+     "accept" => "Prano dhe Bëhu Shitës",
+     "reject" => "Refuzo",
+],
+     "shop-email-login" => [
+     "subject" => "Kodi juaj i hyrjes për :shop",
+     "header-message" => "Ne po ju dërgojmë këtë email sepse keni kërkuar një kod identifikimi për dyqanin. Ju lutemi gjeni fjalëkalimin tuaj një herë (OTP) më poshtë:",
+     "footer-message" => "Ky kod do të jetë i vlefshëm për 10 minuta. Nëse nuk e keni kërkuar këtë kod identifikimi, ju lutemi shpërfilleni këtë email.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Verifikoni emailin tuaj | :dyqan",
+     "title" => "Verifikimi me email",
+     "header-message" => "Përshëndetje :name,<br> Ju lutemi konfirmoni që **:email** është adresa juaj e emailit duke klikuar në butonin ose përdorni lidhjen e mëposhtme brenda 48 orëve.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Përditësimi i produkteve :shop",
+     "title" => "Përditësim mbi statusin e produktit - 24 orët e fundit",
+     "message" => "Shpresoj që ky mesazh t'ju gjejë mirë. Ky është një përditësim i shkurtër për t'ju informuar për statusin e produkteve tuaja në platformën tonë gjatë 24 orëve të fundit. Gjatë kësaj periudhe ka pasur ndryshime në statusin e disa produkteve. Këto ndryshime mund të jenë për shkak të blerjeve, përditësimeve të aksioneve ose ngjarjeve të tjera të lidhura. Për informacion më të detajuar rreth secilit produkt, ju lutemi identifikohuni në llogarinë tuaj dhe kontrolloni seksionin 'Statusi i produktit'.",
+     "action" => "Hapni panelin e shitësit",
 ],
 ];

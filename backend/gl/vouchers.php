@@ -73,14 +73,4 @@
      "price" => 3.588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Parabéns, rexístrate e recibe esta tarxeta regalo",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Entraches no sitio a través da ligazón dun usuario activo de Selldone, se te rexistras en Selldone agora, recibirás unha tarxeta de agasallo por valor de 14,9 dólares. Rexistrar e construír unha tenda en Selldone é 100% gratuíto, pero podes usar estas tarxetas de recarga para aliviar o servizo.",
-],
 ];

@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Estas credenciais non coinciden cos nosos rexistros.",
+     "password" => "O contrasinal proporcionado é incorrecto.",
      "throttle" => "Demasiados intentos de inicio de sesión. Téntao de novo en :segundos segundos.",
      "title_shop" => "Inicia sesión en :nome",
      "title_app" => "Acceso á aplicación de :nome",

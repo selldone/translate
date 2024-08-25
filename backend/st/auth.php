@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Lintlha tsena ha li lumellane le lirekoto tsa rona.",
+     "password" => "Phasewete e fanoeng e fosahetse.",
      "throttle" => "Ho na le liteko tse ngata haholo tsa ho kena. Ka kopo, leka hape ka mor'a :seconds.",
      "title_shop" => "Kena ho :name",
      "title_app" => "Ho fihlella kopo ea :name",

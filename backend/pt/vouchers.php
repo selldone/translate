@@ -73,14 +73,4 @@
      "price" => 3.588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Parabéns, cadastre-se e receba este vale-presente",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Você entrou no site através do link de um usuário ativo do Selldone, se você se cadastrar no Selldone agora, você receberá um vale-presente no valor de $ 14,9. Registrar e construir uma loja no Selldone é 100% gratuito, mas você pode usar esses cartões de recarga para aliviar o serviço.",
-],
 ];

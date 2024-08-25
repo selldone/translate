@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Ko enei tohu kaore e rite ki o maatau rekoata.",
+     "password" => "He he te kupuhipa kua hoatu.",
      "throttle" => "He maha rawa nga nganatanga takiuru. Me ngana ano i roto i te : hēkona hēkona.",
      "title_shop" => "Takiuru ki :ingoa",
      "title_app" => "Te urunga tono o :ingoa",

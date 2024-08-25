@@ -73,14 +73,4 @@
      "price" => "3 588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Félicitations, inscrivez-vous et recevez cette carte cadeau",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Vous êtes entré sur le site via le lien d'un utilisateur actif de Selldone, si vous vous inscrivez maintenant sur Selldone, vous recevrez une carte-cadeau d'une valeur de 14,9 $. L'enregistrement et la création d'un magasin dans Selldone sont 100 % gratuits, mais vous pouvez utiliser ces cartes de recharge pour soulager le service.",
-],
 ];

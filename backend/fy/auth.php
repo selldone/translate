@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Dizze bewiisbrieven komme net oerien mei ús records.",
+     "password" => "It opjûne wachtwurd is ferkeard.",
      "throttle" => "Tefolle oanmeldpogingen. Besykje it nochris oer :sekonden sekonden.",
      "title_shop" => "Oanmelde by: namme",
      "title_app" => "Applikaasje tagong fan: namme",

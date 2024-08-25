@@ -1628,4 +1628,8 @@
      "#FFFF99" => "blady kanarek",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "kość słoniowa",
+     "#B3E5FC" => "Lód",
+     "#F1C40F" => "Świt",
+     "#7DF9FF" => "Elektryczny",
+     "#FF6B35" => "Zachód słońca",
 ];

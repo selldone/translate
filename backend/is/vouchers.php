@@ -73,14 +73,4 @@
      "price" => 3.588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Til hamingju, skráðu þig og fáðu þetta gjafakort",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Þú hefur farið inn á síðuna í gegnum hlekkinn á virkum notanda Selldone, ef þú skráir þig í Selldone núna færðu gjafakort að verðmæti $ 14,9. Að skrá og byggja verslun í Selldone er 100% ókeypis, en þú getur notað þessi hleðslukort til að létta á þjónustunni.",
-],
 ];

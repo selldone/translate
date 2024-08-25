@@ -14,8 +14,8 @@
         "construtor de comunidade personalizado",
         "comércio eletrônico de marca branca"
      ],
-     "samin" => "vendido",
-     "Selldone" => "vendido",
+     "samin" => "vendido feito",
+     "Selldone" => "vendido feito",
      "related" => "Relacionado",
      "share" => "Compartilhar",
      "global" => [
@@ -33,7 +33,7 @@
 ],
      "footer-menu" => [
         [
-     "title" => "vendido",
+     "title" => "vendido feito",
      "items" => [
         [
      "title" => "Plataforma de negócios",
@@ -172,7 +172,7 @@
      "seo" => "Motor SEO Automático",
      "automation" => "Automação e IoT",
      "ai" => "Comércio de IA",
-     "app-builder" => "Criador de aplicativos",
+     "app-builder" => "Construtor de aplicativos",
 ],
      "build" => "Construir",
      "build-sub" => "Criamos um sistema em torno de você para criar sua história de sucesso.",
@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Todos os recursos profissionais de construção de uma loja e site gratuitamente, sem limite de tempo, estão esperando por você.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Web service, documentação para desenvolvimento de aplicativos e serviços conectados.",
-],
      "apps" => [
      "title" => "Loja de aplicativos",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Países suportados e pagamentos locais - SO empresarial",
      "image" => "/images/seo/en/countries.png",
      "description" => "SO de negócios, o próximo passo da evolução dos serviços de comércio de plataformas de comércio eletrônico para algo sem tema, plugin ou código. 100% visual!",
+],
+     "participant" => [
+     "title" => "A comunidade que você quer — Jogue e Ganhe $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Você pode participar da comunidade selldone criando vídeos curtos para ajudar outras pessoas e ganhar até 20 USD de crédito de presente por vídeo.",
+],
+     "tax" => [
+     "title" => "Lista de taxas de impostos globais",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Você pode substituir regras fiscais e criar mais de um perfil fiscal para diferentes categorias de produtos.",
+],
+     "premium" => [
+     "title" => "Atualize para Premium e transforme seu jogo de comércio eletrônico",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Eleve sua loja online com o Selldone Premium. Acesse ferramentas exclusivas de IA, modelos personalizados e muito mais para aumentar a eficiência e se destacar no mercado digital. Inscreva-se agora para uma experiência de e-commerce mais inteligente e elegante!",
+],
+     "builder" => [
+     "title" => "Criador de páginas grátis e editor de landing pages Webapp - Não é necessário fazer login",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Crie páginas da web e landing pages impressionantes sem esforço com nosso construtor e editor de páginas gratuito e fácil de usar. Não é necessário fazer login. Projete, personalize e publique suas páginas da web rapidamente com nossa interface intuitiva de arrastar e soltar. Perfeito para profissionais de marketing, proprietários de pequenas empresas e desenvolvedores que buscam uma solução de web design sem complicações.",
 ],
 ],
      "shuttle" => [

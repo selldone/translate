@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Tá na gnéithe gairmiúla go léir a bhaineann le stór agus láithreán a thógáil saor in aisce gan aon teorainn ama ag fanacht leat.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Seirbhís Gréasáin, doiciméadú le haghaidh forbairt feidhmchláir agus seirbhís ceangailte.",
-],
      "apps" => [
      "title" => "Siopa app",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Tíortha Tacaithe agus Íocaíochtaí Áitiúla - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, An chéad chéim éabhlóide eile de sheirbhísí tráchtála ó ardáin ríomhthráchtála go rud gan téama, breiseán nó cód. 100% ó thaobh amhairc!",
+],
+     "participant" => [
+     "title" => "An pobal atá uait - Seinn agus Buaigh $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Is féidir leat páirt a ghlacadh sa phobal selldone trí fhíseáin ghearra a chruthú chun cabhrú le daoine eile agus suas le 20 creidmheas bronntanais USD a fháil in aghaidh an fhíseáin.",
+],
+     "tax" => [
+     "title" => "Liosta Rátaí Cánach Domhanda",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Is féidir leat rialacha cánach a shárú agus níos mó ná próifíl chánach amháin a chruthú do chatagóirí éagsúla táirgí.",
+],
+     "premium" => [
+     "title" => "Uasghrádaigh go Préimh agus Trasfhoirmigh Do Chluiche Ríomhthráchtála",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Ardaigh do shiopa ar líne le Soldone Premium. Faigh rochtain ar uirlisí eisiacha AI, teimpléid shaincheaptha, agus níos mó chun éifeachtúlacht a threisiú agus seasamh amach sa mhargadh digiteach. Glac páirt anois le haghaidh eispéireas ríomhthráchtála níos cliste agus níos caolchúisí!",
+],
+     "builder" => [
+     "title" => "Tógálaí Leathanach Saor in Aisce & Eagarthóir Leathanach Tuirlingthe Webapp - Níl gá le logáil isteach",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Cruthaigh leathanaigh ghréasáin iontacha agus leathanaigh tuirlingthe gan stró lenár dtógálaí agus ár n-eagarthóir leathanach saor in aisce atá éasca le húsáid. Níl gá le logáil isteach. Dear, saincheap agus foilsigh do leathanaigh ghréasáin go tapa lenár gcomhéadan iomasach tarraing agus titim. Foirfe do mhargaitheoirí, úinéirí gnóthais bheaga, agus d'fhorbróirí atá ag lorg réiteach dearadh gréasáin gan stró.",
 ],
 ],
      "shuttle" => [

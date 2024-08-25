@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Felisitasyon, anrejistre epi resevwa kat kado sa a",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Ou te antre nan sit la atravè lyen an nan yon itilizatè aktif nan Selldone, si ou anrejistre nan Selldone kounye a, ou pral resevwa yon kat kado vo $ 14.9. Enskri ak bati yon magazen nan Selldone se 100% gratis, men ou ka itilize kat rechaje sa yo pou soulaje sèvis la.",
-],
 ];

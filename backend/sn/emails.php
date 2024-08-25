@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Order yakasimbiswa nemutengi",
+     "email-types-description" => [
+     "shop-customer-join" => "Iyi meseji inotambira mutengi mutsva kuchitoro.",
+     "order-checkout" => "Ichi chiziviso chinotumirwa kana mutengi achisimbisa odha.",
+     "order-payment" => "Ichi chiziviso chinosimbisa kubhadhara kwakabudirira kwakaitwa nemutengi.",
+     "order-payment-admin" => "Iyi meseji inotumirwa kumutengesi kuti aziviswe nezveodha yakasimbiswa.",
+     "pos-checkout" => "Ichi chiziviso chinotumirwa kuti chisimbise poindi yekutengesa kwemutengi.",
+     "pos-payment" => "Ichi chiziviso chinosimbisa poindi yekutengesa mubhadharo wakaitwa nemutengi.",
+     "pos-payment-admin" => "Iyi meseji inozivisa mutengesi nezvekutenga kwakaitwa panzvimbo yavo yekutengesa.",
+     "shop-contact" => "Ichi chiziviso chinotumirwa kana fomu rekuonana ratumirwa.",
+     "shop-giftcard" => "Ichi chiziviso chinozivisa mushandisi kuti agamuchira chipo kadhi.",
+     "shop-vendor-join" => "Iyi meseji inogamuchira mutengesi mutsva kuchitoro.",
+     "shop-vendor-invite" => "Iyi meseji inotumirwa kunokoka mutengesi kuti abatane nemusika wako.",
+     "shop-vendor-order" => "Iyi meseji inotumirwa kumutengesi kana odha yagamuchirwa mune Yakabhadharwa kana Cash on Delivery (COD) mamiriro.",
+     "shop-vendor-products" => "Inotumirwa zuva nezuva kuti igadzirise vatengesi pamamiriro ezvigadzirwa zvavo.",
+     "shop-login" => "Zivisa mushandisi nemashoko ekupinda, kusanganisira IP kero, zuva, uye mudziyo, kuitira kuchengetedza.",
+     "login-code" => "Tumira kodhi yenguva imwe chete password kuti vashandisi vapinde muchitoro.",
+     "shop-email-verify-link" => "Tumira chinongedzo kuti uone kero yeemail yemushandisi. Iyi tsamba inotumirwa kana mushandisi akanyoresa neSMS uye oisa email yavo uye haina kutumirwa kana mushandisi achinyoresa nesocial kana email zvakananga.",
 ],
-        [
-     "title" => "Kusimbiswa kwekubhadhara kwemutengi",
-],
-        [
-     "title" => "Odha chiziviso chekusimbisa kune mutengesi",
-],
-        [
-     "title" => "Simbisa bhokisi rechitoro kuodha",
-],
-        [
-     "title" => "Simbisa kubhadharwa kwerejista yemari kune mutengi",
-],
-        [
-     "title" => "Chiziviso chekutenga mubhokisi remutengesi",
-],
-        [
-     "title" => "Zivisa fomu rekuonana",
-],
-        [
-     "title" => "Makorokoto nekupinda muchitoro",
-],
-        [
-     "title" => "Chiziviso chekugamuchira kadhi rechipo kumushandisi",
-]
-     ],
      "global" => [
      "greetings" => "Hi :zita",
      "end-statement" => "Support team",
@@ -126,7 +115,7 @@
      "transaction" => "Transaction",
      "fee" => "Fee",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Category",
      "password" => "Pasiwedhi",
@@ -150,6 +139,18 @@
      "receiver" => "Receiver",
      "virtual-items" => "Virtual zvinhu",
      "no-payment" => "Hapana kubhadhara!",
+     "enable" => "Enable",
+     "access" => "Access",
+     "bank" => "Bank info",
+     "vendor" => "Mutengesi",
+     "view_content" => "Ona zvizere",
+     "files" => "Files",
+     "download" => "Download",
+     "file_name" => "File Name",
+     "file_size" => "Size",
+     "subscription" => "Kunyoresa",
+     "products" => "Products",
+     "vendor_products" => "Vendor Products",
 ],
      "selldone-business-os" => "Selldone Bhizinesi OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "mhoro",
-     "name" => "Selldone Team",
+     "name" => "Bvuma, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "vatengesi",
-     "name" => "Vatengesi, Selldone",
+     "name" => "Bvuma, Selldone",
 ],
      "Approve" => [
      "id" => "bvumira",
@@ -339,6 +340,12 @@
      "category" => "Kupemberera kwevatengi kutsva",
      "title" => "Isu tinofara nekuve nhengo yako",
      "action" => "Shanyira izvozvi",
+],
+     "shop-vendor-join" => [
+     "subject" => "Vendor Onboarding | :shop_title",
+     "category" => "Mhemberero yemutengesi mutsva",
+     "title" => "Isu tinofara nekuve nhengo yako",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Giftcard :shop_title",
@@ -558,6 +565,7 @@
      "category" => "Chengetedzo zviziviso",
      "title" => "Login kuAccount",
      "message" => "Anodiwa: zita, wanga uchingopinda kuSelldone account yako.",
+     "message-shop" => "Wadiwa :zita, wakapinda pa:shop_title.",
      "footer" => "Kana usina kupinda, ndapota shandura password yako.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Maonero ese ewebhusaiti",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Wagamuchira odha itsva. Ndokumbira uende kune peji rekugadzirisa odha mune yako mutengesi pane.",
+     "subject" => "🛍 Order Itsva Yatambirwa | :order_id",
+     "your_revenue" => "Mari Yako",
+],
+     "vendor-invite" => [
+     "title" => "Mutengesi Kukoka",
+     "message" => "Wagamuchira kukokwa kuti uve mutengesi we:shop_name. Unogona kuzvigamuchira kana kuzviramba nekudzvanya pamabhatani anotevera.",
+     "subject" => ":shop_name | Wakagamuchira kukokwa kuti uve mutengesi wedu",
+     "accept" => "Gamuchira & Iva Mutengesi",
+     "reject" => "Ramba",
+],
+     "shop-email-login" => [
+     "subject" => "Yako Login Code ye:shop",
+     "header-message" => "Tiri kukutumira email iyi nekuti wakumbira kodhi yekupinda yechitoro. Ndokumbira utsvage password yako yeNguva-Imwe (OTP) pazasi:",
+     "footer-message" => "Kodhi iyi ichashanda kwemaminetsi gumi. Kana usina kukumbira iyi kodhi yekupinda, ndapota siyanei neiyi email.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Simbisa email yako | :shop",
+     "title" => "Email Verification",
+     "header-message" => "Hi :zita,<br> Ndokumbira usimbise kuti **:email** ndiyo kero yako ye-e-mail nekudzvanya bhatani kana kushandisa link iripazasi mukati memaawa makumi mana nemasere.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Products Update :shop",
+     "title" => "Kugadziridza paChigadzirwa Mamiriro - Maawa makumi maviri nemana apfuura",
+     "message" => "Ndinovimba kuti meseji iyi yakuwana zvakanaka. Iyi ipfupi yekuvandudza kukuzivisa iwe nezve mamiriro ezvigadzirwa zvako papuratifomu yedu mumaawa makumi maviri nemana apfuura. Munguva iyi, pane shanduko mune zvimwe zvigadzirwa. Shanduko idzi dzinogona kunge dzakakonzerwa nekutenga, kugadziridzwa kwemasheya, kana zvimwe zviitiko zvine hukama. Kuti uwane rumwe ruzivo nezve chigadzirwa chega chega, ndapota pinda muakaundi yako uye tarisa chikamu che'Chigadzirwa Chimiro'.",
+     "action" => "Vhura Vendor Panel",
 ],
 ];

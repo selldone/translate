@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Bu etimadnamələr bizim qeydlərimizə uyğun gəlmir.",
+     "password" => "Təqdim olunan parol səhvdir.",
      "throttle" => "Həddindən artıq giriş cəhdi. Lütfən, :saniyə saniyədən sonra yenidən cəhd edin.",
      "title_shop" => ":name hesabına daxil olun",
      "title_app" => "Tətbiq girişi :name",

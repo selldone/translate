@@ -14,8 +14,8 @@
         "自定义社区构建器",
         "白标电子商务"
      ],
-     "samin" => "卖完了",
-     "Selldone" => "卖完了",
+     "samin" => "已售完",
+     "Selldone" => "已售完",
      "related" => "有关的",
      "share" => "分享",
      "global" => [
@@ -33,7 +33,7 @@
 ],
      "footer-menu" => [
         [
-     "title" => "卖完了",
+     "title" => "已售完",
      "items" => [
         [
      "title" => "业务平台",
@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "无时间限制免费建店建站的所有专业功能等着你。",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Web 服务、应用程序开发文档和连接的服务。",
-],
      "apps" => [
      "title" => "应用商店",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "支持的国家和本地支付 - 商业操作系统",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS，从电子商务平台到没有主题、插件或代码的商业服务的下一步发展。 100% 视觉效果！",
+],
+     "participant" => [
+     "title" => "您想要的社区 — 玩游戏赢取 20 美元",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "您可以通过制作短视频来帮助他人，从而参与 selldone 社区，每个视频可获得高达 20 美元的礼金。",
+],
+     "tax" => [
+     "title" => "全球税率清单",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "您可以覆盖税收规则并为不同的产品类别创建多个税收配置文件。",
+],
+     "premium" => [
+     "title" => "升级至高级版并改变您的电子商务游戏",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "使用 Selldone Premium 提升您的在线商店。访问独家 AI 工具、定制模板等，以提高效率并在数字市场中脱颖而出。立即加入，享受更智能、更时尚的电子商务体验！",
+],
+     "builder" => [
+     "title" => "免费页面构建器和登陆页面编辑器 Web 应用程序 - 无需登录",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "使用我们免费、用户友好的页面构建器和编辑器，轻松创建精美的网页和登录页面。无需登录。使用我们直观的拖放界面快速设计、自定义和发布您的网页。非常适合寻求无忧网页设计解决方案的营销人员、小企业主和开发人员。",
 ],
 ],
      "shuttle" => [

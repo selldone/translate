@@ -2,6 +2,7 @@
 
  return [
      "failed" => "這些憑據與我們的記錄不符。",
+     "password" => "提供的密碼不正確。",
      "throttle" => "登錄嘗試次數過多。請在 :seconds 秒後重試。",
      "title_shop" => "登錄到 :name",
      "title_app" => ":name 的應用程序訪問權限",

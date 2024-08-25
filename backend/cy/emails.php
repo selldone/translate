@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Gorchymyn wedi'i gadarnhau gan y prynwr",
+     "email-types-description" => [
+     "shop-customer-join" => "Mae'r neges hon yn croesawu prynwr newydd i'r siop.",
+     "order-checkout" => "Anfonir yr hysbysiad hwn pan fydd prynwr yn cadarnhau archeb.",
+     "order-payment" => "Mae'r hysbysiad hwn yn cadarnhau'r taliad llwyddiannus a wnaed gan gwsmer.",
+     "order-payment-admin" => "Anfonir y neges hon at werthwr i'w hysbysu o archeb wedi'i chadarnhau.",
+     "pos-checkout" => "Anfonir yr hysbysiad hwn i gadarnhau archeb pwynt gwerthu ar gyfer prynwr.",
+     "pos-payment" => "Mae'r hysbysiad hwn yn cadarnhau taliad pwynt gwerthu a wnaed gan brynwr.",
+     "pos-payment-admin" => "Mae'r neges hon yn hysbysu'r gwerthwr am bryniant a wnaed yn ei bwynt gwerthu.",
+     "shop-contact" => "Anfonir yr hysbysiad hwn pan fydd ffurflen gyswllt wedi'i chyflwyno.",
+     "shop-giftcard" => "Mae'r hysbysiad hwn yn hysbysu defnyddiwr ei fod wedi derbyn cerdyn rhodd.",
+     "shop-vendor-join" => "Mae'r neges hon yn croesawu gwerthwr newydd i'r siop.",
+     "shop-vendor-invite" => "Mae'r neges hon yn cael ei hanfon i wahodd gwerthwr i ymuno â'ch marchnad.",
+     "shop-vendor-order" => "Anfonir y neges hon at y gwerthwr pan dderbynnir archeb naill ai mewn statws Taledig neu Arian Parod Wrth Gyflenwi (COD).",
+     "shop-vendor-products" => "Yn cael ei anfon yn ddyddiol i ddiweddaru gwerthwyr ar statws eu cynhyrchion.",
+     "shop-login" => "Hysbysu'r defnyddiwr gyda manylion mewngofnodi, gan gynnwys cyfeiriad IP, dyddiad, a dyfais, at ddibenion diogelwch.",
+     "login-code" => "Anfonwch god cyfrinair un-amser i ddefnyddwyr fewngofnodi i'r siop.",
+     "shop-email-verify-link" => "Anfonwch ddolen i wirio cyfeiriad e-bost y defnyddiwr. Anfonir y post hwn pan fydd defnyddiwr yn cofrestru trwy SMS ac yn nodi ei e-bost ac nid yw'n cael ei anfon pan fydd defnyddiwr yn cofrestru trwy gymdeithasol neu e-bost yn uniongyrchol.",
 ],
-        [
-     "title" => "Cadarnhad taliad cwsmer",
-],
-        [
-     "title" => "Hysbysiad cadarnhau archeb i'r gwerthwr",
-],
-        [
-     "title" => "Cadarnhau archeb blwch siop ar gyfer prynwr",
-],
-        [
-     "title" => "Cadarnhau taliad cofrestr arian parod i'r prynwr",
-],
-        [
-     "title" => "Hysbysiad o bryniant ym mlwch y gwerthwr",
-],
-        [
-     "title" => "Rhowch wybod i'r ffurflen gyswllt",
-],
-        [
-     "title" => "Llongyfarchiadau ar ymuno â'r siop",
-],
-        [
-     "title" => "Cyhoeddiad o dderbyn cerdyn rhodd i'r defnyddiwr",
-]
-     ],
      "global" => [
      "greetings" => "Helo :enw",
      "end-statement" => "Tîm cefnogi",
@@ -126,7 +115,7 @@
      "transaction" => "Trafodyn",
      "fee" => "Ffi",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bil",
      "category" => "Categori",
      "password" => "Cyfrinair",
@@ -150,6 +139,18 @@
      "receiver" => "Derbynnydd",
      "virtual-items" => "Eitemau rhithwir",
      "no-payment" => "Dim taliad!",
+     "enable" => "Galluogi",
+     "access" => "Mynediad",
+     "bank" => "Gwybodaeth banc",
+     "vendor" => "Gwerthwr",
+     "view_content" => "Gweld cynnwys llawn",
+     "files" => "Ffeiliau",
+     "download" => "Lawrlwythwch",
+     "file_name" => "Enw Ffeil",
+     "file_size" => "Maint",
+     "subscription" => "Tanysgrifiad",
+     "products" => "Cynhyrchion",
+     "vendor_products" => "Cynhyrchion Gwerthwr",
 ],
      "selldone-business-os" => "Selldone Business OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "helo",
-     "name" => "Tîm Gwerthwyd",
+     "name" => "Cymeradwyo, Selldone",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "masnachwyr",
-     "name" => "Masnachwyr, Selldone",
+     "name" => "Cymeradwyo, Selldone",
 ],
      "Approve" => [
      "id" => "cymeradwyo",
@@ -339,6 +340,12 @@
      "category" => "Dathliad cwsmer newydd",
      "title" => "Rydym yn falch o'ch aelodaeth",
      "action" => "Ymwelwch nawr",
+],
+     "shop-vendor-join" => [
+     "subject" => "Arfyrddio Gwerthwr | :teitl_siop",
+     "category" => "Dathliad gwerthwr newydd",
+     "title" => "Rydym yn falch o'ch aelodaeth",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Cerdyn anrheg : shop_title",
@@ -558,6 +565,7 @@
      "category" => "Hysbysiadau diogelwch",
      "title" => "Mewngofnodi i'r Cyfrif",
      "message" => "Annwyl :enw, rydych chi wedi bod yn mewngofnodi i'ch cyfrif Selldone.",
+     "message-shop" => "Annwyl :enw, rydych chi wedi mewngofnodi i : shop_title .",
      "footer" => "Os nad ydych wedi mewngofnodi, newidiwch eich cyfrinair.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Cyfanswm yr ymweliadau â thudalennau gwefan",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Rydych chi wedi derbyn archeb newydd. Ewch i'r dudalen prosesu archeb yn eich panel gwerthwr.",
+     "subject" => "🛍 Archeb Newydd wedi'i Dderbyn | : trefn_id",
+     "your_revenue" => "Eich Refeniw",
+],
+     "vendor-invite" => [
+     "title" => "Gwahoddiad Gwerthwr",
+     "message" => "Rydych wedi derbyn gwahoddiad i ddod yn werthwr :shop_name. Gallwch ei dderbyn neu ei wrthod trwy glicio ar y botymau canlynol.",
+     "subject" => ": siop_enw | Rydych chi wedi derbyn gwahoddiad i ddod yn werthwr i ni",
+     "accept" => "Derbyn a Dod yn Werthwr",
+     "reject" => "Gwrthod",
+],
+     "shop-email-login" => [
+     "subject" => "Eich Cod Mewngofnodi ar gyfer :siop",
+     "header-message" => "Rydym yn anfon yr e-bost hwn atoch oherwydd eich bod wedi gofyn am god mewngofnodi ar gyfer y siop. Dewch o hyd i'ch Cyfrinair Un Amser (OTP) isod:",
+     "footer-message" => "Bydd y cod hwn yn ddilys am 10 munud. Os na wnaethoch ofyn am y cod mewngofnodi hwn, anwybyddwch yr e-bost hwn.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Dilyswch eich e-bost | : siop",
+     "title" => "Dilysu E-bost",
+     "header-message" => "Helo :enw,<br> Cadarnhewch mai **:email** yw eich cyfeiriad e-bost trwy glicio ar y botwm neu defnyddiwch y ddolen isod o fewn 48 awr.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Diweddariad Cynnyrch: siop",
+     "title" => "Diweddariad ar Statws Cynnyrch - 24 Awr Diwethaf",
+     "message" => "Rwy'n gobeithio y bydd y neges hon yn dod o hyd i chi'n dda. Mae hwn yn ddiweddariad byr i roi gwybod i chi am statws eich cynhyrchion ar ein platfform dros y 24 awr ddiwethaf. Yn ystod y cyfnod hwn, bu newidiadau yn statws rhai cynhyrchion. Gall y newidiadau hyn fod oherwydd pryniannau, diweddariadau stoc, neu ddigwyddiadau cysylltiedig eraill. I gael gwybodaeth fanylach am bob cynnyrch, mewngofnodwch i'ch cyfrif a gwiriwch yr adran 'Statws Cynnyrch'.",
+     "action" => "Panel Gwerthwr Agored",
 ],
 ];

@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Toutes les fonctionnalités professionnelles de la création d'un magasin et d'un site gratuitement et sans limite de temps vous attendent.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Service Web, documentation pour le développement d'applications et service connecté.",
-],
      "apps" => [
      "title" => "Magasin d'applications",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Pays pris en charge et paiements locaux - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, la prochaine étape d'évolution des services de commerce des plates-formes de commerce électronique à quelque chose sans thème, plugin ou code. 100% visuel !",
+],
+     "participant" => [
+     "title" => "La communauté que vous voulez — Jouez et gagnez 20 $",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Vous pouvez participer à la communauté selldone en créant de courtes vidéos pour aider les autres et obtenir jusqu'à 20 USD de crédit cadeau par vidéo.",
+],
+     "tax" => [
+     "title" => "Liste des taux d'imposition mondiaux",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Vous pouvez remplacer les règles fiscales et créer plusieurs profils fiscaux pour différentes catégories de produits.",
+],
+     "premium" => [
+     "title" => "Passez à la version Premium et transformez votre activité de commerce électronique",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Améliorez votre boutique en ligne avec Selldone Premium. Accédez à des outils d'IA exclusifs, à des modèles sur mesure et à bien plus encore pour accroître votre efficacité et vous démarquer sur le marché numérique. Rejoignez-nous dès maintenant pour une expérience de commerce électronique plus intelligente et plus élégante !",
+],
+     "builder" => [
+     "title" => "Application Web gratuite de création de pages et d'édition de pages de destination - Aucune connexion requise",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Créez des pages Web et des pages de destination époustouflantes sans effort avec notre générateur et éditeur de pages gratuit et convivial. Aucune connexion requise. Concevez, personnalisez et publiez vos pages Web rapidement grâce à notre interface intuitive par glisser-déposer. Idéal pour les spécialistes du marketing, les propriétaires de petites entreprises et les développeurs à la recherche d'une solution de conception Web sans tracas.",
 ],
 ],
      "shuttle" => [

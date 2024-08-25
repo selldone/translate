@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Pale Canary",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Minyanga ya njovu",
+     "#B3E5FC" => "Ayisi",
+     "#F1C40F" => "Mbandakucha",
+     "#7DF9FF" => "Zamagetsi",
+     "#FF6B35" => "Kulowa kwadzuwa",
 ];

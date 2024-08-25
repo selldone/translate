@@ -1628,4 +1628,8 @@
      "#FFFF99" => "kenari pucat",
      "#FFFFB4" => "Portofino",
      "#FFFFF0" => "Gading",
+     "#B3E5FC" => "Es",
+     "#F1C40F" => "Fajar",
+     "#7DF9FF" => "Listrik",
+     "#FF6B35" => "Matahari terbenam",
 ];

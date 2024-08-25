@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Canari pàl·lid",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Marfil",
+     "#B3E5FC" => "Gel",
+     "#F1C40F" => "Alba",
+     "#7DF9FF" => "Elèctric",
+     "#FF6B35" => "Posta de sol",
 ];

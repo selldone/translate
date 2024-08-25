@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Blek kanariefågel",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Elfenben",
+     "#B3E5FC" => "Is",
+     "#F1C40F" => "Gryning",
+     "#7DF9FF" => "Elektrisk",
+     "#FF6B35" => "Solnedgång",
 ];

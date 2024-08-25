@@ -73,14 +73,4 @@
      "price" => 3.588,
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Tebrikler, kaydolun ve bu hediye kartını alın",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Siteye aktif bir Selldone kullanıcısının bağlantısı üzerinden girdiniz, şimdi Selldone'a kaydolursanız, 14.9 $ değerinde bir hediye kartı alacaksınız. Selldone'da bir mağazaya kaydolmak ve bir mağaza kurmak %100 ücretsizdir, ancak hizmeti rahatlatmak için bu şarj kartlarını kullanabilirsiniz.",
-],
 ];

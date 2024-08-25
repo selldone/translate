@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Toate caracteristicile profesionale ale construirii unui magazin și site gratuit, fără nicio limită de timp, vă așteaptă.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Serviciu web, documentație pentru dezvoltarea aplicației și service conectat.",
-],
      "apps" => [
      "title" => "Magazin de aplicații",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Țări acceptate și plăți locale - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, următorul pas de evoluție al serviciilor de comerț de la platformele de comerț electronic la ceva fără temă, plugin sau cod. 100% vizual!",
+],
+     "participant" => [
+     "title" => "Comunitatea pe care o doriți — Joacă și câștigă 20 USD",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Poți participa la comunitatea selldone creând videoclipuri scurte pentru a-i ajuta pe alții și obține un credit cadou de până la 20 USD per videoclip.",
+],
+     "tax" => [
+     "title" => "Lista globală a ratelor fiscale",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Puteți să anulați regulile fiscale și să creați mai mult de un profil fiscal pentru diferite categorii de produse.",
+],
+     "premium" => [
+     "title" => "Faceți upgrade la Premium și transformați-vă jocul de comerț electronic",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Crește-ți magazinul online cu Selldone Premium. Accesați instrumente AI exclusive, șabloane personalizate și multe altele pentru a crește eficiența și a ieși în evidență pe piața digitală. Alăturați-vă acum pentru o experiență de comerț electronic mai inteligentă și mai elegantă!",
+],
+     "builder" => [
+     "title" => "Aplicație web gratuită Creator de pagini și Editor de pagini de destinație - Nu este necesară autentificarea",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Creați pagini web uimitoare și pagini de destinație fără efort cu generatorul și editorul nostru gratuit și ușor de utilizat. Nu este necesară autentificare. Proiectați, personalizați și publicați rapid paginile dvs. web cu interfața noastră intuitivă de tip drag-and-drop. Perfect pentru agenții de marketing, proprietarii de afaceri mici și dezvoltatorii care caută o soluție de design web fără probleme.",
 ],
 ],
      "shuttle" => [

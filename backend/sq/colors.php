@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Kanari i zbehtë",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Fildishi",
+     "#B3E5FC" => "Akull",
+     "#F1C40F" => "Agimi",
+     "#7DF9FF" => "Elektrike",
+     "#FF6B35" => "Perëndimi i diellit",
 ];

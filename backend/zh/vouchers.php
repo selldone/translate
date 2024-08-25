@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "恭喜，注册并收到此礼品卡",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "您已通过 Selldone 活跃用户的链接进入网站，如果您现在在 Selldone 注册，您将收到价值 14.9 美元的礼品卡。在 Selldone 注册和建立商店是 100% 免费的，但您可以使用这些充值卡来减轻服务。",
-],
 ];

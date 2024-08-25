@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Need mandaadid ei ühti meie andmetega.",
+     "password" => "Esitatud parool on vale.",
      "throttle" => "Liiga palju sisselogimiskatseid. Proovige uuesti :seconds sekundi pärast.",
      "title_shop" => "Logige sisse aadressile :name",
      "title_app" => "Rakenduse juurdepääs nimele :name",

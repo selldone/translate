@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Grattis, registrera dig och få detta presentkort",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Du har kommit in på webbplatsen via länken till en aktiv användare av Selldone, om du registrerar dig i Selldone nu får du ett presentkort värt 14,9 $. Att registrera och bygga en butik i Selldone är 100 % gratis, men du kan använda dessa laddningskort för att avlasta servicen.",
-],
 ];

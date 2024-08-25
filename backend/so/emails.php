@@ -1,35 +1,24 @@
 <?php 
 
  return [
-     "email-types" => [
-        [
-     "title" => "Dalabka waxa xaqiijiyay iibsadaha",
+     "email-types-description" => [
+     "shop-customer-join" => "Fariintani waxay soo dhawaynaysaa iibsadaha cusub ee dukaanka.",
+     "order-checkout" => "Ogeysiiskan waxa la diraa marka iibsaduhu xaqiijiyo dalab.",
+     "order-payment" => "Ogeysiintani waxay xaqiijinaysaa lacag bixinta guusha leh ee uu bixiyay macaamilka.",
+     "order-payment-admin" => "Fariintan waxaa loo diraa iibiyaha si loogu ogeysiiyo amar la xaqiijiyay.",
+     "pos-checkout" => "Ogeysiintan waxaa loo soo diray si loo xaqiijiyo dalabka iibka ee iibsadaha.",
+     "pos-payment" => "Ogeysiintani waxay xaqiijinaysaa barta iibka ee uu bixiyo iibsadaha.",
+     "pos-payment-admin" => "Fariintani waxay ogeysiinaysaa iibiyaha iibka lagu sameeyay goobta ay wax ka iibinayaan.",
+     "shop-contact" => "Ogeysiintan waxa la soo diraa marka foomka xidhiidhka la gudbiyo.",
+     "shop-giftcard" => "Ogeysiintani waxay ku wargelinaysaa isticmaale inay heleen kaadhka hadyada.",
+     "shop-vendor-join" => "Fariintani waxay soo dhawaynaysaa iibiye cusub dukaanka.",
+     "shop-vendor-invite" => "Fariintan waxa loo soo diray si loogu martiqaado iibiye inuu ku soo biiro suuqaaga.",
+     "shop-vendor-order" => "Fariintan waxaa loo diraa iibiyaha marka dalabka lagu helo mid la bixiyay ama lacag caddaan ah oo Bixinta (COD).",
+     "shop-vendor-products" => "Loo diro maalin kasta si loogu cusboonaysiiyo iibiyeyaasha heerka badeecadooda.",
+     "shop-login" => "Ku ogeysii isticmaalaha tafaasiisha soo galitaanka, oo ay ku jiraan ciwaanka IP-ga, taariikhda, iyo aaladda, ujeedooyinka amniga.",
+     "login-code" => "U dir furaha sirta ah ee hal mar isticmaalayaasha si ay u soo galaan dukaanka.",
+     "shop-email-verify-link" => "Dir xiriir si aad u xaqiijiso ciwaanka isticmaalaha Boostada waxa la soo diraa marka isticmaaluhu isku diwaan galiyo SMS oo geli emailkooda lamana soo diro marka isticmaaluhu isku diwaan galiyo bulsheed ama iimaylka si toos ah.",
 ],
-        [
-     "title" => "Xaqiijinta lacag bixinta macaamiisha",
-],
-        [
-     "title" => "Dalbo ogeysiiska xaqiijinta iibiyaha",
-],
-        [
-     "title" => "Xaqiiji sanduuqa dukaanka ee iibsadaha",
-],
-        [
-     "title" => "Xaqiiji lacag bixinta diiwaanka lacagta caddaanka ah ee iibsadaha",
-],
-        [
-     "title" => "Ogeysiiska iibka ee ku jira sanduuqa iibiyaha",
-],
-        [
-     "title" => "Ogeysii foomka xiriirka",
-],
-        [
-     "title" => "Hambalyo ku soo biirista dukaanka",
-],
-        [
-     "title" => "Ogeysiinta helitaanka kaadhka hadiyadda isticmaalaha",
-]
-     ],
      "global" => [
      "greetings" => "Hi :name",
      "end-statement" => "Kooxda taageerada",
@@ -126,7 +115,7 @@
      "transaction" => "Wax kala iibsiga",
      "fee" => "khidmad",
      "location" => "Location",
-     "ip" => "Ip",
+     "ip" => "IP",
      "bill" => "Bill",
      "category" => "Qaybta",
      "password" => "Password-ka",
@@ -150,6 +139,18 @@
      "receiver" => "qaataha",
      "virtual-items" => "Walxaha dhabta ah",
      "no-payment" => "Lacag la'aan!",
+     "enable" => "Daar",
+     "access" => "Helitaanka",
+     "bank" => "Macluumaadka bangiga",
+     "vendor" => "Iibiyaha",
+     "view_content" => "Daawo nuxurka buuxa",
+     "files" => "Faylasha",
+     "download" => "Download",
+     "file_name" => "Magaca faylka",
+     "file_size" => "Cabbirka",
+     "subscription" => "Isdiiwaangelinta",
+     "products" => "Alaabta",
+     "vendor_products" => "Alaabta iibiya",
 ],
      "selldone-business-os" => "Iibinta Ganacsiga OS",
      "senders" => [
@@ -163,7 +164,7 @@
 ],
      "Onboarding" => [
      "id" => "hi",
-     "name" => "Kooxda la iibiyay",
+     "name" => "Oggolow, La iibiyay",
 ],
      "Support" => [
      "id" => "support",
@@ -179,7 +180,7 @@
 ],
      "NewShop" => [
      "id" => "baayacmushtar",
-     "name" => "Ganacsato, Selldone",
+     "name" => "Oggolow, La iibiyay",
 ],
      "Approve" => [
      "id" => "ansixiyo",
@@ -339,6 +340,12 @@
      "category" => "Dabaaldegga macaamiisha cusub",
      "title" => "Waan ku faraxsanahay xubinnimadaada",
      "action" => "Booqo hadda",
+],
+     "shop-vendor-join" => [
+     "subject" => "Iibiyaha Dusha | : Shop_title",
+     "category" => "Dabaaldegga iibiyaha cusub",
+     "title" => "Waan ku faraxsanahay xubinnimadaada",
+     "action" => "Vendor Panel",
 ],
      "shop-giftcard" => [
      "subject" => "Giftcard : Shop_title",
@@ -558,6 +565,7 @@
      "category" => "Ogeysiinta amniga",
      "title" => "Gal Account",
      "message" => "Gacaliye :name, waxaa lagugu soo galay akoonkaaga Selldone.",
+     "message-shop" => "Gacaliye :name, waxaad soo gashay :shop_title.",
      "footer" => "Haddii aanad gudaha u gelin, fadlan beddel eraygaaga sirta ah.",
 ],
      "account-transaction" => [
@@ -625,5 +633,35 @@
      "title" => "Page Views",
      "subtitle" => "Isku geynta boggaga shabakada",
 ],
+],
+     "vendor-order" => [
+     "title" => "New Order",
+     "message" => "Waxaad heshay amar cusub Fadlan tag bogga habaynta dalabka ee guddiga iibiyahaaga.",
+     "subject" => "🛍 Dalab Cusub Oo La Helay | : order_id",
+     "your_revenue" => "Dakhligaaga",
+],
+     "vendor-invite" => [
+     "title" => "Martiqaadka iibiyaha",
+     "message" => "Waxaad heshay martiqaad si aad u noqoto iibiyaha :shop_name. Waad aqbali kartaa ama diidi kartaa adigoo gujinaya badhamada soo socda.",
+     "subject" => ":dukaanka_magaca | Waxaad heshay martiqaad si aad u noqoto iibiye",
+     "accept" => "Aqbal oo noqo iibiye",
+     "reject" => "Diid",
+],
+     "shop-email-login" => [
+     "subject" => "Koodhkaaga gelitaanka ee: dukaanka",
+     "header-message" => "Waxaan kuugu soo dirnay iimaylkan sababtoo ah waxaad codsatay summada soo gelida dukaanka. Fadlan hoos ka hel eraygaaga sirta ah ee Hal-Mar (OTP)",
+     "footer-message" => "Koodhkani waxa uu shaqayn doona 10 daqiiqo Haddii aadan codsan summada galitaanka, fadlan iska dhaaf iimaylkan.",
+],
+     "shop-email-verify-link" => [
+     "subject" => "Xaqiiji emailkaaga | dukaan",
+     "title" => "Xaqiijinta iimaylka",
+     "header-message" => "Hi :name,<br> Fadlan xaqiiji in **:email** yahay e-mailkaaga adigoo gujinaya badhanka ama isticmaal xidhiidhka hoose 48 saacadood gudahood.",
+     "footer-message" => "",
+],
+     "vendor-products" => [
+     "subject" => "Cusboonaysiinta Alaabta: dukaan",
+     "title" => "Cusboonaysiinta Xaaladda Alaabta - 24 saac ee u dambeeyay",
+     "message" => "Waxaan rajeynayaa in fariintan ay si fiican kuu heli doonto. Kani waa casriyeyn kooban oo lagugu wargelinayo heerka ay marayso alaabtaada goobtayada 24-kii saacadood ee la soo dhaafay. Inta lagu jiro muddadan, waxaa jiray isbeddelo ku yimid heerka badeecadaha qaarkood. Isbeddeladan waxa laga yaabaa inay sabab u tahay iibsiyada, cusboonaysiinta saamiyada, ama dhacdooyinka kale ee la xidhiidha. Si aad u hesho macluumaad faahfaahsan oo ku saabsan badeecad kasta, fadlan gal akoonkaaga oo hubi qaybta 'Xaalka Alaabta'.",
+     "action" => "Fur guddiga iibiyaha",
 ],
 ];

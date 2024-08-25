@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Comhghairdeas, cláraigh agus faigh an cárta bronntanais seo",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Tá tú tar éis dul isteach sa suíomh trí nasc úsáideora gníomhach Selldone, má chláraíonn tú i Soldone anois, gheobhaidh tú cárta bronntanais fiú $14.9. Tá clárú agus tógáil siopa i Selldone 100% saor in aisce, ach is féidir leat na cártaí athluchtaithe seo a úsáid chun seirbhís a mhaolú.",
-],
 ];

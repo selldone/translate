@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Kenari pucat",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "gading",
+     "#B3E5FC" => "ais",
+     "#F1C40F" => "Subuh",
+     "#7DF9FF" => "Elektrik",
+     "#FF6B35" => "matahari terbenam",
 ];

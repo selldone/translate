@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Alle de professionelle funktioner ved at bygge en butik og et websted gratis uden nogen tidsbegrænsning venter på dig.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Webservice, dokumentation for applikationsudvikling og service forbundet.",
-],
      "apps" => [
      "title" => "App butik",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Understøttede lande og lokale betalinger - Business OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, det næste udviklingstrin for handelstjenester fra e-handelsplatforme til noget uden tema, plugin eller kode. 100% visuelt!",
+],
+     "participant" => [
+     "title" => "Det fællesskab, du ønsker — Spil og vind $20",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Du kan deltage i det solgte fællesskab ved at oprette korte videoer for at hjælpe andre og få op til 20 USD i gavekredit pr. video.",
+],
+     "tax" => [
+     "title" => "Liste over globale skattesatser",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Du kan tilsidesætte skatteregler og oprette mere end én skatteprofil for forskellige produktkategorier.",
+],
+     "premium" => [
+     "title" => "Opgrader til Premium og transformer dit e-handelsspil",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Løft din online butik med Selldone Premium. Få adgang til eksklusive AI-værktøjer, skræddersyede skabeloner og mere for at øge effektiviteten og skille sig ud på den digitale markedsplads. Tilmeld dig nu for en smartere, slankere e-handelsoplevelse!",
+],
+     "builder" => [
+     "title" => "Gratis Page Builder & Landing Page Editor Webapp - Intet login påkrævet",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Opret fantastiske websider og landingssider uden besvær med vores gratis, brugervenlige sidebygger og editor. Ingen login påkrævet. Design, tilpas og udgiv dine websider hurtigt med vores intuitive træk-og-slip-grænseflade. Perfekt til marketingfolk, ejere af små virksomheder og udviklere, der søger en problemfri webdesignløsning.",
 ],
 ],
      "shuttle" => [

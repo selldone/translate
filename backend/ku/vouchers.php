@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Pîroz be, qeyd bikin û vê qerta diyariyê bistînin",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Hûn bi riya lînka bikarhênerek çalak a Selldone ketine malperê, heke hûn nuha li Selldone qeyd bikin, hûn ê qertek diyariyê bi nirxa 14,9 $ bistînin. Qeydkirin û avakirina firotgehek li Selldone 100% belaş e, lê hûn dikarin van kartên barkirinê bikar bînin da ku karûbarê xweş bikin.",
-],
 ];

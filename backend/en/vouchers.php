@@ -22,12 +22,12 @@ return [
 
 
     // Default register voucher for invited user by referral link:
-    'register_voucher' => ['title' => 'Congratulations, register and receive this gift card', 'image' => '/images/email/vouchers/one-month-startup.png', 'delay' => 5000,
+  /*  'register_voucher' => ['title' => 'Congratulations, register and receive this gift card', 'image' => '/images/email/vouchers/one-month-startup.png', 'delay' => 5000,
         'header' => '/images/popups/referral/m1.jpg',
         'color' => '#d83852',
         'color_btn' => '#C2185B',
         'contain' => true,
         'message' => 'You have entered the site through the link of an active user of Selldone, if you register in Selldone now, you will receive a gift card worth $ 14.9. Registering and building a store in Selldone is 100% free, but you can use these recharge cards to relieve service.']
-
+*/
 
 ];

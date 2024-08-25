@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Kredensial iki ora cocog karo cathetan kita.",
+     "password" => "Tembung sandhi sing diwenehake ora bener.",
      "throttle" => "Kakehan nyoba mlebu. Coba maneh ing :detik detik.",
      "title_shop" => "Mlebu menyang: jeneng",
      "title_app" => "Akses aplikasi saka: jeneng",

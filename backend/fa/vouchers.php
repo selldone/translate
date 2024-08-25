@@ -21,11 +21,11 @@ return [
     VoucherTypes::TWELVE_MONTHS_ENTERPRISE => ['title' => 'پلن فروشگاه بزرگ 1 ماهه', 'image' => '/images/email/vouchers/twelve-months-enterprise.png', 'price' => '3,588', 'currency' => 'USD'],
 
     // Default register voucher for invited user by referral link:
-    'register_voucher' => ['title' => 'تبریک، ثبت نام کنید و این کارت هدیه را دریافت نمایید', 'image' => '/images/email/vouchers/one-month-startup.png','delay'=>5000,
+   /* 'register_voucher' => ['title' => 'تبریک، ثبت نام کنید و این کارت هدیه را دریافت نمایید', 'image' => '/images/email/vouchers/one-month-startup.png','delay'=>5000,
         'header'=> '/images/popups/referral/m1.jpg',
         'color'=>'#d83852',
         'color_btn'=>'#C2185B',
         'contain'=>true,
         'message' => 'شما از طریق لینک یک کاربر فعال سلدان وارد سایت شده اید، اگر همین حالا در سلدان ثبت نام نمایید یک کارت هدیه به ارزش 84,000 تومان دریافت می نمایید. ثبت نام و ساخت فروشگاه در سلدان 100% رایگان است، اما میتوانید از این کارت های شارژ برای ارتقاع سرویستان استفاده نمایید.']
-
+*/
 ];

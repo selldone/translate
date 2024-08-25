@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Vaalea kanaria",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Norsunluu",
+     "#B3E5FC" => "Jäätä",
+     "#F1C40F" => "Aamunkoitto",
+     "#7DF9FF" => "Sähköinen",
+     "#FF6B35" => "Auringonlasku",
 ];

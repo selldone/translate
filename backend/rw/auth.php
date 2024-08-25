@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Ibyangombwa ntabwo bihuye nibyanditswe byacu.",
+     "password" => "Ijambobanga ryatanzwe ntabwo aribyo.",
      "throttle" => "Kugerageza cyane. Nyamuneka gerageza nanone muri: amasegonda.",
      "title_shop" => "Injira kuri: izina",
      "title_app" => "Gusaba gusaba: izina",

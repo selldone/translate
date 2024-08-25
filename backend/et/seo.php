@@ -224,11 +224,6 @@
      "image" => "/images/seo/en/price.jpg",
      "description" => "Teid ootavad kõik professionaalsed funktsioonid tasuta poe ja saidi ehitamiseks ilma ajapiiranguta.",
 ],
-     "api" => [
-     "title" => "API",
-     "image" => "/images/seo/en/api.jpg",
-     "description" => "Veebiteenus, dokumentatsioon rakenduste arendamiseks ja teenusega ühendatud.",
-],
      "apps" => [
      "title" => "Rakenduste pood",
      "image" => "/images/seo/en/apps.jpg",
@@ -278,6 +273,26 @@
      "title" => "Toetatud riigid ja kohalikud maksed – ettevõtte OS",
      "image" => "/images/seo/en/countries.png",
      "description" => "Business OS, järgmine samm kaubandusteenuste arendamisel e-kaubanduse platvormidelt millekski ilma teema, pistikprogrammi või koodita. 100% visuaalselt!",
+],
+     "participant" => [
+     "title" => "Kogukond, mida soovite – mängige ja võidage 20 dollarit",
+     "image" => "/images/seo/en/participants.jpg",
+     "description" => "Saate osaleda müüdud kommuunis, luues teiste abistamiseks lühikesi videoid ja saate kuni 20 USA dollari suuruse kingituse krediiti video kohta.",
+],
+     "tax" => [
+     "title" => "Ülemaailmne maksumäärade loend",
+     "image" => "/images/seo/en/tax.jpg",
+     "description" => "Saate maksureeglid alistada ja luua erinevate tootekategooriate jaoks rohkem kui ühe maksuprofiili.",
+],
+     "premium" => [
+     "title" => "Minge üle Premiumile ja muutke oma e-kaubanduse mäng",
+     "image" => "/images/seo/en/premium.jpg",
+     "description" => "Tõsta oma veebipoodi Selldone Premiumiga. Juurdepääs eksklusiivsetele AI-tööriistadele, eritellimusel valmistatud mallidele ja muule, et suurendada tõhusust ja paista silma digitaalsel turul. Liituge nüüd nutikama ja elegantsema e-kaubanduse kogemuse saamiseks!",
+],
+     "builder" => [
+     "title" => "Tasuta lehe koostaja ja sihtlehe redigeerija veebirakendus – sisselogimine pole vajalik",
+     "image" => "/images/seo/en/builder.png",
+     "description" => "Looge meie tasuta kasutajasõbraliku lehtede koostaja ja toimetaja abil vaevata vapustavaid veebilehti ja sihtlehti. Sisselogimine pole vajalik. Meie intuitiivse pukseerimisliidese abil kujundage, kohandage ja avaldage oma veebilehti kiiresti. Ideaalne turundajatele, väikeettevõtete omanikele ja arendajatele, kes otsivad probleemivaba veebidisaini lahendust.",
 ],
 ],
      "shuttle" => [

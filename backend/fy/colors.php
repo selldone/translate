@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Bleke Kanaryske",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Ivoar",
+     "#B3E5FC" => "Iis",
+     "#F1C40F" => "Dage",
+     "#7DF9FF" => "Elektrysk",
+     "#FF6B35" => "Sunset",
 ];

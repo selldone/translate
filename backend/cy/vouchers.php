@@ -73,14 +73,4 @@
      "price" => "3,588",
      "currency" => "USD",
 ],
-     "register_voucher" => [
-     "title" => "Llongyfarchiadau, cofrestrwch a derbyniwch y cerdyn anrheg hwn",
-     "image" => "/images/email/vouchers/one-month-startup.png",
-     "delay" => 5000,
-     "header" => "/images/popups/referral/m1.jpg",
-     "color" => "#d83852",
-     "color_btn" => "#C2185B",
-     "contain" => true,
-     "message" => "Rydych chi wedi mynd i mewn i'r wefan trwy ddolen defnyddiwr gweithredol o Selldone, os ydych chi'n cofrestru yn Soldone nawr, byddwch chi'n derbyn cerdyn rhodd gwerth $ 14.9. Mae cofrestru ac adeiladu siop yn Soldone yn rhad ac am ddim 100%, ond gallwch ddefnyddio'r cardiau ail-lenwi hyn i leddfu'r gwasanaeth.",
-],
 ];

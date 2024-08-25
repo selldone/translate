@@ -1628,4 +1628,8 @@
      "#FFFF99" => "Pale Canary",
      "#FFFFB4" => "Portafino",
      "#FFFFF0" => "Ngà voi",
+     "#B3E5FC" => "Đá",
+     "#F1C40F" => "Bình minh",
+     "#7DF9FF" => "Điện",
+     "#FF6B35" => "Hoàng hôn",
 ];

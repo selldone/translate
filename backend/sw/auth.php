@@ -2,6 +2,7 @@
 
  return [
      "failed" => "Hati hizi hazilingani na rekodi zetu.",
+     "password" => "Nenosiri lililotolewa si sahihi.",
      "throttle" => "Majaribio mengi sana ya kuingia. Tafadhali jaribu tena baada ya :seconds.",
      "title_shop" => "Ingia kwa :jina",
      "title_app" => "Ufikiaji wa maombi ya :name",
