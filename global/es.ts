@@ -642,7 +642,77 @@ export default {
     "clusters": "Clústeres",
     "subscriptions": "Suscripciones",
     "spam": "Correo basura",
-    "video": "Video"
+    "video": "Video",
+    "fulfillment": "Cumplimiento",
+    "channels_overview": "Descripción general de canales",
+    "no_vendors": "Sin vendedores",
+    "ends_in": "Termina en",
+    "current": "Actual",
+    "important": "Importante",
+    "web": "Web",
+    "payout": "Pago",
+    "vendor_panel": "Panel de proveedores",
+    "vendors_panel": "Panel de vendedores",
+    "syncing": "Sincronización",
+    "level": "Nivel",
+    "available": "Disponible",
+    "limited": "Limitado",
+    "management": "Gestión",
+    "topics": "Temas",
+    "posts": "Publicaciones",
+    "replies": "Respuestas",
+    "reports": "Informes",
+    "post": "Correo",
+    "impressions": "impresiones",
+    "resources": "Recursos",
+    "engine": "Motor",
+    "attachments": "Archivos adjuntos",
+    "owner": "Propietario",
+    "wholesaler": "Mayorista",
+    "hidden": "Oculto",
+    "visible": "Visible",
+    "warehouse": "Depósito",
+    "billed_yearly": "Facturación anual",
+    "my_wallet": "Mi billetera",
+    "boosted": "Impulsado",
+    "cashback": "Reembolso en efectivo",
+    "leads": "Dirige",
+    "invalid": "Inválido",
+    "refund_date": "Fecha de reembolso",
+    "refund": "Reembolso",
+    "items": "Artículos",
+    "incentives": "incentivos",
+    "recurring_payment": "Pago recurrente",
+    "pricing": "Precios",
+    "purchase": "Compra",
+    "confirmation": "Confirmación",
+    "manage": "Gestionar",
+    "warning": "Advertencia",
+    "custom": "Costumbre",
+    "read": "Leer",
+    "write": "Escribir",
+    "root": "Raíz",
+    "nothing_set": "¡Nada establecido!",
+    "installment": "Entrega",
+    "split_payment": "Pago fraccionado",
+    "profiles": "Perfiles",
+    "location_limited": "Ubicación limitada",
+    "no_limit": "Sin límite",
+    "max_range": "Alcance máximo",
+    "settled_date": "Fecha de liquidación",
+    "paid_date": "Fecha de pago",
+    "physical_orders": "Órdenes físicas",
+    "virtual_orders": "Pedidos virtuales",
+    "file_orders": "Órdenes de archivo",
+    "service_orders": "órdenes de servicio",
+    "subscription_orders": "Órdenes de suscripción",
+    "avocado_orders": "Pedidos de aguacate",
+    "hyper_orders": "Hiperpedidos",
+    "connected": "Conectado",
+    "system": "Sistema",
+    "unknown": "Desconocido",
+    "week": "Semana",
+    "agencies": "Agencias"
   },
   "dialogs": {
     "delete": {
@@ -773,7 +843,20 @@ export default {
     "buy": "Comprar",
     "view_all": "Ver todo",
     "view_now": "Ver ahora",
-    "paste": "Pegar"
+    "paste": "Pegar",
+    "edit_address": "Editar dirección",
+    "resend": "Reenviar",
+    "deploy_now": "Implementar ahora",
+    "become_premium": "Hazte Premium",
+    "bulk_export": "Exportación masiva",
+    "see_all": "Ver todo",
+    "visit": "Visitar",
+    "rate_now": "Califica ahora",
+    "load": "Carga",
+    "duplicate": "Duplicado",
+    "connect": "Conectar",
+    "connect_now": "Conecte ahora",
+    "verify_now": "Verificar ahora"
   },
   "instance_message_title": "Enviar mensaje instantáneo",
   "instance_message": "Hola, {name}, mi nombre es {author} de {company}.",
@@ -876,7 +959,8 @@ export default {
     "RequireAction": "Acción requerida",
     "Processing": "Procesando",
     "Canceled": "Cancelado",
-    "Succeeded": "logrado"
+    "Succeeded": "logrado",
+    "RequireCapture": "Requerir captura"
   },
   "placeholders": {
     "name": "jone cox",
@@ -885,7 +969,14 @@ export default {
     "language": "Seleccione el idioma..",
     "friend_email": "El correo electrónico de tus amigos...",
     "friend_name": "Optar. El nombre de tu amigo",
-    "select_date": "Selecciona una fecha..."
+    "select_date": "Selecciona una fecha...",
+    "address": "123 Main St, Cualquier ciudad, 12345",
+    "cluster": "Seleccione un cluster...",
+    "select_products": "Seleccionar productos",
+    "birthday": "Seleccione cumpleaños",
+    "select_category": "Seleccione una categoría...",
+    "select_a_country": "Seleccione un país...",
+    "filter_country": "Filtrar por país..."
   },
   "notification": {
     "confirm": "Confirmar",
@@ -1159,7 +1250,9 @@ export default {
     "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN"
   },
   "variants": {
     "color": "Color",
@@ -1282,7 +1375,10 @@ export default {
       "title": "Calendario de lanzamiento de contenido",
       "publish_at": "Publicar en",
       "last_edit": "última edición",
-      "view_action": "Ver artículo"
+      "view_action": "Ver artículo",
+      "no_article": "¡No hay artículo programado!",
+      "current_article": "Artículo actual",
+      "article_for_product": "Artículo para producto"
     },
     "notifications": {
       "update_success_title": "Enviar información",
@@ -1354,7 +1450,8 @@ export default {
     "first_send": "Primer comentario",
     "comment_at": "Sobre",
     "edit_comment": "Editar comentario",
-    "my_comments": "Mis comentarios"
+    "my_comments": "Mis comentarios",
+    "verified_buyer": "Comprador verificado"
   },
   "customer_club": {
     "bronze": "Bronce",
@@ -1469,7 +1566,8 @@ export default {
     "canceled": "Cancelado",
     "cod": "Pagar cuando reciba",
     "receipt_added": "Recibo agregado",
-    "payment_processing": "Procesando pago"
+    "payment_processing": "Procesando pago",
+    "payment_require_capture": "Requerir captura"
   },
   "basket_delivery_state": {
     "rejected": "Rechazado",
@@ -1971,5 +2069,53 @@ export default {
     "summer": "Verano",
     "autumn": "Otoño",
     "winter": "Invierno"
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "Vea el historial de mensajes entre usted y el cliente."
+      },
+      "new_message": {
+        "subtitle": "Aquí puede enviar mensajes directamente a sus clientes. Cuando envíe un mensaje, el cliente recibirá una notificación por correo electrónico después de 20 minutos. Esta notificación se enviará solo una vez cada 24 horas."
+      }
+    },
+    "customer": {
+      "history": {
+        "subtitle": "Vea el historial de mensajes entre usted y el vendedor."
+      },
+      "new_message": {
+        "subtitle": "Puede enviarnos mensajes directamente aquí."
+      }
+    }
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "Bajo demanda",
+      "desc": "tales como reparaciones en el hogar, pintura, reparación de automóviles, etc."
+    },
+    "BOOKING": {
+      "title": "Reserva",
+      "desc": "Como reservar una habitación de hotel o villa."
+    },
+    "APPOINTMENT": {
+      "title": "Cita",
+      "desc": "Como una cita para el cuidado de mascotas o una capacitación en persona."
+    },
+    "RENTAL": {
+      "title": "Alquiler",
+      "desc": "Como alquilar un lugar o un coche."
+    },
+    "SUBSCRIPTION": {
+      "title": "Suscripción",
+      "desc": "Como la membresía del club o el entrenamiento en línea."
+    },
+    "CHARGE": {
+      "title": "Cargo",
+      "desc": "Como cargar una cuenta o cobrar por usar una aplicación."
+    },
+    "CUSTOM": {
+      "title": "Costumbre",
+      "desc": "Seleccione esta opción si el servicio que brinda no es ninguno de los anteriores."
+    }
   }
 };

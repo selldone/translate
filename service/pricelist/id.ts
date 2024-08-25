@@ -382,5 +382,19 @@ export default {
   "marketplace": "Pembangun pasar",
   "connect_os": {
     "subtitle": "Terhubung ke pemasok dropshipping dengan satu klik. Anda dapat terhubung ke POD seperti toko Prinful atau Impor Woocomerce secara gratis."
+  },
+  "ai": {
+    "title": "AI",
+    "sub_title": "Fitur kopilot dan asisten AI.",
+    "bg_remove": "AI Hapus Latar Belakang",
+    "bg_remove_info": "Hapus latar belakang secara otomatis dari gambar.",
+    "content_creation": "Pembuatan Konten AI",
+    "content_creation_info": "Buat konten untuk produk secara otomatis.",
+    "add_product": "Bantuan Produk AI",
+    "add_product_info": "Tambahkan produk secara otomatis melalui gambar dan suara.",
+    "magic_ai_buttons": "Tombol AI Ajaib",
+    "magic_ai_buttons_info": "Hapus latar belakang otomatis, terjemahkan massal, buat konten, dan banyak lagi dengan satu klik.",
+    "translate": "Terjemahan AI",
+    "translate_info": "Terjemahkan konten ke bahasa apa pun."
   }
 };

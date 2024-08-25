@@ -7,14 +7,18 @@ export default {
     "start_free": "Börja gratis",
     "featured_apps": "Utvalda appar",
     "more_apps": "Fler appar",
-    "my_public_profile": "Min offentliga profilsida"
+    "my_public_profile": "Min offentliga profilsida",
+    "product_admin": "Produktadmin"
   },
   "numbers": {
     "infinite": "Obegränsat"
   },
   "error": {
     "not_fount_data": "Data hittades inte!",
-    "license_max_limit": "Din licens har nått gränsen!"
+    "license_max_limit": "Din licens har nått gränsen!",
+    "no_read_access": "Ingen läsbehörighet",
+    "no_write_access": "Ingen skrivåtkomst",
+    "no_access": "Ingen tillgång"
   },
   "time_spans": {
     "days_range": "Dagsintervall",
@@ -240,7 +244,9 @@ export default {
         "buys": "Inköp",
         "payments": "Betalningar",
         "orders": "Order",
-        "currency": "Valuta"
+        "currency": "Valuta",
+        "no_payment": "Ingen betalning!",
+        "no_purchase": "Inget köp!"
       }
     }
   },
@@ -283,7 +289,8 @@ export default {
       "apps": "Appar",
       "pos": "POS",
       "seo": "SEO",
-      "localization": "Lokalisering"
+      "localization": "Lokalisering",
+      "classification": "Klassificering"
     },
     "dashboard": {
       "title": "Handla instrumentpanel",
@@ -419,6 +426,10 @@ export default {
         "orders": "Order",
         "payments": "Betalningar",
         "no_visitor_today": "Du hade inga besökare idag."
+      },
+      "channels": {
+        "title": "Förvärvskanaler",
+        "subtitle": "Ditt företag växer. Här är rapporten över dina kundförvärvskanaler."
       }
     },
     "products": {
@@ -452,7 +463,41 @@ export default {
         "views": "Visningar",
         "views_unit": "Tider"
       },
-      "menu_advanced_options": "Avancerade alternativ"
+      "menu_advanced_options": "Avancerade alternativ",
+      "products_rss": {
+        "title": "Produkter RSS",
+        "subtitle": "Importera produkter till Google, Meta, ..."
+      },
+      "products_api": {
+        "title": "Produkters API",
+        "subtitle": "Importera produkter via ett allmänt tillgängligt API-anrop."
+      },
+      "google_sheet": {
+        "action": "Länkat ark",
+        "tooltip": "Produkterna i den här butiken är länkade till ett Google-ark i Google Drive."
+      },
+      "show_deletes": {
+        "false_title": "Dölj borttaget",
+        "true_title": "Visa borttagen"
+      },
+      "show_vendors": {
+        "false_title": "Göm leverantörer",
+        "false_description": "Visa alla leverantörer, ⌘Ctrl+1",
+        "true_title": "Visa leverantörer"
+      },
+      "show_notes": {
+        "false_title": "Dölj anteckningar",
+        "false_description": "Visa alla anteckningar, ⌘Ctrl+2",
+        "true_title": "Visa anteckningar"
+      },
+      "rss_dialog": {
+        "title": "Produkter RSS",
+        "subtitle": "Använd detta RSS-flöde för att hålla en uppdaterad lista över alla produkter."
+      },
+      "api_dialog": {
+        "title": "Produkters API",
+        "subtitle": "Använd detta API-flöde för att hålla din produktlista uppdaterad. Det tillhandahåller ett allmänt tillgängligt API för att hämta produkter från din butik, vilket gör det idealiskt för produktlistor och jämförelsewebbplatser."
+      }
     },
     "blogs": {
       "new": "Skriv nytt",
@@ -515,7 +560,8 @@ export default {
         "tax": "Beskatta",
         "drop_shipping": "Återförsäljarkvitton",
         "reseller_accounts": "Återförsäljarkonton",
-        "valuations": "Värderingar"
+        "valuations": "Värderingar",
+        "customer_wallets": "Kundplånböcker"
       },
       "invoice": {
         "title": "Handla länkade plånböcker",
@@ -687,7 +733,23 @@ export default {
           "cod_false": "Acceptera endast betalning online",
           "cod_true_message": "Se till att din frakttjänst accepterar efterkrav."
         }
-      }
+      },
+      "restriction": {
+        "title": "Fraktbegränsning",
+        "subtitle": "Du kan implementera begränsningar för att säkerställa att endast kunder inom de angivna fraktområdena kan göra köp från dig!",
+        "no_enable_shipping_error": "Ingen kan köpa av dig eftersom du inte har någon aktiverad fraktmetod!",
+        "customer_must_select_a_shipping_msg": "Kunden måste välja en leveransmetod för att beställa.",
+        "customer_can_order_without_shipping_method_msg": "Kunden kan lägga beställningen även om ingen fraktmetod stöds för den valda platsen.",
+        "inputs": {
+          "restriction": {
+            "false_description": "Kunder kan fortfarande lägga beställningar även om ingen specifik fraktmetod har valts.",
+            "false_title": "Acceptera alla beställningar",
+            "true_title": "Begränsad acceptera beställning",
+            "true_description": "Kunder måste välja antingen ett frakt- eller hämtningsalternativ för att slutföra sitt köp."
+          }
+        }
+      },
+      "no_multi_warehouse_support_message": "För enkelhetens skull är den här funktionen inte tillgänglig i vanliga butiker."
     },
     "users": {
       "menu": {
@@ -1062,24 +1124,46 @@ export default {
       "product_name": "Produktnamn*",
       "product_name_placeholder": "Ditt produktnamn här..",
       "product_code": "Produktkod (engelska)",
-      "sku": "SKU",
+      "sku": {
+        "label": "SKU",
+        "message": "Lagerhållningsenhet"
+      },
       "sku_message": "Lagerhållningsenhet",
-      "mpn": "MPN",
+      "mpn": {
+        "label": "MPN",
+        "message": "Tillverkarens artikelnummer"
+      },
       "mpn_message": "Tillverkarens artikelnummer",
-      "status": "Status",
+      "status": {
+        "title": "Status",
+        "subtitle": "Produktens status avgör dess tillgänglighet online och i butik. För att göra ett produktutkast, ändra bara dess status till \"Inaktiv\"."
+      },
       "external_link": "Extern länk",
-      "brand": "varumärke",
+      "brand": {
+        "label": "varumärke",
+        "placeholder": "Märke Ex. Apple.. (Valfritt)"
+      },
       "brand_placeholder": "Märke Ex. Apple.. (Valfritt)",
-      "warranty": "Garanti",
+      "warranty": {
+        "subtitle": "Ställ in garanti och produktstatus, eftersom denna information om garanti kommer att visas för kunden och hjälper till att fastställa tidsramen inom vilken produkter kan returneras efter köp.",
+        "label": "Garanti",
+        "placeholder": "Gyllene 24 månaders garanti.. (Valfritt)"
+      },
       "is_original": "Är detta en originalprodukt?",
       "is_original_message": "Om du inte ställer in din produkt i original kommer det falska märket att visas för denna produkt.",
       "return_warranty": "Hur många dagar har denna produkt returgaranti?",
       "warehouse_section": "Lager & Tillverkning",
       "conditions_section": "Produktens villkor",
       "warranty_section": "Garanti & Leverans",
-      "unit": "Produktenhet",
+      "unit": {
+        "subtitle": "Du kan anpassa visningen av prissättning och uppmaningselement på produktsidan."
+      },
       "unit_message": "Gå in i enheten om det behövs. Ex: KG, Meter, ...",
-      "condition": "Produktens skick i din butik",
+      "condition": {
+        "label": "Produktens skick i din butik",
+        "message": "Välj skick för denna produkt.",
+        "subtitle": "Informera dina kunder om skicket och märket på produkten du erbjuder."
+      },
       "condition_message": "Du måste välja ett av värdena i detta fält.",
       "unit_section": "Produktenhet",
       "unit_float": "Flytenhet (snart)",
@@ -1103,6 +1187,46 @@ export default {
         "single_vendor_desc": "Den här produkten tillhör en leverantör och den valda leverantören kan hantera den.",
         "multi_vendors_title": "Flera leverantörer",
         "multi_vendors_desc": "Denna produkt tillhör marknadsplatsen och kan endast redigeras i marknadsplatspanelen."
+      },
+      "category_input_msg": "Tom: I butikens rot",
+      "unit_input": "Produktenhet",
+      "category": {
+        "subtitle": "Konfigurera kategorin och titeln som ska visas i din lista."
+      },
+      "custom_pricing": {
+        "title": "Anpassat prisformulär",
+        "subtitle": "Du kan skapa eller tilldela en värdering (ett formulär för prissättning) till produkten, och dina kunder kan välja mellan varianter eller anpassa dina varor med ett intuitivt inmatningsformulär.",
+        "valuation_need_saved_product_message": "Spara produkten först och sedan kan du tilldela en värderingsmodell.",
+        "assign_valuation_message": "Tilldela denna produkt en värderingsmodell.",
+        "edit_pricing_action": "Redigera prisformulär",
+        "add_pricing_action": "Skapa ett nytt prisformulär"
+      },
+      "action": {
+        "title": "Anpassad köpknapp",
+        "message": "Du kan ändra ikon genom att följa det här mönstret: {icon name} bildtext...",
+        "placeholder": "Ange uppmaning...",
+        "multi_language_dialog_title": "Anpassad köpknappstext"
+      },
+      "warehouse": {
+        "subtitle": "Denna information används av lagerhanteringssystemet och tjänar till att globalt identifiera produkten."
+      },
+      "gtin": {
+        "hint": "Värden som stöds är UPC (Nordamerika, 12 siffror), EAN (Europa, 13 siffror), JAN (Japan, 8 eller 13 siffror), ISBN (böcker, 13 siffror).",
+        "label": "Produktens globala handelsartikelnummer",
+        "placeholder": "Globalt handelsnummer här.. (Valfritt)"
+      },
+      "hsn": {
+        "hint": "HSN, eller Harmonized System of Nomenclature, är ett internationellt standardiserat klassificeringssystem för att kategorisera varor och produkter.",
+        "placeholder": "6~16 siffrig HSN-kod.. (Valfritt)",
+        "label": "HSN"
+      },
+      "profiles": {
+        "title": "Profiler",
+        "subtitle": "Du kan definiera garanti, returpolicy, frakt och vägledning och tilldela dem till denna produkt. Det kommer att visas som nya flikar på produktsidan."
+      },
+      "shortcuts": {
+        "title": "Tilldela produkt till ytterligare kategorier",
+        "subtitle": "Med den här funktionen kan du lista produkten i flera kategorier samtidigt som den behåller sin placering i den primära kategorin under Produkt > Redigera > Kategori. I huvudsak fungerar det på samma sätt som att skapa \"genvägar\" i operativsystem, vilket gör att produkten kan visas i ytterligare specificerade kategorier."
       }
     },
     "rating_pros_cons": {
@@ -1181,12 +1305,55 @@ export default {
         "code_input": "Serienummer",
         "code_input_message": "Produktkod: P0000 ...",
         "spec_view_title": "Specifikationer för den valda produkten",
-        "set_spec_action": "Dubblett av tekniska specifikationer"
+        "set_spec_action": "Dubblett av tekniska specifikationer",
+        "spec_view_subtitle": "Specifikationerna har importerats från den valda produkten."
       },
       "notifications": {
         "enter_group_title_error": "Ange rubrikvärde",
         "enter_item_title_and_value_error": "Ange funktionens titel och värde",
         "spec_saved_success": "Produktspecifikationer sparade."
+      },
+      "subtitle": "Infoga produktspecifikationer här. Denna information kommer att visas för kunderna och kan även användas i kategorins intelligenta filtreringssystem.",
+      "manual": {
+        "title": "Manuellt",
+        "subtitle": "Lägg till produktspecifikationer manuellt genom att definiera grupper och nyckel-värdepar.",
+        "add_group_action": "Lägg till grupp",
+        "add_item_action": "Lägg till Spec-värde"
+      },
+      "import": {
+        "subtitle": "Du kan importera tekniska specifikationer för liknande produkter.",
+        "action_title": "Importera",
+        "action_subtitle": "Klona spec från en annan produkt."
+      },
+      "ai": {
+        "title": "AI",
+        "subtitle": "Du kan automatiskt skapa produktspecifikationer genom att skicka in produktens rådata i textform.",
+        "action_title": "Generera automatiskt med AI",
+        "action_subtitle": "Skapa produktspecifikationer genom abstrakt prompt."
+      },
+      "dialog_ai": {
+        "title": "Generera automatiskt produktspecifikationer",
+        "prompt": {
+          "title": "Produktöversikt",
+          "subtitle": "Vänligen ge en kort och tydlig beskrivning av produkten och framhäva dess viktigaste egenskaper och detaljer. Denna information kommer att användas för att automatiskt generera produktspecifikationerna."
+        },
+        "generated_spec": {
+          "title": "AI-genererade specifikationer",
+          "subtitle": "Dessa specifikationer genererades av artificiell intelligens."
+        },
+        "inputs": {
+          "prompt": {
+            "label": "Produktinformation",
+            "placeholder": "Beskriv produkten här..."
+          }
+        },
+        "actions": {
+          "run": {
+            "title": "Skapa specifikationer",
+            "subtitle": "Klicka för att automatiskt skapa produktspecifikationer från den tillhandahållna översikten."
+          },
+          "add_generated_spec": "Lägg till genererade specifikationer"
+        }
       }
     },
     "edit_images": {
@@ -1204,6 +1371,24 @@ export default {
       "video": {
         "title": "Video",
         "sub_title": "Ladda först upp din produktvideo på Youtube och lägg sedan in videons URL här."
+      },
+      "change_bg_ai": {
+        "title": "Skapa Bild Med Ny Bakgrund",
+        "inputs": {
+          "prompt": {
+            "label": "Bakgrundsbeskrivning",
+            "placeholder": "Beskriv önskad bakgrund..."
+          }
+        },
+        "actions": {
+          "reimagine": {
+            "title": "Skapa ny bild",
+            "subtitle": "Föreställ om hela bilden med en ny bakgrund."
+          },
+          "replace": {
+            "subtitle": "Byt ut den befintliga bakgrunden."
+          }
+        }
       }
     },
     "pricing": {
@@ -1227,14 +1412,33 @@ export default {
       "variant_pricing_message": "Genom att välja detta alternativ kan priset för denna variant ställas in oberoende av huvudprodukten.",
       "price_label_input": "Prisetikett",
       "price_label_message": "Lägg till extra information om pris som ($1,5/Fl Oz). Användningsfall: livsmedel, FMCG.",
-      "add_price_label_action": "Lägg till prislapp"
+      "add_price_label_action": "Lägg till prislapp",
+      "subtitle": {
+        "marketplace": "På marknadsplatsen är det primära produktpriset som visas listpriset, medan det faktiska priset bestäms baserat på leverantörs-produktrelationsposterna.",
+        "subscription": "För prenumerationer visas endast noteringspriset, medan den faktiska kostnaden bestäms baserat på den valda prenumerationen.",
+        "service": "För tjänstebaserade produkter är den angivna prissättningen endast för visningsändamål, vilket ger en uppskattad kostnad för tjänsten. Det faktiska servicepriset bestäms av dig när kunden har lagt sin beställning (vid kassan).",
+        "file": "Detta avser det listade och faktiska priset för filen, som kunderna måste betala för att få tillgång till filerna.",
+        "default": "Detta avser produktens listade pris och tar även hänsyn till priset på eventuella varianter som inte har separat prissättning."
+      },
+      "extra_pricings": {
+        "title": "Lägg till extra prissättning",
+        "subtitle": "Tillämpa varierande priser baserat på köpt kvantitet."
+      },
+      "vendor": {
+        "title": "Säljarens prissättning",
+        "subtitle": "Detta pris kommer endast att visas i produktlistan. Du kan ange leverantörspris på fliken Produkt > Leverantörer.",
+        "manage_vendors": "Hantera leverantörer",
+        "vendor_product_pricing_link": "Säljarens produktprissättning är kopplad. Att ändra listpriset här kommer att påverka leverantörsprodukter utan varianter eller de med varianter som inte har sin egen prissättning (med samma pris som huvudprodukten). Detta pris kommer att behandlas som marknadsplatspriset, och leverantörens pris kommer att fastställas baserat på prissättningsmodellen eller den tidigare marknadsplatsens vinstmarginal.",
+        "vendor_variant_pricing_link": "Ändring av variantpriset här kommer att påverka prissättningen av leverantörsprodukter med samma variant. Detta pris kommer att betraktas som marknadsplatspriset och leverantörens pris kommer att ställas in enligt prissättningsmodellen eller den tidigare marknadsplatsens vinstmarginal."
+      }
     },
     "inputs_edit": {
       "title": "Inmatningsformulär för köparinformation",
       "sub_title": "Du kan skapa ett datainmatningsformulär för varje produkt, så att kunder skickar information till dig när de köper en produkt. Till exempel kan denna information vara ett namn på en gravyr på en sten.",
       "message_input": "Meddelande till användare",
       "message_input_message": "Detta meddelande kommer att visas för kunden vid köp av produkter.",
-      "inputs_form": "Informationsstruktur (indata)"
+      "inputs_form": "Informationsstruktur (indata)",
+      "inputs_hint": "Du har möjlighet att skapa ett personligt formulär för att samla in information från dina kunder när de är redo att göra en beställning."
     },
     "extra_edit": {
       "physical": {
@@ -1244,6 +1448,13 @@ export default {
       "notifications": {
         "save_title": "Förpackning uppdaterad",
         "save_msg": "Produktförpackningsinformationen har uppdaterats."
+      },
+      "order_limit": {
+        "title": "Beställningsgränser",
+        "subtitle": "Om du är en grossist eller om det finns en lägsta eller högsta gräns för mängden av denna vara per beställning, kan du ange det här.",
+        "no_limit": "Ingen gräns",
+        "minimum_purchase_quantity": "Minsta köpkvantitet",
+        "maximum_purchase_quantity": "Maximal inköpskvantitet"
       }
     },
     "variants": {
@@ -1251,7 +1462,8 @@ export default {
     },
     "delete_product": {
       "title": "Ta bort produkten",
-      "message": "Vill du ta bort <b>{product_title}</b> ?"
+      "message": "Vill du ta bort <b>{product_title}</b> ?",
+      "tips": "Om du av misstag tar bort en produkt kan du återställa den genom att navigera till din Butik > Produkter, aktivera Visa borttagna artiklar och sedan högerklicka på produkten och välja Återställ."
     }
   },
   "product_admin": {
@@ -1275,7 +1487,11 @@ export default {
         "type": "Typ",
         "inputs": "Mata in information",
         "outputs": "Utdatainformation",
-        "user_data_form": "Köparinformationsformulär"
+        "user_data_form": "Köparinformationsformulär",
+        "staff_messages": "Personalmeddelanden",
+        "add_note": "Lägg till anteckning",
+        "product_tags": "Produkttaggar",
+        "edit_tags": "Redigera taggar"
       },
       "orders": {
         "title": "Order",
@@ -1283,7 +1499,9 @@ export default {
         "physical_orders_title": "Kundvagnar med denna produkt",
         "send_30days_title": "Skickat beställningar under de senaste 30 dagarna",
         "downloads_30days_title": "Antal nedladdade filer under de senaste 30 dagarna",
-        "virtual_orders_title": "Denna produkts beställningar väntar på att slutföras"
+        "virtual_orders_title": "Denna produkts beställningar väntar på att slutföras",
+        "send_count_in_period": "Skickade beställningar mellan {start} ~ {end}",
+        "downloads_count_in_period": "Antal nedladdade filer mellan {start} ~ {end}"
       },
       "inventory": {
         "title": "Lager",
@@ -1298,7 +1516,8 @@ export default {
           ]
         },
         "subscribers_title": "Prenumeranter",
-        "subscribers_title_small": "Totalt antal prenumererade beställningar"
+        "subscribers_title_small": "Totalt antal prenumererade beställningar",
+        "total_sell_timespan": "Total försäljning mellan {start} och {end}"
       },
       "finance": {
         "title": "Finansiell",
@@ -1327,7 +1546,9 @@ export default {
           "participate": "Deltagande",
           "participate_title": "Antalet bidrag",
           "score": "Göra"
-        }
+        },
+        "total_participation_tooltip": "Totalt antal bedömare för produkten.",
+        "users_not_rated_msg": "Användare har inte betygsatt denna produkt ännu."
       },
       "inform": {
         "title": "Kundernas förväntningar",
@@ -1403,7 +1624,11 @@ export default {
     "lead_time_dimension": "timme(r)",
     "bulk_action": "Massåtgärder",
     "bulk_action_input": "Uppdatera alla varianter",
-    "bulk_action_msg": "Ställ in produktförpackning och beredningstid för alla varianter."
+    "bulk_action_msg": "Ställ in produktförpackning och beredningstid för alla varianter.",
+    "weight_subtitle": "Ange produktens totala förpackningsvikt här. Denna information hjälper till att välja rätt leveransmetod och säkerställer att beställningen inte överskrider fraktgränsen.",
+    "size_subtitle": "Ange produktens fulla förpackningsstorlek här. Denna information används för att välja rätt fraktmetod och säkerställa att beställningen inte överskrider gränsen för paketstorlek.",
+    "lead_time_subtitle": "Ledtiden uppskattar den tid som krävs för att förbereda en produkt för leverans, vilket hjälper till att uppskatta leveranstiden.",
+    "bulk_action_subtitle": "Du kan tillämpa förpackningsinformationen på alla produktvarianter."
   },
   "product_images_list": {
     "upload_button": "Fler produktbilder",
@@ -1488,10 +1713,14 @@ export default {
     },
     "notifications": {
       "save_success": "Lagerändringen har sparats."
-    }
+    },
+    "title": "Butikslager",
+    "subtitle": "Lista över alla produkter i butik.",
+    "cant_set_here": "Kan inte ställa in här"
   },
   "spec_view": {
-    "auto_save_input": "Automatisk sparning"
+    "auto_save_input": "Automatisk sparning",
+    "auto_save_input_message": "Ändringar sparas automatiskt."
   },
   "time_progress_bar": {
     "title_before_start": "Återstår till start",
@@ -1752,6 +1981,33 @@ export default {
       },
       "notifications": {
         "edit_success": "Kategori redigerad."
+      },
+      "manually_update_filters_tips": "<b>Viktig!</b> Filter uppdateras automatiskt när produkter ändras. Men efter att ha gjort ändringar i produkter i en kategori, vänligen återvänd hit och klicka på knappen Spara/Regenerera för att uppdatera filtret.",
+      "inputs": {
+        "spec": {
+          "message": "Lista över funktioner som du vill ska visas i filtersektionen",
+          "placeholder": "Välj specifikationer att visa i filter..."
+        }
+      }
+    },
+    "config": {
+      "subtitle": "Kategorier hjälper till att effektivisera produkthanteringen och gör det lättare för dina kunder att hitta produkter i din butik."
+    },
+    "parent": {
+      "subtitle": "Denna kategori kommer att visas under sin överordnade kategori. Om en produkt inte har en överordnad kategori, kommer den att visas i huvudkategorin."
+    },
+    "template": {
+      "title": "Mall",
+      "edit_page": "Redigera sida",
+      "Pages_list": "Sidlista",
+      "subtitle": "Du kan förbättra visningen av din kategorisida genom att lägga över en anpassad sida. Det bästa tillvägagångssättet är att skapa sidor med transparent bakgrund och designa 1 till 2 avsnitt specifika för varje kategori. Du kan sedan länka en sida till flera kategorier genom att använda dynamiskt innehåll för att skräddarsy varje kategori individuellt."
+    },
+    "critical_zone": {
+      "title": "Kritisk zon",
+      "subtitle": "Om du tar bort en kategori kommer dess underkategorier och produkter att flyttas till den överordnade katalogen <b>📁 {parent}</b> . För att hantera kategorier som inte finns i produktlistan, gå till fliken Butik > Kategorier.",
+      "accept_delete": {
+        "true_description": "Jag vill ta bort den här kategorin.",
+        "true_title": "Bekräfta Ta bort kategori"
       }
     }
   },
@@ -1807,7 +2063,8 @@ export default {
       "name_available": "Detta namn ({name}) är tillgängligt.",
       "add_success": "Butik {title} skapad.",
       "edit_success": "Butiken redigerad."
-    }
+    },
+    "description_input_tips": "Den här beskrivningen kommer att visas i din butiks sidfot och kommer också att användas som standard metataggbeskrivning för dina butikssidor."
   },
   "virtual_items_list": {
     "add_virtual_item": "Lägg till virtuellt objekt",
@@ -1896,7 +2153,13 @@ export default {
       "title": "Skäl att avvisa ordern",
       "message": "Välj skälet till att avvisa denna beställning från listan nedan. Se till att informera kunden om avbokningen och återbetalningsprocessen. Återbetalning måste göras inom 12 timmar.",
       "confirm_action": "Avbryt beställning",
-      "dismiss_reject_action": "Avvisa annulleringen av beställningen"
+      "dismiss_reject_action": "Avvisa annulleringen av beställningen",
+      "confirm_now_action": "Avbryt beställning nu",
+      "confirm_in48h_action": "Avbryt beställning om 48 timmar",
+      "options": {
+        "title": "alternativ",
+        "subtitle": "Om du vill avbryta din beställning omedelbart kan du använda detta alternativ."
+      }
     },
     "notifications": {
       "update_status_success": "Orderstatus uppdaterad.",
@@ -2019,7 +2282,8 @@ export default {
         "pay_fail_title": "Inte betalad",
         "pay_fail_message": "Betalning kan inte godkännas!"
       },
-      "total_order_price_before_tax": "Totalpris före skatt"
+      "total_order_price_before_tax": "Totalpris före skatt",
+      "require_capture": "Kräv fångst"
     },
     "basket_list": {
       "checklist": [
@@ -2031,7 +2295,23 @@ export default {
       "list_of_items": "Varukorgslista",
       "apply_change_action": "Applicera förändringar",
       "cant_apply_change": "Kan inte göra ändringar",
-      "lottery_prize_inform": "Din kund vinner 1x av denna produkt. Skicka present med denna beställning."
+      "lottery_prize_inform": "Din kund vinner 1x av denna produkt. Skicka present med denna beställning.",
+      "need_to_refund": {
+        "title": "Återbetalning krävs till kunden",
+        "message": "Vi beräknar det totala beloppet för återbetalningar som du behöver göra manuellt. Det beräknas baserat på otillgängliga artiklar och totala återbetalda värden ännu.",
+        "calculated_approximately": "Beloppet är beräknat ungefär. Beräkna det exakta beloppet själv."
+      },
+      "need_payback": {
+        "title": "Kundåterbetalning krävs",
+        "message": "Vi har märkt att den totala återbetalningen till kunden är högre än det förfallna beloppet baserat på varorna i kundvagnen. Du kan behöva debitera din kund för att få tillbaka det överskjutande beloppet."
+      },
+      "need_no_refund": {
+        "title": "Ingen återbetalning krävs"
+      },
+      "total_refund": {
+        "title": "Totalt återbetalas",
+        "message": "Det är det totala beloppet för återbetalningar som görs automatiskt av din betalningsgateway. Endast vissa betaltjänster stöder den här funktionen, så du måste återbetala manuellt."
+      }
     },
     "preparing": {
       "title": "Förberedelse",
@@ -2047,7 +2327,9 @@ export default {
         "Följer standardregler i förpackning.",
         "Skriv ut en lista med föremål och lägg den i förpackningen.",
         "Skriv ut och fäst en etikett på lådan."
-      ]
+      ],
+      "items_weight_calculation": "Den sammanlagda vikten av alla föremål är {weight} {unit}",
+      "not_available_message": "Det är inte tillgängligt när du är inaktiverad och ber om leveransadress och användaren inte fyllde adressen efter köpet!"
     },
     "basket_items": "Beställningsartiklar Lista",
     "delivered_dialog": {
@@ -2156,10 +2438,48 @@ export default {
     "developer_title": "utvecklarläge",
     "developer_message": "Du kan behandla falska transaktioner om gatewayen stöder felsökningsläge.",
     "notifications": {
-      "edit_success": "Gateway {gateway_name} har redigerats."
+      "edit_success": "Gateway {gateway_name} har redigerats.",
+      "success_delete": "Betalningsmetoden har tagits bort!"
     },
     "developer_setting": "Utveckla & Testa",
-    "live_mode_message": "Alla transaktioner kommer att vara i live-läge."
+    "live_mode_message": "Alla transaktioner kommer att vara i live-läge.",
+    "status_title": "Betaltjänstens status",
+    "status_message": "Konfigurera betalningsmetoden som Aktiv eller Inaktiv. Endast metoder som är inställda som aktiva kommer att visas för kunder.",
+    "status_true_description": "Dina kunder kan betala med denna betalningsmetod.",
+    "manual_title": "Betalning för manuell / automatisk inspelning",
+    "manual_message": "När du skapar en betalning kan du spärra en kvalificerad betalningsmetod för att reservera pengar som du kan hämta senare. Hotellen godkänner till exempel ofta en betalning i sin helhet innan en gäst anländer, för att sedan få pengarna när gästen checkar ut.",
+    "debug": {
+      "title": "Utveckla & Testa",
+      "subtitle": "Du kan aktivera felsökningsläget för att testa betalningsgatewayen."
+    },
+    "limit": {
+      "title": "Beställningsgräns",
+      "subtitle": "Ställ in det lägsta beställningsbeloppet för denna betalningsgateway."
+    },
+    "limit_input": {
+      "title": "Minsta orderbelopp",
+      "msg": "Noll betyder ingen gräns."
+    },
+    "currency_input": {
+      "message": "Valutan som denna betalningsgateway stöder."
+    },
+    "gateway_code": "Gateway-kod",
+    "hold_only_for": "Håll betalning endast tillgänglig för",
+    "manual_input": {
+      "false_description": "Betalningsstatusen ändras automatiskt från väntande till bekräftad i betalningsleverantörens system.",
+      "false_title": "Automatisk betalningsbekräftelse",
+      "true_title": "Håll betalningar och manuell bekräftelse",
+      "true_description": "Placera en spärr på en betalning så att du måste verifiera betalningarna för en beställning för att ändra deras status från väntande till bekräftad i betalningsleverantörens system."
+    },
+    "delete_verify_input": {
+      "true_title": "Jag vill ta bort den här betalningsmetoden.",
+      "true_description": "Denna betalningsmetod kommer att tas bort från butiken och kommer inte att vara tillgänglig för kunder."
+    },
+    "delete_alert": {
+      "title": "Ta bort betalningsmetod",
+      "message": "Är du säker på att ta bort den här betalningsmetoden från din butik?",
+      "action": "Ta bort betalningsmetod"
+    }
   },
   "gift_card": {
     "title": "Presentkort",
@@ -2368,7 +2688,9 @@ export default {
     "connect-remove-hold": "Beställningen togs bort från spärren. {reason}",
     "connect-confirmed": "Beställningen bekräftades.",
     "email-vendor": "🔔 Beställningsinformation e-post har skickats till <b>{vendor}</b> ╏ {email}.",
-    "vendor-payout": "💸 Utbetalning till leverantör."
+    "vendor-payout": "💸 Utbetalning till leverantör.",
+    "sms-payment": "Skicka betalningsbekräftelse SMS till kunden via {phone}.",
+    "vendor-sms": "🔔 Beställningsinformation SMS har skickats till <b>{vendor}</b> ╏ {phone}."
   },
   "inline_chart": {
     "today": "I dag",
@@ -2384,6 +2706,34 @@ export default {
     "notifications": {
       "copy_success": "Kopia av produkt.",
       "change_category_success": "Produktkategori redigerad."
+    },
+    "load_more_products": "Fler produkter finns tillgängliga i denna kategori. Klicka för att ladda fler objekt.",
+    "filter_box": {
+      "no_root_filter_message": "Du har produkter i root men inget filter.",
+      "has_root_filter_message": "Du ställer in filter för rotkategori.",
+      "set_filter_message": "Du kan ställa in filter.",
+      "edit_action": "Redigera rotfilter",
+      "clear_action": "Rensa rotfilter"
+    },
+    "ai": {
+      "title": "AI produktassistans"
+    },
+    "menu": {
+      "select_all_products": "Välj alla produkter",
+      "unselect": "Avmarkera",
+      "sort_categories": "Ordna / Sortera kategorier",
+      "subscription_vendor_not_support_message": "Kan inte tilldela leverantör för prenumerationsprodukter! Prenumerationsprodukter måste alltid ha en leverantör som ägare!",
+      "vendor_owner_not_assignable_message": "Kan inte tilldela en leverantör för produkter med en leverantör som ägare!",
+      "category_assign_profile": "Tilldela profil till produkter i kategorin",
+      "category_assign_profile_subtitle": "Skatt, frakt, guide, garanti, ...",
+      "bulk_discount": "Massrabatt",
+      "bulk_discount_subtitle": "Använd rabatt på alla produkter."
+    },
+    "engine": {
+      "title": "Extra Products Engine",
+      "subtitle": "Fler produkter kommer att laddas från utvalda kategorier och taggar.",
+      "load_in_tips": "Ladda produkter från kategorier i {category}.",
+      "action": "Redigera {category} motor"
     }
   },
   "physical_order_track": {
@@ -2419,7 +2769,9 @@ export default {
       "message": "Är du säker på att du ska skicka det här e-postmeddelandet till din kund igen?",
       "action": "Ja, skicka igen",
       "success": "E-post skickas till din kund igen."
-    }
+    },
+    "message": "I det här avsnittet kan du se tidslinjen för händelser relaterade till beställningen, uppfyllelsen, betalningen och deras respektive status. Dessutom kan du se de beställningar som skickas till både kunder och leverantörer.",
+    "add_note_subtitle": "Skriv ett meddelande och nämn dina kollegor."
   },
   "accounts": {
     "title": "Min plånbok",
@@ -3253,7 +3605,15 @@ export default {
       "access": "Tillgång till Mitt konto",
       "security": "säkerhet",
       "preferences": "Användar preferenser",
-      "my_subscriptions": "mina prenumerationer"
+      "my_subscriptions": "mina prenumerationer",
+      "my_public_profile_subtitle": "Min offentliga profil {name}.",
+      "personal_information_subtitle": "Redigera min profil, adress och KYC.",
+      "wallet_subtitle": "Virtuella konton och anslutna betalkort.",
+      "companies_subtitle": "Registrera mina företags- och skatteprofiler.",
+      "access_subtitle": "OAuth-klienter, personliga åtkomsttokens och anslutna appar.",
+      "security_subtitle": "Ställ in två faktorer och hantera sociala inloggningsalternativ.",
+      "preferences_subtitle": "Ändra tema, nivå, språk och standardvaluta.",
+      "my_subscriptions_subtitle": "Tillgång till premium AI och anpassningsfunktioner."
     }
   },
   "page_builder": {
@@ -3293,7 +3653,8 @@ export default {
         "tools": "Verktyg",
         "history": "Historia",
         "style": "Stil",
-        "typography": "Typografi"
+        "typography": "Typografi",
+        "hierarchy": "Hierarki"
       },
       "no_category": "Inga kategorier"
     },
@@ -3392,7 +3753,8 @@ export default {
     "samples": "Visa provbutiker",
     "samples_message": "Om det är aktiverat kommer några exempelbutiker att visas i din panel.",
     "automation": "Automatisering",
-    "automation_message": "Visa automatiseringsfliken på butikens instrumentpanel. (Webhooks, visuell programmering, ...)"
+    "automation_message": "Visa automatiseringsfliken på butikens instrumentpanel. (Webhooks, visuell programmering, ...)",
+    "date_time": "Datum & tid"
   },
   "shop_locations": {
     "title": "Länder där tjänsten tillhandahålls",
@@ -3419,7 +3781,31 @@ export default {
     "auto_category": "Automatisk inställning av kategori",
     "add_in_current_category": "Lägg till den aktuella kategorin",
     "category_mode_message": "Om aktiverat kommer produkten att läggas till i standardkategorin eller underkategorin.",
-    "sku_name_input": "SKU / Namn"
+    "sku_name_input": "SKU / Namn",
+    "info": {
+      "subtitle": "För att generera produkten kan du endast ange de väsentliga detaljer som behövs för att skapa den."
+    },
+    "price": {
+      "subtitle": "Ange pris och rabatt för denna produkt. När produkten har lagts till har du tillgång till fler alternativ."
+    },
+    "by_sku": {
+      "title": "Lägg till efter SKU",
+      "subtitle": "Databasen i ditt land är inte tillgänglig."
+    },
+    "drop_shipping": {
+      "subtitle": "Hitta produkter på grossistmarknaden och lägg till dem i din butik."
+    },
+    "by_connect": {
+      "subtitle": "Lägg enkelt till produkter från POD- eller dropshipping-leverantörer med Selldone Connect OS – anslut bara din butik och njut av automatisk produktintegrering, inga plugins behövs."
+    },
+    "your_license_is_not_eligible": "Din licens är inte kvalificerad.",
+    "sku_dialog": {
+      "title": "Lägg till produkt efter SKU",
+      "subtitle": "Du har möjlighet att hitta produkter efter deras SKU i vår databas och lägga till dem med bara ett enda klick."
+    },
+    "dropshipping_dialog": {
+      "title": "Lägg till dropshipping-produkter"
+    }
   },
   "my_affiliate": {
     "title": "Mina affiliate-avtal",
@@ -3509,7 +3895,8 @@ export default {
     "coupon": "Kupong",
     "offer": "Erbjudande",
     "gift_card": "Present kort",
-    "lottery": "Lotteri"
+    "lottery": "Lotteri",
+    "cashback": "Cashback"
   },
   "discount_codes": {
     "title": "rabattkoder",
@@ -3552,6 +3939,24 @@ export default {
       "notifications": {
         "add": "Rabattkoden har lagts till.",
         "edit": "Rabattkoden har redigerats."
+      },
+      "config": {
+        "title": "Allmän konfig",
+        "subtitle": "Formeln för rabattkodsberäkningen är: max (LIMIT, PROCENT * kundvagnspris). Kom ihåg att göra koderna relevanta och lätta att komma ihåg."
+      },
+      "limit": {
+        "title": "Begränsningar",
+        "subtitle": "Du kan definiera den maximala användningsgränsen för varje rabattkod, såväl som det maximala rabattbeloppet, i detta avsnitt."
+      },
+      "duration": {
+        "title": "Varaktighetsgräns",
+        "subtitle": "Om du vill aktivera en rabattkod för en viss tidsperiod kan du fastställa den varaktigheten här."
+      },
+      "design": {
+        "subtitle": "Du kan ställa in en titel och beskrivning för varje rabattkod. Dessa detaljer kommer att visas för användaren."
+      },
+      "cluster": {
+        "subtitle": "Genom att koppla denna rabattkod till ett kluster kan du enkelt hantera den tillsammans med andra resurser på en enda plats."
       }
     },
     "delete_alert": {
@@ -3654,6 +4059,34 @@ export default {
     "notifications": {
       "add": "Ny kupong har skapats.",
       "edit": "Kupongen har uppdaterats."
+    },
+    "config": {
+      "subtitle": "Formeln för kupongrabattberäkningen är: CHARGE + max (LIMIT, PROCENT * kundvagnspris)."
+    },
+    "limit": {
+      "subtitle": "I det här avsnittet kan du ställa in både det maximala antalet användningar per kupong och det högsta rabattbeloppet som varje kupong kan ge.",
+      "zero_message": "noll: det finns ingen gräns!"
+    },
+    "duration": {
+      "subtitle": "Om du vill ställa in en specifik tidsram för att en kupong ska vara aktiv kan du konfigurera varaktigheten i det här avsnittet."
+    },
+    "design": {
+      "subtitle": "Varje kupong tillåter tillägg av en titel och beskrivning. Dessa uppgifter kommer att vara synliga för kunden."
+    },
+    "constraints": {
+      "subtitle": "Här har du möjlighet att upprätta ytterligare personliga parametrar för kupongen.",
+      "no_limit": "Ingen extra begränsning",
+      "has_limit": "Extra begränsningar",
+      "has_code_message": "Användaren bör ange koden för att lägga till kupong."
+    },
+    "club": {
+      "subtitle": "Denna kupongs användning kan begränsas exklusivt till medlemmar i utvalda kundklubbar."
+    },
+    "cluster": {
+      "subtitle": "Genom att associera denna kupong med ett kluster kan du enkelt hantera den tillsammans med andra resurser på en enda plats."
+    },
+    "preview": {
+      "subtitle": "Här är den offentliga förhandsvisningen av kupongen."
     }
   },
   "offers": {
@@ -3688,7 +4121,10 @@ export default {
     "qualified_products_message": "För att produkter ska vara kvalificerade måste det totala antalet varor i kundvagnen vara lika med eller större än minsta kvantitet.",
     "min_items": "Minsta antal artiklar",
     "min_items_message": "Antalet varor som kunden måste köpa",
-    "discounted_products": "Rabatterade produkter",
+    "discounted_products": {
+      "title": "Rabatterade produkter",
+      "subtitle": "Du kan ange de produkter som detta erbjudande kommer att tillämpa rabatt på."
+    },
     "offered_products": "Erbjudna produkter",
     "offered_products_message": "Minst en av dessa produkter måste finnas i kundvagnen.",
     "discount_percent": "Rabattprocent",
@@ -3710,6 +4146,21 @@ export default {
     "notifications": {
       "add": "Nytt erbjudande skapat framgångsrikt.",
       "edit": "Erbjudandet har uppdaterats."
+    },
+    "config": {
+      "subtitle": "Börja skapa en intelligent affär genom att fastställa dess titel, beskrivning och offentliga tillgänglighetsstatus."
+    },
+    "limit": {
+      "subtitle": "Ställ in den maximala användningsgränsen för detta erbjudande i det här avsnittet."
+    },
+    "duration": {
+      "subtitle": "Om du vill ställa in en specifik tidsram för ett erbjudande kan du konfigurera varaktigheten här."
+    },
+    "constraints": {
+      "subtitle": "Ange behörighetskriterier och villkor för erbjudandet här. Erbjudandet gäller varukorgsartiklar som uppfyller dessa villkor."
+    },
+    "cluster": {
+      "subtitle": "Genom att koppla detta erbjudande till ett kluster kan du enkelt hantera det tillsammans med andra resurser på en enda plats."
     }
   },
   "campaign_ads": {
@@ -3807,7 +4258,12 @@ export default {
     },
     "notifications": {
       "delete_success": "Priset har raderats."
-    }
+    },
+    "manual_send_token_action": "Manuella tokens",
+    "config": {
+      "subtitle": "Öka kundköp med en gamifierad upplevelse i din butik. Ställ in priser och vinstodds för kunder som tjänar tokens genom köp. Varje spel kostar 10 tokens, och du kan erbjuda specialpriser för förstagångsköpare. Standardspelet är Wheel of Fortune, men du kan anpassa det för att passa din butiks layout."
+    },
+    "empty_prize_list": "Skapa och hantera priser här..."
   },
   "lottery_edit": {
     "title_edit": "Redigera lotteriobjekt",
@@ -3828,7 +4284,10 @@ export default {
     "chance_message": "Vinstchans i procent",
     "free_for_first": "Är det gratis för nya kunder?",
     "free_for_first_message": "Nya kunder kan vinna denna vara.",
-    "prize": "Pris",
+    "prize": {
+      "title": "Pris",
+      "subtitle": "Ställ in prisinformationen här. Alternativen inkluderar rabattkoder, presentkort, krediter och andra rabatter som lotteribelöningar."
+    },
     "amount": "Prissumma",
     "amount_hint": "Användare vinner detta avgiftsbelopp för sin beställning.",
     "currency_message": "Valuta för denna artikel. Övriga valutor omräknas efter växelkurs.",
@@ -3841,6 +4300,20 @@ export default {
     "notifications": {
       "add": "Nytt lotteriobjekt skapat framgångsrikt.",
       "edit": "Lotteriobjekt har ändrats."
+    },
+    "not_free_for_first_message": "Detta pris är inte tillgängligt för första gratisspel.",
+    "config": {
+      "subtitle": "Här kan du skapa din butiks lotterivinster. Ställ in titel, beskrivning, färg och bild för varje pris."
+    },
+    "design": {
+      "subtitle": "Här har du möjlighet att välja bild och färg för priset."
+    },
+    "constraints": {
+      "subtitle": "Specificera kriterierna och begränsningarna för att vinna detta pris."
+    },
+    "product_input": {
+      "label": "Produktpris",
+      "message": "Välj en produkt för pris (är gratis)"
     }
   },
   "gift_card_types_list": {
@@ -4302,7 +4775,9 @@ export default {
     },
     "dialog_club": {
       "title": "Ställ in kundklubbsnivå"
-    }
+    },
+    "subtitle": "Kunder kan läggas till i din butik på flera sätt; manuellt, massimport av Excel, via POS eller via din onlinebutik. Närhelst en användare loggar in i din butik kommer de automatiskt att registreras som kund.",
+    "add_customer_action": "Lägg till ny kund"
   },
   "app_dashboard": {
     "status": "Publiceringsstatus",
@@ -4405,7 +4880,11 @@ export default {
     "option_deliver_by_courier": "Alternativ 1: Leverera med dina bud.",
     "option_add_to_que": "Alternativ 2: Lägg till i kö för att bearbeta på frakttjänstsidan.",
     "option_instant_shipping": "Alternativ 3: Omedelbar leverans.",
-    "pickup_action": "Upphämtningsbekräftelse"
+    "pickup_action": "Upphämtningsbekräftelse",
+    "courier_action": "Leveransbekräftelse",
+    "courier_action_subtitle": "Min kurir hämtar paketet.",
+    "pickup_action_subtitle": "Kunden hämtade beställningen.",
+    "service_action": "Utförandebekräftelse"
   },
   "shop_home_edit": {
     "title": "Inställning av startsida",
@@ -4431,7 +4910,8 @@ export default {
     "officer": "Officer",
     "amount": "Beloppstransaktion",
     "note": "Notera",
-    "date": "Datum"
+    "date": "Datum",
+    "subtitle": "Det är listan över uttagstransaktioner. När du överför pengar från hänvisningsplånbok till ditt bankkonto eller din Selldone-plånbok, kommer det att listas här."
   },
   "widget_shop_gateway": {
     "link_account_caution": "Länka ett konto ({currency}) till din butik! Klicka här.."
@@ -4720,11 +5200,89 @@ export default {
   "shop_sms": {
     "title": "Hantera SMS",
     "sub_title": "SMS-mallar skickade till kunder",
-    "message": "Du kan se innehållet i de sms som din butik skickar här. På grund av begränsningen i att registrera valideringsmönstren i meddelandetjänsten är det inte möjligt att anpassa textmeddelandena för tillfället."
+    "message": "Du kan se innehållet i de sms som din butik skickar här. På grund av begränsningen i att registrera valideringsmönstren i meddelandetjänsten är det inte möjligt att anpassa textmeddelandena för tillfället.",
+    "tabs": {
+      "templates": "Mallar",
+      "provider": "Leverantör"
+    },
+    "manage": {
+      "title": "Hantera SMS",
+      "subtitle": "Du kan se innehållet i de sms som din butik skickar här. På grund av begränsningen i att registrera valideringsmönstren i meddelandetjänsten är det inte möjligt att anpassa textmeddelandena för tillfället."
+    },
+    "template": {
+      "title": "Mallar",
+      "valid_message": "Du kan skapa anpassade SMS-meddelanden.",
+      "provider_not_enable_message": "SMS-leverantören är inte aktiverad!",
+      "need_custom_provider_message": "Anpassade SMS-meddelanden fungerar bara om du ställer in en anpassad leverantör.",
+      "add_new": "Lägg till ny",
+      "disable_reason": {
+        "set_provider": "Ställ in din leverantör först!",
+        "provider_is_disabled": "Leverantören är inaktiverad!",
+        "otp": "OTP - Ingen anpassningsbar!",
+        "select_another_provider": "Välj en annan leverantör."
+      },
+      "enable_only_filter": "Visa endast aktiverat",
+      "text_template_not_supported_msg": "Din leverantör stöder inte vanliga textmeddelanden.",
+      "structure_template_not_supported_msg": "Din leverantör stöder inte strukturella meddelanden.",
+      "structured_data": "Strukturerad data",
+      "menu": {
+        "reset_error": "Återställ fel",
+        "send_test": "Skicka testmeddelande"
+      }
+    },
+    "template_edit": {
+      "title_add": "Lägg till ny meddelandemall",
+      "title_edit": "Redigera meddelandemall",
+      "config": {
+        "title": "Meddelande Konfig",
+        "subtitle": "Du kan skapa en mall för SMS-meddelandet på din SMS-leverantörs webbplats och ange sedan dess kod och datastruktur här. Vi vidarebefordrar denna information till din leverantör, där själva SMS-meddelandet kommer att genereras.",
+        "code": "Koda",
+        "language_msg": "Lämna den tom för att ställa in den som standard.",
+        "enable_msg": "Denna mall kommer att användas för att skapa meddelanden."
+      },
+      "text": {
+        "title": "Vanlig text",
+        "subtitle": "Ange ett personligt SMS-meddelande här. Dynamiska värden kommer att ersättas med deras faktiska värden innan de skickas till användaren.",
+        "message": "Meddelande",
+        "reset_to_default": "Återställ till standard",
+        "auto_fill": {
+          "title": "Autofyll parametrar",
+          "subtitle": "Du kan använda var och en av dessa parametrar i texten och Selldone kommer att ersätta dem med motsvarande värde."
+        },
+        "sample": {
+          "title": "Exempelmeddelande"
+        }
+      },
+      "template": {
+        "title": "Strukturell mall",
+        "subtitle": "Du kan ställa in mallens nyckel och värde här. Mallkoden ska vara exakt vad du ställer in i din SMS-tjänstleverantör, och <code>key</code> är vad din leverantör vill skicka koden genom. Om <code>value</code> för mallen är tomt, kommer <code>{code}</code> att betraktas som mallkoden.",
+        "add_new_parameter": "Lägg till ny parameter",
+        "auto_fill": {
+          "title": "Autofyll parametrar",
+          "subtitle": "Du kan ställa in var och en av dessa parametrar som ett värde, och Selldone kommer att ersätta dem med motsvarande värde. Det är bättre att definiera standardvärdena som mallar i din SMS-leverantör för enkelhetens skull. I det här fallet behöver du inte definiera parametervärden här."
+        },
+        "request": {
+          "title": "Exempel på nyttolast"
+        },
+        "sample": {
+          "title": "Exempel på mallmeddelande",
+          "subtitle": "Du kan kopiera och klistra in den här mallen till din SMS-leverantör."
+        },
+        "add_message_action": "Lägg till meddelandemall"
+      }
+    }
   },
   "shop_emails": {
     "title": "Hantera e-postmeddelanden",
-    "sub_title": "Du kommer att se listan över e-postmeddelanden som skickas av butiken till kunder och chefer i det här avsnittet. E-postmeddelanden designas och skapas automatiskt baserat på den information du har angett för din butik. Möjligheten att anpassa meddelanden och bilder kommer också att vara tillgänglig för allmänheten i framtiden."
+    "sub_title": "Du kommer att se listan över e-postmeddelanden som skickas av butiken till kunder och chefer i det här avsnittet. E-postmeddelanden designas och skapas automatiskt baserat på den information du har angett för din butik. Möjligheten att anpassa meddelanden och bilder kommer också att vara tillgänglig för allmänheten i framtiden.",
+    "tabs": {
+      "preferences": "Inställningar",
+      "templates": "Mallar",
+      "provider": "Leverantör"
+    },
+    "preferences": {
+      "title": "E-postmeddelanden"
+    }
   },
   "instagram": {
     "title": "Försäljning på Instagram",
@@ -4914,7 +5472,13 @@ export default {
     },
     "notifications": {
       "delete_success": "Filen har raderats."
-    }
+    },
+    "drag_sort_msg": "Du kan dra och sortera filer.",
+    "paid_mode_msg": "Användare kan ladda ner den först efter att ha köpt produkten.",
+    "free_mode_msg": "Användare kan ladda ner det gratis. Exempelfiler måste vara mindre än 50 MB.",
+    "has_gust_shopping_msg": "Registrerade och gästanvändare kan ladda ner filer eftersom gästköp är aktiverade i butikens inställningar > flöde.",
+    "only_registered_shopping_msg": "Endast registrerade användare kan ladda ner exempelfiler.",
+    "file_count_limit": "Gräns för antal filer"
   },
   "notification_top_bar": {
     "free_charge": "🎊 Debitera {amount} och få {amount_total} i kredit.",
@@ -4926,7 +5490,20 @@ export default {
   },
   "selldone_applications": {
     "title": "Missa inte dina beställningar!",
-    "msg": "Hantera ditt företag var som helst och när som helst."
+    "msg": "Hantera ditt företag var som helst och när som helst.",
+    "scan_qr_code": "Skanna mig med din telefon!",
+    "notification": {
+      "title": "Underrättelse",
+      "subtitle": "Få meddelande om nya beställningar."
+    },
+    "order": {
+      "title": "Order",
+      "subtitle": "Se dina beställningar och hantera dem."
+    },
+    "product": {
+      "title": "Produkter",
+      "subtitle": "Lagerhantering och produkt vanligt."
+    }
   },
   "shop_seo": {
     "title": "SEO-konfiguration",
@@ -4995,7 +5572,16 @@ export default {
   },
   "shops_list": {
     "title": "Mina affärer",
-    "message": "Lista över mina egna butiker, tillåtna och provbutiker."
+    "message": "Lista över mina egna butiker, tillåtna och provbutiker.",
+    "sample": {
+      "title": "Exempelbutiker",
+      "subtitle": "Här kan du upptäcka ett urval av provbutiker. Du får tillstånd att ta del av informationen som finns tillgänglig i dessa butiker. Men vänligen avstå från att logga in eller göra beställningar med riktig personlig information, eftersom denna information kommer att vara tillgänglig för allmänheten. Om du av misstag anger din information här, vänligen lämna butiken och kontakta oss för ytterligare hjälp."
+    },
+    "add_new_store": "Lägg till ny butik",
+    "i_have_a_deal": "Jag har ett avtal",
+    "access": {
+      "title": "Åtkomstinbjudan"
+    }
   },
   "shipping": {
     "warehouse_error": "Ställ in ditt lager först! Denna adress kommer att användas som ursprung för frakt.",
@@ -5025,7 +5611,8 @@ export default {
       "delete_action": "Ta bort kategori",
       "add_action": "Lägg till Kategori",
       "edit_action": "Redigera kategori"
-    }
+    },
+    "subtitle": "Du kan skapa ett begränsat antal kategorier för dina blogginlägg för att hantera dem mer effektivt. Att ha en kategorigräns främjar bättre organisation på din webbplats. Noterbart är att även de främsta nyhetsbyråerna har ett begränsat antal kategorier, ofta färre än 100, för att effektivisera hanteringen och behålla ett bredare fokus."
   },
   "about_us": {
     "title": "Om oss sida",
@@ -5063,7 +5650,8 @@ export default {
       "title": "Paketetiketter",
       "subtitle": "Ladda ner listan över alla beställningsetiketter i den valda tidsperioden och statusen. Resultatet innehåller endast betalda och efterkravsbeställningar.",
       "export_title": "Kartongetiketter"
-    }
+    },
+    "subtitle": "Exportera och ladda ner etiketter för bulkorderhantering - perfekt för att hantera över 100 beställningar dagligen."
   },
   "customers_funnel": {
     "title": "Kundernas demografi",
@@ -5782,6 +6370,1759 @@ export default {
         "Lyckohjulet snurrar – fånga ditt lyckliga pris!",
         "Snurra, vinn och le – överraska belöningar för varje tur.",
         "Ta en snurr och låt förmögenheten avgöra ditt pris!"
+      ]
+    },
+    "subscription_price": {
+      "title": [
+        "Grundläggande åtkomst",
+        "Premiummedlemskap",
+        "Guldpaket",
+        "Silverplan",
+        "Platinaabonnemang",
+        "Enterprise Tier",
+        "Startpaket",
+        "Obegränsat erbjudande",
+        "Familjepaket",
+        "Professionell svit"
+      ],
+      "description": [
+        "Idealisk för individer som utforskar grunderna.",
+        "Tillgång till alla premiumfunktioner och innehåll.",
+        "Exklusiva förmåner och prioriterat stöd.",
+        "Ett balanserat paket för vanliga användare.",
+        "Ultimat åtkomst med förmåner på toppnivå.",
+        "Skräddarsydda lösningar för stora organisationer.",
+        "Ett prisvärt instegsalternativ.",
+        "Inga begränsningar för användning, för den avancerade användaren.",
+        "En speciell plan för familjer, upp till 4 medlemmar.",
+        "Designad för proffs som söker avancerade verktyg."
+      ]
+    },
+    "spec": {
+      "group": [
+        "Tekniska specifikationer",
+        "Fysiska dimensioner",
+        "Prestandafunktioner",
+        "Anslutningsalternativ",
+        "Strömkrav",
+        "Material och byggkvalitet",
+        "Färg- och finishalternativ",
+        "Lagring och minne",
+        "Operativsystemkompatibilitet",
+        "Säkerhet och efterlevnad",
+        "Paketets innehåll",
+        "Garanti och support",
+        "Varumärke och tillverkare",
+        "Miljövänlighet",
+        "Energieffektivitet",
+        "Skötsel och underhåll",
+        "Anpassningsalternativ",
+        "Tillbehör som ingår",
+        "Användarbetyg och recensioner",
+        "Prissättning och tillgänglighet"
+      ]
+    },
+    "avocado": {
+      "title": [
+        "Inköpskvitto",
+        "Försäljningsbekräftelse",
+        "Beställningsfaktura",
+        "Betalningsfaktura",
+        "Kundkvitto",
+        "Transaktionssammanfattning",
+        "Faktureringsutdrag",
+        "Kassa kvitto",
+        "Beställningssammanfattning",
+        "Inköpsorderfaktura",
+        "Försäljningskvitto",
+        "Detaljhandelsfaktura",
+        "E-kvitto",
+        "Servicefaktura",
+        "Produktfaktura",
+        "Betalningskvitto",
+        "Orderbekräftelse",
+        "Fakturering",
+        "Kassafaktura",
+        "Kundfaktura"
+      ],
+      "message": [
+        "Tack för ditt köp!",
+        "Vi uppskattar din verksamhet.",
+        "Din beställning är på väg!",
+        "Tack för att du handlar hos oss.",
+        "Ser fram emot att tjäna dig igen.",
+        "Din tillfredsställelse är vår högsta prioritet.",
+        "Glöm inte att betygsätta din upplevelse.",
+        "Tack för att du stöttar vår butik.",
+        "Vi hoppas att du gillar ditt nya köp!",
+        "Spara din faktura för framtida referens.",
+        "Besök oss igen för fler bra produkter.",
+        "Håll kontakten för exklusiva erbjudanden.",
+        "Tack för att du är en uppskattad kund.",
+        "Vi finns här för att hjälpa dig om du behöver hjälp.",
+        "Din feedback hjälper oss att förbättra oss.",
+        "Få en speciell rabatt på ditt nästa köp.",
+        "Du har gjort ett bra val!",
+        "Tack för ditt förtroende för oss.",
+        "Ser fram emot din feedback.",
+        "Ett hjärtligt tack från vårt team."
+      ]
+    },
+    "map_tag": {
+      "title": [
+        "Fastighetsutställning",
+        "Försäljare Plaza",
+        "Utvalda hem",
+        "Lokal marknad",
+        "Nyankomna",
+        "Estate Gardens",
+        "Shoppingdistrikt",
+        "Artisan Alley",
+        "Lyxiga fastigheter",
+        "Uthyrningsnav",
+        "Öppet hus",
+        "Tekniska innovationer",
+        "Fashion Lane",
+        "Hantverkshörna",
+        "Food Court",
+        "Boknook",
+        "Smycken Junction",
+        "Antik Avenue",
+        "Fitness Zone"
+      ]
+    },
+    "marketplace_document": {
+      "title": [
+        "Företagsregistreringsbevis",
+        "Tax Identification Number (TIN)",
+        "Leverantörsavtalsformulär",
+        "Produktkatalog",
+        "Prislista",
+        "Bankkontouppgifter",
+        "Adressbevis",
+        "Försäkringsbevis",
+        "Företagsprofil",
+        "Kvalitetssäkringscertifikat",
+        "Säkerhetsdatablad (SDS)",
+        "Produktgarantiinformation",
+        "Returpolicy",
+        "Leverans- och hanteringsrutiner",
+        "Kundtjänstpolicy",
+        "Marknadsföring och marknadsföringsplaner",
+        "Länkar till sociala medier",
+        "Handelsreferenser",
+        "Uppförandekod för leverantörer",
+        "Sekretessavtal (NDA)"
+      ]
+    },
+    "expert_contract": {
+      "title": [
+        "Marknadsplatsinstallationstjänstavtal",
+        "Affärskonfigurationskontrakt",
+        "Print-on-Demand-tjänstavtal",
+        "Serviceavtal för digital marknadsföring",
+        "Installationsavtal för e-handelsplattform",
+        "Expertkonsultavtal för företagare",
+        "Serviceavtal för Marketplace Configuration",
+        "Kontrakt för butiksinställning och konfigurationstjänster",
+        "POD Service Provision Agreement",
+        "Implementeringsavtal för marknadsföringsstrategi",
+        "Serviceavtal för affärsutveckling",
+        "Konfigurationsavtal för e-handel",
+        "Expertserviceavtal",
+        "Affärslösningar och installationsavtal",
+        "Serviceavtal för anpassad butiksinstallation",
+        "Serviceavtal för marknadsplatsoptimering",
+        "Konsult- och installationsavtal",
+        "POD Integration Services Agreement",
+        "Avtal om marknadsföring och marknadsföring",
+        "Serviceavtal för affärsexpansion"
+      ]
+    },
+    "account": {
+      "account_name": [
+        "Huvudplånbok",
+        "Företagskonto",
+        "Personlig plånbok",
+        "Sparplånbok",
+        "Utgiftskonto",
+        "Primär plånbok",
+        "Allmänt konto",
+        "Reservplånbok",
+        "Transaktionsplånbok",
+        "Fondkonto"
+      ]
+    },
+    "cashback": {
+      "title": [
+        "Handla och tjäna pengar",
+        "Lojalitetsbelöningar Cashback",
+        "Exklusiva Cashback-erbjudanden",
+        "Cashback Bonanza",
+        "Omedelbar cashback-erbjudanden",
+        "Säsongsbetonade Cashback-besparingar",
+        "Dubbla Cashback-dagar",
+        "Cashback vid varje köp",
+        "Cashback Frenzy",
+        "VIP Cashback-program",
+        "Tidsbegränsad Cashback",
+        "Cashback Rewards Club",
+        "Handla mer, spara mer",
+        "Ultimata Cashback-belöningar",
+        "Cashback Extravaganza"
+      ],
+      "description": [
+        "Tjäna cashback på varje köp!",
+        "Bli belönad för din lojalitet.",
+        "Exklusiva cashback-erbjudanden bara för dig.",
+        "Njut av fantastiska besparingar med cashback-belöningar.",
+        "Omedelbar cashback på alla dina favoritartiklar.",
+        "Spara mer med säsongsbetonade cashback-erbjudanden.",
+        "Dubbla din cashback på speciella dagar!",
+        "Tjäna cashback varje gång du handlar.",
+        "Gå med i cashback-frenzyn idag!",
+        "VIP-medlemmar får exklusiv cashback.",
+        "Skynda! Tidsbegränsade cashback-erbjudanden.",
+        "Gå med i vår Cashback Rewards Club nu.",
+        "Ju mer du handlar, desto mer sparar du.",
+        "Lås upp de ultimata cashback-belöningarna.",
+        "Upplev de bästa cashback-erbjudandena som finns."
+      ]
+    },
+    "page": {
+      "prompts": [
+        "Välkommen till {shop} – Utforska vårt distinkta utbud av artiklar",
+        "{shop} – Din ultimata källa för kvalitetsprodukter och enastående service",
+        "Exklusiva erbjudanden och besparingar endast hos {shop} - Ta chansen!",
+        "Lär känna {shop}s engagemang för miljövänlighet och etiska metoder",
+        "Bli en del av {shop}-familjen – Prenumerera på vårt nyhetsbrev för uppdateringar",
+        "Dyk in i toppval och högt rankade varor på {shop}",
+        "Presentera idéer och kreativa förslag för alla evenemang på {shop}",
+        "Oöverträffade erbjudanden och tidskänsliga specialerbjudanden på {shop} – agera snabbt!",
+        "{shop}s omfattande köptips och produktutvärderingar – Handla med tillförsikt",
+        "Kontakta {shop} – vi strävar efter att leverera en oöverträffad shoppingupplevelse"
+      ]
+    },
+    "cross_selling": {
+      "message": [
+        "Komplettera din look, ta tag i setet!",
+        "Spara stort med våra paketerbjudanden!",
+        "Missa inte våra perfekta par!",
+        "Förbättra ditt köp, tillägg väntar!",
+        "Lås upp exklusiva besparingar, köp tillsammans!",
+        "Kompletterande varor, specialrabatter!",
+        "Få mer, spendera mindre – samla ihop!",
+        "Tidsbegränsat erbjudande: matchade produkter!",
+        "Uppgradera din upplevelse, kombinationserbjudanden!",
+        "Upptäck våra utvalda kombinationer, spara nu!",
+        "Para ihop det för den ultimata kombon!",
+        "Handla smart, paketera och spara!",
+        "Dubbelt värde, dubbelt så roligt!",
+        "Din perfekta matchning är här – shoppa nu!",
+        "Exklusivt paketpris just för dig!",
+        "Maximera dina besparingar med våra kombinationer!",
+        "Förbättra din samling med dessa val!",
+        "Sammanställt för dig: matcha och spara!",
+        "Det perfekta paret för en perfekt dag!",
+        "Bunta dina favoriter för extra besparingar!"
+      ]
+    }
+  },
+  "ai": {
+    "remove_bg": {
+      "title": "Ta bort bakgrund",
+      "subtitle": "Skapa transparent bakgrund."
+    },
+    "reimagine": {
+      "title": "Föreställ dig om",
+      "subtitle": "Skapa fler bilder med nya bakgrunder."
+    }
+  },
+  "extra_pricing_add_dialog": {
+    "title": "Extrapris för över {min}",
+    "subtitle": "Systemet bestämmer automatiskt ordning och prioritet för prisberäkning. Ange den minsta mängd som krävs för att denna prissättning ska börja gälla.",
+    "min_quantity": "Minsta kvantitet"
+  },
+  "product_inventory_management_physical": {
+    "subtitle": {
+      "dropshipping": "Lager för dropshipping-produkter ställs in av grossister och kan inte ändras här.",
+      "marketplace": "Det övergripande produktlagret på marknaden bestäms genom att lägga ihop lagren för alla leverantörer. Du kan inte ändra det här.",
+      "default": "Ange produktens lagerantal här."
+    }
+  },
+  "google_product_category_input": {
+    "label": "Googles produktkategorikod",
+    "hint": "Representerar kategorin för din produkt enligt Googles produktklassificering.",
+    "placeholder": "Ange produkt- eller tjänstkategori. (Valfritt)"
+  },
+  "LogisticProfileType": {
+    "WARRANTY": {
+      "title": "Garanti",
+      "desc": "En garanti är en del av ett kontrakt där tillverkaren lovar att reparera eller byta ut en produkt inom en angiven period. Detta åtagande kan sträcka sig även till konsumenter som inte har ett direkt avtal med tillverkaren."
+    },
+    "RETURN_POLICY": {
+      "title": "Returpolicy",
+      "desc": "Returpolicyer beskriver hur kunder kan returnera eller byta oönskade varor. De anger kvalificerade varor, acceptabla skäl för returer och tidsramen för att göra returer."
+    },
+    "GUIDE": {
+      "title": "Guide",
+      "desc": "En guide kan innehålla en storlekstabell för kläder eller en urvalsguide för diamanter. Det är viktigt att guiderna är mångsidiga och tillämpliga på flera produkter."
+    },
+    "SHIPPING": {
+      "title": "Frakt",
+      "desc": "En fraktpolicy beskriver de viktigaste aspekterna av frakt för onlinebeställningar, inklusive fraktkostnader, metoder och beräknade leveranstider."
+    }
+  },
+  "product_logistic_profile": {
+    "dialog": {
+      "title": "Välj logistikprofil",
+      "add_new_action": "Lägg till ny profil",
+      "add_new_disable_msg": "Marknadsplatsägare"
+    }
+  },
+  "product_tax_profile": {
+    "description": {
+      "default": "Standard",
+      "dedicated": "Hängiven",
+      "subscription": "Vi kan tillämpa skatt endast på steget att skapa betalningar.",
+      "is_disabled": "Denna skatteprofil är inaktiverad! (⚠️Varning)",
+      "shipping": "Frakt",
+      "fixed_rate": "TAX",
+      "location_based_rate": "Skatt: Platsbaserad",
+      "shipping_location_based_rate": "Frakt: Platsbaserad",
+      "include_in_price": "Ingår i priset"
+    },
+    "dialog": {
+      "header": "Välj skatteprofil",
+      "title": "Skatteprofil",
+      "subtitle": "Du kan tilldela produkten särskilda skatteregler. Skulle en skatteprofil inte väljas för produkten, kommer standardbutiksskattereglerna att tillämpas.",
+      "action_manage": "Hantera skatt",
+      "action_manage_sub": "Butik > Finans > Skatt",
+      "subscription_tips": "När du väljer en skatteprofil för prenumerationsprodukt uppdaterar vi <code>tax code</code> och ställer in inklusive/exklusivt läge på din betaltjänstleverantör. Den valda skatteprofilen anger om priset anses vara inklusive skatter eller exklusive skatter. En av <code>inclusive</code> eller <code>exclusive</code> . När den väl har angetts som antingen inkluderande eller exklusiv, kan den inte ändras.<br /><br /> <b>Viktig!</b> Efter att ha ändrat skatteprofilen bör du klicka på prisplaner på fliken Produkt > Lager och klicka på knappen Spara för att tillämpa ändringar."
+    }
+  },
+  "product_vendor_profile": {
+    "vendor": {
+      "subtitle": "Priset och kvantiteten för denna produkt bestäms av en viss leverantör som den tillhör."
+    },
+    "vendors": {
+      "subtitle": "Här är en lista över leverantörer för produkten. Kvantiteten och priset bestäms av leverantörerna."
+    }
+  },
+  "vendor_add": {
+    "profile": {
+      "title": "Leverantörsinformation",
+      "subtitle": "Denna information visas för kunderna offentligt.",
+      "action_sub_caption": "Offentlig produktlista sida.",
+      "action_see_listing_page": "Se listningssidan"
+    },
+    "page": {
+      "title": "Anpassad sida",
+      "subtitle": "Ställ in en anpassad målsida för leverantören och ge dem en unik länk till sin dedikerade sida.",
+      "action_set_page": "Se offentlig sida",
+      "action_sub_caption": "Anpassad målsida.",
+      "vendor_has_landing_msg": "Säljaren har en anpassad målsida.",
+      "no_landing_selected_msg": "Ingen målsida har valts.",
+      "no_landing_page": "Ingen målsida",
+      "we_can_create_dedicated_landing_msg": "Vi kan skapa en dedikerad målsida åt dig."
+    },
+    "contact": {
+      "title": "Kontaktinformation",
+      "subtitle": "Vänligen ange giltiga kontaktuppgifter."
+    },
+    "business": {
+      "title": "Företagsinformation",
+      "subtitle": "Ange korrekt information om ditt företag för att säkerställa en snabb och sömlös intäktsinsamlingsprocess."
+    },
+    "bank": {
+      "title": "Utbetalningsinformation",
+      "subtitle": "Ange dina bankuppgifter här för utbetalningar."
+    },
+    "default_pricing": {
+      "title": "Standardprissättning",
+      "subtitle": "Du kan tilldela en standardprismodell för leverantören. När leverantören lägger till en ny produkt kommer denna prismodell att användas för att beräkna marknadsplatsmarginalen på produktens pris. Du kan senare justera prismodellen för varje produkt individuellt.",
+      "no_pricing": "Ingen prissättning"
+    },
+    "shipping": {
+      "title": "Frakt",
+      "subtitle": "Säljare kan ställa in sina egna frakttjänster och bud.",
+      "shipping_services": "Frakttjänster",
+      "total_number_of_services": "Det totala antalet frakttjänster som leverantören har.",
+      "couriers": "Kurirer",
+      "total_couriers_count": "Det totala antalet bud som säljaren har."
+    },
+    "configuration": {
+      "title": "Konfiguration"
+    },
+    "delete": {
+      "title": "Ta bort leverantören",
+      "action": "Ta bort leverantören",
+      "verify_description": "Jag vet att alla leverantörsproduktrelationer kommer att tas bort!",
+      "verify_title": "Jag vill ta bort den här leverantören."
+    },
+    "send_invitation_tips": "Vi kommer att skicka en inbjudan via e-post till denna användare. Om användaren ansluter sig till din butik som en leverantör kommer deras konto automatiskt att tilldelas dem.",
+    "only_marketplace_owner_can_edit_user": "Endast marknadsplatsägaren kan redigera användaren. Om du vill byta ägare till denna leverantör kan du skicka förfrågan till oss.",
+    "vendor_is_disable_msg": "Säljaren är inaktiverad.",
+    "email_not_match_with_user_msg": "Angiven e-post stämmer inte överens med användarens e-post ( <b>{user_name}:</b> {user_email}). Är du säker på att du skickar e-postmeddelanden till <b>{email}</b> ?",
+    "we_will_send_invitation_to_user_msg": "Vi kommer att skicka en inbjudan via e-post till användaren.",
+    "set_a_user_for_the_vendor_first_msg": "Ange först en användare för leverantören.",
+    "inputs": {
+      "slug": {
+        "label": "Väg",
+        "placeholder": "Ange en anpassad sökväg...",
+        "hint": "Ändra sökvägen till leverantörens dynamiska målsida."
+      },
+      "email": {
+        "message": "Detta e-postmeddelande kommer att ta emot alla meddelanden och uppdateringar."
+      },
+      "business": {
+        "false_description": "Jag arbetar som individ.",
+        "true_description": "Jag verkar som en juridiskt erkänd affärsenhet.",
+        "false_title": "Enskild",
+        "true_title": "Företag"
+      },
+      "bank": {
+        "hint": "Namnet på banken där säljaren har sitt konto.",
+        "placeholder": "Ditt banknamn.."
+      },
+      "account_name": {
+        "hint": "Detta bör matcha namnet som är kopplat till bankkontot.",
+        "placeholder": "Ditt namn.."
+      },
+      "account_number": {
+        "hint": "Säljarens unika kontonummer.",
+        "placeholder": "Ditt bankkontonummer.."
+      },
+      "routing_number": {
+        "hint": "Detta antal varierar beroende på land. Det används för att identifiera det specifika bankkontor som säljaren använder.",
+        "placeholder": "Ditt banknummer, sorteringskod eller BSB-nummer."
+      },
+      "iban": {
+        "hint": "Internationellt bankkontonummer): Om säljarens bank finns i Europa eller vissa andra länder.",
+        "placeholder": "Ditt IBAN-nummer... t.ex. DE89 3704 0044 0000 0000 00"
+      },
+      "swift": {
+        "hint": "Internationellt bankkontonummer): Om säljarens bank finns i Europa eller vissa andra länder.",
+        "placeholder": "Din Swift-kod/BIC.."
+      },
+      "branch_address": {
+        "hint": "Adressen till bankkontoret där säljaren har sitt konto.",
+        "placeholder": "Din bankadress.."
+      },
+      "enable": {
+        "label": "Leverantörsstatus",
+        "hint": "Du kan aktivera eller inaktivera leverantörer globalt. Kunder kommer inte att kunna köpa något från funktionshindrade leverantörer.",
+        "true_description": "De kommer att kunna sälja sina produkter via din marknadsplats."
+      },
+      "access": {
+        "label": "Leverantörspanel och åtkomst",
+        "true_description": "Säljaren har en dedikerad panel för att uppdatera kvantitet och pris.",
+        "hint": "Du kan aktivera eller inaktivera leverantörspanelen, som gör att leverantörer kan uppdatera produktkvantiteter och priser och ta emot delordrar.",
+        "false_description": "Säljaren har ingen tillgång till någonting."
+      }
+    }
+  },
+  "vendor_documents_list": {
+    "title": "Dokument",
+    "action_upload_doc": "Ladda upp dokument",
+    "vendor_subtitle": "Ladda upp de nödvändiga dokumenten för företags-, IP- och adressverifiering. Vi behöver denna information för att bekräfta ditt partnerskap och ge dig nödvändig åtkomst.",
+    "marketplace_subtitle": "Säljare kan skicka in dokument som affärer, immateriella rättigheter och adressverifiering för att underlätta deras KYC-process, så att du kan ge dem rätt åtkomst.",
+    "upload_dialog": {
+      "title": "Ladda upp dokument",
+      "type": {
+        "title": "Dokumenttyp",
+        "subtitle": "Ladda bara upp de nödvändiga dokumenten. Undvik att dela dokument som innehåller känslig information. Vi begär handlingar som är allmänt tillgängliga."
+      }
+    }
+  },
+  "product_badges": {
+    "title": "Märken",
+    "subtitle": "Lägg till och redigera anpassade produktmärken.",
+    "only_marketplace_owner_msg": "Endast marknadsplatsägare",
+    "create_new_badge_action": "Skapa nytt märke",
+    "select_a_badge": "Välj ett märke...",
+    "inputs": {
+      "custom": {
+        "false_description": "Produktmärken skapas automatiskt.",
+        "false_title": "Bil",
+        "true_title": "Märken för anpassade produkter",
+        "true_description": "Lägg till anpassade märken på produktsidan."
+      }
+    },
+    "add_custom_badge": {
+      "title": "Anpassat märke",
+      "subtitle": "Lägg till ett nytt anpassat märke i min butik. Håll märken räknas under 10. Fler märken skulle sakta ner din butik.",
+      "show_advanced_options": "Visa avancerat alternativ",
+      "inputs": {
+        "title": {
+          "placeholder": "Offentlig titel..."
+        },
+        "image": {
+          "label": "bild",
+          "message": "Max bildstorlek: 128KB",
+          "placeholder": "Välj en omslagsbild"
+        },
+        "pattern": {
+          "label": "Mönster",
+          "message": "Visa automatiskt det här märket för produkter som har detta matchade värde i specifikationen. Regex stöds.",
+          "placeholder": "För att visa för alla produkter skriv: *.*"
+        }
+      },
+      "notifications": {
+        "badge_added": "Märket har lagts till!",
+        "badge_updated": "Märket har uppdaterats framgångsrikt!",
+        "item_not_found_error": "Objektet kunde inte hittas. Uppdatera sidan eller kontakta supporten."
+      }
+    }
+  },
+  "product_tags": {
+    "title": "Taggar",
+    "tips": [
+      "Du kan filtrera produkter baserat på taggar på <b>målsidor</b> .",
+      "Du och dina kunder kan söka efter dessa taggar i <b>sökfältet</b> .",
+      "Om du ställer in taggar kommer endast produkter med de <b>vanliga taggarna</b> att visas i <b>sektionen för relaterade produkter</b> på produktsidan; annars kommer produkter i samma kategori att visas."
+    ],
+    "inputs": {
+      "tags": {
+        "placeholder": "Dra taggar här och tryck på enter. ex. ny kollektion"
+      }
+    },
+    "notifications": {
+      "tags_updated": "Taggarna har uppdaterats."
+    }
+  },
+  "vendor_shipping_services": {
+    "title": "Frakt",
+    "subtitle": "Du kan lägga till frakttjänster och bud här. Frakttjänsterna och kurirerna bör vara under fördefinierade transportmetoder som definieras av marknaden. Genom att lägga till frakttjänster och kurirer kan du enkelt tilldela beställningar till dem och automatiskt beställa etiketter eller kurirer.",
+    "action": "Lägg till tjänst",
+    "add_dialog": {
+      "select_method": "Välj Metod",
+      "select_method_msg": "Välj en transportmetod från följande lista. Fraktmetoder definieras av marknadsplatsen.",
+      "select_service_msg": "Välj en frakttjänst från listan nedan. Endast de tillgängliga tjänster som kan läggas till din butik visas här.",
+      "no_available_service": "Ingen tillgänglig tjänst!"
+    }
+  },
+  "product_location_profile": {
+    "title": "Plats",
+    "empty_subtitle": "Tilldela en plats till produkten om det är en platsbaserad artikel.",
+    "dialog": {
+      "header": "Välj platsprofil",
+      "action_new_location": "Lägg till ny plats",
+      "title": "Platsprofil",
+      "subtitle": "Du kan fästa produkter på kartplatsen genom att tilldela platstaggar till produkterna.",
+      "tips": "<b>Viktigt:</b> Tilldela <b>endast</b> en plats till produkten om du vill visa produkten på den specifika platsen på kartan. Den pinade produkten måste ha platsen som sin huvudsakliga specifikation, som <b>uthyrning av bostäder/ställen</b> eller personliga tjänster som <b>frisör och spa</b> ."
+    }
+  },
+  "translation_button": {
+    "header": "Flerspråkig",
+    "auto_action": "Översätt automatiskt",
+    "premium_user_only": "Premium-användare"
+  },
+  "product_include_profile": {
+    "subtitle": "Inkludera en lista över artiklar som följer med produkten eller tjänstepaketet.",
+    "dialog": {
+      "header": "Produktpaketföremål",
+      "title": "Inkluderade föremål",
+      "subtitle": "Detta är en sammanställning av artiklar som följer med produkten.",
+      "action_manage": "Hantera objekt",
+      "action_disable_msg": "Marknadsplatsägare",
+      "select_items_tips": "Skapa eller välj paketkomponenter som följer med produkten eller tjänsten. Använd den här funktionen för att betona vad kunder kan förvänta sig att få när de köper varan. Vi rekommenderar att du använder denna funktion endast när det är avgörande för kunden att förstå innehållet som ingår, till exempel när du köper en smartphone.",
+      "create_item_tips": "Alternativt kan du inkludera ett nytt objekt. Använd kvadratiska bilder, eftersom vi automatiskt kommer att ändra storlek på uppladdade bilder till ett 256x256 kvadratformat. För att säkerställa ett optimalt utseende för alla mallar, använd minimalistiska bilder med transparent bakgrund och bibehåll ett konsekvent mönster för alla dina produkter.",
+      "create_new_item_action": "Skapa ny inkluderad artikel"
+    }
+  },
+  "transportation_eligible": {
+    "subtitle": "Leveranstjänster som är tillgängliga beror på den angivna storleken och vikten."
+  },
+  "bulk_price_dialog": {
+    "title": "Massåtgärder > Pris",
+    "message": "Följande belopp kommer att gälla i procent av priset på alla produkter i din butik. Dessutom kommer de beräknade prisvärdena att konverteras intelligent till närmaste runda nummer baserat på den valda valutan. Var försiktig när du anger värdena.",
+    "check": "Jag godkänner prisändringar.",
+    "check_description": "Priset kommer att ändras för den valda kategorin och alla underkategorier.",
+    "add_percent_tab": "Lägg till procent",
+    "add_constant_tab": "Lägg till konstant",
+    "ending_tab": "Avslutande strategi",
+    "marketplace_listing_price": "Noteringspris",
+    "constant": {
+      "subtitle": "Beloppet kommer att läggas till eller dras från det aktuella priset på produkterna."
+    },
+    "ending": {
+      "subtitle": "Slutet på det aktuella priset på produkter kommer att ändras till det angivna värdet."
+    },
+    "marketplace": {
+      "title": "Marketplace noteringspris",
+      "subtitle": "Med det här alternativet kan du automatiskt uppdatera listpriset för produkter på marknadsplatsen. Ibland kan det hända att huvudproduktpriset inte överensstämmer med leverantörens prissättning på grund av manuella prisändringar.",
+      "strategy": {
+        "min": {
+          "title": "Ställ in minimipris",
+          "description": "Ställ in produktens lägsta pris som listpris."
+        },
+        "max": {
+          "title": "Ställ in maxpris",
+          "description": "Ställ in maxpriset för produkten som listpris."
+        }
+      }
+    },
+    "category": {
+      "subtitle": "Begränsa massåtgärder till en kategori och alla underkategorier."
+    },
+    "vendor": {
+      "subtitle": "Begränsa massåtgärder till en specifik leverantör. När en leverantör väljs kommer prisuppdateringen att tillämpas på leverantörens produkter, vilket representerar försäljningspriset för den leverantören.",
+      "listing_price_need_update_msg": "Om du vill uppdatera listpriset (priset som visas i produktlistan) ska du skicka in massuppdateringen igen med samma filter men utan att välja en leverantör."
+    },
+    "listing_products_changes": "Listningsprodukter ändras",
+    "total_vendor_products": "Totala säljarens produkter",
+    "total_products": "Totala produkter",
+    "total_variants": "Totala varianter"
+  },
+  "product_panel": {
+    "excel_import": {
+      "title": "Släpp Excel / CSV-fil här.",
+      "select_file": "Välj fil",
+      "max_file": "Maximal filstorlek: 20mb",
+      "download_sample": "Ladda ner exempel"
+    },
+    "ai": {
+      "title": "AI produktassistans"
+    }
+  },
+  "order_vendor": {
+    "has_panel": "Har panel",
+    "no_panel": "Ingen panel",
+    "manual_action": {
+      "title": "Manuella åtgärder",
+      "message": "Du kan uppdatera leverantörens orderstatus manuellt.",
+      "guides": [
+        "Leverantörer med panelåtkomst kan uppdatera sin uppfyllelse (underorder) i sin dedikerade instrumentpanel.",
+        "Om leverantören inte har någon panelåtkomst kommer leverantörens orderstatus att ändras automatiskt genom att ändra korgstatus.",
+        "Du kan uppdatera leverantörsbeställningar manuellt."
+      ]
+    },
+    "payouts": {
+      "title": "Utbetalningar",
+      "message": "Hantera leverantörsutbetalningar och transaktioner.",
+      "charge_tooltip": "Ladda leverantörens plånbok.",
+      "withdraw_tooltip": "Ta ut ur säljarens plånbok.",
+      "payout_tooltip": "Utbetalning till säljaren."
+    }
+  },
+  "vendor_dashboard": {
+    "info": {
+      "subtitle": "Marknadsinformation."
+    },
+    "performance": {
+      "subtitle": "Min försäljningsprestation."
+    },
+    "products": {
+      "title": "Produkter",
+      "subtitle": "Här kan du se antalet av dina produkter listade på marknadsplatsen. Produkter från flera leverantörer ingår inte."
+    },
+    "wallets": {
+      "title": "Mina plånböcker",
+      "subtitle": "Du behöver inte lägga till plånböcker manuellt! Leverantörsplånböcker skapas automatiskt."
+    },
+    "open_marketplace_page": "Öppna marknadsplatssidan",
+    "open_my_store_page": "Öppna min butikssida",
+    "open_my_listing_page": "Öppna min annonssida",
+    "add_products_permission": "Lägg till produktbehörighet",
+    "add_categories_permission": "Lägg till kategoribehörighet"
+  },
+  "vendor_inventory": {
+    "title": "Produktlista",
+    "subtitle": "Det här är en lista över dina produkter på marknaden. Uppdatera priser och kvantiteter för dina tilldelade produkter i lagret. Som leverantör ser du bara produkter från en leverantör som du äger i produktlistan. Andra tilldelade produkter kan också ändras här."
+  },
+  "vendor_payments": {
+    "list": {
+      "title": "Utbetalningshistorik",
+      "subtitle": "Du kan se din utbetalningshistorik här. Dessa utbetalningar kan behandlas manuellt via banköverföringar eller automatiskt med hjälp av betaltjänster som erbjuder utbetalningsmöjligheter."
+    },
+    "connect": {
+      "title": "Anslut bank",
+      "subtitle": "Vi erbjuder delade betalningsmöjligheter för följande betalningsgateways. För att få betalningar sömlöst efter varje köp, anslut ditt bankkonto med dessa alternativ."
+    },
+    "verify_dialog": {
+      "title": "Verifiera betalningen",
+      "option": {
+        "title": "Säljaråtgärd",
+        "subtitle": "Du har möjlighet att acceptera eller avvisa denna överföring. Denna åtgärd tjänar endast som en historisk registrering. Bekräfta bara om du har fått pengarna; om inte, behöver du inte vidta några åtgärder."
+      },
+      "inputs": {
+        "verify": {
+          "label": "Har du bekräftat denna betalning?",
+          "false_description": "Nej, jag har ännu inte fått denna betalning på mitt bankkonto.",
+          "true_description": "Ja, jag har tagit emot och verifierat denna betalning."
+        }
+      }
+    }
+  },
+  "order_vendor_payment": {
+    "message": "Detta är en översikt över transaktionerna i din virtuella plånbok på marknadsplatsen.",
+    "vendor_wallets": "Försäljarplånböcker",
+    "my_wallets": "Mina plånböcker"
+  },
+  "product_add_dropshipping_shops": {
+    "subtitle": "Här kan du hitta grossister som listar sina produkter på Selldone, vilket gör dem tillgängliga för andra handlare. Selldones inbyggda dropshipping-plattform förenklar processen, vilket gör det enkelt och okomplicerat för både grossister och handlare."
+  },
+  "customer_add": {
+    "edit_title": "Redigera kund",
+    "add_title": "Lägg till ny kund",
+    "subtitle": "För att lägga till en kund i din butik, vänligen ange antingen en e-postadress eller ett telefonnummer.",
+    "more": {
+      "title": "Lägg till mer information",
+      "subtitle": "Ställ in valuta, kundklubb, segment, adress och mer."
+    },
+    "detail": {
+      "subtitle": "Håll ett register över personlig information om din kund. Vänligen respektera din kunds integritet."
+    },
+    "preferences": {
+      "subtitle": "Ange standardanvändarvaluta, kundklubb och segment här."
+    },
+    "address": {
+      "subtitle": "Denna adress kan användas i POS. Användaren kan inte se denna information."
+    }
+  },
+  "referral_bank": {
+    "title": "Remissinstrumentpanel",
+    "subtitle": "På din begäran kommer provisionsavgiften att betalas till det bankkonto som du angett. Ange din bankinformation här.",
+    "no_bank_info": "Ingen bankinformation!",
+    "actions": {
+      "edit_my_bank_info": "Redigera min bankinformation"
+    },
+    "bank_dialog": {
+      "title": "Mina bankuppgifter",
+      "info": {
+        "title": "Bank",
+        "subtitle": "Ange din bankinformation här. Vi kommer att använda denna information för att överföra pengar. Se till att bankkontot står i ditt namn eller under ditt företagsnamn, beroende på vad som är tillämpligt."
+      },
+      "inputs": {
+        "name": {
+          "label": "Bank namn",
+          "message": "Fullständigt namn på banken där kontot finns."
+        },
+        "holder_name": {
+          "label": "Kontoinnehavarens namn",
+          "message": "Det fullständiga namnet på den person eller enhet som innehar kontot."
+        },
+        "account_number": {
+          "label": "Kontonummer",
+          "message": "Det unika numret som är kopplat till det specifika bankkontot."
+        },
+        "routing_number": {
+          "label": "Routingnummer (USA) eller sorteringskod (UK)",
+          "message": "Ett nummer som identifierar det specifika bankkontoret (olika termer används i olika länder)."
+        },
+        "swift": {
+          "label": "SWIFT/BIC-kod",
+          "message": "En internationell kod som används för att identifiera banker globalt, särskilt för internationella överföringar."
+        },
+        "iban": {
+          "label": "IBAN (International Bank Account Number)",
+          "message": "Används främst i Europa, IBAN är ett internationellt överenskommet system för att identifiera bankkonton över nationella gränser."
+        },
+        "contact": {
+          "label": "Kontaktinformation",
+          "message": "Telefonnummer eller e-postadress som är kopplad till kontot."
+        },
+        "note": {
+          "label": "Notera",
+          "message": "Extra anmärkning"
+        }
+      }
+    },
+    "notifications": {
+      "save": {
+        "message": "Din bankinformation har uppdaterats."
+      }
+    }
+  },
+  "referral_tier": {
+    "message": "Från alla serviceavgifter, abonnemang och andra betalningar som görs av dina hänvisningar."
+  },
+  "ReferralTiers": {
+    "Bronze": {
+      "title": "Tier Brons",
+      "description": "Du är i bronsnivån. Du har tjänat 2 % i provision från dina hänvisningar."
+    },
+    "Silver": {
+      "title": "Tier Silver",
+      "description": "Du är i Silver Tier. Du har tjänat 4 % i provision från dina hänvisningar."
+    },
+    "Gold": {
+      "title": "Tier Guld",
+      "description": "Du är i guldnivån. Du har tjänat 6 % i provision från dina hänvisningar."
+    },
+    "Platinum": {
+      "title": "Tier Platinum",
+      "description": "Du är i Platinum Tier. Du har tjänat 8 % i provision från dina hänvisningar."
+    },
+    "Diamond": {
+      "title": "Tier Diamond",
+      "description": "Du är i Diamond Tier. Du har tjänat 10 % i provision från dina hänvisningar."
+    }
+  },
+  "page_monetize": {
+    "title": "Tjäna pengar",
+    "subtitle": "Sprid tillgång till affärsmöjligheter."
+  },
+  "sms_template_mode": {
+    "text": {
+      "title": "Vanlig text",
+      "desc": "Meddelandet kommer att skapas från en text med parametrar för automatisk ersättning och skicka."
+    },
+    "template": {
+      "title": "Strukturell mall",
+      "desc": "Ett objekt kommer att skapas från parametrar och skickas till leverantören."
+    }
+  },
+  "shop_sms_provider": {
+    "title": "Anpassad SMS-leverantör",
+    "reset_error": "Återställ fel",
+    "subtitle": "Skapa en anpassad SMS-tjänstleverantör och anpassa ditt autentiserings-SMS och företagsnamn. Standardleverantören skickar bara autentiserings-SMS och informerar meddelanden i vissa vitlistade länder.",
+    "plain_text": "Vanlig text",
+    "structural_template": "Strukturell mall",
+    "errors_limit_msg": "Om din tjänst överstiger 100 fel kommer den att inaktiveras automatiskt! Du kan återställa fel för att återaktivera det.",
+    "enable_input": {
+      "false_description": "OTP-meddelanden kommer att skickas via Selldone i utvalda länder, medan andra beställningsmeddelanden också kommer att skickas.",
+      "true_description": "SMS-meddelanden kommer att levereras med din tjänsteleverantör."
+    },
+    "test_input": {
+      "true_title": "Validera konfiguration",
+      "true_description": "Vi skickar ett testmeddelande till ditt telefonnummer 📞 <b>{phone}</b> , det kan ladda dig, men du kan se till att allt fungerar bra."
+    },
+    "sync_action": {
+      "title": "Insatser",
+      "subtitle": "Vissa SMS-tjänster tillhandahåller extra tjänster som kampanjer, marknadsföring och andra funktioner. Du kan synkronisera dina kontakter eller ytterligare information för att använda deras funktioner snabbare.",
+      "action": "Synkronisera kontakter"
+    },
+    "tokens": {
+      "title": "Parametrar",
+      "subtitle": "Ställ in följande parametrar för att länka din SMS-tjänstleverantör till din butik."
+    }
+  },
+  "sms_messages_options": {
+    "all": {
+      "title": "OPT + Ordermeddelanden",
+      "description": "Autentiseringsmeddelanden och orderavisering kommer att skickas."
+    },
+    "otp": {
+      "title": "Endast OTP",
+      "description": "Autentiseringsmeddelanden kommer att skickas."
+    }
+  },
+  "shop_email_provider": {
+    "title": "Anpassad e-postserver",
+    "subtitle": "Anslut din e-postleverantör för att skicka e-post via din anpassade domän.",
+    "provider": "Leverantör",
+    "enable_input": {
+      "false_description": "Dina e-postmeddelanden kommer att skickas via din myselldone-domän.",
+      "true_description": "Dina e-postmeddelanden kommer att skickas via din anpassade e-postdomän."
+    },
+    "config": {
+      "title": "Konfig",
+      "subtitle": "För att konfigurera din anpassade e-posttjänst för din butik, mata in din tjänst API-nyckel tillsammans med andra nödvändiga inställningar."
+    },
+    "sender": {
+      "title": "Från",
+      "subtitle": "Du kan konfigurera standardavsändarens namn och e-postadress, som kommer att användas för att skicka e-postmeddelanden till dina kunder."
+    },
+    "inputs": {
+      "from": {
+        "label": "Från e-post"
+      },
+      "from_name": {
+        "label": "Från Namn"
+      }
+    },
+    "actions": {
+      "send_test_email": "Skicka ett testmail"
+    },
+    "messages": {
+      "provider_error_limit": "Om din tjänst överstiger 100 fel kommer den att inaktiveras automatiskt! Du kan återställa fel för att återaktivera det.",
+      "encryption_ports_guide": "E-postleverantörer kan erbjuda SSL, TLS eller okrypterade anslutningar baserat på tillgängliga portar. Om anslutningen resulterar i ett fel, kan ändring av krypteringsläget lösa problemet. Standard <b>TLS</b> använder Port: <b>587</b> och <b>SSL</b> använder Port: <b>465</b> .",
+      "enable_receive_test": "När du har sparat ändringarna kommer du att få ett testmeddelande på <b>{email}</b> . Spara ändringar innan du skickar ett testmail med den nya konfigurationen."
+    }
+  },
+  "product_location_restrictions": {
+    "title": "Tillgängliga platser",
+    "subtitle": "Om din produkt eller tjänst endast är tillgänglig i specifika regioner, definierade av land och post- eller pinkoder, kan du ange dessa platser här. Dessa platsbegränsningar tillämpas på produktnivå. På produktsidan kommer kunder att uppmanas att välja sin plats. Om produkten är tillgänglig i deras valda område kommer de att kunna fortsätta med köpet.",
+    "add_location_action": "Lägg till land",
+    "no_restriction": "Ingen begränsning",
+    "import": {
+      "title": "Ladda profil",
+      "subtitle": "Välj en profil för sparade platser."
+    },
+    "export": {
+      "title": "Spara profil",
+      "subtitle": "Lagra platser för framtida bruk."
+    },
+    "has_restriction_input": {
+      "title": "Har platsbegränsning",
+      "description": "Kunder kan endast köpa denna produkt inom det angivna landet och det angivna postnumret, på grund av den etablerade platsbegränsningen."
+    },
+    "zip_pin_code": "Postnummer",
+    "no_country_selected_error": "Vänligen inkludera minst ett land tillsammans med en lista över post-/pinkoder. Utan den kommer denna produkt inte att vara tillgänglig.",
+    "tips": "Klicka på knappen <b>+ Lägg till land</b> för att börja skapa en ny platsuppsättning. När du är klar kan du spara den genom att klicka längst upp till höger <b>⋮ Meny</b> och välja <b>Spara profil</b> .",
+    "need_save_message": "Platsbegränsningsinställningarna för produkten har ändrats. För att spara dessa ändringar, klicka på knappen \"Spara\" nedan.",
+    "add_dialog": {
+      "title": "Lägg till land",
+      "message": "Välj ett land och klicka på \"Lägg till\". Detta kommer att lägga till landet i tabellen, så att du kan tilldela postnummer, pinkoder, stadsnamn eller regionnamn."
+    },
+    "save_profile_dialog": {
+      "title": "Lägg till platsprofil",
+      "message": "Ange ett namn för att spara denna uppsättning platser. Denna sparade platsuppsättning kan appliceras på andra produkter, vilket möjliggör snabb platsladdning med bara ett enda klick. Om det redan finns en profil med det angivna namnet kommer den att uppdateras med dessa nya värden.",
+      "title_input": {
+        "title": "Profiltitel",
+        "placeholder": "Ett kategorinamn, eller butiksnamn, ..."
+      }
+    },
+    "load_profile_dialog": {
+      "title": "Ladda platsprofil",
+      "message": "Du kan ladda platser genom att välja en tidigare sparad platsuppsättning här.",
+      "select_input": {
+        "title": "Platsprofil",
+        "placeholder": "Välj en profil..."
+      }
+    }
+  },
+  "blog_timeline": {
+    "title": "Schema för innehållssläpp",
+    "subtitle": "Här är listan över schemalagda artiklar för framtida publicering. Du har möjlighet att schemalägga blogginlägg och till och med produktbeskrivningar som ska publiceras vid specifika tidpunkter."
+  },
+  "direct_feedback": {
+    "title": "Skicka direktförfrågan",
+    "message": "Identifiera dina tre främsta företagsbehov för att blomstra och tjäna på Selldone. Denna information kommer att delas direkt med grundare och styrelseledamöter och kommer att övervägas noggrant. Du kan också uppdatera dina behov över tid efter inlämning.",
+    "expand_action": "Skriv förfrågan...",
+    "input_label": "Din förfrågan",
+    "to": {
+      "ceo": "Skicka till VD",
+      "team": "Skicka till Team"
+    },
+    "placeholder": {
+      "ceo": "Absolut ingen anledning att vara snäll, jag gillar att höra din direkta, raka fråga. t.ex. jag måste ha...",
+      "team": "Försök att vara snäll mot dem. t.ex. jag måste ha..."
+    }
+  },
+  "inventory_filter": {
+    "placeholder": "Välj Filter *.*"
+  },
+  "vendor_input": {
+    "placeholder": "Filtrera leverantör..."
+  },
+  "product_import_processing": {
+    "title": "Bearbetning av importerade produkter",
+    "message": "Vi håller på att importera produkter och bilder, vilket kan ta lite tid att färdigställa."
+  },
+  "order_input": {
+    "message": "Informationen som visas här har skickats av kunden, i enlighet med produktinmatningsformulärets struktur."
+  },
+  "shop_connect": {
+    "test": {
+      "title": "Uppstart",
+      "subtitle": "Extern servicerapport",
+      "action": "Testa anslutningen",
+      "last_update": "Senast uppdaterad av"
+    },
+    "service_status": {
+      "title": "Servicestatus",
+      "syncing_message": "Vid synkroniseringsprocessen...",
+      "action": "Synkronisera alla",
+      "connect_status": "Anslut status",
+      "service_status": "Servicestatus",
+      "auto_confirm_enable_msg": "Automatisk bekräftelse för beställningar är aktiverad.",
+      "auto_confirm_disable_msg": "Automatisk bekräftelse av beställningar är inte aktiverad.",
+      "shipping_enable_msg": "Fraktkostnaden kommer att beräknas baserat på informationen i kassan."
+    },
+    "detail": {
+      "title": "Anslut detalj",
+      "auto_confirm_order": "Bekräfta beställningar automatiskt",
+      "test_mode": "Testläge",
+      "status": {
+        "subtitle": "Övergripande information om synkroniseringsstatus."
+      },
+      "sync": {
+        "title": "Synkronisera detalj",
+        "subtitle": "Intern synkroniseringsdetaljer. Denna information sparas efter att en synkroniseringsprocessepok har avslutats.",
+        "no_data": "Ingen synkroniseringsinformation!"
+      }
+    },
+    "products": {
+      "title": "Produkter",
+      "subtitle": "Lista över tillagda produkter från {name}. Se till att din produkt har ett unikt namn och SKU. Vissa Connect-tjänster används för migrering, så om du har produkter med dubbletter av <b>SKU:er</b> och <b>namn</b> kommer dessa produkter att ändras!",
+      "action": "Hämta produkter",
+      "syncing_message": "Vid synkroniseringsprocessen..."
+    },
+    "logs": {
+      "title": "Loggar",
+      "subtitle": "Listan över alla loggar under de senaste 7 dagarna. Loggningsfunktion stöds endast på externa tjänsteleverantörer."
+    },
+    "edit": {
+      "title": "Lägg till ny Connect",
+      "service": {
+        "title": "Service",
+        "subtitle": "Välj målplattform, dropshipping-leverantör eller marknadsplats för att ansluta."
+      },
+      "test": {
+        "false_title": "Synkronisera alla",
+        "false_desc": "Få alla tillgängliga produkter, kategorier, kunder.",
+        "true_title": "Begränsat (rekommenderas för nybörjare)",
+        "true_desc": "Få max 5 produkter, kategorier och kunder. Du kan när som helst vända den till fullt läge i Anslut > Inställning."
+      },
+      "overwrite": {
+        "false_title": "Ändra inte om det finns",
+        "false_desc": "Behåll befintlig produkt- och kategoriinformation som de är.",
+        "true_title": "Skriva över",
+        "true_desc": "Uppdatera befintlig produkt-, variant- och kategoriinformation."
+      },
+      "migration_tips": "<b>Tips:</b> Om du vill testa funktionaliteten, välj <b>Begränsat</b> alternativ. Genom att välja \"Synkronisera alla\" får vi all data från dina anslutna tjänster och laddar ner relaterade bilder, så det minskar ditt kostnadsfria lagringsutrymme. Det skulle också vara svårt att ta bort många produkter, kategorier och kunder!",
+      "add_action": "Anslut automatiskt till",
+      "order": {
+        "title": "Beställningsstatus",
+        "subtitle": "Konfigurera den anslutna tjänstens orderhanteringsinställningar för din butik. Detta inkluderar att ställa in orderacceptans, aktivera automatisk orderbekräftelse (om det stöds) och konfigurera fraktkostnadsberäkningar."
+      },
+      "enable": {
+        "label": "Anslut status",
+        "true_desc": "Lager och beställningar synkroniseras."
+      },
+      "confirm": {
+        "label": "Bekräfta beställningar automatiskt",
+        "false_desc": "Du bör bekräfta beställningen manuellt.",
+        "true_desc": "Beställningar med livebetalning kommer automatiskt att godkännas. Beställningar med felsökningsbetalning kommer inte att godkännas automatiskt.",
+        "tips": "Beställningar som betalas med presentkort eller efterkrav eller betalningsgateways i felsökningsläget är undantag och kommer inte att bekräftas automatiskt."
+      },
+      "shipping": {
+        "label": "Frakt",
+        "tips": "Denna tjänst erbjuder fraktberäkning, som kan aktiveras eller inaktiveras enligt dina önskemål. Om det är aktiverat kommer kostnadsberäknings-API:er med tredjepartstjänster att krävas, vilket kan orsaka en fördröjning på över 300 ms för uppdatering av priset på kassasidan.",
+        "false_title": "Inaktivera",
+        "false_desc": "Använd min fraktkostnadsberäkning i Butik > Logistik > Transport för alla produkter, inklusive importerade.",
+        "true_title": "Beräkna frakt",
+        "true_desc": "Använd API:et för beräkning av fraktkostnad som erbjuds av den här tjänsten."
+      },
+      "remove": {
+        "verify": "Jag verifierar att ta bort den här anslutningen.",
+        "action": "Ta bort connect"
+      }
+    },
+    "list": {
+      "title": "Anslut OS",
+      "subtitle": "Anslut ditt företags OS till externa tjänster och hantera alla kanaler på samma plats.",
+      "action": "Anslut nya tjänster",
+      "empty_message": "Glöm appar och plugins för dropshipping! Connect är framtiden för plattformsoberoende orderhantering.",
+      "auto_confirm": "Autobekräfta",
+      "shipping": "Frakt",
+      "syncing_now": "Synkroniseras nu!",
+      "sync_not_started": "Synkronisering har inte startat än!"
+    }
+  },
+  "connect_mode": {
+    "Migration": {
+      "title": "Migration",
+      "desc": "Få produkter, kategorier och kunder. Efter att användaren har tagit bort den här tjänsten kommer de mottagna produkterna, kategorierna och kunderna inte att raderas."
+    },
+    "Dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Få produkter, kategorier och beställningar. Systemet tar bort produkter efter att användaren tagit bort tjänsten."
+    },
+    "Marketplace": {
+      "title": "Marknad",
+      "desc": "Synkronisera bara lager och ta emot beställningar (Produkterna kommer att länkas av SKU)."
+    },
+    "Accounting": {
+      "title": "Bokföring",
+      "desc": "Skicka order och ekonomisk information."
+    },
+    "Other": {
+      "title": "Övrig",
+      "desc": "Övriga tjänster."
+    }
+  },
+  "shop_landings": {
+    "title": "Målsidor",
+    "add_new_action": "Lägg till ny sida",
+    "subtitle": "Skapa distinkta, responsiva anpassade sidor för ditt varumärke med en mångsidig AI-driven inline-redigerare och generera automatiskt dynamiskt innehåll genom att mata in data.",
+    "empty_message": "Designa anpassade sidor genom att dra och släppa..."
+  },
+  "shop_staff": {
+    "list": {
+      "title": "Personalledning",
+      "subtitle": "Användare har beviljats åtkomst till instrumentpanelen och administrativa delar av denna butik."
+    },
+    "pending": {
+      "title": "I väntan på",
+      "message": "Visa väntande inbjudningar."
+    }
+  },
+  "community_comments": {
+    "title": "kommentarer",
+    "subtitle": "Det här är en lista över gruppens kommentarer.",
+    "empty_msg": "Inga kommentarer har skapats än så länge..."
+  },
+  "community_categories": {
+    "title": "kategorier",
+    "subtitle": "Detta är en lista över gruppens kategorier.",
+    "new_category_action": "Ny kategori",
+    "empty_msg": "Inga kategorier har skapats hittills...",
+    "filter": {
+      "delete": {
+        "title": "raderade",
+        "description": "Visa borttagna kategorier."
+      }
+    }
+  },
+  "community_posts": {
+    "title": "Inlägg",
+    "subtitle": "Det här är en lista över communityns inlägg.",
+    "filter": {
+      "deleted": {
+        "title": "raderade",
+        "description": "Visa borttagna inlägg."
+      },
+      "reported": {
+        "title": "Rapporterad",
+        "description": "Visa rapporterade inlägg."
+      }
+    },
+    "empty_msg": "Inga inlägg har skapats än så länge...",
+    "menu": {
+      "open_post": {
+        "title": "Öppna Post",
+        "subtitle": "Visa och redigera inlägg i gruppen."
+      },
+      "spam": {
+        "title": "Rapportera och ta bort skräppost",
+        "subtitle": "Massa bort inlägg och blockera användare."
+      },
+      "delete": {
+        "title": "Ta bort inlägg",
+        "subtitle": "Ta bort det här inlägget."
+      }
+    }
+  },
+  "channel_google": {
+    "gtag": {
+      "title": "Taggstyrning",
+      "subtitle": "Google Analytics möjliggör mätning av annons-ROI samtidigt som Flash-, video- och sociala medier-webbplatser och appar spåras. Hantera webbplatstaggar utan ansträngning med Google Tag Managers kostnadsfria, enkla och pålitliga lösningar – ingen kodredigering krävs.",
+      "tag_id": {
+        "label": "Google Tag Manager-ID"
+      }
+    },
+    "shopping": {
+      "title": "Google Shopping",
+      "subtitle": "Datakällor anger ursprunget till din kataloginformation på Google. Följ den här länken för att automatiskt lägga till alla produkter och kategorier till Google-varor.",
+      "tips": "Du kan använda det här verktyget för att enkelt och automatiskt hantera Google-annonser.",
+      "link_message": "Webbadress för Googles produktflöde"
+    },
+    "console": {
+      "title": "Search Console",
+      "subtitle": "Lägg till en metatagg på din startsida för verifiering av Google Search Console.",
+      "code": {
+        "label": "Verifieringsmetatagg",
+        "placeholder": "Från google, t.ex. viQg9mjdBj..."
+      }
+    },
+    "serp": {
+      "title": "Google SERP och nyckelord",
+      "subtitle": "Vi hämtar de mest exakta SEO-revisionsdata från Google och presenterar dem för dig på ett bekvämt sätt. Följ bara de angivna stegen."
+    },
+    "serp_content": {
+      "title": "Anslut till Google Search Console",
+      "subtitle": "Anslut din butik till sökkonsolen och börja utforska sökord, rankningar och andra gratis SEO-verktyg på Selldone.",
+      "tips": {
+        "title": "Innan du länkar Selldone till Google Search Console, kontrollera följande:",
+        "add_in_selldone": "Lägg till, verifiera och ställ in din anpassade domän som primär.",
+        "add_in_google": "Lägg till och verifiera <b>{domain}</b> i din <a href=\"https://search.google.com/search-console\" target=\"_blank\"><b>Google Search Console</b></a> ."
+      },
+      "action_custom_domain": "Anpassad domän",
+      "action_connect_now": "Anslut nu",
+      "action_remove_connection": "Ta bort anslutningen"
+    }
+  },
+  "cashback": {
+    "add_new": "Lägg till ny cashback",
+    "title": "Cashback-program",
+    "boosted": "Boost (2x)",
+    "min_purchase": "Minsta köp",
+    "only_first_order": "Endast första beställning",
+    "total_cashback": "Total Cashback",
+    "delete_alert": {
+      "title": "Ta bort Cashback-programmet",
+      "message": "Är du säker på att ta bort detta cashback-program?",
+      "action": "Ja, radera nu"
+    },
+    "notifications": {
+      "delete_success": "Cashback-programmet har raderats."
+    }
+  },
+  "shop_cashback": {
+    "title": "Cashback-program",
+    "up_to": "fram till",
+    "menu": {
+      "back": "Tillbaka program",
+      "dashboard": "instrumentbräda",
+      "orders": "Order",
+      "edit": "Redigera"
+    },
+    "dashboard": {
+      "chart_amount_buy": {
+        "label": "köpa",
+        "y": "Inköpsbelopp {currency}"
+      },
+      "chart_amount_cashback": {
+        "label": "Cashback",
+        "y": "Cashback-belopp {currency}"
+      },
+      "chart_used": {
+        "label": "Begagnade",
+        "y": "Tider"
+      }
+    },
+    "orders": {
+      "title": "Cashback-ordrar",
+      "table": {
+        "amount_cashback": "Cashback belopp",
+        "payment_status": "Betalningsstatus",
+        "date": "Datum"
+      }
+    }
+  },
+  "cashback_edit": {
+    "config": {
+      "subtitle": "Ställ in chasback procent, gräns och dess status här."
+    },
+    "percent_input": {
+      "title": "Cashback Procent",
+      "message": "Ange cashback-procenten från 1 % till 20 %."
+    },
+    "currency_input": {
+      "message": "Cashback-programmet kommer att vara tillgängligt bara för denna valuta."
+    },
+    "limit_input": {
+      "title": "Begränsa",
+      "hint": "Ange det maximala beloppet för cashback.",
+      "zero_message": "Ange 0 för obegränsad cashback."
+    },
+    "duration": {
+      "title": "Varaktighetsgräns",
+      "subtitle": "Ställ in varaktighet för cashback-programmet. Det är valfritt."
+    },
+    "start_input": {
+      "title": "Startdatum",
+      "placeholder": "Välj startdatum..."
+    },
+    "end_input": {
+      "title": "Slutdatum",
+      "placeholder": "Välj slutdatum..."
+    },
+    "design": {
+      "subtitle": "Ställ in titel och kort beskrivning för cashback-programmet. Denna information kommer att visas för kunderna."
+    },
+    "title_input": {
+      "title": "Titel"
+    },
+    "description_input": {
+      "title": "Beskrivning"
+    },
+    "constraints": {
+      "subtitle": "Ställ in begränsningarna för cashback-programmet."
+    },
+    "min_purchase_input": {
+      "hint": "Ange det lägsta köpbeloppet för cashback-programmet.",
+      "title": "Minsta köp"
+    },
+    "only_first_buy_input": {
+      "false_desc": "Cashback-programmet kommer att vara tillgängligt för alla beställningar.",
+      "true_desc": "Cashback-programmet kommer att vara tillgängligt bara för den första beställningen.",
+      "true_title": "Endast första beställning",
+      "false_title": "Alla beställningar"
+    },
+    "qualify_input": {
+      "false_title": "Alla kunder",
+      "true_title": "Kvalificera kunder",
+      "true_msg": "Cashback-programmet kommer att vara tillgängligt endast för de kunder som är kvalificerade."
+    },
+    "club": {
+      "subtitle": "Ställ in klubben för cashback-programmet. Cashback-programmet kommer att vara tillgängligt endast för de kunder som är i denna klubb."
+    },
+    "cluster": {
+      "subtitle": "Genom att koppla ett kluster till cashback-programmet kan du hantera det mer effektivt."
+    },
+    "notifications": {
+      "add": "Cashback-programmet har lagts till framgångsrikt.",
+      "edit": "Cashback-programmet har uppdaterats framgångsrikt."
+    },
+    "enable_input": {
+      "true_msg": "Cashback-programmet är aktivt och kunderna kan använda det.",
+      "false_msg": "Cashback-programmet är inaktivt och kunder kan inte använda det."
+    },
+    "boosted_input": {
+      "false_title": "Vanligt",
+      "true_title": "Boost (2x Cashback)",
+      "true_msg": "Cashback-programmet är i boostläge och kunder kommer att få 2x cashback.",
+      "false_msg": "Cashback-programmet är i normalt läge och kunder kommer att få normal cashback."
+    }
+  },
+  "row_payment": {
+    "actions": {
+      "refund": {
+        "title": "Återbetalning",
+        "subtitle": "Delvis eller fullständig återbetalning stöds."
+      },
+      "delivery": {
+        "title": "Bekräfta vid leverans",
+        "subtitle": "Du kan manuellt bekräfta leverans för betalningsleverantör."
+      }
+    }
+  },
+  "payment_refund_dialog": {
+    "title": "Återbetalning",
+    "message": "Av säkerhetsskäl är endast beställningar som betalats inom de senaste 7 dagarna berättigade till återbetalning.",
+    "payment_amount": "Betalningsbelopp",
+    "total_refund_amount": "Totalt återbetalat belopp",
+    "can_refund": "Kan återbetala",
+    "refund_amount": "Återbetalningsbelopp",
+    "verify": {
+      "title": "Verifiera återbetalning",
+      "description": "Jag bekräftar att återbetalningsbeloppet är korrekt och jag vill fortsätta."
+    },
+    "action": "Återbetalning nu"
+  },
+  "payment_delivery_dialog": {
+    "title": "Kundleveransbekräftelse",
+    "message": "Vissa betaltjänster kräver bekräftelse på att beställningen har levererats till kunden. Vi skickar vanligtvis denna bekräftelse under det sista steget av orderuppfyllelse när vi får kundens leveransbekräftelse. Men om du behöver utföra den här åtgärden manuellt kan du göra det här.",
+    "verify": {
+      "title": "Verifiera leverans",
+      "description": "Jag bekräftar att beställningen har levererats till kunden."
+    },
+    "action": "Bekräfta nu"
+  },
+  "product_cross_selling": {
+    "title": "Korsförsäljning",
+    "add_new_actions": "Lägg till ny produkt",
+    "subtitle": "I det här avsnittet kan du lägga till och hantera korsförsäljningsprodukter för den här produktsidan. Dessa produkter kommer att visas som förslag för kunder att köpa tillsammans med huvudvaran. Du kan också ställa in rabatter för att uppmuntra och stimulera till ytterligare köp. Systemet kommer att visa upp maximalt 3 artiklar för kunden att överväga.",
+    "dialog": {
+      "edit_title": "Redigera korsförsäljningsprodukt",
+      "add_title": "Lägg till nya korsförsäljningsprodukter",
+      "target": {
+        "title": "Målprodukt",
+        "subtitle": "Välj de produkter du vill marknadsföra som korsförsäljningsalternativ tillsammans med denna produkt.",
+        "select_products": "Välj produkt(er)"
+      },
+      "list": {
+        "title": "Målprodukt",
+        "subtitle": "Denna produkt har valts för korsförsäljningskampanj.",
+        "manage_product": "Hantera produkt"
+      },
+      "discount": {
+        "title": "Rabatt & meddelande",
+        "subtitle": "Du har möjlighet att inkludera ett meddelande och erbjuda en rabatt för att motivera kunder att köpa de utvalda tilläggsvarorna. Dessa incitament kan hjälpa till att öka försäljningen och förbättra den övergripande shoppingupplevelsen.",
+        "amount_input": {
+          "message": "Rabattprocenten kommer att tillämpas på produktpriset efter att ha tagit hänsyn till alla befintliga rabatter."
+        },
+        "mismatch_type_warning": "Rabatter kan inte tillämpas på andra typer än huvudprodukttyperna, eftersom källan och målvarorna inte kommer att placeras i separata korgar.",
+        "not_support_subscription_type_warning": "Det är inte möjligt att sätta rabatter för korsförsäljning av prenumerationsprodukter, eftersom prisplanerna inte kan justeras dynamiskt.",
+        "message_input": {
+          "message": "Skapa en övertygande och lockande titel för att fånga kundernas uppmärksamhet.",
+          "placeholder": "Paketera och spara: Komplettera din look med vårt handplockade urval!"
+        }
+      },
+      "action": {
+        "title": "Handling",
+        "subtitle": "Ändra korsförsäljningsproduktens åtgärd här. Om din produkt kräver inmatning av anpassad information, till exempel genom ett värderingsformulär, välj inte \"Lägg till i kundvagnen\" som åtgärd, eftersom detta kan leda till fel."
+      }
+    }
+  },
+  "CrossSellActionType": {
+    "AddToCart": {
+      "title": "Lägg till i varukorgen",
+      "description": "Visa knappen Lägg i kundvagn direkt. Observera att detta inte gäller för prenumerationsprodukter."
+    },
+    "ViewProduct": {
+      "title": "Visa produkt",
+      "description": "Visa en Visa mer-knapp som leder kunder till produktsidan genom att öppna ett nytt fönster."
+    }
+  },
+  "product_flow": {
+    "title": "Köpflöde",
+    "subtitle": "Detta är inköpsflödet och hälsokontrollen av din produkt.",
+    "connect": {
+      "subtitle": "Den här produkten har lagts till via <b>{name}</b> .",
+      "enable_msg": "Denna brygga till extern tjänst är aktiverad.",
+      "disable_msg": "Denna brygga till extern tjänst är inaktiverad.",
+      "has_shipping_msg": "{name} stöder frakt. Så du har möjlighet att aktivera automatisk fraktberäkning av {name} på kassasidan."
+    },
+    "health": {
+      "title": "Produktens hälsa",
+      "available_in_stock_msg": "Produkten finns i lager.",
+      "out_of_stock_msg": "Produkten är slut i lager.",
+      "file_count_msg": "{files_count} filer med totalt {files_size} uppladdade för den här produkten.",
+      "no_file_uploaded_msg": "Ingen fil har laddats upp ännu.",
+      "no_image_uploaded_msg": "Ladda upp en produktbild för att göra den mer attraktiv."
+    },
+    "vendor_errors": {
+      "title": "Saknade leverantörer",
+      "subtitle": "Denna produkt har för närvarande inga associerade leverantörer. För att en produkt ska kunna köpas på marknaden måste den ha minst en leverantör.",
+      "manage_vendors": "Hantera leverantörer"
+    },
+    "file_errors": {
+      "title": "Saknade filer",
+      "subtitle": "För närvarande har inga filer laddats upp för denna produkt. Ladda upp filer för att fortsätta.",
+      "manage_files": "Hantera filer"
+    },
+    "pricing": {
+      "title": "Prissättning",
+      "no_product_price_msg": "Standardproduktpriset är inte satt ännu!",
+      "listing_pricing_msg": "Noteringspriser:",
+      "has_valuation_msg": "Produkten har värdering.",
+      "subscription_pricing_msg": "Den här produkten har {count} prenumerationsprisplaner.",
+      "has_no_subscription_pricing_msg": "Denna produkt har inga prenumerationsprisplaner."
+    },
+    "subscription_errors": {
+      "title": "Saknade prenumerationsprisplaner",
+      "subtitle": "Denna produkt har inga prenumerationsprisplaner. Du måste lägga till minst en prenumerationsprisplan för att göra den här produkten tillgänglig för prenumerationsköp.",
+      "pricing_plans": "Prissättningsplaner"
+    },
+    "location": {
+      "title": "Säljplatsbegränsning ● {status}",
+      "status": {
+        "has_restriction": "Tillgängligt i {count} länder",
+        "no_restriction": "Ej begränsad"
+      },
+      "available_countries_msg": "Shopping globalt begränsat till {count} länder. Dessa länder är {countries}.",
+      "disable_for_all_countries_msg": "Shopping är inaktiverat för alla länder i din butik > platsinställning.",
+      "location_is_not_in_permitted_shop_locations_msg": "Du anger {country} som försäljningsplats men på butiksnivå tillåter du inte det här landet. Kontrollera dina butiksnivåinställningar.",
+      "shop_locations": "Butiksplatser",
+      "product_locations": "Produktplatser"
+    },
+    "location_errors": {
+      "title": "Tillgängliga platser fel",
+      "no_location_error_subtitle": "Du har aktiverat en platsbegränsning för att köpa produkten, men för närvarande finns inget land listat under denna begränsning. Som ett resultat är denna produkt inte tillgänglig för köp av någon.",
+      "invalid_location_error_subtitle": "Platsbegränsningsinställningarna för din produkt innehåller ett fel: vissa platser i listan har inga associerade postnummer. Följaktligen kan användare inte välja ett postnummer, vilket gör produkten otillgänglig för köp.",
+      "manage_locations": "Hantera platser"
+    },
+    "tax": {
+      "title": "Prenumerationsskatt",
+      "default_shop": "Standard butiksskatt",
+      "tax_profiles": "Skatteprofiler",
+      "description": {
+        "subscription_tax_msg": "Vi kan tillämpa skatt endast på steget att skapa betalningar.",
+        "dedicated": "Hängiven",
+        "is_disabled": "Denna skatteprofil är inaktiverad!",
+        "tax_is_based_on_location": "Skatt: Platsbaserad",
+        "shipping_tax_is_based_on_location": "Frakt: Platsbaserad",
+        "included_in_price": "Ingår i priset."
+      }
+    },
+    "vendor": {
+      "vendor_owner_msg": "Denna produkt tillhör <b>{vendor}</b> .",
+      "has_vendors_msg": "Det finns {count} leverantörer för denna produkt.",
+      "no_vendor_msg": "Du har inte tilldelat en leverantör till den här produkten, så kunderna kan inte köpa den.",
+      "add_vendors": "Lägg till leverantörer"
+    }
+  },
+  "product_template": {
+    "title": "Produktsidamall",
+    "subtitle": "Du kan bädda in en sida på din produktsida för en förbättrad presentation. Det optimala tillvägagångssättet är att skapa sidor med en transparent bakgrund och 1 till 3 avsnitt skräddarsydda för varje produktkategori. Tilldela sedan en sida till flera produkter för en konsekvent och tilltalande visning.",
+    "edit_page": "Redigera sida",
+    "list_of_pages": "Lista över sidor"
+  },
+  "product_embed": {
+    "subtitle": "Du kan enkelt bädda in en produkt eller en lista med produkter i din blogg eller andra webbsidor genom att helt enkelt kopiera och klistra in koderna vi tillhandahåller. Även om den här funktionen fortfarande är i ett tidigt skede, arbetar vi aktivt med att utöka dess funktionalitet utöver vad som för närvarande är tillgängligt på andra ställen. Även om det för närvarande erbjuder begränsade möjligheter, har vi planer på att introducera fler mallar och anpassningsalternativ i framtiden.",
+    "card": {
+      "title": "Minimal",
+      "description": "Generera HTML-kod för att lägga till produktkort på andra plattformar och HTML-sidor."
+    },
+    "iframe": {
+      "title": "Iframe",
+      "description": "Generera iframe-koden för att visa omfattande produktinformation i ett inbäddat fönster."
+    }
+  },
+  "permission_staff_add": {
+    "title_new": "Ny personal",
+    "title_edit": "Redigera personal",
+    "staff": {
+      "title": "Lägg till personal och åtkomst",
+      "subtitle": "Alla användare med personalåtkomst kan logga in på din instrumentpanel och se ekonomisk information. För att lägga till användare med begränsad åtkomst, definiera Roll.",
+      "go_to_roles": "Gå till Roller"
+    },
+    "access": {
+      "customization_tips": "<b>Anpassning:</b> Klicka på varje objekt för att anpassa standard läs-/skrivåtkomst. Varje rad representerar en åtkomstnivå som motsvarar instrumentpanelen i huvudbutiken.",
+      "simplify_tips": "<b>Viktig!</b> Vi förenklar åtkomstkontrollen från över 300 till under 10 nivåer. Mer detaljerade och uppdaterade åtkomstnivåer kommer att publiceras i dokumentationen.",
+      "multi_permission_tips": "<b>Anpassade gränser?</b> Du kan lägga till mer åtkomst till en användare, så efter att ha lagt till den första åtkomsten, skapa ytterligare åtkomst med samma steg.",
+      "view_data": "Visa data",
+      "apply_changes": "Tillämpa ändringar"
+    },
+    "inputs": {
+      "email": {
+        "placeholder": "E-post",
+        "label": "Användarens e-postadress"
+      },
+      "level": {
+        "label": "Åtkomstnivå",
+        "placeholder": "Välj en nivå..."
+      }
+    },
+    "actions": {
+      "add": "Lägg till personal"
+    },
+    "notifications": {
+      "add_success": {
+        "title": "Tillträde beviljad",
+        "message": "Ny åtkomst har lagts till."
+      },
+      "update_success": {
+        "title": "Access uppdaterad",
+        "message": "Behörigheterna har uppdaterats."
+      }
+    }
+  },
+  "category_engine_editor": {
+    "title": "Extra produktlista",
+    "subtitle": "Visa produkter från olika kategorier. Du har möjlighet att välja flera kategorier för att visa upp produkter eller filtrera produkter efter taggar.",
+    "aut_add_sub_categories_tips": "Du kan automatiskt lägga till alla underkategorier till den aktuella kategorin genom att klicka på knappen nedan.",
+    "inputs": {
+      "categories": {
+        "label": "kategorier",
+        "messages": "Produkter i dessa kategorier kommer att visas.",
+        "placeholder": "Välj kategorier..."
+      },
+      "tags": {
+        "label": "Produkttaggar",
+        "messages": "Produkter med dessa taggar kommer att visas.",
+        "placeholder": "Dra taggar här och tryck på enter. ex. ny kollektion"
+      }
+    },
+    "actions": {
+      "save_engine": "Spara motor",
+      "auto_add_subcategories": "Lägg till underkategorier automatiskt"
+    }
+  },
+  "products_sort_view": {
+    "search_tips": {
+      "title": "Söktips",
+      "normal": "<b>Allmän sökning:</b> Sök efter titel, MPN, SKU, varumärke eller taggar.",
+      "product": "<b>Exakt produkt-ID:</b> Använd P+Produkt-ID för att hitta en specifik produkt, t.ex. <b class=\"text-green\">P</b> <i class=\"text-yellow\">360</i> .",
+      "quotes": "<b>Exakt fras:</b> Använd citattecken för att söka efter en exakt fras, t.ex. <b class=\"text-green\">\"</b> <i class=\"text-yellow\">din text här</i> <b class=\"text-green\">\"</b> .",
+      "tax": "<b>Skatteprofil:</b> Sök efter produkter med en specifik skatteprofil med \"skatt:\", t.ex. <b class=\"text-green\">moms:</b> <i class=\"text-yellow\">skatteprofilnamn</i> .",
+      "new_products": "<b>Nya produkter:</b> Hitta produkter som lagts till inom ett specifikt datumintervall, t.ex. <b class=\"text-green\">ny~</b> <i class=\"text-yellow\">2023-08-10</i> <b class=\"text-green\">~</b> <i class=\"text-yellow\">2023-08-20</i> ."
+    }
+  },
+  "augment_form": {
+    "title": "Augmentation",
+    "subtitle": "Ange nyckeln som kommer att bytas ut med motsvarande värde i sidinnehållet. Nycklar bör vara max 32 tecken.",
+    "add_caption": "Lägg till nytt objekt",
+    "add_sub_caption": "Lägg till anpassat nyckel-värdepar.",
+    "add_dialog": {
+      "title": "Välj ingångstyp",
+      "html": {
+        "title": "Text & HTML",
+        "subtitle": "Objektets värde kan anges som antingen text eller HTML."
+      },
+      "image": {
+        "title": "bild",
+        "subtitle": "Du kan ladda upp en bild."
+      }
+    },
+    "help_dialog": {
+      "title": "Hur man använder dynamiskt innehåll",
+      "how_it_works_tips": "På målsidorna har du flexibiliteten att ange dynamiska platshållare för både text och bilder. Dessa platshållare spelar en viktig roll för att anpassa innehållet efter sammanhanget. Den dynamiska karaktären hos dessa platshållare gör att de kan fyllas med förstärkningsvärden, som kan variera beroende på olika faktorer. Till exempel kan förstärkningsvärdena vara olika för varje produkt eller kategori. Den verkliga fördelen med denna funktion kommer in när du har en mängd olika föremål med olika egenskaper. Du kan effektivt använda dessa dynamiska platshållare för att anpassa och förbättra visningen av varje objekt och därigenom skapa en unik och interaktiv upplevelse på dina målsidor.",
+      "assign_tips": "För att tilldela dynamiska värden till bilder, klicka på matarknappen på vänster sida av avsnittet.",
+      "set_dynamic_image_tips": "Du har nu möjlighet att ändra bildens URL och tilldela den ett dynamiskt värde.",
+      "enter_values_tips": "För varje produkt har du möjlighet att tilldela dedikerade nyckel-värdepar.",
+      "result_tips": "Detta är det slutliga resultatet av sidan, där platshållare har ersatts med utökade värden."
+    }
+  },
+  "logistic_profile_editor": {
+    "languages": {
+      "title": "Flerspråkig",
+      "subtitle": "Detta är listan över innehållsspråk. Du kan ställa in olika innehåll för logistikprofilen på varje språk.",
+      "add_caption": "Lägg till ny artikel",
+      "no_more_language": "Inget mer språk!"
+    },
+    "content": {
+      "title": "Innehåll",
+      "subtitle": "Du kan anpassa innehållet för logistikprofilen på flera språk.",
+      "language_input": "Aktuellt artikelspråk",
+      "delete_article": "Ta bort artikel",
+      "menu_tooltip": "Översätt automatiskt / ta bort artikel"
+    },
+    "translate_to": "Översätt till",
+    "notifications": {
+      "translate": {
+        "message": "Artikelöversättningen har slutförts."
+      },
+      "save_article": {
+        "message": "Artikeln har sparats."
+      },
+      "delete_article": {
+        "message": "Artikeln har raderats."
+      }
+    },
+    "delete_dialog": {
+      "message": "Är du säker på att ta bort den här artikeln för alltid?",
+      "action": "Ja, radera nu"
+    }
+  },
+  "logistic_profile_products": {
+    "title": "Produkter",
+    "subtitle": "Lista över produkter associerade med denna profil."
+  },
+  "logistic_profile_setting": {
+    "title": "Allmän information",
+    "inputs": {
+      "name": {
+        "message": "Detta namn visas för dig och kommer inte att avslöjas för allmänheten."
+      },
+      "accept_delete": {
+        "true_description": "Den här åtgärden tar bort alla artiklar och profillänkar.",
+        "true_title": "Jag verifierar att ta bort den här anslutningen."
+      }
+    },
+    "actions": {
+      "remove": "Ta bort profil och relationer"
+    }
+  },
+  "shop_logistic_profiles": {
+    "title": "Logistikprofiler",
+    "add_caption": "Lägg till ny profil",
+    "subtitle": "Du kan skapa och redigera garanti- och returpolicyn för produkter här och tilldela den till alla produkter. Du kan definiera olika garantipolicyer för olika typer av produkter.",
+    "add_dialog": {
+      "title": "Skapa ny logistikprofil",
+      "config": {
+        "title": "Allmän information",
+        "subtitle": "Välj profiltyp. Det kan vara en guide, garanti eller annat innehåll och material som vanligtvis delas mellan flera produkter."
+      },
+      "article": {
+        "title": "Artikel",
+        "subtitle": "Du kan lägga till fler språk efter att du har skapat den här logistikprofilen."
+      },
+      "inputs": {
+        "name": {
+          "message": "Detta namn visas för dig och kommer inte att avslöjas för allmänheten.",
+          "placeholder": "Ange ett namn för profilen..."
+        }
+      }
+    }
+  },
+  "shop_logistic_includes": {
+    "title": "Inkluderade föremålshantering",
+    "add_caption": "Lägg till nytt objekt",
+    "subtitle": "Här kan du hantera artiklarna som ingår i dina produkter. För att säkerställa ett perfekt utseende för din butik, använd konsekvent föremål med liknande bildmönster, såsom trådramar, i alla produkter.",
+    "empty_list_msg": "Lista över inkluderade artiklar...",
+    "notifications": {
+      "delete": {
+        "message": "Objektet har tagits bort."
+      }
+    },
+    "delete_dialog": {
+      "title": "Ta bort inkluderat objekt",
+      "message": "Är du säker på att du vill ta bort det här objektet permanent? Observera att den också kommer att tas bort från alla associerade produkter!",
+      "action": "Ja, radera nu"
+    },
+    "actions": {
+      "edit_linked_page": "Redigera länkad sida"
+    }
+  },
+  "include_item_add": {
+    "dialog_title_edit": "Redigera inkluderat objekt",
+    "dialog_title_add": "Skapa ny inkluderad artikel",
+    "title": "Inkluderad vara",
+    "subtitle": "Välj en kort titel, helst med högst 2 till 3 ord. Använd fyrkantiga bilder, eftersom vi automatiskt ändrar storlek på uppladdade bilder till ett 256x256 kvadratformat. För bästa utseende i alla mallar, använd minimalistiska bilder med transparent bakgrund och upprätthåll ett enhetligt mönster genom hela dina produkter.",
+    "inputs": {
+      "title": {
+        "placeholder": "Kortfattad titel visas på produktsidan..."
+      },
+      "code": {
+        "placeholder": "Unik kod, ex. mobil_kabel_usb",
+        "hint": "Använd den här koden för att effektivisera sökprocessen för att hitta föremål."
+      },
+      "description": {
+        "placeholder": "En kort beskrivning av detta föremål...",
+        "hint": "Beskrivning kommer att användas för SEO och kanske synlig för användare på vissa anpassade layouter på produktsidan."
+      },
+      "image": {
+        "message": "Max bildstorlek: 1MB"
+      },
+      "path": {
+        "label": "Sidans sökväg"
+      }
+    },
+    "mode": {
+      "no_link": {
+        "title": "Ingen länk"
+      },
+      "external_link": {
+        "title": "Extern länk",
+        "description": "Ange en länk till en extern url.",
+        "tips": "Du kan bifoga vilken URL som helst till objektet. När användare klickar på objektet på produktsidan kommer de att omdirigeras till den länken."
+      },
+      "internal_link": {
+        "title": "Intern länk",
+        "description": "Skapa en dynamisk sida genom tillhandahållen förstärkningsdata för detta objekt.",
+        "tips": "Du kan länka en målsida till profilen och ange en anpassad sökväg och dynamiskt innehåll för den. Selldone kommer att generera en dynamisk länk för objektet."
+      }
+    },
+    "notifications": {
+      "add": {
+        "message": "Det inkluderade objektet har lagts till."
+      },
+      "edit": {
+        "message": "Det inkluderade objektet har uppdaterats."
+      }
+    }
+  },
+  "shop_logistic_returns": {
+    "title": "Returnerade beställningar",
+    "subtitle": "Dina kunder kan returnera sina fysiska beställningar och du kan se returförfrågningar på orderhanteringssidan eller få tillgång till en komplett lista över returnerade beställningar här."
+  },
+  "referral_fees": {
+    "title": "Provisioner",
+    "subtitle": "Listan över alla provisioner du har tjänat på dina hänvisningar. Det tar upp till 30 dagar för provisionen att godkännas och överföras till din plånbok."
+  },
+  "referral_wallets": {
+    "title": "Plånböcker",
+    "subtitle": "Här kan du se de provisionsavgifter du har tjänat in. Du kan överföra dina provisionsavgifter till ditt bankkonto eller din Selldone-plånbok.",
+    "no_commission_yet": "Du har inte fått någon provision ännu.",
+    "no_wallet": "Ingen plånbok!",
+    "withdraw_dialog": {
+      "title": "Dra tillbaka provisionsavgifter",
+      "need_bank_info_message": "Vänligen ange din bankinformation först.",
+      "to_wallet": {
+        "title": "Till Plånbok",
+        "subtitle": "Med det här alternativet kan du överföra provisionsavgifter till din Selldone-plånbok. Se till att en plånbok är ansluten som din presentplånbok och att den fungerar med samma valuta."
+      },
+      "to_bank": {
+        "title": "Till banken",
+        "subtitle": "Med det här alternativet kan du överföra provisionsavgifter till din Selldone-plånbok. Se till att en plånbok är ansluten som din presentplånbok och att den fungerar med samma valuta."
+      },
+      "inputs": {
+        "verify_to_wallet": {
+          "true_description": "Jag vill överföra min provision till min Selldone-plånbok."
+        },
+        "verify_to_bank": {
+          "true_description": "Jag verifierar min bankinformation och jag vill överföra min provision till mitt bankkonto."
+        }
+      },
+      "actions": {
+        "withdraw_to_wallet": "Dra ut till plånboken",
+        "withdraw_to_bank": "Ta ut till bank"
+      }
+    },
+    "notifications": {
+      "request_transfer_to_bank_success": "Din förfrågan har tagits emot och vi kommer att granska den."
+    }
+  },
+  "monetize_referral": {
+    "copy_box": {
+      "message": "Du kan lägga till <b>?ref={code}</b> till vilken webbadress som helst."
+    },
+    "intro": {
+      "title": "Gå med i Selldones affiliateprogram",
+      "message": "Selldones affiliateprogram är enkelt och okomplicerat, designat för att du ska kunna tjäna utan ansträngning. Dela din unika affiliate-länk för att bjuda in nya användare till Selldone, så får du en provision på varje transaktion de gör – för alltid. Detta inkluderar intäkter från prenumerationer, serviceavgifter, butiksuppgraderingar och alla andra intäktsströmmar. Börja tjäna en del av intäkterna utan några begränsningar i tid eller intäkter. Gå med oss och förvandla ditt nätverk till en stadig inkomst!",
+      "why_join_selldone_affiliate": "Varför är detta en unik möjlighet?",
+      "reasons": [
+        "Det varar för evigt!",
+        "Täcker alla prenumerations- och transaktionsavgifter. Bokstavligen varje betalning av användaren på Selldone.",
+        "Vi skickar en gratis kupong på $99 till alla som registrerar sig med din länk.",
+        "När din nivå uppgraderas kommer du att tjäna till den nya kursen från alla tidigare hänvisade användare."
       ]
     }
   }

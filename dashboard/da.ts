@@ -7,14 +7,18 @@ export default {
     "start_free": "Start gratis",
     "featured_apps": "Udvalgte apps",
     "more_apps": "Flere apps",
-    "my_public_profile": "Min offentlige profilside"
+    "my_public_profile": "Min offentlige profilside",
+    "product_admin": "Produkt Admin"
   },
   "numbers": {
     "infinite": "Ubegrænset"
   },
   "error": {
     "not_fount_data": "Data ikke fundet!",
-    "license_max_limit": "Din licens nåede grænsen!"
+    "license_max_limit": "Din licens nåede grænsen!",
+    "no_read_access": "Ingen læseadgang",
+    "no_write_access": "Ingen skriveadgang",
+    "no_access": "Ingen adgang"
   },
   "time_spans": {
     "days_range": "Dags rækkevidde",
@@ -240,7 +244,9 @@ export default {
         "buys": "Indkøb",
         "payments": "Betalinger",
         "orders": "Ordre:% s",
-        "currency": "betalingsmiddel"
+        "currency": "betalingsmiddel",
+        "no_payment": "Ingen betaling!",
+        "no_purchase": "Intet køb!"
       }
     }
   },
@@ -283,7 +289,8 @@ export default {
       "apps": "Apps",
       "pos": "POS",
       "seo": "SEO",
-      "localization": "Lokalisering"
+      "localization": "Lokalisering",
+      "classification": "Klassifikation"
     },
     "dashboard": {
       "title": "Butiks dashboard",
@@ -419,6 +426,10 @@ export default {
         "orders": "Ordre:% s",
         "payments": "Betalinger",
         "no_visitor_today": "Du havde ingen besøgende i dag."
+      },
+      "channels": {
+        "title": "Opkøbskanaler",
+        "subtitle": "Din virksomhed vokser. Her er rapporten over dine kundeanskaffelseskanaler."
       }
     },
     "products": {
@@ -452,7 +463,41 @@ export default {
         "views": "Visninger",
         "views_unit": "Tider"
       },
-      "menu_advanced_options": "Avancerede indstillinger"
+      "menu_advanced_options": "Avancerede indstillinger",
+      "products_rss": {
+        "title": "Produkter RSS",
+        "subtitle": "Import af produkter til Google, Meta, ..."
+      },
+      "products_api": {
+        "title": "Produkter API",
+        "subtitle": "Import af produkter via et offentligt tilgængeligt API-kald."
+      },
+      "google_sheet": {
+        "action": "Sammenkædet ark",
+        "tooltip": "Produkterne i denne butik er knyttet til et Google-ark i Google Drev."
+      },
+      "show_deletes": {
+        "false_title": "Skjul slettet",
+        "true_title": "Vis slettet"
+      },
+      "show_vendors": {
+        "false_title": "Skjul leverandører",
+        "false_description": "Vis alle leverandører, ⌘Ctrl+1",
+        "true_title": "Vis leverandører"
+      },
+      "show_notes": {
+        "false_title": "Skjul noter",
+        "false_description": "Vis alle noter, ⌘Ctrl+2",
+        "true_title": "Vis noter"
+      },
+      "rss_dialog": {
+        "title": "Produkter RSS",
+        "subtitle": "Brug dette RSS-feed til at holde en ajourført liste over alle produkter."
+      },
+      "api_dialog": {
+        "title": "Produkter API",
+        "subtitle": "Brug dette API-feed til at holde din produktliste opdateret. Det giver en offentligt tilgængelig API til at hente produkter fra din butik, hvilket gør den ideel til produktliste og sammenligningswebsteder."
+      }
     },
     "blogs": {
       "new": "Skriv nyt",
@@ -515,7 +560,8 @@ export default {
         "tax": "Skat",
         "drop_shipping": "Forhandlerkvitteringer",
         "reseller_accounts": "Forhandlerkonti",
-        "valuations": "Værdiansættelser"
+        "valuations": "Værdiansættelser",
+        "customer_wallets": "Kunde tegnebøger"
       },
       "invoice": {
         "title": "Shop linkede tegnebøger",
@@ -687,7 +733,23 @@ export default {
           "cod_false": "Accepter kun online betaling",
           "cod_true_message": "Sørg for, at din forsendelsesservice accepterer efterkrav."
         }
-      }
+      },
+      "restriction": {
+        "title": "Forsendelsesbegrænsning",
+        "subtitle": "Du kan implementere begrænsninger for at sikre, at kun kunder inden for de udpegede forsendelsesområder kan foretage køb hos dig!",
+        "no_enable_shipping_error": "Ingen kan købe fra dig, fordi du ikke har nogen aktiveret forsendelsesmetode!",
+        "customer_must_select_a_shipping_msg": "Kunden skal vælge en forsendelsesmetode for at bestille.",
+        "customer_can_order_without_shipping_method_msg": "Kunden kan afgive ordren, selvom ingen forsendelsesmetode understøttes for det valgte sted.",
+        "inputs": {
+          "restriction": {
+            "false_description": "Kunder kan stadig afgive ordrer, selvom der ikke er valgt en bestemt forsendelsesmetode.",
+            "false_title": "Accepter alle ordrer",
+            "true_title": "Begrænset accept af ordre",
+            "true_description": "Kunder er forpligtet til at vælge enten en forsendelses- eller afhentningsmulighed for at gennemføre deres køb."
+          }
+        }
+      },
+      "no_multi_warehouse_support_message": "For nemheds skyld er denne funktion ikke tilgængelig i normale butikker."
     },
     "users": {
       "menu": {
@@ -1062,24 +1124,46 @@ export default {
       "product_name": "Produktnavn*",
       "product_name_placeholder": "Dit produktnavn her..",
       "product_code": "Produktkode (engelsk)",
-      "sku": "SKU",
+      "sku": {
+        "label": "SKU",
+        "message": "Lagerholdenhed"
+      },
       "sku_message": "Lagerholdende enhed",
-      "mpn": "MPN",
+      "mpn": {
+        "label": "MPN",
+        "message": "Producentens varenummer"
+      },
       "mpn_message": "Producentens varenummer",
-      "status": "Status",
+      "status": {
+        "title": "Status",
+        "subtitle": "Produktets status bestemmer dets tilgængelighed online og i butikken. For at lave et produktudkast skal du blot skifte dets status til 'Inaktiv'."
+      },
       "external_link": "Eksternt link",
-      "brand": "Mærke",
+      "brand": {
+        "label": "Mærke",
+        "placeholder": "Mærke Ex. Apple.. (Valgfrit)"
+      },
       "brand_placeholder": "Mærke Ex. Apple.. (Valgfrit)",
-      "warranty": "Garanti",
+      "warranty": {
+        "subtitle": "Indstil garanti og produktstatus, da disse oplysninger vedrørende garanti vil blive vist for kunden og hjælper med at fastlægge den tidsramme, inden for hvilken produkter kan returneres efter køb.",
+        "label": "Garanti",
+        "placeholder": "Gyldne 24 måneders garanti.. (Valgfrit)"
+      },
       "is_original": "Er dette et originalt produkt?",
       "is_original_message": "Hvis du ikke indstiller dit produkt originalt, vil det falske badge blive vist for dette produkt.",
       "return_warranty": "Hvor mange dage har dette produkt returgaranti?",
       "warehouse_section": "Lager & Produktion",
       "conditions_section": "Produktbetingelser",
       "warranty_section": "Garanti & levering",
-      "unit": "Produktenhed",
+      "unit": {
+        "subtitle": "Du kan personliggøre visningen af priser og call-to-action-elementer på produktsiden."
+      },
       "unit_message": "Indtast enheden, hvis det er nødvendigt. Eks: KG, Meter, ...",
-      "condition": "Produktets stand i din butik",
+      "condition": {
+        "label": "Produktets stand i din butik",
+        "message": "Vælg venligst tilstanden for dette produkt.",
+        "subtitle": "Informer dine kunder om tilstanden og mærket af det produkt, du tilbyder."
+      },
       "condition_message": "Du skal vælge en af værdierne i dette felt.",
       "unit_section": "Produktenhed",
       "unit_float": "Flydeenhed (snart)",
@@ -1103,6 +1187,46 @@ export default {
         "single_vendor_desc": "Dette produkt tilhører en leverandør, og den valgte leverandør kan administrere det.",
         "multi_vendors_title": "Flere leverandører",
         "multi_vendors_desc": "Dette produkt tilhører markedspladsen og kan kun redigeres i markedspladspanelet."
+      },
+      "category_input_msg": "Tom: I butikkens rod",
+      "unit_input": "Produktenhed",
+      "category": {
+        "subtitle": "Konfigurer den kategori og titel, der skal vises i din fortegnelse."
+      },
+      "custom_pricing": {
+        "title": "Tilpasset prisformular",
+        "subtitle": "Du kan oprette eller tildele en værdiansættelse (en prisindtastningsformular) til produktet, og dine kunder kan vælge mellem varianter eller tilpasse dit merchandise ved hjælp af en intuitiv inputformular.",
+        "valuation_need_saved_product_message": "Gem venligst produktet først, og derefter kan du tildele en værdiansættelsesmodel.",
+        "assign_valuation_message": "Tildel venligst en værdiansættelsesmodel til dette produkt.",
+        "edit_pricing_action": "Rediger prisformular",
+        "add_pricing_action": "Opret ny prisformular"
+      },
+      "action": {
+        "title": "Brugerdefineret købsknap",
+        "message": "Du kan ændre ikon ved at følge dette mønster: {icon name} billedtekst...",
+        "placeholder": "Indtast opfordring til handling...",
+        "multi_language_dialog_title": "Brugerdefineret købsknap billedtekst"
+      },
+      "warehouse": {
+        "subtitle": "Disse oplysninger bruges af lagerstyringssystemet og tjener til at identificere produktet globalt."
+      },
+      "gtin": {
+        "hint": "Understøttede værdier er UPC (Nordamerika, 12 cifre), EAN (Europa, 13 cifre), JAN (Japan, 8 eller 13 cifre), ISBN (bøger, 13 cifre).",
+        "label": "Produktets globale varenummer",
+        "placeholder": "Globalt handelsnummer her.. (Valgfrit)"
+      },
+      "hsn": {
+        "hint": "HSN, eller Harmonized System of Nomenclature, er et internationalt standardiseret klassifikationssystem til at kategorisere varer og produkter.",
+        "placeholder": "6~16 cifre HSN-kode.. (Valgfrit)",
+        "label": "HSN"
+      },
+      "profiles": {
+        "title": "Profiler",
+        "subtitle": "Du kan definere garanti, returpolitik, forsendelse og guide og tildele dem til dette produkt. Det vil blive vist som nye faner på produktsiden."
+      },
+      "shortcuts": {
+        "title": "Tildel produkt til yderligere kategorier",
+        "subtitle": "Denne funktion giver dig mulighed for at liste produktet i flere kategorier, mens du bevarer dets placering i den primære kategori, der er sat under Produkt > Rediger > Kategori. Grundlæggende fungerer det på samme måde som at skabe 'genveje' i operativsystemer, hvilket gør det muligt for produktet at blive vist i yderligere specificerede kategorier."
       }
     },
     "rating_pros_cons": {
@@ -1181,12 +1305,55 @@ export default {
         "code_input": "Produkt ID",
         "code_input_message": "Produktkode: P0000 ...",
         "spec_view_title": "Specifikationer for det valgte produkt",
-        "set_spec_action": "Dublerede tekniske specifikationer"
+        "set_spec_action": "Dublerede tekniske specifikationer",
+        "spec_view_subtitle": "Specifikationerne er importeret fra det valgte produkt."
       },
       "notifications": {
         "enter_group_title_error": "Indtast overskriftsværdi",
         "enter_item_title_and_value_error": "Indtast titlen og værdien af funktionen",
         "spec_saved_success": "Produktspecifikationer gemt."
+      },
+      "subtitle": "Indsæt produktspecifikationer her. Denne information vil blive vist til kunder og kan også bruges i kategoriens intelligente filtreringssystem.",
+      "manual": {
+        "title": "Manuelt",
+        "subtitle": "Tilføj produktspecifikationer manuelt ved at definere grupper og nøgleværdipar.",
+        "add_group_action": "Tilføj gruppe",
+        "add_item_action": "Tilføj spec-værdi"
+      },
+      "import": {
+        "subtitle": "Du kan importere tekniske specifikationer for lignende produkter.",
+        "action_title": "Importere",
+        "action_subtitle": "Klon spec fra et andet produkt."
+      },
+      "ai": {
+        "title": "AI",
+        "subtitle": "Du kan automatisk oprette produktspecifikationer ved at indsende produktets rådata i tekstform.",
+        "action_title": "Automatisk generering af AI",
+        "action_subtitle": "Opret produktspecifikationer ved abstrakt prompt."
+      },
+      "dialog_ai": {
+        "title": "Generer automatisk produktspecifikationer",
+        "prompt": {
+          "title": "Produktoversigt",
+          "subtitle": "Giv venligst en kort og klar beskrivelse af produktet, hvor du fremhæver dets vigtigste funktioner og detaljer. Disse oplysninger vil blive brugt til automatisk at generere produktspecifikationerne."
+        },
+        "generated_spec": {
+          "title": "AI-genererede specifikationer",
+          "subtitle": "Disse specifikationer blev genereret af kunstig intelligens."
+        },
+        "inputs": {
+          "prompt": {
+            "label": "Produktdetaljer",
+            "placeholder": "Beskriv produktet her..."
+          }
+        },
+        "actions": {
+          "run": {
+            "title": "Generer specifikationer",
+            "subtitle": "Klik for automatisk at oprette produktspecifikationer fra den medfølgende oversigt."
+          },
+          "add_generated_spec": "Tilføj genererede specifikationer"
+        }
       }
     },
     "edit_images": {
@@ -1204,6 +1371,24 @@ export default {
       "video": {
         "title": "Video",
         "sub_title": "Upload først din produktvideo på Youtube, og læg derefter videoens URL her."
+      },
+      "change_bg_ai": {
+        "title": "Opret billede med ny baggrund",
+        "inputs": {
+          "prompt": {
+            "label": "Baggrundsbeskrivelse",
+            "placeholder": "Beskriv den ønskede baggrund..."
+          }
+        },
+        "actions": {
+          "reimagine": {
+            "title": "Generer nyt billede",
+            "subtitle": "Genforestil hele billedet med en ny baggrund."
+          },
+          "replace": {
+            "subtitle": "Udskift den eksisterende baggrund."
+          }
+        }
       }
     },
     "pricing": {
@@ -1227,14 +1412,33 @@ export default {
       "variant_pricing_message": "Ved at vælge denne mulighed kan prisen på denne variant indstilles uafhængigt af hovedproduktet.",
       "price_label_input": "Prismærke",
       "price_label_message": "Tilføj ekstra info om pris som ($1,5/Fl Oz). Brugssager: købmand, FMCG.",
-      "add_price_label_action": "Tilføj prismærke"
+      "add_price_label_action": "Tilføj prismærke",
+      "subtitle": {
+        "marketplace": "Inden for markedspladsen er den primære produktpris, der vises, noteringsprisen, mens den faktiske pris bestemmes baseret på leverandør-produktrelationsregistreringerne.",
+        "subscription": "For abonnementer vises kun noteringsprisen, mens den faktiske pris bestemmes ud fra den valgte abonnementsplan.",
+        "service": "For servicebaserede produkter er de anførte priser udelukkende til visningsformål, hvilket giver en estimeret pris for tjenesten. Den faktiske servicepris vil blive bestemt af dig, når kunden har afgivet sin ordre (ved kassen).",
+        "file": "Dette refererer til den anførte og faktiske pris på filen, som kunder skal betale for at få adgang til filerne.",
+        "default": "Dette refererer til produktets anførte pris og tager også højde for prisen på eventuelle varianter, der ikke har særskilt prissætning."
+      },
+      "extra_pricings": {
+        "title": "Tilføj ekstra pris",
+        "subtitle": "Anvend varierende priser baseret på den købte mængde."
+      },
+      "vendor": {
+        "title": "Leverandørpriser",
+        "subtitle": "Denne pris vil kun blive vist i produktoversigten. Du kan indstille leverandørprisen på fanen Produkt > Leverandører.",
+        "manage_vendors": "Administrer leverandører",
+        "vendor_product_pricing_link": "Sælgerens produktpriser er forbundet. Ændring af fortegnelsesprisen her vil påvirke leverandørprodukter uden varianter eller dem med varianter, der ikke har deres egen prissætning (med samme pris som hovedproduktet). Denne pris vil blive behandlet som markedspladsprisen, og leverandørens pris vil blive fastsat baseret på prismodellen eller den tidligere markedsplads-avance.",
+        "vendor_variant_pricing_link": "Ændring af variantprisen her vil påvirke prissætningen af leverandørprodukter med samme variant. Denne pris vil blive betragtet som markedspladsprisen, og leverandørens pris vil blive fastsat i henhold til prismodellen eller den tidligere markedsplads-avance."
+      }
     },
     "inputs_edit": {
       "title": "Indtastningsform for køberoplysninger",
       "sub_title": "Du kan oprette en dataindtastningsformular for hvert produkt, så kunder sender dig oplysninger, når de køber et produkt. For eksempel kan denne information være et navn for en gravering på en sten.",
       "message_input": "Besked til bruger",
       "message_input_message": "Denne besked vil blive vist til kunden ved køb af produkter.",
-      "inputs_form": "Informationsstruktur (input)"
+      "inputs_form": "Informationsstruktur (input)",
+      "inputs_hint": "Du har mulighed for at oprette en personlig formular for at indsamle detaljer fra dine kunder, når de er klar til at afgive en ordre."
     },
     "extra_edit": {
       "physical": {
@@ -1244,6 +1448,13 @@ export default {
       "notifications": {
         "save_title": "Emballage opdateret",
         "save_msg": "Produktemballageoplysninger blev opdateret."
+      },
+      "order_limit": {
+        "title": "Bestillingsgrænser",
+        "subtitle": "Hvis du er grossist, eller der er en minimums- eller maksimumgrænse for mængden af denne vare pr. ordre, kan du angive det her.",
+        "no_limit": "Ingen grænse",
+        "minimum_purchase_quantity": "Minimum købsmængde",
+        "maximum_purchase_quantity": "Maksimal købsmængde"
       }
     },
     "variants": {
@@ -1251,7 +1462,8 @@ export default {
     },
     "delete_product": {
       "title": "Fjern produktet",
-      "message": "Vil du slette <b>{product_title}</b> ?"
+      "message": "Vil du slette <b>{product_title}</b> ?",
+      "tips": "Hvis du ved et uheld sletter et produkt, kan du gendanne det ved at navigere til din Butik > Produkter, aktivere Vis slettede varer og derefter højreklikke på produktet og vælge Gendan."
     }
   },
   "product_admin": {
@@ -1275,7 +1487,11 @@ export default {
         "type": "Type",
         "inputs": "Indtast information",
         "outputs": "Output information",
-        "user_data_form": "Formular til køberinformation"
+        "user_data_form": "Formular til køberinformation",
+        "staff_messages": "Personale beskeder",
+        "add_note": "Tilføj note",
+        "product_tags": "Produkt tags",
+        "edit_tags": "Rediger tags"
       },
       "orders": {
         "title": "Ordre:% s",
@@ -1283,7 +1499,9 @@ export default {
         "physical_orders_title": "Indkøbsvogne med dette produkt",
         "send_30days_title": "Afsendt ordrer inden for de sidste 30 dage",
         "downloads_30days_title": "Fil downloadet nummer inden for de seneste 30 dage",
-        "virtual_orders_title": "Dette produkts ordrer afventer færdiggørelse"
+        "virtual_orders_title": "Dette produkts ordrer afventer færdiggørelse",
+        "send_count_in_period": "Sendte ordrer mellem {start} ~ {end}",
+        "downloads_count_in_period": "Antal downloadede filer mellem {start} ~ {end}"
       },
       "inventory": {
         "title": "Beholdning",
@@ -1298,7 +1516,8 @@ export default {
           ]
         },
         "subscribers_title": "Abonnenter",
-        "subscribers_title_small": "I alt tegnede ordrer"
+        "subscribers_title_small": "I alt tegnede ordrer",
+        "total_sell_timespan": "Samlet salg mellem {start} ~ {end}"
       },
       "finance": {
         "title": "Finansiel",
@@ -1327,7 +1546,9 @@ export default {
           "participate": "Deltagelse",
           "participate_title": "Antallet af bidrag",
           "score": "Score"
-        }
+        },
+        "total_participation_tooltip": "Samlet antal bedømmere for produktet.",
+        "users_not_rated_msg": "Brugere har ikke bedømt dette produkt endnu."
       },
       "inform": {
         "title": "Kundens forventninger",
@@ -1403,7 +1624,11 @@ export default {
     "lead_time_dimension": "Time(r)",
     "bulk_action": "Massehandlinger",
     "bulk_action_input": "Opdater alle varianter",
-    "bulk_action_msg": "Indstil produktpakning og klargøringstid for alle varianter."
+    "bulk_action_msg": "Indstil produktpakning og klargøringstid for alle varianter.",
+    "weight_subtitle": "Indtast produktets samlede emballagevægt her. Disse oplysninger hjælper med at vælge den rigtige forsendelsesmetode og sikrer, at ordren ikke overskrider forsendelsesgrænsen.",
+    "size_subtitle": "Indtast produktets fulde emballagestørrelse her. Disse oplysninger bruges til at vælge den korrekte forsendelsesmetode og sikre, at ordren ikke overskrider pakkestørrelsesgrænsen.",
+    "lead_time_subtitle": "Leveringstiden estimerer den varighed, der kræves for at forberede et produkt til forsendelse, hvilket hjælper med at estimere leveringstiden.",
+    "bulk_action_subtitle": "Du kan anvende emballageoplysningerne på alle produktvarianter."
   },
   "product_images_list": {
     "upload_button": "Flere produktbilleder",
@@ -1488,10 +1713,14 @@ export default {
     },
     "notifications": {
       "save_success": "Lagerændring gemt."
-    }
+    },
+    "title": "Butiks inventar",
+    "subtitle": "Liste over alle produkter i butikken.",
+    "cant_set_here": "Kan ikke indstilles her"
   },
   "spec_view": {
-    "auto_save_input": "Gem automatisk"
+    "auto_save_input": "Gem automatisk",
+    "auto_save_input_message": "Ændringer gemmes automatisk."
   },
   "time_progress_bar": {
     "title_before_start": "Tilbage til start",
@@ -1752,6 +1981,33 @@ export default {
       },
       "notifications": {
         "edit_success": "Kategori redigeret."
+      },
+      "manually_update_filters_tips": "<b>Vigtig!</b> Filtre opdateres automatisk, når produkterne ændres. Men efter at have foretaget ændringer af produkter i en kategori, skal du vende tilbage hertil og klikke på knappen Gem/gendan for at opdatere filteret.",
+      "inputs": {
+        "spec": {
+          "message": "Liste over funktioner, som du ønsker skal vises i filtersektionen",
+          "placeholder": "Vælg specifikationer, der skal vises i filter..."
+        }
+      }
+    },
+    "config": {
+      "subtitle": "Kategorier hjælper med at strømline produktstyring og gør det nemmere for dine kunder at finde produkter i din butik."
+    },
+    "parent": {
+      "subtitle": "Denne kategori vises under dens overordnede kategori. Hvis et produkt ikke har en overordnet kategori, vil det blive vist i hovedkategorien."
+    },
+    "template": {
+      "title": "Skabelon",
+      "edit_page": "Rediger side",
+      "Pages_list": "Sideliste",
+      "subtitle": "Du kan forbedre visningen af din kategoriside ved at overlejre en tilpasset side. Den bedste tilgang er at oprette sider med gennemsigtige baggrunde og designe 1 til 2 sektioner, der er specifikke for hver kategori. Du kan derefter linke en side til flere kategorier ved at bruge dynamisk indhold til at skræddersy hver kategori individuelt."
+    },
+    "critical_zone": {
+      "title": "Kritisk zone",
+      "subtitle": "Hvis du fjerner en kategori, vil dens underkategorier og produkter blive flyttet til det overordnede bibliotek <b>📁 {parent}</b> . For at administrere kategorier, der ikke er på produktlisten, skal du gå til fanen Butik > Kategorier.",
+      "accept_delete": {
+        "true_description": "Jeg vil gerne fjerne denne kategori.",
+        "true_title": "Bekræft Fjern kategori"
       }
     }
   },
@@ -1807,7 +2063,8 @@ export default {
       "name_available": "Dette navn ({name}) er tilgængeligt.",
       "add_success": "Butik {title} oprettet.",
       "edit_success": "Butik redigeret."
-    }
+    },
+    "description_input_tips": "Denne beskrivelse vises i din butiks sidefod og vil også blive brugt som standard metatag-beskrivelse for dine butikssider."
   },
   "virtual_items_list": {
     "add_virtual_item": "Tilføj virtuelt element",
@@ -1896,7 +2153,13 @@ export default {
       "title": "Grund til at afvise ordren",
       "message": "Vælg årsagen til at afvise denne ordre fra listen nedenfor. Sørg for at informere kunden om annullerings- og refusionsprocessen. Refusion skal ske inden for 12 timer.",
       "confirm_action": "Aflys ordre",
-      "dismiss_reject_action": "Afvis ordreannulleringen"
+      "dismiss_reject_action": "Afvis ordreannulleringen",
+      "confirm_now_action": "Annuller bestilling nu",
+      "confirm_in48h_action": "Annuller ordre om 48 timer",
+      "options": {
+        "title": "Muligheder",
+        "subtitle": "Hvis du vil annullere din ordre med det samme, kan du bruge denne mulighed."
+      }
     },
     "notifications": {
       "update_status_success": "Ordrestatus opdateret.",
@@ -2019,7 +2282,8 @@ export default {
         "pay_fail_title": "Ikke betalt",
         "pay_fail_message": "Betaling kan ikke godkendes!"
       },
-      "total_order_price_before_tax": "Samlet pris før skat"
+      "total_order_price_before_tax": "Samlet pris før skat",
+      "require_capture": "Kræv optagelse"
     },
     "basket_list": {
       "checklist": [
@@ -2031,7 +2295,23 @@ export default {
       "list_of_items": "Indkøbsvognsliste",
       "apply_change_action": "Anvend ændringer",
       "cant_apply_change": "Kan ikke foretage ændringer",
-      "lottery_prize_inform": "Din kunde vinder 1x af dette produkt. Send gave med denne ordre."
+      "lottery_prize_inform": "Din kunde vinder 1x af dette produkt. Send gave med denne ordre.",
+      "need_to_refund": {
+        "title": "Refusion kræves til kunden",
+        "message": "Vi beregner det samlede beløb for tilbagebetalinger, som du skal foretage manuelt. Det er beregnet baseret på ikke-tilgængelige varer og samlede refunderede værdier endnu.",
+        "calculated_approximately": "Beløbet er beregnet ca. Beregn venligst selv det nøjagtige beløb."
+      },
+      "need_payback": {
+        "title": "Kunden skal betale tilbage",
+        "message": "Vi har bemærket, at det samlede beløb, der refunderes til kunden, er højere end det skyldige beløb baseret på varerne i indkøbskurven. Du skal muligvis debitere din kunde for at få det overskydende beløb tilbage."
+      },
+      "need_no_refund": {
+        "title": "Ingen refusion nødvendig"
+      },
+      "total_refund": {
+        "title": "Samlet refunderet",
+        "message": "Det er det samlede beløb for refusioner, der automatisk foretages af din betalingsgateway. Kun nogle betalingstjenester understøtter denne funktion, så du skal refundere manuelt."
+      }
     },
     "preparing": {
       "title": "Forberedelse",
@@ -2047,7 +2327,9 @@ export default {
         "Følger standardregler i emballage.",
         "Udskriv en liste over varer og læg den i pakken.",
         "Print og sæt en etiket på æsken."
-      ]
+      ],
+      "items_weight_calculation": "Den samlede vægt af alle varer er {weight} {unit}",
+      "not_available_message": "Det er ikke tilgængeligt, når du er deaktiveret og beder om leveringsadresse, og brugeren har ikke udfyldt adresse efter køb!"
     },
     "basket_items": "Bestillingsvareliste",
     "delivered_dialog": {
@@ -2156,10 +2438,48 @@ export default {
     "developer_title": "Udviklertilstand",
     "developer_message": "Du kan behandle falske transaktioner, hvis gatewayen understøtter fejlretningstilstand.",
     "notifications": {
-      "edit_success": "Gateway {gateway_name} er redigeret."
+      "edit_success": "Gateway {gateway_name} er redigeret.",
+      "success_delete": "Betalingsmetode er blevet slettet!"
     },
     "developer_setting": "Udvikle & test",
-    "live_mode_message": "Alle transaktioner vil være i live-tilstand."
+    "live_mode_message": "Alle transaktioner vil være i live-tilstand.",
+    "status_title": "Status for betalingstjeneste",
+    "status_message": "Konfigurer betalingsmetoden som Aktiv eller Inaktiv. Kun metoder angivet som aktive vil blive vist til kunder.",
+    "status_true_description": "Dine kunder kan betale med denne betalingsmetode.",
+    "manual_title": "Manuel / Auto capture betaling",
+    "manual_message": "Når du opretter en betaling, kan du tilbageholde en kvalificeret betalingsmetode for at reservere midler, som du kan hente senere. For eksempel godkender hoteller ofte en fuld betaling, før en gæst ankommer, og trækker derefter pengene, når gæsten tjekker ud.",
+    "debug": {
+      "title": "Udvikle & test",
+      "subtitle": "Du kan aktivere fejlretningstilstanden for at teste betalingsgatewayen."
+    },
+    "limit": {
+      "title": "Bestillingsgrænse",
+      "subtitle": "Indstil minimumsordrebeløbet for denne betalingsgateway."
+    },
+    "limit_input": {
+      "title": "Minimum ordrebeløb",
+      "msg": "Nul betyder ingen grænse."
+    },
+    "currency_input": {
+      "message": "Den valuta, som denne betalingsgateway understøtter."
+    },
+    "gateway_code": "Gateway kode",
+    "hold_only_for": "Hold betaling kun tilgængelig for",
+    "manual_input": {
+      "false_description": "Betalingsstatus ændres automatisk fra afventende til bekræftet i betalingsudbydersystemet.",
+      "false_title": "Auto betalingsbekræftelse",
+      "true_title": "Tilbagehold betalinger og manuel bekræftelse",
+      "true_description": "Hold en betaling tilbage, så du skal bekræfte betalingerne for en ordre for at ændre deres status fra afventende til bekræftet i betalingsudbyderens system."
+    },
+    "delete_verify_input": {
+      "true_title": "Jeg vil gerne fjerne denne betalingsmetode.",
+      "true_description": "Denne betalingsmetode vil blive fjernet fra butikken og vil ikke være tilgængelig for kunder."
+    },
+    "delete_alert": {
+      "title": "Slet betalingsmetode",
+      "message": "Er du sikker på at slette denne betalingsmetode fra din butik?",
+      "action": "Slet betalingsmetode"
+    }
   },
   "gift_card": {
     "title": "Gavekort",
@@ -2368,7 +2688,9 @@ export default {
     "connect-remove-hold": "Ordren blev fjernet fra hold. {reason}",
     "connect-confirmed": "Ordren blev bekræftet.",
     "email-vendor": "🔔 Bestillingsinformation e-mail er blevet sendt til <b>{vendor}</b> ╏ {email}.",
-    "vendor-payout": "💸 Udbetaling til sælger."
+    "vendor-payout": "💸 Udbetaling til sælger.",
+    "sms-payment": "Send betalingsbekræftelses-sms til kunden via {phone}.",
+    "vendor-sms": "🔔 Bestillingsinformation SMS er sendt til <b>{vendor}</b> ╏ {phone}."
   },
   "inline_chart": {
     "today": "I dag",
@@ -2384,6 +2706,34 @@ export default {
     "notifications": {
       "copy_success": "Kopi af produkt.",
       "change_category_success": "Produktkategori redigeret."
+    },
+    "load_more_products": "Flere produkter er tilgængelige i denne kategori. Klik for at indlæse flere varer.",
+    "filter_box": {
+      "no_root_filter_message": "Du har produkter i root, men intet filter.",
+      "has_root_filter_message": "Du indstiller filtre til rodkategori.",
+      "set_filter_message": "Du kan indstille filtre.",
+      "edit_action": "Rediger rodfiltre",
+      "clear_action": "Ryd rodfiltre"
+    },
+    "ai": {
+      "title": "AI Produkt Assistance"
+    },
+    "menu": {
+      "select_all_products": "Vælg alle produkter",
+      "unselect": "Fravælg",
+      "sort_categories": "Arranger / Sorter kategorier",
+      "subscription_vendor_not_support_message": "Kan ikke tildele leverandør til abonnementsprodukter! Abonnementsprodukter skal altid have en leverandør som ejer!",
+      "vendor_owner_not_assignable_message": "Kan ikke tildele en leverandør til produkter med en leverandør som sin ejer!",
+      "category_assign_profile": "Tildel profil til produkter i kategorien",
+      "category_assign_profile_subtitle": "Skat, forsendelse, guide, garanti, ...",
+      "bulk_discount": "Masserabat",
+      "bulk_discount_subtitle": "Anvend rabat på alle produkter."
+    },
+    "engine": {
+      "title": "Ekstra produktmotor",
+      "subtitle": "Flere produkter vil blive indlæst fra udvalgte kategorier og tags.",
+      "load_in_tips": "Indlæs produkter fra kategorier i {category}.",
+      "action": "Rediger {category} motor"
     }
   },
   "physical_order_track": {
@@ -2419,7 +2769,9 @@ export default {
       "message": "Er du sikker på at du vil sende denne e-mail til din kunde igen?",
       "action": "Ja, send igen",
       "success": "E-mail gensendt til din kunde."
-    }
+    },
+    "message": "I dette afsnit kan du se tidslinjen for begivenheder relateret til ordren, opfyldelsen, betalingen og deres respektive statusser. Derudover kan du observere de ordrer, der sendes til både kunder og leverandører.",
+    "add_note_subtitle": "Skriv en besked og nævn dine kollegaer."
   },
   "accounts": {
     "title": "Min pung",
@@ -3253,7 +3605,15 @@ export default {
       "access": "Adgang til Min konto",
       "security": "Sikkerhed",
       "preferences": "Brugerpræferencer",
-      "my_subscriptions": "Mine abonnementer"
+      "my_subscriptions": "Mine abonnementer",
+      "my_public_profile_subtitle": "Min offentlige profil {name}.",
+      "personal_information_subtitle": "Rediger min profil, adresse og KYC.",
+      "wallet_subtitle": "Virtuelle konti og tilknyttede betalingskort.",
+      "companies_subtitle": "Registrer mine virksomheds- og skatteprofiler.",
+      "access_subtitle": "OAuth-klienter, personlige adgangstokens og tilsluttede apps.",
+      "security_subtitle": "Indstil to-faktor og administrer sociale login-muligheder.",
+      "preferences_subtitle": "Skift tema, niveau, sprog og standardvaluta.",
+      "my_subscriptions_subtitle": "Adgang til premium AI og tilpasningsfunktioner."
     }
   },
   "page_builder": {
@@ -3293,7 +3653,8 @@ export default {
         "tools": "Værktøjer",
         "history": "Historie",
         "style": "Stil",
-        "typography": "Typografi"
+        "typography": "Typografi",
+        "hierarchy": "Hierarki"
       },
       "no_category": "Ingen kategorier"
     },
@@ -3392,7 +3753,8 @@ export default {
     "samples": "Vis eksempler på butikker",
     "samples_message": "Hvis det er aktiveret, vil nogle eksempler på butikker blive vist i dit panel.",
     "automation": "Automatisering",
-    "automation_message": "Vis automatiseringsfanen på butikkens dashboard. (Webhooks, visuel programmering, ...)"
+    "automation_message": "Vis automatiseringsfanen på butikkens dashboard. (Webhooks, visuel programmering, ...)",
+    "date_time": "Dato og tid"
   },
   "shop_locations": {
     "title": "Lande, hvor der ydes service",
@@ -3419,7 +3781,31 @@ export default {
     "auto_category": "Auto-indstil kategori",
     "add_in_current_category": "Tilføj til den aktuelle kategori",
     "category_mode_message": "Hvis aktiveret, vil produktet blive tilføjet til standardkategorien eller underkategorien.",
-    "sku_name_input": "SKU / Navn"
+    "sku_name_input": "SKU / Navn",
+    "info": {
+      "subtitle": "For at generere produktet kan du kun indtaste de væsentlige detaljer, der er nødvendige for dets oprettelse."
+    },
+    "price": {
+      "subtitle": "Indtast pris og rabat for dette produkt. Når produktet er tilføjet, har du adgang til flere muligheder."
+    },
+    "by_sku": {
+      "title": "Tilføj efter SKU",
+      "subtitle": "Databasen i dit land er ikke tilgængelig."
+    },
+    "drop_shipping": {
+      "subtitle": "Find produkter på engrosmarkedet, og føj dem til din butik."
+    },
+    "by_connect": {
+      "subtitle": "Tilføj nemt produkter fra POD- eller dropshipping-leverandører med Selldone Connect OS - bare tilslut din butik og nyd automatisk produktintegration, uden behov for plugins."
+    },
+    "your_license_is_not_eligible": "Din licens er ikke kvalificeret.",
+    "sku_dialog": {
+      "title": "Tilføj produkt efter SKU",
+      "subtitle": "Du har mulighed for at finde produkter efter deres SKU i vores database og tilføje dem med blot et enkelt klik."
+    },
+    "dropshipping_dialog": {
+      "title": "Tilføj dropshipping-produkter"
+    }
   },
   "my_affiliate": {
     "title": "Mine tilknyttede kontrakter",
@@ -3509,7 +3895,8 @@ export default {
     "coupon": "Kupon",
     "offer": "Tilbud",
     "gift_card": "Gavekort",
-    "lottery": "Lotteri"
+    "lottery": "Lotteri",
+    "cashback": "Cashback"
   },
   "discount_codes": {
     "title": "Rabatkoder",
@@ -3552,6 +3939,24 @@ export default {
       "notifications": {
         "add": "Rabatkode blev tilføjet.",
         "edit": "Rabatkoden er redigeret."
+      },
+      "config": {
+        "title": "Generel konfig",
+        "subtitle": "Formlen for rabatkodeberegningen er: max (LIMIT, PROCENT * vognpris). Husk at gøre koderne relevante og nemme at huske."
+      },
+      "limit": {
+        "title": "Begrænsninger",
+        "subtitle": "Du kan definere den maksimale forbrugsgrænse for hver rabatkode, samt det maksimale rabatbeløb, i dette afsnit."
+      },
+      "duration": {
+        "title": "Varighedsgrænse",
+        "subtitle": "Hvis du ønsker at aktivere en rabatkode for en bestemt tidsramme, kan du oprette denne varighed her."
+      },
+      "design": {
+        "subtitle": "Du kan indstille en titel og beskrivelse for hver rabatkode. Disse detaljer vil blive vist for brugeren."
+      },
+      "cluster": {
+        "subtitle": "Ved at knytte denne rabatkode til en klynge kan du nemt administrere den sammen med andre ressourcer på et enkelt sted."
       }
     },
     "delete_alert": {
@@ -3654,6 +4059,34 @@ export default {
     "notifications": {
       "add": "Ny kupon oprettet.",
       "edit": "Kuponen er blevet opdateret."
+    },
+    "config": {
+      "subtitle": "Formlen for kuponrabatberegningen er: CHARGE + max (LIMIT, PROCENT * vognpris)."
+    },
+    "limit": {
+      "subtitle": "I dette afsnit kan du indstille både det maksimale antal brug pr. kupon og det højeste rabatbeløb, hver kupon kan give.",
+      "zero_message": "nul: der er ingen grænse!"
+    },
+    "duration": {
+      "subtitle": "Hvis du ønsker at indstille en specifik tidsramme for, at en kupon skal være aktiv, kan du konfigurere varigheden i dette afsnit."
+    },
+    "design": {
+      "subtitle": "Hver kupon giver mulighed for tilføjelse af en titel og beskrivelse. Disse detaljer vil være synlige for kunden."
+    },
+    "constraints": {
+      "subtitle": "Her har du mulighed for at etablere yderligere personlige parametre for kuponen.",
+      "no_limit": "Ingen ekstra begrænsning",
+      "has_limit": "Ekstra begrænsninger",
+      "has_code_message": "Brugeren skal indtaste koden for at tilføje kupon."
+    },
+    "club": {
+      "subtitle": "Brugen af denne kupon kan udelukkende begrænses til medlemmer af udvalgte kundeklubber."
+    },
+    "cluster": {
+      "subtitle": "Ved at knytte denne kupon til en klynge kan du nemt administrere den sammen med andre ressourcer på et enkelt sted."
+    },
+    "preview": {
+      "subtitle": "Her er den offentlige forhåndsvisning af kuponen."
     }
   },
   "offers": {
@@ -3688,7 +4121,10 @@ export default {
     "qualified_products_message": "For at produkter er kvalificerede, skal det samlede antal varer i kurven være lig med eller større end minimumsmængden.",
     "min_items": "Minimum antal varer",
     "min_items_message": "Antallet af varer, som kunden skal købe",
-    "discounted_products": "Rabatterede produkter",
+    "discounted_products": {
+      "title": "Rabatterede produkter",
+      "subtitle": "Du kan angive de produkter, som dette tilbud vil give rabat på."
+    },
     "offered_products": "Tilbudte produkter",
     "offered_products_message": "Mindst et af disse produkter skal være i indkøbskurven.",
     "discount_percent": "Rabatprocent",
@@ -3710,6 +4146,21 @@ export default {
     "notifications": {
       "add": "Nyt tilbud oprettet.",
       "edit": "Tilbuddet blev opdateret."
+    },
+    "config": {
+      "subtitle": "Begynd at lave en intelligent aftale ved at etablere dens titel, beskrivelse og status for offentlig tilgængelighed."
+    },
+    "limit": {
+      "subtitle": "Indstil den maksimale brugsgrænse for dette tilbud i dette afsnit."
+    },
+    "duration": {
+      "subtitle": "Hvis du ønsker at indstille en specifik tidsramme for et tilbud, kan du konfigurere varigheden her."
+    },
+    "constraints": {
+      "subtitle": "Angiv berettigelseskriterierne og betingelserne for tilbuddet her. Tilbuddet gælder vognvarer, der opfylder disse betingelser."
+    },
+    "cluster": {
+      "subtitle": "Ved at knytte dette tilbud til en klynge kan du nemt administrere det sammen med andre ressourcer på et enkelt sted."
     }
   },
   "campaign_ads": {
@@ -3807,7 +4258,12 @@ export default {
     },
     "notifications": {
       "delete_success": "Præmien blev slettet."
-    }
+    },
+    "manual_send_token_action": "Manuelle tokens",
+    "config": {
+      "subtitle": "Boost kundekøb med en gamified oplevelse i din butik. Opret præmier og vinderodds for kunder, der tjener tokens gennem køb. Hvert spil koster 10 tokens, og du kan tilbyde særlige præmier til førstegangskøbere. Standardspillet er Wheel of Fortune, men du kan tilpasse det, så det passer til din butiks layout."
+    },
+    "empty_prize_list": "Opret og administrer præmier her..."
   },
   "lottery_edit": {
     "title_edit": "Rediger lotteriemne",
@@ -3828,7 +4284,10 @@ export default {
     "chance_message": "Vinderchance i procent",
     "free_for_first": "Er det gratis for nye kunder?",
     "free_for_first_message": "Nye kunder kan vinde denne vare.",
-    "prize": "Præmie",
+    "prize": {
+      "title": "Præmie",
+      "subtitle": "Opsæt præmiedetaljerne her. Mulighederne omfatter rabatkoder, gavekort, kreditter og andre rabatter som lotteribelønninger."
+    },
     "amount": "Præmiebeløb",
     "amount_hint": "Brugere vinder dette gebyr for deres ordre.",
     "currency_message": "Valuta for denne vare. Andre valutaer omregnes efter valutakurs.",
@@ -3841,6 +4300,20 @@ export default {
     "notifications": {
       "add": "Nyt lotterielement oprettet.",
       "edit": "Lotterigenstande blev ændret."
+    },
+    "not_free_for_first_message": "Denne præmie er ikke tilgængelig for første gratis spil.",
+    "config": {
+      "subtitle": "Her kan du oprette din butiks lottopræmier. Indstil titel, beskrivelse, farve og billede for hver præmie."
+    },
+    "design": {
+      "subtitle": "Her har du mulighed for at vælge billede og farve til præmien."
+    },
+    "constraints": {
+      "subtitle": "Angiv kriterierne og begrænsningerne for at vinde denne præmie."
+    },
+    "product_input": {
+      "label": "Produkt præmie",
+      "message": "Vælg et produkt til præmien (er gratis)"
     }
   },
   "gift_card_types_list": {
@@ -4302,7 +4775,9 @@ export default {
     },
     "dialog_club": {
       "title": "Indstil kundeklubniveau"
-    }
+    },
+    "subtitle": "Kunder kan tilføjes din butik på flere måder; manuelt, masseimport af Excel, gennem POS eller via din online butik. Når en bruger logger ind i din butik, bliver vedkommende automatisk registreret som kunde.",
+    "add_customer_action": "Tilføj ny kunde"
   },
   "app_dashboard": {
     "status": "Udgiv status",
@@ -4405,7 +4880,11 @@ export default {
     "option_deliver_by_courier": "Mulighed 1: Lever med dine kurerer.",
     "option_add_to_que": "Mulighed 2: Tilføj til kø for at behandle på siden for forsendelsesservice.",
     "option_instant_shipping": "Mulighed 3: Øjeblikkelig forsendelse.",
-    "pickup_action": "Bekræftelse af afhentning"
+    "pickup_action": "Bekræftelse af afhentning",
+    "courier_action": "Leveringsbekræftelse",
+    "courier_action_subtitle": "Min kurer henter pakken.",
+    "pickup_action_subtitle": "Kunden afhentede ordren.",
+    "service_action": "Bekræftelse af udførelse"
   },
   "shop_home_edit": {
     "title": "Hjemmesideindstilling",
@@ -4431,7 +4910,8 @@ export default {
     "officer": "Officer",
     "amount": "Beløbstransaktion",
     "note": "Bemærk",
-    "date": "Dato"
+    "date": "Dato",
+    "subtitle": "Det er listen over hævetransaktioner. Når du overfører penge fra henvisningspung til din bankkonto eller din Selldone-pung, vil den blive vist her."
   },
   "widget_shop_gateway": {
     "link_account_caution": "Link en konto ({currency}) til din butik! Klik her.."
@@ -4720,11 +5200,89 @@ export default {
   "shop_sms": {
     "title": "Administrer SMS",
     "sub_title": "SMS-skabeloner sendt til kunder",
-    "message": "Du kan se indholdet af de sms'er, som din butik har sendt, her. På grund af begrænsningen i at registrere valideringsmønstrene i beskedtjenesten, er det ikke muligt at tilpasse tekstbeskederne i øjeblikket."
+    "message": "Du kan se indholdet af de sms'er, som din butik har sendt, her. På grund af begrænsningen i at registrere valideringsmønstrene i beskedtjenesten, er det ikke muligt at tilpasse tekstbeskederne i øjeblikket.",
+    "tabs": {
+      "templates": "Skabeloner",
+      "provider": "Udbyder"
+    },
+    "manage": {
+      "title": "Administrer SMS",
+      "subtitle": "Du kan se indholdet af de sms'er, som din butik har sendt, her. På grund af begrænsningen i at registrere valideringsmønstrene i beskedtjenesten, er det ikke muligt at tilpasse tekstbeskederne i øjeblikket."
+    },
+    "template": {
+      "title": "Skabeloner",
+      "valid_message": "Du kan oprette brugerdefinerede SMS-beskeder.",
+      "provider_not_enable_message": "SMS-udbyderen er ikke aktiveret!",
+      "need_custom_provider_message": "Tilpassede SMS-beskeder virker kun, hvis du angiver en brugerdefineret udbyder.",
+      "add_new": "Tilføj nyt",
+      "disable_reason": {
+        "set_provider": "Indstil din udbyder først!",
+        "provider_is_disabled": "Udbyderen er deaktiveret!",
+        "otp": "OTP - Ingen kan tilpasses!",
+        "select_another_provider": "Vælg en anden udbyder."
+      },
+      "enable_only_filter": "Vis kun aktiveret",
+      "text_template_not_supported_msg": "Din udbyder understøtter ikke almindelige tekstbeskeder.",
+      "structure_template_not_supported_msg": "Din udbyder understøtter ikke strukturelle meddelelser.",
+      "structured_data": "Strukturerede data",
+      "menu": {
+        "reset_error": "Nulstil fejl",
+        "send_test": "Send testbesked"
+      }
+    },
+    "template_edit": {
+      "title_add": "Tilføj ny beskedskabelon",
+      "title_edit": "Rediger beskedskabelon",
+      "config": {
+        "title": "Meddelelseskonfig",
+        "subtitle": "Du kan oprette en skabelon til SMS-beskeden på din SMS-udbyders hjemmeside og derefter angive dens kode og datastruktur her. Vi videresender disse oplysninger til din udbyder, hvor selve SMS-beskeden bliver genereret.",
+        "code": "Kode",
+        "language_msg": "Lad den være tom for at indstille den som standard.",
+        "enable_msg": "Denne skabelon vil blive brugt til at oprette beskeder."
+      },
+      "text": {
+        "title": "Almindelig tekst",
+        "subtitle": "Indtast en personlig SMS-besked her. Dynamiske værdier vil blive erstattet med deres faktiske værdier, før de sendes til brugeren.",
+        "message": "Besked",
+        "reset_to_default": "Nulstil til standard",
+        "auto_fill": {
+          "title": "Autofyld parametre",
+          "subtitle": "Du kan bruge hver af disse parametre i teksten, og Selldone vil erstatte dem med den tilsvarende værdi."
+        },
+        "sample": {
+          "title": "Eksempel på besked"
+        }
+      },
+      "template": {
+        "title": "Strukturel skabelon",
+        "subtitle": "Du kan indstille skabelonnøglen og værdien her. Skabelonkoden skal være præcis, hvad du indstiller i din SMS-tjenesteudbyder, og <code>key</code> er, hvad din udbyder vil sende koden igennem. Hvis <code>value</code> i skabelonen er tomt, vil <code>{code}</code> blive betragtet som skabelonkoden.",
+        "add_new_parameter": "Tilføj ny parameter",
+        "auto_fill": {
+          "title": "Autofyld parametre",
+          "subtitle": "Du kan indstille hver af disse parametre som en værdi, og Selldone vil erstatte dem med den tilsvarende værdi. Det er bedre at definere standardværdierne som skabeloner i din SMS-udbyder for nemheds skyld. I dette tilfælde vil der ikke være behov for at definere parameterværdier her."
+        },
+        "request": {
+          "title": "Prøve nyttelast"
+        },
+        "sample": {
+          "title": "Eksempel på skabelonbesked",
+          "subtitle": "Du kan kopiere og indsætte denne skabelon til din SMS-udbyder."
+        },
+        "add_message_action": "Tilføj beskedskabelon"
+      }
+    }
   },
   "shop_emails": {
     "title": "Administrer e-mails",
-    "sub_title": "Du vil se listen over e-mails sendt af butikken til kunder og ledere i dette afsnit. E-mails designes og oprettes automatisk ud fra de oplysninger, du har indtastet for din butik. Også muligheden for at tilpasse beskeder og billeder vil være tilgængelig for offentligheden i fremtiden."
+    "sub_title": "Du vil se listen over e-mails sendt af butikken til kunder og ledere i dette afsnit. E-mails designes og oprettes automatisk ud fra de oplysninger, du har indtastet for din butik. Også muligheden for at tilpasse beskeder og billeder vil være tilgængelig for offentligheden i fremtiden.",
+    "tabs": {
+      "preferences": "Præferencer",
+      "templates": "Skabeloner",
+      "provider": "Udbyder"
+    },
+    "preferences": {
+      "title": "Notifikationsmails"
+    }
   },
   "instagram": {
     "title": "Salg på Instagram",
@@ -4914,7 +5472,13 @@ export default {
     },
     "notifications": {
       "delete_success": "Filen blev slettet."
-    }
+    },
+    "drag_sort_msg": "Du kan trække og sortere filer.",
+    "paid_mode_msg": "Brugere kan kun downloade det efter at have købt produktet.",
+    "free_mode_msg": "Brugere kan downloade det gratis. Eksempelfiler skal være under 50 MB.",
+    "has_gust_shopping_msg": "Registrerede og gæstebrugere kan downloade filer, da gæstekøb er aktiveret i butikkens indstillinger > flow.",
+    "only_registered_shopping_msg": "Kun registrerede brugere kan downloade eksempelfiler.",
+    "file_count_limit": "Grænse for antal filer"
   },
   "notification_top_bar": {
     "free_charge": "🎊 Opkræve {amount} og få {amount_total} kredit.",
@@ -4926,7 +5490,20 @@ export default {
   },
   "selldone_applications": {
     "title": "Gå ikke glip af dine ordrer!",
-    "msg": "Administrer din virksomhed hvor som helst og når som helst."
+    "msg": "Administrer din virksomhed hvor som helst og når som helst.",
+    "scan_qr_code": "Scan mig med din telefon!",
+    "notification": {
+      "title": "Notifikation",
+      "subtitle": "Få besked om nye ordrer."
+    },
+    "order": {
+      "title": "Ordre:% s",
+      "subtitle": "Se dine ordrer og administrer dem."
+    },
+    "product": {
+      "title": "Produkter",
+      "subtitle": "Lagerstyring og produkt plain."
+    }
   },
   "shop_seo": {
     "title": "SEO konfiguration",
@@ -4995,7 +5572,16 @@ export default {
   },
   "shops_list": {
     "title": "Mine butikker",
-    "message": "Liste over mine egne butikker, tilladte og prøvebutikker."
+    "message": "Liste over mine egne butikker, tilladte og prøvebutikker.",
+    "sample": {
+      "title": "Eksempelbutikker",
+      "subtitle": "Her kan du opdage et udvalg af eksempler på butikker. Du får tilladelse til at gennemse de tilgængelige oplysninger i disse butikker. Undlad dog at logge ind eller afgive ordrer ved hjælp af rigtige personlige oplysninger, da disse data vil være tilgængelige for offentligheden. Hvis du ved et uheld indtaster dine oplysninger her, bedes du forlade butikken og kontakte os for yderligere hjælp."
+    },
+    "add_new_store": "Tilføj ny butik",
+    "i_have_a_deal": "Jeg har en aftale",
+    "access": {
+      "title": "Adgang invitation"
+    }
   },
   "shipping": {
     "warehouse_error": "Indstil dit lager først! Denne adresse vil blive brugt som oprindelsen af forsendelsen.",
@@ -5025,7 +5611,8 @@ export default {
       "delete_action": "Slet kategori",
       "add_action": "Tilføj kategori",
       "edit_action": "Rediger kategori"
-    }
+    },
+    "subtitle": "Du kan oprette et begrænset antal kategorier til dine blogindlæg for at administrere dem mere effektivt. At have en kategorigrænse fremmer en bedre organisation på dit websted. Det er bemærkelsesværdigt, at selv de bedste nyhedsbureauer opretholder et begrænset antal kategorier, ofte færre end 100, for at strømline ledelsen og bevare et bredere fokus."
   },
   "about_us": {
     "title": "Om os side",
@@ -5063,7 +5650,8 @@ export default {
       "title": "Pakkeetiketter",
       "subtitle": "Download listen over alle ordreetiketter i den valgte tidsperiode og status. Resultatet indeholder kun betalte og efterkravsordrer.",
       "export_title": "Æskeetiketter"
-    }
+    },
+    "subtitle": "Eksporter og download etiketter til bulkordrebehandling - ideel til at håndtere over 100 ordrer dagligt."
   },
   "customers_funnel": {
     "title": "Kundernes demografi",
@@ -5782,6 +6370,1759 @@ export default {
         "Lykkehjulet drejer – fang din heldige præmie!",
         "Spin, vind og smil – overrask belønninger for hver tur.",
         "Tag en tur og lad formuen afgøre din præmie!"
+      ]
+    },
+    "subscription_price": {
+      "title": [
+        "Grundlæggende adgang",
+        "Premium medlemskab",
+        "Guldpakke",
+        "Sølvplan",
+        "Platin abonnement",
+        "Enterprise Tier",
+        "Startpakke",
+        "Ubegrænset tilbud",
+        "Familiepakke",
+        "Professionel suite"
+      ],
+      "description": [
+        "Ideel til enkeltpersoner, der udforsker det grundlæggende.",
+        "Adgang til alle premium funktioner og indhold.",
+        "Eksklusive fordele og prioriteret støtte.",
+        "En afbalanceret pakke til almindelige brugere.",
+        "Ultimativ adgang med førsteklasses frynsegoder.",
+        "Skræddersyede løsninger til store organisationer.",
+        "En overkommelig mulighed på begynderniveau.",
+        "Ingen begrænsninger på brugen, for superbrugeren.",
+        "En særlig plan for familier, op til 4 medlemmer.",
+        "Designet til professionelle, der søger avancerede værktøjer."
+      ]
+    },
+    "spec": {
+      "group": [
+        "Tekniske specifikationer",
+        "Fysiske dimensioner",
+        "Ydelsesfunktioner",
+        "Tilslutningsmuligheder",
+        "Strømkrav",
+        "Materiale og byggekvalitet",
+        "Farve- og finishindstillinger",
+        "Opbevaring og hukommelse",
+        "Operativsystemkompatibilitet",
+        "Sikkerhed og overholdelse",
+        "Pakkens indhold",
+        "Garanti og support",
+        "Mærke og producent",
+        "Miljøvenlighed",
+        "Energieffektivitet",
+        "Pleje og vedligeholdelse",
+        "Tilpasningsmuligheder",
+        "Inkluderet tilbehør",
+        "Brugerbedømmelser og anmeldelser",
+        "Pris og tilgængelighed"
+      ]
+    },
+    "avocado": {
+      "title": [
+        "Købskvittering",
+        "Salgsbekræftelse",
+        "Ordrefaktura",
+        "Betalingsfaktura",
+        "Kundekvittering",
+        "Transaktionsoversigt",
+        "Faktureringsoversigt",
+        "Kvittering",
+        "Ordreoversigt",
+        "Indkøbsordrefaktura",
+        "Salgskvittering",
+        "Detailfaktura",
+        "E-kvittering",
+        "Servicefaktura",
+        "Produktfaktura",
+        "Betalingskvittering",
+        "Ordrebekræftelse",
+        "Fakturafaktura",
+        "Kassefaktura",
+        "Kundefaktura"
+      ],
+      "message": [
+        "Tak for dit køb!",
+        "Vi sætter pris på din forretning.",
+        "Din ordre er på vej!",
+        "Tak, fordi du handlede hos os.",
+        "Ser frem til at betjene dig igen.",
+        "Din tilfredshed er vores højeste prioritet.",
+        "Glem ikke at bedømme din oplevelse.",
+        "Tak fordi du støtter vores butik.",
+        "Vi håber, du bliver glad for dit nye køb!",
+        "Gem din faktura til fremtidig reference.",
+        "Besøg os igen for flere gode produkter.",
+        "Hold forbindelsen for eksklusive tilbud.",
+        "Tak fordi du er en værdsat kunde.",
+        "Vi er her for at hjælpe, hvis du har brug for hjælp.",
+        "Din feedback hjælper os med at forbedre os.",
+        "Få en særlig rabat på dit næste køb.",
+        "Du har truffet et godt valg!",
+        "Tak for din tillid til os.",
+        "Ser frem til din feedback.",
+        "En hjertelig tak fra vores team."
+      ]
+    },
+    "map_tag": {
+      "title": [
+        "Ejendomsudstilling",
+        "Sælger Plaza",
+        "Udvalgte boliger",
+        "Lokalt marked",
+        "Nyankomne",
+        "Ejendomshaver",
+        "Shoppingdistrikt",
+        "Håndværker Alley",
+        "Luksus Ejendomme",
+        "Udlejningshub",
+        "Åbent Hus",
+        "Tekniske innovationer",
+        "Fashion Lane",
+        "Håndværkshjørne",
+        "Food Court",
+        "Bogkrog",
+        "Jewelry Junction",
+        "Antik Avenue",
+        "Fitness Zone"
+      ]
+    },
+    "marketplace_document": {
+      "title": [
+        "Virksomhedsregistreringsbevis",
+        "Tax Identification Number (TIN)",
+        "Formular for leverandøraftale",
+        "Produktkatalog",
+        "Prisliste",
+        "Bankkontooplysninger",
+        "Bevis for adresse",
+        "Forsikringsbevis",
+        "Virksomhedsprofil",
+        "Kvalitetssikringscertifikat",
+        "Sikkerhedsdatablad (SDS)",
+        "Produktgarantioplysninger",
+        "Returpolitik",
+        "Forsendelses- og håndteringsprocedurer",
+        "Kundeservicepolitik",
+        "Marketing og promoveringsplaner",
+        "Links til sociale medier",
+        "Handelsreferencer",
+        "Leverandør Code of Conduct",
+        "Tavshedserklæring (NDA)"
+      ]
+    },
+    "expert_contract": {
+      "title": [
+        "Aftale om markedspladsopsætningstjenester",
+        "Butikskonfigurationskontrakt",
+        "Print-on-Demand-serviceaftale",
+        "Serviceaftale om digital markedsføring",
+        "Opsætningsaftale for e-handelsplatform",
+        "Ekspertkonsulentkontrakt for virksomhedsejere",
+        "Serviceaftale for markedspladskonfiguration",
+        "Kontrakt om butiksopsætning og konfigurationsservice",
+        "POD Service Leveringsaftale",
+        "Aftale om implementering af markedsføringsstrategi",
+        "Servicekontrakt for forretningsudvikling",
+        "Opsætningsaftale for e-handelsbutik",
+        "Ekspertserviceaftale",
+        "Forretningsløsninger og opsætningskontrakt",
+        "Custom Shop Setup Service Agreement",
+        "Serviceaftale om markedspladsoptimering",
+        "Konsulent- og opsætningsservicekontrakt",
+        "POD-integrationsserviceaftale",
+        "Aftale om markedsføring og salgsfremmende tjenester",
+        "Serviceaftale om forretningsudvidelse"
+      ]
+    },
+    "account": {
+      "account_name": [
+        "Hovedpung",
+        "Erhvervskonto",
+        "Personlig tegnebog",
+        "Opsparing tegnebog",
+        "Udgiftskonto",
+        "Primær tegnebog",
+        "Generel konto",
+        "Reserve tegnebog",
+        "Transaktions tegnebog",
+        "Fondskonto"
+      ]
+    },
+    "cashback": {
+      "title": [
+        "Køb og tjen cashback",
+        "Loyalitetsbelønninger Cashback",
+        "Eksklusive Cashback-tilbud",
+        "Cashback Bonanza",
+        "Øjeblikkelige Cashback-tilbud",
+        "Sæsonbestemt Cashback-besparelse",
+        "Dobbelte Cashback-dage",
+        "Cashback ved hvert køb",
+        "Cashback Frenzy",
+        "VIP Cashback-program",
+        "Tidsbegrænset cashback",
+        "Cashback Rewards Club",
+        "Køb mere, spar mere",
+        "Ultimative Cashback-belønninger",
+        "Cashback Extravaganza"
+      ],
+      "description": [
+        "Tjen cashback på hvert køb!",
+        "Bliv belønnet for din loyalitet.",
+        "Eksklusive cashback-tilbud kun til dig.",
+        "Nyd store besparelser med cashback-belønninger.",
+        "Øjeblikkelig cashback på alle dine yndlingsgenstande.",
+        "Spar mere med sæsonbestemte cashback-tilbud.",
+        "Fordoble din cashback på særlige dage!",
+        "Optjen cashback hver gang du handler.",
+        "Deltag i cashback-vanviddet i dag!",
+        "VIP-medlemmer nyder eksklusiv cashback.",
+        "Skynde sig! Tidsbegrænsede cashback-tilbud.",
+        "Tilmeld dig vores Cashback Rewards Club nu.",
+        "Jo mere du handler, jo mere sparer du.",
+        "Lås op for de ultimative cashback-belønninger.",
+        "Oplev de bedste cashback-tilbud."
+      ]
+    },
+    "page": {
+      "prompts": [
+        "Velkommen til {shop} - Udforsk vores karakteristiske udvalg af varer",
+        "{shop} - Din ultimative kilde til kvalitetsvarer og fremragende service",
+        "Kun eksklusive tilbud og besparelser hos {shop} - Grib chancen!",
+        "Lær {shop}s dedikation til miljøvenlighed og etisk praksis at kende",
+        "Bliv en del af {shop}-familien - Abonner på vores nyhedsbrev for opdateringer",
+        "Dyk ned i topvalg og højt vurderede varer hos {shop}",
+        "Præsenter ideer og kreative forslag til alle begivenheder i {shop}",
+        "Uovertrufne tilbud og tidsfølsomme tilbud hos {shop} - handle hurtigt!",
+        "{shop}'s omfattende købstip og produktevalueringer – shop med tillid",
+        "Tag fat i {shop} – vi bestræber os på at levere en uovertruffen shoppingoplevelse"
+      ]
+    },
+    "cross_selling": {
+      "message": [
+        "Fuldend dit look, grib sættet!",
+        "Spar stort med vores pakketilbud!",
+        "Gå ikke glip af vores perfekte parringer!",
+        "Forbedre dit køb, tilføjelser venter!",
+        "Lås op for eksklusive besparelser, køb sammen!",
+        "Supplerende varer, særlige rabatter!",
+        "Få mere, brug mindre – sæt dig sammen!",
+        "Tidsbegrænset tilbud: matchede produkter!",
+        "Opgrader din oplevelse, kombinationstilbud!",
+        "Oplev vores udvalgte kombinationer, spar nu!",
+        "Par det for den ultimative combo!",
+        "Shop smart, bundt og spar!",
+        "Fordoble værdien, dobbelt så sjov!",
+        "Dit perfekte match er her - shop nu!",
+        "Eksklusiv bundtpris kun til dig!",
+        "Maksimer dine besparelser med vores kombinationer!",
+        "Forbedre din samling med disse valg!",
+        "Udvalgt for dig: match og spar!",
+        "Det perfekte par til en perfekt dag!",
+        "Sæt dine favoritter sammen for ekstra besparelser!"
+      ]
+    }
+  },
+  "ai": {
+    "remove_bg": {
+      "title": "Fjern baggrund",
+      "subtitle": "Skab gennemsigtig baggrund."
+    },
+    "reimagine": {
+      "title": "Genforestil dig",
+      "subtitle": "Opret flere billeder med nye baggrunde."
+    }
+  },
+  "extra_pricing_add_dialog": {
+    "title": "Merpris for over {min}",
+    "subtitle": "Systemet bestemmer automatisk rækkefølge og prioritet for prisberegning. Indtast venligst den minimumsmængde, der kræves, for at denne prissætning kan træde i kraft.",
+    "min_quantity": "Minimum mængde"
+  },
+  "product_inventory_management_physical": {
+    "subtitle": {
+      "dropshipping": "Lager for dropshipping-produkter er fastsat af grossister og kan ikke ændres her.",
+      "marketplace": "Den samlede produktbeholdning på markedspladsen bestemmes ved at lægge alle leverandørers beholdninger sammen. Du kan ikke ændre det her.",
+      "default": "Angiv produktets lagerantal her."
+    }
+  },
+  "google_product_category_input": {
+    "label": "Google-produktkategorikode",
+    "hint": "Repræsenterer kategorien for dit produkt i henhold til Googles produktklassifikation.",
+    "placeholder": "Indtast produkt- eller tjenestekategori. (Valgfrit)"
+  },
+  "LogisticProfileType": {
+    "WARRANTY": {
+      "title": "Garanti",
+      "desc": "En garanti er en del af en kontrakt, hvor producenten lover at reparere eller udskifte et produkt inden for en bestemt periode. Denne forpligtelse kan strække sig selv til forbrugere, der ikke har en direkte kontrakt med producenten."
+    },
+    "RETURN_POLICY": {
+      "title": "Returpolitik",
+      "desc": "Returpolitikker beskriver, hvordan kunder kan returnere eller bytte uønskede varer. De specificerer kvalificerede varer, acceptable årsager til returnering og tidsrammen for returnering."
+    },
+    "GUIDE": {
+      "title": "Guide",
+      "desc": "En guide kan omfatte et størrelsesskema til beklædning eller en udvælgelsesguide til diamanter. Det er vigtigt, at guider er alsidige og anvendelige på tværs af flere produkter."
+    },
+    "SHIPPING": {
+      "title": "Forsendelse",
+      "desc": "En forsendelsespolitik beskriver de vigtigste aspekter af forsendelse for onlineordrer, herunder forsendelsesomkostninger, metoder og estimerede leveringstider."
+    }
+  },
+  "product_logistic_profile": {
+    "dialog": {
+      "title": "Vælg logistisk profil",
+      "add_new_action": "Tilføj ny profil",
+      "add_new_disable_msg": "Markedspladsejer"
+    }
+  },
+  "product_tax_profile": {
+    "description": {
+      "default": "Standard",
+      "dedicated": "Dedikeret",
+      "subscription": "Vi kan kun pålægge skat på betalingsoprettelsestrinnet.",
+      "is_disabled": "Denne skatteprofil er deaktiveret! (⚠️Advarsel)",
+      "shipping": "Forsendelse",
+      "fixed_rate": "TAX",
+      "location_based_rate": "Skat: Beliggenhedsbaseret",
+      "shipping_location_based_rate": "Forsendelse: Lokationsbaseret",
+      "include_in_price": "Inkluderet i prisen"
+    },
+    "dialog": {
+      "header": "Vælg skatteprofil",
+      "title": "Skatteprofil",
+      "subtitle": "Du kan tildele produktet særlige skatteregler. Skulle der ikke vælges en afgiftsprofil for produktet, vil standard butiksafgiftsreglerne blive anvendt.",
+      "action_manage": "Administrer skat",
+      "action_manage_sub": "Butik > Finans > Skat",
+      "subscription_tips": "Når du vælger en skatteprofil for et abonnementsprodukt, opdaterer vi <code>tax code</code> og indstiller inklusive/eksklusiv tilstand på din betalingstjenesteudbyder. Den valgte skatteprofil angiver, om prisen anses for at være inklusive afgifter eller eksklusive afgifter. En af <code>inclusive</code> eller <code>exclusive</code> . Når den er angivet som enten inkluderende eller eksklusiv, kan den ikke ændres.<br /><br /> <b>Vigtig!</b> Når du har ændret skatteprofilen, skal du klikke på prisplaner på fanen Produkt > Lager og klikke på knappen Gem for at anvende ændringer."
+    }
+  },
+  "product_vendor_profile": {
+    "vendor": {
+      "subtitle": "Prisen og mængden af dette produkt er fastsat af en bestemt leverandør, som det tilhører."
+    },
+    "vendors": {
+      "subtitle": "Her er en liste over leverandører til produktet. Mængde og pris fastsættes af leverandørerne."
+    }
+  },
+  "vendor_add": {
+    "profile": {
+      "title": "Leverandør info",
+      "subtitle": "Disse oplysninger vises til kunderne offentligt.",
+      "action_sub_caption": "Offentlig produktlisteside.",
+      "action_see_listing_page": "Se listeside"
+    },
+    "page": {
+      "title": "Brugerdefineret side",
+      "subtitle": "Indstil en brugerdefineret landingsside for leverandøren, og giv dem et unikt link til deres dedikerede side.",
+      "action_set_page": "Se offentlig side",
+      "action_sub_caption": "Tilpasset landingsside.",
+      "vendor_has_landing_msg": "Leverandøren har en tilpasset landingsside.",
+      "no_landing_selected_msg": "Der er ikke valgt nogen landingsside.",
+      "no_landing_page": "Ingen landingsside",
+      "we_can_create_dedicated_landing_msg": "Vi kan oprette en dedikeret landingsside til dig."
+    },
+    "contact": {
+      "title": "Kontaktoplysninger",
+      "subtitle": "Angiv venligst gyldige kontaktoplysninger."
+    },
+    "business": {
+      "title": "Virksomhedsoplysninger",
+      "subtitle": "Angiv nøjagtige oplysninger om din virksomhed for at sikre en hurtig og problemfri indtægtsopkrævningsproces."
+    },
+    "bank": {
+      "title": "Udbetalingsoplysninger",
+      "subtitle": "Indtast dine bankoplysninger her for udbetalinger."
+    },
+    "default_pricing": {
+      "title": "Standardpriser",
+      "subtitle": "Du kan tildele en standardprismodel for leverandøren. Når leverandøren tilføjer et nyt produkt, vil denne prismodel blive brugt til at beregne markedspladsmarginen på produktets pris. Du kan senere justere prismodellen for hvert produkt individuelt.",
+      "no_pricing": "Ingen prisfastsættelse"
+    },
+    "shipping": {
+      "title": "Forsendelse",
+      "subtitle": "Leverandører kan konfigurere deres egne forsendelsestjenester og kurerer.",
+      "shipping_services": "Forsendelsestjenester",
+      "total_number_of_services": "Det samlede antal forsendelsestjenester, som sælgeren har.",
+      "couriers": "Kurerer",
+      "total_couriers_count": "Det samlede antal kurerer, som sælgeren har."
+    },
+    "configuration": {
+      "title": "Konfiguration"
+    },
+    "delete": {
+      "title": "Fjern leverandøren",
+      "action": "Fjern leverandøren",
+      "verify_description": "Jeg ved, at alle leverandørproduktrelationer vil blive fjernet!",
+      "verify_title": "Jeg vil slette denne leverandør."
+    },
+    "send_invitation_tips": "Vi sender en invitationsmail til denne bruger. Hvis brugeren tilmelder sig din butik som leverandør, vil vedkommendes konto automatisk blive tildelt vedkommende.",
+    "only_marketplace_owner_can_edit_user": "Kun markedspladsejeren kan redigere brugeren. Hvis du ønsker at ændre ejeren af denne leverandør, kan du sende anmodningen til os.",
+    "vendor_is_disable_msg": "Leverandøren er deaktiveret.",
+    "email_not_match_with_user_msg": "Den indtastede e-mail stemmer ikke overens med brugerens e-mail ( <b>{user_name}:</b> {user_email}). Er du sikker på at sende e-mails til <b>{email}</b> ?",
+    "we_will_send_invitation_to_user_msg": "Vi sender en invitationsmail til brugeren.",
+    "set_a_user_for_the_vendor_first_msg": "Indstil en bruger for leverandøren først.",
+    "inputs": {
+      "slug": {
+        "label": "Sti",
+        "placeholder": "Indtast en tilpasset sti...",
+        "hint": "Skift stien til leverandørens dynamiske landingsside."
+      },
+      "email": {
+        "message": "Denne e-mail modtager alle meddelelser og opdateringer."
+      },
+      "business": {
+        "false_description": "Jeg arbejder som individ.",
+        "true_description": "Jeg opererer som en juridisk anerkendt virksomhed.",
+        "false_title": "Individuel",
+        "true_title": "Forretning"
+      },
+      "bank": {
+        "hint": "Navnet på den bank, hvor sælgeren har sin konto.",
+        "placeholder": "Dit banknavn.."
+      },
+      "account_name": {
+        "hint": "Dette bør matche det navn, der er knyttet til bankkontoen.",
+        "placeholder": "Dit navn.."
+      },
+      "account_number": {
+        "hint": "Leverandørens unikke kontonummer.",
+        "placeholder": "Dit bankkontonummer.."
+      },
+      "routing_number": {
+        "hint": "Dette tal varierer fra land til land. Det bruges til at identificere den specifikke bankfilial, sælgeren bruger.",
+        "placeholder": "Dit bankomdirigeringsnummer, sorteringskode eller BSB-nummer."
+      },
+      "iban": {
+        "hint": "International Bank Account Number): Hvis leverandørens bank er i Europa eller visse andre lande.",
+        "placeholder": "Dit IBAN-nummer.. f.eks. DE89 3704 0044 0000 0000 00"
+      },
+      "swift": {
+        "hint": "International Bank Account Number): Hvis leverandørens bank er i Europa eller visse andre lande.",
+        "placeholder": "Din Swift-kode/BIC.."
+      },
+      "branch_address": {
+        "hint": "Adressen på den bankfilial, hvor sælgeren har sin konto.",
+        "placeholder": "Din bankadresse.."
+      },
+      "enable": {
+        "label": "Leverandørstatus",
+        "hint": "Du kan aktivere eller deaktivere leverandører globalt. Kunder vil ikke kunne købe noget fra handicappede leverandører.",
+        "true_description": "De vil være i stand til at sælge deres produkter gennem din markedsplads."
+      },
+      "access": {
+        "label": "Leverandørpanel og adgang",
+        "true_description": "Sælgeren har et dedikeret panel til at opdatere mængde og pris.",
+        "hint": "Du kan aktivere eller deaktivere leverandørpanelet, som giver leverandører mulighed for at opdatere produktmængder og priser og modtage delordrer.",
+        "false_description": "Sælgeren har ikke adgang til noget som helst."
+      }
+    }
+  },
+  "vendor_documents_list": {
+    "title": "Dokumenter",
+    "action_upload_doc": "Upload dok",
+    "vendor_subtitle": "Upload venligst de nødvendige forretnings-, IP- og adressebekræftelsesdokumenter. Vi kræver disse oplysninger for at bekræfte dit partnerskab og give dig den nødvendige adgang.",
+    "marketplace_subtitle": "Leverandører kan indsende dokumenter såsom forretning, intellektuel ejendomsret og adressebekræftelse for at lette deres KYC-proces, så du kan give dem den rette adgang.",
+    "upload_dialog": {
+      "title": "Upload dokument",
+      "type": {
+        "title": "Dokumenttype",
+        "subtitle": "Upload kun de nødvendige dokumenter. Undgå at dele dokumenter, der indeholder følsomme oplysninger. Vi anmoder om dokumenter, der er offentligt tilgængelige."
+      }
+    }
+  },
+  "product_badges": {
+    "title": "Badges",
+    "subtitle": "Tilføj og rediger tilpassede produktbadges.",
+    "only_marketplace_owner_msg": "Kun markedspladsejere",
+    "create_new_badge_action": "Opret nyt badge",
+    "select_a_badge": "Vælg et badge...",
+    "inputs": {
+      "custom": {
+        "false_description": "Produktmærker oprettes automatisk.",
+        "false_title": "Auto",
+        "true_title": "Brugerdefinerede produkter badges",
+        "true_description": "Tilføj tilpassede badges på produktsiden."
+      }
+    },
+    "add_custom_badge": {
+      "title": "Brugerdefineret badge",
+      "subtitle": "Tilføj et nyt tilpasset badge til min butik. Hold badges under 10. Flere badges ville bremse din butik.",
+      "show_advanced_options": "Vis avanceret mulighed",
+      "inputs": {
+        "title": {
+          "placeholder": "Offentlig titel..."
+        },
+        "image": {
+          "label": "billede",
+          "message": "Maksimal billedstørrelse: 128KB",
+          "placeholder": "Vælg et forsidebillede"
+        },
+        "pattern": {
+          "label": "Mønster",
+          "message": "Vis automatisk dette badge for produkter, der har denne matchede værdi i deres specifikation. Regex understøttet.",
+          "placeholder": "For at vise for alle produkter skriv: *.*"
+        }
+      },
+      "notifications": {
+        "badge_added": "Badget er blevet tilføjet med succes!",
+        "badge_updated": "Badget er blevet opdateret med succes!",
+        "item_not_found_error": "Varen kunne ikke findes. Opdater venligst siden eller kontakt support."
+      }
+    }
+  },
+  "product_tags": {
+    "title": "Tags",
+    "tips": [
+      "Du kan filtrere produkter baseret på tags på <b>landingssider</b> .",
+      "Du og dine kunder kan søge efter disse tags i <b>søgefeltet</b> .",
+      "Hvis der er angivet tags, vil kun produkter med de <b>almindelige tags</b> blive vist i den <b>relaterede produktsektion</b> på produktsiden; ellers vil produkter i samme kategori blive vist."
+    ],
+    "inputs": {
+      "tags": {
+        "placeholder": "Træk tags her og tryk enter. eks. ny kollektion"
+      }
+    },
+    "notifications": {
+      "tags_updated": "Mærkerne er blevet opdateret."
+    }
+  },
+  "vendor_shipping_services": {
+    "title": "Forsendelse",
+    "subtitle": "Du kan tilføje forsendelsestjenester og kurerer her. Forsendelsestjenester og kurerer bør være under foruddefinerede transportmetoder defineret af markedspladsen. Ved at tilføje forsendelsestjenester og kurerer kan du nemt tildele ordrer til dem og automatisk bestille etiketter eller kurerer.",
+    "action": "Tilføj service",
+    "add_dialog": {
+      "select_method": "Vælg metode",
+      "select_method_msg": "Vælg venligst en transportmetode fra følgende liste. Forsendelsesmetoder defineres af markedspladsen.",
+      "select_service_msg": "Vælg en forsendelsestjeneste fra listen nedenfor. Kun de tilgængelige tjenester, der kan tilføjes til din butik, vises her.",
+      "no_available_service": "Ingen tilgængelig service!"
+    }
+  },
+  "product_location_profile": {
+    "title": "Beliggenhed",
+    "empty_subtitle": "Tildel en placering til produktet, hvis det er en placeringsbaseret vare.",
+    "dialog": {
+      "header": "Vælg lokationsprofil",
+      "action_new_location": "Tilføj ny placering",
+      "title": "Placeringsprofil",
+      "subtitle": "Du kan fastgøre produkter på kortets placering ved at tildele placeringsmærker til produkterne.",
+      "tips": "<b>Vigtigt:</b> Tildel <b>kun</b> en placering til produktet, hvis du ønsker at vise produktet på den specifikke placering på kortet. Det pinede produkt skal have placeringen som sin hovedspecifikation, f.eks. <b>lejeboliger/steder</b> eller personlige tjenester som <b>frisør og spa</b> ."
+    }
+  },
+  "translation_button": {
+    "header": "Multisprog",
+    "auto_action": "Automatisk oversættelse",
+    "premium_user_only": "Premium-brugere"
+  },
+  "product_include_profile": {
+    "subtitle": "Medtag en liste over varer, der følger med produktet eller servicepakken.",
+    "dialog": {
+      "header": "Produktpakkeartikler",
+      "title": "Inkluderede varer",
+      "subtitle": "Dette er en samling af varer, der følger med produktet.",
+      "action_manage": "Administrer varer",
+      "action_disable_msg": "Markedspladsejer",
+      "select_items_tips": "Opret eller vælg pakkekomponenter, der følger med produktet eller tjenesten. Brug denne funktion til at understrege, hvad kunderne kan forvente at modtage ved køb af varen. Vi anbefaler kun at bruge denne funktion, når det er afgørende for kunden at forstå det inkluderede indhold, såsom ved køb af en smartphone.",
+      "create_item_tips": "Alternativt kan du inkludere en ny vare. Brug kvadratiske billeder, da vi automatisk ændrer størrelsen på uploadede billeder til et 256x256 kvadratisk format. For at sikre et optimalt udseende på tværs af alle skabeloner skal du bruge minimalistiske billeder med gennemsigtige baggrunde og bevare et ensartet mønster for alle dine produkter.",
+      "create_new_item_action": "Opret ny inkluderet vare"
+    }
+  },
+  "transportation_eligible": {
+    "subtitle": "Tilgængelige forsendelsestjenester afhænger af den angivne størrelse og vægt."
+  },
+  "bulk_price_dialog": {
+    "title": "Massehandlinger > Pris",
+    "message": "Følgende beløb vil gælde som en procentdel af prisen på alle produkter i din butik. De beregnede prisværdier konverteres også intelligent til det nærmeste runde tal baseret på den valgte valuta. Vær forsigtig med at indtaste værdierne.",
+    "check": "Jeg godkender prisændringer.",
+    "check_description": "Prisen vil blive ændret for den valgte kategori og alle underkategorier.",
+    "add_percent_tab": "Tilføj procent",
+    "add_constant_tab": "Tilføj konstant",
+    "ending_tab": "Afsluttende strategi",
+    "marketplace_listing_price": "Noteringspris",
+    "constant": {
+      "subtitle": "Beløbet vil blive tilføjet eller trukket fra den aktuelle pris på produkter."
+    },
+    "ending": {
+      "subtitle": "Slutningen af den aktuelle pris på produkter vil blive ændret til den angivne værdi."
+    },
+    "marketplace": {
+      "title": "Markedspladsens noteringspris",
+      "subtitle": "Denne mulighed giver dig mulighed for automatisk at opdatere noteringsprisen for produkter på markedspladsen. Nogle gange stemmer hovedproduktprisen muligvis ikke overens med leverandørens priser på grund af manuelle prisændringer.",
+      "strategy": {
+        "min": {
+          "title": "Indstil minimumspris",
+          "description": "Indstil minimumsprisen for produktet som annonceprisen."
+        },
+        "max": {
+          "title": "Indstil maksimumpris",
+          "description": "Indstil den maksimale pris for produktet som annonceprisen."
+        }
+      }
+    },
+    "category": {
+      "subtitle": "Begræns massehandling til en kategori og alle underkategorier."
+    },
+    "vendor": {
+      "subtitle": "Begræns massehandlinger til en bestemt leverandør. Når en leverandør er valgt, vil prisopdateringen blive anvendt på leverandørens produkter, som repræsenterer salgsprisen for den pågældende leverandør.",
+      "listing_price_need_update_msg": "Hvis du vil opdatere noteringsprisen (den pris, der vises på produktlisten), skal du genindsende masseopdateringen med de samme filtre, men uden at vælge en leverandør."
+    },
+    "listing_products_changes": "Listeprodukter ændres",
+    "total_vendor_products": "Samlet leverandørprodukter",
+    "total_products": "Samlede produkter",
+    "total_variants": "Samlede varianter"
+  },
+  "product_panel": {
+    "excel_import": {
+      "title": "Drop Excel / CSV-fil her.",
+      "select_file": "Vælg fil",
+      "max_file": "Maksimal filstørrelse: 20mb",
+      "download_sample": "Download prøve"
+    },
+    "ai": {
+      "title": "AI Produkt Assistance"
+    }
+  },
+  "order_vendor": {
+    "has_panel": "Har panel",
+    "no_panel": "Intet panel",
+    "manual_action": {
+      "title": "Manuelle handlinger",
+      "message": "Du kan opdatere leverandørordrestatus manuelt.",
+      "guides": [
+        "Leverandører med paneladgang kan opdatere deres opfyldelse (underordrer) i deres dedikerede dashboard.",
+        "Hvis leverandøren ikke har paneladgang, ændres leverandørordrestatus automatisk ved at ændre kurvstatus.",
+        "Du kan opdatere leverandørordrer manuelt."
+      ]
+    },
+    "payouts": {
+      "title": "Udbetalinger",
+      "message": "Administrer leverandørudbetalinger og transaktioner.",
+      "charge_tooltip": "Oplad leverandørens tegnebog.",
+      "withdraw_tooltip": "Træk tilbage fra leverandørens tegnebog.",
+      "payout_tooltip": "Udbetaling til sælger."
+    }
+  },
+  "vendor_dashboard": {
+    "info": {
+      "subtitle": "Markedspladsoplysninger."
+    },
+    "performance": {
+      "subtitle": "Min salgspræstation."
+    },
+    "products": {
+      "title": "Produkter",
+      "subtitle": "Her kan du se antallet af dine produkter opført på markedspladsen. Produkter fra flere leverandører er ikke inkluderet."
+    },
+    "wallets": {
+      "title": "Mine tegnebøger",
+      "subtitle": "Du behøver ikke tilføje tegnebøger manuelt! Leverandørens tegnebøger oprettes automatisk."
+    },
+    "open_marketplace_page": "Åbn markedsplads-side",
+    "open_my_store_page": "Åbn min butiksside",
+    "open_my_listing_page": "Åbn min listeside",
+    "add_products_permission": "Tilføj produkttilladelse",
+    "add_categories_permission": "Tilføj kategorier tilladelse"
+  },
+  "vendor_inventory": {
+    "title": "Produktliste",
+    "subtitle": "Dette er en liste over dine produkter på markedspladsen. Opdater priser og mængder for dine tildelte produkter i beholdningen. Som leverandør vil du kun se enkeltleverandørprodukter, du ejer, på produktlisten. Andre tildelte produkter kan også ændres her."
+  },
+  "vendor_payments": {
+    "list": {
+      "title": "Udbetalingshistorik",
+      "subtitle": "Du kan se din udbetalingshistorik her. Disse udbetalinger kan behandles manuelt via bankoverførsler eller automatisk ved hjælp af betalingstjenester, der tilbyder udbetalingsmuligheder."
+    },
+    "connect": {
+      "title": "Tilslut bank",
+      "subtitle": "Vi tilbyder opdelte betalingsmuligheder for følgende betalingsgateways. For at modtage betalinger problemfrit efter hvert køb, skal du tilknytte din bankkonto ved hjælp af disse muligheder."
+    },
+    "verify_dialog": {
+      "title": "Bekræft betaling",
+      "option": {
+        "title": "Leverandørhandling",
+        "subtitle": "Du har mulighed for at acceptere eller afvise denne overførsel. Denne handling tjener kun som en historisk optegnelse. Du skal blot bekræfte, om du har modtaget midlerne; hvis ikke, er der ingen grund til at foretage sig noget."
+      },
+      "inputs": {
+        "verify": {
+          "label": "Har du bekræftet denne betaling?",
+          "false_description": "Nej, jeg har endnu ikke modtaget denne betaling på min bankkonto.",
+          "true_description": "Ja, jeg har modtaget og bekræftet denne betaling."
+        }
+      }
+    }
+  },
+  "order_vendor_payment": {
+    "message": "Dette er en oversigt over transaktionerne i din virtuelle tegnebog på markedspladsen.",
+    "vendor_wallets": "Sælger tegnebøger",
+    "my_wallets": "Mine tegnebøger"
+  },
+  "product_add_dropshipping_shops": {
+    "subtitle": "Her kan du finde grossister, der viser deres produkter på Selldone, hvilket gør dem tilgængelige for andre forhandlere. Selldones indbyggede dropshipping-platform forenkler processen, hvilket gør det nemt og ligetil for både grossister og handlende."
+  },
+  "customer_add": {
+    "edit_title": "Rediger kunde",
+    "add_title": "Tilføj ny kunde",
+    "subtitle": "For at tilføje en kunde til din butik skal du angive enten en e-mailadresse eller et telefonnummer.",
+    "more": {
+      "title": "Tilføj flere detaljer",
+      "subtitle": "Indstil valuta, kundeklub, segmenter, adresse og mere."
+    },
+    "detail": {
+      "subtitle": "Hold en fortegnelse over personlige oplysninger om din kunde. Respekter venligst din kundes privatliv."
+    },
+    "preferences": {
+      "subtitle": "Indstil standardbrugervaluta, kundeklub og segmenter her."
+    },
+    "address": {
+      "subtitle": "Denne adresse kan bruges i POS. Brugeren kan ikke se disse oplysninger."
+    }
+  },
+  "referral_bank": {
+    "title": "Henvisning Dashboard",
+    "subtitle": "På din anmodning vil kommissionsgebyret blive udbetalt til den bankkonto, du har angivet. Angiv venligst dine bankoplysninger her.",
+    "no_bank_info": "Ingen bankoplysninger!",
+    "actions": {
+      "edit_my_bank_info": "Rediger mine bankoplysninger"
+    },
+    "bank_dialog": {
+      "title": "Mine bankoplysninger",
+      "info": {
+        "title": "Bank",
+        "subtitle": "Indtast venligst dine bankoplysninger her. Vi vil bruge disse oplysninger til at overføre penge. Sørg for, at bankkontoen står i dit navn eller under dit firmanavn, alt efter hvad der er relevant."
+      },
+      "inputs": {
+        "name": {
+          "label": "Bank-navn",
+          "message": "Det fulde navn på den bank, hvor kontoen holdes."
+        },
+        "holder_name": {
+          "label": "Kontoindehavers navn",
+          "message": "Det fulde navn på den person eller enhed, der har kontoen."
+        },
+        "account_number": {
+          "label": "Kontonummer",
+          "message": "Det unikke nummer, der er knyttet til den specifikke bankkonto."
+        },
+        "routing_number": {
+          "label": "Rutenummer (USA) eller sorteringskode (UK)",
+          "message": "Et nummer, der identificerer den specifikke bankfilial (der bruges forskellige udtryk i forskellige lande)."
+        },
+        "swift": {
+          "label": "SWIFT/BIC kode",
+          "message": "En international kode, der bruges til at identificere banker globalt, især til internationale overførsler."
+        },
+        "iban": {
+          "label": "IBAN (International Bank Account Number)",
+          "message": "IBAN, der primært bruges i Europa, er et internationalt aftalt system til identifikation af bankkonti på tværs af landegrænser."
+        },
+        "contact": {
+          "label": "Kontaktoplysninger",
+          "message": "Telefonnummer eller e-mailadresse knyttet til kontoen."
+        },
+        "note": {
+          "label": "Bemærk",
+          "message": "Ekstra bemærkning"
+        }
+      }
+    },
+    "notifications": {
+      "save": {
+        "message": "Dine bankoplysninger er blevet opdateret."
+      }
+    }
+  },
+  "referral_tier": {
+    "message": "Fra alle servicegebyrer, abonnementer og andre betalinger foretaget af dine henvisninger."
+  },
+  "ReferralTiers": {
+    "Bronze": {
+      "title": "Tier Bronze",
+      "description": "Du er i Bronze Tier. Du har optjent 2 % kommission fra dine henvisninger."
+    },
+    "Silver": {
+      "title": "Tier sølv",
+      "description": "Du er i Silver Tier. Du har optjent 4 % kommission fra dine henvisninger."
+    },
+    "Gold": {
+      "title": "Tier guld",
+      "description": "Du er i Gold Tier. Du har optjent 6 % kommission fra dine henvisninger."
+    },
+    "Platinum": {
+      "title": "Tier Platinum",
+      "description": "Du er i Platinum Tier. Du har optjent 8 % kommission fra dine henvisninger."
+    },
+    "Diamond": {
+      "title": "Tier Diamond",
+      "description": "Du er i Diamond Tier. Du har optjent 10 % kommission fra dine henvisninger."
+    }
+  },
+  "page_monetize": {
+    "title": "Tjen penge",
+    "subtitle": "Spred adgang til forretningsmuligheder."
+  },
+  "sms_template_mode": {
+    "text": {
+      "title": "Almindelig tekst",
+      "desc": "Beskeden oprettes ud fra en tekst med automatisk udskiftningsparametre og send."
+    },
+    "template": {
+      "title": "Strukturel skabelon",
+      "desc": "Et objekt vil blive oprettet ud fra parametre og sendt til udbyderen."
+    }
+  },
+  "shop_sms_provider": {
+    "title": "Tilpasset SMS-udbyder",
+    "reset_error": "Nulstil fejl",
+    "subtitle": "Konfigurer en brugerdefineret SMS-tjenesteudbyder og tilpas din autentificerings-SMS og virksomhedsnavn. Standardudbyderen sender bare godkendelses-SMS og informerer beskeder i nogle hvidlistede lande.",
+    "plain_text": "Almindelig tekst",
+    "structural_template": "Strukturel skabelon",
+    "errors_limit_msg": "Hvis din tjeneste overstiger 100 fejl, vil den automatisk blive deaktiveret! Du kan nulstille fejl for at genaktivere den.",
+    "enable_input": {
+      "false_description": "OTP-beskeder vil blive afsendt gennem Selldone i udvalgte lande, mens andre ordrebeskeder også vil blive sendt.",
+      "true_description": "SMS-beskeder vil blive leveret via din tjenesteudbyder."
+    },
+    "test_input": {
+      "true_title": "Valider konfiguration",
+      "true_description": "Vi sender en testbesked til dit telefonnummer 📞 <b>{phone}</b> , det kan opkræve dig, men du kan sikre dig, at alt fungerer godt."
+    },
+    "sync_action": {
+      "title": "Handlinger",
+      "subtitle": "Nogle SMS-tjenester giver ekstra tjenester som kampagner, markedsføring og andre funktioner. Du kan synkronisere dine kontakter eller yderligere oplysninger for at bruge deres funktioner hurtigere.",
+      "action": "Synkroniser kontakter"
+    },
+    "tokens": {
+      "title": "Parametre",
+      "subtitle": "Indstil følgende parametre for at forbinde din SMS-tjenesteudbyder med din butik."
+    }
+  },
+  "sms_messages_options": {
+    "all": {
+      "title": "OPT + ordremeddelelser",
+      "description": "Godkendelsesbeskeder og ordrebeskeder vil blive sendt."
+    },
+    "otp": {
+      "title": "Kun OTP",
+      "description": "Godkendelsesmeddelelser vil blive sendt."
+    }
+  },
+  "shop_email_provider": {
+    "title": "Brugerdefineret mailserver",
+    "subtitle": "Tilslut din mailudbyder for at sende e-mails via dit brugerdefinerede domæne.",
+    "provider": "Udbyder",
+    "enable_input": {
+      "false_description": "Dine e-mails vil blive sendt via dit myselldone-domæne.",
+      "true_description": "Dine e-mails vil blive sendt via dit brugerdefinerede mail-domæne."
+    },
+    "config": {
+      "title": "Konfig",
+      "subtitle": "For at konfigurere din tilpassede mailtjeneste til din butik skal du indtaste din service API-nøgle sammen med andre nødvendige indstillinger."
+    },
+    "sender": {
+      "title": "Fra",
+      "subtitle": "Du kan konfigurere standardafsenderens navn og e-mailadresse, som vil blive brugt til at sende e-mails til dine kunder."
+    },
+    "inputs": {
+      "from": {
+        "label": "Fra e-mail"
+      },
+      "from_name": {
+        "label": "Fra Navn"
+      }
+    },
+    "actions": {
+      "send_test_email": "Send en test-e-mail"
+    },
+    "messages": {
+      "provider_error_limit": "Hvis din tjeneste overstiger 100 fejl, vil den automatisk blive deaktiveret! Du kan nulstille fejl for at genaktivere den.",
+      "encryption_ports_guide": "E-mail-udbydere kan tilbyde SSL, TLS eller ukrypterede forbindelser baseret på tilgængelige porte. Hvis tilslutning resulterer i en fejl, kan ændring af krypteringstilstand muligvis løse problemet. Standard <b>TLS</b> -brug Port: <b>587</b> og <b>SSL-</b> brug Port: <b>465</b> .",
+      "enable_receive_test": "Efter at have gemt ændringer, vil du modtage en testmail på <b>{email}</b> . Gem ændringer, før du sender en test-e-mail med den nye konfiguration."
+    }
+  },
+  "product_location_restrictions": {
+    "title": "Tilgængelige lokationer",
+    "subtitle": "Hvis dit produkt eller din tjeneste kun er tilgængelig i bestemte områder, defineret af land og post- eller pinkoder, kan du angive disse steder her. Disse placeringsbegrænsninger håndhæves på produktniveau. På produktsiden bliver kunderne bedt om at vælge deres placering. Hvis produktet er tilgængeligt i deres valgte område, vil de kunne fortsætte med købet.",
+    "add_location_action": "Tilføj land",
+    "no_restriction": "Ingen begrænsning",
+    "import": {
+      "title": "Indlæs profil",
+      "subtitle": "Vælg en profil for gemte placeringer."
+    },
+    "export": {
+      "title": "Gem profil",
+      "subtitle": "Opbevar placeringer til fremtidig brug."
+    },
+    "has_restriction_input": {
+      "title": "Har placeringsbegrænsning",
+      "description": "Kunder kan kun købe dette produkt inden for det angivne land og postnummer på grund af den etablerede placeringsbegrænsning."
+    },
+    "zip_pin_code": "Postnummer/pinkode",
+    "no_country_selected_error": "Inkluder venligst mindst ét land sammen med en liste over post-/pinkoder. Uden det vil dette produkt ikke være tilgængeligt.",
+    "tips": "Klik på knappen <b>+ Tilføj land</b> for at begynde at oprette et nyt placeringssæt. Når du er færdig, kan du gemme den ved at klikke øverst til højre <b>⋮ Menu</b> og vælge <b>Gem profil</b> .",
+    "need_save_message": "Placeringsbegrænsningsindstillingerne for produktet er blevet ændret. For at bevare disse ændringer skal du klikke på knappen 'Gem' nedenfor.",
+    "add_dialog": {
+      "title": "Tilføj land",
+      "message": "Vælg et land, og klik på 'Tilføj'. Dette vil tilføje landet til tabellen, så du kan tildele postnumre, pinkoder, bynavne eller regionsnavne til det."
+    },
+    "save_profile_dialog": {
+      "title": "Tilføj placeringsprofil",
+      "message": "Indtast venligst et navn for at gemme dette sæt af placeringer. Dette gemte placeringssæt kan anvendes på andre produkter, hvilket giver mulighed for hurtig placeringsindlæsning med blot et enkelt klik. Hvis en profil med det angivne navn allerede eksisterer, vil den blive opdateret med disse nye værdier.",
+      "title_input": {
+        "title": "Profil titel",
+        "placeholder": "Et kategorinavn eller butiksnavn..."
+      }
+    },
+    "load_profile_dialog": {
+      "title": "Indlæs lokationsprofil",
+      "message": "Du kan indlæse lokationer ved at vælge et tidligere gemt stedsæt her.",
+      "select_input": {
+        "title": "Placeringsprofil",
+        "placeholder": "Vælg en profil..."
+      }
+    }
+  },
+  "blog_timeline": {
+    "title": "Indholdsfrigivelsesplan",
+    "subtitle": "Her er listen over planlagte artikler indstillet til fremtidig udgivelse. Du har mulighed for at planlægge blogindlæg og endda produktbeskrivelser til at blive offentliggjort på bestemte tidspunkter."
+  },
+  "direct_feedback": {
+    "title": "Send direkte anmodning",
+    "message": "Identificer dine top 3 virksomhedsbehov for at trives og profitere på Selldone. Disse oplysninger vil blive delt direkte med stiftere og direktører og vil blive overvejet nøje. Du kan også opdatere dine behov over tid efter indsendelse.",
+    "expand_action": "Skriv anmodningen...",
+    "input_label": "Din anmodning",
+    "to": {
+      "ceo": "Send til CEO",
+      "team": "Send til Team"
+    },
+    "placeholder": {
+      "ceo": "Absolut ingen grund til at være sød, jeg kan godt lide at høre din direkte, lige til punkt spørge. jeg skal fx have...",
+      "team": "Prøv at være sød ved dem. jeg skal fx have..."
+    }
+  },
+  "inventory_filter": {
+    "placeholder": "Vælg Filter *.*"
+  },
+  "vendor_input": {
+    "placeholder": "Filtrer leverandør..."
+  },
+  "product_import_processing": {
+    "title": "Forarbejdning af importerede produkter",
+    "message": "Vi er i gang med at importere produkter og billeder, hvilket kan tage noget tid at færdiggøre."
+  },
+  "order_input": {
+    "message": "De oplysninger, der vises her, er indsendt af kunden i overensstemmelse med produktinputformularstrukturen."
+  },
+  "shop_connect": {
+    "test": {
+      "title": "Opsætning",
+      "subtitle": "Ekstern servicerapport",
+      "action": "Test forbindelse",
+      "last_update": "Sidst opdateret af"
+    },
+    "service_status": {
+      "title": "Servicestatus",
+      "syncing_message": "Ved synkroniseringsprocessen...",
+      "action": "Synkroniser alle",
+      "connect_status": "Tilslut status",
+      "service_status": "Servicestatus",
+      "auto_confirm_enable_msg": "Automatisk bekræftelse for ordrer er aktiveret.",
+      "auto_confirm_disable_msg": "Automatisk bekræftelse af ordrer er ikke aktiveret.",
+      "shipping_enable_msg": "Fragtomkostningerne vil blive beregnet ud fra de oplysninger, der er angivet ved kassen."
+    },
+    "detail": {
+      "title": "Forbind detaljer",
+      "auto_confirm_order": "Bekræft automatisk ordrer",
+      "test_mode": "Testtilstand",
+      "status": {
+        "subtitle": "Overordnede oplysninger om synkroniseringsstatus."
+      },
+      "sync": {
+        "title": "Synkroniseringsdetaljer",
+        "subtitle": "Interne synkroniseringsdetaljer. Disse oplysninger gemmes, efter at en synkroniseringsproces-epoke er afsluttet.",
+        "no_data": "Ingen synkroniseringsoplysninger!"
+      }
+    },
+    "products": {
+      "title": "Produkter",
+      "subtitle": "Liste over tilføjede produkter fra {name}. Sørg for, at dit produkt har et unikt navn og SKU. Nogle Connect-tjenester bruges til migrering, så hvis du har produkter med dublerede <b>SKU'er</b> og <b>navne</b> , vil disse produkter blive ændret!",
+      "action": "Hent produkter",
+      "syncing_message": "Ved synkroniseringsprocessen..."
+    },
+    "logs": {
+      "title": "Logs",
+      "subtitle": "Listen over alle logfiler i de sidste 7 dage. Logningsfunktion understøttes kun på eksterne tjenesteudbydere."
+    },
+    "edit": {
+      "title": "Tilføj ny Connect",
+      "service": {
+        "title": "Service",
+        "subtitle": "Vælg målplatform, dropshipping-leverandør eller markedsplads for at oprette forbindelse."
+      },
+      "test": {
+        "false_title": "Synkroniser alle",
+        "false_desc": "Få alle tilgængelige produkter, kategorier, kunder.",
+        "true_title": "Begrænset (anbefales til begyndere)",
+        "true_desc": "Få maks. 5 produkter, kategorier og kunder. Du kan til enhver tid slå den til fuld tilstand i Connect > Indstilling."
+      },
+      "overwrite": {
+        "false_title": "Foretag ikke ændringer, hvis de findes",
+        "false_desc": "Behold eksisterende produkt- og kategorioplysninger, som de er.",
+        "true_title": "Overskriv",
+        "true_desc": "Opdater eksisterende produkt-, variant- og kategorioplysninger."
+      },
+      "migration_tips": "<b>Tip:</b> Hvis du vil teste funktionaliteten, skal du vælge <b>Begrænset</b> mulighed. Ved at vælge 'Synkroniser alle' får vi alle data fra dine tilsluttede tjenester og downloader relaterede billeder, så det reducerer din gratis lagerplads. Det ville også være svært at fjerne mange produkter, kategorier og kunder!",
+      "add_action": "Opret automatisk forbindelse til",
+      "order": {
+        "title": "Bestillingsstatus",
+        "subtitle": "Konfigurer den tilsluttede tjenestes ordrestyringsindstillinger for din butik. Dette omfatter opsætning af ordreaccept, aktivering af automatisk ordrebekræftelse (hvis understøttet) og konfigurering af forsendelsesomkostningsberegninger."
+      },
+      "enable": {
+        "label": "Tilslut status",
+        "true_desc": "Beholdning og ordrer vil blive synkroniseret."
+      },
+      "confirm": {
+        "label": "Bekræft automatisk ordrer",
+        "false_desc": "Du skal bekræfte ordren manuelt.",
+        "true_desc": "Ordrer med direkte betaling vil automatisk blive godkendt. Ordrer med fejlretningsbetaling godkendes ikke automatisk.",
+        "tips": "Ordrer betalt med gavekort eller efterkrav eller betalingsgateways i fejlretningstilstanden er undtagelser og vil ikke blive bekræftet automatisk."
+      },
+      "shipping": {
+        "label": "Forsendelse",
+        "tips": "Denne service tilbyder forsendelsesberegning, som kan aktiveres eller deaktiveres efter dine præferencer. Hvis det er aktiveret, kræves API'er til omkostningsberegning med tredjepartstjenester, hvilket kan forårsage en forsinkelse på over 300 ms for opdatering af prisen på betalingssiden.",
+        "false_title": "Deaktiver",
+        "false_desc": "Brug min beregning af forsendelsesomkostninger i Butik > Logistik > Transport for alle produkter, inklusive importerede.",
+        "true_title": "Beregn forsendelse",
+        "true_desc": "Brug API'et til beregning af forsendelsespris, der tilbydes af denne tjeneste."
+      },
+      "remove": {
+        "verify": "Jeg bekræfter for at fjerne denne forbindelse.",
+        "action": "Fjern forbindelsen"
+      }
+    },
+    "list": {
+      "title": "Tilslut OS",
+      "subtitle": "Forbind din virksomheds OS til eksterne tjenester og administrer alle kanaler på samme sted.",
+      "action": "Tilslut nye tjenester",
+      "empty_message": "Glem apps og plugins til dropshipping! Connect er fremtiden for ordrestyring på tværs af platforme.",
+      "auto_confirm": "Autobekræft",
+      "shipping": "Forsendelse",
+      "syncing_now": "Synkroniserer nu!",
+      "sync_not_started": "Synkronisering er ikke startet endnu!"
+    }
+  },
+  "connect_mode": {
+    "Migration": {
+      "title": "Migration",
+      "desc": "Få produkter, kategorier og kunder. Efter at brugeren har slettet denne service, vil de modtagne produkter, kategorier og kunder ikke blive slettet."
+    },
+    "Dropshipping": {
+      "title": "Dropshipping",
+      "desc": "Få produkter, kategorier og ordrer. Systemet fjerner produkter, efter at brugeren har fjernet tjenesten."
+    },
+    "Marketplace": {
+      "title": "Markedsplads",
+      "desc": "Bare synkroniser lagerbeholdning og modtag ordrer (produkter vil blive linket af SKU)."
+    },
+    "Accounting": {
+      "title": "Regnskab",
+      "desc": "Send ordrer og økonomiske oplysninger."
+    },
+    "Other": {
+      "title": "Andet",
+      "desc": "Andre tjenester."
+    }
+  },
+  "shop_landings": {
+    "title": "Landingssider",
+    "add_new_action": "Tilføj ny side",
+    "subtitle": "Opret karakteristiske, responsive tilpassede sider til dit brand ved hjælp af en alsidig AI-drevet inline-editor, og generer automatisk dynamisk indhold ved at indlæse data.",
+    "empty_message": "Design tilpassede sider ved at trække og slippe..."
+  },
+  "shop_staff": {
+    "list": {
+      "title": "Personaleledelse",
+      "subtitle": "Brugere har givet adgang til betjeningspanelet og administrative sektioner i denne butik."
+    },
+    "pending": {
+      "title": "Verserende",
+      "message": "Vis afventende invitationer."
+    }
+  },
+  "community_comments": {
+    "title": "kommentarer",
+    "subtitle": "Dette er en liste over fællesskabets kommentarer.",
+    "empty_msg": "Der er ikke oprettet nogen kommentarer indtil videre..."
+  },
+  "community_categories": {
+    "title": "Kategorier",
+    "subtitle": "Dette er en liste over fællesskabets kategorier.",
+    "new_category_action": "Ny kategori",
+    "empty_msg": "Ingen kategorier er blevet oprettet indtil videre...",
+    "filter": {
+      "delete": {
+        "title": "Slettet",
+        "description": "Vis slettede kategorier."
+      }
+    }
+  },
+  "community_posts": {
+    "title": "Indlæg",
+    "subtitle": "Dette er en liste over fællesskabets indlæg.",
+    "filter": {
+      "deleted": {
+        "title": "Slettet",
+        "description": "Vis slettede indlæg."
+      },
+      "reported": {
+        "title": "Rapporteret",
+        "description": "Vis rapporterede indlæg."
+      }
+    },
+    "empty_msg": "Ingen indlæg er blevet oprettet indtil videre...",
+    "menu": {
+      "open_post": {
+        "title": "Åbn Post",
+        "subtitle": "Se og rediger indlæg i fællesskabet."
+      },
+      "spam": {
+        "title": "Rapporter og fjern spam",
+        "subtitle": "Fjern indlæg i massevis og udelukk bruger."
+      },
+      "delete": {
+        "title": "Slet indlæg",
+        "subtitle": "Fjern dette indlæg."
+      }
+    }
+  },
+  "channel_google": {
+    "gtag": {
+      "title": "Tag Manager",
+      "subtitle": "Google Analytics muliggør måling af annonce-ROI, mens du sporer Flash-, video- og sociale mediesider og apps. Administrer websitetags uden besvær med Google Tag Managers gratis, enkle og pålidelige løsninger – ingen koderedigering påkrævet.",
+      "tag_id": {
+        "label": "Google Tag Manger-id"
+      }
+    },
+    "shopping": {
+      "title": "Google Shopping",
+      "subtitle": "Datakilder angiver oprindelsen af dine katalogoplysninger på Google. Følg dette link for automatisk at tilføje alle produkter og kategorier til Google-merchandise.",
+      "tips": "Du kan bruge dette værktøj til nemt og automatisk at administrere Google-annoncer.",
+      "link_message": "Google Products Feed URL"
+    },
+    "console": {
+      "title": "Search Console",
+      "subtitle": "Tilføj et metatag til din startside til Google Search Console-bekræftelse.",
+      "code": {
+        "label": "Bekræftelsesmetatag",
+        "placeholder": "Fra google, fx viQg9mjdBj..."
+      }
+    },
+    "serp": {
+      "title": "Google SERP og søgeord",
+      "subtitle": "Vi indhenter de mest præcise SEO-revisionsdata fra Google og præsenterer dem for dig på en bekvem måde. Du skal blot følge de angivne trin."
+    },
+    "serp_content": {
+      "title": "Opret forbindelse til Google Search Console",
+      "subtitle": "Forbind din butik med søgekonsollen, og begynd at udforske søgeord, rækker og andre gratis SEO-værktøjer på Selldone.",
+      "tips": {
+        "title": "Før du linker Sellone til Google Search Console, skal du sikre dig følgende:",
+        "add_in_selldone": "Tilføj, bekræft og indstil dit brugerdefinerede domæne som primært.",
+        "add_in_google": "Tilføj og bekræft <b>{domain}</b> i din <a href=\"https://search.google.com/search-console\" target=\"_blank\"><b>Google Search Console</b></a> ."
+      },
+      "action_custom_domain": "Brugerdefineret domæne",
+      "action_connect_now": "Tilslut nu",
+      "action_remove_connection": "Fjern forbindelsen"
+    }
+  },
+  "cashback": {
+    "add_new": "Tilføj ny cashback",
+    "title": "Cashback programmer",
+    "boosted": "Boost (2x)",
+    "min_purchase": "Minimumskøb",
+    "only_first_order": "Kun første ordre",
+    "total_cashback": "Total Cashback",
+    "delete_alert": {
+      "title": "Slet Cashback-programmet",
+      "message": "Er du sikker på at slette dette cashback-program?",
+      "action": "Ja, slet nu"
+    },
+    "notifications": {
+      "delete_success": "Cashback-programmet blev slettet."
+    }
+  },
+  "shop_cashback": {
+    "title": "Cashback program",
+    "up_to": "op til",
+    "menu": {
+      "back": "Tilbage programmer",
+      "dashboard": "dashboard",
+      "orders": "Ordre:% s",
+      "edit": "Redigere"
+    },
+    "dashboard": {
+      "chart_amount_buy": {
+        "label": "Købe",
+        "y": "Købsbeløb {currency}"
+      },
+      "chart_amount_cashback": {
+        "label": "Cashback",
+        "y": "Cashback beløb {currency}"
+      },
+      "chart_used": {
+        "label": "Brugt",
+        "y": "Tider"
+      }
+    },
+    "orders": {
+      "title": "Cashback ordrer",
+      "table": {
+        "amount_cashback": "Cashback beløb",
+        "payment_status": "Betalingsstatus",
+        "date": "Dato"
+      }
+    }
+  },
+  "cashback_edit": {
+    "config": {
+      "subtitle": "Indstil chasback procent, grænse og dens status her."
+    },
+    "percent_input": {
+      "title": "Cashback-procent",
+      "message": "Indtast cashback-procenten fra 1 % til 20 %."
+    },
+    "currency_input": {
+      "message": "Cashback-programmet vil kun være tilgængeligt for denne valuta."
+    },
+    "limit_input": {
+      "title": "Begrænse",
+      "hint": "Indtast det maksimale beløb for cashback.",
+      "zero_message": "Indtast 0 for ubegrænset cashback."
+    },
+    "duration": {
+      "title": "Varighedsgrænse",
+      "subtitle": "Indstil varigheden af cashback-programmet. Det er valgfrit."
+    },
+    "start_input": {
+      "title": "Startdato",
+      "placeholder": "Vælg startdato..."
+    },
+    "end_input": {
+      "title": "Slutdato",
+      "placeholder": "Vælg slutdato..."
+    },
+    "design": {
+      "subtitle": "Indstil titel og kort beskrivelse for cashback-programmet. Disse oplysninger vil blive vist til kunderne."
+    },
+    "title_input": {
+      "title": "Titel"
+    },
+    "description_input": {
+      "title": "Beskrivelse"
+    },
+    "constraints": {
+      "subtitle": "Indstil begrænsningerne for cashback-programmet."
+    },
+    "min_purchase_input": {
+      "hint": "Indtast minimumskøbsbeløbet for cashback-programmet.",
+      "title": "Minimumskøb"
+    },
+    "only_first_buy_input": {
+      "false_desc": "Cashback-programmet vil være tilgængeligt for alle ordrer.",
+      "true_desc": "Cashback-programmet vil kun være tilgængeligt for den første ordre.",
+      "true_title": "Kun første ordre",
+      "false_title": "Alle ordrer"
+    },
+    "qualify_input": {
+      "false_title": "Alle kunder",
+      "true_title": "Kvalificere kunder",
+      "true_msg": "Cashback-programmet vil kun være tilgængeligt for de kunder, der er kvalificerede."
+    },
+    "club": {
+      "subtitle": "Indstil klubben til cashback-programmet. Cashback-programmet vil kun være tilgængeligt for de kunder, der er i denne klub."
+    },
+    "cluster": {
+      "subtitle": "Ved at knytte en klynge til cashback-programmet kan du administrere det mere effektivt."
+    },
+    "notifications": {
+      "add": "Cashback-program blev tilføjet.",
+      "edit": "Cashback-programmet blev opdateret."
+    },
+    "enable_input": {
+      "true_msg": "Cashback-programmet er aktivt, og kunderne kan bruge det.",
+      "false_msg": "Cashback-programmet er inaktivt og kunder kan ikke bruge det."
+    },
+    "boosted_input": {
+      "false_title": "Normal",
+      "true_title": "Boost (2x Cashback)",
+      "true_msg": "Cashback-programmet er i boost-tilstand, og kunderne vil modtage 2x cashback.",
+      "false_msg": "Cashback-programmet er i normal tilstand, og kunderne vil modtage normal cashback."
+    }
+  },
+  "row_payment": {
+    "actions": {
+      "refund": {
+        "title": "Refusion Betaling",
+        "subtitle": "Delvis eller fuld refusion understøttes."
+      },
+      "delivery": {
+        "title": "Bekræft ved levering",
+        "subtitle": "Du kan manuelt bekræfte levering for betalingsudbyder."
+      }
+    }
+  },
+  "payment_refund_dialog": {
+    "title": "Refusion Betaling",
+    "message": "Af sikkerhedsmæssige årsager er det kun ordrer, der er betalt inden for de sidste 7 dage, der er berettiget til refusion.",
+    "payment_amount": "Betalingsbeløb",
+    "total_refund_amount": "Samlet refunderet beløb",
+    "can_refund": "Kan refunderes",
+    "refund_amount": "Tilbagebetalingsbeløb",
+    "verify": {
+      "title": "Bekræft tilbagebetaling",
+      "description": "Jeg bekræfter, at tilbagebetalingsbeløbet er korrekt, og jeg vil fortsætte."
+    },
+    "action": "Tilbagebetaling nu"
+  },
+  "payment_delivery_dialog": {
+    "title": "Kundeleveringsbekræftelse",
+    "message": "Visse betalingstjenester kræver bekræftelse på, at ordren er leveret til kunden. Vi sender typisk denne bekræftelse under det sidste trin af ordreopfyldelse, når vi modtager kundens leveringsbekræftelse. Men hvis du har brug for at udføre denne handling manuelt, kan du gøre det her.",
+    "verify": {
+      "title": "Bekræft levering",
+      "description": "Jeg bekræfter, at ordren er leveret til kunden."
+    },
+    "action": "Bekræft nu"
+  },
+  "product_cross_selling": {
+    "title": "Krydssalg",
+    "add_new_actions": "Tilføj nyt produkt",
+    "subtitle": "I dette afsnit kan du tilføje og administrere krydssalgsprodukter til denne produktside. Disse produkter vil blive vist som forslag, som kunder kan købe sammen med hovedvaren. Du kan også angive rabatter for at tilskynde til og tilskynde til yderligere køb. Systemet viser maksimalt 3 genstande, som kunden kan overveje.",
+    "dialog": {
+      "edit_title": "Rediger krydssalgsprodukt",
+      "add_title": "Tilføj nye krydssalgsprodukter",
+      "target": {
+        "title": "Målprodukt",
+        "subtitle": "Vælg de produkter, du gerne vil promovere som krydssalgsmuligheder sammen med dette produkt.",
+        "select_products": "Vælg produkt(er)"
+      },
+      "list": {
+        "title": "Målprodukt",
+        "subtitle": "Dette produkt er blevet valgt til krydssalgspromovering.",
+        "manage_product": "Administrer produkt"
+      },
+      "discount": {
+        "title": "Rabat & besked",
+        "subtitle": "Du har mulighed for at inkludere en besked og tilbyde en rabat for at motivere kunderne til at købe de valgte ekstra varer. Disse incitamenter kan hjælpe med at drive salget og forbedre den overordnede shoppingoplevelse.",
+        "amount_input": {
+          "message": "Rabatprocenten vil blive anvendt på produktprisen efter at have taget hensyn til alle eksisterende rabatter."
+        },
+        "mismatch_type_warning": "Rabatter kan ikke anvendes på andre typer udover hovedprodukttyperne, da kilde- og målvarerne ikke vil blive placeret i separate kurve.",
+        "not_support_subscription_type_warning": "Det er ikke muligt at sætte rabatter for krydssalg af abonnementsprodukter, da prisplanerne ikke kan justeres dynamisk.",
+        "message_input": {
+          "message": "Lav en overbevisende og lokkende titel for at fange kundernes opmærksomhed.",
+          "placeholder": "Bundle & Gem: Fuldend dit look med vores håndplukkede udvalg!"
+        }
+      },
+      "action": {
+        "title": "Handling",
+        "subtitle": "Rediger krydssalgsproduktets handling her. Hvis dit produkt kræver input af tilpassede oplysninger, såsom gennem en vurderingsformular, skal du ikke vælge \"Tilføj til kurv\" som handling, da dette kan føre til fejl."
+      }
+    }
+  },
+  "CrossSellActionType": {
+    "AddToCart": {
+      "title": "Tilføj til kurv",
+      "description": "Vis knappen Tilføj til kurv direkte. Bemærk, at dette ikke gælder for abonnementsprodukter."
+    },
+    "ViewProduct": {
+      "title": "Se produkt",
+      "description": "Vis en Vis mere-knap, der leder kunderne til produktsiden ved at åbne et nyt vindue."
+    }
+  },
+  "product_flow": {
+    "title": "Købsflow",
+    "subtitle": "Dette er købsflowet og sundhedstjekket af dit produkt.",
+    "connect": {
+      "subtitle": "Dette produkt er blevet tilføjet via <b>{name}</b> .",
+      "enable_msg": "Denne bro til ekstern tjeneste er aktiveret.",
+      "disable_msg": "Denne bro til ekstern tjeneste er deaktiveret.",
+      "has_shipping_msg": "{name} understøtter forsendelse. Så du har mulighed for at aktivere automatisk forsendelsesberegning af {name} på betalingssiden."
+    },
+    "health": {
+      "title": "Produktsundhed",
+      "available_in_stock_msg": "Produktet er tilgængeligt på lager.",
+      "out_of_stock_msg": "Produktet er udsolgt.",
+      "file_count_msg": "{files_count} filer med i alt {files_size} uploadet til dette produkt.",
+      "no_file_uploaded_msg": "Ingen fil er blevet uploadet endnu.",
+      "no_image_uploaded_msg": "Upload et produktbillede for at gøre det mere attraktivt."
+    },
+    "vendor_errors": {
+      "title": "Manglende sælgere",
+      "subtitle": "Dette produkt har i øjeblikket ingen tilknyttede leverandører. For at et produkt kan købes på markedspladsen, skal det have mindst én leverandør.",
+      "manage_vendors": "Administrer leverandører"
+    },
+    "file_errors": {
+      "title": "Manglende filer",
+      "subtitle": "I øjeblikket er der ikke uploadet filer til dette produkt. Upload venligst filer for at fortsætte.",
+      "manage_files": "Administrer filer"
+    },
+    "pricing": {
+      "title": "Prissætning",
+      "no_product_price_msg": "Standardproduktprisen er ikke fastsat endnu!",
+      "listing_pricing_msg": "Listepriser:",
+      "has_valuation_msg": "Produktet har værdiansættelse.",
+      "subscription_pricing_msg": "Dette produkt har {count} abonnementsprisplaner.",
+      "has_no_subscription_pricing_msg": "Dette produkt har ingen abonnementsprisplaner."
+    },
+    "subscription_errors": {
+      "title": "Manglende abonnementsprisplaner",
+      "subtitle": "Dette produkt har ingen abonnementsprisplaner. Du skal tilføje mindst én abonnementsprisplan for at gøre dette produkt tilgængeligt for abonnementskøb.",
+      "pricing_plans": "Prisplaner"
+    },
+    "location": {
+      "title": "Salgsplaceringsbegrænsning ● {status}",
+      "status": {
+        "has_restriction": "Tilgængelig i {count} lande",
+        "no_restriction": "Ikke begrænset"
+      },
+      "available_countries_msg": "Shopping globalt er begrænset til {count} lande. Disse lande er {countries}.",
+      "disable_for_all_countries_msg": "Shopping er deaktiveret for alle lande i din butik > placeringsindstilling.",
+      "location_is_not_in_permitted_shop_locations_msg": "Du angiver {country} som salgssted, men på butiksniveau tillader du ikke dette land. Tjek venligst dine butiksniveauindstillinger.",
+      "shop_locations": "Butikssteder",
+      "product_locations": "Produktplaceringer"
+    },
+    "location_errors": {
+      "title": "Tilgængelige steder fejl",
+      "no_location_error_subtitle": "Du har aktiveret en placeringsbegrænsning for at købe produktet, men i øjeblikket er intet land angivet under denne begrænsning. Som et resultat er dette produkt ikke tilgængeligt for køb af nogen.",
+      "invalid_location_error_subtitle": "Indstillingerne for placeringsbegrænsning for dit produkt indeholder en fejl: Visse placeringer på listen har ingen tilknyttede postnumre. Som følge heraf er brugere ikke i stand til at vælge et postnummer, hvilket gør produktet utilgængeligt til køb.",
+      "manage_locations": "Administrer lokationer"
+    },
+    "tax": {
+      "title": "Abonnementsafgift",
+      "default_shop": "Standard butiksafgift",
+      "tax_profiles": "Skatteprofiler",
+      "description": {
+        "subscription_tax_msg": "Vi kan kun pålægge skat på betalingsoprettelsestrinnet.",
+        "dedicated": "Dedikeret",
+        "is_disabled": "Denne skatteprofil er deaktiveret!",
+        "tax_is_based_on_location": "Skat: Beliggenhedsbaseret",
+        "shipping_tax_is_based_on_location": "Forsendelse: Lokationsbaseret",
+        "included_in_price": "Inkluderet i prisen."
+      }
+    },
+    "vendor": {
+      "vendor_owner_msg": "Dette produkt tilhører <b>{vendor}</b> .",
+      "has_vendors_msg": "Der er {count} leverandører til dette produkt.",
+      "no_vendor_msg": "Du har ikke tildelt en leverandør til dette produkt, så kunderne kan ikke købe det.",
+      "add_vendors": "Tilføj leverandører"
+    }
+  },
+  "product_template": {
+    "title": "Produktsideskabelon",
+    "subtitle": "Du kan integrere en side på din produktside for en forbedret præsentation. Den optimale tilgang er at skabe sider med en gennemsigtig baggrund og 1 til 3 sektioner skræddersyet til hver produktkategori. Tildel derefter én side til flere produkter for en ensartet og tiltalende visning.",
+    "edit_page": "Rediger side",
+    "list_of_pages": "Liste over sider"
+  },
+  "product_embed": {
+    "subtitle": "Du kan nemt integrere et produkt eller en liste over produkter i din blog eller andre websider ved blot at kopiere og indsætte de koder, vi leverer. Selvom denne funktion stadig er i de tidlige stadier, arbejder vi aktivt på at udvide dens funktionalitet ud over, hvad der i øjeblikket er tilgængeligt andre steder. Selvom det i øjeblikket tilbyder begrænsede muligheder, har vi planer om at introducere flere skabeloner og tilpasningsmuligheder i fremtiden.",
+    "card": {
+      "title": "Minimal",
+      "description": "Generer HTML-kode for at tilføje produktkort på andre platforme og HTML-sider."
+    },
+    "iframe": {
+      "title": "Iframe",
+      "description": "Generer iframe-koden for at vise omfattende produktdetaljer i et integreret vindue."
+    }
+  },
+  "permission_staff_add": {
+    "title_new": "Nyt personale",
+    "title_edit": "Rediger personale",
+    "staff": {
+      "title": "Tilføj personale og adgang",
+      "subtitle": "Alle brugere med personaleadgang kan logge ind på dit dashboard og se økonomiske oplysninger. For at tilføje brugere med begrænset adgang skal du definere Rolle.",
+      "go_to_roles": "Gå til Roller"
+    },
+    "access": {
+      "customization_tips": "<b>Tilpasning:</b> Klik på hvert element for at tilpasse standard læse-/skriveadgang. Hver række repræsenterer et adgangsniveau svarende til hovedbutikkens dashboard.",
+      "simplify_tips": "<b>Vigtig!</b> Vi forenkler adgangskontrollen fra over 300 til under 10 niveauer. Mere detaljerede og ajourførte adgangsniveauer vil blive offentliggjort i dokumentationen.",
+      "multi_permission_tips": "<b>Brugerdefinerede grænser?</b> Du kan tilføje mere adgang til én bruger, så efter at have tilføjet den første adgang, skal du oprette yderligere adgang med de samme trin.",
+      "view_data": "Se data",
+      "apply_changes": "Anvend ændringer"
+    },
+    "inputs": {
+      "email": {
+        "placeholder": "E-mail",
+        "label": "Bruger e-mailadresse"
+      },
+      "level": {
+        "label": "Adgangsniveau",
+        "placeholder": "Vælg et niveau..."
+      }
+    },
+    "actions": {
+      "add": "Tilføj personale"
+    },
+    "notifications": {
+      "add_success": {
+        "title": "Adgang givet",
+        "message": "Ny adgang er blevet tilføjet."
+      },
+      "update_success": {
+        "title": "Adgang opdateret",
+        "message": "Tilladelser er blevet opdateret."
+      }
+    }
+  },
+  "category_engine_editor": {
+    "title": "Ekstra produktliste",
+    "subtitle": "Vis produkter fra forskellige kategorier. Du har mulighed for at vælge flere kategorier for at fremvise produkter eller filtrere produkter efter tags.",
+    "aut_add_sub_categories_tips": "Du kan automatisk tilføje alle underkategorier til den aktuelle kategori ved at klikke på knappen nedenfor.",
+    "inputs": {
+      "categories": {
+        "label": "Kategorier",
+        "messages": "Produkter i disse kategorier vil blive vist.",
+        "placeholder": "Vælg kategorier..."
+      },
+      "tags": {
+        "label": "Produkt tags",
+        "messages": "Produkter med disse tags vil blive vist.",
+        "placeholder": "Træk tags her og tryk enter. eks. ny kollektion"
+      }
+    },
+    "actions": {
+      "save_engine": "Gem motor",
+      "auto_add_subcategories": "Tilføj automatisk underkategorier"
+    }
+  },
+  "products_sort_view": {
+    "search_tips": {
+      "title": "Søgetips",
+      "normal": "<b>Generel søgning:</b> Søg efter titel, MPN, SKU, Brand eller Tags.",
+      "product": "<b>Præcis produkt-id:</b> Brug P+produkt-id til at finde et specifikt produkt, f.eks. <b class=\"text-green\">P</b> <i class=\"text-yellow\">360</i> .",
+      "quotes": "<b>Præcis sætning:</b> Brug anførselstegn til at søge efter en nøjagtig sætning, f.eks. <b class=\"text-green\">\"</b> <i class=\"text-yellow\">din tekst her</i> <b class=\"text-green\">\"</b> .",
+      "tax": "<b>Momsprofil:</b> Søg efter produkter med en specifik skatteprofil ved hjælp af \"moms:\", f.eks. <b class=\"text-green\">moms:</b> <i class=\"text-yellow\">skatteprofilnavn</i> .",
+      "new_products": "<b>Nye produkter:</b> Find produkter, der er tilføjet inden for et bestemt datointerval, f.eks. <b class=\"text-green\">ny~</b> <i class=\"text-yellow\">2023-08-10</i> <b class=\"text-green\">~</b> <i class=\"text-yellow\">2023-08-20</i> ."
+    }
+  },
+  "augment_form": {
+    "title": "Augmentation",
+    "subtitle": "Indtast nøglen, der vil blive byttet med dens tilsvarende værdi, i sideindholdet. Nøgler må maksimalt være på 32 tegn.",
+    "add_caption": "Tilføj nyt element",
+    "add_sub_caption": "Tilføj tilpasset nøgleværdi-par.",
+    "add_dialog": {
+      "title": "Vælg inputtype",
+      "html": {
+        "title": "Tekst og HTML",
+        "subtitle": "Varens værdi kan angives som enten tekst eller HTML."
+      },
+      "image": {
+        "title": "billede",
+        "subtitle": "Du kan uploade et billede."
+      }
+    },
+    "help_dialog": {
+      "title": "Sådan bruger du dynamisk indhold",
+      "how_it_works_tips": "På landingssiderne har du fleksibiliteten til at udpege dynamiske pladsholdere til både tekst og billeder. Disse pladsholdere spiller en væsentlig rolle i at tilpasse indholdet efter konteksten. Disse pladsholderes dynamiske natur gør det muligt at udfylde dem med forstærkningsværdier, som kan variere baseret på forskellige faktorer. For eksempel kan forøgelsesværdierne være forskellige for hvert produkt eller kategori. Den virkelige fordel ved denne funktion kommer i spil, når du har en række genstande med forskellige egenskaber. Du kan effektivt bruge disse dynamiske pladsholdere til at personliggøre og forbedre visningen af hver vare og derved skabe en unik og interaktiv oplevelse på dine landingssider.",
+      "assign_tips": "For at tildele dynamiske værdier til billeder skal du klikke på feeder-knappen i venstre side af sektionen.",
+      "set_dynamic_image_tips": "Du har nu mulighed for at ændre billedwebadressen og tildele den en dynamisk værdi.",
+      "enter_values_tips": "For hvert produkt har du mulighed for at tildele dedikerede nøgleværdi-par.",
+      "result_tips": "Dette er det endelige resultat af siden, hvor pladsholdere er blevet erstattet med udvidede værdier."
+    }
+  },
+  "logistic_profile_editor": {
+    "languages": {
+      "title": "Multisprog",
+      "subtitle": "Dette er listen over indholdssprog. Du kan indstille forskelligt indhold til logistikprofilen på hvert sprog.",
+      "add_caption": "Tilføj ny artikel",
+      "no_more_language": "Ikke mere sprog!"
+    },
+    "content": {
+      "title": "Indhold",
+      "subtitle": "Du kan tilpasse indholdet til logistikprofilen på flere sprog.",
+      "language_input": "Aktuelt artikelsprog",
+      "delete_article": "Slet artikel",
+      "menu_tooltip": "Oversæt automatisk / Slet artikel"
+    },
+    "translate_to": "Oversæt til",
+    "notifications": {
+      "translate": {
+        "message": "Artiklens oversættelse er gennemført."
+      },
+      "save_article": {
+        "message": "Artiklen er blevet gemt."
+      },
+      "delete_article": {
+        "message": "Artiklen er blevet slettet."
+      }
+    },
+    "delete_dialog": {
+      "message": "Er du sikker på at du vil slette denne artikel for altid?",
+      "action": "Ja, slet nu"
+    }
+  },
+  "logistic_profile_products": {
+    "title": "Produkter",
+    "subtitle": "Liste over produkter forbundet med denne profil."
+  },
+  "logistic_profile_setting": {
+    "title": "Generel information",
+    "inputs": {
+      "name": {
+        "message": "Dette navn vises for dig og vil ikke blive afsløret for offentligheden."
+      },
+      "accept_delete": {
+        "true_description": "Denne handling vil fjerne alle artikler og profillinks.",
+        "true_title": "Jeg bekræfter for at fjerne denne forbindelse."
+      }
+    },
+    "actions": {
+      "remove": "Fjern profil og relationer"
+    }
+  },
+  "shop_logistic_profiles": {
+    "title": "Logistik profiler",
+    "add_caption": "Tilføj ny profil",
+    "subtitle": "Du kan oprette og redigere garanti- og returpolitikken for produkter her og tildele den til alle produkter. Du kan definere forskellige garantipolitikker for forskellige typer produkter.",
+    "add_dialog": {
+      "title": "Opret ny logistikprofil",
+      "config": {
+        "title": "Generel information",
+        "subtitle": "Vælg profiltype. Det kan være en vejledning, garanti eller andet indhold og materiale, der almindeligvis deles mellem flere produkter."
+      },
+      "article": {
+        "title": "Artikel",
+        "subtitle": "Du kan tilføje flere sprog efter oprettelse af denne logistiske profil."
+      },
+      "inputs": {
+        "name": {
+          "message": "Dette navn vises for dig og vil ikke blive afsløret for offentligheden.",
+          "placeholder": "Indtast et navn til profilen..."
+        }
+      }
+    }
+  },
+  "shop_logistic_includes": {
+    "title": "Inkluderet varehåndtering",
+    "add_caption": "Tilføj nyt element",
+    "subtitle": "Her kan du administrere de varer, der er inkluderet i dine produkter. For at sikre et fejlfrit udseende til din butik, skal du konsekvent bruge varer med lignende billedmønstre, såsom wireframes, på tværs af alle produkter.",
+    "empty_list_msg": "Liste over inkluderede varer...",
+    "notifications": {
+      "delete": {
+        "message": "Elementet er blevet slettet."
+      }
+    },
+    "delete_dialog": {
+      "title": "Slet inkluderet vare",
+      "message": "Er du sikker på, at du vil slette dette element permanent? Bemærk, at det også vil blive fjernet fra alle tilknyttede produkter!",
+      "action": "Ja, slet nu"
+    },
+    "actions": {
+      "edit_linked_page": "Rediger linket side"
+    }
+  },
+  "include_item_add": {
+    "dialog_title_edit": "Rediger inkluderet vare",
+    "dialog_title_add": "Opret ny inkluderet vare",
+    "title": "Medfølgende vare",
+    "subtitle": "Vælg en kort titel, ideelt med højst 2 til 3 ord. Brug firkantede billeder, da vi automatisk tilpasser størrelsen på uploadede billeder til et 256x256 kvadratisk format. For at få det bedste udseende på tværs af alle skabeloner skal du bruge minimalistiske billeder med gennemsigtige baggrunde og opretholde et ensartet mønster i hele dine produkter.",
+    "inputs": {
+      "title": {
+        "placeholder": "Kortfattet titel vist på produktsiden..."
+      },
+      "code": {
+        "placeholder": "Unik kode, ex. mobil_kabel_usb",
+        "hint": "Brug denne kode til at strømline søgeprocessen for at finde varer."
+      },
+      "description": {
+        "placeholder": "En kort beskrivelse af denne vare...",
+        "hint": "Beskrivelse vil blive brugt til SEO og måske synlig for brugerne på nogle tilpassede layouts på produktsiden."
+      },
+      "image": {
+        "message": "Max billedstørrelse: 1MB"
+      },
+      "path": {
+        "label": "Sidesti"
+      }
+    },
+    "mode": {
+      "no_link": {
+        "title": "Intet link"
+      },
+      "external_link": {
+        "title": "Eksternt link",
+        "description": "Indstil et link til en ekstern url.",
+        "tips": "Du kan vedhæfte enhver URL til varen. Når brugere klikker på varen på produktsiden, vil de blive omdirigeret til dette link."
+      },
+      "internal_link": {
+        "title": "Internt link",
+        "description": "Opret dynamisk side ved at angive forstærkningsdata for denne vare.",
+        "tips": "Du kan linke en landingsside til profilen og angive en tilpasset sti og dynamisk indhold til den. Sellone vil generere et dynamisk link til varen."
+      }
+    },
+    "notifications": {
+      "add": {
+        "message": "Det inkluderede element er blevet tilføjet."
+      },
+      "edit": {
+        "message": "Det inkluderede element er blevet opdateret."
+      }
+    }
+  },
+  "shop_logistic_returns": {
+    "title": "Returnerede ordrer",
+    "subtitle": "Dine kunder kan returnere deres fysiske ordrer, og du kan se returanmodninger på ordrebehandlingssiden eller få adgang til en komplet liste over returnerede ordrer her."
+  },
+  "referral_fees": {
+    "title": "Kommissioner",
+    "subtitle": "Listen over alle provisioner, du har optjent fra dine henvisninger. Det tager op til 30 dage for provisionen at blive godkendt og overføres til din pung."
+  },
+  "referral_wallets": {
+    "title": "Tegnebøger",
+    "subtitle": "Her kan du se de kommissionsgebyrer, du har optjent. Du kan overføre dine kommissionsgebyrer til din bankkonto eller din Selldone-pung.",
+    "no_commission_yet": "Du har ikke modtaget nogen provision endnu.",
+    "no_wallet": "Ingen tegnebog!",
+    "withdraw_dialog": {
+      "title": "Træk kommissionsgebyrer",
+      "need_bank_info_message": "Indtast venligst dine bankoplysninger først.",
+      "to_wallet": {
+        "title": "Til tegnebogen",
+        "subtitle": "Med denne mulighed kan du overføre kommissionsgebyrer til din Selldone-pung. Sørg for, at en pung er tilsluttet som din gavepung, og at den fungerer med samme valuta."
+      },
+      "to_bank": {
+        "title": "Til Bank",
+        "subtitle": "Med denne mulighed kan du overføre kommissionsgebyrer til din Selldone-pung. Sørg for, at en pung er tilsluttet som din gavepung, og at den fungerer med samme valuta."
+      },
+      "inputs": {
+        "verify_to_wallet": {
+          "true_description": "Jeg vil overføre min kommission til min Selldone-pung."
+        },
+        "verify_to_bank": {
+          "true_description": "Jeg bekræfter mine bankoplysninger, og jeg vil overføre min kommission til min bankkonto."
+        }
+      },
+      "actions": {
+        "withdraw_to_wallet": "Træk tilbage til tegnebogen",
+        "withdraw_to_bank": "Hæv til bank"
+      }
+    },
+    "notifications": {
+      "request_transfer_to_bank_success": "Din anmodning er blevet modtaget, og vi vil gennemgå den."
+    }
+  },
+  "monetize_referral": {
+    "copy_box": {
+      "message": "Du kan tilføje <b>?ref={code}</b> til enhver selldone url."
+    },
+    "intro": {
+      "title": "Tilmeld dig Selldones affiliateprogram",
+      "message": "Selldones affiliate-program er enkelt og ligetil, designet til, at du kan tjene ubesværet. Del dit unikke affiliate-link for at invitere nye brugere til Selldone, og du vil tjene en kommission for hver transaktion, de foretager – for evigt. Dette inkluderer indtjening fra abonnementer, servicegebyrer, butiksopgraderinger og alle andre indtægtsstrømme. Begynd at tjene en del af omsætningen uden nogen begrænsninger på tid eller indtjening. Slut dig til os og forvandl dit netværk til en fast indkomst!",
+      "why_join_selldone_affiliate": "Hvorfor er dette en unik mulighed?",
+      "reasons": [
+        "Det varer evigt!",
+        "Dækker alle abonnements- og transaktionsgebyrer. Bogstaveligt talt hver betaling af brugeren på Selldone.",
+        "Vi sender en gratis voucher på $99 til alle, der registrerer sig ved hjælp af dit link.",
+        "Når dit niveau opgraderes, tjener du den nye sats fra alle tidligere henviste brugere."
       ]
     }
   }

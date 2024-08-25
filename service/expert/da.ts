@@ -220,6 +220,14 @@ export default {
     "pos-setup": {
       "title": "Opsætning af et online kasseapparat",
       "desc": "Kør din Selldone POS i dine butiksafdelinger og brug de mest professionelle butiksværktøjer til rådighed til at udvikle din virksomhed og fysiske filialer."
+    },
+    "marketplace-setup": {
+      "title": "Konfigurer en markedsplads",
+      "desc": "Skab en markedsplads for dine produkter og tjenester med hjælp fra eksperter."
+    },
+    "pod-setup": {
+      "title": "Opsæt POD Store",
+      "desc": "Skab en print-on-demand-butik med hjælp fra eksperter."
     }
   },
   "industries": {

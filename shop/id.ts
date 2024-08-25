@@ -102,7 +102,10 @@ export default {
     "subscribe_now": "Berlangganan sekarang",
     "unsubscribe": "Berhenti berlangganan",
     "select_a_subscription_plan": "Pilih paket terlebih dahulu!",
-    "manage_subscriptions": "Kelola langganan"
+    "manage_subscriptions": "Kelola langganan",
+    "zip_pin_input": "Kode Pos / PIN",
+    "zip_pin_not_available_msg": "Tidak tersedia di lokasi ini!",
+    "zip_pin_placeholder": "Pilih Kode Pos/PIN..."
   },
   "product": {
     "review": "Tinjauan",
@@ -198,7 +201,9 @@ export default {
       "total_items_discount": "Diskon barang",
       "total_price_after_offers": "Total setelah menerapkan penawaran",
       "buyer_payment": "Jumlah pembayaran pembeli",
-      "total_order_price_before_tax": "Harga Total sebelum pajak"
+      "total_order_price_before_tax": "Harga Total sebelum pajak",
+      "payment_is_in_require_capture_message": "Kami telah menerima pembayaran Anda, tetapi belum diambil.",
+      "settle_the_earlier_bill_first": "Lunasi dulu tagihan sebelumnya!"
     },
     "delivery": {
       "title": "Pengiriman",
@@ -286,7 +291,8 @@ export default {
       "limit": "Membatasi",
       "currency": "Mata uang",
       "free_shipping": "Bebas biaya kirim"
-    }
+    },
+    "no_kyc": "Tidak ada KYC"
   },
   "basket_page": {
     "title": "Kereta Belanja",
@@ -591,6 +597,32 @@ export default {
       "title": "Mengeksplorasi!",
       "same_tags_subtitle": "Temukan item terkait yang lebih luar biasa.",
       "same_category_subtitle": "Temukan item yang lebih luar biasa dalam kategori ini."
+    }
+  },
+  "cross_selling": {
+    "title": "Pesan {product} dengan"
+  },
+  "select_vendor": {
+    "item_title": "Lihat toko {vendor}"
+  },
+  "login": {
+    "welcome": "Selamat datang"
+  },
+  "product_section_incentivise": {
+    "total_sold": "Total Terjual",
+    "available_items": "Barang yang tersedia",
+    "have_in_their_bag": "<b>{in_carts}</b> yang lain juga punya ini di keranjang belanja mereka!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🎉 Pilihan populer! Stok hampir habis, segera dapatkan milik Anda selagi masih ada!",
+      "has_sell_has_quantity": "🌟 Barang yang sangat dicari! Dapatkan sebelum kehabisan.",
+      "just_has_low_quantity": "🛒 Stok terbatas! Jangan sampai kehabisan!",
+      "just_has_very_low_quantity": "⏳ Stok hampir habis! Segera pesan sebelum terlambat!"
+    },
+    "file": {
+      "very_popular_selling": "🔥 Produk terlaris! Bergabunglah dengan yang lain dan unduh sekarang!",
+      "popular_selling": "🎉 Berkas ini menarik banyak perhatian. Jangan sampai ketinggalan!",
+      "has_normal_selling": "📈 Berkas populer! Amankan salinannya hari ini.",
+      "just_release_has_some_sales": "✨ Baru saja dirilis! Jadilah salah satu orang pertama yang mendapatkannya."
     }
   }
 };

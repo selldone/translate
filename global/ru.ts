@@ -642,7 +642,77 @@ export default {
     "clusters": "Кластеры",
     "subscriptions": "Подписки",
     "spam": "Спам",
-    "video": "видео"
+    "video": "видео",
+    "fulfillment": "Исполнение",
+    "channels_overview": "Обзор каналов",
+    "no_vendors": "Нет поставщиков",
+    "ends_in": "Заканчивается в",
+    "current": "Текущий",
+    "important": "Важный",
+    "web": "Веб",
+    "payout": "Выплата",
+    "vendor_panel": "Панель поставщиков",
+    "vendors_panel": "Панель поставщиков",
+    "syncing": "Синхронизация",
+    "level": "Уровень",
+    "available": "Имеется в наличии",
+    "limited": "Ограниченный",
+    "management": "Управление",
+    "topics": "Темы",
+    "posts": "Сообщения",
+    "replies": "Ответы",
+    "reports": "Отчеты",
+    "post": "Сообщение",
+    "impressions": "Впечатления",
+    "resources": "Ресурсы",
+    "engine": "Двигатель",
+    "attachments": "Вложения",
+    "owner": "Владелец",
+    "wholesaler": "Оптовик",
+    "hidden": "Скрытый",
+    "visible": "Видимый",
+    "warehouse": "Склад",
+    "billed_yearly": "Ежегодно оплачивается",
+    "my_wallet": "Мой кошелек",
+    "boosted": "Усиленный",
+    "cashback": "Кэшбэк",
+    "leads": "Лиды",
+    "invalid": "Неверный",
+    "refund_date": "Дата возврата",
+    "refund": "Возвращать деньги",
+    "items": "Предметы",
+    "incentives": "Стимулы",
+    "recurring_payment": "Повторяющийся платеж",
+    "pricing": "Цены",
+    "purchase": "Покупка",
+    "confirmation": "Подтверждение",
+    "manage": "Управлять",
+    "warning": "Предупреждение",
+    "custom": "Обычай",
+    "read": "Читать",
+    "write": "Писать",
+    "root": "Корень",
+    "nothing_set": "Ничего не установлено!",
+    "installment": "Рассрочка",
+    "split_payment": "Раздельный платеж",
+    "profiles": "Профили",
+    "location_limited": "Местоположение ограничено",
+    "no_limit": "Безлимитный",
+    "max_range": "Макс. дальность",
+    "settled_date": "Дата урегулирования",
+    "paid_date": "Дата оплаты",
+    "physical_orders": "Физические заказы",
+    "virtual_orders": "Виртуальные заказы",
+    "file_orders": "Файл заказов",
+    "service_orders": "Сервисные заказы",
+    "subscription_orders": "Заказы на подписку",
+    "avocado_orders": "Авокадо заказы",
+    "hyper_orders": "Гипер заказы",
+    "connected": "Связанный",
+    "system": "Система",
+    "unknown": "Неизвестный",
+    "week": "Неделя",
+    "agencies": "Агентства"
   },
   "dialogs": {
     "delete": {
@@ -773,7 +843,20 @@ export default {
     "buy": "Купить",
     "view_all": "Посмотреть все",
     "view_now": "Смотри сейчас",
-    "paste": "Вставить"
+    "paste": "Вставить",
+    "edit_address": "Изменить адрес",
+    "resend": "Отправить повторно",
+    "deploy_now": "Развернуть сейчас",
+    "become_premium": "Стать Премиум",
+    "bulk_export": "Массовый экспорт",
+    "see_all": "Смотреть все",
+    "visit": "Посещать",
+    "rate_now": "Оценить сейчас",
+    "load": "Нагрузка",
+    "duplicate": "Дубликат",
+    "connect": "Соединять",
+    "connect_now": "Подключиться сейчас",
+    "verify_now": "Проверить сейчас"
   },
   "instance_message_title": "Отправить мгновенное сообщение",
   "instance_message": "Привет, {name}, меня зовут {author} из {company}.",
@@ -876,7 +959,8 @@ export default {
     "RequireAction": "Требуются действия",
     "Processing": "Обработка",
     "Canceled": "Отменено",
-    "Succeeded": "Успешно"
+    "Succeeded": "Успешно",
+    "RequireCapture": "Требовать захвата"
   },
   "placeholders": {
     "name": "Джон Кокс",
@@ -885,7 +969,14 @@ export default {
     "language": "Выбрать язык..",
     "friend_email": "Электронная почта вашего друга...",
     "friend_name": "Опц. Имя твоего друга",
-    "select_date": "Выберите дату..."
+    "select_date": "Выберите дату...",
+    "address": "123 Мэйн Стрит, Энитаун, 12345",
+    "cluster": "Выберите кластер...",
+    "select_products": "Выберите продукты",
+    "birthday": "Выберите день рождения",
+    "select_category": "Выберите категорию...",
+    "select_a_country": "Выберите страну...",
+    "filter_country": "Фильтр по стране..."
   },
   "notification": {
     "confirm": "Подтверждать",
@@ -1159,7 +1250,9 @@ export default {
     "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN"
   },
   "variants": {
     "color": "Цвет",
@@ -1282,7 +1375,10 @@ export default {
       "title": "График выпуска контента",
       "publish_at": "Опубликовать в",
       "last_edit": "Последнее редактирование",
-      "view_action": "Посмотреть статью"
+      "view_action": "Посмотреть статью",
+      "no_article": "Нет запланированной статьи!",
+      "current_article": "Текущая статья",
+      "article_for_product": "Статья о продукте"
     },
     "notifications": {
       "update_success_title": "Отправить информацию",
@@ -1354,7 +1450,8 @@ export default {
     "first_send": "Первый пост",
     "comment_at": "На",
     "edit_comment": "Редактировать комментарий",
-    "my_comments": "Мои комментарии"
+    "my_comments": "Мои комментарии",
+    "verified_buyer": "Проверенный покупатель"
   },
   "customer_club": {
     "bronze": "Бронза",
@@ -1469,7 +1566,8 @@ export default {
     "canceled": "Отменено",
     "cod": "Оплата при доставке",
     "receipt_added": "Квитанция добавлена",
-    "payment_processing": "Процесс оплаты"
+    "payment_processing": "Процесс оплаты",
+    "payment_require_capture": "Требовать захвата"
   },
   "basket_delivery_state": {
     "rejected": "Отклоненный",
@@ -1971,5 +2069,53 @@ export default {
     "summer": "Лето",
     "autumn": "Осень",
     "winter": "Зима"
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "Просматривайте историю сообщений между вами и клиентом."
+      },
+      "new_message": {
+        "subtitle": "Вы можете отправлять сообщения клиентам напрямую здесь. Когда вы отправляете сообщение, клиент получает уведомление по электронной почте через 20 минут. Это уведомление будет отправляться только один раз в 24 часа."
+      }
+    },
+    "customer": {
+      "history": {
+        "subtitle": "Просмотрите историю сообщений между вами и продавцом."
+      },
+      "new_message": {
+        "subtitle": "Вы можете отправлять нам сообщения напрямую здесь."
+      }
+    }
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "По требованию",
+      "desc": "таких как ремонт дома, покраска, ремонт автомобилей и т. д."
+    },
+    "BOOKING": {
+      "title": "Бронирование",
+      "desc": "Например, бронирование номера в отеле или виллы."
+    },
+    "APPOINTMENT": {
+      "title": "Встреча",
+      "desc": "Например, назначение ухода за домашними животными или личное обучение."
+    },
+    "RENTAL": {
+      "title": "Аренда",
+      "desc": "Например, аренда жилья или автомобиля."
+    },
+    "SUBSCRIPTION": {
+      "title": "Подписка",
+      "desc": "Например, членство в клубе или онлайн-коучинг."
+    },
+    "CHARGE": {
+      "title": "Заряд",
+      "desc": "Например, взимание платы за учетную запись или взимание платы за использование приложения."
+    },
+    "CUSTOM": {
+      "title": "Обычай",
+      "desc": "Выберите этот вариант, если предоставляемая вами услуга не входит ни в один из вышеперечисленных."
+    }
   }
 };

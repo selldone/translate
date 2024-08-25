@@ -194,7 +194,26 @@ export default {
         ]
       }
     ],
-    "copyright": "İçeriğin yalnızca ticari olmayan amaçlarla ve kaynağa atıfta bulunularak kullanılması (Selldone.com ile bağlantı). Tüm hakları Selldone Group'a aittir."
+    "copyright": "İçeriğin yalnızca ticari olmayan amaçlarla ve kaynağa atıfta bulunularak kullanılması (Selldone.com ile bağlantı). Tüm hakları Selldone Group'a aittir.",
+    "supported_countries_and_payments": "Desteklenen Ülkeler ve Ödemeler",
+    "affiliate_program": "Ortaklık Programı",
+    "business_idea": "İş Fikirleri",
+    "roadmap": "Yol haritası",
+    "apply_partner": "Ortak Başvurusu",
+    "partner": {
+      "title": "Ortak olarak katılın",
+      "subtitle": "Ortaklarımıza işlerini büyütmeleri ve düzenli, aylık gelir elde etmeleri için harika bir fırsat sunuyoruz."
+    },
+    "add_service": "Hizmet Ekle",
+    "service": {
+      "title": "Hizmetinizi Entegre Edin",
+      "subtitle": "Hizmetinizi bugün binlerce başarılı işletmeye ve gelecekte milyonlarcasına gösterin!"
+    },
+    "add_supplier": "Tedarikçi ekle",
+    "supplier": {
+      "title": "Tedarikçi olarak katılın",
+      "subtitle": "Ürünlerinizin dünya çapında binlerce aktif çevrimiçi ve yerel mağazaya ulaşmasına yardımcı olabiliriz."
+    }
   },
   "admin_footer": {
     "title": "Hızlı erişim menüsü:",
@@ -213,5 +232,8 @@ export default {
   },
   "admin_shop_footer": {
     "title": "{shop_name} için hızlı erişim paneli"
+  },
+  "press_view": {
+    "on_all_review_websites": "Tüm İnceleme Sitelerinde"
   }
 };

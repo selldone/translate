@@ -102,7 +102,10 @@ export default {
     "subscribe_now": "اب سبسکرائب کریں",
     "unsubscribe": "ان سبسکرائب کریں۔",
     "select_a_subscription_plan": "پہلے ایک منصوبہ منتخب کریں!",
-    "manage_subscriptions": "سبسکرپشنز کا نظم کریں۔"
+    "manage_subscriptions": "سبسکرپشنز کا نظم کریں۔",
+    "zip_pin_input": "ZIP/PIN",
+    "zip_pin_not_available_msg": "اس مقام پر دستیاب نہیں ہے!",
+    "zip_pin_placeholder": "زپ/پن کوڈ منتخب کریں..."
   },
   "product": {
     "review": "جائزہ لیں",
@@ -198,7 +201,9 @@ export default {
       "total_items_discount": "آئٹمز ڈسکاؤنٹ",
       "total_price_after_offers": "آفرز کو لاگو کرنے کے بعد کل",
       "buyer_payment": "خریدار کی ادائیگی کی رقم",
-      "total_order_price_before_tax": "قبل از ٹیکس کل قیمت"
+      "total_order_price_before_tax": "قبل از ٹیکس کل قیمت",
+      "payment_is_in_require_capture_message": "ہمیں آپ کی ادائیگی موصول ہو گئی ہے، لیکن یہ ابھی تک پکڑا نہیں گیا ہے۔",
+      "settle_the_earlier_bill_first": "پہلے پہلے کا بل طے کریں!"
     },
     "delivery": {
       "title": "ترسیل",
@@ -286,7 +291,8 @@ export default {
       "limit": "حد",
       "currency": "کرنسی",
       "free_shipping": "مفت ترسیل"
-    }
+    },
+    "no_kyc": "KYC نہیں"
   },
   "basket_page": {
     "title": "خریداری کی ٹوکری",
@@ -591,6 +597,32 @@ export default {
       "title": "دریافت کریں!",
       "same_tags_subtitle": "مزید قابل ذکر متعلقہ اشیاء تلاش کریں۔",
       "same_category_subtitle": "اس زمرے میں مزید قابل ذکر اشیاء تلاش کریں۔"
+    }
+  },
+  "cross_selling": {
+    "title": "آرڈر {product} کے ساتھ"
+  },
+  "select_vendor": {
+    "item_title": "{vendor} کا اسٹور دیکھیں"
+  },
+  "login": {
+    "welcome": "خوش آمدید"
+  },
+  "product_section_incentivise": {
+    "total_sold": "کل فروخت",
+    "available_items": "دستیاب اشیاء",
+    "have_in_their_bag": "<b>{in_carts}</b> دوسروں کی گاڑیوں میں یہ ہے!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🎉 مقبول انتخاب! اسٹاک کم چل رہے ہیں، جب تک ہو سکے اپنا قبضہ کر لیں!",
+      "has_sell_has_quantity": "🌟 انتہائی مطلوب شے! اس کے جانے سے پہلے اسے حاصل کریں۔",
+      "just_has_low_quantity": "🛒 محدود اسٹاک دستیاب ہے! مت چھوڑیں!",
+      "just_has_very_low_quantity": "⏳ اسٹاک سے باہر! اس سے پہلے کہ بہت دیر ہو جائے جلدی سے کام کریں!"
+    },
+    "file": {
+      "very_popular_selling": "🔥 سب سے اوپر فروخت کنندہ! بھیڑ میں شامل ہوں اور اسے ابھی ڈاؤن لوڈ کریں!",
+      "popular_selling": "🎉 یہ فائل کافی توجہ حاصل کر رہی ہے۔ مت چھوڑیں!",
+      "has_normal_selling": "📈 مقبول فائل! آج ہی اپنی کاپی محفوظ کریں۔",
+      "just_release_has_some_sales": "✨ ابھی جاری ہوا! اسے حاصل کرنے والے اولین میں سے ایک بنیں۔"
     }
   }
 };

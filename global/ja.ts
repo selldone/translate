@@ -642,7 +642,77 @@ export default {
     "clusters": "クラスター",
     "subscriptions": "サブスクリプション",
     "spam": "スパム",
-    "video": "ビデオ"
+    "video": "ビデオ",
+    "fulfillment": "フルフィルメント",
+    "channels_overview": "チャンネルの概要",
+    "no_vendors": "ベンダーなし",
+    "ends_in": "終了",
+    "current": "現在",
+    "important": "重要",
+    "web": "ウェブ",
+    "payout": "支払い",
+    "vendor_panel": "ベンダーパネル",
+    "vendors_panel": "ベンダーパネル",
+    "syncing": "同期中",
+    "level": "レベル",
+    "available": "利用可能",
+    "limited": "限定",
+    "management": "管理",
+    "topics": "トピック",
+    "posts": "投稿",
+    "replies": "返信",
+    "reports": "レポート",
+    "post": "役職",
+    "impressions": "印象",
+    "resources": "資力",
+    "engine": "エンジン",
+    "attachments": "添付ファイル",
+    "owner": "オーナー",
+    "wholesaler": "卸売業者",
+    "hidden": "隠れた",
+    "visible": "見える",
+    "warehouse": "倉庫",
+    "billed_yearly": "年払い",
+    "my_wallet": "私の財布",
+    "boosted": "ブースト",
+    "cashback": "キャッシュバック",
+    "leads": "リード",
+    "invalid": "無効",
+    "refund_date": "払い戻し日",
+    "refund": "返金",
+    "items": "アイテム",
+    "incentives": "インセンティブ",
+    "recurring_payment": "定期支払い",
+    "pricing": "価格設定",
+    "purchase": "購入",
+    "confirmation": "確認",
+    "manage": "管理",
+    "warning": "警告",
+    "custom": "カスタム",
+    "read": "読む",
+    "write": "書く",
+    "root": "根",
+    "nothing_set": "何も設定されていません!",
+    "installment": "分割払い",
+    "split_payment": "分割支払い",
+    "profiles": "プロファイル",
+    "location_limited": "場所限定",
+    "no_limit": "制限なし",
+    "max_range": "最大範囲",
+    "settled_date": "決済日",
+    "paid_date": "支払日",
+    "physical_orders": "物理的な注文",
+    "virtual_orders": "仮想注文",
+    "file_orders": "注文を提出する",
+    "service_orders": "サービスオーダー",
+    "subscription_orders": "定期購入の注文",
+    "avocado_orders": "アボカドの注文",
+    "hyper_orders": "ハイパー注文",
+    "connected": "接続済み",
+    "system": "システム",
+    "unknown": "未知",
+    "week": "週",
+    "agencies": "代理店"
   },
   "dialogs": {
     "delete": {
@@ -773,7 +843,20 @@ export default {
     "buy": "買う",
     "view_all": "すべて見る",
     "view_now": "今すぐ見る",
-    "paste": "ペースト"
+    "paste": "ペースト",
+    "edit_address": "住所を編集",
+    "resend": "再送信",
+    "deploy_now": "今すぐデプロイ",
+    "become_premium": "プレミアムになる",
+    "bulk_export": "一括エクスポート",
+    "see_all": "すべて見る",
+    "visit": "訪問",
+    "rate_now": "今すぐ評価",
+    "load": "負荷",
+    "duplicate": "重複",
+    "connect": "接続する",
+    "connect_now": "今すぐ接続",
+    "verify_now": "今すぐ確認"
   },
   "instance_message_title": "インスタントメッセージを送信する",
   "instance_message": "こんにちは{name}、私の名前は{company}の{author}です。",
@@ -876,7 +959,8 @@ export default {
     "RequireAction": "必要なアクション",
     "Processing": "処理",
     "Canceled": "キャンセル",
-    "Succeeded": "成功"
+    "Succeeded": "成功",
+    "RequireCapture": "キャプチャが必要"
   },
   "placeholders": {
     "name": "ジョーンコックス",
@@ -885,7 +969,14 @@ export default {
     "language": "言語を選択する..",
     "friend_email": "友達のメール...",
     "friend_name": "Opt。あなたの友達の名前",
-    "select_date": "日付を選択してください..."
+    "select_date": "日付を選択してください...",
+    "address": "123 メイン ストリート、エニータウン、12345",
+    "cluster": "クラスターを選択...",
+    "select_products": "製品を選択",
+    "birthday": "誕生日を選択",
+    "select_category": "カテゴリを選択してください...",
+    "select_a_country": "国を選択してください...",
+    "filter_country": "国別にフィルタリング..."
   },
   "notification": {
     "confirm": "確認",
@@ -1159,7 +1250,9 @@ export default {
     "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN"
   },
   "variants": {
     "color": "色",
@@ -1282,7 +1375,10 @@ export default {
       "title": "コンテンツリリーススケジュール",
       "publish_at": "で公開",
       "last_edit": "最終編集",
-      "view_action": "記事を見る"
+      "view_action": "記事を見る",
+      "no_article": "予定記事はありません！",
+      "current_article": "現在の記事",
+      "article_for_product": "製品に関する記事"
     },
     "notifications": {
       "update_success_title": "情報を送信する",
@@ -1354,7 +1450,8 @@ export default {
     "first_send": "最初の投稿",
     "comment_at": "の上",
     "edit_comment": "コメントを編集",
-    "my_comments": "私のコメント"
+    "my_comments": "私のコメント",
+    "verified_buyer": "確認済みの購入者"
   },
   "customer_club": {
     "bronze": "ブロンズ",
@@ -1469,7 +1566,8 @@ export default {
     "canceled": "キャンセル",
     "cod": "代金引換",
     "receipt_added": "領収書を追加",
-    "payment_processing": "支払い手続き"
+    "payment_processing": "支払い手続き",
+    "payment_require_capture": "キャプチャが必要"
   },
   "basket_delivery_state": {
     "rejected": "拒否されました",
@@ -1971,5 +2069,53 @@ export default {
     "summer": "夏",
     "autumn": "秋",
     "winter": "冬"
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "あなたと顧客間のメッセージ履歴を表示します。"
+      },
+      "new_message": {
+        "subtitle": "ここで顧客にメッセージを直接送信できます。メッセージを送信すると、顧客には 20 分後にメール通知が届きます。この通知は 24 時間に 1 回のみ送信されます。"
+      }
+    },
+    "customer": {
+      "history": {
+        "subtitle": "あなたと販売者間のメッセージ履歴を表示します。"
+      },
+      "new_message": {
+        "subtitle": "ここに直接メッセージを送信できます。"
+      }
+    }
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "オンデマンド",
+      "desc": "家の修理、塗装、車の修理など。"
+    },
+    "BOOKING": {
+      "title": "予約",
+      "desc": "ホテルの部屋や別荘を予約するようなものです。"
+    },
+    "APPOINTMENT": {
+      "title": "予定",
+      "desc": "ペットケアの予約や対面トレーニングのように。"
+    },
+    "RENTAL": {
+      "title": "レンタル",
+      "desc": "場所や車を借りるようなものです。"
+    },
+    "SUBSCRIPTION": {
+      "title": "サブスクリプション",
+      "desc": "クラブ会員やオンラインコーチングのように。"
+    },
+    "CHARGE": {
+      "title": "充電",
+      "desc": "アカウントへの課金やアプリケーションの使用に対する課金など。"
+    },
+    "CUSTOM": {
+      "title": "カスタム",
+      "desc": "提供するサービスが上記のいずれでもない場合は、このオプションを選択してください。"
+    }
   }
 };

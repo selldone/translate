@@ -220,6 +220,14 @@ export default {
     "pos-setup": {
       "title": "Einrichtung einer Online-Kasse",
       "desc": "Führen Sie Ihr Selldone POS in Ihren Filialen aus und nutzen Sie die professionellsten Store-Tools, die verfügbar sind, um Ihr Geschäft und Ihre physischen Filialen zu entwickeln."
+    },
+    "marketplace-setup": {
+      "title": "Einen Marktplatz einrichten",
+      "desc": "Erstellen Sie mit Hilfe von Experten einen Marktplatz für Ihre Produkte und Dienstleistungen."
+    },
+    "pod-setup": {
+      "title": "POD-Store einrichten",
+      "desc": "Erstellen Sie mit Hilfe von Experten einen Print-on-Demand-Shop."
     }
   },
   "industries": {

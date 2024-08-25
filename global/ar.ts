@@ -642,7 +642,77 @@ export default {
     "clusters": "عناقيد المجموعات",
     "subscriptions": "الاشتراكات",
     "spam": "رسائل إلكترونية مزعجة",
-    "video": "فيديو"
+    "video": "فيديو",
+    "fulfillment": "تحقيق، إنجاز",
+    "channels_overview": "نظرة عامة على القنوات",
+    "no_vendors": "لا يوجد بائعين",
+    "ends_in": "ينتهي في",
+    "current": "حاضِر",
+    "important": "مهم",
+    "web": "الويب",
+    "payout": "الدفع",
+    "vendor_panel": "لوحة البائعين",
+    "vendors_panel": "لوحة البائعين",
+    "syncing": "المزامنة",
+    "level": "مستوى",
+    "available": "متوفرة",
+    "limited": "محدود",
+    "management": "إدارة",
+    "topics": "المواضيع",
+    "posts": "المشاركات",
+    "replies": "الردود",
+    "reports": "التقارير",
+    "post": "بريد",
+    "impressions": "انطباعات",
+    "resources": "موارد",
+    "engine": "محرك",
+    "attachments": "المرفقات",
+    "owner": "صاحب",
+    "wholesaler": "تاجر الجملة",
+    "hidden": "مختفي",
+    "visible": "مرئي",
+    "warehouse": "مستودع",
+    "billed_yearly": "يتم دفعها سنويا",
+    "my_wallet": "محفظتي",
+    "boosted": "معزز",
+    "cashback": "استرداد النقود",
+    "leads": "العملاء المتوقعون",
+    "invalid": "غير صالح",
+    "refund_date": "تاريخ الاسترداد",
+    "refund": "استرداد",
+    "items": "أغراض",
+    "incentives": "حوافز",
+    "recurring_payment": "الدفع المتكرر",
+    "pricing": "التسعير",
+    "purchase": "شراء",
+    "confirmation": "تأكيد",
+    "manage": "يدير",
+    "warning": "تحذير",
+    "custom": "مخصص",
+    "read": "يقرأ",
+    "write": "يكتب",
+    "root": "جذر",
+    "nothing_set": "لم يتم تحديد أي شيء!",
+    "installment": "التقسيط",
+    "split_payment": "الدفع المقسم",
+    "profiles": "مظهر",
+    "location_limited": "الموقع محدود",
+    "no_limit": "لا حدود",
+    "max_range": "الحد الأقصى للمدى",
+    "settled_date": "تاريخ التسوية",
+    "paid_date": "تاريخ الدفع",
+    "physical_orders": "الأوامر المادية",
+    "virtual_orders": "الطلبات الافتراضية",
+    "file_orders": "أوامر الملفات",
+    "service_orders": "أوامر الخدمة",
+    "subscription_orders": "أوامر الاشتراك",
+    "avocado_orders": "طلبات الافوكادو",
+    "hyper_orders": "الطلبات المفرطة",
+    "connected": "متصل",
+    "system": "نظام",
+    "unknown": "مجهول",
+    "week": "أسبوع",
+    "agencies": "الوكالات"
   },
   "dialogs": {
     "delete": {
@@ -773,7 +843,20 @@ export default {
     "buy": "يشتري",
     "view_all": "مشاهدة الكل",
     "view_now": "عرض الآن",
-    "paste": "معجون"
+    "paste": "معجون",
+    "edit_address": "تعديل العنوان",
+    "resend": "إعادة الإرسال",
+    "deploy_now": "نشر الآن",
+    "become_premium": "تصبح مميزا",
+    "bulk_export": "التصدير بالجملة",
+    "see_all": "انظر الكل",
+    "visit": "زيارة",
+    "rate_now": "قيم الآن",
+    "load": "حمولة",
+    "duplicate": "ينسخ",
+    "connect": "يتصل",
+    "connect_now": "تواصل الآن",
+    "verify_now": "تأكد الآن"
   },
   "instance_message_title": "إرسال رسالة فورية",
   "instance_message": "مرحبًا {name} ، اسمي {author} من {company}.",
@@ -876,7 +959,8 @@ export default {
     "RequireAction": "الإجراء مطلوب",
     "Processing": "يعالج",
     "Canceled": "ألغيت",
-    "Succeeded": "نجح"
+    "Succeeded": "نجح",
+    "RequireCapture": "تتطلب التقاط"
   },
   "placeholders": {
     "name": "جون كوكس",
@@ -885,7 +969,14 @@ export default {
     "language": "اختار اللغة..",
     "friend_email": "بريد اصدقائك الالكتروني...",
     "friend_name": "يختار، يقرر. اسم صديقك",
-    "select_date": "حدد تاريخ ..."
+    "select_date": "حدد تاريخ ...",
+    "address": "123 شارع ماين، أي تاون، 12345",
+    "cluster": "حدد مجموعة...",
+    "select_products": "حدد المنتجات",
+    "birthday": "حدد تاريخ الميلاد",
+    "select_category": "إختر الفئة...",
+    "select_a_country": "حدد البلد...",
+    "filter_country": "تصفية حسب البلد..."
   },
   "notification": {
     "confirm": "يتأكد",
@@ -1159,7 +1250,9 @@ export default {
     "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN"
   },
   "variants": {
     "color": "اللون",
@@ -1282,7 +1375,10 @@ export default {
       "title": "جدول إصدار المحتوى",
       "publish_at": "انشر في",
       "last_edit": "آخر تعديل",
-      "view_action": "مشاهدة المقال"
+      "view_action": "مشاهدة المقال",
+      "no_article": "لا يوجد مقال مجدول!",
+      "current_article": "المقال الحالي",
+      "article_for_product": "مقالة عن المنتج"
     },
     "notifications": {
       "update_success_title": "إرسال المعلومات",
@@ -1354,7 +1450,8 @@ export default {
     "first_send": "أول منشور",
     "comment_at": "تشغيل",
     "edit_comment": "تعديل التعليق",
-    "my_comments": "تعليقاتي"
+    "my_comments": "تعليقاتي",
+    "verified_buyer": "مشتري تم التحقق منه"
   },
   "customer_club": {
     "bronze": "برونزية",
@@ -1469,7 +1566,8 @@ export default {
     "canceled": "ألغيت",
     "cod": "الدفع عند الاستلام",
     "receipt_added": "تمت إضافة الإيصال",
-    "payment_processing": "معالجة الدفع"
+    "payment_processing": "معالجة الدفع",
+    "payment_require_capture": "تتطلب التقاط"
   },
   "basket_delivery_state": {
     "rejected": "مرفوض",
@@ -1971,5 +2069,53 @@ export default {
     "summer": "صيف",
     "autumn": "خريف",
     "winter": "شتاء"
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "عرض سجل الرسائل بينك وبين العميل."
+      },
+      "new_message": {
+        "subtitle": "يمكنك إرسال الرسائل مباشرة إلى العملاء هنا. عند إرسال رسالة، سيتلقى العميل إشعارًا عبر البريد الإلكتروني بعد 20 دقيقة. سيتم إرسال هذا الإشعار مرة واحدة فقط كل 24 ساعة."
+      }
+    },
+    "customer": {
+      "history": {
+        "subtitle": "عرض سجل الرسائل بينك وبين البائع."
+      },
+      "new_message": {
+        "subtitle": "يمكنك إرسال الرسائل إلينا مباشرة هنا."
+      }
+    }
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "على الطلب",
+      "desc": "مثل إصلاحات المنزل ، والطلاء ، وإصلاح السيارات ، وما إلى ذلك."
+    },
+    "BOOKING": {
+      "title": "الحجز",
+      "desc": "مثل حجز غرفة فندقية أو فيلا."
+    },
+    "APPOINTMENT": {
+      "title": "ميعاد",
+      "desc": "مثل موعد رعاية الحيوانات الأليفة أو التدريب الشخصي."
+    },
+    "RENTAL": {
+      "title": "تأجير",
+      "desc": "مثل تأجير مكان أو سيارة."
+    },
+    "SUBSCRIPTION": {
+      "title": "الاشتراك",
+      "desc": "مثل عضوية النادي أو التدريب عبر الإنترنت."
+    },
+    "CHARGE": {
+      "title": "الشحنة",
+      "desc": "مثل فرض رسوم على حساب أو فرض رسوم على استخدام أحد التطبيقات."
+    },
+    "CUSTOM": {
+      "title": "مخصص",
+      "desc": "حدد هذا الخيار إذا كانت الخدمة التي تقدمها ليست مما سبق."
+    }
   }
 };

@@ -220,6 +220,14 @@ export default {
     "pos-setup": {
       "title": "Menyiapkan mesin kasir online",
       "desc": "Jalankan POS Selldone Anda di cabang toko Anda dan gunakan alat toko paling profesional yang tersedia untuk mengembangkan bisnis dan cabang fisik Anda."
+    },
+    "marketplace-setup": {
+      "title": "Siapkan Pasar",
+      "desc": "Ciptakan pasar untuk produk dan layanan Anda dengan bantuan para ahli."
+    },
+    "pod-setup": {
+      "title": "Siapkan POD Store",
+      "desc": "Buat toko cetak sesuai permintaan dengan bantuan para ahli."
     }
   },
   "industries": {

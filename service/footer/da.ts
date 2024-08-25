@@ -194,7 +194,26 @@ export default {
         ]
       }
     ],
-    "copyright": "Brugen af indhold kun til ikke-kommercielle formål og med henvisning til kilden (link med Selldone.com). Alle rettigheder forbeholdt Selldone Group."
+    "copyright": "Brugen af indhold kun til ikke-kommercielle formål og med henvisning til kilden (link med Selldone.com). Alle rettigheder forbeholdt Selldone Group.",
+    "supported_countries_and_payments": "Understøttede lande og betalinger",
+    "affiliate_program": "Affiliate program",
+    "business_idea": "Forretningsideer",
+    "roadmap": "Køreplan",
+    "apply_partner": "Ansøg partner",
+    "partner": {
+      "title": "Deltag som partner",
+      "subtitle": "Vi giver vores partnere en fantastisk mulighed for at udvide deres forretninger og tjene ensartet, månedlig omsætning."
+    },
+    "add_service": "Tilføj service",
+    "service": {
+      "title": "Integrer din tjeneste",
+      "subtitle": "Vis din service frem for tusindvis af blomstrende virksomheder i dag og millioner flere i fremtiden!"
+    },
+    "add_supplier": "Tilføj leverandør",
+    "supplier": {
+      "title": "Tilmeld dig som leverandør",
+      "subtitle": "Vi kan hjælpe dine produkter med at nå ud til tusindvis af aktive online og lokale butikker verden over."
+    }
   },
   "admin_footer": {
     "title": "Hurtig adgang menu:",
@@ -213,5 +232,8 @@ export default {
   },
   "admin_shop_footer": {
     "title": "Hurtig adgangspanel for {shop_name}"
+  },
+  "press_view": {
+    "on_all_review_websites": "På alle anmeldelseswebsteder"
   }
 };

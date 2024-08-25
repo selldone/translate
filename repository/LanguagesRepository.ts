@@ -15,7 +15,7 @@
 export default class LanguagesRepository {
   static GLOBAL = "GLOBAL";
   static COLORS = "COLORS";
-  static LANGUAGES = "LANGUAGES";
+  static COUNTRIES = "COUNTRIES";
   static DASHBOARD = "DASHBOARD";
   static COMMUNITY = "COMMUNITY";
   static BUSINESS_IDEAS = "BUSINESS_IDEAS";
@@ -31,7 +31,7 @@ export default class LanguagesRepository {
 
   static PACKAGES = [
     { path: "global/colors", pack: LanguagesRepository.COLORS },
-    { path: "global/languages", pack: LanguagesRepository.LANGUAGES },
+    { path: "global/countries", pack: LanguagesRepository.COUNTRIES },
     { path: "global/community", pack: LanguagesRepository.COMMUNITY },
     { path: "global", pack: LanguagesRepository.GLOBAL },
     {
@@ -69,8 +69,8 @@ export default class LanguagesRepository {
       case LanguagesRepository.COLORS:
         return this.loadColors(lang);
 
-      case LanguagesRepository.LANGUAGES:
-        return this.loadLanguages(lang);
+      case LanguagesRepository.COUNTRIES:
+        return this.loadCountries(lang);
 
       case LanguagesRepository.COMMUNITY:
         return this.loadCommunity(lang);
@@ -124,10 +124,10 @@ export default class LanguagesRepository {
     );
   }
 
-  // 📁 global/languages
-  loadLanguages(lang: string) {
+  // 📁 global/countries
+  loadCountries(lang: string) {
     return import(
-      /* webpackChunkName: "no-upload/languages-pack/lang-[request]" */ `../global/languages/${lang}.ts`
+      /* webpackChunkName: "no-upload/languages-pack/lang-[request]" */ `../global/countries/${lang}.ts`
     );
   }
 

@@ -382,5 +382,19 @@ export default {
   "marketplace": "Markedspladsbygger",
   "connect_os": {
     "subtitle": "Opret forbindelse til dropshipping-leverandører med et enkelt klik. Du kan oprette forbindelse til POD som Prinful eller Import Woocomerce butik gratis."
+  },
+  "ai": {
+    "title": "AI",
+    "sub_title": "Copilot og AI assistent funktioner.",
+    "bg_remove": "AI Fjern baggrund",
+    "bg_remove_info": "Fjern automatisk baggrund fra billeder.",
+    "content_creation": "Oprettelse af AI-indhold",
+    "content_creation_info": "Opret indhold til produkter automatisk.",
+    "add_product": "AI Produkt Assistance",
+    "add_product_info": "Tilføj produkt automatisk med billede og stemme.",
+    "magic_ai_buttons": "Magiske AI knapper",
+    "magic_ai_buttons_info": "Fjern automatisk baggrund, masseoversæt, generer indhold og mere med et enkelt klik.",
+    "translate": "AI Oversæt",
+    "translate_info": "Oversæt indhold til ethvert sprog."
   }
 };

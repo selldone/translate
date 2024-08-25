@@ -642,7 +642,77 @@ export default {
     "clusters": "Cluster",
     "subscriptions": "Langganan",
     "spam": "Spam",
-    "video": "Video"
+    "video": "Video",
+    "fulfillment": "Pemenuhan",
+    "channels_overview": "Ikhtisar saluran",
+    "no_vendors": "Tidak ada vendor",
+    "ends_in": "Berakhir dalam",
+    "current": "Saat ini",
+    "important": "Penting",
+    "web": "Jaringan",
+    "payout": "Pembayaran",
+    "vendor_panel": "Panel penjual",
+    "vendors_panel": "Panel vendor",
+    "syncing": "Sinkronisasi",
+    "level": "Tingkat",
+    "available": "Tersedia",
+    "limited": "Terbatas",
+    "management": "Pengelolaan",
+    "topics": "Topik",
+    "posts": "Postingan",
+    "replies": "Balasan",
+    "reports": "Laporan",
+    "post": "Pos",
+    "impressions": "Tayangan",
+    "resources": "Sumber daya",
+    "engine": "Mesin",
+    "attachments": "Lampiran",
+    "owner": "Pemilik",
+    "wholesaler": "Grosir",
+    "hidden": "Tersembunyi",
+    "visible": "Bisa dilihat",
+    "warehouse": "Gudang",
+    "billed_yearly": "Ditagih setiap tahun",
+    "my_wallet": "dompet saya",
+    "boosted": "Didorong",
+    "cashback": "Uang kembali",
+    "leads": "Memimpin",
+    "invalid": "Tidak sah",
+    "refund_date": "Tanggal pengembalian dana",
+    "refund": "Pengembalian dana",
+    "items": "item",
+    "incentives": "Insentif",
+    "recurring_payment": "Pembayaran berulang",
+    "pricing": "harga",
+    "purchase": "Pembelian",
+    "confirmation": "Konfirmasi",
+    "manage": "Mengelola",
+    "warning": "Peringatan",
+    "custom": "Kebiasaan",
+    "read": "Membaca",
+    "write": "Menulis",
+    "root": "Akar",
+    "nothing_set": "Tidak ada yang ditetapkan!",
+    "installment": "Cicilan",
+    "split_payment": "Pembayaran terpisah",
+    "profiles": "Profil",
+    "location_limited": "Lokasi terbatas",
+    "no_limit": "Tidak terbatas",
+    "max_range": "Jangkauan maksimum",
+    "settled_date": "Tanggal Penyelesaian",
+    "paid_date": "Tanggal Pembayaran",
+    "physical_orders": "Perintah fisik",
+    "virtual_orders": "Pesanan maya",
+    "file_orders": "File pesanan",
+    "service_orders": "Pesanan layanan",
+    "subscription_orders": "Pesanan berlangganan",
+    "avocado_orders": "Pesanan alpukat",
+    "hyper_orders": "Pesanan hiper",
+    "connected": "terhubung",
+    "system": "Sistem",
+    "unknown": "Tidak dikenal",
+    "week": "Pekan",
+    "agencies": "Agensi"
   },
   "dialogs": {
     "delete": {
@@ -773,7 +843,20 @@ export default {
     "buy": "Membeli",
     "view_all": "Lihat semua",
     "view_now": "Lihat sekarang",
-    "paste": "Tempel"
+    "paste": "Tempel",
+    "edit_address": "Edit alamat",
+    "resend": "Kirim ulang",
+    "deploy_now": "Terapkan Sekarang",
+    "become_premium": "Menjadi Premium",
+    "bulk_export": "Ekspor Massal",
+    "see_all": "Lihat Semua",
+    "visit": "Mengunjungi",
+    "rate_now": "Nilai Sekarang",
+    "load": "Memuat",
+    "duplicate": "Duplikat",
+    "connect": "Menghubungkan",
+    "connect_now": "Hubungkan Sekarang",
+    "verify_now": "Verifikasi sekarang"
   },
   "instance_message_title": "Kirim pesan instan",
   "instance_message": "Hai {name}, Nama saya {author} dari {company}.",
@@ -876,7 +959,8 @@ export default {
     "RequireAction": "Diperlukan Tindakan",
     "Processing": "Pengolahan",
     "Canceled": "Dibatalkan",
-    "Succeeded": "Berhasil"
+    "Succeeded": "Berhasil",
+    "RequireCapture": "Memerlukan penangkapan"
   },
   "placeholders": {
     "name": "Jone Cox",
@@ -885,7 +969,14 @@ export default {
     "language": "Pilih bahasa..",
     "friend_email": "Email temanmu...",
     "friend_name": "Memilih. Nama temanmu",
-    "select_date": "Pilih tanggal..."
+    "select_date": "Pilih tanggal...",
+    "address": "123 Jalan Utama, Anytown, 12345",
+    "cluster": "Pilih klaster...",
+    "select_products": "Pilih produk",
+    "birthday": "Pilih tanggal lahir",
+    "select_category": "Pilih kategori...",
+    "select_a_country": "Pilih negara...",
+    "filter_country": "Filter berdasarkan negara..."
   },
   "notification": {
     "confirm": "Mengonfirmasi",
@@ -1159,7 +1250,9 @@ export default {
     "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN"
   },
   "variants": {
     "color": "Warna",
@@ -1282,7 +1375,10 @@ export default {
       "title": "Jadwal Rilis Konten",
       "publish_at": "Terbitkan di",
       "last_edit": "editan terakhir",
-      "view_action": "Lihat Artikel"
+      "view_action": "Lihat Artikel",
+      "no_article": "Tidak ada artikel terjadwal!",
+      "current_article": "Artikel Saat Ini",
+      "article_for_product": "Artikel Untuk Produk"
     },
     "notifications": {
       "update_success_title": "Kirim Informasi",
@@ -1354,7 +1450,8 @@ export default {
     "first_send": "Pos pertama",
     "comment_at": "Pada",
     "edit_comment": "Sunting Komentar",
-    "my_comments": "Komentar Saya"
+    "my_comments": "Komentar Saya",
+    "verified_buyer": "Pembeli Terverifikasi"
   },
   "customer_club": {
     "bronze": "Perunggu",
@@ -1469,7 +1566,8 @@ export default {
     "canceled": "Dibatalkan",
     "cod": "Bayar Saat Pengiriman",
     "receipt_added": "Tanda terima ditambahkan",
-    "payment_processing": "Proses pembayaran"
+    "payment_processing": "Proses pembayaran",
+    "payment_require_capture": "Memerlukan penangkapan"
   },
   "basket_delivery_state": {
     "rejected": "Ditolak",
@@ -1971,5 +2069,53 @@ export default {
     "summer": "Musim panas",
     "autumn": "Musim gugur",
     "winter": "Musim dingin"
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "Lihat riwayat pesan antara Anda dan pelanggan."
+      },
+      "new_message": {
+        "subtitle": "Anda dapat mengirim pesan langsung ke pelanggan di sini. Saat Anda mengirim pesan, pelanggan akan menerima pemberitahuan email setelah 20 menit. Pemberitahuan ini hanya akan dikirim sekali setiap 24 jam."
+      }
+    },
+    "customer": {
+      "history": {
+        "subtitle": "Lihat riwayat pesan antara Anda dan penjual."
+      },
+      "new_message": {
+        "subtitle": "Anda dapat mengirim pesan langsung kepada kami di sini."
+      }
+    }
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "Sesuai Permintaan",
+      "desc": "seperti perbaikan rumah, pengecatan, perbaikan mobil, dll."
+    },
+    "BOOKING": {
+      "title": "Pemesanan",
+      "desc": "Seperti memesan kamar hotel atau villa."
+    },
+    "APPOINTMENT": {
+      "title": "Janji temu",
+      "desc": "Seperti janji perawatan hewan peliharaan atau pelatihan langsung."
+    },
+    "RENTAL": {
+      "title": "Persewaan",
+      "desc": "Seperti menyewa tempat atau mobil."
+    },
+    "SUBSCRIPTION": {
+      "title": "Berlangganan",
+      "desc": "Seperti keanggotaan klub atau Pelatihan Online."
+    },
+    "CHARGE": {
+      "title": "Mengenakan biaya",
+      "desc": "Seperti menagih akun atau menagih untuk menggunakan aplikasi."
+    },
+    "CUSTOM": {
+      "title": "Kebiasaan",
+      "desc": "Pilih opsi ini jika layanan yang Anda berikan bukan salah satu di atas."
+    }
   }
 };

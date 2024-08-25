@@ -99,7 +99,11 @@ export default {
       "ecommerce": "E-handel",
       "pos": "Försäljningsstället",
       "blog": "Blogg & CMS",
-      "community": "Community & Forum"
+      "community": "Community & Forum",
+      "ecommerce_desc": "Sälj dina produkter och tjänster online.",
+      "pos_desc": "Sälj dina produkter och tjänster personligen.",
+      "blog_desc": "Kraftfullt CMS för att publicera dina artiklar och inlägg.",
+      "community_desc": "Skapa ditt eget community och forum."
     },
     "job": {
       "title": "Vad är din bransch?",
@@ -162,7 +166,8 @@ export default {
     "sec2": {
       "title": "Snabb integration",
       "msg": "Vi utvecklar SDK:er för alla vanliga språk och ramverk så att du kan utföra stegen för autentisering, åtkomst till kontot och hantera det med enkla kommandon. Att komma igång är bara några klick bort."
-    }
+    },
+    "header": "Open Source API och SDK med {infinite} anpassning"
   },
   "convertible": {
     "store_name": "Din affär",
@@ -248,7 +253,9 @@ export default {
     "block3": {
       "title": "Spara tid",
       "subtitle": "Företagsklass men nybörjarvänlig."
-    }
+    },
+    "title": "Optimerad för online- och butiksförsäljning i stor skala",
+    "subtitle": "Tillverkad för konvertering. Lyft din onlinebutik med intuitiva verktyg utformade för att göra besökare till kunder."
   },
   "money_transfer": {
     "customer": "Din kund",
@@ -311,5 +318,219 @@ export default {
     "msg": "Ge dina idéer liv med bara några klick.",
     "open_sample_product_link": "Öppna Live Product",
     "open_templates": "Visa mallar"
+  },
+  "support_box": {
+    "country_select_label": "Välj ditt land",
+    "we_support_message": "Vi stöder {country}",
+    "we_limited_support": "Vi begränsade supporten {country}",
+    "support_message_long": "Upplev sömlösa onlinetransaktioner i ditt land med Selldone! Vid sidan av professionella skatteberäkningar erbjuder vi olika betalningsmetoder inklusive kontanter, POS, banköverföringar och mer. Börja bygga ditt företag på en plattform som fullt ut stödjer ditt lands behov.",
+    "limited_support_message_long": "Onlinebetalningar kanske inte är tillgängliga i ditt land, men du behöver inte oroa dig! På Selldone erbjuder vi kontantbetalningar, banköverföringar och postförskott (COD) över hela världen. Du kan tryggt bygga upp din onlineverksamhet med oss samtidigt som du följer ditt lands och Europas bestämmelser. För mer information eller för att fråga om onlinebetalningssupport i ditt land är du välkommen att kontakta vårt supportteam.",
+    "more_about_selldone_in_country": "Om Selldone i ditt land",
+    "support_worldwide_customers": "Du kan sälja dina produkter och tjänster till alla kunder i <b>alla länder</b> !"
+  },
+  "hero": {
+    "intro": "#1 Operativsystem för företag",
+    "title": "Ersätt {infinite} plugins och appar med en {app}"
+  },
+  "make_your_shop": {
+    "title": "Gör din egen",
+    "amazon": "Amazon",
+    "local_store": "Lokal butik",
+    "instagram": "Instagram Store",
+    "dropshipping": "Dropshipping",
+    "coursera": "Coursera",
+    "gift_store": "Presentbutik",
+    "airbnb": "Airbnb",
+    "simple_store": "Enkel butik",
+    "tiktok": "Tiktok butik"
+  },
+  "show_its_simplicity": {
+    "title": "Ännu ett tråkigt komplex<div class=\"app-box\" style=\"font-size: 55%\"> 😣</div> e-handelsplattform!?",
+    "subtitle": "Absolut inte! Testa bara innan du registrerar dig...",
+    "as_guest": "Som gäst",
+    "need_register": "Behöver registrera",
+    "page_builder": {
+      "title": "Inbyggd Page Builder",
+      "subtitle": "Den första intuitiva dra och släpp sidbyggaren med inline-redigering.",
+      "try_action": "Prova Page Builder",
+      "see_collection_action": "Se mallar"
+    },
+    "ai": {
+      "title": "Inbyggda AI-funktioner",
+      "subtitle": "Den bästa industriella bakgrundsborttagningen, bildoptimering, innehållsgenerering, skapande av automatiska produkter och mer.",
+      "try_action": "Prova Selldone Intelligence"
+    },
+    "storefront": {
+      "title": "Live skyltfönster",
+      "subtitle": "Upplev den snabbaste shoppingen med modern PWA-webbplats utan att behöva skriva en enda rad kod.",
+      "see_action": "Se Demo Storefront"
+    },
+    "backoffice": {
+      "title": "Live Backoffice",
+      "subtitle": "Hantera allt från ett ställe utan behov av någon plugin.",
+      "see_action": "Se Demo Backoffice"
+    }
+  },
+  "pricing_compact": {
+    "title": "<div class=\"app-box\" style=\"font-size: 55%\">💞️</div> Enkel och transparent prissättning",
+    "subtitle": "Få tillgång till alla funktioner i företagsklass för att starta och skala ditt företag med vår intäktsdelningsmodell – betala ingenting i förskott, bara en del av dina intäkter. Vi lyckas bara när du gör det, minimerar dina kostnader och maximerar dina vinster."
+  },
+  "screenshots": {
+    "item_1": {
+      "title": "Effektivisera din orderhantering.",
+      "desc": "Hantera effektivt en stor volym av beställningar dagligen med hjälp av våra avancerade list- och filterfunktioner."
+    },
+    "item_2": {
+      "title": "Anslut din butik till PODs.",
+      "desc": "Anslut enkelt din butik till en print-on-demand dropshipping-tjänst som Printful och sälj dina konstverk på tryckt material utan att behöva några ytterligare plugins."
+    },
+    "item_3": {
+      "title": "Fullfölj beställningar med intuitiva företagsverktyg.",
+      "desc": "Upplev en strömlinjeformad beställningsprocess med möjligheten att intuitivt formatera förfrågningar, göra nödvändiga ändringar och uppdatera status med bara ett klick. Lyft dina fullgörandemöjligheter till nya höjder med våra verktyg på företagsnivå."
+    },
+    "item_4": {
+      "title": "Spåra åtgärder på beställningens tidslinje.",
+      "desc": "Tidslinjen för en beställning ger en detaljerad förteckning över alla åtgärder och ändringar som gjorts i beställningen. Du kan enkelt se vem som gjorde ändringarna och när de gjordes."
+    },
+    "item_5": {
+      "title": "Förenkla kund- och leverantörskommunikation.",
+      "desc": "E-postmeddelanden med ditt varumärke kommer automatiskt att skickas till kunder, leverantörer och eventuella anpassade e-postadresser som anges efter att kassan och betalningsprocessen är klar."
+    },
+    "item_6": {
+      "title": "Organisera produkter utan ansträngning med dra och släpp.",
+      "desc": "Produkten i detta system kommer att fungera på samma sätt som filer, medan kategorier fungerar som mappar. Du kommer att ha möjlighet att enkelt dra och släppa produkter, ordna om dem, kopiera och klistra in och till och med importera bulkprodukter med en enkel Excel-fil."
+    },
+    "item_7": {
+      "title": "Spåra enkelt dina prenumerationsbeställningar.",
+      "desc": "Hämta en intuitiv och kompakt lista som innehåller alla aktuella och tidigare prenumerationsordrar, inklusive tiden fram till nästa betalning och detaljerad information för varje beställning."
+    },
+    "item_8": {
+      "title": "Använd inbyggda blogg- och CMS-verktyg för att engagera kunder.",
+      "desc": "Utnyttja den interna bloggen och innehållshanteringssystemets funktioner för att skapa innehåll om ditt företag och dina erbjudanden, och locka till dig nya målgrupper genom sökmotoroptimering. Genom att göra det kan du också interagera med dina kunder."
+    },
+    "item_9": {
+      "title": "Anslut OS — Anslut enkelt till externa tjänster.",
+      "desc": "Det är möjligt att ansluta till externa tjänster, såsom marknadsplatser, dropshipping-leverantörer, POD:er och finansiell programvara, utan att behöva några ytterligare plugins."
+    },
+    "item_10": {
+      "title": "Förenkla produktimport från externa tjänster.",
+      "desc": "Importera enkelt produkter från externa tjänster som Woocommerce och Printful med bara några klick och full automatisering."
+    },
+    "item_11": {
+      "title": "Kopplar din butik till Google Merchant Center.",
+      "desc": "Länka din butik med Google Merchant Center och synkronisera alla varor och kategorier sömlöst för att marknadsföra dem på Google."
+    },
+    "item_12": {
+      "title": "Avokado — Sälj enkelt produkter på sociala medier.",
+      "desc": "Med Avocado kan du sälja produkter på sociala medier utan att manuellt behöva lägga till produkter och prissättning. Verktyget genererar automatiskt en betalningslänk för beställningar och låter dig skapa anpassade räkningar med betalningslänkar."
+    },
+    "item_13": {
+      "title": "Ribbon — Skapa och sälj enkelt prenumerationer.",
+      "desc": "Ribbon är ett kraftfullt verktyg som låter dig enkelt skapa och sälja prenumerationer som prenumerationsboxar, betalväggar och olika typer av innehåll med bara några klick."
+    },
+    "item_14": {
+      "title": "Erbjud flera betalningsalternativ i din butik.",
+      "desc": "Det är fördelaktigt att erbjuda olika betalningsalternativ i din butik, som att införliva både Stripe och PayPal."
+    },
+    "item_15": {
+      "title": "Uppmuntra kundköp med rabatter, erbjudanden, kuponger och gamification.",
+      "desc": "Uppmuntra dina kunder att göra fler inköp från din butik genom att använda olika metoder som att erbjuda rabattkoder, kampanjerbjudanden, smarta rabatter, kuponger, presentkort och införliva element av gamification i shoppingupplevelsen."
+    },
+    "item_16": {
+      "title": "Maximera prestanda med kampanjhantering på serversidan.",
+      "desc": "Använd marknadsföring och kampanjhantering på serversidan för att få den mest insiktsfulla och korrekta informationen om resultatet av din kampanj."
+    },
+    "item_17": {
+      "title": "Hantera affiliate betalningar och försäljning.",
+      "desc": "Inkludera affiliates och hantera deras betalningar och försäljning effektivt. Använd olika avancerade alternativ för affiliatehantering som att tilldela unika kunddomäner för varje affiliate."
+    },
+    "item_18": {
+      "title": "Hantera lager och priser effektivt.",
+      "desc": "Logistik- och lagerhanteringsverktyg hjälper till att organisera, filtrera och hantera lagret och prissättningen för tusentals produkter och deras variationer."
+    },
+    "item_19": {
+      "title": "Kundaktivitet och statistik i realtid.",
+      "desc": "Få tillgång till den senaste informationen om kundaktivitet och webbplatsstatistik för att fatta välgrundade, datadrivna beslut."
+    },
+    "item_20": {
+      "title": "Öka försäljningen av community builder.",
+      "desc": "Bygg en interaktiv community för att öka försäljningen i din butik, öka publikens engagemang, främja förtroende och dra nytta av SEO-fördelarna med gratis innehåll."
+    },
+    "item_21": {
+      "title": "Förhöj din kundupplevelse.",
+      "desc": "Organisera och segmentera din kundbas, analysera deras livstidsvärde, tidigare köp online och i butik och spåra deras resa för att förbättra deras upplevelse samtidigt som de respekterar deras integritet."
+    },
+    "item_22": {
+      "title": "Designa responsiva sidor med lätthet.",
+      "desc": "Designa enkelt fängslande och lyhörda interna sidor och målsidor med vår inbyggda sidbyggare utan kod. Dra och släpp sektioner för att skapa anpassade sidor."
+    },
+    "item_23": {
+      "title": "Effektivisera redigering med en inbyggd sidredigerare.",
+      "desc": "Redigera enkelt texter och bilder på sidor med hjälp av en inline-sideredigerare, vilket gör det enkelt och intuitivt att uppdatera ditt innehåll."
+    },
+    "item_24": {
+      "title": "Hantera teamåtkomst och roller.",
+      "desc": "Bjud in dina teammedlemmar, etablera personalroller och ställ in deras åtkomstnivåer. När ditt företag och ditt team expanderar kommer ditt affärsoperativsystem att anpassas därefter."
+    },
+    "item_25": {
+      "title": "Har dina appar.",
+      "desc": "Börja ditt företag med en progressiv webbapp och ge dina kunder en snabbare upplevelse jämfört med dina konkurrenter."
+    },
+    "item_26": {
+      "title": "Avancerade automations- och sparverktyg.",
+      "desc": "Effektivisera din affärsverksamhet och spara värdefull tid och resurser genom att använda avancerade automationsverktyg som kan integreras i din butik."
+    },
+    "item_27": {
+      "title": "Skräddarsy ditt skyltfönster med lätthet.",
+      "desc": "Anpassa enkelt ditt skyltfönster så att det matchar ditt varumärke genom att använda visuella anpassningsalternativ som tema, färgscheman, typsnitt och mer - allt utan behov av kodning eller tekniska färdigheter."
+    },
+    "item_28": {
+      "title": "Designa en personlig kundresa.",
+      "desc": "Designa en personlig kundresa med hjälp av de olika alternativen som finns på Selldone, som att välja inloggningspunkt eller möjliggöra gästshopping."
+    },
+    "item_29": {
+      "title": "Förbättra upplevelsen med anpassade inloggnings- och flödesalternativ.",
+      "desc": "Skapa en personlig inloggnings- och flödesupplevelse som ger olika sociala inloggningsalternativ för din onlinebutik."
+    },
+    "item_30": {
+      "title": "Stödja komplexa affärsmodeller.",
+      "desc": "Selldone Support erbjuder avancerad affärsmodellsupport, såsom marknadsplats, dropshipping-leverantörer, affiliate och franchise, som du enkelt kan ställa in och växla mellan med bara ett klick."
+    },
+    "item_31": {
+      "title": "Länka flera anpassade domäner.",
+      "desc": "Du kan länka flera anpassade domäner till specifika aspekter av ditt företag som communityn, butiken, bloggen, målsidorna eller till och med affiliates."
+    },
+    "item_32": {
+      "title": "Stöd för flera språk och automatisk översättning.",
+      "desc": "Din butik har fullt stöd för flera språk, både RTL och LTR. Du kan enkelt installera och aktivera automatiska översättningspaket för din butik."
+    },
+    "item_33": {
+      "title": "Inbyggd multi-profil skatteberäkning.",
+      "desc": "Med möjligheten att skapa flera skatteprofiler och tilldela dem till specifika produkter, har du större flexibilitet vid beräkning av moms och moms. Du kan till exempel tillämpa olika skattesatser för livsmedel eller elektriska apparater."
+    },
+    "item_34": {
+      "title": "Multiregional skatteberäkning.",
+      "desc": "Använd antingen standard- eller anpassade regler för moms och moms när du säljer till olika länder och regioner. Åsidosätt regler för specifika regioner och skatteområden vid behov."
+    },
+    "item_35": {
+      "title": "Publicera artiklar med en kraftfull inline-redigerare.",
+      "desc": "En avancerad inline-artikelredigerare effektiviserar processen med att publicera och granska dina artiklar, vilket gör det snabbt och enkelt med bibehållen konsistens."
+    },
+    "item_36": {
+      "title": "Dedikerad instrumentpanel för varje produkt.",
+      "desc": "Varje produkt har en dedikerad instrumentpanel som ger statistik, all nödvändig information och tillgång till alla åtgärder som krävs för hanteringen."
+    },
+    "item_37": {
+      "title": "Översätt artiklar automatiskt.",
+      "desc": "Använd den inbyggda AI-översättningsfunktionen på företagsnivå för att enkelt översätta produktbeskrivningar till olika språk med bara ett klick."
+    },
+    "item_38": {
+      "title": "Inbyggda analysverktyg.",
+      "desc": "Du kommer att ha tillgång till inbyggda analysverktyg som är helt på serversidan, säkra och kompatibla med GDPR, utan användning av cookies."
+    },
+    "item_39": {
+      "title": "Täck de flesta av dina avancerade SEO-behov.",
+      "desc": "Vårt interna verktyg ger dig de mest aktiva sökorden, webbadresser med bästa resultat och en översikt över ditt företags resultat på Google-sökning, allt presenterat i form av tabeller och diagram."
+    }
   }
 };

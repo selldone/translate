@@ -7,14 +7,18 @@ export default {
     "start_free": "無料で始めましょう",
     "featured_apps": "注目のアプリ",
     "more_apps": "より多くのアプリケーション",
-    "my_public_profile": "私の公開プロフィールページ"
+    "my_public_profile": "私の公開プロフィールページ",
+    "product_admin": "製品管理者"
   },
   "numbers": {
     "infinite": "無制限"
   },
   "error": {
     "not_fount_data": "データが見つかりません！",
-    "license_max_limit": "ライセンスが制限に達しました！"
+    "license_max_limit": "ライセンスが制限に達しました！",
+    "no_read_access": "読み取りアクセスなし",
+    "no_write_access": "書き込みアクセスなし",
+    "no_access": "アクセス不可"
   },
   "time_spans": {
     "days_range": "日数範囲",
@@ -240,7 +244,9 @@ export default {
         "buys": "購入",
         "payments": "支払い",
         "orders": "注文",
-        "currency": "通貨"
+        "currency": "通貨",
+        "no_payment": "支払いはありませんよ！",
+        "no_purchase": "購入不可！"
       }
     }
   },
@@ -283,7 +289,8 @@ export default {
       "apps": "アプリ",
       "pos": "POS",
       "seo": "SEO",
-      "localization": "ローカリゼーション"
+      "localization": "ローカリゼーション",
+      "classification": "分類"
     },
     "dashboard": {
       "title": "ショップダッシュボード",
@@ -419,6 +426,10 @@ export default {
         "orders": "注文",
         "payments": "支払い",
         "no_visitor_today": "今日は訪問者がいませんでした。"
+      },
+      "channels": {
+        "title": "獲得チャネル",
+        "subtitle": "あなたのビジネスは成長しています。こちらが顧客獲得チャネルのレポートです。"
       }
     },
     "products": {
@@ -452,7 +463,41 @@ export default {
         "views": "ビュー",
         "views_unit": "タイムズ"
       },
-      "menu_advanced_options": "高度なオプション"
+      "menu_advanced_options": "高度なオプション",
+      "products_rss": {
+        "title": "製品RSS",
+        "subtitle": "Google、Meta などに製品をインポートしています..."
+      },
+      "products_api": {
+        "title": "製品API",
+        "subtitle": "公開アクセス可能な API 呼び出しを介して製品をインポートします。"
+      },
+      "google_sheet": {
+        "action": "リンクシート",
+        "tooltip": "このショップの商品は、Google ドライブの Google スプレッドシートにリンクされています。"
+      },
+      "show_deletes": {
+        "false_title": "削除済みを非表示",
+        "true_title": "削除された番組"
+      },
+      "show_vendors": {
+        "false_title": "ベンダーを非表示",
+        "false_description": "すべてのベンダーを表示、⌘Ctrl+1",
+        "true_title": "ベンダーを表示"
+      },
+      "show_notes": {
+        "false_title": "メモを非表示",
+        "false_description": "すべてのノートを表示、⌘Ctrl+2",
+        "true_title": "ノートを表示"
+      },
+      "rss_dialog": {
+        "title": "製品RSS",
+        "subtitle": "この RSS フィードを利用して、すべての製品の最新リストを維持します。"
+      },
+      "api_dialog": {
+        "title": "製品API",
+        "subtitle": "この API フィードを使用して、製品リストを最新の状態に保ちます。ストアから製品を取得するための公開アクセス可能な API が提供されるため、製品リストや比較 Web サイトに最適です。"
+      }
     },
     "blogs": {
       "new": "新規書き込み",
@@ -515,7 +560,8 @@ export default {
         "tax": "税",
         "drop_shipping": "リセラーレシート",
         "reseller_accounts": "リセラーアカウント",
-        "valuations": "評価"
+        "valuations": "評価",
+        "customer_wallets": "顧客ウォレット"
       },
       "invoice": {
         "title": "リンクされたウォレットを購入する",
@@ -687,7 +733,23 @@ export default {
           "cod_false": "オンライン決済のみ承ります",
           "cod_true_message": "配送サービスが代金引換を受け入れることを確認してください。"
         }
-      }
+      },
+      "restriction": {
+        "title": "配送制限",
+        "subtitle": "指定された配送エリア内の顧客のみが購入できるように制限を実装できます。",
+        "no_enable_shipping_error": "有効な配送方法がないため、誰もあなたから購入できません。",
+        "customer_must_select_a_shipping_msg": "顧客は注文を行うために配送方法を選択する必要があります。",
+        "customer_can_order_without_shipping_method_msg": "選択した場所で配送方法がサポートされていない場合でも、顧客は注文を行うことができます。",
+        "inputs": {
+          "restriction": {
+            "false_description": "特定の配送方法が選択されていない場合でも、顧客は注文を行うことができます。",
+            "false_title": "すべての注文を受け入れる",
+            "true_title": "制限付き受諾注文",
+            "true_description": "顧客は購入を完了するために、配送または集荷オプションのいずれかを選択する必要があります。"
+          }
+        }
+      },
+      "no_multi_warehouse_support_message": "簡便のため、この機能は通常の店舗では利用できません。"
     },
     "users": {
       "menu": {
@@ -1062,24 +1124,46 @@ export default {
       "product_name": "商品名*",
       "product_name_placeholder": "ここにあなたの製品名があります。",
       "product_code": "製品コード（英語）",
-      "sku": "SKU",
+      "sku": {
+        "label": "SKU",
+        "message": "在庫管理ユニット"
+      },
       "sku_message": "在庫管理ユニット",
-      "mpn": "MPN",
+      "mpn": {
+        "label": "MPN",
+        "message": "製造業者識別番号"
+      },
       "mpn_message": "製造業者識別番号",
-      "status": "状態",
+      "status": {
+        "title": "状態",
+        "subtitle": "商品のステータスによって、オンラインおよび店舗での在庫状況が決まります。商品の下書きを作成するには、ステータスを「非アクティブ」に切り替えるだけです。"
+      },
       "external_link": "外部リンク",
-      "brand": "ブランド",
+      "brand": {
+        "label": "ブランド",
+        "placeholder": "ブランド例Apple ..（オプション）"
+      },
       "brand_placeholder": "ブランド例Apple ..（オプション）",
-      "warranty": "保証",
+      "warranty": {
+        "subtitle": "保証と製品のステータスを設定します。保証に関するこの情報は顧客に表示され、購入後に製品を返品できる期間を確立するのに役立ちます。",
+        "label": "保証",
+        "placeholder": "24か月のゴールデン保証。（オプション）"
+      },
       "is_original": "オリジナル商品ですか？",
       "is_original_message": "オリジナルの商品を設定していない場合、この商品には偽のバッジが表示されます。",
       "return_warranty": "この商品の返品保証は何日ありますか？",
       "warehouse_section": "倉庫および製造",
       "conditions_section": "製品条件",
       "warranty_section": "保証と配達",
-      "unit": "製品ユニット",
+      "unit": {
+        "subtitle": "製品ページでの価格設定と行動喚起要素の表示をカスタマイズできます。"
+      },
       "unit_message": "必要に応じてユニットを入力してください。例：KG、メーター、..。",
-      "condition": "あなたの店の製品状態",
+      "condition": {
+        "label": "あなたの店の製品状態",
+        "message": "この商品の状態を選択してください。",
+        "subtitle": "提供している製品の状態とブランドについて顧客に知らせます。"
+      },
       "condition_message": "このフィールドの値の1つを選択する必要があります。",
       "unit_section": "製品ユニット",
       "unit_float": "フロートユニット（まもなく）",
@@ -1103,6 +1187,46 @@ export default {
         "single_vendor_desc": "この製品はベンダーに属しており、選択されたベンダーが管理できます。",
         "multi_vendors_title": "複数のベンダー",
         "multi_vendors_desc": "この商品はマーケットプレイスに属しており、マーケットプレイス パネルでのみ編集できます。"
+      },
+      "category_input_msg": "空: ストアのルート",
+      "unit_input": "製品ユニット",
+      "category": {
+        "subtitle": "リストに表示されるカテゴリとタイトルを設定します。"
+      },
+      "custom_pricing": {
+        "title": "カスタム価格設定フォーム",
+        "subtitle": "製品に評価（価格入力フォーム）を作成または割り当てることができ、顧客は直感的な入力フォームを使用してバリエーションを選択したり、商品をカスタマイズしたりできます。",
+        "valuation_need_saved_product_message": "まず製品を保存してから、評価モデルを割り当てることができます。",
+        "assign_valuation_message": "この製品に評価モデルを割り当ててください。",
+        "edit_pricing_action": "価格フォームの編集",
+        "add_pricing_action": "新しい価格設定フォームを作成する"
+      },
+      "action": {
+        "title": "カスタム購入ボタン",
+        "message": "次のパターンに従ってアイコンを変更できます: {icon name} キャプション...",
+        "placeholder": "行動喚起を入力してください...",
+        "multi_language_dialog_title": "カスタム購入ボタンのキャプション"
+      },
+      "warehouse": {
+        "subtitle": "この情報は倉庫管理システムによって利用され、製品をグローバルに識別するのに役立ちます。"
+      },
+      "gtin": {
+        "hint": "サポートされている値は、UPC (北米、12 桁)、EAN (ヨーロッパ、13 桁)、JAN (日本、8 桁または 13 桁)、ISBN (書籍、13 桁) です。",
+        "label": "製品の国際貿易商品番号",
+        "placeholder": "グローバル貿易番号をここに入力してください。（オプション）"
+      },
+      "hsn": {
+        "hint": "HSN（Harmonized System of Nomenclature）は、商品や製品を分類するための国際的に標準化された分類システムです。",
+        "placeholder": "6〜16桁のHSNコード（オプション）",
+        "label": "HSN"
+      },
+      "profiles": {
+        "title": "プロファイル",
+        "subtitle": "保証、返品ポリシー、配送、ガイドを定義してこの製品に割り当てることができます。製品ページに新しいタブとして表示されます。"
+      },
+      "shortcuts": {
+        "title": "追加カテゴリに製品を割り当てる",
+        "subtitle": "この機能を使用すると、製品 > 編集 > カテゴリで設定されたプライマリ カテゴリでの配置を維持しながら、製品を複数のカテゴリにリストできます。基本的に、これはオペレーティング システムで「ショートカット」を作成するのと同様に機能し、製品を追加の指定されたカテゴリに表示できるようにします。"
       }
     },
     "rating_pros_cons": {
@@ -1181,12 +1305,55 @@ export default {
         "code_input": "製品番号",
         "code_input_message": "製品コード：P0000..。",
         "spec_view_title": "選択した製品の仕様",
-        "set_spec_action": "技術仕様が重複している"
+        "set_spec_action": "技術仕様が重複している",
+        "spec_view_subtitle": "選択した製品から仕様がインポートされました。"
       },
       "notifications": {
         "enter_group_title_error": "見出しの値を入力してください",
         "enter_item_title_and_value_error": "機能のタイトルと値を入力します",
         "spec_saved_success": "製品仕様を保存しました。"
+      },
+      "subtitle": "ここに製品仕様を入力します。この情報は顧客に表示され、カテゴリのインテリジェント フィルタリング システムでも利用できます。",
+      "manual": {
+        "title": "手動で",
+        "subtitle": "グループとキーと値のペアを定義して、製品仕様を手動で追加します。",
+        "add_group_action": "グループを追加",
+        "add_item_action": "スペック値を追加"
+      },
+      "import": {
+        "subtitle": "類似製品の技術仕様をインポートできます。",
+        "action_title": "輸入",
+        "action_subtitle": "別の製品から仕様を複製します。"
+      },
+      "ai": {
+        "title": "AI",
+        "subtitle": "製品の生データをテキスト形式で送信することで、製品仕様を自動的に作成できます。",
+        "action_title": "AIによる自動生成",
+        "action_subtitle": "抽象的なプロンプトによって製品仕様を作成します。"
+      },
+      "dialog_ai": {
+        "title": "製品仕様を自動生成",
+        "prompt": {
+          "title": "製品概要",
+          "subtitle": "製品の主な特徴と詳細を強調した、製品の簡潔で明確な説明を入力してください。この情報は、製品仕様を自動的に生成するために使用されます。"
+        },
+        "generated_spec": {
+          "title": "AI生成仕様",
+          "subtitle": "これらの仕様は人工知能によって生成されました。"
+        },
+        "inputs": {
+          "prompt": {
+            "label": "製品詳細",
+            "placeholder": "ここで製品について説明してください..."
+          }
+        },
+        "actions": {
+          "run": {
+            "title": "仕様を生成する",
+            "subtitle": "クリックすると、提供された概要から製品仕様が自動的に作成されます。"
+          },
+          "add_generated_spec": "生成された仕様を追加する"
+        }
       }
     },
     "edit_images": {
@@ -1204,6 +1371,24 @@ export default {
       "video": {
         "title": "ビデオ",
         "sub_title": "まず、Youtubeに製品ビデオをアップロードしてから、ビデオのURLをここに入力します。"
+      },
+      "change_bg_ai": {
+        "title": "新しい背景で画像を作成する",
+        "inputs": {
+          "prompt": {
+            "label": "背景説明",
+            "placeholder": "希望する背景を説明してください..."
+          }
+        },
+        "actions": {
+          "reimagine": {
+            "title": "新しい画像を生成する",
+            "subtitle": "新しい背景で画像全体を再想像します。"
+          },
+          "replace": {
+            "subtitle": "既存の背景を置き換えます。"
+          }
+        }
       }
     },
     "pricing": {
@@ -1227,14 +1412,33 @@ export default {
       "variant_pricing_message": "このオプションを選択することにより、このバリアントの価格を主な製品とは独立して設定できます。",
       "price_label_input": "価格ラベル",
       "price_label_message": "( $1.5/Fl Oz ) のような価格に関する追加情報を追加します。ユースケース: 食料品、FMCG。",
-      "add_price_label_action": "価格ラベルを追加"
+      "add_price_label_action": "価格ラベルを追加",
+      "subtitle": {
+        "marketplace": "マーケットプレイス内では、表示される主な製品価格はリスト価格ですが、実際の価格はベンダーと製品の関係レコードに基づいて決定されます。",
+        "subscription": "サブスクリプションの場合、リスト価格のみが表示され、実際のコストは選択したサブスクリプションプランに基づいて決定されます。",
+        "service": "サービスベースの製品の場合、記載されている価格は表示目的のみで、サービスの見積り費用を示しています。実際のサービス価格は、顧客が注文を確定した後（チェックアウト時）に決定されます。",
+        "file": "これは、ファイルにアクセスするために顧客が支払う必要がある、ファイルの記載された価格と実際の価格を指します。",
+        "default": "これは製品の表示価格を指し、個別の価格設定がないバリエーションの価格も考慮されます。"
+      },
+      "extra_pricings": {
+        "title": "追加料金を追加",
+        "subtitle": "購入数量に応じて異なる価格を適用します。"
+      },
+      "vendor": {
+        "title": "ベンダー価格",
+        "subtitle": "この価格は製品リストにのみ表示されます。ベンダー価格は、[製品] > [ベンダー] タブで設定できます。",
+        "manage_vendors": "ベンダーの管理",
+        "vendor_product_pricing_link": "ベンダーの製品価格設定は連動しています。ここで出品価格を変更すると、バリエーションのないベンダー製品、またはバリエーションがあっても独自の価格設定がない (メイン製品と同じ価格を使用する) ベンダー製品に影響します。この価格はマーケットプレイス価格として扱われ、ベンダーの価格は価格設定モデルまたは以前のマーケットプレイスの利益率に基づいて設定されます。",
+        "vendor_variant_pricing_link": "ここでバリアントの価格を変更すると、同じバリアントを持つベンダー製品の価格設定に影響します。この価格はマーケットプレイスの価格とみなされ、ベンダーの価格は価格設定モデルまたは以前のマーケットプレイスの利益率に従って設定されます。"
+      }
     },
     "inputs_edit": {
       "title": "バイヤー情報の入力フォーム",
       "sub_title": "商品ごとにデータ入力フォームを作成できるので、買い物客は商品を購入するときに情報を送信します。たとえば、この情報は石に刻まれた名前である可能性があります。",
       "message_input": "ユーザーへのメッセージ",
       "message_input_message": "このメッセージは、製品を購入するときに顧客に表示されます。",
-      "inputs_form": "情報構造（入力）"
+      "inputs_form": "情報構造（入力）",
+      "inputs_hint": "顧客が注文する準備ができたときに詳細情報を収集するためのパーソナライズされたフォームを設定するオプションがあります。"
     },
     "extra_edit": {
       "physical": {
@@ -1244,6 +1448,13 @@ export default {
       "notifications": {
         "save_title": "パッケージが更新されました",
         "save_msg": "製品のパッケージ情報が正常に更新されました。"
+      },
+      "order_limit": {
+        "title": "注文制限",
+        "subtitle": "卸売業者の場合、または注文ごとのこの商品の数量に最小または最大の制限がある場合は、ここで指定できます。",
+        "no_limit": "制限なし",
+        "minimum_purchase_quantity": "最小購入数量",
+        "maximum_purchase_quantity": "最大購入数量"
       }
     },
     "variants": {
@@ -1251,7 +1462,8 @@ export default {
     },
     "delete_product": {
       "title": "製品を削除します",
-      "message": "<b>{product_title}</b>を削除しますか？"
+      "message": "<b>{product_title}</b>を削除しますか？",
+      "tips": "誤って商品を削除した場合は、「ショップ > 商品」に移動し、「削除されたアイテムを表示」を有効にして、商品を右クリックし、「復元」を選択すると、商品を復元できます。"
     }
   },
   "product_admin": {
@@ -1275,7 +1487,11 @@ export default {
         "type": "タイプ",
         "inputs": "入力情報",
         "outputs": "出力情報",
-        "user_data_form": "バイヤー情報フォーム"
+        "user_data_form": "バイヤー情報フォーム",
+        "staff_messages": "スタッフメッセージ",
+        "add_note": "メモを追加",
+        "product_tags": "製品タグ",
+        "edit_tags": "タグを編集"
       },
       "orders": {
         "title": "注文",
@@ -1283,7 +1499,9 @@ export default {
         "physical_orders_title": "この製品のショッピングカート",
         "send_30days_title": "過去30日間に発送された注文",
         "downloads_30days_title": "過去30日間のファイルダウンロード数",
-        "virtual_orders_title": "この商品の注文は完了待ちです"
+        "virtual_orders_title": "この商品の注文は完了待ちです",
+        "send_count_in_period": "{start} ～ {end} の間に発送された注文",
+        "downloads_count_in_period": "{start} ～ {end} の間のファイルのダウンロード数"
       },
       "inventory": {
         "title": "在庫",
@@ -1298,7 +1516,8 @@ export default {
           ]
         },
         "subscribers_title": "購読者",
-        "subscribers_title_small": "購読された注文の合計"
+        "subscribers_title_small": "購読された注文の合計",
+        "total_sell_timespan": "{start} ～ {end} 間の総売上"
       },
       "finance": {
         "title": "金融",
@@ -1327,7 +1546,9 @@ export default {
           "participate": "参加",
           "participate_title": "貢献の数",
           "score": "スコア"
-        }
+        },
+        "total_participation_tooltip": "製品の評価者の合計数。",
+        "users_not_rated_msg": "ユーザーはまだこの製品を評価していません。"
       },
       "inform": {
         "title": "お客様の期待",
@@ -1403,7 +1624,11 @@ export default {
     "lead_time_dimension": "時間）",
     "bulk_action": "一括操作",
     "bulk_action_input": "すべてのバリアントを更新します",
-    "bulk_action_msg": "すべてのバリエーションの製品パッケージと準備時間を設定します。"
+    "bulk_action_msg": "すべてのバリエーションの製品パッケージと準備時間を設定します。",
+    "weight_subtitle": "ここで、商品の総梱包重量を入力します。この情報は、適切な配送方法を選択し、注文が配送制限を超えないようにするのに役立ちます。",
+    "size_subtitle": "ここで製品の完全な梱包サイズを入力します。この情報は、正しい配送方法を選択し、注文が小包のサイズ制限を超えないようにするために使用されます。",
+    "lead_time_subtitle": "リードタイムは、製品を出荷準備するのに必要な期間を推定するもので、配達時間を見積もるのに役立ちます。",
+    "bulk_action_subtitle": "パッケージ情報をすべての製品バリアントに適用できます。"
   },
   "product_images_list": {
     "upload_button": "その他の製品画像",
@@ -1488,10 +1713,14 @@ export default {
     },
     "notifications": {
       "save_success": "在庫の変更が保存されました。"
-    }
+    },
+    "title": "店舗在庫",
+    "subtitle": "店舗内のすべての製品のリスト。",
+    "cant_set_here": "ここでは設定できません"
   },
   "spec_view": {
-    "auto_save_input": "自動保存"
+    "auto_save_input": "自動保存",
+    "auto_save_input_message": "変更は自動的に保存されます。"
   },
   "time_progress_bar": {
     "title_before_start": "スタートを切る",
@@ -1752,6 +1981,33 @@ export default {
       },
       "notifications": {
         "edit_success": "カテゴリを編集しました。"
+      },
+      "manually_update_filters_tips": "<b>重要!</b>製品が変更されると、フィルターは自動的に更新されます。ただし、カテゴリ内の製品に変更を加えた後は、ここに戻って [保存/再生成] ボタンをクリックしてフィルターを更新してください。",
+      "inputs": {
+        "spec": {
+          "message": "フィルタセクションに表示する機能のリスト",
+          "placeholder": "フィルターに表示する仕様を選択してください..."
+        }
+      }
+    },
+    "config": {
+      "subtitle": "カテゴリを使用すると、製品管理が効率化され、顧客がストア内の製品を見つけやすくなります。"
+    },
+    "parent": {
+      "subtitle": "このカテゴリは親カテゴリの下に表示されます。製品に親カテゴリがない場合は、メインカテゴリに表示されます。"
+    },
+    "template": {
+      "title": "レンプレート",
+      "edit_page": "ページを編集",
+      "Pages_list": "ページリスト",
+      "subtitle": "カスタム ページを重ねることで、カテゴリ ページの表示を強化できます。最適な方法は、透明な背景のページを作成し、各カテゴリに固有の 1 ～ 2 つのセクションを設計することです。その後、1 つのページを複数のカテゴリにリンクし、動的コンテンツを使用して各カテゴリを個別にカスタマイズできます。"
+    },
+    "critical_zone": {
+      "title": "クリティカルゾーン",
+      "subtitle": "カテゴリーを削除すると、そのサブカテゴリーと商品は親ディレクトリ<b>📁 {parent}</b>に移動されます。商品リストにないカテゴリーを管理するには、[ショップ] > [カテゴリー] タブに移動します。",
+      "accept_delete": {
+        "true_description": "このカテゴリーを削除したいです。",
+        "true_title": "カテゴリの削除を確認"
       }
     }
   },
@@ -1807,7 +2063,8 @@ export default {
       "name_available": "この名前（{name}）は使用可能です。",
       "add_success": "作成されたストア{title}。",
       "edit_success": "編集したストア。"
-    }
+    },
+    "description_input_tips": "この説明はストアのフッターに表示され、ストア ページのデフォルトのメタ タグの説明としても使用されます。"
   },
   "virtual_items_list": {
     "add_virtual_item": "仮想アイテムを追加する",
@@ -1896,7 +2153,13 @@ export default {
       "title": "注文を拒否する理由",
       "message": "以下のリストから、この注文を拒否する理由を選択してください。キャンセルと払い戻しのプロセスについては、必ずお客様にお知らせください。払い戻しは12時間以内に行う必要があります。",
       "confirm_action": "注文をキャンセルする",
-      "dismiss_reject_action": "注文のキャンセルを却下します"
+      "dismiss_reject_action": "注文のキャンセルを却下します",
+      "confirm_now_action": "今すぐ注文をキャンセル",
+      "confirm_in48h_action": "48時間以内に注文をキャンセル",
+      "options": {
+        "title": "オプション",
+        "subtitle": "注文をすぐにキャンセルしたい場合は、このオプションを使用できます。"
+      }
     },
     "notifications": {
       "update_status_success": "注文状況が更新されました。",
@@ -2019,7 +2282,8 @@ export default {
         "pay_fail_title": "未払い",
         "pay_fail_message": "支払いは承認できません！"
       },
-      "total_order_price_before_tax": "税引き前の合計価格"
+      "total_order_price_before_tax": "税引き前の合計価格",
+      "require_capture": "キャプチャが必要"
     },
     "basket_list": {
       "checklist": [
@@ -2031,7 +2295,23 @@ export default {
       "list_of_items": "ショッピングカートリスト",
       "apply_change_action": "変更を適用する",
       "cant_apply_change": "変更できません",
-      "lottery_prize_inform": "あなたの顧客はこの製品の1倍を獲得します。この注文でギフトを送ってください。"
+      "lottery_prize_inform": "あなたの顧客はこの製品の1倍を獲得します。この注文でギフトを送ってください。",
+      "need_to_refund": {
+        "title": "顧客への返金が必要",
+        "message": "返金する必要のある合計金額を手動で計算します。これは、入手できない商品と返金された合計金額に基づいて計算されます。",
+        "calculated_approximately": "金額は概算ですので、正確な金額はご自身で計算してください。"
+      },
+      "need_payback": {
+        "title": "顧客への返金が必要",
+        "message": "カート内の商品に基づいて、顧客に返金された合計金額が請求金額よりも高いことがわかりました。超過額を回収するには、顧客に請求する必要がある可能性があります。"
+      },
+      "need_no_refund": {
+        "title": "返金の必要はありません"
+      },
+      "total_refund": {
+        "title": "払い戻し総額",
+        "message": "これは、決済ゲートウェイによって自動的に行われた払い戻しの合計金額です。この機能をサポートしているのは一部の決済サービスのみであるため、手動で払い戻しを行う必要があります。"
+      }
     },
     "preparing": {
       "title": "準備",
@@ -2047,7 +2327,9 @@ export default {
         "パッケージングの標準ルールに従います。",
         "アイテムのリストを印刷して、パッケージに入れます。",
         "ラベルを印刷してボックスに貼り付けます。"
-      ]
+      ],
+      "items_weight_calculation": "すべてのアイテムの合計重量は {weight} {unit} です",
+      "not_available_message": "配送先住所の入力を無効にしており、ユーザーが購入後に住所を入力していない場合は利用できません。"
     },
     "basket_items": "注文アイテムリスト",
     "delivered_dialog": {
@@ -2156,10 +2438,48 @@ export default {
     "developer_title": "開発者モード",
     "developer_message": "ゲートウェイがデバッグモードをサポートしている場合は、偽のトランザクションを処理できます。",
     "notifications": {
-      "edit_success": "ゲートウェイ{gateway_name}が編集されました。"
+      "edit_success": "ゲートウェイ{gateway_name}が編集されました。",
+      "success_delete": "支払い方法が削除されました!"
     },
     "developer_setting": "開発とテスト",
-    "live_mode_message": "すべての取引はライブモードになります。"
+    "live_mode_message": "すべての取引はライブモードになります。",
+    "status_title": "決済サービスのステータス",
+    "status_message": "支払い方法をアクティブまたは非アクティブとして設定します。アクティブとして設定された方法のみが顧客に表示されます。",
+    "status_true_description": "お客様はこの支払い方法で支払うことができます。",
+    "manual_title": "手動/自動決済",
+    "manual_message": "支払いを作成するときに、対象となる支払い方法を保留にして、後で取り出せるように資金を確保することができます。たとえば、ホテルではゲストが到着する前に全額支払いを承認し、ゲストがチェックアウトするときにお金を取り出すことがよくあります。",
+    "debug": {
+      "title": "開発とテスト",
+      "subtitle": "デバッグ モードを有効にして、支払いゲートウェイをテストできます。"
+    },
+    "limit": {
+      "title": "注文制限",
+      "subtitle": "この支払いゲートウェイの最小注文金額を設定します。"
+    },
+    "limit_input": {
+      "title": "最低注文金額",
+      "msg": "ゼロは制限がないことを意味します。"
+    },
+    "currency_input": {
+      "message": "この支払いゲートウェイがサポートする通貨。"
+    },
+    "gateway_code": "ゲートウェイコード",
+    "hold_only_for": "支払い保留は以下でのみ利用可能です",
+    "manual_input": {
+      "false_description": "支払いステータスは、支払いプロバイダーのシステムで保留中から確認済みに自動的に変更されます。",
+      "false_title": "自動支払い確認",
+      "true_title": "支払い保留と手動確認",
+      "true_description": "支払いを保留にすると、支払いプロバイダー システムで注文の支払いステータスを保留から確認済みに変更するために支払いを検証する必要が生じます。"
+    },
+    "delete_verify_input": {
+      "true_title": "この支払い方法を削除したいです。",
+      "true_description": "この支払い方法はストアから削除され、顧客は利用できなくなります。"
+    },
+    "delete_alert": {
+      "title": "支払い方法の削除",
+      "message": "この支払い方法をショップから削除してもよろしいですか?",
+      "action": "支払い方法の削除"
+    }
   },
   "gift_card": {
     "title": "ギフトカード",
@@ -2368,7 +2688,9 @@ export default {
     "connect-remove-hold": "注文は保留から削除されました。 {reason}",
     "connect-confirmed": "注文が確認されました。",
     "email-vendor": "🔔 注文通知メールが<b>{vendor}</b>に送信されました ╏ {email}。",
-    "vendor-payout": "💸ベンダーへの支払い。"
+    "vendor-payout": "💸ベンダーへの支払い。",
+    "sms-payment": "{phone} 経由で顧客に支払い確認 SMS を送信します。",
+    "vendor-sms": "🔔 注文通知 SMS が<b>{vendor}</b> ╏ {phone} に送信されました。"
   },
   "inline_chart": {
     "today": "今日",
@@ -2384,6 +2706,34 @@ export default {
     "notifications": {
       "copy_success": "製品のコピー。",
       "change_category_success": "編集された製品カテゴリ。"
+    },
+    "load_more_products": "このカテゴリには他にも商品があります。クリックすると、さらに多くのアイテムが読み込まれます。",
+    "filter_box": {
+      "no_root_filter_message": "ルートに製品はありますが、フィルターがありません。",
+      "has_root_filter_message": "ルート カテゴリにフィルターを設定します。",
+      "set_filter_message": "フィルターを設定できます。",
+      "edit_action": "ルートフィルターの編集",
+      "clear_action": "ルートフィルターをクリア"
+    },
+    "ai": {
+      "title": "AI製品サポート"
+    },
+    "menu": {
+      "select_all_products": "すべての製品を選択",
+      "unselect": "選択解除",
+      "sort_categories": "カテゴリの整理/並べ替え",
+      "subscription_vendor_not_support_message": "サブスクリプション製品にベンダーを割り当てることができません。サブスクリプション製品は常にベンダーを所有者として持つ必要があります。",
+      "vendor_owner_not_assignable_message": "ベンダーが所有者である製品にベンダーを割り当てることはできません。",
+      "category_assign_profile": "カテゴリ内の製品にプロファイルを割り当てる",
+      "category_assign_profile_subtitle": "税金、配送、ガイド、保証、...",
+      "bulk_discount": "まとめ買い割引",
+      "bulk_discount_subtitle": "すべての製品に割引を適用します。"
+    },
+    "engine": {
+      "title": "追加製品エンジン",
+      "subtitle": "選択したカテゴリとタグからさらに多くの製品が読み込まれます。",
+      "load_in_tips": "{category} 内のカテゴリから製品を読み込みます。",
+      "action": "{category} エンジンを編集"
     }
   },
   "physical_order_track": {
@@ -2419,7 +2769,9 @@ export default {
       "message": "このメールを顧客に再送信してもよろしいですか？",
       "action": "はい、再送します",
       "success": "顧客に再送信された電子メール。"
-    }
+    },
+    "message": "このセクションでは、注文、履行、支払い、およびそれぞれのステータスに関連するイベントのタイムラインを表示できます。さらに、顧客とベンダーの両方に発送された注文を確認することもできます。",
+    "add_note_subtitle": "メッセージを書き、同僚に言及してください。"
   },
   "accounts": {
     "title": "私の財布",
@@ -3253,7 +3605,15 @@ export default {
       "access": "マイアカウントへのアクセス",
       "security": "安全",
       "preferences": "ユーザー設定",
-      "my_subscriptions": "私の定期購入"
+      "my_subscriptions": "私の定期購入",
+      "my_public_profile_subtitle": "私の公開プロフィール {name}。",
+      "personal_information_subtitle": "プロフィール、住所、KYC を編集します。",
+      "wallet_subtitle": "仮想アカウントと接続された支払いカード。",
+      "companies_subtitle": "ビジネスおよび税金のプロファイルを登録します。",
+      "access_subtitle": "OAuth クライアント、個人アクセス トークン、接続されたアプリ。",
+      "security_subtitle": "2 要素認証を設定し、ソーシャル ログイン オプションを管理します。",
+      "preferences_subtitle": "テーマ、レベル、言語、デフォルトの通貨を変更します。",
+      "my_subscriptions_subtitle": "プレミアム AI とカスタマイズ機能にアクセスできます。"
     }
   },
   "page_builder": {
@@ -3293,7 +3653,8 @@ export default {
         "tools": "ツール",
         "history": "歴史",
         "style": "スタイル",
-        "typography": "タイポグラフィ"
+        "typography": "タイポグラフィ",
+        "hierarchy": "階層"
       },
       "no_category": "カテゴリなし"
     },
@@ -3392,7 +3753,8 @@ export default {
     "samples": "サンプルショップを表示",
     "samples_message": "有効にすると、いくつかのサンプルショップがパネルに表示されます。",
     "automation": "オートメーション",
-    "automation_message": "ショップのダッシュボードに自動化タブを表示します。 (Webhook、ビジュアル プログラミング、...)"
+    "automation_message": "ショップのダッシュボードに自動化タブを表示します。 (Webhook、ビジュアル プログラミング、...)",
+    "date_time": "日付と時刻"
   },
   "shop_locations": {
     "title": "サービスが提供されている国",
@@ -3419,7 +3781,31 @@ export default {
     "auto_category": "カテゴリの自動設定",
     "add_in_current_category": "現在のカテゴリに追加",
     "category_mode_message": "有効にすると、製品はデフォルトのカテゴリまたはサブカテゴリに追加されます。",
-    "sku_name_input": "SKU/名前"
+    "sku_name_input": "SKU/名前",
+    "info": {
+      "subtitle": "製品を生成するには、その作成に必要な重要な詳細のみを入力します。"
+    },
+    "price": {
+      "subtitle": "この商品の価格と割引を入力します。商品を追加すると、さらに多くのオプションにアクセスできるようになります。"
+    },
+    "by_sku": {
+      "title": "SKUで追加",
+      "subtitle": "あなたの国のデータベースは利用できません。"
+    },
+    "drop_shipping": {
+      "subtitle": "卸売市場で製品を見つけて、ストアに追加します。"
+    },
+    "by_connect": {
+      "subtitle": "Selldone Connect OS を使用すると、POD またはドロップシッピング サプライヤーから製品を簡単に追加できます。ストアを接続するだけで、プラグインを必要とせず、自動的に製品が統合されます。"
+    },
+    "your_license_is_not_eligible": "あなたのライセンスは適格ではありません。",
+    "sku_dialog": {
+      "title": "SKUで製品を追加",
+      "subtitle": "当社のデータベースで SKU 別に製品を検索し、ワンクリックで追加することができます。"
+    },
+    "dropshipping_dialog": {
+      "title": "ドロップシッピング商品を追加する"
+    }
   },
   "my_affiliate": {
     "title": "私のアフィリエイト契約",
@@ -3509,7 +3895,8 @@ export default {
     "coupon": "クーポン",
     "offer": "オファー",
     "gift_card": "ギフトカード",
-    "lottery": "宝くじ"
+    "lottery": "宝くじ",
+    "cashback": "キャッシュバック"
   },
   "discount_codes": {
     "title": "割引コード",
@@ -3552,6 +3939,24 @@ export default {
       "notifications": {
         "add": "割引コードが正常に追加されました。",
         "edit": "割引コードが正常に編集されました。"
+      },
+      "config": {
+        "title": "一般設定",
+        "subtitle": "割引コードの計算式は、max (LIMIT、PERCENT * カート価格) です。コードは関連性があり、覚えやすいものにしてください。"
+      },
+      "limit": {
+        "title": "制限事項",
+        "subtitle": "このセクションでは、各割引コードの最大使用制限と最大割引額を定義できます。"
+      },
+      "duration": {
+        "title": "期間制限",
+        "subtitle": "割引コードを特定の期間有効にしたい場合は、ここでその期間を設定できます。"
+      },
+      "design": {
+        "subtitle": "各割引コードにタイトルと説明を設定できます。これらの詳細はユーザーに表示されます。"
+      },
+      "cluster": {
+        "subtitle": "この割引コードをクラスターに関連付けると、他のリソースと一緒に 1 つの場所で簡単に管理できます。"
       }
     },
     "delete_alert": {
@@ -3654,6 +4059,34 @@ export default {
     "notifications": {
       "add": "新しいクーポンが正常に作成されました。",
       "edit": "クーポンが更新されました。"
+    },
+    "config": {
+      "subtitle": "クーポン割引の計算式は、CHARGE + max (LIMIT, PERCENT * カート価格) です。"
+    },
+    "limit": {
+      "subtitle": "このセクションでは、クーポンごとの最大使用回数と、各クーポンで提供できる最大割引額の両方を設定できます。",
+      "zero_message": "ゼロ：制限はありません！"
+    },
+    "duration": {
+      "subtitle": "クーポンを有効にする特定の期間を設定する場合は、このセクションで期間を設定できます。"
+    },
+    "design": {
+      "subtitle": "各クーポンにはタイトルと説明を追加できます。これらの詳細は顧客に表示されます。"
+    },
+    "constraints": {
+      "subtitle": "ここでは、クーポンの追加のパーソナライズされたパラメータを設定することができます。",
+      "no_limit": "追加の制限なし",
+      "has_limit": "追加の制約",
+      "has_code_message": "クーポンを追加するには、ユーザーがコードを入力する必要があります。"
+    },
+    "club": {
+      "subtitle": "このクーポンの使用は、選択された顧客クラブの会員のみに制限される場合があります。"
+    },
+    "cluster": {
+      "subtitle": "このクーポンをクラスターに関連付けることで、他のリソースと一緒に 1 つの場所で簡単に管理できます。"
+    },
+    "preview": {
+      "subtitle": "クーポンの公開プレビューはこちらです。"
     }
   },
   "offers": {
@@ -3688,7 +4121,10 @@ export default {
     "qualified_products_message": "商品が対象となるには、カート内の商品の合計が最小数量以上である必要があります。",
     "min_items": "アイテムの最小数量",
     "min_items_message": "顧客が購入しなければならないアイテムの数",
-    "discounted_products": "割引商品",
+    "discounted_products": {
+      "title": "割引商品",
+      "subtitle": "このオファーで割引が適用される製品を指定できます。"
+    },
     "offered_products": "提供する製品",
     "offered_products_message": "これらの製品の少なくとも1つはカートに入っている必要があります。",
     "discount_percent": "割引率",
@@ -3710,6 +4146,21 @@ export default {
     "notifications": {
       "add": "新しいオファーが正常に作成されました。",
       "edit": "オファーが正常に更新されました。"
+    },
+    "config": {
+      "subtitle": "タイトル、説明、公開ステータスを確立して、インテリジェントな取引の作成を開始します。"
+    },
+    "limit": {
+      "subtitle": "このセクションでは、このオファーの最大使用制限を設定します。"
+    },
+    "duration": {
+      "subtitle": "オファーに特定の期間を設定する場合は、ここで期間を設定できます。"
+    },
+    "constraints": {
+      "subtitle": "ここでオファーの資格基準と条件を設定します。オファーはこれらの条件を満たすカートアイテムに適用されます。"
+    },
+    "cluster": {
+      "subtitle": "このオファーをクラスターに関連付けることで、他のリソースと一緒に 1 つの場所で簡単に管理できます。"
     }
   },
   "campaign_ads": {
@@ -3807,7 +4258,12 @@ export default {
     },
     "notifications": {
       "delete_success": "賞品が正常に削除されました。"
-    }
+    },
+    "manual_send_token_action": "手動トークン",
+    "config": {
+      "subtitle": "店舗でゲーム体験を提供して、顧客の購入を促進します。購入を通じてトークンを獲得した顧客向けに、賞品や当選確率を設定します。ゲームプレイごとに 10 トークンかかり、初めて購入する顧客には特別な賞品を提供することもできます。デフォルトのゲームは Wheel of Fortune ですが、ショップのレイアウトに合わせてカスタマイズできます。"
+    },
+    "empty_prize_list": "ここで賞品を作成および管理します..."
   },
   "lottery_edit": {
     "title_edit": "宝くじの編集",
@@ -3828,7 +4284,10 @@ export default {
     "chance_message": "勝率（パーセント）",
     "free_for_first": "新規のお客様は無料ですか？",
     "free_for_first_message": "新規のお客様はこのアイテムを獲得できます。",
-    "prize": "賞",
+    "prize": {
+      "title": "賞",
+      "subtitle": "ここで賞品の詳細を設定します。オプションには、割引コード、ギフト カード、クレジット、宝くじの報酬としてのその他の割引が含まれます。"
+    },
     "amount": "賞金額",
     "amount_hint": "ユーザーは注文に対してこの料金を獲得します。",
     "currency_message": "このアイテムの通貨。その他の通貨は為替レートで換算されます。",
@@ -3841,6 +4300,20 @@ export default {
     "notifications": {
       "add": "新しい宝くじアイテムが正常に作成されました。",
       "edit": "宝くじのアイテムが正常に変更されました。"
+    },
+    "not_free_for_first_message": "この賞品は初回無料プレイではご利用いただけません。",
+    "config": {
+      "subtitle": "ここでは、ショップの抽選賞品を作成できます。各賞品のタイトル、説明、色、画像を設定します。"
+    },
+    "design": {
+      "subtitle": "ここで、賞品の画像と色を選択するオプションがあります。"
+    },
+    "constraints": {
+      "subtitle": "この賞品を獲得するための基準と制限を指定します。"
+    },
+    "product_input": {
+      "label": "製品賞",
+      "message": "賞品対象商品を選択してください（無料）"
     }
   },
   "gift_card_types_list": {
@@ -4302,7 +4775,9 @@ export default {
     },
     "dialog_club": {
       "title": "カスタマークラブレベルを設定する"
-    }
+    },
+    "subtitle": "顧客は、手動、一括 Excel インポート、POS、オンライン ストアなど、いくつかの方法でストアに追加できます。ユーザーがストアにログインするたびに、自動的に顧客として登録されます。",
+    "add_customer_action": "新規顧客を追加"
   },
   "app_dashboard": {
     "status": "公開ステータス",
@@ -4405,7 +4880,11 @@ export default {
     "option_deliver_by_courier": "オプション1：宅配便で配達します。",
     "option_add_to_que": "オプション2：配送サービスページで処理するキューに追加します。",
     "option_instant_shipping": "オプション3：即納。",
-    "pickup_action": "集荷確認"
+    "pickup_action": "集荷確認",
+    "courier_action": "配達確認",
+    "courier_action_subtitle": "宅配業者が荷物を引き取りに来ます。",
+    "pickup_action_subtitle": "顧客が注文品を受け取りました。",
+    "service_action": "実行確認"
   },
   "shop_home_edit": {
     "title": "ホームページの設定",
@@ -4431,7 +4910,8 @@ export default {
     "officer": "役員",
     "amount": "金額取引",
     "note": "ノート",
-    "date": "日にち"
+    "date": "日にち",
+    "subtitle": "出金取引のリストです。紹介ウォレットから銀行口座またはSelldoneウォレットに資金を送金すると、ここにリストされます。"
   },
   "widget_shop_gateway": {
     "link_account_caution": "アカウント（{currency}）をショップにリンクしてください！ここをクリック.."
@@ -4720,11 +5200,89 @@ export default {
   "shop_sms": {
     "title": "SMSを管理する",
     "sub_title": "顧客に送信されるSMSテンプレート",
-    "message": "あなたはここであなたの店によって送られたテキストメッセージの内容を見ることができます。メッセージングサービスへの検証パターンの登録には制限があるため、現時点ではテキストメッセージをパーソナライズすることはできません。"
+    "message": "あなたはここであなたの店によって送られたテキストメッセージの内容を見ることができます。メッセージングサービスへの検証パターンの登録には制限があるため、現時点ではテキストメッセージをパーソナライズすることはできません。",
+    "tabs": {
+      "templates": "テンプレート",
+      "provider": "プロバイダー"
+    },
+    "manage": {
+      "title": "SMSを管理する",
+      "subtitle": "あなたはここであなたの店によって送られたテキストメッセージの内容を見ることができます。メッセージングサービスへの検証パターンの登録には制限があるため、現時点ではテキストメッセージをパーソナライズすることはできません。"
+    },
+    "template": {
+      "title": "テンプレート",
+      "valid_message": "カスタム SMS メッセージを作成できます。",
+      "provider_not_enable_message": "SMS プロバイダーが有効になっていません。",
+      "need_custom_provider_message": "カスタマイズされた SMS メッセージは、カスタム プロバイダーを設定した場合にのみ機能します。",
+      "add_new": "新規追加",
+      "disable_reason": {
+        "set_provider": "まずはプロバイダーを設定しましょう!",
+        "provider_is_disabled": "プロバイダーが無効です。",
+        "otp": "OTP - カスタマイズ不可!",
+        "select_another_provider": "別のプロバイダーを選択してください。"
+      },
+      "enable_only_filter": "有効なもののみ表示",
+      "text_template_not_supported_msg": "プロバイダーはプレーンテキスト メッセージをサポートしていません。",
+      "structure_template_not_supported_msg": "プロバイダーは構造化メッセージをサポートしていません。",
+      "structured_data": "構造化データ",
+      "menu": {
+        "reset_error": "エラーをリセットする",
+        "send_test": "テストメッセージを送信"
+      }
+    },
+    "template_edit": {
+      "title_add": "新しいメッセージテンプレートを追加",
+      "title_edit": "メッセージテンプレートを編集",
+      "config": {
+        "title": "メッセージ設定",
+        "subtitle": "SMS プロバイダーの Web サイトで SMS メッセージのテンプレートを作成し、ここでコードとデータ構造を指定できます。この情報はプロバイダーに転送され、実際の SMS メッセージが生成されます。",
+        "code": "コード",
+        "language_msg": "デフォルトとして設定するには、空白のままにしておきます。",
+        "enable_msg": "このテンプレートはメッセージを作成するために使用されます。"
+      },
+      "text": {
+        "title": "プレーンテキスト",
+        "subtitle": "ここにパーソナライズされた SMS メッセージを入力します。動的な値は、ユーザーに送信される前に実際の値に置き換えられます。",
+        "message": "メッセージ",
+        "reset_to_default": "デフォルトにリセット",
+        "auto_fill": {
+          "title": "自動入力パラメータ",
+          "subtitle": "これらの各パラメータをテキスト内で使用すると、Selldone によって対応する値に置き換えられます。"
+        },
+        "sample": {
+          "title": "サンプルメッセージ"
+        }
+      },
+      "template": {
+        "title": "構造テンプレート",
+        "subtitle": "ここでテンプレートのキーと値を設定できます。テンプレート コードは SMS サービス プロバイダーで設定したものとまったく同じである必要があります。 <code>key</code>はプロバイダーがコードを送信するときに使用するものです。テンプレートの<code>value</code>フィールドが空の場合、 <code>{code}</code>テンプレート コードと見なされます。",
+        "add_new_parameter": "新しいパラメータを追加",
+        "auto_fill": {
+          "title": "自動入力パラメータ",
+          "subtitle": "これらの各パラメータを値として設定すると、Selldone が対応する値に置き換えます。簡単にするために、SMS プロバイダーでデフォルト値をテンプレートとして定義することをお勧めします。この場合、ここでパラメータ値を定義する必要はありません。"
+        },
+        "request": {
+          "title": "サンプルペイロード"
+        },
+        "sample": {
+          "title": "サンプルテンプレートメッセージ",
+          "subtitle": "このテンプレートをコピーして SMS プロバイダーに貼り付けることができます。"
+        },
+        "add_message_action": "メッセージテンプレートを追加"
+      }
+    }
   },
   "shop_emails": {
     "title": "メールを管理する",
-    "sub_title": "このセクションには、ストアから顧客とマネージャーに送信された電子メールのリストが表示されます。メールは、ストアに入力した情報に基づいて自動的に設計および作成されます。また、メッセージや画像をパーソナライズする可能性は、将来的に一般に公開される予定です。"
+    "sub_title": "このセクションには、ストアから顧客とマネージャーに送信された電子メールのリストが表示されます。メールは、ストアに入力した情報に基づいて自動的に設計および作成されます。また、メッセージや画像をパーソナライズする可能性は、将来的に一般に公開される予定です。",
+    "tabs": {
+      "preferences": "環境設定",
+      "templates": "テンプレート",
+      "provider": "プロバイダー"
+    },
+    "preferences": {
+      "title": "通知メール"
+    }
   },
   "instagram": {
     "title": "Instagramでの販売",
@@ -4914,7 +5472,13 @@ export default {
     },
     "notifications": {
       "delete_success": "ファイルが正常に削除されました。"
-    }
+    },
+    "drag_sort_msg": "ファイルをドラッグして並べ替えることができます。",
+    "paid_mode_msg": "ユーザーは製品を購入した後にのみダウンロードできます。",
+    "free_mode_msg": "ユーザーは無料でダウンロードできます。サンプル ファイルは 50 MB 未満である必要があります。",
+    "has_gust_shopping_msg": "ショップの設定 > フローでゲスト購入が有効になっているため、登録ユーザーとゲストユーザーはファイルをダウンロードできます。",
+    "only_registered_shopping_msg": "サンプルファイルをダウンロードできるのは登録ユーザーのみです。",
+    "file_count_limit": "ファイル数の制限"
   },
   "notification_top_bar": {
     "free_charge": "🎊{amount}を請求し、{amount_total}クレジットを取得します。",
@@ -4926,7 +5490,20 @@ export default {
   },
   "selldone_applications": {
     "title": "ご注文をお見逃しなく！",
-    "msg": "いつでもどこでもあなたのビジネスを管理します。"
+    "msg": "いつでもどこでもあなたのビジネスを管理します。",
+    "scan_qr_code": "携帯電話で私をスキャンしてください!",
+    "notification": {
+      "title": "通知",
+      "subtitle": "新しい注文の通知を受け取ります。"
+    },
+    "order": {
+      "title": "注文",
+      "subtitle": "注文を確認し、管理します。"
+    },
+    "product": {
+      "title": "製品",
+      "subtitle": "在庫管理と商品プレーン。"
+    }
   },
   "shop_seo": {
     "title": "SEO構成",
@@ -4995,7 +5572,16 @@ export default {
   },
   "shops_list": {
     "title": "私の店",
-    "message": "自分のショップ、許可されたショップ、サンプルショップのリスト。"
+    "message": "自分のショップ、許可されたショップ、サンプルショップのリスト。",
+    "sample": {
+      "title": "サンプルストア",
+      "subtitle": "ここでは、サンプル ストアのセレクションをご覧いただけます。これらのストアで利用可能な情報を閲覧する権限が与えられます。ただし、実際の個人情報を使用してログインしたり注文したりすることはお控えください。このデータは一般に公開されます。誤ってここに情報を入力した場合は、ストアを終了して、さらにサポートを受けるために当社にご連絡ください。"
+    },
+    "add_new_store": "新しいストアを追加",
+    "i_have_a_deal": "取引がある",
+    "access": {
+      "title": "アクセス招待"
+    }
   },
   "shipping": {
     "warehouse_error": "最初に倉庫を設定してください！この住所が配送元として使用されます。",
@@ -5025,7 +5611,8 @@ export default {
       "delete_action": "カテゴリを削除",
       "add_action": "カテゴリを追加",
       "edit_action": "カテゴリを編集"
-    }
+    },
+    "subtitle": "ブログ投稿をより効率的に管理するために、ブログ投稿のカテゴリを限定して作成することができます。カテゴリ制限を設けることで、Web サイトの整理がしやすくなります。特に、トップクラスのニュース エージェンシーでも、管理を効率化し、より広い焦点を維持するために、カテゴリの数を限定し、多くの場合 100 未満に抑えています。"
   },
   "about_us": {
     "title": "私たちについてのページ",
@@ -5063,7 +5650,8 @@ export default {
       "title": "パッケージラベル",
       "subtitle": "選択した期間とステータスのすべての注文ラベルのリストをダウンロードします。結果には、有料注文と代金引換注文のみが含まれます。",
       "export_title": "ボックスラベル"
-    }
+    },
+    "subtitle": "一括注文処理用にラベルをエクスポートおよびダウンロードします。毎日 100 件を超える注文を処理する場合に最適です。"
   },
   "customers_funnel": {
     "title": "顧客の人口統計",
@@ -5782,6 +6370,1759 @@ export default {
         "運命の輪が回っています – 幸運な賞品を手に入れましょう!",
         "回して、勝ち、そして笑顔 – ターンするたびに驚きの報酬が得られます。",
         "スピンして、賞品を運勢に任せましょう!"
+      ]
+    },
+    "subscription_price": {
+      "title": [
+        "基本アクセス",
+        "プレミアム会員",
+        "ゴールドパッケージ",
+        "シルバープラン",
+        "プラチナサブスクリプション",
+        "エンタープライズ層",
+        "スターターバンドル",
+        "無制限オファー",
+        "ファミリーパック",
+        "プロフェッショナル スイート"
+      ],
+      "description": [
+        "基礎を探求する個人に最適です。",
+        "すべてのプレミアム機能とコンテンツにアクセスできます。",
+        "特別な特典と優先サポート。",
+        "通常のユーザー向けのバランスの取れたパッケージ。",
+        "最高レベルの特典を備えた究極のアクセス。",
+        "大規模組織向けのカスタム ソリューション。",
+        "手頃な価格のエントリーレベルのオプション。",
+        "パワーユーザー向けに、使用制限はありません。",
+        "最大4名様までのご家族向け特別プランです。",
+        "高度なツールを求めるプロフェッショナル向けに設計されています。"
+      ]
+    },
+    "spec": {
+      "group": [
+        "技術仕様",
+        "物理的寸法",
+        "パフォーマンス機能",
+        "接続オプション",
+        "電力要件",
+        "素材と品質",
+        "色と仕上げのオプション",
+        "ストレージとメモリ",
+        "オペレーティングシステムの互換性",
+        "安全性とコンプライアンス",
+        "パッケージ内容",
+        "保証とサポート",
+        "ブランドとメーカー",
+        "環境への配慮",
+        "エネルギー効率",
+        "お手入れとメンテナンス",
+        "カスタマイズオプション",
+        "付属アクセサリ",
+        "ユーザーの評価とレビュー",
+        "価格と販売状況"
+      ]
+    },
+    "avocado": {
+      "title": [
+        "購入領収書",
+        "販売確認",
+        "注文請求書",
+        "支払い請求書",
+        "顧客領収書",
+        "取引概要",
+        "請求書",
+        "チェックアウト領収書",
+        "注文の概要",
+        "発注書請求書",
+        "売上領収書",
+        "小売請求書",
+        "電子レシート",
+        "サービス請求書",
+        "製品請求書",
+        "支払い領収書",
+        "注文確認",
+        "請求書",
+        "チェックアウト請求書",
+        "顧客請求書"
+      ],
+      "message": [
+        "ご購入ありがとうございます！",
+        "ご利用いただきありがとうございます。",
+        "ご注文の商品は発送中です!",
+        "当店をご利用いただきありがとうございます。",
+        "再度ご利用いただけることを楽しみにしております。",
+        "お客様の満足が私たちの最優先事項です。",
+        "あなたの体験を評価することを忘れないでください。",
+        "当店をご愛顧いただきありがとうございます。",
+        "新しいご購入品をお楽しみいただければ幸いです。",
+        "将来の参照用に請求書を保存してください。",
+        "素晴らしい製品をもっとご覧になりたい方は、ぜひまたお越しください。",
+        "特別オファーを受け取るには、接続を維持してください。",
+        "大切なお客様になっていただきありがとうございます。",
+        "サポートが必要な場合は、お気軽にお問い合わせください。",
+        "あなたのフィードバックは私たちの改善に役立ちます。",
+        "次回のご購入時に特別割引をお楽しみください。",
+        "素晴らしい選択をしましたね！",
+        "弊社を信頼していただきありがとうございます。",
+        "ご意見をお待ちしております。",
+        "私たちのチームから心からの感謝を申し上げます。"
+      ]
+    },
+    "map_tag": {
+      "title": [
+        "物件紹介",
+        "ベンダープラザ",
+        "注目の住宅",
+        "ローカルマーケット",
+        "新着",
+        "エステートガーデン",
+        "ショッピング街",
+        "アーティザン・アレー",
+        "高級不動産",
+        "レンタルハブ",
+        "オープンハウス",
+        "技術革新",
+        "ファッションレーン",
+        "クラフトコーナー",
+        "フードコート",
+        "ブックヌーク",
+        "ジュエリージャンクション",
+        "アンティークアベニュー",
+        "フィットネスゾーン"
+      ]
+    },
+    "marketplace_document": {
+      "title": [
+        "事業登録証明書",
+        "納税者番号 (TIN)",
+        "ベンダー契約書",
+        "製品カタログ",
+        "価格表",
+        "銀行口座の詳細",
+        "住所証明",
+        "保険証書",
+        "会社概要",
+        "品質保証証明書",
+        "安全データシート (SDS)",
+        "製品保証情報",
+        "返品規則",
+        "配送および取り扱い手順",
+        "カスタマーサービスポリシー",
+        "マーケティングおよびプロモーション計画",
+        "ソーシャルメディアリンク",
+        "取引参照",
+        "サプライヤー行動規範",
+        "秘密保持契約（NDA）"
+      ]
+    },
+    "expert_contract": {
+      "title": [
+        "マーケットプレイス設定サービス契約",
+        "ショップ構成契約",
+        "オンデマンド印刷サービス契約",
+        "デジタルマーケティングサービス契約",
+        "電子商取引プラットフォーム設定契約",
+        "事業主向け専門コンサルタント契約",
+        "マーケットプレイス構成に関するサービス契約",
+        "ショップのセットアップおよび構成サービス契約",
+        "PODサービス提供契約",
+        "マーケティング戦略実施契約",
+        "ビジネス開発サービス契約",
+        "電子商取引ストア設定契約",
+        "専門家サービス提供契約",
+        "ビジネスソリューションとセットアップ契約",
+        "カスタムショップセットアップサービス契約",
+        "マーケットプレイス最適化サービス契約",
+        "コンサルティングおよびセットアップサービス契約",
+        "POD統合サービス契約",
+        "マーケティングおよびプロモーションサービス契約",
+        "事業拡大サービス契約"
+      ]
+    },
+    "account": {
+      "account_name": [
+        "メインウォレット",
+        "ビジネスアカウント",
+        "個人用ウォレット",
+        "貯金ウォレット",
+        "経費勘定",
+        "プライマリウォレット",
+        "一般会計",
+        "リザーブウォレット",
+        "トランザクションウォレット",
+        "ファンド口座"
+      ]
+    },
+    "cashback": {
+      "title": [
+        "買い物してキャッシュバックを獲得",
+        "ロイヤルティリワードキャッシュバック",
+        "限定キャッシュバックオファー",
+        "キャッシュバック大当たり",
+        "即時キャッシュバック特典",
+        "季節限定キャッシュバックセール",
+        "ダブルキャッシュバックデー",
+        "購入ごとにキャッシュバック",
+        "キャッシュバック狂乱",
+        "VIPキャッシュバックプログラム",
+        "期間限定キャッシュバック",
+        "キャッシュバックリワードクラブ",
+        "より多く購入して、より多く節約",
+        "究極のキャッシュバック報酬",
+        "キャッシュバック大セール"
+      ],
+      "description": [
+        "ご購入ごとにキャッシュバックを獲得しましょう！",
+        "あなたの忠誠心に対して報酬を得ましょう。",
+        "あなただけのための特別なキャッシュバックオファー。",
+        "キャッシュバック特典で大幅な節約をお楽しみください。",
+        "お気に入りのアイテムすべてに即時キャッシュバック。",
+        "季節ごとのキャッシュバック特典でさらに節約しましょう。",
+        "特別な日にキャッシュバックが2倍になります！",
+        "買い物をするたびにキャッシュバックを獲得できます。",
+        "今すぐキャッシュバック熱狂に参加しましょう!",
+        "VIP会員は限定キャッシュバックをお楽しみいただけます。",
+        "お急ぎください！期間限定のキャッシュバックオファー。",
+        "今すぐキャッシュバック リワード クラブにご参加ください。",
+        "買い物をすればするほど、節約できます。",
+        "究極のキャッシュバック特典を獲得しましょう。",
+        "最高のキャッシュバック特典を体験してください。"
+      ]
+    },
+    "page": {
+      "prompts": [
+        "{shop}へようこそ - 当店のユニークな商品ラインナップをご覧ください",
+        "{shop} - 高品質の商品と優れたサービスを提供する究極のソース",
+        "{shop} だけの特別セールと割引 - この機会をお見逃しなく!",
+        "{shop} の環境への配慮と倫理的な取り組みについて知る",
+        "{shop}ファミリーの一員になりましょう - 最新情報を受け取るにはニュースレターを購読してください",
+        "{shop} で人気の商品や高評価の商品をチェックしましょう",
+        "{shop} のあらゆるイベントのアイデアとクリエイティブな提案をご紹介します",
+        "{shop} では他に類を見ないオファーと期間限定の特別セールをご用意しています - お早めにお買い求めください!",
+        "{shop} の包括的な購入のヒントと製品評価 - 安心してお買い物",
+        "{shop} にご連絡ください - 私たちは比類のないショッピング体験を提供することを目指しています"
+      ]
+    },
+    "cross_selling": {
+      "message": [
+        "あなたのルックを完成させるために、セットを手に入れましょう!",
+        "バンドル セールで大幅に節約しましょう!",
+        "完璧な組み合わせをお見逃しなく!",
+        "購入を強化すると、アドオンが待っています!",
+        "特別割引をゲットして、一緒に購入しましょう!",
+        "補完アイテム、特別割引！",
+        "より多く手に入れ、より少なく支出 – まとめ買いしましょう!",
+        "期間限定オファー：マッチした商品！",
+        "コンボ ディールで体験をアップグレードしましょう!",
+        "厳選されたコンボを見つけて、今すぐ節約しましょう!",
+        "究極のコンボのために組み合わせてください!",
+        "賢く買い物して、まとめ買いして節約しましょう!",
+        "価値が2倍、楽しさも2倍！",
+        "あなたにぴったりの商品がここにあります – 今すぐご購入ください!",
+        "あなただけのための特別バンドル価格!",
+        "コンボで節約を最大限にしましょう!",
+        "これらのピックでコレクションを充実させましょう!",
+        "あなたのために厳選：マッチして節約！",
+        "完璧な一日のための完璧なペア！",
+        "お気に入りをまとめ買いするとさらにお得になります!"
+      ]
+    }
+  },
+  "ai": {
+    "remove_bg": {
+      "title": "背景を削除",
+      "subtitle": "透明な背景を作成します。"
+    },
+    "reimagine": {
+      "title": "再考する",
+      "subtitle": "新しい背景でさらに多くの画像を作成します。"
+    }
+  },
+  "extra_pricing_add_dialog": {
+    "title": "{min} を超える場合は追加料金がかかります",
+    "subtitle": "価格計算の順序と優先順位はシステムによって自動的に決定されます。この価格設定を有効にするために必要な最小数量を入力してください。",
+    "min_quantity": "最小数量"
+  },
+  "product_inventory_management_physical": {
+    "subtitle": {
+      "dropshipping": "ドロップシッピング製品の在庫は卸売業者によって設定され、ここでは変更できません。",
+      "marketplace": "マーケットプレイス全体の製品在庫は、すべてのベンダーの在庫を合計して決定されます。ここでは変更できません。",
+      "default": "ここで商品の在庫数を指定します。"
+    }
+  },
+  "google_product_category_input": {
+    "label": "Google 製品カテゴリ コード",
+    "hint": "Google の商品分類に従って商品のカテゴリを表します。",
+    "placeholder": "製品またはサービスのカテゴリを入力します。（オプション）"
+  },
+  "LogisticProfileType": {
+    "WARRANTY": {
+      "title": "保証",
+      "desc": "保証は、製造業者が指定された期間内に製品を修理または交換することを約束する契約の一部です。この約束は、製造業者と直接契約を結んでいない消費者にも適用されます。"
+    },
+    "RETURN_POLICY": {
+      "title": "返品規則",
+      "desc": "返品ポリシーでは、顧客が不要な商品を返品または交換する方法を概説しています。返品対象商品、返品の許容理由、返品期限が指定されています。"
+    },
+    "GUIDE": {
+      "title": "ガイド",
+      "desc": "ガイドには、アパレルのサイズ表やダイヤモンドの選択ガイドなどが含まれます。ガイドは多用途で、複数の製品に適用できることが重要です。"
+    },
+    "SHIPPING": {
+      "title": "運送",
+      "desc": "配送ポリシーには、配送料、配送方法、配送予定時間など、オンライン注文の配送に関する重要な側面が詳細に記載されています。"
+    }
+  },
+  "product_logistic_profile": {
+    "dialog": {
+      "title": "物流プロファイルを選択",
+      "add_new_action": "新しいプロフィールを追加",
+      "add_new_disable_msg": "マーケットプレイスオーナー"
+    }
+  },
+  "product_tax_profile": {
+    "description": {
+      "default": "デフォルト",
+      "dedicated": "ひたむきな",
+      "subscription": "税金は支払い作成ステップでのみ適用できます。",
+      "is_disabled": "この税金プロファイルは無効です! (⚠️警告)",
+      "shipping": "運送",
+      "fixed_rate": "TAX",
+      "location_based_rate": "税金: 場所に基づく",
+      "shipping_location_based_rate": "配送: 場所に基づく",
+      "include_in_price": "価格に含まれています"
+    },
+    "dialog": {
+      "header": "税務プロファイルを選択",
+      "title": "税務プロファイル",
+      "subtitle": "製品に特定の税規制を割り当てることができます。製品に税プロファイルが選択されていない場合は、デフォルトのストア税規制が適用されます。",
+      "action_manage": "税金の管理",
+      "action_manage_sub": "ショップ > 財務 > 税金",
+      "subscription_tips": "サブスクリプション製品の税金プロファイルを選択すると、 <code>tax code</code>が更新され、支払いサービス プロバイダーで税込/税抜モードが設定されます。選択した税金プロファイルは、価格が税込みか税抜きかを指定します。 <code>inclusive</code>または税<code>exclusive</code>のいずれかです。税込または税抜きとして指定した後は、変更できません。<br /><br /><b>重要!</b>税金プロファイルを変更した後は、[製品] > [在庫] タブで価格プランをクリックし、[保存] ボタンをクリックして変更を適用する必要があります。"
+    }
+  },
+  "product_vendor_profile": {
+    "vendor": {
+      "subtitle": "この製品の価格と数量は、それが属する特定のベンダーによって設定されます。"
+    },
+    "vendors": {
+      "subtitle": "製品のサプライヤーのリストはこちらです。数量と価格はサプライヤーによって設定されます。"
+    }
+  },
+  "vendor_add": {
+    "profile": {
+      "title": "ベンダー情報",
+      "subtitle": "この情報は顧客に公開されます。",
+      "action_sub_caption": "公開製品一覧ページ。",
+      "action_see_listing_page": "リストページを見る"
+    },
+    "page": {
+      "title": "カスタムページ",
+      "subtitle": "ベンダー用のカスタム ランディング ページを設定し、専用ページへの固有のリンクを提供します。",
+      "action_set_page": "公開ページを見る",
+      "action_sub_caption": "カスタムランディングページ。",
+      "vendor_has_landing_msg": "ベンダーにはカスタムランディングページがあります。",
+      "no_landing_selected_msg": "ランディング ページが選択されていません。",
+      "no_landing_page": "ランディングページなし",
+      "we_can_create_dedicated_landing_msg": "専用のランディングページを作成できます。"
+    },
+    "contact": {
+      "title": "連絡先情報",
+      "subtitle": "有効な連絡先の詳細をご提供ください。"
+    },
+    "business": {
+      "title": "ビジネス情報",
+      "subtitle": "迅速かつ円滑な収益回収プロセスを確実に行うために、事業に関する正確な情報を提供してください。"
+    },
+    "bank": {
+      "title": "支払い情報",
+      "subtitle": "支払いを受けるには、ここに銀行口座の詳細を入力してください。"
+    },
+    "default_pricing": {
+      "title": "デフォルト価格",
+      "subtitle": "ベンダーにデフォルトの価格設定モデルを割り当てることができます。ベンダーが新しい製品を追加すると、この価格設定モデルを使用して、製品の価格に対するマーケットプレイス マージンが計算されます。後で、各製品の価格設定モデルを個別に調整できます。",
+      "no_pricing": "価格設定なし"
+    },
+    "shipping": {
+      "title": "運送",
+      "subtitle": "ベンダーは独自の配送サービスと宅配業者を設定できます。",
+      "shipping_services": "配送サービス",
+      "total_number_of_services": "ベンダーが持つ配送サービスの合計数。",
+      "couriers": "宅配便",
+      "total_couriers_count": "ベンダーが保有する宅配業者の総数。"
+    },
+    "configuration": {
+      "title": "構成"
+    },
+    "delete": {
+      "title": "ベンダーを削除",
+      "action": "ベンダーを削除",
+      "verify_description": "すべてのベンダー製品関係が削除されることは承知しています。",
+      "verify_title": "このベンダーを削除したいです。"
+    },
+    "send_invitation_tips": "このユーザーに招待メールを送信します。ユーザーがベンダーとしてショップに参加すると、アカウントが自動的に割り当てられます。",
+    "only_marketplace_owner_can_edit_user": "ユーザーを編集できるのはマーケットプレイスの所有者のみです。このベンダーの所有者を変更する場合は、リクエストを当社に送信してください。",
+    "vendor_is_disable_msg": "ベンダーが無効になっています。",
+    "email_not_match_with_user_msg": "入力したメールはユーザーのメール（ <b>{user_name}：</b> {user_email}）と一致しません。 <b>{email}</b>にメールを送信してもよろしいですか？",
+    "we_will_send_invitation_to_user_msg": "ユーザーに招待メールをお送りします。",
+    "set_a_user_for_the_vendor_first_msg": "まずベンダーのユーザーを設定します。",
+    "inputs": {
+      "slug": {
+        "label": "パス",
+        "placeholder": "カスタム パスを入力してください...",
+        "hint": "ベンダーの動的ランディング ページのパスを変更します。"
+      },
+      "email": {
+        "message": "このメールにはすべての通知と更新が届きます。"
+      },
+      "business": {
+        "false_description": "私は個人として働いています。",
+        "true_description": "私は法的に認められた事業体として運営しています。",
+        "false_title": "個人",
+        "true_title": "仕事"
+      },
+      "bank": {
+        "hint": "ベンダーが口座を持っている銀行の名前。",
+        "placeholder": "あなたの銀行名。"
+      },
+      "account_name": {
+        "hint": "これは銀行口座に関連付けられた名前と一致する必要があります。",
+        "placeholder": "あなたの名前.."
+      },
+      "account_number": {
+        "hint": "ベンダーの一意のアカウント番号。",
+        "placeholder": "あなたの銀行口座番号。"
+      },
+      "routing_number": {
+        "hint": "この番号は国によって異なります。ベンダーが使用する特定の銀行支店を識別するために使用されます。",
+        "placeholder": "銀行のルーティング番号、ソートコード、または BSB 番号。"
+      },
+      "iban": {
+        "hint": "国際銀行口座番号: ベンダーの銀行がヨーロッパまたはその他の特定の国にある場合。",
+        "placeholder": "IBAN番号。例：DE89 3704 0044 0000 0000 00"
+      },
+      "swift": {
+        "hint": "国際銀行口座番号: ベンダーの銀行がヨーロッパまたはその他の特定の国にある場合。",
+        "placeholder": "あなたのSwiftコード/BIC。"
+      },
+      "branch_address": {
+        "hint": "ベンダーが口座を持っている銀行支店の住所。",
+        "placeholder": "あなたの銀行住所。"
+      },
+      "enable": {
+        "label": "ベンダーステータス",
+        "hint": "ベンダーをグローバルに有効または無効にすることができます。顧客は無効なベンダーからは何も購入できなくなります。",
+        "true_description": "彼らはあなたのマーケットプレイスを通じて製品を販売できるようになります。"
+      },
+      "access": {
+        "label": "ベンダーパネルとアクセス",
+        "true_description": "ベンダーには数量と価格を更新するための専用パネルがあります。",
+        "hint": "ベンダー パネルを有効または無効にすることができます。これにより、ベンダーは製品の数量と価格を更新し、部分注文を受け取ることができます。",
+        "false_description": "ベンダーは何にもアクセスできません。"
+      }
+    }
+  },
+  "vendor_documents_list": {
+    "title": "ドキュメント",
+    "action_upload_doc": "ドキュメントをアップロード",
+    "vendor_subtitle": "必要な事業、IP、住所の確認書類をアップロードしてください。パートナーシップを確認し、必要なアクセスを提供するためにこの情報が必要です。",
+    "marketplace_subtitle": "ベンダーは、ビジネス、知的財産、住所確認などの文書を提出して KYC プロセスを容易にし、適切なアクセス権を付与することができます。",
+    "upload_dialog": {
+      "title": "ドキュメントをアップロード",
+      "type": {
+        "title": "文書タイプ",
+        "subtitle": "必要な書類のみアップロードしてください。機密情報を含む書類は共有しないでください。公開されている書類を要求します。"
+      }
+    }
+  },
+  "product_badges": {
+    "title": "バッジ",
+    "subtitle": "カスタム製品バッジを追加および編集します。",
+    "only_marketplace_owner_msg": "マーケットプレイスオーナーのみ",
+    "create_new_badge_action": "新しいバッジを作成",
+    "select_a_badge": "バッジを選択してください...",
+    "inputs": {
+      "custom": {
+        "false_description": "製品バッジは自動的に作成されます。",
+        "false_title": "自動",
+        "true_title": "カスタム製品バッジ",
+        "true_description": "製品ページにカスタムバッジを追加します。"
+      }
+    },
+    "add_custom_badge": {
+      "title": "カスタムバッジ",
+      "subtitle": "新しいカスタム バッジをショップに追加します。バッジの数は 10 個以下にしてください。バッジの数が増えるとショップの速度が低下します。",
+      "show_advanced_options": "詳細オプションを表示",
+      "inputs": {
+        "title": {
+          "placeholder": "公開タイトル..."
+        },
+        "image": {
+          "label": "画像",
+          "message": "最大画像サイズ: 128KB",
+          "placeholder": "カバー画像を選択"
+        },
+        "pattern": {
+          "label": "パターン",
+          "message": "仕様にこの一致する値を持つ製品に対して、このバッジを自動的に表示します。正規表現がサポートされています。",
+          "placeholder": "すべての製品を表示するには、次のように記述します: *.*"
+        }
+      },
+      "notifications": {
+        "badge_added": "バッジが正常に追加されました。",
+        "badge_updated": "バッジが正常に更新されました。",
+        "item_not_found_error": "アイテムが見つかりませんでした。ページを更新するか、サポートにお問い合わせください。"
+      }
+    }
+  },
+  "product_tags": {
+    "title": "タグ",
+    "tips": [
+      "<b>ランディング ページ</b>のタグに基づいて製品をフィルターできます。",
+      "あなたとあなたの顧客は、<b>検索</b>バーでこれらのタグを検索できます。",
+      "タグを設定すると、商品ページの<b>関連商品セクション</b>に<b>共通タグが</b>付いた商品のみが表示されます。タグを設定しない場合は、同じカテゴリの商品が表示されます。"
+    ],
+    "inputs": {
+      "tags": {
+        "placeholder": "ここにタグを配線して Enter キーを押します。例: 新しいコレクション"
+      }
+    },
+    "notifications": {
+      "tags_updated": "タグは正常に更新されました。"
+    }
+  },
+  "vendor_shipping_services": {
+    "title": "運送",
+    "subtitle": "ここで配送サービスと宅配業者を追加できます。配送サービスと宅配業者は、マーケットプレイスで定義された事前定義された輸送方法の下にある必要があります。配送サービスと宅配業者を追加すると、注文を簡単に割り当て、ラベルや宅配業者を自動的に注文できます。",
+    "action": "サービスを追加",
+    "add_dialog": {
+      "select_method": "方法の選択",
+      "select_method_msg": "以下のリストから輸送方法を選択してください。配送方法はマーケットプレイスによって定義されます。",
+      "select_service_msg": "以下のリストから配送サービスを選択してください。ここには、ストアに追加できる利用可能なサービスのみが表示されます。",
+      "no_available_service": "利用可能なサービスがありません!"
+    }
+  },
+  "product_location_profile": {
+    "title": "位置",
+    "empty_subtitle": "場所ベースのアイテムの場合は、製品に場所を割り当てます。",
+    "dialog": {
+      "header": "ロケーションプロファイルを選択",
+      "action_new_location": "新しい場所を追加",
+      "title": "ロケーションプロファイル",
+      "subtitle": "製品に位置タグを割り当てることで、地図上の場所に製品をピン留めすることができます。",
+      "tips": "<b>重要:</b>商品を地図上の特定の場所に表示する場合に<b>のみ</b>、商品に場所を割り当てます。ピン留めされた商品には、<b>レンタル住宅/場所</b>や、<b>ヘアサロンやスパ</b>などの対面サービスなど、主な仕様として場所を指定する必要があります。"
+    }
+  },
+  "translation_button": {
+    "header": "多言語",
+    "auto_action": "自動翻訳",
+    "premium_user_only": "プレミアムユーザー"
+  },
+  "product_include_profile": {
+    "subtitle": "製品またはサービス パッケージに付属するアイテムのリストを含めます。",
+    "dialog": {
+      "header": "製品パッケージ項目",
+      "title": "含まれるもの",
+      "subtitle": "製品に付属するアイテムをまとめたものです。",
+      "action_manage": "アイテムを管理する",
+      "action_disable_msg": "マーケットプレイスオーナー",
+      "select_items_tips": "製品またはサービスに付属するパッケージ コンポーネントを作成または選択します。この機能を使用して、顧客がアイテムを購入したときに何を受け取ることができるかを強調します。スマートフォンを購入する場合など、顧客が同梱されている内容を理解する必要がある場合にのみ、この機能を使用することをお勧めします。",
+      "create_item_tips": "あるいは、新しいアイテムを追加することもできます。アップロードされた画像は自動的に 256 x 256 の正方形形式にサイズ変更されるため、正方形の画像を使用してください。すべてのテンプレートで最適な外観を確保するには、透明な背景のミニマルな画像を使用し、すべての製品で一貫したパターンを維持します。",
+      "create_new_item_action": "新しい含まれるアイテムを作成する"
+    }
+  },
+  "transportation_eligible": {
+    "subtitle": "利用可能な配送サービスは、指定されたサイズと重量によって異なります。"
+  },
+  "bulk_price_dialog": {
+    "title": "一括アクション>価格",
+    "message": "以下の金額は、ストア内のすべての製品の価格にパーセンテージとして適用されます。また、計算された価格の値は、選択した通貨に基づいて最も近い端数にインテリジェントに変換されます。値を入力する際には注意してください。",
+    "check": "価格変更を承認します。",
+    "check_description": "選択したカテゴリとすべてのサブカテゴリの価格が変更されます。",
+    "add_percent_tab": "パーセントを追加",
+    "add_constant_tab": "定数を追加",
+    "ending_tab": "エンディング戦略",
+    "marketplace_listing_price": "掲載価格",
+    "constant": {
+      "subtitle": "金額は商品の現在の価格に加算または減算されます。"
+    },
+    "ending": {
+      "subtitle": "商品の現在の価格の末尾が指定された値に変更されます。"
+    },
+    "marketplace": {
+      "title": "マーケットプレイス掲載価格",
+      "subtitle": "このオプションを使用すると、マーケットプレイス内の製品のリスト価格を自動的に更新できます。手動による価格変更により、メインの製品価格がベンダーの価格と一致しない場合があります。",
+      "strategy": {
+        "min": {
+          "title": "最低価格を設定する",
+          "description": "商品の最低価格を出品価格として設定します。"
+        },
+        "max": {
+          "title": "最高価格を設定する",
+          "description": "商品の最大価格を出品価格として設定します。"
+        }
+      }
+    },
+    "category": {
+      "subtitle": "一括操作をカテゴリとすべてのサブカテゴリに制限します。"
+    },
+    "vendor": {
+      "subtitle": "一括アクションを特定のベンダーに制限します。ベンダーを選択すると、価格更新がそのベンダーの製品に適用され、そのベンダーの販売価格が示されます。",
+      "listing_price_need_update_msg": "リスト価格（商品リストに表示される価格）を更新する場合は、ベンダーを選択せずに、同じフィルターを使用して一括更新を再送信する必要があります。"
+    },
+    "listing_products_changes": "商品リストの変更",
+    "total_vendor_products": "ベンダー製品合計",
+    "total_products": "総製品数",
+    "total_variants": "合計バリアント"
+  },
+  "product_panel": {
+    "excel_import": {
+      "title": "Excel / CSV ファイルをここにドロップします。",
+      "select_file": "ファイルを選択",
+      "max_file": "最大ファイルサイズ: 20MB",
+      "download_sample": "サンプルをダウンロード"
+    },
+    "ai": {
+      "title": "AI製品サポート"
+    }
+  },
+  "order_vendor": {
+    "has_panel": "パネルあり",
+    "no_panel": "パネルなし",
+    "manual_action": {
+      "title": "手動アクション",
+      "message": "ベンダーの注文ステータスを手動で更新できます。",
+      "guides": [
+        "パネルへのアクセス権を持つベンダーは、専用のダッシュボードでフルフィルメント (サブオーダー) を更新できます。",
+        "ベンダーにパネルへのアクセス権がない場合は、バスケットのステータスを変更すると、ベンダーの注文ステータスが自動的に変更されます。",
+        "ベンダーの注文を手動で更新できます。"
+      ]
+    },
+    "payouts": {
+      "title": "支払い",
+      "message": "ベンダーの支払いと取引を管理します。",
+      "charge_tooltip": "ベンダーウォレットに請求します。",
+      "withdraw_tooltip": "ベンダーウォレットから引き出します。",
+      "payout_tooltip": "ベンダーへの支払い。"
+    }
+  },
+  "vendor_dashboard": {
+    "info": {
+      "subtitle": "マーケットプレイス情報。"
+    },
+    "performance": {
+      "subtitle": "私の販売実績。"
+    },
+    "products": {
+      "title": "製品",
+      "subtitle": "ここでは、マーケットプレイスに掲載されている製品の数を確認できます。複数のベンダーによる製品は含まれません。"
+    },
+    "wallets": {
+      "title": "私の財布",
+      "subtitle": "ウォレットを手動で追加する必要はありません。ベンダーウォレットは自動的に作成されます。"
+    },
+    "open_marketplace_page": "マーケットプレイスページを開く",
+    "open_my_store_page": "ストアページを開く",
+    "open_my_listing_page": "私のリストページを開く",
+    "add_products_permission": "製品権限の追加",
+    "add_categories_permission": "カテゴリ権限の追加"
+  },
+  "vendor_inventory": {
+    "title": "製品リスト",
+    "subtitle": "これはマーケットプレイスにあるあなたの製品のリストです。在庫にあるあなたの割り当てられた製品の価格と数量を更新してください。ベンダーの場合、製品リストにはあなたが所有する単一ベンダー製品のみが表示されます。他の割り当てられた製品もここで変更できます。"
+  },
+  "vendor_payments": {
+    "list": {
+      "title": "支払い履歴",
+      "subtitle": "支払い履歴はここで確認できます。これらの支払いは、銀行振込によって手動で処理されるか、支払い機能を提供する支払いサービスを使用して自動的に処理される可能性があります。"
+    },
+    "connect": {
+      "title": "銀行を接続する",
+      "subtitle": "以下の支払いゲートウェイでは分割支払い機能をご利用いただけます。購入ごとに支払いをシームレスに受け取るには、これらのオプションを使用して銀行口座を接続してください。"
+    },
+    "verify_dialog": {
+      "title": "支払いを確認する",
+      "option": {
+        "title": "ベンダーのアクション",
+        "subtitle": "この送金を承認するか拒否するかを選択できます。このアクションは履歴記録としてのみ機能します。資金を受け取ったかどうかを確認するだけで、受け取っていない場合は何もする必要はありません。"
+      },
+      "inputs": {
+        "verify": {
+          "label": "このお支払いは確認されましたか?",
+          "false_description": "いいえ、この支払いはまだ銀行口座に入金されていません。",
+          "true_description": "はい、この支払いを受け取り、確認しました。"
+        }
+      }
+    }
+  },
+  "order_vendor_payment": {
+    "message": "これは、マーケットプレイス上の仮想ウォレットでの取引の概要です。",
+    "vendor_wallets": "ベンダーウォレット",
+    "my_wallets": "私の財布"
+  },
+  "product_add_dropshipping_shops": {
+    "subtitle": "ここでは、Selldone に商品を掲載し、他の販売業者が利用できるようにしている卸売業者を見つけることができます。Selldone に組み込まれているドロップシッピング プラットフォームはプロセスを簡素化し、卸売業者と販売業者の両方にとって簡単かつわかりやすくします。"
+  },
+  "customer_add": {
+    "edit_title": "顧客を編集",
+    "add_title": "新規顧客を追加",
+    "subtitle": "ストアに顧客を追加するには、メールアドレスまたは電話番号のいずれかを入力してください。",
+    "more": {
+      "title": "詳細を追加",
+      "subtitle": "通貨、顧客クラブ、セグメント、住所などを設定します。"
+    },
+    "detail": {
+      "subtitle": "顧客の個人情報を記録してください。顧客のプライバシーを尊重してください。"
+    },
+    "preferences": {
+      "subtitle": "ここで、デフォルトのユーザー通貨、顧客クラブ、セグメントを設定します。"
+    },
+    "address": {
+      "subtitle": "このアドレスは POS で使用できます。ユーザーはこの情報を見ることはできません。"
+    }
+  },
+  "referral_bank": {
+    "title": "紹介ダッシュボード",
+    "subtitle": "ご要望に応じて、手数料はご指定の銀行口座に振り込まれます。こちらに銀行情報をご入力ください。",
+    "no_bank_info": "銀行情報がありません!",
+    "actions": {
+      "edit_my_bank_info": "銀行情報を編集する"
+    },
+    "bank_dialog": {
+      "title": "私の銀行口座情報",
+      "info": {
+        "title": "銀行",
+        "subtitle": "ここに銀行情報を入力してください。この情報は資金の送金に使用されます。該当する場合は、銀行口座がお客様の名前または会社名義であることを確認してください。"
+      },
+      "inputs": {
+        "name": {
+          "label": "銀行名",
+          "message": "口座が開設されている銀行の正式名称。"
+        },
+        "holder_name": {
+          "label": "口座名義人名",
+          "message": "アカウントを保有する個人または団体のフルネーム。"
+        },
+        "account_number": {
+          "label": "口座番号",
+          "message": "特定の銀行口座に関連付けられた一意の番号。"
+        },
+        "routing_number": {
+          "label": "ルーティング番号 (米国) またはソートコード (英国)",
+          "message": "特定の銀行支店を識別する番号（国によって異なる用語が使用されます）。"
+        },
+        "swift": {
+          "label": "SWIFT/BICコード",
+          "message": "特に国際送金の場合、世界中で銀行を識別するために使用される国際コード。"
+        },
+        "iban": {
+          "label": "IBAN（国際銀行口座番号）",
+          "message": "主にヨーロッパで使用されている IBAN は、国境を越えて銀行口座を識別するための国際的に合意されたシステムです。"
+        },
+        "contact": {
+          "label": "連絡先",
+          "message": "アカウントに関連付けられている電話番号またはメールアドレス。"
+        },
+        "note": {
+          "label": "ノート",
+          "message": "補足事項"
+        }
+      }
+    },
+    "notifications": {
+      "save": {
+        "message": "銀行情報が正常に更新されました。"
+      }
+    }
+  },
+  "referral_tier": {
+    "message": "紹介者によるすべてのサービス料金、サブスクリプション、その他の支払いから。"
+  },
+  "ReferralTiers": {
+    "Bronze": {
+      "title": "ブロンズ",
+      "description": "あなたはブロンズ ティアにいます。紹介者から 2% のコミッションを獲得しました。"
+    },
+    "Silver": {
+      "title": "ティア シルバー",
+      "description": "あなたはシルバー ティアにいます。紹介者から 4% のコミッションを獲得しました。"
+    },
+    "Gold": {
+      "title": "ティアゴールド",
+      "description": "あなたはゴールド ティアです。紹介者から 6% のコミッションを獲得しました。"
+    },
+    "Platinum": {
+      "title": "プラチナレベル",
+      "description": "あなたはプラチナレベルです。紹介者から 8% のコミッションを獲得しました。"
+    },
+    "Diamond": {
+      "title": "ティア ダイヤモンド",
+      "description": "あなたはダイヤモンド レベルです。紹介者から 10% のコミッションを獲得しました。"
+    }
+  },
+  "page_monetize": {
+    "title": "収益化する",
+    "subtitle": "ビジネスチャンスへのアクセスを広げます。"
+  },
+  "sms_template_mode": {
+    "text": {
+      "title": "プレーンテキスト",
+      "desc": "自動置換パラメータを使用してテキストからメッセージが作成され、送信されます。"
+    },
+    "template": {
+      "title": "構造テンプレート",
+      "desc": "パラメータからオブジェクトが作成され、プロバイダーに送信されます。"
+    }
+  },
+  "shop_sms_provider": {
+    "title": "カスタムSMSプロバイダー",
+    "reset_error": "エラーをリセットする",
+    "subtitle": "カスタム SMS サービス プロバイダーを設定し、認証 SMS と会社名をカスタマイズします。デフォルトのプロバイダーは、ホワイト リストに登録されている一部の国で認証 SMS と通知メッセージを送信するだけです。",
+    "plain_text": "プレーンテキスト",
+    "structural_template": "構造テンプレート",
+    "errors_limit_msg": "サービスが 100 エラーを超えると、自動的に無効になります。エラーをリセットして再度有効にすることができます。",
+    "enable_input": {
+      "false_description": "一部の国では、OTP メッセージは Selldone を通じて送信され、その他の注文通知 SMS も送信されます。",
+      "true_description": "SMS メッセージはサービス プロバイダーを使用して配信されます。"
+    },
+    "test_input": {
+      "true_title": "構成の検証",
+      "true_description": "あなたの電話番号 📞 <b>{phone}</b>にテスト メッセージを送信します。料金はかかりますが、すべてが正常に機能することを確認できます。"
+    },
+    "sync_action": {
+      "title": "行動",
+      "subtitle": "一部の SMS サービスでは、キャンペーン、マーケティング、その他の機能などの追加サービスが提供されています。連絡先や追加情報を同期すると、より迅速に機能を使用できます。",
+      "action": "連絡先を同期する"
+    },
+    "tokens": {
+      "title": "パラメータ",
+      "subtitle": "SMS サービス プロバイダーとショップをリンクするには、次のパラメータを設定します。"
+    }
+  },
+  "sms_messages_options": {
+    "all": {
+      "title": "OPT + 注文通知",
+      "description": "認証メッセージと注文通知が送信されます。"
+    },
+    "otp": {
+      "title": "OTPのみ",
+      "description": "認証メッセージが送信されます。"
+    }
+  },
+  "shop_email_provider": {
+    "title": "カスタムメールサーバー",
+    "subtitle": "メール サービス プロバイダーを接続して、カスタム ドメイン経由でメールを送信します。",
+    "provider": "プロバイダー",
+    "enable_input": {
+      "false_description": "メールはmyselldoneドメイン経由で送信されます。",
+      "true_description": "メールはカスタムメールドメイン経由で送信されます。"
+    },
+    "config": {
+      "title": "構成",
+      "subtitle": "ショップのカスタム メール サービスを構成するには、サービス API キーとその他の必要な設定を入力します。"
+    },
+    "sender": {
+      "title": "から",
+      "subtitle": "顧客にメールを送信する際に使用される、デフォルトの送信者名とメール アドレスを設定できます。"
+    },
+    "inputs": {
+      "from": {
+        "label": "メールから"
+      },
+      "from_name": {
+        "label": "差出人名"
+      }
+    },
+    "actions": {
+      "send_test_email": "テストメールを送信する"
+    },
+    "messages": {
+      "provider_error_limit": "サービスが 100 エラーを超えると、自動的に無効になります。エラーをリセットして再度有効にすることができます。",
+      "encryption_ports_guide": "メール プロバイダーは、使用可能なポートに基づいて、SSL、TLS、または暗号化されていない接続を提供する場合があります。接続時にエラーが発生する場合は、暗号化モードを変更すると問題が解決する可能性があります。標準の<b>TLS</b>はポート<b>587</b>を使用し、 <b>SSL は</b>ポート<b>465</b>を使用します。",
+      "enable_receive_test": "変更を保存すると、 <b>{email}</b>にテストメールが届きます。新しい構成でテストメールを送信する前に、変更を保存してください。"
+    }
+  },
+  "product_location_restrictions": {
+    "title": "利用可能な場所",
+    "subtitle": "製品またはサービスが、国と郵便番号で定義された特定の地域でのみ利用できる場合は、ここでそれらの場所を指定できます。これらの場所の制限は、製品レベルに適用されます。製品ページで、顧客は場所を選択するように求められます。選択した地域で製品が利用できる場合は、購入手続きに進むことができます。",
+    "add_location_action": "国を追加",
+    "no_restriction": "制限なし",
+    "import": {
+      "title": "負荷プロファイル",
+      "subtitle": "保存した場所のプロファイルを選択します。"
+    },
+    "export": {
+      "title": "プロフィールを保存",
+      "subtitle": "将来使用するために場所を保存します。"
+    },
+    "has_restriction_input": {
+      "title": "場所制限あり",
+      "description": "所在地制限により、お客様は指定された国と郵便番号の範囲内でのみこの製品を購入できます。"
+    },
+    "zip_pin_code": "郵便番号",
+    "no_country_selected_error": "郵便番号のリストとともに、少なくとも 1 つの国名を含めてください。そうしないと、この製品は利用できません。",
+    "tips": "<b>「+ 国を追加」</b>ボタンをクリックして、新しい場所セットの作成を開始します。完了したら、右上の<b>⋮ メニュー</b>をクリックし、 <b>「プロフィールを保存」</b>を選択して保存できます。",
+    "need_save_message": "製品の場所制限設定が変更されました。これらの変更を保存するには、下の「保存」ボタンをクリックしてください。",
+    "add_dialog": {
+      "title": "国を追加",
+      "message": "国を選択して「追加」をクリックします。これにより、国がテーブルに追加され、郵便番号、PIN コード、都市名、または地域名を割り当てることができるようになります。"
+    },
+    "save_profile_dialog": {
+      "title": "場所のプロフィールを追加",
+      "message": "この場所のセットを保存するには、名前を入力してください。保存されたこの場所のセットは他の製品に適用でき、1 回のクリックで場所をすばやく読み込むことができます。指定された名前のプロファイルがすでに存在する場合は、新しい値で更新されます。",
+      "title_input": {
+        "title": "プロフィールタイトル",
+        "placeholder": "カテゴリ名、またはストア名、..."
+      }
+    },
+    "load_profile_dialog": {
+      "title": "場所プロファイルを読み込む",
+      "message": "ここで以前に保存した場所セットを選択して、場所を読み込むことができます。",
+      "select_input": {
+        "title": "ロケーションプロファイル",
+        "placeholder": "プロフィールを選択してください..."
+      }
+    }
+  },
+  "blog_timeline": {
+    "title": "コンテンツリリーススケジュール",
+    "subtitle": "ここに、今後の公開が予定されている記事のリストがあります。ブログ投稿や製品の説明を特定の時間に公開するようにスケジュール設定できます。"
+  },
+  "direct_feedback": {
+    "title": "直接リクエストを送信",
+    "message": "Selldone で成功し利益を上げるための、ビジネス上の主な 3 つのニーズを特定します。この情報は、創設者や取締役と直接共有され、慎重に検討されます。提出後も、ニーズを随時更新できます。",
+    "expand_action": "リクエストを書いてください...",
+    "input_label": "リクエスト",
+    "to": {
+      "ceo": "CEOに送信",
+      "team": "チームに送信"
+    },
+    "placeholder": {
+      "ceo": "親切にする必要はまったくありません。直接的で要点を突いた質問を聞くのが好きです。たとえば、...が必要です。",
+      "team": "彼らに優しくしてください。例えば、私は...を持っている必要があります。"
+    }
+  },
+  "inventory_filter": {
+    "placeholder": "フィルターを選択*.*"
+  },
+  "vendor_input": {
+    "placeholder": "フィルターベンダー..."
+  },
+  "product_import_processing": {
+    "title": "輸入品の加工",
+    "message": "現在、商品と画像のインポート作業中です。完了するまでに時間がかかる可能性があります。"
+  },
+  "order_input": {
+    "message": "ここで表示される情報は、製品入力フォームの構造に従って顧客によって送信されたものです。"
+  },
+  "shop_connect": {
+    "test": {
+      "title": "設定",
+      "subtitle": "外部サービスレポート",
+      "action": "テスト接続",
+      "last_update": "最終更新者"
+    },
+    "service_status": {
+      "title": "サービスステータス",
+      "syncing_message": "同期処理中...",
+      "action": "すべてを同期",
+      "connect_status": "接続ステータス",
+      "service_status": "サービスステータス",
+      "auto_confirm_enable_msg": "注文の自動確認が有効になっています。",
+      "auto_confirm_disable_msg": "注文の自動確認は有効になっていません。",
+      "shipping_enable_msg": "配送料はチェックアウト時に提供された情報に基づいて計算されます。"
+    },
+    "detail": {
+      "title": "詳細を接続",
+      "auto_confirm_order": "注文の自動確認",
+      "test_mode": "テストモード",
+      "status": {
+        "subtitle": "同期ステータスに関する全体的な情報。"
+      },
+      "sync": {
+        "title": "同期の詳細",
+        "subtitle": "内部同期の詳細。この情報は、同期プロセス エポックが正常に終了した後に保存されます。",
+        "no_data": "同期情報がありません!"
+      }
+    },
+    "products": {
+      "title": "製品",
+      "subtitle": "{name} から追加された製品のリスト。製品の名前と SKU が一意であることを確認してください。移行には一部の Connect サービスが使用されるため、重複する<b>SKU</b>と<b>名前</b>を持つ製品がある場合、それらの製品は変更されます。",
+      "action": "製品を取得する",
+      "syncing_message": "同期処理中..."
+    },
+    "logs": {
+      "title": "ログ",
+      "subtitle": "過去 7 日間のすべてのログのリスト。ログ機能は外部サービス プロバイダーでのみサポートされます。"
+    },
+    "edit": {
+      "title": "新しい接続を追加",
+      "service": {
+        "title": "サービス",
+        "subtitle": "接続するターゲット プラットフォーム、ドロップシッピング サプライヤー、またはマーケットプレイスを選択します。"
+      },
+      "test": {
+        "false_title": "すべてを同期",
+        "false_desc": "利用可能なすべての製品、カテゴリ、顧客を取得します。",
+        "true_title": "限定（初心者におすすめ）",
+        "true_desc": "最大 5 つの製品、カテゴリ、顧客を取得できます。[接続] > [設定] でいつでもフル モードに切り替えることができます。"
+      },
+      "overwrite": {
+        "false_title": "存在する場合は変更しないでください",
+        "false_desc": "既存の製品とカテゴリの詳細はそのまま保持します。",
+        "true_title": "上書き",
+        "true_desc": "既存の製品、バリアント、カテゴリ情報を更新します。"
+      },
+      "migration_tips": "<b>ヒント:</b>機能をテストしたい場合は、<b>制限付き</b>オプションを選択してください。「すべて同期」を選択すると、接続されたサービスからすべてのデータが取得され、関連する画像がダウンロードされるため、空きストレージが減ります。また、多くの製品、カテゴリ、顧客を削除するのは困難です。",
+      "add_action": "自動接続",
+      "order": {
+        "title": "注文状況",
+        "subtitle": "ストアの接続されたサービスの注文管理設定を構成します。これには、注文の受け入れの設定、自動注文確認の有効化 (サポートされている場合)、配送料の計算の構成が含まれます。"
+      },
+      "enable": {
+        "label": "接続ステータス",
+        "true_desc": "在庫と注文は同期されます。"
+      },
+      "confirm": {
+        "label": "注文の自動確認",
+        "false_desc": "注文は手動で確認する必要があります。",
+        "true_desc": "ライブ支払いの注文は自動的に承認されます。デバッグ支払いの注文は自動的に承認されません。",
+        "tips": "ギフト カード、代金引換、またはデバッグ モードの支払いゲートウェイで支払われる注文は例外であり、自動的に確認されません。"
+      },
+      "shipping": {
+        "label": "運送",
+        "tips": "このサービスでは配送料の計算機能を提供しており、設定に応じて有効または無効にすることができます。有効にすると、サードパーティのサービスによるコスト計算 API が必要になり、チェックアウト ページで価格を更新する際に 300 ミリ秒を超える遅延が発生する可能性があります。",
+        "false_title": "無効にする",
+        "false_desc": "輸入品を含むすべての製品について、「ショップ > ロジスティクス > 輸送」で送料の計算を使用します。",
+        "true_title": "送料を計算する",
+        "true_desc": "当サービスが提供する配送料計算APIをご利用ください。"
+      },
+      "remove": {
+        "verify": "この接続を削除することを確認します。",
+        "action": "接続を削除"
+      }
+    },
+    "list": {
+      "title": "OSを接続する",
+      "subtitle": "ビジネス OS を外部サービスに接続し、すべてのチャネルを同じ場所で管理します。",
+      "action": "新しいサービスを接続する",
+      "empty_message": "ドロップシッピング用のアプリやプラグインは忘れてください。Connect はクロスプラットフォーム注文管理の未来です。",
+      "auto_confirm": "自動確認",
+      "shipping": "運送",
+      "syncing_now": "同期中です!",
+      "sync_not_started": "同期はまだ開始されていません。"
+    }
+  },
+  "connect_mode": {
+    "Migration": {
+      "title": "移住",
+      "desc": "商品、カテゴリ、顧客を取得します。ユーザーがこのサービスを削除しても、受信した商品、カテゴリ、顧客は削除されません。"
+    },
+    "Dropshipping": {
+      "title": "ドロップシッピング",
+      "desc": "製品、カテゴリ、注文を取得します。ユーザーがサービスを削除すると、システムは製品を削除します。"
+    },
+    "Marketplace": {
+      "title": "市場",
+      "desc": "在庫を同期して注文を受け取るだけです (製品は SKU によってリンクされます)。"
+    },
+    "Accounting": {
+      "title": "会計",
+      "desc": "注文と財務情報を送信します。"
+    },
+    "Other": {
+      "title": "他の",
+      "desc": "その他のサービス。"
+    }
+  },
+  "shop_landings": {
+    "title": "ランディングページ",
+    "add_new_action": "新しいページを追加",
+    "subtitle": "多用途の AI 搭載インライン エディターを使用して、ブランド独自のレスポンシブなカスタム ページを作成し、データを入力することで動的なコンテンツを自動的に生成します。",
+    "empty_message": "ドラッグ アンド ドロップでカスタム ページをデザインします..."
+  },
+  "shop_staff": {
+    "list": {
+      "title": "スタッフ管理",
+      "subtitle": "このストアのダッシュボードと管理セクションへのアクセスを許可されたユーザー。"
+    },
+    "pending": {
+      "title": "保留中",
+      "message": "保留中の招待を表示します。"
+    }
+  },
+  "community_comments": {
+    "title": "コメント",
+    "subtitle": "これはコミュニティのコメントのリストです。",
+    "empty_msg": "今のところコメントは作成されていません..."
+  },
+  "community_categories": {
+    "title": "カテゴリー",
+    "subtitle": "これはコミュニティのカテゴリのリストです。",
+    "new_category_action": "新しいカテゴリー",
+    "empty_msg": "現時点ではカテゴリは作成されていません...",
+    "filter": {
+      "delete": {
+        "title": "削除",
+        "description": "削除されたカテゴリを表示します。"
+      }
+    }
+  },
+  "community_posts": {
+    "title": "投稿",
+    "subtitle": "これはコミュニティの投稿のリストです。",
+    "filter": {
+      "deleted": {
+        "title": "削除",
+        "description": "削除された投稿を表示します。"
+      },
+      "reported": {
+        "title": "報告",
+        "description": "報告された投稿を表示します。"
+      }
+    },
+    "empty_msg": "今のところ投稿は作成されていません...",
+    "menu": {
+      "open_post": {
+        "title": "オープンポスト",
+        "subtitle": "コミュニティ内の投稿を表示および編集します。"
+      },
+      "spam": {
+        "title": "スパムを報告して削除する",
+        "subtitle": "投稿を一括削除し、ユーザーを禁止します。"
+      },
+      "delete": {
+        "title": "投稿を削除",
+        "subtitle": "この投稿を削除します。"
+      }
+    }
+  },
+  "channel_google": {
+    "gtag": {
+      "title": "タグマネージャー",
+      "subtitle": "Google アナリティクスでは、Flash、動画、ソーシャル メディアのサイトやアプリを追跡しながら広告の ROI を測定できます。Google タグ マネージャーのシンプルで信頼性の高い無料ソリューションを使用すれば、コード編集を必要とせず、ウェブサイトのタグを簡単に管理できます。",
+      "tag_id": {
+        "label": "Google タグ マネージャー ID"
+      }
+    },
+    "shopping": {
+      "title": "Google ショッピング",
+      "subtitle": "データ ソースは、Google のカタログ情報の出所を示します。このリンクをクリックすると、すべての商品とカテゴリが Google の商品に自動的に追加されます。",
+      "tips": "このツールを利用すると、Google 広告を簡単かつ自動的に管理できます。",
+      "link_message": "Google 製品フィード URL"
+    },
+    "console": {
+      "title": "検索コンソール",
+      "subtitle": "Google Search Console による検証のために、ホームページにメタ タグを追加します。",
+      "code": {
+        "label": "検証メタタグ",
+        "placeholder": "Google から、例えば viQg9mjdBj..."
+      }
+    },
+    "serp": {
+      "title": "Google SERPとキーワード",
+      "subtitle": "当社は Google から最も正確な SEO 監査データを取得し、便利な方法でお客様に提示します。提供されている手順に従うだけです。"
+    },
+    "serp_content": {
+      "title": "Google Search Consoleに接続する",
+      "subtitle": "ショップを検索コンソールに接続し、Selldone でキーワード、ランク、その他の無料 SEO ツールの探索を始めましょう。",
+      "tips": {
+        "title": "Selldone を Google Search Console にリンクする前に、次の点を確認してください。",
+        "add_in_selldone": "カスタム ドメインを追加、確認し、プライマリとして設定します。",
+        "add_in_google": "<a href=\"https://search.google.com/search-console\" target=\"_blank\"><b>Google Search Console</b></a>で<b>{domain}</b>を追加して確認します。"
+      },
+      "action_custom_domain": "カスタムドメイン",
+      "action_connect_now": "今すぐ接続",
+      "action_remove_connection": "接続を削除"
+    }
+  },
+  "cashback": {
+    "add_new": "新しいキャッシュバックを追加",
+    "title": "キャッシュバックプログラム",
+    "boosted": "ブースト（2倍）",
+    "min_purchase": "最低購入額",
+    "only_first_order": "初回注文のみ",
+    "total_cashback": "合計キャッシュバック",
+    "delete_alert": {
+      "title": "キャッシュバックプログラムを削除する",
+      "message": "このキャッシュバックプログラムを削除してもよろしいですか?",
+      "action": "はい、今すぐ削除"
+    },
+    "notifications": {
+      "delete_success": "キャッシュバックプログラムが正常に削除されました。"
+    }
+  },
+  "shop_cashback": {
+    "title": "キャッシュバックプログラム",
+    "up_to": "まで",
+    "menu": {
+      "back": "戻るプログラム",
+      "dashboard": "ダッシュボード",
+      "orders": "注文",
+      "edit": "編集"
+    },
+    "dashboard": {
+      "chart_amount_buy": {
+        "label": "買う",
+        "y": "購入金額{currency}"
+      },
+      "chart_amount_cashback": {
+        "label": "キャッシュバック",
+        "y": "キャッシュバック金額 {currency}"
+      },
+      "chart_used": {
+        "label": "使用済み",
+        "y": "タイムズ"
+      }
+    },
+    "orders": {
+      "title": "キャッシュバック注文",
+      "table": {
+        "amount_cashback": "キャッシュバック金額",
+        "payment_status": "支払い状況",
+        "date": "日にち"
+      }
+    }
+  },
+  "cashback_edit": {
+    "config": {
+      "subtitle": "ここで、チャスバックのパーセント、制限、およびそのステータスを設定します。"
+    },
+    "percent_input": {
+      "title": "キャッシュバック率",
+      "message": "キャッシュバック率を1%～20%の範囲で入力します。"
+    },
+    "currency_input": {
+      "message": "キャッシュバックプログラムはこの通貨のみでご利用いただけます。"
+    },
+    "limit_input": {
+      "title": "制限",
+      "hint": "キャッシュバックの最大金額を入力してください。",
+      "zero_message": "無制限のキャッシュバックには 0 を入力してください。"
+    },
+    "duration": {
+      "title": "期間制限",
+      "subtitle": "キャッシュバック プログラムの期間を設定します。これはオプションです。"
+    },
+    "start_input": {
+      "title": "開始日",
+      "placeholder": "開始日を選択..."
+    },
+    "end_input": {
+      "title": "終了日",
+      "placeholder": "終了日を選択してください..."
+    },
+    "design": {
+      "subtitle": "キャッシュバック プログラムのタイトルと簡単な説明を設定します。これらの情報は顧客に表示されます。"
+    },
+    "title_input": {
+      "title": "タイトル"
+    },
+    "description_input": {
+      "title": "説明"
+    },
+    "constraints": {
+      "subtitle": "キャッシュバック プログラムの制約を設定します。"
+    },
+    "min_purchase_input": {
+      "hint": "キャッシュバックプログラムの最低購入金額を入力してください。",
+      "title": "最低購入額"
+    },
+    "only_first_buy_input": {
+      "false_desc": "キャッシュバックプログラムはすべての注文にご利用いただけます。",
+      "true_desc": "キャッシュバックプログラムは初回注文のみご利用いただけます。",
+      "true_title": "初回注文のみ",
+      "false_title": "すべての注文"
+    },
+    "qualify_input": {
+      "false_title": "すべてのお客様",
+      "true_title": "顧客の選別",
+      "true_msg": "キャッシュバックプログラムは、資格を満たす顧客のみが利用できます。"
+    },
+    "club": {
+      "subtitle": "キャッシュバック プログラムにクラブを設定します。キャッシュバック プログラムは、このクラブに所属する顧客のみが利用できます。"
+    },
+    "cluster": {
+      "subtitle": "クラスターをキャッシュバック プログラムに関連付けることで、より効果的に管理できます。"
+    },
+    "notifications": {
+      "add": "キャッシュバックプログラムが正常に追加されました。",
+      "edit": "キャッシュバックプログラムが正常に更新されました。"
+    },
+    "enable_input": {
+      "true_msg": "キャッシュバックプログラムが有効になっており、お客様はご利用いただけます。",
+      "false_msg": "キャッシュバックプログラムは非アクティブであり、顧客はそれを利用できません。"
+    },
+    "boosted_input": {
+      "false_title": "普通",
+      "true_title": "ブースト（キャッシュバック2倍）",
+      "true_msg": "キャッシュバック プログラムはブースト モードになっており、顧客は 2 倍のキャッシュバックを受け取ります。",
+      "false_msg": "キャッシュバック プログラムは通常モードであり、顧客は通常のキャッシュバックを受け取ります。"
+    }
+  },
+  "row_payment": {
+    "actions": {
+      "refund": {
+        "title": "払い戻し支払い",
+        "subtitle": "一部または全額の払い戻しがサポートされます。"
+      },
+      "delivery": {
+        "title": "配達時に確認",
+        "subtitle": "支払いプロバイダーの配送を手動で確認できます。"
+      }
+    }
+  },
+  "payment_refund_dialog": {
+    "title": "払い戻し支払い",
+    "message": "セキュリティ上の理由により、過去 7 日以内に支払われた注文のみが払い戻しの対象となります。",
+    "payment_amount": "支払金額",
+    "total_refund_amount": "返金総額",
+    "can_refund": "払い戻し可能",
+    "refund_amount": "返金額",
+    "verify": {
+      "title": "払い戻しの確認",
+      "description": "返金額が正しいことを確認し、続行します。"
+    },
+    "action": "今すぐ返金"
+  },
+  "payment_delivery_dialog": {
+    "title": "顧客配送確認",
+    "message": "一部の支払いサービスでは、注文が顧客に配達されたことの確認が必要です。通常、この確認は、顧客の配達確認を受け取った注文処理の最終段階で送信されます。ただし、このアクションを手動で実行する必要がある場合は、ここで実行できます。",
+    "verify": {
+      "title": "配送の確認",
+      "description": "注文品が顧客に配達されたことを確認しました。"
+    },
+    "action": "今すぐ確認"
+  },
+  "product_cross_selling": {
+    "title": "クロスセリング",
+    "add_new_actions": "新製品を追加",
+    "subtitle": "このセクションでは、この商品ページのクロスセル商品を追加および管理できます。これらの商品は、メイン商品と一緒に購入するための提案として顧客に表示されます。また、追加購入を促し、インセンティブを与えるために割引を設定することもできます。システムは、顧客が検討できる最大 3 つの商品を表示します。",
+    "dialog": {
+      "edit_title": "クロスセリング商品を編集",
+      "add_title": "新しいクロスセリング製品を追加する",
+      "target": {
+        "title": "対象製品",
+        "subtitle": "この商品と一緒にクロスセル オプションとして宣伝したい商品を選択します。",
+        "select_products": "製品を選択"
+      },
+      "list": {
+        "title": "対象製品",
+        "subtitle": "この製品はクロスセルプロモーションに選ばれました。",
+        "manage_product": "製品の管理"
+      },
+      "discount": {
+        "title": "割引とメッセージ",
+        "subtitle": "選択した追加アイテムを購入するよう顧客を促すために、メッセージを追加したり割引を提供したりすることもできます。これらのインセンティブは、売上を促進し、全体的なショッピング体験を向上させるのに役立ちます。",
+        "amount_input": {
+          "message": "既存のすべての割引を考慮した上で、割引率が製品価格に適用されます。"
+        },
+        "mismatch_type_warning": "ソース商品とターゲット商品は別々のバスケットに入れられないため、メイン商品タイプ以外のタイプには割引を適用できません。",
+        "not_support_subscription_type_warning": "料金プランを動的に調整できないため、クロスセリングサブスクリプション製品の割引を設定することはできません。",
+        "message_input": {
+          "message": "顧客の注目を集める、魅力的で魅力的なタイトルを作成します。",
+          "placeholder": "バンドルして節約: 厳選したセレクションであなたのスタイルを完成させましょう!"
+        }
+      },
+      "action": {
+        "title": "アクション",
+        "subtitle": "ここでクロスセリング製品のアクションを変更します。製品に評価フォームなどのカスタム情報の入力が必要な場合は、アクションとして「カートに追加」を選択しないでください。エラーが発生する可能性があります。"
+      }
+    }
+  },
+  "CrossSellActionType": {
+    "AddToCart": {
+      "title": "カートに追加",
+      "description": "「カートに追加」ボタンを直接表示します。これはサブスクリプション製品には適用されないことに注意してください。"
+    },
+    "ViewProduct": {
+      "title": "製品を見る",
+      "description": "新しいウィンドウを開いて顧客を製品ページに誘導する「詳細を表示」ボタンを表示します。"
+    }
+  },
+  "product_flow": {
+    "title": "購入フロー",
+    "subtitle": "これは製品の購入フローとヘルスチェックです。",
+    "connect": {
+      "subtitle": "この製品は<b>{name}</b>経由で追加されました。",
+      "enable_msg": "この外部サービスへのブリッジは有効になっています。",
+      "disable_msg": "この外部サービスへのブリッジは無効になっています。",
+      "has_shipping_msg": "{name} は配送をサポートしています。そのため、チェックアウト ページで {name} による自動配送計算を有効にするオプションがあります。"
+    },
+    "health": {
+      "title": "製品の健全性",
+      "available_in_stock_msg": "商品は在庫ありです。",
+      "out_of_stock_msg": "商品は在庫切れです。",
+      "file_count_msg": "この製品には、合計 {files_size} の {files_count} 個のファイルがアップロードされています。",
+      "no_file_uploaded_msg": "ファイルはまだアップロードされていません。",
+      "no_image_uploaded_msg": "商品の画像をアップロードして、より魅力的にしましょう。"
+    },
+    "vendor_errors": {
+      "title": "不足しているベンダー",
+      "subtitle": "この製品には現在、関連付けられているベンダーがありません。製品をマーケットプレイスで購入できるようにするには、少なくとも 1 つのベンダーが必要です。",
+      "manage_vendors": "ベンダーの管理"
+    },
+    "file_errors": {
+      "title": "不足しているファイル",
+      "subtitle": "現在、この製品のファイルはアップロードされていません。続行するにはファイルをアップロードしてください。",
+      "manage_files": "ファイルの管理"
+    },
+    "pricing": {
+      "title": "価格設定",
+      "no_product_price_msg": "デフォルトの製品価格はまだ設定されていません。",
+      "listing_pricing_msg": "掲載価格:",
+      "has_valuation_msg": "商品には価値があります。",
+      "subscription_pricing_msg": "この製品には {count} 個のサブスクリプション価格プランがあります。",
+      "has_no_subscription_pricing_msg": "この製品にはサブスクリプション価格プランはありません。"
+    },
+    "subscription_errors": {
+      "title": "サブスクリプション料金プランが見つかりません",
+      "subtitle": "この製品にはサブスクリプション価格プランがありません。この製品をサブスクリプション購入できるようにするには、少なくとも 1 つのサブスクリプション価格プランを追加する必要があります。",
+      "pricing_plans": "料金プラン"
+    },
+    "location": {
+      "title": "販売場所の制限 ● {status}",
+      "status": {
+        "has_restriction": "{count} か国で利用可能",
+        "no_restriction": "制限なし"
+      },
+      "available_countries_msg": "ショッピングは世界中で {count} か国に制限されています。これらの国は {countries} です。",
+      "disable_for_all_countries_msg": "ショップ > 場所の設定で、すべての国でショッピングが無効になっています。",
+      "location_is_not_in_permitted_shop_locations_msg": "販売場所として {country} を設定しましたが、ストア レベルではこの国を許可していません。ストア レベルの設定を確認してください。",
+      "shop_locations": "店舗所在地",
+      "product_locations": "製品所在地"
+    },
+    "location_errors": {
+      "title": "利用可能な場所のエラー",
+      "no_location_error_subtitle": "製品の購入に対して場所の制限を有効にしましたが、現在この制限に該当する国はリストされていません。そのため、この製品は誰も購入できません。",
+      "invalid_location_error_subtitle": "製品の地域制限設定にエラーがあります。リストされている一部の地域には、関連付けられた郵便番号がありません。その結果、ユーザーは郵便番号を選択できず、製品を購入できなくなります。",
+      "manage_locations": "場所の管理"
+    },
+    "tax": {
+      "title": "購読税",
+      "default_shop": "デフォルトのショップ税",
+      "tax_profiles": "税務プロファイル",
+      "description": {
+        "subscription_tax_msg": "税金は支払い作成ステップでのみ適用できます。",
+        "dedicated": "ひたむきな",
+        "is_disabled": "この税金プロファイルは無効です。",
+        "tax_is_based_on_location": "税金: 場所に基づく",
+        "shipping_tax_is_based_on_location": "配送: 場所に基づく",
+        "included_in_price": "料金に含まれます。"
+      }
+    },
+    "vendor": {
+      "vendor_owner_msg": "この製品は<b>{vendor}</b>のものです。",
+      "has_vendors_msg": "この製品には {count} 社のベンダーが存在します。",
+      "no_vendor_msg": "この製品にはベンダーが割り当てられていないため、顧客は購入できません。",
+      "add_vendors": "ベンダーを追加"
+    }
+  },
+  "product_template": {
+    "title": "製品ページテンプレート",
+    "subtitle": "プレゼンテーションを強化するために、商品ページ内にページを埋め込むことができます。最適な方法は、透明な背景と、各商品カテゴリに合わせた 1 ～ 3 つのセクションを備えたページを作成することです。次に、1 つのページを複数の商品に割り当てて、一貫性のある魅力的な表示を実現します。",
+    "edit_page": "ページを編集",
+    "list_of_pages": "ページ一覧"
+  },
+  "product_embed": {
+    "subtitle": "弊社が提供するコードをコピーして貼り付けるだけで、ブログやその他の Web ページに商品や商品リストを簡単に埋め込むことができます。この機能はまだ初期段階ですが、現在他の場所で利用できる機能を超えて機能を拡張できるよう積極的に取り組んでいます。現在は機能が限られていますが、将来的にはさらに多くのテンプレートとカスタマイズ オプションを導入する予定です。",
+    "card": {
+      "title": "最小限",
+      "description": "他のプラットフォームや HTML ページに製品カードを追加するための HTML コードを生成します。"
+    },
+    "iframe": {
+      "title": "インラインフレーム",
+      "description": "埋め込みウィンドウに包括的な製品詳細を表示するための iframe コードを生成してください。"
+    }
+  },
+  "permission_staff_add": {
+    "title_new": "新スタッフ",
+    "title_edit": "編集スタッフ",
+    "staff": {
+      "title": "スタッフとアクセスの追加",
+      "subtitle": "スタッフ アクセス権を持つすべてのユーザーはダッシュボードにログインして財務情報を表示できます。アクセスが制限されたユーザーを追加するには、ロールを定義します。",
+      "go_to_roles": "役割へ移動"
+    },
+    "access": {
+      "customization_tips": "<b>カスタマイズ:</b>各項目をクリックして、デフォルトの読み取り/書き込みアクセスをカスタマイズします。各行は、メインショップダッシュボードに対応するアクセス レベルを表します。",
+      "simplify_tips": "<b>重要!</b>アクセス制御を 300 を超えるレベルから 10 未満に簡素化しました。より詳細で最新のアクセス レベルはドキュメントで公開されます。",
+      "multi_permission_tips": "<b>カスタム制限?</b> 1 人のユーザーにさらにアクセスを追加できます。最初のアクセスを追加した後、同じ手順で追加のアクセスを作成します。",
+      "view_data": "データを表示",
+      "apply_changes": "変更を適用する"
+    },
+    "inputs": {
+      "email": {
+        "placeholder": "Eメール",
+        "label": "ユーザーのメールアドレス"
+      },
+      "level": {
+        "label": "アクセスレベル",
+        "placeholder": "レベルを選択してください..."
+      }
+    },
+    "actions": {
+      "add": "スタッフを追加"
+    },
+    "notifications": {
+      "add_success": {
+        "title": "アクセス承認",
+        "message": "新しいアクセスが正常に追加されました。"
+      },
+      "update_success": {
+        "title": "アクセスが更新されました",
+        "message": "権限が正常に更新されました。"
+      }
+    }
+  },
+  "category_engine_editor": {
+    "title": "追加製品リスト",
+    "subtitle": "さまざまなカテゴリの製品を表示します。複数のカテゴリを選択して製品を表示したり、タグで製品をフィルタリングしたりすることができます。",
+    "aut_add_sub_categories_tips": "下のボタンをクリックすると、すべてのサブカテゴリを現在のカテゴリに自動的に追加できます。",
+    "inputs": {
+      "categories": {
+        "label": "カテゴリー",
+        "messages": "これらのカテゴリの製品が表示されます。",
+        "placeholder": "カテゴリを選択..."
+      },
+      "tags": {
+        "label": "製品タグ",
+        "messages": "これらのタグが付いた製品が表示されます。",
+        "placeholder": "ここにタグを配線して Enter キーを押します。例: 新しいコレクション"
+      }
+    },
+    "actions": {
+      "save_engine": "エンジンを保存",
+      "auto_add_subcategories": "サブカテゴリの自動追加"
+    }
+  },
+  "products_sort_view": {
+    "search_tips": {
+      "title": "検索のヒント",
+      "normal": "<b>一般検索:</b>タイトル、MPN、SKU、ブランド、またはタグで検索します。",
+      "product": "<b>正確な製品 ID:</b>特定の製品 (例: <b class=\"text-green\">P</b> <i class=\"text-yellow\">360)</i>を検索するには、P+製品 ID を使用します。",
+      "quotes": "<b>正確なフレーズ:</b>引用符を使用して正確なフレーズを検索します (例: <b class=\"text-green\">\"</b> <i class=\"text-yellow\">your text here</i> <b class=\"text-green\">\")</b> 。",
+      "tax": "<b>税金プロファイル:</b> 「tax:」を使用して、特定の税金プロファイルを持つ製品を検索します (例: <b class=\"text-green\">tax:</b><i class=\"text-yellow\">税金プロファイル名)</i> 。",
+      "new_products": "<b>新製品:</b>特定の日付範囲内に追加された製品を検索します (例: <b class=\"text-green\">new~</b> <i class=\"text-yellow\">2023-08-10</i> <b class=\"text-green\">~</b> <i class=\"text-yellow\">2023-08-20)</i> 。"
+    }
+  },
+  "augment_form": {
+    "title": "増強",
+    "subtitle": "ページ コンテンツ内の対応する値と交換されるキーを入力します。キーは最大 32 文字にする必要があります。",
+    "add_caption": "新しいアイテムを追加",
+    "add_sub_caption": "カスタムのキーと値のペアを追加します。",
+    "add_dialog": {
+      "title": "入力タイプを選択",
+      "html": {
+        "title": "テキストとHTML",
+        "subtitle": "アイテムの値は、テキストまたは HTML のいずれかとして指定できます。"
+      },
+      "image": {
+        "title": "画像",
+        "subtitle": "画像をアップロードできます。"
+      }
+    },
+    "help_dialog": {
+      "title": "動的コンテンツの使用方法",
+      "how_it_works_tips": "ランディング ページでは、テキストと画像の両方に動的プレースホルダーを柔軟に指定できます。これらのプレースホルダーは、コンテキストに応じてコンテンツをカスタマイズする上で重要な役割を果たします。これらのプレースホルダーは動的であるため、さまざまな要因に基づいて変化する拡張値を設定できます。たとえば、拡張値は製品やカテゴリごとに異なる場合があります。この機能の本当の利点は、さまざまな属性を持つさまざまなアイテムがある場合に発揮されます。これらの動的プレースホルダーを効果的に利用して、各アイテムの表示をパーソナライズおよび強化し、ランディング ページでユニークでインタラクティブなエクスペリエンスを作成できます。",
+      "assign_tips": "画像に動的な値を割り当てるには、セクションの左側にあるフィーダー ボタンをクリックします。",
+      "set_dynamic_image_tips": "画像の URL を変更し、動的な値を割り当てることができるようになりました。",
+      "enter_values_tips": "すべての製品に対して、専用のキーと値のペアを割り当てることができます。",
+      "result_tips": "これは、プレースホルダーが拡張された値に置き換えられたページの最終結果です。"
+    }
+  },
+  "logistic_profile_editor": {
+    "languages": {
+      "title": "多言語",
+      "subtitle": "コンテンツ言語のリストです。各言語ごとにロジスティクス プロファイルに異なるコンテンツを設定できます。",
+      "add_caption": "新しい記事を追加",
+      "no_more_language": "もう言語は必要ありません!"
+    },
+    "content": {
+      "title": "コンテンツ",
+      "subtitle": "ロジスティクス プロファイルのコンテンツを複数の言語でカスタマイズできます。",
+      "language_input": "現在の記事の言語",
+      "delete_article": "記事を削除",
+      "menu_tooltip": "自動翻訳 / 記事の削除"
+    },
+    "translate_to": "翻訳する",
+    "notifications": {
+      "translate": {
+        "message": "記事の翻訳が正常に完了しました。"
+      },
+      "save_article": {
+        "message": "記事は正常に保存されました。"
+      },
+      "delete_article": {
+        "message": "記事は正常に削除されました。"
+      }
+    },
+    "delete_dialog": {
+      "message": "この記事を永久に削除してもよろしいですか?",
+      "action": "はい、今すぐ削除"
+    }
+  },
+  "logistic_profile_products": {
+    "title": "製品",
+    "subtitle": "このプロファイルに関連付けられている製品のリスト。"
+  },
+  "logistic_profile_setting": {
+    "title": "一般情報",
+    "inputs": {
+      "name": {
+        "message": "この名前はあなただけに表示されますが、一般には公開されません。"
+      },
+      "accept_delete": {
+        "true_description": "この操作により、すべての記事とプロフィール リンクが削除されます。",
+        "true_title": "この接続を削除することを確認します。"
+      }
+    },
+    "actions": {
+      "remove": "プロフィールと関係を削除する"
+    }
+  },
+  "shop_logistic_profiles": {
+    "title": "物流プロファイル",
+    "add_caption": "新しいプロフィールを追加",
+    "subtitle": "ここで製品の保証および返品ポリシーを作成および編集し、任意の製品に割り当てることができます。製品の種類ごとに異なる保証ポリシーを定義できます。",
+    "add_dialog": {
+      "title": "新しいロジスティクスプロファイルを作成する",
+      "config": {
+        "title": "一般情報",
+        "subtitle": "プロファイル タイプを選択します。ガイド、保証、または複数の製品間で共通して共有されるその他のコンテンツや資料を選択できます。"
+      },
+      "article": {
+        "title": "記事",
+        "subtitle": "このロジスティクス プロファイルを作成した後、さらに言語を追加できます。"
+      },
+      "inputs": {
+        "name": {
+          "message": "この名前はあなただけに表示されますが、一般には公開されません。",
+          "placeholder": "プロファイルの名前を入力してください..."
+        }
+      }
+    }
+  },
+  "shop_logistic_includes": {
+    "title": "同梱品管理",
+    "add_caption": "新しいアイテムを追加",
+    "subtitle": "ここでは、商品に含まれるアイテムを管理できます。ストアの外観を完璧にするには、ワイヤーフレームなどの類似した画像パターンを持つアイテムをすべての商品で一貫して使用します。",
+    "empty_list_msg": "含まれるアイテムのリスト...",
+    "notifications": {
+      "delete": {
+        "message": "アイテムは削除されました。"
+      }
+    },
+    "delete_dialog": {
+      "title": "含まれるアイテムを削除する",
+      "message": "このアイテムを完全に削除してもよろしいですか? 関連するすべての製品からも削除されることにご注意ください。",
+      "action": "はい、今すぐ削除"
+    },
+    "actions": {
+      "edit_linked_page": "リンクされたページを編集"
+    }
+  },
+  "include_item_add": {
+    "dialog_title_edit": "含まれるアイテムを編集",
+    "dialog_title_add": "新しい含まれるアイテムを作成する",
+    "title": "含まれるもの",
+    "subtitle": "簡単なタイトルを選択します。理想的には 2 ～ 3 語以内です。アップロードされた画像は 256 x 256 の正方形形式に自動的にサイズ変更されるため、正方形の画像を使用してください。すべてのテンプレートで最適な外観を実現するには、透明な背景のミニマルな画像を使用し、製品全体で均一なパターンを維持します。",
+    "inputs": {
+      "title": {
+        "placeholder": "製品ページに簡潔なタイトルが表示されます..."
+      },
+      "code": {
+        "placeholder": "一意のコード、例: mobile_cable_usb",
+        "hint": "このコードを使用すると、アイテムを見つけるための検索プロセスを効率化できます。"
+      },
+      "description": {
+        "placeholder": "このアイテムについての簡単な説明...",
+        "hint": "説明は SEO に使用され、製品ページの一部のカスタム レイアウトでユーザーに表示される可能性があります。"
+      },
+      "image": {
+        "message": "最大画像サイズ: 1MB"
+      },
+      "path": {
+        "label": "ページパス"
+      }
+    },
+    "mode": {
+      "no_link": {
+        "title": "リンクなし"
+      },
+      "external_link": {
+        "title": "外部リンク",
+        "description": "外部 URL へのリンクを設定します。",
+        "tips": "アイテムには任意の URL を添付できます。ユーザーが商品ページでアイテムをクリックすると、そのリンクにリダイレクトされます。"
+      },
+      "internal_link": {
+        "title": "内部リンク",
+        "description": "このアイテムに提供された拡張データを使用して動的なページを作成します。",
+        "tips": "ランディング ページをプロファイルにリンクし、カスタム パスと動的コンテンツを設定できます。Selldone はアイテムの動的リンクを生成します。"
+      }
+    },
+    "notifications": {
+      "add": {
+        "message": "含まれているアイテムが正常に追加されました。"
+      },
+      "edit": {
+        "message": "含まれているアイテムが正常に更新されました。"
+      }
+    }
+  },
+  "shop_logistic_returns": {
+    "title": "返品された注文",
+    "subtitle": "顧客は物理的な注文を返品することができ、注文処理ページで返品リクエストを確認したり、返品された注文の完全なリストにここからアクセスしたりできます。"
+  },
+  "referral_fees": {
+    "title": "手数料",
+    "subtitle": "紹介者から獲得したすべてのコミッションのリスト。コミッションが承認されてウォレットに送金されるまでに最大 30 日かかります。"
+  },
+  "referral_wallets": {
+    "title": "財布",
+    "subtitle": "ここで獲得した手数料を確認できます。手数料は銀行口座または Selldone ウォレットに送金できます。",
+    "no_commission_yet": "まだ手数料を受け取っていません。",
+    "no_wallet": "財布がない！",
+    "withdraw_dialog": {
+      "title": "手数料の引き出し",
+      "need_bank_info_message": "まず銀行情報を入力してください。",
+      "to_wallet": {
+        "title": "ウォレットへ",
+        "subtitle": "このオプションを使用すると、手数料を Selldone ウォレットに転送できます。ウォレットがギフト ウォレットとして接続されており、同じ通貨で動作していることを確認してください。"
+      },
+      "to_bank": {
+        "title": "銀行へ",
+        "subtitle": "このオプションを使用すると、手数料を Selldone ウォレットに転送できます。ウォレットがギフト ウォレットとして接続されており、同じ通貨で動作していることを確認してください。"
+      },
+      "inputs": {
+        "verify_to_wallet": {
+          "true_description": "手数料をSelldoneウォレットに送金したいです。"
+        },
+        "verify_to_bank": {
+          "true_description": "銀行情報を確認し、手数料を銀行口座に振り込みたいです。"
+        }
+      },
+      "actions": {
+        "withdraw_to_wallet": "ウォレットに引き出す",
+        "withdraw_to_bank": "銀行に引き出す"
+      }
+    },
+    "notifications": {
+      "request_transfer_to_bank_success": "リクエストは正常に受信されました。確認させていただきます。"
+    }
+  },
+  "monetize_referral": {
+    "copy_box": {
+      "message": "任意の selldone URL に<b>?ref={code}</b>を追加できます。"
+    },
+    "intro": {
+      "title": "Selldoneアフィリエイトプログラムに参加する",
+      "message": "Selldone アフィリエイト プログラムはシンプルでわかりやすく、簡単に稼げるように設計されています。独自のアフィリエイト リンクを共有して Selldone に新規ユーザーを招待すると、そのユーザーが行うすべての取引から永久にコミッションを獲得できます。これには、サブスクリプション、サービス料金、ショップのアップグレード、およびその他のすべての収益源からの収益が含まれます。時間や収益の制限なしに収益の分配を獲得し始めましょう。参加して、ネットワークを安定した収入に変えましょう。",
+      "why_join_selldone_affiliate": "なぜこれが特別な機会なのでしょうか?",
+      "reasons": [
+        "永遠に続きます！",
+        "すべてのサブスクリプション料金と取引手数料をカバーします。文字通り、Selldone のユーザーのすべての支払いが対象です。",
+        "あなたのリンクを使用して登録した人には、無料の 99 ドルのバウチャーをお送りします。",
+        "ティアがアップグレードされると、以前に紹介したすべてのユーザーから新しいレートで報酬を獲得できます。"
       ]
     }
   }

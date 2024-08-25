@@ -382,5 +382,19 @@ export default {
   "marketplace": "Marknadsbyggare",
   "connect_os": {
     "subtitle": "Anslut till dropshipping-leverantörer med ett klick. Du kan ansluta till POD som Prinful eller Import Woocomerce store gratis."
+  },
+  "ai": {
+    "title": "AI",
+    "sub_title": "Copilot och AI-assistentfunktioner.",
+    "bg_remove": "AI Ta bort bakgrund",
+    "bg_remove_info": "Ta bort bakgrund automatiskt från bilder.",
+    "content_creation": "Skapande av AI-innehåll",
+    "content_creation_info": "Skapa innehåll för produkter automatiskt.",
+    "add_product": "AI produktassistans",
+    "add_product_info": "Lägg till produkt automatiskt med bild och röst.",
+    "magic_ai_buttons": "Magiska AI-knappar",
+    "magic_ai_buttons_info": "Ta bort bakgrund automatiskt, massöversätt, generera innehåll och mer med ett klick.",
+    "translate": "AI Översätt",
+    "translate_info": "Översätt innehåll till valfritt språk."
   }
 };

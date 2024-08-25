@@ -139,6 +139,14 @@ export default {
     "step3": {
       "title": "Étape 3. Définir les enregistrements DNS",
       "msg": "Félicitations, il ne vous reste plus qu'à configurer le DNS de votre fournisseur de services de domaine et à ajouter le domaine à votre compte."
+    },
+    "buy_domain_step": {
+      "title": "Étape 1. Acheter un domaine",
+      "msg": "Si vous n'avez pas encore votre domaine personnel, il est temps d'acheter votre propre domaine sur des sites comme namecheap.com ."
+    },
+    "set_dns_step": {
+      "title": "Étape 2. Définir les enregistrements DNS",
+      "msg": "Félicitations, il ne vous reste plus qu'à configurer le DNS de votre fournisseur de services de domaine et à ajouter le domaine à votre compte."
     }
   },
   "payment": {
@@ -175,11 +183,35 @@ export default {
   "customize": {
     "template": {
       "title": "Modèles",
-      "msg": "Démarrez votre boutique avec nos modèles prédéfinis ! Diversifiez-vous facilement en ajoutant plusieurs pages, chacune présentant son propre design unique."
+      "msg": "Démarrez votre boutique avec nos modèles prédéfinis ! Diversifiez-vous facilement en ajoutant plusieurs pages, chacune présentant son propre design unique.",
+      "action": "Voir tous les modèles..."
     },
     "colors": {
       "title": "Couleurs et mise en page",
-      "msg": "Vous cherchez à adapter votre page produit et l’agencement de votre boutique pour mieux correspondre à votre vision ? Plongez dans la section de personnalisation du thème de votre boutique et regardez la magie se déployer sans effort !"
+      "msg": "Vous cherchez à adapter votre page produit et l’agencement de votre boutique pour mieux correspondre à votre vision ? Plongez dans la section de personnalisation du thème de votre boutique et regardez la magie se déployer sans effort !",
+      "action": "Personnaliser les couleurs et le thème"
+    },
+    "tour": {
+      "title": "Tournée",
+      "subtitle": "Découvrez ce qui est possible ici et qui n'est disponible nulle part ailleurs.",
+      "avocado": {
+        "title": "Avocat – Vendre sans ajouter de produit",
+        "description": "Avec Avocado, vous pouvez proposer des services ou des produits sans prix ni détails prédéfinis. Créez un formulaire personnalisé pour que vos clients puissent demander des services ou des produits. Une fois leur demande soumise, vous pouvez fixer le prix et traiter le paiement. Partagez le formulaire sur vos réseaux sociaux, ce qui permet aux clients d'ajouter des articles, de télécharger des images et de passer des commandes facilement.",
+        "action": "En savoir plus sur l'avocat"
+      },
+      "marketplace": {
+        "title": "Marché multi-fournisseurs et paiement automatique",
+        "description": "Créez une place de marché florissante avec Selldone en ajoutant plusieurs fournisseurs. Les fournisseurs peuvent répertorier leurs produits et vous pouvez définir un taux de commission pour chaque vente. Lorsqu'un client effectue un achat, le fournisseur reçoit directement le paiement, gère la commande via son panneau dédié et vous gagnez une commission via la fonction de paiement automatique.",
+        "action": "Paiement des vendeurs automobiles"
+      },
+      "business_model": {
+        "title": "Soutenir des modèles commerciaux complexes",
+        "description": "Selldone prend en charge les modèles commerciaux simples et complexes, vous permettant de vous adapter selon vos besoins. Configurez tout en arrière-plan sans installer de plug-ins ou d'applications supplémentaires, garantissant ainsi des transitions et des opérations fluides."
+      },
+      "gift_shopping": {
+        "title": "Restriction sur les emplacements des produits et achats de cadeaux",
+        "description": "Définissez des restrictions d'emplacement pour chaque produit en spécifiant plusieurs pays, codes postaux et villes. Cette fonctionnalité est idéale pour créer une expérience d'achat de cadeaux personnalisée ou pour limiter la disponibilité des produits à des emplacements spécifiques, comme dans les restaurants."
+      }
     }
   },
   "business": {

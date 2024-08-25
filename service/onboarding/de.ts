@@ -139,6 +139,14 @@ export default {
     "step3": {
       "title": "Schritt 3. Legen Sie DNS-Einträge fest",
       "msg": "Herzlichen Glückwunsch, jetzt müssen Sie nur noch DNS bei Ihrem Domain-Dienstanbieter konfigurieren und die Domain zu Ihrem Konto hinzufügen."
+    },
+    "buy_domain_step": {
+      "title": "Schritt 1. Kaufen Sie eine Domain",
+      "msg": "Wenn Sie noch keine persönliche Domain haben, ist es an der Zeit, Ihre eigene Domain von Websites wie namecheap.com zu kaufen."
+    },
+    "set_dns_step": {
+      "title": "Schritt 2. DNS-Einträge festlegen",
+      "msg": "Herzlichen Glückwunsch, jetzt müssen Sie nur noch DNS bei Ihrem Domain-Dienstanbieter konfigurieren und die Domain zu Ihrem Konto hinzufügen."
     }
   },
   "payment": {
@@ -175,11 +183,35 @@ export default {
   "customize": {
     "template": {
       "title": "Vorlagen",
-      "msg": "Starten Sie Ihren Shop mit unseren vorgefertigten Vorlagen! Durch das Hinzufügen mehrerer Seiten, von denen jede ein eigenes, einzigartiges Design aufweist, können Sie die Seite ganz einfach abwechslungsreicher gestalten."
+      "msg": "Starten Sie Ihren Shop mit unseren vorgefertigten Vorlagen! Durch das Hinzufügen mehrerer Seiten, von denen jede ein eigenes, einzigartiges Design aufweist, können Sie die Seite ganz einfach abwechslungsreicher gestalten.",
+      "action": "Alle Vorlagen anzeigen..."
     },
     "colors": {
       "title": "Farben und Layout",
-      "msg": "Möchten Sie Ihre Produktseite und Ihr Shop-Layout so anpassen, dass sie besser zu Ihren Vorstellungen passen? Tauchen Sie ein in den Bereich zur Themenanpassung in Ihrem Shop und beobachten Sie, wie sich die Magie mühelos entfaltet!"
+      "msg": "Möchten Sie Ihre Produktseite und Ihr Shop-Layout so anpassen, dass sie besser zu Ihren Vorstellungen passen? Tauchen Sie ein in den Bereich zur Themenanpassung in Ihrem Shop und beobachten Sie, wie sich die Magie mühelos entfaltet!",
+      "action": "Farben und Design anpassen"
+    },
+    "tour": {
+      "title": "Tour",
+      "subtitle": "Entdecken Sie, was hier möglich ist, was es sonst nirgendwo gibt.",
+      "avocado": {
+        "title": "Avocado - Verkaufen, ohne ein Produkt hinzuzufügen",
+        "description": "Mit Avocado können Sie Dienstleistungen oder Produkte ohne vordefinierte Preise oder Details anbieten. Erstellen Sie ein benutzerdefiniertes Formular, mit dem Ihre Kunden Dienstleistungen oder Produkte anfordern können. Sobald sie ihre Anfrage abgeschickt haben, können Sie den Preis festlegen und die Zahlung abwickeln. Teilen Sie das Formular in Ihren sozialen Medien, sodass Kunden problemlos Artikel hinzufügen, Bilder hochladen und Bestellungen aufgeben können.",
+        "action": "Lesen Sie mehr über Avocado"
+      },
+      "marketplace": {
+        "title": "Marktplatz mit mehreren Anbietern und automatische Auszahlung",
+        "description": "Bauen Sie mit Selldone einen florierenden Marktplatz auf, indem Sie mehrere Anbieter hinzufügen. Anbieter können ihre Produkte auflisten und Sie können für jeden Verkauf eine Provision festlegen. Wenn ein Kunde einen Kauf tätigt, erhält der Anbieter die Zahlung direkt, verwaltet die Bestellung über sein spezielles Panel und Sie verdienen eine Provision über die automatische Auszahlungsfunktion.",
+        "action": "Auszahlung an automatische Verkäufer"
+      },
+      "business_model": {
+        "title": "Unterstützen Sie komplexe Geschäftsmodelle",
+        "description": "Selldone unterstützt sowohl einfache als auch komplexe Geschäftsmodelle und ermöglicht Ihnen, diese nach Bedarf anzupassen. Konfigurieren Sie alles im Hintergrund, ohne zusätzliche Plugins oder Apps installieren zu müssen, und sorgen Sie so für nahtlose Übergänge und Abläufe."
+      },
+      "gift_shopping": {
+        "title": "Einschränkung der Produktstandorte und Geschenkeinkäufe",
+        "description": "Legen Sie Standortbeschränkungen für jedes Produkt fest, indem Sie mehrere Länder, Postleitzahlen und Städte angeben. Diese Funktion eignet sich perfekt, um ein personalisiertes Einkaufserlebnis für Geschenke zu schaffen oder die Produktverfügbarkeit auf bestimmte Standorte zu beschränken, z. B. für Restaurants."
+      }
     }
   },
   "business": {

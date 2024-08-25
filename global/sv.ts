@@ -642,7 +642,77 @@ export default {
     "clusters": "Kluster",
     "subscriptions": "Prenumerationer",
     "spam": "Spam",
-    "video": "Video"
+    "video": "Video",
+    "fulfillment": "Uppfyllelse",
+    "channels_overview": "Kanalöversikt",
+    "no_vendors": "Inga försäljare",
+    "ends_in": "Slutar i",
+    "current": "Nuvarande",
+    "important": "Viktig",
+    "web": "Web",
+    "payout": "Utbetalning",
+    "vendor_panel": "Försäljarpanel",
+    "vendors_panel": "Leverantörspanel",
+    "syncing": "Synkroniseras",
+    "level": "Nivå",
+    "available": "Tillgängliga",
+    "limited": "Begränsad",
+    "management": "Förvaltning",
+    "topics": "Ämnen",
+    "posts": "Inlägg",
+    "replies": "Svar",
+    "reports": "Rapporter",
+    "post": "Posta",
+    "impressions": "Intryck",
+    "resources": "Resurser",
+    "engine": "Motor",
+    "attachments": "Bilagor",
+    "owner": "Ägare",
+    "wholesaler": "Grossist",
+    "hidden": "Dold",
+    "visible": "Synlig",
+    "warehouse": "Lager",
+    "billed_yearly": "Faktureras årligen",
+    "my_wallet": "Min plånbok",
+    "boosted": "Förstärkt",
+    "cashback": "Cashback",
+    "leads": "Leder",
+    "invalid": "Ogiltig",
+    "refund_date": "Återbetalningsdatum",
+    "refund": "Återbetalning",
+    "items": "Föremål",
+    "incentives": "Incitament",
+    "recurring_payment": "Återkommande betalning",
+    "pricing": "Prissättning",
+    "purchase": "Köp",
+    "confirmation": "Bekräftelse",
+    "manage": "Klara av",
+    "warning": "Varning",
+    "custom": "Beställnings",
+    "read": "Läsa",
+    "write": "Skriva",
+    "root": "Rot",
+    "nothing_set": "Inget satt!",
+    "installment": "Avbetalning",
+    "split_payment": "Delad betalning",
+    "profiles": "Profiler",
+    "location_limited": "Plats begränsat",
+    "no_limit": "Ingen gräns",
+    "max_range": "Max räckvidd",
+    "settled_date": "Fastställt datum",
+    "paid_date": "Betalt datum",
+    "physical_orders": "Fysiska order",
+    "virtual_orders": "Virtuella beställningar",
+    "file_orders": "Arkivera beställningar",
+    "service_orders": "Serviceorder",
+    "subscription_orders": "Prenumerationsbeställningar",
+    "avocado_orders": "Avokado beställningar",
+    "hyper_orders": "Hyperordrar",
+    "connected": "Ansluten",
+    "system": "System",
+    "unknown": "Okänd",
+    "week": "Vecka",
+    "agencies": "Byråer"
   },
   "dialogs": {
     "delete": {
@@ -773,7 +843,20 @@ export default {
     "buy": "köpa",
     "view_all": "Visa alla",
     "view_now": "Visa nu",
-    "paste": "Klistra"
+    "paste": "Klistra",
+    "edit_address": "Redigera adress",
+    "resend": "Skicka igen",
+    "deploy_now": "Distribuera nu",
+    "become_premium": "Bli Premium",
+    "bulk_export": "Bulkexport",
+    "see_all": "Se alla",
+    "visit": "Besök",
+    "rate_now": "Betygsätt nu",
+    "load": "Ladda",
+    "duplicate": "Duplicera",
+    "connect": "Ansluta",
+    "connect_now": "Anslut nu",
+    "verify_now": "Verifiera nu"
   },
   "instance_message_title": "Skicka snabbmeddelande",
   "instance_message": "Hej {name}, Jag heter {author} från {company}.",
@@ -876,7 +959,8 @@ export default {
     "RequireAction": "Åtgärd krävs",
     "Processing": "Bearbetning",
     "Canceled": "Inställt",
-    "Succeeded": "Lyckades"
+    "Succeeded": "Lyckades",
+    "RequireCapture": "Kräv fångst"
   },
   "placeholders": {
     "name": "Jon Cox",
@@ -885,7 +969,14 @@ export default {
     "language": "Välj språk..",
     "friend_email": "Din väns e-post...",
     "friend_name": "Välja. Din väns namn",
-    "select_date": "Välj ett datum..."
+    "select_date": "Välj ett datum...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Välj ett kluster...",
+    "select_products": "Välj produkter",
+    "birthday": "Välj födelsedag",
+    "select_category": "Välj en kategori...",
+    "select_a_country": "Välj ett land...",
+    "filter_country": "Filtrera efter land..."
   },
   "notification": {
     "confirm": "Bekräfta",
@@ -1159,7 +1250,9 @@ export default {
     "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN"
   },
   "variants": {
     "color": "Färg",
@@ -1282,7 +1375,10 @@ export default {
       "title": "Schema för innehållssläpp",
       "publish_at": "Publicera på",
       "last_edit": "Senaste redigering",
-      "view_action": "Se artikel"
+      "view_action": "Se artikel",
+      "no_article": "Ingen planerad artikel!",
+      "current_article": "Aktuell artikel",
+      "article_for_product": "Artikel för produkt"
     },
     "notifications": {
       "update_success_title": "Skicka information",
@@ -1354,7 +1450,8 @@ export default {
     "first_send": "Första inlägg",
     "comment_at": "På",
     "edit_comment": "Redigera kommentar",
-    "my_comments": "Mina kommentarer"
+    "my_comments": "Mina kommentarer",
+    "verified_buyer": "Verifierad köpare"
   },
   "customer_club": {
     "bronze": "Brons",
@@ -1469,7 +1566,8 @@ export default {
     "canceled": "Inställt",
     "cod": "Betala vid leverans",
     "receipt_added": "Kvitto tillagt",
-    "payment_processing": "Betalningen behandlas"
+    "payment_processing": "Betalningen behandlas",
+    "payment_require_capture": "Kräv fångst"
   },
   "basket_delivery_state": {
     "rejected": "avvisade",
@@ -1971,5 +2069,53 @@ export default {
     "summer": "Sommar",
     "autumn": "Höst",
     "winter": "Vinter"
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "Se meddelandehistoriken mellan dig och kunden."
+      },
+      "new_message": {
+        "subtitle": "Du kan skicka meddelanden direkt till kunder här. När du skickar ett meddelande får kunden ett e-postmeddelande efter 20 minuter. Detta meddelande kommer endast att skickas en gång var 24:e timme."
+      }
+    },
+    "customer": {
+      "history": {
+        "subtitle": "Se meddelandehistoriken mellan dig och säljaren."
+      },
+      "new_message": {
+        "subtitle": "Du kan skicka meddelanden direkt till oss här."
+      }
+    }
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "På begäran",
+      "desc": "som hemreparationer, lackering, bilreparationer m.m."
+    },
+    "BOOKING": {
+      "title": "Bokning",
+      "desc": "Som att boka hotellrum eller villa."
+    },
+    "APPOINTMENT": {
+      "title": "Utnämning",
+      "desc": "Som ett möte med djurvård eller personlig träning."
+    },
+    "RENTAL": {
+      "title": "Uthyrning",
+      "desc": "Som att hyra en plats eller en bil."
+    },
+    "SUBSCRIPTION": {
+      "title": "Prenumeration",
+      "desc": "Som klubbmedlemskap eller onlinecoaching."
+    },
+    "CHARGE": {
+      "title": "Avgift",
+      "desc": "Som att ladda ett konto eller ta betalt för att använda en applikation."
+    },
+    "CUSTOM": {
+      "title": "Beställnings",
+      "desc": "Välj det här alternativet om tjänsten du tillhandahåller inte är någon av ovanstående."
+    }
   }
 };

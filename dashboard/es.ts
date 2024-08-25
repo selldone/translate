@@ -7,14 +7,18 @@ export default {
     "start_free": "Empieza gratis",
     "featured_apps": "Aplicaciones destacadas",
     "more_apps": "Más aplicaciones",
-    "my_public_profile": "Mi página de perfil público"
+    "my_public_profile": "Mi página de perfil público",
+    "product_admin": "Administrador de productos"
   },
   "numbers": {
     "infinite": "Ilimitado"
   },
   "error": {
     "not_fount_data": "¡Datos no encontrados!",
-    "license_max_limit": "¡Tu licencia alcanzó el límite!"
+    "license_max_limit": "¡Tu licencia alcanzó el límite!",
+    "no_read_access": "Sin acceso de lectura",
+    "no_write_access": "Sin acceso de escritura",
+    "no_access": "Sin acceso"
   },
   "time_spans": {
     "days_range": "Rango de días",
@@ -240,7 +244,9 @@ export default {
         "buys": "compras",
         "payments": "Pagos",
         "orders": "Pedidos",
-        "currency": "Divisa"
+        "currency": "Divisa",
+        "no_payment": "¡Sin pago!",
+        "no_purchase": "¡Sin compra!"
       }
     }
   },
@@ -283,7 +289,8 @@ export default {
       "apps": "aplicaciones",
       "pos": "POS",
       "seo": "SEO",
-      "localization": "Localización"
+      "localization": "Localización",
+      "classification": "Clasificación"
     },
     "dashboard": {
       "title": "Panel de control de la tienda",
@@ -419,6 +426,10 @@ export default {
         "orders": "Pedidos",
         "payments": "Pagos",
         "no_visitor_today": "No tuviste visitas hoy."
+      },
+      "channels": {
+        "title": "Canales de adquisición",
+        "subtitle": "Tu negocio está creciendo. Aquí tienes el informe de tus canales de adquisición de clientes."
       }
     },
     "products": {
@@ -452,7 +463,41 @@ export default {
         "views": "Puntos de vista",
         "views_unit": "Veces"
       },
-      "menu_advanced_options": "Opciones avanzadas"
+      "menu_advanced_options": "Opciones avanzadas",
+      "products_rss": {
+        "title": "Productos RSS",
+        "subtitle": "Importar productos a Google, Meta, ..."
+      },
+      "products_api": {
+        "title": "API de productos",
+        "subtitle": "Importación de productos a través de una llamada API de acceso público."
+      },
+      "google_sheet": {
+        "action": "Hoja vinculada",
+        "tooltip": "Los productos de esta tienda están vinculados a una hoja de cálculo de Google en Google Drive."
+      },
+      "show_deletes": {
+        "false_title": "Ocultar eliminado",
+        "true_title": "Mostrar eliminado"
+      },
+      "show_vendors": {
+        "false_title": "Ocultar vendedores",
+        "false_description": "Mostrar todos los proveedores, ⌘Ctrl+1",
+        "true_title": "Mostrar vendedores"
+      },
+      "show_notes": {
+        "false_title": "Ocultar notas",
+        "false_description": "Mostrar todas las notas, ⌘Ctrl+2",
+        "true_title": "Notas del programa"
+      },
+      "rss_dialog": {
+        "title": "Productos RSS",
+        "subtitle": "Utilice esta fuente RSS para mantener una lista actualizada de todos los productos."
+      },
+      "api_dialog": {
+        "title": "API de productos",
+        "subtitle": "Utilice esta fuente API para mantener actualizada su lista de productos. Proporciona una API de acceso público para obtener productos de su tienda, lo que la hace ideal para sitios web de comparación y listado de productos."
+      }
     },
     "blogs": {
       "new": "escribir nuevo",
@@ -515,7 +560,8 @@ export default {
         "tax": "Impuesto",
         "drop_shipping": "Recibos de revendedor",
         "reseller_accounts": "cuentas de revendedor",
-        "valuations": "Valoraciones"
+        "valuations": "Valoraciones",
+        "customer_wallets": "Carteras de clientes"
       },
       "invoice": {
         "title": "Comprar carteras vinculadas",
@@ -687,7 +733,23 @@ export default {
           "cod_false": "Aceptar pago en línea solamente",
           "cod_true_message": "Asegúrese de que su servicio de envío acepte COD."
         }
-      }
+      },
+      "restriction": {
+        "title": "Restricción de envío",
+        "subtitle": "¡Puede implementar restricciones para garantizar que solo los clientes dentro de las áreas de envío designadas puedan realizarle compras!",
+        "no_enable_shipping_error": "¡Nadie puede comprarte porque no tienes un método de envío habilitado!",
+        "customer_must_select_a_shipping_msg": "El cliente debe seleccionar un método de envío para realizar el pedido.",
+        "customer_can_order_without_shipping_method_msg": "El cliente puede realizar el pedido incluso si no se admite ningún método de envío para la ubicación seleccionada.",
+        "inputs": {
+          "restriction": {
+            "false_description": "Los clientes aún pueden realizar pedidos incluso si no han seleccionado ningún método de envío específico.",
+            "false_title": "Aceptar todos los pedidos",
+            "true_title": "Orden de aceptación restringida",
+            "true_description": "Los clientes deben elegir una opción de envío o recogida para completar su compra."
+          }
+        }
+      },
+      "no_multi_warehouse_support_message": "Para simplificar, esta función no está disponible en las tiendas normales."
     },
     "users": {
       "menu": {
@@ -1062,24 +1124,46 @@ export default {
       "product_name": "Nombre del producto*",
       "product_name_placeholder": "El nombre de su producto aquí..",
       "product_code": "Código de producto (inglés)",
-      "sku": "SKU",
+      "sku": {
+        "label": "SKU",
+        "message": "Unidad de mantenimiento de existencias"
+      },
       "sku_message": "Unidad de mantenimiento de stock",
-      "mpn": "MPN",
+      "mpn": {
+        "label": "MPN",
+        "message": "Número de pieza del fabricante"
+      },
       "mpn_message": "Número de pieza del fabricante",
-      "status": "Estado",
+      "status": {
+        "title": "Estado",
+        "subtitle": "El estado del producto determina su disponibilidad en línea y en la tienda. Para crear un borrador de producto, simplemente cambie su estado a \"Inactivo\"."
+      },
       "external_link": "Enlace externo",
-      "brand": "Marca",
+      "brand": {
+        "label": "Marca",
+        "placeholder": "Marca Ej. Manzana.. (Opcional)"
+      },
       "brand_placeholder": "Marca Ej. Manzana.. (Opcional)",
-      "warranty": "Garantía",
+      "warranty": {
+        "subtitle": "Establezca la garantía y el estado del producto, ya que esta información sobre la garantía se mostrará al cliente y ayudará a establecer el plazo dentro del cual se pueden devolver los productos después de la compra.",
+        "label": "Garantía",
+        "placeholder": "Garantía dorada de 24 meses. (Opcional)"
+      },
       "is_original": "¿Es este un producto original?",
       "is_original_message": "Si no configura su producto original, se mostrará la insignia falsa para este producto.",
       "return_warranty": "¿Cuántos días tiene garantía de devolución este producto?",
       "warehouse_section": "Almacén y Fabricación",
       "conditions_section": "Condiciones del producto",
       "warranty_section": "Garantía y Entrega",
-      "unit": "unidad de producto",
+      "unit": {
+        "subtitle": "Puede personalizar la visualización de precios y elementos de llamada a la acción en la página del producto."
+      },
       "unit_message": "Introduzca la unidad si es necesario. Ej: KG, Metro, ...",
-      "condition": "Estado del producto en tu tienda",
+      "condition": {
+        "label": "Estado del producto en tu tienda",
+        "message": "Por favor, elija la condición de este producto.",
+        "subtitle": "Informe a sus clientes sobre la condición y la marca del producto que está ofreciendo."
+      },
       "condition_message": "Debe elegir uno de los valores de este campo.",
       "unit_section": "unidad de producto",
       "unit_float": "Unidad flotante (pronto)",
@@ -1103,6 +1187,46 @@ export default {
         "single_vendor_desc": "Este producto pertenece a un proveedor y el proveedor seleccionado puede gestionarlo.",
         "multi_vendors_title": "Múltiples proveedores",
         "multi_vendors_desc": "Este producto pertenece al mercado y solo se puede editar en el panel del mercado."
+      },
+      "category_input_msg": "Vacío: En la raíz de la tienda",
+      "unit_input": "unidad de producto",
+      "category": {
+        "subtitle": "Configure la categoría y el título que se mostrarán en su listado."
+      },
+      "custom_pricing": {
+        "title": "Formulario de precios personalizado",
+        "subtitle": "Puede crear o asignar una valoración (un formulario de entrada de precios) al producto, y sus clientes pueden seleccionar entre variantes o personalizar su mercancía mediante un formulario de entrada intuitivo.",
+        "valuation_need_saved_product_message": "Primero guarde el producto y luego podrá asignar un modelo de valoración.",
+        "assign_valuation_message": "Por favor, asigne un modelo de valoración a este producto.",
+        "edit_pricing_action": "Editar formulario de precios",
+        "add_pricing_action": "Crear nuevo formulario de precios"
+      },
+      "action": {
+        "title": "Botón de compra personalizado",
+        "message": "Puedes cambiar el ícono siguiendo este patrón: {icon name} título...",
+        "placeholder": "Introduzca una llamada a la acción...",
+        "multi_language_dialog_title": "Título de botón de compra personalizado"
+      },
+      "warehouse": {
+        "subtitle": "Esta información es utilizada por el sistema de gestión del almacén y sirve para identificar globalmente el producto."
+      },
+      "gtin": {
+        "hint": "Los valores admitidos son UPC (América del Norte, 12 dígitos), EAN (Europa, 13 dígitos), JAN (Japón, 8 o 13 dígitos), ISBN (libros, 13 dígitos).",
+        "label": "Número de artículo comercial global del producto",
+        "placeholder": "Número de comercio global aquí. (Opcional)"
+      },
+      "hsn": {
+        "hint": "HSN, o Sistema Armonizado de Nomenclatura, es un sistema de clasificación estandarizado internacionalmente para categorizar bienes y productos.",
+        "placeholder": "Código HSN de 6 a 16 dígitos (opcional)",
+        "label": "HSN"
+      },
+      "profiles": {
+        "title": "Perfiles",
+        "subtitle": "Puedes definir garantía, política de devolución, envío y guía y asignarlos a este producto. Se mostrarán como nuevas pestañas en la página del producto."
+      },
+      "shortcuts": {
+        "title": "Asignar producto a categorías adicionales",
+        "subtitle": "Esta función le permite incluir el producto en varias categorías y conservar su ubicación en la categoría principal establecida en Producto > Editar > Categoría. Básicamente, funciona de manera similar a la creación de \"accesos directos\" en los sistemas operativos, lo que permite que el producto aparezca en categorías adicionales específicas."
       }
     },
     "rating_pros_cons": {
@@ -1181,12 +1305,55 @@ export default {
         "code_input": "ID del Producto",
         "code_input_message": "Código de producto: P0000 ...",
         "spec_view_title": "Especificaciones del producto seleccionado",
-        "set_spec_action": "Especificaciones técnicas duplicadas"
+        "set_spec_action": "Especificaciones técnicas duplicadas",
+        "spec_view_subtitle": "Las especificaciones se han importado del producto elegido."
       },
       "notifications": {
         "enter_group_title_error": "Introduzca el valor del título",
         "enter_item_title_and_value_error": "Ingrese el título y el valor de la característica",
         "spec_saved_success": "Especificaciones del producto guardadas."
+      },
+      "subtitle": "Introduzca aquí las especificaciones del producto. Esta información se mostrará a los clientes y también podrá utilizarse en el sistema de filtrado inteligente de la categoría.",
+      "manual": {
+        "title": "A mano",
+        "subtitle": "Agregue especificaciones de producto manualmente definiendo grupos y pares clave-valores.",
+        "add_group_action": "Añadir grupo",
+        "add_item_action": "Añadir valor de especificación"
+      },
+      "import": {
+        "subtitle": "Puede importar especificaciones técnicas de productos similares.",
+        "action_title": "Importar",
+        "action_subtitle": "Clonar especificación de otro producto."
+      },
+      "ai": {
+        "title": "AI",
+        "subtitle": "Puede crear automáticamente especificaciones de producto enviando los datos sin procesar del producto en formato de texto.",
+        "action_title": "Generación automática por IA",
+        "action_subtitle": "Crear especificaciones de producto mediante indicaciones abstractas."
+      },
+      "dialog_ai": {
+        "title": "Generar automáticamente especificaciones de productos",
+        "prompt": {
+          "title": "Descripción general del producto",
+          "subtitle": "Proporcione una descripción breve y clara del producto, destacando sus características y detalles principales. Esta información se utilizará para generar automáticamente las especificaciones del producto."
+        },
+        "generated_spec": {
+          "title": "Especificaciones generadas por IA",
+          "subtitle": "Estas especificaciones fueron generadas por inteligencia artificial."
+        },
+        "inputs": {
+          "prompt": {
+            "label": "Detalles del producto",
+            "placeholder": "Describe el producto aquí..."
+          }
+        },
+        "actions": {
+          "run": {
+            "title": "Generar especificaciones",
+            "subtitle": "Haga clic para crear automáticamente especificaciones de producto a partir de la descripción general proporcionada."
+          },
+          "add_generated_spec": "Agregar especificaciones generadas"
+        }
       }
     },
     "edit_images": {
@@ -1204,6 +1371,24 @@ export default {
       "video": {
         "title": "Video",
         "sub_title": "Primero, cargue el video de su producto en Youtube y luego coloque la URL del video aquí."
+      },
+      "change_bg_ai": {
+        "title": "Crear imagen con nuevo fondo",
+        "inputs": {
+          "prompt": {
+            "label": "Descripción de antecedentes",
+            "placeholder": "Describe el fondo deseado..."
+          }
+        },
+        "actions": {
+          "reimagine": {
+            "title": "Generar nueva imagen",
+            "subtitle": "Reimagina la imagen completa con un nuevo fondo."
+          },
+          "replace": {
+            "subtitle": "Reemplazar el fondo existente."
+          }
+        }
       }
     },
     "pricing": {
@@ -1227,14 +1412,33 @@ export default {
       "variant_pricing_message": "Al seleccionar esta opción, el precio de esta variante se puede establecer independientemente del producto principal.",
       "price_label_input": "Etiqueta de precio",
       "price_label_message": "Agregue información adicional sobre el precio como ($1.5/Fl Oz). Casos de uso: supermercado, FMCG.",
-      "add_price_label_action": "Agregar etiqueta de precio"
+      "add_price_label_action": "Agregar etiqueta de precio",
+      "subtitle": {
+        "marketplace": "Dentro del mercado, el precio principal del producto que se muestra es el precio de lista, mientras que el precio real se determina en función de los registros de la relación entre el proveedor y el producto.",
+        "subscription": "Para las suscripciones, solo se muestra el precio de lista, mientras que el costo real se determinará en función del plan de suscripción seleccionado.",
+        "service": "En el caso de los productos basados en servicios, los precios que se indican son solo a modo de ejemplo y brindan un costo estimado del servicio. El precio real del servicio lo determinará usted una vez que el cliente haya realizado su pedido (al finalizar la compra).",
+        "file": "Esto se refiere al precio listado y real del archivo, que los clientes deben pagar para poder acceder a los archivos.",
+        "default": "Esto se refiere al precio indicado del producto y también tiene en cuenta el precio de cualquier variante que no tenga precios separados."
+      },
+      "extra_pricings": {
+        "title": "Añadir precio adicional",
+        "subtitle": "Aplicar precios variables en función de la cantidad adquirida."
+      },
+      "vendor": {
+        "title": "Precios del proveedor",
+        "subtitle": "Este precio se mostrará únicamente en la lista de productos. Puede establecer el precio del proveedor en la pestaña Producto > Proveedores.",
+        "manage_vendors": "Administrar proveedores",
+        "vendor_product_pricing_link": "El precio del producto del vendedor está conectado. Si se cambia el precio de venta aquí, se afectarán los productos del vendedor sin variantes o aquellos con variantes que no tienen su propio precio (usando el mismo precio que el producto principal). Este precio se considerará el precio del mercado y el precio del vendedor se establecerá en función del modelo de precios o del margen de beneficio del mercado anterior.",
+        "vendor_variant_pricing_link": "Si se cambia el precio de la variante aquí, se afectará el precio de los productos del vendedor con la misma variante. Este precio se considerará el precio del mercado y el precio del vendedor se establecerá de acuerdo con el modelo de precios o el margen de beneficio del mercado anterior."
+      }
     },
     "inputs_edit": {
       "title": "Formulario de entrada de información del comprador",
       "sub_title": "Puede crear un formulario de entrada de datos para cada producto, de modo que los compradores le envíen información al comprar un producto. Por ejemplo, esta información podría ser un nombre para un grabado en una piedra.",
       "message_input": "Mensaje al usuario",
       "message_input_message": "Este mensaje se le mostrará al cliente al comprar productos.",
-      "inputs_form": "Estructura de la información (entrada)"
+      "inputs_form": "Estructura de la información (entrada)",
+      "inputs_hint": "Tiene la opción de configurar un formulario personalizado para recopilar detalles de sus clientes cuando estén listos para realizar un pedido."
     },
     "extra_edit": {
       "physical": {
@@ -1244,6 +1448,13 @@ export default {
       "notifications": {
         "save_title": "Embalaje actualizado",
         "save_msg": "Información del empaque del producto actualizada con éxito."
+      },
+      "order_limit": {
+        "title": "Límites de pedidos",
+        "subtitle": "Si eres mayorista o hay un límite mínimo o máximo en la cantidad de este artículo por pedido, puedes especificarlo aquí.",
+        "no_limit": "Sin límite",
+        "minimum_purchase_quantity": "Cantidad mínima de compra",
+        "maximum_purchase_quantity": "Cantidad máxima de compra"
       }
     },
     "variants": {
@@ -1251,7 +1462,8 @@ export default {
     },
     "delete_product": {
       "title": "Quitar producto",
-      "message": "¿Quieres eliminar <b>{product_title}</b> ?"
+      "message": "¿Quieres eliminar <b>{product_title}</b> ?",
+      "tips": "Si elimina accidentalmente un producto, puede recuperarlo navegando a su Tienda > Productos, habilitando Mostrar artículos eliminados, haciendo clic derecho en el producto y seleccionando Restaurar."
     }
   },
   "product_admin": {
@@ -1275,7 +1487,11 @@ export default {
         "type": "Tipo",
         "inputs": "Información de entrada",
         "outputs": "Información de salida",
-        "user_data_form": "Formulario de información del comprador"
+        "user_data_form": "Formulario de información del comprador",
+        "staff_messages": "Mensajes del personal",
+        "add_note": "Añadir la nota",
+        "product_tags": "Etiquetas de productos",
+        "edit_tags": "Editar etiquetas"
       },
       "orders": {
         "title": "Pedidos",
@@ -1283,7 +1499,9 @@ export default {
         "physical_orders_title": "Carritos de compras con este producto",
         "send_30days_title": "Pedidos enviados en los últimos 30 días",
         "downloads_30days_title": "Archivo descargado número en los últimos 30 días",
-        "virtual_orders_title": "Pedidos de este producto pendientes de finalización"
+        "virtual_orders_title": "Pedidos de este producto pendientes de finalización",
+        "send_count_in_period": "Pedidos enviados entre {start} ~ {end}",
+        "downloads_count_in_period": "Recuento de archivos descargados entre {start} ~ {end}"
       },
       "inventory": {
         "title": "Inventario",
@@ -1298,7 +1516,8 @@ export default {
           ]
         },
         "subscribers_title": "Suscriptores",
-        "subscribers_title_small": "Total de pedidos suscritos"
+        "subscribers_title_small": "Total de pedidos suscritos",
+        "total_sell_timespan": "Ventas totales entre {start} ~ {end}"
       },
       "finance": {
         "title": "Financiero",
@@ -1327,7 +1546,9 @@ export default {
           "participate": "Participación",
           "participate_title": "El número de contribuciones",
           "score": "Puntaje"
-        }
+        },
+        "total_participation_tooltip": "Recuento total de evaluadores del producto.",
+        "users_not_rated_msg": "Los usuarios aún no han calificado este producto."
       },
       "inform": {
         "title": "Expectativas del cliente",
@@ -1403,7 +1624,11 @@ export default {
     "lead_time_dimension": "Horas)",
     "bulk_action": "Acciones masivas",
     "bulk_action_input": "Actualizar todas las variantes",
-    "bulk_action_msg": "Establezca el empaque del producto y el tiempo de preparación para todas las variantes."
+    "bulk_action_msg": "Establezca el empaque del producto y el tiempo de preparación para todas las variantes.",
+    "weight_subtitle": "Ingrese aquí el peso total del embalaje del producto. Esta información ayuda a elegir el método de envío adecuado y garantiza que el pedido no supere el límite de envío.",
+    "size_subtitle": "Ingrese aquí el tamaño completo del paquete del producto. Esta información se utiliza para elegir el método de envío correcto y garantizar que el pedido no exceda el límite de tamaño del paquete.",
+    "lead_time_subtitle": "El tiempo de entrega estima la duración necesaria para preparar un producto para su envío, lo que ayuda a estimar el tiempo de entrega.",
+    "bulk_action_subtitle": "Puede aplicar la información del embalaje a todas las variantes del producto."
   },
   "product_images_list": {
     "upload_button": "Más imágenes de productos",
@@ -1488,10 +1713,14 @@ export default {
     },
     "notifications": {
       "save_success": "Cambio de inventario guardado."
-    }
+    },
+    "title": "Inventario de la tienda",
+    "subtitle": "Listado de todos los productos en tienda.",
+    "cant_set_here": "No se puede configurar aquí"
   },
   "spec_view": {
-    "auto_save_input": "Guardado automático"
+    "auto_save_input": "Guardado automático",
+    "auto_save_input_message": "Los cambios se guardarán automáticamente."
   },
   "time_progress_bar": {
     "title_before_start": "Restante para el inicio",
@@ -1752,6 +1981,33 @@ export default {
       },
       "notifications": {
         "edit_success": "Categoría editada."
+      },
+      "manually_update_filters_tips": "<b>¡Importante!</b> Los filtros se actualizan automáticamente cuando se modifican los productos. Sin embargo, después de realizar cambios en los productos de una categoría, vuelva aquí y haga clic en el botón Guardar/Regenerar para actualizar el filtro.",
+      "inputs": {
+        "spec": {
+          "message": "Lista de características que desea que se muestren en la sección de filtro",
+          "placeholder": "Seleccione las especificaciones para mostrar en el filtro..."
+        }
+      }
+    },
+    "config": {
+      "subtitle": "Las categorías ayudan a agilizar la gestión de productos y hacen que sea más fácil para sus clientes encontrar productos en su tienda."
+    },
+    "parent": {
+      "subtitle": "Esta categoría aparecerá debajo de su categoría principal. Si un producto no tiene una categoría principal, se mostrará en la categoría principal."
+    },
+    "template": {
+      "title": "Modelo",
+      "edit_page": "Editar página",
+      "Pages_list": "Lista de páginas",
+      "subtitle": "Puede mejorar la visualización de su página de categorías superponiendo una página personalizada. El mejor enfoque es crear páginas con fondos transparentes y diseñar 1 o 2 secciones específicas para cada categoría. Luego, puede vincular una página a varias categorías, utilizando contenido dinámico para personalizar cada categoría individualmente."
+    },
+    "critical_zone": {
+      "title": "Zona crítica",
+      "subtitle": "Si eliminas una categoría, sus subcategorías y productos se moverán al directorio principal <b>📁 {parent}</b> . Para administrar categorías que no están en la lista de productos, ve a la pestaña Tienda > Categorías.",
+      "accept_delete": {
+        "true_description": "Quiero eliminar esta categoría.",
+        "true_title": "Confirmar eliminar categoría"
       }
     }
   },
@@ -1807,7 +2063,8 @@ export default {
       "name_available": "Este nombre ({name}) está disponible.",
       "add_success": "Tienda {title} creada.",
       "edit_success": "Tienda editada."
-    }
+    },
+    "description_input_tips": "Esta descripción aparecerá en el pie de página de su tienda y también se utilizará como descripción de metaetiqueta predeterminada para las páginas de su tienda."
   },
   "virtual_items_list": {
     "add_virtual_item": "Agregar elemento virtual",
@@ -1896,7 +2153,13 @@ export default {
       "title": "Motivo para rechazar el pedido",
       "message": "Seleccione el motivo del rechazo de este pedido de la lista a continuación. Asegúrese de informar al cliente del proceso de cancelación y reembolso. Los reembolsos deben hacerse dentro de las 12 horas.",
       "confirm_action": "Cancelar orden",
-      "dismiss_reject_action": "Descartar la cancelación del pedido"
+      "dismiss_reject_action": "Descartar la cancelación del pedido",
+      "confirm_now_action": "Cancelar pedido ahora",
+      "confirm_in48h_action": "Cancelar pedido en 48 horas",
+      "options": {
+        "title": "Opciones",
+        "subtitle": "Si desea cancelar su pedido inmediatamente, puede utilizar esta opción."
+      }
     },
     "notifications": {
       "update_status_success": "Estado del pedido actualizado.",
@@ -2019,7 +2282,8 @@ export default {
         "pay_fail_title": "No pagado",
         "pay_fail_message": "¡El pago no puede ser aprobado!"
       },
-      "total_order_price_before_tax": "Precio total antes de impuestos"
+      "total_order_price_before_tax": "Precio total antes de impuestos",
+      "require_capture": "Requerir captura"
     },
     "basket_list": {
       "checklist": [
@@ -2031,7 +2295,23 @@ export default {
       "list_of_items": "Lista del carrito de compras",
       "apply_change_action": "Aplicar los cambios",
       "cant_apply_change": "No se pueden hacer cambios",
-      "lottery_prize_inform": "Su cliente gana 1x de este producto. Enviar regalo con este pedido."
+      "lottery_prize_inform": "Su cliente gana 1x de este producto. Enviar regalo con este pedido.",
+      "need_to_refund": {
+        "title": "Se requiere reembolso al cliente",
+        "message": "Calculamos el importe total de los reembolsos que debes realizar de forma manual. Se calcula en función de los artículos no disponibles y los valores totales reembolsados hasta el momento.",
+        "calculated_approximately": "El importe se calcula de forma aproximada. Calcule usted mismo el importe exacto."
+      },
+      "need_payback": {
+        "title": "Se requiere devolución del dinero al cliente",
+        "message": "Hemos notado que el total reembolsado al cliente es mayor que el monto adeudado según los artículos en el carrito. Es posible que deba cobrarle al cliente para recuperar el monto excedente."
+      },
+      "need_no_refund": {
+        "title": "No es necesario ningún reembolso"
+      },
+      "total_refund": {
+        "title": "Total reembolsado",
+        "message": "Es el monto total de reembolsos que realiza automáticamente tu pasarela de pago. Solo algunos servicios de pago admiten esta función, por lo que debes realizar el reembolso manualmente."
+      }
     },
     "preparing": {
       "title": "Preparación",
@@ -2047,7 +2327,9 @@ export default {
         "Siguiendo las normas estándar en el embalaje.",
         "Imprima una lista de artículos y colóquela dentro del paquete.",
         "Imprime y pega una etiqueta en la caja."
-      ]
+      ],
+      "items_weight_calculation": "El peso combinado de todos los artículos es {weight} {unit}",
+      "not_available_message": "¡No está disponible cuando está deshabilitado y no solicita la dirección de envío y, además, el usuario no completó la dirección después de la compra!"
     },
     "basket_items": "Lista de artículos de pedido",
     "delivered_dialog": {
@@ -2156,10 +2438,48 @@ export default {
     "developer_title": "modo desarrollador",
     "developer_message": "Puede procesar transacciones falsas si la puerta de enlace admite el modo de depuración.",
     "notifications": {
-      "edit_success": "Puerta de enlace {gateway_name} editada."
+      "edit_success": "Puerta de enlace {gateway_name} editada.",
+      "success_delete": "¡El método de pago ha sido eliminado!"
     },
     "developer_setting": "Desarrollar y probar",
-    "live_mode_message": "Todas las transacciones estarán en modo en vivo."
+    "live_mode_message": "Todas las transacciones estarán en modo en vivo.",
+    "status_title": "Estado del servicio de pago",
+    "status_message": "Configure el método de pago como Activo o Inactivo. Solo se mostrarán a los clientes los métodos configurados como activos.",
+    "status_true_description": "Sus clientes pueden pagar con este método de pago.",
+    "manual_title": "Pago con captura manual o automática",
+    "manual_message": "Cuando crea un pago, puede colocar una retención en un método de pago elegible para reservar fondos que puede capturar más tarde. Por ejemplo, los hoteles suelen autorizar un pago completo antes de que llegue un huésped y luego capturan el dinero cuando el huésped se retira.",
+    "debug": {
+      "title": "Desarrollar y probar",
+      "subtitle": "Puede habilitar el modo de depuración para probar la pasarela de pago."
+    },
+    "limit": {
+      "title": "Límite de pedido",
+      "subtitle": "Establezca el monto mínimo de pedido para esta pasarela de pago."
+    },
+    "limit_input": {
+      "title": "Cantidad mínima de pedido",
+      "msg": "Cero significa que no hay límite."
+    },
+    "currency_input": {
+      "message": "La moneda que admite esta pasarela de pago."
+    },
+    "gateway_code": "Código de acceso",
+    "hold_only_for": "Retener pago disponible solo para",
+    "manual_input": {
+      "false_description": "El estado del pago cambiará automáticamente de pendiente a confirmado en el sistema del proveedor de pagos.",
+      "false_title": "Confirmación de pago automático",
+      "true_title": "Retener pagos y confirmación manual",
+      "true_description": "Retener un pago significa que es necesario verificar los pagos de un pedido para cambiar su estado de pendiente a confirmado en el sistema del proveedor de pagos."
+    },
+    "delete_verify_input": {
+      "true_title": "Quiero eliminar este método de pago.",
+      "true_description": "Este método de pago será eliminado de la tienda y no estará disponible para los clientes."
+    },
+    "delete_alert": {
+      "title": "Eliminar método de pago",
+      "message": "¿Estás seguro de eliminar este método de pago de tu tienda?",
+      "action": "Eliminar método de pago"
+    }
   },
   "gift_card": {
     "title": "Tarjetas de regalo",
@@ -2368,7 +2688,9 @@ export default {
     "connect-remove-hold": "El pedido se eliminó de la espera. {reason}",
     "connect-confirmed": "El pedido fue confirmado.",
     "email-vendor": "🔔 El correo electrónico de información del pedido se ha enviado a <b>{vendor}</b> ╏ {email}.",
-    "vendor-payout": "💸 Pago al proveedor."
+    "vendor-payout": "💸 Pago al proveedor.",
+    "sms-payment": "Enviar SMS de confirmación de pago al cliente a través de {phone}.",
+    "vendor-sms": "🔔 Se ha enviado un SMS de información del pedido a <b>{vendor}</b> ╏ {phone}."
   },
   "inline_chart": {
     "today": "Hoy dia",
@@ -2384,6 +2706,34 @@ export default {
     "notifications": {
       "copy_success": "Copia de producto.",
       "change_category_success": "Categoría de producto editada."
+    },
+    "load_more_products": "Hay más productos disponibles en esta categoría. Haga clic para cargar más artículos.",
+    "filter_box": {
+      "no_root_filter_message": "Tienes productos en la raíz pero no tienes filtro.",
+      "has_root_filter_message": "Establece filtros para la categoría raíz.",
+      "set_filter_message": "Puedes establecer filtros.",
+      "edit_action": "Editar filtros raíz",
+      "clear_action": "Limpiar filtros de raíz"
+    },
+    "ai": {
+      "title": "Asistencia de productos con inteligencia artificial"
+    },
+    "menu": {
+      "select_all_products": "Seleccionar todos los productos",
+      "unselect": "Deseleccionar",
+      "sort_categories": "Organizar/Ordenar categorías",
+      "subscription_vendor_not_support_message": "¡No se puede asignar un proveedor para los productos de suscripción! ¡Los productos de suscripción siempre deben tener un proveedor como propietario!",
+      "vendor_owner_not_assignable_message": "¡No se puede asignar un proveedor a productos que tengan a un proveedor como su propietario!",
+      "category_assign_profile": "Asignar perfil a productos de la categoría",
+      "category_assign_profile_subtitle": "Impuestos, Envío, Guía, Garantía, ...",
+      "bulk_discount": "Descuento por volumen",
+      "bulk_discount_subtitle": "Aplicar descuento en todos los productos."
+    },
+    "engine": {
+      "title": "Motor de productos adicionales",
+      "subtitle": "Se cargarán más productos de categorías y etiquetas seleccionadas.",
+      "load_in_tips": "Cargue productos de categorías en la {category}.",
+      "action": "Editar {category} Motor"
     }
   },
   "physical_order_track": {
@@ -2419,7 +2769,9 @@ export default {
       "message": "¿Está seguro de reenviar este correo electrónico a su cliente?",
       "action": "si, reenviar",
       "success": "Correo electrónico reenviado a su cliente."
-    }
+    },
+    "message": "En esta sección, podrá visualizar la cronología de eventos relacionados con el pedido, su cumplimiento, el pago y sus respectivos estados. Además, podrá observar los pedidos enviados tanto a clientes como a proveedores.",
+    "add_note_subtitle": "Escribe un mensaje y menciona a tus compañeros."
   },
   "accounts": {
     "title": "Mi billetera",
@@ -3253,7 +3605,15 @@ export default {
       "access": "Acceso a Mi Cuenta",
       "security": "Seguridad",
       "preferences": "Preferencias del usuario",
-      "my_subscriptions": "mis Suscripciónes"
+      "my_subscriptions": "mis Suscripciónes",
+      "my_public_profile_subtitle": "Mi perfil público {name}.",
+      "personal_information_subtitle": "Editar mi perfil, dirección y KYC.",
+      "wallet_subtitle": "Cuentas virtuales y tarjetas de pago conectadas.",
+      "companies_subtitle": "Registrar mi perfil empresarial y fiscal.",
+      "access_subtitle": "Clientes OAuth, tokens de acceso personal y aplicaciones conectadas.",
+      "security_subtitle": "Establezca dos factores y administre las opciones de inicio de sesión social.",
+      "preferences_subtitle": "Cambiar tema, nivel, idioma y moneda predeterminada.",
+      "my_subscriptions_subtitle": "Acceso a funciones premium de inteligencia artificial y personalización."
     }
   },
   "page_builder": {
@@ -3293,7 +3653,8 @@ export default {
         "tools": "Instrumentos",
         "history": "Historia",
         "style": "Estilo",
-        "typography": "Tipografía"
+        "typography": "Tipografía",
+        "hierarchy": "Jerarquía"
       },
       "no_category": "Sin categorías"
     },
@@ -3392,7 +3753,8 @@ export default {
     "samples": "Mostrar tiendas de muestra",
     "samples_message": "Si está habilitado, se mostrarán algunas tiendas de muestra en su panel.",
     "automation": "Automatización",
-    "automation_message": "Mostrar la pestaña de automatización en el panel de control de la tienda. (Webhooks, Programación visual, ...)"
+    "automation_message": "Mostrar la pestaña de automatización en el panel de control de la tienda. (Webhooks, Programación visual, ...)",
+    "date_time": "Fecha y hora"
   },
   "shop_locations": {
     "title": "Países donde se presta el servicio",
@@ -3419,7 +3781,31 @@ export default {
     "auto_category": "Categoría de configuración automática",
     "add_in_current_category": "Añadir a la categoría actual",
     "category_mode_message": "Si está habilitado, el producto se agregará a la categoría o subcategoría predeterminada.",
-    "sku_name_input": "SKU / Nombre"
+    "sku_name_input": "SKU / Nombre",
+    "info": {
+      "subtitle": "Para generar el producto, puedes ingresar únicamente los detalles esenciales necesarios para su creación."
+    },
+    "price": {
+      "subtitle": "Ingresa el precio y el descuento de este producto. Una vez agregado el producto tendrás acceso a más opciones."
+    },
+    "by_sku": {
+      "title": "Agregar por SKU",
+      "subtitle": "La base de datos de su país no está disponible."
+    },
+    "drop_shipping": {
+      "subtitle": "Encuentre productos en el mercado mayorista y agréguelos a su tienda."
+    },
+    "by_connect": {
+      "subtitle": "Agregue fácilmente productos de proveedores de POD o dropshipping con Selldone Connect OS: simplemente conecte su tienda y disfrute de la integración automática de productos, sin necesidad de complementos."
+    },
+    "your_license_is_not_eligible": "Su licencia no es elegible.",
+    "sku_dialog": {
+      "title": "Agregar producto por SKU",
+      "subtitle": "Tienes la posibilidad de localizar productos por su SKU en nuestra base de datos y agregarlos con tan solo un clic."
+    },
+    "dropshipping_dialog": {
+      "title": "Añadir productos de dropshipping"
+    }
   },
   "my_affiliate": {
     "title": "Mis contratos de afiliados",
@@ -3509,7 +3895,8 @@ export default {
     "coupon": "Cupón",
     "offer": "Oferta",
     "gift_card": "Tarjeta de regalo",
-    "lottery": "Lotería"
+    "lottery": "Lotería",
+    "cashback": "Reembolso en efectivo"
   },
   "discount_codes": {
     "title": "Códigos de descuento",
@@ -3552,6 +3939,24 @@ export default {
       "notifications": {
         "add": "Código de descuento añadido con éxito.",
         "edit": "Código de descuento editado con éxito."
+      },
+      "config": {
+        "title": "Configuración general",
+        "subtitle": "La fórmula para calcular el código de descuento es: máx. (LÍMITE, PORCENTAJE * precio del carrito). Recuerda que los códigos deben ser relevantes y fáciles de recordar."
+      },
+      "limit": {
+        "title": "Limitaciones",
+        "subtitle": "En esta sección podrás definir el límite máximo de uso de cada código de descuento, así como el importe máximo del descuento."
+      },
+      "duration": {
+        "title": "Límite de duración",
+        "subtitle": "Si deseas activar un código de descuento para un período de tiempo específico, puedes establecer esa duración aquí."
+      },
+      "design": {
+        "subtitle": "Puedes establecer un título y una descripción para cada código de descuento. Estos detalles se mostrarán al usuario."
+      },
+      "cluster": {
+        "subtitle": "Al asociar este código de descuento con un clúster, puede administrarlo fácilmente junto con otros recursos en una sola ubicación."
       }
     },
     "delete_alert": {
@@ -3654,6 +4059,34 @@ export default {
     "notifications": {
       "add": "Nuevo cupón creado con éxito.",
       "edit": "El cupón ha sido actualizado."
+    },
+    "config": {
+      "subtitle": "La fórmula para calcular el descuento del cupón es: CARGO + máx. (LÍMITE, PORCENTAJE * precio del carrito)."
+    },
+    "limit": {
+      "subtitle": "En esta sección, podrás establecer tanto el número máximo de usos por cupón como el monto máximo de descuento que puede proporcionar cada cupón.",
+      "zero_message": "cero: ¡no hay límite!"
+    },
+    "duration": {
+      "subtitle": "Si desea establecer un período de tiempo específico para que un cupón esté activo, puede configurar la duración en esta sección."
+    },
+    "design": {
+      "subtitle": "Cada cupón permite añadir un título y una descripción. Estos detalles serán visibles para el cliente."
+    },
+    "constraints": {
+      "subtitle": "Aquí tienes la posibilidad de establecer parámetros personalizados adicionales para el cupón.",
+      "no_limit": "Sin limitación adicional",
+      "has_limit": "Restricciones adicionales",
+      "has_code_message": "El usuario debe ingresar el código para agregar el cupón."
+    },
+    "club": {
+      "subtitle": "El uso de este cupón puede restringirse exclusivamente a miembros de clubes de clientes seleccionados."
+    },
+    "cluster": {
+      "subtitle": "Al asociar este cupón con un clúster, puede administrarlo fácilmente junto con otros recursos en una sola ubicación."
+    },
+    "preview": {
+      "subtitle": "Aquí está la vista previa pública del cupón."
     }
   },
   "offers": {
@@ -3688,7 +4121,10 @@ export default {
     "qualified_products_message": "Para que los productos sean elegibles, el total de artículos en el carrito debe ser igual o mayor que la cantidad mínima.",
     "min_items": "Cantidad mínima de artículos",
     "min_items_message": "El número de artículos que el cliente debe comprar.",
-    "discounted_products": "productos con descuento",
+    "discounted_products": {
+      "title": "productos con descuento",
+      "subtitle": "Puedes especificar los productos a los que esta oferta les aplicará un descuento."
+    },
     "offered_products": "Productos ofrecidos",
     "offered_products_message": "Al menos uno de estos productos debe estar en el carrito.",
     "discount_percent": "porcentaje de descuento",
@@ -3710,6 +4146,21 @@ export default {
     "notifications": {
       "add": "Nueva oferta creada con éxito.",
       "edit": "Oferta actualizada con éxito."
+    },
+    "config": {
+      "subtitle": "Comience a elaborar un acuerdo inteligente estableciendo su título, descripción y estado de disponibilidad pública."
+    },
+    "limit": {
+      "subtitle": "Establezca el límite máximo de uso para esta oferta en esta sección."
+    },
+    "duration": {
+      "subtitle": "Si desea establecer un período de tiempo específico para una oferta, puede configurar la duración aquí."
+    },
+    "constraints": {
+      "subtitle": "Establezca aquí los criterios y condiciones de elegibilidad para la oferta. La oferta se aplica a los artículos del carrito que cumplan estas condiciones."
+    },
+    "cluster": {
+      "subtitle": "Al asociar esta oferta con un clúster, puede administrarla fácilmente junto con otros recursos en una sola ubicación."
     }
   },
   "campaign_ads": {
@@ -3807,7 +4258,12 @@ export default {
     },
     "notifications": {
       "delete_success": "Premio eliminado con éxito."
-    }
+    },
+    "manual_send_token_action": "Fichas manuales",
+    "config": {
+      "subtitle": "Incrementa las compras de los clientes con una experiencia gamificada en tu tienda. Establece premios y probabilidades de ganar para los clientes que obtengan tokens a través de las compras. Cada partida cuesta 10 tokens y puedes ofrecer premios especiales para quienes compren por primera vez. El juego predeterminado es la Rueda de la fortuna, pero puedes personalizarlo para que se adapte al diseño de tu tienda."
+    },
+    "empty_prize_list": "Crea y gestiona premios aquí..."
   },
   "lottery_edit": {
     "title_edit": "Editar artículo de lotería",
@@ -3828,7 +4284,10 @@ export default {
     "chance_message": "Probabilidad de ganar en porcentaje",
     "free_for_first": "¿Es gratis para nuevos clientes?",
     "free_for_first_message": "Los nuevos clientes pueden ganar este artículo.",
-    "prize": "Premio",
+    "prize": {
+      "title": "Premio",
+      "subtitle": "Configure aquí los detalles del premio. Las opciones incluyen códigos de descuento, tarjetas de regalo, créditos y otros descuentos como premios de lotería."
+    },
     "amount": "monto del premio",
     "amount_hint": "Los usuarios ganan esta cantidad de cargo por su pedido.",
     "currency_message": "Moneda para este artículo. Otras monedas se convierten por tipo de cambio.",
@@ -3841,6 +4300,20 @@ export default {
     "notifications": {
       "add": "Nuevo artículo de lotería creado con éxito.",
       "edit": "Los artículos de la lotería se cambiaron con éxito."
+    },
+    "not_free_for_first_message": "Este premio no está disponible para el primer juego gratuito.",
+    "config": {
+      "subtitle": "Aquí puedes crear los premios de lotería de tu tienda. Establece el título, la descripción, el color y la imagen de cada premio."
+    },
+    "design": {
+      "subtitle": "Aquí tienes la opción de elegir una imagen y un color para el premio."
+    },
+    "constraints": {
+      "subtitle": "Especificar los criterios y limitaciones para ganar este premio."
+    },
+    "product_input": {
+      "label": "Premio del producto",
+      "message": "Seleccione un producto para el premio (es gratis)"
     }
   },
   "gift_card_types_list": {
@@ -4302,7 +4775,9 @@ export default {
     },
     "dialog_club": {
       "title": "Establecer el nivel del club de clientes"
-    }
+    },
+    "subtitle": "Los clientes se pueden agregar a su tienda de varias maneras: manualmente, mediante una importación masiva de Excel, a través del punto de venta o mediante su tienda en línea. Cada vez que un usuario inicie sesión en su tienda, se lo registrará automáticamente como cliente.",
+    "add_customer_action": "Añadir nuevo cliente"
   },
   "app_dashboard": {
     "status": "Publicar estado",
@@ -4405,7 +4880,11 @@ export default {
     "option_deliver_by_courier": "Opción 1: Entrega por sus mensajeros.",
     "option_add_to_que": "Opción 2: Agregar a la cola para procesar en la página de servicio de envío.",
     "option_instant_shipping": "Opción 3: Envío instantáneo.",
-    "pickup_action": "Confirmación de recogida"
+    "pickup_action": "Confirmación de recogida",
+    "courier_action": "Confirmacion de envio",
+    "courier_action_subtitle": "Mi mensajero recogerá el paquete.",
+    "pickup_action_subtitle": "El cliente recogió el pedido.",
+    "service_action": "Confirmación de ejecución"
   },
   "shop_home_edit": {
     "title": "Configuración de la página de inicio",
@@ -4431,7 +4910,8 @@ export default {
     "officer": "Oficial",
     "amount": "Monto de la transacción",
     "note": "Nota",
-    "date": "Fecha"
+    "date": "Fecha",
+    "subtitle": "Es la lista de transacciones de retiro. Cuando transfieras fondos desde la billetera de referencia a tu cuenta bancaria o a tu billetera Selldone, aparecerán aquí."
   },
   "widget_shop_gateway": {
     "link_account_caution": "¡Vincule una cuenta ({currency}) a su tienda! Haga clic aquí.."
@@ -4720,11 +5200,89 @@ export default {
   "shop_sms": {
     "title": "Administrar SMS",
     "sub_title": "Plantillas de SMS enviadas a los clientes",
-    "message": "Puedes ver el contenido de los mensajes de texto enviados por tu tienda aquí. Debido a la limitación en el registro de los patrones de validación en el servicio de mensajería, por el momento no es posible personalizar los mensajes de texto."
+    "message": "Puedes ver el contenido de los mensajes de texto enviados por tu tienda aquí. Debido a la limitación en el registro de los patrones de validación en el servicio de mensajería, por el momento no es posible personalizar los mensajes de texto.",
+    "tabs": {
+      "templates": "Plantillas",
+      "provider": "Proveedor"
+    },
+    "manage": {
+      "title": "Administrar SMS",
+      "subtitle": "Puedes ver el contenido de los mensajes de texto enviados por tu tienda aquí. Debido a la limitación en el registro de los patrones de validación en el servicio de mensajería, por el momento no es posible personalizar los mensajes de texto."
+    },
+    "template": {
+      "title": "Plantillas",
+      "valid_message": "Puedes crear mensajes SMS personalizados.",
+      "provider_not_enable_message": "¡El proveedor de SMS no está habilitado!",
+      "need_custom_provider_message": "Los mensajes SMS personalizados solo funcionan si configura un proveedor personalizado.",
+      "add_new": "Agregar nuevo",
+      "disable_reason": {
+        "set_provider": "¡Configura tu proveedor primero!",
+        "provider_is_disabled": "¡El proveedor está deshabilitado!",
+        "otp": "OTP - ¡Ninguno personalizable!",
+        "select_another_provider": "Seleccione otro proveedor."
+      },
+      "enable_only_filter": "Mostrar solo habilitado",
+      "text_template_not_supported_msg": "Su proveedor no admite mensajes de texto simple.",
+      "structure_template_not_supported_msg": "Su proveedor no admite mensajes estructurales.",
+      "structured_data": "Datos estructurados",
+      "menu": {
+        "reset_error": "Restablecer errores",
+        "send_test": "Enviar mensaje de prueba"
+      }
+    },
+    "template_edit": {
+      "title_add": "Agregar nueva plantilla de mensaje",
+      "title_edit": "Editar plantilla de mensaje",
+      "config": {
+        "title": "Configuración del mensaje",
+        "subtitle": "Puede crear una plantilla para el mensaje SMS en el sitio web de su proveedor de SMS y luego especificar aquí su código y estructura de datos. Enviaremos esta información a su proveedor, donde se generará el mensaje SMS real.",
+        "code": "Código",
+        "language_msg": "Déjelo vacío para establecerlo como predeterminado.",
+        "enable_msg": "Esta plantilla se utilizará para crear mensajes."
+      },
+      "text": {
+        "title": "Texto simple",
+        "subtitle": "Introduzca aquí un mensaje SMS personalizado. Los valores dinámicos se sustituirán por sus valores reales antes de enviarse al usuario.",
+        "message": "Mensaje",
+        "reset_to_default": "Restablecen a los predeterminados",
+        "auto_fill": {
+          "title": "Parámetros de autocompletar",
+          "subtitle": "Puede utilizar cada uno de estos parámetros en el texto y Selldone los reemplazará con el valor correspondiente."
+        },
+        "sample": {
+          "title": "Mensaje de muestra"
+        }
+      },
+      "template": {
+        "title": "Plantilla estructural",
+        "subtitle": "Aquí puede configurar la clave y el valor de la plantilla. El código de plantilla debe ser exactamente el que configure en su proveedor de servicios de SMS, y la <code>key</code> es lo que su proveedor desea que se envíe el código. Si el campo <code>value</code> de la plantilla está vacío, entonces <code>{code}</code> se considerará como el código de plantilla.",
+        "add_new_parameter": "Añadir nuevo parámetro",
+        "auto_fill": {
+          "title": "Parámetros de autocompletar",
+          "subtitle": "Puede configurar cada uno de estos parámetros como un valor y Selldone los reemplazará con el valor correspondiente. Es mejor definir los valores predeterminados como plantillas en su proveedor de SMS para simplificar. En este caso, no será necesario definir valores de parámetros aquí."
+        },
+        "request": {
+          "title": "Carga útil de muestra"
+        },
+        "sample": {
+          "title": "Ejemplo de mensaje de plantilla",
+          "subtitle": "Puede copiar y pegar esta plantilla en su proveedor de SMS."
+        },
+        "add_message_action": "Agregar plantilla de mensaje"
+      }
+    }
   },
   "shop_emails": {
     "title": "Administrar correos electrónicos",
-    "sub_title": "Verá la lista de correos electrónicos enviados por la tienda a clientes y gerentes en esta sección. Los correos electrónicos se diseñan y crean automáticamente en función de la información que ingresó para su tienda. Asimismo, en el futuro estará disponible para el público la posibilidad de personalizar mensajes e imágenes."
+    "sub_title": "Verá la lista de correos electrónicos enviados por la tienda a clientes y gerentes en esta sección. Los correos electrónicos se diseñan y crean automáticamente en función de la información que ingresó para su tienda. Asimismo, en el futuro estará disponible para el público la posibilidad de personalizar mensajes e imágenes.",
+    "tabs": {
+      "preferences": "preferencias",
+      "templates": "Plantillas",
+      "provider": "Proveedor"
+    },
+    "preferences": {
+      "title": "Correos electrónicos de notificación"
+    }
   },
   "instagram": {
     "title": "Ventas en Instagram",
@@ -4914,7 +5472,13 @@ export default {
     },
     "notifications": {
       "delete_success": "Archivo eliminado con éxito."
-    }
+    },
+    "drag_sort_msg": "Puede arrastrar y ordenar archivos.",
+    "paid_mode_msg": "Los usuarios pueden descargarlo solo después de comprar el producto.",
+    "free_mode_msg": "Los usuarios pueden descargarlo de forma gratuita. Los archivos de muestra deben tener un tamaño inferior a 50 MB.",
+    "has_gust_shopping_msg": "Los usuarios registrados e invitados pueden descargar archivos ya que las compras de invitados están habilitadas en la configuración de la tienda > flujo.",
+    "only_registered_shopping_msg": "Sólo los usuarios registrados pueden descargar archivos de muestra.",
+    "file_count_limit": "Límite de cantidad de archivos"
   },
   "notification_top_bar": {
     "free_charge": "🎊 Cargue {amount} y obtenga {amount_total} de crédito.",
@@ -4926,7 +5490,20 @@ export default {
   },
   "selldone_applications": {
     "title": "¡No te quedes sin tus pedidos!",
-    "msg": "Administre su negocio en cualquier lugar y en cualquier momento."
+    "msg": "Administre su negocio en cualquier lugar y en cualquier momento.",
+    "scan_qr_code": "¡Escanéame con tu teléfono!",
+    "notification": {
+      "title": "Notificación",
+      "subtitle": "Recibir notificaciones de nuevos pedidos."
+    },
+    "order": {
+      "title": "Pedidos",
+      "subtitle": "Vea sus pedidos y gestiónelos."
+    },
+    "product": {
+      "title": "productos",
+      "subtitle": "Gestión de inventarios y planos de productos."
+    }
   },
   "shop_seo": {
     "title": "Configuración SEO",
@@ -4995,7 +5572,16 @@ export default {
   },
   "shops_list": {
     "title": "Mis tiendas",
-    "message": "Listado de tiendas propias, tiendas permitidas y de muestra."
+    "message": "Listado de tiendas propias, tiendas permitidas y de muestra.",
+    "sample": {
+      "title": "Tiendas de muestras",
+      "subtitle": "Aquí podrá descubrir una selección de tiendas de muestra. Se le concede permiso para examinar la información disponible en estas tiendas. Sin embargo, absténgase de iniciar sesión o realizar pedidos utilizando información personal real, ya que estos datos serán accesibles al público. Si ingresa accidentalmente su información aquí, salga de la tienda y comuníquese con nosotros para obtener más ayuda."
+    },
+    "add_new_store": "Agregar nueva tienda",
+    "i_have_a_deal": "Tengo un trato",
+    "access": {
+      "title": "Invitación de acceso"
+    }
   },
   "shipping": {
     "warehouse_error": "¡Configura tu almacén primero! Esta dirección se utilizará como origen del envío.",
@@ -5025,7 +5611,8 @@ export default {
       "delete_action": "Eliminar categoría",
       "add_action": "añadir categoría",
       "edit_action": "Editar categoria"
-    }
+    },
+    "subtitle": "Puedes crear un número limitado de categorías para las publicaciones de tu blog para administrarlas de manera más eficiente. Tener un límite de categorías promueve una mejor organización en tu sitio web. Cabe destacar que incluso las principales agencias de noticias mantienen un número limitado de categorías, a menudo menos de 100, para agilizar la administración y mantener un enfoque más amplio."
   },
   "about_us": {
     "title": "Sobre nosotros página",
@@ -5063,7 +5650,8 @@ export default {
       "title": "Etiquetas de paquetes",
       "subtitle": "Descargue la lista de todas las etiquetas de pedidos en el período de tiempo y el estado seleccionados. El resultado solo contiene pedidos pagados y COD.",
       "export_title": "Etiquetas de caja"
-    }
+    },
+    "subtitle": "Exporte y descargue etiquetas para el procesamiento de pedidos en masa: ideal para manejar más de 100 pedidos diariamente."
   },
   "customers_funnel": {
     "title": "Clientes Demografía",
@@ -5782,6 +6370,1759 @@ export default {
         "La rueda de la fortuna está girando: ¡atrapa tu premio de la suerte!",
         "Gira, gana y sonríe: recompensas sorpresa en cada giro.",
         "¡Da una vuelta y deja que la fortuna decida tu premio!"
+      ]
+    },
+    "subscription_price": {
+      "title": [
+        "Acceso básico",
+        "Membresía Premium",
+        "Paquete de oro",
+        "Plan Plata",
+        "Suscripción Platino",
+        "Nivel empresarial",
+        "Paquete de inicio",
+        "Oferta ilimitada",
+        "Paquete familiar",
+        "Suite Profesional"
+      ],
+      "description": [
+        "Ideal para personas que exploran los conceptos básicos.",
+        "Acceso a todas las funciones y contenidos premium.",
+        "Beneficios exclusivos y soporte prioritario.",
+        "Un paquete equilibrado para usuarios habituales.",
+        "Acceso definitivo con ventajas de primer nivel.",
+        "Soluciones personalizadas para grandes organizaciones.",
+        "Una opción de nivel de entrada asequible.",
+        "Sin límites de uso, para el usuario avanzado.",
+        "Un plan especial para familias, hasta 4 integrantes.",
+        "Diseñado para profesionales que buscan herramientas avanzadas."
+      ]
+    },
+    "spec": {
+      "group": [
+        "Especificaciones técnicas",
+        "Dimensiones físicas",
+        "Características de rendimiento",
+        "Opciones de conectividad",
+        "Requisitos de energía",
+        "Material y calidad de construcción",
+        "Opciones de color y acabado",
+        "Almacenamiento y memoria",
+        "Compatibilidad del sistema operativo",
+        "Seguridad y cumplimiento",
+        "Contenido del paquete",
+        "Garantía y soporte",
+        "Marca y fabricante",
+        "Respeto al medio ambiente",
+        "Eficiencia energética",
+        "Cuidado y mantenimiento",
+        "Opciones de personalización",
+        "Accesorios incluidos",
+        "Calificaciones y reseñas de usuarios",
+        "Precios y disponibilidad"
+      ]
+    },
+    "avocado": {
+      "title": [
+        "Recibo de compra",
+        "Confirmación de venta",
+        "Factura de pedido",
+        "Factura de pago",
+        "Recibo del cliente",
+        "Resumen de la transacción",
+        "Estado de cuenta",
+        "Recibo de pago",
+        "Resumen del pedido",
+        "Factura de orden de compra",
+        "Recibo de venta",
+        "Factura de venta al por menor",
+        "Recibo electrónico",
+        "Factura de servicio",
+        "Factura del producto",
+        "Recibo de pago",
+        "Confirmación de pedido",
+        "Factura de facturación",
+        "Factura de pago",
+        "Factura del cliente"
+      ],
+      "message": [
+        "¡Gracias por tu compra!",
+        "Apreciamos su negocio.",
+        "¡Tu pedido está en camino!",
+        "Gracias por comprar con nosotros.",
+        "Esperando poder servirle nuevamente.",
+        "Su satisfacción es nuestra máxima prioridad.",
+        "No olvides valorar tu experiencia.",
+        "Gracias por apoyar nuestra tienda.",
+        "¡Esperamos que disfrutes de tu nueva compra!",
+        "Guarde su factura para futuras referencias.",
+        "Visítenos nuevamente para conocer más productos excelentes.",
+        "Manténgase conectado para obtener ofertas exclusivas.",
+        "Gracias por ser un cliente valioso.",
+        "Estamos aquí para ayudarle si necesita asistencia.",
+        "Sus comentarios nos ayudan a mejorar.",
+        "Disfruta de un descuento especial en tu próxima compra.",
+        "¡Has hecho una gran elección!",
+        "Gracias por confiar en nosotros.",
+        "Quedo a la espera de sus comentarios.",
+        "Un sincero agradecimiento de parte de nuestro equipo."
+      ]
+    },
+    "map_tag": {
+      "title": [
+        "Exhibición de propiedades",
+        "Plaza de vendedores",
+        "Casas Destacadas",
+        "Mercado local",
+        "Los recién llegados",
+        "Jardines de la finca",
+        "Distrito comercial",
+        "Callejón de los artesanos",
+        "Fincas de lujo",
+        "Centro de alquiler",
+        "Casas abiertas",
+        "Innovaciones tecnológicas",
+        "Calle de la moda",
+        "Rincón de manualidades",
+        "Patio de comidas",
+        "Rincón de libros",
+        "Unión de joyería",
+        "Avenida de Antigüedades",
+        "Zona Fitness"
+      ]
+    },
+    "marketplace_document": {
+      "title": [
+        "Certificado de Registro Comercial",
+        "Número de identificación fiscal (NIF)",
+        "Formulario de acuerdo con el proveedor",
+        "Catálogo de productos",
+        "Lista de precios",
+        "Datos de la cuenta bancaria",
+        "Comprobante de domicilio",
+        "Certificado de seguro",
+        "Perfil de la empresa",
+        "Certificado de garantía de calidad",
+        "Hoja de datos de seguridad (HDS)",
+        "Información de garantía del producto",
+        "Política de devoluciones",
+        "Procedimientos de envío y manipulación",
+        "Política de atención al cliente",
+        "Planes de marketing y promoción",
+        "Enlaces de redes sociales",
+        "Referencias comerciales",
+        "Código de conducta del proveedor",
+        "Acuerdo de confidencialidad (NDA)"
+      ]
+    },
+    "expert_contract": {
+      "title": [
+        "Acuerdo de servicios de configuración de Marketplace",
+        "Contrato de configuración de tienda",
+        "Acuerdo de servicios de impresión bajo demanda",
+        "Acuerdo de servicios de marketing digital",
+        "Acuerdo de configuración de la plataforma de comercio electrónico",
+        "Contrato de Consultoría Experta para Empresarios",
+        "Acuerdo de servicio para la configuración del Marketplace",
+        "Contrato de servicios de instalación y configuración de tiendas",
+        "Acuerdo de prestación de servicios POD",
+        "Acuerdo de Implementación de Estrategia de Marketing",
+        "Contrato de servicios de desarrollo empresarial",
+        "Acuerdo de configuración de tienda de comercio electrónico",
+        "Acuerdo de prestación de servicios de expertos",
+        "Contrato de Soluciones Empresariales y de Instalación",
+        "Acuerdo de servicios de instalación de tiendas personalizadas",
+        "Acuerdo de servicio de optimización del mercado",
+        "Contrato de Servicios de Consultoría y Configuración",
+        "Acuerdo de servicios de integración de POD",
+        "Contrato de servicios de marketing y promoción",
+        "Contrato de servicio de expansión empresarial"
+      ]
+    },
+    "account": {
+      "account_name": [
+        "Monedero principal",
+        "Cuenta de negocios",
+        "Billetera personal",
+        "Billetera de ahorros",
+        "Cuenta de Gastos",
+        "Monedero principal",
+        "Cuenta General",
+        "Billetera de reserva",
+        "Monedero de transacciones",
+        "Cuenta de fondos"
+      ]
+    },
+    "cashback": {
+      "title": [
+        "Compre y gane reembolsos",
+        "Reembolso en efectivo por recompensas de fidelidad",
+        "Ofertas exclusivas de devolución de dinero",
+        "Bonanza de reembolso",
+        "Ofertas de devolución de dinero instantánea",
+        "Ahorros de reembolso de temporada",
+        "Días de doble reembolso",
+        "Reembolso en cada compra",
+        "Frenesí de devolución de dinero",
+        "Programa de reembolso VIP",
+        "Reembolso por tiempo limitado",
+        "Club de recompensas con devolución de efectivo",
+        "Compre más, ahorre más",
+        "Recompensas de devolución de efectivo definitivas",
+        "Extravagancia de devolución de dinero"
+      ],
+      "description": [
+        "¡Gana dinero en efectivo en cada compra!",
+        "Obtenga recompensas por su lealtad.",
+        "Ofertas de reembolso exclusivas solo para ti.",
+        "Disfrute de grandes ahorros con recompensas de devolución de efectivo.",
+        "Reembolso instantáneo en todos tus artículos favoritos.",
+        "Ahorre más con ofertas de devolución de efectivo de temporada.",
+        "¡Duplica tu reembolso en días especiales!",
+        "Gane reembolsos cada vez que compre.",
+        "¡Únete al frenesí del reembolso hoy!",
+        "Los miembros VIP disfrutan de un reembolso exclusivo.",
+        "¡Date prisa! Ofertas de devolución de dinero por tiempo limitado.",
+        "Únase ahora a nuestro Club de recompensas Cashback.",
+        "Cuanto más compres, más ahorrarás.",
+        "Desbloquea las mejores recompensas de reembolso.",
+        "Experimente las mejores ofertas de devolución de dinero."
+      ]
+    },
+    "page": {
+      "prompts": [
+        "Bienvenido a {shop} - Explore nuestra distintiva gama de artículos",
+        "{shop} - Su fuente definitiva de productos de calidad y un servicio excepcional",
+        "Ofertas y ahorros exclusivos solo en {shop}: ¡aproveche la oportunidad!",
+        "Conozca la dedicación de {shop} al respeto al medio ambiente y las prácticas éticas",
+        "Sea parte de la familia {shop}: suscríbase a nuestro boletín para recibir actualizaciones",
+        "Sumérjase en las mejores selecciones y los productos mejor calificados en {shop}",
+        "Ideas actuales y sugerencias creativas para todos los eventos en {shop}",
+        "Ofertas inigualables y promociones especiales por tiempo limitado en {shop}: ¡actúe rápido!",
+        "Consejos de compra completos y evaluaciones de productos de {shop}: compre con confianza",
+        "Comuníquese con {shop}: nos esforzamos por brindar una experiencia de compra inigualable"
+      ]
+    },
+    "cross_selling": {
+      "message": [
+        "Completa tu look, ¡hazte con el conjunto!",
+        "¡Ahorre a lo grande con nuestras ofertas combinadas!",
+        "¡No te pierdas nuestros maridajes perfectos!",
+        "Mejora tu compra, ¡te esperan complementos!",
+        "¡Desbloquea ahorros exclusivos, compra juntos!",
+        "¡Artículos complementarios, descuentos especiales!",
+        "Obtenga más, gaste menos: ¡abríguese!",
+        "Oferta por tiempo limitado: ¡productos combinados!",
+        "Mejora tu experiencia, ¡ofertas combinadas!",
+        "Descubre nuestros combos seleccionados, ¡ahorra ahora!",
+        "¡Combínalos para lograr el combo perfecto!",
+        "¡Compre de manera inteligente, compre en paquetes y ahorre!",
+        "¡El doble de valor, el doble de diversión!",
+        "¡Tu pareja perfecta está aquí! ¡Cómprala ahora!",
+        "¡Precios de paquete exclusivos solo para ti!",
+        "¡Maximiza tus ahorros con nuestros combos!",
+        "¡Mejora tu colección con estas púas!",
+        "Seleccionado especialmente para ti: ¡combina y ahorra!",
+        "¡La pareja perfecta para un día perfecto!",
+        "¡Agrupa tus favoritos para obtener ahorros adicionales!"
+      ]
+    }
+  },
+  "ai": {
+    "remove_bg": {
+      "title": "Quitar el fondo",
+      "subtitle": "Crear fondo transparente."
+    },
+    "reimagine": {
+      "title": "Reimaginar",
+      "subtitle": "Crea más imágenes con nuevos fondos."
+    }
+  },
+  "extra_pricing_add_dialog": {
+    "title": "Precio adicional por más de {min}",
+    "subtitle": "El sistema determina automáticamente el orden y la prioridad para el cálculo del precio. Ingrese la cantidad mínima requerida para que este precio tenga efecto.",
+    "min_quantity": "Cantidad mínima"
+  },
+  "product_inventory_management_physical": {
+    "subtitle": {
+      "dropshipping": "El inventario de productos de dropshipping lo establecen los mayoristas y no se puede modificar aquí.",
+      "marketplace": "El inventario total de productos en el mercado se determina sumando los inventarios de todos los vendedores. No se puede modificar aquí.",
+      "default": "Especifique aquí el número de inventario del producto."
+    }
+  },
+  "google_product_category_input": {
+    "label": "Código de categoría de producto de Google",
+    "hint": "Representa la categoría de su producto según la taxonomía de productos de Google.",
+    "placeholder": "Introduzca la categoría del producto o servicio. (Opcional)"
+  },
+  "LogisticProfileType": {
+    "WARRANTY": {
+      "title": "Garantía",
+      "desc": "Una garantía es parte de un contrato en el que el fabricante se compromete a reparar o reemplazar un producto dentro de un período determinado. Este compromiso puede extenderse incluso a los consumidores que no tienen un contrato directo con el fabricante."
+    },
+    "RETURN_POLICY": {
+      "title": "Política de devoluciones",
+      "desc": "Las políticas de devolución describen cómo los clientes pueden devolver o cambiar la mercancía no deseada. Especifican los artículos que cumplen los requisitos, los motivos aceptables para las devoluciones y el plazo para realizarlas."
+    },
+    "GUIDE": {
+      "title": "Guía",
+      "desc": "Una guía podría incluir una tabla de tallas para prendas de vestir o una guía de selección de diamantes. Es importante que las guías sean versátiles y aplicables a varios productos."
+    },
+    "SHIPPING": {
+      "title": "Envío",
+      "desc": "Una política de envío detalla los aspectos clave del envío de pedidos en línea, incluidos los costos de envío, los métodos y los tiempos de entrega estimados."
+    }
+  },
+  "product_logistic_profile": {
+    "dialog": {
+      "title": "Seleccionar perfil logístico",
+      "add_new_action": "Agregar nuevo perfil",
+      "add_new_disable_msg": "Propietario del mercado"
+    }
+  },
+  "product_tax_profile": {
+    "description": {
+      "default": "Defecto",
+      "dedicated": "Dedicado",
+      "subscription": "Podemos aplicar impuestos solo en el paso de creación del pago.",
+      "is_disabled": "¡Este perfil fiscal está deshabilitado! (⚠️Advertencia)",
+      "shipping": "Envío",
+      "fixed_rate": "TAX",
+      "location_based_rate": "Impuestos: basados en la ubicación",
+      "shipping_location_based_rate": "Envío: basado en la ubicación",
+      "include_in_price": "Incluido en el precio"
+    },
+    "dialog": {
+      "header": "Seleccionar perfil fiscal",
+      "title": "Perfil fiscal",
+      "subtitle": "Puede asignar regulaciones impositivas específicas al producto. Si no se elige un perfil impositivo para el producto, se aplicarán las regulaciones impositivas predeterminadas de la tienda.",
+      "action_manage": "Gestionar impuestos",
+      "action_manage_sub": "Tienda > Finanzas > Impuestos",
+      "subscription_tips": "Cuando selecciona un perfil de impuestos para un producto de suscripción, actualizamos <code>tax code</code> y configuramos el modo inclusivo/exclusivo en su proveedor de servicios de pago. El perfil de impuestos seleccionado especifica si el precio se considera que incluye o excluye impuestos. Uno de los dos: <code>inclusive</code> o <code>exclusive</code> . Una vez especificado como inclusivo o exclusivo, no se puede cambiar.<br /><br /> <b>¡Importante!</b> Después de cambiar el perfil impositivo, debe hacer clic en Planes de precios en la pestaña Producto > Inventario y hacer clic en el botón Guardar para aplicar los cambios."
+    }
+  },
+  "product_vendor_profile": {
+    "vendor": {
+      "subtitle": "El precio y la cantidad de este producto los establece el proveedor particular al que pertenece."
+    },
+    "vendors": {
+      "subtitle": "A continuación se muestra una lista de proveedores del producto. La cantidad y el precio los fijarán los proveedores."
+    }
+  },
+  "vendor_add": {
+    "profile": {
+      "title": "Información del vendedor",
+      "subtitle": "Esta información se muestra a los clientes públicamente.",
+      "action_sub_caption": "Página de listado de productos públicos.",
+      "action_see_listing_page": "Ver página de listado"
+    },
+    "page": {
+      "title": "Página personalizada",
+      "subtitle": "Configure una página de destino personalizada para el proveedor, proporcionándole un enlace único a su página dedicada.",
+      "action_set_page": "Ver página pública",
+      "action_sub_caption": "Página de destino personalizada.",
+      "vendor_has_landing_msg": "El proveedor tiene una página de destino personalizada.",
+      "no_landing_selected_msg": "No se ha seleccionado ninguna página de destino.",
+      "no_landing_page": "Sin página de destino",
+      "we_can_create_dedicated_landing_msg": "Podemos crear una página de destino dedicada para usted."
+    },
+    "contact": {
+      "title": "Datos de contacto",
+      "subtitle": "Por favor proporcione datos de contacto válidos."
+    },
+    "business": {
+      "title": "Información comercial",
+      "subtitle": "Proporcione información precisa sobre su negocio para garantizar un proceso de recaudación de ingresos rápido y sin problemas."
+    },
+    "bank": {
+      "title": "Información de pago",
+      "subtitle": "Ingrese aquí sus datos bancarios para realizar los pagos."
+    },
+    "default_pricing": {
+      "title": "Precios predeterminados",
+      "subtitle": "Puede asignar un modelo de precios predeterminado para el proveedor. Cuando el proveedor agrega un nuevo producto, este modelo de precios se utilizará para calcular el margen de mercado sobre el precio del producto. Posteriormente, puede ajustar el modelo de precios para cada producto individualmente.",
+      "no_pricing": "Sin precios"
+    },
+    "shipping": {
+      "title": "Envío",
+      "subtitle": "Los vendedores pueden configurar sus propios servicios de envío y mensajería.",
+      "shipping_services": "Servicios de envío",
+      "total_number_of_services": "El número total de servicios de envío que tiene el proveedor.",
+      "couriers": "mensajeros",
+      "total_couriers_count": "El número total de mensajeros que tiene el vendedor."
+    },
+    "configuration": {
+      "title": "Configuración"
+    },
+    "delete": {
+      "title": "Eliminar proveedor",
+      "action": "Eliminar proveedor",
+      "verify_description": "¡Sé que se eliminarán todas las relaciones con productos y proveedores!",
+      "verify_title": "Quiero eliminar este proveedor."
+    },
+    "send_invitation_tips": "Le enviaremos un correo electrónico de invitación a este usuario. Si el usuario se une a su tienda como vendedor, su cuenta se le asignará automáticamente.",
+    "only_marketplace_owner_can_edit_user": "Solo el propietario del mercado puede editar el usuario. Si desea cambiar el propietario de este vendedor, puede enviarnos la solicitud.",
+    "vendor_is_disable_msg": "El vendedor está deshabilitado.",
+    "email_not_match_with_user_msg": "El correo electrónico ingresado no coincide con el correo electrónico del usuario ( <b>{user_name}:</b> {user_email}). ¿Está seguro de enviar correos electrónicos a <b>{email}</b> ?",
+    "we_will_send_invitation_to_user_msg": "Enviaremos un correo electrónico de invitación al usuario.",
+    "set_a_user_for_the_vendor_first_msg": "Primero, establezca un usuario para el proveedor.",
+    "inputs": {
+      "slug": {
+        "label": "Camino",
+        "placeholder": "Introduzca una ruta personalizada...",
+        "hint": "Cambiar la ruta de la página de destino dinámica del proveedor."
+      },
+      "email": {
+        "message": "Este correo electrónico recibirá todas las notificaciones y actualizaciones."
+      },
+      "business": {
+        "false_description": "Yo trabajo como individuo.",
+        "true_description": "Opero como una entidad comercial legalmente reconocida.",
+        "false_title": "Individual",
+        "true_title": "Negocio"
+      },
+      "bank": {
+        "hint": "El nombre del banco donde el vendedor tiene su cuenta.",
+        "placeholder": "El nombre de tu banco."
+      },
+      "account_name": {
+        "hint": "Este debe coincidir con el nombre asociado a la cuenta bancaria.",
+        "placeholder": "Su nombre.."
+      },
+      "account_number": {
+        "hint": "El número de cuenta único del vendedor.",
+        "placeholder": "Su número de cuenta bancaria."
+      },
+      "routing_number": {
+        "hint": "Este número varía según el país. Se utiliza para identificar la sucursal bancaria específica que utiliza el proveedor.",
+        "placeholder": "Su número de ruta bancaria, código de clasificación o número BSB."
+      },
+      "iban": {
+        "hint": "Número de cuenta bancaria internacional): si el banco del vendedor está en Europa o en otros países determinados.",
+        "placeholder": "Su número IBAN, por ejemplo: DE89 3704 0044 0000 0000 00"
+      },
+      "swift": {
+        "hint": "Número de cuenta bancaria internacional): si el banco del vendedor está en Europa o en otros países determinados.",
+        "placeholder": "Su código Swift/BIC."
+      },
+      "branch_address": {
+        "hint": "La dirección de la sucursal bancaria donde el vendedor tiene su cuenta.",
+        "placeholder": "Su dirección bancaria."
+      },
+      "enable": {
+        "label": "Estado del proveedor",
+        "hint": "Puedes habilitar o deshabilitar proveedores a nivel global. Los clientes no podrán comprar nada a los proveedores deshabilitados.",
+        "true_description": "Podrán vender sus productos a través de su marketplace."
+      },
+      "access": {
+        "label": "Panel de proveedores y acceso",
+        "true_description": "El vendedor tiene un panel dedicado para actualizar la cantidad y el precio.",
+        "hint": "Puede habilitar o deshabilitar el panel de proveedores, que les permite actualizar las cantidades y los precios de los productos y recibir pedidos parciales.",
+        "false_description": "El vendedor no tiene acceso a nada."
+      }
+    }
+  },
+  "vendor_documents_list": {
+    "title": "Documentos",
+    "action_upload_doc": "Subir documento",
+    "vendor_subtitle": "Cargue los documentos necesarios para verificar su empresa, IP y dirección. Necesitamos esta información para confirmar su asociación y brindarle el acceso necesario.",
+    "marketplace_subtitle": "Los proveedores pueden enviar documentos como verificación comercial, de propiedad intelectual y de dirección para facilitar su proceso KYC, lo que le permitirá otorgarles el acceso adecuado.",
+    "upload_dialog": {
+      "title": "Subir documento",
+      "type": {
+        "title": "Tipo de documento",
+        "subtitle": "Cargue únicamente los documentos necesarios. Evite compartir documentos que contengan información confidencial. Solicitamos documentos que estén disponibles públicamente."
+      }
+    }
+  },
+  "product_badges": {
+    "title": "Insignias",
+    "subtitle": "Agregar y editar insignias de productos personalizadas.",
+    "only_marketplace_owner_msg": "Solo propietarios de mercados",
+    "create_new_badge_action": "Crear nueva insignia",
+    "select_a_badge": "Seleccione una insignia...",
+    "inputs": {
+      "custom": {
+        "false_description": "Las insignias de productos se crean automáticamente.",
+        "false_title": "Auto",
+        "true_title": "Insignias de productos personalizados",
+        "true_description": "Agregue insignias personalizadas en la página del producto."
+      }
+    },
+    "add_custom_badge": {
+      "title": "Insignia personalizada",
+      "subtitle": "Agrega una nueva insignia personalizada a mi tienda. Mantén la cantidad de insignias por debajo de 10. Si tienes más insignias, tu tienda se ralentizará.",
+      "show_advanced_options": "Mostrar opción avanzada",
+      "inputs": {
+        "title": {
+          "placeholder": "Título público..."
+        },
+        "image": {
+          "label": "imagen",
+          "message": "Tamaño máximo de imagen: 128 KB",
+          "placeholder": "Seleccione una imagen de portada"
+        },
+        "pattern": {
+          "label": "Patrón",
+          "message": "Muestra automáticamente esta insignia para los productos que tienen este valor coincidente en su especificación. Se admiten expresiones regulares.",
+          "placeholder": "Para mostrar todos los productos escriba: *.*"
+        }
+      },
+      "notifications": {
+        "badge_added": "¡La insignia se ha añadido correctamente!",
+        "badge_updated": "¡La insignia se ha actualizado correctamente!",
+        "item_not_found_error": "No se pudo encontrar el artículo. Actualice la página o comuníquese con el servicio de asistencia."
+      }
+    }
+  },
+  "product_tags": {
+    "title": "Etiquetas",
+    "tips": [
+      "Puede filtrar productos según etiquetas en <b>las páginas de destino</b> .",
+      "Usted y sus clientes pueden buscar estas etiquetas en la barra <b>de búsqueda</b> .",
+      "Si se establecen etiquetas, solo los productos con <b>etiquetas comunes</b> se mostrarán en la <b>sección de productos relacionados</b> en la página del producto; de lo contrario, se mostrarán los productos de la misma categoría."
+    ],
+    "inputs": {
+      "tags": {
+        "placeholder": "Coloque las etiquetas aquí y presione enter. ej. nueva colección"
+      }
+    },
+    "notifications": {
+      "tags_updated": "Las etiquetas se han actualizado correctamente."
+    }
+  },
+  "vendor_shipping_services": {
+    "title": "Envío",
+    "subtitle": "Aquí puede agregar servicios de envío y mensajería. Los servicios de envío y mensajería deben estar dentro de los métodos de transporte predefinidos definidos por el mercado. Al agregar servicios de envío y mensajería, puede asignarles pedidos fácilmente y solicitar etiquetas o mensajería automáticamente.",
+    "action": "Agregar servicio",
+    "add_dialog": {
+      "select_method": "Seleccionar método",
+      "select_method_msg": "Seleccione un método de transporte de la siguiente lista. Los métodos de envío los define el mercado.",
+      "select_service_msg": "Seleccione un servicio de envío de la lista que aparece a continuación. Aquí solo se muestran los servicios disponibles que se pueden agregar a su tienda.",
+      "no_available_service": "¡No hay servicio disponible!"
+    }
+  },
+  "product_location_profile": {
+    "title": "Ubicación",
+    "empty_subtitle": "Asigne una ubicación al producto si es un artículo basado en la ubicación.",
+    "dialog": {
+      "header": "Seleccionar perfil de ubicación",
+      "action_new_location": "Agregar nueva ubicación",
+      "title": "Perfil de ubicación",
+      "subtitle": "Puede fijar productos en la ubicación del mapa asignándoles etiquetas de ubicación.",
+      "tips": "<b>Importante:</b> Asigna una ubicación al producto <b>solo</b> si deseas mostrar el producto en la ubicación específica en el mapa. El producto marcado debe tener la ubicación como su especificación principal, como <b>casas o lugares de alquiler</b> o servicios en persona como <b>peluquería y spa</b> ."
+    }
+  },
+  "translation_button": {
+    "header": "Multi idioma",
+    "auto_action": "Traducir automáticamente",
+    "premium_user_only": "Usuarios Premium"
+  },
+  "product_include_profile": {
+    "subtitle": "Incluya una lista de artículos que vienen con el paquete del producto o servicio.",
+    "dialog": {
+      "header": "Elementos del paquete del producto",
+      "title": "Artículos incluidos",
+      "subtitle": "Esta es una recopilación de artículos que vienen con el producto.",
+      "action_manage": "Administrar artículos",
+      "action_disable_msg": "Propietario del mercado",
+      "select_items_tips": "Cree o elija los componentes del paquete que vienen con el producto o servicio. Utilice esta función para destacar lo que los clientes pueden esperar recibir al comprar el artículo. Recomendamos utilizar esta función solo cuando sea crucial para el cliente comprender el contenido incluido, como cuando compra un teléfono inteligente.",
+      "create_item_tips": "Como alternativa, puede incluir un nuevo artículo. Utilice imágenes cuadradas, ya que cambiaremos automáticamente el tamaño de las imágenes cargadas a un formato cuadrado de 256 x 256. Para garantizar una apariencia óptima en todas las plantillas, utilice imágenes minimalistas con fondos transparentes y mantenga un patrón uniforme para todos sus productos.",
+      "create_new_item_action": "Crear nuevo elemento incluido"
+    }
+  },
+  "transportation_eligible": {
+    "subtitle": "Los servicios de envío disponibles dependen del tamaño y peso proporcionados."
+  },
+  "bulk_price_dialog": {
+    "title": "Acciones masivas > Precio",
+    "message": "El siguiente importe se aplicará como porcentaje al precio de todos los productos de su tienda. Además, los valores de precio calculados se convertirán de forma inteligente al número redondo más cercano en función de la moneda seleccionada. Tenga cuidado al ingresar los valores.",
+    "check": "Acepto cambios de precio.",
+    "check_description": "El precio se cambiará para la categoría seleccionada y todas las subcategorías.",
+    "add_percent_tab": "Agregar porcentaje",
+    "add_constant_tab": "Agregar constante",
+    "ending_tab": "estrategia final",
+    "marketplace_listing_price": "Precio de lista",
+    "constant": {
+      "subtitle": "El importe se añadirá o restará del precio actual de los productos."
+    },
+    "ending": {
+      "subtitle": "El final del precio actual de los productos se cambiará al valor especificado."
+    },
+    "marketplace": {
+      "title": "Precio de listado en Marketplace",
+      "subtitle": "Esta opción le permite actualizar automáticamente el precio de los productos en el mercado. En ocasiones, el precio del producto principal puede no coincidir con el precio del proveedor debido a cambios de precio manuales.",
+      "strategy": {
+        "min": {
+          "title": "Establecer precio mínimo",
+          "description": "Establezca el precio mínimo del producto como precio de cotización."
+        },
+        "max": {
+          "title": "Establecer precio máximo",
+          "description": "Establezca el precio máximo del producto como precio de lista."
+        }
+      }
+    },
+    "category": {
+      "subtitle": "Limite la acción masiva a una categoría y todas las subcategorías."
+    },
+    "vendor": {
+      "subtitle": "Limite las acciones en bloque a un proveedor específico. Cuando se selecciona un proveedor, la actualización de precio se aplicará a los productos del proveedor, lo que representa el precio de venta de ese proveedor.",
+      "listing_price_need_update_msg": "Si desea actualizar el precio de lista (el precio que se muestra en la lista de productos), debe volver a enviar la actualización masiva con los mismos filtros pero sin seleccionar un proveedor."
+    },
+    "listing_products_changes": "Cambio de listado de productos",
+    "total_vendor_products": "Total de productos del proveedor",
+    "total_products": "Total de productos",
+    "total_variants": "Variantes totales"
+  },
+  "product_panel": {
+    "excel_import": {
+      "title": "Coloque el archivo Excel/CSV aquí.",
+      "select_file": "Seleccionar archivo",
+      "max_file": "Tamaño máximo de archivo: 20 MB",
+      "download_sample": "Descargar muestra"
+    },
+    "ai": {
+      "title": "Asistencia de productos con inteligencia artificial"
+    }
+  },
+  "order_vendor": {
+    "has_panel": "Tiene panel",
+    "no_panel": "Sin panel",
+    "manual_action": {
+      "title": "Acciones manuales",
+      "message": "Puede actualizar el estado del pedido del proveedor manualmente.",
+      "guides": [
+        "Los proveedores con acceso al panel pueden actualizar su cumplimiento (subpedidos) en su panel dedicado.",
+        "Si el vendedor no tiene acceso al panel, el estado del pedido del vendedor se cambiará automáticamente cambiando el estado de la cesta.",
+        "Puede actualizar los pedidos de proveedores manualmente."
+      ]
+    },
+    "payouts": {
+      "title": "Pagos",
+      "message": "Gestionar los pagos y transacciones de los proveedores.",
+      "charge_tooltip": "Cargue la billetera del proveedor.",
+      "withdraw_tooltip": "Retirar de la billetera del vendedor.",
+      "payout_tooltip": "Pago al proveedor."
+    }
+  },
+  "vendor_dashboard": {
+    "info": {
+      "subtitle": "Información del mercado."
+    },
+    "performance": {
+      "subtitle": "Mi desempeño en ventas."
+    },
+    "products": {
+      "title": "productos",
+      "subtitle": "Aquí puede ver el recuento de sus productos incluidos en el mercado. No se incluyen los productos de varios vendedores."
+    },
+    "wallets": {
+      "title": "Mis billeteras",
+      "subtitle": "¡No es necesario agregar billeteras manualmente! Las billeteras de los vendedores se crearán automáticamente."
+    },
+    "open_marketplace_page": "Abrir página del mercado",
+    "open_my_store_page": "Abre la página de mi tienda",
+    "open_my_listing_page": "Abrir mi página de listado",
+    "add_products_permission": "Añadir permiso de productos",
+    "add_categories_permission": "Añadir permiso para categorías"
+  },
+  "vendor_inventory": {
+    "title": "Lista de productos",
+    "subtitle": "Esta es una lista de tus productos en el mercado. Actualiza los precios y las cantidades de los productos asignados en el inventario. Como vendedor, solo verás los productos de un solo vendedor que posees en la lista de productos. Aquí también puedes modificar otros productos asignados."
+  },
+  "vendor_payments": {
+    "list": {
+      "title": "Historial de pagos",
+      "subtitle": "Puede consultar su historial de pagos aquí. Estos pagos pueden procesarse manualmente a través de transferencias bancarias o automáticamente utilizando servicios de pago que ofrecen la posibilidad de realizar pagos."
+    },
+    "connect": {
+      "title": "Conectar banco",
+      "subtitle": "Ofrecemos la posibilidad de dividir el pago en las siguientes pasarelas de pago. Para recibir los pagos sin inconvenientes después de cada compra, conecte su cuenta bancaria utilizando estas opciones."
+    },
+    "verify_dialog": {
+      "title": "Verificar pago",
+      "option": {
+        "title": "Acción del vendedor",
+        "subtitle": "Tienes la opción de aceptar o rechazar esta transferencia. Esta acción sirve únicamente como registro histórico. Simplemente confirma si has recibido los fondos; si no, no es necesario que realices ninguna acción."
+      },
+      "inputs": {
+        "verify": {
+          "label": "¿Has confirmado este pago?",
+          "false_description": "No, aún no he recibido este pago en mi cuenta bancaria.",
+          "true_description": "Sí, he recibido y verificado este pago."
+        }
+      }
+    }
+  },
+  "order_vendor_payment": {
+    "message": "Esta es una descripción general de las transacciones en su billetera virtual en el mercado.",
+    "vendor_wallets": "Carteras de vendedores",
+    "my_wallets": "Mis billeteras"
+  },
+  "product_add_dropshipping_shops": {
+    "subtitle": "Aquí, puedes encontrar mayoristas que publican sus productos en Selldone, poniéndolos a disposición de otros comerciantes. La plataforma de dropshipping integrada de Selldone simplifica el proceso, haciéndolo fácil y sencillo tanto para mayoristas como para comerciantes."
+  },
+  "customer_add": {
+    "edit_title": "Editar cliente",
+    "add_title": "Añadir nuevo cliente",
+    "subtitle": "Para agregar un cliente a su tienda, proporcione una dirección de correo electrónico o un número de teléfono.",
+    "more": {
+      "title": "Agregar más detalles",
+      "subtitle": "Establecer moneda, club de clientes, segmentos, dirección y más."
+    },
+    "detail": {
+      "subtitle": "Mantenga un registro de la información personal de sus clientes. Respete la privacidad de sus clientes."
+    },
+    "preferences": {
+      "subtitle": "Establezca aquí la moneda de usuario predeterminada, el club de clientes y los segmentos."
+    },
+    "address": {
+      "subtitle": "Esta dirección se puede utilizar en el POS. El usuario no puede ver esta información."
+    }
+  },
+  "referral_bank": {
+    "title": "Panel de referencia",
+    "subtitle": "Si lo solicita, la comisión se abonará en la cuenta bancaria que usted indique. Indique aquí sus datos bancarios.",
+    "no_bank_info": "¡Sin información bancaria!",
+    "actions": {
+      "edit_my_bank_info": "Editar mi información bancaria"
+    },
+    "bank_dialog": {
+      "title": "Mis datos bancarios",
+      "info": {
+        "title": "Banco",
+        "subtitle": "Ingrese aquí su información bancaria. Utilizaremos esta información para transferir fondos. Asegúrese de que la cuenta bancaria esté a su nombre o a nombre de su empresa, según corresponda."
+      },
+      "inputs": {
+        "name": {
+          "label": "Nombre del banco",
+          "message": "El nombre completo del banco donde está abierta la cuenta."
+        },
+        "holder_name": {
+          "label": "Nombre del titular de la cuenta",
+          "message": "El nombre completo de la persona o entidad que posee la cuenta."
+        },
+        "account_number": {
+          "label": "Número de cuenta",
+          "message": "El número único asociado con la cuenta bancaria específica."
+        },
+        "routing_number": {
+          "label": "Número de ruta (EE. UU.) o código de clasificación (Reino Unido)",
+          "message": "Un número que identifica la sucursal bancaria específica (se utilizan términos diferentes en distintos países)."
+        },
+        "swift": {
+          "label": "Código SWIFT/BIC",
+          "message": "Un código internacional utilizado para identificar bancos a nivel mundial, especialmente para transferencias internacionales."
+        },
+        "iban": {
+          "label": "IBAN (Número de cuenta bancaria internacional)",
+          "message": "Utilizado principalmente en Europa, el IBAN es un sistema acordado internacionalmente para identificar cuentas bancarias a través de fronteras nacionales."
+        },
+        "contact": {
+          "label": "Información del contacto",
+          "message": "Número de teléfono o dirección de correo electrónico asociada a la cuenta."
+        },
+        "note": {
+          "label": "Nota",
+          "message": "Nota adicional"
+        }
+      }
+    },
+    "notifications": {
+      "save": {
+        "message": "Su información bancaria se ha actualizado correctamente."
+      }
+    }
+  },
+  "referral_tier": {
+    "message": "De todas las tarifas de servicios, suscripciones y otros pagos realizados por sus referidos."
+  },
+  "ReferralTiers": {
+    "Bronze": {
+      "title": "Nivel Bronce",
+      "description": "Estás en el nivel Bronce. Has ganado una comisión del 2 % de tus referidos."
+    },
+    "Silver": {
+      "title": "Nivel Plata",
+      "description": "Estás en el nivel Plata. Has ganado una comisión del 4 % de tus referidos."
+    },
+    "Gold": {
+      "title": "Nivel Oro",
+      "description": "Estás en el nivel Gold. Has ganado una comisión del 6 % de tus referidos."
+    },
+    "Platinum": {
+      "title": "Nivel Platino",
+      "description": "Estás en el nivel Platino. Has ganado una comisión del 8 % de tus referidos."
+    },
+    "Diamond": {
+      "title": "Nivel Diamante",
+      "description": "Estás en el nivel Diamante. Has ganado una comisión del 10 % de tus referidos."
+    }
+  },
+  "page_monetize": {
+    "title": "Monetizar",
+    "subtitle": "Distribuir el acceso a oportunidades de negocio."
+  },
+  "sms_template_mode": {
+    "text": {
+      "title": "Texto simple",
+      "desc": "El mensaje se creará a partir de un texto con parámetros de reemplazo automático y se enviará."
+    },
+    "template": {
+      "title": "Plantilla estructural",
+      "desc": "Se creará un objeto a partir de parámetros y se enviará al proveedor."
+    }
+  },
+  "shop_sms_provider": {
+    "title": "Proveedor de SMS personalizado",
+    "reset_error": "Restablecer errores",
+    "subtitle": "Configure un proveedor de servicios de SMS personalizado y personalice sus SMS de autenticación y el nombre de su empresa. El proveedor predeterminado solo envía SMS de autenticación y mensajes de información en algunos países incluidos en la lista blanca.",
+    "plain_text": "Texto simple",
+    "structural_template": "Plantilla estructural",
+    "errors_limit_msg": "Si tu servicio supera los 100 errores, se deshabilitará automáticamente. Puedes restablecer los errores para volver a habilitarlo.",
+    "enable_input": {
+      "false_description": "Los mensajes OTP se enviarán a través de Selldone en países seleccionados, mientras que también se enviarán otros SMS de notificación de pedidos.",
+      "true_description": "Los mensajes SMS se enviarán a través de su proveedor de servicios."
+    },
+    "test_input": {
+      "true_title": "Validar configuración",
+      "true_description": "Te enviaremos un mensaje de prueba a tu número de teléfono 📞 <b>{phone}</b> , puede cobrarte, pero podrás asegurarte de que todo funciona bien."
+    },
+    "sync_action": {
+      "title": "Comportamiento",
+      "subtitle": "Algunos servicios de SMS ofrecen servicios adicionales como campañas, marketing y otras funciones. Puedes sincronizar tus contactos o información adicional para utilizar sus funciones más rápidamente.",
+      "action": "Sincronizar contactos"
+    },
+    "tokens": {
+      "title": "Parámetros",
+      "subtitle": "Establezca los siguientes parámetros para vincular su proveedor de servicios SMS con su tienda."
+    }
+  },
+  "sms_messages_options": {
+    "all": {
+      "title": "Notificaciones de pedidos OPT+",
+      "description": "Se enviarán mensajes de autenticación y notificación de pedido."
+    },
+    "otp": {
+      "title": "Solo OTP",
+      "description": "Se enviarán mensajes de autenticación."
+    }
+  },
+  "shop_email_provider": {
+    "title": "Servidor de correo personalizado",
+    "subtitle": "Conecte su proveedor de servicios de correo para enviar correos electrónicos a través de su dominio personalizado.",
+    "provider": "Proveedor",
+    "enable_input": {
+      "false_description": "Sus correos electrónicos se enviarán a través de su dominio myselldone.",
+      "true_description": "Sus correos electrónicos se enviarán a través de su dominio de correo personalizado."
+    },
+    "config": {
+      "title": "Configuraciones",
+      "subtitle": "Para configurar su servicio de correo personalizado para su tienda, ingrese su clave API de servicio junto con otras configuraciones necesarias."
+    },
+    "sender": {
+      "title": "Desde",
+      "subtitle": "Puede configurar el nombre y la dirección de correo electrónico del remitente predeterminado, que se utilizarán para enviar correos electrónicos a sus clientes."
+    },
+    "inputs": {
+      "from": {
+        "label": "Desde el correo electrónico"
+      },
+      "from_name": {
+        "label": "De Nombre"
+      }
+    },
+    "actions": {
+      "send_test_email": "Enviar un correo electrónico de prueba"
+    },
+    "messages": {
+      "provider_error_limit": "Si tu servicio supera los 100 errores, se deshabilitará automáticamente. Puedes restablecer los errores para volver a habilitarlo.",
+      "encryption_ports_guide": "Los proveedores de correo electrónico pueden ofrecer conexiones SSL, TLS o sin cifrar según los puertos disponibles. Si la conexión genera un error, modificar el modo de cifrado podría resolver el problema. El puerto estándar de <b>TLS</b> es <b>el 587</b> y el puerto <b>de SSL</b> es <b>el 465</b> .",
+      "enable_receive_test": "Después de guardar los cambios, recibirás un correo electrónico de prueba en <b>{email}</b> . Guarda los cambios antes de enviar un correo electrónico de prueba con la nueva configuración."
+    }
+  },
+  "product_location_restrictions": {
+    "title": "Ubicaciones disponibles",
+    "subtitle": "Si su producto o servicio solo está disponible en regiones específicas, definidas por país y códigos postales, puede designar esas ubicaciones aquí. Estas restricciones de ubicación se aplican a nivel de producto. En la página del producto, se les solicitará a los clientes que seleccionen su ubicación. Si el producto está disponible en el área elegida, podrán continuar con la compra.",
+    "add_location_action": "Agregar país",
+    "no_restriction": "Sin restricciones",
+    "import": {
+      "title": "Perfil de carga",
+      "subtitle": "Seleccione un perfil de ubicaciones guardadas."
+    },
+    "export": {
+      "title": "Guardar perfil",
+      "subtitle": "Almacene ubicaciones para uso futuro."
+    },
+    "has_restriction_input": {
+      "title": "Tiene restricción de ubicación",
+      "description": "Los clientes solo pueden comprar este producto dentro del país y código postal especificados, debido a la restricción de ubicación establecida."
+    },
+    "zip_pin_code": "Códigos postales/PIN",
+    "no_country_selected_error": "Incluya al menos un país junto con una lista de códigos postales. Sin esta información, este producto no estará disponible.",
+    "tips": "Haz clic en el botón <b>+ Agregar país</b> para comenzar a crear un nuevo conjunto de ubicaciones. Una vez que hayas terminado, puedes guardarlo haciendo clic en el <b>menú ⋮</b> de la parte superior derecha y seleccionando <b>Guardar perfil</b> .",
+    "need_save_message": "Se han modificado las configuraciones de restricción de ubicación del producto. Para conservar estos cambios, haga clic en el botón \"Guardar\" que aparece a continuación.",
+    "add_dialog": {
+      "title": "Agregar país",
+      "message": "Seleccione un país y haga clic en \"Agregar\". Esto agregará el país a la tabla, lo que le permitirá asignarle códigos postales, códigos PIN, nombres de ciudades o nombres de regiones."
+    },
+    "save_profile_dialog": {
+      "title": "Agregar perfil de ubicaciones",
+      "message": "Ingrese un nombre para guardar este conjunto de ubicaciones. Este conjunto de ubicaciones guardadas se puede aplicar a otros productos, lo que permite cargar ubicaciones rápidamente con un solo clic. Si ya existe un perfil con el nombre proporcionado, se actualizará con estos nuevos valores.",
+      "title_input": {
+        "title": "Título del perfil",
+        "placeholder": "Un nombre de categoría, o nombre de tienda, ..."
+      }
+    },
+    "load_profile_dialog": {
+      "title": "Perfil de ubicaciones de carga",
+      "message": "Puede cargar ubicaciones seleccionando una ubicación previamente guardada aquí.",
+      "select_input": {
+        "title": "Perfil de ubicación",
+        "placeholder": "Seleccione un perfil..."
+      }
+    }
+  },
+  "blog_timeline": {
+    "title": "Calendario de lanzamiento de contenido",
+    "subtitle": "Aquí se encuentra la lista de artículos programados para su publicación futura. Tiene la posibilidad de programar publicaciones de blog e incluso descripciones de productos para que se publiquen en momentos específicos."
+  },
+  "direct_feedback": {
+    "title": "Enviar solicitud directa",
+    "message": "Identifique las 3 principales necesidades de su empresa para prosperar y obtener ganancias en Selldone. Esta información se compartirá directamente con los fundadores y directores y se considerará cuidadosamente. También puede actualizar sus necesidades con el tiempo después del envío.",
+    "expand_action": "Escribe la solicitud...",
+    "input_label": "Su solicitud",
+    "to": {
+      "ceo": "Enviar al director ejecutivo",
+      "team": "Enviar al equipo"
+    },
+    "placeholder": {
+      "ceo": "No hay necesidad de ser amable en absoluto, me gusta escuchar tus preguntas directas y al grano. Por ejemplo, necesito tener...",
+      "team": "Por favor, trate de ser amable con ellos. Por ejemplo, necesito tener..."
+    }
+  },
+  "inventory_filter": {
+    "placeholder": "Seleccionar filtro *.*"
+  },
+  "vendor_input": {
+    "placeholder": "Proveedor de filtros..."
+  },
+  "product_import_processing": {
+    "title": "Procesamiento de productos importados",
+    "message": "Estamos en proceso de importación de productos e imágenes, lo que puede tardar algún tiempo en completarse."
+  },
+  "order_input": {
+    "message": "La información que se muestra aquí ha sido enviada por el cliente, de acuerdo con la estructura del formulario de entrada del producto."
+  },
+  "shop_connect": {
+    "test": {
+      "title": "Configuración",
+      "subtitle": "Informe de servicio externo",
+      "action": "Conexión de prueba",
+      "last_update": "Última actualización realizada por"
+    },
+    "service_status": {
+      "title": "Estado del servicio",
+      "syncing_message": "Sobre el proceso de sincronización...",
+      "action": "Sincronizar todo",
+      "connect_status": "Estado de conexión",
+      "service_status": "Estado del servicio",
+      "auto_confirm_enable_msg": "La confirmación automática de pedidos está habilitada.",
+      "auto_confirm_disable_msg": "La confirmación automática de pedidos no está habilitada.",
+      "shipping_enable_msg": "El costo de envío se calculará en base a la información proporcionada al momento del pago."
+    },
+    "detail": {
+      "title": "Detalle de conexión",
+      "auto_confirm_order": "Confirmar pedidos automáticamente",
+      "test_mode": "Modo de prueba",
+      "status": {
+        "subtitle": "Información general sobre el estado de la sincronización."
+      },
+      "sync": {
+        "title": "Detalle de sincronización",
+        "subtitle": "Detalles de sincronización interna. Esta información se guarda después de que finaliza con éxito un proceso de sincronización.",
+        "no_data": "¡No hay información de sincronización!"
+      }
+    },
+    "products": {
+      "title": "productos",
+      "subtitle": "Lista de productos agregados de {name}. Asegúrate de que tu producto tenga un nombre y un SKU únicos. Algunos servicios de Connect se utilizan para la migración, por lo que si tienes productos con <b>SKU</b> y <b>nombres</b> duplicados, esos productos se cambiarán.",
+      "action": "Obtener productos",
+      "syncing_message": "Sobre el proceso de sincronización..."
+    },
+    "logs": {
+      "title": "Registros",
+      "subtitle": "Lista de todos los registros de los últimos 7 días. La función de registro solo es compatible con proveedores de servicios externos."
+    },
+    "edit": {
+      "title": "Añadir nueva conexión",
+      "service": {
+        "title": "Servicio",
+        "subtitle": "Seleccione la plataforma de destino, el proveedor de dropshipping o el mercado para conectarse."
+      },
+      "test": {
+        "false_title": "Sincronizar todo",
+        "false_desc": "Obtenga todos los productos, categorías y clientes disponibles.",
+        "true_title": "Limitado (recomendado para principiantes)",
+        "true_desc": "Obtén un máximo de 5 productos, categorías y clientes. Puedes activar el modo completo en Conectar > Configuración en cualquier momento."
+      },
+      "overwrite": {
+        "false_title": "No cambiar si existe",
+        "false_desc": "Conserve los detalles de productos y categorías existentes tal como están.",
+        "true_title": "Exagerar",
+        "true_desc": "Actualice la información existente del producto, variante y categoría."
+      },
+      "migration_tips": "<b>Consejos:</b> si desea probar la funcionalidad, seleccione la opción <b>Limitada</b> . Al seleccionar \"Sincronizar todo\", obtenemos todos los datos de sus servicios conectados y descargamos imágenes relacionadas, por lo que reducirá su almacenamiento gratuito. Además, eliminar muchos productos, categorías y clientes sería difícil.",
+      "add_action": "Conectarse automáticamente a",
+      "order": {
+        "title": "Estado del pedido",
+        "subtitle": "Configure los ajustes de gestión de pedidos del servicio conectado para su tienda. Esto incluye configurar la aceptación de pedidos, habilitar la confirmación automática de pedidos (si es compatible) y configurar los cálculos de costos de envío."
+      },
+      "enable": {
+        "label": "Estado de conexión",
+        "true_desc": "El inventario y los pedidos se sincronizarán."
+      },
+      "confirm": {
+        "label": "Confirmar pedidos automáticamente",
+        "false_desc": "Debes confirmar el pedido manualmente.",
+        "true_desc": "Los pedidos con pago en vivo se aprobarán automáticamente. Los pedidos con pago de depuración no se aprobarán automáticamente.",
+        "tips": "Los pedidos pagados con tarjeta de regalo o COD o pasarelas de pago en el modo de depuración son excepciones y no se confirmarán automáticamente."
+      },
+      "shipping": {
+        "label": "Envío",
+        "tips": "Este servicio ofrece cálculo de gastos de envío, que puede habilitarse o deshabilitarse según sus preferencias. Si está habilitado, se requerirán API de cálculo de costos con servicios de terceros, lo que puede causar una demora de más de 300 ms para actualizar el precio en la página de pago.",
+        "false_title": "Desactivar",
+        "false_desc": "Utilice mi cálculo de costos de envío, en Tienda > Logística > Transporte para todos los productos, incluidos los importados.",
+        "true_title": "Calcular envío",
+        "true_desc": "Utilice la API de cálculo de tarifas de envío que ofrece este servicio."
+      },
+      "remove": {
+        "verify": "Verifico para eliminar esta conexión.",
+        "action": "Eliminar conexión"
+      }
+    },
+    "list": {
+      "title": "Conectar sistema operativo",
+      "subtitle": "Conecte su sistema operativo empresarial a servicios externos y administre todos los canales en un mismo lugar.",
+      "action": "Conectar nuevos servicios",
+      "empty_message": "Olvídate de las aplicaciones y los complementos para dropshipping. Connect es el futuro de la gestión de pedidos multiplataforma.",
+      "auto_confirm": "Confirmación automática",
+      "shipping": "Envío",
+      "syncing_now": "¡Sincronizando ahora!",
+      "sync_not_started": "¡La sincronización aún no ha comenzado!"
+    }
+  },
+  "connect_mode": {
+    "Migration": {
+      "title": "Migración",
+      "desc": "Obtener productos, categorías y clientes. Una vez que el usuario elimine este servicio, los productos, categorías y clientes recibidos no se eliminarán."
+    },
+    "Dropshipping": {
+      "title": "Envío directo",
+      "desc": "Obtenga productos, categorías y pedidos. El sistema elimina productos después de que el usuario cancele el servicio."
+    },
+    "Marketplace": {
+      "title": "Mercado",
+      "desc": "Simplemente sincronice el inventario y reciba pedidos (los productos estarán vinculados por SKU)."
+    },
+    "Accounting": {
+      "title": "Contabilidad",
+      "desc": "Enviar pedidos e información financiera."
+    },
+    "Other": {
+      "title": "Otro",
+      "desc": "Otros servicios."
+    }
+  },
+  "shop_landings": {
+    "title": "Páginas de destino",
+    "add_new_action": "Agregar nueva página",
+    "subtitle": "Cree páginas personalizadas distintivas y responsivas para su marca utilizando un editor en línea versátil impulsado por IA y genere contenido dinámico automáticamente al ingresar datos.",
+    "empty_message": "Diseña páginas personalizadas mediante arrastrar y soltar..."
+  },
+  "shop_staff": {
+    "list": {
+      "title": "Gestión de personal",
+      "subtitle": "Los usuarios obtuvieron acceso al panel y a las secciones administrativas de esta tienda."
+    },
+    "pending": {
+      "title": "Pendiente",
+      "message": "Mostrar invitaciones pendientes."
+    }
+  },
+  "community_comments": {
+    "title": "comentarios",
+    "subtitle": "Esta es una lista de los comentarios de la comunidad.",
+    "empty_msg": "No se han creado comentarios hasta ahora..."
+  },
+  "community_categories": {
+    "title": "categorías",
+    "subtitle": "Esta es una lista de las categorías de la comunidad.",
+    "new_category_action": "Nueva categoría",
+    "empty_msg": "No se han creado categorías hasta ahora...",
+    "filter": {
+      "delete": {
+        "title": "Eliminado",
+        "description": "Mostrar categorías eliminadas."
+      }
+    }
+  },
+  "community_posts": {
+    "title": "Publicaciones",
+    "subtitle": "Esta es una lista de las publicaciones de la comunidad.",
+    "filter": {
+      "deleted": {
+        "title": "Eliminado",
+        "description": "Mostrar publicaciones eliminadas."
+      },
+      "reported": {
+        "title": "Reportado",
+        "description": "Mostrar publicaciones denunciadas."
+      }
+    },
+    "empty_msg": "No se han creado publicaciones hasta ahora...",
+    "menu": {
+      "open_post": {
+        "title": "Publicación abierta",
+        "subtitle": "Ver y editar publicaciones en la comunidad."
+      },
+      "spam": {
+        "title": "Informar y eliminar spam",
+        "subtitle": "Eliminar publicaciones en masa y banear usuarios."
+      },
+      "delete": {
+        "title": "Eliminar publicación",
+        "subtitle": "Eliminar esta publicación."
+      }
+    }
+  },
+  "channel_google": {
+    "gtag": {
+      "title": "Administrador de etiquetas",
+      "subtitle": "Google Analytics permite medir el ROI de los anuncios mientras se rastrean sitios y aplicaciones de Flash, video y redes sociales. Administre las etiquetas de sitios web sin esfuerzo con las soluciones gratuitas, simples y confiables de Google Tag Manager, sin necesidad de editar códigos.",
+      "tag_id": {
+        "label": "Identificación del administrador de etiquetas de Google"
+      }
+    },
+    "shopping": {
+      "title": "Compras de Google",
+      "subtitle": "Las fuentes de datos indican el origen de la información de su catálogo en Google. Siga este enlace para agregar automáticamente todos los productos y categorías a Google Merchandising.",
+      "tips": "Puede utilizar esta herramienta para administrar anuncios de Google de forma sencilla y automática.",
+      "link_message": "URL de feed de productos de Google"
+    },
+    "console": {
+      "title": "Consola de búsqueda",
+      "subtitle": "Agrega una metaetiqueta a tu página de inicio para la verificación de Google Search Console.",
+      "code": {
+        "label": "Etiqueta meta de verificación",
+        "placeholder": "De Google, por ejemplo viQg9mjdBj..."
+      }
+    },
+    "serp": {
+      "title": "SERP de Google y palabras clave",
+      "subtitle": "Obtenemos los datos de auditoría SEO más precisos de Google y te los presentamos de forma cómoda. Solo tienes que seguir los pasos indicados."
+    },
+    "serp_content": {
+      "title": "Conectarse a Google Search Console",
+      "subtitle": "Conecte su tienda a la consola de búsqueda y comience a explorar palabras clave, rangos y otras herramientas de SEO gratuitas en Selldone.",
+      "tips": {
+        "title": "Antes de vincular Selldone con Google Search Console, asegúrese de lo siguiente:",
+        "add_in_selldone": "Agregue, verifique y configure como principal su dominio personalizado.",
+        "add_in_google": "Agrega y verifica <b>{domain}</b> en tu <a href=\"https://search.google.com/search-console\" target=\"_blank\"><b>Google Search Console</b></a> ."
+      },
+      "action_custom_domain": "Dominio personalizado",
+      "action_connect_now": "Conecte ahora",
+      "action_remove_connection": "Eliminar conexión"
+    }
+  },
+  "cashback": {
+    "add_new": "Añadir nuevo reembolso",
+    "title": "Programas de devolución de dinero",
+    "boosted": "Impulso (2x)",
+    "min_purchase": "Compra mínima",
+    "only_first_order": "Solo primer orden",
+    "total_cashback": "Reembolso total",
+    "delete_alert": {
+      "title": "Eliminar programa de reembolso",
+      "message": "¿Estás seguro de eliminar este programa de reembolso?",
+      "action": "Sí, eliminar ahora"
+    },
+    "notifications": {
+      "delete_success": "Programa de reembolso eliminado exitosamente."
+    }
+  },
+  "shop_cashback": {
+    "title": "Programa de reembolso",
+    "up_to": "arriba a",
+    "menu": {
+      "back": "Programas de regreso",
+      "dashboard": "tablero",
+      "orders": "Pedidos",
+      "edit": "Editar"
+    },
+    "dashboard": {
+      "chart_amount_buy": {
+        "label": "Comprar",
+        "y": "Importe de la compra {currency}"
+      },
+      "chart_amount_cashback": {
+        "label": "Reembolso en efectivo",
+        "y": "Monto del reembolso {currency}"
+      },
+      "chart_used": {
+        "label": "Utilizado",
+        "y": "Veces"
+      }
+    },
+    "orders": {
+      "title": "Pedidos con devolución de dinero",
+      "table": {
+        "amount_cashback": "Monto del reembolso",
+        "payment_status": "Estado del pago",
+        "date": "Fecha"
+      }
+    }
+  },
+  "cashback_edit": {
+    "config": {
+      "subtitle": "Establezca aquí el porcentaje de chasback, el límite y su estado."
+    },
+    "percent_input": {
+      "title": "Porcentaje de reembolso",
+      "message": "Introduzca el porcentaje de reembolso del 1% al 20%."
+    },
+    "currency_input": {
+      "message": "El programa de devolución de dinero estará disponible sólo para esta moneda."
+    },
+    "limit_input": {
+      "title": "Límite",
+      "hint": "Introduzca el importe máximo de reembolso.",
+      "zero_message": "Introduzca 0 para obtener un reembolso ilimitado."
+    },
+    "duration": {
+      "title": "Límite de duración",
+      "subtitle": "Establezca la duración del programa de reembolso. Es opcional."
+    },
+    "start_input": {
+      "title": "Fecha de inicio",
+      "placeholder": "Seleccione fecha de inicio..."
+    },
+    "end_input": {
+      "title": "Fecha de finalización",
+      "placeholder": "Seleccionar fecha de finalización..."
+    },
+    "design": {
+      "subtitle": "Establezca un título y una breve descripción del programa de reembolso. Esta información se mostrará a los clientes."
+    },
+    "title_input": {
+      "title": "Título"
+    },
+    "description_input": {
+      "title": "Descripción"
+    },
+    "constraints": {
+      "subtitle": "Establezca las restricciones para el programa de devolución de dinero."
+    },
+    "min_purchase_input": {
+      "hint": "Ingrese el monto mínimo de compra para el programa de reembolso.",
+      "title": "Compra mínima"
+    },
+    "only_first_buy_input": {
+      "false_desc": "El programa de devolución de dinero estará disponible para todos los pedidos.",
+      "true_desc": "El programa de devolución de dinero estará disponible solo para el primer pedido.",
+      "true_title": "Solo primer orden",
+      "false_title": "Todos los pedidos"
+    },
+    "qualify_input": {
+      "false_title": "Todos los clientes",
+      "true_title": "Calificar clientes",
+      "true_msg": "El programa de devolución de dinero estará disponible sólo para los clientes que califiquen."
+    },
+    "club": {
+      "subtitle": "Establezca el club para el programa de reembolso. El programa de reembolso estará disponible solo para los clientes que estén en este club."
+    },
+    "cluster": {
+      "subtitle": "Al asociar un clúster con el programa de reembolso, puede administrarlo de manera más efectiva."
+    },
+    "notifications": {
+      "add": "Programa de reembolso agregado exitosamente.",
+      "edit": "Programa de reembolso actualizado exitosamente."
+    },
+    "enable_input": {
+      "true_msg": "El programa de reembolso está activo y los clientes pueden utilizarlo.",
+      "false_msg": "El programa de reembolso está inactivo y los clientes no pueden utilizarlo."
+    },
+    "boosted_input": {
+      "false_title": "Normal",
+      "true_title": "Boost (reembolso doble)",
+      "true_msg": "El programa de reembolso está en modo de refuerzo y los clientes recibirán un reembolso de 2x.",
+      "false_msg": "El programa de reembolso está en modo normal y los clientes recibirán el reembolso normal."
+    }
+  },
+  "row_payment": {
+    "actions": {
+      "refund": {
+        "title": "Pago de reembolso",
+        "subtitle": "Se admite reembolso parcial o total."
+      },
+      "delivery": {
+        "title": "Confirmar en el momento de la entrega",
+        "subtitle": "Puede confirmar manualmente la entrega para el proveedor de pagos."
+      }
+    }
+  },
+  "payment_refund_dialog": {
+    "title": "Pago de reembolso",
+    "message": "Por razones de seguridad, solo los pedidos pagados dentro de los últimos 7 días son elegibles para reembolsos.",
+    "payment_amount": "Monto del pago",
+    "total_refund_amount": "Importe total reembolsado",
+    "can_refund": "¿Puede reembolsarse?",
+    "refund_amount": "Monto del reembolso",
+    "verify": {
+      "title": "Verificar reembolso",
+      "description": "Confirmo que el monto del reembolso es correcto y quiero continuar."
+    },
+    "action": "Reembolso ahora"
+  },
+  "payment_delivery_dialog": {
+    "title": "Confirmación de entrega al cliente",
+    "message": "Algunos servicios de pago requieren una confirmación de que el pedido ha sido entregado al cliente. Normalmente enviamos esta confirmación durante el paso final del procesamiento del pedido, cuando recibimos la confirmación de entrega del cliente. Sin embargo, si necesita realizar esta acción manualmente, puede hacerlo aquí.",
+    "verify": {
+      "title": "Verificar entrega",
+      "description": "Confirmo que el pedido ha sido entregado al cliente."
+    },
+    "action": "Confirmar ahora"
+  },
+  "product_cross_selling": {
+    "title": "Venta cruzada",
+    "add_new_actions": "Agregar nuevo producto",
+    "subtitle": "En esta sección, puede agregar y administrar productos de venta cruzada para esta página de producto. Estos productos se mostrarán como sugerencias para que los clientes los compren junto con el artículo principal. También puede establecer descuentos para alentar e incentivar compras adicionales. El sistema mostrará un máximo de 3 artículos para que el cliente los considere.",
+    "dialog": {
+      "edit_title": "Editar producto de venta cruzada",
+      "add_title": "Añadir nuevos productos de venta cruzada",
+      "target": {
+        "title": "Producto objetivo",
+        "subtitle": "Elija los productos que desea promocionar como opciones de venta cruzada junto con este producto.",
+        "select_products": "Seleccione producto(s)"
+      },
+      "list": {
+        "title": "Producto objetivo",
+        "subtitle": "Este producto ha sido elegido para promoción de venta cruzada.",
+        "manage_product": "Administrar producto"
+      },
+      "discount": {
+        "title": "Descuento y mensaje",
+        "subtitle": "Tiene la opción de incluir un mensaje y ofrecer un descuento para motivar a los clientes a comprar los artículos adicionales seleccionados. Estos incentivos pueden ayudar a impulsar las ventas y mejorar la experiencia de compra en general.",
+        "amount_input": {
+          "message": "El porcentaje de descuento se aplicará al precio del producto después de tener en cuenta todos los descuentos existentes."
+        },
+        "mismatch_type_warning": "Los descuentos no se pueden aplicar a otros tipos además de los tipos de productos principales, ya que los artículos de origen y de destino no se colocarán en cestas separadas.",
+        "not_support_subscription_type_warning": "No es posible establecer descuentos para la venta cruzada de productos de suscripción, ya que los planes de precios no se pueden ajustar de forma dinámica.",
+        "message_input": {
+          "message": "Cree un título atractivo y cautivador para captar la atención de los clientes.",
+          "placeholder": "Combina y ahorra: ¡completa tu look con nuestra selección cuidadosamente seleccionada!"
+        }
+      },
+      "action": {
+        "title": "Acción",
+        "subtitle": "Modifique aquí la acción del producto de venta cruzada. Si su producto requiere la introducción de información personalizada, como por ejemplo mediante un formulario de valoración, no seleccione \"Añadir al carrito\" como acción, ya que esto puede generar errores."
+      }
+    }
+  },
+  "CrossSellActionType": {
+    "AddToCart": {
+      "title": "añadir a la cesta",
+      "description": "Muestra el botón Agregar al carrito directamente. Ten en cuenta que esto no se aplica a los productos con suscripción."
+    },
+    "ViewProduct": {
+      "title": "Ver el producto",
+      "description": "Muestra un botón Ver más que dirige a los clientes a la página del producto abriendo una nueva ventana."
+    }
+  },
+  "product_flow": {
+    "title": "Flujo de compra",
+    "subtitle": "Este es el flujo de compra y verificación del estado de su producto.",
+    "connect": {
+      "subtitle": "Este producto ha sido agregado a través de <b>{name}</b> .",
+      "enable_msg": "Este puente al servicio externo está habilitado.",
+      "disable_msg": "Este puente al servicio externo está deshabilitado.",
+      "has_shipping_msg": "{name} admite envíos. Por lo tanto, tiene la opción de habilitar el cálculo automático de envío por parte de {name} en la página de pago."
+    },
+    "health": {
+      "title": "Salud del producto",
+      "available_in_stock_msg": "El producto está disponible en stock.",
+      "out_of_stock_msg": "El producto está agotado.",
+      "file_count_msg": "{files_count} archivos con un total de {files_size} cargados para este producto.",
+      "no_file_uploaded_msg": "Aún no se ha cargado ningún archivo",
+      "no_image_uploaded_msg": "Sube una imagen del producto para hacerlo más atractivo."
+    },
+    "vendor_errors": {
+      "title": "Proveedores faltantes",
+      "subtitle": "Este producto actualmente no tiene vendedores asociados. Para que un producto pueda comprarse en el mercado, debe tener al menos un vendedor.",
+      "manage_vendors": "Administrar proveedores"
+    },
+    "file_errors": {
+      "title": "Archivos faltantes",
+      "subtitle": "Actualmente no se han cargado archivos para este producto. Cargue los archivos para continuar.",
+      "manage_files": "Administrar archivos"
+    },
+    "pricing": {
+      "title": "Precios",
+      "no_product_price_msg": "¡El precio predeterminado del producto aún no se ha establecido!",
+      "listing_pricing_msg": "Precios de listado:",
+      "has_valuation_msg": "El producto tiene valoración.",
+      "subscription_pricing_msg": "Este producto tiene {count} planes de precios de suscripción.",
+      "has_no_subscription_pricing_msg": "Este producto no tiene planes de precios de suscripción."
+    },
+    "subscription_errors": {
+      "title": "Planes de precios de suscripción faltantes",
+      "subtitle": "Este producto no tiene planes de precios de suscripción. Debe agregar al menos un plan de precios de suscripción para que este producto esté disponible para su compra por suscripción.",
+      "pricing_plans": "Planes de precios"
+    },
+    "location": {
+      "title": "Restricción de ubicación de venta ● {status}",
+      "status": {
+        "has_restriction": "Disponible en {count} países",
+        "no_restriction": "No restringido"
+      },
+      "available_countries_msg": "Las compras a nivel mundial están restringidas a {count} países. Estos países son {countries}.",
+      "disable_for_all_countries_msg": "Las compras están deshabilitadas para todos los países en la configuración de tu tienda > ubicaciones.",
+      "location_is_not_in_permitted_shop_locations_msg": "Estableciste {country} como ubicación de venta, pero en el nivel de tienda no permites este país. Revisa la configuración de tu nivel de tienda.",
+      "shop_locations": "Ubicaciones de las tiendas",
+      "product_locations": "Ubicaciones de productos"
+    },
+    "location_errors": {
+      "title": "Error de ubicaciones disponibles",
+      "no_location_error_subtitle": "Ha activado una restricción de ubicación para comprar el producto, pero actualmente no hay ningún país que esté sujeto a esta restricción. Como resultado, este producto no está disponible para su compra.",
+      "invalid_location_error_subtitle": "La configuración de restricción de ubicación de su producto contiene un error: algunas ubicaciones que figuran en la lista no tienen ningún código postal asociado. En consecuencia, los usuarios no pueden seleccionar un código postal, lo que hace que el producto no esté disponible para su compra.",
+      "manage_locations": "Administrar ubicaciones"
+    },
+    "tax": {
+      "title": "Impuesto de suscripción",
+      "default_shop": "Impuesto de tienda predeterminado",
+      "tax_profiles": "Perfiles fiscales",
+      "description": {
+        "subscription_tax_msg": "Podemos aplicar impuestos solo en el paso de creación del pago.",
+        "dedicated": "Dedicado",
+        "is_disabled": "¡Este perfil fiscal está deshabilitado!",
+        "tax_is_based_on_location": "Impuestos: basados en la ubicación",
+        "shipping_tax_is_based_on_location": "Envío: basado en la ubicación",
+        "included_in_price": "Incluido en el precio."
+      }
+    },
+    "vendor": {
+      "vendor_owner_msg": "Este producto pertenece a <b>{vendor}</b> .",
+      "has_vendors_msg": "Hay {count} proveedores para este producto.",
+      "no_vendor_msg": "No ha asignado un proveedor a este producto, por lo que los clientes no pueden comprarlo.",
+      "add_vendors": "Agregar proveedores"
+    }
+  },
+  "product_template": {
+    "title": "Plantilla de página de producto",
+    "subtitle": "Puede insertar una página dentro de la página de su producto para mejorar la presentación. El enfoque óptimo es crear páginas con un fondo transparente y de 1 a 3 secciones adaptadas a cada categoría de producto. Luego, asigne una página a varios productos para lograr una presentación uniforme y atractiva.",
+    "edit_page": "Editar página",
+    "list_of_pages": "Lista de páginas"
+  },
+  "product_embed": {
+    "subtitle": "Puede incorporar fácilmente un producto o una lista de productos en su blog u otras páginas web con solo copiar y pegar los códigos que le proporcionamos. Aunque esta función aún se encuentra en sus primeras etapas, estamos trabajando activamente para ampliar su funcionalidad más allá de lo que está disponible actualmente en otros lugares. Si bien actualmente ofrece capacidades limitadas, tenemos planes de introducir más plantillas y opciones de personalización en el futuro.",
+    "card": {
+      "title": "Mínimo",
+      "description": "Generar código HTML para agregar tarjetas de productos en otras plataformas y páginas HTML."
+    },
+    "iframe": {
+      "title": "Marco flotante",
+      "description": "Genere el código iframe para mostrar detalles completos del producto en una ventana incorporada."
+    }
+  },
+  "permission_staff_add": {
+    "title_new": "Nuevo personal",
+    "title_edit": "Personal de edición",
+    "staff": {
+      "title": "Agregar personal y acceso",
+      "subtitle": "Todos los usuarios con acceso de personal pueden iniciar sesión en su panel y ver información financiera. Para agregar usuarios con acceso limitado, defina Rol.",
+      "go_to_roles": "Ir a Roles"
+    },
+    "access": {
+      "customization_tips": "<b>Personalización:</b> Haga clic en cada elemento para personalizar el acceso de lectura/escritura predeterminado. Cada fila representa un nivel de acceso correspondiente al panel principal de la tienda.",
+      "simplify_tips": "<b>¡Importante!</b> Simplificamos el control de acceso de más de 300 a menos de 10 niveles. En la documentación se publicarán niveles de acceso más detallados y actualizados.",
+      "multi_permission_tips": "<b>¿Límites personalizados?</b> Puedes agregar más accesos a un usuario, por lo que después de agregar el primer acceso, crea accesos adicionales con los mismos pasos.",
+      "view_data": "Ver datos",
+      "apply_changes": "Aplicar cambios"
+    },
+    "inputs": {
+      "email": {
+        "placeholder": "Correo electrónico",
+        "label": "Dirección de correo electrónico del usuario"
+      },
+      "level": {
+        "label": "Nivel de acceso",
+        "placeholder": "Seleccione un nivel..."
+      }
+    },
+    "actions": {
+      "add": "Agregar personal"
+    },
+    "notifications": {
+      "add_success": {
+        "title": "Acceso concedido",
+        "message": "Se ha añadido correctamente el nuevo acceso."
+      },
+      "update_success": {
+        "title": "Acceso actualizado",
+        "message": "Los permisos se han actualizado correctamente."
+      }
+    }
+  },
+  "category_engine_editor": {
+    "title": "Listado de productos adicionales",
+    "subtitle": "Muestra productos de varias categorías. Tienes la opción de elegir varias categorías para mostrar productos o filtrar productos por etiquetas.",
+    "aut_add_sub_categories_tips": "Puede agregar automáticamente todas las subcategorías a la categoría actual haciendo clic en el botón a continuación.",
+    "inputs": {
+      "categories": {
+        "label": "categorías",
+        "messages": "Se mostrarán los productos de estas categorías.",
+        "placeholder": "Seleccionar categorías..."
+      },
+      "tags": {
+        "label": "Etiquetas de productos",
+        "messages": "Se mostrarán los productos con estas etiquetas.",
+        "placeholder": "Coloque las etiquetas aquí y presione enter. ej. nueva colección"
+      }
+    },
+    "actions": {
+      "save_engine": "Guardar motor",
+      "auto_add_subcategories": "Añadir subcategorías automáticamente"
+    }
+  },
+  "products_sort_view": {
+    "search_tips": {
+      "title": "Consejos de búsqueda",
+      "normal": "<b>Búsqueda general:</b> busque por título, MPN, SKU, marca o etiquetas.",
+      "product": "<b>ID de producto exacto:</b> utilice P+ID de producto para encontrar un producto específico, por ejemplo, <b class=\"text-green\">P</b> <i class=\"text-yellow\">360</i> .",
+      "quotes": "<b>Frase exacta:</b> utilice comillas para buscar una frase exacta, por ejemplo, <b class=\"text-green\">\"</b> <i class=\"text-yellow\">su texto aquí</i> <b class=\"text-green\">\"</b> .",
+      "tax": "<b>Perfil fiscal:</b> busque productos con un perfil fiscal específico utilizando \"impuesto:\", por ejemplo, <b class=\"text-green\">impuesto:</b> <i class=\"text-yellow\">nombre del perfil fiscal</i> .",
+      "new_products": "<b>Nuevos productos:</b> busque productos agregados dentro de un rango de fechas específico, por ejemplo, <b class=\"text-green\">nuevo~</b> <i class=\"text-yellow\">2023-08-10</i> <b class=\"text-green\">~</b> <i class=\"text-yellow\">2023-08-20</i> ."
+    }
+  },
+  "augment_form": {
+    "title": "Aumento",
+    "subtitle": "Introduzca la clave que se intercambiará con su valor correspondiente en el contenido de la página. Las claves deben tener un máximo de 32 caracteres.",
+    "add_caption": "Agregar nuevo artículo",
+    "add_sub_caption": "Agregar par clave-valor personalizado.",
+    "add_dialog": {
+      "title": "Seleccionar el tipo de entrada",
+      "html": {
+        "title": "Texto y HTML",
+        "subtitle": "El valor del artículo se puede designar como texto o HTML."
+      },
+      "image": {
+        "title": "imagen",
+        "subtitle": "Puedes subir una imagen."
+      }
+    },
+    "help_dialog": {
+      "title": "Cómo utilizar contenido dinámico",
+      "how_it_works_tips": "En las páginas de destino, tiene la flexibilidad de designar marcadores de posición dinámicos tanto para texto como para imágenes. Estos marcadores de posición cumplen una función importante en la personalización del contenido según el contexto. La naturaleza dinámica de estos marcadores de posición permite que se completen con valores de aumento, que pueden variar en función de diferentes factores. Por ejemplo, los valores de aumento pueden ser diferentes para cada producto o categoría. La verdadera ventaja de esta función entra en juego cuando tiene una variedad de artículos con diferentes atributos. Puede utilizar eficazmente estos marcadores de posición dinámicos para personalizar y mejorar la visualización de cada artículo, creando así una experiencia única e interactiva en sus páginas de destino.",
+      "assign_tips": "Para asignar valores dinámicos a las imágenes, haga clic en el botón de alimentación ubicado en el lado izquierdo de la sección.",
+      "set_dynamic_image_tips": "Ahora tiene la posibilidad de modificar la URL de la imagen y asignarle un valor dinámico.",
+      "enter_values_tips": "Para cada producto, tienes la posibilidad de asignar pares clave-valor dedicados.",
+      "result_tips": "Este es el resultado final de la página, donde los marcadores de posición han sido sustituidos por valores aumentados."
+    }
+  },
+  "logistic_profile_editor": {
+    "languages": {
+      "title": "Multi idioma",
+      "subtitle": "Esta es la lista de idiomas del contenido. Puede configurar contenido diferente para el perfil logístico en cada idioma.",
+      "add_caption": "Añadir nuevo artículo",
+      "no_more_language": "¡No más lenguaje!"
+    },
+    "content": {
+      "title": "Contenido",
+      "subtitle": "Puede personalizar el contenido del perfil logístico en varios idiomas.",
+      "language_input": "Idioma actual del artículo",
+      "delete_article": "Eliminar artículo",
+      "menu_tooltip": "Traducir automáticamente / Eliminar artículo"
+    },
+    "translate_to": "Traducir a",
+    "notifications": {
+      "translate": {
+        "message": "La traducción del artículo se completó con éxito."
+      },
+      "save_article": {
+        "message": "El artículo se ha guardado correctamente."
+      },
+      "delete_article": {
+        "message": "El artículo ha sido eliminado con éxito."
+      }
+    },
+    "delete_dialog": {
+      "message": "¿Estás seguro de eliminar este artículo para siempre?",
+      "action": "Sí, eliminar ahora"
+    }
+  },
+  "logistic_profile_products": {
+    "title": "productos",
+    "subtitle": "Listado de productos asociados a este perfil."
+  },
+  "logistic_profile_setting": {
+    "title": "información general",
+    "inputs": {
+      "name": {
+        "message": "Este nombre se muestra a usted y no será revelado al público."
+      },
+      "accept_delete": {
+        "true_description": "Esta acción eliminará todos los artículos y enlaces a perfiles.",
+        "true_title": "Verifico para eliminar esta conexión."
+      }
+    },
+    "actions": {
+      "remove": "Eliminar perfil y relaciones"
+    }
+  },
+  "shop_logistic_profiles": {
+    "title": "Perfiles logísticos",
+    "add_caption": "Agregar nuevo perfil",
+    "subtitle": "Aquí puede crear y editar la garantía y la política de devolución de los productos y asignarlas a cualquier producto. Puede definir diferentes políticas de garantía para distintos tipos de productos.",
+    "add_dialog": {
+      "title": "Crear nuevo perfil logístico",
+      "config": {
+        "title": "información general",
+        "subtitle": "Seleccione el tipo de perfil. Puede ser una guía, una garantía o cualquier otro contenido y material que se comparta comúnmente entre varios productos."
+      },
+      "article": {
+        "title": "Artículo",
+        "subtitle": "Puede agregar más idiomas después de crear este perfil logístico."
+      },
+      "inputs": {
+        "name": {
+          "message": "Este nombre se muestra a usted y no será revelado al público.",
+          "placeholder": "Introduzca un nombre para el perfil..."
+        }
+      }
+    }
+  },
+  "shop_logistic_includes": {
+    "title": "Gestión de elementos incluidos",
+    "add_caption": "Agregar nuevo artículo",
+    "subtitle": "Aquí puedes administrar los artículos incluidos en tus productos. Para garantizar una apariencia impecable para tu tienda, utiliza artículos con patrones de imagen similares, como wireframes, en todos los productos.",
+    "empty_list_msg": "Lista de artículos incluidos...",
+    "notifications": {
+      "delete": {
+        "message": "El artículo ha sido eliminado."
+      }
+    },
+    "delete_dialog": {
+      "title": "Eliminar elemento incluido",
+      "message": "¿Está seguro de que desea eliminar este artículo de forma permanente? ¡Tenga en cuenta que también se eliminará de todos los productos asociados!",
+      "action": "Sí, eliminar ahora"
+    },
+    "actions": {
+      "edit_linked_page": "Editar página vinculada"
+    }
+  },
+  "include_item_add": {
+    "dialog_title_edit": "Editar elemento incluido",
+    "dialog_title_add": "Crear nuevo elemento incluido",
+    "title": "Artículo incluido",
+    "subtitle": "Elija un título breve, idealmente de 2 a 3 palabras como máximo. Utilice imágenes cuadradas, ya que ajustaremos automáticamente el tamaño de las imágenes cargadas a un formato cuadrado de 256 x 256. Para lograr la mejor apariencia en todas las plantillas, utilice imágenes minimalistas con fondos transparentes y mantenga un patrón uniforme en todos sus productos.",
+    "inputs": {
+      "title": {
+        "placeholder": "Título conciso mostrado en la página del producto..."
+      },
+      "code": {
+        "placeholder": "Código único, por ejemplo: mobile_cable_usb",
+        "hint": "Utilice este código para agilizar el proceso de búsqueda para localizar artículos."
+      },
+      "description": {
+        "placeholder": "Una breve descripción sobre este artículo...",
+        "hint": "La descripción se utilizará para SEO y es posible que sea visible para los usuarios en algunos diseños personalizados en la página del producto."
+      },
+      "image": {
+        "message": "Tamaño máximo de la imagen: 1 MB"
+      },
+      "path": {
+        "label": "Ruta de la página"
+      }
+    },
+    "mode": {
+      "no_link": {
+        "title": "No hay enlace"
+      },
+      "external_link": {
+        "title": "Enlace externo",
+        "description": "Establecer un enlace a una URL externa.",
+        "tips": "Puede adjuntar cualquier URL al artículo. Cuando los usuarios hagan clic en el artículo en la página del producto, serán redirigidos a ese enlace."
+      },
+      "internal_link": {
+        "title": "Enlace interno",
+        "description": "Cree una página dinámica con los datos ampliados proporcionados para este artículo.",
+        "tips": "Puedes vincular una página de destino con el perfil y establecer una ruta personalizada y contenido dinámico para ella. Selldone generará un enlace dinámico para el artículo."
+      }
+    },
+    "notifications": {
+      "add": {
+        "message": "El artículo incluido se ha añadido correctamente."
+      },
+      "edit": {
+        "message": "El artículo incluido se ha actualizado correctamente."
+      }
+    }
+  },
+  "shop_logistic_returns": {
+    "title": "Pedidos devueltos",
+    "subtitle": "Sus clientes pueden devolver sus pedidos físicos y usted puede ver las solicitudes de devolución en la página de procesamiento de pedidos o acceder a una lista completa de pedidos devueltos aquí."
+  },
+  "referral_fees": {
+    "title": "Comisiones",
+    "subtitle": "La lista de todas las comisiones que has ganado gracias a tus referidos. La aprobación de la comisión y su transferencia a tu billetera demoran hasta 30 días."
+  },
+  "referral_wallets": {
+    "title": "Carteras",
+    "subtitle": "Aquí puedes ver las comisiones que has ganado. Puedes transferirlas a tu cuenta bancaria o a tu billetera Selldone.",
+    "no_commission_yet": "Aún no has recibido ninguna comisión.",
+    "no_wallet": "¡Sin billetera!",
+    "withdraw_dialog": {
+      "title": "Comisiones por retiro de fondos",
+      "need_bank_info_message": "Ingrese primero su información bancaria.",
+      "to_wallet": {
+        "title": "A la billetera",
+        "subtitle": "Con esta opción, puedes transferir las comisiones a tu billetera Selldone. Asegúrate de que haya una billetera conectada como tu billetera de regalo y que funcione con la misma moneda."
+      },
+      "to_bank": {
+        "title": "Al banco",
+        "subtitle": "Con esta opción, puedes transferir las comisiones a tu billetera Selldone. Asegúrate de que haya una billetera conectada como tu billetera de regalo y que funcione con la misma moneda."
+      },
+      "inputs": {
+        "verify_to_wallet": {
+          "true_description": "Quiero transferir mi comisión a mi billetera Selldone."
+        },
+        "verify_to_bank": {
+          "true_description": "Verifico mis datos bancarios y quiero transferir mi comisión a mi cuenta bancaria."
+        }
+      },
+      "actions": {
+        "withdraw_to_wallet": "Retirar a la billetera",
+        "withdraw_to_bank": "Retirar al banco"
+      }
+    },
+    "notifications": {
+      "request_transfer_to_bank_success": "Su solicitud ha sido recibida exitosamente y la revisaremos."
+    }
+  },
+  "monetize_referral": {
+    "copy_box": {
+      "message": "Puedes agregar <b>?ref={code}</b> a cualquier URL de selldone."
+    },
+    "intro": {
+      "title": "Únase al programa de afiliados de Selldone",
+      "message": "El programa de afiliados de Selldone es simple y directo, diseñado para que usted gane dinero sin esfuerzo. Comparta su enlace de afiliado exclusivo para invitar a nuevos usuarios a Selldone y ganará una comisión por cada transacción que realicen, para siempre. Esto incluye las ganancias por suscripciones, tarifas de servicio, actualizaciones de la tienda y todas las demás fuentes de ingresos. Comience a ganar una parte de los ingresos sin límites de tiempo ni ganancias. ¡Únase a nosotros y convierta su red en un ingreso estable!",
+      "why_join_selldone_affiliate": "¿Por qué es esta una oportunidad única?",
+      "reasons": [
+        "¡Dura para siempre!",
+        "Cubre todas las tarifas de suscripción y transacción. Literalmente, todos los pagos del usuario en Selldone.",
+        "Enviamos un cupón gratuito de $99 a cualquier persona que se registre usando su enlace.",
+        "Cuando tu nivel mejore, ganarás a la nueva tasa de todos los usuarios referidos anteriormente."
       ]
     }
   }

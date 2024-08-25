@@ -642,7 +642,77 @@ export default {
     "clusters": "Kümeler",
     "subscriptions": "abonelikler",
     "spam": "İstenmeyen e-posta",
-    "video": "Video"
+    "video": "Video",
+    "fulfillment": "yerine getirme",
+    "channels_overview": "Kanallara genel bakış",
+    "no_vendors": "Satıcı yok",
+    "ends_in": "Bitiş tarihi",
+    "current": "Akım",
+    "important": "Önemli",
+    "web": "Web",
+    "payout": "Ödeme",
+    "vendor_panel": "Satıcı paneli",
+    "vendors_panel": "Satıcı paneli",
+    "syncing": "Senkronizasyon",
+    "level": "Seviye",
+    "available": "Mevcut",
+    "limited": "Sınırlı",
+    "management": "Yönetmek",
+    "topics": "Konular",
+    "posts": "Gönderiler",
+    "replies": "Cevaplar",
+    "reports": "Raporlar",
+    "post": "Postalamak",
+    "impressions": "Gösterimler",
+    "resources": "Kaynaklar",
+    "engine": "Motor",
+    "attachments": "Ekler",
+    "owner": "Mal sahibi",
+    "wholesaler": "Toptancı",
+    "hidden": "Gizlenmiş",
+    "visible": "Görünür",
+    "warehouse": "Depo",
+    "billed_yearly": "Yıllık faturalandırılır",
+    "my_wallet": "Cüzdanım",
+    "boosted": "Güçlendirilmiş",
+    "cashback": "Geri ödeme",
+    "leads": "İpuçları",
+    "invalid": "Geçersiz",
+    "refund_date": "İade tarihi",
+    "refund": "Geri ödemek",
+    "items": "Öğeler",
+    "incentives": "Teşvikler",
+    "recurring_payment": "Tekrarlayan ödeme",
+    "pricing": "fiyatlandırma",
+    "purchase": "Satın almak",
+    "confirmation": "Onayla",
+    "manage": "Üstesinden gelmek",
+    "warning": "Uyarı",
+    "custom": "Gelenek",
+    "read": "Okumak",
+    "write": "Yazmak",
+    "root": "Kök",
+    "nothing_set": "Hiçbir şey ayarlanmadı!",
+    "installment": "Taksit",
+    "split_payment": "Bölünmüş ödeme",
+    "profiles": "profiller",
+    "location_limited": "Konum sınırlı",
+    "no_limit": "Limit yok",
+    "max_range": "Maksimum menzil",
+    "settled_date": "Yerleşik Tarih",
+    "paid_date": "Ödeme Tarihi",
+    "physical_orders": "Fiziksel siparişler",
+    "virtual_orders": "Sanal siparişler",
+    "file_orders": "Dosya siparişleri",
+    "service_orders": "Servis siparişleri",
+    "subscription_orders": "Abonelik siparişleri",
+    "avocado_orders": "Avokado siparişleri",
+    "hyper_orders": "Hiper emirler",
+    "connected": "bağlı",
+    "system": "Sistem",
+    "unknown": "Bilinmeyen",
+    "week": "Hafta",
+    "agencies": "Acenteler"
   },
   "dialogs": {
     "delete": {
@@ -773,7 +843,20 @@ export default {
     "buy": "Satın almak",
     "view_all": "Hepsini gör",
     "view_now": "Şimdi Görüntüle",
-    "paste": "Yapıştırmak"
+    "paste": "Yapıştırmak",
+    "edit_address": "Adresi düzenle",
+    "resend": "Tekrar gönder",
+    "deploy_now": "Şimdi Dağıt",
+    "become_premium": "Premium Olun",
+    "bulk_export": "Toplu İhracat",
+    "see_all": "Tümünü Gör",
+    "visit": "Ziyaret etmek",
+    "rate_now": "Şimdi Puanla",
+    "load": "Yük",
+    "duplicate": "Kopyalamak",
+    "connect": "Bağlamak",
+    "connect_now": "Şimdi Bağlan",
+    "verify_now": "Şimdi doğrulayın"
   },
   "instance_message_title": "Anlık mesaj gönder",
   "instance_message": "Merhaba {name}, Benim adım {author} şirketinden {company}.",
@@ -876,7 +959,8 @@ export default {
     "RequireAction": "Eylem Gerekli",
     "Processing": "İşleme",
     "Canceled": "İptal edildi",
-    "Succeeded": "başarılı"
+    "Succeeded": "başarılı",
+    "RequireCapture": "Yakalama gerektir"
   },
   "placeholders": {
     "name": "jone cox",
@@ -885,7 +969,14 @@ export default {
     "language": "Dil Seçin..",
     "friend_email": "Arkadaşlarınızın e-postası...",
     "friend_name": "Seçenek Arkadaşının adı",
-    "select_date": "Bir tarih seçin..."
+    "select_date": "Bir tarih seçin...",
+    "address": "123 Main St, Herhangi Bir Şehir, 12345",
+    "cluster": "Bir küme seçin...",
+    "select_products": "Ürünleri seçin",
+    "birthday": "Doğum gününü seç",
+    "select_category": "Bir kategori seçin...",
+    "select_a_country": "Bir ülke seçin...",
+    "filter_country": "Ülkeye göre filtrele..."
   },
   "notification": {
     "confirm": "Onaylamak",
@@ -1159,7 +1250,9 @@ export default {
     "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN"
   },
   "variants": {
     "color": "Renk",
@@ -1282,7 +1375,10 @@ export default {
       "title": "İçerik Yayın Takvimi",
       "publish_at": "Şurada yayınla:",
       "last_edit": "Son düzenleme",
-      "view_action": "Makaleyi Görüntüle"
+      "view_action": "Makaleyi Görüntüle",
+      "no_article": "Planlanmış makale yok!",
+      "current_article": "Güncel Makale",
+      "article_for_product": "Ürün İçin Makale"
     },
     "notifications": {
       "update_success_title": "Bilgi Gönder",
@@ -1354,7 +1450,8 @@ export default {
     "first_send": "İlk gönderi",
     "comment_at": "Açık",
     "edit_comment": "Yorumu Düzenle",
-    "my_comments": "Yorumlarım"
+    "my_comments": "Yorumlarım",
+    "verified_buyer": "Doğrulanmış Alıcı"
   },
   "customer_club": {
     "bronze": "Bronz",
@@ -1469,7 +1566,8 @@ export default {
     "canceled": "İptal edildi",
     "cod": "Teslimatta ödeme yapmak",
     "receipt_added": "makbuz eklendi",
-    "payment_processing": "Odeme yapiliyor"
+    "payment_processing": "Odeme yapiliyor",
+    "payment_require_capture": "Yakalama gerektir"
   },
   "basket_delivery_state": {
     "rejected": "Reddedilmiş",
@@ -1971,5 +2069,53 @@ export default {
     "summer": "Yaz",
     "autumn": "Sonbahar",
     "winter": "Kış"
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "Müşterinizle aranızdaki mesaj geçmişini görüntüleyin."
+      },
+      "new_message": {
+        "subtitle": "Burada doğrudan müşterilere mesaj gönderebilirsiniz. Bir mesaj gönderdiğinizde, müşteri 20 dakika sonra bir e-posta bildirimi alacaktır. Bu bildirim yalnızca her 24 saatte bir gönderilecektir."
+      }
+    },
+    "customer": {
+      "history": {
+        "subtitle": "Sizinle satıcı arasındaki mesaj geçmişini görüntüleyin."
+      },
+      "new_message": {
+        "subtitle": "Mesajlarınızı doğrudan bize buradan iletebilirsiniz."
+      }
+    }
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "Talep üzerine",
+      "desc": "ev onarımları, boyama, araba tamiri vb."
+    },
+    "BOOKING": {
+      "title": "Rezervasyon",
+      "desc": "Bir otel odası veya villa rezervasyonu gibi."
+    },
+    "APPOINTMENT": {
+      "title": "Randevu",
+      "desc": "Evcil hayvan bakımı randevusu veya yüz yüze eğitim gibi."
+    },
+    "RENTAL": {
+      "title": "kiralama",
+      "desc": "Bir yer veya araba kiralamak gibi."
+    },
+    "SUBSCRIPTION": {
+      "title": "abonelik",
+      "desc": "Kulüp üyeliği veya Çevrimiçi Koçluk gibi."
+    },
+    "CHARGE": {
+      "title": "Şarj etmek",
+      "desc": "Bir hesabın ücretlendirilmesi veya bir uygulamayı kullanmak için ücret alınması gibi."
+    },
+    "CUSTOM": {
+      "title": "Gelenek",
+      "desc": "Sağladığınız hizmet yukarıdakilerden hiçbiri değilse bu seçeneği seçin."
+    }
   }
 };

@@ -194,7 +194,26 @@ export default {
         ]
       }
     ],
-    "copyright": "El uso del contenido solo para fines no comerciales y con referencia a la fuente (enlace con Selldone.com). Todos los derechos reservados a Selldone Group."
+    "copyright": "El uso del contenido solo para fines no comerciales y con referencia a la fuente (enlace con Selldone.com). Todos los derechos reservados a Selldone Group.",
+    "supported_countries_and_payments": "Países y pagos admitidos",
+    "affiliate_program": "Programa de afiliados",
+    "business_idea": "Ideas de negocios",
+    "roadmap": "Hoja de ruta",
+    "apply_partner": "Solicitar socio",
+    "partner": {
+      "title": "Únase como socio",
+      "subtitle": "Ofrecemos a nuestros socios una oportunidad fantástica para expandir sus negocios y obtener ingresos mensuales consistentes."
+    },
+    "add_service": "Agregar servicio",
+    "service": {
+      "title": "Integra tu servicio",
+      "subtitle": "¡Muestre su servicio a miles de empresas prósperas hoy y a millones más en el futuro!"
+    },
+    "add_supplier": "Agregar proveedor",
+    "supplier": {
+      "title": "Únase como proveedor",
+      "subtitle": "Podemos ayudar a que sus productos lleguen a miles de tiendas locales y online activas en todo el mundo."
+    }
   },
   "admin_footer": {
     "title": "Menú de acceso rápido:",
@@ -213,5 +232,8 @@ export default {
   },
   "admin_shop_footer": {
     "title": "Panel de acceso rápido de {shop_name}"
+  },
+  "press_view": {
+    "on_all_review_websites": "En todos los sitios web de reseñas"
   }
 };

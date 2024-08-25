@@ -382,5 +382,19 @@ export default {
   "marketplace": "Marktplatz-Builder",
   "connect_os": {
     "subtitle": "Stellen Sie mit einem Klick eine Verbindung zu Dropshipping-Anbietern her. Sie können sich kostenlos mit POD wie Prinful oder Import Woocomerce Store verbinden."
+  },
+  "ai": {
+    "title": "AI",
+    "sub_title": "Copilot- und KI-Assistentfunktionen.",
+    "bg_remove": "KI Hintergrund entfernen",
+    "bg_remove_info": "Hintergrund automatisch aus Bildern entfernen.",
+    "content_creation": "Erstellung von KI-Inhalten",
+    "content_creation_info": "Erstellen Sie automatisch Inhalte für Produkte.",
+    "add_product": "KI-Produktunterstützung",
+    "add_product_info": "Fügen Sie Produkte automatisch per Bild und Sprache hinzu.",
+    "magic_ai_buttons": "Magische KI-Schaltflächen",
+    "magic_ai_buttons_info": "Automatisches Entfernen des Hintergrunds, Massenübersetzung, Generieren von Inhalten und mehr mit einem Klick.",
+    "translate": "KI-Übersetzung",
+    "translate_info": "Übersetzen Sie Inhalte in jede beliebige Sprache."
   }
 };

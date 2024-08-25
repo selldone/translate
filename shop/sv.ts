@@ -102,7 +102,10 @@ export default {
     "subscribe_now": "Prenumerera nu",
     "unsubscribe": "Säga upp",
     "select_a_subscription_plan": "Välj en plan först!",
-    "manage_subscriptions": "Hantera prenumerationer"
+    "manage_subscriptions": "Hantera prenumerationer",
+    "zip_pin_input": "Postnummer/PIN",
+    "zip_pin_not_available_msg": "Ej tillgängligt på denna plats!",
+    "zip_pin_placeholder": "Välj postnummer..."
   },
   "product": {
     "review": "Recension",
@@ -198,7 +201,9 @@ export default {
       "total_items_discount": "Artiklar rabatt",
       "total_price_after_offers": "Totalt efter ansökning av erbjudanden",
       "buyer_payment": "Köparens betalningsbelopp",
-      "total_order_price_before_tax": "Totalpris före skatt"
+      "total_order_price_before_tax": "Totalpris före skatt",
+      "payment_is_in_require_capture_message": "Vi har tagit emot din betalning, men den har inte registrerats ännu.",
+      "settle_the_earlier_bill_first": "Avgör den tidigare räkningen först!"
     },
     "delivery": {
       "title": "Leverans",
@@ -286,7 +291,8 @@ export default {
       "limit": "Begränsa",
       "currency": "Valuta",
       "free_shipping": "Gratis frakt"
-    }
+    },
+    "no_kyc": "Ingen KYC"
   },
   "basket_page": {
     "title": "Kundvagn",
@@ -591,6 +597,32 @@ export default {
       "title": "Utforska!",
       "same_tags_subtitle": "Hitta fler anmärkningsvärda relaterade föremål.",
       "same_category_subtitle": "Hitta fler anmärkningsvärda föremål i denna kategori."
+    }
+  },
+  "cross_selling": {
+    "title": "Beställ {product} med"
+  },
+  "select_vendor": {
+    "item_title": "Se butik för {vendor}"
+  },
+  "login": {
+    "welcome": "Välkomna"
+  },
+  "product_section_incentivise": {
+    "total_sold": "Totalt sålt",
+    "available_items": "Tillgängliga föremål",
+    "have_in_their_bag": "<b>{in_carts}</b> andra har detta i sina kundvagnar!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🎉 Populärt val! Lagren börjar ta slut, ta ditt medan du kan!",
+      "has_sell_has_quantity": "🌟 Mycket eftertraktad vara! Få det innan det är borta.",
+      "just_has_low_quantity": "🛒 Begränsat lager tillgängligt! Missa inte det!",
+      "just_has_very_low_quantity": "⏳ Nästan slut i lager! Agera snabbt innan det är för sent!"
+    },
+    "file": {
+      "very_popular_selling": "🔥 Bästsäljare! Gå med i publiken och ladda ner det nu!",
+      "popular_selling": "🎉 Den här filen får mycket uppmärksamhet. Missa inte det!",
+      "has_normal_selling": "📈 Populär fil! Säkra ditt exemplar idag.",
+      "just_release_has_some_sales": "✨ Nyss släppt! Var en av de första att få det."
     }
   }
 };

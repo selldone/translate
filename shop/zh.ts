@@ -102,7 +102,10 @@ export default {
     "subscribe_now": "现在订阅",
     "unsubscribe": "退订",
     "select_a_subscription_plan": "先选方案！",
-    "manage_subscriptions": "管理订阅"
+    "manage_subscriptions": "管理订阅",
+    "zip_pin_input": "邮政编码/PIN",
+    "zip_pin_not_available_msg": "此位置不可用！",
+    "zip_pin_placeholder": "选择邮政编码/PIN 码..."
   },
   "product": {
     "review": "审查",
@@ -198,7 +201,9 @@ export default {
       "total_items_discount": "商品折扣",
       "total_price_after_offers": "申请报价后总计",
       "buyer_payment": "买家付款金额",
-      "total_order_price_before_tax": "税前总价"
+      "total_order_price_before_tax": "税前总价",
+      "payment_is_in_require_capture_message": "我们已收到您的付款，但尚未入账。",
+      "settle_the_earlier_bill_first": "先把之前的帐单结清吧！"
     },
     "delivery": {
       "title": "交货",
@@ -286,7 +291,8 @@ export default {
       "limit": "限制",
       "currency": "货币",
       "free_shipping": "免运费"
-    }
+    },
+    "no_kyc": "无需 KYC"
   },
   "basket_page": {
     "title": "购物车",
@@ -591,6 +597,32 @@ export default {
       "title": "探索！",
       "same_tags_subtitle": "查找更多卓越的相关项目。",
       "same_category_subtitle": "在此类别中查找更多卓越的项目。"
+    }
+  },
+  "cross_selling": {
+    "title": "订购{product}"
+  },
+  "select_vendor": {
+    "item_title": "查看{vendor} 的商店"
+  },
+  "login": {
+    "welcome": "欢迎"
+  },
+  "product_section_incentivise": {
+    "total_sold": "总销量",
+    "available_items": "可用项目",
+    "have_in_their_bag": "<b>{in_carts}</b>其他人的购物车中也有此商品！",
+    "physical": {
+      "popular_selling_with_low_quantity": "🎉 热门选择！库存不多了，赶紧购买吧！",
+      "has_sell_has_quantity": "🌟 非常抢手的商品！快来抢购吧，以免售罄。",
+      "just_has_low_quantity": "🛒 库存有限！不要错过！",
+      "just_has_very_low_quantity": "⏳ 几乎缺货！赶快行动吧，不然就太迟了！"
+    },
+    "file": {
+      "very_popular_selling": "🔥 畅销产品！加入人群，立即下载！",
+      "popular_selling": "🎉 此文件备受关注。不要错过！",
+      "has_normal_selling": "📈 热门文件！立即获取您的副本。",
+      "just_release_has_some_sales": "✨ 刚刚发布！成为第一批获得它的人之一。"
     }
   }
 };

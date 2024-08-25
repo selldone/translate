@@ -139,6 +139,14 @@ export default {
     "step3": {
       "title": "Steg 3. Ställ in DNS-poster",
       "msg": "Grattis, nu behöver du bara konfigurera DNS i din domäntjänstleverantör och lägga till domänen på ditt konto."
+    },
+    "buy_domain_step": {
+      "title": "Steg 1. Köp en domän",
+      "msg": "Om du inte har din personliga domän ännu är det dags att köpa din egen domän från webbplatser som namecheap.com ."
+    },
+    "set_dns_step": {
+      "title": "Steg 2. Ställ in DNS-poster",
+      "msg": "Grattis, nu behöver du bara konfigurera DNS i din domäntjänstleverantör och lägga till domänen på ditt konto."
     }
   },
   "payment": {
@@ -175,11 +183,35 @@ export default {
   "customize": {
     "template": {
       "title": "Mallar",
-      "msg": "Kickstarta din butik med våra färdigbyggda mallar! Variera enkelt genom att lägga till flera sidor, var och en med sin egen unika design."
+      "msg": "Kickstarta din butik med våra färdigbyggda mallar! Variera enkelt genom att lägga till flera sidor, var och en med sin egen unika design.",
+      "action": "Visa alla mallar..."
     },
     "colors": {
       "title": "Färger & Layout",
-      "msg": "Vill du skräddarsy din produktsida och butikslayout för att bättre passa din vision? Dyk in i temaanpassningssektionen i din butik och se magin utvecklas utan ansträngning!"
+      "msg": "Vill du skräddarsy din produktsida och butikslayout för att bättre passa din vision? Dyk in i temaanpassningssektionen i din butik och se magin utvecklas utan ansträngning!",
+      "action": "Anpassa färger och tema"
+    },
+    "tour": {
+      "title": "Tur",
+      "subtitle": "Upptäck vad som är möjligt här som inte är någon annanstans.",
+      "avocado": {
+        "title": "Avokado - Sälj utan att lägga till någon produkt",
+        "description": "Med Avocado kan du erbjuda tjänster eller produkter utan fördefinierade priser eller detaljer. Skapa ett anpassat formulär för dina kunder att begära tjänster eller produkter. När de har skickat in sin begäran kan du ställa in priset och behandla betalningen. Dela formuläret på dina sociala medier, så att kunderna enkelt kan lägga till föremål, ladda upp bilder och skicka beställningar.",
+        "action": "Läs om avokado"
+      },
+      "marketplace": {
+        "title": "Marknadsplats för flera leverantörer och automatisk utbetalning",
+        "description": "Bygg en blomstrande marknadsplats med Selldone genom att lägga till flera leverantörer. Leverantörer kan lista sina produkter och du kan ställa in en provisionssats för varje försäljning. När en kund gör ett köp får leverantören betalningen direkt, hanterar beställningen via sin dedikerade panel och du tjänar en provision via funktionen för automatisk utbetalning.",
+        "action": "Utbetalning av billeverantörer"
+      },
+      "business_model": {
+        "title": "Stöd komplexa affärsmodeller",
+        "description": "Selldone stöder både enkla och komplexa affärsmodeller, så att du kan anpassa dig efter behov. Konfigurera allt bakom kulisserna utan att installera ytterligare plugins eller appar, vilket säkerställer sömlösa övergångar och operationer."
+      },
+      "gift_shopping": {
+        "title": "Begränsning av produktplatser och presentköp",
+        "description": "Ställ in platsbegränsningar för varje produkt genom att ange flera länder, postnummer och städer. Den här funktionen är perfekt för att skapa en personlig presentshoppingupplevelse eller begränsa produkttillgängligheten till specifika platser, till exempel för restauranger."
+      }
     }
   },
   "business": {

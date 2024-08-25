@@ -220,6 +220,14 @@ export default {
     "pos-setup": {
       "title": "Configurando uma caixa registradora online",
       "desc": "Execute seu Selldone POS nas filiais de sua loja e use as ferramentas de loja mais profissionais disponíveis para desenvolver seus negócios e filiais físicas."
+    },
+    "marketplace-setup": {
+      "title": "Configurar um Marketplace",
+      "desc": "Crie um mercado para seus produtos e serviços com a ajuda de especialistas."
+    },
+    "pod-setup": {
+      "title": "Configurar POD Store",
+      "desc": "Crie uma loja de impressão sob demanda com a ajuda de especialistas."
     }
   },
   "industries": {

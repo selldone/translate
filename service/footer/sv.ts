@@ -194,7 +194,26 @@ export default {
         ]
       }
     ],
-    "copyright": "Användning av innehåll endast för icke-kommersiella ändamål och med hänvisning till källan (länk med Selldone.com). Alla rättigheter förbehålls till Selldone Group."
+    "copyright": "Användning av innehåll endast för icke-kommersiella ändamål och med hänvisning till källan (länk med Selldone.com). Alla rättigheter förbehålls till Selldone Group.",
+    "supported_countries_and_payments": "Länder och betalningar som stöds",
+    "affiliate_program": "Affiliate-program",
+    "business_idea": "Affärsidéer",
+    "roadmap": "Färdkarta",
+    "apply_partner": "Ansök partner",
+    "partner": {
+      "title": "Gå med som partner",
+      "subtitle": "Vi ger våra partners en fantastisk möjlighet att expandera sina verksamheter och tjäna konsekventa, månatliga intäkter."
+    },
+    "add_service": "Lägg till tjänst",
+    "service": {
+      "title": "Integrera din tjänst",
+      "subtitle": "Visa upp din tjänst för tusentals blomstrande företag idag och miljoner fler i framtiden!"
+    },
+    "add_supplier": "Lägg till leverantör",
+    "supplier": {
+      "title": "Gå med som leverantör",
+      "subtitle": "Vi kan hjälpa dina produkter att nå tusentals aktiva online- och lokala butiker över hela världen."
+    }
   },
   "admin_footer": {
     "title": "Snabbåtkomstmeny:",
@@ -213,5 +232,8 @@ export default {
   },
   "admin_shop_footer": {
     "title": "Snabbåtkomstpanel för {shop_name}"
+  },
+  "press_view": {
+    "on_all_review_websites": "På alla recensionswebbplatser"
   }
 };

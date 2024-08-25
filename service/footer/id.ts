@@ -194,7 +194,26 @@ export default {
         ]
       }
     ],
-    "copyright": "Penggunaan konten hanya untuk tujuan non-komersial dan dengan mengacu pada sumbernya (tautan dengan Selldone.com). Semua hak dilindungi undang-undang untuk Selldone Group."
+    "copyright": "Penggunaan konten hanya untuk tujuan non-komersial dan dengan mengacu pada sumbernya (tautan dengan Selldone.com). Semua hak dilindungi undang-undang untuk Selldone Group.",
+    "supported_countries_and_payments": "Negara dan Pembayaran yang Didukung",
+    "affiliate_program": "Program Afiliasi",
+    "business_idea": "Ide Bisnis",
+    "roadmap": "Peta jalan",
+    "apply_partner": "Terapkan Mitra",
+    "partner": {
+      "title": "Bergabung sebagai Mitra",
+      "subtitle": "Kami memberikan peluang fantastis kepada mitra kami untuk mengembangkan bisnis mereka dan memperoleh pendapatan bulanan yang konsisten."
+    },
+    "add_service": "Tambahkan Layanan",
+    "service": {
+      "title": "Integrasikan Layanan Anda",
+      "subtitle": "Pamerkan layanan Anda kepada ribuan bisnis yang berkembang saat ini dan jutaan lainnya di masa mendatang!"
+    },
+    "add_supplier": "Tambahkan pemasok",
+    "supplier": {
+      "title": "Bergabung sebagai Pemasok",
+      "subtitle": "Kami dapat membantu produk Anda menjangkau ribuan toko online dan lokal yang aktif di seluruh dunia."
+    }
   },
   "admin_footer": {
     "title": "Menu akses cepat:",
@@ -213,5 +232,8 @@ export default {
   },
   "admin_shop_footer": {
     "title": "Panel akses cepat {shop_name}"
+  },
+  "press_view": {
+    "on_all_review_websites": "Di Semua Situs Web Ulasan"
   }
 };

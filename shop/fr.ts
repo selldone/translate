@@ -102,7 +102,10 @@ export default {
     "subscribe_now": "Abonnez-vous maintenant",
     "unsubscribe": "Se désabonner",
     "select_a_subscription_plan": "Sélectionnez d'abord un plan !",
-    "manage_subscriptions": "Gérer les abonnements"
+    "manage_subscriptions": "Gérer les abonnements",
+    "zip_pin_input": "Code postal / code PIN",
+    "zip_pin_not_available_msg": "Non disponible à cet endroit!",
+    "zip_pin_placeholder": "Sélectionnez le code postal/PIN..."
   },
   "product": {
     "review": "La revue",
@@ -198,7 +201,9 @@ export default {
       "total_items_discount": "Rabais sur les articles",
       "total_price_after_offers": "Total après application des offres",
       "buyer_payment": "Montant du paiement de l'acheteur",
-      "total_order_price_before_tax": "Prix total hors taxe"
+      "total_order_price_before_tax": "Prix total hors taxe",
+      "payment_is_in_require_capture_message": "Nous avons reçu votre paiement, mais il n'a pas encore été capturé.",
+      "settle_the_earlier_bill_first": "Réglez d’abord la facture précédente !"
     },
     "delivery": {
       "title": "Livraison",
@@ -286,7 +291,8 @@ export default {
       "limit": "Limite",
       "currency": "Monnaie",
       "free_shipping": "Livraison gratuite"
-    }
+    },
+    "no_kyc": "Pas de KYC"
   },
   "basket_page": {
     "title": "Panier",
@@ -591,6 +597,32 @@ export default {
       "title": "Explorer!",
       "same_tags_subtitle": "Trouvez des articles connexes plus remarquables.",
       "same_category_subtitle": "Trouvez des articles plus remarquables dans cette catégorie."
+    }
+  },
+  "cross_selling": {
+    "title": "Commandez {product} avec"
+  },
+  "select_vendor": {
+    "item_title": "Voir la boutique de {vendor}"
+  },
+  "login": {
+    "welcome": "Accueillir"
+  },
+  "product_section_incentivise": {
+    "total_sold": "Total vendu",
+    "available_items": "Articles disponibles",
+    "have_in_their_bag": "<b>{in_carts}</b> d'autres ont cela dans leur panier !",
+    "physical": {
+      "popular_selling_with_low_quantity": "🎉 Choix populaire ! Les stocks sont faibles, profitez-en tant que vous le pouvez !",
+      "has_sell_has_quantity": "🌟 Article très recherché ! Achetez-le avant qu'il ne soit plus disponible.",
+      "just_has_low_quantity": "🛒 Stock limité disponible ! Ne le ratez pas !",
+      "just_has_very_low_quantity": "⏳ Presque en rupture de stock ! Agissez vite avant qu'il ne soit trop tard !"
+    },
+    "file": {
+      "very_popular_selling": "🔥 Meilleure vente ! Rejoignez la foule et téléchargez-le maintenant !",
+      "popular_selling": "🎉 Ce dossier fait beaucoup parler de lui. Ne le ratez pas !",
+      "has_normal_selling": "📈 Fichier populaire ! Réservez votre exemplaire dès aujourd'hui.",
+      "just_release_has_some_sales": "✨ Vient de sortir ! Soyez l'un des premiers à l'obtenir."
     }
   }
 };

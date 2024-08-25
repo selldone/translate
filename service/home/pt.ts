@@ -99,7 +99,11 @@ export default {
       "ecommerce": "Comércio eletrônico",
       "pos": "Ponto de venda",
       "blog": "Blogue e CMS",
-      "community": "Fórum da Comunidade"
+      "community": "Fórum da Comunidade",
+      "ecommerce_desc": "Venda seus produtos e serviços on-line.",
+      "pos_desc": "Venda seus produtos e serviços pessoalmente.",
+      "blog_desc": "CMS poderoso para publicar seus artigos e postagens.",
+      "community_desc": "Crie sua própria comunidade e fórum."
     },
     "job": {
       "title": "Qual é a sua indústria?",
@@ -162,7 +166,8 @@ export default {
     "sec2": {
       "title": "Integração rápida",
       "msg": "Desenvolvemos SDKs para todas as linguagens e frameworks comuns para que você possa realizar as etapas de autenticação, acesso à conta e gerenciá-la por comandos simples. O início estará a apenas alguns cliques de distância."
-    }
+    },
+    "header": "API e SDK de código aberto com personalização {infinite}"
   },
   "convertible": {
     "store_name": "Sua loja",
@@ -248,7 +253,9 @@ export default {
     "block3": {
       "title": "Economizar tempo",
       "subtitle": "Nível empresarial, mas amigável para iniciantes."
-    }
+    },
+    "title": "Otimizado para vendas online e na loja em grande escala",
+    "subtitle": "Feito para conversão. Eleve sua loja online com ferramentas intuitivas projetadas para transformar visitantes em clientes."
   },
   "money_transfer": {
     "customer": "Seu cliente",
@@ -311,5 +318,219 @@ export default {
     "msg": "Dê vida às suas ideias com apenas alguns cliques.",
     "open_sample_product_link": "Abrir produto ativo",
     "open_templates": "Ver modelos"
+  },
+  "support_box": {
+    "country_select_label": "Selecione seu país",
+    "we_support_message": "Nós apoiamos {country}",
+    "we_limited_support": "Nós limitamos o suporte {country}",
+    "support_message_long": "Experimente transações on-line sem interrupções em seu país com a Selldone! Junto com cálculos profissionais de IMPOSTO, oferecemos diversos métodos de pagamento, incluindo dinheiro, POS, transferências bancárias e muito mais. Comece a construir seu negócio em uma plataforma que oferece suporte total às necessidades do seu país.",
+    "limited_support_message_long": "Pagamentos online podem não estar disponíveis em seu país, mas não precisa se preocupar! Na Selldone, oferecemos pagamentos em dinheiro, transferências bancárias e pagamento na entrega (COD) em todo o mundo. Você pode construir seu negócio online conosco com confiança, respeitando as regulamentações do seu país e da Europa. Para mais detalhes ou para perguntar sobre suporte a pagamentos online em seu país, sinta-se à vontade para entrar em contato com nossa equipe de suporte.",
+    "more_about_selldone_in_country": "Sobre Selldone em seu país",
+    "support_worldwide_customers": "Você pode vender seus produtos e serviços para todos os clientes em <b>todos os países</b> !"
+  },
+  "hero": {
+    "intro": "Sistema operacional nº 1 para empresas",
+    "title": "Substitua {infinite} plugins e aplicativos por um {app}"
+  },
+  "make_your_shop": {
+    "title": "Faça o seu próprio",
+    "amazon": "Amazonas",
+    "local_store": "Loja local",
+    "instagram": "Loja Instagram",
+    "dropshipping": "Dropshipping",
+    "coursera": "Coursera",
+    "gift_store": "Loja de presentes",
+    "airbnb": "Airbnb",
+    "simple_store": "Loja Simples",
+    "tiktok": "Loja TikTok"
+  },
+  "show_its_simplicity": {
+    "title": "Outro complexo chato<div class=\"app-box\" style=\"font-size: 55%\"> 😣</div> plataforma de comércio eletrônico!?",
+    "subtitle": "De jeito nenhum! Só tente antes mesmo de se registrar...",
+    "as_guest": "Como convidado",
+    "need_register": "Precisa Registrar",
+    "page_builder": {
+      "title": "Construtor de páginas integrado",
+      "subtitle": "O primeiro construtor de páginas intuitivo de arrastar e soltar com edição em linha.",
+      "try_action": "Experimente o Page Builder",
+      "see_collection_action": "Ver modelos"
+    },
+    "ai": {
+      "title": "Recursos de IA integrados",
+      "subtitle": "A melhor remoção de fundo industrial, otimização de imagem, geração de conteúdo, criação automática de produtos e muito mais.",
+      "try_action": "Experimente a inteligência Selldone"
+    },
+    "storefront": {
+      "title": "Vitrine ao vivo",
+      "subtitle": "Experimente compras mais rápidas com o moderno site PWA sem precisar escrever uma única linha de código.",
+      "see_action": "Veja a vitrine de demonstração"
+    },
+    "backoffice": {
+      "title": "Backoffice ao vivo",
+      "subtitle": "Gerencie tudo em um só lugar, sem precisar de nenhum plugin.",
+      "see_action": "Veja a demonstração do Backoffice"
+    }
+  },
+  "pricing_compact": {
+    "title": "<div class=\"app-box\" style=\"font-size: 55%\">💞️</div> Preços simples e transparentes",
+    "subtitle": "Acesse todos os recursos de nível empresarial para iniciar e escalar seu negócio com nosso modelo de compartilhamento de receita — não pague nada adiantado, apenas uma parte de sua receita. Só temos sucesso quando você tem, minimizando seus custos e maximizando seus lucros."
+  },
+  "screenshots": {
+    "item_1": {
+      "title": "Simplifique o gerenciamento de seus pedidos.",
+      "desc": "Gerencie com eficiência um grande volume de pedidos diariamente usando nossas funções avançadas de lista e filtro."
+    },
+    "item_2": {
+      "title": "Conecte sua loja aos PODs.",
+      "desc": "Conecte facilmente sua loja a um serviço de dropshipping de impressão sob demanda, como o Printful, e venda sua arte em materiais impressos sem a necessidade de plug-ins adicionais."
+    },
+    "item_3": {
+      "title": "Atenda pedidos com ferramentas empresariais intuitivas.",
+      "desc": "Experimente um processo de pedidos simplificado com a capacidade de formatar solicitações intuitivamente, fazer as alterações necessárias e atualizar o status com apenas um clique. Eleve suas capacidades de atendimento a novos patamares com nossas ferramentas de nível empresarial."
+    },
+    "item_4": {
+      "title": "Acompanhamento de ações no cronograma do pedido.",
+      "desc": "A linha do tempo de um pedido fornece um registro detalhado de todas as ações e alterações feitas no pedido. Você pode ver facilmente quem fez as alterações e quando elas foram feitas."
+    },
+    "item_5": {
+      "title": "Simplificando a comunicação entre clientes e fornecedores.",
+      "desc": "E-mails com a identidade visual da sua marca serão enviados automaticamente aos clientes, fornecedores e quaisquer endereços de e-mail personalizados especificados após a conclusão do processo de finalização da compra e pagamento."
+    },
+    "item_6": {
+      "title": "Organize produtos facilmente arrastando e soltando.",
+      "desc": "O produto neste sistema funcionará de forma semelhante a arquivos, enquanto as categorias agirão como pastas. Você terá a capacidade de arrastar e soltar produtos facilmente, reorganizá-los, copiar e colar, e até mesmo importar produtos em massa usando um arquivo Excel simples."
+    },
+    "item_7": {
+      "title": "Acompanhe facilmente seus pedidos de assinatura.",
+      "desc": "Obtenha uma lista intuitiva e compacta contendo todos os pedidos de assinatura atuais e anteriores, incluindo o tempo até o próximo pagamento e informações detalhadas de cada pedido."
+    },
+    "item_8": {
+      "title": "Utilize ferramentas integradas de blog e CMS para envolver os clientes.",
+      "desc": "Aproveite os recursos do blog interno e do sistema de gerenciamento de conteúdo para criar conteúdo sobre sua empresa e ofertas, e atrair novos públicos por meio da otimização de mecanismos de busca. Ao fazer isso, você também pode interagir com seus clientes."
+    },
+    "item_9": {
+      "title": "Conectar SO — Conecte-se facilmente a serviços externos.",
+      "desc": "É possível conectar-se a serviços externos, como marketplaces, fornecedores de dropshipping, PODs e software financeiro, sem a necessidade de plugins adicionais."
+    },
+    "item_10": {
+      "title": "Simplifique as importações de produtos de serviços externos.",
+      "desc": "Importe facilmente produtos de serviços externos, como Woocommerce e Printful, com apenas alguns cliques e automação completa."
+    },
+    "item_11": {
+      "title": "Conectando sua loja ao Google Merchant Center.",
+      "desc": "Vincule sua loja ao Google Merchant Center e sincronize todos os itens e categorias perfeitamente para anunciá-los no Google."
+    },
+    "item_12": {
+      "title": "Abacate — Venda produtos facilmente nas redes sociais.",
+      "desc": "Com o Avocado, você pode vender produtos nas mídias sociais sem precisar adicionar produtos e preços manualmente. A ferramenta gera automaticamente um link de pagamento para pedidos e permite que você crie contas personalizadas com links de pagamento."
+    },
+    "item_13": {
+      "title": "Faixa de opções — Crie e venda assinaturas facilmente.",
+      "desc": "O Ribbon é uma ferramenta poderosa que permite que você crie e venda facilmente assinaturas, como caixas de assinatura, paywalls e vários tipos de conteúdo com apenas alguns cliques."
+    },
+    "item_14": {
+      "title": "Ofereça diversas opções de pagamento em sua loja.",
+      "desc": "É benéfico oferecer várias opções de pagamento em sua loja, como incorporar Stripe e PayPal."
+    },
+    "item_15": {
+      "title": "Incentive as compras dos clientes com descontos, ofertas, cupons e gamificação.",
+      "desc": "Incentive seus clientes a fazer mais compras em sua loja usando vários métodos, como oferecer códigos de desconto, ofertas promocionais, descontos inteligentes, cupons, cartões-presente e incorporar elementos de gamificação na experiência de compra."
+    },
+    "item_16": {
+      "title": "Maximize o desempenho com o gerenciamento de campanhas do lado do servidor.",
+      "desc": "Utilize o marketing do lado do servidor e o gerenciamento de campanhas para obter as informações mais precisas e esclarecedoras sobre o desempenho da sua campanha."
+    },
+    "item_17": {
+      "title": "Gerencie pagamentos e vendas de afiliados.",
+      "desc": "Inclua afiliados e administre seus pagamentos e vendas de forma eficiente. Utilize várias opções avançadas para gerenciamento de afiliados, como atribuir domínios de clientes exclusivos para cada afiliado."
+    },
+    "item_18": {
+      "title": "Gerencie estoque e preços com eficiência.",
+      "desc": "Ferramentas de logística e gerenciamento de estoque auxiliam na organização, filtragem e gerenciamento do estoque e dos preços de milhares de produtos e suas variações."
+    },
+    "item_19": {
+      "title": "Atividade e estatísticas do cliente em tempo real.",
+      "desc": "Tenha acesso aos dados mais recentes sobre a atividade do cliente e estatísticas do site para tomar decisões informadas e baseadas em dados."
+    },
+    "item_20": {
+      "title": "Aumente as vendas com o construtor de comunidades.",
+      "desc": "Crie uma comunidade interativa para aumentar as vendas na sua loja, melhorar o envolvimento do público, promover a confiança e aproveitar os benefícios de SEO do conteúdo gratuito."
+    },
+    "item_21": {
+      "title": "Eleve a experiência dos seus clientes.",
+      "desc": "Organize e segmente sua base de clientes, analise seu valor vitalício, compras anteriores on-line e na loja e monitore sua jornada para melhorar sua experiência, respeitando sua privacidade."
+    },
+    "item_22": {
+      "title": "Crie páginas responsivas com facilidade.",
+      "desc": "Crie facilmente páginas internas e de destino cativantes e responsivas usando nosso construtor de páginas No-code integrado. Basta arrastar e soltar seções para criar páginas personalizadas."
+    },
+    "item_23": {
+      "title": "Simplifique a edição com um editor de páginas embutido.",
+      "desc": "Edite facilmente textos e imagens dentro de páginas usando um editor de páginas embutido, tornando simples e intuitivo atualizar seu conteúdo."
+    },
+    "item_24": {
+      "title": "Gerencie o acesso e as funções da equipe.",
+      "desc": "Convide os membros da sua equipe, estabeleça as funções da equipe e defina seus níveis de acesso. À medida que seu negócio e sua equipe se expandem, seu sistema operacional empresarial se adaptará de acordo."
+    },
+    "item_25": {
+      "title": "Tenha seus aplicativos.",
+      "desc": "Comece seu negócio com um Progressive Web App e ofereça aos seus clientes uma experiência mais rápida em comparação aos seus concorrentes."
+    },
+    "item_26": {
+      "title": "Ferramentas avançadas de automação e economia.",
+      "desc": "Otimize suas operações comerciais e economize tempo e recursos valiosos utilizando ferramentas avançadas de automação que podem ser integradas à sua loja."
+    },
+    "item_27": {
+      "title": "Personalize sua vitrine com facilidade.",
+      "desc": "Personalize facilmente sua vitrine para combinar com sua marca utilizando opções de personalização visual, como tema, esquemas de cores, fontes e muito mais, tudo isso sem a necessidade de codificação ou habilidades técnicas."
+    },
+    "item_28": {
+      "title": "Crie uma jornada personalizada para o cliente.",
+      "desc": "Crie uma jornada personalizada do cliente usando as diversas opções disponíveis no Selldone, como escolher o ponto de login ou habilitar compras de visitantes."
+    },
+    "item_29": {
+      "title": "Melhore a experiência com opções personalizadas de login e fluxo.",
+      "desc": "Crie uma experiência de login e fluxo personalizada, fornecendo diversas opções de login social para sua loja virtual."
+    },
+    "item_30": {
+      "title": "Dê suporte a modelos de negócios complexos.",
+      "desc": "O Suporte Selldone oferece suporte avançado a modelos de negócios, como marketplace, fornecedores de dropshipping, afiliados e franquias, que você pode configurar e alternar facilmente com apenas um clique."
+    },
+    "item_31": {
+      "title": "Vincule vários domínios personalizados.",
+      "desc": "Você pode vincular vários domínios personalizados a aspectos específicos do seu negócio, como comunidade, loja, blog, páginas de destino ou até mesmo afiliados."
+    },
+    "item_32": {
+      "title": "Suporte a vários idiomas e tradução automática.",
+      "desc": "Sua loja suporta totalmente vários idiomas, tanto RTL quanto LTR. Você pode facilmente instalar e ativar pacotes de tradução automática para sua loja."
+    },
+    "item_33": {
+      "title": "Cálculo de impostos multiperfil integrado.",
+      "desc": "Com a capacidade de criar vários perfis de impostos e atribuí-los a produtos específicos, você tem maior flexibilidade no cálculo do IVA e do imposto sobre vendas. Por exemplo, você pode aplicar diferentes taxas de impostos para itens alimentícios ou dispositivos elétricos."
+    },
+    "item_34": {
+      "title": "Cálculo de impostos multirregionais.",
+      "desc": "Utilize as regras padrão ou personalizadas para imposto sobre vendas e IVA ao vender para diferentes países e regiões. Substitua as regras para regiões e territórios fiscais específicos conforme necessário."
+    },
+    "item_35": {
+      "title": "Publique artigos com um poderoso editor embutido.",
+      "desc": "Um editor de artigos avançado simplifica o processo de publicação e revisão de seus artigos, tornando-o rápido e fácil, mantendo a consistência."
+    },
+    "item_36": {
+      "title": "Painel dedicado para cada produto.",
+      "desc": "Cada produto tem um painel dedicado que fornece estatísticas, todas as informações necessárias e acesso a todas as ações necessárias para o gerenciamento."
+    },
+    "item_37": {
+      "title": "Traduzir artigos automaticamente.",
+      "desc": "Utilize o recurso de tradução de IA integrado de nível empresarial para traduzir facilmente descrições de produtos para diferentes idiomas com apenas um clique."
+    },
+    "item_38": {
+      "title": "Ferramentas de análise integradas.",
+      "desc": "Você terá acesso a ferramentas de análise integradas que são totalmente do lado do servidor, seguras e compatíveis com o GDPR, sem o uso de cookies."
+    },
+    "item_39": {
+      "title": "Atenda à maioria das suas necessidades avançadas de SEO.",
+      "desc": "Nossa ferramenta interna fornece as palavras-chave mais ativas, os URLs de melhor desempenho e uma visão geral do desempenho da sua empresa nas pesquisas do Google, tudo apresentado na forma de tabelas e gráficos."
+    }
   }
 };

@@ -220,6 +220,14 @@ export default {
     "pos-setup": {
       "title": "Skapa en onlinekassa",
       "desc": "Kör din Selldone POS i dina butiksfilialer och använd de mest professionella butiksverktygen som finns tillgängliga för att utveckla ditt företag och dina fysiska filialer."
+    },
+    "marketplace-setup": {
+      "title": "Skapa en marknadsplats",
+      "desc": "Skapa en marknadsplats för dina produkter och tjänster med hjälp av experter."
+    },
+    "pod-setup": {
+      "title": "Ställ in POD Store",
+      "desc": "Skapa en print-on-demand-butik med hjälp av experter."
     }
   },
   "industries": {

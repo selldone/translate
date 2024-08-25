@@ -642,7 +642,77 @@ export default {
     "clusters": "Klynger",
     "subscriptions": "Abonnementer",
     "spam": "Spam",
-    "video": "Video"
+    "video": "Video",
+    "fulfillment": "Opfyldelse",
+    "channels_overview": "Kanaloversigt",
+    "no_vendors": "Ingen leverandører",
+    "ends_in": "Ender i",
+    "current": "Strøm",
+    "important": "Vigtig",
+    "web": "Web",
+    "payout": "Udbetaling",
+    "vendor_panel": "Leverandørpanel",
+    "vendors_panel": "Leverandørpanel",
+    "syncing": "Synkroniserer",
+    "level": "Niveau",
+    "available": "Ledig",
+    "limited": "Begrænset",
+    "management": "Ledelse",
+    "topics": "Emner",
+    "posts": "Indlæg",
+    "replies": "Svar",
+    "reports": "Rapporter",
+    "post": "Stolpe",
+    "impressions": "Indtryk",
+    "resources": "Ressourcer",
+    "engine": "Motor",
+    "attachments": "Vedhæftede filer",
+    "owner": "Ejer",
+    "wholesaler": "Grossist",
+    "hidden": "Skjult",
+    "visible": "Synlig",
+    "warehouse": "Lager",
+    "billed_yearly": "Faktureres årligt",
+    "my_wallet": "Min pung",
+    "boosted": "Boost",
+    "cashback": "Cashback",
+    "leads": "Leder",
+    "invalid": "Ugyldig",
+    "refund_date": "Refusionsdato",
+    "refund": "Tilbagebetale",
+    "items": "genstande",
+    "incentives": "Incitamenter",
+    "recurring_payment": "Tilbagevendende betaling",
+    "pricing": "Prissætning",
+    "purchase": "Køb",
+    "confirmation": "Bekræftelse",
+    "manage": "Styre",
+    "warning": "Advarsel",
+    "custom": "Brugerdefinerede",
+    "read": "Læse",
+    "write": "Skrive",
+    "root": "Rod",
+    "nothing_set": "Intet sat!",
+    "installment": "Afdrag",
+    "split_payment": "Opdelt betaling",
+    "profiles": "Profiler",
+    "location_limited": "Beliggenhed begrænset",
+    "no_limit": "Ingen grænse",
+    "max_range": "Max rækkevidde",
+    "settled_date": "Afgjort dato",
+    "paid_date": "Betalt dato",
+    "physical_orders": "Fysiske ordrer",
+    "virtual_orders": "Virtuelle ordrer",
+    "file_orders": "Fil ordrer",
+    "service_orders": "Serviceordrer",
+    "subscription_orders": "Abonnementsordrer",
+    "avocado_orders": "Avocado bestillinger",
+    "hyper_orders": "Hyper ordrer",
+    "connected": "Forbundet",
+    "system": "System",
+    "unknown": "Ukendt",
+    "week": "Uge",
+    "agencies": "Agenturer"
   },
   "dialogs": {
     "delete": {
@@ -773,7 +843,20 @@ export default {
     "buy": "Købe",
     "view_all": "Se alt",
     "view_now": "Se nu",
-    "paste": "sæt ind"
+    "paste": "sæt ind",
+    "edit_address": "Rediger adresse",
+    "resend": "Send igen",
+    "deploy_now": "Implementer nu",
+    "become_premium": "Bliv Premium",
+    "bulk_export": "Bulk eksport",
+    "see_all": "Se alle",
+    "visit": "Besøg",
+    "rate_now": "Bedøm nu",
+    "load": "Indlæs",
+    "duplicate": "Duplikere",
+    "connect": "Forbinde",
+    "connect_now": "Tilslut nu",
+    "verify_now": "Bekræft nu"
   },
   "instance_message_title": "Send øjeblikkelig besked",
   "instance_message": "Hej {name}, Mit navn er {author} fra {company}.",
@@ -876,7 +959,8 @@ export default {
     "RequireAction": "Handling påkrævet",
     "Processing": "Forarbejdning",
     "Canceled": "Aflyst",
-    "Succeeded": "Det lykkedes"
+    "Succeeded": "Det lykkedes",
+    "RequireCapture": "Kræv optagelse"
   },
   "placeholders": {
     "name": "Jon Cox",
@@ -885,7 +969,14 @@ export default {
     "language": "Vælg sprog..",
     "friend_email": "Din vens e-mail...",
     "friend_name": "Opt. Din vens navn",
-    "select_date": "Vælg en dato..."
+    "select_date": "Vælg en dato...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "Vælg en klynge...",
+    "select_products": "Vælg produkter",
+    "birthday": "Vælg fødselsdag",
+    "select_category": "Vælg en kategori...",
+    "select_a_country": "Vælg et land...",
+    "filter_country": "Filtrer efter land..."
   },
   "notification": {
     "confirm": "Bekræfte",
@@ -1159,7 +1250,9 @@ export default {
     "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN"
   },
   "variants": {
     "color": "Farve",
@@ -1282,7 +1375,10 @@ export default {
       "title": "Indholdsfrigivelsesplan",
       "publish_at": "Udgives kl",
       "last_edit": "Sidste redigering",
-      "view_action": "Se artikel"
+      "view_action": "Se artikel",
+      "no_article": "Ingen planlagt artikel!",
+      "current_article": "Nuværende artikel",
+      "article_for_product": "Artikel for produkt"
     },
     "notifications": {
       "update_success_title": "Indsend oplysninger",
@@ -1354,7 +1450,8 @@ export default {
     "first_send": "Første indlæg",
     "comment_at": "På",
     "edit_comment": "Rediger kommentar",
-    "my_comments": "Mine kommentarer"
+    "my_comments": "Mine kommentarer",
+    "verified_buyer": "Verificeret køber"
   },
   "customer_club": {
     "bronze": "Bronze",
@@ -1469,7 +1566,8 @@ export default {
     "canceled": "Aflyst",
     "cod": "Betal ved levering",
     "receipt_added": "Kvittering tilføjet",
-    "payment_processing": "Betalingsbehandling"
+    "payment_processing": "Betalingsbehandling",
+    "payment_require_capture": "Kræv optagelse"
   },
   "basket_delivery_state": {
     "rejected": "Afvist",
@@ -1971,5 +2069,53 @@ export default {
     "summer": "Sommer",
     "autumn": "Efterår",
     "winter": "Vinter"
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "Se beskedhistorikken mellem dig og kunden."
+      },
+      "new_message": {
+        "subtitle": "Du kan sende beskeder direkte til kunderne her. Når du sender en besked, modtager kunden en e-mailbesked efter 20 minutter. Denne meddelelse vil kun blive sendt én gang hver 24 timer."
+      }
+    },
+    "customer": {
+      "history": {
+        "subtitle": "Se beskedhistorikken mellem dig og sælgeren."
+      },
+      "new_message": {
+        "subtitle": "Du kan sende beskeder direkte til os her."
+      }
+    }
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "On-Demand",
+      "desc": "såsom boligreparationer, maling, bilreparationer mv."
+    },
+    "BOOKING": {
+      "title": "Booking",
+      "desc": "Som at booke et hotelværelse eller villa."
+    },
+    "APPOINTMENT": {
+      "title": "Aftale",
+      "desc": "Som en aftale om kæledyrspleje eller personlig træning."
+    },
+    "RENTAL": {
+      "title": "Udlejning",
+      "desc": "Som at leje et sted eller en bil."
+    },
+    "SUBSCRIPTION": {
+      "title": "Abonnement",
+      "desc": "Gerne klubmedlemskab eller Online Coaching."
+    },
+    "CHARGE": {
+      "title": "Oplade",
+      "desc": "Såsom opladning af en konto eller opladning for at bruge en applikation."
+    },
+    "CUSTOM": {
+      "title": "Brugerdefinerede",
+      "desc": "Vælg denne mulighed, hvis den tjeneste, du leverer, ikke er nogen af ovenstående."
+    }
   }
 };

@@ -99,7 +99,11 @@ export default {
       "ecommerce": "Perdagangan elektronik",
       "pos": "Titik penjualan",
       "blog": "Blog & CMS",
-      "community": "Forum Komunitas"
+      "community": "Forum Komunitas",
+      "ecommerce_desc": "Jual produk dan layanan Anda secara daring.",
+      "pos_desc": "Jual produk dan layanan Anda secara langsung.",
+      "blog_desc": "CMS yang tangguh untuk menerbitkan artikel dan postingan Anda.",
+      "community_desc": "Buat komunitas dan forum Anda sendiri."
     },
     "job": {
       "title": "Apa industri Anda?",
@@ -162,7 +166,8 @@ export default {
     "sec2": {
       "title": "Integrasi cepat",
       "msg": "Kami mengembangkan SDK untuk semua bahasa dan kerangka kerja umum sehingga Anda dapat melakukan langkah-langkah autentikasi, mengakses akun, dan mengelolanya dengan perintah sederhana. Memulai hanya dengan beberapa klik saja."
-    }
+    },
+    "header": "API & SDK Open Source Dengan Kustomisasi {infinite}"
   },
   "convertible": {
     "store_name": "Toko Anda",
@@ -248,7 +253,9 @@ export default {
     "block3": {
       "title": "Menghemat waktu",
       "subtitle": "Kelas perusahaan tetapi ramah pemula."
-    }
+    },
+    "title": "Dioptimalkan untuk penjualan online & di toko dalam skala besar",
+    "subtitle": "Dibuat untuk konversi. Tingkatkan toko online Anda dengan alat intuitif yang dirancang untuk mengubah pengunjung menjadi pelanggan."
   },
   "money_transfer": {
     "customer": "Pelanggan Anda",
@@ -311,5 +318,219 @@ export default {
     "msg": "Wujudkan ide Anda hanya dengan beberapa klik.",
     "open_sample_product_link": "Buka Produk Langsung",
     "open_templates": "Lihat Templat"
+  },
+  "support_box": {
+    "country_select_label": "Pilih negara Anda",
+    "we_support_message": "Kami mendukung {country}",
+    "we_limited_support": "Kami membatasi dukungan {country}",
+    "support_message_long": "Nikmati transaksi online yang lancar di negara Anda dengan Selldone! Selain perhitungan PAJAK profesional, kami menawarkan berbagai metode pembayaran termasuk tunai, POS, transfer bank, dan banyak lagi. Mulailah membangun bisnis Anda di platform yang sepenuhnya mendukung kebutuhan negara Anda.",
+    "limited_support_message_long": "Pembayaran daring mungkin tidak tersedia di negara Anda, tetapi tidak perlu khawatir! Di Selldone, kami menawarkan pembayaran tunai, transfer bank, dan Bayar di Tempat (COD) di seluruh dunia. Anda dapat membangun bisnis daring dengan percaya diri bersama kami sambil mematuhi peraturan negara Anda dan Eropa. Untuk keterangan lebih lanjut atau untuk menanyakan tentang dukungan pembayaran daring di negara Anda, jangan ragu untuk menghubungi tim dukungan kami.",
+    "more_about_selldone_in_country": "Tentang Selldone di negara Anda",
+    "support_worldwide_customers": "Anda dapat menjual produk dan layanan Anda kepada semua pelanggan di <b>semua negara</b> !"
+  },
+  "hero": {
+    "intro": "Sistem Operasi #1 untuk Bisnis",
+    "title": "Ganti Plugin & Aplikasi {infinite} dengan Satu {app}"
+  },
+  "make_your_shop": {
+    "title": "Buatlah milikmu sendiri",
+    "amazon": "Amazon",
+    "local_store": "Toko Lokal",
+    "instagram": "Toko Instagram",
+    "dropshipping": "Pengiriman drop",
+    "coursera": "Kursus Bahasa Inggris Coursera",
+    "gift_store": "Toko Hadiah",
+    "airbnb": "Aplikasi Airbnb",
+    "simple_store": "Toko Sederhana",
+    "tiktok": "Toko TikTok"
+  },
+  "show_its_simplicity": {
+    "title": "Kompleks membosankan lainnya<div class=\"app-box\" style=\"font-size: 55%\"> 😣</div> platform e-dagang!?",
+    "subtitle": "Tentu saja tidak! Cobalah sebelum mendaftar...",
+    "as_guest": "Sebagai Tamu",
+    "need_register": "Perlu Daftar",
+    "page_builder": {
+      "title": "Pembuat Halaman Bawaan",
+      "subtitle": "Pembuat halaman drag-n-drop intuitif pertama dengan penyuntingan sebaris.",
+      "try_action": "Coba Page Builder",
+      "see_collection_action": "Lihat Template"
+    },
+    "ai": {
+      "title": "Fitur AI bawaan",
+      "subtitle": "Penghapusan latar belakang industri terbaik, pengoptimalan gambar, pembuatan konten, pembuatan produk otomotif, dan banyak lagi.",
+      "try_action": "Coba Selldone Intelligence"
+    },
+    "storefront": {
+      "title": "Storefront Langsung",
+      "subtitle": "Nikmati pengalaman berbelanja tercepat dengan situs web PWA modern tanpa perlu menulis satu baris kode pun.",
+      "see_action": "Lihat Demo Storefront"
+    },
+    "backoffice": {
+      "title": "Backoffice Langsung",
+      "subtitle": "Kelola semuanya dari satu tempat tanpa perlu plugin apa pun.",
+      "see_action": "Lihat Demo Backoffice"
+    }
+  },
+  "pricing_compact": {
+    "title": "<div class=\"app-box\" style=\"font-size: 55%\">💞️</div> Harga yang sederhana dan transparan",
+    "subtitle": "Akses semua fitur kelas perusahaan untuk memulai dan meningkatkan skala bisnis Anda dengan model bagi hasil kami—tidak perlu membayar di muka, cukup bagi hasil dari pendapatan Anda. Kami hanya akan berhasil jika Anda melakukannya, meminimalkan biaya dan memaksimalkan laba Anda."
+  },
+  "screenshots": {
+    "item_1": {
+      "title": "Sederhanakan pengelolaan pesanan Anda.",
+      "desc": "Kelola pesanan dalam jumlah besar secara efisien setiap hari menggunakan fungsi daftar dan filter canggih kami."
+    },
+    "item_2": {
+      "title": "Hubungkan toko Anda ke POD.",
+      "desc": "Hubungkan toko Anda dengan mudah ke layanan dropshipping cetak sesuai permintaan seperti Printful dan jual karya seni Anda pada bahan cetak tanpa memerlukan plugin tambahan."
+    },
+    "item_3": {
+      "title": "Penuhi pesanan dengan alat perusahaan yang intuitif.",
+      "desc": "Nikmati proses pemesanan yang efisien dengan kemampuan untuk memformat permintaan secara intuitif, membuat perubahan yang diperlukan, dan memperbarui status hanya dengan satu klik. Tingkatkan kemampuan pemenuhan pesanan Anda ke tingkat yang lebih tinggi dengan berbagai alat tingkat perusahaan kami."
+    },
+    "item_4": {
+      "title": "Melacak tindakan pada linimasa pesanan.",
+      "desc": "Timeline pesanan menyediakan catatan terperinci tentang semua tindakan dan perubahan yang dilakukan pada pesanan. Anda dapat dengan mudah melihat siapa yang membuat perubahan dan kapan perubahan tersebut dilakukan."
+    },
+    "item_5": {
+      "title": "Menyederhanakan komunikasi pelanggan dan vendor.",
+      "desc": "Email dengan merek Anda akan secara otomatis dikirim ke pelanggan, vendor, dan alamat email khusus yang ditentukan setelah proses pembayaran dan checkout selesai."
+    },
+    "item_6": {
+      "title": "Atur produk dengan mudah menggunakan drag and drop.",
+      "desc": "Produk dalam sistem ini akan berfungsi mirip dengan berkas, sedangkan kategori akan berfungsi seperti folder. Anda akan dapat dengan mudah menyeret dan melepas produk, mengatur ulang produk, menyalin dan menempel, dan bahkan mengimpor produk dalam jumlah besar menggunakan berkas Excel sederhana."
+    },
+    "item_7": {
+      "title": "Lacak pesanan langganan Anda dengan mudah.",
+      "desc": "Ambil daftar intuitif dan ringkas yang berisi semua pesanan berlangganan saat ini dan sebelumnya, termasuk waktu hingga pembayaran berikutnya dan informasi terperinci untuk setiap pesanan."
+    },
+    "item_8": {
+      "title": "Memanfaatkan alat blog dan CMS bawaan untuk melibatkan pelanggan.",
+      "desc": "Manfaatkan fitur blog internal dan sistem manajemen konten untuk membuat konten tentang perusahaan dan penawaran Anda, serta menarik audiens baru melalui pengoptimalan mesin pencari. Dengan demikian, Anda juga dapat berinteraksi dengan klien Anda."
+    },
+    "item_9": {
+      "title": "Hubungkan OS — Hubungkan ke layanan eksternal dengan mudah.",
+      "desc": "Dimungkinkan untuk terhubung ke layanan eksternal, seperti pasar, pemasok dropshipping, POD, dan perangkat lunak keuangan, tanpa memerlukan plugin tambahan."
+    },
+    "item_10": {
+      "title": "Sederhanakan impor produk dari layanan eksternal.",
+      "desc": "Impor produk dengan mudah dari layanan eksternal seperti Woocommerce dan Printful hanya dengan beberapa klik dan otomatisasi penuh."
+    },
+    "item_11": {
+      "title": "Menghubungkan toko Anda ke Google Merchant Center.",
+      "desc": "Tautkan toko Anda dengan Google Merchant Center dan sinkronkan semua item dan kategori dengan mudah untuk mengiklankannya di Google."
+    },
+    "item_12": {
+      "title": "Alpukat — Jual produk dengan mudah di media sosial.",
+      "desc": "Dengan Avocado, Anda dapat menjual produk di media sosial tanpa perlu menambahkan produk dan harga secara manual. Alat ini secara otomatis membuat tautan pembayaran untuk pesanan dan memungkinkan Anda membuat tagihan khusus dengan tautan pembayaran."
+    },
+    "item_13": {
+      "title": "Ribbon — Buat dan jual langganan dengan mudah.",
+      "desc": "Ribbon adalah alat hebat yang memudahkan Anda membuat dan menjual langganan seperti kotak langganan, paywall, dan berbagai jenis konten hanya dengan beberapa klik."
+    },
+    "item_14": {
+      "title": "Tawarkan beberapa pilihan pembayaran di toko Anda.",
+      "desc": "Ada baiknya Anda menawarkan berbagai opsi pembayaran di toko Anda, seperti menggabungkan Stripe dan PayPal."
+    },
+    "item_15": {
+      "title": "Berikan insentif pembelian pelanggan dengan diskon, penawaran, kupon, dan gamifikasi.",
+      "desc": "Berikan insentif kepada pelanggan Anda untuk melakukan lebih banyak pembelian dari toko Anda dengan menggunakan berbagai metode seperti menawarkan kode diskon, penawaran promosi, diskon cerdas, kupon, kartu hadiah, dan menggabungkan elemen gamifikasi ke dalam pengalaman berbelanja."
+    },
+    "item_16": {
+      "title": "Maksimalkan kinerja dengan manajemen kampanye sisi server.",
+      "desc": "Manfaatkan pemasaran sisi server dan manajemen kampanye untuk memperoleh informasi paling mendalam dan akurat mengenai kinerja kampanye Anda."
+    },
+    "item_17": {
+      "title": "Kelola pembayaran dan penjualan afiliasi.",
+      "desc": "Libatkan afiliasi dan tangani pembayaran serta penjualan mereka secara efisien. Manfaatkan berbagai opsi lanjutan untuk manajemen afiliasi seperti menetapkan domain pelanggan unik untuk setiap afiliasi."
+    },
+    "item_18": {
+      "title": "Mengelola inventaris dan harga secara efisien.",
+      "desc": "Alat manajemen Logistik dan Inventaris membantu dalam mengatur, memfilter, dan mengelola inventaris dan harga untuk ribuan produk dan variasinya."
+    },
+    "item_19": {
+      "title": "Aktivitas dan statistik pelanggan secara real-time.",
+      "desc": "Dapatkan akses ke data terkini tentang aktivitas pelanggan dan statistik situs web untuk membuat keputusan yang tepat dan berdasarkan data."
+    },
+    "item_20": {
+      "title": "Meningkatkan penjualan dengan membangun komunitas.",
+      "desc": "Bangun komunitas interaktif untuk mendongkrak penjualan di toko Anda, meningkatkan keterlibatan audiens, menumbuhkan kepercayaan, dan memanfaatkan manfaat SEO dari konten gratis."
+    },
+    "item_21": {
+      "title": "Tingkatkan pengalaman pelanggan Anda.",
+      "desc": "Atur dan segmentasikan basis pelanggan Anda, analisis nilai seumur hidup mereka, pembelian online dan di toko sebelumnya, dan lacak perjalanan mereka untuk meningkatkan pengalaman mereka sambil menghormati privasi mereka."
+    },
+    "item_22": {
+      "title": "Desain halaman responsif dengan mudah.",
+      "desc": "Rancang halaman internal dan landing page yang menarik dan responsif dengan mudah menggunakan pembuat halaman tanpa kode bawaan kami. Cukup seret dan lepas bagian untuk membuat halaman khusus."
+    },
+    "item_23": {
+      "title": "Memperlancar pengeditan dengan editor halaman sebaris.",
+      "desc": "Edit teks dan gambar dalam halaman dengan mudah menggunakan editor halaman sebaris, menjadikannya sederhana dan intuitif untuk memperbarui konten Anda."
+    },
+    "item_24": {
+      "title": "Kelola akses dan peran tim.",
+      "desc": "Undang anggota tim Anda, tetapkan peran staf, dan tetapkan tingkat akses mereka. Seiring dengan berkembangnya bisnis dan tim Anda, sistem operasi bisnis Anda akan beradaptasi."
+    },
+    "item_25": {
+      "title": "Miliki aplikasi Anda.",
+      "desc": "Mulailah bisnis Anda dengan Aplikasi Web Progresif dan berikan pelanggan Anda pengalaman yang lebih cepat dibandingkan pesaing Anda."
+    },
+    "item_26": {
+      "title": "Otomatisasi tingkat lanjut dan alat penyimpanan.",
+      "desc": "Sederhanakan operasi bisnis Anda dan hemat waktu serta sumber daya yang berharga dengan memanfaatkan alat otomatisasi canggih yang dapat diintegrasikan ke dalam toko Anda."
+    },
+    "item_27": {
+      "title": "Sesuaikan etalase Anda dengan mudah.",
+      "desc": "Personalisasikan etalase toko Anda dengan mudah agar sesuai dengan merek Anda dengan memanfaatkan opsi penyesuaian visual seperti tema, skema warna, font, dan banyak lagi - semuanya tanpa memerlukan keterampilan pengkodean atau teknis."
+    },
+    "item_28": {
+      "title": "Rancang perjalanan pelanggan yang dipersonalisasi.",
+      "desc": "Rancang perjalanan pelanggan yang dipersonalisasi menggunakan berbagai opsi yang tersedia di Selldone, seperti memilih titik masuk atau mengaktifkan belanja tamu."
+    },
+    "item_29": {
+      "title": "Tingkatkan pengalaman dengan opsi login dan alur khusus.",
+      "desc": "Ciptakan pengalaman login dan alur yang dipersonalisasi, sediakan berbagai opsi login sosial untuk toko online Anda."
+    },
+    "item_30": {
+      "title": "Mendukung model bisnis yang kompleks.",
+      "desc": "Dukungan Selldone menawarkan dukungan model bisnis tingkat lanjut, seperti pasar, pemasok dropshipping, afiliasi, dan waralaba, yang dapat Anda atur dan alihkan dengan mudah hanya dengan satu klik."
+    },
+    "item_31": {
+      "title": "Tautkan beberapa domain kustom.",
+      "desc": "Anda dapat menautkan beberapa domain kustom ke aspek tertentu bisnis Anda seperti komunitas, toko, blog, halaman arahan, atau bahkan afiliasi."
+    },
+    "item_32": {
+      "title": "Mendukung banyak bahasa dan terjemahan otomatis.",
+      "desc": "Toko Anda sepenuhnya mendukung berbagai bahasa, baik RTL maupun LTR. Anda dapat dengan mudah memasang dan mengaktifkan paket terjemahan otomatis untuk toko Anda."
+    },
+    "item_33": {
+      "title": "Perhitungan pajak multi-profil bawaan.",
+      "desc": "Dengan kemampuan untuk membuat beberapa profil pajak dan menetapkannya ke produk tertentu, Anda memiliki fleksibilitas lebih besar dalam menghitung PPN dan pajak penjualan. Misalnya, Anda dapat menerapkan tarif pajak yang berbeda untuk bahan makanan atau perangkat listrik."
+    },
+    "item_34": {
+      "title": "Perhitungan pajak multi-regional.",
+      "desc": "Manfaatkan aturan default atau khusus untuk pajak penjualan dan PPN saat menjual ke berbagai negara dan wilayah. Ganti aturan untuk wilayah dan wilayah pajak tertentu sesuai kebutuhan."
+    },
+    "item_35": {
+      "title": "Terbitkan artikel dengan editor sebaris yang canggih.",
+      "desc": "Editor artikel sebaris yang canggih menyederhanakan proses penerbitan dan peninjauan artikel Anda, menjadikannya cepat dan mudah sambil menjaga konsistensi."
+    },
+    "item_36": {
+      "title": "Dasbor khusus untuk setiap produk.",
+      "desc": "Setiap produk memiliki dasbor khusus yang menyediakan statistik, semua informasi yang diperlukan, dan akses ke semua tindakan yang diperlukan untuk manajemen."
+    },
+    "item_37": {
+      "title": "Terjemahkan artikel secara otomatis.",
+      "desc": "Manfaatkan fitur terjemahan AI tingkat perusahaan bawaan untuk menerjemahkan deskripsi produk dengan mudah ke berbagai bahasa hanya dengan satu klik."
+    },
+    "item_38": {
+      "title": "Alat analitik bawaan.",
+      "desc": "Anda akan memiliki akses ke alat analitik bawaan yang sepenuhnya berada di sisi server, aman, dan mematuhi GDPR, tanpa menggunakan cookie."
+    },
+    "item_39": {
+      "title": "Penuhi sebagian besar kebutuhan SEO tingkat lanjut Anda.",
+      "desc": "Alat internal kami memberi Anda kata kunci paling aktif, URL berkinerja terbaik, dan ikhtisar kinerja bisnis Anda di pencarian Google, semuanya disajikan dalam bentuk tabel dan grafik."
+    }
   }
 };

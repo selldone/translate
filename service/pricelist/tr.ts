@@ -382,5 +382,19 @@ export default {
   "marketplace": "Pazaryeri oluşturucu",
   "connect_os": {
     "subtitle": "Tek tıklamayla dropshipping tedarikçilerine bağlanın. Prinful veya Import Woocomerce mağazası gibi POD'a ücretsiz olarak bağlanabilirsiniz."
+  },
+  "ai": {
+    "title": "AI",
+    "sub_title": "Copilot ve AI asistan özellikleri.",
+    "bg_remove": "AI Arkaplanı Kaldır",
+    "bg_remove_info": "Resimlerden arka planı otomatik olarak kaldırın.",
+    "content_creation": "AI İçerik Oluşturma",
+    "content_creation_info": "Ürünler için otomatik olarak içerik oluşturun.",
+    "add_product": "AI Ürün Yardımı",
+    "add_product_info": "Ürünü resim ve sesle otomatik ekleyin.",
+    "magic_ai_buttons": "Sihirli AI Düğmeleri",
+    "magic_ai_buttons_info": "Tek tıklamayla arka planı otomatik olarak kaldırın, toplu çeviri yapın, içerik oluşturun ve daha fazlasını yapın.",
+    "translate": "AI Çeviri",
+    "translate_info": "İçeriği herhangi bir dile çevirin."
   }
 };

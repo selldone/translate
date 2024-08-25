@@ -194,7 +194,26 @@ export default {
         ]
       }
     ],
-    "copyright": "非営利目的でのみ、ソースを参照してコンテンツを使用すること（Selldone.comへのリンク）。すべての権利はSelldoneグループに帰属します。"
+    "copyright": "非営利目的でのみ、ソースを参照してコンテンツを使用すること（Selldone.comへのリンク）。すべての権利はSelldoneグループに帰属します。",
+    "supported_countries_and_payments": "対応国と支払い方法",
+    "affiliate_program": "アフィリエイトプログラム",
+    "business_idea": "ビジネスアイデア",
+    "roadmap": "ロードマップ",
+    "apply_partner": "パートナーに応募する",
+    "partner": {
+      "title": "パートナーとして参加する",
+      "subtitle": "当社はパートナーに、ビジネスを拡大し、毎月安定した収益を得る素晴らしい機会を提供します。"
+    },
+    "add_service": "サービスを追加",
+    "service": {
+      "title": "サービスを統合する",
+      "subtitle": "あなたのサービスを、今日何千もの繁栄している企業、そして将来何百万もの企業に紹介しましょう。"
+    },
+    "add_supplier": "サプライヤーを追加",
+    "supplier": {
+      "title": "サプライヤーとして参加する",
+      "subtitle": "当社は、お客様の製品を世界中の何千ものアクティブなオンライン ストアやローカル ストアに届けるお手伝いをいたします。"
+    }
   },
   "admin_footer": {
     "title": "クイックアクセスメニュー：",
@@ -213,5 +232,8 @@ export default {
   },
   "admin_shop_footer": {
     "title": "{shop_name}のクイックアクセスパネル"
+  },
+  "press_view": {
+    "on_all_review_websites": "すべてのレビューウェブサイト"
   }
 };

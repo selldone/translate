@@ -382,5 +382,19 @@ export default {
   "marketplace": "Construtor de mercado",
   "connect_os": {
     "subtitle": "Conecte-se a fornecedores de dropshipping com um clique. Você pode se conectar ao POD como a loja Prinful ou Import Woocomerce gratuitamente."
+  },
+  "ai": {
+    "title": "AI",
+    "sub_title": "Recursos de copiloto e assistente de IA.",
+    "bg_remove": "AI Remover Fundo",
+    "bg_remove_info": "Remover automaticamente o fundo das imagens.",
+    "content_creation": "Criação de conteúdo de IA",
+    "content_creation_info": "Crie conteúdo para produtos automaticamente.",
+    "add_product": "Assistência de produtos de IA",
+    "add_product_info": "Adicione produtos automaticamente por imagem e voz.",
+    "magic_ai_buttons": "Botões mágicos de IA",
+    "magic_ai_buttons_info": "Remova o fundo automaticamente, traduza em massa, gere conteúdo e muito mais com um clique.",
+    "translate": "Tradução de IA",
+    "translate_info": "Traduza conteúdo para qualquer idioma."
   }
 };

@@ -139,6 +139,14 @@ export default {
     "step3": {
       "title": "Adım 3. DNS kayıtlarını ayarlayın",
       "msg": "Tebrikler, Şimdi tek yapmanız gereken alan hizmet sağlayıcınızda DNS'yi yapılandırmak ve alan adını hesabınıza eklemek."
+    },
+    "buy_domain_step": {
+      "title": "1. Adım. Bir alan satın alın",
+      "msg": "Henüz kişisel alan adınız yoksa, namecheap.com gibi web sitelerinden kendi alan adınızı satın almanın zamanı geldi."
+    },
+    "set_dns_step": {
+      "title": "Adım 2. DNS kayıtlarını ayarlayın",
+      "msg": "Tebrikler, Şimdi tek yapmanız gereken alan hizmet sağlayıcınızda DNS'yi yapılandırmak ve alan adını hesabınıza eklemek."
     }
   },
   "payment": {
@@ -175,11 +183,35 @@ export default {
   "customize": {
     "template": {
       "title": "Şablonlar",
-      "msg": "Önceden oluşturulmuş şablonlarımızla mağazanıza hızlı bir başlangıç yapın! Her biri kendine özgü tasarıma sahip birden fazla sayfa ekleyerek kolayca çeşitlendirin."
+      "msg": "Önceden oluşturulmuş şablonlarımızla mağazanıza hızlı bir başlangıç yapın! Her biri kendine özgü tasarıma sahip birden fazla sayfa ekleyerek kolayca çeşitlendirin.",
+      "action": "Tüm şablonları görüntüle..."
     },
     "colors": {
       "title": "Renkler ve Düzen",
-      "msg": "Ürün sayfanızı ve mağaza düzeninizi vizyonunuza daha iyi uyacak şekilde uyarlamak mı istiyorsunuz? Mağazanızdaki tema özelleştirme bölümüne dalın ve sihrin zahmetsizce ortaya çıkmasını izleyin!"
+      "msg": "Ürün sayfanızı ve mağaza düzeninizi vizyonunuza daha iyi uyacak şekilde uyarlamak mı istiyorsunuz? Mağazanızdaki tema özelleştirme bölümüne dalın ve sihrin zahmetsizce ortaya çıkmasını izleyin!",
+      "action": "Renkleri ve Temayı Özelleştir"
+    },
+    "tour": {
+      "title": "Tur",
+      "subtitle": "Burada başka hiçbir yerde mümkün olmayan şeyleri keşfedin.",
+      "avocado": {
+        "title": "Avokado - Herhangi Bir Ürün Eklemeden Satış Yapın",
+        "description": "Avocado ile önceden tanımlanmış fiyatlar veya ayrıntılar olmadan hizmet veya ürün sunabilirsiniz. Müşterilerinizin hizmet veya ürün talep etmeleri için özel bir form oluşturun. Taleplerini gönderdikten sonra fiyatı belirleyebilir ve ödemeyi işleyebilirsiniz. Formu sosyal medyanızda paylaşarak müşterilerin ürün eklemesine, resim yüklemesine ve siparişlerini kolayca göndermesine olanak tanıyın.",
+        "action": "Avokado Hakkında Okuyun"
+      },
+      "marketplace": {
+        "title": "Çoklu Satıcı Pazar Yeri ve Otomatik Ödeme",
+        "description": "Birden fazla satıcı ekleyerek Selldone ile gelişen bir pazar yeri kurun. Satıcılar ürünlerini listeleyebilir ve her satış için bir komisyon oranı belirleyebilirsiniz. Bir müşteri satın alma işlemi yaptığında, satıcı ödemeyi doğrudan alır, siparişi özel paneli aracılığıyla yönetir ve siz otomatik ödeme özelliği aracılığıyla komisyon kazanırsınız.",
+        "action": "Oto Satıcılarına Ödeme"
+      },
+      "business_model": {
+        "title": "Karmaşık İş Modellerini Destekleyin",
+        "description": "Selldone, hem basit hem de karmaşık iş modellerini destekleyerek ihtiyaç duyduğunuz şekilde uyarlamanıza olanak tanır. Ek eklentiler veya uygulamalar yüklemeden her şeyi perde arkasında yapılandırın, böylece sorunsuz geçişler ve işlemler sağlayın."
+      },
+      "gift_shopping": {
+        "title": "Ürün Konumları Kısıtlaması ve Hediye Alışverişi",
+        "description": "Birden fazla ülke, posta kodu ve şehir belirterek her ürün için konum kısıtlamaları ayarlayın. Bu özellik, kişiselleştirilmiş bir hediye alışverişi deneyimi oluşturmak veya ürün bulunabilirliğini restoranlar gibi belirli konumlarla sınırlamak için mükemmeldir."
+      }
     }
   },
   "business": {

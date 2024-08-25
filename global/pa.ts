@@ -642,7 +642,77 @@ export default {
     "clusters": "ਕਲੱਸਟਰ",
     "subscriptions": "ਸਬਸਕ੍ਰਿਪਸ਼ਨ",
     "spam": "ਸਪੈਮ",
-    "video": "ਵੀਡੀਓ"
+    "video": "ਵੀਡੀਓ",
+    "fulfillment": "ਪੂਰਤੀ",
+    "channels_overview": "ਚੈਨਲਾਂ ਦੀ ਸੰਖੇਪ ਜਾਣਕਾਰੀ",
+    "no_vendors": "ਕੋਈ ਵਿਕਰੇਤਾ ਨਹੀਂ",
+    "ends_in": "ਵਿੱਚ ਖਤਮ ਹੁੰਦਾ ਹੈ",
+    "current": "ਵਰਤਮਾਨ",
+    "important": "ਮਹੱਤਵਪੂਰਨ",
+    "web": "ਵੈੱਬ",
+    "payout": "ਭੁਗਤਾਨ",
+    "vendor_panel": "ਵਿਕਰੇਤਾ ਪੈਨਲ",
+    "vendors_panel": "ਵਿਕਰੇਤਾ ਪੈਨਲ",
+    "syncing": "ਸਿੰਕ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ",
+    "level": "ਪੱਧਰ",
+    "available": "ਉਪਲੱਬਧ",
+    "limited": "ਸੀਮਿਤ",
+    "management": "ਪ੍ਰਬੰਧਨ",
+    "topics": "ਵਿਸ਼ੇ",
+    "posts": "ਪੋਸਟਾਂ",
+    "replies": "ਜਵਾਬ",
+    "reports": "ਰਿਪੋਰਟ",
+    "post": "ਪੋਸਟ",
+    "impressions": "ਪ੍ਰਭਾਵ",
+    "resources": "ਸਰੋਤ",
+    "engine": "ਇੰਜਣ",
+    "attachments": "ਅਟੈਚਮੈਂਟਸ",
+    "owner": "ਮਾਲਕ",
+    "wholesaler": "ਥੋਕ ਵਿਕਰੇਤਾ",
+    "hidden": "ਲੁਕਿਆ ਹੋਇਆ",
+    "visible": "ਦਿਸਦਾ ਹੈ",
+    "warehouse": "ਵੇਅਰਹਾਊਸ",
+    "billed_yearly": "ਸਾਲਾਨਾ ਬਿਲ ਕੀਤਾ ਜਾਂਦਾ ਹੈ",
+    "my_wallet": "ਮੇਰਾ ਬਟੂਆ",
+    "boosted": "ਵਧਾਇਆ",
+    "cashback": "ਕੈਸ਼ਬੈਕ",
+    "leads": "ਅਗਵਾਈ ਕਰਦਾ ਹੈ",
+    "invalid": "ਅਵੈਧ",
+    "refund_date": "ਰਿਫੰਡ ਦੀ ਮਿਤੀ",
+    "refund": "ਰਿਫੰਡ",
+    "items": "ਇਕਾਈ",
+    "incentives": "ਪ੍ਰੋਤਸਾਹਨ",
+    "recurring_payment": "ਆਵਰਤੀ ਭੁਗਤਾਨ",
+    "pricing": "ਕੀਮਤ",
+    "purchase": "ਖਰੀਦੋ",
+    "confirmation": "ਪੁਸ਼ਟੀ",
+    "manage": "ਪ੍ਰਬੰਧ ਕਰਨਾ, ਕਾਬੂ ਕਰਨਾ",
+    "warning": "ਚੇਤਾਵਨੀ",
+    "custom": "ਪ੍ਰਥਾ",
+    "read": "ਪੜ੍ਹੋ",
+    "write": "ਲਿਖੋ",
+    "root": "ਰੂਟ",
+    "nothing_set": "ਕੁਝ ਵੀ ਸੈੱਟ ਨਹੀਂ!",
+    "installment": "ਕਿਸ਼ਤ",
+    "split_payment": "ਭੁਗਤਾਨ ਵੰਡੋ",
+    "profiles": "ਪ੍ਰੋਫਾਈਲਾਂ",
+    "location_limited": "ਟਿਕਾਣਾ ਸੀਮਤ",
+    "no_limit": "ਕੋਈ ਸੀਮਾ ਨਹੀਂ",
+    "max_range": "ਅਧਿਕਤਮ ਰੇਂਜ",
+    "settled_date": "ਨਿਪਟਾਰੇ ਦੀ ਮਿਤੀ",
+    "paid_date": "ਭੁਗਤਾਨ ਦੀ ਮਿਤੀ",
+    "physical_orders": "ਭੌਤਿਕ ਆਦੇਸ਼",
+    "virtual_orders": "ਵਰਚੁਅਲ ਆਰਡਰ",
+    "file_orders": "ਆਰਡਰ ਫਾਈਲ ਕਰੋ",
+    "service_orders": "ਸੇਵਾ ਦੇ ਆਦੇਸ਼",
+    "subscription_orders": "ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਆਰਡਰ",
+    "avocado_orders": "ਐਵੋਕਾਡੋ ਆਰਡਰ",
+    "hyper_orders": "ਹਾਈਪਰ ਆਰਡਰ",
+    "connected": "ਜੁੜਿਆ ਹੋਇਆ ਹੈ",
+    "system": "ਸਿਸਟਮ",
+    "unknown": "ਅਗਿਆਤ",
+    "week": "ਹਫ਼ਤਾ",
+    "agencies": "ਏਜੰਸੀਆਂ"
   },
   "dialogs": {
     "delete": {
@@ -773,7 +843,20 @@ export default {
     "buy": "ਖਰੀਦੋ",
     "view_all": "ਸਭ ਦੇਖੋ",
     "view_now": "ਹੁਣੇ ਵੇਖੋ",
-    "paste": "ਚਿਪਕਾਓ"
+    "paste": "ਚਿਪਕਾਓ",
+    "edit_address": "ਪਤਾ ਸੰਪਾਦਿਤ ਕਰੋ",
+    "resend": "ਦੁਬਾਰਾ ਭੇਜੋ",
+    "deploy_now": "ਹੁਣੇ ਤੈਨਾਤ ਕਰੋ",
+    "become_premium": "ਪ੍ਰੀਮੀਅਮ ਬਣੋ",
+    "bulk_export": "ਥੋਕ ਨਿਰਯਾਤ",
+    "see_all": "ਸਭ ਦੇਖੋ",
+    "visit": "ਫੇਰੀ",
+    "rate_now": "ਹੁਣੇ ਦਰਜਾ ਦਿਓ",
+    "load": "ਲੋਡ ਕਰੋ",
+    "duplicate": "ਡੁਪਲੀਕੇਟ",
+    "connect": "ਜੁੜੋ",
+    "connect_now": "ਹੁਣੇ ਕਨੈਕਟ ਕਰੋ",
+    "verify_now": "ਹੁਣੇ ਪੁਸ਼ਟੀ ਕਰੋ"
   },
   "instance_message_title": "ਤੁਰੰਤ ਸੁਨੇਹਾ ਭੇਜੋ",
   "instance_message": "ਹੈਲੋ {name}, ਮੇਰਾ ਨਾਮ {company} ਤੋਂ {author} ਹੈ।",
@@ -876,7 +959,8 @@ export default {
     "RequireAction": "ਕਾਰਵਾਈ ਦੀ ਲੋੜ ਹੈ",
     "Processing": "ਕਾਰਵਾਈ",
     "Canceled": "ਰੱਦ ਕਰ ਦਿੱਤਾ",
-    "Succeeded": "ਸਫਲ ਹੋਇਆ"
+    "Succeeded": "ਸਫਲ ਹੋਇਆ",
+    "RequireCapture": "ਕੈਪਚਰ ਕਰਨ ਦੀ ਲੋੜ ਹੈ"
   },
   "placeholders": {
     "name": "ਜੋਨ ਕੋਕਸ",
@@ -885,7 +969,14 @@ export default {
     "language": "ਭਾਸ਼ਾ ਚੁਣੋ..",
     "friend_email": "ਤੁਹਾਡੇ ਦੋਸਤ ਦੀ ਈਮੇਲ...",
     "friend_name": "ਚੋਣ ਤੁਹਾਡੇ ਦੋਸਤ ਦਾ ਨਾਮ",
-    "select_date": "ਇੱਕ ਮਿਤੀ ਚੁਣੋ..."
+    "select_date": "ਇੱਕ ਮਿਤੀ ਚੁਣੋ...",
+    "address": "123 ਮੇਨ ਸੇਂਟ, ਐਨੀਟਾਊਨ, 12345",
+    "cluster": "ਇੱਕ ਕਲੱਸਟਰ ਚੁਣੋ...",
+    "select_products": "ਉਤਪਾਦ ਚੁਣੋ",
+    "birthday": "ਜਨਮਦਿਨ ਚੁਣੋ",
+    "select_category": "ਇੱਕ ਸ਼੍ਰੇਣੀ ਚੁਣੋ...",
+    "select_a_country": "ਇੱਕ ਦੇਸ਼ ਚੁਣੋ...",
+    "filter_country": "ਦੇਸ਼ ਅਨੁਸਾਰ ਫਿਲਟਰ ਕਰੋ..."
   },
   "notification": {
     "confirm": "ਪੁਸ਼ਟੀ ਕਰੋ",
@@ -1159,7 +1250,9 @@ export default {
     "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN"
   },
   "variants": {
     "color": "ਰੰਗ",
@@ -1282,7 +1375,10 @@ export default {
       "title": "ਸਮੱਗਰੀ ਰੀਲੀਜ਼ ਅਨੁਸੂਚੀ",
       "publish_at": "'ਤੇ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰੋ",
       "last_edit": "ਆਖਰੀ ਸੰਪਾਦਨ",
-      "view_action": "ਲੇਖ ਦੇਖੋ"
+      "view_action": "ਲੇਖ ਦੇਖੋ",
+      "no_article": "ਕੋਈ ਅਨੁਸੂਚਿਤ ਲੇਖ!",
+      "current_article": "ਮੌਜੂਦਾ ਲੇਖ",
+      "article_for_product": "ਉਤਪਾਦ ਲਈ ਲੇਖ"
     },
     "notifications": {
       "update_success_title": "ਜਾਣਕਾਰੀ ਦਰਜ ਕਰੋ",
@@ -1354,7 +1450,8 @@ export default {
     "first_send": "ਪਹਿਲੀ ਪੋਸਟ",
     "comment_at": "'ਤੇ",
     "edit_comment": "ਟਿੱਪਣੀ ਦਾ ਸੰਪਾਦਨ ਕਰੋ",
-    "my_comments": "ਮੇਰੀਆਂ ਟਿੱਪਣੀਆਂ"
+    "my_comments": "ਮੇਰੀਆਂ ਟਿੱਪਣੀਆਂ",
+    "verified_buyer": "ਪ੍ਰਮਾਣਿਤ ਖਰੀਦਦਾਰ"
   },
   "customer_club": {
     "bronze": "ਕਾਂਸੀ",
@@ -1469,7 +1566,8 @@ export default {
     "canceled": "ਰੱਦ ਕਰ ਦਿੱਤਾ",
     "cod": "ਡਿਲਿਵਰੀ 'ਤੇ ਭੁਗਤਾਨ ਕਰੋ",
     "receipt_added": "ਰਸੀਦ ਸ਼ਾਮਲ ਕੀਤੀ ਗਈ",
-    "payment_processing": "ਭੁਗਤਾਨ ਪ੍ਰਕਿਰਿਆ"
+    "payment_processing": "ਭੁਗਤਾਨ ਪ੍ਰਕਿਰਿਆ",
+    "payment_require_capture": "ਕੈਪਚਰ ਕਰਨ ਦੀ ਲੋੜ ਹੈ"
   },
   "basket_delivery_state": {
     "rejected": "ਰੱਦ ਕਰ ਦਿੱਤਾ",
@@ -1971,5 +2069,53 @@ export default {
     "summer": "ਗਰਮੀਆਂ",
     "autumn": "ਪਤਝੜ",
     "winter": "ਸਰਦੀਆਂ"
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "ਤੁਹਾਡੇ ਅਤੇ ਗਾਹਕ ਵਿਚਕਾਰ ਸੁਨੇਹਾ ਇਤਿਹਾਸ ਦੇਖੋ।"
+      },
+      "new_message": {
+        "subtitle": "ਤੁਸੀਂ ਇੱਥੇ ਗਾਹਕਾਂ ਨੂੰ ਸਿੱਧੇ ਸੁਨੇਹੇ ਭੇਜ ਸਕਦੇ ਹੋ। ਜਦੋਂ ਤੁਸੀਂ ਕੋਈ ਸੁਨੇਹਾ ਭੇਜਦੇ ਹੋ, ਤਾਂ ਗਾਹਕ ਨੂੰ 20 ਮਿੰਟ ਬਾਅਦ ਇੱਕ ਈਮੇਲ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਹੋਵੇਗੀ। ਇਹ ਨੋਟੀਫਿਕੇਸ਼ਨ ਹਰ 24 ਘੰਟਿਆਂ ਵਿੱਚ ਇੱਕ ਵਾਰ ਹੀ ਭੇਜਿਆ ਜਾਵੇਗਾ।"
+      }
+    },
+    "customer": {
+      "history": {
+        "subtitle": "ਤੁਹਾਡੇ ਅਤੇ ਵਿਕਰੇਤਾ ਵਿਚਕਾਰ ਸੁਨੇਹਾ ਇਤਿਹਾਸ ਦੇਖੋ।"
+      },
+      "new_message": {
+        "subtitle": "ਤੁਸੀਂ ਇੱਥੇ ਸਾਨੂੰ ਸਿੱਧੇ ਸੁਨੇਹੇ ਭੇਜ ਸਕਦੇ ਹੋ।"
+      }
+    }
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "ਮੰਗ ਉੱਤੇ",
+      "desc": "ਜਿਵੇਂ ਕਿ ਘਰ ਦੀ ਮੁਰੰਮਤ, ਪੇਂਟਿੰਗ, ਕਾਰ ਦੀ ਮੁਰੰਮਤ, ਆਦਿ।"
+    },
+    "BOOKING": {
+      "title": "ਬੁਕਿੰਗ",
+      "desc": "ਜਿਵੇਂ ਕਿ ਹੋਟਲ ਦਾ ਕਮਰਾ ਜਾਂ ਵਿਲਾ ਬੁੱਕ ਕਰਨਾ।"
+    },
+    "APPOINTMENT": {
+      "title": "ਮੁਲਾਕਾਤ",
+      "desc": "ਜਿਵੇਂ ਕਿ ਪਾਲਤੂ ਜਾਨਵਰਾਂ ਦੀ ਦੇਖਭਾਲ ਲਈ ਮੁਲਾਕਾਤ ਜਾਂ ਵਿਅਕਤੀਗਤ ਸਿਖਲਾਈ।"
+    },
+    "RENTAL": {
+      "title": "ਕਿਰਾਇਆ",
+      "desc": "ਜਿਵੇਂ ਕੋਈ ਜਗ੍ਹਾ ਜਾਂ ਕਾਰ ਕਿਰਾਏ 'ਤੇ ਲੈਣਾ।"
+    },
+    "SUBSCRIPTION": {
+      "title": "ਗਾਹਕੀ",
+      "desc": "ਜਿਵੇਂ ਕਿ ਕਲੱਬ ਮੈਂਬਰਸ਼ਿਪ ਜਾਂ ਔਨਲਾਈਨ ਕੋਚਿੰਗ।"
+    },
+    "CHARGE": {
+      "title": "ਚਾਰਜ",
+      "desc": "ਜਿਵੇਂ ਕਿ ਕਿਸੇ ਖਾਤੇ ਨੂੰ ਚਾਰਜ ਕਰਨਾ ਜਾਂ ਕਿਸੇ ਐਪਲੀਕੇਸ਼ਨ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਚਾਰਜ ਕਰਨਾ।"
+    },
+    "CUSTOM": {
+      "title": "ਪ੍ਰਥਾ",
+      "desc": "ਇਸ ਵਿਕਲਪ ਨੂੰ ਚੁਣੋ ਜੇਕਰ ਤੁਹਾਡੇ ਦੁਆਰਾ ਪ੍ਰਦਾਨ ਕੀਤੀ ਸੇਵਾ ਉਪਰੋਕਤ ਵਿੱਚੋਂ ਕੋਈ ਨਹੀਂ ਹੈ।"
+    }
   }
 };

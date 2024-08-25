@@ -382,5 +382,19 @@ export default {
   "marketplace": "بازار بنانے والا",
   "connect_os": {
     "subtitle": "ایک کلک کے ساتھ ڈراپ شپنگ سپلائرز سے جڑیں۔ آپ POD سے جڑ سکتے ہیں جیسے Prinful یا Import Woocomerce اسٹور مفت میں۔"
+  },
+  "ai": {
+    "title": "AI",
+    "sub_title": "Copilot اور AI اسسٹنٹ کی خصوصیات۔",
+    "bg_remove": "AI پس منظر کو ہٹا دیں۔",
+    "bg_remove_info": "خودکار طور پر تصاویر سے پس منظر کو ہٹا دیں۔",
+    "content_creation": "AI مواد کی تخلیق",
+    "content_creation_info": "خود بخود مصنوعات کے لیے مواد بنائیں۔",
+    "add_product": "AI پروڈکٹ اسسٹنس",
+    "add_product_info": "تصویر اور آواز کے ذریعہ پروڈکٹ کو خود بخود شامل کریں۔",
+    "magic_ai_buttons": "جادوئی AI بٹن",
+    "magic_ai_buttons_info": "ایک کلک کے ساتھ پس منظر کو خودکار طور پر ہٹائیں، بڑی تعداد میں ترجمہ کریں، مواد تیار کریں اور بہت کچھ۔",
+    "translate": "اے آئی ترجمہ",
+    "translate_info": "مواد کا کسی بھی زبان میں ترجمہ کریں۔"
   }
 };

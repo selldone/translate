@@ -642,7 +642,77 @@ export default {
     "clusters": "Groupes",
     "subscriptions": "Abonnements",
     "spam": "Courrier indésirable",
-    "video": "Vidéo"
+    "video": "Vidéo",
+    "fulfillment": "Accomplissement",
+    "channels_overview": "Aperçu des chaînes",
+    "no_vendors": "Aucun vendeur",
+    "ends_in": "Se termine dans",
+    "current": "Actuel",
+    "important": "Important",
+    "web": "Web",
+    "payout": "Paiement",
+    "vendor_panel": "Panneau des fournisseurs",
+    "vendors_panel": "Panneau des fournisseurs",
+    "syncing": "Synchronisation",
+    "level": "Niveau",
+    "available": "Disponible",
+    "limited": "Limité",
+    "management": "Gestion",
+    "topics": "Les sujets",
+    "posts": "Des postes",
+    "replies": "Réponses",
+    "reports": "Rapports",
+    "post": "Poster",
+    "impressions": "Impressions",
+    "resources": "Ressources",
+    "engine": "Moteur",
+    "attachments": "Pièces jointes",
+    "owner": "Propriétaire",
+    "wholesaler": "Grossiste",
+    "hidden": "Caché",
+    "visible": "Visible",
+    "warehouse": "Entrepôt",
+    "billed_yearly": "Facturé annuellement",
+    "my_wallet": "Mon portefeuille",
+    "boosted": "Boosté",
+    "cashback": "Remboursement",
+    "leads": "Conduit",
+    "invalid": "Invalide",
+    "refund_date": "Date de remboursement",
+    "refund": "Remboursement",
+    "items": "Articles",
+    "incentives": "Des incitations",
+    "recurring_payment": "Paiement récurrent",
+    "pricing": "Tarification",
+    "purchase": "Acheter",
+    "confirmation": "Confirmation",
+    "manage": "Faire en sorte",
+    "warning": "Avertissement",
+    "custom": "Coutume",
+    "read": "Lire",
+    "write": "Écrire",
+    "root": "Racine",
+    "nothing_set": "Rien n'est défini !",
+    "installment": "Tranche",
+    "split_payment": "Paiement fractionné",
+    "profiles": "Profils",
+    "location_limited": "Emplacement limité",
+    "no_limit": "Sans limites",
+    "max_range": "Portée maximale",
+    "settled_date": "Date de règlement",
+    "paid_date": "Date de paiement",
+    "physical_orders": "Commandes physiques",
+    "virtual_orders": "Commandes virtuelles",
+    "file_orders": "Commandes de fichiers",
+    "service_orders": "Commandes de services",
+    "subscription_orders": "Commandes d'abonnement",
+    "avocado_orders": "Commandes d'avocat",
+    "hyper_orders": "Commandes hyper",
+    "connected": "Connecté",
+    "system": "Système",
+    "unknown": "Inconnu",
+    "week": "Semaine",
+    "agencies": "Agences"
   },
   "dialogs": {
     "delete": {
@@ -773,7 +843,20 @@ export default {
     "buy": "Acheter",
     "view_all": "Voir tout",
     "view_now": "Voir maintenant",
-    "paste": "Pâte"
+    "paste": "Pâte",
+    "edit_address": "Modifier l'adresse",
+    "resend": "Renvoyer",
+    "deploy_now": "Déployer maintenant",
+    "become_premium": "Devenez Premium",
+    "bulk_export": "Exportation en masse",
+    "see_all": "Tout voir",
+    "visit": "Visiter",
+    "rate_now": "Évaluer maintenant",
+    "load": "Charger",
+    "duplicate": "Double",
+    "connect": "Connecter",
+    "connect_now": "Se connecter maintenant",
+    "verify_now": "Vérifiez maintenant"
   },
   "instance_message_title": "Envoyer un message instantané",
   "instance_message": "Bonjour {name}, Je m'appelle {author} de {company}.",
@@ -876,7 +959,8 @@ export default {
     "RequireAction": "Action requise",
     "Processing": "Traitement",
     "Canceled": "Annulé",
-    "Succeeded": "Réussi"
+    "Succeeded": "Réussi",
+    "RequireCapture": "Nécessite une capture"
   },
   "placeholders": {
     "name": "Jon Cox",
@@ -885,7 +969,14 @@ export default {
     "language": "Choisir la langue..",
     "friend_email": "L'email de tes amis...",
     "friend_name": "Opter. Le nom de ton ami",
-    "select_date": "Sélectionnez une date..."
+    "select_date": "Sélectionnez une date...",
+    "address": "123, rue Main, Anytown, 12345",
+    "cluster": "Sélectionnez un cluster...",
+    "select_products": "Sélectionnez des produits",
+    "birthday": "Sélectionnez l'anniversaire",
+    "select_category": "Sélectionnez une catégorie...",
+    "select_a_country": "Sélectionnez un pays...",
+    "filter_country": "Filtrer par pays..."
   },
   "notification": {
     "confirm": "Confirmer",
@@ -1159,7 +1250,9 @@ export default {
     "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN"
   },
   "variants": {
     "color": "Couleur",
@@ -1282,7 +1375,10 @@ export default {
       "title": "Calendrier de diffusion du contenu",
       "publish_at": "Publier sur",
       "last_edit": "Dernière modification",
-      "view_action": "Voir l'article"
+      "view_action": "Voir l'article",
+      "no_article": "Aucun article prévu !",
+      "current_article": "Article actuel",
+      "article_for_product": "Article pour le produit"
     },
     "notifications": {
       "update_success_title": "Soumettre des informations",
@@ -1354,7 +1450,8 @@ export default {
     "first_send": "Premier poste",
     "comment_at": "Sur",
     "edit_comment": "Modifier le commentaire",
-    "my_comments": "Mes commentaires"
+    "my_comments": "Mes commentaires",
+    "verified_buyer": "Acheteur vérifié"
   },
   "customer_club": {
     "bronze": "Bronze",
@@ -1469,7 +1566,8 @@ export default {
     "canceled": "Annulé",
     "cod": "Payer à la livraison",
     "receipt_added": "Reçu ajouté",
-    "payment_processing": "Traitement des paiements"
+    "payment_processing": "Traitement des paiements",
+    "payment_require_capture": "Nécessite une capture"
   },
   "basket_delivery_state": {
     "rejected": "Rejeté",
@@ -1971,5 +2069,53 @@ export default {
     "summer": "Été",
     "autumn": "Automne",
     "winter": "Hiver"
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "Consultez l’historique des messages entre vous et le client."
+      },
+      "new_message": {
+        "subtitle": "Vous pouvez envoyer des messages directement aux clients ici. Lorsque vous envoyez un message, le client recevra une notification par e-mail après 20 minutes. Cette notification ne sera envoyée qu'une fois toutes les 24 heures."
+      }
+    },
+    "customer": {
+      "history": {
+        "subtitle": "Consultez l’historique des messages entre vous et le vendeur."
+      },
+      "new_message": {
+        "subtitle": "Vous pouvez nous envoyer des messages directement ici."
+      }
+    }
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "Sur demande",
+      "desc": "tels que les réparations domiciliaires, la peinture, la réparation automobile, etc."
+    },
+    "BOOKING": {
+      "title": "Réservation",
+      "desc": "Comme réserver une chambre d'hôtel ou une villa."
+    },
+    "APPOINTMENT": {
+      "title": "Rendez-vous",
+      "desc": "Comme un rendez-vous de garde d'animaux ou une formation en personne."
+    },
+    "RENTAL": {
+      "title": "De location",
+      "desc": "Comme louer une place ou une voiture."
+    },
+    "SUBSCRIPTION": {
+      "title": "Abonnement",
+      "desc": "Comme l'adhésion à un club ou le coaching en ligne."
+    },
+    "CHARGE": {
+      "title": "Charger",
+      "desc": "Comme charger un compte ou facturer l'utilisation d'une application."
+    },
+    "CUSTOM": {
+      "title": "Coutume",
+      "desc": "Sélectionnez cette option si le service que vous fournissez n'est aucun de ceux ci-dessus."
+    }
   }
 };

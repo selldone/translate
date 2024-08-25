@@ -102,7 +102,10 @@ export default {
     "subscribe_now": "Tilmeld nu",
     "unsubscribe": "Opsige abonnement",
     "select_a_subscription_plan": "Vælg først en plan!",
-    "manage_subscriptions": "Administrer abonnementer"
+    "manage_subscriptions": "Administrer abonnementer",
+    "zip_pin_input": "Postnummer/PIN",
+    "zip_pin_not_available_msg": "Ikke tilgængelig på dette sted!",
+    "zip_pin_placeholder": "Vælg post-/pinkode..."
   },
   "product": {
     "review": "Anmeldelse",
@@ -198,7 +201,9 @@ export default {
       "total_items_discount": "Varerabat",
       "total_price_after_offers": "I alt efter ansøgning om tilbud",
       "buyer_payment": "Købers betalingsbeløb",
-      "total_order_price_before_tax": "Samlet pris før skat"
+      "total_order_price_before_tax": "Samlet pris før skat",
+      "payment_is_in_require_capture_message": "Vi har modtaget din betaling, men den er ikke blevet registreret endnu.",
+      "settle_the_earlier_bill_first": "Afgør den tidligere regning først!"
     },
     "delivery": {
       "title": "Levering",
@@ -286,7 +291,8 @@ export default {
       "limit": "Begrænse",
       "currency": "betalingsmiddel",
       "free_shipping": "Gratis fragt"
-    }
+    },
+    "no_kyc": "Ingen KYC"
   },
   "basket_page": {
     "title": "Indkøbskurv",
@@ -591,6 +597,32 @@ export default {
       "title": "Udforske!",
       "same_tags_subtitle": "Find mere bemærkelsesværdige relaterede genstande.",
       "same_category_subtitle": "Find flere bemærkelsesværdige varer i denne kategori."
+    }
+  },
+  "cross_selling": {
+    "title": "Bestil {product} med"
+  },
+  "select_vendor": {
+    "item_title": "Se butik for {vendor}"
+  },
+  "login": {
+    "welcome": "Velkomst"
+  },
+  "product_section_incentivise": {
+    "total_sold": "Totalt solgt",
+    "available_items": "Tilgængelige varer",
+    "have_in_their_bag": "<b>{in_carts}</b> andre har dette i deres indkøbsvogne!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🎉 Populært valg! Lagrene er ved at løbe tør, tag din mens du kan!",
+      "has_sell_has_quantity": "🌟 Meget eftertragtet vare! Få det før det er væk.",
+      "just_has_low_quantity": "🛒 Begrænset lager på lager! Gå ikke glip af det!",
+      "just_has_very_low_quantity": "⏳ Næsten udsolgt! Handl hurtigt, før det er for sent!"
+    },
+    "file": {
+      "very_popular_selling": "🔥 Topsælger! Slut dig til mængden og download det nu!",
+      "popular_selling": "🎉 Denne fil får meget opmærksomhed. Gå ikke glip af det!",
+      "has_normal_selling": "📈 Populær fil! Sikre dit eksemplar i dag.",
+      "just_release_has_some_sales": "✨ Lige udgivet! Vær en af de første til at få det."
     }
   }
 };

@@ -102,7 +102,10 @@ export default {
     "subscribe_now": "今すぐ購読する",
     "unsubscribe": "購読を解除する",
     "select_a_subscription_plan": "まずはプランを選んでみましょう！",
-    "manage_subscriptions": "サブスクリプションを管理する"
+    "manage_subscriptions": "サブスクリプションを管理する",
+    "zip_pin_input": "郵便番号/PIN",
+    "zip_pin_not_available_msg": "この場所では利用できません!",
+    "zip_pin_placeholder": "郵便番号/PINコードを選択してください..."
   },
   "product": {
     "review": "レビュー",
@@ -198,7 +201,9 @@ export default {
       "total_items_discount": "アイテム割引",
       "total_price_after_offers": "オファーを適用した後の合計",
       "buyer_payment": "購入者の支払い額",
-      "total_order_price_before_tax": "税引き前の合計価格"
+      "total_order_price_before_tax": "税引き前の合計価格",
+      "payment_is_in_require_capture_message": "お支払いは受け取りましたが、まだ入金されていません。",
+      "settle_the_earlier_bill_first": "まずは前の請求書を決済してください!"
     },
     "delivery": {
       "title": "配達",
@@ -286,7 +291,8 @@ export default {
       "limit": "制限",
       "currency": "通貨",
       "free_shipping": "送料無料"
-    }
+    },
+    "no_kyc": "KYCなし"
   },
   "basket_page": {
     "title": "ショッピングカート",
@@ -591,6 +597,32 @@ export default {
       "title": "探検！",
       "same_tags_subtitle": "さらに注目すべき関連アイテムを見つけてください。",
       "same_category_subtitle": "このカテゴリでさらに注目すべきアイテムを見つけてください。"
+    }
+  },
+  "cross_selling": {
+    "title": "{product}を注文する"
+  },
+  "select_vendor": {
+    "item_title": "{vendor} のストアを表示"
+  },
+  "login": {
+    "welcome": "いらっしゃいませ"
+  },
+  "product_section_incentivise": {
+    "total_sold": "総販売数",
+    "available_items": "入手可能なアイテム",
+    "have_in_their_bag": "他にも<b>{in_carts}</b>人がこれをカートに入れています!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🎉 人気の商品です！在庫が少なくなってきていますので、お早めにご購入ください！",
+      "has_sell_has_quantity": "🌟 大人気商品です！なくなる前にお買い求めください。",
+      "just_has_low_quantity": "🛒 在庫限りです！お見逃しなく！",
+      "just_has_very_low_quantity": "⏳ 在庫切れ間近です! 手遅れになる前にお早めにお買い求めください!"
+    },
+    "file": {
+      "very_popular_selling": "🔥 ベストセラー！仲間に加わって今すぐダウンロードしましょう！",
+      "popular_selling": "🎉 このファイルは注目を集めています。お見逃しなく！",
+      "has_normal_selling": "📈 人気のファイルです! 今すぐコピーを確保してください。",
+      "just_release_has_some_sales": "✨ リリースされました! 最初に入手する人の一人になりましょう。"
     }
   }
 };

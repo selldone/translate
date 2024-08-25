@@ -99,7 +99,11 @@ export default {
       "ecommerce": "Commerce électronique",
       "pos": "Point de vente",
       "blog": "Blog & CMS",
-      "community": "Forum de la communauté"
+      "community": "Forum de la communauté",
+      "ecommerce_desc": "Vendez vos produits et services en ligne.",
+      "pos_desc": "Vendez vos produits et services en personne.",
+      "blog_desc": "CMS puissant pour publier vos articles et publications.",
+      "community_desc": "Créez votre propre communauté et forum."
     },
     "job": {
       "title": "Quelle est votre industrie?",
@@ -162,7 +166,8 @@ export default {
     "sec2": {
       "title": "Intégration rapide",
       "msg": "Nous développons des SDK pour tous les langages et frameworks courants afin que vous puissiez effectuer les étapes d'authentification, d'accès au compte et le gérer par de simples commandes. Le démarrage ne se fera qu'en quelques clics."
-    }
+    },
+    "header": "API et SDK Open Source avec personnalisation {infinite}"
   },
   "convertible": {
     "store_name": "Votre magasin",
@@ -248,7 +253,9 @@ export default {
     "block3": {
       "title": "Gagner du temps",
       "subtitle": "De niveau entreprise mais adapté aux débutants."
-    }
+    },
+    "title": "Optimisé pour les ventes en ligne et en magasin à grande échelle",
+    "subtitle": "Conçu pour la conversion. Améliorez votre boutique en ligne avec des outils intuitifs conçus pour transformer les visiteurs en clients."
   },
   "money_transfer": {
     "customer": "Votre client",
@@ -311,5 +318,219 @@ export default {
     "msg": "Donnez vie à vos idées en quelques clics.",
     "open_sample_product_link": "Ouvrir le produit en direct",
     "open_templates": "Afficher les modèles"
+  },
+  "support_box": {
+    "country_select_label": "Sélectionnez votre pays",
+    "we_support_message": "Nous soutenons {country}",
+    "we_limited_support": "Nous offrons un soutien limité à {country}",
+    "support_message_long": "Faites des transactions en ligne fluides dans votre pays avec Selldone ! En plus des calculs fiscaux professionnels, nous proposons divers modes de paiement, notamment en espèces, au point de vente, par virement bancaire, etc. Commencez à développer votre entreprise sur une plateforme qui répond pleinement aux besoins de votre pays.",
+    "limited_support_message_long": "Les paiements en ligne ne sont peut-être pas disponibles dans votre pays, mais ne vous inquiétez pas ! Chez Selldone, nous proposons des paiements en espèces, des virements bancaires et des paiements contre remboursement (COD) dans le monde entier. Vous pouvez développer votre activité en ligne en toute confiance avec nous tout en respectant les réglementations de votre pays et de l'Europe. Pour plus de détails ou pour vous renseigner sur l'assistance aux paiements en ligne dans votre pays, n'hésitez pas à contacter notre équipe d'assistance.",
+    "more_about_selldone_in_country": "À propos de Selldone dans votre pays",
+    "support_worldwide_customers": "Vous pouvez vendre vos produits et services à tous les clients dans <b>tous les pays</b> !"
+  },
+  "hero": {
+    "intro": "Système d'exploitation n°1 pour les entreprises",
+    "title": "Remplacez {infinite} Plugins et applications par un seul {app}"
+  },
+  "make_your_shop": {
+    "title": "Faites le vôtre",
+    "amazon": "Amazone",
+    "local_store": "Magasin local",
+    "instagram": "Boutique Instagram",
+    "dropshipping": "Livraison directe",
+    "coursera": "Coursera",
+    "gift_store": "Boutique de cadeaux",
+    "airbnb": "Airbnb",
+    "simple_store": "Magasin simple",
+    "tiktok": "Boutique Tiktok"
+  },
+  "show_its_simplicity": {
+    "title": "Un autre complexe ennuyeux<div class=\"app-box\" style=\"font-size: 55%\"> 😣</div> Plateforme de commerce électronique!?",
+    "subtitle": "Absolument pas ! Essayez-le avant même de vous inscrire...",
+    "as_guest": "En tant qu'invité",
+    "need_register": "Besoin d'inscription",
+    "page_builder": {
+      "title": "Générateur de pages intégré",
+      "subtitle": "Le premier générateur de pages intuitif par glisser-déposer avec édition en ligne.",
+      "try_action": "Essayez Page Builder",
+      "see_collection_action": "Voir les modèles"
+    },
+    "ai": {
+      "title": "Fonctionnalités d'IA intégrées",
+      "subtitle": "La meilleure suppression d'arrière-plan industriel, optimisation d'image, génération de contenu, création automatique de produits et plus encore.",
+      "try_action": "Essayez Selldone Intelligence"
+    },
+    "storefront": {
+      "title": "Vitrine en direct",
+      "subtitle": "Découvrez les achats les plus rapides avec un site Web PWA moderne sans avoir besoin d'écrire une seule ligne de code.",
+      "see_action": "Voir la vitrine de démonstration"
+    },
+    "backoffice": {
+      "title": "Backoffice en direct",
+      "subtitle": "Gérez tout depuis un seul endroit sans avoir besoin d'aucun plugin.",
+      "see_action": "Voir la démo Backoffice"
+    }
+  },
+  "pricing_compact": {
+    "title": "<div class=\"app-box\" style=\"font-size: 55%\">💞️</div> Tarification simple et transparente",
+    "subtitle": "Accédez à toutes les fonctionnalités de niveau entreprise pour démarrer et développer votre activité grâce à notre modèle de partage des revenus : ne payez rien à l'avance, juste une part de vos revenus. Nous ne réussissons que lorsque vous y parvenez, en minimisant vos coûts et en maximisant vos profits."
+  },
+  "screenshots": {
+    "item_1": {
+      "title": "Optimisez la gestion de vos commandes.",
+      "desc": "Gérez efficacement un grand volume de commandes quotidiennement grâce à nos fonctions avancées de liste et de filtrage."
+    },
+    "item_2": {
+      "title": "Connectez votre boutique aux POD.",
+      "desc": "Connectez facilement votre boutique à un service de dropshipping d'impression à la demande tel que Printful et vendez vos œuvres d'art sur des supports imprimés sans avoir besoin de plugins supplémentaires."
+    },
+    "item_3": {
+      "title": "Exécutez les commandes avec des outils d’entreprise intuitifs.",
+      "desc": "Bénéficiez d'un processus de commande simplifié avec la possibilité de formater intuitivement les demandes, d'apporter les modifications nécessaires et de mettre à jour le statut en un seul clic. Élevez vos capacités de traitement des commandes vers de nouveaux sommets grâce à nos outils de niveau entreprise."
+    },
+    "item_4": {
+      "title": "Suivi des actions sur la chronologie des commandes.",
+      "desc": "La chronologie d'une commande fournit un enregistrement détaillé de toutes les actions et modifications apportées à la commande. Vous pouvez facilement voir qui a effectué les modifications et quand elles ont été effectuées."
+    },
+    "item_5": {
+      "title": "Simplifier la communication entre clients et fournisseurs.",
+      "desc": "Les e-mails portant l'image de marque de votre marque seront automatiquement envoyés aux clients, aux fournisseurs et à toutes les adresses e-mail personnalisées spécifiées une fois le processus de paiement et de paiement terminé."
+    },
+    "item_6": {
+      "title": "Organisez vos produits sans effort par glisser-déposer.",
+      "desc": "Les produits de ce système fonctionneront de manière similaire à des fichiers, tandis que les catégories agiront comme des dossiers. Vous aurez la possibilité de glisser-déposer facilement des produits, de les réorganiser, de copier-coller et même d'importer des produits en masse à l'aide d'un simple fichier Excel."
+    },
+    "item_7": {
+      "title": "Suivez facilement vos commandes d'abonnement.",
+      "desc": "Récupérez une liste intuitive et compacte contenant toutes les commandes d'abonnement en cours et passées, y compris le temps jusqu'au prochain paiement et des informations détaillées pour chaque commande."
+    },
+    "item_8": {
+      "title": "Utilisez les outils de blog et CMS intégrés pour engager les clients.",
+      "desc": "Tirez parti des fonctionnalités internes du blog et du système de gestion de contenu pour créer du contenu sur votre entreprise et vos offres, et attirer de nouveaux publics grâce à l'optimisation des moteurs de recherche. Ce faisant, vous pouvez également interagir avec vos clients."
+    },
+    "item_9": {
+      "title": "Connect OS — Connectez-vous sans effort à des services externes.",
+      "desc": "Il est possible de se connecter à des services externes, tels que des places de marché, des fournisseurs de dropshipping, des POD et des logiciels financiers, sans avoir besoin de plugins supplémentaires."
+    },
+    "item_10": {
+      "title": "Simplifiez les importations de produits à partir de services externes.",
+      "desc": "Importez facilement des produits à partir de services externes tels que Woocommerce et Printful en quelques clics et avec une automatisation complète."
+    },
+    "item_11": {
+      "title": "Connectez votre boutique à Google Merchant Center.",
+      "desc": "Associez votre boutique à Google Merchant Center et synchronisez tous les articles et catégories de manière transparente pour les promouvoir sur Google."
+    },
+    "item_12": {
+      "title": "Avocat — Vendez facilement des produits sur les réseaux sociaux.",
+      "desc": "Avec Avocado, vous pouvez vendre des produits sur les réseaux sociaux sans avoir à ajouter manuellement des produits et des prix. L'outil génère automatiquement un lien de paiement pour les commandes et vous permet de créer des factures personnalisées avec des liens de paiement."
+    },
+    "item_13": {
+      "title": "Ruban — Créez et vendez facilement des abonnements.",
+      "desc": "Ribbon est un outil puissant qui vous permet de créer et de vendre facilement des abonnements tels que des boîtes d'abonnement, des murs payants et divers types de contenu en quelques clics."
+    },
+    "item_14": {
+      "title": "Proposez plusieurs options de paiement dans votre boutique.",
+      "desc": "Il est avantageux de proposer différentes options de paiement dans votre boutique, comme l'intégration de Stripe et de PayPal."
+    },
+    "item_15": {
+      "title": "Encouragez les achats des clients avec des remises, des offres, des coupons et de la gamification.",
+      "desc": "Incitez vos clients à effectuer davantage d'achats dans votre magasin en utilisant diverses méthodes telles que l'offre de codes de réduction, d'offres promotionnelles, de remises intelligentes, de coupons, de cartes-cadeaux et l'intégration d'éléments de gamification dans l'expérience d'achat."
+    },
+    "item_16": {
+      "title": "Optimisez les performances grâce à la gestion des campagnes côté serveur.",
+      "desc": "Utilisez le marketing côté serveur et la gestion de campagne pour obtenir les informations les plus pertinentes et les plus précises concernant les performances de votre campagne."
+    },
+    "item_17": {
+      "title": "Gérez les paiements et les ventes des affiliés.",
+      "desc": "Incluez les affiliés et gérez efficacement leurs paiements et leurs ventes. Utilisez diverses options avancées pour la gestion des affiliés, telles que l'attribution de domaines clients uniques pour chaque affilié."
+    },
+    "item_18": {
+      "title": "Gérez efficacement les stocks et les prix.",
+      "desc": "Les outils de gestion logistique et des stocks aident à organiser, filtrer et gérer l'inventaire et les prix de milliers de produits et de leurs variantes."
+    },
+    "item_19": {
+      "title": "Activité et statistiques des clients en temps réel.",
+      "desc": "Accédez aux données les plus récentes sur l'activité des clients et aux statistiques du site Web pour prendre des décisions éclairées et basées sur les données."
+    },
+    "item_20": {
+      "title": "Augmentez vos ventes grâce au community builder.",
+      "desc": "Créez une communauté interactive pour augmenter les ventes dans votre boutique, améliorer l'engagement du public, favoriser la confiance et tirer parti des avantages SEO du contenu gratuit."
+    },
+    "item_21": {
+      "title": "Améliorez l'expérience de vos clients.",
+      "desc": "Organisez et segmentez votre clientèle, analysez leur valeur à vie, leurs achats passés en ligne et en magasin, et suivez leur parcours pour améliorer leur expérience tout en respectant leur vie privée."
+    },
+    "item_22": {
+      "title": "Concevez des pages réactives en toute simplicité.",
+      "desc": "Créez facilement des pages internes et de destination captivantes et réactives à l'aide de notre générateur de pages intégré sans code. Faites simplement glisser et déposez des sections pour créer des pages personnalisées."
+    },
+    "item_23": {
+      "title": "Optimisez l’édition avec un éditeur de page en ligne.",
+      "desc": "Modifiez facilement les textes et les images dans les pages à l'aide d'un éditeur de pages en ligne, ce qui rend la mise à jour de votre contenu simple et intuitive."
+    },
+    "item_24": {
+      "title": "Gérer l'accès et les rôles de l'équipe.",
+      "desc": "Invitez les membres de votre équipe, définissez les rôles du personnel et leurs niveaux d'accès. À mesure que votre entreprise et votre équipe se développent, votre système d'exploitation s'adaptera en conséquence."
+    },
+    "item_25": {
+      "title": "Ayez vos applications.",
+      "desc": "Démarrez votre entreprise avec une application Web progressive et offrez à vos clients une expérience plus rapide par rapport à vos concurrents."
+    },
+    "item_26": {
+      "title": "Outils d'automatisation et de sauvegarde avancés.",
+      "desc": "Rationalisez vos opérations commerciales et économisez du temps et des ressources précieuses en utilisant des outils d'automatisation avancés qui peuvent être intégrés à votre boutique."
+    },
+    "item_27": {
+      "title": "Personnalisez votre vitrine en toute simplicité.",
+      "desc": "Personnalisez facilement votre vitrine pour qu'elle corresponde à votre marque en utilisant des options de personnalisation visuelle telles que le thème, les schémas de couleurs, les polices, etc. - le tout sans avoir besoin de codage ou de compétences techniques."
+    },
+    "item_28": {
+      "title": "Concevez un parcours client personnalisé.",
+      "desc": "Concevez un parcours client personnalisé en utilisant les différentes options disponibles sur Selldone, telles que le choix du point de connexion ou l'activation des achats en tant qu'invité."
+    },
+    "item_29": {
+      "title": "Améliorez l'expérience avec des options de connexion et de flux personnalisées.",
+      "desc": "Créez une expérience de connexion et de flux personnalisée, en proposant diverses options de connexion sociale pour votre boutique en ligne."
+    },
+    "item_30": {
+      "title": "Soutenir des modèles commerciaux complexes.",
+      "desc": "L'assistance Selldone propose une prise en charge avancée des modèles commerciaux, tels que les marchés, les fournisseurs de dropshipping, les affiliés et les franchises, que vous pouvez facilement configurer et basculer en un seul clic."
+    },
+    "item_31": {
+      "title": "Liez plusieurs domaines personnalisés.",
+      "desc": "Vous pouvez lier plusieurs domaines personnalisés à des aspects spécifiques de votre entreprise tels que la communauté, la boutique, le blog, les pages de destination ou même les affiliés."
+    },
+    "item_32": {
+      "title": "Prise en charge de plusieurs langues et de la traduction automatique.",
+      "desc": "Votre boutique prend entièrement en charge plusieurs langues, à la fois RTL et LTR. Vous pouvez facilement installer et activer des packages de traduction automatique pour votre boutique."
+    },
+    "item_33": {
+      "title": "Calcul fiscal multi-profils intégré.",
+      "desc": "Grâce à la possibilité de créer plusieurs profils fiscaux et de les affecter à des produits spécifiques, vous bénéficiez d'une plus grande flexibilité dans le calcul de la TVA et de la taxe de vente. Par exemple, vous pouvez appliquer des taux de taxe différents pour les produits alimentaires ou les appareils électriques."
+    },
+    "item_34": {
+      "title": "Calcul de la taxe multirégionale.",
+      "desc": "Utilisez les règles par défaut ou personnalisées pour la taxe de vente et la TVA lorsque vous vendez dans différents pays et régions. Remplacez les règles pour des régions et territoires fiscaux spécifiques si nécessaire."
+    },
+    "item_35": {
+      "title": "Publiez des articles avec un puissant éditeur en ligne.",
+      "desc": "Un éditeur d'articles en ligne avancé rationalise le processus de publication et de révision de vos articles, le rendant rapide et facile tout en maintenant la cohérence."
+    },
+    "item_36": {
+      "title": "Tableau de bord dédié pour chaque produit.",
+      "desc": "Chaque produit dispose d'un tableau de bord dédié qui fournit des statistiques, toutes les informations nécessaires et l'accès à toutes les actions nécessaires à la gestion."
+    },
+    "item_37": {
+      "title": "Traduire automatiquement les articles.",
+      "desc": "Utilisez la fonction de traduction IA intégrée au niveau de l'entreprise pour traduire sans effort les descriptions de produits dans différentes langues en un seul clic."
+    },
+    "item_38": {
+      "title": "Outils d’analyse intégrés.",
+      "desc": "Vous aurez accès à des outils d'analyse intégrés entièrement côté serveur, sûrs et conformes au RGPD, sans utilisation de cookies."
+    },
+    "item_39": {
+      "title": "Couvrez la plupart de vos besoins avancés en matière de référencement.",
+      "desc": "Notre outil interne vous fournit les mots clés les plus actifs, les URL les plus performantes et un aperçu des performances de votre entreprise sur la recherche Google, le tout présenté sous forme de tableaux et de graphiques."
+    }
   }
 };

@@ -102,7 +102,10 @@ export default {
     "subscribe_now": "Abonniere jetzt",
     "unsubscribe": "Abbestellen",
     "select_a_subscription_plan": "Wählen Sie zuerst einen Plan aus!",
-    "manage_subscriptions": "Abonnements verwalten"
+    "manage_subscriptions": "Abonnements verwalten",
+    "zip_pin_input": "PLZ / PIN",
+    "zip_pin_not_available_msg": "An diesem Standort nicht verfügbar!",
+    "zip_pin_placeholder": "Wählen Sie die Postleitzahl/PIN-Nummer aus..."
   },
   "product": {
     "review": "Überprüfung",
@@ -198,7 +201,9 @@ export default {
       "total_items_discount": "Artikelrabatt",
       "total_price_after_offers": "Gesamt nach Anwendung der Angebote",
       "buyer_payment": "Zahlungsbetrag des Käufers",
-      "total_order_price_before_tax": "Gesamtpreis vor Steuern"
+      "total_order_price_before_tax": "Gesamtpreis vor Steuern",
+      "payment_is_in_require_capture_message": "Wir haben Ihre Zahlung erhalten, sie wurde jedoch noch nicht verbucht.",
+      "settle_the_earlier_bill_first": "Begleichen Sie zunächst die alte Rechnung!"
     },
     "delivery": {
       "title": "Lieferung",
@@ -286,7 +291,8 @@ export default {
       "limit": "Grenze",
       "currency": "Währung",
       "free_shipping": "Kostenloser Versand"
-    }
+    },
+    "no_kyc": "Kein KYC"
   },
   "basket_page": {
     "title": "Einkaufswagen",
@@ -591,6 +597,32 @@ export default {
       "title": "Erkunden!",
       "same_tags_subtitle": "Finden Sie weitere bemerkenswerte verwandte Artikel.",
       "same_category_subtitle": "Weitere bemerkenswerte Artikel finden Sie in dieser Kategorie."
+    }
+  },
+  "cross_selling": {
+    "title": "Bestellen Sie {product} mit"
+  },
+  "select_vendor": {
+    "item_title": "Shop von {vendor} anzeigen"
+  },
+  "login": {
+    "welcome": "Willkommen"
+  },
+  "product_section_incentivise": {
+    "total_sold": "Insgesamt verkauft",
+    "available_items": "Verfügbare Artikel",
+    "have_in_their_bag": "<b>{in_carts}</b> andere haben dies in ihren Einkaufswagen!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🎉 Beliebte Wahl! Die Lagerbestände gehen zur Neige, schnappen Sie sich Ihr Exemplar, solange Sie können!",
+      "has_sell_has_quantity": "🌟 Sehr begehrter Artikel! Holen Sie ihn sich, bevor er weg ist.",
+      "just_has_low_quantity": "🛒 Nur begrenzter Vorrat verfügbar! Verpassen Sie es nicht!",
+      "just_has_very_low_quantity": "⏳ Fast ausverkauft! Handeln Sie schnell, bevor es zu spät ist!"
+    },
+    "file": {
+      "very_popular_selling": "🔥 Topseller! Schließen Sie sich der Menge an und laden Sie es jetzt herunter!",
+      "popular_selling": "🎉 Diese Datei erregt viel Aufmerksamkeit. Verpassen Sie sie nicht!",
+      "has_normal_selling": "📈 Beliebte Datei! Sichern Sie sich noch heute Ihr Exemplar.",
+      "just_release_has_some_sales": "✨ Gerade erschienen! Sei einer der Ersten, der es bekommt."
     }
   }
 };

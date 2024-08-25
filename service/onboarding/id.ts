@@ -139,6 +139,14 @@ export default {
     "step3": {
       "title": "Langkah 3. Atur catatan DNS",
       "msg": "Selamat, Sekarang yang harus Anda lakukan adalah mengkonfigurasi DNS di penyedia layanan domain Anda dan menambahkan domain ke akun Anda."
+    },
+    "buy_domain_step": {
+      "title": "Langkah 1. Beli domain",
+      "msg": "Jika Anda belum memiliki domain pribadi, saatnya untuk membeli domain Anda sendiri dari situs web seperti namecheap.com."
+    },
+    "set_dns_step": {
+      "title": "Langkah 2. Tetapkan catatan DNS",
+      "msg": "Selamat, Sekarang yang harus Anda lakukan adalah mengkonfigurasi DNS di penyedia layanan domain Anda dan menambahkan domain ke akun Anda."
     }
   },
   "payment": {
@@ -175,11 +183,35 @@ export default {
   "customize": {
     "template": {
       "title": "Templat",
-      "msg": "Mulailah toko Anda dengan templat siap pakai kami! Diversifikasikan dengan mudah dengan menambahkan beberapa halaman, masing-masing memiliki desain uniknya sendiri."
+      "msg": "Mulailah toko Anda dengan templat siap pakai kami! Diversifikasikan dengan mudah dengan menambahkan beberapa halaman, masing-masing memiliki desain uniknya sendiri.",
+      "action": "Lihat semua templat..."
     },
     "colors": {
       "title": "Warna & Tata Letak",
-      "msg": "Ingin menyesuaikan halaman produk dan tata letak toko agar lebih sesuai dengan visi Anda? Selami bagian penyesuaian tema di toko Anda dan saksikan keajaiban terungkap dengan mudah!"
+      "msg": "Ingin menyesuaikan halaman produk dan tata letak toko agar lebih sesuai dengan visi Anda? Selami bagian penyesuaian tema di toko Anda dan saksikan keajaiban terungkap dengan mudah!",
+      "action": "Sesuaikan Warna & Tema"
+    },
+    "tour": {
+      "title": "Wisata",
+      "subtitle": "Temukan apa yang mungkin di sini yang tidak ada di tempat lain.",
+      "avocado": {
+        "title": "Alpukat - Jual Tanpa Menambahkan Produk Apa Pun",
+        "description": "Dengan Avocado, Anda dapat menawarkan layanan atau produk tanpa harga atau detail yang telah ditetapkan sebelumnya. Buat formulir khusus bagi pelanggan Anda untuk meminta layanan atau produk. Setelah mereka mengirimkan permintaan, Anda dapat menetapkan harga dan memproses pembayaran. Bagikan formulir tersebut di media sosial Anda, yang memungkinkan pelanggan untuk menambahkan item, mengunggah gambar, dan mengirimkan pesanan dengan mudah.",
+        "action": "Baca Tentang Alpukat"
+      },
+      "marketplace": {
+        "title": "Pasar Multi-vendor & Pembayaran Otomatis",
+        "description": "Bangun pasar yang berkembang pesat dengan Selldone dengan menambahkan beberapa vendor. Vendor dapat mencantumkan produk mereka, dan Anda dapat menetapkan tarif komisi untuk setiap penjualan. Saat pelanggan melakukan pembelian, vendor menerima pembayaran secara langsung, mengelola pesanan melalui panel khusus mereka, dan Anda memperoleh komisi melalui fitur pembayaran otomatis.",
+        "action": "Pembayaran Vendor Mobil"
+      },
+      "business_model": {
+        "title": "Mendukung Model Bisnis yang Kompleks",
+        "description": "Selldone mendukung model bisnis yang sederhana maupun yang kompleks, sehingga Anda dapat beradaptasi sesuai kebutuhan. Konfigurasikan semuanya di balik layar tanpa menginstal plugin atau aplikasi tambahan, sehingga memastikan transisi dan operasi yang lancar."
+      },
+      "gift_shopping": {
+        "title": "Pembatasan Lokasi Produk & Belanja Hadiah",
+        "description": "Tetapkan batasan lokasi untuk setiap produk dengan menentukan beberapa negara, kode pos, dan kota. Fitur ini sangat cocok untuk menciptakan pengalaman berbelanja hadiah yang dipersonalisasi atau membatasi ketersediaan produk di lokasi tertentu, seperti restoran."
+      }
     }
   },
   "business": {

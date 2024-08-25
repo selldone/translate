@@ -220,6 +220,14 @@ export default {
     "pos-setup": {
       "title": "Mise en place d'une caisse enregistreuse en ligne",
       "desc": "Gérez votre point de vente Selldone dans les succursales de votre magasin et utilisez les outils de magasin les plus professionnels disponibles pour développer votre activité et vos succursales physiques."
+    },
+    "marketplace-setup": {
+      "title": "Créer une place de marché",
+      "desc": "Créez une place de marché pour vos produits et services avec l'aide d'experts."
+    },
+    "pod-setup": {
+      "title": "Configurer POD Store",
+      "desc": "Créez une boutique d'impression à la demande avec l'aide d'experts."
     }
   },
   "industries": {

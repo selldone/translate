@@ -642,7 +642,77 @@ export default {
     "clusters": "کلسٹرز",
     "subscriptions": "سبسکرپشنز",
     "spam": "فضول کے",
-    "video": "ویڈیو"
+    "video": "ویڈیو",
+    "fulfillment": "تکمیل",
+    "channels_overview": "چینلز کا جائزہ",
+    "no_vendors": "کوئی دکاندار نہیں۔",
+    "ends_in": "میں ختم ہوتا ہے۔",
+    "current": "کرنٹ",
+    "important": "اہم",
+    "web": "ویب",
+    "payout": "ادائیگی",
+    "vendor_panel": "وینڈر پینل",
+    "vendors_panel": "وینڈرز پینل",
+    "syncing": "مطابقت پذیری",
+    "level": "سطح",
+    "available": "دستیاب",
+    "limited": "محدود",
+    "management": "انتظام",
+    "topics": "عنوانات",
+    "posts": "پوسٹس",
+    "replies": "جوابات",
+    "reports": "رپورٹس",
+    "post": "پوسٹ",
+    "impressions": "نقوش",
+    "resources": "حوالہ جات",
+    "engine": "انجن",
+    "attachments": "منسلکات",
+    "owner": "مالک",
+    "wholesaler": "تھوک فروش",
+    "hidden": "پوشیدہ",
+    "visible": "نظر آنے والا",
+    "warehouse": "گودام",
+    "billed_yearly": "سالانہ بل کیا جاتا ہے۔",
+    "my_wallet": "میرا بٹوہ",
+    "boosted": "بڑھایا",
+    "cashback": "کیش بیک",
+    "leads": "لیڈز",
+    "invalid": "غلط",
+    "refund_date": "رقم کی واپسی کی تاریخ",
+    "refund": "واپس کرنا",
+    "items": "اشیاء",
+    "incentives": "مراعات",
+    "recurring_payment": "بار بار چلنے والی ادائیگی",
+    "pricing": "قیمتوں کا تعین",
+    "purchase": "خریداری",
+    "confirmation": "تصدیق",
+    "manage": "انتظام کریں۔",
+    "warning": "وارننگ",
+    "custom": "اپنی مرضی کے مطابق",
+    "read": "پڑھیں",
+    "write": "لکھیں۔",
+    "root": "جڑ",
+    "nothing_set": "کچھ بھی نہیں سیٹ!",
+    "installment": "قسط",
+    "split_payment": "تقسیم ادائیگی",
+    "profiles": "پروفائلز",
+    "location_limited": "مقام محدود",
+    "no_limit": "کوئی حد نہیں",
+    "max_range": "زیادہ سے زیادہ رینج",
+    "settled_date": "طے شدہ تاریخ",
+    "paid_date": "ادائیگی کی تاریخ",
+    "physical_orders": "جسمانی احکامات",
+    "virtual_orders": "ورچوئل آرڈرز",
+    "file_orders": "آرڈر فائل کریں۔",
+    "service_orders": "سروس آرڈرز",
+    "subscription_orders": "سبسکرپشن آرڈرز",
+    "avocado_orders": "ایوکاڈو آرڈرز",
+    "hyper_orders": "ہائپر آرڈرز",
+    "connected": "جڑا ہوا",
+    "system": "سسٹم",
+    "unknown": "نامعلوم",
+    "week": "ہفتہ",
+    "agencies": "ایجنسیاں"
   },
   "dialogs": {
     "delete": {
@@ -773,7 +843,20 @@ export default {
     "buy": "خریدنے",
     "view_all": "سب دیکھیں",
     "view_now": "ابھی دیکھیں",
-    "paste": "چسپاں کریں۔"
+    "paste": "چسپاں کریں۔",
+    "edit_address": "ایڈریس میں ترمیم کریں۔",
+    "resend": "دوبارہ بھیجیں۔",
+    "deploy_now": "ابھی تعینات کریں۔",
+    "become_premium": "پریمیم بنیں۔",
+    "bulk_export": "بلک ایکسپورٹ",
+    "see_all": "سب دیکھیں",
+    "visit": "وزٹ کریں۔",
+    "rate_now": "ابھی درجہ بندی کریں۔",
+    "load": "لوڈ",
+    "duplicate": "نقل",
+    "connect": "جڑیں۔",
+    "connect_now": "ابھی رابطہ کریں",
+    "verify_now": "ابھی تصدیق کریں۔"
   },
   "instance_message_title": "فوری پیغام بھیجیں۔",
   "instance_message": "ہائے {name}، میرا نام {company} کی طرف سے {author} ہے۔",
@@ -876,7 +959,8 @@ export default {
     "RequireAction": "کارروائی کی ضرورت",
     "Processing": "پروسیسنگ",
     "Canceled": "منسوخ",
-    "Succeeded": "کامیاب ہو گیا۔"
+    "Succeeded": "کامیاب ہو گیا۔",
+    "RequireCapture": "گرفتاری کی ضرورت ہے۔"
   },
   "placeholders": {
     "name": "جون کاکس",
@@ -885,7 +969,14 @@ export default {
     "language": "زبان منتخب کریں..",
     "friend_email": "آپ کے دوست کا ای میل...",
     "friend_name": "آپٹ آپ کے دوست کا نام",
-    "select_date": "ایک تاریخ منتخب کریں..."
+    "select_date": "ایک تاریخ منتخب کریں...",
+    "address": "123 مین سینٹ، اینی ٹاؤن، 12345",
+    "cluster": "ایک کلسٹر منتخب کریں...",
+    "select_products": "مصنوعات منتخب کریں۔",
+    "birthday": "سالگرہ کا انتخاب کریں۔",
+    "select_category": "ایک زمرہ منتخب کریں...",
+    "select_a_country": "ایک ملک منتخب کریں...",
+    "filter_country": "ملک کے لحاظ سے فلٹر کریں..."
   },
   "notification": {
     "confirm": "تصدیق کریں۔",
@@ -1159,7 +1250,9 @@ export default {
     "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN"
   },
   "variants": {
     "color": "رنگ",
@@ -1282,7 +1375,10 @@ export default {
       "title": "مواد کی ریلیز کا شیڈول",
       "publish_at": "پر شائع کریں۔",
       "last_edit": "آخری ترمیم",
-      "view_action": "مضمون دیکھیں"
+      "view_action": "مضمون دیکھیں",
+      "no_article": "کوئی طے شدہ مضمون نہیں!",
+      "current_article": "موجودہ مضمون",
+      "article_for_product": "پروڈکٹ کے لیے آرٹیکل"
     },
     "notifications": {
       "update_success_title": "معلومات جمع کروائیں۔",
@@ -1354,7 +1450,8 @@ export default {
     "first_send": "پہلی پوسٹ",
     "comment_at": "پر",
     "edit_comment": "تبصرہ میں ترمیم کریں۔",
-    "my_comments": "میرے تبصرے"
+    "my_comments": "میرے تبصرے",
+    "verified_buyer": "تصدیق شدہ خریدار"
   },
   "customer_club": {
     "bronze": "کانسی",
@@ -1469,7 +1566,8 @@ export default {
     "canceled": "منسوخ",
     "cod": "ڈیلیوری پر ادائیگی کریں۔",
     "receipt_added": "رسید شامل کر دی گئی۔",
-    "payment_processing": "ادائیگی کی کارروائی"
+    "payment_processing": "ادائیگی کی کارروائی",
+    "payment_require_capture": "گرفتاری کی ضرورت ہے۔"
   },
   "basket_delivery_state": {
     "rejected": "مسترد",
@@ -1971,5 +2069,53 @@ export default {
     "summer": "موسم گرما",
     "autumn": "خزاں",
     "winter": "موسم سرما"
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "اپنے اور گاہک کے درمیان پیغام کی تاریخ دیکھیں۔"
+      },
+      "new_message": {
+        "subtitle": "آپ یہاں صارفین کو براہ راست پیغامات بھیج سکتے ہیں۔ جب آپ کوئی پیغام بھیجتے ہیں، تو کسٹمر کو 20 منٹ کے بعد ایک ای میل اطلاع موصول ہوگی۔ یہ اطلاع ہر 24 گھنٹے میں صرف ایک بار بھیجی جائے گی۔"
+      }
+    },
+    "customer": {
+      "history": {
+        "subtitle": "اپنے اور بیچنے والے کے درمیان پیغام کی تاریخ دیکھیں۔"
+      },
+      "new_message": {
+        "subtitle": "آپ ہمیں یہاں براہ راست پیغامات بھیج سکتے ہیں۔"
+      }
+    }
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "مطالبے پر",
+      "desc": "جیسے گھر کی مرمت، پینٹنگ، کار کی مرمت وغیرہ۔"
+    },
+    "BOOKING": {
+      "title": "بکنگ",
+      "desc": "جیسے ہوٹل کا کمرہ یا ولا بک کرنا۔"
+    },
+    "APPOINTMENT": {
+      "title": "تقرری",
+      "desc": "جیسے پالتو جانوروں کی دیکھ بھال کی ملاقات یا ذاتی تربیت۔"
+    },
+    "RENTAL": {
+      "title": "کرایہ پر لینا",
+      "desc": "جیسے کوئی جگہ یا کار کرائے پر لینا۔"
+    },
+    "SUBSCRIPTION": {
+      "title": "رکنیت",
+      "desc": "جیسے کلب کی رکنیت یا آن لائن کوچنگ۔"
+    },
+    "CHARGE": {
+      "title": "چارج",
+      "desc": "جیسے کہ اکاؤنٹ چارج کرنا یا ایپلیکیشن استعمال کرنے کے لیے چارج کرنا۔"
+    },
+    "CUSTOM": {
+      "title": "اپنی مرضی کے مطابق",
+      "desc": "اس اختیار کو منتخب کریں اگر آپ کی فراہم کردہ خدمت مذکورہ بالا میں سے کوئی نہیں ہے۔"
+    }
   }
 };

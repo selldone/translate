@@ -102,7 +102,10 @@ export default {
     "subscribe_now": "Şimdi Abone Ol",
     "unsubscribe": "abonelikten çık",
     "select_a_subscription_plan": "Önce bir plan seçin!",
-    "manage_subscriptions": "Abonelikleri Yönet"
+    "manage_subscriptions": "Abonelikleri Yönet",
+    "zip_pin_input": "Posta kodu / PIN",
+    "zip_pin_not_available_msg": "Bu lokasyonda mevcut değil!",
+    "zip_pin_placeholder": "Posta Kodu/PIN Kodunu Seçin..."
   },
   "product": {
     "review": "Gözden geçirmek",
@@ -198,7 +201,9 @@ export default {
       "total_items_discount": "Ürün İndirimi",
       "total_price_after_offers": "Teklifleri uyguladıktan sonra toplam",
       "buyer_payment": "Alıcı ödeme tutarı",
-      "total_order_price_before_tax": "Vergi Öncesi Toplam Fiyat"
+      "total_order_price_before_tax": "Vergi Öncesi Toplam Fiyat",
+      "payment_is_in_require_capture_message": "Ödemenizi aldık ancak henüz hesaba geçmedi.",
+      "settle_the_earlier_bill_first": "Önce önceki hesabı öde!"
     },
     "delivery": {
       "title": "Teslimat",
@@ -286,7 +291,8 @@ export default {
       "limit": "sınır",
       "currency": "Para birimi",
       "free_shipping": "Ücretsiz kargo"
-    }
+    },
+    "no_kyc": "KYC yok"
   },
   "basket_page": {
     "title": "Alışveriş Sepeti",
@@ -591,6 +597,32 @@ export default {
       "title": "Keşfetmek!",
       "same_tags_subtitle": "Daha dikkat çekici ilgili öğeler bulun.",
       "same_category_subtitle": "Bu kategoride daha dikkat çekici öğeler bulun."
+    }
+  },
+  "cross_selling": {
+    "title": "{product} sipariş edin"
+  },
+  "select_vendor": {
+    "item_title": "{vendor} mağazasını görüntüle"
+  },
+  "login": {
+    "welcome": "Hoş geldin"
+  },
+  "product_section_incentivise": {
+    "total_sold": "Toplam Satılan",
+    "available_items": "Mevcut Ürünler",
+    "have_in_their_bag": "<b>{in_carts}</b> kişi daha bu ürünü sepetlerinde bulunduruyor!",
+    "physical": {
+      "popular_selling_with_low_quantity": "🎉 Popüler seçim! Stoklar azalıyor, fırsatınız varken hemen alın!",
+      "has_sell_has_quantity": "🌟 Çok aranan ürün! Tükenmeden alın.",
+      "just_has_low_quantity": "🛒 Sınırlı stok! Kaçırmayın!",
+      "just_has_very_low_quantity": "⏳ Stoklarımız tükenmek üzere! Çok geç olmadan harekete geçin!"
+    },
+    "file": {
+      "very_popular_selling": "🔥 En çok satan! Kalabalığa katılın ve hemen indirin!",
+      "popular_selling": "🎉 Bu dosya çok ilgi görüyor. Kaçırmayın!",
+      "has_normal_selling": "📈 Popüler dosya! Kopyanızı bugün güvenceye alın.",
+      "just_release_has_some_sales": "✨ Yeni çıktı! İlk alanlardan biri olun."
     }
   }
 };

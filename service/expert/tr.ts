@@ -220,6 +220,14 @@ export default {
     "pos-setup": {
       "title": "Çevrimiçi yazar kasa kurma",
       "desc": "Mağaza şubelerinizde Selldone POS'unuzu çalıştırın ve işinizi ve fiziksel şubelerinizi geliştirmek için mevcut en profesyonel mağaza araçlarını kullanın."
+    },
+    "marketplace-setup": {
+      "title": "Bir Pazar Yeri Kurun",
+      "desc": "Uzmanların yardımıyla ürünleriniz ve hizmetleriniz için bir pazar yeri yaratın."
+    },
+    "pod-setup": {
+      "title": "POD Mağazasını Kur",
+      "desc": "Uzmanların yardımıyla baskı-talep mağazası yaratın."
     }
   },
   "industries": {

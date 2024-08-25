@@ -7,14 +7,18 @@ export default {
     "start_free": "Ücretsiz başla",
     "featured_apps": "Öne çıkan uygulamalar",
     "more_apps": "Daha fazla uygulama",
-    "my_public_profile": "Herkese açık profil sayfam"
+    "my_public_profile": "Herkese açık profil sayfam",
+    "product_admin": "Ürün Yöneticisi"
   },
   "numbers": {
     "infinite": "Sınırsız"
   },
   "error": {
     "not_fount_data": "Veri bulunamadı!",
-    "license_max_limit": "Lisansınız sınıra ulaştı!"
+    "license_max_limit": "Lisansınız sınıra ulaştı!",
+    "no_read_access": "Okuma erişimi yok",
+    "no_write_access": "Yazma erişimi yok",
+    "no_access": "Erişim yok"
   },
   "time_spans": {
     "days_range": "Gün Aralığı",
@@ -240,7 +244,9 @@ export default {
         "buys": "satın almalar",
         "payments": "ödemeler",
         "orders": "Emirler",
-        "currency": "Para birimi"
+        "currency": "Para birimi",
+        "no_payment": "Ödeme yok!",
+        "no_purchase": "Satın alma yok!"
       }
     }
   },
@@ -283,7 +289,8 @@ export default {
       "apps": "uygulamalar",
       "pos": "POS",
       "seo": "SEO",
-      "localization": "yerelleştirme"
+      "localization": "yerelleştirme",
+      "classification": "Sınıflandırma"
     },
     "dashboard": {
       "title": "Mağaza panosu",
@@ -419,6 +426,10 @@ export default {
         "orders": "Emirler",
         "payments": "ödemeler",
         "no_visitor_today": "Bugün hiç ziyaretçin yoktu."
+      },
+      "channels": {
+        "title": "Edinim Kanalları",
+        "subtitle": "İşletmeniz büyüyor. İşte müşteri edinme kanallarınızın raporu."
       }
     },
     "products": {
@@ -452,7 +463,41 @@ export default {
         "views": "Görüntüleme",
         "views_unit": "Zamanlar"
       },
-      "menu_advanced_options": "Gelişmiş seçenekler"
+      "menu_advanced_options": "Gelişmiş seçenekler",
+      "products_rss": {
+        "title": "Ürünler RSS",
+        "subtitle": "Ürünleri Google, Meta, ...'ya aktarma"
+      },
+      "products_api": {
+        "title": "Ürünler API'si",
+        "subtitle": "Ürünleri herkese açık bir API çağrısı aracılığıyla içe aktarma."
+      },
+      "google_sheet": {
+        "action": "Bağlantılı Sayfa",
+        "tooltip": "Bu mağazadaki ürünler Google Drive'daki bir Google E-Tablosuna bağlıdır."
+      },
+      "show_deletes": {
+        "false_title": "Silinenleri gizle",
+        "true_title": "Silinenleri göster"
+      },
+      "show_vendors": {
+        "false_title": "Satıcıları gizle",
+        "false_description": "Tüm satıcıları göster, ⌘Ctrl+1",
+        "true_title": "Satıcıları göster"
+      },
+      "show_notes": {
+        "false_title": "Notları gizle",
+        "false_description": "Tüm notları göster, ⌘Ctrl+2",
+        "true_title": "Gösteri notları"
+      },
+      "rss_dialog": {
+        "title": "Ürünler RSS",
+        "subtitle": "Tüm ürünlerin güncel listesini tutmak için bu RSS beslemesini kullanın."
+      },
+      "api_dialog": {
+        "title": "Ürünler API'si",
+        "subtitle": "Ürün listenizi güncel tutmak için bu API beslemesini kullanın. Mağazanızdan ürünleri almak için herkese açık bir API sağlar ve bu da onu ürün listeleme ve karşılaştırma web siteleri için ideal hale getirir."
+      }
     },
     "blogs": {
       "new": "Yeni yaz",
@@ -515,7 +560,8 @@ export default {
         "tax": "Vergi",
         "drop_shipping": "Bayi makbuzları",
         "reseller_accounts": "Bayi hesapları",
-        "valuations": "Değerlemeler"
+        "valuations": "Değerlemeler",
+        "customer_wallets": "Müşteri Cüzdanları"
       },
       "invoice": {
         "title": "Bağlantılı Cüzdan Satın Alın",
@@ -687,7 +733,23 @@ export default {
           "cod_false": "Yalnızca çevrimiçi ödemeyi kabul edin",
           "cod_true_message": "Gönderim hizmetinizin COD kabul ettiğinden emin olun."
         }
-      }
+      },
+      "restriction": {
+        "title": "Nakliye kısıtlaması",
+        "subtitle": "Sadece belirlenen gönderim bölgelerindeki müşterilerin sizden alışveriş yapabilmesini sağlamak için kısıtlamalar uygulayabilirsiniz!",
+        "no_enable_shipping_error": "Hiçbir gönderim yönteminiz etkinleştirilmediği için sizden kimse alışveriş yapamaz!",
+        "customer_must_select_a_shipping_msg": "Müşteri sipariş verebilmek için bir gönderim yöntemi seçmelidir.",
+        "customer_can_order_without_shipping_method_msg": "Müşteri, seçilen lokasyon için hiçbir kargo yöntemi desteklenmese bile sipariş verebilir.",
+        "inputs": {
+          "restriction": {
+            "false_description": "Müşteriler belirli bir gönderim yöntemi seçilmemiş olsa bile sipariş verebilirler.",
+            "false_title": "Tüm siparişleri kabul et",
+            "true_title": "Sınırlı kabul emri",
+            "true_description": "Müşterilerin satın alma işlemlerini tamamlayabilmeleri için kargolama veya teslim alma seçeneklerinden birini seçmeleri gerekmektedir."
+          }
+        }
+      },
+      "no_multi_warehouse_support_message": "Basitleştirmek adına, bu özellik normal mağazalarda mevcut değildir."
     },
     "users": {
       "menu": {
@@ -1062,24 +1124,46 @@ export default {
       "product_name": "Ürün adı*",
       "product_name_placeholder": "Ürün adınız burada..",
       "product_code": "Ürün kodu (İngilizce)",
-      "sku": "SKU",
+      "sku": {
+        "label": "SKU",
+        "message": "Stok Tutma Birimi"
+      },
       "sku_message": "Stok tutma ünitesi",
-      "mpn": "MPN",
+      "mpn": {
+        "label": "MPN",
+        "message": "Üretici parti numarası"
+      },
       "mpn_message": "Üretici parti numarası",
-      "status": "Durum",
+      "status": {
+        "title": "Durum",
+        "subtitle": "Ürünün durumu, çevrimiçi ve mağazada bulunabilirliğini belirler. Bir ürün taslağı oluşturmak için, durumunu 'Etkin Değil' olarak değiştirmeniz yeterlidir."
+      },
       "external_link": "Dış bağlantı",
-      "brand": "Marka",
+      "brand": {
+        "label": "Marka",
+        "placeholder": "Marka Örn. Elma.. (Opsiyonel)"
+      },
       "brand_placeholder": "Marka Örn. Elma.. (Opsiyonel)",
-      "warranty": "Garanti",
+      "warranty": {
+        "subtitle": "Garanti ve ürün durumunu ayarlayın; bu, garantiyle ilgili bilgilerin müşteriye gösterilmesini ve ürünlerin satın alındıktan sonra ne kadar süre içerisinde iade edilebileceğinin belirlenmesine yardımcı olur.",
+        "label": "Garanti",
+        "placeholder": "Altın 24 ay garanti.. (Opsiyonel)"
+      },
       "is_original": "Bu orijinal bir ürün mü?",
       "is_original_message": "Ürününüzü orijinal olarak ayarlamazsanız, bu ürün için sahte rozet gösterilecektir.",
       "return_warranty": "Bu ürünün kaç gün iade garantisi var?",
       "warehouse_section": "Depo ve İmalat",
       "conditions_section": "Ürün koşulları",
       "warranty_section": "Garanti ve Teslimat",
-      "unit": "Ürün birimi",
+      "unit": {
+        "subtitle": "Ürün sayfasında fiyatlandırma ve harekete geçirici mesaj öğelerinin görüntülenmesini kişiselleştirebilirsiniz."
+      },
       "unit_message": "Gerekirse birimi girin. Ör: KG, Metre, ...",
-      "condition": "Mağazanızdaki ürün durumu",
+      "condition": {
+        "label": "Mağazanızdaki ürün durumu",
+        "message": "Lütfen bu ürünün durumunu seçin.",
+        "subtitle": "Müşterilerinize sunduğunuz ürünün durumu ve markası hakkında bilgi verin."
+      },
       "condition_message": "Bu alandaki değerlerden birini seçmelisiniz.",
       "unit_section": "Ürün birimi",
       "unit_float": "Şamandıra ünitesi (yakında)",
@@ -1103,6 +1187,46 @@ export default {
         "single_vendor_desc": "Bu ürün bir satıcıya aittir ve seçilen satıcı onu yönetebilir.",
         "multi_vendors_title": "Çoklu satıcılar",
         "multi_vendors_desc": "Bu ürün pazaryerine aittir ve yalnızca pazaryeri panelinde düzenlenebilir."
+      },
+      "category_input_msg": "Boş: Mağazanın kökünde",
+      "unit_input": "Ürün birimi",
+      "category": {
+        "subtitle": "Listelemenizde görüntülenecek kategoriyi ve başlığı yapılandırın."
+      },
+      "custom_pricing": {
+        "title": "Özel fiyatlandırma formu",
+        "subtitle": "Ürüne bir değerleme (fiyat giriş formu) oluşturabilir veya atayabilirsiniz ve müşterileriniz sezgisel bir giriş formu aracılığıyla varyantlar arasında seçim yapabilir veya ürünlerinizi özelleştirebilir.",
+        "valuation_need_saved_product_message": "Lütfen önce ürünü kaydedin, ardından değerleme modelini atayabilirsiniz.",
+        "assign_valuation_message": "Lütfen bu ürüne bir değerleme modeli atayın.",
+        "edit_pricing_action": "Fiyatlandırma formunu düzenle",
+        "add_pricing_action": "Yeni fiyatlandırma formu oluştur"
+      },
+      "action": {
+        "title": "Özel satın alma düğmesi",
+        "message": "Bu deseni izleyerek simgeyi değiştirebilirsiniz: {icon name} başlık...",
+        "placeholder": "Harekete geçirici mesajı girin...",
+        "multi_language_dialog_title": "Özel satın alma düğmesi başlığı"
+      },
+      "warehouse": {
+        "subtitle": "Bu bilgi depo yönetim sistemi tarafından kullanılır ve ürünün küresel olarak tanımlanmasına yarar."
+      },
+      "gtin": {
+        "hint": "Desteklenen değerler şunlardır: UPC (Kuzey Amerika, 12 basamak), EAN (Avrupa, 13 basamak), JAN (Japonya, 8 veya 13 basamak), ISBN (kitaplar, 13 basamak).",
+        "label": "Ürünün Küresel Ticaret Ürün Numarası",
+        "placeholder": "Küresel ticaret numarası burada.. (Opsiyonel)"
+      },
+      "hsn": {
+        "hint": "HSN (Uyumlu İsimlendirme Sistemi), mal ve ürünleri kategorilere ayırmak için kullanılan uluslararası standartlaştırılmış bir sınıflandırma sistemidir.",
+        "placeholder": "6~16 haneli HSN kodu.. (Opsiyonel)",
+        "label": "HSN"
+      },
+      "profiles": {
+        "title": "profiller",
+        "subtitle": "Garanti, iade politikası, kargolama ve kılavuzu tanımlayabilir ve bunları bu ürüne atayabilirsiniz. Ürün sayfasında yeni sekmeler olarak gösterilecektir."
+      },
+      "shortcuts": {
+        "title": "Ürünü Ek Kategorilere Ata",
+        "subtitle": "Bu özellik, birincil kategoride Ürün > Düzenle > Kategori altında ayarlanan yerini korurken ürünü birden fazla kategoride listelemenize olanak tanır. Esasen, işletim sistemlerinde 'kısayollar' oluşturmaya benzer şekilde çalışır ve ürünün belirtilen ek kategorilerde görünmesini sağlar."
       }
     },
     "rating_pros_cons": {
@@ -1181,12 +1305,55 @@ export default {
         "code_input": "ürün kimliği",
         "code_input_message": "Ürün Kodu: P0000 ...",
         "spec_view_title": "Seçilen ürünün özellikleri",
-        "set_spec_action": "Yinelenen Teknik Özellikler"
+        "set_spec_action": "Yinelenen Teknik Özellikler",
+        "spec_view_subtitle": "Seçilen üründen özellikler alınmıştır."
       },
       "notifications": {
         "enter_group_title_error": "Başlık değerini girin",
         "enter_item_title_and_value_error": "Özelliğin başlığını ve değerini girin",
         "spec_saved_success": "Ürün özellikleri kaydedildi."
+      },
+      "subtitle": "Ürün özelliklerini buraya girin. Bu bilgi müşterilere gösterilecek ve ayrıca kategorinin akıllı filtreleme sisteminde de kullanılabilir.",
+      "manual": {
+        "title": "Manuel olarak",
+        "subtitle": "Grupları ve anahtar-değer çiftlerini tanımlayarak ürün özelliklerini manuel olarak ekleyin.",
+        "add_group_action": "Grup ekle",
+        "add_item_action": "Özel Değer Ekle"
+      },
+      "import": {
+        "subtitle": "Benzer ürünlerin teknik özelliklerini içe aktarabilirsiniz.",
+        "action_title": "İçe aktarmak",
+        "action_subtitle": "Başka bir ürünün klon spesifikasyonu."
+      },
+      "ai": {
+        "title": "AI",
+        "subtitle": "Ürünün ham verilerini metinsel olarak göndererek otomatik olarak ürün özellikleri oluşturabilirsiniz.",
+        "action_title": "Yapay Zeka Tarafından Otomatik Oluşturma",
+        "action_subtitle": "Özet istemiyle ürün özellikleri oluşturun."
+      },
+      "dialog_ai": {
+        "title": "Ürün Özelliklerini Otomatik Olarak Oluştur",
+        "prompt": {
+          "title": "Ürün Genel Bakışı",
+          "subtitle": "Lütfen ürünün temel özelliklerini ve ayrıntılarını vurgulayarak kısa ve net bir açıklama sağlayın. Bu bilgiler, ürün özelliklerini otomatik olarak oluşturmak için kullanılacaktır."
+        },
+        "generated_spec": {
+          "title": "AI Tarafından Oluşturulan Özellikler",
+          "subtitle": "Bu özellikler yapay zeka tarafından oluşturuldu."
+        },
+        "inputs": {
+          "prompt": {
+            "label": "Ürün Detayları",
+            "placeholder": "Ürünü buraya tanımlayın..."
+          }
+        },
+        "actions": {
+          "run": {
+            "title": "Özellikler Oluştur",
+            "subtitle": "Sağlanan genel bakıştan ürün özelliklerini otomatik olarak oluşturmak için tıklayın."
+          },
+          "add_generated_spec": "Oluşturulan Özellikleri Ekle"
+        }
       }
     },
     "edit_images": {
@@ -1204,6 +1371,24 @@ export default {
       "video": {
         "title": "Video",
         "sub_title": "Önce ürün videonuzu Youtube'a yükleyin ve ardından video URL'sini buraya koyun."
+      },
+      "change_bg_ai": {
+        "title": "Yeni Arkaplanla Resim Oluştur",
+        "inputs": {
+          "prompt": {
+            "label": "Arka Plan Açıklaması",
+            "placeholder": "İstenilen arka planı tanımlayın..."
+          }
+        },
+        "actions": {
+          "reimagine": {
+            "title": "Yeni Görüntü Oluştur",
+            "subtitle": "Tüm resmi yeni bir arka planla yeniden hayal edin."
+          },
+          "replace": {
+            "subtitle": "Mevcut arka planı değiştirin."
+          }
+        }
       }
     },
     "pricing": {
@@ -1227,14 +1412,33 @@ export default {
       "variant_pricing_message": "Bu seçeneği seçerek, bu varyantın fiyatı ana üründen bağımsız olarak ayarlanabilir.",
       "price_label_input": "Fiyat etiketi",
       "price_label_message": "Fiyat hakkında ($1.5/Fl Oz) gibi ekstra bilgiler ekleyin. Kullanım durumları: bakkal, FMCG.",
-      "add_price_label_action": "Fiyat etiketi ekle"
+      "add_price_label_action": "Fiyat etiketi ekle",
+      "subtitle": {
+        "marketplace": "Pazaryerinde görüntülenen birincil ürün fiyatlandırması listeleme fiyatıdır; gerçek fiyat ise satıcı-ürün ilişkisi kayıtlarına göre belirlenir.",
+        "subscription": "Aboneliklerde yalnızca liste fiyatı gösterilirken, gerçek maliyet seçilen abonelik planına göre belirlenecektir.",
+        "service": "Hizmet tabanlı ürünler için, listelenen fiyatlandırma yalnızca görüntüleme amaçlıdır ve hizmetin tahmini maliyetini sağlar. Gerçek hizmet fiyatı, müşteri siparişini verdikten sonra (ödeme sırasında) sizin tarafınızdan belirlenecektir.",
+        "file": "Bu, müşterilerin dosyalara erişim sağlamak için ödemeleri gereken dosyanın listelenen ve gerçek fiyatını ifade eder.",
+        "default": "Bu, ürünün listelenen fiyatını ifade eder ve ayrıca ayrı fiyatlandırması olmayan tüm varyantların fiyatını da hesaba katar."
+      },
+      "extra_pricings": {
+        "title": "Ek fiyatlandırma ekle",
+        "subtitle": "Satın alınan miktara göre değişen fiyatlar uygulanır."
+      },
+      "vendor": {
+        "title": "Satıcı fiyatlandırması",
+        "subtitle": "Bu fiyat yalnızca ürün listelemesinde gösterilecektir. Satıcı fiyatını Ürün > Satıcılar sekmesinden ayarlayabilirsiniz.",
+        "manage_vendors": "Satıcıları Yönet",
+        "vendor_product_pricing_link": "Satıcının ürün fiyatlandırması bağlantılıdır. Burada listeleme fiyatını değiştirmek, varyantları olmayan veya kendi fiyatlandırması olmayan varyantları olan satıcı ürünlerini (ana ürünle aynı fiyatı kullanarak) etkileyecektir. Bu fiyat pazaryeri fiyatı olarak ele alınacak ve satıcının fiyatı fiyatlandırma modeline veya önceki pazaryeri kar marjına göre belirlenecektir.",
+        "vendor_variant_pricing_link": "Buradaki varyant fiyatını değiştirmek, aynı varyanta sahip satıcı ürünlerinin fiyatlandırılmasını etkileyecektir. Bu fiyat pazaryeri fiyatı olarak kabul edilecek ve satıcının fiyatı fiyatlandırma modeline veya önceki pazaryeri kar marjına göre belirlenecektir."
+      }
     },
     "inputs_edit": {
       "title": "Alıcı Bilgileri Giriş Formu",
       "sub_title": "Her ürün için bir veri giriş formu oluşturabilir, böylece alışveriş yapanların bir ürünü satın alırken size bilgi göndermesini sağlayabilirsiniz. Örneğin, bu bilgi bir taşa yapılan bir gravürün adı olabilir.",
       "message_input": "Kullanıcıya Mesaj",
       "message_input_message": "Bu mesaj, ürün satın alırken müşteriye gösterilecektir.",
-      "inputs_form": "Bilgi yapısı (girdi)"
+      "inputs_form": "Bilgi yapısı (girdi)",
+      "inputs_hint": "Müşterilerinizden sipariş vermeye hazır olduklarında ayrıntıları toplamak için kişiselleştirilmiş bir form oluşturma seçeneğiniz de var."
     },
     "extra_edit": {
       "physical": {
@@ -1244,6 +1448,13 @@ export default {
       "notifications": {
         "save_title": "Paketleme Güncellendi",
         "save_msg": "Ürün paketleme bilgileri başarıyla güncellendi."
+      },
+      "order_limit": {
+        "title": "Sipariş limitleri",
+        "subtitle": "Eğer toptancıysanız veya bu ürünün sipariş başına minimum veya maksimum miktarı için bir sınır varsa, bunu burada belirtebilirsiniz.",
+        "no_limit": "Sınır Yok",
+        "minimum_purchase_quantity": "Minimum satın alma miktarı",
+        "maximum_purchase_quantity": "Maksimum satın alma miktarı"
       }
     },
     "variants": {
@@ -1251,7 +1462,8 @@ export default {
     },
     "delete_product": {
       "title": "Ürünü kaldır",
-      "message": "<b>{product_title} ürününü</b> silmek istiyor musunuz?"
+      "message": "<b>{product_title} ürününü</b> silmek istiyor musunuz?",
+      "tips": "Bir ürünü yanlışlıkla silerseniz, Mağaza > Ürünler'e gidip Silinen Ürünleri Göster'i etkinleştirip, ardından ürüne sağ tıklayıp Geri Yükle'yi seçerek ürünü kurtarabilirsiniz."
     }
   },
   "product_admin": {
@@ -1275,7 +1487,11 @@ export default {
         "type": "Tip",
         "inputs": "Giriş bilgileri",
         "outputs": "Çıktı bilgileri",
-        "user_data_form": "Alıcı Bilgi Formu"
+        "user_data_form": "Alıcı Bilgi Formu",
+        "staff_messages": "Personel mesajları",
+        "add_note": "Not ekle",
+        "product_tags": "Ürün etiketleri",
+        "edit_tags": "Etiketleri düzenle"
       },
       "orders": {
         "title": "Emirler",
@@ -1283,7 +1499,9 @@ export default {
         "physical_orders_title": "Bu Ürünle Alışveriş Sepetleri",
         "send_30days_title": "Son 30 gün içinde sevk edilen siparişler",
         "downloads_30days_title": "Son 30 gün içinde dosya indirilen sayı",
-        "virtual_orders_title": "Bu ürünün siparişleri tamamlanmayı bekliyor"
+        "virtual_orders_title": "Bu ürünün siparişleri tamamlanmayı bekliyor",
+        "send_count_in_period": "{start} ~ {end} tarihleri arasında gönderilen siparişler",
+        "downloads_count_in_period": "{start} ~ {end} arasındaki dosya indirme sayısı"
       },
       "inventory": {
         "title": "Envanter",
@@ -1298,7 +1516,8 @@ export default {
           ]
         },
         "subscribers_title": "Aboneler",
-        "subscribers_title_small": "Toplam abone olunan siparişler"
+        "subscribers_title_small": "Toplam abone olunan siparişler",
+        "total_sell_timespan": "{start} ~ {end} arasındaki toplam satışlar"
       },
       "finance": {
         "title": "Parasal",
@@ -1327,7 +1546,9 @@ export default {
           "participate": "katılım",
           "participate_title": "katkı sayısı",
           "score": "Puan"
-        }
+        },
+        "total_participation_tooltip": "Ürüne ait toplam değerlendirici sayısı.",
+        "users_not_rated_msg": "Kullanıcılar henüz bu ürünü değerlendirmedi."
       },
       "inform": {
         "title": "Müşteri beklentileri",
@@ -1403,7 +1624,11 @@ export default {
     "lead_time_dimension": "Saat)",
     "bulk_action": "Toplu eylemler",
     "bulk_action_input": "Tüm varyantları güncelle",
-    "bulk_action_msg": "Tüm varyantlar için ürün paketleme ve hazırlama süresini ayarlayın."
+    "bulk_action_msg": "Tüm varyantlar için ürün paketleme ve hazırlama süresini ayarlayın.",
+    "weight_subtitle": "Ürünün toplam paketleme ağırlığını buraya girin. Bu bilgi doğru gönderim yöntemini seçmenize yardımcı olur ve siparişin gönderim sınırını aşmamasını sağlar.",
+    "size_subtitle": "Ürünün tam ambalaj boyutunu buraya girin. Bu bilgi doğru gönderim yöntemini seçmek ve siparişin paket boyutu sınırını aşmamasını sağlamak için kullanılır.",
+    "lead_time_subtitle": "Teslim süresi, bir ürünün nakliyeye hazırlanması için gereken süreyi tahmin eder ve bu da teslimat süresinin tahmin edilmesine yardımcı olur.",
+    "bulk_action_subtitle": "Ambalaj bilgilerini tüm ürün çeşitlerine uygulayabilirsiniz."
   },
   "product_images_list": {
     "upload_button": "Daha Fazla Ürün Resmi",
@@ -1488,10 +1713,14 @@ export default {
     },
     "notifications": {
       "save_success": "Envanter değişikliği kaydedildi."
-    }
+    },
+    "title": "Mağaza Envanteri",
+    "subtitle": "Mağazadaki tüm ürünlerin listesi.",
+    "cant_set_here": "Burada ayarlanamıyor"
   },
   "spec_view": {
-    "auto_save_input": "Otomatik kaydetme"
+    "auto_save_input": "Otomatik kaydetme",
+    "auto_save_input_message": "Değişiklikler otomatik olarak kaydedilecektir."
   },
   "time_progress_bar": {
     "title_before_start": "Başlamak için kalan",
@@ -1752,6 +1981,33 @@ export default {
       },
       "notifications": {
         "edit_success": "Kategori düzenlendi."
+      },
+      "manually_update_filters_tips": "<b>Önemli!</b> Ürünler değiştiğinde filtreler otomatik olarak güncellenir. Ancak, bir kategorideki ürünlerde değişiklik yaptıktan sonra lütfen buraya geri dönün ve filtreyi yenilemek için kaydet/yeniden oluştur düğmesine tıklayın.",
+      "inputs": {
+        "spec": {
+          "message": "Filtre bölümünde gösterilmesini istediğiniz özelliklerin listesi",
+          "placeholder": "Filtrede gösterilecek özellikleri seçin..."
+        }
+      }
+    },
+    "config": {
+      "subtitle": "Kategoriler, ürün yönetimini kolaylaştırmaya ve müşterilerinizin mağazanızda ürünleri bulmasını kolaylaştırmaya yardımcı olur."
+    },
+    "parent": {
+      "subtitle": "Bu kategori, ana kategorisinin altında görünecektir. Bir ürünün ana kategorisi yoksa, ana kategoride gösterilecektir."
+    },
+    "template": {
+      "title": "Şablon",
+      "edit_page": "Sayfayı Düzenle",
+      "Pages_list": "Sayfa Listesi",
+      "subtitle": "Kategori sayfanızın görüntüsünü özel bir sayfa ekleyerek geliştirebilirsiniz. En iyi yaklaşım, şeffaf arka planlı sayfalar oluşturmak ve her kategoriye özgü 1 ila 2 bölüm tasarlamaktır. Daha sonra, her kategoriyi ayrı ayrı özelleştirmek için dinamik içerik kullanarak bir sayfayı birden fazla kategoriye bağlayabilirsiniz."
+    },
+    "critical_zone": {
+      "title": "Kritik Bölge",
+      "subtitle": "Bir kategoriyi kaldırırsanız, alt kategorileri ve ürünleri ana dizine <b>📁 {parent}</b> taşınır. Ürün listesinde olmayan kategorileri yönetmek için Mağaza > Kategoriler sekmesine gidin.",
+      "accept_delete": {
+        "true_description": "Bu kategoriyi kaldırmak istiyorum.",
+        "true_title": "Kategoriyi Kaldırmayı Onayla"
       }
     }
   },
@@ -1807,7 +2063,8 @@ export default {
       "name_available": "Bu ad ({name}) mevcut.",
       "add_success": "{title} mağazası oluşturuldu.",
       "edit_success": "Mağaza düzenlendi."
-    }
+    },
+    "description_input_tips": "Bu açıklama mağazanızın alt bilgisinde görünecek ve aynı zamanda mağaza sayfalarınız için varsayılan meta etiket açıklaması olarak kullanılacaktır."
   },
   "virtual_items_list": {
     "add_virtual_item": "Sanal öğe ekle",
@@ -1896,7 +2153,13 @@ export default {
       "title": "Siparişi Reddetme Nedeni",
       "message": "Aşağıdaki listeden bu siparişi reddetme nedeninizi seçin. Müşteriyi iptal ve iade süreci hakkında bilgilendirdiğinizden emin olun. Geri ödemeler 12 saat içinde yapılmalıdır.",
       "confirm_action": "Siparişi iptal et",
-      "dismiss_reject_action": "Sipariş iptalini reddet"
+      "dismiss_reject_action": "Sipariş iptalini reddet",
+      "confirm_now_action": "Siparişi Şimdi İptal Et",
+      "confirm_in48h_action": "Siparişi 48 Saat İçinde İptal Et",
+      "options": {
+        "title": "Seçenekler",
+        "subtitle": "Siparişinizi hemen iptal etmek istiyorsanız bu seçeneği kullanabilirsiniz."
+      }
     },
     "notifications": {
       "update_status_success": "Sipariş durumu güncellendi.",
@@ -2019,7 +2282,8 @@ export default {
         "pay_fail_title": "Ödenmeyen",
         "pay_fail_message": "Ödeme onaylanamıyor!"
       },
-      "total_order_price_before_tax": "Vergi Öncesi Toplam Fiyat"
+      "total_order_price_before_tax": "Vergi Öncesi Toplam Fiyat",
+      "require_capture": "Yakalama gerektir"
     },
     "basket_list": {
       "checklist": [
@@ -2031,7 +2295,23 @@ export default {
       "list_of_items": "Alışveriş Sepeti Listesi",
       "apply_change_action": "Değişiklikleri uygula",
       "cant_apply_change": "değişiklik yapılamıyor",
-      "lottery_prize_inform": "Müşteriniz bu ürünün 1 katını kazanır. Bu siparişle hediye gönder."
+      "lottery_prize_inform": "Müşteriniz bu ürünün 1 katını kazanır. Bu siparişle hediye gönder.",
+      "need_to_refund": {
+        "title": "Müşteriye geri ödeme yapılması gerekiyor",
+        "message": "Manuel olarak yapmanız gereken toplam iade tutarını hesaplıyoruz. Mevcut olmayan öğeler ve henüz toplam iade edilen değerlere göre hesaplanmıştır.",
+        "calculated_approximately": "Tutar yaklaşık olarak hesaplanmıştır. Lütfen tam tutarı kendiniz hesaplayın."
+      },
+      "need_payback": {
+        "title": "Müşterinin geri ödeme yapması gerekiyor",
+        "message": "Müşteriye iade edilen toplam tutarın, sepetteki ürünlere göre ödenmesi gereken tutardan daha yüksek olduğunu fark ettik. Fazla tutarı tahsil etmek için müşterinizden ücret tahsil etmeniz gerekebilir."
+      },
+      "need_no_refund": {
+        "title": "Geri ödeme gerekli değil"
+      },
+      "total_refund": {
+        "title": "Toplam iade edilen tutar",
+        "message": "Ödeme ağ geçidiniz tarafından otomatik olarak yapılan geri ödemelerin toplam tutarıdır. Bu özelliği yalnızca bazı ödeme hizmetleri destekler, bu nedenle manuel olarak geri ödeme yapmanız gerekir."
+      }
     },
     "preparing": {
       "title": "Hazırlık",
@@ -2047,7 +2327,9 @@ export default {
         "Paketlemede standart kurallara uyulması.",
         "Öğelerin bir listesini yazdırın ve paketin içine koyun.",
         "Kutuya bir etiket yazdırın ve yapıştırın."
-      ]
+      ],
+      "items_weight_calculation": "Tüm öğelerin birleşik ağırlığı {weight} {unit}",
+      "not_available_message": "Teslimat adresi isteme özelliği devre dışı bırakıldığında ve kullanıcı satın alma işleminden sonra adresi doldurmadığında bu özellik kullanılamaz!"
     },
     "basket_items": "Sipariş öğeleri listesi",
     "delivered_dialog": {
@@ -2156,10 +2438,48 @@ export default {
     "developer_title": "Geliştirici modu",
     "developer_message": "Ağ geçidi hata ayıklama modunu destekliyorsa sahte işlemleri işleyebilirsiniz.",
     "notifications": {
-      "edit_success": "{gateway_name} ağ geçidi düzenlendi."
+      "edit_success": "{gateway_name} ağ geçidi düzenlendi.",
+      "success_delete": "Ödeme yöntemi silindi!"
     },
     "developer_setting": "Geliştirme ve Test Etme",
-    "live_mode_message": "Tüm işlemler canlı modda olacaktır."
+    "live_mode_message": "Tüm işlemler canlı modda olacaktır.",
+    "status_title": "Ödeme hizmeti durumu",
+    "status_message": "Ödeme yöntemini Aktif veya Pasif olarak yapılandırın. Müşterilere yalnızca aktif olarak ayarlanan yöntemler gösterilecektir.",
+    "status_true_description": "Müşterileriniz bu ödeme yöntemiyle ödeme yapabilirler.",
+    "manual_title": "Manuel / Otomatik ödeme yakalama",
+    "manual_message": "Bir ödeme oluşturduğunuzda, daha sonra alabileceğiniz fonları rezerve etmek için uygun bir ödeme yönteminde beklemeye alabilirsiniz. Örneğin, oteller genellikle bir misafir gelmeden önce tam bir ödemeyi yetkilendirir, ardından misafir çıkış yaptığında parayı alır.",
+    "debug": {
+      "title": "Geliştirme ve Test Etme",
+      "subtitle": "Ödeme ağ geçidini test etmek için hata ayıklama modunu etkinleştirebilirsiniz."
+    },
+    "limit": {
+      "title": "Sipariş Limiti",
+      "subtitle": "Bu ödeme ağ geçidi için minimum sipariş tutarını belirleyin."
+    },
+    "limit_input": {
+      "title": "Minimum sipariş tutarı",
+      "msg": "Sıfır, sınır yok demektir."
+    },
+    "currency_input": {
+      "message": "Bu ödeme ağ geçidinin desteklediği para birimi."
+    },
+    "gateway_code": "Ağ Geçidi Kodu",
+    "hold_only_for": "Ödemeyi bekletme yalnızca şu durumlarda kullanılabilir:",
+    "manual_input": {
+      "false_description": "Ödeme sağlayıcı sisteminde ödeme durumu otomatik olarak beklemede'den onaylandı'ya değişecektir.",
+      "false_title": "Otomatik ödeme onayı",
+      "true_title": "Ödemeleri bekletme ve Manuel onay",
+      "true_description": "Bir ödemeyi beklemeye alın, böylece ödeme sağlayıcı sisteminde bir siparişin ödeme durumunu bekleyenden onaylanana değiştirmek için ödemeleri doğrulamanız gerekir."
+    },
+    "delete_verify_input": {
+      "true_title": "Bu ödeme yöntemini kaldırmak istiyorum.",
+      "true_description": "Bu ödeme yöntemi mağazadan kaldırılacak ve müşterilere sunulmayacaktır."
+    },
+    "delete_alert": {
+      "title": "Ödeme yöntemini sil",
+      "message": "Bu ödeme yöntemini mağazanızdan silmek istediğinizden emin misiniz?",
+      "action": "Ödeme yöntemini sil"
+    }
   },
   "gift_card": {
     "title": "Hediye Kartları",
@@ -2368,7 +2688,9 @@ export default {
     "connect-remove-hold": "Sipariş beklemeden kaldırıldı. {reason}",
     "connect-confirmed": "Sipariş onaylandı.",
     "email-vendor": "🔔 Sipariş bilgisi e-postası <b>{vendor}</b> 'a gönderildi ╏ {email}.",
-    "vendor-payout": "💸 Satıcıya ödeme."
+    "vendor-payout": "💸 Satıcıya ödeme.",
+    "sms-payment": "Müşteriye {phone} üzerinden ödeme onay SMS'i gönderin.",
+    "vendor-sms": "🔔 Sipariş bilgilendirme SMS'i <b>{vendor}</b> ╏ {phone} adresine gönderildi."
   },
   "inline_chart": {
     "today": "Bugün",
@@ -2384,6 +2706,34 @@ export default {
     "notifications": {
       "copy_success": "Ürünün kopyası.",
       "change_category_success": "Ürün kategorisi düzenlendi."
+    },
+    "load_more_products": "Bu kategoride daha fazla ürün mevcuttur. Daha fazla ürün yüklemek için tıklayın.",
+    "filter_box": {
+      "no_root_filter_message": "Kök dizinde ürünleriniz var ancak filtreniz yok.",
+      "has_root_filter_message": "Kök kategori için filtreler belirlersiniz.",
+      "set_filter_message": "Filtreler ayarlayabilirsiniz.",
+      "edit_action": "Kök Filtreleri Düzenle",
+      "clear_action": "Kök Filtrelerini Temizle"
+    },
+    "ai": {
+      "title": "AI Ürün Yardımı"
+    },
+    "menu": {
+      "select_all_products": "Tüm ürünleri seçin",
+      "unselect": "Seçimi kaldır",
+      "sort_categories": "Kategorileri Düzenle / Sırala",
+      "subscription_vendor_not_support_message": "Abonelik ürünleri için satıcı atanamaz! Abonelik ürünlerinin sahibi her zaman bir satıcı olmalıdır!",
+      "vendor_owner_not_assignable_message": "Sahibi bir satıcı olan ürünler için bir satıcıya atama yapılamaz!",
+      "category_assign_profile": "Kategorideki ürünlere profil atayın",
+      "category_assign_profile_subtitle": "Vergi, Kargo, Rehber, Garanti, ...",
+      "bulk_discount": "Toplu alım indirimi",
+      "bulk_discount_subtitle": "Tüm ürünlerde indirim uygulayın."
+    },
+    "engine": {
+      "title": "Ekstra Ürünler Motoru",
+      "subtitle": "Seçili kategorilerden ve etiketlerden daha fazla ürün yüklenecek.",
+      "load_in_tips": "{category} kategorisindeki ürünleri yükleyin.",
+      "action": "{category} Motorunu Düzenle"
     }
   },
   "physical_order_track": {
@@ -2419,7 +2769,9 @@ export default {
       "message": "Bu e-postayı müşterinize yeniden göndereceğinizden emin misiniz?",
       "action": "evet, yeniden gönder",
       "success": "Müşterinize yeniden e-posta gönderilir."
-    }
+    },
+    "message": "Bu bölümde, sipariş, yerine getirme, ödeme ve ilgili durumlarla ilgili olayların zaman çizelgesini görüntüleyebilirsiniz. Ayrıca, hem müşterilere hem de satıcılara gönderilen siparişleri gözlemleyebilirsiniz.",
+    "add_note_subtitle": "Bir mesaj yazın ve meslektaşlarınızdan bahsedin."
   },
   "accounts": {
     "title": "Cüzdanım",
@@ -3253,7 +3605,15 @@ export default {
       "access": "Hesabıma Erişim",
       "security": "Güvenlik",
       "preferences": "Kullanıcı tercihleri",
-      "my_subscriptions": "aboneliklerim"
+      "my_subscriptions": "aboneliklerim",
+      "my_public_profile_subtitle": "Herkese açık profilim {name}.",
+      "personal_information_subtitle": "Profilimi, adresimi ve KYC'mi düzenle.",
+      "wallet_subtitle": "Sanal hesaplar ve bağlı ödeme kartları.",
+      "companies_subtitle": "İşletme ve vergi profillerimi kaydedin.",
+      "access_subtitle": "OAuth istemcileri, kişisel erişim belirteçleri ve bağlı uygulamalar.",
+      "security_subtitle": "İki faktörlü kimlik doğrulaması yapın ve sosyal oturum açma seçeneklerini yönetin.",
+      "preferences_subtitle": "Temayı, seviyeyi, dili ve varsayılan para birimini değiştirin.",
+      "my_subscriptions_subtitle": "Premium yapay zeka ve özelleştirme özelliklerine erişim."
     }
   },
   "page_builder": {
@@ -3293,7 +3653,8 @@ export default {
         "tools": "Aletler",
         "history": "Tarih",
         "style": "stil",
-        "typography": "tipografi"
+        "typography": "tipografi",
+        "hierarchy": "hiyerarşi"
       },
       "no_category": "Kategori Yok"
     },
@@ -3392,7 +3753,8 @@ export default {
     "samples": "Örnek mağazaları göster",
     "samples_message": "Etkinleştirilirse, panelinizde bazı örnek mağazalar görüntülenecektir.",
     "automation": "Otomasyon",
-    "automation_message": "Mağaza panosunda otomasyon sekmesini göster. (Web kancaları, Görsel programlama, ...)"
+    "automation_message": "Mağaza panosunda otomasyon sekmesini göster. (Web kancaları, Görsel programlama, ...)",
+    "date_time": "Tarih ve Saat"
   },
   "shop_locations": {
     "title": "Hizmet verilen ülkeler",
@@ -3419,7 +3781,31 @@ export default {
     "auto_category": "Kategoriyi otomatik ayarla",
     "add_in_current_category": "Geçerli kategoriye ekle",
     "category_mode_message": "Etkinleştirilirse, ürün varsayılan kategoriye veya alt kategoriye eklenir.",
-    "sku_name_input": "SKU / Ad"
+    "sku_name_input": "SKU / Ad",
+    "info": {
+      "subtitle": "Ürünü üretmek için sadece oluşturulması için gerekli olan temel bilgileri girebilirsiniz."
+    },
+    "price": {
+      "subtitle": "Bu ürün için fiyatı ve indirimi girin. Ürün eklendiğinde daha fazla seçeneğe erişebileceksiniz."
+    },
+    "by_sku": {
+      "title": "SKU'ya göre ekle",
+      "subtitle": "Ülkenizdeki veritabanına ulaşılamıyor."
+    },
+    "drop_shipping": {
+      "subtitle": "Toptan pazaryerindeki ürünleri bulun ve mağazanıza ekleyin."
+    },
+    "by_connect": {
+      "subtitle": "Selldone Connect OS ile POD veya dropshipping tedarikçilerinden ürünleri kolayca ekleyin; sadece mağazanızı bağlayın ve otomatik ürün entegrasyonunun keyfini çıkarın, eklentiye gerek yok."
+    },
+    "your_license_is_not_eligible": "Lisansınız uygun değil.",
+    "sku_dialog": {
+      "title": "Ürün SKU'suna Göre Ekle",
+      "subtitle": "Ürünlerinizi veritabanımızda SKU'larına göre bulabilir ve tek bir tıklamayla ekleyebilirsiniz."
+    },
+    "dropshipping_dialog": {
+      "title": "Dropshipping ürünlerini ekleyin"
+    }
   },
   "my_affiliate": {
     "title": "Ortaklık Sözleşmelerim",
@@ -3509,7 +3895,8 @@ export default {
     "coupon": "Kupon",
     "offer": "Teklif",
     "gift_card": "Hediye kartı",
-    "lottery": "Piyango"
+    "lottery": "Piyango",
+    "cashback": "Geri ödeme"
   },
   "discount_codes": {
     "title": "İndirim Kodları",
@@ -3552,6 +3939,24 @@ export default {
       "notifications": {
         "add": "İndirim kodu başarıyla eklendi.",
         "edit": "İndirim kodu başarıyla düzenlendi."
+      },
+      "config": {
+        "title": "Genel Yapılandırma",
+        "subtitle": "İndirim kodu hesaplama formülü: max (LIMIT, PERCENT * sepet fiyatı). Kodları alakalı ve hatırlanması kolay yapmayı unutmayın."
+      },
+      "limit": {
+        "title": "sınırlamalar",
+        "subtitle": "Her indirim kodu için maksimum kullanım sınırını ve maksimum indirim tutarını bu bölümden belirleyebilirsiniz."
+      },
+      "duration": {
+        "title": "Süre Sınırı",
+        "subtitle": "İndirim kodunuzu belirli bir zaman dilimi için aktifleştirmek isterseniz, süreyi buradan belirleyebilirsiniz."
+      },
+      "design": {
+        "subtitle": "Her indirim kodu için bir başlık ve açıklama belirleyebilirsiniz. Bu ayrıntılar kullanıcıya gösterilecektir."
+      },
+      "cluster": {
+        "subtitle": "Bu indirim kodunu bir kümeyle ilişkilendirerek tek bir konumdan diğer kaynaklarla birlikte kolayca yönetebilirsiniz."
       }
     },
     "delete_alert": {
@@ -3654,6 +4059,34 @@ export default {
     "notifications": {
       "add": "Yeni kupon başarıyla oluşturuldu.",
       "edit": "Kupon güncellendi."
+    },
+    "config": {
+      "subtitle": "Kupon indirimi hesaplama formülü: ÜCRET + maks. (LIMIT, PERCENT * sepet fiyatı) şeklindedir."
+    },
+    "limit": {
+      "subtitle": "Bu bölümde, hem kupon başına maksimum kullanım sayısını hem de her kuponun sağlayabileceği en yüksek indirim tutarını ayarlayabilirsiniz.",
+      "zero_message": "sıfır: sınır yok!"
+    },
+    "duration": {
+      "subtitle": "Kuponunuzun aktif olması için belirli bir zaman aralığı belirlemek istiyorsanız, bu bölümde süreyi yapılandırabilirsiniz."
+    },
+    "design": {
+      "subtitle": "Her kupon bir başlık ve açıklamanın eklenmesine olanak tanır. Bu ayrıntılar müşteri tarafından görülebilir."
+    },
+    "constraints": {
+      "subtitle": "Burada kupon için ek kişiselleştirilmiş parametreler belirleme olanağına sahipsiniz.",
+      "no_limit": "Ek sınırlama yok",
+      "has_limit": "Ek kısıtlamalar",
+      "has_code_message": "Kuponu eklemek için kullanıcının kodu girmesi gerekmektedir."
+    },
+    "club": {
+      "subtitle": "Bu kuponun kullanımı yalnızca seçilen müşteri kulüplerinin üyeleriyle sınırlandırılabilir."
+    },
+    "cluster": {
+      "subtitle": "Bu kuponu bir kümeyle ilişkilendirerek tek bir konumdan diğer kaynaklarla birlikte kolayca yönetebilirsiniz."
+    },
+    "preview": {
+      "subtitle": "İşte kuponun herkese açık önizlemesi."
     }
   },
   "offers": {
@@ -3688,7 +4121,10 @@ export default {
     "qualified_products_message": "Ürünlerin uygun olması için, sepetteki toplam ürün sayısı minimum miktara eşit veya daha fazla olmalıdır.",
     "min_items": "Minimum ürün miktarı",
     "min_items_message": "Müşterinin satın alması gereken ürün sayısı",
-    "discounted_products": "indirimli ürünler",
+    "discounted_products": {
+      "title": "indirimli ürünler",
+      "subtitle": "Bu teklifin hangi ürünlere indirim uygulayacağını belirleyebilirsiniz."
+    },
     "offered_products": "sunulan ürünler",
     "offered_products_message": "Bu ürünlerden en az biri sepette olmalıdır.",
     "discount_percent": "indirim yüzdesi",
@@ -3710,6 +4146,21 @@ export default {
     "notifications": {
       "add": "Yeni teklif başarıyla oluşturuldu.",
       "edit": "Teklif başarıyla güncellendi."
+    },
+    "config": {
+      "subtitle": "Akıllı bir anlaşma oluşturmaya, anlaşmanın başlığını, açıklamasını ve herkese açık durumunu belirleyerek başlayın."
+    },
+    "limit": {
+      "subtitle": "Bu teklif için maksimum kullanım limitini bu bölümden belirleyin."
+    },
+    "duration": {
+      "subtitle": "Teklifiniz için belirli bir zaman aralığı belirlemek istiyorsanız, süreyi buradan yapılandırabilirsiniz."
+    },
+    "constraints": {
+      "subtitle": "Teklif için uygunluk kriterlerini ve koşullarını buradan belirleyin. Teklif, bu koşulları karşılayan sepet öğeleri için geçerlidir."
+    },
+    "cluster": {
+      "subtitle": "Bu teklifi bir kümeyle ilişkilendirerek tek bir lokasyonda diğer kaynaklarla birlikte kolayca yönetebilirsiniz."
     }
   },
   "campaign_ads": {
@@ -3807,7 +4258,12 @@ export default {
     },
     "notifications": {
       "delete_success": "Ödül başarıyla silindi."
-    }
+    },
+    "manual_send_token_action": "Manuel Tokenlar",
+    "config": {
+      "subtitle": "Mağazanızda oyunlaştırılmış bir deneyimle müşteri satın alımlarını artırın. Satın alımlar yoluyla jeton kazanan müşteriler için ödüller ve kazanma oranları ayarlayın. Her oyun oynamanın maliyeti 10 jetondur ve ilk kez satın alanlara özel ödüller sunabilirsiniz. Varsayılan oyun Wheel of Fortune'dur, ancak mağazanızın düzenine uyacak şekilde özelleştirebilirsiniz."
+    },
+    "empty_prize_list": "Ödüllerinizi burada oluşturun ve yönetin..."
   },
   "lottery_edit": {
     "title_edit": "Piyango öğesini düzenle",
@@ -3828,7 +4284,10 @@ export default {
     "chance_message": "Yüzde olarak kazanma şansı",
     "free_for_first": "Yeni müşteriler için ücretsiz mi?",
     "free_for_first_message": "Yeni müşteriler bu öğeyi kazanabilir.",
-    "prize": "Ödül",
+    "prize": {
+      "title": "Ödül",
+      "subtitle": "Ödül ayrıntılarını burada ayarlayın. Seçenekler arasında indirim kodları, hediye kartları, krediler ve piyango ödülleri olarak diğer indirimler bulunur."
+    },
     "amount": "Ödül miktarı",
     "amount_hint": "Kullanıcılar, siparişleri için bu miktarda ücret kazanır.",
     "currency_message": "Bu öğe için para birimi. Diğer para birimleri döviz kuruna göre çevrilir.",
@@ -3841,6 +4300,20 @@ export default {
     "notifications": {
       "add": "Yeni piyango öğesi başarıyla oluşturuldu.",
       "edit": "Piyango öğeleri başarıyla değiştirildi."
+    },
+    "not_free_for_first_message": "Bu ödül ilk ücretsiz oyun için geçerli değildir.",
+    "config": {
+      "subtitle": "Burada, mağazanızın piyango ödüllerini oluşturabilirsiniz. Her ödül için başlığı, açıklamayı, rengi ve resmi ayarlayın."
+    },
+    "design": {
+      "subtitle": "Burada ödül için bir resim ve renk seçme seçeneğiniz var."
+    },
+    "constraints": {
+      "subtitle": "Bu ödülü kazanma kriterlerini ve sınırlamalarını belirtin."
+    },
+    "product_input": {
+      "label": "Ürün ödülü",
+      "message": "Ödül için bir ürün seçin (ücretsizdir)"
     }
   },
   "gift_card_types_list": {
@@ -4302,7 +4775,9 @@ export default {
     },
     "dialog_club": {
       "title": "Müşteri kulübü seviyesini ayarla"
-    }
+    },
+    "subtitle": "Müşteriler mağazanıza çeşitli şekillerde eklenebilir; manuel olarak, toplu Excel içe aktarma, POS aracılığıyla veya çevrimiçi mağazanız aracılığıyla. Bir kullanıcı mağazanıza her giriş yaptığında, otomatik olarak müşteri olarak kaydedilir.",
+    "add_customer_action": "Yeni müşteri ekle"
   },
   "app_dashboard": {
     "status": "durumu yayınla",
@@ -4405,7 +4880,11 @@ export default {
     "option_deliver_by_courier": "Seçenek 1: Kuryeleriniz tarafından teslim edin.",
     "option_add_to_que": "Seçenek 2: Sevkiyat hizmeti sayfasında işlenmek üzere kuyruğa ekleyin.",
     "option_instant_shipping": "Seçenek 3: Anında gönderim.",
-    "pickup_action": "Teslim alma onayı"
+    "pickup_action": "Teslim alma onayı",
+    "courier_action": "Teslimat onayı",
+    "courier_action_subtitle": "Kuryem paketinizi teslim alacak.",
+    "pickup_action_subtitle": "Müşteri siparişi aldı.",
+    "service_action": "Yürütme Onayı"
   },
   "shop_home_edit": {
     "title": "Ana sayfa ayarı",
@@ -4431,7 +4910,8 @@ export default {
     "officer": "Subay",
     "amount": "Tutar işlemi",
     "note": "Not",
-    "date": "Tarih"
+    "date": "Tarih",
+    "subtitle": "Bu, para çekme işlemlerinin listesidir. Yönlendirme cüzdanından banka hesabınıza veya Selldone cüzdanınıza para transfer ettiğinizde, burada listelenecektir."
   },
   "widget_shop_gateway": {
     "link_account_caution": "Mağazanıza bir hesap ({currency}) bağlayın! Buraya Tıkla.."
@@ -4720,11 +5200,89 @@ export default {
   "shop_sms": {
     "title": "SMS'i yönet",
     "sub_title": "Müşterilere gönderilen SMS şablonları",
-    "message": "Mağazanız tarafından gönderilen kısa mesajların içeriğini buradan görebilirsiniz. Mesajlaşma servisindeki doğrulama kalıplarının kayıt edilmesindeki sınırlama nedeniyle, şu anda metin mesajlarını kişiselleştirmek mümkün değildir."
+    "message": "Mağazanız tarafından gönderilen kısa mesajların içeriğini buradan görebilirsiniz. Mesajlaşma servisindeki doğrulama kalıplarının kayıt edilmesindeki sınırlama nedeniyle, şu anda metin mesajlarını kişiselleştirmek mümkün değildir.",
+    "tabs": {
+      "templates": "Şablonlar",
+      "provider": "Sağlayıcı"
+    },
+    "manage": {
+      "title": "SMS'i yönet",
+      "subtitle": "Mağazanız tarafından gönderilen kısa mesajların içeriğini buradan görebilirsiniz. Mesajlaşma servisindeki doğrulama kalıplarının kayıt edilmesindeki sınırlama nedeniyle, şu anda metin mesajlarını kişiselleştirmek mümkün değildir."
+    },
+    "template": {
+      "title": "Şablonlar",
+      "valid_message": "Özel SMS mesajları oluşturabilirsiniz.",
+      "provider_not_enable_message": "SMS sağlayıcısı etkinleştirilmemiş!",
+      "need_custom_provider_message": "Kişiselleştirilmiş SMS mesajları yalnızca özel bir sağlayıcı belirlediğinizde çalışır.",
+      "add_new": "Yeni Ekle",
+      "disable_reason": {
+        "set_provider": "Öncelikle sağlayıcınızı belirleyin!",
+        "provider_is_disabled": "Sağlayıcı devre dışı!",
+        "otp": "OTP - Hiçbiri özelleştirilemez!",
+        "select_another_provider": "Başka bir sağlayıcı seçin."
+      },
+      "enable_only_filter": "Yalnızca etkinleştirilenleri göster",
+      "text_template_not_supported_msg": "Sağlayıcınız düz metin mesajlarını desteklemiyor.",
+      "structure_template_not_supported_msg": "Sağlayıcınız yapısal mesajları desteklemiyor.",
+      "structured_data": "Yapılandırılmış Veri",
+      "menu": {
+        "reset_error": "Hataları sıfırla",
+        "send_test": "Test mesajı gönder"
+      }
+    },
+    "template_edit": {
+      "title_add": "Yeni mesaj şablonu ekle",
+      "title_edit": "Mesaj şablonunu düzenle",
+      "config": {
+        "title": "Mesaj Yapılandırması",
+        "subtitle": "SMS sağlayıcınızın web sitesinde SMS mesajı için bir şablon oluşturabilir, ardından kodunu ve veri yapısını burada belirtebilirsiniz. Bu bilgileri, gerçek SMS mesajının oluşturulacağı sağlayıcınıza ileteceğiz.",
+        "code": "kod",
+        "language_msg": "Varsayılan olarak ayarlamak için boş bırakın.",
+        "enable_msg": "Bu şablon mesaj oluşturmak için kullanılacaktır."
+      },
+      "text": {
+        "title": "Düz metin",
+        "subtitle": "Kişiselleştirilmiş bir SMS mesajı buraya girin. Dinamik değerler, kullanıcıya gönderilmeden önce gerçek değerleriyle değiştirilecektir.",
+        "message": "İleti",
+        "reset_to_default": "Varsayılana sıfırla",
+        "auto_fill": {
+          "title": "Otomatik doldurma parametreleri",
+          "subtitle": "Bu parametrelerin her birini metin içerisinde kullanabilirsiniz ve Selldone bunları karşılık gelen değerle değiştirecektir."
+        },
+        "sample": {
+          "title": "Örnek mesaj"
+        }
+      },
+      "template": {
+        "title": "Yapısal şablon",
+        "subtitle": "Şablon anahtarını ve değerini burada ayarlayabilirsiniz. Şablon kodu, SMS servis sağlayıcınızda ayarladığınızla aynı olmalı ve <code>key</code> sağlayıcınızın kodu göndermek istediği şeydir. Şablonun <code>value</code> alanı boşsa, <code>{code}</code> şablon kodu olarak kabul edilecektir.",
+        "add_new_parameter": "Yeni parametre ekle",
+        "auto_fill": {
+          "title": "Otomatik doldurma parametreleri",
+          "subtitle": "Bu parametrelerin her birini bir değer olarak ayarlayabilirsiniz ve Selldone bunları karşılık gelen değerle değiştirecektir. Basitlik açısından varsayılan değerleri SMS sağlayıcınızda şablon olarak tanımlamak daha iyidir. Bu durumda, burada parametre değerleri tanımlamaya gerek kalmayacaktır."
+        },
+        "request": {
+          "title": "Örnek yük"
+        },
+        "sample": {
+          "title": "Örnek şablon mesajı",
+          "subtitle": "Bu şablonu kopyalayıp SMS sağlayıcınıza yapıştırabilirsiniz."
+        },
+        "add_message_action": "Mesaj şablonu ekle"
+      }
+    }
   },
   "shop_emails": {
     "title": "E-postaları yönet",
-    "sub_title": "Mağaza tarafından müşterilere ve yöneticilere gönderilen e-postaların listesini bu bölümde göreceksiniz. E-postalar, mağazanız için girdiğiniz bilgilere göre otomatik olarak tasarlanır ve oluşturulur. Ayrıca, mesajların ve resimlerin kişiselleştirilmesi olasılığı gelecekte halka açık olacaktır."
+    "sub_title": "Mağaza tarafından müşterilere ve yöneticilere gönderilen e-postaların listesini bu bölümde göreceksiniz. E-postalar, mağazanız için girdiğiniz bilgilere göre otomatik olarak tasarlanır ve oluşturulur. Ayrıca, mesajların ve resimlerin kişiselleştirilmesi olasılığı gelecekte halka açık olacaktır.",
+    "tabs": {
+      "preferences": "tercihler",
+      "templates": "Şablonlar",
+      "provider": "Sağlayıcı"
+    },
+    "preferences": {
+      "title": "Bildirim e-postaları"
+    }
   },
   "instagram": {
     "title": "Instagram'da Satış",
@@ -4914,7 +5472,13 @@ export default {
     },
     "notifications": {
       "delete_success": "Dosya başarıyla silindi."
-    }
+    },
+    "drag_sort_msg": "Dosyaları sürükleyip sıralayabilirsiniz.",
+    "paid_mode_msg": "Kullanıcılar ürünü satın aldıktan sonra indirebilirler.",
+    "free_mode_msg": "Kullanıcılar bunu ücretsiz olarak indirebilirler. Örnek dosyalar 50 MB'ın altında olmalıdır.",
+    "has_gust_shopping_msg": "Mağazanın ayarlar > akış kısmında misafir satın alımları aktif olduğundan kayıtlı ve misafir kullanıcılar dosya indirebilirler.",
+    "only_registered_shopping_msg": "Örnek dosyaları yalnızca kayıtlı kullanıcılar indirebilir.",
+    "file_count_limit": "Dosya sayısı sınırı"
   },
   "notification_top_bar": {
     "free_charge": "🎊 {amount} ücreti alın ve {amount_total} kredi alın.",
@@ -4926,7 +5490,20 @@ export default {
   },
   "selldone_applications": {
     "title": "Siparişlerinizi kaçırmayın!",
-    "msg": "İşinizi her yerde ve her zaman yönetin."
+    "msg": "İşinizi her yerde ve her zaman yönetin.",
+    "scan_qr_code": "Beni telefonunuzla tarayın!",
+    "notification": {
+      "title": "Bildirim",
+      "subtitle": "Yeni sipariş bildirimi alın."
+    },
+    "order": {
+      "title": "Emirler",
+      "subtitle": "Siparişlerinizi görün ve yönetin."
+    },
+    "product": {
+      "title": "Ürün:% s",
+      "subtitle": "Stok yönetimi ve ürün planlaması."
+    }
   },
   "shop_seo": {
     "title": "SEO Yapılandırması",
@@ -4995,7 +5572,16 @@ export default {
   },
   "shops_list": {
     "title": "Benim dükkanlarım",
-    "message": "Kendi mağazalarımın, izin verilen ve örnek mağazaların listesi."
+    "message": "Kendi mağazalarımın, izin verilen ve örnek mağazaların listesi.",
+    "sample": {
+      "title": "Örnek Mağazalar",
+      "subtitle": "Burada, örnek mağazalardan bir seçki keşfedebilirsiniz. Bu mağazalarda bulunan bilgileri incelemeniz için izin verilmiştir. Ancak, gerçek kişisel bilgileri kullanarak oturum açmaktan veya sipariş vermekten lütfen kaçının, çünkü bu veriler herkese açık olacaktır. Bilgilerinizi yanlışlıkla buraya girerseniz, lütfen mağazadan çıkın ve daha fazla yardım için bizimle iletişime geçin."
+    },
+    "add_new_store": "Yeni Mağaza Ekle",
+    "i_have_a_deal": "Bir anlaşmam var",
+    "access": {
+      "title": "Erişim Davetiyesi"
+    }
   },
   "shipping": {
     "warehouse_error": "Önce deponuzu kurun! Bu adres, nakliyenin menşei olarak kullanılacaktır.",
@@ -5025,7 +5611,8 @@ export default {
       "delete_action": "Kategoriyi sil",
       "add_action": "Kategori ekle",
       "edit_action": "Kategoriyi düzenle"
-    }
+    },
+    "subtitle": "Blog yazılarınızı daha verimli bir şekilde yönetmek için sınırlı sayıda kategori oluşturabilirsiniz. Kategori sınırına sahip olmak web sitenizde daha iyi bir organizasyon sağlar. Özellikle, en iyi haber ajansları bile yönetimi kolaylaştırmak ve daha geniş bir odak sağlamak için genellikle 100'den az olmak üzere sınırlı sayıda kategori bulundurur."
   },
   "about_us": {
     "title": "Hakkımızda sayfası",
@@ -5063,7 +5650,8 @@ export default {
       "title": "Paket Etiketleri",
       "subtitle": "Seçilen dönem ve durumdaki tüm sipariş etiketlerinin listesini indirin. Sonuç yalnızca ücretli ve COD siparişlerini içerir.",
       "export_title": "Kutu etiketleri"
-    }
+    },
+    "subtitle": "Toplu sipariş işlemleri için etiketleri dışa aktarın ve indirin - günlük 100'den fazla siparişi yönetmek için idealdir."
   },
   "customers_funnel": {
     "title": "Müşteri Demografisi",
@@ -5782,6 +6370,1759 @@ export default {
         "Şans çarkı dönüyor; şanslı ödülünüzü yakalayın!",
         "Döndürün, kazanın ve gülümseyin; her fırsatta sürpriz ödüller kazanın.",
         "Bir dönüş yapın ve bırakın, ödülünüz kaderin belirlesin!"
+      ]
+    },
+    "subscription_price": {
+      "title": [
+        "Temel Erişim",
+        "Premium Üyelik",
+        "Altın Paket",
+        "Gümüş Plan",
+        "Platin Abonelik",
+        "Kurumsal Katman",
+        "Başlangıç Paketi",
+        "Sınırsız Teklif",
+        "Aile Paketi",
+        "Profesyonel Süit"
+      ],
+      "description": [
+        "Temel bilgileri keşfetmek isteyen kişiler için idealdir.",
+        "Tüm premium özelliklere ve içeriklere erişim.",
+        "Ayrıcalıklı avantajlar ve öncelikli destek.",
+        "Düzenli kullanıcılar için dengeli bir paket.",
+        "En üst düzey ayrıcalıklarla nihai erişim.",
+        "Büyük kuruluşlara özel çözümler.",
+        "Uygun fiyatlı bir giriş seviyesi seçeneği.",
+        "İleri düzey kullanıcılar için kullanımda hiçbir sınırlama yok.",
+        "4 kişiye kadar olan ailelere özel plan.",
+        "Gelişmiş araçlar arayan profesyoneller için tasarlanmıştır."
+      ]
+    },
+    "spec": {
+      "group": [
+        "Teknik özellikler",
+        "Fiziksel Boyutlar",
+        "Performans Özellikleri",
+        "Bağlantı Seçenekleri",
+        "Güç Gereksinimleri",
+        "Malzeme ve Yapı Kalitesi",
+        "Renk ve Bitiş Seçenekleri",
+        "Depolama ve Bellek",
+        "İşletim Sistemi Uyumluluğu",
+        "Güvenlik ve Uyumluluk",
+        "Paket İçeriği",
+        "Garanti ve Destek",
+        "Marka ve Üretici",
+        "Çevre Dostu",
+        "Enerji Verimliliği",
+        "Bakım ve Onarım",
+        "Özelleştirme Seçenekleri",
+        "Dahil Aksesuarlar",
+        "Kullanıcı Puanları ve İncelemeleri",
+        "Fiyatlandırma ve Kullanılabilirlik"
+      ]
+    },
+    "avocado": {
+      "title": [
+        "Satınalma Makbuzu",
+        "Satış Onayı",
+        "Sipariş Faturası",
+        "Ödeme Faturası",
+        "Müşteri Makbuzu",
+        "İşlem Özeti",
+        "Fatura Beyanı",
+        "Ödeme Makbuzu",
+        "Sipariş Özeti",
+        "Satınalma Siparişi Faturası",
+        "Satış Fişi",
+        "Perakende Fatura",
+        "E-Makbuz",
+        "Hizmet Faturası",
+        "Ürün Faturası",
+        "Ödeme Makbuzu",
+        "Sipariş Onayı",
+        "Fatura Fatura",
+        "Ödeme Faturası",
+        "Müşteri Faturası"
+      ],
+      "message": [
+        "Satın aldığınız için teşekkür ederiz!",
+        "İşinize değer veriyoruz.",
+        "Siparişiniz yola çıktı!",
+        "Bizden alışveriş yaptığınız için teşekkür ederiz.",
+        "Sizlere tekrar hizmet vermekten mutluluk duyarız.",
+        "Memnuniyetiniz bizim için en önemli önceliktir.",
+        "Deneyiminizi puanlamayı unutmayın.",
+        "Mağazamızı desteklediğiniz için teşekkür ederiz.",
+        "Yeni satın aldığınız ürünün tadını çıkarmanızı dileriz!",
+        "Faturanızı ileride referans olması açısından saklayın.",
+        "Daha harika ürünler için bizi tekrar ziyaret edin.",
+        "Özel teklifler için bağlantıda kalın.",
+        "Değerli müşterimiz olduğunuz için teşekkür ederiz.",
+        "Yardıma ihtiyacınız varsa size yardımcı olmak için buradayız.",
+        "Geri bildirimleriniz gelişmemize yardımcı olur.",
+        "Bir sonraki alışverişinizde özel indirimin tadını çıkarın.",
+        "Çok güzel bir seçim yapmışsınız!",
+        "Bize olan güveniniz için teşekkür ederiz.",
+        "Geri bildirimlerinizi bekliyoruz.",
+        "Ekibimiz adına yürekten teşekkür ederiz."
+      ]
+    },
+    "map_tag": {
+      "title": [
+        "Emlak Vitrini",
+        "Satıcı Plazası",
+        "Öne Çıkan Evler",
+        "Yerel Pazar",
+        "Yeni gelenler",
+        "Emlak Bahçeleri",
+        "Alışveriş Bölgesi",
+        "Zanaatkar Sokağı",
+        "Lüks Emlaklar",
+        "Kiralama Merkezi",
+        "Açık Evler",
+        "Teknoloji Yenilikleri",
+        "Moda Yolu",
+        "El Sanatları Köşesi",
+        "Yemek Alanı",
+        "Kitap Köşesi",
+        "Mücevher Kavşağı",
+        "Antik Cadde",
+        "Fitness Alanı"
+      ]
+    },
+    "marketplace_document": {
+      "title": [
+        "İşletme Kayıt Belgesi",
+        "Vergi Kimlik Numarası (TIN)",
+        "Satıcı Anlaşması Formu",
+        "Ürün Kataloğu",
+        "Fiyat Listesi",
+        "Banka Hesap Detayları",
+        "Adres Kanıtı",
+        "Sigorta Sertifikası",
+        "Şirket Profili",
+        "Kalite Güvence Belgesi",
+        "Güvenlik Bilgi Formu (SDS)",
+        "Ürün Garanti Bilgileri",
+        "İade politikasi",
+        "Nakliye ve Taşıma Prosedürleri",
+        "Müşteri Hizmetleri Politikası",
+        "Pazarlama ve Promosyon Planları",
+        "Sosyal Medya Bağlantıları",
+        "Ticaret Referansları",
+        "Tedarikçi Davranış Kuralları",
+        "Gizlilik Sözleşmesi (NDA)"
+      ]
+    },
+    "expert_contract": {
+      "title": [
+        "Pazar Yeri Kurulum Hizmetleri Sözleşmesi",
+        "Mağaza Yapılandırma Sözleşmesi",
+        "Baskı-İsteğe Bağlı Hizmetler Sözleşmesi",
+        "Dijital Pazarlama Hizmet Sözleşmesi",
+        "E-ticaret Platformu Kurulum Sözleşmesi",
+        "İşletme Sahipleri İçin Uzman Danışmanlık Sözleşmesi",
+        "Pazar Yeri Yapılandırması için Hizmet Sözleşmesi",
+        "Mağaza Kurulum ve Yapılandırma Hizmetleri Sözleşmesi",
+        "POD Hizmet Sağlama Sözleşmesi",
+        "Pazarlama Stratejisi Uygulama Sözleşmesi",
+        "İş Geliştirme Hizmet Sözleşmesi",
+        "E-ticaret Mağaza Kurulum Sözleşmesi",
+        "Uzman Hizmet Sağlama Sözleşmesi",
+        "İş Çözümleri ve Kurulum Sözleşmesi",
+        "Özel Mağaza Kurulum Hizmetleri Sözleşmesi",
+        "Pazar Yeri Optimizasyon Hizmet Sözleşmesi",
+        "Danışmanlık ve Kurulum Hizmetleri Sözleşmesi",
+        "POD Entegrasyon Hizmetleri Anlaşması",
+        "Pazarlama ve Tanıtım Hizmetleri Sözleşmesi",
+        "İş Genişletme Hizmet Sözleşmesi"
+      ]
+    },
+    "account": {
+      "account_name": [
+        "Ana Cüzdan",
+        "İşletme Hesabı",
+        "Kişisel Cüzdan",
+        "Tasarruf Cüzdanı",
+        "Gider Hesabı",
+        "Birincil Cüzdan",
+        "Genel Hesap",
+        "Rezerv Cüzdanı",
+        "İşlem Cüzdanı",
+        "Fon Hesabı"
+      ]
+    },
+    "cashback": {
+      "title": [
+        "Alışveriş yapın ve Nakit Geri Ödeme Kazanın",
+        "Sadakat Ödülleri Geri Ödemesi",
+        "Özel Nakit İade Teklifleri",
+        "Geri ödeme bonanzası",
+        "Anında Nakit İade Fırsatları",
+        "Mevsimsel Nakit İade Tasarrufları",
+        "Çift Nakit İade Günleri",
+        "Her Satın Alma İşleminde Nakit İade",
+        "Nakit İade Çılgınlığı",
+        "VIP Nakit İade Programı",
+        "Sınırlı Süreli Nakit İade",
+        "Nakit İade Ödül Kulübü",
+        "Daha Fazla Alışveriş Yapın, Daha Fazla Tasarruf Edin",
+        "En İyi Geri Ödeme Ödülleri",
+        "Nakit İade Ekstravaganzası"
+      ],
+      "description": [
+        "Her alışverişinizde geri ödeme kazanın!",
+        "Sadakatinizin karşılığını alın.",
+        "Sadece size özel geri ödeme teklifleri.",
+        "Nakit iade ödülleriyle büyük tasarrufların tadını çıkarın.",
+        "En sevdiğiniz tüm ürünlerde anında geri ödeme.",
+        "Sezonluk geri ödeme fırsatlarıyla daha fazla tasarruf edin.",
+        "Özel günlerde nakit iadenizi iki katına çıkarın!",
+        "Her alışverişinizde geri ödeme kazanın.",
+        "Bugün nakit iade çılgınlığına katılın!",
+        "VIP üyeler özel geri ödeme avantajından yararlanır.",
+        "Acele edin! Sınırlı süreli geri ödeme teklifleri.",
+        "Şimdi Cashback Ödül Kulübümüze katılın.",
+        "Ne kadar çok alışveriş yaparsanız o kadar çok tasarruf edersiniz.",
+        "En büyük geri ödeme ödüllerinin kilidini açın.",
+        "En iyi geri ödeme fırsatlarını deneyimleyin."
+      ]
+    },
+    "page": {
+      "prompts": [
+        "{shop}'a hoş geldiniz - Ayrıcalıklı Ürün Yelpazemizi Keşfedin",
+        "{shop} - Kaliteli Ürünler ve Üstün Hizmet için En İyi Kaynağınız",
+        "Sadece {shop}'ta Özel Fırsatlar ve Tasarruflar - Fırsatı Yakalayın!",
+        "{shop}'un Çevre Dostu ve Etik Uygulamalara Olan Bağlılığını Tanıyın",
+        "{shop} Ailesinin Bir Parçası Olun - Güncellemeler İçin Bültenimize Abone Olun",
+        "{shop}'ta En İyi Seçimlere ve Yüksek Puanlı Ürünlere Göz Atın",
+        "{shop}'ta Tüm Etkinlikler İçin Fikirler ve Yaratıcı Öneriler Sunun",
+        "{shop}'ta Eşsiz Teklifler ve Zamana Duyarlı Özel Fırsatlar - Hemen Harekete Geçin!",
+        "{shop}'un Kapsamlı Satın Alma İpuçları ve Ürün Değerlendirmeleri - Güvenle Alışveriş Yapın",
+        "{shop} ile iletişime geçin - Eşsiz Bir Alışveriş Deneyimi Sunmak İçin Çabalıyoruz"
+      ]
+    },
+    "cross_selling": {
+      "message": [
+        "Görünümünüzü tamamlayın, seti alın!",
+        "Paket fırsatlarımızla büyük tasarruf edin!",
+        "Mükemmel eşleşmelerimizi kaçırmayın!",
+        "Satın alımınızı geliştirin, eklentiler sizi bekliyor!",
+        "Özel indirimlerin kilidini açın, birlikte satın alın!",
+        "Tamamlayıcı ürünler, özel indirimler!",
+        "Daha fazlasını alın, daha az harcayın – sıkı giyinin!",
+        "Sınırlı süreli teklif: eşleşen ürünler!",
+        "Deneyiminizi bir üst seviyeye taşıyın, kombo fırsatları!",
+        "Özenle seçilmiş kombinasyonlarımızı keşfedin, hemen tasarruf edin!",
+        "En iyi kombinasyon için bunları bir araya getirin!",
+        "Akıllıca alışveriş yapın, paket yapın ve tasarruf edin!",
+        "Değeri ikiye katlayın, eğlenceyi ikiye katlayın!",
+        "Mükemmel eşleşmeniz burada – hemen alışveriş yapın!",
+        "Sadece size özel paket fiyatları!",
+        "Kombolarımızla tasarruflarınızı maksimize edin!",
+        "Bu seçimlerle koleksiyonunuzu zenginleştirin!",
+        "Sizin için derledik: Eşleştir ve kaydet!",
+        "Mükemmel bir gün için mükemmel ikili!",
+        "Favorilerinizi paketleyerek ekstra tasarruf edin!"
+      ]
+    }
+  },
+  "ai": {
+    "remove_bg": {
+      "title": "Arkaplanı Kaldır",
+      "subtitle": "Şeffaf arka plan oluştur."
+    },
+    "reimagine": {
+      "title": "Yeniden hayal et",
+      "subtitle": "Yeni arka planlarla daha fazla resim oluşturun."
+    }
+  },
+  "extra_pricing_add_dialog": {
+    "title": "{min} üzeri için Ek Fiyatlandırma",
+    "subtitle": "Sistem fiyat hesaplaması için sırayı ve önceliği otomatik olarak belirler. Lütfen bu fiyatlandırmanın geçerli olması için gereken minimum miktarı girin.",
+    "min_quantity": "Minimum miktar"
+  },
+  "product_inventory_management_physical": {
+    "subtitle": {
+      "dropshipping": "Dropshipping ürünlerinin envanteri toptancılar tarafından belirlenir ve burada değiştirilemez.",
+      "marketplace": "Pazaryerindeki genel ürün envanteri, tüm tedarikçilerin envanterlerinin toplanmasıyla belirlenir. Bunu burada değiştiremezsiniz.",
+      "default": "Ürünün stok sayısını buraya belirtin."
+    }
+  },
+  "google_product_category_input": {
+    "label": "Google ürün kategorisi kodu",
+    "hint": "Ürününüzün Google'ın ürün sınıflandırmasına göre kategorisini temsil eder.",
+    "placeholder": "Ürün veya hizmet kategorisini girin. (İsteğe bağlı)"
+  },
+  "LogisticProfileType": {
+    "WARRANTY": {
+      "title": "Garanti",
+      "desc": "Garanti, üreticinin belirli bir süre içinde bir ürünü onarmayı veya değiştirmeyi vaat ettiği bir sözleşmenin parçasıdır. Bu taahhüt, üreticiyle doğrudan sözleşmesi olmayan tüketicilere bile uzanabilir."
+    },
+    "RETURN_POLICY": {
+      "title": "İade politikasi",
+      "desc": "İade politikaları, müşterilerin istenmeyen ürünleri nasıl iade edebileceklerini veya değiştirebileceklerini ana hatlarıyla belirtir. Uygun ürünleri, kabul edilebilir iade nedenlerini ve iade yapma zaman çerçevesini belirtirler."
+    },
+    "GUIDE": {
+      "title": "Kılavuz",
+      "desc": "Bir rehber, giyim için bir beden tablosu veya elmaslar için bir seçim rehberi içerebilir. Rehberlerin çok yönlü ve birden fazla ürüne uygulanabilir olması önemlidir."
+    },
+    "SHIPPING": {
+      "title": "Nakliye",
+      "desc": "Gönderim politikası, çevrimiçi siparişler için gönderim maliyetleri, yöntemleri ve tahmini teslimat süreleri dahil olmak üzere gönderimin temel yönlerini ayrıntılı olarak açıklar."
+    }
+  },
+  "product_logistic_profile": {
+    "dialog": {
+      "title": "Lojistik profili seçin",
+      "add_new_action": "Yeni Profil Ekle",
+      "add_new_disable_msg": "Pazar yeri sahibi"
+    }
+  },
+  "product_tax_profile": {
+    "description": {
+      "default": "Varsayılan",
+      "dedicated": "Özel",
+      "subscription": "Sadece ödeme oluşturma adımında vergi uygulayabiliriz.",
+      "is_disabled": "Bu vergi profili devre dışı bırakıldı! (⚠️Uyarı)",
+      "shipping": "Nakliye",
+      "fixed_rate": "TAX",
+      "location_based_rate": "Vergi: Konuma dayalı",
+      "shipping_location_based_rate": "Kargolama: Konum bazlı",
+      "include_in_price": "Fiyata dahil"
+    },
+    "dialog": {
+      "header": "Vergi profilini seçin",
+      "title": "Vergi profili",
+      "subtitle": "Ürüne belirli vergi düzenlemeleri atayabilirsiniz. Ürün için bir vergi profili seçilmezse, varsayılan mağaza vergi düzenlemeleri uygulanacaktır.",
+      "action_manage": "Vergiyi yönet",
+      "action_manage_sub": "Mağaza > Finans > Vergi",
+      "subscription_tips": "Abonelik ürünü için bir vergi profili seçtiğinizde, <code>tax code</code> güncelleriz ve ödeme hizmeti sağlayıcınızda dahil/hariç modunu ayarlarız. Seçilen vergi profili, fiyatın vergiler dahil mi yoksa vergiler hariç mi kabul edileceğini belirtir. <code>inclusive</code> veya <code>exclusive</code> olanlardan biri. Dahil veya hariç olarak belirtildikten sonra değiştirilemez.<br /><br /> <b>Önemli!</b> Vergi profilinizi değiştirdikten sonra Ürün > Envanter sekmesindeki fiyatlandırma planlarına tıklamalı ve değişiklikleri uygulamak için Kaydet butonuna tıklamalısınız."
+    }
+  },
+  "product_vendor_profile": {
+    "vendor": {
+      "subtitle": "Bu ürünün fiyatı ve miktarı, ürünün ait olduğu belirli bir satıcı tarafından belirlenir."
+    },
+    "vendors": {
+      "subtitle": "İşte ürün için tedarikçilerin bir listesi. Miktar ve fiyat tedarikçiler tarafından belirlenecektir."
+    }
+  },
+  "vendor_add": {
+    "profile": {
+      "title": "Satıcı bilgisi",
+      "subtitle": "Bu bilgiler müşterilere açık olarak gösterilir.",
+      "action_sub_caption": "Genel ürün listeleme sayfası.",
+      "action_see_listing_page": "Listeleme Sayfasına Bakın"
+    },
+    "page": {
+      "title": "Özel sayfa",
+      "subtitle": "Satıcı için özel bir açılış sayfası ayarlayın ve onlara özel sayfalarına giden benzersiz bir bağlantı sağlayın.",
+      "action_set_page": "Genel Sayfayı Gör",
+      "action_sub_caption": "Özel açılış sayfası.",
+      "vendor_has_landing_msg": "Satıcının özel bir açılış sayfası var.",
+      "no_landing_selected_msg": "Hiçbir açılış sayfası seçilmedi.",
+      "no_landing_page": "Açılış sayfası yok",
+      "we_can_create_dedicated_landing_msg": "Sizin için özel bir açılış sayfası oluşturabiliriz."
+    },
+    "contact": {
+      "title": "İletişim bilgileri",
+      "subtitle": "Lütfen geçerli iletişim bilgilerinizi sağlayın."
+    },
+    "business": {
+      "title": "İş bilgisi",
+      "subtitle": "Gelir tahsilat sürecinin hızlı ve sorunsuz bir şekilde gerçekleşmesi için lütfen işletmeniz hakkında doğru bilgiler verin."
+    },
+    "bank": {
+      "title": "Ödeme Bilgileri",
+      "subtitle": "Ödemeler için banka bilgilerinizi buraya girin."
+    },
+    "default_pricing": {
+      "title": "Varsayılan Fiyatlandırma",
+      "subtitle": "Satıcı için varsayılan bir fiyatlandırma modeli atayabilirsiniz. Satıcı yeni bir ürün eklediğinde, bu fiyatlandırma modeli ürünün fiyatındaki pazar yeri marjını hesaplamak için kullanılır. Daha sonra her ürün için fiyatlandırma modelini ayrı ayrı ayarlayabilirsiniz.",
+      "no_pricing": "Fiyatlandırma yok"
+    },
+    "shipping": {
+      "title": "Nakliye",
+      "subtitle": "Satıcılar kendi nakliye hizmetlerini ve kuryelerini kurabilirler.",
+      "shipping_services": "Nakliye Hizmetleri",
+      "total_number_of_services": "Satıcının sahip olduğu toplam nakliye hizmeti sayısı.",
+      "couriers": "kuryeler",
+      "total_couriers_count": "Satıcının sahip olduğu toplam kurye sayısı."
+    },
+    "configuration": {
+      "title": "Yapılandırma"
+    },
+    "delete": {
+      "title": "Satıcıyı kaldır",
+      "action": "Satıcıyı kaldır",
+      "verify_description": "Tüm satıcı ürün ilişkilerinin kaldırılacağını biliyorum!",
+      "verify_title": "Bu satıcıyı silmek istiyorum."
+    },
+    "send_invitation_tips": "Bu kullanıcıya bir davet e-postası göndereceğiz. Kullanıcı mağazanıza satıcı olarak katılırsa, hesabı otomatik olarak kendisine atanacaktır.",
+    "only_marketplace_owner_can_edit_user": "Kullanıcıyı yalnızca pazar yeri sahibi düzenleyebilir. Bu satıcının sahibini değiştirmek istiyorsanız, talebi bize gönderebilirsiniz.",
+    "vendor_is_disable_msg": "Satıcı devre dışı bırakıldı.",
+    "email_not_match_with_user_msg": "Girilen e-posta, kullanıcının e-postasıyla ( <b>{user_name}:</b> {user_email}) eşleşmiyor. <b>{email}</b> adresine e-posta göndermek istediğinizden emin misiniz?",
+    "we_will_send_invitation_to_user_msg": "Kullanıcıya bir davet e-postası göndereceğiz.",
+    "set_a_user_for_the_vendor_first_msg": "Öncelikle satıcı için bir kullanıcı belirleyin.",
+    "inputs": {
+      "slug": {
+        "label": "Yol",
+        "placeholder": "Özel bir yol girin...",
+        "hint": "Satıcının dinamik açılış sayfasının yolunu değiştirin."
+      },
+      "email": {
+        "message": "Bu e-posta tüm bildirimleri ve güncellemeleri alacaktır."
+      },
+      "business": {
+        "false_description": "Ben bireysel olarak çalışıyorum.",
+        "true_description": "Yasal olarak tanınan bir işletme kuruluşu olarak faaliyet gösteriyorum.",
+        "false_title": "Bireysel",
+        "true_title": "İşletme"
+      },
+      "bank": {
+        "hint": "Satıcının hesabının bulunduğu bankanın adı.",
+        "placeholder": "Banka adınız.."
+      },
+      "account_name": {
+        "hint": "Bu, banka hesabınızla ilişkili adla eşleşmelidir.",
+        "placeholder": "Adınız.."
+      },
+      "account_number": {
+        "hint": "Satıcının benzersiz hesap numarası.",
+        "placeholder": "Banka hesap numaranız."
+      },
+      "routing_number": {
+        "hint": "Bu numara ülkeye göre değişir. Satıcının kullandığı belirli banka şubesini tanımlamak için kullanılır.",
+        "placeholder": "Banka yönlendirme numaranız, şube kodunuz veya BSB numaranız."
+      },
+      "iban": {
+        "hint": "Uluslararası Banka Hesap Numarası): Satıcının bankası Avrupa'da veya diğer bazı ülkelerde ise.",
+        "placeholder": "IBAN numaranız.. örneğin DE89 3704 0044 0000 0000 00"
+      },
+      "swift": {
+        "hint": "Uluslararası Banka Hesap Numarası): Satıcının bankası Avrupa'da veya diğer bazı ülkelerde ise.",
+        "placeholder": "Swift kodunuz/BIC'iniz.."
+      },
+      "branch_address": {
+        "hint": "Satıcının hesabının bulunduğu banka şubesinin adresi.",
+        "placeholder": "Banka adresiniz.."
+      },
+      "enable": {
+        "label": "Satıcı durumu",
+        "hint": "Satıcıları global olarak etkinleştirebilir veya devre dışı bırakabilirsiniz. Müşteriler devre dışı bırakılan satıcılardan hiçbir şey satın alamayacaktır.",
+        "true_description": "Ürünlerini pazaryeriniz aracılığıyla satabilecekler."
+      },
+      "access": {
+        "label": "Satıcı paneli ve erişimi",
+        "true_description": "Tedarikçinin miktar ve fiyatı güncellemek için özel bir paneli bulunmaktadır.",
+        "hint": "Tedarikçilerin ürün miktarlarını ve fiyatlarını güncellemelerine ve kısmi siparişler almalarına olanak tanıyan tedarikçi panelini etkinleştirebilir veya devre dışı bırakabilirsiniz.",
+        "false_description": "Satıcının hiçbir şeye erişimi yok."
+      }
+    }
+  },
+  "vendor_documents_list": {
+    "title": "Belgeler",
+    "action_upload_doc": "Belgeyi Yükle",
+    "vendor_subtitle": "Lütfen gerekli iş, IP ve adres doğrulama belgelerini yükleyin. Ortaklığınızı onaylamak ve size gerekli erişimi sağlamak için bu bilgilere ihtiyacımız var.",
+    "marketplace_subtitle": "Satıcılar, KYC süreçlerini kolaylaştırmak için işletme, fikri mülkiyet ve adres doğrulaması gibi belgeleri gönderebilir ve böylece onlara uygun erişimi sağlayabilirsiniz.",
+    "upload_dialog": {
+      "title": "Belgeyi Yükle",
+      "type": {
+        "title": "Belge Türü",
+        "subtitle": "Lütfen yalnızca gerekli belgeleri yükleyin. Hassas bilgiler içeren belgeleri paylaşmaktan kaçının. Herkese açık olan belgeleri talep ediyoruz."
+      }
+    }
+  },
+  "product_badges": {
+    "title": "Rozetler",
+    "subtitle": "Özel ürün rozetlerini ekleyin ve düzenleyin.",
+    "only_marketplace_owner_msg": "Sadece pazar yeri sahipleri",
+    "create_new_badge_action": "Yeni rozet oluştur",
+    "select_a_badge": "Bir rozet seçin...",
+    "inputs": {
+      "custom": {
+        "false_description": "Ürün rozetleri otomatik olarak oluşturulur.",
+        "false_title": "Oto",
+        "true_title": "Özel ürün rozetleri",
+        "true_description": "Ürün sayfasına özel rozetler ekleyin."
+      }
+    },
+    "add_custom_badge": {
+      "title": "Özel rozet",
+      "subtitle": "Mağazama yeni bir özel rozet ekle. Rozet sayısını 10'un altında tut. Daha fazla rozet mağazanı yavaşlatır.",
+      "show_advanced_options": "Gelişmiş seçeneği göster",
+      "inputs": {
+        "title": {
+          "placeholder": "Kamu ünvanı..."
+        },
+        "image": {
+          "label": "görüntü",
+          "message": "Maksimum resim boyutu: 128KB",
+          "placeholder": "Bir kapak resmi seçin"
+        },
+        "pattern": {
+          "label": "Model",
+          "message": "Bu rozeti, spesifikasyonlarında bu eşleşen değere sahip ürünler için otomatik olarak göster. Regex destekleniyor.",
+          "placeholder": "Tüm ürünler için göstermek için şunu yazın: *.*"
+        }
+      },
+      "notifications": {
+        "badge_added": "Rozet başarıyla eklendi!",
+        "badge_updated": "Rozet başarıyla güncellendi!",
+        "item_not_found_error": "Öğe bulunamadı. Lütfen sayfayı yenileyin veya destek ile iletişime geçin."
+      }
+    }
+  },
+  "product_tags": {
+    "title": "Etiketler",
+    "tips": [
+      "<b>Açılış sayfalarındaki</b> etiketlere göre ürünleri filtreleyebilirsiniz.",
+      "Siz ve müşterileriniz bu etiketleri <b>arama</b> çubuğunda arayabilirsiniz.",
+      "Etiketler ayarlandığında, ürün sayfasındaki <b>ilgili ürünler bölümünde</b> yalnızca <b>ortak etikete</b> sahip ürünler gösterilecektir; aksi takdirde aynı kategorideki ürünler gösterilecektir."
+    ],
+    "inputs": {
+      "tags": {
+        "placeholder": "Tel etiketleri buraya ve enter'a basın. örn. yeni koleksiyon"
+      }
+    },
+    "notifications": {
+      "tags_updated": "Etiketler başarıyla güncellendi."
+    }
+  },
+  "vendor_shipping_services": {
+    "title": "Nakliye",
+    "subtitle": "Burada kargolama hizmetleri ve kuryeler ekleyebilirsiniz. Kargolama hizmetleri ve kuryeler, pazar yeri tarafından tanımlanan önceden tanımlanmış taşıma yöntemleri altında olmalıdır. Kargolama hizmetleri ve kuryeler ekleyerek, siparişleri bunlara kolayca atayabilir ve otomatik olarak etiket veya kurye siparişi verebilirsiniz.",
+    "action": "Hizmet Ekle",
+    "add_dialog": {
+      "select_method": "Yöntemi Seçin",
+      "select_method_msg": "Lütfen aşağıdaki listeden bir ulaşım yöntemi seçin. Gönderim yöntemleri pazaryeri tarafından tanımlanır.",
+      "select_service_msg": "Aşağıdaki listeden bir kargo hizmeti seçin. Burada yalnızca mağazanıza eklenebilecek mevcut hizmetler görüntülenir.",
+      "no_available_service": "Kullanılabilir hizmet bulunamadı!"
+    }
+  },
+  "product_location_profile": {
+    "title": "Konum",
+    "empty_subtitle": "Ürün konum tabanlı bir ürünse, ürüne bir konum atayın.",
+    "dialog": {
+      "header": "Konum profilini seçin",
+      "action_new_location": "Yeni konum ekle",
+      "title": "Konum Profili",
+      "subtitle": "Ürünlere konum etiketleri atayarak onları harita konumuna sabitleyebilirsiniz.",
+      "tips": "<b>Önemli:</b> Ürünü <b>yalnızca</b> haritada belirli bir konumda göstermek istiyorsanız ürüne bir konum atayın. İstenen ürünün ana özelliği olarak konum olmalıdır, örneğin <b>kiralık evler/yerler</b> veya <b>Kuaförlük ve Spa</b> gibi şahsen hizmet verenler."
+    }
+  },
+  "translation_button": {
+    "header": "Çok Dilli",
+    "auto_action": "Otomatik Çeviri",
+    "premium_user_only": "Premium Kullanıcılar"
+  },
+  "product_include_profile": {
+    "subtitle": "Ürün veya hizmet paketiyle birlikte gelen öğelerin bir listesini ekleyin.",
+    "dialog": {
+      "header": "Ürün Paket Öğeleri",
+      "title": "Dahil edilen ürünler",
+      "subtitle": "Bu ürünle birlikte gelen öğelerin bir derlemesidir.",
+      "action_manage": "Öğeleri yönet",
+      "action_disable_msg": "Pazar yeri sahibi",
+      "select_items_tips": "Ürün veya hizmetle birlikte gelen paket bileşenlerini oluşturun veya seçin. Müşterilerin ürünü satın aldıklarında ne bekleyebileceklerini vurgulamak için bu özelliği kullanın. Bu işlevi yalnızca müşterinin dahil edilen içerikleri anlamasının hayati önem taşıdığı durumlarda, örneğin akıllı telefon satın alırken kullanmanızı öneririz.",
+      "create_item_tips": "Alternatif olarak, yeni bir öğe ekleyebilirsiniz. Kare resimler kullanın, çünkü yüklenen resimleri otomatik olarak 256x256 kare formatına yeniden boyutlandıracağız. Tüm şablonlarda en iyi görünümü sağlamak için şeffaf arka planlı minimalist resimler kullanın ve tüm ürünleriniz için tutarlı bir desen koruyun.",
+      "create_new_item_action": "Yeni dahil edilen öğeyi oluştur"
+    }
+  },
+  "transportation_eligible": {
+    "subtitle": "Gönderim hizmetleri, sağlanan boyuta ve ağırlığa bağlıdır."
+  },
+  "bulk_price_dialog": {
+    "title": "Toplu işlemler > Fiyat",
+    "message": "Aşağıdaki tutar mağazanızdaki tüm ürünlerin fiyatına yüzde olarak uygulanacaktır. Ayrıca, hesaplanan fiyat değerleri seçilen para birimine göre en yakın yuvarlak sayıya akıllıca dönüştürülecektir. Değerleri girerken dikkatli olun.",
+    "check": "Fiyat değişikliklerini onaylıyorum.",
+    "check_description": "Seçili kategori ve tüm alt kategoriler için fiyat değişecektir.",
+    "add_percent_tab": "Yüzde Ekle",
+    "add_constant_tab": "Sabit Ekle",
+    "ending_tab": "Bitirme stratejisi",
+    "marketplace_listing_price": "Listeleme Fiyatı",
+    "constant": {
+      "subtitle": "Tutar, ürünlerin güncel fiyatına eklenecek veya çıkarılacaktır."
+    },
+    "ending": {
+      "subtitle": "Ürünlerin güncel fiyatlarının bitişi belirtilen değere değiştirilecektir."
+    },
+    "marketplace": {
+      "title": "Pazar Yeri Listeleme Fiyatı",
+      "subtitle": "Bu seçenek, pazaryerindeki ürünlerin listeleme fiyatını otomatik olarak güncellemenizi sağlar. Bazen, ana ürün fiyatı, manuel fiyat değişiklikleri nedeniyle satıcı fiyatlandırmasıyla uyuşmayabilir.",
+      "strategy": {
+        "min": {
+          "title": "Minimum Fiyatı Belirle",
+          "description": "Ürünün minimum fiyatını listeleme fiyatı olarak belirleyin."
+        },
+        "max": {
+          "title": "Maksimum Fiyatı Belirle",
+          "description": "Ürünün maksimum fiyatını listeleme fiyatı olarak belirleyin."
+        }
+      }
+    },
+    "category": {
+      "subtitle": "Toplu eylemi bir kategori ve tüm alt kategorilerle sınırlayın."
+    },
+    "vendor": {
+      "subtitle": "Toplu eylemleri belirli bir satıcıyla sınırlayın. Bir satıcı seçildiğinde, fiyat güncellemesi satıcının ürünlerine uygulanır ve bu da o satıcının satış fiyatını temsil eder.",
+      "listing_price_need_update_msg": "Listeleme fiyatını (ürün listesinde görüntülenen fiyatı) güncellemek istiyorsanız, aynı filtrelerle ancak bir satıcı seçmeden toplu güncellemeyi yeniden göndermelisiniz."
+    },
+    "listing_products_changes": "Listelenen ürünler değişiyor",
+    "total_vendor_products": "Toplam tedarikçi ürünleri",
+    "total_products": "Toplam ürünler",
+    "total_variants": "Toplam varyantlar"
+  },
+  "product_panel": {
+    "excel_import": {
+      "title": "Excel / CSV dosyasını buraya bırakın.",
+      "select_file": "Dosya seç",
+      "max_file": "Maksimum dosya boyutu: 20mb",
+      "download_sample": "Örnek indir"
+    },
+    "ai": {
+      "title": "AI Ürün Yardımı"
+    }
+  },
+  "order_vendor": {
+    "has_panel": "Paneli var",
+    "no_panel": "Panel yok",
+    "manual_action": {
+      "title": "Manuel eylemler",
+      "message": "Tedarikçi sipariş durumunu manuel olarak güncelleyebilirsiniz.",
+      "guides": [
+        "Panel erişimi olan satıcılar, kendilerine özel panolarından sipariş karşılamalarını (alt siparişleri) güncelleyebilirler.",
+        "Eğer tedarikçinin panel erişimi yoksa, sepet durumu değiştirildiğinde tedarikçinin sipariş durumu otomatik olarak değişecektir.",
+        "Tedarikçi siparişlerini manuel olarak güncelleyebilirsiniz."
+      ]
+    },
+    "payouts": {
+      "title": "Ödemeler",
+      "message": "Tedarikçi ödemelerini ve işlemlerini yönetin.",
+      "charge_tooltip": "Satıcı cüzdanını şarj edin.",
+      "withdraw_tooltip": "Satıcı cüzdanından çek.",
+      "payout_tooltip": "Satıcıya ödeme."
+    }
+  },
+  "vendor_dashboard": {
+    "info": {
+      "subtitle": "Pazar yeri bilgileri."
+    },
+    "performance": {
+      "subtitle": "Satış performansım."
+    },
+    "products": {
+      "title": "Ürün:% s",
+      "subtitle": "Burada pazaryerinde listelenen ürünlerinizin sayısını görebilirsiniz. Birden fazla satıcıya ait ürünler dahil değildir."
+    },
+    "wallets": {
+      "title": "Cüzdanlarım",
+      "subtitle": "Cüzdanları manuel olarak eklemenize gerek yok! Satıcı cüzdanları otomatik olarak oluşturulacaktır."
+    },
+    "open_marketplace_page": "Açık pazaryeri sayfası",
+    "open_my_store_page": "Mağaza sayfamı aç",
+    "open_my_listing_page": "Listeleme sayfamı aç",
+    "add_products_permission": "Ürün ekleme izni",
+    "add_categories_permission": "Kategori izni ekle"
+  },
+  "vendor_inventory": {
+    "title": "Ürün listesi",
+    "subtitle": "Bu, pazaryerindeki ürünlerinizin bir listesidir. Envanterdeki atanmış ürünleriniz için fiyatları ve miktarları güncelleyin. Bir satıcı olarak, ürün listesinde yalnızca sahip olduğunuz tek satıcı ürünlerini göreceksiniz. Diğer atanmış ürünler de burada değiştirilebilir."
+  },
+  "vendor_payments": {
+    "list": {
+      "title": "Ödeme geçmişi",
+      "subtitle": "Ödeme geçmişinizi burada görüntüleyebilirsiniz. Bu ödemeler banka havaleleri yoluyla manuel olarak veya ödeme yetenekleri sunan ödeme hizmetleri kullanılarak otomatik olarak işlenebilir."
+    },
+    "connect": {
+      "title": "Bankayı bağla",
+      "subtitle": "Aşağıdaki ödeme ağ geçitleri için bölünmüş ödeme olanakları sunuyoruz. Her satın alımdan sonra ödemeleri sorunsuz bir şekilde almak için lütfen bu seçenekleri kullanarak banka hesabınızı bağlayın."
+    },
+    "verify_dialog": {
+      "title": "Ödemeyi doğrula",
+      "option": {
+        "title": "Satıcı eylemi",
+        "subtitle": "Bu transferi kabul etme veya reddetme seçeneğiniz var. Bu eylem yalnızca tarihsel bir kayıt işlevi görür. Sadece parayı alıp almadığınızı onaylayın; almadıysanız herhangi bir işlem yapmanıza gerek yoktur."
+      },
+      "inputs": {
+        "verify": {
+          "label": "Bu ödemeyi onayladınız mı?",
+          "false_description": "Hayır, bu ödeme henüz banka hesabıma geçmedi.",
+          "true_description": "Evet, bu ödemeyi aldım ve doğruladım."
+        }
+      }
+    }
+  },
+  "order_vendor_payment": {
+    "message": "Bu, pazaryerindeki sanal cüzdanınızdaki işlemlerin genel bir görünümüdür.",
+    "vendor_wallets": "Satıcı Cüzdanları",
+    "my_wallets": "Cüzdanlarım"
+  },
+  "product_add_dropshipping_shops": {
+    "subtitle": "Burada, ürünlerini Selldone'da listeleyen ve bunları diğer tüccarlar için kullanılabilir hale getiren toptancıları bulabilirsiniz. Selldone'un yerleşik dropshipping platformu, süreci basitleştirerek hem toptancılar hem de tüccarlar için kolay ve anlaşılır hale getirir."
+  },
+  "customer_add": {
+    "edit_title": "Müşteriyi düzenle",
+    "add_title": "Yeni müşteri ekle",
+    "subtitle": "Mağazanıza müşteri eklemek için lütfen bir e-posta adresi veya telefon numarası girin.",
+    "more": {
+      "title": "Daha fazla ayrıntı ekle",
+      "subtitle": "Para birimini, müşteri kulübünü, segmentleri, adresi ve daha fazlasını ayarlayın."
+    },
+    "detail": {
+      "subtitle": "Müşterinizle ilgili kişisel bilgilerin kaydını tutun. Lütfen müşterinizin gizliliğine saygı gösterin."
+    },
+    "preferences": {
+      "subtitle": "Varsayılan kullanıcı para birimini, müşteri kulübünü ve segmentleri buradan ayarlayın."
+    },
+    "address": {
+      "subtitle": "Bu adres POS'ta kullanılabilir. Kullanıcı bu bilgiyi göremez."
+    }
+  },
+  "referral_bank": {
+    "title": "Yönlendirme Panosu",
+    "subtitle": "Talebiniz üzerine komisyon ücreti belirttiğiniz banka hesabına ödenecektir. Lütfen banka bilgilerinizi buraya giriniz.",
+    "no_bank_info": "Banka bilgisi yok!",
+    "actions": {
+      "edit_my_bank_info": "Banka Bilgilerimi Düzenle"
+    },
+    "bank_dialog": {
+      "title": "Banka Bilgilerim",
+      "info": {
+        "title": "Banka",
+        "subtitle": "Lütfen banka bilgilerinizi buraya girin. Bu bilgileri para transferi için kullanacağız. Banka hesabının sizin adınıza veya geçerli olan şekilde işletmenizin adına olduğundan emin olun."
+      },
+      "inputs": {
+        "name": {
+          "label": "Banka adı",
+          "message": "Hesabın bulunduğu bankanın tam adı."
+        },
+        "holder_name": {
+          "label": "Hesap Sahibinin Adı",
+          "message": "Hesabı elinde bulunduran kişinin veya kuruluşun tam adı."
+        },
+        "account_number": {
+          "label": "Hesap numarası",
+          "message": "Belirli banka hesabına ilişkin benzersiz numara."
+        },
+        "routing_number": {
+          "label": "Yönlendirme Numarası (ABD) veya Sıralama Kodu (İngiltere)",
+          "message": "Belirli banka şubesini tanımlayan numara (farklı ülkelerde farklı terimler kullanılmaktadır)."
+        },
+        "swift": {
+          "label": "SWIFT/BIC Kodu",
+          "message": "Özellikle uluslararası transferlerde bankaları dünya genelinde tanımlamak için kullanılan uluslararası bir kod."
+        },
+        "iban": {
+          "label": "IBAN (Uluslararası Banka Hesap Numarası)",
+          "message": "Öncelikle Avrupa'da kullanılan IBAN, ulusal sınırlar ötesinde banka hesaplarını tanımlamak için uluslararası alanda kabul görmüş bir sistemdir."
+        },
+        "contact": {
+          "label": "İletişim Bilgileri",
+          "message": "Hesapla ilişkili telefon numarası veya e-posta adresi."
+        },
+        "note": {
+          "label": "Not",
+          "message": "Ek not"
+        }
+      }
+    },
+    "notifications": {
+      "save": {
+        "message": "Banka bilgileriniz başarıyla güncellendi."
+      }
+    }
+  },
+  "referral_tier": {
+    "message": "Referanslarınız tarafından yapılan tüm hizmet bedelleri, abonelik bedelleri ve diğer ödemelerden."
+  },
+  "ReferralTiers": {
+    "Bronze": {
+      "title": "Bronz Kademe",
+      "description": "Bronz Seviyedesiniz. Yönlendirmelerinizden %2 komisyon kazandınız."
+    },
+    "Silver": {
+      "title": "Gümüş Kademe",
+      "description": "Gümüş Seviyedesiniz. Yönlendirmelerinizden %4 komisyon kazandınız."
+    },
+    "Gold": {
+      "title": "Altın Kademe",
+      "description": "Altın Seviyedesiniz. Yönlendirmelerinizden %6 komisyon kazandınız."
+    },
+    "Platinum": {
+      "title": "Kademe Platin",
+      "description": "Platinum Tier'dasınız. Yönlendirmelerinizden %8 komisyon kazandınız."
+    },
+    "Diamond": {
+      "title": "Kademe Elmas",
+      "description": "Diamond Tier'dasınız. Yönlendirmelerinizden %10 komisyon kazandınız."
+    }
+  },
+  "page_monetize": {
+    "title": "para kazan",
+    "subtitle": "İş fırsatlarına erişimi yaygınlaştırın."
+  },
+  "sms_template_mode": {
+    "text": {
+      "title": "Düz metin",
+      "desc": "Otomatik değiştirme parametreleriyle bir metinden mesaj oluşturulacak ve gönderilecek."
+    },
+    "template": {
+      "title": "Yapısal şablon",
+      "desc": "Parametrelerden bir nesne oluşturulacak ve sağlayıcıya gönderilecek."
+    }
+  },
+  "shop_sms_provider": {
+    "title": "Özel SMS sağlayıcısı",
+    "reset_error": "Hataları sıfırla",
+    "subtitle": "Özel bir SMS servis sağlayıcısı kurun ve kimlik doğrulama SMS'inizi ve işletme adınızı özelleştirin. Varsayılan sağlayıcı yalnızca bazı beyaz listeli ülkelerde kimlik doğrulama SMS'leri ve bilgilendirme mesajları gönderir.",
+    "plain_text": "Düz metin",
+    "structural_template": "Yapısal şablon",
+    "errors_limit_msg": "Eğer hizmetiniz 100 hatayı aşarsa, otomatik olarak devre dışı bırakılacaktır! Hataları sıfırlayarak tekrar etkinleştirebilirsiniz.",
+    "enable_input": {
+      "false_description": "Belirli ülkelerde OTP mesajları Selldone üzerinden gönderilecek, ayrıca diğer sipariş bildirim SMS'leri de gönderilecektir.",
+      "true_description": "SMS mesajları servis sağlayıcınız aracılığıyla iletilecektir."
+    },
+    "test_input": {
+      "true_title": "Yapılandırmayı Doğrula",
+      "true_description": "Telefon numaranıza 📞 <b>{phone}</b> bir test mesajı göndereceğiz, sizden ücret talep edilebilir, ancak her şeyin düzgün çalıştığından emin olabilirsiniz."
+    },
+    "sync_action": {
+      "title": "Hareketler",
+      "subtitle": "Bazı SMS servisleri kampanyalar, pazarlama ve diğer özellikler gibi ek servisler sunar. Kişilerinizi veya ek bilgilerinizi senkronize ederek özelliklerini daha hızlı kullanabilirsiniz.",
+      "action": "Kişileri senkronize et"
+    },
+    "tokens": {
+      "title": "Parametreler",
+      "subtitle": "SMS servis sağlayıcınızı mağazanıza bağlamak için aşağıdaki parametreleri ayarlayın."
+    }
+  },
+  "sms_messages_options": {
+    "all": {
+      "title": "OPT + Sipariş Bildirimleri",
+      "description": "Kimlik doğrulama mesajları ve sipariş bildirimi gönderilecektir."
+    },
+    "otp": {
+      "title": "Sadece OTP",
+      "description": "Kimlik doğrulama mesajları gönderilecek."
+    }
+  },
+  "shop_email_provider": {
+    "title": "Özel posta sunucusu",
+    "subtitle": "E-postalarınızı özel alan adınız üzerinden göndermek için posta servis sağlayıcınızı bağlayın.",
+    "provider": "Sağlayıcı",
+    "enable_input": {
+      "false_description": "E-postalarınız myselldone alan adınız üzerinden gönderilecektir.",
+      "true_description": "E-postalarınız özel mail alan adınız üzerinden gönderilecektir."
+    },
+    "config": {
+      "title": "Yapılandırmalar",
+      "subtitle": "Mağazanız için özel e-posta servisini yapılandırmak için servis API anahtarınızı ve diğer gerekli ayarları girin."
+    },
+    "sender": {
+      "title": "İtibaren",
+      "subtitle": "Müşterilerinize e-posta göndermek için kullanılacak varsayılan gönderici adını ve e-posta adresini yapılandırabilirsiniz."
+    },
+    "inputs": {
+      "from": {
+        "label": "E-postadan"
+      },
+      "from_name": {
+        "label": "İsimden"
+      }
+    },
+    "actions": {
+      "send_test_email": "Bir test e-postası gönder"
+    },
+    "messages": {
+      "provider_error_limit": "Eğer hizmetiniz 100 hatayı aşarsa, otomatik olarak devre dışı bırakılacaktır! Hataları sıfırlayarak tekrar etkinleştirebilirsiniz.",
+      "encryption_ports_guide": "E-posta sağlayıcıları, kullanılabilir bağlantı noktalarına bağlı olarak SSL, TLS veya şifrelenmemiş bağlantılar sunabilir. Bağlantı bir hatayla sonuçlanırsa, şifreleme modunu değiştirmek sorunu çözebilir. Standart <b>TLS,</b> Bağlantı Noktası: <b>587'yi</b> kullanır ve <b>SSL,</b> Bağlantı Noktası: <b>465'i</b> kullanır.",
+      "enable_receive_test": "Değişiklikleri kaydettikten sonra <b>{email}</b> adresine bir test e-postası alacaksınız. Yeni yapılandırmayla bir test e-postası göndermeden önce değişiklikleri kaydedin."
+    }
+  },
+  "product_location_restrictions": {
+    "title": "Mevcut Yerler",
+    "subtitle": "Ürününüz veya hizmetiniz yalnızca ülke ve posta kodu veya pin kodu ile tanımlanan belirli bölgelerde mevcutsa, bu konumları burada belirtebilirsiniz. Bu konum kısıtlamaları ürün düzeyinde uygulanır. Ürün sayfasında, müşterilerden konumlarını seçmeleri istenecektir. Ürün seçtikleri bölgede mevcutsa, satın alma işlemine devam edebileceklerdir.",
+    "add_location_action": "Ülke Ekle",
+    "no_restriction": "Hiçbir kısıtlama yok",
+    "import": {
+      "title": "Yük profili",
+      "subtitle": "Kaydedilmiş konum profilini seçin."
+    },
+    "export": {
+      "title": "Profili kaydet",
+      "subtitle": "Gelecekteki kullanımlar için depolama yerleri."
+    },
+    "has_restriction_input": {
+      "title": "Konum kısıtlaması var",
+      "description": "Müşteriler, belirlenen konum kısıtlaması nedeniyle bu ürünü yalnızca belirtilen ülke ve posta kodu içinde satın alabilirler."
+    },
+    "zip_pin_code": "Posta / Pin Kodları",
+    "no_country_selected_error": "Lütfen posta/pin kodlarının bir listesiyle birlikte en az bir ülke ekleyin. Bu olmadan, bu ürün mevcut olmayacaktır.",
+    "tips": "Yeni bir konum seti oluşturmaya başlamak için <b>+ Ülke Ekle</b> düğmesine tıklayın. İşiniz bittiğinde, sağ üstteki <b>⋮ Menü'ye</b> tıklayıp <b>Profili Kaydet'i</b> seçerek kaydedebilirsiniz.",
+    "need_save_message": "Ürün için konum kısıtlama ayarları değiştirildi. Bu değişiklikleri korumak için lütfen aşağıdaki 'Kaydet' düğmesine tıklayın.",
+    "add_dialog": {
+      "title": "Ülke Ekle",
+      "message": "Bir ülke seçin ve 'Ekle'ye tıklayın. Bu, ülkeyi tabloya ekleyecek ve ona Posta Kodları, Pin Kodları, Şehir adları veya Bölge adları atamanıza olanak tanıyacaktır."
+    },
+    "save_profile_dialog": {
+      "title": "Konum Profili Ekle",
+      "message": "Lütfen bu konum kümesini kaydetmek için bir ad girin. Bu kaydedilen konum kümesi diğer ürünlere uygulanabilir ve tek bir tıklamayla hızlı konum yüklemesi yapılabilir. Sağlanan adla bir profil zaten mevcutsa, bu yeni değerlerle güncellenecektir.",
+      "title_input": {
+        "title": "Profil başlığı",
+        "placeholder": "Bir kategori adı veya mağaza adı, ..."
+      }
+    },
+    "load_profile_dialog": {
+      "title": "Yükleme Konumları Profili",
+      "message": "Daha önce kaydedilmiş bir konum setini seçerek konumları yükleyebilirsiniz.",
+      "select_input": {
+        "title": "Konum Profili",
+        "placeholder": "Bir profil seçin..."
+      }
+    }
+  },
+  "blog_timeline": {
+    "title": "İçerik Yayın Takvimi",
+    "subtitle": "İşte gelecekte yayınlanmak üzere ayarlanmış planlanmış makalelerin listesi. Blog yazılarını ve hatta ürün açıklamalarını belirli zamanlarda yayınlanmak üzere planlama olanağına sahipsiniz."
+  },
+  "direct_feedback": {
+    "title": "Doğrudan İstek Gönder",
+    "message": "Selldone'da gelişmek ve kar etmek için en önemli 3 iş ihtiyacınızı belirleyin. Bu bilgiler doğrudan kurucular ve yöneticilerle paylaşılacak ve dikkatlice değerlendirilecektir. Ayrıca, gönderimden sonra ihtiyaçlarınızı zaman içinde güncelleyebilirsiniz.",
+    "expand_action": "İsteği yazın...",
+    "input_label": "Talebiniz",
+    "to": {
+      "ceo": "CEO'ya gönder",
+      "team": "Takıma Gönder"
+    },
+    "placeholder": {
+      "ceo": "Kesinlikle nazik olmanıza gerek yok, doğrudan, konuya giren sorularınızı duymayı seviyorum. Örneğin, ... ihtiyacım var.",
+      "team": "Lütfen onlara karşı nazik olmaya çalışın. Örneğin, ... ihtiyacım var."
+    }
+  },
+  "inventory_filter": {
+    "placeholder": "Filtre Seç *.*"
+  },
+  "vendor_input": {
+    "placeholder": "Filtre satıcısı..."
+  },
+  "product_import_processing": {
+    "title": "İthal ürünlerin işlenmesi",
+    "message": "Ürün ve görselleri içe aktarma sürecindeyiz, bu işlem biraz zaman alabilir."
+  },
+  "order_input": {
+    "message": "Burada görüntülenen bilgiler, ürün giriş formu yapısına uygun olarak müşteri tarafından iletilmiştir."
+  },
+  "shop_connect": {
+    "test": {
+      "title": "Kurmak",
+      "subtitle": "Harici hizmet raporu",
+      "action": "Bağlantıyı test et",
+      "last_update": "Son güncelleme:"
+    },
+    "service_status": {
+      "title": "Hizmet durumu",
+      "syncing_message": "Senkronizasyon işlemi devam ediyor...",
+      "action": "Tümünü senkronize et",
+      "connect_status": "Bağlantı durumu",
+      "service_status": "Hizmet durumu",
+      "auto_confirm_enable_msg": "Siparişler için otomatik onay aktifleştirildi.",
+      "auto_confirm_disable_msg": "Siparişlerin otomatik olarak onaylanması etkin değil.",
+      "shipping_enable_msg": "Kargo ücreti, ödeme sırasında verdiğiniz bilgilere göre hesaplanacaktır."
+    },
+    "detail": {
+      "title": "Bağlantı detayı",
+      "auto_confirm_order": "Siparişleri otomatik olarak onayla",
+      "test_mode": "Test modu",
+      "status": {
+        "subtitle": "Senkronizasyon durumu hakkında genel bilgiler."
+      },
+      "sync": {
+        "title": "Senkronizasyon detayı",
+        "subtitle": "Dahili senkronizasyon ayrıntıları. Bu bilgiler, bir senkronizasyon süreci dönemi başarıyla sona erdikten sonra kaydedilir.",
+        "no_data": "Senkronizasyon bilgisi yok!"
+      }
+    },
+    "products": {
+      "title": "Ürün:% s",
+      "subtitle": "{name}'den eklenen ürünlerin listesi. Ürününüzün benzersiz bir adı ve SKU'su olduğundan emin olun. Bazı Connect hizmetleri geçiş için kullanılır, bu nedenle yinelenen <b>SKU'ları</b> ve <b>Adları</b> olan ürünleriniz varsa, bu ürünler değiştirilecektir!",
+      "action": "Ürünleri getir",
+      "syncing_message": "Senkronizasyon işlemi devam ediyor..."
+    },
+    "logs": {
+      "title": "Günlükler",
+      "subtitle": "Son 7 gündeki tüm günlüklerin listesi. Günlük tutma özelliği yalnızca harici servis sağlayıcılarda desteklenir."
+    },
+    "edit": {
+      "title": "Yeni Bağlantı Ekle",
+      "service": {
+        "title": "Hizmet",
+        "subtitle": "Bağlanmak istediğiniz hedef platformu, dropshipping tedarikçisini veya pazaryerini seçin."
+      },
+      "test": {
+        "false_title": "Tümünü senkronize et",
+        "false_desc": "Mevcut tüm ürünleri, kategorileri, müşterileri bulun.",
+        "true_title": "Sınırlı (Yeni başlayanlar için önerilir)",
+        "true_desc": "En fazla 5 ürün, kategori ve müşteri edinin. İstediğiniz zaman Bağlan > Ayarlar'dan tam moda geçebilirsiniz."
+      },
+      "overwrite": {
+        "false_title": "Varsa değiştirmeyin",
+        "false_desc": "Mevcut ürün ve kategori ayrıntılarını olduğu gibi koruyun.",
+        "true_title": "Üzerine yaz",
+        "true_desc": "Mevcut ürün, varyant ve kategori bilgilerini güncelleyin."
+      },
+      "migration_tips": "<b>İpuçları:</b> İşlevselliği test etmek istiyorsanız lütfen <b>Sınırlı</b> seçeneğini seçin. 'Hepsini senkronize et'i seçerek, bağlı hizmetlerinizden tüm verileri alırız ve ilgili resimleri indiririz, bu nedenle ücretsiz depolama alanınızı azaltırız. Ayrıca, birçok ürünü, kategoriyi ve müşteriyi kaldırmak zor olurdu!",
+      "add_action": "Otomatik bağlan",
+      "order": {
+        "title": "Sipariş Durumu",
+        "subtitle": "Mağazanız için bağlı hizmetin sipariş yönetimi ayarlarını yapılandırın. Bu, sipariş kabulünü ayarlamayı, otomatik sipariş onayını etkinleştirmeyi (destekleniyorsa) ve nakliye maliyeti hesaplamalarını yapılandırmayı içerir."
+      },
+      "enable": {
+        "label": "Bağlantı durumu",
+        "true_desc": "Stok ve siparişler senkronize edilecek."
+      },
+      "confirm": {
+        "label": "Siparişleri otomatik olarak onayla",
+        "false_desc": "Siparişinizi manuel olarak onaylamanız gerekmektedir.",
+        "true_desc": "Canlı ödemeli siparişler otomatik olarak onaylanacaktır. Hata ayıklama ödemeli siparişler otomatik olarak onaylanmayacaktır.",
+        "tips": "Hediye kartı, kapıda ödeme veya ödeme ağ geçitleri ile ödeme yapılarak ödeme yapılan siparişler istisnadır ve otomatik olarak onaylanmayacaktır."
+      },
+      "shipping": {
+        "label": "Nakliye",
+        "tips": "Bu hizmet, tercihinize göre etkinleştirilebilen veya devre dışı bırakılabilen nakliye hesaplaması sunar. Etkinleştirilirse, 3. taraf hizmetlerle maliyet hesaplama API'leri gerekecektir ve bu da ödeme sayfasında fiyatın güncellenmesinde 300 ms'den fazla gecikmeye neden olabilir.",
+        "false_title": "Devre dışı bırakmak",
+        "false_desc": "İthal olanlar da dahil olmak üzere tüm ürünler için Mağaza > Lojistik > Taşımacılık bölümündeki kargo maliyeti hesaplamamı kullanın.",
+        "true_title": "Kargo ücretini hesapla",
+        "true_desc": "Bu hizmetin sunduğu nakliye ücreti hesaplama API'sini kullanın."
+      },
+      "remove": {
+        "verify": "Bu bağlantıyı kaldırmak için doğruluyorum.",
+        "action": "Bağlantıyı kaldır"
+      }
+    },
+    "list": {
+      "title": "İşletim Sistemini Bağla",
+      "subtitle": "İşletmenizi harici servislere bağlayın ve tüm kanalları aynı yerden yönetin.",
+      "action": "Yeni hizmetleri bağlayın",
+      "empty_message": "Dropshipping için uygulamaları ve eklentileri unutun! Connect, platformlar arası sipariş yönetiminin geleceğidir.",
+      "auto_confirm": "Otomatik Onay",
+      "shipping": "Nakliye",
+      "syncing_now": "Şimdi senkronize ediliyor!",
+      "sync_not_started": "Senkronizasyon henüz başlamadı!"
+    }
+  },
+  "connect_mode": {
+    "Migration": {
+      "title": "Göç",
+      "desc": "Ürünleri, kategorileri ve müşterileri alın. Kullanıcı bu hizmeti sildikten sonra alınan ürünler, kategoriler ve müşteriler silinmeyecektir."
+    },
+    "Dropshipping": {
+      "title": "Direk nakliye",
+      "desc": "Ürünleri, kategorileri ve siparişleri alın. Kullanıcı hizmeti kaldırdıktan sonra sistem ürünleri kaldırır."
+    },
+    "Marketplace": {
+      "title": "pazar yeri",
+      "desc": "Sadece envanteri senkronize edin ve siparişleri alın (Ürünler SKU'ya göre bağlanacaktır)."
+    },
+    "Accounting": {
+      "title": "Muhasebe",
+      "desc": "Sipariş ve finansal bilgilerinizi gönderin."
+    },
+    "Other": {
+      "title": "Diğer",
+      "desc": "Diğer hizmetler."
+    }
+  },
+  "shop_landings": {
+    "title": "Açılış sayfaları",
+    "add_new_action": "Yeni Sayfa Ekle",
+    "subtitle": "Çok yönlü, yapay zeka destekli satır içi düzenleyiciyi kullanarak markanız için özgün, duyarlı özel sayfalar oluşturun ve verileri besleyerek otomatik olarak dinamik içerik oluşturun.",
+    "empty_message": "Sürükle ve bırak yöntemiyle özel sayfalar tasarlayın..."
+  },
+  "shop_staff": {
+    "list": {
+      "title": "Personel yönetimi",
+      "subtitle": "Kullanıcılara bu mağazanın kontrol paneline ve yönetim bölümlerine erişim izni verildi."
+    },
+    "pending": {
+      "title": "Bekliyor",
+      "message": "Bekleyen davetleri göster."
+    }
+  },
+  "community_comments": {
+    "title": "yorumlar",
+    "subtitle": "Bu, topluluğun yorumlarının bir listesidir.",
+    "empty_msg": "Henüz yorum oluşturulmadı..."
+  },
+  "community_categories": {
+    "title": "kategoriler",
+    "subtitle": "Bu, topluluğun kategorilerinin bir listesidir.",
+    "new_category_action": "Yeni Kategori",
+    "empty_msg": "Henüz hiçbir kategori oluşturulmadı...",
+    "filter": {
+      "delete": {
+        "title": "silindi",
+        "description": "Silinen kategorileri göster."
+      }
+    }
+  },
+  "community_posts": {
+    "title": "Gönderiler",
+    "subtitle": "Bu, topluluğun gönderilerinin bir listesidir.",
+    "filter": {
+      "deleted": {
+        "title": "silindi",
+        "description": "Silinmiş gönderileri göster."
+      },
+      "reported": {
+        "title": "Bildirildi",
+        "description": "Bildirilen gönderileri göster."
+      }
+    },
+    "empty_msg": "Henüz hiçbir gönderi oluşturulmadı...",
+    "menu": {
+      "open_post": {
+        "title": "Açık Gönderi",
+        "subtitle": "Topluluktaki gönderileri görüntüleyin ve düzenleyin."
+      },
+      "spam": {
+        "title": "Spam'leri Bildir ve Kaldır",
+        "subtitle": "Toplu gönderileri kaldırın ve kullanıcıyı yasaklayın."
+      },
+      "delete": {
+        "title": "Gönderiyi Sil",
+        "subtitle": "Bu gönderiyi kaldır."
+      }
+    }
+  },
+  "channel_google": {
+    "gtag": {
+      "title": "Etiket Yöneticisi",
+      "subtitle": "Google Analytics, Flash, video ve sosyal medya sitelerini ve uygulamalarını izlerken reklam yatırım getirisinin ölçülmesini sağlar. Google Etiket Yöneticisi'nin ücretsiz, basit ve güvenilir çözümleriyle web sitesi etiketlerini zahmetsizce yönetin; kod düzenlemesi gerekmez.",
+      "tag_id": {
+        "label": "Google Etiket Yöneticisi Kimliği"
+      }
+    },
+    "shopping": {
+      "title": "Google Alışveriş",
+      "subtitle": "Veri Kaynakları, katalog bilgilerinizin Google'daki kaynaklarını gösterir. Tüm ürünleri ve kategorileri otomatik olarak Google ürünlerine eklemek için bu bağlantıyı takip edin.",
+      "tips": "Google reklamlarınızı zahmetsiz ve otomatik bir şekilde yönetmek için bu aracı kullanabilirsiniz.",
+      "link_message": "Google Ürünleri Besleme URL'si"
+    },
+    "console": {
+      "title": "Arama Konsolu",
+      "subtitle": "Google Search Console doğrulaması için ana sayfanıza bir meta etiketi ekleyin.",
+      "code": {
+        "label": "Doğrulama meta etiketi",
+        "placeholder": "Google'dan, örneğin viQg9mjdBj..."
+      }
+    },
+    "serp": {
+      "title": "Google SERP ve Anahtar Kelimeler",
+      "subtitle": "Google'dan en kesin SEO denetim verilerini alıyoruz ve size uygun bir şekilde sunuyoruz. Sadece verilen adımları izleyin."
+    },
+    "serp_content": {
+      "title": "Google Search Console'a bağlanın",
+      "subtitle": "Mağazanızı arama konsoluna bağlayın ve Selldone'da anahtar kelimeleri, sıralamaları ve diğer ücretsiz SEO araçlarını keşfetmeye başlayın.",
+      "tips": {
+        "title": "Selldone'u Google Search Console'a bağlamadan önce aşağıdakileri sağlayın:",
+        "add_in_selldone": "Özel Alan Adınızı ekleyin, doğrulayın ve birincil olarak ayarlayın.",
+        "add_in_google": "<b>{domain} adresini</b> <a href=\"https://search.google.com/search-console\" target=\"_blank\"><b>Google Search Console'unuza</b></a> ekleyin ve doğrulayın."
+      },
+      "action_custom_domain": "Özel alan adı",
+      "action_connect_now": "Şimdi Bağlan",
+      "action_remove_connection": "Bağlantıyı kaldır"
+    }
+  },
+  "cashback": {
+    "add_new": "Yeni Geri Ödeme Ekle",
+    "title": "Geri ödeme programları",
+    "boosted": "Güçlendirme (2x)",
+    "min_purchase": "Minimum Satın Alma",
+    "only_first_order": "Sadece İlk Sipariş",
+    "total_cashback": "Toplam Geri Ödeme",
+    "delete_alert": {
+      "title": "Geri Ödeme Programını Sil",
+      "message": "Bu geri ödeme programını silmek istediğinizden emin misiniz?",
+      "action": "Evet, şimdi sil"
+    },
+    "notifications": {
+      "delete_success": "Geri ödeme programı başarıyla silindi."
+    }
+  },
+  "shop_cashback": {
+    "title": "Geri ödeme programı",
+    "up_to": "kadar",
+    "menu": {
+      "back": "Geri Programlar",
+      "dashboard": "Gösterge Paneli",
+      "orders": "Emirler",
+      "edit": "Düzenlemek"
+    },
+    "dashboard": {
+      "chart_amount_buy": {
+        "label": "Satın almak",
+        "y": "Satın alma tutarı {currency}"
+      },
+      "chart_amount_cashback": {
+        "label": "Geri ödeme",
+        "y": "Geri ödeme tutarı {currency}"
+      },
+      "chart_used": {
+        "label": "Kullanılmış",
+        "y": "Zamanlar"
+      }
+    },
+    "orders": {
+      "title": "Geri ödeme siparişleri",
+      "table": {
+        "amount_cashback": "Geri ödeme tutarı",
+        "payment_status": "Ödeme durumu",
+        "date": "Tarih"
+      }
+    }
+  },
+  "cashback_edit": {
+    "config": {
+      "subtitle": "Chasback yüzdesini, limitini ve durumunu buradan ayarlayabilirsiniz."
+    },
+    "percent_input": {
+      "title": "Geri ödeme yüzdesi",
+      "message": "Geri ödeme yüzdesini %1 ile %20 arasında girin."
+    },
+    "currency_input": {
+      "message": "Geri ödeme programı yalnızca bu para birimi için geçerli olacaktır."
+    },
+    "limit_input": {
+      "title": "sınır",
+      "hint": "Maksimum geri ödeme tutarını girin.",
+      "zero_message": "Sınırsız geri ödeme için 0 girin."
+    },
+    "duration": {
+      "title": "Süre Sınırı",
+      "subtitle": "Geri ödeme programının süresini ayarlayın. İsteğe bağlıdır."
+    },
+    "start_input": {
+      "title": "Başlangıç Tarihi",
+      "placeholder": "Başlangıç tarihini seçin..."
+    },
+    "end_input": {
+      "title": "Bitiş Tarihi",
+      "placeholder": "Bitiş tarihini seçin..."
+    },
+    "design": {
+      "subtitle": "Geri ödeme programı için başlık ve kısa açıklama belirleyin. Bu bilgiler müşterilere gösterilecektir."
+    },
+    "title_input": {
+      "title": "Başlık"
+    },
+    "description_input": {
+      "title": "Tanım"
+    },
+    "constraints": {
+      "subtitle": "Geri ödeme programı için kısıtlamaları belirleyin."
+    },
+    "min_purchase_input": {
+      "hint": "Geri ödeme programı için minimum alışveriş tutarını girin.",
+      "title": "Minimum Satın Alma"
+    },
+    "only_first_buy_input": {
+      "false_desc": "Geri ödeme programı tüm siparişlerde geçerli olacaktır.",
+      "true_desc": "Geri ödeme programı yalnızca ilk sipariş için geçerli olacaktır.",
+      "true_title": "Sadece İlk Sipariş",
+      "false_title": "Tüm Siparişler"
+    },
+    "qualify_input": {
+      "false_title": "Tüm Müşteriler",
+      "true_title": "Müşterileri Nitelendirin",
+      "true_msg": "Geri ödeme programı yalnızca şartları sağlayan müşterilere sunulacaktır."
+    },
+    "club": {
+      "subtitle": "Kulübü geri ödeme programı için ayarlayın. Geri ödeme programı yalnızca bu kulüpte bulunan müşteriler için geçerli olacaktır."
+    },
+    "cluster": {
+      "subtitle": "Bir kümeyi geri ödeme programıyla ilişkilendirerek onu daha etkili bir şekilde yönetebilirsiniz."
+    },
+    "notifications": {
+      "add": "Geri ödeme programı başarıyla eklendi.",
+      "edit": "Geri ödeme programı başarıyla güncellendi."
+    },
+    "enable_input": {
+      "true_msg": "Geri ödeme programı aktif olup müşterilerimiz bu programı kullanabilirler.",
+      "false_msg": "Geri ödeme programı aktif değildir ve müşteriler tarafından kullanılamaz."
+    },
+    "boosted_input": {
+      "false_title": "Normal",
+      "true_title": "Boost (2x Geri Ödeme)",
+      "true_msg": "Geri ödeme programımız destek modunda olup, müşterilerimize 2 kat geri ödeme yapılacaktır.",
+      "false_msg": "Geri ödeme programı normal moddadır ve müşteriler normal geri ödeme alacaklardır."
+    }
+  },
+  "row_payment": {
+    "actions": {
+      "refund": {
+        "title": "İade Ödemesi",
+        "subtitle": "Kısmi veya tam iade desteklenmektedir."
+      },
+      "delivery": {
+        "title": "Teslimatta Onaylayın",
+        "subtitle": "Ödeme sağlayıcısına teslimatı manuel olarak onaylayabilirsiniz."
+      }
+    }
+  },
+  "payment_refund_dialog": {
+    "title": "İade Ödemesi",
+    "message": "Güvenlik nedeniyle yalnızca son 7 gün içinde ödenen siparişler iade edilebilir.",
+    "payment_amount": "Ödeme Tutarı",
+    "total_refund_amount": "Toplam İade Edilen Tutar",
+    "can_refund": "Geri ödeme yapılabilir",
+    "refund_amount": "İade Tutarı",
+    "verify": {
+      "title": "İadeyi Doğrula",
+      "description": "İade tutarının doğru olduğunu teyit ediyor ve devam etmek istiyorum."
+    },
+    "action": "Şimdi İade Et"
+  },
+  "payment_delivery_dialog": {
+    "title": "Müşteri Teslimat Onayı",
+    "message": "Bazı ödeme hizmetleri siparişin müşteriye teslim edildiğine dair onay gerektirir. Genellikle bu onayı, müşterinin teslimat onayını aldığımızda siparişin yerine getirilmesinin son adımında göndeririz. Ancak, bu işlemi manuel olarak gerçekleştirmeniz gerekiyorsa, bunu burada yapabilirsiniz.",
+    "verify": {
+      "title": "Teslimatı Doğrula",
+      "description": "Siparişin müşteriye teslim edildiğini teyit ediyorum."
+    },
+    "action": "Şimdi Onayla"
+  },
+  "product_cross_selling": {
+    "title": "Çapraz Satış",
+    "add_new_actions": "Yeni Ürün Ekle",
+    "subtitle": "Bu bölümde, bu ürün sayfası için çapraz satış ürünleri ekleyebilir ve yönetebilirsiniz. Bu ürünler, müşterilerin ana ürünle birlikte satın almaları için öneriler olarak gösterilecektir. Ayrıca ek satın alımları teşvik etmek ve özendirmek için indirimler de ayarlayabilirsiniz. Sistem, müşterinin dikkate alması için en fazla 3 ürün sergileyecektir.",
+    "dialog": {
+      "edit_title": "Çapraz satış ürününü düzenle",
+      "add_title": "Yeni çapraz satış ürünleri ekleyin",
+      "target": {
+        "title": "Hedef Ürün",
+        "subtitle": "Bu ürünün yanında çapraz satış seçeneği olarak tanıtmak istediğiniz ürünleri seçin.",
+        "select_products": "Ürün(leri) seçin"
+      },
+      "list": {
+        "title": "Hedef Ürün",
+        "subtitle": "Bu ürün çapraz satış promosyonu için seçilmiştir.",
+        "manage_product": "Ürünü Yönet"
+      },
+      "discount": {
+        "title": "İndirim & Mesaj",
+        "subtitle": "Müşterileri seçili ek ürünleri satın almaya motive etmek için bir mesaj ekleme ve indirim sunma seçeneğiniz var. Bu teşvikler satışları artırmaya ve genel alışveriş deneyimini geliştirmeye yardımcı olabilir.",
+        "amount_input": {
+          "message": "İndirim oranı, mevcut tüm indirimler dikkate alınarak ürün fiyatına uygulanacaktır."
+        },
+        "mismatch_type_warning": "Ana ürün tipleri dışındaki ürünlere indirim uygulanamaz, kaynak ve hedef ürünler ayrı sepetlere yerleştirilmez.",
+        "not_support_subscription_type_warning": "Çapraz satış abonelik ürünleri için indirim belirlemek mümkün değildir, çünkü fiyatlandırma planları dinamik olarak ayarlanamıyor.",
+        "message_input": {
+          "message": "Müşterilerin dikkatini çekecek ilgi çekici ve cazip bir başlık oluşturun.",
+          "placeholder": "Paketleyin ve Tasarruf Edin: Özenle Seçtiğimiz Ürünlerle Görünümünüzü Tamamlayın!"
+        }
+      },
+      "action": {
+        "title": "Aksiyon",
+        "subtitle": "Çapraz satış ürününün eylemini burada değiştirin. Ürününüz, Değerleme Formu gibi özel bilgilerin girilmesini gerektiriyorsa, eylem olarak \"Sepete Ekle\"yi seçmeyin, çünkü bu hatalara yol açabilir."
+      }
+    }
+  },
+  "CrossSellActionType": {
+    "AddToCart": {
+      "title": "Sepete ekle",
+      "description": "Sepete Ekle düğmesini doğrudan görüntüleyin. Bunun abonelik ürünleri için geçerli olmadığını unutmayın."
+    },
+    "ViewProduct": {
+      "title": "Ürünü görüntüle",
+      "description": "Müşterileri yeni bir pencere açarak ürün sayfasına yönlendiren Daha Fazlasını Görüntüle düğmesini görüntüleyin."
+    }
+  },
+  "product_flow": {
+    "title": "Satınalma akışı",
+    "subtitle": "Bu, ürününüzün satın alma akışı ve sağlık kontrolüdür.",
+    "connect": {
+      "subtitle": "Bu ürün <b>{name}</b> aracılığıyla eklendi.",
+      "enable_msg": "Bu dış hizmete köprü etkinleştirildi.",
+      "disable_msg": "Bu harici hizmete köprü devre dışı.",
+      "has_shipping_msg": "{name} kargolamayı destekler. Bu nedenle ödeme sayfasında {name} tarafından otomatik kargo hesaplamasını etkinleştirme seçeneğiniz var."
+    },
+    "health": {
+      "title": "Ürün Sağlığı",
+      "available_in_stock_msg": "Ürün stoklarımızda mevcuttur.",
+      "out_of_stock_msg": "Ürün stoklarımızda kalmamıştır.",
+      "file_count_msg": "Bu ürün için toplam {files_size} dosya yüklendi ve {files_count} dosya yüklendi.",
+      "no_file_uploaded_msg": "Henüz dosya yüklenmedi.",
+      "no_image_uploaded_msg": "Ürünü daha ilgi çekici hale getirmek için bir ürün resmi yükleyin."
+    },
+    "vendor_errors": {
+      "title": "Eksik Satıcılar",
+      "subtitle": "Bu ürünün şu anda ilişkili satıcısı yok. Bir ürünün pazaryerinde satın alınabilmesi için en az bir satıcısı olması gerekir.",
+      "manage_vendors": "Satıcıları Yönet"
+    },
+    "file_errors": {
+      "title": "Eksik Dosyalar",
+      "subtitle": "Şu anda bu ürün için hiçbir dosya yüklenmedi. Devam etmek için lütfen dosyaları yükleyin.",
+      "manage_files": "Dosyaları Yönet"
+    },
+    "pricing": {
+      "title": "fiyatlandırma",
+      "no_product_price_msg": "Varsayılan ürün fiyatı henüz belirlenmedi!",
+      "listing_pricing_msg": "Listeleme fiyatlandırması:",
+      "has_valuation_msg": "Ürünün değerlemesi var.",
+      "subscription_pricing_msg": "Bu ürünün {count} adet abonelik fiyatlandırma planı var.",
+      "has_no_subscription_pricing_msg": "Bu ürünün abonelik fiyatlandırma planı yoktur."
+    },
+    "subscription_errors": {
+      "title": "Eksik Abonelik Fiyatlandırma Planları",
+      "subtitle": "Bu ürünün abonelik fiyatlandırma planı yok. Bu ürünü abonelik satın alımına uygun hale getirmek için en az bir abonelik fiyatlandırma planı eklemeniz gerekir.",
+      "pricing_plans": "Fiyatlandırma Planları"
+    },
+    "location": {
+      "title": "Satış yeri kısıtlaması ● {status}",
+      "status": {
+        "has_restriction": "{count} ülkede mevcuttur",
+        "no_restriction": "Kısıtlanmamış"
+      },
+      "available_countries_msg": "Küresel alışveriş {count} ülkeyle sınırlıdır. Bu ülkeler {countries}'dir.",
+      "disable_for_all_countries_msg": "Mağazanızın > konumlar ayarında alışveriş tüm ülkeler için devre dışı bırakıldı.",
+      "location_is_not_in_permitted_shop_locations_msg": "{country}'yi satış yeri olarak ayarladınız ancak mağaza düzeyinde bu ülkeye izin vermiyorsunuz. Lütfen mağaza düzeyi ayarlarınızı kontrol edin.",
+      "shop_locations": "Mağaza Konumları",
+      "product_locations": "Ürün Konumları"
+    },
+    "location_errors": {
+      "title": "Mevcut konumlar hatası",
+      "no_location_error_subtitle": "Ürünü satın almak için bir konum kısıtlaması etkinleştirdiniz, ancak şu anda bu kısıtlama altında hiçbir ülke listelenmiyor. Sonuç olarak, bu ürün hiç kimse tarafından satın alınamaz.",
+      "invalid_location_error_subtitle": "Ürününüz için konum kısıtlama ayarları bir hata içeriyor: listelenen belirli konumların ilişkili posta kodları yok. Sonuç olarak, kullanıcılar bir posta kodu seçemiyor ve bu da ürünün satın alınamamasına neden oluyor.",
+      "manage_locations": "Konumları Yönet"
+    },
+    "tax": {
+      "title": "Abonelik vergisi",
+      "default_shop": "Varsayılan Mağaza Vergisi",
+      "tax_profiles": "Vergi Profilleri",
+      "description": {
+        "subscription_tax_msg": "Sadece ödeme oluşturma adımında vergi uygulayabiliriz.",
+        "dedicated": "Özel",
+        "is_disabled": "Bu vergi profili devre dışı bırakıldı!",
+        "tax_is_based_on_location": "Vergi: Konuma dayalı",
+        "shipping_tax_is_based_on_location": "Kargolama: Konum bazlı",
+        "included_in_price": "Fiyata dahildir."
+      }
+    },
+    "vendor": {
+      "vendor_owner_msg": "Bu ürün <b>{vendor}</b> şirketine aittir.",
+      "has_vendors_msg": "Bu ürün için {count} satıcı var.",
+      "no_vendor_msg": "Bu ürüne bir satıcı atamadınız, bu nedenle müşteriler ürünü satın alamıyor.",
+      "add_vendors": "Satıcı Ekle"
+    }
+  },
+  "product_template": {
+    "title": "Ürün Sayfası Şablonu",
+    "subtitle": "Gelişmiş bir sunum için ürün sayfanıza bir sayfa yerleştirebilirsiniz. En iyi yaklaşım, şeffaf bir arka plan ve her ürün kategorisine göre uyarlanmış 1 ila 3 bölüm içeren sayfalar oluşturmaktır. Ardından, tutarlı ve çekici bir görüntüleme için bir sayfayı birden fazla ürüne atayın.",
+    "edit_page": "Sayfayı Düzenle",
+    "list_of_pages": "Sayfaların Listesi"
+  },
+  "product_embed": {
+    "subtitle": "Bir ürünü veya ürün listesini blogunuza veya diğer web sayfalarınıza, sağladığımız kodları kopyalayıp yapıştırarak kolayca yerleştirebilirsiniz. Bu özellik hala erken aşamalarında olsa da, işlevselliğini şu anda başka yerlerde mevcut olanın ötesine genişletmek için aktif olarak çalışıyoruz. Şu anda sınırlı yetenekler sunsa da, gelecekte daha fazla şablon ve özelleştirme seçeneği sunmayı planlıyoruz.",
+    "card": {
+      "title": "En az",
+      "description": "Diğer platformlarda ve HTML sayfalarında ürün kartları eklemek için HTML kodu oluşturun."
+    },
+    "iframe": {
+      "title": "Çerçeve",
+      "description": "Gömülü bir pencerede kapsamlı ürün ayrıntılarını görüntülemek için iframe kodunu oluşturun."
+    }
+  },
+  "permission_staff_add": {
+    "title_new": "Yeni Personel",
+    "title_edit": "Personeli Düzenle",
+    "staff": {
+      "title": "Personel ve Erişim Ekle",
+      "subtitle": "Personel erişimi olan tüm kullanıcılar panonuza giriş yapabilir ve finansal bilgileri görebilir. Sınırlı erişime sahip kullanıcılar eklemek için Rol tanımlayın.",
+      "go_to_roles": "Rollere Git"
+    },
+    "access": {
+      "customization_tips": "<b>Özelleştirme:</b> Varsayılan okuma/yazma erişimini özelleştirmek için her bir öğeye tıklayın. Her satır, ana mağaza panosuna karşılık gelen bir erişim düzeyini temsil eder.",
+      "simplify_tips": "<b>Önemli!</b> Erişim kontrolünü 300'den fazla seviyeden 10'un altına indiriyoruz. Daha detaylı ve güncel erişim seviyeleri belgelerde yayınlanacaktır.",
+      "multi_permission_tips": "<b>Özel sınırlar?</b> Bir kullanıcıya daha fazla erişim ekleyebilirsiniz, bu nedenle ilk erişimi ekledikten sonra aynı adımlarla ek erişim oluşturun.",
+      "view_data": "Verileri Görüntüle",
+      "apply_changes": "Değişiklikleri uygula"
+    },
+    "inputs": {
+      "email": {
+        "placeholder": "E-posta",
+        "label": "Kullanıcı E-posta Adresi"
+      },
+      "level": {
+        "label": "Erişim düzeyi",
+        "placeholder": "Bir seviye seçin..."
+      }
+    },
+    "actions": {
+      "add": "Personel Ekle"
+    },
+    "notifications": {
+      "add_success": {
+        "title": "Erişim Verildi",
+        "message": "Yeni erişim başarıyla eklendi."
+      },
+      "update_success": {
+        "title": "Erişim Güncellendi",
+        "message": "İzinler başarıyla güncellendi."
+      }
+    }
+  },
+  "category_engine_editor": {
+    "title": "Ek Ürün Listeleme",
+    "subtitle": "Çeşitli kategorilerden ürünleri görüntüleyin. Ürünleri sergilemek için birden fazla kategori seçme veya ürünleri etiketlere göre filtreleme seçeneğiniz var.",
+    "aut_add_sub_categories_tips": "Aşağıdaki butona tıklayarak mevcut kategoriye tüm alt kategorileri otomatik olarak ekleyebilirsiniz.",
+    "inputs": {
+      "categories": {
+        "label": "kategoriler",
+        "messages": "Bu kategorilerdeki ürünler gösterilecektir.",
+        "placeholder": "Kategorileri seçin..."
+      },
+      "tags": {
+        "label": "Ürün etiketleri",
+        "messages": "Bu etiketlere sahip ürünler gösterilecektir.",
+        "placeholder": "Tel etiketleri buraya ve enter'a basın. örn. yeni koleksiyon"
+      }
+    },
+    "actions": {
+      "save_engine": "Motoru Kaydet",
+      "auto_add_subcategories": "Alt kategorileri otomatik ekle"
+    }
+  },
+  "products_sort_view": {
+    "search_tips": {
+      "title": "Arama İpuçları",
+      "normal": "<b>Genel Arama:</b> Başlığa, MPN'ye, SKU'ya, Markaya veya Etiketlere göre arama yapın.",
+      "product": "<b>Tam Ürün Kimliği:</b> Belirli bir ürünü bulmak için P+Ürün Kimliğini kullanın, örneğin, <b class=\"text-green\">P</b> <i class=\"text-yellow\">360</i> .",
+      "quotes": "<b>Tam İfade:</b> Tam bir ifadeyi aramak için tırnak işareti kullanın, örneğin, <b class=\"text-green\">\"</b> <i class=\"text-yellow\">metniniz buraya</i> <b class=\"text-green\">\"</b> .",
+      "tax": "<b>Vergi Profili:</b> \"tax:\" ifadesini kullanarak belirli bir vergi profiline sahip ürünleri arayın, örneğin, <b class=\"text-green\">tax:</b> <i class=\"text-yellow\">vergi profili adı</i> .",
+      "new_products": "<b>Yeni Ürünler:</b> Belirli bir tarih aralığında eklenen ürünleri bulun, örneğin, <b class=\"text-green\">yeni~</b> <i class=\"text-yellow\">2023-08-10</i> <b class=\"text-green\">~</b> <i class=\"text-yellow\">2023-08-20</i> ."
+    }
+  },
+  "augment_form": {
+    "title": "Artırma",
+    "subtitle": "Sayfa içeriğinde karşılık gelen değerle değiştirilecek anahtarı girin. Anahtarlar en fazla 32 karakter olmalıdır.",
+    "add_caption": "Yeni Öğe Ekle",
+    "add_sub_caption": "Özel anahtar-değer çifti ekleyin.",
+    "add_dialog": {
+      "title": "Giriş türünü seçin",
+      "html": {
+        "title": "Metin ve Html",
+        "subtitle": "Öğenin değeri metin veya HTML olarak belirlenebilir."
+      },
+      "image": {
+        "title": "görüntü",
+        "subtitle": "Resim yükleyebilirsiniz."
+      }
+    },
+    "help_dialog": {
+      "title": "Dinamik içerik nasıl kullanılır?",
+      "how_it_works_tips": "Açılış sayfalarında, hem metin hem de resimler için dinamik yer tutucular belirleme esnekliğine sahipsiniz. Bu yer tutucular, içeriği bağlama göre özelleştirmede önemli bir rol oynar. Bu yer tutucuların dinamik yapısı, farklı faktörlere bağlı olarak değişebilen artırma değerleriyle doldurulmalarına olanak tanır. Örneğin, artırma değerleri her ürün veya kategori için farklı olabilir. Bu özelliğin gerçek avantajı, farklı niteliklere sahip çeşitli öğeleriniz olduğunda devreye girer. Bu dinamik yer tutucuları, her öğenin görüntüsünü kişiselleştirmek ve geliştirmek için etkili bir şekilde kullanabilir, böylece açılış sayfalarınızda benzersiz ve etkileşimli bir deneyim yaratabilirsiniz.",
+      "assign_tips": "Resimlere dinamik değerler atamak için bölümün sol tarafında bulunan besleyici butonuna tıklayın.",
+      "set_dynamic_image_tips": "Artık resim URL'sini değiştirebilir ve ona dinamik bir değer atayabilirsiniz.",
+      "enter_values_tips": "Her ürün için özel anahtar-değer çiftleri atama olanağınız var.",
+      "result_tips": "Bu, yer tutucuların artırılmış değerlerle değiştirildiği sayfanın nihai sonucudur."
+    }
+  },
+  "logistic_profile_editor": {
+    "languages": {
+      "title": "Çok Dilli",
+      "subtitle": "Bu içerik dillerinin listesidir. Her dilde lojistik profili için farklı içerik ayarlayabilirsiniz.",
+      "add_caption": "Yeni makale ekle",
+      "no_more_language": "Dil yok artık!"
+    },
+    "content": {
+      "title": "İçerik",
+      "subtitle": "Lojistik profilinizin içeriğini birden fazla dilde özelleştirebilirsiniz.",
+      "language_input": "Güncel makale dili",
+      "delete_article": "Makaleyi Sil",
+      "menu_tooltip": "Otomatik çeviri / Makaleyi sil"
+    },
+    "translate_to": "Çevir",
+    "notifications": {
+      "translate": {
+        "message": "Makale çevirisi başarıyla tamamlandı."
+      },
+      "save_article": {
+        "message": "Makale başarıyla kaydedildi."
+      },
+      "delete_article": {
+        "message": "Makale başarıyla silindi."
+      }
+    },
+    "delete_dialog": {
+      "message": "Bu makaleyi sonsuza dek silmek istediğinizden emin misiniz?",
+      "action": "Evet, şimdi sil"
+    }
+  },
+  "logistic_profile_products": {
+    "title": "Ürün:% s",
+    "subtitle": "Bu profile bağlı ürünlerin listesi."
+  },
+  "logistic_profile_setting": {
+    "title": "Genel bilgi",
+    "inputs": {
+      "name": {
+        "message": "Bu isim size gösterilecek ve kamuoyuyla paylaşılmayacaktır."
+      },
+      "accept_delete": {
+        "true_description": "Bu işlem tüm makaleleri ve profil bağlantılarını kaldıracaktır.",
+        "true_title": "Bu bağlantıyı kaldırmak için doğruluyorum."
+      }
+    },
+    "actions": {
+      "remove": "Profili ve ilişkileri kaldır"
+    }
+  },
+  "shop_logistic_profiles": {
+    "title": "Lojistik Profilleri",
+    "add_caption": "Yeni Profil Ekle",
+    "subtitle": "Ürünler için garanti ve iade politikasını burada oluşturabilir ve düzenleyebilir ve herhangi bir ürüne atayabilirsiniz. Farklı ürün türleri için farklı garanti politikaları tanımlayabilirsiniz.",
+    "add_dialog": {
+      "title": "Yeni lojistik profili oluştur",
+      "config": {
+        "title": "Genel bilgi",
+        "subtitle": "Profil türünü seçin. Bir kılavuz, garanti veya birden fazla ürün arasında ortak olarak paylaşılan herhangi bir içerik ve materyal olabilir."
+      },
+      "article": {
+        "title": "Madde",
+        "subtitle": "Bu lojistik profili oluşturduktan sonra daha fazla dil ekleyebilirsiniz."
+      },
+      "inputs": {
+        "name": {
+          "message": "Bu isim size gösterilecek ve kamuoyuyla paylaşılmayacaktır.",
+          "placeholder": "Profil için bir ad girin..."
+        }
+      }
+    }
+  },
+  "shop_logistic_includes": {
+    "title": "Dahil Öğeler Yönetimi",
+    "add_caption": "Yeni Öğe Ekle",
+    "subtitle": "Burada, ürünlerinizde bulunan öğeleri yönetebilirsiniz. Mağazanız için kusursuz bir görünüm sağlamak için, tüm ürünlerde tel çerçeveler gibi benzer görüntü desenlerine sahip öğeleri tutarlı bir şekilde kullanın.",
+    "empty_list_msg": "Dahil edilen ürünlerin listesi...",
+    "notifications": {
+      "delete": {
+        "message": "Öğe silindi."
+      }
+    },
+    "delete_dialog": {
+      "title": "Dahil edilen öğeyi sil",
+      "message": "Bu öğeyi kalıcı olarak silmek istediğinizden emin misiniz? Lütfen tüm ilişkili ürünlerden de kaldırılacağını unutmayın!",
+      "action": "Evet, şimdi sil"
+    },
+    "actions": {
+      "edit_linked_page": "Bağlantılı sayfayı düzenle"
+    }
+  },
+  "include_item_add": {
+    "dialog_title_edit": "Dahil edilen öğeyi düzenle",
+    "dialog_title_add": "Yeni dahil edilen öğeyi oluştur",
+    "title": "Dahil ürün",
+    "subtitle": "Kısa bir başlık seçin, ideal olarak en fazla 2 ila 3 kelimeden oluşmalıdır. Kare resimler kullanın, çünkü yüklenen resimleri otomatik olarak 256x256 kare formatına yeniden boyutlandıracağız. Tüm şablonlarda en iyi görünüm için şeffaf arka planlı minimalist resimler kullanın ve ürünleriniz boyunca tekdüze bir desen sürdürün.",
+    "inputs": {
+      "title": {
+        "placeholder": "Ürün sayfasında kısa başlık görüntüleniyor..."
+      },
+      "code": {
+        "placeholder": "Benzersiz kod, örn. mobile_cable_usb",
+        "hint": "Öğeleri bulma sürecini kolaylaştırmak için bu kodu kullanın."
+      },
+      "description": {
+        "placeholder": "Bu ürün hakkında kısa bir açıklama...",
+        "hint": "Açıklama SEO için kullanılacak ve belki de ürün sayfasındaki bazı özel düzenlerde kullanıcılara gösterilecektir."
+      },
+      "image": {
+        "message": "Maksimum resim boyutu: 1MB"
+      },
+      "path": {
+        "label": "Sayfa yolu"
+      }
+    },
+    "mode": {
+      "no_link": {
+        "title": "Bağlantı yok"
+      },
+      "external_link": {
+        "title": "Dış bağlantı",
+        "description": "Harici bir URL'ye bağlantı ayarlayın.",
+        "tips": "Öğeye herhangi bir URL ekleyebilirsiniz. Kullanıcılar ürün sayfasında öğeye tıkladığında, o bağlantıya yönlendirileceklerdir."
+      },
+      "internal_link": {
+        "title": "Dahili bağlantı",
+        "description": "Bu öğe için sağlanan artırma verilerini kullanarak dinamik sayfa oluşturun.",
+        "tips": "Bir açılış sayfasını profile bağlayabilir ve bunun için özel bir yol ve dinamik içerik ayarlayabilirsiniz. Selldone, öğe için dinamik bir bağlantı oluşturacaktır."
+      }
+    },
+    "notifications": {
+      "add": {
+        "message": "Dahil edilen öğe başarıyla eklendi."
+      },
+      "edit": {
+        "message": "Dahil edilen ürün başarıyla güncellendi."
+      }
+    }
+  },
+  "shop_logistic_returns": {
+    "title": "İade Edilen Siparişler",
+    "subtitle": "Müşterileriniz fiziksel siparişlerini iade edebilir ve siz de sipariş işleme sayfasından iade taleplerini görüntüleyebilir veya buradan iade edilen siparişlerin tam listesine erişebilirsiniz."
+  },
+  "referral_fees": {
+    "title": "Komisyonlar",
+    "subtitle": "Yönlendirmelerinizden kazandığınız tüm komisyonların listesi. Komisyonun onaylanması ve cüzdanınıza aktarılması 30 güne kadar sürer."
+  },
+  "referral_wallets": {
+    "title": "Cüzdanlar",
+    "subtitle": "Burada kazandığınız komisyon ücretlerini görebilirsiniz. Komisyon ücretlerinizi banka hesabınıza veya Selldone cüzdanınıza aktarabilirsiniz.",
+    "no_commission_yet": "Henüz komisyon almadınız.",
+    "no_wallet": "Cüzdan Yok!",
+    "withdraw_dialog": {
+      "title": "Komisyon Ücretlerini Çekin",
+      "need_bank_info_message": "Lütfen öncelikle banka bilgilerinizi giriniz.",
+      "to_wallet": {
+        "title": "Cüzdana",
+        "subtitle": "Bu seçenekle komisyon ücretlerini Selldone cüzdanınıza aktarabilirsiniz. Lütfen bir cüzdanın hediye cüzdanınız olarak bağlandığından ve aynı para birimiyle çalıştığından emin olun."
+      },
+      "to_bank": {
+        "title": "Bankaya",
+        "subtitle": "Bu seçenekle komisyon ücretlerini Selldone cüzdanınıza aktarabilirsiniz. Lütfen bir cüzdanın hediye cüzdanınız olarak bağlandığından ve aynı para birimiyle çalıştığından emin olun."
+      },
+      "inputs": {
+        "verify_to_wallet": {
+          "true_description": "Komisyonumu Selldone cüzdanıma aktarmak istiyorum."
+        },
+        "verify_to_bank": {
+          "true_description": "Banka bilgilerimi doğruluyorum ve komisyonumu banka hesabıma aktarmak istiyorum."
+        }
+      },
+      "actions": {
+        "withdraw_to_wallet": "Cüzdana çek",
+        "withdraw_to_bank": "Bankaya çek"
+      }
+    },
+    "notifications": {
+      "request_transfer_to_bank_success": "Talebiniz başarıyla alındı, inceleyeceğiz."
+    }
+  },
+  "monetize_referral": {
+    "copy_box": {
+      "message": "Herhangi bir selldone URL'sine <b>?ref={code}</b> ekleyebilirsiniz."
+    },
+    "intro": {
+      "title": "Selldone Ortaklık Programına katılın",
+      "message": "Selldone Ortaklık Programı basit ve anlaşılırdır, zahmetsizce kazanmanız için tasarlanmıştır. Selldone'a yeni kullanıcıları davet etmek için benzersiz ortaklık bağlantınızı paylaşın ve yaptıkları her işlemden komisyon kazanın - sonsuza dek. Bu, aboneliklerden, hizmet ücretlerinden, mağaza yükseltmelerinden ve diğer tüm gelir akışlarından elde edilen kazançları içerir. Zaman veya kazançta herhangi bir sınırlama olmaksızın gelirin bir payını kazanmaya başlayın. Bize katılın ve ağınızı istikrarlı bir gelire dönüştürün!",
+      "why_join_selldone_affiliate": "Bu neden eşsiz bir fırsat?",
+      "reasons": [
+        "Sonsuza kadar sürer!",
+        "Tüm abonelik ve işlem ücretlerini kapsar. Kelimenin tam anlamıyla kullanıcının Selldone üzerindeki her ödemesi.",
+        "Bağlantınızı kullanarak kayıt yaptıran herkese 99$ değerinde ücretsiz kupon gönderiyoruz.",
+        "Seviyeniz yükseldiğinde, daha önce yönlendirdiğiniz tüm kullanıcılardan yeni oranda kazanç elde edersiniz."
       ]
     }
   }

@@ -139,6 +139,14 @@ export default {
     "step3": {
       "title": "Paso 3. Establecer registros DNS",
       "msg": "Felicitaciones, ahora todo lo que tiene que hacer es configurar DNS en su proveedor de servicios de dominio y agregar el dominio a su cuenta."
+    },
+    "buy_domain_step": {
+      "title": "Paso 1. Compra un dominio",
+      "msg": "Si aún no tiene su dominio personal, es hora de comprar su propio dominio en sitios web como namecheap.com."
+    },
+    "set_dns_step": {
+      "title": "Paso 2. Configurar registros DNS",
+      "msg": "Felicitaciones, ahora todo lo que tiene que hacer es configurar DNS en su proveedor de servicios de dominio y agregar el dominio a su cuenta."
     }
   },
   "payment": {
@@ -175,11 +183,35 @@ export default {
   "customize": {
     "template": {
       "title": "Plantillas",
-      "msg": "¡Inicia tu tienda con nuestras plantillas prediseñadas! Diversifique fácilmente agregando varias páginas, cada una con su propio diseño único."
+      "msg": "¡Inicia tu tienda con nuestras plantillas prediseñadas! Diversifique fácilmente agregando varias páginas, cada una con su propio diseño único.",
+      "action": "Ver todas las plantillas..."
     },
     "colors": {
       "title": "Colores y diseño",
-      "msg": "¿Quiere adaptar la página de su producto y el diseño de su tienda para que se ajusten mejor a su visión? ¡Sumérgete en la sección de personalización de temas de tu tienda y observa cómo se desarrolla la magia sin esfuerzo!"
+      "msg": "¿Quiere adaptar la página de su producto y el diseño de su tienda para que se ajusten mejor a su visión? ¡Sumérgete en la sección de personalización de temas de tu tienda y observa cómo se desarrolla la magia sin esfuerzo!",
+      "action": "Personalizar colores y tema"
+    },
+    "tour": {
+      "title": "Recorrido",
+      "subtitle": "Descubra lo que es posible aquí y no en ningún otro lugar.",
+      "avocado": {
+        "title": "Palta - Vender sin añadir ningún producto",
+        "description": "Con Avocado, puedes ofrecer servicios o productos sin precios ni detalles predefinidos. Crea un formulario personalizado para que tus clientes soliciten servicios o productos. Una vez que envíen su solicitud, puedes establecer el precio y procesar el pago. Comparte el formulario en tus redes sociales para que los clientes puedan agregar artículos, cargar imágenes y enviar pedidos fácilmente.",
+        "action": "Lea sobre el aguacate"
+      },
+      "marketplace": {
+        "title": "Mercado de múltiples proveedores y pago automático",
+        "description": "Cree un mercado próspero con Selldone agregando varios proveedores. Los proveedores pueden incluir sus productos en la lista y usted puede establecer una tasa de comisión para cada venta. Cuando un cliente realiza una compra, el proveedor recibe el pago directamente, administra el pedido a través de su panel dedicado y usted gana una comisión a través de la función de pago automático.",
+        "action": "Pago a vendedores de automóviles"
+      },
+      "business_model": {
+        "title": "Apoye modelos comerciales complejos",
+        "description": "Selldone admite modelos de negocio tanto simples como complejos, lo que le permite adaptarse según sea necesario. Configure todo en segundo plano sin instalar complementos ni aplicaciones adicionales, lo que garantiza transiciones y operaciones sin inconvenientes."
+      },
+      "gift_shopping": {
+        "title": "Restricciones de ubicación de productos y compras de regalos",
+        "description": "Establezca restricciones de ubicación para cada producto especificando varios países, códigos postales y ciudades. Esta función es perfecta para crear una experiencia de compra de regalos personalizada o limitar la disponibilidad de productos a ubicaciones específicas, como restaurantes."
+      }
     }
   },
   "business": {

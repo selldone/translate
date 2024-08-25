@@ -642,7 +642,77 @@ export default {
     "clusters": "कलस्टरों",
     "subscriptions": "सदस्यता",
     "spam": "अवांछित ईमेल",
-    "video": "वीडियो"
+    "video": "वीडियो",
+    "fulfillment": "पूर्ति",
+    "channels_overview": "चैनल अवलोकन",
+    "no_vendors": "कोई विक्रेता नहीं",
+    "ends_in": "में समाप्त होता है",
+    "current": "मौजूदा",
+    "important": "महत्वपूर्ण",
+    "web": "वेब",
+    "payout": "भुगतान",
+    "vendor_panel": "विक्रेता पैनल",
+    "vendors_panel": "विक्रेता पैनल",
+    "syncing": "सिंक्रनाइज़ किए जा रहे",
+    "level": "स्तर",
+    "available": "उपलब्ध",
+    "limited": "सीमित",
+    "management": "प्रबंध",
+    "topics": "विषय",
+    "posts": "पदों",
+    "replies": "जवाब",
+    "reports": "रिपोर्टों",
+    "post": "डाक",
+    "impressions": "छापे",
+    "resources": "साधन",
+    "engine": "इंजन",
+    "attachments": "संलग्नक",
+    "owner": "मालिक",
+    "wholesaler": "थोक व्यापारी",
+    "hidden": "छिपा हुआ",
+    "visible": "दृश्यमान",
+    "warehouse": "गोदाम",
+    "billed_yearly": "वार्षिक बिल",
+    "my_wallet": "मेरा बटुआ",
+    "boosted": "बढ़ाया",
+    "cashback": "कैशबैक",
+    "leads": "सुराग",
+    "invalid": "अमान्य",
+    "refund_date": "धनवापसी की तिथी",
+    "refund": "धनवापसी",
+    "items": "सामान",
+    "incentives": "प्रोत्साहन राशि",
+    "recurring_payment": "आवर्ती भुगतान",
+    "pricing": "मूल्य निर्धारण",
+    "purchase": "खरीदना",
+    "confirmation": "पुष्टीकरण",
+    "manage": "प्रबंधित करना",
+    "warning": "चेतावनी",
+    "custom": "रिवाज़",
+    "read": "पढ़ना",
+    "write": "लिखना",
+    "root": "जड़",
+    "nothing_set": "कुछ भी तय नहीं!",
+    "installment": "किस्त",
+    "split_payment": "भाजित भुगतान",
+    "profiles": "प्रोफाइल",
+    "location_limited": "स्थान सीमित",
+    "no_limit": "कोई सीमा नहीं",
+    "max_range": "अधिकतम सीमा",
+    "settled_date": "तय तिथि",
+    "paid_date": "भुगतान तिथि",
+    "physical_orders": "भौतिक आदेश",
+    "virtual_orders": "आभासी आदेश",
+    "file_orders": "फ़ाइल आदेश",
+    "service_orders": "सेवा आदेश",
+    "subscription_orders": "सदस्यता आदेश",
+    "avocado_orders": "एवोकाडो ऑर्डर",
+    "hyper_orders": "हाइपर ऑर्डर",
+    "connected": "जुड़े हुए",
+    "system": "प्रणाली",
+    "unknown": "अज्ञात",
+    "week": "सप्ताह",
+    "agencies": "एजेंसियां"
   },
   "dialogs": {
     "delete": {
@@ -773,7 +843,20 @@ export default {
     "buy": "खरीदना",
     "view_all": "सभी को देखें",
     "view_now": "अभी देखें",
-    "paste": "पेस्ट करें"
+    "paste": "पेस्ट करें",
+    "edit_address": "पता संपादित करें",
+    "resend": "पुन: भेजें",
+    "deploy_now": "अभी तैनात करें",
+    "become_premium": "प्रीमियम बनें",
+    "bulk_export": "थोक निर्यात",
+    "see_all": "सभी देखें",
+    "visit": "मुलाकात",
+    "rate_now": "अब रेट करें",
+    "load": "भार",
+    "duplicate": "डुप्लिकेट",
+    "connect": "जोड़ना",
+    "connect_now": "अब जोड़ो",
+    "verify_now": "अभी सत्यापित करें"
   },
   "instance_message_title": "तत्काल संदेश भेजें",
   "instance_message": "नमस्ते {name}, मेरा नाम {author} से {author} है।",
@@ -876,7 +959,8 @@ export default {
     "RequireAction": "कार्यवाई की आवश्यकता",
     "Processing": "प्रसंस्करण",
     "Canceled": "रद्द",
-    "Succeeded": "सफल हुए"
+    "Succeeded": "सफल हुए",
+    "RequireCapture": "कैप्चर की आवश्यकता"
   },
   "placeholders": {
     "name": "जोन कॉक्स",
@@ -885,7 +969,14 @@ export default {
     "language": "भाषा का चयन करें..",
     "friend_email": "आपके दोस्तों के ईमेल...",
     "friend_name": "ऑप्ट। आपके दोस्त का नाम",
-    "select_date": "एक तारीख चुनें..."
+    "select_date": "एक तारीख चुनें...",
+    "address": "123 मेन स्ट्रीट, एनीटाउन, 12345",
+    "cluster": "एक क्लस्टर चुनें...",
+    "select_products": "उत्पादों का चयन करें",
+    "birthday": "जन्मदिन चुनें",
+    "select_category": "एक श्रेणी चुनें...",
+    "select_a_country": "कोई देश चुनें...",
+    "filter_country": "देश के अनुसार फ़िल्टर करें..."
   },
   "notification": {
     "confirm": "पुष्टि करना",
@@ -1159,7 +1250,9 @@ export default {
     "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN"
   },
   "variants": {
     "color": "रंग",
@@ -1282,7 +1375,10 @@ export default {
       "title": "सामग्री रिलीज अनुसूची",
       "publish_at": "पर प्रकाशित करें",
       "last_edit": "अंतिम संपादन",
-      "view_action": "लेख देखें"
+      "view_action": "लेख देखें",
+      "no_article": "कोई निर्धारित लेख नहीं!",
+      "current_article": "वर्तमान लेख",
+      "article_for_product": "उत्पाद के लिए लेख"
     },
     "notifications": {
       "update_success_title": "जानकारी जमा करें",
@@ -1354,7 +1450,8 @@ export default {
     "first_send": "पहिला पद",
     "comment_at": "पर",
     "edit_comment": "टिप्पणी संपादित करें",
-    "my_comments": "मेरी टिप्पणियां"
+    "my_comments": "मेरी टिप्पणियां",
+    "verified_buyer": "सत्यापित खरीदार"
   },
   "customer_club": {
     "bronze": "पीतल",
@@ -1469,7 +1566,8 @@ export default {
     "canceled": "रद्द",
     "cod": "सामान देने के समय भुगतान",
     "receipt_added": "रसीद जोड़ी गई",
-    "payment_processing": "भुगतान प्रक्रिया"
+    "payment_processing": "भुगतान प्रक्रिया",
+    "payment_require_capture": "कैप्चर की आवश्यकता"
   },
   "basket_delivery_state": {
     "rejected": "अस्वीकार कर दिया",
@@ -1971,5 +2069,53 @@ export default {
     "summer": "गर्मी",
     "autumn": "शरद ऋतु",
     "winter": "सर्दी"
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "आपके और ग्राहक के बीच संदेश इतिहास देखें."
+      },
+      "new_message": {
+        "subtitle": "आप यहां सीधे ग्राहकों को संदेश भेज सकते हैं। जब आप संदेश भेजेंगे, तो ग्राहक को 20 मिनट के बाद एक ईमेल सूचना मिलेगी। यह सूचना हर 24 घंटे में एक बार ही भेजी जाएगी।"
+      }
+    },
+    "customer": {
+      "history": {
+        "subtitle": "आपके और विक्रेता के बीच संदेश इतिहास देखें."
+      },
+      "new_message": {
+        "subtitle": "आप हमें सीधे यहां संदेश भेज सकते हैं।"
+      }
+    }
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "मांग पर",
+      "desc": "जैसे घर की मरम्मत, पेंटिंग, कार की मरम्मत आदि।"
+    },
+    "BOOKING": {
+      "title": "बुकिंग",
+      "desc": "जैसे होटल का कमरा या विला बुक करना।"
+    },
+    "APPOINTMENT": {
+      "title": "नियुक्ति",
+      "desc": "पालतू जानवरों की देखभाल की नियुक्ति या व्यक्तिगत रूप से प्रशिक्षण की तरह।"
+    },
+    "RENTAL": {
+      "title": "किराये पर लेना",
+      "desc": "जैसे कोई जगह या कार किराए पर लेना।"
+    },
+    "SUBSCRIPTION": {
+      "title": "अंशदान",
+      "desc": "जैसे क्लब की सदस्यता या ऑनलाइन कोचिंग।"
+    },
+    "CHARGE": {
+      "title": "शुल्क",
+      "desc": "जैसे किसी खाते को चार्ज करना या किसी एप्लिकेशन का उपयोग करने के लिए चार्ज करना।"
+    },
+    "CUSTOM": {
+      "title": "रिवाज़",
+      "desc": "यदि आप जो सेवा प्रदान करते हैं वह उपरोक्त में से कोई नहीं है, तो इस विकल्प का चयन करें।"
+    }
   }
 };

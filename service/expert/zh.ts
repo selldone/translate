@@ -220,6 +220,14 @@ export default {
     "pos-setup": {
       "title": "设置在线收银机",
       "desc": "在您的分店运行您的 Selldone POS，并使用最专业的商店工具来开发您的业务和实体分店。"
+    },
+    "marketplace-setup": {
+      "title": "建立市场",
+      "desc": "在专家的帮助下为您的产品和服务创建市场。"
+    },
+    "pod-setup": {
+      "title": "设置 POD 商店",
+      "desc": "在专家的帮助下创建按需印刷商店。"
     }
   },
   "industries": {

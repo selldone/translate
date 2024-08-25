@@ -642,7 +642,77 @@ export default {
     "clusters": "ক্লাস্টার",
     "subscriptions": "সদস্যতা",
     "spam": "স্প্যাম",
-    "video": "ভিডিও"
+    "video": "ভিডিও",
+    "fulfillment": "পূর্ণতা",
+    "channels_overview": "চ্যানেল ওভারভিউ",
+    "no_vendors": "কোন বিক্রেতা",
+    "ends_in": "মধ্যে শেষ হয়",
+    "current": "কারেন্ট",
+    "important": "গুরুত্বপূর্ণ",
+    "web": "ওয়েব",
+    "payout": "পেআউট",
+    "vendor_panel": "বিক্রেতা প্যানেল",
+    "vendors_panel": "বিক্রেতা প্যানেল",
+    "syncing": "সিঙ্ক হচ্ছে",
+    "level": "স্তর",
+    "available": "পাওয়া যায়",
+    "limited": "লিমিটেড",
+    "management": "ব্যবস্থাপনা",
+    "topics": "বিষয়",
+    "posts": "পোস্ট",
+    "replies": "উত্তর",
+    "reports": "রিপোর্ট",
+    "post": "পোস্ট",
+    "impressions": "ইমপ্রেশন",
+    "resources": "সম্পদ",
+    "engine": "ইঞ্জিন",
+    "attachments": "সংযুক্তি",
+    "owner": "মালিক",
+    "wholesaler": "পাইকারী বিক্রেতা",
+    "hidden": "লুকানো",
+    "visible": "দৃশ্যমান",
+    "warehouse": "গুদাম",
+    "billed_yearly": "বার্ষিক বিল করা হয়",
+    "my_wallet": "আমার মানিব্যাগ",
+    "boosted": "বুস্ট করেছে",
+    "cashback": "ক্যাশব্যাক",
+    "leads": "নেতৃত্ব দেয়",
+    "invalid": "অবৈধ",
+    "refund_date": "ফেরতের তারিখ",
+    "refund": "ফেরত",
+    "items": "আইটেম",
+    "incentives": "প্রণোদনা",
+    "recurring_payment": "পুনরাবৃত্ত পেমেন্ট",
+    "pricing": "মূল্য নির্ধারণ",
+    "purchase": "ক্রয়",
+    "confirmation": "নিশ্চিতকরণ",
+    "manage": "পরিচালনা করুন",
+    "warning": "সতর্কতা",
+    "custom": "কাস্টম",
+    "read": "পড়ুন",
+    "write": "লিখুন",
+    "root": "রুট",
+    "nothing_set": "কিছুই সেট!",
+    "installment": "কিস্তি",
+    "split_payment": "বিভক্ত পেমেন্ট",
+    "profiles": "প্রোফাইল",
+    "location_limited": "অবস্থান সীমিত",
+    "no_limit": "সীমাহীন",
+    "max_range": "সর্বোচ্চ পরিসীমা",
+    "settled_date": "নিষ্পত্তির তারিখ",
+    "paid_date": "প্রদত্ত তারিখ",
+    "physical_orders": "শারীরিক আদেশ",
+    "virtual_orders": "ভার্চুয়াল আদেশ",
+    "file_orders": "অর্ডার ফাইল করুন",
+    "service_orders": "সেবা আদেশ",
+    "subscription_orders": "সদস্যতা আদেশ",
+    "avocado_orders": "অ্যাভোকাডো অর্ডার",
+    "hyper_orders": "হাইপার অর্ডার",
+    "connected": "সংযুক্ত",
+    "system": "সিস্টেম",
+    "unknown": "অজানা",
+    "week": "সপ্তাহ",
+    "agencies": "সংস্থাগুলি"
   },
   "dialogs": {
     "delete": {
@@ -773,7 +843,20 @@ export default {
     "buy": "কেনা",
     "view_all": "সব দেখ",
     "view_now": "এখন দেখুন",
-    "paste": "পেস্ট করুন"
+    "paste": "পেস্ট করুন",
+    "edit_address": "ঠিকানা সম্পাদনা করুন",
+    "resend": "আবার পাঠান",
+    "deploy_now": "এখনই স্থাপন করুন",
+    "become_premium": "প্রিমিয়াম হয়ে উঠুন",
+    "bulk_export": "বাল্ক এক্সপোর্ট",
+    "see_all": "সব দেখুন",
+    "visit": "ভিজিট করুন",
+    "rate_now": "এখন রেট",
+    "load": "লোড",
+    "duplicate": "ডুপ্লিকেট",
+    "connect": "সংযোগ করুন",
+    "connect_now": "এখনই সংযোগ করুন",
+    "verify_now": "এখন যাচাই করুন"
   },
   "instance_message_title": "তাৎক্ষণিক বার্তা পাঠান",
   "instance_message": "হাই {name}, আমার নাম হল {author} {company} থেকে৷",
@@ -876,7 +959,8 @@ export default {
     "RequireAction": "অ্যাকশন প্রয়োজন",
     "Processing": "প্রক্রিয়াকরণ",
     "Canceled": "বাতিল",
-    "Succeeded": "সফল হয়েছে"
+    "Succeeded": "সফল হয়েছে",
+    "RequireCapture": "ক্যাপচার প্রয়োজন"
   },
   "placeholders": {
     "name": "জোন কক্স",
@@ -885,7 +969,14 @@ export default {
     "language": "ভাষা নির্বাচন কর..",
     "friend_email": "আপনার বন্ধুর ইমেইল...",
     "friend_name": "অপট তোমার বন্ধুর নাম",
-    "select_date": "একটি তারিখ নির্বাচন করুন..."
+    "select_date": "একটি তারিখ নির্বাচন করুন...",
+    "address": "123 Main St, Anytown, 12345",
+    "cluster": "একটি ক্লাস্টার নির্বাচন করুন...",
+    "select_products": "পণ্য নির্বাচন করুন",
+    "birthday": "জন্মদিন নির্বাচন করুন",
+    "select_category": "একটি বিভাগ নির্বাচন করুন...",
+    "select_a_country": "একটি দেশ নির্বাচন করুন...",
+    "filter_country": "দেশ অনুযায়ী ফিল্টার করুন..."
   },
   "notification": {
     "confirm": "নিশ্চিত করুন",
@@ -1159,7 +1250,9 @@ export default {
     "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN"
   },
   "variants": {
     "color": "রঙ",
@@ -1282,7 +1375,10 @@ export default {
       "title": "বিষয়বস্তু রিলিজ সময়সূচী",
       "publish_at": "এ প্রকাশ করুন",
       "last_edit": "শেষ সম্পাদনা",
-      "view_action": "প্রবন্ধ দেখুন"
+      "view_action": "প্রবন্ধ দেখুন",
+      "no_article": "কোন নির্ধারিত নিবন্ধ!",
+      "current_article": "বর্তমান প্রবন্ধ",
+      "article_for_product": "পণ্যের জন্য নিবন্ধ"
     },
     "notifications": {
       "update_success_title": "তথ্য জমা দিন",
@@ -1354,7 +1450,8 @@ export default {
     "first_send": "প্রথম পোস্ট",
     "comment_at": "চালু",
     "edit_comment": "মন্তব্য সম্পাদনা করুন",
-    "my_comments": "আমার মন্তব্য"
+    "my_comments": "আমার মন্তব্য",
+    "verified_buyer": "যাচাইকৃত ক্রেতা"
   },
   "customer_club": {
     "bronze": "ব্রোঞ্জ",
@@ -1469,7 +1566,8 @@ export default {
     "canceled": "বাতিল",
     "cod": "ডেলিভারিতে অর্থ প্রদান করুন",
     "receipt_added": "রসিদ যোগ করা হয়েছে",
-    "payment_processing": "পেমেন্ট প্রসেসিং"
+    "payment_processing": "পেমেন্ট প্রসেসিং",
+    "payment_require_capture": "ক্যাপচার প্রয়োজন"
   },
   "basket_delivery_state": {
     "rejected": "প্রত্যাখ্যাত",
@@ -1971,5 +2069,53 @@ export default {
     "summer": "গ্রীষ্ম",
     "autumn": "শরৎ",
     "winter": "শীতকাল"
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "আপনার এবং গ্রাহকের মধ্যে বার্তা ইতিহাস দেখুন।"
+      },
+      "new_message": {
+        "subtitle": "আপনি এখানে গ্রাহকদের সরাসরি বার্তা পাঠাতে পারেন. আপনি যখন একটি বার্তা পাঠান, গ্রাহক 20 মিনিট পরে একটি ইমেল বিজ্ঞপ্তি পাবেন। এই বিজ্ঞপ্তি শুধুমাত্র প্রতি 24 ঘন্টা একবার পাঠানো হবে."
+      }
+    },
+    "customer": {
+      "history": {
+        "subtitle": "আপনার এবং বিক্রেতার মধ্যে বার্তা ইতিহাস দেখুন।"
+      },
+      "new_message": {
+        "subtitle": "আপনি এখানে আমাদের সরাসরি বার্তা পাঠাতে পারেন."
+      }
+    }
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "চাহিদা সাপেক্ষে",
+      "desc": "যেমন বাড়ি মেরামত, পেইন্টিং, গাড়ি মেরামত ইত্যাদি।"
+    },
+    "BOOKING": {
+      "title": "সংরক্ষণ",
+      "desc": "যেমন হোটেল রুম বা ভিলা বুক করা।"
+    },
+    "APPOINTMENT": {
+      "title": "নিয়োগ",
+      "desc": "একটি পোষা যত্ন অ্যাপয়েন্টমেন্ট বা ব্যক্তিগত প্রশিক্ষণের মত."
+    },
+    "RENTAL": {
+      "title": "ভাড়া",
+      "desc": "একটি জায়গা বা একটি গাড়ী ভাড়া মত."
+    },
+    "SUBSCRIPTION": {
+      "title": "সাবস্ক্রিপশন",
+      "desc": "যেমন ক্লাব সদস্যপদ বা অনলাইন কোচিং।"
+    },
+    "CHARGE": {
+      "title": "চার্জ",
+      "desc": "যেমন একটি অ্যাকাউন্ট চার্জ করা বা একটি অ্যাপ্লিকেশন ব্যবহার করার জন্য চার্জ করা।"
+    },
+    "CUSTOM": {
+      "title": "কাস্টম",
+      "desc": "আপনি যে পরিষেবাটি প্রদান করেন তা উপরের কোনটি না হলে এই বিকল্পটি নির্বাচন করুন৷"
+    }
   }
 };

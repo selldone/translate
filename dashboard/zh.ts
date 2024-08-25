@@ -7,14 +7,18 @@ export default {
     "start_free": "免费开始",
     "featured_apps": "特色应用",
     "more_apps": "更多的应用",
-    "my_public_profile": "我的公开个人资料页面"
+    "my_public_profile": "我的公开个人资料页面",
+    "product_admin": "产品管理员"
   },
   "numbers": {
     "infinite": "无限"
   },
   "error": {
     "not_fount_data": "未找到数据！",
-    "license_max_limit": "您的许可证已达到上限！"
+    "license_max_limit": "您的许可证已达到上限！",
+    "no_read_access": "无读取权限",
+    "no_write_access": "无写权限",
+    "no_access": "禁止访问"
   },
   "time_spans": {
     "days_range": "天数范围",
@@ -240,7 +244,9 @@ export default {
         "buys": "购买",
         "payments": "付款",
         "orders": "订单",
-        "currency": "货币"
+        "currency": "货币",
+        "no_payment": "没有付款！",
+        "no_purchase": "沒有購買！"
       }
     }
   },
@@ -283,7 +289,8 @@ export default {
       "apps": "应用",
       "pos": "POS",
       "seo": "SEO",
-      "localization": "本土化"
+      "localization": "本土化",
+      "classification": "分类"
     },
     "dashboard": {
       "title": "商店仪表板",
@@ -419,6 +426,10 @@ export default {
         "orders": "订单",
         "payments": "付款",
         "no_visitor_today": "你今天没有访客。"
+      },
+      "channels": {
+        "title": "获取渠道",
+        "subtitle": "您的业务正在增长。以下是您的获客渠道报告。"
       }
     },
     "products": {
@@ -452,7 +463,41 @@ export default {
         "views": "意见",
         "views_unit": "时代"
       },
-      "menu_advanced_options": "高级选项"
+      "menu_advanced_options": "高级选项",
+      "products_rss": {
+        "title": "产品 RSS",
+        "subtitle": "将产品导入 Google、Meta、..."
+      },
+      "products_api": {
+        "title": "产品 API",
+        "subtitle": "通过可公开访问的 API 调用导入产品。"
+      },
+      "google_sheet": {
+        "action": "链接表",
+        "tooltip": "此商店中的产品链接到 Google Drive 中的 Google Sheet。"
+      },
+      "show_deletes": {
+        "false_title": "隐藏已删除",
+        "true_title": "显示已删除"
+      },
+      "show_vendors": {
+        "false_title": "隐藏供应商",
+        "false_description": "显示所有供应商，⌘Ctrl+1",
+        "true_title": "显示供应商"
+      },
+      "show_notes": {
+        "false_title": "隐藏注释",
+        "false_description": "显示所有注释，⌘Ctrl+2",
+        "true_title": "显示注释"
+      },
+      "rss_dialog": {
+        "title": "产品 RSS",
+        "subtitle": "利用此 RSS 源来维护所有产品的最新列表。"
+      },
+      "api_dialog": {
+        "title": "产品 API",
+        "subtitle": "使用此 API 源可使您的产品列表保持最新状态。它提供了一个可公开访问的 API 来从您的商店获取产品，非常适合产品列表和比较网站。"
+      }
     },
     "blogs": {
       "new": "写新",
@@ -515,7 +560,8 @@ export default {
         "tax": "税",
         "drop_shipping": "经销商收据",
         "reseller_accounts": "经销商帐户",
-        "valuations": "估值"
+        "valuations": "估值",
+        "customer_wallets": "顾客钱包"
       },
       "invoice": {
         "title": "购买链接钱包",
@@ -687,7 +733,23 @@ export default {
           "cod_false": "只接受网上支付",
           "cod_true_message": "确保您的运输服务接受 COD。"
         }
-      }
+      },
+      "restriction": {
+        "title": "运输限制",
+        "subtitle": "您可以实施限制，以确保只有指定运送区域内的客户才能向您购买商品！",
+        "no_enable_shipping_error": "由于您没有启用运输方式，因此没有人可以从您这里购买！",
+        "customer_must_select_a_shipping_msg": "客户必须选择一种运输方式才能下订单。",
+        "customer_can_order_without_shipping_method_msg": "即使所选地点不支持运输方式，客户也可以下订单。",
+        "inputs": {
+          "restriction": {
+            "false_description": "即使没有选择特定的运输方式，客户仍然可以下订单。",
+            "false_title": "接受所有订单",
+            "true_title": "限制接受订单",
+            "true_description": "客户需要选择送货或提货选项才能完成购买。"
+          }
+        }
+      },
+      "no_multi_warehouse_support_message": "为简单起见，普通商店不提供此功能。"
     },
     "users": {
       "menu": {
@@ -1062,24 +1124,46 @@ export default {
       "product_name": "产品名称*",
       "product_name_placeholder": "您的产品名称在这里..",
       "product_code": "产品代码（英文）",
-      "sku": "SKU",
+      "sku": {
+        "label": "SKU",
+        "message": "库存单位"
+      },
       "sku_message": "库存单位",
-      "mpn": "MPN",
+      "mpn": {
+        "label": "MPN",
+        "message": "制造商零件编号"
+      },
       "mpn_message": "制造商零件编号",
-      "status": "地位",
+      "status": {
+        "title": "地位",
+        "subtitle": "产品状态决定了其在线和店内可用性。要制作产品草稿，只需将其状态切换为“未激活”即可。"
+      },
       "external_link": "外部链接",
-      "brand": "品牌",
+      "brand": {
+        "label": "品牌",
+        "placeholder": "品牌前。苹果..（可选）"
+      },
       "brand_placeholder": "品牌前。苹果..（可选）",
-      "warranty": "保修单",
+      "warranty": {
+        "subtitle": "设置保修和产品状态，因为有关保修的信息将显示给客户，并有助于确定购买后可以退回产品的时间范围。",
+        "label": "保修单",
+        "placeholder": "黄金 24 个月保修..（可选）"
+      },
       "is_original": "这是原创产品吗？",
       "is_original_message": "如果您未将产品设置为原始产品，则会显示该产品的假徽章。",
       "return_warranty": "该产品有多少天的退货保证？",
       "warehouse_section": "仓库与制造",
       "conditions_section": "产品条件",
       "warranty_section": "保修和交付",
-      "unit": "产品单元",
+      "unit": {
+        "subtitle": "您可以个性化产品页面上定价和号召性用语元素的显示。"
+      },
       "unit_message": "如果需要，输入单位。例如：公斤，米，...",
-      "condition": "您商店中的产品状况",
+      "condition": {
+        "label": "您商店中的产品状况",
+        "message": "请选择本产品的状态。",
+        "subtitle": "告知客户您所提供产品的状况和品牌。"
+      },
       "condition_message": "您必须在此字段中选择一个值。",
       "unit_section": "产品单元",
       "unit_float": "浮动单元（很快）",
@@ -1103,6 +1187,46 @@ export default {
         "single_vendor_desc": "该产品属于某个供应商，所选供应商可以对其进行管理。",
         "multi_vendors_title": "多个供应商",
         "multi_vendors_desc": "该产品属于市场，只能在市场面板中编辑。"
+      },
+      "category_input_msg": "空：在商店的根目录中",
+      "unit_input": "产品单元",
+      "category": {
+        "subtitle": "配置在您的列表中显示的类别和标题。"
+      },
+      "custom_pricing": {
+        "title": "定制定价表",
+        "subtitle": "您可以为产品创建或分配估价（定价输入表），并且您的客户可以在变体之间进行选择或通过直观的输入表定制您的商品。",
+        "valuation_need_saved_product_message": "请先保存产品，然后才能指定估价模型。",
+        "assign_valuation_message": "请为该产品指定一个估价模型。",
+        "edit_pricing_action": "编辑定价表",
+        "add_pricing_action": "创建新的定价表"
+      },
+      "action": {
+        "title": "自定义购买按钮",
+        "message": "您可以按照以下模式更改图标：{icon name} 标题...",
+        "placeholder": "输入行动号召...",
+        "multi_language_dialog_title": "自定义购买按钮标题"
+      },
+      "warehouse": {
+        "subtitle": "仓库管理系统利用这些信息来全局识别产品。"
+      },
+      "gtin": {
+        "hint": "支持的值有 UPC（北美，12 位数字）、EAN（欧洲，13 位数字）、JAN（日本，8 位或 13 位数字）、ISBN（书籍，13 位数字）。",
+        "label": "产品的全球贸易项目编号",
+        "placeholder": "此处为全球贸易编号..（可选）"
+      },
+      "hsn": {
+        "hint": "HSN，即“协调命名制度”，是一种用于对商品和产品进行分类的国际标准化分类系统。",
+        "placeholder": "6~16位HSN代码..（可选）",
+        "label": "HSN"
+      },
+      "profiles": {
+        "title": "简介",
+        "subtitle": "您可以定义保修、退货政策、运输和指南并将其分配给该产品。它将作为新标签显示在产品页面上。"
+      },
+      "shortcuts": {
+        "title": "将产品分配至其他类别",
+        "subtitle": "此功能允许您将产品列在多个类别中，同时保留其在产品 > 编辑 > 类别下的主要类别集中的位置。本质上，它的功能类似于在操作系统中创建“快捷方式”，使产品能够出现在其他指定类别中。"
       }
     },
     "rating_pros_cons": {
@@ -1181,12 +1305,55 @@ export default {
         "code_input": "产品编号",
         "code_input_message": "产品编号：P0000 ...",
         "spec_view_title": "所选产品的规格",
-        "set_spec_action": "重复的技术规格"
+        "set_spec_action": "重复的技术规格",
+        "spec_view_subtitle": "已从所选产品导入规格。"
       },
       "notifications": {
         "enter_group_title_error": "输入标题值",
         "enter_item_title_and_value_error": "输入特征的标题和值",
         "spec_saved_success": "产品规格已保存。"
+      },
+      "subtitle": "在此处插入产品规格。此信息将显示给客户，也可在类别的智能过滤系统中使用。",
+      "manual": {
+        "title": "手动",
+        "subtitle": "通过定义组和键值对手动添加产品规格。",
+        "add_group_action": "添加组",
+        "add_item_action": "添加规格值"
+      },
+      "import": {
+        "subtitle": "您可以导入类似产品的技术规格。",
+        "action_title": "进口",
+        "action_subtitle": "从另一个产品克隆规格。"
+      },
+      "ai": {
+        "title": "AI",
+        "subtitle": "您可以通过以文本形式提交产品的原始数据来自动创建产品规格。",
+        "action_title": "AI自动生成",
+        "action_subtitle": "根据抽象提示创建产品规范。"
+      },
+      "dialog_ai": {
+        "title": "自动生成产品规格",
+        "prompt": {
+          "title": "产品概述",
+          "subtitle": "请提供简短清晰的产品描述，突出其主要功能和细节。此信息将用于自动生成产品规格。"
+        },
+        "generated_spec": {
+          "title": "人工智能生成的规范",
+          "subtitle": "这些规范是由人工智能生成的。"
+        },
+        "inputs": {
+          "prompt": {
+            "label": "产品详情",
+            "placeholder": "在此描述产品..."
+          }
+        },
+        "actions": {
+          "run": {
+            "title": "生成规范",
+            "subtitle": "单击即可根据提供的概述自动创建产品规格。"
+          },
+          "add_generated_spec": "添加生成的规范"
+        }
       }
     },
     "edit_images": {
@@ -1204,6 +1371,24 @@ export default {
       "video": {
         "title": "视频",
         "sub_title": "首先，将您的产品视频上传到 Youtube，然后将视频 URL 放在这里。"
+      },
+      "change_bg_ai": {
+        "title": "创建具有新背景的图像",
+        "inputs": {
+          "prompt": {
+            "label": "背景描述",
+            "placeholder": "描述所需的背景..."
+          }
+        },
+        "actions": {
+          "reimagine": {
+            "title": "生成新图像",
+            "subtitle": "用新的背景重新想象整个图像。"
+          },
+          "replace": {
+            "subtitle": "替换现有的背景。"
+          }
+        }
       }
     },
     "pricing": {
@@ -1227,14 +1412,33 @@ export default {
       "variant_pricing_message": "通过选择此选项，可以独立于主要产品设置此变体的价格。",
       "price_label_input": "价格标签",
       "price_label_message": "添加有关价格的额外信息，例如（$1.5/Fl Oz）。用例：杂货店、快速消费品。",
-      "add_price_label_action": "添加价格标签"
+      "add_price_label_action": "添加价格标签",
+      "subtitle": {
+        "marketplace": "在市场内，显示的主要产品定价是标价，而实际价格则根据供应商与产品关系记录确定。",
+        "subscription": "对于订阅，仅显示标价，而实际费用将根据所选的订阅计划确定。",
+        "service": "对于基于服务的产品，所列价格仅用于展示目的，提供服务的估计成本。实际服务价格将在客户下订单后（结账时）由您确定。",
+        "file": "这是指文件的标价和实际价格，客户必须支付该价格才能访问文件。",
+        "default": "这是指产品的标价，同时也考虑了任何没有单独定价的变体的价格。"
+      },
+      "extra_pricings": {
+        "title": "添加额外定价",
+        "subtitle": "根据购买数量应用不同的价格。"
+      },
+      "vendor": {
+        "title": "供应商定价",
+        "subtitle": "此价格仅显示在产品列表中。您可以在产品 > 供应商选项卡中设置供应商价格。",
+        "manage_vendors": "管理供应商",
+        "vendor_product_pricing_link": "供应商的产品定价是关联的。在此处更改标价将影响没有变体的供应商产品或没有自己定价的变体产品（使用与主产品相同的价格）。此价格将被视为市场价格，供应商的价格将根据定价模型或之前的市场利润率设定。",
+        "vendor_variant_pricing_link": "在此处更改变体价格将影响具有相同变体的供应商产品的定价。此价格将被视为市场价格，供应商的价格将根据定价模型或之前的市场利润率设定。"
+      }
     },
     "inputs_edit": {
       "title": "买家信息输入表",
       "sub_title": "您可以为每个产品创建一个数据输入表单，以便购物者在购买产品时向您发送信息。例如，此信息可以是石头上雕刻的名称。",
       "message_input": "给用户的消息",
       "message_input_message": "此消息将在购买产品时显示给客户。",
-      "inputs_form": "信息结构（输入）"
+      "inputs_form": "信息结构（输入）",
+      "inputs_hint": "您可以选择设置个性化表格，以便在客户准备下订单时收集他们的详细信息。"
     },
     "extra_edit": {
       "physical": {
@@ -1244,6 +1448,13 @@ export default {
       "notifications": {
         "save_title": "包装更新",
         "save_msg": "产品包装信息更新成功。"
+      },
+      "order_limit": {
+        "title": "订单限制",
+        "subtitle": "如果您是批发商或每个订单中该商品的数量有最低或最高限制，您可以在此处指定。",
+        "no_limit": "无限制",
+        "minimum_purchase_quantity": "最低购买数量",
+        "maximum_purchase_quantity": "最大购买数量"
       }
     },
     "variants": {
@@ -1251,7 +1462,8 @@ export default {
     },
     "delete_product": {
       "title": "删除产品",
-      "message": "您要删除<b>{product_title}</b>吗？"
+      "message": "您要删除<b>{product_title}</b>吗？",
+      "tips": "如果您不小心删除了某个产品，您可以通过导航至您的商店 > 产品，启用“显示已删除的商品”，然后右键单击该产品并选择“恢复”来恢复它。"
     }
   },
   "product_admin": {
@@ -1275,7 +1487,11 @@ export default {
         "type": "类型",
         "inputs": "输入信息",
         "outputs": "输出信息",
-        "user_data_form": "买家信息表"
+        "user_data_form": "买家信息表",
+        "staff_messages": "员工讯息",
+        "add_note": "添加备注",
+        "product_tags": "产品标签",
+        "edit_tags": "编辑标签"
       },
       "orders": {
         "title": "订单",
@@ -1283,7 +1499,9 @@ export default {
         "physical_orders_title": "此产品的购物车",
         "send_30days_title": "过去 30 天内已发货的订单",
         "downloads_30days_title": "过去 30 天内下载的文件数",
-        "virtual_orders_title": "该产品的订单等待完成"
+        "virtual_orders_title": "该产品的订单等待完成",
+        "send_count_in_period": "已在 {start} ~ {end} 之间发货的订单",
+        "downloads_count_in_period": "{start} ~ {end} 之间的文件下载计数"
       },
       "inventory": {
         "title": "存货",
@@ -1298,7 +1516,8 @@ export default {
           ]
         },
         "subscribers_title": "订阅者",
-        "subscribers_title_small": "总认购订单数"
+        "subscribers_title_small": "总认购订单数",
+        "total_sell_timespan": "{start} ~ {end} 之间的总销售额"
       },
       "finance": {
         "title": "金融的",
@@ -1327,7 +1546,9 @@ export default {
           "participate": "参与",
           "participate_title": "投稿数",
           "score": "分数"
-        }
+        },
+        "total_participation_tooltip": "该产品的评分者总数。",
+        "users_not_rated_msg": "用户尚未对此产品进行评分。"
       },
       "inform": {
         "title": "客户期望",
@@ -1403,7 +1624,11 @@ export default {
     "lead_time_dimension": "小时）",
     "bulk_action": "批量操作",
     "bulk_action_input": "更新所有变体",
-    "bulk_action_msg": "为所有变体设置产品包装和准备时间。"
+    "bulk_action_msg": "为所有变体设置产品包装和准备时间。",
+    "weight_subtitle": "在此输入产品的总包装重量。此信息有助于选择正确的运输方式并确保订单不超过运输限制。",
+    "size_subtitle": "在此输入产品的完整包装尺寸。此信息用于选择正确的运输方式并确保订单不超过包裹尺寸限制。",
+    "lead_time_subtitle": "交货时间估计准备产品以供装运所需的时间，这有助于估计交货时间。",
+    "bulk_action_subtitle": "您可以将包装信息应用于所有产品变体。"
   },
   "product_images_list": {
     "upload_button": "更多产品图片",
@@ -1488,10 +1713,14 @@ export default {
     },
     "notifications": {
       "save_success": "库存更改已保存。"
-    }
+    },
+    "title": "商店库存",
+    "subtitle": "商店中所有产品的列表。",
+    "cant_set_here": "无法在此处设置"
   },
   "spec_view": {
-    "auto_save_input": "自动保存"
+    "auto_save_input": "自动保存",
+    "auto_save_input_message": "更改将自动保存。"
   },
   "time_progress_bar": {
     "title_before_start": "留在起点",
@@ -1752,6 +1981,33 @@ export default {
       },
       "notifications": {
         "edit_success": "类别已编辑。"
+      },
+      "manually_update_filters_tips": "<b>重要提示！</b>产品更改时，过滤器会自动更新。但是，在对类别中的产品进行更改后，请返回此处并单击保存/重新生成按钮以刷新过滤器。",
+      "inputs": {
+        "spec": {
+          "message": "您希望在过滤器部分中显示的功能列表",
+          "placeholder": "选择要在过滤器中显示的规格..."
+        }
+      }
+    },
+    "config": {
+      "subtitle": "类别有助于简化产品管理，使您的客户更容易在您的商店中找到产品。"
+    },
+    "parent": {
+      "subtitle": "此类别将显示在其父类别下。如果产品没有父类别，它将显示在主类别中。"
+    },
+    "template": {
+      "title": "模板",
+      "edit_page": "編輯頁面",
+      "Pages_list": "页面列表",
+      "subtitle": "您可以通过覆盖自定义页面来增强类别页面的显示效果。最好的方法是创建具有透明背景的页面，并为每个类别设计 1 到 2 个特定部分。然后，您可以将一个页面链接到多个类别，使用动态内容单独定制每个类别。"
+    },
+    "critical_zone": {
+      "title": "临界区",
+      "subtitle": "如果删除类别，其子类别和产品将被移动到父目录<b>📁 {parent}</b> 。要管理不在产品列表中的类别，请转到商店 > 类别选项卡。",
+      "accept_delete": {
+        "true_description": "我想删除这个类别。",
+        "true_title": "确认删除类别"
       }
     }
   },
@@ -1807,7 +2063,8 @@ export default {
       "name_available": "此名称 ({name}) 可用。",
       "add_success": "商店 {title} 已创建。",
       "edit_success": "商店编辑。"
-    }
+    },
+    "description_input_tips": "此描述将出现在您商店的页脚中，并将用作您商店页面的默认元标记描述。"
   },
   "virtual_items_list": {
     "add_virtual_item": "添加虚拟物品",
@@ -1896,7 +2153,13 @@ export default {
       "title": "拒绝订单的原因",
       "message": "从下面的列表中选择拒绝此订单的原因。请务必通知客户取消和退款流程。退款必须在 12 小时内完成。",
       "confirm_action": "取消订单",
-      "dismiss_reject_action": "取消订单"
+      "dismiss_reject_action": "取消订单",
+      "confirm_now_action": "立即取消订单",
+      "confirm_in48h_action": "48 小时内取消订单",
+      "options": {
+        "title": "选项",
+        "subtitle": "如果您想立即取消订单，可以使用此选项。"
+      }
     },
     "notifications": {
       "update_status_success": "订单状态已更新。",
@@ -2019,7 +2282,8 @@ export default {
         "pay_fail_title": "没有支付",
         "pay_fail_message": "无法批准付款！"
       },
-      "total_order_price_before_tax": "税前总价"
+      "total_order_price_before_tax": "税前总价",
+      "require_capture": "需要捕获"
     },
     "basket_list": {
       "checklist": [
@@ -2031,7 +2295,23 @@ export default {
       "list_of_items": "购物车清单",
       "apply_change_action": "应用更改",
       "cant_apply_change": "无法进行更改",
-      "lottery_prize_inform": "您的客户赢得该产品的 1 倍。使用此订单发送礼物。"
+      "lottery_prize_inform": "您的客户赢得该产品的 1 倍。使用此订单发送礼物。",
+      "need_to_refund": {
+        "title": "要求向客户退款",
+        "message": "我们手动计算您需要退款的总金额。它根据不可用的商品和已退款的总金额计算。",
+        "calculated_approximately": "此金额为大概数额，具体金额请自行计算。"
+      },
+      "need_payback": {
+        "title": "要求客户退款",
+        "message": "我们注意到，退还给客户的总金额高于根据购物车中的商品计算的应付金额。您可能需要向客户收取费用以收回超出的金额。"
+      },
+      "need_no_refund": {
+        "title": "无需退款"
+      },
+      "total_refund": {
+        "title": "退款总额",
+        "message": "这是您的支付网关自动退款的总金额。只有部分支付服务支持此功能，因此您需要手动退款。"
+      }
     },
     "preparing": {
       "title": "准备",
@@ -2047,7 +2327,9 @@ export default {
         "遵循包装中的标准规则。",
         "打印物品清单并将其放入包装内。",
         "打印并在盒子上贴上标签。"
-      ]
+      ],
+      "items_weight_calculation": "所有商品的总重量为 {weight} {unit}",
+      "not_available_message": "当您禁用询问送货地址并且用户在购买后没有填写地址时，该功能不可用！"
     },
     "basket_items": "订购商品列表",
     "delivered_dialog": {
@@ -2156,10 +2438,48 @@ export default {
     "developer_title": "开发者模式",
     "developer_message": "如果网关支持调试模式，您可以处理虚假事务。",
     "notifications": {
-      "edit_success": "网关 {gateway_name} 已编辑。"
+      "edit_success": "网关 {gateway_name} 已编辑。",
+      "success_delete": "付款方式已删除！"
     },
     "developer_setting": "开发和测试",
-    "live_mode_message": "所有交易都将处于实时模式。"
+    "live_mode_message": "所有交易都将处于实时模式。",
+    "status_title": "支付服务状态",
+    "status_message": "将付款方式配置为有效或无效。只有设置为有效的付款方式才会显示给客户。",
+    "status_true_description": "您的客户可以使用此付款方式付款。",
+    "manual_title": "手动/自动捕获付款",
+    "manual_message": "创建付款时，您可以暂停符合条件的付款方式，以保留稍后可提取的资金。例如，酒店通常会在客人入住前授权全额付款，然后在客人退房时提取这笔款项。",
+    "debug": {
+      "title": "开发和测试",
+      "subtitle": "您可以启用调试模式来测试支付网关。"
+    },
+    "limit": {
+      "title": "订单限制",
+      "subtitle": "设置此支付网关的最低订单金额。"
+    },
+    "limit_input": {
+      "title": "最低订单金额",
+      "msg": "零意味着没有限制。"
+    },
+    "currency_input": {
+      "message": "此支付网关支持的货币。"
+    },
+    "gateway_code": "网关代码",
+    "hold_only_for": "暂缓付款仅适用于",
+    "manual_input": {
+      "false_description": "付款提供商系统中的付款状态将自动从待处理更改为已确认。",
+      "false_title": "自动付款确认",
+      "true_title": "暂停付款并手动确认",
+      "true_description": "暂停付款，因此您需要验证订单的付款，以便在付款提供商系统中将其状态从待定更改为已确认。"
+    },
+    "delete_verify_input": {
+      "true_title": "我想删除这种付款方式。",
+      "true_description": "此付款方式将从商店中删除，并且不再可供客户使用。"
+    },
+    "delete_alert": {
+      "title": "删除付款方式",
+      "message": "您确定从您的商店删除此付款方式吗？",
+      "action": "删除付款方式"
+    }
   },
   "gift_card": {
     "title": "礼品卡",
@@ -2368,7 +2688,9 @@ export default {
     "connect-remove-hold": "订单已解除保留。 {reason}",
     "connect-confirmed": "订单得到确认。",
     "email-vendor": "🔔 订单通知邮件已发送至<b>{vendor}</b> ╏ {email}。",
-    "vendor-payout": "💸 支付给供应商。"
+    "vendor-payout": "💸 支付给供应商。",
+    "sms-payment": "通过{phone}向客户发送付款确认短信。",
+    "vendor-sms": "🔔 订单通知短信已发送至<b>{vendor}</b> ╏ {phone}。"
   },
   "inline_chart": {
     "today": "今天",
@@ -2384,6 +2706,34 @@ export default {
     "notifications": {
       "copy_success": "产品副本。",
       "change_category_success": "产品类别已编辑。"
+    },
+    "load_more_products": "此类别下还有更多产品。单击以加载更多商品。",
+    "filter_box": {
+      "no_root_filter_message": "您的根目录中有产品，但没有过滤器。",
+      "has_root_filter_message": "您为根类别设置过滤器。",
+      "set_filter_message": "您可以设置过滤器。",
+      "edit_action": "编辑根过滤器",
+      "clear_action": "清除根过滤器"
+    },
+    "ai": {
+      "title": "AI产品协助"
+    },
+    "menu": {
+      "select_all_products": "选择所有产品",
+      "unselect": "取消选择",
+      "sort_categories": "排列/排序类别",
+      "subscription_vendor_not_support_message": "无法为订阅产品指定供应商！订阅产品必须始终有一个供应商作为其所有者！",
+      "vendor_owner_not_assignable_message": "无法为以供应商为所有者的产品指定供应商！",
+      "category_assign_profile": "将配置文件分配给类别中的产品",
+      "category_assign_profile_subtitle": "税费、运费、指南、保修……",
+      "bulk_discount": "批量折扣",
+      "bulk_discount_subtitle": "对所有产品应用折扣。"
+    },
+    "engine": {
+      "title": "附加产品引擎",
+      "subtitle": "将从选定的类别和标签中加载更多产品。",
+      "load_in_tips": "加载{category}类别中的产品。",
+      "action": "编辑{category}引擎"
     }
   },
   "physical_order_track": {
@@ -2419,7 +2769,9 @@ export default {
       "message": "您确定要将此电子邮件重新发送给您的客户吗？",
       "action": "是的，重新发送",
       "success": "重新发送给您的客户的电子邮件。"
-    }
+    },
+    "message": "在此部分中，您可以查看与订单、履行、付款及其各自状态相关的事件的时间线。此外，您还可以观察发送给客户和供应商的订单。",
+    "add_note_subtitle": "写一条消息并提及您的同事。"
   },
   "accounts": {
     "title": "我的钱包",
@@ -3253,7 +3605,15 @@ export default {
       "access": "访问我的帐户",
       "security": "安全",
       "preferences": "用户偏好",
-      "my_subscriptions": "我的订阅"
+      "my_subscriptions": "我的订阅",
+      "my_public_profile_subtitle": "我的公开个人资料{name}。",
+      "personal_information_subtitle": "编辑我的个人资料、地址和 KYC。",
+      "wallet_subtitle": "虚拟账户和关联的支付卡。",
+      "companies_subtitle": "注册我的商业和税务资料。",
+      "access_subtitle": "OAuth 客户端、个人访问令牌和连接的应用程序。",
+      "security_subtitle": "设置两个因素并管理社交登录选项。",
+      "preferences_subtitle": "更改主题、级别、语言和默认货币。",
+      "my_subscriptions_subtitle": "访问高级 AI 和定制功能。"
     }
   },
   "page_builder": {
@@ -3293,7 +3653,8 @@ export default {
         "tools": "工具",
         "history": "历史",
         "style": "风格",
-        "typography": "排版"
+        "typography": "排版",
+        "hierarchy": "等级制度"
       },
       "no_category": "没有分类"
     },
@@ -3392,7 +3753,8 @@ export default {
     "samples": "展示样品店",
     "samples_message": "如果启用，一些示例商店将显示在您的面板中。",
     "automation": "自动化",
-    "automation_message": "在商店仪表板上显示自动化选项卡。 （Webhook、可视化编程……）"
+    "automation_message": "在商店仪表板上显示自动化选项卡。 （Webhook、可视化编程……）",
+    "date_time": "日期和时间"
   },
   "shop_locations": {
     "title": "提供服务的国家",
@@ -3419,7 +3781,31 @@ export default {
     "auto_category": "自动设置类别",
     "add_in_current_category": "添加到当前类别",
     "category_mode_message": "如果启用，产品将被添加到默认类别或子类别中。",
-    "sku_name_input": "SKU/名称"
+    "sku_name_input": "SKU/名称",
+    "info": {
+      "subtitle": "为了生成产品，您只需输入创建产品所需的基本详细信息。"
+    },
+    "price": {
+      "subtitle": "输入此产品的价格和折扣。添加产品后，您将可以访问更多选项。"
+    },
+    "by_sku": {
+      "title": "按 SKU 添加",
+      "subtitle": "您所在国家/地区的数据库不可用。"
+    },
+    "drop_shipping": {
+      "subtitle": "在批发市场中查找产品并将其添加到您的商店。"
+    },
+    "by_connect": {
+      "subtitle": "使用 Selldone Connect OS 轻松添加来自 POD 或直销供应商的产品——只需连接您的商店并享受自动产品集成，无需插件。"
+    },
+    "your_license_is_not_eligible": "您的许可证不符合条件。",
+    "sku_dialog": {
+      "title": "按 SKU 添加产品",
+      "subtitle": "您可以通过我们数据库中的 SKU 找到产品，然后只需单击即可添加它们。"
+    },
+    "dropshipping_dialog": {
+      "title": "添加直销产品"
+    }
   },
   "my_affiliate": {
     "title": "我的附属合同",
@@ -3509,7 +3895,8 @@ export default {
     "coupon": "优惠券",
     "offer": "提供",
     "gift_card": "礼物卡",
-    "lottery": "彩票"
+    "lottery": "彩票",
+    "cashback": "现金返还"
   },
   "discount_codes": {
     "title": "折扣码",
@@ -3552,6 +3939,24 @@ export default {
       "notifications": {
         "add": "折扣码已成功添加。",
         "edit": "折扣码已成功编辑。"
+      },
+      "config": {
+        "title": "常规配置",
+        "subtitle": "折扣码计算公式为：max(LIMIT, PERCENT * 购物车价格)。记得让代码相关且容易记住。"
+      },
+      "limit": {
+        "title": "限制",
+        "subtitle": "您可以在此部分定义每个折扣码的最大使用限制以及最大折扣金额。"
+      },
+      "duration": {
+        "title": "时长限制",
+        "subtitle": "如果您想在特定时间段内激活折扣代码，您可以在此处设置该期限。"
+      },
+      "design": {
+        "subtitle": "您可以为每个折扣码设置标题和描述。这些详细信息将显示给用户。"
+      },
+      "cluster": {
+        "subtitle": "通过将此折扣代码与集群关联，您可以轻松地在单个位置将其与其他资源一起管理。"
       }
     },
     "delete_alert": {
@@ -3654,6 +4059,34 @@ export default {
     "notifications": {
       "add": "新优惠券创建成功。",
       "edit": "优惠券已更新。"
+    },
+    "config": {
+      "subtitle": "优惠券折扣计算公式为：CHARGE + max(LIMIT,PERCENT * 购物车价格)。"
+    },
+    "limit": {
+      "subtitle": "在本部分中，您可以设置每张优惠券的最大使用次数以及每张优惠券可提供的最高折扣金额。",
+      "zero_message": "零：没有限制！"
+    },
+    "duration": {
+      "subtitle": "如果您希望设置优惠券生效的特定时间范围，您可以在此部分配置持续时间。"
+    },
+    "design": {
+      "subtitle": "每张优惠券均可添加标题和说明。这些详细信息将对客户可见。"
+    },
+    "constraints": {
+      "subtitle": "在这里，您可以为优惠券建立额外的个性化参数。",
+      "no_limit": "无额外限制",
+      "has_limit": "额外约束",
+      "has_code_message": "用户应输入代码来添加优惠券。"
+    },
+    "club": {
+      "subtitle": "此优惠券的使用仅限于选定的客户俱乐部的会员。"
+    },
+    "cluster": {
+      "subtitle": "通过将此优惠券与集群关联，您可以轻松地在单个位置将其与其他资源一起进行管理。"
+    },
+    "preview": {
+      "subtitle": "这是优惠券的公开预览。"
     }
   },
   "offers": {
@@ -3688,7 +4121,10 @@ export default {
     "qualified_products_message": "对于符合条件的产品，购物车中的商品总数必须等于或大于最小数量。",
     "min_items": "最少物品数量",
     "min_items_message": "客户必须购买的商品数量",
-    "discounted_products": "打折产品",
+    "discounted_products": {
+      "title": "打折产品",
+      "subtitle": "您可以指定此优惠将应用折扣的产品。"
+    },
     "offered_products": "提供的产品",
     "offered_products_message": "至少其中一种产品必须在购物车中。",
     "discount_percent": "折扣百分比",
@@ -3710,6 +4146,21 @@ export default {
     "notifications": {
       "add": "新报价创建成功。",
       "edit": "优惠更新成功。"
+    },
+    "config": {
+      "subtitle": "通过确定标题、描述和公开可用性状态来开始制定智能交易。"
+    },
+    "limit": {
+      "subtitle": "在本部分中设置此优惠的最大使用限制。"
+    },
+    "duration": {
+      "subtitle": "如果您希望为优惠设置特定的时间范围，您可以在此处配置持续时间。"
+    },
+    "constraints": {
+      "subtitle": "在此设置优惠的资格标准和条件。优惠适用于符合这些条件的购物车商品。"
+    },
+    "cluster": {
+      "subtitle": "通过将此优惠与集群关联，您可以轻松地在单个位置对其进行与其他资源的管理。"
     }
   },
   "campaign_ads": {
@@ -3807,7 +4258,12 @@ export default {
     },
     "notifications": {
       "delete_success": "奖品删除成功。"
-    }
+    },
+    "manual_send_token_action": "手动令牌",
+    "config": {
+      "subtitle": "通过商店中的游戏化体验来提高顾客的购买量。为通过购买获得代币的顾客设置奖品和获胜几率。每场游戏花费 10 个代币，您可以为首次购买者提供特殊奖品。默认游戏是 Wheel of Fortune，但您可以自定义它以适合您的商店布局。"
+    },
+    "empty_prize_list": "在此创建和管理奖品..."
   },
   "lottery_edit": {
     "title_edit": "编辑彩票项目",
@@ -3828,7 +4284,10 @@ export default {
     "chance_message": "获胜机会百分比",
     "free_for_first": "新客户免费吗？",
     "free_for_first_message": "新客户可以赢得这个项目。",
-    "prize": "奖",
+    "prize": {
+      "title": "奖",
+      "subtitle": "在此设置奖品详情。选项包括折扣代码、礼品卡、积分和其他折扣作为抽奖奖励。"
+    },
     "amount": "奖金金额",
     "amount_hint": "用户为他们的订单赢得了这笔费用。",
     "currency_message": "此项目的货币。其他货币按汇率换算。",
@@ -3841,6 +4300,20 @@ export default {
     "notifications": {
       "add": "新彩票项目创建成功。",
       "edit": "彩票项目更改成功。"
+    },
+    "not_free_for_first_message": "首次免费游戏不提供此奖品。",
+    "config": {
+      "subtitle": "您可以在此处创建商店的抽奖奖品。设置每个奖品的标题、描述、颜色和图像。"
+    },
+    "design": {
+      "subtitle": "在这里，您可以选择奖品的图像和颜色。"
+    },
+    "constraints": {
+      "subtitle": "明确赢得该奖项的标准和限制。"
+    },
+    "product_input": {
+      "label": "产品奖",
+      "message": "选择一件产品作为奖品（免费）"
     }
   },
   "gift_card_types_list": {
@@ -4302,7 +4775,9 @@ export default {
     },
     "dialog_club": {
       "title": "设置客户俱乐部级别"
-    }
+    },
+    "subtitle": "您可以通过多种方式将客户添加到您的商店：手动、批量 Excel 导入、通过 POS 或通过您的在线商店。每当用户登录您的商店时，他们都会自动注册为客户。",
+    "add_customer_action": "添加新客户"
   },
   "app_dashboard": {
     "status": "发布状态",
@@ -4405,7 +4880,11 @@ export default {
     "option_deliver_by_courier": "选项 1：由您的快递员送货。",
     "option_add_to_que": "选项 2：添加到队列以在运输服务页面上处理。",
     "option_instant_shipping": "选项 3：即时发货。",
-    "pickup_action": "取件确认"
+    "pickup_action": "取件确认",
+    "courier_action": "发货确认",
+    "courier_action_subtitle": "我的快递员会收取包裹。",
+    "pickup_action_subtitle": "顾客领取了订单。",
+    "service_action": "执行确认"
   },
   "shop_home_edit": {
     "title": "主页设置",
@@ -4431,7 +4910,8 @@ export default {
     "officer": "官",
     "amount": "金额交易",
     "note": "笔记",
-    "date": "日期"
+    "date": "日期",
+    "subtitle": "这是提款交易的列表。当您将资金从推荐钱包转入您的银行账户或 Selldone 钱包时，它将列在这里。"
   },
   "widget_shop_gateway": {
     "link_account_caution": "将帐户 ({currency}) 链接到您的商店！点击这里.."
@@ -4720,11 +5200,89 @@ export default {
   "shop_sms": {
     "title": "管理短信",
     "sub_title": "发送给客户的短信模板",
-    "message": "您可以在此处查看您的商店发送的短信内容。由于在消息服务中注册验证模式的限制，目前无法个性化文本消息。"
+    "message": "您可以在此处查看您的商店发送的短信内容。由于在消息服务中注册验证模式的限制，目前无法个性化文本消息。",
+    "tabs": {
+      "templates": "模板",
+      "provider": "提供者"
+    },
+    "manage": {
+      "title": "管理短信",
+      "subtitle": "您可以在此处查看您的商店发送的短信内容。由于在消息服务中注册验证模式的限制，目前无法个性化文本消息。"
+    },
+    "template": {
+      "title": "模板",
+      "valid_message": "您可以创建自定义短信。",
+      "provider_not_enable_message": "短信提供商未启用！",
+      "need_custom_provider_message": "仅当您设置了自定义提供商时，定制的短信才有效。",
+      "add_new": "添加新",
+      "disable_reason": {
+        "set_provider": "首先设置您的提供商！",
+        "provider_is_disabled": "提供商已禁用！",
+        "otp": "OTP-不可定制！",
+        "select_another_provider": "选择其他提供商。"
+      },
+      "enable_only_filter": "仅显示已启用",
+      "text_template_not_supported_msg": "您的提供商不支持纯文本消息。",
+      "structure_template_not_supported_msg": "您的提供商不支持结构化消息。",
+      "structured_data": "结构化数据",
+      "menu": {
+        "reset_error": "重置错误",
+        "send_test": "发送测试消息"
+      }
+    },
+    "template_edit": {
+      "title_add": "添加新的消息模板",
+      "title_edit": "编辑消息模板",
+      "config": {
+        "title": "信息配置",
+        "subtitle": "您可以在短信提供商的网站上创建短信模板，然后在此处指定其代码和数据结构。我们会将此信息转发给您的提供商，然后由提供商生成实际的短信。",
+        "code": "代码",
+        "language_msg": "将其留空以将其设置为默认值。",
+        "enable_msg": "该模板将用于创建消息。"
+      },
+      "text": {
+        "title": "纯文本",
+        "subtitle": "在此处输入个性化短信。动态值将替换为其实际值，然后再发送给用户。",
+        "message": "信息",
+        "reset_to_default": "重置为默认",
+        "auto_fill": {
+          "title": "自动填充参数",
+          "subtitle": "您可以在文本中使用这些参数中的每一个，Selldone 会用相应的值替换它们。"
+        },
+        "sample": {
+          "title": "示例消息"
+        }
+      },
+      "template": {
+        "title": "结构模板",
+        "subtitle": "您可以在此处设置模板的键和值。模板代码应与您在短信服务提供商中设置的完全一致，而<code>key</code>则是您的提供商希望通过什么方式发送代码。如果模板的<code>value</code>字段为空，则<code>{code}</code>将被视为模板代码。",
+        "add_new_parameter": "添加新参数",
+        "auto_fill": {
+          "title": "自动填充参数",
+          "subtitle": "您可以将每个参数设置为一个值，Selldone 会用相应的值替换它们。为简单起见，最好在您的 SMS 提供商中将默认值定义为模板。在这种情况下，无需在此处定义参数值。"
+        },
+        "request": {
+          "title": "示例有效载荷"
+        },
+        "sample": {
+          "title": "示例模板消息",
+          "subtitle": "您可以复制此模板并粘贴至您的短信提供商。"
+        },
+        "add_message_action": "添加消息模板"
+      }
+    }
   },
   "shop_emails": {
     "title": "管理电子邮件",
-    "sub_title": "您将在此部分中看到商店发送给客户和经理的电子邮件列表。电子邮件是根据您为商店输入的信息自动设计和创建的。此外，未来将向公众提供个性化消息和图像的可能性。"
+    "sub_title": "您将在此部分中看到商店发送给客户和经理的电子邮件列表。电子邮件是根据您为商店输入的信息自动设计和创建的。此外，未来将向公众提供个性化消息和图像的可能性。",
+    "tabs": {
+      "preferences": "优先",
+      "templates": "模板",
+      "provider": "提供者"
+    },
+    "preferences": {
+      "title": "通知电子邮件"
+    }
   },
   "instagram": {
     "title": "Instagram 上的销售",
@@ -4914,7 +5472,13 @@ export default {
     },
     "notifications": {
       "delete_success": "文件删除成功。"
-    }
+    },
+    "drag_sort_msg": "您可以拖动和排序文件。",
+    "paid_mode_msg": "用户只有购买产品后才可以下载。",
+    "free_mode_msg": "用户可以免费下载。示例文件必须小于 50 MB。",
+    "has_gust_shopping_msg": "由于商店的设置>流程中启用了访客购买功能，因此注册用户和访客都可以下载文件。",
+    "only_registered_shopping_msg": "只有注册用户才能下载示例文件。",
+    "file_count_limit": "文件数量限制"
   },
   "notification_top_bar": {
     "free_charge": "🎊 充值 {amount} 并获得 {amount_total} 信用。",
@@ -4926,7 +5490,20 @@ export default {
   },
   "selldone_applications": {
     "title": "不要错过您的订单！",
-    "msg": "随时随地管理您的业务。"
+    "msg": "随时随地管理您的业务。",
+    "scan_qr_code": "用你的手机扫描我！",
+    "notification": {
+      "title": "通知",
+      "subtitle": "获取新订单通知。"
+    },
+    "order": {
+      "title": "订单",
+      "subtitle": "查看您的订单并管理它们。"
+    },
+    "product": {
+      "title": "产品",
+      "subtitle": "库存管理和产品平原。"
+    }
   },
   "shop_seo": {
     "title": "搜索引擎优化配置",
@@ -4995,7 +5572,16 @@ export default {
   },
   "shops_list": {
     "title": "我的商店",
-    "message": "我自己的商店，允许和样品商店的列表。"
+    "message": "我自己的商店，允许和样品商店的列表。",
+    "sample": {
+      "title": "样品店",
+      "subtitle": "在这里，您可以发现一系列的样本商店。您被授权浏览这些商店提供的信息。但是，请不要使用真实个人信息登录或下订单，因为这些数据将向公众开放。如果您不小心在这里输入了您的信息，请退出商店并与我们联系以获取进一步的帮助。"
+    },
+    "add_new_store": "添加新商店",
+    "i_have_a_deal": "我有一笔交易",
+    "access": {
+      "title": "访问邀请"
+    }
   },
   "shipping": {
     "warehouse_error": "首先设置您的仓库！此地址将用作发货地。",
@@ -5025,7 +5611,8 @@ export default {
       "delete_action": "删除类别",
       "add_action": "添加类别",
       "edit_action": "编辑类别"
-    }
+    },
+    "subtitle": "您可以为博客文章创建有限数量的类别，以便更有效地管理它们。设置类别限制可促进网站更好地组织。值得注意的是，即使是顶级新闻机构也会保留有限数量的类别，通常少于 100 个，以简化管理并保持更广泛的关注。"
   },
   "about_us": {
     "title": "关于我们页面",
@@ -5063,7 +5650,8 @@ export default {
       "title": "包裹标签",
       "subtitle": "下载所选时间段和状态的所有订单标签列表。结果仅包含已付款和 COD 订单。",
       "export_title": "盒子标签"
-    }
+    },
+    "subtitle": "导出和下载标签以进行批量订单处理 - 非常适合每天处理超过 100 个订单。"
   },
   "customers_funnel": {
     "title": "客户人口统计",
@@ -5782,6 +6370,1759 @@ export default {
         "命运之轮正在转动——抓住你的幸运奖品吧！",
         "旋转、获胜和微笑——每转一圈都有惊喜奖励。",
         "旋转一下，让命运决定您的奖品！"
+      ]
+    },
+    "subscription_price": {
+      "title": [
+        "基本访问",
+        "高级会员",
+        "黄金套餐",
+        "银色计划",
+        "白金订阅",
+        "企业级",
+        "入门包",
+        "无限优惠",
+        "家庭装",
+        "专业套房"
+      ],
+      "description": [
+        "非常适合探索基础知识的个人。",
+        "访问所有高级功能和内容。",
+        "专属福利和优先支持。",
+        "为普通用户提供的均衡套餐。",
+        "拥有顶级特权的终极访问权限。",
+        "为大型组织定制解决方案。",
+        "经济实惠的入门级选择。",
+        "对于高级用户来说，使用没有限制。",
+        "专为家庭设计的特别计划，最多可容纳 4 名成员。",
+        "专为寻求高级工具的专业人士而设计。"
+      ]
+    },
+    "spec": {
+      "group": [
+        "技术规格",
+        "物理尺寸",
+        "性能特点",
+        "连接选项",
+        "电源要求",
+        "材料和制造质量",
+        "颜色和饰面选项",
+        "存储和内存",
+        "操作系统兼容性",
+        "安全与合规",
+        "包装内容",
+        "保修和支持",
+        "品牌和制造商",
+        "环境友好",
+        "能源效率",
+        "保养和维护",
+        "定制选项",
+        "附带配件",
+        "用户评分和评论",
+        "价格与供货"
+      ]
+    },
+    "avocado": {
+      "title": [
+        "购买收据",
+        "销售确认",
+        "订单发票",
+        "付款发票",
+        "客户收讫",
+        "交易摘要",
+        "账单",
+        "结账收据",
+        "订单摘要",
+        "采购订单发票",
+        "销售收据",
+        "零售发票",
+        "电子收据",
+        "服务发票",
+        "产品发票",
+        "付款收据",
+        "订单确认",
+        "帐单",
+        "结帐发票",
+        "客户发票"
+      ],
+      "message": [
+        "感谢您的购买！",
+        "我们非常感谢您的惠顾。",
+        "您的订单正在运送中！",
+        "感谢您来此购物。",
+        "期待再次为您服务。",
+        "您的满意是我们的首要任务。",
+        "不要忘记对您的体验进行评分。",
+        "感谢您对我们商店的支持。",
+        "我们希望您喜欢您的新购买！",
+        "保存您的发票以供将来参考。",
+        "再次访问我们以获取更多优质产品。",
+        "保持联系以获取独家优惠。",
+        "感谢您成为我们尊贵的客户。",
+        "如果您需要帮助，我们会随时为您提供帮助。",
+        "您的反馈有助于我们改进。",
+        "下次购买时可享受特别折扣。",
+        "您的选择非常棒！",
+        "感谢您对我们的信任。",
+        "期待您的反馈。",
+        "我们团队向您致以衷心的感谢。"
+      ]
+    },
+    "map_tag": {
+      "title": [
+        "房产展示",
+        "供应商广场",
+        "精选房源",
+        "当地市场",
+        "新品上市",
+        "庄园花园",
+        "购物区",
+        "工匠巷",
+        "豪华庄园",
+        "租赁中心",
+        "开放参观",
+        "技术创新",
+        "时尚巷",
+        "工艺品角",
+        "美食广场",
+        "书角",
+        "珠宝路口",
+        "古董大道",
+        "健身区"
+      ]
+    },
+    "marketplace_document": {
+      "title": [
+        "商业登记证",
+        "税务识别号 (TIN)",
+        "供应商协议表格",
+        "产品目录",
+        "价格表",
+        "银行账户详细信息",
+        "地址证明",
+        "保险证明",
+        "公司简介",
+        "质量保证证书",
+        "安全数据表 (SDS)",
+        "产品保修信息",
+        "退货政策",
+        "运输和处理程序",
+        "客户服务政策",
+        "营销和促销计划",
+        "社交媒体链接",
+        "贸易参考",
+        "供应商行为准则",
+        "保密协议（NDA）"
+      ]
+    },
+    "expert_contract": {
+      "title": [
+        "市场设置服务协议",
+        "店铺配置合同",
+        "按需印刷服务协议",
+        "数字营销服务协议",
+        "电商平台入驻协议",
+        "企业主专家咨询合同",
+        "市场配置服务协议",
+        "店铺设置和配置服务合同",
+        "POD服务提供协议",
+        "营销策略实施协议",
+        "业务发展服务合同",
+        "电子商务商店设置协议",
+        "专家服务提供协议",
+        "商业解决方案和设置合同",
+        "定制店铺设置服务协议",
+        "市场优化服务协议",
+        "咨询及安装服务合同",
+        "POD集成服务协议",
+        "营销及推广服务合同",
+        "业务扩展服务协议"
+      ]
+    },
+    "account": {
+      "account_name": [
+        "主钱包",
+        "商业帐户",
+        "个人钱包",
+        "储蓄钱包",
+        "费用帐户",
+        "主钱包",
+        "一般帐户",
+        "储备钱包",
+        "交易钱包",
+        "基金账户"
+      ]
+    },
+    "cashback": {
+      "title": [
+        "购物并赚取现金返还",
+        "忠诚奖励现金返还",
+        "专属现金返还优惠",
+        "现金返还大奖",
+        "即时现金返还优惠",
+        "季节性现金返还优惠",
+        "双倍现金返还日",
+        "每次购物均可获得现金返还",
+        "现金返还狂潮",
+        "VIP现金返还计划",
+        "限时现金返还",
+        "现金返还奖励俱乐部",
+        "购物更多，节省更多",
+        "终极现金返还奖励",
+        "现金返还盛宴"
+      ],
+      "description": [
+        "每次购买均可赚取现金返还！",
+        "因您的忠诚而获得奖励。",
+        "专为您提供的专属现金返还优惠。",
+        "享受现金返还奖励带来的巨额节省。",
+        "所有您喜爱的商品均可立即获得现金返还。",
+        "利用季节性现金返还优惠节省更多。",
+        "特殊日子返现双倍！",
+        "每次购物均可赚取现金返还。",
+        "今天就加入现金返还狂潮吧！",
+        "VIP会员享受专属现金返还。",
+        "快来抢购！限时现金返还优惠。",
+        "立即加入我们的现金返还奖励俱乐部。",
+        "购物越多，节省越多。",
+        "解锁终极现金返还奖励。",
+        "体验最佳的现金返还优惠。"
+      ]
+    },
+    "page": {
+      "prompts": [
+        "欢迎来到{shop} - 探索我们独特的商品系列",
+        "{shop} - 优质商品和卓越服务的终极来源",
+        "仅在{shop}享受独家优惠和折扣——抓住机会！",
+        "了解{shop}对环保和道德实践的奉献精神",
+        "成为{shop}家庭的一员 - 订阅我们的时事通讯以获取最新资讯",
+        "探索{shop}的热门精选和高评价商品",
+        "在{shop}上展示针对所有活动的想法和创意建议",
+        "{shop} 提供无与伦比的优惠和限时特价 - 行动要快！",
+        "{shop} 的全面购买技巧和产品评估 - 放心购物",
+        "联系{shop} - 我们致力于提供无与伦比的购物体验"
+      ]
+    },
+    "cross_selling": {
+      "message": [
+        "完善你的装扮，赶快购买这套吧！",
+        "利用我们的捆绑优惠节省大笔费用！",
+        "不要错过我们的完美搭配！",
+        "增强您的购买力，附加组件等待您！",
+        "解锁专属优惠，一起购买！",
+        "互补商品，特别折扣！",
+        "获得更多，花费更少——捆绑销售！",
+        "限时优惠：匹配产品！",
+        "升级您的体验，组合优惠！",
+        "发现我们精心策划的组合，立即保存！",
+        "将其配对以获得终极组合！",
+        "明智购物，捆绑购买，节省开支！",
+        "双倍价值，双倍乐趣！",
+        "您的完美搭配就在这里——立即购买！",
+        "专为您而设的独家套餐定价！",
+        "利用我们的组合最大程度地节省您的开支！",
+        "使用这些精选来增强您的收藏！",
+        "为您精心策划：匹配并保存！",
+        "完美一天的完美搭配！",
+        "将您最喜爱的商品捆绑在一起以获得额外节省！"
+      ]
+    }
+  },
+  "ai": {
+    "remove_bg": {
+      "title": "删除背景",
+      "subtitle": "创建透明背景。"
+    },
+    "reimagine": {
+      "title": "重新想象",
+      "subtitle": "使用新背景创建更多图像。"
+    }
+  },
+  "extra_pricing_add_dialog": {
+    "title": "超过 {min} 的额外定价",
+    "subtitle": "系统自动确定价格计算的顺序和优先级。请输入此定价生效所需的最小数量。",
+    "min_quantity": "最小用量"
+  },
+  "product_inventory_management_physical": {
+    "subtitle": {
+      "dropshipping": "直销产品的库存由批发商设置，不能在这里修改。",
+      "marketplace": "市场上的总产品库存是通过将所有供应商的库存加起来来确定的。您无法在此处修改它。",
+      "default": "在此指定产品的库存数量。"
+    }
+  },
+  "google_product_category_input": {
+    "label": "Google 产品类别代码",
+    "hint": "根据 Google 的产品分类法表示您的产品类别。",
+    "placeholder": "输入产品或服务类别..（可选）"
+  },
+  "LogisticProfileType": {
+    "WARRANTY": {
+      "title": "保修单",
+      "desc": "保修是合同的一部分，制造商承诺在规定期限内维修或更换产品。此承诺甚至可以延伸至未与制造商直接签订合同的消费者。"
+    },
+    "RETURN_POLICY": {
+      "title": "退货政策",
+      "desc": "退货政策概述了客户如何退换不想要的商品。退货政策规定了符合条件的商品、可接受的退货原因以及退货期限。"
+    },
+    "GUIDE": {
+      "title": "指导",
+      "desc": "指南可以包括服装尺码表或钻石选择指南。重要的是指南要通用且适用于多种产品。"
+    },
+    "SHIPPING": {
+      "title": "船运",
+      "desc": "运输政策详细说明了在线订单运输的关键方面，包括运输成本、方式和预计交货时间。"
+    }
+  },
+  "product_logistic_profile": {
+    "dialog": {
+      "title": "选择物流概况",
+      "add_new_action": "添加新个人资料",
+      "add_new_disable_msg": "市场所有者"
+    }
+  },
+  "product_tax_profile": {
+    "description": {
+      "default": "默认",
+      "dedicated": "投入的",
+      "subscription": "我们只能在付款创建步骤征收税款。",
+      "is_disabled": "此税务配置文件已被禁用！（⚠️警告）",
+      "shipping": "船运",
+      "fixed_rate": "TAX",
+      "location_based_rate": "税费：基于地点",
+      "shipping_location_based_rate": "运送：基于位置",
+      "include_in_price": "包含在价格中"
+    },
+    "dialog": {
+      "header": "选择税务配置文件",
+      "title": "税务概况",
+      "subtitle": "您可以为产品指定特定的税收规定。如果没有为产品选择税收配置文件，则将应用默认的商店税收规定。",
+      "action_manage": "管理税务",
+      "action_manage_sub": "商店 > 金融 > 税务",
+      "subscription_tips": "当您为订阅产品选择税务配置文件时，我们会更新<code>tax code</code>并在您的支付服务提供商上设置包含/不包含模式。所选税务配置文件指定价格是包含税还是不包含税。 <code>inclusive</code>或<code>exclusive</code>之一。一旦指定为包含或不包含，则无法更改。<br /><br /><b>重要提示！</b>更改税务配置后，您应该单击“产品”>“库存”选项卡上的定价计划，然后单击“保存”按钮以应用更改。"
+    }
+  },
+  "product_vendor_profile": {
+    "vendor": {
+      "subtitle": "该产品的价格和数量由其所属的特定供应商设定。"
+    },
+    "vendors": {
+      "subtitle": "这是该产品的供应商列表。数量和价格将由供应商决定。"
+    }
+  },
+  "vendor_add": {
+    "profile": {
+      "title": "供应商信息",
+      "subtitle": "该信息向客户公开显示。",
+      "action_sub_caption": "公共产品列表页面。",
+      "action_see_listing_page": "查看列表页面"
+    },
+    "page": {
+      "title": "自定义页面",
+      "subtitle": "为供应商设置自定义登陆页面，为他们提供指向其专用页面的唯一链接。",
+      "action_set_page": "查看公开页面",
+      "action_sub_caption": "自定义登陆页面。",
+      "vendor_has_landing_msg": "供应商有一个自定义登陆页面。",
+      "no_landing_selected_msg": "未选择目标网页。",
+      "no_landing_page": "没有登陆页面",
+      "we_can_create_dedicated_landing_msg": "我们可以为您创建专门的登陆页面。"
+    },
+    "contact": {
+      "title": "联系方式",
+      "subtitle": "请提供有效的联系方式。"
+    },
+    "business": {
+      "title": "商业信息",
+      "subtitle": "请提供有关您业务的准确信息，以确保快速、顺畅的收入收集流程。"
+    },
+    "bank": {
+      "title": "付款信息",
+      "subtitle": "在此输入您的银行详细信息以便付款。"
+    },
+    "default_pricing": {
+      "title": "默认定价",
+      "subtitle": "您可以为供应商指定一个默认定价模型。当供应商添加新产品时，此定价模型将用于计算产品价格的市场利润。您以后可以单独调整每种产品的定价模型。",
+      "no_pricing": "没有定价"
+    },
+    "shipping": {
+      "title": "船运",
+      "subtitle": "供应商可以设置自己的运输服务和快递员。",
+      "shipping_services": "运输服务",
+      "total_number_of_services": "供应商拥有的运输服务总数。",
+      "couriers": "快递员",
+      "total_couriers_count": "供应商拥有的快递员总数。"
+    },
+    "configuration": {
+      "title": "配置"
+    },
+    "delete": {
+      "title": "移除供应商",
+      "action": "移除供应商",
+      "verify_description": "我知道所有供应商产品关系都将被删除！",
+      "verify_title": "我想删除这个供应商。"
+    },
+    "send_invitation_tips": "我们将向该用户发送邀请电子邮件。如果该用户以供应商身份加入您的商店，他们的帐户将自动分配给他们。",
+    "only_marketplace_owner_can_edit_user": "只有市场所有者可以编辑用户。如果您想更改此供应商的所有者，可以向我们发送请求。",
+    "vendor_is_disable_msg": "供应商已被禁用。",
+    "email_not_match_with_user_msg": "输入的电子邮箱与用户电子邮箱 ( <b>{user_name}:</b> {user_email}) 不匹配。您确定要将电子邮件发送至<b>{email}</b>吗？",
+    "we_will_send_invitation_to_user_msg": "我们将向用户发送邀请电子邮件。",
+    "set_a_user_for_the_vendor_first_msg": "首先为供应商设置一个用户。",
+    "inputs": {
+      "slug": {
+        "label": "小路",
+        "placeholder": "输入自定义路径...",
+        "hint": "更改供应商动态登陆页面的路径。"
+      },
+      "email": {
+        "message": "该电子邮件将接收所有通知和更新。"
+      },
+      "business": {
+        "false_description": "我以个人身份工作。",
+        "true_description": "我以合法认可的商业实体身份开展业务。",
+        "false_title": "个人",
+        "true_title": "商业"
+      },
+      "bank": {
+        "hint": "供应商开户的银行名称。",
+        "placeholder": "您的银行名称.."
+      },
+      "account_name": {
+        "hint": "这应该与银行账户关联的姓名相符。",
+        "placeholder": "你的名字.."
+      },
+      "account_number": {
+        "hint": "供应商的唯一帐号。",
+        "placeholder": "您的银行帐号.."
+      },
+      "routing_number": {
+        "hint": "此号码因国家/地区而异。它用于识别供应商使用的特定银行分行。",
+        "placeholder": "您的银行路由号码、分类代码或 BSB 号码.."
+      },
+      "iban": {
+        "hint": "国际银行账号)：如果供应商的银行位于欧洲或其他某些国家。",
+        "placeholder": "您的 IBAN 号码.. 例如 DE89 3704 0044 0000 0000 00"
+      },
+      "swift": {
+        "hint": "国际银行账号)：如果供应商的银行位于欧洲或其他某些国家。",
+        "placeholder": "您的 Swift 代码/BIC.."
+      },
+      "branch_address": {
+        "hint": "供应商开户的银行分行地址。",
+        "placeholder": "您的银行地址.."
+      },
+      "enable": {
+        "label": "供应商状态",
+        "hint": "您可以全局启用或禁用供应商。客户将无法从已禁用的供应商处购买任何商品。",
+        "true_description": "他们将能够通过您的市场销售他们的产品。"
+      },
+      "access": {
+        "label": "供应商面板和访问权限",
+        "true_description": "供应商有一个专门的面板来更新数量和价格。",
+        "hint": "您可以启用或禁用供应商面板，这允许供应商更新产品数量和价格并接收部分订单。",
+        "false_description": "供应商无权访问任何东西。"
+      }
+    }
+  },
+  "vendor_documents_list": {
+    "title": "文件",
+    "action_upload_doc": "上传文件",
+    "vendor_subtitle": "请上传必要的业务、IP 和地址验证文件。我们需要这些信息来确认您的合作关系并为您提供必要的访问权限。",
+    "marketplace_subtitle": "供应商可以提交业务、知识产权和地址验证等文件以促进他们的 KYC 流程，从而允许您授予他们适当的访问权限。",
+    "upload_dialog": {
+      "title": "上传文件",
+      "type": {
+        "title": "文件类型",
+        "subtitle": "请仅上传必要的文件。避免共享任何包含敏感信息的文件。我们要求提供可公开获取的文件。"
+      }
+    }
+  },
+  "product_badges": {
+    "title": "徽章",
+    "subtitle": "添加和编辑自定义产品徽章。",
+    "only_marketplace_owner_msg": "仅限市场所有者",
+    "create_new_badge_action": "创建新徽章",
+    "select_a_badge": "选择徽章...",
+    "inputs": {
+      "custom": {
+        "false_description": "产品徽章是自动创建的。",
+        "false_title": "汽车",
+        "true_title": "定制产品徽章",
+        "true_description": "在产品页面添加自定义徽章。"
+      }
+    },
+    "add_custom_badge": {
+      "title": "定制徽章",
+      "subtitle": "为我的店铺添加新的自定义徽章。徽章数量保持在 10 个以下。徽章数量越多，店铺速度越慢。",
+      "show_advanced_options": "显示高级选项",
+      "inputs": {
+        "title": {
+          "placeholder": "公開標題..."
+        },
+        "image": {
+          "label": "图像",
+          "message": "最大图像大小：128KB",
+          "placeholder": "选择封面图片"
+        },
+        "pattern": {
+          "label": "图案",
+          "message": "对于在规格中具有此匹配值的产品，自动显示此徽章。支持正则表达式。",
+          "placeholder": "要显示所有产品，请输入：*.*"
+        }
+      },
+      "notifications": {
+        "badge_added": "徽章已成功添加！",
+        "badge_updated": "徽章已成功更新！",
+        "item_not_found_error": "找不到该商品。请刷新页面或联系客服。"
+      }
+    }
+  },
+  "product_tags": {
+    "title": "标签",
+    "tips": [
+      "您可以根据<b>登陆页面</b>上的标签过滤产品。",
+      "您和您的客户可以在<b>搜索</b>栏中搜索这些标签。",
+      "若设置了标签，则商品页面的<b>相关商品栏目</b>中，只有拥有<b>共同标签</b>的商品才会显示，否则，会显示同一类目的商品。"
+    ],
+    "inputs": {
+      "tags": {
+        "placeholder": "在此处输入标签并按 Enter。例如，新系列"
+      }
+    },
+    "notifications": {
+      "tags_updated": "标签已成功更新。"
+    }
+  },
+  "vendor_shipping_services": {
+    "title": "船运",
+    "subtitle": "您可以在此处添加运输服务和快递员。运输服务和快递员应遵循市场定义的预定义运输方式。通过添加运输服务和快递员，您可以轻松地将订单分配给他们并自动订购标签或快递员。",
+    "action": "添加服务",
+    "add_dialog": {
+      "select_method": "选择方法",
+      "select_method_msg": "请从以下列表中选择一种运输方式。运输方式由市场定义。",
+      "select_service_msg": "从下面的列表中选择一项送货服务。此处仅显示可添加到您的商店的服务。",
+      "no_available_service": "没有可用的服务！"
+    }
+  },
+  "product_location_profile": {
+    "title": "地点",
+    "empty_subtitle": "如果产品是基于位置的商品，则为产品分配一个位置。",
+    "dialog": {
+      "header": "选择位置配置文件",
+      "action_new_location": "添加新位置",
+      "title": "位置简介",
+      "subtitle": "您可以通过为产品分配位置标签将产品固定在地图位置上。",
+      "tips": "<b>重要提示：</b><b>仅</b>当您想在地图上的特定位置显示产品时才为产品指定位置。已置顶的产品必须以位置作为其主要规格，例如<b>出租房屋/场所</b>或<b>美发和水疗</b>等面对面服务。"
+    }
+  },
+  "translation_button": {
+    "header": "多语言",
+    "auto_action": "自动翻译",
+    "premium_user_only": "高级用户"
+  },
+  "product_include_profile": {
+    "subtitle": "包括产品或服务包装中附带的物品清单。",
+    "dialog": {
+      "header": "产品包装物品",
+      "title": "包含物品",
+      "subtitle": "这是随产品附带物品的汇编。",
+      "action_manage": "管理项目",
+      "action_disable_msg": "市场所有者",
+      "select_items_tips": "创建或选择随产品或服务附带的包装组件。利用此功能强调客户在购买商品后可以期待收到什么。我们建议仅在客户必须了解所包含的内容时才使用此功能，例如购买智能手机时。",
+      "create_item_tips": "或者，您可以添加新商品。使用方形图片，因为我们会自动将上传的图片调整为 256x256 方形格式。为确保所有模板均呈现最佳外观，请使用具有透明背景的简约图片，并保持所有商品的一致图案。",
+      "create_new_item_action": "创建新的包含项目"
+    }
+  },
+  "transportation_eligible": {
+    "subtitle": "可用的运输服务取决于提供的尺寸和重量。"
+  },
+  "bulk_price_dialog": {
+    "title": "批量操作 > 价格",
+    "message": "以下金额将以百分比形式应用于您商店中所有产品的价格。此外，计算出的价格值将根据所选货币智能转换为最接近的整数。输入这些值时请小心谨慎。",
+    "check": "我同意价格变动。",
+    "check_description": "所选类别及其所有子类别的价格将会改变。",
+    "add_percent_tab": "添加百分比",
+    "add_constant_tab": "添加常量",
+    "ending_tab": "结束策略",
+    "marketplace_listing_price": "挂牌价格",
+    "constant": {
+      "subtitle": "该金额将从产品的当前价格中增加或减少。"
+    },
+    "ending": {
+      "subtitle": "产品当前价格的结尾将被更改为指定值。"
+    },
+    "marketplace": {
+      "title": "市场挂牌价格",
+      "subtitle": "此选项可让您自动更新市场上产品的标价。有时，由于手动价格变动，主要产品价格可能与供应商定价不一致。",
+      "strategy": {
+        "min": {
+          "title": "设定最低价格",
+          "description": "将产品的最低价格设置为标价。"
+        },
+        "max": {
+          "title": "设定最高价格",
+          "description": "将产品的最高价格设为标价。"
+        }
+      }
+    },
+    "category": {
+      "subtitle": "将批量操作限制在一个类别及其所有子类别内。"
+    },
+    "vendor": {
+      "subtitle": "将批量操作限制到特定供应商。选择供应商后，价格更新将应用于该供应商的产品，这代表该供应商的销售价格。",
+      "listing_price_need_update_msg": "如果您想更新标价（产品列表中显示的价格），您应该使用相同的过滤器重新提交批量更新，但不选择供应商。"
+    },
+    "listing_products_changes": "上市产品变更",
+    "total_vendor_products": "供应商产品总数",
+    "total_products": "产品总数",
+    "total_variants": "总变体数"
+  },
+  "product_panel": {
+    "excel_import": {
+      "title": "将 Excel / CSV 文件拖放到此处。",
+      "select_file": "选择文件",
+      "max_file": "最大文件大小：20mb",
+      "download_sample": "下载示例"
+    },
+    "ai": {
+      "title": "AI产品协助"
+    }
+  },
+  "order_vendor": {
+    "has_panel": "有面板",
+    "no_panel": "无面板",
+    "manual_action": {
+      "title": "手动操作",
+      "message": "您可以手动更新供应商订单状态。",
+      "guides": [
+        "具有面板访问权限的供应商可以在其专用仪表板上更新其履行情况（子订单）。",
+        "如果供应商没有面板访问权限，则供应商订单状态将通过改变购物篮状态自动改变。",
+        "您可以手动更新供应商订单。"
+      ]
+    },
+    "payouts": {
+      "title": "付款",
+      "message": "管理供应商的付款和交易。",
+      "charge_tooltip": "向供应商钱包收费。",
+      "withdraw_tooltip": "从供应商钱包中提取。",
+      "payout_tooltip": "向供应商付款。"
+    }
+  },
+  "vendor_dashboard": {
+    "info": {
+      "subtitle": "市场信息。"
+    },
+    "performance": {
+      "subtitle": "我的销售业绩。"
+    },
+    "products": {
+      "title": "产品",
+      "subtitle": "您可以在此处查看您在市场上列出的产品数量。不包括多个供应商的产品。"
+    },
+    "wallets": {
+      "title": "我的钱包",
+      "subtitle": "您无需手动添加钱包！供应商钱包将自动创建。"
+    },
+    "open_marketplace_page": "打开市场页面",
+    "open_my_store_page": "打开我的商店页面",
+    "open_my_listing_page": "打开我的列表页面",
+    "add_products_permission": "添加产品权限",
+    "add_categories_permission": "添加分类权限"
+  },
+  "vendor_inventory": {
+    "title": "产品列表",
+    "subtitle": "这是您在市场上的产品列表。更新库存中指定产品的价格和数量。作为供应商，您只会在产品列表中看到您拥有的单一供应商产品。其他指定产品也可以在此处修改。"
+  },
+  "vendor_payments": {
+    "list": {
+      "title": "付款历史记录",
+      "subtitle": "您可以在此处查看付款历史记录。这些付款可以通过银行转账手动处理，也可以使用提供付款功能的支付服务自动处理。"
+    },
+    "connect": {
+      "title": "连接银行",
+      "subtitle": "我们为以下支付网关提供分期付款功能。为了在每次购买后无缝接收付款，请使用这些选项连接您的银行账户。"
+    },
+    "verify_dialog": {
+      "title": "验证付款",
+      "option": {
+        "title": "供应商行动",
+        "subtitle": "您可以选择接受或拒绝此转账。此操作仅作为历史记录。只需确认您是否已收到资金；如果没有，则无需采取任何行动。"
+      },
+      "inputs": {
+        "verify": {
+          "label": "您确认这笔付款了吗？",
+          "false_description": "不，我的银行账户还没有收到这笔付款。",
+          "true_description": "是的，我已收到并验证了这笔付款。"
+        }
+      }
+    }
+  },
+  "order_vendor_payment": {
+    "message": "这是您在市场上的虚拟钱包中的交易概览。",
+    "vendor_wallets": "供应商钱包",
+    "my_wallets": "我的钱包"
+  },
+  "product_add_dropshipping_shops": {
+    "subtitle": "在这里，您可以找到在 Selldone 上列出其产品的批发商，这些批发商可向其他商家提供产品。Selldone 的内置代发货平台简化了流程，让批发商和商家都可以轻松直接地完成代发货。"
+  },
+  "customer_add": {
+    "edit_title": "編輯客戶",
+    "add_title": "添加新客户",
+    "subtitle": "要将客户添加到您的商店，请提供电子邮件地址或电话号码。",
+    "more": {
+      "title": "添加更多详细信息",
+      "subtitle": "设置货币、客户俱乐部、细分、地址等。"
+    },
+    "detail": {
+      "subtitle": "记录客户的个人信息。请尊重客户的隐私。"
+    },
+    "preferences": {
+      "subtitle": "在此设置默认用户货币、客户俱乐部和细分。"
+    },
+    "address": {
+      "subtitle": "此地址可以在 POS 中使用。用户无法看到此信息。"
+    }
+  },
+  "referral_bank": {
+    "title": "推荐仪表板",
+    "subtitle": "根据您的请求，佣金将支付到您指定的银行账户。请在此处提供您的银行信息。",
+    "no_bank_info": "没有银行信息！",
+    "actions": {
+      "edit_my_bank_info": "编辑我的银行信息"
+    },
+    "bank_dialog": {
+      "title": "我的银行详细信息",
+      "info": {
+        "title": "银行",
+        "subtitle": "请在此处输入您的银行信息。我们将使用此信息转账。确保银行账户属于您的名下或您的公司名下（如适用）。"
+      },
+      "inputs": {
+        "name": {
+          "label": "银行名",
+          "message": "账户所在银行的全名。"
+        },
+        "holder_name": {
+          "label": "账户持有人姓名",
+          "message": "持有帐户的个人或实体的全名。"
+        },
+        "account_number": {
+          "label": "帐号",
+          "message": "与特定银行账户相关的唯一号码。"
+        },
+        "routing_number": {
+          "label": "路由号码（美国）或分类代码（英国）",
+          "message": "用于标识特定银行分行的号码（不同国家使用不同的术语）。"
+        },
+        "swift": {
+          "label": "SWIFT/BIC 代码",
+          "message": "用于在全球范围内识别银行的国际代码，尤其是用于国际转账。"
+        },
+        "iban": {
+          "label": "IBAN（国际银行账户号码）",
+          "message": "IBAN 主要在欧洲使用，是一种国际认可的跨境银行账户识别系统。"
+        },
+        "contact": {
+          "label": "联系信息",
+          "message": "与帐户关联的电话号码或电子邮件地址。"
+        },
+        "note": {
+          "label": "笔记",
+          "message": "补充说明"
+        }
+      }
+    },
+    "notifications": {
+      "save": {
+        "message": "您的银行信息已成功更新。"
+      }
+    }
+  },
+  "referral_tier": {
+    "message": "来自您的推荐人支付的所有服务费、订阅费和其他款项。"
+  },
+  "ReferralTiers": {
+    "Bronze": {
+      "title": "铜级",
+      "description": "您处于青铜级。您已从推荐人那里获得 2% 的佣金。"
+    },
+    "Silver": {
+      "title": "银级",
+      "description": "您处于银级。您已从推荐人那里获得 4% 的佣金。"
+    },
+    "Gold": {
+      "title": "金级",
+      "description": "您已进入黄金级别。您已从推荐人处获得 6% 的佣金。"
+    },
+    "Platinum": {
+      "title": "白金级",
+      "description": "您已进入白金级别。您已从推荐人那里获得 8% 的佣金。"
+    },
+    "Diamond": {
+      "title": "钻石级",
+      "description": "您已进入钻石级别。您已从推荐人处获得 10% 的佣金。"
+    }
+  },
+  "page_monetize": {
+    "title": "货币化",
+    "subtitle": "传播商业机会。"
+  },
+  "sms_template_mode": {
+    "text": {
+      "title": "纯文本",
+      "desc": "消息将从具有自动替换参数的文本创建并发送。"
+    },
+    "template": {
+      "title": "结构模板",
+      "desc": "将根据参数创建一个对象并发送给提供者。"
+    }
+  },
+  "shop_sms_provider": {
+    "title": "自定义短信提供商",
+    "reset_error": "重置错误",
+    "subtitle": "设置自定义短信服务提供商，并自定义您的身份验证短信和公司名称。默认提供商只会向一些白名单国家/地区发送身份验证短信和通知消息。",
+    "plain_text": "纯文本",
+    "structural_template": "结构模板",
+    "errors_limit_msg": "如果您的服务错误超过 100 个，它将被自动禁用！您可以重置错误以重新启用它。",
+    "enable_input": {
+      "false_description": "OTP 消息将通过 Selldone 在选定的国家/地区发送，同时其他订单通知短信也将发送。",
+      "true_description": "短信将通过您的服务提供商传送。"
+    },
+    "test_input": {
+      "true_title": "验证配置",
+      "true_description": "我们将向您的电话号码 📞 <b>{phone}</b>发送一条测试消息，这可能需要您付费，但您可以确保一切正常。"
+    },
+    "sync_action": {
+      "title": "行动",
+      "subtitle": "一些短信服务提供额外的服务，如活动、营销和其他功能。您可以同步您的联系人或其他信息，以更快地使用其功能。",
+      "action": "同步联系人"
+    },
+    "tokens": {
+      "title": "参数",
+      "subtitle": "设置以下参数以将您的短信服务提供商与您的商店关联。"
+    }
+  },
+  "sms_messages_options": {
+    "all": {
+      "title": "OPT + 订单通知",
+      "description": "将发送身份验证信息和订单通知。"
+    },
+    "otp": {
+      "title": "仅限 OTP",
+      "description": "将发送身份验证消息。"
+    }
+  },
+  "shop_email_provider": {
+    "title": "自定义邮件服务器",
+    "subtitle": "连接您的邮件服务提供商，通过您的自定义域发送电子邮件。",
+    "provider": "提供者",
+    "enable_input": {
+      "false_description": "您的电子邮件将通过 myselldone 域发送。",
+      "true_description": "您的电子邮件将通过您的自定义邮件域发送。"
+    },
+    "config": {
+      "title": "配置",
+      "subtitle": "要为您的商店配置自定义邮件服务，请输入您的服务 API 密钥以及其他必要的设置。"
+    },
+    "sender": {
+      "title": "从",
+      "subtitle": "您可以配置默认发件人的姓名和电子邮件地址，用于向您的客户发送电子邮件。"
+    },
+    "inputs": {
+      "from": {
+        "label": "来自电子邮件"
+      },
+      "from_name": {
+        "label": "发件人姓名"
+      }
+    },
+    "actions": {
+      "send_test_email": "发送测试电子邮件"
+    },
+    "messages": {
+      "provider_error_limit": "如果您的服务错误超过 100 个，它将被自动禁用！您可以重置错误以重新启用它。",
+      "encryption_ports_guide": "电子邮件提供商可能会根据可用端口提供 SSL、TLS 或未加密连接。如果连接导致错误，则更改加密模式可能会解决问题。标准<b>TLS</b>使用端口： <b>587</b> ， <b>SSL</b>使用端口： <b>465</b> 。",
+      "enable_receive_test": "保存更改后，您将在<b>{email}</b>上收到一封测试邮件。在使用新配置发送测试电子邮件之前，请保存更改。"
+    }
+  },
+  "product_location_restrictions": {
+    "title": "可用位置",
+    "subtitle": "如果您的产品或服务仅在特定地区提供（按国家/地区和邮政编码定义），您可以在此处指定这些位置。这些位置限制在产品级别强制执行。在产品页面上，系统会提示客户选择其位置。如果产品在他们选择的区域有售，他们将能够继续购买。",
+    "add_location_action": "添加国家",
+    "no_restriction": "无限制",
+    "import": {
+      "title": "负载曲线",
+      "subtitle": "选择已保存的位置配置文件。"
+    },
+    "export": {
+      "title": "保存个人资料",
+      "subtitle": "存储位置以供将来使用。"
+    },
+    "has_restriction_input": {
+      "title": "有位置限制",
+      "description": "由于既定的位置限制，客户只能在指定的国家和邮政编码内购买该产品。"
+    },
+    "zip_pin_code": "邮政编码",
+    "no_country_selected_error": "请至少提供一个国家/地区以及邮政编码列表。如果没有这些信息，则无法提供该产品。",
+    "tips": "点击<b>+ 添加国家/地区</b>按钮开始创建新的位置集。完成后，您可以点击右上角的<b>⋮ 菜单</b>并选择<b>保存配置文件 来</b>保存它。",
+    "need_save_message": "该产品的位置限制设置已更改。要保存这些更改，请点击下面的“保存”按钮。",
+    "add_dialog": {
+      "title": "添加国家",
+      "message": "选择一个国家并点击“添加”。这会将该国家添加到表中，您可以为其分配邮政编码、邮政编码、城市名称或地区名称。"
+    },
+    "save_profile_dialog": {
+      "title": "添加位置资料",
+      "message": "请输入名称以保存这组位置。保存的这组位置可应用于其他产品，只需单击一下即可快速加载位置。如果已存在具有所提供名称的配置文件，则会使用这些新值进行更新。",
+      "title_input": {
+        "title": "个人资料标题",
+        "placeholder": "类别名称或商店名称..."
+      }
+    },
+    "load_profile_dialog": {
+      "title": "加载位置资料",
+      "message": "您可以通过选择此处设置的先前保存的位置来加载位置。",
+      "select_input": {
+        "title": "位置简介",
+        "placeholder": "选择配置文件..."
+      }
+    }
+  },
+  "blog_timeline": {
+    "title": "内容发布时间表",
+    "subtitle": "以下是计划在未来发布的文章列表。您可以安排博客文章甚至产品说明在特定时间发布。"
+  },
+  "direct_feedback": {
+    "title": "发送直接请求",
+    "message": "确定您在 Selldone 上发展和盈利的三大业务需求。这些信息将直接与创始人和董事分享，并将得到认真考虑。提交后，您还可以随时更新您的需求。",
+    "expand_action": "写下请求...",
+    "input_label": "您的请求",
+    "to": {
+      "ceo": "发送给 CEO",
+      "team": "发送给团队"
+    },
+    "placeholder": {
+      "ceo": "完全没必要那么好，我喜欢听到你直接、切中要点的询问。例如，我需要……",
+      "team": "请尽量善待他们。例如我需要……"
+    }
+  },
+  "inventory_filter": {
+    "placeholder": "选择过滤器 *.*"
+  },
+  "vendor_input": {
+    "placeholder": "过滤供应商..."
+  },
+  "product_import_processing": {
+    "title": "加工进口产品",
+    "message": "我们正在导入产品和图像，可能需要一些时间才能完成。"
+  },
+  "order_input": {
+    "message": "此处显示的信息已由客户根据产品输入表结构提交。"
+  },
+  "shop_connect": {
+    "test": {
+      "title": "设置",
+      "subtitle": "外部服务报告",
+      "action": "测试连接",
+      "last_update": "最后更新者"
+    },
+    "service_status": {
+      "title": "服务状态",
+      "syncing_message": "正在同步过程...",
+      "action": "同步全部",
+      "connect_status": "连接状态",
+      "service_status": "服务状态",
+      "auto_confirm_enable_msg": "订单自动确认功能已启用。",
+      "auto_confirm_disable_msg": "未启用订单自动确认功能。",
+      "shipping_enable_msg": "运费将根据结账时提供的信息计算。"
+    },
+    "detail": {
+      "title": "连接详细信息",
+      "auto_confirm_order": "自动确认订单",
+      "test_mode": "测试模式",
+      "status": {
+        "subtitle": "关于同步状态的总体信息。"
+      },
+      "sync": {
+        "title": "同步详细信息",
+        "subtitle": "内部同步详细信息。同步过程纪元成功结束后，将保存此信息。",
+        "no_data": "没有同步信息！"
+      }
+    },
+    "products": {
+      "title": "产品",
+      "subtitle": "来自 {name} 的已添加产品列表。请确保您的产品具有唯一的名称和 SKU。某些 Connect 服务用于迁移，因此如果您的产品具有重复的<b>SKU</b>和<b>名称</b>，这些产品将被更改！",
+      "action": "获取产品",
+      "syncing_message": "正在同步过程..."
+    },
+    "logs": {
+      "title": "日志",
+      "subtitle": "过去 7 天的所有日志列表。日志记录功能仅由外部服务提供商支持。"
+    },
+    "edit": {
+      "title": "添加新连接",
+      "service": {
+        "title": "服务",
+        "subtitle": "选择要连接的目标平台、直销供应商或市场。"
+      },
+      "test": {
+        "false_title": "同步全部",
+        "false_desc": "获取所有可用的产品、类别和客户。",
+        "true_title": "有限（推荐给初学者）",
+        "true_desc": "最多可获得 5 个产品、类别和客户。您可以随时在“连接”>“设置”中将其切换为完整模式。"
+      },
+      "overwrite": {
+        "false_title": "如果存在则不要更改",
+        "false_desc": "保留现有的产品和类别详细信息。",
+        "true_title": "覆盖",
+        "true_desc": "更新现有产品、变体和类别信息。"
+      },
+      "migration_tips": "<b>提示：</b>如果您想测试功能，请选择<b>“受限</b>”选项。通过选择“同步全部”，我们会从您连接的服务中获取所有数据并下载相关图像，因此这会减少您的免费存储空间。此外，删除许多产品、类别和客户会很困难！",
+      "add_action": "自动连接到",
+      "order": {
+        "title": "订购状态",
+        "subtitle": "为您的商店配置连接服务的订单管理设置。这包括设置订单接受、启用自动订单确认（如果支持）以及配置运费计算。"
+      },
+      "enable": {
+        "label": "连接状态",
+        "true_desc": "库存和订单将同步。"
+      },
+      "confirm": {
+        "label": "自动确认订单",
+        "false_desc": "您应该手动确认订单。",
+        "true_desc": "实时付款的订单将自动获得批准。调试付款的订单不会自动获得批准。",
+        "tips": "通过礼品卡或货到付款或调试模式下的支付网关支付的订单属于例外，不会自动确认。"
+      },
+      "shipping": {
+        "label": "船运",
+        "tips": "此服务提供运费计算功能，您可以根据自己的喜好启用或禁用此功能。如果启用，则需要使用第三方服务的费用计算 API，这可能会导致结账页面上的价格更新延迟超过 300 毫秒。",
+        "false_title": "禁用",
+        "false_desc": "使用我的运费计算，在商店 > 物流 > 运输所有产品，包括进口产品。",
+        "true_title": "计算运费",
+        "true_desc": "使用此服务提供的运费计算API。"
+      },
+      "remove": {
+        "verify": "我确认删除此连接。",
+        "action": "删除连接"
+      }
+    },
+    "list": {
+      "title": "连接操作系统",
+      "subtitle": "将您的业务操作系统连接到外部服务并在同一地方管理所有渠道。",
+      "action": "连接新服务",
+      "empty_message": "忘记代发货应用程序和插件吧！Connect 是跨平台订单管理的未来。",
+      "auto_confirm": "自动确认",
+      "shipping": "船运",
+      "syncing_now": "正在同步！",
+      "sync_not_started": "同步尚未开始！"
+    }
+  },
+  "connect_mode": {
+    "Migration": {
+      "title": "移民",
+      "desc": "获取商品、分类、客户，用户删除本服务后，已获取的商品、分类、客户不会被删除。"
+    },
+    "Dropshipping": {
+      "title": "代发货",
+      "desc": "获取商品、分类、订单，用户移除服务后系统移除商品。"
+    },
+    "Marketplace": {
+      "title": "市场",
+      "desc": "只需同步库存并接收订单（产品将通过 SKU 链接）。"
+    },
+    "Accounting": {
+      "title": "会计",
+      "desc": "发送订单和财务信息。"
+    },
+    "Other": {
+      "title": "其他",
+      "desc": "其他服务。"
+    }
+  },
+  "shop_landings": {
+    "title": "登陆页面",
+    "add_new_action": "添加新页面",
+    "subtitle": "使用多功能 AI 内联编辑器为您的品牌创建独特、响应迅速的自定义页面，并通过输入数据自动生成动态内容。",
+    "empty_message": "通过拖放设计自定义页面..."
+  },
+  "shop_staff": {
+    "list": {
+      "title": "员工管理",
+      "subtitle": "用户被授予访问该商店的仪表板和管理部分的权限。"
+    },
+    "pending": {
+      "title": "待办的",
+      "message": "显示待处理的邀请。"
+    }
+  },
+  "community_comments": {
+    "title": "注释",
+    "subtitle": "这是社区评论的列表。",
+    "empty_msg": "目前尚未有任何评论..."
+  },
+  "community_categories": {
+    "title": "类别",
+    "subtitle": "这是社区类别的列表。",
+    "new_category_action": "新类别",
+    "empty_msg": "目前尚未创建任何类别...",
+    "filter": {
+      "delete": {
+        "title": "已删除",
+        "description": "显示已删除的类别。"
+      }
+    }
+  },
+  "community_posts": {
+    "title": "帖子",
+    "subtitle": "这是社区帖子的列表。",
+    "filter": {
+      "deleted": {
+        "title": "已删除",
+        "description": "显示已删除的帖子。"
+      },
+      "reported": {
+        "title": "报告",
+        "description": "显示已举报的帖子。"
+      }
+    },
+    "empty_msg": "目前尚未创建任何帖子...",
+    "menu": {
+      "open_post": {
+        "title": "公开帖子",
+        "subtitle": "查看和编辑社区中的帖子。"
+      },
+      "spam": {
+        "title": "报告并删除垃圾邮件",
+        "subtitle": "批量删除帖子并禁止用户。"
+      },
+      "delete": {
+        "title": "删除帖子",
+        "subtitle": "删除此帖子。"
+      }
+    }
+  },
+  "channel_google": {
+    "gtag": {
+      "title": "标签管理器",
+      "subtitle": "Google Analytics 可在跟踪 Flash、视频、社交媒体网站和应用的同时衡量广告投资回报率。使用 Google Tag Manager 的免费、简单且可靠的解决方案，轻松管理网站标签 - 无需编辑代码。",
+      "tag_id": {
+        "label": "Google 标签管理器 ID"
+      }
+    },
+    "shopping": {
+      "title": "谷歌购物",
+      "subtitle": "数据源表示您在 Google 上的目录信息的来源。点击此链接可自动将所有产品和类别添加到 Google 商品中。",
+      "tips": "您可以利用此工具轻松、自动地管理 Google 广告。",
+      "link_message": "Google 产品 Feed 网址"
+    },
+    "console": {
+      "title": "搜索控制台",
+      "subtitle": "向您的主页添加元标记，以供 Google Search Console 验证。",
+      "code": {
+        "label": "验证元标记",
+        "placeholder": "来自谷歌，例如 viQg9mjdBj..."
+      }
+    },
+    "serp": {
+      "title": "Google SERP 和关键词",
+      "subtitle": "我们从 Google 获取最精确的 SEO 审计数据，并以方便的方式呈现给您。只需按照提供的步骤操作即可。"
+    },
+    "serp_content": {
+      "title": "连接到 Google Search Console",
+      "subtitle": "将您的商店连接到搜索控制台并开始在 Selldone 上探索关键字、排名和其他免费 SEO 工具。",
+      "tips": {
+        "title": "在将 Selldone 与 Google Search Console 关联之前，请确保以下事项：",
+        "add_in_selldone": "添加、验证并将您的自定义域设置为主要域。",
+        "add_in_google": "在您的<a href=\"https://search.google.com/search-console\" target=\"_blank\"><b>Google Search Console</b></a>中添加并验证<b>{domain}</b> 。"
+      },
+      "action_custom_domain": "自定义域",
+      "action_connect_now": "立即连接",
+      "action_remove_connection": "删除连接"
+    }
+  },
+  "cashback": {
+    "add_new": "添加新现金返还",
+    "title": "现金返还计划",
+    "boosted": "提升 (2 倍)",
+    "min_purchase": "最低购买量",
+    "only_first_order": "仅限首单",
+    "total_cashback": "总现金返还",
+    "delete_alert": {
+      "title": "删除现金返还计划",
+      "message": "您确定要删除此现金返还计划吗？",
+      "action": "是的，立即删除"
+    },
+    "notifications": {
+      "delete_success": "现金返还计划已成功删除。"
+    }
+  },
+  "shop_cashback": {
+    "title": "现金返还计划",
+    "up_to": "最多",
+    "menu": {
+      "back": "返回程序",
+      "dashboard": "仪表板",
+      "orders": "订单",
+      "edit": "编辑"
+    },
+    "dashboard": {
+      "chart_amount_buy": {
+        "label": "买",
+        "y": "购买金额{currency}"
+      },
+      "chart_amount_cashback": {
+        "label": "现金返还",
+        "y": "返现金额 {currency}"
+      },
+      "chart_used": {
+        "label": "用过的",
+        "y": "时代"
+      }
+    },
+    "orders": {
+      "title": "现金返还订单",
+      "table": {
+        "amount_cashback": "返现金额",
+        "payment_status": "付款状态",
+        "date": "日期"
+      }
+    }
+  },
+  "cashback_edit": {
+    "config": {
+      "subtitle": "在此设置回溯百分比、限制及其状态。"
+    },
+    "percent_input": {
+      "title": "现金返还百分比",
+      "message": "输入现金返还百分比，从 1% 到 20%。"
+    },
+    "currency_input": {
+      "message": "现金返还计划仅适用于这种货币。"
+    },
+    "limit_input": {
+      "title": "限制",
+      "hint": "输入最高返现金额。",
+      "zero_message": "输入 0 可获得无限现金返还。"
+    },
+    "duration": {
+      "title": "时长限制",
+      "subtitle": "设置现金返还计划的持续时间。可选。"
+    },
+    "start_input": {
+      "title": "开始日期",
+      "placeholder": "选择开始日期..."
+    },
+    "end_input": {
+      "title": "结束日期",
+      "placeholder": "选择结束日期..."
+    },
+    "design": {
+      "subtitle": "设置返现计划的标题和简短描述。这些信息将显示给客户。"
+    },
+    "title_input": {
+      "title": "标题"
+    },
+    "description_input": {
+      "title": "描述"
+    },
+    "constraints": {
+      "subtitle": "设置现金返还计划的限制。"
+    },
+    "min_purchase_input": {
+      "hint": "输入现金返还计划的最低购买金额。",
+      "title": "最低购买量"
+    },
+    "only_first_buy_input": {
+      "false_desc": "所有订单均可享受现金返还计划。",
+      "true_desc": "现金返还计划仅适用于第一笔订单。",
+      "true_title": "仅限首单",
+      "false_title": "所有订单"
+    },
+    "qualify_input": {
+      "false_title": "所有客户",
+      "true_title": "合格客户",
+      "true_msg": "现金返还计划仅向符合条件的客户开放。"
+    },
+    "club": {
+      "subtitle": "设置俱乐部的现金返还计划。现金返还计划仅适用于加入该俱乐部的客户。"
+    },
+    "cluster": {
+      "subtitle": "通过将集群与现金返还计划关联，您可以更有效地管理它。"
+    },
+    "notifications": {
+      "add": "现金返还计划添加成功。",
+      "edit": "现金返还计划更新成功。"
+    },
+    "enable_input": {
+      "true_msg": "现金返还计划已启动，客户可以使用它。",
+      "false_msg": "现金返还计划处于非活动状态，客户无法使用。"
+    },
+    "boosted_input": {
+      "false_title": "普通的",
+      "true_title": "提升（2 倍现金返还）",
+      "true_msg": "现金返还计划处于提升模式，客户将获得双倍现金返还。",
+      "false_msg": "现金返还计划处于正常模式，客户将获得正常现金返还。"
+    }
+  },
+  "row_payment": {
+    "actions": {
+      "refund": {
+        "title": "退款付款",
+        "subtitle": "支持部分或全额退款。"
+      },
+      "delivery": {
+        "title": "确认收货",
+        "subtitle": "您可以手动向支付提供商确认发货。"
+      }
+    }
+  },
+  "payment_refund_dialog": {
+    "title": "退款付款",
+    "message": "出于安全原因，只有过去 7 天内付款的订单才有资格退款。",
+    "payment_amount": "付款金额",
+    "total_refund_amount": "退款总额",
+    "can_refund": "可以退款",
+    "refund_amount": "退款金额",
+    "verify": {
+      "title": "核实退款",
+      "description": "我确认退款金额正确并且我想继续。"
+    },
+    "action": "立即退款"
+  },
+  "payment_delivery_dialog": {
+    "title": "客户发货确认",
+    "message": "某些支付服务需要确认订单已送达客户。我们通常在订单履行的最后一步收到客户的发货确认后发送此确认。但是，如果您需要手动执行此操作，则可以在此处执行。",
+    "verify": {
+      "title": "验证发货",
+      "description": "我确认订单已经送达客户。"
+    },
+    "action": "立即确认"
+  },
+  "product_cross_selling": {
+    "title": "交叉销售",
+    "add_new_actions": "添加新产品",
+    "subtitle": "在此部分中，您可以添加和管理此产品页面的交叉销售产品。这些产品将作为建议显示，供客户与主要商品一起购买。您还可以设置折扣以鼓励和激励额外购买。系统将展示最多 3 件商品供客户考虑。",
+    "dialog": {
+      "edit_title": "编辑交叉销售产品",
+      "add_title": "添加新的交叉销售产品",
+      "target": {
+        "title": "目标产品",
+        "subtitle": "选择您想要推广的产品作为与该产品一起的交叉销售选项。",
+        "select_products": "选择产品"
+      },
+      "list": {
+        "title": "目标产品",
+        "subtitle": "该产品已被选为交叉销售促销产品。",
+        "manage_product": "管理产品"
+      },
+      "discount": {
+        "title": "折扣及留言",
+        "subtitle": "您可以选择添加一条消息并提供折扣来激励客户购买所选的其他商品。这些激励措施有助于推动销售并提升整体购物体验。",
+        "amount_input": {
+          "message": "考虑所有现有折扣后，折扣百分比将应用于产品价格。"
+        },
+        "mismatch_type_warning": "折扣不能应用于主要产品类型以外的其他类型，因为源商品和目标商品不会放在单独的购物篮中。",
+        "not_support_subscription_type_warning": "无法为交叉销售订阅产品设置折扣，因为定价计划无法动态调整。",
+        "message_input": {
+          "message": "制作一个引人注目且诱人的标题来吸引顾客的注意力。",
+          "placeholder": "捆绑和保存：通过我们精心挑选的选择来完善您的造型！"
+        }
+      },
+      "action": {
+        "title": "行动",
+        "subtitle": "在此处修改交叉销售产品的操作。如果您的产品需要输入自定义信息，例如通过估价表，请不要选择“添加到购物车”作为操作，因为这可能会导致错误。"
+      }
+    }
+  },
+  "CrossSellActionType": {
+    "AddToCart": {
+      "title": "添加到购物车",
+      "description": "直接显示添加到购物车按钮。请注意，这不适用于订阅产品。"
+    },
+    "ViewProduct": {
+      "title": "查看产品",
+      "description": "显示“查看更多”按钮，通过打开新窗口将客户引导至产品页面。"
+    }
+  },
+  "product_flow": {
+    "title": "购买流程",
+    "subtitle": "这是您的产品的购买流程和健康检查。",
+    "connect": {
+      "subtitle": "该产品已通过<b>{name}</b>添加。",
+      "enable_msg": "通向外部服务的桥梁已启用。",
+      "disable_msg": "通向外部服务的桥梁已被禁用。",
+      "has_shipping_msg": "{name} 支持配送。因此，您可以选择在结帐页面上启用 {name} 的自动运费计算。"
+    },
+    "health": {
+      "title": "产品健康",
+      "available_in_stock_msg": "产品有现货。",
+      "out_of_stock_msg": "产品缺货。",
+      "file_count_msg": "该产品共上传了 {files_count} 个文件，共 {files_size} 个。",
+      "no_file_uploaded_msg": "尚未上传任何文件。",
+      "no_image_uploaded_msg": "上传产品图片以使其更具吸引力。"
+    },
+    "vendor_errors": {
+      "title": "缺少供应商",
+      "subtitle": "此产品目前没有关联供应商。要使产品可以在市场上购买，它必须至少有一个供应商。",
+      "manage_vendors": "管理供应商"
+    },
+    "file_errors": {
+      "title": "丢失文件",
+      "subtitle": "目前尚未上传该产品的文件。请上传文件以继续。",
+      "manage_files": "管理文件"
+    },
+    "pricing": {
+      "title": "价钱",
+      "no_product_price_msg": "默认产品价格尚未设定！",
+      "listing_pricing_msg": "上市定价：",
+      "has_valuation_msg": "产品有估价。",
+      "subscription_pricing_msg": "该产品有{count}个订阅定价计划。",
+      "has_no_subscription_pricing_msg": "该产品没有订阅定价计划。"
+    },
+    "subscription_errors": {
+      "title": "缺少订阅定价计划",
+      "subtitle": "此产品没有订阅定价方案。您需要添加至少一个订阅定价方案，才能使此产品可供订阅购买。",
+      "pricing_plans": "定价计划"
+    },
+    "location": {
+      "title": "销售地点限制 ● {status}",
+      "status": {
+        "has_restriction": "在 {count} 个国家/地区有售",
+        "no_restriction": "不限制"
+      },
+      "available_countries_msg": "全球购物仅限 {count} 个国家/地区。这些国家/地区是 {countries}。",
+      "disable_for_all_countries_msg": "您的商店 > 位置设置中的所有国家/地区均禁用购物功能。",
+      "location_is_not_in_permitted_shop_locations_msg": "您将{country}设置为销售地点，但在商店级别您不允许此国家/地区。请检查您的商店级别设置。",
+      "shop_locations": "商店位置",
+      "product_locations": "产品位置"
+    },
+    "location_errors": {
+      "title": "可用位置错误",
+      "no_location_error_subtitle": "您已激活购买该产品的位置限制，但目前此限制下未列出任何国家/地区。因此，任何人都无法购买该产品。",
+      "invalid_location_error_subtitle": "您的产品的位置限制设置有误：列出的某些位置没有任何相关的邮政编码。因此，用户无法选择邮政编码，导致产品无法购买。",
+      "manage_locations": "管理位置"
+    },
+    "tax": {
+      "title": "订阅税",
+      "default_shop": "默认店铺税",
+      "tax_profiles": "税务概况",
+      "description": {
+        "subscription_tax_msg": "我们只能在付款创建步骤征收税款。",
+        "dedicated": "投入的",
+        "is_disabled": "此税务配置文件已被禁用！",
+        "tax_is_based_on_location": "税费：基于地点",
+        "shipping_tax_is_based_on_location": "运送：基于位置",
+        "included_in_price": "包含在价格中。"
+      }
+    },
+    "vendor": {
+      "vendor_owner_msg": "该产品属于<b>{vendor}</b> 。",
+      "has_vendors_msg": "此产品有 {count} 个供应商。",
+      "no_vendor_msg": "您尚未为该产品指定供应商，因此客户无法购买该产品。",
+      "add_vendors": "添加供应商"
+    }
+  },
+  "product_template": {
+    "title": "产品页面模板",
+    "subtitle": "您可以在产品页面中嵌入页面以增强展示效果。最佳方法是创建具有透明背景和针对每个产品类别定制的 1 到 3 个部分的页面。然后，将一个页面分配给多个产品，以实现一致且吸引人的展示。",
+    "edit_page": "編輯頁面",
+    "list_of_pages": "页面列表"
+  },
+  "product_embed": {
+    "subtitle": "您只需复制并粘贴我们提供的代码，即可轻松地将产品或产品列表嵌入到您的博客或其他网页中。尽管此功能仍处于早期阶段，但我们正在积极努力扩展其功能，使其超越目前其他地方提供的功能。虽然它目前提供的功能有限，但我们计划在未来推出更多模板和自定义选项。",
+    "card": {
+      "title": "最小",
+      "description": "生成 HTML 代码以在其他平台和 HTML 页面中添加产品卡。"
+    },
+    "iframe": {
+      "title": "内嵌框架",
+      "description": "生成 iframe 代码以在嵌入窗口中显示全面的产品详细信息。"
+    }
+  },
+  "permission_staff_add": {
+    "title_new": "新员工",
+    "title_edit": "編輯員工",
+    "staff": {
+      "title": "添加员工和访问权限",
+      "subtitle": "所有具有员工访问权限的用户都可以登录您的仪表板并查看财务信息。要添加具有有限访问权限的用户，请定义角色。",
+      "go_to_roles": "转至角色"
+    },
+    "access": {
+      "customization_tips": "<b>自定义：</b>单击每个项目可自定义默认的读/写访问权限。每行代表与主商店仪表板相对应的访问级别。",
+      "simplify_tips": "<b>重要提示！</b>我们将访问控制从 300 多个级别简化到 10 个级别以下。更详细和最新的访问级别将在文档中发布。",
+      "multi_permission_tips": "<b>自定义限制？</b>您可以为一个用户添加更多访问权限，因此在添加第一个访问权限后，按照相同步骤创建其他访问权限。",
+      "view_data": "查看数据",
+      "apply_changes": "应用更改"
+    },
+    "inputs": {
+      "email": {
+        "placeholder": "电子邮件",
+        "label": "用户电子邮件地址"
+      },
+      "level": {
+        "label": "访问权限",
+        "placeholder": "选择一个级别..."
+      }
+    },
+    "actions": {
+      "add": "添加员工"
+    },
+    "notifications": {
+      "add_success": {
+        "title": "已授予访问权限",
+        "message": "已成功添加新访问权限。"
+      },
+      "update_success": {
+        "title": "访问已更新",
+        "message": "权限已成功更新。"
+      }
+    }
+  },
+  "category_engine_editor": {
+    "title": "额外产品列表",
+    "subtitle": "显示不同类别的产品。您可以选择多个类别来展示产品或按标签筛选产品。",
+    "aut_add_sub_categories_tips": "您可以通过点击下面的按钮将所有子类别自动添加到当前类别。",
+    "inputs": {
+      "categories": {
+        "label": "类别",
+        "messages": "将显示这些类别中的产品。",
+        "placeholder": "选择类别..."
+      },
+      "tags": {
+        "label": "产品标签",
+        "messages": "带有这些标签的产品将会显示。",
+        "placeholder": "在此处输入标签并按 Enter。例如，新系列"
+      }
+    },
+    "actions": {
+      "save_engine": "保存引擎",
+      "auto_add_subcategories": "自动添加子类别"
+    }
+  },
+  "products_sort_view": {
+    "search_tips": {
+      "title": "搜索提示",
+      "normal": "<b>常规搜索：</b>按标题、MPN、SKU、品牌或标签搜索。",
+      "product": "<b>精确产品 ID：</b>使用 P+产品 ID 查找特定产品，例如<b class=\"text-green\">P</b> <i class=\"text-yellow\">360</i> 。",
+      "quotes": "<b>精确短语：</b>使用引号搜索精确短语，例如<b class=\"text-green\">“</b><i class=\"text-yellow\">此处输入您的文本</i><b class=\"text-green\">”</b> 。",
+      "tax": "<b>税务概况：</b>使用“tax：”搜索具有特定税务概况的产品，例如<b class=\"text-green\">tax：</b><i class=\"text-yellow\">税务概况名称</i>。",
+      "new_products": "<b>新产品：</b>查找特定日期范围内添加的产品，例如， <b class=\"text-green\">new~</b> <i class=\"text-yellow\">2023-08-10</i> <b class=\"text-green\">~</b> <i class=\"text-yellow\">2023-08-20</i> 。"
+    }
+  },
+  "augment_form": {
+    "title": "增强",
+    "subtitle": "输入将与页面内容中对应值交换的密钥。密钥最多为 32 个字符。",
+    "add_caption": "添加新商品",
+    "add_sub_caption": "添加自定义键值对。",
+    "add_dialog": {
+      "title": "选择输入类型",
+      "html": {
+        "title": "文本和 HTML",
+        "subtitle": "该项目的值可以指定为文本或 HTML。"
+      },
+      "image": {
+        "title": "图像",
+        "subtitle": "您可以上传图片。"
+      }
+    },
+    "help_dialog": {
+      "title": "如何使用动态内容",
+      "how_it_works_tips": "在着陆页中，您可以灵活地为文本和图像指定动态占位符。这些占位符在根据上下文自定义内容方面发挥着重要作用。这些占位符的动态特性允许它们填充增强值，这些值可能因不同因素而异。例如，每个产品或类别的增强值可能不同。当您拥有具有不同属性的各种项目时，此功能的真正优势就会发挥作用。您可以有效地利用这些动态占位符来个性化和增强每个项目的显示，从而在您的着陆页上创建独特的交互式体验。",
+      "assign_tips": "要为图像分配动态值，请单击位于该部分左侧的馈送器按钮。",
+      "set_dynamic_image_tips": "您现在可以修改图像 URL 并为其分配动态值。",
+      "enter_values_tips": "对于每种产品，您都可以分配专用的键值对。",
+      "result_tips": "这是页面的最终结果，其中占位符已被增强值替换。"
+    }
+  },
+  "logistic_profile_editor": {
+    "languages": {
+      "title": "多语言",
+      "subtitle": "这是内容语言的列表。您可以为物流配置文件在各个语言中设置不同的内容。",
+      "add_caption": "添加新文章",
+      "no_more_language": "沒有語言！"
+    },
+    "content": {
+      "title": "内容",
+      "subtitle": "您可以用多种语言定制物流概况的内容。",
+      "language_input": "当前文章语言",
+      "delete_article": "删除文章",
+      "menu_tooltip": "自动翻译/删除文章"
+    },
+    "translate_to": "翻译为",
+    "notifications": {
+      "translate": {
+        "message": "文章翻译成功完成。"
+      },
+      "save_article": {
+        "message": "文章已成功保存。"
+      },
+      "delete_article": {
+        "message": "文章已成功删除。"
+      }
+    },
+    "delete_dialog": {
+      "message": "您确定要永久删除该篇文章吗？",
+      "action": "是的，立即删除"
+    }
+  },
+  "logistic_profile_products": {
+    "title": "产品",
+    "subtitle": "与此配置文件相关的产品列表。"
+  },
+  "logistic_profile_setting": {
+    "title": "一般信息",
+    "inputs": {
+      "name": {
+        "message": "此名称仅向您显示，不会向公众透露。"
+      },
+      "accept_delete": {
+        "true_description": "此操作将删除所有文章和个人资料链接。",
+        "true_title": "我确认删除此连接。"
+      }
+    },
+    "actions": {
+      "remove": "删除个人资料和关系"
+    }
+  },
+  "shop_logistic_profiles": {
+    "title": "物流概况",
+    "add_caption": "添加新个人资料",
+    "subtitle": "您可以在此处创建和编辑产品的保修和退货政策，并将其分配给任何产品。您可以为不同类型的产品定义不同的保修政策。",
+    "add_dialog": {
+      "title": "创建新的物流档案",
+      "config": {
+        "title": "一般信息",
+        "subtitle": "选择配置文件类型。它可以是指南、保修或多种产品之间共享的任何其他内容和材料。"
+      },
+      "article": {
+        "title": "文章",
+        "subtitle": "创建此物流档案后，您可以添加更多语言。"
+      },
+      "inputs": {
+        "name": {
+          "message": "此名称仅向您显示，不会向公众透露。",
+          "placeholder": "输入配置文件的名称..."
+        }
+      }
+    }
+  },
+  "shop_logistic_includes": {
+    "title": "包含物品管理",
+    "add_caption": "添加新商品",
+    "subtitle": "您可以在此处管理产品中包含的物品。为确保您的商店外观完美无瑕，请在所有产品中一致使用具有类似图像模式（例如线框）的物品。",
+    "empty_list_msg": "包含物品的清单...",
+    "notifications": {
+      "delete": {
+        "message": "該項目已被刪除。"
+      }
+    },
+    "delete_dialog": {
+      "title": "删除包含的项目",
+      "message": "您确定要永久删除此商品吗？请注意，此商品也会从所有相关产品中删除！",
+      "action": "是的，立即删除"
+    },
+    "actions": {
+      "edit_linked_page": "编辑链接页面"
+    }
+  },
+  "include_item_add": {
+    "dialog_title_edit": "编辑包含的商品",
+    "dialog_title_add": "创建新的包含项目",
+    "title": "包含物品",
+    "subtitle": "选择一个简短的标题，最好最多包含 2 到 3 个单词。使用方形图片，因为我们会自动将上传的图片调整为 256x256 方形格式。为了在所有模板中获得最佳外观，请使用具有透明背景的简约图片，并在整个产品中保持统一的图案。",
+    "inputs": {
+      "title": {
+        "placeholder": "产品页面上显示的简洁标题..."
+      },
+      "code": {
+        "placeholder": "唯一代码，例如 mobile_cable_usb",
+        "hint": "使用此代码可以简化查找物品的搜索过程。"
+      },
+      "description": {
+        "placeholder": "关于此项目的简短描述...",
+        "hint": "描述将用于 SEO，并且可能在产品页面中的一些自定义布局上对用户可见。"
+      },
+      "image": {
+        "message": "最大图片尺寸：1MB"
+      },
+      "path": {
+        "label": "页面路径"
+      }
+    },
+    "mode": {
+      "no_link": {
+        "title": "没有链接"
+      },
+      "external_link": {
+        "title": "外部链接",
+        "description": "设置外部 URL 的链接。",
+        "tips": "您可以将任意 URL 附加到商品。当用户在产品页面上点击该商品时，他们将被重定向到该链接。"
+      },
+      "internal_link": {
+        "title": "内部链接",
+        "description": "通过为该项目提供的增强数据创建动态页面。",
+        "tips": "您可以将登录页面与个人资料链接起来，并为其设置自定义路径和动态内容。Selldone 将为该项目生成动态链接。"
+      }
+    },
+    "notifications": {
+      "add": {
+        "message": "包含的项目已成功添加。"
+      },
+      "edit": {
+        "message": "所包含的项目已成功更新。"
+      }
+    }
+  },
+  "shop_logistic_returns": {
+    "title": "退回的订单",
+    "subtitle": "您的客户可以退回他们的实物订单，您可以在订单处理页面查看退货请求或在此处访问完整的退货订单列表。"
+  },
+  "referral_fees": {
+    "title": "佣金",
+    "subtitle": "您从推荐人那里获得的所有佣金的列表。佣金最多需要 30 天才能获得批准并转入您的钱包。"
+  },
+  "referral_wallets": {
+    "title": "钱包",
+    "subtitle": "在这里您可以看到您赚取的佣金。您可以将佣金转入您的银行账户或 Selldone 钱包。",
+    "no_commission_yet": "您尚未收到任何佣金。",
+    "no_wallet": "没有钱包！",
+    "withdraw_dialog": {
+      "title": "提款佣金",
+      "need_bank_info_message": "请先输入您的银行信息。",
+      "to_wallet": {
+        "title": "到钱包",
+        "subtitle": "使用此选项，您可以将佣金转入您的 Selldone 钱包。请确保已将钱包连接到您的礼品钱包，并且使用相同的货币进行操作。"
+      },
+      "to_bank": {
+        "title": "到银行",
+        "subtitle": "使用此选项，您可以将佣金转入您的 Selldone 钱包。请确保已将钱包连接到您的礼品钱包，并且使用相同的货币进行操作。"
+      },
+      "inputs": {
+        "verify_to_wallet": {
+          "true_description": "我想将我的佣金转入我的 Selldone 钱包。"
+        },
+        "verify_to_bank": {
+          "true_description": "我核实了我的银行信息并想将我的佣金转入我的银行账户。"
+        }
+      },
+      "actions": {
+        "withdraw_to_wallet": "提现至钱包",
+        "withdraw_to_bank": "提款至银行"
+      }
+    },
+    "notifications": {
+      "request_transfer_to_bank_success": "您的请求已成功收到，我们将进行审核。"
+    }
+  },
+  "monetize_referral": {
+    "copy_box": {
+      "message": "您可以将<b>?ref={code}</b>添加到任何 selldone url。"
+    },
+    "intro": {
+      "title": "加入 Selldone 联盟计划",
+      "message": "Selldone 联盟计划简单明了，旨在让您轻松赚钱。分享您独特的联盟链接，邀请新用户加入 Selldone，您将从他们进行的每笔交易中赚取佣金——永远如此。这包括订阅、服务费、商店升级和所有其他收入来源的收入。开始赚取收入份额，不受时间或收入限制。加入我们，将您的网络变成稳定的收入！",
+      "why_join_selldone_affiliate": "为什么这是一个独特的机会？",
+      "reasons": [
+        "它将永远持续下去！",
+        "涵盖所有订阅和交易费用。实际上涵盖 Selldone 上用户的每一笔付款。",
+        "我们将向使用您的链接注册的任何人发送一张价值 99 美元的免费代金券。",
+        "当您的等级升级时，您将按照新的费率从所有之前推荐的用户那里获得收益。"
       ]
     }
   }

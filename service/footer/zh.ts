@@ -194,7 +194,26 @@ export default {
         ]
       }
     ],
-    "copyright": "仅出于非商业目的使用内容并参考来源（与 Selldone.com 的链接）。 Selldone Group 保留所有权利。"
+    "copyright": "仅出于非商业目的使用内容并参考来源（与 Selldone.com 的链接）。 Selldone Group 保留所有权利。",
+    "supported_countries_and_payments": "支持的国家和付款方式",
+    "affiliate_program": "联盟计划",
+    "business_idea": "商业理念",
+    "roadmap": "路线图",
+    "apply_partner": "申请合作伙伴",
+    "partner": {
+      "title": "搭伙",
+      "subtitle": "我们为我们的合作伙伴提供绝佳的机会来扩展他们的业务并赚取稳定的月收入。"
+    },
+    "add_service": "添加服务",
+    "service": {
+      "title": "整合您的服务",
+      "subtitle": "现在向数以千计的蓬勃发展的企业展示您的服务，未来则向数百万的企业展示您的服务！"
+    },
+    "add_supplier": "添加供应商",
+    "supplier": {
+      "title": "作为供应商加入",
+      "subtitle": "我们可以帮助您的产品覆盖全球数千家活跃的在线和本地商店。"
+    }
   },
   "admin_footer": {
     "title": "快速访问菜单：",
@@ -213,5 +232,8 @@ export default {
   },
   "admin_shop_footer": {
     "title": "{shop_name} 的快速访问面板"
+  },
+  "press_view": {
+    "on_all_review_websites": "在所有评论网站上"
   }
 };

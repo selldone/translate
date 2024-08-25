@@ -382,5 +382,19 @@ export default {
   "marketplace": "マーケットプレイスビルダー",
   "connect_os": {
     "subtitle": "ワンクリックでドロップシッピングのサプライヤーに接続できます。 Prinful や Import Woocomerce ストアなどの POD に無料で接続できます。"
+  },
+  "ai": {
+    "title": "AI",
+    "sub_title": "副操縦士と AI アシスタント機能。",
+    "bg_remove": "AIによる背景除去",
+    "bg_remove_info": "画像から背景を自動的に削除します。",
+    "content_creation": "AIコンテンツ作成",
+    "content_creation_info": "製品のコンテンツを自動的に作成します。",
+    "add_product": "AI製品サポート",
+    "add_product_info": "画像と音声で商品を自動追加します。",
+    "magic_ai_buttons": "魔法のAIボタン",
+    "magic_ai_buttons_info": "背景の自動削除、一括翻訳、コンテンツの生成などをワンクリックで実行できます。",
+    "translate": "AI翻訳",
+    "translate_info": "コンテンツを任意の言語に翻訳します。"
   }
 };

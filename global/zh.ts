@@ -642,7 +642,77 @@ export default {
     "clusters": "集群",
     "subscriptions": "订阅",
     "spam": "垃圾邮件",
-    "video": "视频"
+    "video": "视频",
+    "fulfillment": "履行",
+    "channels_overview": "渠道概述",
+    "no_vendors": "没有供应商",
+    "ends_in": "结束于",
+    "current": "当前的",
+    "important": "重要的",
+    "web": "网页",
+    "payout": "付款",
+    "vendor_panel": "供应商面板",
+    "vendors_panel": "供应商面板",
+    "syncing": "同步",
+    "level": "等级",
+    "available": "可用的",
+    "limited": "有限的",
+    "management": "管理",
+    "topics": "话题",
+    "posts": "帖子",
+    "replies": "回复",
+    "reports": "报告",
+    "post": "邮政",
+    "impressions": "展示次数",
+    "resources": "资源",
+    "engine": "引擎",
+    "attachments": "附件",
+    "owner": "所有者",
+    "wholesaler": "批发商",
+    "hidden": "隐",
+    "visible": "可见的",
+    "warehouse": "仓库",
+    "billed_yearly": "每年计费",
+    "my_wallet": "我的钱包",
+    "boosted": "增强",
+    "cashback": "现金返还",
+    "leads": "线索",
+    "invalid": "无效的",
+    "refund_date": "退款日期",
+    "refund": "退款",
+    "items": "项目",
+    "incentives": "激励措施",
+    "recurring_payment": "定期付款",
+    "pricing": "价钱",
+    "purchase": "购买",
+    "confirmation": "确认",
+    "manage": "管理",
+    "warning": "警告",
+    "custom": "风俗",
+    "read": "读",
+    "write": "写",
+    "root": "根",
+    "nothing_set": "沒有設定！",
+    "installment": "分期付款",
+    "split_payment": "分期付款",
+    "profiles": "简介",
+    "location_limited": "位置有限",
+    "no_limit": "没有限制",
+    "max_range": "最大范围",
+    "settled_date": "结算日期",
+    "paid_date": "付款日期",
+    "physical_orders": "实物订单",
+    "virtual_orders": "虚拟订单",
+    "file_orders": "提交订单",
+    "service_orders": "服务订单",
+    "subscription_orders": "认购订单",
+    "avocado_orders": "牛油果订单",
+    "hyper_orders": "超级订单",
+    "connected": "连接的",
+    "system": "系统",
+    "unknown": "未知",
+    "week": "星期",
+    "agencies": "机构"
   },
   "dialogs": {
     "delete": {
@@ -773,7 +843,20 @@ export default {
     "buy": "买",
     "view_all": "查看全部",
     "view_now": "现在查看",
-    "paste": "粘贴"
+    "paste": "粘贴",
+    "edit_address": "編輯地址",
+    "resend": "重新发送",
+    "deploy_now": "立即部署",
+    "become_premium": "成为高级会员",
+    "bulk_export": "批量导出",
+    "see_all": "查看全部",
+    "visit": "访问",
+    "rate_now": "立即评分",
+    "load": "加载",
+    "duplicate": "复制",
+    "connect": "连接",
+    "connect_now": "立即连接",
+    "verify_now": "立即验证"
   },
   "instance_message_title": "发送即时消息",
   "instance_message": "嗨，{name}，我的名字是来自 {company} 的 {author}。",
@@ -876,7 +959,8 @@ export default {
     "RequireAction": "需要采取的行动",
     "Processing": "加工",
     "Canceled": "取消",
-    "Succeeded": "成功"
+    "Succeeded": "成功",
+    "RequireCapture": "需要捕获"
   },
   "placeholders": {
     "name": "琼斯考克斯",
@@ -885,7 +969,14 @@ export default {
     "language": "选择语言..",
     "friend_email": "你朋友的邮箱...",
     "friend_name": "选择。你朋友的名字",
-    "select_date": "选择日期..."
+    "select_date": "选择日期...",
+    "address": "123 Main St，Anytown，12345",
+    "cluster": "选择一个集群...",
+    "select_products": "选择产品",
+    "birthday": "选择生日",
+    "select_category": "选择一个类别...",
+    "select_a_country": "选择一个国家...",
+    "filter_country": "按国家过滤..."
   },
   "notification": {
     "confirm": "确认",
@@ -1159,7 +1250,9 @@ export default {
     "GHS": "GHS",
     "ZWD": "ZWD",
     "IQD": "IQD",
-    "SYP": "SYP"
+    "SYP": "SYP",
+    "KWD": "KWD",
+    "BTN": "BTN"
   },
   "variants": {
     "color": "颜色",
@@ -1282,7 +1375,10 @@ export default {
       "title": "内容发布时间表",
       "publish_at": "发表于",
       "last_edit": "上次编辑",
-      "view_action": "查看文章"
+      "view_action": "查看文章",
+      "no_article": "暂无预定文章！",
+      "current_article": "当前文章",
+      "article_for_product": "产品文章"
     },
     "notifications": {
       "update_success_title": "提交信息",
@@ -1354,7 +1450,8 @@ export default {
     "first_send": "第一篇文章",
     "comment_at": "在",
     "edit_comment": "编辑评论",
-    "my_comments": "我的评论"
+    "my_comments": "我的评论",
+    "verified_buyer": "已验证买家"
   },
   "customer_club": {
     "bronze": "青铜",
@@ -1469,7 +1566,8 @@ export default {
     "canceled": "取消",
     "cod": "货到付款",
     "receipt_added": "已添加收据",
-    "payment_processing": "交付过程"
+    "payment_processing": "交付过程",
+    "payment_require_capture": "需要捕获"
   },
   "basket_delivery_state": {
     "rejected": "被拒绝",
@@ -1971,5 +2069,53 @@ export default {
     "summer": "夏天",
     "autumn": "秋天",
     "winter": "冬天"
+  },
+  "order_chat": {
+    "seller": {
+      "history": {
+        "subtitle": "查看您与客户之间的消息历史记录。"
+      },
+      "new_message": {
+        "subtitle": "您可以在此处直接向客户发送消息。当您发送消息时，客户将在 20 分钟后收到电子邮件通知。此通知每 24 小时仅发送一次。"
+      }
+    },
+    "customer": {
+      "history": {
+        "subtitle": "查看您与卖家之间的消息历史记录。"
+      },
+      "new_message": {
+        "subtitle": "您可以在这里直接向我们发送消息。"
+      }
+    }
+  },
+  "ServiceTypes": {
+    "DEMAND": {
+      "title": "一经请求",
+      "desc": "比如上门维修、油漆、汽车维修等。"
+    },
+    "BOOKING": {
+      "title": "预订",
+      "desc": "就像预订酒店房间或别墅一样。"
+    },
+    "APPOINTMENT": {
+      "title": "约定",
+      "desc": "就像宠物护理预约或面对面培训一样。"
+    },
+    "RENTAL": {
+      "title": "出租",
+      "desc": "就像租一个地方或一辆车。"
+    },
+    "SUBSCRIPTION": {
+      "title": "订阅",
+      "desc": "像俱乐部会员或在线教练。"
+    },
+    "CHARGE": {
+      "title": "收费",
+      "desc": "例如向帐户收费或使用应用程序收费。"
+    },
+    "CUSTOM": {
+      "title": "风俗",
+      "desc": "如果您提供的服务不是以上任何一种，请选择此选项。"
+    }
   }
 };

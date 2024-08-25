@@ -99,7 +99,11 @@ export default {
       "ecommerce": "e-ticaret",
       "pos": "Satış noktası",
       "blog": "Blog ve İYS",
-      "community": "Topluluk ve Forum"
+      "community": "Topluluk ve Forum",
+      "ecommerce_desc": "Ürün ve hizmetlerinizi çevrimiçi olarak satın.",
+      "pos_desc": "Ürün ve hizmetlerinizi şahsen satın.",
+      "blog_desc": "Makalelerinizi ve gönderilerinizi yayınlamak için güçlü CMS.",
+      "community_desc": "Kendi topluluğunuzu ve forumunuzu yaratın."
     },
     "job": {
       "title": "Sektörünüz nedir?",
@@ -162,7 +166,8 @@ export default {
     "sec2": {
       "title": "Hızlı entegrasyon",
       "msg": "Kimlik doğrulama, hesaba erişim ve basit komutlarla yönetme adımlarını gerçekleştirebilmeniz için tüm yaygın diller ve çerçeveler için SDK'lar geliştiriyoruz. Başlamak sadece birkaç tıklama uzakta olacak."
-    }
+    },
+    "header": "{infinite} Özelleştirmeye Sahip Açık Kaynaklı API ve SDK"
   },
   "convertible": {
     "store_name": "Senin mağazan",
@@ -248,7 +253,9 @@ export default {
     "block3": {
       "title": "Zamandan tasarruf",
       "subtitle": "Kurumsal düzeyde ancak yeni başlayanlar için uygun."
-    }
+    },
+    "title": "Ölçeklenebilir çevrimiçi ve mağaza içi satışlar için optimize edilmiştir",
+    "subtitle": "Dönüşüm için tasarlandı. Ziyaretçileri müşterilere dönüştürmek için tasarlanmış sezgisel araçlarla çevrimiçi mağazanızı yükseltin."
   },
   "money_transfer": {
     "customer": "müşterin",
@@ -311,5 +318,219 @@ export default {
     "msg": "Sadece birkaç tıklamayla fikirlerinizi hayata geçirin.",
     "open_sample_product_link": "Canlı Ürünü Aç",
     "open_templates": "Şablonları Görüntüle"
+  },
+  "support_box": {
+    "country_select_label": "Ülkenizi seçin",
+    "we_support_message": "{country}'yi destekliyoruz",
+    "we_limited_support": "Sınırlı desteğimiz {country}",
+    "support_message_long": "Selldone ile ülkenizde sorunsuz çevrimiçi işlemler yaşayın! Profesyonel VERGİ hesaplamalarının yanı sıra nakit, POS, banka havaleleri ve daha fazlası dahil olmak üzere çeşitli ödeme yöntemleri sunuyoruz. Ülkenizin ihtiyaçlarını tam olarak destekleyen bir platformda işinizi kurmaya başlayın.",
+    "limited_support_message_long": "Ülkenizde çevrimiçi ödemeler mevcut olmayabilir, ancak endişelenmenize gerek yok! Selldone'da dünya çapında nakit ödemeler, banka havaleleri ve Kapıda Ödeme (COD) hizmeti sunuyoruz. Ülkenizin ve Avrupa'nın düzenlemelerine uyarak bizimle çevrimiçi işinizi güvenle kurabilirsiniz. Daha fazla ayrıntı için veya ülkenizdeki çevrimiçi ödeme desteği hakkında bilgi almak için lütfen destek ekibimizle iletişime geçmekten çekinmeyin.",
+    "more_about_selldone_in_country": "Ülkenizdeki Selldone hakkında",
+    "support_worldwide_customers": "Ürünlerinizi ve hizmetlerinizi <b>tüm ülkelerdeki</b> tüm müşterilerinize satabilirsiniz!"
+  },
+  "hero": {
+    "intro": "İşletmeler için #1 İşletim Sistemi",
+    "title": "{infinite} Eklenti ve Uygulamayı Tek Bir {app} ile Değiştirin"
+  },
+  "make_your_shop": {
+    "title": "Kendin yap",
+    "amazon": "Amazon",
+    "local_store": "Yerel Mağaza",
+    "instagram": "Instagram Mağazası",
+    "dropshipping": "Direk nakliye",
+    "coursera": "Coursera",
+    "gift_store": "Hediyelik eşya mağazası",
+    "airbnb": "Airbnb",
+    "simple_store": "Basit Mağaza",
+    "tiktok": "Tiktok Mağazası"
+  },
+  "show_its_simplicity": {
+    "title": "Başka bir sıkıcı kompleks<div class=\"app-box\" style=\"font-size: 55%\"> 😣</div> e-ticaret platformu mu!?",
+    "subtitle": "Kesinlikle hayır! Kayıt olmadan önce deneyin...",
+    "as_guest": "Misafir olarak",
+    "need_register": "Kayıt yaptırmaya ihtiyacım var",
+    "page_builder": {
+      "title": "Dahili Sayfa Oluşturucu",
+      "subtitle": "Satır içi düzenleme özelliğine sahip ilk sezgisel sürükle ve bırak sayfa oluşturucusu.",
+      "try_action": "Sayfa Oluşturucuyu deneyin",
+      "see_collection_action": "Şablonlara Bakın"
+    },
+    "ai": {
+      "title": "Dahili AI Özellikleri",
+      "subtitle": "En iyi endüstriyel arka plan kaldırma, görüntü optimizasyonu, içerik oluşturma, otomatik ürün oluşturma ve daha fazlası.",
+      "try_action": "Selldone Intelligence'ı deneyin"
+    },
+    "storefront": {
+      "title": "Canlı Vitrin",
+      "subtitle": "Tek bir satır kod yazmanıza gerek kalmadan, modern PWA web sitesi ile en hızlı alışverişi yaşayın.",
+      "see_action": "Demo Mağazasını Gör"
+    },
+    "backoffice": {
+      "title": "Canlı Backoffice",
+      "subtitle": "Herhangi bir eklentiye ihtiyaç duymadan her şeyi tek bir yerden yönetin.",
+      "see_action": "Demo Backoffice'i görün"
+    }
+  },
+  "pricing_compact": {
+    "title": "<div class=\"app-box\" style=\"font-size: 55%\">💞️</div> Basit ve şeffaf fiyatlandırma",
+    "subtitle": "Gelir paylaşım modelimizle işinizi başlatmak ve ölçeklendirmek için tüm kurumsal düzeydeki özelliklere erişin; hiçbir ön ödeme yapmayın, sadece gelirinizin bir kısmını ödeyin. Yalnızca siz başardığınızda biz de başarılı oluruz, maliyetlerinizi en aza indirir ve kârınızı en üst düzeye çıkarırız."
+  },
+  "screenshots": {
+    "item_1": {
+      "title": "Sipariş yönetiminizi kolaylaştırın.",
+      "desc": "Gelişmiş liste ve filtreleme fonksiyonlarımızı kullanarak günlük olarak büyük hacimli siparişleri etkin bir şekilde yönetin."
+    },
+    "item_2": {
+      "title": "Mağazanızı POD'lara bağlayın.",
+      "desc": "Mağazanızı Printful gibi baskı talebi üzerine bir dropshipping hizmetine kolayca bağlayın ve sanat eserlerinizi herhangi bir ek eklentiye ihtiyaç duymadan basılı materyallerde satın."
+    },
+    "item_3": {
+      "title": "Sezgisel kurumsal araçlarla siparişleri yerine getirin.",
+      "desc": "İstekleri sezgisel olarak biçimlendirme, gerekli değişiklikleri yapma ve durumu tek bir tıklamayla güncelleme yeteneğiyle sorunsuz bir sipariş verme sürecini deneyimleyin. Kurumsal düzeydeki araçlarımızla yerine getirme yeteneklerinizi yeni zirvelere taşıyın."
+    },
+    "item_4": {
+      "title": "Sipariş zaman çizelgesindeki eylemlerin takibi.",
+      "desc": "Bir siparişin zaman çizelgesi, siparişte yapılan tüm eylemlerin ve değişikliklerin ayrıntılı bir kaydını sağlar. Değişiklikleri kimin ve ne zaman yaptığını kolayca görebilirsiniz."
+    },
+    "item_5": {
+      "title": "Müşteri ve satıcı iletişimini basitleştirmek.",
+      "desc": "Markanızın markasını içeren e-postalar, ödeme ve satın alma işlemi tamamlandıktan sonra otomatik olarak müşterilere, satıcılara ve belirtilen özel e-posta adreslerine gönderilecektir."
+    },
+    "item_6": {
+      "title": "Sürükle ve bırak ile ürünleri zahmetsizce düzenleyin.",
+      "desc": "Bu sistemdeki ürün dosyalara benzer şekilde işlev görecekken, kategoriler klasörler gibi davranacaktır. Ürünleri kolayca sürükleyip bırakabilir, yeniden düzenleyebilir, kopyalayıp yapıştırabilir ve hatta basit bir Excel dosyası kullanarak toplu ürünleri içe aktarabilirsiniz."
+    },
+    "item_7": {
+      "title": "Abonelik siparişlerinizi kolayca takip edin.",
+      "desc": "Mevcut ve geçmiş tüm abonelik siparişlerini, bir sonraki ödeme tarihine kadar geçen süreyi ve her sipariş için ayrıntılı bilgileri içeren sezgisel ve kompakt bir listeye ulaşın."
+    },
+    "item_8": {
+      "title": "Müşterilerle etkileşim kurmak için yerleşik blog ve CMS araçlarını kullanın.",
+      "desc": "Şirketiniz ve teklifleriniz hakkında içerik oluşturmak ve arama motoru optimizasyonu yoluyla yeni kitleler çekmek için şirket içi blog ve içerik yönetim sistemi özelliklerinden yararlanın. Bunu yaparak müşterilerinizle de etkileşim kurabilirsiniz."
+    },
+    "item_9": {
+      "title": "İşletim Sistemini Bağlayın — Harici servislere zahmetsizce bağlanın.",
+      "desc": "Herhangi bir ek eklentiye ihtiyaç duymadan pazaryerleri, dropshipping tedarikçileri, POD'lar ve finansal yazılımlar gibi harici servislere bağlanmak mümkündür."
+    },
+    "item_10": {
+      "title": "Harici hizmetlerden ürün ithalatını basitleştirin.",
+      "desc": "Woocommerce ve Printful gibi harici servislerden sadece birkaç tıklama ve tam otomasyonla ürünleri kolayca içe aktarın."
+    },
+    "item_11": {
+      "title": "Mağazanızı Google Merchant Center'a bağlama.",
+      "desc": "Mağazanızı Google Merchant Center'a bağlayın ve tüm ürün ve kategorileri sorunsuz bir şekilde senkronize ederek Google'da reklam verin."
+    },
+    "item_12": {
+      "title": "Avokado — Ürünlerinizi sosyal medyada kolayca satın.",
+      "desc": "Avocado ile ürünleri ve fiyatları manuel olarak eklemenize gerek kalmadan sosyal medyada ürün satabilirsiniz. Araç, siparişler için otomatik olarak bir ödeme bağlantısı oluşturur ve ödeme bağlantılarıyla özel faturalar oluşturmanıza olanak tanır."
+    },
+    "item_13": {
+      "title": "Şerit — Abonelikleri kolayca oluşturun ve satın.",
+      "desc": "Ribbon, abonelik kutuları, ödeme duvarları ve çeşitli içerik türleri gibi abonelikleri sadece birkaç tıklamayla kolayca oluşturmanıza ve satmanıza olanak tanıyan güçlü bir araçtır."
+    },
+    "item_14": {
+      "title": "Mağazanızda birden fazla ödeme seçeneği sunun.",
+      "desc": "Mağazanızda Stripe ve PayPal gibi çeşitli ödeme seçenekleri sunmak faydalıdır."
+    },
+    "item_15": {
+      "title": "Müşterilerinizin satın alma işlemlerini indirimler, teklifler, kuponlar ve oyunlaştırma ile teşvik edin.",
+      "desc": "Müşterilerinizi indirim kodları, promosyon teklifleri, akıllı indirimler, kuponlar, hediye kartları sunmak ve alışveriş deneyimine oyunlaştırma öğelerini dahil etmek gibi çeşitli yöntemleri kullanarak mağazanızdan daha fazla alışveriş yapmaya teşvik edin."
+    },
+    "item_16": {
+      "title": "Sunucu taraflı kampanya yönetimiyle performansı en üst düzeye çıkarın.",
+      "desc": "Kampanyanızın performansı hakkında en kapsamlı ve doğru bilgileri elde etmek için sunucu taraflı pazarlama ve kampanya yönetiminden yararlanın."
+    },
+    "item_17": {
+      "title": "Ortaklık ödemelerini ve satışlarını yönetin.",
+      "desc": "Ortakları dahil edin ve ödemelerini ve satışlarını verimli bir şekilde yönetin. Her ortak için benzersiz müşteri alan adları atamak gibi ortak yönetimi için çeşitli gelişmiş seçenekleri kullanın."
+    },
+    "item_18": {
+      "title": "Envanterinizi ve fiyatlandırmanızı etkin bir şekilde yönetin.",
+      "desc": "Lojistik ve Stok yönetim araçları binlerce ürünün ve bunların çeşitlerinin stok ve fiyatlandırmasını organize etmeye, filtrelemeye ve yönetmeye yardımcı olur."
+    },
+    "item_19": {
+      "title": "Gerçek zamanlı müşteri aktivitesi ve istatistikleri.",
+      "desc": "Bilgilendirilmiş, veriye dayalı kararlar almak için müşteri faaliyetleri ve web sitesi istatistikleriyle ilgili en son verilere erişin."
+    },
+    "item_20": {
+      "title": "Topluluk oluşturucusu ile satışları artırın.",
+      "desc": "Mağazanızdaki satışları artırmak, hedef kitlenin katılımını geliştirmek, güveni artırmak ve ücretsiz içeriğin SEO avantajlarından yararlanmak için etkileşimli bir topluluk oluşturun."
+    },
+    "item_21": {
+      "title": "Müşterilerinizin deneyimini bir üst seviyeye taşıyın.",
+      "desc": "Müşteri tabanınızı düzenleyin ve segmentlere ayırın, yaşam boyu değerlerini, geçmişteki çevrimiçi ve mağaza içi satın alımlarını analiz edin ve gizliliklerine saygı göstererek deneyimlerini geliştirmek için yolculuklarını takip edin."
+    },
+    "item_22": {
+      "title": "Duyarlı sayfaları kolaylıkla tasarlayın.",
+      "desc": "Dahili No-code sayfa oluşturucumuzu kullanarak kolayca ilgi çekici ve duyarlı dahili ve açılış sayfaları tasarlayın. Özel sayfalar oluşturmak için bölümleri sürükleyip bırakmanız yeterlidir."
+    },
+    "item_23": {
+      "title": "Satır içi sayfa düzenleyicisiyle düzenlemeyi kolaylaştırın.",
+      "desc": "Sayfa içi sayfa düzenleyiciyi kullanarak sayfalardaki metinleri ve görselleri kolayca düzenleyin; böylece içeriğinizi güncellemek basit ve sezgisel hale gelir."
+    },
+    "item_24": {
+      "title": "Ekip erişimini ve rollerini yönetin.",
+      "desc": "Ekip üyelerinizi davet edin, personel rolleri oluşturun ve erişim seviyelerini ayarlayın. İşletmeniz ve ekibiniz genişledikçe, işletme işletim sisteminiz buna göre adapte olacaktır."
+    },
+    "item_25": {
+      "title": "Uygulamalarınızı edinin.",
+      "desc": "İşletmenize Progressive Web Uygulaması ile başlayın ve müşterilerinize rakiplerinize kıyasla daha hızlı bir deneyim sunun."
+    },
+    "item_26": {
+      "title": "Gelişmiş otomasyon ve tasarruf araçları.",
+      "desc": "Mağazanıza entegre edilebilen gelişmiş otomasyon araçlarını kullanarak iş operasyonlarınızı kolaylaştırın ve değerli zaman ve kaynaklardan tasarruf edin."
+    },
+    "item_27": {
+      "title": "Mağazanızın vitrinini kolaylıkla özelleştirin.",
+      "desc": "Tema, renk şemaları, yazı tipleri ve daha fazlası gibi görsel özelleştirme seçeneklerini kullanarak mağazanızı markanıza uyacak şekilde kolayca kişiselleştirin; tüm bunlar için kodlama veya teknik becerilere ihtiyacınız yok."
+    },
+    "item_28": {
+      "title": "Kişiselleştirilmiş bir müşteri yolculuğu tasarlayın.",
+      "desc": "Selldone'da oturum açma noktasını seçme veya misafir alışverişini etkinleştirme gibi çeşitli seçenekleri kullanarak kişiselleştirilmiş bir müşteri yolculuğu tasarlayın."
+    },
+    "item_29": {
+      "title": "Özel oturum açma ve akış seçenekleriyle deneyiminizi geliştirin.",
+      "desc": "Çevrimiçi mağazanız için çeşitli sosyal oturum açma seçenekleri sunarak kişiselleştirilmiş bir oturum açma ve akış deneyimi yaratın."
+    },
+    "item_30": {
+      "title": "Karmaşık iş modellerini destekleyin.",
+      "desc": "Selldone Destek, pazaryeri, dropshipping tedarikçileri, iştirak ve franchise gibi gelişmiş iş modeli desteği sunar; bunları tek bir tıklamayla kolayca kurabilir ve aralarında geçiş yapabilirsiniz."
+    },
+    "item_31": {
+      "title": "Birden fazla özel alan adını bağlayın.",
+      "desc": "İşletmenizin topluluk, mağaza, blog, açılış sayfaları veya hatta iştirakler gibi belirli yönlerine birden fazla özel alan adı bağlayabilirsiniz."
+    },
+    "item_32": {
+      "title": "Birden fazla dili ve otomatik çeviriyi destekler.",
+      "desc": "Mağazanız hem RTL hem de LTR olmak üzere birden fazla dili tam olarak destekler. Mağazanız için otomatik çeviri paketlerini kolayca yükleyebilir ve etkinleştirebilirsiniz."
+    },
+    "item_33": {
+      "title": "Dahili çoklu profil vergi hesaplaması.",
+      "desc": "Birden fazla vergi profili oluşturma ve bunları belirli ürünlere atama yeteneğiyle, KDV ve satış vergisini hesaplamada daha fazla esnekliğe sahip olursunuz. Örneğin, gıda maddeleri veya elektrikli cihazlar için farklı vergi oranları uygulayabilirsiniz."
+    },
+    "item_34": {
+      "title": "Çok bölgeli vergi hesaplaması.",
+      "desc": "Farklı ülkelere ve bölgelere satış yaparken satış vergisi ve KDV için varsayılan veya özel kuralları kullanın. Gerektiğinde belirli bölgeler ve vergi bölgeleri için kuralları geçersiz kılın."
+    },
+    "item_35": {
+      "title": "Güçlü bir satır içi düzenleyiciyle makaleler yayınlayın.",
+      "desc": "Gelişmiş satır içi makale düzenleyici, makalelerinizi yayınlama ve inceleme sürecini hızlandırır ve tutarlılığı korurken aynı zamanda kolaylaştırır."
+    },
+    "item_36": {
+      "title": "Her ürün için özel gösterge paneli.",
+      "desc": "Her ürünün, istatistikler, gerekli tüm bilgiler ve yönetim için gerekli tüm eylemlere erişim sağlayan özel bir panosu vardır."
+    },
+    "item_37": {
+      "title": "Makaleleri otomatik çevir.",
+      "desc": "Ürün açıklamalarını tek bir tıklamayla farklı dillere zahmetsizce çevirmek için yerleşik kurumsal düzeydeki yapay zeka çeviri özelliğini kullanın."
+    },
+    "item_38": {
+      "title": "Dahili analiz araçları.",
+      "desc": "Çerez kullanılmadan, tamamen sunucu taraflı, güvenli ve GDPR ile uyumlu yerleşik analiz araçlarına erişebileceksiniz."
+    },
+    "item_39": {
+      "title": "Gelişmiş SEO ihtiyaçlarınızın çoğunu karşılar.",
+      "desc": "Dahili aracımız size en aktif anahtar kelimeleri, en iyi performans gösteren URL'leri ve işletmenizin Google aramasındaki performansına ilişkin genel bir bakışı tablolar ve grafikler şeklinde sunar."
+    }
   }
 };

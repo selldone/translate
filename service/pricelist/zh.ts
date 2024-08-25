@@ -382,5 +382,19 @@ export default {
   "marketplace": "市场建设者",
   "connect_os": {
     "subtitle": "一键连接到代发货供应商。您可以免费连接到 POD，如 Prinful 或 Import Wocomerce 商店。"
+  },
+  "ai": {
+    "title": "AI",
+    "sub_title": "副驾驶和人工智能助手功能。",
+    "bg_remove": "AI去除背景",
+    "bg_remove_info": "自动从图像中删除背景。",
+    "content_creation": "AI 内容创作",
+    "content_creation_info": "自动为产品创建内容。",
+    "add_product": "AI产品协助",
+    "add_product_info": "通过图像和语音自动添加产品。",
+    "magic_ai_buttons": "神奇的 AI 按钮",
+    "magic_ai_buttons_info": "只需单击一下即可自动删除背景、批量翻译、生成内容等。",
+    "translate": "人工智能翻译",
+    "translate_info": "将内容翻译成任何语言。"
   }
 };
