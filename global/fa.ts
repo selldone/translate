@@ -793,6 +793,8 @@ export default {
     week: "هفته",
     agencies: "آژانس ها",
     not_available: "نا موجود",
+    accounting: "حسابداری",
+    gateways: "درگاه ها",
   },
 
   difficulties: {

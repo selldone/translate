@@ -40,16 +40,19 @@ export default {
   storefront: "Storefront",
   back_office: "Back Office",
 
+  today_sales: "Today Sales",
+  today_orders: "Today Orders",
+
   s1: {
     /* title: "Make Your Online Store By<br>No—Code & No—Expert Needed Solution",
-                     title_animated_words: [
-                       "Entrepreneurs",
-                       "Artists",
-                       "Independent Businesses",
-                       "Brands",
-                       "Retails",
-                       "Creators",
-                     ],*/
+                             title_animated_words: [
+                               "Entrepreneurs",
+                               "Artists",
+                               "Independent Businesses",
+                               "Brands",
+                               "Retails",
+                               "Creators",
+                             ],*/
 
     subtitle:
       "For <b>business owners</b> and <b>merchants</b> looking for a unique, fast, secure, and reliable experience for their customers, this tool helps you build a fast ecommerce store, seamless in-store management and self-owned unique community around it on the <b>white-label enterprise-grade</b> business operating system.",
@@ -296,9 +299,9 @@ export default {
     msg: "Congratulation, you have had most things done before. Create your online store just by one tap! Selldone takes care of the rest.",
   },
   /* demo: {
-            title: "View Demo",
-            msg: "See professional live e-commerces",
-          },*/
+                title: "View Demo",
+                msg: "See professional live e-commerces",
+              },*/
 
   unbanked: {
     title: "Onetime action, Lifetime benefit — Objective.",
@@ -423,7 +426,6 @@ export default {
   hero: {
     intro: "#1 Operating System for Businesses",
     title: "Replace {infinite} Plugins & Apps with One {app}",
-
   },
 
   /**
@@ -440,7 +442,6 @@ export default {
     airbnb: "Airbnb",
     simple_store: "Simple Store",
     tiktok: "Tiktok Store",
-
   },
   /**
    * {@see SectionShowItsSimplicity}
@@ -475,8 +476,6 @@ export default {
       subtitle: "Manage everything from one place without need of any plugin.",
       see_action: "See Demo Backoffice",
     },
-
-
   },
 
   /**
@@ -646,5 +645,77 @@ export default {
       title: "Cover most of your advanced SEO needs.",
       desc: "Our internal tool provides you with the most active keywords, top performing URLs, and an overview of your business's performance on Google search, all presented in the form of tables and graphs.",
     },
+  },
+
+  country_landing: {
+    intro: "#1 Operating System for Businesses in",
+    title: "Replace {infinite} Plugins & Apps with {app} in {country}",
+  },
+
+  /**
+   * @see IntegrationPaymentPage
+   */
+  payment_landing: {
+    intro: "#1 Operating System for Businesses",
+    title: "Replace {infinite} Plugins & Apps with {app}",
+
+    unlock_section: {
+      title: "Unlock {payment} & Start Making Money In Your Website",
+      subtitle:
+        "Launch your online store today! Effortlessly sell products, services, and subscriptions with speed and simplicity.",
+      no_plugin: {
+        title: "Effortless Payments, No Plugins Required",
+        subtitle:
+          "Step into the future of e-commerce with Selldone seamless, no-plugin payment solutions for {payment}. Say goodbye to complex integrations and enjoy a direct, secure, and hassle-free payment experience.",
+      },
+      experience: {
+        title: "Flawless Shopping, Powered by Selldone + {payment}",
+        subtitle:
+          "Transform your e-commerce experience with Selldone user-friendly platform and {payment} payment integration. Leave behind the clunky interfaces and welcome a streamlined shopping journey that keeps your customers coming back.",
+      },
+      boost: {
+        title: "Supercharge Your Sales with Selldone Integrated Payments",
+        subtitle:
+          "Why let complicated payment systems slow you down? With {payment}'s integrated payment solution, you can focus on what truly matters: selling more. Watch your sales soar as you grow your business with ease.",
+      },
+      security: {
+        title: "Where Security and Efficiency Unite",
+        subtitle:
+          "Choosing Selldone + {payment} means opting for top-tier security and unmatched efficiency. Our dedicated payment system ensures every transaction is safe, swift, and flawlessly smooth.",
+      },
+      setup_payment: "Set Up Payment",
+    },
+
+    how_to_add: {
+      step_1: {
+        step: "Step 1",
+        title: "Add Your Currency",
+        subtitle:
+          "To accept payments in different currencies, you'll need to set up a payment gateway for each one. With {payment}, a single account can handle multiple gateways and currencies in your store, with no limits! Make sure your desired currency is listed under Shop > Accounting > Currencies in your shop's settings.",
+      },
+      step_2: {
+        step: "Step 2",
+        title: "Set Up Your Gateway",
+        subtitle: `Next, navigate to the Shop > Accounting > Gateways tab, click on <b>NEW PAYMENT METHOD</b>, choose your currency, and select <b>{payment}</b>. You can add gateways in either debug or live mode. Ensure you enter the correct API Keys for each mode, which you can find on your <a href="{payment_url}" target="_blank">{payment} account</a>.`,
+      },
+    },
+
+    integration: {
+      title: "Effortless Ecommerce Integration with {payment}",
+      subtitle:
+        "Get started with Selldone and manage your business with ease. No coding or plugins required!",
+    },
+    pay_after_earn: {
+      title: "Pay Only When You Profit!",
+      subtitle:
+        "Launch your business with our FREE lifetime plan! Only pay a 0.5~2.0% fee once you start making money.",
+    },
+
+
+
+
+
+
+
   },
 };

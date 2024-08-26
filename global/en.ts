@@ -794,6 +794,8 @@ export default {
     week: "Week",
     agencies: "Agencies",
     not_available: "Not Available",
+    accounting: "Accounting",
+    gateways: "Gateways",
   },
   difficulties: {
     very_complicated: "Very complicated",
