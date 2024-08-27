@@ -7224,15 +7224,20 @@ export default {
   /** @see InstagramViewMedias **/
   instagram: {
     title: "Sales on Instagram",
-    message:
-      "You can turn your Instagram into a shoppable category. First, verify your Instagram account, then you will be able to attach one or more products to posts or stories. It's an experimental (beta) feature.",
+
     add_product: "Add new product",
     create_product: "Create product",
     link_box_msg:
       "Put this link in your bio on Instagram, Telegram, or other social media so that your audience can find products faster and buy easier.",
     remove_account: "Change / Remove Instagram link",
-    sync: "Sync account data (every 60 minutes)",
   },
+  /** @see BPageShopChannelInstagram **/
+  shop_channel_instagram: {
+    title: "Instagram Sales Channel",
+    subtitle: "Create a dedicated category for your products, complete with images and videos, and share it across your social media. It's similar to Instagram and TikTok, but with full control, allowing you to directly sell your products.",
+  },
+
+
 
   /** @see ServiceBillingItem **/
   service_bill: {
