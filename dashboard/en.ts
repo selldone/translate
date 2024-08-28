@@ -1839,6 +1839,20 @@ export default {
         "The overall product inventory in the marketplace is determined by adding up the inventories of all vendors. You cannot modify it here.",
       default: "Specify the product's inventory count here.",
     },
+    menu:{
+      add_bulk:{
+        title: 'Bulk Add',
+        subtitle: 'Add multiple variants in one action.',
+
+      }
+    }
+  },
+
+  /**
+   * @see USmartMenu
+   */
+    smart_menu: {
+      show_delete_items:'Show deleted items',
   },
 
   /** {@see BProductGoogleCategoryInput} **/
@@ -2331,22 +2345,63 @@ export default {
       },
       /** {@see BProductVariantAdd} **/
       variant_add_edit: {
-        title: "Defining Product Variant",
         message: "Unique Product Variant Code",
         active_input: "Is this Variant active?",
         sku: "SKU",
         sku_tips: "Product Warehouse Code.",
         mpn: "MPN",
         mpn_tips: "Product code inserted by manufacturer on product packaging",
-        variant_variable: "Variant variables",
-        pricing: "Pricing",
+
         has_pricing_input: "Is the price different from the main product?",
-        inventory: "Inventory",
         inventory_unit: "Items",
-        delivery_info: "Packaging & Shipping",
-        images: "Variant's images",
         images_message:
           "After saving this variant you will be able to add more images here.",
+
+        config: {
+          title: "Product Variant Setup",
+          subtitle: "Manage SKU, MPN, and availability for variants."
+        },
+        variables: {
+          title: "Variant Options",
+          subtitle: "Enter a hex color code, e.g., <b>#654FFF</b>, or two colors separated by a slash, e.g., <b>#764FFA/#000000</b>.",
+          graphical_asset_tips: "You can assign any value to the variables, including images using <b>Graphic Assets</b>. Upload a pattern and use the generated code for the variant.",
+          graphical_asset_action: "Graphic Assets",
+          graphical_asset_action_caption: "Images for variant options."
+        },
+        smart_unit_price: {
+          tips: "Calculate unit price based on <b>weight</b>, <b>volume</b>, and <b>pack size</b>.",
+          smart_unit_price: "Unit Price Calculation"
+        },
+        quantity: {
+          title: 'Inventory',
+          subtitle: "Set stock levels for each variant."
+        },
+        price: {
+          title: 'Pricing',
+          subtitle: "Set a custom price for the variant or use the default product price."
+        },
+        package: {
+          title: 'Packaging & Shipping',
+          subtitle: "Specify weight and dimensions for variants to determine shipping options.",
+          same_as_product_action:"Same as product"
+        },
+        image: {
+          title: "Variant Images",
+          subtitle: "Add unique images for each variant. The first image uploaded will be the primary image for that variant."
+        },
+        inputs: {
+          sku: {
+            message: 'Stock Keeping Unit (SKU)'
+          },
+          mpn: {
+            message: "Manufacturer Part Number (MPN)"
+          },
+          gtin: {
+            label: "Global Trade Item Number (GTIN)",
+            message: "Supported formats: UPC (12 digits), EAN (13 digits), JAN (8 or 13 digits), ISBN (13 digits)."
+          }
+        }
+
       },
     },
 
@@ -2377,7 +2432,6 @@ export default {
     size_subtitle:
       "Input the product's full packaging size here. This information is used to choose the correct shipping method and ensure the order doesn't exceed the parcel size limit.",
 
-    dimension: "Cm",
     width: "Width",
     length: "Length",
     height: "Height",
@@ -2394,7 +2448,88 @@ export default {
     bulk_action_input: "Update all variants",
     bulk_action_msg:
       "Set product packaging and preparation time for all variants.",
+    dynamic_lead_time: "Dynamic lead time",
+    instant_delivery:"Instant Delivery",
+
   },
+
+  /**
+   * @see SGalleryUploadGrid
+   */
+    gallery_upload_grid: {
+      upload_images: "Upload Images",
+  },
+
+  /**
+   * @see BProductImagesGallery
+   */
+  product_images_gallery: {
+    dialog_alt: {
+      title: "Set Image Alt Text",
+      placeholder: "Enter a descriptive alt text...",
+      success_update_notification: "Alt text updated successfully."
+    },
+    dialog_bg_remove: {
+      title: "Remove Background Automatically",
+      action: {
+        title: "Remove Background",
+        subtitle: "Create a transparent background."
+      },
+      success_remove_bg_notification: "Background removed successfully!"
+    },
+  },
+  /**
+   * @see VariantGraphicalAssetsList
+   */
+  variant_graphical_assets: {
+    title:"Variant Graphical Assets",
+    tips: {
+      how_it_works: "<b>How It Works:</b><br />Upload pattern or item images here. To use these images as a variant option, include <b>{filename}</b> in the variant value. Note that this code cannot be used in the <b><s>color</s></b> value.",
+      how_set_name: "<b>Naming Tips:</b><br />The first 12 characters of the uploaded file name will be used as the asset name. This feature is ideal for showcasing customizable aspects of a product, such as tire sizes for motorcycles or fabric patterns. To optimize the use of this feature, avoid uploading variant images here unless the number of graphical assets is fewer than 100, such as different wood types for furniture."
+    }
+  },
+
+  /**
+   * @see ExtraPricingLevels
+   */
+    extra_pricing_levels: {
+      extra_pricings:'extra pricings',
+    min_quantity:'Min quantity',
+    range_is_out_of_stock:'Range is out of stock!',
+  },
+
+
+  /**
+   * @see BProductVariantItem
+   */
+  product_variant_item: {
+    duplicated_variant: "This variant already exists!",
+    set_color_warning: "Please select a color.",
+    set_volume_warning: "Please specify the volume.",
+    set_pack_warning: "Please specify the pack size.",
+    set_weight_warning: "Please specify the weight.",
+    set_type_warning: "Please select a type.",
+    set_style_warning: "Please select a style.",
+    out_of_stock: "Currently out of stock",
+
+    image: {
+      tooltip: "⚡ Drag and drop an image here to assign it to the variant."
+    },
+    enable: {
+      true_tooltip: "This item is available in the online store.",
+      false_tooltip: "This item is not available in the online store."
+    },
+    restore_dialog: {
+      title: "Restore Variant",
+      message: "Are you sure you want to restore this deleted variant?",
+      action: "Yes, Restore Now"
+    },
+    notifications: {
+      restore_variant_success: "The product variant was successfully restored."
+    }
+  },
+
+
 
   /** {@see BProductImagesGallery} **/
   product_images_list: {
@@ -3053,13 +3188,22 @@ export default {
         subtitle:
           "If you want to cancel your order immediately, you can use this option.",
       },
+
+      express_input: {
+        true_title: "Express | Cancel Order Immediately",
+        false_title: "Standard | Cancel Order After 48 Hours",
+        true_description: "This option will cancel your order immediately and update the inventory right away.",
+        false_description: "This option will cancel your order after 48 hours. Until then, items will be reserved and cannot be purchased by others."
+      },
     },
 
     notifications: {
-      update_status_success: "Order status updated.",
-      reject_update_success: "Order cancellation status updated.",
-      dismiss_reject_success: "Order returned to the normal process.",
-      set_tracking_success: "Order Track ID saved successfully.",
+      update_status_success: "Order status has been updated successfully.",
+      reject_update_success: "Order cancellation status has been updated successfully.",
+      dismiss_reject_success: "Order has been returned to the normal processing workflow.",
+      set_tracking_success: "Order tracking ID has been saved successfully.",
+      shipping_address_update_success: "Shipping address has been updated successfully.",
+      vendor_order_status_update_success: "Vendor fulfillment status has been updated successfully.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -8533,7 +8677,7 @@ export default {
             "The discount percentage will be applied to the product price after taking into account all existing discounts.",
         },
         mismatch_type_warning:
-          "Discounts cannot be applied to other types besides the main product types, as the source and target items will not be placed in separate baskets.",
+          "Discounts cannot be applied to other types besides the main product types, as the source and target items will not be placed in a same basket.",
         not_support_subscription_type_warning:
           "Setting discounts for cross-selling subscription products is not possible, as the pricing plans cannot be adjusted dynamically.",
         message_input: {
@@ -8550,6 +8694,29 @@ export default {
       },
     },
   },
+  /**
+   * @see BProductVariantsBulkAdd
+   */
+  product_variants_bulk_add: {
+    title: 'Add Variants in Bulk',
+    variants: {
+      title: 'Variant Options',
+      subtitle: "Select up to two variant options. After selection, you can choose which specific variants to create automatically."
+    },
+    values: {
+      title: 'Variant Values',
+      subtitle: 'Enter the possible values for each variant option here.',
+      prevent_duplicates_tips: "<b>Note:</b> We automatically check for existing variants to prevent duplicates."
+    },
+    inventory: {
+      title: 'Initial Inventory',
+      subtitle: "Set the starting inventory count for the new variants."
+    },
+    add_variants_action: 'Create Variants',
+  },
+
+
+
   /**
    * @see CrossSellActionType
    */
