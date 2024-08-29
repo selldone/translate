@@ -640,10 +640,7 @@ export default {
     title: "جایگزین کردن {infinite} افزونه و اپلیکیشن با {app} در {country}",
   },
 
-  payment_landing: {
-    intro: "#۱ سیستم عامل برای کسب‌وکارها",
-    title: "جایگزین کردن {infinite} افزونه و اپلیکیشن با {app}",
-  },
+
 
   /**
    * @see IntegrationPaymentPage

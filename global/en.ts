@@ -421,7 +421,6 @@ export default {
     rates: "Rating",
     seen_at: "Seen at",
     completed: "Completed",
-    you: "You",
     shop: "Shop",
     store: "Store",
     granted: "Granted",
@@ -796,6 +795,9 @@ export default {
     not_available: "Not Available",
     accounting: "Accounting",
     gateways: "Gateways",
+    repository: "Repository",
+    clone:  "Clone",
+    hotkey:'Hotkey',
   },
   difficulties: {
     very_complicated: "Very complicated",
@@ -1099,6 +1101,7 @@ export default {
     select_category: "Select a category...",
     select_a_country:"Select a country...",
     filter_country:'Filter by country...',
+    search:"Search...",
 
   },
 

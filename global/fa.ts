@@ -760,7 +760,6 @@ export default {
     refund: "برگشت پول",
     items:"آیتم ها",
     incentives: "مشوق ها",
-    you:"شما",
     recurring_payment: "پرداخت دوره ای",
     pricing: "قیمت گذاری",
     purchase:"خرید",
@@ -795,6 +794,9 @@ export default {
     not_available: "نا موجود",
     accounting: "حسابداری",
     gateways: "درگاه ها",
+    repository: "مخزن",
+    clone:  "کلون",
+    hotkey:'کلید میانبر',
   },
 
   difficulties: {
@@ -1091,6 +1093,7 @@ export default {
     select_category: "یک دسته‌بندی انتخاب کنید...",
     select_a_country:"یک کشور انتخاب کنید...",
     filter_country:'فیلتر بر اساس کشور...',
+    search:"جستجو...",
 
   },
 

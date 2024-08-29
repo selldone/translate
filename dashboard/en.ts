@@ -12,7 +12,6 @@
  * Tread carefully, for you're treading on dreams.
  */
 
-
 export default {
   commons: {
     pay_today: "Today payment",
@@ -24,6 +23,7 @@ export default {
     more_apps: "More apps",
     my_public_profile: "My public profile page",
     product_admin: "Product Admin",
+    make_money_affiliate: "Make Money",
   },
 
   numbers: {
@@ -1839,20 +1839,19 @@ export default {
         "The overall product inventory in the marketplace is determined by adding up the inventories of all vendors. You cannot modify it here.",
       default: "Specify the product's inventory count here.",
     },
-    menu:{
-      add_bulk:{
-        title: 'Bulk Add',
-        subtitle: 'Add multiple variants in one action.',
-
-      }
-    }
+    menu: {
+      add_bulk: {
+        title: "Bulk Add",
+        subtitle: "Add multiple variants in one action.",
+      },
+    },
   },
 
   /**
    * @see USmartMenu
    */
-    smart_menu: {
-      show_delete_items:'Show deleted items',
+  smart_menu: {
+    show_delete_items: "Show deleted items",
   },
 
   /** {@see BProductGoogleCategoryInput} **/
@@ -2359,49 +2358,54 @@ export default {
 
         config: {
           title: "Product Variant Setup",
-          subtitle: "Manage SKU, MPN, and availability for variants."
+          subtitle: "Manage SKU, MPN, and availability for variants.",
         },
         variables: {
           title: "Variant Options",
-          subtitle: "Enter a hex color code, e.g., <b>#654FFF</b>, or two colors separated by a slash, e.g., <b>#764FFA/#000000</b>.",
-          graphical_asset_tips: "You can assign any value to the variables, including images using <b>Graphic Assets</b>. Upload a pattern and use the generated code for the variant.",
+          subtitle:
+            "Enter a hex color code, e.g., <b>#654FFF</b>, or two colors separated by a slash, e.g., <b>#764FFA/#000000</b>.",
+          graphical_asset_tips:
+            "You can assign any value to the variables, including images using <b>Graphic Assets</b>. Upload a pattern and use the generated code for the variant.",
           graphical_asset_action: "Graphic Assets",
-          graphical_asset_action_caption: "Images for variant options."
+          graphical_asset_action_caption: "Images for variant options.",
         },
         smart_unit_price: {
           tips: "Calculate unit price based on <b>weight</b>, <b>volume</b>, and <b>pack size</b>.",
-          smart_unit_price: "Unit Price Calculation"
+          smart_unit_price: "Unit Price Calculation",
         },
         quantity: {
-          title: 'Inventory',
-          subtitle: "Set stock levels for each variant."
+          title: "Inventory",
+          subtitle: "Set stock levels for each variant.",
         },
         price: {
-          title: 'Pricing',
-          subtitle: "Set a custom price for the variant or use the default product price."
+          title: "Pricing",
+          subtitle:
+            "Set a custom price for the variant or use the default product price.",
         },
         package: {
-          title: 'Packaging & Shipping',
-          subtitle: "Specify weight and dimensions for variants to determine shipping options.",
-          same_as_product_action:"Same as product"
+          title: "Packaging & Shipping",
+          subtitle:
+            "Specify weight and dimensions for variants to determine shipping options.",
+          same_as_product_action: "Same as product",
         },
         image: {
           title: "Variant Images",
-          subtitle: "Add unique images for each variant. The first image uploaded will be the primary image for that variant."
+          subtitle:
+            "Add unique images for each variant. The first image uploaded will be the primary image for that variant.",
         },
         inputs: {
           sku: {
-            message: 'Stock Keeping Unit (SKU)'
+            message: "Stock Keeping Unit (SKU)",
           },
           mpn: {
-            message: "Manufacturer Part Number (MPN)"
+            message: "Manufacturer Part Number (MPN)",
           },
           gtin: {
             label: "Global Trade Item Number (GTIN)",
-            message: "Supported formats: UPC (12 digits), EAN (13 digits), JAN (8 or 13 digits), ISBN (13 digits)."
-          }
-        }
-
+            message:
+              "Supported formats: UPC (12 digits), EAN (13 digits), JAN (8 or 13 digits), ISBN (13 digits).",
+          },
+        },
       },
     },
 
@@ -2449,15 +2453,14 @@ export default {
     bulk_action_msg:
       "Set product packaging and preparation time for all variants.",
     dynamic_lead_time: "Dynamic lead time",
-    instant_delivery:"Instant Delivery",
-
+    instant_delivery: "Instant Delivery",
   },
 
   /**
    * @see SGalleryUploadGrid
    */
-    gallery_upload_grid: {
-      upload_images: "Upload Images",
+  gallery_upload_grid: {
+    upload_images: "Upload Images",
   },
 
   /**
@@ -2467,37 +2470,38 @@ export default {
     dialog_alt: {
       title: "Set Image Alt Text",
       placeholder: "Enter a descriptive alt text...",
-      success_update_notification: "Alt text updated successfully."
+      success_update_notification: "Alt text updated successfully.",
     },
     dialog_bg_remove: {
       title: "Remove Background Automatically",
       action: {
         title: "Remove Background",
-        subtitle: "Create a transparent background."
+        subtitle: "Create a transparent background.",
       },
-      success_remove_bg_notification: "Background removed successfully!"
+      success_remove_bg_notification: "Background removed successfully!",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title:"Variant Graphical Assets",
+    title: "Variant Graphical Assets",
     tips: {
-      how_it_works: "<b>How It Works:</b><br />Upload pattern or item images here. To use these images as a variant option, include <b>{filename}</b> in the variant value. Note that this code cannot be used in the <b><s>color</s></b> value.",
-      how_set_name: "<b>Naming Tips:</b><br />The first 12 characters of the uploaded file name will be used as the asset name. This feature is ideal for showcasing customizable aspects of a product, such as tire sizes for motorcycles or fabric patterns. To optimize the use of this feature, avoid uploading variant images here unless the number of graphical assets is fewer than 100, such as different wood types for furniture."
-    }
+      how_it_works:
+        "<b>How It Works:</b><br />Upload pattern or item images here. To use these images as a variant option, include <b>{filename}</b> in the variant value. Note that this code cannot be used in the <b><s>color</s></b> value.",
+      how_set_name:
+        "<b>Naming Tips:</b><br />The first 12 characters of the uploaded file name will be used as the asset name. This feature is ideal for showcasing customizable aspects of a product, such as tire sizes for motorcycles or fabric patterns. To optimize the use of this feature, avoid uploading variant images here unless the number of graphical assets is fewer than 100, such as different wood types for furniture.",
+    },
   },
 
   /**
    * @see ExtraPricingLevels
    */
-    extra_pricing_levels: {
-      extra_pricings:'extra pricings',
-    min_quantity:'Min quantity',
-    range_is_out_of_stock:'Range is out of stock!',
+  extra_pricing_levels: {
+    extra_pricings: "extra pricings",
+    min_quantity: "Min quantity",
+    range_is_out_of_stock: "Range is out of stock!",
   },
-
 
   /**
    * @see BProductVariantItem
@@ -2513,23 +2517,21 @@ export default {
     out_of_stock: "Currently out of stock",
 
     image: {
-      tooltip: "⚡ Drag and drop an image here to assign it to the variant."
+      tooltip: "⚡ Drag and drop an image here to assign it to the variant.",
     },
     enable: {
       true_tooltip: "This item is available in the online store.",
-      false_tooltip: "This item is not available in the online store."
+      false_tooltip: "This item is not available in the online store.",
     },
     restore_dialog: {
       title: "Restore Variant",
       message: "Are you sure you want to restore this deleted variant?",
-      action: "Yes, Restore Now"
+      action: "Yes, Restore Now",
     },
     notifications: {
-      restore_variant_success: "The product variant was successfully restored."
-    }
+      restore_variant_success: "The product variant was successfully restored.",
+    },
   },
-
-
 
   /** {@see BProductImagesGallery} **/
   product_images_list: {
@@ -3192,18 +3194,24 @@ export default {
       express_input: {
         true_title: "Express | Cancel Order Immediately",
         false_title: "Standard | Cancel Order After 48 Hours",
-        true_description: "This option will cancel your order immediately and update the inventory right away.",
-        false_description: "This option will cancel your order after 48 hours. Until then, items will be reserved and cannot be purchased by others."
+        true_description:
+          "This option will cancel your order immediately and update the inventory right away.",
+        false_description:
+          "This option will cancel your order after 48 hours. Until then, items will be reserved and cannot be purchased by others.",
       },
     },
 
     notifications: {
       update_status_success: "Order status has been updated successfully.",
-      reject_update_success: "Order cancellation status has been updated successfully.",
-      dismiss_reject_success: "Order has been returned to the normal processing workflow.",
+      reject_update_success:
+        "Order cancellation status has been updated successfully.",
+      dismiss_reject_success:
+        "Order has been returned to the normal processing workflow.",
       set_tracking_success: "Order tracking ID has been saved successfully.",
-      shipping_address_update_success: "Shipping address has been updated successfully.",
-      vendor_order_status_update_success: "Vendor fulfillment status has been updated successfully.",
+      shipping_address_update_success:
+        "Shipping address has been updated successfully.",
+      vendor_order_status_update_success:
+        "Vendor fulfillment status has been updated successfully.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -7378,10 +7386,9 @@ export default {
   /** @see BPageShopChannelInstagram **/
   shop_channel_instagram: {
     title: "Instagram Sales Channel",
-    subtitle: "Create a dedicated category for your products, complete with images and videos, and share it across your social media. It's similar to Instagram and TikTok, but with full control, allowing you to directly sell your products.",
+    subtitle:
+      "Create a dedicated category for your products, complete with images and videos, and share it across your social media. It's similar to Instagram and TikTok, but with full control, allowing you to directly sell your products.",
   },
-
-
 
   /** @see ServiceBillingItem **/
   service_bill: {
@@ -8698,24 +8705,24 @@ export default {
    * @see BProductVariantsBulkAdd
    */
   product_variants_bulk_add: {
-    title: 'Add Variants in Bulk',
+    title: "Add Variants in Bulk",
     variants: {
-      title: 'Variant Options',
-      subtitle: "Select up to two variant options. After selection, you can choose which specific variants to create automatically."
+      title: "Variant Options",
+      subtitle:
+        "Select up to two variant options. After selection, you can choose which specific variants to create automatically.",
     },
     values: {
-      title: 'Variant Values',
-      subtitle: 'Enter the possible values for each variant option here.',
-      prevent_duplicates_tips: "<b>Note:</b> We automatically check for existing variants to prevent duplicates."
+      title: "Variant Values",
+      subtitle: "Enter the possible values for each variant option here.",
+      prevent_duplicates_tips:
+        "<b>Note:</b> We automatically check for existing variants to prevent duplicates.",
     },
     inventory: {
-      title: 'Initial Inventory',
-      subtitle: "Set the starting inventory count for the new variants."
+      title: "Initial Inventory",
+      subtitle: "Set the starting inventory count for the new variants.",
     },
-    add_variants_action: 'Create Variants',
+    add_variants_action: "Create Variants",
   },
-
-
 
   /**
    * @see CrossSellActionType
@@ -9284,6 +9291,112 @@ export default {
       ],
     },
   },
+
+  /**
+   * @see LMenuLeftAssets
+   */
+  l_menu_left_assets: {
+    no_asset_uploaded: "No asset uploaded yet.",
+  },
+
+  /**
+   * @see LMenuTopHome
+   */
+  l_menu_top_home: {
+    hot_keys: "Hotkeys",
+    click_to_view_all: "Click to view all...",
+    clone_tooltip: {
+      title: "Duplicate Style",
+      subtitle:
+        "Use this tool to replicate styles such as fonts, backgrounds, margins, and borders. Follow these steps to duplicate styles:",
+      step_1:
+        "Activate the tool and hover your mouse over text, columns, or images; the cursor will change to a pipette.",
+      step_2: "Click on the element whose style you want to copy.",
+      step_3:
+        "The cursor will change back to a palette; click on the element where you want to apply the copied style.",
+    },
+    show_side_menu_tooltip: {
+      subtitle:
+        "Toggle the visibility of the side menu, which includes all section categories for building your page.",
+    },
+    sort_tooltip: {
+      subtitle:
+        "Enable this feature to easily rearrange and organize sections by dragging them.",
+    },
+    edit_mode_tooltip: {
+      title: "Edit / Preview Mode",
+      edit_mode_title: "Edit Mode",
+      edit_mode_msg: "All editing tools will be displayed.",
+      view_mode_title: "Preview Mode",
+      view_mode_msg:
+        "View your page as users would see it by hiding extra editing tools and empty text areas.",
+    },
+    repository_tooltip: {
+      title: "Prebuilt Sections",
+      subtitle:
+        "Toggle the display of pre-designed sections. These sections are created using the standard sections available in the left menu, showcasing the flexibility of this page builder.",
+    },
+    live_view: {
+      title: "Live Preview",
+      subtitle: "See updates in real-time as you edit your page.",
+    },
+    hotkeys_dialog: {
+      title: "Keyboard Shortcuts",
+      augment_tips:
+        "You can load dynamic content onto your page and replace it with <b>augment</b> values. Augment is used for custom dynamic pages such as <b>Products</b>, <b>Categories</b>, and <b>Include Items</b>. To set an image to load dynamically, click on <b>Feeder</b> and select <b>Dynamic Source</b> for that image.",
+    },
+    hotkeys: {
+      ctrl_b: "Toggle bold on/off for selected text | <b>Make me bold</b>",
+      ctrl_i: "Toggle italics on/off for selected text | <i>Make me italic</i>",
+      ctrl_l:
+        "Toggle strikethrough on/off for selected text | <s>Strike through me</s>",
+      ctrl_u: "Toggle underline on/off for selected text | <u>Underline me</u>",
+      ctrl_1:
+        "Decrease font size of selected text | <small>Make me small</small>",
+      ctrl_2: "Increase font size of selected text | <big>Make me big</big>",
+      ctrl_r: "Remove all formatting from selected text | Clean all styles",
+      ctrl_s: "Save the page",
+      tab: "Switch between scale modes",
+      ctrl_e: "Activate or deactivate clone style mode",
+    },
+  },
+
+  /**
+   * @see LPageEditorRepository
+   */
+  l_page_editor_repository: {
+    title: "Drag & Drop",
+    subtitle: "Pre-Built Sections",
+    add_dialog: {
+      title: "Add Custom Section",
+      configuration: {
+        title: "Settings",
+        subtitle: "You can save custom-designed sections for future use in your page designs. These saved sections will be accessible to all administrators in this store.",
+      },
+      image: {
+        title: "Image",
+        subtitle: "Public image displayed in the list.",
+      },
+      code: {
+        title: "Code",
+        subtitle: "You can copy and paste the element code from the left side sections in the page builder.",
+      },
+      inputs: {
+        title: {
+          label: "Title",
+          message: "This is the public title.",
+        },
+        tags: {
+          label: "Tags",
+          message: "Used for searching and categorizing elements.",
+        },
+        section: {
+          message: "Copy the section from the page builder.",
+        },
+      },
+    },
+  },
+
 
   /**
    * Auto fill suggestions
