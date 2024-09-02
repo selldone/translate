@@ -5425,6 +5425,45 @@ export default {
   },
 
 
+  /**
+   * @see BValuationInput
+   */
+    valuation_input: {
+    label:"Pricing & Valuation Model"
+  },
+
+  /**
+   * @see BValuationAdd
+   */
+  valuation_add: {
+    title_edit: "Edit Valuation Form",
+    title_add: "Create New Valuation Form",
+    config: {
+      subtitle: "Set up a valuation system to create flexible pricing using formulas and reference tables for your products. Start by giving this valuation a unique name.",
+    },
+    valuation_preview: "Preview Valuation Form",
+    load_sample: "Load Sample",
+    conditions: {
+      title: "Conditions",
+      subtitle: "Define the logic for custom variants. This configuration simplifies the management of variant availability.",
+    },
+    structure: {
+      title: "Structure",
+      subtitle: "Design your pricing input form here by integrating formulas and reference tables.",
+      expand_action: "Expand",
+      collapse_action: "Collapse",
+    },
+    inputs: {
+      title: {
+        message: "This title is not visible to customers.",
+        placeholder: "Enter a name for pricing, e.g., 'Mugs Pricing'",
+      },
+    },
+    samples: {
+      title: "Sample Valuations",
+    },
+  },
+
 
 
   /** @see AdminGiftcardPage_Orders **/
