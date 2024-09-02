@@ -797,6 +797,8 @@ export default {
     repository: "مخزن",
     clone:  "کلون",
     hotkey:'کلید میانبر',
+    bank_info: "اطلاعات بانکی",
+
   },
 
   difficulties: {

@@ -798,6 +798,8 @@ export default {
     repository: "Repository",
     clone:  "Clone",
     hotkey:'Hotkey',
+    bank_info: "Bank Information",
+
   },
   difficulties: {
     very_complicated: "Very complicated",

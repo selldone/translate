@@ -5310,35 +5310,122 @@ export default {
     total_payment: "Total payments",
     new_affiliate: "New affiliate partner",
     new_affiliate_message: "Add new affiliate partner",
-    link_domain: {
-      title: "Linked domain",
-      subtitle:
-        "You can connect one of your domains to this affiliate partner. This partner will be known as the representative of every person who visits your store and buys through this domain.",
-    },
 
-    dialog: {
-      new: "New affiliate partner",
-      edit: "Edit affiliate partner",
-      user: "User (Optional)",
-      bank_info: "Bank info",
-      restriction: "Restriction",
-      select_products: "Select products",
-      select_products_message:
-        "Affiliate partner gets commission for these products",
-      edit_action: "Update affiliate",
-      add_action: "Add affiliate partner",
-      affiliate_name: "Affiliate partner name",
-      payment_info: "Payment info",
-      enable_switch:
-        "Is this affiliate currently active or inactive? If the affiliate is inactive, the affiliate program will not be applied to orders made through their affiliate link.",
-      affiliate_info: "Affiliate partner info",
-    },
+
     link_factory: {
       title: "Affiliate partner link generator",
       link_input: "Your link",
       link_output: "Generated link",
     },
   },
+
+  /**
+   * @see BAffiliateEdit
+   */
+  affiliate_edit: {
+    affiliate_commission: "Affiliate Commission",
+
+    config: {
+      new: "New Affiliate Partner",
+      edit: "Edit Affiliate Partner",
+      subtitle: "Configure the general settings and name of the affiliate here.",
+    },
+
+    payment: {
+      title: "Payment Information",
+      subtitle: "Set the commission structure for the affiliate. You can combine fixed and percentage-based commissions, or set specific commissions for each product.",
+    },
+
+    contact: {
+      title: "Contact Information",
+      subtitle: "Provide the contact details of the affiliate partner here.",
+    },
+
+    restriction: {
+      title: "Commission Restrictions",
+      subtitle: "Define which products are eligible for commission. You can restrict commissions to certain products.",
+    },
+
+    link_domain: {
+      title: "Linked Domain",
+      subtitle: "Link one of your domains to this affiliate partner. Visitors who buy through this domain will be attributed to this affiliate.",
+
+      domain_not_approved_msg: "The domain has not been approved yet!",
+      domain_is_not_enable_msg: "The domain is not enabled!",
+      domain_is_linked_to_other_affiliate_msg: "This domain is already linked to another affiliate!",
+    },
+
+    set_users_first_message: "Please set the user first!",
+
+    cluster: {
+      title: "Cluster",
+      subtitle: "Associate this affiliate with a cluster to manage it alongside other resources in one place.",
+      manage_action: "Manage",
+    },
+
+    notifications: {
+      create_success: "New affiliate added successfully.",
+      update_success: "Affiliate updated successfully.",
+    },
+
+    inputs: {
+      name: {
+        label: 'Affiliate Partner Name',
+        message: "e.g., John Doe, Alex Company, X Marketers, etc.",
+      },
+      commission: {
+        label: "Commission Calculation",
+        false_description: "Calculate using a combination of fixed and percentage commissions.",
+        true_description: "Calculate using product-specific commissions set in the pricing tab.",
+        false_title: "Fixed + Percentage Commission",
+        true_title: "Product-Based Commission",
+      },
+      user: {
+        label: "User (Optional)",
+        message: "Optional, e.g., affiliate name in Selldone",
+      },
+      web: {
+        placeholder: "Optional, e.g., affiliate-web.com",
+      },
+      address: {
+        placeholder: "Optional, e.g., 1200 POX, NY, USA",
+      },
+      tel: {
+        placeholder: 'Optional, e.g., 001-808-210354',
+      },
+      bank: {
+        placeholder: "Optional, e.g., Arstra Bank, No: 10002-325-800-845213",
+      },
+      domain: {
+        placeholder: "Select a domain... (Optional)",
+      },
+      pos: {
+        true_description: "Affiliates can place orders directly for their customers through their panel.",
+        true_title: "POS Access",
+      },
+      enable: {
+        true_description: "Is this affiliate currently active? If inactive, their affiliate program won't apply to orders made through their link.",
+      },
+      products: {
+        label: "Products Eligible for Commission",
+        select_product: "Select Products",
+      },
+    },
+    actions: {
+      update: "Update Affiliate",
+      add: "Add Affiliate Partner",
+    },
+    /**
+     * @see BPageAffiliateEdit
+     */
+    delete: {
+      subtitle: "You can settle any outstanding debts with the affiliate before removing them from your shop. Affiliate information will remain accessible for a limited time after deletion.",
+    }
+
+  },
+
+
+
 
   /** @see AdminGiftcardPage_Orders **/
   gift_card_orders: {
