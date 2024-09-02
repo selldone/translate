@@ -798,7 +798,8 @@ export default {
     clone:  "کلون",
     hotkey:'کلید میانبر',
     bank_info: "اطلاعات بانکی",
-
+    structure: "ساختار",
+    conditions: "شرایط",
   },
 
   difficulties: {

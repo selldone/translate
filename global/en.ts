@@ -799,7 +799,8 @@ export default {
     clone:  "Clone",
     hotkey:'Hotkey',
     bank_info: "Bank Information",
-
+    structure: "Structure",
+    conditions: "Conditions",
   },
   difficulties: {
     very_complicated: "Very complicated",

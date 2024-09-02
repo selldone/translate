@@ -5424,6 +5424,24 @@ export default {
 
   },
 
+  /**
+   * @see BPageShopFinanceValuations
+   */
+  shop_valuations: {
+    title: 'Custom Pricing and Valuations',
+    subtitle: "Assign a valuation (a pricing input form) to a product, allowing customers to select variants or personalize your merchandise. The system will then calculate the price based on the custom inputs.",
+    add_valuation_action: 'Create New Valuation Form',
+    empty_message: 'Instead of creating multiple variants, consider developing a valuation strategy that can be applied to a simple product.',
+    delete_dialog: {
+      title: "Permanently Remove",
+      message: "Are you sure you want to delete this pricing form? Please ensure that this custom pricing strategy is removed from all associated products first.",
+      action: "Yes, Delete Now",
+    },
+    notifications: {
+      delete_success: "Valuation has been successfully deleted.",
+    },
+  },
+
 
   /**
    * @see BValuationInput
