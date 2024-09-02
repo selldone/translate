@@ -12,6 +12,9 @@
  * Tread carefully, for you're treading on dreams.
  */
 
+import {ShopMarketplaceModes} from "@selldone/core-js/models/shop/shop.model.ts";
+import VendorDocumentType from "@selldone/core-js/enums/vendor/VendorDocumentType.ts";
+
 export default {
   commons: {
     pay_today: "Today payment",
@@ -6303,11 +6306,356 @@ export default {
 
     /** {@see BShopCustomerImporter**/
     customer: {
-      title: "Import customers",
+      title: "Import Customers",
       subtitle:
-        "Upload CSV files of customers here. Make sure you follow the standard format, and also, you have to follow privacy rules.",
+          "Upload customer CSV files here. Ensure the format is correct and complies with privacy regulations.",
+    },
+
+    /**
+     * @see BVendorsImporter
+     */
+    vendor: {
+      title: 'Import Vendors',
+      subtitle: "Upload vendor CSV files here. Ensure the format is correct and adheres to privacy regulations.",
+      checklist: {
+        title: 'Important Checklist',
+        subtitle: 'Be sure to follow the guidelines.',
+        sample_files: 'Sample Files',
+        valid_vendor_name_needed: "You must provide a <b>valid name</b>. The <b>name</b> is used to determine whether to <i>Create</i> a new vendor or <i>Update</i> an existing one.",
+        assign_user_after_import: "After importing vendors, you can manually assign a user to give them access to the vendor panel.",
+      },
+      need_kyc_alert: 'You need to verify your personal information before importing vendors.',
+      back_to_vendors_list: 'Back to Vendor List',
+    }
+
+  },
+
+  /**
+   * @see BPageMarketplaceProducts
+   */
+  marketplace_products: {
+    title: 'Vendor Products',
+    subtitle: "This catalog lists all products offered by vendors. In the marketplace, a product can be linked to one or more vendors. Each vendor associated with a product has a unique entry that includes inventory and pricing details specific to that vendor.",
+    filter_vendor: {
+      placeholder: 'Filter by vendor...',
+    },
+    filter_status: {
+      placeholder: 'Filter by status...',
     },
   },
+
+  /**
+   * @see BPageMarketplaceRequests
+   */
+  marketplace_requests: {
+    open_vendors_panel: "Open Vendors Panel",
+    title: "Vendor Request List",
+    subtitle: "This is a list of requests from individuals who have applied to become vendors in your marketplace.",
+  },
+  /**
+   * @see BPageMarketplaceSetting
+   */
+  marketplace_setting: {
+    marketplace: {
+      title: 'Marketplace',
+      subtitle: "Disabling the marketplace will turn off some functionalities. If you want to shut down your entire marketplace, you should disable your store in the settings.",
+    },
+    distribution_model: {
+      title: 'Distribution Model',
+      subtitle: "Marketplaces can operate under different distribution models. Whether you prefer vendors to ship items directly to buyers or consolidate orders at your warehouse for shipping, you can choose the model that best suits your needs here.",
+    },
+    access: {
+      title: 'Vendor Access',
+      subtitle: "As an administrator, you control the level of access vendors have to the product dashboard. Adjust global access settings to allow vendors to add their own products and categories or restrict this access to administrators only.",
+    },
+    need_enable_shipping_for_vendors_tips: "Enable shipping for vendors in the Shop > Logistic tab for each method individually.",
+    transportation_available_tooltip: "This option is available for vendors.",
+    transportation_not_available_tooltip: "Not available for vendors! You can enable it in the transportation settings.",
+    panel: {
+      title: 'Vendor Panel',
+      subtitle: "Onboard your vendors through your custom domain.",
+    },
+    documents: {
+      title: 'Documents',
+      subtitle: "You can require your vendors to upload documents or sign certain contracts. Specify the required documents here.",
+      add_document_action: 'Add Document Request',
+    },
+    inputs: {
+      enable: {
+        false_description: "The marketplace is turned off, disabling all marketplace functionalities.",
+        true_description: "The marketplace is active, enabling all marketplace functionalities.",
+      },
+      product: {
+        label: "Add New Product",
+        true_title: "Vendors Can Add Products",
+        false_description: "You add products and assign vendors. Vendors can only manage price and inventory.",
+        true_description: "Vendors can add and manage their own products directly in their vendor panel.",
+      },
+      need_verify: {
+        label: "Product Verification Flow",
+        false_description: "New vendor products go live instantly.",
+        false_title: "No Verification Required",
+        true_description: "Vendors' new products require approval before going live on the marketplace.",
+        true_title: "Verification Required",
+      },
+      category: {
+        label: 'Add New Category',
+        true_title: "Vendors Can Add Categories",
+        false_description: "You add categories. Vendors can only add products to existing categories.",
+        true_description: "Vendors can add and manage categories directly in their vendor panel.",
+      },
+      shipping: {
+        label: "Shipping Options",
+        true_title: "Vendors Have Shipping Options",
+        false_description: "Vendors cannot add or customize their shipping methods.",
+        true_description: "Vendors can set up their own shipping methods, add couriers, and customize shipping for their needs.",
+      },
+      hidden_customer: {
+        label: "Show Buyer Contact Information",
+        true_description: "Buyer contact details are hidden from vendors.",
+        false_description: "Buyer contact details, such as phone and email, are visible to vendors.",
+      },
+      multi: {
+        false_description: "A user can have only one vendor account. Users will be redirected to their panel at /vendors.",
+        true_description: "A user can have multiple vendor accounts. This is a beta feature; please contact us before using it.",
+        true_title: "Multi-Vendor Mode",
+        false_title: "Single Vendor Mode (Default)",
+      },
+    },
+    notifications: {
+      update_success: "Vendor settings updated successfully.",
+    },
+    add_document_dialog: {
+      title: 'Document Requirements',
+      type: {
+        title: 'Document Type',
+        subtitle: "Add a document request item here. It will appear in the vendor's panel, prompting them to upload the required document.",
+      },
+      guide: {
+        title: 'Guide',
+        subtitle: "Provide a brief guide to help vendors understand which documents to upload and how to do it properly.",
+      },
+      code: {
+        title: 'Embed Code',
+        subtitle: "Paste the embed code for a document, form, or contract that the vendor must sign.",
+      },
+      link: {
+        title: 'External Link',
+        subtitle: "Provide an external link to a document or contract that the vendor must sign.",
+      },
+      inputs: {
+        title: {
+          label: 'Title',
+          placeholder: "Enter a title for the document request.",
+        },
+        guide: {
+          label: 'Guide (Optional)',
+          placeholder: "Optionally, provide a brief guide or instructions, including links to contracts or other documents.",
+        },
+        code: {
+          label: "Embed Code",
+          placeholder: "Paste the embed code here...",
+          message: "Can include HTML code.",
+        },
+        url: {
+          label: "URL",
+          message: "Enter the URL for the document or contract here...",
+        },
+      },
+    },
+  },
+
+  /**
+   * @see ShopMarketplaceModes
+   */
+  ShopMarketplaceModes: {
+    Collective: {
+      title: "Collective Mode",
+      description:
+          "In this mode, all orders are sent to your warehouse first and then shipped to customers from a central location. Vendors will send their items to your warehouse, so the shipping address for vendors will be your warehouse address.",
+    },
+    Direct: {
+      title: "Direct Shipping from Vendor",
+      description:
+          "In this mode, vendors ship orders directly to customers. The shipping address for vendor orders will be the buyer's address.",
+    },
+  },
+  /**
+   * @see VendorDocumentType
+   */
+  VendorDocumentType: {
+    Identification: {
+      title: "Owner Identification Document",
+      description: "Upload a government-issued ID to verify the identity of the business owner or key executive.",
+    },
+    Business: {
+      title: "Business Documentation",
+      description: "Provide essential business documents such as licenses or registration certificates to confirm the legal status of your business.",
+    },
+    Address: {
+      title: "Address Verification",
+      description: "Submit a document to verify your business address, such as a utility bill, tax invoice, or lease agreement.",
+    },
+    Contract: {
+      title: "Contracts & Agreements",
+      description: "Upload contracts or agreements that detail the terms and conditions of your business relationships.",
+    },
+    Copyright: {
+      title: "Copyright Documentation",
+      description: "Provide copyright registration documents to affirm your intellectual property rights.",
+    },
+    Privacy: {
+      title: "Privacy Policy Documents",
+      description: "Include your privacy policy documents to demonstrate your commitment to protecting user and customer information.",
+    },
+    Embed: {
+      title: "Embedded Form",
+      description: "Complete the embedded form to provide the required information.",
+    },
+    Link: {
+      title: "External Link",
+      description: "Follow the external link to provide the necessary information.",
+    },
+  },
+
+
+
+  /**
+   * @see BPageMarketplaceWallets
+   */
+  marketplace_wallets: {
+    title: 'Vendor Wallets',
+    subtitle: "No need to manually add wallets! Vendor wallets are created automatically. If you enable a payment method that supports split payouts (like Stripe Connect), the system will automatically distribute payments to the connected vendors' accounts. If this feature is not enabled, you'll need to manually pay vendors, and you can check the amounts owed to them in the wallet list.",
+    filter_vendor: {
+      placeholder: 'Filter by vendor...',
+    },
+  },
+
+  /**
+   * @see BVendorAccountTransactionsList
+   */
+  vendor_account_transactions: {
+    subtitle: "This section provides a detailed list of all transactions for the selected wallet. A charge transaction is recorded when a customer successfully pays for an order. If an order is canceled or partially refunded, the corresponding refund transaction will also be recorded here.",
+    vendor_bank: 'Vendor Bank',
+    order_fee: 'Order Fee',
+    order_refund: 'Order Refund',
+    reverse_fund: 'Fund Reversal',
+    payout: 'Payout',
+  },
+
+  /**
+   * @see BPageMarketplacePayouts
+   */
+  marketplace_payouts: {
+    title: 'Payout History',
+    subtitle: "This feature streamlines accounting for you and your vendors by keeping a detailed record of all transactions. Payments can be processed manually through bank transfers or other methods, or automatically managed by payment providers that support split payments, like Stripe.",
+    top_up_vendor_action: 'Top Up Vendor Account',
+  },
+
+  /**
+   * @see BPageMarketplacePricings
+   */
+  marketplace_pricings: {
+    title: 'Pricing Plans',
+    subtitle: "Set up pricing models for your marketplace, like a 5% margin fee for digital products. This makes pricing management faster and more efficient.",
+    add_pricing_action: 'Add Pricing Plan',
+  },
+
+  /**
+   * @see BVendorPricingAdd
+   */
+  vendor_pricing_add: {
+    title: 'Marketplace Pricing Model',
+    subtitle: "When you assign a pricing model to vendor products, the price will automatically be calculated as Vendor Price * (1 + Commission%).",
+    delete: {
+      subtitle: "Deleting a pricing model will affect all vendor products linked to it. Before removing a pricing model, make sure to update all vendor products using it and assign them a different pricing model.",
+      remove_pricing_action: 'Remove Pricing Model',
+    },
+    inputs: {
+      title: {
+        placeholder: "e.g., Digital Products Class...",
+      },
+      description: {
+        placeholder: "You can add a note here...",
+      },
+      accept_delete: {
+        true_description: 'I want to delete this pricing model.',
+        true_title: 'Confirm Pricing Model Removal',
+      },
+    },
+  },
+
+
+  /**
+   * @see BVendorPayoutAdd
+   */
+  vendor_payout_add: {
+    vendor: {
+      title: 'Vendor',
+      subtitle: "Select the vendor you wish to transfer funds to. Once selected, available payment options will be displayed. If you've enabled payout-capable payment gateways, those options will also appear here.",
+    },
+    vendor_wallet: 'Vendor Wallet',
+    vendor_bank_account: 'Vendor Bank Account',
+    with_balance_tooltip: "When you connect payout services like Stripe Connect, we retrieve and display the available balance in your Stripe account for reference.",
+    with_balance: 'With Balance',
+    without_balance: 'Without Balance - Fast Mode',
+    bank_transfer: {
+      title: 'Bank Transfer',
+      subtitle: "This is a record of payment history. No actual money will be transferred to the vendor by the system; you must manually pay your vendors.",
+    },
+    vendor_bank: 'Vendor Bank',
+    gateway_in_debug_mode_warning: "Since the payment gateway is currently in debug mode, funds will not be transferred to a real account.",
+    payment: {
+      title: 'Payment',
+      subtitle: "Choose the currency and enter the amount you want to transfer to the vendor. If you enter a negative amount, the funds will be withdrawn from the vendor's wallet. For connected accounts with payout options, the funds will be deducted from the connected account, such as the vendor's Stripe account.",
+    },
+    history: {
+      title: 'History',
+      subtitle: "Part of this payment has been refunded through a reversal transfer, meaning the balance has been deducted from the vendor's account and returned to your account.",
+    },
+    refund: {
+      title: 'Refund',
+      subtitle: "The refunded amount will be deducted from the vendor's balance. All payments (or remaining amounts) in the vendor's account (like Stripe Connect) will be refunded through a reversal transfer.",
+    },
+    inputs: {
+      vendor: {
+        placeholder: 'Select a vendor...',
+      },
+      note: {
+        placeholder: "You can add a note here... This note is not visible to the vendor.",
+      },
+      accept_refund: {
+        true_description: "I want to cancel this payment.",
+        true_title: 'Cancel & Refund Payment',
+      },
+    },
+    notifications: {
+      reverse_fund_success: {
+        title: 'Fund Reversed',
+        message: "The vendor's fund reversal has been completed successfully, with money transferred from the bank to the wallet and added to the wallet balance.",
+      },
+      payout_success: {
+        title: 'Payout',
+        message: "The vendor's payout has been successfully processed and added.",
+      },
+    },
+  },
+
+
+  /**
+   * @see BShopQuotaImporter
+   */
+  quota_importer: {
+    quota: 'Quota',
+    max_batch_msg: 'Maximum number of items you can import in a single batch.',
+    max_daily_limit_msg: 'Maximum number of items you can import in a day.',
+    extra_daily_limit_msg: 'Additional items allowed beyond the daily limit.',
+    add_items_today_msg: 'Items added today.',
+    file_statistic_msg: 'Statistics for this file.',
+    used_quota:'Used quota',
+  },
+
+
   /** {@see BPageShopMarketingCampaign**/
   campaigns: {
     title: "Campaigns",
@@ -9399,6 +9747,45 @@ export default {
 
 
   /**
+   * @see BPageMarketplaceVendors
+   */
+  marketplace_vendors: {
+    title: 'Vendors List',
+    subtitle: "Add vendors here, then assign them to products in the Product Dashboard > Vendors.",
+    add_new_vendor_action: 'Add New Vendor',
+    status_tooltip: {
+      title: 'Vendor Status',
+      ACCEPTED: 'The vendor has access to their panel.',
+      REJECTED: 'The vendor request has been rejected.',
+      PENDING: 'The request is awaiting a decision from the vendor.',
+    },
+    number_of_products: 'Number of Products',
+    invited: 'Invited',
+    no_pricing: 'No Pricing',
+    no_pricing_tooltip: {
+      title: 'Default Pricing Plan',
+      subtitle: "Please set a default pricing model for the vendor.",
+    },
+    updated_products_tooltip: {
+      title: 'Products Updated in the Last 24 Hours',
+    },
+    added_products_tooltip: {
+      title: 'Products Added in the Last 24 Hours',
+    },
+    access_tooltip: {
+      title: 'Panel Access',
+      subtitle: 'The vendor has access to their panel. You can edit this in Vendor > Access tab.',
+    },
+    reject_by_user_tooltip: {
+      title: 'Rejected by User',
+      subtitle: "The user rejected the request to become a vendor and access this vendor.",
+    },
+    download_all_vendors:'Download all vendors',
+    bulk_import:'Bulk import (Excel)'
+  },
+
+
+  /**
    * Auto fill suggestions
    */
   suggestions: {
@@ -10286,5 +10673,34 @@ export default {
         "Bundle your favorites for extra savings!",
       ],
     },
+
+    /**
+     * Cross-Selling
+     */
+    vendor_pricing: {
+      title:[
+        "Digital Goods",
+        "Books",
+        "Electronics",
+        "Fashion",
+        "Home Appliances",
+        "Beauty Products",
+        "Sports Equipment",
+        "Toys & Games",
+        "Groceries",
+        "Furniture",
+        "Automotive Parts",
+        "Jewelry",
+        "Health & Wellness",
+        "Pet Supplies",
+        "Office Supplies",
+        "Music & Instruments",
+        "Movies & TV Shows",
+        "Software",
+        "Art & Crafts",
+        "Outdoor Gear"
+      ]
+
+    }
   },
 };
