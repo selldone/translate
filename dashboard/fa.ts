@@ -1438,7 +1438,7 @@ export default {
         title: "دکمه خرید سفارشی",
         message:
           "شما می‌توانید آیکون را با دنبال کردن این الگو تغییر دهید: {icon name} caption...",
-        placeholder: "فراخوانی عمل را وارد کنید...",
+        placeholder: "عنوان سفارشی برای کلید خرید...",
         multi_language_dialog_title: "عنوان دکمه خرید سفارشی",
       },
       warehouse: {
