@@ -800,6 +800,9 @@ export default {
     bank_info: "اطلاعات بانکی",
     structure: "ساختار",
     conditions: "شرایط",
+    unavailable: "ناموجود",
+    rows: "ردیف",
+
   },
 
   difficulties: {

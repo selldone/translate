@@ -801,6 +801,8 @@ export default {
     bank_info: "Bank Information",
     structure: "Structure",
     conditions: "Conditions",
+    unavailable: "Unavailable",
+    rows: "Rows",
   },
   difficulties: {
     very_complicated: "Very complicated",
