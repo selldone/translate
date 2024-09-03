@@ -13,6 +13,7 @@
  */
 
 import colors from "./colors/en";
+import {ProductExternal} from "@selldone/components-vue/storefront/product/external/button/ProductExternal.ts";
 
 export default {
   //--------- Default Values ---------
@@ -803,6 +804,7 @@ export default {
     conditions: "Conditions",
     unavailable: "Unavailable",
     rows: "Rows",
+    eligible: "Eligible",
   },
   difficulties: {
     very_complicated: "Very complicated",
@@ -2339,5 +2341,19 @@ export default {
     },
   },
 
+
+  /**
+   * @see ProductExternal
+   */
+  ProductExternal:{
+    Amazon:{
+      name:'Amazon',
+      actionText: "Buy on Amazon",
+    },
+    Airbnb:{
+      name:'Airbnb',
+      actionText: "Book on Airbnb",
+    },
+  }
 
 };

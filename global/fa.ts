@@ -802,6 +802,8 @@ export default {
     conditions: "شرایط",
     unavailable: "ناموجود",
     rows: "ردیف",
+    eligible: "واجد شرایط",
+
 
   },
 
@@ -2336,5 +2338,18 @@ export default {
     },
   },
 
+  /**
+   * @see ProductExternal
+   */
+  ProductExternal: {
+    Amazon: {
+      name: 'آمازون',
+      actionText: "خرید از آمازون",
+    },
+    Airbnb: {
+      name: 'ایر‌بی‌ان‌بی',
+      actionText: "رزرو در ایر‌بی‌ان‌بی",
+    },
+  }
 
 };

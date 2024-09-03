@@ -1484,6 +1484,12 @@ export default {
         placeholder: "Enter call to action...",
         multi_language_dialog_title: "Custom buy button caption",
       },
+      external:{
+        not_available_message:"Extra action available with Company & Enterprise licenses.",
+        available_message:"You can add an extra external call to action.",
+        input_label:"Second Call to Action"
+
+      },
       warehouse: {
         subtitle:
           "This information is utilized by the warehouse management system and serves to globally identify the product.",
