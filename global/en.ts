@@ -805,6 +805,7 @@ export default {
     unavailable: "Unavailable",
     rows: "Rows",
     eligible: "Eligible",
+    share: "Share",
   },
   difficulties: {
     very_complicated: "Very complicated",

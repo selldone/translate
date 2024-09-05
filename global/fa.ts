@@ -803,6 +803,7 @@ export default {
     unavailable: "ناموجود",
     rows: "ردیف",
     eligible: "واجد شرایط",
+    share: "اشتراک گذاری",
 
 
   },
