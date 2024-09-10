@@ -224,8 +224,24 @@ export default {
       addresses: "Addresses",
       profile: "profile",
       orders: "Orders",
+      wallets: "Wallets",
     },
   },
+  /**
+   * @see StorefrontPageUserWallets
+   */
+  user_wallets: {
+    title: "My Wallets",
+    subtitle: "If eligible and a cashback program is active, a portion of your order will be credited to your wallet. You can use these funds on your next purchase."
+  },
+  /**
+   * @see SWalletInput
+   */
+  wallet_input:{
+    my_wallet_balance:'My wallet balance',
+  },
+
+
   /** {@see StorefrontPageBasketOrderPhysicalDashboard} **/
   order_page: {
     title: "Order",
@@ -357,6 +373,23 @@ export default {
       currency: "Currency",
       free_shipping: "Free Shipping",
     },
+
+    my_profile: {
+      title: "My Profile",
+      subtitle: "This is my customer profile information for the store.",
+      edit_action: "Edit Profile"
+    },
+    subscribe_status: {
+      subscribed: "I’m subscribed to receive the latest news and promotions via email.",
+      unsubscribed: "I’m not subscribed to receive any news or promotions via email."
+    },
+    my_club: {
+      subtitle: "My club level and its benefits."
+    },
+    kyc: {
+      subtitle: "This is my global identification information."
+    }
+
   },
   /** {@see StorefrontPageBasketCart} **/
   basket_page: {
@@ -410,6 +443,8 @@ export default {
 
     no_billing_title: "No billing",
     no_billing_desc: "Leave billing address empty.",
+
+    can_pay_cod_message:"You can pay for this order in cash upon delivery.",
   },
   /** {@see SShopBasketItems} **/
   basket_items: {
@@ -425,8 +460,9 @@ export default {
   /** {@see StorefrontUserAddresses} **/
   addresses_page: {
     title: "My Addresses",
+    subtitle:"View your saved addresses here, and easily add a new one.",
     new_action: "New Address",
-    Recipient: "Recipient",
+    receiver: "Recipient",
     address: "Address",
     building_no: "license plate",
     building_unit: "unit",
@@ -449,7 +485,9 @@ export default {
   /** {@see StorefrontPageUserReturns} **/
   return_requests: {
     title: "Return requests",
+    subtitle:"View your return requests here. For items with a return policy, you can submit a return request on the order page.",
   },
+
   /** {@see StorefrontPageUserWishlist} **/
   user_favorites: {
     title: "Wishlist",
@@ -580,7 +618,7 @@ export default {
     message: "You can receive one gift per order.",
   },
 
-  /** {@see Coupons} **/
+  /** {@see SStorefrontCouponsList} **/
   coupons: {
     coupon_code: "Coupon code",
     add_coupon: "Add coupon",

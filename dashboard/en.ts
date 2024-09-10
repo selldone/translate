@@ -1484,11 +1484,11 @@ export default {
         placeholder: "Enter call to action...",
         multi_language_dialog_title: "Custom buy button caption",
       },
-      external:{
-        not_available_message:"Extra action available with Company & Enterprise licenses.",
-        available_message:"You can add an extra external call to action.",
-        input_label:"Second Call to Action"
-
+      external: {
+        not_available_message:
+          "Extra action available with Company & Enterprise licenses.",
+        available_message: "You can add an extra external call to action.",
+        input_label: "Second Call to Action",
       },
       warehouse: {
         subtitle:
@@ -1770,7 +1770,7 @@ export default {
       },
       extra_pricings: {
         title: "Add extra pricing",
-        subtitle: "Apply varying prices based on the quantity purchased.",
+        subtitle: "Implement dynamic pricing based on purchase quantity.",
       },
 
       vendor: {
@@ -1943,11 +1943,36 @@ export default {
    * @see BVendorAdd
    */
   vendor_add: {
+
+    menu:{
+      profile:"Profile & Info",
+      business:'Business & Payment',
+      documents:'Documents',
+      page:'Page Template',
+      shipping:'Shipping',
+      access:'Access',
+      critical_zone:'Critical Zone',
+
+    },
+
     profile: {
       title: "Vendor info",
       subtitle: "This information is shown to customers publicly.",
       action_sub_caption: "Public products listing page.",
       action_see_listing_page: "See Listing Page",
+      send_invitation_email: "Send Invitation Email",
+      invitation_link: "Invitation Link",
+    },
+
+
+
+    profiles: {
+      title: "Profiles",
+      subtitle: "You can assign location to this vendor.",
+    },
+    map: {
+      no_map_message:
+        "Assign a location to the vendor if it's a location-based vendor.",
     },
     page: {
       title: "Custom page",
@@ -2007,8 +2032,12 @@ export default {
     vendor_is_disable_msg: "Vendor is disabled.",
     email_not_match_with_user_msg:
       "Entered email does not match with user's email (<b>{user_name}:</b>{user_email}). Are you sure to send emails to<b>{email}</b>?",
-    we_will_send_invitation_to_user_msg:
-      "We will send an invitation email to the user.",
+
+
+
+
+    order_information_email_to_email:"We will send orders information to <b>{email}</b>.",
+
     set_a_user_for_the_vendor_first_msg: "Set a user for the vendor first.",
 
     inputs: {
@@ -2066,6 +2095,13 @@ export default {
           "The vendor has a dedicated panel to update quantity and price.",
         hint: "You can enable or disable the vendor panel, which allows vendors to update product quantities and prices and receive partial orders.",
         false_description: "The vendor has no access to anything.",
+      },
+
+      logo: {
+        label: "Vendor Logo",
+      },
+      description: {
+        placeholder: "Write a public description...",
       },
     },
   },
@@ -2158,21 +2194,28 @@ export default {
   },
 
   /**
-   * @see VPageVendorShippingServices
+   * @see VPageVendorShippingTransportation
    */
   vendor_shipping_services: {
-    title: "Shipping",
+    title: "Shipping Services",
     subtitle:
-      "You can add shipping services and couriers here. The shipping services and couriers should be under predefined transportation methods defined by the marketplace. By adding shipping services and couriers, you can easily assign orders to them and automatically order labels or couriers.",
+      "The marketplace offers shipping methods to help vendors fulfill their orders. You can add shipping services here to easily order shipping labels from your order page. This simplifies the process by syncing addresses and tracking codes with the shipping provider.",
+
+    subtitle_pickup:
+      "The marketplace enables pickup for vendors, allowing buyers to choose pickup from your location as a shipping option. You can add your pickup location in your profile (your warehouse will be used as the default pickup location).",
     action: "Add Service",
+
     add_dialog: {
-      select_method: "Select Method",
-      select_method_msg:
-        "Please select a transportation method from the following list. Shipping methods define by the marketplace.",
       select_service_msg:
-        "Choose a shipping service from the list below. Only the available services that can be added to your store are displayed here.",
+        "Shipping methods are set by the marketplace, and customers can choose from them. Vendors have no control over these options but can integrate their panel with shipping services to purchase labels directly. Please select a method from the list below to view available services. Choose a shipping service from the list below. Only the available services that can be added to your store are displayed here.",
       no_available_service: "No available service!",
     },
+  },
+  /**
+   * @see VPageVendorShipping
+   */
+  vendor_shipping: {
+    services: "Services",
   },
 
   /** {@see BProductProfileMap} **/
@@ -3430,17 +3473,15 @@ export default {
     basket_items: "Order items List",
 
     delivered_dialog: {
-      title: "Has this order been received by the customer?",
-      message:
-        "Confirm this option when you know the customer received the order",
-      confirm_action: "I confirm that customer recieved the package",
+      title: "Has the customer received the order?",
+      message: "Confirm if the customer has received the order.",
+      confirm_action: "Confirm order received",
     },
     return_delivery_dialog: {
-      title:
-        "Did the order have any problems during delivery or was it returned?",
+      title: "Was there an issue with delivery or a return?",
       message:
-        "Confirm the option to return the shipment if the order is returned after sending for some reason and there is a need to resend the shipment.",
-      confirm_action: "Confirm Delivery Returned",
+        "Confirm if the order was returned or needs to be resent due to a delivery issue.",
+      confirm_action: "Confirm order return",
     },
 
     notifications: {
@@ -3668,7 +3709,10 @@ export default {
 
     /** {@see AdminGiftCardManagementPage} **/
     cards: {
-      title: "List of issued cards",
+      title: "Issued Cards Overview",
+      subtitle:
+        "View and manage all issued cards. You can send cards to users manually or ban them if needed.",
+
       loading_message: "Getting information ... please wait",
       issue_to_user: "Issue to user",
       table: {
@@ -3802,6 +3846,13 @@ export default {
     },
   },
 
+  /**
+   * @see BOrderConnectsList
+   */
+  order_connect_list: {
+    subtitle:
+      "List of externally synced orders that need to be fulfilled by third-party providers.",
+  },
   /** {@see BAccountCard} **/
   account_card: {
     pay_create_receipt: "Pay activation fee",
@@ -3951,6 +4002,8 @@ export default {
       withdraw_tooltip: "Withdraw from vendor wallet.",
       payout_tooltip: "Payout to the vendor.",
     },
+    order_canceled: "Order canceled",
+    order_rejected: "Order rejected by vendor",
   },
 
   /**
@@ -4022,12 +4075,34 @@ export default {
     },
   },
 
+  /**
+   * @see BVendorOrderRefund
+   */
+    vendor_order_refund: {
+      title:'Refund order',
+    subtitle:"<b>Important! </b>Executing this action will generate a negative transaction in the vendor's wallet and subtract the chosen amount from it. The amount cannot exceed the remaining total transactions for the selected order. Additionally, if funds have been transferred to connected bank accounts (such as with Stripe Connect or manual wire transfer), you should create a <b>reversal transfer</b>.",
+    inputs:{
+      note:{
+        message:"It's visible to the vendor.",
+        placeholder:"You can attach a note here..."
+      },
+      amount:{
+        error_message:"The remaining amount has been exceeded."
+      }
+    }
+  },
+
   /** {@see BOrderVendorPaymentManagement} **/
   order_vendor_payment: {
     message:
-      "This is an overview of the transactions in your virtual wallet on the marketplace.",
+      "This provides an overview of the transactions in the vendor's virtual wallet on the marketplace. Whenever an order is placed, the vendor's share of the sale is added to their wallet.",
     vendor_wallets: "Vendor Wallets",
     my_wallets: "My Wallets",
+    refund_order_action:'Refund Order',
+    automatic_payout_list:{
+      subtitle:"This is a list of automatic payouts to your connected bank account. Please note that only automatic payouts will be displayed here, and manual payouts will not be shown."
+    },
+    reversal_transfer_action:'Reversal Transfer'
   },
 
   /** {@see BPageOrderPhysicalTrack} **/
@@ -5317,7 +5392,6 @@ export default {
     new_affiliate: "New affiliate partner",
     new_affiliate_message: "Add new affiliate partner",
 
-
     link_factory: {
       title: "Affiliate partner link generator",
       link_input: "Your link",
@@ -5334,12 +5408,14 @@ export default {
     config: {
       new: "New Affiliate Partner",
       edit: "Edit Affiliate Partner",
-      subtitle: "Configure the general settings and name of the affiliate here.",
+      subtitle:
+        "Configure the general settings and name of the affiliate here.",
     },
 
     payment: {
       title: "Payment Information",
-      subtitle: "Set the commission structure for the affiliate. You can combine fixed and percentage-based commissions, or set specific commissions for each product.",
+      subtitle:
+        "Set the commission structure for the affiliate. You can combine fixed and percentage-based commissions, or set specific commissions for each product.",
     },
 
     contact: {
@@ -5349,23 +5425,27 @@ export default {
 
     restriction: {
       title: "Commission Restrictions",
-      subtitle: "Define which products are eligible for commission. You can restrict commissions to certain products.",
+      subtitle:
+        "Define which products are eligible for commission. You can restrict commissions to certain products.",
     },
 
     link_domain: {
       title: "Linked Domain",
-      subtitle: "Link one of your domains to this affiliate partner. Visitors who buy through this domain will be attributed to this affiliate.",
+      subtitle:
+        "Link one of your domains to this affiliate partner. Visitors who buy through this domain will be attributed to this affiliate.",
 
       domain_not_approved_msg: "The domain has not been approved yet!",
       domain_is_not_enable_msg: "The domain is not enabled!",
-      domain_is_linked_to_other_affiliate_msg: "This domain is already linked to another affiliate!",
+      domain_is_linked_to_other_affiliate_msg:
+        "This domain is already linked to another affiliate!",
     },
 
     set_users_first_message: "Please set the user first!",
 
     cluster: {
       title: "Cluster",
-      subtitle: "Associate this affiliate with a cluster to manage it alongside other resources in one place.",
+      subtitle:
+        "Associate this affiliate with a cluster to manage it alongside other resources in one place.",
       manage_action: "Manage",
     },
 
@@ -5376,13 +5456,15 @@ export default {
 
     inputs: {
       name: {
-        label: 'Affiliate Partner Name',
+        label: "Affiliate Partner Name",
         message: "e.g., John Doe, Alex Company, X Marketers, etc.",
       },
       commission: {
         label: "Commission Calculation",
-        false_description: "Calculate using a combination of fixed and percentage commissions.",
-        true_description: "Calculate using product-specific commissions set in the pricing tab.",
+        false_description:
+          "Calculate using a combination of fixed and percentage commissions.",
+        true_description:
+          "Calculate using product-specific commissions set in the pricing tab.",
         false_title: "Fixed + Percentage Commission",
         true_title: "Product-Based Commission",
       },
@@ -5397,7 +5479,7 @@ export default {
         placeholder: "Optional, e.g., 1200 POX, NY, USA",
       },
       tel: {
-        placeholder: 'Optional, e.g., 001-808-210354',
+        placeholder: "Optional, e.g., 001-808-210354",
       },
       bank: {
         placeholder: "Optional, e.g., Arstra Bank, No: 10002-325-800-845213",
@@ -5406,11 +5488,13 @@ export default {
         placeholder: "Select a domain... (Optional)",
       },
       pos: {
-        true_description: "Affiliates can place orders directly for their customers through their panel.",
+        true_description:
+          "Affiliates can place orders directly for their customers through their panel.",
         true_title: "POS Access",
       },
       enable: {
-        true_description: "Is this affiliate currently active? If inactive, their affiliate program won't apply to orders made through their link.",
+        true_description:
+          "Is this affiliate currently active? If inactive, their affiliate program won't apply to orders made through their link.",
       },
       products: {
         label: "Products Eligible for Commission",
@@ -5425,22 +5509,25 @@ export default {
      * @see BPageAffiliateEdit
      */
     delete: {
-      subtitle: "You can settle any outstanding debts with the affiliate before removing them from your shop. Affiliate information will remain accessible for a limited time after deletion.",
-    }
-
+      subtitle:
+        "You can settle any outstanding debts with the affiliate before removing them from your shop. Affiliate information will remain accessible for a limited time after deletion.",
+    },
   },
 
   /**
    * @see BPageShopFinanceValuations
    */
   shop_valuations: {
-    title: 'Custom Pricing and Valuations',
-    subtitle: "Assign a valuation (a pricing input form) to a product, allowing customers to select variants or personalize your merchandise. The system will then calculate the price based on the custom inputs.",
-    add_valuation_action: 'Create New Valuation Form',
-    empty_message: 'Instead of creating multiple variants, consider developing a valuation strategy that can be applied to a simple product.',
+    title: "Custom Pricing and Valuations",
+    subtitle:
+      "Assign a valuation (a pricing input form) to a product, allowing customers to select variants or personalize your merchandise. The system will then calculate the price based on the custom inputs.",
+    add_valuation_action: "Create New Valuation Form",
+    empty_message:
+      "Instead of creating multiple variants, consider developing a valuation strategy that can be applied to a simple product.",
     delete_dialog: {
       title: "Permanently Remove",
-      message: "Are you sure you want to delete this pricing form? Please ensure that this custom pricing strategy is removed from all associated products first.",
+      message:
+        "Are you sure you want to delete this pricing form? Please ensure that this custom pricing strategy is removed from all associated products first.",
       action: "Yes, Delete Now",
     },
     notifications: {
@@ -5448,12 +5535,11 @@ export default {
     },
   },
 
-
   /**
    * @see BValuationInput
    */
-    valuation_input: {
-    label:"Pricing & Valuation Model"
+  valuation_input: {
+    label: "Pricing & Valuation Model",
   },
 
   /**
@@ -5463,17 +5549,20 @@ export default {
     title_edit: "Edit Valuation Form",
     title_add: "Create New Valuation Form",
     config: {
-      subtitle: "Set up a valuation system to create flexible pricing using formulas and reference tables for your products. Start by giving this valuation a unique name.",
+      subtitle:
+        "Set up a valuation system to create flexible pricing using formulas and reference tables for your products. Start by giving this valuation a unique name.",
     },
     valuation_preview: "Preview Valuation Form",
     load_sample: "Load Sample",
     conditions: {
       title: "Conditions",
-      subtitle: "Define the logic for custom variants. This configuration simplifies the management of variant availability.",
+      subtitle:
+        "Define the logic for custom variants. This configuration simplifies the management of variant availability.",
     },
     structure: {
       title: "Structure",
-      subtitle: "Design your pricing input form here by integrating formulas and reference tables.",
+      subtitle:
+        "Design your pricing input form here by integrating formulas and reference tables.",
       expand_action: "Expand",
       collapse_action: "Collapse",
     },
@@ -5487,8 +5576,6 @@ export default {
       title: "Sample Valuations",
     },
   },
-
-
 
   /** @see AdminGiftcardPage_Orders **/
   gift_card_orders: {
@@ -6458,39 +6545,43 @@ export default {
     customer: {
       title: "Import Customers",
       subtitle:
-          "Upload customer CSV files here. Ensure the format is correct and complies with privacy regulations.",
+        "Upload customer CSV files here. Ensure the format is correct and complies with privacy regulations.",
     },
 
     /**
      * @see BVendorsImporter
      */
     vendor: {
-      title: 'Import Vendors',
-      subtitle: "Upload vendor CSV files here. Ensure the format is correct and adheres to privacy regulations.",
+      title: "Import Vendors",
+      subtitle:
+        "Upload vendor CSV files here. Ensure the format is correct and adheres to privacy regulations.",
       checklist: {
-        title: 'Important Checklist',
-        subtitle: 'Be sure to follow the guidelines.',
-        sample_files: 'Sample Files',
-        valid_vendor_name_needed: "You must provide a <b>valid name</b>. The <b>name</b> is used to determine whether to <i>Create</i> a new vendor or <i>Update</i> an existing one.",
-        assign_user_after_import: "After importing vendors, you can manually assign a user to give them access to the vendor panel.",
+        title: "Important Checklist",
+        subtitle: "Be sure to follow the guidelines.",
+        sample_files: "Sample Files",
+        valid_vendor_name_needed:
+          "You must provide a <b>valid name</b>. The <b>name</b> is used to determine whether to <i>Create</i> a new vendor or <i>Update</i> an existing one.",
+        assign_user_after_import:
+          "After importing vendors, you can manually assign a user to give them access to the vendor panel.",
       },
-      need_kyc_alert: 'You need to verify your personal information before importing vendors.',
-      back_to_vendors_list: 'Back to Vendor List',
-    }
-
+      need_kyc_alert:
+        "You need to verify your personal information before importing vendors.",
+      back_to_vendors_list: "Back to Vendor List",
+    },
   },
 
   /**
    * @see BPageMarketplaceProducts
    */
   marketplace_products: {
-    title: 'Vendor Products',
-    subtitle: "This catalog lists all products offered by vendors. In the marketplace, a product can be linked to one or more vendors. Each vendor associated with a product has a unique entry that includes inventory and pricing details specific to that vendor.",
+    title: "Vendor Products",
+    subtitle:
+      "This catalog lists all products offered by vendors. In the marketplace, a product can be linked to one or more vendors. Each vendor associated with a product has a unique entry that includes inventory and pricing details specific to that vendor.",
     filter_vendor: {
-      placeholder: 'Filter by vendor...',
+      placeholder: "Filter by vendor...",
     },
     filter_status: {
-      placeholder: 'Filter by status...',
+      placeholder: "Filter by status...",
     },
   },
 
@@ -6500,74 +6591,93 @@ export default {
   marketplace_requests: {
     open_vendors_panel: "Open Vendors Panel",
     title: "Vendor Request List",
-    subtitle: "This is a list of requests from individuals who have applied to become vendors in your marketplace.",
+    subtitle:
+      "This is a list of requests from individuals who have applied to become vendors in your marketplace.",
   },
   /**
    * @see BPageMarketplaceSetting
    */
   marketplace_setting: {
     marketplace: {
-      title: 'Marketplace',
-      subtitle: "Disabling the marketplace will turn off some functionalities. If you want to shut down your entire marketplace, you should disable your store in the settings.",
+      title: "Marketplace",
+      subtitle:
+        "Disabling the marketplace will turn off some functionalities. If you want to shut down your entire marketplace, you should disable your store in the settings.",
     },
     distribution_model: {
-      title: 'Distribution Model',
-      subtitle: "Marketplaces can operate under different distribution models. Whether you prefer vendors to ship items directly to buyers or consolidate orders at your warehouse for shipping, you can choose the model that best suits your needs here.",
+      title: "Distribution Model",
+      subtitle:
+        "Marketplaces can operate under different distribution models. Whether you prefer vendors to ship items directly to buyers or consolidate orders at your warehouse for shipping, you can choose the model that best suits your needs here.",
     },
     access: {
-      title: 'Vendor Access',
-      subtitle: "As an administrator, you control the level of access vendors have to the product dashboard. Adjust global access settings to allow vendors to add their own products and categories or restrict this access to administrators only.",
+      title: "Vendor Access",
+      subtitle:
+        "As an administrator, you control the level of access vendors have to the product dashboard. Adjust global access settings to allow vendors to add their own products and categories or restrict this access to administrators only.",
     },
-    need_enable_shipping_for_vendors_tips: "Enable shipping for vendors in the Shop > Logistic tab for each method individually.",
+    need_enable_shipping_for_vendors_tips:
+      "Enable shipping for vendors in the Shop > Logistic tab for each method individually.",
     transportation_available_tooltip: "This option is available for vendors.",
-    transportation_not_available_tooltip: "Not available for vendors! You can enable it in the transportation settings.",
+    transportation_not_available_tooltip:
+      "Not available for vendors! You can enable it in the transportation settings.",
     panel: {
-      title: 'Vendor Panel',
+      title: "Vendor Panel",
       subtitle: "Onboard your vendors through your custom domain.",
     },
     documents: {
-      title: 'Documents',
-      subtitle: "You can require your vendors to upload documents or sign certain contracts. Specify the required documents here.",
-      add_document_action: 'Add Document Request',
+      title: "Documents",
+      subtitle:
+        "You can require your vendors to upload documents or sign certain contracts. Specify the required documents here.",
+      add_document_action: "Add Document Request",
     },
     inputs: {
       enable: {
-        false_description: "The marketplace is turned off, disabling all marketplace functionalities.",
-        true_description: "The marketplace is active, enabling all marketplace functionalities.",
+        false_description:
+          "The marketplace is turned off, disabling all marketplace functionalities.",
+        true_description:
+          "The marketplace is active, enabling all marketplace functionalities.",
       },
       product: {
         label: "Add New Product",
         true_title: "Vendors Can Add Products",
-        false_description: "You add products and assign vendors. Vendors can only manage price and inventory.",
-        true_description: "Vendors can add and manage their own products directly in their vendor panel.",
+        false_description:
+          "You add products and assign vendors. Vendors can only manage price and inventory.",
+        true_description:
+          "Vendors can add and manage their own products directly in their vendor panel.",
       },
       need_verify: {
         label: "Product Verification Flow",
         false_description: "New vendor products go live instantly.",
         false_title: "No Verification Required",
-        true_description: "Vendors' new products require approval before going live on the marketplace.",
+        true_description:
+          "Vendors' new products require approval before going live on the marketplace.",
         true_title: "Verification Required",
       },
       category: {
-        label: 'Add New Category',
+        label: "Add New Category",
         true_title: "Vendors Can Add Categories",
-        false_description: "You add categories. Vendors can only add products to existing categories.",
-        true_description: "Vendors can add and manage categories directly in their vendor panel.",
+        false_description:
+          "You add categories. Vendors can only add products to existing categories.",
+        true_description:
+          "Vendors can add and manage categories directly in their vendor panel.",
       },
       shipping: {
         label: "Shipping Options",
         true_title: "Vendors Have Shipping Options",
-        false_description: "Vendors cannot add or customize their shipping methods.",
-        true_description: "Vendors can set up their own shipping methods, add couriers, and customize shipping for their needs.",
+        false_description:
+          "Vendors cannot add or customize their shipping methods.",
+        true_description:
+          "Vendors can set up their own shipping methods, add couriers, and customize shipping for their needs.",
       },
       hidden_customer: {
         label: "Show Buyer Contact Information",
         true_description: "Buyer contact details are hidden from vendors.",
-        false_description: "Buyer contact details, such as phone and email, are visible to vendors.",
+        false_description:
+          "Buyer contact details, such as phone and email, are visible to vendors.",
       },
       multi: {
-        false_description: "A user can have only one vendor account. Users will be redirected to their panel at /vendors.",
-        true_description: "A user can have multiple vendor accounts. This is a beta feature; please contact us before using it.",
+        false_description:
+          "A user can have only one vendor account. Users will be redirected to their panel at /vendors.",
+        true_description:
+          "A user can have multiple vendor accounts. This is a beta feature; please contact us before using it.",
         true_title: "Multi-Vendor Mode",
         false_title: "Single Vendor Mode (Default)",
       },
@@ -6576,31 +6686,36 @@ export default {
       update_success: "Vendor settings updated successfully.",
     },
     add_document_dialog: {
-      title: 'Document Requirements',
+      title: "Document Requirements",
       type: {
-        title: 'Document Type',
-        subtitle: "Add a document request item here. It will appear in the vendor's panel, prompting them to upload the required document.",
+        title: "Document Type",
+        subtitle:
+          "Add a document request item here. It will appear in the vendor's panel, prompting them to upload the required document.",
       },
       guide: {
-        title: 'Guide',
-        subtitle: "Provide a brief guide to help vendors understand which documents to upload and how to do it properly.",
+        title: "Guide",
+        subtitle:
+          "Provide a brief guide to help vendors understand which documents to upload and how to do it properly.",
       },
       code: {
-        title: 'Embed Code',
-        subtitle: "Paste the embed code for a document, form, or contract that the vendor must sign.",
+        title: "Embed Code",
+        subtitle:
+          "Paste the embed code for a document, form, or contract that the vendor must sign.",
       },
       link: {
-        title: 'External Link',
-        subtitle: "Provide an external link to a document or contract that the vendor must sign.",
+        title: "External Link",
+        subtitle:
+          "Provide an external link to a document or contract that the vendor must sign.",
       },
       inputs: {
         title: {
-          label: 'Title',
+          label: "Title",
           placeholder: "Enter a title for the document request.",
         },
         guide: {
-          label: 'Guide (Optional)',
-          placeholder: "Optionally, provide a brief guide or instructions, including links to contracts or other documents.",
+          label: "Guide (Optional)",
+          placeholder:
+            "Optionally, provide a brief guide or instructions, including links to contracts or other documents.",
         },
         code: {
           label: "Embed Code",
@@ -6622,12 +6737,12 @@ export default {
     Collective: {
       title: "Collective Mode",
       description:
-          "In this mode, all orders are sent to your warehouse first and then shipped to customers from a central location. Vendors will send their items to your warehouse, so the shipping address for vendors will be your warehouse address.",
+        "In this mode, all orders are sent to your warehouse first and then shipped to customers from a central location. Vendors will send their items to your warehouse, so the shipping address for vendors will be your warehouse address.",
     },
     Direct: {
       title: "Direct Shipping from Vendor",
       description:
-          "In this mode, vendors ship orders directly to customers. The shipping address for vendor orders will be the buyer's address.",
+        "In this mode, vendors ship orders directly to customers. The shipping address for vendor orders will be the buyer's address.",
     },
   },
   /**
@@ -6636,48 +6751,55 @@ export default {
   VendorDocumentType: {
     Identification: {
       title: "Owner Identification Document",
-      description: "Upload a government-issued ID to verify the identity of the business owner or key executive.",
+      description:
+        "Upload a government-issued ID to verify the identity of the business owner or key executive.",
     },
     Business: {
       title: "Business Documentation",
-      description: "Provide essential business documents such as licenses or registration certificates to confirm the legal status of your business.",
+      description:
+        "Provide essential business documents such as licenses or registration certificates to confirm the legal status of your business.",
     },
     Address: {
       title: "Address Verification",
-      description: "Submit a document to verify your business address, such as a utility bill, tax invoice, or lease agreement.",
+      description:
+        "Submit a document to verify your business address, such as a utility bill, tax invoice, or lease agreement.",
     },
     Contract: {
       title: "Contracts & Agreements",
-      description: "Upload contracts or agreements that detail the terms and conditions of your business relationships.",
+      description:
+        "Upload contracts or agreements that detail the terms and conditions of your business relationships.",
     },
     Copyright: {
       title: "Copyright Documentation",
-      description: "Provide copyright registration documents to affirm your intellectual property rights.",
+      description:
+        "Provide copyright registration documents to affirm your intellectual property rights.",
     },
     Privacy: {
       title: "Privacy Policy Documents",
-      description: "Include your privacy policy documents to demonstrate your commitment to protecting user and customer information.",
+      description:
+        "Include your privacy policy documents to demonstrate your commitment to protecting user and customer information.",
     },
     Embed: {
       title: "Embedded Form",
-      description: "Complete the embedded form to provide the required information.",
+      description:
+        "Complete the embedded form to provide the required information.",
     },
     Link: {
       title: "External Link",
-      description: "Follow the external link to provide the necessary information.",
+      description:
+        "Follow the external link to provide the necessary information.",
     },
   },
-
-
 
   /**
    * @see BPageMarketplaceWallets
    */
   marketplace_wallets: {
-    title: 'Vendor Wallets',
-    subtitle: "No need to manually add wallets! Vendor wallets are created automatically. If you enable a payment method that supports split payouts (like Stripe Connect), the system will automatically distribute payments to the connected vendors' accounts. If this feature is not enabled, you'll need to manually pay vendors, and you can check the amounts owed to them in the wallet list.",
+    title: "Vendor Wallets",
+    subtitle:
+      "No need to manually add wallets! Vendor wallets are created automatically. If you enable a payment method that supports split payouts (like Stripe Connect), the system will automatically distribute payments to the connected vendors' accounts. If this feature is not enabled, you'll need to manually pay vendors, and you can check the amounts owed to them in the wallet list.",
     filter_vendor: {
-      placeholder: 'Filter by vendor...',
+      placeholder: "Filter by vendor...",
     },
   },
 
@@ -6685,41 +6807,46 @@ export default {
    * @see BVendorAccountTransactionsList
    */
   vendor_account_transactions: {
-    subtitle: "This section provides a detailed list of all transactions for the selected wallet. A charge transaction is recorded when a customer successfully pays for an order. If an order is canceled or partially refunded, the corresponding refund transaction will also be recorded here.",
-    vendor_bank: 'Vendor Bank',
-    order_fee: 'Order Fee',
-    order_refund: 'Order Refund',
-    reverse_fund: 'Fund Reversal',
-    payout: 'Payout',
+    subtitle:
+      "This section provides a detailed list of all transactions for the selected wallet. A charge transaction is recorded when a customer successfully pays for an order. If an order is canceled or partially refunded, the corresponding refund transaction will also be recorded here.",
+    vendor_bank: "Vendor Bank",
+    order_fee: "Order Fee",
+    order_refund: "Order Refund",
+    reverse_fund: "Fund Reversal",
+    payout: "Payout",
   },
 
   /**
    * @see BPageMarketplacePayouts
    */
   marketplace_payouts: {
-    title: 'Payout History',
-    subtitle: "This feature streamlines accounting for you and your vendors by keeping a detailed record of all transactions. Payments can be processed manually through bank transfers or other methods, or automatically managed by payment providers that support split payments, like Stripe.",
-    top_up_vendor_action: 'Top Up Vendor Account',
+    title: "Payout History",
+    subtitle:
+      "This feature streamlines accounting for you and your vendors by keeping a detailed record of all transactions. Payments can be processed manually through bank transfers or other methods, or automatically managed by payment providers that support split payments, like Stripe.",
+    top_up_vendor_action: "Top Up Vendor Account",
   },
 
   /**
    * @see BPageMarketplacePricings
    */
   marketplace_pricings: {
-    title: 'Pricing Plans',
-    subtitle: "Set up pricing models for your marketplace, like a 5% margin fee for digital products. This makes pricing management faster and more efficient.",
-    add_pricing_action: 'Add Pricing Plan',
+    title: "Pricing Plans",
+    subtitle:
+      "Set up pricing models for your marketplace, like a 5% margin fee for digital products. This makes pricing management faster and more efficient.",
+    add_pricing_action: "Add Pricing Plan",
   },
 
   /**
    * @see BVendorPricingAdd
    */
   vendor_pricing_add: {
-    title: 'Marketplace Pricing Model',
-    subtitle: "When you assign a pricing model to vendor products, the price will automatically be calculated as Vendor Price * (1 + Commission%).",
+    title: "Marketplace Pricing Model",
+    subtitle:
+      "When you assign a pricing model to vendor products, the price will automatically be calculated as Vendor Price * (1 + Commission%).",
     delete: {
-      subtitle: "Deleting a pricing model will affect all vendor products linked to it. Before removing a pricing model, make sure to update all vendor products using it and assign them a different pricing model.",
-      remove_pricing_action: 'Remove Pricing Model',
+      subtitle:
+        "Deleting a pricing model will affect all vendor products linked to it. Before removing a pricing model, make sure to update all vendor products using it and assign them a different pricing model.",
+      remove_pricing_action: "Remove Pricing Model",
     },
     inputs: {
       title: {
@@ -6729,82 +6856,89 @@ export default {
         placeholder: "You can add a note here...",
       },
       accept_delete: {
-        true_description: 'I want to delete this pricing model.',
-        true_title: 'Confirm Pricing Model Removal',
+        true_description: "I want to delete this pricing model.",
+        true_title: "Confirm Pricing Model Removal",
       },
     },
   },
-
 
   /**
    * @see BVendorPayoutAdd
    */
   vendor_payout_add: {
     vendor: {
-      title: 'Vendor',
-      subtitle: "Select the vendor you wish to transfer funds to. Once selected, available payment options will be displayed. If you've enabled payout-capable payment gateways, those options will also appear here.",
+      title: "Vendor",
+      subtitle:
+        "Select the vendor you wish to transfer funds to. Once selected, available payment options will be displayed. If you've enabled payout-capable payment gateways, those options will also appear here.",
     },
-    vendor_wallet: 'Vendor Wallet',
-    vendor_bank_account: 'Vendor Bank Account',
-    with_balance_tooltip: "When you connect payout services like Stripe Connect, we retrieve and display the available balance in your Stripe account for reference.",
-    with_balance: 'With Balance',
-    without_balance: 'Without Balance - Fast Mode',
+    vendor_wallet: "Vendor Wallet",
+    vendor_bank_account: "Vendor Bank Account",
+    with_balance_tooltip:
+      "When you connect payout services like Stripe Connect, we retrieve and display the available balance in your Stripe account for reference.",
+    with_balance: "With Balance",
+    without_balance: "Without Balance - Fast Mode",
     bank_transfer: {
-      title: 'Bank Transfer',
-      subtitle: "This is a record of payment history. No actual money will be transferred to the vendor by the system; you must manually pay your vendors.",
+      title: "Bank Transfer",
+      subtitle:
+        "This is a record of payment history. No actual money will be transferred to the vendor by the system; you must manually pay your vendors.",
     },
-    vendor_bank: 'Vendor Bank',
-    gateway_in_debug_mode_warning: "Since the payment gateway is currently in debug mode, funds will not be transferred to a real account.",
+    vendor_bank: "Vendor Bank",
+    gateway_in_debug_mode_warning:
+      "Since the payment gateway is currently in debug mode, funds will not be transferred to a real account.",
     payment: {
-      title: 'Payment',
-      subtitle: "Choose the currency and enter the amount you want to transfer to the vendor. If you enter a negative amount, the funds will be withdrawn from the vendor's wallet. For connected accounts with payout options, the funds will be deducted from the connected account, such as the vendor's Stripe account.",
+      title: "Payment",
+      subtitle:
+        "Choose the currency and enter the amount you want to transfer to the vendor. If you enter a negative amount, the funds will be withdrawn from the vendor's wallet. For connected accounts with payout options, the funds will be deducted from the connected account, such as the vendor's Stripe account.",
     },
     history: {
-      title: 'History',
-      subtitle: "Part of this payment has been refunded through a reversal transfer, meaning the balance has been deducted from the vendor's account and returned to your account.",
+      title: "History",
+      subtitle:
+        "Part of this payment has been refunded through a reversal transfer, meaning the balance has been deducted from the vendor's account and returned to your account.",
     },
     refund: {
-      title: 'Refund',
-      subtitle: "The refunded amount will be deducted from the vendor's balance. All payments (or remaining amounts) in the vendor's account (like Stripe Connect) will be refunded through a reversal transfer.",
+      title: "Refund",
+      subtitle:
+        "The refunded amount will be deducted from the vendor's balance. All payments (or remaining amounts) in the vendor's account (like Stripe Connect) will be refunded through a reversal transfer.",
     },
     inputs: {
       vendor: {
-        placeholder: 'Select a vendor...',
+        placeholder: "Select a vendor...",
       },
       note: {
-        placeholder: "You can add a note here... This note is not visible to the vendor.",
+        placeholder:
+          "You can add a note here... This note is not visible to the vendor.",
       },
       accept_refund: {
         true_description: "I want to cancel this payment.",
-        true_title: 'Cancel & Refund Payment',
+        true_title: "Cancel & Refund Payment",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: 'Fund Reversed',
-        message: "The vendor's fund reversal has been completed successfully, with money transferred from the bank to the wallet and added to the wallet balance.",
+        title: "Fund Reversed",
+        message:
+          "The vendor's fund reversal has been completed successfully, with money transferred from the bank to the wallet and added to the wallet balance.",
       },
       payout_success: {
-        title: 'Payout',
-        message: "The vendor's payout has been successfully processed and added.",
+        title: "Payout",
+        message:
+          "The vendor's payout has been successfully processed and added.",
       },
     },
   },
-
 
   /**
    * @see BShopQuotaImporter
    */
   quota_importer: {
-    quota: 'Quota',
-    max_batch_msg: 'Maximum number of items you can import in a single batch.',
-    max_daily_limit_msg: 'Maximum number of items you can import in a day.',
-    extra_daily_limit_msg: 'Additional items allowed beyond the daily limit.',
-    add_items_today_msg: 'Items added today.',
-    file_statistic_msg: 'Statistics for this file.',
-    used_quota:'Used quota',
+    quota: "Quota",
+    max_batch_msg: "Maximum number of items you can import in a single batch.",
+    max_daily_limit_msg: "Maximum number of items you can import in a day.",
+    extra_daily_limit_msg: "Additional items allowed beyond the daily limit.",
+    add_items_today_msg: "Items added today.",
+    file_statistic_msg: "Statistics for this file.",
+    used_quota: "Used quota",
   },
-
 
   /** {@see BPageShopMarketingCampaign**/
   campaigns: {
@@ -9869,7 +10003,8 @@ export default {
       title: "Add Custom Section",
       configuration: {
         title: "Settings",
-        subtitle: "You can save custom-designed sections for future use in your page designs. These saved sections will be accessible to all administrators in this store.",
+        subtitle:
+          "You can save custom-designed sections for future use in your page designs. These saved sections will be accessible to all administrators in this store.",
       },
       image: {
         title: "Image",
@@ -9877,7 +10012,8 @@ export default {
       },
       code: {
         title: "Code",
-        subtitle: "You can copy and paste the element code from the left side sections in the page builder.",
+        subtitle:
+          "You can copy and paste the element code from the left side sections in the page builder.",
       },
       inputs: {
         title: {
@@ -9895,45 +10031,46 @@ export default {
     },
   },
 
-
   /**
    * @see BPageMarketplaceVendors
    */
   marketplace_vendors: {
-    title: 'Vendors List',
-    subtitle: "Add vendors here, then assign them to products in the Product Dashboard > Vendors.",
-    add_new_vendor_action: 'Add New Vendor',
+    title: "Vendors List",
+    subtitle:
+      "Add vendors here, then assign them to products in the Product Dashboard > Vendors.",
+    add_new_vendor_action: "Add New Vendor",
     status_tooltip: {
-      title: 'Vendor Status',
-      ACCEPTED: 'The vendor has access to their panel.',
-      REJECTED: 'The vendor request has been rejected.',
-      PENDING: 'The request is awaiting a decision from the vendor.',
+      title: "Vendor Status",
+      ACCEPTED: "The vendor has access to their panel.",
+      REJECTED: "The vendor request has been rejected.",
+      PENDING: "The request is awaiting a decision from the vendor.",
     },
-    number_of_products: 'Number of Products',
-    invited: 'Invited',
-    no_pricing: 'No Pricing',
+    number_of_products: "Number of Products",
+    invited: "Invited",
+    no_pricing: "No Pricing",
     no_pricing_tooltip: {
-      title: 'Default Pricing Plan',
+      title: "Default Pricing Plan",
       subtitle: "Please set a default pricing model for the vendor.",
     },
     updated_products_tooltip: {
-      title: 'Products Updated in the Last 24 Hours',
+      title: "Products Updated in the Last 24 Hours",
     },
     added_products_tooltip: {
-      title: 'Products Added in the Last 24 Hours',
+      title: "Products Added in the Last 24 Hours",
     },
     access_tooltip: {
-      title: 'Panel Access',
-      subtitle: 'The vendor has access to their panel. You can edit this in Vendor > Access tab.',
+      title: "Panel Access",
+      subtitle:
+        "The vendor has access to their panel. You can edit this in Vendor > Access tab.",
     },
     reject_by_user_tooltip: {
-      title: 'Rejected by User',
-      subtitle: "The user rejected the request to become a vendor and access this vendor.",
+      title: "Rejected by User",
+      subtitle:
+        "The user rejected the request to become a vendor and access this vendor.",
     },
-    download_all_vendors:'Download all vendors',
-    bulk_import:'Bulk import (Excel)'
+    download_all_vendors: "Download all vendors",
+    bulk_import: "Bulk import (Excel)",
   },
-
 
   /**
    * Auto fill suggestions
@@ -10828,7 +10965,7 @@ export default {
      * Cross-Selling
      */
     vendor_pricing: {
-      title:[
+      title: [
         "Digital Goods",
         "Books",
         "Electronics",
@@ -10848,9 +10985,8 @@ export default {
         "Movies & TV Shows",
         "Software",
         "Art & Crafts",
-        "Outdoor Gear"
-      ]
-
-    }
+        "Outdoor Gear",
+      ],
+    },
   },
 };

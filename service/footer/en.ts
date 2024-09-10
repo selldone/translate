@@ -119,7 +119,7 @@ export default {
     preferences_dialog: {
       title: "User preferences",
     },
-    invite_link: "Share this unique link to invite new members",
+    invite_link: "My monetization referral link",
   },
 
   admin_shop_footer: {

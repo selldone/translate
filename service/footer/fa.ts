@@ -121,7 +121,7 @@ export default {
     preferences_dialog: {
       title: "تنظیمات کاربری",
     },
-    invite_link: "با لینک یکتای خود دیگران را دعوت نمایید",
+    invite_link: "لینک ریفرال من",
   },
 
   admin_shop_footer: {

@@ -804,7 +804,18 @@ export default {
     rows: "ردیف",
     eligible: "واجد شرایط",
     share: "اشتراک گذاری",
-
+    fulfilling: "در حال پردازش",
+    pickup_options:"گزینه دریافت حضوری",
+    pickup_selected:"دریافت حضوری انتخاب شد",
+    for: "برای",
+    giveaway: "کادو",
+    purchased: "خریداری شده",
+    loading: "در حال بارگذاری",
+    pricing_model: "مدل قیمت گذاری",
+    vendor_price: "قیمت وندور",
+    marketplace_price: "قیمت مارکتپلیس",
+    vendor_wallet: "کیف پول وندور",
+    lead_time: "زمان تحویل",
 
   },
 

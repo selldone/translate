@@ -225,8 +225,28 @@ export default {
       addresses: "آدرس ها",
       profile: "پروفایل",
       orders: "سفارشات",
+      wallets: "کیف پول",
+
     },
   },
+  /**
+   * @see StorefrontPageUserWallets
+   */
+  user_wallets: {
+    title: "کیف پول‌های من",
+    subtitle: "در صورت واجد شرایط بودن و فعال بودن برنامه بازگشت وجه، بخشی از سفارش شما به کیف پولتان اضافه خواهد شد. می‌توانید از این مبلغ در خرید بعدی استفاده کنید.",
+  },
+  /**
+   * @see SWalletInput
+   */
+  wallet_input:{
+    my_wallet_balance:'موجودی کیف پول من',
+  },
+
+  /**
+   * @see SWalletInput
+   */
+
 
   /** {@see StorefrontPageBasketOrderPhysicalDashboard} **/
   order_page: {
@@ -359,6 +379,24 @@ export default {
       currency: "ارز",
       free_shipping: "ارسال رایگان",
     },
+
+    my_profile: {
+      title: "پروفایل من",
+      subtitle: "این اطلاعات پروفایل مشتری من در فروشگاه است.",
+      edit_action: "ویرایش پروفایل"
+    },
+    subscribe_status: {
+      subscribed: "من مشترک دریافت جدیدترین اخبار و تبلیغات از طریق ایمیل هستم.",
+      unsubscribed: "من مشترک دریافت هیچ‌گونه اخبار یا تبلیغات از طریق ایمیل نیستم."
+    },
+    my_club: {
+      subtitle: "سطح و مزایای باشگاه من."
+    },
+    kyc: {
+      subtitle: "این اطلاعات شناسایی جهانی من است."
+    }
+
+
   },
 
   /** {@see StorefrontPageBasketCart} **/
@@ -417,6 +455,10 @@ export default {
 
     no_billing_title: "بدون صورتحساب",
     no_billing_desc: "خالی رها کردن آدرس صورت حساب.",
+
+    can_pay_cod_message: "شما می‌توانید هزینه این سفارش را هنگام تحویل به صورت نقدی پرداخت کنید."
+
+
   },
 
   /** {@see SShopBasketItems} **/
@@ -431,6 +473,8 @@ export default {
   /** {@see StorefrontUserAddresses} **/
   addresses_page: {
     title: "آدرس های من",
+    subtitle: "اینجا می‌توانید فهرست آدرس‌های ذخیره شده خود را مشاهده کنید و به راحتی یک آدرس جدید اضافه کنید.",
+
     new_action: "آدرس جدید",
     receiver: "گیرنده",
     address: "آدرس",
@@ -456,6 +500,8 @@ export default {
   /** {@see StorefrontPageUserReturns} **/
   return_requests: {
     title: "درخواست های مرجوعی",
+    subtitle: "درخواست‌های بازگشت خود را اینجا مشاهده کنید. برای اقلامی که سیاست بازگشت دارند، می‌توانید درخواست بازگشت را در صفحه سفارش ثبت کنید."
+
   },
 
   /** {@see StorefrontPageUserWishlist} **/
@@ -590,7 +636,7 @@ export default {
       "شما می توانید یک کادو را به انتخاب خود، در هر بار سفارش دریافت نمایید.",
   },
 
-  /** {@see Coupons} **/
+  /** {@see SStorefrontCouponsList} **/
   coupons: {
     coupon_code: "کد کوپن",
     add_coupon: "افزودن کوپن",
