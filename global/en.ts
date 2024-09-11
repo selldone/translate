@@ -819,6 +819,7 @@ export default {
     vendor_wallet: "Vendor wallet",
     lead_time: "Lead time",
     listing: "Listing",
+    can_not_edit: "Can not edit",
   },
   difficulties: {
     very_complicated: "Very complicated",

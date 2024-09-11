@@ -652,6 +652,7 @@ export default {
       },
     },
 
+
     /** {@see BPageShopBlogs}  **/
     blogs: {
       new: "Write new",

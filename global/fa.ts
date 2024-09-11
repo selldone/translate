@@ -817,6 +817,7 @@ export default {
     vendor_wallet: "کیف پول وندور",
     lead_time: "زمان تحویل",
     listing: "لیست",
+    can_not_edit: "عدم امکان ویرایش",
 
   },
 
