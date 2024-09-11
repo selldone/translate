@@ -1395,6 +1395,13 @@ export default {
       inventory: "Inventory / Variants",
       change_status: "Change Status",
     },
+    menu_extra:{
+      description: "Description",
+      form: "Form",
+      no_spec:'No spec',
+      has_spec:'Has spec',
+
+    },
 
     select_type: {
       title: "Choose your product or service type.",
@@ -10053,7 +10060,7 @@ export default {
       subtitle: "Please set a default pricing model for the vendor.",
     },
     updated_products_tooltip: {
-      title: "Products Updated in the Last 24 Hours",
+      title: "Products updated in the last 24 hours",
     },
     added_products_tooltip: {
       title: "Products Added in the Last 24 Hours",

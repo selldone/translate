@@ -1365,6 +1365,13 @@ export default {
       change_status: "تغییر وضعیت",
     },
 
+    menu_extra: {
+      description: "توضیحات",
+      form: "فرم",
+      no_spec: "بی مشخصات",
+      has_spec: "با مشخصات"
+    },
+
     select_type: {
       title: "نوع محصول، خدمات و یا کالای خود را انتخاب نمایید.",
     },

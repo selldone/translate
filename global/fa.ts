@@ -816,6 +816,7 @@ export default {
     marketplace_price: "قیمت مارکتپلیس",
     vendor_wallet: "کیف پول وندور",
     lead_time: "زمان تحویل",
+    listing: "لیست",
 
   },
 

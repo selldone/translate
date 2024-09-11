@@ -818,6 +818,7 @@ export default {
     marketplace_price: "Marketplace price",
     vendor_wallet: "Vendor wallet",
     lead_time: "Lead time",
+    listing: "Listing",
   },
   difficulties: {
     very_complicated: "Very complicated",
