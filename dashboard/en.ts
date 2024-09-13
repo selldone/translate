@@ -88,6 +88,10 @@ export default {
       title: "Reimagine",
       subtitle: "Create more images with new backgrounds.",
     },
+    upscale:{
+        title: "Upscale",
+        subtitle: "Increase the resolution of the image.",
+    }
   },
 
   // ------------------ Pages Title ------------------
