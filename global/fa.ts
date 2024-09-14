@@ -1007,6 +1007,7 @@ export default {
     },
     receiver_address: "انتخاب آدرس گیرنده",
     service_address: "انتخاب آدرس",
+    select_billing_address: "انتخاب آدرس صورتحساب",
 
     address: "آدرس",
     postcode: "کد پستی",

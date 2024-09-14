@@ -1007,6 +1007,7 @@ export default {
     },
     receiver_address: "Select shipping address",
     service_address: "Select your address",
+    select_billing_address: "Select billing address",
 
     address: "Address",
     postcode: "Postcode",
