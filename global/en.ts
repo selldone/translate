@@ -1049,6 +1049,10 @@ export default {
     m: "Meter",
     km: "Km",
   },
+  distance_unit_name: {
+    km: "Kilometer",
+    mi: "Mile",
+  },
   time: {
     days: "Days",
     hours: "Hours",

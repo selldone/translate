@@ -887,6 +887,10 @@ export default {
         title: "Mass unit",
         subtitle: "The unit used for weight.",
       },
+      distance_unit: {
+        title: "Distance unit",
+        subtitle: "The unit used for distance.",
+      },
 
       menu: {
         return_request: "Returned",

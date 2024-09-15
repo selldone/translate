@@ -848,6 +848,11 @@ export default {
         subtitle: "واحد مورد استفاده برای اندازه گیری وزن.",
       },
 
+      distance_unit: {
+        title: "واحد فاصله",
+        subtitle: "واحد مورد استفاده برای اندازه گیری فاصله.",
+      },
+
       menu: {
         return_request: "مرجوعی",
         delivery: "حمل و نقل",

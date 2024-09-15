@@ -1049,6 +1049,11 @@ export default {
     m: "متر",
     km: "کیلومتر",
   },
+  distance_unit_name: {
+    km: "کیلومتر",
+    mi: "مایل",
+  },
+
   time: {
     days: "روز",
     hours: "ساعت",
