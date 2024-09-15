@@ -805,8 +805,11 @@ export default {
     eligible: "واجد شرایط",
     share: "اشتراک گذاری",
     fulfilling: "در حال پردازش",
-    pickup_options:"گزینه دریافت حضوری",
+    pickup_options:"گزینه های دریافت حضوری",
     pickup_selected:"دریافت حضوری انتخاب شد",
+    delivery_selected:"ارسال انتخاب شد",
+    delivery_options:"گزینه های ارسال",
+
     for: "برای",
     giveaway: "کادو",
     purchased: "خریداری شده",

@@ -807,8 +807,11 @@ export default {
     eligible: "Eligible",
     share: "Share",
     fulfilling: "Fulfilling",
-    pickup_options:"Pickup options",
+    pickup_options:"Pickup Options",
     pickup_selected:"Pickup Selected",
+    delivery_selected:"Delivery Selected",
+    delivery_options:"Delivery Options",
+
     for: "for",
     giveaway: "Giveaway",
     purchased: "Purchased",

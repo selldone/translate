@@ -816,10 +816,10 @@ export default {
         },
         table: {
           waiting_receive_data: "Getting information ... please wait",
-          rate_input: "Exchange rate",
+          rate_input: "Exchange Rate",
           from: "From",
           to: "To",
-          exchange_rate: "Exchange rate",
+          exchange_rate: "Exchange Rate",
           edit: "Edit",
           delete: "Delete",
           auto: "Auto rate",
@@ -828,9 +828,9 @@ export default {
           title: "Set Exchange Rate",
           message:
             "Be careful in entering information. The prices of your products will be calculated based on the rates entered here. ",
-          currency_from: "From currency",
-          currency_to: "To currency",
-          exchange_rate: "Exchange rate",
+          currency_from: "From Currency",
+          currency_to: "To Currency",
+          exchange_rate: "Exchange Rate",
         },
         alert: {
           title: "Delete Conversion Rate",
