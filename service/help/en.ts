@@ -18,5 +18,11 @@ export default {
             embed:'cm0i1jeq71097w8i42n158rhy',
             title:'How to add cross selling',
         }
+    },
+    Connect:{
+        XCart:{
+            embed:'cm158815w03reme0p9xuh044q',
+            title:'XCart Migration',
+        }
     }
 }
