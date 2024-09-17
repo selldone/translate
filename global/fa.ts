@@ -822,6 +822,7 @@ export default {
     listing: "لیست",
     can_not_edit: "عدم امکان ویرایش",
     override: "بازنویسی",
+    worldwide: "جهانی",
 
   },
 

@@ -824,6 +824,7 @@ export default {
     listing: "Listing",
     can_not_edit: "Can not edit",
     override: "Override",
+    worldwide: "Worldwide",
   },
   difficulties: {
     very_complicated: "Very complicated",
