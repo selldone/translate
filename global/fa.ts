@@ -821,6 +821,7 @@ export default {
     lead_time: "زمان تحویل",
     listing: "لیست",
     can_not_edit: "عدم امکان ویرایش",
+    override: "بازنویسی",
 
   },
 

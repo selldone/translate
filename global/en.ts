@@ -823,6 +823,7 @@ export default {
     lead_time: "Lead time",
     listing: "Listing",
     can_not_edit: "Can not edit",
+    override: "Override",
   },
   difficulties: {
     very_complicated: "Very complicated",
