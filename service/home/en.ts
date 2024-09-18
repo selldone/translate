@@ -68,6 +68,9 @@ export default {
     cms: "Page Editor & CMS",
 
     in_60_sec: "Click here",
+
+
+    why_use_selldone_if_frustrated_from_wordpress_and_shopify:"If you are frustrated with buggy WordPress plugins, unscalable servers, or the costly and complex setups of Shopify apps, so Selldone is the ultimate solution for you."
   },
 
   video: {
