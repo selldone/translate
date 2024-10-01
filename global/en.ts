@@ -1134,6 +1134,7 @@ export default {
     select_a_country:"Select a country...",
     filter_country:'Filter by country...',
     search:"Search...",
+    select_wallet:'Select a wallet...',
 
   },
 

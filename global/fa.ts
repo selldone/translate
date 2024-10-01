@@ -1127,6 +1127,7 @@ export default {
     select_a_country:"یک کشور انتخاب کنید...",
     filter_country:'فیلتر بر اساس کشور...',
     search:"جستجو...",
+    select_wallet:'انتخاب کیف پول...',
 
   },
 

@@ -5234,11 +5234,13 @@ export default {
     start_date: "Start date",
     end_date: "End date",
     price: "Price",
-    terms: "I read and agree with Selldone terms of use",
+    verify:{
+      true_title:'Verify Terms',
+      true_description: "I read and agree with Selldone terms of use",
+    },
     need_charge: "Need charge",
     buy_now: "Buy now",
     use_voucher_now: "Use voucher now",
-    auto_renewal: "Auto renewal",
     plan_placeholder: "Choose your subscription plan.",
     plan: "License plan",
     use_date: "Added date",
@@ -5281,6 +5283,24 @@ export default {
       message: "Are you sure to cancel this subscription?",
       action: "Cancel subscription",
     },
+    add_dialog: {
+      wallet: {
+        title: 'Choose a Wallet',
+        subtitle: "Select a virtual wallet to use for your subscription. If you don't have one yet, you can create it in the wallet section. This wallet will be used for any charges."
+      },
+      auto_renewal: {
+        true_title: 'Auto Renewal',
+        true_description: "Your subscription will automatically renew if your wallet has enough balance or if you have a valid voucher."
+      },
+      options: {
+        title: "Additional Options"
+      },
+      verify: {
+        title: 'Confirmation'
+      }
+    },
+
+
   },
 
   /** {@see BLayoutBackofficeShop} **/
@@ -10086,6 +10106,14 @@ export default {
     },
     download_all_vendors: "Download all vendors",
     bulk_import: "Bulk import (Excel)",
+  },
+
+  /**
+   * @see BShopLicenseNeedUpdateOverlay
+   */
+    shop_license_need_update_overlay: {
+      title:'License Upgrade Required!',
+    subtitle:"Your current license does not meet the requirements of your selected business model. Please upgrade your license to the Enterprise plan.",
   },
 
   /**

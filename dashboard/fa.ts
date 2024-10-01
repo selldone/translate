@@ -5225,16 +5225,22 @@ export default {
     start_date: "تاریخ شروع",
     end_date: "تاریخ پایان",
     price: "قیمت",
-    terms: "من شرایط و قوانین سایت را مطالعه کرده و با آن موافق هستم.",
+    verify: {
+      true_title: 'تأیید شرایط',
+      true_description: "من شرایط و قوانین سایت را مطالعه کرده و با آن موافق هستم.",
+    },
+
+
     need_charge: "نیاز به شارژ حساب",
     buy_now: "تایید خرید",
     use_voucher_now: "استفاده از ووچر",
 
-    auto_renewal: "تمدید خودکار",
     plan_placeholder: "پلن مورد نظرتان را انتخاب نمایید",
     plan: "نوع پلن",
     use_date: "تاریخ افزودن",
     license_duration: "مدت اعتبار",
+    validity_duration: "مدت اعتبار",
+
     validity_duration_hint:
       "با خرید لایسنس 12 ماهه شما 30% تخفیف دریافت خواهید کرد.",
 
@@ -5270,6 +5276,24 @@ export default {
       message: "آیا مطمعن هستید که می خواهید این پلن را لغو نمایید؟",
       action: "بله، لغو پلن",
     },
+    add_dialog: {
+      wallet: {
+        title: 'انتخاب کیف پول',
+        subtitle: "یک کیف پول مجازی برای اشتراک خود انتخاب کنید. اگر کیف پولی ندارید، می‌توانید در بخش کیف پول یک مورد ایجاد کنید. این کیف پول برای پرداخت‌ها استفاده خواهد شد."
+      },
+      auto_renewal: {
+        true_title: 'تمدید خودکار',
+        true_description: "اشتراک شما به‌طور خودکار تمدید خواهد شد اگر موجودی کیف پول شما کافی باشد یا یک ووچر معتبر داشته باشید."
+      },
+      options: {
+        title: "گزینه‌های اضافی"
+      },
+      verify: {
+        title: 'تأیید'
+      }
+    }
+
+
   },
 
   /** {@see BLayoutBackofficeShop} **/
@@ -10063,6 +10087,15 @@ export default {
     download_all_vendors: "دانلود همه فروشندگان",
     bulk_import: "واردات گروهی (اکسل)",
   },
+
+  /**
+   * @see BShopLicenseNeedUpdateOverlay
+   */
+  shop_license_need_update_overlay: {
+    title: 'ارتقاء مجوز مورد نیاز است!',
+    subtitle: "مجوز فعلی شما با الزامات مدل کسب‌وکار انتخابی شما مطابقت ندارد. لطفاً مجوز خود را به طرح سازمانی (Enterprise) ارتقا دهید.",
+  },
+
 
   /**
    * Auto fill suggestions
