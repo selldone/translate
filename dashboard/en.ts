@@ -4060,6 +4060,55 @@ export default {
   },
 
   /**
+   * @see VPageVendorAccess
+   */
+  vendor_member: {
+    title: "Team Members",
+    subtitle: "This is the list of users who have access to your vendor panel. You can add new team members and customize their permissions here.",
+    add_action: "Add New Member",
+    pending: {
+      title: "Pending Invitations",
+      message: "View the list of invitations that are awaiting acceptance."
+    }
+  },
+
+  /**
+   * @see VMemberAddDialog
+   */
+  vendor_member_add: {
+    title_edit: "Edit Team Member",
+    title_new: "Add New Team Member",
+    member: {
+      title: "Team Member Details",
+      subtitle: "Add a new team member and set their permissions. Click on each item to adjust read/write access. Each row corresponds to a permission level for the main shop dashboard."
+    },
+    access: {
+      view_data: "View Data",
+      apply_changes: "Save Changes"
+    },
+    inputs: {
+      email: {
+        label: "Email Address",
+        placeholder: "Enter the member's email address..."
+      }
+    },
+    notifications: {
+      add_success: {
+        title: "Member Added",
+        message: "The team member has been successfully added."
+      },
+      update_success: {
+        title: "Member Updated",
+        message: "The team member's information has been successfully updated."
+      }
+    },
+    actions: {
+      add: "Add Member"
+    }
+  },
+
+
+  /**
    * @see VPageVendorPayments
    */
   vendor_payments: {

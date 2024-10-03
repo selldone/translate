@@ -825,6 +825,7 @@ export default {
     can_not_edit: "Can not edit",
     override: "Override",
     worldwide: "Worldwide",
+    member: "Member",
   },
   difficulties: {
     very_complicated: "Very complicated",

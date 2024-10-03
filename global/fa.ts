@@ -823,6 +823,7 @@ export default {
     can_not_edit: "عدم امکان ویرایش",
     override: "بازنویسی",
     worldwide: "جهانی",
+    member: "عضو",
 
   },
 
