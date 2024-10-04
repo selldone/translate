@@ -24,5 +24,13 @@ export default {
             embed:'cm158815w03reme0p9xuh044q',
             title:'XCart Migration',
         }
-    }
+    },
+
+    Logistic:{
+        Shipping:{
+            embed:'cm1uw548e0gvt13b30xkjj7c0',
+            title:'Add Shipping Method',
+        }
+    },
+
 }
