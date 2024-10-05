@@ -824,6 +824,7 @@ export default {
     override: "بازنویسی",
     worldwide: "جهانی",
     member: "عضو",
+    invitation: "دعوت",
 
   },
 

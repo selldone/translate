@@ -826,6 +826,7 @@ export default {
     override: "Override",
     worldwide: "Worldwide",
     member: "Member",
+    invitation: "Invitation",
   },
   difficulties: {
     very_complicated: "Very complicated",
