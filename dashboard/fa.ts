@@ -3872,6 +3872,8 @@ export default {
 
     "email-buy": "ارسال ایمیل تایید سفارش برای مشتری.",
     "email-payment": "ارسال ایمیل تایید پرداخت برای مشتری.",
+    "email-update": "ارسال ایمیل به مشتری برای اطلاع رسانی تغییرات سفارش.",
+
     "sms-payment": "ارسال پیامک به مشتری با شماره {phone}.",
 
     "delivery-returned":
@@ -7312,8 +7314,8 @@ export default {
     courier_action: "تایید تحویل به مامور ارسال",
     courier_action_subtitle: "مامور ارسال من بسته را جمع‌آوری خواهد کرد.",
 
-    pickup_action: "تایید دریافت سفارش",
-    pickup_action_subtitle: "مشتری سفارش را دریافت کرد.",
+    pickup_ready_action: "آماده برای تحویل",
+    pickup_ready_action_subtitle: "سفارش آماده تحویل به مشتری است.",
 
     service_action: "تایید اجرا",
 

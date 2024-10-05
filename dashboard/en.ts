@@ -3902,6 +3902,7 @@ export default {
 
     "email-buy": "Send purchase confirmation email to customer.",
     "email-payment": "Send payment confirmation email to customer.",
+    "email-update": "Send order update email to customer.",
     "sms-payment": "Send payment confirmation SMS to customer via {phone}.",
     "delivery-returned":
       "The order was not received by the customer and was returned. It is necessary to ship again.",
@@ -7306,8 +7307,8 @@ export default {
     courier_action: "Delivery Confirmation",
     courier_action_subtitle: "My courier will pick up the parcel.",
 
-    pickup_action: "Pickup confirmation",
-    pickup_action_subtitle: "The customer picked up the order.",
+    pickup_ready_action: "Pickup Ready",
+    pickup_ready_action_subtitle: "The order is ready for customer pickup.",
 
     service_action: "Execution Confirmation",
 
