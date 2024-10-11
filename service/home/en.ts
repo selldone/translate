@@ -139,12 +139,35 @@ export default {
     },
   },
 
+  /**
+   * @see OOnboardingShop
+   */
   onboarding: {
     title: "Make Your Business Online, Faster and Better - it's free",
     success_title: "Installing your online business OS,",
     wait_msg: "Please wait a few seconds...",
     ready_msg: "Your shop is ready.",
     send_mail_msg: "Login link sent to {email}",
+
+
+    enable_disable_features_msg:'You can enable or disable these features later.',
+    package_starter:{
+      title:'Optional Package',
+      subtitle:"We understand you may have no time to set up or learn about Selldone, so after registration, you will have access to an <b>all-in-one package</b> that you can purchase optionally. It will be available for <b>14 days</b> after shop creation only.",
+      include_items_title:'It includes these services',
+      include_items:[
+          'Setup shop settings and appearance',
+          'Setup one shipping method and one payment',
+          'Design your home page',
+          'Help you in importing products by Excel',
+          'Add your custom domain'
+      ]
+    },
+
+    sample:{
+      title:'Install Sample Data',
+      description:'Start my store with sample data such as products, categories, and blog posts.',
+    },
 
     options: {
       title: "Shop Configuration",
