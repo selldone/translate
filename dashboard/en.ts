@@ -3594,41 +3594,16 @@ export default {
       /** {@see BGatewayPaymentsChart} **/
       gateway_data_widget: {
         title: "Payments Report",
-        title_small: "Gateway",
+        subtitle: "Created payments and transactions made during the selected time period.",
         chart: {
           times: "Count",
           buys: "Buy count",
-          pays: "Sccessful payment",
+          pays: "Successful payment",
           amount_pay: "Paid",
           amount_wage: "Fee",
         },
       },
 
-      /** {@see BGatewayOverview} **/
-      gateway_info_widget: {
-        title: "Info",
-        title_small: "Gateway",
-        status: "Status",
-        cod_transportation: "Shipping methods thst support COD",
-        cod_transportations_error:
-          "Enable cash on delivery payment for at least one shipping method!",
-        payment_type: "Payment type",
-        cod: "Cash On Delivery",
-        online: "Online payment",
-        wage_percent: "Fee Percent",
-        min_wage: "Minimum Fee",
-        max_wage: "Maximum Fee",
-        min_amount: "Minimum Transaction",
-        max_amount: "Maximum Transaction",
-        timeout: "Payment Period",
-        timeout_unit: "Seconds",
-        link: "Gateway Link",
-        your_gateway_status: "Your gateway status",
-        config_extra_info: "Payment service configuration",
-        oauth2_button: "Auto Connect to {gateway}",
-        fee_payment_message:
-          "The entire amount paid by the customer will be transferred to your account. The service fee will be deducted from your wallet in Selldone.",
-      },
     },
 
     /** {@see BPageGatewayEdit} **/
@@ -3657,6 +3632,50 @@ export default {
       live_mode: "Live",
       test_mode: "Sandbox",
     },
+  },
+
+
+  /** {@see BGatewayOverview} **/
+  b_gateway_overview: {
+    title: "Info",
+    subtitle: "Overview of payment gateway configuration and status.",
+    status: "Status",
+    cod_transportation: "Shipping methods thst support COD",
+    cod_transportations_error:
+        "Enable cash on delivery payment for at least one shipping method!",
+    payment_type: "Payment type",
+    cod: "Cash On Delivery",
+    online: "Online payment",
+    wage_percent: "Fee Percent",
+    min_wage: "Minimum Fee",
+    max_wage: "Maximum Fee",
+    min_amount: "Minimum Transaction",
+    max_amount: "Maximum Transaction",
+    timeout: "Payment Period",
+    timeout_unit: "Seconds",
+    link: "Gateway Link",
+    your_gateway_status: "Your gateway status",
+    oauth2_button: "Auto Connect to {gateway}",
+    fee_payment_message:
+        "The entire amount paid by the customer will be transferred to your account. The service fee will be deducted from your wallet in Selldone.",
+
+    auto_config:'Auto Config',
+
+    keys:{
+      title:"Private Keys",
+      subtitle:"List of private keys for the payment. This information is essential for creating and managing payments."
+    },
+    extra_config:{
+      title: "Payment service configuration",
+      subtitle:"Additional configuration information for the payment gateway."
+    },
+
+    recommended_actions:{
+      title:'Recommended actions',
+      subtitle:"By taking these steps, you'll begin to receive actual payments from your customers.",
+      action_enable:"Click to enable it",
+      make_live_enable:"Click to live it"
+    }
   },
 
   /** {@see BGatewayAdd} **/

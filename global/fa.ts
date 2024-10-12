@@ -356,6 +356,8 @@ export default {
     created_at: "تاریخ ایجاد",
     updated_at: "آخرین تغییر",
     register_at: "تاریخ ثبت",
+    last_modified: "آخرین ویرایش",
+
     old: "قدیمی",
     new: "جدید",
     start: "شروع",

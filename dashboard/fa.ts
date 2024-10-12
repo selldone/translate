@@ -3557,7 +3557,7 @@ export default {
       /** {@see BGatewayPaymentsChart} **/
       gateway_data_widget: {
         title: "گزارش پرداخت از",
-        title_small: "درگاه",
+        subtitle: "پرداخت‌های ایجاد شده و تراکنش‌های صورت گرفته در بازه زمانی انتخاب شده.",
         chart: {
           times: "مرتبه",
           buys: "دفعات خرید",
@@ -3567,31 +3567,7 @@ export default {
         },
       },
 
-      /** {@see BGatewayOverview} **/
-      gateway_info_widget: {
-        title: "مشخصات",
-        title_small: "درگاه",
-        status: "وضعیت",
-        cod_transportation: "روش های ارسال با قابلیت پرداخت در محل",
-        cod_transportations_error:
-          "حداقل برای یک روش ارسال، امکان پرداخت در محل را فعال نمایید!",
-        payment_type: "نوع پرداخت",
-        cod: " پرداخت در محل",
-        online: "پرداخت آنلاین",
-        wage_percent: "درصد کارمزد",
-        min_wage: "حداقل کارمزد",
-        max_wage: "حداکثر کارمزد",
-        min_amount: "حداقل مبلغ تراکنش",
-        max_amount: "حداکثر مبلغ تراکنش",
-        timeout: "مدت زمان اعتبار برای پرداخت",
-        timeout_unit: "ثانیه",
-        link: "لینک درگاه",
-        your_gateway_status: "وضعیت درگاه فروشگاه",
-        config_extra_info: "اطلاعات برای تنظیم درگاه",
-        oauth2_button: "اتصال خودکار به {gateway}",
-        fee_payment_message:
-          "تمام مبلغ پرداختی توسط مشتری به حساب شما واریز میگردد. کارمزد سلدان از کیف پول شما در سلدان کم خواهد شد.",
-      },
+
     },
 
     /** {@see BPageGatewayEdit} **/
@@ -3620,6 +3596,52 @@ export default {
       live_mode: "واقعی",
       test_mode: "آزمایشی",
     },
+  },
+
+  /** {@see BGatewayOverview} **/
+  b_gateway_overview: {
+    title: "مشخصات",
+    subtitle: "نمای کلی از پیکربندی و وضعیت درگاه پرداخت.",
+
+    status: "وضعیت",
+    cod_transportation: "روش های ارسال با قابلیت پرداخت در محل",
+    cod_transportations_error:
+        "حداقل برای یک روش ارسال، امکان پرداخت در محل را فعال نمایید!",
+    payment_type: "نوع پرداخت",
+    cod: " پرداخت در محل",
+    online: "پرداخت آنلاین",
+    wage_percent: "درصد کارمزد",
+    min_wage: "حداقل کارمزد",
+    max_wage: "حداکثر کارمزد",
+    min_amount: "حداقل مبلغ تراکنش",
+    max_amount: "حداکثر مبلغ تراکنش",
+    timeout: "مدت زمان اعتبار برای پرداخت",
+    timeout_unit: "ثانیه",
+    link: "لینک درگاه",
+    your_gateway_status: "وضعیت درگاه فروشگاه",
+    oauth2_button: "اتصال خودکار به {gateway}",
+    fee_payment_message:
+        "تمام مبلغ پرداختی توسط مشتری به حساب شما واریز میگردد. کارمزد سلدان از کیف پول شما در سلدان کم خواهد شد.",
+
+    auto_config:'پیکربندی خودکار',
+
+    keys: {
+      title: "کلیدهای خصوصی",
+      subtitle: "لیست کلیدهای خصوصی برای پرداخت. این اطلاعات برای ایجاد و مدیریت پرداخت‌ها ضروری است."
+    },
+    extra_config: {
+      title: "پیکربندی سرویس پرداخت",
+      subtitle: "اطلاعات پیکربندی اضافی برای درگاه پرداخت."
+    },
+
+    recommended_actions: {
+      title: 'اقدامات پیشنهادی',
+      subtitle: "با انجام این مراحل، پرداخت‌های واقعی از مشتریان خود دریافت خواهید کرد.",
+      action_enable: "برای فعال‌سازی کلیک کنید",
+      make_live_enable: "برای انتشار کلیک کنید"
+    }
+
+
   },
 
   /** {@see BGatewayAdd} **/

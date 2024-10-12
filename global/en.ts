@@ -357,6 +357,7 @@ export default {
     created_at: "Created date",
     updated_at: "Last update",
     register_at: "Register date",
+    last_modified: "Last modified",
     old: "Old",
     new: "New",
     start: "Start",
