@@ -39,6 +39,7 @@ export default {
   // Common:
   commons: {
     Currency: "ارز",
+    currencies: "ارزها",
     COD: "پرداخت در محل",
     State: "وضعیت",
     Price: "قیمت",
@@ -825,6 +826,7 @@ export default {
     worldwide: "جهانی",
     member: "عضو",
     invitation: "دعوت",
+    europe: "اروپا",
 
   },
 
@@ -1130,6 +1132,7 @@ export default {
     filter_country:'فیلتر بر اساس کشور...',
     search:"جستجو...",
     select_wallet:'انتخاب کیف پول...',
+    filter_by:'فیلتر بر اساس...',
 
   },
 

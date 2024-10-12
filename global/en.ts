@@ -40,6 +40,7 @@ export default {
   // Common:
   commons: {
     Currency: "Currency",
+    currencies: "Currencies",
     COD: "COD",
     State: "State",
     Price: "Price",
@@ -827,6 +828,7 @@ export default {
     worldwide: "Worldwide",
     member: "Member",
     invitation: "Invitation",
+    europe: "Europe",
   },
   difficulties: {
     very_complicated: "Very complicated",
@@ -1137,6 +1139,7 @@ export default {
     filter_country:'Filter by country...',
     search:"Search...",
     select_wallet:'Select a wallet...',
+    filter_by:'Filter by...'
 
   },
 

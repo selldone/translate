@@ -782,22 +782,7 @@ export default {
           "Charge your account to prevent service suspension!",
       },
 
-      /** {@see BPageShopFinanceGateways} **/
-      gateway: {
-        title: "Payment Methods",
-        sub_title:
-          "List of active payment methods. If you want to add a new method to your shop, press the following button. We highly recommended not exceeding 10 added payment gateways.",
-        add_gateway: "New payment method",
 
-        add_gateway_dialog: {
-          title: "Select Currency",
-          country_currencies: "Local currencies",
-          crypto_currencies: "Cryptocurrencies",
-          active_gateways: "Active payment methods",
-
-          confirm: "Add payment method",
-        },
-      },
 
       /** {@see BPageShopFinanceExchange} **/
       exchange: {
@@ -1622,6 +1607,9 @@ export default {
         delete_cons_success: "Product weakness removed.",
       },
     },
+
+
+
 
     /** {@see BProductEditSpec} **/
     edit_spec: {
@@ -2776,6 +2764,74 @@ export default {
     added_items: "Add items",
     removed_items: "Remove items",
   },
+
+  /** {@see BPageShopFinanceGateways} **/
+  b_page_shop_finance_gateway: {
+    title: "Payment Methods",
+    sub_title:
+        "List of active payment methods. If you want to add a new method to your shop, press the following button. We highly recommended not exceeding 10 added payment gateways.",
+    add_gateway: "New payment method",
+
+    add_gateway_dialog: {
+      title: "Select Currency",
+      country_currencies: "Local currencies",
+      crypto_currencies: "Cryptocurrencies",
+
+      confirm: "Add payment method",
+
+
+      online_methods:'Online Methods',
+      cod_methods:'Cash On Delivery',
+      bank_transfer:'Bank Transfer',
+      cash_methods:'Cash Payment (POS)',
+
+
+      currency_step:{
+        title:'Select a currency',
+        subtitle:"Try to keep the number of currencies in your store to a minimum—ideally fewer than 3. Most payment gateways can process transactions in almost any currency.",
+        add_first_currency: {
+          subtitle: 'Please add a currency to your shop before proceeding.',
+          title: 'Add Currency'
+        }
+
+
+      },
+        gateway_step:{
+          title: "Active payment methods",
+          subtitle:"Please choose from the available payment methods. Once you select a gateway, you'll be able to enter the necessary connection details to link your shop directly to your preferred payment method."
+        },
+
+      config_step:{
+        import_config:'You can import config from other similar gateways',
+        import_from:'Import from',
+
+      },
+
+      request_add_new_gateway:{
+        title:"Don't see your preferred payment method?",
+        subtitle:"If your local payment provider isn't listed, subscribe to any yearly plan (including Startup for affordability) and request an integration. We'll complete it within 48 hours if a test account and documentation are provided.",
+
+      },
+
+
+      inputs:{
+        currency:{
+          placeholder:'Select a gateway to import...'
+        },
+        manual:{
+
+          true_title:"Manually mode",
+          true_description:"You can set gateway configuration manually.",
+
+          false_title:'Auto connect',
+          false_description:'The system will automatically connect to the gateway if you already have a configured gateway in place.',
+
+        }
+      }
+
+    },
+  },
+
 
   /** {@see FaqRequestsList} **/
   faq_list: {
