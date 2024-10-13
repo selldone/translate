@@ -2317,7 +2317,7 @@ export default {
     winter: "زمستان",
   },
 
-  /** {@see SOrderChatBox} **/
+  /** {@see SOrderChatBox} {@see BOrderChatBox} **/
   order_chat: {
     seller: {
       history: {

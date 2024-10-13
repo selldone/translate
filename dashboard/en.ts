@@ -10241,6 +10241,78 @@ export default {
     subtitle:"Your current license does not meet the requirements of your selected business model. Please upgrade your license to the Enterprise plan.",
   },
 
+
+  /**
+   * {@see BOrderChatBox}
+   */
+    b_order_chat_box: {
+    title:'Quick Actions',
+    subtitle:"You can send a status update email to the buyer with just one click. Additionally, you can define common messages here to reuse, so you don't have to rewrite them each time.",
+    send_update_email_action:'Send Update Email',
+    add_template_action:'Add Message Template',
+
+    notifications:{
+      add_chat_success_message:"Message has been added successfully.",
+    },
+
+
+
+    send_update_email:{
+      title:'Order Update Email',
+      need_set_service_alert:{
+        message:"Please set your email service provider to allow the email to be sent.",
+        action:"Go to settings"
+      },
+      send_action:'Send Update Email',
+
+
+      notifications:{
+        send_success_message:"Email has been sent successfully.",
+      },
+
+    },
+    add_template:{
+      edit_title:"Edit Message Template",
+      add_title:"Add Message Template",
+      message:"You should set a title and message body here. The title only be used for your reference and will not sent to the customer.",
+
+      save_action:'Save Template',
+      add_action:"Add Template",
+
+      notifications:{
+        save_success_message:"Template has been saved successfully.",
+      },
+
+      inputs:{
+        title:{
+          label:'Template Title',
+          placeholder:"Write a short title..."
+        },
+        body:{
+          label:'Template Message',
+          placeholder:'Write your message here...',
+          messages:"You can set dynamic values by {order_id} and {buyer_name}."
+        }
+      }
+    }
+  },
+
+  /**
+   * {@see BOrderShare}
+   */
+    b_order_share: {
+    title:'Order Link',
+    subtitle:'You can share the order link with the customer.',
+  guest_checkout_message:"Guest shoppers can automatically view their order in the same browser.However, if the customer is a guest and you need to share the order details, you can create a secure link for them.",
+    authentication:"Authentication",
+    guest:"Guest",
+    click_to_create:'Click to create...',
+    valid_for_30_days:"valid for 30 days",
+    notifications:{
+      secure_link_created:"Secure link has been created successfully."
+    }
+  },
+
   /**
    * Auto fill suggestions
    */
@@ -11157,5 +11229,51 @@ export default {
         "Outdoor Gear",
       ],
     },
+
+    /**
+     * Template Message
+     */
+    template_message:{
+      title:[
+        "Order Confirmation",
+        "Order Shipped",
+        "Order Delivered",
+        "Payment Received",
+        "Order Cancelled",
+        "Order Processing Delay",
+        "Order On Hold",
+        "Order Out for Delivery",
+        "Return Processed",
+        "Refund Issued",
+        "Item Back in Stock"
+      ],
+      body:[
+        "Hi {buyer_name}, your order #{order_id} has been confirmed! We’re processing it and will notify you when it’s ready to ship.",
+
+        "Good news, {buyer_name}! Your order #{order_id} has been shipped. You can track it through your account. Thanks for shopping with us!",
+
+        "Hello {buyer_name}, your order #{order_id} has been successfully delivered. We hope you enjoy your purchase. Thank you!",
+
+        "Hi {buyer_name}, we have received the payment for order #{order_id}. Your order is now being processed and will be shipped soon.",
+
+        "Dear {buyer_name}, we're sorry to inform you that your order #{order_id} has been cancelled. If you have any questions, please contact support.",
+
+        "Dear {buyer_name}, we’re experiencing a delay with your order #{order_id}. We apologize for the inconvenience and are working to resolve it as soon as possible.",
+
+        "Hi {buyer_name}, your order #{order_id} is currently on hold. Please check your account or contact support for further details.",
+
+        "Hi {buyer_name}, your order #{order_id} is out for delivery and should reach you soon. Thank you for your patience!",
+
+        "Dear {buyer_name}, we have processed the return for your order #{order_id}. If you have any questions, please contact support.",
+
+        "Hi {buyer_name}, your refund for order #{order_id} has been issued. You should see the funds in your account soon.",
+
+        "Hi {buyer_name}, the item from your order #{order_id} is back in stock! You can place a new order now if you’re still interested."
+
+      ]
+    }
+
+
+
   },
 };
