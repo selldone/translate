@@ -184,7 +184,7 @@ export default {
     shop_name_length: "Minimum store name length",
     chars: "Character",
     page_builder: "Custom landing pages",
-    page_builder_info: "Modern drag & drop landing page builder",
+    page_builder_info: "Modern drag & drop landing page builder.",
     pages: "Pages",
     cms: "CMS & Blog",
     cms_info:
@@ -208,13 +208,13 @@ export default {
     currencies_info: "Over 143 currencies are supported now.",
     currencies_encrypted: "Crypto Currencies",
     currencies_encrypted_info:
-      "Currencies on the blockchain (Needs activation review)",
+      "Currencies on the blockchain (Needs activation review).",
 
     online_pay_wage: "Online payment fee",
     online_pay_wage_info:
       "This amount will be deducted from your recharge account in Selldone.",
     cod_wage: "COD payment fee",
-    cod_wage_info: "This amount will be deducted from your charge account",
+    cod_wage_info: "This amount will be deducted from your charge account.",
 
     file_wage: "File selling fee",
     file_wage_info:
@@ -244,10 +244,10 @@ export default {
     setup: "Free setup",
     technical_support: "Technical support",
     file_sell: "File selling storage",
-    file_sell_info: "Free cloud storage disk for selling files (Super fast)",
+    file_sell_info: "Free cloud storage disk for selling files (Super fast).",
     file_size: "Maximum size of each file",
     file_size_info:
-      "Maximum size of each file for selling (you can upload more than one file for each product)",
+      "Maximum size of each file for selling (you can upload more than one file for each product).",
   },
   products: {
     title: "Products",
@@ -255,15 +255,15 @@ export default {
   seo: {
     title: "SEO",
     meta: "Meta tags",
-    meta_info: "Create fully advanced meta tags automatically",
+    meta_info: "Create fully advanced meta tags automatically.",
     jsonld: "JSON-LD",
     jsonld_info: "Structured Data",
     amp: "AMP",
-    amp_info: "Accelerated mobile pages",
+    amp_info: "Accelerated Mobile Pages",
     compress: "Image Compression",
     compress_info: "jpg, png, svg, wpng, ...",
     boost: "Speed Accelerator",
-    boost_info: "Page load scheduler for search engines",
+    boost_info: "Page load speed optimization.",
     sitemap: "Sitemap",
     sitemap_info: "Search Engine Sitemap",
   },
@@ -289,14 +289,14 @@ export default {
   logistic: {
     title: "Logistics",
     logistic: "Logistics & Transportation",
-    logistic_desc: "Management of inventory and shipping methods",
+    logistic_desc: "Management of inventory and shipping methods.",
     private_transportation: "Private shipping system",
     private_transportation_desc:
       "Create and manage a private shipping service.",
     transportation: "Manage advanced shipping methods",
-    transportation_desc: "Local and international shipping services",
+    transportation_desc: "Local and international shipping services.",
     process_center: "Advanced Processing Center",
-    process_center_desc: "Easy-to-use orders management panel",
+    process_center_desc: "Easy-to-use orders management panel.",
     return_requests: "Return management",
     return_requests_desc: "Order return management.",
   },
@@ -304,16 +304,20 @@ export default {
     title: "Marketing & Sales",
     campaign: "Create and manage a campaign",
     affiliate_marketing: "Affiliate marketing",
-    affiliate_marketing_desc: "Create and manage sales engagement plans",
+    affiliate_marketing_desc: "Create and manage sales engagement plans.",
     email_marketing: "Email Marketing Panel",
     email_marketing_desc:
-      "Designing and sending targeted emails to audiences with filters and feedback",
+      "Designing and sending targeted emails to audiences with filters and feedback.",
     funnel: "Advanced User Filter",
     funnel_desc: "Filter users by gender, purchase history, last login, etc.",
     ab_test: "A / B test",
     user_reaction: "Landing Page Analysis",
     user_reaction_desc:
-      "View the landed and clicked sections of the landing pages as a thermal map and diagram",
+      "View the landed and clicked sections of the landing pages as a thermal map and diagram.",
+
+
+    cross_selling:"Cross Selling",
+    cross_selling_desc:"Offer additional products to customers based on current purchases.",
   },
   customers: {
     title: "Customers & Incentives",
@@ -328,14 +332,17 @@ export default {
     gift_card_info: "Make unlimited charge card.",
 
     offer: "Offer",
-    offer_desc: "Buy this product, Get that free (or by discount)",
+    offer_desc: "Buy this product, Get that free (or by discount).",
     game: "Gamification",
-    game_desc: "Design a game with prizes",
+    game_desc: "Design a game with prizes.",
+
+    cashback: "Cashback",
+    cashback_desc: "Return a percentage of the purchase price to the customer.",
   },
   bots: {
     title: "Bots, Social Networks, and Sales Channels",
     telegram: "Telegram sales robot",
-    telegram_info: "Build your own Telegram shop for free",
+    telegram_info: "Build your own Telegram shop for free.",
     instagram: "Instagram",
     instagram_info: "Connect your store to Instagram.",
     facebook: "Facebook",
@@ -411,7 +418,7 @@ export default {
     title: "Community Builder Platform",
 
     available: "Free Custom Community",
-    available_info: "Ability to create a custom community",
+    available_info: "Ability to create a custom community.",
     nomination: "By nomination",
 
     domain: "Custom domain",
