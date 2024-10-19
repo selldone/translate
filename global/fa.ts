@@ -829,7 +829,11 @@ export default {
     member: "عضو",
     invitation: "دعوت",
     europe: "اروپا",
-
+    buy: "خرید",
+    levels: "سطوح",
+    sex:'جنسیت',
+    repeat: "تکرار",
+    interval: "فاصله زمانی",
   },
 
   difficulties: {

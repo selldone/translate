@@ -88,10 +88,10 @@ export default {
       title: "Reimagine",
       subtitle: "Create more images with new backgrounds.",
     },
-    upscale:{
-        title: "Upscale",
-        subtitle: "Increase the resolution of the image.",
-    }
+    upscale: {
+      title: "Upscale",
+      subtitle: "Increase the resolution of the image.",
+    },
   },
 
   // ------------------ Pages Title ------------------
@@ -656,7 +656,6 @@ export default {
       },
     },
 
-
     /** {@see BPageShopBlogs}  **/
     blogs: {
       new: "Write new",
@@ -781,8 +780,6 @@ export default {
         inform_charge_account_critical:
           "Charge your account to prevent service suspension!",
       },
-
-
 
       /** {@see BPageShopFinanceExchange} **/
       exchange: {
@@ -1389,12 +1386,11 @@ export default {
       inventory: "Inventory / Variants",
       change_status: "Change Status",
     },
-    menu_extra:{
+    menu_extra: {
       description: "Description",
       form: "Form",
-      no_spec:'No spec',
-      has_spec:'Has spec',
-
+      no_spec: "No spec",
+      has_spec: "Has spec",
     },
 
     select_type: {
@@ -1607,9 +1603,6 @@ export default {
         delete_cons_success: "Product weakness removed.",
       },
     },
-
-
-
 
     /** {@see BProductEditSpec} **/
     edit_spec: {
@@ -1901,6 +1894,16 @@ export default {
     },
   },
 
+  /**
+   * @see BPageShopPagesPopups
+   */
+  b_shop_popups: {
+    title: "Popups management",
+    subtitle:
+      "Create personalized, intelligent, and interactive pop-up windows.",
+    add_action: "Add New Popup",
+  },
+
   /** {@see BProductProfileTax} **/
   product_tax_profile: {
     description: {
@@ -1947,16 +1950,14 @@ export default {
    * @see BVendorAdd
    */
   vendor_add: {
-
-    menu:{
-      profile:"Profile & Info",
-      business:'Business & Payment',
-      documents:'Documents',
-      page:'Page Template',
-      shipping:'Shipping',
-      access:'Access',
-      critical_zone:'Critical Zone',
-
+    menu: {
+      profile: "Profile & Info",
+      business: "Business & Payment",
+      documents: "Documents",
+      page: "Page Template",
+      shipping: "Shipping",
+      access: "Access",
+      critical_zone: "Critical Zone",
     },
 
     profile: {
@@ -1967,8 +1968,6 @@ export default {
       send_invitation_email: "Send Invitation Email",
       invitation_link: "Invitation Link",
     },
-
-
 
     profiles: {
       title: "Profiles",
@@ -2037,10 +2036,8 @@ export default {
     email_not_match_with_user_msg:
       "Entered email does not match with user's email (<b>{user_name}:</b>{user_email}). Are you sure to send emails to<b>{email}</b>?",
 
-
-
-
-    order_information_email_to_email:"We will send orders information to <b>{email}</b>.",
+    order_information_email_to_email:
+      "We will send orders information to <b>{email}</b>.",
 
     set_a_user_for_the_vendor_first_msg: "Set a user for the vendor first.",
 
@@ -2769,7 +2766,7 @@ export default {
   b_page_shop_finance_gateway: {
     title: "Payment Methods",
     sub_title:
-        "List of active payment methods. If you want to add a new method to your shop, press the following button. We highly recommended not exceeding 10 added payment gateways.",
+      "List of active payment methods. If you want to add a new method to your shop, press the following button. We highly recommended not exceeding 10 added payment gateways.",
     add_gateway: "New payment method",
 
     add_gateway_dialog: {
@@ -2779,59 +2776,52 @@ export default {
 
       confirm: "Add payment method",
 
+      online_methods: "Online Methods",
+      cod_methods: "Cash On Delivery",
+      bank_transfer: "Bank Transfer",
+      cash_methods: "Cash Payment (POS)",
 
-      online_methods:'Online Methods',
-      cod_methods:'Cash On Delivery',
-      bank_transfer:'Bank Transfer',
-      cash_methods:'Cash Payment (POS)',
-
-
-      currency_step:{
-        title:'Select a currency',
-        subtitle:"Try to keep the number of currencies in your store to a minimum—ideally fewer than 3. Most payment gateways can process transactions in almost any currency.",
+      currency_step: {
+        title: "Select a currency",
+        subtitle:
+          "Try to keep the number of currencies in your store to a minimum—ideally fewer than 3. Most payment gateways can process transactions in almost any currency.",
         add_first_currency: {
-          subtitle: 'Please add a currency to your shop before proceeding.',
-          title: 'Add Currency'
-        }
-
-
-      },
-        gateway_step:{
-          title: "Active payment methods",
-          subtitle:"Please choose from the available payment methods. Once you select a gateway, you'll be able to enter the necessary connection details to link your shop directly to your preferred payment method."
+          subtitle: "Please add a currency to your shop before proceeding.",
+          title: "Add Currency",
         },
-
-      config_step:{
-        import_config:'You can import config from other similar gateways',
-        import_from:'Import from',
-
+      },
+      gateway_step: {
+        title: "Active payment methods",
+        subtitle:
+          "Please choose from the available payment methods. Once you select a gateway, you'll be able to enter the necessary connection details to link your shop directly to your preferred payment method.",
       },
 
-      request_add_new_gateway:{
-        title:"Don't see your preferred payment method?",
-        subtitle:"If your local payment provider isn't listed, subscribe to any yearly plan (including Startup for affordability) and request an integration. We'll complete it within 48 hours if a test account and documentation are provided.",
-
+      config_step: {
+        import_config: "You can import config from other similar gateways",
+        import_from: "Import from",
       },
 
+      request_add_new_gateway: {
+        title: "Don't see your preferred payment method?",
+        subtitle:
+          "If your local payment provider isn't listed, subscribe to any yearly plan (including Startup for affordability) and request an integration. We'll complete it within 48 hours if a test account and documentation are provided.",
+      },
 
-      inputs:{
-        currency:{
-          placeholder:'Select a gateway to import...'
+      inputs: {
+        currency: {
+          placeholder: "Select a gateway to import...",
         },
-        manual:{
+        manual: {
+          true_title: "Manually mode",
+          true_description: "You can set gateway configuration manually.",
 
-          true_title:"Manually mode",
-          true_description:"You can set gateway configuration manually.",
-
-          false_title:'Auto connect',
-          false_description:'The system will automatically connect to the gateway if you already have a configured gateway in place.',
-
-        }
-      }
-
+          false_title: "Auto connect",
+          false_description:
+            "The system will automatically connect to the gateway if you already have a configured gateway in place.",
+        },
+      },
     },
   },
-
 
   /** {@see FaqRequestsList} **/
   faq_list: {
@@ -3594,7 +3584,8 @@ export default {
       /** {@see BGatewayPaymentsChart} **/
       gateway_data_widget: {
         title: "Payments Report",
-        subtitle: "Created payments and transactions made during the selected time period.",
+        subtitle:
+          "Created payments and transactions made during the selected time period.",
         chart: {
           times: "Count",
           buys: "Buy count",
@@ -3603,7 +3594,6 @@ export default {
           amount_wage: "Fee",
         },
       },
-
     },
 
     /** {@see BPageGatewayEdit} **/
@@ -3634,7 +3624,6 @@ export default {
     },
   },
 
-
   /** {@see BGatewayOverview} **/
   b_gateway_overview: {
     title: "Info",
@@ -3642,7 +3631,7 @@ export default {
     status: "Status",
     cod_transportation: "Shipping methods thst support COD",
     cod_transportations_error:
-        "Enable cash on delivery payment for at least one shipping method!",
+      "Enable cash on delivery payment for at least one shipping method!",
     payment_type: "Payment type",
     cod: "Cash On Delivery",
     online: "Online payment",
@@ -3657,25 +3646,27 @@ export default {
     your_gateway_status: "Your gateway status",
     oauth2_button: "Auto Connect to {gateway}",
     fee_payment_message:
-        "The entire amount paid by the customer will be transferred to your account. The service fee will be deducted from your wallet in Selldone.",
+      "The entire amount paid by the customer will be transferred to your account. The service fee will be deducted from your wallet in Selldone.",
 
-    auto_config:'Auto Config',
+    auto_config: "Auto Config",
 
-    keys:{
-      title:"Private Keys",
-      subtitle:"List of private keys for the payment. This information is essential for creating and managing payments."
+    keys: {
+      title: "Private Keys",
+      subtitle:
+        "List of private keys for the payment. This information is essential for creating and managing payments.",
     },
-    extra_config:{
+    extra_config: {
       title: "Payment service configuration",
-      subtitle:"Additional configuration information for the payment gateway."
+      subtitle: "Additional configuration information for the payment gateway.",
     },
 
-    recommended_actions:{
-      title:'Recommended actions',
-      subtitle:"By taking these steps, you'll begin to receive actual payments from your customers.",
-      action_enable:"Click to enable it",
-      make_live_enable:"Click to live it"
-    }
+    recommended_actions: {
+      title: "Recommended actions",
+      subtitle:
+        "By taking these steps, you'll begin to receive actual payments from your customers.",
+      action_enable: "Click to enable it",
+      make_live_enable: "Click to live it",
+    },
   },
 
   /** {@see BGatewayAdd} **/
@@ -4140,12 +4131,13 @@ export default {
    */
   vendor_member: {
     title: "Team Members",
-    subtitle: "This is the list of users who have access to your vendor panel. You can add new team members and customize their permissions here.",
+    subtitle:
+      "This is the list of users who have access to your vendor panel. You can add new team members and customize their permissions here.",
     add_action: "Add New Member",
     pending: {
       title: "Pending Invitations",
-      message: "View the list of invitations that are awaiting acceptance."
-    }
+      message: "View the list of invitations that are awaiting acceptance.",
+    },
   },
 
   /**
@@ -4156,33 +4148,33 @@ export default {
     title_new: "Add New Team Member",
     member: {
       title: "Team Member Details",
-      subtitle: "Add a new team member and set their permissions. Click on each item to adjust read/write access. Each row corresponds to a permission level for the main shop dashboard."
+      subtitle:
+        "Add a new team member and set their permissions. Click on each item to adjust read/write access. Each row corresponds to a permission level for the main shop dashboard.",
     },
     access: {
       view_data: "View Data",
-      apply_changes: "Save Changes"
+      apply_changes: "Save Changes",
     },
     inputs: {
       email: {
         label: "Email Address",
-        placeholder: "Enter the member's email address..."
-      }
+        placeholder: "Enter the member's email address...",
+      },
     },
     notifications: {
       add_success: {
         title: "Member Added",
-        message: "The team member has been successfully added."
+        message: "The team member has been successfully added.",
       },
       update_success: {
         title: "Member Updated",
-        message: "The team member's information has been successfully updated."
-      }
+        message: "The team member's information has been successfully updated.",
+      },
     },
     actions: {
-      add: "Add Member"
-    }
+      add: "Add Member",
+    },
   },
-
 
   /**
    * @see VPageVendorPayments
@@ -4219,18 +4211,19 @@ export default {
   /**
    * @see BVendorOrderRefund
    */
-    vendor_order_refund: {
-      title:'Refund order',
-    subtitle:"<b>Important! </b>Executing this action will generate a negative transaction in the vendor's wallet and subtract the chosen amount from it. The amount cannot exceed the remaining total transactions for the selected order. Additionally, if funds have been transferred to connected bank accounts (such as with Stripe Connect or manual wire transfer), you should create a <b>reversal transfer</b>.",
-    inputs:{
-      note:{
-        message:"It's visible to the vendor.",
-        placeholder:"You can attach a note here..."
+  vendor_order_refund: {
+    title: "Refund order",
+    subtitle:
+      "<b>Important! </b>Executing this action will generate a negative transaction in the vendor's wallet and subtract the chosen amount from it. The amount cannot exceed the remaining total transactions for the selected order. Additionally, if funds have been transferred to connected bank accounts (such as with Stripe Connect or manual wire transfer), you should create a <b>reversal transfer</b>.",
+    inputs: {
+      note: {
+        message: "It's visible to the vendor.",
+        placeholder: "You can attach a note here...",
       },
-      amount:{
-        error_message:"The remaining amount has been exceeded."
-      }
-    }
+      amount: {
+        error_message: "The remaining amount has been exceeded.",
+      },
+    },
   },
 
   /** {@see BOrderVendorPaymentManagement} **/
@@ -4239,11 +4232,12 @@ export default {
       "This provides an overview of the transactions in the vendor's virtual wallet on the marketplace. Whenever an order is placed, the vendor's share of the sale is added to their wallet.",
     vendor_wallets: "Vendor Wallets",
     my_wallets: "My Wallets",
-    refund_order_action:'Refund Order',
-    automatic_payout_list:{
-      subtitle:"This is a list of automatic payouts to your connected bank account. Please note that only automatic payouts will be displayed here, and manual payouts will not be shown."
+    refund_order_action: "Refund Order",
+    automatic_payout_list: {
+      subtitle:
+        "This is a list of automatic payouts to your connected bank account. Please note that only automatic payouts will be displayed here, and manual payouts will not be shown.",
     },
-    reversal_transfer_action:'Reversal Transfer'
+    reversal_transfer_action: "Reversal Transfer",
   },
 
   /** {@see BPageOrderPhysicalTrack} **/
@@ -5359,8 +5353,8 @@ export default {
     start_date: "Start date",
     end_date: "End date",
     price: "Price",
-    verify:{
-      true_title:'Verify Terms',
+    verify: {
+      true_title: "Verify Terms",
       true_description: "I read and agree with Selldone terms of use",
     },
     need_charge: "Need charge",
@@ -5410,22 +5404,22 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: 'Choose a Wallet',
-        subtitle: "Select a virtual wallet to use for your subscription. If you don't have one yet, you can create it in the wallet section. This wallet will be used for any charges."
+        title: "Choose a Wallet",
+        subtitle:
+          "Select a virtual wallet to use for your subscription. If you don't have one yet, you can create it in the wallet section. This wallet will be used for any charges.",
       },
       auto_renewal: {
-        true_title: 'Auto Renewal',
-        true_description: "Your subscription will automatically renew if your wallet has enough balance or if you have a valid voucher."
+        true_title: "Auto Renewal",
+        true_description:
+          "Your subscription will automatically renew if your wallet has enough balance or if you have a valid voucher.",
       },
       options: {
-        title: "Additional Options"
+        title: "Additional Options",
       },
       verify: {
-        title: 'Confirmation'
-      }
+        title: "Confirmation",
+      },
     },
-
-
   },
 
   /** {@see BLayoutBackofficeShop} **/
@@ -10236,81 +10230,82 @@ export default {
   /**
    * @see BShopLicenseNeedUpdateOverlay
    */
-    shop_license_need_update_overlay: {
-      title:'License Upgrade Required!',
-    subtitle:"Your current license does not meet the requirements of your selected business model. Please upgrade your license to the Enterprise plan.",
+  shop_license_need_update_overlay: {
+    title: "License Upgrade Required!",
+    subtitle:
+      "Your current license does not meet the requirements of your selected business model. Please upgrade your license to the Enterprise plan.",
   },
-
 
   /**
    * {@see BOrderChatBox}
    */
-    b_order_chat_box: {
-    title:'Quick Actions',
-    subtitle:"You can send a status update email to the buyer with just one click. Additionally, you can define common messages here to reuse, so you don't have to rewrite them each time.",
-    send_update_email_action:'Send Update Email',
-    add_template_action:'Add Message Template',
+  b_order_chat_box: {
+    title: "Quick Actions",
+    subtitle:
+      "You can send a status update email to the buyer with just one click. Additionally, you can define common messages here to reuse, so you don't have to rewrite them each time.",
+    send_update_email_action: "Send Update Email",
+    add_template_action: "Add Message Template",
 
-    notifications:{
-      add_chat_success_message:"Message has been added successfully.",
+    notifications: {
+      add_chat_success_message: "Message has been added successfully.",
     },
 
-
-
-    send_update_email:{
-      title:'Order Update Email',
-      need_set_service_alert:{
-        message:"Please set your email service provider to allow the email to be sent.",
-        action:"Go to settings"
+    send_update_email: {
+      title: "Order Update Email",
+      need_set_service_alert: {
+        message:
+          "Please set your email service provider to allow the email to be sent.",
+        action: "Go to settings",
       },
-      send_action:'Send Update Email',
+      send_action: "Send Update Email",
 
-
-      notifications:{
-        send_success_message:"Email has been sent successfully.",
+      notifications: {
+        send_success_message: "Email has been sent successfully.",
       },
-
     },
-    add_template:{
-      edit_title:"Edit Message Template",
-      add_title:"Add Message Template",
-      message:"You should set a title and message body here. The title only be used for your reference and will not sent to the customer.",
+    add_template: {
+      edit_title: "Edit Message Template",
+      add_title: "Add Message Template",
+      message:
+        "You should set a title and message body here. The title only be used for your reference and will not sent to the customer.",
 
-      save_action:'Save Template',
-      add_action:"Add Template",
+      save_action: "Save Template",
+      add_action: "Add Template",
 
-      notifications:{
-        save_success_message:"Template has been saved successfully.",
+      notifications: {
+        save_success_message: "Template has been saved successfully.",
       },
 
-      inputs:{
-        title:{
-          label:'Template Title',
-          placeholder:"Write a short title..."
+      inputs: {
+        title: {
+          label: "Template Title",
+          placeholder: "Write a short title...",
         },
-        body:{
-          label:'Template Message',
-          placeholder:'Write your message here...',
-          messages:"You can set dynamic values by {order_id} and {buyer_name}."
-        }
-      }
-    }
+        body: {
+          label: "Template Message",
+          placeholder: "Write your message here...",
+          messages:
+            "You can set dynamic values by {order_id} and {buyer_name}.",
+        },
+      },
+    },
   },
 
   /**
    * {@see BOrderShare}
    */
-    b_order_share: {
-    title:'Order Link',
-    subtitle:'You can share the order link with the customer.',
-  guest_checkout_message:"Guest shoppers can automatically view their order in the same browser.However, if the customer is a guest and you need to share the order details, you can create a secure link for them.",
-    authentication:"Authentication",
-    guest:"Guest",
-    click_to_create:'Click to create...',
-    valid_for_30_days:"valid for 30 days",
-    notifications:{
-      secure_link_created:"Secure link has been created successfully."
-    }
+  b_order_share: {
+    title: "Order Link",
+    subtitle: "You can share the order link with the customer.",
+    guest_checkout_message:
+      "Guest shoppers can automatically view their order in the same browser.However, if the customer is a guest and you need to share the order details, you can create a secure link for them.",
+    authentication: "Authentication",
+    guest: "Guest",
+    click_to_create: "Click to create...",
+    valid_for_30_days: "valid for 30 days",
+    notifications: {
+      secure_link_created: "Secure link has been created successfully.",
+    },
   },
 
   /**
@@ -11233,8 +11228,8 @@ export default {
     /**
      * Template Message
      */
-    template_message:{
-      title:[
+    template_message: {
+      title: [
         "Order Confirmation",
         "Order Shipped",
         "Order Delivered",
@@ -11245,9 +11240,9 @@ export default {
         "Order Out for Delivery",
         "Return Processed",
         "Refund Issued",
-        "Item Back in Stock"
+        "Item Back in Stock",
       ],
-      body:[
+      body: [
         "Hi {buyer_name}, your order #{order_id} has been confirmed! We’re processing it and will notify you when it’s ready to ship.",
 
         "Good news, {buyer_name}! Your order #{order_id} has been shipped. You can track it through your account. Thanks for shopping with us!",
@@ -11268,12 +11263,8 @@ export default {
 
         "Hi {buyer_name}, your refund for order #{order_id} has been issued. You should see the funds in your account soon.",
 
-        "Hi {buyer_name}, the item from your order #{order_id} is back in stock! You can place a new order now if you’re still interested."
-
-      ]
-    }
-
-
-
+        "Hi {buyer_name}, the item from your order #{order_id} is back in stock! You can place a new order now if you’re still interested.",
+      ],
+    },
   },
 };

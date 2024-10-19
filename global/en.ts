@@ -830,6 +830,12 @@ export default {
     member: "Member",
     invitation: "Invitation",
     europe: "Europe",
+    buy: "Buy",
+    levels: "Levels",
+    sex:'Sex',
+    repeat: "Repeat",
+    interval: "Interval",
+
   },
   difficulties: {
     very_complicated: "Very complicated",
