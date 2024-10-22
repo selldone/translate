@@ -20,10 +20,18 @@ export default {
         }
     },
     Connect:{
+        Main:{
+            embed:'cm2kfysmn0icr9j0hyxo7kp6w', // We set Printful as main demo!
+            title:'How connect works',
+        },
+        Printful:{
+            embed:'cm2kfysmn0icr9j0hyxo7kp6w',
+            title:'Printful Connect',
+        },
         XCart:{
             embed:'cm158815w03reme0p9xuh044q',
             title:'XCart Migration',
-        }
+        },
     },
 
     Logistic:{
