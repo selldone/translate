@@ -3629,7 +3629,7 @@ export default {
     title: "Info",
     subtitle: "Overview of payment gateway configuration and status.",
     status: "Status",
-    cod_transportation: "Shipping methods thst support COD",
+    cod_transportation: "Supported Shipping",
     cod_transportations_error:
       "Enable cash on delivery payment for at least one shipping method!",
     payment_type: "Payment type",
