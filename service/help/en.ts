@@ -41,4 +41,38 @@ export default {
         }
     },
 
+    Security:{
+        ChangePrimaryEmail:{
+            embed:'cm2irhaw238tivm5stoxf88bd',
+            title:'Change Primary Email',
+        }
+    },
+
+    Domain:{
+        RedirectWWW:{
+            embed:'cm2h7pzxt2x5mvm5sauxkg999',
+            title:'Redirect WWW',
+        }
+    },
+
+    Menu:{
+        Footer:{
+            Customize:{
+                embed:'cm2ll9doz05wipxsmtruua314',
+                title:'Customize Footer Menu',
+            }
+        }
+    },
+
+
+    Landing:{
+        SEO:{
+            Customize:{
+                embed:'cm2llfaod04w2xxrv5bzivivq',
+                title:'Change Title & Image',
+            }
+        }
+    },
+
+
 }
