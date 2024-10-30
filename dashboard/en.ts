@@ -4742,96 +4742,427 @@ export default {
   /** {@see Scopes} **/
 
   scopes: {
+    //--------------------------- Profile ---------------------------
     profile: {
       name: "Profile",
       description:
         "Read profile information including name, email address, image and authentication status.",
     },
-    phone: { name: "phone number", description: "access to phone number." },
+    phone: {
+      name: "phone number",
+      description: "access to phone number.",
+    },
     address: {
       name: "Addresses",
       description: "Read saved address from address book.",
     },
 
-    buy: {
-      name: "Purchase",
-      description: "Place an order and purchase from the store.",
+    "user:profile:write": {
+      name: "Profile Management",
+      description: "Edit and manage the profile.",
+    },
+
+    //--------------------------- Storefront ---------------------------
+
+    "my-gift-cards": {
+      name: "Gift Cards",
+      description: "Access to My Cards.",
     },
     "order-history": {
       name: "Orders History",
       description: "Read Orders History.",
     },
-    "my-gift-cards": { name: "Gift Cards", description: "Access to My Cards." },
+    buy: {
+      name: "Purchase",
+      description: "Place an order and purchase from the store.",
+    },
 
-    articles: { name: "Edit Content", description: "Edit Articles." },
-    notifications: {
+    //--------------------------- Backoffice ---------------------------
+
+    articles: {
+      name: "Edit Content",
+      description: "Edit Articles.",
+    },
+
+    "backoffice:notifications": {
       name: "Send and Receive Notification",
       description: "Send and Receive Notification.",
     },
 
-    "read-shops": { name: "Stores List", description: "Read the store list." },
-
-    "shop-edit": {
-      name: "Store Management",
-      description: "Edit the store access",
+    "backoffice:order:write": {
+      name: "Manage Orders",
+      description: "Edit and manage store orders.",
+    },
+    "backoffice:order:read": {
+      name: "Read Orders",
+      description: "Read the store orders.",
     },
 
-    "shop-contacts": {
-      name: "Contact Form Management",
-      description: "Receive and edit contact forms.",
+    "backoffice:support-tickets": {
+      name: "Support Tickets",
+      description: "Read and write support tickets.",
     },
-    "shop-gift-cards": {
+    "backoffice:shop:read": {
+      name: "Read Shop",
+      description: "Read the shops list and get shop info and statistics.",
+    },
+    "backoffice:shop:write": {
+      name: "Write Shop",
+      description: "Create and edit the store",
+    },
+    "backoffice:shop:add": {
+      name: "Add Shop",
+      description: "Add a new shop to the system.",
+    },
+    "backoffice:shop:delete": {
+      name: "Delete Shop",
+      description: "Delete a shop from the selldone.",
+    },
+
+    "backoffice:giftcard:write": {
       name: "Manage Gift Cards",
       description: "Create, edit and manage gift cards.",
     },
-    "shop-faqs": {
+    "backoffice:giftcard:read": {
+      name: "Read Gift Cards",
+      description:
+        "Read the gift cards list and get gift card info and statistics.",
+    },
+
+    "backoffice:faq:write": {
       name: "Managing Questions and Answers",
       description: "Create, Edit, and Manage the Frequently Asked Questions.",
     },
+    "backoffice:faq:read": {
+      name: "Read Questions and Answers",
+      description:
+        "Read the list of questions and answers and get information and statistics.",
+    },
 
-    "shop-categories": {
+    "backoffice:category:write": {
       name: "Manage Categories",
       description: "Create, Edit, and Manage the Categories.",
     },
-    "shop-products": {
+    "backoffice:category:read": {
+      name: "Read Categories",
+      description:
+        "Read the list of categories and get category information and statistics.",
+    },
+
+    "backoffice:product:write": {
       name: "Product Management",
       description: "Add, Edit, and Manage the Products.",
     },
-    "shop-read-reports": {
+    "backoffice:product:read": {
+      name: "Read Products",
+      description:
+        "Read the list of products and get product information and statistics.",
+    },
+
+    "backoffice:report:read": {
       name: "Read reports",
       description: "Read information and reports.",
     },
-    "shop-socials": {
-      name: "Manage Social Media",
-      description: "Edit the store social media",
-    },
-    "shop-accounts": {
+
+    "backoffice:finance:write": {
       name: "Manage financial accounts",
       description: "Edit and delete financial accounts linked to the store.",
     },
-    "shop-menus": { name: "Manage Menus", description: "Edit store menus." },
-    "shop-pages": { name: "Manage Pages", description: "Edit Shop Pages." },
-    "shop-warehouse": {
-      name: "Warehouse Management",
-      description: "Edit Store Warehouse",
+    "backoffice:finance:read": {
+      name: "Read financial accounts",
+      description:
+        "Read the list of financial accounts and get financial account information and statistics.",
     },
-    "shop-permissions": {
-      name: "Manage access",
-      description: "View and edit store access.",
+
+    "backoffice:page:write": {
+      name: "Manage Pages",
+      description: "Edit Shop Pages.",
     },
-    "shop-process-center": {
-      name: "Order Management",
-      description: "Order Management.",
+    "backoffice:page:read": {
+      name: "Read Pages",
+      description:
+        "Read the list of pages and get page information and statistics.",
     },
-    "shop-profile": {
+
+    "backoffice:logistic:write": {
+      name: "Manage Logistics",
+      description: "Edit and manage logistics.",
+    },
+    "backoffice:logistic:read": {
+      name: "Read Logistics",
+      description:
+        "Read the list of logistics and get logistics information and statistics.",
+    },
+
+    "backoffice:staff:write": {
+      name: "Manage Staff",
+      description: "Edit and manage staff.",
+    },
+    "backoffice:staff:read": {
+      name: "Read Staff",
+      description:
+        "Read the list of staff and get staff information and statistics.",
+    },
+    "backoffice:business-profile:write": {
       name: "Manage profiles",
       description: "Manage store profiles.",
     },
-    "shop-discount-code": {
+    "backoffice:business-profile:read": {
+      name: "Read profiles",
+      description: "Read the list of profiles and get profile information.",
+    },
+
+    "backoffice:discount-code:write": {
       name: "Discount code management",
       description: "Manage, edit and add store discount codes.",
     },
+    "backoffice:discount-code:read": {
+      name: "Read discount codes",
+      description:
+        "Read the list of discount codes and get discount code information and statistics.",
+    },
+    "backoffice:wallet:write": {
+      name: "Wallet Management",
+      description: "Edit and manage the wallet.",
+    },
+    "backoffice:wallet:read": {
+      name: "Read Wallet",
+      description:
+        "Read the list of wallets and get wallet information and statistics.",
+    },
+
+
+    "backoffice:coupon:write": {
+      name: "Coupon Management",
+      description: "Edit and manage the coupon.",
+    },
+    "backoffice:coupon:read": {
+      name: "Read Coupon",
+      description:
+        "Read the list of coupons and get coupon information and statistics.",
+    },
+    "backoffice:offer:write": {
+      name: "Offer Management",
+      description: "Edit and manage the offer.",
+    },
+    "backoffice:offer:read": {
+      name: "Read Offer",
+      description:
+        "Read the list of offers and get offer information and statistics.",
+    },
+
+    "backoffice:cashback:write": {
+      name: "Cashback Management",
+      description: "Edit and manage the cashback.",
+    },
+    "backoffice:cashback:read": {
+      name: "Read Cashback",
+      description:
+        "Read the list of cashbacks and get cashback information and statistics.",
+    },
+
+    "backoffice:lottery:write": {
+      name: "Lottery Management",
+      description: "Edit and manage the lottery.",
+    },
+    "backoffice:lottery:read": {
+      name: "Read Lottery",
+      description:
+        "Read the list of lotteries and get lottery information and statistics.",
+    },
+    "backoffice:community:write": {
+      name: "Community Management",
+      description: "Edit and manage the community.",
+    },
+    "backoffice:community:read": {
+      name: "Read Community",
+      description:
+        "Read the list of communities and get community information and statistics.",
+    },
+    "backoffice:customer:write": {
+      name: "Customer Management",
+      description: "Edit and manage the customer.",
+    },
+    "backoffice:customer:read": {
+      name: "Read Customer",
+      description:
+        "Read the list of customers and get customer information and statistics.",
+    },
+    "backoffice:ribbon:write": {
+      name: "Ribbon Management",
+      description: "Edit and manage the ribbon.",
+    },
+    "backoffice:ribbon:read": {
+      name: "Read Ribbon",
+      description:
+        "Read the list of ribbons and get ribbon information and statistics.",
+    },
+
+    "backoffice:ai:write": {
+      name: "AI Management",
+      description: "Edit and manage the AI.",
+    },
+    "backoffice:ai:read": {
+      name: "Read AI",
+      description: "Read the list of AI and get AI information and statistics.",
+    },
+    "backoffice:vendor-payment:write": {
+      name: "Vendor Payment Management",
+      description: "Edit and manage the vendor payment.",
+    },
+    "backoffice:vendor-payment:read": {
+      name: "Read Vendor Payment",
+      description:
+        "Read the list of vendor payments and get vendor payment information and statistics.",
+    },
+
+    "backoffice:company:read": {
+      name: "Read Company",
+      description:
+        "Read the list of companies and get company information and statistics.",
+    },
+    "backoffice:company:write": {
+      name: "Company Management",
+      description: "Edit and manage the company.",
+    },
+
+    "backoffice:note:read": {
+      name: "Read Note",
+      description:
+        "Read the list of notes and get note information and statistics.",
+    },
+    "backoffice:note:write": {
+      name: "Note Management",
+      description: "Edit and manage the note.",
+    },
+
+    "backoffice:affiliate:write": {
+      name: "Affiliate Management",
+      description: "Edit and manage the affiliate.",
+    },
+    "backoffice:affiliate:read": {
+      name: "Read Affiliate",
+      description:
+        "Read the list of affiliates and get affiliate information and statistics.",
+    },
+
+    "backoffice:print:write": {
+      name: "Print Management",
+      description: "Edit and manage the print.",
+    },
+    "backoffice:print:read": {
+      name: "Read Print",
+      description: "Read the list of prints and get print information.",
+    },
+
+
+    "selldone:token:read": {
+        name: "Read Token",
+        description: "Read the list of tokens and get token information and statistics.",
+    },
+    "selldone:token:write": {
+        name: "Token Management",
+        description: "Edit and manage the token.",
+    },
+
+    //--------------------------- Selldone ---------------------------
+
+    "selldone:monetization:read": {
+      name: "Read Monetization",
+      description:
+        "Read the list of selldone monetization and get monetization information and statistics.",
+    },
+    "selldone:monetization:write": {
+      name: "Manage Monetization",
+      description:
+        "Edit and manage selldone monetization like referral programs.",
+    },
+    "selldone:identification": {
+      name: "Identification",
+      description: "Access to identification information.",
+    },
+
+    "selldone:developer:read": {
+      name: "Read Developer",
+      description:
+        "Read the list of developers and get developer information and statistics.",
+    },
+    "selldone:developer:write": {
+      name: "Developer Management",
+      description: "Edit and manage the developer.",
+    },
+
+    "selldone:security:write": {
+      name: "Security Management",
+      description: "Edit and manage the security.",
+    },
+
+    //--------------------------- Connect ---------------------------
+
+    "connect:provider:write": {
+      name: "Provider Management",
+      description: "Edit and manage the provider.",
+    },
+    "connect:provider:read": {
+      name: "Read Provider",
+      description:
+        "Read the list of providers and get provider information and statistics.",
+    },
+
+    //--------------------------- Agency ---------------------------
+    "agency:read": {
+        name: "Read Agency",
+        description: "Read the list of agencies and get agency information and statistics.",
+    },
+    "agency:write": {
+        name: "Agency Management",
+        description: "Edit and manage the agency.",
+    },
+
+
   },
+
+  scope_group: {
+    backoffice: {
+      title: "Backoffice",
+      description: "Access to the backoffice and store management.",
+    },
+    storefront: {
+      title: "Storefront",
+      description: "Access to the store and customer information.",
+    },
+
+    profile: {
+      title: "Profile",
+      description: "Access to the user's profile information.",
+    },
+
+    selldone: {
+      title: "Selldone",
+      description: "Access to Selldone services and features.",
+    },
+
+    others: {
+      title: "Others",
+      description: "Other scopes that are not defined yet in the system.",
+    },
+    vendor: {
+      title: "Vendor",
+      description: "Access to the vendor's information and management.",
+    },
+    connect: {
+      title: "Connect OS",
+      description: "Access to the connected services and providers.",
+    },
+
+    agency: {
+      title: "Agency",
+      description: "Access to the agency's information and management.",
+    },
+
+
+  },
+
   /** {@see AdminCompanyPage} **/
   company_page: {
     title: "Company",
