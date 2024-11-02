@@ -989,6 +989,8 @@ export default {
     connect:'Connect',
     connect_now:'Connect Now',
     verify_now: "Verify now",
+    learn_more: "Learn more",
+    learn_more_about: "Learn more about {name}",
 
   },
   /** @see BillingPeriod **/

@@ -988,6 +988,8 @@ export default {
     connect:'اتصال',
     connect_now:'اتصال',
     verify_now: "تایید",
+    learn_more: "مطالعه بیشتر",
+    learn_more_about: "مطالعه بیشتر درباره {name}",
 
   },
 

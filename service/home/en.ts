@@ -45,14 +45,14 @@ export default {
 
   s1: {
     /* title: "Make Your Online Store By<br>No—Code & No—Expert Needed Solution",
-                             title_animated_words: [
-                               "Entrepreneurs",
-                               "Artists",
-                               "Independent Businesses",
-                               "Brands",
-                               "Retails",
-                               "Creators",
-                             ],*/
+                                 title_animated_words: [
+                                   "Entrepreneurs",
+                                   "Artists",
+                                   "Independent Businesses",
+                                   "Brands",
+                                   "Retails",
+                                   "Creators",
+                                 ],*/
 
     subtitle:
       "For <b>business owners</b> and <b>merchants</b> looking for a unique, fast, secure, and reliable experience for their customers, this tool helps you build a fast ecommerce store, seamless in-store management and self-owned unique community around it on the <b>white-label enterprise-grade</b> business operating system.",
@@ -69,8 +69,8 @@ export default {
 
     in_60_sec: "Click here",
 
-
-    why_use_selldone_if_frustrated_from_wordpress_and_shopify:"If you are frustrated with buggy WordPress plugins, unscalable servers, or the costly and complex setups of Shopify apps, so Selldone is the ultimate solution for you."
+    why_use_selldone_if_frustrated_from_wordpress_and_shopify:
+      "If you are frustrated with buggy WordPress plugins, unscalable servers, or the costly and complex setups of Shopify apps, so Selldone is the ultimate solution for you.",
   },
 
   video: {
@@ -149,24 +149,26 @@ export default {
     ready_msg: "Your shop is ready.",
     send_mail_msg: "Login link sent to {email}",
 
-
-    enable_disable_features_msg:'You can enable or disable these features later.',
-    package_starter:{
-      title:'Optional Package',
-      subtitle:"We understand you may have no time to set up or learn about Selldone, so after registration, you will have access to an <b>all-in-one package</b> that you can purchase optionally. It will be available for <b>14 days</b> after shop creation only.",
-      include_items_title:'It includes these services',
-      include_items:[
-          'Setup shop settings and appearance',
-          'Setup one shipping method and one payment',
-          'Design your home page',
-          'Help you in importing products by Excel',
-          'Add your custom domain'
-      ]
+    enable_disable_features_msg:
+      "You can enable or disable these features later.",
+    package_starter: {
+      title: "Optional Package",
+      subtitle:
+        "We understand you may have no time to set up or learn about Selldone, so after registration, you will have access to an <b>all-in-one package</b> that you can purchase optionally. It will be available for <b>14 days</b> after shop creation only.",
+      include_items_title: "It includes these services",
+      include_items: [
+        "Setup shop settings and appearance",
+        "Setup one shipping method and one payment",
+        "Design your home page",
+        "Help you in importing products by Excel",
+        "Add your custom domain",
+      ],
     },
 
-    sample:{
-      title:'Install Sample Data',
-      description:'Start my store with sample data such as products, categories, and blog posts.',
+    sample: {
+      title: "Install Sample Data",
+      description:
+        "Start my store with sample data such as products, categories, and blog posts.",
     },
 
     options: {
@@ -325,9 +327,9 @@ export default {
     msg: "Congratulation, you have had most things done before. Create your online store just by one tap! Selldone takes care of the rest.",
   },
   /* demo: {
-                title: "View Demo",
-                msg: "See professional live e-commerces",
-              },*/
+                  title: "View Demo",
+                  msg: "See professional live e-commerces",
+                },*/
 
   unbanked: {
     title: "Onetime action, Lifetime benefit — Objective.",
@@ -445,8 +447,27 @@ export default {
     limited_support_message_long:
       "            Online payments might not be available in your country, but no need to worry! At Selldone, we offer cash payments, bank transfers, and Cash on Delivery (COD) worldwide. You can confidently build your online business with us while adhering to your country's and Europe's regulations. For further details or to inquire about online payment support in your country, please feel free to contact our support team.\n",
     more_about_selldone_in_country: "About Selldone in your country",
-    support_worldwide_customers:
-      "You can sell your products and services to all customers in <b>all countries</b>!",
+
+    tax: {
+      title: "Tax Friendly",
+      message:
+        "Easily set up tax profiles for different product categories, adapting automatically to buyers' countries and states. Stay compliant and boost your global reach.",
+    },
+    global: {
+      title: "Global Sales",
+      message:
+        "Reach customers worldwide with Selldone’s seamless international support. Scale your business globally with ease and efficiency.",
+    },
+    shipping: {
+      title: "Local & Global Shipping",
+      message:
+        "Integrations with local and global carriers like Shippo and Shipday, plus self-courier management options, to ensure smooth delivery operations everywhere.",
+    },
+    erp: {
+      title: "ERP Integration",
+      message:
+        "Connect seamlessly with top ERPs through our open-gateway and API access, with simple one-click integrations for streamlined business operations.",
+    },
   },
 
   hero: {
@@ -736,12 +757,92 @@ export default {
       subtitle:
         "Launch your business with our FREE lifetime plan! Only pay a 0.5~2.0% fee once you start making money.",
     },
+  },
 
+  feature_page_builder: {
+    title: "Sales-Driven Page Builder",
+    message:
+      "Effortlessly design custom pages with our no-code solution. Drag and drop elements to craft pages tailored to your needs.",
+  },
 
-
-
-
-
-
+  feature_items: {
+    products: {
+      title: "Intuitive Product Management",
+      description:
+        "Easily manage products—drag & drop images, edit details, streamline your workflow.",
+    },
+    excel: {
+      title: "Excel Data Import",
+      description:
+        "Import products, categories, and contacts effortlessly via Excel files.",
+    },
+    incentive: {
+      title: "Sales Incentives",
+      description:
+        "Boost sales with discounts, coupons, gift cards, and gamified offers.",
+    },
+    loyalty: {
+      title: "Customer Loyalty",
+      description:
+        "Establish clubs, memberships, and subscriptions to retain customers.",
+    },
+    cashback: {
+      title: "Cashback Offers",
+      description:
+        "Implement diverse cashback programs to reward loyal shoppers.",
+    },
+    cross_selling: {
+      title: "Cross-Selling Tools",
+      description:
+        "Enhance sales with cross-selling; set product collections and discounts.",
+    },
+    accounting: {
+      title: "Simple Accounting",
+      description: "Manage invoices, track expenses and taxes with ease.",
+    },
+    inventory: {
+      title: "Inventory Control",
+      description:
+        "Monitor stock levels, bulk updates via CSV, and efficient management.",
+    },
+    analytics: {
+      title: "Advanced Analytics",
+      description:
+        "Gain insights on sales, customers, and campaigns with detailed data.",
+    },
+    social: {
+      title: "Multi-Channel Selling",
+      description:
+        "Sell across channels; connect to marketplaces, social media, track origins.",
+    },
+    community: {
+      title: "Community Builder",
+      description:
+        "Engage customers with forums, blogs, and community features.",
+    },
+    security: {
+      title: "Team Management",
+      description:
+        "Create roles, set permissions, and manage team access efficiently.",
+    },
+    pos: {
+      title: "In-Store POS",
+      description:
+        "Simplify in-store sales; manage POS systems and transactions.",
+    },
+    store: {
+      title: "Vendor Marketplace",
+      description: "Easily create and manage a multi-vendor marketplace.",
+    },
+    pricing: {
+      title: "Dynamic Pricing",
+      description:
+        "Set smart pricing based on quantity or customer preferences.",
+    },
+    pod: {
+      title: "Dropshipping Integration",
+      description:
+        "Connect with POD services and manage dropshipping seamlessly.",
+    },
   },
 };
