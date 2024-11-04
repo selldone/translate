@@ -1,536 +1,834 @@
 export default {
-  "local_service": "Service local pour {country_name}",
-  "local_service_message": "Ce service est conçu exclusivement pour les utilisateurs qui vivent en <u>{country_name}</u> et vendent leurs services et produits dans ce pays. Vous n'êtes autorisé à utiliser que les services locaux ou le service international de Selldone. Pour utiliser ce service, vous devez vous conformer à les lois de <b>{country_name}</b> et de l' <b>Union européenne</b> .",
-  "my_shops": "Mes boutiques",
-  "moto": "Vous essayez, nous vous ouvrons les portes !",
-  "start_now_btn": "Commencez maintenant - c'est gratuit",
-  "create_ecommerce_btn": "Démarrez votre commerce électronique gratuitement",
-  "incentive_action": "Dites adieu à votre faible taux de vente en ligne !",
-  "create_shopping_website": "Créer mon commerce électronique",
-  "s1": {
-    "title": "Créez votre boutique en ligne par<br> Solution sans code et sans expert",
-    "title_animated_words": [
-      "Entrepreneurs",
-      "Artistes",
-      "Entreprises indépendantes",
-      "Marques",
-      "Détaillants",
-      "Créateurs"
-    ],
-    "subtitle": "Si vous souhaitez créer une expérience unique, rapide, sécurisée et fiable pour vos clients, c'est l'outil qu'il vous faut. Créez votre communauté unique et un commerce électronique rapide sur un système d'exploitation professionnel sans publicité.",
-    "domain_input": {
-      "message": "Votre boutique peut être connectée à n'importe quel nombre de domaines personnels que vous avez avec un hébergement gratuit et SSL",
-      "action": "Créer un magasin"
+  local_service: "Service local pour {country_name}",
+  local_service_message:
+      "Ce service est conçu exclusivement pour les utilisateurs résidant en <u>{country_name}</u> et vendant leurs services et produits dans ce pays." +
+      "Vous êtes uniquement autorisé à utiliser les services locaux ou le service international de Selldone." +
+      "Pour utiliser ce service, vous devez vous conformer aux lois de <b>{country_name}</b> et de l'<b'Union européenne</b>.",
+
+  my_shops: "Mes Boutiques",
+  select_language_dialog_title: "Faites des affaires dans votre langue préférée",
+
+  welcome_title: "Réduisez vos nombreuses décisions quotidiennes en une seule",
+  welcome_subtitle:
+      "Construisez, gérez et développez votre entreprise comme des pros avec le système d'exploitation commercial de niveau entreprise sans code, capable de gérer des millions de commandes et d'automatiser votre flux de travail.",
+  //"Créez votre boutique en ligne avec une solution sans code et sans besoin d'experts pour des millions de commandes.",
+
+  moto: "Vous essayez, nous ouvrons les portes !",
+  start_now_btn: "Commencez maintenant — c'est gratuit",
+  create_ecommerce_btn: "Démarrez votre eCommerce gratuitement",
+  incentive_action: "Dites adieu à votre faible taux de ventes en ligne !",
+
+  create_shopping_website: "Créer Mon Ecommerce",
+
+  your_shop: "Votre Vitrine",
+  your_dashboard: "Votre Back Office",
+
+  storefront: "Vitrine",
+  back_office: "Back Office",
+
+  today_sales: "Ventes Aujourd'hui",
+  today_orders: "Commandes Aujourd'hui",
+
+  s1: {
+    /* title: "Créez votre boutique en ligne avec<br>une solution sans code et sans besoin d'experts",
+                                 title_animated_words: [
+                                   "Entrepreneurs",
+                                   "Artistes",
+                                   "Entreprises indépendantes",
+                                   "Marques",
+                                   "Retailers",
+                                   "Créateurs",
+                                 ],*/
+
+    subtitle:
+        "Pour les <b>propriétaires d'entreprises</b> et les <b>commerçants</b> recherchant une expérience unique, rapide, sécurisée et fiable pour leurs clients, cet outil vous aide à construire une boutique e-commerce rapide, une gestion en magasin sans faille et une communauté unique auto-propriété autour de celle-ci sur le <b>système d'exploitation commercial de niveau entreprise en marque blanche</b>.",
+
+    domain_input: {
+      message:
+          "Votre boutique peut être connectée à un nombre illimité de domaines personnels que vous possédez avec hébergement gratuit et SSL",
+      action: "Créer une Boutique",
     },
-    "community": "Plateforme communautaire",
-    "shop": "Créateur de boutique en ligne",
-    "inventory": "Gestion de l'inventaire",
-    "cms": "Éditeur de pages et CMS",
-    "in_60_sec": "Cliquez ici"
+    community: "Plateforme Communautaire",
+    shop: "Constructeur de Boutique en Ligne",
+    inventory: "Gestion des Stocks",
+    cms: "Éditeur de Page & CMS",
+
+    in_60_sec: "Cliquez ici",
+
+    why_use_selldone_if_frustrated_from_wordpress_and_shopify:
+        "Si vous êtes frustré par les plugins WordPress défectueux, les serveurs non évolutifs ou les configurations coûteuses et complexes des applications Shopify, Selldone est la solution ultime pour vous.",
   },
-  "video": {
-    "title": "Une solution tout-en-un pour vos ventes en ligne et en personne.",
-    "msg": "Offrez l'expérience d'achat la plus rapide dans votre commerce électronique.",
-    "card_pos": {
-      "title": "PDV Selldone",
-      "msg": "Vendez en personne grâce à une solution sans frais d'installation."
+
+  video: {
+    title: "Faites de votre mieux.",
+    msg: "Offrez la plus rapide expérience d'achat / Gagnez plus $$$.",
+    pacman: "Je ne suis pas un fondateur technique",
+
+    card_pos: {
+      title: "Selldone POS",
+      msg: "Vendez en personne avec une solution sans frais de configuration.",
     },
-    "card_ecommerce": {
-      "title": "Commerce électronique",
-      "msg": "Vendez en ligne comme des professionnels."
+    card_ecommerce: {
+      title: "Selldone Ecommerce",
+      msg: "Vendez en ligne comme des professionnels.",
     },
-    "pacman": "Je ne suis pas un fondateur technique"
   },
-  "why": {
-    "title": "Pourquoi Selldone ?",
-    "msg": "On ne peut pas imaginer des équipes sans coachs, des révolutions sans leaders, des arbres sans racines et des entreprises sans système d'exploitation ! Nous réimaginons donc le commerce en ligne pour les entreprises à croissance rapide et les jeunes entrepreneurs.",
-    "sec1": {
-      "title": "Facile + Professionnel",
-      "msg": "Il est conçu pour que vous puissiez jouer comme un professionnel sur les marchés, même si vous êtes un débutant mais que vous voulez jouer comme un professionnel, ou que vous êtes un expert et que vous méritez de jouer comme vous-même !"
+
+  why: {
+    title: "Pourquoi un Système d'Exploitation Commercial ?",
+    msg: "Nous ne pouvons pas imaginer des équipes sans coachs, des révolutions sans leaders, des arbres sans racines, et des entreprises sans système d'exploitation ! Nous réimaginons donc les affaires en ligne pour les entreprises en pleine croissance et les jeunes entrepreneurs.",
+
+    sec1: {
+      title: "Facile + Professionnel",
+      //   msg: "C'est construit pour que vous puissiez jouer comme un professionnel sur les marchés, même si vous êtes débutant mais souhaitez jouer comme un professionnel, ou si vous êtes un expert et méritez de jouer comme vous-même !",
     },
-    "sec2": {
-      "title": "Outils de niveau entreprise",
-      "msg": "Nous publions de nouvelles fonctionnalités, mettons à jour les API et appliquons de nouvelles méthodes au quotidien. C'est un système d'exploitation pour votre entreprise, donc votre entreprise évolue grâce à notre plateforme."
+    sec2: {
+      title: "Outils de niveau entreprise",
+      //  msg: "Nous lançons de nouvelles fonctionnalités, mettons à jour les API et appliquons de nouvelles méthodes quotidiennement. C'est un système d'exploitation pour votre entreprise, donc votre entreprise se développe grâce à notre plateforme.",
     },
-    "sec3": {
-      "title": "Ventes sociales",
-      "msg": "Notre produit est conçu sur le comportement commercial réel des acheteurs du monde entier. Nous proposons des méthodes de vente uniques sur Instagram, TikTok et d'autres réseaux sociaux, nommés AVOCADO."
+    sec3: {
+      title: "Ventes sociales",
+      //  msg: "Notre produit est conçu sur le comportement réel des acheteurs du monde entier. Nous proposons des méthodes de vente uniques sur Instagram, TikTok et d'autres réseaux sociaux, appelées AVOCADO.",
     },
-    "sec4": {
-      "title": "Économiser de l'argent",
-      "msg": "Plus besoin d'experts pour avoir un ecommerce ! Dites adieu au développement coûteux, à la maintenance, au processus de programmation et même au coût des experts des plateformes de commerce électronique."
-    }
-  },
-  "how_it_work": {
-    "title": "Comment ça fonctionne.",
-    "msg": "Pas de carte de crédit, pas de plug-in, pas de modèle, pas de configuration, pas d'hôte, pas de solution technique pour ceux qui veulent jouer comme des professionnels.",
-    "step0": {
-      "title": "Conçu pour les acheteurs, aimé par les vendeurs, à un pas.",
-      "msg1": "Il est temps pour vous d'avoir un véritable commerce électronique, de rassembler des clients satisfaits autour de votre entreprise et de vous concentrer sur ce que vous aimez vraiment faire."
+    sec4: {
+      title: "Économisez de l'argent",
+      // msg: "Plus besoin d'experts pour avoir un e-commerce ! Dites adieu aux coûts de développement, de maintenance, de programmation et même aux coûts des experts des plateformes e-commerce.",
     },
-    "step1": {
-      "title": "Ajoutez vos produits.",
-      "msg1": "Ajoutez des produits manuellement, comme ajouter des photos sur Instagram ! Ou ajoutez 100 000 éléments simplement par un fichier Excel. Vous pouvez vendre des produits, des services, des abonnements et des fichiers en un seul endroit."
+  },
+
+  how_it_work: {
+    title: "Comment ça marche",
+    msg: "Solution sans carte de crédit, sans plugin, sans modèle, sans configuration, sans hébergement, sans technique pour ceux qui veulent jouer comme des professionnels.",
+
+    step0: {
+      title: "Conçu pour les acheteurs, adoré par les vendeurs, à un pas seulement.",
+      msg1: "Découvrez la puissance du véritable e-commerce, construisez une base de clients fidèles et concentrez-vous sur ce que vous aimez avec notre outil.",
     },
-    "step2": {
-      "title": "Connecter les modes de paiement adaptés à vos besoins.",
-      "msg1": "Nous ne sommes pas intéressés à interférer dans les transactions financières ! 100% des paiements des clients seront transférés directement sur votre compte bancaire. Connectez simplement votre Stripe, PayPal, etc. Vous pouvez avoir plusieurs services de paiement actifs dans votre boutique en même temps !",
-      "crypto_msg": "Disponible pour les marchands actifs"
+    step1: {
+      title: "Ajoutez Vos Produits.",
+      msg1: "Ajoutez facilement des produits manuellement ou importez jusqu'à 100 000 articles avec un fichier Excel. Vendez des produits, des services, des abonnements et des fichiers en un seul endroit, comme ajouter des photos sur Instagram !",
     },
-    "step3": {
-      "title": "Marque blanche / Flexible / Profondément personnalisable.",
-      "msg1": "Concevez vos pages de destination et modifiez la couleur du thème de votre site en fonction du message de votre marque. La fonction glisser-déposer rend tout cela possible sans avoir besoin d'engager un expert.",
-      "view_sample_pages": "Grands magasins SD pour vous inspirer"
+    step2: {
+      title: "Connectez les Méthodes de Paiement qui Répondent à Vos Besoins.",
+      msg1: "Nous ne souhaitons pas interférer dans les transactions financières ! 100% des paiements des clients seront directement transférés sur votre compte bancaire. Connectez simplement votre Stripe, PayPal, etc. Vous pouvez avoir plusieurs services de paiement actifs dans votre boutique en même temps !",
+      crypto_msg: "Disponible pour les marchands actifs",
     },
-    "step4": {
-      "title": "Paiement en un clic : expérience de paiement unifiée dans le monde entier.",
-      "msg1": "Les clients n'ont pas à entrer les informations et à remplir le formulaire d'inscription pour acheter chez vous ! Ils se connectent par SMS et remplissent le formulaire de paiement en un clic et paient. Vous grandissez, nous grandissons."
-    }
-  },
-  "onboarding": {
-    "title": "Rendez votre entreprise en ligne, plus rapide et meilleure - c'est gratuit",
-    "success_title": "Installation de votre OS de commerce en ligne,",
-    "wait_msg": "Veuillez patienter quelques secondes...",
-    "ready_msg": "Votre boutique est prête.",
-    "send_mail_msg": "Lien de connexion envoyé à {email}",
-    "options": {
-      "title": "Paramétrage de la boutique",
-      "msg": "Quelles fonctionnalités souhaitez-vous sur votre site Web ?",
-      "ecommerce": "Commerce électronique",
-      "pos": "Point de vente",
-      "blog": "Blog & CMS",
-      "community": "Forum de la communauté",
-      "ecommerce_desc": "Vendez vos produits et services en ligne.",
-      "pos_desc": "Vendez vos produits et services en personne.",
-      "blog_desc": "CMS puissant pour publier vos articles et publications.",
-      "community_desc": "Créez votre propre communauté et forum."
+    step3: {
+      title: "Marque Blanche, Flexible et Hautement Personnalisable.",
+      msg1: "Concevez facilement vos pages de destination et personnalisez les couleurs du thème de votre site pour refléter le message de votre marque avec la fonctionnalité de glisser-déposer - aucun expert requis.",
+      view_sample_pages: "Excellentes boutiques SD pour vous inspirer",
     },
-    "job": {
-      "title": "Quelle est votre industrie?",
-      "placeholder": "Basculez votre entreprise vers Selldone OS, quelle que soit la plateforme que vous utilisez actuellement."
+    step4: {
+      title:
+          "Paiement en un clic : Expérience de paiement unifiée dans le monde entier.",
+      msg1: "Les clients n'ont pas à saisir les informations et à remplir le formulaire d'inscription pour acheter chez vous ! Ils se connectent via SMS et remplissent le formulaire de paiement en un clic et paient. Vous grandissez, nous grandissons.",
     },
-    "shop_name": {
-      "title": "Nom de l'entreprise",
-      "placeholder": "Ex. chaussures Alex"
+  },
+
+  /**
+   * @see OOnboardingShop
+   */
+  onboarding: {
+    title: "Rendez votre entreprise en ligne, plus vite et mieux - c'est gratuit",
+    success_title: "Installation de votre OS commercial en ligne,",
+    wait_msg: "Veuillez patienter quelques secondes...",
+    ready_msg: "Votre boutique est prête.",
+    send_mail_msg: "Lien de connexion envoyé à {email}",
+
+    enable_disable_features_msg:
+        "Vous pouvez activer ou désactiver ces fonctionnalités plus tard.",
+    package_starter: {
+      title: "Forfait Optionnel",
+      subtitle:
+          "Nous comprenons que vous n'ayez peut-être pas le temps de configurer ou d'apprendre Selldone, donc après l'inscription, vous aurez accès à un <b>forfait tout-en-un</b> que vous pouvez acheter en option. Il sera disponible pendant <b>14 jours</b> après la création de la boutique uniquement.",
+      include_items_title: "Il inclut ces services",
+      include_items: [
+        "Configurer les paramètres et l'apparence de la boutique",
+        "Configurer une méthode de livraison et un paiement",
+        "Concevoir votre page d'accueil",
+        "Vous aider à importer des produits via Excel",
+        "Ajouter votre domaine personnalisé",
+      ],
     },
-    "income": {
-      "title": "Ventes mensuelles",
-      "msg": "Sélectionnez une plage de vos ventes mensuelles totales.",
-      "Low": "Jusqu'à 5 000 $ US",
-      "Medium": "5 000 USD ~ 50 000 USD",
-      "High": "50 000 USD ~ 1 000 000 USD",
-      "Extreme": "Au-dessus de 1 000 000 USD"
+
+    sample: {
+      title: "Installer des Données d'Exemple",
+      description:
+          "Démarrez ma boutique avec des données d'exemple telles que des produits, des catégories et des articles de blog.",
     },
-    "step_1": "But",
-    "step_2": "Configuration",
-    "step_3": "Compte"
-  },
-  "notion": {
-    "title": "Jeu avec des règles différentes.",
-    "quote": "Nous pensons qu'une personne peut apporter un changement à l'ère de l'humanité en ligne, même si elle n'a pas assez d'argent, même si elle n'a aucune expérience technologique, même si elle n'a pas de compte bancaire pour payer les factures ; nous le faisons en créant une plate-forme prête à l'emploi avec des outils de niveau entreprise pour agir comme le système d'exploitation le plus réalisable sur Internet."
-  },
-  "stop": {
-    "title": "Créateur de site Web d'achat en ligne facile + Paiement direct.",
-    "subtitle": "Si vous envisagez de créer une entreprise en ligne rentable et de concrétiser votre idée commerciale, Selldone est un choix parfait.",
-    "pacman": "Modules de paiement"
-  },
-  "os": {
-    "title": "Accès à des outils de classe mondiale — Gratuit.",
-    "msg": "Nous mettons le pouvoir de créer un commerce électronique professionnel à portée de main."
-  },
-  "login": {
-    "title": "Êtes-vous prêt à jouer comme un pro sur le marché ?"
-  },
-  "currencies": {
-    "title": "Devises",
-    "sub": "Vos clients peuvent facilement payer dans leur devise locale.",
-    "msg": "Concentrez-vous sur les ventes plutôt que de vous débattre avec la douleur de la technologie, des plugins et des complications de paiement. Nous travaillons avec des services de paiement locaux et mondiaux pour que tout soit aligné dans votre activité en ligne."
-  },
-  "countries": {
-    "title": "Des pays",
-    "sub": "Le système d'exploitation d'entreprise le plus facile à mettre à l'échelle au monde.",
-    "msg": "Nous adaptons le comportement commercial traditionnel de personne à personne dans l'espace en ligne, peu importe où vous ou votre client vivez, nous avons pour mission de vous offrir la meilleure expérience."
-  },
-  "dna": {
-    "title": "ADN de votre entreprise",
-    "sub": "VENDU FAIT !",
-    "msg": "Il s'agit du seul système d'exploitation professionnel en tant que service tout-en-un, sans code, avec des outils de niveau entreprise pour vous."
-  },
-  "api": {
-    "title": "Dév. amical",
-    "msg": "Une solution basée sur une API entièrement ouverte pour les entreprises en ligne.",
-    "sec1": {
-      "title": "Nous construisons l'épine dorsale de votre entreprise",
-      "msg": "Tous les côtés de votre boutique sont disponibles via notre puissante API REST. Vous pouvez apporter des modifications au magasin, créer vos applications ou développer votre application d'achat sans vous soucier des problèmes techniques, de paiement et de backend."
+
+    options: {
+      title: "Configuration de la Boutique",
+      msg: "Quelles fonctionnalités souhaitez-vous sur votre site web ?",
+      ecommerce: "Ecommerce",
+      pos: "Point de Vente",
+      blog: "Blog & CMS",
+      community: "Communauté & Forum",
+
+      ecommerce_desc: "Vendez vos produits et services en ligne.",
+      pos_desc: "Vendez vos produits et services en personne.",
+      blog_desc: "CMS puissant pour publier vos articles et posts.",
+      community_desc: "Créez votre propre communauté et forum.",
     },
-    "sec2": {
-      "title": "Intégration rapide",
-      "msg": "Nous développons des SDK pour tous les langages et frameworks courants afin que vous puissiez effectuer les étapes d'authentification, d'accès au compte et le gérer par de simples commandes. Le démarrage ne se fera qu'en quelques clics."
+
+    job: {
+      title: "Sélectionnez votre secteur pour commencer...",
+      placeholder:
+          "Passez votre entreprise au système d'exploitation Selldone, peu importe la plateforme que vous utilisez actuellement.",
     },
-    "header": "API et SDK Open Source avec personnalisation {infinite}"
-  },
-  "convertible": {
-    "store_name": "Votre magasin",
-    "variant_1": "Variante du produit Ambre",
-    "variant_2": "Variante du produit Rouge",
-    "buy": "Acheter maintenant",
-    "price": "89 $",
-    "management": {
-      "title": "Gestion des produits",
-      "msg": "Gérez les produits et les catégories comme les fichiers et les dossiers que vous faites glisser et déposez dans Windows.",
-      "check1": "Téléchargez des produits par fichiers Excel ou CSV.",
-      "check2": "Ajouter des modèles AR.",
-      "check3": "Optimiser par le moteur de référencement automatique.",
-      "check4": "Gestion du glisser-déposer."
+    shop_name: {
+      title: "Nom de l'Entreprise",
+      placeholder: "Ex. Chaussures Alex",
     },
-    "payment": {
-      "title": "Prise en charge de plusieurs méthodes de paiement",
-      "msg": "Expérience transparente de paiement sur site / dans l'application.",
-      "check1": "Bande",
-      "check1msg": "Prend en charge plus de 40 pays.",
-      "check2": "Klarna",
-      "check2msg": "Achetez maintenant payez plus tard.",
-      "check3": "Pay Pal",
-      "check3msg": "Paiement en un clic."
+    income: {
+      title: "Ventes mensuelles",
+      msg: "Sélectionnez une fourchette de vos ventes mensuelles totales.",
+      Low: "Jusqu'à 5 000 USD",
+      Medium: "5 000 USD ~ 50 000 USD",
+      High: "50 000 USD ~ 1 000 000 USD",
+      Extreme: "Au-dessus de 1 000 000 USD",
     },
-    "checkout": {
-      "title": "Ta marque",
-      "online": "Clients en ligne",
-      "offline": "Clients en personne"
+    step_1: "Objectif",
+    step_2: "Configuration",
+    step_3: "Compte",
+  },
+
+  notion: {
+    title: "Jouez avec différents outils.",
+    quote:
+        "Nous croyons qu'une personne peut provoquer un changement à l'ère de l'humanité en ligne, même si elle n'a pas assez d'argent, même sans expérience technique, même sans compte bancaire pour payer les factures ; nous le faisons en créant une plateforme prête à l'emploi avec des outils de niveau entreprise pour agir comme le système d'exploitation le plus accessible sur Internet.",
+  },
+
+  stop: {
+    title: "Multi passerelle + Paiement direct.",
+    subtitle:
+        "Un portefeuille virtuel vous aide à contrôler votre flux de trésorerie et à recevoir de l'argent directement via vos services de paiement sans aucune interférence de votre plateforme e-commerce.",
+    pacman: "Plugins de Paiement",
+  },
+
+  flow: {
+    title: "Flux de paiement personnalisable.",
+    subtitle:
+        "Concevez le parcours client et le flux d'achat et expérimentez les résultats.",
+    pacman: "Plugins de Paiement",
+  },
+  business_model: {
+    title: "Modèles d'affaires multiples.",
+    subtitle:
+        "Configurez visuellement votre modèle d'affaires, toute la complexité sera gérée en coulisses.",
+    pacman: "Plugins Marketplace & POD",
+  },
+
+  os: {
+    title: "Accès à des outils de classe mondiale — Tout inclus.",
+    msg: "Nous mettons la puissance de créer un e-commerce professionnel à portée de main.",
+  },
+  login: {
+    title:
+        "Êtes-vous curieux de construire, gérer et développer votre entreprise visuellement ?",
+  },
+
+  currencies: {
+    title: "Devises",
+    sub: "Vos clients peuvent payer facilement dans leurs devises locales.",
+    msg: "Concentrez-vous sur les ventes plutôt que de lutter avec les problèmes techniques, les plugins et les complications de paiement. Nous travaillons avec des services de paiement locaux et mondiaux pour aligner tout dans votre entreprise en ligne.",
+  },
+
+  countries: {
+    title: "Pays",
+    sub: "Le système d'exploitation commercial le plus facile à scaler au monde.",
+    msg: "Nous adaptons le comportement traditionnel de commerce de personne à personne dans l'espace en ligne, peu importe où vous ou vos clients vivez, nous avons pour mission de vous offrir la meilleure expérience.",
+  },
+  dna: {
+    title: "ADN de Votre Entreprise",
+    sub: "SELLDONE C'EST ÇA !",
+    msg: "C'est le seul système d'exploitation commercial tout-en-un, sans code, avec des outils de niveau entreprise pour vous.",
+  },
+
+  api: {
+    header: "API & SDK Open Source Avec {infinite} Personnalisation",
+    title: "Développeur Friendly",
+    msg: "Une solution entièrement basée sur API ouverte pour les entreprises en ligne.",
+
+    sec1: {
+      title: "Nous construisons l'épine dorsale de votre entreprise",
+      msg: "Tous les aspects de votre boutique sont disponibles via notre puissante API REST. Vous pouvez apporter toutes les modifications à la boutique, créer vos applications ou développer votre application de shopping sans vous soucier des problèmes techniques, de paiement et de backend.",
     },
-    "design": {
-      "title": "Générateur de pages",
-      "msg": "Rendez-le réel simplement par glisser-déposer."
-    }
+    sec2: {
+      title: "Intégration rapide",
+      msg: "Nous développons des SDK pour tous les langages et frameworks courants afin que vous puissiez effectuer les étapes d'authentification, d'accès au compte et de gestion avec des commandes simples. Commencer sera à quelques clics seulement.",
+    },
   },
-  "secure": {
-    "title": "Solution hyper sécurisée",
-    "msg": "Intégrité des données et gestion du niveau d'accès de l'entreprise."
+
+  /** @see ConvertibleSelldoneView **/
+  convertible: {
+    store_name: "Votre Boutique",
+    variant_1: "Variante Produit Ambre",
+    variant_2: "Variante Produit Rouge",
+    buy: "Acheter Maintenant",
+    price: "89$",
+    management: {
+      title: "Gestion des Produits",
+      msg: "Gérez les produits et les catégories comme des fichiers et dossiers que vous glissez-déposez dans Windows.",
+      check1: "Téléchargez des produits via des fichiers Excel ou CSV.",
+      check2: "Ajoutez des modèles AR.",
+      check3: "Optimisez avec un moteur SEO automatique.",
+      check4: "Gestion par glisser-déposer.",
+    },
+    payment: {
+      title: "Support de Plusieurs Méthodes de Paiement",
+      msg: "Expérience de paiement fluide sur le site / dans l'application.",
+      check1: "Stripe",
+      check1msg: "Supporte plus de 40 pays.",
+
+      check2: "Klarna",
+      check2msg: "Achetez maintenant, payez plus tard.",
+
+      check3: "Paypal",
+      check3msg: "Paiement en un clic.",
+    },
+    checkout: {
+      title: "Votre Marque",
+      online: "Clients en Ligne",
+      offline: "Clients en Personne",
+    },
+    design: {
+      title: "Constructeur de Pages",
+      msg: "Rendez-le réel simplement en glissant-déposant.",
+    },
   },
-  "build": {
-    "title": "Ayez votre propre commerce électronique avec votre propre marque et reprenez le contrôle de votre entreprise !",
-    "msg": "Vous avez de nombreux choix pour convertir vos comptes de médias sociaux en un site Web d'achat en ligne sur votre domaine ou créer votre chef-d'œuvre de commerce électronique à partir de zéro."
+
+  secure: {
+    title: "Solution Hyper Sécurisée",
+    msg: "Intégrité des données et gestion des accès de niveau entreprise.",
   },
-  "stripe": {
-    "title": "Vous avez un compte Stripe ?",
-    "msg": "Félicitations, vous avez fait la plupart des choses avant. Créez votre boutique en ligne en un seul clic ! Selldone s'occupe du reste."
+
+  build: {
+    title: "Démarrez votre propre boutique avec votre propre marque.",
+    msg: "Vous avez de nombreux choix pour convertir vos comptes de réseaux sociaux en un site de shopping en ligne sur votre domaine ou créer votre chef-d'œuvre e-commerce à partir de zéro.",
   },
-  "unbanked": {
-    "title": "Une plateforme, une solution — Objectif.",
-    "msg": "Un système d'exploitation commercial unique pour faciliter les ventes en ligne et libérer l'esprit d'entreprise, même pour plus de 1,7 milliard d'adultes non bancarisés."
+
+  stripe: {
+    title: "Vous avez un compte Stripe ?",
+    msg: "Félicitations, vous avez déjà fait la plupart des choses. Créez votre boutique en ligne en un seul clic ! Selldone s'occupe du reste.",
   },
-  "faqs": [
+  /* demo: {
+                  title: "Voir la Démo",
+                  msg: "Voir des e-commerces professionnels en direct",
+                },*/
+
+  unbanked: {
+    title: "Action Unique, Bénéfice à Vie — Objectif.",
+    msg: "Un système d'exploitation commercial unique pour faciliter les ventes en ligne et libérer l'esprit entrepreneurial, même pour plus de 1,7 milliard d'adultes non bancarisés.",
+  },
+  faqs: [
     {
-      "question": "Puis-je créer une boutique en ligne sans carte de crédit ?",
-      "answer": "Oui, vous pouvez créer votre eCommerce sans avoir besoin d'aucune carte bancaire comme les cartes de crédit et de débit sur Selldone. Selldone utilise un moyen unique de fournir des services de commerce électronique avancés aux personnes, même à plus de 1,7 milliard de personnes n'ayant pas accès aux services financiers courants."
+      question: "Puis-je créer une boutique en ligne sans carte de crédit ?",
+      answer:
+          "Oui, vous pouvez créer votre eCommerce sans avoir besoin de carte bancaire comme les cartes de crédit et de débit sur Selldone. Selldone utilise une méthode unique pour fournir des services e-commerce avancés aux personnes, même à plus de 1,7 milliard de personnes sans accès aux services financiers courants.",
     },
     {
-      "question": "Comment puis-je vendre en ligne à des clients non bancarisés ?",
-      "answer": "Ajoutez COD ( <b>paiement à la livraison</b> ) à votre commerce électronique, afin que vos clients puissent payer après avoir reçu la commande. Le COD est la voie traditionnelle dans la plupart des pays avec le manque d'infrastructures de financement."
+      question: "Comment puis-je vendre en ligne à des clients non bancarisés ?",
+      answer:
+          "Ajoutez le COD (<b>Cash on Delivery</b>) à votre eCommerce, afin que vos clients puissent payer après avoir reçu la commande. Le COD est la méthode traditionnelle dans la plupart des pays en raison du manque d'infrastructures financières.",
     },
     {
-      "question": "Comment créer mon eCommerce sans compte bancaire ?",
-      "answer": "Il n'y avait pas de solution pour les personnes non cuites avant Selldone. Mais maintenant, vous pouvez créer votre commerce électronique et votre site Web sans avoir de compte bancaire. Il a un coût minime pour vous ; vous pouvez payer ce coût à la fin du mois via votre portefeuille. Le portefeuille Selldone peut recevoir des frais d'autres personnes ou facturer par le biais de cartes-cadeaux. Vous n'avez pas besoin d'une carte de crédit pour utiliser ces services."
+      question: "Comment puis-je configurer mon eCommerce sans compte bancaire ?",
+      answer:
+          "Il n'y avait aucune solution pour les personnes non bancarisées avant Selldone. Mais maintenant, vous pouvez créer votre eCommerce et votre site web sans avoir de compte bancaire. Cela a un coût minimal pour vous ; vous pouvez payer ce coût à la fin du mois via votre portefeuille. Le portefeuille Selldone peut recevoir des frais d'autres personnes ou être rechargé via des cartes cadeaux. Vous n'avez pas besoin de carte de crédit pour utiliser ces services.",
     },
     {
-      "question": "Comment puis-je démarrer une entreprise sans frais d'installation?",
-      "answer": "<ol><li>Inscrivez-vous gratuitement sur <a href='https://selldone.com'>Selldone.com</a> .</li><li> Construisez votre magasin.</li><li> Ajoutez vos produits et services.</li><li> Connectez votre domaine (facultatif)</li><li> Activer les passerelles de paiement.</li><li> Commencez à présenter votre entreprise à vos amis et à votre famille.</li><li> Présentez-vous et présentez vos produits sur les réseaux sociaux.</li><li> Construisez une marque pour votre entreprise en fournissant une proposition de valeur unique.</li><li> Surveillez le comportement de vos utilisateurs via le panneau Selldone.</li></ol>"
-    }
+      question: "Comment puis-je démarrer une entreprise sans frais de configuration ?",
+      answer:
+          "<ol> <li> Inscrivez-vous gratuitement sur <a href='https://selldone.com'>Selldone.com</a>. </li> <li> Construisez votre boutique. </li> <li> Ajoutez vos produits et services. </li> <li> Connectez votre domaine (optionnel) </li> <li> Activez les passerelles de paiement. </li> <li> Commencez à présenter votre entreprise à vos amis et votre famille. </li> <li> Présentez-vous et vos produits sur les réseaux sociaux. </li> <li> Construisez une marque pour votre entreprise en offrant une proposition de valeur unique. </li> <li> Surveillez le comportement de vos utilisateurs via le panneau Selldone. </li> </ol>",
+    },
   ],
-  "brands": {
-    "title": "Bâtissez votre entreprise sur une base de confiance.",
-    "subtitle": "Votre entreprise en vaut la peine !"
+
+  brands: {
+    title: "Construisez votre entreprise sur une base de confiance.",
+    subtitle: "Votre entreprise le vaut bien !",
   },
-  "why_boxes": {
-    "block1": {
-      "title": "Économisez le coût initial",
-      "subtitle": "Solution sans thème et sans plugin."
+
+  why_boxes: {
+    title: "Optimisé pour les ventes en ligne & en magasin à grande échelle",
+    subtitle:
+        "Conçu pour la conversion. Élevez votre boutique en ligne avec des outils intuitifs conçus pour transformer les visiteurs en clients.",
+
+    block1: {
+      title: "Économisez les coûts initiaux",
+      subtitle: "Solution sans thème & sans plugin.",
     },
-    "block2": {
-      "title": "Économisez sur les coûts d'exploitation",
-      "subtitle": "Aucun frais supplémentaire et caché jamais."
+    block2: {
+      title: "Économisez les coûts opérationnels",
+      subtitle: "Pas de frais supplémentaires & cachés.",
     },
-    "block3": {
-      "title": "Gagner du temps",
-      "subtitle": "De niveau entreprise mais adapté aux débutants."
+    block3: {
+      title: "Gagnez du temps",
+      subtitle: "De niveau entreprise mais convivial pour les débutants.",
     },
-    "title": "Optimisé pour les ventes en ligne et en magasin à grande échelle",
-    "subtitle": "Conçu pour la conversion. Améliorez votre boutique en ligne avec des outils intuitifs conçus pour transformer les visiteurs en clients."
   },
-  "money_transfer": {
-    "customer": "Votre client",
-    "bank": "Votre compte bancaire",
-    "wallet": "Porte monnaie",
-    "free_setup": "Configuration gratuite.",
-    "no_extra_fee": "Pas de frais supplémentaires.",
-    "no_hidden_fee": "Pas de frais cachés."
+
+  money_transfer: {
+    customer: "Votre client",
+    bank: "Votre compte bancaire",
+    wallet: "Portefeuille",
+    free_setup: "Installation gratuite.",
+    no_extra_fee: "Pas de frais supplémentaires.",
+    no_hidden_fee: "Pas de frais cachés.",
   },
-  "extra": {
-    "cart": "Gestion des chariots",
-    "payment": "Paiement",
-    "shipping": "Expédition",
-    "fulfilment": "Accomplissement",
-    "community": "Communauté et commentaires"
+
+  /** @see HomePanelExtraFlow **/
+  extra: {
+    cart: "Gestion des Paniers",
+    payment: "Paiement",
+    shipping: "Expédition",
+    fulfilment: "Exécution",
+    community: "Communauté & Feedback",
   },
-  "select_language_dialog_title": "Faites vos affaires dans votre langue préférée",
-  "welcome_title": "Créez, gérez et faites évoluer visuellement votre entreprise",
-  "welcome_subtitle": "Faites de votre boutique en ligne une solution sans code et sans expert pour des millions de commandes.",
-  "your_shop": "Votre vitrine",
-  "your_dashboard": "Votre back-office",
-  "flow": {
-    "title": "Flux de paiement personnalisable.",
-    "subtitle": "Concevez votre parcours client et votre flux d'achat et expérimentez les résultats.",
-    "pacman": "Plugins de paiement"
+
+  team: {
+    title: "Rencontrez l'équipe.",
+    msg: "Nous allons jouer selon des règles différentes sur le terrain brutal des plateformes commerciales, surtout lorsque nos concurrents dépensent des millions de dollars en publicité ; nous investissons dans le produit, les personnes et la résolution de problèmes réels. Cette équipe soutient votre entreprise !",
   },
-  "business_model": {
-    "title": "Adoption visuelle du modèle d'affaires.",
-    "subtitle": "Configurez visuellement votre modèle d'entreprise, toute la complexité sera réglée en arrière-plan.",
-    "pacman": "Plugins de marché et de POD"
+
+  customers: {
+    title: "Rencontrez notre communauté.",
+    msg: "C'est juste le début d'un voyage pour construire des outils significatifs pour débloquer les futurs entrepreneurs en apprenant de nos clients.",
   },
-  "team": {
-    "title": "Rencontrer l'équipe.",
-    "msg": "Nous jouerons selon des règles différentes dans le domaine brutal des plateformes de commerce, en particulier lorsque nos concurrents dépensent des millions de dollars en publicité ; nous investissons dans le produit, les gens et résolvons de vrais problèmes. Cette équipe soutient votre entreprise !"
+  /** {@see PanoramaImage} {@see HomePage} */
+
+  panorama: {
+    title:
+        '#1 Système d\'Exploitation Commercial — <b class="bg-gradient-animate text-gradient my-1">Toutes les fonctionnalités sont pré-construites.</b>',
+    msg: "Pas besoin de dépenser des milliers de dollars en plugins et applications chaque mois et de vous soucier des mises à jour. Comme un ange, Selldone s'occupe de tous les aspects techniques de votre entreprise.",
+    orders_management: "Gestion des Commandes",
+    online_pos: "POS en Ligne",
+    shipping: "Expédition",
+    inventory_management: "Gestion des Stocks",
+    social_commerce: "Commerce Social",
+    in_store_sell: "Vente en Magasin",
+    team: "Équipe / Personnel",
+    incentives: "Incentives / Fidélité",
+    community: "Gestion de la Communauté",
+    payments: "Paiements Locaux",
+    ar_3d: "3D / AR",
   },
-  "customers": {
-    "title": "Rencontrez notre communauté.",
-    "msg": "Ce n'est que le début d'un voyage pour créer des outils significatifs pour déverrouiller les futurs entrepreneurs en apprenant de nos clients."
+
+  no_plugin: "Sans plugin",
+
+  product_page: {
+    title: "Le Résultat Après l'Ajout de Votre Premier Produit.",
+    msg: "Donnez vie à vos idées en quelques clics seulement.",
+    open_sample_product_link: "Ouvrir le Produit en Direct",
+    open_templates: "Voir les Templates",
   },
-  "panorama": {
-    "title": "Pas de plugin coûteux, <b class=\"font-weight-bold\">toutes les fonctionnalités sont pré-construites</b>",
-    "msg": "Pas besoin de dépenser des centaines de dollars en plugins et applications chaque mois et de vous soucier des mises à jour. Comme macOS pour votre PC, Selldone OS prend en charge tous les aspects techniques de votre entreprise.",
-    "orders_management": "Gestion des commandes",
-    "online_pos": "PDV en ligne",
-    "shipping": "Expédition",
-    "inventory_management": "Gestion de l'inventaire",
-    "social_commerce": "Commerce social",
-    "in_store_sell": "Vendre en magasin",
-    "team": "Equipe / Personnel",
-    "incentives": "Incentives / Fidélisation",
-    "community": "Gestionnaire de communauté",
-    "payments": "Paiements locaux",
-    "ar_3d": "3D / RA"
+
+  /** {@see CountrySupportBox} */
+  support_box: {
+    country_select_label: "Sélectionnez votre pays",
+    we_support_message: "Nous supportons {country}",
+    we_limited_support: "Nous supportons limitéement {country}",
+    support_message_long:
+        "Expérimentez des transactions en ligne fluides dans votre pays avec Selldone ! En plus des calculs de TAX professionnels, nous offrons diverses méthodes de paiement incluant le cash, le POS, les virements bancaires et plus encore. Commencez à construire votre entreprise sur une plateforme qui soutient pleinement les besoins de votre pays.",
+    limited_support_message_long:
+        "Les paiements en ligne peuvent ne pas être disponibles dans votre pays, mais pas de souci ! Chez Selldone, nous offrons des paiements en espèces, des virements bancaires et le paiement à la livraison (COD) dans le monde entier. Vous pouvez construire votre entreprise en ligne en toute confiance avec nous tout en respectant les réglementations de votre pays et de l'Europe. Pour plus de détails ou pour vous renseigner sur le support des paiements en ligne dans votre pays, n'hésitez pas à contacter notre équipe de support.\n",
+    more_about_selldone_in_country: "À propos de Selldone dans votre pays",
+
+    tax: {
+      title: "Fiscalité Amicale",
+      message:
+          "Configurez facilement des profils fiscaux pour différentes catégories de produits, s'adaptant automatiquement aux pays et états des acheteurs. Restez conforme et boostez votre portée mondiale.",
+    },
+    global: {
+      title: "Ventes Globales",
+      message:
+          "Atteignez des clients dans le monde entier avec le support international fluide de Selldone. Développez votre entreprise globalement avec facilité et efficacité.",
+    },
+    shipping: {
+      title: "Expédition Locale & Globale",
+      message:
+          "Intégrations avec des transporteurs locaux et globaux comme Shippo et Shipday, plus des options de gestion de coursiers autonomes, pour assurer des opérations de livraison fluides partout.",
+    },
+    erp: {
+      title: "Intégration ERP",
+      message:
+          "Connectez-vous sans effort avec les principaux ERP via notre passerelle ouverte et l'accès API, avec des intégrations simples en un clic pour des opérations commerciales rationalisées.",
+    },
   },
-  "no_plugin": "Non—plugin",
-  "storefront": "Vitrine",
-  "back_office": "Back-Office",
-  "product_page": {
-    "title": "Le résultat après l’ajout de votre premier produit.",
-    "msg": "Donnez vie à vos idées en quelques clics.",
-    "open_sample_product_link": "Ouvrir le produit en direct",
-    "open_templates": "Afficher les modèles"
+
+  hero: {
+    intro: "#1 Système d'Exploitation pour les Entreprises",
+    title: "Remplacez {infinite} Plugins & Apps par une seule {app}",
   },
-  "support_box": {
-    "country_select_label": "Sélectionnez votre pays",
-    "we_support_message": "Nous soutenons {country}",
-    "we_limited_support": "Nous offrons un soutien limité à {country}",
-    "support_message_long": "Faites des transactions en ligne fluides dans votre pays avec Selldone ! En plus des calculs fiscaux professionnels, nous proposons divers modes de paiement, notamment en espèces, au point de vente, par virement bancaire, etc. Commencez à développer votre entreprise sur une plateforme qui répond pleinement aux besoins de votre pays.",
-    "limited_support_message_long": "Les paiements en ligne ne sont peut-être pas disponibles dans votre pays, mais ne vous inquiétez pas ! Chez Selldone, nous proposons des paiements en espèces, des virements bancaires et des paiements contre remboursement (COD) dans le monde entier. Vous pouvez développer votre activité en ligne en toute confiance avec nous tout en respectant les réglementations de votre pays et de l'Europe. Pour plus de détails ou pour vous renseigner sur l'assistance aux paiements en ligne dans votre pays, n'hésitez pas à contacter notre équipe d'assistance.",
-    "more_about_selldone_in_country": "À propos de Selldone dans votre pays",
-    "support_worldwide_customers": "Vous pouvez vendre vos produits et services à tous les clients dans <b>tous les pays</b> !"
+
+  /**
+   * {@see MakeYourShopHeader}
+   */
+  make_your_shop: {
+    title: "Créez le vôtre",
+    amazon: "Amazon",
+    local_store: "Boutique Locale",
+    instagram: "Boutique Instagram",
+    dropshipping: "Dropshipping",
+    coursera: "Coursera",
+    gift_store: "Boutique de Cadeaux",
+    airbnb: "Airbnb",
+    simple_store: "Boutique Simple",
+    tiktok: "Boutique Tiktok",
   },
-  "hero": {
-    "intro": "Système d'exploitation n°1 pour les entreprises",
-    "title": "Remplacez {infinite} Plugins et applications par un seul {app}"
+  /**
+   * {@see SectionShowItsSimplicity}
+   */
+  show_its_simplicity: {
+    title: `Une autre plateforme e-commerce complexe et ennuyeuse <div class="app-box" style="font-size: 55%">😣</div> !?`,
+    subtitle: "Absolument pas ! Essayez-la avant même de vous inscrire...",
+    as_guest: "En tant qu'invité",
+    need_register: "Inscription requise",
+
+    page_builder: {
+      title: "Constructeur de Pages Intégré",
+      subtitle:
+          "Le premier constructeur de pages intuitif par glisser-déposer avec édition en ligne.",
+      try_action: "Essayer le Constructeur de Pages",
+      see_collection_action: "Voir les Templates",
+    },
+    ai: {
+      title: "Fonctionnalités IA Intégrées",
+      subtitle:
+          "La meilleure suppression d'arrière-plan industrielle, optimisation d'images, génération de contenu, création automatique de produits et plus encore.",
+      try_action: "Essayer l'Intelligence Selldone",
+    },
+    storefront: {
+      title: "Vitrine en Direct",
+      subtitle:
+          "Expérimentez le shopping le plus rapide avec un site web PWA moderne sans besoin d'écrire une seule ligne de code.",
+      see_action: "Voir la Vitrine Démo",
+    },
+    backoffice: {
+      title: "Backoffice en Direct",
+      subtitle: "Gérez tout depuis un seul endroit sans besoin de plugin.",
+      see_action: "Voir le Backoffice Démo",
+    },
   },
-  "make_your_shop": {
-    "title": "Faites le vôtre",
-    "amazon": "Amazone",
-    "local_store": "Magasin local",
-    "instagram": "Boutique Instagram",
-    "dropshipping": "Livraison directe",
-    "coursera": "Coursera",
-    "gift_store": "Boutique de cadeaux",
-    "airbnb": "Airbnb",
-    "simple_store": "Magasin simple",
-    "tiktok": "Boutique Tiktok"
+
+  /**
+   * {@see SectionPricingCompact}
+   */
+  pricing_compact: {
+    title: `<div class="app-box" style="font-size: 55%">💞️</div> Tarification simple et transparente`,
+    subtitle:
+        "Accédez à toutes les fonctionnalités de niveau entreprise pour démarrer et développer votre entreprise avec notre modèle de partage des revenus — ne payez rien à l'avance, seulement une part de vos revenus. Nous réussissons uniquement lorsque vous réussissez, minimisant vos coûts et maximisant vos profits.",
   },
-  "show_its_simplicity": {
-    "title": "Un autre complexe ennuyeux<div class=\"app-box\" style=\"font-size: 55%\"> 😣</div> Plateforme de commerce électronique!?",
-    "subtitle": "Absolument pas ! Essayez-le avant même de vous inscrire...",
-    "as_guest": "En tant qu'invité",
-    "need_register": "Besoin d'inscription",
-    "page_builder": {
-      "title": "Générateur de pages intégré",
-      "subtitle": "Le premier générateur de pages intuitif par glisser-déposer avec édition en ligne.",
-      "try_action": "Essayez Page Builder",
-      "see_collection_action": "Voir les modèles"
+
+  screenshots: {
+    item_1: {
+      title: "Simplifiez la gestion de vos commandes.",
+      desc: "Gérez efficacement un grand volume de commandes quotidiennes en utilisant nos fonctions avancées de liste et de filtre.",
     },
-    "ai": {
-      "title": "Fonctionnalités d'IA intégrées",
-      "subtitle": "La meilleure suppression d'arrière-plan industriel, optimisation d'image, génération de contenu, création automatique de produits et plus encore.",
-      "try_action": "Essayez Selldone Intelligence"
+    item_2: {
+      title: "Connectez votre boutique aux PODs.",
+      desc: "Connectez facilement votre boutique à un service de dropshipping print on demand tel que Printful et vendez vos œuvres d'art sur des supports imprimés sans besoin de plugins supplémentaires.",
     },
-    "storefront": {
-      "title": "Vitrine en direct",
-      "subtitle": "Découvrez les achats les plus rapides avec un site Web PWA moderne sans avoir besoin d'écrire une seule ligne de code.",
-      "see_action": "Voir la vitrine de démonstration"
+    item_3: {
+      title: "Exécutez les commandes avec des outils d'entreprise intuitifs.",
+      desc: "Découvrez un processus de commande rationalisé avec la possibilité de formater intuitivement les demandes, de faire les modifications nécessaires et de mettre à jour le statut en un seul clic. Élevez vos capacités d'exécution à de nouveaux sommets avec nos outils de niveau entreprise.",
     },
-    "backoffice": {
-      "title": "Backoffice en direct",
-      "subtitle": "Gérez tout depuis un seul endroit sans avoir besoin d'aucun plugin.",
-      "see_action": "Voir la démo Backoffice"
-    }
+    item_4: {
+      title: "Suivez les actions sur la chronologie des commandes.",
+      desc: "La chronologie d'une commande fournit un enregistrement détaillé de toutes les actions et modifications apportées à la commande. Vous pouvez facilement voir qui a fait les changements et quand ils ont été effectués.",
+    },
+    item_5: {
+      title: "Simplifiez la communication avec les clients et les fournisseurs.",
+      desc: "Des emails avec le branding de votre marque seront automatiquement envoyés aux clients, fournisseurs et à toute adresse email personnalisée spécifiée après le processus de checkout et de paiement.",
+    },
+    item_6: {
+      title: "Organisez vos produits sans effort avec le glisser-déposer.",
+      desc: "Le produit dans ce système fonctionnera de manière similaire aux fichiers, tandis que les catégories agiront comme des dossiers. Vous aurez la possibilité de glisser-déposer facilement les produits, de les réorganiser, de copier et coller, et même d'importer en masse des produits en utilisant un simple fichier Excel.",
+    },
+    item_7: {
+      title: "Suivez facilement vos commandes d'abonnement.",
+      desc: "Récupérez une liste intuitive et compacte contenant toutes les commandes d'abonnement actuelles et passées, y compris le temps restant jusqu'au prochain paiement et des informations détaillées pour chaque commande.",
+    },
+    item_8: {
+      title: "Utilisez les outils de blog et de CMS intégrés pour engager les clients.",
+      desc: "Exploitez les fonctionnalités internes de blog et de système de gestion de contenu pour créer du contenu sur votre entreprise et vos offres, et attirer de nouveaux publics grâce à l'optimisation pour les moteurs de recherche. Ce faisant, vous pouvez également interagir avec vos clients.",
+    },
+    item_9: {
+      title: "Connectez OS — Connectez-vous sans effort aux services externes.",
+      desc: "Il est possible de se connecter à des services externes, tels que les places de marché, les fournisseurs de dropshipping, les PODs et les logiciels financiers, sans besoin de plugins supplémentaires.",
+    },
+    item_10: {
+      title: "Simplifiez l'importation de produits depuis des services externes.",
+      desc: "Importez facilement des produits depuis des services externes tels que Woocommerce et Printful en quelques clics et avec une automatisation complète.",
+    },
+    item_11: {
+      title: "Connectez votre boutique à Google Merchant Center.",
+      desc: "Liez votre boutique avec Google Merchant Center et synchronisez tous les articles et catégories de manière transparente pour les annoncer sur Google.",
+    },
+    item_12: {
+      title: "Avocado — Vendez facilement des produits sur les réseaux sociaux.",
+      desc: "Avec Avocado, vous pouvez vendre des produits sur les réseaux sociaux sans avoir besoin d'ajouter manuellement des produits et des prix. L'outil génère automatiquement un lien de paiement pour les commandes et vous permet de créer des factures personnalisées avec des liens de paiement.",
+    },
+    item_13: {
+      title: "Ribbon — Créez et vendez facilement des abonnements.",
+      desc: "Ribbon est un outil puissant qui vous permet de créer et de vendre facilement des abonnements tels que des box d'abonnement, des paywalls et divers types de contenu en quelques clics.",
+    },
+    item_14: {
+      title: "Offrez plusieurs options de paiement dans votre boutique.",
+      desc: "Il est bénéfique d'offrir diverses options de paiement dans votre boutique, comme incorporer à la fois Stripe et PayPal.",
+    },
+    item_15: {
+      title:
+          "Incentivez les achats des clients avec des réductions, offres, coupons et gamification.",
+      desc: "Incentivez vos clients à effectuer plus d'achats dans votre boutique en utilisant diverses méthodes telles que l'offre de codes de réduction, d'offres promotionnelles, de réductions intelligentes, de coupons, de cartes cadeaux et en incorporant des éléments de gamification dans l'expérience d'achat.",
+    },
+    item_16: {
+      title: "Maximisez les performances avec la gestion des campagnes côté serveur.",
+      desc: "Utilisez le marketing côté serveur et la gestion des campagnes pour obtenir les informations les plus perspicaces et précises concernant les performances de votre campagne.",
+    },
+    item_17: {
+      title: "Gérez les paiements et les ventes des affiliés.",
+      desc: "Incluez des affiliés et gérez efficacement leurs paiements et ventes. Utilisez diverses options avancées pour la gestion des affiliés telles que l'attribution de domaines clients uniques pour chaque affilié.",
+    },
+    item_18: {
+      title: "Gérez efficacement l'inventaire et les prix.",
+      desc: "Les outils de gestion logistique et d'inventaire aident à organiser, filtrer et gérer l'inventaire et les prix de milliers de produits et de leurs variations.",
+    },
+    item_19: {
+      title: "Activité des clients et statistiques en temps réel.",
+      desc: "Accédez aux données les plus récentes sur l'activité des clients et les statistiques du site web pour prendre des décisions éclairées basées sur les données.",
+    },
+    item_20: {
+      title: "Augmentez les ventes grâce au constructeur de communauté.",
+      desc: "Construisez une communauté interactive pour booster les ventes dans votre boutique, améliorer l'engagement du public, favoriser la confiance et tirer parti des avantages SEO du contenu gratuit.",
+    },
+    item_21: {
+      title: "Améliorez l'expérience de vos clients.",
+      desc: "Organisez et segmentez votre base de clients, analysez leur valeur à vie, leurs achats passés en ligne et en magasin, et suivez leur parcours pour améliorer leur expérience tout en respectant leur vie privée.",
+    },
+    item_22: {
+      title: "Concevez des pages responsives avec facilité.",
+      desc: "Concevez facilement des pages internes et de destination captivantes et responsives en utilisant notre constructeur de pages sans code intégré. Il suffit de glisser-déposer des sections pour créer des pages personnalisées.",
+    },
+    item_23: {
+      title: "Rationalisez l'édition avec un éditeur de pages en ligne.",
+      desc: "Éditez facilement les textes et les images dans les pages en utilisant un éditeur de pages en ligne, rendant la mise à jour de votre contenu simple et intuitive.",
+    },
+    item_24: {
+      title: "Gérez l'accès et les rôles de l'équipe.",
+      desc: "Invitez vos membres d'équipe, établissez des rôles de personnel et définissez leurs niveaux d'accès. À mesure que votre entreprise et votre équipe se développent, votre système d'exploitation commercial s'adaptera en conséquence.",
+    },
+    item_25: {
+      title: "Ayez vos propres applications.",
+      desc: "Commencez votre entreprise avec une Progressive Web App et offrez à vos clients une expérience plus rapide comparée à vos concurrents.",
+    },
+    item_26: {
+      title: "Outils d'automatisation avancés et d'économie.",
+      desc: "Rationalisez vos opérations commerciales et économisez du temps et des ressources précieux en utilisant des outils d'automatisation avancés qui peuvent être intégrés dans votre boutique.",
+    },
+    item_27: {
+      title: "Personnalisez votre vitrine avec facilité.",
+      desc: "Personnalisez facilement votre vitrine pour correspondre à votre marque en utilisant des options de personnalisation visuelle telles que le thème, les schémas de couleurs, les polices et plus encore - le tout sans besoin de coder ou de compétences techniques.",
+    },
+    item_28: {
+      title: "Concevez un parcours client personnalisé.",
+      desc: "Concevez un parcours client personnalisé en utilisant les différentes options disponibles sur Selldone, telles que choisir le point de connexion ou activer le shopping en tant qu'invité.",
+    },
+    item_29: {
+      title: "Améliorez l'expérience avec des options de connexion et de flux personnalisées.",
+      desc: "Créez une expérience de connexion et de flux personnalisée, offrant diverses options de connexion sociale pour votre boutique en ligne.",
+    },
+    item_30: {
+      title: "Supportez des modèles d'affaires complexes.",
+      desc: "Selldone Support offre un support avancé pour les modèles d'affaires tels que marketplace, fournisseurs de dropshipping, affiliés et franchises, que vous pouvez facilement configurer et basculer avec un simple clic.",
+    },
+    item_31: {
+      title: "Liez plusieurs domaines personnalisés.",
+      desc: "Vous pouvez lier plusieurs domaines personnalisés à des aspects spécifiques de votre entreprise tels que la communauté, la boutique, le blog, les pages de destination ou même les affiliés.",
+    },
+    item_32: {
+      title: "Supportez plusieurs langues et auto-traduction.",
+      desc: "Votre boutique supporte pleinement plusieurs langues, à la fois RTL et LTR. Vous pouvez facilement installer et activer des packs de traduction automatique pour votre boutique.",
+    },
+    item_33: {
+      title: "Calcul de taxes multi-profils intégré.",
+      desc: "Avec la possibilité de créer plusieurs profils fiscaux et de les assigner à des produits spécifiques, vous avez une plus grande flexibilité dans le calcul de la TVA et des taxes de vente. Par exemple, vous pouvez appliquer des taux de taxes différents pour les articles alimentaires ou les appareils électriques.",
+    },
+    item_34: {
+      title: "Calcul de taxes multi-régionales.",
+      desc: "Utilisez soit les règles par défaut soit des règles personnalisées pour la taxe de vente et la TVA lorsque vous vendez dans différents pays et régions. Remplacez les règles pour des régions spécifiques et des territoires fiscaux selon les besoins.",
+    },
+    item_35: {
+      title: "Publiez des articles avec un éditeur en ligne puissant.",
+      desc: "Un éditeur d'articles en ligne avancé simplifie le processus de publication et de révision de vos articles, le rendant rapide et facile tout en maintenant la cohérence.",
+    },
+    item_36: {
+      title: "Tableau de bord dédié pour chaque produit.",
+      desc: "Chaque produit dispose d'un tableau de bord dédié qui fournit des statistiques, toutes les informations nécessaires et l'accès à toutes les actions requises pour la gestion.",
+    },
+    item_37: {
+      title: "Traduisez automatiquement les articles.",
+      desc: "Utilisez la fonctionnalité de traduction AI de niveau entreprise intégrée pour traduire sans effort les descriptions de produits en différentes langues en un seul clic.",
+    },
+    item_38: {
+      title: "Outils d'analyse intégrés.",
+      desc: "Vous aurez accès à des outils d'analyse intégrés qui sont entièrement côté serveur, sécurisés et conformes au GDPR, sans utilisation de cookies.",
+    },
+    item_39: {
+      title: "Couvrez la plupart de vos besoins SEO avancés.",
+      desc: "Notre outil interne vous fournit les mots-clés les plus actifs, les URLs les plus performantes et un aperçu des performances de votre entreprise sur la recherche Google, le tout présenté sous forme de tableaux et de graphiques.",
+    },
   },
-  "pricing_compact": {
-    "title": "<div class=\"app-box\" style=\"font-size: 55%\">💞️</div> Tarification simple et transparente",
-    "subtitle": "Accédez à toutes les fonctionnalités de niveau entreprise pour démarrer et développer votre activité grâce à notre modèle de partage des revenus : ne payez rien à l'avance, juste une part de vos revenus. Nous ne réussissons que lorsque vous y parvenez, en minimisant vos coûts et en maximisant vos profits."
+
+  country_landing: {
+    intro: "#1 Système d'Exploitation pour les Entreprises en",
+    title: "Remplacez {infinite} Plugins & Apps par {app} en {country}",
   },
-  "screenshots": {
-    "item_1": {
-      "title": "Optimisez la gestion de vos commandes.",
-      "desc": "Gérez efficacement un grand volume de commandes quotidiennement grâce à nos fonctions avancées de liste et de filtrage."
+
+  /**
+   * @see IntegrationPaymentPage
+   */
+  payment_landing: {
+    intro: "#1 Système d'Exploitation pour les Entreprises",
+    title: "Remplacez {infinite} Plugins & Apps par {app}",
+
+    unlock_section: {
+      title: "Débloquez {payment} & Commencez à Gagner de l'Argent sur Votre Site",
+      subtitle:
+          "Lancez votre boutique en ligne aujourd'hui ! Vendez facilement des produits, services et abonnements avec rapidité et simplicité.",
+      no_plugin: {
+        title: "Paiements Sans Effort, Aucun Plugin Requis",
+        subtitle:
+            "Entrez dans le futur du e-commerce avec les solutions de paiement sans plugin et fluides de Selldone pour {payment}. Dites adieu aux intégrations complexes et profitez d'une expérience de paiement directe, sécurisée et sans tracas.",
+      },
+      experience: {
+        title: "Shopping Impeccable, Alimenté par Selldone + {payment}",
+        subtitle:
+            "Transformez votre expérience e-commerce avec la plateforme conviviale de Selldone et l'intégration de paiement {payment}. Laissez derrière vous les interfaces encombrantes et accueillez un parcours d'achat rationalisé qui fidélise vos clients.",
+      },
+      boost: {
+        title: "Boostez Vos Ventes avec les Paiements Intégrés de Selldone",
+        subtitle:
+            "Pourquoi laisser des systèmes de paiement compliqués vous ralentir ? Avec la solution de paiement intégrée de {payment}, vous pouvez vous concentrer sur ce qui compte vraiment : vendre plus. Regardez vos ventes monter en flèche tout en développant votre entreprise en toute simplicité.",
+      },
+      security: {
+        title: "Où Sécurité et Efficacité S'unissent",
+        subtitle:
+            "Choisir Selldone + {payment} signifie opter pour une sécurité de premier ordre et une efficacité inégalée. Notre système de paiement dédié assure que chaque transaction est sûre, rapide et parfaitement fluide.",
+      },
+      setup_payment: "Configurer le Paiement",
     },
-    "item_2": {
-      "title": "Connectez votre boutique aux POD.",
-      "desc": "Connectez facilement votre boutique à un service de dropshipping d'impression à la demande tel que Printful et vendez vos œuvres d'art sur des supports imprimés sans avoir besoin de plugins supplémentaires."
+
+    how_to_add: {
+      step_1: {
+        step: "Étape 1",
+        title: "Ajoutez Votre Devise",
+        subtitle:
+            "Pour accepter des paiements dans différentes devises, vous devrez configurer une passerelle de paiement pour chacune d'elles. Avec {payment}, un seul compte peut gérer plusieurs passerelles et devises dans votre boutique, sans limites ! Assurez-vous que votre devise souhaitée est répertoriée sous Boutique > Comptabilité > Devises dans les paramètres de votre boutique.",
+      },
+      step_2: {
+        step: "Étape 2",
+        title: "Configurez Votre Passerelle",
+        subtitle: `Ensuite, allez dans l'onglet Boutique > Comptabilité > Passerelles, cliquez sur <b>NOUVELLE MÉTHODE DE PAIEMENT</b>, choisissez votre devise et sélectionnez <b>{payment}</b>. Vous pouvez ajouter des passerelles en mode débogage ou en direct. Assurez-vous de saisir les clés API correctes pour chaque mode, que vous pouvez trouver sur votre <a href="{payment_url}" target="_blank">compte {payment}</a>.`,
+      },
     },
-    "item_3": {
-      "title": "Exécutez les commandes avec des outils d’entreprise intuitifs.",
-      "desc": "Bénéficiez d'un processus de commande simplifié avec la possibilité de formater intuitivement les demandes, d'apporter les modifications nécessaires et de mettre à jour le statut en un seul clic. Élevez vos capacités de traitement des commandes vers de nouveaux sommets grâce à nos outils de niveau entreprise."
+
+    integration: {
+      title: "Intégration E-commerce Sans Effort avec {payment}",
+      subtitle:
+          "Commencez avec Selldone et gérez votre entreprise avec facilité. Aucun codage ou plugin requis !",
     },
-    "item_4": {
-      "title": "Suivi des actions sur la chronologie des commandes.",
-      "desc": "La chronologie d'une commande fournit un enregistrement détaillé de toutes les actions et modifications apportées à la commande. Vous pouvez facilement voir qui a effectué les modifications et quand elles ont été effectuées."
+    pay_after_earn: {
+      title: "Payez Uniquement Lorsque Vous Bénéficiez !",
+      subtitle:
+          "Lancez votre entreprise avec notre plan gratuit à vie ! Payez seulement des frais de 0,5~2,0% une fois que vous commencez à gagner de l'argent.",
     },
-    "item_5": {
-      "title": "Simplifier la communication entre clients et fournisseurs.",
-      "desc": "Les e-mails portant l'image de marque de votre marque seront automatiquement envoyés aux clients, aux fournisseurs et à toutes les adresses e-mail personnalisées spécifiées une fois le processus de paiement et de paiement terminé."
+  },
+
+  feature_page_builder: {
+    title: "Constructeur de Pages Axé sur les Ventes",
+    message:
+        "Concevez facilement des pages personnalisées avec notre solution sans code. Glissez et déposez des éléments pour créer des pages adaptées à vos besoins.",
+  },
+
+  feature_items: {
+    products: {
+      title: "Gestion Intuitive des Produits",
+      description:
+          "Gérez facilement les produits—glissez-déposez des images, éditez les détails, rationalisez votre flux de travail.",
     },
-    "item_6": {
-      "title": "Organisez vos produits sans effort par glisser-déposer.",
-      "desc": "Les produits de ce système fonctionneront de manière similaire à des fichiers, tandis que les catégories agiront comme des dossiers. Vous aurez la possibilité de glisser-déposer facilement des produits, de les réorganiser, de copier-coller et même d'importer des produits en masse à l'aide d'un simple fichier Excel."
+    excel: {
+      title: "Importation de Données Excel",
+      description:
+          "Importez des produits, des catégories et des contacts sans effort via des fichiers Excel.",
     },
-    "item_7": {
-      "title": "Suivez facilement vos commandes d'abonnement.",
-      "desc": "Récupérez une liste intuitive et compacte contenant toutes les commandes d'abonnement en cours et passées, y compris le temps jusqu'au prochain paiement et des informations détaillées pour chaque commande."
+    incentive: {
+      title: "Incentives de Vente",
+      description:
+          "Boostez les ventes avec des réductions, des coupons, des cartes cadeaux et des offres gamifiées.",
     },
-    "item_8": {
-      "title": "Utilisez les outils de blog et CMS intégrés pour engager les clients.",
-      "desc": "Tirez parti des fonctionnalités internes du blog et du système de gestion de contenu pour créer du contenu sur votre entreprise et vos offres, et attirer de nouveaux publics grâce à l'optimisation des moteurs de recherche. Ce faisant, vous pouvez également interagir avec vos clients."
+    loyalty: {
+      title: "Fidélité Client",
+      description:
+          "Établissez des clubs, des adhésions et des abonnements pour fidéliser les clients.",
     },
-    "item_9": {
-      "title": "Connect OS — Connectez-vous sans effort à des services externes.",
-      "desc": "Il est possible de se connecter à des services externes, tels que des places de marché, des fournisseurs de dropshipping, des POD et des logiciels financiers, sans avoir besoin de plugins supplémentaires."
+    cashback: {
+      title: "Offres de Cashback",
+      description:
+          "Implémentez divers programmes de cashback pour récompenser les acheteurs fidèles.",
     },
-    "item_10": {
-      "title": "Simplifiez les importations de produits à partir de services externes.",
-      "desc": "Importez facilement des produits à partir de services externes tels que Woocommerce et Printful en quelques clics et avec une automatisation complète."
+    cross_selling: {
+      title: "Outils de Vente Croisée",
+      description:
+          "Améliorez les ventes avec la vente croisée ; définissez des collections de produits et des réductions.",
     },
-    "item_11": {
-      "title": "Connectez votre boutique à Google Merchant Center.",
-      "desc": "Associez votre boutique à Google Merchant Center et synchronisez tous les articles et catégories de manière transparente pour les promouvoir sur Google."
+    accounting: {
+      title: "Comptabilité Simple",
+      description: "Gérez les factures, suivez les dépenses et les taxes avec facilité.",
     },
-    "item_12": {
-      "title": "Avocat — Vendez facilement des produits sur les réseaux sociaux.",
-      "desc": "Avec Avocado, vous pouvez vendre des produits sur les réseaux sociaux sans avoir à ajouter manuellement des produits et des prix. L'outil génère automatiquement un lien de paiement pour les commandes et vous permet de créer des factures personnalisées avec des liens de paiement."
+    inventory: {
+      title: "Contrôle des Stocks",
+      description:
+          "Surveillez les niveaux de stock, effectuez des mises à jour en masse via CSV et gérez efficacement.",
     },
-    "item_13": {
-      "title": "Ruban — Créez et vendez facilement des abonnements.",
-      "desc": "Ribbon est un outil puissant qui vous permet de créer et de vendre facilement des abonnements tels que des boîtes d'abonnement, des murs payants et divers types de contenu en quelques clics."
+    analytics: {
+      title: "Analyses Avancées",
+      description:
+          "Obtenez des insights sur les ventes, les clients et les campagnes avec des données détaillées.",
     },
-    "item_14": {
-      "title": "Proposez plusieurs options de paiement dans votre boutique.",
-      "desc": "Il est avantageux de proposer différentes options de paiement dans votre boutique, comme l'intégration de Stripe et de PayPal."
+    social: {
+      title: "Vente Multi-Canaux",
+      description:
+          "Vendez à travers plusieurs canaux ; connectez-vous aux places de marché, aux réseaux sociaux, suivez les origines.",
     },
-    "item_15": {
-      "title": "Encouragez les achats des clients avec des remises, des offres, des coupons et de la gamification.",
-      "desc": "Incitez vos clients à effectuer davantage d'achats dans votre magasin en utilisant diverses méthodes telles que l'offre de codes de réduction, d'offres promotionnelles, de remises intelligentes, de coupons, de cartes-cadeaux et l'intégration d'éléments de gamification dans l'expérience d'achat."
+    community: {
+      title: "Constructeur de Communauté",
+      description:
+          "Engagez les clients avec des forums, des blogs et des fonctionnalités communautaires.",
     },
-    "item_16": {
-      "title": "Optimisez les performances grâce à la gestion des campagnes côté serveur.",
-      "desc": "Utilisez le marketing côté serveur et la gestion de campagne pour obtenir les informations les plus pertinentes et les plus précises concernant les performances de votre campagne."
+    security: {
+      title: "Gestion d'Équipe",
+      description:
+          "Créez des rôles, définissez des permissions et gérez l'accès de l'équipe efficacement.",
     },
-    "item_17": {
-      "title": "Gérez les paiements et les ventes des affiliés.",
-      "desc": "Incluez les affiliés et gérez efficacement leurs paiements et leurs ventes. Utilisez diverses options avancées pour la gestion des affiliés, telles que l'attribution de domaines clients uniques pour chaque affilié."
+    pos: {
+      title: "POS en Magasin",
+      description:
+          "Simplifiez les ventes en magasin ; gérez les systèmes POS et les transactions.",
     },
-    "item_18": {
-      "title": "Gérez efficacement les stocks et les prix.",
-      "desc": "Les outils de gestion logistique et des stocks aident à organiser, filtrer et gérer l'inventaire et les prix de milliers de produits et de leurs variantes."
+    store: {
+      title: "Marketplace de Fournisseurs",
+      description: "Créez et gérez facilement une marketplace multi-fournisseurs.",
     },
-    "item_19": {
-      "title": "Activité et statistiques des clients en temps réel.",
-      "desc": "Accédez aux données les plus récentes sur l'activité des clients et aux statistiques du site Web pour prendre des décisions éclairées et basées sur les données."
+    pricing: {
+      title: "Tarification Dynamique",
+      description:
+          "Définissez des prix intelligents basés sur la quantité ou les préférences des clients.",
     },
-    "item_20": {
-      "title": "Augmentez vos ventes grâce au community builder.",
-      "desc": "Créez une communauté interactive pour augmenter les ventes dans votre boutique, améliorer l'engagement du public, favoriser la confiance et tirer parti des avantages SEO du contenu gratuit."
+    pod: {
+      title: "Intégration Dropshipping",
+      description:
+          "Connectez-vous aux services POD et gérez le dropshipping sans effort.",
     },
-    "item_21": {
-      "title": "Améliorez l'expérience de vos clients.",
-      "desc": "Organisez et segmentez votre clientèle, analysez leur valeur à vie, leurs achats passés en ligne et en magasin, et suivez leur parcours pour améliorer leur expérience tout en respectant leur vie privée."
-    },
-    "item_22": {
-      "title": "Concevez des pages réactives en toute simplicité.",
-      "desc": "Créez facilement des pages internes et de destination captivantes et réactives à l'aide de notre générateur de pages intégré sans code. Faites simplement glisser et déposez des sections pour créer des pages personnalisées."
-    },
-    "item_23": {
-      "title": "Optimisez l’édition avec un éditeur de page en ligne.",
-      "desc": "Modifiez facilement les textes et les images dans les pages à l'aide d'un éditeur de pages en ligne, ce qui rend la mise à jour de votre contenu simple et intuitive."
-    },
-    "item_24": {
-      "title": "Gérer l'accès et les rôles de l'équipe.",
-      "desc": "Invitez les membres de votre équipe, définissez les rôles du personnel et leurs niveaux d'accès. À mesure que votre entreprise et votre équipe se développent, votre système d'exploitation s'adaptera en conséquence."
-    },
-    "item_25": {
-      "title": "Ayez vos applications.",
-      "desc": "Démarrez votre entreprise avec une application Web progressive et offrez à vos clients une expérience plus rapide par rapport à vos concurrents."
-    },
-    "item_26": {
-      "title": "Outils d'automatisation et de sauvegarde avancés.",
-      "desc": "Rationalisez vos opérations commerciales et économisez du temps et des ressources précieuses en utilisant des outils d'automatisation avancés qui peuvent être intégrés à votre boutique."
-    },
-    "item_27": {
-      "title": "Personnalisez votre vitrine en toute simplicité.",
-      "desc": "Personnalisez facilement votre vitrine pour qu'elle corresponde à votre marque en utilisant des options de personnalisation visuelle telles que le thème, les schémas de couleurs, les polices, etc. - le tout sans avoir besoin de codage ou de compétences techniques."
-    },
-    "item_28": {
-      "title": "Concevez un parcours client personnalisé.",
-      "desc": "Concevez un parcours client personnalisé en utilisant les différentes options disponibles sur Selldone, telles que le choix du point de connexion ou l'activation des achats en tant qu'invité."
-    },
-    "item_29": {
-      "title": "Améliorez l'expérience avec des options de connexion et de flux personnalisées.",
-      "desc": "Créez une expérience de connexion et de flux personnalisée, en proposant diverses options de connexion sociale pour votre boutique en ligne."
-    },
-    "item_30": {
-      "title": "Soutenir des modèles commerciaux complexes.",
-      "desc": "L'assistance Selldone propose une prise en charge avancée des modèles commerciaux, tels que les marchés, les fournisseurs de dropshipping, les affiliés et les franchises, que vous pouvez facilement configurer et basculer en un seul clic."
-    },
-    "item_31": {
-      "title": "Liez plusieurs domaines personnalisés.",
-      "desc": "Vous pouvez lier plusieurs domaines personnalisés à des aspects spécifiques de votre entreprise tels que la communauté, la boutique, le blog, les pages de destination ou même les affiliés."
-    },
-    "item_32": {
-      "title": "Prise en charge de plusieurs langues et de la traduction automatique.",
-      "desc": "Votre boutique prend entièrement en charge plusieurs langues, à la fois RTL et LTR. Vous pouvez facilement installer et activer des packages de traduction automatique pour votre boutique."
-    },
-    "item_33": {
-      "title": "Calcul fiscal multi-profils intégré.",
-      "desc": "Grâce à la possibilité de créer plusieurs profils fiscaux et de les affecter à des produits spécifiques, vous bénéficiez d'une plus grande flexibilité dans le calcul de la TVA et de la taxe de vente. Par exemple, vous pouvez appliquer des taux de taxe différents pour les produits alimentaires ou les appareils électriques."
-    },
-    "item_34": {
-      "title": "Calcul de la taxe multirégionale.",
-      "desc": "Utilisez les règles par défaut ou personnalisées pour la taxe de vente et la TVA lorsque vous vendez dans différents pays et régions. Remplacez les règles pour des régions et territoires fiscaux spécifiques si nécessaire."
-    },
-    "item_35": {
-      "title": "Publiez des articles avec un puissant éditeur en ligne.",
-      "desc": "Un éditeur d'articles en ligne avancé rationalise le processus de publication et de révision de vos articles, le rendant rapide et facile tout en maintenant la cohérence."
-    },
-    "item_36": {
-      "title": "Tableau de bord dédié pour chaque produit.",
-      "desc": "Chaque produit dispose d'un tableau de bord dédié qui fournit des statistiques, toutes les informations nécessaires et l'accès à toutes les actions nécessaires à la gestion."
-    },
-    "item_37": {
-      "title": "Traduire automatiquement les articles.",
-      "desc": "Utilisez la fonction de traduction IA intégrée au niveau de l'entreprise pour traduire sans effort les descriptions de produits dans différentes langues en un seul clic."
-    },
-    "item_38": {
-      "title": "Outils d’analyse intégrés.",
-      "desc": "Vous aurez accès à des outils d'analyse intégrés entièrement côté serveur, sûrs et conformes au RGPD, sans utilisation de cookies."
-    },
-    "item_39": {
-      "title": "Couvrez la plupart de vos besoins avancés en matière de référencement.",
-      "desc": "Notre outil interne vous fournit les mots clés les plus actifs, les URL les plus performantes et un aperçu des performances de votre entreprise sur la recherche Google, le tout présenté sous forme de tableaux et de graphiques."
-    }
-  }
+  },
 };
