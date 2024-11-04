@@ -74,5 +74,23 @@ export default {
         }
     },
 
+    Product:{
+        Variants:{
+            AddBulkVariants:{
+                embed:'cm2ztbeft024y533he77woppk',
+                title:'Add Bulk Variants',
+            }
+        }
+    },
+
+
+    Shuttle:{
+        Deals:{
+            CreateStore:{
+                embed:'cm2viiihl1z1gesgvafqjr1nv',
+                title:'Create New LTD Store',
+            }
+        }
+    },
 
 }
