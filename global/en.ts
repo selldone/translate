@@ -835,7 +835,8 @@ export default {
     sex:'Sex',
     repeat: "Repeat",
     interval: "Interval",
-
+    parcel: "Parcel",
+    receiver: "Receiver",
   },
   difficulties: {
     very_complicated: "Very complicated",

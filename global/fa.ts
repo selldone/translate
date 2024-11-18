@@ -597,7 +597,7 @@ export default {
     unit: "واحد",
     profile: "پروفایل",
     shipping_rates: "نرخ ها",
-    package: "بسته بندی",
+    package: "بسته",
     overview: "مشخصات",
     live: "فعال",
     never: "هرگز",
@@ -834,6 +834,9 @@ export default {
     sex:'جنسیت',
     repeat: "تکرار",
     interval: "فاصله زمانی",
+    parcel: "بسته",
+    receiver: "گیرنده",
+
   },
 
   difficulties: {
