@@ -992,7 +992,7 @@ export default {
     verify_now: "Verify now",
     learn_more: "Learn more",
     learn_more_about: "Learn more about {name}",
-
+    select_category: "Select category",
   },
   /** @see BillingPeriod **/
   billing_period: {
