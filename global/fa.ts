@@ -2393,6 +2393,38 @@ export default {
       name: 'ایر‌بی‌ان‌بی',
       actionText: "رزرو در ایر‌بی‌ان‌بی",
     },
-  }
+  },
+
+
+  /**
+   * @see SProductSectionIncentivise
+   * @see ProductThresholds
+   */
+  product_section_incentivise: {
+    total_sold: "کل فروش",
+    available_items: "آیتم‌های موجود",
+    have_in_their_bag: "<b>{in_carts}</b> نفر دیگر این کالا را در سبد خرید خود دارند!",
+
+    physical: {
+      popular_selling_with_low_quantity:
+          "🎉 انتخاب محبوب! موجودی در حال اتمام است، همین حالا مال خودتان کنید!",
+      has_sell_has_quantity: "🌟 آیتم بسیار پرطرفدار! قبل از اتمام تهیه کنید.",
+      just_has_low_quantity: "🛒 موجودی محدود! این فرصت را از دست ندهید!",
+      just_has_very_low_quantity:
+          "⏳ تقریباً تمام شده! سریع‌تر اقدام کنید قبل از اینکه دیر شود!",
+    },
+
+    file: {
+      very_popular_selling:
+          "🔥 پرفروش‌ترین! به جمع خریداران بپیوندید و هم‌اکنون دانلود کنید!",
+      popular_selling:
+          "🎉 این فایل بسیار مورد توجه است. این فرصت را از دست ندهید!",
+      has_normal_selling: "📈 فایل محبوب! همین امروز نسخه خود را امن کنید.",
+      just_release_has_some_sales:
+          "✨ تازه منتشر شده! از اولین کسانی باشید که آن را دریافت می‌کنند.",
+    },
+  },
+
+
 
 };

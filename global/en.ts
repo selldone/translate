@@ -2395,6 +2395,33 @@ export default {
       name:'Airbnb',
       actionText: "Book on Airbnb",
     },
-  }
+  },
+
+
+  /**
+   * @see SProductSectionIncentivise
+   * @see ProductThresholds
+   */
+  product_section_incentivise: {
+    total_sold:'Total Sold',
+    available_items:'Available Items',
+    have_in_their_bag:"<b>{in_carts}</b> others have this in their carts!",
+
+    physical: {
+      popular_selling_with_low_quantity:"🔥 Popular choice! Stocks are running low, grab yours while you can!",
+      has_sell_has_quantity:"🌟 Highly sought-after item! Get it before it's gone.",
+      just_has_low_quantity:"🛒 Limited stock available! Don't miss out!",
+      just_has_very_low_quantity:"⏳ Almost out of stock! Act fast before it's too late!",
+
+
+    },
+    file:{
+      very_popular_selling:"🔥 Top seller! Join the crowd and download it now!",
+      popular_selling:"🎉 This file is getting a lot of attention. Don't miss out!",
+      has_normal_selling:"📈 Popular file! Secure your copy today.",
+      just_release_has_some_sales:"✨ Just released! Be one of the first to get it."
+
+    }
+  },
 
 };
