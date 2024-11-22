@@ -837,6 +837,9 @@ export default {
     interval: "Interval",
     parcel: "Parcel",
     receiver: "Receiver",
+    billing_address: "Billing address",
+    shipping_address: "Shipping address",
+
   },
   difficulties: {
     very_complicated: "Very complicated",

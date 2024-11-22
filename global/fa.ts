@@ -836,6 +836,8 @@ export default {
     interval: "فاصله زمانی",
     parcel: "بسته",
     receiver: "گیرنده",
+    billing_address: "آدرس صورتحساب",
+    shipping_address: "آدرس ارسال",
 
   },
 
