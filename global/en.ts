@@ -839,7 +839,7 @@ export default {
     receiver: "Receiver",
     billing_address: "Billing address",
     shipping_address: "Shipping address",
-
+    added: "Added",
   },
   difficulties: {
     very_complicated: "Very complicated",
