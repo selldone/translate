@@ -15,77 +15,76 @@
 export default {
   categories: {
     Baby: {
-      title: "Baby Supplies",
-      desc: "Feeding, Maternity, Stroller",
+      title: "Baby, Kids & Toys",
+      desc: "Stroller, Toys, Games, Puzzles, Action Figures",
     },
-
-    Beauty: {
-      title: "Beauty",
-      desc: "Cosmetic, Fragrance, Hair Care",
+    Health: {
+      title: "Health & Beauty",
+      desc: "Pharmacy, Wellness, Cosmetic, Fragrance",
     },
-    Blog: {
-      title: "Blog",
-      desc: "Sports blog, Science blog, Technology blog",
+    Media: {
+      title: "Media & Games",
+      desc: "Video Games, Movies, Music, Books",
     },
     Fashion: {
-      title: "Fashion",
-      desc: "Clothing, Shoes, Watch",
+      title: "Clothing, Jewelry, & Watches",
+      desc: "Clothing, Shoes, Necklace, Ring, Bracelet, Watch",
     },
-    Crypto: {
-      title: "Crypto",
-      desc: "Crypto-Currency, Blockchain, NFT",
+    Automotive: {
+      title: "Automotive",
+      desc: "Car Accessories, Tools, Maintenance",
     },
     Electronics: {
       title: "Electronics",
-      desc: "Mobile, Video Game, Laptop, TV",
+      desc: "Mobile, TV, Audio Devices, Camera",
+    },
+    Computers: {
+      title: "Computers",
+      desc: "Laptops, Desktops, Accessories, Software",
+    },
+    Household: {
+      title: "Household Essentials",
+      desc: "Cleaning Supplies, Bathroom, Laundry",
+    },
+    Garden: {
+      title: "Garden & Tools",
+      desc: "Outdoor Furniture, Gardening Tools, Plants",
     },
     Food: {
-      title: "Food & Drink",
-      desc: "Restaurants, Bakery, Beverage",
+      title: "Food & Groceries",
+      desc: "Dairy, Fruit, Prepared Food, Meat, Beverage",
     },
-    Furniture: {
-      title: "Furniture",
-      desc: "Home Furniture, Decor, Luggage & Travel",
+    Handmade: {
+      title: "Handmade",
+      desc: "Collectibles, Painted Shoes, Sculptures, Glass Art",
     },
-    Gift: {
-      title: "Gift Card",
-      desc: "App Store, Google Play, Netflix, Spotify",
-    },
-    Groceries: {
-      title: "Groceries",
-      desc: "Dairy, Fruit, Prepared Food, Meat",
-    },
-    Handcrafts: {
-      title: "Handcrafts",
-      desc: "Collectible, Painted Shoes, Sculptures, Glass Art",
-    },
-    Health: {
-      title: "Health",
-      desc: "Pharmacy, Pet care, Wellness",
+    PetSupplies: {
+      title: "Pet Supplies",
+      desc: "Pet Food, Pet Toys, Pet Care",
     },
     Home: {
       title: "Home & Living",
-      desc: "Kitchen Appliances, Cookware, Dining",
-    },
-    Jewelry: {
-      title: "Jewelry",
-      desc: "Necklace, Ring, Bracelet",
+      desc: "Kitchen Appliances, Home Furniture, Decor",
     },
     Sports: {
-      title: "Sports",
+      title: "Sports & Outdoors",
       desc: "Exercise, Camping, Bikes, Recreation",
     },
-    Education: {
-      title: "Online Courses",
-      desc: "Web Development, Design, Business",
+    Stationery: {
+      title: "Stationery and Office",
+      desc: "Office Supplies, School Supplies, Paper Products",
     },
-    Toy: {
-      title: "Toy",
-      desc: "Game, Puzzle, Action Figures",
+    Books: {
+      title: "Books",
+      desc: "Fiction, Non-fiction, Educational, Comics",
+    },
+    Marketplace: {
+      title: "Everything Marketplace",
+      desc: "A wide variety of products from multiple categories",
     },
     Other: {
-      title: "Other",
-      desc: "Other occupations...",
+      title: "Other...",
+      desc: "Gift Cards, Digital Products, Online Services, Anything",
     },
   },
 
