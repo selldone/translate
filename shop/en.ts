@@ -541,7 +541,7 @@ export default {
   product_filter_menu: {
     only_original: "Only originals",
     only_has_discount: "Only discounted",
-    price_range: "Price range",
+    price_range: "Price Range",
     brands: "Brand",
     main_shop_page: "Store main page",
     home: "Home",

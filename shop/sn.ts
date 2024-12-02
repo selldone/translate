@@ -417,7 +417,7 @@ export default {
   "product_filter_menu": {
     "only_original": "Chekutanga chete",
     "only_has_discount": "Yakaderedzwa chete",
-    "price_range": "Price range",
+    "price_range": "Price Range",
     "brands": "Brand",
     "main_shop_page": "Chengetedza peji guru",
     "home": "Kumba"

@@ -355,7 +355,7 @@ export default {
     "finish_date": "Zuva rekupedzisira",
     "complete_date": "Kupedzisa zuva",
     "settle_date": "Settlement date",
-    "cost_span": "Price range",
+    "cost_span": "Price Range",
     "industry": "Indasitiri",
     "rating": "Ratings",
     "rates": "Rating",
