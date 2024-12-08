@@ -839,6 +839,7 @@ export default {
     billing_address: "آدرس صورتحساب",
     shipping_address: "آدرس ارسال",
     added: "افزوده شده",
+    automation: "اتوماسیون",
 
   },
 

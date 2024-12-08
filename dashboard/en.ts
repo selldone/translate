@@ -8815,6 +8815,12 @@ export default {
       title: "Review",
       desc: "If you need to confirm a process in the store, the relevant email will be sent to this address. For example to confirm the sending of a marketing email to store users.",
     },
+    bulk: {
+      title: "Daily Order Report",
+      desc: "Receive a daily email with the details of orders for that day."
+    }
+
+
   },
 
   /** {@see BPageShopSettingLanguages} **/

@@ -840,6 +840,7 @@ export default {
     billing_address: "Billing address",
     shipping_address: "Shipping address",
     added: "Added",
+    automation: "Automation",
   },
   difficulties: {
     very_complicated: "Very complicated",
