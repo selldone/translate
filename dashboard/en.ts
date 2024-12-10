@@ -245,8 +245,8 @@ export default {
 
   helps: {
     title: "Selldone Help Center",
-    subtitle:
-      "Welcome to Selldone. If you are building a new online store on a business OS, you can find more information here.",
+    subtitle: "Welcome to the Selldone Help Center, your comprehensive guide to building and managing an online store within a powerful business operating system. Explore our resources, tutorials, and best practices to streamline your store’s setup, maximize efficiency, and drive growth.",
+
     add_new_help: "New Help",
     resources: "Resources",
 
