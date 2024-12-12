@@ -27,6 +27,8 @@ export default {
     my_public_profile: "My public profile page",
     product_admin: "Product Admin",
     make_money_affiliate: "Make Money",
+    see_live_shop:'See Live Shop',
+    see_live_product:'See Live Product',
   },
 
   numbers: {

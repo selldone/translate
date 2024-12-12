@@ -24,6 +24,8 @@ export default {
     my_public_profile: "صفحه پروفایل عمومی من",
     product_admin: "مدیریت محصول",
     make_money_affiliate: "کسب درآمد",
+    see_live_shop:'مشاهده فروشگاه',
+    see_live_product:'مشاهده محصول',
   },
 
   numbers: {
