@@ -1012,7 +1012,10 @@ export default {
   instance_message: "Hi {name}, \nMy name is {author} from {company}.",
 
   errors: {
-    419: "You have been inactive for a long time, please <b>⟳ REFRESH THE PAGE</b> for security reasons.",
+    419: "Your session has expired due to inactivity. Please <b>⟳ REFRESH THE PAGE</b> to continue securely.",
+    403: "You are not authorized to perform this action. Try refreshing the page, as it might resolve the issue.",
+    404: "The requested page could not be found. It might have been moved, renamed, or deleted.",
+
 
     gateway_blockchain_sync_error:
       "The system does not synchronize with the blockchain. It will not be possible to create a new transaction until our servers' synchronizations are completed. We are solving the problem.",

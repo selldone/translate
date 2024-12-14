@@ -406,6 +406,8 @@ export default {
       pos: "POS",
       seo: "SEO",
       localization: "Localization",
+      crm: "CRM",
+
     },
 
     /** {@see BPageShopDashboard} **/
@@ -10596,6 +10598,18 @@ export default {
       secure_link_created: "Secure link has been created successfully.",
     },
   },
+
+
+  /**
+   * {@see BOrderShare}
+   */
+  shop_reviews: {
+    title: "Reviews Sources",
+    add_source_action: "Add Review Source",
+    subtitle: "Easily connect external platforms to collect and analyze reviews about your business from sources like Facebook, Google, and more. We'll automatically match customers to their reviews for a better customer experience. You can also showcase these reviews on your landing pages and product pages."
+  },
+
+
 
   /**
    * Auto fill suggestions
