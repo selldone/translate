@@ -840,6 +840,7 @@ export default {
     shipping_address: "آدرس ارسال",
     added: "افزوده شده",
     automation: "اتوماسیون",
+    avatar: "آواتار",
 
   },
 

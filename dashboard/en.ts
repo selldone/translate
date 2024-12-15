@@ -10601,7 +10601,7 @@ export default {
 
 
   /**
-   * {@see BOrderShare}
+   * {@see BPageShopCrmReviews}
    */
   shop_reviews: {
     title: "Reviews Sources",

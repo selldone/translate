@@ -841,6 +841,7 @@ export default {
     shipping_address: "Shipping address",
     added: "Added",
     automation: "Automation",
+    avatar: "Avatar",
   },
   difficulties: {
     very_complicated: "Very complicated",
