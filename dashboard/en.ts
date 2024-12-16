@@ -4296,7 +4296,7 @@ export default {
     message:
       "Kindly set up a minimum of one account for each currency you utilize with Selldone. These funds will be dedicated to covering your service fees.",
     add_new: "Create new account",
-    new_account: "Add new account",
+    new_account: "Add new wallet",
     new_account_dialog: {
       title: "New Account",
       account_name_input: "Account name",
@@ -7860,7 +7860,7 @@ export default {
   /** {@see BGatewayCard} **/
   widget_shop_gateway: {
     link_account_caution:
-      "Link an account ({currency}) to your shop! Click here..",
+      "Link a wallet ({currency}) to your shop! Click here..",
   },
 
   /** {@see BProductOrderSalesPerformance} **/
