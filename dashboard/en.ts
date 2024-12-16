@@ -4494,6 +4494,7 @@ export default {
     },
     profile_dialog: {
       title: "Main Profile",
+      subtitle: "Edit your public profile information here. This information might be visible to your customers or other users.",
       full_name_input: "Full Name",
       tel_input: "Contact Number",
       email_input: "Email",
