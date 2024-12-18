@@ -1854,6 +1854,10 @@ export default {
         title: "Bulk Add",
         subtitle: "Add multiple variants in one action.",
       },
+      edit_property_set:{
+        title:'Customize Property Set',
+        subtitle:'Change variants names, icons and orders.',
+      }
     },
   },
 
@@ -10610,6 +10614,30 @@ export default {
     subtitle: "Easily connect external platforms to collect and analyze reviews about your business from sources like Facebook, Google, and more. We'll automatically match customers to their reviews for a better customer experience. You can also showcase these reviews on your landing pages and product pages."
   },
 
+  /**
+   * {@see BPageShopLogisticPropertySets}
+   */
+  shop_logistic_property_set:{
+    add_caption: "Add new property set",
+    title: "Property Sets",
+    subtitle: "You can create and manage property sets here. Property sets are used to define the properties of products and services. You can assign these property sets to products in the Product Dashboard > Edit.",
+  },
+
+  /**
+   * {@see BProductProfilePropertySet}
+   */
+  product_property_set:{
+    profile:{
+      title:'Property Set - Custom Variants',
+      subtitle:'You can customize the variant names for this product, replacing the default ones.',
+    },
+
+
+    subtitle:'You can customize variant names, icons, and their order here. For products with unique variants that go beyond the default six, you can set custom variants tailored to each product. Simply define property sets in the Logistic > Property Sets tab and assign them to any number of products as needed.',
+    select_property_set:'Select Property Set',
+    add_property_set:'Add Property Set',
+
+  },
 
 
   /**
@@ -11570,5 +11598,39 @@ export default {
         "Hi {buyer_name}, the item from your order #{order_id} is back in stock! You can place a new order now if you’re still interested.",
       ],
     },
+
+    /**
+     * Property Set
+     */
+    property_set: {
+      title: [
+        "Dress",
+        "Digital Gadgets",
+        "Drinks",
+        "Foods",
+        "Furniture",
+        "Books",
+        "Beauty Products",
+        "Toys",
+        "Sports Equipment",
+        "Accessories"
+      ],
+      description: [
+        "Attributes for clothing items like size, color, and fabric.",
+        "Specifications for gadgets such as brand, model, and features.",
+        "Flavors, sizes, and types of beverages.",
+        "Details for meals, snacks, and food products.",
+        "Material, dimensions, and design styles.",
+        "Author, genre, and publication year.",
+        "Skin type, ingredients, and packaging details.",
+        "Age group, material, and safety standards.",
+        "Type, size, and performance features.",
+        "Styles, materials, and brand details."
+      ]
+    }
+
+
+
+
   },
 };

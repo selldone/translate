@@ -841,6 +841,8 @@ export default {
     added: "افزوده شده",
     automation: "اتوماسیون",
     avatar: "آواتار",
+    variants: "تنوع ها",
+    property_set: "مجموعه خصوصیات",
 
   },
 

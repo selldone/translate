@@ -842,6 +842,8 @@ export default {
     added: "Added",
     automation: "Automation",
     avatar: "Avatar",
+    variants: "Variants",
+    property_set: "Property set",
   },
   difficulties: {
     very_complicated: "Very complicated",

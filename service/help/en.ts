@@ -83,6 +83,15 @@ export default {
         }
     },
 
+    Marketplace:{
+        Payout:{
+            Overview:{
+                title:'Payout Overview',
+                link:'https://selldone.com/blog/payout-vendors-manually-and-automatically-by-stripe-connect-712',
+            }
+        }
+    },
+
 
     Shuttle:{
         Deals:{
@@ -92,5 +101,7 @@ export default {
             }
         }
     },
+
+
 
 }
