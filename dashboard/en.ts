@@ -1332,7 +1332,7 @@ export default {
         },
       },
 
-      /** {@see ShopEdit_Footer} **/
+      /** {@see ShopSocialField} **/
       social: {
         title: "Social Media",
         message:

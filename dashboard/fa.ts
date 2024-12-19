@@ -1301,7 +1301,7 @@ export default {
         },
       },
 
-      /** {@see ShopEdit_Footer} **/
+      /** {@see ShopSocialField} **/
       social: {
         title: "شبکه های اجتماعی",
         message:
