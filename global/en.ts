@@ -1983,7 +1983,8 @@ export default {
     order_free_payment_action: "Order Free Now",
 
     qr: {
-      address: "Payment address",
+      guide:"Scan the QR code with your wallet or copy the address and amount exactly as displayed to make your payment. Once the payment is complete, you can safely close this dialog. Your payment will be validated automatically.",
+      address: "Payment Address",
       amount: "Amount",
     },
   },
