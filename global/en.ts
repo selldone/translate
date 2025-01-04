@@ -844,6 +844,8 @@ export default {
     avatar: "Avatar",
     variants: "Variants",
     property_set: "Property set",
+    more_info_needed: "More Info Needed",
+    required: "Required",
   },
   difficulties: {
     very_complicated: "Very complicated",

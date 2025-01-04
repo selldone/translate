@@ -8752,6 +8752,14 @@ export default {
         title: "پرسیدن آدرس ارسال",
       },
     },
+
+    /** {@see BShopOptionsCheckoutForm} **/
+    checkout_form: {
+      title: "فرم تسویه‌حساب",
+      subtitle: "فیلدهای فرم تسویه‌حساب را برای جمع‌آوری اطلاعات موردنیاز از مشتریان خود سفارشی کنید.",
+    }
+
+
   },
 
   /** {@see CheckoutOptions} **/

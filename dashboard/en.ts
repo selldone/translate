@@ -9041,6 +9041,12 @@ export default {
         title: "Ask for shipping address",
       },
     },
+
+    /** {@see BShopOptionsCheckoutForm} **/
+    checkout_form:{
+      title: "Checkout form",
+      subtitle: "Customize the checkout form fields to collect the information you need from your customers.",
+    }
   },
   /** {@see CheckoutOptions} **/
   checkout_options: {

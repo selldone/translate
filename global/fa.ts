@@ -843,7 +843,8 @@ export default {
     avatar: "آواتار",
     variants: "تنوع ها",
     property_set: "مجموعه خصوصیات",
-
+    more_info_needed: "نیاز به اطلاعات بیشتر",
+    required: "الزامی",
   },
 
   difficulties: {
