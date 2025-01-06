@@ -2431,7 +2431,7 @@ export default {
           graphical_asset_action_caption: "Images for variant options.",
         },
         smart_unit_price: {
-          tips: "Calculate unit price based on <b>weight</b>, <b>volume</b>, and <b>pack size</b>.",
+          tips: "Calculate unit price based on <b>weight</b>, <b>volume</b>, and <b>pack size</b>. To disable this feature, navigate to Shop > Settings > Theme > Product Page > Smart Unit Price.",
           smart_unit_price: "Unit Price Calculation",
         },
         quantity: {
