@@ -557,6 +557,7 @@ export default {
       drop_import_message:
         "فایل فهرست محصولات (فرمت CSV، XLS، XLSX) را در اینجا رها کنید تا وارد کردن محصولات انبوه شروع شود. مطمئن شوید که فایل دارای فرمت استاندارد فهرست محصولات سلدان است.",
       menu_advanced_options: "تنظیمات پیشرفته",
+      menu_advanced_options_description: "اتصال به گوگل شیت، حذف محصولات تکراری و موارد دیگر...",
 
       products_rss: {
         title: "RSS محصولات",

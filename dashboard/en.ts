@@ -593,6 +593,7 @@ export default {
         "Drop products list file (CSV, XLS, XLSX format) here to start adding bulk products. Ensure that the file has the Selldone products list format.",
 
       menu_advanced_options: "Advanced options",
+      menu_advanced_options_description:"Connect Google sheet, Remove duplicated products and more...",
 
       products_rss: {
         title: "Products RSS",
