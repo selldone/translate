@@ -846,6 +846,10 @@ export default {
     property_set: "Property set",
     more_info_needed: "More Info Needed",
     required: "Required",
+    seo_preview:'SEO Preview',
+    icon: "Icon",
+    values:"Values",
+
   },
   difficulties: {
     very_complicated: "Very complicated",
@@ -2038,6 +2042,7 @@ export default {
   need_login: {
     title: "Login",
     login_sms: "SMS Login",
+    login_sms_description:"In some countries it's free. We try to make this feature free for all. More information will be available soon.",
     login_google: "Login with Google",
     login_facebook: "Login with Facebook",
     login_apple: "Login with Apple",
@@ -2054,6 +2059,7 @@ export default {
       "Are you certain that you've entered your email address correctly? We will be sending the login code to the email provided, so please ensure its accuracy.",
     email_login_step_3:
       "We have sent a code to your email. Please note that the code will expire in 10 minutes.",
+
   },
 
   /** {@see ShopBadges} **/

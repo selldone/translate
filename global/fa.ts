@@ -845,6 +845,9 @@ export default {
     property_set: "مجموعه خصوصیات",
     more_info_needed: "نیاز به اطلاعات بیشتر",
     required: "الزامی",
+    seo_preview:'پیش نمایش سئو',
+    icon: "آیکون",
+    values:"مقادیر",
   },
 
   difficulties: {
@@ -2035,6 +2038,7 @@ export default {
   need_login: {
     title: "ورود",
     login_sms: "ورود با تلفن همراه",
+    login_sms_description: "در برخی کشورها این سرویس رایگان است. ما تلاش می‌کنیم این قابلیت را برای همه رایگان کنیم. اطلاعات بیشتری به زودی در دسترس خواهد بود.",
     login_google: "ورود با گوگل",
     login_facebook: "ورود با فیسبوک",
     login_apple: "ورود با اپل",

@@ -29,6 +29,11 @@ export default {
     make_money_affiliate: "Make Money",
     see_live_shop:'See Live Shop',
     see_live_product:'See Live Product',
+    has_inputs: "Has Inputs",
+    main_domain:'Main Domain',
+    domains:'Domains',
+    home_page:'Home Page',
+
   },
 
   numbers: {
@@ -887,6 +892,7 @@ export default {
         logistic_apps: "Logistics",
         profiles: "Profiles",
         includes: "Includes",
+        property_sets: "Property Sets",
       },
 
       /** {@see BPageShopLogisticInventory} **/
@@ -1289,6 +1295,10 @@ export default {
           title: "Logo",
           subtitle: "Select a unique logo for your brand.",
         },
+        favicon:{
+          title:'Favicon',
+          subtitle:"Favicons are small, iconic images that represent a website in browser tabs, bookmarks, and mobile app interfaces.",
+        }
       },
 
       /** {@see ShopEditMenuFooter} **/
@@ -7419,6 +7429,7 @@ export default {
   /** {@see BPageShopSettingTheme**/
   shop_theme: {
     theme_colors: "Theme colors",
+    theme_colors_description:"You can personalize the primary color palette of your shop here. Each template can utilize these colors to automatically generate a complete color range that aligns with your brand.",
     products_view_mode: "Shopping list view",
     products_view_mode_desc:
       "You can adjust the display mode of products in your store based on the screen size. This mode will be considered by default and will not be applied if the user changes the display mode.",
@@ -7431,14 +7442,148 @@ export default {
     light_header: "Header theme",
     light_footer: "Footer theme",
     light_filter: "Category filter theme",
+    checkout_color: "Checkout color",
 
-    product_page: "Product Page",
     typography: "Typography",
     header: "Header",
     custom_code: "Custom code",
     custom_css: "Custom CSS",
     custom_variants: "Variants",
+
+    wrap_product_title:{
+      title:'Wrap Title',
+      subtitle:"The height of the title will adjust dynamically."
+    },
+
+    animation:{
+      title:'Animation',
+      static:{
+        false_title:"With Animations",
+        false_description:"Categories and products have an interactive animation to show the functionality.",
+        true_title:"Static",
+        true_description:"Categories and products have no animation.",
+      }
+    },
+
+    quick_actions:{
+      title:"Quick Actions",
+      hover:{
+        false_description:"Simple and minimal mode without any extra actions on product cards.",
+        true_description:"Show Quick buy & Add to compare buttons on product card hovering.",
+        true_title:"Show Action on Hover"
+      }
+    },
+    filter_products:{
+      title:'Filter Products',
+      only_available:{
+        false_description:"Show all products in the shop list  as default.",
+        true_description:"Show only available products in the shop list as default.",
+        true_title:"Available Products",
+        false_title:"All Products"
+
+      }
+    },
+    filter_categories:{
+      title:"Filter Categories",
+      hide_empty_folders:{
+        false_description:"Show all categories in the shop list.",
+        false_title:"Show All Categories",
+        true_title:"Hide Empty Categories",
+        true_description:"Show only categories with products in the shop list.",
+
+      }
+    },
+
+    product_page:{
+      title:"Product Page",
+      subtitle:"Personalize your product page here. You can adjust the display of prices and modify the arrangement of sections to suit your preferences.",
+      buy_button_color:"Buy button color",
+      smart_price:{
+        title:"Smart unit price",
+        true_description:"Calculating unit price by considering weight, volume, and pack variants property. Ex. If you have a variant with 2L size and $5 as price, then the customer sees the $2.5/L on the product page.",
+
+      },
+      reverse_currency:{
+        title:"Currency sign position",
+        false_title:"Normal mode",
+        true_title:"Reverse mode",
+        false_description:"The currency sign will be placed at the start of the numbers. Ex: $95 , €30",
+        true_description:"The currency sign will be placed at the end of the numbers. Ex: 95$ , 30€"
+      },
+      variants_selector:{
+        title:"Variants Selector",
+        subtitle:"You can choose different ways to display variants on the product page.",
+      },
+
+      tabs_order:{
+        title:"Tabs order",
+        reset_to_default:"Reset to default",
+
+      }
+
+    },// end: product_page
+
+
+
+
+
   },
+
+
+  /** @see ShopThemeVariantsMode**/
+  shop_theme_variants_mode:{
+    smart:{
+      title: "Smart Mode",
+      description: "Compact variants in selectable separate options, suitable for most cases.",
+    },
+    select:{
+      title: "Select Mode",
+      description: "Displays all variants in a dropdown, ideal for a large number of variants.",
+    }
+  },
+
+  /** @see BPropertySetAdd**/
+property_set_add:{
+  edit_title:'Edit Property Set',
+    add_title:"Add Property Set",
+    config:{
+      subtitle:"Set title and description for your property set. It will be visible to staff only."
+    },
+    variants:{
+    title:'Variants',
+      subtitle:"You can customize the variant name, icon, and order here. If you have a variety of products with unique variants that don’t fit default 6 variants, you can set custom variants for each product here."
+    },
+
+    inputs:{
+      title:{
+        placeholder:'Enter a title for property set...',
+      },
+      description:{
+        placeholder:"Enter a short description... (optional)"
+      },
+      custom_variants:{
+        true_title:"Custom Variants",
+        false_title:"Default Variants",
+        true_description:"Customize your product variants.",
+        false_description:"Use default global variants."
+      }
+    }
+  },
+
+
+  /** @see BPropertySetVariantRow **/
+property_set_variant_row:{
+    inputs:{
+      values:{
+        placeholder:"Set values set... (optional)",
+        messages:"You can provide suggestions for the values and customize order."
+      }
+    }
+  },
+
+
+
+
 
   /** {@see AppTemplates**/
   app_templates: {
@@ -8995,6 +9140,8 @@ export default {
     login: {
       title: "Login methods",
       subtitle: "Customize the way users log in to your store.",
+
+      tips:"<b>Important.</b> When a user registers with your shop, a corresponding Selldone user is created, if one doesn't already exist. This user will have access to their address book across all shops and can view their order history, even if a shop has closed. We do not use this information for marketing purposes but require it to prevent fraud on both sides. To maintain transparency, we'll send an email to the user informing them of their registration."
     },
 
     /** {@see BShopOptionsCheckout} **/
