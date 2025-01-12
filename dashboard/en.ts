@@ -3985,10 +3985,10 @@ export default {
     "reject-order": "Reject order. Code: {reject_code}.",
     "reject-order-clear": "Cancel the order rejection. Code: {reject_code}.",
 
-    "email-buy": "Send purchase confirmation email to customer.",
-    "email-payment": "Send payment confirmation email to customer.",
-    "email-update": "Send order update email to customer.",
-    "sms-payment": "Send payment confirmation SMS to customer via {phone}.",
+
+
+
+
     "delivery-returned":
       "The order was not received by the customer and was returned. It is necessary to ship again.",
     "delivery-canceled": "Delivery canceled. It is necessary to ship again.",
@@ -4011,11 +4011,26 @@ export default {
     "connect-remove-hold": "The order was removed from hold. {reason}",
     "connect-confirmed": "The order was confirmed.",
 
-    "email-vendor":
-      "🔔 Order inform email has been sent to <b>{vendor}</b> ╏ {email}.",
+
     "vendor-payout": "💸 Payout to vendor.",
     "vendor-sms":
       "🔔 Order inform SMS has been sent to <b>{vendor}</b> ╏ {phone}.",
+
+    // ━━━━━━━━━━━━━━━━━━━━━━ Email Packs ━━━━━━━━━━━━━━━━━━━━━━
+
+    "email-buy": "Send purchase confirmation email to customer.",
+    "email-payment": "Send payment confirmation email to customer.",
+    "email-update": "Send order update email to customer.",
+
+    "email-vendor": "🔔 Order inform email has been sent to <b>{vendor}</b> ╏ {email}.",
+
+    // ━━━━━━━━━━━━━━━━━━━━━━ SMS Packs ━━━━━━━━━━━━━━━━━━━━━━
+    "sms-payment": "Send a payment confirmation SMS to the customer via {phone}.",
+    "sms-ready-to-ship": "Send an SMS to the customer notifying that their order is ready to be shipped via {phone}.",
+    "sms-ready-to-pickup": "Send an SMS to the customer notifying that their order is ready for pickup via {phone}.",
+    "sms-order-confirmation": "Send an order confirmation SMS to the customer via {phone}.",
+
+
   },
 
   /** {@see FinanceInlineChart} **/
