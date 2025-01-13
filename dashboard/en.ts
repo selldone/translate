@@ -1445,11 +1445,10 @@ export default {
       unit_message: "Enter the unit if needed. Ex: KG, Meter, ...",
 
       unit_section: "Product unit",
-      unit_float: "Float unit (soon)",
-      unit_float_hint:
-        "For example, the customer can order 3 kg of fruit, but the amount sent to the customer is slightly different from the ordered amount.",
-      unit_float_message:
-        "During order processing, the delivered amount may differ from the ordered amount. The system automatically calculates this difference and records it as your debt to the customer, which can be applied to the next orders.",
+
+      unit_float: "Float unit",
+      unit_float_hint: "For example, a customer might order 2.5 kg of fruit, but the final shipped amount could be slightly different from what's ordered.",
+      unit_float_message: "If there's a difference between the ordered and delivered amounts, the system automatically calculates it as a refund amount. You can then issue that refund to the customer’s card or apply it as cashback to their wallet.",
 
       marketplace: {
         // Vendor panel > Fixed mode
@@ -3514,7 +3513,7 @@ export default {
           "The amount is calculated approximately. Please calculate the exact amount yourself.",
       },
       need_payback: {
-        title: "Customer pay back required",
+        title: "Customer charge required",
         message:
           "We've noticed that the total refunded to the customer is higher than the amount due based on the items in the cart. You may need to charge your customer to recover the excess amount.",
       },
@@ -4013,6 +4012,8 @@ export default {
 
 
     "vendor-payout": "💸 Payout to vendor.",
+    "vendor-wallet-transaction": "Vendor's wallet transaction.",
+
     "vendor-sms":
       "🔔 Order inform SMS has been sent to <b>{vendor}</b> ╏ {phone}.",
 
@@ -4030,6 +4031,8 @@ export default {
     "sms-ready-to-pickup": "Send an SMS to the customer notifying that their order is ready for pickup via {phone}.",
     "sms-order-confirmation": "Send an order confirmation SMS to the customer via {phone}.",
 
+
+    'count-adjustment': 'The quantity of the product "{product}" has been updated from {from} to {to}.'
 
   },
 

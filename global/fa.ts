@@ -848,6 +848,8 @@ export default {
     seo_preview:'پیش نمایش سئو',
     icon: "آیکون",
     values:"مقادیر",
+    remove_item: "حذف آیتم",
+
   },
 
   difficulties: {

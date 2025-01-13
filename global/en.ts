@@ -849,6 +849,7 @@ export default {
     seo_preview:'SEO Preview',
     icon: "Icon",
     values:"Values",
+    remove_item: "Remove Item",
 
   },
   difficulties: {
