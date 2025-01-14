@@ -849,7 +849,10 @@ export default {
     icon: "آیکون",
     values:"مقادیر",
     remove_item: "حذف آیتم",
-
+    adjusted:'اصلاح شده',
+    original_amount:'میزان اصلی',
+    adjustment_amount:'میزان اصلاح',
+    final_amount:'میزان نهایی',
   },
 
   difficulties: {

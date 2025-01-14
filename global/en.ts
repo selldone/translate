@@ -850,6 +850,10 @@ export default {
     icon: "Icon",
     values:"Values",
     remove_item: "Remove Item",
+    adjusted:'Adjusted',
+    original_amount:'Original Amount',
+    adjustment_amount:'Adjustment Amount',
+    final_amount:'Final Amount'
 
   },
   difficulties: {
