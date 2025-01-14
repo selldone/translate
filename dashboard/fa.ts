@@ -1529,14 +1529,12 @@ export default {
       pros_input_title: "عنوان ویژگی",
       pros_input_value: "مقدار برای ویژگی",
       pros_group: "مزایای محصول",
-      pros_group_messages: "مزایای کلیدی محصول",
 
       cons_title: "معایب",
       cons_message: "ویژگی های منفی محصول را وارد نمایید. (حداکثر 5 مورد)",
       cons_input_title: "عنوان عیب",
       cons_input_value: "مقدار برای عیب",
       cons_group: "معایب محصول",
-      cons_group_messages: "معایب اصلی محصول",
 
       select_from_list: "انتخاب از لیست",
 

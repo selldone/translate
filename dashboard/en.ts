@@ -1566,14 +1566,12 @@ export default {
       pros_input_title: "Feature Title",
       pros_input_value: "Feature value",
       pros_group: "Pros of product",
-      pros_group_messages: "The main features of the product",
 
       cons_title: "Cons",
       cons_message: "Enter the weaknesses of the product. (Up to 5 items)",
       cons_input_title: "Weakness title",
       cons_input_value: "Weakness value",
       cons_group: "Weaknesses of product",
-      cons_group_messages: "The main weaknesses of the product",
 
       select_from_list: "Select from list",
 
