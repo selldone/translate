@@ -557,7 +557,6 @@ export default {
       menu_products_list: "لیست محصولات",
       menu_export: "دانلود لیست محصولات",
       menu_import: "افزودن محصولات (csv)",
-      menu_show_deletes: "نمایش محصولات حذف شده",
       drop_import_message:
         "فایل فهرست محصولات (فرمت CSV، XLS، XLSX) را در اینجا رها کنید تا وارد کردن محصولات انبوه شروع شود. مطمئن شوید که فایل دارای فرمت استاندارد فهرست محصولات سلدان است.",
       menu_advanced_options: "تنظیمات پیشرفته",
@@ -577,17 +576,31 @@ export default {
       },
       show_deletes: {
         false_title: "پنهان کردن حذف شده‌ها",
+        false_description: "عدم نمایش محصولات حذف شده.",
         true_title: "نمایش حذف شده‌ها",
+        true_description: "نمایش محصولات حذف شده.",
       },
       show_vendors: {
         false_title: "پنهان کردن فروشندگان",
-        false_description: "نمایش همه فروشندگان، ⌘Ctrl+1",
+        false_description: "نمایش وندور مالک.",
         true_title: "نمایش فروشندگان",
+        true_description: "نمایش همه فروشندگان، ⌘Ctrl+1",
       },
+
+      table_mode: {
+        false_title: "حالت کشیدن و رها کردن",
+        false_description: "مشاهده محصولات به‌صورت سازمان‌یافته در دسته‌بندی‌ها و زیرمجموعه‌ها.",
+        true_title: "حالت لیستی",
+        true_description: "مشاهده محصولات به‌صورت جدول با جزئیات کامل.",
+      },
+
+
+
       show_notes: {
         false_title: "پنهان کردن یادداشت‌ها",
-        false_description: "نمایش همه یادداشت‌ها، ⌘Ctrl+2",
+        false_description: "عدم نمایش یادداشت های خالی.",
         true_title: "نمایش یادداشت‌ها",
+        true_description: "نمایش همه یادداشت‌ها، ⌘Ctrl+2",
       },
       rss_dialog: {
         title: "RSS محصولات",

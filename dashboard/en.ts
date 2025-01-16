@@ -593,7 +593,6 @@ export default {
       menu_products_list: "Products list",
       menu_export: "Export products",
       menu_import: "Import products",
-      menu_show_deletes: "Show deleted products",
       drop_import_message:
         "Drop products list file (CSV, XLS, XLSX format) here to start adding bulk products. Ensure that the file has the Selldone products list format.",
 
@@ -614,19 +613,30 @@ export default {
           "The products in this shop are linked to a Google Sheet in Google Drive.",
       },
       show_deletes: {
-        false_title: "Hide deleted",
-        true_title: "Show deleted",
+        false_title: "Hide Deleted",
+        false_description: "Hide deleted products.",
+        true_title: "Show Deleted",
+        true_description: "Show deleted products.",
       },
       show_vendors: {
-        false_title: "Hide vendors",
-        false_description: "Show all vendors, ⌘Ctrl+1",
-        true_title: "Show vendors",
+        false_title: "Hide Vendors",
+        false_description: "Just show vendor owner.",
+        true_title: "Show Vendors",
+        true_description: "Show all vendors, ⌘Ctrl+1",
+      },
+      table_mode: {
+        false_title:"Drag & Drop Mode",
+        false_description: "View products organized by categories and subcategories.",
+        true_title: "Table Mode",
+        true_description: "View products in a detailed table layout.",
       },
 
       show_notes: {
-        false_title: "Hide notes",
-        false_description: "Show all notes, ⌘Ctrl+2",
-        true_title: "Show notes",
+        false_title: "Hide Notes",
+        false_description: "Hide empty notes.",
+        true_title: "Show Notes",
+        true_description: "Show all notes, ⌘Ctrl+2",
+
       },
 
       rss_dialog: {
