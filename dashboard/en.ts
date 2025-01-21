@@ -9381,6 +9381,11 @@ property_set_variant_row:{
       title: "Rejected",
       description: "This product was rejected by the marketplace.",
     },
+    unlisted:{
+        name: "Unlisted",
+        title: "Unlisted",
+        description: "This product is not listed in the store, but accessible by direct link.",
+    }
   },
 
   /**
