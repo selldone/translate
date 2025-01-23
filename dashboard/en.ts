@@ -107,7 +107,7 @@ export default {
     login: "Login",
     register: "Register",
     auth_2fa: "2 factor Authenticate 🔐",
-    academy: "Blog",
+    academy: "Business OS Mag",
     help: "Help Center",
     price_list: "Price list",
     my_stores: "My Stores",
