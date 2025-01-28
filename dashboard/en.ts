@@ -27,13 +27,14 @@ export default {
     my_public_profile: "My public profile page",
     product_admin: "Product Admin",
     make_money_affiliate: "Make Money",
-    see_live_shop:'See Live Shop',
-    see_live_product:'See Live Product',
+    see_live_shop: "See Live Shop",
+    see_live_product: "See Live Product",
     has_inputs: "Has Inputs",
-    main_domain:'Main Domain',
-    domains:'Domains',
-    home_page:'Home Page',
-
+    main_domain: "Main Domain",
+    domains: "Domains",
+    home_page: "Home Page",
+    google_icon_font_sample: "Google font sample",
+    fontawesome_icon_font_sample: "Fontawesome (V6) sample",
   },
 
   numbers: {
@@ -252,7 +253,8 @@ export default {
 
   helps: {
     title: "Selldone Help Center",
-    subtitle: "Welcome to the Selldone Help Center, your comprehensive guide to building and managing an online store within a powerful business operating system. Explore our resources, tutorials, and best practices to streamline your store’s setup, maximize efficiency, and drive growth.",
+    subtitle:
+      "Welcome to the Selldone Help Center, your comprehensive guide to building and managing an online store within a powerful business operating system. Explore our resources, tutorials, and best practices to streamline your store’s setup, maximize efficiency, and drive growth.",
 
     add_new_help: "New Help",
     resources: "Resources",
@@ -412,7 +414,6 @@ export default {
       seo: "SEO",
       localization: "Localization",
       crm: "CRM",
-
     },
 
     /** {@see BPageShopDashboard} **/
@@ -597,7 +598,8 @@ export default {
         "Drop products list file (CSV, XLS, XLSX format) here to start adding bulk products. Ensure that the file has the Selldone products list format.",
 
       menu_advanced_options: "Advanced options",
-      menu_advanced_options_description:"Connect Google sheet, Remove duplicated products and more...",
+      menu_advanced_options_description:
+        "Connect Google sheet, Remove duplicated products and more...",
 
       products_rss: {
         title: "Products RSS",
@@ -625,8 +627,9 @@ export default {
         true_description: "Show all vendors, ⌘Ctrl+1",
       },
       table_mode: {
-        false_title:"Drag & Drop Mode",
-        false_description: "View products organized by categories and subcategories.",
+        false_title: "Drag & Drop Mode",
+        false_description:
+          "View products organized by categories and subcategories.",
         true_title: "Table Mode",
         true_description: "View products in a detailed table layout.",
       },
@@ -636,7 +639,6 @@ export default {
         false_description: "Hide empty notes.",
         true_title: "Show Notes",
         true_description: "Show all notes, ⌘Ctrl+2",
-
       },
 
       rss_dialog: {
@@ -1305,10 +1307,11 @@ export default {
           title: "Logo",
           subtitle: "Select a unique logo for your brand.",
         },
-        favicon:{
-          title:'Favicon',
-          subtitle:"Favicons are small, iconic images that represent a website in browser tabs, bookmarks, and mobile app interfaces.",
-        }
+        favicon: {
+          title: "Favicon",
+          subtitle:
+            "Favicons are small, iconic images that represent a website in browser tabs, bookmarks, and mobile app interfaces.",
+        },
       },
 
       /** {@see ShopEditMenuFooter} **/
@@ -1457,8 +1460,10 @@ export default {
       unit_section: "Product unit",
 
       unit_float: "Float unit",
-      unit_float_hint: "For example, a customer might order 2.5 kg of fruit, but the final shipped amount could be slightly different from what's ordered.",
-      unit_float_message: "If there's a difference between the ordered and delivered amounts, the system automatically calculates it as a refund amount. You can then issue that refund to the customer’s card or apply it as cashback to their wallet.",
+      unit_float_hint:
+        "For example, a customer might order 2.5 kg of fruit, but the final shipped amount could be slightly different from what's ordered.",
+      unit_float_message:
+        "If there's a difference between the ordered and delivered amounts, the system automatically calculates it as a refund amount. You can then issue that refund to the customer’s card or apply it as cashback to their wallet.",
 
       marketplace: {
         // Vendor panel > Fixed mode
@@ -1872,10 +1877,10 @@ export default {
         title: "Bulk Add",
         subtitle: "Add multiple variants in one action.",
       },
-      edit_property_set:{
-        title:'Customize Property Set',
-        subtitle:'Change variants names, icons and orders.',
-      }
+      edit_property_set: {
+        title: "Customize Property Set",
+        subtitle: "Change variants names, icons and orders.",
+      },
     },
   },
 
@@ -3992,10 +3997,6 @@ export default {
     "reject-order": "Reject order. Code: {reject_code}.",
     "reject-order-clear": "Cancel the order rejection. Code: {reject_code}.",
 
-
-
-
-
     "delivery-returned":
       "The order was not received by the customer and was returned. It is necessary to ship again.",
     "delivery-canceled": "Delivery canceled. It is necessary to ship again.",
@@ -4018,7 +4019,6 @@ export default {
     "connect-remove-hold": "The order was removed from hold. {reason}",
     "connect-confirmed": "The order was confirmed.",
 
-
     "vendor-payout": "💸 Payout to vendor.",
     "vendor-wallet-transaction": "Vendor's wallet transaction.",
 
@@ -4031,17 +4031,21 @@ export default {
     "email-payment": "Send payment confirmation email to customer.",
     "email-update": "Send order update email to customer.",
 
-    "email-vendor": "🔔 Order inform email has been sent to <b>{vendor}</b> ╏ {email}.",
+    "email-vendor":
+      "🔔 Order inform email has been sent to <b>{vendor}</b> ╏ {email}.",
 
     // ━━━━━━━━━━━━━━━━━━━━━━ SMS Packs ━━━━━━━━━━━━━━━━━━━━━━
-    "sms-payment": "Send a payment confirmation SMS to the customer via {phone}.",
-    "sms-ready-to-ship": "Send an SMS to the customer notifying that their order is ready to be shipped via {phone}.",
-    "sms-ready-to-pickup": "Send an SMS to the customer notifying that their order is ready for pickup via {phone}.",
-    "sms-order-confirmation": "Send an order confirmation SMS to the customer via {phone}.",
+    "sms-payment":
+      "Send a payment confirmation SMS to the customer via {phone}.",
+    "sms-ready-to-ship":
+      "Send an SMS to the customer notifying that their order is ready to be shipped via {phone}.",
+    "sms-ready-to-pickup":
+      "Send an SMS to the customer notifying that their order is ready for pickup via {phone}.",
+    "sms-order-confirmation":
+      "Send an order confirmation SMS to the customer via {phone}.",
 
-
-    'count-adjustment': 'The quantity of the product "{product}" has been updated from {from} to {to}.'
-
+    "count-adjustment":
+      'The quantity of the product "{product}" has been updated from {from} to {to}.',
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4535,7 +4539,8 @@ export default {
     },
     profile_dialog: {
       title: "Main Profile",
-      subtitle: "Edit your public profile information here. This information might be visible to your customers or other users.",
+      subtitle:
+        "Edit your public profile information here. This information might be visible to your customers or other users.",
       full_name_input: "Full Name",
       tel_input: "Contact Number",
       email_input: "Email",
@@ -4790,374 +4795,370 @@ export default {
     //--------------------------- Profile ---------------------------
     profile: {
       name: "Profile Information",
-      description: "Read user profile details including name, email, image, and authentication status."
+      description:
+        "Read user profile details including name, email, image, and authentication status.",
     },
     phone: {
       name: "Phone Number",
-      description: "Access user phone number."
+      description: "Access user phone number.",
     },
     address: {
       name: "Addresses",
-      description: "Read saved addresses from the address book."
+      description: "Read saved addresses from the address book.",
     },
     "user:profile:write": {
       name: "Profile Management",
-      description: "Edit and manage user profile information."
+      description: "Edit and manage user profile information.",
     },
 
     //--------------------------- Storefront ---------------------------
     "my-gift-cards": {
       name: "Gift Cards",
-      description: "Access user's gift cards."
+      description: "Access user's gift cards.",
     },
     "order-history": {
       name: "Order History",
-      description: "Read user order history."
+      description: "Read user order history.",
     },
     buy: {
       name: "Purchase",
-      description: "Place an order from the store."
+      description: "Place an order from the store.",
     },
 
     //--------------------------- Backoffice ---------------------------
     articles: {
       name: "Content Management",
-      description: "Edit articles and content."
+      description: "Edit articles and content.",
     },
     "backoffice:notifications": {
       name: "Notifications Management",
-      description: "Send and receive notifications."
+      description: "Send and receive notifications.",
     },
     "backoffice:order:write": {
       name: "Order Management",
-      description: "Edit and manage store orders."
+      description: "Edit and manage store orders.",
     },
     "backoffice:order:read": {
       name: "Order Access",
-      description: "Read store orders."
+      description: "Read store orders.",
     },
     "backoffice:support-tickets": {
       name: "Support Tickets",
-      description: "Manage support tickets."
+      description: "Manage support tickets.",
     },
     "backoffice:shop:read": {
       name: "Shop Information",
-      description: "Read shop details and statistics."
+      description: "Read shop details and statistics.",
     },
     "backoffice:shop:write": {
       name: "Shop Management",
-      description: "Create and manage shop details."
+      description: "Create and manage shop details.",
     },
     "backoffice:shop:add": {
       name: "Add Shop",
-      description: "Add a new shop to the system."
+      description: "Add a new shop to the system.",
     },
     "backoffice:shop:delete": {
       name: "Delete Shop",
-      description: "Delete a shop from the system."
+      description: "Delete a shop from the system.",
     },
     "backoffice:giftcard:write": {
       name: "Gift Card Management",
-      description: "Create and manage gift cards."
+      description: "Create and manage gift cards.",
     },
     "backoffice:giftcard:read": {
       name: "Gift Card Access",
-      description: "Read gift card details and statistics."
+      description: "Read gift card details and statistics.",
     },
     "backoffice:faq:write": {
       name: "FAQ Management",
-      description: "Create and manage frequently asked questions."
+      description: "Create and manage frequently asked questions.",
     },
     "backoffice:faq:read": {
       name: "FAQ Access",
-      description: "Read FAQ details and statistics."
+      description: "Read FAQ details and statistics.",
     },
     "backoffice:category:write": {
       name: "Category Management",
-      description: "Create and manage product categories."
+      description: "Create and manage product categories.",
     },
     "backoffice:category:read": {
       name: "Category Access",
-      description: "Read category details and statistics."
+      description: "Read category details and statistics.",
     },
     "backoffice:product:write": {
       name: "Product Management",
-      description: "Add and manage products."
+      description: "Add and manage products.",
     },
     "backoffice:product:read": {
       name: "Product Access",
-      description: "Read product details and statistics."
+      description: "Read product details and statistics.",
     },
     "backoffice:report:read": {
       name: "Report Access",
-      description: "Read store reports and information."
+      description: "Read store reports and information.",
     },
     "backoffice:finance:write": {
       name: "Financial Account Management",
-      description: "Manage financial accounts linked to the store."
+      description: "Manage financial accounts linked to the store.",
     },
     "backoffice:finance:read": {
       name: "Financial Account Access",
-      description: "Read financial account details and statistics."
+      description: "Read financial account details and statistics.",
     },
     "backoffice:page:write": {
       name: "Page Management",
-      description: "Edit shop pages."
+      description: "Edit shop pages.",
     },
     "backoffice:page:read": {
       name: "Page Access",
-      description: "Read shop page details and statistics."
+      description: "Read shop page details and statistics.",
     },
     "backoffice:logistic:write": {
       name: "Logistics Management",
-      description: "Manage logistics information."
+      description: "Manage logistics information.",
     },
     "backoffice:logistic:read": {
       name: "Logistics Access",
-      description: "Read logistics details and statistics."
+      description: "Read logistics details and statistics.",
     },
     "backoffice:staff:write": {
       name: "Staff Management",
-      description: "Edit and manage staff details."
+      description: "Edit and manage staff details.",
     },
     "backoffice:staff:read": {
       name: "Staff Access",
-      description: "Read staff information and statistics."
+      description: "Read staff information and statistics.",
     },
     "backoffice:business-profile:write": {
       name: "Business Profile Management",
-      description: "Manage business profiles."
+      description: "Manage business profiles.",
     },
     "backoffice:business-profile:read": {
       name: "Business Profile Access",
-      description: "Read business profile details."
+      description: "Read business profile details.",
     },
     "backoffice:discount-code:write": {
       name: "Discount Code Management",
-      description: "Manage store discount codes."
+      description: "Manage store discount codes.",
     },
     "backoffice:discount-code:read": {
       name: "Discount Code Access",
-      description: "Read discount code details and statistics."
+      description: "Read discount code details and statistics.",
     },
     "backoffice:wallet:write": {
       name: "Wallet Management",
-      description: "Manage user wallets."
+      description: "Manage user wallets.",
     },
     "backoffice:wallet:read": {
       name: "Wallet Access",
-      description: "Read wallet information and statistics."
+      description: "Read wallet information and statistics.",
     },
     "backoffice:coupon:write": {
       name: "Coupon Management",
-      description: "Manage store coupons."
+      description: "Manage store coupons.",
     },
     "backoffice:coupon:read": {
       name: "Coupon Access",
-      description: "Read coupon details and statistics."
+      description: "Read coupon details and statistics.",
     },
     "backoffice:offer:write": {
       name: "Offer Management",
-      description: "Manage store offers."
+      description: "Manage store offers.",
     },
     "backoffice:offer:read": {
       name: "Offer Access",
-      description: "Read offer information and statistics."
+      description: "Read offer information and statistics.",
     },
     "backoffice:cashback:write": {
       name: "Cashback Management",
-      description: "Manage store cashback offers."
+      description: "Manage store cashback offers.",
     },
     "backoffice:cashback:read": {
       name: "Cashback Access",
-      description: "Read cashback details and statistics."
+      description: "Read cashback details and statistics.",
     },
     "backoffice:lottery:write": {
       name: "Lottery Management",
-      description: "Manage store lotteries."
+      description: "Manage store lotteries.",
     },
     "backoffice:lottery:read": {
       name: "Lottery Access",
-      description: "Read lottery details and statistics."
+      description: "Read lottery details and statistics.",
     },
     "backoffice:community:write": {
       name: "Community Management",
-      description: "Manage community activities."
+      description: "Manage community activities.",
     },
     "backoffice:community:read": {
       name: "Community Access",
-      description: "Read community details and statistics."
+      description: "Read community details and statistics.",
     },
     "backoffice:customer:write": {
       name: "Customer Management",
-      description: "Manage customer details."
+      description: "Manage customer details.",
     },
     "backoffice:customer:read": {
       name: "Customer Access",
-      description: "Read customer information and statistics."
+      description: "Read customer information and statistics.",
     },
     "backoffice:ribbon:write": {
       name: "Ribbon Management",
-      description: "Manage store ribbons."
+      description: "Manage store ribbons.",
     },
     "backoffice:ribbon:read": {
       name: "Ribbon Access",
-      description: "Read ribbon details and statistics."
+      description: "Read ribbon details and statistics.",
     },
     "backoffice:ai:write": {
       name: "AI Management",
-      description: "Manage AI configurations."
+      description: "Manage AI configurations.",
     },
     "backoffice:ai:read": {
       name: "AI Access",
-      description: "Read AI configurations and statistics."
+      description: "Read AI configurations and statistics.",
     },
     "backoffice:vendor-payment:write": {
       name: "Vendor Payment Management",
-      description: "Manage vendor payments."
+      description: "Manage vendor payments.",
     },
     "backoffice:vendor-payment:read": {
       name: "Vendor Payment Access",
-      description: "Read vendor payment details and statistics."
+      description: "Read vendor payment details and statistics.",
     },
     "backoffice:company:read": {
       name: "Company Access",
-      description: "Read company details and statistics."
+      description: "Read company details and statistics.",
     },
     "backoffice:company:write": {
       name: "Company Management",
-      description: "Manage company information."
+      description: "Manage company information.",
     },
     "backoffice:note:read": {
       name: "Note Access",
-      description: "Read notes and related details."
+      description: "Read notes and related details.",
     },
     "backoffice:note:write": {
       name: "Note Management",
-      description: "Manage notes."
+      description: "Manage notes.",
     },
     "backoffice:affiliate:write": {
       name: "Affiliate Management",
-      description: "Manage affiliate information."
+      description: "Manage affiliate information.",
     },
     "backoffice:affiliate:read": {
       name: "Affiliate Access",
-      description: "Read affiliate details and statistics."
+      description: "Read affiliate details and statistics.",
     },
     "backoffice:print:write": {
       name: "Print Management",
-      description: "Manage print options."
+      description: "Manage print options.",
     },
     "backoffice:print:read": {
       name: "Print Access",
-      description: "Read print details."
+      description: "Read print details.",
     },
     "selldone:token:read": {
       name: "Token Access",
-      description: "Read token details and statistics."
+      description: "Read token details and statistics.",
     },
     "selldone:token:write": {
       name: "Token Management",
-      description: "Manage tokens."
+      description: "Manage tokens.",
     },
 
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "Monetization Access",
-      description: "Read monetization details and statistics."
+      description: "Read monetization details and statistics.",
     },
     "selldone:monetization:write": {
       name: "Monetization Management",
-      description: "Manage monetization, including referral programs."
+      description: "Manage monetization, including referral programs.",
     },
     "selldone:identification": {
       name: "Identification Access",
-      description: "Access user identification details."
+      description: "Access user identification details.",
     },
     "selldone:developer:read": {
       name: "Developer Access",
-      description: "Read developer details and statistics."
+      description: "Read developer details and statistics.",
     },
     "selldone:developer:write": {
       name: "Developer Management",
-      description: "Manage developer information."
+      description: "Manage developer information.",
     },
     "selldone:security:write": {
       name: "Security Management",
-      description: "Manage security configurations."
+      description: "Manage security configurations.",
     },
 
     //--------------------------- Connect ---------------------------
     "connect:provider:write": {
       name: "Provider Management",
-      description: "Manage connected service providers."
+      description: "Manage connected service providers.",
     },
     "connect:provider:read": {
       name: "Provider Access",
-      description: "Read provider details and statistics."
+      description: "Read provider details and statistics.",
     },
 
     //--------------------------- Agency ---------------------------
     "agency:read": {
       name: "Agency Access",
-      description: "Read agency details and statistics."
+      description: "Read agency details and statistics.",
     },
     "agency:write": {
       name: "Agency Management",
-      description: "Manage agency information."
+      description: "Manage agency information.",
     },
 
     //--------------------------- Vendor ---------------------------
 
     "vendor-read": {
-        name: "Vendor Access",
-        description: "Read vendor details and statistics."
+      name: "Vendor Access",
+      description: "Read vendor details and statistics.",
     },
     "vendor-write": {
-        name: "Vendor Management",
-        description: "Manage vendor information."
-    }
+      name: "Vendor Management",
+      description: "Manage vendor information.",
+    },
   },
 
   scope_group: {
     backoffice: {
       title: "Backoffice",
-      description: "Access to backoffice and store management features."
+      description: "Access to backoffice and store management features.",
     },
     storefront: {
       title: "Storefront",
-      description: "Access to customer and store information."
+      description: "Access to customer and store information.",
     },
     profile: {
       title: "Profile",
-      description: "Access user profile information."
+      description: "Access user profile information.",
     },
     selldone: {
       title: "Selldone",
-      description: "Access Selldone services and features."
+      description: "Access Selldone services and features.",
     },
     others: {
       title: "Others",
-      description: "Miscellaneous scopes not defined in the system."
+      description: "Miscellaneous scopes not defined in the system.",
     },
     vendor: {
       title: "Vendor",
-      description: "Access vendor information and management features."
+      description: "Access vendor information and management features.",
     },
     connect: {
       title: "Connect OS",
-      description: "Access connected services and providers."
+      description: "Access connected services and providers.",
     },
     agency: {
       title: "Agency",
-      description: "Access agency information and management."
-    }
+      description: "Access agency information and management.",
+    },
   },
-
-
-
-
-
 
   /** {@see AdminCompanyPage} **/
   company_page: {
@@ -7455,10 +7456,15 @@ export default {
   /** {@see BPageShopSettingTheme**/
   shop_theme: {
     theme_colors: "Theme colors",
-    theme_colors_description:"You can personalize the primary color palette of your shop here. Each template can utilize these colors to automatically generate a complete color range that aligns with your brand.",
+    theme_colors_description:
+      "You can personalize the primary color palette of your shop here. Each template can utilize these colors to automatically generate a complete color range that aligns with your brand.",
     products_view_mode: "Shopping list view",
     products_view_mode_desc:
       "You can adjust the display mode of products in your store based on the screen size. This mode will be considered by default and will not be applied if the user changes the display mode.",
+
+    tabs: {
+      vendor_page: "Vendor Page",
+    },
 
     color_light: "Primary color",
     color_dark: "Primary dark color",
@@ -7476,140 +7482,218 @@ export default {
     custom_css: "Custom CSS",
     custom_variants: "Variants",
 
-    wrap_product_title:{
-      title:'Wrap Title',
-      subtitle:"The height of the title will adjust dynamically."
+    wrap_product_title: {
+      title: "Wrap Title",
+      subtitle: "The height of the title will adjust dynamically.",
     },
 
-    animation:{
-      title:'Animation',
-      static:{
-        false_title:"With Animations",
-        false_description:"Categories and products have an interactive animation to show the functionality.",
-        true_title:"Static",
-        true_description:"Categories and products have no animation.",
-      }
-    },
-
-    quick_actions:{
-      title:"Quick Actions",
-      hover:{
-        false_description:"Simple and minimal mode without any extra actions on product cards.",
-        true_description:"Show Quick buy & Add to compare buttons on product card hovering.",
-        true_title:"Show Action on Hover"
-      }
-    },
-    filter_products:{
-      title:'Filter Products',
-      only_available:{
-        false_description:"Show all products in the shop list  as default.",
-        true_description:"Show only available products in the shop list as default.",
-        true_title:"Available Products",
-        false_title:"All Products"
-
-      }
-    },
-    filter_categories:{
-      title:"Filter Categories",
-      hide_empty_folders:{
-        false_description:"Show all categories in the shop list.",
-        false_title:"Show All Categories",
-        true_title:"Hide Empty Categories",
-        true_description:"Show only categories with products in the shop list.",
-
-      }
-    },
-
-    product_page:{
-      title:"Product Page",
-      subtitle:"Personalize your product page here. You can adjust the display of prices and modify the arrangement of sections to suit your preferences.",
-      buy_button_color:"Buy button color",
-      smart_price:{
-        title:"Smart unit price",
-        true_description:"Calculating unit price by considering weight, volume, and pack variants property. Ex. If you have a variant with 2L size and $5 as price, then the customer sees the $2.5/L on the product page.",
-
+    animation: {
+      title: "Animation",
+      static: {
+        false_title: "With Animations",
+        false_description:
+          "Categories and products have an interactive animation to show the functionality.",
+        true_title: "Static",
+        true_description: "Categories and products have no animation.",
       },
-      reverse_currency:{
-        title:"Currency sign position",
-        false_title:"Normal mode",
-        true_title:"Reverse mode",
-        false_description:"The currency sign will be placed at the start of the numbers. Ex: $95 , €30",
-        true_description:"The currency sign will be placed at the end of the numbers. Ex: 95$ , 30€"
+    },
+
+    quick_actions: {
+      title: "Quick Actions",
+      hover: {
+        false_description:
+          "Simple and minimal mode without any extra actions on product cards.",
+        true_description:
+          "Show Quick buy & Add to compare buttons on product card hovering.",
+        true_title: "Show Action on Hover",
       },
-      variants_selector:{
-        title:"Variants Selector",
-        subtitle:"You can choose different ways to display variants on the product page.",
+    },
+    filter_products: {
+      title: "Filter Products",
+      only_available: {
+        false_description: "Show all products in the shop list  as default.",
+        true_description:
+          "Show only available products in the shop list as default.",
+        true_title: "Available Products",
+        false_title: "All Products",
+      },
+    },
+    filter_categories: {
+      title: "Filter Categories",
+      hide_empty_folders: {
+        false_description: "Show all categories in the shop list.",
+        false_title: "Show All Categories",
+        true_title: "Hide Empty Categories",
+        true_description:
+          "Show only categories with products in the shop list.",
+      },
+    },
+
+    product_page: {
+      title: "Product Page",
+      subtitle:
+        "Personalize your product page here. You can adjust the display of prices and modify the arrangement of sections to suit your preferences.",
+      buy_button_color: "Buy button color",
+      smart_price: {
+        title: "Smart unit price",
+        true_description:
+          "Calculating unit price by considering weight, volume, and pack variants property. Ex. If you have a variant with 2L size and $5 as price, then the customer sees the $2.5/L on the product page.",
+      },
+      reverse_currency: {
+        title: "Currency sign position",
+        false_title: "Normal mode",
+        true_title: "Reverse mode",
+        false_description:
+          "The currency sign will be placed at the start of the numbers. Ex: $95 , €30",
+        true_description:
+          "The currency sign will be placed at the end of the numbers. Ex: 95$ , 30€",
+      },
+      variants_selector: {
+        title: "Variants Selector",
+        subtitle:
+          "You can choose different ways to display variants on the product page.",
       },
 
-      tabs_order:{
-        title:"Tabs order",
-        reset_to_default:"Reset to default",
-
-      }
-
-    },// end: product_page
-
-
-
-
-
+      tabs_order: {
+        title: "Tabs order",
+        reset_to_default: "Reset to default",
+      },
+    }, // end: product_page
   },
 
+  /**
+   * @see BShopThemeVendor
+   */
+  b_shop_theme_vendor: {
+    onboarding: {
+      title: "Onboarding & Login",
+      subtitle:
+        "Personalize the vendor onboarding and login experience with a custom video, image, or message.",
+    },
+    inputs: {
+      page_vendor_login: {
+        label: "Vendor Login Page",
+        message:
+          "Select a custom landing page for vendor login. Include video, images, or text for a unique design. This page is shown to vendors who are not logged in.",
+      },
+      page_vendor_registered: {
+        label: "Vendor Registered Page",
+        message:
+          "Select a custom page for logged-in vendors. This page is displayed if your marketplace supports multiple vendors per user.",
+      },
+    },
+  },
+
+  /** @see BShopOptionsVariants **/
+  b_shop_options_variants: {
+    custom_variants: {
+      title: "Custom Variants",
+      subtitle:
+        "Physical products can have variants. You can change the default name of variants. Our suggestion is to leave these items as default and empty so that selldone will automatically translate them for your customers into their languages. The maximum length is 24.",
+    },
+  },
+  /** @see BShopThemeTypography **/
+  b_shop_theme_typography: {
+    main_font: {
+      title: "Main Website Font",
+      subtitle: "Choose your favorite font from Google Fonts.",
+    },
+    inputs: {
+      font_family: {
+        label: "Font Family",
+        message: "Enter the font-family value.",
+      },
+      font_res: {
+        label: "Font Resource",
+        message: "Specify the font resource.",
+      },
+    },
+  },
+
+  /** @see BShopThemeHeader **/
+  b_shop_theme_header: {
+    logo: {
+      title: "Header logo",
+      subtitle:
+        "By default, your shop's logo is displayed in the header, but you can upload a custom logo instead. If your logo does not have a square aspect ratio, you may need to manually adjust the height and width for optimal presentation.",
+    },
+    header_title: {
+      title: "Header title",
+      subtitle:
+        "You can personalize the title displayed in the header of your pages here. If you wish to completely remove it, please click the 'Set empty title' button.",
+    },
+
+    inputs: {
+      logo: {
+        label: "Brand logo",
+      },
+      height: {
+        label: "Logo height",
+      },
+      width: {
+        label: "Logo width",
+      },
+      title: {
+        label: "Header title",
+        set_empty: "Set empty title",
+      },
+    },
+  },
 
   /** @see ShopThemeVariantsMode**/
-  shop_theme_variants_mode:{
-    smart:{
+  shop_theme_variants_mode: {
+    smart: {
       title: "Smart Mode",
-      description: "Compact variants in selectable separate options, suitable for most cases.",
+      description:
+        "Compact variants in selectable separate options, suitable for most cases.",
     },
-    select:{
+    select: {
       title: "Select Mode",
-      description: "Displays all variants in a dropdown, ideal for a large number of variants.",
-    }
+      description:
+        "Displays all variants in a dropdown, ideal for a large number of variants.",
+    },
   },
 
   /** @see BPropertySetAdd**/
-property_set_add:{
-  edit_title:'Edit Property Set',
-    add_title:"Add Property Set",
-    config:{
-      subtitle:"Set title and description for your property set. It will be visible to staff only."
+  property_set_add: {
+    edit_title: "Edit Property Set",
+    add_title: "Add Property Set",
+    config: {
+      subtitle:
+        "Set title and description for your property set. It will be visible to staff only.",
     },
-    variants:{
-    title:'Variants',
-      subtitle:"You can customize the variant name, icon, and order here. If you have a variety of products with unique variants that don’t fit default 6 variants, you can set custom variants for each product here."
+    variants: {
+      title: "Variants",
+      subtitle:
+        "You can customize the variant name, icon, and order here. If you have a variety of products with unique variants that don’t fit default 6 variants, you can set custom variants for each product here.",
     },
 
-    inputs:{
-      title:{
-        placeholder:'Enter a title for property set...',
+    inputs: {
+      title: {
+        placeholder: "Enter a title for property set...",
       },
-      description:{
-        placeholder:"Enter a short description... (optional)"
+      description: {
+        placeholder: "Enter a short description... (optional)",
       },
-      custom_variants:{
-        true_title:"Custom Variants",
-        false_title:"Default Variants",
-        true_description:"Customize your product variants.",
-        false_description:"Use default global variants."
-      }
-    }
+      custom_variants: {
+        true_title: "Custom Variants",
+        false_title: "Default Variants",
+        true_description: "Customize your product variants.",
+        false_description: "Use default global variants.",
+      },
+    },
   },
-
 
   /** @see BPropertySetVariantRow **/
-property_set_variant_row:{
-    inputs:{
-      values:{
-        placeholder:"Set values set... (optional)",
-        messages:"You can provide suggestions for the values and customize order."
-      }
-    }
+  property_set_variant_row: {
+    inputs: {
+      values: {
+        placeholder: "Set values set... (optional)",
+        messages:
+          "You can provide suggestions for the values and customize order.",
+      },
+    },
   },
-
-
-
-
 
   /** {@see AppTemplates**/
   app_templates: {
@@ -8998,10 +9082,8 @@ property_set_variant_row:{
     },
     bulk: {
       title: "Daily Order Report",
-      desc: "Receive a daily email with the details of orders for that day."
-    }
-
-
+      desc: "Receive a daily email with the details of orders for that day.",
+    },
   },
 
   /** {@see BPageShopSettingLanguages} **/
@@ -9167,7 +9249,7 @@ property_set_variant_row:{
       title: "Login methods",
       subtitle: "Customize the way users log in to your store.",
 
-      tips:"<b>Important.</b> When a user registers with your shop, a corresponding Selldone user is created, if one doesn't already exist. This user will have access to their address book across all shops and can view their order history, even if a shop has closed. We do not use this information for marketing purposes but require it to prevent fraud on both sides. To maintain transparency, we'll send an email to the user informing them of their registration."
+      tips: "<b>Important.</b> When a user registers with your shop, a corresponding Selldone user is created, if one doesn't already exist. This user will have access to their address book across all shops and can view their order history, even if a shop has closed. We do not use this information for marketing purposes but require it to prevent fraud on both sides. To maintain transparency, we'll send an email to the user informing them of their registration.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9217,10 +9299,11 @@ property_set_variant_row:{
     },
 
     /** {@see BShopOptionsCheckoutForm} **/
-    checkout_form:{
+    checkout_form: {
       title: "Checkout form",
-      subtitle: "Customize the checkout form fields to collect the information you need from your customers.",
-    }
+      subtitle:
+        "Customize the checkout form fields to collect the information you need from your customers.",
+    },
   },
   /** {@see CheckoutOptions} **/
   checkout_options: {
@@ -9381,11 +9464,12 @@ property_set_variant_row:{
       title: "Rejected",
       description: "This product was rejected by the marketplace.",
     },
-    unlisted:{
-        name: "Unlisted",
-        title: "Unlisted",
-        description: "This product is not listed in the store, but accessible by direct link.",
-    }
+    unlisted: {
+      name: "Unlisted",
+      title: "Unlisted",
+      description:
+        "This product is not listed in the store, but accessible by direct link.",
+    },
   },
 
   /**
@@ -10789,41 +10873,41 @@ property_set_variant_row:{
     },
   },
 
-
   /**
    * {@see BPageShopCrmReviews}
    */
   shop_reviews: {
     title: "Reviews Sources",
     add_source_action: "Add Review Source",
-    subtitle: "Easily connect external platforms to collect and analyze reviews about your business from sources like Facebook, Google, and more. We'll automatically match customers to their reviews for a better customer experience. You can also showcase these reviews on your landing pages and product pages."
+    subtitle:
+      "Easily connect external platforms to collect and analyze reviews about your business from sources like Facebook, Google, and more. We'll automatically match customers to their reviews for a better customer experience. You can also showcase these reviews on your landing pages and product pages.",
   },
 
   /**
    * {@see BPageShopLogisticPropertySets}
    */
-  shop_logistic_property_set:{
+  shop_logistic_property_set: {
     add_caption: "Add new property set",
     title: "Property Sets",
-    subtitle: "You can create and manage property sets here. Property sets are used to define the properties of products and services. You can assign these property sets to products in the Product Dashboard > Edit.",
+    subtitle:
+      "You can create and manage property sets here. Property sets are used to define the properties of products and services. You can assign these property sets to products in the Product Dashboard > Edit.",
   },
 
   /**
    * {@see BProductProfilePropertySet}
    */
-  product_property_set:{
-    profile:{
-      title:'Property Set - Custom Variants',
-      subtitle:'You can customize the variant names for this product, replacing the default ones.',
+  product_property_set: {
+    profile: {
+      title: "Property Set - Custom Variants",
+      subtitle:
+        "You can customize the variant names for this product, replacing the default ones.",
     },
 
-
-    subtitle:'You can customize variant names, icons, and their order here. For products with unique variants that go beyond the default six, you can set custom variants tailored to each product. Simply define property sets in the Logistic > Property Sets tab and assign them to any number of products as needed.',
-    select_property_set:'Select Property Set',
-    add_property_set:'Add Property Set',
-
+    subtitle:
+      "You can customize variant names, icons, and their order here. For products with unique variants that go beyond the default six, you can set custom variants tailored to each product. Simply define property sets in the Logistic > Property Sets tab and assign them to any number of products as needed.",
+    select_property_set: "Select Property Set",
+    add_property_set: "Add Property Set",
   },
-
 
   /**
    * Auto fill suggestions
@@ -11798,7 +11882,7 @@ property_set_variant_row:{
         "Beauty Products",
         "Toys",
         "Sports Equipment",
-        "Accessories"
+        "Accessories",
       ],
       description: [
         "Attributes for clothing items like size, color, and fabric.",
@@ -11810,12 +11894,8 @@ property_set_variant_row:{
         "Skin type, ingredients, and packaging details.",
         "Age group, material, and safety standards.",
         "Type, size, and performance features.",
-        "Styles, materials, and brand details."
-      ]
-    }
-
-
-
-
+        "Styles, materials, and brand details.",
+      ],
+    },
   },
 };
