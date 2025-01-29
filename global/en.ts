@@ -853,8 +853,9 @@ export default {
     adjusted:'Adjusted',
     original_amount:'Original Amount',
     adjustment_amount:'Adjustment Amount',
-    final_amount:'Final Amount'
-
+    final_amount:'Final Amount',
+    archived: "Archived",
+    archive: "Archive",
   },
   difficulties: {
     very_complicated: "Very complicated",

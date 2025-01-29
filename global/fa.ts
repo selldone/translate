@@ -853,6 +853,8 @@ export default {
     original_amount:'میزان اصلی',
     adjustment_amount:'میزان اصلاح',
     final_amount:'میزان نهایی',
+    archived: "آرشیو",
+    archive: "آرشیو",
   },
 
   difficulties: {
