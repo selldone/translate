@@ -104,6 +104,8 @@ export default {
     ],
     copyright:
       "Experience Elegance. Uncover Innovation. Fuel Imagination. All rights reserved.",
+
+    red_alert:'Red Alert',
   },
 
   admin_footer: {
