@@ -6513,7 +6513,11 @@ export default {
 
   /** {@see BPageAffiliateDashboard**/
   affiliate_dashboard: {
-    link: "Affiliate partner link",
+    link: {
+      title: "Affiliate Link",
+      subtitle:
+        "Generate a unique link for your affiliate partner to track sales and commissions. Add referral codes '{code}' to any link or assign a custom dedicated domain for your affiliate. It will be tracked by the system for 48h.",
+    },
     fix_commission: "Fixed commission",
     percent_commission: "Percentage-based commission",
     last_payment: "Last payment",
