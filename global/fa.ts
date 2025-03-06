@@ -855,6 +855,8 @@ export default {
     final_amount:'میزان نهایی',
     archived: "آرشیو",
     archive: "آرشیو",
+    billing: "صورتحساب",
+    enter_email: "ایمیل خود را وارد کنید",
   },
 
   difficulties: {

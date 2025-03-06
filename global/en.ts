@@ -856,6 +856,8 @@ export default {
     final_amount:'Final Amount',
     archived: "Archived",
     archive: "Archive",
+    billing: "Billing",
+    enter_email: "Enter email",
   },
   difficulties: {
     very_complicated: "Very complicated",
