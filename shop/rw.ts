@@ -135,7 +135,7 @@ export default {
     },
     "login_to_shop": "Injira mububiko",
     "login_to_shop_short": "injira",
-    "item_in_basket_message": "kubara} Iki kintu kiri mumagare yawe.",
+    "item_in_basket_message": "{count} Iki kintu kiri mumagare yawe.",
     "search_title": "Shakisha mububiko {shop_name}"
   },
   "basket_top_menu": {

@@ -138,7 +138,7 @@ export default {
     },
     "login_to_shop": "ストアにログイン",
     "login_to_shop_short": "ログイン",
-    "item_in_basket_message": "{カウント}このアイテムはカートに入っています。",
+    "item_in_basket_message": "{count}このアイテムはカートに入っています。",
     "search_title": "ストア{shop_name}で検索"
   },
   "basket_top_menu": {

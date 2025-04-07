@@ -138,7 +138,7 @@ export default {
     },
     "login_to_shop": "تسجيل الدخول إلى المتجر",
     "login_to_shop_short": "تسجيل الدخول",
-    "item_in_basket_message": "{عدد} هذا العنصر في سلة التسوق الخاصة بك.",
+    "item_in_basket_message": "{count} هذا العنصر في سلة التسوق الخاصة بك.",
     "search_title": "بحث في المتجر {shop_name}"
   },
   "basket_top_menu": {

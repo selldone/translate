@@ -138,7 +138,7 @@ export default {
     },
     "login_to_shop": "स्टोर में लॉग इन करें",
     "login_to_shop_short": "लॉग इन करें",
-    "item_in_basket_message": "{गिनती} यह आइटम आपके कार्ट में है।",
+    "item_in_basket_message": "{count} यह आइटम आपके कार्ट में है।",
     "search_title": "स्टोर में खोजें {shop_name}"
   },
   "basket_top_menu": {
