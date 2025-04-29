@@ -7482,6 +7482,7 @@ export default {
 
     typography: "Typography",
     header: "Header",
+    footer:"Footer",
     custom_code: "Custom code",
     custom_css: "Custom CSS",
     custom_variants: "Variants",

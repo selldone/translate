@@ -7220,6 +7220,7 @@ export default {
 
     typography: "تایپوگرافی",
     header: "هدر",
+    footer:"فوتر",
     custom_code: "کد سفارشی",
     custom_css: "سفارشی CSS",
     custom_variants: "انواع",
