@@ -1,13 +1,13 @@
 export default {
   "commons": {
-    "pay_today": "今天付款",
-    "pay_yesterday": "昨天付款",
-    "pay_last30days": "最后 30 天付款",
+    "pay_today": "今天的付款",
+    "pay_yesterday": "昨天的付款",
+    "pay_last30days": "过去30天的付款",
     "create_a_shop": "创建商店",
     "start_free": "免费开始",
     "featured_apps": "特色应用",
     "more_apps": "更多的应用",
-    "my_public_profile": "我的公开个人资料页面",
+    "my_public_profile": "我的公开个人资料",
     "product_admin": "产品管理员"
   },
   "numbers": {
@@ -17,7 +17,7 @@ export default {
     "not_fount_data": "未找到数据！",
     "license_max_limit": "您的许可证已达到上限！",
     "no_read_access": "无读取权限",
-    "no_write_access": "无写权限",
+    "no_write_access": "无写入权限",
     "no_access": "禁止访问"
   },
   "time_spans": {
@@ -28,12 +28,12 @@ export default {
     "last_14": "过去 14 天",
     "last_30": "过去 30 天",
     "last_90": "过去 90 天",
-    "custom": "风俗"
+    "custom": "自定义"
   },
   "device_types": {
-    "desktop": "桌面",
-    "mobile": "移动的",
-    "tablet": "药片"
+    "desktop": "桌面电脑",
+    "mobile": "手机",
+    "tablet": "平板"
   },
   "create_website_action": "创建您的网站 — 免费",
   "show_shops_action": "我的店铺列表",
@@ -42,13 +42,13 @@ export default {
   "Twitter": "推特",
   "Facebook": "Facebook",
   "Instagram": "Instagram",
-  "Reddit": "红迪网",
+  "Reddit": "Reddit论坛",
   "Github": "Github",
   "page_titles": {
     "home": "卖完 |快速成长公司的业务操作系统",
     "login": "登录",
-    "register": "登记",
-    "auth_2fa": "2因素认证🔐",
+    "register": "注册",
+    "auth_2fa": "双因素认证🔐",
     "academy": "博客",
     "help": "帮助中心",
     "price_list": "价格表",
