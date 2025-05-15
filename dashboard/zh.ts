@@ -90,8 +90,8 @@ export default {
       "message": "您可以将一个或多个个人域连接到您的商店。您的网站将安装在您的域上。这个过程既快速又简单。"
     },
     "domain_not_approved": {
-      "title": "域验证",
-      "message": "您的域 {domain} 尚未经过验证。检查 DNS 设置并确认域。"
+      "title": "域名验证",
+      "message": "您的域名 {domain} 尚未经过验证。检查 DNS 设置并确认域。"
     },
     "no_currency": {
       "title": "添加货币",
@@ -100,54 +100,54 @@ export default {
     },
     "no_primary_domain": {
       "title": "主域",
-      "message": "请选择一个域作为您的主域。通过单击域名旁边的星号按钮，您可以选择该域作为您商店的主域。这对搜索引擎至关重要。请注意，您的商店仍可通过所有活动域访问。"
+      "message": "请选择一个域名作为您的主域名。通过单击域名旁边的星号按钮，您可以选择该域名作为您商店的主域名。这对搜索引擎至关重要。请注意，您的商店仍可通过所有活动域名访问。"
     },
     "shop_complete": {
       "title": "完整信息",
       "action": "店铺设置",
       "location_msg": "添加您的位置",
-      "days_open_msg": "设置开放日",
-      "time_open_msg": "设置打开和关闭时间",
+      "days_open_msg": "设置开店时期",
+      "time_open_msg": "设置开关店的时间",
       "description_msg": "写一个关于您的业务的简短描述",
-      "icon_msg": "设置您的商店徽标",
+      "icon_msg": "设置您的商店图标",
       "shop_gateways_msg": "添加付款方式",
       "socials_msg": "添加您的社交链接",
       "clubs_msg": "设置客户俱乐部",
-      "domains_msg": "添加自定义域",
-      "primary_msg": "将域设置为主域"
+      "domains_msg": "添加自定义域名",
+      "primary_msg": "将域设置为主域名"
     }
   },
   "support": {
     "request": "请求支持",
     "category": "类别",
     "title": "支持",
-    "message": "提出任何要求或问题。我们的支持团队将为您提供指导。我们建议您在与您的请求相关的页面中提出您的问题。例如，如果您对域设置有疑问，请在商店的域设置页面中发送。",
+    "message": "提出任何要求或问题。我们的支持团队将为您提供指导。我们建议您在与您的请求相关的页面中提出您的问题。例如，如果您对域名设置有疑问，请在商店的域名设置页面中发送。",
     "close_at": "{date}关闭",
-    "close_ticket_by_user": "谢谢，我得到了答案"
+    "close_ticket_by_user": "谢谢，我获得了解答"
   },
   "surveys": [
-    "很穷",
-    "贫穷的",
-    "普通的",
-    "好的",
-    "优秀的"
+    "很差",
+    "较差",
+    "一般",
+    "较好",
+    "非常好"
   ],
   "sort": {
     "title": "排序方式",
     "title_small": "排序方式..",
     "nothing": "没有",
-    "most_views": "大多数观点",
+    "most_views": "最多浏览",
     "most_likes": "最受欢迎",
-    "most_recent": "最新",
+    "most_recent": "最新上架",
     "most_sell": "最畅销",
-    "cheapest": "最便宜的",
-    "most_expensive": "最贵的",
-    "only_available": "可用的",
+    "cheapest": "最便宜",
+    "most_expensive": "最贵",
+    "only_available": "有库存的",
     "view_mode": {
-      "normal": "普通的",
-      "grid": "网格",
-      "list": "列表",
-      "insta": "即时通讯"
+      "normal": "标准视图",
+      "grid": "网格视图",
+      "list": "列表视图",
+      "insta": "瀑布视图"
     }
   },
   "helps": {
@@ -162,8 +162,8 @@ export default {
       "Developer": "发展",
       "Application": "应用",
       "Product": "产品和类别管理",
-      "Blog": "内容管理系统和博客",
-      "Order": "订单履行中心",
+      "Blog": "博客",
+      "Order": "订单",
       "Channel": "销售渠道",
       "Accounting": "会计和付款方式",
       "Incentives": "激励措施",
@@ -187,8 +187,8 @@ export default {
     "add_new_blog": "新博客",
     "popular": "受欢迎的",
     "topics": "话题",
-    "select_topics": "选择你的工作。",
-    "select_job_topics": "选择与工作相关的主题",
+    "select_topics": "选择你的话题。",
+    "select_job_topics": "选择与工作相关的话题",
     "select_interested_topics": "你对哪些话题感兴趣？"
   },
   "api": {
@@ -196,32 +196,32 @@ export default {
     "message": "Selldone 的主要功能之一是提供强大且安全的 API 来管理商店并将其连接到其他服务，例如仓储、会计等。您还可以为您的商店设计自定义应用程序和 Web 应用程序。无需担心服务器和数据管理。只需使用域 API。您将拥有管理用户、身份验证和其他域功能的所有过程。"
   },
   "user_dashboard": {
-    "title": "我的班车",
+    "title": "我的仪表盘",
     "subtitle": "使用最新信息和清晰的前景管理您的业务。",
     "menu": {
-      "affiliate": "附属公司",
-      "monetize": "货币化",
+      "affiliate": "推广联盟",
+      "monetize": "变现",
       "gift": "礼物",
       "security": "安全",
-      "access": "使用权",
-      "business": "公司",
+      "access": "访问权限",
+      "business": "商户",
       "wallet": "钱包",
-      "identification": "KYC",
-      "stores": "专卖店",
+      "identification": "身份认证(KYC)",
+      "stores": "店铺",
       "roles": "角色",
-      "home": "家",
+      "home": "主页",
       "expert": "专家",
-      "deals": "交易",
-      "providers": "提供者"
+      "deals": "促销",
+      "providers": "服务商"
     },
     "shops": {
       "create_new": "创建新店",
-      "create_new_sub": "自由",
-      "create_new_sub_need_initial_charge": "建造第一家商店是免费的。一家商店可能足以满足您的业务，但如果您需要建立更多商店，则建立新商店的成本为 25 美元。我们从您的钱包账户中提取金额。",
+      "create_new_sub": "免费创建",
+      "create_new_sub_need_initial_charge": "创建第一家商店是免费的。一家商店可能足以满足您的业务，但如果您需要创建更多商店，则创建新商店的成本为 25 美元。我们将从您的钱包账户中扣除。",
       "menu": {
         "title": "我的商店",
         "shops": "商店",
-        "new": "新的"
+        "new": "新建"
       },
       "accept_invite_question": "你接受这个邀请吗？",
       "shop_card": {
@@ -232,13 +232,13 @@ export default {
           "services": "服务订单",
           "subscriptions": "订阅订单"
         },
-        "status": "地位",
-        "license": "执照",
-        "volume": "已用空间",
+        "status": "状态",
+        "license": "许可证",
+        "volume": "已用额度",
         "expire": "证件过期",
         "products": "产品",
-        "page_views": "意见",
-        "user_behavior": "客户行为",
+        "page_views": "浏览量",
+        "user_behavior": "用户行为",
         "time_span": "从 {time} 到现在",
         "finance_report": "财务报告",
         "buys": "购买",
@@ -246,7 +246,7 @@ export default {
         "orders": "订单",
         "currency": "货币",
         "no_payment": "没有付款！",
-        "no_purchase": "沒有購買！"
+        "no_purchase": "沒有购买！"
       }
     }
   },
@@ -258,34 +258,34 @@ export default {
       "comments": "评论",
       "likes": "喜欢",
       "favorites": "收藏夹",
-      "powers": "拍手",
+      "powers": "赞助",
       "views": "意见",
-      "report_today": "今日报道",
-      "report_last7days": "过去 7 天报告",
-      "report_last30days": "过去 30 天报告"
+      "report_today": "今日报告",
+      "report_last7days": "过去 7 天的报告",
+      "report_last30days": "过去 30 天的报告"
     }
   },
   "admin_shop": {
     "title": "店铺",
     "menu": {
-      "edit": "设置",
+      "edit": "编辑",
       "automation": "自动化",
       "application": "应用",
-      "access": "使用权",
+      "access": "权限",
       "pages": "页面",
       "channels": "频道",
       "categories": "类别",
       "marketing": "营销",
       "customers": "顾客",
       "logistic": "物流",
-      "auditing": "会计",
+      "auditing": "财务",
       "incentives": "激励措施",
-      "process_center": "订单",
+      "process_center": "订单中心",
       "blog": "博客",
       "products": "产品",
       "shops": "商店",
       "dashboard": "仪表盘",
-      "autopilot": "自动驾驶仪",
+      "autopilot": "自动驾模式",
       "apps": "应用",
       "pos": "POS",
       "seo": "SEO",
@@ -300,71 +300,71 @@ export default {
         "action": "我的推荐链接"
       },
       "info": {
-        "title": "技术的",
-        "subtitle": "您的业务操作系统的技术概述。",
+        "title": "技术概览",
+        "subtitle": "您的业务系统的技术概述。",
         "shop_name": "店铺名称",
         "shop_link": "店铺链接",
         "site_map": "网站地图",
-        "shop_domains": "域",
-        "shop_domains_msg": "已连接的自定义域列表。",
-        "home_msg": "设置您网站的默认主页。它可以针对每个自定义域进行更改。",
-        "add_domain": "添加新域",
-        "currencies": "活跃货币",
+        "shop_domains": "域名",
+        "shop_domains_msg": "已连接的自定义域名列表。",
+        "home_msg": "设置您网站的默认主页。可以针对每个自定义域名进行更改。",
+        "add_domain": "添加新域名",
+        "currencies": "货币",
         "currencies_alert": "为商店选择至少一种货币！",
-        "status": "地位",
-        "license": "执照",
-        "expire": "执照到期日",
+        "status": "状态",
+        "license": "许可证",
+        "expire": "许可证到期日",
         "upgrade_license_action": "升级到 {name}",
         "wage": "费用",
         "cpu_message": "您为购买的计划定制的资源数量以及您添加到服务中的资源。",
-        "hide_domains": "隐藏我的域",
-        "show_domains": "显示我的域",
+        "hide_domains": "隐藏我的域名",
+        "show_domains": "显示我的域名",
         "table": {
-          "primary": "基本的",
+          "primary": "主域名",
           "url": "网址",
           "site_map": "网站地图",
-          "enable": "使能够",
+          "enable": "启用",
           "indexed": "索引",
-          "and_more": "＆ 更多的..",
-          "auto_repair": "自动修理"
+          "and_more": "＆ 更多..",
+          "auto_repair": "自动修复"
         },
         "add_dialog": {
-          "title": "配置存储域",
-          "step1": "您可以从以下值定义 DNS 域或子域的记录 A 的 IP 限制：",
+          "title": "配置域名",
+          "step1": "您可以为以下域名或子域设置 DNS A 记录的 IP 值：",
           "step2": "添加 DNS TXT 记录：",
-          "set_ip_alert": "设置记录 A <b>{ip}</b>的 IP 值。",
-          "input_domain": "域名网址",
-          "correct": "域设置正确。",
-          "set_message": "将此域的 CNAME 设置为 {cname}。",
-          "input_domain_message": "输入域名，不带 http 和 https。",
-          "ssl_message": "不用担心您网站的 SSL 证书。 Selldone（测试版）将自动为您的域颁发此认证。",
-          "active": "域处于活动状态",
-          "inactive": "域被禁用",
-          "success_message": "恭喜，您的网站已在 {domain} 上启用。您可以通过此域向世界介绍您的业务和品牌。",
-          "delete_action": "删除域？"
+          "set_ip_alert": "请将 A 记录的 IP 设置为 <b>{ip}</b>",
+          "input_domain": "域名",
+          "correct": "域名设置正确。",
+          "set_message": "将此域名的 CNAME 设置为 {cname}。",
+          "input_domain_message": "请输入域名（不包含 http:// 或 https://）",
+          "ssl_message": "无需担心 SSL 证书，Selldone（测试版）会自动为您的域名签发并配置证书。",
+          "active": "域名处于活动状态",
+          "inactive": "域名被禁用",
+          "success_message": "恭喜，您的网站已在 {domain} 上启用。您可以通过此域名向世界介绍您的业务和品牌。",
+          "delete_action": "删除域名？"
         },
         "set_home_dialog": {
-          "title": "设置域主页"
+          "title": "设置域名主页"
         },
         "notification": {
-          "add_message": "域名地址添加成功。",
-          "update_message": "域更新成功。",
-          "delete_domain_message": "域删除成功。"
+          "add_message": "域名添加成功。",
+          "update_message": "域名更新成功。",
+          "delete_domain_message": "域名删除成功。"
         },
         "alert": {
-          "title": "删除域",
-          "message": "您要删除此域吗？确保重置您域的 DNS 记录值，以防止他人欺诈。"
+          "title": "删除域名",
+          "message": "您要删除此域名吗？确保重置您域名的 DNS 记录值，以防止他人欺诈。"
         }
       },
       "active_orders": {
         "title": "订单",
-        "title_small": "物理、文件、虚拟和服务订单",
-        "pending_orders": "挂单",
+        "title_small": "实物、文件、虚拟产品和服务订单",
+        "pending_orders": "待确认订单",
         "physical": "实物产品订单",
         "virtual": "虚拟产品订单",
-        "file": "提交产品订单",
+        "file": "文件产品订单",
         "service": "服务产品订单",
-        "subscription": "认购订单"
+        "subscription": "订阅订单"
       },
       "products": {
         "title": "存货",
@@ -372,21 +372,21 @@ export default {
         "total_products": "总产品类型"
       },
       "finance": {
-        "title": "金融的",
+        "title": "财务",
         "title_small": "财务报告",
         "total_30days_title": "总销售额",
         "last_30_day": "过去 30 天",
         "pay_amount_chart_title": "付款",
         "sell_amount_chart_title": "销售量",
         "discount_amount_chart_title": "折扣",
-        "currency_convert_to": "到货币",
+        "currency_convert_to": "货币",
         "active_currencies": "活跃货币",
         "sell_count_chart_title": "按变体分类的销售数量",
-        "active_gateways": "主动支付网关",
-        "received_last_24h": "最近 7 小时收到",
+        "active_gateways": "活跃支付网关",
+        "received_last_24h": "24小时内收到的",
         "pie": {
           "title": "今天的销售比率",
-          "no_data": "今天不卖"
+          "no_data": "无数据"
         },
         "pay_amount": "支付金额",
         "sell_amount": "销售金额",
@@ -395,7 +395,7 @@ export default {
         "table": {
           "currency": "货币",
           "total_sell_30days": "30天总销售额",
-          "sell_daily": "每日销售率",
+          "sell_daily": "每日销售",
           "sell": "销售",
           "pay": "支付"
         }
@@ -422,46 +422,46 @@ export default {
         "title": "今天",
         "title_small": "用户和销售概览",
         "users": "用户",
-        "views": "意见",
+        "views": "浏览量",
         "orders": "订单",
         "payments": "付款",
         "no_visitor_today": "你今天没有访客。"
       },
       "channels": {
-        "title": "获取渠道",
-        "subtitle": "您的业务正在增长。以下是您的获客渠道报告。"
+        "title": "销售渠道",
+        "subtitle": "您的业务正在增长。以下是您的销售渠道报告。"
       }
     },
     "products": {
       "title": "产品列表",
-      "products_list": "返回目录",
+      "products_list": "产品列表",
       "products_menu": "产品管理",
-      "process_que": "加工进口产品",
+      "process_que": "导入产品队列",
       "view_que_list": "查看队列列表",
       "menu_products_list": "产品列表",
-      "menu_export": "出口产品",
-      "menu_import": "进口产品",
+      "menu_export": "导出产品",
+      "menu_import": "导入产品",
       "menu_show_deletes": "显示已删除的产品",
       "drop_import_message": "将产品列表文件（CSV、XLS、XLSX 格式）拖放到此处开始添加批量产品。确保文件具有 Selldone 产品列表格式。",
       "product_widget": {
         "product_type": "产品类别",
         "price": "价格",
-        "value_added": "委员会",
+        "value_added": "增值税",
         "discount": "折扣",
-        "in_stock": "有存货",
-        "product_unit": "单元",
+        "in_stock": "库存数量",
+        "product_unit": "单位",
         "total_sell": "总销售额",
         "total_view": "总浏览",
-        "view_unit": "时代",
-        "review_unit": "评论"
+        "view_unit": "浏览数量",
+        "review_unit": "评论数量"
       },
       "folder_widget": {
         "products": "产品",
         "products_unit": "类型",
         "sub_categories": "类别",
         "sub_categories_unit": "项目",
-        "views": "意见",
-        "views_unit": "时代"
+        "views": "浏览",
+        "views_unit": "浏览量"
       },
       "menu_advanced_options": "高级选项",
       "products_rss": {
@@ -500,39 +500,39 @@ export default {
       }
     },
     "blogs": {
-      "new": "写新",
+      "new": "新建",
       "blogs": "博客",
       "list": {
         "title": "我的文章",
         "waiting_message": "正在接收信息...请稍候",
         "published": "发表",
-        "draft": "草案",
-        "private": "私人的",
-        "public": "上市",
+        "draft": "草稿",
+        "private": "私密",
+        "public": "公开",
         "table": {
           "title": "标题",
           "author": "作者",
-          "claps": "拍手",
-          "like": "像",
+          "claps": "赞",
+          "like": "喜欢",
           "comments": "评论",
-          "views": "意见",
-          "publish_state": "地位",
-          "created_at": "创立日期",
+          "views": "浏览",
+          "publish_state": "状态",
+          "created_at": "创建日期",
           "updated_at": "最后更新"
         },
-        "subtitle": "使用现代内联编辑器撰写文章，展示您自己和您的业务。在撰写高质量的 SEO 友好型博客文章时，您首先需要关注原创内容。"
+        "subtitle": "使用现代内联编辑器撰写文章，展示您自己和您的业务。在撰写高质量的 SEO 友好型博客文章时，您首先需要注重原创内容。"
       }
     },
     "orders": {
       "physical": {
         "waiting_message": "正在接收信息...请稍候",
         "rejected": "被拒绝",
-        "delivery": "船运",
+        "delivery": "投递",
         "discount": "折扣",
         "not_paid": "没有支付",
         "table": {
-          "order_number": "订购代码",
-          "order_date": "离开日期",
+          "order_number": "订单号码",
+          "order_date": "下单日期",
           "status": "最后状态",
           "price": "总金额",
           "payment_status": "支付状态"
