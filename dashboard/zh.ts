@@ -789,61 +789,61 @@ export default {
           "description_input_message": "输入此等级的简要说明。"
         },
         "notifications": {
-          "update_success": "更改适用于客户俱乐部。"
+          "update_success": "客户俱乐部设置已更新。"
         }
       },
       "faq": {
-        "title": "经常问的问题",
+        "title": "常见问题",
         "sub_title": "添加、编辑和回答客户的问题。"
       }
     },
     "marketing": {
       "menu": {
-        "campaigns": "活动",
+        "campaigns": "营销活动",
         "cross_selling": "交叉销售",
-        "affiliate": "附属公司",
-        "emails": "电子邮件",
-        "funnel": "漏斗"
+        "affiliate": "联盟推广",
+        "emails": "邮件邮箱",
+        "funnel": "客户转化过程"
       },
       "campaign": {
-        "name_input_placeholder": "活动名称",
-        "name_input_message": "输入您的广告系列标题。",
-        "create_campaign_action": "制作新广告系列",
+        "name_input_placeholder": "请输入您的活动标题",
+        "name_input_message": "请输入您的活动标题。",
+        "create_campaign_action": "创建新活动",
         "table": {
           "title": "标题",
-          "state": "地位",
+          "state": "状态",
           "discount": "折扣",
-          "landing": "登陆页面",
-          "start": "开始",
-          "end": "结尾"
+          "landing": "落地页",
+          "start": "开始时间",
+          "end": "结束时间"
         },
         "notifications": {
           "add_success_title": "创建活动",
-          "add_success": "您的广告系列已创建。"
+          "add_success": "您的活动已创建。"
         },
         "name_input_name": "活动名称"
       }
     },
     "categories": {
       "title": "类别列表",
-      "subtitle": "类别是您的在线商店的主要功能。我们鼓励您使用这些强大的分类工具来构建现代店面，让您的客户轻松找到合适的产品。",
+      "subtitle": "分类是您的网店的核心功能。我们鼓励您使用这些强大的分类工具来构建现代化的店面，并让您的客户轻松找到合适的产品。",
       "menu": {
         "add_new": "添加新类别",
         "categories_list": "类别列表",
-        "export": "出口类别",
+        "export": "导出类别",
         "import": "导入类别 (CSV)"
       },
       "graph": {
         "title": "类别层次结构",
-        "subtitle": "您可以全面了解您的商店类别以及用户如何浏览它们。通过正确的类别安排，您的客户可以快速找到产品，并且转化率会提高。",
-        "visits_count": "访问",
+        "subtitle": "您可以全面查看店铺分类及用户浏览路径。合理的分类布局能帮助客户快速找到产品，提高转化率。",
+        "visits_count": "访问量",
         "normal": "简单的",
-        "items_count": "项目数",
-        "home": "家"
+        "items_count": "商品数量",
+        "home": "首页"
       },
       "category_widget": {
-        "parent": "家长",
-        "not_exist": "不存在",
+        "parent": "上级类别",
+        "not_exist": "类别不存在",
         "children": "子类别",
         "delete_alert": {
           "title": "删除子类别",
@@ -857,45 +857,45 @@ export default {
     },
     "apps": {
       "menu": {
-        "app_store": "店铺",
-        "my_apps": "应用"
+        "app_store": "应用商店",
+        "my_apps": "我的应用"
       },
       "my_apps": {
-        "title": "存储活跃的应用程序",
-        "subtitle": "管理您的业务应用程序。",
+        "title": "应用程序",
+        "subtitle": "通过 Selldone 应用商店，轻松管理您的业务应用。我们的平台提供一整套旨在优化业务运营的工具。从创新的管理解决方案到提升生产力的应用，Selldone 为寻求效率和增长的企业提供无缝体验。",
         "all": "全部"
       },
       "store": {
         "title": "应用商店",
-        "subtitle": "将您喜爱的服务安全地连接到您的业务。我们根据客户的要求添加插件和应用程序。",
-        "nodata": "没有找到插件。",
+        "subtitle": "安全地将您喜爱的服务连接到您的业务。我们根据客户需求添加插件和应用。",
+        "nodata": "未找到插件。",
         "all": "全部",
         "more": "更多的"
       }
     },
     "pages": {
       "menu": {
-        "new_page": "新页面",
+        "new_page": "新建页面",
         "contact_us": "联系我们",
-        "privacy": "隐私",
-        "terms": "条款",
+        "privacy": "隐私政策",
+        "terms": "使用条款",
         "about_us": "关于我们",
-        "landings": "降落",
+        "landings": "落地页",
         "popup": "弹出窗口",
-        "static": "静止的"
+        "static": "静态页面"
       }
     },
     "permissions": {
       "menu": {
-        "persons": "职员",
+        "persons": "员工",
         "roles": "角色",
         "api": "API"
       },
       "shop_permissions": {
         "menu": {
-          "users": "人员名单",
+          "users": "人员列表",
           "new_user": "添加新员工",
-          "new_user_message": "有权访问此商店的仪表板和管理部分的用户。",
+          "new_user_message": "获准访问仪表盘和本店管理部分的用户。",
           "email_input_placeholder": "电子邮件",
           "email_input": "用户电子邮件地址",
           "level_input": "访问权限",
@@ -908,146 +908,146 @@ export default {
         },
         "notifications": {
           "add_success_title": "添加访问权限",
-          "add_success": "添加了新的访问权限。",
-          "delete_success_title": "删除访问",
-          "delete_success": "访问已删除。"
+          "add_success": "成功添加了新的访问权限。",
+          "delete_success_title": "删除访问权限",
+          "delete_success": "访问权限已删除。"
         }
       },
       "shop_api": {
-        "title": "存储访问密钥",
-        "message": "这些密钥用于由您的服务器创建访问令牌。请注意，密钥是机密的，并且仅以其他人不可见的方式在服务器上。"
+        "title": "客户端",
+        "message": "这些密钥用于由您的服务器创建访问令牌。请注意，密钥是保密的，只能在服务器上以其他人不可见的方式使用。"
       }
     },
     "applications": {
       "pwa": {
-        "title": "网络应用",
-        "sub_title": "在此处查看您的商店网络应用程序",
-        "message": "注意：您可以在 iPhone 和 iPad 上的 iOS 应用程序中编辑您的网站欢迎页面",
+        "title": "网页应用",
+        "sub_title": "这是您商店网页应用的预览",
+        "message": "您可以在 iPhone 和 iPad 上的 iOS 应用中编辑您的网站欢迎页面。",
         "ios_app": "iOS 应用"
       },
       "ios": {
         "title": "iOS 应用",
-        "sub_title": "您很快就能为您的商店构建一个 iOS 应用程序。",
-        "message": "最大文件大小：512 KB，您可以上传最大 1MB 的文件，前提是我们的压缩系统能够将大小减小到 512KB。上传的图像将智能调整大小。"
+        "sub_title": "您很快就能为您的商店构建 iOS 应用。",
+        "message": "最大文件大小：512KB，您可以上传最大 1MB 的文件，前提是我们的压缩系统能够将文件大小压缩到 512KB。上传的图片将被智能调整大小。"
       },
       "android": {
         "title": "安卓应用",
-        "sub_title": "构建自己的 Android 应用",
-        "message": "填写此表格并按构建键。将不需要其他任何东西。您的应用程序的构建和签名过程的所有步骤都在云服务器上执行。最终的应用程序将上传到所有 AppStore。",
-        "server_un_available": "实验上，此时应用服务器没有连接。",
-        "app_building_progress": "您的应用正在构建中。",
+        "sub_title": "构建您自己的安卓应用",
+        "message": "填写此表格并按构建键。无需其他操作。应用的构建和签名过程全部在云服务器上完成。最终的应用将上传到所有应用商店。",
+        "server_un_available": "当前应用服务器未连接。",
+        "app_building_progress": "您的应用正在创建中。",
         "app_build_success": "您的应用程序已准备就绪。",
-        "download_app_action": "下载这个软件",
+        "download_app_action": "获取应用",
         "firmware_version": "固件版本",
         "main_info": "应用程序包",
         "package_name_input_message": "确保包名是唯一的。",
-        "package_name_input_alert": "如果您更改此名称，您将无法在 AppStore 中更新以前的应用程序并安装新应用程序。请注意，旧版本的应用程序用户也将无法登录他们的帐户。",
-        "version_input": "版本",
-        "version_input_message": "此数字必须始终大于其先前的值。",
+        "package_name_input_alert": "如果您更改此名称，将无法更新之前在应用商店发布的应用，也无法安装新版本。请注意，旧版本的用户也无法登录账户。",
+        "version_input": "版本号",
+        "version_input_message": "此数字必须始终大于之前的版本号。",
         "version_name_input": "版本名称",
         "version_name_input_message": "输入此版本的应用程序的唯一名称。",
-        "use_selldone_key": "Selldone 默认键",
+        "use_selldone_key": "Selldone 默认密钥",
         "use_last_key": "已保存的密钥",
-        "use_new_key": "新钥匙",
-        "appearance": "外貌",
+        "use_new_key": "新密钥",
+        "appearance": "外观",
         "app_name_input": "应用名称",
-        "app_name_input_message": "这将是您的应用程序的主要名称。",
+        "app_name_input_message": "这将是您的应用程序主名称。",
         "app_title_input": "应用标题",
-        "app_title_input_message": "此标题显示在应用程序的顶部。",
+        "app_title_input_message": "此标题将显示在应用程序的顶部。",
         "app_title_input_placeholder": "输入标题",
         "app_icon_input": "应用程序图标",
         "app_icon_input_placeholder": "选择应用程序图标的 zip 文件。",
-        "generate_icon_pack_action": "构建图标包",
+        "generate_icon_pack_action": "生成图标包",
         "splash_design": "启动画面设计",
         "splash_logo_input": "启动画面标志",
-        "splash_logo_input_placeholder": "选择启动画面的图像。",
+        "splash_logo_input_placeholder": "选择启动画面的图片。",
         "splash_title_input": "启动画面标题",
         "splash_title_input_placeholder": "输入启动画面的标题",
         "splash_title_input_message": "此标题将以大字体显示。",
-        "splash_message_input": "启动画面消息",
+        "splash_message_input": "启动画面信息",
         "splash_message_input_placeholder": "信息 ...",
         "splash_message_input_message": "此消息将在下方显示为缩略图。",
         "dark_theme": "深色主题",
-        "light_theme": "轻主题",
-        "build": "建造",
-        "building_info": "在云服务器上构建应用程序需要 10 秒到几分钟。请耐心等待。应用程序准备就绪后，下载文件链接将出现在此处。",
+        "light_theme": "亮色主题",
+        "build": "构建",
+        "building_info": "在云服务器上构建应用需要10秒到几分钟，请耐心等待。应用准备好后，下载链接将显示在这里。",
         "update_mode_action": "更新",
         "build_mode_action": "构建应用",
         "notifications": {
           "icon_pack_not_valid_error": "文件不正确。",
-          "start_building_title": "建造 ...",
+          "start_building_title": "构建中 ...",
           "start_building_message": "已提交构建 Android 应用程序的请求。",
           "build_success_title": "恭喜",
-          "build_success": "您的 Android 应用程序已准备就绪，您现在可以下载它。"
+          "build_success": "您的 Android 应用程序已准备就绪，您现在可以下载它了。"
         }
       }
     },
     "automation": {
       "menu": {
-        "autopilot": "自动驾驶仪"
+        "autopilot": "自动化管理"
       }
     },
     "edit": {
       "menu": {
-        "delete": "删除存储",
+        "delete": "删除店铺",
         "activity_time": "时间",
         "footer": "菜单",
         "info": "信息",
         "notification": "通知",
-        "home": "家",
+        "home": "首页",
         "locations": "地点",
-        "license": "执照",
+        "license": "许可证",
         "theme": "主题",
         "sms": "短信",
         "email": "电子邮件",
-        "domain": "领域",
+        "domain": "域名",
         "verifications": "验证",
-        "flow": "流动",
+        "flow": "流程",
         "business_model": "商业模式"
       },
       "delete_dialog": {
-        "title": "删除存储",
+        "title": "删除店铺",
         "message": "您要删除<b>{title}</b>商店吗？",
-        "action": "删除存储"
+        "action": "删除店铺"
       },
       "notifications": {
-        "delete_success": "商店已删除。"
+        "delete_success": "店铺已删除。"
       },
       "info": {
         "title_tab": {
-          "title": "公司名称和语言",
-          "subtitle": "设置公共名称和默认语言。"
+          "title": "商户名称和语言",
+          "subtitle": "设置公开名称和默认语言。"
         },
         "name_tab": {
           "title": "店铺唯一名称",
-          "subtitle": "这是您的企业用户名。"
+          "subtitle": "这是您的商户用户名。"
         },
         "description_tab": {
           "title": "您的商业故事",
-          "subtitle": "写下您的业务及其独特的价值主张。"
+          "subtitle": "写下您的业务及其独特的价值。"
         },
         "contact_tab": {
           "title": "联系方式和本地业务",
           "subtitle": "公共联系信息和 Google 本地业务设置。"
         },
         "image_tab": {
-          "title": "标识",
-          "subtitle": "为您的品牌选择一个独特的标志。"
+          "title": "Logo",
+          "subtitle": "为您的品牌选择一个独特的logo。"
         }
       },
       "badge": {
         "external_title": "管理外部徽章",
-        "external_message": "在这里，您可以输入徽章图像的地址及其链接。 URL 必须来自经批准的网站。"
+        "external_message": "在这里，您可以输入徽章图片的地址及其链接。网址必须来已经认证的网站。"
       },
       "edit_menu": {
         "title": "菜单",
         "footer": {
-          "title": "页脚菜单",
-          "sub_title": "您可以在此处配置商店页面的底部菜单。这些菜单可以是主页、设计页面或外部链接。"
+          "title": "底部菜单",
+          "sub_title": "您可以在此处配置商店页面的底部菜单。这些菜单可以链接主页、设计页面或外部链接。"
         },
         "header": {
-          "title": "标题菜单",
-          "sub_title": "此菜单仅显示在比移动设备更大的屏幕上，以及主页、产品类别、登陆和产品页面的顶部。"
+          "title": "顶部菜单",
+          "sub_title": "该菜单仅显示在大于手机屏幕的设备上，且位于主页、产品分类页、着陆页和产品页的顶部。"
         },
         "save_menu": "保存菜单",
         "dialog": {
@@ -1055,13 +1055,13 @@ export default {
           "custom_pages": "登陆页面"
         },
         "table": {
-          "home": "家",
+          "home": "主页",
           "shop": "店铺",
           "blogs": "博客",
           "about_us": "关于我们",
-          "privacy": "隐私",
+          "privacy": "隐私条款",
           "terms": "使用条款",
-          "faq": "FAQ",
+          "faq": "常见问题",
           "contact_us": "联系我们"
         },
         "notifications": {
@@ -1070,30 +1070,30 @@ export default {
       },
       "social": {
         "title": "社交媒体",
-        "message": "在此部分中输入您的官方社交媒体链接。按照每个项目的说明确认地址。"
+        "message": "在此处输入您的官方社交媒体链接。请按照每项的说明确认地址。"
       },
       "time": {
         "title": "工作日",
         "sub_title": "设置工作日和时间",
-        "days_open_input": "天",
+        "days_open_input": "营业日",
         "days_open_input_nodata": "至少选择一天",
-        "start_time_input": "店铺活动开始时间",
-        "start_time_input_hint": "店铺营业时间",
+        "start_time_input": "店铺营业开始时间",
+        "start_time_input_hint": "店铺开放时间（小时）",
         "end_time_input": "店铺关门时间",
-        "end_time_input_hint": "店铺活动结束时间",
-        "customer_support_service": "问责制和客户服务",
+        "end_time_input_hint": "店铺营业结束时间",
+        "customer_support_service": "客户服务",
         "response_time_input": "客户服务状态",
-        "support_24h": "每周 7 天 24 小时",
+        "support_24h": "7 天 24 小时",
         "support_normal": "仅在办公时间内",
-        "no_service": "不",
+        "no_service": "无服务",
         "notifications": {
-          "update_success": "商店编辑。"
+          "update_success": "商店已编辑。"
         }
       }
     }
   },
   "category_select": {
-    "category_input_no_category": "没有类别"
+    "category_input_no_category": "无分类"
   },
   "add_product": {
     "title_new": "新产品",
@@ -1101,18 +1101,18 @@ export default {
     "title_new_drop_shipping": "添加代发货",
     "title_edit": "编辑产品",
     "delete": "删除产品",
-    "completed": "完全的",
+    "completed": "已完成",
     "menu": {
-      "type": "产品类别",
+      "type": "产品类型",
       "general_info": "基本信息",
-      "rating": "调查和特点",
+      "rating": "评价和特点",
       "spec": "规格",
       "images": "图片",
       "price": "价格",
       "inputs": "输入",
       "outputs": "输出",
-      "extra": "额外细节",
-      "review": "产品审核",
+      "extra": "附加详情",
+      "review": "产品描述",
       "inventory": "库存/变体",
       "change_status": "更改状态"
     },
@@ -1120,13 +1120,13 @@ export default {
       "title": "选择您的产品或服务类型"
     },
     "edit_info": {
-      "category_input": "类别",
+      "category_input": "分类",
       "product_name": "产品名称*",
-      "product_name_placeholder": "您的产品名称在这里..",
+      "product_name_placeholder": "请输入您的产品名称..",
       "product_code": "产品代码（英文）",
       "sku": {
         "label": "SKU",
-        "message": "库存单位"
+        "message": "库存管理单位"
       },
       "sku_message": "库存单位",
       "mpn": {
@@ -1135,40 +1135,40 @@ export default {
       },
       "mpn_message": "制造商零件编号",
       "status": {
-        "title": "地位",
-        "subtitle": "产品状态决定了其在线和店内可用性。要制作产品草稿，只需将其状态切换为“未激活”即可。"
+        "title": "状态",
+        "subtitle": "产品状态决定了它在网上和店内是否可卖。如果想暂时下架产品，只需要把它的状态切换到“未激活”即可。"
       },
       "external_link": "外部链接",
       "brand": {
         "label": "品牌",
-        "placeholder": "品牌前。苹果..（可选）"
+        "placeholder": "品牌，例如 Apple..（可选）"
       },
-      "brand_placeholder": "品牌前。苹果..（可选）",
+      "brand_placeholder": "品牌，例如 Apple..（可选）",
       "warranty": {
-        "subtitle": "设置保修和产品状态，因为有关保修的信息将显示给客户，并有助于确定购买后可以退回产品的时间范围。",
+        "subtitle": "设置保修期限及产品状态，此保修信息将显示给客户，明确产品购买后可退货的时间期限。",
         "label": "保修单",
-        "placeholder": "黄金 24 个月保修..（可选）"
+        "placeholder": "黄金级24个月保修..（可选）"
       },
-      "is_original": "这是原创产品吗？",
-      "is_original_message": "如果您未将产品设置为原始产品，则会显示该产品的假徽章。",
+      "is_original": "这是正品吗？",
+      "is_original_message": "如果您未将产品设置为正品，该产品将显示‘仿品’标签。",
       "return_warranty": "该产品有多少天的退货保证？",
       "warehouse_section": "仓库与制造",
-      "conditions_section": "产品条件",
-      "warranty_section": "保修和交付",
+      "conditions_section": "产品状态",
+      "warranty_section": "保修和配送",
       "unit": {
-        "subtitle": "您可以个性化产品页面上定价和号召性用语元素的显示。"
+        "subtitle": "您可以自定义产品页面上价格和购买按钮的显示方式。"
       },
       "unit_message": "如果需要，输入单位。例如：公斤，米，...",
       "condition": {
-        "label": "您商店中的产品状况",
-        "message": "请选择本产品的状态。",
-        "subtitle": "告知客户您所提供产品的状况和品牌。"
+        "label": "您店铺中的产品状态",
+        "message": "请选择该产品的状态。",
+        "subtitle": "告知您的客户您所提供产品的状态和品牌信息。"
       },
-      "condition_message": "您必须在此字段中选择一个值。",
-      "unit_section": "产品单元",
-      "unit_float": "浮动单元（很快）",
-      "unit_float_hint": "例如，客户可以订购 3 公斤的水果，但发送给客户的数量与订购的数量略有不同。",
-      "unit_float_message": "在订单处理期间，交付金额可能与订购金额不同。系统会自动计算此差额并将其记录为您对客户的欠款，可应用于下一个订单。",
+      "condition_message": "您必须为此字段选择一个值。",
+      "unit_section": "产品单位",
+      "unit_float": "浮动单位",
+      "unit_float_hint": "例如，客户可能订购3公斤水果，但实际发货数量可能与订购数量略有差异。",
+      "unit_float_message": "在订单处理中，实际交付的数量可能与订购数量不同。系统会自动计算差额，并将其作为应退款项记录，您可以在下一次订单中抵扣。",
       "status_list": {
         "active": {
           "title": "活跃 |线上线下销售",
@@ -1181,10 +1181,10 @@ export default {
       },
       "marketplace": {
         "vendor_panel_message": "<b>{vendor_name}</b>是产品的所有者。",
-        "subscription_message": "订阅产品可以有一个供应商，因此您可以在供应商面板中创建它们或在创建步骤中为其分配供应商。选定的供应商将成为该产品的所有者。",
-        "default_message": "您可以指定该产品是否属于一个供应商，因此只有一个供应商可以销售它，或者该产品属于 Marketplace 并且多个供应商可以销售它。",
+        "subscription_message": "订阅类型产品只能有一个供应商，您可以在供应商面板创建这些产品，或在创建步骤中为其分配供应商。选定的供应商将成为该产品的拥有者。",
+        "default_message": "您可以指定该产品是否属于某个供应商，只有该供应商可以销售，或者该产品属于市场（Marketplace），允许多个供应商销售。",
         "single_vendor_title": "单一供应商",
-        "single_vendor_desc": "该产品属于某个供应商，所选供应商可以对其进行管理。",
+        "single_vendor_desc": "该产品属于某个供应商，选定的供应商可以管理该产品。",
         "multi_vendors_title": "多个供应商",
         "multi_vendors_desc": "该产品属于市场，只能在市场面板中编辑。"
       },
