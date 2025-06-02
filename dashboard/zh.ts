@@ -3341,7 +3341,7 @@ export default {
   "shop_permissions": {
     "ADMIN": {
       "text": "所有者",
-      "description": "完全访问所有店面。"
+      "description": "对所有店铺拥有完全访问权限。"
     },
     "PRODUCT": {
       "text": "产品经理",
@@ -3365,69 +3365,69 @@ export default {
     },
     "MARKETING": {
       "text": "营销",
-      "description": "访问设置并创建活动、电子邮件营销和其他营销相关部分。"
+      "description": "访问设置，创建活动、邮件营销及其他与营销相关的部分。"
     },
     "VIEWER": {
-      "text": "查看器",
-      "description": "无需编辑或更改即可查看商店信息的能力。"
+      "text": "查看者",
+      "description": "能够查看店铺信息，但不能编辑或更改。"
     }
   },
   "shop_roles": {
     "PhysicalOrdersChecking": {
-      "text": "体检",
+      "text": "实物验货",
       "description": "检查收到的订单。"
     },
     "PhysicalOrdersPackaging": {
-      "text": "物理包装",
+      "text": "实物包装",
       "description": "仓库和包装过程。"
     },
     "PhysicalOrdersDelivery": {
-      "text": "实物运输",
-      "description": "订购运输。"
+      "text": "实物发货",
+      "description": "订单发货。"
     },
     "PhysicalOrdersSupport": {
-      "text": "物理支持",
+      "text": "实物售后",
       "description": "售后支持。"
     }
   },
   "account_status": {
-    "Checking": "检查",
-    "Approved": "确认的",
-    "Rejected": "被拒绝",
+    "Checking": "审核中",
+    "Approved": "已确认",
+    "Rejected": "已拒绝",
     "Deleted": "已删除",
-    "Banned": "禁止",
+    "Banned": "已禁止",
     "Payment": "支付",
     "SelldoneSprite": "Selldone 钱包账户",
-    "SelldoneStorage": "出售存储"
+    "SelldoneStorage": "Selldone 存储"
   },
   "account_page": {
-    "title": "帐户",
+    "title": "账户",
     "menu": {
       "setting": "设置",
-      "change": "收费",
-      "transfer": "转移",
+      "charge": "充值",
+      "transfer": "转账",
       "transactions": "交易",
       "charge": "收费",
       "history": "历史",
-      "cards": "牌"
+      "cards": "卡片"
     },
     "transactions": {
       "title": "账户交易",
       "detail": {
         "title": "交易",
-        "amount": "数量",
+        "amount": "金额",
         "description": "描述",
         "from": "从",
         "to": "到",
         "created_at": "日期",
         "receipt": "收据",
-        "receipt_note": "笔记"
+        "receipt_note": "备注"
       },
       "table": {
         "type": "类型",
-        "from": "从帐户",
-        "to": "记账",
-        "amount": "数量",
+        "from": "从账户",
+        "to": "到账户",
+        "amount": "金额",
         "receipt": "收据",
         "created_at": "日期",
         "description": "描述"
@@ -3436,30 +3436,30 @@ export default {
     "transfer": {
       "title": "转账费用",
       "form": {
-        "title": "转让申请表",
-        "sub_title": "存入您自己或其他人的账户",
-        "message": "汇款时要小心，如果您完成转账，您将无法返回。"
+        "title": "转账请求表",
+        "sub_title": "可以在钱包中将可用资金在相同货币的钱包之间转账，或转账到 Selldone 上的其他钱包。",
+        "message": "转账时请谨慎操作，转账完成后无法撤回。"
       }
     },
     "deposit": {
       "form": {
-        "title": "收费账户",
-        "sub_title": "您必须从您的账户余额中扣除购买许可证、升级您的账户和支付系统收据。",
-        "amount_input": "数量",
-        "charge_action": "付费账号"
+        "title": "账户充值",
+        "sub_title": "您需要充值账户余额以购买许可证、升级账户和支付系统账单。",
+        "amount_input": "金额",
+        "charge_action": "充值账号"
       },
       "notifications": {
         "qr_title": "支付",
         "qr_message": "付款地址 {currency} 已创建。",
         "gateway_title": "支付",
-        "gateway_message": "连接到支付网关。"
+        "gateway_message": "正在连接到支付网关。"
       }
     },
     "setting": {
-      "title": "帐号设定",
-      "account_name_input": "帐户名称",
+      "title": "账户设置",
+      "account_name_input": "账户名称",
       "notifications": {
-        "updated_success": "您的帐户已成功更新。"
+        "updated_success": "您的账户已成功更新。"
       }
     }
   },
@@ -3467,45 +3467,45 @@ export default {
     "title": "收据付款"
   },
   "transaction_form": {
-    "title": "交易表格",
-    "from_input": "从帐号",
-    "to_input": "到帐号",
-    "from_input_message": "金额将从该帐户中提取。",
-    "account_name": "帐户名称",
+    "title": "交易表单",
+    "from_input": "从账号",
+    "to_input": "到账号",
+    "from_input_message": "款项将从此账户中扣除。",
+    "account_name": "账户名称",
     "currency": "货币",
     "free_balance": "可用余额",
-    "to": "目的地帐户",
-    "amount": "数量",
+    "to": "收款账户",
+    "amount": "金额",
     "receipt_title": "收据付款",
     "receipt_input": "收据号",
     "paid_status": "这张收据已经支付。",
     "paid_canceled": "此收据已被取消。",
-    "description": "解释",
+    "description": "说明",
     "created_at": "日期",
-    "duration": "期间",
-    "unlimited": "无限",
+    "duration": "期限",
+    "unlimited": "无限期",
     "add_note_action": "添加说明",
-    "note": "笔记",
-    "transfer_action": "转移",
+    "note": "备注",
+    "transfer_action": "转账",
     "confirmation": {
-      "title": "寄钱",
+      "title": "发送款项",
       "subtitle": "交易确认",
-      "message": "如果以下信息正确，请点击交易确认键进行交易。",
-      "from": "从帐户",
-      "to": "记账",
-      "amount": "数量",
-      "fee": "手续费",
-      "total_pay": "从您的账户中提取的金额",
+      "message": "如果以下信息无误，请点击交易确认按钮以完成交易。",
+      "from": "从账户",
+      "to": "账户",
+      "amount": "金额",
+      "fee": "交易费用",
+      "total_pay": "从账户扣除的总额",
       "receipt": "收据",
-      "description": "描述",
-      "accept_action": "交易确认"
+      "description": "说明",
+      "accept_action": "确认交易"
     },
-    "enter_account_number": "输入帐号。",
-    "currency_not_match": "目标帐户货币与来源不同",
-    "account_number_not_valid": "帐号是正确的。",
-    "account_number_is_valid": "帐号是正确的。",
-    "receipt_not_valid": "发票号码不正确。",
-    "receipt_is_valid": "收据编号正确。",
+    "enter_account_number": "请输入账户号码。",
+    "currency_not_match": "收款账户的货币与付款账户不一致。",
+    "account_number_not_valid": "账户号码不正确。",
+    "account_number_is_valid": "账户号码正确。",
+    "receipt_not_valid": "收据号码不正确。",
+    "receipt_is_valid": "收据号码正确。",
     "notifications": {
       "confirm_success": "交易成功完成。"
     }
@@ -3515,8 +3515,8 @@ export default {
     "description": "根据您的每月销售额计算并选择最佳计划：",
     "sale_input": "月销售额",
     "hypernova_plan": "申请 Hypernova %0！",
-    "show_normal_mode": "显示正常模式",
-    "show_hypernova_mode": "我的交易额超过 100 万美元！"
+    "show_normal_mode": "显示普通模式",
+    "show_hypernova_mode": "我的交易额超过2000万美元！"
   },
   "price_card": {
     "billed_monthly": "每月结算 {amount}。",
@@ -3530,60 +3530,60 @@ export default {
   "user_activities_keys": {
     "add_baskets": "添加到购物车",
     "remove_baskets": "从购物车中删除",
-    "buys": "买",
+    "buys": "购买",
     "products_views": "查看产品"
   },
   "shop_visitors_widget": {
     "title": "访客分析",
     "new_visitors": "新访客",
-    "amp": "AMP 视图",
+    "amp": "AMP 浏览量",
     "returning_visitors": "回头客",
     "page_views": "页面浏览量",
     "other_pages": "其他页面",
-    "from_previous_7_days": "从过去 7 天开始"
+    "from_previous_7_days": "过去7天内"
   },
   "app_levels": {
-    "title": "应用级别",
-    "Newbie": "新手",
-    "Beginner": "初学者",
-    "Novice": "新手",
-    "Intermediate": "中间的",
-    "Advanced": "先进的"
+    "title": "应用等级",
+    "Newbie": "初学",
+    "Beginner": "入门",
+    "Novice": "初级",
+    "Intermediate": "中级",
+    "Advanced": "高级"
   },
   "login": {
-    "register_title": "商业媒介，<br>愉快的经历。",
-    "register_subtitle": "今日免费注册。 Selldone 深受初创公司、企业、买家和卖家的喜爱。",
+    "register_title": "商业的桥梁，<br>愉快的体验。",
+    "register_subtitle": "今天免费注册。Selldone 深受初创企业、大型企业、买家和卖家的喜爱。",
     "password_recovery_title": "找回密码",
     "password_recovery_message": "如果您忘记了密码，请输入您帐户的电子邮件地址，然后按确认键。我们将向您发送一封电子邮件，其中包含重置密码的链接。",
     "email": "您的电子邮件地址",
-    "password_recovery_action": "接收恢复电子邮件",
-    "register_google": "继续使用 Google",
-    "register_apple": "继续使用苹果",
-    "continue_with": "继续",
-    "register_linkedin": "继续领英",
-    "register_facebook": "继续使用 Facebook",
-    "register_github": "继续使用 Github",
+    "password_recovery_action": "接收密码找回邮件",
+    "register_google": "使用 Google账号继续",
+    "register_apple": "使用Apple账号继续",
+    "continue_with": "继续使用",
+    "register_linkedin": "使用 LinkedIn 继续",
+    "register_facebook": "使用 Facebook 继续",
+    "register_github": "使用 Github 继续",
     "create_your_account": "创建您的帐户",
-    "password_8_chars": "密码必须至少8个字符。",
-    "password_upercase_number": "至少一个大写字母和一个数字。",
-    "password_confirm": "密码和确认匹配。",
+    "password_8_chars": "密码至少需要8个字符。",
+    "password_upercase_number": "至少包含一个大写字母和一个数字。",
+    "password_confirm": "密码与确认密码一致。",
     "privacy_agreement": "注册即表示您同意 Selldone 的<a href='/terms' target='_blank'>使用条款</a>和<a href='/privacy' target='_blank'>隐私政策</a>。",
-    "register_action": "走吧，它是免费的！",
+    "register_action": "开始吧，免费注册！",
     "login_action": "登录",
-    "already_signup": "已经注册了？",
+    "already_signup": "已经注册？",
     "login_your_account": "登录到您的帐户",
-    "login_google": "继续使用 Google",
-    "login_linkedin": "继续领英",
-    "login_facebook": "继续使用 Facebook",
-    "login_github": "继续使用 Github",
-    "remember_me": "记住账号。",
+    "login_google": "使用 Google 登录",
+    "login_linkedin": "使用 LinkedIn 登录",
+    "login_facebook": "使用 Facebook 登录",
+    "login_github": "使用 Github 登录",
+    "remember_me": "记住我。",
     "login_button": "登录",
-    "two_step_problem": "两步密码有问题吗？",
+    "two_step_problem": "两步验证出现问题了吗？",
     "two_step_problem_action": "我想禁用两步登录。",
     "two_step_confirm": "确认访问代码",
     "forgot_password": "忘记密码？",
     "signup_free": "免费注册",
-    "checking_robot_message": "检查你是机器人还是人..",
+    "checking_robot_message": "正在验证您是机器人还是人类...",
     "notifications": {
       "step2_login_success": "自动登录帐户"
     },
@@ -3593,79 +3593,79 @@ export default {
     "email_or_username_placeholder": "电子邮件、用户名或电话号码",
     "password_placeholder": "密码",
     "re_password_placeholder": "确认密码",
-    "new_in_samin": "Selldone 的新成员？",
+    "new_in_samin": "首次使用Selldone？",
     "auto_create_shop": "自动创建商店"
   },
   "layout": {
     "logout": "登出",
     "menu": {
-      "personal_information": "个人信息和个人资料",
+      "personal_information": "个人信息和资料",
       "wallet": "钱包和账户",
-      "companies": "公司和商业账户",
-      "access": "访问我的帐户",
-      "security": "安全",
-      "preferences": "用户偏好",
+      "companies": "公司与业务",
+      "access": "开发者与 API 密钥",
+      "security": "账户安全",
+      "preferences": "用户偏好与个性化",
       "my_subscriptions": "我的订阅",
       "my_public_profile_subtitle": "我的公开个人资料{name}。",
-      "personal_information_subtitle": "编辑我的个人资料、地址和 KYC。",
-      "wallet_subtitle": "虚拟账户和关联的支付卡。",
-      "companies_subtitle": "注册我的商业和税务资料。",
-      "access_subtitle": "OAuth 客户端、个人访问令牌和连接的应用程序。",
-      "security_subtitle": "设置两个因素并管理社交登录选项。",
-      "preferences_subtitle": "更改主题、级别、语言和默认货币。",
+      "personal_information_subtitle": "编辑我的资料、地址和身份认证（KYC）。",
+      "wallet_subtitle": "虚拟账户和已绑定的支付卡。",
+      "companies_subtitle": "注册我的业务及税务资料。",
+      "access_subtitle": "OAuth 客户端、个人访问令牌和已连接应用。",
+      "security_subtitle": "设置双重认证并管理社交登录选项。",
+      "preferences_subtitle": "更改主题、等级、语言和默认货币。",
       "my_subscriptions_subtitle": "访问高级 AI 和定制功能。"
     }
   },
   "page_builder": {
     "title": "网站设计",
     "menu": {
-      "user_view": "看法",
+      "user_view": "预览",
       "design": "设计",
       "behavior": "行为",
-      "seo": "SEO",
+      "seo": "SEO 搜索引擎优化",
       "setting": "设置",
       "embed": "嵌入"
     },
-    "waiting_fetch": "接收信息..",
+    "waiting_fetch": "正在接收信息...",
     "setting": {
       "title_input": "页面标题",
-      "description_input": "简短的介绍",
-      "name_input": "页面 URL（字母和数字）",
+      "description_input": "简短描述",
+      "name_input": "页面网址（字母和数字）",
       "bg_color_input": "背景颜色",
       "bg_style_input": "页面背景样式",
       "page_label_input": "标签颜色",
       "page_dir_input": "页面方向",
-      "ltr": "左到右",
-      "rtl": "右到左",
-      "designer_note": "设计师笔记"
+      "ltr": "从左到右",
+      "rtl": "从右到左",
+      "designer_note": "设计师备注"
     },
     "history": {
-      "title": "保存的历史"
+      "title": "保存的历史记录"
     },
     "design": {
       "themes": {
-        "title": "个人设计助理",
-        "message": "无需编码即可为您的业务设计最佳页面。",
+        "title": "页面编辑器",
+        "message": "无需代码，打造顶级商务页面。",
         "page_title_input": "输入页面标题"
       },
       "tools": {
-        "rearrange": "命令",
+        "rearrange": "排序",
         "tools": "工具",
-        "history": "历史",
+        "history": "历史记录",
         "style": "风格",
-        "typography": "排版",
-        "hierarchy": "等级制度"
+        "typography": "字体排版",
+        "hierarchy": "层级"
       },
-      "no_category": "没有分类"
+      "no_category": "无分类"
     },
     "seo": {
       "message": "SEO 设置由 Selldone SEO 引擎自动调整。"
     }
   },
   "verify_email_caution": {
-    "title": "请确认您的电邮地址",
-    "message": "新的激活链接已发送到您的电子邮件地址 {email}。在采取任何行动之前，请检查您的电子邮件。",
-    "resend_message": "如果您没有在电子邮件中收到激活链接，请单击下面的按钮重新发送。",
+    "title": "请确认您的邮箱地址",
+    "message": "新的激活链接已发送到您的电子邮件地址 {email}。请在进行任何操作前检查您的邮箱。",
+    "resend_message": "如果您未收到激活链接，请点击下方按钮重新发送。",
     "resend_action": "重新发送激活链接",
     "resend_notice": "激活链接已发送。"
   },
@@ -3679,70 +3679,70 @@ export default {
   },
   "company_card": {
     "pending_state": "等待审核",
-    "register": "挂号的",
-    "developer": "开发商",
+    "register": "已注册",
+    "developer": "开发者",
     "verified": "已验证",
-    "premier": "总理"
+    "premier": "高级"
   },
   "shop_license": {
     "add": "添加订阅",
     "only_last": "仅最后一次订阅",
     "vouchers": "代金券",
     "buy": "购买订阅计划",
-    "monthly": "月刊",
-    "yearly": "每年",
+    "monthly": "月度",
+    "yearly": "年度",
     "start_date": "开始日期",
     "end_date": "结束日期",
     "price": "价格",
     "terms": "我阅读并同意 Selldone 使用条款",
-    "need_charge": "需要收费",
+    "need_charge": "需要付费",
     "buy_now": "立即购买",
     "auto_renewal": "自动续订",
     "plan_placeholder": "选择您的订阅计划",
-    "plan": "许可计划",
-    "use_date": "激活日期",
+    "plan": "许可证计划",
+    "use_date": "添加日期",
     "active_license": {
       "title": "有效许可证",
-      "subtitle": "您的有效许可证信息。",
-      "subtitle_partner": "您的有效 {name} 许可证信息。"
+      "subtitle": "这是您的有效许可证信息。您可以通过升级到更高等级的计划来降低服务费用。",
+      "subtitle_partner": "您的 {name} 有效许可证信息。商店目前有一个合作伙伴协议。如果您希望取消该协议并升级到更高等级的计划，请联系客户支持团队以获取帮助。"
     },
     "licenses_table": {
       "title": "购买历史",
-      "subtitle": "有效和待定的许可证。"
+      "subtitle": "这是您所有有效和待处理的许可证清单。您可以在钱包充值后购买许可证计划。此外，请注意，取消订阅后，剩余的订阅金额将返还至您的虚拟钱包中。"
     },
     "license_detail": {
-      "title": "细节",
-      "subtitle": "当前计划的限制。"
+      "title": "许可证详情",
+      "subtitle": "这些是您当前计划的使用限制。欲了解更多详细信息，请访问定价页面。您可以在所有计划中（包括免费计划）访问所有功能，以开始和发展您的业务。随着业务的扩展，请考虑升级至更高等级的计划以降低服务费。"
     },
     "table": {
       "plan": "计划",
       "start_date": "开始/结束日期",
       "renewal": "自动续订",
-      "linked_account": "关联账户/优惠券",
-      "payment": "支付",
+      "linked_account": "关联账户/代金券",
+      "payment": "付款",
       "cancel": "取消"
     },
     "notifications": {
       "subscribe_success": "订阅成功。",
-      "cancel_success": "订阅成功取消。"
+      "cancel_success": "取消订阅成功。"
     },
     "cancel_dialog": {
-      "title": "取消订阅确认",
+      "title": "确认取消订阅",
       "message": "您确定要取消此订阅吗？",
       "action": "取消订阅"
     },
-    "use_voucher_now": "立即使用优惠券",
+    "use_voucher_now": "立即使用代金券",
     "validity_duration": "有效期",
     "validity_duration_hint": "通过购买 12 个月的许可证，您将获得 30% 的折扣。"
   },
   "admin_shop_layout": {
-    "download_txt": "下载数据文本",
-    "download_excel": "下载数据excel"
+    "download_txt": "下载文本数据",
+    "download_excel": "下载excel数据"
   },
   "user_preferences": {
-    "access": "使用权",
+    "access": "访问权限",
     "template": "模板",
-    "feedback": "回馈",
+    "feedback": "反馈",
     "company": "公司",
     "company_message": "如果您有公司并想要发布应用程序。",
     "access_keys": "访问密钥",
@@ -3750,15 +3750,15 @@ export default {
     "rating": "您如何评价您在 Selldone 的体验？",
     "large_font": "大字体",
     "large_font_message": "显示比正常大的文本",
-    "samples": "展示样品店",
-    "samples_message": "如果启用，一些示例商店将显示在您的面板中。",
+    "samples": "显示示例商店",
+    "samples_message": "如果启用，在你的面板中将显示一些示例商店。",
     "automation": "自动化",
-    "automation_message": "在商店仪表板上显示自动化选项卡。 （Webhook、可视化编程……）",
+    "automation_message": "在商店仪表盘中显示自动化选项卡（Webhook、可视化编程等）。",
     "date_time": "日期和时间"
   },
   "shop_locations": {
     "title": "提供服务的国家",
-    "sub_title": "从下面的列表中选择您想要销售产品的国家/地区。",
+    "sub_title": "从下方列表中选择你想要销售产品的国家。",
     "delete_restriction": "删除限制",
     "set_restriction": "设置限制",
     "notifications": {
@@ -3771,19 +3771,19 @@ export default {
     }
   },
   "product_card": {
-    "sold_out": "卖光了",
-    "review_unit": "审查",
-    "not_original": "非原创"
+    "sold_out": "售罄",
+    "review_unit": "条评价",
+    "not_original": "非原版"
   },
   "product_studio": {
     "add_mode": "添加更多详细信息",
     "add_by_sku": "按 SKU 添加",
-    "auto_category": "自动设置类别",
-    "add_in_current_category": "添加到当前类别",
-    "category_mode_message": "如果启用，产品将被添加到默认类别或子类别中。",
+    "auto_category": "自动设置分类",
+    "add_in_current_category": "添加到当前分类",
+    "category_mode_message": "如果启用，产品将被添加到默认分类或子分类中。",
     "sku_name_input": "SKU/名称",
     "info": {
-      "subtitle": "为了生成产品，您只需输入创建产品所需的基本详细信息。"
+      "subtitle": "若要生成产品，您只需填写创建所需的基本信息即可。"
     },
     "price": {
       "subtitle": "输入此产品的价格和折扣。添加产品后，您将可以访问更多选项。"
@@ -3796,55 +3796,55 @@ export default {
       "subtitle": "在批发市场中查找产品并将其添加到您的商店。"
     },
     "by_connect": {
-      "subtitle": "使用 Selldone Connect OS 轻松添加来自 POD 或直销供应商的产品——只需连接您的商店并享受自动产品集成，无需插件。"
+      "subtitle": "通过 Selldone Connect OS，轻松从 POD 或代发货供应商处添加产品——只需连接您的店铺，即可实现自动产品集成，无需安装插件。"
     },
     "your_license_is_not_eligible": "您的许可证不符合条件。",
     "sku_dialog": {
       "title": "按 SKU 添加产品",
-      "subtitle": "您可以通过我们数据库中的 SKU 找到产品，然后只需单击即可添加它们。"
+      "subtitle": "您可以通过我们的数据库根据 SKU 查找产品，并一键添加。"
     },
     "dropshipping_dialog": {
-      "title": "添加直销产品"
+      "title": "添加代发货产品"
     }
   },
   "my_affiliate": {
-    "title": "我的附属合同",
-    "message": "与其他商店的附属协议列表。"
+    "title": "我的联盟合同",
+    "message": "这是与其他店铺的联盟合作列表。当店铺所有者指定您为联盟合作伙伴时，您可以在这里查看您的佣金、订单详情和相关统计数据。"
   },
   "affiliates": {
-    "title": "附属合作伙伴",
-    "subtitle": "创建联属网络营销公司，随时间跟踪他们的表现，并在一个地方根据准确信息采取行动。我们帮助您和您的合作伙伴建立牢固的关系。",
-    "affiliate_code": "会员代码",
+    "title": "联盟合作伙伴",
+    "subtitle": "创建联盟，追踪他们的表现，并根据准确的信息统一管理。我们帮助您和您的合作伙伴建立稳固的关系。",
+    "affiliate_code": "联盟代码",
     "crate_date": "创建日期",
     "last_payment_date": "最后付款日期",
     "for_all_products": "适用于所有产品",
-    "balance": "平衡",
+    "balance": "余额",
     "fix_commission": "固定佣金",
-    "percent_commission": "基于百分比的佣金",
-    "total_payment": "总付款",
-    "new_affiliate": "新的合作伙伴",
-    "new_affiliate_message": "添加新的合作伙伴",
+    "percent_commission": "百分比佣金",
+    "total_payment": "累计付款",
+    "new_affiliate": "新增联盟合作伙伴",
+    "new_affiliate_message": "添加新的联盟合作伙伴",
     "link_domain": {
-      "title": "链接域",
-      "subtitle": "您可以将您的一个域连接到此联属合作伙伴。该合作伙伴将被称为每个访问您的商店并通过此域购买的人的代表。"
+      "title": "关联域名",
+      "subtitle": "将您的某个域名关联到此联盟合作伙伴。通过该域名购买的访客将归属于该联盟合作伙伴。"
     },
     "dialog": {
-      "new": "新的合作伙伴",
-      "edit": "编辑附属合作伙伴",
+      "new": "新的联盟合作伙伴",
+      "edit": "编辑联盟合作伙伴",
       "user": "用户（可选）",
       "bank_info": "银行信息",
       "restriction": "限制",
       "select_products": "选择产品",
-      "select_products_message": "附属合作伙伴获得这些产品的佣金",
+      "select_products_message": "联盟合作伙伴获得这些产品的佣金",
       "edit_action": "更新会员",
-      "add_action": "添加会员合作伙伴",
-      "affiliate_name": "合作伙伴名称",
+      "add_action": "添加联盟会员合作伙伴",
+      "affiliate_name": "联盟合作伙伴名称",
       "payment_info": "付款信息",
       "enable_switch": "是活跃的吗？",
-      "affiliate_info": "加盟合作伙伴信息"
+      "affiliate_info": "加盟联盟合作伙伴信息"
     },
     "link_factory": {
-      "title": "附属合作伙伴链接生成器",
+      "title": "联盟合作伙伴链接生成器",
       "link_input": "你的链接",
       "link_output": "生成的链接"
     }
@@ -3852,19 +3852,19 @@ export default {
   "gift_card_orders": {
     "title": "使用礼品卡的订单",
     "table": {
-      "order": "命令",
+      "order": "订单",
       "order_price": "订单金额",
-      "paid_by_card": "刷卡支付",
+      "paid_by_card": "礼品卡支付",
       "payment_status": "支付状态",
       "date": "日期"
     }
   },
   "offer_orders": {
-    "title": "报价单",
+    "title": "优惠订单",
     "table": {
-      "order": "命令",
+      "order": "订单",
       "order_price": "订单金额",
-      "offer_amount": "报价金额",
+      "offer_amount": "优惠金额",
       "payment_status": "支付状态",
       "product": "产品",
       "date": "日期"
@@ -3873,7 +3873,7 @@ export default {
   "coupon_orders": {
     "title": "优惠券订单",
     "table": {
-      "order": "命令",
+      "order": "订单",
       "order_price": "订单金额",
       "coupon_amount": "优惠券金额",
       "payment_status": "支付状态",
@@ -3881,9 +3881,9 @@ export default {
     }
   },
   "discount_code_orders": {
-    "title": "带有折扣码的订单",
+    "title": "折扣码订单",
     "table": {
-      "order": "命令",
+      "order": "订单",
       "order_price": "订单金额",
       "discount_amount": "折扣金额",
       "payment_status": "支付状态",
@@ -3893,106 +3893,106 @@ export default {
   "incentives": {
     "discount_code": "折扣",
     "coupon": "优惠券",
-    "offer": "提供",
-    "gift_card": "礼物卡",
-    "lottery": "彩票",
-    "cashback": "现金返还"
+    "offer": "特价优惠",
+    "gift_card": "礼品卡",
+    "lottery": "抽奖",
+    "cashback": "返现"
   },
   "discount_codes": {
     "title": "折扣码",
-    "sub_title": "在本节中，您将能够根据您的需要设计折扣券。这些折扣与任何产品折扣是分开的，将适用于用户订单的最终金额。",
+    "sub_title": "在此部分，您可以设计符合您需求的折扣优惠券。这些折扣独立于任何产品折扣，将应用于用户订单的最终金额。",
     "add_new": "添加新的折扣代码",
     "card": {
-      "created": "创造",
+      "created": "创建",
       "start": "开始",
-      "end": "结尾",
+      "end": "结束",
       "currency": "货币",
       "discount_percentage": "折扣率",
       "discount_limit": "折扣限额",
       "state": "当前状态",
-      "enabled": "现已启用",
-      "disabled": "现在禁用",
-      "used": "已消费",
-      "count": "数数",
-      "unit": "项目）"
+      "enabled": "已启用",
+      "disabled": "已禁用",
+      "used": "已使用",
+      "count": "数量",
+      "unit": "件"
     },
     "dialog": {
       "title_edit": "修改折扣码",
-      "title_add": "添加新的折扣代码",
-      "discount_code_input": "优惠码",
+      "title_add": "添加新的折扣码",
+      "discount_code_input": "折扣码",
       "discount_percent_input": "折扣率",
-      "discount_percent_input_hint": "购买金额折现率",
-      "count_input": "数数",
-      "count_input_hint": "此代码的最大使用量",
+      "discount_percent_input_hint": "购买金额的折现率",
+      "count_input": "数量",
+      "count_input_hint": "此折扣码的最大使用次数",
       "limit_input": "折扣限额",
       "limit_input_hint": "基于货币的最大折扣",
-      "currency_input_message": "此货币可享受折扣。",
-      "limit_input_message": "折扣限制值为 0 表示折扣率没有限制。",
+      "currency_input_message": "折扣仅适用于此货币。",
+      "limit_input_message": "折扣额度为0表示折扣率无上限。",
       "title_input": "标题",
       "title_input_hint": "您可以输入此折扣代码的标题",
       "description_input": "描述",
-      "description_input_hint": "您可以输入此折扣代码的说明",
-      "date_start_input": "开始",
-      "date_start_input_placeholder": "选择何时开始打折",
-      "date_end_input": "结尾",
-      "date_end_input_placeholder": "选择折扣结束的时间",
+      "description_input_hint": "您可以输入此折扣代码的描述",
+      "date_start_input": "开始时间",
+      "date_start_input_placeholder": "选择折扣开始时间",
+      "date_end_input": "结束时间",
+      "date_end_input_placeholder": "选择折扣结束时间",
       "notifications": {
         "add": "折扣码已成功添加。",
         "edit": "折扣码已成功编辑。"
       },
       "config": {
-        "title": "常规配置",
-        "subtitle": "折扣码计算公式为：max(LIMIT, PERCENT * 购物车价格)。记得让代码相关且容易记住。"
+        "title": "通用配置",
+        "subtitle": "折扣码计算公式为：max(折扣上限，折扣率 × 购物车价格)。请确保折扣码相关且易于记忆。"
       },
       "limit": {
         "title": "限制",
         "subtitle": "您可以在此部分定义每个折扣码的最大使用限制以及最大折扣金额。"
       },
       "duration": {
-        "title": "时长限制",
-        "subtitle": "如果您想在特定时间段内激活折扣代码，您可以在此处设置该期限。"
+        "title": "期限限制",
+        "subtitle": "如果您想在特定时间段内启用折扣码，可以在这里设定该期限。"
       },
       "design": {
         "subtitle": "您可以为每个折扣码设置标题和描述。这些详细信息将显示给用户。"
       },
       "cluster": {
-        "subtitle": "通过将此折扣代码与集群关联，您可以轻松地在单个位置将其与其他资源一起管理。"
+        "subtitle": "通过将折扣码与集群关联，您可以在一个地方轻松管理多个资源。"
       }
     },
     "delete_alert": {
       "title": "删除折扣码",
       "message": "要删除此折扣代码吗？",
-      "action": "移除折扣"
+      "action": "删除折扣码"
     },
     "notifications": {
-      "delete_success": "您的评论已成功删除"
+      "delete_success": "您的折扣码已成功删除"
     }
   },
   "gift_cards": {
-    "title": "礼物卡",
-    "sub_title": "创建一张礼品卡，然后根据需要制作任意数量的礼品卡。这张卡是收费的，只能用于在您的商店购物。",
+    "title": "礼品卡",
+    "sub_title": "创建礼品卡并根据需要可以制作多张。此卡已充值，仅限用于您店铺内的购买行为。",
     "create_new": "添加新的礼品卡",
     "card": {
-      "created": "创造",
-      "lifetime": "到期日",
-      "lifetime_unit": "自每张卡片创建之日起的月份",
+      "created": "创建",
+      "lifetime": "有效期",
+      "lifetime_unit": "从每张卡创建之日起计算的月数",
       "currency": "货币",
-      "initial_balance": "初始费用",
-      "count": "数数",
-      "count_unit": "物品",
-      "used": "用过的"
+      "initial_balance": "初始充值金额",
+      "count": "数量",
+      "count_unit": "张",
+      "used": "已使用"
     },
     "dialog": {
       "title": "礼品卡设计"
     },
     "alert": {
-      "title": "删除折扣码",
-      "message": "要删除此折扣代码吗？",
+      "title": "删除礼品卡",
+      "message": "您是否要删除此礼品卡类别及其下所有已发行的礼品卡？",
       "action": "删除"
     },
     "notifications": {
       "delete_title": "删除礼品卡",
-      "delete_message": "您的评论已成功删除。"
+      "delete_message": "您的礼品卡已成功删除。"
     }
   },
   "coupons": {
