@@ -1189,157 +1189,157 @@ export default {
         "multi_vendors_desc": "该产品属于市场，只能在市场面板中编辑。"
       },
       "category_input_msg": "空：在商店的根目录中",
-      "unit_input": "产品单元",
+      "unit_input": "产品单位",
       "category": {
-        "subtitle": "配置在您的列表中显示的类别和标题。"
+        "subtitle": "设置在您的商品列表中显示的类别和标题。"
       },
       "custom_pricing": {
-        "title": "定制定价表",
-        "subtitle": "您可以为产品创建或分配估价（定价输入表），并且您的客户可以在变体之间进行选择或通过直观的输入表定制您的商品。",
-        "valuation_need_saved_product_message": "请先保存产品，然后才能指定估价模型。",
-        "assign_valuation_message": "请为该产品指定一个估价模型。",
-        "edit_pricing_action": "编辑定价表",
-        "add_pricing_action": "创建新的定价表"
+        "title": "自定义定价表单",
+        "subtitle": "您可以为产品创建或分配一个估值（定价输入表单），客户可以在不同变体之间进行选择，或通过直观的输入表单自定义您的商品。",
+        "valuation_need_saved_product_message": "请先保存该产品，然后您才能分配估值模型。",
+        "assign_valuation_message": "请为此产品分配一个估值模型。",
+        "edit_pricing_action": "编辑定价表单",
+        "add_pricing_action": "创建新的定价表单"
       },
       "action": {
         "title": "自定义购买按钮",
         "message": "您可以按照以下模式更改图标：{icon name} 标题...",
-        "placeholder": "输入行动号召...",
+        "placeholder": "输入按钮文案...",
         "multi_language_dialog_title": "自定义购买按钮标题"
       },
       "warehouse": {
-        "subtitle": "仓库管理系统利用这些信息来全局识别产品。"
+        "subtitle": "此信息由仓库管理系统使用，用于在全球范围内识别该产品。"
       },
       "gtin": {
-        "hint": "支持的值有 UPC（北美，12 位数字）、EAN（欧洲，13 位数字）、JAN（日本，8 位或 13 位数字）、ISBN（书籍，13 位数字）。",
-        "label": "产品的全球贸易项目编号",
-        "placeholder": "此处为全球贸易编号..（可选）"
+        "hint": "支持的标签包括 UPC（北美，12 位数字）、EAN（欧洲，13 位数字）、JAN（日本，8 位或 13 位数字）、ISBN（书籍，13 位数字）。",
+        "label": "产品的全球贸易编号",
+        "placeholder": "在此输入全球贸易编号..（可选）"
       },
       "hsn": {
-        "hint": "HSN，即“协调命名制度”，是一种用于对商品和产品进行分类的国际标准化分类系统。",
+        "hint": "HSN（协调制度编码）是用于对商品和产品进行国际标准化分类的编码系统。",
         "placeholder": "6~16位HSN代码..（可选）",
         "label": "HSN"
       },
       "profiles": {
-        "title": "简介",
-        "subtitle": "您可以定义保修、退货政策、运输和指南并将其分配给该产品。它将作为新标签显示在产品页面上。"
+        "title": "配置文件",
+        "subtitle": "您可以定义保修、退货政策、运输和指南，并将它们分配给此产品。它们将以新选项卡的形式显示在产品页面上。"
       },
       "shortcuts": {
-        "title": "将产品分配至其他类别",
-        "subtitle": "此功能允许您将产品列在多个类别中，同时保留其在产品 > 编辑 > 类别下的主要类别集中的位置。本质上，它的功能类似于在操作系统中创建“快捷方式”，使产品能够出现在其他指定类别中。"
+        "title": "分配产品到额外类别",
+        "subtitle": "此功能允许您将产品同时列在多个类别中，同时保留在 产品 > 编辑 > 类别 中设置的主要类别。基本上，它的功能类似于操作系统中的“快捷方式”，使产品能够出现在指定的其他类别中。"
       }
     },
     "rating_pros_cons": {
-      "title": "民意调查",
-      "message": "为您的客户输入产品规格列表以对您的产品进行评分。 （最多 5 项）",
-      "rating_input": "民意调查",
-      "rating_input_message": "您可以在投票中添加 5 个项目。",
-      "item_unit": "物品",
+      "title": "调查问卷",
+      "message": "输入一组产品规格供客户评分。（最多5项）",
+      "rating_input": "投票",
+      "rating_input_message": "您最多可以添加5个投票项。",
+      "item_unit": "产品",
       "pros_title": "优点",
-      "pros_message": "输入产品的功能。 （最多 5 项）",
-      "pros_input_title": "专题标题",
-      "pros_input_value": "特征值",
+      "pros_message": "输入产品的优点。 （最多 5 项）",
+      "pros_input_title": "优点标题",
+      "pros_input_value": "优点内容",
       "pros_group": "产品的优点",
-      "pros_group_messages": "产品主要特点",
+      "pros_group_messages": "产品主要优点",
       "cons_title": "缺点",
-      "cons_message": "输入产品的弱点。 （最多 5 项）",
-      "cons_input_title": "弱点标题",
-      "cons_input_value": "弱点值",
-      "cons_group": "产品的弱点",
-      "cons_group_messages": "产品的主要弱点",
+      "cons_message": "输入产品的缺点。（最多5项）",
+      "cons_input_title": "缺点标题",
+      "cons_input_value": "缺点内容",
+      "cons_group": "产品缺点",
+      "cons_group_messages": "产品的主要缺点",
       "select_from_list": "从列表中选择",
       "suggestion_rating": [
-        "高品质",
+        "质量优良",
         "物有所值",
-        "会推荐",
-        "特点和能力",
+        "值得推荐",
+        "功能与性能",
         "易于使用",
         "精心设计",
         "性能可靠",
         "有效的客户支持",
         "满意的交货时间",
-        "产品匹配说明",
+        "产品与描述相符",
         "耐用且持久",
         "性价比高",
         "精美的包装",
         "创新设计",
         "环保",
-        "足够的说明/手册",
+        "说明手册清晰明了",
         "达到预期",
-        "用户友好的界面",
-        "高效率",
+        "友好的用户界面",
+        "高效能",
         "优质的售后服务",
-        "多功能性",
-        "有竞争力的定价",
-        "备件/配件的可用性",
+        "多功能",
+        "价格有优势",
+        "备件/配件供应良好",
         "值得信赖的品牌",
-        "使用安全",
-        "及时、准确的服务"
+        "安全使用",
+        "及时与快速的服务"
       ],
       "notifications": {
-        "add_rating_success": "添加了用户评分 {rating_name} 选项。",
-        "delete_rating_success": "用户评分 {rating_name} 选项已删除。",
-        "add_pros_success": "添加了产品功能。",
-        "delete_pros_success": "产品功能已移除。",
-        "add_cons_success": "产品弱点增加。",
-        "delete_cons_success": "消除了产品弱点。"
+        "add_rating_success": "用户评分选项 {rating_name} 已添加。",
+        "delete_rating_success": "用户评分选项 {rating_name} 已删除。",
+        "add_pros_success": "产品优点已添加。",
+        "delete_pros_success": "产品优点已移除。",
+        "add_cons_success": "产品缺点已添加。",
+        "delete_cons_success": "产品缺点已移除。"
       },
       "rating_input_placeholder": "在这里写下您的自定义调查问题...然后按 Enter！"
     },
     "edit_spec": {
-      "title": "技术规格",
-      "sub_title": "可导入同类产品的技术规格。",
-      "import_action": "进口",
-      "group_input_header": "添加组",
-      "item_title_header": "添加项目",
-      "group_input": "组头",
-      "group_input_message": "输入标题。",
-      "group_add_action": "添加组",
+      "title": "技术参数",
+      "sub_title": "在此处填写产品规格信息。该信息将显示给客户，并可用于分类的智能筛选系统。",
+      "import_action": "导入",
+      "group_input_header": "添加分组",
+      "item_title_header": "添加条目",
+      "group_input": "分组标题",
+      "group_input_message": "请输入标题。",
+      "group_add_action": "添加分组",
       "item_title_input": "标题",
-      "item_title_input_message": "输入功能标题。",
-      "item_value_input": "价值",
-      "item_value_input_message": "输入特征值。",
-      "add_item_action": "添加项目",
+      "item_title_input_message": "输入特征标题。",
+      "item_value_input": "值",
+      "item_value_input_message": "请输入特征值。",
+      "add_item_action": "添加条目",
       "dialog": {
-        "title": "输入技术规格",
+        "title": "导入技术参数",
         "code_input": "产品编号",
         "code_input_message": "产品编号：P0000 ...",
-        "spec_view_title": "所选产品的规格",
-        "set_spec_action": "重复的技术规格",
-        "spec_view_subtitle": "已从所选产品导入规格。"
+        "spec_view_title": "所选产品的参数",
+        "set_spec_action": "复制技术参数",
+        "spec_view_subtitle": "参数已从所选产品导入。"
       },
       "notifications": {
-        "enter_group_title_error": "输入标题值",
+        "enter_group_title_error": "请输入标题",
         "enter_item_title_and_value_error": "输入特征的标题和值",
-        "spec_saved_success": "产品规格已保存。"
+        "spec_saved_success": "产品参数已保存。"
       },
-      "subtitle": "在此处插入产品规格。此信息将显示给客户，也可在类别的智能过滤系统中使用。",
+      "subtitle": "在此处插入产品参数。此信息将显示给客户，也可在类别的智能过滤系统中使用。",
       "manual": {
-        "title": "手动",
-        "subtitle": "通过定义组和键值对手动添加产品规格。",
-        "add_group_action": "添加组",
-        "add_item_action": "添加规格值"
+        "title": "手动添加",
+        "subtitle": "通过定义分组和键值对，手动添加产品参数。",
+        "add_group_action": "添加分组",
+        "add_item_action": "添加参数值"
       },
       "import": {
-        "subtitle": "您可以导入类似产品的技术规格。",
-        "action_title": "进口",
-        "action_subtitle": "从另一个产品克隆规格。"
+        "subtitle": "您可以导入类似产品的技术参数。",
+        "action_title": "导入",
+        "action_subtitle": "从另一个产品复制参数。"
       },
       "ai": {
         "title": "AI",
-        "subtitle": "您可以通过以文本形式提交产品的原始数据来自动创建产品规格。",
+        "subtitle": "您可以通过提交产品的原始文本数据，自动创建产品参数。",
         "action_title": "AI自动生成",
-        "action_subtitle": "根据抽象提示创建产品规范。"
+        "action_subtitle": "通过摘要提示创建产品参数。"
       },
       "dialog_ai": {
-        "title": "自动生成产品规格",
+        "title": "自动生成产品参数",
         "prompt": {
           "title": "产品概述",
-          "subtitle": "请提供简短清晰的产品描述，突出其主要功能和细节。此信息将用于自动生成产品规格。"
+          "subtitle": "请简要清晰地描述产品，突出其主要特征和细节。此信息将用于自动生成产品参数。"
         },
         "generated_spec": {
-          "title": "人工智能生成的规范",
-          "subtitle": "这些规范是由人工智能生成的。"
+          "title": "人工智能生成的参数",
+          "subtitle": "这些参数是由人工智能生成的。"
         },
         "inputs": {
           "prompt": {
@@ -1349,10 +1349,10 @@ export default {
         },
         "actions": {
           "run": {
-            "title": "生成规范",
-            "subtitle": "单击即可根据提供的概述自动创建产品规格。"
+            "title": "生成参数",
+            "subtitle": "点击以根据提供的概述自动创建产品参数。"
           },
-          "add_generated_spec": "添加生成的规范"
+          "add_generated_spec": "添加生成的参数"
         }
       }
     },
@@ -1361,29 +1361,29 @@ export default {
       "main_image_input_nodata": "上传产品图片。",
       "main_image_input_message": "此图像显示在产品列表中。",
       "preview": "预览",
-      "image_style": "图片风格",
+      "image_style": "图片样式",
       "background_is_white": "白色背景",
-      "background_is_white_msg": "图片有白色背景吗？？",
+      "background_is_white_msg": "图片是白色背景吗？？",
       "images": {
         "title": "产品图片库",
-        "sub_title": "在此部分中上传所有产品变体通用的产品图片。"
+        "sub_title": "在此部分上传所有产品变体通用的产品图片。"
       },
       "video": {
         "title": "视频",
-        "sub_title": "首先，将您的产品视频上传到 Youtube，然后将视频 URL 放在这里。"
+        "sub_title": "首先将您的产品视频上传至 YouTube，然后将视频链接放在此处。"
       },
       "change_bg_ai": {
-        "title": "创建具有新背景的图像",
+        "title": "生成新背景的图片",
         "inputs": {
           "prompt": {
             "label": "背景描述",
-            "placeholder": "描述所需的背景..."
+            "placeholder": "描述您想要的背景..."
           }
         },
         "actions": {
           "reimagine": {
-            "title": "生成新图像",
-            "subtitle": "用新的背景重新想象整个图像。"
+            "title": "生成新图片",
+            "subtitle": "使用新背景重新构思整张图片。"
           },
           "replace": {
             "subtitle": "替换现有的背景。"
@@ -1392,61 +1392,61 @@ export default {
       }
     },
     "pricing": {
-      "edit_price": "价钱",
+      "edit_price": "定价",
       "price_input": "价格",
       "currency_input": "货币",
-      "currency_input_messages": "价格以这种货币计算。",
-      "commission_input": "委员会",
-      "commission_message": "此选项仅对批发商等特定类型的商家有用。如果您不是批发商，请将此选项留空。买家看到的价格是价格和佣金的总和。要添加税收，请单击会计 > 税收。",
+      "currency_input_messages": "价格以此货币计算。",
+      "commission_input": "佣金",
+      "commission_message": "该选项仅适用于批发商等特定商家。如果您不是批发商，请将此选项留空。买家看到的价格是 价格 + 佣金 的总和。如需添加税，请点击 会计 > 税务。",
       "add_commission_action": "添加佣金",
       "discount_input": "折扣",
       "discount_input_message": "折扣率",
-      "has_discount_period_input": "此折扣在特定时间有效吗？",
-      "discount_timespan": "输入折扣期。",
-      "start_input": "开始",
-      "end_input": "结尾",
+      "has_discount_period_input": "此折扣是否仅在特定时间内有效？",
+      "discount_timespan": "请输入折扣有效期。",
+      "start_input": "开始时间",
+      "end_input": "结束时间",
       "start_input_placeholder": "选择开始时间",
       "end_input_placeholder": "选择结束时间",
-      "independent_price": "仅此变体的价格",
-      "same_price": "主要产品的价格",
-      "variant_pricing_message": "通过选择此选项，可以独立于主要产品设置此变体的价格。",
+      "independent_price": "此价格仅对此变体生效",
+      "same_price": "此价格与主产品相同",
+      "variant_pricing_message": "选择此选项后，该变体的价格将独立于主产品价格",
       "price_label_input": "价格标签",
-      "price_label_message": "添加有关价格的额外信息，例如（$1.5/Fl Oz）。用例：杂货店、快速消费品。",
+      "price_label_message": "可为价格添加额外说明，如 ($1.5/盎司)，常用于食品杂货或快速消费品。",
       "add_price_label_action": "添加价格标签",
       "subtitle": {
-        "marketplace": "在市场内，显示的主要产品定价是标价，而实际价格则根据供应商与产品关系记录确定。",
-        "subscription": "对于订阅，仅显示标价，而实际费用将根据所选的订阅计划确定。",
-        "service": "对于基于服务的产品，所列价格仅用于展示目的，提供服务的估计成本。实际服务价格将在客户下订单后（结账时）由您确定。",
-        "file": "这是指文件的标价和实际价格，客户必须支付该价格才能访问文件。",
-        "default": "这是指产品的标价，同时也考虑了任何没有单独定价的变体的价格。"
+        "marketplace": "在市场中，主要显示的是商品的标价，实际价格则根据供应商与商品的关联记录确定。",
+        "subscription": "对于订阅产品，仅显示标价，实际费用将根据所选订阅计划确定。",
+        "service": "对于服务类产品，标价仅供展示提供服务的预计费用。实际服务价格由您在客户下单结账时确定。",
+        "file": "指文件的标价和实际价格，客户需支付此费用才能获取文件访问权限。",
+        "default": "指产品的标价，同时考虑没有单独定价的变体价格。"
       },
       "extra_pricings": {
         "title": "添加额外定价",
-        "subtitle": "根据购买数量应用不同的价格。"
+        "subtitle": "根据购买数量动态定价"
       },
       "vendor": {
         "title": "供应商定价",
         "subtitle": "此价格仅显示在产品列表中。您可以在产品 > 供应商选项卡中设置供应商价格。",
         "manage_vendors": "管理供应商",
-        "vendor_product_pricing_link": "供应商的产品定价是关联的。在此处更改标价将影响没有变体的供应商产品或没有自己定价的变体产品（使用与主产品相同的价格）。此价格将被视为市场价格，供应商的价格将根据定价模型或之前的市场利润率设定。",
-        "vendor_variant_pricing_link": "在此处更改变体价格将影响具有相同变体的供应商产品的定价。此价格将被视为市场价格，供应商的价格将根据定价模型或之前的市场利润率设定。"
+        "vendor_product_pricing_link": "供应商产品定价已关联。在此更改列表价格将影响没有变体的供应商产品，或那些变体没有独立定价（使用与主产品相同价格）的产品。此价格将被视为市场价格，供应商价格将根据定价模型或之前的市场利润率进行设置。",
+        "vendor_variant_pricing_link": "在此更改变体价格将影响具有相同变体的供应商产品的定价。此价格将被视为市场价格，供应商价格将根据定价模型或之前的市场利润率进行设置。"
       }
     },
     "inputs_edit": {
-      "title": "买家信息输入表",
-      "sub_title": "您可以为每个产品创建一个数据输入表单，以便购物者在购买产品时向您发送信息。例如，此信息可以是石头上雕刻的名称。",
+      "title": "输入表单提示信息",
+      "sub_title": "您可以为每个产品创建一个数据录入表单，方便买家在购买时向您提供信息。例如，这些信息可以是刻在石头上的名字。",
       "message_input": "给用户的消息",
       "message_input_message": "此消息将在购买产品时显示给客户。",
-      "inputs_form": "信息结构（输入）",
-      "inputs_hint": "您可以选择设置个性化表格，以便在客户准备下订单时收集他们的详细信息。"
+      "inputs_form": "输入表单结构",
+      "inputs_hint": "您可以设置个性化表单，在客户准备下单时收集他们的详细信息。"
     },
     "extra_edit": {
       "physical": {
         "title": "运输信息",
-        "sub_title": "准备的成本和时间是根据本节中的信息计算的。请务必根据店内选择的单位（重量、尺寸、距离）输入信息。"
+        "sub_title": "备货成本和时间将根据本部分的信息计算。请确保根据商店中选择的单位（重量、尺寸、距离）填写信息。"
       },
       "notifications": {
-        "save_title": "包装更新",
+        "save_title": "包装信息已更新",
         "save_msg": "产品包装信息更新成功。"
       },
       "order_limit": {
@@ -1454,7 +1454,7 @@ export default {
         "subtitle": "如果您是批发商或每个订单中该商品的数量有最低或最高限制，您可以在此处指定。",
         "no_limit": "无限制",
         "minimum_purchase_quantity": "最低购买数量",
-        "maximum_purchase_quantity": "最大购买数量"
+        "maximum_purchase_quantity": "最高购买数量"
       }
     },
     "variants": {
@@ -1471,16 +1471,16 @@ export default {
     "product": "产品",
     "menu": {
       "edit": "编辑",
-      "review": "审查",
+      "review": "描述",
       "orders": "订单",
-      "inventory": "存货",
+      "inventory": "库存",
       "dashboard": "仪表盘",
       "back_to_products": "产品",
       "drop_shipping": "代发货"
     },
     "dashboard": {
       "info": {
-        "title": "轮廓",
+        "title": "产品概况",
         "title_small": "产品",
         "category": "产品分类",
         "link": "产品链接",
@@ -1488,15 +1488,15 @@ export default {
         "inputs": "输入信息",
         "outputs": "输出信息",
         "user_data_form": "买家信息表",
-        "staff_messages": "员工讯息",
+        "staff_messages": "员工消息",
         "add_note": "添加备注",
         "product_tags": "产品标签",
         "edit_tags": "编辑标签"
       },
       "orders": {
         "title": "订单",
-        "title_small": "未加工",
-        "physical_orders_title": "此产品的购物车",
+        "title_small": "未处理",
+        "physical_orders_title": "包含该产品的购物车",
         "send_30days_title": "过去 30 天内已发货的订单",
         "downloads_30days_title": "过去 30 天内下载的文件数",
         "virtual_orders_title": "该产品的订单等待完成",
@@ -1507,8 +1507,8 @@ export default {
         "title": "存货",
         "title_small": "仓库",
         "total_sell": "总销售额",
-        "total_sell_today": "今日销量",
-        "total_sell_30days": "最近 4 天销售",
+        "total_sell_today": "今日销售额",
+        "total_sell_30days": "最近 30 天销售额",
         "chart": {
           "labels": [
             "存货",
@@ -1516,35 +1516,35 @@ export default {
           ]
         },
         "subscribers_title": "订阅者",
-        "subscribers_title_small": "总认购订单数",
+        "subscribers_title_small": "总订阅订单数",
         "total_sell_timespan": "{start} ~ {end} 之间的总销售额"
       },
       "finance": {
-        "title": "金融的",
-        "title_small": "最近 6 个月的购买报告",
-        "select_mode_title": "显示者",
+        "title": "财务",
+        "title_small": "{start} 到 {end} 期间购买报告",
+        "select_mode_title": "显示方式",
         "modes": {
           "sell": "销售",
           "payment": "支付",
           "discount": "折扣"
         },
-        "currency_select_title": "所选货币的价格",
+        "currency_select_title": "按所选货币显示价格",
         "sell_today": "今日销量",
         "product_price": "产品价格",
         "currency_unit": "货币单位",
         "sell_30days": "30天销售",
-        "sell_daily": "每日销售额",
-        "sell_yesterday": "昨天的销售"
+        "sell_daily": "日销售额",
+        "sell_yesterday": "昨天的销售额"
       },
       "survey": {
-        "title": "产品评级",
+        "title": "产品评分",
         "title_small": "客户满意度报告",
-        "total_participation": "捐款总数",
-        "today_participation": "今日收视率",
-        "last7days_participation": "过去 7 天的贡献",
+        "total_participation": "累计参与次数",
+        "today_participation": "今日评分次数",
+        "last7days_participation": "最近7天参与次数",
         "chart": {
-          "participate": "参与",
-          "participate_title": "投稿数",
+          "participate": "参与度",
+          "participate_title": "参与次数",
           "score": "分数"
         },
         "total_participation_tooltip": "该产品的评分者总数。",
@@ -1552,10 +1552,10 @@ export default {
       },
       "inform": {
         "title": "客户期望",
-        "title_small": "等待折扣或可用性",
-        "message": "当产品开始销售或可用时通知客户",
-        "waiting_for_auction": "等待产品上市",
-        "waiting_for_available": "等待产品上市。",
+        "title_small": "等待折扣或补货",
+        "message": "当产品有折扣或上架时，通知客户。",
+        "waiting_for_auction": "等待产品上架",
+        "waiting_for_available": "等待产品补货。",
         "unit": "人"
       }
     },
@@ -1564,44 +1564,44 @@ export default {
         "inventory_list": "库存清单",
         "add_variant": "添加变体",
         "title": "产品库存/产品变体列表",
-        "sub_title": "如果此产品有多个变体，请在此部分中输入它们。您可以单独定义每个变体的数量、价格和折扣；否则将应用产品的默认值进行定价。",
+        "sub_title": "如果此产品有多个变体，请在此部分输入。您可以单独定义每个变体的数量、价格和折扣；否则将使用产品的默认值进行定价。",
         "add_action": "添加变体",
-        "count_input": "存货",
-        "count_input_action": "设置计数",
+        "count_input": "库存",
+        "count_input_action": "设置库存",
         "management_title": "库存管理和产品变体",
         "add_title": "添加产品变体",
         "edit_title": "编辑产品变体",
         "notifications": {
-          "add_success": "添加了产品变体。",
-          "delete_success": "产品变型已删除。",
-          "save_product_inventory_success": "保存的产品库存。"
+          "add_success": "产品变体已添加。",
+          "delete_success": "产品变体已删除。",
+          "save_product_inventory_success": "产品库存已保存。"
         }
       },
       "variant_item": {
         "price": "价格",
-        "same_as_product": "与主要产品相似",
-        "in_stock": "存货",
+        "same_as_product": "与主产品相同",
+        "in_stock": "库存",
         "delete_dialog": {
           "title": "删除产品变体",
           "message": "是否要删除此变体？"
         }
       },
       "variant_add_edit": {
-        "title": "定义产品变体",
-        "message": "产品编号唯一",
+        "title": "产品变体设置",
+        "message": "唯一的产品变体编码",
         "active_input": "此变体是否有效？",
         "sku": "SKU",
         "sku_tips": "产品仓库代码。",
         "mpn": "MPN",
         "mpn_tips": "制造商在产品包装上插入的产品代码",
         "variant_variable": "变体变量",
-        "pricing": "价钱",
-        "has_pricing_input": "价格与主要产品不同吗？",
-        "inventory": "存货",
-        "inventory_unit": "项目",
+        "pricing": "价格",
+        "has_pricing_input": "该变体的价格是否不同于主产品？",
+        "inventory": "库存",
+        "inventory_unit": "件",
         "delivery_info": "包装和运输",
-        "images": "变体的图像",
-        "images_message": "保存此变体后，您将能够在此处添加图像。"
+        "images": "变体的图片",
+        "images_message": "保存此变体后，您将能够在此处添加图片。"
       }
     },
     "edit_article": {
@@ -1613,28 +1613,28 @@ export default {
   },
   "product_extra_physical": {
     "weight": "包裹重量",
-    "weight_unit": "公斤",
+    "weight_unit": "千克",
     "size": "包装尺寸",
     "dimension": "厘米",
     "width": "宽度",
     "length": "长度",
     "height": "高度",
-    "lead_time_title": "准备时间",
-    "lead_time": "准备时间",
-    "lead_time_dimension": "小时）",
+    "lead_time_title": "备货时间",
+    "lead_time": "备货时间",
+    "lead_time_dimension": "小时",
     "bulk_action": "批量操作",
     "bulk_action_input": "更新所有变体",
-    "bulk_action_msg": "为所有变体设置产品包装和准备时间。",
+    "bulk_action_msg": "为所有变体设置产品包装和备货时间。",
     "weight_subtitle": "在此输入产品的总包装重量。此信息有助于选择正确的运输方式并确保订单不超过运输限制。",
     "size_subtitle": "在此输入产品的完整包装尺寸。此信息用于选择正确的运输方式并确保订单不超过包裹尺寸限制。",
-    "lead_time_subtitle": "交货时间估计准备产品以供装运所需的时间，这有助于估计交货时间。",
-    "bulk_action_subtitle": "您可以将包装信息应用于所有产品变体。"
+    "lead_time_subtitle": "备货时间用于估计产品从下单到准备完毕所需的时间，有助于预估交付时间。",
+    "bulk_action_subtitle": "您可以将包装信息应用到所有产品变体。"
   },
   "product_images_list": {
     "upload_button": "更多产品图片",
-    "upload_an_image": "选择图像。",
+    "upload_an_image": "选择一张图片。",
     "notifications": {
-      "update_sort_success": "图像排序已保存",
+      "update_sort_success": "图片排序已保存",
       "delete_image_title": "删除产品图片",
       "delete_image_success": "图片删除成功"
     }
@@ -1647,8 +1647,8 @@ export default {
   "gift_card_type_edit": {
     "title_input": "标题",
     "color_input": "卡片颜色",
-    "charge_input": "初始费用",
-    "charge_input_hint": "每张卡的初始费用",
+    "charge_input": "初始金额",
+    "charge_input_hint": "每张卡的初始金额",
     "currency_input": "货币",
     "currency_input_message": "仅适用于使用此货币购买",
     "lifetime_input": "卡有效期（月）",
@@ -1656,7 +1656,7 @@ export default {
     "card_image_input": "卡片图片",
     "notifications": {
       "create_success": "已创建卡片",
-      "update_success": "卡已更新"
+      "update_success": "卡片已更新"
     }
   },
   "shop_warehouse_edit": {
@@ -1665,10 +1665,10 @@ export default {
     "name_input": "仓库名称",
     "address": "地址",
     "name_input_message": "输入仓库的昵称。",
-    "person_name": "官员姓名",
+    "person_name": "负责人姓名",
     "phone_number": "联系电话",
     "map_title": "店铺仓库地址",
-    "confirm_action": "仓库审批",
+    "confirm_action": "仓库确认",
     "address_name": "仓库",
     "notifications": {
       "success_save": "更改已成功保存。"
@@ -1677,39 +1677,39 @@ export default {
   "inventory_list": {
     "search_input": "产品搜索...",
     "search_input_title": "在商店产品中搜索",
-    "apply_filter": "应用过滤器",
+    "apply_filter": "应用筛选",
     "inventory": "库存清单",
-    "export": "出口库存",
-    "import": "进口库存",
-    "bulk_price": "批量价格变动",
-    "bulk_discount": "批量折扣更改",
-    "category_filter_msg": "⚡ 它将适用于所有产品和子类别！",
+    "export": "导出库存",
+    "import": "导入库存",
+    "bulk_price": "批量价格修改",
+    "bulk_discount": "批量折扣修改",
+    "category_filter_msg": "⚡ 将应用于所有产品和子类别！",
     "table": {
       "waiting": "正在接收信息...请稍候",
-      "open_state": "积极的",
-      "close_state": "不活跃",
+      "open_state": "已启用的",
+      "close_state": "已停用的",
       "image": "图片",
       "product": "产品名称",
       "code": "产品代码",
       "sku": "SKU",
       "mpn": "MPN",
-      "original": "原来的",
-      "status": "地位",
-      "in_stock": "有存货",
-      "edit": "改变"
+      "original": "原产地",
+      "status": "状态",
+      "in_stock": "有库存",
+      "edit": "编辑"
     },
     "bulk_price_dialog": {
       "title": "批量操作 > 价格",
-      "message": "注意：以下金额将以百分比形式适用于您商店中所有产品的价格。此外，计算出的价格值将根据所选货币智能转换为最接近的整数。输入值时请小心。",
-      "check": "我同意价格变动。",
+      "message": "以下将按百分比应用于您商店中所有产品的价格。同时，计算出的价格将根据所选货币自动四舍五入为接近的整数。请谨慎输入数值。",
+      "check": "我确认价格变动。",
       "add_percent_tab": "添加百分比",
-      "add_constant_tab": "添加常量",
-      "ending_tab": "结束策略"
+      "add_constant_tab": "添加固定数值",
+      "ending_tab": "结束价格策略"
     },
     "bulk_discount_dialog": {
       "title": "批量操作 > 折扣",
-      "message": "注意：以下金额将作为您商店中所有产品折扣的百分比。此外，计算出的折扣值将根据所选货币智能转换为最接近的整数。输入值时请小心。",
-      "check": "我同意折扣更改。"
+      "message": "注意：以下将按百分比应用于您商店中所有产品的折扣。同时，计算出的折扣数值将根据所选货币自动四舍五入为接近的整数。请谨慎输入数值。",
+      "check": "我确认折扣更改。"
     },
     "notifications": {
       "save_success": "库存更改已保存。"
@@ -1723,50 +1723,50 @@ export default {
     "auto_save_input_message": "更改将自动保存。"
   },
   "time_progress_bar": {
-    "title_before_start": "留在起点",
-    "title_between_start_end": "留到最后",
-    "title_after_end": "完成的",
-    "title_no_start_end": "没有时间段！"
+    "title_before_start": "距离开始还有",
+    "title_between_start_end": "距离结束还有",
+    "title_after_end": "已结束",
+    "title_no_start_end": "无时间段！"
   },
   "geo_map": {
-    "views": "意见",
-    "views_unit": "时代",
-    "product_views": "产品视图",
+    "views": "浏览次数",
+    "views_unit": "次",
+    "product_views": "产品浏览量",
     "buys": "购买",
     "buys_unit": "订单",
-    "baskets": "活跃的购物车",
-    "added_items": "添加项目",
-    "removed_items": "删除项目"
+    "baskets": "活跃购物车",
+    "added_items": "添加商品",
+    "removed_items": "移除商品"
   },
   "faq_list": {
     "table": {
-      "nodata": "未找到任何问题。",
+      "nodata": "未找到问题。",
       "more_data_action": "更多问题..",
       "user": "用户",
       "tag": "标签",
       "question": "问题",
-      "officer": "职员",
+      "officer": "客服人员",
       "answer": "回答",
       "created_at": "日期",
-      "priority": "优先事项",
+      "priority": "优先级",
       "edit": "编辑"
     },
     "dialog": {
       "add_new_action": "提交新问题",
       "edit_action": "编辑常见问题",
       "question_input": "问题",
-      "question_input_placeholder": "问你的问题..",
-      "link_input": "关联",
-      "link_input_placeholder": "您可以参考回复链接。",
+      "question_input_placeholder": "请输入你的问题..",
+      "link_input": "链接",
+      "link_input_placeholder": "您可以在回复中引用链接。",
       "answer_input": "回答",
-      "answer_input_placeholder": "输入答案文本..",
+      "answer_input_placeholder": "请输入答案文本..",
       "tag_input": "标签（类别标题）",
       "tag_input_placeholder": "输入一个简短的标题",
       "priority_input": "优先级：（0 到 10）"
     },
     "delete_alert": {
       "title": "删除问题",
-      "message": "要删除此问题吗？",
+      "message": "您确定要删除此问题吗？",
       "action": "删除"
     },
     "notifications": {
@@ -1779,27 +1779,27 @@ export default {
     "table": {
       "nodata": "未找到任何问题。",
       "user": "用户",
-      "message": "邮件正文",
-      "category": "类别",
-      "officer": "职员",
-      "answer": "回答",
+      "message": "消息内容",
+      "category": "分类",
+      "officer": "客服",
+      "answer": "回复",
       "created_at": "日期",
-      "contact": "接触",
+      "contact": "联系方式",
       "edit": "编辑"
     },
     "dialog": {
       "title": "回复消息",
-      "category": "类别",
+      "category": "分类",
       "user_name": "姓名",
       "email": "电子邮件",
       "phone": "联系电话",
-      "message": "留言文字",
-      "status": "响应状态",
-      "status_answered": "已回答",
+      "message": "消息文本",
+      "status": "回复状态",
+      "status_answered": "已回复",
       "status_waiting": "等待回复",
-      "answer_input": "回复文字",
+      "answer_input": "回复内容",
       "mail_input": "发送邮件",
-      "mail_input_message": "如果您启用此功能，您的回复将发送到用户电子邮件。"
+      "mail_input_message": "启用后，您的回复将通过电子邮件发送给用户。"
     },
     "delete_alert": {
       "title": "删除消息",
@@ -1815,42 +1815,42 @@ export default {
     "title": "活动",
     "menu": {
       "setting": "设置",
-      "return": "后退",
+      "return": "返回",
       "dashboard": "仪表盘",
       "links": "链接",
-      "landing": "降落",
+      "landing": "落地页",
       "ads": "广告",
-      "finance": "金融"
+      "finance": "财务"
     },
     "dashboard": {
       "title": "仪表盘",
       "status": "状态概览",
-      "sessions": "会话",
-      "links_overview": "广告系列链接概览",
+      "sessions": "访问次数",
+      "links_overview": "活动链接概览",
       "orders": "订单",
-      "performance": "广告系列效果",
-      "links_funnel": "广告系列链接效果",
-      "no_links": "没有可用的数据！请创建指向您的广告系列的链接。",
-      "social": "社交媒体线索",
-      "conversion_over_time": "随时间的转换",
-      "total_campaign_sell": "按广告系列的总销售额"
+      "performance": "活动表现",
+      "links_funnel": "活动链接表现",
+      "no_links": "暂无可用数据！请先创建活动链接。",
+      "social": "社交媒体引流",
+      "conversion_over_time": "转化趋势",
+      "total_campaign_sell": "活动总销售额"
     },
     "finance": {
       "title": "财务报告",
       "campaign_revenue": "活动收入",
-      "total_revenue": "按广告系列划分的总收入",
+      "total_revenue": "代表每个活动产生的总体收入。",
       "links_revenue": "活动链接收入",
-      "payments_over_time": "随时间推移的销售额",
+      "payments_over_time": "随时间变化的销售额",
       "all_links": "所有链接"
     },
     "landing": {
-      "empty_message": "在广告系列设置中设置着陆页。",
-      "set_landing": "设置登陆页面",
-      "create_landing": "创建新的登陆页面"
+      "empty_message": "您可以为活动设定一个自定义落地页。",
+      "set_landing": "设置落地页",
+      "create_landing": "创建新的落地面"
     },
     "links": {
       "title": "活动链接",
-      "url_input_message": "输入您的目标页面网址"
+      "url_input_message": "请输入您的目标页面网址"
     },
     "setting": {
       "menu": {
@@ -1860,47 +1860,47 @@ export default {
         "Notification": "通知"
       },
       "general_setting": {
-        "title": "常规广告系列设置",
-        "sub_title": "名称、登陆页面和折扣代码",
+        "title": "通用活动设置",
+        "sub_title": "为您的活动添加名称",
         "name_input": "活动名称",
-        "name_input_hint": "为您的广告系列添加名称",
-        "enable_input": "活动是否有效？",
-        "page_input": "登陆页面",
+        "name_input_hint": "为您的活动添加名称",
+        "enable_input": "活动是否启用？",
+        "page_input": "落地页",
         "discount_code_input": "优惠码",
         "limit": "折扣限额",
-        "max_count": "最大计数",
-        "max_count_unit": "项目",
-        "start": "开始",
-        "end": "结尾",
+        "max_count": "最大数量",
+        "max_count_unit": "件",
+        "start": "开始时间",
+        "end": "结束时间",
         "notification_enable_input": "启用通知？",
-        "landing_page": "登陆页面",
+        "landing_page": "落地页",
         "discount_code": "优惠码",
-        "auto": "默认广告系列",
-        "auto_message": "在您的商店中激活的默认广告系列"
+        "auto": "默认活动",
+        "auto_message": "此活动已设为店铺的默认活动。"
       },
       "time_setting": {
         "title": "时间段",
-        "sub_title": "开始日期和时间/结束日期和时间",
-        "start_input": "开始",
+        "sub_title": "您可以为活动设置开始和结束的日期和时间。",
+        "start_input": "开始时间",
         "start_input_placeholder": "选择活动开始时间",
-        "end_input": "结尾",
+        "end_input": "结束时间",
         "end_input_placeholder": "选择活动结束时间"
       },
       "banner_setting": {
         "title": "店铺横幅",
-        "sub_title": "显示在商店页面顶部",
-        "message_input": "留言文字",
-        "message_input_placeholder": "特别节...",
-        "message_input_hint": "商店的横幅消息文本顶部",
+        "sub_title": "此消息将作为横幅在商店页面顶部显眼显示。",
+        "message_input": "消息文本",
+        "message_input_placeholder": "特别节日...",
+        "message_input_hint": "横幅顶部的消息文本",
         "bg_image_input": "背景图片网址",
-        "bg_image_input_hint": "完整的背景图片 URL",
+        "bg_image_input_hint": "完整的背景图片网址",
         "repeat_pattern": "重复模式",
-        "simple": "简单的",
-        "dark_input": "黑暗主题？",
+        "simple": "简单",
+        "dark_input": "暗色主题？",
         "icon_input": "图标",
-        "icon_input_hint": "材料设计图标名称或字体：fa:fas fa-star",
-        "anim_input": "动画地址",
-        "anim_input_message": "Lottie 动画文件 URL",
+        "icon_input_hint": "输入 Material Design 图标名称，或 FontAwesome 格式（如 fa:fas fa-star）。",
+        "anim_input": "动画文件地址",
+        "anim_input_message": "Lottie 动画文件网址",
         "preview": "预览",
         "preview_update_action": "更新预览",
         "bg_color": "背景颜色",
@@ -1908,68 +1908,68 @@ export default {
       },
       "notifications": {
         "title": "通知",
-        "sub_title": "创建通知并将其链接到您的广告系列。",
-        "update_success": "您的广告系列已更新。",
-        "action_button": "操作按钮",
+        "sub_title": "创建一个通知并将其与您的活动关联。",
+        "update_success": "您的活动已更新。",
+        "action_button": "动作按钮",
         "background_color": "背景颜色",
         "text_color": "文字颜色",
-        "action_color": "动作颜色",
-        "action_text_color": "动作文本颜色",
+        "action_color": "按钮颜色",
+        "action_text_color": "按钮文本颜色",
         "notification_image": "通知图片",
         "notification_bg": "通知背景",
         "show_preview": "显示预览",
-        "persistence": "持久性",
-        "persistence_message": "您想在每次用户访问网站时显示",
-        "radius": "半径",
+        "persistence": "显示频率",
+        "persistence_message": "是否在用户每次访问网站时显示该通知",
+        "radius": "圆角半径",
         "show_delay": "显示延迟"
       }
     }
   },
   "add_category": {
-    "title_edit": "编辑类别",
-    "title_update": "添加新类别",
+    "title_edit": "编辑分类",
+    "title_update": "添加新分类",
     "menu": {
-      "delete": "删除类别",
-      "filter": "过滤器",
+      "delete": "删除分类",
+      "filter": "筛选器",
       "settings": "设置",
-      "back": "后退"
+      "back": "返回"
     },
-    "title_input": "类别标题 *",
-    "title_input_error": "选择类别标题",
-    "name_input": "类别名称（英文） *",
-    "name_input_error": "为类别选择一个唯一的名称",
-    "description_input": "类别说明",
-    "description_input_message": "输入类别的简要说明..",
-    "parent_input": "父类",
-    "parent_input_message": "此类别出现在商店主页上。",
-    "image_input": "类别图片",
-    "image_input_placeholder": "选择类别的图像",
-    "edit_action": "编辑类别",
-    "add_action": "添加类别",
-    "back_action": "后退",
+    "title_input": "分类标题 *",
+    "title_input_error": "请输入一个类别标题。",
+    "name_input": "分类名称（英文） *",
+    "name_input_error": "请选择一个唯一的分类名称",
+    "description_input": "分类说明",
+    "description_input_message": "输入分类的简要说明..",
+    "parent_input": "上级分类",
+    "parent_input_message": "此分类显示在店铺首页。",
+    "image_input": "分类图片",
+    "image_input_placeholder": "为分类选择一张图片",
+    "edit_action": "编辑分类",
+    "add_action": "添加分类",
+    "back_action": "返回",
     "no_category": "没有分类",
-    "star": "星星",
+    "star": "星标",
     "filter": {
-      "title": "类别过滤器",
-      "sub_title": "管理适用于该类别产品的过滤器和类别。",
-      "message": "在下面的框中输入并保存该类别的通用技术特征标题。保存列表后，过滤器类别将与每个类别的内容一起显示。颜色、重量、尺寸、品牌等会自动从产品变型中提取。"
+      "title": "分类筛选器",
+      "sub_title": "修改该分类的商品筛选条件。",
+      "message": "在下方输入并保存该分类的常用技术特征标题。保存列表后，筛选条件将与每个类别的内容一起显示。颜色、重量、尺寸、品牌等信息将自动从商品变体中提取。"
     },
     "delete_alert": {
-      "title": "删除类别",
-      "message": "您要删除 {title} 类别吗？",
+      "title": "移除分类",
+      "message": "您要移除 {title} 类别吗？",
       "action": "删除"
     },
     "notifications": {
-      "add_success": "添加了新类别。",
-      "edit_success": "类别已编辑。",
+      "add_success": "新分类已添加。",
+      "edit_success": "分类已编辑。",
       "delete_success": "已删除 {title}。"
     },
     "edit_filter": {
       "spec_input": "技术规格表",
-      "spec_input_message": "您希望在过滤器部分中显示的功能列表",
+      "spec_input_message": "您希望在筛选器中显示的功能列表",
       "price": "价格",
-      "min": "敏",
-      "max": "最大限度",
+      "min": "最低",
+      "max": "最高",
       "suggested_list": {
         "brand": "品牌",
         "colors": "颜色",
@@ -1980,132 +1980,132 @@ export default {
         "types": "类型"
       },
       "notifications": {
-        "edit_success": "类别已编辑。"
+        "edit_success": "分类已编辑。"
       },
-      "manually_update_filters_tips": "<b>重要提示！</b>产品更改时，过滤器会自动更新。但是，在对类别中的产品进行更改后，请返回此处并单击保存/重新生成按钮以刷新过滤器。",
+      "manually_update_filters_tips": "<b>重要提示！</b> 当产品发生变化时，筛选器会自动更新。但在对某分类的产品进行更改后，请返回此处并点击保存/重新生成按钮以刷新筛选器。",
       "inputs": {
         "spec": {
-          "message": "您希望在过滤器部分中显示的功能列表",
-          "placeholder": "选择要在过滤器中显示的规格..."
+          "message": "您希望在筛选部分显示的特征列表",
+          "placeholder": "选择要在筛选中显示的规格..."
         }
       }
     },
     "config": {
-      "subtitle": "类别有助于简化产品管理，使您的客户更容易在您的商店中找到产品。"
+      "subtitle": "分类有助于简化产品管理，让您的客户更容易在店铺中找到产品。"
     },
     "parent": {
-      "subtitle": "此类别将显示在其父类别下。如果产品没有父类别，它将显示在主类别中。"
+      "subtitle": "该分类将显示在其父分类下。如果产品没有父分类，则会显示在主分类中。"
     },
     "template": {
       "title": "模板",
-      "edit_page": "編輯頁面",
+      "edit_page": "编辑页面",
       "Pages_list": "页面列表",
-      "subtitle": "您可以通过覆盖自定义页面来增强类别页面的显示效果。最好的方法是创建具有透明背景的页面，并为每个类别设计 1 到 2 个特定部分。然后，您可以将一个页面链接到多个类别，使用动态内容单独定制每个类别。"
+      "subtitle": "您可以通过叠加自定义页面来增强分类页面的展示效果。最佳做法是创建透明背景的页面，并设计针对每个分类的1至2个专属版块。然后，您可以将一个页面链接到多个分类，使用动态内容为每个分类单独定制。"
     },
     "critical_zone": {
       "title": "临界区",
-      "subtitle": "如果删除类别，其子类别和产品将被移动到父目录<b>📁 {parent}</b> 。要管理不在产品列表中的类别，请转到商店 > 类别选项卡。",
+      "subtitle": "如果您删除一个分类，其子分类和产品将被移至父目录<b>📁 {parent}</b>。要管理未出现在产品列表中的分类，请前往店铺 > 分类 标签。",
       "accept_delete": {
-        "true_description": "我想删除这个类别。",
-        "true_title": "确认删除类别"
+        "true_description": "我想删除此分类。",
+        "true_title": "确认删除分类"
       }
     }
   },
   "apps_list": {
-    "nodata": "您的商店中没有安装应用程序",
-    "inactive": "不活跃",
+    "nodata": "您的店铺中没有安装任何应用",
+    "inactive": "未激活",
     "my_apps": "我的应用",
     "app_store": "添加新应用"
   },
   "add_shop": {
     "menu": {
-      "shop_title": "店铺名称",
+      "shop_title": "店铺标题",
       "shop_name": "店铺名称",
       "description": "描述",
       "contact": "联系信息",
       "image": "图片"
     },
     "title_input": "标题",
-    "title_input_tips": "输入您的商店、品牌或公司的名称。",
-    "active_message": "设置为每个人都可以访问您的网站。",
-    "language_input_message": "选择您的商店语言。",
-    "name_input": "姓名",
-    "name_input_message": "输入商店的名称。",
+    "title_input_tips": "输入您的店铺、品牌或公司的名称。",
+    "active_message": "设置为激活后，所有人都可以访问您的网站。",
+    "language_input_message": "选择您的店铺语言。",
+    "name_input": "名称",
+    "name_input_message": "输入店铺的名称。",
     "name_input_tips": "请勿使用非英文字符、空格或字母，如果使用，可能无法正常显示店铺名称。",
-    "description_input": "店铺介绍",
+    "description_input": "店铺描述",
     "description_input_message": "写一个关于您的业务的简短描述。",
     "address_input": "店铺地址",
-    "address_input_message": "输入确切的商店位置地址",
+    "address_input_message": "请输入准确的店铺地址。",
     "phone_input": "电话号码",
     "phone_input_message": "客户联系电话",
-    "phone_input_tips": "输入带有国家代码的联系电话。此编号还用于在 Google 搜索中显示信息。",
+    "phone_input_tips": "请输入带国家代码的联系电话。此号码也会显示在谷歌搜索信息中。",
     "email_input": "电子邮件",
-    "email_input_message": "客户的电子邮件地址",
-    "locality_input": "地点",
-    "locality_input_message": "商店地址",
+    "email_input_message": "客服电子邮件",
+    "locality_input": "位置",
+    "locality_input_message": "店铺位置",
     "region_input": "州或省",
     "region_input_message": "您经营所在的州或省",
     "country_input": "国家",
-    "country_input_message": "经营国家",
+    "country_input_message": "经营所在国家",
     "postal_code_input": "邮政编码",
     "postal_code_input_message": "商店邮政编码",
-    "image_input": "店铺形象",
+    "image_input": "店铺图片",
     "map": {
       "title": "店铺地址",
       "confirm": "地址登记",
       "address": "地址",
       "receptor": "店铺"
     },
-    "create_shop_action": "创建商店",
+    "create_shop_action": "创建店铺",
     "update_shop_action": "更新",
     "notifications": {
-      "copy_success": "店铺地址复印件。",
+      "copy_success": "店铺地址已复制。",
       "name_available": "此名称 ({name}) 可用。",
-      "add_success": "商店 {title} 已创建。",
-      "edit_success": "商店编辑。"
+      "add_success": "店铺 {title} 已创建。",
+      "edit_success": "商店已编辑。"
     },
-    "description_input_tips": "此描述将出现在您商店的页脚中，并将用作您商店页面的默认元标记描述。"
+    "description_input_tips": "此描述将显示在您的商店页脚，并作为商店页面的默认元描述标签<meta tag>。"
   },
   "virtual_items_list": {
-    "add_virtual_item": "添加虚拟物品",
-    "add_virtual_item_desc": "要销售虚拟产品，您必须在此部分中添加它们。虚拟物品的数量等于本节中的免费物品数量。一旦客户购买了虚拟物品，链接就会发送给他们。",
-    "filter_action": "应用过滤器",
+    "add_virtual_item": "添加虚拟商品",
+    "add_virtual_item_desc": "要销售虚拟产品，您可以在此部分添加。虚拟商品的数量由本部分免费商品数量决定。客户购买虚拟商品后，将收到相应的链接。",
+    "filter_action": "应用筛选器",
     "not_processed": "未处理的订单",
-    "title": "物品清单",
+    "title": "商品列表",
     "vew_order": "查看订单",
     "table": {
-      "nodata": "没有项目",
-      "product": "产品",
+      "nodata": "暂无商品",
+      "product": "商品",
       "data": "数据",
-      "status": "地位",
+      "status": "状态",
       "user_message": "用户留言",
       "updated_at": "最后更新",
-      "order": "命令",
+      "order": "订单",
       "delete": "删除"
     },
     "notifications": {
-      "delete_success": "项目已成功删除。"
+      "delete_success": "商品已成功删除。"
     }
   },
   "add_virtual_item": {
-    "title_edit": "编辑值",
-    "title_add": "将项目添加到产品",
+    "title_edit": "编辑数值",
+    "title_add": "添加虚拟内容到商品",
     "sub_title": "创建和编辑虚拟产品",
-    "message": "店长可以在付款后向买家展示价值。这些值必须在下面的表格中输入。此表单的结构在 Edit Item> Edit Output Information 部分中设置。",
+    "message": "付款完成后，我们会将虚拟商品发送给买家。您可以在“商品 > 编辑 > 输出”标签页中设置此表单的结构。",
     "edit_outputs": "编辑输出表格",
     "notifications": {
-      "edit_success": "项目已编辑。",
-      "add_success": "项目已添加到列表中。"
+      "edit_success": "产品已编辑。",
+      "add_success": "产品已添加到列表中。"
     }
   },
   "virtual_process_center": {
-    "title": "加工中心",
+    "title": "处理中心",
     "sub_title": "订单处理",
     "virtual_product": "虚拟产品",
     "menu": {
       "report": "报告",
       "timeline": "时间线",
-      "order": "命令"
+      "order": "订单"
     },
     "list_widget": {
       "title": "订购规格",
@@ -2115,46 +2115,46 @@ export default {
       "title": "输入表格",
       "table": {
         "title": "标题",
-        "value": "价值"
+        "value": "数值"
       },
       "change_inputs_action": "编辑输入表单"
     },
     "outputs_widget": {
-      "title": "输出形式",
+      "title": "输出表格",
       "table": {
         "title": "标题",
-        "value": "价值"
+        "value": "数值"
       },
       "tips": [
-        "完成客户请求后，点击订单确认键通知买家订单。",
-        "一旦订单被批准，买家将无法编辑输入信息。"
+        "完成客户请求后，点击订单确认键通知买家订单状态。",
+        "订单一旦确认，买家将无法修改输入信息。"
       ],
       "alerts": {
         "order_completed_by_admin": "订单已完成。",
         "order_completed_by_buyer": "买家已完成订单。",
-        "waiting_for_buyer": "等待买家批准.."
+        "waiting_for_buyer": "等待买家确认中……"
       }
     }
   },
   "file_process_center": {
-    "title": "加工中心",
+    "title": "处理中心",
     "sub_title": "订单处理",
     "menu": {
       "report": "报告",
       "timeline": "时间线",
-      "order": "命令"
+      "order": "订单"
     }
   },
   "process_order_page_dashboard": {
     "title": "订单处理",
     "cancel_order_action": "取消订单",
-    "open_basket_cation": "此购物车已打开，这意味着客户正在购物且尚未支付订单。",
+    "open_basket_cation": "此购物车处于打开状态，表示客户正在购物且尚未付款。",
     "reject_dialog": {
       "title": "拒绝订单的原因",
-      "message": "从下面的列表中选择拒绝此订单的原因。请务必通知客户取消和退款流程。退款必须在 12 小时内完成。",
-      "confirm_action": "取消订单",
+      "message": "请从下面的列表中选择拒绝此订单的原因。务必告知客户取消及退款流程，退款必须在12小时内完成。",
+      "confirm_action": "立即取消订单",
       "dismiss_reject_action": "取消订单",
-      "confirm_now_action": "立即取消订单",
+      "confirm_now_action": "即时取消订单",
       "confirm_in48h_action": "48 小时内取消订单",
       "options": {
         "title": "选项",
@@ -2164,227 +2164,227 @@ export default {
     "notifications": {
       "update_status_success": "订单状态已更新。",
       "reject_update_success": "订单取消状态已更新。",
-      "dismiss_reject_success": "订单恢复正常流程。",
-      "set_tracking_success": "订单跟踪 ID 已成功保存。"
+      "dismiss_reject_success": "订单已恢复到正常流程。",
+      "set_tracking_success": "订单追踪号已成功保存。"
     }
   },
   "process_center": {
-    "title": "加工中心",
+    "title": "处理中心",
     "physical_product": "实物产品",
     "menu": {
       "label": "包装标签",
       "receipt": "发票",
-      "back": "后退",
-      "return": "返回",
+      "back": "返回",
+      "return": "退货",
       "report": "报告",
       "timeline": "时间线",
       "inputs": "输入",
-      "order": "命令"
+      "order": "订单"
     },
     "payment_widget": {
-      "title": "支付",
+      "title": "付款",
       "checklist": [
         "检查订单金额和客户付款。",
-        "检查帐单地址。",
-        "确保输入的信息正确无误，尤其是在货到付款的情况下。"
+        "检查账单地址。",
+        "确保输入的信息正确，尤其是当付款方式为货到付款（COD）时。"
       ],
       "action_cod_pay": "客户确认付款",
       "action_dir_pay": "确认上传的付款收据",
       "payment_receipt_not_uploaded_error": "付款收据尚未上传！",
       "waiting_for_pay": "待付款",
-      "processing_payment": "处理付款",
+      "processing_payment": "付款处理中",
       "processing_cancel": "付款已取消",
-      "paid": "有薪酬的",
+      "paid": "已付款",
       "cod_pay_info": "当您收到客户的订单后，您可以确认付款并完成订单。",
-      "dir_pay_info": "付款收据将出现在上方。在您确认付款之前，请与您的银行核实存款金额和收据信息。",
+      "dir_pay_info": "付款凭证将显示在上方。请在确认付款之前，核实存款金额和银行凭证信息。",
       "created_date": "创建日期",
       "pay_date": "付款日期",
       "payment_gateway": "支付网关",
-      "payment_method": "付款方法",
-      "risk": "风险价值",
-      "billing_details": "结算明细",
+      "payment_method": "支付方式",
+      "risk": "风险值",
+      "billing_details": "账单明细",
       "add_transaction": "添加新账单",
-      "add_transactions_message": "您必须为此订单创建至少一个交易。在某些情况下，需要分几个步骤付款。用户必须支付哪些交易将由您在工作期间确定。",
+      "add_transactions_message": "您需要为此订单至少开具一张账单。 有时可能需要分步付款。 随着工作的进展，您需确定客户需要支付哪些账单。",
       "add_bill_dialog": {
         "title": "添加发票",
-        "message": "您可以为此订单添加一张或多张新发票。客户将看到这些发票，并根据工作进度支付每一张。",
+        "message": "您可以为此订单添加一张或多张发票。客户可以看到这些发票，并根据工作进度支付每一张发票。",
         "amount_input": "发票金额",
         "action": "添加账单"
       },
       "edit_bill_dialog": {
         "title": "编辑发票",
-        "message": "您可以编辑待处理的发票。",
+        "message": "您可以编辑待付款的发票。",
         "action": "编辑发票"
       },
       "bill_cash_payment_dialog": {
         "title": "登记现金支付",
-        "message": "如果买方以现金或在线支付以外的方式支付了此发票的金额，请在本节中选择一个选项，注册并确认他的付款。在此部分中，您只能看到您商店的现金支付网关，如果您没有看到这样的选项，您必须在您的商店中以所选货币激活现金支付网关。",
-        "action": "确认账单支付"
+        "message": "如果买家已以现金或非线上支付方式支付了此账单的金额，您可以在此处选择一个选项，登记并确认其付款记录。在此部分中，您只能看到您商店已启用的现金支付网关。如果未显示该选项，您可以在商店设置中启用所选货币的现金支付网关。",
+        "action": "确认账单付款"
       },
       "table": {
         "title": "标题",
-        "amount": "数量",
+        "amount": "金额",
         "description": "描述",
         "info": "信息"
       },
       "user_payment": "客户付款",
       "cod": "货到付款",
       "gateway_wage": "费用",
-      "gift_card": "礼物卡",
+      "gift_card": "礼品卡",
       "discount_code": {
         "title": "优惠码",
         "code": "代码",
-        "percent": "百分",
+        "percent": "折扣百分比",
         "limit": "限制"
       },
       "club": {
-        "title": "顾客俱乐部",
-        "percent": "百分",
+        "title": "会员俱乐部",
+        "percent": "折扣百分比",
         "limit": "限制"
       },
       "coupon": {
         "title": "优惠券",
-        "percent": "百分",
+        "percent": "折扣百分比",
         "limit": "限制",
-        "charge": "收费"
+        "charge": "抵扣金额"
       },
       "delivery": {
-        "title": "运输费",
-        "not_paid": "没有支付"
+        "title": "运费",
+        "not_paid": "未支付"
       },
       "samin": {
         "title": "服务费",
-        "description": "该金额已从您的 Selldone 钱包账户中扣除。",
-        "tooltip": "按付款方式计算",
-        "percent": "百分"
+        "description": "此金额已从您的 Selldone 钱包账户中扣除。",
+        "tooltip": "计算总服务费用",
+        "percent": "百分比"
       },
       "affiliate": {
-        "title": "加盟佣金",
-        "affiliate_message": "您应该将此佣金支付给您的会员。此过程由您自己完成。"
+        "title": "推广佣金",
+        "affiliate_message": "您需要向您的推广伙伴支付此佣金。该过程由您自行完成。"
       },
-      "total_price": "总项目价格",
+      "total_price": "商品总价",
       "total_items_discount": "商品折扣",
-      "total_price_after_offers": "申请报价后总计",
+      "total_price_after_offers": "优惠后的总价",
       "user_payment_amount": "买家付款金额",
-      "samin_wage": "销售费用",
+      "samin_wage": "Selldone平台费",
       "pay_cod_dialog": {
-        "title": "您收到订单款了吗？",
-        "message": "在确保客户全额付款后，在货到付款方式中确认此选项。",
+        "title": "是否已收到货到付款的款项？",
+        "message": "在确认客户已全额支付后，点击此选项以确认。",
         "confirm_action": "确认客户付款"
       },
       "pay_dir_dialog": {
-        "title": "您收到订单款了吗？",
-        "message": "在您的银行批准上传的付款收据后确认此选项。请务必与您的银行核对付款。",
+        "title": "是否已收到订单款项？",
+        "message": "在与您的银行核实客户上传的付款凭证后，点击此选项确认付款。请确保与银行核实到账情况。",
         "confirm_action": "确认客户付款"
       },
       "notifications": {
         "pay_confirm_message": "付款已确认。<br>端口：{gateway_name}<br>日期：{payment_at}",
-        "pay_fail_title": "没有支付",
-        "pay_fail_message": "无法批准付款！"
+        "pay_fail_title": "未付款",
+        "pay_fail_message": "无法确认付款！"
       },
-      "total_order_price_before_tax": "税前总价",
-      "require_capture": "需要捕获"
+      "total_order_price_before_tax": "税前订单总价",
+      "require_capture": "需要执行扣款操作"
     },
     "basket_list": {
       "checklist": [
         "检查库存。",
-        "如果该项目不可用，则必须将该项目支付的金额退还给客户。"
+        "如果商品缺货，必须将已支付的款项退还给客户。"
       ],
-      "message": "如果任何商品不可用或无法出售，请取消选中它旁边的框，然后单击“<b>确认订单”</b>按钮。",
+      "message": "如果某些商品缺货或无法出售，请取消勾选相应商品，然后点击 <b> 确认订单 </b> 按钮。",
       "action": "订单确认",
-      "list_of_items": "购物车清单",
+      "list_of_items": "购物车列表",
       "apply_change_action": "应用更改",
-      "cant_apply_change": "无法进行更改",
-      "lottery_prize_inform": "您的客户赢得该产品的 1 倍。使用此订单发送礼物。",
+      "cant_apply_change": "无法更改",
+      "lottery_prize_inform": "您的客户赢得了一件该产品的。随此订单发送这件礼品。",
       "need_to_refund": {
-        "title": "要求向客户退款",
-        "message": "我们手动计算您需要退款的总金额。它根据不可用的商品和已退款的总金额计算。",
-        "calculated_approximately": "此金额为大概数额，具体金额请自行计算。"
+        "title": "需要退款给客户",
+        "message": "我们会根据缺货商品和已退款金额，手动计算需要退款给客户的总金额。",
+        "calculated_approximately": "该金额为预估金额。请自行核算确切金额。"
       },
       "need_payback": {
-        "title": "要求客户退款",
-        "message": "我们注意到，退还给客户的总金额高于根据购物车中的商品计算的应付金额。您可能需要向客户收取费用以收回超出的金额。"
+        "title": "客户需补付款",
+        "message": "我们注意到退款总额高于客户实际应付款项，您可能需要向客户收回多退的部分。"
       },
       "need_no_refund": {
         "title": "无需退款"
       },
       "total_refund": {
-        "title": "退款总额",
-        "message": "这是您的支付网关自动退款的总金额。只有部分支付服务支持此功能，因此您需要手动退款。"
+        "title": "已退款总额",
+        "message": "这是支付网关已自动退款的总额。只有部分支付服务支持该功能，您仍需手动完成退款。"
       }
     },
     "preparing": {
-      "title": "准备",
-      "packing_weight": "包装重量",
-      "delivery_type": "邮寄方式",
+      "title": "备货中",
+      "packing_weight": "包裹重量",
+      "delivery_type": "运输方式",
       "packing_size": "包装尺寸",
-      "distance_warning": "超出允许的距离限制。",
-      "weight_warning": "超过允许的重量。",
-      "volume_warning": "超过允许的包装尺寸。",
-      "message": "如果订单已准备好发货，请单击以下<b>订单就绪</b>按钮。",
+      "distance_warning": "超出允许的配送距离限制。",
+      "weight_warning": "超过允许的重量限制。",
+      "volume_warning": "超过允许的包装尺寸限制。",
+      "message": "如果订单已准备好发货，请单击以下<b>订单已准备发货</b>按钮。",
       "action": "订单准备发货",
       "checklist": [
-        "遵循包装中的标准规则。",
-        "打印物品清单并将其放入包装内。",
-        "打印并在盒子上贴上标签。"
+        "按照包装标准进行包装。",
+        "打印商品清单并放入包裹内。",
+        "打印并粘贴物流标签在包裹上。"
       ],
       "items_weight_calculation": "所有商品的总重量为 {weight} {unit}",
-      "not_available_message": "当您禁用询问送货地址并且用户在购买后没有填写地址时，该功能不可用！"
+      "not_available_message": "在禁用了收货地址或客户在下单后未填写地址的情况下，无法使用！"
     },
     "basket_items": "订购商品列表",
     "delivered_dialog": {
-      "title": "客户收到此订单了吗？",
-      "message": "当您知道客户收到订单时确认此选项",
-      "confirm_action": "我确认客户收到包裹"
+      "title": "客户是否已收到订单？",
+      "message": "请确认客户是否已经收到订单。",
+      "confirm_action": "确认已收货"
     },
     "return_delivery_dialog": {
-      "title": "订单在送货过程中是否有任何问题或被退回？",
-      "message": "如果订单因某种原因在发送后被退回并且需要重新发送货件，请确认退货选项。",
-      "confirm_action": "确认退货"
+      "title": "配送或退货是否有问题？",
+      "message": "请确认订单是否因配送问题而退回或需要重新发货。",
+      "confirm_action": "确认订单退货"
     },
     "notifications": {
       "update_status_success": "订单状态已更新。",
       "reject_update_success": "订单取消状态已更新。",
-      "dismiss_reject_success": "订单被取消。",
-      "pay_cod_success": "货到付款确认。",
-      "pay_dir_success": "通过卡对卡付款或汇款确认付款。",
-      "set_tracking_success": "订单跟踪 ID 已成功保存。",
+      "dismiss_reject_success": "订单已取消。",
+      "pay_cod_success": "货到付款已确认收到款项。",
+      "pay_dir_success": "通过转账或汇款的付款已确认。",
+      "set_tracking_success": "订单追踪号已成功保存。",
       "new_bill_success": "新账单添加成功。",
       "edit_bill_success": "账单更新成功。",
       "update_bill_status_success": "账单状态更新成功。",
-      "set_payment_in_cash_success": "账单支付手动确认。"
+      "set_payment_in_cash_success": "账单支付已经手动确认。"
     },
     "delete_bill_dialog": {
       "title": "删除账单",
-      "message": "您确定要删除此帐单吗？",
+      "message": "您确定要删除此账单吗？",
       "action": "是的，立即删除"
     }
   },
   "shop_gateway": {
-    "title": "网关",
+    "title": "支付网关",
     "menu": {
       "dashboard": "仪表盘",
       "edit": "编辑",
       "transactions": "交易",
-      "back": "网关"
+      "back": "支付网关"
     },
     "dashboard": {
-      "title": "网关管理",
+      "title": "支付网关管理",
       "gateway_data_widget": {
-        "title": "付款报告",
+        "title": "支付报告",
         "title_small": "网关",
         "chart": {
-          "times": "数数",
-          "buys": "购买数量",
-          "pays": "支付成功",
-          "amount_pay": "有薪酬的",
+          "times": "次数",
+          "buys": "购买次数",
+          "pays": "支付成功数",
+          "amount_pay": "支付金额",
           "amount_wage": "费用"
         }
       },
       "gateway_info_widget": {
         "title": "信息",
         "title_small": "网关",
-        "status": "地位",
+        "status": "状态",
         "cod_transportation": "运输方式thst支持COD",
         "cod_transportations_error": "为至少一种运输方式启用货到付款！",
         "payment_type": "付款方式",
@@ -2414,40 +2414,40 @@ export default {
     "transactions": {
       "title": "交易",
       "table": {
-        "amount": "数量",
+        "amount": "金额",
         "currency": "货币",
         "livemode": "类型",
-        "status": "地位",
-        "target_id": "命令",
+        "status": "状态",
+        "target_id": "订单",
         "risk": "风险",
         "card": "卡片",
-        "issued_at": "发行日期",
-        "payment_at": "付款日期"
+        "issued_at": "发起日期",
+        "payment_at": "支付日期"
       },
-      "live_mode": "居住",
-      "test_mode": "沙盒"
+      "live_mode": "正式环境",
+      "test_mode": "测试环境"
     }
   },
   "edit_gateway": {
     "public_keys": "公钥",
-    "private_keys": "私钥（机密）",
+    "private_keys": "私钥（保密）",
     "link": "网站",
-    "state_title": "有效/无效的付款方式",
-    "gateway_status": "地位",
+    "state_title": "支付服务状态",
+    "gateway_status": "状态",
     "wallet": "区块链钱包",
     "developer_title": "开发者模式",
-    "developer_message": "如果网关支持调试模式，您可以处理虚假事务。",
+    "developer_message": "如果网关支持调试模式，您可以处理模拟交易。",
     "notifications": {
       "edit_success": "网关 {gateway_name} 已编辑。",
-      "success_delete": "付款方式已删除！"
+      "success_delete": "支付方式已删除！"
     },
     "developer_setting": "开发和测试",
     "live_mode_message": "所有交易都将处于实时模式。",
     "status_title": "支付服务状态",
-    "status_message": "将付款方式配置为有效或无效。只有设置为有效的付款方式才会显示给客户。",
+    "status_message": "将支付方式设置为启用或禁用。只有设置为启用的支付方式才会显示给客户。",
     "status_true_description": "您的客户可以使用此付款方式付款。",
     "manual_title": "手动/自动捕获付款",
-    "manual_message": "创建付款时，您可以暂停符合条件的付款方式，以保留稍后可提取的资金。例如，酒店通常会在客人入住前授权全额付款，然后在客人退房时提取这笔款项。",
+    "manual_message": "创建付款时，您可以对符合条件的付款方式预授权资金，保留金额以便稍后进行扣款。例如，酒店通常会在客人入住前预授权全额付款，客人退房时再实际扣款。",
     "debug": {
       "title": "开发和测试",
       "subtitle": "您可以启用调试模式来测试支付网关。"
@@ -2458,22 +2458,22 @@ export default {
     },
     "limit_input": {
       "title": "最低订单金额",
-      "msg": "零意味着没有限制。"
+      "msg": "0表示没有限制。"
     },
     "currency_input": {
       "message": "此支付网关支持的货币。"
     },
     "gateway_code": "网关代码",
-    "hold_only_for": "暂缓付款仅适用于",
+    "hold_only_for": "仅支持以下方式的预授权付款",
     "manual_input": {
-      "false_description": "付款提供商系统中的付款状态将自动从待处理更改为已确认。",
-      "false_title": "自动付款确认",
-      "true_title": "暂停付款并手动确认",
-      "true_description": "暂停付款，因此您需要验证订单的付款，以便在付款提供商系统中将其状态从待定更改为已确认。"
+      "false_description": "支付状态将在支付提供商系统中自动从待处理变为已确认。",
+      "false_title": "自动确认付款",
+      "true_title": "预授权付款及手动确认",
+      "true_description": "对付款进行预授权，您需要验证订单付款后，才能将支付状态从待处理变为已确认。"
     },
     "delete_verify_input": {
-      "true_title": "我想删除这种付款方式。",
-      "true_description": "此付款方式将从商店中删除，并且不再可供客户使用。"
+      "true_title": "我想删除这种支付方式。",
+      "true_description": "此支付方式将从商店中移除，客户将无法使用。"
     },
     "delete_alert": {
       "title": "删除付款方式",
@@ -2486,7 +2486,7 @@ export default {
     "menu": {
       "edit": "编辑",
       "new_card": "创建卡片",
-      "list": "牌",
+      "list": "卡片列表",
       "orders": "订单",
       "dashboard": "仪表盘",
       "back": "礼品卡"
@@ -2494,31 +2494,31 @@ export default {
     "dashboard": {
       "title": "礼品卡管理仪表板",
       "amount_widget": {
-        "title": "信用卡支付",
+        "title": "卡片卡支付",
         "title_small": "30天",
         "chart_amount_pay": {
-          "y": "和",
+          "y": "总额",
           "label": "支付"
         },
         "chart_buys": {
-          "y": "购买",
+          "y": "购买次数",
           "label": "购买"
         },
-        "total_buy": "采购总额",
+        "total_buy": "总购买金额",
         "total_pay_30days": "30天总付款",
         "total_pay_today": "今天的付款"
       },
       "count_widget": {
-        "title": "发卡张数",
+        "title": "发行卡片数量",
         "title_small": "30天",
         "total_cards": "卡片总数",
         "used_cards_30days": "30天使用",
-        "used_today": "今天的用法",
+        "used_today": "今日使用",
         "chart": {
           "new_cards": "新卡",
-          "used_cards": "用过的卡",
+          "used_cards": "已使用卡",
           "new_card_name": "新卡",
-          "used_card_name": "用过的"
+          "used_card_name": "已使用"
         }
       },
       "export": {
@@ -2528,26 +2528,26 @@ export default {
       }
     },
     "cards": {
-      "title": "发行卡清单",
+      "title": "已发行卡片概览",
       "loading_message": "正在获取信息...请稍候",
       "issue_to_user": "发给用户",
       "table": {
         "card_number": "卡号",
-        "balance": "平衡",
-        "paid": "有薪酬的",
+        "balance": "余额",
+        "paid": "已付金额",
         "edit": "编辑",
         "delete": "删除",
         "expire": "过期",
         "user": "用户"
       },
       "delete_alert": {
-        "title": "移除卡",
-        "message": "确定要删除此卡吗？",
+        "title": "移除卡片",
+        "message": "确定要删除此卡片吗？",
         "action": "删除"
       },
       "notifications": {
         "delete_success": "礼品卡已删除。",
-        "edit_success": "已进行更改。",
+        "edit_success": "更改已保存。",
         "issue_success": "已成功向用户发放礼品卡。"
       },
       "issue_dialog": {
@@ -2557,15 +2557,15 @@ export default {
     },
     "gift_card_edit": {
       "title": "创建礼品卡",
-      "validity": "有效性",
-      "validity_unit": "几个月",
+      "validity": "有效期",
+      "validity_unit": "月",
       "currency": "货币",
-      "initial_balance": "初始卡余额",
-      "count": "数数",
-      "count_unit": "项目）",
-      "enable_input_message": "创建卡的状态",
+      "initial_balance": "卡片初始金额",
+      "count": "数量",
+      "count_unit": "件",
+      "enable_input_message": "所创建卡片的状态。",
       "notifications": {
-        "create_success_title": "节省",
+        "create_success_title": "保存",
         "create_success": "{count} 张新卡片已创建"
       }
     },
@@ -2575,7 +2575,7 @@ export default {
   },
   "shop_discount": {
     "title": "优惠码",
-    "up_to": "取决于",
+    "up_to": "最高",
     "menu": {
       "dashboard": "仪表盘",
       "orders": "订单",
@@ -2588,18 +2588,18 @@ export default {
         "label": "买"
       },
       "chart_amount_discount": {
-        "y": "折扣 {currency}",
+        "y": "折扣金额 {currency}",
         "label": "折扣"
       },
       "chart_used": {
-        "y": "使用量",
-        "label": "时代"
+        "y": "使用次数",
+        "label": "次"
       }
     }
   },
   "shop_coupon": {
     "title": "优惠券",
-    "up_to": "取决于",
+    "up_to": "最高",
     "menu": {
       "dashboard": "仪表盘",
       "back": "优惠券",
@@ -2609,84 +2609,84 @@ export default {
       "title": "优惠券管理仪表板",
       "chart_amount_buy": {
         "y": "购买金额{currency}",
-        "label": "买"
+        "label": "购买"
       },
       "chart_amount_discount": {
-        "y": "优惠券 {currency}",
+        "y": "优惠券金额 {currency}",
         "label": "优惠券"
       },
       "chart_used": {
-        "y": "使用量",
-        "label": "时代"
+        "y": "使用次数",
+        "label": "次"
       }
     }
   },
   "shop_offer": {
-    "title": "优惠",
-    "up_to": "取决于",
+    "title": "促销活动",
+    "up_to": "最高",
     "menu": {
       "dashboard": "仪表盘",
       "orders": "订单",
       "back": "优惠"
     },
     "dashboard": {
-      "title": "报价管理仪表板",
+      "title": "促销管理仪表板",
       "chart_amount_buy": {
         "y": "购买金额{currency}",
-        "label": "买"
+        "label": "购买"
       },
       "chart_amount_discount": {
-        "y": "优惠{currency}",
-        "label": "提供"
+        "y": "促销金额{currency}",
+        "label": "促销"
       },
       "chart_used": {
-        "y": "使用量",
-        "label": "时代"
+        "y": "使用次数",
+        "label": "次"
       }
     }
   },
   "account_card": {
-    "pay_create_receipt": "支付启动费",
-    "balance": "平衡",
-    "locked": "锁定",
-    "transfer": "转移",
-    "charge": "订金"
+    "pay_create_receipt": "支付激活费",
+    "balance": "余额",
+    "locked": "已锁定",
+    "transfer": "转账",
+    "charge": "充值"
   },
   "timeline": {
     "note": "{message}",
     "info": "{message}",
     "error": "{message}",
-    "buy": "查看",
-    "payment": "支付",
-    "confirm": "订单确认， <b>{success}</b>确认和<b>{fail}</b>被拒绝。",
-    "prepare": "订单准备。",
+    "buy": "结账",
+    "payment": "付款",
+    "confirm": "订单确认， <b>{success}</b>已确认和<b>{fail}</b>已被拒绝。",
+    "prepare": "订单准备中。",
     "send": "订单由<b>{delivery} 发货</b>。",
     "delivered": "订单已交付给客户。",
-    "fill-inputs": "买家填写的输入信息表。",
-    "return-add": "提交产品退货请求，{product}。",
-    "return-accept": "退货请求 {return_code} 已确认。",
-    "return-reject": "请求 {return_code} 被拒绝。",
-    "reject-order": "拒绝订单。代码：{reject_code}。",
+    "fill-inputs": "买家已填写信息表。",
+    "return-add": "提交产品退货申请，{product}。",
+    "return-accept": "退货申请 {return_code} 已确认。",
+    "return-reject": "申请 {return_code} 已被拒绝。",
+    "reject-order": "拒绝订单。编号：{reject_code}。",
     "reject-order-clear": "取消订单拒绝。代码：{reject_code}。",
     "email-buy": "向客户发送购买确认电子邮件。",
     "email-payment": "向客户发送付款确认电子邮件。",
     "delivery-returned": "客户未收到订单并被退回。需要重新发货。",
     "delivery-canceled": "交货取消。需要重新发货。",
-    "edit-receiver-info": "订单收货地址由买家编辑。",
-    "edit-billing-info": "由买方编辑的帐单地址。",
+    "edit-receiver-info": "买家已编辑订单收货地址。",
+    "edit-billing-info": "买家已编辑帐单地址。",
     "payment-cod-confirm": "COD 付款已确认。",
-    "payment-cash-confirm": "已确认以现金支付账单的 {amount} {currency}。",
-    "payment-dir-confirm": "确认直接付款收据。",
+    "payment-cash-confirm": "已确认以现金支付账单 {amount} {currency}。",
+    "payment-dir-confirm": "直接付款收据已确认。",
     "vendor": "供应商订单状态从<b>{from}</b>更改为<b>{to}</b> 。",
-    "connect-sync": "由 Connect OS 同步的订单。",
+    "connect-sync": "订单已由 Connect OS 同步。",
     "connect-shipped": "Connect 订单已由 {shipping} 发货。",
     "connect-returned": "{shipping} 已退回 Connect 订单。",
-    "connect-failed": "合作伙伴未能完成订单。 {reason}",
-    "connect-canceled": "订单已被合作伙伴取消。 {reason}",
-    "connect-action-cancel": "请求取消订单。 {reason}",
-    "connect-put-hold": "订单被搁置。 {reason}",
-    "connect-remove-hold": "订单已解除保留。 {reason}",
-    "connect-confirmed": "订单得到确认。",
+    "connect-failed": "合作方履行订单失败。原因：{reason}",
+    "connect-canceled": "合作方已取消订单。原因：{reason}",
+    "connect-action-cancel": "已请求取消订单。原因：{reason}",
+    "connect-put-hold": "订单已暂停。原因：{reason}",
+    "connect-remove-hold": "订单已恢复处理。原因：{reason}",
+    "connect-confirmed": "订单已确认。",
     "email-vendor": "🔔 订单通知邮件已发送至<b>{vendor}</b> ╏ {email}。",
     "vendor-payout": "💸 支付给供应商。",
     "sms-payment": "通过{phone}向客户发送付款确认短信。",
@@ -2697,23 +2697,23 @@ export default {
     "last_days": "{days} 天前"
   },
   "products_select": {
-    "move_category": "将类别<b>{category}</b>移至另一个类别",
-    "move_product": "将产品<b>{product}</b>移至类别",
+    "move_category": "将分类<b>{category}</b>移至其他分类",
+    "move_product": "将产品<b>{product}</b>移至分类",
     "product_menu": {
       "dashboard": "产品仪表板",
       "inventory": "库存和变体"
     },
     "notifications": {
-      "copy_success": "产品副本。",
-      "change_category_success": "产品类别已编辑。"
+      "copy_success": "已复制产品。",
+      "change_category_success": "产品分类已编辑。"
     },
-    "load_more_products": "此类别下还有更多产品。单击以加载更多商品。",
+    "load_more_products": "此分类下还有更多产品。单击以加载更多商品。",
     "filter_box": {
-      "no_root_filter_message": "您的根目录中有产品，但没有过滤器。",
-      "has_root_filter_message": "您为根类别设置过滤器。",
-      "set_filter_message": "您可以设置过滤器。",
-      "edit_action": "编辑根过滤器",
-      "clear_action": "清除根过滤器"
+      "no_root_filter_message": "您的根目录中有产品，但没有筛选器。",
+      "has_root_filter_message": "您已为根分类设置筛选器。",
+      "set_filter_message": "您可以设置筛选器。",
+      "edit_action": "编辑根筛选器",
+      "clear_action": "清除根筛选器"
     },
     "ai": {
       "title": "AI产品协助"
@@ -2721,18 +2721,18 @@ export default {
     "menu": {
       "select_all_products": "选择所有产品",
       "unselect": "取消选择",
-      "sort_categories": "排列/排序类别",
-      "subscription_vendor_not_support_message": "无法为订阅产品指定供应商！订阅产品必须始终有一个供应商作为其所有者！",
-      "vendor_owner_not_assignable_message": "无法为以供应商为所有者的产品指定供应商！",
-      "category_assign_profile": "将配置文件分配给类别中的产品",
-      "category_assign_profile_subtitle": "税费、运费、指南、保修……",
+      "sort_categories": "排列 / 分类排序",
+      "subscription_vendor_not_support_message": "无法为订阅产品分配供应商！订阅产品必须始终有供应商作为其所有者！",
+      "vendor_owner_not_assignable_message": "无法为已有供应商作为所有者的产品分配供应商！",
+      "category_assign_profile": "为分类中的产品分配资料",
+      "category_assign_profile_subtitle": "税务、运输、指南、保修等",
       "bulk_discount": "批量折扣",
       "bulk_discount_subtitle": "对所有产品应用折扣。"
     },
     "engine": {
-      "title": "附加产品引擎",
-      "subtitle": "将从选定的类别和标签中加载更多产品。",
-      "load_in_tips": "加载{category}类别中的产品。",
+      "title": "额外产品引擎",
+      "subtitle": "从所选分类和标签加载更多产品。",
+      "load_in_tips": "加载{category}分类中的产品。",
       "action": "编辑{category}引擎"
     }
   },
@@ -2750,82 +2750,82 @@ export default {
   },
   "physical_order_inputs": {},
   "order_timeline": {
-    "message_input": "在这里写留言...",
+    "message_input": "在此处撰写消息...",
     "pin_action": "置顶",
-    "unpin_action": "取消固定",
+    "unpin_action": "取消置顶",
     "copy_html": "复制 HTML",
     "notifications": {
-      "add_note_success": "补充说明。",
-      "edit_note_success": "注释已编辑。",
-      "delete_note_success": "注释已删除。"
+      "add_note_success": "备注已添加。",
+      "edit_note_success": "备注已编辑。",
+      "delete_note_success": "备注已删除。"
     },
     "delete_dialog": {
-      "title": "删除笔记",
-      "message": "你想删除这个笔记吗？",
-      "action": "删除笔记"
+      "title": "删除备注",
+      "message": "您确定要删除此备注吗？",
+      "action": "删除备注"
     },
     "resend_dialog": {
       "title": "重发电子邮件",
       "message": "您确定要将此电子邮件重新发送给您的客户吗？",
       "action": "是的，重新发送",
-      "success": "重新发送给您的客户的电子邮件。"
+      "success": "邮件已重新发送给客户。"
     },
-    "message": "在此部分中，您可以查看与订单、履行、付款及其各自状态相关的事件的时间线。此外，您还可以观察发送给客户和供应商的订单。",
-    "add_note_subtitle": "写一条消息并提及您的同事。"
+    "message": "在此部分，您可以查看与订单、履行、付款及其各自状态相关的事件时间线。此外，您还可以查看发往客户和供应商的订单。",
+    "add_note_subtitle": "撰写消息并提及您的同事。"
   },
   "accounts": {
     "title": "我的钱包",
-    "message": "您必须使用您在 Selldone 中使用的货币创建至少一个帐户。您必须充值此帐户以支付服务费。",
-    "add_new": "建立新帐户",
-    "new_account": "添加新帐户",
+    "message": "请为您在 Selldone 使用的每种货币至少设置一个账户。这些资金将用于支付您的服务费。",
+    "add_new": "创建新账户",
+    "new_account": "添加新钱包",
     "new_account_dialog": {
       "title": "新账户",
-      "account_name_input": "帐户名称",
+      "account_name_input": "账户名称",
       "currency_input": "货币单位",
-      "currency_input_message": "创建的账户将只持有该货币的价值。",
+      "currency_input_message": "创建的账户仅保存该货币的资金。",
       "new_account_wage": "新账户创建费用：第一个账户免费",
-      "create_account_action": "创建帐号"
+      "create_account_action": "创建账户"
     }
   },
   "user_gifts": {
     "menu": {
-      "send_gift": "送礼物",
-      "sent": "发送",
+      "send_gift": "发送礼物",
+      "sent": "已发送",
       "received": "已收到"
     },
     "send_gifts": {
-      "title": "送礼物",
-      "sub_title": "您可以向您的朋友或客户发送礼物。收件人可以接受或拒绝您的礼物。如果收款人接受，金额将锁定在您的帐户中并提取。否则，这笔款项将转入您的账户。",
+      "title": "已发送的礼物",
+      "sub_title": "您可以向您的朋友或客户发送礼物。收礼人可以接受或拒绝您的礼物。金额会在您的账户中冻结，若收礼人接受则扣除。否则该金额将退回您的账户。",
       "table": {
         "user": "用户",
-        "amount": "数量",
+        "amount": "金额",
         "currency": "货币",
-        "account_name": "从",
-        "status": "地位",
+        "account_name": "来自",
+        "status": "状态",
         "message": "信息",
         "created_at": "创建日期"
       }
     },
     "received_gifts": {
-      "title": "收到礼物",
-      "sub_title": "您从 Selldone 或其他人那里收到的礼物",
+      "title": "收到的礼物",
+      "sub_title": "这里汇总了您收到的所有礼物，来自 Selldone 或其他人。",
       "table": {
-        "amount": "数量",
+        "amount": "金额",
         "currency": "货币",
         "account_from": "从",
-        "status": "地位",
+        "status": "状态",
         "message": "信息",
         "created_at": "创建日期",
-        "receive": "收到"
+        "receive": "接收"
       }
     }
   },
   "get_gift_dialog": {
-    "title": "收到礼物",
+    "title": "接收礼物",
     "more": "更多的 ..",
-    "amount": "数量",
+    "amount": "金额",
     "message": "信息",
-    "account_to_input": "目的地帐户",
+    "account_to_input": "目标账户",
     "account_to_input_message": "礼品金额将存入此帐户。",
     "get_action": "接受礼物",
     "notifications": {
@@ -2834,58 +2834,58 @@ export default {
     }
   },
   "send_gift_dialog": {
-    "title": "送礼物",
-    "account_from_input": "选择一个帐户",
-    "account_from_input_message": "礼品金额将从该帐户中提取。",
-    "receiver_input": "接收者",
-    "receiver_input_message": "您可以输入电子邮件地址或电话号码。",
+    "title": "发送礼物",
+    "account_from_input": "选择一个账户",
+    "account_from_input_message": "礼物金额将从此账户扣除。",
+    "receiver_input": "接收人",
+    "receiver_input_message": "您可以输入电子邮箱或电话号码。",
     "message_input": "信息",
     "message_input_message": "您可以给收件人留言。",
-    "amount_input": "数量",
+    "amount_input": "金额",
     "currency_input": "货币单位",
     "currency_input_message": "价格以这种货币计算。",
-    "send_action": "送礼物",
+    "send_action": "发送礼物",
     "notifications": {
       "send_success": "{amount} {currency} 的礼物已发送给 {receiver}。"
     }
   },
   "account_list": {
-    "account_input": "帐号",
+    "account_input": "账户号码",
     "account_input_message": "该币种的礼品金额将存入该账户。",
-    "free_balance": "免费余额",
-    "account_name": "帐户名称"
+    "free_balance": "可用余额",
+    "account_name": "账户名称"
   },
   "user_monetize_accounts": {
-    "title": "存款账户",
-    "sub_title": "礼品金额将自动存入这些账户。",
-    "message": "Selldone 为您的社交媒体活动、参与 Selldone 开发、介绍朋友等存入资金。通过为每种货币选择一个存款账户，礼品金额将自动存入您域中的该账户。这些金额可以记入 Selldone。只有业务合作伙伴可以提款。",
-    "add_account_action": "新增帐户",
+    "title": "礼物收款账户",
+    "sub_title": "礼物金额将自动存入这些账户。",
+    "message": "Selldone会将您的社交媒体活动、参与平台开发、推荐朋友等的奖励礼物，自动存入您在此处选择的账户。通过为每种货币选择一个收款账户，礼物金额将自动转入您在该货币下的默认账户。这些金额可用于Selldone平台消费，只有商业合作伙伴才能申请提现。",
+    "add_account_action": "添加账户",
     "add_dialog": {
       "title": "连接账户以接收礼物",
-      "account_input": "帐号",
+      "account_input": "账户号码",
       "account_input_message": "该币种的礼品金额将存入该账户。",
-      "set_as_default_action": "选择为默认帐户"
+      "set_as_default_action": "设为默认账户"
     },
     "table": {
       "currency": "货币",
-      "account_number": "帐号",
-      "account_name": "姓名",
+      "account_number": "账户号码",
+      "account_name": "账户名称",
       "payment": "存款金额",
-      "reset_at": "重置为",
+      "reset_at": "重置日期",
       "delete": "删除"
     },
     "notifications": {
-      "set_success": "帐号添加成功。",
-      "delete_success": "帐户已成功从接收礼物的默认帐户列表中删除。"
+      "set_success": "账户添加成功。",
+      "delete_success": "账户已成功从接收礼物的默认账户列表中移除。"
     },
     "delete_alert": {
-      "title": "删除帐户",
-      "message": "您想从礼物帐户列表中删除此帐户吗？",
+      "title": "删除账户",
+      "message": "是否要将该账户从礼物账户列表中移除？",
       "action": "删除"
     }
   },
   "user_monetize": {
-    "title": "挣钱",
+    "title": "赚钱",
     "menu": {
       "plans": "计划",
       "accounts": "账户",
@@ -2893,23 +2893,23 @@ export default {
     }
   },
   "user_monetize_plans": {
-    "title": "合作和货币化项目",
-    "sub_title": "您将收到推荐礼物的帐户信用。这些金额将记入您的账户，并且只能提取给 Selldone 业务合作伙伴（并非全部）。您可以将这笔钱花在 Selldone 服务费上。",
+    "title": "合作和变现",
+    "sub_title": "您将获得的推广奖励将被记入您的 Selldone 钱包，这些资金可用于支付 Selldone 的服务费用（所有人可用）。请注意，只有 Selldone 的 VIP 商业合作伙伴才能将这些推广奖励提现，其他用户暂无提现权限。",
     "discount": "折扣",
     "your_income": "你的收入",
-    "level_2": "从二楼",
-    "level_3": "从三级",
-    "link_message": "成员资格：{registered}，接受：{accepted}",
-    "link_tip": "您可以将短语 ?ref={link_code} 添加到您共享的每个地址的末尾。",
+    "level_2": "来自第二层级",
+    "level_3": "来自第三层级",
+    "link_message": "会员：{registered}，已接受：{accepted}",
+    "link_tip": "您可以在分享的每个地址末尾添加 ?ref={link_code} 参数。",
     "table": {
       "currency": "货币",
-      "amount": "平衡",
+      "amount": "余额",
       "total": "总付款",
       "payment_date": "最后付款日期",
-      "withdraw": "退出"
+      "withdraw": "提现"
     },
     "notifications": {
-      "get_credit_success": "要求的金额已存入您的帐户。"
+      "get_credit_success": "请求的金额已存入您的帐户。"
     }
   },
   "basic_information": {
@@ -2919,54 +2919,54 @@ export default {
     "address": "地址",
     "payment": "有效交易",
     "personal_information": "身份信息",
-    "main_profile": "主要简介",
+    "main_profile": "主要个人资料",
     "main_profile_subtitle": "此信息对所有人公开。",
-    "kyc_waiting_info": "我们正在检查您输入的信息的准确性。根据 KYC 规则，此过程是强制性的，将降低金融交易的风险。您可以利用这项服务的当前和未来优势。",
+    "kyc_waiting_info": "我们正在核实您所填写的信息的准确性。此过程是根据 KYC（了解你的客户）规定的必要步骤，能够降低金融交易的风险。完成后，您将能够享受此服务的当前和未来福利。",
     "personal_info_dialog": {
       "title": "身份信息",
-      "name_input": "名",
-      "family_name_input": "姓",
-      "number_input": "护照号码（或国家代码）",
+      "name_input": "名字",
+      "family_name_input": "姓氏",
+      "number_input": "护照号码（或身份证号码）",
       "birthday_input": "生日",
-      "birthday_input_placeholder": "输入你的生日",
+      "birthday_input_placeholder": "输入你的出生日期",
       "address_input": "地址",
       "postcode_input": "邮政编码",
       "tel_input": "联系电话",
-      "passport_image_input": "选择护照图片",
-      "passport_image_input_message": "上传您的护照图像扫描件。",
-      "personal_image_input": "选择你自己的形象",
-      "personal_image_input_message": "将您的国民卡上的扫描图像来回上传到图像。"
+      "passport_image_input": "护照或驾照",
+      "passport_image_input_message": "请上传您护照或驾照的扫描件。",
+      "personal_image_input": "身份证",
+      "personal_image_input_message": "请上传您身份证的照片。如果您所在的国家没有身份证，请上传您的护照或驾照。"
     },
     "profile_dialog": {
-      "title": "主要简介",
+      "title": "主要个人资料",
       "full_name_input": "全名",
       "tel_input": "联系电话",
       "email_input": "电子邮件",
       "website_input": "网站",
       "address_input": "地址",
       "about_input": "关于我",
-      "about_long_input": "关于我的长文",
+      "about_long_input": "关于我的详细介绍",
       "image_input": "选择头像",
-      "image_input_message": "上传您的图片。此图片将用作您的个人资料图片。",
+      "image_input_message": "请上传您的头像图片。",
       "notifications": {
         "update_profile_success": "你的个人资料已经更新。",
         "update_personal_info_success": "您的信息已成功注册"
       }
     },
-    "charge_account_approve_message": "向您的帐户收取费用以批准您的银行交易。",
+    "charge_account_approve_message": "为批准您的银行交易，请充值您的账户。",
     "payment_approval": "付款批准",
-    "residential_address_checking": "您的居住地址文件在检查队列中。",
-    "add_residential_address": "添加您的位置和居住地址证明文件。"
+    "residential_address_checking": "您的居住地址文件正在审核队列中。",
+    "add_residential_address": "添加您的居住地址及相关证明文件。"
   },
   "phone_verify": {
-    "title": "手机号码",
-    "step1_title": "输入你的手机号码。",
+    "title": "手机号验证",
+    "step1_title": "输入您的手机号码，您将收到一条验证短信。",
     "phone_number_input": "手机号码",
     "next": "下一步",
     "sms_code_input": "验证码",
     "sms_code_message": "6 位验证码已发送至 {phone_number}。",
     "notifications": {
-      "duplicated_number_error": "此号码已被您批准。",
+      "duplicated_number_error": "您已验证过该号码。",
       "send_activation_code_success_title": "验证码",
       "send_activation_code_success": "验证码已发送至 {phone_number}。",
       "verify_success": "您的手机号码已通过验证"
@@ -2974,21 +2974,21 @@ export default {
   },
   "companies": {
     "title": "我的企业帐户",
-    "message": "企业、企业家和专业团队可以基于 Selldone 开发产品和应用程序。创建业务档案是必需的。",
-    "new_company": "新公司"
+    "message": "企业、创业者和专业团队可以基于 Selldone 平台开发产品和应用程序。创建企业档案是必需的。",
+    "new_company": "新建公司"
   },
   "add_company": {
-    "name_input": "公司名",
+    "name_input": "公司名称",
     "website_input": "网站",
     "email_input": "电子邮件",
     "address_input": "地址",
     "tel_input": "电话",
-    "mobile_input": "移动的",
+    "mobile_input": "手机号码",
     "edit_action": "编辑公司",
     "create_action": "创建公司",
     "notifications": {
       "add_success": "已创建企业帐户 {name}。",
-      "edit_success": "商业帐户已编辑。"
+      "edit_success": "企业帐户已编辑。"
     }
   },
   "user_access_control": {
@@ -2997,23 +2997,23 @@ export default {
       "shop_key": "客户",
       "apps": "应用"
     },
-    "connected_apps_title": "连接的应用程序",
-    "connected_apps_message": "您将看到连接到您的域帐户的所有商店和应用程序的列表。您可以删除对其中任何一个的访问权限。",
+    "connected_apps_title": "已连接的应用",
+    "connected_apps_message": "您将看到所有连接到您的域名账户的商店和应用列表。您可以删除其中任何一个的访问权限。",
     "shop_keys_title": "存储访问密钥",
     "shop_keys_message": "这些密钥用于由您的服务器创建访问令牌。请注意，密钥是机密的，并且仅放置在服务器上，因此其他人看不到它们。",
     "personal_keys_title": "个人访问密钥",
-    "personal_keys_message": "您可以在此处为您的帐户创建密钥。请注意，这些密钥将能够访问您的帐户。仅当您确切知道自己在做什么时才创建和使用这些密钥。",
+    "personal_keys_message": "您可以在这里创建账户密钥。请注意，这些密钥将能访问您的账户。只有在您确切知道自己在做什么时，才创建和使用这些密钥。",
     "clients_title": "客户",
-    "clients_message": "这些密钥用于由您的服务器创建访问令牌。请注意，密钥是机密的，并且仅放置在服务器上，因此其他人看不到它们。"
+    "clients_message": "这些密钥由您的服务器用于创建 Access Token。请注意，这些密钥是机密的，只能放置在服务器上，不会暴露给他人。"
   },
   "user_security_control": {
-    "title": "账户安全",
+    "title": "帐户安全",
     "message": "您可以在此处编辑您的帐户安全设置。",
     "delete": {
       "title": "删除帐户",
-      "subtitle": "在删除您的帐户之前，请确保您已删除所有商店。",
+      "subtitle": "在删除您的帐户之前，请确保您已删除所有店铺。",
       "action": "我确定，删除我的帐户",
-      "agreement": "我接受我的所有信息将从您的服务器中删除。您的信息将根据我们确定的时间表被删除，以防止欺诈或滥用。"
+      "agreement": "我同意我的所有信息将从您的服务器中删除。您的信息将根据我们确定的时间表删除，以防止欺诈或滥用。"
     },
     "list": {
       "password": {
@@ -3025,7 +3025,7 @@ export default {
       },
       "phone": {
         "title": "手机号码",
-        "sub_title": "确认您的手机号码。您将可以通过此号码登录。",
+        "sub_title": "确认您的手机号码。您可以通过此号码登录。",
         "action_title": "帐户的主要电话号码",
         "action": "验证号码"
       },
@@ -3033,12 +3033,12 @@ export default {
         "title": "两步进入",
         "sub_title": "确认您的手机号码。您将可以通过此号码登录。",
         "action_title": "提高账户安全性",
-        "activated_action": "活性",
-        "active_action": "现在激活"
+        "activated_action": "已经激活",
+        "active_action": "立即激活"
       },
       "email": {
         "title": "主要邮箱",
-        "sub_title": "您可以选择更新与此帐户关联的主电子邮件。",
+        "sub_title": "您可以选择更新与此帐户关联的主要电子邮件。",
         "action_title": "更改主要电子邮件",
         "action": "发送验证链接"
       }
@@ -3049,27 +3049,27 @@ export default {
       },
       "step_2": {
         "title": "输入应用程序生成的代码",
-        "message": "6 位代码是由您手机中的算法生成的。您可以从以下链接下载该应用程序。按代码生成器键创建包含密码的二维码。",
-        "qr_code_info": "如果无法扫描，您可以手动将代码复制并粘贴到应用程序中：",
-        "create_new_code": "创建新代码",
-        "qr_code_scanning": "扫描 Google Authenticator Mobile App 生成的二维码，并在本页面的方框中输入生成的验证码进行确认。",
-        "qr_code_regenerate_info": "注意：通过按上述键，将创建一个新键，之前的键将无法使用。在您的手机应用程序中输入新密钥。"
+        "message": "这6位数代码由您手机中的算法生成。您可以通过以下链接下载该应用。点击代码生成键即可创建包含密码的二维码。",
+        "qr_code_info": "如果无法扫描，您可以手动复制并粘贴代码到应用中：",
+        "create_new_code": "生成新代码",
+        "qr_code_scanning": "扫描 Google Authenticator 手机应用生成的二维码，并在本页框中输入生成的代码进行确认。",
+        "qr_code_regenerate_info": "注意：点击上述按钮将生成新密钥，之前的密钥将失效。请在手机应用中输入新密钥。"
       },
       "step_3": {
-        "title": "输入创建的代码",
-        "message": "在下面的字段中输入在应用程序中创建的访问代码。",
+        "title": "输入生成的代码",
+        "message": "请在下方输入应用中生成的访问代码。",
         "activation_key_input": "访问代码"
       },
       "activated_alert": "两步登录已启用。",
-      "activated_message": "您的帐户已启用两步登录。从现在开始，您需要输入每 30 秒更改一次的第二个代码才能访问您的帐户。要禁用两步登录，只需双击按一个步骤并完成这些步骤。",
+      "activated_message": "您的账户已启用两步登录。今后登录时，您需要输入每30秒变化一次的第二个验证码。若要禁用两步登录，只需双击“按步骤操作”，然后按照指引完成即可。",
       "cancel_two_step_login_action": "取消两步登录",
       "cancel_two_step_login_info": "如果您想禁用两步验证，请输入您的密码并单击两步登录键。",
       "password_input": "密码",
       "cancel_2fa_action": "取消两步登录"
     },
     "change_password_dialog": {
-      "title": "更改密码",
-      "message": "使用复杂且容易记住的密码。",
+      "title": "修改密码",
+      "message": "请使用复杂且容易记住的密码。",
       "password_input": "当前密码",
       "new_password_input": "新密码",
       "re_new_password_input": "重复新密码",
@@ -3078,33 +3078,33 @@ export default {
         "chars": "至少一个大写字母和一个数字。",
         "match": "密码匹配。"
       },
-      "change_password_action": "更改密码",
+      "change_password_action": "修改密码",
       "notifications": {
-        "change_password_title": "更改密码",
+        "change_password_title": "修改密码",
         "change_password": "密码修改成功。"
       }
     }
   },
   "authorized_clients": {
-    "title": "连接的商店/应用程序列表",
+    "title": "已连接的店铺/应用程序列表",
     "table": {
-      "name": "姓名",
+      "name": "名称",
       "app": "应用程序",
-      "scopes": "范围",
-      "shop": "限制商店"
+      "scopes": "权限范围",
+      "shop": "受限商店"
     },
     "remove_action": "移除访问权限",
     "delete_alert": {
       "title": "删除",
-      "message": "您要撤消此访问权限吗？请注意，此应用将无法再访问您的帐户。",
+      "message": "您确定要撤销此访问权限吗？请注意，该应用将不再能访问您的账户。",
       "action": "拒绝访问"
     }
   },
   "clients": {
-    "title": "客户名单",
+    "title": "客户列表",
     "create_new_action": "创建新客户",
     "table": {
-      "client_id": "客户编号",
+      "client_id": "客户ID",
       "app": "应用程序",
       "name": "别名",
       "secret_key": "密钥"
@@ -3112,12 +3112,12 @@ export default {
     "create_dialog": {
       "title": "新客户",
       "error_msg": "<strong>错误！</strong>抱歉，发生错误了！",
-      "name_input": "姓名",
-      "name_input_message": "您的用户认可和信任的东西。",
-      "redirect_input_message": "将地址返回到您的站点。"
+      "name_input": "名称",
+      "name_input_message": "让用户能识别并信任的名称。",
+      "redirect_input_message": "返回您网站的地址。"
     },
     "edit_dialog": {
-      "title": "编辑权限"
+      "title": "编辑访问权限"
     },
     "delete_alert": {
       "title": "删除",
@@ -3129,20 +3129,20 @@ export default {
     "title": "个人访问令牌列表",
     "create_action": "创建新令牌",
     "table": {
-      "name": "姓名",
-      "scopes": "访问",
+      "name": "名称",
+      "scopes": "访问权限",
       "expire_at": "到期日"
     },
     "create_dialog": {
-      "title": "代币建设",
+      "title": "令牌生成",
       "error_message": "<strong>错误！</strong>抱歉，发生错误了！",
-      "name_input": "别名前。我的令牌名称",
+      "name_input": "别名 例如：我的令牌名称",
       "name_input_message": "最喜欢的令牌名称。",
-      "scopes_list": "令牌访问列表"
+      "scopes_list": "令牌访问权限列表"
     },
     "access_token_dialog": {
       "title": "个人访问密钥",
-      "message": "这是您的个人访问令牌的令牌。这是唯一一次显示此令牌，所以不要错过它！您现在可以使用此令牌来请求 API。"
+      "message": "这是您个人访问令牌的密钥。这是唯一一次显示此令牌，请务必妥善截图或存储保管！您现在可以使用该令牌请求API。"
     },
     "delete_alert": {
       "title": "删除",
@@ -3152,31 +3152,31 @@ export default {
   },
   "scopes": {
     "profile": {
-      "name": "轮廓",
-      "description": "阅读个人资料信息，包括姓名、电子邮件地址、图像和身份验证状态。"
+      "name": "个人资料信息",
+      "description": "读取用户个人资料详情，包括姓名、电子邮件、头像和认证状态。"
     },
     "phone": {
       "name": "电话号码",
-      "description": "访问电话号码。"
+      "description": "访问用户的电话号码。"
     },
     "address": {
       "name": "地址",
-      "description": "从通讯录中读取保存的地址。"
+      "description": "读取地址簿中保存的地址。"
     },
     "buy": {
       "name": "购买",
-      "description": "下订单并从商店购买。"
+      "description": "从商店下单。"
     },
     "order-history": {
       "name": "订单历史",
-      "description": "阅读订单历史。"
+      "description": "读取订单历史。"
     },
     "my-gift-cards": {
       "name": "礼品卡",
-      "description": "访问我的卡片。"
+      "description": "访问用户的礼品卡。"
     },
     "articles": {
-      "name": "编辑内容",
+      "name": "内容管理",
       "description": "编辑文章。"
     },
     "notifications": {
@@ -3185,35 +3185,35 @@ export default {
     },
     "read-shops": {
       "name": "商店列表",
-      "description": "阅读商店列表。"
+      "description": "读取商店列表。"
     },
     "shop-edit": {
       "name": "店铺管理",
       "description": "编辑商店访问权限"
     },
     "shop-contacts": {
-      "name": "联系表格管理",
-      "description": "接收和编辑联系表格。"
+      "name": "联系人表格管理",
+      "description": "接收和编辑联系人表格。"
     },
     "shop-gift-cards": {
       "name": "管理礼品卡",
       "description": "创建、编辑和管理礼品卡。"
     },
     "shop-faqs": {
-      "name": "管理问题和答案",
+      "name": "管理常见问题",
       "description": "创建、编辑和管理常见问题。"
     },
     "shop-categories": {
-      "name": "管理类别",
-      "description": "创建、编辑和管理类别。"
+      "name": "管理分类",
+      "description": "创建、编辑和管理分类。"
     },
     "shop-products": {
       "name": "产品管理",
       "description": "添加、编辑和管理产品。"
     },
     "shop-read-reports": {
-      "name": "阅读报告",
-      "description": "阅读信息和报告。"
+      "name": "读取报告",
+      "description": "读取信息和报告。"
     },
     "shop-socials": {
       "name": "管理社交媒体",
@@ -3225,18 +3225,18 @@ export default {
     },
     "shop-menus": {
       "name": "管理菜单",
-      "description": "编辑商店菜单。"
+      "description": "编辑店铺菜单。"
     },
     "shop-pages": {
       "name": "管理页面",
-      "description": "编辑商店页面。"
+      "description": "编辑店铺页面。"
     },
     "shop-warehouse": {
       "name": "仓库管理",
-      "description": "编辑商店仓库"
+      "description": "编辑店铺仓库"
     },
     "shop-permissions": {
-      "name": "管理访问",
+      "name": "管理访问许可",
       "description": "查看和编辑商店访问权限。"
     },
     "shop-process-center": {
@@ -3244,7 +3244,7 @@ export default {
       "description": "订单管理。"
     },
     "shop-profile": {
-      "name": "管理个人资料",
+      "name": "管理店铺资料",
       "description": "管理商店资料。"
     },
     "shop-discount-code": {
@@ -3268,25 +3268,25 @@ export default {
         "website": "网站",
         "email": "电子邮件",
         "phone": "电话号码",
-        "register": "登记",
-        "developer": "开发商",
+        "register": "注册",
+        "developer": "开发者",
         "verified": "已验证",
-        "golden": "金的"
+        "golden": "金牌认证"
       }
     },
     "developer": {
       "title": "开发者",
       "menu": {
-        "new": "新的",
+        "new": "新建",
         "apps": "应用"
       },
       "app_card": {
-        "category": "类别",
-        "installs": "安装",
-        "actives": "积极的",
-        "uninstalls": "卸载",
+        "category": "分类",
+        "installs": "安装量",
+        "actives": "活跃数",
+        "uninstalls": "卸载量",
         "app_code": "应用代码",
-        "app_mode": "应用方式"
+        "app_mode": "应用模式"
       }
     },
     "edit": {
@@ -3294,21 +3294,21 @@ export default {
     }
   },
   "add_app": {
-    "category_input": "类别",
+    "category_input": "分类",
     "code_input": "代码",
-    "name_input": "姓名",
+    "name_input": "名称",
     "description_input": "描述",
     "video_input": "视频网址",
-    "public_form": "一般信息结构",
-    "private_form": "私人信息结构",
-    "icon_input": "应用程序图标",
-    "logo_input": "标志应用",
-    "enable_input": "应用程序是否处于活动状态？",
+    "public_form": "通用信息结构",
+    "private_form": "私密信息结构",
+    "icon_input": "应用图标",
+    "logo_input": "应用Logo",
+    "enable_input": "应用程序是否启用？",
     "edit_action": "编辑应用",
     "create_action": "创建应用",
     "notifications": {
       "add_success": "已创建企业帐户 {name}。",
-      "delete_success": "商业帐户已编辑。"
+      "delete_success": "企业帐户已编辑。"
     }
   },
   "app_page": {
@@ -3316,7 +3316,7 @@ export default {
     "menu": {
       "edit": "编辑",
       "publish": "发布",
-      "history": "版本",
+      "history": "版本历史",
       "dashboard": "仪表盘",
       "company": "公司",
       "api": "API",
@@ -3326,15 +3326,15 @@ export default {
       "app_info_widget": {
         "title": "应用",
         "app_code": "应用代码",
-        "category": "类别",
-        "name": "姓名",
-        "installs": "安装应用",
-        "uninstalls": "卸载应用",
-        "actives": "活跃的应用",
+        "category": "分类",
+        "name": "名称",
+        "installs": "安装量",
+        "uninstalls": "卸载量",
+        "actives": "活跃量",
         "description": "描述",
-        "published": "发表",
-        "waiting_for_review": "待批准",
-        "app_mode": "应用方式"
+        "published": "已发布",
+        "waiting_for_review": "待审核",
+        "app_mode": "应用模式"
       }
     }
   },
