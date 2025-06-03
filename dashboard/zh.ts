@@ -3997,13 +3997,13 @@ export default {
   },
   "coupons": {
     "title": "优惠券",
-    "sub_title": "如果您想为客户提供可在特定条件下使用的折扣，您可以创建优惠券。优惠券可以包括带有限制或固定金额或两者组合的百分比折扣。",
+    "sub_title": "如果您想为客户提供可在特定条件下使用的折扣，您可以创建优惠券。优惠券可以包含有限额的百分比折扣、固定金额折扣，或者两者结合。",
     "create_new": "添加新优惠券",
-    "qualified_products": "符合条件的产品",
-    "min_purchase": "最低购买量",
+    "qualified_products": "适用产品",
+    "min_purchase": "最低购买金额",
     "only_first_order": "仅限首次购买",
     "one_time_use": "一次性使用",
-    "amount_usage": "使用量",
+    "amount_usage": "使用次数",
     "delete_alert": {
       "title": "删除优惠券",
       "message": "您确定要删除此优惠券吗？",
@@ -4016,88 +4016,88 @@ export default {
   },
   "coupon_edit": {
     "title_edit": "修改优惠券",
-    "title_add": "新优惠券",
+    "title_add": "新建优惠券",
     "discount_charge": "折扣与收费",
     "charge": "收费",
     "charge_message": "初始费用金额",
     "percent": "折扣百分比",
-    "percent_message": "折扣百分比数额",
-    "limit_input": "限制",
+    "percent_message": "折扣百分比金额",
+    "limit_input": "限额",
     "limit_input_hint": "折扣限额金额",
-    "currency_input_message": "此货币可用的优惠券。",
-    "count_input": "数数",
-    "count_input_hint": "此代码的最大使用量",
-    "limit_input_message": "折扣限制值为 0 表示折扣率没有限制。",
-    "date_start_input": "开始",
-    "date_start_input_placeholder": "选择何时开始使用优惠券",
-    "date_end_input": "结尾",
-    "date_end_input_placeholder": "选择折扣结束的时间",
+    "currency_input_message": "该优惠券可用于此货币。",
+    "count_input": "次数",
+    "count_input_hint": "此优惠码的最大使用次数",
+    "limit_input_message": "将折扣限额设置为 0 表示没有折扣上限。",
+    "date_start_input": "开始时间",
+    "date_start_input_placeholder": "选择优惠券的开始时间",
+    "date_end_input": "结束时间",
+    "date_end_input_placeholder": "选择优惠券的结束时间",
     "title_input": "标题",
-    "title_input_hint": "您可以输入此折扣代码的标题",
-    "description_input": "描述",
-    "description_input_hint": "您可以输入此折扣代码的说明",
+    "title_input_hint": "您可以输入此优惠码的标题",
+    "description_input": "说明",
+    "description_input_hint": "您可以输入此优惠券代码的说明",
     "coupon_code": "优惠券代码",
     "need_code": "需要代码吗？",
     "coupon_color": "优惠券颜色",
     "min_purchase_amount": "最低购买金额",
-    "min_purchase_amount_hint": "购买金额必须大于或等于该值。",
-    "should_exist_product": "至少其中一种产品必须在购物车中",
+    "min_purchase_amount_hint": "购买金额必须大于或等于该数值。",
+    "should_exist_product": "购物车中至少需包含以下产品之一",
     "apply_for_first_order": "仅限第一次购买",
     "apply_for_first_order_on": "此优惠券仅可用于客户首次购买！",
-    "apply_for_first_order_off": "每个买家的优惠券使用次数可以在下面调整。",
-    "has_qualify_constraints": "您想定义更多限制吗？",
-    "has_qualify_constraints_message": "设置更多条件以使客户有资格使用此优惠券。",
-    "one_time_use": "一次性使用",
+    "apply_for_first_order_off": "可在下方调整每位买家的优惠券使用次数。",
+    "has_qualify_constraints": "是否要设置更多限制条件？",
+    "has_qualify_constraints_message": "设置更多条件，以便让客户符合使用该优惠券的资格。",
+    "one_time_use": "客户只能使用该优惠券一次。",
     "one_time_use_message": "客户可以使用此优惠券一次。",
     "daily_limit": "每日限额",
-    "no_limit": "没有限制",
-    "daily_limit_message": "客户每天的最大使用量",
+    "no_limit": "无限制",
+    "daily_limit_message": "每位客户每天可使用的最大次数",
     "monthly_limit": "每月限额",
-    "monthly_limit_message": "客户每月最大使用量",
-    "yearly_limit": "年度限额",
-    "yearly_limit_message": "客户每年最大使用量",
+    "monthly_limit_message": "每位客户每月可使用的最大次数",
+    "yearly_limit": "每年限额",
+    "yearly_limit_message": "每位客户每年可使用的最大次数",
     "notifications": {
       "add": "新优惠券创建成功。",
       "edit": "优惠券已更新。"
     },
     "config": {
-      "subtitle": "优惠券折扣计算公式为：CHARGE + max(LIMIT,PERCENT * 购物车价格)。"
+      "subtitle": "优惠券折扣计算公式：附加费用 + max (限额, 折扣百分比 * 购物车总价)。"
     },
     "limit": {
-      "subtitle": "在本部分中，您可以设置每张优惠券的最大使用次数以及每张优惠券可提供的最高折扣金额。",
-      "zero_message": "零：没有限制！"
+      "subtitle": "在本节中，您可以设置每张优惠券的最大使用次数，以及每张优惠券可提供的最高折扣金额。",
+      "zero_message": "0：没有限制！"
     },
     "duration": {
-      "subtitle": "如果您希望设置优惠券生效的特定时间范围，您可以在此部分配置持续时间。"
+      "subtitle": "如果您希望优惠券在特定时间段内生效，您可以在本节配置使用期限。"
     },
     "design": {
-      "subtitle": "每张优惠券均可添加标题和说明。这些详细信息将对客户可见。"
+      "subtitle": "每张优惠券都可以添加标题和描述。客户将可以看到这些信息。"
     },
     "constraints": {
-      "subtitle": "在这里，您可以为优惠券建立额外的个性化参数。",
+      "subtitle": "在这里，您可以为优惠券建立更多的个性化参数。",
       "no_limit": "无额外限制",
-      "has_limit": "额外约束",
-      "has_code_message": "用户应输入代码来添加优惠券。"
+      "has_limit": "额外限制",
+      "has_code_message": "用户需要输入代码才能添加优惠券。"
     },
     "club": {
-      "subtitle": "此优惠券的使用仅限于选定的客户俱乐部的会员。"
+      "subtitle": "该优惠券的使用可仅限于特定客户俱乐部的会员。"
     },
     "cluster": {
-      "subtitle": "通过将此优惠券与集群关联，您可以轻松地在单个位置将其与其他资源一起进行管理。"
+      "subtitle": "将优惠券与集群相关联，可方便地在单个位置管理它及其他资源。"
     },
     "preview": {
-      "subtitle": "这是优惠券的公开预览。"
+      "subtitle": "以下是该优惠券的公开预览。"
     }
   },
   "offers": {
-    "title": "优惠",
-    "sub_title": "您可以为您的客户创建特别优惠，以便在购买一件商品后，他们会以折扣甚至免费的价格收到另一件商品。",
+    "title": "优惠活动",
+    "sub_title": "您可以为客户创建特别优惠，例如购买一件商品后，获得另一件商品的折扣或免费。",
     "create_new": "添加新优惠",
     "qualified_products": "符合条件的产品",
-    "min_quantity": "最小用量",
-    "min_purchase": "最低购买量",
+    "min_quantity": "最低购买数量",
+    "min_purchase": "最低购买金额",
     "discounted_products": "打折产品",
-    "amount_usage": "使用量",
+    "amount_usage": "使用次数",
     "delete_alert": {
       "title": "删除优惠",
       "message": "您确定要删除此优惠吗？",
@@ -4108,132 +4108,132 @@ export default {
     }
   },
   "offer_edit": {
-    "title_edit": "编辑报价",
-    "title_add": "新报价",
-    "design_style": "设计与风格",
-    "eligible_constraints": "客户合格限制",
+    "title_edit": "编辑优惠",
+    "title_add": "新优惠",
+    "design_style": "设计与样式",
+    "eligible_constraints": "客户使用限制",
     "title_input": "标题",
     "title_input_hint": "您可以输入此折扣代码的标题",
     "description_input": "描述",
     "description_input_hint": "写下这个折扣码的描述",
-    "currency_input_message": "此货币的可用报价。",
+    "currency_input_message": "适用于该货币的优惠。",
     "qualified_products": "符合条件的产品",
-    "qualified_products_message": "对于符合条件的产品，购物车中的商品总数必须等于或大于最小数量。",
-    "min_items": "最少物品数量",
+    "qualified_products_message": "要符合条件，购物车中商品总数必须大于或等于最低数量。",
+    "min_items": "最低商品数量",
     "min_items_message": "客户必须购买的商品数量",
     "discounted_products": {
       "title": "打折产品",
-      "subtitle": "您可以指定此优惠将应用折扣的产品。"
+      "subtitle": "您可以指定此优惠所应用的折扣的产品。"
     },
-    "offered_products": "提供的产品",
-    "offered_products_message": "至少其中一种产品必须在购物车中。",
+    "offered_products": "优惠产品",
+    "offered_products_message": "购物车中至少要包含这些商品之一。",
     "discount_percent": "折扣百分比",
-    "discount_percent_message": "这些项目的折扣百分比。",
+    "discount_percent_message": "这些商品的折扣百分比。",
     "discount_percent_hint": "折扣百分比金额",
     "per_order": "每个订单的最大使用次数",
-    "per_order_message": "报价可应用于订单的最大次数",
+    "per_order_message": "优惠在一个订单中最多可使用的次数",
     "count_input": "数量",
-    "count_input_hint": "最大限度地使用此优惠",
+    "count_input_hint": "优惠的最大使用次数",
     "min_purchase": "最低购买金额",
-    "min_purchase_hint": "购买价格必须大于或等于该值",
-    "limitation": "局限性",
-    "date_start_input": "开始",
-    "date_start_input_placeholder": "选择何时开始使用优惠券",
-    "date_end_input": "结尾",
-    "date_end_input_placeholder": "选择折扣结束的时间",
-    "max_actives_is_3": "您只能同时拥有三个有效的报价。",
-    "enable": "自动申请",
+    "min_purchase_hint": "购买金额必须大于或等于此值",
+    "limitation": "使用限制",
+    "date_start_input": "开始时间",
+    "date_start_input_placeholder": "选择优惠开始时间",
+    "date_end_input": "结束时间",
+    "date_end_input_placeholder": "选择优惠结束时间",
+    "max_actives_is_3": "您最多只能同时启用三个优惠。",
+    "enable": "自动应用",
     "notifications": {
-      "add": "新报价创建成功。",
-      "edit": "优惠更新成功。"
+      "add": "新优惠创建成功。",
+      "edit": "优惠已更新成功。"
     },
     "config": {
-      "subtitle": "通过确定标题、描述和公开可用性状态来开始制定智能交易。"
+      "subtitle": "开始制定一个智能优惠，设置标题、描述和公开可用状态。"
     },
     "limit": {
-      "subtitle": "在本部分中设置此优惠的最大使用限制。"
+      "subtitle": "在此部分设置此优惠的最大使用次数。"
     },
     "duration": {
-      "subtitle": "如果您希望为优惠设置特定的时间范围，您可以在此处配置持续时间。"
+      "subtitle": "如果您希望为优惠设置特定的有效期，可以在这里配置时长。"
     },
     "constraints": {
-      "subtitle": "在此设置优惠的资格标准和条件。优惠适用于符合这些条件的购物车商品。"
+      "subtitle": "在这里设置优惠的使用条件和资格。优惠仅适用于符合条件的购物车商品。"
     },
     "cluster": {
-      "subtitle": "通过将此优惠与集群关联，您可以轻松地在单个位置对其进行与其他资源的管理。"
+      "subtitle": "通过将优惠与集群关联，您可以在一个位置轻松管理它和其他资源。"
     }
   },
   "campaign_ads": {
     "menu": {
-      "banner": "横幅",
-      "reportage": "报告文学",
+      "banner": "横幅广告",
+      "reportage": "报道",
       "social": "社交媒体",
-      "offline": "离线"
+      "offline": "线下推广"
     }
   },
   "emails": {
     "title": "电子邮件营销",
-    "subtitle": "通过拖放、安排和启动活动来设计电子邮件，以提高保留率，并在一个地方查看可靠和准确的信息。",
-    "cation_message": "⚠ 限制为未经验证的商家。 （测试版）",
-    "subject": "学科",
-    "from": "从",
+    "subtitle": "轻松拖放设计电子邮件，安排和发起活动以提升客户留存，在一个方便的位置访问可靠且准确的数据。",
+    "cation_message": "⚠ 请先连接您的邮件服务提供商，以便使用您的自定义域名发送邮件。",
+    "subject": "主体",
+    "from": "发件人",
     "in_que": "等待中",
-    "schedule_at": "安排在",
-    "sent": "发送",
-    "sends": "发送",
-    "delivers": "发表",
-    "views": "意见",
+    "schedule_at": "计划发送时间",
+    "sent": "已发送",
+    "sends": "发送次数",
+    "delivers": "送达次数",
+    "views": "浏览次数",
     "clicks": "点击次数",
-    "buys": "购买",
-    "new_email": "添加新电子邮件",
+    "buys": "购买次数",
+    "new_email": "添加新邮件",
     "new_email_message": "创建和安排新的营销电子邮件"
   },
   "email_dashboard": {
-    "review": "审查",
-    "waiting_for_approve": "等待 {name} 的确认",
-    "approved_by": "电子邮件由 {name} 验证并发送。",
+    "review": "审核",
+    "waiting_for_approve": "等待 {name} 确认",
+    "approved_by": "由 {name} 验证并发送。",
     "not_submitted_send_request": "您尚未提交发送此电子邮件的请求。",
-    "reviewed_by": "由 {name} 审核",
+    "reviewed_by": "已由 {name} 审核",
     "status": "电子邮件状态",
     "conversion": "转化率",
-    "sell_performance": "销售成绩",
-    "total_buys": "销售总数",
-    "amount_buy": "总销售额",
+    "sell_performance": "销售表现",
+    "total_buys": "总销售次数",
+    "amount_buy": "总销售金额",
     "average_sell": "平均销售额",
-    "sessions": "会话",
-    "overview": "概述",
-    "purchase_amount": "采购量",
-    "actions": "用户活动"
+    "sessions": "会话数",
+    "overview": "概览",
+    "purchase_amount": "购买金额",
+    "actions": "用户行为"
   },
   "email_page": {
     "emails": "电子邮件",
     "edit": "编辑"
   },
   "affiliate_page": {
-    "affiliates": "附属合作伙伴",
+    "affiliates": "联盟推广合作伙伴",
     "orders": "订单",
     "payments": "付款"
   },
   "affiliate_dashboard": {
-    "link": "合作伙伴链接",
+    "link": "推广链接",
     "fix_commission": "固定佣金",
     "percent_commission": "基于百分比的佣金",
     "last_payment": "最后一次付款",
-    "balance": "平衡",
-    "total_payment": "总付款",
-    "status": "附属合作伙伴状态和限制",
-    "available_for": "可以用来",
-    "orders_count": "订单金额",
-    "orders_accepted": "接受的订单",
+    "balance": "余额",
+    "total_payment": "总付款金额",
+    "status": "联盟合作伙伴状态和限制",
+    "available_for": "适用于",
+    "orders_count": "订单数量",
+    "orders_accepted": "已接受的订单",
     "finance": "财务报告",
-    "amount_accepted": "接受金额",
-    "amount_paid": "支付的金额",
-    "sessions": "会话",
-    "affiliate_payment": "附属合作伙伴付款",
+    "amount_accepted": "已接受金额",
+    "amount_paid": "已支付的金额",
+    "sessions": "会话数",
+    "affiliate_payment": "联盟合作伙伴付款",
     "amount_payment": "支付金额",
     "amount_payment_hint": "确切的交易金额",
-    "i_paid": "我向 {name} 支付了 {amount} {currency}",
-    "pay_now": "现在付款"
+    "i_paid": "我已经向 {name} 支付了 {amount} {currency}",
+    "pay_now": "立即付款"
   },
   "permission_roles": {
     "new_role": "添加新角色",
@@ -4242,14 +4242,14 @@ export default {
   },
   "user_affiliates": {},
   "shop_lotteries": {
-    "title": "彩票",
-    "sub_title": "您的客户可以玩游戏并获胜。您商店的顾客每场游戏必须消耗 10 个筹码。例如，如果您希望您的客户有机会赢得 1000 美元，您必须将每个筹码价格的金额设置为 100 美元。每个筹码的值为 0 表示买方每次购买将收到一个筹码。",
+    "title": "抽奖（有奖游戏）",
+    "sub_title": "您的客户可以参与游戏并赢取奖品。客户每次游戏需消耗10个筹码。例如，如果您希望客户有机会赢取1000美元，可以将每个筹码价格设置为100美元。筹码价格为0时，买家每次购买可获得一个筹码。",
     "manually_send_chip": "您要手动将筹码发送给用户吗？",
-    "lottery_enable": "是否启用彩票？",
-    "chip_price_input": "芯片价格",
+    "lottery_enable": "是否启用抽奖？",
+    "chip_price_input": "筹码价格",
     "zero_chip_message": "每个订单赠送 1x 筹码",
-    "chip_has_price_message": "每 {amount} {currency} 订单赠送 1 个筹码。",
-    "chip_disabled_message": "芯片被禁用！",
+    "chip_has_price_message": "每 消费 {amount} {currency} 订单赠送 1 个筹码。",
+    "chip_disabled_message": "筹码功能被禁用！",
     "create_new": "添加新奖品",
     "delete_alert": {
       "title": "删除奖品",
@@ -4259,60 +4259,60 @@ export default {
     "notifications": {
       "delete_success": "奖品删除成功。"
     },
-    "manual_send_token_action": "手动令牌",
+    "manual_send_token_action": "手动发放筹码",
     "config": {
-      "subtitle": "通过商店中的游戏化体验来提高顾客的购买量。为通过购买获得代币的顾客设置奖品和获胜几率。每场游戏花费 10 个代币，您可以为首次购买者提供特殊奖品。默认游戏是 Wheel of Fortune，但您可以自定义它以适合您的商店布局。"
+      "subtitle": "通过游戏化体验提升客户购买力。设置奖品和中奖概率，客户通过购买获得筹码。每次游戏消耗10个筹码，您还可以为首次购买者提供特别奖品。默认游戏为幸运转盘，但您可以自定义以适应您的店铺布局。"
     },
     "empty_prize_list": "在此创建和管理奖品..."
   },
   "lottery_edit": {
-    "title_edit": "编辑彩票项目",
-    "title_add": "新彩票项目",
-    "general_config": "一般配置",
-    "design_style": "风格与外观",
+    "title_edit": "编辑抽奖项目",
+    "title_add": "新增抽奖项目",
+    "general_config": "基本配置",
+    "design_style": "样式与外观",
     "enable": "启用？",
-    "enable_message": "一个轮子中的最大物品是 14 个。",
+    "enable_message": "转盘最多可包含14个奖品。",
     "title_input": "标题",
     "title_input_hint": "写一个简短的标题。",
     "description_input": "描述",
-    "description_input_hint": "写一个关于该项目的描述。",
+    "description_input_hint": "写一个关于该奖品的描述。",
     "quantity": "数量",
-    "quantity_message": "可用项目总数",
+    "quantity_message": "可用奖品总数",
     "image": "图片",
-    "image_placeholder": "为项目选择图像",
-    "chance": "机会",
-    "chance_message": "获胜机会百分比",
-    "free_for_first": "新客户免费吗？",
-    "free_for_first_message": "新客户可以赢得这个项目。",
+    "image_placeholder": "为奖品选择图像",
+    "chance": "中奖概率",
+    "chance_message": "中奖概率（百分比）",
+    "free_for_first": "是否对新客户免费？",
+    "free_for_first_message": "新客户可以免费获得此奖品。",
     "prize": {
-      "title": "奖",
+      "title": "奖品",
       "subtitle": "在此设置奖品详情。选项包括折扣代码、礼品卡、积分和其他折扣作为抽奖奖励。"
     },
-    "amount": "奖金金额",
-    "amount_hint": "用户为他们的订单赢得了这笔费用。",
-    "currency_message": "此项目的货币。其他货币按汇率换算。",
+    "amount": "奖品金额",
+    "amount_hint": "用户中奖后订单可抵扣金额。",
+    "currency_message": "此奖品使用的货币，其他货币按汇率换算。",
     "discount": "折扣",
     "discount_message": "客户订单的折扣百分比",
-    "discount_limit": "折扣限额",
-    "discount_limit_hint": "客户的最大折扣。",
+    "discount_limit": "折扣上限",
+    "discount_limit_hint": "客户可享受的最大折扣金额。",
     "color": "颜色",
     "condition": "条件",
     "notifications": {
-      "add": "新彩票项目创建成功。",
-      "edit": "彩票项目更改成功。"
+      "add": "新抽奖奖品创建成功。",
+      "edit": "抽奖奖品更改成功。"
     },
     "not_free_for_first_message": "首次免费游戏不提供此奖品。",
     "config": {
-      "subtitle": "您可以在此处创建商店的抽奖奖品。设置每个奖品的标题、描述、颜色和图像。"
+      "subtitle": "您可以在此处创建商店的抽奖奖品。设置每个奖品的标题、描述、颜色和图片。"
     },
     "design": {
-      "subtitle": "在这里，您可以选择奖品的图像和颜色。"
+      "subtitle": "在这里，您可以为奖品选择图片和颜色。"
     },
     "constraints": {
-      "subtitle": "明确赢得该奖项的标准和限制。"
+      "subtitle": "指定赢得此奖品的条件和限制。"
     },
     "product_input": {
-      "label": "产品奖",
+      "label": "产品奖品",
       "message": "选择一件产品作为奖品（免费）"
     }
   },
@@ -4321,18 +4321,18 @@ export default {
     "message": "从列表中选择礼品卡类型。"
   },
   "email_builder": {
-    "service_unavailable": "邮件服务器在您的帐户中未激活。",
-    "design_section": "您的电子邮件设计板",
-    "schedule_switch": "安排电子邮件发送？",
+    "service_unavailable": "您的账户中邮件服务器未激活。",
+    "design_section": "您的电子邮件设计模板",
+    "schedule_switch": "安排发送邮件？",
     "schedule_placeholder": "选择发送电子邮件的时间"
   },
   "user_funnel": {
     "REGISTER_DATE": {
       "title": "注册日期",
-      "description": "按用户注册日期过滤。"
+      "description": "按用户注册日期筛选。"
     },
     "LAST_BUY_DATE": {
-      "title": "最后一次购买",
+      "title": "最后购买",
       "description": "最后购买日期。"
     },
     "LOGIN_DATE": {
@@ -4341,68 +4341,68 @@ export default {
     },
     "LEVEL": {
       "title": "客户俱乐部",
-      "description": "客户俱乐部成员。"
+      "description": "客户俱乐部会员。"
     },
     "SUBSCRIBED": {
-      "title": "订阅",
-      "description": "订阅接收电子邮件。"
+      "title": "已订阅",
+      "description": "已订阅接收邮件。"
     },
     "NOT_PURCHASED": {
-      "title": "没有购买",
-      "description": "到目前为止还没有购买的客户。"
+      "title": "未购买",
+      "description": "至今未购买的客户。"
     },
     "SEX": {
       "title": "性别",
       "description": "用户性别。"
     },
     "LOCATION": {
-      "title": "地点",
+      "title": "位置",
       "description": "用户位置。"
     },
     "LIMIT": {
       "title": "限制",
-      "description": "设置最大用户数限制。"
+      "description": "设置用户最大数量限制。"
     },
     "SEGMENTS": {
       "title": "细分市场",
-      "description": "将客户限制在特定的手动细分中。"
+      "description": "限制特定手动分组内的客户。"
     }
   },
   "inline_help": {
-    "helps_title": "服务用户指南",
+    "helps_title": "服务使用指南",
     "blogs_title": "Selldone 博客中的相关内容"
   },
   "shop_tax": {
     "region": "地区",
     "label": "标签",
-    "country_tax": "国税",
-    "customer_tax": "客户增值税",
-    "business_tax": "营业增值税",
-    "shipping": "船运",
+    "country_tax": "国家税率",
+    "customer_tax": "客户增值税VAT",
+    "business_tax": "企业增值税VAT",
+    "shipping": "运费",
     "override": "覆盖",
     "country": "国家",
     "vat_range": "增值税范围",
-    "custom": "风俗",
+    "custom": "自定义",
     "regions": "地区",
-    "rest_world": "剩下的世界",
+    "rest_world": "世界其他地区",
     "overrides": "覆盖",
-    "dialog_set_title": "税收设置",
-    "tax_setting": "税收设置",
-    "vat": "VAT",
-    "calculate_tax_input": "自动计算税金",
-    "calculate_tax_message": "通过激活此选项，将计算增值税并将其应用于您的订单。",
+    "dialog_set_title": "税务设置",
+    "tax_setting": "税务设置",
+    "vat": "VAT增值税",
+    "calculate_tax_input": "自动计算税费",
+    "calculate_tax_message": "启用此选项后，增值税将自动计算并应用于您的订单。",
     "tax_number": "税号",
-    "tax_number_message": "输入您的税号。该注册号将记录在买方的发票中。",
+    "tax_number_message": "请输入您的税号。此注册号将记录在买家的发票中。",
     "tax_included_in_price_input": "产品价格含税",
     "tax_included_in_price_message": "如果您在产品价格中包含税额，请选择此选项。税额将使用以下公式计算：",
     "tax_included_in_price_formula": "税额=（价格*增值税）/（1+增值税），例如，价格为100美元、增值税率为10%的产品的税额为9.09美元。",
     "tax_on_shipping_input": "对运费征税",
-    "tax_on_shipping_message": "通过选择此选项，税费将应用于运费。",
+    "tax_on_shipping_message": "选择此项则税费将应用于运费。",
     "fixed_tax_rate": "固定税率",
     "dynamic_tax_rate": "按地区计税",
-    "locations_tip": "上面的列表仅显示您在商店设置 > 地点中选择的国家作为您销售的国家。",
+    "locations_tip": "上方列表仅显示您在店铺设置 > 地点 中选择的销售国家。",
     "locations_action": "店铺位置设置",
-    "save_alert": "设置不保存！",
+    "save_alert": "设置未保存！",
     "pos_tax_setting": "POS 税务设置",
     "tax_exclude_title": "排除|结帐时将添加税费",
     "tax_excluded_message": "税费将在结账时在付款前计算，并根据您的客户证据添加到不含税价格中。"
@@ -4412,38 +4412,38 @@ export default {
       "dashboard": "仪表盘",
       "transportations": "运输方式",
       "orders": "订单",
-      "setting": "环境",
-      "delivery_services": "服务",
-      "delivery_persons": "快递员"
+      "setting": "设置",
+      "delivery_services": "配送服务",
+      "delivery_persons": "快递公司"
     },
     "go_to_courier_list": "查看快递列表",
     "go_to_service_list": "查看运输服务列表"
   },
   "transportation_persons": {
-    "title": "快递员",
+    "title": "快递公司",
     "notifications": {
-      "success_add": "快递员补充道。",
-      "success_reset": "统计重置。",
-      "success_remove": "快递删除成功。",
-      "success_update": "快递信息更新成功。"
+      "success_add": "已添加快递公司。",
+      "success_reset": "已重置统计数据。",
+      "success_remove": "已成功移除快递公司。",
+      "success_update": "已成功更新快递公司信息。"
     },
     "reset": {
-      "title": "重置统计信息",
-      "message": "您确定要重置此快递员的统计信息吗？",
+      "title": "重置统计数据",
+      "message": "您确定要重置此快递公司的统计数据吗？",
       "action": "是的，立即重置"
     },
     "remove": {
-      "title": "删除信使",
-      "message": "你确定要删除这个快递吗？",
+      "title": "移除快递公司",
+      "message": "您确定要删除此快递公司吗？",
       "action": "是的，立即移除"
     },
     "add_dialog": {
-      "title": "添加新快递",
-      "action": "添加快递"
+      "title": "添加新快递公司",
+      "action": "加快递公司"
     }
   },
   "transportation_orders": {
-    "title": "发货订单",
+    "title": "运输订单",
     "notifications": {
       "success_update": "发货状态更新成功。",
       "success_payment": "货到付款确认成功。"
@@ -4452,12 +4452,12 @@ export default {
   "delivery_person": {
     "actions_title": "快递设置",
     "action_delivered": "已发货",
-    "action_paid": "货到付款",
-    "action_returned": "回来",
+    "action_paid": "货到付款已支付",
+    "action_returned": "已退货",
     "cod_confirm_action": "确认货到付款",
     "pickup_dialog": {
-      "title": "你是这个包裹的快递员吗？",
-      "message": "如果您负责运送此包裹，请选择是，否则选择否。"
+      "title": "您是此包裹的快递公司吗？",
+      "message": "如果您负责运输此包裹，请选择“是”。否则，请选择“否”。"
     },
     "status_dialog": {
       "title": "将状态更改为 {status}",
@@ -4467,78 +4467,78 @@ export default {
     "cod_dialog": {
       "title": "货到付款",
       "message": "您是否确认已收到买家的订单金额？",
-      "action": "是的，我确认付款！"
+      "action": "是的，我确认！"
     }
   },
   "transportation_services": {
-    "title": "送货服务",
+    "title": "配送服务",
     "notifications": {
-      "success_add": "增加了送货服务。",
-      "success_reset": "统计重置。",
-      "success_remove": "服务已成功删除。",
-      "success_update": "服务更新成功。"
+      "success_add": "已添加配送服务。",
+      "success_reset": "已重置统计数据。",
+      "success_remove": "已成功删除该服务。",
+      "success_update": "已成功更新该服务。"
     },
     "reset": {
-      "title": "重置统计信息",
-      "message": "您确定要重置此服务的统计信息吗？",
+      "title": "重置统计数据",
+      "message": "您确定要重置该服务的统计数据吗？",
       "action": "是的，立即重置"
     },
     "remove": {
-      "title": "删除送货服务",
+      "title": "删除配送服务",
       "message": "您确定要删除此服务吗？",
       "action": "是的，立即移除"
     },
     "add_dialog": {
-      "title": "添加新的送货服务",
+      "title": "添加新的配送服务",
       "action": "添加服务"
     }
   },
   "delivery_receipt": {
-    "title": "交货收据",
-    "has_return": "退货",
+    "title": "配送收据",
+    "has_return": "退货配送",
     "cashed": "现金支付"
   },
   "delivery_dashboard": {
     "select_destinations": "将订单添加到列表",
-    "price_calculation": "估算运费",
+    "price_calculation": "预估运费",
     "price_calculation_action": "计算价格",
     "add_request": "请求服务",
     "add_request_action": "提交服务请求",
-    "refresh_action": "更新资料"
+    "refresh_action": "更新信息"
   },
   "delivery_order": {
-    "title": "装货单",
-    "has_return": "退货",
+    "title": "配送订单",
+    "has_return": "退货配送",
     "cashed": "现金支付"
   },
   "cash_register": {
     "menu": {
-      "panel": "收银机",
+      "panel": "收银台",
       "orders": "订单",
       "customers": "顾客",
       "devices": "设备",
-      "inventory": "存货"
+      "inventory": "库存"
     },
     "payment_confirm": "付款确认",
-    "payment_confirm_msg": "客户支付订单 {basket_id}。"
+    "payment_confirm_msg": "客户已支付订单 {basket_id}。"
   },
   "barcode_scanner": {
-    "wifi_pass": "您的无线网络密码",
-    "message": "输入您的 WiFi 路由器密码并扫描二维码。",
+    "wifi_pass": "您的WiFi密码",
+    "message": "请输入您的WiFi路由器密码并扫描二维码。",
     "wifi_ssid": "无线网络SSID",
     "ssid_message": "输入您的 Wi-Fi 网络名称 (SSID)。"
   },
   "pos_devices": {
     "Scanner": "条码扫描器",
-    "Scanner_desc": "要使用条码扫描器，您必须在产品设置中正确输入产品 SKU 代码。",
+    "Scanner_desc": "使用条码扫描器时，您可以在产品设置中正确输入产品的SKU代码。",
     "Printer": "打印机",
-    "Printer_desc": "通过连接到收据打印机打印您的客户收据。",
-    "CustomerView": "客户视图",
+    "Printer_desc": "通过连接收据打印机为您的客户打印收据。",
+    "CustomerView": "客户显示屏",
     "CustomerView_desc": "此页面使您能够向客户显示订单详细信息。",
-    "CardReader": "读卡器",
-    "CardReader_desc": "您的客户用于货到付款的读卡器设备。",
-    "ChipReader": "芯片阅读器",
-    "ChipReader_desc": "NFC 标签阅读器使用标签将商品添加到购物车。"
+    "CardReader": "刷卡器",
+    "CardReader_desc": "供客户使用的货到付款刷卡设备。",
+    "ChipReader": "芯片读取器",
+    "ChipReader_desc": "使用NFC标签读取器，通过标签将商品添加到购物车。"
   },
   "pos_register_devices": {
     "delete_dialog": {
@@ -4550,11 +4550,11 @@ export default {
   "pos_process_center": {
     "title": "POS订单处理中心",
     "menu": {
-      "label": "包装标签",
+      "label": "包裹标签",
       "receipt": "收据",
-      "back": "后退",
+      "back": "返回",
       "timeline": "时间线",
-      "order": "命令"
+      "order": "订单"
     }
   },
   "pos": {
@@ -4563,18 +4563,18 @@ export default {
     "add_giftcards": "添加礼品卡",
     "add_discount_code": "添加折扣码",
     "add_coupon": "添加优惠券",
-    "set_campaign": "设置广告系列",
+    "set_campaign": "设置活动",
     "select_buyer": "选择买家！",
-    "send_to_pos": "发送到读卡机",
+    "send_to_pos": "发送到刷卡机",
     "print_receipt": "打印收据",
     "confirm_cash_payment": "确认现金支付",
     "payment_cod": {
       "title": "货到付款",
-      "message": "此订单的金额将在交货时支付。收到买家的款项后，您必须确认付款才能在系统中完成订单。"
+      "message": "该订单款项将在送货时支付。收到买家付款后，您可以确认付款，以完成系统中的订单。"
     },
     "payment_online": {
       "title": "选择在线支付方式",
-      "message": "通过选择以下选项，将创建一个付款链接并将其发送给买家。通过支付此链接，订单状态将变为已支付模式。付款链接将通过扫描客户屏幕上的二维码、短信或电子邮件生成。要激活任何渠道以发送链接，请单击该选项，然后按下按钮向买家发送收据。"
+      "message": "选择以下选项后，将生成支付链接并发送给买家。买家通过该链接付款后，订单状态将变为已付款。支付链接可通过扫描客户屏幕上的二维码、短信或电子邮件生成。要启用任何渠道发送链接，点击该选项，然后按按钮发送收据给买家。"
     },
     "notifications": {
       "success_pay": "订单付款完成。",
@@ -4583,61 +4583,61 @@ export default {
     "payment_dialog": {
       "check_pay_now": "手动检查付款",
       "close_action": "关闭对话框。我不想等待客户付款",
-      "go_to_order": "前往订购页面",
-      "paid_by_gift_card_msg": "总订单金额已从礼品卡中提取！买家无需支付更多费用。",
-      "cod_msg": "客户将在收到订单时付款。",
-      "online_msg": "请客户扫描客户屏幕上的二维码。"
+      "go_to_order": "前往订单页面",
+      "paid_by_gift_card_msg": "订单总金额已从礼品卡扣除！买家无需再付款。",
+      "cod_msg": "客户将在收货时付款。",
+      "online_msg": "请客户扫描客户屏幕上的二维码进行支付。"
     },
     "name": "POS",
-    "message": "让您的零设置成本在线销售点，在任何智能手机、平板电脑和 PC 上运行，或手动创建订单。"
+    "message": "享受零配置成本的在线销售点系统，支持在智能手机、平板和电脑上运行，亦可手动创建订单。"
   },
   "exporter": {
     "title": "导出数据",
     "subtitle": "您的数据属于您！您可以随时以标准格式下载您的业务信息。但是，请尊重您客户的隐私，不要向他们发送垃圾邮件，也不要与第三方共享他们的信息。",
-    "excel": "您将收到商店中所有 {type} 的列表以及 Excel 格式的完整信息。",
-    "csv": "您将收到商店中所有 {type} 的列表以及 CSV 格式的完整信息。此格式符合 Selldone 将 {type} 导入商店的标准格式。"
+    "excel": "您将收到店铺中所有 {type} 的完整信息列表，格式为Excel文件。",
+    "csv": "您将收到店铺中所有 {type} 的完整信息列表，格式为CSV文件。此格式符合 Selldone 标准格式，方便导入 {type} 到店铺中。"
   },
   "importer": {
     "category": {
-      "title": "导入类别",
+      "title": "导入分类",
       "subtitle": "在此处上传类别的 CSV 文件。确保遵循标准格式。"
     },
     "product": {
-      "title": "进口产品",
+      "title": "导入产品",
       "subtitle": "在此处上传产品的 CSV 文件。确保遵循标准格式。"
     },
     "product_images": {
-      "title": "导入图像",
-      "subtitle": "接收图像信息非常耗时。导入图像时请务必尊重版权。"
+      "title": "导入图片",
+      "subtitle": "导入图片信息较为耗时。导入时请遵守版权法律。导入失败的图片将在7天后自动从列表中删除。"
     },
     "inventory": {
       "title": "批量更新库存",
       "subtitle": "在此处上传库存的 CSV 文件。确保遵循标准格式，首先导出 CSV 文件，然后编辑该文件。"
     },
     "back_to_products": "返回产品列表",
-    "back_to_categories": "返回类别列表",
-    "back_to_inventory": "返回库存清单",
+    "back_to_categories": "返回分类列表",
+    "back_to_inventory": "返回库存列表",
     "step_select_file": "选择 CSV 文件",
     "step_send_to_server": "发送到服务器",
     "step_view_result": "查看结果",
-    "step_view_que": "查看等候名单",
+    "step_view_que": "查看等待列表",
     "send_to_server_action": "发送到服务器",
-    "shop_license": "店铺执照",
-    "max_items_limit": "最大项目限制",
-    "total_items": "项目总数",
+    "shop_license": "店铺许可证",
+    "max_items_limit": "最大商品数量限制",
+    "total_items": "商品总数",
     "customer": {
       "title": "导入客户",
       "subtitle": "在此处上传客户的 CSV 文件。确保您遵循标准格式，并且您必须遵守隐私规则。"
     }
   },
   "campaigns": {
-    "title": "活动",
-    "subtitle": "创建活动、可跟踪链接，并在一处查看可靠且准确的信息。我们帮助您做出更好的数据驱动决策。",
-    "add_action": "添加新广告系列",
-    "empty_message": "立即创建您的第一个广告系列！",
+    "title": "营销活动",
+    "subtitle": "创建营销活动和可追踪链接，一处查看可靠且准确的信息。我们帮助您做出更好的数据驱动决策。",
+    "add_action": "新增营销活动",
+    "empty_message": "立即创建您的第一个营销活动！",
     "delete": {
-      "title": "删除广告系列",
-      "message": "您确定要删除此广告系列和所有数据吗？",
+      "title": "删除营销活动",
+      "message": "您确定要删除此营销活动及其所有数据吗？",
       "action": "是的，立即删除"
     }
   },
@@ -4649,73 +4649,73 @@ export default {
     "food": "食品和水果",
     "house": "房地产和房屋",
     "device": "机器和设备",
-    "car": "车",
+    "car": "汽车",
     "software": "软件",
-    "clothing": "服装鞋履",
+    "clothing": "服装与鞋类"",
     "jewellery": "珠宝",
     "all": "所有模板"
   },
   "shop_theme": {
     "theme_colors": "主题颜色",
-    "products_view_mode": "购物清单视图",
-    "products_view_mode_desc": "您可以根据屏幕大小调整商店中产品的显示方式。默认情况下会考虑此模式，如果用户更改显示模式，则不会应用此模式。",
-    "color_light": "原色",
-    "color_dark": "原色深色",
-    "color_deep_dark": "深沉的颜色",
+    "products_view_mode": "商品列表视图",
+    "products_view_mode_desc": "您可以根据屏幕尺寸调整店铺中商品的显示模式。此模式为默认模式，用户手动更改显示模式时则不会应用。",
+    "color_light": "主色",
+    "color_dark": "主暗色",
+    "color_deep_dark": "深暗色",
     "color_info": "链接",
-    "light_checkout": "轻型结帐主题",
-    "light_header": "灯头",
-    "light_footer": "浅色页脚",
+    "light_checkout": "结账主题",
+    "light_header": "页眉主题",
+    "light_footer": "页脚主题",
     "product_page": "产品页面",
     "typography": "排版",
     "header": "标题",
     "custom_code": "自定义代码",
     "custom_css": "自定义 CSS",
-    "light_filter": "类别过滤主题",
+    "light_filter": "分类筛选主题",
     "custom_variants": "变体"
   },
   "app_templates": {
     "default": "默认",
-    "blue": "蓝色的海洋",
+    "blue": "蓝色海洋",
     "amber": "琥珀色",
-    "green": "赤道",
-    "red": "吸血鬼",
-    "magenta": "花",
-    "master": "掌握",
-    "black": "暗面"
+    "green": "赤道绿",
+    "red": "吸血鬼红",
+    "magenta": "花色",
+    "master": "大师风",
+    "black": "黑暗面"
   },
   "affiliate_orders": {
-    "title": "附属合作伙伴订单",
+    "title": "联盟合作伙伴订单",
     "table": {
       "order_price": "订单金额",
       "order_payment": "订单付款状态",
-      "order_link": "订购链接",
+      "order_link": "订单链接",
       "commission_status": "佣金状况",
       "commission_amount": "佣金金额",
-      "items": "项目",
-      "actions": "行动",
+      "items": "商品",
+      "actions": "操作",
       "create_date": "创建日期"
     },
     "notifications": {
-      "update_success": "会员状态已更新。"
+      "update_success": "联盟状态已更新。"
     }
   },
   "affiliate_payments": {
-    "title": "附属合作伙伴付款",
+    "title": "联盟合作伙伴付款",
     "table": {
-      "staff": "职员",
-      "amount": "数量",
-      "note": "笔记",
+      "staff": "员工",
+      "amount": "金额",
+      "note": "备注",
       "date": "日期"
     }
   },
   "my_roles": {
     "title": "我的角色",
-    "message": "角色是授予商店员工的访问权限类型。例如，负责发送或包装订单的工作人员。"
+    "message": "角色代表授予店铺员工的具体访问权限。例如，角色可以分配给负责订单处理的员工，如发货或包装人员。"
   },
   "role_card": {
     "complete_tasks": "已完成的任务",
-    "reject_tasks": "被拒绝的任务",
+    "reject_tasks": "已拒绝的任务",
     "last_check": "最近的检查"
   },
   "referral_widget": {
@@ -4725,26 +4725,26 @@ export default {
     "invited_gift": "特邀礼物",
     "percent_bonus": "百分比奖金",
     "discount_bonus": "折扣奖金",
-    "registered": "新的用户",
-    "accepted": "接受用户"
+    "registered": "新注册用户",
+    "accepted": "接受的用户"
   },
   "app_config": {
-    "reviews": "评论",
-    "rate_now": "现在就评价吧",
-    "category": "类别",
+    "reviews": "评价",
+    "rate_now": "立即评分",
+    "category": "分类",
     "uninstall": "卸载",
     "get_app": "获取应用",
     "public_keys": "公钥",
     "private_keys": "私钥（安全）",
     "config": "应用配置",
-    "app_status": "申请状态",
-    "app_info": "申请信息",
+    "app_status": "应用状态",
+    "app_info": "应用信息",
     "update_at": "最近更新",
     "visit_website": "访问网站",
     "privacy": "隐私政策",
-    "installs": "安装",
+    "installs": "安装次数",
     "basic_profile_permission": "基本资料信息",
-    "developer": "开发商",
+    "developer": "开发者",
     "permissions": "权限",
     "total_comments": "总评论",
     "delete_dialog": {
@@ -4757,26 +4757,26 @@ export default {
     }
   },
   "shop_bots": {
-    "not_set": "没有设置！",
-    "tokens": "代币",
-    "webhook": "网络钩子",
-    "calls": "来电",
+    "not_set": "未设置！",
+    "tokens": "令牌",
+    "webhook": "回调接口webhook",
+    "calls": "调用次数",
     "dialog": {
       "title": "{name} 机器人配置",
-      "message": "用于构建企业级购物体验的综合机器人框架。"
+      "message": "一个用于构建企业级购物体验的综合机器人框架。"
     }
   },
   "shop_customers": {
     "title": "客户管理",
     "all_customers": "下载所有客户",
-    "filtered_customers": "过滤的客户",
+    "filtered_customers": "筛选后的客户",
     "dialog_chips": {
-      "title": "设置客户筹码数量"
+      "title": "设置客户积分数量"
     },
     "dialog_club": {
       "title": "设置客户俱乐部级别"
     },
-    "subtitle": "您可以通过多种方式将客户添加到您的商店：手动、批量 Excel 导入、通过 POS 或通过您的在线商店。每当用户登录您的商店时，他们都会自动注册为客户。",
+    "subtitle": "客户可以通过多种方式添加到您的店铺：手动添加、批量导入Excel、通过POS系统，或通过您的在线商店。每当用户登录您的店铺时，他们会自动注册为客户。",
     "add_customer_action": "添加新客户"
   },
   "app_dashboard": {
@@ -4784,15 +4784,15 @@ export default {
     "statistics": "统计数据"
   },
   "app_publish": {
-    "production_version": "生产版本",
-    "beta_version": "测试版",
-    "alpha_version": "阿尔法版本"
+    "production_version": "正式版本",
+    "beta_version": "测试版本",
+    "alpha_version": "内部测试版本"
   },
   "app_publish_widget": {
-    "header": "商店网站标题",
-    "header_code": "标头代码",
+    "header": "店铺网站页眉",
+    "header_code": "页眉代码",
     "admin_page": "管理页面",
-    "name": "姓名",
+    "name": "名称",
     "icon": "图标",
     "url": "网址"
   },
@@ -4801,53 +4801,53 @@ export default {
     "revoke_api": "撤销 API",
     "api_key": "API 密钥",
     "secret": "密钥",
-    "client": "客户",
+    "client": "客户端",
     "redirect_url": "重定向网址",
-    "client_name": "客户名称"
+    "client_name": "客户端名称"
   },
   "app_loader_page": {
     "no_ui_title": "此应用程序没有任何用户界面！",
-    "no_ui_desc": "某些应用程序在其管理区域中不需要用户界面。此应用程序只能将代码添加到您商店网站的标题部分。",
-    "header": "标头代码"
+    "no_ui_desc": "有些应用在管理后台不需要用户界面。此应用可能仅向您的店铺网站页眉部分添加代码。",
+    "header": "页眉代码"
   },
   "finance_report": {
     "export_title": "导出财务数据",
-    "export_sub_title": "在单个文件中下载财务详细信息。",
+    "export_sub_title": "获取包含财务信息的单一文件。包括在线和店内订单详情，以及所选时间段内的按产品分类的销售数据。",
     "start_input_placeholder": "选择报告开始日期",
     "end_input_placeholder": "选择报告的结束日期",
-    "download_action": "下载财务清单"
+    "download_action": "下载财务数据清单"
   },
   "shop_notifications": {
-    "title": "商店通知",
-    "sub_title": "机器人、电子邮件、短信、...",
-    "message": "编辑您的商店通知设置和首选项",
+    "title": "店铺通知",
+    "sub_title": "机器人、电子邮件、短信...",
+    "message": "编辑您的店铺通知设置和偏好",
     "channel": "渠道",
-    "status": "地位",
-    "events": "活动",
+    "status": "状态",
+    "events": "事件",
     "info": "信息",
-    "actions": "行动",
-    "connected": "连接的",
+    "actions": "操作",
+    "connected": "已连接",
     "not_connected": "未连接！",
     "connect_now": "立即连接",
     "send_test": "发送测试数据",
-    "disconnect": "断开",
+    "disconnect": "断开链接",
     "dialog": {
       "title": "机器人配置",
-      "message": "用于构建企业级电子商务体验的综合通知框架。",
+      "message": "一个全面的通知框架，用于构建企业级电商体验。",
       "action": "点击这里！",
       "set_config": "设置配置"
     }
   },
   "notification_events": {
-    "new_order": "🛍️ 订购",
+    "new_order": "🛍️ 订单",
     "payment": "💳 付款",
-    "return": "📦 返回",
+    "return": "📦 退货",
     "weekly_report": "📈 每周报告"
   },
   "order_delivery": {
-    "title": "交货",
+    "title": "配送",
     "add_to_delivery_que_action": "添加到发货队列",
-    "in_que": "在运送队列中",
+    "in_que": "在发货队列中",
     "message": "将包裹交给快递员后，单击“<b>确认交货</b>”按钮。",
     "message_add_to_service": "如果您想通过<b>送货服务</b>发送此包裹，请单击以下按钮。",
     "action": "发货确认",
@@ -4856,95 +4856,95 @@ export default {
       "良好的产品包装和及时的交货可以提高您的客户保留率。"
     ],
     "manual": {
-      "title": "等待客户确认发货。",
+      "title": "等待客户确认收货。",
       "action_received": "买家确认",
-      "action_returned": "交货退货",
-      "message": "注意：如果客户收到订单，您可以使用以下选项来完成履行。系统中的部分配送服务会自动确认配送。"
+      "action_returned": "配送退回",
+      "message": "注意：如果客户已收到订单，您可以使用以下选项完成订单履行。系统中的部分配送服务会自动确认送达。"
     },
-    "auto_complete_note": "一段时间后，订单状态将更改为已发货。此期限因订单类型而异，由系统确定。",
+    "auto_complete_note": "经过一定时间后，订单状态将自动更改为已送达。该时间长度取决于订单类型，由系统决定。",
     "received": {
-      "title": "交付给客户。",
-      "delivered_date": "邮寄日期"
+      "title": "已送达客户。",
+      "delivered_date": "送达日期"
     },
-    "receiver": "接收者",
+    "receiver": "收件人",
     "bill": "收据",
     "tracking": {
-      "title": "添加跟踪代码/网址",
-      "code": "跟踪代码",
+      "title": "添加追踪码/网址",
+      "code": "追踪码",
       "url": "跟踪网址",
-      "message": "如果您通过提供此订单跟踪代码的服务发货，您可以在此部分输入代码和相关跟踪链接。此信息将显示给客户。"
+      "message": "如果您使用了提供订单追踪码的配送服务，可以在此处输入追踪码及相关链接。该信息将展示给客户。"
     },
-    "preferred_delivery_time": "首选交货时间",
-    "manage_couriers": "管理我的快递员",
-    "manage_service": "管理服务",
-    "option_deliver_by_courier": "选项 1：由您的快递员送货。",
+    "preferred_delivery_time": "首选送货时间",
+    "manage_couriers": "管理我的快递公司",
+    "manage_service": "管理配送服务",
+    "option_deliver_by_courier": "选项 1：由您的快递公司送货。",
     "option_add_to_que": "选项 2：添加到队列以在运输服务页面上处理。",
-    "option_instant_shipping": "选项 3：即时发货。",
+    "option_instant_shipping": "选项 3：即时配送。",
     "pickup_action": "取件确认",
     "courier_action": "发货确认",
-    "courier_action_subtitle": "我的快递员会收取包裹。",
-    "pickup_action_subtitle": "顾客领取了订单。",
+    "courier_action_subtitle": "我的快递公司会收取包裹。",
+    "pickup_action_subtitle": "揽收订单包裹。",
     "service_action": "执行确认"
   },
   "shop_home_edit": {
     "title": "主页设置",
-    "sub_title": "设置您的网站默认页面",
+    "sub_title": "您可以在此部分设置您网站的默认首页。您也可以通过域名设置为每个域名分别指定自定义首页。",
     "default_home": "默认主页",
-    "default_home_placeholder": "店铺页面是网站首页"
+    "default_home_placeholder": "店铺页面即是网站首页"
   },
   "selldone_referral_page": {
-    "title": "推荐仪表板",
-    "referral_link": "推荐链接",
-    "registered": "挂号的",
-    "accepted": "公认",
+    "title": "推广仪表板",
+    "referral_link": "推广链接",
+    "registered": "已注册",
+    "accepted": "已接受",
     "bank": "银行",
-    "bank_title": "取款银行信息",
+    "bank_title": "提现银行信息",
     "new_users": "新用户",
     "performance": "表现",
     "credit_mode": "信用模式",
-    "get_stickers": "获取贴纸 Html 代码以复制和粘贴",
+    "get_stickers": "获取 Html 代码以复制和粘贴",
     "click_copy_sticker_code": "单击徽章以复制 html 代码。"
   },
   "selldone_referral_payment": {
-    "title": "推荐付款",
-    "officer": "官",
-    "amount": "金额交易",
-    "note": "笔记",
+    "title": "提现记录",
+    "officer": "负责人",
+    "amount": "交易金额",
+    "note": "备注",
     "date": "日期",
-    "subtitle": "这是提款交易的列表。当您将资金从推荐钱包转入您的银行账户或 Selldone 钱包时，它将列在这里。"
+    "subtitle": "这是提现交易的清单。当您将推广钱包中的资金转入银行账户或 Selldone 钱包时，记录会显示在这里。"
   },
   "widget_shop_gateway": {
-    "link_account_caution": "将帐户 ({currency}) 链接到您的商店！点击这里.."
+    "link_account_caution": "将钱包 ({currency}) 链接到您的商店！点击这里.."
   },
   "product_sell_widget": {
     "title": "产品销售业绩"
   },
   "fulfilment_order_widget": {
-    "title": "代发货履行",
-    "check_action": "接受直销",
+    "title": "代发货履单",
+    "check_action": "接受代发货",
     "uncheck_action": "订单已确认",
-    "pay_action": "支付项目成本..",
+    "pay_action": "支付商品成本..",
     "pay_completed": "付款确认",
-    "list_of_items": "转售物品",
+    "list_of_items": "代售商品清单",
     "checklist": [
-      "将您间接销售的产品金额支付给原始卖家。",
-      "您可以在会计部分>商店的Dropshipping中将产品成本一起支付和结算给供应商。",
-      "付款后，供应商将收到您的订单，并在准备好后直接发送给买家。"
+      "向原卖家间接支付您所售商品的金额。",
+      "您可以在商店的会计>代发货部分统一支付和结清商品成本。",
+      "支付后，供应商会收到您的订单并在备货后直接发给买家。"
     ],
-    "message": "向供应商支付订单费用后，请参阅本节发送订单的进度。"
+    "message": "在向供应商支付订单费用后，您可以在此查看订单的发货进度。"
   },
   "drop_shipping": {
     "menu": {
       "dashboard": "仪表盘",
       "orders": "订单",
-      "inventory": "存货",
+      "inventory": "库存",
       "shops": "经销商",
-      "requests": "要求"
+      "requests": "请求"
     },
-    "drop_shipping_charge": "托运费用"
+    "drop_shipping_charge": "代发货费用"
   },
   "dropship_request_status": {
-    "PENDING": "待办的",
+    "PENDING": "待处理",
     "ACCEPT": "接受",
     "REJECT": "拒绝"
   },
@@ -4956,155 +4956,155 @@ export default {
     }
   },
   "dropshipping_reseller_dashboard": {
-    "title": "经销商仪表板"
+    "title": "分销商仪表板"
   },
   "dropshipping_reseller_orders": {
-    "title": "经销商订单"
+    "title": "分销商订单"
   },
   "dropshipping_reseller_wallet": {
-    "title": "经销商钱包"
+    "title": "分销商钱包"
   },
   "master_payment": {
     "notifications": {
       "payment_success_title": "付款确认",
       "payment_success": "付款完成。",
-      "buy_title": "买",
-      "pay_by_giftcards": "您的订单是使用礼品卡支付的。",
+      "buy_title": "购买",
+      "pay_by_giftcards": "您的订单已使用礼品卡支付。",
       "free_order": "您的订单是免费的。",
-      "pay_by_cod": "您的订单已注册为货到付款。",
-      "pay_by_dir": "您的订单已注册为直接付款，请在您的订单页面完成付款并上传收据。",
-      "pay_title": "支付",
+      "pay_by_cod": "您的订单已登记为货到付款。",
+      "pay_by_dir": "您的订单已登记为直接支付，请在订单页面完成付款并上传收据。",
+      "pay_title": "付款",
       "qr_code_payment": "付款二维码已创建。",
-      "connecting_to_online_gateway": "连接到在线支付网关。"
+      "connecting_to_online_gateway": "正在连接到在线支付网关。"
     }
   },
   "dropship_charges": {
     "notifications": {
       "pay_confirm_message": "付款已确认。<br>日期：{payment_at}",
-      "pay_fail_title": "没有支付",
+      "pay_fail_title": "未支付",
       "pay_fail_message": "付款无法验证！"
     }
   },
   "dropship_checkout": {
     "pay_dialog": {
-      "title": "经销商订单付款",
+      "title": "分销商订单付款",
       "balance": "您的账户余额",
       "total_cost": "总订单成本",
-      "need_charge": "需要充电",
-      "no_account_cation": "你没有账号！致电批发商。",
+      "need_charge": "需要充值",
+      "no_account_cation": "您没有账户！请联系批发商。",
       "orders": "订单"
     },
     "notifications": {
-      "success_pay": "您对这些订单的付款已确认并成功完成。"
+      "success_pay": "您已成功支付这些订单，付款已确认完成。"
     }
   },
   "dropship_accounts": {
-    "charge_account": "付费账号",
+    "charge_account": "账户充值",
     "charge_dialog": {
-      "title": "收取直销帐户",
-      "amount_input": "账户费用",
-      "charge_now": "立即充电"
+      "title": "充值分销帐户",
+      "amount_input": "充值金额",
+      "charge_now": "立即充值"
     }
   },
   "dropship_admin_dashboard": {
-    "title": "经销商请求",
+    "title": "分销商请求",
     "today_order_count": "今天的订单数",
     "yesterday_order_count": "昨天的订单数",
     "total_7_days": "过去 7 天的订单总数"
   },
   "dropshipping_products": {
-    "no_shops": "抱歉，没有找到店铺。将来会有更多的商店，所以你可以把他们的产品放在你的商店里。",
+    "no_shops": "抱歉，没有找到批发商店铺。未来将会添加更多店铺，您将能够将他们的产品加入到您的商店中。",
     "show_all_shops": "显示所有商店",
-    "show_all_message": "你可以看到所有的商店",
+    "show_all_message": "您可以查看所有店铺",
     "current_shop": "当前店铺",
     "request_account": "申请帐号",
-    "request_accepted": "已接受请求",
-    "request_rejected": "请求被拒绝",
-    "request_pending": "请求待定..",
+    "request_accepted": "已接受申请",
+    "request_rejected": "申请被拒绝",
+    "request_pending": "申请待定..",
     "notifications": {
-      "add_product": "产品添加到您的商店。",
-      "request_access": "我们已成功将您的访问请求发送给批发商。"
+      "add_product": "产品已添加到您的商店。",
+      "request_access": "我们已成功将您的访问申请发送给批发商。"
     },
     "show_eligible_shops_message": "显示符合条件的商店"
   },
   "product_dropshipping": {
-    "need_re_enable": "此产品已被原卖家更改，这些价格更改已禁用您商店中的产品。检查更改，如果您同意重新激活产品，请按下面的按钮。",
-    "need_re_enable_action": "同意，应用更改和激活",
-    "changed_value": "此产品已由原卖家编辑。检查更改，如果您同意将更改应用于您的产品，请单击下面的按钮。",
-    "changed_value_action": "同意，修改",
-    "parent_deleted": "此商品已被原卖家移除。",
-    "parent_closed": "该产品已被原卖家禁用！您将无法在您的商店中销售该产品，但如果原始卖家重新激活该产品，您将能够在您的商店中重新激活该产品。",
+    "need_re_enable": "该商品已被原卖家修改，价格变动导致该商品在您的店铺中被禁用。请查看变动情况，若您同意重新激活该商品，请点击下方按钮。",
+    "need_re_enable_action": "同意，应用更改并激活",
+    "changed_value": "该商品已被原卖家修改。请查看变动情况，若您同意将更改应用到您的商品中，请点击下方按钮。",
+    "changed_value_action": "同意，进行更改",
+    "parent_deleted": "该商品已被原卖家移除。",
+    "parent_closed": "该商品已被原卖家下架！您将无法再在您的店铺中销售该商品，但如果原卖家重新上架该商品，您将可以在您的店铺中重新激活该商品。",
     "notifications": {
       "re_enable_success": "该产品已重新激活。",
-      "update_success": "此产品信息已使用原始产品信息进行了更新。"
+      "update_success": "该商品信息已更新为原商品信息。"
     }
   },
   "product_dropshipping_admin": {
     "title": "代发货",
-    "save_alert": "此产品的直销设置已更改。是否要保存更改？",
-    "reselling_message": "通过激活此选项，其他卖家将能够将您的产品添加到他们的商店。",
-    "reselling": "启用直销",
-    "price_merchants": "商家价格",
-    "price_commission": "商家佣金（固定）"
+    "save_alert": "该商品的代发货设置已被更改。您想保存更改吗？",
+    "reselling_message": "启用此选项后，其他卖家将能够将您的商品添加到他们的店铺中。",
+    "reselling": "启用代发货",
+    "price_merchants": "给商家价格",
+    "price_commission": "商家佣金"
   },
   "buy_button": {
-    "waiting_for_availability": "等待可用性",
+    "waiting_for_availability": "等待库存",
     "inform_me_when_available": "有货时通知我！",
     "pay_buy": "支付和购买",
-    "quantity": "数数",
-    "quantity_in_basket": "购物车中的物品",
+    "quantity": "数量",
+    "quantity_in_basket": "购物车中的商品",
     "count_unit": "X",
-    "remove": "消除",
+    "remove": "移除",
     "add_to_basket": "添加到购物车",
-    "buy": "买",
+    "buy": "购买",
     "notifications": {
       "inform_add_success": "我们会在有货时通知您。",
-      "inform_remove_success": "您已从等候名单中删除。"
+      "inform_remove_success": "您已被移出等待名单。"
     },
     "book_now": "现在预订",
     "reserve_now": "立即预订",
     "buy_now": "立即购买"
   },
   "product_info": {
-    "fake": "伪造的",
+    "fake": "仿品",
     "action": "拍卖",
-    "compare_limit": "10 件限制",
+    "compare_limit": "限对比10件商品",
     "compare_add": "加入对比",
-    "compare_be_in_list": "在比较列表中",
+    "compare_be_in_list": "已在对比列表",
     "type": "类型",
     "brand": "品牌",
-    "category": "类别",
+    "category": "分类",
     "discount": "折扣",
     "track_price": "追踪价格",
     "waiting_for_auction": "等待拍卖？",
     "inform_auction": "拍卖时通知我",
     "return_in_days": "{days} 天保修退货",
-    "support24h7": "支持7天24小时",
+    "support24h7": "7天24小时支持",
     "support_normal": "工作时间支持",
-    "original_guarantee": "原始保证",
-    "cod_payment": "货到付款支持",
+    "original_guarantee": "原厂保证",
+    "cod_payment": "支持货到付款",
     "pros": "优点",
     "cons": "缺点",
     "external_link": "阅读更多",
     "notifications": {
       "congratulation": "恭喜",
-      "waiting_list_add_success": "当该产品被拍卖时，我们会通知您。",
+      "waiting_list_add_success": "我们将在该商品拍卖时通知您。",
       "waiting_list_delete_success": "您已退出拍卖等候名单。"
     },
-    "offer_message": "购买 {min_quantity} 这些商品可享受 {percent}% 折扣",
-    "up_to": "每个订单最多 {per_order}x",
-    "get_free": "免费",
+    "offer_message": "购买 {min_quantity} 件，可享受 {percent}% 折扣",
+    "up_to": "每个订单最多 {per_order}件",
+    "get_free": "免费获得",
     "get_off": "获得 {percent}% 折扣"
   },
   "styler": {
-    "size_class": "尺寸和等级",
+    "size_class": "尺寸和分类",
     "delete_bg": "删除背景图片",
     "bg_color": "背景颜色",
-    "section_style": "设置截面样式",
+    "section_style": "设置区域样式",
     "link": "设置链接",
     "show_products": "产品/类别列表管理",
     "show_product": "选择产品",
-    "delete_section": "删除部分",
+    "delete_section": "删除区域",
     "text_color": "文字颜色",
     "tex_align": "文本对齐",
     "text_style": "文字样式",
@@ -5114,29 +5114,29 @@ export default {
     },
     "products": {
       "title": "产品和类别列表管理",
-      "sort_options": "选择排序和查看设置",
-      "item_types": "仅显示产品/类别",
-      "product_only": "仅限产品",
-      "category_only": "仅限类别",
-      "no_category": "您的商店中没有类别。",
-      "limit": "产品限制",
-      "limit_message": "输入产品结果计数",
-      "select_categories": "选择可用类别",
-      "categories_limit": "类别限制",
-      "categories_limit_msg": "输入最大类别数。将零设置为无限制。"
+      "sort_options": "选择排序和显示设置。",
+      "item_types": "仅显示产品/分类",
+      "product_only": "仅产品",
+      "category_only": "仅类别",
+      "no_category": "您的商店中没有分类。",
+      "limit": "产品数量限制",
+      "limit_message": "请输入商品结果数量。",
+      "select_categories": "选择可用分类",
+      "categories_limit": "分类数量限制",
+      "categories_limit_msg": "输入分类的最大数量。设置为零则无限制。"
     }
   },
   "shop_contacts": {
     "popup": "启用弹出支持",
-    "popup_message": "通过激活此选项，支持键将显示在您商店的右下角。"
+    "popup_message": "启用此选项后，支持按钮将显示在您的店铺右下角。"
   },
   "popup_page": {
     "preview": "查看实时弹出窗口",
     "menu": {
       "design": "设计",
-      "appearance": "外貌",
+      "appearance": "外观",
       "filter": "筛选",
-      "setting": "环境"
+      "setting": "设置"
     },
     "notifications": {
       "save": "弹出窗口已成功保存。",
@@ -5150,47 +5150,47 @@ export default {
     "width_desc": "您可以设置最大页面宽度。",
     "height": "高度",
     "height_desc": "您可以设置最大页面高度。",
-    "radius": "拐角半径",
-    "radius_desc": "在本节中，您可以设置通知角的曲率半径。",
+    "radius": "圆角半径",
+    "radius_desc": "在此处您可以设置通知窗口的圆角半径。",
     "shadow": "阴影",
-    "shadow_desc": "你想让弹出窗口有阴影吗？",
+    "shadow_desc": "您是否希望弹窗带有阴影？",
     "delay": "显示延迟",
-    "delay_desc": "一旦用户进入您的商店，经过这段时间后，将向用户显示通知。",
+    "delay_desc": "用户进入您的店铺后，经过此时间后通知会显示给用户。",
     "hide": "隐藏延迟",
-    "hide_desc": "您可以设置通知在演出后几秒钟自动关闭。值 0 表示通知不会自动关闭。",
-    "transition": "弹出动画"
+    "hide_desc": "您可以设置通知在显示后几秒自动关闭。值为0表示通知不会自动关闭。",
+    "transition": "弹窗动画"
   },
   "popup_filter": {
-    "registered": "会员资格和登录要求",
-    "registered_desc": "您可以选择仅向商店用户或访客显示此通知。",
-    "only_guests": "只有客人",
-    "only_users": "仅登录用户",
+    "registered": "会员及登录要求",
+    "registered_desc": "您可以选择仅向店铺用户或访客显示此通知。",
+    "only_guests": "仅访客",
+    "only_users": "仅已登录用户",
     "purchased": "购买历史",
     "purchased_desc": "您可以选择仅向已购买或尚未购买的用户显示此通知。",
-    "no_purchase": "还没有购买",
-    "yes_purchase": "之前购买",
+    "no_purchase": "尚未购买",
+    "yes_purchase": "之前购买过",
     "sex": "性别",
     "sex_desc": "您是否希望仅向特定性别的用户显示此通知？",
     "age": "最低年龄",
     "age_desc": "如果输入任何大于 6 的值，则用户必须登录并且必须输入他的出生日期。",
     "levels": "客户俱乐部级别",
-    "levels_desc": "如果用户具有以下选定级别之一，则会向他显示此通知。",
+    "levels_desc": "如果用户拥有以下选定的任一等级，将显示此通知。",
     "countries": "位置限制",
-    "countries_desc": "您是否希望仅向来自特定国家/地区的用户显示此通知？"
+    "countries_desc": "您是否希望此通知仅显示给来自特定国家的用户？"
   },
   "popup_setting": {
     "published": "发布状态",
-    "repeat": "重复",
-    "repeat_msg": "您是否希望多次向用户显示此通知？",
-    "intervals": "弹出显示的持续时间",
-    "intervals_msg": "必须经过向用户显示通知之间的最短时间间隔。",
-    "designer_zone": "设计师专区",
-    "title": "弹出标题",
-    "note": "设计师笔记",
+    "repeat": "重复显示",
+    "repeat_msg": "您是否希望此通知向用户显示多次？",
+    "intervals": "弹窗显示间隔时间",
+    "intervals_msg": "弹窗再次显示给用户前，必须间隔的最短时间。",
+    "designer_zone": "设计者区域",
+    "title": "弹窗标题",
+    "note": "设计者备注",
     "image": "封面图片",
     "delete": {
       "title": "删除",
-      "sub_title": "删除弹出窗口后，将无法返回。请确定。",
+      "sub_title": "删除弹窗后不可恢复，请确认。",
       "action": "删除此弹出窗口"
     },
     "notifications": {
