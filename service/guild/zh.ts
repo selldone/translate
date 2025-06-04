@@ -5,21 +5,21 @@ export default {
   "enable": "启用（公共）",
   "enable_msg": "公会向公众开放？",
   "flex": "弹性模式",
-  "flex_msg": "确定成员的方向。",
-  "boarder": "边界",
-  "boarder_msg": "有边界吗？",
+  "flex_msg": "设置成员排列方向。",
+  "boarder": "边框",
+  "boarder_msg": "是否有边框？",
   "add_guild_action": "立即申请您的公会",
   "guild_name_plc": "为您的公会输入一个唯一的名称...（最少 6 个字符）",
   "guild_name": "公会名称",
-  "born_at": "出生于",
+  "born_at": "成立于",
   "notifications": {
     "create_success": "您的公会已成功更新。",
     "member_delete_success": "成员已成功删除。",
-    "member_update_success": "会员已成功更新。"
+    "member_update_success": "成员已成功更新。"
   },
   "recommendation_add": {
     "title": "添加推荐",
-    "message": "你确定要推荐这个会员吗？您的推荐将公开显示。",
+    "message": "你确定要推荐这个成员吗？您的推荐将公开显示。",
     "action": "是的，添加推荐"
   },
   "recommendation_remove": {
