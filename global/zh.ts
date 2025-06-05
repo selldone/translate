@@ -30,7 +30,7 @@ export default {
     "license": "许可证",
     "home": "首页",
     "support": "支持",
-    "messages": "留言",
+    "messages": "消息",
     "no_message": "无消息",
     "empty": "空的",
     "phone": "电话",
@@ -303,6 +303,7 @@ export default {
     "created_at": "创建日期",
     "updated_at": "最后更新",
     "register_at": "注册日期",
+    "last_modified": "最后编辑",
     "old": "旧的",
     "new": "新的",
     "start": "开始",
@@ -413,7 +414,7 @@ export default {
     "starting_price": "起始价",
     "day": "天",
     "paid": "已支付",
-    "service_bill": "服务账单",
+    "service_bill": "发票支付",
     "avocado": "Avocado",
     "delivery_price": "运费",
     "select_address": "选择地址",
@@ -456,14 +457,14 @@ export default {
     "blockchain": "区块链",
     "blog_link": "博客链接",
     "community": "社区",
-    "critical_zone": "危险区",
+    "critical_zone": "关键区域",
     "statistics": "统计",
     "access": "访问",
     "seo": "SEO",
     "followers": "粉丝",
     "followings": "粉丝",
     "private": "私密",
-    "soon": "即将推出",
+    "soon": "即将",
     "features": "功能",
     "bot": "机器人",
     "sample": "示例",
@@ -492,7 +493,7 @@ export default {
     "success_orders": "成功的订单",
     "direct": "直接",
     "last_activity": "上次活动",
-    "landing": "落地页",
+    "landing": "登陆页",
     "now": "现在",
     "accept_agreement": "我已阅读并接受条款。",
     "report": "报告",
@@ -588,7 +589,7 @@ export default {
     "saved": "已保存！",
     "sort": "排序",
     "documents": "文件",
-    "document": "文档",
+    "document": "文件",
     "please_wait": "请稍等...",
     "pickup": "提货",
     "customize": "定制",
@@ -714,6 +715,67 @@ export default {
     "unknown": "未知",
     "week": "星期",
     "agencies": "代理机构"
+    "not_available": "Not Available",
+    "gateways": "网关",
+    "repository": "代码库",
+    "clone": "克隆",
+    "hotkey": "快捷键",
+    "bank_info": "银行信息",
+    "structure": "结构",
+    "conditions": "条件",
+    "unavailable": "不可用",
+    "rows": "行",
+    "eligible": "符合条件",
+    "share": "分享",
+    "fulfilling": "履约中",
+    "pickup_options": "自提选项",
+    "pickup_selected": "已选择自提",
+    "delivery_selected": "已选择配送",
+    "delivery_options": "配送选项",
+    "for": "用于",
+    "giveaway": "赠品",
+    "purchased": "已购买",
+    "loading": "加载中",
+    "pricing_model": "定价模式",
+    "vendor_price": "供应商价格",
+    "marketplace_price": "市场价格",
+    "vendor_wallet": "供应商钱包",
+    "lead_time": "交付周期",
+    "listing": "商品列表",
+    "can_not_edit": "无法编辑",
+    "override": "覆盖",
+    "worldwide": "全球范围",
+    "member": "成员",
+    "invitation": "邀请",
+    "europe": "欧洲",
+    "buy": "购买",
+    "levels": "级别",
+    "sex": "性别",
+    "repeat": "重复",
+    "interval": "间隔",
+    "parcel": "包裹",
+    "receiver": "收件人",
+    "billing_address": "账单地址",
+    "shipping_address": "送货地址",
+    "added": "已添加",
+    "automation": "自动化",
+    "avatar": "头像",
+    "variants": "变体",
+    "property_set": "属性集",
+    "more_info_needed": "需要更多信息",
+    "required": "必填",
+    "seo_preview": "SEO 预览",
+    "icon": "图标",
+    "values": "数值",
+    "remove_item": "移除项目",
+    "adjusted": "已调整",
+    "original_amount": "原金额",
+    "adjustment_amount": "调整金额",
+    "final_amount": "最终金额",
+    "archived": "已归档",
+    "archive": "归档",
+    "billing": "账单",
+    "enter_email": "输入邮箱"
   },
   "dialogs": {
     "delete": {
@@ -858,6 +920,9 @@ export default {
     "connect": "连接",
     "connect_now": "立即连接",
     "verify_now": "立即验证"
+    "learn_more": "了解更多",
+    "learn_more_about": "了解有关{name}的更多信息",
+    "select_category": "选择分类"
   },
   "instance_message_title": "发送即时消息",
   "instance_message": "嗨，你好 {name}，\n我是来自 {company} 的 {author}。",
@@ -915,6 +980,10 @@ export default {
   "distance": {
     "m": "米",
     "km": "千米"
+  },
+  "distance_unit_name": {
+    "km": "千米",
+    "mi": "英里",
   },
   "time": {
     "days": "天",
@@ -2127,4 +2196,33 @@ export default {
       "desc": "如果您提供的服务不在以上范围内，请选择此选项。"
     }
   }
+   "ProductExternal": {
+  "Amazon": {
+    "name": "亚马逊",
+    "actionText": "在亚马逊购买",
+  },
+  "Airbnb": {
+    "name": "Airbnb",
+    "actionText": "在Airbnb预订",
+  },
+}, 
+ "product_section_incentivise": {
+  "total_sold": "总销量",
+  "available_items": "可用库存",
+  "have_in_their_bag": "<b>{in_carts}</b> 人已将此商品加入购物车！",
+
+  "physical": {
+    "popular_selling_with_low_quantity": "🔥 热门选择！库存紧张，赶快抢购！",
+    "has_sell_has_quantity": "🌟 非常受欢迎的商品！售完即止。",
+    "just_has_low_quantity": "🛒 库存有限，别错过！",
+    "just_has_very_low_quantity": "⏳ 商品即将售罄，抓紧时间！"
+  },
+      
+  "file": {
+    "very_popular_selling": "🔥 畅销文件！快来下载吧！",
+    "popular_selling": "🎉 这份文件非常受欢迎，别错过！",
+    "has_normal_selling": "📈 热门文件，赶快获取你的副本。",
+    "just_release_has_some_sales": "✨ 新发布！成为首批拥有者之一。"
+  }
+}     
 };
