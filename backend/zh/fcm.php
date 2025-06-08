@@ -3,11 +3,11 @@
  return [
      "received-gift" => [
      "title" => "收到礼物。",
-     "message" => "恭喜亲爱的：姓名，我们向您发送：金额：货币礼物。",
+     "message" => "亲爱的 :name，恭喜您，我们已向您发送了 :amount :currency 的礼物。",
 ],
      "account-transaction" => [
-     "deposit-title" => "存款：金额：货币到帐户：account_from。",
-     "withdraw-title" => "取款 :amount :currency 从账户 :account_from。",
-     "message" => "您帐户中的新交易已完成。",
+     "deposit-title" => "向账户 :account_from 存入 :amount :currency。",
+     "withdraw-title" => "从账户 :account_from 提取 :amount :currency。",
+     "message" => "您的账户完成了一笔新交易。",
 ],
 ];
