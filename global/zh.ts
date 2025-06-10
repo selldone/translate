@@ -14,7 +14,7 @@ export default {
   "reed_agree_terms": "我已阅读并同意使用条款和隐私政策。",
   "commons": {
     "Currency": "货币",
-    "currencies": "多种货币"
+    "currencies": "多种货币",
     "COD": "货到付款COD",
     "State": "州/省",
     "Price": "价格",
@@ -714,7 +714,7 @@ export default {
     "system": "系统",
     "unknown": "未知",
     "week": "星期",
-    "agencies": "代理机构"
+    "agencies": "代理机构",
     "not_available": "Not Available",
     "gateways": "网关",
     "repository": "代码库",
@@ -906,7 +906,6 @@ export default {
     "buy": "购买买",
     "view_all": "查看全部",
     "view_now": "现在查看",
-    "paste": "粘贴",
     "edit_address": "编辑地址",
     "resend": "重新发送",
     "deploy_now": "立即部署",
@@ -919,7 +918,7 @@ export default {
     "duplicate": "复制",
     "connect": "连接",
     "connect_now": "立即连接",
-    "verify_now": "立即验证"
+    "verify_now": "立即验证",
     "learn_more": "了解更多",
     "learn_more_about": "了解有关{name}的更多信息",
     "select_category": "选择分类"
@@ -2195,7 +2194,7 @@ export default {
       "title": "自定义",
       "desc": "如果您提供的服务不在以上范围内，请选择此选项。"
     }
-  }
+  },
    "ProductExternal": {
   "Amazon": {
     "name": "亚马逊",

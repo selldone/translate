@@ -3407,7 +3407,6 @@ export default {
       "charge": "充值",
       "transfer": "转账",
       "transactions": "交易",
-      "charge": "收费",
       "history": "历史",
       "cards": "卡片"
     },
@@ -4651,7 +4650,7 @@ export default {
     "device": "机器和设备",
     "car": "汽车",
     "software": "软件",
-    "clothing": "服装与鞋类"",
+    "clothing": "服装与鞋类",
     "jewellery": "珠宝",
     "all": "所有模板"
   },

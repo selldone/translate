@@ -11,7 +11,7 @@ export default {
     "email": "电子邮件",
     "phone": "电话",
     "address": "地址",
-    "copyright": "内容仅限非商业用途，需注明来源（链接至 {shop_title}）。{shop_title} 保留所有权利。",
+    "copyright": "内容仅限非商业用途,需注明来源（链接至 {shop_title}）。{shop_title} 保留所有权利。",
     "powered_by": "技术支持",
     "privacy": "隐私政策",
     "term_of_use": "使用条款",
@@ -78,7 +78,7 @@ export default {
       "waiting_list_add_success": "商品拍卖时我们会通知您。",
       "waiting_list_delete_success": "您已退出拍卖等候名单。"
     },
-    "offer_message": "购买{min_quantity}件，享受{percent}%折扣",
+    "offer_message": "购买{min_quantity}件,享受{percent}%折扣",
     "up_to": "每单最多可购买{per_order}件",
     "get_free": "免费获得",
     "get_off": "立减 {percent}% ",
@@ -178,18 +178,18 @@ export default {
       "return_requests": "退货",
       "addresses": "地址",
       "profile": "个人资料",
-      "orders": "订单"，
-      "wallets": "钱包"，
+      "orders": "订单",
+      "wallets": "钱包",
     }
   },
   
   "user_wallets": {
     "title": "我的钱包",
-    "subtitle": "如果符合条件且返现计划已启用，您订单的一部分金额将返还到您的钱包。您可以在下次购买时使用这些资金。"
+    "subtitle": "如果符合条件且返现计划已启用,您订单的一部分金额将返还到您的钱包。您可以在下次购买时使用这些资金。"
   },
   "wallet_input": {
     "my_wallet_balance": "我的钱包余额"
-  }
+  },
 
   "order_page": {
     "title": "订单",
@@ -212,14 +212,14 @@ export default {
       "total_price_after_offers": "优惠后总价",
       "buyer_payment": "买家付款金额",
       "total_order_price_before_tax": "税前总价",
-      "payment_is_in_require_capture_message": "我们已收到您的付款，但尚未完成确认。",
+      "payment_is_in_require_capture_message": "我们已收到您的付款,但尚未完成确认。",
       "settle_the_earlier_bill_first": "请先结清之前的账单！"
     },
     "delivery": {
       "title": "配送",
       "subtitle": "买家信息",
       "confirm_received_action": "确认收货",
-      "confirm_received_info": "如果您已收到订单，请点击确认按钮。如果需要，您可以在确认收货后提交索赔申请。",
+      "confirm_received_info": "如果您已收到订单,请点击确认按钮。如果需要,您可以在确认收货后提交索赔申请。",
       "Recipient": "收件人",
       "bill": "发票",
       "name": "姓名",
@@ -263,8 +263,8 @@ export default {
     "reason_input_message": "选择退货的原因。",
     "note_input": "描述",
     "note_input_hint": "说明退货原因..",
-    "note_input_message": "如有需要，请说明退回此商品的原因。",
-    "media_message": "您可以在这里上传产品的图片、音频或视频，以获得更好的产品状态信息支持。选择文件后将自动提交和确认。",
+    "note_input_message": "如有需要,请说明退回此商品的原因。",
+    "media_message": "您可以在这里上传产品的图片、音频或视频,以获得更好的产品状态信息支持。选择文件后将自动提交和确认。",
     "video": "视频",
     "voice": "语音",
     "add_action": "提交退货申请",
@@ -283,7 +283,7 @@ export default {
     "tel": "电话",
     "identity": "身份验证",
     "success_kyc": "已完成身份验证KYC",
-    "no_kyc": "未认证"
+    "no_kyc": "未认证",
     "club": "用户等级",
     "subscription": "新闻订阅",
     "leave_shop": "退出该店铺并移除所有客户等级",
@@ -309,8 +309,8 @@ export default {
     "edit_action": "编辑资料"
   },
   "subscribe_status": {
-    "subscribed": "我已订阅电子邮件，接收最新消息和促销信息。",
-    "unsubscribed": "我没有订阅电子邮件，不接收任何消息或促销信息。"
+    "subscribed": "我已订阅电子邮件,接收最新消息和促销信息。",
+    "unsubscribed": "我没有订阅电子邮件,不接收任何消息或促销信息。"
   },
   "my_club": {
     "subtitle": "我的会员等级及其福利。"
@@ -358,27 +358,27 @@ export default {
     "custom_billing_info": "填写不同账单地址",
     "basket_empty": "购物车是空的",
     "extra_shipping_count": "您将收到 {count} 个包裹。",
-    "select_location_error": "请在地图上选中收货地址的定位点，以确定准确的收货地址。",
+    "select_location_error": "请在地图上选中收货地址的定位点,以确定准确的收货地址。",
     "same_billing_address_desc": "账单地址与送货地址相同。",
     "custom_billing_info_desc": "您可以输入您的税号并设置不同的帐单地址。",
     "billing_business_desc": "这是一个带有税号的企业帐户。",
     "billing_personal_desc": "这是一个个人帐户。",
     "no_billing_title": "无需账单",
     "no_billing_desc": "将账单地址留空。",
-    "can_pay_cod_message": "您可以选择货到付款。"
-    "cross_selling_discount": "组合优惠"
+    "can_pay_cod_message": "您可以选择货到付款。",
+    "cross_selling_discount": "组合优惠",
   },
   "basket_items": {
     "items_unit": "件",
     "lead_unit": "小时",
     "count_input": "数量",
-    "price_changed": "价格已变更，新价格：",
+    "price_changed": "价格已变更,新价格：",
     "offer": "购买 {count} 件享 {percent}% 折扣",
     "offer_free": "免费获得 {count} 件"
   },
   "addresses_page": {
     "title": "我的地址",
-    "subtitle": "查看您保存的地址，并轻松添加新地址。",
+    "subtitle": "查看您保存的地址,并轻松添加新地址。",
     "new_action": "新地址",
     "receiver": "收件人",
     "address": "地址",
@@ -401,7 +401,7 @@ export default {
   },
   "return_requests": {
     "title": "退货申请",
-    "subtitle": "在这里查看您的退货申请。对于有退货政策的商品，您可以在订单页面提交退货申请。"
+    "subtitle": "在这里查看您的退货申请。对于有退货政策的商品,您可以在订单页面提交退货申请。"
   },
   "user_favorites": {
     "title": "愿望清单"
@@ -418,7 +418,7 @@ export default {
       "title": "添加礼品卡",
       "message": "输入卡号和安全码。礼品卡将添加到您的帐户中。",
       "card_number_input": "卡号",
-      "info": "请注意，购买时您可以选择使用礼品卡支付。如果选择此支付方式，金额将从您的充值余额中扣除，直接影响订单总额。",
+      "info": "请注意,购买时您可以选择使用礼品卡支付。如果选择此支付方式,金额将从您的充值余额中扣除,直接影响订单总额。",
       "add_action": "卡片注册"
     }
   },
@@ -438,7 +438,7 @@ export default {
       "user_review": "用户评论",
       "rating": "评分",
       "rating_count": "评论数量",
-      "info": "您可以通过发送以下链接与您的朋友分享此产品对比表，或通过保存此链接稍后访问它。",
+      "info": "您可以通过发送以下链接与您的朋友分享此产品对比表,或通过保存此链接稍后访问它。",
       "copy_action": "复制对比链接",
       "check_list": [
         "是",
@@ -459,7 +459,7 @@ export default {
     "home": "主页"
   },
   "product_rating_view": {
-    "message": "亲爱的{user}，您已购买此产品。您对此产品的看法如何？",
+    "message": "亲爱的{user},您已购买此产品。您对此产品的看法如何？",
     "notification": {
       "title": "恭喜",
       "message": "您的评论已被收录。"
@@ -488,7 +488,7 @@ export default {
       "success": "您的留言已发送。"
     },
     "submitted_title": "感谢您与我们联系！",
-    "submitted_message": "感谢您抽出时间与我们联系。您的消息已收到，我们的团队目前正在审核。我们将尽快回复，感谢您在此期间的耐心等待。您的兴趣和反馈对我们很重要，我们致力于为您提供最好的支持。"
+    "submitted_message": "感谢您抽出时间与我们联系。您的消息已收到,我们的团队目前正在审核。我们将尽快回复,感谢您在此期间的耐心等待。您的兴趣和反馈对我们很重要,我们致力于为您提供最好的支持。"
   },
   "master_payment": {
     "notifications": {
@@ -498,7 +498,7 @@ export default {
       "pay_by_giftcards": "您的订单已使用礼品卡支付。",
       "free_order": "您的订单是免费的。",
       "pay_by_cod": "您的订单已选择货到付款方式。",
-      "pay_by_dir": "您的订单已成功添加。现在，您可以通过直接转账支付，然后在订单页面上传付款凭证。",
+      "pay_by_dir": "您的订单已成功添加。现在,您可以通过直接转账支付,然后在订单页面上传付款凭证。",
       "pay_title": "付款",
       "qr_code_payment": "已生成付款二维码地址。",
       "connecting_to_online_gateway": "正在连接到在线支付网关。"
@@ -520,16 +520,16 @@ export default {
   "avocado": {
     "not_enable": "Avocado 表单未启用！",
     "last_update": "最后更新：",
-    "step1": "1. 输入您要订购的产品名称和详细信息，然后单击添加按钮。",
+    "step1": "1. 输入您要订购的产品名称和详细信息,然后单击添加按钮。",
     "title_plc": "输入产品名称。",
     "description_plc": "你有更多的产品描述吗？",
     "link_plc": "你有产品的链接吗？",
     "image": "产品图片",
-    "image_msg": "如果需要，您可以发送产品图片。",
+    "image_msg": "如果需要,您可以发送产品图片。",
     "add_item": "添加商品",
     "items_list": "已请求产品列表",
     "currency_msg": "您可以用此货币支付该订单的金额。",
-    "step2": "2. 添加所有想要的商品后，点击订单审核请求按钮。在此阶段，我们将审核订单并告知您价格。点击该链接，您将能够查看价格并获取付款链接。",
+    "step2": "2. 添加所有想要的商品后,点击订单审核请求按钮。在此阶段,我们将审核订单并告知您价格。点击该链接,您将能够查看价格并获取付款链接。",
     "order_action": "订单登记",
     "show_all": "显示所有",
     "show_accepted": "显示已确认的商品",
@@ -538,17 +538,17 @@ export default {
     "check_now": "查看订单",
     "add_new_order": "创建新订单",
     "pay_online": "在线支付",
-    "pricing_not_completed_message": "您的订单正在审核中。订单审核和定价后，您将能支付该订单。",
+    "pricing_not_completed_message": "您的订单正在审核中。订单审核和定价后,您将能支付该订单。",
     "delete_item_dialog": {
       "title": "从购物车中删除商品",
       "message": "您确定要将此商品从购物车中删除吗？",
-      "action": "是的，删除"
+      "action": "是的,删除"
     },
     "notifications": {
       "order_success": "您的订单已成功提交。",
       "delete_success": "商品已删除。"
     },
-    "select_address_message": "请输入您的地址，然后您就可以提交订单了。"
+    "select_address_message": "请输入您的地址,然后您就可以提交订单了。"
   },
   "hyper": {
     "title": "订单创建",
@@ -560,7 +560,7 @@ export default {
     "delete_item_dialog": {
       "title": "从购物车中删除商品",
       "message": "您想从购物车中删除此商品吗？",
-      "action": "是的，删除"
+      "action": "是的,删除"
     },
     "notifications": {
       "order_success": "您的订单已成功提交。",
@@ -569,7 +569,7 @@ export default {
   },
   "pending_payment": {
     "upload_payment_receipt": "上传付款凭证图片。",
-    "upload_payment_receipt_done": "✔ 您已经上传凭证图片，等待我们的审核。如果需要更改，可以将之前的图片替换为新图片。",
+    "upload_payment_receipt_done": "✔ 您已经上传凭证图片,等待我们的审核。如果需要更改,可以将之前的图片替换为新图片。",
     "public_form_title": "汇款账户信息"
   },
   "service_bill": {
@@ -591,7 +591,7 @@ export default {
     },
     "subscription": {
       "title": "订阅",
-      "message": "您可以按日选择订阅周期。如果您想更改已输入的默认值，请通知买家。",
+      "message": "您可以按日选择订阅周期。如果您想更改已输入的默认值,请通知买家。",
       "duration": "订阅期"
     },
     "charge": {
@@ -602,12 +602,12 @@ export default {
   },
   "check_access": {
     "waiting_message": "正在检查访问权限...",
-    "no_access_message": "很遗憾，您无权访问我们的商店。<br/>请联系我们。"
+    "no_access_message": "很遗憾,您无权访问我们的商店。<br/>请联系我们。"
   },
   "share_order": {
     "action": "分享订单",
     "title": "与他人共享此订单。",
-    "message": "这是一个安全的链接，请仅与您认识的人分享。拥有此链接的任何人都可以复制您的订单并查看所选地址。它将包含您当前购物车的信息。",
+    "message": "这是一个安全的链接,请仅与您认识的人分享。拥有此链接的任何人都可以复制您的订单并查看所选地址。它将包含您当前购物车的信息。",
     "valid_period": "此链接将在 48 小时后失效。",
     "import_order_action": "导入订单",
     "retrieve_dialog_title": "检索外部订单",
@@ -620,7 +620,7 @@ export default {
     "discount": "折扣"
   },
   "rating": {
-    "product_rating_message": "此产品的评分为 {rate} 星（满分 5 星），共有 {rate_count} 人评分。"
+    "product_rating_message": "此产品的评分为 {rate} 星（满分 5 星）,共有 {rate_count} 人评分。"
   },
   "related_products": {
     "card": {
@@ -643,10 +643,10 @@ export default {
     "available_items": "可用项目",
     "have_in_their_bag": "<b>{in_carts}</b>其他人的购物车中也有此商品！",
     "physical": {
-      "popular_selling_with_low_quantity": "🎉 热门选择！库存稀缺，请尽快下单！",
-      "has_sell_has_quantity": "🌟 非常抢手的商品！快来抢购吧，以免售罄。",
+      "popular_selling_with_low_quantity": "🎉 热门选择！库存稀缺,请尽快下单！",
+      "has_sell_has_quantity": "🌟 非常抢手的商品！快来抢购吧,以免售罄。",
       "just_has_low_quantity": "🛒 库存有限！不要错过！",
-      "just_has_very_low_quantity": "⏳ 几乎要缺货了！赶快行动吧，不然就太迟了！"
+      "just_has_very_low_quantity": "⏳ 几乎要缺货了！赶快行动吧,不然就太迟了！"
     },
     "file": {
       "very_popular_selling": "🔥 畅销产品！立即下载！",
