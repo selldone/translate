@@ -905,6 +905,7 @@ export default {
         profiles: "Profiles",
         includes: "Includes",
         property_sets: "Property Sets",
+        boxes: "Packages",
       },
 
       /** {@see BPageShopLogisticInventory} **/
@@ -10914,6 +10915,35 @@ export default {
     add_property_set: "Add Property Set",
   },
 
+
+
+  /** {@see BPageShopLogisticInventory} **/
+  transportation_boxes: {
+    title: "Boxes",
+    add_action: "Add box",
+    subtitle: "Create reusable box sizes to speed up label purchases and ensure accurate shipping rates. When fulfilling an order, select a saved box and its dimensions will auto-fill.",
+    empty: "No boxes yet. Click “Add box”.",
+    edit: "Edit box",
+    new: "New box",
+    default_weight: "Default weight",
+    updated: "Box updated.",
+    created: "Box created.",
+    deleted: "Box deleted."
+  },
+
+  /** {@see BBoxInput} **/
+  transportation_boxes_input:{
+    select_box: "Select a package",
+    define_package: "Define a package",
+    define_package_hint:"Create or edit your predefined package sizes"
+  },
+
+
+
+
+
+
+
   /**
    * Auto fill suggestions
    */
@@ -11902,5 +11932,34 @@ export default {
         "Styles, materials, and brand details.",
       ],
     },
+
+
+    /**
+     * Boxes
+     */
+    boxes:{
+      name:[
+        "Box XS",
+        "Box S",
+        "Box M",
+        "Box L",
+        "Box XL",
+        "Box XXL",
+        "Box Slim",
+        "Box Wide",
+        "Box Tall",
+        "Box Flat",
+        "Box Cube",
+        "Box Tube",
+        "Box Fragile",
+        "Box Glass Bottles",
+        "Box Soft Pack",   // flexible mailer
+        "Box Padded",      // bubble/padded
+        "Box Insulated",   // thermal
+        "Box Heavy-Duty"
+      ]
+    }
+
+
   },
 };
