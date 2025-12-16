@@ -858,6 +858,7 @@ export default {
     archive: "Archive",
     billing: "Billing",
     enter_email: "Enter email",
+    favorite:"Favorite",
   },
   difficulties: {
     very_complicated: "Very complicated",

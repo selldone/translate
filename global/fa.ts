@@ -857,6 +857,8 @@ export default {
     archive: "آرشیو",
     billing: "صورتحساب",
     enter_email: "ایمیل خود را وارد کنید",
+    favorite: "مورد علاقه",
+
   },
 
   difficulties: {
