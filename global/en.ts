@@ -859,6 +859,10 @@ export default {
     billing: "Billing",
     enter_email: "Enter email",
     favorite:"Favorite",
+    moderator:"Moderator",
+    moderators:"Moderators",
+    supervision:"Supervision",
+
   },
   difficulties: {
     very_complicated: "Very complicated",

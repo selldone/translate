@@ -12,8 +12,6 @@
  * Tread carefully, for you're treading on dreams.
  */
 
-import {ShopMarketplaceModes} from "@selldone/core-js/models/shop/shop.model.ts";
-import VendorDocumentType from "@selldone/core-js/enums/vendor/VendorDocumentType.ts";
 
 export default {
   commons: {
@@ -414,6 +412,7 @@ export default {
       seo: "SEO",
       localization: "Localization",
       crm: "CRM",
+      listing: "Listing",
     },
 
     /** {@see BPageShopDashboard} **/
@@ -7483,7 +7482,7 @@ export default {
 
     typography: "Typography",
     header: "Header",
-    footer:"Footer",
+    footer: "Footer",
     custom_code: "Custom code",
     custom_css: "Custom CSS",
     custom_variants: "Variants",
@@ -10915,28 +10914,40 @@ export default {
     add_property_set: "Add Property Set",
   },
 
-
-
   /** {@see BPageShopLogisticInventory} **/
   transportation_boxes: {
     title: "Boxes",
     add_action: "Add box",
-    subtitle: "Create reusable box sizes to speed up label purchases and ensure accurate shipping rates. When fulfilling an order, select a saved box and its dimensions will auto-fill.",
+    subtitle:
+      "Create reusable box sizes to speed up label purchases and ensure accurate shipping rates. When fulfilling an order, select a saved box and its dimensions will auto-fill.",
     empty: "No boxes yet. Click “Add box”.",
     edit: "Edit box",
     new: "New box",
     default_weight: "Default weight",
     updated: "Box updated.",
     created: "Box created.",
-    deleted: "Box deleted."
+    deleted: "Box deleted.",
   },
 
   /** {@see BBoxInput} **/
-  transportation_boxes_input:{
+  transportation_boxes_input: {
     select_box: "Select a package",
     define_package: "Define a package",
-    define_package_hint:"Create or edit your predefined package sizes"
+    define_package_hint: "Create or edit your predefined package sizes",
   },
+
+  /** {@see BPageShopListing} **/
+  listing:{
+
+  },
+
+
+
+
+
+
+
+
 
 
 
@@ -11933,12 +11944,11 @@ export default {
       ],
     },
 
-
     /**
      * Boxes
      */
-    boxes:{
-      name:[
+    boxes: {
+      name: [
         "Box XS",
         "Box S",
         "Box M",
@@ -11953,13 +11963,11 @@ export default {
         "Box Tube",
         "Box Fragile",
         "Box Glass Bottles",
-        "Box Soft Pack",   // flexible mailer
-        "Box Padded",      // bubble/padded
-        "Box Insulated",   // thermal
-        "Box Heavy-Duty"
-      ]
-    }
-
-
+        "Box Soft Pack", // flexible mailer
+        "Box Padded", // bubble/padded
+        "Box Insulated", // thermal
+        "Box Heavy-Duty",
+      ],
+    },
   },
 };

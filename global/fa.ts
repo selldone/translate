@@ -858,6 +858,9 @@ export default {
     billing: "صورتحساب",
     enter_email: "ایمیل خود را وارد کنید",
     favorite: "مورد علاقه",
+    moderator:"مدیریت",
+    moderators:"مدیریت",
+    supervision: "نظارت",
 
   },
 

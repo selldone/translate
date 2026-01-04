@@ -383,6 +383,7 @@ export default {
       seo: "سئو",
       localization: "بومی سازی",
       crm: "مشتریان",
+      listing: "لیستینگ",
     },
 
     /** {@see SShopDashboard} **/
@@ -869,7 +870,6 @@ export default {
         includes: "محتویات",
         property_sets: "مجموعه خصوصیات",
         boxes: "بسته ها",
-
       },
 
       /** {@see BPageShopLogisticInventory} **/
@@ -884,12 +884,11 @@ export default {
       },
 
       /** {@see BBoxInput} **/
-      transportation_boxes_input:{
-        select_box:"انتخاب بسته بندی حمل و نقل",
+      transportation_boxes_input: {
+        select_box: "انتخاب بسته بندی حمل و نقل",
         define_package: "تعریف بسته بندی جدید",
         define_package_hint: "تعریف بسته بندی با ابعاد و وزن مشخص",
       },
-
 
       /** {@see BPageShopLogisticShipping} **/
       delivery: {
@@ -7230,7 +7229,7 @@ export default {
 
     typography: "تایپوگرافی",
     header: "هدر",
-    footer:"فوتر",
+    footer: "فوتر",
     custom_code: "کد سفارشی",
     custom_css: "سفارشی CSS",
     custom_variants: "انواع",
@@ -10634,32 +10633,20 @@ export default {
     add_property_set: "افزودن مجموعه ویژگی",
   },
 
-
-
-
   /** {@see BPageShopLogisticInventory} **/
   transportation_boxes: {
     title: "باکس‌ها",
     add_action: "افزودن باکس",
-    subtitle: "برای تسریع خرید لیبل و محاسبهٔ دقیق هزینهٔ ارسال، اندازه‌های جعبهٔ قابل‌استفادهٔ مجدد تعریف کنید. هنگام انجام سفارش، یکی از جعبه‌های ذخیره‌شده را انتخاب کنید تا ابعاد آن به‌صورت خودکار تکمیل شود.",
+    subtitle:
+      "برای تسریع خرید لیبل و محاسبهٔ دقیق هزینهٔ ارسال، اندازه‌های جعبهٔ قابل‌استفادهٔ مجدد تعریف کنید. هنگام انجام سفارش، یکی از جعبه‌های ذخیره‌شده را انتخاب کنید تا ابعاد آن به‌صورت خودکار تکمیل شود.",
     empty: "هنوز باکسی ثبت نشده. روی «افزودن باکس» کلیک کنید.",
     edit: "ویرایش باکس",
     new: "باکس جدید",
     default_weight: "وزن پیش‌فرض",
     updated: "باکس به‌روزرسانی شد.",
     created: "باکس ایجاد شد.",
-    deleted: "باکس حذف شد."
+    deleted: "باکس حذف شد.",
   },
-
-
-
-
-
-
-
-
-
-
 
   /**
    * Auto fill suggestions
@@ -11642,14 +11629,11 @@ export default {
       ],
     },
 
-
-
-
     /**
      * Boxes
      */
-    boxes:{
-      name:[
+    boxes: {
+      name: [
         "جعبه خیلی‌کوچک",
         "جعبه کوچک",
         "جعبه متوسط",
@@ -11667,15 +11651,8 @@ export default {
         "سافت‌پک",
         "جعبه ضربه‌گیر",
         "جعبه عایق‌دار",
-        "جعبه سنگین‌کار"
-      ]
-    }
-
-
-
-
-
-
-
+        "جعبه سنگین‌کار",
+      ],
+    },
   },
 };
