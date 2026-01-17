@@ -861,6 +861,11 @@ export default {
     moderator:"مدیریت",
     moderators:"مدیریت",
     supervision: "نظارت",
+    subtitle:"عنوان فرعی",
+    slug:"نامک آدرس",
+    advanced:"پیشرفته",
+    media:"مدیا",
+    none:"هیچ",
 
   },
 

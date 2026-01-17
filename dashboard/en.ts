@@ -10936,9 +10936,155 @@ export default {
     define_package_hint: "Create or edit your predefined package sizes",
   },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /** {@see BPageShopListing} **/
   listing:{
+    name:"Listing",
+    message:"Create a searchable, moderated directory for any type of listing—properties, hotels, doctors, services, and more."
+  },
 
+  shop_listing: {
+    name: "Listing",
+    message:
+      "Create a searchable, moderated directory for any type of listing—properties, hotels, doctors, services, and more.",
+
+    items: {
+      title: "Items",
+      sub_title:
+        "Create, edit, and manage listing items. Control status, pricing, contact info, and media.",
+
+      empty_title: "No items yet",
+      empty_subtitle:
+        "Create your first listing item to start building your directory.",
+
+      add_title: "Add item",
+      edit_title: "Edit item",
+
+      price_to: "Price to",
+      price_unit: "Price unit",
+      is_featured: "Featured",
+
+      meta_json: "Meta JSON",
+      links_json: "Links JSON",
+      opening_hours_json: "Opening hours JSON",
+
+      delete_title: "Delete item",
+      delete_message: "Are you sure you want to delete this item?",
+      delete_success: "Item deleted successfully.",
+      restore_success: "Item restored successfully.",
+
+      opening_hours:"Opening Hours",
+      form_fields:"Form Fields"
+    },
+
+    categories: {
+      title: "Categories",
+      sub_title:
+        "Organize your directory with categories and subcategories. This improves navigation and filtering.",
+
+      empty_title: "No categories yet",
+      empty_subtitle:
+        "Create categories to structure your listing and improve browsing.",
+
+      add_title: "Add category",
+      edit_title: "Edit category",
+
+      parent_filter: "Filter by parent",
+      parent: "Parent category",
+
+      price_format: "Price format",
+      icon: "Icon",
+      design_id: "Design ID",
+
+      delete_title: "Delete category",
+      delete_message: "Are you sure you want to delete this category?",
+      delete_success: "Category deleted successfully."
+    },
+
+    options: {
+      submission_title: "Submission",
+      submission_enabled: "Enable submissions",
+
+      moderation_title: "Moderation",
+      moderation_mode: "Moderation mode",
+      require_first_approved_before_more: "Require first approval before more",
+
+      limits_title: "Limits",
+      max_pending_per_user: "Max pending per user",
+      max_items_per_user: "Max items per user",
+      limits_hint: "Limits hint",
+
+      templates_title: "Templates",
+      card_template: "Card template",
+      details_template: "Details template",
+
+      form_schema_title: "Form schema",
+      settings_title: "Extra settings"
+    },
+
+    supervision: {
+      title: "Supervision",
+      sub_title:
+        "Review submitted items and decide what happens next: approve, publish, reject, archive, or reset to pending.",
+
+      empty_title: "No items to review",
+      empty_subtitle:
+        "When users submit new items, they will appear here for moderation.",
+
+      review_title: "Review item",
+      approve_publish: "Approve & publish",
+
+      submitted_at: "Submitted",
+      quick_actions: "Quick actions",
+
+      open_review: "Open review",
+      reset_to_pending: "Reset to pending"
+    },
+
+    moderation: {
+      approve_success: "Item approved successfully.",
+      publish_success: "Item published successfully.",
+      unpublish_success: "Item unpublished successfully.",
+      archive_success: "Item archived successfully.",
+      reject_success: "Item rejected successfully.",
+      penalty_success: "Penalty applied successfully.",
+
+      reject_title: "Reject item",
+      reject_reason: "Rejection reason",
+
+      penalty: "Penalty",
+      penalty_title: "Penalty",
+      penalty_points: "Penalty points",
+      penalty_note: "Penalty note"
+    },
+
+    media: {
+      upload_images: "Upload images",
+      url_type: "Type",
+      url: "URL",
+      is_main: "Set as main"
+    }
   },
 
 

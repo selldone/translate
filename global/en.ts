@@ -862,6 +862,12 @@ export default {
     moderator:"Moderator",
     moderators:"Moderators",
     supervision:"Supervision",
+    subtitle:"Subtitle",
+    slug:"Slug",
+    advanced:"Advanced",
+    media:"Media",
+    none:"None",
+
 
   },
   difficulties: {
