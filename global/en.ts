@@ -867,7 +867,9 @@ export default {
     advanced:"Advanced",
     media:"Media",
     none:"None",
-
+    not_set:"Not set",
+    alt:"Alt",
+    meta:"Meta",
 
   },
   difficulties: {
@@ -886,6 +888,7 @@ export default {
   },
 
   actions: {
+    upload:"Upload",
     add_to_cart: "Add to cart",
     cancel: "Cancel",
     update: "Update",

@@ -866,6 +866,9 @@ export default {
     advanced:"پیشرفته",
     media:"مدیا",
     none:"هیچ",
+    not_set:"تنظیم نشده",
+    alt:"Alt",
+    meta:"متا",
 
   },
 
@@ -885,6 +888,7 @@ export default {
   },
 
   actions: {
+    upload:"بارگزاری",
     add_to_cart: "افزودن به سبد خرید",
     cancel: "انصراف",
     update: "به روز رسانی",
