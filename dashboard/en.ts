@@ -11084,7 +11084,41 @@ export default {
       url_type: "Type",
       url: "URL",
       is_main: "Set as main"
-    }
+    },
+
+
+
+
+
+
+    /** {@see BShopListingDesignsList, BShopListingDesignUpsert} **/
+    designs: {
+      title: "Designs",
+      sub_title:
+        "Create multiple design sets (card + details templates) and assign them to categories. Categories can use different designs.",
+
+      empty_title: "No designs yet",
+      empty_subtitle:
+        "Add your first design set to start customizing how categories look.",
+
+      add_title: "Add design",
+      edit_title: "Edit design",
+
+      card_template: "Card template",
+      details_template: "Details template",
+
+      notifications: {
+        add_success: "Design created successfully.",
+        edit_success: "Design updated successfully.",
+        delete_success: "Design deleted successfully.",
+      },
+
+      delete_title: "Delete design",
+      delete_message:
+        "Delete this design? Categories using it will automatically lose design_id.",
+    },
+
+
   },
 
 

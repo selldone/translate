@@ -869,6 +869,9 @@ export default {
     not_set:"تنظیم نشده",
     alt:"Alt",
     meta:"متا",
+    templates:"تمپلیت ها",
+    folder:"پوشه",
+    unpublished:"لغو انتشار",
 
   },
 
@@ -1028,6 +1031,9 @@ export default {
     learn_more: "مطالعه بیشتر",
     learn_more_about: "مطالعه بیشتر درباره {name}",
     select_category: "انتخاب دسته بندی",
+    approve:"تایید",
+    archive:"آرشیو",
+    unpublish:"لغو انتشار",
 
   },
 

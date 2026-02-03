@@ -870,6 +870,10 @@ export default {
     not_set:"Not set",
     alt:"Alt",
     meta:"Meta",
+    templates:"Templates",
+    folder:"Folder",
+    unpublished:"Unpublished",
+
 
   },
   difficulties: {
@@ -1028,6 +1032,9 @@ export default {
     learn_more: "Learn more",
     learn_more_about: "Learn more about {name}",
     select_category: "Select category",
+    approve:"Approve",
+    archive:"Archive",
+    unpublish:"Unpublish",
   },
   /** @see BillingPeriod **/
   billing_period: {

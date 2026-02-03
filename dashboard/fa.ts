@@ -890,6 +890,198 @@ export default {
         define_package_hint: "تعریف بسته بندی با ابعاد و وزن مشخص",
       },
 
+
+
+
+
+
+
+
+
+
+
+
+
+      /** {@see BPageShopListing} **/
+      listing: {
+        name: "لیستینگ",
+        message:
+          "یک دایرکتوری قابل جستجو و دارای سیستم نظارت بسازید؛ برای هر نوع لیستینگ مثل املاک، هتل‌ها، پزشکان، خدمات و بیشتر.",
+      },
+
+      shop_listing: {
+        name: "لیستینگ",
+        message:
+          "یک دایرکتوری قابل جستجو و دارای سیستم نظارت بسازید؛ برای هر نوع لیستینگ مثل املاک، هتل‌ها، پزشکان، خدمات و بیشتر.",
+
+        items: {
+          title: "آیتم‌ها",
+          sub_title:
+            "آیتم‌های لیستینگ را ایجاد، ویرایش و مدیریت کنید. وضعیت، قیمت‌گذاری، اطلاعات تماس و مدیا را کنترل کنید.",
+
+          empty_title: "هنوز آیتمی ندارید",
+          empty_subtitle:
+            "اولین آیتم لیستینگ خود را بسازید تا دایرکتوری‌تان شروع شود.",
+
+          add_title: "افزودن آیتم",
+          edit_title: "ویرایش آیتم",
+
+          price_to: "قیمت تا",
+          price_unit: "واحد قیمت",
+          is_featured: "ویژه",
+
+          meta_json: "متا JSON",
+          links_json: "لینک‌ها JSON",
+          opening_hours_json: "ساعات کاری JSON",
+
+          delete_title: "حذف آیتم",
+          delete_message: "آیا مطمئن هستید که می‌خواهید این آیتم را حذف کنید؟",
+          delete_success: "آیتم با موفقیت حذف شد.",
+          restore_success: "آیتم با موفقیت بازیابی شد.",
+
+          opening_hours: "ساعات کاری",
+          form_fields: "فیلدهای فرم",
+        },
+
+        categories: {
+          title: "دسته‌بندی‌ها",
+          sub_title:
+            "دایرکتوری را با دسته‌ها و زیر‌دسته‌ها سازمان‌دهی کنید. این کار ناوبری و فیلتر کردن را بهتر می‌کند.",
+
+          empty_title: "هنوز دسته‌بندی ندارید",
+          empty_subtitle:
+            "برای ساختاردهی لیستینگ و بهتر شدن مرور، دسته‌بندی ایجاد کنید.",
+
+          add_title: "افزودن دسته‌بندی",
+          edit_title: "ویرایش دسته‌بندی",
+
+          parent_filter: "فیلتر بر اساس والد",
+          parent: "دسته‌بندی والد",
+
+          price_format: "فرمت قیمت",
+          icon: "آیکون",
+          design_id: "شناسه دیزاین",
+
+          delete_title: "حذف دسته‌بندی",
+          delete_message: "آیا مطمئن هستید که می‌خواهید این دسته‌بندی را حذف کنید؟",
+          delete_success: "دسته‌بندی با موفقیت حذف شد.",
+        },
+
+        options: {
+          submission_title: "ثبت و ارسال",
+          submission_enabled: "فعال‌سازی ارسال",
+
+          moderation_title: "نظارت",
+          moderation_mode: "حالت نظارت",
+          require_first_approved_before_more: "نیاز به تایید اول برای ادامه",
+
+          limits_title: "محدودیت‌ها",
+          max_pending_per_user: "حداکثر در انتظار برای هر کاربر",
+          max_items_per_user: "حداکثر آیتم برای هر کاربر",
+          limits_hint: "راهنمای محدودیت‌ها",
+
+          templates_title: "قالب‌ها",
+          card_template: "قالب کارت",
+          details_template: "قالب جزئیات",
+
+          form_schema_title: "طرح فرم",
+          settings_title: "تنظیمات اضافی",
+        },
+
+        supervision: {
+          title: "بازبینی",
+          sub_title:
+            "آیتم‌های ارسال‌شده را بررسی کنید و تصمیم بگیرید: تایید، انتشار، رد، آرشیو یا بازگردانی به حالت در انتظار.",
+
+          empty_title: "آیتمی برای بازبینی نیست",
+          empty_subtitle:
+            "وقتی کاربران آیتم جدید ارسال کنند، اینجا برای نظارت نمایش داده می‌شود.",
+
+          review_title: "بازبینی آیتم",
+          approve_publish: "تایید و انتشار",
+
+          submitted_at: "ارسال شده",
+          quick_actions: "اقدام‌های سریع",
+
+          open_review: "باز کردن بازبینی",
+          reset_to_pending: "بازگردانی به در انتظار",
+        },
+
+        moderation: {
+          approve_success: "آیتم با موفقیت تایید شد.",
+          publish_success: "آیتم با موفقیت منتشر شد.",
+          unpublish_success: "آیتم با موفقیت از انتشار خارج شد.",
+          archive_success: "آیتم با موفقیت آرشیو شد.",
+          reject_success: "آیتم با موفقیت رد شد.",
+          penalty_success: "جریمه با موفقیت اعمال شد.",
+
+          reject_title: "رد آیتم",
+          reject_reason: "دلیل رد",
+
+          penalty: "جریمه",
+          penalty_title: "جریمه",
+          penalty_points: "امتیاز جریمه",
+          penalty_note: "یادداشت جریمه",
+        },
+
+        media: {
+          upload_images: "آپلود تصاویر",
+          url_type: "نوع",
+          url: "آدرس",
+          is_main: "انتخاب به عنوان اصلی",
+        },
+
+        /** {@see BShopListingDesignsList, BShopListingDesignUpsert} **/
+        designs: {
+          title: "دیزاین‌ها",
+          sub_title:
+            "چندین مجموعه دیزاین (قالب کارت + قالب جزئیات) بسازید و به دسته‌بندی‌ها اختصاص دهید. هر دسته‌بندی می‌تواند دیزاین متفاوتی داشته باشد.",
+
+          empty_title: "هنوز دیزاینی ندارید",
+          empty_subtitle:
+            "اولین مجموعه دیزاین را اضافه کنید تا ظاهر دسته‌بندی‌ها را سفارشی کنید.",
+
+          add_title: "افزودن دیزاین",
+          edit_title: "ویرایش دیزاین",
+
+          card_template: "قالب کارت",
+          details_template: "قالب جزئیات",
+
+          notifications: {
+            add_success: "دیزاین با موفقیت ایجاد شد.",
+            edit_success: "دیزاین با موفقیت ویرایش شد.",
+            delete_success: "دیزاین با موفقیت حذف شد.",
+          },
+
+          delete_title: "حذف دیزاین",
+          delete_message:
+            "این دیزاین حذف شود؟ دسته‌بندی‌هایی که از آن استفاده می‌کنند به صورت خودکار design_id را از دست می‌دهند.",
+        },
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       /** {@see BPageShopLogisticShipping} **/
       delivery: {
         title: "روش های ارسال مرسولات",
