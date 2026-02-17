@@ -1702,6 +1702,8 @@ export default {
       switch: "چک باکس",
       file: "فایل",
       number: "عدد",
+      key_value: "کلید-مقدار",
+
     },
   },
 

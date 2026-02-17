@@ -1713,6 +1713,7 @@ export default {
       switch: "Switch",
       file: "File",
       number: "Number",
+      key_value: "Key-value pair",
     },
   },
 

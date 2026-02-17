@@ -7168,6 +7168,18 @@ export default {
         true_title: "Multi-Vendor Mode",
         false_title: "Single Vendor Mode (Default)",
       },
+
+      listing: {
+        label: "Listing for vendors",
+        true_description: "Listing is enabled for vendors. Vendors can manage listing items and companies.",
+        false_description: "Listing is disabled for vendors. Only the shop owner can manage listing items and companies.",
+        requires_listing_active_text:
+          "To let vendors use Listing (items + companies), first enable the shop Listing feature in Channel → Listing. Then come back here to allow vendor access.",
+        requires_listing_active_button: "Open Channel Listing settings",
+      },
+
+
+
     },
     notifications: {
       update_success: "Vendor settings updated successfully.",
@@ -10995,7 +11007,11 @@ export default {
       restore_success: "Item restored successfully.",
 
       opening_hours:"Opening Hours",
-      form_fields:"Form Fields"
+      form_fields:"Form Fields",
+
+      company: "Company",
+      badges: "Badges",
+
     },
 
     categories: {
@@ -11019,7 +11035,8 @@ export default {
 
       delete_title: "Delete category",
       delete_message: "Are you sure you want to delete this category?",
-      delete_success: "Category deleted successfully."
+      delete_success: "Category deleted successfully.",
+      form_schema: "Category form fields",
     },
 
     options: {
@@ -11059,7 +11076,9 @@ export default {
       quick_actions: "Quick actions",
 
       open_review: "Open review",
-      reset_to_pending: "Reset to pending"
+      reset_to_pending: "Reset to pending",
+      items_title: "Items",
+
     },
 
     moderation: {
@@ -11116,6 +11135,143 @@ export default {
       delete_title: "Delete design",
       delete_message:
         "Delete this design? Categories using it will automatically lose design_id.",
+    },
+
+
+
+
+
+    badges: {
+      title: "Badges",
+      sub_title:
+        "Create and manage storefront badges. Badges can be assigned to listing items to highlight special attributes.",
+
+      empty_title: "No badges yet",
+      empty_subtitle:
+        "Add your first badge to start highlighting listing items.",
+
+      add_title: "Add badge",
+      edit_title: "Edit badge",
+
+      notifications: {
+        add_success: "Badge created successfully.",
+        edit_success: "Badge updated successfully.",
+        delete_success: "Badge deleted successfully.",
+      },
+
+      delete_title: "Delete badge",
+      delete_message: "Are you sure you want to delete this badge?",
+    },
+
+    companies: {
+      title: "Companies",
+      sub_title:
+        "Create and manage companies. Each listing item can optionally be linked to one company.",
+
+      empty_title: "No companies yet",
+      empty_subtitle:
+        "Add your first company to link it to listing items.",
+
+      add_title: "Add company",
+      edit_title: "Edit company",
+
+      notifications: {
+        add_success: "Company created successfully.",
+        edit_success: "Company updated successfully.",
+        delete_success: "Company deleted successfully.",
+      },
+
+      delete_title: "Delete company",
+      delete_message:
+        "Delete this company? Items using it will automatically lose the company link.",
+    },
+
+
+
+    messages: {
+      title: "Messages",
+      sub_title: "Manage messages sent by users from listing profiles.",
+      empty_title: "No messages",
+      empty_subtitle: "Messages sent by users will appear here.",
+
+      sender: "Sender",
+      item: "Item",
+      has_reply: "Reply",
+      has_reply_yes: "Has reply",
+      has_reply_no: "No reply",
+
+      dialog_title: "Message",
+      owner_reply: "Owner reply",
+      reply: "Reply",
+      reply_hint: "Write a reply to the user. You can also mark the message as read/spam from actions.",
+
+      mark_read: "Mark as read",
+      mark_unread: "Mark as unread",
+      archive: "Archive",
+      unarchive: "Unarchive",
+      mark_spam: "Mark as spam",
+      mark_not_spam: "Not spam",
+
+      delete_confirm: "Delete this message?",
+    },
+
+    enable: {
+      title: "Listing",
+      subtitle: "Enable or disable your public listing page. When enabled for the first time, Selldone will create the listing configuration automatically.",
+      true_description: "Listing is enabled. Customers can browse listing pages.",
+      false_description: "Listing is disabled. The listing pages and submissions are blocked.",
+      open_listing: "Open listing",
+      note: "You can later configure moderation, limits, forms, and design inside Listing settings.",
+      vendor_prereq_text:
+        "Want vendors to add listing items from their Vendor Panel? First, switch your business model to Marketplace.",
+      vendor_prereq_button: "Set Marketplace business model",
+
+      vendor_access_text:
+        "Now you can decide whether vendors can access Listing features (items + companies). Enable it in Marketplace settings.",
+      vendor_access_button: "Enable listing for vendors",
+
+      more_options_text:
+        "More controls are available in Listing settings. You can configure inputs, UI/appearance, moderation, limits, and monetization options.",
+      more_options_button: "Go to listing settings",
+
+      updated: "Listing updated.",
+      update_failed: "Failed to update listing.",
+    },
+
+
+    search: {
+      title: "Search settings",
+      subtitle: "Design how customers search your listing. Enable location-based search and build filters from your custom form fields.",
+
+      location_title: "Location search",
+      location_subtitle: "Allow customers to pick a location and find nearby results within a configurable radius.",
+      location_enabled_true: "Location filter is enabled. Customers can search by distance.",
+      location_enabled_false: "Location filter is disabled. Results will not be filtered by distance.",
+
+      radius_default: "Default radius (km)",
+      radius_default_hint: "Used when the customer selects a location but does not pick a radius.",
+      radius_max: "Maximum radius (km)",
+      radius_max_hint: "The storefront radius will be clamped to this value.",
+      radius_options: "Radius options (km)",
+      radius_options_hint: "These values can be shown as quick options in the storefront UI.",
+
+      filters_title: "Search filters",
+      filters_subtitle: "Add filters that read values from item meta fields (your listing/category form fields). Use Auto-generate to collect real options from published items.",
+      no_filters: "No filters added yet.",
+      auto_generate: "Auto-generate options",
+
+      filter_field: "Field key",
+      filter_label: "Label",
+      filter_type: "Type",
+      filter_options: "Options",
+      filter_options_hint: "For select filters, options can be manual or generated.",
+      multiple: "Multiple",
+      single: "Single",
+      kv_mode: "Key/Value mode",
+
+      requires_listing_active: "Listing is not active. Enable Listing first to use it on the storefront.",
+
+
     },
 
 
