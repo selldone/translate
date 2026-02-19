@@ -873,6 +873,8 @@ export default {
     templates:"Templates",
     folder:"Folder",
     unpublished:"Unpublished",
+    featured: "Featured",
+    links: "Links",
 
 
   },

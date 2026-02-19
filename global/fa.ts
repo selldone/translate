@@ -872,6 +872,8 @@ export default {
     templates:"تمپلیت ها",
     folder:"پوشه",
     unpublished:"لغو انتشار",
+    featured:"ویژه",
+    links: "لینک ها",
 
   },
 
