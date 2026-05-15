@@ -1,4 +1,5 @@
 <?php 
+
  return [
      "invoice" => "Rechnung",
      "serial" => "Rechnungsnr.",
