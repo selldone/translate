@@ -2,12 +2,12 @@
 
  return [
      "received-gift" => [
-     "title" => "Geschenke bekommen.",
-     "message" => "Herzlichen Glückwunsch Sehr geehrter :name, wir senden Ihnen ein :amount :currency-Geschenk.",
+     "title" => "Geschenk erhalten.",
+     "message" => "Herzlichen Glückwunsch, sehr geehrter :name, wir senden Ihnen ein Geschenk in Höhe von :amount :currency.",
 ],
      "account-transaction" => [
-     "deposit-title" => "Zahle :Betrag :Währung auf Konto :account_from ein.",
-     "withdraw-title" => "Auszahlung :Betrag :Währung vom Konto :account_from.",
-     "message" => "Eine neue Transaktion in Ihrem Konto wurde durchgeführt.",
+     "deposit-title" => "Einzahlung von :Betrag :Währung auf Konto :account_from.",
+     "withdraw-title" => "Auszahlung von :Betrag :Währung vom Konto :account_from.",
+     "message" => "Eine neue Transaktion wurde auf Ihrem Konto durchgeführt.",
 ],
 ];
