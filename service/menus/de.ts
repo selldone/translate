@@ -1,48 +1,48 @@
 export default {
   "menu": {
-    "home": "Heim",
-    "dashboard": "Armaturenbrett",
-    "login": "Anmeldung",
+    "home": "Startseite",
+    "dashboard": "Dashboard",
+    "login": "Anmelden",
     "help": "Hilfe",
-    "blog": "Bloggen",
-    "price_list": "Preisgestaltung",
-    "apps": "Anwendungen",
+    "blog": "Blog",
+    "price_list": "Preise",
+    "apps": "Apps",
     "experts": "Experten",
-    "demo": "Selldoner",
+    "demo": "Selldone-Demo",
     "partnership": "Partnerschaft",
     "partner": {
-      "title": "Partnerpanel ● Whitelabel SaaS",
+      "title": "Partnerbereich ● White-Label-SaaS",
       "subtitle": "Eine E-Commerce-Plattform mit White-Labeling ist perfekt für verifizierte Agenturen."
     },
     "affiliate": {
-      "title": "Partnerprogramm ● Lebenslang",
+      "title": "Affiliate-Programm ● Lebenslang",
       "subtitle": "Jeder kann sich für dieses Programm anmelden und lebenslang an Abonnement- und Transaktionsgebühren verdienen."
     }
   },
   "home_menu": {
-    "buttons_header": "Tauchen Sie tief in Selldone ein",
+    "buttons_header": "Tauchen Sie tiefer in Selldone ein",
     "beta": "Beta",
-    "home": "Heim",
+    "home": "Startseite",
     "why_selldone": "Warum Selldone?",
-    "ecommerce": "E-Commerce<br> Baumeister",
+    "ecommerce": "E-Commerce<br> Builder",
     "automation": "Automatisierung & IoT",
-    "ai": "AI",
+    "ai": "KI",
     "app_builder": "App-Builder",
-    "seo": "Auto-SEO<br> Motor",
-    "marketing": "Marketing &<br> Kampagne",
+    "seo": "Auto-SEO<br> Engine",
+    "marketing": "Marketing &<br> Kampagnen",
     "report": "Intelligenter Bericht<br> Generator",
-    "domain": "Cloud-basiertes Hosting",
+    "domain": "Cloudbasiertes Hosting",
     "accounting": "Zahlung &<br> Buchhaltung",
     "logistics": "Logistik &<br> Versand",
-    "page_builder": "Zielseite<br> Baumeister",
-    "incentives": "Verein &<br> Anreize",
-    "orders": "Aufträge &<br> wird bearbeitet",
+    "page_builder": "Landingpage<br> Builder",
+    "incentives": "Club &<br> Anreize",
+    "orders": "Bestellungen &<br> Bearbeitung",
     "staff": "Kunden &<br> Team",
-    "community": "Benutzerdefinierte Gemeinschaft",
+    "community": "Individuelle Community",
     "pos": "Online-POS",
     "group_build": {
-      "header": "Bauen",
-      "subheader": "Wir bauen ein System um Sie herum auf, um Ihre Erfolgsgeschichte zu schreiben."
+      "header": "Aufbauen",
+      "subheader": "Wir bauen ein System um Sie herum auf, damit Sie Ihre Erfolgsgeschichte schreiben können."
     },
     "group_manage": {
       "header": "Verwalten",
@@ -50,11 +50,11 @@ export default {
     },
     "group_sell": {
       "header": "Verkaufen",
-      "subheader": "Immer schließen, Geld verdienen und es genießen."
+      "subheader": "Immer abschließen, Geld verdienen und es genießen."
     },
     "group_grow": {
-      "header": "Zunehmen",
-      "subheader": "Funktionen und Tools der Enterprise-Klasse stehen Ihnen zur Verfügung, der Himmel wird Ihre Grenze sein."
+      "header": "Wachsen",
+      "subheader": "Funktionen und Tools auf Enterprise-Niveau stehen Ihnen zur Verfügung – der Himmel ist die Grenze."
     }
   }
 };
