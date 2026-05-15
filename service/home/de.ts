@@ -10,16 +10,16 @@ export default {
 
   welcome_title: "Reduzieren Sie Ihre täglichen Entscheidungen auf eine einzige",
   welcome_subtitle:
-      "Bauen, verwalten und skalieren Sie Ihr Geschäft wie Profis mit dem Unternehmensbetriebssystem auf No-Code-Basis zur Abwicklung von Millionen von Bestellungen und zur Automatisierung Ihrer Arbeitsabläufe.",
+      "Bauen, verwalten und skalieren Sie Ihr Geschäft wie Profis mit dem No-Code-Betriebssystem für Unternehmen – zur Abwicklung von Millionen von Bestellungen und zur Automatisierung Ihrer Arbeitsabläufe.",
 
   moto: "Sie probieren es aus, wir öffnen die Türen!",
   start_now_btn: "Jetzt starten – es ist kostenlos",
   create_ecommerce_btn: "Starten Sie Ihren E-Commerce kostenlos",
   incentive_action: "Verabschieden Sie sich von Ihrer niedrigen Online-Verkaufsrate!",
 
-  create_shopping_website: "Erstelle meinen E-Commerce",
+  create_shopping_website: "Meinen E-Commerce erstellen",
 
-  your_shop: "Ihre Schaufenster",
+  your_shop: "Ihr Schaufenster",
   your_dashboard: "Ihr Backoffice",
 
   storefront: "Schaufenster",
@@ -30,22 +30,22 @@ export default {
 
   s1: {
     subtitle:
-        "Für <b>Geschäftsinhaber</b> und <b>Händler</b>, die eine einzigartige, schnelle, sichere und zuverlässige Erfahrung für ihre Kunden suchen, hilft Ihnen dieses Tool, einen schnellen E-Commerce-Shop zu erstellen, die Verwaltung im Geschäft nahtlos zu gestalten und eine einzigartige, selbst gehostete Community darum herum aufzubauen auf dem <b>White-Label-Unternehmensbetriebssystem</b>.",
+        "Für <b>Geschäftsinhaber</b> und <b>Händler</b>, die ihren Kunden ein einzigartiges, schnelles, sicheres und zuverlässiges Erlebnis bieten möchten, hilft Ihnen dieses Tool dabei, schnell einen E-Commerce-Shop zu erstellen, die Shop-Verwaltung nahtlos zu gestalten und rund um Ihr <b>White-Label-Betriebssystem für Unternehmen</b> eine einzigartige, selbst gehostete Community aufzubauen.",
 
     domain_input: {
       message:
-          "Ihr Shop kann mit einer beliebigen Anzahl persönlicher Domains verbunden werden, die Sie mit kostenlosem Hosting und SSL haben",
+          "Ihr Shop kann mit beliebig vielen eigenen Domains verbunden werden – inklusive kostenlosem Hosting und SSL.",
       action: "Einen Shop erstellen",
     },
     community: "Community-Plattform",
-    shop: "Online-Shop-Builder",
+    shop: "Onlineshop-Builder",
     inventory: "Bestandsverwaltung",
     cms: "Seiteneditor & CMS",
 
     in_60_sec: "Hier klicken",
 
     why_use_selldone_if_frustrated_from_wordpress_and_shopify:
-        "Wenn Sie frustriert sind von fehlerhaften WordPress-Plugins, nicht skalierbaren Servern oder den kostspieligen und komplexen Setups von Shopify-Apps, dann ist Selldone die ultimative Lösung für Sie.",
+        "Wenn Sie frustriert sind von fehlerhaften WordPress-Plugins, nicht skalierbaren Servern oder den kostspieligen und komplexen Setups von Shopify-Apps, dann ist Selldone die ideale Lösung für Sie.",
   },
 
   video: {
@@ -65,16 +65,16 @@ export default {
 
   why: {
     title: "Warum Business OS?",
-    msg: "Wir können uns Teams ohne Coaches, Revolutionen ohne Führer, Bäume ohne Wurzeln und Unternehmen ohne Betriebssystem nicht vorstellen! Deshalb stellen wir das Online-Geschäft für schnell wachsende Unternehmen und junge Unternehmer neu vor.",
+    msg: "Wir können uns Teams ohne Trainer, Revolutionen ohne Anführer, Bäume ohne Wurzeln und Unternehmen ohne Betriebssystem nicht vorstellen! Deshalb denken wir das Online-Geschäft für schnell wachsende Unternehmen und junge Unternehmer neu.",
 
     sec1: {
       title: "Einfach + Professionell",
     },
     sec2: {
-      title: "Unternehmensgerechte Werkzeuge",
+      title: "Unternehmensgerechte Tools",
     },
     sec3: {
-      title: "Sozialer Verkauf",
+      title: "Social Selling",
     },
     sec4: {
       title: "Geld sparen",
@@ -83,36 +83,36 @@ export default {
 
   how_it_work: {
     title: "Wie es funktioniert",
-    msg: "Keine Kreditkarte, kein Plugin, keine Vorlage, kein Setup, kein Host, keine technische Lösung für diejenigen, die wie Profis spielen wollen.",
+    msg: "Keine Kreditkarte, kein Plugin, keine Vorlage, keine Einrichtung, kein Hosting, keine technische Hürde – für alle, die wie Profis arbeiten möchten.",
 
     step0: {
-      title: "Für Käufer entwickelt, von Verkäufern geliebt, nur einen Schritt entfernt.",
-      msg1: "Erleben Sie die Kraft des echten E-Commerce, bauen Sie eine treue Kundenbasis auf und konzentrieren Sie sich auf das, was Sie lieben, mit unserem Tool.",
+      title: "Für Käufer entwickelt, von Verkäufern geliebt – nur einen Schritt entfernt.",
+      msg1: "Erleben Sie die Kraft echten E-Commerce, bauen Sie eine treue Kundenbasis auf und konzentrieren Sie sich mit unserem Tool auf das, was Sie lieben.",
     },
     step1: {
       title: "Fügen Sie Ihre Produkte hinzu.",
-      msg1: "Fügen Sie Produkte einfach manuell hinzu oder importieren Sie bis zu 100.000 Artikel mit einer Excel-Datei. Verkaufen Sie Produkte, Dienstleistungen, Abonnements und Dateien alles an einem Ort, genau wie das Hinzufügen von Fotos auf Instagram!",
+      msg1: "Fügen Sie Produkte einfach manuell hinzu oder importieren Sie bis zu 100.000 Artikel mit einer Excel-Datei. Verkaufen Sie Produkte, Dienstleistungen, Abonnements und Dateien an einem Ort – so einfach wie das Hinzufügen von Fotos auf Instagram!",
     },
     step2: {
-      title: "Verbinden Sie Zahlungsmethoden, die Ihren Bedürfnissen entsprechen.",
-      msg1: "Wir sind nicht daran interessiert, in finanzielle Transaktionen einzugreifen! 100% der Kundenzahlungen werden direkt auf Ihr Bankkonto überwiesen. Verbinden Sie einfach Ihr Stripe, PayPal usw. Sie können mehrere aktive Zahlungsdienste gleichzeitig in Ihrem Shop haben!",
+      title: "Verbinden Sie Zahlungsmethoden, die zu Ihren Anforderungen passen.",
+      msg1: "Wir sind nicht daran interessiert, in finanzielle Transaktionen einzugreifen! 100 % der Kundenzahlungen werden direkt auf Ihr Bankkonto überwiesen. Verbinden Sie einfach Stripe, PayPal usw. Sie können mehrere aktive Zahlungsdienste gleichzeitig in Ihrem Shop nutzen!",
       crypto_msg: "Verfügbar für aktive Händler",
     },
     step3: {
-      title: "White Label, flexibel und tief anpassbar.",
-      msg1: "Gestalten Sie Ihre Landing Pages einfach und passen Sie die Theme-Farben Ihrer Seite an, um Ihre Markenbotschaft mit der Drag-and-Drop-Funktion widerzuspiegeln – kein Experte erforderlich.",
-      view_sample_pages: "Großartige SD-Shops zur Inspiration",
+      title: "White-Label, flexibel und umfassend anpassbar.",
+      msg1: "Gestalten Sie Ihre Landingpages einfach und passen Sie die Theme-Farben Ihrer Seite an, um Ihre Markenbotschaft widerzuspiegeln – per Drag-and-drop und ohne Expertenwissen.",
+      view_sample_pages: "Großartige Selldone-Shops zur Inspiration",
     },
     step4: {
       title:
           "Ein-Klick-Checkout: Einheitliches Checkout-Erlebnis weltweit.",
-      msg1: "Kunden müssen keine Informationen eingeben und kein Registrierungsformular ausfüllen, um bei Ihnen zu kaufen! Sie melden sich über SMS an und füllen das Checkout-Formular mit einem Klick aus und bezahlen. Sie wachsen, wir wachsen.",
+      msg1: "Kunden müssen keine Informationen eingeben und kein Registrierungsformular ausfüllen, um bei Ihnen zu kaufen! Sie melden sich per SMS an, füllen das Checkout-Formular mit einem Klick aus und bezahlen. Sie wachsen, wir wachsen.",
     },
   },
 
   onboarding: {
-    title: "Machen Sie Ihr Geschäft online, schneller und besser – es ist kostenlos",
-    success_title: "Installieren Ihres Online-Geschäfts-OS,",
+    title: "Bringen Sie Ihr Geschäft online – schneller, besser und kostenlos",
+    success_title: "Installation Ihres Online-Business-OS,",
     wait_msg: "Bitte warten Sie ein paar Sekunden...",
     ready_msg: "Ihr Shop ist bereit.",
     send_mail_msg: "Login-Link an {email} gesendet",
@@ -126,10 +126,10 @@ export default {
       include_items_title: "Es umfasst diese Dienste",
       include_items: [
         "Einrichtung der Shop-Einstellungen und des Erscheinungsbilds",
-        "Einrichtung einer Versandmethode und einer Zahlung",
+        "Einrichtung einer Versandmethode und einer Zahlungsmethode",
         "Gestaltung Ihrer Startseite",
         "Hilfe beim Importieren von Produkten mit Excel",
-        "Fügen Sie Ihre benutzerdefinierte Domain hinzu",
+        "Hinzufügen Ihrer benutzerdefinierten Domain",
       ],
     },
 
@@ -143,7 +143,7 @@ export default {
       title: "Shop-Konfiguration",
       msg: "Welche Funktionen möchten Sie auf Ihrer Website?",
       ecommerce: "E-Commerce",
-      pos: "Point of Sale",
+      pos: "Verkaufsstelle",
       blog: "Blog & CMS",
       community: "Community & Forum",
 
@@ -156,11 +156,11 @@ export default {
     job: {
       title: "Wählen Sie Ihre Branche, um zu starten...",
       placeholder:
-          "Wechseln Sie Ihr Geschäft zu Selldone OS, egal welche Plattform Sie derzeit verwenden.",
+          "Migrieren Sie Ihr Geschäft zu Selldone OS – unabhängig davon, welche Plattform Sie derzeit verwenden.",
     },
     shop_name: {
       title: "Geschäftsname",
-      placeholder: "z.B. Alex Schuhe",
+      placeholder: "z. B. Alex Schuhe",
     },
     income: {
       title: "Monatlicher Umsatz",
@@ -176,20 +176,20 @@ export default {
   },
 
   notion: {
-    title: "Spielen Sie mit verschiedenen Tools.",
+    title: "Arbeiten Sie mit verschiedenen Tools.",
     quote:
-        "Wir glauben, dass eine Person in der Ära der Online-Menschheit einen Unterschied machen kann, selbst wenn sie nicht genug Geld hat, keine technische Erfahrung hat und kein Bankkonto zur Zahlung der Rechnungen besitzt; wir tun dies, indem wir eine einsatzbereite Plattform mit unternehmensgerechten Tools erstellen, die als das am meisten erreichbare Betriebssystem im Internet fungiert.",
+        "Wir glauben, dass eine Person im Zeitalter des Online-Handels etwas bewirken kann – auch wenn sie nicht viel Geld, keine technische Erfahrung und kein Bankkonto zur Begleichung von Rechnungen hat. Wir tun dies, indem wir eine sofort einsatzbereite Plattform mit unternehmensgerechten Tools schaffen, die als eines der zugänglichsten Betriebssysteme im Internet dient.",
   },
 
   stop: {
-    title: "Multi-Gateway + Direkte Zahlung.",
+    title: "Mehrere Gateways + Direkte Zahlung.",
     subtitle:
         "Eine virtuelle Brieftasche hilft Ihnen, Ihren Cashflow zu kontrollieren und Geld direkt über Ihre Zahlungsdienste zu empfangen, ohne dass Ihre E-Commerce-Plattform eingreift.",
     pacman: "Zahlungs-Plugins",
   },
 
   flow: {
-    title: "Anpassbarer Checkout-Flow.",
+    title: "Anpassbarer Checkout-Ablauf.",
     subtitle:
         "Gestalten Sie die Kundenreise und den Kaufablauf und experimentieren Sie mit den Ergebnissen.",
     pacman: "Checkout-Plugins",
@@ -197,48 +197,48 @@ export default {
   business_model: {
     title: "Mehrere Geschäftsmodelle.",
     subtitle:
-        "Richten Sie Ihr Geschäftsmodell visuell ein, alle Komplexitäten werden im Hintergrund angepasst.",
-    pacman: "Marktplatz & POD-Plugins",
+        "Richten Sie Ihr Geschäftsmodell visuell ein; alle komplexen Abläufe werden im Hintergrund angepasst.",
+    pacman: "Marktplatz- & POD-Plugins",
   },
 
   os: {
-    title: "Zugang zu erstklassigen Tools – Alles inklusive.",
-    msg: "Wir legen die Macht der Erstellung professioneller E-Commerce in Ihre Hände.",
+    title: "Zugang zu erstklassigen Tools – alles inklusive.",
+    msg: "Wir legen die Möglichkeit, professionellen E-Commerce zu erstellen, in Ihre Hände.",
   },
   login: {
     title:
-        "Sind Sie neugierig darauf, Ihr Geschäft visuell zu bauen, zu verwalten und zu skalieren?",
+        "Möchten Sie Ihr Geschäft visuell aufbauen, verwalten und skalieren?",
   },
 
   currencies: {
     title: "Währungen",
-    sub: "Ihre Kunden können reibungslos in ihren lokalen Währungen bezahlen.",
-    msg: "Konzentrieren Sie sich auf den Verkauf, anstatt mit den technischen Problemen, Plugins und Zahlungskomplikationen zu kämpfen. Wir arbeiten mit lokalen und globalen Zahlungsdiensten zusammen, um alles in Ihrem Online-Geschäft in Einklang zu bringen.",
+    sub: "Ihre Kunden können reibungslos in ihrer lokalen Währung bezahlen.",
+    msg: "Konzentrieren Sie sich auf den Verkauf, statt sich mit technischen Problemen, Plugins und Zahlungskomplikationen zu beschäftigen. Wir arbeiten mit lokalen und globalen Zahlungsdiensten zusammen, um alles in Ihrem Online-Geschäft optimal abzustimmen.",
   },
 
   countries: {
     title: "Länder",
     sub: "Das am einfachsten skalierbare Business OS der Welt.",
-    msg: "Wir passen das traditionelle Verhalten des Person-zu-Person-Handels im Online-Bereich an, egal wo Sie oder Ihr Kunde leben. Wir haben die Mission, Ihnen die beste Erfahrung zu bieten.",
+    msg: "Wir übertragen das traditionelle Verhalten des persönlichen Handels in den Online-Bereich – egal, wo Sie oder Ihre Kunden leben. Unsere Mission ist es, Ihnen das beste Erlebnis zu bieten.",
   },
   dna: {
     title: "DNA Ihres Geschäfts",
     sub: "SELLDONE IT!",
-    msg: "Es ist das einzige All-in-One, No-Code Business Operating System as a Service mit unternehmensgerechten Tools für Sie.",
+    msg: "Es ist das einzige All-in-One-No-Code-Betriebssystem für Unternehmen als Service mit unternehmensgerechten Tools für Sie.",
   },
 
   api: {
-    header: "Open Source API & SDK mit {infinite} Anpassungsmöglichkeiten",
+    header: "Open-Source-API & SDK mit {infinite} Anpassungsmöglichkeiten",
     title: "Entwicklerfreundlich",
-    msg: "Eine vollständig offene API-basierte Lösung für Online-Geschäfte.",
+    msg: "Eine vollständig offene, API-basierte Lösung für Online-Geschäfte.",
 
     sec1: {
       title: "Wir bauen das Rückgrat Ihres Geschäfts",
-      msg: "Alle Seiten Ihres Shops sind über unsere leistungsstarke REST-API verfügbar. Sie können alle Änderungen am Shop vornehmen, Ihre Apps erstellen oder Ihre Shopping-App entwickeln, ohne sich um technische, Zahlungs- und Backend-Probleme sorgen zu müssen.",
+      msg: "Alle Seiten Ihres Shops sind über unsere leistungsstarke REST-API verfügbar. Sie können Änderungen am Shop vornehmen, eigene Apps erstellen oder Ihre Shopping-App entwickeln, ohne sich um technische, Zahlungs- und Backend-Probleme kümmern zu müssen.",
     },
     sec2: {
       title: "Schnelle Integration",
-      msg: "Wir entwickeln SDKs für alle gängigen Sprachen und Frameworks, damit Sie die Schritte der Authentifizierung, des Zugriffs auf das Konto und dessen Verwaltung mit einfachen Befehlen durchführen können. Der Einstieg ist nur ein paar Klicks entfernt.",
+      msg: "Wir entwickeln SDKs für alle gängigen Sprachen und Frameworks, damit Sie Authentifizierung, Kontozugriff und Verwaltung mit einfachen Befehlen durchführen können. Der Einstieg ist nur wenige Klicks entfernt.",
     },
   },
 
@@ -250,15 +250,15 @@ export default {
     price: "89 $",
     management: {
       title: "Produktverwaltung",
-      msg: "Verwalten Sie Produkte und Kategorien wie Dateien und Ordner, die Sie in Windows per Drag & Drop verschieben.",
+      msg: "Verwalten Sie Produkte und Kategorien wie Dateien und Ordner, die Sie in Windows per Drag-and-drop verschieben.",
       check1: "Produkte per Excel- oder CSV-Dateien hochladen.",
       check2: "AR-Modelle hinzufügen.",
-      check3: "Optimieren durch Auto-SEO-Engine.",
-      check4: "Drag & Drop Verwaltung.",
+      check3: "Mit Auto-SEO-Engine optimieren.",
+      check4: "Drag-and-drop-Verwaltung.",
     },
     payment: {
       title: "Unterstützung mehrerer Zahlungsmethoden",
-      msg: "Nahtloses In-Site / In-App Zahlungserlebnis.",
+      msg: "Nahtloses Zahlungserlebnis auf der Website / in der App.",
       check1: "Stripe",
       check1msg: "Unterstützt über 40 Länder.",
 
@@ -275,49 +275,49 @@ export default {
     },
     design: {
       title: "Seiten-Builder",
-      msg: "Machen Sie es real einfach durch Drag & Drop.",
+      msg: "Machen Sie es mit Drag-and-drop ganz einfach real.",
     },
   },
 
   secure: {
-    title: "Hyper Sichere Lösung",
-    msg: "Datenintegrität und unternehmensgerechte Zugriffsebene-Verwaltung.",
+    title: "Hochsichere Lösung",
+    msg: "Datenintegrität und unternehmensgerechte Zugriffsebenen-Verwaltung.",
   },
 
   build: {
     title: "Starten Sie Ihren eigenen Shop mit Ihrer eigenen Marke.",
-    msg: "Sie haben viele Möglichkeiten, Ihre Social-Media-Konten in eine Online-Shopping-Website auf Ihrer Domain zu konvertieren oder Ihren meisterhaften E-Commerce von Grund auf neu zu erstellen.",
+    msg: "Sie haben viele Möglichkeiten, Ihre Social-Media-Konten in eine Online-Shopping-Website auf Ihrer Domain umzuwandeln oder Ihren professionellen E-Commerce von Grund auf neu zu erstellen.",
   },
 
   stripe: {
     title: "Haben Sie ein Stripe-Konto?",
-    msg: "Herzlichen Glückwunsch, Sie haben die meisten Dinge bereits erledigt. Erstellen Sie Ihren Online-Shop einfach mit einem Klick! Selldone kümmert sich um den Rest.",
+    msg: "Herzlichen Glückwunsch, Sie haben die meisten Dinge bereits erledigt. Erstellen Sie Ihren Onlineshop einfach mit einem Klick! Selldone kümmert sich um den Rest.",
   },
 
   unbanked: {
     title: "Einmalige Aktion, lebenslanger Nutzen – Ziel.",
-    msg: "Ein einzigartiges Business OS, um Online-Verkäufe zu erleichtern und den Unternehmergeist zu entfesseln, selbst für über 1,7 Milliarden unbanked Erwachsene.",
+    msg: "Ein einzigartiges Business OS, um Online-Verkäufe zu erleichtern und Unternehmergeist zu entfesseln – selbst für über 1,7 Milliarden Erwachsene ohne Bankkonto.",
   },
   faqs: [
     {
-      question: "Kann ich einen Online-Shop ohne Kreditkarte erstellen?",
+      question: "Kann ich einen Onlineshop ohne Kreditkarte erstellen?",
       answer:
-          "Ja, Sie können Ihren E-Commerce auf Selldone erstellen, ohne eine Bankkarte wie Kredit- und Debitkarten zu benötigen. Selldone verwendet eine einzigartige Methode, um fortschrittliche E-Commerce-Dienste für Menschen bereitzustellen, selbst für über 1,7 Milliarden Menschen ohne Zugang zu üblichen Finanzdienstleistungen.",
+          "Ja, Sie können Ihren E-Commerce auf Selldone erstellen, ohne eine Bankkarte wie Kredit- oder Debitkarte zu benötigen. Selldone nutzt eine einzigartige Methode, um fortschrittliche E-Commerce-Dienste für Menschen bereitzustellen – sogar für über 1,7 Milliarden Menschen ohne Zugang zu üblichen Finanzdienstleistungen.",
     },
     {
-      question: "Wie kann ich online an unbanked Kunden verkaufen?",
+      question: "Wie kann ich online an Kunden ohne Bankkonto verkaufen?",
       answer:
-          "Fügen Sie COD (<b>Nachnahme</b>) zu Ihrem E-Commerce hinzu, sodass Ihre Kunden nach Erhalt der Bestellung bezahlen können. COD ist die traditionelle Methode in den meisten Ländern mit fehlender Finanzierungsinfrastruktur.",
+          "Fügen Sie Ihrem E-Commerce COD (<b>Nachnahme</b>) hinzu, sodass Ihre Kunden nach Erhalt der Bestellung bezahlen können. COD ist die traditionelle Methode in vielen Ländern mit fehlender Finanzinfrastruktur.",
     },
     {
       question: "Wie kann ich meinen E-Commerce ohne Bankkonto einrichten?",
       answer:
-          "Vor Selldone gab es keine Lösung für unbanked Menschen. Aber jetzt können Sie Ihren E-Commerce und Ihre Website erstellen, ohne ein Bankkonto zu besitzen. Es hat minimale Kosten für Sie; Sie können diese Kosten am Ende des Monats über Ihre Brieftasche bezahlen. Die Selldone-Brieftasche kann Gebühren von anderen Personen empfangen oder über Geschenkkarten aufgeladen werden. Sie benötigen keine Kreditkarte, um diese Dienste zu nutzen.",
+          "Vor Selldone gab es keine Lösung für Menschen ohne Bankkonto. Jetzt können Sie jedoch Ihren E-Commerce und Ihre Website erstellen, ohne ein Bankkonto zu besitzen. Die Kosten für Sie sind minimal; Sie können diese am Ende des Monats über Ihre Brieftasche bezahlen. Die Selldone-Brieftasche kann Gebühren von anderen Personen empfangen oder über Geschenkkarten aufgeladen werden. Sie benötigen keine Kreditkarte, um diese Dienste zu nutzen.",
     },
     {
       question: "Wie kann ich ein Geschäft ohne Einrichtungskosten starten?",
       answer:
-          "<ol> <li> Registrieren Sie sich kostenlos auf <a href='https://selldone.com'>Selldone.com</a>. </li> <li> Bauen Sie Ihren Shop auf. </li> <li> Fügen Sie Ihre Produkte und Dienstleistungen hinzu. </li> <li> Verbinden Sie Ihre Domain (optional) </li> <li> Aktivieren Sie Zahlungsgateways. </li> <li> Beginnen Sie, Ihr Geschäft Freunden und Familie vorzustellen. </li> <li> Stellen Sie sich und Ihre Produkte in den sozialen Medien vor. </li> <li> Bauen Sie eine Marke für Ihr Geschäft auf, indem Sie ein einzigartiges Wertangebot bieten. </li> <li> Überwachen Sie das Verhalten Ihrer Nutzer über das Selldone-Panel. </li> </ol>",
+          "<ol> <li> Registrieren Sie sich kostenlos auf <a href='https://selldone.com'>Selldone.com</a>. </li> <li> Bauen Sie Ihren Shop auf. </li> <li> Fügen Sie Ihre Produkte und Dienstleistungen hinzu. </li> <li> Verbinden Sie Ihre Domain (optional). </li> <li> Aktivieren Sie Zahlungsgateways. </li> <li> Beginnen Sie, Ihr Geschäft Freunden und Familie vorzustellen. </li> <li> Stellen Sie sich und Ihre Produkte in den sozialen Medien vor. </li> <li> Bauen Sie eine Marke für Ihr Geschäft auf, indem Sie ein einzigartiges Wertversprechen bieten. </li> <li> Überwachen Sie das Verhalten Ihrer Nutzer über das Selldone-Panel. </li> </ol>",
     },
   ],
 
@@ -327,21 +327,21 @@ export default {
   },
 
   why_boxes: {
-    title: "Optimiert für Online- & In-Store-Verkäufe in großem Maßstab",
+    title: "Optimiert für Online- & stationäre Verkäufe in großem Maßstab",
     subtitle:
-        "Entwickelt für Konversion. Erhöhen Sie Ihren Online-Shop mit intuitiven Tools, die darauf ausgelegt sind, Besucher in Kunden zu verwandeln.",
+        "Entwickelt für Conversion. Optimieren Sie Ihren Onlineshop mit intuitiven Tools, die darauf ausgelegt sind, Besucher in Kunden zu verwandeln.",
 
     block1: {
-      title: "Sparen Sie Anfangskosten",
+      title: "Anfangskosten sparen",
       subtitle: "Keine Theme- & keine Plugin-Lösung.",
     },
     block2: {
-      title: "Sparen Sie Betriebskosten",
+      title: "Betriebskosten sparen",
       subtitle: "Keine zusätzlichen & versteckten Gebühren.",
     },
     block3: {
-      title: "Sparen Sie Zeit",
-      subtitle: "Unternehmensgerechte, aber anfängerfreundlich.",
+      title: "Zeit sparen",
+      subtitle: "Unternehmensgerecht, aber anfängerfreundlich.",
     },
   },
 
@@ -358,30 +358,30 @@ export default {
     cart: "Warenkorbverwaltung",
     payment: "Zahlung",
     shipping: "Versand",
-    fulfilment: "Erfüllung",
+    fulfilment: "Auftragsabwicklung",
     community: "Community & Feedback",
   },
 
   team: {
     title: "Lernen Sie das Team kennen.",
-    msg: "Wir werden nach anderen Regeln in dem harten Feld der Handelsplattformen spielen, besonders wenn unsere Konkurrenten Millionen von Dollar für Werbung ausgeben; wir investieren in das Produkt, die Leute und die Lösung echter Probleme. Dieses Team unterstützt Ihr Geschäft!",
+    msg: "Wir spielen nach anderen Regeln im harten Feld der Handelsplattformen – besonders, wenn unsere Konkurrenten Millionen von Dollar für Werbung ausgeben. Wir investieren in das Produkt, die Menschen und die Lösung echter Probleme. Dieses Team unterstützt Ihr Geschäft!",
   },
 
   customers: {
     title: "Lernen Sie unsere Community kennen.",
-    msg: "Es ist nur der Anfang einer Reise, um sinnvolle Tools zu entwickeln, die zukünftige Unternehmer freischalten, indem wir von unseren Kunden lernen.",
+    msg: "Es ist erst der Anfang einer Reise, auf der wir sinnvolle Tools entwickeln, die zukünftige Unternehmer stärken – indem wir von unseren Kunden lernen.",
   },
 
   panorama: {
     title:
         '#1 Business OS — <b class="bg-gradient-animate text-gradient my-1">Alle Funktionen sind vorgefertigt.</b>',
-    msg: "Sie müssen keine Tausende von Dollar für Plugins und Apps jeden Monat ausgeben und sich um die Updates sorgen. Wie ein Engel kümmert sich Selldone um alle technischen Seiten Ihres Geschäfts.",
+    msg: "Sie müssen nicht jeden Monat Tausende von Dollar für Plugins und Apps ausgeben und sich um Updates kümmern. Wie ein Engel kümmert sich Selldone um alle technischen Aspekte Ihres Geschäfts.",
     orders_management: "Bestellverwaltung",
-    online_pos: "Online POS",
+    online_pos: "Online-POS",
     shipping: "Versand",
     inventory_management: "Bestandsverwaltung",
     social_commerce: "Social Commerce",
-    in_store_sell: "Im Geschäft verkaufen",
+    in_store_sell: "Verkauf im Geschäft",
     team: "Team / Mitarbeiter",
     incentives: "Anreize / Treue",
     community: "Community-Management",
@@ -403,11 +403,11 @@ export default {
     we_support_message: "Wir unterstützen {country}",
     we_limited_support: "Wir unterstützen {country} eingeschränkt",
     support_message_long:
-        "Erleben Sie nahtlose Online-Transaktionen in Ihrem Land mit Selldone! Neben professionellen Steuerberechnungen bieten wir vielfältige Zahlungsmethoden, einschließlich Barzahlung, POS, Banküberweisungen und mehr. Beginnen Sie, Ihr Geschäft auf einer Plattform aufzubauen, die die Bedürfnisse Ihres Landes vollständig unterstützt.",
+        "Erleben Sie nahtlose Online-Transaktionen in Ihrem Land mit Selldone! Neben professionellen Steuerberechnungen bieten wir vielfältige Zahlungsmethoden, einschließlich Barzahlung, POS, Banküberweisungen und mehr. Beginnen Sie damit, Ihr Geschäft auf einer Plattform aufzubauen, die die Anforderungen Ihres Landes umfassend unterstützt.",
     limited_support_message_long:
-        "Online-Zahlungen sind möglicherweise in Ihrem Land nicht verfügbar, aber keine Sorge! Bei Selldone bieten wir weltweite Barzahlungen, Banküberweisungen und Nachnahme (COD) an. Sie können Ihr Online-Geschäft bei uns mit Zuversicht aufbauen, während Sie die Vorschriften Ihres Landes und Europas einhalten. Für weitere Details oder um die Unterstützung von Online-Zahlungen in Ihrem Land anzufragen, kontaktieren Sie bitte unser Support-Team.",
+        "Online-Zahlungen sind in Ihrem Land möglicherweise nicht verfügbar, aber keine Sorge! Bei Selldone bieten wir weltweit Barzahlungen, Banküberweisungen und Nachnahme (COD) an. Sie können Ihr Online-Geschäft mit uns vertrauensvoll aufbauen und gleichzeitig die Vorschriften Ihres Landes und Europas einhalten. Für weitere Details oder um die Unterstützung von Online-Zahlungen in Ihrem Land anzufragen, kontaktieren Sie bitte unser Support-Team.",
 
-    more_about_selldone_in_country: "Über Selldone in Ihrem Land",
+    more_about_selldone_in_country: "Mehr über Selldone in Ihrem Land",
 
     tax: {
       title: "Steuerfreundlich",
@@ -422,22 +422,22 @@ export default {
     shipping: {
       title: "Lokaler & globaler Versand",
       message:
-          "Integrationen mit lokalen und globalen Versanddienstleistern wie Shippo und Shipday sowie Optionen zur Selbstverwaltung von Kurieren, um reibungslose Lieferoperationen überall zu gewährleisten.",
+          "Integrationen mit lokalen und globalen Versanddienstleistern wie Shippo und Shipday sowie Optionen zur Selbstverwaltung von Kurieren sorgen überall für reibungslose Lieferprozesse.",
     },
     erp: {
       title: "ERP-Integration",
       message:
-          "Verbinden Sie sich nahtlos mit Top-ERPs über unser Open-Gateway und API-Zugang, mit einfachen Ein-Klick-Integrationen für optimierte Geschäftsabläufe.",
+          "Verbinden Sie sich nahtlos mit führenden ERPs über unser Open-Gateway und unseren API-Zugang – mit einfachen Ein-Klick-Integrationen für optimierte Geschäftsabläufe.",
     },
   },
 
   hero: {
     intro: "#1 Betriebssystem für Unternehmen",
-    title: "Ersetzen Sie {infinite} Plugins & Apps mit einer {app}",
+    title: "Ersetzen Sie {infinite} Plugins & Apps durch eine {app}",
   },
 
   make_your_shop: {
-    title: "Machen Sie Ihr eigenes",
+    title: "Erstellen Sie Ihr eigenes",
     amazon: "Amazon",
     local_store: "Lokaler Shop",
     instagram: "Instagram-Shop",
@@ -450,7 +450,7 @@ export default {
   },
 
   show_its_simplicity: {
-    title: `Eine weitere langweilige komplexe <div class="app-box" style="font-size: 55%">😣</div> E-Commerce-Plattform!?`,
+    title: `Noch eine langweilige, komplexe <div class="app-box" style="font-size: 55%">😣</div> E-Commerce-Plattform!?`,
     subtitle: "Absolut nicht! Probieren Sie es aus, bevor Sie sich überhaupt registrieren...",
     as_guest: "Als Gast",
     need_register: "Registrierung erforderlich",
@@ -458,20 +458,20 @@ export default {
     page_builder: {
       title: "Integrierter Seiten-Builder",
       subtitle:
-          "Der erste intuitive Drag-and-Drop-Seiten-Builder mit Inline-Bearbeitung.",
+          "Der erste intuitive Drag-and-drop-Seiten-Builder mit Inline-Bearbeitung.",
       try_action: "Seiten-Builder ausprobieren",
       see_collection_action: "Vorlagen ansehen",
     },
     ai: {
       title: "Integrierte KI-Funktionen",
       subtitle:
-          "Die beste industrielle Hintergrundentfernung, Bildoptimierung, Inhaltsgenerierung, automatische Produkterstellung und mehr.",
+          "Die beste industrielle Hintergrundentfernung, Bildoptimierung, Inhaltserstellung, automatische Produkterstellung und mehr.",
       try_action: "Selldone Intelligence ausprobieren",
     },
     storefront: {
       title: "Live-Schaufenster",
       subtitle:
-          "Erleben Sie das schnellste Einkaufen mit einer modernen PWA-Website, ohne eine einzige Zeile Code schreiben zu müssen.",
+          "Erleben Sie das schnellste Einkaufserlebnis mit einer modernen PWA-Website, ohne eine einzige Zeile Code schreiben zu müssen.",
       see_action: "Demo-Schaufenster ansehen",
     },
     backoffice: {
@@ -484,13 +484,13 @@ export default {
   pricing_compact: {
     title: `<div class="app-box" style="font-size: 55%">💞️</div> Einfache und transparente Preisgestaltung`,
     subtitle:
-        "Zugriff auf alle unternehmensgerechten Funktionen, um Ihr Geschäft mit unserem Umsatzbeteiligungsmodell zu starten und zu skalieren – zahlen Sie nichts im Voraus, nur einen Anteil Ihres Umsatzes. Wir haben nur dann Erfolg, wenn Sie es tun, wodurch Ihre Kosten minimiert und Ihre Gewinne maximiert werden.",
+        "Zugriff auf alle unternehmensgerechten Funktionen, um Ihr Geschäft mit unserem Umsatzbeteiligungsmodell zu starten und zu skalieren – zahlen Sie nichts im Voraus, sondern nur einen Anteil Ihres Umsatzes. Wir haben nur dann Erfolg, wenn Sie Erfolg haben. So minimieren Sie Ihre Kosten und maximieren Ihre Gewinne.",
   },
 
   screenshots: {
     item_1: {
       title: "Optimieren Sie Ihre Bestellverwaltung.",
-      desc: "Verwalten Sie effizient ein großes Volumen von Bestellungen täglich mit unseren fortschrittlichen Listen- und Filterfunktionen.",
+      desc: "Verwalten Sie mit unseren fortschrittlichen Listen- und Filterfunktionen täglich effizient ein großes Bestellvolumen.",
     },
     item_2: {
       title: "Verbinden Sie Ihren Shop mit PODs.",
@@ -498,7 +498,7 @@ export default {
     },
     item_3: {
       title: "Erfüllen Sie Bestellungen mit intuitiven Unternehmenswerkzeugen.",
-      desc: "Erleben Sie einen optimierten Bestellprozess mit der Möglichkeit, Anfragen intuitiv zu formatieren, notwendige Änderungen vorzunehmen und den Status mit nur einem Klick zu aktualisieren. Erhöhen Sie Ihre Erfüllungsfähigkeiten mit unseren unternehmensgerechten Tools auf ein neues Niveau.",
+      desc: "Erleben Sie einen optimierten Bestellprozess mit der Möglichkeit, Anfragen intuitiv zu formatieren, notwendige Änderungen vorzunehmen und den Status mit nur einem Klick zu aktualisieren. Bringen Sie Ihre Auftragsabwicklung mit unseren unternehmensgerechten Tools auf ein neues Niveau.",
     },
     item_4: {
       title: "Verfolgen Sie Aktionen auf der Bestellzeitleiste.",
@@ -509,24 +509,24 @@ export default {
       desc: "E-Mails mit Ihrem Markenbranding werden automatisch an Kunden, Verkäufer und alle nach dem Checkout- und Bezahlvorgang angegebenen benutzerdefinierten E-Mail-Adressen gesendet.",
     },
     item_6: {
-      title: "Organisieren Sie Produkte mühelos mit Drag & Drop.",
-      desc: "Das Produkt in diesem System funktioniert ähnlich wie Dateien, während Kategorien wie Ordner agieren. Sie haben die Möglichkeit, Produkte einfach per Drag & Drop zu verschieben, neu anzuordnen, zu kopieren und einzufügen und sogar Produkte im Bulk mit einer einfachen Excel-Datei zu importieren.",
+      title: "Organisieren Sie Produkte mühelos mit Drag-and-drop.",
+      desc: "Das Produkt funktioniert in diesem System ähnlich wie Dateien, während Kategorien wie Ordner funktionieren. Sie können Produkte einfach per Drag-and-drop verschieben, neu anordnen, kopieren und einfügen sowie Produkte gesammelt mit einer einfachen Excel-Datei importieren.",
     },
     item_7: {
-      title: "Verfolgen Sie Ihre Abonnement-Bestellungen einfach.",
-      desc: "Greifen Sie auf eine intuitive und kompakte Liste aller aktuellen und vergangenen Abonnement-Bestellungen zu, einschließlich der Zeit bis zur nächsten Zahlung und detaillierten Informationen für jede Bestellung.",
+      title: "Verfolgen Sie Ihre Abonnement-Bestellungen ganz einfach.",
+      desc: "Greifen Sie auf eine intuitive und kompakte Liste aller aktuellen und vergangenen Abonnement-Bestellungen zu, einschließlich der Zeit bis zur nächsten Zahlung und detaillierter Informationen zu jeder Bestellung.",
     },
     item_8: {
-      title: "Nutzen Sie integrierte Blog- und CMS-Tools, um Kunden zu engagieren.",
-      desc: "Nutzen Sie die internen Blog- und Content-Management-System-Funktionen, um Inhalte über Ihr Unternehmen und Ihre Angebote zu erstellen und neue Zielgruppen durch Suchmaschinenoptimierung anzuziehen. Dadurch können Sie auch mit Ihren Kunden interagieren.",
+      title: "Nutzen Sie integrierte Blog- und CMS-Tools, um Kunden zu binden.",
+      desc: "Nutzen Sie die internen Blog- und Content-Management-Funktionen, um Inhalte über Ihr Unternehmen und Ihre Angebote zu erstellen und neue Zielgruppen durch Suchmaschinenoptimierung anzuziehen. Dadurch können Sie auch mit Ihren Kunden interagieren.",
     },
     item_9: {
-      title: "Verbinden Sie OS – Mühelose Verbindung zu externen Diensten.",
-      desc: "Es ist möglich, sich mit externen Diensten wie Marktplätzen, Dropshipping-Lieferanten, PODs und Finanzsoftware zu verbinden, ohne zusätzliche Plugins zu benötigen.",
+      title: "Connect OS – Mühelose Verbindung zu externen Diensten.",
+      desc: "Sie können sich mit externen Diensten wie Marktplätzen, Dropshipping-Lieferanten, PODs und Finanzsoftware verbinden, ohne zusätzliche Plugins zu benötigen.",
     },
     item_10: {
       title: "Vereinfachen Sie Produktimporte von externen Diensten.",
-      desc: "Importieren Sie Produkte einfach von externen Diensten wie Woocommerce und Printful mit nur wenigen Klicks und vollständiger Automatisierung.",
+      desc: "Importieren Sie Produkte einfach von externen Diensten wie WooCommerce und Printful mit nur wenigen Klicks und vollständiger Automatisierung.",
     },
     item_11: {
       title: "Verbinden Sie Ihren Shop mit dem Google Merchant Center.",
@@ -538,36 +538,36 @@ export default {
     },
     item_13: {
       title: "Ribbon – Erstellen und verkaufen Sie Abonnements einfach.",
-      desc: "Ribbon ist ein leistungsstarkes Tool, das es Ihnen ermöglicht, Abonnements wie Abonnementboxen, Paywalls und verschiedene Arten von Inhalten mit nur wenigen Klicks einfach zu erstellen und zu verkaufen.",
+      desc: "Ribbon ist ein leistungsstarkes Tool, mit dem Sie Abonnements wie Abo-Boxen, Bezahlschranken und verschiedene Arten von Inhalten mit nur wenigen Klicks einfach erstellen und verkaufen können.",
     },
     item_14: {
       title: "Bieten Sie mehrere Zahlungsoptionen in Ihrem Shop an.",
-      desc: "Es ist vorteilhaft, verschiedene Zahlungsoptionen in Ihrem Shop anzubieten, wie zum Beispiel die Integration von sowohl Stripe als auch PayPal.",
+      desc: "Es ist vorteilhaft, verschiedene Zahlungsoptionen in Ihrem Shop anzubieten, zum Beispiel durch die Integration von Stripe und PayPal.",
     },
     item_15: {
       title:
-          "Incentivieren Sie Kundenkäufe mit Rabatten, Angeboten, Gutscheinen und Gamification.",
-      desc: "Incentivieren Sie Ihre Kunden, mehr Käufe in Ihrem Shop zu tätigen, indem Sie verschiedene Methoden wie Rabattcodes, Werbeangebote, intelligente Rabatte, Gutscheine, Geschenkkarten und die Integration von Gamification-Elementen in das Einkaufserlebnis verwenden.",
+          "Fördern Sie Kundenkäufe mit Rabatten, Angeboten, Gutscheinen und Gamification.",
+      desc: "Motivieren Sie Ihre Kunden zu mehr Käufen in Ihrem Shop, indem Sie verschiedene Methoden wie Rabattcodes, Werbeangebote, intelligente Rabatte, Gutscheine, Geschenkkarten und Gamification-Elemente in das Einkaufserlebnis integrieren.",
     },
     item_16: {
       title: "Maximieren Sie die Leistung mit serverseitigem Kampagnenmanagement.",
-      desc: "Nutzen Sie serverseitiges Marketing und Kampagnenmanagement, um die aufschlussreichsten und genauesten Informationen über die Leistung Ihrer Kampagne zu erhalten.",
+      desc: "Nutzen Sie serverseitiges Marketing und Kampagnenmanagement, um die aussagekräftigsten und genauesten Informationen über die Leistung Ihrer Kampagne zu erhalten.",
     },
     item_17: {
       title: "Verwalten Sie Affiliate-Zahlungen und -Verkäufe.",
       desc: "Integrieren Sie Affiliates und verwalten Sie deren Zahlungen und Verkäufe effizient. Nutzen Sie verschiedene erweiterte Optionen für das Affiliate-Management, wie die Zuweisung einzigartiger Kundendomains für jeden Affiliate.",
     },
     item_18: {
-      title: "Verwalten Sie Inventar und Preisgestaltung effizient.",
-      desc: "Logistik- und Inventarverwaltungstools helfen dabei, den Bestand und die Preisgestaltung für Tausende von Produkten und deren Varianten zu organisieren, zu filtern und effizient zu verwalten.",
+      title: "Verwalten Sie Lagerbestand und Preisgestaltung effizient.",
+      desc: "Logistik- und Lagerverwaltungstools helfen dabei, Bestand und Preisgestaltung für Tausende von Produkten und deren Varianten zu organisieren, zu filtern und effizient zu verwalten.",
     },
     item_19: {
       title: "Echtzeit-Kundenaktivität und Statistiken.",
-      desc: "Erhalten Sie Zugriff auf die aktuellsten Daten zur Kundenaktivität und Website-Statistiken, um fundierte, datengesteuerte Entscheidungen zu treffen.",
+      desc: "Erhalten Sie Zugriff auf die aktuellsten Daten zur Kundenaktivität und Website-Statistiken, um fundierte, datengestützte Entscheidungen zu treffen.",
     },
     item_20: {
-      title: "Steigern Sie den Verkauf durch Community Builder.",
-      desc: "Bauen Sie eine interaktive Community auf, um den Verkauf in Ihrem Shop zu steigern, die Publikumsbindung zu erhöhen, Vertrauen zu schaffen und die SEO-Vorteile von kostenlosen Inhalten zu nutzen.",
+      title: "Steigern Sie den Verkauf mit dem Community-Builder.",
+      desc: "Bauen Sie eine interaktive Community auf, um den Verkauf in Ihrem Shop zu steigern, die Publikumsbindung zu erhöhen, Vertrauen zu schaffen und die SEO-Vorteile kostenloser Inhalte zu nutzen.",
     },
     item_21: {
       title: "Verbessern Sie das Kundenerlebnis.",
@@ -575,63 +575,63 @@ export default {
     },
     item_22: {
       title: "Entwerfen Sie responsive Seiten mühelos.",
-      desc: "Gestalten Sie mühelos fesselnde und responsive interne und Landing Pages mit unserem integrierten No-Code-Seiten-Builder. Ziehen Sie einfach Abschnitte per Drag & Drop, um benutzerdefinierte Seiten zu erstellen.",
+      desc: "Gestalten Sie mühelos ansprechende und responsive interne Seiten und Landingpages mit unserem integrierten No-Code-Seiten-Builder. Ziehen Sie einfach Abschnitte per Drag-and-drop, um benutzerdefinierte Seiten zu erstellen.",
     },
     item_23: {
       title: "Optimieren Sie die Bearbeitung mit einem Inline-Seiteneditor.",
-      desc: "Bearbeiten Sie Texte und Bilder innerhalb von Seiten einfach mit einem Inline-Seiteneditor, was es einfach und intuitiv macht, Ihre Inhalte zu aktualisieren.",
+      desc: "Bearbeiten Sie Texte und Bilder innerhalb von Seiten einfach mit einem Inline-Seiteneditor, sodass Sie Ihre Inhalte schnell und intuitiv aktualisieren können.",
     },
     item_24: {
-      title: "Verwalten Sie Teamzugriffe und -rollen.",
+      title: "Verwalten Sie Teamzugriffe und Rollen.",
       desc: "Laden Sie Ihre Teammitglieder ein, legen Sie Rollen fest und setzen Sie deren Zugriffsebenen. Während Ihr Geschäft und Team wachsen, passt sich Ihr Business Operating System entsprechend an.",
     },
     item_25: {
-      title: "Haben Sie Ihre eigenen Apps.",
-      desc: "Starten Sie Ihr Geschäft mit einer Progressive Web App und bieten Sie Ihren Kunden ein schnelleres Erlebnis im Vergleich zu Ihren Wettbewerbern.",
+      title: "Nutzen Sie Ihre eigenen Apps.",
+      desc: "Starten Sie Ihr Geschäft mit einer Progressive Web App und bieten Sie Ihren Kunden ein schnelleres Erlebnis als Ihre Wettbewerber.",
     },
     item_26: {
-      title: "Fortschrittliche Automatisierungs- und Speicherwerkzeuge.",
+      title: "Fortschrittliche Automatisierungs- und Speichertools.",
       desc: "Optimieren Sie Ihre Geschäftsabläufe und sparen Sie wertvolle Zeit und Ressourcen durch die Nutzung fortschrittlicher Automatisierungstools, die in Ihren Shop integriert werden können.",
     },
     item_27: {
       title: "Passen Sie Ihr Schaufenster mühelos an.",
-      desc: "Personalisieren Sie Ihr Schaufenster einfach, um zu Ihrer Marke zu passen, indem Sie visuelle Anpassungsoptionen wie Theme, Farbschemata, Schriftarten und mehr nutzen – alles ohne Programmierkenntnisse oder technische Fähigkeiten.",
+      desc: "Personalisieren Sie Ihr Schaufenster einfach passend zu Ihrer Marke, indem Sie visuelle Anpassungsoptionen wie Theme, Farbschemata, Schriftarten und mehr nutzen – ganz ohne Programmierkenntnisse oder technische Fähigkeiten.",
     },
     item_28: {
       title: "Entwerfen Sie eine personalisierte Kundenreise.",
-      desc: "Entwerfen Sie eine personalisierte Kundenreise mit den verschiedenen Optionen, die auf Selldone verfügbar sind, wie z.B. den Login-Punkt auswählen oder Gast-Einkäufe aktivieren.",
+      desc: "Entwerfen Sie eine personalisierte Kundenreise mit den verschiedenen Optionen, die in Selldone verfügbar sind, wie z. B. der Auswahl des Login-Punkts oder der Aktivierung von Gastkäufen.",
     },
     item_29: {
-      title: "Verbessern Sie das Erlebnis mit benutzerdefinierten Login- und Flow-Optionen.",
-      desc: "Erstellen Sie eine personalisierte Login- und Flow-Erfahrung, indem Sie verschiedene Social-Login-Optionen für Ihren Online-Shop bereitstellen.",
+      title: "Verbessern Sie das Erlebnis mit benutzerdefinierten Login- und Ablaufoptionen.",
+      desc: "Erstellen Sie ein personalisiertes Login- und Ablauf-Erlebnis, indem Sie verschiedene Social-Login-Optionen für Ihren Onlineshop bereitstellen.",
     },
     item_30: {
       title: "Unterstützung komplexer Geschäftsmodelle.",
-      desc: "Selldone Support bietet Unterstützung für fortgeschrittene Geschäftsmodelle wie Marktplatz, Dropshipping-Lieferanten, Affiliate und Franchise, die Sie einfach mit nur einem Klick einrichten und wechseln können.",
+      desc: "Selldone unterstützt fortgeschrittene Geschäftsmodelle wie Marktplatz, Dropshipping-Lieferanten, Affiliate und Franchise, die Sie mit nur einem Klick einfach einrichten und wechseln können.",
     },
     item_31: {
       title: "Verknüpfen Sie mehrere benutzerdefinierte Domains.",
-      desc: "Sie können mehrere benutzerdefinierte Domains mit bestimmten Aspekten Ihres Geschäfts wie der Community, dem Shop, dem Blog, Landing Pages oder sogar Affiliates verbinden.",
+      desc: "Sie können mehrere benutzerdefinierte Domains mit bestimmten Bereichen Ihres Geschäfts verbinden, z. B. mit Community, Shop, Blog, Landingpages oder sogar Affiliates.",
     },
     item_32: {
       title: "Unterstützung mehrerer Sprachen und automatische Übersetzung.",
       desc: "Ihr Shop unterstützt vollständig mehrere Sprachen, sowohl RTL als auch LTR. Sie können Übersetzungspakete für Ihren Shop einfach installieren und aktivieren.",
     },
     item_33: {
-      title: "Integrierte Mehrprofil-Steuerberechnung.",
-      desc: "Mit der Möglichkeit, mehrere Steuerprofile zu erstellen und sie bestimmten Produkten zuzuweisen, haben Sie größere Flexibilität bei der Berechnung von Mehrwertsteuer und Verkaufssteuer. Zum Beispiel können Sie unterschiedliche Steuersätze für Lebensmittel oder elektronische Geräte anwenden.",
+      title: "Integrierte Steuerberechnung mit mehreren Profilen.",
+      desc: "Durch die Möglichkeit, mehrere Steuerprofile zu erstellen und bestimmten Produkten zuzuweisen, haben Sie mehr Flexibilität bei der Berechnung von Mehrwertsteuer und Umsatzsteuer. Zum Beispiel können Sie unterschiedliche Steuersätze für Lebensmittel oder elektronische Geräte anwenden.",
     },
     item_34: {
       title: "Mehrregionale Steuerberechnung.",
-      desc: "Nutzen Sie entweder die Standard- oder benutzerdefinierten Regeln für Verkaufssteuern und Mehrwertsteuern, wenn Sie in verschiedene Länder und Regionen verkaufen. Überschreiben Sie Regeln für spezifische Regionen und Steuergebiete nach Bedarf.",
+      desc: "Nutzen Sie Standard- oder benutzerdefinierte Regeln für Umsatzsteuer und Mehrwertsteuer, wenn Sie in verschiedene Länder und Regionen verkaufen. Überschreiben Sie Regeln für bestimmte Regionen und Steuergebiete nach Bedarf.",
     },
     item_35: {
       title: "Veröffentlichen Sie Artikel mit einem leistungsstarken Inline-Editor.",
-      desc: "Ein fortschrittlicher Inline-Artikel-Editor optimiert den Prozess des Veröffentlichens und Überprüfens Ihrer Artikel, macht es schnell und einfach und sorgt gleichzeitig für Konsistenz.",
+      desc: "Ein fortschrittlicher Inline-Artikel-Editor optimiert den Prozess des Veröffentlichens und Überprüfens Ihrer Artikel, macht ihn schnell und einfach und sorgt gleichzeitig für Konsistenz.",
     },
     item_36: {
       title: "Dediziertes Dashboard für jedes Produkt.",
-      desc: "Jedes Produkt verfügt über ein dediziertes Dashboard, das Statistiken, alle notwendigen Informationen und den Zugang zu allen erforderlichen Aktionen für die Verwaltung bietet.",
+      desc: "Jedes Produkt verfügt über ein eigenes Dashboard, das Statistiken, alle notwendigen Informationen und den Zugang zu allen erforderlichen Verwaltungsaktionen bietet.",
     },
     item_37: {
       title: "Automatische Übersetzung von Artikeln.",
@@ -639,46 +639,46 @@ export default {
     },
     item_38: {
       title: "Integrierte Analysetools.",
-      desc: "Sie haben Zugang zu integrierten Analysetools, die vollständig serverseitig, sicher und GDPR-konform sind, ohne die Verwendung von Cookies.",
+      desc: "Sie haben Zugang zu integrierten Analysetools, die vollständig serverseitig, sicher und DSGVO-konform sind – ohne die Verwendung von Cookies.",
     },
     item_39: {
-      title: "Deckung der meisten Ihrer fortgeschrittenen SEO-Bedürfnisse.",
-      desc: "Unser internes Tool bietet Ihnen die aktivsten Schlüsselwörter, die besten URLs und einen Überblick über die Leistung Ihres Geschäfts bei Google-Suchen, alles in Form von Tabellen und Diagrammen.",
+      title: "Abdeckung der meisten Ihrer fortgeschrittenen SEO-Anforderungen.",
+      desc: "Unser internes Tool bietet Ihnen die aktivsten Schlüsselwörter, die besten URLs und einen Überblick über die Leistung Ihres Geschäfts in der Google-Suche – alles in Form von Tabellen und Diagrammen.",
     },
   },
 
   country_landing: {
     intro: "#1 Betriebssystem für Unternehmen in",
-    title: "Ersetzen Sie {infinite} Plugins & Apps mit {app} in {country}",
+    title: "Ersetzen Sie {infinite} Plugins & Apps durch {app} in {country}",
   },
 
   payment_landing: {
     intro: "#1 Betriebssystem für Unternehmen",
-    title: "Ersetzen Sie {infinite} Plugins & Apps mit {app}",
+    title: "Ersetzen Sie {infinite} Plugins & Apps durch {app}",
 
     unlock_section: {
-      title: "Schalten Sie {payment} frei & beginnen Sie, Geld auf Ihrer Website zu verdienen",
+      title: "Schalten Sie {payment} frei & beginnen Sie, mit Ihrer Website Geld zu verdienen",
       subtitle:
-          "Starten Sie noch heute Ihren Online-Shop! Verkaufen Sie mühelos Produkte, Dienstleistungen und Abonnements mit Geschwindigkeit und Einfachheit.",
+          "Starten Sie noch heute Ihren Onlineshop! Verkaufen Sie Produkte, Dienstleistungen und Abonnements mühelos, schnell und einfach.",
       no_plugin: {
         title: "Mühelose Zahlungen, keine Plugins erforderlich",
         subtitle:
-            "Schreiten Sie in die Zukunft des E-Commerce mit Selldones nahtlosen, pluginfreien Zahlungslösungen für {payment}. Verabschieden Sie sich von komplexen Integrationen und genießen Sie ein direktes, sicheres und unkompliziertes Zahlungserlebnis.",
+            "Machen Sie den Schritt in die Zukunft des E-Commerce mit Selldones nahtlosen, pluginfreien Zahlungslösungen für {payment}. Verabschieden Sie sich von komplexen Integrationen und genießen Sie ein direktes, sicheres und unkompliziertes Zahlungserlebnis.",
       },
       experience: {
-        title: "Makelloses Einkaufen, angetrieben von Selldone + {payment}",
+        title: "Makelloses Einkaufserlebnis, angetrieben von Selldone + {payment}",
         subtitle:
-            "Verwandeln Sie Ihr E-Commerce-Erlebnis mit der benutzerfreundlichen Plattform von Selldone und der Zahlungstransaktion von {payment}. Verlassen Sie sich nicht mehr auf klobige Schnittstellen und begrüßen Sie eine optimierte Einkaufsreise, die Ihre Kunden zurückkommen lässt.",
+            "Verwandeln Sie Ihr E-Commerce-Erlebnis mit der benutzerfreundlichen Plattform von Selldone und der Zahlungsabwicklung von {payment}. Verabschieden Sie sich von schwerfälligen Schnittstellen und begrüßen Sie eine optimierte Einkaufsreise, die Ihre Kunden zurückkommen lässt.",
       },
       boost: {
-        title: "Steigern Sie Ihre Verkäufe mit Selldone integrierten Zahlungen",
+        title: "Steigern Sie Ihre Verkäufe mit den integrierten Zahlungen von Selldone",
         subtitle:
             "Warum sollten komplizierte Zahlungssysteme Sie ausbremsen? Mit der integrierten Zahlungslösung von {payment} können Sie sich auf das Wesentliche konzentrieren: mehr verkaufen. Beobachten Sie, wie Ihre Verkäufe steigen, während Sie Ihr Geschäft mühelos ausbauen.",
       },
       security: {
-        title: "Wo Sicherheit und Effizienz sich vereinen",
+        title: "Wo Sicherheit und Effizienz zusammenkommen",
         subtitle:
-            "Die Wahl von Selldone + {payment} bedeutet, sich für erstklassige Sicherheit und unvergleichliche Effizienz zu entscheiden. Unser dediziertes Zahlungssystem stellt sicher, dass jede Transaktion sicher, schnell und makellos reibungslos verläuft.",
+            "Die Wahl von Selldone + {payment} bedeutet, sich für erstklassige Sicherheit und unvergleichliche Effizienz zu entscheiden. Unser dediziertes Zahlungssystem stellt sicher, dass jede Transaktion sicher, schnell und absolut reibungslos verläuft.",
       },
       setup_payment: "Zahlung einrichten",
     },
@@ -688,12 +688,12 @@ export default {
         step: "Schritt 1",
         title: "Fügen Sie Ihre Währung hinzu",
         subtitle:
-            "Um Zahlungen in verschiedenen Währungen zu akzeptieren, müssen Sie für jede Währung ein Zahlungsgateway einrichten. Mit {payment} kann ein einzelnes Konto mehrere Gateways und Währungen in Ihrem Shop verwalten, ohne Einschränkungen! Stellen Sie sicher, dass Ihre gewünschte Währung unter Shop > Buchhaltung > Währungen in den Einstellungen Ihres Shops aufgeführt ist.",
+            "Um Zahlungen in verschiedenen Währungen zu akzeptieren, müssen Sie für jede Währung ein Zahlungsgateway einrichten. Mit {payment} kann ein einzelnes Konto mehrere Gateways und Währungen in Ihrem Shop verwalten – ohne Einschränkungen! Stellen Sie sicher, dass Ihre gewünschte Währung unter Shop > Buchhaltung > Währungen in den Einstellungen Ihres Shops aufgeführt ist.",
       },
       step_2: {
         step: "Schritt 2",
         title: "Richten Sie Ihr Gateway ein",
-        subtitle: `Navigieren Sie als Nächstes zum Tab Shop > Buchhaltung > Gateways, klicken Sie auf <b>NEUE ZAHLUNGSMETHODE</b>, wählen Sie Ihre Währung und {payment}. Sie können Gateways entweder im Debug- oder Live-Modus hinzufügen. Stellen Sie sicher, dass Sie die richtigen API-Schlüssel für jeden Modus eingeben, die Sie in Ihrem <a href="{payment_url}" target="_blank">{payment} Konto</a> finden.`,
+        subtitle: `Navigieren Sie anschließend zum Tab Shop > Buchhaltung > Gateways, klicken Sie auf <b>NEUE ZAHLUNGSMETHODE</b>, wählen Sie Ihre Währung und {payment}. Sie können Gateways entweder im Debug- oder Live-Modus hinzufügen. Stellen Sie sicher, dass Sie die richtigen API-Schlüssel für jeden Modus eingeben, die Sie in Ihrem <a href="{payment_url}" target="_blank">{payment}-Konto</a> finden.`,
       },
     },
 
@@ -703,23 +703,23 @@ export default {
           "Starten Sie mit Selldone und verwalten Sie Ihr Geschäft mühelos. Keine Programmierung oder Plugins erforderlich!",
     },
     pay_after_earn: {
-      title: "Zahlen Sie nur, wenn Sie Profit machen!",
+      title: "Zahlen Sie nur, wenn Sie Gewinn machen!",
       subtitle:
-          "Starten Sie Ihr Geschäft mit unserem KOSTENLOSEN lebenslangen Plan! Zahlen Sie nur eine Gebühr von 0,5~2,0%, sobald Sie beginnen, Geld zu verdienen.",
+          "Starten Sie Ihr Geschäft mit unserem KOSTENLOSEN lebenslangen Plan! Zahlen Sie nur eine Gebühr von 0,5~2,0 %, sobald Sie beginnen, Geld zu verdienen.",
     },
   },
 
   feature_page_builder: {
     title: "Verkaufsorientierter Seiten-Builder",
     message:
-        "Gestalten Sie mühelos benutzerdefinierte Seiten mit unserer No-Code-Lösung. Ziehen und ablegen Sie Elemente, um Seiten zu erstellen, die auf Ihre Bedürfnisse zugeschnitten sind.",
+        "Gestalten Sie mühelos benutzerdefinierte Seiten mit unserer No-Code-Lösung. Ziehen Sie Elemente per Drag-and-drop, um Seiten zu erstellen, die auf Ihre Anforderungen zugeschnitten sind.",
   },
 
   feature_items: {
     products: {
       title: "Intuitive Produktverwaltung",
       description:
-          "Verwalten Sie Produkte einfach – ziehen & ablegen von Bildern, bearbeiten von Details, optimieren Sie Ihren Workflow.",
+          "Verwalten Sie Produkte einfach – Bilder per Drag-and-drop hinzufügen, Details bearbeiten und Ihren Workflow optimieren.",
     },
     excel: {
       title: "Excel-Datenimport",
@@ -729,7 +729,7 @@ export default {
     incentive: {
       title: "Verkaufsanreize",
       description:
-          "Steigern Sie den Verkauf mit Rabatten, Gutscheinen, Geschenkkarten und gamifizierten Angeboten.",
+          "Steigern Sie den Verkauf mit Rabatten, Gutscheinen, Geschenkkarten und spielerischen Angeboten.",
     },
     loyalty: {
       title: "Kundentreue",
@@ -744,14 +744,14 @@ export default {
     cross_selling: {
       title: "Cross-Selling-Tools",
       description:
-          "Erhöhen Sie den Verkauf mit Cross-Selling; legen Sie Produktkollektionen und Rabatte fest.",
+          "Steigern Sie den Verkauf mit Cross-Selling; legen Sie Produktkollektionen und Rabatte fest.",
     },
     accounting: {
       title: "Einfache Buchhaltung",
-      description: "Verwalten Sie Rechnungen, verfolgen Sie Ausgaben und Steuern mit Leichtigkeit.",
+      description: "Verwalten Sie Rechnungen, verfolgen Sie Ausgaben und Steuern ganz einfach.",
     },
     inventory: {
-      title: "Inventarkontrolle",
+      title: "Bestandskontrolle",
       description:
           "Überwachen Sie Lagerbestände, führen Sie Massenupdates über CSV durch und verwalten Sie effizient.",
     },
@@ -763,7 +763,7 @@ export default {
     social: {
       title: "Multi-Channel-Verkauf",
       description:
-          "Verkaufen Sie über verschiedene Kanäle; verbinden Sie sich mit Marktplätzen, sozialen Medien und verfolgen Sie Ursprünge.",
+          "Verkaufen Sie über verschiedene Kanäle; verbinden Sie sich mit Marktplätzen und sozialen Medien und verfolgen Sie Quellen.",
     },
     community: {
       title: "Community-Builder",
@@ -776,18 +776,18 @@ export default {
           "Erstellen Sie Rollen, legen Sie Berechtigungen fest und verwalten Sie den Teamzugriff effizient.",
     },
     pos: {
-      title: "In-Store POS",
+      title: "POS für den stationären Verkauf",
       description:
           "Vereinfachen Sie den Verkauf im Geschäft; verwalten Sie POS-Systeme und Transaktionen.",
     },
     store: {
-      title: "Vendor Marktplatz",
+      title: "Multi-Vendor-Marktplatz",
       description: "Erstellen und verwalten Sie einfach einen Multi-Vendor-Marktplatz.",
     },
     pricing: {
       title: "Dynamische Preisgestaltung",
       description:
-          "Setzen Sie intelligente Preise basierend auf Menge oder Kundenpräferenzen fest.",
+          "Legen Sie intelligente Preise basierend auf Menge oder Kundenpräferenzen fest.",
     },
     pod: {
       title: "Dropshipping-Integration",
