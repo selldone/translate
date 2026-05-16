@@ -1,9 +1,9 @@
 export default {
   "commons": {
-    "pay_today": "Heute Zahlung",
-    "pay_yesterday": "Gestern Zahlung",
+    "pay_today": "Heutige Zahlungen",
+    "pay_yesterday": "Gestrige Zahlungen",
     "pay_last30days": "Zahlung der letzten 30 Tage",
-    "create_a_shop": "Erstellen Sie einen Laden",
+    "create_a_shop": "Erstellen Sie einen Shop",
     "start_free": "Kostenlos starten",
     "featured_apps": "Ausgewählte Apps",
     "more_apps": "Mehr Apps",
@@ -21,19 +21,19 @@ export default {
     "no_access": "Kein Zugriff"
   },
   "time_spans": {
-    "days_range": "Tagesreichweite",
+    "days_range": "Datumsbereich",
     "today": "Heute",
     "yesterday": "Gestern",
-    "last_7": "Letzten 7 Tage",
-    "last_14": "Letzte 14 Tage",
-    "last_30": "Letzte 30 Tage",
-    "last_90": "Letzte 90 Tage",
+    "last_7": "Letzte 7 Tage",
+    "last_14": "Letzten 14 Tage",
+    "last_30": "Letzten 30 Tage",
+    "last_90": "Letzten 90 Tage",
     "custom": "Benutzerdefiniert"
   },
   "device_types": {
-    "desktop": "Schreibtisch",
-    "mobile": "Handy, Mobiltelefon",
-    "tablet": "Tablette"
+    "desktop": "Desktop",
+    "mobile": "Mobilgerät",
+    "tablet": "Tablet"
   },
   "create_website_action": "Erstellen Sie Ihre Website – kostenlos",
   "show_shops_action": "Liste meiner Shops",
@@ -45,16 +45,16 @@ export default {
   "Reddit": "Reddit",
   "Github": "GitHub",
   "page_titles": {
-    "home": "Ausverkauft ╏ Das Geschäftsbetriebssystem für schnell wachsende Unternehmen",
+    "home": "Selldone ╏ Das Business-Betriebssystem für schnell wachsende Unternehmen",
     "login": "Anmeldung",
     "register": "Registrieren",
     "auth_2fa": "2-Faktor-Authentifizierung 🔐",
-    "academy": "Bloggen",
+    "academy": "Blog",
     "help": "Hilfezentrum",
     "price_list": "Preisliste",
-    "my_stores": "Meine Geschäfte",
+    "my_stores": "Meine Shops",
     "roles": "Meine Rollen",
-    "wallet": "Mein Geldbeutel",
+    "wallet": "Meine Wallet",
     "personal_info": "Persönliche Informationen ╏ KYC",
     "companies": "Meine Unternehmen",
     "access_control": "Zugangskontrolle",
@@ -76,7 +76,7 @@ export default {
   "cautions": {
     "title": "Verwalten Sie Ihr Unternehmen professionell, indem Sie die folgenden Tipps befolgen. Lesen Sie weiter für Tipps zur Steigerung der Gewinnmarge und mehr. Wir begleiten Sie auf dem Weg.",
     "no_payment_method": {
-      "title": "Bezahlverfahren",
+      "title": "Zahlungsmethode",
       "message": "Sie müssen Ihrem Shop eine Zahlungsmethode hinzufügen.",
       "action": "Shop-Gateways"
     },
@@ -86,7 +86,7 @@ export default {
       "action": "Shop-Konten"
     },
     "no_domain": {
-      "title": "Domäne hinzufügen",
+      "title": "Domain hinzufügen",
       "message": "Sie können eine oder mehrere persönliche Domains mit Ihrem Shop verbinden. Ihre Website wird auf Ihrer Domain installiert. Dieser Vorgang ist schnell und einfach."
     },
     "domain_not_approved": {
@@ -106,47 +106,47 @@ export default {
       "title": "Alle Informationen",
       "action": "Shop-Einstellungen",
       "location_msg": "Fügen Sie Ihren Standort hinzu",
-      "days_open_msg": "Tage der offenen Tür festlegen",
+      "days_open_msg": "Öffnungstage festlegen",
       "time_open_msg": "Stellen Sie die Öffnungs- und Schließzeit ein",
       "description_msg": "Schreiben Sie eine kurze Beschreibung Ihres Unternehmens",
-      "icon_msg": "Legen Sie Ihr Geschäftslogo fest",
+      "icon_msg": "Legen Sie Ihr Shop-Logo fest",
       "shop_gateways_msg": "Zahlungsmethode hinzufügen",
-      "socials_msg": "Fügen Sie Ihre sozialen Links hinzu",
+      "socials_msg": "Fügen Sie Ihre Social-Media-Links hinzu",
       "clubs_msg": "Kundenclubs festlegen",
-      "domains_msg": "Benutzerdefinierte Domäne hinzufügen",
-      "primary_msg": "Legen Sie eine Domäne als primär fest"
+      "domains_msg": "Benutzerdefinierte Domain hinzufügen",
+      "primary_msg": "Legen Sie eine Domain als primär fest"
     }
   },
   "support": {
     "request": "Hilfe anfordern",
     "category": "Kategorie",
-    "title": "Unterstützung",
+    "title": "Support",
     "message": "Stellen Sie Wünsche oder Fragen. Unser Support-Team wird Sie anleiten. Wir empfehlen Ihnen, Ihre Frage auf der Seite zu Ihrer Anfrage zu stellen. Wenn Sie beispielsweise eine Frage zur Domain-Einstellung haben, senden Sie diese auf der Domain-Einstellungsseite Ihres Shops.",
     "close_at": "Geschlossen am {date}",
     "close_ticket_by_user": "Danke, ich habe die Antwort bekommen"
   },
   "surveys": [
-    "Sehr arm",
-    "Arm",
+    "Sehr schlecht",
+    "Schlecht",
     "Normal",
     "Gut",
-    "Exzellent"
+    "Ausgezeichnet"
   ],
   "sort": {
     "title": "Sortieren nach",
     "title_small": "Sortieren nach..",
-    "nothing": "Gar nichts",
-    "most_views": "Die meisten Ansichten",
+    "nothing": "Keine Sortierung",
+    "most_views": "Meistgesehen",
     "most_likes": "Am beliebtesten",
     "most_recent": "Neueste",
     "most_sell": "Meistverkauft",
-    "cheapest": "Am billigsten",
+    "cheapest": "Günstigste",
     "most_expensive": "Teuerste",
-    "only_available": "Erhältlich",
+    "only_available": "Verfügbar",
     "view_mode": {
       "normal": "Normal",
-      "grid": "Netz",
-      "list": "Aufführen",
+      "grid": "Raster",
+      "list": "Liste",
       "insta": "Inst"
     }
   },
@@ -159,7 +159,7 @@ export default {
       "Welcome": "Loslegen",
       "Setup": "Geschäft",
       "Sell": "Sales & Marketing",
-      "Developer": "Sich entwickeln",
+      "Developer": "Entwickler",
       "Application": "Anwendungen",
       "Product": "Verwaltung von Produkten und Kategorien",
       "Blog": "CMS & Blog",
@@ -179,12 +179,12 @@ export default {
     "admin_api_app": "Admin-API-Webdienst",
     "shop_api_app": "Shop-API-Webdienst",
     "design_kit": "Design-Kits",
-    "community": "Gemeinschaft"
+    "community": "Community"
   },
   "blogs": {
     "title": "Bloggen",
     "subtitle": "Lektionen für das Geschäft, Selbstvertrauen und das Wissen, das Sie benötigen, um ein florierendes Unternehmen aufzubauen.",
-    "add_new_blog": "Neuer Blog",
+    "add_new_blog": "Neuer Blogbeitrag",
     "popular": "Beliebt",
     "topics": "Themen",
     "select_topics": "Wählen Sie Ihren Beruf aus.",
@@ -196,7 +196,7 @@ export default {
     "message": "Eines der Hauptmerkmale von Selldone ist die Bereitstellung robuster und sicherer APIs zur Verwaltung und Verbindung von Geschäften mit anderen Diensten wie Lagerhaltung, Buchhaltung usw. Sie können auch benutzerdefinierte Apps und Web-Apps für Ihr Geschäft entwerfen. Ohne sich um Server- und Datenverwaltung kümmern zu müssen. Verwenden Sie einfach die Domänen-APIs. Sie haben den gesamten Prozess der Verwaltung von Benutzern, Authentifizierung und anderen Domänenfunktionen."
   },
   "user_dashboard": {
-    "title": "Mein Shuttle",
+    "title": "Mein Dashboard",
     "subtitle": "Verwalten Sie Ihr Unternehmen mit aktuellen Informationen und klaren Aussichten.",
     "menu": {
       "affiliate": "Affiliate",
@@ -205,21 +205,21 @@ export default {
       "security": "Sicherheit",
       "access": "Zugriff",
       "business": "Unternehmen",
-      "wallet": "Brieftasche",
+      "wallet": "Wallet",
       "identification": "KYC",
       "stores": "Shops",
       "roles": "Rollen",
-      "home": "Heim",
+      "home": "Startseite",
       "expert": "Experte",
       "deals": "Angebote",
       "providers": "Anbieter"
     },
     "shops": {
-      "create_new": "Neuen Laden erstellen",
+      "create_new": "Neuen Shop erstellen",
       "create_new_sub": "Frei",
-      "create_new_sub_need_initial_charge": "Der Bau des ersten Ladens ist kostenlos. Wahrscheinlich reicht ein Geschäft für Ihr Unternehmen aus, aber wenn Sie mehr Geschäfte bauen müssen, betragen die Kosten für den Bau eines neuen Geschäfts 25 $. Wir ziehen den Betrag von Ihrem Wallet-Konto ab.",
+      "create_new_sub_need_initial_charge": "Der erste Shop ist kostenlos. Wahrscheinlich reicht ein Geschäft für Ihr Unternehmen aus, aber wenn Sie mehr Geschäfte bauen müssen, betragen die Kosten für den Bau eines neuen Geschäfts 25 $. Wir ziehen den Betrag von Ihrem Wallet-Konto ab.",
       "menu": {
-        "title": "Meine Geschäfte",
+        "title": "Meine Shops",
         "shops": "Geschäfte",
         "new": "Neu"
       },
@@ -228,7 +228,7 @@ export default {
         "menu_orders": {
           "physical": "Physische Produktbestellungen",
           "virtual": "Virtuelle Produktbestellungen",
-          "files": "Bestellungen einreichen",
+          "files": "Dateibestellungen",
           "services": "Serviceaufträge",
           "subscriptions": "Abonnementbestellungen"
         },
@@ -255,12 +255,12 @@ export default {
       "title": "Kundenfeedback",
       "title_small": "Überblick",
       "wishlist": "Wunschzettel",
-      "comments": "Bemerkungen",
+      "comments": "Kommentare",
       "likes": "Likes",
       "favorites": "Favoriten",
-      "powers": "Klappt",
+      "powers": "Bewertungen",
       "views": "Ansichten",
-      "report_today": "Heute berichten",
+      "report_today": "Bericht heute",
       "report_last7days": "Bericht der letzten 7 Tage",
       "report_last30days": "Bericht der letzten 30 Tage"
     }
@@ -281,16 +281,16 @@ export default {
       "auditing": "Buchhaltung",
       "incentives": "Anreize",
       "process_center": "Aufträge",
-      "blog": "Bloggen",
+      "blog": "Blog",
       "products": "Produkte",
       "shops": "Geschäfte",
-      "dashboard": "Armaturenbrett",
+      "dashboard": "Dashboard",
       "autopilot": "Autopilot",
       "apps": "Anwendungen",
       "pos": "POS",
       "seo": "SEO",
       "localization": "Lokalisierung",
-      "classification": "Einstufung"
+      "classification": "Klassifizierung"
     },
     "dashboard": {
       "title": "Shop-Dashboard",
@@ -302,13 +302,13 @@ export default {
       "info": {
         "title": "Technisch",
         "subtitle": "Technischer Überblick über Ihr Unternehmensbetriebssystem.",
-        "shop_name": "Laden Name",
+        "shop_name": "Shop-Name",
         "shop_link": "Shop-Link",
-        "site_map": "Seitenverzeichnis",
+        "site_map": "Sitemap",
         "shop_domains": "Domänen",
         "shop_domains_msg": "Liste der verbundenen benutzerdefinierten Domänen.",
         "home_msg": "Legen Sie die Standard-Startseite Ihrer Website fest. Sie kann für jede benutzerdefinierte Domäne geändert werden.",
-        "add_domain": "Neue Domäne hinzufügen",
+        "add_domain": "Neue Domain hinzufügen",
         "currencies": "Aktive Währungen",
         "currencies_alert": "Wählen Sie mindestens eine Währung für den Shop aus!",
         "status": "Status",
@@ -317,29 +317,29 @@ export default {
         "upgrade_license_action": "Upgrade auf {name}",
         "wage": "Gebühr",
         "cpu_message": "Die Anzahl der Ressourcen, die Sie auf den erworbenen Plan zugeschnitten haben, und die Ressourcen, die Sie Ihrem Service hinzufügen.",
-        "hide_domains": "Verstecke meine Domains",
-        "show_domains": "Meine Domains anzeigen",
+        "hide_domains": "Domains ausblenden",
+        "show_domains": "Domains anzeigen",
         "table": {
           "primary": "Primär",
           "url": "URL",
-          "site_map": "Seitenverzeichnis",
-          "enable": "Ermöglichen",
+          "site_map": "Sitemap",
+          "enable": "Aktiviert",
           "indexed": "Indiziert",
           "and_more": "& mehr..",
           "auto_repair": "Autoreparatur"
         },
         "add_dialog": {
-          "title": "Store-Domain konfigurieren",
+          "title": "Shop-Domain konfigurieren",
           "step1": "Sie können das IP-Limit von Datensatz A für eine DNS-Domain oder Subdomain aus den folgenden Werten definieren:",
           "step2": "Fügen Sie einen DNS-TXT-Eintrag hinzu:",
           "set_ip_alert": "Legen Sie den IP-Wert von Datensatz A <b>{ip} fest</b> .",
-          "input_domain": "Domänen-URL",
-          "correct": "Domäneneinstellungen sind korrekt.",
+          "input_domain": "Domain-URL",
+          "correct": "Domain-Einstellungen sind korrekt.",
           "set_message": "Setzen Sie den CNAME dieser Domain auf {cname}.",
           "input_domain_message": "Geben Sie den Domänennamen ohne http und https ein.",
           "ssl_message": "Machen Sie sich keine Sorgen um das SSL-Zertifikat für Ihre Website. Diese Zertifizierung wird automatisch von Selldone (Beta) für Ihre Domain ausgestellt.",
-          "active": "Die Domäne ist aktiv",
-          "inactive": "Domäne ist deaktiviert",
+          "active": "Die Domain ist aktiv",
+          "inactive": "Domain ist deaktiviert",
           "success_message": "Herzlichen Glückwunsch, Ihre Website ist auf {domain} aktiviert. Über diese Domain können Sie Ihr Unternehmen und Ihre Marke der Welt vorstellen.",
           "delete_action": "Domäne löschen?"
         },
@@ -347,12 +347,12 @@ export default {
           "title": "Domain-Startseite festlegen"
         },
         "notification": {
-          "add_message": "Domänenadresse erfolgreich hinzugefügt.",
-          "update_message": "Die Domäne wurde erfolgreich aktualisiert.",
+          "add_message": "Domain erfolgreich hinzugefügt.",
+          "update_message": "Die Domain wurde erfolgreich aktualisiert.",
           "delete_domain_message": "Die Domain wurde erfolgreich gelöscht."
         },
         "alert": {
-          "title": "Domäne löschen",
+          "title": "Domain löschen",
           "message": "Möchten Sie diese Domain löschen? Stellen Sie sicher, dass Sie die DNS-Eintragswerte Ihrer Domain zurücksetzen, um andere vor Betrug zu schützen."
         }
       },
@@ -372,7 +372,7 @@ export default {
         "total_products": "Produktarten insgesamt"
       },
       "finance": {
-        "title": "Finanziell",
+        "title": "Finanzen",
         "title_small": "Finanzbericht",
         "total_30days_title": "Gesamtverkaufsbetrag",
         "last_30_day": "Letzte 30 Tage",
@@ -382,14 +382,14 @@ export default {
         "currency_convert_to": "Zur Währung",
         "active_currencies": "Aktive Währungen",
         "sell_count_chart_title": "Anzahl der Verkäufe nach Variante",
-        "active_gateways": "Aktives Zahlungsgateway",
-        "received_last_24h": "In den letzten 7 Stunden erhalten",
+        "active_gateways": "Aktive Zahlungsgateways",
+        "received_last_24h": "In den letzten 24 Stunden erhalten",
         "pie": {
-          "title": "Die heutige Verkaufsquote",
+          "title": "Heutige Verkaufsquote",
           "no_data": "Heute kein Verkauf"
         },
         "pay_amount": "Zahlungsbetrag",
-        "sell_amount": "Verkaufsmenge",
+        "sell_amount": "Verkaufsbetrag",
         "discount_amount": "Rabattbetrag",
         "sell_count": "Anzahl der Verkäufe",
         "table": {
@@ -397,17 +397,17 @@ export default {
           "total_sell_30days": "30 Tage Gesamtumsatz",
           "sell_daily": "Tägliche Verkaufsrate",
           "sell": "Verkauf",
-          "pay": "Zahlen"
+          "pay": "Zahlung"
         }
       },
       "customers": {
-        "title": "Kunden einkaufen",
-        "title_small": "Konvertierungsbericht",
+        "title": "Einkaufende Kunden",
+        "title_small": "Konversionsbericht",
         "total_customers": "Gesamt",
         "new_customers_today": "Heute",
         "new_customers_week": "Letzten 7 Tage",
-        "orders_count": "Bestellungen zählen",
-        "days_range": "Tagesreichweite",
+        "orders_count": "Anzahl der Bestellungen",
+        "days_range": "Datumsbereich",
         "new_users": "Neue registrierte Benutzer",
         "chart": {
           "new_customers": "Neue Kunden",
@@ -500,21 +500,21 @@ export default {
       }
     },
     "blogs": {
-      "new": "Neu schreiben",
-      "blogs": "Bloggen",
+      "new": "Neuer Artikel",
+      "blogs": "Blog",
       "list": {
         "title": "Meine Artikel",
         "waiting_message": "Informationen werden empfangen ... bitte warten",
         "published": "Veröffentlicht",
-        "draft": "Luftzug",
+        "draft": "Entwurf",
         "private": "Privat",
         "public": "Öffentlich",
         "table": {
           "title": "Titel",
           "author": "Autor",
-          "claps": "Klappt",
-          "like": "Wie",
-          "comments": "Bemerkungen",
+          "claps": "Applaus",
+          "like": "Likes",
+          "comments": "Kommentare",
           "views": "Ansichten",
           "publish_state": "Status",
           "created_at": "Erstellungsdatum",
@@ -526,13 +526,13 @@ export default {
     "orders": {
       "physical": {
         "waiting_message": "Informationen werden empfangen ... bitte warten",
-        "rejected": "Hat abgelehnt",
+        "rejected": "Abgelehnt",
         "delivery": "Versand",
         "discount": "Rabatt",
         "not_paid": "Nicht bezahlt",
         "table": {
           "order_number": "Bestellcode",
-          "order_date": "Überprüfe das Datum",
+          "order_date": "Prüfdatum",
           "status": "Letzter Status",
           "price": "Gesamtsumme",
           "payment_status": "Zahlungsstatus"
@@ -553,8 +553,8 @@ export default {
     },
     "auditing": {
       "menu": {
-        "exchange": "Austausch",
-        "gateway": "Tor",
+        "exchange": "Wechselkurse",
+        "gateway": "Zahlungsgateways",
         "invoice": "Abrechnung",
         "report": "Prüfbericht",
         "tax": "Steuer",
@@ -564,7 +564,7 @@ export default {
         "customer_wallets": "Kunden-Wallets"
       },
       "invoice": {
-        "title": "Verknüpfte Geldbörsen kaufen",
+        "title": "Verknüpfte Wallets",
         "subtitle": "Gebühren, Provisionen und Lagerkosten werden von diesen Wallet-Konten abgezogen.",
         "title_add": "Neues Wallet-Konto verbinden",
         "subtitle_add": "Sie sollten für jede Währung eine neue Brieftasche erstellen und diese mit Ihrem Geschäft verbinden. Die Servicegebühr wird von dieser Geldbörse abgezogen.",
@@ -575,17 +575,17 @@ export default {
           "currency": "Währung",
           "account_number": "Kontonummer",
           "account_name": "Kontobezeichnung",
-          "balance": "Gleichgewicht",
+          "balance": "Kontostand",
           "free_balance": "Verfügbares Guthaben",
           "actions": "Entfernen"
         },
         "add_account_dialog": {
-          "title": "Guthabenkonto mit Geschäft verbinden",
+          "title": "Wallet-Konto mit Shop verbinden",
           "subtitle": "Wenn Sie ein Wallet-Konto bei Selldone eröffnen, geben wir Ihnen eine virtuelle Kreditkarte und ein Konto wie jede andere Kreditkarte. Die Verkaufsgebühr von Selldone wird von diesem Konto abgebucht, aber wenn Ihr Kontostand nicht ausreicht, wird dieser Betrag geschuldet. Sie können die Selldone-Dienste so oft nutzen, wie Sie benötigen.",
           "account_number": "Kontonummer",
           "account_number_input_message": "Der Shop wird mit diesem Konto verknüpft. Dieses Konto wird für Gebühren und Kosten verwendet.",
           "balance": "Kontostand",
-          "connect_account_to_shop": "Konto mit Store verbinden"
+          "connect_account_to_shop": "Konto mit Shop verbinden"
         },
         "notifications": {
           "connect_account_success": "Konto erfolgreich hinzugefügt.",
@@ -600,7 +600,7 @@ export default {
         "inform_charge_account_critical": "Laden Sie Ihr Konto auf, um eine Dienstunterbrechung zu verhindern!"
       },
       "gateway": {
-        "title": "Zahlungsarten",
+        "title": "Zahlungsmethoden",
         "sub_title": "Liste der aktiven Zahlungsmethoden. Wenn Sie Ihrem Shop eine neue Methode hinzufügen möchten, drücken Sie die folgende Schaltfläche. Wir empfehlen dringend, 10 hinzugefügte Zahlungsgateways nicht zu überschreiten.",
         "add_gateway": "Neue Zahlungsmethode",
         "add_gateway_dialog": {
@@ -612,7 +612,7 @@ export default {
         }
       },
       "exchange": {
-        "title": "Speichern Sie aktive Währungen",
+        "title": "Aktive Währungen des Shops",
         "subtitle": "Benutzer können eine der aktiven Währungen auswählen und die Preise der Produkte werden berechnet und angezeigt. Es ist Sache des Verkäufers, den Wechselkurs einzugeben.",
         "shop_currencies_input": "Aktive Währungen für Benutzer",
         "shop_currencies_input_error": "Wählen Sie mindestens eine Währung aus",
@@ -620,14 +620,14 @@ export default {
           "title": "Wechselkurs",
           "sub_title": "Sie können Produktpreise basierend auf einer der unten aufgeführten Währungen eingeben und die Produktpreise werden automatisch zu Umrechnungskursen zwischen Ihren Währungen berechnet.",
           "message": "Durch die Eingabe der Wechselkurse zwischen den Währungen werden die Preise Ihrer Produkte automatisch berechnet und aktualisiert.",
-          "add_new_rate": "Neuen Tarif hinzufügen"
+          "add_new_rate": "Neuen Kurs hinzufügen"
         },
         "table": {
           "waiting_receive_data": "Informationen werden abgerufen ... bitte warten",
-          "rate_input": "Tauschrate",
+          "rate_input": "Wechselkurs",
           "from": "Aus",
           "to": "Zu",
-          "exchange_rate": "Tauschrate",
+          "exchange_rate": "Wechselkurs",
           "edit": "Bearbeiten",
           "delete": "Löschen",
           "auto": "Automatische Rate"
@@ -637,17 +637,17 @@ export default {
           "message": "Seien Sie vorsichtig bei der Eingabe von Informationen. Die Preise Ihrer Produkte werden anhand der hier eingegebenen Tarife berechnet.",
           "currency_from": "Von Währung",
           "currency_to": "Zur Währung",
-          "exchange_rate": "Tauschrate"
+          "exchange_rate": "Wechselkurs"
         },
         "alert": {
-          "title": "Konversionsrate löschen",
+          "title": "Wechselkurs löschen",
           "message": "Möchten Sie diese Conversion-Rate löschen?",
           "action": "Löschen"
         },
         "notifications": {
           "delete_success": "Wechselkurs entfernt.",
           "add_success": "Wechselkurs aktualisiert.",
-          "update_success": "Aktive Währungen speichern aktualisiert."
+          "update_success": "Aktive Währungen des Shops aktualisiert."
         }
       }
     },
@@ -667,10 +667,10 @@ export default {
         "subtitle": "Die für das Gewicht verwendete Einheit."
       },
       "menu": {
-        "return_request": "Ist zurückgekommen",
+        "return_request": "Rückgaben",
         "delivery": "Versand",
         "inventory": "Inventar",
-        "warehouse": "Lagerhaus",
+        "warehouse": "Lager",
         "logistic_apps": "Logistik",
         "profiles": "Profile",
         "includes": "Inklusive"
@@ -839,10 +839,10 @@ export default {
         "visits_count": "Besuch",
         "normal": "Einfach",
         "items_count": "Anzahl der Teile",
-        "home": "Heim"
+        "home": "Startseite"
       },
       "category_widget": {
-        "parent": "Elternteil",
+        "parent": "Übergeordnete Kategorie",
         "not_exist": "Ist nicht vorhanden",
         "children": "Unterkategorien",
         "delete_alert": {
@@ -863,14 +863,14 @@ export default {
       "my_apps": {
         "title": "Aktive Apps speichern",
         "subtitle": "Verwalten Sie Ihre Geschäftsanwendungen.",
-        "all": "alles"
+        "all": "Alle"
       },
       "store": {
         "title": "Appstore",
         "subtitle": "Verbinden Sie Ihre Lieblingsdienste sicher mit Ihrem Unternehmen. Wir fügen Plugins und Apps basierend auf den Anforderungen unserer Kunden hinzu.",
         "nodata": "Kein Plugin gefunden.",
-        "all": "alles",
-        "more": "mehr"
+        "all": "Alle",
+        "more": "Mehr"
       }
     },
     "pages": {
@@ -880,7 +880,7 @@ export default {
         "privacy": "Privatsphäre",
         "terms": "Bedingungen",
         "about_us": "Über uns",
-        "landings": "Landung",
+        "landings": "Landingpages",
         "popup": "Pop-up",
         "static": "Statisch"
       }
@@ -991,10 +991,10 @@ export default {
       "menu": {
         "delete": "Shop löschen",
         "activity_time": "Zeit",
-        "footer": "Speisekarte",
-        "info": "Die Info",
+        "footer": "Fußzeilenmenü",
+        "info": "Informationen",
         "notification": "Benachrichtigungen",
-        "home": "Heim",
+        "home": "Startseite",
         "locations": "Standorte",
         "license": "Lizenz",
         "theme": "Thema",
@@ -1002,7 +1002,7 @@ export default {
         "email": "Email",
         "domain": "Domain",
         "verifications": "Überprüfungen",
-        "flow": "Fließen",
+        "flow": "Ablauf",
         "business_model": "Geschäftsmodell"
       },
       "delete_dialog": {
@@ -1055,9 +1055,9 @@ export default {
           "custom_pages": "Startseiten"
         },
         "table": {
-          "home": "Heim",
+          "home": "Startseite",
           "shop": "Geschäft",
-          "blogs": "Bloggen",
+          "blogs": "Blog",
           "about_us": "Über uns",
           "privacy": "Privatsphäre",
           "terms": "Nutzungsbedingungen",
@@ -1141,9 +1141,9 @@ export default {
       "external_link": "Externer Link",
       "brand": {
         "label": "Marke",
-        "placeholder": "Marke Bsp. Apfel.. (Optional)"
+        "placeholder": "Marke, z. B. Apple... (Optional)"
       },
-      "brand_placeholder": "Marke Bsp. Apfel.. (Optional)",
+      "brand_placeholder": "Marke, z. B. Apple... (Optional)",
       "warranty": {
         "subtitle": "Legen Sie den Garantie- und Produktstatus fest, da diese Informationen zur Garantie dem Kunden angezeigt werden und dabei helfen, den Zeitrahmen festzulegen, innerhalb dessen Produkte nach dem Kauf zurückgegeben werden können.",
         "label": "Garantie",
@@ -1474,7 +1474,7 @@ export default {
       "review": "Überprüfung",
       "orders": "Aufträge",
       "inventory": "Inventar",
-      "dashboard": "Armaturenbrett",
+      "dashboard": "Dashboard",
       "back_to_products": "Produkte",
       "drop_shipping": "Direktversand"
     },
@@ -1505,7 +1505,7 @@ export default {
       },
       "inventory": {
         "title": "Inventar",
-        "title_small": "Lagerhaus",
+        "title_small": "Lager",
         "total_sell": "Gesamtumsatz",
         "total_sell_today": "Heute Ausverkauf",
         "total_sell_30days": "Verkäufe der letzten 4 Tage",
@@ -1520,7 +1520,7 @@ export default {
         "total_sell_timespan": "Gesamtumsatz zwischen {start} ~ {end}"
       },
       "finance": {
-        "title": "Finanziell",
+        "title": "Finanzen",
         "title_small": "Kaufbericht der letzten 6 Monate",
         "select_mode_title": "Anzeigen von",
         "modes": {
@@ -1663,13 +1663,13 @@ export default {
     "title": "Lager hinzufügen",
     "message": "Geben Sie Ihre Lageradresse und Ihr Profil ein, um die Versandkosten zu berechnen.",
     "name_input": "Lagername",
-    "address": "die Anschrift",
+    "address": "Adresse",
     "name_input_message": "Geben Sie einen Spitznamen für Ihr Lager ein.",
     "person_name": "Offiziersname",
     "phone_number": "Kontakt Nummer",
     "map_title": "Lageradresse des Shops",
     "confirm_action": "Lagerzulassung",
-    "address_name": "Lagerhaus",
+    "address_name": "Lager",
     "notifications": {
       "success_save": "Änderungen erfolgreich gespeichert."
     }
@@ -1734,9 +1734,9 @@ export default {
     "product_views": "Produktansichten",
     "buys": "Einkäufe",
     "buys_unit": "Aufträge",
-    "baskets": "Aktive Karren",
-    "added_items": "Elemente hinzufügen",
-    "removed_items": "Gegenstände entfernen"
+    "baskets": "Aktive Warenkörbe",
+    "added_items": "Hinzugefügte Artikel",
+    "removed_items": "Entfernte Artikel"
   },
   "faq_list": {
     "table": {
@@ -1816,14 +1816,14 @@ export default {
     "menu": {
       "setting": "Einstellungen",
       "return": "Zurück",
-      "dashboard": "Armaturenbrett",
+      "dashboard": "Dashboard",
       "links": "Verknüpfungen",
       "landing": "Landung",
       "ads": "Anzeigen",
       "finance": "Finanzen"
     },
     "dashboard": {
-      "title": "Armaturenbrett",
+      "title": "Dashboard",
       "status": "Statusübersicht",
       "sessions": "Sitzungen",
       "links_overview": "Übersicht über Kampagnenlinks",
@@ -2053,7 +2053,7 @@ export default {
     "map": {
       "title": "Adresse speichern",
       "confirm": "Adressregistrierung",
-      "address": "die Anschrift",
+      "address": "Adresse",
       "receptor": "Geschäft"
     },
     "create_shop_action": "Laden erstellen",
@@ -2200,7 +2200,7 @@ export default {
       "created_date": "Erstellungsdatum",
       "pay_date": "Zahlungsdatum",
       "payment_gateway": "Zahlungs-Gateways",
-      "payment_method": "Bezahlverfahren",
+      "payment_method": "Zahlungsmethode",
       "risk": "Risikowert",
       "billing_details": "Rechnungsdetails",
       "add_transaction": "Neue Rechnung hinzufügen",
@@ -2225,7 +2225,7 @@ export default {
         "title": "Titel",
         "amount": "Menge",
         "description": "Beschreibung",
-        "info": "Die Info"
+        "info": "Informationen"
       },
       "user_payment": "Kundenzahlung",
       "cod": "Barzahlung bei Lieferung",
@@ -2363,7 +2363,7 @@ export default {
   "shop_gateway": {
     "title": "Tor",
     "menu": {
-      "dashboard": "Armaturenbrett",
+      "dashboard": "Dashboard",
       "edit": "Bearbeiten",
       "transactions": "Transaktionen",
       "back": "Gateways"
@@ -2424,8 +2424,8 @@ export default {
         "issued_at": "Ausgabetag",
         "payment_at": "Zahlungsdatum"
       },
-      "live_mode": "Leben",
-      "test_mode": "Sandkasten"
+      "live_mode": "Live",
+      "test_mode": "Testmodus"
     }
   },
   "edit_gateway": {
@@ -2488,7 +2488,7 @@ export default {
       "new_card": "Karte erstellen",
       "list": "Karten",
       "orders": "Aufträge",
-      "dashboard": "Armaturenbrett",
+      "dashboard": "Dashboard",
       "back": "Geschenkkarten"
     },
     "dashboard": {
@@ -2533,7 +2533,7 @@ export default {
       "issue_to_user": "Ausgabe an Benutzer",
       "table": {
         "card_number": "Kartennummer",
-        "balance": "Gleichgewicht",
+        "balance": "Kontostand",
         "paid": "Bezahlt",
         "edit": "Bearbeiten",
         "delete": "Löschen",
@@ -2577,7 +2577,7 @@ export default {
     "title": "Rabattcode",
     "up_to": "bis zu",
     "menu": {
-      "dashboard": "Armaturenbrett",
+      "dashboard": "Dashboard",
       "orders": "Aufträge",
       "back": "Rabattcodes"
     },
@@ -2601,7 +2601,7 @@ export default {
     "title": "Gutscheine",
     "up_to": "bis zu",
     "menu": {
-      "dashboard": "Armaturenbrett",
+      "dashboard": "Dashboard",
       "back": "Gutscheine",
       "orders": "Aufträge"
     },
@@ -2625,7 +2625,7 @@ export default {
     "title": "Bietet an",
     "up_to": "bis zu",
     "menu": {
-      "dashboard": "Armaturenbrett",
+      "dashboard": "Dashboard",
       "orders": "Aufträge",
       "back": "Bietet an"
     },
@@ -2647,7 +2647,7 @@ export default {
   },
   "account_card": {
     "pay_create_receipt": "Aktivierungsgebühr bezahlen",
-    "balance": "Gleichgewicht",
+    "balance": "Kontostand",
     "locked": "Gesperrt",
     "transfer": "Transfer",
     "charge": "Anzahlung"
@@ -2774,7 +2774,7 @@ export default {
     "add_note_subtitle": "Schreiben Sie eine Nachricht und erwähnen Sie Ihre Kollegen."
   },
   "accounts": {
-    "title": "Mein Geldbeutel",
+    "title": "Meine Wallet",
     "message": "Sie müssen mindestens ein Konto mit der Währung erstellen, die Sie in Selldone verwenden. Sie müssen dieses Konto aufladen, um die Servicegebühr zu bezahlen.",
     "add_new": "Neuen Account erstellen",
     "new_account": "Neues Konto hinzufügen",
@@ -2790,7 +2790,7 @@ export default {
   "user_gifts": {
     "menu": {
       "send_gift": "Geschenk senden",
-      "sent": "Schicken",
+      "sent": "Gesendet",
       "received": "Empfangen"
     },
     "send_gifts": {
@@ -2916,7 +2916,7 @@ export default {
     "title": "Meine Identität und mein Profil",
     "email": "E-Mail-Addresse",
     "tel": "Handy Nummer",
-    "address": "die Anschrift",
+    "address": "Adresse",
     "payment": "Gültige Transaktionen",
     "personal_information": "Identitätsinformationen",
     "main_profile": "Hauptprofil",
@@ -2983,7 +2983,7 @@ export default {
     "email_input": "Email",
     "address_input": "die Anschrift",
     "tel_input": "Tel",
-    "mobile_input": "Handy, Mobiltelefon",
+    "mobile_input": "Mobiltelefon",
     "edit_action": "Unternehmen bearbeiten",
     "create_action": "Unternehmen erstellen",
     "notifications": {
@@ -3258,13 +3258,13 @@ export default {
     "menu": {
       "edit": "Bearbeiten",
       "apps": "Anwendungen",
-      "dashboard": "Armaturenbrett",
+      "dashboard": "Dashboard",
       "companies": "Unternehmen"
     },
     "dashboard": {
       "info_widget": {
         "title": "Informationen zur Firmenregistrierung",
-        "address": "die Anschrift",
+        "address": "Adresse",
         "website": "Webseite",
         "email": "Email",
         "phone": "Telefonnummer",
@@ -3317,7 +3317,7 @@ export default {
       "edit": "Bearbeiten",
       "publish": "Veröffentlichen",
       "history": "Versionen",
-      "dashboard": "Armaturenbrett",
+      "dashboard": "Dashboard",
       "company": "Unternehmen",
       "api": "API",
       "images": "Bilder"
@@ -3393,7 +3393,7 @@ export default {
   "account_status": {
     "Checking": "Überprüfung",
     "Approved": "Bestätigt",
-    "Rejected": "Hat abgelehnt",
+    "Rejected": "Abgelehnt",
     "Deleted": "Gelöscht",
     "Banned": "Verboten",
     "Payment": "Zahlung",
@@ -3600,7 +3600,7 @@ export default {
     "logout": "Ausloggen",
     "menu": {
       "personal_information": "Persönliche Informationen und Profil",
-      "wallet": "Geldbörsen & Konten",
+      "wallet": "Wallets & Konten",
       "companies": "Unternehmen und Geschäftskonten",
       "access": "Zugriff auf Mein Konto",
       "security": "Sicherheit",
@@ -3818,7 +3818,7 @@ export default {
     "crate_date": "Erstellungsdatum",
     "last_payment_date": "Letztes Zahlungsdatum",
     "for_all_products": "Auf alle Produkte anwenden",
-    "balance": "Gleichgewicht",
+    "balance": "Kontostand",
     "fix_commission": "Feste Provision",
     "percent_commission": "Prozentbasierte Provision",
     "total_payment": "Gesamtzahlungen",
@@ -4219,7 +4219,7 @@ export default {
     "fix_commission": "Feste Provision",
     "percent_commission": "Prozentuale Provision",
     "last_payment": "Letzte Zahlung",
-    "balance": "Gleichgewicht",
+    "balance": "Kontostand",
     "total_payment": "Gesamtzahlungen",
     "status": "Status und Einschränkungen von Affiliate-Partnern",
     "available_for": "Verfügbar für",
@@ -4409,7 +4409,7 @@ export default {
   },
   "transportation_page": {
     "menu": {
-      "dashboard": "Armaturenbrett",
+      "dashboard": "Dashboard",
       "transportations": "Versandarten",
       "orders": "Aufträge",
       "setting": "Einstellung",
@@ -4453,7 +4453,7 @@ export default {
     "actions_title": "Kuriereinstellungen",
     "action_delivered": "Versendet",
     "action_paid": "Nachnahme bezahlt",
-    "action_returned": "Ist zurückgekommen",
+    "action_returned": "Rückgaben",
     "cod_confirm_action": "Zahlung per Nachnahme bestätigen",
     "pickup_dialog": {
       "title": "Sind Sie Kurier dieses Pakets?",
@@ -4824,7 +4824,7 @@ export default {
     "channel": "Kanal",
     "status": "Status",
     "events": "Veranstaltungen",
-    "info": "Die Info",
+    "info": "Informationen",
     "actions": "Aktionen",
     "connected": "In Verbindung gebracht",
     "not_connected": "Nicht verbunden!",
@@ -4935,7 +4935,7 @@ export default {
   },
   "drop_shipping": {
     "menu": {
-      "dashboard": "Armaturenbrett",
+      "dashboard": "Dashboard",
       "orders": "Aufträge",
       "inventory": "Inventar",
       "shops": "Wiederverkäufer",
@@ -4950,9 +4950,9 @@ export default {
   },
   "dropshipping_reseller_page": {
     "menu": {
-      "dashboard": "Armaturenbrett",
+      "dashboard": "Dashboard",
       "orders": "Aufträge",
-      "wallet": "Brieftasche"
+      "wallet": "Wallet"
     }
   },
   "dropshipping_reseller_dashboard": {
@@ -5079,8 +5079,8 @@ export default {
     "waiting_for_auction": "Warten auf Auktion?",
     "inform_auction": "Bei Auktion benachrichtigen",
     "return_in_days": "{days} Tage Garantierückgabe",
-    "support24h7": "Unterstützung 24 Stunden 7 Tage",
-    "support_normal": "Arbeitszeitunterstützung",
+    "support24h7": "24/7 Support",
+    "support_normal": "Support während der Geschäftszeiten",
     "original_guarantee": "Originalgarantie",
     "cod_payment": "Unterstützung per Nachnahme",
     "pros": "Vorteile",
@@ -5571,7 +5571,7 @@ export default {
     }
   },
   "shops_list": {
-    "title": "Meine Geschäfte",
+    "title": "Meine Shops",
     "message": "Liste meiner eigenen Shops, zugelassenen und Mustershops.",
     "sample": {
       "title": "Beispiel-Shops",
@@ -5840,8 +5840,8 @@ export default {
       "description": "Erfordert eine Marktüberprüfung vor der Live-Schaltung."
     },
     "rejected": {
-      "name": "Hat abgelehnt",
-      "title": "Hat abgelehnt",
+      "name": "Abgelehnt",
+      "title": "Abgelehnt",
       "description": "Dieses Produkt wurde vom Markt abgelehnt."
     }
   },
@@ -7557,7 +7557,7 @@ export default {
     "up_to": "bis zu",
     "menu": {
       "back": "Zurück Programme",
-      "dashboard": "Armaturenbrett",
+      "dashboard": "Dashboard",
       "orders": "Aufträge",
       "edit": "Bearbeiten"
     },
