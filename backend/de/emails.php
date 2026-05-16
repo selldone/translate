@@ -13,7 +13,7 @@
      "shop-giftcard" => "Diese Benachrichtigung informiert einen Benutzer darüber, dass er eine Geschenkkarte erhalten hat.",
      "shop-vendor-join" => "Diese Nachricht heißt einen neuen Verkäufer im Shop willkommen.",
      "shop-vendor-invite" => "Diese Nachricht wird versendet, um einen Anbieter einzuladen, Ihrem Marktplatz beizutreten.",
-     "shop-vendor-order" => "Diese Nachricht wird an den Lieferanten gesendet, wenn eine Bestellung im Status „Bezahlt" oder „Nachnahme" eingeht.",
+     "shop-vendor-order" => "Diese Nachricht wird an den Lieferanten gesendet, wenn eine Bestellung im Status Bezahlt oder Nachnahme eingeht.",
      "shop-vendor-products" => "Wird täglich versendet, um die Anbieter über den Status ihrer Produkte zu informieren.",
      "shop-login" => "Benachrichtigen Sie den Benutzer aus Sicherheitsgründen über die Anmeldedaten, einschließlich IP-Adresse, Datum und Gerät.",
      "login-code" => "Senden Sie Benutzern einen Einmalkennwortcode, damit sie sich im Store anmelden können.",
@@ -245,7 +245,7 @@
      "category" => "SIE SIND NUR EINEN SCHRITT ENTFERNT",
      "title" => "Bestätige deine E-Mail-Adresse",
      "message" => "Hallo :name,<br> Vielen Dank, dass Sie sich für Selldone entschieden haben.<br> Bitte bestätigen Sie, dass **:email** Ihre E-Mail-Adresse ist, indem Sie auf die Schaltfläche klicken oder den untenstehenden Link innerhalb von 48 Stunden verwenden.",
-     "footer" => "Wenn Sie Probleme beim Klicken auf die Schaltfläche „Bestätigen" haben, kopieren Sie die folgende URL und fügen Sie sie in Ihren Webbrowser ein: __:activation_url__",
+     "footer" => "Wenn Sie Probleme beim Klicken auf die Schaltfläche Bestätigen haben, kopieren Sie die folgende URL und fügen Sie sie in Ihren Webbrowser ein: __:activation_url__",
 ],
      "verify-email-code" => [
      "subject" => "Bestätigungscode für :name",
@@ -661,7 +661,7 @@
      "vendor-products" => [
      "subject" => "Produkt-Update: Shop",
      "title" => "Produktstatus-Update – Letzte 24 Stunden",
-     "message" => "Wir hoffen, diese Nachricht erreicht Sie wohlbehalten. Dies ist ein kurzes Update über den Status Ihrer Produkte auf unserer Plattform in den letzten 24 Stunden. Im genannten Zeitraum hat sich der Status einiger Produkte geändert. Diese Änderungen können auf Käufe, Bestandsaktualisierungen oder andere damit verbundene Ereignisse zurückzuführen sein. Für detailliertere Informationen zu jedem Produkt melden Sie sich bitte bei Ihrem Konto an und überprüfen Sie den Bereich „Produktstatus".",
+     "message" => "Wir hoffen, diese Nachricht erreicht Sie wohlbehalten. Dies ist ein kurzes Update über den Status Ihrer Produkte auf unserer Plattform in den letzten 24 Stunden. Im genannten Zeitraum hat sich der Status einiger Produkte geändert. Diese Änderungen können auf Käufe, Bestandsaktualisierungen oder andere damit verbundene Ereignisse zurückzuführen sein. Für detailliertere Informationen zu jedem Produkt melden Sie sich bitte bei Ihrem Konto an und überprüfen Sie den Bereich Produktstatus.",
      "action" => "Lieferanten-Panel öffnen",
-],
+]
 ];
