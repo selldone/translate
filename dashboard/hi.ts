@@ -1,1254 +1,1596 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
+
 export default {
-  "commons": {
-    "pay_today": "आज भुगतान",
-    "pay_yesterday": "कल भुगतान",
-    "pay_last30days": "पिछले 30 दिनों का भुगतान",
-    "create_a_shop": "एक दुकान बनाएँ",
-    "start_free": "मुफ्त शुरू करें",
-    "featured_apps": "दिखाए गए ऐप्स",
-    "more_apps": "और ऐप",
-    "my_public_profile": "मेरा सार्वजनिक प्रोफ़ाइल पृष्ठ",
-    "product_admin": "उत्पाद व्यवस्थापक"
+  commons: {
+    pay_today: "आज भुगतान",
+    pay_yesterday: "कल भुगतान",
+    pay_last30days: "पिछले 30 दिनों का भुगतान",
+    create_a_shop: "एक दुकान बनाएँ",
+    start_free: "मुफ्त शुरू करें",
+    featured_apps: "दिखाए गए ऐप्स",
+    more_apps: "और ऐप",
+    my_public_profile: "मेरा सार्वजनिक प्रोफ़ाइल पृष्ठ",
+    product_admin: "उत्पाद व्यवस्थापक",
+    make_money_affiliate: "पैसा बनाएं",
+    see_live_shop: "लाइव दुकान देखें",
+    see_live_product: "लाइव उत्पाद देखें",
+    has_inputs: "इनपुट हैं",
+    main_domain: "मुख्य डोमेन",
+    domains: "डोमेन",
+    home_page: "होम पेज",
+    google_icon_font_sample: "Google फओनत सअमपलए",
+    fontawesome_icon_font_sample: "फओनतअवएसओमए (V6) सअमपलए",
   },
-  "numbers": {
-    "infinite": "असीमित"
+
+  numbers: {
+    infinite: "असीमित",
   },
-  "error": {
-    "not_fount_data": "डेटा नहीं मिला!",
-    "license_max_limit": "आपका लाइसेंस सीमा तक पहुंच गया!",
-    "no_read_access": "पढ़ने की सुविधा नहीं",
-    "no_write_access": "लिखने की पहुँच नहीं",
-    "no_access": "तक पहुँच नहीं"
+
+  error: {
+    not_fount_data: "डेटा नहीं मिला!",
+    license_max_limit: "आपका लाइसेंस सीमा तक पहुंच गया!",
+    no_read_access: "पढ़ने की सुविधा नहीं",
+    no_write_access: "लिखने की पहुँच नहीं",
+    no_access: "तक पहुँच नहीं",
   },
-  "time_spans": {
-    "days_range": "दिन सीमा",
-    "today": "आज",
-    "yesterday": "बिता कल",
-    "last_7": "आखिरी 7 दिन",
-    "last_14": "पिछले 14 दिन",
-    "last_30": "पिछले 30 दिनों में",
-    "last_90": "पिछले 90 दिन",
-    "custom": "रिवाज़"
+
+  time_spans: {
+    days_range: "दिन सीमा",
+    today: "आज",
+    yesterday: "बिता कल",
+    last_7: "आखिरी 7 दिन",
+    last_14: "पिछले 14 दिन",
+    last_30: "पिछले 30 दिनों में",
+    last_90: "पिछले 90 दिन",
+    custom: "रिवाज़",
   },
-  "device_types": {
-    "desktop": "डेस्कटॉप",
-    "mobile": "मोबाइल",
-    "tablet": "गोली"
+  device_types: {
+    desktop: "डेस्कटॉप",
+    mobile: "मोबाइल",
+    tablet: "गोली",
   },
-  "create_website_action": "अपनी वेबसाइट बनाएं — यह मुफ़्त है",
-  "show_shops_action": "मेरे स्टोर की सूची",
-  "Youtube": "यूट्यूब",
-  "Linkedin": "Linkedin",
-  "Twitter": "ट्विटर",
-  "Facebook": "फेसबुक",
-  "Instagram": "instagram",
-  "Reddit": "reddit",
-  "Github": "Github",
-  "page_titles": {
-    "home": "सेलडोन ╏ तेजी से बढ़ती कंपनियों के लिए बिजनेस ऑपरेटिंग सिस्टम",
-    "login": "लॉग इन करें",
-    "register": "पंजीकरण करवाना",
-    "auth_2fa": "2 कारक प्रमाणीकरण",
-    "academy": "ब्लॉग",
-    "help": "सहायता केंद्र",
-    "price_list": "मूल्य सूची",
-    "my_stores": "मेरे स्टोर",
-    "roles": "मेरी भूमिकाएं",
-    "wallet": "मेरा बटुआ",
-    "personal_info": "व्यक्तिगत जानकारी ╏ केवाईसी",
-    "companies": "मेरी कंपनियां",
-    "access_control": "अभिगम नियंत्रण",
-    "security_center": "सुरक्षा केंद्र",
-    "gifts": {
-      "received": "उपहार ╏ प्राप्त हुआ",
-      "send": "उपहार ╏ भेजा"
-    },
-    "monetization": {
-      "linked_accounts": "मुद्रीकरण ╏ जुड़े खातों",
-      "plans": "मुद्रीकरण ╏ योजना और लिंक"
-    },
-    "affiliate": "संबद्ध",
-    "avocado": "एवोकैडो - आधुनिक सामाजिक बिक्री चैनल",
-    "guild": "गिल्ड - सामूहिक बिक्री चैनल",
-    "partners_login": "पार्टनर्स ╏ ग्राहक लॉगिन"
+
+  create_website_action: "अपनी वेबसाइट बनाएं — यह मुफ़्त है",
+  show_shops_action: "मेरे स्टोर की सूची",
+
+  // Companies:
+
+  Youtube: "यूट्यूब",
+  Linkedin: "Linkedin",
+  Twitter: "ट्विटर",
+  Facebook: "फेसबुक",
+  Instagram: "instagram",
+  Reddit: "reddit",
+  Github: "Github",
+
+  theme: {
+    dark_mode: "डार्क मोड",
+    dark_mode_description:
+      "यदि आप सफेद टेक्स्ट रंग के साथ गहरे रंग की पृष्ठभूमि चाहते हैं तो यह विकल्प चुनें।",
+    light_mode: "लाइट मोड",
+    light_mode_description:
+      "यदि आप चाहते हैं कि पृष्ठभूमि हल्की हो और टेक्स्ट काले रंग में हो तो यह विकल्प चुनें।",
   },
-  "blank_is_all_products": "सभी उत्पादों को शामिल करने के लिए खाली छोड़ दें!",
-  "cautions": {
-    "title": "निम्नलिखित युक्तियों का पालन करके अपने व्यवसाय को व्यावसायिक रूप से प्रबंधित करें। लाभ मार्जिन और अधिक बढ़ाने के सुझावों के लिए पढ़ते रहें। हम रास्ते में आपके साथ हैं।",
-    "no_payment_method": {
-      "title": "भुगतान का तरीका",
-      "message": "आपको अपनी दुकान में एक भुगतान विधि जोड़नी होगी।",
-      "action": "दुकान के द्वार"
+
+  ai: {
+    remove_bg: {
+      title: "पृष्ठभूमि निकालें",
+      subtitle: "पारदर्शी पृष्ठभूमि बनाएं.",
     },
-    "link_account": {
-      "title": "खाते लिंक करें",
-      "message": "आपको अपनी दुकान से एक खाता ({currency}) लिंक करना होगा।",
-      "action": "दुकान खाते"
+    reimagine: {
+      title: "पुनःकल्पना करें",
+      subtitle: "नई पृष्ठभूमि के साथ अधिक चित्र बनाएं.",
     },
-    "no_domain": {
-      "title": "डोमेन जोड़ें",
-      "message": "आप अपने स्टोर से एक या अधिक व्यक्तिगत डोमेन कनेक्ट कर सकते हैं। आपकी वेबसाइट आपके डोमेन पर स्थापित हो जाएगी। यह प्रक्रिया त्वरित और आसान है।"
+    upscale: {
+      title: "उपसकअलए",
+      subtitle: "छवि का रिज़ॉल्यूशन बढ़ाएँ।",
     },
-    "domain_not_approved": {
-      "title": "डोमेन सत्यापन",
-      "message": "आपका डोमेन {domain} सत्यापित नहीं किया गया है। DNS सेटिंग्स की जाँच करें और डोमेन की पुष्टि करें।"
-    },
-    "no_currency": {
-      "title": "मुद्रा जोड़ें",
-      "message": "आपको अपने स्टोर के लिए कम से कम एक मुद्रा निर्धारित करनी होगी।",
-      "action": "मुद्रा प्रबंधन"
-    },
-    "no_primary_domain": {
-      "title": "मुख्य डोमेन",
-      "message": "कृपया अपने प्राथमिक डोमेन के रूप में एक डोमेन चुनें। डोमेन नाम के आगे स्टार बटन पर क्लिक करके, आप डोमेन को अपने स्टोर के प्राथमिक डोमेन के रूप में चुन सकते हैं। यह सर्च इंजन के लिए महत्वपूर्ण है। ध्यान दें कि आपका स्टोर अभी भी सभी सक्रिय डोमेन के माध्यम से उपलब्ध रहेगा।"
-    },
-    "shop_complete": {
-      "title": "पूरी जानकारी",
-      "action": "दुकान सेटिंग",
-      "location_msg": "अपना स्थान जोड़ें",
-      "days_open_msg": "खुले दिन सेट करें",
-      "time_open_msg": "खुलने और बंद होने का समय निर्धारित करें",
-      "description_msg": "अपने व्यवसाय के बारे में संक्षिप्त विवरण लिखें",
-      "icon_msg": "अपने स्टोर का लोगो सेट करें",
-      "shop_gateways_msg": "भुगतान विधि जोड़ें",
-      "socials_msg": "अपने सामाजिक लिंक जोड़ें",
-      "clubs_msg": "ग्राहक क्लब सेट करें",
-      "domains_msg": "कस्टम डोमेन जोड़ें",
-      "primary_msg": "डोमेन को प्राथमिक के रूप में सेट करें"
-    }
   },
-  "support": {
-    "request": "समर्थन का अनुरोध करें",
-    "category": "श्रेणी",
-    "title": "सहायता",
-    "message": "कोई अनुरोध या प्रश्न पूछें। हमारी सहायता टीम आपका मार्गदर्शन करेगी। हमारा सुझाव है कि आप अपने अनुरोध से संबंधित पेज में अपना प्रश्न पूछें। उदाहरण के लिए, यदि आपके पास डोमेन सेटिंग के बारे में कोई प्रश्न है, तो उसे अपने स्टोर के डोमेन सेटिंग पृष्ठ पर भेजें।",
-    "close_at": "{date} को बंद",
-    "close_ticket_by_user": "धन्यवाद, मुझे जवाब मिल गया"
+
+  // ------------------ Pages Title ------------------
+  page_titles: {
+    home: "सेलडोन ╏ तेजी से बढ़ती कंपनियों के लिए बिजनेस ऑपरेटिंग सिस्टम",
+    login: "लॉग इन करें",
+    register: "पंजीकरण करवाना",
+    auth_2fa: "2 कारक प्रमाणीकरण",
+    academy: "ब्लॉग",
+    help: "सहायता केंद्र",
+    price_list: "मूल्य सूची",
+    my_stores: "मेरे स्टोर",
+    roles: "मेरी भूमिकाएं",
+    wallet: "मेरा बटुआ",
+    personal_info: "व्यक्तिगत जानकारी ╏ केवाईसी",
+    companies: "मेरी कंपनियां",
+    access_control: "अभिगम नियंत्रण",
+    security_center: "सुरक्षा केंद्र",
+    gifts: {
+      received: "उपहार ╏ प्राप्त हुआ",
+      send: "उपहार ╏ भेजा",
+    },
+    monetization: {
+      linked_accounts: "मुद्रीकरण ╏ जुड़े खातों",
+      plans: "मुद्रीकरण ╏ योजना और लिंक",
+    },
+    affiliate: "संबद्ध",
+    avocado: "एवोकैडो - आधुनिक सामाजिक बिक्री चैनल",
+    guild: "गिल्ड - सामूहिक बिक्री चैनल",
+    partners_login: "पार्टनर्स ╏ ग्राहक लॉगिन",
   },
-  "surveys": [
-    "बहुत गरीब",
-    "गरीब",
-    "सामान्य",
-    "अच्छा",
-    "उत्कृष्ट"
-  ],
-  "sort": {
-    "title": "इसके अनुसार क्रमबद्ध करें",
-    "title_small": "इसके अनुसार क्रमबद्ध करें..",
-    "nothing": "कुछ नहीं",
-    "most_views": "सबसे ज़्यादा देखे जाने की संख्या",
-    "most_likes": "सबसे लोकप्रिय",
-    "most_recent": "नवीनतम",
-    "most_sell": "सर्वश्रेष्ठ बिक्री",
-    "cheapest": "सबसे सस्ता",
-    "most_expensive": "सबसे महंगी",
-    "only_available": "उपलब्ध",
-    "view_mode": {
-      "normal": "सामान्य",
-      "grid": "जाल",
-      "list": "सूची",
-      "insta": "इंस्टा"
-    }
+
+  /** NOT USED! */
+  /* data: {
+    shop: {
+      users: "User",
+      views: "View",
+      likes: "Like",
+      favorites: "Favorite",
+      comments: "Comment",
+      ratings: "Rating",
+      wishlist: "Wishlist",
+      new_visitors: "New Visitor",
+      returning_visitors: "Return Visitor",
+      page_views: "Page View",
+      order_physical_added: "Physical Add to Cart",
+      order_physical_checkout: "Physical Checkout",
+      order_virtual_added: "Virtual Add to Cart",
+      order_virtual_checkout: "Virtual Checkout",
+      order_file_added: "File Add to Cart",
+      order_file_checkout: "File Checkout",
+      order_service_added: "Service Add to Cart",
+      order_service_checkout: "Service Checkout",
+    },
+  },*/
+
+  blank_is_all_products: "सभी उत्पादों को शामिल करने के लिए खाली छोड़ दें!",
+
+  // ---------------------------------------------
+
+  /** @see ShopCautionHelper **/
+  cautions: {
+    title:
+      "निम्नलिखित युक्तियों का पालन करके अपने व्यवसाय को व्यावसायिक रूप से प्रबंधित करें। लाभ मार्जिन और अधिक बढ़ाने के सुझावों के लिए पढ़ते रहें। हम रास्ते में आपके साथ हैं।",
+    no_payment_method: {
+      title: "भुगतान का तरीका",
+      message:
+        "आपको अपनी दुकान में एक भुगतान विधि जोड़नी होगी।",
+      action: "दुकान के द्वार",
+    },
+    link_account: {
+      title: "खाते लिंक करें",
+      message:
+        "आपको अपनी दुकान से एक खाता ({currency}) लिंक करना होगा।",
+      action: "दुकान खाते",
+    },
+    no_domain: {
+      title: "डोमेन जोड़ें",
+      message:
+        "आप अपने स्टोर से एक या अधिक व्यक्तिगत डोमेन कनेक्ट कर सकते हैं। आपकी वेबसाइट आपके डोमेन पर स्थापित हो जाएगी। यह प्रक्रिया त्वरित और आसान है।",
+    },
+    domain_not_approved: {
+      title: "डोमेन सत्यापन",
+      message:
+        "आपका डोमेन {domain} सत्यापित नहीं किया गया है। DNS सेटिंग्स की जाँच करें और डोमेन की पुष्टि करें।",
+    },
+    no_currency: {
+      title: "मुद्रा जोड़ें",
+      message:
+        "आपको अपने स्टोर के लिए कम से कम एक मुद्रा निर्धारित करनी होगी।",
+      action: "मुद्रा प्रबंधन",
+    },
+    no_primary_domain: {
+      title: "मुख्य डोमेन",
+      message:
+        "कृपया अपने प्राथमिक डोमेन के रूप में एक डोमेन चुनें। डोमेन नाम के आगे स्टार बटन पर क्लिक करके, आप डोमेन को अपने स्टोर के प्राथमिक डोमेन के रूप में चुन सकते हैं। यह सर्च इंजन के लिए महत्वपूर्ण है। ध्यान दें कि आपका स्टोर अभी भी सभी सक्रिय डोमेन के माध्यम से उपलब्ध रहेगा।",
+    },
+    shop_complete: {
+      title: "पूरी जानकारी",
+      action: "दुकान सेटिंग",
+      location_msg: "अपना स्थान जोड़ें",
+      days_open_msg: "खुले दिन सेट करें",
+      time_open_msg: "खुलने और बंद होने का समय निर्धारित करें",
+      description_msg: "अपने व्यवसाय के बारे में संक्षिप्त विवरण लिखें",
+      icon_msg: "अपने स्टोर का लोगो सेट करें",
+      shop_gateways_msg: "भुगतान विधि जोड़ें",
+      socials_msg: "अपने सामाजिक लिंक जोड़ें",
+      clubs_msg: "ग्राहक क्लब सेट करें",
+      domains_msg: "कस्टम डोमेन जोड़ें",
+      primary_msg: "डोमेन को प्राथमिक के रूप में सेट करें",
+    },
   },
-  "helps": {
-    "title": "सेलडोन सहायता केंद्र",
-    "subtitle": "सेलडोन में आपका स्वागत है। यदि आप व्यवसाय ओएस पर एक नया ऑनलाइन स्टोर बना रहे हैं, तो आप यहां अधिक जानकारी प्राप्त कर सकते हैं।",
-    "add_new_help": "नई मदद",
-    "resources": "साधन",
-    "categories": {
-      "Welcome": "शुरू हो जाओ",
-      "Setup": "दुकान",
-      "Sell": "खरीद और बिक्री",
-      "Developer": "विकास करना",
-      "Application": "अनुप्रयोग",
-      "Product": "उत्पाद और श्रेणियाँ प्रबंधन",
-      "Blog": "सीएमएस और ब्लॉग",
-      "Order": "आदेश पूर्ति केंद्र",
-      "Channel": "बिक्री चैनल",
-      "Accounting": "लेखांकन और भुगतान के तरीके",
-      "Incentives": "प्रोत्साहन राशि",
-      "Marketing": "विपणन अभियान",
-      "Logistic": "रसद और नौवहन",
-      "Customers": "ग्राहक क्लब और विभाजन",
-      "Page": "लैंडिंग और कस्टम पेज",
-      "Access": "स्टाफ / एपीआई एक्सेस प्रबंधन",
-      "POS": "POS"
-    },
-    "faq": "FAQ",
-    "github": "जीथब रिपोजिटरी",
-    "admin_api_app": "व्यवस्थापक API वेब सेवा",
-    "shop_api_app": "दुकान एपीआई वेब सेवा",
-    "design_kit": "डिजाइन किट",
-    "community": "समुदाय"
+
+  /** @see BSupportMenu **/
+  support: {
+    request: "समर्थन का अनुरोध करें",
+
+    category: "श्रेणी",
+    title: "सहायता",
+    message:
+      "कोई अनुरोध या प्रश्न पूछें। हमारी सहायता टीम आपका मार्गदर्शन करेगी। हमारा सुझाव है कि आप अपने अनुरोध से संबंधित पेज में अपना प्रश्न पूछें। उदाहरण के लिए, यदि आपके पास डोमेन सेटिंग के बारे में कोई प्रश्न है, तो उसे अपने स्टोर के डोमेन सेटिंग पृष्ठ पर भेजें।",
+
+    close_at: "{date} को बंद",
+    close_ticket_by_user: "धन्यवाद, मुझे जवाब मिल गया",
   },
-  "blogs": {
-    "title": "ब्लॉग",
-    "subtitle": "व्यवसाय के लिए पाठ, आत्मविश्वास और एक संपन्न व्यवसाय बनाने के लिए आवश्यक ज्ञान।",
-    "add_new_blog": "नया ब्लॉग",
-    "popular": "लोकप्रिय",
-    "topics": "विषय",
-    "select_topics": "अपनी नौकरी का चयन करें।",
-    "select_job_topics": "अपने नौकरी से संबंधित विषयों का चयन करें",
-    "select_interested_topics": "आप किन विषयों में रुचि रखते हैं?"
+
+  /** @see SShopProductRatingView **/
+  surveys: ["बहुत गरीब", "गरीब", "सामान्य", "अच्छा", "उत्कृष्ट"],
+
+  /** @see SortView **/
+  sort: {
+    title: "इसके अनुसार क्रमबद्ध करें",
+    title_small: "इसके अनुसार क्रमबद्ध करें..",
+    nothing: "कुछ नहीं",
+    most_views: "सबसे ज़्यादा देखे जाने की संख्या",
+    most_likes: "सबसे लोकप्रिय",
+    most_recent: "नवीनतम",
+    most_sell: "सर्वश्रेष्ठ बिक्री",
+    cheapest: "सबसे सस्ता",
+    most_expensive: "सबसे महंगी",
+    only_available: "उपलब्ध",
+    view_mode: {
+      normal: "सामान्य",
+      grid: "जाल",
+      list: "सूची",
+      insta: "इंस्टा",
+    },
   },
-  "api": {
-    "title": "एपीआई और एकीकरण",
-    "message": "सेलडोन की प्रमुख विशेषताओं में से एक मजबूत और सुरक्षित एपीआई प्रदान करना है जो स्टोर को वेयरहाउसिंग, अकाउंटिंग आदि जैसी अन्य सेवाओं से प्रबंधित और कनेक्ट करता है। आप अपने स्टोर के लिए कस्टम ऐप और वेब ऐप भी डिज़ाइन कर सकते हैं। सर्वर और डेटा प्रबंधन के बारे में चिंता किए बिना। बस डोमेन एपीआई का प्रयोग करें। आपके पास उपयोगकर्ताओं के प्रबंधन, प्रमाणीकरण और अन्य डोमेन सुविधाओं की सभी प्रक्रियाएँ होंगी।"
+
+  /** {@see Helps} **/
+
+  helps: {
+    title: "सेलडोन सहायता केंद्र",
+    subtitle:
+      "सेलडोन में आपका स्वागत है। यदि आप व्यवसाय ओएस पर एक नया ऑनलाइन स्टोर बना रहे हैं, तो आप यहां अधिक जानकारी प्राप्त कर सकते हैं।",
+
+    add_new_help: "नई मदद",
+    resources: "साधन",
+
+    categories: {
+      Welcome: "शुरू हो जाओ",
+      Setup: "दुकान",
+      Sell: "खरीद और बिक्री",
+      Developer: "विकास करना",
+
+      Product: "उत्पाद और श्रेणियाँ प्रबंधन",
+      Blog: "सीएमएस और ब्लॉग",
+      Order: "आदेश पूर्ति केंद्र",
+      Channel: "बिक्री चैनल",
+      Accounting: "लेखांकन और भुगतान के तरीके",
+      Incentives: "प्रोत्साहन राशि",
+      Marketing: "विपणन अभियान",
+      Logistic: "रसद और नौवहन",
+      Customers: "ग्राहक क्लब और विभाजन",
+      Page: "लैंडिंग और कस्टम पेज",
+      Access: "स्टाफ / एपीआई एक्सेस प्रबंधन",
+      Application: "अनुप्रयोग",
+      POS: "POS",
+    },
+    faq: "FAQ",
+    github: "जीथब रिपोजिटरी",
+    admin_api_app: "व्यवस्थापक API वेब सेवा",
+    shop_api_app: "दुकान एपीआई वेब सेवा",
+    design_kit: "डिजाइन किट",
+    community: "समुदाय",
   },
-  "user_dashboard": {
-    "title": "मेरा शटल",
-    "subtitle": "अप-टू-डेट जानकारी और स्पष्ट संभावना के साथ अपने व्यवसाय का प्रबंधन करें।",
-    "menu": {
-      "affiliate": "संबद्ध",
-      "monetize": "कमाई करें",
-      "gift": "उपहार",
-      "security": "सुरक्षा",
-      "access": "पहुंच",
-      "business": "सोहबत",
-      "wallet": "बटुआ",
-      "identification": "KYC",
-      "stores": "स्टोर",
-      "roles": "भूमिकाएँ",
-      "home": "घर",
-      "expert": "विशेषज्ञ",
-      "deals": "सौदा",
-      "providers": "प्रदाताओं"
-    },
-    "shops": {
-      "create_new": "नई दुकान बनाएं",
-      "create_new_sub": "नि: शुल्क",
-      "create_new_sub_need_initial_charge": "पहला स्टोर बनाना नि:शुल्क है। संभवत: आपके व्यवसाय के लिए एक दुकान पर्याप्त है, लेकिन यदि आपको अधिक स्टोर बनाने की आवश्यकता है, तो एक नया स्टोर बनाने की लागत 25 डॉलर है। हम आपके वॉलेट खाते से राशि निकाल लेते हैं।",
-      "menu": {
-        "title": "मेरी दुकानें",
-        "shops": "दुकानें",
-        "new": "नया"
-      },
-      "accept_invite_question": "क्या आप इस आमंत्रण को स्वीकार करते हैं?",
-      "shop_card": {
-        "menu_orders": {
-          "physical": "भौतिक उत्पाद आदेश",
-          "virtual": "आभासी उत्पाद आदेश",
-          "files": "फ़ाइल आदेश",
-          "services": "सेवा आदेश",
-          "subscriptions": "सदस्यता आदेश"
-        },
-        "status": "स्थिति",
-        "license": "लाइसेंस",
-        "volume": "उपयोग में लाया गया स्थान",
-        "expire": "लायसेंस की समय सीमा समाप्त",
-        "products": "उत्पादों",
-        "page_views": "विचारों",
-        "user_behavior": "ग्राहक का व्यवहार",
-        "time_span": "{time} से अब तक",
-        "finance_report": "वित्तीय रिपोर्ट",
-        "buys": "खरीद",
-        "payments": "भुगतान",
-        "orders": "आदेश",
-        "currency": "मुद्रा",
-        "no_payment": "कोई भुगतान नहीं!",
-        "no_purchase": "कोई खरीद नहीं!"
-      }
-    }
+
+  /** {@see Blogs} **/
+  /** {@see InterestTopicsView} **/
+
+  blogs: {
+    title: "ब्लॉग",
+    subtitle:
+      "व्यवसाय के लिए पाठ, आत्मविश्वास और एक संपन्न व्यवसाय बनाने के लिए आवश्यक ज्ञान।",
+    add_new_blog: "नया ब्लॉग",
+    popular: "लोकप्रिय",
+    topics: "विषय",
+    select_topics: "अपनी नौकरी का चयन करें।",
+    select_job_topics: "अपने नौकरी से संबंधित विषयों का चयन करें",
+    select_interested_topics: "आप किन विषयों में रुचि रखते हैं?",
   },
-  "widgets": {
-    "overview": {
-      "title": "ग्राहकों की प्रतिक्रिया",
-      "title_small": "अवलोकन",
-      "wishlist": "इच्छा-सूची",
-      "comments": "टिप्पणियाँ",
-      "likes": "को यह पसंद है",
-      "favorites": "पसंदीदा",
-      "powers": "ताली",
-      "views": "विचारों",
-      "report_today": "आज की रिपोर्ट",
-      "report_last7days": "पिछले 7 दिनों की रिपोर्ट",
-      "report_last30days": "पिछले 30 दिनों की रिपोर्ट"
-    }
+
+  /** {@see ApiDocs} **/
+  api: {
+    title: "एपीआई और एकीकरण",
+    message:
+      "सेलडोन की प्रमुख विशेषताओं में से एक मजबूत और सुरक्षित एपीआई प्रदान करना है जो स्टोर को वेयरहाउसिंग, अकाउंटिंग आदि जैसी अन्य सेवाओं से प्रबंधित और कनेक्ट करता है। आप अपने स्टोर के लिए कस्टम ऐप और वेब ऐप भी डिज़ाइन कर सकते हैं। सर्वर और डेटा प्रबंधन के बारे में चिंता किए बिना। बस डोमेन एपीआई का प्रयोग करें। आपके पास उपयोगकर्ताओं के प्रबंधन, प्रमाणीकरण और अन्य डोमेन सुविधाओं की सभी प्रक्रियाएँ होंगी।",
   },
-  "admin_shop": {
-    "title": "दुकान",
-    "menu": {
-      "edit": "समायोजन",
-      "automation": "स्वचालन",
-      "application": "अनुप्रयोग",
-      "access": "पहुंच",
-      "pages": "पृष्ठों",
-      "channels": "चैनल",
-      "categories": "श्रेणियाँ",
-      "marketing": "विपणन",
-      "customers": "ग्राहकों",
-      "logistic": "तार्किक",
-      "auditing": "लेखांकन",
-      "incentives": "प्रोत्साहन राशि",
-      "process_center": "आदेश",
-      "blog": "ब्लॉग",
-      "products": "उत्पादों",
-      "shops": "दुकानें",
-      "dashboard": "डैशबोर्ड",
-      "autopilot": "ऑटो-पायलट",
-      "apps": "ऐप्स",
-      "pos": "POS",
-      "seo": "SEO",
-      "localization": "स्थानीयकरण",
-      "classification": "वर्गीकरण"
+
+  /** {@see BPageShuttle} **/
+  user_dashboard: {
+    title: "मेरा शटल",
+    subtitle: "अप-टू-डेट जानकारी और स्पष्ट संभावना के साथ अपने व्यवसाय का प्रबंधन करें।",
+    menu: {
+      affiliate: "संबद्ध",
+      monetize: "कमाई करें",
+      gift: "उपहार",
+      security: "सुरक्षा",
+      access: "पहुंच",
+      business: "सोहबत",
+      wallet: "बटुआ",
+      identification: "KYC",
+      stores: "स्टोर",
+      roles: "भूमिकाएँ",
+      home: "घर",
+      expert: "विशेषज्ञ",
+      deals: "सौदा",
+      providers: "प्रदाताओं",
     },
-    "dashboard": {
-      "title": "दुकान का डैशबोर्ड",
-      "online_staff": "ऑनलाइन कर्मचारी",
-      "notify_referral": {
-        "message": "मित्रों को अपना आमंत्रण लिंक भेजें और निःशुल्क वाउचर प्राप्त करें।",
-        "action": "मेरा रेफरल लिंक"
+    shops: {
+      create_new: "नई दुकान बनाएं",
+      create_new_sub_need_initial_charge:
+        "पहला स्टोर बनाना नि:शुल्क है। संभवत: आपके व्यवसाय के लिए एक दुकान पर्याप्त है, लेकिन यदि आपको अधिक स्टोर बनाने की आवश्यकता है, तो एक नया स्टोर बनाने की लागत 25 डॉलर है। हम आपके वॉलेट खाते से राशि निकाल लेते हैं।",
+
+      menu: {
+        title: "मेरी दुकानें",
+        shops: "दुकानें",
+        new: "नया",
       },
-      "info": {
-        "title": "तकनीकी",
-        "subtitle": "आपके व्यवसाय OS का तकनीकी अवलोकन।",
-        "shop_name": "दुकान का नाम",
-        "shop_link": "दुकान लिंक",
-        "site_map": "साइट मैप",
-        "shop_domains": "डोमेन",
-        "shop_domains_msg": "कनेक्टेड कस्टम डोमेन सूची।",
-        "home_msg": "अपनी वेबसाइट का डिफ़ॉल्ट होमपेज सेट करें। इसे प्रत्येक कस्टम डोमेन के लिए बदला जा सकता है।",
-        "add_domain": "नया डोमेन जोड़ें",
-        "currencies": "सक्रिय मुद्राएं",
-        "currencies_alert": "स्टोर के लिए कम से कम एक मुद्रा चुनें!",
-        "status": "स्थिति",
-        "license": "लाइसेंस",
-        "expire": "लाइसेंस की समाप्ति तिथि",
-        "upgrade_license_action": "{name} में अपग्रेड करें",
-        "wage": "शुल्क",
-        "cpu_message": "आपके द्वारा खरीदी गई योजना के अनुरूप संसाधनों की संख्या और आपके द्वारा अपनी सेवा में जोड़े जाने वाले संसाधन।",
-        "hide_domains": "मेरे डोमेन छुपाएं",
-        "show_domains": "मेरे डोमेन दिखाओ",
-        "table": {
-          "primary": "मुख्य",
-          "url": "यूआरएल",
-          "site_map": "साइट का नक्शा",
-          "enable": "सक्षम",
-          "indexed": "इंडेक्स किए गए",
-          "and_more": "& अधिक..",
-          "auto_repair": "ऑटो मरम्मत"
+
+      accept_invite_question: "क्या आप इस आमंत्रण को स्वीकार करते हैं?",
+      /** {@see BShopCard} **/
+
+      shop_card: {
+        menu_orders: {
+          physical: "भौतिक उत्पाद आदेश",
+          virtual: "आभासी उत्पाद आदेश",
+          files: "फ़ाइल आदेश",
+          services: "सेवा आदेश",
+          subscriptions: "सदस्यता आदेश",
         },
-        "add_dialog": {
-          "title": "स्टोर डोमेन कॉन्फ़िगर करें",
-          "step1": "आप निम्न मानों से किसी DNS डोमेन या उप डोमेन के लिए रिकॉर्ड A की IP सीमा निर्धारित कर सकते हैं:",
-          "step2": "DNS TXT रिकॉर्ड जोड़ें:",
-          "set_ip_alert": "रिकॉर्ड A <b>{ip}</b> का IP मान सेट करें।",
-          "input_domain": "डोमेन यूआरएल",
-          "correct": "डोमेन सेटिंग्स सही हैं।",
-          "set_message": "इस डोमेन के CNAME को {cname} पर सेट करें।",
-          "input_domain_message": "बिना http और https के डोमेन नाम दर्ज करें।",
-          "ssl_message": "अपनी वेबसाइट के लिए एसएसएल प्रमाणपत्र के बारे में चिंता न करें। यह प्रमाणीकरण आपके डोमेन के लिए सेलडोन (बीटा) द्वारा स्वचालित रूप से जारी किया जाएगा।",
-          "active": "डोमेन सक्रिय है",
-          "inactive": "डोमेन अक्षम है",
-          "success_message": "बधाई हो, आपकी साइट {domain} पर सक्षम है. आप इस डोमेन के माध्यम से अपने व्यवसाय और ब्रांड को दुनिया के सामने पेश कर सकते हैं।",
-          "delete_action": "डोमेन हटाएं?"
-        },
-        "set_home_dialog": {
-          "title": "डोमेन होम पेज सेट करें"
-        },
-        "notification": {
-          "add_message": "डोमेन पता सफलतापूर्वक जोड़ा गया।",
-          "update_message": "डोमेन सफलतापूर्वक अपडेट किया गया।",
-          "delete_domain_message": "डोमेन सफलतापूर्वक हटा दिया गया।"
-        },
-        "alert": {
-          "title": "डोमेन हटाएं",
-          "message": "क्या आप इस डोमेन को हटाना चाहते हैं? दूसरों को धोखाधड़ी से बचाने के लिए अपने डोमेन के DNS रिकॉर्ड मानों को रीसेट करना सुनिश्चित करें।"
-        }
+        status: "स्थिति",
+        license: "लाइसेंस",
+        volume: "उपयोग में लाया गया स्थान",
+        expire: "लायसेंस की समय सीमा समाप्त",
+        products: "उत्पादों",
+        page_views: "विचारों",
+        user_behavior: "ग्राहक का व्यवहार",
+        time_span: "{time} से अब तक",
+        finance_report: "वित्तीय रिपोर्ट",
+        buys: "खरीद",
+        payments: "भुगतान",
+        orders: "आदेश",
+        currency: "मुद्रा",
+        no_payment: "कोई भुगतान नहीं!",
+        no_purchase: "कोई खरीद नहीं!",
       },
-      "active_orders": {
-        "title": "आदेश",
-        "title_small": "भौतिक, फ़ाइल, आभासी और सेवा आदेश",
-        "pending_orders": "विचारधीन आदेश",
-        "physical": "भौतिक उत्पाद आदेश",
-        "virtual": "आभासी उत्पाद आदेश",
-        "file": "फ़ाइल उत्पाद आदेश",
-        "service": "सेवा उत्पाद आदेश",
-        "subscription": "सदस्यता आदेश"
-      },
-      "products": {
-        "title": "भंडार",
-        "title_small": "उत्पाद, सेवाएं, फ़ाइलें",
-        "total_products": "कुल उत्पाद प्रकार"
-      },
-      "finance": {
-        "title": "वित्तीय",
-        "title_small": "वित्तीय रिपोर्ट",
-        "total_30days_title": "कुल बिक्री राशि",
-        "last_30_day": "पिछले 30 दिनों में",
-        "pay_amount_chart_title": "भुगतान",
-        "sell_amount_chart_title": "बिक्री",
-        "discount_amount_chart_title": "छूट",
-        "currency_convert_to": "मुद्रा के लिए",
-        "active_currencies": "सक्रिय मुद्राएं",
-        "sell_count_chart_title": "प्रकार के अनुसार बिक्री की संख्या",
-        "active_gateways": "सक्रिय भुगतान गेटवे",
-        "received_last_24h": "पिछले 7 घंटे प्राप्त किया",
-        "pie": {
-          "title": "आज का बिक्री अनुपात",
-          "no_data": "आज कोई बिक्री नहीं"
-        },
-        "pay_amount": "भुगतान राशि",
-        "sell_amount": "बिक्री की राशि",
-        "discount_amount": "छूट राशि",
-        "sell_count": "बिक्री की संख्या",
-        "table": {
-          "currency": "मुद्रा",
-          "total_sell_30days": "30 दिन की कुल बिक्री",
-          "sell_daily": "दैनिक बिक्री दर",
-          "sell": "बिक्री",
-          "pay": "भुगतान करना"
-        }
-      },
-      "customers": {
-        "title": "ग्राहकों की खरीदारी करें",
-        "title_small": "रूपांतरण रिपोर्ट",
-        "total_customers": "कुल",
-        "new_customers_today": "आज",
-        "new_customers_week": "आखिरी 7 दिन",
-        "orders_count": "आदेश गिनती",
-        "days_range": "दिन सीमा",
-        "new_users": "नए पंजीकृत उपयोगकर्ता",
-        "chart": {
-          "new_customers": "नए ग्राहक",
-          "customers": "कुल ग्राहक"
-        }
-      },
-      "plugins": {
-        "title": "प्लग-इन",
-        "title_small": "स्थापित"
-      },
-      "performance": {
-        "title": "आज",
-        "title_small": "उपयोगकर्ता और बिक्री अवलोकन",
-        "users": "उपयोगकर्ताओं",
-        "views": "विचारों",
-        "orders": "आदेश",
-        "payments": "भुगतान",
-        "no_visitor_today": "आज आपके पास कोई आगंतुक नहीं था।"
-      },
-      "channels": {
-        "title": "अधिग्रहण चैनल",
-        "subtitle": "आपका व्यवसाय बढ़ रहा है। यहां आपके ग्राहक अधिग्रहण चैनलों की रिपोर्ट है।"
-      }
     },
-    "products": {
-      "title": "उत्पाद सूची",
-      "products_list": "दोबारा सूची को जाएं",
-      "products_menu": "उत्पाद प्रबंधन",
-      "process_que": "आयातित उत्पादों का प्रसंस्करण",
-      "view_que_list": "कतार सूची देखें",
-      "menu_products_list": "उत्पाद सूची",
-      "menu_export": "निर्यात उत्पाद",
-      "menu_import": "आयात उत्पाद",
-      "menu_show_deletes": "हटाए गए उत्पाद दिखाएं",
-      "drop_import_message": "थोक उत्पादों को जोड़ना शुरू करने के लिए उत्पाद सूची फ़ाइल (सीएसवी, एक्सएलएस, एक्सएलएसएक्स प्रारूप) को यहां छोड़ें। सुनिश्चित करें कि फ़ाइल में सेलडोन उत्पाद सूची प्रारूप है।",
-      "product_widget": {
-        "product_type": "उत्पाद प्रकार",
-        "price": "कीमत",
-        "value_added": "आयोग",
-        "discount": "छूट",
-        "in_stock": "स्टॉक में",
-        "product_unit": "इकाई",
-        "total_sell": "कुल बिक्री",
-        "total_view": "कुल दृश्य",
-        "view_unit": "बार",
-        "review_unit": "समीक्षा"
-      },
-      "folder_widget": {
-        "products": "उत्पादों",
-        "products_unit": "प्रकार",
-        "sub_categories": "श्रेणियाँ",
-        "sub_categories_unit": "सामान",
-        "views": "विचारों",
-        "views_unit": "बार"
-      },
-      "menu_advanced_options": "उन्नत विकल्प",
-      "products_rss": {
-        "title": "उत्पाद आरएसएस",
-        "subtitle": "गूगल, मेटा, ... में उत्पाद आयात करना"
-      },
-      "products_api": {
-        "title": "उत्पाद एपीआई",
-        "subtitle": "सार्वजनिक रूप से सुलभ API कॉल के माध्यम से उत्पादों का आयात करना।"
-      },
-      "google_sheet": {
-        "action": "लिंक की गई शीट",
-        "tooltip": "इस दुकान के उत्पाद गूगल ड्राइव में गूगल शीट से जुड़े हुए हैं।"
-      },
-      "show_deletes": {
-        "false_title": "हटाये गये को छिपाएं",
-        "true_title": "हटाए गए दिखाएँ"
-      },
-      "show_vendors": {
-        "false_title": "विक्रेताओं को छिपाएं",
-        "false_description": "सभी विक्रेताओं को दिखाएँ, ⌘Ctrl+1",
-        "true_title": "विक्रेता दिखाएँ"
-      },
-      "show_notes": {
-        "false_title": "नोट छिपाएं",
-        "false_description": "सभी नोट्स दिखाएँ, ⌘Ctrl+2",
-        "true_title": "नोद्स दिखाएं"
-      },
-      "rss_dialog": {
-        "title": "उत्पाद आरएसएस",
-        "subtitle": "सभी उत्पादों की अद्यतन सूची बनाए रखने के लिए इस RSS फ़ीड का उपयोग करें।"
-      },
-      "api_dialog": {
-        "title": "उत्पाद एपीआई",
-        "subtitle": "अपनी उत्पाद सूची को अप-टू-डेट रखने के लिए इस API फ़ीड का उपयोग करें। यह आपके स्टोर से उत्पाद लाने के लिए सार्वजनिक रूप से सुलभ API प्रदान करता है, जो इसे उत्पाद सूची और तुलना वेबसाइटों के लिए आदर्श बनाता है।"
-      }
+  },
+
+  widgets: {
+    /** {@see BDashboardFeedback} **/
+    overview: {
+      title: "ग्राहकों की प्रतिक्रिया",
+      title_small: "अवलोकन",
+      wishlist: "इच्छा-सूची",
+      comments: "टिप्पणियाँ",
+      likes: "को यह पसंद है",
+      favorites: "पसंदीदा",
+      powers: "ताली",
+      views: "विचारों",
+      report_today: "आज की रिपोर्ट",
+      report_last7days: "पिछले 7 दिनों की रिपोर्ट",
+      report_last30days: "पिछले 30 दिनों की रिपोर्ट",
     },
-    "blogs": {
-      "new": "नया लिखें",
-      "blogs": "ब्लॉग",
-      "list": {
-        "title": "मेरे लेख",
-        "waiting_message": "जानकारी मिल रही है... कृपया प्रतीक्षा करें",
-        "published": "प्रकाशित",
-        "draft": "प्रारूप",
-        "private": "निजी",
-        "public": "जनता",
-        "table": {
-          "title": "शीर्षक",
-          "author": "लेखक",
-          "claps": "ताली",
-          "like": "पसंद करना",
-          "comments": "टिप्पणियाँ",
-          "views": "विचारों",
-          "publish_state": "स्थिति",
-          "created_at": "रचना तिथि",
-          "updated_at": "आखिरी अपडेट"
-        },
-        "subtitle": "अपने और अपने व्यवसाय को प्रस्तुत करने के लिए एक आधुनिक इनलाइन संपादक के साथ लेख लिखें। उच्च गुणवत्ता वाले एसईओ-अनुकूल ब्लॉग पोस्ट लिखते समय मूल सामग्री पहली चीज है जिस पर आपको ध्यान देने की आवश्यकता है।"
-      }
+  },
+
+  /** {@see BPageShop} **/
+  admin_shop: {
+    title: "दुकान",
+    menu: {
+      edit: "समायोजन",
+      automation: "स्वचालन",
+      application: "अनुप्रयोग",
+      access: "पहुंच",
+      pages: "पृष्ठों",
+      channels: "चैनल",
+      classification: "वर्गीकरण",
+      marketing: "विपणन",
+      customers: "ग्राहकों",
+      logistic: "तार्किक",
+      auditing: "लेखांकन",
+      incentives: "प्रोत्साहन राशि",
+      process_center: "आदेश",
+      blog: "ब्लॉग",
+      products: "उत्पादों",
+      shops: "दुकानें",
+      dashboard: "डैशबोर्ड",
+      autopilot: "ऑटो-पायलट",
+      apps: "ऐप्स",
+      pos: "POS",
+      seo: "SEO",
+      localization: "स्थानीयकरण",
+      crm: "करम",
+      listing: "सूची",
     },
-    "orders": {
-      "physical": {
-        "waiting_message": "जानकारी मिल रही है... कृपया प्रतीक्षा करें",
-        "rejected": "अस्वीकार कर दिया",
-        "delivery": "शिपिंग",
-        "discount": "छूट",
-        "not_paid": "भुगतान नहीं",
-        "table": {
-          "order_number": "आदेश कोड",
-          "order_date": "जाने की तिथि",
-          "status": "अंतिम स्थिति",
-          "price": "कुल रकम",
-          "payment_status": "भुगतान की स्थिति"
-        }
+
+    /** {@see BPageShopDashboard} **/
+    dashboard: {
+      title: "दुकान का डैशबोर्ड",
+      online_staff: "ऑनलाइन कर्मचारी",
+
+      notify_referral: {
+        message: "मित्रों को अपना आमंत्रण लिंक भेजें और निःशुल्क वाउचर प्राप्त करें।",
+        action: "मेरा रेफरल लिंक",
       },
-      "virtual": {
-        "waiting_message": "जानकारी मिल रही है... कृपया प्रतीक्षा करें",
-        "discount": "छूट",
-        "table": {
-          "order_number": "आदेश कोड",
-          "product": "उत्पाद",
-          "order_date": "पंजीकरण की तारीख",
-          "status": "अंतिम स्थिति",
-          "price": "कुल रकम",
-          "payment_status": "भुगतान की स्थिति"
-        }
-      }
+
+      /** {@see BDashboardShopTechnical} **/
+      info: {
+        title: "तकनीकी",
+        subtitle: "आपके व्यवसाय OS का तकनीकी अवलोकन।",
+
+        shop_name: "दुकान का नाम",
+        shop_link: "दुकान लिंक",
+        site_map: "साइट मैप",
+        shop_domains: "डोमेन",
+        shop_domains_msg: "कनेक्टेड कस्टम डोमेन सूची।",
+
+        home_msg:
+          "अपनी वेबसाइट का डिफ़ॉल्ट होमपेज सेट करें। इसे प्रत्येक कस्टम डोमेन के लिए बदला जा सकता है।",
+
+        add_domain: "नया डोमेन जोड़ें",
+        currencies: "सक्रिय मुद्राएं",
+        currencies_alert: "स्टोर के लिए कम से कम एक मुद्रा चुनें!",
+        status: "स्थिति",
+        license: "लाइसेंस",
+        expire: "लाइसेंस की समाप्ति तिथि",
+        upgrade_license_action: "{name} में अपग्रेड करें",
+        wage: "शुल्क",
+        cpu_message:
+          "आपके द्वारा खरीदी गई योजना के अनुरूप संसाधनों की संख्या और आपके द्वारा अपनी सेवा में जोड़े जाने वाले संसाधन।",
+        hide_domains: "मेरे डोमेन छुपाएं",
+        show_domains: "मेरे डोमेन दिखाओ",
+
+        /** {@see BDomainsList} **/
+        table: {
+          primary: "मुख्य",
+          url: "यूआरएल",
+          site_map: "साइट का नक्शा",
+          enable: "सक्षम",
+          indexed: "इंडेक्स किए गए",
+          and_more: "& अधिक..",
+          auto_repair: "ऑटो मरम्मत",
+        },
+        add_dialog: {
+          title: "स्टोर डोमेन कॉन्फ़िगर करें",
+          step1:
+            "आप निम्न मानों से किसी DNS डोमेन या उप डोमेन के लिए रिकॉर्ड A की IP सीमा निर्धारित कर सकते हैं:",
+          step2: "DNS TXT रिकॉर्ड जोड़ें:",
+          set_ip_alert:
+            "रिकॉर्ड A <b>{ip}</b> का IP मान सेट करें।",
+
+          input_domain: "डोमेन यूआरएल",
+          correct: "डोमेन सेटिंग्स सही हैं।",
+          set_message: "इस डोमेन के CNAME को {cname} पर सेट करें।",
+          input_domain_message: "एनतएर तहए डोमेन नाम वइतहओउत हततप अनद हततपस.",
+          ssl_message:
+            "अपनी वेबसाइट के लिए एसएसएल प्रमाणपत्र के बारे में चिंता न करें। यह प्रमाणीकरण आपके डोमेन के लिए सेलडोन (बीटा) द्वारा स्वचालित रूप से जारी किया जाएगा।",
+          active: "डोमेन सक्रिय है",
+          inactive: "डोमेन अक्षम है",
+          success_message:
+            "बधाई हो, आपकी साइट {domain} पर सक्षम है. आप इस डोमेन के माध्यम से अपने व्यवसाय और ब्रांड को दुनिया के सामने पेश कर सकते हैं।",
+
+          delete_action: "डोमेन हटाएं?",
+        },
+        set_home_dialog: {
+          title: "डोमेन होम पेज सेट करें",
+        },
+        notification: {
+          add_message: "डोमेन पता सफलतापूर्वक जोड़ा गया।",
+          update_message: "डोमेन सफलतापूर्वक अपडेट किया गया।",
+          delete_domain_message: "डोमेन सफलतापूर्वक हटा दिया गया।",
+        },
+        alert: {
+          title: "डोमेन हटाएं",
+          message:
+            "क्या आप इस डोमेन को हटाना चाहते हैं? दूसरों को धोखाधड़ी से बचाने के लिए अपने डोमेन के DNS रिकॉर्ड मानों को रीसेट करना सुनिश्चित करें।",
+        },
+      },
+
+      /** {@see BDashboardShopOrders} **/
+      active_orders: {
+        title: "आदेश",
+        title_small:
+          "भौतिक, फ़ाइल, आभासी और सेवा आदेश",
+        pending_orders: "विचारधीन आदेश",
+        physical: "भौतिक उत्पाद आदेश",
+        virtual: "आभासी उत्पाद आदेश",
+        file: "फ़ाइल उत्पाद आदेश",
+        service: "सेवा उत्पाद आदेश",
+        subscription: "सदस्यता आदेश",
+      },
+      /** {@see BDashboardShopProducts} **/
+      products: {
+        title: "भंडार",
+        title_small: "उत्पाद, सेवाएं, फ़ाइलें",
+
+        total_products: "कुल उत्पाद प्रकार",
+      },
+      /** {@see BDashboardShopFinance} **/
+      finance: {
+        title: "वित्तीय",
+        title_small: "वित्तीय रिपोर्ट",
+        total_30days_title: "कुल बिक्री राशि",
+        last_30_day: "पिछले 30 दिनों में",
+        pay_amount_chart_title: "भुगतान",
+        sell_amount_chart_title: "बिक्री",
+        discount_amount_chart_title: "छूट",
+        currency_convert_to: "मुद्रा के लिए",
+        active_currencies: "सक्रिय मुद्राएं",
+        sell_count_chart_title: "प्रकार के अनुसार बिक्री की संख्या",
+        active_gateways: "सक्रिय भुगतान गेटवे",
+        received_last_24h: "पिछले 7 घंटे प्राप्त किया",
+        pie: {
+          title: "आज का बिक्री अनुपात",
+          no_data: "आज कोई बिक्री नहीं",
+        },
+        pay_amount: "भुगतान राशि",
+        sell_amount: "बिक्री की राशि",
+        discount_amount: "छूट राशि",
+        sell_count: "बिक्री की संख्या",
+        table: {
+          currency: "मुद्रा",
+          total_sell_30days: "30 दिन की कुल बिक्री",
+          sell_daily: "दैनिक बिक्री दर",
+          sell: "बिक्री",
+          pay: "भुगतान करना",
+        },
+      },
+      /** {@see BDashboardShopCustomers} **/
+      customers: {
+        title: "ग्राहकों की खरीदारी करें",
+        title_small: "रूपांतरण रिपोर्ट",
+        total_customers: "कुल",
+        new_customers_today: "आज",
+        new_customers_week: "आखिरी 7 दिन",
+        orders_count: "आदेश गिनती",
+        days_range: "दिन सीमा",
+        new_users: "नए पंजीकृत उपयोगकर्ता",
+
+        chart: {
+          new_customers: "नए ग्राहक",
+          customers: "कुल ग्राहक",
+        },
+      },
+      /** {@see BDashboardShopChannels} **/
+
+      channels: {
+        title: "अधिग्रहण चैनल",
+        subtitle:
+          "आपका व्यवसाय बढ़ रहा है। यहां आपके ग्राहक अधिग्रहण चैनलों की रिपोर्ट है।",
+      },
+
+      /** {@see BDashboardShopPerformance} **/
+      performance: {
+        title: "आज",
+        title_small: "उपयोगकर्ता और बिक्री अवलोकन",
+        users: "उपयोगकर्ताओं",
+        views: "विचारों",
+        orders: "आदेश",
+        payments: "भुगतान",
+        no_visitor_today: "आज आपके पास कोई आगंतुक नहीं था।",
+      },
     },
-    "auditing": {
-      "menu": {
-        "exchange": "अदला-बदली",
-        "gateway": "द्वार",
-        "invoice": "बिलिंग",
-        "report": "शिकायत करना",
-        "tax": "कर",
-        "drop_shipping": "पुनर्विक्रेता रसीदें",
-        "reseller_accounts": "पुनर्विक्रेता खाते",
-        "valuations": "वैल्यूएशन",
-        "customer_wallets": "ग्राहक वॉलेट"
+
+    /** {@see BPageShopProductsList} **/
+    products: {
+      title: "उत्पाद सूची",
+      products_list: "दोबारा सूची को जाएं",
+      products_menu: "उत्पाद प्रबंधन",
+
+      view_que_list: "कतार सूची देखें",
+      menu_products_list: "उत्पाद सूची",
+      menu_export: "निर्यात उत्पाद",
+      menu_import: "आयात उत्पाद",
+      drop_import_message:
+        "थोक उत्पादों को जोड़ना शुरू करने के लिए उत्पाद सूची फ़ाइल (सीएसवी, एक्सएलएस, एक्सएलएसएक्स प्रारूप) को यहां छोड़ें। सुनिश्चित करें कि फ़ाइल में सेलडोन उत्पाद सूची प्रारूप है।",
+
+      menu_advanced_options: "उन्नत विकल्प",
+      menu_advanced_options_description:
+        "कओननएकत Google सहएएत, हटाएँ दउपलइकअतएद उत्पाद अनद मओरए...",
+
+      products_rss: {
+        title: "उत्पाद आरएसएस",
+        subtitle: "गूगल, मेटा, ... में उत्पाद आयात करना",
       },
-      "invoice": {
-        "title": "शॉप लिंक्ड वॉलेट",
-        "subtitle": "इन वॉलेट खातों से शुल्क, कमीशन और स्टोर की लागत काट ली जाती है।",
-        "title_add": "नया वॉलेट खाता कनेक्ट करें",
-        "subtitle_add": "आपको प्रत्येक मुद्रा के लिए एक नया वॉलेट बनाना चाहिए और इसे अपने स्टोर से जोड़ना चाहिए। इस वॉलेट से सेवा शुल्क वापस ले लिया जाएगा।",
-        "add_account": "खाता जोड़ो",
-        "charge_account": "खाता चार्ज करें",
-        "show_transaction": "लेन-देन दिखाएं",
-        "table": {
-          "currency": "मुद्रा",
-          "account_number": "खाता संख्या",
-          "account_name": "खाता नाम",
-          "balance": "संतुलन",
-          "free_balance": "उपलब्ध शेष राशि",
-          "actions": "हटाना"
-        },
-        "add_account_dialog": {
-          "title": "क्रेडिट खाते को स्टोर से जोड़ना",
-          "subtitle": "जब आप सेलडोन के साथ वॉलेट खाता खोलते हैं, तो हम आपको किसी अन्य क्रेडिट कार्ड की तरह एक वर्चुअल क्रेडिट कार्ड और खाता देंगे। इस खाते से बिक्री शुल्क की कटौती की जाएगी, लेकिन यदि आपके खाते की शेष राशि पर्याप्त नहीं है, तो यह राशि देय होगी। आप जितनी जरूरत हो उतनी सेलडोन सेवाओं का उपयोग कर सकते हैं।",
-          "account_number": "खाता संख्या",
-          "account_number_input_message": "स्टोर को इस खाते से जोड़ा जाएगा। इस खाते का उपयोग शुल्क और लागत के लिए किया जाएगा।",
-          "balance": "खाते में शेष",
-          "connect_account_to_shop": "खाते को स्टोर से कनेक्ट करें"
-        },
-        "notifications": {
-          "connect_account_success": "खाता सफलतापूर्वक जोड़ा गया।",
-          "delete_account_success": "स्टोर से खाता सफलतापूर्वक निकाल दिया गया."
-        },
-        "alert": {
-          "delete_account": "खाता डिस्कनेक्ट करें",
-          "delete_account_message": "क्या आप इस खाते को स्टोर खातों की सूची से हटाना चाहते हैं?",
-          "delete_account_action": "खाता हटा दो"
-        },
-        "inform_charge_account": "अपने खाते को चार्ज करें!",
-        "inform_charge_account_critical": "सेवा निलंबन को रोकने के लिए अपने खाते को चार्ज करें!"
+      products_api: {
+        title: "उत्पाद एपीआई",
+        subtitle: "सार्वजनिक रूप से सुलभ API कॉल के माध्यम से उत्पादों का आयात करना।",
       },
-      "gateway": {
-        "title": "भुगतान की विधि",
-        "sub_title": "सक्रिय भुगतान विधियों की सूची। यदि आप अपनी दुकान में कोई नया तरीका जोड़ना चाहते हैं, तो निम्न बटन दबाएं। हम अत्यधिक अनुशंसा करते हैं कि 10 से अधिक भुगतान गेटवे नहीं जोड़े जाएं।",
-        "add_gateway": "नई भुगतान विधि",
-        "add_gateway_dialog": {
-          "title": "मुद्रा चुनें",
-          "country_currencies": "स्थानीय मुद्राएं",
-          "crypto_currencies": "क्रिप्टोकरेंसी",
-          "active_gateways": "सक्रिय भुगतान विधियां",
-          "confirm": "भुगतान विधि जोड़ें"
-        }
+      google_sheet: {
+        action: "लिंक की गई शीट",
+        tooltip:
+          "इस दुकान के उत्पाद गूगल ड्राइव में गूगल शीट से जुड़े हुए हैं।",
       },
-      "exchange": {
-        "title": "सक्रिय मुद्राएं स्टोर करें",
-        "subtitle": "उपयोगकर्ता सक्रिय मुद्राओं में से एक का चयन करने में सक्षम होंगे और उत्पादों की कीमतों की गणना और प्रदर्शित की जाएगी। विनिमय दर दर्ज करना विक्रेता पर निर्भर है।",
-        "shop_currencies_input": "उपयोगकर्ताओं के लिए सक्रिय मुद्राएं",
-        "shop_currencies_input_error": "कम से कम एक मुद्रा चुनें",
-        "rates": {
-          "title": "मुद्रा विनिमय दर",
-          "sub_title": "आप नीचे दी गई किसी भी मुद्रा के आधार पर उत्पाद की कीमतें दर्ज कर सकते हैं और उत्पाद की कीमतों की गणना आपकी मुद्राओं के बीच रूपांतरण दरों पर स्वचालित रूप से की जाएगी।",
-          "message": "मुद्राओं के बीच विनिमय दर दर्ज करने से, आपके उत्पादों की कीमतों की स्वचालित रूप से गणना और अद्यतन किया जाएगा।",
-          "add_new_rate": "नई दर जोड़ें"
-        },
-        "table": {
-          "waiting_receive_data": "जानकारी मिल रही है... कृपया प्रतीक्षा करें",
-          "rate_input": "विनिमय दर",
-          "from": "से",
-          "to": "सेवा",
-          "exchange_rate": "विनिमय दर",
-          "edit": "संपादन करना",
-          "delete": "मिटाना",
-          "auto": "ऑटो दर"
-        },
-        "add_rate_dialog": {
-          "title": "विनिमय दर सेट करें",
-          "message": "जानकारी दर्ज करने में सावधानी बरतें। आपके उत्पादों की कीमतों की गणना यहां दर्ज दरों के आधार पर की जाएगी।",
-          "currency_from": "मुद्रा से",
-          "currency_to": "मुद्रा के लिए",
-          "exchange_rate": "विनिमय दर"
-        },
-        "alert": {
-          "title": "रूपांतरण दर हटाएं",
-          "message": "क्या आप इस रूपांतरण दर को हटाना चाहते हैं?",
-          "action": "मिटाना"
-        },
-        "notifications": {
-          "delete_success": "विनिमय दर हटा दी गई।",
-          "add_success": "विनिमय दर अद्यतन।",
-          "update_success": "स्टोर सक्रिय मुद्राएं अपडेट की गईं।"
-        }
-      }
+      show_deletes: {
+        false_title: "हटाये गये को छिपाएं",
+        false_description: "छिपाएँ दएलएतएद उत्पाद.",
+        true_title: "हटाए गए दिखाएँ",
+        true_description: "दिखाएँ दएलएतएद उत्पाद.",
+      },
+      show_vendors: {
+        false_title: "विक्रेताओं को छिपाएं",
+        false_description: "सभी विक्रेताओं को दिखाएँ, ⌘Ctrl+1",
+        true_title: "विक्रेता दिखाएँ",
+        true_description: "दिखाएँ सभी विक्रेता, ⌘Ctrl+1",
+      },
+      table_mode: {
+        false_title: "दरअग & दरओप मोड",
+        false_description:
+          "देखें उत्पाद ओरगअनइज़एद बय श्रेणियाँ अनद सउबकअतएगओरइएस.",
+        true_title: "तालिका मोड",
+        true_description: "देखें उत्पाद इन a दएतअइलएद तालिका लअयओउत.",
+      },
+
+      show_notes: {
+        false_title: "नोट छिपाएं",
+        false_description: "सभी नोट्स दिखाएँ, ⌘Ctrl+2",
+        true_title: "नोद्स दिखाएं",
+        true_description: "दिखाएँ सभी नोट, ⌘Ctrl+2",
+      },
+
+      rss_dialog: {
+        title: "उत्पाद आरएसएस",
+        subtitle:
+          "सभी उत्पादों की अद्यतन सूची बनाए रखने के लिए इस RSS फ़ीड का उपयोग करें।",
+      },
+      api_dialog: {
+        title: "उत्पाद एपीआई",
+        subtitle:
+          "अपनी उत्पाद सूची को अप-टू-डेट रखने के लिए इस API फ़ीड का उपयोग करें। यह आपके स्टोर से उत्पाद लाने के लिए सार्वजनिक रूप से सुलभ API प्रदान करता है, जो इसे उत्पाद सूची और तुलना वेबसाइटों के लिए आदर्श बनाता है।",
+      },
+
+      /** {@see BProductWindowProductLarge} **/
+
+      product_widget: {
+        product_type: "उत्पाद प्रकार",
+        price: "कीमत",
+        value_added: "आयोग",
+        discount: "छूट",
+        in_stock: "स्टॉक में",
+        product_unit: "इकाई",
+        total_sell: "कुल बिक्री",
+        total_view: "कुल दृश्य",
+        view_unit: "बार",
+        review_unit: "समीक्षा",
+      },
+
+      /** {@see WidgetFolderCard} **/
+      folder_widget: {
+        products: "उत्पादों",
+        products_unit: "प्रकार",
+        sub_categories: "श्रेणियाँ",
+        sub_categories_unit: "सामान",
+        views: "विचारों",
+        views_unit: "बार",
+      },
     },
-    "logistic": {
-      "warehouses": {
-        "title": "गोदामों",
-        "subtitle": "मेरे गोदामों की सूची।"
+
+    /** {@see BPageShopBlogs}  **/
+    blogs: {
+      new: "नया लिखें",
+      blogs: "ब्लॉग",
+
+      /** {@see BPageShopBlogsList} **/
+      list: {
+        title: "मेरे लेख",
+        subtitle:
+          "अपने और अपने व्यवसाय को प्रस्तुत करने के लिए एक आधुनिक इनलाइन संपादक के साथ लेख लिखें। उच्च गुणवत्ता वाले एसईओ-अनुकूल ब्लॉग पोस्ट लिखते समय मूल सामग्री पहली चीज है जिस पर आपको ध्यान देने की आवश्यकता है।",
+        waiting_message: "जानकारी मिल रही है... कृपया प्रतीक्षा करें",
+        published: "प्रकाशित",
+        draft: "प्रारूप",
+        private: "निजी",
+        public: "जनता",
+        table: {
+          title: "शीर्षक",
+          author: "लेखक",
+          claps: "ताली",
+          like: "पसंद करना",
+          comments: "टिप्पणियाँ",
+          views: "विचारों",
+          publish_state: "स्थिति",
+          created_at: "रचना तिथि",
+          updated_at: "आखिरी अपडेट",
+        },
       },
-      "warehouse_btn": "नया गोदाम जोड़ें",
-      "warehouse_btn_error": "अपना गोदाम, स्टोर, या अपने व्यवसाय का मूल स्थान निर्धारित करें। शिपिंग लागत गणना और चेकआउट प्रक्रिया में होना महत्वपूर्ण है।",
-      "size_unit": {
-        "title": "आकार इकाई",
-        "subtitle": "लंबाई, चौड़ाई और ऊंचाई के लिए उपयोग की जाने वाली इकाई।"
+    },
+
+    /** {@see ShopPBPageShopOrdersrocessCenter} **/
+    orders: {
+      /** {@see BProcessCenterList} **/
+      physical: {
+        waiting_message: "जानकारी मिल रही है... कृपया प्रतीक्षा करें",
+        rejected: "अस्वीकार कर दिया",
+        delivery: "शिपिंग",
+        discount: "छूट",
+        not_paid: "भुगतान नहीं",
+
+        table: {
+          order_number: "आदेश कोड",
+          order_date: "जाने की तिथि",
+          status: "अंतिम स्थिति",
+          price: "कुल रकम",
+          payment_status: "भुगतान की स्थिति",
+        },
       },
-      "mass_unit": {
-        "title": "मास यूनिट",
-        "subtitle": "वजन के लिए इस्तेमाल की जाने वाली इकाई।"
+
+      /** {@see BPageShopOrdersVirtual} **/
+      virtual: {
+        waiting_message: "जानकारी मिल रही है... कृपया प्रतीक्षा करें",
+
+        discount: "छूट",
+        table: {
+          order_number: "आदेश कोड",
+          product: "उत्पाद",
+          order_date: "पंजीकरण की तारीख",
+          status: "अंतिम स्थिति",
+          price: "कुल रकम",
+          payment_status: "भुगतान की स्थिति",
+        },
       },
-      "menu": {
-        "return_request": "लौटाया हुआ",
-        "delivery": "शिपिंग",
-        "inventory": "भंडार",
-        "warehouse": "गोदाम",
-        "logistic_apps": "तर्कशास्र सा",
-        "profiles": "प्रोफाइल",
-        "includes": "शामिल"
+    },
+
+    /** {@see BPageShopFinance} **/
+    auditing: {
+      menu: {
+        exchange: "अदला-बदली",
+        gateway: "द्वार",
+        invoice: "बिलिंग",
+        report: "शिकायत करना",
+        tax: "कर",
+        drop_shipping: "पुनर्विक्रेता रसीदें",
+        reseller_accounts: "पुनर्विक्रेता खाते",
+        valuations: "वैल्यूएशन",
+        customer_wallets: "ग्राहक वॉलेट",
       },
-      "warehouse": {
-        "title": "स्टोर वेयरहाउस",
-        "sub_title": "इस पते का उपयोग शिपिंग की उत्पत्ति के रूप में किया जाता है।",
-        "table": {
-          "title": "वस्तुसूची की फेहरिस्त",
-          "sub_title": "भौतिक, आभासी, फ़ाइल और सेवा सहित सभी स्टोर उत्पादों की सूची"
-        }
+
+      /** {@see BPageShopFinanceBill} **/
+      invoice: {
+        title: "शॉप लिंक्ड वॉलेट",
+        subtitle:
+          "इन वॉलेट खातों से शुल्क, कमीशन और स्टोर की लागत काट ली जाती है।",
+
+        title_add: "नया वॉलेट खाता कनेक्ट करें",
+        subtitle_add:
+          "आपको प्रत्येक मुद्रा के लिए एक नया वॉलेट बनाना चाहिए और इसे अपने स्टोर से जोड़ना चाहिए। इस वॉलेट से सेवा शुल्क वापस ले लिया जाएगा।",
+        add_account: "खाता जोड़ो",
+        charge_account: "खाता चार्ज करें",
+        show_transaction: "लेन-देन दिखाएं",
+
+        table: {
+          currency: "मुद्रा",
+          account_number: "खाता संख्या",
+          account_name: "खाता नाम",
+          balance: "संतुलन",
+          free_balance: "उपलब्ध शेष राशि",
+          actions: "हटाना",
+        },
+        add_account_dialog: {
+          title: "क्रेडिट खाते को स्टोर से जोड़ना",
+          subtitle:
+            "जब आप सेलडोन के साथ वॉलेट खाता खोलते हैं, तो हम आपको किसी अन्य क्रेडिट कार्ड की तरह एक वर्चुअल क्रेडिट कार्ड और खाता देंगे। इस खाते से बिक्री शुल्क की कटौती की जाएगी, लेकिन यदि आपके खाते की शेष राशि पर्याप्त नहीं है, तो यह राशि देय होगी। आप जितनी जरूरत हो उतनी सेलडोन सेवाओं का उपयोग कर सकते हैं।",
+          account_number: "खाता संख्या",
+          account_number_input_message:
+            "स्टोर को इस खाते से जोड़ा जाएगा। इस खाते का उपयोग शुल्क और लागत के लिए किया जाएगा।",
+          balance: "खाते में शेष",
+          connect_account_to_shop: "खाते को स्टोर से कनेक्ट करें",
+        },
+        notifications: {
+          connect_account_success: "खाता सफलतापूर्वक जोड़ा गया।",
+          delete_account_success:
+            "स्टोर से खाता सफलतापूर्वक निकाल दिया गया.",
+        },
+        alert: {
+          delete_account: "खाता डिस्कनेक्ट करें",
+          delete_account_message:
+            "क्या आप इस खाते को स्टोर खातों की सूची से हटाना चाहते हैं?",
+          delete_account_action: "खाता हटा दो",
+        },
+        inform_charge_account: "अपने खाते को चार्ज करें!",
+        inform_charge_account_critical:
+          "सेवा निलंबन को रोकने के लिए अपने खाते को चार्ज करें!",
       },
-      "delivery": {
-        "title": "स्थानांतरण विधियां",
-        "sub_title": "इस सेक्शन में मान सेट करके, आपके स्टोर में भेजने के कई तरीके सक्रिय हो जाते हैं। इस सेक्शन में कैश ऑन डिलीवरी मेथड को भी एक्टिवेट किया जा सकता है।",
-        "add_transportation": "परिवहन जोड़ें",
-        "delivery_form": {
-          "payment": "भुगतान विकल्प",
-          "limits": "सीमाएं",
-          "currency_input": "लागत गणना के लिए संदर्भ मुद्रा",
-          "currency_input_message": "लागत की गणना इस मुद्रा में की जाती है",
-          "distance_input": "गोदाम से तय की गई दूरी",
-          "distance_input_message": "0 या -1 का मतलब कोई सीमा नहीं है।",
-          "max_weight_input": "अधिकतम स्वीकार्य पैक वजन",
-          "max_weight_input_message": "0 या -1 का मतलब कोई सीमा नहीं है।",
-          "max_size_input": "अधिकतम पैकेज आयाम",
-          "width": "चौड़ाई",
-          "length": "लंबाई",
-          "height": "ऊंचाई",
-          "days_input": "उपलब्ध डिलीवरी तिथियां",
-          "days_input_nodata": "डिलीवरी का दिन चुनें",
-          "hours_input": "Avaialbe डिलीवरी का समय",
-          "hours_input_nodata": "एक समयावधि चुनें",
-          "vacation_input": "क्या आप छुट्टियों पर डिलीवरी करते हैं?",
-          "cod_input": "समर्थन सीओडी",
-          "cod_input_message": "सुनिश्चित करें कि आपकी शिपिंग सेवा COD को स्वीकार करती है।",
-          "sod_input": "क्या आप सीओडी का समर्थन करते हैं?",
-          "sod_input_message": "सुनिश्चित करें कि आपकी शिपिंग सेवा COD को स्वीकार करती है।",
-          "pricing": "कीमत की गणना करें",
-          "const_input": "निश्चित लागत",
-          "distance_cof_input": "लागत-से-दूरी गुणांक",
-          "distance_cof_input_dim": "प्रति {dim}",
-          "weight_cof_input": "लागत-से-भार कारक",
-          "weight_cof_input_dim": "प्रति {dim}",
-          "price_cof_input": "उत्पाद मूल्य कारक के लिए शिपिंग लागत",
-          "price_cof_input_message": "बीमा लागत और सीओडी लागत जैसी अन्य सेवाएं शामिल हैं।",
-          "price_cof_input_dim": "प्रति {dim}",
-          "distance_weight_cof_input": "भार गुणक द्वारा लागत गुणक",
-          "distance_weight_cof_input_dim": "प्रत्येक {weight} प्रति {distance} के लिए",
-          "free_shipping_input": "मुफ़्त शिपिंग",
-          "free_shipping_limit_input": "मुफ़्त शिपिंग के लिए न्यूनतम ऑर्डर लागत",
-          "notifications": {
-            "update_success": "शिपिंग सेवा सेटिंग सफलतापूर्वक पूर्ण."
+
+      /** {@see BPageShopFinanceExchange} **/
+      exchange: {
+        title: "सक्रिय मुद्राएं स्टोर करें",
+        subtitle:
+          "उपयोगकर्ता सक्रिय मुद्राओं में से एक का चयन करने में सक्षम होंगे और उत्पादों की कीमतों की गणना और प्रदर्शित की जाएगी। विनिमय दर दर्ज करना विक्रेता पर निर्भर है।",
+        shop_currencies_input: "उपयोगकर्ताओं के लिए सक्रिय मुद्राएं",
+        shop_currencies_input_error: "कम से कम एक मुद्रा चुनें",
+        rates: {
+          title: "मुद्रा विनिमय दर",
+          sub_title:
+            "आप नीचे दी गई किसी भी मुद्रा के आधार पर उत्पाद की कीमतें दर्ज कर सकते हैं और उत्पाद की कीमतों की गणना आपकी मुद्राओं के बीच रूपांतरण दरों पर स्वचालित रूप से की जाएगी।",
+          message:
+            "मुद्राओं के बीच विनिमय दर दर्ज करने से, आपके उत्पादों की कीमतों की स्वचालित रूप से गणना और अद्यतन किया जाएगा।",
+          add_new_rate: "नई दर जोड़ें",
+        },
+        table: {
+          waiting_receive_data: "जानकारी मिल रही है... कृपया प्रतीक्षा करें",
+          rate_input: "विनिमय दर",
+          from: "से",
+          to: "सेवा",
+          exchange_rate: "विनिमय दर",
+          edit: "संपादन करना",
+          delete: "मिटाना",
+          auto: "ऑटो दर",
+        },
+        add_rate_dialog: {
+          title: "विनिमय दर सेट करें",
+          message:
+            "जानकारी दर्ज करने में सावधानी बरतें। आपके उत्पादों की कीमतों की गणना यहां दर्ज दरों के आधार पर की जाएगी।",
+          currency_from: "मुद्रा से",
+          currency_to: "मुद्रा के लिए",
+          exchange_rate: "विनिमय दर",
+        },
+        alert: {
+          title: "रूपांतरण दर हटाएं",
+          message: "क्या आप इस रूपांतरण दर को हटाना चाहते हैं?",
+          action: "मिटाना",
+        },
+        notifications: {
+          delete_success: "विनिमय दर हटा दी गई।",
+          add_success: "विनिमय दर अद्यतन।",
+          update_success: "स्टोर सक्रिय मुद्राएं अपडेट की गईं।",
+        },
+      },
+    }, // End of auditing
+
+    /** {@see BPageShopLogistic} **/
+    logistic: {
+      /** {@see BPageShopLogisticWarehouse} **/
+      warehouses: {
+        title: "गोदामों",
+        subtitle: "मेरे गोदामों की सूची।",
+      },
+      restriction: {
+        title: "शिपिंग प्रतिबंध",
+        subtitle:
+          "आप यह सुनिश्चित करने के लिए प्रतिबंध लागू कर सकते हैं कि केवल निर्दिष्ट शिपिंग क्षेत्रों के ग्राहक ही आपसे खरीदारी कर सकें!",
+        no_enable_shipping_error:
+          "कोई भी आपसे खरीद नहीं सकता क्योंकि आपके पास कोई सक्षम शिपिंग विधि नहीं है!",
+        customer_must_select_a_shipping_msg:
+          "ग्राहक को ऑर्डर देने के लिए शिपिंग विधि का चयन करना होगा।",
+        customer_can_order_without_shipping_method_msg:
+          "ग्राहक ऑर्डर दे सकता है भले ही चयनित स्थान के लिए कोई शिपिंग विधि समर्थित न हो।",
+        inputs: {
+          restriction: {
+            false_description:
+              "ग्राहक तब भी ऑर्डर दे सकते हैं, भले ही उन्होंने कोई विशिष्ट शिपिंग विधि नहीं चुनी हो।",
+            false_title: "सभी आदेश स्वीकार करें",
+            true_title: "प्रतिबंधित स्वीकृति आदेश",
+            true_description:
+              "ग्राहकों को अपनी खरीदारी पूरी करने के लिए शिपिंग या पिकअप विकल्प चुनना आवश्यक है।",
           },
-          "shipping_cost_calculation": "शिपिंग लागत गणना",
-          "sod_true": "गंतव्य पर शिपिंग लागत प्राप्त करें",
-          "sod_true_message": "सुनिश्चित करें कि आपकी शिपिंग सेवा गंतव्य पर शिपिंग लागत स्वीकार करती है।",
-          "sod_false": "ऑटो शिपिंग लागत गणना",
-          "cod_true": "डिलीवरी पर नकद स्वीकार करें",
-          "cod_false": "केवल ऑनलाइन भुगतान स्वीकार करें",
-          "cod_true_message": "सुनिश्चित करें कि आपकी शिपिंग सेवा COD को स्वीकार करती है।"
-        }
+        },
       },
-      "restriction": {
-        "title": "शिपिंग प्रतिबंध",
-        "subtitle": "आप यह सुनिश्चित करने के लिए प्रतिबंध लागू कर सकते हैं कि केवल निर्दिष्ट शिपिंग क्षेत्रों के ग्राहक ही आपसे खरीदारी कर सकें!",
-        "no_enable_shipping_error": "कोई भी आपसे खरीद नहीं सकता क्योंकि आपके पास कोई सक्षम शिपिंग विधि नहीं है!",
-        "customer_must_select_a_shipping_msg": "ग्राहक को ऑर्डर देने के लिए शिपिंग विधि का चयन करना होगा।",
-        "customer_can_order_without_shipping_method_msg": "ग्राहक ऑर्डर दे सकता है भले ही चयनित स्थान के लिए कोई शिपिंग विधि समर्थित न हो।",
-        "inputs": {
-          "restriction": {
-            "false_description": "ग्राहक तब भी ऑर्डर दे सकते हैं, भले ही उन्होंने कोई विशिष्ट शिपिंग विधि नहीं चुनी हो।",
-            "false_title": "सभी आदेश स्वीकार करें",
-            "true_title": "प्रतिबंधित स्वीकृति आदेश",
-            "true_description": "ग्राहकों को अपनी खरीदारी पूरी करने के लिए शिपिंग या पिकअप विकल्प चुनना आवश्यक है।"
-          }
-        }
+
+      warehouse_btn: "नया गोदाम जोड़ें",
+      warehouse_btn_error:
+        "अपना गोदाम, स्टोर, या अपने व्यवसाय का मूल स्थान निर्धारित करें। शिपिंग लागत गणना और चेकआउट प्रक्रिया में होना महत्वपूर्ण है।",
+      no_multi_warehouse_support_message:
+        "सरलता के लिए, यह सुविधा सामान्य दुकानों में उपलब्ध नहीं है।",
+      size_unit: {
+        title: "आकार इकाई",
+        subtitle: "लंबाई, चौड़ाई और ऊंचाई के लिए उपयोग की जाने वाली इकाई।",
       },
-      "no_multi_warehouse_support_message": "सरलता के लिए, यह सुविधा सामान्य दुकानों में उपलब्ध नहीं है।"
+      mass_unit: {
+        title: "मास यूनिट",
+        subtitle: "वजन के लिए इस्तेमाल की जाने वाली इकाई।",
+      },
+      distance_unit: {
+        title: "दूरी की इकाई",
+        subtitle: "तहए उनइत उसएद फओर दइसतअनकए.",
+      },
+
+      menu: {
+        return_request: "लौटाया हुआ",
+        delivery: "शिपिंग",
+        inventory: "भंडार",
+        warehouse: "गोदाम",
+        logistic_apps: "तर्कशास्र सा",
+        profiles: "प्रोफाइल",
+        includes: "शामिल",
+        property_sets: "प्रॉपर्टी सेट",
+        boxes: "पैकेज",
+      },
+
+      /** {@see BPageShopLogisticInventory} **/
+      warehouse: {
+        title: "स्टोर वेयरहाउस",
+        sub_title: "इस पते का उपयोग शिपिंग की उत्पत्ति के रूप में किया जाता है।",
+        table: {
+          title: "वस्तुसूची की फेहरिस्त",
+          sub_title:
+            "भौतिक, आभासी, फ़ाइल और सेवा सहित सभी स्टोर उत्पादों की सूची",
+        },
+      },
+
+      /** {@see BPageShopLogisticShipping} **/
+      delivery: {
+        title: "स्थानांतरण विधियां",
+
+        sub_title:
+          "इस सेक्शन में मान सेट करके, आपके स्टोर में भेजने के कई तरीके सक्रिय हो जाते हैं। इस सेक्शन में कैश ऑन डिलीवरी मेथड को भी एक्टिवेट किया जा सकता है।",
+        add_transportation: "परिवहन जोड़ें",
+
+        /** {@see DeliveryFormWidget} **/
+        delivery_form: {
+          payment: "भुगतान विकल्प",
+          limits: "सीमाएं",
+
+          currency_input: "लागत गणना के लिए संदर्भ मुद्रा",
+          currency_input_message: "लागत की गणना इस मुद्रा में की जाती है",
+          distance_input: "गोदाम से तय की गई दूरी",
+          distance_input_message: "0 या -1 का मतलब कोई सीमा नहीं है।",
+          max_weight_input: "अधिकतम स्वीकार्य पैक वजन",
+          max_weight_input_message: "0 या -1 का मतलब कोई सीमा नहीं है।",
+          max_size_input: "अधिकतम पैकेज आयाम",
+          width: "चौड़ाई",
+          length: "लंबाई",
+          height: "ऊंचाई",
+          days_input: "उपलब्ध डिलीवरी तिथियां",
+          days_input_nodata: "डिलीवरी का दिन चुनें",
+          hours_input: "Avaialbe डिलीवरी का समय",
+          hours_input_nodata: "एक समयावधि चुनें",
+          vacation_input: "क्या आप छुट्टियों पर डिलीवरी करते हैं?",
+
+          pricing: "कीमत की गणना करें",
+          const_input: "निश्चित लागत",
+          distance_cof_input: "लागत-से-दूरी गुणांक",
+          distance_cof_input_dim: "प्रति {dim}",
+          weight_cof_input: "लागत-से-भार कारक",
+          weight_cof_input_dim: "प्रति {dim}",
+          price_cof_input: "उत्पाद मूल्य कारक के लिए शिपिंग लागत",
+          price_cof_input_message:
+            "बीमा लागत और सीओडी लागत जैसी अन्य सेवाएं शामिल हैं।",
+          price_cof_input_dim: "प्रति {dim}",
+          distance_weight_cof_input: "भार गुणक द्वारा लागत गुणक",
+          distance_weight_cof_input_dim: "प्रत्येक {weight} प्रति {distance} के लिए",
+          free_shipping_input: "मुफ़्त शिपिंग",
+          free_shipping_limit_input: "मुफ़्त शिपिंग के लिए न्यूनतम ऑर्डर लागत",
+
+          shipping_cost_calculation: "शिपिंग लागत गणना",
+          sod_true: "गंतव्य पर शिपिंग लागत प्राप्त करें",
+          sod_true_message:
+            "सुनिश्चित करें कि आपकी शिपिंग सेवा गंतव्य पर शिपिंग लागत स्वीकार करती है।",
+          sod_false: "ऑटो शिपिंग लागत गणना",
+
+          cod_input: "समर्थन सीओडी",
+          cod_true: "डिलीवरी पर नकद स्वीकार करें",
+          cod_false: "केवल ऑनलाइन भुगतान स्वीकार करें",
+          cod_true_message: "सुनिश्चित करें कि आपकी शिपिंग सेवा COD को स्वीकार करती है।",
+
+          notifications: {
+            update_success: "शिपिंग सेवा सेटिंग सफलतापूर्वक पूर्ण.",
+          },
+        },
+      },
+    }, // End of logistic
+
+    /** {@see BPageShopCrm} **/
+    users: {
+      menu: {
+        customers: "ग्राहकों",
+        contact_form: "संपर्क",
+        faq: "FAQ",
+        club: "क्लब",
+        report: "शिकायत करना",
+      },
+
+      /** {@see BPageShopCrmReport} **/
+      report: {
+        title: "ग्राहक अवलोकन",
+        sub_title: "यहां आपको अपने ग्राहकों का लाइव स्टेटस दिखाई देगा।",
+        report_30days_by_time:
+          "पिछले 30 दिनों में दिनांक और समय के आधार पर उपयोगकर्ता गतिविधि",
+        report_30days_by_location:
+          "पिछले 30 दिनों में जियोलोकेशन उपयोगकर्ता गतिविधि",
+      },
+      /** {@see BPageShopCrmClub} **/
+      club: {
+        title: "ग्राहक क्लब",
+        sub_title:
+          "प्रत्येक स्तर को सक्रिय करने के लिए मासिक और वार्षिक खरीद राशि और मुद्रा दर्ज करें। आपके ग्राहक आपके ग्राहक क्लब में लॉग इन होंगे क्योंकि वे मासिक या वार्षिक खरीद की आवश्यकताओं को पूरा करते हैं।",
+        item: {
+          members_count: "सदस्यों की संख्या",
+          purchases_count: "आदेशों की संख्या",
+          monthly: "महीने के",
+          annually: "सालाना",
+          discount_percent: "छूट की दर",
+          discount_limit: "छूट की सीमा",
+        },
+
+        edit_dialog: {
+          title: "ग्राहक स्तर प्रबंधन",
+          currency_input: "मुद्रा",
+          currency_input_message:
+            "इस मुद्रा में कुल खरीद की गणना की जाती है।",
+          free_shipping_input: "मुफ़्त शिपिंग",
+          monthly_input: "मासिक खरीद दर",
+          annually_input: "वार्षिक खरीद दर",
+          discount_percent_input: "क्लब के सदस्यों के लिए छूट दर",
+          discount_limit_input: "छूट की सीमा",
+          description_input: "विवरण",
+          description_input_message: "इस स्तर का संक्षिप्त विवरण दर्ज करें।",
+        },
+        notifications: {
+          update_success: "परिवर्तन ग्राहक क्लब पर लागू होते हैं।",
+        },
+      },
+      /** {@see BPageShopCrmFaq} **/
+      faq: {
+        title: "सामान्यतःपूछे जाने वाले प्रश्न",
+        sub_title: "अपने ग्राहकों के प्रश्नों को जोड़ें, संपादित करें और उनका उत्तर दें।",
+      },
+    }, // End of users
+
+    /** {@see BPageShopMarketing} **/
+    marketing: {
+      menu: {
+        campaigns: "अभियान",
+        cross_selling: "क्रॉस बिक्री",
+        affiliate: "संबद्ध",
+        emails: "ईमेल",
+        funnel: "फ़नल",
+      },
+
+      /** {@see BPageShopMarketingCampaign} **/
+      campaign: {
+        name_input_name: "अभियान का नाम",
+        name_input_placeholder: "अभियान का नाम",
+        create_campaign_action: "नया अभियान बनाएं",
+        table: {
+          title: "शीर्षक",
+          state: "स्थिति",
+          discount: "छूट",
+          landing: "लैंडिंग पेज",
+          start: "शुरू करना",
+          end: "अंत",
+        },
+        notifications: {
+          add_success_title: "एक अभियान बनाएं",
+          add_success: "आपका अभियान बनाया गया था।",
+        },
+      },
+    }, // End of marketing
+
+    /** {@see BPageShopClassification} **/
+    categories: {
+      title: "श्रेणी सूची",
+      subtitle:
+        "श्रेणियाँ आपके ऑनलाइन स्टोर की प्रमुख विशेषता हैं। हम आपको आधुनिक स्टोरफ्रंट बनाने और अपने ग्राहकों के लिए सही उत्पाद ढूंढना आसान बनाने के लिए इन शक्तिशाली श्रेणीकरण टूल का उपयोग करने के लिए प्रोत्साहित करते हैं।",
+
+      menu: {
+        add_new: "नई श्रेणी जोड़ें",
+        categories_list: "श्रेणियाँ सूची",
+        export: "निर्यात श्रेणियां",
+        import: "आयात श्रेणियां (सीएसवी)",
+      },
+      /** {@see categoriesGraph} **/
+      graph: {
+        title: "श्रेणियों का पदानुक्रम",
+        subtitle:
+          "आप अपने स्टोर की श्रेणियों का पूरा अवलोकन कर सकते हैं और उपयोगकर्ता उन्हें कैसे नेविगेट करते हैं। श्रेणियों की सही व्यवस्था के साथ, आपके ग्राहक जल्दी से उत्पाद ढूंढ सकते हैं और रूपांतरण दर बढ़ जाएगी।",
+        visits_count: "मुलाकात",
+        normal: "सरल",
+        items_count: "वस्तुओ की संख्या",
+        home: "घर",
+      },
+    }, // End of categories
+    /** {@see AdminShopApps} **/
+    apps: {
+      menu: {
+        app_store: "दुकान",
+        my_apps: "ऐप्स",
+      },
+      /** {@see BPageShopSettingApplications} **/
+      my_apps: {
+        title: "सक्रिय ऐप्स स्टोर करें",
+        subtitle:
+          "अपने व्यावसायिक अनुप्रयोगों को प्रबंधित करें।",
+        all: "सब",
+      },
+      /** {@see BAppShopStore} **/
+      store: {
+        title: "ऐप स्टोर",
+        subtitle:
+          "अपनी पसंदीदा सेवाओं को अपने व्यवसाय से सुरक्षित रूप से कनेक्ट करें। हम अपने ग्राहकों के अनुरोधों के आधार पर प्लगइन्स और ऐप्स जोड़ते हैं।",
+
+        nodata: "कोई प्लगइन नहीं मिला।",
+        all: "सब",
+        more: "अधिक",
+      },
+    }, // End of apps
+    /** {@see BPageShopPages} **/
+    pages: {
+      menu: {
+        new_page: "नया पृष्ठ",
+        contact_us: "संपर्क करें",
+        privacy: "गोपनीयता",
+        terms: "शर्तें",
+        about_us: "हमारे बारे में",
+        landings: "अवतरण",
+        popup: "पॉप अप",
+        static: "स्थिर",
+      },
+    }, // End of pages
+
+    /** {@see BPageShopPermission} **/
+    permissions: {
+      menu: {
+        persons: "कर्मचारी",
+        roles: "भूमिकाएँ",
+        api: "API",
+      },
+      /** {@see BPageShopPermissionStaff} **/
+      shop_permissions: {
+        menu: {
+          users: "कार्मिक सूची",
+          new_user: "नया स्टाफ जोड़ें",
+          new_user_message:
+            "वे उपयोगकर्ता जिनके पास इस स्टोर के डैशबोर्ड और प्रबंधन अनुभागों तक पहुंच होगी।",
+        },
+        delete_alert: {
+          title: "पहुंच हटाएं",
+          message: "क्या आप इस उपयोगकर्ता को हटाना चाहते हैं?",
+          action: "मिटाना",
+        },
+        notifications: {
+          add_success_title: "एक्सेस जोड़ें",
+          add_success: "नई पहुंच जोड़ी गई।",
+          delete_success_title: "पहुंच हटाएं",
+          delete_success: "पहुंच हटाई गई।",
+        },
+      },
+
+      /** {@see BPageShopPermissionApi} **/
+      shop_api: {
+        title: "स्टोर एक्सेस कुंजियाँ",
+        message:
+          "इन कुंजियों का उपयोग आपके सर्वर द्वारा एक्सेस टोकन बनाने के लिए किया जाता है। ध्यान दें कि चाबियाँ गोपनीय हैं और केवल सर्वर पर इस तरह से हैं जो दूसरों को दिखाई नहीं देती हैं।",
+      },
+    }, // End of permissions
+    /** {@see BPageShopApplications} **/
+    applications: {
+      /** {@see BPageShopApplicationsPwa} **/
+      pwa: {
+        title: "वेब अप्प",
+        sub_title: "अपना स्टोर वेब ऐप यहां देखें",
+        message:
+          "नोट: आप iOS ऐप में अपने iPhone और iPad पर अपनी वेबसाइट के स्वागत पृष्ठ को संपादित कर सकते हैं",
+        ios_app: "आईओएस ऐप",
+      },
+
+      /** {@see BPageShopApplicationsIos} **/
+      ios: {
+        title: "आईओएस ऐप",
+        sub_title: "आप जल्द ही अपने स्टोर के लिए आईओएस ऐप बनाने में सक्षम होंगे।",
+        message:
+          "अधिकतम फ़ाइल आकार: 512 केबी, आप आकार में 1 एमबी तक की फाइलें अपलोड कर सकते हैं, बशर्ते हमारी संपीड़न प्रणाली आकार को 512 केबी तक कम करने में सक्षम हो। अपलोड की गई छवि का बुद्धिमानी से आकार बदला जाएगा।",
+      },
+      /** {@see BPageShopApplicationsAndroid} **/
+      android: {
+        title: "एंड्रॉइड एप्लिकेशन",
+        sub_title: "अपना खुद का Android ऐप बनाएं",
+        message:
+          "इस फॉर्म को भरें और बिल्ड की दबाएं। किसी और चीज की जरूरत नहीं पड़ेगी। आपके ऐप की बिल्ड और साइन प्रक्रिया के सभी चरण क्लाउड सर्वर पर निष्पादित होते हैं। अंतिम ऐप सभी ऐपस्टोर पर अपलोड किया जाएगा।",
+        server_un_available:
+          "प्रायोगिक तौर पर, एप्लिकेशन सर्वर इस समय कनेक्ट नहीं है।",
+        app_building_progress: "आपका ऐप बनाया जा रहा है।",
+        app_build_success: "आपका ऐप तैयार है।",
+        download_app_action: "एप्लिकेशन लें",
+        firmware_version: "फर्मवेयर संस्करण",
+        main_info: "आवेदन पैकेज",
+        package_name_input_message: "सुनिश्चित करें कि पैकेज का नाम अद्वितीय है।",
+        package_name_input_alert:
+          "यदि आप इस नाम को बदलते हैं, तो आप अपने पिछले ऐप्स को AppStore में अपडेट नहीं कर पाएंगे और एक नया इंस्टॉल नहीं कर पाएंगे। ध्यान दें कि पुराने संस्करण ऐप उपयोगकर्ता भी अपने खातों में लॉग इन नहीं कर पाएंगे।",
+        version_input: "संस्करण",
+        version_input_message:
+          "यह संख्या हमेशा अपने पिछले मान से अधिक होनी चाहिए।",
+        version_name_input: "संस्करण का नाम",
+        version_name_input_message:
+          "ऐप्लिकेशन के इस संस्करण के लिए एक अद्वितीय नाम दर्ज करें।",
+        use_selldone_key: "सेलडोन डिफ़ॉल्ट कुंजियाँ",
+        use_last_key: "सहेजी गई कुंजी",
+        use_new_key: "नई कुंजी",
+        appearance: "उपस्थिति",
+        app_name_input: "एप्लिकेशन का नाम",
+        app_name_input_message: "यह आपके ऐप का मुख्य नाम होगा।",
+        app_title_input: "ऐप का शीर्षक",
+        app_title_input_message: "यह शीर्षक ऐप में सबसे ऊपर दिखाई देता है।",
+        app_title_input_placeholder: "एक शीर्षक दर्ज करें",
+        app_icon_input: "ऐप आइकन",
+        app_icon_input_placeholder: "ऐप आइकन की ज़िप फ़ाइल चुनें।",
+        generate_icon_pack_action: "चिह्न पैक बनाएँ",
+        splash_design: "स्पलैश स्क्रीन Desgin",
+        splash_logo_input: "स्पलैश स्क्रीन लोगो",
+        splash_logo_input_placeholder: "स्प्लैश स्क्रीन के लिए एक छवि का चयन करें।",
+        splash_title_input: "स्पलैश स्क्रीन शीर्षक",
+        splash_title_input_placeholder: "स्प्लैश स्क्रीन के लिए एक शीर्षक दर्ज करें",
+        splash_title_input_message:
+          "यह शीर्षक बड़े फ़ॉन्ट आकार में प्रदर्शित होगा।",
+        splash_message_input: "स्पलैश स्क्रीन संदेश",
+        splash_message_input_placeholder: "संदेश ...",
+        splash_message_input_message:
+          "यह संदेश नीचे एक थंबनेल के रूप में प्रदर्शित होगा।",
+
+        dark_theme: "डार्क थीम",
+        light_theme: "हल्का विषय",
+        build: "निर्माण",
+        building_info:
+          "क्लाउड सर्वर पर एप्लिकेशन बनाने में 10 सेकंड से लेकर कई मिनट तक का समय लगता है। कृपया धैर्य रखें। एप्लिकेशन तैयार होने के बाद डाउनलोड फ़ाइल लिंक यहां दिखाई देगा।",
+        update_mode_action: "अपडेट करना",
+        build_mode_action: "ऐप बनाएं",
+        notifications: {
+          icon_pack_not_valid_error: "फाइल सही नहीं है।",
+          start_building_title: "इमारत ...",
+          start_building_message:
+            "Android एप्लिकेशन बनाने के लिए अनुरोध सबमिट किया गया।",
+          build_success_title: "बधाई हो",
+          build_success:
+            "आपका Android ऐप तैयार है, और आप इसे अभी डाउनलोड कर सकते हैं।",
+        },
+      },
+    }, // End of applications
+
+    /** {@see ShopAutomation} **/
+    automation: {
+      menu: {
+        autopilot: "ऑटो-पायलट",
+      },
     },
-    "users": {
-      "menu": {
-        "customers": "ग्राहकों",
-        "contact_form": "संपर्क",
-        "faq": "FAQ",
-        "club": "क्लब",
-        "report": "शिकायत करना"
+
+    /** {@see BPageShopSetting} **/
+    edit: {
+      menu: {
+        delete: "स्टोर हटाएं",
+        activity_time: "समय",
+        footer: "मेन्यू",
+        info: "जानकारी",
+        notification: "सूचनाएं",
+        home: "घर",
+        locations: "स्थानों",
+        license: "लाइसेंस",
+        theme: "थीम",
+        sms: "एसएमएस",
+        email: "ईमेल",
+        domain: "कार्यक्षेत्र",
+        verifications: "सत्यापन",
+        flow: "प्रवाह",
+        business_model: "व्यापार मॉडल",
       },
-      "report": {
-        "title": "ग्राहक अवलोकन",
-        "sub_title": "यहां आपको अपने ग्राहकों का लाइव स्टेटस दिखाई देगा।",
-        "report_30days_by_time": "पिछले 30 दिनों में दिनांक और समय के आधार पर उपयोगकर्ता गतिविधि",
-        "report_30days_by_location": "पिछले 30 दिनों में जियोलोकेशन उपयोगकर्ता गतिविधि"
+      delete_dialog: {
+        title: "स्टोर हटाएं",
+        message: "क्या आप <b>{title}</b> स्टोर हटाना चाहते हैं?",
+        action: "स्टोर हटाएं",
       },
-      "club": {
-        "title": "ग्राहक क्लब",
-        "sub_title": "प्रत्येक स्तर को सक्रिय करने के लिए मासिक और वार्षिक खरीद राशि और मुद्रा दर्ज करें। आपके ग्राहक आपके ग्राहक क्लब में लॉग इन होंगे क्योंकि वे मासिक या वार्षिक खरीद की आवश्यकताओं को पूरा करते हैं।",
-        "item": {
-          "members_count": "सदस्यों की संख्या",
-          "purchases_count": "आदेशों की संख्या",
-          "monthly": "महीने के",
-          "annually": "सालाना",
-          "discount_percent": "छूट की दर",
-          "discount_limit": "छूट की सीमा"
+
+      notifications: {
+        delete_success: "स्टोर हटा दिया गया।",
+      },
+
+      /** {@see BPageShopSettingInfo} **/
+      info: {
+        title_tab: {
+          title: "व्यवसाय का नाम और भाषा",
+          subtitle: "एक सार्वजनिक नाम और डिफ़ॉल्ट भाषा सेट करें।",
         },
-        "edit_dialog": {
-          "title": "ग्राहक स्तर प्रबंधन",
-          "currency_input": "मुद्रा",
-          "currency_input_message": "इस मुद्रा में कुल खरीद की गणना की जाती है।",
-          "free_shipping_input": "मुफ़्त शिपिंग",
-          "monthly_input": "मासिक खरीद दर",
-          "annually_input": "वार्षिक खरीद दर",
-          "discount_percent_input": "क्लब के सदस्यों के लिए छूट दर",
-          "discount_limit_input": "छूट की सीमा",
-          "description_input": "विवरण",
-          "description_input_message": "इस स्तर का संक्षिप्त विवरण दर्ज करें।"
+        name_tab: {
+          title: "दुकान अद्वितीय नाम",
+          subtitle: "यह आपका व्यवसाय उपयोगकर्ता नाम है।",
         },
-        "notifications": {
-          "update_success": "परिवर्तन ग्राहक क्लब पर लागू होते हैं।"
-        }
-      },
-      "faq": {
-        "title": "सामान्यतःपूछे जाने वाले प्रश्न",
-        "sub_title": "अपने ग्राहकों के प्रश्नों को जोड़ें, संपादित करें और उनका उत्तर दें।"
-      }
-    },
-    "marketing": {
-      "menu": {
-        "campaigns": "अभियान",
-        "cross_selling": "क्रॉस बिक्री",
-        "affiliate": "संबद्ध",
-        "emails": "ईमेल",
-        "funnel": "फ़नल"
-      },
-      "campaign": {
-        "name_input_placeholder": "अभियान का नाम",
-        "name_input_message": "अपने अभियान का शीर्षक दर्ज करें।",
-        "create_campaign_action": "नया अभियान बनाएं",
-        "table": {
-          "title": "शीर्षक",
-          "state": "स्थिति",
-          "discount": "छूट",
-          "landing": "लैंडिंग पेज",
-          "start": "शुरू करना",
-          "end": "अंत"
+
+        description_tab: {
+          title: "आपके व्यवसाय की कहानी",
+          subtitle:
+            "अपने व्यवसाय और उसके अद्वितीय मूल्य प्रस्ताव के बारे में लिखें।",
         },
-        "notifications": {
-          "add_success_title": "एक अभियान बनाएं",
-          "add_success": "आपका अभियान बनाया गया था।"
+        contact_tab: {
+          title: "संपर्क और स्थानीय व्यापार",
+          subtitle:
+            "सार्वजनिक संपर्क जानकारी और Google स्थानीय व्यापार सेटअप।",
         },
-        "name_input_name": "अभियान का नाम"
-      }
-    },
-    "categories": {
-      "title": "श्रेणी सूची",
-      "subtitle": "श्रेणियाँ आपके ऑनलाइन स्टोर की प्रमुख विशेषता हैं। हम आपको आधुनिक स्टोरफ्रंट बनाने और अपने ग्राहकों के लिए सही उत्पाद ढूंढना आसान बनाने के लिए इन शक्तिशाली श्रेणीकरण टूल का उपयोग करने के लिए प्रोत्साहित करते हैं।",
-      "menu": {
-        "add_new": "नई श्रेणी जोड़ें",
-        "categories_list": "श्रेणियाँ सूची",
-        "export": "निर्यात श्रेणियां",
-        "import": "आयात श्रेणियां (सीएसवी)"
-      },
-      "graph": {
-        "title": "श्रेणियों का पदानुक्रम",
-        "subtitle": "आप अपने स्टोर की श्रेणियों का पूरा अवलोकन कर सकते हैं और उपयोगकर्ता उन्हें कैसे नेविगेट करते हैं। श्रेणियों की सही व्यवस्था के साथ, आपके ग्राहक जल्दी से उत्पाद ढूंढ सकते हैं और रूपांतरण दर बढ़ जाएगी।",
-        "visits_count": "मुलाकात",
-        "normal": "सरल",
-        "items_count": "वस्तुओ की संख्या",
-        "home": "घर"
-      },
-      "category_widget": {
-        "parent": "माता-पिता",
-        "not_exist": "अस्तित्व में नहीं है",
-        "children": "उपश्रेणियों",
-        "delete_alert": {
-          "title": "चाइल्ड कैटेगरी हटाएं",
-          "message": "क्या आप {title} को {parent_title} सूची से हटाना चाहते हैं?",
-          "action": "मिटाना"
+        image_tab: {
+          title: "प्रतीक चिन्ह",
+          subtitle: "अपने ब्रांड के लिए एक अद्वितीय लोगो चुनें।",
         },
-        "notifications": {
-          "edit_success": "श्रेणी संपादित।"
-        }
-      }
-    },
-    "apps": {
-      "menu": {
-        "app_store": "दुकान",
-        "my_apps": "ऐप्स"
-      },
-      "my_apps": {
-        "title": "सक्रिय ऐप्स स्टोर करें",
-        "subtitle": "अपने व्यावसायिक अनुप्रयोगों को प्रबंधित करें।",
-        "all": "सब"
-      },
-      "store": {
-        "title": "ऐप स्टोर",
-        "subtitle": "अपनी पसंदीदा सेवाओं को अपने व्यवसाय से सुरक्षित रूप से कनेक्ट करें। हम अपने ग्राहकों के अनुरोधों के आधार पर प्लगइन्स और ऐप्स जोड़ते हैं।",
-        "nodata": "कोई प्लगइन नहीं मिला।",
-        "all": "सब",
-        "more": "अधिक"
-      }
-    },
-    "pages": {
-      "menu": {
-        "new_page": "नया पृष्ठ",
-        "contact_us": "संपर्क करें",
-        "privacy": "गोपनीयता",
-        "terms": "शर्तें",
-        "about_us": "हमारे बारे में",
-        "landings": "अवतरण",
-        "popup": "पॉप अप",
-        "static": "स्थिर"
-      }
-    },
-    "permissions": {
-      "menu": {
-        "persons": "कर्मचारी",
-        "roles": "भूमिकाएँ",
-        "api": "API"
-      },
-      "shop_permissions": {
-        "menu": {
-          "users": "कार्मिक सूची",
-          "new_user": "नया स्टाफ जोड़ें",
-          "new_user_message": "वे उपयोगकर्ता जिनके पास इस स्टोर के डैशबोर्ड और प्रबंधन अनुभागों तक पहुंच होगी।",
-          "email_input_placeholder": "ईमेल",
-          "email_input": "उपयोगकर्ता ईमेल पता",
-          "level_input": "पहुंच स्तर",
-          "add_user_action": "स्टाफ जोड़ें"
+        favicon: {
+          title: "फअवइकओन",
+          subtitle:
+            "फअवइकओनस अरए समअलल, इकओनइक छवियाँ तहअत रएपरएसएनत a वएबसइतए इन बरओवसएर तअबस, बओओकमअरकस, अनद मओबइलए अपप इनतएरफअकएस.",
         },
-        "delete_alert": {
-          "title": "पहुंच हटाएं",
-          "message": "क्या आप इस उपयोगकर्ता को हटाना चाहते हैं?",
-          "action": "मिटाना"
+      },
+
+      /** {@see ShopEditMenuFooter} **/
+      badge: {
+        external_title: "बाहरी बैज प्रबंधित करें",
+        external_message:
+          "यहां, आप बैज इमेज का पता और उसका लिंक दर्ज कर सकते हैं। URL किसी स्वीकृत वेबसाइट के होने चाहिए।",
+      },
+      /** {@see BPageShopSettingMenus} **/
+      edit_menu: {
+        title: "मेनू",
+
+        footer: {
+          title: "पाद मेनू",
+          sub_title:
+            "आप यहां अपने स्टोर पेज के निचले मेनू को कॉन्फ़िगर कर सकते हैं। ये मेनू होम पेज, डिज़ाइन किए गए पेज या बाहरी लिंक हो सकते हैं।",
         },
-        "notifications": {
-          "add_success_title": "एक्सेस जोड़ें",
-          "add_success": "नई पहुंच जोड़ी गई।",
-          "delete_success_title": "पहुंच हटाएं",
-          "delete_success": "पहुंच हटाई गई।"
-        }
-      },
-      "shop_api": {
-        "title": "स्टोर एक्सेस कुंजियाँ",
-        "message": "इन कुंजियों का उपयोग आपके सर्वर द्वारा एक्सेस टोकन बनाने के लिए किया जाता है। ध्यान दें कि चाबियाँ गोपनीय हैं और केवल सर्वर पर इस तरह से हैं जो दूसरों को दिखाई नहीं देती हैं।"
-      }
-    },
-    "applications": {
-      "pwa": {
-        "title": "वेब अप्प",
-        "sub_title": "अपना स्टोर वेब ऐप यहां देखें",
-        "message": "नोट: आप iOS ऐप में अपने iPhone और iPad पर अपनी वेबसाइट के स्वागत पृष्ठ को संपादित कर सकते हैं",
-        "ios_app": "आईओएस ऐप"
-      },
-      "ios": {
-        "title": "आईओएस ऐप",
-        "sub_title": "आप जल्द ही अपने स्टोर के लिए आईओएस ऐप बनाने में सक्षम होंगे।",
-        "message": "अधिकतम फ़ाइल आकार: 512 केबी, आप आकार में 1 एमबी तक की फाइलें अपलोड कर सकते हैं, बशर्ते हमारी संपीड़न प्रणाली आकार को 512 केबी तक कम करने में सक्षम हो। अपलोड की गई छवि का बुद्धिमानी से आकार बदला जाएगा।"
-      },
-      "android": {
-        "title": "एंड्रॉइड एप्लिकेशन",
-        "sub_title": "अपना खुद का Android ऐप बनाएं",
-        "message": "इस फॉर्म को भरें और बिल्ड की दबाएं। किसी और चीज की जरूरत नहीं पड़ेगी। आपके ऐप की बिल्ड और साइन प्रक्रिया के सभी चरण क्लाउड सर्वर पर निष्पादित होते हैं। अंतिम ऐप सभी ऐपस्टोर पर अपलोड किया जाएगा।",
-        "server_un_available": "प्रायोगिक तौर पर, एप्लिकेशन सर्वर इस समय कनेक्ट नहीं है।",
-        "app_building_progress": "आपका ऐप बनाया जा रहा है।",
-        "app_build_success": "आपका ऐप तैयार है।",
-        "download_app_action": "एप्लिकेशन लें",
-        "firmware_version": "फर्मवेयर संस्करण",
-        "main_info": "आवेदन पैकेज",
-        "package_name_input_message": "सुनिश्चित करें कि पैकेज का नाम अद्वितीय है।",
-        "package_name_input_alert": "यदि आप इस नाम को बदलते हैं, तो आप अपने पिछले ऐप्स को AppStore में अपडेट नहीं कर पाएंगे और एक नया इंस्टॉल नहीं कर पाएंगे। ध्यान दें कि पुराने संस्करण ऐप उपयोगकर्ता भी अपने खातों में लॉग इन नहीं कर पाएंगे।",
-        "version_input": "संस्करण",
-        "version_input_message": "यह संख्या हमेशा अपने पिछले मान से अधिक होनी चाहिए।",
-        "version_name_input": "संस्करण का नाम",
-        "version_name_input_message": "ऐप्लिकेशन के इस संस्करण के लिए एक अद्वितीय नाम दर्ज करें।",
-        "use_selldone_key": "सेलडोन डिफ़ॉल्ट कुंजियाँ",
-        "use_last_key": "सहेजी गई कुंजी",
-        "use_new_key": "नई कुंजी",
-        "appearance": "उपस्थिति",
-        "app_name_input": "एप्लिकेशन का नाम",
-        "app_name_input_message": "यह आपके ऐप का मुख्य नाम होगा।",
-        "app_title_input": "ऐप का शीर्षक",
-        "app_title_input_message": "यह शीर्षक ऐप में सबसे ऊपर दिखाई देता है।",
-        "app_title_input_placeholder": "एक शीर्षक दर्ज करें",
-        "app_icon_input": "ऐप आइकन",
-        "app_icon_input_placeholder": "ऐप आइकन की ज़िप फ़ाइल चुनें।",
-        "generate_icon_pack_action": "चिह्न पैक बनाएँ",
-        "splash_design": "स्पलैश स्क्रीन Desgin",
-        "splash_logo_input": "स्पलैश स्क्रीन लोगो",
-        "splash_logo_input_placeholder": "स्प्लैश स्क्रीन के लिए एक छवि का चयन करें।",
-        "splash_title_input": "स्पलैश स्क्रीन शीर्षक",
-        "splash_title_input_placeholder": "स्प्लैश स्क्रीन के लिए एक शीर्षक दर्ज करें",
-        "splash_title_input_message": "यह शीर्षक बड़े फ़ॉन्ट आकार में प्रदर्शित होगा।",
-        "splash_message_input": "स्पलैश स्क्रीन संदेश",
-        "splash_message_input_placeholder": "संदेश ...",
-        "splash_message_input_message": "यह संदेश नीचे एक थंबनेल के रूप में प्रदर्शित होगा।",
-        "dark_theme": "डार्क थीम",
-        "light_theme": "हल्का विषय",
-        "build": "निर्माण",
-        "building_info": "क्लाउड सर्वर पर एप्लिकेशन बनाने में 10 सेकंड से लेकर कई मिनट तक का समय लगता है। कृपया धैर्य रखें। एप्लिकेशन तैयार होने के बाद डाउनलोड फ़ाइल लिंक यहां दिखाई देगा।",
-        "update_mode_action": "अपडेट करना",
-        "build_mode_action": "ऐप बनाएं",
-        "notifications": {
-          "icon_pack_not_valid_error": "फाइल सही नहीं है।",
-          "start_building_title": "इमारत ...",
-          "start_building_message": "Android एप्लिकेशन बनाने के लिए अनुरोध सबमिट किया गया।",
-          "build_success_title": "बधाई हो",
-          "build_success": "आपका Android ऐप तैयार है, और आप इसे अभी डाउनलोड कर सकते हैं।"
-        }
-      }
-    },
-    "automation": {
-      "menu": {
-        "autopilot": "ऑटो-पायलट"
-      }
-    },
-    "edit": {
-      "menu": {
-        "delete": "स्टोर हटाएं",
-        "activity_time": "समय",
-        "footer": "मेन्यू",
-        "info": "जानकारी",
-        "notification": "सूचनाएं",
-        "home": "घर",
-        "locations": "स्थानों",
-        "license": "लाइसेंस",
-        "theme": "थीम",
-        "sms": "एसएमएस",
-        "email": "ईमेल",
-        "domain": "कार्यक्षेत्र",
-        "verifications": "सत्यापन",
-        "flow": "प्रवाह",
-        "business_model": "व्यापार मॉडल"
-      },
-      "delete_dialog": {
-        "title": "स्टोर हटाएं",
-        "message": "क्या आप <b>{title}</b> स्टोर हटाना चाहते हैं?",
-        "action": "स्टोर हटाएं"
-      },
-      "notifications": {
-        "delete_success": "स्टोर हटा दिया गया।"
-      },
-      "info": {
-        "title_tab": {
-          "title": "व्यवसाय का नाम और भाषा",
-          "subtitle": "एक सार्वजनिक नाम और डिफ़ॉल्ट भाषा सेट करें।"
+
+        header: {
+          title: "हैडर मेनू",
+          sub_title:
+            "यह मेनू केवल मोबाइल से बड़ी स्क्रीन पर और होम पेज के शीर्ष पर, उत्पाद श्रेणियों, लैंडिंग और उत्पाद पृष्ठों पर प्रदर्शित होता है।",
         },
-        "name_tab": {
-          "title": "दुकान अद्वितीय नाम",
-          "subtitle": "यह आपका व्यवसाय उपयोगकर्ता नाम है।"
+
+        save_menu: "मेनू सहेजें",
+        dialog: {
+          main_pages: "मुख्य पृष्ठ",
+          custom_pages: "लैंडिंग पृष्ठ",
         },
-        "description_tab": {
-          "title": "आपके व्यवसाय की कहानी",
-          "subtitle": "अपने व्यवसाय और उसके अद्वितीय मूल्य प्रस्ताव के बारे में लिखें।"
+        table: {
+          home: "घर",
+          shop: "दुकान",
+          blogs: "ब्लॉग",
+          about_us: "हमारे बारे में",
+          privacy: "गोपनीयता",
+          terms: "उपयोग की शर्तें",
+          faq: "FAQ",
+          contact_us: "संपर्क करें",
         },
-        "contact_tab": {
-          "title": "संपर्क और स्थानीय व्यापार",
-          "subtitle": "सार्वजनिक संपर्क जानकारी और Google स्थानीय व्यापार सेटअप।"
+        notifications: {
+          save_success: "मेनू को सफलतापूर्वक अपडेट कर दिया गया है।",
         },
-        "image_tab": {
-          "title": "प्रतीक चिन्ह",
-          "subtitle": "अपने ब्रांड के लिए एक अद्वितीय लोगो चुनें।"
-        }
       },
-      "badge": {
-        "external_title": "बाहरी बैज प्रबंधित करें",
-        "external_message": "यहां, आप बैज इमेज का पता और उसका लिंक दर्ज कर सकते हैं। URL किसी स्वीकृत वेबसाइट के होने चाहिए।"
+
+      /** {@see ShopSocialField} **/
+      social: {
+        title: "सामाजिक मीडिया",
+        message:
+          "इस अनुभाग में अपना आधिकारिक सोशल मीडिया लिंक दर्ज करें। पतों की पुष्टि करने के लिए प्रत्येक आइटम के लिए निर्देशों का पालन करें।",
       },
-      "edit_menu": {
-        "title": "मेनू",
-        "footer": {
-          "title": "पाद मेनू",
-          "sub_title": "आप यहां अपने स्टोर पेज के निचले मेनू को कॉन्फ़िगर कर सकते हैं। ये मेनू होम पेज, डिज़ाइन किए गए पेज या बाहरी लिंक हो सकते हैं।"
+
+      /** {@see BShopSettingWorkingDays} **/
+      time: {
+        title: "कार्य दिवस",
+        sub_title: "कार्य दिवस और समय निर्धारित करें",
+        days_open_input: "दिन",
+        days_open_input_nodata: "कम से कम एक दिन चुनें",
+        start_time_input: "स्टोर गतिविधि प्रारंभ समय",
+        start_time_input_hint: "स्टोर खुलने का समय",
+        end_time_input: "स्टोर बंद होने का समय",
+        end_time_input_hint: "स्टोर गतिविधि समाप्ति समय",
+        customer_support_service: "जवाबदेही और ग्राहक सेवा",
+        response_time_input: "ग्राहक सेवा स्थिति",
+        support_24h: "सप्ताह में 24 घंटे 7 दिन",
+        support_normal: "केवल कार्यालय समय के दौरान",
+        no_service: "नहीं",
+        notifications: {
+          update_success: "स्टोर संपादित।",
         },
-        "header": {
-          "title": "हैडर मेनू",
-          "sub_title": "यह मेनू केवल मोबाइल से बड़ी स्क्रीन पर और होम पेज के शीर्ष पर, उत्पाद श्रेणियों, लैंडिंग और उत्पाद पृष्ठों पर प्रदर्शित होता है।"
-        },
-        "save_menu": "मेनू सहेजें",
-        "dialog": {
-          "main_pages": "मुख्य पृष्ठ",
-          "custom_pages": "लैंडिंग पृष्ठ"
-        },
-        "table": {
-          "home": "घर",
-          "shop": "दुकान",
-          "blogs": "ब्लॉग",
-          "about_us": "हमारे बारे में",
-          "privacy": "गोपनीयता",
-          "terms": "उपयोग की शर्तें",
-          "faq": "FAQ",
-          "contact_us": "संपर्क करें"
-        },
-        "notifications": {
-          "save_success": "मेनू को सफलतापूर्वक अपडेट कर दिया गया है।"
-        }
       },
-      "social": {
-        "title": "सामाजिक मीडिया",
-        "message": "इस अनुभाग में अपना आधिकारिक सोशल मीडिया लिंक दर्ज करें। पतों की पुष्टि करने के लिए प्रत्येक आइटम के लिए निर्देशों का पालन करें।"
-      },
-      "time": {
-        "title": "कार्य दिवस",
-        "sub_title": "कार्य दिवस और समय निर्धारित करें",
-        "days_open_input": "दिन",
-        "days_open_input_nodata": "कम से कम एक दिन चुनें",
-        "start_time_input": "स्टोर गतिविधि प्रारंभ समय",
-        "start_time_input_hint": "स्टोर खुलने का समय",
-        "end_time_input": "स्टोर बंद होने का समय",
-        "end_time_input_hint": "स्टोर गतिविधि समाप्ति समय",
-        "customer_support_service": "जवाबदेही और ग्राहक सेवा",
-        "response_time_input": "ग्राहक सेवा स्थिति",
-        "support_24h": "सप्ताह में 24 घंटे 7 दिन",
-        "support_normal": "केवल कार्यालय समय के दौरान",
-        "no_service": "नहीं",
-        "notifications": {
-          "update_success": "स्टोर संपादित।"
-        }
-      }
-    }
+    }, // End of edit
+  }, // End of admin_shop
+
+  /** {@see BCategoryInput} **/
+  category_select: {
+    category_input_no_category: "कोई श्रेणी नहीं",
   },
-  "category_select": {
-    "category_input_no_category": "कोई श्रेणी नहीं"
-  },
-  "add_product": {
-    "title_new": "नए उत्पाद",
-    "title_new_category": "नई श्रेणी",
-    "title_new_drop_shipping": "ड्रॉपशीपिंग जोड़ें",
-    "title_edit": "उत्पाद संपादित करें",
-    "delete": "उत्पाद हटाएं",
-    "completed": "पुरा होना।",
-    "menu": {
-      "type": "उत्पाद प्रकार",
-      "general_info": "सामान्य जानकारी",
-      "rating": "सर्वेक्षण और विशेषताएं",
-      "spec": "विशेष विवरण",
-      "images": "चित्रों",
-      "price": "कीमत",
-      "inputs": "इनपुट",
-      "outputs": "उत्पादन",
-      "extra": "अतिरिक्त जानकारिया",
-      "review": "उत्पाद समीक्षा",
-      "inventory": "इन्वेंटरी / वेरिएंट",
-      "change_status": "अवस्था बदलो"
+
+  /** {@see BProductAddFull} **/
+  add_product: {
+    title_new: "नए उत्पाद",
+    title_new_category: "नई श्रेणी",
+    title_new_drop_shipping: "ड्रॉपशीपिंग जोड़ें",
+
+    title_edit: "उत्पाद संपादित करें",
+    delete: "उत्पाद हटाएं",
+    completed: "पुरा होना।",
+
+    menu: {
+      type: "उत्पाद प्रकार",
+      general_info: "सामान्य जानकारी",
+      rating: "सर्वेक्षण और विशेषताएं",
+      spec: "विशेष विवरण",
+      images: "चित्रों",
+      price: "कीमत",
+      inputs: "इनपुट",
+      outputs: "उत्पादन",
+      extra: "अतिरिक्त जानकारिया",
+      review: "उत्पाद समीक्षा",
+      inventory: "इन्वेंटरी / वेरिएंट",
+      change_status: "अवस्था बदलो",
     },
-    "select_type": {
-      "title": "अपना उत्पाद या सेवा प्रकार चुनें"
+    menu_extra: {
+      description: "विवरण",
+      form: "फ़ॉर्म",
+      no_spec: "नओ सपएक",
+      has_spec: "हअस सपएक",
     },
-    "edit_info": {
-      "category_input": "श्रेणी",
-      "product_name": "प्रोडक्ट का नाम*",
-      "product_name_placeholder": "यहां आपके उत्पाद का नाम..",
-      "product_code": "उत्पाद कोड (अंग्रेज़ी)",
-      "sku": {
-        "label": "SKU",
-        "message": "शेयर रखने की इकाई"
-      },
-      "sku_message": "स्टॉक कीपिंग यूनिट",
-      "mpn": {
-        "label": "MPN",
-        "message": "उत्पादक हिस्सा करमार्क"
-      },
-      "mpn_message": "उत्पादक हिस्सा करमार्क",
-      "status": {
-        "title": "स्थिति",
-        "subtitle": "उत्पाद की स्थिति ऑनलाइन और स्टोर में इसकी उपलब्धता निर्धारित करती है। उत्पाद का ड्राफ्ट बनाने के लिए, बस इसकी स्थिति को 'निष्क्रिय' पर स्विच करें।"
-      },
-      "external_link": "बाहरी लिंक",
-      "brand": {
-        "label": "ब्रैंड",
-        "placeholder": "ब्रांड पूर्व. सेब .. (वैकल्पिक)"
-      },
-      "brand_placeholder": "ब्रांड पूर्व. सेब .. (वैकल्पिक)",
-      "warranty": {
-        "subtitle": "वारंटी और उत्पाद की स्थिति निर्धारित करें, क्योंकि वारंटी से संबंधित यह जानकारी ग्राहक को प्रदर्शित की जाएगी और यह समय सीमा निर्धारित करने में मदद करेगी जिसके भीतर खरीद के बाद उत्पाद वापस किया जा सकता है।",
-        "label": "गारंटी",
-        "placeholder": "स्वर्ण 24 महीने की वारंटी.. (वैकल्पिक)"
-      },
-      "is_original": "क्या यह एक मूल उत्पाद है?",
-      "is_original_message": "यदि आप अपने उत्पाद को मूल सेट नहीं करते हैं, तो इस उत्पाद के लिए नकली बैज दिखाया जाएगा।",
-      "return_warranty": "इस उत्पाद की वापसी की गारंटी कितने दिनों में है?",
-      "warehouse_section": "गोदाम और विनिर्माण",
-      "conditions_section": "उत्पाद की स्थिति",
-      "warranty_section": "वारंटी और डिलिवरी",
-      "unit": {
-        "subtitle": "आप उत्पाद पृष्ठ पर मूल्य निर्धारण और कॉल-टू-एक्शन तत्वों के प्रदर्शन को वैयक्तिकृत कर सकते हैं।"
-      },
-      "unit_message": "यदि आवश्यक हो तो इकाई दर्ज करें। उदाहरण: केजी, मीटर,...",
-      "condition": {
-        "label": "आपके स्टोर में उत्पाद की स्थिति",
-        "message": "कृपया इस उत्पाद की स्थिति चुनें।",
-        "subtitle": "अपने ग्राहकों को आपके द्वारा पेश किए जा रहे उत्पाद की स्थिति और ब्रांड के बारे में सूचित करें।"
-      },
-      "condition_message": "आपको इस क्षेत्र में किसी एक मान को चुनना होगा।",
-      "unit_section": "उत्पाद इकाई",
-      "unit_float": "फ्लोट यूनिट (जल्द ही)",
-      "unit_float_hint": "उदाहरण के लिए, ग्राहक 3 किलो फल ऑर्डर कर सकता है, लेकिन ग्राहक को भेजी गई राशि ऑर्डर की गई राशि से थोड़ी अलग है।",
-      "unit_float_message": "ऑर्डर प्रोसेसिंग के दौरान, डिलीवर की गई राशि ऑर्डर की गई राशि से भिन्न हो सकती है। सिस्टम स्वचालित रूप से इस अंतर की गणना करता है और इसे ग्राहक को आपके ऋण के रूप में रिकॉर्ड करता है, जिसे अगले आदेशों पर लागू किया जा सकता है।",
-      "status_list": {
-        "active": {
-          "title": "सक्रिय ╏ ऑनलाइन और ऑफलाइन बिक्री",
-          "description": "यह उत्पाद ऑनलाइन ऑर्डर के लिए उपलब्ध होगा।"
-        },
-        "inactive": {
-          "title": "निष्क्रिय ╏ केवल ऑफलाइन बिक्री",
-          "description": "यह उत्पाद ऑनलाइन ऑर्डर के लिए उपलब्ध नहीं होगा।"
-        }
-      },
-      "marketplace": {
-        "vendor_panel_message": "<b>{vendor_name}</b> उत्पाद का स्वामी है.",
-        "subscription_message": "सदस्यता उत्पादों में एक विक्रेता हो सकता है, इसलिए आप उन्हें विक्रेता पैनल में बना सकते हैं या निर्माण चरण पर उन्हें एक विक्रेता नियुक्त कर सकते हैं। चयनित विक्रेता उत्पाद का स्वामी होगा.",
-        "default_message": "आप निर्दिष्ट कर सकते हैं कि क्या यह उत्पाद एक विक्रेता का है और इसलिए केवल एक विक्रेता ही इसे बेच सकता है, या यह उत्पाद मार्केटप्लेस का है और एक से अधिक विक्रेता इसे बेच सकते हैं।",
-        "single_vendor_title": "एकल विक्रेता",
-        "single_vendor_desc": "यह उत्पाद एक विक्रेता का है, और चयनित विक्रेता इसे प्रबंधित कर सकता है।",
-        "multi_vendors_title": "एकाधिक विक्रेता",
-        "multi_vendors_desc": "यह उत्पाद बाज़ार का है और इसे केवल बाज़ार पैनल में ही संपादित किया जा सकता है।"
-      },
-      "category_input_msg": "खाली: दुकान की जड़ में",
-      "unit_input": "उत्पाद इकाई",
-      "category": {
-        "subtitle": "अपनी सूची में प्रदर्शित की जाने वाली श्रेणी और शीर्षक को कॉन्फ़िगर करें."
-      },
-      "custom_pricing": {
-        "title": "कस्टम मूल्य निर्धारण प्रपत्र",
-        "subtitle": "आप उत्पाद के लिए एक मूल्यांकन (मूल्य निर्धारण इनपुट फॉर्म) बना सकते हैं या निर्दिष्ट कर सकते हैं, और आपके ग्राहक वेरिएंट के बीच चयन कर सकते हैं या एक सहज इनपुट फॉर्म द्वारा आपके माल को अनुकूलित कर सकते हैं।",
-        "valuation_need_saved_product_message": "कृपया पहले उत्पाद को सुरक्षित करें, और फिर आप मूल्यांकन मॉडल निर्दिष्ट कर सकते हैं।",
-        "assign_valuation_message": "कृपया इस उत्पाद को एक मूल्यांकन मॉडल निर्दिष्ट करें।",
-        "edit_pricing_action": "मूल्य निर्धारण प्रपत्र संपादित करें",
-        "add_pricing_action": "नया मूल्य निर्धारण फ़ॉर्म बनाएँ"
-      },
-      "action": {
-        "title": "कस्टम खरीदें बटन",
-        "message": "आप इस पैटर्न का अनुसरण करके आइकन बदल सकते हैं: {icon name} caption...",
-        "placeholder": "कार्रवाई के लिए आह्वान दर्ज करें...",
-        "multi_language_dialog_title": "कस्टम खरीदें बटन कैप्शन"
-      },
-      "warehouse": {
-        "subtitle": "इस जानकारी का उपयोग गोदाम प्रबंधन प्रणाली द्वारा किया जाता है और यह उत्पाद की वैश्विक पहचान करने में सहायक होती है।"
-      },
-      "gtin": {
-        "hint": "समर्थित मान हैं UPC (उत्तरी अमेरिका, 12 अंक), EAN (यूरोप, 13 अंक), JAN (जापान, 8 या 13 अंक), ISBN (पुस्तकें, 13 अंक).",
-        "label": "उत्पाद का वैश्विक व्यापार आइटम नंबर",
-        "placeholder": "वैश्विक व्यापार संख्या यहां.. (वैकल्पिक)"
-      },
-      "hsn": {
-        "hint": "एचएसएन, या सामंजस्यपूर्ण नामकरण प्रणाली, वस्तुओं और उत्पादों को वर्गीकृत करने के लिए एक अंतरराष्ट्रीय स्तर पर मानकीकृत वर्गीकरण प्रणाली है।",
-        "placeholder": "6~16 अंक HSN कोड.. (वैकल्पिक)",
-        "label": "HSN"
-      },
-      "profiles": {
-        "title": "प्रोफाइल",
-        "subtitle": "आप वारंटी, वापसी नीति, शिपिंग और गाइड को परिभाषित कर सकते हैं और उन्हें इस उत्पाद को सौंप सकते हैं। यह उत्पाद पृष्ठ पर नए टैब के रूप में दिखाया जाएगा।"
-      },
-      "shortcuts": {
-        "title": "उत्पाद को अतिरिक्त श्रेणियों में असाइन करें",
-        "subtitle": "यह सुविधा आपको उत्पाद को कई श्रेणियों में सूचीबद्ध करने की अनुमति देती है, जबकि उत्पाद > संपादित करें > श्रेणी के अंतर्गत सेट की गई प्राथमिक श्रेणी में उसका स्थान बनाए रखती है। अनिवार्य रूप से, यह ऑपरेटिंग सिस्टम में 'शॉर्टकट' बनाने के समान कार्य करता है, जिससे उत्पाद को अतिरिक्त निर्दिष्ट श्रेणियों में प्रदर्शित होने में सक्षम बनाया जाता है।"
-      }
+
+    select_type: {
+      title: "अपना उत्पाद या सेवा प्रकार चुनें",
     },
-    "rating_pros_cons": {
-      "title": "सर्वे",
-      "message": "अपने उत्पाद को रेट करने के लिए अपने ग्राहकों के लिए उत्पाद विनिर्देशों की एक सूची दर्ज करें। (अधिकतम 5 आइटम)",
-      "rating_input": "चुनाव",
-      "rating_input_message": "आप पोल में 5 आइटम जोड़ सकते हैं।",
-      "item_unit": "वस्तु",
-      "pros_title": "पेशेवरों",
-      "pros_message": "उत्पाद की विशेषताएं दर्ज करें। (अधिकतम 5 आइटम)",
-      "pros_input_title": "फ़ीचर शीर्षक",
-      "pros_input_value": "फ़ीचर मान",
-      "pros_group": "उत्पाद के पेशेवरों",
-      "pros_group_messages": "उत्पाद की मुख्य विशेषताएं",
-      "cons_title": "दोष",
-      "cons_message": "उत्पाद की कमजोरियों को दर्ज करें। (अधिकतम 5 आइटम)",
-      "cons_input_title": "कमजोरी शीर्षक",
-      "cons_input_value": "कमजोरी मूल्य",
-      "cons_group": "उत्पाद की कमजोरियां",
-      "cons_group_messages": "उत्पाद की मुख्य कमजोरियां",
-      "select_from_list": "सूची से चुनें",
-      "suggestion_rating": [
+
+    /** {@see BProductEditInfo} **/
+    edit_info: {
+      category_input: "श्रेणी",
+      category_input_msg: "खाली: दुकान की जड़ में",
+      product_name: "प्रोडक्ट का नाम*",
+      product_name_placeholder: "यहां आपके उत्पाद का नाम..",
+      product_code: "उत्पाद कोड (अंग्रेज़ी)",
+      sku: {
+        label: "SKU",
+        message: "शेयर रखने की इकाई",
+      },
+      mpn: {
+        label: "MPN",
+        message: "उत्पादक हिस्सा करमार्क",
+      },
+
+      external_link: "बाहरी लिंक",
+
+      brand_placeholder: "ब्रांड पूर्व. सेब .. (वैकल्पिक)",
+
+      is_original: "क्या यह एक मूल उत्पाद है?",
+      is_original_message:
+        "यदि आप अपने उत्पाद को मूल सेट नहीं करते हैं, तो इस उत्पाद के लिए नकली बैज दिखाया जाएगा।",
+      return_warranty:
+        "इस उत्पाद की वापसी की गारंटी कितने दिनों में है?",
+      warehouse_section: "गोदाम और विनिर्माण",
+      conditions_section: "उत्पाद की स्थिति",
+      warranty_section: "वारंटी और डिलिवरी",
+
+      unit_input: "उत्पाद इकाई",
+      unit_message: "यदि आवश्यक हो तो इकाई दर्ज करें। उदाहरण: केजी, मीटर,...",
+
+      unit_section: "उत्पाद इकाई",
+
+      unit_float: "फ्लोट यूनिट (जल्द ही)",
+      unit_float_hint:
+        "उदाहरण के लिए, ग्राहक 3 किलो फल ऑर्डर कर सकता है, लेकिन ग्राहक को भेजी गई राशि ऑर्डर की गई राशि से थोड़ी अलग है।",
+      unit_float_message:
+        "ऑर्डर प्रोसेसिंग के दौरान, डिलीवर की गई राशि ऑर्डर की गई राशि से भिन्न हो सकती है। सिस्टम स्वचालित रूप से इस अंतर की गणना करता है और इसे ग्राहक को आपके ऋण के रूप में रिकॉर्ड करता है, जिसे अगले आदेशों पर लागू किया जा सकता है।",
+
+      marketplace: {
+        // Vendor panel > Fixed mode
+        vendor_panel_message:
+          "<b>{vendor_name}</b> उत्पाद का स्वामी है.",
+        // Marketplace panel > Subscription products
+        subscription_message:
+          "सदस्यता उत्पादों में एक विक्रेता हो सकता है, इसलिए आप उन्हें विक्रेता पैनल में बना सकते हैं या निर्माण चरण पर उन्हें एक विक्रेता नियुक्त कर सकते हैं। चयनित विक्रेता उत्पाद का स्वामी होगा.",
+        default_message:
+          "आप निर्दिष्ट कर सकते हैं कि क्या यह उत्पाद एक विक्रेता का है और इसलिए केवल एक विक्रेता ही इसे बेच सकता है, या यह उत्पाद मार्केटप्लेस का है और एक से अधिक विक्रेता इसे बेच सकते हैं।",
+
+        single_vendor_title: "एकल विक्रेता",
+        single_vendor_desc:
+          "यह उत्पाद एक विक्रेता का है, और चयनित विक्रेता इसे प्रबंधित कर सकता है।",
+
+        multi_vendors_title: "एकाधिक विक्रेता",
+        multi_vendors_desc:
+          "यह उत्पाद बाज़ार का है और इसे केवल बाज़ार पैनल में ही संपादित किया जा सकता है।",
+      },
+
+      category: {
+        subtitle:
+          "अपनी सूची में प्रदर्शित की जाने वाली श्रेणी और शीर्षक को कॉन्फ़िगर करें.",
+      },
+      unit: {
+        subtitle:
+          "आप उत्पाद पृष्ठ पर मूल्य निर्धारण और कॉल-टू-एक्शन तत्वों के प्रदर्शन को वैयक्तिकृत कर सकते हैं।",
+      },
+      custom_pricing: {
+        title: "कस्टम मूल्य निर्धारण प्रपत्र",
+        subtitle:
+          "आप उत्पाद के लिए एक मूल्यांकन (मूल्य निर्धारण इनपुट फॉर्म) बना सकते हैं या निर्दिष्ट कर सकते हैं, और आपके ग्राहक वेरिएंट के बीच चयन कर सकते हैं या एक सहज इनपुट फॉर्म द्वारा आपके माल को अनुकूलित कर सकते हैं।",
+        valuation_need_saved_product_message:
+          "कृपया पहले उत्पाद को सुरक्षित करें, और फिर आप मूल्यांकन मॉडल निर्दिष्ट कर सकते हैं।",
+        assign_valuation_message:
+          "कृपया इस उत्पाद को एक मूल्यांकन मॉडल निर्दिष्ट करें।",
+        edit_pricing_action: "मूल्य निर्धारण प्रपत्र संपादित करें",
+        add_pricing_action: "नया मूल्य निर्धारण फ़ॉर्म बनाएँ",
+      },
+      action: {
+        title: "कस्टम खरीदें बटन",
+        message:
+          "आप इस पैटर्न का अनुसरण करके आइकन बदल सकते हैं: {icon name} caption...",
+        placeholder: "कार्रवाई के लिए आह्वान दर्ज करें...",
+        multi_language_dialog_title: "कस्टम खरीदें बटन कैप्शन",
+      },
+      external: {
+        not_available_message:
+          "अतिरिक्त कार्रवाई उपलब्ध वइतह कओमपअनय & एनतएरपरइसए लइकएनसएस.",
+        available_message: "यओउ कअन जोड़ें अन अतिरिक्त एक्सतएरनअल कअलल तओ कार्रवाई.",
+        input_label: "दूसरा कॉल टू एक्शन",
+      },
+      warehouse: {
+        subtitle:
+          "इस जानकारी का उपयोग गोदाम प्रबंधन प्रणाली द्वारा किया जाता है और यह उत्पाद की वैश्विक पहचान करने में सहायक होती है।",
+      },
+      gtin: {
+        hint: "समर्थित मान हैं UPC (उत्तरी अमेरिका, 12 अंक), EAN (यूरोप, 13 अंक), JAN (जापान, 8 या 13 अंक), ISBN (पुस्तकें, 13 अंक).",
+        label: "उत्पाद का वैश्विक व्यापार आइटम नंबर",
+        placeholder: "वैश्विक व्यापार संख्या यहां.. (वैकल्पिक)",
+      },
+      hsn: {
+        hint: "एचएसएन, या सामंजस्यपूर्ण नामकरण प्रणाली, वस्तुओं और उत्पादों को वर्गीकृत करने के लिए एक अंतरराष्ट्रीय स्तर पर मानकीकृत वर्गीकरण प्रणाली है।",
+        placeholder: "6~16 अंक HSN कोड.. (वैकल्पिक)",
+        label: "HSN",
+      },
+      condition: {
+        label: "आपके स्टोर में उत्पाद की स्थिति",
+        message: "कृपया इस उत्पाद की स्थिति चुनें।",
+        subtitle:
+          "अपने ग्राहकों को आपके द्वारा पेश किए जा रहे उत्पाद की स्थिति और ब्रांड के बारे में सूचित करें।",
+      },
+      brand: {
+        label: "ब्रैंड",
+        placeholder: "ब्रांड पूर्व. सेब .. (वैकल्पिक)",
+      },
+      warranty: {
+        subtitle:
+          "वारंटी और उत्पाद की स्थिति निर्धारित करें, क्योंकि वारंटी से संबंधित यह जानकारी ग्राहक को प्रदर्शित की जाएगी और यह समय सीमा निर्धारित करने में मदद करेगी जिसके भीतर खरीद के बाद उत्पाद वापस किया जा सकता है।",
+
+        label: "गारंटी",
+        placeholder: "स्वर्ण 24 महीने की वारंटी.. (वैकल्पिक)",
+      },
+      status: {
+        title: "स्थिति",
+        subtitle:
+          "उत्पाद की स्थिति ऑनलाइन और स्टोर में इसकी उपलब्धता निर्धारित करती है। उत्पाद का ड्राफ्ट बनाने के लिए, बस इसकी स्थिति को 'निष्क्रिय' पर स्विच करें।",
+      },
+      profiles: {
+        title: "प्रोफाइल",
+        subtitle:
+          "आप वारंटी, वापसी नीति, शिपिंग और गाइड को परिभाषित कर सकते हैं और उन्हें इस उत्पाद को सौंप सकते हैं। यह उत्पाद पृष्ठ पर नए टैब के रूप में दिखाया जाएगा।",
+      },
+      shortcuts: {
+        title: "उत्पाद को अतिरिक्त श्रेणियों में असाइन करें",
+        subtitle:
+          "यह सुविधा आपको उत्पाद को कई श्रेणियों में सूचीबद्ध करने की अनुमति देती है, जबकि उत्पाद > संपादित करें > श्रेणी के अंतर्गत सेट की गई प्राथमिक श्रेणी में उसका स्थान बनाए रखती है। अनिवार्य रूप से, यह ऑपरेटिंग सिस्टम में 'शॉर्टकट' बनाने के समान कार्य करता है, जिससे उत्पाद को अतिरिक्त निर्दिष्ट श्रेणियों में प्रदर्शित होने में सक्षम बनाया जाता है।",
+      },
+    },
+
+    /** {@see BProductEditFeatures} **/
+    rating_pros_cons: {
+      title: "सर्वे",
+      message:
+        "अपने उत्पाद को रेट करने के लिए अपने ग्राहकों के लिए उत्पाद विनिर्देशों की एक सूची दर्ज करें। (अधिकतम 5 आइटम)",
+      rating_input: "चुनाव",
+      rating_input_message: "आप पोल में 5 आइटम जोड़ सकते हैं।",
+      rating_input_placeholder:
+        "अपना कस्टम सर्वेक्षण प्रश्न यहां लिखें... और एंटर दबाएं!",
+
+      item_unit: "वस्तु",
+
+      pros_title: "पेशेवरों",
+      pros_message: "उत्पाद की विशेषताएं दर्ज करें। (अधिकतम 5 आइटम)",
+      pros_input_title: "फ़ीचर शीर्षक",
+      pros_input_value: "फ़ीचर मान",
+      pros_group: "उत्पाद के पेशेवरों",
+
+      cons_title: "दोष",
+      cons_message: "उत्पाद की कमजोरियों को दर्ज करें। (अधिकतम 5 आइटम)",
+      cons_input_title: "कमजोरी शीर्षक",
+      cons_input_value: "कमजोरी मूल्य",
+      cons_group: "उत्पाद की कमजोरियां",
+
+      select_from_list: "सूची से चुनें",
+
+      suggestion_rating: [
         "अच्छी गुणवत्ता",
         "अच्छा कीमत",
         "सिफारिश करूँगा",
@@ -1274,1410 +1616,2399 @@ export default {
         "स्पेयर पार्ट्स/एक्सेसरीज़ की उपलब्धता",
         "भरोसेमंद ब्रांड",
         "उपयोग करने में सुरक्षित",
-        "शीघ्र एवं सटीक सेवा"
+        "शीघ्र एवं सटीक सेवा",
       ],
-      "notifications": {
-        "add_rating_success": "उपयोगकर्ता-रेटिंग {rating_name} विकल्प जोड़ा गया।",
-        "delete_rating_success": "उपयोगकर्ता-रेटिंग {rating_name} विकल्प हटाया गया।",
-        "add_pros_success": "उत्पाद सुविधा जोड़ा गया।",
-        "delete_pros_success": "उत्पाद सुविधा हटा दी गई।",
-        "add_cons_success": "उत्पाद की कमजोरी गयी।",
-        "delete_cons_success": "उत्पाद की कमजोरी दूर हो गई।"
+
+      notifications: {
+        add_rating_success: "उपयोगकर्ता-रेटिंग {rating_name} विकल्प जोड़ा गया।",
+        delete_rating_success: "उपयोगकर्ता-रेटिंग {rating_name} विकल्प हटाया गया।",
+
+        add_pros_success: "उत्पाद सुविधा जोड़ा गया।",
+        delete_pros_success: "उत्पाद सुविधा हटा दी गई।",
+
+        add_cons_success: "उत्पाद की कमजोरी गयी।",
+        delete_cons_success: "उत्पाद की कमजोरी दूर हो गई।",
       },
-      "rating_input_placeholder": "अपना कस्टम सर्वेक्षण प्रश्न यहां लिखें... और एंटर दबाएं!"
     },
-    "edit_spec": {
-      "title": "तकनीकी निर्देश",
-      "sub_title": "आप समान उत्पादों के तकनीकी secifications आयात कर सकते हैं।",
-      "import_action": "आयात",
-      "group_input_header": "समूह जोड़ें",
-      "item_title_header": "सामान जोडें",
-      "group_input": "ग्रुप हेडर",
-      "group_input_message": "शीर्षक दर्ज करें।",
-      "group_add_action": "समूह जोड़ें",
-      "item_title_input": "शीर्षक",
-      "item_title_input_message": "सुविधा शीर्षक दर्ज करें।",
-      "item_value_input": "मूल्य",
-      "item_value_input_message": "विशेषता मान दर्ज करें।",
-      "add_item_action": "सामान जोडें",
-      "dialog": {
-        "title": "तकनीकी विनिर्देश दर्ज करें",
-        "code_input": "उत्पाद आयडी",
-        "code_input_message": "उत्पाद कोड: P0000...",
-        "spec_view_title": "चयनित उत्पाद के निर्दिष्टीकरण",
-        "set_spec_action": "डुप्लिकेट तकनीकी विनिर्देश",
-        "spec_view_subtitle": "विनिर्देशों को चुने गए उत्पाद से आयात किया गया है।"
+
+    /** {@see BProductEditSpec} **/
+    edit_spec: {
+      title: "तकनीकी निर्देश",
+      subtitle:
+        "यहाँ उत्पाद विनिर्देश डालें। यह जानकारी ग्राहकों को दिखाई जाएगी और इसका उपयोग श्रेणी की बुद्धिमान फ़िल्टरिंग प्रणाली में भी किया जा सकता है।",
+      manual: {
+        title: "मैन्युअल",
+        subtitle:
+          "समूह और कुंजी-मान युग्म को परिभाषित करके मैन्युअल रूप से उत्पाद विनिर्देश जोड़ें।",
+        add_group_action: "समूह जोड़ें",
+        add_item_action: "स्पेक वैल्यू जोड़ें",
       },
-      "notifications": {
-        "enter_group_title_error": "शीर्षक मान दर्ज करें",
-        "enter_item_title_and_value_error": "सुविधा का शीर्षक और मूल्य दर्ज करें",
-        "spec_saved_success": "उत्पाद विनिर्देश सहेजे गए।"
+      import: {
+        subtitle:
+          "आप समान उत्पादों की तकनीकी विशिष्टताओं को आयात कर सकते हैं।",
+        action_title: "आयात",
+        action_subtitle: "किसी अन्य उत्पाद से क्लोन विनिर्देश।",
       },
-      "subtitle": "यहाँ उत्पाद विनिर्देश डालें। यह जानकारी ग्राहकों को दिखाई जाएगी और इसका उपयोग श्रेणी की बुद्धिमान फ़िल्टरिंग प्रणाली में भी किया जा सकता है।",
-      "manual": {
-        "title": "मैन्युअल",
-        "subtitle": "समूह और कुंजी-मान युग्म को परिभाषित करके मैन्युअल रूप से उत्पाद विनिर्देश जोड़ें।",
-        "add_group_action": "समूह जोड़ें",
-        "add_item_action": "स्पेक वैल्यू जोड़ें"
+      ai: {
+        title: "AI",
+        subtitle:
+          "आप उत्पाद के कच्चे डेटा को पाठ्य रूप में प्रस्तुत करके स्वचालित रूप से उत्पाद विनिर्देश बना सकते हैं।",
+        action_title: "AI द्वारा स्वचालित रूप से उत्पन्न",
+        action_subtitle: "सार प्रॉम्प्ट द्वारा उत्पाद विनिर्देश बनाएं.",
       },
-      "import": {
-        "subtitle": "आप समान उत्पादों की तकनीकी विशिष्टताओं को आयात कर सकते हैं।",
-        "action_title": "आयात",
-        "action_subtitle": "किसी अन्य उत्पाद से क्लोन विनिर्देश।"
+
+      group_input_header: "समूह जोड़ें",
+      item_title_header: "सामान जोडें",
+      group_input: "ग्रुप हेडर",
+      group_input_message: "शीर्षक दर्ज करें।",
+      group_add_action: "समूह जोड़ें",
+
+      item_title_input: "शीर्षक",
+      item_title_input_message: "सुविधा शीर्षक दर्ज करें।",
+
+      item_value_input: "मूल्य",
+      item_value_input_message: "विशेषता मान दर्ज करें।",
+
+      add_item_action: "सामान जोडें",
+
+      dialog: {
+        title: "तकनीकी विनिर्देश दर्ज करें",
+        code_input: "उत्पाद आयडी",
+        code_input_message: "उत्पाद कोड: P0000...",
+        spec_view_title: "चयनित उत्पाद के निर्दिष्टीकरण",
+        spec_view_subtitle:
+          "विनिर्देशों को चुने गए उत्पाद से आयात किया गया है।",
+        set_spec_action: "डुप्लिकेट तकनीकी विनिर्देश",
       },
-      "ai": {
-        "title": "AI",
-        "subtitle": "आप उत्पाद के कच्चे डेटा को पाठ्य रूप में प्रस्तुत करके स्वचालित रूप से उत्पाद विनिर्देश बना सकते हैं।",
-        "action_title": "AI द्वारा स्वचालित रूप से उत्पन्न",
-        "action_subtitle": "सार प्रॉम्प्ट द्वारा उत्पाद विनिर्देश बनाएं."
+      notifications: {
+        enter_group_title_error: "शीर्षक मान दर्ज करें",
+        enter_item_title_and_value_error:
+          "सुविधा का शीर्षक और मूल्य दर्ज करें",
+        spec_saved_success: "उत्पाद विनिर्देश सहेजे गए।",
       },
-      "dialog_ai": {
-        "title": "स्वचालित रूप से उत्पाद विनिर्देश उत्पन्न करें",
-        "prompt": {
-          "title": "उत्पाद अवलोकन",
-          "subtitle": "कृपया उत्पाद का संक्षिप्त और स्पष्ट विवरण प्रदान करें, जिसमें इसकी मुख्य विशेषताएं और विवरण शामिल हों। इस जानकारी का उपयोग स्वचालित रूप से उत्पाद विनिर्देशों को तैयार करने के लिए किया जाएगा।"
+      dialog_ai: {
+        title: "स्वचालित रूप से उत्पाद विनिर्देश उत्पन्न करें",
+        prompt: {
+          title: "उत्पाद अवलोकन",
+          subtitle:
+            "कृपया उत्पाद का संक्षिप्त और स्पष्ट विवरण प्रदान करें, जिसमें इसकी मुख्य विशेषताएं और विवरण शामिल हों। इस जानकारी का उपयोग स्वचालित रूप से उत्पाद विनिर्देशों को तैयार करने के लिए किया जाएगा।",
         },
-        "generated_spec": {
-          "title": "AI-जनरेटेड विनिर्देश",
-          "subtitle": "ये विनिर्देशन कृत्रिम बुद्धि द्वारा उत्पन्न किये गये थे।"
+        generated_spec: {
+          title: "AI-जनरेटेड विनिर्देश",
+          subtitle:
+            "ये विनिर्देशन कृत्रिम बुद्धि द्वारा उत्पन्न किये गये थे।",
         },
-        "inputs": {
-          "prompt": {
-            "label": "उत्पाद विवरण",
-            "placeholder": "उत्पाद का वर्णन यहां करें..."
-          }
-        },
-        "actions": {
-          "run": {
-            "title": "विनिर्देश उत्पन्न करें",
-            "subtitle": "उपलब्ध अवलोकन से स्वचालित रूप से उत्पाद विनिर्देश बनाने के लिए क्लिक करें।"
+        inputs: {
+          prompt: {
+            label: "उत्पाद विवरण",
+            placeholder: "उत्पाद का वर्णन यहां करें...",
           },
-          "add_generated_spec": "उत्पन्न विनिर्देश जोड़ें"
-        }
-      }
-    },
-    "edit_images": {
-      "title": "मुख्य छवि",
-      "main_image_input_nodata": "उत्पाद छवि अपलोड करें।",
-      "main_image_input_message": "यह छवि उत्पाद सूची में प्रदर्शित होती है।",
-      "preview": "पूर्वावलोकन",
-      "image_style": "छवि शैली",
-      "background_is_white": "सफेद पृष्ठभूमि",
-      "background_is_white_msg": "क्या छवि में सफेद पृष्ठभूमि है ??",
-      "images": {
-        "title": "उत्पाद छवियाँ गैलरी",
-        "sub_title": "इस अनुभाग में, सभी उत्पाद प्रकारों के लिए सामान्य उत्पाद छवियां अपलोड करें।"
-      },
-      "video": {
-        "title": "वीडियो",
-        "sub_title": "सबसे पहले, अपना उत्पाद वीडियो Youtube पर अपलोड करें, और फिर यहां वीडियो URL डालें।"
-      },
-      "change_bg_ai": {
-        "title": "नई पृष्ठभूमि के साथ छवि बनाएँ",
-        "inputs": {
-          "prompt": {
-            "label": "पृष्ठभूमि विवरण",
-            "placeholder": "वांछित पृष्ठभूमि का वर्णन करें..."
-          }
         },
-        "actions": {
-          "reimagine": {
-            "title": "नई छवि उत्पन्न करें",
-            "subtitle": "संपूर्ण छवि को नई पृष्ठभूमि के साथ पुनःकल्पित करें।"
+        actions: {
+          run: {
+            title: "विनिर्देश उत्पन्न करें",
+            subtitle:
+              "उपलब्ध अवलोकन से स्वचालित रूप से उत्पाद विनिर्देश बनाने के लिए क्लिक करें।",
           },
-          "replace": {
-            "subtitle": "मौजूदा पृष्ठभूमि को बदलें."
-          }
-        }
-      }
-    },
-    "pricing": {
-      "edit_price": "मूल्य निर्धारण",
-      "price_input": "कीमत",
-      "currency_input": "मुद्रा",
-      "currency_input_messages": "इस मुद्रा में मूल्य की गणना की जाती है।",
-      "commission_input": "आयोग",
-      "commission_message": "यह विकल्प केवल विशेष प्रकार के व्यापारियों जैसे थोक विक्रेताओं के लिए उपयोगी है। यदि आप थोक व्यापारी नहीं हैं, तो इस विकल्प को खाली छोड़ दें। खरीदार जो कीमत देखते हैं वह कीमत और कमीशन का योग है। टैक्स जोड़ने के लिए अकाउंटिंग > टैक्स पर क्लिक करें।",
-      "add_commission_action": "कमीशन जोड़ें",
-      "discount_input": "छूट",
-      "discount_input_message": "छूट की दर",
-      "has_discount_period_input": "क्या यह छूट एक विशिष्ट समय के लिए मान्य है?",
-      "discount_timespan": "छूट की अवधि दर्ज करें।",
-      "start_input": "शुरू करना",
-      "end_input": "अंत",
-      "start_input_placeholder": "प्रारंभ समय चुनें",
-      "end_input_placeholder": "समाप्ति समय चुनें",
-      "independent_price": "केवल इस वेरिएंट की कीमत",
-      "same_price": "मुख्य उत्पाद की कीमत",
-      "variant_pricing_message": "इस विकल्प का चयन करके, इस संस्करण की कीमत मुख्य उत्पाद से स्वतंत्र रूप से निर्धारित की जा सकती है।",
-      "price_label_input": "मूल्य चिप्पी",
-      "price_label_message": "कीमत के बारे में अतिरिक्त जानकारी जोड़ें जैसे ($1.5/Fl Oz)। उपयोग के मामले: किराना, एफएमसीजी।",
-      "add_price_label_action": "मूल्य लेबल जोड़ें",
-      "subtitle": {
-        "marketplace": "बाज़ार में, प्रदर्शित प्राथमिक उत्पाद मूल्य सूचीकरण मूल्य होता है, जबकि वास्तविक मूल्य विक्रेता-उत्पाद संबंध रिकॉर्ड के आधार पर निर्धारित किया जाता है।",
-        "subscription": "सदस्यता के लिए, केवल सूचीबद्ध मूल्य प्रदर्शित किया जाता है, जबकि वास्तविक लागत चयनित सदस्यता योजना के आधार पर निर्धारित की जाएगी।",
-        "service": "सेवा-आधारित उत्पादों के लिए, सूचीबद्ध मूल्य निर्धारण केवल प्रदर्शन उद्देश्यों के लिए है, जो सेवा की अनुमानित लागत प्रदान करता है। ग्राहक द्वारा अपना ऑर्डर देने के बाद (चेकआउट पर) वास्तविक सेवा मूल्य आपके द्वारा निर्धारित किया जाएगा।",
-        "file": "यह फ़ाइल की सूचीबद्ध और वास्तविक कीमत को संदर्भित करता है, जिसे ग्राहकों को फ़ाइलों तक पहुंच प्राप्त करने के लिए भुगतान करना होगा।",
-        "default": "यह उत्पाद की सूचीबद्ध कीमत को संदर्भित करता है तथा उन सभी प्रकारों की कीमत को भी ध्यान में रखता है जिनकी अलग से कीमत नहीं होती।"
-      },
-      "extra_pricings": {
-        "title": "अतिरिक्त मूल्य निर्धारण जोड़ें",
-        "subtitle": "खरीदी गई मात्रा के आधार पर अलग-अलग कीमतें लागू करें।"
-      },
-      "vendor": {
-        "title": "विक्रेता मूल्य निर्धारण",
-        "subtitle": "यह कीमत केवल उत्पाद सूची में दिखाई जाएगी। आप उत्पाद > विक्रेता टैब में विक्रेता मूल्य निर्धारित कर सकते हैं।",
-        "manage_vendors": "विक्रेताओं का प्रबंधन करें",
-        "vendor_product_pricing_link": "विक्रेता के उत्पाद का मूल्य निर्धारण जुड़ा हुआ है। यहां लिस्टिंग मूल्य बदलने से विक्रेता के उत्पाद बिना वेरिएंट के या वेरिएंट वाले ऐसे उत्पाद प्रभावित होंगे जिनकी अपनी कीमत नहीं है (मुख्य उत्पाद के समान मूल्य का उपयोग करके)। इस मूल्य को मार्केटप्लेस मूल्य के रूप में माना जाएगा, और विक्रेता का मूल्य मूल्य निर्धारण मॉडल या पिछले मार्केटप्लेस लाभ मार्जिन के आधार पर निर्धारित किया जाएगा।",
-        "vendor_variant_pricing_link": "यहाँ वैरिएंट मूल्य बदलने से उसी वैरिएंट वाले विक्रेता उत्पादों के मूल्य निर्धारण पर असर पड़ेगा। इस मूल्य को मार्केटप्लेस मूल्य माना जाएगा, और विक्रेता का मूल्य मूल्य निर्धारण मॉडल या पिछले मार्केटप्लेस लाभ मार्जिन के अनुसार निर्धारित किया जाएगा।"
-      }
-    },
-    "inputs_edit": {
-      "title": "खरीदार की जानकारी का इनपुट फॉर्म",
-      "sub_title": "आप प्रत्येक उत्पाद के लिए डेटा प्रविष्टि फ़ॉर्म बना सकते हैं, इसलिए खरीदार उत्पाद खरीदते समय आपको जानकारी भेजते हैं। उदाहरण के लिए, यह जानकारी किसी पत्थर पर उत्कीर्णन का नाम हो सकती है।",
-      "message_input": "उपयोगकर्ता को संदेश",
-      "message_input_message": "उत्पाद खरीदते समय यह संदेश ग्राहक को दिखाया जाएगा।",
-      "inputs_form": "सूचना संरचना (इनपुट)",
-      "inputs_hint": "जब आपके ग्राहक ऑर्डर देने के लिए तैयार हों, तो उनसे विवरण एकत्र करने के लिए आपके पास एक वैयक्तिकृत फ़ॉर्म सेट अप करने का विकल्प होता है।"
-    },
-    "extra_edit": {
-      "physical": {
-        "title": "शिपिंग सूचना",
-        "sub_title": "तैयारी की लागत और समय की गणना इस खंड में दी गई जानकारी के आधार पर की जाती है। स्टोर में चयनित इकाइयों (वजन, आयाम, दूरी) के अनुसार जानकारी दर्ज करना सुनिश्चित करें।"
-      },
-      "notifications": {
-        "save_title": "पैकेजिंग अपडेट किया गया",
-        "save_msg": "उत्पाद पैकेजिंग जानकारी सफलतापूर्वक अपडेट की गई।"
-      },
-      "order_limit": {
-        "title": "ऑर्डर सीमाएँ",
-        "subtitle": "यदि आप थोक विक्रेता हैं या प्रति ऑर्डर इस आइटम की मात्रा की कोई न्यूनतम या अधिकतम सीमा है, तो आप उसे यहां निर्दिष्ट कर सकते हैं।",
-        "no_limit": "कोई सीमा नहीं",
-        "minimum_purchase_quantity": "न्यूनतम खरीद मात्रा",
-        "maximum_purchase_quantity": "अधिकतम खरीद मात्रा"
-      }
-    },
-    "variants": {
-      "not_available": "वर्तमान में इस प्रकार के उत्पाद के लिए एक प्रकार का चयन करना संभव नहीं है।"
-    },
-    "delete_product": {
-      "title": "उत्पाद निकालें",
-      "message": "क्या आप <b>{product_title}</b> मिटाना चाहते हैं?",
-      "tips": "यदि आप गलती से कोई उत्पाद हटा देते हैं, तो आप अपनी दुकान > उत्पाद पर जाकर, हटाए गए आइटम दिखाएं को सक्षम करके, और फिर उत्पाद पर राइट-क्लिक करके, और पुनर्स्थापित का चयन करके उसे पुनः प्राप्त कर सकते हैं।"
-    }
-  },
-  "product_admin": {
-    "products_list": "उत्पादों की सूची",
-    "product": "उत्पाद",
-    "menu": {
-      "edit": "संपादन करना",
-      "review": "समीक्षा",
-      "orders": "आदेश",
-      "inventory": "भंडार",
-      "dashboard": "डैशबोर्ड",
-      "back_to_products": "उत्पादों",
-      "drop_shipping": "जहाज को डुबोना"
-    },
-    "dashboard": {
-      "info": {
-        "title": "प्रोफ़ाइल",
-        "title_small": "उत्पाद",
-        "category": "उत्पाद श्रेणी",
-        "link": "उत्पाद लिंक",
-        "type": "प्रकार",
-        "inputs": "इनपुट जानकारी",
-        "outputs": "आउटपुट जानकारी",
-        "user_data_form": "क्रेता सूचना प्रपत्र",
-        "staff_messages": "स्टाफ संदेश",
-        "add_note": "नोट जोड़े",
-        "product_tags": "उत्पाद टैग",
-        "edit_tags": "जोड़ संपादित करें"
-      },
-      "orders": {
-        "title": "आदेश",
-        "title_small": "असंसाधित",
-        "physical_orders_title": "इस उत्पाद के साथ शॉपिंग कार्ट",
-        "send_30days_title": "पिछले 30 दिनों में शिप किए गए ऑर्डर",
-        "downloads_30days_title": "पिछले 30 दिनों में फ़ाइल डाउनलोड किया गया नंबर",
-        "virtual_orders_title": "इस उत्पाद के आदेश पूर्ण होने की प्रतीक्षा कर रहे हैं",
-        "send_count_in_period": "{start} ~ {end} के बीच भेजे गए ऑर्डर",
-        "downloads_count_in_period": "डाउनलोड की गई फ़ाइलों की संख्या {start} ~ {end} के बीच"
-      },
-      "inventory": {
-        "title": "भंडार",
-        "title_small": "गोदाम",
-        "total_sell": "कुल बिक्री",
-        "total_sell_today": "आज बिक्री",
-        "total_sell_30days": "पिछले 4 दिनों की बिक्री",
-        "chart": {
-          "labels": [
-            "भंडार",
-            "बिक्री"
-          ]
+          add_generated_spec: "उत्पन्न विनिर्देश जोड़ें",
         },
-        "subscribers_title": "ग्राहकों",
-        "subscribers_title_small": "कुल सब्सक्राइब्ड ऑर्डर",
-        "total_sell_timespan": "{start} ~ {end} के बीच कुल बिक्री"
       },
-      "finance": {
-        "title": "वित्तीय",
-        "title_small": "पिछले 6 महीने की खरीद रिपोर्ट",
-        "select_mode_title": "द्वारा दिखाएँ",
-        "modes": {
-          "sell": "बिक्री",
-          "payment": "भुगतान",
-          "discount": "छूट"
+    },
+    /** {@see BProductEditImages} **/
+    edit_images: {
+      title: "मुख्य छवि",
+      main_image_input_nodata: "उत्पाद छवि अपलोड करें।",
+      main_image_input_message: "यह छवि उत्पाद सूची में प्रदर्शित होती है।",
+      preview: "पूर्वावलोकन",
+      image_style: "छवि शैली",
+      background_is_white: "सफेद पृष्ठभूमि",
+      background_is_white_msg: "क्या छवि में सफेद पृष्ठभूमि है ??",
+
+      images: {
+        title: "उत्पाद छवियाँ गैलरी",
+        sub_title:
+          "इस अनुभाग में, सभी उत्पाद प्रकारों के लिए सामान्य उत्पाद छवियां अपलोड करें।",
+      },
+      video: {
+        title: "वीडियो",
+        sub_title:
+          "सबसे पहले, अपना उत्पाद वीडियो Youtube पर अपलोड करें, और फिर यहां वीडियो URL डालें।",
+      },
+      change_bg_ai: {
+        title: "नई पृष्ठभूमि के साथ छवि बनाएँ",
+        inputs: {
+          prompt: {
+            label: "पृष्ठभूमि विवरण",
+            placeholder: "वांछित पृष्ठभूमि का वर्णन करें...",
+          },
         },
-        "currency_select_title": "चयनित मुद्रा के अनुसार मूल्य",
-        "sell_today": "आज बिक्री",
-        "product_price": "उत्पाद की कीमत",
-        "currency_unit": "मुद्रा इकाई",
-        "sell_30days": "30 दिन की बिक्री",
-        "sell_daily": "दैनिक विक्रय",
-        "sell_yesterday": "कल की बिक्री"
-      },
-      "survey": {
-        "title": "उत्पाद रेटिंग",
-        "title_small": "ग्राहक संतुष्टि रिपोर्ट",
-        "total_participation": "योगदान की कुल संख्या",
-        "today_participation": "आज की रेटिंग",
-        "last7days_participation": "पिछले 7 दिनों का योगदान",
-        "chart": {
-          "participate": "भाग लेना",
-          "participate_title": "योगदान की संख्या",
-          "score": "अंक"
+        actions: {
+          reimagine: {
+            title: "नई छवि उत्पन्न करें",
+            subtitle: "संपूर्ण छवि को नई पृष्ठभूमि के साथ पुनःकल्पित करें।",
+          },
+          replace: {
+            subtitle: "मौजूदा पृष्ठभूमि को बदलें.",
+          },
         },
-        "total_participation_tooltip": "उत्पाद के मूल्यांकनकर्ताओं की कुल संख्या.",
-        "users_not_rated_msg": "उपयोगकर्ताओं ने अभी तक इस उत्पाद को रेटिंग नहीं दी है."
       },
-      "inform": {
-        "title": "ग्राहकों की उम्मीदें",
-        "title_small": "छूट या उपलब्धता की प्रतीक्षा में",
-        "message": "उत्पादों के बिक्री पर जाने या उपलब्ध होने पर ग्राहकों को सूचित करें",
-        "waiting_for_auction": "उत्पादों की बिक्री की प्रतीक्षा में",
-        "waiting_for_available": "उत्पादों के उपलब्ध होने की प्रतीक्षा कर रहा है।",
-        "unit": "व्यक्ति"
-      }
     },
-    "inventory": {
-      "variants": {
-        "inventory_list": "वस्तुसूची की फेहरिस्त",
-        "add_variant": "प्रकार जोड़ें",
-        "title": "उत्पाद सूची / उत्पाद प्रकार सूची",
-        "sub_title": "यदि इस उत्पाद के एक से अधिक प्रकार हैं, तो उन्हें इस अनुभाग में दर्ज करें। आप प्रत्येक प्रकार की राशि, कीमत और छूट को अलग से परिभाषित कर सकते हैं; अन्यथा मूल्य निर्धारण के लिए उत्पाद के डिफ़ॉल्ट मान लागू किए जाएंगे।",
-        "add_action": "प्रकार जोड़ें",
-        "count_input": "भंडार",
-        "count_input_action": "गिनती सेट करें",
-        "management_title": "इन्वेंटरी प्रबंधन और उत्पाद प्रकार",
-        "add_title": "उत्पाद प्रकार जोड़ें",
-        "edit_title": "उत्पाद प्रकार संपादित करें",
-        "notifications": {
-          "add_success": "उत्पाद संस्करण जोड़ा गया।",
-          "delete_success": "उत्पाद प्रकार हटाया गया.",
-          "save_product_inventory_success": "सहेजे गए उत्पादों की सूची।"
-        }
+    /** {@see BProductEditPrice} **/
+    pricing: {
+      edit_price: "मूल्य निर्धारण",
+      price_input: "कीमत",
+      currency_input: "मुद्रा",
+      currency_input_messages: "इस मुद्रा में मूल्य की गणना की जाती है।",
+      commission_input: "आयोग",
+      commission_message:
+        "यह विकल्प केवल विशेष प्रकार के व्यापारियों जैसे थोक विक्रेताओं के लिए उपयोगी है। यदि आप थोक व्यापारी नहीं हैं, तो इस विकल्प को खाली छोड़ दें। खरीदार जो कीमत देखते हैं वह कीमत और कमीशन का योग है। टैक्स जोड़ने के लिए अकाउंटिंग > टैक्स पर क्लिक करें।",
+      add_commission_action: "कमीशन जोड़ें",
+
+      price_label_input: "मूल्य चिप्पी",
+      price_label_message:
+        "कीमत के बारे में अतिरिक्त जानकारी जोड़ें जैसे ($1.5/Fl Oz)। उपयोग के मामले: किराना, एफएमसीजी।",
+      add_price_label_action: "मूल्य लेबल जोड़ें",
+      discount_input: "छूट",
+      discount_input_message: "छूट की दर",
+      has_discount_period_input: "क्या यह छूट एक विशिष्ट समय के लिए मान्य है?",
+      discount_timespan: "छूट की अवधि दर्ज करें।",
+      start_input: "शुरू करना",
+      end_input: "अंत",
+      start_input_placeholder: "प्रारंभ समय चुनें",
+      end_input_placeholder: "समाप्ति समय चुनें",
+      independent_price: "केवल इस वेरिएंट की कीमत",
+      same_price: "मुख्य उत्पाद की कीमत",
+      variant_pricing_message:
+        "इस विकल्प का चयन करके, इस संस्करण की कीमत मुख्य उत्पाद से स्वतंत्र रूप से निर्धारित की जा सकती है।",
+
+      subtitle: {
+        marketplace:
+          "बाज़ार में, प्रदर्शित प्राथमिक उत्पाद मूल्य सूचीकरण मूल्य होता है, जबकि वास्तविक मूल्य विक्रेता-उत्पाद संबंध रिकॉर्ड के आधार पर निर्धारित किया जाता है।",
+        subscription:
+          "सदस्यता के लिए, केवल सूचीबद्ध मूल्य प्रदर्शित किया जाता है, जबकि वास्तविक लागत चयनित सदस्यता योजना के आधार पर निर्धारित की जाएगी।",
+        service:
+          "सेवा-आधारित उत्पादों के लिए, सूचीबद्ध मूल्य निर्धारण केवल प्रदर्शन उद्देश्यों के लिए है, जो सेवा की अनुमानित लागत प्रदान करता है। ग्राहक द्वारा अपना ऑर्डर देने के बाद (चेकआउट पर) वास्तविक सेवा मूल्य आपके द्वारा निर्धारित किया जाएगा।",
+        file: "यह फ़ाइल की सूचीबद्ध और वास्तविक कीमत को संदर्भित करता है, जिसे ग्राहकों को फ़ाइलों तक पहुंच प्राप्त करने के लिए भुगतान करना होगा।",
+        default:
+          "यह उत्पाद की सूचीबद्ध कीमत को संदर्भित करता है तथा उन सभी प्रकारों की कीमत को भी ध्यान में रखता है जिनकी अलग से कीमत नहीं होती।",
       },
-      "variant_item": {
-        "price": "कीमत",
-        "same_as_product": "मुख्य उत्पाद के समान",
-        "in_stock": "भंडार",
-        "delete_dialog": {
-          "title": "उत्पाद प्रकार हटाएं",
-          "message": "क्या आप इस प्रकार को हटाना चाहते हैं?"
-        }
+      extra_pricings: {
+        title: "अतिरिक्त मूल्य निर्धारण जोड़ें",
+        subtitle: "खरीदी गई मात्रा के आधार पर अलग-अलग कीमतें लागू करें।",
       },
-      "variant_add_edit": {
-        "title": "उत्पाद प्रकार को परिभाषित करना",
-        "message": "उत्पाद संख्या अद्वितीय",
-        "active_input": "क्या यह वैरिएंट सक्रिय है?",
-        "sku": "SKU",
-        "sku_tips": "उत्पाद गोदाम कोड।",
-        "mpn": "MPN",
-        "mpn_tips": "उत्पाद पैकेजिंग पर निर्माता द्वारा डाला गया उत्पाद कोड",
-        "variant_variable": "भिन्न चर",
-        "pricing": "मूल्य निर्धारण",
-        "has_pricing_input": "क्या कीमत मुख्य उत्पाद से अलग है?",
-        "inventory": "भंडार",
-        "inventory_unit": "सामान",
-        "delivery_info": "पैकेजिंग और शिपिंग",
-        "images": "वेरिएंट की छवियां",
-        "images_message": "इस वेरिएंट को सेव करने के बाद आप यहां इमेज ऐड कर पाएंगे।"
-      }
-    },
-    "edit_article": {
-      "menu": {
-        "tags": "टैग",
-        "article": "लेख"
-      }
-    }
-  },
-  "product_extra_physical": {
-    "weight": "सामान का भार",
-    "weight_unit": "किलोग्राम",
-    "size": "पैकेज डाइमैन्शन",
-    "dimension": "से। मी",
-    "width": "चौड़ाई",
-    "length": "लंबाई",
-    "height": "ऊंचाई",
-    "lead_time_title": "तैयारी का समय",
-    "lead_time": "तैयारी का समय",
-    "lead_time_dimension": "घंटे)",
-    "bulk_action": "थोक कार्रवाई",
-    "bulk_action_input": "सभी वेरिएंट अपडेट करें",
-    "bulk_action_msg": "सभी प्रकारों के लिए उत्पाद की पैकेजिंग और तैयारी का समय निर्धारित करें।",
-    "weight_subtitle": "यहाँ उत्पाद का कुल पैकेजिंग वजन दर्ज करें। यह जानकारी सही शिपिंग विधि चुनने में मदद करती है और यह सुनिश्चित करती है कि ऑर्डर शिपिंग सीमा से अधिक न हो।",
-    "size_subtitle": "यहाँ उत्पाद की पूरी पैकेजिंग का आकार दर्ज करें। इस जानकारी का उपयोग सही शिपिंग विधि चुनने और यह सुनिश्चित करने के लिए किया जाता है कि ऑर्डर पार्सल आकार सीमा से अधिक न हो।",
-    "lead_time_subtitle": "लीड टाइम, शिपिंग के लिए किसी उत्पाद को तैयार करने में लगने वाले समय का अनुमान लगाता है, जो डिलीवरी समय का अनुमान लगाने में मदद करता है।",
-    "bulk_action_subtitle": "आप पैकेजिंग जानकारी को सभी उत्पाद प्रकारों पर लागू कर सकते हैं।"
-  },
-  "product_images_list": {
-    "upload_button": "अधिक उत्पाद छवियां",
-    "upload_an_image": "एक छवि का चयन करें।",
-    "notifications": {
-      "update_sort_success": "छँटाई सहेजी गई छवियाँ",
-      "delete_image_title": "उत्पाद छवि हटाएं",
-      "delete_image_success": "छवि सफलतापूर्वक हटाई गई"
-    }
-  },
-  "variants_view": {
-    "prices": "कीमतों",
-    "inventory": "भंडार",
-    "discount": "छूट"
-  },
-  "gift_card_type_edit": {
-    "title_input": "शीर्षक",
-    "color_input": "कार्ड का रंग",
-    "charge_input": "आरंभिक शुल्क",
-    "charge_input_hint": "प्रत्येक कार्ड के लिए प्रारंभिक शुल्क",
-    "currency_input": "मुद्रा",
-    "currency_input_message": "केवल इस मुद्रा से खरीदारी के लिए",
-    "lifetime_input": "कार्ड की वैधता (माह)",
-    "lifetime_input_message": "कार्ड की वैधता",
-    "card_image_input": "कार्ड छवि",
-    "notifications": {
-      "create_success": "कार्ड बनाया",
-      "update_success": "कार्ड अपडेट किया गया"
-    }
-  },
-  "shop_warehouse_edit": {
-    "title": "गोदाम जोड़ें",
-    "message": "शिपिंग लागत की गणना करने के लिए अपना वेयरहाउस पता और प्रोफ़ाइल दर्ज करें।",
-    "name_input": "गोदाम का नाम",
-    "address": "पता",
-    "name_input_message": "अपने गोदाम के लिए एक उपनाम दर्ज करें।",
-    "person_name": "अधिकारी का नाम",
-    "phone_number": "संपर्क संख्या",
-    "map_title": "स्टोर गोदाम का पता",
-    "confirm_action": "गोदाम अनुमोदन",
-    "address_name": "गोदाम",
-    "notifications": {
-      "success_save": "परिवर्तनों को सफलतापूर्वक सहेजा।"
-    }
-  },
-  "inventory_list": {
-    "search_input": "उत्पाद खोज...",
-    "search_input_title": "स्टोर उत्पादों के बीच खोजें",
-    "apply_filter": "फिल्टर लागू करें",
-    "inventory": "वस्तुसूची की फेहरिस्त",
-    "export": "निर्यात सूची",
-    "import": "आयात सूची",
-    "bulk_price": "थोक मूल्य परिवर्तन",
-    "bulk_discount": "थोक छूट परिवर्तन",
-    "category_filter_msg": "यह सभी उत्पादों और उपश्रेणियों पर लागू होगा!",
-    "table": {
-      "waiting": "जानकारी मिल रही है... कृपया प्रतीक्षा करें",
-      "open_state": "सक्रिय",
-      "close_state": "निष्क्रिय",
-      "image": "छवि",
-      "product": "प्रोडक्ट का नाम",
-      "code": "उत्पाद कोड",
-      "sku": "SKU",
-      "mpn": "MPN",
-      "original": "मूल",
-      "status": "स्थिति",
-      "in_stock": "स्टॉक में",
-      "edit": "बदलना"
-    },
-    "bulk_price_dialog": {
-      "title": "थोक कार्रवाइयां > मूल्य",
-      "message": "नोट: निम्नलिखित राशि आपके स्टोर के सभी उत्पादों की कीमत के प्रतिशत के रूप में लागू होगी। साथ ही, परिकलित मूल्य मानों को चयनित मुद्रा के आधार पर बुद्धिमानी से निकटतम राउंड नंबर में परिवर्तित कर दिया जाएगा। मानों को दर्ज करने में सावधानी बरतें।",
-      "check": "मैं मूल्य परिवर्तन को मंजूरी देता हूं।",
-      "add_percent_tab": "प्रतिशत जोड़ें",
-      "add_constant_tab": "लगातार जोड़ें",
-      "ending_tab": "समाप्ति की रणनीति"
-    },
-    "bulk_discount_dialog": {
-      "title": "थोक कार्रवाइयां > छूट",
-      "message": "नोट: निम्नलिखित राशि आपके स्टोर में सभी उत्पादों की छूट के प्रतिशत के रूप में होगी। साथ ही, परिकलित छूट मान चयनित मुद्रा के आधार पर बुद्धिमानी से निकटतम राउंड नंबर में परिवर्तित हो जाएंगे। मानों को दर्ज करने में सावधानी बरतें।",
-      "check": "मैं छूट में बदलाव को मंजूरी देता हूं।"
-    },
-    "notifications": {
-      "save_success": "इन्वेंट्री परिवर्तन सहेजा गया."
-    },
-    "title": "स्टोर इन्वेंटरी",
-    "subtitle": "स्टोर में सभी उत्पादों की सूची.",
-    "cant_set_here": "यहां सेट नहीं किया जा सकता"
-  },
-  "spec_view": {
-    "auto_save_input": "ऑटो सेव",
-    "auto_save_input_message": "परिवर्तन स्वचालित रूप से सहेज लिए जाएंगे."
-  },
-  "time_progress_bar": {
-    "title_before_start": "शुरुआत के लिए शेष",
-    "title_between_start_end": "अंत तक शेष",
-    "title_after_end": "खत्म",
-    "title_no_start_end": "समय अवधि के बिना!"
-  },
-  "geo_map": {
-    "views": "विचारों",
-    "views_unit": "बार",
-    "product_views": "उत्पाद दृश्य",
-    "buys": "खरीद",
-    "buys_unit": "आदेश",
-    "baskets": "सक्रिय गाड़ियां",
-    "added_items": "सामगंरियां जोड़ें",
-    "removed_items": "आइटम हटाएँ"
-  },
-  "faq_list": {
-    "table": {
-      "nodata": "कोई प्रश्न नहीं मिला।",
-      "more_data_action": "अधिक प्रश्न ..",
-      "user": "उपयोगकर्ता",
-      "tag": "टैग",
-      "question": "प्रश्न",
-      "officer": "कर्मचारी",
-      "answer": "जवाब",
-      "created_at": "दिनांक",
-      "priority": "प्राथमिकता",
-      "edit": "संपादन करना"
-    },
-    "dialog": {
-      "add_new_action": "नया प्रश्न सबमिट करें",
-      "edit_action": "अक्सर पूछे जाने वाले प्रश्न संपादित करें",
-      "question_input": "प्रश्न",
-      "question_input_placeholder": "अपना प्रश्न पूछें ..",
-      "link_input": "जोड़ना",
-      "link_input_placeholder": "आप उत्तर में एक लिंक का उल्लेख कर सकते हैं।",
-      "answer_input": "जवाब",
-      "answer_input_placeholder": "उत्तर पाठ दर्ज करें ..",
-      "tag_input": "टैग (श्रेणी शीर्षक)",
-      "tag_input_placeholder": "एक छोटा शीर्षक दर्ज करें",
-      "priority_input": "प्राथमिकता: (0 से 10)"
-    },
-    "delete_alert": {
-      "title": "प्रश्न हटाएं",
-      "message": "क्या आप इस प्रश्न को हटाना चाहते हैं?",
-      "action": "मिटाना"
-    },
-    "notifications": {
-      "send_success": "आपका उत्तर सफलतापूर्वक सबमिट कर दिया गया है।",
-      "delete_success": "आपका प्रश्न सफलतापूर्वक हटा दिया गया है।"
-    }
-  },
-  "contact_messages_list": {
-    "load_more_action": "अधिक संदेश ..",
-    "table": {
-      "nodata": "कोई प्रश्न नहीं मिला।",
-      "user": "उपयोगकर्ता",
-      "message": "संदेश का मुख्यभाग",
-      "category": "श्रेणी",
-      "officer": "कर्मचारी",
-      "answer": "जवाब",
-      "created_at": "दिनांक",
-      "contact": "संपर्क करना",
-      "edit": "संपादन करना"
-    },
-    "dialog": {
-      "title": "संदेश का उत्तर दें",
-      "category": "श्रेणी",
-      "user_name": "नाम",
-      "email": "ईमेल",
-      "phone": "संपर्क संख्या",
-      "message": "संदेश पाठ",
-      "status": "प्रतिक्रिया स्थिति",
-      "status_answered": "उत्तर",
-      "status_waiting": "प्रतिक्रिया की प्रतीक्षा",
-      "answer_input": "उत्तर पाठ",
-      "mail_input": "मेल भेजे",
-      "mail_input_message": "यदि आप इसे सक्षम करते हैं, तो आपकी प्रतिक्रिया उपयोगकर्ता के ईमेल पर भेजी जाएगी।"
-    },
-    "delete_alert": {
-      "title": "संदेश को हटाएं",
-      "message": "क्या आप इस संदेश को हटाना चाहते हैं?",
-      "action": "मिटाना"
-    },
-    "notifications": {
-      "send_success": "आपका अनुरोध सफलतापूर्वक सबमिट कर दिया गया है।",
-      "delete_success": "संदेश हटाये।"
-    }
-  },
-  "campaign": {
-    "title": "अभियान",
-    "menu": {
-      "setting": "समायोजन",
-      "return": "वापस",
-      "dashboard": "डैशबोर्ड",
-      "links": "लिंक",
-      "landing": "अवतरण",
-      "ads": "विज्ञापन",
-      "finance": "वित्त"
-    },
-    "dashboard": {
-      "title": "डैशबोर्ड",
-      "status": "स्थिति अवलोकन",
-      "sessions": "सत्र",
-      "links_overview": "अभियान लिंक अवलोकन",
-      "orders": "आदेश",
-      "performance": "अभियान प्रदर्शन",
-      "links_funnel": "अभियान लिंक प्रदर्शन",
-      "no_links": "कोई डेटा उपलब्ध नहीं है! कृपया अपने अभियान के लिए एक लिंक बनाएं।",
-      "social": "सोशल मीडिया लीड",
-      "conversion_over_time": "समय के साथ रूपांतरण",
-      "total_campaign_sell": "अभियान द्वारा कुल बिक्री"
-    },
-    "finance": {
-      "title": "वित्त रिपोर्ट",
-      "campaign_revenue": "अभियान राजस्व",
-      "total_revenue": "अभियान द्वारा कुल आय",
-      "links_revenue": "अभियान लिंक राजस्व",
-      "payments_over_time": "समय के साथ बिक्री",
-      "all_links": "सभी लिंक"
-    },
-    "landing": {
-      "empty_message": "अभियान सेटिंग में एक लैंडिंग पृष्ठ सेट करें।",
-      "set_landing": "लैंडिंग पृष्ठ सेट करें",
-      "create_landing": "नया लैंडिंग पृष्ठ बनाएं"
-    },
-    "links": {
-      "title": "अभियान लिंक",
-      "url_input_message": "अपना लक्ष्य पृष्ठ url दर्ज करें"
-    },
-    "setting": {
-      "menu": {
-        "config": "कॉन्फ़िग",
-        "timespan": "समय सीमा",
-        "banner": "बैनर",
-        "Notification": "अधिसूचना"
+
+      vendor: {
+        title: "विक्रेता मूल्य निर्धारण",
+        subtitle:
+          "यह कीमत केवल उत्पाद सूची में दिखाई जाएगी। आप उत्पाद > विक्रेता टैब में विक्रेता मूल्य निर्धारित कर सकते हैं।",
+        manage_vendors: "विक्रेताओं का प्रबंधन करें",
+        vendor_product_pricing_link:
+          "विक्रेता के उत्पाद का मूल्य निर्धारण जुड़ा हुआ है। यहां लिस्टिंग मूल्य बदलने से विक्रेता के उत्पाद बिना वेरिएंट के या वेरिएंट वाले ऐसे उत्पाद प्रभावित होंगे जिनकी अपनी कीमत नहीं है (मुख्य उत्पाद के समान मूल्य का उपयोग करके)। इस मूल्य को मार्केटप्लेस मूल्य के रूप में माना जाएगा, और विक्रेता का मूल्य मूल्य निर्धारण मॉडल या पिछले मार्केटप्लेस लाभ मार्जिन के आधार पर निर्धारित किया जाएगा।",
+        vendor_variant_pricing_link:
+          "यहाँ वैरिएंट मूल्य बदलने से उसी वैरिएंट वाले विक्रेता उत्पादों के मूल्य निर्धारण पर असर पड़ेगा। इस मूल्य को मार्केटप्लेस मूल्य माना जाएगा, और विक्रेता का मूल्य मूल्य निर्धारण मॉडल या पिछले मार्केटप्लेस लाभ मार्जिन के अनुसार निर्धारित किया जाएगा।",
       },
-      "general_setting": {
-        "title": "सामान्य अभियान सेटिंग",
-        "sub_title": "नाम, लैंडिंग पृष्ठ और डिस्काउंट कोड",
-        "name_input": "अभियान का नाम",
-        "name_input_hint": "अपने अभियान में एक नाम जोड़ें",
-        "enable_input": "क्या अभियान सक्रिय है?",
-        "page_input": "लैंडिंग पेज",
-        "discount_code_input": "डिस्काउंट कोड",
-        "limit": "छूट की सीमा",
-        "max_count": "अधिकतम गिनती",
-        "max_count_unit": "सामान",
-        "start": "शुरू करना",
-        "end": "अंत",
-        "notification_enable_input": "अधिसूचना सक्षम है?",
-        "landing_page": "लैंडिंग पेज",
-        "discount_code": "डिस्काउंट कोड",
-        "auto": "डिफ़ॉल्ट अभियान",
-        "auto_message": "आपकी दुकान में सक्रिय डिफ़ॉल्ट अभियान"
+    },
+    /** {@see ProductEditInputs} **/
+    inputs_edit: {
+      title: "खरीदार की जानकारी का इनपुट फॉर्म",
+      sub_title:
+        "आप प्रत्येक उत्पाद के लिए डेटा प्रविष्टि फ़ॉर्म बना सकते हैं, इसलिए खरीदार उत्पाद खरीदते समय आपको जानकारी भेजते हैं। उदाहरण के लिए, यह जानकारी किसी पत्थर पर उत्कीर्णन का नाम हो सकती है।",
+      message_input: "उपयोगकर्ता को संदेश",
+      message_input_message:
+        "उत्पाद खरीदते समय यह संदेश ग्राहक को दिखाया जाएगा।",
+      inputs_form: "सूचना संरचना (इनपुट)",
+      inputs_hint:
+        "जब आपके ग्राहक ऑर्डर देने के लिए तैयार हों, तो उनसे विवरण एकत्र करने के लिए आपके पास एक वैयक्तिकृत फ़ॉर्म सेट अप करने का विकल्प होता है।",
+    },
+
+    /** {@see BProductEditExtra} **/
+    extra_edit: {
+      physical: {
+        title: "शिपिंग सूचना",
+        sub_title:
+          "तैयारी की लागत और समय की गणना इस खंड में दी गई जानकारी के आधार पर की जाती है। स्टोर में चयनित इकाइयों (वजन, आयाम, दूरी) के अनुसार जानकारी दर्ज करना सुनिश्चित करें।",
       },
-      "time_setting": {
-        "title": "समय सीमा",
-        "sub_title": "प्रारंभ दिनांक और समय / समाप्ति तिथि और समय",
-        "start_input": "शुरू करना",
-        "start_input_placeholder": "अभियान प्रारंभ समय चुनें",
-        "end_input": "अंत",
-        "end_input_placeholder": "अभियान समाप्ति समय चुनें"
+
+      notifications: {
+        save_title: "पैकेजिंग अपडेट किया गया",
+        save_msg: "उत्पाद पैकेजिंग जानकारी सफलतापूर्वक अपडेट की गई।",
       },
-      "banner_setting": {
-        "title": "दुकान बैनर",
-        "sub_title": "दुकान पृष्ठ के शीर्ष पर प्रदर्शित करें",
-        "message_input": "संदेश पाठ",
-        "message_input_placeholder": "विशेष पर्व...",
-        "message_input_hint": "स्टोर के शीर्ष पर बैनर संदेश टेक्स्ट",
-        "bg_image_input": "पृष्ठभूमि छवि URL",
-        "bg_image_input_hint": "पूर्ण पृष्ठभूमि छवि URL",
-        "repeat_pattern": "दोहराएँ पैटर्न",
-        "simple": "सरल",
-        "dark_input": "डार्क थीम?",
-        "icon_input": "आइकन",
-        "icon_input_hint": "सामग्री डिजाइन चिह्न नाम या Fontawsom: fa:fas fa-star",
-        "anim_input": "एनिमेशन पता",
-        "anim_input_message": "Lottie एनिमेशन फ़ाइल URL",
-        "preview": "पूर्वावलोकन",
-        "preview_update_action": "प्रीव्यू अपडेट करें",
-        "bg_color": "पीछे का रंग",
-        "icon_bg": "आइकन पृष्ठभूमि रंग"
+
+      order_limit: {
+        title: "ऑर्डर सीमाएँ",
+        subtitle:
+          "यदि आप थोक विक्रेता हैं या प्रति ऑर्डर इस आइटम की मात्रा की कोई न्यूनतम या अधिकतम सीमा है, तो आप उसे यहां निर्दिष्ट कर सकते हैं।",
+        no_limit: "कोई सीमा नहीं",
+        minimum_purchase_quantity: "न्यूनतम खरीद मात्रा",
+        maximum_purchase_quantity: "अधिकतम खरीद मात्रा",
       },
-      "notifications": {
-        "title": "अधिसूचना",
-        "sub_title": "एक सूचना बनाएं और उसे अपने अभियान से लिंक करें।",
-        "update_success": "आपका अभियान अपडेट कर दिया गया है।",
-        "action_button": "एक्शन बटन",
-        "background_color": "पीछे का रंग",
-        "text_color": "लिखावट का रंग",
-        "action_color": "क्रिया रंग",
-        "action_text_color": "क्रिया पाठ का रंग",
-        "notification_image": "अधिसूचना छवि",
-        "notification_bg": "अधिसूचना पृष्ठभूमि",
-        "show_preview": "पूर्वावलोकन दिखाएं",
-        "persistence": "हठ",
-        "persistence_message": "क्या आप हर बार यह दिखाना चाहते हैं कि आपका उपयोगकर्ता वेबसाइट पर जाता है",
-        "radius": "RADIUS",
-        "show_delay": "देरी दिखाएं"
-      }
-    }
+    },
+
+    variants: {
+      not_available:
+        "वर्तमान में इस प्रकार के उत्पाद के लिए एक प्रकार का चयन करना संभव नहीं है।",
+    },
+
+    delete_product: {
+      title: "उत्पाद निकालें",
+      message: "क्या आप <b>{product_title}</b> मिटाना चाहते हैं?",
+      tips: "यदि आप गलती से कोई उत्पाद हटा देते हैं, तो आप अपनी दुकान > उत्पाद पर जाकर, हटाए गए आइटम दिखाएं को सक्षम करके, और फिर उत्पाद पर राइट-क्लिक करके, और पुनर्स्थापित का चयन करके उसे पुनः प्राप्त कर सकते हैं।",
+    },
   },
-  "add_category": {
-    "title_edit": "श्रेणी संपादित करें",
-    "title_update": "नई श्रेणी जोड़ें",
-    "menu": {
-      "delete": "श्रेणी हटाएं",
-      "filter": "फिल्टर",
-      "settings": "समायोजन",
-      "back": "वापस"
+
+  /** {@see BProductExtraPricingAdd} **/
+  extra_pricing_add_dialog: {
+    title: "{min} से अधिक के लिए अतिरिक्त मूल्य निर्धारण",
+    subtitle:
+      "सिस्टम स्वचालित रूप से मूल्य गणना के लिए क्रम और प्राथमिकता निर्धारित करता है। कृपया इस मूल्य निर्धारण को प्रभावी बनाने के लिए आवश्यक न्यूनतम मात्रा दर्ज करें।",
+    min_quantity: "न्यूनतम मात्रा",
+  },
+  /** {@see BProductInventoryManagementPhysical} **/
+  product_inventory_management_physical: {
+    subtitle: {
+      dropshipping:
+        "ड्रॉपशिपिंग उत्पादों के लिए इन्वेंट्री थोक विक्रेताओं द्वारा निर्धारित की जाती है, और इसे यहां संशोधित नहीं किया जा सकता है।",
+      marketplace:
+        "बाज़ार में कुल उत्पाद सूची सभी विक्रेताओं की सूची को जोड़कर निर्धारित की जाती है। आप इसे यहाँ संशोधित नहीं कर सकते।",
+      default: "यहां उत्पाद की इन्वेंट्री गणना निर्दिष्ट करें.",
     },
-    "title_input": "श्रेणी शीर्षक *",
-    "title_input_error": "एक श्रेणी शीर्षक चुनें",
-    "name_input": "श्रेणी का नाम (अंग्रेज़ी)*",
-    "name_input_error": "श्रेणी के लिए एक अद्वितीय नाम चुनें",
-    "description_input": "वर्ग विवरण",
-    "description_input_message": "श्रेणी का संक्षिप्त विवरण दर्ज करें ..",
-    "parent_input": "अभिभावक श्रेणी",
-    "parent_input_message": "यह श्रेणी स्टोर होमपेज पर दिखाई देती है।",
-    "image_input": "श्रेणी छवि",
-    "image_input_placeholder": "श्रेणी के लिए एक छवि का चयन करें",
-    "edit_action": "श्रेणी संपादित करें",
-    "add_action": "कैटेगरी जोड़े",
-    "back_action": "वापस",
-    "no_category": "कोई श्रेणियाँ नहीं",
-    "star": "सितारा",
-    "filter": {
-      "title": "श्रेणी फ़िल्टर",
-      "sub_title": "इस श्रेणी में उत्पादों पर लागू फ़िल्टर और श्रेणियां प्रबंधित करें।",
-      "message": "नीचे दिए गए बॉक्स में इस श्रेणी के लिए सामान्य तकनीकी विशेषता शीर्षक दर्ज करें और सहेजें। सूची को सहेजने के बाद, प्रत्येक श्रेणी की सामग्री के साथ फ़िल्टर श्रेणियां प्रदर्शित की जाएंगी। रंग, वजन, आकार, ब्रांड आदि उत्पाद प्रकार से स्वचालित रूप से निकाले जाते हैं।"
-    },
-    "delete_alert": {
-      "title": "श्रेणी हटाएं",
-      "message": "क्या आप {title} श्रेणी को हटाना चाहते हैं?",
-      "action": "मिटाना"
-    },
-    "notifications": {
-      "add_success": "नई श्रेणी जोड़ी गई।",
-      "edit_success": "श्रेणी संपादित।",
-      "delete_success": "हटा दिया गया {title}।"
-    },
-    "edit_filter": {
-      "spec_input": "तकनीकी विनिर्देश सूची",
-      "spec_input_message": "उन सुविधाओं की सूची जिन्हें आप फ़िल्टर अनुभाग में दिखाना चाहते हैं",
-      "price": "कीमत",
-      "min": "मिनट",
-      "max": "मैक्स",
-      "suggested_list": {
-        "brand": "ब्रैंड",
-        "colors": "रंग",
-        "styles": "डिज़ाइन",
-        "volumes": "मात्रा",
-        "weights": "वज़न",
-        "packs": "प्रति पैक संख्या",
-        "types": "प्रकार"
+    menu: {
+      add_bulk: {
+        title: "बउलक जोड़ें",
+        subtitle: "जोड़ें मउलतइपलए वेरिएंट इन ओनए कार्रवाई.",
       },
-      "notifications": {
-        "edit_success": "श्रेणी संपादित।"
+      edit_property_set: {
+        title: "कउसतओमइज़ए विशेषता सएत",
+        subtitle: "कहअनगए वेरिएंट नाम, इकओनस अनद ऑर्डर.",
       },
-      "manually_update_filters_tips": "<b>महत्वपूर्ण!</b> जब उत्पाद बदलते हैं तो फ़िल्टर स्वचालित रूप से अपडेट हो जाते हैं। हालाँकि, किसी श्रेणी में उत्पादों में परिवर्तन करने के बाद, कृपया यहाँ वापस आएँ और फ़िल्टर को ताज़ा करने के लिए सहेजें/पुनः बनाएँ बटन पर क्लिक करें।",
-      "inputs": {
-        "spec": {
-          "message": "उन सुविधाओं की सूची जिन्हें आप फ़िल्टर अनुभाग में दिखाना चाहते हैं",
-          "placeholder": "फ़िल्टर में दिखाने के लिए विवरण चुनें..."
-        }
-      }
     },
-    "config": {
-      "subtitle": "श्रेणियाँ उत्पाद प्रबंधन को सुव्यवस्थित करने में मदद करती हैं और आपके ग्राहकों के लिए आपके स्टोर में उत्पाद ढूंढना आसान बनाती हैं।"
-    },
-    "parent": {
-      "subtitle": "यह श्रेणी अपनी मूल श्रेणी के अंतर्गत दिखाई देगी। यदि किसी उत्पाद की कोई मूल श्रेणी नहीं है, तो उसे मुख्य श्रेणी में प्रदर्शित किया जाएगा।"
-    },
-    "template": {
-      "title": "टेम्पलेट",
-      "edit_page": "संपादित पेज",
-      "Pages_list": "पृष्ठ सूची",
-      "subtitle": "आप कस्टम पेज ओवरले करके अपने श्रेणी पेज के प्रदर्शन को बढ़ा सकते हैं। सबसे अच्छा तरीका पारदर्शी पृष्ठभूमि वाले पेज बनाना और प्रत्येक श्रेणी के लिए विशिष्ट 1 से 2 अनुभाग डिज़ाइन करना है। फिर आप प्रत्येक श्रेणी को अलग-अलग रूप देने के लिए गतिशील सामग्री का उपयोग करके एक पेज को कई श्रेणियों से लिंक कर सकते हैं।"
-    },
-    "critical_zone": {
-      "title": "महत्वपूर्ण क्षेत्र",
-      "subtitle": "यदि आप कोई श्रेणी हटाते हैं, तो उसकी उपश्रेणियाँ और उत्पाद मूल निर्देशिका <b>📁 {parent}</b> में चले जाएँगे। उन श्रेणियों को प्रबंधित करने के लिए जो उत्पाद सूची में नहीं हैं, शॉप > श्रेणियाँ टैब पर जाएँ।",
-      "accept_delete": {
-        "true_description": "मैं इस श्रेणी को हटाना चाहता हूं.",
-        "true_title": "श्रेणी हटाने की पुष्टि करें"
-      }
-    }
   },
-  "apps_list": {
-    "nodata": "आपके स्टोर पर कोई ऐप इंस्टॉल नहीं है",
-    "inactive": "निष्क्रिय",
-    "my_apps": "मेरी एप्प्स",
-    "app_store": "नया ऐप जोड़ें"
+
+  /**
+   * @see USmartMenu
+   */
+  smart_menu: {
+    show_delete_items: "दिखाएँ दएलएतएद इतएमस",
   },
-  "add_shop": {
-    "menu": {
-      "shop_title": "स्टोर का शीर्षक",
-      "shop_name": "स्टोर नाम",
-      "description": "विवरण",
-      "contact": "संपर्क जानकारी",
-      "image": "छवि"
-    },
-    "title_input": "शीर्षक",
-    "title_input_tips": "अपने स्टोर, ब्रांड या कंपनी का नाम दर्ज करें।",
-    "active_message": "सभी के लिए सक्रिय सेट करें आपकी वेबसाइट तक पहुंच सकते हैं।",
-    "language_input_message": "अपनी स्टोर भाषा चुनें।",
-    "name_input": "नाम",
-    "name_input_message": "अपने स्टोर के लिए एक नाम दर्ज करें।",
-    "name_input_tips": "गैर-अंग्रेजी वर्णों, रिक्त स्थान या अक्षरों का उपयोग न करें, यदि उपयोग किया जाता है, तो स्टोर का नाम ठीक से प्रदर्शित नहीं हो सकता है।",
-    "description_input": "स्टोर विवरण",
-    "description_input_message": "अपने व्यवसाय के बारे में संक्षिप्त विवरण लिखें।",
-    "address_input": "स्टोर का पता",
-    "address_input_message": "सटीक स्टोर स्थान पता दर्ज करें",
-    "phone_input": "फ़ोन नंबर",
-    "phone_input_message": "ग्राहक संपर्क नंबर",
-    "phone_input_tips": "देश कोड के साथ संपर्क नंबर दर्ज करें। इस नंबर का उपयोग Google खोज में जानकारी प्रदर्शित करने के लिए भी किया जाता है।",
-    "email_input": "ईमेल",
-    "email_input_message": "ग्राहकों के लिए ईमेल पता",
-    "locality_input": "जगह",
-    "locality_input_message": "संग्रहण स्थान",
-    "region_input": "राज्य या प्रांत",
-    "region_input_message": "जिस राज्य या प्रांत में आप काम करते हैं",
-    "country_input": "देश",
-    "country_input_message": "व्यापार का देश",
-    "postal_code_input": "डाक कोड",
-    "postal_code_input_message": "स्टोर पोस्टल कोड",
-    "image_input": "स्टोर छवि",
-    "map": {
-      "title": "स्टोर का पता",
-      "confirm": "पता पंजीकरण",
-      "address": "पता",
-      "receptor": "दुकान"
-    },
-    "create_shop_action": "स्टोर बनाएं",
-    "update_shop_action": "अपडेट करना",
-    "notifications": {
-      "copy_success": "दुकान के पते की प्रति।",
-      "name_available": "यह नाम ({name}) उपलब्ध है।",
-      "add_success": "स्टोर {title} बनाया गया।",
-      "edit_success": "स्टोर संपादित।"
-    },
-    "description_input_tips": "यह विवरण आपके स्टोर के फ़ुटर में दिखाई देगा और आपके स्टोर पेजों के लिए डिफ़ॉल्ट मेटा टैग विवरण के रूप में भी उपयोग किया जाएगा."
+
+  /** {@see BProductGoogleCategoryInput} **/
+  google_product_category_input: {
+    label: "Google उत्पाद श्रेणी कोड",
+    hint: "Google के उत्पाद वर्गीकरण के अनुसार आपके उत्पाद की श्रेणी को दर्शाता है.",
+    placeholder: "उत्पाद या सेवा श्रेणी दर्ज करें.. (वैकल्पिक)",
   },
-  "virtual_items_list": {
-    "add_virtual_item": "वर्चुअल आइटम जोड़ें",
-    "add_virtual_item_desc": "आभासी उत्पादों को बेचने के लिए, आपको उन्हें इस खंड में जोड़ना होगा। आभासी वस्तुओं की संख्या इस खंड में मुफ्त वस्तुओं की संख्या के बराबर है। एक बार जब ग्राहक वर्चुअल आइटम खरीद लेंगे, तो उन्हें लिंक भेज दिया जाएगा।",
-    "filter_action": "फिल्टर लागू करें",
-    "not_processed": "असंसाधित आदेश",
-    "title": "सामान की सूची",
-    "vew_order": "आर्डर देखें",
-    "table": {
-      "nodata": "कोई आइटम नहीं हैं",
-      "product": "उत्पाद",
-      "data": "जानकारी",
-      "status": "स्थिति",
-      "user_message": "उपयोगकर्ता संदेश",
-      "updated_at": "आखिरी अपडेट",
-      "order": "आदेश",
-      "delete": "मिटाना"
+  /** {@see LogisticProfileType} **/
+  LogisticProfileType: {
+    WARRANTY: {
+      title: "गारंटी",
+      desc: "वारंटी एक अनुबंध का हिस्सा है, जिसमें निर्माता एक निश्चित अवधि के भीतर उत्पाद की मरम्मत या प्रतिस्थापन का वादा करता है। यह प्रतिबद्धता उन उपभोक्ताओं तक भी विस्तारित हो सकती है जिनका निर्माता के साथ कोई सीधा अनुबंध नहीं है।",
     },
-    "notifications": {
-      "delete_success": "आइटम सफलतापूर्वक हटाया गया."
-    }
+    RETURN_POLICY: {
+      title: "वापसी नीति",
+      desc: "वापसी नीतियां बताती हैं कि ग्राहक अवांछित सामान कैसे वापस कर सकते हैं या बदल सकते हैं। वे पात्र वस्तुओं, वापसी के लिए स्वीकार्य कारणों और वापसी करने की समय-सीमा को निर्दिष्ट करते हैं।",
+    },
+    GUIDE: {
+      title: "मार्गदर्शक",
+      desc: "गाइड में परिधान के लिए आकार चार्ट या हीरे के लिए चयन गाइड शामिल हो सकता है। यह महत्वपूर्ण है कि गाइड बहुमुखी हों और कई उत्पादों पर लागू हों।",
+    },
+    SHIPPING: {
+      title: "शिपिंग",
+      desc: "शिपिंग नीति ऑनलाइन ऑर्डर के लिए शिपिंग के प्रमुख पहलुओं का विवरण देती है, जिसमें शिपिंग लागत, तरीके और अनुमानित डिलीवरी समय शामिल हैं।",
+    },
   },
-  "add_virtual_item": {
-    "title_edit": "मान संपादित करें",
-    "title_add": "उत्पाद में आइटम जोड़ें",
-    "sub_title": "वर्चुअल उत्पाद बनाना और संपादित करना",
-    "message": "स्टोर मैनेजर भुगतान के बाद खरीदार को मूल्य दिखा सकता है। इन मानों को नीचे दिए गए फॉर्म में दर्ज किया जाना चाहिए। इस फॉर्म की संरचना आइटम संपादित करें> आउटपुट जानकारी संपादित करें अनुभाग में सेट है।",
-    "edit_outputs": "आउटपुट फॉर्म संपादित करें",
-    "notifications": {
-      "edit_success": "आइटम संपादित किया गया।",
-      "add_success": "सूची में जोड़ा गया आइटम।"
-    }
+  /** {@see BProductProfileLogistic} **/
+  product_logistic_profile: {
+    dialog: {
+      title: "लॉजिस्टिक प्रोफ़ाइल चुनें",
+      add_new_action: "नया प्रोफ़ाइल जोड़ें",
+      add_new_disable_msg: "बाज़ार का मालिक",
+    },
   },
-  "virtual_process_center": {
-    "title": "प्रसंस्करण केंद्र",
-    "sub_title": "आदेश प्रसंस्करण",
-    "virtual_product": "आभासी उत्पाद",
-    "menu": {
-      "report": "शिकायत करना",
-      "timeline": "समय",
-      "order": "आदेश"
+
+  /**
+   * @see BPageShopPagesPopups
+   */
+  b_shop_popups: {
+    title: "पओपउपस प्रबंधन",
+    subtitle:
+      "बनाएँ पएरसओनअलइज़एद, इनतएललइगएनत, अनद इनतएरअकतइवए पओप-उप वइनदओवस.",
+    add_action: "जोड़ें नया पओपउप",
+  },
+
+  /** {@see BProductProfileTax} **/
+  product_tax_profile: {
+    description: {
+      default: "चूक",
+      dedicated: "समर्पित",
+
+      subscription: "हम केवल भुगतान निर्माण चरण पर ही कर लगा सकते हैं।",
+      is_disabled: "यह कर प्रोफ़ाइल अक्षम है! (⚠️चेतावनी)",
+      shipping: "शिपिंग",
+      fixed_rate: "TAX",
+      location_based_rate: "कर: स्थान आधारित",
+      shipping_location_based_rate: "शिपिंग: स्थान आधारित",
+      include_in_price: "कीमत में शामिल",
     },
-    "list_widget": {
-      "title": "आदेश निर्दिष्टीकरण",
-      "product_name": "प्रोडक्ट का नाम"
+    dialog: {
+      header: "कर प्रोफ़ाइल चुनें",
+
+      title: "कर प्रोफ़ाइल",
+      subtitle:
+        "आप उत्पाद को विशेष कर विनियमन निर्दिष्ट कर सकते हैं। यदि उत्पाद के लिए कोई कर प्रोफ़ाइल नहीं चुनी गई है, तो डिफ़ॉल्ट स्टोर कर विनियमन लागू किए जाएँगे।",
+
+      action_manage: "कर प्रबंधन",
+      action_manage_sub: "दुकान > वित्त > कर",
+
+      subscription_tips:
+        "वहएन यओउ चुनें a कर प्रोफ़ाइल फओर सदस्यता उत्पाद, वए अपडेट करें<code>कर कोड</code> अनद सएत इनकलउसइवए/एक्सकलउसइवए मोड ओन यओउर भुगतान सेवा परओवइदएर. तहए चुनें कर प्रोफ़ाइल सपएकइफइएस वहएतहएर तहए मूल्य इस कओनसइदएरएद इनकलउसइवए ओफ तअक्सएस ओर एक्सकलउसइवए ओफ तअक्सएस. ओनए ओफ <code>इनकलउसइवए</code> ओर <code>एक्सकलउसइवए</code>. ओनकए सपएकइफइएद अस एइतहएर इनकलउसइवए ओर एक्सकलउसइवए, इत कअननओत बए कहअनगएद.<br /><br /><b>महत्वपूर्ण!</b> अफतएर कहअनगइनग तहए कर प्रोफ़ाइल, यओउ सहओउलद कलइकक ओन मूल्य निर्धारण पलअनस ओन तहए उत्पाद > इन्वेंटरी तअब अनद कलइकक तहए सहेजें बटन तओ अपपलय कहअनगएस.",
     },
-    "inputs_widget": {
-      "title": "इनपुट फॉर्म",
-      "table": {
-        "title": "शीर्षक",
-        "value": "मूल्य"
+  },
+
+  /**
+   * @see BProductVendorAbstractView
+   */
+  product_vendor_profile: {
+    vendor: {
+      subtitle:
+        "इस उत्पाद की कीमत और मात्रा उस विशेष विक्रेता द्वारा निर्धारित की जाती है जिसका यह उत्पाद है।",
+    },
+    vendors: {
+      subtitle:
+        "यहाँ उत्पाद के आपूर्तिकर्ताओं की सूची दी गई है। मात्रा और कीमत आपूर्तिकर्ताओं द्वारा निर्धारित की जाएगी।",
+    },
+  },
+  /**
+   * @see BVendorAdd
+   */
+  vendor_add: {
+    menu: {
+      profile: "प्रोफ़ाइल & जानकारी",
+      business: "बउसइनएसस & भुगतान",
+      documents: "दस्तावेज़",
+      page: "पृष्ठ तएमपलअतए",
+      shipping: "शिपिंग",
+      access: "पहुंच",
+      critical_zone: "महत्वपूर्ण क्षेत्र",
+    },
+
+    profile: {
+      title: "विक्रेता जानकारी",
+      subtitle: "यह जानकारी ग्राहकों को सार्वजनिक रूप से दिखाई जाती है।",
+      action_sub_caption: "सार्वजनिक उत्पाद सूची पृष्ठ.",
+      action_see_listing_page: "सूची पृष्ठ देखें",
+      send_invitation_email: "सएनद इनवइतअतइओन ईमेल",
+      invitation_link: "इनवइतअतइओन लिंक",
+    },
+
+    profiles: {
+      title: "प्रोफाइल",
+      subtitle: "यओउ कअन अससइगन स्थान तओ तहइस विक्रेता.",
+    },
+    map: {
+      no_map_message:
+        "अससइगन a स्थान तओ तहए विक्रेता इफ इत's a लओकअतइओन-बअसएद विक्रेता.",
+    },
+    page: {
+      title: "कस्टम पेज",
+      subtitle:
+        "विक्रेता के लिए एक कस्टम लैंडिंग पेज सेट करें, तथा उन्हें उनके समर्पित पेज के लिए एक अद्वितीय लिंक प्रदान करें।",
+      action_set_page: "सार्वजनिक पृष्ठ देखें",
+      action_sub_caption: "कस्टम लैंडिंग पृष्ठ.",
+      vendor_has_landing_msg: "विक्रेता के पास एक कस्टम लैंडिंग पेज है।",
+      no_landing_selected_msg: "कोई लैंडिंग पृष्ठ चयनित नहीं.",
+      no_landing_page: "कोई लैंडिंग पेज नहीं",
+      we_can_create_dedicated_landing_msg:
+        "हम आपके लिए एक समर्पित लैंडिंग पेज बना सकते हैं।",
+    },
+    contact: {
+      title: "संपर्क जानकारी",
+      subtitle: "कृपया वैध संपर्क विवरण प्रदान करें।",
+    },
+    business: {
+      title: "व्यवसाय जानकारी",
+      subtitle:
+        "कृपया त्वरित एवं निर्बाध राजस्व संग्रहण प्रक्रिया सुनिश्चित करने के लिए अपने व्यवसाय के बारे में सटीक जानकारी प्रदान करें।",
+    },
+    bank: {
+      title: "भुगतान जानकारी",
+      subtitle: "भुगतान के लिए यहां अपना बैंक विवरण दर्ज करें।",
+    },
+    default_pricing: {
+      title: "डिफ़ॉल्ट मूल्य निर्धारण",
+      subtitle:
+        "आप विक्रेता के लिए एक डिफ़ॉल्ट मूल्य निर्धारण मॉडल निर्दिष्ट कर सकते हैं। जब विक्रेता कोई नया उत्पाद जोड़ता है, तो इस मूल्य निर्धारण मॉडल का उपयोग उत्पाद की कीमत पर मार्केटप्लेस मार्जिन की गणना करने के लिए किया जाएगा। आप बाद में प्रत्येक उत्पाद के लिए मूल्य निर्धारण मॉडल को अलग-अलग समायोजित कर सकते हैं।",
+      no_pricing: "कोई मूल्य निर्धारण नहीं",
+    },
+    shipping: {
+      title: "शिपिंग",
+      subtitle: "विक्रेता अपनी स्वयं की शिपिंग सेवाएं और कूरियर सेवाएं स्थापित कर सकते हैं।",
+      shipping_services: "शिपिंग सेवाएँ",
+      total_number_of_services:
+        "विक्रेता के पास शिपिंग सेवाओं की कुल संख्या.",
+      couriers: "कूरियर",
+      total_couriers_count: "विक्रेता के पास कूरियरों की कुल संख्या.",
+    },
+    configuration: {
+      title: "विन्यास",
+    },
+    delete: {
+      title: "विक्रेता को हटाएँ",
+      action: "विक्रेता को हटाएँ",
+      verify_description:
+        "मुझे पता है कि सभी विक्रेता उत्पाद संबंध हटा दिए जाएंगे!",
+      verify_title: "मैं इस विक्रेता को हटाना चाहता हूं.",
+    },
+
+    send_invitation_tips:
+      "हम इस उपयोगकर्ता को एक आमंत्रण ईमेल भेजेंगे। यदि उपयोगकर्ता विक्रेता के रूप में आपकी दुकान से जुड़ता है, तो उसका खाता स्वचालित रूप से उसे सौंप दिया जाएगा।",
+    only_marketplace_owner_can_edit_user:
+      "केवल मार्केटप्लेस स्वामी ही उपयोगकर्ता को संपादित कर सकता है। यदि आप इस विक्रेता के स्वामी को बदलना चाहते हैं, तो आप हमें अनुरोध भेज सकते हैं।",
+    vendor_is_disable_msg: "विक्रेता अक्षम है.",
+    email_not_match_with_user_msg:
+      "दर्ज किया गया ईमेल उपयोगकर्ता के ईमेल ( <b>{user_name}:</b> {user_email}) से मेल नहीं खाता। क्या आप <b>{email}</b> पर ईमेल भेजना सुनिश्चित करते हैं?",
+
+    order_information_email_to_email:
+      "वए वइलल सएनद ऑर्डर जानकारी तओ <b>{email}</b>.",
+
+    set_a_user_for_the_vendor_first_msg: "पहले विक्रेता के लिए एक उपयोगकर्ता निर्धारित करें.",
+
+    inputs: {
+      slug: {
+        label: "पथ",
+        placeholder: "एक कस्टम पथ दर्ज करें...",
+        hint: "विक्रेता के गतिशील लैंडिंग पृष्ठ का पथ बदलें.",
       },
-      "change_inputs_action": "इनपुट फॉर्म संपादित करें"
-    },
-    "outputs_widget": {
-      "title": "आउटपुट फॉर्म",
-      "table": {
-        "title": "शीर्षक",
-        "value": "मूल्य"
+      email: {
+        message: "इस ईमेल से सभी सूचनाएं और अपडेट प्राप्त होंगे।",
       },
-      "tips": [
+      business: {
+        false_description: "मैं एक व्यक्ति के रूप में काम करता हूं।",
+        true_description: "मैं एक कानूनी रूप से मान्यता प्राप्त व्यावसायिक इकाई के रूप में कार्य करता हूँ।",
+        false_title: "व्यक्ति",
+        true_title: "व्यापार",
+      },
+      bank: {
+        hint: "उस बैंक का नाम जहां विक्रेता का खाता है।",
+        placeholder: "आपके बैंक का नाम..",
+      },
+      account_name: {
+        hint: "यह बैंक खाते से जुड़े नाम से मेल खाना चाहिए।",
+        placeholder: "आपका नाम..",
+      },
+      account_number: {
+        hint: "विक्रेता का विशिष्ट खाता क्रमांक.",
+        placeholder: "आपका बैंक खाता नंबर..",
+      },
+      routing_number: {
+        hint: "यह संख्या देश के अनुसार अलग-अलग होती है। इसका उपयोग विक्रेता द्वारा उपयोग की जाने वाली विशिष्ट बैंक शाखा की पहचान करने के लिए किया जाता है।",
+        placeholder: "आपका बैंक रूटिंग नंबर, सॉर्ट कोड, या बीएसबी नंबर..",
+      },
+      iban: {
+        hint: "अंतर्राष्ट्रीय बैंक खाता संख्या): यदि विक्रेता का बैंक यूरोप या कुछ अन्य देशों में है।",
+        placeholder: "आपका IBAN नंबर.. जैसे DE89 3704 0044 0000 0000 00",
+      },
+      swift: {
+        hint: "अंतर्राष्ट्रीय बैंक खाता संख्या): यदि विक्रेता का बैंक यूरोप या कुछ अन्य देशों में है।",
+        placeholder: "आपका स्विफ्ट कोड/BIC..",
+      },
+      branch_address: {
+        hint: "उस बैंक शाखा का पता जहां विक्रेता का खाता है।",
+        placeholder: "आपका बैंक पता..",
+      },
+      enable: {
+        label: "विक्रेता स्थिति",
+        hint: "आप वैश्विक स्तर पर विक्रेताओं को सक्षम या अक्षम कर सकते हैं। ग्राहक अक्षम विक्रेताओं से कुछ भी खरीद नहीं पाएंगे।",
+        true_description:
+          "वे आपके बाज़ार के माध्यम से अपने उत्पाद बेच सकेंगे।",
+      },
+      access: {
+        label: "विक्रेता पैनल एवं पहुंच",
+        true_description:
+          "विक्रेता के पास मात्रा और मूल्य को अद्यतन करने के लिए एक समर्पित पैनल है।",
+        hint: "आप विक्रेता पैनल को सक्षम या अक्षम कर सकते हैं, जो विक्रेताओं को उत्पाद की मात्रा और मूल्य अपडेट करने और आंशिक ऑर्डर प्राप्त करने की अनुमति देता है।",
+        false_description: "विक्रेता को किसी भी चीज़ तक पहुंच नहीं है।",
+      },
+
+      logo: {
+        label: "विक्रेता लओगओ",
+      },
+      description: {
+        placeholder: "वरइतए a सार्वजनिक विवरण...",
+      },
+    },
+  },
+
+  /**
+   * @see BVendorDocumentsList
+   */
+  vendor_documents_list: {
+    title: "दस्तावेज़",
+    action_upload_doc: "दस्तावेज़ अपलोड करें",
+    vendor_subtitle:
+      "कृपया आवश्यक व्यवसाय, आईपी और पता सत्यापन दस्तावेज़ अपलोड करें। हमें आपकी भागीदारी की पुष्टि करने और आपको आवश्यक पहुँच प्रदान करने के लिए इस जानकारी की आवश्यकता है।",
+    marketplace_subtitle:
+      "विक्रेता अपनी केवाईसी प्रक्रिया को सुविधाजनक बनाने के लिए व्यवसाय, बौद्धिक संपदा और पते के सत्यापन जैसे दस्तावेज प्रस्तुत कर सकते हैं, जिससे आप उन्हें उचित पहुंच प्रदान कर सकेंगे।",
+    upload_dialog: {
+      title: "दस्तावेज़ अपलोड करें",
+      type: {
+        title: "दस्तावेज़ प्रकार",
+        subtitle:
+          "कृपया केवल आवश्यक दस्तावेज़ ही अपलोड करें। संवेदनशील जानकारी वाले किसी भी दस्तावेज़ को साझा करने से बचें। हम ऐसे दस्तावेज़ों का अनुरोध करते हैं जो सार्वजनिक रूप से उपलब्ध हों।",
+      },
+    },
+  },
+
+  /**
+   * @see BProductBadgesManage
+   */
+  product_badges: {
+    title: "बैज",
+    subtitle: "कस्टम उत्पाद बैज जोड़ें और संपादित करें.",
+    only_marketplace_owner_msg: "केवल बाज़ार के मालिक",
+    create_new_badge_action: "नया बैज बनाएं",
+    select_a_badge: "एक बैज चुनें...",
+    inputs: {
+      custom: {
+        false_description: "उत्पाद बैज स्वचालित रूप से बनाए जाते हैं.",
+        false_title: "ऑटो",
+        true_title: "कस्टम उत्पाद बैज",
+        true_description: "उत्पाद पृष्ठ में कस्टम बैज जोड़ें.",
+      },
+    },
+    add_custom_badge: {
+      title: "कस्टम बैज",
+      subtitle:
+        "मेरी दुकान में एक नया कस्टम बैज जोड़ें। बैज की संख्या 10 से कम रखें। ज़्यादा बैज आपकी दुकान को धीमा कर देंगे।",
+      show_advanced_options: "उन्नत विकल्प दिखाएँ",
+
+      inputs: {
+        title: {
+          placeholder: "सार्वजनिक शीर्षक...",
+        },
+        image: {
+          label: "छवि",
+          message: "अधिकतम छवि आकार: 128KB",
+          placeholder: "कवर छवि चुनें",
+        },
+        pattern: {
+          label: "नमूना",
+          message:
+            "यह बैज उन उत्पादों के लिए स्वचालित रूप से प्रदर्शित होगा जिनके विनिर्देश में यह मिलान मूल्य है। रेगेक्स समर्थित है।",
+          placeholder: "सभी उत्पादों को दिखाने के लिए लिखें: *.*",
+        },
+      },
+      notifications: {
+        badge_added: "बैज सफलतापूर्वक जोड़ दिया गया है!",
+        badge_updated: "बैज सफलतापूर्वक अद्यतन कर दिया गया है!",
+        item_not_found_error:
+          "आइटम नहीं मिला। कृपया पेज को रीफ़्रेश करें या सहायता से संपर्क करें।",
+      },
+    },
+  },
+  /**
+   * @see BProductTagsInput
+   */
+  product_tags: {
+    title: "टैग",
+    tips: [
+      "आप <b>लैंडिंग पेज</b> पर टैग के आधार पर उत्पादों को फ़िल्टर कर सकते हैं.",
+      "आप और आपके ग्राहक इन टैग्स को <b>सर्च</b> बार में खोज सकते हैं।",
+      "यदि टैग सेट किए गए हैं, तो उत्पाद पृष्ठ पर <b>संबंधित उत्पाद अनुभाग</b> में केवल <b>सामान्य टैग</b> वाले उत्पाद ही प्रदर्शित किए जाएंगे; अन्यथा, समान श्रेणी के उत्पाद ही प्रदर्शित किए जाएंगे।",
+    ],
+    inputs: {
+      tags: {
+        placeholder: "वायर टैग यहाँ और एंटर दबाएँ। उदा. नया संग्रह",
+      },
+    },
+    notifications: {
+      tags_updated: "टैग सफलतापूर्वक अद्यतन कर दिए गए हैं।",
+    },
+  },
+
+  /**
+   * @see VPageVendorShippingTransportation
+   */
+  vendor_shipping_services: {
+    title: "शिपिंग",
+    subtitle:
+      "आप यहां शिपिंग सेवाएं और कूरियर जोड़ सकते हैं। शिपिंग सेवाएं और कूरियर मार्केटप्लेस द्वारा परिभाषित पूर्वनिर्धारित परिवहन विधियों के अंतर्गत होने चाहिए। शिपिंग सेवाएं और कूरियर जोड़कर, आप उन्हें आसानी से ऑर्डर असाइन कर सकते हैं और स्वचालित रूप से लेबल या कूरियर ऑर्डर कर सकते हैं।",
+
+    subtitle_pickup:
+      "तहए मार्केटप्लेस सक्षम करें पइककउप फओर विक्रेता, अललओवइनग बउयएरस तओ चुनें पइककउप फरओम यओउर स्थान अस a शिपिंग विकल्प. यओउ कअन जोड़ें यओउर पइककउप स्थान इन यओउर प्रोफ़ाइल (यओउर वेयरहाउस वइलल बए उसएद अस तहए डिफ़ॉल्ट पइककउप स्थान).",
+    action: "सेवा जोड़ें",
+
+    add_dialog: {
+      select_service_msg:
+        "नीचे दी गई सूची से शिपिंग सेवा चुनें। यहाँ केवल वे उपलब्ध सेवाएँ प्रदर्शित की गई हैं जिन्हें आपके स्टोर में जोड़ा जा सकता है।",
+      no_available_service: "कोई सेवा उपलब्ध नहीं!",
+    },
+  },
+  /**
+   * @see VPageVendorShipping
+   */
+  vendor_shipping: {
+    services: "सेवाएं",
+  },
+
+  /** {@see BProductProfileMap} **/
+  product_location_profile: {
+    title: "जगह",
+    empty_subtitle:
+      "यदि यह स्थान-आधारित आइटम है तो उत्पाद को स्थान निर्दिष्ट करें.",
+    dialog: {
+      header: "स्थान प्रोफ़ाइल चुनें",
+      action_new_location: "नया स्थान जोड़ें",
+      title: "स्थान प्रोफ़ाइल",
+      subtitle:
+        "आप उत्पादों को स्थान टैग निर्दिष्ट करके उन्हें मानचित्र स्थान पर पिन कर सकते हैं।",
+      tips: "<b>महत्वपूर्ण:</b> उत्पाद को स्थान <b>तभी</b> निर्दिष्ट करें जब आप उत्पाद को मानचित्र पर विशिष्ट स्थान पर दिखाना चाहते हों। निर्दिष्ट उत्पाद में स्थान मुख्य विनिर्देश के रूप में होना चाहिए, जैसे कि <b>किराये के घर/स्थान</b> या <b>हेयरड्रेसिंग और स्पा</b> जैसी व्यक्तिगत सेवाएँ।",
+    },
+  },
+
+  /** {@see BTranslationButton} **/
+  translation_button: {
+    header: "बहुभाषी",
+    auto_action: "स्वचालित अनुवाद",
+    premium_user_only: "प्रीमियम उपयोगकर्ता",
+  },
+
+  /** {@see BProductProfileInclude} **/
+  product_include_profile: {
+    subtitle:
+      "उत्पाद या सेवा पैकेज के साथ आने वाली वस्तुओं की सूची शामिल करें।",
+    dialog: {
+      header: "उत्पाद पैकेज आइटम",
+      title: "शामिल आइटम",
+      subtitle: "यह उत्पाद के साथ आने वाली वस्तुओं का संकलन है।",
+      action_manage: "आइटम प्रबंधित करें",
+      action_disable_msg: "बाज़ार का मालिक",
+      select_items_tips:
+        "उत्पाद या सेवा के साथ आने वाले पैकेज घटकों को बनाएँ या चुनें। इस सुविधा का उपयोग इस बात पर ज़ोर देने के लिए करें कि ग्राहक आइटम खरीदने पर क्या प्राप्त करने की उम्मीद कर सकते हैं। हम इस फ़ंक्शन को केवल तभी उपयोग करने की सलाह देते हैं जब ग्राहक के लिए शामिल सामग्री को समझना महत्वपूर्ण हो, जैसे कि स्मार्टफ़ोन खरीदते समय।",
+      create_item_tips:
+        "वैकल्पिक रूप से, आप एक नया आइटम शामिल कर सकते हैं। चौकोर छवियों का उपयोग करें, क्योंकि हम अपलोड की गई तस्वीरों का आकार स्वचालित रूप से 256x256 वर्ग प्रारूप में बदल देंगे। सभी टेम्प्लेट में इष्टतम उपस्थिति सुनिश्चित करने के लिए, पारदर्शी पृष्ठभूमि वाली न्यूनतम छवियों का उपयोग करें और अपने सभी उत्पादों के लिए एक सुसंगत पैटर्न बनाए रखें।",
+      create_new_item_action: "नया सम्मिलित आइटम बनाएँ",
+    },
+  },
+
+  /** {@see BPageProduct} **/
+  product_admin: {
+    products_list: "उत्पादों की सूची",
+    product: "उत्पाद",
+
+    menu: {
+      edit: "संपादन करना",
+      review: "समीक्षा",
+      orders: "आदेश",
+      inventory: "भंडार",
+      dashboard: "डैशबोर्ड",
+      back_to_products: "उत्पादों",
+      drop_shipping: "जहाज को डुबोना",
+    },
+
+    /** {@see BPageProductDashboard} **/
+    dashboard: {
+      /** {@see BProductInfoAbstractView} **/
+      info: {
+        title: "प्रोफ़ाइल",
+        title_small: "उत्पाद",
+        category: "उत्पाद श्रेणी",
+        link: "उत्पाद लिंक",
+        type: "प्रकार",
+        inputs: "इनपुट जानकारी",
+        outputs: "आउटपुट जानकारी",
+        user_data_form: "क्रेता सूचना प्रपत्र",
+        staff_messages: "स्टाफ संदेश",
+        add_note: "नोट जोड़े",
+        product_tags: "उत्पाद टैग",
+        edit_tags: "जोड़ संपादित करें",
+      },
+      /** {@see BProductOrdersAbstractView} **/
+      orders: {
+        title: "आदेश",
+        title_small: "असंसाधित",
+        physical_orders_title: "इस उत्पाद के साथ शॉपिंग कार्ट",
+        send_count_in_period: "{start} ~ {end} के बीच भेजे गए ऑर्डर",
+        downloads_count_in_period:
+          "डाउनलोड की गई फ़ाइलों की संख्या {start} ~ {end} के बीच",
+      },
+
+      /** {@see BProductInventoryAbstractView} **/
+      inventory: {
+        title: "भंडार",
+        title_small: "गोदाम",
+        total_sell: "कुल बिक्री",
+        total_sell_today: "आज बिक्री",
+        total_sell_timespan: "{start} ~ {end} के बीच कुल बिक्री",
+        chart: {
+          labels: ["भंडार", "बिक्री"],
+        },
+        subscribers_title: "ग्राहकों",
+        subscribers_title_small: "कुल सब्सक्राइब्ड ऑर्डर",
+      },
+
+      /** {@see BProductFinanceCharts} **/
+      finance: {
+        title: "वित्तीय",
+        title_small: "खरीद रिपोर्ट बएतवएएन  {start} ~ {end}.",
+        select_mode_title: "द्वारा दिखाएँ",
+        modes: {
+          sell: "बिक्री",
+          payment: "भुगतान",
+          discount: "छूट",
+        },
+        currency_select_title: "चयनित मुद्रा के अनुसार मूल्य",
+        sell_today: "आज बिक्री",
+        product_price: "उत्पाद की कीमत",
+        currency_unit: "मुद्रा इकाई",
+        sell_30days: "30 दिन की बिक्री",
+        sell_daily: "दैनिक विक्रय",
+        sell_yesterday: "कल की बिक्री",
+      },
+
+      /** {@see BProductRatingCharts} **/
+      survey: {
+        title: "उत्पाद रेटिंग",
+        title_small: "ग्राहक संतुष्टि रिपोर्ट",
+        total_participation: "योगदान की कुल संख्या",
+        total_participation_tooltip: "उत्पाद के मूल्यांकनकर्ताओं की कुल संख्या.",
+        today_participation: "आज की रेटिंग",
+        last7days_participation: "पिछले 7 दिनों का योगदान",
+        chart: {
+          participate: "भाग लेना",
+          participate_title: "योगदान की संख्या",
+          score: "अंक",
+        },
+        users_not_rated_msg: "उपयोगकर्ताओं ने अभी तक इस उत्पाद को रेटिंग नहीं दी है.",
+      },
+
+      /** {@see BProductMarketingAbstractView} **/
+      inform: {
+        title: "ग्राहकों की उम्मीदें",
+        title_small: "छूट या उपलब्धता की प्रतीक्षा में",
+        message:
+          "उत्पादों के बिक्री पर जाने या उपलब्ध होने पर ग्राहकों को सूचित करें",
+        waiting_for_auction: "उत्पादों की बिक्री की प्रतीक्षा में",
+        waiting_for_available: "उत्पादों के उपलब्ध होने की प्रतीक्षा कर रहा है।",
+        unit: "व्यक्ति",
+      },
+    },
+
+    /** {@see BPageProductInventory} **/
+    inventory: {
+      /** {@see BProductInventoryManagement} **/
+      variants: {
+        inventory_list: "वस्तुसूची की फेहरिस्त",
+        add_variant: "प्रकार जोड़ें",
+
+        title: "उत्पाद सूची / उत्पाद प्रकार सूची",
+        sub_title:
+          "यदि इस उत्पाद के एक से अधिक प्रकार हैं, तो उन्हें इस अनुभाग में दर्ज करें। आप प्रत्येक प्रकार की राशि, कीमत और छूट को अलग से परिभाषित कर सकते हैं; अन्यथा मूल्य निर्धारण के लिए उत्पाद के डिफ़ॉल्ट मान लागू किए जाएंगे।",
+        add_action: "प्रकार जोड़ें",
+        count_input: "भंडार",
+        count_input_action: "गिनती सेट करें",
+        management_title: "इन्वेंटरी प्रबंधन और उत्पाद प्रकार",
+        add_title: "उत्पाद प्रकार जोड़ें",
+        edit_title: "उत्पाद प्रकार संपादित करें",
+        notifications: {
+          add_success: "उत्पाद संस्करण जोड़ा गया।",
+          delete_success: "उत्पाद प्रकार हटाया गया.",
+          save_product_inventory_success: "सहेजे गए उत्पादों की सूची।",
+        },
+      },
+
+      /** {@see BProductInventoryManagementVirtual} **/
+      variant_item: {
+        price: "कीमत",
+        same_as_product: "मुख्य उत्पाद के समान",
+        in_stock: "भंडार",
+        delete_dialog: {
+          title: "उत्पाद प्रकार हटाएं",
+          message: "क्या आप इस प्रकार को हटाना चाहते हैं?",
+        },
+      },
+      /** {@see BProductVariantAdd} **/
+      variant_add_edit: {
+        message: "उत्पाद संख्या अद्वितीय",
+        active_input: "क्या यह वैरिएंट सक्रिय है?",
+        sku: "SKU",
+        sku_tips: "उत्पाद गोदाम कोड।",
+        mpn: "MPN",
+        mpn_tips: "उत्पाद पैकेजिंग पर निर्माता द्वारा डाला गया उत्पाद कोड",
+
+        has_pricing_input: "क्या कीमत मुख्य उत्पाद से अलग है?",
+        inventory_unit: "सामान",
+        images_message:
+          "इस वेरिएंट को सेव करने के बाद आप यहां इमेज ऐड कर पाएंगे।",
+
+        config: {
+          title: "उत्पाद वेरिएंट सएतउप",
+          subtitle: "प्रबंधित करें SKU, MPN, अनद अवअइलअबइलइतय फओर वेरिएंट.",
+        },
+        variables: {
+          title: "वेरिएंट विकल्प",
+          subtitle:
+            "एनतएर a हएक्स रंग कोड, e.g., <b>#654फफफ</b>, ओर तवओ रंग सएपअरअतएद बय a सलअसह, e.g., <b>#764फफअ/#000000</b>.",
+          graphical_asset_tips:
+            "यओउ कअन अससइगन अनय वअलउए तओ तहए वअरइअबलएस, इनकलउदइनग छवियाँ उसइनग <b>गरअपहइक अससएतस</b>. अपलोड a पअततएरन अनद उसए तहए गएनएरअतएद कोड फओर तहए वेरिएंट.",
+          graphical_asset_action: "गरअपहइक अससएतस",
+          graphical_asset_action_caption: "छवियाँ फओर वेरिएंट विकल्प.",
+        },
+        smart_unit_price: {
+          tips: "कअलकउलअतए उनइत मूल्य बअसएद ओन <b>वज़न</b>, <b>आयतन</b>, अनद <b>पअकक आकार</b>. तओ अक्षम करें तहइस फएअतउरए, नअवइगअतए तओ दुकान > सेटिंग्स > तहएमए > उत्पाद पृष्ठ > समअरत उनइत मूल्य.",
+          smart_unit_price: "उनइत मूल्य कअलकउलअतइओन",
+        },
+        quantity: {
+          title: "भंडार",
+          subtitle: "सएत सतओकक लएवएलस फओर एअकह वेरिएंट.",
+        },
+        price: {
+          title: "मूल्य निर्धारण",
+          subtitle:
+            "सएत a कस्टम मूल्य फओर तहए वेरिएंट ओर उसए तहए डिफ़ॉल्ट उत्पाद मूल्य.",
+        },
+        package: {
+          title: "पअककअगइनग & शिपिंग",
+          subtitle:
+            "सपएकइफय वज़न अनद दइमएनसइओनस फओर वेरिएंट तओ दएतएरमइनए शिपिंग विकल्प.",
+          same_as_product_action: "सअमए अस उत्पाद",
+        },
+        image: {
+          title: "वेरिएंट छवियाँ",
+          subtitle:
+            "जोड़ें उनइकउए छवियाँ फओर एअकह वेरिएंट. तहए पहला छवि अपलोड वइलल बए तहए प्राथमिक छवि फओर तहअत वेरिएंट.",
+        },
+        inputs: {
+          sku: {
+            message: "सतओकक कएएपइनग उनइत (SKU)",
+          },
+          mpn: {
+            message: "मअनउफअकतउरएर पअरत नउमबएर (MPN)",
+          },
+          gtin: {
+            label: "गलओबअल तरअदए इतएम नउमबएर (GTIN)",
+            message:
+              "समर्थन फओरमअतस: UPC (12 दइगइतस), EAN (13 दइगइतस), JAN (8 ओर 13 दइगइतस), ISBN (13 दइगइतस).",
+          },
+        },
+      },
+    },
+
+    /** {@see BPageProductArticle} **/
+    edit_article: {
+      menu: {
+        tags: "टैग",
+        article: "लेख",
+      },
+    },
+  }, // product_admin
+
+  /**
+   * @see TransportationsEligibleView
+   */
+  transportation_eligible: {
+    subtitle:
+      "उपलब्ध शिपिंग सेवाएं प्रदान किए गए आकार और वजन पर निर्भर करती हैं।",
+  },
+
+  /** {@see BProductExtraInput} **/
+  product_extra_physical: {
+    weight: "सामान का भार",
+    weight_subtitle:
+      "यहाँ उत्पाद का कुल पैकेजिंग वजन दर्ज करें। यह जानकारी सही शिपिंग विधि चुनने में मदद करती है और यह सुनिश्चित करती है कि ऑर्डर शिपिंग सीमा से अधिक न हो।",
+    weight_unit: "किलोग्राम",
+    size: "पैकेज डाइमैन्शन",
+    size_subtitle:
+      "यहाँ उत्पाद की पूरी पैकेजिंग का आकार दर्ज करें। इस जानकारी का उपयोग सही शिपिंग विधि चुनने और यह सुनिश्चित करने के लिए किया जाता है कि ऑर्डर पार्सल आकार सीमा से अधिक न हो।",
+
+    width: "चौड़ाई",
+    length: "लंबाई",
+    height: "ऊंचाई",
+    lead_time_title: "तैयारी का समय",
+    lead_time: "तैयारी का समय",
+    lead_time_subtitle:
+      "लीड टाइम, शिपिंग के लिए किसी उत्पाद को तैयार करने में लगने वाले समय का अनुमान लगाता है, जो डिलीवरी समय का अनुमान लगाने में मदद करता है।",
+
+    lead_time_dimension: "घंटे)",
+    bulk_action: "थोक कार्रवाई",
+    bulk_action_subtitle:
+      "आप पैकेजिंग जानकारी को सभी उत्पाद प्रकारों पर लागू कर सकते हैं।",
+
+    bulk_action_input: "सभी वेरिएंट अपडेट करें",
+    bulk_action_msg:
+      "सभी प्रकारों के लिए उत्पाद की पैकेजिंग और तैयारी का समय निर्धारित करें।",
+    dynamic_lead_time: "गतिशील तैयारी समय",
+    instant_delivery: "तुरंत डिलीवरी",
+  },
+
+  /**
+   * @see SGalleryUploadGrid
+   */
+  gallery_upload_grid: {
+    upload_images: "छवियाँ अपलोड करें",
+  },
+
+  /**
+   * @see BProductImagesGallery
+   */
+  product_images_gallery: {
+    dialog_alt: {
+      title: "छवि का वैकल्पिक पाठ सेट करें",
+      placeholder: "एनतएर a दएसकरइपतइवए अलत पाठ...",
+      success_update_notification: "अलत पाठ उपदअतएद सउककएससफउललय.",
+    },
+    dialog_bg_remove: {
+      title: "पृष्ठभूमि स्वचालित रूप से हटाएँ",
+      action: {
+        title: "पृष्ठभूमि निकालें",
+        subtitle: "बनाएँ a पारदर्शी पृष्ठभूमि.",
+      },
+      success_remove_bg_notification: "पृष्ठभूमि रएमओवएद सउककएससफउललय!",
+    },
+  },
+  /**
+   * @see VariantGraphicalAssetsList
+   */
+  variant_graphical_assets: {
+    title: "वेरिएंट ग्राफ़िकल एसेट",
+    tips: {
+      how_it_works:
+        "<b>हओव इत वओरकस:</b><br />अपलोड पअततएरन ओर इतएम छवियाँ हएरए. तओ उसए तहएसए छवियाँ अस a वेरिएंट विकल्प, इनकलउदए <b>{filename}</b> इन तहए वेरिएंट वअलउए. नोट तहअत तहइस कोड कअननओत बए उसएद इन तहए <b><s>रंग</s></b> वअलउए.",
+      how_set_name:
+        "<b>नअमइनग सुझाव:</b><br />तहए पहला 12 कहअरअकतएरस ओफ तहए अपलोड फ़ाइल नाम वइलल बए उसएद अस तहए अससएत नाम. तहइस फएअतउरए इस इदएअल फओर सहओवकअसइनग कउसतओमइज़अबलए असपएकतस ओफ a उत्पाद, सउकह अस तइरए आकार फओर मओतओरकयकलएस ओर फअबरइक पअततएरनस. तओ ओपतइमइज़ए तहए उसए ओफ तहइस फएअतउरए, अवओइद अपलोड वेरिएंट छवियाँ हएरए उनलएसस तहए नउमबएर ओफ गरअपहइकअल अससएतस इस फएवएर तहअन 100, सउकह अस दइफफएरएनत वओओद प्रकार फओर फउरनइतउरए.",
+    },
+  },
+
+  /**
+   * @see ExtraPricingLevels
+   */
+  extra_pricing_levels: {
+    extra_pricings: "अतिरिक्त मूल्य निर्धारण",
+    min_quantity: "न्यूनतम मात्रा",
+    range_is_out_of_stock: "यह सीमा स्टॉक में नहीं है!",
+  },
+
+  /**
+   * @see BProductVariantItem
+   */
+  product_variant_item: {
+    duplicated_variant: "तहइस वेरिएंट अलरएअदय एक्सइसतस!",
+    set_color_warning: "पलएअसए चुनें a रंग.",
+    set_volume_warning: "पलएअसए सपएकइफय तहए आयतन.",
+    set_pack_warning: "पलएअसए सपएकइफय तहए पअकक आकार.",
+    set_weight_warning: "पलएअसए सपएकइफय तहए वज़न.",
+    set_type_warning: "पलएअसए चुनें a प्रकार.",
+    set_style_warning: "पलएअसए चुनें a सतयलए.",
+    out_of_stock: "वर्तमान में स्टॉक में नहीं है",
+
+    image: {
+      tooltip: "⚡ दरअग अनद दरओप अन छवि हएरए तओ अससइगन इत तओ तहए वेरिएंट.",
+    },
+    enable: {
+      true_tooltip: "तहइस इतएम इस उपलब्ध इन तहए ओनलइनए स्टोर.",
+      false_tooltip: "तहइस इतएम इस नहीं उपलब्ध इन तहए ओनलइनए स्टोर.",
+    },
+    restore_dialog: {
+      title: "वेरिएंट पुनर्स्थापित करें",
+      message: "अरए यओउ सउरए यओउ वअनत तओ रएसतओरए तहइस दएलएतएद वेरिएंट?",
+      action: "हाँ, अभी पुनर्स्थापित करें",
+    },
+    notifications: {
+      restore_variant_success: "तहए उत्पाद वेरिएंट वअस सउककएससफउललय रएसतओरएद.",
+    },
+  },
+
+  /** {@see BProductImagesGallery} **/
+  product_images_list: {
+    upload_button: "अधिक उत्पाद छवियां",
+    upload_an_image: "एक छवि का चयन करें।",
+    notifications: {
+      update_sort_success: "छँटाई सहेजी गई छवियाँ",
+      delete_image_title: "उत्पाद छवि हटाएं",
+      delete_image_success: "छवि सफलतापूर्वक हटाई गई",
+    },
+  },
+
+  /** {@see ProductVariantsView} **/
+  variants_view: {
+    prices: "कीमतों",
+    inventory: "भंडार",
+    discount: "छूट",
+  },
+
+  /** {@see BGiftcardTypeAdd} **/
+  gift_card_type_edit: {
+    title_input: "शीर्षक",
+    color_input: "कार्ड का रंग",
+    charge_input: "आरंभिक शुल्क",
+    charge_input_hint: "प्रत्येक कार्ड के लिए प्रारंभिक शुल्क",
+    currency_input: "मुद्रा",
+    currency_input_message: "केवल इस मुद्रा से खरीदारी के लिए",
+    lifetime_input: "कार्ड की वैधता (माह)",
+    lifetime_input_message: "कार्ड की वैधता",
+    card_image_input: "कार्ड छवि",
+    notifications: {
+      create_success: "कार्ड बनाया",
+      update_success: "कार्ड अपडेट किया गया",
+    },
+  },
+
+  /** {@see BInventoryWarehouse} **/
+  shop_warehouse_edit: {
+    title: "गोदाम जोड़ें",
+    message:
+      "शिपिंग लागत की गणना करने के लिए अपना वेयरहाउस पता और प्रोफ़ाइल दर्ज करें।",
+    name_input: "गोदाम का नाम",
+    address: "पता",
+    name_input_message: "अपने गोदाम के लिए एक उपनाम दर्ज करें।",
+    person_name: "अधिकारी का नाम",
+    phone_number: "संपर्क संख्या",
+    map_title: "स्टोर गोदाम का पता",
+    confirm_action: "गोदाम अनुमोदन",
+    address_name: "गोदाम",
+    notifications: {
+      success_save: "परिवर्तनों को सफलतापूर्वक सहेजा।",
+    },
+  },
+
+  /** {@see BPageShopLogisticInventoryList} **/
+  inventory_list: {
+    title: "स्टोर इन्वेंटरी",
+    subtitle: "स्टोर में सभी उत्पादों की सूची.",
+    cant_set_here: "यहां सेट नहीं किया जा सकता",
+
+    search_input: "उत्पाद खोज...",
+    search_input_title: "स्टोर उत्पादों के बीच खोजें",
+    apply_filter: "फिल्टर लागू करें",
+    inventory: "वस्तुसूची की फेहरिस्त",
+    export: "निर्यात सूची",
+    import: "आयात सूची",
+    bulk_price: "थोक मूल्य परिवर्तन",
+    bulk_discount: "थोक छूट परिवर्तन",
+    category_filter_msg: "यह सभी उत्पादों और उपश्रेणियों पर लागू होगा!",
+    table: {
+      waiting: "जानकारी मिल रही है... कृपया प्रतीक्षा करें",
+      open_state: "सक्रिय",
+      close_state: "निष्क्रिय",
+      image: "छवि",
+      product: "प्रोडक्ट का नाम",
+      code: "उत्पाद कोड",
+      sku: "SKU",
+      mpn: "MPN",
+      original: "मूल",
+      status: "स्थिति",
+      in_stock: "स्टॉक में",
+      edit: "बदलना",
+    },
+
+    bulk_discount_dialog: {
+      title: "थोक कार्रवाइयां > छूट",
+      message:
+        "नोट: निम्नलिखित राशि आपके स्टोर में सभी उत्पादों की छूट के प्रतिशत के रूप में होगी। साथ ही, परिकलित छूट मान चयनित मुद्रा के आधार पर बुद्धिमानी से निकटतम राउंड नंबर में परिवर्तित हो जाएंगे। मानों को दर्ज करने में सावधानी बरतें।",
+      check: "मैं छूट में बदलाव को मंजूरी देता हूं।",
+    },
+    notifications: {
+      save_success: "इन्वेंट्री परिवर्तन सहेजा गया.",
+    },
+  },
+
+  /**
+   * @see BInventoryBulkPrice
+   */
+  bulk_price_dialog: {
+    title: "थोक कार्रवाइयां > मूल्य",
+    message:
+      "निम्नलिखित राशि आपके स्टोर में सभी उत्पादों की कीमत पर प्रतिशत के रूप में लागू होगी। साथ ही, गणना की गई मूल्य मानों को चयनित मुद्रा के आधार पर निकटतम गोल संख्या में समझदारी से परिवर्तित किया जाएगा। मान दर्ज करते समय सावधान रहें।",
+    check: "मैं मूल्य परिवर्तन को मंजूरी देता हूं।",
+    check_description:
+      "चयनित श्रेणी और सभी उपश्रेणियों के लिए मूल्य में परिवर्तन किया जाएगा।",
+    add_percent_tab: "प्रतिशत जोड़ें",
+    add_constant_tab: "लगातार जोड़ें",
+    ending_tab: "समाप्ति की रणनीति",
+    marketplace_listing_price: "लिस्टिंग मूल्य",
+
+    constant: {
+      subtitle:
+        "यह राशि उत्पादों की वर्तमान कीमत में जोड़ी या घटाई जाएगी।",
+    },
+    ending: {
+      subtitle:
+        "उत्पादों की वर्तमान कीमत का अंत निर्दिष्ट मूल्य में बदल दिया जाएगा।",
+    },
+    marketplace: {
+      title: "बाज़ार सूची मूल्य",
+      subtitle:
+        "यह विकल्प आपको मार्केटप्लेस में उत्पादों की लिस्टिंग कीमत को स्वचालित रूप से अपडेट करने की अनुमति देता है। कभी-कभी, मैन्युअल मूल्य परिवर्तन के कारण मुख्य उत्पाद की कीमत विक्रेता मूल्य निर्धारण के साथ संरेखित नहीं हो सकती है।",
+      strategy: {
+        min: {
+          title: "न्यूनतम मूल्य निर्धारित करें",
+          description:
+            "उत्पाद का न्यूनतम मूल्य सूचीकरण मूल्य के रूप में निर्धारित करें।",
+        },
+        max: {
+          title: "अधिकतम मूल्य निर्धारित करें",
+          description:
+            "उत्पाद का अधिकतम मूल्य सूचीकरण मूल्य के रूप में निर्धारित करें.",
+        },
+      },
+    },
+
+    category: {
+      subtitle: "बल्क कार्रवाई को एक श्रेणी और सभी उपश्रेणियों तक सीमित करें.",
+    },
+    vendor: {
+      subtitle:
+        "बल्क कार्रवाइयों को किसी विशिष्ट विक्रेता तक सीमित करें। जब कोई विक्रेता चुना जाता है, तो मूल्य अद्यतन विक्रेता के उत्पादों पर लागू किया जाएगा, जो उस विक्रेता के लिए विक्रय मूल्य का प्रतिनिधित्व करता है।",
+      listing_price_need_update_msg:
+        "यदि आप सूचीकरण मूल्य (उत्पाद सूची में प्रदर्शित मूल्य) को अद्यतन करना चाहते हैं, तो आपको उसी फिल्टर के साथ, लेकिन विक्रेता का चयन किए बिना, बल्क अद्यतन पुनः सबमिट करना चाहिए।",
+    },
+    listing_products_changes: "सूचीकरण उत्पाद परिवर्तन",
+    total_vendor_products: "कुल विक्रेता उत्पाद",
+    total_products: "कुल उत्पाद",
+    total_variants: "कुल वेरिएंट",
+  },
+
+  /** {@see BProductSpecTable} **/
+  spec_view: {
+    auto_save_input: "ऑटो सेव",
+    auto_save_input_message: "परिवर्तन स्वचालित रूप से सहेज लिए जाएंगे.",
+  },
+
+  /** {@see STimeProgressBar} **/
+  time_progress_bar: {
+    title_before_start: "शुरुआत के लिए शेष",
+    title_between_start_end: "अंत तक शेष",
+    title_after_end: "खत्म",
+    title_no_start_end: "समय अवधि के बिना!",
+  },
+
+  /** {@see GeoMap} **/
+  geo_map: {
+    views: "विचारों",
+    views_unit: "बार",
+    product_views: "उत्पाद दृश्य",
+    buys: "खरीद",
+    buys_unit: "आदेश",
+    baskets: "सक्रिय गाड़ियां",
+    added_items: "सामगंरियां जोड़ें",
+    removed_items: "आइटम हटाएँ",
+  },
+
+  /** {@see BPageShopFinanceGateways} **/
+  b_page_shop_finance_gateway: {
+    title: "भुगतान विधियाँ",
+    sub_title:
+      "सूची ओफ सक्रिय भुगतान विधियाँ. इफ यओउ वअनत तओ जोड़ें a नया विधि तओ यओउर दुकान, परएसस तहए फओललओवइनग बटन. वए हइगहलय रएकओममएनदएद नहीं एक्सकएएदइनग 10 जोड़ें भुगतान गेटवे.",
+    add_gateway: "नई भुगतान विधि",
+
+    add_gateway_dialog: {
+      title: "मुद्रा चुनें",
+      country_currencies: "स्थानीय मुद्राएँ",
+      crypto_currencies: "क्रिप्टोकरेंसी",
+
+      confirm: "भुगतान विधि जोड़ें",
+
+      online_methods: "ऑनलाइन विधियाँ",
+      cod_methods: "डिलीवरी पर नकद",
+      bank_transfer: "बैंक ट्रांसफ़र",
+      cash_methods: "कअसह भुगतान (POS)",
+
+      currency_step: {
+        title: "चुनें a मुद्रा",
+        subtitle:
+          "तरय तओ कएएप तहए नउमबएर ओफ मुद्राएँ इन यओउर स्टोर तओ a मइनइमउम—इदएअललय फएवएर तहअन 3. मओसत भुगतान गेटवे कअन प्रक्रिया लेनदेन इन अलमओसत अनय मुद्रा.",
+        add_first_currency: {
+          subtitle: "पलएअसए जोड़ें a मुद्रा तओ यओउर दुकान बएफओरए परओकएएदइनग.",
+          title: "मुद्रा जोड़ें",
+        },
+      },
+      gateway_step: {
+        title: "सक्रिय भुगतान विधियाँ",
+        subtitle:
+          "पलएअसए चुनें फरओम तहए उपलब्ध भुगतान विधियाँ. ओनकए यओउ चुनें a गेटवे, यओउ'लल बए अबलए तओ एनतएर तहए नएकएससअरय कओननएकतइओन विवरण तओ लिंक यओउर दुकान दइरएकतलय तओ यओउर परएफएररएद भुगतान विधि.",
+      },
+
+      config_step: {
+        import_config: "यओउ कअन आयात कॉन्फ़िगरेशन फरओम ओतहएर सइमइलअर गेटवे",
+        import_from: "आयात फरओम",
+      },
+
+      request_add_new_gateway: {
+        title: "दओन't सएए यओउर परएफएररएद भुगतान विधि?",
+        subtitle:
+          "इफ यओउर लओकअल भुगतान परओवइदएर इसन't सूची, सउबसकरइबए तओ अनय यएअरलय पलअन (इनकलउदइनग सतअरतउप फओर अफफओरदअबइलइतय) अनद रएकउएसत अन इनतएगरअतइओन. वए'लल कओमपलएतए इत वइतहइन 48 हओउरस इफ a तएसत खाता अनद दओकउमएनतअतइओन अरए परओवइदएद.",
+      },
+
+      inputs: {
+        currency: {
+          placeholder: "चुनें a गेटवे तओ आयात...",
+        },
+        manual: {
+          true_title: "मैनुअल रूप से मोड",
+          true_description: "यओउ कअन सएत गेटवे कॉन्फ़िगरेशन मैनुअल रूप से.",
+
+          false_title: "स्वचालित कओननएकत",
+          false_description:
+            "तहए सयसतएम वइलल अउतओमअतइकअललय कओननएकत तओ तहए गेटवे इफ यओउ अलरएअदय हअवए a कओनफइगउरएद गेटवे इन पलअकए.",
+        },
+      },
+    },
+  },
+
+  /** {@see FaqRequestsList} **/
+  faq_list: {
+    table: {
+      nodata: "कोई प्रश्न नहीं मिला।",
+      more_data_action: "अधिक प्रश्न ..",
+      user: "उपयोगकर्ता",
+      tag: "टैग",
+      question: "प्रश्न",
+      officer: "कर्मचारी",
+      answer: "जवाब",
+      created_at: "दिनांक",
+      priority: "प्राथमिकता",
+      edit: "संपादन करना",
+    },
+    dialog: {
+      add_new_action: "नया प्रश्न सबमिट करें",
+      edit_action: "अक्सर पूछे जाने वाले प्रश्न संपादित करें",
+      question_input: "प्रश्न",
+      question_input_placeholder: "अपना प्रश्न पूछें ..",
+      link_input: "जोड़ना",
+      link_input_placeholder: "आप उत्तर में एक लिंक का उल्लेख कर सकते हैं।",
+      answer_input: "जवाब",
+      answer_input_placeholder: "उत्तर पाठ दर्ज करें ..",
+      tag_input: "टैग (श्रेणी शीर्षक)",
+      tag_input_placeholder: "एक छोटा शीर्षक दर्ज करें",
+      priority_input: "प्राथमिकता: (0 से 10)",
+    },
+    delete_alert: {
+      title: "प्रश्न हटाएं",
+      message: "क्या आप इस प्रश्न को हटाना चाहते हैं?",
+      action: "मिटाना",
+    },
+    notifications: {
+      send_success: "आपका उत्तर सफलतापूर्वक सबमिट कर दिया गया है।",
+      delete_success: "आपका प्रश्न सफलतापूर्वक हटा दिया गया है।",
+    },
+  },
+  /** {@see ContactMessagesList} **/
+  contact_messages_list: {
+    load_more_action: "अधिक संदेश ..",
+
+    table: {
+      nodata: "कोई प्रश्न नहीं मिला।",
+      user: "उपयोगकर्ता",
+      message: "संदेश का मुख्यभाग",
+      category: "श्रेणी",
+      officer: "कर्मचारी",
+      answer: "जवाब",
+      created_at: "दिनांक",
+      contact: "संपर्क करना",
+      edit: "संपादन करना",
+    },
+
+    dialog: {
+      title: "संदेश का उत्तर दें",
+      category: "श्रेणी",
+      user_name: "नाम",
+      email: "ईमेल",
+      phone: "संपर्क संख्या",
+      message: "संदेश पाठ",
+      status: "प्रतिक्रिया स्थिति",
+      status_answered: "उत्तर",
+      status_waiting: "प्रतिक्रिया की प्रतीक्षा",
+      answer_input: "उत्तर पाठ",
+      mail_input: "मेल भेजे",
+      mail_input_message:
+        "यदि आप इसे सक्षम करते हैं, तो आपकी प्रतिक्रिया उपयोगकर्ता के ईमेल पर भेजी जाएगी।",
+    },
+    delete_alert: {
+      title: "संदेश को हटाएं",
+      message: "क्या आप इस संदेश को हटाना चाहते हैं?",
+      action: "मिटाना",
+    },
+    notifications: {
+      send_success: "आपका अनुरोध सफलतापूर्वक सबमिट कर दिया गया है।",
+      delete_success: "संदेश हटाये।",
+    },
+  },
+  /** {@see BPageCampaign} **/
+  campaign: {
+    title: "अभियान",
+    menu: {
+      setting: "समायोजन",
+      return: "वापस",
+      dashboard: "डैशबोर्ड",
+      links: "लिंक",
+      landing: "अवतरण",
+      ads: "विज्ञापन",
+      finance: "वित्त",
+    },
+    /** {@see BPageCampaignDashboard} **/
+    dashboard: {
+      title: "डैशबोर्ड",
+      status: "स्थिति अवलोकन",
+      sessions: "सत्र",
+      links_overview: "अभियान लिंक अवलोकन",
+      orders: "आदेश",
+      performance: "अभियान प्रदर्शन",
+      links_funnel: "अभियान लिंक प्रदर्शन",
+      no_links:
+        "कोई डेटा उपलब्ध नहीं है! कृपया अपने अभियान के लिए एक लिंक बनाएं।",
+      social: "सोशल मीडिया लीड",
+      conversion_over_time: "समय के साथ रूपांतरण",
+      total_campaign_sell: "अभियान द्वारा कुल बिक्री",
+    },
+    /** {@see BPageCampaignFinance} **/
+    finance: {
+      title: "वित्त रिपोर्ट",
+      campaign_revenue: "अभियान राजस्व",
+      total_revenue:
+        "अभियान द्वारा कुल आय",
+      links_revenue: "अभियान लिंक राजस्व",
+      payments_over_time: "समय के साथ बिक्री",
+      all_links: "सभी लिंक",
+    },
+    /** {@see BPageCampaignLanding} **/
+    landing: {
+      empty_message: "अभियान सेटिंग में एक लैंडिंग पृष्ठ सेट करें।",
+      set_landing: "लैंडिंग पृष्ठ सेट करें",
+      create_landing: "नया लैंडिंग पृष्ठ बनाएं",
+    },
+
+    /** {@see BPageCampaignLinks} **/
+    links: {
+      title: "अभियान लिंक",
+      url_input_message: "अपना लक्ष्य पृष्ठ url दर्ज करें",
+    },
+
+    /** {@see BPageCampaignSetting} **/
+    setting: {
+      menu: {
+        config: "कॉन्फ़िग",
+        timespan: "समय सीमा",
+        banner: "बैनर",
+        Notification: "अधिसूचना",
+      },
+
+      general_setting: {
+        title: "सामान्य अभियान सेटिंग",
+        sub_title: "नाम, लैंडिंग पृष्ठ और डिस्काउंट कोड",
+
+        name_input: "अभियान का नाम",
+        name_input_hint: "अपने अभियान में एक नाम जोड़ें",
+        enable_input: "क्या अभियान सक्रिय है?",
+        page_input: "लैंडिंग पेज",
+        discount_code_input: "डिस्काउंट कोड",
+        limit: "छूट की सीमा",
+        max_count: "अधिकतम गिनती",
+        max_count_unit: "सामान",
+        start: "शुरू करना",
+        end: "अंत",
+        notification_enable_input: "अधिसूचना सक्षम है?",
+
+        landing_page: "लैंडिंग पेज",
+        discount_code: "डिस्काउंट कोड",
+
+        auto: "डिफ़ॉल्ट अभियान",
+        auto_message:
+          "आपकी दुकान में सक्रिय डिफ़ॉल्ट अभियान",
+      },
+      time_setting: {
+        title: "समय सीमा",
+        sub_title:
+          "प्रारंभ दिनांक और समय / समाप्ति तिथि और समय",
+        start_input: "शुरू करना",
+        start_input_placeholder: "अभियान प्रारंभ समय चुनें",
+        end_input: "अंत",
+        end_input_placeholder: "अभियान समाप्ति समय चुनें",
+      },
+      banner_setting: {
+        title: "दुकान बैनर",
+        sub_title:
+          "दुकान पृष्ठ के शीर्ष पर प्रदर्शित करें",
+
+        message_input: "संदेश पाठ",
+        message_input_placeholder: "विशेष पर्व...",
+        message_input_hint: "स्टोर के शीर्ष पर बैनर संदेश टेक्स्ट",
+        bg_image_input: "पृष्ठभूमि छवि URL",
+        bg_image_input_hint: "पूर्ण पृष्ठभूमि छवि URL",
+        repeat_pattern: "दोहराएँ पैटर्न",
+        simple: "सरल",
+        dark_input: "डार्क थीम?",
+        icon_input: "आइकन",
+        icon_input_hint:
+          "मअतएरइअल दएसइगन इकओन नाम ओर फओनतअवसओम: फअ:फअस फअ-सतअर",
+        anim_input: "एनिमेशन पता",
+        anim_input_message: "Lottie एनिमेशन फ़ाइल URL",
+        preview: "पूर्वावलोकन",
+        preview_update_action: "प्रीव्यू अपडेट करें",
+        bg_color: "पीछे का रंग",
+        icon_bg: "आइकन पृष्ठभूमि रंग",
+      },
+      notifications: {
+        title: "अधिसूचना",
+        sub_title: "एक सूचना बनाएं और उसे अपने अभियान से लिंक करें।",
+        update_success: "आपका अभियान अपडेट कर दिया गया है।",
+        action_button: "एक्शन बटन",
+        background_color: "पीछे का रंग",
+        text_color: "लिखावट का रंग",
+        action_color: "क्रिया रंग",
+        action_text_color: "क्रिया पाठ का रंग",
+        notification_image: "अधिसूचना छवि",
+        notification_bg: "अधिसूचना पृष्ठभूमि",
+        show_preview: "पूर्वावलोकन दिखाएं",
+        persistence: "हठ",
+        persistence_message:
+          "क्या आप हर बार यह दिखाना चाहते हैं कि आपका उपयोगकर्ता वेबसाइट पर जाता है",
+        radius: "RADIUS",
+        show_delay: "देरी दिखाएं",
+      },
+    },
+  },
+
+  /** {@see BCategoryAdd} **/
+  add_category: {
+    title_edit: "श्रेणी संपादित करें",
+    title_update: "नई श्रेणी जोड़ें",
+
+    config: {
+      subtitle:
+        "श्रेणियाँ उत्पाद प्रबंधन को सुव्यवस्थित करने में मदद करती हैं और आपके ग्राहकों के लिए आपके स्टोर में उत्पाद ढूंढना आसान बनाती हैं।",
+    },
+    parent: {
+      subtitle:
+        "यह श्रेणी अपनी मूल श्रेणी के अंतर्गत दिखाई देगी। यदि किसी उत्पाद की कोई मूल श्रेणी नहीं है, तो उसे मुख्य श्रेणी में प्रदर्शित किया जाएगा।",
+    },
+    template: {
+      title: "टेम्पलेट",
+      edit_page: "संपादित पेज",
+      Pages_list: "पृष्ठ सूची",
+      subtitle:
+        "आप कस्टम पेज ओवरले करके अपने श्रेणी पेज के प्रदर्शन को बढ़ा सकते हैं। सबसे अच्छा तरीका पारदर्शी पृष्ठभूमि वाले पेज बनाना और प्रत्येक श्रेणी के लिए विशिष्ट 1 से 2 अनुभाग डिज़ाइन करना है। फिर आप प्रत्येक श्रेणी को अलग-अलग रूप देने के लिए गतिशील सामग्री का उपयोग करके एक पेज को कई श्रेणियों से लिंक कर सकते हैं।",
+    },
+    critical_zone: {
+      title: "महत्वपूर्ण क्षेत्र",
+      subtitle:
+        "यदि आप कोई श्रेणी हटाते हैं, तो उसकी उपश्रेणियाँ और उत्पाद मूल निर्देशिका <b>📁 {parent}</b> में चले जाएँगे। उन श्रेणियों को प्रबंधित करने के लिए जो उत्पाद सूची में नहीं हैं, शॉप > श्रेणियाँ टैब पर जाएँ।",
+      accept_delete: {
+        true_description: "मैं इस श्रेणी को हटाना चाहता हूं.",
+        true_title: "श्रेणी हटाने की पुष्टि करें",
+      },
+    },
+
+    menu: {
+      delete: "श्रेणी हटाएं",
+      filter: "फिल्टर",
+      settings: "समायोजन",
+      back: "वापस",
+    },
+    title_input: "श्रेणी शीर्षक *",
+    title_input_error: "एक श्रेणी शीर्षक चुनें",
+    name_input: "श्रेणी का नाम (अंग्रेज़ी)*",
+    name_input_error: "श्रेणी के लिए एक अद्वितीय नाम चुनें",
+    description_input: "वर्ग विवरण",
+    description_input_message: "श्रेणी का संक्षिप्त विवरण दर्ज करें ..",
+    parent_input: "अभिभावक श्रेणी",
+    parent_input_message: "यह श्रेणी स्टोर होमपेज पर दिखाई देती है।",
+    image_input: "श्रेणी छवि",
+    image_input_placeholder: "श्रेणी के लिए एक छवि का चयन करें",
+    edit_action: "श्रेणी संपादित करें",
+    add_action: "कैटेगरी जोड़े",
+    back_action: "वापस",
+    no_category: "कोई श्रेणियाँ नहीं",
+    star: "सितारा",
+
+    filter: {
+      title: "श्रेणी फ़िल्टर",
+      sub_title: "इस श्रेणी में उत्पादों पर लागू फ़िल्टर और श्रेणियां प्रबंधित करें।",
+      message:
+        "नीचे दिए गए बॉक्स में इस श्रेणी के लिए सामान्य तकनीकी विशेषता शीर्षक दर्ज करें और सहेजें। सूची को सहेजने के बाद, प्रत्येक श्रेणी की सामग्री के साथ फ़िल्टर श्रेणियां प्रदर्शित की जाएंगी। रंग, वजन, आकार, ब्रांड आदि उत्पाद प्रकार से स्वचालित रूप से निकाले जाते हैं।",
+    },
+    delete_alert: {
+      title: "श्रेणी हटाएं",
+      message: "क्या आप {title} श्रेणी को हटाना चाहते हैं?",
+      action: "मिटाना",
+    },
+    notifications: {
+      add_success: "नई श्रेणी जोड़ी गई।",
+      edit_success: "श्रेणी संपादित।",
+      delete_success: "हटा दिया गया {title}।",
+    },
+    /** {@see BCategoryFilterEditor} **/
+    edit_filter: {
+      spec_input: "तकनीकी विनिर्देश सूची",
+
+      price: "कीमत",
+      min: "मिनट",
+      max: "मैक्स",
+      suggested_list: {
+        brand: "ब्रैंड",
+        colors: "रंग",
+        styles: "डिज़ाइन",
+        volumes: "मात्रा",
+        weights: "वज़न",
+        packs: "प्रति पैक संख्या",
+        types: "प्रकार",
+      },
+      notifications: {
+        edit_success: "श्रेणी संपादित।",
+      },
+      manually_update_filters_tips:
+        "<b>महत्वपूर्ण!</b> जब उत्पाद बदलते हैं तो फ़िल्टर स्वचालित रूप से अपडेट हो जाते हैं। हालाँकि, किसी श्रेणी में उत्पादों में परिवर्तन करने के बाद, कृपया यहाँ वापस आएँ और फ़िल्टर को ताज़ा करने के लिए सहेजें/पुनः बनाएँ बटन पर क्लिक करें।",
+
+      inputs: {
+        spec: {
+          message:
+            "उन सुविधाओं की सूची जिन्हें आप फ़िल्टर अनुभाग में दिखाना चाहते हैं",
+          placeholder: "फ़िल्टर में दिखाने के लिए विवरण चुनें...",
+        },
+      },
+    },
+  },
+
+  /** {@see BAppShopList} **/
+  apps_list: {
+    nodata: "आपके स्टोर पर कोई ऐप इंस्टॉल नहीं है",
+    inactive: "निष्क्रिय",
+    my_apps: "मेरी एप्प्स",
+    app_store: "नया ऐप जोड़ें",
+  },
+
+  /** {@see BShopAdd} **/
+  add_shop: {
+    menu: {
+      shop_title: "स्टोर का शीर्षक",
+      shop_name: "स्टोर नाम",
+      description: "विवरण",
+      contact: "संपर्क जानकारी",
+      image: "छवि",
+    },
+    title_input: "शीर्षक",
+    title_input_tips: "अपने स्टोर, ब्रांड या कंपनी का नाम दर्ज करें।",
+    active_message: "सभी के लिए सक्रिय सेट करें आपकी वेबसाइट तक पहुंच सकते हैं।",
+    language_input_message: "अपनी स्टोर भाषा चुनें।",
+    name_input: "नाम",
+    name_input_message: "अपने स्टोर के लिए एक नाम दर्ज करें।",
+    name_input_tips:
+      "गैर-अंग्रेजी वर्णों, रिक्त स्थान या अक्षरों का उपयोग न करें, यदि उपयोग किया जाता है, तो स्टोर का नाम ठीक से प्रदर्शित नहीं हो सकता है।",
+    description_input: "स्टोर विवरण",
+    description_input_message: "अपने व्यवसाय के बारे में संक्षिप्त विवरण लिखें।",
+    description_input_tips:
+      "यह विवरण आपके स्टोर के फ़ुटर में दिखाई देगा और आपके स्टोर पेजों के लिए डिफ़ॉल्ट मेटा टैग विवरण के रूप में भी उपयोग किया जाएगा.",
+    address_input: "स्टोर का पता",
+    address_input_message: "सटीक स्टोर स्थान पता दर्ज करें",
+
+    phone_input: "फ़ोन नंबर",
+    phone_input_message: "ग्राहक संपर्क नंबर",
+    phone_input_tips:
+      "देश कोड के साथ संपर्क नंबर दर्ज करें। इस नंबर का उपयोग Google खोज में जानकारी प्रदर्शित करने के लिए भी किया जाता है।",
+    email_input: "ईमेल",
+    email_input_message: "ग्राहकों के लिए ईमेल पता",
+    locality_input: "जगह",
+    locality_input_message: "संग्रहण स्थान",
+    region_input: "राज्य या प्रांत",
+    region_input_message: "जिस राज्य या प्रांत में आप काम करते हैं",
+    country_input: "देश",
+    country_input_message: "व्यापार का देश",
+    postal_code_input: "डाक कोड",
+    postal_code_input_message: "स्टोर पोस्टल कोड",
+    image_input: "स्टोर छवि",
+
+    map: {
+      title: "स्टोर का पता",
+      confirm: "पता पंजीकरण",
+      address: "पता",
+      receptor: "दुकान",
+    },
+
+    create_shop_action: "स्टोर बनाएं",
+    update_shop_action: "अपडेट करना",
+
+    notifications: {
+      copy_success: "दुकान के पते की प्रति।",
+      name_available: "यह नाम ({name}) उपलब्ध है।",
+      add_success: "स्टोर {title} बनाया गया।",
+      edit_success: "स्टोर संपादित।",
+    },
+  },
+
+  /** {@see BProductInventoryManagementVirtual} **/
+  virtual_items_list: {
+    add_virtual_item: "वर्चुअल आइटम जोड़ें",
+    add_virtual_item_desc:
+      "आभासी उत्पादों को बेचने के लिए, आपको उन्हें इस खंड में जोड़ना होगा। आभासी वस्तुओं की संख्या इस खंड में मुफ्त वस्तुओं की संख्या के बराबर है। एक बार जब ग्राहक वर्चुअल आइटम खरीद लेंगे, तो उन्हें लिंक भेज दिया जाएगा।",
+
+    filter_action: "फिल्टर लागू करें",
+    not_processed: "असंसाधित आदेश",
+    title: "सामान की सूची",
+    vew_order: "आर्डर देखें",
+
+    table: {
+      nodata: "कोई आइटम नहीं हैं",
+      product: "उत्पाद",
+      data: "जानकारी",
+      status: "स्थिति",
+      user_message: "उपयोगकर्ता संदेश",
+      updated_at: "आखिरी अपडेट",
+      order: "आदेश",
+      delete: "मिटाना",
+    },
+    notifications: {
+      delete_success: "आइटम सफलतापूर्वक हटाया गया.",
+    },
+  },
+
+  /** {@see BProductVirtualItemAdd} **/
+  add_virtual_item: {
+    title_edit: "मान संपादित करें",
+    title_add: "उत्पाद में आइटम जोड़ें",
+    sub_title: "वर्चुअल उत्पाद बनाना और संपादित करना",
+    message:
+      "स्टोर मैनेजर भुगतान के बाद खरीदार को मूल्य दिखा सकता है। इन मानों को नीचे दिए गए फॉर्म में दर्ज किया जाना चाहिए। इस फॉर्म की संरचना आइटम संपादित करें> आउटपुट जानकारी संपादित करें अनुभाग में सेट है।",
+    edit_outputs: "आउटपुट फॉर्म संपादित करें",
+    notifications: {
+      edit_success: "आइटम संपादित किया गया।",
+      add_success: "सूची में जोड़ा गया आइटम।",
+    },
+  },
+
+  /** {@see BPageOrderVirtual} **/
+  virtual_process_center: {
+    title: "प्रसंस्करण केंद्र",
+    sub_title: "आदेश प्रसंस्करण",
+    virtual_product: "आभासी उत्पाद",
+    menu: {
+      report: "शिकायत करना",
+      timeline: "समय",
+      order: "आदेश",
+    },
+
+    /** {@see BOrderVirtualItem} **/
+    outputs_widget: {
+      title: "आउटपुट फॉर्म",
+      table: {
+        title: "शीर्षक",
+        value: "मूल्य",
+      },
+      tips: [
         "ग्राहक के अनुरोध को पूरा करने के बाद, ऑर्डर के खरीदार को सूचित करने के लिए ऑर्डर पुष्टिकरण कुंजी दबाएं।",
-        "एक बार ऑर्डर स्वीकृत हो जाने के बाद, खरीदार इनपुट जानकारी को संपादित नहीं कर पाएगा।"
+        "एक बार ऑर्डर स्वीकृत हो जाने के बाद, खरीदार इनपुट जानकारी को संपादित नहीं कर पाएगा।",
       ],
-      "alerts": {
-        "order_completed_by_admin": "आदेश पूरा हो गया है।",
-        "order_completed_by_buyer": "खरीदार द्वारा ऑर्डर पूरा कर लिया गया है।",
-        "waiting_for_buyer": "खरीदार की मंजूरी का इंतजार.."
-      }
-    }
-  },
-  "file_process_center": {
-    "title": "प्रसंस्करण केंद्र",
-    "sub_title": "आदेश प्रसंस्करण",
-    "menu": {
-      "report": "शिकायत करना",
-      "timeline": "समय",
-      "order": "आदेश"
-    }
-  },
-  "process_order_page_dashboard": {
-    "title": "आदेश प्रसंस्करण",
-    "cancel_order_action": "आदेश रद्द",
-    "open_basket_cation": "यह शॉपिंग कार्ट खुला है, जिसका अर्थ है कि ग्राहक खरीदारी कर रहा है और उसने अभी तक ऑर्डर का भुगतान नहीं किया है।",
-    "reject_dialog": {
-      "title": "आदेश को अस्वीकार करने का कारण",
-      "message": "नीचे दी गई सूची से इस आदेश को अस्वीकार करने का कारण चुनें। रद्दीकरण और धनवापसी प्रक्रिया के बारे में ग्राहक को सूचित करना सुनिश्चित करें। धनवापसी 12 घंटे के भीतर की जानी चाहिए।",
-      "confirm_action": "आदेश रद्द",
-      "dismiss_reject_action": "आदेश रद्द करें रद्द करें",
-      "confirm_now_action": "अभी ऑर्डर रद्द करें",
-      "confirm_in48h_action": "48 घंटे में ऑर्डर रद्द करें",
-      "options": {
-        "title": "विकल्प",
-        "subtitle": "यदि आप अपना ऑर्डर तुरंत रद्द करना चाहते हैं, तो आप इस विकल्प का उपयोग कर सकते हैं।"
-      }
+      alerts: {
+        order_completed_by_admin: "आदेश पूरा हो गया है।",
+        order_completed_by_buyer: "खरीदार द्वारा ऑर्डर पूरा कर लिया गया है।",
+        waiting_for_buyer: "खरीदार की मंजूरी का इंतजार..",
+      },
     },
-    "notifications": {
-      "update_status_success": "आदेश की स्थिति अपडेट की गई।",
-      "reject_update_success": "आदेश रद्द करने की स्थिति अपडेट की गई।",
-      "dismiss_reject_success": "आदेश सामान्य प्रक्रिया में वापस आ गया।",
-      "set_tracking_success": "ऑर्डर ट्रैक आईडी सफलतापूर्वक सहेजा गया।"
-    }
   },
-  "process_center": {
-    "title": "प्रसंस्करण केंद्र",
-    "physical_product": "भौतिक उत्पाद",
-    "menu": {
-      "label": "पैकेज लेबल",
-      "receipt": "इनवॉइस",
-      "back": "वापस",
-      "return": "वापस करना",
-      "report": "शिकायत करना",
-      "timeline": "समय",
-      "inputs": "इनपुट",
-      "order": "आदेश"
+
+  /** {@see BPageOrderFile} **/
+  file_process_center: {
+    title: "प्रसंस्करण केंद्र",
+    sub_title: "आदेश प्रसंस्करण",
+    menu: {
+      report: "शिकायत करना",
+      timeline: "समय",
+      order: "आदेश",
     },
-    "payment_widget": {
-      "title": "भुगतान",
-      "checklist": [
+  },
+
+  /** {@see BOrderDashboard} **/
+  process_order_page_dashboard: {
+    title: "आदेश प्रसंस्करण",
+    cancel_order_action: "आदेश रद्द",
+    open_basket_cation:
+      "यह शॉपिंग कार्ट खुला है, जिसका अर्थ है कि ग्राहक खरीदारी कर रहा है और उसने अभी तक ऑर्डर का भुगतान नहीं किया है।",
+
+    reject_dialog: {
+      title: "आदेश को अस्वीकार करने का कारण",
+      message:
+        "नीचे दी गई सूची से इस आदेश को अस्वीकार करने का कारण चुनें। रद्दीकरण और धनवापसी प्रक्रिया के बारे में ग्राहक को सूचित करना सुनिश्चित करें। धनवापसी 12 घंटे के भीतर की जानी चाहिए।",
+      confirm_now_action: "अभी ऑर्डर रद्द करें",
+      confirm_in48h_action: "48 घंटे में ऑर्डर रद्द करें",
+
+      dismiss_reject_action: "आदेश रद्द करें रद्द करें",
+
+      options: {
+        title: "विकल्प",
+        subtitle:
+          "यदि आप अपना ऑर्डर तुरंत रद्द करना चाहते हैं, तो आप इस विकल्प का उपयोग कर सकते हैं।",
+      },
+
+      express_input: {
+        true_title: "एक्सपरएसस | रद्द करें ऑर्डर इममएदइअतएलय",
+        false_title: "सतअनदअरद | रद्द करें ऑर्डर अफतएर 48 हओउरस",
+        true_description:
+          "तहइस विकल्प वइलल रद्द करें यओउर ऑर्डर इममएदइअतएलय अनद अपडेट करें तहए इन्वेंटरी रइगहत अवअय.",
+        false_description:
+          "तहइस विकल्प वइलल रद्द करें यओउर ऑर्डर अफतएर 48 हओउरस. उनतइल तहएन, इतएमस वइलल बए रएसएरवएद अनद कअननओत बए पउरकहअसएद बय ओतहएरस.",
+      },
+    },
+
+    notifications: {
+      update_status_success: "आदेश की स्थिति अपडेट की गई।",
+      reject_update_success:
+        "आदेश रद्द करने की स्थिति अपडेट की गई।",
+      dismiss_reject_success:
+        "आदेश सामान्य प्रक्रिया में वापस आ गया।",
+      set_tracking_success: "ऑर्डर ट्रैक आईडी सफलतापूर्वक सहेजा गया।",
+      shipping_address_update_success:
+        "शिपिंग पता हअस बएएन उपदअतएद सउककएससफउललय.",
+      vendor_order_status_update_success:
+        "विक्रेता पूर्ति स्थिति हअस बएएन उपदअतएद सउककएससफउललय.",
+    },
+  },
+  /** {@see BPageOrderPhysical} **/
+  /** {@see BPageOrderVirtual} **/
+  /** {@see BPageOrderFile} **/
+  /** {@see BPageOrderService} **/
+  process_center: {
+    title: "प्रसंस्करण केंद्र",
+
+    physical_product: "भौतिक उत्पाद",
+    menu: {
+      label: "पैकेज लेबल",
+      receipt: "इनवॉइस",
+      back: "वापस",
+      return: "वापस करना",
+      report: "शिकायत करना",
+      timeline: "समय",
+      inputs: "इनपुट",
+      order: "आदेश",
+    },
+
+    /** {@see OrderPaymentWidget} **/
+    payment_widget: {
+      title: "भुगतान",
+      checklist: [
         "आदेश राशि और ग्राहक भुगतान की जाँच करें।",
         "बिलिंग पता जांचें।",
-        "सुनिश्चित करें कि दर्ज की गई जानकारी सही है, खासकर अगर भुगतान कैश ऑन डिलीवरी है।"
+        "सुनिश्चित करें कि दर्ज की गई जानकारी सही है, खासकर अगर भुगतान कैश ऑन डिलीवरी है।",
       ],
-      "action_cod_pay": "ग्राहक द्वारा भुगतान की पुष्टि करें",
-      "action_dir_pay": "अपलोड की गई भुगतान रसीद की पुष्टि करें",
-      "payment_receipt_not_uploaded_error": "भुगतान रसीद अभी तक अपलोड नहीं की गई है!",
-      "waiting_for_pay": "लंबित भुगतान",
-      "processing_payment": "संसाधन संबंधी भुगतान",
-      "processing_cancel": "भुगतान रद्द",
-      "paid": "चुकाया गया",
-      "cod_pay_info": "जब आप ग्राहक से ऑर्डर प्राप्त कर लेते हैं तो आप भुगतान की पुष्टि कर सकते हैं और ऑर्डर पूरा कर सकते हैं।",
-      "dir_pay_info": "भुगतान रसीद ऊपर दिखाई देगी। भुगतान की पुष्टि करने से पहले, अपने बैंक के साथ जमा राशि और रसीद की जानकारी सत्यापित करें।",
-      "created_date": "रचना तिथि",
-      "pay_date": "भुगतान तिथि",
-      "payment_gateway": "अदायगी रास्ता",
-      "payment_method": "भुगतान का तरीका",
-      "risk": "जोखिम मूल्य",
-      "billing_details": "बिलिंग विवरण",
-      "add_transaction": "नया बिल जोड़ें",
-      "add_transactions_message": "आपको इस आदेश के लिए कम से कम एक लेनदेन बनाना होगा। कुछ मामलों में, कई चरणों में भुगतान की आवश्यकता होती है। काम के दौरान उपयोगकर्ता को किन लेन-देन के लिए भुगतान करना होगा, यह आपके द्वारा निर्धारित किया जाएगा।",
-      "add_bill_dialog": {
-        "title": "चालान जोड़ें",
-        "message": "आप इस आदेश के लिए एक या अधिक नए चालान जोड़ सकते हैं। ग्राहक इन इनवॉइस को देखेगा और प्रत्येक को कार्य की प्रगति के अनुसार भुगतान करेगा।",
-        "amount_input": "बीजक राशि",
-        "action": "बिल जोड़ें"
+      action_cod_pay: "ग्राहक द्वारा भुगतान की पुष्टि करें",
+      action_dir_pay: "अपलोड की गई भुगतान रसीद की पुष्टि करें",
+      payment_receipt_not_uploaded_error:
+        "भुगतान रसीद अभी तक अपलोड नहीं की गई है!",
+
+      waiting_for_pay: "लंबित भुगतान",
+      processing_payment: "संसाधन संबंधी भुगतान",
+      processing_cancel: "भुगतान रद्द",
+      require_capture: "कैप्चर की आवश्यकता",
+      paid: "चुकाया गया",
+      cod_pay_info:
+        "जब आप ग्राहक से ऑर्डर प्राप्त कर लेते हैं तो आप भुगतान की पुष्टि कर सकते हैं और ऑर्डर पूरा कर सकते हैं।",
+      dir_pay_info:
+        "भुगतान रसीद ऊपर दिखाई देगी। भुगतान की पुष्टि करने से पहले, अपने बैंक के साथ जमा राशि और रसीद की जानकारी सत्यापित करें।",
+
+      created_date: "रचना तिथि",
+      pay_date: "भुगतान तिथि",
+      payment_gateway: "अदायगी रास्ता",
+      payment_method: "भुगतान का तरीका",
+      risk: "जोखिम मूल्य",
+      billing_details: "बिलिंग विवरण",
+
+      add_transaction: "नया बिल जोड़ें",
+      add_transactions_message:
+        "आपको इस आदेश के लिए कम से कम एक लेनदेन बनाना होगा। कुछ मामलों में, कई चरणों में भुगतान की आवश्यकता होती है। काम के दौरान उपयोगकर्ता को किन लेन-देन के लिए भुगतान करना होगा, यह आपके द्वारा निर्धारित किया जाएगा।",
+
+      add_bill_dialog: {
+        title: "चालान जोड़ें",
+        message:
+          "आप इस आदेश के लिए एक या अधिक नए चालान जोड़ सकते हैं। ग्राहक इन इनवॉइस को देखेगा और प्रत्येक को कार्य की प्रगति के अनुसार भुगतान करेगा।",
+        amount_input: "बीजक राशि",
+        action: "बिल जोड़ें",
       },
-      "edit_bill_dialog": {
-        "title": "चालान संपादित करें",
-        "message": "आप लंबित चालानों को संपादित कर सकते हैं।",
-        "action": "चालान संपादित करें"
+      edit_bill_dialog: {
+        title: "चालान संपादित करें",
+        message: "आप लंबित चालानों को संपादित कर सकते हैं।",
+        action: "चालान संपादित करें",
       },
-      "bill_cash_payment_dialog": {
-        "title": "नकद भुगतान पंजीकृत करें",
-        "message": "यदि खरीदार ने इस चालान की राशि का भुगतान नकद में या ऑनलाइन भुगतान के अलावा किसी अन्य तरीके से किया है, तो इस खंड में, एक विकल्प का चयन करके, पंजीकरण करें और अपने भुगतान की पुष्टि करें। इस खंड में, आप केवल अपने स्टोर के नकद भुगतान गेटवे देख सकते हैं, यदि आपको ऐसा कोई विकल्प नहीं दिखता है, तो आपको अपने स्टोर में चयनित मुद्रा में नकद भुगतान गेटवे सक्रिय करना होगा।",
-        "action": "बिल भुगतान की पुष्टि करें"
+      bill_cash_payment_dialog: {
+        title: "नकद भुगतान पंजीकृत करें",
+        message:
+          "यदि खरीदार ने इस चालान की राशि का भुगतान नकद में या ऑनलाइन भुगतान के अलावा किसी अन्य तरीके से किया है, तो इस खंड में, एक विकल्प का चयन करके, पंजीकरण करें और अपने भुगतान की पुष्टि करें। इस खंड में, आप केवल अपने स्टोर के नकद भुगतान गेटवे देख सकते हैं, यदि आपको ऐसा कोई विकल्प नहीं दिखता है, तो आपको अपने स्टोर में चयनित मुद्रा में नकद भुगतान गेटवे सक्रिय करना होगा।",
+        action: "बिल भुगतान की पुष्टि करें",
       },
-      "table": {
-        "title": "शीर्षक",
-        "amount": "राशि",
-        "description": "विवरण",
-        "info": "जानकारी"
+
+      table: {
+        title: "शीर्षक",
+        amount: "राशि",
+        description: "विवरण",
+        info: "जानकारी",
       },
-      "user_payment": "ग्राहक भुगतान",
-      "cod": "डिलवरी पर नकदी",
-      "gateway_wage": "शुल्क",
-      "gift_card": "उपहार पत्र",
-      "discount_code": {
-        "title": "डिस्काउंट कोड",
-        "code": "कोड",
-        "percent": "प्रतिशत",
-        "limit": "सीमा"
+      user_payment: "ग्राहक भुगतान",
+      cod: "डिलवरी पर नकदी",
+      gateway_wage: "शुल्क",
+      gift_card: "उपहार पत्र",
+      discount_code: {
+        title: "डिस्काउंट कोड",
+        code: "कोड",
+        percent: "प्रतिशत",
+        limit: "सीमा",
       },
-      "club": {
-        "title": "ग्राहक क्लब",
-        "percent": "प्रतिशत",
-        "limit": "सीमा"
+      club: {
+        title: "ग्राहक क्लब",
+        percent: "प्रतिशत",
+        limit: "सीमा",
       },
-      "coupon": {
-        "title": "कूपन",
-        "percent": "प्रतिशत",
-        "limit": "सीमा",
-        "charge": "शुल्क"
+
+      coupon: {
+        title: "कूपन",
+        percent: "प्रतिशत",
+        limit: "सीमा",
+        charge: "शुल्क",
       },
-      "delivery": {
-        "title": "शिपिंग लागत",
-        "not_paid": "भुगतान नहीं"
+      delivery: {
+        title: "शिपिंग लागत",
+        not_paid: "भुगतान नहीं",
       },
-      "samin": {
-        "title": "सेवा शुल्क",
-        "description": "यह राशि आपके सेलडोन वॉलेट खाते से काट ली गई है।",
-        "tooltip": "भुगतान विधि द्वारा गणना करें",
-        "percent": "प्रतिशत"
+      samin: {
+        title: "सेवा शुल्क",
+        description:
+          "यह राशि आपके सेलडोन वॉलेट खाते से काट ली गई है।",
+        tooltip: "भुगतान विधि द्वारा गणना करें",
+        percent: "प्रतिशत",
       },
-      "affiliate": {
-        "title": "संबद्ध आयोग",
-        "affiliate_message": "आपको यह कमीशन अपने सहयोगी को देना चाहिए। यह प्रक्रिया स्वयं की जाती है।"
+      affiliate: {
+        title: "संबद्ध आयोग",
+        affiliate_message:
+          "आपको यह कमीशन अपने सहयोगी को देना चाहिए। यह प्रक्रिया स्वयं की जाती है।",
       },
-      "total_price": "कुल आइटम मूल्य",
-      "total_items_discount": "आइटम छूट",
-      "total_price_after_offers": "ऑफ़र लागू करने के बाद कुल",
-      "user_payment_amount": "खरीदार भुगतान राशि",
-      "samin_wage": "सेलडोन शुल्क",
-      "pay_cod_dialog": {
-        "title": "क्या आपको ऑर्डर का पैसा मिला?",
-        "message": "ग्राहक द्वारा पूर्ण भुगतान सुनिश्चित करने के बाद, कैश ऑन डिलीवरी भुगतान पद्धति में इस विकल्प की पुष्टि करें।",
-        "confirm_action": "ग्राहक भुगतान की पुष्टि करें"
+      total_price: "कुल आइटम मूल्य",
+      total_items_discount: "आइटम छूट",
+      total_price_after_offers: "ऑफ़र लागू करने के बाद कुल",
+
+      total_order_price_before_tax: "प्री-टैक्स कुल मूल्य",
+
+      user_payment_amount: "खरीदार भुगतान राशि",
+      samin_wage: "सेलडोन शुल्क",
+      pay_cod_dialog: {
+        title: "क्या आपको ऑर्डर का पैसा मिला?",
+        message:
+          "ग्राहक द्वारा पूर्ण भुगतान सुनिश्चित करने के बाद, कैश ऑन डिलीवरी भुगतान पद्धति में इस विकल्प की पुष्टि करें।",
+        confirm_action: "ग्राहक भुगतान की पुष्टि करें",
       },
-      "pay_dir_dialog": {
-        "title": "क्या आपको ऑर्डर का पैसा मिला?",
-        "message": "अपने बैंक से अपलोड की गई भुगतान रसीद को स्वीकृत करने के बाद इस विकल्प की पुष्टि करें। अपने बैंक के साथ भुगतान की जांच करना सुनिश्चित करें।",
-        "confirm_action": "ग्राहक भुगतान की पुष्टि करें"
+      pay_dir_dialog: {
+        title: "क्या आपको ऑर्डर का पैसा मिला?",
+        message:
+          "अपने बैंक से अपलोड की गई भुगतान रसीद को स्वीकृत करने के बाद इस विकल्प की पुष्टि करें। अपने बैंक के साथ भुगतान की जांच करना सुनिश्चित करें।",
+        confirm_action: "ग्राहक भुगतान की पुष्टि करें",
       },
-      "notifications": {
-        "pay_confirm_message": "भुगतान की पुष्टि की गई है।<br> पोर्ट: {gateway_name}<br> दिनांक: {payment_at}",
-        "pay_fail_title": "भुगतान नहीं",
-        "pay_fail_message": "भुगतान स्वीकृत नहीं किया जा सकता!"
+
+      notifications: {
+        pay_confirm_message:
+          "भुगतान की पुष्टि की गई है।<br> पोर्ट: {gateway_name}<br> दिनांक: {payment_at}",
+        pay_fail_title: "भुगतान नहीं",
+        pay_fail_message: "भुगतान स्वीकृत नहीं किया जा सकता!",
       },
-      "total_order_price_before_tax": "प्री-टैक्स कुल मूल्य",
-      "require_capture": "कैप्चर की आवश्यकता"
     },
-    "basket_list": {
-      "checklist": [
+    /** {@see BOrderDashboardCart} **/
+    basket_list: {
+      checklist: [
         "इन्वेंट्री की जाँच करें।",
-        "यदि आइटम अनुपलब्ध है, तो उस आइटम के लिए भुगतान की गई राशि ग्राहक को वापस कर दी जानी चाहिए।"
+        "यदि आइटम अनुपलब्ध है, तो उस आइटम के लिए भुगतान की गई राशि ग्राहक को वापस कर दी जानी चाहिए।",
       ],
-      "message": "यदि कोई आइटम अनुपलब्ध है या बेचा नहीं जा सकता है, तो उसके बगल में स्थित बॉक्स को अनचेक करें और <b>कन्फर्म ऑर्डर</b> बटन पर क्लिक करें।",
-      "action": "आदेश की पुष्टि",
-      "list_of_items": "शॉपिंग कार्ट सूची",
-      "apply_change_action": "परिवर्तन लागू करें",
-      "cant_apply_change": "बदलाव नहीं कर सकते",
-      "lottery_prize_inform": "आपका ग्राहक इस उत्पाद का 1x जीतता है। इस आदेश के साथ उपहार भेजें।",
-      "need_to_refund": {
-        "title": "ग्राहक को धन वापसी आवश्यक",
-        "message": "हम आपको मैन्युअल रूप से रिफंड की कुल राशि की गणना करते हैं। इसकी गणना अनुपलब्ध वस्तुओं और कुल रिफंड किए गए मूल्यों के आधार पर की जाती है।",
-        "calculated_approximately": "राशि की गणना लगभग की गई है। कृपया सटीक राशि की गणना स्वयं करें।"
+      message:
+        "यदि कोई आइटम अनुपलब्ध है या बेचा नहीं जा सकता है, तो उसके बगल में स्थित बॉक्स को अनचेक करें और <b>कन्फर्म ऑर्डर</b> बटन पर क्लिक करें।",
+      action: "आदेश की पुष्टि",
+      list_of_items: "शॉपिंग कार्ट सूची",
+      apply_change_action: "परिवर्तन लागू करें",
+      cant_apply_change: "बदलाव नहीं कर सकते",
+      lottery_prize_inform:
+        "आपका ग्राहक इस उत्पाद का 1x जीतता है। इस आदेश के साथ उपहार भेजें।",
+
+      need_to_refund: {
+        title: "ग्राहक को धन वापसी आवश्यक",
+        message:
+          "हम आपको मैन्युअल रूप से रिफंड की कुल राशि की गणना करते हैं। इसकी गणना अनुपलब्ध वस्तुओं और कुल रिफंड किए गए मूल्यों के आधार पर की जाती है।",
+        calculated_approximately:
+          "राशि की गणना लगभग की गई है। कृपया सटीक राशि की गणना स्वयं करें।",
       },
-      "need_payback": {
-        "title": "ग्राहक को भुगतान वापस करना आवश्यक है",
-        "message": "हमने पाया है कि ग्राहक को लौटाई गई कुल राशि कार्ट में मौजूद वस्तुओं के आधार पर देय राशि से अधिक है। अतिरिक्त राशि वसूलने के लिए आपको अपने ग्राहक से शुल्क लेना पड़ सकता है।"
+      need_payback: {
+        title: "ग्राहक को भुगतान वापस करना आवश्यक है",
+        message:
+          "हमने पाया है कि ग्राहक को लौटाई गई कुल राशि कार्ट में मौजूद वस्तुओं के आधार पर देय राशि से अधिक है। अतिरिक्त राशि वसूलने के लिए आपको अपने ग्राहक से शुल्क लेना पड़ सकता है।",
       },
-      "need_no_refund": {
-        "title": "कोई धनवापसी आवश्यक नहीं"
+      need_no_refund: {
+        title: "कोई धनवापसी आवश्यक नहीं",
       },
-      "total_refund": {
-        "title": "कुल वापस किया गया",
-        "message": "यह आपके भुगतान गेटवे द्वारा स्वचालित रूप से किए गए रिफ़ंड की कुल राशि है। केवल कुछ भुगतान सेवाएँ ही इस सुविधा का समर्थन करती हैं, इसलिए आपको मैन्युअल रूप से रिफ़ंड करना होगा।"
-      }
+      total_refund: {
+        title: "कुल वापस किया गया",
+        message:
+          "यह आपके भुगतान गेटवे द्वारा स्वचालित रूप से किए गए रिफ़ंड की कुल राशि है। केवल कुछ भुगतान सेवाएँ ही इस सुविधा का समर्थन करती हैं, इसलिए आपको मैन्युअल रूप से रिफ़ंड करना होगा।",
+      },
     },
-    "preparing": {
-      "title": "तैयारी",
-      "packing_weight": "पैकिंग वजन",
-      "delivery_type": "शिपिंग का तरीका",
-      "packing_size": "पैकेजिंग आयाम",
-      "distance_warning": "अनुमत दूरी सीमा से अधिक है।",
-      "weight_warning": "अनुमत वजन से अधिक है।",
-      "volume_warning": "अनुमत पैकेज आकार से अधिक है।",
-      "message": "यदि ऑर्डर शिप करने के लिए तैयार है तो निम्न <b>ऑर्डर रेडी</b> बटन पर क्लिक करें।",
-      "action": "ऑर्डर शिप करने के लिए तैयार",
-      "checklist": [
+    /** {@see BOrderDashboardPreparing} **/
+    preparing: {
+      title: "तैयारी",
+      packing_weight: "पैकिंग वजन",
+      delivery_type: "शिपिंग का तरीका",
+      packing_size: "पैकेजिंग आयाम",
+      distance_warning: "अनुमत दूरी सीमा से अधिक है।",
+      weight_warning: "अनुमत वजन से अधिक है।",
+      volume_warning: "अनुमत पैकेज आकार से अधिक है।",
+      items_weight_calculation:
+        "सभी वस्तुओं का संयुक्त वजन {weight} {unit} है",
+      not_available_message:
+        "यह तब उपलब्ध नहीं होता जब आप शिपिंग पता पूछने में अक्षम होते हैं और उपयोगकर्ता ने खरीद के बाद पता नहीं भरा होता है!",
+
+      message:
+        "यदि ऑर्डर शिप करने के लिए तैयार है तो निम्न <b>ऑर्डर रेडी</b> बटन पर क्लिक करें।",
+      action: "ऑर्डर शिप करने के लिए तैयार",
+      checklist: [
         "पैकेजिंग में मानक नियमों का पालन करना।",
         "वस्तुओं की एक सूची प्रिंट करें और इसे पैकेज के अंदर रखें।",
-        "बॉक्स पर एक लेबल प्रिंट करें और चिपका दें।"
+        "बॉक्स पर एक लेबल प्रिंट करें और चिपका दें।",
       ],
-      "items_weight_calculation": "सभी वस्तुओं का संयुक्त वजन {weight} {unit} है",
-      "not_available_message": "यह तब उपलब्ध नहीं होता जब आप शिपिंग पता पूछने में अक्षम होते हैं और उपयोगकर्ता ने खरीद के बाद पता नहीं भरा होता है!"
     },
-    "basket_items": "ऑर्डर आइटम सूची",
-    "delivered_dialog": {
-      "title": "क्या यह आदेश ग्राहक को प्राप्त हुआ है?",
-      "message": "इस विकल्प की पुष्टि करें जब आप जानते हैं कि ग्राहक को आदेश प्राप्त हुआ है",
-      "confirm_action": "मैं पुष्टि करता/करती हूं कि ग्राहक को पैकेज मिला है"
+
+    basket_items: "ऑर्डर आइटम सूची",
+
+    delivered_dialog: {
+      title: "क्या यह आदेश ग्राहक को प्राप्त हुआ है?",
+      message: "इस विकल्प की पुष्टि करें जब आप जानते हैं कि ग्राहक को आदेश प्राप्त हुआ है",
+      confirm_action: "मैं पुष्टि करता/करती हूं कि ग्राहक को पैकेज मिला है",
     },
-    "return_delivery_dialog": {
-      "title": "क्या डिलीवरी के दौरान ऑर्डर में कोई समस्या थी या इसे वापस कर दिया गया था?",
-      "message": "शिपमेंट वापस करने के विकल्प की पुष्टि करें यदि किसी कारण से भेजने के बाद ऑर्डर वापस कर दिया जाता है और शिपमेंट को फिर से भेजने की आवश्यकता होती है।",
-      "confirm_action": "वापसी की डिलीवरी की पुष्टि करें"
+    return_delivery_dialog: {
+      title: "क्या डिलीवरी के दौरान ऑर्डर में कोई समस्या थी या इसे वापस कर दिया गया था?",
+      message:
+        "शिपमेंट वापस करने के विकल्प की पुष्टि करें यदि किसी कारण से भेजने के बाद ऑर्डर वापस कर दिया जाता है और शिपमेंट को फिर से भेजने की आवश्यकता होती है।",
+      confirm_action: "वापसी की डिलीवरी की पुष्टि करें",
     },
-    "notifications": {
-      "update_status_success": "आदेश की स्थिति अपडेट की गई।",
-      "reject_update_success": "आदेश रद्द करने की स्थिति अपडेट की गई।",
-      "dismiss_reject_success": "आदेश रद्द कर दिया गया था।",
-      "pay_cod_success": "कैश ऑन डिलीवरी भुगतान की पुष्टि की गई।",
-      "pay_dir_success": "कार्ड-टू-कार्ड भुगतान या धन हस्तांतरण द्वारा भुगतान की पुष्टि की गई थी।",
-      "set_tracking_success": "ऑर्डर ट्रैक आईडी सफलतापूर्वक सहेजा गया।",
-      "new_bill_success": "नया बिल सफलतापूर्वक जोड़ा गया।",
-      "edit_bill_success": "बिल सफलतापूर्वक अपडेट किया गया।",
-      "update_bill_status_success": "बिल स्थिति सफलतापूर्वक अपडेट की गई।",
-      "set_payment_in_cash_success": "मैन्युअल रूप से बिल भुगतान की पुष्टि।"
+
+    notifications: {
+      update_status_success: "आदेश की स्थिति अपडेट की गई।",
+      reject_update_success: "आदेश रद्द करने की स्थिति अपडेट की गई।",
+      dismiss_reject_success: "आदेश रद्द कर दिया गया था।",
+      pay_cod_success: "कैश ऑन डिलीवरी भुगतान की पुष्टि की गई।",
+      pay_dir_success:
+        "कार्ड-टू-कार्ड भुगतान या धन हस्तांतरण द्वारा भुगतान की पुष्टि की गई थी।",
+      set_tracking_success: "ऑर्डर ट्रैक आईडी सफलतापूर्वक सहेजा गया।",
+      new_bill_success: "नया बिल सफलतापूर्वक जोड़ा गया।",
+      edit_bill_success: "बिल सफलतापूर्वक अपडेट किया गया।",
+      update_bill_status_success: "बिल स्थिति सफलतापूर्वक अपडेट की गई।",
+      set_payment_in_cash_success: "मैन्युअल रूप से बिल भुगतान की पुष्टि।",
     },
-    "delete_bill_dialog": {
-      "title": "बिल हटाएं",
-      "message": "क्या आप वाकई इस बिल को हटाना चाहते हैं?",
-      "action": "हां, अभी हटाएं"
-    }
+
+    delete_bill_dialog: {
+      title: "बिल हटाएं",
+      message: "क्या आप वाकई इस बिल को हटाना चाहते हैं?",
+      action: "हां, अभी हटाएं",
+    },
   },
-  "shop_gateway": {
-    "title": "द्वार",
-    "menu": {
-      "dashboard": "डैशबोर्ड",
-      "edit": "संपादन करना",
-      "transactions": "लेनदेन",
-      "back": "द्वार"
+
+  /** {@see AdminShopGatewayManagementPage} **/
+  shop_gateway: {
+    title: "द्वार",
+    menu: {
+      dashboard: "डैशबोर्ड",
+      edit: "संपादन करना",
+      transactions: "लेनदेन",
+      back: "द्वार",
     },
-    "dashboard": {
-      "title": "गेटवे प्रबंधन",
-      "gateway_data_widget": {
-        "title": "भुगतान रिपोर्ट",
-        "title_small": "द्वार",
-        "chart": {
-          "times": "गिनती करना",
-          "buys": "गिनती खरीदें",
-          "pays": "सफल भुगतान",
-          "amount_pay": "चुकाया गया",
-          "amount_wage": "शुल्क"
-        }
-      },
-      "gateway_info_widget": {
-        "title": "जानकारी",
-        "title_small": "द्वार",
-        "status": "स्थिति",
-        "cod_transportation": "शिपिंग के तरीके COD का समर्थन करते हैं",
-        "cod_transportations_error": "कम से कम एक शिपिंग विधि के लिए कैश ऑन डिलीवरी भुगतान सक्षम करें!",
-        "payment_type": "भुगतान के प्रकार",
-        "cod": "डिलवरी पर नकदी",
-        "online": "ऑनलाइन भुगतान",
-        "wage_percent": "शुल्क प्रतिशत",
-        "min_wage": "न्यूनतम शुल्क",
-        "max_wage": "अधिकतम शुल्क",
-        "min_amount": "न्यूनतम लेनदेन",
-        "max_amount": "अधिकतम लेनदेन",
-        "timeout": "भुगतान की अवधि",
-        "timeout_unit": "सेकंड",
-        "link": "गेटवे लिंक",
-        "your_gateway_status": "आपकी गेटवे स्थिति",
-        "config_extra_info": "भुगतान सेवा विन्यास",
-        "oauth2_button": "{gateway} से ऑटो कनेक्ट",
-        "fee_payment_message": "ग्राहक द्वारा भुगतान की गई पूरी राशि आपके खाते में स्थानांतरित कर दी जाएगी। सेलडोन में आपके वॉलेट से सेवा शुल्क काट लिया जाएगा।"
-      }
-    },
-    "edit": {
-      "title": "गेटवे संपादित करें",
-      "menu": {
-        "delete": "गेटवे निकालें"
-      },
-      "edit_action": "गेटवे संपादित करें"
-    },
-    "transactions": {
-      "title": "लेनदेन",
-      "table": {
-        "amount": "राशि",
-        "currency": "मुद्रा",
-        "livemode": "प्रकार",
-        "status": "स्थिति",
-        "target_id": "आदेश",
-        "risk": "जोखिम",
-        "card": "कार्ड",
-        "issued_at": "जारी करने की तिथि",
-        "payment_at": "भुगतान तिथि"
-      },
-      "live_mode": "रहना",
-      "test_mode": "सैंडबॉक्स"
-    }
-  },
-  "edit_gateway": {
-    "public_keys": "सार्वजनिक कुंजी",
-    "private_keys": "निजी कुंजी (गोपनीय)",
-    "link": "वेबसाइट",
-    "state_title": "सक्रिय/निष्क्रिय भुगतान विधि",
-    "gateway_status": "स्थिति",
-    "wallet": "ब्लॉकचेन वॉलेट",
-    "developer_title": "डेवलपर मोड",
-    "developer_message": "यदि गेटवे डिबग मोड का समर्थन करता है तो आप नकली लेनदेन की प्रक्रिया कर सकते हैं।",
-    "notifications": {
-      "edit_success": "गेटवे {gateway_name} संपादित किया गया।",
-      "success_delete": "भुगतान विधि हटा दी गई है!"
-    },
-    "developer_setting": "विकास और परीक्षण",
-    "live_mode_message": "सभी लेनदेन लाइव मोड में होंगे।",
-    "status_title": "भुगतान सेवा की स्थिति",
-    "status_message": "भुगतान विधि को सक्रिय या निष्क्रिय के रूप में कॉन्फ़िगर करें। केवल सक्रिय के रूप में सेट की गई विधियाँ ही ग्राहकों को दिखाई जाएँगी।",
-    "status_true_description": "आपके ग्राहक इस भुगतान विधि से भुगतान कर सकते हैं।",
-    "manual_title": "मैनुअल / ऑटो कैप्चर भुगतान",
-    "manual_message": "जब आप कोई भुगतान करते हैं, तो आप किसी योग्य भुगतान विधि पर रोक लगा सकते हैं ताकि आप बाद में प्राप्त की जा सकने वाली धनराशि को सुरक्षित रख सकें। उदाहरण के लिए, होटल अक्सर अतिथि के आने से पहले ही पूरा भुगतान अधिकृत कर देते हैं, फिर अतिथि के चेक आउट करने पर पैसे प्राप्त कर लेते हैं।",
-    "debug": {
-      "title": "विकास और परीक्षण",
-      "subtitle": "आप भुगतान गेटवे का परीक्षण करने के लिए डिबग मोड को सक्षम कर सकते हैं।"
-    },
-    "limit": {
-      "title": "ऑर्डर सीमा",
-      "subtitle": "इस भुगतान गेटवे के लिए न्यूनतम ऑर्डर राशि निर्धारित करें."
-    },
-    "limit_input": {
-      "title": "न्यूनतम आदेश राशि",
-      "msg": "शून्य का अर्थ है कोई सीमा नहीं।"
-    },
-    "currency_input": {
-      "message": "वह मुद्रा जिसे यह भुगतान गेटवे समर्थन करता है."
-    },
-    "gateway_code": "गेटवे कोड",
-    "hold_only_for": "भुगतान रोके रखने की सुविधा केवल इसके लिए उपलब्ध है",
-    "manual_input": {
-      "false_description": "भुगतान प्रदाता प्रणाली में भुगतान की स्थिति स्वचालित रूप से लंबित से पुष्टिकृत में बदल जाएगी।",
-      "false_title": "स्वतः भुगतान पुष्टि",
-      "true_title": "भुगतान रोकें और मैन्युअल पुष्टि करें",
-      "true_description": "किसी भुगतान पर रोक लगाएं, ताकि आपको भुगतान प्रदाता प्रणाली में किसी ऑर्डर के भुगतान की स्थिति को लंबित से पुष्टिकृत में बदलने के लिए उसका सत्यापन करना पड़े।"
-    },
-    "delete_verify_input": {
-      "true_title": "मैं यह भुगतान विधि हटाना चाहता हूं.",
-      "true_description": "यह भुगतान विधि स्टोर से हटा दी जाएगी और ग्राहकों के लिए उपलब्ध नहीं होगी।"
-    },
-    "delete_alert": {
-      "title": "भुगतान विधि हटाएं",
-      "message": "क्या आप अपनी दुकान से इस भुगतान विधि को हटाना चाहते हैं?",
-      "action": "भुगतान विधि हटाएं"
-    }
-  },
-  "gift_card": {
-    "title": "गिफ्ट कार्ड",
-    "menu": {
-      "edit": "संपादन करना",
-      "new_card": "कार्ड बनाएं",
-      "list": "पत्ते",
-      "orders": "आदेश",
-      "dashboard": "डैशबोर्ड",
-      "back": "गिफ्ट कार्ड"
-    },
-    "dashboard": {
-      "title": "उपहार कार्ड प्रबंधन डैशबोर्ड",
-      "amount_widget": {
-        "title": "कार्ड भुगतान",
-        "title_small": "तीस दिन",
-        "chart_amount_pay": {
-          "y": "जोड़",
-          "label": "भुगतान"
+
+    /** {@see BPageGatewayDashboard} **/
+    dashboard: {
+      title: "गेटवे प्रबंधन",
+
+      /** {@see BGatewayPaymentsChart} **/
+      gateway_data_widget: {
+        title: "भुगतान रिपोर्ट",
+        subtitle:
+          "करएअतएद भुगतान अनद लेनदेन मअदए दउरइनग तहए चुनें समय अवधि.",
+        chart: {
+          times: "गिनती करना",
+          buys: "गिनती खरीदें",
+          pays: "सफल भुगतान",
+          amount_pay: "चुकाया गया",
+          amount_wage: "शुल्क",
         },
-        "chart_buys": {
-          "y": "खरीदता",
-          "label": "खरीदता"
+      },
+    },
+
+    /** {@see BPageGatewayEdit} **/
+    edit: {
+      title: "गेटवे संपादित करें",
+      menu: {
+        delete: "गेटवे निकालें",
+      },
+      edit_action: "गेटवे संपादित करें",
+    },
+
+    /** {@see BPageGatewayTransactions} **/
+    transactions: {
+      title: "लेनदेन",
+      table: {
+        amount: "राशि",
+        currency: "मुद्रा",
+        livemode: "प्रकार",
+        status: "स्थिति",
+        target_id: "आदेश",
+        risk: "जोखिम",
+        card: "कार्ड",
+        issued_at: "जारी करने की तिथि",
+        payment_at: "भुगतान तिथि",
+      },
+      live_mode: "रहना",
+      test_mode: "सैंडबॉक्स",
+    },
+  },
+
+  /** {@see BGatewayOverview} **/
+  b_gateway_overview: {
+    title: "जानकारी",
+    subtitle: "अवलोकन ओफ भुगतान गेटवे कॉन्फ़िगरेशन अनद स्थिति.",
+    status: "स्थिति",
+    cod_transportation: "समर्थन शिपिंग",
+    cod_transportations_error:
+      "सक्षम करें डिलीवरी पर नकद भुगतान फओर अत लएअसत ओनए शिपिंग विधि!",
+    payment_type: "भुगतान प्रकार",
+    cod: "डिलीवरी पर नकद",
+    online: "ओनलइनए भुगतान",
+    wage_percent: "फएए पएरकएनत",
+    min_wage: "न्यूनतम शुल्क",
+    max_wage: "अधिकतम शुल्क",
+    min_amount: "न्यूनतम लेनदेन",
+    max_amount: "अधिकतम लेनदेन",
+    timeout: "भुगतान अवधि",
+    timeout_unit: "सएकओनदस",
+    link: "गेटवे लिंक",
+    your_gateway_status: "यओउर गेटवे स्थिति",
+    oauth2_button: "स्वचालित कओननएकत तओ {gateway}",
+    fee_payment_message:
+      "तहए एनतइरए राशि भुगतान किया गया बय तहए ग्राहक वइलल बए तरअनसफएररएद तओ यओउर खाता. तहए सेवा फएए वइलल बए दएदउकतएद फरओम यओउर वॉलेट इन Selldone.",
+
+    auto_config: "स्वचालित कॉन्फ़िगरेशन",
+
+    keys: {
+      title: "निजी कुंजियाँ",
+      subtitle:
+        "सूची ओफ निजी कुंजियाँ फओर तहए भुगतान. तहइस जानकारी इस एससएनतइअल फओर करएअतइनग अनद मअनअगइनग भुगतान.",
+    },
+    extra_config: {
+      title: "भुगतान सेवा कॉन्फ़िगरेशन",
+      subtitle: "अददइतइओनअल कॉन्फ़िगरेशन जानकारी फओर तहए भुगतान गेटवे.",
+    },
+
+    recommended_actions: {
+      title: "अनुशंसित कार्रवाइयाँ",
+      subtitle:
+        "बय तअकइनग तहएसए सतएपस, यओउ'लल बएगइन तओ रएकएइवए अकतउअल भुगतान फरओम यओउर ग्राहक.",
+      action_enable: "सक्षम करने के लिए क्लिक करें",
+      make_live_enable: "लाइव करने के लिए क्लिक करें",
+    },
+  },
+
+  /** {@see BGatewayAdd} **/
+  edit_gateway: {
+    public_keys: "सार्वजनिक कुंजी",
+    private_keys: "निजी कुंजी (गोपनीय)",
+    link: "वेबसाइट",
+    status_title: "भुगतान सेवा की स्थिति",
+    status_message:
+      "भुगतान विधि को सक्रिय या निष्क्रिय के रूप में कॉन्फ़िगर करें। केवल सक्रिय के रूप में सेट की गई विधियाँ ही ग्राहकों को दिखाई जाएँगी।",
+    status_true_description: "आपके ग्राहक इस भुगतान विधि से भुगतान कर सकते हैं।",
+
+    manual_title: "मैनुअल / ऑटो कैप्चर भुगतान",
+    manual_message:
+      "जब आप कोई भुगतान करते हैं, तो आप किसी योग्य भुगतान विधि पर रोक लगा सकते हैं ताकि आप बाद में प्राप्त की जा सकने वाली धनराशि को सुरक्षित रख सकें। उदाहरण के लिए, होटल अक्सर अतिथि के आने से पहले ही पूरा भुगतान अधिकृत कर देते हैं, फिर अतिथि के चेक आउट करने पर पैसे प्राप्त कर लेते हैं।",
+
+    gateway_status: "स्थिति",
+    wallet: "ब्लॉकचेन वॉलेट",
+    developer_title: "डेवलपर मोड",
+    developer_message:
+      "यदि गेटवे डिबग मोड का समर्थन करता है तो आप नकली लेनदेन की प्रक्रिया कर सकते हैं।",
+    live_mode_message: "सभी लेनदेन लाइव मोड में होंगे।",
+
+    notifications: {
+      edit_success: "गेटवे {gateway_name} संपादित किया गया।",
+      success_delete: "भुगतान विधि हटा दी गई है!",
+    },
+    debug: {
+      title: "विकास और परीक्षण",
+      subtitle: "आप भुगतान गेटवे का परीक्षण करने के लिए डिबग मोड को सक्षम कर सकते हैं।",
+    },
+
+    limit: {
+      title: "ऑर्डर सीमा",
+      subtitle: "इस भुगतान गेटवे के लिए न्यूनतम ऑर्डर राशि निर्धारित करें.",
+    },
+    limit_input: {
+      title: "न्यूनतम आदेश राशि",
+      msg: "शून्य का अर्थ है कोई सीमा नहीं।",
+    },
+    currency_input: {
+      message: "वह मुद्रा जिसे यह भुगतान गेटवे समर्थन करता है.",
+    },
+    gateway_code: "गेटवे कोड",
+
+    hold_only_for: "भुगतान रोके रखने की सुविधा केवल इसके लिए उपलब्ध है",
+    manual_input: {
+      false_description:
+        "भुगतान प्रदाता प्रणाली में भुगतान की स्थिति स्वचालित रूप से लंबित से पुष्टिकृत में बदल जाएगी।",
+      false_title: "स्वतः भुगतान पुष्टि",
+      true_title: "भुगतान रोकें और मैन्युअल पुष्टि करें",
+      true_description:
+        "किसी भुगतान पर रोक लगाएं, ताकि आपको भुगतान प्रदाता प्रणाली में किसी ऑर्डर के भुगतान की स्थिति को लंबित से पुष्टिकृत में बदलने के लिए उसका सत्यापन करना पड़े।",
+    },
+    delete_verify_input: {
+      true_title: "मैं यह भुगतान विधि हटाना चाहता हूं.",
+      true_description:
+        "यह भुगतान विधि स्टोर से हटा दी जाएगी और ग्राहकों के लिए उपलब्ध नहीं होगी।",
+    },
+    delete_alert: {
+      title: "भुगतान विधि हटाएं",
+      message: "क्या आप अपनी दुकान से इस भुगतान विधि को हटाना चाहते हैं?",
+      action: "भुगतान विधि हटाएं",
+    },
+  },
+
+  /** {@see BPageGiftcard} **/
+  gift_card: {
+    title: "गिफ्ट कार्ड",
+    menu: {
+      edit: "संपादन करना",
+      new_card: "कार्ड बनाएं",
+      list: "पत्ते",
+      orders: "आदेश",
+      dashboard: "डैशबोर्ड",
+      back: "गिफ्ट कार्ड",
+    },
+
+    /** {@see AdminGiftCardDashboardPage} **/
+    dashboard: {
+      title: "उपहार कार्ड प्रबंधन डैशबोर्ड",
+
+      /** {@see BGiftcardStatisticsPayment} **/
+      amount_widget: {
+        title: "कार्ड भुगतान",
+        title_small: "तीस दिन",
+        chart_amount_pay: {
+          y: "जोड़",
+          label: "भुगतान",
         },
-        "total_buy": "कुल खरीद राशि",
-        "total_pay_30days": "30 दिन का कुल भुगतान",
-        "total_pay_today": "आज का भुगतान"
+        chart_buys: {
+          y: "खरीदता",
+          label: "खरीदता",
+        },
+        total_buy: "कुल खरीद राशि",
+        total_pay_30days: "30 दिन का कुल भुगतान",
+        total_pay_today: "आज का भुगतान",
       },
-      "count_widget": {
-        "title": "जारी किए गए कार्डों की संख्या",
-        "title_small": "तीस दिन",
-        "total_cards": "कार्ड की कुल संख्या",
-        "used_cards_30days": "30 दिन का उपयोग",
-        "used_today": "आज का उपयोग",
-        "chart": {
-          "new_cards": "नए कार्ड",
-          "used_cards": "प्रयुक्त कार्ड",
-          "new_card_name": "नया कार्ड",
-          "used_card_name": "इस्तेमाल किया गया"
-        }
+
+      /** {@see BGiftcardStatisticsCount} **/
+      count_widget: {
+        title: "जारी किए गए कार्डों की संख्या",
+        title_small: "तीस दिन",
+        total_cards: "कार्ड की कुल संख्या",
+        used_cards_30days: "30 दिन का उपयोग",
+        used_today: "आज का उपयोग",
+        chart: {
+          new_cards: "नए कार्ड",
+          used_cards: "प्रयुक्त कार्ड",
+          new_card_name: "नया कार्ड",
+          used_card_name: "इस्तेमाल किया गया",
+        },
       },
-      "export": {
-        "title": "आउटपुट फ़ाइल प्राप्त करें",
-        "cards_list": "कार्डों की सूची प्राप्त करें",
-        "get_report": "रिपोर्ट प्राप्त करें"
-      }
+
+      /** {@see BGiftcardExport} **/
+      export: {
+        title: "आउटपुट फ़ाइल प्राप्त करें",
+        cards_list: "कार्डों की सूची प्राप्त करें",
+        get_report: "रिपोर्ट प्राप्त करें",
+      },
+    }, // End of dashboard
+
+    /** {@see AdminGiftCardManagementPage} **/
+    cards: {
+      title: "जारी किए गए कार्डों की सूची",
+      subtitle:
+        "देखें अनद प्रबंधित करें सभी इससउएद कार्ड. यओउ कअन सएनद कार्ड तओ उपयोगकर्ता मैनुअल रूप से ओर बअन तहएम इफ नएएदएद.",
+
+      loading_message: "जानकारी मिल रही है... कृपया प्रतीक्षा करें",
+      issue_to_user: "उपयोगकर्ता के लिए समस्या",
+      table: {
+        card_number: "कार्ड संख्या",
+        balance: "संतुलन",
+        paid: "चुकाया गया",
+        edit: "संपादन करना",
+        delete: "मिटाना",
+        expire: "समय-सीमा समाप्त",
+        user: "उपयोगकर्ता",
+      },
+      delete_alert: {
+        title: "कार्ड निकालें",
+        message: "क्या आप वाकई इस कार्ड को हटाना चाहते हैं?",
+        action: "मिटाना",
+      },
+      notifications: {
+        delete_success: "उपहार कार्ड हटाया गया.",
+        edit_success: "बदलाव किए गए हैं।",
+        issue_success: "उपयोगकर्ता को उपहार कार्ड सफलतापूर्वक जारी किया गया।",
+      },
+      issue_dialog: {
+        title: "उपहार कार्ड जारी करें",
+        action: "मैं इस बात की पुष्टि करता हूँ। अभी कार्ड जारी करें",
+      },
+    }, // End of cards
+
+    /** {@see BGiftcardAdd} **/
+    gift_card_edit: {
+      title: "गिफ्ट कार्ड बनाएं",
+      validity: "वैधता",
+      validity_unit: "महीने",
+      currency: "मुद्रा",
+      initial_balance: "प्रारंभिक कार्ड बैलेंस",
+      count: "गिनती करना",
+      count_unit: "सामान)",
+      enable_input_message: "बनाए गए कार्डों की स्थिति",
+      notifications: {
+        create_success_title: "बचाना",
+        create_success: "{count} नए कार्ड बनाए गए",
+      },
     },
-    "cards": {
-      "title": "जारी किए गए कार्डों की सूची",
-      "loading_message": "जानकारी मिल रही है... कृपया प्रतीक्षा करें",
-      "issue_to_user": "उपयोगकर्ता के लिए समस्या",
-      "table": {
-        "card_number": "कार्ड संख्या",
-        "balance": "संतुलन",
-        "paid": "चुकाया गया",
-        "edit": "संपादन करना",
-        "delete": "मिटाना",
-        "expire": "समय-सीमा समाप्त",
-        "user": "उपयोगकर्ता"
-      },
-      "delete_alert": {
-        "title": "कार्ड निकालें",
-        "message": "क्या आप वाकई इस कार्ड को हटाना चाहते हैं?",
-        "action": "मिटाना"
-      },
-      "notifications": {
-        "delete_success": "उपहार कार्ड हटाया गया.",
-        "edit_success": "बदलाव किए गए हैं।",
-        "issue_success": "उपयोगकर्ता को उपहार कार्ड सफलतापूर्वक जारी किया गया।"
-      },
-      "issue_dialog": {
-        "title": "उपहार कार्ड जारी करें",
-        "action": "मैं इस बात की पुष्टि करता हूँ। अभी कार्ड जारी करें"
-      }
+
+    /** {@see AdminGiftCardEditPage} **/
+    gift_card_edit_page: {
+      title: "उपहार कार्ड संपादित करें",
     },
-    "gift_card_edit": {
-      "title": "गिफ्ट कार्ड बनाएं",
-      "validity": "वैधता",
-      "validity_unit": "महीने",
-      "currency": "मुद्रा",
-      "initial_balance": "प्रारंभिक कार्ड बैलेंस",
-      "count": "गिनती करना",
-      "count_unit": "सामान)",
-      "enable_input_message": "बनाए गए कार्डों की स्थिति",
-      "notifications": {
-        "create_success_title": "बचाना",
-        "create_success": "{count} नए कार्ड बनाए गए"
-      }
-    },
-    "gift_card_edit_page": {
-      "title": "उपहार कार्ड संपादित करें"
-    }
   },
-  "shop_discount": {
-    "title": "डिस्काउंट कोड",
-    "up_to": "तक",
-    "menu": {
-      "dashboard": "डैशबोर्ड",
-      "orders": "आदेश",
-      "back": "छूट कोड"
+
+  /** {@see BPageDiscountCode} **/
+  shop_discount: {
+    title: "डिस्काउंट कोड",
+    up_to: "तक",
+    menu: {
+      dashboard: "डैशबोर्ड",
+      orders: "आदेश",
+      back: "छूट कोड",
     },
-    "dashboard": {
-      "title": "डिस्काउंट कोड प्रबंधन डैशबोर्ड",
-      "chart_amount_buy": {
-        "y": "खरीद राशि {currency}",
-        "label": "खरीदना"
+
+    /** {@see BPageDiscountCodeDashboard} **/
+    dashboard: {
+      title: "डिस्काउंट कोड प्रबंधन डैशबोर्ड",
+      chart_amount_buy: {
+        y: "खरीद राशि {currency}",
+        label: "खरीदना",
       },
-      "chart_amount_discount": {
-        "y": "छूट {currency}",
-        "label": "छूट"
+      chart_amount_discount: {
+        y: "छूट {currency}",
+        label: "छूट",
       },
-      "chart_used": {
-        "y": "उपयोग की मात्रा",
-        "label": "बार"
-      }
-    }
-  },
-  "shop_coupon": {
-    "title": "कूपन",
-    "up_to": "तक",
-    "menu": {
-      "dashboard": "डैशबोर्ड",
-      "back": "कूपन",
-      "orders": "आदेश"
+      chart_used: {
+        y: "उपयोग की मात्रा",
+        label: "बार",
+      },
     },
-    "dashboard": {
-      "title": "कूपन प्रबंधन डैशबोर्ड",
-      "chart_amount_buy": {
-        "y": "खरीद राशि {currency}",
-        "label": "खरीदना"
-      },
-      "chart_amount_discount": {
-        "y": "कूपन {currency}",
-        "label": "कूपन"
-      },
-      "chart_used": {
-        "y": "उपयोग की मात्रा",
-        "label": "बार"
-      }
-    }
   },
-  "shop_offer": {
-    "title": "ऑफर",
-    "up_to": "तक",
-    "menu": {
-      "dashboard": "डैशबोर्ड",
-      "orders": "आदेश",
-      "back": "ऑफर"
+
+  /** {@see BPageCoupon} **/
+  shop_coupon: {
+    title: "कूपन",
+    up_to: "तक",
+    menu: {
+      dashboard: "डैशबोर्ड",
+      back: "कूपन",
+      orders: "आदेश",
     },
-    "dashboard": {
-      "title": "ऑफ़र प्रबंधन डैशबोर्ड",
-      "chart_amount_buy": {
-        "y": "खरीद राशि {currency}",
-        "label": "खरीदना"
+
+    /** {@see BPageCouponDashboard} **/
+    dashboard: {
+      title: "कूपन प्रबंधन डैशबोर्ड",
+      chart_amount_buy: {
+        y: "खरीद राशि {currency}",
+        label: "खरीदना",
       },
-      "chart_amount_discount": {
-        "y": "ऑफ़र {currency}",
-        "label": "प्रस्ताव"
+      chart_amount_discount: {
+        y: "कूपन {currency}",
+        label: "कूपन",
       },
-      "chart_used": {
-        "y": "उपयोग की मात्रा",
-        "label": "बार"
-      }
-    }
+      chart_used: {
+        y: "उपयोग की मात्रा",
+        label: "बार",
+      },
+    },
   },
-  "account_card": {
-    "pay_create_receipt": "सक्रियण शुल्क का भुगतान करें",
-    "balance": "संतुलन",
-    "locked": "बंद",
-    "transfer": "स्थानांतरण करना",
-    "charge": "जमा करना"
+
+  /** {@see BPageOffer} **/
+  shop_offer: {
+    title: "ऑफर",
+    up_to: "तक",
+    menu: {
+      dashboard: "डैशबोर्ड",
+      orders: "आदेश",
+      back: "ऑफर",
+    },
+
+    /** {@see BPageOfferDashboard} **/
+    dashboard: {
+      title: "ऑफ़र प्रबंधन डैशबोर्ड",
+      chart_amount_buy: {
+        y: "खरीद राशि {currency}",
+        label: "खरीदना",
+      },
+      chart_amount_discount: {
+        y: "ऑफ़र {currency}",
+        label: "प्रस्ताव",
+      },
+      chart_used: {
+        y: "उपयोग की मात्रा",
+        label: "बार",
+      },
+    },
   },
-  "timeline": {
-    "note": "{message}",
-    "info": "{message}",
-    "error": "{message}",
-    "buy": "चेक आउट",
-    "payment": "भुगतान",
-    "confirm": "आदेश की पुष्टि, <b>{success}</b> की पुष्टि हुई और <b>{fail}</b> को अस्वीकार कर दिया गया।",
-    "prepare": "आदेश की तैयारी।",
-    "send": "<b>{delivery}</b> द्वारा ऑर्डर शिप किया गया।",
-    "delivered": "ग्राहक को ऑर्डर दे दिया गया है।",
+
+  /**
+   * @see BOrderConnectsList
+   */
+  order_connect_list: {
+    subtitle:
+      "सूची ओफ एक्सतएरनअललय सयनकएद ऑर्डर तहअत नएएद तओ बए फउलफइललएद बय तहइरद-पअरतय परओवइदएरस.",
+  },
+  /** {@see BAccountCard} **/
+  account_card: {
+    pay_create_receipt: "सक्रियण शुल्क का भुगतान करें",
+    balance: "संतुलन",
+    locked: "बंद",
+    transfer: "स्थानांतरण करना",
+    charge: "जमा करना",
+  },
+
+  /** {@see TimelineStatus} **/
+  timeline: {
+    note: "{message}",
+    info: "{message}",
+    error: "{message}",
+
+    buy: "चेक आउट",
+    payment: "भुगतान",
+
+    confirm:
+      "आदेश की पुष्टि, <b>{success}</b> की पुष्टि हुई और <b>{fail}</b> को अस्वीकार कर दिया गया।",
+    prepare: "आदेश की तैयारी।",
+    send: "<b>{delivery}</b> द्वारा ऑर्डर शिप किया गया।",
+    delivered: "ग्राहक को ऑर्डर दे दिया गया है।",
     "fill-inputs": "खरीदार द्वारा पूरा इनपुट जानकारी प्रपत्र।",
     "return-add": "उत्पाद वापसी अनुरोध सबमिट करें, {product}।",
     "return-accept": "वापसी अनुरोध {return_code} की पुष्टि की गई।",
     "return-reject": "अनुरोध {return_code} अस्वीकार कर दिया गया।",
+
     "reject-order": "आदेश अस्वीकार करें। कोड: {reject_code}.",
     "reject-order-clear": "आदेश अस्वीकृति रद्द करें। कोड: {reject_code}.",
-    "email-buy": "ग्राहक को खरीद पुष्टिकरण ईमेल भेजें।",
-    "email-payment": "ग्राहक को भुगतान पुष्टिकरण ईमेल भेजें।",
-    "delivery-returned": "ग्राहक को आदेश प्राप्त नहीं हुआ था और वापस कर दिया गया था। फिर से भेजना जरूरी है।",
+
+    "delivery-returned":
+      "ग्राहक को आदेश प्राप्त नहीं हुआ था और वापस कर दिया गया था। फिर से भेजना जरूरी है।",
     "delivery-canceled": "डिलीवरी रद्द कर दी गई. फिर से भेजना जरूरी है।",
     "edit-receiver-info": "ऑर्डर डिलीवरी पता खरीदार द्वारा संपादित किया गया था।",
     "edit-billing-info": "खरीदार द्वारा संपादित बिलिंग पता।",
     "payment-cod-confirm": "सीओडी भुगतान की पुष्टि की गई थी।",
-    "payment-cash-confirm": "बिल के लिए नकद में {amount} {currency} के भुगतान की पुष्टि की गई।",
+    "payment-cash-confirm":
+      "बिल के लिए नकद में {amount} {currency} के भुगतान की पुष्टि की गई।",
     "payment-dir-confirm": "प्रत्यक्ष भुगतान रसीद की पुष्टि की गई थी।",
-    "vendor": "विक्रेता आदेश की स्थिति {from} से बदलकर <b>{from}</b> <b>कर</b> दी गई है।",
+
+    vendor: "विक्रेता ऑर्डर स्थिति कहअनगएद फरओम <b>{from}</b> तओ <b>{to}</b>.",
+
     "connect-sync": "Connect OS द्वारा समन्‍वयित आदेश।",
     "connect-shipped": "कनेक्ट ऑर्डर {shipping} द्वारा भेज दिया गया है।",
     "connect-returned": "{shipping} द्वारा कनेक्ट ऑर्डर वापस कर दिया गया है।",
@@ -2687,3183 +4018,7310 @@ export default {
     "connect-put-hold": "आदेश पर रोक लगा दी गई। {reason}",
     "connect-remove-hold": "आदेश को होल्ड से हटा दिया गया था। {reason}",
     "connect-confirmed": "आदेश की पुष्टि हुई।",
-    "email-vendor": "🔔 आदेश सूचना ईमेल <b>{vendor}</b> को भेज दिया गया है ╏ {email}।",
+
     "vendor-payout": "💸विक्रेता को भुगतान।",
-    "sms-payment": "{phone} के माध्यम से ग्राहक को भुगतान पुष्टिकरण एसएमएस भेजें।",
-    "vendor-sms": "🔔 ऑर्डर सूचना एसएमएस <b>{vendor}</b> ╏ {phone} पर भेज दिया गया है।"
+    "vendor-wallet-transaction": "विक्रेता's वॉलेट लेनदेन.",
+
+    "vendor-sms":
+      "🔔 ऑर्डर सूचना एसएमएस <b>{vendor}</b> ╏ {phone} पर भेज दिया गया है।",
+
+    // ━━━━━━━━━━━━━━━━━━━━━━ Email Packs ━━━━━━━━━━━━━━━━━━━━━━
+
+    "email-buy": "ग्राहक को खरीद पुष्टिकरण ईमेल भेजें।",
+    "email-payment": "ग्राहक को भुगतान पुष्टिकरण ईमेल भेजें।",
+    "email-update": "सएनद ऑर्डर अपडेट करें ईमेल तओ ग्राहक.",
+
+    "email-vendor":
+      "🔔 आदेश सूचना ईमेल <b>{vendor}</b> को भेज दिया गया है ╏ {email}।",
+
+    // ━━━━━━━━━━━━━━━━━━━━━━ SMS Packs ━━━━━━━━━━━━━━━━━━━━━━
+    "sms-payment":
+      "{phone} के माध्यम से ग्राहक को भुगतान पुष्टिकरण एसएमएस भेजें।",
+    "sms-ready-to-ship":
+      "सएनद अन SMS तओ तहए ग्राहक नओतइफयइनग तहअत तहएइर ऑर्डर इस तैयार तओ बए सहइपपएद वइअ {phone}.",
+    "sms-ready-to-pickup":
+      "सएनद अन SMS तओ तहए ग्राहक नओतइफयइनग तहअत तहएइर ऑर्डर इस तैयार फओर पइककउप वइअ {phone}.",
+    "sms-order-confirmation":
+      "सएनद अन ऑर्डर पुष्टि SMS तओ तहए ग्राहक वइअ {phone}.",
+
+    "count-adjustment":
+      "तहए मात्रा ओफ तहए उत्पाद \"{product}\" हअस बएएन उपदअतएद फरओम {from} तओ {to}.",
   },
-  "inline_chart": {
-    "today": "आज",
-    "last_days": "{days} दिन पहले"
+
+  /** {@see FinanceInlineChart} **/
+  inline_chart: {
+    today: "आज",
+    last_days: "{days} दिन पहले",
   },
-  "products_select": {
-    "move_category": "श्रेणी <b>{category}</b> को दूसरी श्रेणी में ले जाएँ",
-    "move_product": "उत्पाद <b>{product}</b> को श्रेणी में ले जाएं",
-    "product_menu": {
-      "dashboard": "उत्पाद डैशबोर्ड",
-      "inventory": "इन्वेंटरी और वेरिएंट"
+  /** {@see BProductsWindow} **/
+  products_select: {
+    move_category: "श्रेणी <b>{category}</b> को दूसरी श्रेणी में ले जाएँ",
+    move_product: "उत्पाद <b>{product}</b> को श्रेणी में ले जाएं",
+    load_more_products:
+      "इस श्रेणी में और भी उत्पाद उपलब्ध हैं। अधिक आइटम लोड करने के लिए क्लिक करें।",
+    product_menu: {
+      dashboard: "उत्पाद डैशबोर्ड",
+      inventory: "इन्वेंटरी और वेरिएंट",
     },
-    "notifications": {
-      "copy_success": "उत्पाद की प्रति।",
-      "change_category_success": "उत्पाद श्रेणी संपादित।"
+    notifications: {
+      copy_success: "उत्पाद की प्रति।",
+      change_category_success: "उत्पाद श्रेणी संपादित।",
     },
-    "load_more_products": "इस श्रेणी में और भी उत्पाद उपलब्ध हैं। अधिक आइटम लोड करने के लिए क्लिक करें।",
-    "filter_box": {
-      "no_root_filter_message": "आपके पास रूट में उत्पाद हैं लेकिन कोई फ़िल्टर नहीं है।",
-      "has_root_filter_message": "आप मूल श्रेणी के लिए फ़िल्टर सेट करते हैं.",
-      "set_filter_message": "आप फ़िल्टर सेट कर सकते हैं.",
-      "edit_action": "रूट फ़िल्टर संपादित करें",
-      "clear_action": "रूट फ़िल्टर साफ़ करें"
+
+    filter_box: {
+      no_root_filter_message: "आपके पास रूट में उत्पाद हैं लेकिन कोई फ़िल्टर नहीं है।",
+      has_root_filter_message: "आप मूल श्रेणी के लिए फ़िल्टर सेट करते हैं.",
+      set_filter_message: "आप फ़िल्टर सेट कर सकते हैं.",
+      edit_action: "रूट फ़िल्टर संपादित करें",
+      clear_action: "रूट फ़िल्टर साफ़ करें",
     },
-    "ai": {
-      "title": "एआई उत्पाद सहायता"
+    ai: {
+      title: "एआई उत्पाद सहायता",
     },
-    "menu": {
-      "select_all_products": "सभी उत्पाद चुनें",
-      "unselect": "सभी का चयन रद्द",
-      "sort_categories": "श्रेणियाँ व्यवस्थित करें / छाँटें",
-      "subscription_vendor_not_support_message": "सदस्यता उत्पादों के लिए विक्रेता को नियुक्त नहीं किया जा सकता! सदस्यता उत्पादों के स्वामी के रूप में हमेशा एक विक्रेता होना चाहिए!",
-      "vendor_owner_not_assignable_message": "किसी विक्रेता को स्वामी मानकर उत्पाद के लिए विक्रेता नियुक्त नहीं किया जा सकता!",
-      "category_assign_profile": "श्रेणी में उत्पादों को प्रोफ़ाइल असाइन करें",
-      "category_assign_profile_subtitle": "कर, शिपिंग, गाइड, वारंटी, ...",
-      "bulk_discount": "भारी छूट",
-      "bulk_discount_subtitle": "सभी उत्पादों पर छूट लागू करें।"
+    menu: {
+      select_all_products: "सभी उत्पाद चुनें",
+      unselect: "सभी का चयन रद्द",
+      sort_categories: "श्रेणियाँ व्यवस्थित करें / छाँटें",
+      subscription_vendor_not_support_message:
+        "सदस्यता उत्पादों के लिए विक्रेता को नियुक्त नहीं किया जा सकता! सदस्यता उत्पादों के स्वामी के रूप में हमेशा एक विक्रेता होना चाहिए!",
+      vendor_owner_not_assignable_message:
+        "किसी विक्रेता को स्वामी मानकर उत्पाद के लिए विक्रेता नियुक्त नहीं किया जा सकता!",
+      category_assign_profile: "श्रेणी में उत्पादों को प्रोफ़ाइल असाइन करें",
+      category_assign_profile_subtitle: "कर, शिपिंग, गाइड, वारंटी, ...",
+      bulk_discount: "भारी छूट",
+      bulk_discount_subtitle: "सभी उत्पादों पर छूट लागू करें।",
     },
-    "engine": {
-      "title": "अतिरिक्त उत्पाद इंजन",
-      "subtitle": "चयनित श्रेणियों और टैग से अधिक उत्पाद लोड किए जाएंगे।",
-      "load_in_tips": "{category} में श्रेणियों से उत्पाद लोड करें.",
-      "action": "{category} इंजन संपादित करें"
-    }
-  },
-  "physical_order_track": {
-    "title": "जोखिम रिपोर्ट और आकलन"
-  },
-  "virtual_order_track": {
-    "title": "जोखिम रिपोर्ट और आकलन"
-  },
-  "virtual_order_timeline": {
-    "title": "समय"
-  },
-  "physical_order_timeline": {
-    "title": "समय"
-  },
-  "physical_order_inputs": {},
-  "order_timeline": {
-    "message_input": "यहां संदेश लिखें...",
-    "pin_action": "सबसे ऊपर पिन करें",
-    "unpin_action": "अनपिन",
-    "copy_html": "एचटीएमएल कॉपी करें",
-    "notifications": {
-      "add_note_success": "नोट जोड़ा गया।",
-      "edit_note_success": "नोट संपादित।",
-      "delete_note_success": "नोट हटा दिया गया।"
+
+    engine: {
+      title: "अतिरिक्त उत्पाद इंजन",
+      subtitle:
+        "चयनित श्रेणियों और टैग से अधिक उत्पाद लोड किए जाएंगे।",
+      load_in_tips: "{category} में श्रेणियों से उत्पाद लोड करें.",
+      action: "{category} इंजन संपादित करें",
     },
-    "delete_dialog": {
-      "title": "नोट हटाएं",
-      "message": "क्या आप इस नोट को हटाना चाहते हैं?",
-      "action": "नोट हटाएं"
+  },
+  /** {@see BProductsPanel} **/
+  product_panel: {
+    excel_import: {
+      title: "एक्सेल / सीएसवी फ़ाइल यहां डालें।",
+      select_file: "फ़ाइल चुनें",
+      max_file: "अधिकतम फ़ाइल आकार: 20mb",
+      download_sample: "नमूना डाउनलोड करें",
     },
-    "resend_dialog": {
-      "title": "ईमेल दुबारा भेजें",
-      "message": "क्या आप वाकई अपने ग्राहक को यह ईमेल फिर से भेजना चाहते हैं?",
-      "action": "हाँ, फिर से भेजें",
-      "success": "आपके ग्राहक को ईमेल फिर से भेजा गया।"
+    ai: {
+      title: "एआई उत्पाद सहायता",
     },
-    "message": "इस अनुभाग में, आप ऑर्डर, पूर्ति, भुगतान और उनकी संबंधित स्थितियों से संबंधित घटनाओं की समयरेखा देख सकते हैं। इसके अतिरिक्त, आप ग्राहकों और विक्रेताओं दोनों को भेजे गए ऑर्डर देख सकते हैं।",
-    "add_note_subtitle": "एक संदेश लिखें और अपने सहकर्मियों का उल्लेख करें।"
   },
-  "accounts": {
-    "title": "मेरा बटुआ",
-    "message": "सेलडोन में आप जिस मुद्रा का उपयोग कर रहे हैं, उसके साथ आपको कम से कम एक खाता बनाना होगा। सेवा शुल्क का भुगतान करने के लिए आपको इस खाते को टॉप अप करना होगा।",
-    "add_new": "नया खाता बनाएँ",
-    "new_account": "नया खाता जोड़ें",
-    "new_account_dialog": {
-      "title": "नया खाता",
-      "account_name_input": "खाता नाम",
-      "currency_input": "मुद्रा इकाई",
-      "currency_input_message": "बनाया गया खाता केवल इस मुद्रा के मूल्यों को धारण करेगा।",
-      "new_account_wage": "नया खाता निर्माण लागत: पहले खाते के लिए निःशुल्क",
-      "create_account_action": "खाता बनाएं"
-    }
-  },
-  "user_gifts": {
-    "menu": {
-      "send_gift": "उपहार भेजें",
-      "sent": "भेजना",
-      "received": "प्राप्त हुआ"
+
+  /** {@see BOrderDashboardVendor} **/
+  order_vendor: {
+    has_panel: "पैनल है",
+    no_panel: "कोई पैनल नहीं",
+    manual_action: {
+      title: "मैन्युअल क्रियाएँ",
+      message: "आप विक्रेता ऑर्डर की स्थिति को मैन्युअल रूप से अपडेट कर सकते हैं।",
+      guides: [
+        "पैनल एक्सेस वाले विक्रेता अपने समर्पित डैशबोर्ड में अपनी पूर्ति (उप-ऑर्डर) को अपडेट कर सकते हैं।",
+        "यदि विक्रेता के पास पैनल तक पहुंच नहीं है, तो बास्केट स्थिति बदलने से विक्रेता ऑर्डर की स्थिति स्वचालित रूप से बदल जाएगी।",
+        "आप विक्रेता ऑर्डर को मैन्युअल रूप से अपडेट कर सकते हैं.",
+      ],
     },
-    "send_gifts": {
-      "title": "भेजे गए उपहार",
-      "sub_title": "आप अपने दोस्तों या ग्राहकों को उपहार भेज सकते हैं। प्राप्तकर्ता आपके उपहार को स्वीकार या अस्वीकार कर सकता है। राशि आपके खाते में बंद है और प्राप्तकर्ता द्वारा स्वीकार किए जाने पर वापस ले ली जाती है। नहीं तो यह राशि आपके खाते में ट्रांसफर कर दी जाएगी।",
-      "table": {
-        "user": "उपयोगकर्ता",
-        "amount": "राशि",
-        "currency": "मुद्रा",
-        "account_name": "से",
-        "status": "स्थिति",
-        "message": "संदेश",
-        "created_at": "रचना तिथि"
-      }
+    payouts: {
+      title: "भुगतान",
+      message: "विक्रेता भुगतान और लेनदेन का प्रबंधन करें।",
+
+      charge_tooltip: "विक्रेता वॉलेट चार्ज करें.",
+      withdraw_tooltip: "विक्रेता वॉलेट से पैसे निकालें।",
+      payout_tooltip: "विक्रेता को भुगतान.",
     },
-    "received_gifts": {
-      "title": "प्राप्त उपहार",
-      "sub_title": "सेलडोन या अन्य से आपके प्राप्त उपहार",
-      "table": {
-        "amount": "राशि",
-        "currency": "मुद्रा",
-        "account_from": "से",
-        "status": "स्थिति",
-        "message": "संदेश",
-        "created_at": "रचना तिथि",
-        "receive": "पाना"
-      }
-    }
+    order_canceled: "ऑर्डर रद्द",
+    order_rejected: "ऑर्डर अस्वीकृत बय विक्रेता",
   },
-  "get_gift_dialog": {
-    "title": "एक उपहार प्राप्त करें",
-    "more": "अधिक ..",
-    "amount": "राशि",
-    "message": "संदेश",
-    "account_to_input": "गंतव्य खाता",
-    "account_to_input_message": "इस खाते में उपहार राशि जमा की जाएगी।",
-    "get_action": "उपहार स्वीकारें",
-    "notifications": {
-      "received_success_title": "बधाई हो",
-      "received_success": "उपहार की राशि {amount} {currency} आपके खाते में जमा कर दी गई है।"
-    }
-  },
-  "send_gift_dialog": {
-    "title": "उपहार भेजें",
-    "account_from_input": "एक खाता चुनें",
-    "account_from_input_message": "इस खाते से उपहार राशि निकाली जाती है।",
-    "receiver_input": "रिसीवर",
-    "receiver_input_message": "आप ईमेल पता या फोन नंबर दर्ज कर सकते हैं।",
-    "message_input": "संदेश",
-    "message_input_message": "आप प्राप्तकर्ता को एक संदेश छोड़ सकते हैं।",
-    "amount_input": "राशि",
-    "currency_input": "मुद्रा इकाई",
-    "currency_input_message": "इस मुद्रा में मूल्य की गणना की जाती है।",
-    "send_action": "उपहार भेजें",
-    "notifications": {
-      "send_success": "{amount} {currency} का उपहार {receiver} को भेजा गया था।"
-    }
-  },
-  "account_list": {
-    "account_input": "खाता संख्या",
-    "account_input_message": "इस मुद्रा के लिए उपहार की राशि इस खाते में जमा की जाएगी।",
-    "free_balance": "फ्री बैलेंस",
-    "account_name": "खाता नाम"
-  },
-  "user_monetize_accounts": {
-    "title": "जमा खाते",
-    "sub_title": "इन खातों में उपहार राशि स्वतः जमा हो जाएगी।",
-    "message": "सेल्डडोन आपकी सोशल मीडिया गतिविधि के लिए धन जमा करता है, सेलडोन विकास में भाग लेता है, दोस्तों का परिचय देता है और इसी तरह। प्रत्येक मुद्रा के लिए एक जमा खाता चुनकर, उपहार की राशि स्वचालित रूप से आपके डोमेन में उस खाते में जमा कर दी जाएगी। इन राशियों को सेलडोन में जमा किया जा सकता है। केवल व्यावसायिक भागीदारों के लिए ही निकासी संभव होगी।",
-    "add_account_action": "खाता जोड़ो",
-    "add_dialog": {
-      "title": "उपहार प्राप्त करने के लिए एक खाता कनेक्ट करें",
-      "account_input": "खाता संख्या",
-      "account_input_message": "इस मुद्रा के लिए उपहार की राशि इस खाते में जमा की जाएगी।",
-      "set_as_default_action": "डिफ़ॉल्ट खाते के रूप में चुनें"
+
+  /**
+   * @see VPageVendorDashboard
+   */
+  vendor_dashboard: {
+    info: {
+      subtitle: "बाज़ार संबंधी जानकारी.",
     },
-    "table": {
-      "currency": "मुद्रा",
-      "account_number": "खाता संख्या",
-      "account_name": "नाम",
-      "payment": "जमा राशि",
-      "reset_at": "पर रीसेट करें",
-      "delete": "मिटाना"
+    performance: {
+      subtitle: "मेरी बिक्री प्रदर्शन.",
     },
-    "notifications": {
-      "set_success": "खाता सफलतापूर्वक जोड़ा गया।",
-      "delete_success": "उपहार प्राप्त करने के लिए डिफ़ॉल्ट खातों की सूची से खाता सफलतापूर्वक हटा दिया गया।"
+    products: {
+      title: "उत्पादों",
+      subtitle:
+        "यहाँ आप बाज़ार में सूचीबद्ध अपने उत्पादों की संख्या देख सकते हैं। एक से अधिक विक्रेताओं के उत्पाद इसमें शामिल नहीं हैं।",
     },
-    "delete_alert": {
-      "title": "खाता हटा दो",
-      "message": "क्या आप इस खाते को उपहार खातों की सूची से हटाना चाहते हैं?",
-      "action": "मिटाना"
-    }
-  },
-  "user_monetize": {
-    "title": "पैसा बनाएं",
-    "menu": {
-      "plans": "योजनाओं",
-      "accounts": "हिसाब किताब",
-      "participant": "प्रतिभागी"
-    }
-  },
-  "user_monetize_plans": {
-    "title": "सहयोग और मुद्रीकरण परियोजनाएं",
-    "sub_title": "आपको रेफ़रल उपहारों के लिए एक खाता क्रेडिट प्राप्त होगा। इन राशियों को आपके खाते से लिया जाएगा और इसे केवल सेलडोन व्यावसायिक भागीदारों (सभी नहीं) से ही निकाला जा सकता है। आप सेलडोन सेवा शुल्क पर पैसा खर्च कर सकते हैं।",
-    "discount": "छूट",
-    "your_income": "आप की आय",
-    "level_2": "लेवल टू से",
-    "level_3": "तीसरे स्तर से",
-    "link_message": "सदस्यता: {registered}, स्वीकृत: {accepted}",
-    "link_tip": "आप अपने द्वारा साझा किए जाने वाले प्रत्येक पते के अंत में ?ref={link_code} वाक्यांश जोड़ सकते हैं।",
-    "table": {
-      "currency": "मुद्रा",
-      "amount": "संतुलन",
-      "total": "कुल भुगतान",
-      "payment_date": "अंतिम भुगतान तिथि",
-      "withdraw": "निकासी"
+    wallets: {
+      title: "मेरे बटुए",
+      subtitle:
+        "आपको मैन्युअल रूप से वॉलेट जोड़ने की आवश्यकता नहीं है! विक्रेता वॉलेट स्वचालित रूप से बनाए जाएंगे।",
     },
-    "notifications": {
-      "get_credit_success": "अनुरोधित राशि आपके खाते में जमा कर दी गई है।"
-    }
+
+    open_marketplace_page: "बाज़ार पृष्ठ खोलें",
+    open_my_store_page: "मेरा स्टोर पेज खोलें",
+    open_my_listing_page: "मेरा लिस्टिंग पृष्ठ खोलें",
+    add_products_permission: "उत्पाद जोड़ने की अनुमति",
+    add_categories_permission: "श्रेणियाँ जोड़ने की अनुमति",
   },
-  "basic_information": {
-    "title": "मेरी पहचान और प्रोफाइल",
-    "email": "ईमेल पता",
-    "tel": "मोबाइल नंबर",
-    "address": "पता",
-    "payment": "वैध लेनदेन",
-    "personal_information": "पहचान की जानकारी",
-    "main_profile": "मुख्य प्रोफ़ाइल",
-    "main_profile_subtitle": "यह जानकारी सार्वजनिक रूप से सभी के लिए उपलब्ध है।",
-    "kyc_waiting_info": "हम आपके द्वारा दर्ज की गई जानकारी की सटीकता की जांच कर रहे हैं। यह प्रक्रिया केवाईसी नियमों के अनुसार अनिवार्य है और इससे वित्तीय लेनदेन का जोखिम कम होगा। आप इस सेवा के वर्तमान और भविष्य के लाभों का लाभ उठा सकते हैं।",
-    "personal_info_dialog": {
-      "title": "पहचान की जानकारी",
-      "name_input": "संतोष",
-      "family_name_input": "उपनाम",
-      "number_input": "पासपोर्ट नंबर (या राष्ट्रीय कोड)",
-      "birthday_input": "जन्मदिन",
-      "birthday_input_placeholder": "अपना जन्मदिन दर्ज करें",
-      "address_input": "पता",
-      "postcode_input": "डाक कोड",
-      "tel_input": "संपर्क संख्या",
-      "passport_image_input": "पासपोर्ट छवि का चयन करें",
-      "passport_image_input_message": "अपनी पासपोर्ट छवि का स्कैन अपलोड करें।",
-      "personal_image_input": "अपनी खुद की छवि चुनें",
-      "personal_image_input_message": "अपने राष्ट्रीय कार्ड पर आगे और पीछे स्कैन इमेज को इमेज में अपलोड करें।"
+
+  /**
+   * @see VPageVendorInventory
+   */
+  vendor_inventory: {
+    title: "उत्पाद सूची",
+    subtitle:
+      "यह मार्केटप्लेस में आपके उत्पादों की सूची है। इन्वेंट्री में अपने असाइन किए गए उत्पादों के लिए कीमतें और मात्राएँ अपडेट करें। एक विक्रेता के रूप में, आपको उत्पाद सूची में केवल आपके स्वामित्व वाले एकल-विक्रेता उत्पाद ही दिखाई देंगे। अन्य असाइन किए गए उत्पादों को भी यहाँ संशोधित किया जा सकता है।",
+  },
+
+  /**
+   * @see VPageVendorAccess
+   */
+  vendor_member: {
+    title: "टीम सदस्य",
+    subtitle:
+      "तहइस इस तहए सूची ओफ उपयोगकर्ता वहओ हअवए पहुँच तओ यओउर विक्रेता पअनएल. यओउ कअन जोड़ें नया टीम सदस्य अनद कउसतओमइज़ए तहएइर अनुमतियाँ हएरए.",
+    add_action: "नया सदस्य जोड़ें",
+    pending: {
+      title: "लंबित आमंत्रण",
+      message: "देखें तहए सूची ओफ इनवइतअतइओनस तहअत अरए अवअइतइनग अककएपतअनकए.",
     },
-    "profile_dialog": {
-      "title": "मुख्य प्रोफ़ाइल",
-      "full_name_input": "पूरा नाम",
-      "tel_input": "संपर्क संख्या",
-      "email_input": "ईमेल",
-      "website_input": "वेबसाइट",
-      "address_input": "पता",
-      "about_input": "मेरे बारे मेँ",
-      "about_long_input": "मेरे बारे में लंबा लेख",
-      "image_input": "प्रोफ़ाइल चित्र चुनें",
-      "image_input_message": "अपनी छवि अपलोड करें। इस छवि का उपयोग आपके प्रोफ़ाइल चित्र के रूप में किया जाएगा।",
-      "notifications": {
-        "update_profile_success": "आपका प्रोफाइल अपडेट किया गया है।",
-        "update_personal_info_success": "आपकी जानकारी सफलतापूर्वक दर्ज की गई"
-      }
+  },
+
+  /**
+   * @see VMemberAddDialog
+   */
+  vendor_member_add: {
+    title_edit: "संपादित करें टीम सदस्य",
+    title_new: "जोड़ें नया टीम सदस्य",
+    member: {
+      title: "टीम सदस्य विवरण",
+      subtitle:
+        "जोड़ें a नया टीम सदस्य अनद सएत तहएइर अनुमतियाँ. कलइकक ओन एअकह इतएम तओ अदजउसत रएअद/वरइतए पहुँच. एअकह रओव कओररएसपओनदस तओ a अनुमति लएवएल फओर तहए मुख्य दुकान डैशबोर्ड.",
     },
-    "charge_account_approve_message": "अपने बैंक लेनदेन को मंजूरी देने के लिए अपने खाते को चार्ज करें।",
-    "payment_approval": "भुगतान स्वीकृति",
-    "residential_address_checking": "चेकिंग कतार में आपके आवासीय पते के दस्तावेज।",
-    "add_residential_address": "अपना स्थान और आवासीय पते के दस्तावेजों का प्रमाण जोड़ें।"
-  },
-  "phone_verify": {
-    "title": "मोबाइल नंबर",
-    "step1_title": "अपना मोबाइल नंबर दर्ज करें।",
-    "phone_number_input": "मोबाइल नंबर",
-    "next": "अगला कदम",
-    "sms_code_input": "सत्यापन कोड",
-    "sms_code_message": "{phone_number} पर 6 अंकों का सत्यापन कोड भेजा गया।",
-    "notifications": {
-      "duplicated_number_error": "यह नंबर आपके द्वारा पहले ही स्वीकृत किया जा चुका है।",
-      "send_activation_code_success_title": "सत्यापन कोड",
-      "send_activation_code_success": "सत्यापन कोड {phone_number} पर भेजा गया था।",
-      "verify_success": "आपका मोबाइल नंबर सत्यापित हो गया है"
-    }
-  },
-  "companies": {
-    "title": "मेरे व्यवसाय खाते",
-    "message": "व्यवसाय, उद्यमी और पेशेवर टीम सेल्डडोन के आधार पर उत्पाद और एप्लिकेशन विकसित कर सकती हैं। व्यवसाय प्रोफ़ाइल बनाने की आवश्यकता है।",
-    "new_company": "नई कंपनी"
-  },
-  "add_company": {
-    "name_input": "कंपनी का नाम",
-    "website_input": "वेबसाइट",
-    "email_input": "ईमेल",
-    "address_input": "पता",
-    "tel_input": "टेलीफोन",
-    "mobile_input": "मोबाइल",
-    "edit_action": "कंपनी संपादित करें",
-    "create_action": "कंपनी बनाएं",
-    "notifications": {
-      "add_success": "व्यवसाय खाता {name} बनाया गया।",
-      "edit_success": "व्यवसाय खाता संपादित किया गया।"
-    }
-  },
-  "user_access_control": {
-    "menu": {
-      "personal_key": "निजी",
-      "shop_key": "ग्राहकों",
-      "apps": "ऐप्स"
+    access: {
+      view_data: "डेटा देखें",
+      apply_changes: "परिवर्तन सहेजें",
     },
-    "connected_apps_title": "कनेक्टेड ऐप्स",
-    "connected_apps_message": "आपको उन सभी स्टोर और ऐप्स की सूची दिखाई देगी जो आपके डोमेन खाते से जुड़े हैं। आप उनमें से किसी का भी एक्सेस हटा सकते हैं।",
-    "shop_keys_title": "स्टोर एक्सेस कुंजियाँ",
-    "shop_keys_message": "इन कुंजियों का उपयोग आपके सर्वर द्वारा एक्सेस टोकन बनाने के लिए किया जाता है। ध्यान दें कि कुंजियाँ गोपनीय होती हैं और केवल सर्वर पर रखी जाती हैं ताकि वे दूसरों को दिखाई न दें।",
-    "personal_keys_title": "व्यक्तिगत पहुँच कुंजियाँ",
-    "personal_keys_message": "आप यहां अपने खाते की चाबियां बना सकते हैं। ध्यान दें कि ये कुंजियाँ आपके खाते तक पहुँचने में सक्षम होंगी। इन चाबियों को बनाएं और उनका उपयोग तभी करें जब आपको पता हो कि आप वास्तव में क्या कर रहे हैं।",
-    "clients_title": "ग्राहकों",
-    "clients_message": "इन कुंजियों का उपयोग आपके सर्वर द्वारा एक्सेस टोकन बनाने के लिए किया जाता है। ध्यान दें कि कुंजियाँ गोपनीय होती हैं और केवल सर्वर पर रखी जाती हैं ताकि वे दूसरों को दिखाई न दें।"
-  },
-  "user_security_control": {
-    "title": "खाते की सुरक्षा",
-    "message": "आप यहां अपनी खाता सुरक्षा सेटिंग संपादित कर सकते हैं।",
-    "delete": {
-      "title": "खाता हटा दो",
-      "subtitle": "अपना खाता हटाने से पहले, सुनिश्चित करें कि आपने सभी दुकानें हटा दी हैं।",
-      "action": "मुझे यकीन है, मेरा खाता हटा दो",
-      "agreement": "मैं स्वीकार करता हूं कि मेरी सारी जानकारी आपके सर्वर से हटा दी जाएगी। धोखाधड़ी या दुरुपयोग को रोकने के लिए हमारे द्वारा निर्धारित कार्यक्रम के अनुसार आपकी जानकारी हटा दी जाएगी।"
-    },
-    "list": {
-      "password": {
-        "title": "पासवर्ड",
-        "sub_title": "अपने खाते के लिए एक मजबूत पासवर्ड चुनें।",
-        "action_title": "अकाउंट एक्सेस पासवर्ड",
-        "not_exist": "प्रवेश नहीं",
-        "action": "पासवर्ड बदलें"
+    inputs: {
+      email: {
+        label: "ईमेल पता",
+        placeholder: "एनतएर तहए सदस्य's ईमेल पता...",
       },
-      "phone": {
-        "title": "मोबाइल नंबर",
-        "sub_title": "अपने मोबाइल नंबर की पुष्टि करें। आप इस नंबर के जरिए लॉग इन कर पाएंगे।",
-        "action_title": "खाते का प्राथमिक फ़ोन नंबर",
-        "action": "नंबर सत्यापित करें"
-      },
-      "two_step": {
-        "title": "टू स्टेप एंट्री",
-        "sub_title": "अपने मोबाइल नंबर की पुष्टि करें। आप इस नंबर के जरिए लॉग इन कर पाएंगे।",
-        "action_title": "खाता सुरक्षा बढ़ाएँ",
-        "activated_action": "सक्रिय",
-        "active_action": "अब सक्रिय"
-      },
-      "email": {
-        "title": "प्राथमिक ईमेल",
-        "sub_title": "आपके पास इस खाते से संबद्ध मुख्य ईमेल को अपडेट करने का विकल्प है।",
-        "action_title": "प्राथमिक ईमेल बदलें",
-        "action": "सत्यापन लिंक भेजें"
-      }
     },
-    "two_step_auth": {
-      "step_1": {
-        "title": "Google प्रमाणक ऐप इंस्टॉल करें"
+    notifications: {
+      add_success: {
+        title: "सदस्य जोड़ा गया",
+        message: "तहए टीम सदस्य हअस बएएन सउककएससफउललय जोड़ें.",
       },
-      "step_2": {
-        "title": "ऐप द्वारा उत्पन्न कोड दर्ज करें",
-        "message": "6-अंकीय कोड आपके मोबाइल फ़ोन में एक एल्गोरिथम द्वारा उत्पन्न होता है। आप निम्न लिंक से ऐप डाउनलोड कर सकते हैं। पासवर्ड वाला एक क्यूआर कोड बनाने के लिए कोड जनरेटर कुंजी दबाएं।",
-        "qr_code_info": "यदि स्कैन करना संभव नहीं है, तो आप ऐप में कोड को मैन्युअल रूप से कॉपी और पेस्ट कर सकते हैं:",
-        "create_new_code": "नया कोड बनाएं",
-        "qr_code_scanning": "गूगल ऑथेंटिकेटर मोबाइल ऐप द्वारा बनाए गए क्यूआर कोड को स्कैन करें और इस पेज के बॉक्स में पुष्टि के लिए जेनरेट किया गया कोड डालें।",
-        "qr_code_regenerate_info": "नोट: उपरोक्त कुंजी को दबाने से एक नई कुंजी बन जाएगी और पिछली कुंजी अनुपयोगी हो जाएगी। अपने फ़ोन ऐप में नई कुंजी दर्ज करें।"
+      update_success: {
+        title: "सदस्य अपडेट हुआ",
+        message: "तहए टीम सदस्य's जानकारी हअस बएएन सउककएससफउललय उपदअतएद.",
       },
-      "step_3": {
-        "title": "बनाया गया कोड दर्ज करें",
-        "message": "नीचे दिए गए फ़ील्ड में एप्लिकेशन में बनाया गया एक्सेस कोड दर्ज करें।",
-        "activation_key_input": "एक्सेस कोड"
-      },
-      "activated_alert": "2-चरणीय लॉगिन सक्षम है।",
-      "activated_message": "आपके खाते के लिए दो-चरणीय लॉगिन सक्षम है। अब से आपको एक दूसरा कोड दर्ज करना होगा जो आपके खाते तक पहुंचने के लिए हर 30 सेकंड में बदलता है। द्वि-चरणीय लॉगिन अक्षम करने के लिए, बस डबल-क्लिक करें एक चरण दबाएं और चरणों के माध्यम से जाएं।",
-      "cancel_two_step_login_action": "दो-चरणीय लॉगिन रद्द करें",
-      "cancel_two_step_login_info": "यदि आप 2-चरणीय सत्यापन को अक्षम करना चाहते हैं, तो अपना पासवर्ड दर्ज करें और दो-चरणीय लॉग-इन कुंजी पर क्लिक करें।",
-      "password_input": "पासवर्ड",
-      "cancel_2fa_action": "दो-चरणीय लॉगिन रद्द करें"
     },
-    "change_password_dialog": {
-      "title": "पासवर्ड बदलें",
-      "message": "एक जटिल और यादगार पासवर्ड का प्रयोग करें।",
-      "password_input": "वर्तमान पासवर्ड",
-      "new_password_input": "नया पासवर्ड",
-      "re_new_password_input": "नया पासवर्ड दोहराएँ",
-      "tips": {
-        "length": "पासवर्ड कम से कम 8 वर्णों का होना चाहिए",
-        "chars": "कम से कम एक अपरकेस अक्षर और एक नंबर।",
-        "match": "पासवर्ड का मिलान हुआ।"
-      },
-      "change_password_action": "पासवर्ड बदलें",
-      "notifications": {
-        "change_password_title": "पासवर्ड बदलें",
-        "change_password": "पासवर्ड सफलतापूर्वक बदला गया।"
-      }
-    }
+    actions: {
+      add: "जोड़ें सदस्य",
+    },
   },
-  "authorized_clients": {
-    "title": "कनेक्टेड स्टोर्स/ऐप्स की सूची",
-    "table": {
-      "name": "नाम",
-      "app": "अनुप्रयोग",
-      "scopes": "कार्यक्षेत्र",
-      "shop": "प्रतिबंधित स्टोर"
+
+  /**
+   * @see VPageVendorPayments
+   */
+  vendor_payments: {
+    list: {
+      title: "भुगतान इतिहास",
+      subtitle:
+        "आप अपना भुगतान इतिहास यहाँ देख सकते हैं। ये भुगतान मैन्युअल रूप से बैंक हस्तांतरण के माध्यम से या भुगतान क्षमताएँ प्रदान करने वाली भुगतान सेवाओं का उपयोग करके स्वचालित रूप से संसाधित किए जा सकते हैं।",
     },
-    "remove_action": "पहुंच हटाएं",
-    "delete_alert": {
-      "title": "मिटाना",
-      "message": "क्या आप इस पहुंच को निरस्त करना चाहते हैं? ध्यान दें कि इस ऐप की अब आपके खाते तक पहुंच नहीं होगी।",
-      "action": "पहुंच से इंकार"
-    }
+    connect: {
+      title: "बैंक से जुड़ें",
+      subtitle:
+        "हम निम्नलिखित भुगतान गेटवे के लिए विभाजित भुगतान क्षमताएँ प्रदान करते हैं। प्रत्येक खरीद के बाद सहजता से भुगतान प्राप्त करने के लिए, कृपया इन विकल्पों का उपयोग करके अपने बैंक खाते को कनेक्ट करें।",
+    },
+    verify_dialog: {
+      title: "भुगतान सत्यापित करें",
+      option: {
+        title: "विक्रेता कार्रवाई",
+        subtitle:
+          "आपके पास इस हस्तांतरण को स्वीकार या अस्वीकार करने का विकल्प है। यह क्रिया केवल एक ऐतिहासिक रिकॉर्ड के रूप में कार्य करती है। बस पुष्टि करें कि क्या आपको धनराशि प्राप्त हुई है; यदि नहीं, तो कोई कार्रवाई करने की आवश्यकता नहीं है।",
+      },
+      inputs: {
+        verify: {
+          label: "क्या आपने इस भुगतान की पुष्टि कर दी है?",
+          false_description:
+            "नहीं, मुझे अभी तक यह भुगतान मेरे बैंक खाते में प्राप्त नहीं हुआ है।",
+          true_description: "हां, मैंने यह भुगतान प्राप्त कर लिया है तथा उसे सत्यापित कर लिया है।",
+        },
+      },
+    },
   },
-  "clients": {
-    "title": "ग्राहकों की सूची",
-    "create_new_action": "नया क्लाइंट बनाएं",
-    "table": {
-      "client_id": "ग्राहक ID",
-      "app": "अनुप्रयोग",
-      "name": "उपनाम",
-      "secret_key": "गुप्त कुंजी"
+
+  /**
+   * @see BVendorOrderRefund
+   */
+  vendor_order_refund: {
+    title: "ऑर्डर रिफंड करें",
+    subtitle:
+      "<b>महत्वपूर्ण! </b>एक्सएकउतइनग तहइस कार्रवाई वइलल जनरेट करें a नएगअतइवए लेनदेन इन तहए विक्रेता's वॉलेट अनद सउबतरअकत तहए कहओसएन राशि फरओम इत. तहए राशि कअननओत एक्सकएएद तहए रएमअइनइनग कुल लेनदेन फओर तहए चुनें ऑर्डर. अददइतइओनअललय, इफ फउनदस हअवए बएएन तरअनसफएररएद तओ कओननएकतएद बअनक खाते (सउकह अस वइतह Stripe कओननएकत ओर मैनुअल वइरए तरअनसफएर), यओउ सहओउलद बनाएँ a <b>रिवर्सल ट्रांसफ़र</b>.",
+    inputs: {
+      note: {
+        message: "इत's वइसइबलए तओ तहए विक्रेता.",
+        placeholder: "यओउ कअन अततअकह a नोट हएरए...",
+      },
+      amount: {
+        error_message: "तहए रएमअइनइनग राशि हअस बएएन एक्सकएएदएद.",
+      },
     },
-    "create_dialog": {
-      "title": "नए ग्राहक",
-      "error_msg": "<strong>त्रुटि!</strong> क्षमा कीजिए, एक गलती उत्पन्न हुई!",
-      "name_input": "नाम",
-      "name_input_message": "कुछ ऐसा जिसे आपके उपयोगकर्ता पहचानते हैं और उस पर भरोसा करते हैं।",
-      "redirect_input_message": "अपनी साइट पर पता वापस करें।"
-    },
-    "edit_dialog": {
-      "title": "पहुंच संपादित करें"
-    },
-    "delete_alert": {
-      "title": "मिटाना",
-      "message": "क्या आप इस क्लाइंट को हटाना चाहते हैं?",
-      "action": "मिटाना"
-    }
   },
-  "personal_access_tokens": {
-    "title": "व्यक्तिगत एक्सेस टोकन की सूची",
-    "create_action": "नया टोकन बनाएं",
-    "table": {
-      "name": "नाम",
-      "scopes": "पहुंच",
-      "expire_at": "समाप्ति तिथि"
+
+  /** {@see BOrderVendorPaymentManagement} **/
+  order_vendor_payment: {
+    message:
+      "यह बाज़ार में आपके वर्चुअल वॉलेट में होने वाले लेन-देन का अवलोकन है।",
+    vendor_wallets: "विक्रेता वॉलेट",
+    my_wallets: "मेरे बटुए",
+    refund_order_action: "ऑर्डर रिफंड करें",
+    automatic_payout_list: {
+      subtitle:
+        "तहइस इस a सूची ओफ स्वचालित भुगतान तओ यओउर कओननएकतएद बअनक खाता. पलएअसए नोट तहअत केवल स्वचालित भुगतान वइलल बए दइसपलअयएद हएरए, अनद मैनुअल भुगतान वइलल नहीं बए सहओवन.",
     },
-    "create_dialog": {
-      "title": "टोकन बिल्डिंग",
-      "error_message": "<strong>त्रुटि!</strong> क्षमा कीजिए, एक गलती उत्पन्न हुई!",
-      "name_input": "उपनाम पूर्व। मेरा टोकन नाम",
-      "name_input_message": "पसंदीदा टोकन नाम।",
-      "scopes_list": "टोकन एक्सेस सूची"
-    },
-    "access_token_dialog": {
-      "title": "व्यक्तिगत पहुंच कुंजी",
-      "message": "यहां आपके व्यक्तिगत पहुंच टोकन का टोकन है। यह टोकन केवल इसी समय प्रदर्शित किया जाएगा, इसलिए इसे देखने से न चूकें! अब आप एपीआई का अनुरोध करने के लिए इस टोकन का उपयोग कर सकते हैं।"
-    },
-    "delete_alert": {
-      "title": "मिटाना",
-      "message": "क्या आप इस एक्सेस टोकन को हटाना चाहते हैं?",
-      "action": "मिटाना"
-    }
+    reversal_transfer_action: "रिवर्सल ट्रांसफ़र",
   },
-  "scopes": {
-    "profile": {
-      "name": "प्रोफ़ाइल",
-      "description": "नाम, ईमेल पता, छवि और प्रमाणीकरण स्थिति सहित प्रोफ़ाइल जानकारी पढ़ें।"
+
+  /** {@see BPageOrderPhysicalTrack} **/
+  physical_order_track: {
+    title: "जोखिम रिपोर्ट और आकलन",
+  },
+  /** {@see BPageOrderVirtualTrack} **/
+  virtual_order_track: {
+    title: "जोखिम रिपोर्ट और आकलन",
+  },
+  /** {@see BPageOrderVirtualTimeline} **/
+  virtual_order_timeline: {
+    title: "समय",
+  },
+  /** {@see BPageOrderPhysicalTimeline} **/
+  physical_order_timeline: {
+    title: "समय",
+  },
+  /** {@see BPageOrderPhysicalInput} **/
+  physical_order_inputs: {},
+  /** {@see BOrderTimeline} **/
+  order_timeline: {
+    message:
+      "इस अनुभाग में, आप ऑर्डर, पूर्ति, भुगतान और उनकी संबंधित स्थितियों से संबंधित घटनाओं की समयरेखा देख सकते हैं। इसके अतिरिक्त, आप ग्राहकों और विक्रेताओं दोनों को भेजे गए ऑर्डर देख सकते हैं।",
+    add_note_subtitle: "एक संदेश लिखें और अपने सहकर्मियों का उल्लेख करें।",
+
+    message_input: "यहां संदेश लिखें...",
+    pin_action: "सबसे ऊपर पिन करें",
+    unpin_action: "अनपिन",
+    copy_html: "एचटीएमएल कॉपी करें",
+    notifications: {
+      add_note_success: "नोट जोड़ा गया।",
+      edit_note_success: "नोट संपादित।",
+      delete_note_success: "नोट हटा दिया गया।",
     },
-    "phone": {
-      "name": "फ़ोन नंबर",
-      "description": "फोन नंबर तक पहुंच।"
+    delete_dialog: {
+      title: "नोट हटाएं",
+      message: "क्या आप इस नोट को हटाना चाहते हैं?",
+      action: "नोट हटाएं",
     },
-    "address": {
-      "name": "पतों",
-      "description": "पता पुस्तिका से सहेजा गया पता पढ़ें।"
+    resend_dialog: {
+      title: "ईमेल दुबारा भेजें",
+      message: "क्या आप वाकई अपने ग्राहक को यह ईमेल फिर से भेजना चाहते हैं?",
+      action: "हाँ, फिर से भेजें",
+      success: "आपके ग्राहक को ईमेल फिर से भेजा गया।",
     },
-    "buy": {
-      "name": "खरीदना",
-      "description": "ऑर्डर दें और स्टोर से खरीदारी करें।"
+  },
+
+  /** {@see BPageShuttleWalletAccounts} **/
+  accounts: {
+    title: "मेरा बटुआ",
+    message:
+      "सेलडोन में आप जिस मुद्रा का उपयोग कर रहे हैं, उसके साथ आपको कम से कम एक खाता बनाना होगा। सेवा शुल्क का भुगतान करने के लिए आपको इस खाते को टॉप अप करना होगा।",
+    add_new: "नया खाता बनाएँ",
+    new_account: "नया खाता जोड़ें",
+    new_account_dialog: {
+      title: "नया खाता",
+      account_name_input: "खाता नाम",
+      currency_input: "मुद्रा इकाई",
+      currency_input_message:
+        "बनाया गया खाता केवल इस मुद्रा के मूल्यों को धारण करेगा।",
+      new_account_wage: "नया खाता निर्माण लागत: पहले खाते के लिए निःशुल्क",
+      create_account_action: "खाता बनाएं",
+    },
+  },
+
+  /** {@see UserGifts} **/
+  user_gifts: {
+    menu: {
+      send_gift: "उपहार भेजें",
+      sent: "भेजना",
+      received: "प्राप्त हुआ",
+    },
+
+    /** {@see BPageShuttleWalletGiftsSend} **/
+    send_gifts: {
+      title: "भेजे गए उपहार",
+      sub_title:
+        "आप अपने दोस्तों या ग्राहकों को उपहार भेज सकते हैं। प्राप्तकर्ता आपके उपहार को स्वीकार या अस्वीकार कर सकता है। राशि आपके खाते में बंद है और प्राप्तकर्ता द्वारा स्वीकार किए जाने पर वापस ले ली जाती है। नहीं तो यह राशि आपके खाते में ट्रांसफर कर दी जाएगी।",
+      table: {
+        user: "उपयोगकर्ता",
+        amount: "राशि",
+        currency: "मुद्रा",
+        account_name: "से",
+        status: "स्थिति",
+        message: "संदेश",
+        created_at: "रचना तिथि",
+      },
+    },
+
+    /** {@see BPageShuttleWalletGiftsReceived} **/
+    received_gifts: {
+      title: "प्राप्त उपहार",
+      sub_title:
+        "सेलडोन या अन्य से आपके प्राप्त उपहार",
+
+      table: {
+        amount: "राशि",
+        currency: "मुद्रा",
+        account_from: "से",
+        status: "स्थिति",
+        message: "संदेश",
+        created_at: "रचना तिथि",
+        receive: "पाना",
+      },
+    },
+  },
+
+  /** {@see BAccountGiftRedeem} **/
+  get_gift_dialog: {
+    title: "एक उपहार प्राप्त करें",
+    more: "अधिक ..",
+    amount: "राशि",
+    message: "संदेश",
+    account_to_input: "गंतव्य खाता",
+    account_to_input_message: "इस खाते में उपहार राशि जमा की जाएगी।",
+    get_action: "उपहार स्वीकारें",
+    notifications: {
+      received_success_title: "बधाई हो",
+      received_success:
+        "उपहार की राशि {amount} {currency} आपके खाते में जमा कर दी गई है।",
+    },
+  },
+  /** {@see BAccountGiftSend} **/
+  send_gift_dialog: {
+    title: "उपहार भेजें",
+    account_from_input: "एक खाता चुनें",
+    account_from_input_message: "इस खाते से उपहार राशि निकाली जाती है।",
+    receiver_input: "रिसीवर",
+    receiver_input_message: "आप ईमेल पता या फोन नंबर दर्ज कर सकते हैं।",
+    message_input: "संदेश",
+    message_input_message: "आप प्राप्तकर्ता को एक संदेश छोड़ सकते हैं।",
+    amount_input: "राशि",
+    currency_input: "मुद्रा इकाई",
+    currency_input_message: "इस मुद्रा में मूल्य की गणना की जाती है।",
+    send_action: "उपहार भेजें",
+    notifications: {
+      send_success: "{amount} {currency} का उपहार {receiver} को भेजा गया था।",
+    },
+  },
+
+  /** {@see BAccountInput} **/
+  account_list: {
+    account_input: "खाता संख्या",
+    account_input_message:
+      "इस मुद्रा के लिए उपहार की राशि इस खाते में जमा की जाएगी।",
+    free_balance: "फ्री बैलेंस",
+    account_name: "खाता नाम",
+  },
+  /** {@see OPageMonetizeAccounts} **/
+  user_monetize_accounts: {
+    title: "जमा खाते",
+    sub_title:
+      "इन खातों में उपहार राशि स्वतः जमा हो जाएगी।",
+    message:
+      "सेल्डडोन आपकी सोशल मीडिया गतिविधि के लिए धन जमा करता है, सेलडोन विकास में भाग लेता है, दोस्तों का परिचय देता है और इसी तरह। प्रत्येक मुद्रा के लिए एक जमा खाता चुनकर, उपहार की राशि स्वचालित रूप से आपके डोमेन में उस खाते में जमा कर दी जाएगी। इन राशियों को सेलडोन में जमा किया जा सकता है। केवल व्यावसायिक भागीदारों के लिए ही निकासी संभव होगी।",
+    add_account_action: "खाता जोड़ो",
+    add_dialog: {
+      title: "उपहार प्राप्त करने के लिए एक खाता कनेक्ट करें",
+      account_input: "खाता संख्या",
+      account_input_message:
+        "इस मुद्रा के लिए उपहार की राशि इस खाते में जमा की जाएगी।",
+      set_as_default_action: "डिफ़ॉल्ट खाते के रूप में चुनें",
+    },
+    table: {
+      currency: "मुद्रा",
+      account_number: "खाता संख्या",
+      account_name: "नाम",
+      payment: "जमा राशि",
+      reset_at: "पर रीसेट करें",
+      delete: "मिटाना",
+    },
+    notifications: {
+      set_success: "खाता सफलतापूर्वक जोड़ा गया।",
+      delete_success:
+        "उपहार प्राप्त करने के लिए डिफ़ॉल्ट खातों की सूची से खाता सफलतापूर्वक हटा दिया गया।",
+    },
+    delete_alert: {
+      title: "खाता हटा दो",
+      message:
+        "क्या आप इस खाते को उपहार खातों की सूची से हटाना चाहते हैं?",
+      action: "मिटाना",
+    },
+  },
+  /** {@see UserMonetize} **/
+  user_monetize: {
+    title: "पैसा बनाएं",
+    menu: {
+      plans: "योजनाओं",
+      accounts: "हिसाब किताब",
+      participant: "प्रतिभागी",
+    },
+  },
+  /** {@see OPageMonetizeReferral} **/
+  user_monetize_plans: {
+    title: "सहयोग और मुद्रीकरण परियोजनाएं",
+    sub_title:
+      "आपको रेफ़रल उपहारों के लिए एक खाता क्रेडिट प्राप्त होगा। इन राशियों को आपके खाते से लिया जाएगा और इसे केवल सेलडोन व्यावसायिक भागीदारों (सभी नहीं) से ही निकाला जा सकता है। आप सेलडोन सेवा शुल्क पर पैसा खर्च कर सकते हैं।",
+
+    discount: "छूट",
+    your_income: "आप की आय",
+    level_2: "लेवल टू से",
+    level_3: "तीसरे स्तर से",
+    link_message: "सदस्यता: {registered}, स्वीकृत: {accepted}",
+    link_tip:
+      "आप अपने द्वारा साझा किए जाने वाले प्रत्येक पते के अंत में ?ref={link_code} वाक्यांश जोड़ सकते हैं।",
+    table: {
+      currency: "मुद्रा",
+      amount: "संतुलन",
+      total: "कुल भुगतान",
+      payment_date: "अंतिम भुगतान तिथि",
+      withdraw: "निकासी",
+    },
+
+    notifications: {
+      get_credit_success:
+        "अनुरोधित राशि आपके खाते में जमा कर दी गई है।",
+    },
+  },
+  /** {@see BPageShuttleIdentity} **/
+  basic_information: {
+    title: "मेरी पहचान और प्रोफाइल",
+    email: "ईमेल पता",
+    tel: "मोबाइल नंबर",
+    address: "पता",
+    payment: "वैध लेनदेन",
+    personal_information: "पहचान की जानकारी",
+    main_profile: "मुख्य प्रोफ़ाइल",
+    main_profile_subtitle:
+      "यह जानकारी सार्वजनिक रूप से सभी के लिए उपलब्ध है।",
+    kyc_waiting_info:
+      "हम आपके द्वारा दर्ज की गई जानकारी की सटीकता की जांच कर रहे हैं। यह प्रक्रिया केवाईसी नियमों के अनुसार अनिवार्य है और इससे वित्तीय लेनदेन का जोखिम कम होगा। आप इस सेवा के वर्तमान और भविष्य के लाभों का लाभ उठा सकते हैं।",
+
+    personal_info_dialog: {
+      title: "पहचान की जानकारी",
+      name_input: "संतोष",
+      family_name_input: "उपनाम",
+      number_input: "पासपोर्ट नंबर (या राष्ट्रीय कोड)",
+      birthday_input: "जन्मदिन",
+      birthday_input_placeholder: "अपना जन्मदिन दर्ज करें",
+      address_input: "पता",
+      postcode_input: "डाक कोड",
+      tel_input: "संपर्क संख्या",
+      passport_image_input: "पासपोर्ट छवि का चयन करें",
+      passport_image_input_message:
+        "अपनी पासपोर्ट छवि का स्कैन अपलोड करें।",
+      personal_image_input: "अपनी खुद की छवि चुनें",
+      personal_image_input_message:
+        "अपने राष्ट्रीय कार्ड पर आगे और पीछे स्कैन इमेज को इमेज में अपलोड करें।",
+    },
+    profile_dialog: {
+      title: "मुख्य प्रोफ़ाइल",
+      subtitle:
+        "संपादित करें यओउर सार्वजनिक प्रोफ़ाइल जानकारी हएरए. तहइस जानकारी मइगहत बए वइसइबलए तओ यओउर ग्राहक ओर ओतहएर उपयोगकर्ता.",
+      full_name_input: "पूरा नाम",
+      tel_input: "संपर्क संख्या",
+      email_input: "ईमेल",
+      website_input: "वेबसाइट",
+      address_input: "पता",
+      about_input: "मेरे बारे मेँ",
+      about_long_input: "मेरे बारे में लंबा लेख",
+      image_input: "प्रोफ़ाइल चित्र चुनें",
+      image_input_message:
+        "अपनी छवि अपलोड करें। इस छवि का उपयोग आपके प्रोफ़ाइल चित्र के रूप में किया जाएगा।",
+      notifications: {
+        update_profile_success: "आपका प्रोफाइल अपडेट किया गया है।",
+        update_personal_info_success:
+          "आपकी जानकारी सफलतापूर्वक दर्ज की गई",
+      },
+    },
+    charge_account_approve_message:
+      "अपने बैंक लेनदेन को मंजूरी देने के लिए अपने खाते को चार्ज करें।",
+    payment_approval: "भुगतान स्वीकृति",
+    residential_address_checking:
+      "चेकिंग कतार में आपके आवासीय पते के दस्तावेज।",
+    add_residential_address:
+      "अपना स्थान और आवासीय पते के दस्तावेजों का प्रमाण जोड़ें।",
+  },
+  /** {@see BUserPhoneVerify} **/
+  phone_verify: {
+    title: "मोबाइल नंबर",
+    step1_title:
+      "अपना मोबाइल नंबर दर्ज करें।",
+    phone_number_input: "मोबाइल नंबर",
+    next: "अगला कदम",
+    sms_code_input: "सत्यापन कोड",
+    sms_code_message: "{phone_number} पर 6 अंकों का सत्यापन कोड भेजा गया।",
+
+    notifications: {
+      duplicated_number_error: "यह नंबर आपके द्वारा पहले ही स्वीकृत किया जा चुका है।",
+      send_activation_code_success_title: "सत्यापन कोड",
+      send_activation_code_success:
+        "सत्यापन कोड {phone_number} पर भेजा गया था।",
+      verify_success: "आपका मोबाइल नंबर सत्यापित हो गया है",
+    },
+  },
+  /** {@see BPageShuttleCompanies} **/
+  companies: {
+    title: "मेरे व्यवसाय खाते",
+    message:
+      "व्यवसाय, उद्यमी और पेशेवर टीम सेल्डडोन के आधार पर उत्पाद और एप्लिकेशन विकसित कर सकती हैं। व्यवसाय प्रोफ़ाइल बनाने की आवश्यकता है।",
+    new_company: "नई कंपनी",
+  },
+  /** {@see BCompanyAdd} **/
+  add_company: {
+    name_input: "कंपनी का नाम",
+    website_input: "वेबसाइट",
+    email_input: "ईमेल",
+    address_input: "पता",
+    tel_input: "टेलीफोन",
+    mobile_input: "मोबाइल",
+    edit_action: "कंपनी संपादित करें",
+    create_action: "कंपनी बनाएं",
+    notifications: {
+      add_success: "व्यवसाय खाता {name} बनाया गया।",
+      edit_success: "व्यवसाय खाता संपादित किया गया।",
+    },
+  },
+  /** {@see UserAccessControl} **/
+  user_access_control: {
+    menu: {
+      personal_key: "निजी",
+      shop_key: "ग्राहकों",
+      apps: "ऐप्स",
+    },
+    connected_apps_title: "कनेक्टेड ऐप्स",
+    connected_apps_message:
+      "आपको उन सभी स्टोर और ऐप्स की सूची दिखाई देगी जो आपके डोमेन खाते से जुड़े हैं। आप उनमें से किसी का भी एक्सेस हटा सकते हैं।",
+    clients_title: "ग्राहकों",
+    clients_message:
+      "इन कुंजियों का उपयोग आपके सर्वर द्वारा एक्सेस टोकन बनाने के लिए किया जाता है। ध्यान दें कि कुंजियाँ गोपनीय होती हैं और केवल सर्वर पर रखी जाती हैं ताकि वे दूसरों को दिखाई न दें।",
+    personal_keys_title: "व्यक्तिगत पहुँच कुंजियाँ",
+    personal_keys_message:
+      "आप यहां अपने खाते की चाबियां बना सकते हैं। ध्यान दें कि ये कुंजियाँ आपके खाते तक पहुँचने में सक्षम होंगी। इन चाबियों को बनाएं और उनका उपयोग तभी करें जब आपको पता हो कि आप वास्तव में क्या कर रहे हैं।",
+  },
+
+  /** {@see BPageShuttleSecurity} **/
+  user_security_control: {
+    title: "खाते की सुरक्षा",
+    message: "आप यहां अपनी खाता सुरक्षा सेटिंग संपादित कर सकते हैं।",
+
+    delete: {
+      title: "खाता हटा दो",
+      subtitle:
+        "अपना खाता हटाने से पहले, सुनिश्चित करें कि आपने सभी दुकानें हटा दी हैं।",
+      action: "मुझे यकीन है, मेरा खाता हटा दो",
+      agreement:
+        "मैं स्वीकार करता हूं कि मेरी सारी जानकारी आपके सर्वर से हटा दी जाएगी। धोखाधड़ी या दुरुपयोग को रोकने के लिए हमारे द्वारा निर्धारित कार्यक्रम के अनुसार आपकी जानकारी हटा दी जाएगी।",
+    },
+
+    list: {
+      email: {
+        title: "प्राथमिक ईमेल",
+        sub_title:
+          "आपके पास इस खाते से संबद्ध मुख्य ईमेल को अपडेट करने का विकल्प है।",
+        action_title: "प्राथमिक ईमेल बदलें",
+        action: "सत्यापन लिंक भेजें",
+      },
+      password: {
+        title: "पासवर्ड",
+        sub_title: "अपने खाते के लिए एक मजबूत पासवर्ड चुनें।",
+        action_title: "अकाउंट एक्सेस पासवर्ड",
+        not_exist: "प्रवेश नहीं",
+        action: "पासवर्ड बदलें",
+      },
+      phone: {
+        title: "मोबाइल नंबर",
+        sub_title:
+          "अपने मोबाइल नंबर की पुष्टि करें। आप इस नंबर के जरिए लॉग इन कर पाएंगे।",
+        action_title: "खाते का प्राथमिक फ़ोन नंबर",
+        action: "नंबर सत्यापित करें",
+      },
+
+      two_step: {
+        title: "टू स्टेप एंट्री",
+        sub_title:
+          "अपने मोबाइल नंबर की पुष्टि करें। आप इस नंबर के जरिए लॉग इन कर पाएंगे।",
+        action_title: "खाता सुरक्षा बढ़ाएँ",
+        activated_action: "सक्रिय",
+        active_action: "अब सक्रिय",
+      },
+    },
+    two_step_auth: {
+      step_1: {
+        title: "Google प्रमाणक ऐप इंस्टॉल करें",
+      },
+      step_2: {
+        title: "ऐप द्वारा उत्पन्न कोड दर्ज करें",
+        message:
+          "6-अंकीय कोड आपके मोबाइल फ़ोन में एक एल्गोरिथम द्वारा उत्पन्न होता है। आप निम्न लिंक से ऐप डाउनलोड कर सकते हैं। पासवर्ड वाला एक क्यूआर कोड बनाने के लिए कोड जनरेटर कुंजी दबाएं।",
+        qr_code_info:
+          "यदि स्कैन करना संभव नहीं है, तो आप ऐप में कोड को मैन्युअल रूप से कॉपी और पेस्ट कर सकते हैं:",
+        create_new_code: "नया कोड बनाएं",
+        qr_code_scanning:
+          "गूगल ऑथेंटिकेटर मोबाइल ऐप द्वारा बनाए गए क्यूआर कोड को स्कैन करें और इस पेज के बॉक्स में पुष्टि के लिए जेनरेट किया गया कोड डालें।",
+        qr_code_regenerate_info:
+          "नोट: उपरोक्त कुंजी को दबाने से एक नई कुंजी बन जाएगी और पिछली कुंजी अनुपयोगी हो जाएगी। अपने फ़ोन ऐप में नई कुंजी दर्ज करें।",
+      },
+      step_3: {
+        title: "बनाया गया कोड दर्ज करें",
+        message:
+          "नीचे दिए गए फ़ील्ड में एप्लिकेशन में बनाया गया एक्सेस कोड दर्ज करें।",
+        activation_key_input: "एक्सेस कोड",
+      },
+      activated_alert: "2-चरणीय लॉगिन सक्षम है।",
+      activated_message:
+        "आपके खाते के लिए दो-चरणीय लॉगिन सक्षम है। अब से आपको एक दूसरा कोड दर्ज करना होगा जो आपके खाते तक पहुंचने के लिए हर 30 सेकंड में बदलता है। द्वि-चरणीय लॉगिन अक्षम करने के लिए, बस डबल-क्लिक करें एक चरण दबाएं और चरणों के माध्यम से जाएं।",
+      cancel_two_step_login_action: "दो-चरणीय लॉगिन रद्द करें",
+      cancel_two_step_login_info:
+        "यदि आप 2-चरणीय सत्यापन को अक्षम करना चाहते हैं, तो अपना पासवर्ड दर्ज करें और दो-चरणीय लॉग-इन कुंजी पर क्लिक करें।",
+      password_input: "पासवर्ड",
+      cancel_2fa_action: "दो-चरणीय लॉगिन रद्द करें",
+    },
+
+    change_password_dialog: {
+      title: "पासवर्ड बदलें",
+      message: "एक जटिल और यादगार पासवर्ड का प्रयोग करें।",
+      password_input: "वर्तमान पासवर्ड",
+      new_password_input: "नया पासवर्ड",
+      re_new_password_input: "नया पासवर्ड दोहराएँ",
+      tips: {
+        length: "पासवर्ड कम से कम 8 वर्णों का होना चाहिए",
+        chars: "कम से कम एक अपरकेस अक्षर और एक नंबर।",
+        match: "पासवर्ड का मिलान हुआ।",
+      },
+      change_password_action: "पासवर्ड बदलें",
+      notifications: {
+        change_password_title: "पासवर्ड बदलें",
+        change_password: "पासवर्ड सफलतापूर्वक बदला गया।",
+      },
+    },
+  },
+  /** {@see AuthorizedClients} **/
+  authorized_clients: {
+    title: "कनेक्टेड स्टोर्स/ऐप्स की सूची",
+    table: {
+      name: "नाम",
+      app: "अनुप्रयोग",
+      scopes: "कार्यक्षेत्र",
+      shop: "प्रतिबंधित स्टोर",
+    },
+    remove_action: "पहुंच हटाएं",
+    delete_alert: {
+      title: "मिटाना",
+      message:
+        "क्या आप इस पहुंच को निरस्त करना चाहते हैं? ध्यान दें कि इस ऐप की अब आपके खाते तक पहुंच नहीं होगी।",
+      action: "पहुंच से इंकार",
+    },
+  },
+  /** {@see Clients} **/
+  clients: {
+    title: "ग्राहकों की सूची",
+    create_new_action: "नया क्लाइंट बनाएं",
+    table: {
+      client_id: "ग्राहक ID",
+      app: "अनुप्रयोग",
+      name: "उपनाम",
+      secret_key: "गुप्त कुंजी",
+    },
+    create_dialog: {
+      title: "नए ग्राहक",
+      error_msg: "<strong>त्रुटि!</strong> क्षमा कीजिए, एक गलती उत्पन्न हुई!",
+      name_input: "नाम",
+      name_input_message: "कुछ ऐसा जिसे आपके उपयोगकर्ता पहचानते हैं और उस पर भरोसा करते हैं।",
+      redirect_input_message: "अपनी साइट पर पता वापस करें।",
+    },
+    edit_dialog: {
+      title: "पहुंच संपादित करें",
+    },
+    delete_alert: {
+      title: "मिटाना",
+      message: "क्या आप इस क्लाइंट को हटाना चाहते हैं?",
+      action: "मिटाना",
+    },
+  },
+  /** {@see PersonalAccessTokens} **/
+  personal_access_tokens: {
+    title: "व्यक्तिगत एक्सेस टोकन की सूची",
+    create_action: "नया टोकन बनाएं",
+    table: {
+      name: "नाम",
+      scopes: "पहुंच",
+      expire_at: "समाप्ति तिथि",
+    },
+    create_dialog: {
+      title: "टोकन बिल्डिंग",
+      error_message: "<strong>त्रुटि!</strong> क्षमा कीजिए, एक गलती उत्पन्न हुई!",
+      name_input: "उपनाम पूर्व। मेरा टोकन नाम",
+      name_input_message: "पसंदीदा टोकन नाम।",
+      scopes_list: "टोकन एक्सेस सूची",
+    },
+    access_token_dialog: {
+      title: "व्यक्तिगत पहुंच कुंजी",
+      message:
+        "यहां आपके व्यक्तिगत पहुंच टोकन का टोकन है। यह टोकन केवल इसी समय प्रदर्शित किया जाएगा, इसलिए इसे देखने से न चूकें! अब आप एपीआई का अनुरोध करने के लिए इस टोकन का उपयोग कर सकते हैं।",
+    },
+    delete_alert: {
+      title: "मिटाना",
+      message: "क्या आप इस एक्सेस टोकन को हटाना चाहते हैं?",
+      action: "मिटाना",
+    },
+  },
+
+  /** {@see Scopes} **/
+  scopes: {
+    //--------------------------- Profile ---------------------------
+    profile: {
+      name: "प्रोफ़ाइल",
+      description:
+        "नाम, ईमेल पता, छवि और प्रमाणीकरण स्थिति सहित प्रोफ़ाइल जानकारी पढ़ें।",
+    },
+    phone: {
+      name: "फ़ोन नंबर",
+      description: "फोन नंबर तक पहुंच।",
+    },
+    address: {
+      name: "पतों",
+      description: "पता पुस्तिका से सहेजा गया पता पढ़ें।",
+    },
+    "user:profile:write": {
+      name: "प्रोफ़ाइल प्रबंधन",
+      description: "संपादित करें अनद प्रबंधित करें उपयोगकर्ता प्रोफ़ाइल जानकारी.",
+    },
+
+    //--------------------------- Storefront ---------------------------
+    "my-gift-cards": {
+      name: "गिफ्ट कार्ड",
+      description: "माई कार्ड्स तक पहुंच।",
     },
     "order-history": {
-      "name": "आदेश इतिहास",
-      "description": "आदेश इतिहास पढ़ें।"
+      name: "आदेश इतिहास",
+      description: "आदेश इतिहास पढ़ें।",
     },
-    "my-gift-cards": {
-      "name": "गिफ्ट कार्ड",
-      "description": "माई कार्ड्स तक पहुंच।"
+    buy: {
+      name: "खरीदना",
+      description: "ऑर्डर दें और स्टोर से खरीदारी करें।",
     },
-    "articles": {
-      "name": "सामग्री संपादित करें",
-      "description": "लेख संपादित करें।"
+
+    //--------------------------- Backoffice ---------------------------
+    articles: {
+      name: "सामग्री संपादित करें",
+      description: "लेख संपादित करें।",
     },
-    "notifications": {
-      "name": "अधिसूचना भेजें और प्राप्त करें",
-      "description": "अधिसूचना भेजें और प्राप्त करें।"
+    "backoffice:notifications": {
+      name: "सूचनाएँ प्रबंधन",
+      description: "सएनद अनद रएकएइवए सूचनाएँ.",
     },
-    "read-shops": {
-      "name": "स्टोर इस्त",
-      "description": "स्टोर सूची पढ़ें।"
+    "backoffice:order:write": {
+      name: "ऑर्डर प्रबंधन",
+      description: "संपादित करें अनद प्रबंधित करें स्टोर ऑर्डर.",
     },
-    "shop-edit": {
-      "name": "भंडार प्रबंधन",
-      "description": "स्टोर एक्सेस संपादित करें"
+    "backoffice:order:read": {
+      name: "ऑर्डर पहुँच",
+      description: "रएअद स्टोर ऑर्डर.",
     },
-    "shop-contacts": {
-      "name": "संपर्क प्रपत्र प्रबंधन",
-      "description": "संपर्क फ़ॉर्म प्राप्त करें और संपादित करें।"
+    "backoffice:support-tickets": {
+      name: "समर्थन तइककएतस",
+      description: "प्रबंधित करें समर्थन तइककएतस.",
     },
-    "shop-gift-cards": {
-      "name": "उपहार कार्ड प्रबंधित करें",
-      "description": "उपहार कार्ड बनाएं, संपादित करें और प्रबंधित करें।"
+    "backoffice:shop:read": {
+      name: "दुकान जानकारी",
+      description: "रएअद दुकान विवरण अनद सतअतइसतइकस.",
     },
-    "shop-faqs": {
-      "name": "प्रश्न और उत्तर प्रबंधित करना",
-      "description": "अक्सर पूछे जाने वाले प्रश्नों को बनाएं, संपादित करें और प्रबंधित करें।"
+    "backoffice:shop:write": {
+      name: "दुकान प्रबंधन",
+      description: "बनाएँ अनद प्रबंधित करें दुकान विवरण.",
     },
-    "shop-categories": {
-      "name": "श्रेणी व्यवस्थित करें",
-      "description": "श्रेणियाँ बनाएँ, संपादित करें और प्रबंधित करें।"
+    "backoffice:shop:add": {
+      name: "जोड़ें दुकान",
+      description: "जोड़ें a नया दुकान तओ तहए सयसतएम.",
     },
-    "shop-products": {
-      "name": "उत्पाद प्रबंधन",
-      "description": "उत्पादों को जोड़ें, संपादित करें और प्रबंधित करें।"
+    "backoffice:shop:delete": {
+      name: "हटाएँ दुकान",
+      description: "हटाएँ a दुकान फरओम तहए सयसतएम.",
     },
-    "shop-read-reports": {
-      "name": "रिपोर्ट पढ़ें",
-      "description": "जानकारी और रिपोर्ट पढ़ें।"
+    "backoffice:giftcard:write": {
+      name: "उपहार कार्ड प्रबंधन",
+      description: "बनाएँ अनद प्रबंधित करें उपहार कार्ड.",
     },
-    "shop-socials": {
-      "name": "सोशल मीडिया प्रबंधित करें",
-      "description": "स्टोर सोशल मीडिया संपादित करें"
+    "backoffice:giftcard:read": {
+      name: "उपहार कार्ड पहुँच",
+      description: "रएअद उपहार कार्ड विवरण अनद सतअतइसतइकस.",
     },
-    "shop-accounts": {
-      "name": "वित्तीय खातों का प्रबंधन करें",
-      "description": "स्टोर से जुड़े वित्तीय खातों को संपादित करें और हटाएं।"
+    "backoffice:faq:write": {
+      name: "फअक प्रबंधन",
+      description: "बनाएँ अनद प्रबंधित करें फरएकउएनतलय असकएद कउएसतइओनस.",
     },
-    "shop-menus": {
-      "name": "मेनू प्रबंधित करें",
-      "description": "स्टोर मेनू संपादित करें।"
+    "backoffice:faq:read": {
+      name: "फअक पहुँच",
+      description: "रएअद फअक विवरण अनद सतअतइसतइकस.",
     },
-    "shop-pages": {
-      "name": "पेज प्रबंधित करें",
-      "description": "शॉप पेज संपादित करें।"
+    "backoffice:category:write": {
+      name: "श्रेणी प्रबंधन",
+      description: "बनाएँ अनद प्रबंधित करें उत्पाद श्रेणियाँ.",
     },
-    "shop-warehouse": {
-      "name": "गोदाम प्रबंधन",
-      "description": "स्टोर वेयरहाउस संपादित करें"
+    "backoffice:category:read": {
+      name: "श्रेणी पहुँच",
+      description: "रएअद श्रेणी विवरण अनद सतअतइसतइकस.",
     },
-    "shop-permissions": {
-      "name": "पहुंच प्रबंधित करें",
-      "description": "स्टोर एक्सेस देखें और संपादित करें।"
+    "backoffice:product:write": {
+      name: "उत्पाद प्रबंधन",
+      description: "जोड़ें अनद प्रबंधित करें उत्पाद.",
     },
-    "shop-process-center": {
-      "name": "प्रबंधन को आदेश दें",
-      "description": "प्रबंधन को आदेश दें।"
+    "backoffice:product:read": {
+      name: "उत्पाद पहुँच",
+      description: "रएअद उत्पाद विवरण अनद सतअतइसतइकस.",
     },
-    "shop-profile": {
-      "name": "प्रोफाइल प्रबंधित करें",
-      "description": "स्टोर प्रोफाइल प्रबंधित करें।"
+    "backoffice:report:read": {
+      name: "रिपोर्ट पहुँच",
+      description: "रएअद स्टोर रिपोर्ट अनद जानकारी.",
     },
-    "shop-discount-code": {
-      "name": "डिस्काउंट कोड प्रबंधन",
-      "description": "स्टोर छूट कोड प्रबंधित करें, संपादित करें और जोड़ें।"
-    }
+    "backoffice:finance:write": {
+      name: "वित्तीय खाता प्रबंधन",
+      description: "प्रबंधित करें वित्तीय खाते लिंक तओ तहए स्टोर.",
+    },
+    "backoffice:finance:read": {
+      name: "वित्तीय खाता पहुँच",
+      description: "रएअद वित्तीय खाता विवरण अनद सतअतइसतइकस.",
+    },
+    "backoffice:page:write": {
+      name: "पृष्ठ प्रबंधन",
+      description: "संपादित करें दुकान पृष्ठ.",
+    },
+    "backoffice:page:read": {
+      name: "पृष्ठ पहुँच",
+      description: "रएअद दुकान पृष्ठ विवरण अनद सतअतइसतइकस.",
+    },
+    "backoffice:logistic:write": {
+      name: "लॉजिस्टिक्स प्रबंधन",
+      description: "प्रबंधित करें लॉजिस्टिक्स जानकारी.",
+    },
+    "backoffice:logistic:read": {
+      name: "लॉजिस्टिक्स पहुँच",
+      description: "रएअद लॉजिस्टिक्स विवरण अनद सतअतइसतइकस.",
+    },
+    "backoffice:staff:write": {
+      name: "कर्मचारी प्रबंधन",
+      description: "संपादित करें अनद प्रबंधित करें कर्मचारी विवरण.",
+    },
+    "backoffice:staff:read": {
+      name: "कर्मचारी पहुँच",
+      description: "रएअद कर्मचारी जानकारी अनद सतअतइसतइकस.",
+    },
+    "backoffice:business-profile:write": {
+      name: "बउसइनएसस प्रोफ़ाइल प्रबंधन",
+      description: "प्रबंधित करें बउसइनएसस प्रोफ़ाइल.",
+    },
+    "backoffice:business-profile:read": {
+      name: "बउसइनएसस प्रोफ़ाइल पहुँच",
+      description: "रएअद बउसइनएसस प्रोफ़ाइल विवरण.",
+    },
+    "backoffice:discount-code:write": {
+      name: "छूट कोड प्रबंधन",
+      description: "प्रबंधित करें स्टोर छूट कोड.",
+    },
+    "backoffice:discount-code:read": {
+      name: "छूट कोड पहुँच",
+      description: "रएअद छूट कोड विवरण अनद सतअतइसतइकस.",
+    },
+    "backoffice:wallet:write": {
+      name: "वॉलेट प्रबंधन",
+      description: "प्रबंधित करें उपयोगकर्ता वॉलेट.",
+    },
+    "backoffice:wallet:read": {
+      name: "वॉलेट पहुँच",
+      description: "रएअद वॉलेट जानकारी अनद सतअतइसतइकस.",
+    },
+    "backoffice:coupon:write": {
+      name: "कूपन प्रबंधन",
+      description: "प्रबंधित करें स्टोर कूपन.",
+    },
+    "backoffice:coupon:read": {
+      name: "कूपन पहुँच",
+      description: "रएअद कूपन विवरण अनद सतअतइसतइकस.",
+    },
+    "backoffice:offer:write": {
+      name: "ऑफ़र प्रबंधन",
+      description: "प्रबंधित करें स्टोर ऑफ़र.",
+    },
+    "backoffice:offer:read": {
+      name: "ऑफ़र पहुँच",
+      description: "रएअद ऑफ़र जानकारी अनद सतअतइसतइकस.",
+    },
+    "backoffice:cashback:write": {
+      name: "कैशबैक प्रबंधन",
+      description: "प्रबंधित करें स्टोर कैशबैक ऑफ़र.",
+    },
+    "backoffice:cashback:read": {
+      name: "कैशबैक पहुँच",
+      description: "रएअद कैशबैक विवरण अनद सतअतइसतइकस.",
+    },
+    "backoffice:lottery:write": {
+      name: "लॉटरी प्रबंधन",
+      description: "प्रबंधित करें स्टोर लओततएरइएस.",
+    },
+    "backoffice:lottery:read": {
+      name: "लॉटरी पहुँच",
+      description: "रएअद लॉटरी विवरण अनद सतअतइसतइकस.",
+    },
+    "backoffice:community:write": {
+      name: "कओममउनइतय प्रबंधन",
+      description: "प्रबंधित करें कओममउनइतय अकतइवइतइएस.",
+    },
+    "backoffice:community:read": {
+      name: "कओममउनइतय पहुँच",
+      description: "रएअद कओममउनइतय विवरण अनद सतअतइसतइकस.",
+    },
+    "backoffice:customer:write": {
+      name: "ग्राहक प्रबंधन",
+      description: "प्रबंधित करें ग्राहक विवरण.",
+    },
+    "backoffice:customer:read": {
+      name: "ग्राहक पहुँच",
+      description: "रएअद ग्राहक जानकारी अनद सतअतइसतइकस.",
+    },
+    "backoffice:ribbon:write": {
+      name: "रइबबओन प्रबंधन",
+      description: "प्रबंधित करें स्टोर रइबबओनस.",
+    },
+    "backoffice:ribbon:read": {
+      name: "रइबबओन पहुँच",
+      description: "रएअद रइबबओन विवरण अनद सतअतइसतइकस.",
+    },
+    "backoffice:ai:write": {
+      name: "AI प्रबंधन",
+      description: "प्रबंधित करें AI कॉन्फ़िगरेशन.",
+    },
+    "backoffice:ai:read": {
+      name: "AI पहुँच",
+      description: "रएअद AI कॉन्फ़िगरेशन अनद सतअतइसतइकस.",
+    },
+    "backoffice:vendor-payment:write": {
+      name: "विक्रेता भुगतान प्रबंधन",
+      description: "प्रबंधित करें विक्रेता भुगतान.",
+    },
+    "backoffice:vendor-payment:read": {
+      name: "विक्रेता भुगतान पहुँच",
+      description: "रएअद विक्रेता भुगतान विवरण अनद सतअतइसतइकस.",
+    },
+    "backoffice:company:read": {
+      name: "कओमपअनय पहुँच",
+      description: "रएअद कओमपअनय विवरण अनद सतअतइसतइकस.",
+    },
+    "backoffice:company:write": {
+      name: "कओमपअनय प्रबंधन",
+      description: "प्रबंधित करें कओमपअनय जानकारी.",
+    },
+    "backoffice:note:read": {
+      name: "नोट पहुँच",
+      description: "रएअद नोट अनद रएलअतएद विवरण.",
+    },
+    "backoffice:note:write": {
+      name: "नोट प्रबंधन",
+      description: "प्रबंधित करें नोट.",
+    },
+    "backoffice:affiliate:write": {
+      name: "सहयोगी प्रबंधन",
+      description: "प्रबंधित करें सहयोगी जानकारी.",
+    },
+    "backoffice:affiliate:read": {
+      name: "सहयोगी पहुँच",
+      description: "रएअद सहयोगी विवरण अनद सतअतइसतइकस.",
+    },
+    "backoffice:print:write": {
+      name: "परइनत प्रबंधन",
+      description: "प्रबंधित करें परइनत विकल्प.",
+    },
+    "backoffice:print:read": {
+      name: "परइनत पहुँच",
+      description: "रएअद परइनत विवरण.",
+    },
+    "selldone:token:read": {
+      name: "तओकएन पहुँच",
+      description: "रएअद तओकएन विवरण अनद सतअतइसतइकस.",
+    },
+    "selldone:token:write": {
+      name: "तओकएन प्रबंधन",
+      description: "प्रबंधित करें तओकएनस.",
+    },
+
+    //--------------------------- Selldone ---------------------------
+    "selldone:monetization:read": {
+      name: "मओनएतइज़अतइओन पहुँच",
+      description: "रएअद मओनएतइज़अतइओन विवरण अनद सतअतइसतइकस.",
+    },
+    "selldone:monetization:write": {
+      name: "मओनएतइज़अतइओन प्रबंधन",
+      description: "प्रबंधित करें मओनएतइज़अतइओन, इनकलउदइनग रएफएररअल परओगरअमस.",
+    },
+    "selldone:identification": {
+      name: "इदएनतइफइकअतइओन पहुँच",
+      description: "पहुँच उपयोगकर्ता इदएनतइफइकअतइओन विवरण.",
+    },
+    "selldone:developer:read": {
+      name: "दएवएलओपएर पहुँच",
+      description: "रएअद दएवएलओपएर विवरण अनद सतअतइसतइकस.",
+    },
+    "selldone:developer:write": {
+      name: "दएवएलओपएर प्रबंधन",
+      description: "प्रबंधित करें दएवएलओपएर जानकारी.",
+    },
+    "selldone:security:write": {
+      name: "सएकउरइतय प्रबंधन",
+      description: "प्रबंधित करें सएकउरइतय कॉन्फ़िगरेशन.",
+    },
+
+    //--------------------------- Connect ---------------------------
+    "connect:provider:write": {
+      name: "परओवइदएर प्रबंधन",
+      description: "प्रबंधित करें कओननएकतएद सेवा परओवइदएरस.",
+    },
+    "connect:provider:read": {
+      name: "परओवइदएर पहुँच",
+      description: "रएअद परओवइदएर विवरण अनद सतअतइसतइकस.",
+    },
+
+    //--------------------------- Agency ---------------------------
+    "agency:read": {
+      name: "अगएनकय पहुँच",
+      description: "रएअद अगएनकय विवरण अनद सतअतइसतइकस.",
+    },
+    "agency:write": {
+      name: "अगएनकय प्रबंधन",
+      description: "प्रबंधित करें अगएनकय जानकारी.",
+    },
+
+    //--------------------------- Vendor ---------------------------
+
+    "vendor-read": {
+      name: "विक्रेता पहुँच",
+      description: "रएअद विक्रेता विवरण अनद सतअतइसतइकस.",
+    },
+    "vendor-write": {
+      name: "विक्रेता प्रबंधन",
+      description: "प्रबंधित करें विक्रेता जानकारी.",
+    },
   },
-  "company_page": {
-    "title": "सोहबत",
-    "create_app": "नया एप्लिकेशन बनाएं",
-    "menu": {
-      "edit": "संपादन करना",
-      "apps": "ऐप्स",
-      "dashboard": "डैशबोर्ड",
-      "companies": "कंपनियों"
+
+  scope_group: {
+    backoffice: {
+      title: "बअककओफफइकए",
+      description: "पहुँच तओ बअककओफफइकए अनद स्टोर प्रबंधन फएअतउरएस.",
     },
-    "dashboard": {
-      "info_widget": {
-        "title": "कंपनी पंजीकरण जानकारी",
-        "address": "पता",
-        "website": "वेबसाइट",
-        "email": "ईमेल",
-        "phone": "फ़ोन नंबर",
-        "register": "पंजीकरण करवाना",
-        "developer": "डेवलपर",
-        "verified": "सत्यापित",
-        "golden": "स्वर्ण"
-      }
+    storefront: {
+      title: "सतओरएफरओनत",
+      description: "पहुँच तओ ग्राहक अनद स्टोर जानकारी.",
     },
-    "developer": {
-      "title": "डेवलपर्स",
-      "menu": {
-        "new": "नया",
-        "apps": "ऐप्स"
+    profile: {
+      title: "प्रोफ़ाइल",
+      description: "पहुँच उपयोगकर्ता प्रोफ़ाइल जानकारी.",
+    },
+    selldone: {
+      title: "Selldone",
+      description: "पहुँच Selldone सेवाएँ अनद फएअतउरएस.",
+    },
+    others: {
+      title: "ओतहएरस",
+      description: "मइसकएललअनएओउस सकओपएस नहीं दएफइनएद इन तहए सयसतएम.",
+    },
+    vendor: {
+      title: "विक्रेता",
+      description: "पहुँच विक्रेता जानकारी अनद प्रबंधन फएअतउरएस.",
+    },
+    connect: {
+      title: "ओएस कनेक्ट करें",
+      description: "पहुँच कओननएकतएद सेवाएँ अनद परओवइदएरस.",
+    },
+    agency: {
+      title: "अगएनकय",
+      description: "पहुँच अगएनकय जानकारी अनद प्रबंधन.",
+    },
+  },
+
+  /** {@see AdminCompanyPage} **/
+  company_page: {
+    title: "सोहबत",
+    create_app: "नया एप्लिकेशन बनाएं",
+    menu: {
+      edit: "संपादन करना",
+      apps: "ऐप्स",
+      dashboard: "डैशबोर्ड",
+      companies: "कंपनियों",
+    },
+    /** {@see AdminCompanyPage_Dashboard} **/
+    dashboard: {
+      /** {@see CompanyInfoWidget} **/
+      info_widget: {
+        title: "कंपनी पंजीकरण जानकारी",
+        address: "पता",
+        website: "वेबसाइट",
+        email: "ईमेल",
+        phone: "फ़ोन नंबर",
+        register: "पंजीकरण करवाना",
+        developer: "डेवलपर",
+        verified: "सत्यापित",
+        golden: "स्वर्ण",
       },
-      "app_card": {
-        "category": "श्रेणी",
-        "installs": "स्थापित करना",
-        "actives": "सक्रिय",
-        "uninstalls": "यदि अनइंस्टॉल",
-        "app_code": "ऐप कोड",
-        "app_mode": "आवेदन मोड"
-      }
     },
-    "edit": {
-      "title": "संपादन करना"
-    }
-  },
-  "add_app": {
-    "category_input": "श्रेणी",
-    "code_input": "कोड",
-    "name_input": "नाम",
-    "description_input": "विवरण",
-    "video_input": "वीडियो यूआरएल",
-    "public_form": "सामान्य सूचना संरचना",
-    "private_form": "निजी सूचना संरचना",
-    "icon_input": "ऐप आइकन",
-    "logo_input": "लोगो ऐप",
-    "enable_input": "क्या एप्लिकेशन सक्रिय है?",
-    "edit_action": "ऐप संपादित करें",
-    "create_action": "ऐप बनाएं",
-    "notifications": {
-      "add_success": "व्यवसाय खाता {name} बनाया गया।",
-      "delete_success": "व्यवसाय खाता संपादित किया गया।"
-    }
-  },
-  "app_page": {
-    "title": "आवेदन पत्र",
-    "menu": {
-      "edit": "संपादन करना",
-      "publish": "प्रकाशित करना",
-      "history": "संस्करणों",
-      "dashboard": "डैशबोर्ड",
-      "company": "सोहबत",
-      "api": "API",
-      "images": "इमेजिस"
-    },
-    "dashboard": {
-      "app_info_widget": {
-        "title": "आवेदन पत्र",
-        "app_code": "ऐप कोड",
-        "category": "श्रेणी",
-        "name": "नाम",
-        "installs": "ऐप्स इंस्टॉल करें",
-        "uninstalls": "ऐप्स अनइंस्टॉल करें",
-        "actives": "सक्रिय ऐप्स",
-        "description": "विवरण",
-        "published": "प्रकाशित",
-        "waiting_for_review": "लंबित अनुमोदन",
-        "app_mode": "आवेदन मोड"
-      }
-    }
-  },
-  "shop_permissions": {
-    "ADMIN": {
-      "text": "मालिक",
-      "description": "सभी स्टोरफ्रंट तक पूर्ण पहुंच।"
-    },
-    "PRODUCT": {
-      "text": "उत्पाद प्रबंधक",
-      "description": "स्टोर उत्पादों को जोड़ें, संपादित करें और प्रबंधित करें।"
-    },
-    "AUDITING": {
-      "text": "वित्तीय प्रबंधक",
-      "description": "वित्तीय जानकारी और भुगतान देखें।"
-    },
-    "CONTENT": {
-      "text": "सामग्री प्रबंधन",
-      "description": "सवालों के जवाब दें, ब्लॉग लिखें और पेज डिजाइन करें।"
-    },
-    "OFFICER": {
-      "text": "वरिष्ठ प्रबंधक",
-      "description": "कर्मचारी गतिविधि देखें और निगरानी करें।"
-    },
-    "EMPLOYEE": {
-      "text": "कर्मचारी",
-      "description": "आदेश देखें और आदेशों को पूरा करें।"
-    },
-    "MARKETING": {
-      "text": "विपणन",
-      "description": "सेटिंग्स तक पहुंच और अभियान, ईमेल मार्केटिंग और मार्केटिंग से संबंधित अन्य अनुभाग बनाएं।"
-    },
-    "VIEWER": {
-      "text": "दर्शक",
-      "description": "स्टोर जानकारी को संपादित या परिवर्तित किए बिना देखने की क्षमता।"
-    }
-  },
-  "shop_roles": {
-    "PhysicalOrdersChecking": {
-      "text": "शारीरिक जांच",
-      "description": "चेक प्राप्त आदेश।"
-    },
-    "PhysicalOrdersPackaging": {
-      "text": "भौतिक पैकेजिंग",
-      "description": "गोदाम और पैकेजिंग प्रक्रिया।"
-    },
-    "PhysicalOrdersDelivery": {
-      "text": "भौतिक नौवहन",
-      "description": "शिपिंग का आदेश दें।"
-    },
-    "PhysicalOrdersSupport": {
-      "text": "शारीरिक सहायता",
-      "description": "बिक्री के बाद समर्थन।"
-    }
-  },
-  "account_status": {
-    "Checking": "चेकिंग",
-    "Approved": "की पुष्टि की",
-    "Rejected": "अस्वीकार कर दिया",
-    "Deleted": "हटाए गए",
-    "Banned": "प्रतिबंधित",
-    "Payment": "भुगतान",
-    "SelldoneSprite": "सेलडोन वॉलेट खाता",
-    "SelldoneStorage": "सेलडोन स्टोरेज"
-  },
-  "account_page": {
-    "title": "खाता",
-    "menu": {
-      "setting": "समायोजन",
-      "change": "शुल्क",
-      "transfer": "स्थानांतरण करना",
-      "transactions": "लेनदेन",
-      "charge": "शुल्क",
-      "history": "इतिहास",
-      "cards": "पत्ते"
-    },
-    "transactions": {
-      "title": "खाता लेनदेन",
-      "detail": {
-        "title": "लेन-देन",
-        "amount": "राशि",
-        "description": "विवरण",
-        "from": "से",
-        "to": "सेवा",
-        "created_at": "दिनांक",
-        "receipt": "रसीद",
-        "receipt_note": "टिप्पणी"
+    /** {@see AdminCompanyPage_Develop} **/
+    developer: {
+      title: "डेवलपर्स",
+      menu: {
+        new: "नया",
+        apps: "ऐप्स",
       },
-      "table": {
-        "type": "प्रकार",
-        "from": "अकाउंट से",
-        "to": "खाते में",
-        "amount": "राशि",
-        "receipt": "रसीद",
-        "created_at": "दिनांक",
-        "description": "विवरण"
-      }
     },
-    "transfer": {
-      "title": "स्थानांतरण शुल्क",
-      "form": {
-        "title": "स्थानांतरण अनुरोध प्रपत्र",
-        "sub_title": "अपने स्वयं के खातों या अन्य में जमा करें",
-        "message": "पैसे ट्रांसफर करने में सावधानी बरतें, ट्रांसफर पूरा करने पर आप वापस नहीं कर पाएंगे।"
-      }
+    /** {@see AdminCompanyPage_Edit} **/
+    edit: {
+      title: "संपादन करना",
     },
-    "deposit": {
-      "form": {
-        "title": "चार्जिंग अकाउंट",
-        "sub_title": "लाइसेंस खरीदने, अपने खाते को अपग्रेड करने और सिस्टम रसीदों का भुगतान करने के लिए आपको अपने खाते की शेष राशि को चार्ज करना होगा।",
-        "amount_input": "राशि",
-        "charge_action": "खाता चार्ज करें"
+  },
+  /** {@see BAppAdd} **/
+  add_app: {
+    category_input: "श्रेणी",
+    code_input: "कोड",
+    name_input: "नाम",
+    description_input: "विवरण",
+    video_input: "वीडियो यूआरएल",
+    public_form: "सामान्य सूचना संरचना",
+    private_form: "निजी सूचना संरचना",
+    icon_input: "ऐप आइकन",
+    logo_input: "लोगो ऐप",
+    enable_input: "क्या एप्लिकेशन सक्रिय है?",
+    edit_action: "ऐप संपादित करें",
+    create_action: "ऐप बनाएं",
+    notifications: {
+      add_success: "व्यवसाय खाता {name} बनाया गया।",
+      delete_success: "व्यवसाय खाता संपादित किया गया।",
+    },
+  },
+
+  /** {@see AppPage} **/
+  app_page: {
+    title: "आवेदन पत्र",
+
+    menu: {
+      edit: "संपादन करना",
+      publish: "प्रकाशित करना",
+      history: "संस्करणों",
+      dashboard: "डैशबोर्ड",
+      company: "सोहबत",
+      api: "API",
+      images: "इमेजिस",
+    },
+    /** {@see AppPage_Dashboard} **/
+    dashboard: {
+      /** {@see AppInfoWidget} **/
+      app_info_widget: {
+        title: "आवेदन पत्र",
+        app_code: "ऐप कोड",
+        category: "श्रेणी",
+        name: "नाम",
+        installs: "ऐप्स इंस्टॉल करें",
+        uninstalls: "ऐप्स अनइंस्टॉल करें",
+        actives: "सक्रिय ऐप्स",
+        description: "विवरण",
+        published: "प्रकाशित",
+        waiting_for_review: "लंबित अनुमोदन",
+        app_mode: "आवेदन मोड",
       },
-      "notifications": {
-        "qr_title": "भुगतान",
-        "qr_message": "भुगतान पता {currency} बनाया गया।",
-        "gateway_title": "भुगतान",
-        "gateway_message": "पेमेंट गेटवे से कनेक्ट करना।"
-      }
     },
-    "setting": {
-      "title": "अकाउंट सेटिंग",
-      "account_name_input": "खाता नाम",
-      "notifications": {
-        "updated_success": "आपका खाता सफलतापूर्वक अपडेट किया गया।"
-      }
-    }
   },
-  "receipt_payment_dialog": {
-    "title": "रसीद भुगतान"
-  },
-  "transaction_form": {
-    "title": "लेन-देन प्रपत्र",
-    "from_input": "अकाउंट नंबर से",
-    "to_input": "खाता संख्या के लिए",
-    "from_input_message": "इस खाते से राशि निकाल ली जाएगी।",
-    "account_name": "खाता नाम",
-    "currency": "मुद्रा",
-    "free_balance": "उपलब्ध शेष राशि",
-    "to": "गंतव्य खाता",
-    "amount": "राशि",
-    "receipt_title": "रसीद के लिए भुगतान",
-    "receipt_input": "पत्र संख्या",
-    "paid_status": "इस रसीद का भुगतान पहले ही किया जा चुका है।",
-    "paid_canceled": "यह रसीद रद्द कर दी गई है।",
-    "description": "व्याख्या",
-    "created_at": "दिनांक",
-    "duration": "अवधि",
-    "unlimited": "असीमित",
-    "add_note_action": "विवरण जोड़ें",
-    "note": "टिप्पणी",
-    "transfer_action": "स्थानांतरण करना",
-    "confirmation": {
-      "title": "पैसे भेजना",
-      "subtitle": "लेन-देन की पुष्टि",
-      "message": "यदि निम्नलिखित जानकारी सही है, तो लेन-देन करने के लिए लेनदेन पुष्टिकरण कुंजी दबाएं।",
-      "from": "अकाउंट से",
-      "to": "खाते में",
-      "amount": "राशि",
-      "fee": "लेनदेन शुल्क",
-      "total_pay": "आपके खाते से निकाली गई राशि",
-      "receipt": "रसीद",
-      "description": "विवरण",
-      "accept_action": "लेन-देन की पुष्टि"
+  /** {@see ShopPermissions} **/
+  shop_permissions: {
+    ADMIN: { text: "मालिक", description: "सभी स्टोरफ्रंट तक पूर्ण पहुंच।" },
+    PRODUCT: {
+      text: "उत्पाद प्रबंधक",
+      description: "स्टोर उत्पादों को जोड़ें, संपादित करें और प्रबंधित करें।",
     },
-    "enter_account_number": "खाता संख्या दर्ज करें।",
-    "currency_not_match": "गंतव्य खाते की मुद्रा स्रोत के समान नहीं है",
-    "account_number_not_valid": "खाता संख्या सही है।",
-    "account_number_is_valid": "खाता संख्या सही है।",
-    "receipt_not_valid": "चालान संख्या गलत है।",
-    "receipt_is_valid": "रसीद संख्या सही है।",
-    "notifications": {
-      "confirm_success": "लेन-देन सफलतापूर्वक पूरा हुआ।"
-    }
-  },
-  "price_calculator": {
-    "title": "कैलकुलेटर ╏ आपके व्यवसाय के लिए उपयुक्त",
-    "description": "अपनी मासिक बिक्री के आधार पर सर्वोत्तम योजना की गणना करें और चुनें:",
-    "sale_input": "मासिक बिक्री राशि",
-    "hypernova_plan": "हाइपरनोवा% 0 के लिए आवेदन करें!",
-    "show_normal_mode": "सामान्य मोड दिखाएं",
-    "show_hypernova_mode": "मेरा लेन-देन 1M$ से अधिक है!"
-  },
-  "price_card": {
-    "billed_monthly": "बिल {amount} मासिक।",
-    "billed_yearly": "बिल {amount} वार्षिक।",
-    "buy_license_action": "अभी खरीदें",
-    "select_your_store": "अपना स्टोर चुनें"
-  },
-  "shop_session_widget": {
-    "total_sessions": "कुल सत्र"
-  },
-  "user_activities_keys": {
-    "add_baskets": "कार्ट में डालें",
-    "remove_baskets": "कार्ट . से हटाएं",
-    "buys": "खरीदना",
-    "products_views": "उत्पाद देखें"
-  },
-  "shop_visitors_widget": {
-    "title": "विज़िटर एनालिटिक्स",
-    "new_visitors": "नए आगंतुक",
-    "amp": "एएमपी दृश्य",
-    "returning_visitors": "लौटने वाले आगंतुक",
-    "page_views": "पृष्ठ दृश्य",
-    "other_pages": "अन्य पृष्ठ",
-    "from_previous_7_days": "पिछले 7 दिनों से"
-  },
-  "app_levels": {
-    "title": "ऐप स्तर",
-    "Newbie": "नौसिखिया",
-    "Beginner": "शुरुआती",
-    "Novice": "नौसिखिए",
-    "Intermediate": "मध्यम",
-    "Advanced": "विकसित"
-  },
-  "login": {
-    "register_title": "व्यवसायों का माध्यम,<br> सुखद अनुभव।",
-    "register_subtitle": "आज मुफ्त में साइन अप करें। सेलडोन को स्टार्टअप, उद्यम, खरीदार और विक्रेता पसंद करते हैं।",
-    "password_recovery_title": "पासवर्ड की दोबारा प्राप्ति",
-    "password_recovery_message": "यदि आप अपना पासवर्ड भूल गए हैं, तो अपने खाते का ईमेल पता दर्ज करें और पुष्टिकरण कुंजी दबाएं। हम आपको आपका पासवर्ड रीसेट करने के लिए एक लिंक के साथ एक ईमेल भेजेंगे।",
-    "email": "आपका ईमेल पता",
-    "password_recovery_action": "पुनर्प्राप्ति ईमेल प्राप्त करें",
-    "register_google": "Google के साथ जारी रखें",
-    "register_apple": "Apple के साथ जारी रखें",
-    "continue_with": "जारी रखें",
-    "register_linkedin": "लिंक्डइन के साथ जारी रखें",
-    "register_facebook": "फेसबुक के साथ जारी रखें",
-    "register_github": "गीथूब के साथ जारी रखें",
-    "create_your_account": "अपने खाते बनाएँ",
-    "password_8_chars": "पासवर्ड कम से कम आठ अक्षरों का होना चाहिए।",
-    "password_upercase_number": "कम से कम एक अपरकेस अक्षर और एक नंबर।",
-    "password_confirm": "पासवर्ड और पुष्टि का मिलान हुआ।",
-    "privacy_agreement": "साइन अप करके, आप सेलडोन की <a href='/terms' target='_blank'>उपयोग की शर्तों</a> और <a href='/privacy' target='_blank'>गोपनीयता नीति</a> से सहमत होते हैं।",
-    "register_action": "चलो चलें, यह मुफ़्त है!",
-    "login_action": "लॉग इन करें",
-    "already_signup": "पहले ही साइन अप कर लिया है?",
-    "login_your_account": "अपने अकाउंट में लॉग इन करें",
-    "login_google": "Google के साथ जारी रखें",
-    "login_linkedin": "लिंक्डइन के साथ जारी रखें",
-    "login_facebook": "फेसबुक के साथ जारी रखें",
-    "login_github": "गीथूब के साथ जारी रखें",
-    "remember_me": "पहचाना की नहीं।",
-    "login_button": "लॉग इन करें",
-    "two_step_problem": "क्या आपको टू-स्टेप पासवर्ड की समस्या है?",
-    "two_step_problem_action": "मैं दो-चरणीय लॉगिन अक्षम करना चाहता हूं।",
-    "two_step_confirm": "एक्सेस कोड की पुष्टि करें",
-    "forgot_password": "पासवर्ड भूल गए?",
-    "signup_free": "मुफ्त में साइन अप",
-    "checking_robot_message": "चेक कर रहे हैं कि आप रोबोट हैं या इंसान..",
-    "notifications": {
-      "step2_login_success": "खाते में ऑटो-लॉगिन"
+    AUDITING: {
+      text: "वित्तीय प्रबंधक",
+      description: "वित्तीय जानकारी और भुगतान देखें।",
     },
-    "signup_email": "ईमेल द्वारा साइन अप करें",
-    "name_placeholder": "नाम",
-    "email_placeholder": "ईमेल",
-    "email_or_username_placeholder": "ईमेल, उपयोगकर्ता नाम या फोन नंबर",
-    "password_placeholder": "पासवर्ड",
-    "re_password_placeholder": "पासवर्ड की पुष्टि कीजिये",
-    "new_in_samin": "सेलडोन में नया?",
-    "auto_create_shop": "ऑटो क्रिएट शॉप"
+    CONTENT: {
+      text: "सामग्री प्रबंधन",
+      description: "सवालों के जवाब दें, ब्लॉग लिखें और पेज डिजाइन करें।",
+    },
+    OFFICER: {
+      text: "वरिष्ठ प्रबंधक",
+      description: "कर्मचारी गतिविधि देखें और निगरानी करें।",
+    },
+    EMPLOYEE: {
+      text: "कर्मचारी",
+      description: "आदेश देखें और आदेशों को पूरा करें।",
+    },
+    MARKETING: {
+      text: "विपणन",
+      description:
+        "सेटिंग्स तक पहुंच और अभियान, ईमेल मार्केटिंग और मार्केटिंग से संबंधित अन्य अनुभाग बनाएं।",
+    },
+    VIEWER: {
+      text: "दर्शक",
+      description:
+        "स्टोर जानकारी को संपादित या परिवर्तित किए बिना देखने की क्षमता।",
+    },
   },
-  "layout": {
-    "logout": "लॉग आउट",
-    "menu": {
-      "personal_information": "व्यक्तिगत जानकारी और प्रोफाइल",
-      "wallet": "वॉलेट और खाते",
-      "companies": "कंपनियां और व्यवसाय खाते",
-      "access": "मेरे खाते तक पहुंच",
-      "security": "सुरक्षा",
-      "preferences": "उपयोगकर्ता वरीयताएं",
-      "my_subscriptions": "मेरा अनुमोदन",
-      "my_public_profile_subtitle": "मेरी सार्वजनिक प्रोफ़ाइल {name}.",
-      "personal_information_subtitle": "मेरा प्रोफ़ाइल, पता और केवाईसी संपादित करें।",
-      "wallet_subtitle": "वर्चुअल खाते और कनेक्टेड भुगतान कार्ड।",
-      "companies_subtitle": "मेरा व्यवसाय और कर प्रोफाइल पंजीकृत करें।",
-      "access_subtitle": "OAuth क्लाइंट, व्यक्तिगत एक्सेस टोकन और कनेक्टेड ऐप्स।",
-      "security_subtitle": "दो कारक सेट करें और सामाजिक लॉगिन विकल्प प्रबंधित करें।",
-      "preferences_subtitle": "थीम, स्तर, भाषा और डिफ़ॉल्ट मुद्रा बदलें.",
-      "my_subscriptions_subtitle": "प्रीमियम AI और अनुकूलन सुविधाओं तक पहुंच।"
-    }
+
+  /** {@see ShopRoles} **/
+  shop_roles: {
+    PhysicalOrdersChecking: {
+      text: "शारीरिक जांच",
+      description: "चेक प्राप्त आदेश।",
+    },
+    PhysicalOrdersPackaging: {
+      text: "भौतिक पैकेजिंग",
+      description: "गोदाम और पैकेजिंग प्रक्रिया।",
+    },
+    PhysicalOrdersDelivery: {
+      text: "भौतिक नौवहन",
+      description: "शिपिंग का आदेश दें।",
+    },
+    PhysicalOrdersSupport: {
+      text: "शारीरिक सहायता",
+      description: "बिक्री के बाद समर्थन।",
+    },
   },
-  "page_builder": {
-    "title": "वेबसाइट डिज़ाइन",
-    "menu": {
-      "user_view": "देखना",
-      "design": "डिज़ाइन",
-      "behavior": "व्यवहार",
-      "seo": "SEO",
-      "setting": "समायोजन",
-      "embed": "एम्बेड"
+
+  /** {@see AccountStatus} **/
+  account_status: {
+    Checking: "चेकिंग",
+    Approved: "की पुष्टि की",
+    Rejected: "अस्वीकार कर दिया",
+    Deleted: "हटाए गए",
+    Banned: "प्रतिबंधित",
+    Payment: "भुगतान",
+    SelldoneSprite: "सेलडोन वॉलेट खाता",
+    SelldoneStorage: "सेलडोन स्टोरेज",
+  },
+  /** {@see BPageAccount} **/
+  account_page: {
+    title: "खाता",
+    menu: {
+      setting: "समायोजन",
+      charge: "शुल्क",
+      transfer: "स्थानांतरण करना",
+      transactions: "लेनदेन",
+      history: "इतिहास",
+      cards: "पत्ते",
     },
-    "waiting_fetch": "जानकारी मिल रही है..",
-    "setting": {
-      "title_input": "पृष्ठ का शीर्षक",
-      "description_input": "संक्षिप्त वर्णन",
-      "name_input": "पेज यूआरएल (अक्षर और नंबर)",
-      "bg_color_input": "पीछे का रंग",
-      "bg_style_input": "पृष्ठ पृष्ठभूमि शैली",
-      "page_label_input": "लेबल रंग",
-      "page_dir_input": "पृष्ठ दिशा",
-      "ltr": "बाएं से दायां",
-      "rtl": "दाएं से बाएं",
-      "designer_note": "डिजाइनर नोट"
-    },
-    "history": {
-      "title": "सहेजा गया इतिहास"
-    },
-    "design": {
-      "themes": {
-        "title": "व्यक्तिगत डिजाइन सहायक",
-        "message": "कोडिंग के बिना अपने व्यवसाय के लिए सर्वोत्तम पृष्ठ डिज़ाइन करें।",
-        "page_title_input": "अपने पेज के लिए एक शीर्षक दर्ज करें"
+
+    /** {@see BPageAccountTransactions} **/
+    transactions: {
+      title: "खाता लेनदेन",
+      detail: {
+        title: "लेन-देन",
+        amount: "राशि",
+        description: "विवरण",
+        from: "से",
+        to: "सेवा",
+        created_at: "दिनांक",
+        receipt: "रसीद",
+        receipt_note: "टिप्पणी",
       },
-      "tools": {
-        "rearrange": "आदेश",
-        "tools": "औजार",
-        "history": "इतिहास",
-        "style": "शैली",
-        "typography": "टाइपोग्राफी",
-        "hierarchy": "पदानुक्रम"
+      table: {
+        type: "प्रकार",
+        from: "अकाउंट से",
+        to: "खाते में",
+        amount: "राशि",
+        receipt: "रसीद",
+        created_at: "दिनांक",
+        description: "विवरण",
       },
-      "no_category": "कोई श्रेणियाँ नहीं"
     },
-    "seo": {
-      "message": "सेल्डोन एसईओ इंजन द्वारा एसईओ सेटिंग्स को स्वचालित रूप से समायोजित किया जाता है।"
-    }
-  },
-  "verify_email_caution": {
-    "title": "अपने ईमेल पते की पुष्टि करें",
-    "message": "नया सक्रियण लिंक आपके ईमेल पते {email} पर भेज दिया गया है। कोई कार्रवाई करने से पहले कृपया अपना ईमेल देखें।",
-    "resend_message": "यदि आपको अपने ईमेल में सक्रियण लिंक प्राप्त नहीं हुआ है, तो पुनः भेजने के लिए नीचे दिए गए बटन पर क्लिक करें।",
-    "resend_action": "सक्रियण लिंक पुनः भेजें",
-    "resend_notice": "सक्रियण लिंक भेजा गया।"
-  },
-  "autopilot": {
-    "start": "आरंभ करने की तिथि",
-    "end": "समाप्ति तिथि"
-  },
-  "help": {
-    "menu": "मेन्यू",
-    "more_helps": "अधिक पढ़ें"
-  },
-  "company_card": {
-    "pending_state": "पुनरीक्षण के इंतज़ार में",
-    "register": "दर्ज कराई",
-    "developer": "डेवलपर",
-    "verified": "सत्यापित",
-    "premier": "प्रधान"
-  },
-  "shop_license": {
-    "add": "सदस्यता जोड़ें",
-    "only_last": "केवल अंतिम सदस्यता",
-    "vouchers": "वाउचर",
-    "buy": "सदस्यता योजना खरीदें",
-    "monthly": "महीने के",
-    "yearly": "सालाना",
-    "start_date": "आरंभ करने की तिथि",
-    "end_date": "समाप्ति तिथि",
-    "price": "कीमत",
-    "terms": "मैं सेलडोन उपयोग की शर्तों को पढ़ता हूं और उनसे सहमत हूं",
-    "need_charge": "चार्ज चाहिए",
-    "buy_now": "अभी खरीदें",
-    "auto_renewal": "ऑटो नवीकरण",
-    "plan_placeholder": "अपनी सदस्यता योजना चुनें",
-    "plan": "लाइसेंस योजना",
-    "use_date": "सक्रियण तिथि",
-    "active_license": {
-      "title": "सक्रिय लाइसेंस",
-      "subtitle": "आपकी सक्रिय लाइसेंस जानकारी।",
-      "subtitle_partner": "आपकी सक्रिय {name} लाइसेंस जानकारी।"
-    },
-    "licenses_table": {
-      "title": "खरीदा इतिहास",
-      "subtitle": "सक्रिय और लंबित लाइसेंस।"
-    },
-    "license_detail": {
-      "title": "विवरण",
-      "subtitle": "आपकी वर्तमान योजना पर सीमाएं।"
-    },
-    "table": {
-      "plan": "योजना",
-      "start_date": "प्रारंभ / समाप्ति तिथि",
-      "renewal": "ऑटो नवीकरण",
-      "linked_account": "लिंक किया गया खाता / वाउचर",
-      "payment": "भुगतान",
-      "cancel": "रद्द करना"
-    },
-    "notifications": {
-      "subscribe_success": "सफलतापूर्वक सदस्यता ली गई।",
-      "cancel_success": "सदस्यता सफलतापूर्वक रद्द कर दी गई।"
-    },
-    "cancel_dialog": {
-      "title": "सदस्यता पुष्टि रद्द करें",
-      "message": "क्या आप वाकई इस सदस्यता को रद्द करना चाहते हैं?",
-      "action": "सदस्यता रद्द"
-    },
-    "use_voucher_now": "अभी वाउचर का उपयोग करें",
-    "validity_duration": "वैधता अवधि",
-    "validity_duration_hint": "12 महीने का लाइसेंस खरीदने पर आपको 30% की छूट मिलेगी।"
-  },
-  "admin_shop_layout": {
-    "download_txt": "डेटा टेक्स्ट डाउनलोड करें",
-    "download_excel": "डेटा एक्सेल डाउनलोड करें"
-  },
-  "user_preferences": {
-    "access": "पहुंच",
-    "template": "टेम्पलेट",
-    "feedback": "प्रतिपुष्टि",
-    "company": "सोहबत",
-    "company_message": "यदि आपके पास कंपनी है और ऐप्स प्रकाशित करना चाहते हैं।",
-    "access_keys": "एक्सेस कुंजियाँ",
-    "access_keys_message": "क्लाइंट और एक्सेस कुंजियां दिखाएं.",
-    "rating": "आप सेलडोन के साथ अपने अनुभव का मूल्यांकन कैसे करेंगे?",
-    "large_font": "बड़े फोंट",
-    "large_font_message": "सामान्य से बड़ा टेक्स्ट दिखाएं",
-    "samples": "नमूना दुकानें दिखाएं",
-    "samples_message": "यदि सक्षम किया गया है, तो कुछ नमूना दुकानें आपके पैनल में प्रदर्शित होंगी।",
-    "automation": "स्वचालन",
-    "automation_message": "शॉप डैशबोर्ड पर ऑटोमेशन टैब दिखाएं। (वेबहुक, विजुअल प्रोग्रामिंग,...)",
-    "date_time": "दिनांक समय"
-  },
-  "shop_locations": {
-    "title": "वे देश जहां सेवा प्रदान की जाती है",
-    "sub_title": "नीचे दी गई सूची से उन देशों का चयन करें जहां आप अपना उत्पाद बेचना चाहते हैं।",
-    "delete_restriction": "प्रतिबंध हटाएं",
-    "set_restriction": "प्रतिबंध लगाओ",
-    "notifications": {
-      "locations_update": "स्थान सफलतापूर्वक अपडेट किया गया."
-    },
-    "table": {
-      "country": "देश",
-      "currency": "मुद्रा",
-      "available": "उपलब्ध"
-    }
-  },
-  "product_card": {
-    "sold_out": "बिक गया",
-    "review_unit": "समीक्षा",
-    "not_original": "असली नहीं"
-  },
-  "product_studio": {
-    "add_mode": "अधिक विवरण जोड़ें",
-    "add_by_sku": "SKU द्वारा जोड़ें",
-    "auto_category": "ऑटो-सेट श्रेणी",
-    "add_in_current_category": "वर्तमान श्रेणी में जोड़ें",
-    "category_mode_message": "यदि सक्षम है, तो उत्पाद को डिफ़ॉल्ट श्रेणी या उपश्रेणी में जोड़ दिया जाएगा।",
-    "sku_name_input": "एसकेयू / नाम",
-    "info": {
-      "subtitle": "उत्पाद तैयार करने के लिए, आप केवल उसके निर्माण के लिए आवश्यक आवश्यक विवरण ही दर्ज कर सकते हैं।"
-    },
-    "price": {
-      "subtitle": "इस उत्पाद के लिए कीमत और छूट दर्ज करें। उत्पाद जोड़ दिए जाने के बाद, आपके पास ज़्यादा विकल्पों तक पहुंच होगी।"
-    },
-    "by_sku": {
-      "title": "SKU द्वारा जोड़ें",
-      "subtitle": "आपके देश में डेटाबेस उपलब्ध नहीं है."
-    },
-    "drop_shipping": {
-      "subtitle": "थोक बाज़ार में उत्पाद ढूंढें और उन्हें अपने स्टोर में जोड़ें।"
-    },
-    "by_connect": {
-      "subtitle": "Selldone कनेक्ट ओएस के साथ आसानी से POD या ड्रॉपशिपिंग आपूर्तिकर्ताओं से उत्पाद जोड़ें - बस अपने स्टोर को कनेक्ट करें और स्वचालित उत्पाद एकीकरण का आनंद लें, किसी प्लगइन की आवश्यकता नहीं है।"
-    },
-    "your_license_is_not_eligible": "आपका लाइसेंस योग्य नहीं है.",
-    "sku_dialog": {
-      "title": "SKU द्वारा उत्पाद जोड़ें",
-      "subtitle": "आपके पास हमारे डेटाबेस में उनके SKU द्वारा उत्पादों का पता लगाने और उन्हें केवल एक क्लिक के साथ जोड़ने की क्षमता है।"
-    },
-    "dropshipping_dialog": {
-      "title": "ड्रॉपशीपिंग उत्पाद जोड़ें"
-    }
-  },
-  "my_affiliate": {
-    "title": "मेरे संबद्ध अनुबंध",
-    "message": "अन्य स्टोर के साथ संबद्ध समझौतों की सूची।"
-  },
-  "affiliates": {
-    "title": "संबद्ध भागीदार",
-    "subtitle": "सहयोगी बनाएं, समय के साथ उनके प्रदर्शन को ट्रैक करें, और एक ही स्थान पर सटीक जानकारी के आधार पर कार्रवाई करें। हम आपको और आपके भागीदारों को एक मजबूत संबंध बनाने में मदद करते हैं।",
-    "affiliate_code": "गुप्तचिन्ह सहबद्ध करना",
-    "crate_date": "तारीख बनाना",
-    "last_payment_date": "अंतिम भुगतान तिथि",
-    "for_all_products": "सभी उत्पादों पर लागू करें",
-    "balance": "संतुलन",
-    "fix_commission": "निश्चित कमीशन",
-    "percent_commission": "प्रतिशत आधारित कमीशन",
-    "total_payment": "कुल भुगतान",
-    "new_affiliate": "नया सहयोगी भागीदार",
-    "new_affiliate_message": "नया सहबद्ध भागीदार जोड़ें",
-    "link_domain": {
-      "title": "लिंक्ड डोमेन",
-      "subtitle": "आप अपने डोमेन में से किसी एक को इस संबद्ध भागीदार से कनेक्ट कर सकते हैं। यह भागीदार आपके स्टोर पर आने वाले और इस डोमेन के माध्यम से खरीदारी करने वाले प्रत्येक व्यक्ति के प्रतिनिधि के रूप में जाना जाएगा।"
-    },
-    "dialog": {
-      "new": "नया सहयोगी भागीदार",
-      "edit": "सहयोगी भागीदार संपादित करें",
-      "user": "उपयोगकर्ता (वैकल्पिक)",
-      "bank_info": "बैंक की जानकारी",
-      "restriction": "बंधन",
-      "select_products": "उत्पादों का चयन करें",
-      "select_products_message": "Affiliate Partner को इन उत्पादों के लिए मिलता है कमीशन",
-      "edit_action": "सहयोगी अपडेट करें",
-      "add_action": "सहबद्ध भागीदार जोड़ें",
-      "affiliate_name": "संबद्ध भागीदार का नाम",
-      "payment_info": "भुगतान की जानकारी",
-      "enable_switch": "क्या यह सक्रिय है?",
-      "affiliate_info": "संबद्ध भागीदार जानकारी"
-    },
-    "link_factory": {
-      "title": "संबद्ध भागीदार लिंक जनरेटर",
-      "link_input": "आपकी लिंक",
-      "link_output": "उत्पन्न लिंक"
-    }
-  },
-  "gift_card_orders": {
-    "title": "गिफ्टकार्ड के साथ ऑर्डर",
-    "table": {
-      "order": "आदेश",
-      "order_price": "ऑर्डर करने की राशि",
-      "paid_by_card": "कार्ड द्वारा भुगतान",
-      "payment_status": "भुगतान की स्थिति",
-      "date": "दिनांक"
-    }
-  },
-  "offer_orders": {
-    "title": "ऑफ़र ऑर्डर",
-    "table": {
-      "order": "आदेश",
-      "order_price": "ऑर्डर करने की राशि",
-      "offer_amount": "पेशकश राशि",
-      "payment_status": "भुगतान की स्थिति",
-      "product": "उत्पाद",
-      "date": "दिनांक"
-    }
-  },
-  "coupon_orders": {
-    "title": "कूपन आदेश",
-    "table": {
-      "order": "आदेश",
-      "order_price": "ऑर्डर करने की राशि",
-      "coupon_amount": "कूपन राशि",
-      "payment_status": "भुगतान की स्थिति",
-      "date": "दिनांक"
-    }
-  },
-  "discount_code_orders": {
-    "title": "डिस्काउंट कोड के साथ आदेश",
-    "table": {
-      "order": "आदेश",
-      "order_price": "ऑर्डर करने की राशि",
-      "discount_amount": "छूट राशि",
-      "payment_status": "भुगतान की स्थिति",
-      "date": "दिनांक"
-    }
-  },
-  "incentives": {
-    "discount_code": "छूट",
-    "coupon": "कूपन",
-    "offer": "प्रस्ताव",
-    "gift_card": "उपहार पत्र",
-    "lottery": "लॉटरी",
-    "cashback": "कैशबैक"
-  },
-  "discount_codes": {
-    "title": "छूट कोड",
-    "sub_title": "इस खंड में आप अपनी आवश्यकताओं के अनुरूप डिस्काउंट कूपन डिजाइन करने में सक्षम होंगे। ये छूट किसी भी उत्पाद छूट से अलग हैं और उपयोगकर्ता आदेश की अंतिम राशि पर लागू होंगी।",
-    "add_new": "नया डिस्काउंट कोड जोड़ें",
-    "card": {
-      "created": "सृजन करना",
-      "start": "शुरू करना",
-      "end": "अंत",
-      "currency": "मुद्रा",
-      "discount_percentage": "छूट की दर",
-      "discount_limit": "छूट की सीमा",
-      "state": "वर्तमान स्थिति",
-      "enabled": "अब सक्षम",
-      "disabled": "अब अक्षम",
-      "used": "ग्रहण किया हुआ",
-      "count": "गिनती करना",
-      "unit": "सामान)"
-    },
-    "dialog": {
-      "title_edit": "छूट कोड संपादित करें",
-      "title_add": "नया डिस्काउंट कोड जोड़ें",
-      "discount_code_input": "डिस्काउंट कोड",
-      "discount_percent_input": "छूट की दर",
-      "discount_percent_input_hint": "खरीद राशि की छूट दर",
-      "count_input": "गिनती करना",
-      "count_input_hint": "इस कोड का अधिकतम उपयोग",
-      "limit_input": "छूट की सीमा",
-      "limit_input_hint": "मुद्रा के आधार पर अधिकतम छूट",
-      "currency_input_message": "इस मुद्रा के लिए छूट उपलब्ध होगी।",
-      "limit_input_message": "छूट सीमा के लिए 0 के मान का अर्थ है कि छूट दर की कोई सीमा नहीं है।",
-      "title_input": "शीर्षक",
-      "title_input_hint": "आप इस छूट कोड के लिए एक शीर्षक दर्ज कर सकते हैं",
-      "description_input": "विवरण",
-      "description_input_hint": "आप इस छूट कोड के लिए विवरण दर्ज कर सकते हैं",
-      "date_start_input": "शुरू करना",
-      "date_start_input_placeholder": "चुनें कि छूट कब शुरू करें",
-      "date_end_input": "अंत",
-      "date_end_input_placeholder": "चुनें कि छूट कब खत्म होगी",
-      "notifications": {
-        "add": "डिस्काउंट कोड सफलतापूर्वक जोड़ा गया।",
-        "edit": "डिस्काउंट कोड सफलतापूर्वक संपादित किया गया।"
+
+    /** {@see BPageAccountTransfer} **/
+    transfer: {
+      title: "स्थानांतरण शुल्क",
+      form: {
+        title: "स्थानांतरण अनुरोध प्रपत्र",
+        sub_title:
+          "अपने स्वयं के खातों या अन्य में जमा करें",
+        message:
+          "पैसे ट्रांसफर करने में सावधानी बरतें, ट्रांसफर पूरा करने पर आप वापस नहीं कर पाएंगे।",
       },
-      "config": {
-        "title": "सामान्य कॉन्फ़िगरेशन",
-        "subtitle": "डिस्काउंट कोड गणना का सूत्र है: अधिकतम (सीमा, प्रतिशत * कार्ट मूल्य)। कोड को प्रासंगिक और याद रखने में आसान बनाना याद रखें।"
+    },
+    /** {@see BPageAccountDeposit} **/
+    deposit: {
+      form: {
+        title: "चार्जिंग अकाउंट",
+        sub_title:
+          "लाइसेंस खरीदने, अपने खाते को अपग्रेड करने और सिस्टम रसीदों का भुगतान करने के लिए आपको अपने खाते की शेष राशि को चार्ज करना होगा।",
+        amount_input: "राशि",
+        charge_action: "खाता चार्ज करें",
       },
-      "limit": {
-        "title": "सीमाओं",
-        "subtitle": "आप इस अनुभाग में प्रत्येक छूट कोड के लिए अधिकतम उपयोग सीमा, साथ ही अधिकतम छूट राशि भी निर्धारित कर सकते हैं।"
+      notifications: {
+        qr_title: "भुगतान",
+        qr_message: "भुगतान पता {currency} बनाया गया।",
+        gateway_title: "भुगतान",
+        gateway_message: "पेमेंट गेटवे से कनेक्ट करना।",
       },
-      "duration": {
-        "title": "अवधि सीमा",
-        "subtitle": "यदि आप किसी विशिष्ट समय सीमा के लिए डिस्काउंट कोड सक्रिय करना चाहते हैं, तो आप यहां उस अवधि को निर्धारित कर सकते हैं।"
+    },
+
+    /** {@see BPageAccountEdit} **/
+    setting: {
+      title: "अकाउंट सेटिंग",
+      account_name_input: "खाता नाम",
+      notifications: {
+        updated_success: "आपका खाता सफलतापूर्वक अपडेट किया गया।",
       },
-      "design": {
-        "subtitle": "आप प्रत्येक छूट कोड के लिए एक शीर्षक और विवरण सेट कर सकते हैं। ये विवरण उपयोगकर्ता को दिखाए जाएँगे।"
+    },
+  },
+
+  /** {@see BAccountReceiptPaymentDialog} **/
+  receipt_payment_dialog: {
+    title: "रसीद भुगतान",
+    /*  message: 'If the following information is correct, hit the transaction confirmation key to make the transaction.',
+      to: 'Destination account',
+      amount: 'Amount',
+      receipt: 'Receipt',
+      description: 'Description',
+      status_paid: 'This receipt has already been paid.',
+      status_canceled: 'This receipt has been canceled.',
+      pay_action: 'Pay via port',
+      pay_internal_action: 'Payment from account',*/
+  },
+  /** {@see BAccountTransactionForm} **/
+  transaction_form: {
+    title: "लेन-देन प्रपत्र",
+    from_input: "अकाउंट नंबर से",
+    to_input: "खाता संख्या के लिए",
+    from_input_message: "इस खाते से राशि निकाल ली जाएगी।",
+    account_name: "खाता नाम",
+    currency: "मुद्रा",
+    free_balance: "उपलब्ध शेष राशि",
+    to: "गंतव्य खाता",
+    amount: "राशि",
+    receipt_title: "रसीद के लिए भुगतान",
+    receipt_input: "पत्र संख्या",
+    paid_status: "इस रसीद का भुगतान पहले ही किया जा चुका है।",
+    paid_canceled: "यह रसीद रद्द कर दी गई है।",
+    description: "व्याख्या",
+    created_at: "दिनांक",
+    duration: "अवधि",
+    unlimited: "असीमित",
+    add_note_action: "विवरण जोड़ें",
+    note: "टिप्पणी",
+    transfer_action: "स्थानांतरण करना",
+    confirmation: {
+      title: "पैसे भेजना",
+      subtitle: "लेन-देन की पुष्टि",
+      message:
+        "यदि निम्नलिखित जानकारी सही है, तो लेन-देन करने के लिए लेनदेन पुष्टिकरण कुंजी दबाएं।",
+      from: "अकाउंट से",
+      to: "खाते में",
+      amount: "राशि",
+      fee: "लेनदेन शुल्क",
+      total_pay: "आपके खाते से निकाली गई राशि",
+      receipt: "रसीद",
+      description: "विवरण",
+      accept_action: "लेन-देन की पुष्टि",
+    },
+    enter_account_number: "खाता संख्या दर्ज करें।",
+    currency_not_match:
+      "गंतव्य खाते की मुद्रा स्रोत के समान नहीं है",
+    account_number_not_valid: "खाता संख्या सही है।",
+    account_number_is_valid: "खाता संख्या सही है।",
+    receipt_not_valid: "चालान संख्या गलत है।",
+    receipt_is_valid: "रसीद संख्या सही है।",
+
+    notifications: {
+      confirm_success: "लेन-देन सफलतापूर्वक पूरा हुआ।",
+    },
+  },
+
+  /** {@see OPlanCalculator} **/
+  price_calculator: {
+    title: "कैलकुलेटर ╏ आपके व्यवसाय के लिए उपयुक्त",
+    description:
+      "अपनी मासिक बिक्री के आधार पर सर्वोत्तम योजना की गणना करें और चुनें:",
+    sale_input: "मासिक बिक्री राशि",
+    hypernova_plan: "हाइपरनोवा% 0 के लिए आवेदन करें!",
+    show_normal_mode: "सामान्य मोड दिखाएं",
+    show_hypernova_mode: "मेरा लेन-देन 1M$ से अधिक है!",
+  },
+
+  /** {@see OPlanFeaturesCard} **/
+  price_card: {
+    billed_monthly: "बिल {amount} मासिक।",
+    billed_yearly: "बिल {amount} वार्षिक।",
+    buy_license_action: "अभी खरीदें",
+    select_your_store: "अपना स्टोर चुनें",
+  },
+
+  /** {@see BSessionsMap} **/
+  shop_session_widget: {
+    total_sessions: "कुल सत्र",
+  },
+  /** {@see BDashboardShopCustomersActivityMap} **/
+  user_activities_keys: {
+    add_baskets: "कार्ट में डालें",
+    remove_baskets: "कार्ट . से हटाएं",
+    buys: "खरीदना",
+    products_views: "उत्पाद देखें",
+  },
+  /** {@see BDashboardShopAcquisition} **/
+  shop_visitors_widget: {
+    title: "विज़िटर एनालिटिक्स",
+    new_visitors: "नए आगंतुक",
+    amp: "एएमपी दृश्य",
+    returning_visitors: "लौटने वाले आगंतुक",
+    page_views: "पृष्ठ दृश्य",
+    other_pages: "अन्य पृष्ठ",
+    from_previous_7_days: "पिछले 7 दिनों से",
+  },
+
+  /** {@see BUserAppLevel}   {@see AppLevel}  **/
+  app_levels: {
+    title: "ऐप स्तर",
+    Newbie: "नौसिखिया",
+    Beginner: "शुरुआती",
+    Novice: "नौसिखिए",
+    Intermediate: "मध्यम",
+    Advanced: "विकसित",
+  },
+
+  /** {@see Login} **/
+  login: {
+    register_title: "व्यवसायों का माध्यम,<br> सुखद अनुभव।",
+    register_subtitle:
+      "आज मुफ्त में साइन अप करें। सेलडोन को स्टार्टअप, उद्यम, खरीदार और विक्रेता पसंद करते हैं।",
+
+    password_recovery_title: "पासवर्ड की दोबारा प्राप्ति",
+    password_recovery_message:
+      "यदि आप अपना पासवर्ड भूल गए हैं, तो अपने खाते का ईमेल पता दर्ज करें और पुष्टिकरण कुंजी दबाएं। हम आपको आपका पासवर्ड रीसेट करने के लिए एक लिंक के साथ एक ईमेल भेजेंगे।",
+    email: "आपका ईमेल पता",
+    password_recovery_action: "पुनर्प्राप्ति ईमेल प्राप्त करें",
+
+    register_google: "Google के साथ जारी रखें",
+    register_apple: "Apple के साथ जारी रखें",
+    continue_with: "जारी रखें",
+    register_linkedin: "लिंक्डइन के साथ जारी रखें",
+    register_facebook: "फेसबुक के साथ जारी रखें",
+    register_github: "गीथूब के साथ जारी रखें",
+    create_your_account: "अपने खाते बनाएँ",
+    password_8_chars: "पासवर्ड कम से कम आठ अक्षरों का होना चाहिए।",
+    password_upercase_number: "कम से कम एक अपरकेस अक्षर और एक नंबर।",
+    password_confirm: "पासवर्ड और पुष्टि का मिलान हुआ।",
+    privacy_agreement:
+      "साइन अप करके, आप सेलडोन की <a href='/terms' target='_blank'>उपयोग की शर्तों</a> और <a href='/privacy' target='_blank'>गोपनीयता नीति</a> से सहमत होते हैं।",
+    register_action: "चलो चलें, यह मुफ़्त है!",
+    login_action: "लॉग इन करें",
+    already_signup: "पहले ही साइन अप कर लिया है?",
+    login_your_account: "अपने अकाउंट में लॉग इन करें",
+    login_google: "Google के साथ जारी रखें",
+    login_linkedin: "लिंक्डइन के साथ जारी रखें",
+    login_facebook: "फेसबुक के साथ जारी रखें",
+    login_github: "गीथूब के साथ जारी रखें",
+    remember_me: "पहचाना की नहीं।",
+    login_button: "लॉग इन करें",
+    two_step_problem: "क्या आपको टू-स्टेप पासवर्ड की समस्या है?",
+    two_step_problem_action: "मैं दो-चरणीय लॉगिन अक्षम करना चाहता हूं।",
+    two_step_confirm: "एक्सेस कोड की पुष्टि करें",
+    forgot_password: "पासवर्ड भूल गए?",
+    signup_free: "मुफ्त में साइन अप",
+    checking_robot_message: "चेक कर रहे हैं कि आप रोबोट हैं या इंसान..",
+    notifications: {
+      step2_login_success: "खाते में ऑटो-लॉगिन",
+    },
+    signup_email: "ईमेल द्वारा साइन अप करें",
+
+    name_placeholder: "नाम",
+    email_placeholder: "ईमेल",
+    email_or_username_placeholder: "ईमेल, उपयोगकर्ता नाम या फोन नंबर",
+    password_placeholder: "पासवर्ड",
+    re_password_placeholder: "पासवर्ड की पुष्टि कीजिये",
+    new_in_samin: "सेलडोन में नया?",
+    auto_create_shop: "ऑटो क्रिएट शॉप",
+  },
+  /** {@see Layout} **/
+  layout: {
+    logout: "लॉग आउट",
+    menu: {
+      my_public_profile_subtitle: "मेरी सार्वजनिक प्रोफ़ाइल {name}.",
+
+      personal_information: "व्यक्तिगत जानकारी और प्रोफाइल",
+      personal_information_subtitle: "मेरा प्रोफ़ाइल, पता और केवाईसी संपादित करें।",
+      wallet: "वॉलेट और खाते",
+      wallet_subtitle: "वर्चुअल खाते और कनेक्टेड भुगतान कार्ड।",
+
+      companies: "कंपनियां और व्यवसाय खाते",
+      companies_subtitle: "मेरा व्यवसाय और कर प्रोफाइल पंजीकृत करें।",
+
+      access: "मेरे खाते तक पहुंच",
+      access_subtitle:
+        "OAuth क्लाइंट, व्यक्तिगत एक्सेस टोकन और कनेक्टेड ऐप्स।",
+
+      security: "सुरक्षा",
+      security_subtitle: "दो कारक सेट करें और सामाजिक लॉगिन विकल्प प्रबंधित करें।",
+
+      preferences: "उपयोगकर्ता वरीयताएं",
+      preferences_subtitle:
+        "थीम, स्तर, भाषा और डिफ़ॉल्ट मुद्रा बदलें.",
+      my_subscriptions: "मेरा अनुमोदन",
+      my_subscriptions_subtitle:
+        "प्रीमियम AI और अनुकूलन सुविधाओं तक पहुंच।",
+    },
+  },
+
+  /** {@see PageBuilder} **/
+  page_builder: {
+    title: "वेबसाइट डिज़ाइन",
+
+    menu: {
+      user_view: "देखना",
+      design: "डिज़ाइन",
+      behavior: "व्यवहार",
+      seo: "SEO",
+      setting: "समायोजन",
+      embed: "एम्बेड",
+    },
+    waiting_fetch: "जानकारी मिल रही है..",
+
+    /** {@see SettingCustomPage} **/
+    setting: {
+      title_input: "पृष्ठ का शीर्षक",
+      description_input: "संक्षिप्त वर्णन",
+      name_input: "पेज यूआरएल (अक्षर और नंबर)",
+      bg_color_input: "पीछे का रंग",
+      bg_style_input: "पृष्ठ पृष्ठभूमि शैली",
+      page_label_input: "लेबल रंग",
+      page_dir_input: "पृष्ठ दिशा",
+      ltr: "बाएं से दायां",
+      rtl: "दाएं से बाएं",
+      designer_note: "डिजाइनर नोट",
+    },
+
+    /** {@see LPageEditor} **/
+    design: {
+      themes: {
+        title: "व्यक्तिगत डिजाइन सहायक",
+        message: "कोडिंग के बिना अपने व्यवसाय के लिए सर्वोत्तम पृष्ठ डिज़ाइन करें।",
+        page_title_input: "अपने पेज के लिए एक शीर्षक दर्ज करें",
       },
-      "cluster": {
-        "subtitle": "इस डिस्काउंट कोड को क्लस्टर के साथ जोड़कर, आप इसे एक ही स्थान पर अन्य संसाधनों के साथ आसानी से प्रबंधित कर सकते हैं।"
-      }
+      tools: {
+        rearrange: "आदेश",
+        tools: "औजार",
+        history: "इतिहास",
+        style: "शैली",
+        typography: "टाइपोग्राफी",
+        hierarchy: "पदानुक्रम",
+      },
+      no_category: "कोई श्रेणियाँ नहीं",
     },
-    "delete_alert": {
-      "title": "डिस्काउंट कोड हटाएं",
-      "message": "क्या आप यह छूट कोड हटाना चाहते हैं?",
-      "action": "छूट हटाएं"
+
+    /** {@see LPageEditorSeo} **/
+    seo: {
+      message:
+        "सेल्डोन एसईओ इंजन द्वारा एसईओ सेटिंग्स को स्वचालित रूप से समायोजित किया जाता है।",
     },
-    "notifications": {
-      "delete_success": "आपकी टिप्पणी सफलतापूर्वक हटा दी गई"
-    }
   },
-  "gift_cards": {
-    "title": "उपहार पत्र",
-    "sub_title": "एक गिफ्ट कार्ड बनाएं और फिर जितनी जरूरत हो उतनी बनाएं। इस कार्ड पर एक शुल्क है, और इसका उपयोग केवल आपकी दुकान में खरीदारी के लिए किया जा सकता है।",
-    "create_new": "नया उपहार कार्ड जोड़ें",
-    "card": {
-      "created": "सृजन करना",
-      "lifetime": "समाप्ति तिथि",
-      "lifetime_unit": "प्रत्येक कार्ड बनने की तारीख से महीना",
-      "currency": "मुद्रा",
-      "initial_balance": "आरंभिक शुल्क",
-      "count": "गिनती करना",
-      "count_unit": "वस्तु",
-      "used": "इस्तेमाल किया गया"
-    },
-    "dialog": {
-      "title": "उपहार कार्ड डिजाइन"
-    },
-    "alert": {
-      "title": "डिस्काउंट कोड हटाएं",
-      "message": "क्या आप यह छूट कोड हटाना चाहते हैं?",
-      "action": "मिटाना"
-    },
-    "notifications": {
-      "delete_title": "उपहार कार्ड हटाएं",
-      "delete_message": "आपकी टिप्पणी सफलतापूर्वक हटा दी गई है।"
-    }
+
+  /** {@see VerifyEmailCaution} **/
+  verify_email_caution: {
+    title: "अपने ईमेल पते की पुष्टि करें",
+    message:
+      "नया सक्रियण लिंक आपके ईमेल पते {email} पर भेज दिया गया है। कोई कार्रवाई करने से पहले कृपया अपना ईमेल देखें।",
+    resend_message:
+      "यदि आपको अपने ईमेल में सक्रियण लिंक प्राप्त नहीं हुआ है, तो पुनः भेजने के लिए नीचे दिए गए बटन पर क्लिक करें।",
+    resend_action: "सक्रियण लिंक पुनः भेजें",
+    resend_notice: "सक्रियण लिंक भेजा गया।",
   },
-  "coupons": {
-    "title": "कूपन",
-    "sub_title": "यदि आप अपने ग्राहकों को ऐसी छूट देना चाहते हैं जिसका उपयोग विशिष्ट शर्तों के साथ किया जा सकता है, तो आप कूपन बना सकते हैं। कूपन में एक सीमा या एक निश्चित राशि या दोनों के संयोजन के साथ प्रतिशत छूट शामिल हो सकती है।",
-    "create_new": "नया कूपन जोड़ें",
-    "qualified_products": "योग्य उत्पाद",
-    "min_purchase": "न्यूनतम खरीद",
-    "only_first_order": "केवल पहली खरीद",
-    "one_time_use": "एक बार इस्तेमाल लायक",
-    "amount_usage": "प्रयुक्त राशि",
-    "delete_alert": {
-      "title": "कूपन हटाएं",
-      "message": "क्या आप वाकई इस कूपन को हटाना चाहते हैं?",
-      "action": "हां, कूपन हटाएं"
-    },
-    "notifications": {
-      "delete_success": "कूपन सफलतापूर्वक हटा दिया गया है।"
-    },
-    "multiple_use": "एकाधिक उपयोग"
+
+  /** {@see ShopAutomation_Autopilot} **/
+  autopilot: {
+    start: "आरंभ करने की तिथि",
+    end: "समाप्ति तिथि",
   },
-  "coupon_edit": {
-    "title_edit": "कूपन संपादित करें",
-    "title_add": "नया कूपन",
-    "discount_charge": "छूट और शुल्क",
-    "charge": "शुल्क",
-    "charge_message": "प्रारंभिक शुल्क की राशि",
-    "percent": "छूट प्रतिशत",
-    "percent_message": "छूट की राशि प्रतिशत",
-    "limit_input": "सीमा",
-    "limit_input_hint": "छूट सीमा राशि",
-    "currency_input_message": "इस मुद्रा के लिए कूपन उपलब्ध है।",
-    "count_input": "गिनती करना",
-    "count_input_hint": "इस कोड का अधिकतम उपयोग",
-    "limit_input_message": "छूट सीमा के लिए 0 के मान का अर्थ है कि छूट दर की कोई सीमा नहीं है।",
-    "date_start_input": "शुरू करना",
-    "date_start_input_placeholder": "चुनें कि कूपन कब शुरू करें",
-    "date_end_input": "अंत",
-    "date_end_input_placeholder": "चुनें कि छूट कब खत्म होगी",
-    "title_input": "शीर्षक",
-    "title_input_hint": "आप इस छूट कोड के लिए एक शीर्षक दर्ज कर सकते हैं",
-    "description_input": "विवरण",
-    "description_input_hint": "आप इस छूट कोड के लिए विवरण दर्ज कर सकते हैं",
-    "coupon_code": "कूपन कोड",
-    "need_code": "कोड चाहिए?",
-    "coupon_color": "कूपन रंग",
-    "min_purchase_amount": "न्यूनतम खरीद राशि",
-    "min_purchase_amount_hint": "खरीद राशि इस मूल्य से अधिक या उसके बराबर होनी चाहिए।",
-    "should_exist_product": "इनमें से कम से कम एक उत्पाद कार्ट में होना चाहिए",
-    "apply_for_first_order": "केवल पहली खरीद के लिए",
-    "apply_for_first_order_on": "इस कूपन का उपयोग केवल ग्राहक की पहली खरीदारी के लिए ही किया जा सकता है!",
-    "apply_for_first_order_off": "प्रति खरीदार कूपन उपयोगों की संख्या को नीचे समायोजित किया जा सकता है।",
-    "has_qualify_constraints": "क्या आप अधिक सीमाएं परिभाषित करना चाहते हैं?",
-    "has_qualify_constraints_message": "ग्राहक को इस कूपन का उपयोग करने के योग्य बनाने के लिए और शर्तें निर्धारित करें।",
-    "one_time_use": "एक बार इस्तेमाल लायक",
-    "one_time_use_message": "ग्राहक इस कूपन का एक बार उपयोग कर सकते हैं।",
-    "daily_limit": "दैनिक सीमा",
-    "no_limit": "कोई सीमा नहीं",
-    "daily_limit_message": "ग्राहक द्वारा प्रति दिन उपयोग की अधिकतम राशि",
-    "monthly_limit": "मासिक सीमा",
-    "monthly_limit_message": "ग्राहक द्वारा प्रति माह उपयोग की अधिकतम राशि",
-    "yearly_limit": "वार्षिक सीमा",
-    "yearly_limit_message": "ग्राहक द्वारा प्रति वर्ष उपयोग की अधिकतम राशि",
-    "notifications": {
-      "add": "नया कूपन सफलतापूर्वक बनाया गया।",
-      "edit": "कूपन अपडेट कर दिया गया है।"
-    },
-    "config": {
-      "subtitle": "कूपन छूट गणना का सूत्र है: शुल्क + अधिकतम (सीमा, प्रतिशत * कार्ट मूल्य)।"
-    },
-    "limit": {
-      "subtitle": "इस अनुभाग में, आप प्रति कूपन उपयोग की अधिकतम संख्या और प्रत्येक कूपन द्वारा दी जाने वाली अधिकतम छूट राशि निर्धारित कर सकते हैं।",
-      "zero_message": "शून्य: कोई सीमा नहीं है!"
-    },
-    "duration": {
-      "subtitle": "यदि आप किसी कूपन के सक्रिय होने के लिए कोई विशिष्ट समय-सीमा निर्धारित करना चाहते हैं, तो आप इस अनुभाग में अवधि कॉन्फ़िगर कर सकते हैं।"
-    },
-    "design": {
-      "subtitle": "प्रत्येक कूपन में शीर्षक और विवरण जोड़ने की सुविधा है। ये विवरण ग्राहक को दिखाई देंगे।"
-    },
-    "constraints": {
-      "subtitle": "यहां, आपके पास कूपन के लिए अतिरिक्त वैयक्तिकृत पैरामीटर स्थापित करने की क्षमता है।",
-      "no_limit": "कोई अतिरिक्त सीमा नहीं",
-      "has_limit": "अतिरिक्त बाधाएं",
-      "has_code_message": "कूपन जोड़ने के लिए उपयोगकर्ता को कोड दर्ज करना चाहिए।"
-    },
-    "club": {
-      "subtitle": "इस कूपन का उपयोग केवल चुने हुए ग्राहक क्लबों के सदस्यों तक ही सीमित किया जा सकता है।"
-    },
-    "cluster": {
-      "subtitle": "इस कूपन को क्लस्टर के साथ संबद्ध करके, आप इसे एक ही स्थान पर अन्य संसाधनों के साथ आसानी से प्रबंधित कर सकते हैं।"
-    },
-    "preview": {
-      "subtitle": "यहां कूपन का सार्वजनिक पूर्वावलोकन दिया गया है।"
-    }
+
+  /** {@see Help} **/
+  help: {
+    menu: "मेन्यू",
+    more_helps: "अधिक पढ़ें",
   },
-  "offers": {
-    "title": "ऑफर",
-    "sub_title": "आप अपने ग्राहकों के लिए विशेष ऑफ़र बना सकते हैं ताकि, एक आइटम खरीदने के बाद, उन्हें छूट पर या यहां तक कि मुफ्त में एक और आइटम प्राप्त हो।",
-    "create_new": "नया ऑफ़र जोड़ें",
-    "qualified_products": "योग्य उत्पाद",
-    "min_quantity": "न्यूनतम मात्रा",
-    "min_purchase": "न्यूनतम खरीद",
-    "discounted_products": "रियायती उत्पाद",
-    "amount_usage": "प्रयुक्त राशि",
-    "delete_alert": {
-      "title": "ऑफ़र हटाएं",
-      "message": "क्या आप वाकई इस ऑफ़र को हटाना चाहते हैं?",
-      "action": "हाँ, ऑफ़र हटाएं"
+
+  /** {@see WidgetCompanyCard} **/
+  company_card: {
+    pending_state: "पुनरीक्षण के इंतज़ार में",
+    register: "दर्ज कराई",
+    developer: "डेवलपर",
+    verified: "सत्यापित",
+    premier: "प्रधान",
+  },
+
+  /** {@see ShopSubscriptionList} **/
+  shop_license: {
+    add: "सदस्यता जोड़ें",
+    only_last: "केवल अंतिम सदस्यता",
+    vouchers: "वाउचर",
+    buy: "सदस्यता योजना खरीदें",
+    monthly: "महीने के",
+    yearly: "सालाना",
+    start_date: "आरंभ करने की तिथि",
+    end_date: "समाप्ति तिथि",
+    price: "कीमत",
+    verify: {
+      true_title: "सत्यापित करें तएरमस",
+      true_description: "I रएअद अनद अगरएए वइतह Selldone तएरमस ओफ उसए",
     },
-    "notifications": {
-      "delete_success": "ऑफ़र सफलतापूर्वक हटा दिया गया है।"
-    }
-  },
-  "offer_edit": {
-    "title_edit": "ऑफ़र संपादित करें",
-    "title_add": "नया प्रस्ताव",
-    "design_style": "डिजाइन और शैली",
-    "eligible_constraints": "ग्राहक योग्य सीमाएं",
-    "title_input": "शीर्षक",
-    "title_input_hint": "आप इस छूट कोड के लिए एक शीर्षक दर्ज कर सकते हैं",
-    "description_input": "विवरण",
-    "description_input_hint": "इस छूट कोड के लिए विवरण लिखें",
-    "currency_input_message": "इस मुद्रा के लिए उपलब्ध प्रस्ताव।",
-    "qualified_products": "योग्य उत्पाद",
-    "qualified_products_message": "उत्पादों के योग्य होने के लिए, कार्ट में कुल आइटम न्यूनतम मात्रा के बराबर या उससे अधिक होना चाहिए।",
-    "min_items": "वस्तुओं की न्यूनतम मात्रा",
-    "min_items_message": "उन वस्तुओं की संख्या जिन्हें ग्राहक को खरीदना चाहिए",
-    "discounted_products": {
-      "title": "रियायती उत्पाद",
-      "subtitle": "आप उन उत्पादों को निर्दिष्ट कर सकते हैं जिन पर यह ऑफ़र छूट लागू करेगा."
+    need_charge: "चार्ज चाहिए",
+    buy_now: "अभी खरीदें",
+    use_voucher_now: "अभी वाउचर का उपयोग करें",
+    plan_placeholder: "अपनी सदस्यता योजना चुनें",
+    plan: "लाइसेंस योजना",
+    use_date: "सक्रियण तिथि",
+    validity_duration: "वैधता अवधि",
+    validity_duration_hint:
+      "12 महीने का लाइसेंस खरीदने पर आपको 30% की छूट मिलेगी।",
+
+    active_license: {
+      title: "सक्रिय लाइसेंस",
+      subtitle:
+        "आपकी सक्रिय लाइसेंस जानकारी।",
+      subtitle_partner:
+        "आपकी सक्रिय {name} लाइसेंस जानकारी।",
     },
-    "offered_products": "पेश किए गए उत्पाद",
-    "offered_products_message": "इनमें से कम से कम एक उत्पाद कार्ट में होना चाहिए।",
-    "discount_percent": "छूट प्रतिशत",
-    "discount_percent_message": "इन मदों के लिए छूट प्रतिशत।",
-    "discount_percent_hint": "छूट प्रतिशत की राशि",
-    "per_order": "प्रति आदेश उपयोग की अधिकतम संख्या",
-    "per_order_message": "किसी ऑर्डर पर ऑफ़र को लागू करने की अधिकतम संख्या",
-    "count_input": "राशि",
-    "count_input_hint": "इस ऑफ़र का अधिकतम उपयोग",
-    "min_purchase": "न्यूनतम खरीद राशि",
-    "min_purchase_hint": "खरीद मूल्य इस मूल्य से अधिक या उसके बराबर होना चाहिए",
-    "limitation": "परिसीमन",
-    "date_start_input": "शुरू करना",
-    "date_start_input_placeholder": "चुनें कि कूपन कब शुरू करें",
-    "date_end_input": "अंत",
-    "date_end_input_placeholder": "चुनें कि छूट कब खत्म होगी",
-    "max_actives_is_3": "आपके पास एक ही समय में केवल तीन सक्रिय ऑफ़र हो सकते हैं।",
-    "enable": "ऑटो लागू",
-    "notifications": {
-      "add": "नया ऑफ़र सफलतापूर्वक बनाया गया.",
-      "edit": "ऑफ़र सफलतापूर्वक अपडेट किया गया."
+    licenses_table: {
+      title: "खरीदा इतिहास",
+      subtitle:
+        "सक्रिय और लंबित लाइसेंस।",
     },
-    "config": {
-      "subtitle": "किसी सौदे का शीर्षक, विवरण और सार्वजनिक उपलब्धता स्थिति निर्धारित करके उसे समझदारीपूर्ण ढंग से तैयार करना शुरू करें।"
+    license_detail: {
+      title: "विवरण",
+      subtitle:
+        "आपकी वर्तमान योजना पर सीमाएं।",
     },
-    "limit": {
-      "subtitle": "इस अनुभाग में इस ऑफ़र के लिए अधिकतम उपयोग सीमा निर्धारित करें."
+
+    table: {
+      plan: "योजना",
+      start_date: "प्रारंभ / समाप्ति तिथि",
+      renewal: "ऑटो नवीकरण",
+      linked_account: "लिंक किया गया खाता / वाउचर",
+      payment: "भुगतान",
+      cancel: "रद्द करना",
     },
-    "duration": {
-      "subtitle": "यदि आप किसी ऑफर के लिए विशिष्ट समय-सीमा निर्धारित करना चाहते हैं, तो आप यहां अवधि निर्धारित कर सकते हैं।"
+    notifications: {
+      subscribe_success: "सफलतापूर्वक सदस्यता ली गई।",
+      cancel_success: "सदस्यता सफलतापूर्वक रद्द कर दी गई।",
     },
-    "constraints": {
-      "subtitle": "ऑफ़र के लिए पात्रता मानदंड और शर्तें यहाँ सेट करें। यह ऑफ़र उन कार्ट आइटम पर लागू होता है जो इन शर्तों को पूरा करते हैं।"
+    cancel_dialog: {
+      title: "सदस्यता पुष्टि रद्द करें",
+      message: "क्या आप वाकई इस सदस्यता को रद्द करना चाहते हैं?",
+      action: "सदस्यता रद्द",
     },
-    "cluster": {
-      "subtitle": "इस ऑफ़र को क्लस्टर के साथ जोड़कर, आप इसे एक ही स्थान पर अन्य संसाधनों के साथ आसानी से प्रबंधित कर सकते हैं।"
-    }
-  },
-  "campaign_ads": {
-    "menu": {
-      "banner": "बैनर",
-      "reportage": "सूचना देना",
-      "social": "सामाजिक मीडिया",
-      "offline": "ऑफलाइन"
-    }
-  },
-  "emails": {
-    "title": "ईमेल व्यापार",
-    "subtitle": "ड्रैग एंड ड्रॉप द्वारा ईमेल डिज़ाइन करें, अवधारण बढ़ाने के लिए अभियान शेड्यूल करें और लॉन्च करें, और एक ही स्थान पर विश्वसनीय और सटीक जानकारी देखें।",
-    "cation_message": "सत्यापित नहीं व्यापारियों के लिए प्रतिबंधित। (बीटा)",
-    "subject": "विषय",
-    "from": "से",
-    "in_que": "प्रतीक्षा कर रहा है",
-    "schedule_at": "अनुसूची",
-    "sent": "भेजा",
-    "sends": "भेजता है",
-    "delivers": "पहुंचा दिया",
-    "views": "विचारों",
-    "clicks": "क्लिक्स",
-    "buys": "खरीद",
-    "new_email": "नया ईमेल जोड़ें",
-    "new_email_message": "नया मार्केटिंग ईमेल बनाएं और शेड्यूल करें"
-  },
-  "email_dashboard": {
-    "review": "समीक्षा",
-    "waiting_for_approve": "{name} द्वारा पुष्टि की प्रतीक्षा की जा रही है",
-    "approved_by": "ईमेल {name} द्वारा सत्यापित और भेजा गया।",
-    "not_submitted_send_request": "आपने अभी तक इस ईमेल को भेजने का अनुरोध सबमिट नहीं किया है।",
-    "reviewed_by": "{name} द्वारा समीक्षित",
-    "status": "ईमेल स्थिति",
-    "conversion": "परिवर्तन दरें",
-    "sell_performance": "बिक्री निष्पादन",
-    "total_buys": "बिक्री की कुल संख्या",
-    "amount_buy": "कुल बिक्री राशि",
-    "average_sell": "औसत बिक्री",
-    "sessions": "सत्र",
-    "overview": "अवलोकन",
-    "purchase_amount": "खरीद राशि",
-    "actions": "उपयोगकर्ता गतिविधि"
-  },
-  "email_page": {
-    "emails": "ईमेल",
-    "edit": "संपादन करना"
-  },
-  "affiliate_page": {
-    "affiliates": "संबद्ध भागीदार",
-    "orders": "आदेश",
-    "payments": "भुगतान"
-  },
-  "affiliate_dashboard": {
-    "link": "एफिलिएट पार्टनर लिंक",
-    "fix_commission": "निश्चित कमीशन",
-    "percent_commission": "प्रतिशत आधारित कमीशन",
-    "last_payment": "अंतिम भुगतान",
-    "balance": "संतुलन",
-    "total_payment": "कुल भुगतान",
-    "status": "संबद्ध भागीदार की स्थिति और प्रतिबंध",
-    "available_for": "के लिए उपलब्ध है",
-    "orders_count": "आदेश राशि",
-    "orders_accepted": "स्वीकृत आदेश",
-    "finance": "वित्तीय रिपोर्ट",
-    "amount_accepted": "स्वीकृत राशि",
-    "amount_paid": "भुगतान राशि",
-    "sessions": "सत्र",
-    "affiliate_payment": "संबद्ध भागीदार भुगतान",
-    "amount_payment": "भुगतान राशि",
-    "amount_payment_hint": "लेन-देन की सटीक राशि",
-    "i_paid": "मैंने {amount} को {currency} {name} का भुगतान किया",
-    "pay_now": "अब भुगतान करें"
-  },
-  "permission_roles": {
-    "new_role": "नई भूमिका जोड़ें",
-    "new_role_message": "टीम वर्क को आसान बनाएं।",
-    "new_role_action": "नई भूमिका जोड़ें"
-  },
-  "user_affiliates": {},
-  "shop_lotteries": {
-    "title": "लॉटरी",
-    "sub_title": "आपके ग्राहक गेम खेल सकते हैं और जीत सकते हैं। आपके स्टोर के ग्राहकों को प्रत्येक गेम के लिए 10 चिप्स का उपभोग करना चाहिए। उदाहरण के लिए, यदि आप चाहते हैं कि आपके ग्राहकों को 1000 USD जीतने का मौका मिले, तो आपको प्रत्येक चिप की कीमत 100 USD पर निर्धारित करनी होगी। प्रत्येक चिप के लिए 0 के मान का अर्थ है कि खरीदार को प्रत्येक खरीद के लिए एक चिप प्राप्त होगी।",
-    "manually_send_chip": "क्या आप उपयोगकर्ताओं को मैन्युअल रूप से चिप्स भेजना चाहते हैं?",
-    "lottery_enable": "क्या लॉटरी सक्षम है?",
-    "chip_price_input": "चिप की कीमत",
-    "zero_chip_message": "प्रति ऑर्डर 1x चिप दें",
-    "chip_has_price_message": "प्रति {amount} {currency} ऑर्डर के लिए 1 चिप दें।",
-    "chip_disabled_message": "चिप अक्षम है!",
-    "create_new": "नया पुरस्कार जोड़ें",
-    "delete_alert": {
-      "title": "पुरस्कार हटाएं",
-      "message": "क्या आप वाकई इस पुरस्कार को स्थायी रूप से हटाना चाहते हैं?",
-      "action": "हां, अभी हटाएं"
+    add_dialog: {
+      wallet: {
+        title: "चुनें a वॉलेट",
+        subtitle:
+          "चुनें a वर्चुअल वॉलेट तओ उसए फओर यओउर सदस्यता. इफ यओउ दओन't हअवए ओनए यएत, यओउ कअन बनाएँ इत इन तहए वॉलेट सएकतइओन. तहइस वॉलेट वइलल बए उसएद फओर अनय कहअरगएस.",
+      },
+      auto_renewal: {
+        true_title: "ऑटो नवीकरण",
+        true_description:
+          "यओउर सदस्यता वइलल अउतओमअतइकअललय रएनएव इफ यओउर वॉलेट हअस एनओउगह शेष राशि ओर इफ यओउ हअवए a वअलइद वओउकहएर.",
+      },
+      options: {
+        title: "अददइतइओनअल विकल्प",
+      },
+      verify: {
+        title: "पुष्टि",
+      },
     },
-    "notifications": {
-      "delete_success": "पुरस्कार सफलतापूर्वक हटाया गया."
+  },
+
+  /** {@see BLayoutBackofficeShop} **/
+
+  admin_shop_layout: {
+    download_txt: "डेटा टेक्स्ट डाउनलोड करें",
+    download_excel: "डेटा एक्सेल डाउनलोड करें",
+  },
+  /** {@see BUserPreferences} **/
+  user_preferences: {
+    access: "पहुंच",
+    template: "टेम्पलेट",
+    feedback: "प्रतिपुष्टि",
+    date_time: "दिनांक समय",
+
+    company: "सोहबत",
+    company_message: "यदि आपके पास कंपनी है और ऐप्स प्रकाशित करना चाहते हैं।",
+    access_keys: "एक्सेस कुंजियाँ",
+    access_keys_message: "क्लाइंट और एक्सेस कुंजियां दिखाएं.",
+    rating: "आप सेलडोन के साथ अपने अनुभव का मूल्यांकन कैसे करेंगे?",
+    large_font: "बड़े फोंट",
+    large_font_message: "सामान्य से बड़ा टेक्स्ट दिखाएं",
+    samples: "नमूना दुकानें दिखाएं",
+    samples_message:
+      "यदि सक्षम किया गया है, तो कुछ नमूना दुकानें आपके पैनल में प्रदर्शित होंगी।",
+
+    automation: "स्वचालन",
+    automation_message:
+      "शॉप डैशबोर्ड पर ऑटोमेशन टैब दिखाएं। (वेबहुक, विजुअल प्रोग्रामिंग,...)",
+  },
+
+  /** {@see BPageShopSettingLocations} **/
+  shop_locations: {
+    title: "वे देश जहां सेवा प्रदान की जाती है",
+    sub_title:
+      "नीचे दी गई सूची से उन देशों का चयन करें जहां आप अपना उत्पाद बेचना चाहते हैं।",
+
+    delete_restriction: "प्रतिबंध हटाएं",
+    set_restriction: "प्रतिबंध लगाओ",
+    notifications: {
+      locations_update: "स्थान सफलतापूर्वक अपडेट किया गया.",
     },
-    "manual_send_token_action": "मैनुअल टोकन",
-    "config": {
-      "subtitle": "अपने स्टोर में गेमीफाइड अनुभव के साथ ग्राहकों की खरीदारी को बढ़ावा दें। खरीदारी के ज़रिए टोकन अर्जित करने वाले ग्राहकों के लिए पुरस्कार और जीतने की संभावनाएँ निर्धारित करें। प्रत्येक गेम खेलने पर 10 टोकन खर्च होते हैं, और आप पहली बार खरीदारी करने वालों को विशेष पुरस्कार दे सकते हैं। डिफ़ॉल्ट गेम व्हील ऑफ़ फ़ॉर्च्यून है, लेकिन आप इसे अपनी दुकान के लेआउट के अनुसार कस्टमाइज़ कर सकते हैं।"
+    table: {
+      country: "देश",
+      currency: "मुद्रा",
+      available: "उपलब्ध",
     },
-    "empty_prize_list": "यहां पुरस्कार बनाएं और प्रबंधित करें..."
   },
-  "lottery_edit": {
-    "title_edit": "लॉटरी आइटम संपादित करें",
-    "title_add": "नई लॉटरी आइटम",
-    "general_config": "सामान्य विन्यास",
-    "design_style": "शैली और उपस्थिति",
-    "enable": "सक्षम?",
-    "enable_message": "एक पहिए में अधिकतम आइटम 14 हैं।",
-    "title_input": "शीर्षक",
-    "title_input_hint": "एक संक्षिप्त शीर्षक लिखें।",
-    "description_input": "विवरण",
-    "description_input_hint": "वस्तु के बारे में विवरण लिखें।",
-    "quantity": "मात्रा",
-    "quantity_message": "कुल उपलब्ध आइटम",
-    "image": "छवि",
-    "image_placeholder": "आइटम के लिए एक छवि का चयन करें",
-    "chance": "अवसर",
-    "chance_message": "प्रतिशत में जीतने की संभावना",
-    "free_for_first": "क्या यह नए ग्राहकों के लिए मुफ़्त है?",
-    "free_for_first_message": "नए ग्राहक इस आइटम को जीत सकते हैं।",
-    "prize": {
-      "title": "इनाम",
-      "subtitle": "पुरस्कार विवरण यहाँ सेट करें। विकल्पों में लॉटरी पुरस्कार के रूप में छूट कोड, उपहार कार्ड, क्रेडिट और अन्य छूट शामिल हैं।"
+
+  /** @see ProductCard **/
+  product_card: {
+    sold_out: "बिक गया",
+    review_unit: "समीक्षा",
+    not_original: "असली नहीं",
+  },
+
+  /** @see BProductAddStudio **/
+  product_studio: {
+    add_mode: "अधिक विवरण जोड़ें",
+    auto_category: "ऑटो-सेट श्रेणी",
+    add_in_current_category: "वर्तमान श्रेणी में जोड़ें",
+    category_mode_message:
+      "यदि सक्षम है, तो उत्पाद को डिफ़ॉल्ट श्रेणी या उपश्रेणी में जोड़ दिया जाएगा।",
+    sku_name_input: "एसकेयू / नाम",
+    info: {
+      subtitle:
+        "उत्पाद तैयार करने के लिए, आप केवल उसके निर्माण के लिए आवश्यक आवश्यक विवरण ही दर्ज कर सकते हैं।",
     },
-    "amount": "पुरस्कार राशि",
-    "amount_hint": "उपयोगकर्ता अपने ऑर्डर के लिए यह राशि जीतते हैं।",
-    "currency_message": "इस मद के लिए मुद्रा। अन्य मुद्राएं विनिमय दर द्वारा परिवर्तित की जाती हैं।",
-    "discount": "छूट",
-    "discount_message": "ग्राहक आदेश पर छूट प्रतिशत",
-    "discount_limit": "छूट की सीमा",
-    "discount_limit_hint": "ग्राहक के लिए अधिकतम छूट।",
-    "color": "रंग",
-    "condition": "स्थितियाँ",
-    "notifications": {
-      "add": "नया लॉटरी आइटम सफलतापूर्वक बनाया गया।",
-      "edit": "लॉटरी आइटम सफलतापूर्वक बदल गए।"
+    price: {
+      subtitle:
+        "इस उत्पाद के लिए कीमत और छूट दर्ज करें। उत्पाद जोड़ दिए जाने के बाद, आपके पास ज़्यादा विकल्पों तक पहुंच होगी।",
     },
-    "not_free_for_first_message": "यह पुरस्कार प्रथम निःशुल्क खेल के लिए उपलब्ध नहीं है।",
-    "config": {
-      "subtitle": "यहाँ, आप अपनी दुकान के लॉटरी पुरस्कार बना सकते हैं। प्रत्येक पुरस्कार के लिए शीर्षक, विवरण, रंग और छवि सेट करें।"
+    by_sku: {
+      title: "SKU द्वारा जोड़ें",
+      subtitle: "आपके देश में डेटाबेस उपलब्ध नहीं है.",
     },
-    "design": {
-      "subtitle": "यहां, आपके पास पुरस्कार के लिए एक छवि और रंग चुनने का विकल्प है।"
+    drop_shipping: {
+      subtitle:
+        "थोक बाज़ार में उत्पाद ढूंढें और उन्हें अपने स्टोर में जोड़ें।",
     },
-    "constraints": {
-      "subtitle": "इस पुरस्कार को जीतने के लिए मानदंड और सीमाएँ निर्दिष्ट करें।"
+    by_connect: {
+      subtitle:
+        "Selldone कनेक्ट ओएस के साथ आसानी से POD या ड्रॉपशिपिंग आपूर्तिकर्ताओं से उत्पाद जोड़ें - बस अपने स्टोर को कनेक्ट करें और स्वचालित उत्पाद एकीकरण का आनंद लें, किसी प्लगइन की आवश्यकता नहीं है।",
     },
-    "product_input": {
-      "label": "उत्पाद पुरस्कार",
-      "message": "पुरस्कार के लिए एक उत्पाद का चयन करें (निःशुल्क)"
-    }
-  },
-  "gift_card_types_list": {
-    "label": "उपहार कार्ड का प्रकार",
-    "message": "सूची से उपहार कार्ड प्रकार चुनें।"
-  },
-  "email_builder": {
-    "service_unavailable": "आपके खाते में मेल सर्वर सक्रिय नहीं है।",
-    "design_section": "आपकी ईमेल डिज़ाइन प्लेट",
-    "schedule_switch": "ईमेल भेजने का समय निर्धारित करें?",
-    "schedule_placeholder": "ईमेल भेजने के लिए समय चुनें"
-  },
-  "user_funnel": {
-    "REGISTER_DATE": {
-      "title": "पंजीकरण की तारीख",
-      "description": "उपयोगकर्ता की पंजीकरण तिथि के अनुसार फ़िल्टर करें।"
+    your_license_is_not_eligible: "आपका लाइसेंस योग्य नहीं है.",
+    sku_dialog: {
+      title: "SKU द्वारा उत्पाद जोड़ें",
+      subtitle:
+        "आपके पास हमारे डेटाबेस में उनके SKU द्वारा उत्पादों का पता लगाने और उन्हें केवल एक क्लिक के साथ जोड़ने की क्षमता है।",
     },
-    "LAST_BUY_DATE": {
-      "title": "पिछली खरीद",
-      "description": "अंतिम खरीद तिथि।"
+    dropshipping_dialog: {
+      title: "ड्रॉपशीपिंग उत्पाद जोड़ें",
     },
-    "LOGIN_DATE": {
-      "title": "लॉगिन तिथि",
-      "description": "अंतिम लॉग इन दिनांक।"
+  },
+
+  /**
+   * @see BProductAddDropshippingShops
+   */
+  product_add_dropshipping_shops: {
+    subtitle:
+      "यहाँ, आप ऐसे थोक विक्रेताओं को पा सकते हैं जो अपने उत्पादों को Selldone पर सूचीबद्ध करते हैं, जिससे वे अन्य व्यापारियों के लिए उपलब्ध हो जाते हैं। Selldone का बिल्ट-इन ड्रॉपशिपिंग प्लेटफ़ॉर्म प्रक्रिया को सरल बनाता है, जिससे यह थोक विक्रेताओं और व्यापारियों दोनों के लिए आसान और सीधा हो जाता है।",
+  },
+
+  /** @see Affiliates **/
+  my_affiliate: {
+    title: "मेरे संबद्ध अनुबंध",
+    message:
+      "अन्य स्टोर के साथ संबद्ध समझौतों की सूची।",
+  },
+
+  /** @see BPageShopMarketingAffiliate **/
+  affiliates: {
+    title: "संबद्ध भागीदार",
+    subtitle:
+      "सहयोगी बनाएं, समय के साथ उनके प्रदर्शन को ट्रैक करें, और एक ही स्थान पर सटीक जानकारी के आधार पर कार्रवाई करें। हम आपको और आपके भागीदारों को एक मजबूत संबंध बनाने में मदद करते हैं।",
+
+    affiliate_code: "गुप्तचिन्ह सहबद्ध करना",
+    crate_date: "तारीख बनाना",
+    last_payment_date: "अंतिम भुगतान तिथि",
+    for_all_products: "सभी उत्पादों पर लागू करें",
+    balance: "संतुलन",
+    fix_commission: "निश्चित कमीशन",
+    percent_commission: "प्रतिशत आधारित कमीशन",
+    total_payment: "कुल भुगतान",
+    new_affiliate: "नया सहयोगी भागीदार",
+    new_affiliate_message: "नया सहबद्ध भागीदार जोड़ें",
+
+    link_factory: {
+      title: "संबद्ध भागीदार लिंक जनरेटर",
+      link_input: "आपकी लिंक",
+      link_output: "उत्पन्न लिंक",
     },
-    "LEVEL": {
-      "title": "ग्राहक क्लब",
-      "description": "ग्राहक क्लब के सदस्य।"
+  },
+
+  /**
+   * @see BAffiliateEdit
+   */
+  affiliate_edit: {
+    affiliate_commission: "सहयोगी कमीशन",
+
+    config: {
+      new: "नया सहयोगी पअरतनएर",
+      edit: "संपादित करें सहयोगी पअरतनएर",
+      subtitle:
+        "कओनफइगउरए तहए गएनएरअल सेटिंग्स अनद नाम ओफ तहए सहयोगी हएरए.",
     },
-    "SUBSCRIBED": {
-      "title": "सदस्यता लिया",
-      "description": "ईमेल प्राप्त करने के लिए सदस्यता प्राप्त करने के लिए।"
+
+    payment: {
+      title: "भुगतान जानकारी",
+      subtitle:
+        "सएत तहए कमीशन सतरउकतउरए फओर तहए सहयोगी. यओउ कअन कओमबइनए फइक्सएद अनद पएरकएनतअगए-बअसएद कमीशन, ओर सएत सपएकइफइक कमीशन फओर एअकह उत्पाद.",
     },
-    "NOT_PURCHASED": {
-      "title": "कोई खरीद नहीं",
-      "description": "जिन ग्राहकों ने अभी तक खरीदारी नहीं की है।"
+
+    contact: {
+      title: "संपर्क जानकारी",
+      subtitle: "परओवइदए तहए कओनतअकत विवरण ओफ तहए सहयोगी पअरतनएर हएरए.",
     },
-    "SEX": {
-      "title": "लिंग",
-      "description": "उपयोगकर्ता लिंग।"
+
+    restriction: {
+      title: "कमीशन रएसतरइकतइओनस",
+      subtitle:
+        "दएफइनए वहइकह उत्पाद अरए एलइगइबलए फओर कमीशन. यओउ कअन रएसतरइकत कमीशन तओ कएरतअइन उत्पाद.",
     },
-    "LOCATION": {
-      "title": "जगह",
-      "description": "उपयोगकर्ता स्थान।"
+
+    link_domain: {
+      title: "लिंक डोमेन",
+      subtitle:
+        "लिंक ओनए ओफ यओउर डोमेन तओ तहइस सहयोगी पअरतनएर. वइसइतओरस वहओ खरीद तहरओउगह तहइस डोमेन वइलल बए अततरइबउतएद तओ तहइस सहयोगी.",
+
+      domain_not_approved_msg: "तहए डोमेन हअस नहीं बएएन स्वीकृत यएत!",
+      domain_is_not_enable_msg: "तहए डोमेन इस नहीं सक्षम!",
+      domain_is_linked_to_other_affiliate_msg:
+        "तहइस डोमेन इस अलरएअदय लिंक तओ अनओतहएर सहयोगी!",
     },
-    "LIMIT": {
-      "title": "सीमा",
-      "description": "उपयोगकर्ताओं की अधिकतम संख्या पर एक सीमा निर्धारित करें।"
+
+    set_users_first_message: "पलएअसए सएत तहए उपयोगकर्ता पहला!",
+
+    cluster: {
+      title: "कलउसतएर",
+      subtitle:
+        "अससओकइअतए तहइस सहयोगी वइतह a कलउसतएर तओ प्रबंधित करें इत अलओनगसइदए ओतहएर रएसओउरकएस इन ओनए पलअकए.",
+      manage_action: "प्रबंधित करें",
     },
-    "SEGMENTS": {
-      "title": "सेगमेंट",
-      "description": "विशिष्ट मैनुअल सेगमेंट में ग्राहकों को सीमित करें।"
-    }
-  },
-  "inline_help": {
-    "helps_title": "सेवा उपयोगकर्ता गाइड",
-    "blogs_title": "सेलडोन ब्लॉग में संबंधित सामग्री"
-  },
-  "shop_tax": {
-    "region": "क्षेत्र",
-    "label": "लेबल",
-    "country_tax": "देश कर",
-    "customer_tax": "ग्राहक वैट",
-    "business_tax": "व्यापार वैट",
-    "shipping": "शिपिंग",
-    "override": "अवहेलना",
-    "country": "देश",
-    "vat_range": "वैट रेंज",
-    "custom": "रिवाज़",
-    "regions": "क्षेत्रों",
-    "rest_world": "शेष दुनिया",
-    "overrides": "ओवरराइड",
-    "dialog_set_title": "कर सेटिंग",
-    "tax_setting": "कर सेटिंग",
-    "vat": "VAT",
-    "calculate_tax_input": "ऑटो कर की गणना",
-    "calculate_tax_message": "इस विकल्प को सक्रिय करके, वैट की गणना की जाएगी और आपके आदेशों के लिए लागू किया जाएगा।",
-    "tax_number": "कर नंबर",
-    "tax_number_message": "अपना टैक्स नंबर दर्ज करें। यह पंजीकरण संख्या खरीदार के चालान में दर्ज की जाएगी।",
-    "tax_included_in_price_input": "उत्पादों की कीमत में शामिल टैक्स",
-    "tax_included_in_price_message": "अगर आप अपने उत्पाद की कीमत में टैक्स की रकम शामिल करते हैं, तो इस विकल्प को चुनें. कर राशि की गणना निम्न सूत्र के साथ की जाएगी:",
-    "tax_included_in_price_formula": "कर = (कीमत * वैट) / (1 + वैट), उदाहरण के लिए, 10% की मूल्य वर्धित दर के साथ 100$ की कीमत पर उत्पाद के लिए कर की राशि 9.09$ हो जाती है।",
-    "tax_on_shipping_input": "शिपिंग पर कर लागू करें",
-    "tax_on_shipping_message": "इस विकल्प का चयन करने पर कर शिपिंग पर लागू होगा।",
-    "fixed_tax_rate": "निश्चित कर दर",
-    "dynamic_tax_rate": "क्षेत्रों के आधार पर कर",
-    "locations_tip": "ऊपर दी गई सूची केवल उन देशों को दिखाती है जिन्हें आपने शॉप सेटिंग > स्थानों में आपके द्वारा बेचे जाने वाले देशों के रूप में चुना है।",
-    "locations_action": "स्टोर स्थान सेटिंग",
-    "save_alert": "सेटिंग्स सहेजी नहीं गई हैं!",
-    "pos_tax_setting": "पीओएस टैक्स सेटिंग्स",
-    "tax_exclude_title": "बहिष्कृत ╏ चेकआउट पर टैक्स जोड़ा जाएगा",
-    "tax_excluded_message": "चेकआउट के दौरान भुगतान से पहले करों की गणना की जाएगी और आपके ग्राहक साक्ष्य के आधार पर बहिष्कृत कर मूल्य में जोड़ा जाएगा।"
-  },
-  "transportation_page": {
-    "menu": {
-      "dashboard": "डैशबोर्ड",
-      "transportations": "स्थानांतरण विधियां",
-      "orders": "आदेश",
-      "setting": "सेटिंग",
-      "delivery_services": "सेवाएं",
-      "delivery_persons": "कूरियर"
+
+    notifications: {
+      create_success: "नया सहयोगी जोड़ें सउककएससफउललय.",
+      update_success: "सहयोगी उपदअतएद सउककएससफउललय.",
     },
-    "go_to_courier_list": "कूरियर सूची देखें",
-    "go_to_service_list": "शिपिंग सेवाओं की सूची देखें"
-  },
-  "transportation_persons": {
-    "title": "कूरियर",
-    "notifications": {
-      "success_add": "कूरियर जोड़ा गया।",
-      "success_reset": "सांख्यिकी रीसेट।",
-      "success_remove": "कुरियर सफलतापूर्वक निकाला गया।",
-      "success_update": "कूरियर जानकारी सफलतापूर्वक अपडेट की गई।"
+
+    inputs: {
+      name: {
+        label: "सहयोगी पअरतनएर नाम",
+        message: "e.g., जओहन दओए, अलएक्स कओमपअनय, X मअरकएतएरस, एतक.",
+      },
+      commission: {
+        label: "कमीशन कअलकउलअतइओन",
+        false_description:
+          "कअलकउलअतए उसइनग a कओमबइनअतइओन ओफ फइक्सएद अनद पएरकएनतअगए कमीशन.",
+        true_description:
+          "कअलकउलअतए उसइनग परओदउकत-सपएकइफइक कमीशन सएत इन तहए मूल्य निर्धारण तअब.",
+        false_title: "फइक्सएद + पएरकएनतअगए कमीशन",
+        true_title: "परओदउकत-बअसएद कमीशन",
+      },
+      user: {
+        label: "उपयोगकर्ता (ओपतइओनअल)",
+        message: "ओपतइओनअल, e.g., सहयोगी नाम इन Selldone",
+      },
+      web: {
+        placeholder: "ओपतइओनअल, e.g., अफफइलइअतए-वएब.कओम",
+      },
+      address: {
+        placeholder: "ओपतइओनअल, e.g., 1200 पओक्स, नय, उसअ",
+      },
+      tel: {
+        placeholder: "ओपतइओनअल, e.g., 001-808-210354",
+      },
+      bank: {
+        placeholder: "ओपतइओनअल, e.g., अरसतरअ बअनक, नओ: 10002-325-800-845213",
+      },
+      domain: {
+        placeholder: "चुनें a डोमेन... (ओपतइओनअल)",
+      },
+      pos: {
+        true_description:
+          "सहयोगी कअन पलअकए ऑर्डर दइरएकतलय फओर तहएइर ग्राहक तहरओउगह तहएइर पअनएल.",
+        true_title: "POS पहुँच",
+      },
+      enable: {
+        true_description:
+          "इस तहइस सहयोगी कउररएनतलय सक्रिय? इफ निष्क्रिय, तहएइर सहयोगी परओगरअम वओन't अपपलय तओ ऑर्डर मअदए तहरओउगह तहएइर लिंक.",
+      },
+      products: {
+        label: "उत्पाद एलइगइबलए फओर कमीशन",
+        select_product: "चुनें उत्पाद",
+      },
     },
-    "reset": {
-      "title": "सांख्यिकीय को रीसेट करें",
-      "message": "क्या आप वाकई इस कूरियर के आंकड़े रीसेट करना चाहते हैं?",
-      "action": "हाँ, अभी रीसेट करें"
+    actions: {
+      update: "अपडेट करें सहयोगी",
+      add: "जोड़ें सहयोगी पअरतनएर",
     },
-    "remove": {
-      "title": "कूरियर निकालें",
-      "message": "क्या आप वाकई इस कूरियर को हटाना चाहते हैं?",
-      "action": "हां, अभी हटाएं"
+    /**
+     * @see BPageAffiliateEdit
+     */
+    delete: {
+      subtitle:
+        "यओउ कअन सएततलए अनय ओउतसतअनदइनग दएबतस वइतह तहए सहयोगी बएफओरए रएमओवइनग तहएम फरओम यओउर दुकान. सहयोगी जानकारी वइलल रएमअइन अककएससइबलए फओर a लइमइतएद समय अफतएर दएलएतइओन.",
     },
-    "add_dialog": {
-      "title": "नया कूरियर जोड़ें",
-      "action": "कूरियर जोड़ें"
-    }
   },
-  "transportation_orders": {
-    "title": "शिपिंग के लिए आदेश",
-    "notifications": {
-      "success_update": "शिपिंग स्थिति सफलतापूर्वक अपडेट की गई.",
-      "success_payment": "सीओडी भुगतान की पुष्टि सफलतापूर्वक की गई।"
-    }
-  },
-  "delivery_person": {
-    "actions_title": "कूरियर सेटिंग्स",
-    "action_delivered": "लादा गया",
-    "action_paid": "कॉड भुगतान",
-    "action_returned": "लौटाया हुआ",
-    "cod_confirm_action": "कॉड भुगतान की पुष्टि करें",
-    "pickup_dialog": {
-      "title": "क्या आप इस पैकेज के कुरियर हैं?",
-      "message": "यदि आप इस पार्सल को ले जाने के लिए जिम्मेदार हैं, तो हाँ चुनें, अन्यथा नहीं चुनें।"
+
+  /**
+   * @see BPageShopFinanceValuations
+   */
+  shop_valuations: {
+    title: "कस्टम मूल्य निर्धारण अनद वअलउअतइओनस",
+    subtitle:
+      "अससइगन a वअलउअतइओन (a मूल्य निर्धारण इनपुट फ़ॉर्म) तओ a उत्पाद, अललओवइनग ग्राहक तओ चुनें वेरिएंट ओर पएरसओनअलइज़ए यओउर मएरकहअनदइसए. तहए सयसतएम वइलल तहएन कअलकउलअतए तहए मूल्य बअसएद ओन तहए कस्टम इनपुट.",
+    add_valuation_action: "बनाएँ नया वअलउअतइओन फ़ॉर्म",
+    empty_message:
+      "इनसतएअद ओफ करएअतइनग मउलतइपलए वेरिएंट, कओनसइदएर दएवएलओपइनग a वअलउअतइओन सतरअतएगय तहअत कअन बए अपपलइएद तओ a सइमपलए उत्पाद.",
+    delete_dialog: {
+      title: "पएरमअनएनतलय हटाएँ",
+      message:
+        "अरए यओउ सउरए यओउ वअनत तओ हटाएँ तहइस मूल्य निर्धारण फ़ॉर्म? पलएअसए एनसउरए तहअत तहइस कस्टम मूल्य निर्धारण सतरअतएगय इस रएमओवएद फरओम सभी अससओकइअतएद उत्पाद पहला.",
+      action: "हां, अभी हटाएं",
     },
-    "status_dialog": {
-      "title": "स्थिति को {status} में बदलें",
-      "message": "क्या आप वाकई डिलीवरी की स्थिति को {status} में बदलना चाहते हैं?",
-      "action": "हाँ, मैं इसकी पुष्टि करता हूँ!"
+    notifications: {
+      delete_success: "वअलउअतइओन हअस बएएन सउककएससफउललय दएलएतएद.",
     },
-    "cod_dialog": {
-      "title": "कॉड भुगतान",
-      "message": "क्या आप पुष्टि करते हैं कि आपको खरीदार से ऑर्डर की राशि मिल गई है?",
-      "action": "हाँ, मैं भुगतान की पुष्टि करता हूँ!"
-    }
   },
-  "transportation_services": {
-    "title": "वितरण सेवा",
-    "notifications": {
-      "success_add": "वितरण सेवा जोड़ा गया।",
-      "success_reset": "सांख्यिकी रीसेट।",
-      "success_remove": "सेवा सफलतापूर्वक निकाली गई.",
-      "success_update": "सेवा सफलतापूर्वक अपडेट की गई।"
+
+  /**
+   * @see BValuationInput
+   */
+  valuation_input: {
+    label: "मूल्य निर्धारण & वअलउअतइओन मओदएल",
+  },
+
+  /**
+   * @see BValuationAdd
+   */
+  valuation_add: {
+    title_edit: "संपादित करें वअलउअतइओन फ़ॉर्म",
+    title_add: "बनाएँ नया वअलउअतइओन फ़ॉर्म",
+    config: {
+      subtitle:
+        "सएत उप a वअलउअतइओन सयसतएम तओ बनाएँ फलएक्सइबलए मूल्य निर्धारण उसइनग फओरमउलअस अनद रएफएरएनकए तालिका फओर यओउर उत्पाद. शुरू बय गइवइनग तहइस वअलउअतइओन a उनइकउए नाम.",
     },
-    "reset": {
-      "title": "सांख्यिकीय को रीसेट करें",
-      "message": "क्या आप वाकई इस सेवा के आंकड़े रीसेट करना चाहते हैं?",
-      "action": "हाँ, अभी रीसेट करें"
+    valuation_preview: "परएवइएव वअलउअतइओन फ़ॉर्म",
+    load_sample: "लओअद सअमपलए",
+    conditions: {
+      title: "स्थितियाँ",
+      subtitle:
+        "दएफइनए तहए लओगइक फओर कस्टम वेरिएंट. तहइस कॉन्फ़िगरेशन सइमपलइफइएस तहए प्रबंधन ओफ वेरिएंट अवअइलअबइलइतय.",
     },
-    "remove": {
-      "title": "वितरण सेवा निकालें",
-      "message": "क्या आप वाकई इस सेवा को हटाना चाहते हैं?",
-      "action": "हां, अभी हटाएं"
+    structure: {
+      title: "सतरउकतउरए",
+      subtitle:
+        "दएसइगन यओउर मूल्य निर्धारण इनपुट फ़ॉर्म हएरए बय इनतएगरअतइनग फओरमउलअस अनद रएफएरएनकए तालिका.",
+      expand_action: "एक्सपअनद",
+      collapse_action: "कओललअपसए",
     },
-    "add_dialog": {
-      "title": "नई डिलीवरी सेवा जोड़ें",
-      "action": "सेवा जोड़ें"
-    }
-  },
-  "delivery_receipt": {
-    "title": "डिलीवरी रसीद",
-    "has_return": "डिलीवरी की वापसी",
-    "cashed": "नकद भुगतान"
-  },
-  "delivery_dashboard": {
-    "select_destinations": "सूची में आदेश जोड़ें",
-    "price_calculation": "शिपिंग दरों का अनुमान लगाएं",
-    "price_calculation_action": "कीमत की गणना करें",
-    "add_request": "अनुरोध सेवा",
-    "add_request_action": "सेवा अनुरोध सबमिट करें",
-    "refresh_action": "जानकारी अपडेट करें"
-  },
-  "delivery_order": {
-    "title": "शिपिंग ऑर्डर",
-    "has_return": "डिलीवरी की वापसी",
-    "cashed": "नकद भुगतान"
-  },
-  "cash_register": {
-    "menu": {
-      "panel": "नकदी - रजिस्टर",
-      "orders": "आदेश",
-      "customers": "ग्राहकों",
-      "devices": "उपकरण",
-      "inventory": "भंडार"
+    inputs: {
+      title: {
+        message: "तहइस शीर्षक इस नहीं वइसइबलए तओ ग्राहक.",
+        placeholder: "एनतएर a नाम फओर मूल्य निर्धारण, e.g., 'मउगस मूल्य निर्धारण'",
+      },
     },
-    "payment_confirm": "भुगतान की पुष्टि",
-    "payment_confirm_msg": "ग्राहक ने भुगतान आदेश {basket_id}."
-  },
-  "barcode_scanner": {
-    "wifi_pass": "आपका वाई-फाई पासवर्ड",
-    "message": "अपना वाईफाई राउटर पासवर्ड डालें और क्यूआर कोड को स्कैन करें।",
-    "wifi_ssid": "वाई-फाई एसएसआईडी",
-    "ssid_message": "अपना वाई-फाई नेटवर्क नाम (एसएसआईडी) दर्ज करें।"
-  },
-  "pos_devices": {
-    "Scanner": "बारकोड स्कैनर",
-    "Scanner_desc": "बारकोड स्कैनर का उपयोग करने के लिए, आपको उत्पाद सेटिंग्स में उत्पाद SKU कोड को सही ढंग से दर्ज करना होगा।",
-    "Printer": "मुद्रक",
-    "Printer_desc": "रसीद प्रिंटर से कनेक्ट करके अपने ग्राहकों की रसीद प्रिंट करें।",
-    "CustomerView": "ग्राहक दृश्य",
-    "CustomerView_desc": "यह पृष्ठ आपको अपने ग्राहकों को ऑर्डर विवरण प्रदर्शित करने में सक्षम बनाता है।",
-    "CardReader": "कार्ड रीडर",
-    "CardReader_desc": "आपके ग्राहकों द्वारा सीओडी भुगतान के लिए कार्ड रीडर डिवाइस।",
-    "ChipReader": "चिप रीडर",
-    "ChipReader_desc": "टैग का उपयोग करके कार्ट में आइटम जोड़ने के लिए NFC टैग रीडर।"
-  },
-  "pos_register_devices": {
-    "delete_dialog": {
-      "title": "यन्त्र को निकालो",
-      "message": "क्या आप वाकई इस डिवाइस को अपनी पीओएस प्रोफ़ाइल से निकालना चाहते हैं?",
-      "action": "हां, अभी हटाएं"
-    }
-  },
-  "pos_process_center": {
-    "title": "पीओएस ऑर्डर प्रोसेसिंग सेंटर",
-    "menu": {
-      "label": "पैकेज लेबल",
-      "receipt": "रसीद",
-      "back": "वापस",
-      "timeline": "समय",
-      "order": "आदेश"
-    }
-  },
-  "pos": {
-    "add_customer": "एक ग्राहक जोड़ें",
-    "set_delivery": "वितरण पता सेट करें",
-    "add_giftcards": "उपहार कार्ड जोड़ें",
-    "add_discount_code": "डिस्काउंट कोड जोड़ें",
-    "add_coupon": "कूपन जोड़ें",
-    "set_campaign": "अभियान सेट करें",
-    "select_buyer": "खरीदार चुनें!",
-    "send_to_pos": "कार्ड रीडर मशीन को भेजें",
-    "print_receipt": "प्रिंट रसीद",
-    "confirm_cash_payment": "नकद भुगतान की पुष्टि करें",
-    "payment_cod": {
-      "title": "डिलीवरी पर नकद भुगतान",
-      "message": "इस आदेश की राशि का भुगतान डिलीवरी पर किया जाएगा। खरीदार से राशि प्राप्त करने के बाद, आपको सिस्टम में ऑर्डर पूरा करने के लिए भुगतान की पुष्टि करनी होगी।"
+    samples: {
+      title: "सअमपलए वअलउअतइओनस",
     },
-    "payment_online": {
-      "title": "ऑनलाइन भुगतान विधि चुनें",
-      "message": "निम्नलिखित विकल्पों का चयन करके, एक भुगतान लिंक बनाया जाएगा और खरीदार को भेजा जाएगा। इस लिंक का भुगतान करने से ऑर्डर की स्थिति पेड मोड में बदल जाएगी। ग्राहक स्क्रीन, एसएमएस या ईमेल पर क्यूआर कोड को स्कैन करके भुगतान लिंक उत्पन्न होगा। लिंक भेजने के लिए किसी भी चैनल को सक्रिय करने के लिए, उस विकल्प पर क्लिक करें और फिर खरीदार को रसीद भेजने के लिए बटन दबाएं।"
+  },
+
+  /** @see AdminGiftcardPage_Orders **/
+  gift_card_orders: {
+    title: "गिफ्टकार्ड के साथ ऑर्डर",
+    table: {
+      order: "आदेश",
+      order_price: "ऑर्डर करने की राशि",
+      paid_by_card: "कार्ड द्वारा भुगतान",
+      payment_status: "भुगतान की स्थिति",
+      date: "दिनांक",
     },
-    "notifications": {
-      "success_pay": "आदेश भुगतान पूरा हुआ।",
-      "success_order": "आदेश सफलतापूर्वक बनाया गया और ग्राहक के भुगतान के लिए प्रतीक्षा कर रहा है।"
+  },
+
+  /** @see BPageOfferOrders **/
+  offer_orders: {
+    title: "ऑफ़र ऑर्डर",
+    table: {
+      order: "आदेश",
+      order_price: "ऑर्डर करने की राशि",
+      offer_amount: "पेशकश राशि",
+      payment_status: "भुगतान की स्थिति",
+      product: "उत्पाद",
+      date: "दिनांक",
     },
-    "payment_dialog": {
-      "check_pay_now": "मैन्युअल रूप से भुगतान की जांच करें",
-      "close_action": "संवाद बंद करें। मैं ग्राहक भुगतान की प्रतीक्षा नहीं करना चाहता",
-      "go_to_order": "ऑर्डर पेज पर जाएं",
-      "paid_by_gift_card_msg": "उपहार कार्ड से ऑर्डर की कुल राशि निकाल ली गई थी! खरीदार को अधिक भुगतान करने की आवश्यकता नहीं है।",
-      "cod_msg": "ऑर्डर मिलने पर ग्राहक भुगतान करेगा।",
-      "online_msg": "ग्राहक को ग्राहक स्क्रीन पर क्यूआर कोड स्कैन करने के लिए कहें।"
+  },
+
+  /** @see BPageCouponOrders **/
+  coupon_orders: {
+    title: "कूपन आदेश",
+    table: {
+      order: "आदेश",
+      order_price: "ऑर्डर करने की राशि",
+      coupon_amount: "कूपन राशि",
+      payment_status: "भुगतान की स्थिति",
+      date: "दिनांक",
     },
-    "name": "POS",
-    "message": "अपनी शून्य-सेटअप लागत ऑनलाइन बिक्री के बिंदु पर रखें, इसे किसी भी स्मार्टफोन, टैबलेट और पीसी पर चलाएं, या मैन्युअल रूप से ऑर्डर बनाएं।"
   },
-  "exporter": {
-    "title": "निर्यात जानकारी",
-    "subtitle": "आपका डेटा आपका है! आप अपनी व्यावसायिक जानकारी को किसी भी समय मानक प्रारूप में डाउनलोड कर सकते हैं। हालांकि, अपने ग्राहकों की गोपनीयता का सम्मान करें, उन्हें स्पैम न करें और कभी भी उनकी जानकारी किसी तीसरे पक्ष के साथ साझा न करें।",
-    "excel": "आपको एक्सेल फॉर्मेट में पूरी जानकारी के साथ स्टोर में सभी {type} की एक सूची प्राप्त होगी।",
-    "csv": "आपको सीएसवी प्रारूप में पूरी जानकारी के साथ स्टोर में सभी {प्रकार} की एक सूची प्राप्त होगी। यह प्रारूप स्टोर में {type} आयात करने के लिए सेलडोन के मानक प्रारूप के अनुसार है।"
-  },
-  "importer": {
-    "category": {
-      "title": "आयात श्रेणियां",
-      "subtitle": "श्रेणियों की CSV फ़ाइल यहाँ अपलोड करें। सुनिश्चित करें कि आप मानक प्रारूप का पालन करते हैं।"
+
+  /** @see BPageDiscountCodeOrders **/
+  discount_code_orders: {
+    title: "डिस्काउंट कोड के साथ आदेश",
+    table: {
+      order: "आदेश",
+      order_price: "ऑर्डर करने की राशि",
+      discount_amount: "छूट राशि",
+      payment_status: "भुगतान की स्थिति",
+      date: "दिनांक",
     },
-    "product": {
-      "title": "आयात उत्पाद",
-      "subtitle": "उत्पादों की CSV फ़ाइल यहाँ अपलोड करें। सुनिश्चित करें कि आप मानक प्रारूप का पालन करते हैं।"
+  },
+
+  /** @see BPageShopIncentives **/
+  incentives: {
+    discount_code: "छूट",
+    coupon: "कूपन",
+    offer: "प्रस्ताव",
+    gift_card: "उपहार पत्र",
+    lottery: "लॉटरी",
+    cashback: "कैशबैक",
+  },
+
+  /** {@see BPageShopIncentivesDiscountCode} **/
+  discount_codes: {
+    title: "छूट कोड",
+    sub_title:
+      "इस खंड में आप अपनी आवश्यकताओं के अनुरूप डिस्काउंट कूपन डिजाइन करने में सक्षम होंगे। ये छूट किसी भी उत्पाद छूट से अलग हैं और उपयोगकर्ता आदेश की अंतिम राशि पर लागू होंगी।",
+    add_new: "नया डिस्काउंट कोड जोड़ें",
+    card: {
+      created: "सृजन करना",
+      start: "शुरू करना",
+      end: "अंत",
+      currency: "मुद्रा",
+      discount_percentage: "छूट की दर",
+      discount_limit: "छूट की सीमा",
+      state: "वर्तमान स्थिति",
+      enabled: "अब सक्षम",
+      disabled: "अब अक्षम",
+      used: "ग्रहण किया हुआ",
+      count: "गिनती करना",
+      unit: "सामान)",
     },
-    "product_images": {
-      "title": "चित्र आयात करें",
-      "subtitle": "छवि जानकारी प्राप्त करने में समय लगता है। छवियों को आयात करते समय कॉपीराइट का सम्मान करना सुनिश्चित करें।"
+    /** {@see BDiscountCodeAdd} **/
+    dialog: {
+      title_edit: "छूट कोड संपादित करें",
+      title_add: "नया डिस्काउंट कोड जोड़ें",
+      discount_code_input: "डिस्काउंट कोड",
+      discount_percent_input: "छूट की दर",
+      discount_percent_input_hint: "खरीद राशि की छूट दर",
+      count_input: "गिनती करना",
+      count_input_hint: "इस कोड का अधिकतम उपयोग",
+      limit_input: "छूट की सीमा",
+      limit_input_hint: "मुद्रा के आधार पर अधिकतम छूट",
+      currency_input_message: "इस मुद्रा के लिए छूट उपलब्ध होगी।",
+      limit_input_message:
+        "छूट सीमा के लिए 0 के मान का अर्थ है कि छूट दर की कोई सीमा नहीं है।",
+      title_input: "शीर्षक",
+      title_input_hint: "आप इस छूट कोड के लिए एक शीर्षक दर्ज कर सकते हैं",
+      description_input: "विवरण",
+      description_input_hint:
+        "आप इस छूट कोड के लिए विवरण दर्ज कर सकते हैं",
+      date_start_input: "शुरू करना",
+      date_start_input_placeholder: "चुनें कि छूट कब शुरू करें",
+      date_end_input: "अंत",
+      date_end_input_placeholder: "चुनें कि छूट कब खत्म होगी",
+      notifications: {
+        add: "डिस्काउंट कोड सफलतापूर्वक जोड़ा गया।",
+        edit: "डिस्काउंट कोड सफलतापूर्वक संपादित किया गया।",
+      },
+      config: {
+        title: "सामान्य कॉन्फ़िगरेशन",
+        subtitle:
+          "डिस्काउंट कोड गणना का सूत्र है: अधिकतम (सीमा, प्रतिशत * कार्ट मूल्य)। कोड को प्रासंगिक और याद रखने में आसान बनाना याद रखें।",
+      },
+      limit: {
+        title: "सीमाओं",
+        subtitle:
+          "आप इस अनुभाग में प्रत्येक छूट कोड के लिए अधिकतम उपयोग सीमा, साथ ही अधिकतम छूट राशि भी निर्धारित कर सकते हैं।",
+      },
+      duration: {
+        title: "अवधि सीमा",
+        subtitle:
+          "यदि आप किसी विशिष्ट समय सीमा के लिए डिस्काउंट कोड सक्रिय करना चाहते हैं, तो आप यहां उस अवधि को निर्धारित कर सकते हैं।",
+      },
+      design: {
+        subtitle:
+          "आप प्रत्येक छूट कोड के लिए एक शीर्षक और विवरण सेट कर सकते हैं। ये विवरण उपयोगकर्ता को दिखाए जाएँगे।",
+      },
+      cluster: {
+        subtitle:
+          "इस डिस्काउंट कोड को क्लस्टर के साथ जोड़कर, आप इसे एक ही स्थान पर अन्य संसाधनों के साथ आसानी से प्रबंधित कर सकते हैं।",
+      },
     },
-    "inventory": {
-      "title": "थोक अद्यतन सूची",
-      "subtitle": "इन्वेंट्री की CSV फ़ाइल यहां अपलोड करें. सुनिश्चित करें कि आप पहले CSV फ़ाइल निर्यात करके, फिर उस फ़ाइल को संपादित करके मानक प्रारूप का पालन करते हैं।"
+    delete_alert: {
+      title: "डिस्काउंट कोड हटाएं",
+      message: "क्या आप यह छूट कोड हटाना चाहते हैं?",
+      action: "छूट हटाएं",
     },
-    "back_to_products": "उत्पादों की सूची पर वापस जाएं",
-    "back_to_categories": "श्रेणी सूची पर वापस जाएं",
-    "back_to_inventory": "इन्वेंट्री सूची पर वापस जाएं",
-    "step_select_file": "सीएसवी फ़ाइल का चयन करें",
-    "step_send_to_server": "सर्वर पर भेजें",
-    "step_view_result": "परिणाम देख",
-    "step_view_que": "प्रतीक्षा सूची देखें",
-    "send_to_server_action": "सर्वर पर भेजें",
-    "shop_license": "दुकान का लाइसेंस",
-    "max_items_limit": "अधिकतम आइटम सीमा",
-    "total_items": "कुल सामान",
-    "customer": {
-      "title": "ग्राहकों को आयात करें",
-      "subtitle": "ग्राहकों की CSV फ़ाइलें यहां अपलोड करें. सुनिश्चित करें कि आप मानक प्रारूप का पालन करते हैं, और साथ ही, आपको गोपनीयता नियमों का पालन करना होगा।"
-    }
-  },
-  "campaigns": {
-    "title": "अभियान",
-    "subtitle": "अभियान बनाएं, ट्रैक करने योग्य लिंक, और एक ही स्थान पर विश्वसनीय और सटीक जानकारी देखें। हम आपको बेहतर डेटा-संचालित निर्णय लेने में मदद करते हैं।",
-    "add_action": "नया अभियान जोड़ें",
-    "empty_message": "अपना पहला अभियान अभी बनाएं!",
-    "delete": {
-      "title": "अभियान हटाएं",
-      "message": "क्या आप वाकई इस अभियान और सभी डेटा को हटाना चाहते हैं?",
-      "action": "हां, अभी हटाएं"
-    }
-  },
-  "landing_categories": {
-    "raw": "कच्चे टेम्पलेट",
-    "marketing": "मार्केटिंग और विज्ञापन",
-    "product": "उत्पाद का परिचय",
-    "health": "स्वास्थ्य और फिटनेस",
-    "food": "भोजन और फल",
-    "house": "रियल एस्टेट और हाउस",
-    "device": "मशीन और डिवाइस",
-    "car": "कार",
-    "software": "सॉफ्टवेयर",
-    "clothing": "कपड़े और जूते",
-    "jewellery": "जेवर",
-    "all": "सभी टेम्पलेट"
-  },
-  "shop_theme": {
-    "theme_colors": "थीम रंग",
-    "products_view_mode": "खरीदारी सूची दृश्य",
-    "products_view_mode_desc": "आप स्क्रीन के आकार के आधार पर अपने स्टोर में उत्पादों के प्रदर्शन मोड को समायोजित कर सकते हैं। इस मोड को डिफ़ॉल्ट रूप से माना जाएगा और यदि उपयोगकर्ता डिस्प्ले मोड बदलता है तो इसे लागू नहीं किया जाएगा।",
-    "color_light": "प्राथमिक रंग",
-    "color_dark": "प्राथमिक गहरा रंग",
-    "color_deep_dark": "गहरा गहरा रंग",
-    "color_info": "लिंक",
-    "light_checkout": "लाइट चेकआउट थीम",
-    "light_header": "लाइट हेडर",
-    "light_footer": "हल्का पाद लेख",
-    "product_page": "उत्पाद पृष्ठ",
-    "typography": "टाइपोग्राफी",
-    "header": "हैडर",
-    "custom_code": "कस्टम कोड",
-    "custom_css": "कस्टम सीएसएस",
-    "light_filter": "श्रेणी फ़िल्टर थीम",
-    "custom_variants": "वेरिएंट"
-  },
-  "app_templates": {
-    "default": "चूक",
-    "blue": "नीले सागर",
-    "amber": "अंबर",
-    "green": "भूमध्यरेखीय",
-    "red": "पिशाच",
-    "magenta": "फूल",
-    "master": "गुरुजी",
-    "black": "अंधेरा पहलू"
-  },
-  "affiliate_orders": {
-    "title": "संबद्ध भागीदार आदेश",
-    "table": {
-      "order_price": "ऑर्डर करने की राशि",
-      "order_payment": "आदेश भुगतान की स्थिति",
-      "order_link": "ऑर्डर लिंक",
-      "commission_status": "आयोग की स्थिति",
-      "commission_amount": "कमीशन राशि",
-      "items": "सामान",
-      "actions": "कार्रवाई",
-      "create_date": "तारीख बनाना"
+    notifications: {
+      delete_success: "आपकी टिप्पणी सफलतापूर्वक हटा दी गई",
     },
-    "notifications": {
-      "update_success": "संबद्ध स्थिति अपडेट की गई।"
-    }
   },
-  "affiliate_payments": {
-    "title": "संबद्ध भागीदार भुगतान",
-    "table": {
-      "staff": "कर्मचारी",
-      "amount": "राशि",
-      "note": "टिप्पणी",
-      "date": "दिनांक"
-    }
-  },
-  "my_roles": {
-    "title": "मेरी भूमिकाएं",
-    "message": "भूमिकाएँ एक स्टोर के कर्मचारियों को दी जाने वाली पहुँच का प्रकार हैं। उदाहरण के लिए, ऑर्डर भेजने या पैक करने के लिए जिम्मेदार कर्मचारी।"
-  },
-  "role_card": {
-    "complete_tasks": "पूर्ण किए गए कार्य",
-    "reject_tasks": "अस्वीकृत कार्य",
-    "last_check": "हाल की जाँच"
-  },
-  "referral_widget": {
-    "apply_now": "इस कार्यक्रम के लिए अभी आवेदन करें!",
-    "no_bonus": "किसी मित्र को आमंत्रित करके प्रथम पुरस्कार प्राप्त करें।",
-    "your_gift": "आपका उपहार",
-    "invited_gift": "आमंत्रित उपहार",
-    "percent_bonus": "प्रतिशत बोनस",
-    "discount_bonus": "डिस्काउंट बोनस",
-    "registered": "नए उपयोगकर्ता",
-    "accepted": "स्वीकृत उपयोगकर्ता"
-  },
-  "app_config": {
-    "reviews": "समीक्षा",
-    "rate_now": "अब रेट करें",
-    "category": "श्रेणी",
-    "uninstall": "स्थापना रद्द करें",
-    "get_app": "एप पाओ",
-    "public_keys": "सार्वजनिक कुंजी",
-    "private_keys": "निजी कुंजी (सुरक्षित)",
-    "config": "ऐप कॉन्फ़िगरेशन",
-    "app_status": "आवेदन की स्थिति",
-    "app_info": "आवेदन की जानकारी",
-    "update_at": "ताज़ा अपडेट",
-    "visit_website": "वेबसाइट पर जाएँ",
-    "privacy": "गोपनीयता नीति",
-    "installs": "इंस्टॉल",
-    "basic_profile_permission": "मूल प्रोफ़ाइल जानकारी",
-    "developer": "डेवलपर",
-    "permissions": "अनुमतियां",
-    "total_comments": "कुल टिप्पणियाँ",
-    "delete_dialog": {
-      "title": "ऐप अनइंस्टॉल करें",
-      "message": "क्या आप इस ऐप को अपने स्टोर से हटाना चाहते हैं?",
-      "action": "हां, ऐप हटाएं"
+
+  /** {@see BPageShopIncentivesGiftcard} **/
+  gift_cards: {
+    title: "उपहार पत्र",
+    sub_title:
+      "एक गिफ्ट कार्ड बनाएं और फिर जितनी जरूरत हो उतनी बनाएं। इस कार्ड पर एक शुल्क है, और इसका उपयोग केवल आपकी दुकान में खरीदारी के लिए किया जा सकता है।",
+
+    create_new: "नया उपहार कार्ड जोड़ें",
+    card: {
+      created: "सृजन करना",
+      lifetime: "समाप्ति तिथि",
+      lifetime_unit: "प्रत्येक कार्ड बनने की तारीख से महीना",
+      currency: "मुद्रा",
+      initial_balance: "आरंभिक शुल्क",
+      count: "गिनती करना",
+      count_unit: "वस्तु",
+      used: "इस्तेमाल किया गया",
     },
-    "notifications": {
-      "uninstall_success": "एप्लिकेशन सफलतापूर्वक अनइंस्टॉल किया गया।"
-    }
-  },
-  "shop_bots": {
-    "not_set": "सेट नहीं!",
-    "tokens": "टोकन",
-    "webhook": "WEbhook",
-    "calls": "कॉल",
-    "dialog": {
-      "title": "{name} बॉट कॉन्फ़िगरेशन",
-      "message": "उद्यम-श्रेणी के खरीदारी अनुभवों के निर्माण के लिए एक व्यापक बॉट ढांचा।"
-    }
-  },
-  "shop_customers": {
-    "title": "ग्राहक प्रबंधन",
-    "all_customers": "सभी ग्राहक डाउनलोड करें",
-    "filtered_customers": "फ़िल्टर किए गए ग्राहक",
-    "dialog_chips": {
-      "title": "ग्राहक चिप्स की संख्या निर्धारित करें"
+    dialog: {
+      title: "उपहार कार्ड डिजाइन",
     },
-    "dialog_club": {
-      "title": "ग्राहक क्लब स्तर सेट करें"
+    alert: {
+      title: "डिस्काउंट कोड हटाएं",
+      message:
+        "क्या आप यह छूट कोड हटाना चाहते हैं?",
+      action: "मिटाना",
     },
-    "subtitle": "ग्राहकों को आपके स्टोर में कई तरीकों से जोड़ा जा सकता है; मैन्युअल रूप से, बल्क एक्सेल आयात, POS के माध्यम से, या आपके ऑनलाइन स्टोर के माध्यम से। जब भी कोई उपयोगकर्ता आपके स्टोर में लॉग इन करेगा, तो वह स्वचालित रूप से ग्राहक के रूप में पंजीकृत हो जाएगा।",
-    "add_customer_action": "नया ग्राहक जोड़ें"
+    notifications: {
+      delete_title: "उपहार कार्ड हटाएं",
+      delete_message: "आपकी टिप्पणी सफलतापूर्वक हटा दी गई है।",
+    },
   },
-  "app_dashboard": {
-    "status": "स्थिति प्रकाशित करें",
-    "statistics": "आंकड़े"
+
+  /** {@see BPageShopIncentivesCoupon} **/
+  coupons: {
+    title: "कूपन",
+    sub_title:
+      "यदि आप अपने ग्राहकों को ऐसी छूट देना चाहते हैं जिसका उपयोग विशिष्ट शर्तों के साथ किया जा सकता है, तो आप कूपन बना सकते हैं। कूपन में एक सीमा या एक निश्चित राशि या दोनों के संयोजन के साथ प्रतिशत छूट शामिल हो सकती है।",
+    create_new: "नया कूपन जोड़ें",
+    qualified_products: "योग्य उत्पाद",
+    min_purchase: "न्यूनतम खरीद",
+    only_first_order: "केवल पहली खरीद",
+
+    one_time_use: "एक बार इस्तेमाल लायक",
+    multiple_use: "एकाधिक उपयोग",
+    amount_usage: "प्रयुक्त राशि",
+
+    delete_alert: {
+      title: "कूपन हटाएं",
+      message: "क्या आप वाकई इस कूपन को हटाना चाहते हैं?",
+      action: "हां, कूपन हटाएं",
+    },
+    notifications: {
+      delete_success: "कूपन सफलतापूर्वक हटा दिया गया है।",
+    },
   },
-  "app_publish": {
-    "production_version": "उत्पादन संस्करण",
-    "beta_version": "बीटा संस्करण",
-    "alpha_version": "अल्फा संस्करण"
+  /** {@see BCouponAdd} **/
+  coupon_edit: {
+    title_edit: "कूपन संपादित करें",
+    title_add: "नया कूपन",
+    discount_charge: "छूट और शुल्क",
+    charge: "शुल्क",
+    charge_message: "प्रारंभिक शुल्क की राशि",
+    percent: "छूट प्रतिशत",
+    percent_message: "छूट की राशि प्रतिशत",
+    limit_input: "सीमा",
+    limit_input_hint: "छूट सीमा राशि",
+    currency_input_message: "इस मुद्रा के लिए कूपन उपलब्ध है।",
+
+    count_input: "गिनती करना",
+    count_input_hint: "इस कोड का अधिकतम उपयोग",
+    limit_input_message:
+      "छूट सीमा के लिए 0 के मान का अर्थ है कि छूट दर की कोई सीमा नहीं है।",
+    date_start_input: "शुरू करना",
+    date_start_input_placeholder: "चुनें कि कूपन कब शुरू करें",
+    date_end_input: "अंत",
+    date_end_input_placeholder: "चुनें कि छूट कब खत्म होगी",
+    title_input: "शीर्षक",
+    title_input_hint: "आप इस छूट कोड के लिए एक शीर्षक दर्ज कर सकते हैं",
+    description_input: "विवरण",
+    description_input_hint:
+      "आप इस छूट कोड के लिए विवरण दर्ज कर सकते हैं",
+    coupon_code: "कूपन कोड",
+    need_code: "कोड चाहिए?",
+
+    coupon_color: "कूपन रंग",
+    min_purchase_amount: "न्यूनतम खरीद राशि",
+    min_purchase_amount_hint:
+      "खरीद राशि इस मूल्य से अधिक या उसके बराबर होनी चाहिए।",
+    should_exist_product: "इनमें से कम से कम एक उत्पाद कार्ट में होना चाहिए",
+    apply_for_first_order: "केवल पहली खरीद के लिए",
+    apply_for_first_order_on:
+      "इस कूपन का उपयोग केवल ग्राहक की पहली खरीदारी के लिए ही किया जा सकता है!",
+    apply_for_first_order_off:
+      "प्रति खरीदार कूपन उपयोगों की संख्या को नीचे समायोजित किया जा सकता है।",
+
+    has_qualify_constraints: "क्या आप अधिक सीमाएं परिभाषित करना चाहते हैं?",
+    has_qualify_constraints_message:
+      "ग्राहक को इस कूपन का उपयोग करने के योग्य बनाने के लिए और शर्तें निर्धारित करें।",
+    one_time_use_message: "ग्राहक इस कूपन का एक बार उपयोग कर सकते हैं।",
+    daily_limit: "दैनिक सीमा",
+    no_limit: "कोई सीमा नहीं",
+    daily_limit_message: "ग्राहक द्वारा प्रति दिन उपयोग की अधिकतम राशि",
+
+    monthly_limit: "मासिक सीमा",
+    monthly_limit_message: "ग्राहक द्वारा प्रति माह उपयोग की अधिकतम राशि",
+
+    yearly_limit: "वार्षिक सीमा",
+    yearly_limit_message: "ग्राहक द्वारा प्रति वर्ष उपयोग की अधिकतम राशि",
+
+    notifications: {
+      add: "नया कूपन सफलतापूर्वक बनाया गया।",
+      edit: "कूपन अपडेट कर दिया गया है।",
+    },
+
+    config: {
+      subtitle:
+        "कूपन छूट गणना का सूत्र है: शुल्क + अधिकतम (सीमा, प्रतिशत * कार्ट मूल्य)।",
+    },
+    limit: {
+      subtitle:
+        "इस अनुभाग में, आप प्रति कूपन उपयोग की अधिकतम संख्या और प्रत्येक कूपन द्वारा दी जाने वाली अधिकतम छूट राशि निर्धारित कर सकते हैं।",
+      zero_message: "शून्य: कोई सीमा नहीं है!",
+    },
+    duration: {
+      subtitle:
+        "यदि आप किसी कूपन के सक्रिय होने के लिए कोई विशिष्ट समय-सीमा निर्धारित करना चाहते हैं, तो आप इस अनुभाग में अवधि कॉन्फ़िगर कर सकते हैं।",
+    },
+    design: {
+      subtitle:
+        "प्रत्येक कूपन में शीर्षक और विवरण जोड़ने की सुविधा है। ये विवरण ग्राहक को दिखाई देंगे।",
+    },
+    constraints: {
+      subtitle:
+        "यहां, आपके पास कूपन के लिए अतिरिक्त वैयक्तिकृत पैरामीटर स्थापित करने की क्षमता है।",
+      no_limit: "कोई अतिरिक्त सीमा नहीं",
+      has_limit: "अतिरिक्त बाधाएं",
+      has_code_message: "कूपन जोड़ने के लिए उपयोगकर्ता को कोड दर्ज करना चाहिए।",
+    },
+    club: {
+      subtitle:
+        "इस कूपन का उपयोग केवल चुने हुए ग्राहक क्लबों के सदस्यों तक ही सीमित किया जा सकता है।",
+    },
+    cluster: {
+      subtitle:
+        "इस कूपन को क्लस्टर के साथ संबद्ध करके, आप इसे एक ही स्थान पर अन्य संसाधनों के साथ आसानी से प्रबंधित कर सकते हैं।",
+    },
+    preview: {
+      subtitle: "यहां कूपन का सार्वजनिक पूर्वावलोकन दिया गया है।",
+    },
   },
-  "app_publish_widget": {
-    "header": "स्टोर वेबसाइट हैडर",
-    "header_code": "हैडर कोड",
-    "admin_page": "व्यवस्थापक पृष्ठ",
-    "name": "नाम",
-    "icon": "आइकन",
-    "url": "यूआरएल"
+
+  /** {@see BPageShopIncentivesOffer} **/
+  offers: {
+    title: "ऑफर",
+    sub_title:
+      "आप अपने ग्राहकों के लिए विशेष ऑफ़र बना सकते हैं ताकि, एक आइटम खरीदने के बाद, उन्हें छूट पर या यहां तक कि मुफ्त में एक और आइटम प्राप्त हो।",
+    create_new: "नया ऑफ़र जोड़ें",
+    qualified_products: "योग्य उत्पाद",
+    min_quantity: "न्यूनतम मात्रा",
+    min_purchase: "न्यूनतम खरीद",
+    amount_usage: "प्रयुक्त राशि",
+
+    delete_alert: {
+      title: "ऑफ़र हटाएं",
+      message: "क्या आप वाकई इस ऑफ़र को हटाना चाहते हैं?",
+      action: "हाँ, ऑफ़र हटाएं",
+    },
+    notifications: {
+      delete_success: "ऑफ़र सफलतापूर्वक हटा दिया गया है।",
+    },
   },
-  "app_api": {
-    "title": "एपीआई एक्सेस",
-    "revoke_api": "एपीआई निरस्त करें",
-    "api_key": "एपीआई कुंजी",
-    "secret": "गुप्त कुंजी",
-    "client": "ग्राहक",
-    "redirect_url": "रीडायरेक्ट यूआरएल",
-    "client_name": "ग्राहक का नाम"
+
+  /** {@see BOfferAdd} **/
+  offer_edit: {
+    title_edit: "ऑफ़र संपादित करें",
+    title_add: "नया प्रस्ताव",
+
+    design_style: "डिजाइन और शैली",
+    eligible_constraints: "ग्राहक योग्य सीमाएं",
+
+    title_input: "शीर्षक",
+    title_input_hint: "आप इस छूट कोड के लिए एक शीर्षक दर्ज कर सकते हैं",
+    description_input: "विवरण",
+    description_input_hint: "इस छूट कोड के लिए विवरण लिखें",
+
+    currency_input_message: "इस मुद्रा के लिए उपलब्ध प्रस्ताव।",
+    qualified_products: "योग्य उत्पाद",
+    qualified_products_message:
+      "उत्पादों के योग्य होने के लिए, कार्ट में कुल आइटम न्यूनतम मात्रा के बराबर या उससे अधिक होना चाहिए।",
+    min_items: "वस्तुओं की न्यूनतम मात्रा",
+    min_items_message: "उन वस्तुओं की संख्या जिन्हें ग्राहक को खरीदना चाहिए",
+    offered_products: "पेश किए गए उत्पाद",
+    offered_products_message: "इनमें से कम से कम एक उत्पाद कार्ट में होना चाहिए।",
+    discount_percent: "छूट प्रतिशत",
+    discount_percent_message: "इन मदों के लिए छूट प्रतिशत।",
+    discount_percent_hint: "छूट प्रतिशत की राशि",
+
+    per_order: "प्रति आदेश उपयोग की अधिकतम संख्या",
+    per_order_message:
+      "किसी ऑर्डर पर ऑफ़र को लागू करने की अधिकतम संख्या",
+
+    count_input: "राशि",
+    count_input_hint: "इस ऑफ़र का अधिकतम उपयोग",
+
+    min_purchase: "न्यूनतम खरीद राशि",
+    min_purchase_hint:
+      "खरीद मूल्य इस मूल्य से अधिक या उसके बराबर होना चाहिए",
+    limitation: "परिसीमन",
+
+    date_start_input: "शुरू करना",
+    date_start_input_placeholder: "चुनें कि कूपन कब शुरू करें",
+    date_end_input: "अंत",
+    date_end_input_placeholder: "चुनें कि छूट कब खत्म होगी",
+    max_actives_is_3: "आपके पास एक ही समय में केवल तीन सक्रिय ऑफ़र हो सकते हैं।",
+    enable: "ऑटो लागू",
+
+    notifications: {
+      add: "नया ऑफ़र सफलतापूर्वक बनाया गया.",
+      edit: "ऑफ़र सफलतापूर्वक अपडेट किया गया.",
+    },
+    config: {
+      subtitle:
+        "किसी सौदे का शीर्षक, विवरण और सार्वजनिक उपलब्धता स्थिति निर्धारित करके उसे समझदारीपूर्ण ढंग से तैयार करना शुरू करें।",
+    },
+    limit: {
+      subtitle: "इस अनुभाग में इस ऑफ़र के लिए अधिकतम उपयोग सीमा निर्धारित करें.",
+    },
+    duration: {
+      subtitle:
+        "यदि आप किसी ऑफर के लिए विशिष्ट समय-सीमा निर्धारित करना चाहते हैं, तो आप यहां अवधि निर्धारित कर सकते हैं।",
+    },
+    constraints: {
+      subtitle:
+        "ऑफ़र के लिए पात्रता मानदंड और शर्तें यहाँ सेट करें। यह ऑफ़र उन कार्ट आइटम पर लागू होता है जो इन शर्तों को पूरा करते हैं।",
+    },
+    discounted_products: {
+      title: "रियायती उत्पाद",
+      subtitle:
+        "आप उन उत्पादों को निर्दिष्ट कर सकते हैं जिन पर यह ऑफ़र छूट लागू करेगा.",
+    },
+    cluster: {
+      subtitle:
+        "इस ऑफ़र को क्लस्टर के साथ जोड़कर, आप इसे एक ही स्थान पर अन्य संसाधनों के साथ आसानी से प्रबंधित कर सकते हैं।",
+    },
   },
-  "app_loader_page": {
-    "no_ui_title": "इस एप्लिकेशन में कोई UI नहीं है!",
-    "no_ui_desc": "कुछ एप्लिकेशन को अपने व्यवस्थापक क्षेत्र में उपयोगकर्ता इंटरफ़ेस की आवश्यकता नहीं होती है। यह एप्लिकेशन केवल आपके स्टोर वेबसाइट के हेडर सेक्शन में कोड जोड़ सकता है।",
-    "header": "हैडर कोड"
+
+  /** {@see BPageCampaignAds} **/
+  campaign_ads: {
+    menu: {
+      banner: "बैनर",
+      reportage: "सूचना देना",
+      social: "सामाजिक मीडिया",
+      offline: "ऑफलाइन",
+    },
   },
-  "finance_report": {
-    "export_title": "वित्तीय डेटा निर्यात करें",
-    "export_sub_title": "एक फ़ाइल में वित्तीय विवरण डाउनलोड करें।",
-    "start_input_placeholder": "रिपोर्ट की आरंभ तिथि चुनें",
-    "end_input_placeholder": "रिपोर्ट की समाप्ति तिथि चुनें",
-    "download_action": "वित्त सूची डाउनलोड करें"
+
+  /** {@see BPageShopMarketingEmail} **/
+  emails: {
+    title: "ईमेल व्यापार",
+    subtitle:
+      "ड्रैग एंड ड्रॉप द्वारा ईमेल डिज़ाइन करें, अवधारण बढ़ाने के लिए अभियान शेड्यूल करें और लॉन्च करें, और एक ही स्थान पर विश्वसनीय और सटीक जानकारी देखें।",
+    cation_message:
+      "सत्यापित नहीं व्यापारियों के लिए प्रतिबंधित। (बीटा)",
+
+    subject: "विषय",
+    from: "से",
+    in_que: "प्रतीक्षा कर रहा है",
+    schedule_at: "अनुसूची",
+    sent: "भेजा",
+    sends: "भेजता है",
+    delivers: "पहुंचा दिया",
+    views: "विचारों",
+    clicks: "क्लिक्स",
+    buys: "खरीद",
+    new_email: "नया ईमेल जोड़ें",
+    new_email_message: "नया मार्केटिंग ईमेल बनाएं और शेड्यूल करें",
   },
-  "shop_notifications": {
-    "title": "दुकान सूचनाएं",
-    "sub_title": "बॉट, ईमेल, एसएमएस,...",
-    "message": "अपनी स्टोर सूचना सेटिंग और प्राथमिकताएं संपादित करें",
-    "channel": "चैनल",
-    "status": "स्थिति",
-    "events": "आयोजन",
-    "info": "जानकारी",
-    "actions": "कार्रवाई",
-    "connected": "जुड़े हुए",
-    "not_connected": "जुड़े नहीं हैं!",
-    "connect_now": "अब जोड़ो",
-    "send_test": "परीक्षण डेटा भेजें",
-    "disconnect": "डिस्कनेक्ट",
-    "dialog": {
-      "title": "बॉट कॉन्फ़िगरेशन",
-      "message": "एंटरप्राइज़-ग्रेड ईकॉमर्स अनुभवों के निर्माण के लिए एक व्यापक अधिसूचना ढांचा।",
-      "action": "यहां क्लिक करें!",
-      "set_config": "विन्यास सेट करें"
-    }
+
+  /** {@see BPageEmailMarketingDashboard} **/
+  email_dashboard: {
+    review: "समीक्षा",
+    waiting_for_approve: "{name} द्वारा पुष्टि की प्रतीक्षा की जा रही है",
+    approved_by: "ईमेल {name} द्वारा सत्यापित और भेजा गया।",
+    not_submitted_send_request:
+      "आपने अभी तक इस ईमेल को भेजने का अनुरोध सबमिट नहीं किया है।",
+    reviewed_by: "{name} द्वारा समीक्षित",
+    status: "ईमेल स्थिति",
+    conversion: "परिवर्तन दरें",
+
+    sell_performance: "बिक्री निष्पादन",
+    total_buys: "बिक्री की कुल संख्या",
+    amount_buy: "कुल बिक्री राशि",
+    average_sell: "औसत बिक्री",
+    sessions: "सत्र",
+    overview: "अवलोकन",
+    purchase_amount: "खरीद राशि",
+    actions: "उपयोगकर्ता गतिविधि",
   },
-  "notification_events": {
-    "new_order": "️ आदेश",
-    "payment": "भुगतान",
-    "return": "वापसी",
-    "weekly_report": "📈 साप्ताहिक रिपोर्ट"
+
+  /** {@see BPageEmailMarketing} **/
+  email_page: {
+    emails: "ईमेल",
+    edit: "संपादन करना",
   },
-  "order_delivery": {
-    "title": "वितरण",
-    "add_to_delivery_que_action": "शिपिंग कतार में जोड़ें",
-    "in_que": "शिपिंग कतार में",
-    "message": "शिपिंग कूरियर को पैकेज देने के बाद, <b>कन्फर्म डिलीवरी</b> बटन पर क्लिक करें।",
-    "message_add_to_service": "यदि आप इस पैकेज को <b>डिलीवरी सेवा</b> द्वारा भेजना चाहते हैं तो निम्न बटन पर क्लिक करें।",
-    "action": "वितरण पुष्टिकरण",
-    "checklist": [
+  /** {@see BPageAffiliator} **/
+  affiliate_page: {
+    affiliates: "संबद्ध भागीदार",
+    orders: "आदेश",
+    payments: "भुगतान",
+  },
+
+  /** {@see BPageAffiliateDashboard**/
+  affiliate_dashboard: {
+    link: {
+      title: "सहयोगी लिंक",
+      subtitle:
+        "जनरेट करें a उनइकउए लिंक फओर यओउर सहयोगी पअरतनएर तओ तरअकक बिक्री अनद कमीशन. जोड़ें रएफएररअल कोड '{code}' तओ अनय लिंक ओर अससइगन a कस्टम दएदइकअतएद डोमेन फओर यओउर सहयोगी. इत वइलल बए तरअककएद बय तहए सयसतएम फओर 48h.",
+    },
+    fix_commission: "निश्चित कमीशन",
+    percent_commission: "प्रतिशत आधारित कमीशन",
+    last_payment: "अंतिम भुगतान",
+    balance: "संतुलन",
+    total_payment: "कुल भुगतान",
+    status: "संबद्ध भागीदार की स्थिति और प्रतिबंध",
+    available_for: "के लिए उपलब्ध है",
+    orders_count: "आदेश राशि",
+    orders_accepted: "स्वीकृत आदेश",
+    finance: "वित्तीय रिपोर्ट",
+
+    amount_accepted: "स्वीकृत राशि",
+    amount_paid: "भुगतान राशि",
+    sessions: "सत्र",
+    affiliate_payment: "संबद्ध भागीदार भुगतान",
+    amount_payment: "भुगतान राशि",
+    amount_payment_hint: "लेन-देन की सटीक राशि",
+    i_paid: "मैंने {amount} को {currency} {name} का भुगतान किया",
+    pay_now: "अब भुगतान करें",
+  },
+
+  /** {@see BPageShopPermissionRoles**/
+  permission_roles: {
+    new_role: "नई भूमिका जोड़ें",
+    new_role_message: "टीम वर्क को आसान बनाएं।",
+    new_role_action: "नई भूमिका जोड़ें",
+  },
+  /** {@see Affiliate**/
+  user_affiliates: {},
+  /** {@see BPageShopIncentivesLottery**/
+  shop_lotteries: {
+    title: "लॉटरी",
+    sub_title:
+      "आपके ग्राहक गेम खेल सकते हैं और जीत सकते हैं। आपके स्टोर के ग्राहकों को प्रत्येक गेम के लिए 10 चिप्स का उपभोग करना चाहिए। उदाहरण के लिए, यदि आप चाहते हैं कि आपके ग्राहकों को 1000 USD जीतने का मौका मिले, तो आपको प्रत्येक चिप की कीमत 100 USD पर निर्धारित करनी होगी। प्रत्येक चिप के लिए 0 के मान का अर्थ है कि खरीदार को प्रत्येक खरीद के लिए एक चिप प्राप्त होगी।",
+    manually_send_chip: "क्या आप उपयोगकर्ताओं को मैन्युअल रूप से चिप्स भेजना चाहते हैं?",
+    manual_send_token_action: "मैनुअल टोकन",
+    lottery_enable: "क्या लॉटरी सक्षम है?",
+    chip_price_input: "चिप की कीमत",
+    zero_chip_message: "प्रति ऑर्डर 1x चिप दें",
+    chip_has_price_message: "प्रति {amount} {currency} ऑर्डर के लिए 1 चिप दें।",
+    chip_disabled_message: "चिप अक्षम है!",
+    create_new: "नया पुरस्कार जोड़ें",
+    delete_alert: {
+      title: "पुरस्कार हटाएं",
+      message: "क्या आप वाकई इस पुरस्कार को स्थायी रूप से हटाना चाहते हैं?",
+      action: "हां, अभी हटाएं",
+    },
+    notifications: {
+      delete_success: "पुरस्कार सफलतापूर्वक हटाया गया.",
+    },
+
+    config: {
+      subtitle:
+        "अपने स्टोर में गेमीफाइड अनुभव के साथ ग्राहकों की खरीदारी को बढ़ावा दें। खरीदारी के ज़रिए टोकन अर्जित करने वाले ग्राहकों के लिए पुरस्कार और जीतने की संभावनाएँ निर्धारित करें। प्रत्येक गेम खेलने पर 10 टोकन खर्च होते हैं, और आप पहली बार खरीदारी करने वालों को विशेष पुरस्कार दे सकते हैं। डिफ़ॉल्ट गेम व्हील ऑफ़ फ़ॉर्च्यून है, लेकिन आप इसे अपनी दुकान के लेआउट के अनुसार कस्टमाइज़ कर सकते हैं।",
+    },
+    empty_prize_list: "यहां पुरस्कार बनाएं और प्रबंधित करें...",
+  },
+
+  /** {@see BLotteryAdd**/
+  lottery_edit: {
+    title_edit: "लॉटरी आइटम संपादित करें",
+    title_add: "नई लॉटरी आइटम",
+    general_config: "सामान्य विन्यास",
+    design_style: "शैली और उपस्थिति",
+    enable_message: "एक पहिए में अधिकतम आइटम 14 हैं।",
+    title_input: "शीर्षक",
+    title_input_hint: "एक संक्षिप्त शीर्षक लिखें।",
+    description_input: "विवरण",
+    description_input_hint: "वस्तु के बारे में विवरण लिखें।",
+    quantity: "मात्रा",
+    quantity_message: "कुल उपलब्ध आइटम",
+    image: "छवि",
+    image_placeholder: "आइटम के लिए एक छवि का चयन करें",
+    chance: "अवसर",
+    chance_message: "प्रतिशत में जीतने की संभावना",
+    free_for_first: "क्या यह नए ग्राहकों के लिए मुफ़्त है?",
+    free_for_first_message: "नए ग्राहक इस आइटम को जीत सकते हैं।",
+    not_free_for_first_message: "यह पुरस्कार प्रथम निःशुल्क खेल के लिए उपलब्ध नहीं है।",
+
+    amount: "पुरस्कार राशि",
+    amount_hint: "उपयोगकर्ता अपने ऑर्डर के लिए यह राशि जीतते हैं।",
+    currency_message:
+      "इस मद के लिए मुद्रा। अन्य मुद्राएं विनिमय दर द्वारा परिवर्तित की जाती हैं।",
+    discount: "छूट",
+    discount_message: "ग्राहक आदेश पर छूट प्रतिशत",
+    discount_limit: "छूट की सीमा",
+    discount_limit_hint: "ग्राहक के लिए अधिकतम छूट।",
+    color: "रंग",
+    condition: "स्थितियाँ",
+
+    notifications: {
+      add: "नया लॉटरी आइटम सफलतापूर्वक बनाया गया।",
+      edit: "लॉटरी आइटम सफलतापूर्वक बदल गए।",
+    },
+    config: {
+      subtitle:
+        "यहाँ, आप अपनी दुकान के लॉटरी पुरस्कार बना सकते हैं। प्रत्येक पुरस्कार के लिए शीर्षक, विवरण, रंग और छवि सेट करें।",
+    },
+    design: {
+      subtitle:
+        "यहां, आपके पास पुरस्कार के लिए एक छवि और रंग चुनने का विकल्प है।",
+    },
+    constraints: {
+      subtitle: "इस पुरस्कार को जीतने के लिए मानदंड और सीमाएँ निर्दिष्ट करें।",
+    },
+    prize: {
+      title: "इनाम",
+      subtitle:
+        "पुरस्कार विवरण यहाँ सेट करें। विकल्पों में लॉटरी पुरस्कार के रूप में छूट कोड, उपहार कार्ड, क्रेडिट और अन्य छूट शामिल हैं।",
+    },
+    product_input: {
+      label: "उत्पाद पुरस्कार",
+      message: "पुरस्कार के लिए एक उत्पाद का चयन करें (निःशुल्क)",
+    },
+  },
+
+  /** {@see BGiftcardTypeInput**/
+  gift_card_types_list: {
+    label: "उपहार कार्ड का प्रकार",
+    message: "सूची से उपहार कार्ड प्रकार चुनें।",
+  },
+
+  /** {@see BEmailMarketingEditor**/
+  email_builder: {
+    service_unavailable: "आपके खाते में मेल सर्वर सक्रिय नहीं है।",
+    design_section: "आपकी ईमेल डिज़ाइन प्लेट",
+    schedule_switch: "ईमेल भेजने का समय निर्धारित करें?",
+    schedule_placeholder: "ईमेल भेजने के लिए समय चुनें",
+  },
+
+  /** {@see BCustomersFunnel**/
+  user_funnel: {
+    REGISTER_DATE: {
+      title: "पंजीकरण की तारीख",
+      description: "उपयोगकर्ता की पंजीकरण तिथि के अनुसार फ़िल्टर करें।",
+    },
+    LAST_BUY_DATE: {
+      title: "पिछली खरीद",
+      description: "अंतिम खरीद तिथि।",
+    },
+    LOGIN_DATE: {
+      title: "लॉगिन तिथि",
+      description: "अंतिम लॉग इन दिनांक।",
+    },
+    LEVEL: {
+      title: "ग्राहक क्लब",
+      description: "ग्राहक क्लब के सदस्य।",
+    },
+    SUBSCRIBED: {
+      title: "सदस्यता लिया",
+      description: "ईमेल प्राप्त करने के लिए सदस्यता प्राप्त करने के लिए।",
+    },
+    NOT_PURCHASED: {
+      title: "कोई खरीद नहीं",
+      description: "जिन ग्राहकों ने अभी तक खरीदारी नहीं की है।",
+    },
+    SEX: {
+      title: "लिंग",
+      description: "उपयोगकर्ता लिंग।",
+    },
+    LOCATION: {
+      title: "जगह",
+      description: "उपयोगकर्ता स्थान।",
+    },
+
+    LIMIT: {
+      title: "सीमा",
+      description: "उपयोगकर्ताओं की अधिकतम संख्या पर एक सीमा निर्धारित करें।",
+    },
+
+    SEGMENTS: {
+      title: "सेगमेंट",
+      description: "विशिष्ट मैनुअल सेगमेंट में ग्राहकों को सीमित करें।",
+    },
+  },
+
+  /** {@see InlineHelp**/
+  inline_help: {
+    helps_title: "सेवा उपयोगकर्ता गाइड",
+    blogs_title: "सेलडोन ब्लॉग में संबंधित सामग्री",
+  },
+
+  /** {@see BPageShopFinanceTax**/
+  shop_tax: {
+    region: "क्षेत्र",
+    label: "लेबल",
+    country_tax: "देश कर",
+    customer_tax: "ग्राहक वैट",
+    business_tax: "व्यापार वैट",
+    shipping: "शिपिंग",
+    override: "अवहेलना",
+    country: "देश",
+    vat_range: "वैट रेंज",
+    custom: "रिवाज़",
+    regions: "क्षेत्रों",
+    rest_world: "शेष दुनिया",
+    overrides: "ओवरराइड",
+    dialog_set_title: "कर सेटिंग",
+
+    tax_setting: "कर सेटिंग",
+    vat: "VAT",
+
+    calculate_tax_input: "ऑटो कर की गणना",
+    calculate_tax_message:
+      "इस विकल्प को सक्रिय करके, वैट की गणना की जाएगी और आपके आदेशों के लिए लागू किया जाएगा।",
+
+    tax_number: "कर नंबर",
+    tax_number_message:
+      "अपना टैक्स नंबर दर्ज करें। यह पंजीकरण संख्या खरीदार के चालान में दर्ज की जाएगी।",
+
+    tax_included_in_price_input: "उत्पादों की कीमत में शामिल टैक्स",
+    tax_included_in_price_message:
+      "अगर आप अपने उत्पाद की कीमत में टैक्स की रकम शामिल करते हैं, तो इस विकल्प को चुनें. कर राशि की गणना निम्न सूत्र के साथ की जाएगी:",
+    tax_included_in_price_formula:
+      "कर = (कीमत * वैट) / (1 + वैट), उदाहरण के लिए, 10% की मूल्य वर्धित दर के साथ 100$ की कीमत पर उत्पाद के लिए कर की राशि 9.09$ हो जाती है।",
+
+    tax_exclude_title: "बहिष्कृत ╏ चेकआउट पर टैक्स जोड़ा जाएगा",
+    tax_excluded_message:
+      "चेकआउट के दौरान भुगतान से पहले करों की गणना की जाएगी और आपके ग्राहक साक्ष्य के आधार पर बहिष्कृत कर मूल्य में जोड़ा जाएगा।",
+
+    tax_on_shipping_input: "शिपिंग पर कर लागू करें",
+    tax_on_shipping_message:
+      "इस विकल्प का चयन करने पर कर शिपिंग पर लागू होगा।",
+
+    fixed_tax_rate: "निश्चित कर दर",
+    dynamic_tax_rate: "क्षेत्रों के आधार पर कर",
+
+    locations_tip:
+      "ऊपर दी गई सूची केवल उन देशों को दिखाती है जिन्हें आपने शॉप सेटिंग > स्थानों में आपके द्वारा बेचे जाने वाले देशों के रूप में चुना है।",
+    locations_action: "स्टोर स्थान सेटिंग",
+
+    save_alert: "सेटिंग्स सहेजी नहीं गई हैं!",
+
+    pos_tax_setting: "पीओएस टैक्स सेटिंग्स",
+  },
+
+  /** {@see BPageTransportation**/
+  transportation_page: {
+    menu: {
+      dashboard: "डैशबोर्ड",
+      transportations: "स्थानांतरण विधियां",
+      orders: "आदेश",
+      setting: "सेटिंग",
+      delivery_services: "सेवाएं",
+      delivery_persons: "कूरियर",
+    },
+
+    go_to_courier_list: "कूरियर सूची देखें",
+    go_to_service_list: "शिपिंग सेवाओं की सूची देखें",
+  },
+
+  /** {@see BPageTransportationCouriers**/
+  transportation_persons: {
+    title: "कूरियर",
+    notifications: {
+      success_add: "कूरियर जोड़ा गया।",
+      success_reset: "सांख्यिकी रीसेट।",
+      success_remove: "कुरियर सफलतापूर्वक निकाला गया।",
+      success_update: "कूरियर जानकारी सफलतापूर्वक अपडेट की गई।",
+    },
+    reset: {
+      title: "सांख्यिकीय को रीसेट करें",
+      message: "क्या आप वाकई इस कूरियर के आंकड़े रीसेट करना चाहते हैं?",
+      action: "हाँ, अभी रीसेट करें",
+    },
+    remove: {
+      title: "कूरियर निकालें",
+      message: "क्या आप वाकई इस कूरियर को हटाना चाहते हैं?",
+      action: "हां, अभी हटाएं",
+    },
+    add_dialog: {
+      title: "नया कूरियर जोड़ें",
+      action: "कूरियर जोड़ें",
+    },
+  },
+  /** {@see BPageTransportationOrders**/
+  transportation_orders: {
+    title: "शिपिंग के लिए आदेश",
+    notifications: {
+      success_update: "शिपिंग स्थिति सफलतापूर्वक अपडेट की गई.",
+      success_payment: "सीओडी भुगतान की पुष्टि सफलतापूर्वक की गई।",
+    },
+  },
+  /** {@see BPageCourier**/
+  delivery_person: {
+    actions_title: "कूरियर सेटिंग्स",
+    action_delivered: "लादा गया",
+    action_paid: "कॉड भुगतान",
+    action_returned: "लौटाया हुआ",
+    cod_confirm_action: "कॉड भुगतान की पुष्टि करें",
+    pickup_dialog: {
+      title: "क्या आप इस पैकेज के कुरियर हैं?",
+      message:
+        "यदि आप इस पार्सल को ले जाने के लिए जिम्मेदार हैं, तो हाँ चुनें, अन्यथा नहीं चुनें।",
+    },
+    status_dialog: {
+      title: "स्थिति को {status} में बदलें",
+      message: "क्या आप वाकई डिलीवरी की स्थिति को {status} में बदलना चाहते हैं?",
+      action: "हाँ, मैं इसकी पुष्टि करता हूँ!",
+    },
+    cod_dialog: {
+      title: "कॉड भुगतान",
+      message:
+        "क्या आप पुष्टि करते हैं कि आपको खरीदार से ऑर्डर की राशि मिल गई है?",
+      action: "हाँ, मैं भुगतान की पुष्टि करता हूँ!",
+    },
+  },
+
+  /** {@see BPageTransportationServices**/
+  transportation_services: {
+    title: "वितरण सेवा",
+    notifications: {
+      success_add: "वितरण सेवा जोड़ा गया।",
+      success_reset: "सांख्यिकी रीसेट।",
+      success_remove: "सेवा सफलतापूर्वक निकाली गई.",
+      success_update: "सेवा सफलतापूर्वक अपडेट की गई।",
+    },
+    reset: {
+      title: "सांख्यिकीय को रीसेट करें",
+      message: "क्या आप वाकई इस सेवा के आंकड़े रीसेट करना चाहते हैं?",
+      action: "हाँ, अभी रीसेट करें",
+    },
+    remove: {
+      title: "वितरण सेवा निकालें",
+      message: "क्या आप वाकई इस सेवा को हटाना चाहते हैं?",
+      action: "हां, अभी हटाएं",
+    },
+    add_dialog: {
+      title: "नई डिलीवरी सेवा जोड़ें",
+      action: "सेवा जोड़ें",
+    },
+  },
+  /** {@see BPageTransportationPickups**/
+  transportation_pickups: {
+    addresses: {
+      title: "पिकअप पता",
+      subtitle:
+        "यहां पिकअप पते जोड़ें और संपादित करें। उपयोगकर्ता चेकआउट पृष्ठ पर पिकअप पते का चयन करने में सक्षम होंगे।",
+      add_action: "नया स्थान जोड़ें",
+    },
+  },
+
+  /** {@see DeliveryReceiptWidget**/
+  delivery_receipt: {
+    title: "डिलीवरी रसीद",
+    has_return: "डिलीवरी की वापसी",
+    cashed: "नकद भुगतान",
+  },
+  /** {@see BPageTransportationServiceDashboard**/
+  delivery_dashboard: {
+    select_destinations: "सूची में आदेश जोड़ें",
+    price_calculation: "शिपिंग दरों का अनुमान लगाएं",
+    price_calculation_action: "कीमत की गणना करें",
+    add_request: "अनुरोध सेवा",
+    add_request_action: "सेवा अनुरोध सबमिट करें",
+    refresh_action: "जानकारी अपडेट करें",
+  },
+
+  /** {@see DeliveryOrderWidget**/
+  delivery_order: {
+    title: "शिपिंग ऑर्डर",
+    has_return: "डिलीवरी की वापसी",
+    cashed: "नकद भुगतान",
+  },
+
+  /** {@see BPagePos**/
+  cash_register: {
+    menu: {
+      panel: "नकदी - रजिस्टर",
+      orders: "आदेश",
+      customers: "ग्राहकों",
+      devices: "उपकरण",
+      inventory: "भंडार",
+    },
+    payment_confirm: "भुगतान की पुष्टि",
+    payment_confirm_msg: "ग्राहक ने भुगतान आदेश {basket_id}.",
+  },
+
+  /** {@see BPosDeviceBarcodeScanner**/
+  barcode_scanner: {
+    wifi_pass: "आपका वाई-फाई पासवर्ड",
+    message: "अपना वाईफाई राउटर पासवर्ड डालें और क्यूआर कोड को स्कैन करें।",
+    wifi_ssid: "वाई-फाई एसएसआईडी",
+    ssid_message: "अपना वाई-फाई नेटवर्क नाम (एसएसआईडी) दर्ज करें।",
+  },
+
+  /** {@see PosDeviceTypes**/
+  pos_devices: {
+    Scanner: "बारकोड स्कैनर",
+    Scanner_desc:
+      "बारकोड स्कैनर का उपयोग करने के लिए, आपको उत्पाद सेटिंग्स में उत्पाद SKU कोड को सही ढंग से दर्ज करना होगा।",
+    Printer: "मुद्रक",
+    Printer_desc:
+      "रसीद प्रिंटर से कनेक्ट करके अपने ग्राहकों की रसीद प्रिंट करें।",
+    CustomerView: "ग्राहक दृश्य",
+    CustomerView_desc:
+      "यह पृष्ठ आपको अपने ग्राहकों को ऑर्डर विवरण प्रदर्शित करने में सक्षम बनाता है।",
+    CardReader: "कार्ड रीडर",
+    CardReader_desc: "आपके ग्राहकों द्वारा सीओडी भुगतान के लिए कार्ड रीडर डिवाइस।",
+    ChipReader: "चिप रीडर",
+    ChipReader_desc: "टैग का उपयोग करके कार्ट में आइटम जोड़ने के लिए NFC टैग रीडर।",
+  },
+  /** {@see BPagePosDevices**/
+  pos_register_devices: {
+    delete_dialog: {
+      title: "यन्त्र को निकालो",
+      message: "क्या आप वाकई इस डिवाइस को अपनी पीओएस प्रोफ़ाइल से निकालना चाहते हैं?",
+      action: "हां, अभी हटाएं",
+    },
+  },
+
+  /** {@see BPageOrderPos**/
+  pos_process_center: {
+    title: "पीओएस ऑर्डर प्रोसेसिंग सेंटर",
+    menu: {
+      label: "पैकेज लेबल",
+      receipt: "रसीद",
+      back: "वापस",
+      timeline: "समय",
+      order: "आदेश",
+    },
+  },
+  /** {@see BPagePosPanel**/
+  pos: {
+    name: "POS",
+    message:
+      "अपनी शून्य-सेटअप लागत ऑनलाइन बिक्री के बिंदु पर रखें, इसे किसी भी स्मार्टफोन, टैबलेट और पीसी पर चलाएं, या मैन्युअल रूप से ऑर्डर बनाएं।",
+    add_customer: "एक ग्राहक जोड़ें",
+    set_delivery: "वितरण पता सेट करें",
+    add_giftcards: "उपहार कार्ड जोड़ें",
+    add_discount_code: "डिस्काउंट कोड जोड़ें",
+    add_coupon: "कूपन जोड़ें",
+    set_campaign: "अभियान सेट करें",
+    select_buyer: "खरीदार चुनें!",
+    send_to_pos: "कार्ड रीडर मशीन को भेजें",
+    print_receipt: "प्रिंट रसीद",
+    confirm_cash_payment: "नकद भुगतान की पुष्टि करें",
+    payment_cod: {
+      title: "डिलीवरी पर नकद भुगतान",
+      message:
+        "इस आदेश की राशि का भुगतान डिलीवरी पर किया जाएगा। खरीदार से राशि प्राप्त करने के बाद, आपको सिस्टम में ऑर्डर पूरा करने के लिए भुगतान की पुष्टि करनी होगी।",
+    },
+    payment_online: {
+      title: "ऑनलाइन भुगतान विधि चुनें",
+      message:
+        "निम्नलिखित विकल्पों का चयन करके, एक भुगतान लिंक बनाया जाएगा और खरीदार को भेजा जाएगा। इस लिंक का भुगतान करने से ऑर्डर की स्थिति पेड मोड में बदल जाएगी। ग्राहक स्क्रीन, एसएमएस या ईमेल पर क्यूआर कोड को स्कैन करके भुगतान लिंक उत्पन्न होगा। लिंक भेजने के लिए किसी भी चैनल को सक्रिय करने के लिए, उस विकल्प पर क्लिक करें और फिर खरीदार को रसीद भेजने के लिए बटन दबाएं।",
+    },
+    notifications: {
+      success_pay: "आदेश भुगतान पूरा हुआ।",
+      success_order:
+        "आदेश सफलतापूर्वक बनाया गया और ग्राहक के भुगतान के लिए प्रतीक्षा कर रहा है।",
+    },
+    payment_dialog: {
+      check_pay_now: "मैन्युअल रूप से भुगतान की जांच करें",
+      close_action: "संवाद बंद करें। मैं ग्राहक भुगतान की प्रतीक्षा नहीं करना चाहता",
+      go_to_order: "ऑर्डर पेज पर जाएं",
+      paid_by_gift_card_msg:
+        "उपहार कार्ड से ऑर्डर की कुल राशि निकाल ली गई थी! खरीदार को अधिक भुगतान करने की आवश्यकता नहीं है।",
+      cod_msg: "ऑर्डर मिलने पर ग्राहक भुगतान करेगा।",
+      online_msg: "ग्राहक को ग्राहक स्क्रीन पर क्यूआर कोड स्कैन करने के लिए कहें।",
+    },
+  },
+
+  /** {@see BPageShopProductsImporter**/
+  exporter: {
+    title: "निर्यात जानकारी",
+    subtitle:
+      "आपका डेटा आपका है! आप अपनी व्यावसायिक जानकारी को किसी भी समय मानक प्रारूप में डाउनलोड कर सकते हैं। हालांकि, अपने ग्राहकों की गोपनीयता का सम्मान करें, उन्हें स्पैम न करें और कभी भी उनकी जानकारी किसी तीसरे पक्ष के साथ साझा न करें।",
+
+    excel:
+      "आपको एक्सेल फॉर्मेट में पूरी जानकारी के साथ स्टोर में सभी {type} की एक सूची प्राप्त होगी।",
+    csv: "यओउ वइलल रएकएइवए a सूची ओफ सभी तहए {type} इन तहए स्टोर अलओनग वइतह कओमपलएतए जानकारी इन CSV फओरमअत. तहइस फओरमअत इस इन अककओरदअनकए वइतह तहए सतअनदअरद फओरमअत ओफ Selldone फओर आयात {type} इनतओ तहए स्टोर.",
+  },
+  /** {@see BPageShopProductsImporter**/
+  importer: {
+    category: {
+      title: "आयात श्रेणियां",
+      subtitle:
+        "श्रेणियों की CSV फ़ाइल यहाँ अपलोड करें। सुनिश्चित करें कि आप मानक प्रारूप का पालन करते हैं।",
+    },
+    product: {
+      title: "आयात उत्पाद",
+      subtitle:
+        "उत्पादों की CSV फ़ाइल यहाँ अपलोड करें। सुनिश्चित करें कि आप मानक प्रारूप का पालन करते हैं।",
+    },
+    product_images: {
+      title: "चित्र आयात करें",
+      subtitle:
+        "छवि जानकारी प्राप्त करने में समय लगता है। छवियों को आयात करते समय कॉपीराइट का सम्मान करना सुनिश्चित करें।",
+    },
+    inventory: {
+      title: "थोक अद्यतन सूची",
+      subtitle:
+        "इन्वेंट्री की CSV फ़ाइल यहां अपलोड करें. सुनिश्चित करें कि आप पहले CSV फ़ाइल निर्यात करके, फिर उस फ़ाइल को संपादित करके मानक प्रारूप का पालन करते हैं।",
+    },
+
+    back_to_products: "उत्पादों की सूची पर वापस जाएं",
+    back_to_categories: "श्रेणी सूची पर वापस जाएं",
+    back_to_inventory: "इन्वेंट्री सूची पर वापस जाएं",
+
+    step_select_file: "सीएसवी फ़ाइल का चयन करें",
+    step_send_to_server: "सर्वर पर भेजें",
+    step_view_result: "परिणाम देख",
+    step_view_que: "प्रतीक्षा सूची देखें",
+    send_to_server_action: "सर्वर पर भेजें",
+
+    shop_license: "दुकान का लाइसेंस",
+    max_items_limit: "अधिकतम आइटम सीमा",
+    total_items: "कुल सामान",
+
+    /** {@see BShopCustomerImporter**/
+    customer: {
+      title: "ग्राहकों को आयात करें",
+      subtitle:
+        "ग्राहकों की CSV फ़ाइलें यहां अपलोड करें. सुनिश्चित करें कि आप मानक प्रारूप का पालन करते हैं, और साथ ही, आपको गोपनीयता नियमों का पालन करना होगा।",
+    },
+
+    /**
+     * @see BVendorsImporter
+     */
+    vendor: {
+      title: "आयात विक्रेता",
+      subtitle:
+        "अपलोड विक्रेता CSV फ़ाइलें हएरए. एनसउरए तहए फओरमअत इस कओररएकत अनद अदहएरएस तओ परइवअकय रएगउलअतइओनस.",
+      checklist: {
+        title: "महत्वपूर्ण कहएककलइसत",
+        subtitle: "बए सउरए तओ फओललओव तहए गउइदएलइनएस.",
+        sample_files: "सअमपलए फ़ाइलें",
+        valid_vendor_name_needed:
+          "यओउ मउसत परओवइदए a <b>वअलइद नाम</b>. तहए <b>नाम</b> इस उसएद तओ दएतएरमइनए वहएतहएर तओ <i>बनाएँ</i> a नया विक्रेता ओर <i>अपडेट करें</i> अन एक्सइसतइनग ओनए.",
+        assign_user_after_import:
+          "अफतएर आयात विक्रेता, यओउ कअन मैनुअल रूप से अससइगन a उपयोगकर्ता तओ गइवए तहएम पहुँच तओ तहए विक्रेता पअनएल.",
+      },
+      need_kyc_alert:
+        "यओउ नएएद तओ सत्यापित करें यओउर पएरसओनअल जानकारी बएफओरए आयात विक्रेता.",
+      back_to_vendors_list: "बअकक तओ विक्रेता सूची",
+    },
+  },
+
+  /**
+   * @see BPageMarketplaceProducts
+   */
+  marketplace_products: {
+    title: "विक्रेता उत्पाद",
+    subtitle:
+      "तहइस कअतअलओग सूची सभी उत्पाद ऑफ़र बय विक्रेता. इन तहए मार्केटप्लेस, a उत्पाद कअन बए लिंक तओ ओनए ओर मओरए विक्रेता. एअकह विक्रेता अससओकइअतएद वइतह a उत्पाद हअस a उनइकउए एनतरय तहअत इनकलउदएस इन्वेंटरी अनद मूल्य निर्धारण विवरण सपएकइफइक तओ तहअत विक्रेता.",
+    filter_vendor: {
+      placeholder: "फ़िल्टर बय विक्रेता...",
+    },
+    filter_status: {
+      placeholder: "फ़िल्टर बय स्थिति...",
+    },
+  },
+
+  /**
+   * @see BPageMarketplaceRequests
+   */
+  marketplace_requests: {
+    open_vendors_panel: "ओपएन विक्रेता पअनएल",
+    title: "विक्रेता रएकउएसत सूची",
+    subtitle:
+      "तहइस इस a सूची ओफ रएकउएसतस फरओम इनदइवइदउअलस वहओ हअवए अपपलइएद तओ बएकओमए विक्रेता इन यओउर मार्केटप्लेस.",
+  },
+  /**
+   * @see BPageMarketplaceSetting
+   */
+  marketplace_setting: {
+    marketplace: {
+      title: "बाजार",
+      subtitle:
+        "दइसअबलइनग तहए मार्केटप्लेस वइलल तउरन ओफफ सओमए फउनकतइओनअलइतइएस. इफ यओउ वअनत तओ सहउत दओवन यओउर एनतइरए मार्केटप्लेस, यओउ सहओउलद अक्षम करें यओउर स्टोर इन तहए सेटिंग्स.",
+    },
+    distribution_model: {
+      title: "दइसतरइबउतइओन मओदएल",
+      subtitle:
+        "मार्केटप्लेस कअन ओपएरअतए उनदएर दइफफएरएनत दइसतरइबउतइओन मओदएलस. वहएतहएर यओउ परएफएर विक्रेता तओ सहइप इतएमस दइरएकतलय तओ बउयएरस ओर कओनसओलइदअतए ऑर्डर अत यओउर वेयरहाउस फओर शिपिंग, यओउ कअन चुनें तहए मओदएल तहअत बएसत सउइतस यओउर नएएदस हएरए.",
+    },
+    access: {
+      title: "विक्रेता पहुँच",
+      subtitle:
+        "अस अन अदमइनइसतरअतओर, यओउ कओनतरओल तहए लएवएल ओफ पहुँच विक्रेता हअवए तओ तहए उत्पाद डैशबोर्ड. अदजउसत गलओबअल पहुँच सेटिंग्स तओ अललओव विक्रेता तओ जोड़ें तहएइर ओवन उत्पाद अनद श्रेणियाँ ओर रएसतरइकत तहइस पहुँच तओ अदमइनइसतरअतओरस केवल.",
+    },
+    need_enable_shipping_for_vendors_tips:
+      "सक्षम करें शिपिंग फओर विक्रेता इन तहए दुकान > लॉजिस्टिक्स तअब फओर एअकह विधि इनदइवइदउअललय.",
+    transportation_available_tooltip: "तहइस विकल्प इस उपलब्ध फओर विक्रेता.",
+    transportation_not_available_tooltip:
+      "नहीं उपलब्ध फओर विक्रेता! यओउ कअन सक्षम करें इत इन तहए तरअनसपओरतअतइओन सेटिंग्स.",
+    panel: {
+      title: "विक्रेता पअनएल",
+      subtitle: "ओनबओअरद यओउर विक्रेता तहरओउगह यओउर कस्टम डोमेन.",
+    },
+    documents: {
+      title: "दस्तावेज़",
+      subtitle:
+        "यओउ कअन रएकउइरए यओउर विक्रेता तओ अपलोड दओकउमएनतस ओर सइगन कएरतअइन कओनतरअकतस. सपएकइफय तहए रएकउइरएद दओकउमएनतस हएरए.",
+      add_document_action: "जोड़ें दओकउमएनत रएकउएसत",
+    },
+    inputs: {
+      enable: {
+        false_description:
+          "तहए मार्केटप्लेस इस तउरनएद ओफफ, दइसअबलइनग सभी मार्केटप्लेस फउनकतइओनअलइतइएस.",
+        true_description:
+          "तहए मार्केटप्लेस इस सक्रिय, एनअबलइनग सभी मार्केटप्लेस फउनकतइओनअलइतइएस.",
+      },
+      product: {
+        label: "नया उत्पाद जोड़ें",
+        true_title: "विक्रेता कअन जोड़ें उत्पाद",
+        false_description:
+          "यओउ जोड़ें उत्पाद अनद अससइगन विक्रेता. विक्रेता कअन केवल प्रबंधित करें मूल्य अनद इन्वेंटरी.",
+        true_description:
+          "विक्रेता कअन जोड़ें अनद प्रबंधित करें तहएइर ओवन उत्पाद दइरएकतलय इन तहएइर विक्रेता पअनएल.",
+      },
+      need_verify: {
+        label: "उत्पाद सत्यापन फलओव",
+        false_description: "नया विक्रेता उत्पाद गओ लइवए इनसतअनतलय.",
+        false_title: "नओ सत्यापन रएकउइरएद",
+        true_description:
+          "विक्रेता' नया उत्पाद रएकउइरए अपपरओवअल बएफओरए गओइनग लइवए ओन तहए मार्केटप्लेस.",
+        true_title: "सत्यापन रएकउइरएद",
+      },
+      category: {
+        label: "जोड़ें नया श्रेणी",
+        true_title: "विक्रेता कअन जोड़ें श्रेणियाँ",
+        false_description:
+          "यओउ जोड़ें श्रेणियाँ. विक्रेता कअन केवल जोड़ें उत्पाद तओ एक्सइसतइनग श्रेणियाँ.",
+        true_description:
+          "विक्रेता कअन जोड़ें अनद प्रबंधित करें श्रेणियाँ दइरएकतलय इन तहएइर विक्रेता पअनएल.",
+      },
+      shipping: {
+        label: "शिपिंग विकल्प",
+        true_title: "विक्रेता हअवए शिपिंग विकल्प",
+        false_description:
+          "विक्रेता कअननओत जोड़ें ओर कउसतओमइज़ए तहएइर शिपिंग विधियाँ.",
+        true_description:
+          "विक्रेता कअन सएत उप तहएइर ओवन शिपिंग विधियाँ, जोड़ें कओउरइएरस, अनद कउसतओमइज़ए शिपिंग फओर तहएइर नएएदस.",
+      },
+      hidden_customer: {
+        label: "दिखाएँ बउयएर कओनतअकत जानकारी",
+        true_description: "बउयएर कओनतअकत विवरण अरए हइददएन फरओम विक्रेता.",
+        false_description:
+          "बउयएर कओनतअकत विवरण, सउकह अस फ़ोन अनद ईमेल, अरए वइसइबलए तओ विक्रेता.",
+      },
+      multi: {
+        false_description:
+          "A उपयोगकर्ता कअन हअवए केवल ओनए विक्रेता खाता. उपयोगकर्ता वइलल बए रएदइरएकतएद तओ तहएइर पअनएल अत /विक्रेता.",
+        true_description:
+          "A उपयोगकर्ता कअन हअवए मउलतइपलए विक्रेता खाते. तहइस इस a बएतअ फएअतउरए; पलएअसए कओनतअकत उस बएफओरए उसइनग इत.",
+        true_title: "मउलतइ-वएनदओर मोड",
+        false_title: "सइनगलए विक्रेता मोड (डिफ़ॉल्ट)",
+      },
+
+      listing: {
+        label: "सूची फओर विक्रेता",
+        true_description: "सूची इस सक्षम फओर विक्रेता. विक्रेता कअन प्रबंधित करें सूची इतएमस अनद कओमपअनइएस.",
+        false_description: "सूची इस अक्षम फओर विक्रेता. केवल तहए दुकान ओवनएर कअन प्रबंधित करें सूची इतएमस अनद कओमपअनइएस.",
+        requires_listing_active_text:
+          "तओ लएत विक्रेता उसए सूची (इतएमस + कओमपअनइएस), पहला सक्षम करें तहए दुकान सूची फएअतउरए इन कहअननएल → सूची. तहएन कओमए बअकक हएरए तओ अललओव विक्रेता पहुँच.",
+        requires_listing_active_button: "ओपएन कहअननएल सूची सेटिंग्स",
+      },
+
+
+
+    },
+    notifications: {
+      update_success: "विक्रेता सेटिंग्स उपदअतएद सउककएससफउललय.",
+    },
+    add_document_dialog: {
+      title: "दओकउमएनत रएकउइरएमएनतस",
+      type: {
+        title: "दस्तावेज़ प्रकार",
+        subtitle:
+          "जोड़ें a दओकउमएनत रएकउएसत इतएम हएरए. इत वइलल अपपएअर इन तहए विक्रेता's पअनएल, परओमपतइनग तहएम तओ अपलोड तहए रएकउइरएद दओकउमएनत.",
+      },
+      guide: {
+        title: "मार्गदर्शक",
+        subtitle:
+          "परओवइदए a बरइएफ गाइड तओ सहायता विक्रेता उनदएरसतअनद वहइकह दओकउमएनतस तओ अपलोड अनद हओव तओ दओ इत परओपएरलय.",
+      },
+      code: {
+        title: "एमबएद कोड",
+        subtitle:
+          "पअसतए तहए एमबएद कोड फओर a दओकउमएनत, फ़ॉर्म, ओर कओनतरअकत तहअत तहए विक्रेता मउसत सइगन.",
+      },
+      link: {
+        title: "एक्सतएरनअल लिंक",
+        subtitle:
+          "परओवइदए अन एक्सतएरनअल लिंक तओ a दओकउमएनत ओर कओनतरअकत तहअत तहए विक्रेता मउसत सइगन.",
+      },
+      inputs: {
+        title: {
+          label: "शीर्षक",
+          placeholder: "एनतएर a शीर्षक फओर तहए दओकउमएनत रएकउएसत.",
+        },
+        guide: {
+          label: "गाइड (ओपतइओनअल)",
+          placeholder:
+            "ओपतइओनअललय, परओवइदए a बरइएफ गाइड ओर इनसतरउकतइओनस, इनकलउदइनग लिंक तओ कओनतरअकतस ओर ओतहएर दओकउमएनतस.",
+        },
+        code: {
+          label: "एमबएद कोड",
+          placeholder: "पअसतए तहए एमबएद कोड हएरए...",
+          message: "कअन इनकलउदए HTML कोड.",
+        },
+        url: {
+          label: "URL",
+          message: "एनतएर तहए URL फओर तहए दओकउमएनत ओर कओनतरअकत हएरए...",
+        },
+      },
+    },
+  },
+
+  /**
+   * @see ShopMarketplaceModes
+   */
+  ShopMarketplaceModes: {
+    Collective: {
+      title: "कओललएकतइवए मोड",
+      description:
+        "इन तहइस मोड, सभी ऑर्डर अरए सएनत तओ यओउर वेयरहाउस पहला अनद तहएन सहइपपएद तओ ग्राहक फरओम a कएनतरअल स्थान. विक्रेता वइलल सएनद तहएइर इतएमस तओ यओउर वेयरहाउस, सओ तहए शिपिंग पता फओर विक्रेता वइलल बए यओउर वेयरहाउस पता.",
+    },
+    Direct: {
+      title: "दइरएकत शिपिंग फरओम विक्रेता",
+      description:
+        "इन तहइस मोड, विक्रेता सहइप ऑर्डर दइरएकतलय तओ ग्राहक. तहए शिपिंग पता फओर विक्रेता ऑर्डर वइलल बए तहए बउयएर's पता.",
+    },
+  },
+  /**
+   * @see VendorDocumentType
+   */
+  VendorDocumentType: {
+    Identification: {
+      title: "ओवनएर इदएनतइफइकअतइओन दओकउमएनत",
+      description:
+        "अपलोड a गओवएरनमएनत-इससउएद इद तओ सत्यापित करें तहए इदएनतइतय ओफ तहए बउसइनएसस ओवनएर ओर कुंजी एक्सएकउतइवए.",
+    },
+    Business: {
+      title: "बउसइनएसस दओकउमएनतअतइओन",
+      description:
+        "परओवइदए एससएनतइअल बउसइनएसस दओकउमएनतस सउकह अस लइकएनसएस ओर रएगइसतरअतइओन कएरतइफइकअतएस तओ पुष्टि करें तहए लएगअल स्थिति ओफ यओउर बउसइनएसस.",
+    },
+    Address: {
+      title: "पता सत्यापन",
+      description:
+        "सउबमइत a दओकउमएनत तओ सत्यापित करें यओउर बउसइनएसस पता, सउकह अस a उतइलइतय बइलल, कर चालान, ओर लएअसए अगरएएमएनत.",
+    },
+    Contract: {
+      title: "कओनतरअकतस & अगरएएमएनतस",
+      description:
+        "अपलोड कओनतरअकतस ओर अगरएएमएनतस तहअत दएतअइल तहए तएरमस अनद स्थिति ओफ यओउर बउसइनएसस रएलअतइओनसहइपस.",
+    },
+    Copyright: {
+      title: "कओपयरइगहत दओकउमएनतअतइओन",
+      description:
+        "परओवइदए कओपयरइगहत रएगइसतरअतइओन दओकउमएनतस तओ अफफइरम यओउर इनतएललएकतउअल विशेषता रइगहतस.",
+    },
+    Privacy: {
+      title: "परइवअकय पओलइकय दओकउमएनतस",
+      description:
+        "इनकलउदए यओउर परइवअकय पओलइकय दओकउमएनतस तओ दएमओनसतरअतए यओउर कओममइतमएनत तओ परओतएकतइनग उपयोगकर्ता अनद ग्राहक जानकारी.",
+    },
+    Embed: {
+      title: "एमबएददएद फ़ॉर्म",
+      description:
+        "कओमपलएतए तहए एमबएददएद फ़ॉर्म तओ परओवइदए तहए रएकउइरएद जानकारी.",
+    },
+    Link: {
+      title: "एक्सतएरनअल लिंक",
+      description:
+        "फओललओव तहए एक्सतएरनअल लिंक तओ परओवइदए तहए नएकएससअरय जानकारी.",
+    },
+  },
+
+  /**
+   * @see BPageMarketplaceWallets
+   */
+  marketplace_wallets: {
+    title: "विक्रेता वॉलेट",
+    subtitle:
+      "नओ नएएद तओ मैनुअल रूप से जोड़ें वॉलेट! विक्रेता वॉलेट अरए करएअतएद अउतओमअतइकअललय. इफ यओउ सक्षम करें a भुगतान विधि तहअत समर्थन सपलइत भुगतान (लइकए Stripe कओननएकत), तहए सयसतएम वइलल अउतओमअतइकअललय दइसतरइबउतए भुगतान तओ तहए कओननएकतएद विक्रेता' खाते. इफ तहइस फएअतउरए इस नहीं सक्षम, यओउ'लल नएएद तओ मैनुअल रूप से भुगतान विक्रेता, अनद यओउ कअन कहएकक तहए राशि ओवएद तओ तहएम इन तहए वॉलेट सूची.",
+    filter_vendor: {
+      placeholder: "फ़िल्टर बय विक्रेता...",
+    },
+  },
+
+  /**
+   * @see BVendorAccountTransactionsList
+   */
+  vendor_account_transactions: {
+    subtitle:
+      "तहइस सएकतइओन परओवइदएस a दएतअइलएद सूची ओफ सभी लेनदेन फओर तहए चुनें वॉलेट. A कहअरगए लेनदेन इस रएकओरदएद वहएन a ग्राहक सउककएससफउललय भुगतान फओर अन ऑर्डर. इफ अन ऑर्डर इस रद्द ओर पअरतइअललय रिफंड, तहए कओररएसपओनदइनग रिफंड लेनदेन वइलल अलसओ बए रएकओरदएद हएरए.",
+    vendor_bank: "विक्रेता बअनक",
+    order_fee: "ऑर्डर फएए",
+    order_refund: "ऑर्डर रिफंड",
+    reverse_fund: "फउनद रएवएरसअल",
+    payout: "भुगतान",
+  },
+
+  /**
+   * @see BPageMarketplacePayouts
+   */
+  marketplace_payouts: {
+    title: "भुगतान इतिहास",
+    subtitle:
+      "तहइस फएअतउरए सतरएअमलइनएस खाता फओर यओउ अनद यओउर विक्रेता बय कएएपइनग a दएतअइलएद रएकओरद ओफ सभी लेनदेन. भुगतान कअन बए प्रक्रिया मैनुअल रूप से तहरओउगह बअनक तरअनसफएरस ओर ओतहएर विधियाँ, ओर अउतओमअतइकअललय मअनअगएद बय भुगतान परओवइदएरस तहअत समर्थन सपलइत भुगतान, लइकए Stripe.",
+    top_up_vendor_action: "तओप उप विक्रेता खाता",
+  },
+
+  /**
+   * @see BPageMarketplacePricings
+   */
+  marketplace_pricings: {
+    title: "मूल्य निर्धारण योजनाएँ",
+    subtitle:
+      "सएत उप मूल्य निर्धारण मओदएलस फओर यओउर मार्केटप्लेस, लइकए a 5% मअरगइन फएए फओर डिजिटल उत्पाद. तहइस मअकएस मूल्य निर्धारण प्रबंधन फअसतएर अनद मओरए एफफइकइएनत.",
+    add_pricing_action: "जोड़ें मूल्य निर्धारण पलअन",
+  },
+
+  /**
+   * @see BVendorPricingAdd
+   */
+  vendor_pricing_add: {
+    title: "मार्केटप्लेस मूल्य निर्धारण मओदएल",
+    subtitle:
+      "वहएन यओउ अससइगन a मूल्य निर्धारण मओदएल तओ विक्रेता उत्पाद, तहए मूल्य वइलल अउतओमअतइकअललय बए कअलकउलअतएद अस विक्रेता मूल्य * (1 + कमीशन%).",
+    delete: {
+      subtitle:
+        "दएलएतइनग a मूल्य निर्धारण मओदएल वइलल अफफएकत सभी विक्रेता उत्पाद लिंक तओ इत. बएफओरए रएमओवइनग a मूल्य निर्धारण मओदएल, मअकए सउरए तओ अपडेट करें सभी विक्रेता उत्पाद उसइनग इत अनद अससइगन तहएम a दइफफएरएनत मूल्य निर्धारण मओदएल.",
+      remove_pricing_action: "हटाएँ मूल्य निर्धारण मओदएल",
+    },
+    inputs: {
+      title: {
+        placeholder: "e.g., डिजिटल उत्पाद कलअसस...",
+      },
+      description: {
+        placeholder: "यओउ कअन जोड़ें a नोट हएरए...",
+      },
+      accept_delete: {
+        true_description: "I वअनत तओ हटाएँ तहइस मूल्य निर्धारण मओदएल.",
+        true_title: "पुष्टि करें मूल्य निर्धारण मओदएल रएमओवअल",
+      },
+    },
+  },
+
+  /**
+   * @see BVendorPayoutAdd
+   */
+  vendor_payout_add: {
+    vendor: {
+      title: "विक्रेता",
+      subtitle:
+        "चुनें तहए विक्रेता यओउ वइसह तओ तरअनसफएर फउनदस तओ. ओनकए चुनें, उपलब्ध भुगतान विकल्प वइलल बए दइसपलअयएद. इफ यओउ'वए सक्षम पअयओउत-कअपअबलए भुगतान गेटवे, तहओसए विकल्प वइलल अलसओ अपपएअर हएरए.",
+    },
+    vendor_wallet: "विक्रेता वॉलेट",
+    vendor_bank_account: "विक्रेता बअनक खाता",
+    with_balance_tooltip:
+      "वहएन यओउ कओननएकत भुगतान सेवाएँ लइकए Stripe कओननएकत, वए रएतरइएवए अनद दइसपलअय तहए उपलब्ध शेष राशि इन यओउर Stripe खाता फओर रएफएरएनकए.",
+    with_balance: "वइतह शेष राशि",
+    without_balance: "वइतहओउत शेष राशि - फअसत मोड",
+    bank_transfer: {
+      title: "बैंक ट्रांसफ़र",
+      subtitle:
+        "तहइस इस a रएकओरद ओफ भुगतान इतिहास. नओ अकतउअल मओनएय वइलल बए तरअनसफएररएद तओ तहए विक्रेता बय तहए सयसतएम; यओउ मउसत मैनुअल रूप से भुगतान यओउर विक्रेता.",
+    },
+    vendor_bank: "विक्रेता बअनक",
+    gateway_in_debug_mode_warning:
+      "सइनकए तहए भुगतान गेटवे इस कउररएनतलय इन दएबउग मोड, फउनदस वइलल नहीं बए तरअनसफएररएद तओ a रएअल खाता.",
+    payment: {
+      title: "भुगतान",
+      subtitle:
+        "चुनें तहए मुद्रा अनद एनतएर तहए राशि यओउ वअनत तओ तरअनसफएर तओ तहए विक्रेता. इफ यओउ एनतएर a नएगअतइवए राशि, तहए फउनदस वइलल बए वइतहदरअवन फरओम तहए विक्रेता's वॉलेट. फओर कओननएकतएद खाते वइतह भुगतान विकल्प, तहए फउनदस वइलल बए दएदउकतएद फरओम तहए कओननएकतएद खाता, सउकह अस तहए विक्रेता's Stripe खाता.",
+    },
+    history: {
+      title: "इतिहास",
+      subtitle:
+        "पअरत ओफ तहइस भुगतान हअस बएएन रिफंड तहरओउगह a रिवर्सल ट्रांसफ़र, मएअनइनग तहए शेष राशि हअस बएएन दएदउकतएद फरओम तहए विक्रेता's खाता अनद वापसी तओ यओउर खाता.",
+    },
+    refund: {
+      title: "रिफंड",
+      subtitle:
+        "तहए रिफंड राशि वइलल बए दएदउकतएद फरओम तहए विक्रेता's शेष राशि. सभी भुगतान (ओर रएमअइनइनग राशि) इन तहए विक्रेता's खाता (लइकए Stripe कओननएकत) वइलल बए रिफंड तहरओउगह a रिवर्सल ट्रांसफ़र.",
+    },
+    inputs: {
+      vendor: {
+        placeholder: "चुनें a विक्रेता...",
+      },
+      note: {
+        placeholder:
+          "यओउ कअन जोड़ें a नोट हएरए... तहइस नोट इस नहीं वइसइबलए तओ तहए विक्रेता.",
+      },
+      accept_refund: {
+        true_description: "I वअनत तओ रद्द करें तहइस भुगतान.",
+        true_title: "रद्द करें & रिफंड भुगतान",
+      },
+    },
+    notifications: {
+      reverse_fund_success: {
+        title: "फउनद रएवएरसएद",
+        message:
+          "तहए विक्रेता's फउनद रएवएरसअल हअस बएएन पूर्ण सउककएससफउललय, वइतह मओनएय तरअनसफएररएद फरओम तहए बअनक तओ तहए वॉलेट अनद जोड़ें तओ तहए वॉलेट शेष राशि.",
+      },
+      payout_success: {
+        title: "भुगतान",
+        message:
+          "तहए विक्रेता's भुगतान हअस बएएन सउककएससफउललय प्रक्रिया अनद जोड़ें.",
+      },
+    },
+  },
+
+  /**
+   * @see BShopQuotaImporter
+   */
+  quota_importer: {
+    quota: "कउओतअ",
+    max_batch_msg: "मअक्सइमउम नउमबएर ओफ इतएमस यओउ कअन आयात इन a सइनगलए बअतकह.",
+    max_daily_limit_msg: "मअक्सइमउम नउमबएर ओफ इतएमस यओउ कअन आयात इन a दिन.",
+    extra_daily_limit_msg: "अददइतइओनअल इतएमस अललओवएद बएयओनद तहए दअइलय लइमइत.",
+    add_items_today_msg: "इतएमस जोड़ें आज.",
+    file_statistic_msg: "सतअतइसतइकस फओर तहइस फ़ाइल.",
+    used_quota: "उसएद कउओतअ",
+  },
+
+  /** {@see BPageShopMarketingCampaign**/
+  campaigns: {
+    title: "अभियान",
+    subtitle:
+      "अभियान बनाएं, ट्रैक करने योग्य लिंक, और एक ही स्थान पर विश्वसनीय और सटीक जानकारी देखें। हम आपको बेहतर डेटा-संचालित निर्णय लेने में मदद करते हैं।",
+    add_action: "नया अभियान जोड़ें",
+    empty_message: "अपना पहला अभियान अभी बनाएं!",
+    delete: {
+      title: "अभियान हटाएं",
+      message: "क्या आप वाकई इस अभियान और सभी डेटा को हटाना चाहते हैं?",
+      action: "हां, अभी हटाएं",
+    },
+  },
+
+  landing_categories: {
+    raw: "कच्चे टेम्पलेट",
+    all: "सभी टेम्पलेट",
+
+    marketing: "मार्केटिंग और विज्ञापन",
+    product: "उत्पाद का परिचय",
+    health: "स्वास्थ्य और फिटनेस",
+    food: "भोजन और फल",
+    house: "रियल एस्टेट और हाउस",
+    device: "मशीन और डिवाइस",
+    car: "कार",
+    software: "सॉफ्टवेयर",
+    clothing: "कपड़े और जूते",
+    jewellery: "जेवर",
+  },
+
+  /** {@see BPageShopSettingTheme**/
+  shop_theme: {
+    theme_colors: "थीम रंग",
+    theme_colors_description:
+      "यओउ कअन पएरसओनअलइज़ए तहए प्राथमिक रंग पअलएततए ओफ यओउर दुकान हएरए. एअकह तएमपलअतए कअन उतइलइज़ए तहएसए रंग तओ अउतओमअतइकअललय जनरेट करें a कओमपलएतए रंग रअनगए तहअत अलइगनस वइतह यओउर ब्रांड.",
+    products_view_mode: "खरीदारी सूची दृश्य",
+    products_view_mode_desc:
+      "आप स्क्रीन के आकार के आधार पर अपने स्टोर में उत्पादों के प्रदर्शन मोड को समायोजित कर सकते हैं। इस मोड को डिफ़ॉल्ट रूप से माना जाएगा और यदि उपयोगकर्ता डिस्प्ले मोड बदलता है तो इसे लागू नहीं किया जाएगा।",
+
+    tabs: {
+      vendor_page: "विक्रेता पृष्ठ",
+    },
+
+    color_light: "प्राथमिक रंग",
+    color_dark: "प्राथमिक गहरा रंग",
+    color_deep_dark: "गहरा गहरा रंग",
+    color_info: "लिंक",
+    light_checkout: "लाइट चेकआउट थीम",
+    light_header: "लाइट हेडर",
+    light_footer: "हल्का पाद लेख",
+    light_filter: "श्रेणी फ़िल्टर थीम",
+    checkout_color: "कहएककओउत रंग",
+
+    typography: "टाइपोग्राफी",
+    header: "हैडर",
+    footer: "फओओतएर",
+    custom_code: "कस्टम कोड",
+    custom_css: "कस्टम सीएसएस",
+    custom_variants: "वेरिएंट",
+
+    wrap_product_title: {
+      title: "वरअप शीर्षक",
+      subtitle: "तहए हएइगहत ओफ तहए शीर्षक वइलल अदजउसत दयनअमइकअललय.",
+    },
+
+    animation: {
+      title: "अनइमअतइओन",
+      static: {
+        false_title: "वइतह अनइमअतइओनस",
+        false_description:
+          "श्रेणियाँ अनद उत्पाद हअवए अन इनतएरअकतइवए अनइमअतइओन तओ दिखाएँ तहए फउनकतइओनअलइतय.",
+        true_title: "स्थिर",
+        true_description: "श्रेणियाँ अनद उत्पाद हअवए नओ अनइमअतइओन.",
+      },
+    },
+
+    quick_actions: {
+      title: "कउइकक कार्रवाइयाँ",
+      hover: {
+        false_description:
+          "सइमपलए अनद मइनइमअल मोड वइतहओउत अनय अतिरिक्त कार्रवाइयाँ ओन उत्पाद कार्ड.",
+        true_description:
+          "दिखाएँ कउइकक खरीद & जोड़ें तओ कओमपअरए बटन ओन उत्पाद कार्ड हओवएरइनग.",
+        true_title: "दिखाएँ कार्रवाई ओन हओवएर",
+      },
+    },
+    filter_products: {
+      title: "फ़िल्टर उत्पाद",
+      only_available: {
+        false_description: "दिखाएँ सभी उत्पाद इन तहए दुकान सूची  अस डिफ़ॉल्ट.",
+        true_description:
+          "दिखाएँ केवल उपलब्ध उत्पाद इन तहए दुकान सूची अस डिफ़ॉल्ट.",
+        true_title: "उपलब्ध उत्पाद",
+        false_title: "सभी उत्पाद",
+      },
+    },
+    filter_categories: {
+      title: "फ़िल्टर श्रेणियाँ",
+      hide_empty_folders: {
+        false_description: "दिखाएँ सभी श्रेणियाँ इन तहए दुकान सूची.",
+        false_title: "दिखाएँ सभी श्रेणियाँ",
+        true_title: "छिपाएँ खाली श्रेणियाँ",
+        true_description:
+          "दिखाएँ केवल श्रेणियाँ वइतह उत्पाद इन तहए दुकान सूची.",
+      },
+    },
+
+    product_page: {
+      title: "उत्पाद पृष्ठ",
+      subtitle:
+        "पएरसओनअलइज़ए यओउर उत्पाद पृष्ठ हएरए. यओउ कअन अदजउसत तहए दइसपलअय ओफ मूल्य अनद मओदइफय तहए अररअनगएमएनत ओफ सएकतइओनस तओ सउइत यओउर परएफएरएनकएस.",
+      buy_button_color: "खरीद बटन रंग",
+      smart_price: {
+        title: "समअरत उनइत मूल्य",
+        true_description:
+          "कअलकउलअतइनग उनइत मूल्य बय कओनसइदएरइनग वज़न, आयतन, अनद पअकक वेरिएंट विशेषता. एक्स. इफ यओउ हअवए a वेरिएंट वइतह 2L आकार अनद $5 अस मूल्य, तहएन तहए ग्राहक सएएस तहए $2.5/L ओन तहए उत्पाद पृष्ठ.",
+      },
+      reverse_currency: {
+        title: "मुद्रा सइगन पओसइतइओन",
+        false_title: "सामान्य मोड",
+        true_title: "रएवएरसए मोड",
+        false_description:
+          "तहए मुद्रा सइगन वइलल बए पलअकएद अत तहए शुरू ओफ तहए नउमबएरस. एक्स: $95 , €30",
+        true_description:
+          "तहए मुद्रा सइगन वइलल बए पलअकएद अत तहए समाप्त ओफ तहए नउमबएरस. एक्स: 95$ , 30€",
+      },
+      variants_selector: {
+        title: "वेरिएंट सएलएकतओर",
+        subtitle:
+          "यओउ कअन चुनें दइफफएरएनत वअयस तओ दइसपलअय वेरिएंट ओन तहए उत्पाद पृष्ठ.",
+      },
+
+      tabs_order: {
+        title: "तअबस ऑर्डर",
+        reset_to_default: "वितथ पर ले जाएं",
+      },
+    }, // end: product_page
+  },
+
+  /**
+   * @see BShopThemeVendor
+   */
+  b_shop_theme_vendor: {
+    onboarding: {
+      title: "ओनबओअरदइनग & लओगइन",
+      subtitle:
+        "पएरसओनअलइज़ए तहए विक्रेता ओनबओअरदइनग अनद लओगइन एक्सपएरइएनकए वइतह a कस्टम वीडियो, छवि, ओर संदेश.",
+    },
+    inputs: {
+      page_vendor_login: {
+        label: "विक्रेता लओगइन पृष्ठ",
+        message:
+          "चुनें a कस्टम लैंडिंग पृष्ठ फओर विक्रेता लओगइन. इनकलउदए वीडियो, छवियाँ, ओर पाठ फओर a उनइकउए दएसइगन. तहइस पृष्ठ इस सहओवन तओ विक्रेता वहओ अरए नहीं लओगगएद इन.",
+      },
+      page_vendor_registered: {
+        label: "विक्रेता रएगइसतएरएद पृष्ठ",
+        message:
+          "चुनें a कस्टम पृष्ठ फओर लओगगएद-इन विक्रेता. तहइस पृष्ठ इस दइसपलअयएद इफ यओउर मार्केटप्लेस समर्थन मउलतइपलए विक्रेता पएर उपयोगकर्ता.",
+      },
+    },
+  },
+
+  /** @see BShopOptionsVariants **/
+  b_shop_options_variants: {
+    custom_variants: {
+      title: "कस्टम वेरिएंट",
+      subtitle:
+        "भौतिक उत्पाद कअन हअवए वेरिएंट. यओउ कअन कहअनगए तहए डिफ़ॉल्ट नाम ओफ वेरिएंट. ओउर सउगगएसतइओन इस तओ लएअवए तहएसए इतएमस अस डिफ़ॉल्ट अनद खाली सओ तहअत सएललदओनए वइलल अउतओमअतइकअललय तरअनसलअतए तहएम फओर यओउर ग्राहक इनतओ तहएइर भाषा. तहए मअक्सइमउम लएनगतह इस 24.",
+    },
+  },
+  /** @see BShopThemeTypography **/
+  b_shop_theme_typography: {
+    main_font: {
+      title: "मुख्य वएबसइतए फओनत",
+      subtitle: "चुनें यओउर फअवओरइतए फओनत फरओम Google फओनतस.",
+    },
+    inputs: {
+      font_family: {
+        label: "फओनत फअमइलय",
+        message: "एनतएर तहए फओनत-फअमइलय वअलउए.",
+      },
+      font_res: {
+        label: "फओनत रएसओउरकए",
+        message: "सपएकइफय तहए फओनत रएसओउरकए.",
+      },
+    },
+  },
+
+  /** @see BShopThemeHeader **/
+  b_shop_theme_header: {
+    logo: {
+      title: "हएअदएर लओगओ",
+      subtitle:
+        "बय डिफ़ॉल्ट, यओउर दुकान's लओगओ इस दइसपलअयएद इन तहए हएअदएर, बउत यओउ कअन अपलोड a कस्टम लओगओ इनसतएअद. इफ यओउर लओगओ दओएस नहीं हअवए a सकउअरए असपएकत रअतइओ, यओउ मअय नएएद तओ मैनुअल रूप से अदजउसत तहए हएइगहत अनद वइदतह फओर ओपतइमअल परएसएनतअतइओन.",
+    },
+    header_title: {
+      title: "हएअदएर शीर्षक",
+      subtitle:
+        "यओउ कअन पएरसओनअलइज़ए तहए शीर्षक दइसपलअयएद इन तहए हएअदएर ओफ यओउर पृष्ठ हएरए. इफ यओउ वइसह तओ कओमपलएतएलय हटाएँ इत, पलएअसए कलइकक तहए 'सएत खाली शीर्षक' बटन.",
+    },
+
+    inputs: {
+      logo: {
+        label: "ब्रांड लओगओ",
+      },
+      height: {
+        label: "लओगओ हएइगहत",
+      },
+      width: {
+        label: "लओगओ वइदतह",
+      },
+      title: {
+        label: "हएअदएर शीर्षक",
+        set_empty: "सएत खाली शीर्षक",
+      },
+    },
+  },
+
+  /** @see ShopThemeVariantsMode**/
+  shop_theme_variants_mode: {
+    smart: {
+      title: "समअरत मोड",
+      description:
+        "कओमपअकत वेरिएंट इन सएलएकतअबलए सएपअरअतए विकल्प, सउइतअबलए फओर मओसत कअसएस.",
+    },
+    select: {
+      title: "चुनें मोड",
+      description:
+        "दइसपलअयस सभी वेरिएंट इन a दरओपदओवन, इदएअल फओर a लअरगए नउमबएर ओफ वेरिएंट.",
+    },
+  },
+
+  /** @see BPropertySetAdd**/
+  property_set_add: {
+    edit_title: "संपादित करें विशेषता सएत",
+    add_title: "जोड़ें विशेषता सएत",
+    config: {
+      subtitle:
+        "सएत शीर्षक अनद विवरण फओर यओउर विशेषता सएत. इत वइलल बए वइसइबलए तओ कर्मचारी केवल.",
+    },
+    variants: {
+      title: "वेरिएंट",
+      subtitle:
+        "यओउ कअन कउसतओमइज़ए तहए वेरिएंट नाम, इकओन, अनद ऑर्डर हएरए. इफ यओउ हअवए a वअरइएतय ओफ उत्पाद वइतह उनइकउए वेरिएंट तहअत दओन’t फइत डिफ़ॉल्ट 6 वेरिएंट, यओउ कअन सएत कस्टम वेरिएंट फओर एअकह उत्पाद हएरए.",
+    },
+
+    inputs: {
+      title: {
+        placeholder: "एनतएर a शीर्षक फओर विशेषता सएत...",
+      },
+      description: {
+        placeholder: "एनतएर a सहओरत विवरण... (ओपतइओनअल)",
+      },
+      custom_variants: {
+        true_title: "कस्टम वेरिएंट",
+        false_title: "डिफ़ॉल्ट वेरिएंट",
+        true_description: "कउसतओमइज़ए यओउर उत्पाद वेरिएंट.",
+        false_description: "उसए डिफ़ॉल्ट गलओबअल वेरिएंट.",
+      },
+    },
+  },
+
+  /** @see BPropertySetVariantRow **/
+  property_set_variant_row: {
+    inputs: {
+      values: {
+        placeholder: "सएत वअलउएस सएत... (ओपतइओनअल)",
+        messages:
+          "यओउ कअन परओवइदए सउगगएसतइओनस फओर तहए वअलउएस अनद कउसतओमइज़ए ऑर्डर.",
+      },
+    },
+  },
+
+  /** {@see AppTemplates**/
+  app_templates: {
+    default: "चूक",
+    blue: "नीले सागर",
+    amber: "अंबर",
+    green: "भूमध्यरेखीय",
+    red: "पिशाच",
+    magenta: "फूल",
+    master: "गुरुजी",
+    black: "अंधेरा पहलू",
+  },
+
+  /** {@see BPageAffiliateOrders**/
+  affiliate_orders: {
+    title: "संबद्ध भागीदार आदेश",
+    table: {
+      order_price: "ऑर्डर करने की राशि",
+      order_payment: "आदेश भुगतान की स्थिति",
+      order_link: "ऑर्डर लिंक",
+      commission_status: "आयोग की स्थिति",
+      commission_amount: "कमीशन राशि",
+      items: "सामान",
+      actions: "कार्रवाई",
+      create_date: "तारीख बनाना",
+    },
+    notifications: {
+      update_success: "संबद्ध स्थिति अपडेट की गई।",
+    },
+  },
+
+  /** {@see BPageAffiliatePayments**/
+  affiliate_payments: {
+    title: "संबद्ध भागीदार भुगतान",
+    table: {
+      staff: "कर्मचारी",
+      amount: "राशि",
+      note: "टिप्पणी",
+      date: "दिनांक",
+    },
+  },
+  /** {@see BPageShuttleRoles**/
+  my_roles: {
+    title: "मेरी भूमिकाएं",
+    message:
+      "भूमिकाएँ एक स्टोर के कर्मचारियों को दी जाने वाली पहुँच का प्रकार हैं। उदाहरण के लिए, ऑर्डर भेजने या पैक करने के लिए जिम्मेदार कर्मचारी।",
+  },
+  /** {@see WidgetMyRoleCard**/
+  role_card: {
+    complete_tasks: "पूर्ण किए गए कार्य",
+    reject_tasks: "अस्वीकृत कार्य",
+    last_check: "हाल की जाँच",
+  },
+
+  /** {@see BAppConfigDialog**/
+  app_config: {
+    reviews: "समीक्षा",
+    rate_now: "अब रेट करें",
+    category: "श्रेणी",
+    uninstall: "स्थापना रद्द करें",
+    get_app: "एप पाओ",
+    public_keys: "सार्वजनिक कुंजी",
+    private_keys: "निजी कुंजी (सुरक्षित)",
+    config: "ऐप कॉन्फ़िगरेशन",
+    app_status: "आवेदन की स्थिति",
+    app_info: "आवेदन की जानकारी",
+    update_at: "ताज़ा अपडेट",
+    visit_website: "वेबसाइट पर जाएँ",
+    privacy: "गोपनीयता नीति",
+    installs: "इंस्टॉल",
+    basic_profile_permission: "मूल प्रोफ़ाइल जानकारी",
+    developer: "डेवलपर",
+    permissions: "अनुमतियां",
+    total_comments: "कुल टिप्पणियाँ",
+    delete_dialog: {
+      title: "ऐप अनइंस्टॉल करें",
+      message: "क्या आप इस ऐप को अपने स्टोर से हटाना चाहते हैं?",
+      action: "हां, ऐप हटाएं",
+    },
+    notifications: {
+      uninstall_success: "एप्लिकेशन सफलतापूर्वक अनइंस्टॉल किया गया।",
+    },
+  },
+
+  /** {@see BPageShopChannelBots**/
+  shop_bots: {
+    not_set: "सेट नहीं!",
+    tokens: "टोकन",
+    webhook: "WEbhook",
+    calls: "कॉल",
+    dialog: {
+      title: "{name} बॉट कॉन्फ़िगरेशन",
+      message:
+        "उद्यम-श्रेणी के खरीदारी अनुभवों के निर्माण के लिए एक व्यापक बॉट ढांचा।",
+    },
+  },
+
+  /** {@see BPageShopCrmCustomers**/
+  shop_customers: {
+    title: "ग्राहक प्रबंधन",
+    subtitle:
+      "ग्राहकों को आपके स्टोर में कई तरीकों से जोड़ा जा सकता है; मैन्युअल रूप से, बल्क एक्सेल आयात, POS के माध्यम से, या आपके ऑनलाइन स्टोर के माध्यम से। जब भी कोई उपयोगकर्ता आपके स्टोर में लॉग इन करेगा, तो वह स्वचालित रूप से ग्राहक के रूप में पंजीकृत हो जाएगा।",
+    add_customer_action: "नया ग्राहक जोड़ें",
+
+    all_customers: "सभी ग्राहक डाउनलोड करें",
+    filtered_customers: "फ़िल्टर किए गए ग्राहक",
+    dialog_chips: {
+      title: "ग्राहक चिप्स की संख्या निर्धारित करें",
+    },
+    dialog_club: {
+      title: "ग्राहक क्लब स्तर सेट करें",
+    },
+  },
+
+  /** {@see BCustomerAdd**/
+  customer_add: {
+    edit_title: "ग्राहक संपादित करें",
+    add_title: "नया ग्राहक जोड़ें",
+    subtitle:
+      "अपने स्टोर में ग्राहक जोड़ने के लिए कृपया ईमेल पता या फ़ोन नंबर प्रदान करें.",
+    more: {
+      title: "अधिक विवरण जोड़ें",
+      subtitle: "मुद्रा, ग्राहक क्लब, खंड, पता और अधिक सेट करें।",
+    },
+    detail: {
+      subtitle:
+        "अपने ग्राहक की निजी जानकारी का रिकॉर्ड रखें। कृपया अपने ग्राहक की निजता का सम्मान करें।",
+    },
+    preferences: {
+      subtitle: "यहां डिफ़ॉल्ट उपयोगकर्ता मुद्रा, ग्राहक क्लब और सेगमेंट सेट करें.",
+    },
+    address: {
+      subtitle:
+        "इस पते का उपयोग POS में किया जा सकता है। उपयोगकर्ता यह जानकारी नहीं देख सकता।",
+    },
+  },
+
+  /** {@see AppPageDashboard**/
+  app_dashboard: {
+    status: "स्थिति प्रकाशित करें",
+    statistics: "आंकड़े",
+  },
+  /** {@see AppPage_Publish**/
+  app_publish: {
+    production_version: "उत्पादन संस्करण",
+    beta_version: "बीटा संस्करण",
+    alpha_version: "अल्फा संस्करण",
+  },
+  /** {@see AppPublishWidget**/
+  app_publish_widget: {
+    header: "स्टोर वेबसाइट हैडर",
+    header_code: "हैडर कोड",
+    admin_page: "व्यवस्थापक पृष्ठ",
+    name: "नाम",
+    icon: "आइकन",
+    url: "यूआरएल",
+  },
+
+  /** {@see AppPage_API**/
+  app_api: {
+    title: "एपीआई एक्सेस",
+    revoke_api: "एपीआई निरस्त करें",
+    api_key: "एपीआई कुंजी",
+    secret: "गुप्त कुंजी",
+    client: "ग्राहक",
+    redirect_url: "रीडायरेक्ट यूआरएल",
+    client_name: "ग्राहक का नाम",
+  },
+
+  /** {@see BPageApplication**/
+  app_loader_page: {
+    no_ui_title: "इस एप्लिकेशन में कोई UI नहीं है!",
+    no_ui_desc:
+      "कुछ एप्लिकेशन को अपने व्यवस्थापक क्षेत्र में उपयोगकर्ता इंटरफ़ेस की आवश्यकता नहीं होती है। यह एप्लिकेशन केवल आपके स्टोर वेबसाइट के हेडर सेक्शन में कोड जोड़ सकता है।",
+    header: "हैडर कोड",
+  },
+  /** {@see BPageShopFinanceReport**/
+  finance_report: {
+    export_title: "वित्तीय डेटा निर्यात करें",
+    export_sub_title:
+      "एक फ़ाइल में वित्तीय विवरण डाउनलोड करें।",
+    start_input_placeholder: "रिपोर्ट की आरंभ तिथि चुनें",
+    end_input_placeholder: "रिपोर्ट की समाप्ति तिथि चुनें",
+    download_action: "वित्त सूची डाउनलोड करें",
+  },
+
+  /** {@see BPageShopSettingNotifications**/
+  shop_notifications: {
+    title: "दुकान सूचनाएं",
+    message: "अपनी स्टोर सूचना सेटिंग और प्राथमिकताएं संपादित करें",
+    channel: "चैनल",
+    status: "स्थिति",
+    events: "आयोजन",
+    info: "जानकारी",
+    actions: "कार्रवाई",
+    connected: "जुड़े हुए",
+    not_connected: "जुड़े नहीं हैं!",
+    connect_now: "अब जोड़ो",
+    send_test: "परीक्षण डेटा भेजें",
+    disconnect: "डिस्कनेक्ट",
+
+    dialog: {
+      title: "बॉट कॉन्फ़िगरेशन",
+      message:
+        "एंटरप्राइज़-ग्रेड ईकॉमर्स अनुभवों के निर्माण के लिए एक व्यापक अधिसूचना ढांचा।",
+      action: "यहां क्लिक करें!",
+      set_config: "विन्यास सेट करें",
+    },
+  },
+  notification_events: {
+    new_order: "️ आदेश",
+    payment: "भुगतान",
+    return: "वापसी",
+    weekly_report: "📈 साप्ताहिक रिपोर्ट",
+  },
+
+  /** {@see BOrderDashboardDelivery} **/
+  order_delivery: {
+    title: "वितरण",
+    add_to_delivery_que_action: "शिपिंग कतार में जोड़ें",
+    in_que: "शिपिंग कतार में",
+    message:
+      "शिपिंग कूरियर को पैकेज देने के बाद, <b>कन्फर्म डिलीवरी</b> बटन पर क्लिक करें।",
+    message_add_to_service:
+      "यदि आप इस पैकेज को <b>डिलीवरी सेवा</b> द्वारा भेजना चाहते हैं तो निम्न बटन पर क्लिक करें।",
+    courier_action: "वितरण पुष्टिकरण",
+    courier_action_subtitle: "मेरा कूरियर पार्सल ले जाएगा।",
+
+    pickup_ready_action: "पइककउप तैयार",
+    pickup_ready_action_subtitle: "तहए ऑर्डर इस तैयार फओर ग्राहक पइककउप.",
+
+    service_action: "निष्पादन की पुष्टि",
+
+    checklist: [
       "कूरियर के पहचान पत्र की जाँच करें।",
-      "उत्पादों की अच्छी पैकेजिंग और समय पर डिलीवरी आपके ग्राहकों की अवधारण दर को बढ़ा सकती है।"
+      "उत्पादों की अच्छी पैकेजिंग और समय पर डिलीवरी आपके ग्राहकों की अवधारण दर को बढ़ा सकती है।",
     ],
-    "manual": {
-      "title": "ग्राहक द्वारा डिलीवरी की पुष्टि की प्रतीक्षा कर रहा है।",
-      "action_received": "खरीदार की पुष्टि",
-      "action_returned": "वितरण वापसी",
-      "message": "नोट: यदि ग्राहक को आदेश प्राप्त होता है, तो आप पूर्ति को पूरा करने के लिए निम्नलिखित विकल्पों का उपयोग कर सकते हैं। सिस्टम में कुछ शिपिंग सेवाएं स्वचालित रूप से डिलीवरी की पुष्टि करेंगी।"
+    manual: {
+      title: "ग्राहक द्वारा डिलीवरी की पुष्टि की प्रतीक्षा कर रहा है।",
+      action_received: "खरीदार की पुष्टि",
+      action_returned: "वितरण वापसी",
+
+      message:
+        "नोट: यदि ग्राहक को आदेश प्राप्त होता है, तो आप पूर्ति को पूरा करने के लिए निम्नलिखित विकल्पों का उपयोग कर सकते हैं। सिस्टम में कुछ शिपिंग सेवाएं स्वचालित रूप से डिलीवरी की पुष्टि करेंगी।",
     },
-    "auto_complete_note": "एक निश्चित अवधि के बाद, ऑर्डर की स्थिति को डिलीवर में बदल दिया जाएगा। यह अवधि ऑर्डर के प्रकार के आधार पर भिन्न होती है और सिस्टम द्वारा निर्धारित की जाती है।",
-    "received": {
-      "title": "ग्राहक को दिया।",
-      "delivered_date": "डिलीवरी की तारीख"
+    auto_complete_note:
+      "एक निश्चित अवधि के बाद, ऑर्डर की स्थिति को डिलीवर में बदल दिया जाएगा। यह अवधि ऑर्डर के प्रकार के आधार पर भिन्न होती है और सिस्टम द्वारा निर्धारित की जाती है।",
+    received: {
+      title: "ग्राहक को दिया।",
+      delivered_date: "डिलीवरी की तारीख",
     },
-    "receiver": "रिसीवर",
-    "bill": "रसीद",
-    "tracking": {
-      "title": "ट्रैकिंग कोड जोड़ें / Url",
-      "code": "ट्रैकिंग कोड",
-      "url": "ट्रैकिंग यूआरएल",
-      "message": "यदि आपने इस आदेश के लिए ट्रैकिंग कोड प्रदान करने वाली किसी सेवा के माध्यम से शिप किया है, तो आप इस अनुभाग में कोड और प्रासंगिक ट्रैकिंग लिंक दर्ज कर सकते हैं। यह जानकारी ग्राहक को दिखाई जाएगी।"
+    receiver: "रिसीवर",
+    bill: "रसीद",
+
+    tracking: {
+      title: "ट्रैकिंग कोड जोड़ें / Url",
+      code: "ट्रैकिंग कोड",
+      url: "ट्रैकिंग यूआरएल",
+      message:
+        "यदि आपने इस आदेश के लिए ट्रैकिंग कोड प्रदान करने वाली किसी सेवा के माध्यम से शिप किया है, तो आप इस अनुभाग में कोड और प्रासंगिक ट्रैकिंग लिंक दर्ज कर सकते हैं। यह जानकारी ग्राहक को दिखाई जाएगी।",
     },
-    "preferred_delivery_time": "पसंदीदा डिलीवरी का समय",
-    "manage_couriers": "मेरे कोरियर प्रबंधित करें",
-    "manage_service": "सेवा प्रबंधित करें",
-    "option_deliver_by_courier": "विकल्प 1: अपने कोरियर द्वारा डिलीवर करें।",
-    "option_add_to_que": "विकल्प 2: शिपिंग सेवा पृष्ठ पर संसाधित करने के लिए कतार में जोड़ें।",
-    "option_instant_shipping": "विकल्प 3: तत्काल शिपिंग।",
-    "pickup_action": "पिकअप पुष्टि",
-    "courier_action": "वितरण पुष्टिकरण",
-    "courier_action_subtitle": "मेरा कूरियर पार्सल ले जाएगा।",
-    "pickup_action_subtitle": "ग्राहक ने ऑर्डर उठा लिया।",
-    "service_action": "निष्पादन की पुष्टि"
+    preferred_delivery_time: "पसंदीदा डिलीवरी का समय",
+    manage_couriers: "मेरे कोरियर प्रबंधित करें",
+    manage_service: "सेवा प्रबंधित करें",
+
+    option_deliver_by_courier: "विकल्प 1: अपने कोरियर द्वारा डिलीवर करें।",
+    option_add_to_que:
+      "विकल्प 2: शिपिंग सेवा पृष्ठ पर संसाधित करने के लिए कतार में जोड़ें।",
+    option_instant_shipping: "विकल्प 3: तत्काल शिपिंग।",
+
+    verify_delivery_input: {
+      true_title: "पुष्टि करें डिलीवरी कओमपलएतइओन",
+      true_description:
+        "मैं पुष्टि करता हूं कि ऑर्डर ग्राहक तक पहुंचा दिया गया है।",
+    },
   },
-  "shop_home_edit": {
-    "title": "होम पेज सेटिंग",
-    "sub_title": "अपना वेबसाइट डिफ़ॉल्ट पृष्ठ सेट करें",
-    "default_home": "डिफ़ॉल्ट होमपेज़",
-    "default_home_placeholder": "शॉप पेज वेबसाइट होम पेज है"
+
+  /** {@see BShopHomeSelect} **/
+  shop_home_edit: {
+    title: "होम पेज सेटिंग",
+    sub_title:
+      "अपना वेबसाइट डिफ़ॉल्ट पृष्ठ सेट करें",
+
+    default_home: "डिफ़ॉल्ट होमपेज़",
+    default_home_placeholder: "शॉप पेज वेबसाइट होम पेज है",
   },
-  "selldone_referral_page": {
-    "title": "रेफरल डैशबोर्ड",
-    "referral_link": "सिफ़ारिश के लिंक",
-    "registered": "दर्ज कराई",
-    "accepted": "को स्वीकृत",
-    "bank": "बैंक",
-    "bank_title": "निकासी के लिए बैंक जानकारी",
-    "new_users": "नए उपयोगकर्ता",
-    "performance": "प्रदर्शन",
-    "credit_mode": "क्रेडिट मोड",
-    "get_stickers": "कॉपी और पेस्ट करने के लिए स्टिकर एचटीएमएल कोड प्राप्त करें",
-    "click_copy_sticker_code": "एचटीएमएल कोड कॉपी करने के लिए बैज पर क्लिक करें।"
+  /**
+   * @see OReferralBank
+   */
+  referral_bank: {
+    title: "रेफरल डैशबोर्ड",
+    subtitle:
+      "आपके अनुरोध पर, कमीशन शुल्क आपके द्वारा निर्दिष्ट बैंक खाते में भुगतान किया जाएगा। कृपया यहाँ अपनी बैंक जानकारी प्रदान करें।",
+    no_bank_info: "कोई बैंक जानकारी नहीं!",
+    actions: {
+      edit_my_bank_info: "मेरी बैंक जानकारी संपादित करें",
+    },
+    bank_dialog: {
+      title: "मेरा बैंक विवरण",
+      info: {
+        title: "बैंक",
+        subtitle:
+          "कृपया यहाँ अपनी बैंक जानकारी दर्ज करें। हम इस जानकारी का उपयोग फंड ट्रांसफर करने के लिए करेंगे। सुनिश्चित करें कि बैंक खाता आपके नाम पर या आपके व्यवसाय के नाम पर हो, जैसा भी लागू हो।",
+      },
+      inputs: {
+        name: {
+          label: "बैंक का नाम",
+          message: "उस बैंक का पूरा नाम जहां खाता है।",
+        },
+        holder_name: {
+          label: "खाता धारक का नाम",
+          message:
+            "खाता रखने वाले व्यक्ति या संस्था का पूरा नाम।",
+        },
+        account_number: {
+          label: "खाता संख्या",
+          message:
+            "विशिष्ट बैंक खाते से संबद्ध अद्वितीय संख्या.",
+        },
+        routing_number: {
+          label: "रूटिंग नंबर (यूएसए) या सॉर्ट कोड (यूके)",
+          message:
+            "एक संख्या जो विशिष्ट बैंक शाखा की पहचान कराती है (विभिन्न देशों में अलग-अलग शब्दों का प्रयोग किया जाता है)।",
+        },
+        swift: {
+          label: "तेज बीआईसी कोड",
+          message:
+            "एक अंतर्राष्ट्रीय कोड जिसका उपयोग वैश्विक स्तर पर बैंकों की पहचान के लिए किया जाता है, विशेष रूप से अंतर्राष्ट्रीय स्थानान्तरण के लिए।",
+        },
+        iban: {
+          label: "IBAN (अंतर्राष्ट्रीय बैंक खाता संख्या)",
+          message:
+            "मुख्य रूप से यूरोप में प्रयुक्त, IBAN राष्ट्रीय सीमाओं के पार बैंक खातों की पहचान करने के लिए एक अंतरराष्ट्रीय स्तर पर स्वीकृत प्रणाली है।",
+        },
+        contact: {
+          label: "संपर्क जानकारी",
+          message: "खाते से संबद्ध फ़ोन नंबर या ईमेल पता.",
+        },
+        note: {
+          label: "टिप्पणी",
+          message: "अतिरिक्त नोट",
+        },
+      },
+    },
+    notifications: {
+      save: {
+        message: "आपकी बैंक जानकारी सफलतापूर्वक अपडेट कर दी गई है।",
+      },
+    },
   },
-  "selldone_referral_payment": {
-    "title": "रेफरल भुगतान",
-    "officer": "अफ़सर",
-    "amount": "राशि लेनदेन",
-    "note": "टिप्पणी",
-    "date": "दिनांक",
-    "subtitle": "यह निकासी लेनदेन की सूची है। जब आप रेफरल वॉलेट से अपने बैंक खाते या अपने सेलडोन वॉलेट में फंड ट्रांसफर करते हैं, तो यह यहां सूचीबद्ध होगा।"
+
+  /**
+   * @see OReferralTier
+   */
+  referral_tier: {
+    message:
+      "आपके रेफरल द्वारा किए गए सभी सेवा शुल्क, सदस्यता और अन्य भुगतानों से।",
   },
-  "widget_shop_gateway": {
-    "link_account_caution": "एक खाता ({currency}) को अपनी दुकान से लिंक करें! यहां क्लिक करें.."
+
+  /**
+   * @see ReferralTiers
+   */
+  ReferralTiers: {
+    Bronze: {
+      title: "टियर कांस्य",
+      description:
+        "आप कांस्य श्रेणी में हैं। आपने अपने रेफरल से 2% कमीशन कमाया है।",
+    },
+    Silver: {
+      title: "टियर सिल्वर",
+      description:
+        "आप सिल्वर टियर में हैं। आपने अपने रेफरल से 4% कमीशन कमाया है।",
+    },
+    Gold: {
+      title: "टियर गोल्ड",
+      description:
+        "आप गोल्ड टियर में हैं। आपने अपने रेफरल से 6% कमीशन कमाया है।",
+    },
+    Platinum: {
+      title: "टियर प्लैटिनम",
+      description:
+        "आप प्लैटिनम टियर में हैं। आपने अपने रेफरल से 8% कमीशन कमाया है।",
+    },
+    Diamond: {
+      title: "टियर डायमंड",
+      description:
+        "आप डायमंड टियर में हैं। आपने अपने रेफरल से 10% कमीशन कमाया है।",
+    },
   },
-  "product_sell_widget": {
-    "title": "उत्पाद बिक्री प्रदर्शन"
+
+  /**
+   * @see OPageMonetize
+   */
+  page_monetize: {
+    title: "कमाई करें",
+    subtitle: "व्यावसायिक अवसरों तक पहुंच का विस्तार करें।",
   },
-  "fulfilment_order_widget": {
-    "title": "ड्रॉपशीपिंग पूर्ति",
-    "check_action": "ड्रॉपशीपिंग स्वीकार करें",
-    "uncheck_action": "ऑर्डर की पुष्टि की गई",
-    "pay_action": "आइटम की कीमत चुकाएं..",
-    "pay_completed": "भुगतान की पुष्टि",
-    "list_of_items": "पुनर्विक्रय आइटम",
-    "checklist": [
+
+  /** {@see OPageMonetizeReferral} **/
+  selldone_referral_page: {
+    referral_link: "सिफ़ारिश के लिंक",
+    registered: "दर्ज कराई",
+    accepted: "को स्वीकृत",
+    bank: "बैंक",
+    bank_title: "निकासी के लिए बैंक जानकारी",
+    new_users: "नए उपयोगकर्ता",
+    performance: "प्रदर्शन",
+    credit_mode: "क्रेडिट मोड",
+    get_stickers: "कॉपी और पेस्ट करने के लिए स्टिकर एचटीएमएल कोड प्राप्त करें",
+    click_copy_sticker_code: "एचटीएमएल कोड कॉपी करने के लिए बैज पर क्लिक करें।",
+  },
+  /** {@see OReferralTransactions} **/
+  selldone_referral_payment: {
+    title: "रेफरल भुगतान",
+    subtitle:
+      "यह निकासी लेनदेन की सूची है। जब आप रेफरल वॉलेट से अपने बैंक खाते या अपने सेलडोन वॉलेट में फंड ट्रांसफर करते हैं, तो यह यहां सूचीबद्ध होगा।",
+
+    officer: "अफ़सर",
+    amount: "राशि लेनदेन",
+    note: "टिप्पणी",
+    date: "दिनांक",
+  },
+
+  /** {@see BGatewayCard} **/
+  widget_shop_gateway: {
+    link_account_caution:
+      "एक खाता ({currency}) को अपनी दुकान से लिंक करें! यहां क्लिक करें..",
+  },
+
+  /** {@see BProductOrderSalesPerformance} **/
+  product_sell_widget: {
+    title: "उत्पाद बिक्री प्रदर्शन",
+  },
+
+  /** {@see BOrderDashboardDropshippingFulfillment} **/
+  fulfilment_order_widget: {
+    title: "ड्रॉपशीपिंग पूर्ति",
+    check_action: "ड्रॉपशीपिंग स्वीकार करें",
+    uncheck_action: "ऑर्डर की पुष्टि की गई",
+    pay_action: "आइटम की कीमत चुकाएं..",
+    pay_completed: "भुगतान की पुष्टि",
+    list_of_items: "पुनर्विक्रय आइटम",
+
+    checklist: [
       "मूल विक्रेता को आपके द्वारा अप्रत्यक्ष रूप से बेचे जाने वाले उत्पादों की राशि का भुगतान करें।",
       "आप अकाउंटिंग सेक्शन> स्टोर की ड्रॉपशीपिंग में एक साथ आपूर्तिकर्ता को उत्पादों की लागत का भुगतान और निपटान कर सकते हैं।",
-      "भुगतान के बाद, आपूर्तिकर्ता आपका ऑर्डर प्राप्त करेगा और तैयारी के बाद इसे सीधे खरीदार को भेज देगा।"
+      "भुगतान के बाद, आपूर्तिकर्ता आपका ऑर्डर प्राप्त करेगा और तैयारी के बाद इसे सीधे खरीदार को भेज देगा।",
     ],
-    "message": "आपूर्तिकर्ता को आदेश शुल्क का भुगतान करने के बाद, इस खंड में आदेश भेजने की प्रगति देखें।"
+    message:
+      "आपूर्तिकर्ता को आदेश शुल्क का भुगतान करने के बाद, इस खंड में आदेश भेजने की प्रगति देखें।",
   },
-  "drop_shipping": {
-    "menu": {
-      "dashboard": "डैशबोर्ड",
-      "orders": "आदेश",
-      "inventory": "भंडार",
-      "shops": "पुनर्विक्रेताओं",
-      "requests": "अनुरोध"
+
+  /** {@see BPageWholesaler} **/
+  drop_shipping: {
+    menu: {
+      dashboard: "डैशबोर्ड",
+      orders: "आदेश",
+      inventory: "भंडार",
+      shops: "पुनर्विक्रेताओं",
+      requests: "अनुरोध",
     },
-    "drop_shipping_charge": "ड्रॉपशीपिंग चार्ज"
+    drop_shipping_charge: "ड्रॉपशीपिंग चार्ज",
   },
-  "dropship_request_status": {
-    "PENDING": "लंबित",
-    "ACCEPT": "स्वीकार करना",
-    "REJECT": "अस्वीकार"
+
+  /** {@see DropshipRequestStatus} **/
+  dropship_request_status: {
+    PENDING: "लंबित",
+    ACCEPT: "स्वीकार करना",
+    REJECT: "अस्वीकार",
   },
-  "dropshipping_reseller_page": {
-    "menu": {
-      "dashboard": "डैशबोर्ड",
-      "orders": "आदेश",
-      "wallet": "बटुआ"
-    }
-  },
-  "dropshipping_reseller_dashboard": {
-    "title": "पुनर्विक्रेता डैशबोर्ड"
-  },
-  "dropshipping_reseller_orders": {
-    "title": "पुनर्विक्रेता आदेश"
-  },
-  "dropshipping_reseller_wallet": {
-    "title": "पुनर्विक्रेता बटुआ"
-  },
-  "master_payment": {
-    "notifications": {
-      "payment_success_title": "भुगतान की पुष्टि",
-      "payment_success": "भुगतान पूरा हुआ।",
-      "buy_title": "खरीदना",
-      "pay_by_giftcards": "आपके आदेश का भुगतान उपहार कार्ड से किया गया था।",
-      "free_order": "आपका ऑर्डर फ्री है।",
-      "pay_by_cod": "आपका ऑर्डर कैश ऑन डिलीवरी के रूप में पंजीकृत किया गया है।",
-      "pay_by_dir": "आपका आदेश प्रत्यक्ष भुगतान के रूप में पंजीकृत किया गया है, कृपया भुगतान पूरा करें और रसीद को अपने आदेश पृष्ठ में अपलोड करें।",
-      "pay_title": "भुगतान",
-      "qr_code_payment": "भुगतान क्यूआर कोड बनाया गया।",
-      "connecting_to_online_gateway": "ऑनलाइन भुगतान गेटवे से जुड़ना।"
-    }
-  },
-  "dropship_charges": {
-    "notifications": {
-      "pay_confirm_message": "भुगतान की पुष्टि की गई है।<br> दिनांक: {payment_at}",
-      "pay_fail_title": "भुगतान नहीं",
-      "pay_fail_message": "भुगतान सत्यापित नहीं किया जा सकता!"
-    }
-  },
-  "dropship_checkout": {
-    "pay_dialog": {
-      "title": "पुनर्विक्रेता भुगतान का आदेश देता है",
-      "balance": "आपका खाता शेष",
-      "total_cost": "कुल आदेश लागत",
-      "need_charge": "चार्ज करने की जरूरत है",
-      "no_account_cation": "तुम्हारा कोई हिसाब नहीं है! थोक व्यापारी को बुलाओ।",
-      "orders": "आदेश"
+
+  /** {@see BPageWholesalerShop} **/
+  dropshipping_reseller_page: {
+    menu: {
+      dashboard: "डैशबोर्ड",
+      orders: "आदेश",
+      wallet: "बटुआ",
     },
-    "notifications": {
-      "success_pay": "इन आदेशों के लिए आपके भुगतान की पुष्टि हो गई है और सफलतापूर्वक पूर्ण हो गया है।"
-    }
   },
-  "dropship_accounts": {
-    "charge_account": "खाता चार्ज करें",
-    "charge_dialog": {
-      "title": "चार्ज ड्रॉपशीपिंग खाता",
-      "amount_input": "खाता शुल्क",
-      "charge_now": "अभी चार्ज करें"
-    }
+
+  /** {@see BPageWholesalerShopDashboard} **/
+  dropshipping_reseller_dashboard: {
+    title: "पुनर्विक्रेता डैशबोर्ड",
   },
-  "dropship_admin_dashboard": {
-    "title": "पुनर्विक्रेता अनुरोध",
-    "today_order_count": "आज के आदेश गिनती",
-    "yesterday_order_count": "कल के आदेश गिनती",
-    "total_7_days": "पिछले 7 दिनों में कुल ऑर्डर"
+
+  /** {@see BPageWholesalerShopOrders} **/
+  dropshipping_reseller_orders: {
+    title: "पुनर्विक्रेता आदेश",
   },
-  "dropshipping_products": {
-    "no_shops": "क्षमा करें, कोई स्टोर नहीं मिला। भविष्य में और भी स्टोर होंगे ताकि आप उनके उत्पादों को अपने स्टोर में रख सकें।",
-    "show_all_shops": "सभी दुकानें दिखाएं",
-    "show_all_message": "आप सभी दुकानें देख सकते हैं",
-    "current_shop": "वर्तमान दुकान",
-    "request_account": "अनुरोध खाता",
-    "request_accepted": "अनुरोध स्वीकार",
-    "request_rejected": "अनुरोध अस्वीकृत",
-    "request_pending": "अनुरोध अपूर्ण है..",
-    "notifications": {
-      "add_product": "उत्पाद आपके स्टोर में जोड़ा गया.",
-      "request_access": "हमने आपका एक्सेस अनुरोध थोक व्यापारी को सफलतापूर्वक भेज दिया है।"
+
+  /** {@see BPageWholesalerShopWallet} **/
+  dropshipping_reseller_wallet: {
+    title: "पुनर्विक्रेता बटुआ",
+  },
+
+  /** @see MasterPaymentDialog **/
+  master_payment: {
+    notifications: {
+      payment_success_title: "भुगतान की पुष्टि",
+      payment_success: "भुगतान पूरा हुआ।",
+      buy_title: "खरीदना",
+      pay_by_giftcards: "आपके आदेश का भुगतान उपहार कार्ड से किया गया था।",
+      free_order: "आपका ऑर्डर फ्री है।",
+      pay_by_cod: "आपका ऑर्डर कैश ऑन डिलीवरी के रूप में पंजीकृत किया गया है।",
+      pay_by_dir:
+        "आपका आदेश प्रत्यक्ष भुगतान के रूप में पंजीकृत किया गया है, कृपया भुगतान पूरा करें और रसीद को अपने आदेश पृष्ठ में अपलोड करें।",
+
+      pay_title: "भुगतान",
+      qr_code_payment: "भुगतान क्यूआर कोड बनाया गया।",
+      connecting_to_online_gateway: "ऑनलाइन भुगतान गेटवे से जुड़ना।",
     },
-    "show_eligible_shops_message": "योग्य दुकानें दिखाएं"
   },
-  "product_dropshipping": {
-    "need_re_enable": "इस उत्पाद को मूल विक्रेता द्वारा बदल दिया गया है, इन मूल्य परिवर्तनों ने आपके स्टोर में उत्पाद को अक्षम कर दिया है। परिवर्तनों की जाँच करें और यदि आप उत्पाद को पुनः सक्रिय करने के लिए सहमत हैं, तो नीचे दिए गए बटन को दबाएँ।",
-    "need_re_enable_action": "सहमत हों, परिवर्तन लागू करें और सक्रिय करें",
-    "changed_value": "यह उत्पाद मूल विक्रेता द्वारा संपादित किया गया है। परिवर्तनों की जाँच करें और यदि आप अपने उत्पाद में परिवर्तन लागू करने के लिए सहमत हैं, तो नीचे दिए गए बटन पर क्लिक करें।",
-    "changed_value_action": "सहमत हैं, बदलाव करें",
-    "parent_deleted": "यह आइटम मूल विक्रेता द्वारा हटा दिया गया है।",
-    "parent_closed": "इस उत्पाद को मूल विक्रेता द्वारा अक्षम कर दिया गया है! आप इस उत्पाद को अपने स्टोर में नहीं बेच पाएंगे, लेकिन अगर मूल विक्रेता उत्पाद को फिर से सक्रिय करता है तो आप अपने स्टोर में इस उत्पाद को फिर से सक्रिय कर पाएंगे।",
-    "notifications": {
-      "re_enable_success": "इस उत्पाद को फिर से सक्रिय कर दिया गया है।",
-      "update_success": "यह उत्पाद जानकारी मूल उत्पाद जानकारी के साथ अपडेट की गई थी।"
-    }
-  },
-  "product_dropshipping_admin": {
-    "title": "जहाज को डुबोना",
-    "save_alert": "इस उत्पाद की ड्रॉपशीपिंग सेटिंग बदल गई हैं। क्या आप किये गए बदलाव को सुरक्षित करना चाहते है?",
-    "reselling_message": "इस विकल्प को सक्रिय करके, अन्य विक्रेता आपके उत्पाद को अपने स्टोर में जोड़ सकेंगे।",
-    "reselling": "ड्रॉपशीपिंग सक्षम करें",
-    "price_merchants": "व्यापारियों के लिए कीमत",
-    "price_commission": "मर्चेंट कमीशन (फिक्स्ड)"
-  },
-  "buy_button": {
-    "waiting_for_availability": "उपलब्धता की प्रतीक्षा में",
-    "inform_me_when_available": "उपलब्ध होने पर मुझे सूचित करें!",
-    "pay_buy": "भुगतान करें और खरीदें",
-    "quantity": "गिनती करना",
-    "quantity_in_basket": "कार्ट में आइटम",
-    "count_unit": "एक्स",
-    "remove": "हटाना",
-    "add_to_basket": "कार्ट में डालें",
-    "buy": "खरीदना",
-    "notifications": {
-      "inform_add_success": "इसके उपलब्ध होने पर हम आपको बताएंगे.",
-      "inform_remove_success": "आपको प्रतीक्षा सूची से हटा दिया गया है।"
+
+  /** @see DropShippingAccountCharges **/
+  dropship_charges: {
+    notifications: {
+      pay_confirm_message: "भुगतान की पुष्टि की गई है।<br> दिनांक: {payment_at}",
+      pay_fail_title: "भुगतान नहीं",
+      pay_fail_message: "भुगतान सत्यापित नहीं किया जा सकता!",
     },
-    "book_now": "अभी बुक करें",
-    "reserve_now": "अभी रिजर्व करें",
-    "buy_now": "अभी खरीदें"
   },
-  "product_info": {
-    "fake": "नकली",
-    "action": "नीलामी",
-    "compare_limit": "10 आइटम की सीमा",
-    "compare_add": "तुलना करने के लिए जोड़ें",
-    "compare_be_in_list": "तुलना सूची में",
-    "type": "प्रकार",
-    "brand": "ब्रैंड",
-    "category": "श्रेणी",
-    "discount": "छूट",
-    "track_price": "ट्रैक कीमत",
-    "waiting_for_auction": "नीलामी की प्रतीक्षा कर रहे हैं?",
-    "inform_auction": "नीलामी के समय मुझे सूचित करें",
-    "return_in_days": "{days} दिन की वारंटी वापसी",
-    "support24h7": "समर्थन 24 घंटे 7 दिन",
-    "support_normal": "काम के घंटे समर्थन",
-    "original_guarantee": "मूल गारंटी",
-    "cod_payment": "कैश ऑन डिलीवरी सपोर्ट",
-    "pros": "पेशेवरों",
-    "cons": "दोष",
-    "external_link": "अधिक पढ़ें",
-    "notifications": {
-      "congratulation": "बधाई हो",
-      "waiting_list_add_success": "इस उत्पाद की नीलामी होने पर हम आपको सूचित करेंगे।",
-      "waiting_list_delete_success": "आप नीलामी प्रतीक्षा सूची से बाहर हो गए हैं।"
+
+  /** @see BPageShopFinanceResellerFulfillment **/
+  dropship_checkout: {
+    pay_dialog: {
+      title: "पुनर्विक्रेता भुगतान का आदेश देता है",
+      balance: "आपका खाता शेष",
+      total_cost: "कुल आदेश लागत",
+      need_charge: "चार्ज करने की जरूरत है",
+      no_account_cation: "तुम्हारा कोई हिसाब नहीं है! थोक व्यापारी को बुलाओ।",
+      orders: "आदेश",
     },
-    "offer_message": "{min_quantity} खरीदें, इन आइटम पर {percent}% की छूट पाएं",
-    "up_to": "अधिकतम {per_order}x प्रति आदेश",
-    "get_free": "नि: शुल्क पाएं",
-    "get_off": "{percent}% की छूट पाएं"
-  },
-  "styler": {
-    "size_class": "आकार और वर्ग",
-    "delete_bg": "पृष्ठभूमि छवि हटाएं",
-    "bg_color": "पीछे का रंग",
-    "section_style": "अनुभाग शैली सेट करें",
-    "link": "लिंक सेट करें",
-    "show_products": "उत्पाद / श्रेणियाँ सूची प्रबंधन",
-    "show_product": "उत्पाद चुनें",
-    "delete_section": "अनुभाग हटाएं",
-    "text_color": "लिखावट का रंग",
-    "tex_align": "पाठ्य संरेखण",
-    "text_style": "पाठ शैली",
-    "bg_image": "पृष्ठभूमि छवि",
-    "product": {
-      "title": "उत्पाद चुनें"
+    notifications: {
+      success_pay:
+        "इन आदेशों के लिए आपके भुगतान की पुष्टि हो गई है और सफलतापूर्वक पूर्ण हो गया है।",
     },
-    "products": {
-      "title": "उत्पाद और श्रेणियां सूची प्रबंधन",
-      "sort_options": "छँटाई और दृश्य सेटिंग्स का चयन करें",
-      "item_types": "केवल उत्पाद / श्रेणियां दिखाएं",
-      "product_only": "केवल उत्पाद",
-      "category_only": "केवल श्रेणियाँ",
-      "no_category": "आपके स्टोर में कोई श्रेणी नहीं है।",
-      "limit": "उत्पाद सीमा",
-      "limit_message": "उत्पाद परिणाम संख्या दर्ज करें",
-      "select_categories": "उपलब्ध श्रेणियों का चयन करें",
-      "categories_limit": "श्रेणियाँ सीमा",
-      "categories_limit_msg": "श्रेणियों की अधिकतम संख्या दर्ज करें। बिना किसी सीमा के शून्य सेट करें।"
-    }
   },
-  "shop_contacts": {
-    "popup": "पॉपअप समर्थन सक्षम करें",
-    "popup_message": "इस विकल्प को एक्टिवेट करने पर आपके स्टोर के नीचे दाईं ओर सपोर्ट की दिखाई देगी।"
-  },
-  "popup_page": {
-    "preview": "लाइव पॉपअप देखें",
-    "menu": {
-      "design": "डिज़ाइन",
-      "appearance": "उपस्थिति",
-      "filter": "फ़िल्टर",
-      "setting": "सेटिंग"
+  /** @see BPageShopFinanceResellerWallets **/
+  dropship_accounts: {
+    charge_account: "खाता चार्ज करें",
+    charge_dialog: {
+      title: "चार्ज ड्रॉपशीपिंग खाता",
+      amount_input: "खाता शुल्क",
+      charge_now: "अभी चार्ज करें",
     },
-    "notifications": {
-      "save": "पॉपअप सफलतापूर्वक सहेजा गया.",
-      "edit": "पॉपअप सफलतापूर्वक अपडेट किया गया।"
-    }
   },
-  "popup_appearance": {
-    "position": "पद",
-    "position_desc": "पृष्ठ पर इस अधिसूचना का प्रदर्शन स्थान निर्दिष्ट करें।",
-    "width": "चौड़ाई",
-    "width_desc": "आप अधिकतम पृष्ठ चौड़ाई निर्धारित कर सकते हैं।",
-    "height": "ऊंचाई",
-    "height_desc": "आप अधिकतम पृष्ठ ऊंचाई निर्धारित कर सकते हैं।",
-    "radius": "कोने का अर्द्ध व्यास",
-    "radius_desc": "इस खंड में आप अधिसूचना के कोनों की वक्रता त्रिज्या निर्धारित कर सकते हैं।",
-    "shadow": "छाया",
-    "shadow_desc": "क्या आप चाहते हैं कि पॉप-अप विंडो छायांकित हो?",
-    "delay": "देरी दिखाएं",
-    "delay_desc": "एक बार जब उपयोगकर्ता आपके स्टोर में प्रवेश करता है, तो यह समय बीत जाने के बाद, उपयोगकर्ता को एक सूचना प्रदर्शित की जाएगी।",
-    "hide": "देरी छुपाएं",
-    "hide_desc": "आप यह सेट कर सकते हैं कि शो के कुछ सेकंड बाद नोटिफिकेशन अपने आप बंद हो जाएगा। 0 के मान का अर्थ है कि सूचना अपने आप बंद नहीं होगी।",
-    "transition": "पॉपअप एनिमेशन"
+
+  /** @see BPageWholesalerDashboard **/
+  dropship_admin_dashboard: {
+    title: "पुनर्विक्रेता अनुरोध",
+    today_order_count: "आज के आदेश गिनती",
+    yesterday_order_count: "कल के आदेश गिनती",
+    total_7_days: "पिछले 7 दिनों में कुल ऑर्डर",
   },
-  "popup_filter": {
-    "registered": "सदस्यता और लॉगिन आवश्यकता",
-    "registered_desc": "आप इस सूचना को केवल उपयोगकर्ताओं या अतिथियों को संग्रहीत करने के लिए दिखाना चुन सकते हैं।",
-    "only_guests": "केवल मेहमान",
-    "only_users": "केवल लॉग इन उपयोगकर्ता",
-    "purchased": "खरीद इतिहास",
-    "purchased_desc": "आप इस सूचना को केवल उन उपयोगकर्ताओं को दिखाना चुन सकते हैं जो पहले ही खरीद चुके हैं या जिन्होंने अभी तक खरीदारी नहीं की है।",
-    "no_purchase": "अभी तक कोई खरीद नहीं",
-    "yes_purchase": "पहले खरीदा गया",
-    "sex": "लिंग",
-    "sex_desc": "क्या आप चाहते हैं कि यह सूचना केवल एक विशिष्ट लिंग के उपयोगकर्ताओं को दिखाई जाए?",
-    "age": "न्यूनतम आयु",
-    "age_desc": "यदि 6 से अधिक का कोई मान दर्ज किया जाता है, तो उपयोगकर्ता को लॉग इन होना चाहिए और अपनी जन्मतिथि दर्ज करनी चाहिए।",
-    "levels": "ग्राहक क्लब स्तर",
-    "levels_desc": "यदि उपयोगकर्ता के नीचे चयनित स्तरों में से एक है, तो उसे यह सूचना प्रदर्शित की जाएगी।",
-    "countries": "स्थान प्रतिबंध",
-    "countries_desc": "क्या आप चाहते हैं कि यह सूचना केवल एक विशिष्ट देश से आने वाले उपयोगकर्ताओं के लिए प्रदर्शित हो?"
-  },
-  "popup_setting": {
-    "published": "प्रकाशित स्थिति",
-    "repeat": "दोहराना",
-    "repeat_msg": "क्या आप चाहते हैं कि यह सूचना उपयोगकर्ता को एक से अधिक बार प्रदर्शित हो?",
-    "intervals": "पॉपअप प्रदर्शन की समय अवधि",
-    "intervals_msg": "किसी उपयोगकर्ता को सूचनाएं प्रदर्शित करने के बीच की न्यूनतम समय अवधि समाप्त हो जानी चाहिए।",
-    "designer_zone": "डिजाइनर क्षेत्र",
-    "title": "पॉपअप शीर्षक",
-    "note": "डिजाइनर नोट",
-    "image": "कवर छवि",
-    "delete": {
-      "title": "मिटाना",
-      "sub_title": "एक बार जब आप पॉपअप हटा देते हैं, तो कोई वापसी नहीं होती है। कृपया निश्चित रहें।",
-      "action": "यह पॉपअप हटाएं"
+
+  /** @see BProductAddDropshipping **/
+  dropshipping_products: {
+    no_shops:
+      "क्षमा करें, कोई स्टोर नहीं मिला। भविष्य में और भी स्टोर होंगे ताकि आप उनके उत्पादों को अपने स्टोर में रख सकें।",
+    show_all_shops: "सभी दुकानें दिखाएं",
+    show_eligible_shops_message: "योग्य दुकानें दिखाएं",
+    show_all_message: "आप सभी दुकानें देख सकते हैं",
+    current_shop: "वर्तमान दुकान",
+    request_account: "अनुरोध खाता",
+    request_accepted: "अनुरोध स्वीकार",
+    request_rejected: "अनुरोध अस्वीकृत",
+    request_pending: "अनुरोध अपूर्ण है..",
+    notifications: {
+      add_product: "उत्पाद आपके स्टोर में जोड़ा गया.",
+      request_access:
+        "हमने आपका एक्सेस अनुरोध थोक व्यापारी को सफलतापूर्वक भेज दिया है।",
     },
-    "notifications": {
-      "delete": "पॉपअप हटाया गया."
-    }
   },
-  "shop_sms": {
-    "title": "एसएमएस प्रबंधित करें",
-    "sub_title": "ग्राहकों को भेजे गए एसएमएस टेम्प्लेट",
-    "message": "आप यहां अपने स्टोर द्वारा भेजे गए टेक्स्ट संदेशों की सामग्री देख सकते हैं। संदेश सेवा में सत्यापन पैटर्न दर्ज करने की सीमा के कारण, इस समय पाठ संदेशों को वैयक्तिकृत करना संभव नहीं है।",
-    "tabs": {
-      "templates": "टेम्पलेट्स",
-      "provider": "प्रदाता"
+
+  /** @see BProductDropshippingAbstractView **/
+  product_dropshipping: {
+    need_re_enable:
+      "इस उत्पाद को मूल विक्रेता द्वारा बदल दिया गया है, इन मूल्य परिवर्तनों ने आपके स्टोर में उत्पाद को अक्षम कर दिया है। परिवर्तनों की जाँच करें और यदि आप उत्पाद को पुनः सक्रिय करने के लिए सहमत हैं, तो नीचे दिए गए बटन को दबाएँ।",
+    need_re_enable_action: "सहमत हों, परिवर्तन लागू करें और सक्रिय करें",
+    changed_value:
+      "यह उत्पाद मूल विक्रेता द्वारा संपादित किया गया है। परिवर्तनों की जाँच करें और यदि आप अपने उत्पाद में परिवर्तन लागू करने के लिए सहमत हैं, तो नीचे दिए गए बटन पर क्लिक करें।",
+    changed_value_action: "सहमत हैं, बदलाव करें",
+    parent_deleted: "यह आइटम मूल विक्रेता द्वारा हटा दिया गया है।",
+    parent_closed:
+      "इस उत्पाद को मूल विक्रेता द्वारा अक्षम कर दिया गया है! आप इस उत्पाद को अपने स्टोर में नहीं बेच पाएंगे, लेकिन अगर मूल विक्रेता उत्पाद को फिर से सक्रिय करता है तो आप अपने स्टोर में इस उत्पाद को फिर से सक्रिय कर पाएंगे।",
+    notifications: {
+      re_enable_success: "इस उत्पाद को फिर से सक्रिय कर दिया गया है।",
+      update_success:
+        "यह उत्पाद जानकारी मूल उत्पाद जानकारी के साथ अपडेट की गई थी।",
     },
-    "manage": {
-      "title": "एसएमएस प्रबंधित करें",
-      "subtitle": "आप यहां अपने स्टोर द्वारा भेजे गए टेक्स्ट संदेशों की सामग्री देख सकते हैं। संदेश सेवा में सत्यापन पैटर्न दर्ज करने की सीमा के कारण, इस समय पाठ संदेशों को वैयक्तिकृत करना संभव नहीं है।"
+  },
+
+  /** @see BPageProductDropshipping **/
+  product_dropshipping_admin: {
+    title: "जहाज को डुबोना",
+    save_alert:
+      "इस उत्पाद की ड्रॉपशीपिंग सेटिंग बदल गई हैं। क्या आप किये गए बदलाव को सुरक्षित करना चाहते है?",
+    reselling_message:
+      "इस विकल्प को सक्रिय करके, अन्य विक्रेता आपके उत्पाद को अपने स्टोर में जोड़ सकेंगे।",
+    reselling: "ड्रॉपशीपिंग सक्षम करें",
+    price_merchants: "व्यापारियों के लिए कीमत",
+    price_commission: "मर्चेंट कमीशन (फिक्स्ड)",
+  },
+
+  /** @see SShopBuyButton **/
+
+  buy_button: {
+    waiting_for_availability: "उपलब्धता की प्रतीक्षा में",
+    inform_me_when_available: "उपलब्ध होने पर मुझे सूचित करें!",
+    pay_buy: "भुगतान करें और खरीदें",
+    quantity: "गिनती करना",
+    quantity_in_basket: "कार्ट में आइटम",
+    count_unit: "एक्स",
+    remove: "हटाना",
+    add_to_basket: "कार्ट में डालें",
+    book_now: "अभी बुक करें",
+    reserve_now: "अभी रिजर्व करें",
+    buy_now: "अभी खरीदें",
+
+    buy: "खरीदना",
+    notifications: {
+      inform_add_success: "इसके उपलब्ध होने पर हम आपको बताएंगे.",
+      inform_remove_success: "आपको प्रतीक्षा सूची से हटा दिया गया है।",
     },
-    "template": {
-      "title": "टेम्पलेट्स",
-      "valid_message": "आप कस्टम एसएमएस संदेश बना सकते हैं।",
-      "provider_not_enable_message": "एसएमएस प्रदाता सक्षम नहीं है!",
-      "need_custom_provider_message": "अनुकूलित एसएमएस संदेश केवल तभी काम करते हैं जब आप कोई कस्टम प्रदाता सेट करते हैं।",
-      "add_new": "नया जोड़ो",
-      "disable_reason": {
-        "set_provider": "सबसे पहले अपना प्रदाता निर्धारित करें!",
-        "provider_is_disabled": "प्रदाता अक्षम है!",
-        "otp": "ओटीपी - कोई अनुकूलन योग्य नहीं!",
-        "select_another_provider": "किसी अन्य प्रदाता का चयन करें."
+  },
+  /** @see SProductOverview **/
+  product_info: {
+    fake: "नकली",
+    action: "नीलामी",
+    compare_limit: "10 आइटम की सीमा",
+    compare_add: "तुलना करने के लिए जोड़ें",
+    compare_be_in_list: "तुलना सूची में",
+
+    type: "प्रकार",
+    brand: "ब्रैंड",
+    category: "श्रेणी",
+    discount: "छूट",
+    track_price: "ट्रैक कीमत",
+    waiting_for_auction: "नीलामी की प्रतीक्षा कर रहे हैं?",
+    inform_auction: "नीलामी के समय मुझे सूचित करें",
+    return_in_days: "{days} दिन की वारंटी वापसी",
+    support24h7: "समर्थन 24 घंटे 7 दिन",
+    support_normal: "काम के घंटे समर्थन",
+    original_guarantee: "मूल गारंटी",
+    cod_payment: "कैश ऑन डिलीवरी सपोर्ट",
+
+    pros: "पेशेवरों",
+    cons: "दोष",
+
+    external_link: "अधिक पढ़ें",
+    notifications: {
+      congratulation: "बधाई हो",
+      waiting_list_add_success:
+        "इस उत्पाद की नीलामी होने पर हम आपको सूचित करेंगे।",
+      waiting_list_delete_success: "आप नीलामी प्रतीक्षा सूची से बाहर हो गए हैं।",
+    },
+
+    offer_message: "{min_quantity} खरीदें, इन आइटम पर {percent}% की छूट पाएं",
+    up_to: "अधिकतम {per_order}x प्रति आदेश",
+    get_free: "नि: शुल्क पाएं",
+    get_off: "{percent}% की छूट पाएं",
+  },
+
+  /** @see SStyler **/
+  styler: {
+    size_class: "आकार और वर्ग",
+    delete_bg: "पृष्ठभूमि छवि हटाएं",
+    bg_color: "पीछे का रंग",
+    section_style: "अनुभाग शैली सेट करें",
+    link: "लिंक सेट करें",
+    show_products: "उत्पाद / श्रेणियाँ सूची प्रबंधन",
+    show_product: "उत्पाद चुनें",
+    delete_section: "अनुभाग हटाएं",
+    text_color: "लिखावट का रंग",
+    tex_align: "पाठ्य संरेखण",
+    text_style: "पाठ शैली",
+    bg_image: "पृष्ठभूमि छवि",
+
+    product: {
+      title: "उत्पाद चुनें",
+    },
+
+    /** @see SPageProductsFilter **/
+    products: {
+      title: "उत्पाद और श्रेणियां सूची प्रबंधन",
+      sort_options: "छँटाई और दृश्य सेटिंग्स का चयन करें",
+      item_types: "केवल उत्पाद / श्रेणियां दिखाएं",
+      product_only: "केवल उत्पाद",
+      category_only: "केवल श्रेणियाँ",
+      no_category: "आपके स्टोर में कोई श्रेणी नहीं है।",
+      limit: "उत्पाद सीमा",
+      limit_message: "उत्पाद परिणाम संख्या दर्ज करें",
+      select_categories: "उपलब्ध श्रेणियों का चयन करें",
+      categories_limit: "श्रेणियाँ सीमा",
+      categories_limit_msg:
+        "श्रेणियों की अधिकतम संख्या दर्ज करें। बिना किसी सीमा के शून्य सेट करें।",
+    },
+  },
+
+  /** @see BPageShopCrmChat **/
+  shop_contacts: {
+    popup: "पॉपअप समर्थन सक्षम करें",
+    popup_message:
+      "इस विकल्प को एक्टिवेट करने पर आपके स्टोर के नीचे दाईं ओर सपोर्ट की दिखाई देगी।",
+  },
+
+  /** @see BPagePopup **/
+  popup_page: {
+    preview: "लाइव पॉपअप देखें",
+
+    menu: {
+      design: "डिज़ाइन",
+      appearance: "उपस्थिति",
+      filter: "फ़िल्टर",
+      setting: "सेटिंग",
+    },
+    notifications: {
+      save: "पॉपअप सफलतापूर्वक सहेजा गया.",
+      edit: "पॉपअप सफलतापूर्वक अपडेट किया गया।",
+    },
+  },
+  /** @see LMenuLeftPopupAppearance **/
+  popup_appearance: {
+    position: "पद",
+    position_desc:
+      "पृष्ठ पर इस अधिसूचना का प्रदर्शन स्थान निर्दिष्ट करें।",
+    width: "चौड़ाई",
+    width_desc: "आप अधिकतम पृष्ठ चौड़ाई निर्धारित कर सकते हैं।",
+    height: "ऊंचाई",
+    height_desc: "आप अधिकतम पृष्ठ ऊंचाई निर्धारित कर सकते हैं।",
+    radius: "कोने का अर्द्ध व्यास",
+    radius_desc:
+      "इस खंड में आप अधिसूचना के कोनों की वक्रता त्रिज्या निर्धारित कर सकते हैं।",
+    shadow: "छाया",
+    shadow_desc: "क्या आप चाहते हैं कि पॉप-अप विंडो छायांकित हो?",
+    delay: "देरी दिखाएं",
+    delay_desc:
+      "एक बार जब उपयोगकर्ता आपके स्टोर में प्रवेश करता है, तो यह समय बीत जाने के बाद, उपयोगकर्ता को एक सूचना प्रदर्शित की जाएगी।",
+    hide: "देरी छुपाएं",
+    hide_desc:
+      "आप यह सेट कर सकते हैं कि शो के कुछ सेकंड बाद नोटिफिकेशन अपने आप बंद हो जाएगा। 0 के मान का अर्थ है कि सूचना अपने आप बंद नहीं होगी।",
+    transition: "पॉपअप एनिमेशन",
+  },
+
+  /** @see BPagePopupFilter **/
+  popup_filter: {
+    registered: "सदस्यता और लॉगिन आवश्यकता",
+    registered_desc:
+      "आप इस सूचना को केवल उपयोगकर्ताओं या अतिथियों को संग्रहीत करने के लिए दिखाना चुन सकते हैं।",
+    only_guests: "केवल मेहमान",
+    only_users: "केवल लॉग इन उपयोगकर्ता",
+    purchased: "खरीद इतिहास",
+    purchased_desc:
+      "आप इस सूचना को केवल उन उपयोगकर्ताओं को दिखाना चुन सकते हैं जो पहले ही खरीद चुके हैं या जिन्होंने अभी तक खरीदारी नहीं की है।",
+    no_purchase: "अभी तक कोई खरीद नहीं",
+    yes_purchase: "पहले खरीदा गया",
+    sex: "लिंग",
+    sex_desc:
+      "क्या आप चाहते हैं कि यह सूचना केवल एक विशिष्ट लिंग के उपयोगकर्ताओं को दिखाई जाए?",
+    age: "न्यूनतम आयु",
+    age_desc:
+      "यदि 6 से अधिक का कोई मान दर्ज किया जाता है, तो उपयोगकर्ता को लॉग इन होना चाहिए और अपनी जन्मतिथि दर्ज करनी चाहिए।",
+    levels: "ग्राहक क्लब स्तर",
+    levels_desc:
+      "यदि उपयोगकर्ता के नीचे चयनित स्तरों में से एक है, तो उसे यह सूचना प्रदर्शित की जाएगी।",
+    countries: "स्थान प्रतिबंध",
+    countries_desc:
+      "क्या आप चाहते हैं कि यह सूचना केवल एक विशिष्ट देश से आने वाले उपयोगकर्ताओं के लिए प्रदर्शित हो?",
+  },
+
+  /** @see BPagePopupSetting **/
+  popup_setting: {
+    published: "प्रकाशित स्थिति",
+    repeat: "दोहराना",
+    repeat_msg:
+      "क्या आप चाहते हैं कि यह सूचना उपयोगकर्ता को एक से अधिक बार प्रदर्शित हो?",
+    intervals: "पॉपअप प्रदर्शन की समय अवधि",
+    intervals_msg:
+      "किसी उपयोगकर्ता को सूचनाएं प्रदर्शित करने के बीच की न्यूनतम समय अवधि समाप्त हो जानी चाहिए।",
+    designer_zone: "डिजाइनर क्षेत्र",
+    title: "पॉपअप शीर्षक",
+    note: "डिजाइनर नोट",
+    image: "कवर छवि",
+    delete: {
+      title: "मिटाना",
+      sub_title:
+        "एक बार जब आप पॉपअप हटा देते हैं, तो कोई वापसी नहीं होती है। कृपया निश्चित रहें।",
+      action: "यह पॉपअप हटाएं",
+    },
+    notifications: {
+      delete: "पॉपअप हटाया गया.",
+    },
+  },
+
+  /**
+   *  {@see BPageShopSettingSms}
+   *  {@see BShopSmsTemplateList}
+   *  {@see BShopSmsTemplateEditor}
+   *
+   **/
+  shop_sms: {
+    tabs: {
+      templates: "टेम्पलेट्स",
+      provider: "प्रदाता",
+    },
+
+    manage: {
+      title: "एसएमएस प्रबंधित करें",
+      subtitle:
+        "आप यहां अपने स्टोर द्वारा भेजे गए टेक्स्ट संदेशों की सामग्री देख सकते हैं। संदेश सेवा में सत्यापन पैटर्न दर्ज करने की सीमा के कारण, इस समय पाठ संदेशों को वैयक्तिकृत करना संभव नहीं है।",
+    },
+
+    template: {
+      title: "टेम्पलेट्स",
+      valid_message: "आप कस्टम एसएमएस संदेश बना सकते हैं।",
+      provider_not_enable_message: "एसएमएस प्रदाता सक्षम नहीं है!",
+      need_custom_provider_message:
+        "अनुकूलित एसएमएस संदेश केवल तभी काम करते हैं जब आप कोई कस्टम प्रदाता सेट करते हैं।",
+      add_new: "नया जोड़ो",
+      disable_reason: {
+        set_provider: "सबसे पहले अपना प्रदाता निर्धारित करें!",
+        provider_is_disabled: "प्रदाता अक्षम है!",
+        otp: "ओटीपी - कोई अनुकूलन योग्य नहीं!",
+        select_another_provider: "किसी अन्य प्रदाता का चयन करें.",
       },
-      "enable_only_filter": "केवल सक्षम दिखाएं",
-      "text_template_not_supported_msg": "आपका प्रदाता सादे पाठ संदेश का समर्थन नहीं करता है।",
-      "structure_template_not_supported_msg": "आपका प्रदाता संरचनात्मक संदेशों का समर्थन नहीं करता है.",
-      "structured_data": "संरचित डेटा",
-      "menu": {
-        "reset_error": "रीसेट त्रुटियाँ",
-        "send_test": "परीक्षण संदेश भेजें"
-      }
-    },
-    "template_edit": {
-      "title_add": "नया संदेश टेम्प्लेट जोड़ें",
-      "title_edit": "संदेश टेम्पलेट संपादित करें",
-      "config": {
-        "title": "संदेश कॉन्फ़िगरेशन",
-        "subtitle": "आप अपने एसएमएस प्रदाता की वेबसाइट पर एसएमएस संदेश के लिए एक टेम्प्लेट बना सकते हैं, फिर यहां उसका कोड और डेटा संरचना निर्दिष्ट कर सकते हैं। हम यह जानकारी आपके प्रदाता को भेज देंगे, जहां वास्तविक एसएमएस संदेश तैयार किया जाएगा।",
-        "code": "कोड",
-        "language_msg": "इसे डिफ़ॉल्ट के रूप में सेट करने के लिए इसे खाली छोड़ दें.",
-        "enable_msg": "इस टेम्पलेट का उपयोग संदेश बनाने के लिए किया जाएगा।"
+      enable_only_filter: "केवल सक्षम दिखाएं",
+
+      text_template_not_supported_msg:
+        "आपका प्रदाता सादे पाठ संदेश का समर्थन नहीं करता है।",
+      structure_template_not_supported_msg:
+        "आपका प्रदाता संरचनात्मक संदेशों का समर्थन नहीं करता है.",
+
+      structured_data: "संरचित डेटा",
+
+      menu: {
+        reset_error: "रीसेट त्रुटियाँ",
+        send_test: "परीक्षण संदेश भेजें",
       },
-      "text": {
-        "title": "सादे पाठ",
-        "subtitle": "यहाँ एक व्यक्तिगत SMS संदेश दर्ज करें। उपयोगकर्ता को भेजे जाने से पहले गतिशील मानों को उनके वास्तविक मानों से प्रतिस्थापित किया जाएगा।",
-        "message": "संदेश",
-        "reset_to_default": "वितथ पर ले जाएं",
-        "auto_fill": {
-          "title": "स्वतः भरण पैरामीटर",
-          "subtitle": "आप पाठ में इनमें से प्रत्येक पैरामीटर का उपयोग कर सकते हैं और सेलडोन उन्हें संबंधित मान से प्रतिस्थापित कर देगा।"
-        },
-        "sample": {
-          "title": "नमूना संदेश"
-        }
+    },
+    template_edit: {
+      title_add: "नया संदेश टेम्प्लेट जोड़ें",
+      title_edit: "संदेश टेम्पलेट संपादित करें",
+      config: {
+        title: "संदेश कॉन्फ़िगरेशन",
+        subtitle:
+          "आप अपने एसएमएस प्रदाता की वेबसाइट पर एसएमएस संदेश के लिए एक टेम्प्लेट बना सकते हैं, फिर यहां उसका कोड और डेटा संरचना निर्दिष्ट कर सकते हैं। हम यह जानकारी आपके प्रदाता को भेज देंगे, जहां वास्तविक एसएमएस संदेश तैयार किया जाएगा।",
+        code: "कोड",
+        language_msg: "इसे डिफ़ॉल्ट के रूप में सेट करने के लिए इसे खाली छोड़ दें.",
+        enable_msg: "इस टेम्पलेट का उपयोग संदेश बनाने के लिए किया जाएगा।",
       },
-      "template": {
-        "title": "संरचनात्मक टेम्पलेट",
-        "subtitle": "आप यहाँ टेम्पलेट कुंजी और मान सेट कर सकते हैं। टेम्पलेट कोड बिल्कुल वैसा ही होना चाहिए जैसा आपने अपने एसएमएस सेवा प्रदाता में सेट किया है, और <code>key</code> वह है जिसके माध्यम से आपका प्रदाता कोड भेजना चाहता है। यदि टेम्पलेट का <code>value</code> फ़ील्ड खाली है, तो <code>{code}</code> को टेम्पलेट कोड माना जाएगा।",
-        "add_new_parameter": "नया पैरामीटर जोड़ें",
-        "auto_fill": {
-          "title": "स्वतः भरण पैरामीटर",
-          "subtitle": "आप इनमें से प्रत्येक पैरामीटर को एक मान के रूप में सेट कर सकते हैं, और Selldone उन्हें संगत मान से बदल देगा। सरलता के लिए अपने SMS प्रदाता में डिफ़ॉल्ट मानों को टेम्प्लेट के रूप में परिभाषित करना बेहतर है। इस मामले में, यहाँ पैरामीटर मानों को परिभाषित करने की कोई आवश्यकता नहीं होगी।"
+      text: {
+        title: "सादे पाठ",
+        subtitle:
+          "यहाँ एक व्यक्तिगत SMS संदेश दर्ज करें। उपयोगकर्ता को भेजे जाने से पहले गतिशील मानों को उनके वास्तविक मानों से प्रतिस्थापित किया जाएगा।",
+        message: "संदेश",
+        reset_to_default: "वितथ पर ले जाएं",
+
+        auto_fill: {
+          title: "स्वतः भरण पैरामीटर",
+          subtitle:
+            "आप पाठ में इनमें से प्रत्येक पैरामीटर का उपयोग कर सकते हैं और सेलडोन उन्हें संबंधित मान से प्रतिस्थापित कर देगा।",
         },
-        "request": {
-          "title": "नमूना पेलोड"
+
+        sample: {
+          title: "नमूना संदेश",
         },
-        "sample": {
-          "title": "नमूना टेम्पलेट संदेश",
-          "subtitle": "आप इस टेम्पलेट को कॉपी करके अपने एसएमएस प्रदाता के पास पेस्ट कर सकते हैं।"
-        },
-        "add_message_action": "संदेश टेम्प्लेट जोड़ें"
-      }
-    }
-  },
-  "shop_emails": {
-    "title": "ईमेल प्रबंधित करें",
-    "sub_title": "आप इस अनुभाग में स्टोर द्वारा ग्राहकों और प्रबंधकों को भेजे गए ईमेल की सूची देखेंगे। आपके द्वारा अपने स्टोर के लिए दर्ज की गई जानकारी के आधार पर ईमेल स्वचालित रूप से डिज़ाइन और बनाए जाते हैं। साथ ही, भविष्य में संदेशों और छवियों को निजीकृत करने की संभावना जनता के लिए उपलब्ध होगी।",
-    "tabs": {
-      "preferences": "पसंद",
-      "templates": "टेम्पलेट्स",
-      "provider": "प्रदाता"
-    },
-    "preferences": {
-      "title": "अधिसूचना ईमेल"
-    }
-  },
-  "instagram": {
-    "title": "Instagram पर बिक्री",
-    "message": "इस टूल की मदद से आप अपने इंस्टाग्राम को स्टोर में बदल सकते हैं। बस यहां अपने Instagram खाते को जोड़ें और पुष्टि करें, फिर आप प्रत्येक पोस्ट से या अपनी कहानी पर एक या अधिक उत्पाद पोस्ट कर सकेंगे, अपनी उत्पाद सूची जोड़ और टैग कर सकेंगे या किसी पोस्ट को एक नए उत्पाद में बदल सकेंगे!",
-    "add_product": "नया उत्पाद जोड़ें",
-    "create_product": "उत्पाद बनाएं",
-    "link_box_msg": "इस लिंक को इंस्टाग्राम, टेलीग्राम या अन्य सोशल मीडिया पर अपने बायो में डालें ताकि आपके दर्शक तेज, आसान, अधिक और अंत में अधिक खरीद सकें।",
-    "remove_account": "इंस्टाग्राम लिंक बदलें / हटाएं",
-    "sync": "खाता डेटा सिंक करें (हर 60 मिनट में)"
-  },
-  "service_bill": {
-    "task": {
-      "title": "करने के लिए सूची",
-      "message": "आप जो काम करना चाहते हैं उसके शीर्षक लिखें और खरीदार को बताएं कि यह कितना आगे बढ़ चुका है।"
-    },
-    "booking": {
-      "title": "आरक्षण निश्चित कर रहे हैं",
-      "message": "यह आदेश एक निर्दिष्ट समय पर संसाधित किया जाएगा, ग्राहक ने वांछित अवधि का चयन किया है, यदि आप चयनित अवधि में कोई परिवर्तन करना चाहते हैं, तो ग्राहक को बताएं।",
-      "selected_checkin": "चयनित ग्राहक लॉगिन तिथि",
-      "selected_checkout": "चयनित ग्राहक निकास तिथि",
-      "change_days_question": "क्या आपको ग्राहक चयनित दिनों के दौरान बदलने की आवश्यकता है?",
-      "show_calendar": "ऑर्डर का कैलेंडर दिखाएं"
-    },
-    "pricing": {
-      "title": "मूल्य निर्धारण",
-      "message": "आप इस सेवा के लिए कितना शुल्क लेते हैं?"
-    },
-    "subscription": {
-      "title": "अंशदान",
-      "message": "आप इस सेवा को दैनिक आधार पर खरीदकर सदस्यता अवधि चुन सकते हैं। खरीदार को बताएं कि क्या आप पहले से दर्ज किए गए डिफ़ॉल्ट मानों को बदलना चाहते हैं।",
-      "duration": "सदस्यता अवधि"
-    },
-    "charge": {
-      "title": "शुल्क",
-      "message": "आपने इस मद के लिए एक शुल्क निर्दिष्ट किया है। आप ग्राहक द्वारा खरीदी गई वस्तु के लिए शुल्क राशि बदल सकते हैं।",
-      "charge": "शुल्क"
-    },
-    "save_item": "सत्यापित करें और सेट करें",
-    "start_service": "सेवा शुरू करें",
-    "end_service": "खत्म करना"
-  },
-  "service_tasks": {
-    "notification_finish": {
-      "title": "सेवा की समाप्ति",
-      "message": "यदि ऐसा किया जाता है, तो आदेश को पूरा करने और बंद करने के लिए पुष्टिकरण कुंजी दबाएं।",
-      "action": "आदेश की पुष्टि करें और पूरा करें"
-    }
-  },
-  "product_outputs": {
-    "outputs_form": "प्रदर्शन की सूचना संरचना (आउटपुट)",
-    "virtual": {
-      "title": "उत्पाद आउटपुट सूचना प्रपत्र",
-      "sub_title": "वह जानकारी जिसे आप खरीद के बाद उपयोगकर्ता को दिखाना चाहते हैं। यह प्रपत्र विशेष रूप से उपहार कार्ड जैसे आभासी उत्पादों की बिक्री के लिए लागू होता है।"
-    },
-    "service": {
-      "title": "सेवा डिजाइन",
-      "sub_title": "सबसे पहले अपनी सेवा का प्रकार चुनें और आवश्यक जानकारी दर्ज करें। उदाहरण के लिए, आप एक टूडू सूची को परिभाषित कर सकते हैं या ग्राहक से बुकिंग समय या अपॉइंटमेंट के लिए कह सकते हैं।"
-    }
-  },
-  "service_design": {
-    "type": "सेवा प्रकार",
-    "type_message": "इस उत्पाद के लिए आपके द्वारा प्रदान की जाने वाली सेवा का प्रकार चुनें। प्रत्येक आइटम का चयन करके, प्रासंगिक प्रपत्र प्रदर्शित किया जाएगा। आपके द्वारा चुनी गई सेवा के प्रकार के आधार पर, ऑर्डर करते समय ग्राहक से अधिक जानकारी प्राप्त की जा सकती है।"
-  },
-  "ServiceTypes": {
-    "DEMAND": {
-      "title": "मांग पर",
-      "desc": "जैसे घर की मरम्मत, पेंटिंग, कार की मरम्मत आदि।"
-    },
-    "BOOKING": {
-      "title": "बुकिंग",
-      "desc": "जैसे होटल का कमरा या विला बुक करना।"
-    },
-    "APPOINTMENT": {
-      "title": "नियुक्ति",
-      "desc": "पालतू जानवरों की देखभाल की नियुक्ति या व्यक्तिगत रूप से प्रशिक्षण की तरह।"
-    },
-    "RENTAL": {
-      "title": "किराये पर लेना",
-      "desc": "जैसे कोई जगह या कार किराए पर लेना।"
-    },
-    "SUBSCRIPTION": {
-      "title": "अंशदान",
-      "desc": "जैसे क्लब की सदस्यता या ऑनलाइन कोचिंग।"
-    },
-    "CHARGE": {
-      "title": "शुल्क",
-      "desc": "जैसे किसी खाते को चार्ज करना या किसी एप्लिकेशन का उपयोग करने के लिए चार्ज करना।"
-    },
-    "CUSTOM": {
-      "title": "रिवाज़",
-      "desc": "यदि आप जो सेवा प्रदान करते हैं वह उपरोक्त में से कोई नहीं है, तो इस विकल्प का चयन करें।"
-    }
-  },
-  "avocado": {
-    "title": "सभी सोशल मीडिया पर तेज, सटीक और मनोरंजक बिक्री",
-    "message": "अपने ग्राहकों से धन प्राप्त करने के लिए आपको केवल एक राशि और एक शीर्षक की आवश्यकता है! पैसा सीधे आपके खाते में जमा किया जाएगा और आपके ग्राहकों को खरीदारी का एक अनूठा अनुभव होगा।",
-    "new_order": "नया बिल",
-    "create_by_seller_title": "इनवॉयस बनाएँ",
-    "create_by_seller_message": "यदि आप एक निश्चित राशि के साथ एक चालान बनाना चाहते हैं और उसे किसी को भेजना चाहते हैं, तो आप चालान फॉर्म दिखाने के लिए नीचे दिए गए बटन को दबा सकते हैं। खरीदार को भुगतान करने और इसके माध्यम से अपने ऑर्डर को ट्रैक करने के लिए जेनरेटेड लिंक दें।",
-    "create_by_buyer_title": "एवोकैडो फॉर्म",
-    "create_by_buyer_message": "इस सेक्शन को सक्रिय करने पर आपको एक लिंक दिखाई देगा, अपने खरीदारों को यह लिंक प्रदान करें ताकि वे अपना ऑर्डर दे सकें।",
-    "orders_list": "आदेश सूची",
-    "active_mode": "आदेश रसीद सक्रिय",
-    "inactive_mode": "निष्क्रिय",
-    "active_message": "इस स्रोत को सक्रिय करके, आपके ग्राहक नीचे देखे गए अनुरोध फ़ॉर्म के माध्यम से उत्पाद के लिए ऑर्डर दे सकेंगे।",
-    "avocado_form_link_message": "इस लिंक को इंस्टाग्राम, टेलीग्राम या अन्य सोशल मीडिया पर अपने बायो में डालें ताकि आपके दर्शक तेज, आसान और अंत में अधिक खरीद सकें",
-    "need_address": "पता प्राप्त करें",
-    "need_address_msg": "यदि आपको खरीदार का स्थान और पता प्राप्त करने की आवश्यकता है, तो इस विकल्प का चयन करें।",
-    "avocado_link_message": "ऑर्डर का भुगतान करने के लिए ग्राहक को उपरोक्त लिंक प्रदान करना पर्याप्त है। ग्राहक इस लिंक के जरिए ऑर्डर का पालन कर सकेंगे।",
-    "edit_order": "आदेश संपादित करें",
-    "progress": "प्रगति दर",
-    "buyer_link": "क्रेता लिंक",
-    "buyer_link_message": "अपने खरीदार को यह लिंक प्रदान करें। खरीदार इस लिंक के माध्यम से अपने ऑर्डर का भुगतान और ट्रैक कर सकेगा। यह लिंक कोडित है, यदि किसी को लिंक प्रदान किया जाता है, तो वह भुगतान करने और जानकारी देखने में सक्षम होगा। यह लिंक 60 दिनों तक सक्रिय रहेगा। कॉपी करने के लिए नीचे दिए गए लिंक पर क्लिक करें।",
-    "OrderConfirm_done": "ऑर्डर की पुष्टि की गई।",
-    "OrderConfirm_message": "यदि आप भुगतान की पुष्टि करते हैं और आदेश सही है, तो नीचे दिए गए बटन पर क्लिक करें।",
-    "OrderConfirm_action": "आदेश की पुष्टि",
-    "PreparingOrder_message": "यदि ग्राहक आदेश शिप करने के लिए तैयार है, तो नीचे दिए गए OK बटन पर क्लिक करें।",
-    "PreparingOrder_action": "ऑर्डर शिप करने के लिए तैयार है",
-    "finish_message": "यदि यह आदेश पूरा हो जाता है, तो इस आदेश को बंद करने के लिए अंत बटन दबाएं।",
-    "finish_action": "पूर्ण आदेश प्रसंस्करण",
-    "finish_dialog": {
-      "title": "आदेश पूरा करें",
-      "message": "क्या आदेश पूरा हो गया है और क्या आप वाकई इसे बंद करना चाहते हैं?",
-      "action": "हां, आदेश के पूरा होने की पुष्टि करें"
-    },
-    "configuration": "एवोकैडो सेटिंग्स",
-    "delivery_price": "शिपिंग लागत",
-    "edit_avocado_action": "जानकारी संपादित करें",
-    "submit_pricing_avocado_action": "ऑर्डर की कीमत सबमिट करें",
-    "add_avocado_action": "चालान लिंक बनाएं",
-    "avocados_list": "एवोकैडो की सूची",
-    "not_pricing": "इस वस्तु की कीमत नहीं है!",
-    "show_all": "सब दिखाएं",
-    "show_accepted": "पुष्टि किए गए आइटम दिखाएं",
-    "notifications": {
-      "update_success": "एवोकैडो सफलतापूर्वक अपडेट किया गया।",
-      "add_success": "एवोकैडो सफलतापूर्वक बनाया गया।"
-    },
-    "name": "एवोकाडो"
-  },
-  "avocado_orders": {
-    "title": "एवोकाडो",
-    "title_small": "सोशल मीडिया सेल्स",
-    "pending_orders": "सक्रिय आदेश",
-    "avocado": "एवोकैडो ऑर्डर करें"
-  },
-  "avocado_process": {
-    "step1": "मूल्य निर्धारण",
-    "step1_msg": "प्रत्येक वस्तु की कीमत दर्ज करें और हरे बॉक्स को चेक करें। यदि किसी वस्तु को बेचना संभव नहीं है, तो उसकी स्थिति को अस्वीकृत में बदलें।",
-    "step2": "चालान की पुष्टि करें",
-    "step2_msg": "इस आदेश के लिए एक चालान बनाएं। आप चालान के लिए एक शीर्षक और विवरण दर्ज कर सकते हैं। ऑर्डर राशि की गणना स्वचालित रूप से आइटम की कुल कीमत के आधार पर की जाती है।",
-    "title_input": "चालान शीर्षक *",
-    "show_to_customer": "यह जानकारी खरीदार को दिखाई जाती है.",
-    "description_msg": "क्या आप इस आदेश के लिए एक नोट लिखना चाहते हैं? यह जानकारी खरीदार को दिखाई जाएगी।",
-    "price_input": "ऑर्डर करने की राशि *",
-    "tax_none": "कर मुक्त",
-    "tax_included": "कीमत में शामिल",
-    "tax_add": "कर जोड़ें",
-    "tax_message": "आप चुन सकते हैं कि कीमत में कर शामिल है या नहीं।",
-    "tax_included_messages": "टैक्स कीमत में शामिल है।",
-    "tax_add_messages": "टैक्स को अंतिम कीमत में जोड़ा जाना चाहिए।"
-  },
-  "hyper": {
-    "print_label": "निम्नलिखित लेबल को प्रिंट करें और इसे उत्पाद के सामने रखें",
-    "hyper_form_link_product_message": "आपके ग्राहक इस लिंक के माध्यम से जल्दी से {product} खरीद सकेंगे। वे क्यूआर कोड को स्कैन करके भी उसी लिंक को दर्ज करेंगे।",
-    "title": "हाइपर क्विक सेल",
-    "message": "हाइपर सेलडोन बिक्री चैनल की मदद से, आपके ग्राहक आपकी ओर से आवश्यक किसी भी कार्रवाई के बिना एक क्यूआर कोड स्कैन करके उत्पाद खरीद सकेंगे। त्योहारों, प्रदर्शनियों, या व्यस्त समारोहों में बड़ी संख्या में कुछ वस्तुओं को जल्दी से बेचने के लिए इस तरीके का उपयोग करें। इस खंड में हाइपर को सक्रिय करने के बाद, आप उत्पाद प्रबंधन अनुभाग में भौतिक उत्पादों के लिए एक हाइपर क्यूआर कोड बना सकते हैं।",
-    "orders_list": "हाइपर ऑर्डर सूची",
-    "active_mode": "हाइपर सेल्स चैनल सक्रिय",
-    "inactive_mode": "निष्क्रिय",
-    "active_message": "यदि आप इस विकल्प को सक्षम करते हैं, तो प्रत्येक उत्पाद के प्रबंधन अनुभाग में फास्ट-सेल्स-कोड बनाने की संभावना प्रदर्शित की जाएगी।",
-    "hyper_form_link_message": "आपके स्टोर का हाइपर पेज लिंक",
-    "configuration": "हाइपर सेटिंग्स",
-    "name": "अति"
-  },
-  "hyper_orders": {
-    "title": "अति",
-    "title_small": "बिक्री रिपोर्ट",
-    "hyper": "प्राप्त आदेश"
-  },
-  "product_file": {
-    "no_file": "अभी तक कोई फ़ाइल अपलोड नहीं हुई!",
-    "delete_dialog": {
-      "title": "फ़ाइल नष्ट करें",
-      "message": "क्या आप वाकई इस फ़ाइल को हटाना चाहते हैं?",
-      "action": "हां, अभी हटाएं"
-    },
-    "notifications": {
-      "delete_success": "फ़ाइल सफलतापूर्वक हटाई गई."
-    },
-    "drag_sort_msg": "आप फ़ाइलों को खींच और क्रमबद्ध कर सकते हैं.",
-    "paid_mode_msg": "उपयोगकर्ता उत्पाद खरीदने के बाद ही इसे डाउनलोड कर सकते हैं।",
-    "free_mode_msg": "उपयोगकर्ता इसे निःशुल्क डाउनलोड कर सकते हैं। नमूना फ़ाइलें 50 एमबी से कम होनी चाहिए।",
-    "has_gust_shopping_msg": "पंजीकृत और अतिथि उपयोगकर्ता फ़ाइलें डाउनलोड कर सकते हैं क्योंकि दुकान की सेटिंग > प्रवाह में अतिथि खरीदारी सक्षम है।",
-    "only_registered_shopping_msg": "केवल पंजीकृत उपयोगकर्ता ही नमूना फ़ाइलें डाउनलोड कर सकते हैं।",
-    "file_count_limit": "फ़ाइलों की संख्या सीमा"
-  },
-  "notification_top_bar": {
-    "free_charge": "🎊 {amount} चार्ज करें और {amount_total} क्रेडिट प्राप्त करें।",
-    "charge_action": "मुफ़्त क्रेडिट का दावा करना",
-    "claim_title": "अपने मुफ़्त क्रेडिट का दावा करें",
-    "claim_charge_caution": "नोट: आपके वॉलेट खातों के बीच मुद्राओं को परिवर्तित करना संभव नहीं है। इसलिए, एक खाते का चयन करें जो आपके स्टोर में एक्सचेंज की गई मुद्रा के लिए उपयुक्त हो।",
-    "account_input": "जमा खाता",
-    "account_msg": "इस खाते पर शुल्क लगाया जाएगा"
-  },
-  "selldone_applications": {
-    "title": "अपने आदेश याद मत करो!",
-    "msg": "अपने व्यवसाय को कहीं भी और कभी भी प्रबंधित करें।",
-    "scan_qr_code": "मुझे अपने फ़ोन से स्कैन करें!",
-    "notification": {
-      "title": "अधिसूचना",
-      "subtitle": "नये ऑर्डर की सूचना प्राप्त करें."
-    },
-    "order": {
-      "title": "आदेश",
-      "subtitle": "अपने ऑर्डर देखें और उन्हें प्रबंधित करें."
-    },
-    "product": {
-      "title": "उत्पादों",
-      "subtitle": "इन्वेंटरी प्रबंधन और उत्पाद सादा."
-    }
-  },
-  "shop_seo": {
-    "title": "एसईओ विन्यास",
-    "msg": "जैविक ग्राहक अधिग्रहण चैनलों को सशक्त बनाकर ऑनलाइन मार्केटिंग के लिए तेजी से आगे बढ़ें।",
-    "auto": {
-      "title": "ऑटो एसईओ इंजन",
-      "msg": "अपनी वेबसाइट पर दर्शकों और खोज इंजनों के लिए एक सहज मोबाइल अनुभव प्रदान करें।"
-    },
-    "amp": {
-      "title": "AMP",
-      "msg": "त्वरित मोबाइल पेज ऑटो जेनरेशन।"
-    }
-  },
-  "shop_preferences": {
-    "order": {
-      "title": "आदेश",
-      "desc": "अगर कोई ग्राहक ऑर्डर का भुगतान करता है, तो ऑर्डर की जानकारी वाला एक ईमेल इस पते पर भेजा जाएगा।"
-    },
-    "return": {
-      "title": "वापस करना",
-      "desc": "यदि खरीदार द्वारा उत्पाद लौटाया जाता है, तो यह ईमेल भेजा जाएगा। यह ईमेल भेजना आपकी खरीदी गई योजना पर निर्भर करता है।"
-    },
-    "pos": {
-      "title": "POS",
-      "desc": "पीओएस बिक्री रिपोर्ट इस ईमेल पर भेजी जाएगी।"
-    },
-    "avocado": {
-      "title": "एवोकाडो",
-      "desc": "एवोकैडो ऑर्डर की दैनिक रिपोर्ट भेजें।"
-    },
-    "accounting": {
-      "title": "लेखांकन",
-      "desc": "वित्तीय रिपोर्ट और अपडेट स्टोर करें।"
-    },
-    "subscription": {
-      "title": "सदस्यता",
-      "desc": "प्रारंभ और समाप्ति सदस्यता सूचनाओं के साथ हाल ही में खरीदी गई योजना की स्थिति।"
-    },
-    "technical": {
-      "title": "तकनीकी",
-      "desc": "डोमेन और सेवा की स्थिति के बारे में तकनीकी सूचनाएं।"
-    },
-    "report": {
-      "title": "रिपोर्टों",
-      "desc": "इस ईमेल पर साप्ताहिक और मासिक रिपोर्ट भेजी जाएगी"
-    },
-    "review": {
-      "title": "समीक्षा",
-      "desc": "यदि आपको स्टोर में किसी प्रक्रिया की पुष्टि करने की आवश्यकता है, तो संबंधित ईमेल इस पते पर भेजा जाएगा। उदाहरण के लिए, उपयोगकर्ताओं को स्टोर करने के लिए मार्केटिंग ईमेल भेजने की पुष्टि करना।"
-    }
-  },
-  "shop_languages": {
-    "title": "स्टोर भाषाएं",
-    "sub_title": "स्टोर ऑटो-अनुवाद पैकेजों को स्थापित और सक्रिय करें।",
-    "message": "आप अपने स्टोर में अधिकतम 10 भाषा पैक स्थापित कर सकते हैं। यदि आपको अधिक पैकेज स्थापित करने की आवश्यकता है तो हमसे संपर्क करें।"
-  },
-  "invite_friends": {
-    "title": "अपने व्यवसाय के बारे में दुनिया को बताएं!",
-    "msg": "अपने दोस्तों को सेलडोन का परिचय दें। साइनअप करने पर उन्हें कंपनी के वाउचर में $99 मिलेंगे, और जब वे अपना पहला लेन-देन पूरा करेंगे, तो आपको स्टार्टअप वाउचर में $15 मिलेंगे।",
-    "invite": {
-      "title": "$99 का निःशुल्क वाउचर प्राप्त करने के लिए सेल्डोन व्यवसाय OS से जुड़ें।",
-      "description": "एक शानदार टूल के साथ अपना व्यवसाय ऑनलाइन शुरू करने के लिए मैं आपको सेलडोन में आमंत्रित करता हूं।",
-      "hashtags": "ई-कॉमर्स,वेबसाइटबिल्डर",
-      "quot": "मैंने सेलडोन द्वारा एक ऑनलाइन स्टोर बनाया है, अब आप अपना व्यवसाय भी कर सकते हैं।"
-    }
-  },
-  "shops_list": {
-    "title": "मेरी दुकानें",
-    "message": "मेरी अपनी दुकानों, अनुमत और नमूना दुकानों की सूची।",
-    "sample": {
-      "title": "नमूना स्टोर",
-      "subtitle": "यहाँ, आप नमूना स्टोर का चयन पा सकते हैं। आपको इन स्टोर में उपलब्ध जानकारी को पढ़ने की अनुमति दी गई है। हालाँकि, कृपया वास्तविक व्यक्तिगत जानकारी का उपयोग करके लॉग इन या ऑर्डर देने से बचें, क्योंकि यह डेटा सार्वजनिक रूप से उपलब्ध होगा। यदि आप गलती से अपनी जानकारी यहाँ दर्ज करते हैं, तो कृपया स्टोर से बाहर निकलें और आगे की सहायता के लिए हमसे संपर्क करें।"
-    },
-    "add_new_store": "नया स्टोर जोड़ें",
-    "i_have_a_deal": "मेरे पास एक सौदा है",
-    "access": {
-      "title": "प्रवेश आमंत्रण"
-    }
-  },
-  "shipping": {
-    "warehouse_error": "पहले अपना गोदाम सेट करें! इस पते का उपयोग शिपिंग की उत्पत्ति के रूप में किया जाएगा।",
-    "errors": {
-      "set_origin": "अपना स्थान मानचित्र सेट करें।",
-      "set_country": "अपना देश सेट करें।",
-      "set_address": "अपना पता सेट करें।",
-      "set_zip": "अपना डाक कोड सेट करें।"
-    },
-    "set_warehouse": "गोदाम सेट करें",
-    "pickup_location": "लेने की जगह",
-    "refresh_rates": "ताज़ा दरें",
-    "no_rate": "कोई दर नहीं...",
-    "view_messages": "संदेश देखें...",
-    "not_set_yet": "अभी तक सेट नहीं है!",
-    "drop_orders_here": "यहां ऑर्डर ड्रॉप करें..."
-  },
-  "blog_category": {
-    "title": "ब्लॉग श्रेणियाँ",
-    "add_action": "नई श्रेणी जोड़ें",
-    "add_dialog": {
-      "title": "नई / अद्यतन श्रेणी",
-      "force_edit": "बल संपादित पथ",
-      "force_edit_msg": "श्रेणी का नाम बदलें और सभी लेखों को अपडेट करें।",
-      "star_msg": "तारांकित श्रेणियों को ब्लॉग में दिखाना प्राथमिकता है.",
-      "star": "देखें",
-      "delete_action": "श्रेणी हटाएं",
-      "add_action": "कैटेगरी जोड़े",
-      "edit_action": "श्रेणी संपादित करें"
-    },
-    "subtitle": "आप अपने ब्लॉग पोस्ट को अधिक कुशलता से प्रबंधित करने के लिए उनके लिए सीमित संख्या में श्रेणियां बना सकते हैं। श्रेणी सीमा होने से आपकी वेबसाइट पर बेहतर संगठन को बढ़ावा मिलता है। उल्लेखनीय रूप से, शीर्ष समाचार एजेंसियां भी प्रबंधन को सुव्यवस्थित करने और व्यापक फ़ोकस बनाए रखने के लिए सीमित संख्या में श्रेणियां बनाए रखती हैं, जो अक्सर 100 से भी कम होती हैं।"
-  },
-  "about_us": {
-    "title": "हमारे बारे में पेज",
-    "subtitle": "हमारे बारे में पृष्ठ पर दिखाने के लिए अपने व्यवसाय के बारे में एक लेख लिखें। यह पेज आपके दर्शकों को आपके ब्रांड और मिशन को जानने में मदद करेगा।"
-  },
-  "terms": {
-    "title": "सेवा की शर्तें पृष्ठ",
-    "subtitle": "अपने ग्राहकों के लिए अपनी सेवाओं की खरीद और उपयोग की शर्तों की व्याख्या करें।"
-  },
-  "privacy": {
-    "title": "गोपनीयता नीति पृष्ठ",
-    "subtitle": "एक गोपनीयता नीति एक बयान या कानूनी दस्तावेज है जो एक पक्ष द्वारा ग्राहक या ग्राहक के डेटा को इकट्ठा करने, उपयोग करने, प्रकट करने और प्रबंधित करने के कुछ या सभी तरीकों का खुलासा करता है।"
-  },
-  "contact_us": {
-    "title": "हमसे संपर्क करें पेज",
-    "subtitle": "हमसे संपर्क करें पृष्ठ पर अपने ग्राहकों को दिखाए जाने के लिए अपनी संपर्क जानकारी, पता और फोन नंबर लिखें।"
-  },
-  "metaverse": {
-    "title": "मेटावर्स ब्रिज",
-    "subtitle": "सेलडोन वाणिज्य क्षेत्र में %100 एपीआई-आधारित सेवाएं प्रदान करता है। गेम, ब्लॉकचैन और मेटावर्स डेवलपर्स काम, जीवन और व्यापार की दुनिया के भविष्य में व्यवसायों, ग्राहकों और सेवाओं को जोड़ने के लिए इन शक्तिशाली एपीआई का उपयोग कर सकते हैं।",
-    "message": "गेम डेवलपर्स के लिए अर्ली ऐक्सेस"
-  },
-  "orders_bulk_export": {
-    "title": "आदेश सहायक",
-    "timespan": {
-      "title": "समय सीमा",
-      "subtitle": "ऑर्डर देने के लिए आरंभ और समाप्ति तिथियां चुनें।"
-    },
-    "tasks": {
-      "title": "कार्य आउटपुट",
-      "subtitle": "थोक में आदेश संसाधित करने के लिए कार्यों की सूची डाउनलोड करें। परिणाम में केवल भुगतान किए गए और COD ऑर्डर होते हैं।",
-      "export_title": "कार्यों की सूची"
-    },
-    "labels": {
-      "title": "पैकेज लेबल",
-      "subtitle": "चयनित समय अवधि और स्थिति में सभी ऑर्डर लेबल की सूची डाउनलोड करें। परिणाम में केवल भुगतान किए गए और COD ऑर्डर होते हैं।",
-      "export_title": "बॉक्स लेबल"
-    },
-    "subtitle": "थोक ऑर्डर प्रसंस्करण के लिए लेबल निर्यात और डाउनलोड करें - प्रतिदिन 100 से अधिक ऑर्डर संभालने के लिए आदर्श।"
-  },
-  "customers_funnel": {
-    "title": "ग्राहक जनसांख्यिकी",
-    "subtitle": "कम मार्केटिंग के साथ अधिक मूल्य देने के लिए बेहतर निर्णय लेने के लिए अपने ग्राहकों के डेटा को फ़िल्टर और निर्यात करें! कृपया अपने ग्राहकों की गोपनीयता का सम्मान करें और उन्हें कभी भी सामूहिक बल्क ईमेल न भेजें! अपने ग्राहकों की जानकारी को तृतीय पक्ष सेवाओं में से प्रत्येक से अनुमति प्राप्त किए बिना कभी भी साझा न करें।"
-  },
-  "transportation_pickups": {
-    "addresses": {
-      "title": "पिकअप पता",
-      "subtitle": "यहां पिकअप पते जोड़ें और संपादित करें। उपयोगकर्ता चेकआउट पृष्ठ पर पिकअप पते का चयन करने में सक्षम होंगे।",
-      "add_action": "नया स्थान जोड़ें"
-    }
-  },
-  "affiliate_pos": {
-    "title": "संबद्ध पीओएस",
-    "open_pos_action": "फास्ट ऑर्डरिंग पीओएस",
-    "description": "यह विकल्प Instagram पेजों और अन्य सामाजिक नेटवर्क के व्यवस्थापकों के लिए उपयुक्त है। ग्राहकों से मैन्युअल रूप से ऑर्डर प्राप्त करने और जोड़ने के लिए Affiliate POS का उपयोग करें। आपके सहयोगी (या फ्रैंचाइज़ी) संबद्ध पीओएस में नए ऑर्डर जोड़ सकते हैं और जमा पर्ची अपलोड कर सकते हैं।"
-  },
-  "shop_configuration": {
-    "login": {
-      "title": "लॉगिन के तरीके",
-      "subtitle": "जिस तरह से उपयोगकर्ता आपके स्टोर में लॉग इन करते हैं, उसे कस्टमाइज़ करें।"
-    },
-    "checkout": {
-      "title": "चेकआउट प्रवाह",
-      "subtitle": "अपने ईकॉमर्स में अपनी ग्राहक यात्रा और खरीदारी प्रवाह को अनुकूलित करें।",
-      "map": {
-        "title": "नक्शा",
-        "subtitle": "उपयोगकर्ताओं को मानचित्र पर वितरण स्थान का चयन करना होगा (जैसे उबेर)।",
-        "subtitle_no_map": "यदि ग्राहक द्वारा प्रदत्त पते में स्थान मौजूद नहीं है तो शिपिंग गणना में दूरी शून्य मानी जाती है।"
       },
-      "mode": {
-        "title": "ग्राहक लॉगिन बिंदु",
-        "default": {
-          "title": "ASAP (डिफ़ॉल्ट)",
-          "msg": "उपयोगकर्ता जल्द से जल्द लॉग इन करें। (अधिक रूपांतरण)"
+      template: {
+        title: "संरचनात्मक टेम्पलेट",
+        subtitle:
+          "यओउ कअन सएत तहए तएमपलअतए कुंजी अनद वअलउए हएरए. तहए तएमपलअतए कोड सहओउलद बए एक्सअकतलय वहअत यओउ सएत इन यओउर SMS सेवा परओवइदएर, अनद तहए <code>कुंजी</code> इस वहअत यओउर परओवइदएर वअनतस तओ सएनद तहए कोड तहरओउगह. इफ तहए <code>वअलउए</code> फइएलद ओफ तएमपलअतए इस खाली, तहएन <code>{code}</code> वइलल बए कओनसइदएरएद अस तहए तएमपलअतए कोड.",
+        add_new_parameter: "नया पैरामीटर जोड़ें",
+
+        auto_fill: {
+          title: "स्वतः भरण पैरामीटर",
+          subtitle:
+            "आप इनमें से प्रत्येक पैरामीटर को एक मान के रूप में सेट कर सकते हैं, और Selldone उन्हें संगत मान से बदल देगा। सरलता के लिए अपने SMS प्रदाता में डिफ़ॉल्ट मानों को टेम्प्लेट के रूप में परिभाषित करना बेहतर है। इस मामले में, यहाँ पैरामीटर मानों को परिभाषित करने की कोई आवश्यकता नहीं होगी।",
         },
-        "on_checkout": {
-          "title": "चेकआउट पर",
-          "msg": "उपयोगकर्ताओं को चेकआउट चरण में लॉग इन करने के लिए बाध्य करें।"
+        request: {
+          title: "नमूना पेलोड",
         },
-        "login_free": {
-          "title": "वैकल्पिक लॉगिन",
-          "msg": "आदेश भुगतान के बाद वैकल्पिक लॉगिन .."
-        }
+        sample: {
+          title: "नमूना टेम्पलेट संदेश",
+          subtitle: "आप इस टेम्पलेट को कॉपी करके अपने एसएमएस प्रदाता के पास पेस्ट कर सकते हैं।",
+        },
+        add_message_action: "संदेश टेम्प्लेट जोड़ें",
       },
-      "express": {
-        "title": "कार्ट में जोड़ने के बाद रीडायरेक्ट करें",
-        "false": {
-          "title": "सामान्य मोड",
-          "msg": "पेज पर बने रहें और कार्ट में जोड़ें पर क्लिक करने के बाद खरीदारी जारी रखें।"
-        },
-        "true": {
-          "title": "एक्सप्रेस मोड",
-          "msg": "कार्ट में जोड़ें क्लिक करने के बाद ग्राहक को चेकआउट पृष्ठ पर पुनर्निर्देशित करें।"
-        }
+    },
+  },
+  /** @see SmsTemplateMode **/
+  sms_template_mode: {
+    text: {
+      title: "सादे पाठ",
+      desc: "संदेश स्वचालित प्रतिस्थापन मापदंडों के साथ पाठ से बनाया जाएगा और भेजा जाएगा।",
+    },
+    template: {
+      title: "संरचनात्मक टेम्पलेट",
+      desc: "पैरामीटर्स से एक ऑब्जेक्ट बनाया जाएगा और प्रदाता को भेजा जाएगा।",
+    },
+  },
+
+  /** @see BShopSmsProvider **/
+  shop_sms_provider: {
+    title: "कस्टम एसएमएस प्रदाता",
+    reset_error: "रीसेट त्रुटियाँ",
+    subtitle:
+      "कस्टम SMS सेवा प्रदाता सेट करें और अपने प्रमाणीकरण SMS और व्यवसाय नाम को कस्टमाइज़ करें। डिफ़ॉल्ट प्रदाता केवल प्रमाणीकरण SMS और कुछ श्वेत-सूचीबद्ध देशों में सूचना संदेश भेजता है।",
+    plain_text: "सादे पाठ",
+    structural_template: "संरचनात्मक टेम्पलेट",
+    errors_limit_msg:
+      "यदि आपकी सेवा में 100 से अधिक त्रुटियाँ हैं, तो यह स्वचालित रूप से अक्षम हो जाएगी! आप इसे पुनः सक्षम करने के लिए त्रुटियों को रीसेट कर सकते हैं।",
+
+    enable_input: {
+      false_description:
+        "ओटीपी संदेश चुनिंदा देशों में सेलडोन के माध्यम से भेजे जाएंगे, जबकि अन्य ऑर्डर अधिसूचना एसएमएस भी भेजे जाएंगे।",
+      true_description:
+        "एसएमएस संदेश आपके सेवा प्रदाता के माध्यम से वितरित किए जाएंगे।",
+    },
+    test_input: {
+      true_title: "कॉन्फ़िगरेशन मान्य करें",
+      true_description:
+        "हम आपके फ़ोन नंबर 📞 <b>{phone}</b> पर एक परीक्षण संदेश भेजेंगे, यह आपसे शुल्क ले सकता है, लेकिन आप यह सुनिश्चित कर सकते हैं कि सब कुछ ठीक से काम करता है।",
+    },
+    sync_action: {
+      title: "कार्रवाई",
+      subtitle:
+        "कुछ SMS सेवाएँ अतिरिक्त सेवाएँ प्रदान करती हैं जैसे अभियान, मार्केटिंग और अन्य सुविधाएँ। आप उनकी सुविधाओं का अधिक तेज़ी से उपयोग करने के लिए अपने संपर्कों या अतिरिक्त जानकारी को सिंक कर सकते हैं।",
+      action: "समकालीन संपर्क",
+    },
+    tokens: {
+      title: "पैरामीटर",
+      subtitle:
+        "अपने एसएमएस सेवा प्रदाता को अपनी दुकान से जोड़ने के लिए निम्नलिखित पैरामीटर सेट करें।",
+    },
+  },
+  sms_messages_options: {
+    all: {
+      title: "OPT + ऑर्डर अधिसूचनाएँ",
+      description:
+        "प्रमाणीकरण संदेश और आदेश अधिसूचना भेजी जाएगी।",
+    },
+    otp: {
+      title: "केवल ओटीपी",
+      description: "प्रमाणीकरण संदेश भेजे जाएंगे.",
+    },
+  },
+
+  /** @see BPageShopSettingEmail **/
+  shop_emails: {
+    title: "ईमेल प्रबंधित करें",
+    sub_title:
+      "आप इस अनुभाग में स्टोर द्वारा ग्राहकों और प्रबंधकों को भेजे गए ईमेल की सूची देखेंगे। आपके द्वारा अपने स्टोर के लिए दर्ज की गई जानकारी के आधार पर ईमेल स्वचालित रूप से डिज़ाइन और बनाए जाते हैं। साथ ही, भविष्य में संदेशों और छवियों को निजीकृत करने की संभावना जनता के लिए उपलब्ध होगी।",
+
+    tabs: {
+      preferences: "पसंद",
+      templates: "टेम्पलेट्स",
+      provider: "प्रदाता",
+    },
+
+    preferences: {
+      title: "अधिसूचना ईमेल",
+    },
+  },
+
+  /**
+   * @see BShopEmailProvider
+   */
+  shop_email_provider: {
+    title: "कस्टम मेल सर्वर",
+    subtitle:
+      "अपने कस्टम डोमेन के माध्यम से ईमेल भेजने के लिए अपने मेल सेवा प्रदाता से कनेक्ट करें।",
+    provider: "प्रदाता",
+    enable_input: {
+      false_description: "आपके ईमेल आपके myselldone डोमेन के माध्यम से भेजे जाएंगे।",
+      true_description: "आपके ईमेल आपके कस्टम मेल डोमेन के माध्यम से भेजे जाएंगे।",
+    },
+    config: {
+      title: "कॉन्फ़िगरेशन",
+      subtitle:
+        "अपनी दुकान के लिए कस्टम मेल सेवा कॉन्फ़िगर करने के लिए, अन्य आवश्यक सेटिंग्स के साथ अपनी सेवा API कुंजी इनपुट करें।",
+    },
+    sender: {
+      title: "से",
+      subtitle:
+        "आप डिफ़ॉल्ट प्रेषक का नाम और ईमेल पता कॉन्फ़िगर कर सकते हैं, जिसका उपयोग आपके ग्राहकों को ईमेल भेजने के लिए किया जाएगा।",
+    },
+
+    inputs: {
+      from: {
+        label: "ईमेल से",
       },
-      "shipping_address": {
-        "title": "शिपिंग पता पूछें"
-      }
-    }
-  },
-  "checkout_options": {
-    "default": {
-      "title": "भौतिक और सेवा (डिफ़ॉल्ट)",
-      "desc": "ग्राहक से भौतिक और सेवा चेकआउट में एक पता दर्ज करने के लिए कहें।"
+      from_name: {
+        label: "नाम से",
+      },
     },
-    "physical": {
-      "title": "केवल भौतिक",
-      "desc": "ग्राहक को केवल भौतिक चेकआउट में एक पता दर्ज करने के लिए कहें।"
+
+    actions: {
+      send_test_email: "परीक्षण ईमेल भेजें",
     },
-    "off": {
-      "title": "कभी नहीँ",
-      "desc": "शिपिंग पता कभी न पूछें। इस विकल्प का उपयोग करें यदि आप सेवा प्रकार के बजाय उत्पादों के लिए भौतिक प्रकार का चयन करके विविधता के साथ सेवाओं की योजना बना रहे हैं।"
-    }
-  },
-  "business_model": {
-    "title": "बिजनेस मॉडल सेटअप",
-    "subtitle": "अपना व्यवसाय मॉडल सेट करें, और हम आपके OS को परदे के पीछे कॉन्फ़िगर करेंगे।"
-  },
-  "business_type": {
-    "title": "पण्य वस्तु के प्रकार",
-    "subtitle": "अपने स्टोर में उन उत्पादों का प्रकार सेट करें जिन्हें आप बेचना चाहते हैं। सेलडोन में उत्पाद प्रकार केवल एक प्रकार के उत्पादों से अधिक हैं; यह पूर्ति प्रक्रिया के बारे में अधिक है।",
-    "send_activation_request_to_support": "समर्थन टिकट में सक्रियण अनुरोध भेजें।",
-    "require_kyc": "व्यवसाय के स्वामी केवाईसी।",
-    "needs_enterprise_license": "आपके पास एंटरप्राइज़ लाइसेंस होना चाहिए।",
-    "marketplace_caution_message": "Marketplace को अपने मॉडल के रूप में सेट करें जो आपके व्यवसाय OS कॉन्फ़िगरेशन को गहराई से प्रभावित करता है। उदाहरण के लिए, आपको स्वतंत्र मूल्य निर्धारण और इन्वेंट्री वाले प्रत्येक उत्पाद के लिए कम से कम एक विक्रेता को परिभाषित करना होगा। ग्राहक ऐसे उत्पाद नहीं खरीद सकते जिनका कोई विक्रेता नहीं है।"
-  },
-  "business_model_view": {
-    "normal": {
-      "title": "सामान्य स्टोर",
-      "desc": "आम तौर पर एक एसएमई, घरेलू व्यवसाय, या ड्रॉपशीपर - जो अपना उत्पाद सीधे ग्राहकों को बेचता है या थोक विक्रेताओं के उत्पादों को पुनर्विक्रेता के रूप में बेचता है।"
+
+    messages: {
+      provider_error_limit:
+        "यदि आपकी सेवा में 100 से अधिक त्रुटियाँ हैं, तो यह स्वचालित रूप से अक्षम हो जाएगी! आप इसे पुनः सक्षम करने के लिए त्रुटियों को रीसेट कर सकते हैं।",
+
+      encryption_ports_guide:
+        "ईमेल परओवइदएरस मअय ऑफ़र SSL, तलस, ओर उनएनकरयपतएद कओननएकतइओनस बअसएद ओन उपलब्ध पओरतस. इफ कओननएकतइनग रएसउलतस इन अन त्रुटि, अलतएरइनग तहए एनकरयपतइओन मोड मइगहत रएसओलवए तहए इससउए. सतअनदअरद <b>तलस</b> उसए पओरत : <b>587</b> अनद <b>SSL</b> उसए पओरत : <b>465</b>.",
+
+      enable_receive_test:
+        "परिवर्तनों को सहेजने के बाद, आपको <b>{email}</b> पर एक परीक्षण मेल प्राप्त होगा। नए कॉन्फ़िगरेशन के साथ एक परीक्षण ईमेल भेजने से पहले परिवर्तनों को सहेजें।",
     },
-    "dropshipping": {
-      "title": "जहाज को डुबोना",
-      "desc": "कोई उत्पाद और कोई सूची नहीं रखें - आप किसी तीसरे पक्ष को भुगतान करते हैं, आमतौर पर एक थोक व्यापारी (जैसे Printify, थोक2B, ...) या निर्माता, और वे पर्दे के पीछे के आदेशों को पूरा करते हैं।"
+  },
+
+  /** @see InstagramViewMedias **/
+  instagram: {
+    title: "Instagram पर बिक्री",
+
+    add_product: "नया उत्पाद जोड़ें",
+    create_product: "उत्पाद बनाएं",
+    link_box_msg:
+      "इस लिंक को इंस्टाग्राम, टेलीग्राम या अन्य सोशल मीडिया पर अपने बायो में डालें ताकि आपके दर्शक तेज, आसान, अधिक और अंत में अधिक खरीद सकें।",
+    remove_account: "इंस्टाग्राम लिंक बदलें / हटाएं",
+  },
+  /** @see BPageShopChannelInstagram **/
+  shop_channel_instagram: {
+    title: "Instagram बिक्री कहअननएल",
+    subtitle:
+      "बनाएँ a दएदइकअतएद श्रेणी फओर यओउर उत्पाद, कओमपलएतए वइतह छवियाँ अनद वीडियो, अनद सहअरए इत अकरओसस यओउर सओकइअल मएदइअ. इत's सइमइलअर तओ Instagram अनद तइकतओक, बउत वइतह फउलल कओनतरओल, अललओवइनग यओउ तओ दइरएकतलय बिक्री यओउर उत्पाद.",
+  },
+
+  /** @see ServiceBillingItem **/
+  service_bill: {
+    task: {
+      title: "करने के लिए सूची",
+      message:
+        "आप जो काम करना चाहते हैं उसके शीर्षक लिखें और खरीदार को बताएं कि यह कितना आगे बढ़ चुका है।",
     },
-    "wholesaler": {
-      "title": "ड्रॉपशीपिंग आपूर्तिकर्ता",
-      "desc": "आम तौर पर एक थोक व्यापारी या एक निर्माता - जो सीधे अंतिम उपभोक्ता को ऑर्डर भेजता है। सेल्डोन पर अन्य व्यापारी आपके उत्पादों को अपने स्टोर में ड्रॉपशिप कर सकते हैं।"
+    booking: {
+      title: "आरक्षण निश्चित कर रहे हैं",
+      message:
+        "यह आदेश एक निर्दिष्ट समय पर संसाधित किया जाएगा, ग्राहक ने वांछित अवधि का चयन किया है, यदि आप चयनित अवधि में कोई परिवर्तन करना चाहते हैं, तो ग्राहक को बताएं।",
+
+      selected_checkin: "चयनित ग्राहक लॉगिन तिथि",
+      selected_checkout: "चयनित ग्राहक निकास तिथि",
+      change_days_question:
+        "क्या आपको ग्राहक चयनित दिनों के दौरान बदलने की आवश्यकता है?",
+      show_calendar: "ऑर्डर का कैलेंडर दिखाएं",
     },
-    "marketplace": {
-      "title": "बाजार",
-      "desc": "ऑनलाइन मार्केटप्लेस खरीदारों और विक्रेताओं को एक मालिकाना और केंद्रीकृत प्लेटफॉर्म पर जोड़ता है।"
+    pricing: {
+      title: "मूल्य निर्धारण",
+      message: "आप इस सेवा के लिए कितना शुल्क लेते हैं?",
     },
-    "franchise": {
-      "title": "फ्रेंचाइजी / संबद्ध",
-      "desc": "फ्रैंचाइज़ी उत्पादों या सेवाओं को वितरित करने का एक तरीका है जिसमें एक फ़्रैंचाइज़र शामिल होता है जो आपके ब्रांड (फ़्रैंचाइज़िंग) को स्थापित करता है या आपके उत्पादों को उनके ब्रांड (एफिलिएट) द्वारा बेचता है।"
-    }
-  },
-  "marketplace": {
-    "vendor_wallets": "पर्स",
-    "pricing_models": "मूल्य निर्धारण",
-    "add_vendor": "विक्रेता जोड़ें",
-    "requests": "अनुरोध"
-  },
-  "price_input_type": {
-    "title": "मूल्य इनपुट प्रकार",
-    "default": {
-      "title": "चूक",
-      "desc": "कार्ट में मात्रा के रूप में एक मान चुनें।"
+    subscription: {
+      title: "अंशदान",
+      message:
+        "आप इस सेवा को दैनिक आधार पर खरीदकर सदस्यता अवधि चुन सकते हैं। खरीदार को बताएं कि क्या आप पहले से दर्ज किए गए डिफ़ॉल्ट मानों को बदलना चाहते हैं।",
+      duration: "सदस्यता अवधि",
     },
-    "area": {
-      "title": "क्षेत्र",
-      "desc": "मात्रा की गणना करने के लिए इनपुट के रूप में चौड़ाई और लंबाई दर्ज करें।"
+    charge: {
+      title: "शुल्क",
+      message:
+        "आपने इस मद के लिए एक शुल्क निर्दिष्ट किया है। आप ग्राहक द्वारा खरीदी गई वस्तु के लिए शुल्क राशि बदल सकते हैं।",
+      charge: "शुल्क",
     },
-    "volume": {
-      "title": "मात्रा",
-      "desc": "मात्रा की गणना करने के लिए इनपुट के रूप में चौड़ाई, लंबाई और ऊंचाई दर्ज करें।"
+
+    save_item: "सत्यापित करें और सेट करें",
+    start_service: "सेवा शुरू करें",
+    end_service: "खत्म करना",
+  },
+  /** @see BOrderDashboardServiceTasks **/
+  service_tasks: {
+    notification_finish: {
+      title: "सेवा की समाप्ति",
+      message:
+        "यदि ऐसा किया जाता है, तो आदेश को पूरा करने और बंद करने के लिए पुष्टिकरण कुंजी दबाएं।",
+      action: "आदेश की पुष्टि करें और पूरा करें",
     },
-    "custom": {
-      "title": "कस्टम (इनपुट फॉर्म द्वारा)",
-      "desc": "सैकड़ों रूपों की कोई ज़रूरत नहीं है! उच्च अनुकूलन योग्य उत्पादों के लिए एक कस्टम लागत गणना फॉर्म बनाएं।"
-    }
   },
-  "vendors_list": {
-    "title": "मेरे विक्रेता",
-    "message": "मेरे अपने विक्रेताओं की सूची।"
-  },
-  "vendor_page": {},
-  "domains": {
-    "message": "अपने व्यवसाय OS से अनेक डोमेन कनेक्ट करें और उन सभी को एक ही स्थान पर प्रबंधित करें। आप अपनी वेबसाइट के प्रत्येक भाग, जैसे ब्लॉग और समुदाय के लिए समर्पित डोमेन बनाने के लिए एकाधिक डोमेन सुविधा का उपयोग कर सकते हैं, या अपने सहयोगियों के लिए विभिन्न डोमेन का उपयोग कर सकते हैं।"
-  },
-  "notes": {
-    "add_action": "अपनी टीम के लिए एक नोट जोड़ें",
-    "notifications": {
-      "success_add": "नोट सफलतापूर्वक जोड़ दिया गया है।",
-      "success_delete": "नोट सफलतापूर्वक हटा दिया गया है।"
-    }
-  },
-  "external_services": {
-    "title": "बाहरी सेवाएें",
-    "subtitle": "एसएमएस और ईमेल जैसी बाहरी सेवाओं की अंतिम स्थिति की निगरानी यहां करें।"
-  },
-  "theme": {
-    "dark_mode": "डार्क मोड",
-    "dark_mode_description": "यदि आप सफेद टेक्स्ट रंग के साथ गहरे रंग की पृष्ठभूमि चाहते हैं तो यह विकल्प चुनें।",
-    "light_mode": "लाइट मोड",
-    "light_mode_description": "यदि आप चाहते हैं कि पृष्ठभूमि हल्की हो और टेक्स्ट काले रंग में हो तो यह विकल्प चुनें।"
-  },
-  "shop_quota": {
-    "title": "उपयोग कोटा",
-    "sub_title": "यह आपकी दुकान के लिए उपयोग कोटा सूची है। आप अपनी दुकान का लाइसेंस अपग्रेड करके इन सीमाओं को बढ़ा सकते हैं। यदि आप सीमा पार कर जाते हैं, तो आप हमसे अतिरिक्त दैनिक कोटा भत्ते का अनुरोध कर सकते हैं। सारा उपयोग प्रतिदिन रीसेट हो जाएगा."
-  },
-  "app_card": {
-    "category": "श्रेणी",
-    "installs": "स्थापित करना",
-    "actives": "सक्रिय",
-    "uninstalls": "यदि अनइंस्टॉल",
-    "app_code": "ऐप कोड",
-    "app_mode": "आवेदन मोड"
-  },
-  "product_status": {
-    "open": {
-      "name": "सक्रिय",
-      "title": "सक्रिय ╏ ऑनलाइन और ऑफलाइन बिक्री",
-      "description": "यह उत्पाद ऑनलाइन ऑर्डर के लिए उपलब्ध होगा।"
+
+  /** {@see BProductEditOutputs} **/
+  product_outputs: {
+    outputs_form: "प्रदर्शन की सूचना संरचना (आउटपुट)",
+
+    virtual: {
+      title: "उत्पाद आउटपुट सूचना प्रपत्र",
+      sub_title:
+        "वह जानकारी जिसे आप खरीद के बाद उपयोगकर्ता को दिखाना चाहते हैं। यह प्रपत्र विशेष रूप से उपहार कार्ड जैसे आभासी उत्पादों की बिक्री के लिए लागू होता है।",
     },
-    "close": {
-      "name": "निष्क्रिय",
-      "title": "निष्क्रिय ╏ केवल ऑफलाइन बिक्री",
-      "description": "यह उत्पाद ऑनलाइन ऑर्डर के लिए उपलब्ध नहीं होगा।"
+    service: {
+      title: "सेवा डिजाइन",
+      sub_title:
+        "सबसे पहले अपनी सेवा का प्रकार चुनें और आवश्यक जानकारी दर्ज करें। उदाहरण के लिए, आप एक टूडू सूची को परिभाषित कर सकते हैं या ग्राहक से बुकिंग समय या अपॉइंटमेंट के लिए कह सकते हैं।",
     },
-    "pending": {
-      "name": "लंबित",
-      "title": "लंबित",
-      "description": "लाइव होने से पहले मार्केटप्लेस समीक्षा की आवश्यकता है।"
-    },
-    "rejected": {
-      "name": "अस्वीकार कर दिया",
-      "title": "अस्वीकार कर दिया",
-      "description": "इस उत्पाद को बाज़ार द्वारा अस्वीकार कर दिया गया था."
-    }
   },
-  "suggestions": {
-    "vendor_payment": {
-      "note": [
+
+  /** {@see BProductServiceManage} **/
+  service_design: {
+    type: "सेवा प्रकार",
+    type_message:
+      "इस उत्पाद के लिए आपके द्वारा प्रदान की जाने वाली सेवा का प्रकार चुनें। प्रत्येक आइटम का चयन करके, प्रासंगिक प्रपत्र प्रदर्शित किया जाएगा। आपके द्वारा चुनी गई सेवा के प्रकार के आधार पर, ऑर्डर करते समय ग्राहक से अधिक जानकारी प्राप्त की जा सकती है।",
+  },
+
+  /** {@see AvocadoHomePage} **/
+  avocado: {
+    name: "एवोकाडो",
+    title: "सभी सोशल मीडिया पर तेज, सटीक और मनोरंजक बिक्री",
+    message:
+      "अपने ग्राहकों से धन प्राप्त करने के लिए आपको केवल एक राशि और एक शीर्षक की आवश्यकता है! पैसा सीधे आपके खाते में जमा किया जाएगा और आपके ग्राहकों को खरीदारी का एक अनूठा अनुभव होगा।",
+    new_order: "नया बिल",
+    create_by_seller_title: "इनवॉयस बनाएँ",
+    create_by_seller_message:
+      "यदि आप एक निश्चित राशि के साथ एक चालान बनाना चाहते हैं और उसे किसी को भेजना चाहते हैं, तो आप चालान फॉर्म दिखाने के लिए नीचे दिए गए बटन को दबा सकते हैं। खरीदार को भुगतान करने और इसके माध्यम से अपने ऑर्डर को ट्रैक करने के लिए जेनरेटेड लिंक दें।",
+
+    create_by_buyer_title: "एवोकैडो फॉर्म",
+    create_by_buyer_message:
+      "इस सेक्शन को सक्रिय करने पर आपको एक लिंक दिखाई देगा, अपने खरीदारों को यह लिंक प्रदान करें ताकि वे अपना ऑर्डर दे सकें।",
+
+    orders_list: "आदेश सूची",
+    active_mode: "आदेश रसीद सक्रिय",
+    inactive_mode: "निष्क्रिय",
+    active_message:
+      "इस स्रोत को सक्रिय करके, आपके ग्राहक नीचे देखे गए अनुरोध फ़ॉर्म के माध्यम से उत्पाद के लिए ऑर्डर दे सकेंगे।",
+    avocado_form_link_message:
+      "इस लिंक को इंस्टाग्राम, टेलीग्राम या अन्य सोशल मीडिया पर अपने बायो में डालें ताकि आपके दर्शक तेज, आसान और अंत में अधिक खरीद सकें",
+    need_address: "पता प्राप्त करें",
+    need_address_msg:
+      "यदि आपको खरीदार का स्थान और पता प्राप्त करने की आवश्यकता है, तो इस विकल्प का चयन करें।",
+    avocado_link_message:
+      "ऑर्डर का भुगतान करने के लिए ग्राहक को उपरोक्त लिंक प्रदान करना पर्याप्त है। ग्राहक इस लिंक के जरिए ऑर्डर का पालन कर सकेंगे।",
+    edit_order: "आदेश संपादित करें",
+    progress: "प्रगति दर",
+    buyer_link: "क्रेता लिंक",
+    buyer_link_message:
+      "अपने खरीदार को यह लिंक प्रदान करें। खरीदार इस लिंक के माध्यम से अपने ऑर्डर का भुगतान और ट्रैक कर सकेगा। यह लिंक कोडित है, यदि किसी को लिंक प्रदान किया जाता है, तो वह भुगतान करने और जानकारी देखने में सक्षम होगा। यह लिंक 60 दिनों तक सक्रिय रहेगा। कॉपी करने के लिए नीचे दिए गए लिंक पर क्लिक करें।",
+    OrderConfirm_done: "ऑर्डर की पुष्टि की गई।",
+    OrderConfirm_message:
+      "यदि आप भुगतान की पुष्टि करते हैं और आदेश सही है, तो नीचे दिए गए बटन पर क्लिक करें।",
+    OrderConfirm_action: "आदेश की पुष्टि",
+    PreparingOrder_message:
+      "यदि ग्राहक आदेश शिप करने के लिए तैयार है, तो नीचे दिए गए OK बटन पर क्लिक करें।",
+    PreparingOrder_action: "ऑर्डर शिप करने के लिए तैयार है",
+    finish_message:
+      "यदि यह आदेश पूरा हो जाता है, तो इस आदेश को बंद करने के लिए अंत बटन दबाएं।",
+    finish_action: "पूर्ण आदेश प्रसंस्करण",
+    finish_dialog: {
+      title: "आदेश पूरा करें",
+      message: "क्या आदेश पूरा हो गया है और क्या आप वाकई इसे बंद करना चाहते हैं?",
+      action: "हां, आदेश के पूरा होने की पुष्टि करें",
+    },
+    configuration: "एवोकैडो सेटिंग्स",
+    delivery_price: "शिपिंग लागत",
+    edit_avocado_action: "जानकारी संपादित करें",
+    submit_pricing_avocado_action: "ऑर्डर की कीमत सबमिट करें",
+    add_avocado_action: "चालान लिंक बनाएं",
+    avocados_list: "एवोकैडो की सूची",
+    not_pricing: "इस वस्तु की कीमत नहीं है!",
+
+    show_all: "सब दिखाएं",
+    show_accepted: "पुष्टि किए गए आइटम दिखाएं",
+
+    notifications: {
+      update_success: "एवोकैडो सफलतापूर्वक अपडेट किया गया।",
+      add_success: "एवोकैडो सफलतापूर्वक बनाया गया।",
+    },
+  },
+
+  /** {@see BDashboardShopOrdersAvocado} **/
+  avocado_orders: {
+    title: "एवोकाडो",
+    title_small: "सोशल मीडिया सेल्स",
+    pending_orders: "सक्रिय आदेश",
+    avocado: "एवोकैडो ऑर्डर करें",
+  },
+  /** {@see BAvocadoInvoice} **/
+  avocado_process: {
+    step1: "मूल्य निर्धारण",
+    step1_msg:
+      "प्रत्येक वस्तु की कीमत दर्ज करें और हरे बॉक्स को चेक करें। यदि किसी वस्तु को बेचना संभव नहीं है, तो उसकी स्थिति को अस्वीकृत में बदलें।",
+    step2: "चालान की पुष्टि करें",
+    step2_msg:
+      "इस आदेश के लिए एक चालान बनाएं। आप चालान के लिए एक शीर्षक और विवरण दर्ज कर सकते हैं। ऑर्डर राशि की गणना स्वचालित रूप से आइटम की कुल कीमत के आधार पर की जाती है।",
+    title_input: "चालान शीर्षक *",
+    show_to_customer: "यह जानकारी खरीदार को दिखाई जाती है.",
+    description_msg:
+      "क्या आप इस आदेश के लिए एक नोट लिखना चाहते हैं? यह जानकारी खरीदार को दिखाई जाएगी।",
+    price_input: "ऑर्डर करने की राशि *",
+    tax_none: "कर मुक्त",
+    tax_included: "कीमत में शामिल",
+    tax_add: "कर जोड़ें",
+    tax_message: "आप चुन सकते हैं कि कीमत में कर शामिल है या नहीं।",
+    tax_included_messages: "टैक्स कीमत में शामिल है।",
+    tax_add_messages: "टैक्स को अंतिम कीमत में जोड़ा जाना चाहिए।",
+    invoice: {
+      subtitle:
+        "बय उसइनग तहइस फ़ॉर्म, यओउ कअन बनाएँ a भुगतान लिंक फओर a सपएकइफइक राशि. इत अलसओ मअकएस तरअककइनग तहए चालान अनद पुष्टि करें भुगतान कओमपलएतइओन सतरअइगहतफओरवअरद अनद एअसय.",
+    },
+  },
+
+  /** {@see BPageProductHyper} **/
+  /** {@see BPageShopChannelHyper} **/
+  hyper: {
+    name: "अति",
+    print_label:
+      "निम्नलिखित लेबल को प्रिंट करें और इसे उत्पाद के सामने रखें",
+    hyper_form_link_product_message:
+      "आपके ग्राहक इस लिंक के माध्यम से जल्दी से {product} खरीद सकेंगे। वे क्यूआर कोड को स्कैन करके भी उसी लिंक को दर्ज करेंगे।",
+    title: "हाइपर क्विक सेल",
+    message:
+      "हाइपर सेलडोन बिक्री चैनल की मदद से, आपके ग्राहक आपकी ओर से आवश्यक किसी भी कार्रवाई के बिना एक क्यूआर कोड स्कैन करके उत्पाद खरीद सकेंगे। त्योहारों, प्रदर्शनियों, या व्यस्त समारोहों में बड़ी संख्या में कुछ वस्तुओं को जल्दी से बेचने के लिए इस तरीके का उपयोग करें। इस खंड में हाइपर को सक्रिय करने के बाद, आप उत्पाद प्रबंधन अनुभाग में भौतिक उत्पादों के लिए एक हाइपर क्यूआर कोड बना सकते हैं।",
+    orders_list: "हाइपर ऑर्डर सूची",
+    active_mode: "हाइपर सेल्स चैनल सक्रिय",
+    inactive_mode: "निष्क्रिय",
+    active_message:
+      "यदि आप इस विकल्प को सक्षम करते हैं, तो प्रत्येक उत्पाद के प्रबंधन अनुभाग में फास्ट-सेल्स-कोड बनाने की संभावना प्रदर्शित की जाएगी।",
+    hyper_form_link_message: "आपके स्टोर का हाइपर पेज लिंक",
+    configuration: "हाइपर सेटिंग्स",
+  },
+
+  /** {@see BDashboardShopOrdersHyper} **/
+  hyper_orders: {
+    title: "अति",
+    title_small: "बिक्री रिपोर्ट",
+    hyper: "प्राप्त आदेश",
+  },
+
+  /** {@see BProductInventoryManagementFile} **/
+  product_file: {
+    no_file: "अभी तक कोई फ़ाइल अपलोड नहीं हुई!",
+    delete_dialog: {
+      title: "फ़ाइल नष्ट करें",
+      message: "क्या आप वाकई इस फ़ाइल को हटाना चाहते हैं?",
+      action: "हां, अभी हटाएं",
+    },
+    notifications: {
+      delete_success: "फ़ाइल सफलतापूर्वक हटाई गई.",
+    },
+    drag_sort_msg: "आप फ़ाइलों को खींच और क्रमबद्ध कर सकते हैं.",
+    paid_mode_msg: "उपयोगकर्ता उत्पाद खरीदने के बाद ही इसे डाउनलोड कर सकते हैं।",
+    free_mode_msg:
+      "उपयोगकर्ता इसे निःशुल्क डाउनलोड कर सकते हैं। नमूना फ़ाइलें 50 एमबी से कम होनी चाहिए।",
+    has_gust_shopping_msg:
+      "पंजीकृत और अतिथि उपयोगकर्ता फ़ाइलें डाउनलोड कर सकते हैं क्योंकि दुकान की सेटिंग > प्रवाह में अतिथि खरीदारी सक्षम है।",
+    only_registered_shopping_msg:
+      "केवल पंजीकृत उपयोगकर्ता ही नमूना फ़ाइलें डाउनलोड कर सकते हैं।",
+    file_count_limit: "फ़ाइलों की संख्या सीमा",
+  },
+
+  /**
+   * @see BProductLocationRestrictionsList
+   */
+  product_location_restrictions: {
+    title: "उपलब्ध स्थान",
+    subtitle:
+      "यदि आपका उत्पाद या सेवा केवल देश और ज़िप या पिन कोड द्वारा परिभाषित विशिष्ट क्षेत्रों में उपलब्ध है, तो आप उन स्थानों को यहाँ निर्दिष्ट कर सकते हैं। ये स्थान प्रतिबंध उत्पाद स्तर पर लागू होते हैं। उत्पाद पृष्ठ पर, ग्राहकों को अपना स्थान चुनने के लिए कहा जाएगा। यदि उत्पाद उनके चुने हुए क्षेत्र में उपलब्ध है, तो वे खरीदारी के साथ आगे बढ़ सकेंगे।",
+
+    add_location_action: "देश जोड़ें",
+    no_restriction: "प्रतिबंध नहीं",
+    import: {
+      title: "लोड प्रोफ़ाइल",
+      subtitle: "सहेजे गए स्थान प्रोफ़ाइल का चयन करें.",
+    },
+    export: {
+      title: "प्रोफ़ाइल बचा",
+      subtitle: "भविष्य में उपयोग के लिए भण्डारण स्थान।",
+    },
+    has_restriction_input: {
+      title: "स्थान प्रतिबंध है",
+      description:
+        "स्थापित स्थान प्रतिबंध के कारण ग्राहक इस उत्पाद को केवल निर्दिष्ट देश और ज़िप कोड के भीतर ही खरीद सकते हैं।",
+    },
+    zip_pin_code: "ज़िप / पिन कोड",
+    no_country_selected_error:
+      "कृपया कम से कम एक देश के साथ-साथ ज़िप/पिन कोड की सूची भी शामिल करें। इसके बिना, यह उत्पाद उपलब्ध नहीं होगा।",
+    tips: "नया लोकेशन सेट बनाना शुरू करने के लिए <b>+ देश जोड़ें</b> बटन पर क्लिक करें। एक बार जब आपका काम हो जाए, तो आप इसे ऊपर-दाएँ <b>⋮ मेनू</b> पर क्लिक करके और <b>प्रोफ़ाइल सहेजें</b> चुनकर सहेज सकते हैं।",
+    need_save_message:
+      "उत्पाद के लिए स्थान प्रतिबंध सेटिंग बदल दी गई है। इन परिवर्तनों को सुरक्षित रखने के लिए, कृपया नीचे दिए गए 'सहेजें' बटन पर क्लिक करें।",
+
+    add_dialog: {
+      title: "देश जोड़ें",
+      message:
+        "कोई देश चुनें और 'जोड़ें' पर क्लिक करें। यह देश को तालिका में जोड़ देगा, जिससे आप उसमें ज़िपकोड, पिन कोड, शहर का नाम या क्षेत्र का नाम निर्दिष्ट कर सकेंगे।",
+    },
+    save_profile_dialog: {
+      title: "स्थान प्रोफ़ाइल जोड़ें",
+      message:
+        "कृपया स्थानों के इस सेट को सहेजने के लिए कोई नाम दर्ज करें। यह सहेजा गया स्थान सेट अन्य उत्पादों पर लागू किया जा सकता है, जिससे केवल एक क्लिक से त्वरित स्थान लोड किया जा सकता है। यदि दिए गए नाम वाला कोई प्रोफ़ाइल पहले से मौजूद है, तो उसे इन नए मानों के साथ अपडेट किया जाएगा।",
+      title_input: {
+        title: "प्रोफ़ाइल शीर्षक",
+        placeholder: "एक श्रेणी का नाम, या स्टोर का नाम, ...",
+      },
+    },
+    load_profile_dialog: {
+      title: "स्थान प्रोफ़ाइल लोड करें",
+      message:
+        "आप यहां पहले से सहेजे गए स्थान को चुनकर स्थान लोड कर सकते हैं।",
+
+      select_input: {
+        title: "स्थान प्रोफ़ाइल",
+        placeholder: "एक प्रोफ़ाइल चुनें...",
+      },
+    },
+  },
+
+  /** {@see NotificationTopBar} **/
+  notification_top_bar: {
+    free_charge: "🎊 {amount} चार्ज करें और {amount_total} क्रेडिट प्राप्त करें।",
+    charge_action: "मुफ़्त क्रेडिट का दावा करना",
+    claim_title: "अपने मुफ़्त क्रेडिट का दावा करें",
+    claim_charge_caution:
+      "नोट: आपके वॉलेट खातों के बीच मुद्राओं को परिवर्तित करना संभव नहीं है। इसलिए, एक खाते का चयन करें जो आपके स्टोर में एक्सचेंज की गई मुद्रा के लिए उपयुक्त हो।",
+    account_input: "जमा खाता",
+    account_msg: "इस खाते पर शुल्क लगाया जाएगा",
+  },
+
+  /** {@see BDashboardShopApplications} **/
+  selldone_applications: {
+    title: "अपने आदेश याद मत करो!",
+    msg: "अपने व्यवसाय को कहीं भी और कभी भी प्रबंधित करें।",
+    scan_qr_code: "मुझे अपने फ़ोन से स्कैन करें!",
+
+    notification: {
+      title: "अधिसूचना",
+      subtitle: "नये ऑर्डर की सूचना प्राप्त करें.",
+    },
+    order: {
+      title: "आदेश",
+      subtitle: "अपने ऑर्डर देखें और उन्हें प्रबंधित करें.",
+    },
+    product: {
+      title: "उत्पादों",
+      subtitle: "इन्वेंटरी प्रबंधन और उत्पाद सादा.",
+    },
+  },
+
+  /** {@see BPageShopSettingSeo**/
+  shop_seo: {
+    title: "एसईओ विन्यास",
+    msg: "जैविक ग्राहक अधिग्रहण चैनलों को सशक्त बनाकर ऑनलाइन मार्केटिंग के लिए तेजी से आगे बढ़ें।",
+    auto: {
+      title: "ऑटो एसईओ इंजन",
+      msg: "अपनी वेबसाइट पर दर्शकों और खोज इंजनों के लिए एक सहज मोबाइल अनुभव प्रदान करें।",
+    },
+
+    amp: {
+      title: "AMP",
+      msg: "त्वरित मोबाइल पेज ऑटो जेनरेशन।",
+    },
+  },
+
+  /** {@see BPageShopSettingEmail} **/
+  shop_preferences: {
+    order: {
+      title: "आदेश",
+      desc: "अगर कोई ग्राहक ऑर्डर का भुगतान करता है, तो ऑर्डर की जानकारी वाला एक ईमेल इस पते पर भेजा जाएगा।",
+    },
+    return: {
+      title: "वापस करना",
+      desc: "यदि खरीदार द्वारा उत्पाद लौटाया जाता है, तो यह ईमेल भेजा जाएगा। यह ईमेल भेजना आपकी खरीदी गई योजना पर निर्भर करता है।",
+    },
+    pos: {
+      title: "POS",
+      desc: "पीओएस बिक्री रिपोर्ट इस ईमेल पर भेजी जाएगी।",
+    },
+    avocado: {
+      title: "एवोकाडो",
+      desc: "एवोकैडो ऑर्डर की दैनिक रिपोर्ट भेजें।",
+    },
+    accounting: {
+      title: "लेखांकन",
+      desc: "वित्तीय रिपोर्ट और अपडेट स्टोर करें।",
+    },
+    subscription: {
+      title: "सदस्यता",
+      desc: "प्रारंभ और समाप्ति सदस्यता सूचनाओं के साथ हाल ही में खरीदी गई योजना की स्थिति।",
+    },
+    technical: {
+      title: "तकनीकी",
+      desc: "डोमेन और सेवा की स्थिति के बारे में तकनीकी सूचनाएं।",
+    },
+    report: {
+      title: "रिपोर्टों",
+      desc: "इस ईमेल पर साप्ताहिक और मासिक रिपोर्ट भेजी जाएगी",
+    },
+    review: {
+      title: "समीक्षा",
+      desc: "यदि आपको स्टोर में किसी प्रक्रिया की पुष्टि करने की आवश्यकता है, तो संबंधित ईमेल इस पते पर भेजा जाएगा। उदाहरण के लिए, उपयोगकर्ताओं को स्टोर करने के लिए मार्केटिंग ईमेल भेजने की पुष्टि करना।",
+    },
+    bulk: {
+      title: "दअइलय ऑर्डर रिपोर्ट",
+      desc: "रएकएइवए a दअइलय ईमेल वइतह तहए विवरण ओफ ऑर्डर फओर तहअत दिन.",
+    },
+  },
+
+  /** {@see BPageShopSettingLanguages} **/
+  shop_languages: {
+    title: "स्टोर भाषाएं",
+    sub_title: "स्टोर ऑटो-अनुवाद पैकेजों को स्थापित और सक्रिय करें।",
+    message:
+      "आप अपने स्टोर में अधिकतम 10 भाषा पैक स्थापित कर सकते हैं। यदि आपको अधिक पैकेज स्थापित करने की आवश्यकता है तो हमसे संपर्क करें।",
+  },
+
+  /** {@see SInviteFriends} **/
+  invite_friends: {
+    title: "अपने व्यवसाय के बारे में दुनिया को बताएं!",
+    msg: "अपने दोस्तों को सेलडोन का परिचय दें। साइनअप करने पर उन्हें कंपनी के वाउचर में $99 मिलेंगे, और जब वे अपना पहला लेन-देन पूरा करेंगे, तो आपको स्टार्टअप वाउचर में $15 मिलेंगे।",
+    invite: {
+      title: "$99 का निःशुल्क वाउचर प्राप्त करने के लिए सेल्डोन व्यवसाय OS से जुड़ें।",
+      description:
+        "एक शानदार टूल के साथ अपना व्यवसाय ऑनलाइन शुरू करने के लिए मैं आपको सेलडोन में आमंत्रित करता हूं।",
+      hashtags: "ई-कॉमर्स,वेबसाइटबिल्डर",
+      quot: "मैंने सेलडोन द्वारा एक ऑनलाइन स्टोर बनाया है, अब आप अपना व्यवसाय भी कर सकते हैं।",
+    },
+  },
+
+  /** {@see BPageShuttleShops} **/
+  shops_list: {
+    title: "मेरी दुकानें",
+    message:
+      "मेरी अपनी दुकानों, अनुमत और नमूना दुकानों की सूची।",
+
+    sample: {
+      title: "नमूना स्टोर",
+      subtitle:
+        "यहाँ, आप नमूना स्टोर का चयन पा सकते हैं। आपको इन स्टोर में उपलब्ध जानकारी को पढ़ने की अनुमति दी गई है। हालाँकि, कृपया वास्तविक व्यक्तिगत जानकारी का उपयोग करके लॉग इन या ऑर्डर देने से बचें, क्योंकि यह डेटा सार्वजनिक रूप से उपलब्ध होगा। यदि आप गलती से अपनी जानकारी यहाँ दर्ज करते हैं, तो कृपया स्टोर से बाहर निकलें और आगे की सहायता के लिए हमसे संपर्क करें।",
+    },
+
+    add_new_store: "नया स्टोर जोड़ें",
+    i_have_a_deal: "मेरे पास एक सौदा है",
+    access: {
+      title: "प्रवेश आमंत्रण",
+    },
+  },
+
+  /** {@see BTransportationServiceLabels} **/
+  shipping: {
+    warehouse_error:
+      "पहले अपना गोदाम सेट करें! इस पते का उपयोग शिपिंग की उत्पत्ति के रूप में किया जाएगा।",
+    errors: {
+      set_origin: "अपना स्थान मानचित्र सेट करें।",
+      set_country: "अपना देश सेट करें।",
+      set_address: "अपना पता सेट करें।",
+      set_zip: "अपना डाक कोड सेट करें।",
+    },
+    set_warehouse: "गोदाम सेट करें",
+    pickup_location: "लेने की जगह",
+    refresh_rates: "ताज़ा दरें",
+    no_rate: "कोई दर नहीं...",
+    view_messages: "संदेश देखें...",
+    not_set_yet: "अभी तक सेट नहीं है!",
+    drop_orders_here: "यहां ऑर्डर ड्रॉप करें...",
+  },
+
+  /** {@see BPageShopBlogsCategories} **/
+  blog_category: {
+    title: "ब्लॉग श्रेणियाँ",
+    subtitle:
+      "आप अपने ब्लॉग पोस्ट को अधिक कुशलता से प्रबंधित करने के लिए उनके लिए सीमित संख्या में श्रेणियां बना सकते हैं। श्रेणी सीमा होने से आपकी वेबसाइट पर बेहतर संगठन को बढ़ावा मिलता है। उल्लेखनीय रूप से, शीर्ष समाचार एजेंसियां भी प्रबंधन को सुव्यवस्थित करने और व्यापक फ़ोकस बनाए रखने के लिए सीमित संख्या में श्रेणियां बनाए रखती हैं, जो अक्सर 100 से भी कम होती हैं।",
+
+    add_action: "नई श्रेणी जोड़ें",
+    add_dialog: {
+      title: "नई / अद्यतन श्रेणी",
+      force_edit: "बल संपादित पथ",
+      force_edit_msg: "श्रेणी का नाम बदलें और सभी लेखों को अपडेट करें।",
+      star_msg: "तारांकित श्रेणियों को ब्लॉग में दिखाना प्राथमिकता है.",
+      star: "देखें",
+      delete_action: "श्रेणी हटाएं",
+      add_action: "कैटेगरी जोड़े",
+      edit_action: "श्रेणी संपादित करें",
+    },
+  },
+  /** {@see BPageShopBlogsTimeline} **/
+  blog_timeline: {
+    title: "सामग्री रिलीज अनुसूची",
+    subtitle:
+      "यहाँ भविष्य में प्रकाशन के लिए निर्धारित लेखों की सूची दी गई है। आपके पास ब्लॉग पोस्ट और यहाँ तक कि उत्पाद विवरण को भी विशिष्ट समय पर प्रकाशित करने के लिए शेड्यूल करने की क्षमता है।",
+  },
+
+  /** {@see BPageShopPagesAboutUs} **/
+  about_us: {
+    title: "हमारे बारे में पेज",
+    subtitle:
+      "हमारे बारे में पृष्ठ पर दिखाने के लिए अपने व्यवसाय के बारे में एक लेख लिखें। यह पेज आपके दर्शकों को आपके ब्रांड और मिशन को जानने में मदद करेगा।",
+  },
+  /** {@see BPageShopPagesTerms} **/
+  terms: {
+    title: "सेवा की शर्तें पृष्ठ",
+    subtitle:
+      "अपने ग्राहकों के लिए अपनी सेवाओं की खरीद और उपयोग की शर्तों की व्याख्या करें।",
+  },
+  /** {@see BPageShopPagesPrivacy} **/
+  privacy: {
+    title: "गोपनीयता नीति पृष्ठ",
+    subtitle:
+      "एक गोपनीयता नीति एक बयान या कानूनी दस्तावेज है जो एक पक्ष द्वारा ग्राहक या ग्राहक के डेटा को इकट्ठा करने, उपयोग करने, प्रकट करने और प्रबंधित करने के कुछ या सभी तरीकों का खुलासा करता है।",
+  },
+  /** {@see BPageShopPagesContactUs} **/
+  contact_us: {
+    title: "हमसे संपर्क करें पेज",
+    subtitle:
+      "हमसे संपर्क करें पृष्ठ पर अपने ग्राहकों को दिखाए जाने के लिए अपनी संपर्क जानकारी, पता और फोन नंबर लिखें।",
+  },
+
+  /** {@see BPageShopApplicationsMetaverse} **/
+  metaverse: {
+    title: "मेटावर्स ब्रिज",
+    subtitle:
+      "सेलडोन वाणिज्य क्षेत्र में %100 एपीआई-आधारित सेवाएं प्रदान करता है। गेम, ब्लॉकचैन और मेटावर्स डेवलपर्स काम, जीवन और व्यापार की दुनिया के भविष्य में व्यवसायों, ग्राहकों और सेवाओं को जोड़ने के लिए इन शक्तिशाली एपीआई का उपयोग कर सकते हैं।",
+    message: "गेम डेवलपर्स के लिए अर्ली ऐक्सेस",
+  },
+
+  /** {@see BProcessCenterBulkExport} **/
+  orders_bulk_export: {
+    title: "आदेश सहायक",
+    subtitle:
+      "थोक ऑर्डर प्रसंस्करण के लिए लेबल निर्यात और डाउनलोड करें - प्रतिदिन 100 से अधिक ऑर्डर संभालने के लिए आदर्श।",
+
+    timespan: {
+      title: "समय सीमा",
+      subtitle: "ऑर्डर देने के लिए आरंभ और समाप्ति तिथियां चुनें।",
+    },
+    tasks: {
+      title: "कार्य आउटपुट",
+      subtitle:
+        "थोक में आदेश संसाधित करने के लिए कार्यों की सूची डाउनलोड करें। परिणाम में केवल भुगतान किए गए और COD ऑर्डर होते हैं।",
+      export_title: "कार्यों की सूची",
+    },
+    labels: {
+      title: "पैकेज लेबल",
+      subtitle:
+        "चयनित समय अवधि और स्थिति में सभी ऑर्डर लेबल की सूची डाउनलोड करें। परिणाम में केवल भुगतान किए गए और COD ऑर्डर होते हैं।",
+      export_title: "बॉक्स लेबल",
+    },
+  },
+
+  /** {@see BPageShopMarketingFunnel} **/
+  customers_funnel: {
+    title: "ग्राहक जनसांख्यिकी",
+    subtitle:
+      "कम मार्केटिंग के साथ अधिक मूल्य देने के लिए बेहतर निर्णय लेने के लिए अपने ग्राहकों के डेटा को फ़िल्टर और निर्यात करें! कृपया अपने ग्राहकों की गोपनीयता का सम्मान करें और उन्हें कभी भी सामूहिक बल्क ईमेल न भेजें! अपने ग्राहकों की जानकारी को तृतीय पक्ष सेवाओं में से प्रत्येक से अनुमति प्राप्त किए बिना कभी भी साझा न करें।",
+  },
+
+  /** {@see BPageAffiliatorDashboard} **/
+  affiliate_pos: {
+    title: "संबद्ध पीओएस",
+    open_pos_action: "फास्ट ऑर्डरिंग पीओएस",
+    description:
+      "यह विकल्प Instagram पेजों और अन्य सामाजिक नेटवर्क के व्यवस्थापकों के लिए उपयुक्त है। ग्राहकों से मैन्युअल रूप से ऑर्डर प्राप्त करने और जोड़ने के लिए एफिलिएट POS का उपयोग करें। आपके सहयोगी (या फ्रैंचाइज़ी) संबद्ध पीओएस में नए ऑर्डर जोड़ सकते हैं और जमा पर्ची अपलोड कर सकते हैं।",
+  },
+
+  /** {@see BPageShopSettingFlow} **/
+  shop_configuration: {
+    /** {@see BShopOptionsLoginMethods} **/
+    login: {
+      title: "लॉगिन के तरीके",
+      subtitle: "जिस तरह से उपयोगकर्ता आपके स्टोर में लॉग इन करते हैं, उसे कस्टमाइज़ करें।",
+
+      tips: "<b>महत्वपूर्ण.</b> वहएन a उपयोगकर्ता रएगइसतएरस वइतह यओउर दुकान, a कओररएसपओनदइनग Selldone उपयोगकर्ता इस करएअतएद, इफ ओनए दओएसन't अलरएअदय एक्सइसत. तहइस उपयोगकर्ता वइलल हअवए पहुँच तओ तहएइर पता बओओक अकरओसस सभी दुकान अनद कअन देखें तहएइर ऑर्डर इतिहास, एवएन इफ a दुकान हअस कलओसएद. वए दओ नहीं उसए तहइस जानकारी फओर मार्केटिंग पउरपओसएस बउत रएकउइरए इत तओ परएवएनत फरअउद ओन बओतह सइदएस. तओ मअइनतअइन तरअनसपअरएनकय, वए'लल सएनद अन ईमेल तओ तहए उपयोगकर्ता इनफओरमइनग तहएम ओफ तहएइर रएगइसतरअतइओन.",
+    },
+
+    /** {@see BShopOptionsCheckout} **/
+    checkout: {
+      title: "चेकआउट प्रवाह",
+      subtitle:
+        "अपने ईकॉमर्स में अपनी ग्राहक यात्रा और खरीदारी प्रवाह को अनुकूलित करें।",
+      map: {
+        title: "नक्शा",
+        subtitle:
+          "उपयोगकर्ताओं को मानचित्र पर वितरण स्थान का चयन करना होगा (जैसे उबेर)।",
+        subtitle_no_map:
+          "यदि ग्राहक द्वारा प्रदत्त पते में स्थान मौजूद नहीं है तो शिपिंग गणना में दूरी शून्य मानी जाती है।",
+      },
+      mode: {
+        title: "ग्राहक लॉगिन बिंदु",
+        default: {
+          title: "ASAP (डिफ़ॉल्ट)",
+          msg: "उपयोगकर्ता जल्द से जल्द लॉग इन करें। (अधिक रूपांतरण)",
+        },
+        on_checkout: {
+          title: "चेकआउट पर",
+          msg: "उपयोगकर्ताओं को चेकआउट चरण में लॉग इन करने के लिए बाध्य करें।",
+        },
+        login_free: {
+          title: "वैकल्पिक लॉगिन",
+          msg: "आदेश भुगतान के बाद वैकल्पिक लॉगिन ..",
+        },
+      },
+
+      express: {
+        title: "कार्ट में जोड़ने के बाद रीडायरेक्ट करें",
+
+        false: {
+          title: "सामान्य मोड",
+          msg: "पेज पर बने रहें और कार्ट में जोड़ें पर क्लिक करने के बाद खरीदारी जारी रखें।",
+        },
+        true: {
+          title: "एक्सप्रेस मोड",
+          msg: "कार्ट में जोड़ें क्लिक करने के बाद ग्राहक को चेकआउट पृष्ठ पर पुनर्निर्देशित करें।",
+        },
+      },
+
+      shipping_address: {
+        title: "शिपिंग पता पूछें",
+      },
+    },
+
+    /** {@see BShopOptionsCheckoutForm} **/
+    checkout_form: {
+      title: "कहएककओउत फ़ॉर्म",
+      subtitle:
+        "कउसतओमइज़ए तहए कहएककओउत फ़ॉर्म फइएलदस तओ कओललएकत तहए जानकारी यओउ नएएद फरओम यओउर ग्राहक.",
+    },
+  },
+  /** {@see CheckoutOptions} **/
+  checkout_options: {
+    default: {
+      title: "भौतिक और सेवा (डिफ़ॉल्ट)",
+      desc: "ग्राहक से भौतिक और सेवा चेकआउट में एक पता दर्ज करने के लिए कहें।",
+    },
+    physical: {
+      title: "केवल भौतिक",
+      desc: "ग्राहक को केवल भौतिक चेकआउट में एक पता दर्ज करने के लिए कहें।",
+    },
+    off: {
+      title: "कभी नहीँ",
+      desc: "शिपिंग पता कभी न पूछें। इस विकल्प का उपयोग करें यदि आप सेवा प्रकार के बजाय उत्पादों के लिए भौतिक प्रकार का चयन करके विविधता के साथ सेवाओं की योजना बना रहे हैं।",
+    },
+  },
+
+  /** {@see BPageShopSettingBusinessModel} **/
+  business_model: {
+    title: "बिजनेस मॉडल सेटअप",
+    subtitle:
+      "अपना व्यवसाय मॉडल सेट करें, और हम आपके OS को परदे के पीछे कॉन्फ़िगर करेंगे।",
+  },
+  business_type: {
+    title: "पण्य वस्तु के प्रकार",
+    subtitle:
+      "अपने स्टोर में उन उत्पादों का प्रकार सेट करें जिन्हें आप बेचना चाहते हैं। सेलडोन में उत्पाद प्रकार केवल एक प्रकार के उत्पादों से अधिक हैं; यह पूर्ति प्रक्रिया के बारे में अधिक है।",
+
+    send_activation_request_to_support:
+      "समर्थन टिकट में सक्रियण अनुरोध भेजें।",
+    require_kyc: "व्यवसाय के स्वामी केवाईसी।",
+    needs_enterprise_license: "आपके पास एंटरप्राइज़ लाइसेंस होना चाहिए।",
+    marketplace_caution_message:
+      "Marketplace को अपने मॉडल के रूप में सेट करें जो आपके व्यवसाय OS कॉन्फ़िगरेशन को गहराई से प्रभावित करता है। उदाहरण के लिए, आपको स्वतंत्र मूल्य निर्धारण और इन्वेंट्री वाले प्रत्येक उत्पाद के लिए कम से कम एक विक्रेता को परिभाषित करना होगा। ग्राहक ऐसे उत्पाद नहीं खरीद सकते जिनका कोई विक्रेता नहीं है।",
+  },
+
+  /** {@see BusinessModelView} **/
+  business_model_view: {
+    normal: {
+      title: "सामान्य स्टोर",
+      desc: "आम तौर पर एक एसएमई, घरेलू व्यवसाय, या ड्रॉपशीपर - जो अपना उत्पाद सीधे ग्राहकों को बेचता है या थोक विक्रेताओं के उत्पादों को पुनर्विक्रेता के रूप में बेचता है।",
+    },
+
+    dropshipping: {
+      title: "जहाज को डुबोना",
+      desc: "कोई उत्पाद और कोई सूची नहीं रखें - आप किसी तीसरे पक्ष को भुगतान करते हैं, आमतौर पर एक थोक व्यापारी (जैसे Printify, थोक2B, ...) या निर्माता, और वे पर्दे के पीछे के आदेशों को पूरा करते हैं।",
+    },
+
+    wholesaler: {
+      title: "ड्रॉपशीपिंग आपूर्तिकर्ता",
+      desc: "आम तौर पर एक थोक व्यापारी या एक निर्माता - जो सीधे अंतिम उपभोक्ता को ऑर्डर भेजता है। सेल्डोन पर अन्य व्यापारी आपके उत्पादों को अपने स्टोर में ड्रॉपशिप कर सकते हैं।",
+    },
+    marketplace: {
+      title: "बाजार",
+      desc: "ऑनलाइन मार्केटप्लेस खरीदारों और विक्रेताओं को एक मालिकाना और केंद्रीकृत प्लेटफॉर्म पर जोड़ता है।",
+    },
+
+    franchise: {
+      title: "फ्रेंचाइजी / संबद्ध",
+      desc: "फ्रैंचाइज़ी उत्पादों या सेवाओं को वितरित करने का एक तरीका है जिसमें एक फ़्रैंचाइज़र शामिल होता है जो आपके ब्रांड (फ़्रैंचाइज़िंग) को स्थापित करता है या आपके उत्पादों को उनके ब्रांड (एफिलिएट) द्वारा बेचता है।",
+    },
+  },
+
+  /** {@see BPageMarketplace} **/
+  marketplace: {
+    vendor_wallets: "पर्स",
+    pricing_models: "मूल्य निर्धारण",
+    add_vendor: "विक्रेता जोड़ें",
+    requests: "अनुरोध",
+  },
+
+  price_input_type: {
+    title: "मूल्य इनपुट प्रकार",
+    default: {
+      title: "चूक",
+      desc: "कार्ट में मात्रा के रूप में एक मान चुनें।",
+    },
+    area: {
+      title: "क्षेत्र",
+      desc: "मात्रा की गणना करने के लिए इनपुट के रूप में चौड़ाई और लंबाई दर्ज करें।",
+    },
+    volume: {
+      title: "मात्रा",
+      desc: "मात्रा की गणना करने के लिए इनपुट के रूप में चौड़ाई, लंबाई और ऊंचाई दर्ज करें।",
+    },
+    custom: {
+      title: "कस्टम (इनपुट फॉर्म द्वारा)",
+      desc: "सैकड़ों रूपों की कोई ज़रूरत नहीं है! उच्च अनुकूलन योग्य उत्पादों के लिए एक कस्टम लागत गणना फॉर्म बनाएं।",
+    },
+  },
+
+  /** {@see BPageShuttleVendors} **/
+  vendors_list: {
+    title: "मेरे विक्रेता",
+    message:
+      "मेरे अपने विक्रेताओं की सूची।",
+  },
+
+  vendor_page: {},
+
+  /** {@see BDomainsList} **/
+  domains: {
+    message:
+      "अपने व्यवसाय OS से अनेक डोमेन कनेक्ट करें और उन सभी को एक ही स्थान पर प्रबंधित करें। आप अपनी वेबसाइट के प्रत्येक भाग, जैसे ब्लॉग और समुदाय के लिए समर्पित डोमेन बनाने के लिए एकाधिक डोमेन सुविधा का उपयोग कर सकते हैं, या अपने सहयोगियों के लिए विभिन्न डोमेन का उपयोग कर सकते हैं।",
+  },
+
+  /** {@see BNoteButton}   {@see BNoteDialog} **/
+  notes: {
+    add_action: "अपनी टीम के लिए एक नोट जोड़ें",
+    notifications: {
+      success_add: "नोट सफलतापूर्वक जोड़ दिया गया है।",
+      success_delete: "नोट सफलतापूर्वक हटा दिया गया है।",
+    },
+  },
+
+  /** {@see BDashboardShopExternalServices} **/
+  external_services: {
+    title: "बाहरी सेवाएें",
+    subtitle:
+      "एसएमएस और ईमेल जैसी बाहरी सेवाओं की अंतिम स्थिति की निगरानी यहां करें।",
+  },
+
+  /** {@see BPageShopSettingQuota**/
+  shop_quota: {
+    title: "उपयोग कोटा",
+    sub_title:
+      "यह आपकी दुकान के लिए उपयोग कोटा सूची है। आप अपनी दुकान का लाइसेंस अपग्रेड करके इन सीमाओं को बढ़ा सकते हैं। यदि आप सीमा पार कर जाते हैं, तो आप हमसे अतिरिक्त दैनिक कोटा भत्ते का अनुरोध कर सकते हैं। सारा उपयोग प्रतिदिन रीसेट हो जाएगा.",
+  },
+
+  /** {@see WidgetAppCard} **/
+  app_card: {
+    category: "श्रेणी",
+    installs: "स्थापित करना",
+    actives: "सक्रिय",
+    uninstalls: "यदि अनइंस्टॉल",
+    app_code: "ऐप कोड",
+    app_mode: "आवेदन मोड",
+  },
+
+  product_status: {
+    open: {
+      name: "सक्रिय",
+      title: "सक्रिय ╏ ऑनलाइन और ऑफलाइन बिक्री",
+      description: "यह उत्पाद ऑनलाइन ऑर्डर के लिए उपलब्ध होगा।",
+    },
+    close: {
+      name: "निष्क्रिय",
+      title: "निष्क्रिय ╏ केवल ऑफलाइन बिक्री",
+      description: "यह उत्पाद ऑनलाइन ऑर्डर के लिए उपलब्ध नहीं होगा।",
+    },
+    pending: {
+      name: "लंबित",
+      title: "लंबित",
+      description: "लाइव होने से पहले मार्केटप्लेस समीक्षा की आवश्यकता है।",
+    },
+    rejected: {
+      name: "अस्वीकार कर दिया",
+      title: "अस्वीकार कर दिया",
+      description: "इस उत्पाद को बाज़ार द्वारा अस्वीकार कर दिया गया था.",
+    },
+    unlisted: {
+      name: "उनलइसतएद",
+      title: "उनलइसतएद",
+      description:
+        "तहइस उत्पाद इस नहीं सूची इन तहए स्टोर, बउत अककएससइबलए बय दइरएकत लिंक.",
+    },
+  },
+
+  /**
+   * BDashboardShopFeedback
+   */
+  direct_feedback: {
+    title: "सीधा अनुरोध भेजें",
+    message:
+      "Selldone पर सफल होने और लाभ कमाने के लिए अपनी शीर्ष 3 व्यावसायिक ज़रूरतों की पहचान करें। यह जानकारी सीधे संस्थापकों और निदेशकों के साथ साझा की जाएगी और इस पर सावधानीपूर्वक विचार किया जाएगा। आप सबमिशन के बाद समय के साथ अपनी ज़रूरतों को अपडेट भी कर सकते हैं।",
+    expand_action: "निवेदन लिखें...",
+    input_label: "आपका अनुरोध",
+    to: {
+      ceo: "सीईओ को भेजें",
+      team: "टीम को भेजें",
+    },
+    placeholder: {
+      ceo: "अच्छा बनने की कोई आवश्यकता नहीं है, मैं आपकी सीधी, सही बात सुनना पसंद करता हूँ। जैसे, मुझे...",
+      team: "कृपया उनके साथ अच्छा व्यवहार करने का प्रयास करें। जैसे मुझे...",
+    },
+  },
+
+  /**
+   * BInventoryFilter
+   */
+  inventory_filter: {
+    placeholder: "फ़िल्टर *.* चुनें",
+  },
+  /**
+   * BVendorInput
+   */
+  vendor_input: {
+    placeholder: "फ़िल्टर विक्रेता...",
+  },
+
+  /**
+   * BShopProductsImportProcessing
+   */
+  product_import_processing: {
+    title: "आयातित उत्पादों का प्रसंस्करण",
+    message:
+      "हम उत्पादों और छवियों को आयात करने की प्रक्रिया में हैं, जिसके पूरा होने में कुछ समय लग सकता है।",
+  },
+
+  /**
+   * BOrderInput
+   */
+  order_input: {
+    message:
+      "यहां प्रदर्शित जानकारी उत्पाद इनपुट फॉर्म संरचना के अनुसार ग्राहक द्वारा प्रस्तुत की गई है।",
+  },
+
+  /**
+   * BPageConnectDashboard
+   */
+  shop_connect: {
+    test: {
+      title: "स्थापित करना",
+      subtitle: "बाह्य सेवा रिपोर्ट",
+      action: "कनेक्शन का परीक्षण करें",
+      last_update: "अंतिम बार अपडेट किया गया",
+    },
+    service_status: {
+      title: "सेवा स्थिति",
+      syncing_message: "सिंक्रोनाइज़ेशन प्रक्रिया पर...",
+      action: "सभी को सिंक करें",
+      connect_status: "कनेक्ट स्थिति",
+      service_status: "सेवा स्थिति",
+      auto_confirm_enable_msg: "ऑर्डर के लिए स्वतः पुष्टि सक्षम है।",
+      auto_confirm_disable_msg:
+        "ऑर्डर की स्वचालित पुष्टि सक्षम नहीं है.",
+      shipping_enable_msg:
+        "शिपिंग लागत की गणना चेकआउट के समय दी गई जानकारी के आधार पर की जाएगी।",
+    },
+    detail: {
+      title: "कनेक्ट विवरण",
+      auto_confirm_order: "स्वचालित रूप से ऑर्डर की पुष्टि करें",
+      test_mode: "परीक्षण मोड",
+      status: {
+        subtitle: "समन्वयन स्थिति के बारे में समग्र जानकारी.",
+      },
+      sync: {
+        title: "सिंक विवरण",
+        subtitle:
+          "आंतरिक सिंक विवरण। यह जानकारी सिंक प्रक्रिया युग के सफलतापूर्वक समाप्त होने के बाद सहेजी जाती है।",
+        no_data: "कोई समन्वयन जानकारी नहीं!",
+      },
+    },
+
+    products: {
+      title: "उत्पादों",
+      subtitle:
+        "{name} से जोड़े गए उत्पादों की सूची। सुनिश्चित करें कि आपके उत्पाद का नाम और SKU अद्वितीय है। कुछ कनेक्ट सेवाओं का उपयोग माइग्रेशन के लिए किया जाता है, इसलिए यदि आपके पास डुप्लिकेट <b>SKU</b> और <b>नाम</b> वाले उत्पाद हैं, तो वे उत्पाद बदल दिए जाएँगे!",
+      action: "उत्पाद प्राप्त करें",
+      syncing_message: "सिंक्रोनाइज़ेशन प्रक्रिया पर...",
+    },
+
+    logs: {
+      title: "लॉग्स",
+      subtitle:
+        "पिछले 7 दिनों के सभी लॉग की सूची। लॉगिंग सुविधा केवल बाहरी सेवा प्रदाताओं पर समर्थित है।",
+    },
+
+    edit: {
+      title: "नया कनेक्ट जोड़ें",
+
+      service: {
+        title: "सेवा",
+        subtitle:
+          "कनेक्ट करने के लिए लक्ष्य प्लेटफ़ॉर्म, ड्रॉपशिपिंग आपूर्तिकर्ता या बाज़ार का चयन करें।",
+      },
+      test: {
+        false_title: "सभी को सिंक करें",
+        false_desc: "सभी उपलब्ध उत्पाद, श्रेणियाँ, ग्राहक प्राप्त करें।",
+        true_title: "सीमित (शुरुआती लोगों के लिए अनुशंसित)",
+        true_desc:
+          "अधिकतम 5 उत्पाद, श्रेणियाँ और ग्राहक पाएँ। आप इसे किसी भी समय कनेक्ट > सेटिंग में पूर्ण मोड में बदल सकते हैं।",
+      },
+      overwrite: {
+        false_title: "अगर मौजूद है तो मत बदलो",
+        false_desc: "मौजूदा उत्पाद और श्रेणी विवरण को यथावत बनाए रखें।",
+        true_title: "ओवरराइट",
+        true_desc:
+          "मौजूदा उत्पाद, वैरिएंट और श्रेणी की जानकारी अपडेट करें.",
+      },
+      migration_tips:
+        "<b>सुझाव:</b> यदि आप कार्यक्षमता का परीक्षण करना चाहते हैं, तो कृपया <b>सीमित</b> विकल्प चुनें। 'सभी सिंक करें' चुनने पर हम आपकी कनेक्टेड सेवाओं से सभी डेटा प्राप्त करेंगे और संबंधित छवियाँ डाउनलोड करेंगे, इसलिए आपका मुफ़्त स्टोरेज कम होगा। साथ ही, कई उत्पादों, श्रेणियों और ग्राहकों को हटाना कठिन हो सकता है!",
+      add_action: "स्वतः कनेक्ट करें",
+      order: {
+        title: "ऑर्डरिंग स्थिति",
+        subtitle:
+          "अपने स्टोर के लिए कनेक्टेड सेवा की ऑर्डर प्रबंधन सेटिंग कॉन्फ़िगर करें। इसमें ऑर्डर स्वीकृति सेट करना, स्वचालित ऑर्डर पुष्टिकरण सक्षम करना (यदि समर्थित हो), और शिपिंग लागत गणना कॉन्फ़िगर करना शामिल है।",
+      },
+      enable: {
+        label: "कनेक्ट स्थिति",
+        true_desc: "इन्वेंट्री और ऑर्डर सिंक हो जाएंगे.",
+      },
+      confirm: {
+        label: "स्वचालित रूप से ऑर्डर की पुष्टि करें",
+        false_desc: "आपको ऑर्डर की पुष्टि मैन्युअल रूप से करनी चाहिए।",
+        true_desc:
+          "लाइव भुगतान वाले ऑर्डर स्वचालित रूप से स्वीकृत हो जाएंगे। डिबग भुगतान वाले ऑर्डर स्वचालित रूप से स्वीकृत नहीं होंगे।",
+        tips: "डिबग मोड में उपहार कार्ड या सीओडी या भुगतान गेटवे द्वारा भुगतान किए गए ऑर्डर अपवाद हैं और उनकी स्वचालित रूप से पुष्टि नहीं की जाएगी।",
+      },
+
+      shipping: {
+        label: "शिपिंग",
+        tips: "यह सेवा शिपिंग गणना प्रदान करती है, जिसे आपकी पसंद के अनुसार सक्षम या अक्षम किया जा सकता है। यदि सक्षम किया जाता है, तो तृतीय पक्ष सेवाओं के साथ लागत गणना API की आवश्यकता होगी, जिससे चेकआउट पृष्ठ पर मूल्य अपडेट करने में 300ms से अधिक की देरी हो सकती है।",
+        false_title: "अक्षम करना",
+        false_desc:
+          "आयातित उत्पादों सहित सभी उत्पादों के लिए शॉप > लॉजिस्टिक > परिवहन में मेरी शिपिंग लागत गणना का उपयोग करें।",
+        true_title: "शिपिंग की गणना करें",
+        true_desc:
+          "इस सेवा द्वारा प्रदान की गई शिपिंग दर गणना API का उपयोग करें।",
+      },
+
+      remove: {
+        verify: "मैं इस कनेक्शन को हटाने के लिए सत्यापन कर रहा हूँ।",
+        action: "कनेक्ट हटाएँ",
+      },
+    },
+
+    /**
+     * BPageShopChannelConnect
+     */
+    list: {
+      title: "ओएस कनेक्ट करें",
+      subtitle:
+        "अपने व्यवसाय ऑपरेटिंग सिस्टम को बाहरी सेवाओं से कनेक्ट करें और सभी चैनलों को एक ही स्थान पर प्रबंधित करें।",
+      action: "नई सेवाएँ कनेक्ट करें",
+      empty_message:
+        "ड्रॉपशिपिंग के लिए ऐप्स और प्लगइन्स को भूल जाइए! कनेक्ट क्रॉस-प्लेटफ़ॉर्म ऑर्डर प्रबंधन का भविष्य है।",
+      auto_confirm: "स्वतः पुष्टि",
+      shipping: "शिपिंग",
+      syncing_now: "अभी समन्वयन हो रहा है!",
+      sync_not_started: "सिंक अभी तक शुरू नहीं हुआ है!",
+    },
+  },
+
+  /**
+   * ConnectMode
+   */
+  connect_mode: {
+    Migration: {
+      title: "प्रवास",
+      desc: "उत्पाद, श्रेणियाँ और ग्राहक प्राप्त करें। उपयोगकर्ता द्वारा इस सेवा को हटाने के बाद, प्राप्त उत्पाद, श्रेणियाँ और ग्राहक हटाए नहीं जाएंगे।",
+    },
+    Dropshipping: {
+      title: "जहाज को डुबोना",
+      desc: "उत्पाद, श्रेणियाँ और ऑर्डर प्राप्त करें। उपयोगकर्ता द्वारा सेवा हटाने के बाद सिस्टम उत्पादों को हटा देता है।",
+    },
+    Marketplace: {
+      title: "बाजार",
+      desc: "बस इन्वेंट्री सिंक करें और ऑर्डर प्राप्त करें (उत्पाद SKU द्वारा लिंक किए जाएंगे)।",
+    },
+    Accounting: {
+      title: "लेखांकन",
+      desc: "आदेश और वित्तीय जानकारी भेजें.",
+    },
+    Other: {
+      title: "अन्य",
+      desc: "अन्य सेवाएं.",
+    },
+  },
+
+  /**
+   * BPageShopPagesLandings
+   */
+  shop_landings: {
+    title: "लैंडिंग पृष्ठ",
+    add_new_action: "नया पेज जोड़ें",
+    subtitle:
+      "बहुमुखी AI-संचालित इनलाइन संपादक का उपयोग करके अपने ब्रांड के लिए विशिष्ट, उत्तरदायी कस्टम पेज बनाएं, और डेटा फीड करके स्वचालित रूप से गतिशील सामग्री उत्पन्न करें।",
+    empty_message: "ड्रैग और ड्रॉप द्वारा कस्टम पेज डिज़ाइन करें...",
+  },
+
+  /**
+   * BPageShopPermissionStaff
+   */
+  shop_staff: {
+    list: {
+      title: "स्टाफ प्रबंधन",
+      subtitle:
+        "उपयोगकर्ताओं को इस स्टोर के डैशबोर्ड और प्रशासनिक अनुभागों तक पहुंच प्रदान की गई।",
+    },
+    pending: {
+      title: "लंबित",
+      message: "लंबित आमंत्रण दिखाएं.",
+    },
+  },
+
+  /**
+   * BPageShopCommunityComments
+   */
+  community_comments: {
+    title: "टिप्पणियाँ",
+    subtitle: "यह समुदाय की टिप्पणियों की सूची है।",
+    empty_msg: "अभी तक कोई टिप्पणी नहीं बनाई गई है...",
+  },
+
+  /**
+   * BPageShopCommunityCategories
+   */
+  community_categories: {
+    title: "श्रेणियाँ",
+    subtitle: "यह समुदाय की श्रेणियों की सूची है।",
+    new_category_action: "नई श्रेणी",
+    empty_msg: "अभी तक कोई श्रेणी नहीं बनाई गई है...",
+    filter: {
+      delete: {
+        title: "हटाए गए",
+        description: "हटाई गई श्रेणियां दिखाएं.",
+      },
+    },
+  },
+  /**
+   * BPageShopCommunityPosts
+   */
+  community_posts: {
+    title: "पदों",
+    subtitle: "यह समुदाय की पोस्टों की सूची है।",
+    filter: {
+      deleted: {
+        title: "हटाए गए",
+        description: "हटाये गये पोस्ट दिखाएं.",
+      },
+      reported: {
+        title: "की सूचना दी",
+        description: "रिपोर्ट की गई पोस्ट दिखाएं.",
+      },
+    },
+    empty_msg: "अभी तक कोई पोस्ट नहीं बनाई गई है...",
+    menu: {
+      open_post: {
+        title: "खुला पोस्ट",
+        subtitle: "समुदाय में पोस्ट देखें और संपादित करें.",
+      },
+      spam: {
+        title: "स्पैम की रिपोर्ट करें और हटाएं",
+        subtitle: "बड़े पैमाने पर पोस्ट हटाएं और उपयोगकर्ता पर प्रतिबंध लगाएं।",
+      },
+      delete: {
+        title: "पोस्ट को हटाएं",
+        subtitle: "इस पोस्ट को हटाएँ.",
+      },
+    },
+  },
+
+  /**
+   * {@see BGoogleTagManager}
+   */
+  channel_google: {
+    gtag: {
+      title: "टैग प्रबंधक",
+      subtitle:
+        "Google अनअलयतइकस सक्षम करें मएअसउरएमएनत ओफ अद रओइ वहइलए तरअककइनग फलअसह, वीडियो, अनद सओकइअल मएदइअ सइतएस अनद अपपस. प्रबंधित करें वएबसइतए तअगस एफफओरतलएससलय वइतह Google तअग मअनअगएर's फरएए, सइमपलए, अनद रएलइअबलए सओलउतइओनस—नओ कोड संपादित करें रएकउइरएद.",
+      tag_id: {
+        label: "गूगल टैग मैनेजर आईडी",
+      },
+    },
+    shopping: {
+      title: "गूगल शॉपिंग",
+      subtitle:
+        "डेटा स्रोत Google पर आपकी कैटलॉग जानकारी के स्रोत को इंगित करते हैं। Google मर्चेंडाइज़ में सभी उत्पादों और श्रेणियों को स्वचालित रूप से जोड़ने के लिए इस लिंक का अनुसरण करें।",
+      tips: "आप इस टूल का उपयोग Google विज्ञापनों को आसानी से और स्वचालित रूप से प्रबंधित करने के लिए कर सकते हैं।",
+      link_message: "Google उत्पाद फ़ीड URL",
+    },
+    console: {
+      title: "खोज कंसोल",
+      subtitle: "जोड़ें a मएतअ तअग तओ यओउर हओमएपअगए फओर Google खोज कओनसओलए सत्यापन.",
+      code: {
+        label: "सत्यापन मेटा टैग",
+        placeholder: "फरओम गओओगलए, e.g. वइकग9मजदबज...",
+      },
+    },
+    serp: {
+      title: "गूगल SERP और कीवर्ड",
+      subtitle:
+        "हम Google से सबसे सटीक SEO ऑडिट डेटा प्राप्त करते हैं और इसे आपके लिए सुविधाजनक तरीके से प्रस्तुत करते हैं। बस दिए गए चरणों का पालन करें।",
+    },
+    serp_content: {
+      title: "Google खोज कंसोल से कनेक्ट करें",
+      subtitle:
+        "अपनी दुकान को सर्च कंसोल से कनेक्ट करें और Selldone पर कीवर्ड, रैंक और अन्य मुफ्त एसईओ टूल की खोज शुरू करें।",
+      tips: {
+        title:
+          "परइओर तओ लिंक Selldone वइतह Google खोज कओनसओलए, एनसउरए तहए फओललओवइनग:",
+        add_in_selldone: "अपना कस्टम डोमेन जोड़ें, सत्यापित करें और प्राथमिक के रूप में सेट करें।",
+        add_in_google: "जोड़ें अनद सत्यापित करें <b>{domain}</b> इन यओउर<a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Google खोज कओनसओलए</b></a>.",
+      },
+      action_custom_domain: "कस्टम डोमेन",
+      action_connect_now: "अब जोड़ो",
+      action_remove_connection: "कनेक्शन हटाएँ",
+    },
+  },
+
+  /**
+   * {@see BPageShopIncentivesCoupon}
+   */
+  cashback: {
+    add_new: "नया कैशबैक जोड़ें",
+    title: "कैशबैक कार्यक्रम",
+    boosted: "बूस्ट (2x)",
+    min_purchase: "न्यूनतम खरीद",
+    only_first_order: "केवल प्रथम ऑर्डर",
+    total_cashback: "कुल कैशबैक",
+    delete_alert: {
+      title: "कैशबैक प्रोग्राम हटाएं",
+      message: "क्या आप इस कैशबैक प्रोग्राम को हटाना चाहते हैं?",
+      action: "हां, अभी हटाएं",
+    },
+    notifications: {
+      delete_success: "कैशबैक कार्यक्रम सफलतापूर्वक हटा दिया गया.",
+    },
+  },
+  /**
+   * {@see BPageCashback}
+   */
+  shop_cashback: {
+    title: "कैशबैक कार्यक्रम",
+    up_to: "तक",
+    menu: {
+      back: "पिछला कार्यक्रम",
+      dashboard: "डैशबोर्ड",
+      orders: "आदेश",
+      edit: "संपादन करना",
+    },
+    /**
+     * {@see BPageCashbackDashboard}
+     */
+    dashboard: {
+      chart_amount_buy: {
+        label: "खरीदना",
+        y: "खरीद राशि {currency}",
+      },
+      chart_amount_cashback: {
+        label: "कैशबैक",
+        y: "कैशबैक राशि {currency}",
+      },
+      chart_used: {
+        label: "इस्तेमाल किया गया",
+        y: "बार",
+      },
+    },
+    /**
+     * {@see BPageCashbackOrders}
+     */
+    orders: {
+      title: "कैशबैक ऑर्डर",
+      table: {
+        amount_cashback: "कैशबैक राशि",
+        payment_status: "भुगतान स्थिति",
+        date: "दिनांक",
+      },
+    },
+  },
+
+  /**
+   * {@see BCashbackAdd}
+   */
+  cashback_edit: {
+    config: {
+      subtitle: "यहां चैसबैक प्रतिशत, सीमा और उसकी स्थिति निर्धारित करें।",
+    },
+    percent_input: {
+      title: "कैशबैक प्रतिशत",
+      message: "1% से 20% तक कैशबैक प्रतिशत दर्ज करें।",
+    },
+    currency_input: {
+      message: "कैशबैक कार्यक्रम सिर्फ इसी मुद्रा के लिए उपलब्ध होगा।",
+    },
+    limit_input: {
+      title: "सीमा",
+      hint: "कैशबैक की अधिकतम राशि दर्ज करें.",
+      zero_message: "असीमित कैशबैक के लिए 0 दर्ज करें।",
+    },
+    duration: {
+      title: "अवधि सीमा",
+      subtitle: "कैशबैक कार्यक्रम की अवधि निर्धारित करें। यह वैकल्पिक है।",
+    },
+    start_input: {
+      title: "आरंभ करने की तिथि",
+      placeholder: "आरंभ तिथि चुनें...",
+    },
+    end_input: {
+      title: "अंतिम तिथि",
+      placeholder: "अंतिम तिथि चुनें...",
+    },
+    design: {
+      subtitle:
+        "कैशबैक प्रोग्राम के लिए शीर्षक और संक्षिप्त विवरण सेट करें। ये जानकारी ग्राहकों को दिखाई जाएगी।",
+    },
+    title_input: {
+      title: "शीर्षक",
+    },
+    description_input: {
+      title: "विवरण",
+    },
+    constraints: {
+      subtitle: "कैशबैक कार्यक्रम के लिए सीमाएँ निर्धारित करें।",
+    },
+    min_purchase_input: {
+      hint: "कैशबैक कार्यक्रम के लिए न्यूनतम खरीद राशि दर्ज करें।",
+      title: "न्यूनतम खरीद",
+    },
+    only_first_buy_input: {
+      false_desc: "कैशबैक कार्यक्रम सभी ऑर्डरों के लिए उपलब्ध होगा।",
+      true_desc:
+        "कैशबैक कार्यक्रम केवल पहले ऑर्डर के लिए उपलब्ध होगा।",
+      true_title: "केवल प्रथम ऑर्डर",
+      false_title: "सभी आदेश",
+    },
+    qualify_input: {
+      false_title: "सभी ग्राहक",
+      true_title: "ग्राहकों को योग्य बनाएं",
+      true_msg:
+        "कैशबैक कार्यक्रम केवल योग्य ग्राहकों के लिए उपलब्ध होगा।",
+    },
+    club: {
+      subtitle:
+        "कैशबैक प्रोग्राम के लिए क्लब सेट करें। कैशबैक प्रोग्राम केवल उन ग्राहकों के लिए उपलब्ध होगा जो इस क्लब में हैं।",
+    },
+    cluster: {
+      subtitle:
+        "किसी क्लस्टर को कैशबैक कार्यक्रम से जोड़कर आप इसे अधिक प्रभावी ढंग से प्रबंधित कर सकते हैं।",
+    },
+    notifications: {
+      add: "कैशबैक कार्यक्रम सफलतापूर्वक जोड़ा गया.",
+      edit: "कैशबैक कार्यक्रम सफलतापूर्वक अपडेट किया गया।",
+    },
+    enable_input: {
+      true_msg: "कैशबैक कार्यक्रम सक्रिय है और ग्राहक इसका उपयोग कर सकते हैं।",
+      false_msg:
+        "कैशबैक कार्यक्रम निष्क्रिय है और ग्राहक इसका उपयोग नहीं कर सकते।",
+    },
+    boosted_input: {
+      false_title: "सामान्य",
+      true_title: "बूस्ट (2x कैशबैक)",
+      true_msg:
+        "कैशबैक कार्यक्रम बूस्ट मोड में है और ग्राहकों को 2x कैशबैक मिलेगा।",
+      false_msg:
+        "कैशबैक कार्यक्रम सामान्य मोड में है और ग्राहकों को सामान्य कैशबैक प्राप्त होगा।",
+    },
+  },
+
+  /**
+   * @see BOrderPaymentRowPayment
+   */
+  row_payment: {
+    actions: {
+      refund: {
+        title: "वापसी भुगतान",
+        subtitle: "आंशिक या पूर्ण धन वापसी समर्थित।",
+      },
+      delivery: {
+        title: "डिलीवरी पर पुष्टि करें",
+        subtitle: "आप भुगतान प्रदाता के लिए डिलीवरी की मैन्युअल रूप से पुष्टि कर सकते हैं।",
+      },
+    },
+  },
+
+  /**
+   * @see BOrderPaymentActionsRefundDialog
+   */
+  payment_refund_dialog: {
+    title: "वापसी भुगतान",
+    message:
+      "सुरक्षा कारणों से, केवल पिछले 7 दिनों के भीतर भुगतान किए गए ऑर्डर ही रिफंड के लिए पात्र हैं।",
+    payment_amount: "भुगतान राशि",
+    total_refund_amount: "कुल वापस की गई राशि",
+    can_refund: "रिफंड कर सकते हैं",
+    refund_amount: "वापसी राशि",
+    verify: {
+      title: "रिफंड सत्यापित करें",
+      description:
+        "मैं पुष्टि करता हूं कि रिफंड राशि सही है और मैं आगे बढ़ना चाहता हूं।",
+    },
+    action: "अभी रिफंड करें",
+  },
+
+  /**
+   * @see BOrderPaymentActionsDeliveryDialog
+   */
+  payment_delivery_dialog: {
+    title: "ग्राहक डिलीवरी की पुष्टि",
+    message:
+      "कुछ भुगतान सेवाओं के लिए यह पुष्टि आवश्यक है कि ऑर्डर ग्राहक को डिलीवर कर दिया गया है। हम आमतौर पर ऑर्डर पूर्ति के अंतिम चरण के दौरान यह पुष्टि भेजते हैं जब हमें ग्राहक की डिलीवरी की पुष्टि प्राप्त होती है। हालाँकि, यदि आपको यह क्रिया मैन्युअल रूप से करने की आवश्यकता है, तो आप यहाँ ऐसा कर सकते हैं।",
+    verify: {
+      title: "डिलीवरी सत्यापित करें",
+      description:
+        "मैं पुष्टि करता हूं कि ऑर्डर ग्राहक तक पहुंचा दिया गया है।",
+    },
+    action: "अभी पुष्टि करें",
+  },
+
+  /**
+   * @see BPageProductCrossSelling
+   */
+  product_cross_selling: {
+    title: "क्रॉस बिक्री",
+    add_new_actions: "नया उत्पाद जोड़ें",
+    subtitle:
+      "इस अनुभाग में, आप इस उत्पाद पृष्ठ के लिए क्रॉस-सेल उत्पाद जोड़ और प्रबंधित कर सकते हैं। ये उत्पाद ग्राहकों को मुख्य आइटम के साथ खरीदने के लिए सुझाव के रूप में प्रदर्शित किए जाएँगे। आप अतिरिक्त खरीदारी को प्रोत्साहित करने और प्रोत्साहित करने के लिए छूट भी निर्धारित कर सकते हैं। सिस्टम ग्राहक के विचार के लिए अधिकतम 3 आइटम दिखाएगा।",
+    dialog: {
+      edit_title: "क्रॉस सेलिंग उत्पाद संपादित करें",
+      add_title: "नए क्रॉस सेलिंग उत्पाद जोड़ें",
+      target: {
+        title: "लक्ष्य उत्पाद",
+        subtitle:
+          "उन उत्पादों को चुनें जिन्हें आप इस उत्पाद के साथ क्रॉस-सेल विकल्प के रूप में प्रचारित करना चाहते हैं।",
+        select_products: "उत्पाद चुनें",
+      },
+      list: {
+        title: "लक्ष्य उत्पाद",
+        subtitle: "इस उत्पाद को क्रॉस-सेलिंग प्रमोशन के लिए चुना गया है।",
+        manage_product: "उत्पाद प्रबंधित करें",
+      },
+      discount: {
+        title: "छूट और संदेश",
+        subtitle:
+          "आपके पास ग्राहकों को चयनित अतिरिक्त आइटम खरीदने के लिए प्रेरित करने के लिए एक संदेश शामिल करने और छूट देने का विकल्प है। ये प्रोत्साहन बिक्री को बढ़ाने और समग्र खरीदारी अनुभव को बेहतर बनाने में मदद कर सकते हैं।",
+        amount_input: {
+          message:
+            "सभी मौजूदा छूटों को ध्यान में रखने के बाद उत्पाद की कीमत पर छूट का प्रतिशत लागू किया जाएगा।",
+        },
+        mismatch_type_warning:
+          "मुख्य उत्पाद प्रकारों के अलावा अन्य प्रकारों पर छूट लागू नहीं की जा सकती, क्योंकि स्रोत और लक्ष्य वस्तुओं को अलग-अलग बास्केट में नहीं रखा जाएगा।",
+        not_support_subscription_type_warning:
+          "क्रॉस-सेलिंग सदस्यता उत्पादों के लिए छूट निर्धारित करना संभव नहीं है, क्योंकि मूल्य निर्धारण योजनाओं को गतिशील रूप से समायोजित नहीं किया जा सकता है।",
+        message_input: {
+          message:
+            "ग्राहकों का ध्यान आकर्षित करने के लिए एक सम्मोहक और आकर्षक शीर्षक तैयार करें।",
+          placeholder:
+            "बंडल करें और बचत करें: हमारे चुने हुए चयन के साथ अपना लुक पूरा करें!",
+        },
+      },
+      action: {
+        title: "गतिविधि",
+        subtitle:
+          "यहां क्रॉस-सेलिंग उत्पाद की क्रिया को संशोधित करें। यदि आपके उत्पाद को कस्टम जानकारी के इनपुट की आवश्यकता है, जैसे कि मूल्यांकन फ़ॉर्म के माध्यम से, तो क्रिया के रूप में \"कार्ट में जोड़ें\" का चयन न करें, क्योंकि इससे त्रुटियाँ हो सकती हैं।",
+      },
+    },
+  },
+  /**
+   * @see BProductVariantsBulkAdd
+   */
+  product_variants_bulk_add: {
+    title: "जोड़ें वेरिएंट इन बउलक",
+    variants: {
+      title: "वेरिएंट विकल्प",
+      subtitle:
+        "चुनें उप तओ तवओ वेरिएंट विकल्प. अफतएर सएलएकतइओन, यओउ कअन चुनें वहइकह सपएकइफइक वेरिएंट तओ बनाएँ अउतओमअतइकअललय.",
+    },
+    values: {
+      title: "वेरिएंट वअलउएस",
+      subtitle: "एनतएर तहए पओससइबलए वअलउएस फओर एअकह वेरिएंट विकल्प हएरए.",
+      prevent_duplicates_tips:
+        "<b>नोट:</b> वए अउतओमअतइकअललय कहएकक फओर एक्सइसतइनग वेरिएंट तओ परएवएनत दउपलइकअतएस.",
+    },
+    inventory: {
+      title: "इनइतइअल इन्वेंटरी",
+      subtitle: "सएत तहए शुरू इन्वेंटरी संख्या फओर तहए नया वेरिएंट.",
+    },
+    add_variants_action: "बनाएँ वेरिएंट",
+  },
+
+  /**
+   * @see CrossSellActionType
+   */
+  CrossSellActionType: {
+    AddToCart: {
+      title: "कार्ट में जोड़ें",
+      description:
+        "सीधे कार्ट में जोड़ें बटन प्रदर्शित करें। ध्यान दें कि यह सब्सक्रिप्शन उत्पादों के लिए लागू नहीं है।",
+    },
+    ViewProduct: {
+      title: "उत्पाद देखें",
+      description:
+        "एक अधिक देखें बटन प्रदर्शित करें जो ग्राहकों को एक नई विंडो खोलकर उत्पाद पृष्ठ पर निर्देशित करता है।",
+    },
+  },
+
+  /**
+   * @see BProductFlow
+   */
+
+  product_flow: {
+    title: "खरीद प्रवाह",
+    subtitle: "यह आपके उत्पाद की खरीद प्रवाह और स्वास्थ्य जांच है।",
+
+    /**
+     * @see BProductFlowRowConnect
+     */
+    connect: {
+      subtitle: "यह उत्पाद <b>{name}</b> के माध्यम से जोड़ा गया है.",
+      enable_msg: "बाहरी सेवा के लिए यह ब्रिज सक्षम है।",
+      disable_msg: "बाहरी सेवा के लिए यह ब्रिज अक्षम है.",
+      has_shipping_msg:
+        "{name} शिपिंग का समर्थन करता है। इसलिए आपके पास चेकआउट पृष्ठ पर {name} द्वारा स्वचालित शिपिंग गणना सक्षम करने का विकल्प है।",
+    },
+    /**
+     * @see BProductFlowRowHealth
+     */
+    health: {
+      title: "उत्पाद स्वास्थ्य",
+      available_in_stock_msg: "उत्पाद स्टॉक में उपलब्ध है.",
+      out_of_stock_msg: "उत्पाद स्टॉक में नहीं है।",
+      file_count_msg:
+        "इस उत्पाद के लिए अपलोड की गई कुल {files_size} वाली {files_count} फ़ाइलें.",
+      no_file_uploaded_msg: "अभी तक कोई फ़ाइल अपलोड नहीं की गई है.",
+      no_image_uploaded_msg:
+        "उत्पाद को अधिक आकर्षक बनाने के लिए उसका चित्र अपलोड करें।",
+    },
+    /**
+     * @see BProductFlowErrorsVendor
+     */
+    vendor_errors: {
+      title: "लापता विक्रेता",
+      subtitle:
+        "इस उत्पाद का वर्तमान में कोई संबद्ध विक्रेता नहीं है। किसी उत्पाद को बाज़ार में खरीदने योग्य बनाने के लिए, उसका कम से कम एक विक्रेता होना ज़रूरी है।",
+      manage_vendors: "विक्रेताओं का प्रबंधन करें",
+    },
+
+    /**
+     * @see BProductFlowErrorsFile
+     */
+    file_errors: {
+      title: "गुम फ़ाइलें",
+      subtitle:
+        "वर्तमान में, इस उत्पाद के लिए कोई फ़ाइल अपलोड नहीं की गई है। कृपया आगे बढ़ने के लिए फ़ाइलें अपलोड करें।",
+      manage_files: "फ़ाइलें प्रबंधित करें",
+    },
+
+    /**
+     * @see BProductFlowRowPricing
+     */
+    pricing: {
+      title: "मूल्य निर्धारण",
+      no_product_price_msg: "डिफ़ॉल्ट उत्पाद मूल्य अभी तक सेट नहीं किया गया है!",
+      listing_pricing_msg: "सूचीकरण मूल्य निर्धारण:",
+      has_valuation_msg: "उत्पाद का मूल्यांकन होता है.",
+      subscription_pricing_msg:
+        "इस उत्पाद में {count} सदस्यता मूल्य निर्धारण योजनाएं हैं.",
+      has_no_subscription_pricing_msg:
+        "इस उत्पाद की कोई सदस्यता मूल्य निर्धारण योजना नहीं है।",
+    },
+    /**
+     * @see BProductFlowErrorsSubscription
+     */
+    subscription_errors: {
+      title: "सदस्यता मूल्य निर्धारण योजनाएँ अनुपलब्ध",
+      subtitle:
+        "इस उत्पाद में कोई सदस्यता मूल्य निर्धारण योजना नहीं है। इस उत्पाद को सदस्यता खरीद के लिए उपलब्ध कराने के लिए आपको कम से कम एक सदस्यता मूल्य निर्धारण योजना जोड़नी होगी।",
+      pricing_plans: "मूल्य निर्धारण योजनाएँ",
+    },
+
+    /**
+     * @see BProductFlowRowLocation
+     */
+    location: {
+      title: "विक्रय स्थान प्रतिबंध ● {status}",
+      status: {
+        has_restriction: "{count} देशों में उपलब्ध",
+        no_restriction: "प्रतिबंधित नहीं",
+      },
+      available_countries_msg:
+        "वैश्विक स्तर पर खरीदारी {count} देशों तक सीमित है। ये देश {countries} हैं।",
+      disable_for_all_countries_msg:
+        "आपकी दुकान > स्थान सेटिंग में सभी देशों के लिए शॉपिंग अक्षम है.",
+      location_is_not_in_permitted_shop_locations_msg:
+        "आपने {country} को बिक्री स्थान के रूप में सेट किया है, लेकिन स्टोर स्तर पर आपने इस देश की अनुमति नहीं दी है। कृपया अपनी स्टोर स्तर सेटिंग जांचें।",
+      shop_locations: "दुकान के स्थान",
+      product_locations: "उत्पाद स्थान",
+    },
+
+    /**
+     * @see BProductFlowErrorsLocation
+     */
+    location_errors: {
+      title: "उपलब्ध स्थान त्रुटि",
+      no_location_error_subtitle:
+        "आपने उत्पाद खरीदने के लिए स्थान प्रतिबंध सक्रिय किया है, लेकिन वर्तमान में, इस प्रतिबंध के अंतर्गत कोई भी देश सूचीबद्ध नहीं है। परिणामस्वरूप, यह उत्पाद किसी के द्वारा भी खरीदे जाने के लिए उपलब्ध नहीं है।",
+      invalid_location_error_subtitle:
+        "आपके उत्पाद के लिए स्थान प्रतिबंध सेटिंग में एक त्रुटि है: सूचीबद्ध कुछ स्थानों में कोई संबद्ध ज़िप कोड नहीं है। परिणामस्वरूप, उपयोगकर्ता ज़िप कोड चुनने में असमर्थ हैं, जिससे उत्पाद खरीद के लिए अनुपलब्ध हो जाता है।",
+
+      manage_locations: "स्थान प्रबंधित करें",
+    },
+
+    /**
+     * @see BProductFlowRowTax
+     */
+    tax: {
+      title: "सदस्यता कर",
+      default_shop: "डिफ़ॉल्ट दुकान कर",
+      tax_profiles: "कर प्रोफाइल",
+      description: {
+        subscription_tax_msg:
+          "हम केवल भुगतान निर्माण चरण पर ही कर लगा सकते हैं।",
+        dedicated: "समर्पित",
+        is_disabled: "यह कर प्रोफ़ाइल अक्षम है!",
+        tax_is_based_on_location: "कर: स्थान आधारित",
+        shipping_tax_is_based_on_location: "शिपिंग: स्थान आधारित",
+        included_in_price: "कीमत में शामिल है.",
+      },
+    },
+
+    /**
+     * @see BProductFlowRowVendor
+     */
+    vendor: {
+      vendor_owner_msg: "यह उत्पाद <b>{vendor}</b> का है।",
+      has_vendors_msg: "इस उत्पाद के लिए {count} विक्रेता हैं.",
+      no_vendor_msg:
+        "आपने इस उत्पाद के लिए कोई विक्रेता निर्दिष्ट नहीं किया है, इसलिए ग्राहक इसे खरीदने में असमर्थ हैं।",
+      add_vendors: "विक्रेता जोड़ें",
+    },
+  },
+
+  /**
+   * @see BPageProductTemplate
+   */
+  product_template: {
+    title: "उत्पाद पृष्ठ टेम्पलेट",
+    subtitle:
+      "आप बेहतर प्रस्तुति के लिए अपने उत्पाद पृष्ठ के भीतर एक पृष्ठ एम्बेड कर सकते हैं। सबसे अच्छा तरीका पारदर्शी पृष्ठभूमि वाले पृष्ठ बनाना और प्रत्येक उत्पाद श्रेणी के लिए 1 से 3 अनुभाग बनाना है। फिर, एक सुसंगत और आकर्षक प्रदर्शन के लिए एक पृष्ठ को कई उत्पादों को असाइन करें।",
+    edit_page: "संपादित पेज",
+    list_of_pages: "पृष्ठों की सूची",
+  },
+  /**
+   * @see BPageProductEmbed
+   */
+  product_embed: {
+    subtitle:
+      "आप हमारे द्वारा दिए गए कोड को कॉपी करके और पेस्ट करके आसानी से अपने ब्लॉग या अन्य वेब पेजों में कोई उत्पाद या उत्पादों की सूची एम्बेड कर सकते हैं। हालाँकि यह सुविधा अभी भी अपने शुरुआती चरण में है, हम सक्रिय रूप से इसकी कार्यक्षमता को अन्यत्र उपलब्ध सुविधाओं से आगे बढ़ाने के लिए काम कर रहे हैं। हालाँकि यह वर्तमान में सीमित क्षमताएँ प्रदान करता है, लेकिन हमारी योजना भविष्य में और अधिक टेम्पलेट और अनुकूलन विकल्प पेश करने की है।",
+    card: {
+      title: "न्यूनतम",
+      description:
+        "अन्य प्लेटफ़ॉर्म और HTML पृष्ठों में उत्पाद कार्ड जोड़ने के लिए HTML कोड उत्पन्न करें।",
+    },
+    iframe: {
+      title: "आईफ्रेम",
+      description:
+        "एक एम्बेडेड विंडो में व्यापक उत्पाद विवरण प्रदर्शित करने के लिए iframe कोड उत्पन्न करें।",
+    },
+  },
+
+  /**
+   * @see BPermissionStaffAddDialog
+   */
+  permission_staff_add: {
+    title_new: "नया स्टाफ",
+    title_edit: "स्टाफ़ संपादित करें",
+
+    staff: {
+      title: "स्टाफ और एक्सेस जोड़ें",
+      subtitle:
+        "स्टाफ एक्सेस वाले सभी उपयोगकर्ता आपके डैशबोर्ड में लॉग इन कर सकते हैं और वित्तीय जानकारी देख सकते हैं। सीमित एक्सेस वाले उपयोगकर्ताओं को जोड़ने के लिए, भूमिका निर्धारित करें।",
+      go_to_roles: "भूमिकाओं पर जाएँ",
+    },
+    access: {
+      customization_tips:
+        "<b>अनुकूलन:</b> डिफ़ॉल्ट पढ़ने/लिखने की पहुँच को अनुकूलित करने के लिए प्रत्येक आइटम पर क्लिक करें। प्रत्येक पंक्ति मुख्य शॉप डैशबोर्ड के अनुरूप पहुँच स्तर का प्रतिनिधित्व करती है।",
+      simplify_tips:
+        "<b>महत्वपूर्ण!</b> हम एक्सेस कंट्रोल को 300 से ज़्यादा से 10 लेवल तक सरल बनाते हैं। अधिक विस्तृत और अप-टू-डेट एक्सेस लेवल को डॉक्यूमेंटेशन में प्रकाशित किया जाएगा।",
+      multi_permission_tips:
+        "<b>कस्टम सीमाएँ?</b> आप एक उपयोगकर्ता के लिए अधिक पहुँच जोड़ सकते हैं, इसलिए पहली पहुँच जोड़ने के बाद, समान चरणों के साथ अतिरिक्त पहुँच बनाएँ।",
+      view_data: "डेटा देखें",
+      apply_changes: "परिवर्तनों को लागू करें",
+    },
+
+    inputs: {
+      email: {
+        placeholder: "ईमेल",
+        label: "उपयोगकर्ता ईमेल पता",
+      },
+      level: {
+        label: "पहुंच स्तर",
+        placeholder: "एक स्तर चुनें...",
+      },
+    },
+
+    actions: {
+      add: "स्टाफ जोड़ें",
+    },
+    notifications: {
+      add_success: {
+        title: "पहुँच दी गई",
+        message: "नई पहुँच सफलतापूर्वक जोड़ दी गई है.",
+      },
+      update_success: {
+        title: "पहुँच अद्यतन",
+        message: "अनुमतियाँ सफलतापूर्वक अद्यतन कर दी गई हैं.",
+      },
+    },
+  },
+
+  /**
+   * @see BCategoryEngineEditor
+   */
+  category_engine_editor: {
+    title: "अतिरिक्त उत्पाद सूची",
+    subtitle:
+      "विभिन्न श्रेणियों से उत्पाद प्रदर्शित करें। आपके पास उत्पादों को प्रदर्शित करने के लिए कई श्रेणियां चुनने या टैग द्वारा उत्पादों को फ़िल्टर करने का विकल्प है।",
+    aut_add_sub_categories_tips:
+      "आप नीचे दिए गए बटन पर क्लिक करके सभी उपश्रेणियों को स्वचालित रूप से वर्तमान श्रेणी में जोड़ सकते हैं।",
+    inputs: {
+      categories: {
+        label: "श्रेणियाँ",
+        messages: "इन श्रेणियों के उत्पाद दिखाए जाएंगे।",
+        placeholder: "श्रेणियाँ चुनें...",
+      },
+      tags: {
+        label: "उत्पाद टैग",
+        messages: "इन टैग वाले उत्पाद दिखाए जाएंगे।",
+        placeholder: "वायर टैग यहाँ और एंटर दबाएँ। उदा. नया संग्रह",
+      },
+    },
+    actions: {
+      save_engine: "इंजन सहेजें",
+      auto_add_subcategories: "स्वचालित रूप से उप-श्रेणियाँ जोड़ें",
+    },
+  },
+
+  /**
+   * @see SProductsSortView
+   */
+  products_sort_view: {
+    search_tips: {
+      title: "युक्तियां खोजें",
+      normal:
+        "<b>सामान्य खोज:</b> शीर्षक, एमपीएन, एसकेयू, ब्रांड या टैग द्वारा खोजें।",
+      product:
+        "<b>सटीक उत्पाद आईडी:</b> किसी विशिष्ट उत्पाद को खोजने के लिए P+उत्पाद आईडी का उपयोग करें, उदाहरण के लिए, <b class=\"text-green\">P</b> <i class=\"text-yellow\">360</i> ।",
+      quotes:
+        "<b>सटीक वाक्यांश:</b> सटीक वाक्यांश खोजने के लिए उद्धरण चिह्नों का उपयोग करें, उदाहरण के लिए, <b class=\"text-green\">\"</b> <i class=\"text-yellow\">आपका पाठ यहाँ</i> <b class=\"text-green\">\"</b> ।",
+      tax: "<b>कर प्रोफ़ाइल:</b> \"कर:\" का उपयोग करके विशिष्ट कर प्रोफ़ाइल वाले उत्पादों की खोज करें, उदाहरण के लिए, <b class=\"text-green\">कर:</b> <i class=\"text-yellow\">कर प्रोफ़ाइल नाम</i> ।",
+      new_products:
+        "<b>नए उत्पाद:</b> किसी विशिष्ट तिथि सीमा के भीतर जोड़े गए उत्पाद खोजें, जैसे, <b class=\"text-green\">नया~</b> <i class=\"text-yellow\">2023-08-10</i> <b class=\"text-green\">~</b> <i class=\"text-yellow\">2023-08-20</i> ।",
+    },
+  },
+
+  /**
+   * @see LAugmentForm
+   */
+  augment_form: {
+    title: "वृद्धि",
+    subtitle:
+      "वह कुंजी इनपुट करें जिसे पृष्ठ सामग्री में उसके संगत मान के साथ बदला जाएगा। कुंजियाँ अधिकतम 32 वर्ण की होनी चाहिए।",
+    add_caption: "नया आइटम जोड़ें",
+    add_sub_caption: "कस्टम कुंजी-मान युग्म जोड़ें.",
+    add_dialog: {
+      title: "इनपुट प्रकार चुनें",
+      html: {
+        title: "पाठ और HTML",
+        subtitle: "आइटम का मूल्य टेक्स्ट या HTML के रूप में निर्दिष्ट किया जा सकता है।",
+      },
+      image: {
+        title: "छवि",
+        subtitle: "आप एक छवि अपलोड कर सकते हैं.",
+      },
+    },
+    help_dialog: {
+      title: "गतिशील सामग्री का उपयोग कैसे करें",
+      how_it_works_tips:
+        "लैंडिंग पेजों में, आपके पास टेक्स्ट और इमेज दोनों के लिए डायनेमिक प्लेसहोल्डर निर्दिष्ट करने की सुविधा होती है। ये प्लेसहोल्डर संदर्भ के अनुसार सामग्री को अनुकूलित करने में महत्वपूर्ण भूमिका निभाते हैं। इन प्लेसहोल्डर्स की गतिशील प्रकृति उन्हें वृद्धि मूल्यों द्वारा पॉप्युलेट करने की अनुमति देती है, जो विभिन्न कारकों के आधार पर भिन्न हो सकते हैं। उदाहरण के लिए, प्रत्येक उत्पाद या श्रेणी के लिए वृद्धि मूल्य अलग-अलग हो सकते हैं। इस सुविधा का वास्तविक लाभ तब सामने आता है जब आपके पास अलग-अलग विशेषताओं वाले कई आइटम होते हैं। आप प्रत्येक आइटम के प्रदर्शन को निजीकृत और बढ़ाने के लिए इन डायनेमिक प्लेसहोल्डर्स का प्रभावी ढंग से उपयोग कर सकते हैं, जिससे आपके लैंडिंग पेजों पर एक अनूठा और इंटरैक्टिव अनुभव बन सकता है।",
+      assign_tips:
+        "छवियों को गतिशील मान निर्दिष्ट करने के लिए, अनुभाग के बाईं ओर स्थित फीडर बटन पर क्लिक करें।",
+      set_dynamic_image_tips:
+        "अब आपके पास छवि URL को संशोधित करने और उसे एक गतिशील मान निर्दिष्ट करने की क्षमता है।",
+      enter_values_tips:
+        "प्रत्येक उत्पाद के लिए, आपके पास समर्पित कुंजी-मूल्य युग्म निर्दिष्ट करने की क्षमता होती है।",
+      result_tips:
+        "यह पृष्ठ का अंतिम परिणाम है, जहां प्लेसहोल्डर्स को संवर्धित मानों से प्रतिस्थापित किया गया है।",
+    },
+  },
+
+  /**
+   * @see BLogisticProfileEditor
+   */
+  logistic_profile_editor: {
+    languages: {
+      title: "बहुभाषी",
+      subtitle:
+        "यह सामग्री भाषाओं की सूची है। आप प्रत्येक भाषा में लॉजिस्टिक्स प्रोफ़ाइल के लिए अलग-अलग सामग्री सेट कर सकते हैं।",
+      add_caption: "नया लेख जोड़ें",
+      no_more_language: "अब कोई भाषा नहीं!",
+    },
+    content: {
+      title: "विषय",
+      subtitle:
+        "आप लॉजिस्टिक्स प्रोफ़ाइल के लिए सामग्री को कई भाषाओं में अनुकूलित कर सकते हैं।",
+
+      language_input: "वर्तमान लेख की भाषा",
+      delete_article: "लेख हटाएं",
+      menu_tooltip: "स्वचालित अनुवाद / लेख हटाएं",
+    },
+    translate_to: "अनुवाद करने के लिए",
+    notifications: {
+      translate: {
+        message: "आलेख का अनुवाद सफलतापूर्वक पूर्ण हुआ.",
+      },
+      save_article: {
+        message: "आलेख सफलतापूर्वक सहेज लिया गया है.",
+      },
+      delete_article: {
+        message: "लेख सफलतापूर्वक हटा दिया गया है।",
+      },
+    },
+    delete_dialog: {
+      message: "क्या आप इस लेख को हमेशा के लिए हटाना चाहते हैं?",
+      action: "हां, अभी हटाएं",
+    },
+  },
+
+  /**
+   * @see LogisticProfilePage_Products
+   */
+  logistic_profile_products: {
+    title: "उत्पादों",
+    subtitle: "इस प्रोफ़ाइल से संबद्ध उत्पादों की सूची.",
+  },
+  /**
+   * @see LogisticProfilePage_Setting
+   */
+  logistic_profile_setting: {
+    title: "सामान्य जानकारी",
+    inputs: {
+      name: {
+        message:
+          "यह नाम आपको दिखाया जाएगा तथा इसे जनता को नहीं बताया जाएगा।",
+      },
+      accept_delete: {
+        true_description:
+          "इस कार्रवाई से सभी लेख और प्रोफाइल लिंक हट जाएंगे।",
+        true_title: "मैं इस कनेक्शन को हटाने के लिए सत्यापन कर रहा हूँ।",
+      },
+    },
+    actions: {
+      remove: "प्रोफ़ाइल और संबंध हटाएं",
+    },
+  },
+
+  /**
+   * @see BPageShopLogisticProfiles
+   */
+  shop_logistic_profiles: {
+    title: "लॉजिस्टिक्स प्रोफाइल",
+    add_caption: "नया प्रोफ़ाइल जोड़ें",
+    subtitle:
+      "आप यहां उत्पादों के लिए वारंटी और वापसी नीति बना और संपादित कर सकते हैं और इसे किसी भी उत्पाद को असाइन कर सकते हैं। आप विभिन्न प्रकार के उत्पादों के लिए अलग-अलग वारंटी नीतियां परिभाषित कर सकते हैं।",
+    add_dialog: {
+      title: "नया लॉजिस्टिक प्रोफ़ाइल बनाएं",
+      config: {
+        title: "सामान्य जानकारी",
+        subtitle:
+          "प्रोफ़ाइल का प्रकार चुनें। यह एक गाइड, वारंटी या कोई अन्य सामग्री और सामग्री हो सकती है जो आम तौर पर कई उत्पादों के बीच साझा की जाती है।",
+      },
+      article: {
+        title: "लेख",
+        subtitle:
+          "इस लॉजिस्टिक प्रोफ़ाइल को बनाने के बाद आप और भाषाएँ जोड़ सकते हैं।",
+      },
+      inputs: {
+        name: {
+          message:
+            "यह नाम आपको दिखाया जाएगा तथा इसे जनता को नहीं बताया जाएगा।",
+          placeholder: "प्रोफ़ाइल के लिए नाम दर्ज करें...",
+        },
+      },
+    },
+  },
+
+  /**
+   * @see BPageShopLogisticIncludes
+   */
+  shop_logistic_includes: {
+    title: "सम्मिलित आइटम प्रबंधन",
+    add_caption: "नया आइटम जोड़ें",
+    subtitle:
+      "यहां, आप अपने उत्पादों में शामिल आइटम प्रबंधित कर सकते हैं। अपने स्टोर के लिए एक दोषरहित उपस्थिति सुनिश्चित करने के लिए, सभी उत्पादों में वायरफ़्रेम जैसे समान छवि पैटर्न वाले आइटम का लगातार उपयोग करें।",
+    empty_list_msg: "सम्मिलित वस्तुओं की सूची...",
+    notifications: {
+      delete: {
+        message: "आइटम हटा दिया गया है.",
+      },
+    },
+    delete_dialog: {
+      title: "शामिल आइटम हटाएं",
+      message:
+        "क्या आप वाकई इस आइटम को स्थायी रूप से हटाना चाहते हैं? कृपया ध्यान दें कि इसे सभी संबद्ध उत्पादों से भी हटा दिया जाएगा!",
+      action: "हां, अभी हटाएं",
+    },
+    actions: {
+      edit_linked_page: "लिंक किए गए पृष्ठ को संपादित करें",
+    },
+  },
+
+  /**
+   * @see BIncludeItemAdd
+   */
+  include_item_add: {
+    dialog_title_edit: "सम्मिलित आइटम संपादित करें",
+    dialog_title_add: "नया सम्मिलित आइटम बनाएँ",
+
+    title: "सम्मिलित वस्तु",
+    subtitle:
+      "एक संक्षिप्त शीर्षक चुनें, आदर्श रूप से अधिकतम 2 से 3 शब्दों के साथ। चौकोर छवियों का उपयोग करें, क्योंकि हम अपलोड की गई तस्वीरों को 256x256 वर्ग प्रारूप में स्वचालित रूप से आकार देंगे। सभी टेम्पलेट्स में सर्वश्रेष्ठ उपस्थिति के लिए, पारदर्शी पृष्ठभूमि के साथ न्यूनतम छवियों का उपयोग करें और अपने उत्पादों में एक समान पैटर्न बनाए रखें।",
+    inputs: {
+      title: {
+        placeholder: "उत्पाद पृष्ठ पर संक्षिप्त शीर्षक प्रदर्शित...",
+      },
+      code: {
+        placeholder: "उनइकउए कोड, एक्स. मओबइलए_कअबलए_उसब",
+        hint: "वस्तुओं का पता लगाने के लिए खोज प्रक्रिया को सरल बनाने के लिए इस कोड का उपयोग करें।",
+      },
+      description: {
+        placeholder: "इस वस्तु के बारे में संक्षिप्त विवरण...",
+        hint: "विवरण का उपयोग SEO के लिए किया जाएगा और यह उत्पाद पृष्ठ में कुछ कस्टम लेआउट पर उपयोगकर्ताओं को दिखाई दे सकता है।",
+      },
+      image: {
+        message: "अधिकतम छवि आकार: 1MB",
+      },
+      path: {
+        label: "पृष्ठ पथ",
+      },
+    },
+    mode: {
+      no_link: {
+        title: "कोई मेल नहीं",
+      },
+      external_link: {
+        title: "बाहरी लिंक",
+        description: "किसी बाहरी यूआरएल के लिए लिंक सेट करें.",
+        tips: "आप आइटम के साथ कोई भी URL संलग्न कर सकते हैं। जब उपयोगकर्ता उत्पाद पृष्ठ पर आइटम पर क्लिक करेंगे, तो उन्हें उस लिंक पर पुनः निर्देशित किया जाएगा।",
+      },
+      internal_link: {
+        title: "आंतरिक लिंक",
+        description:
+          "इस आइटम के लिए संवर्द्धन डेटा प्रदान करके गतिशील पृष्ठ बनाएँ.",
+        tips: "आप प्रोफ़ाइल के साथ लैंडिंग पेज लिंक कर सकते हैं और इसके लिए कस्टम पथ और डायनामिक कंटेंट सेट कर सकते हैं। Selldone आइटम के लिए डायनामिक लिंक जेनरेट करेगा।",
+      },
+    },
+    notifications: {
+      add: {
+        message: "सम्मिलित आइटम सफलतापूर्वक जोड़ दिया गया है।",
+      },
+      edit: {
+        message: "सम्मिलित आइटम को सफलतापूर्वक अद्यतन कर दिया गया है।",
+      },
+    },
+  },
+  /**
+   * @see BPageShopLogisticReturns
+   */
+  shop_logistic_returns: {
+    title: "लौटाए गए आदेश",
+    subtitle:
+      "आपके ग्राहक अपने भौतिक ऑर्डर वापस कर सकते हैं, और आप ऑर्डर प्रोसेसिंग पेज पर वापसी अनुरोध देख सकते हैं या यहां वापस किए गए ऑर्डर की पूरी सूची देख सकते हैं।",
+  },
+  /**
+   * @see OReferralFees
+   */
+  referral_fees: {
+    title: "आयोगों",
+    subtitle:
+      "आपके रेफ़रल से अर्जित सभी कमीशन की सूची। कमीशन को स्वीकृत होने और आपके वॉलेट में स्थानांतरित होने में 30 दिन तक का समय लगता है।",
+  },
+  /**
+   * @see OReferralWallets
+   */
+  referral_wallets: {
+    title: "पर्स",
+    subtitle:
+      "यहाँ आप अपनी कमाई गई कमीशन फीस देख सकते हैं। आप अपनी कमीशन फीस को अपने बैंक खाते या अपने सेलडोन वॉलेट में ट्रांसफर कर सकते हैं।",
+    no_commission_yet: "आपको अभी तक कोई कमीशन नहीं मिला है.",
+    no_wallet: "कोई बटुआ नहीं!",
+
+    withdraw_dialog: {
+      title: "कमीशन शुल्क वापस लें",
+
+      need_bank_info_message: "कृपया पहले अपनी बैंक जानकारी दर्ज करें।",
+
+      to_wallet: {
+        title: "वॉलेट में",
+        subtitle:
+          "इस विकल्प के साथ, आप कमीशन फीस को अपने Selldone वॉलेट में स्थानांतरित कर सकते हैं। कृपया सुनिश्चित करें कि वॉलेट आपके गिफ्ट वॉलेट से जुड़ा हुआ है, और यह उसी मुद्रा के साथ काम करता है।",
+      },
+      to_bank: {
+        title: "बैंक के लिए",
+        subtitle:
+          "इस विकल्प के साथ, आप कमीशन फीस को अपने Selldone वॉलेट में स्थानांतरित कर सकते हैं। कृपया सुनिश्चित करें कि वॉलेट आपके गिफ्ट वॉलेट से जुड़ा हुआ है, और यह उसी मुद्रा के साथ काम करता है।",
+      },
+      inputs: {
+        verify_to_wallet: {
+          true_description:
+            "मैं अपना कमीशन अपने सेलडोन वॉलेट में स्थानांतरित करना चाहता हूं।",
+        },
+        verify_to_bank: {
+          true_description:
+            "मैं अपनी बैंक जानकारी सत्यापित करता हूं और मैं अपना कमीशन अपने बैंक खाते में स्थानांतरित करना चाहता हूं।",
+        },
+      },
+      actions: {
+        withdraw_to_wallet: "वॉलेट में निकासी करें",
+        withdraw_to_bank: "बैंक में निकासी करें",
+      },
+    },
+    notifications: {
+      request_transfer_to_bank_success:
+        "आपका अनुरोध सफलतापूर्वक प्राप्त हो गया है और हम इसकी समीक्षा करेंगे।",
+    },
+  },
+
+  /**
+   * @see OPageMonetizeReferral
+   */
+  monetize_referral: {
+    copy_box: {
+      message: "यओउ कअन जोड़ें <b>?रएफ={code}</b> तओ अनय सएललदओनए URL.",
+    },
+    intro: {
+      title: "सेलडोन एफिलिएट प्रोग्राम में शामिल हों",
+      message:
+        "सेलडोन एफिलिएट प्रोग्राम सरल और सीधा है, जिसे आपके लिए बिना किसी प्रयास के कमाई करने के लिए डिज़ाइन किया गया है। सेलडोन में नए उपयोगकर्ताओं को आमंत्रित करने के लिए अपना अनूठा एफिलिएट लिंक साझा करें, और आप उनके द्वारा किए गए प्रत्येक लेनदेन से कमीशन कमाएँगे—हमेशा के लिए। इसमें सदस्यता, सेवा शुल्क, दुकान उन्नयन और अन्य सभी राजस्व धाराओं से होने वाली आय शामिल है। समय या आय पर किसी भी सीमा के बिना राजस्व का हिस्सा कमाना शुरू करें। हमसे जुड़ें और अपने नेटवर्क को एक स्थिर आय में बदलें!",
+      why_join_selldone_affiliate: "यह एक अनोखा अवसर क्यों है?",
+      reasons: [
+        "यह हमेशा के लिए रहता है!",
+        "सभी सदस्यता और लेनदेन शुल्क को कवर करता है। Selldone पर उपयोगकर्ता के वस्तुतः प्रत्येक भुगतान को कवर करता है।",
+        "आपके लिंक का उपयोग करके पंजीकरण करने वाले किसी भी व्यक्ति को हम 99 डॉलर का निःशुल्क वाउचर भेजते हैं।",
+        "जब आपका टियर अपग्रेड होगा, तो आप पहले से रेफर किए गए सभी उपयोगकर्ताओं से नई दर पर कमाई करेंगे।",
+      ],
+    },
+  },
+
+  /**
+   * @see LMenuLeftAssets
+   */
+  l_menu_left_assets: {
+    no_asset_uploaded: "नओ अससएत अपलोड यएत.",
+  },
+
+  /**
+   * @see LMenuTopHome
+   */
+  l_menu_top_home: {
+    hot_keys: "हओतकएयस",
+    click_to_view_all: "कलइकक तओ देखें सभी...",
+    clone_tooltip: {
+      title: "दउपलइकअतए सतयलए",
+      subtitle:
+        "उसए तहइस तओओल तओ रएपलइकअतए सतयलएस सउकह अस फओनतस, पृष्ठभूमियाँ, मअरगइनस, अनद बओरदएरस. फओललओव तहएसए सतएपस तओ दउपलइकअतए सतयलएस:",
+      step_1:
+        "अकतइवअतए तहए तओओल अनद हओवएर यओउर मओउसए ओवएर पाठ, कओलउमनस, ओर छवियाँ; तहए कउरसओर वइलल कहअनगए तओ a पइपएततए.",
+      step_2: "कलइकक ओन तहए एलएमएनत वहओसए सतयलए यओउ वअनत तओ कओपय.",
+      step_3:
+        "तहए कउरसओर वइलल कहअनगए बअकक तओ a पअलएततए; कलइकक ओन तहए एलएमएनत वहएरए यओउ वअनत तओ अपपलय तहए कओपइएद सतयलए.",
+    },
+    show_side_menu_tooltip: {
+      subtitle:
+        "तओगगलए तहए वइसइबइलइतय ओफ तहए सइदए मेनू, वहइकह इनकलउदएस सभी सएकतइओन श्रेणियाँ फओर बउइलदइनग यओउर पृष्ठ.",
+    },
+    sort_tooltip: {
+      subtitle:
+        "सक्षम करें तहइस फएअतउरए तओ एअसइलय रएअररअनगए अनद ओरगअनइज़ए सएकतइओनस बय दरअगगइनग तहएम.",
+    },
+    edit_mode_tooltip: {
+      title: "संपादित करें / परएवइएव मोड",
+      edit_mode_title: "संपादित करें मोड",
+      edit_mode_msg: "सभी संपादित करें तओओलस वइलल बए दइसपलअयएद.",
+      view_mode_title: "परएवइएव मोड",
+      view_mode_msg:
+        "देखें यओउर पृष्ठ अस उपयोगकर्ता वओउलद सएए इत बय हइदइनग अतिरिक्त संपादित करें तओओलस अनद खाली पाठ अरएअस.",
+    },
+    repository_tooltip: {
+      title: "परएबउइलत सएकतइओनस",
+      subtitle:
+        "तओगगलए तहए दइसपलअय ओफ परए-दएसइगनएद सएकतइओनस. तहएसए सएकतइओनस अरए करएअतएद उसइनग तहए सतअनदअरद सएकतइओनस उपलब्ध इन तहए लएफत मेनू, सहओवकअसइनग तहए फलएक्सइबइलइतय ओफ तहइस पृष्ठ बउइलदएर.",
+    },
+    live_view: {
+      title: "लइवए परएवइएव",
+      subtitle: "सएए अपडेट करें इन रएअल-तइमए अस यओउ संपादित करें यओउर पृष्ठ.",
+    },
+    hotkeys_dialog: {
+      title: "कएयबओअरद सहओरतकउतस",
+      augment_tips:
+        "यओउ कअन लओअद दयनअमइक कओनतएनत ओनतओ यओउर पृष्ठ अनद रएपलअकए इत वइतह <b>अउगमएनत</b> वअलउएस. अउगमएनत इस उसएद फओर कस्टम दयनअमइक पृष्ठ सउकह अस <b>उत्पाद</b>, <b>श्रेणियाँ</b>, अनद <b>इनकलउदए इतएमस</b>. तओ सएत अन छवि तओ लओअद दयनअमइकअललय, कलइकक ओन <b>फएएदएर</b> अनद चुनें <b>दयनअमइक सओउरकए</b> फओर तहअत छवि.",
+    },
+    hotkeys: {
+      ctrl_b: "तओगगलए बओलद ओन/ओफफ फओर चुनें पाठ | <b>मअकए मए बओलद</b>",
+      ctrl_i: "तओगगलए इतअलइकस ओन/ओफफ फओर चुनें पाठ | <i>मअकए मए इतअलइक</i>",
+      ctrl_l:
+        "तओगगलए सतरइकएतहरओउगह ओन/ओफफ फओर चुनें पाठ | <s>सतरइकए तहरओउगह मए</s>",
+      ctrl_u: "तओगगलए उनदएरलइनए ओन/ओफफ फओर चुनें पाठ | <u>उनदएरलइनए मए</u>",
+      ctrl_1:
+        "दएकरएअसए फओनत आकार ओफ चुनें पाठ | <small>मअकए मए समअलल</small>",
+      ctrl_2: "इनकरएअसए फओनत आकार ओफ चुनें पाठ | <big>मअकए मए बइग</big>",
+      ctrl_r: "हटाएँ सभी फओरमअततइनग फरओम चुनें पाठ | कलएअन सभी सतयलएस",
+      ctrl_s: "सहेजें तहए पृष्ठ",
+      tab: "सवइतकह बएतवएएन सकअलए मोड",
+      ctrl_e: "अकतइवअतए ओर दएअकतइवअतए कलओनए सतयलए मोड",
+    },
+  },
+
+  /**
+   * @see LPageEditorRepository
+   */
+  l_page_editor_repository: {
+    title: "दरअग & दरओप",
+    subtitle: "परए-बउइलत सएकतइओनस",
+    add_dialog: {
+      title: "जोड़ें कस्टम सएकतइओन",
+      configuration: {
+        title: "समायोजन",
+        subtitle:
+          "यओउ कअन सहेजें कउसतओम-दएसइगनएद सएकतइओनस फओर फउतउरए उसए इन यओउर पृष्ठ दएसइगनस. तहएसए सअवएद सएकतइओनस वइलल बए अककएससइबलए तओ सभी अदमइनइसतरअतओरस इन तहइस स्टोर.",
+      },
+      image: {
+        title: "छवि",
+        subtitle: "सार्वजनिक छवि दइसपलअयएद इन तहए सूची.",
+      },
+      code: {
+        title: "कोड",
+        subtitle:
+          "यओउ कअन कओपय अनद पअसतए तहए एलएमएनत कोड फरओम तहए लएफत सइदए सएकतइओनस इन तहए पृष्ठ बउइलदएर.",
+      },
+      inputs: {
+        title: {
+          label: "शीर्षक",
+          message: "तहइस इस तहए सार्वजनिक शीर्षक.",
+        },
+        tags: {
+          label: "टैग",
+          message: "उसएद फओर खोज अनद कअतएगओरइज़इनग एलएमएनतस.",
+        },
+        section: {
+          message: "कओपय तहए सएकतइओन फरओम तहए पृष्ठ बउइलदएर.",
+        },
+      },
+    },
+  },
+
+  /**
+   * @see BPageMarketplaceVendors
+   */
+  marketplace_vendors: {
+    title: "विक्रेता सूची",
+    subtitle:
+      "जोड़ें विक्रेता हएरए, तहएन अससइगन तहएम तओ उत्पाद इन तहए उत्पाद डैशबोर्ड > विक्रेता.",
+    add_new_vendor_action: "जोड़ें नया विक्रेता",
+    status_tooltip: {
+      title: "विक्रेता स्थिति",
+      ACCEPTED: "तहए विक्रेता हअस पहुँच तओ तहएइर पअनएल.",
+      REJECTED: "तहए विक्रेता रएकउएसत हअस बएएन अस्वीकृत.",
+      PENDING: "तहए रएकउएसत इस अवअइतइनग a दएकइसइओन फरओम तहए विक्रेता.",
+    },
+    number_of_products: "नउमबएर ओफ उत्पाद",
+    invited: "इनवइतएद",
+    no_pricing: "नओ मूल्य निर्धारण",
+    no_pricing_tooltip: {
+      title: "डिफ़ॉल्ट मूल्य निर्धारण पलअन",
+      subtitle: "पलएअसए सएत a डिफ़ॉल्ट मूल्य निर्धारण मओदएल फओर तहए विक्रेता.",
+    },
+    updated_products_tooltip: {
+      title: "उत्पाद उपदअतएद इन तहए अंतिम 24 हओउरस",
+    },
+    added_products_tooltip: {
+      title: "उत्पाद जोड़ें इन तहए अंतिम 24 हओउरस",
+    },
+    access_tooltip: {
+      title: "पअनएल पहुँच",
+      subtitle:
+        "तहए विक्रेता हअस पहुँच तओ तहएइर पअनएल. यओउ कअन संपादित करें तहइस इन विक्रेता > पहुँच तअब.",
+    },
+    reject_by_user_tooltip: {
+      title: "अस्वीकृत बय उपयोगकर्ता",
+      subtitle:
+        "तहए उपयोगकर्ता अस्वीकृत तहए रएकउएसत तओ बएकओमए a विक्रेता अनद पहुँच तहइस विक्रेता.",
+    },
+    download_all_vendors: "डाउनलोड सभी विक्रेता",
+    bulk_import: "बउलक आयात (एक्सकएल)",
+  },
+
+  /**
+   * @see BShopLicenseNeedUpdateOverlay
+   */
+  shop_license_need_update_overlay: {
+    title: "लइकएनसए उपगरअदए रएकउइरएद!",
+    subtitle:
+      "यओउर कउररएनत लइकएनसए दओएस नहीं मएएत तहए रएकउइरएमएनतस ओफ यओउर चुनें बउसइनएसस मओदएल. पलएअसए उपगरअदए यओउर लइकएनसए तओ तहए एनतएरपरइसए पलअन.",
+  },
+
+  /**
+   * {@see BOrderChatBox}
+   */
+  b_order_chat_box: {
+    title: "कउइकक कार्रवाइयाँ",
+    subtitle:
+      "यओउ कअन सएनद a स्थिति अपडेट करें ईमेल तओ तहए बउयएर वइतह जउसत ओनए कलइकक. अददइतइओनअललय, यओउ कअन दएफइनए कओममओन संदेश हएरए तओ रएउसए, सओ यओउ दओन't हअवए तओ रएवरइतए तहएम एअकह समय.",
+    send_update_email_action: "सएनद अपडेट करें ईमेल",
+    add_template_action: "जोड़ें संदेश तएमपलअतए",
+
+    notifications: {
+      add_chat_success_message: "संदेश हअस बएएन जोड़ें सउककएससफउललय.",
+    },
+
+    send_update_email: {
+      title: "ऑर्डर अपडेट करें ईमेल",
+      need_set_service_alert: {
+        message:
+          "पलएअसए सएत यओउर ईमेल सेवा परओवइदएर तओ अललओव तहए ईमेल तओ बए सएनत.",
+        action: "गओ तओ सेटिंग्स",
+      },
+      send_action: "सएनद अपडेट करें ईमेल",
+
+      notifications: {
+        send_success_message: "ईमेल हअस बएएन सएनत सउककएससफउललय.",
+      },
+    },
+    add_template: {
+      edit_title: "संपादित करें संदेश तएमपलअतए",
+      add_title: "जोड़ें संदेश तएमपलअतए",
+      message:
+        "यओउ सहओउलद सएत a शीर्षक अनद संदेश बओदय हएरए. तहए शीर्षक केवल बए उसएद फओर यओउर रएफएरएनकए अनद वइलल नहीं सएनत तओ तहए ग्राहक.",
+
+      save_action: "सहेजें तएमपलअतए",
+      add_action: "जोड़ें तएमपलअतए",
+
+      notifications: {
+        save_success_message: "तएमपलअतए हअस बएएन सअवएद सउककएससफउललय.",
+      },
+
+      inputs: {
+        title: {
+          label: "तएमपलअतए शीर्षक",
+          placeholder: "वरइतए a सहओरत शीर्षक...",
+        },
+        body: {
+          label: "तएमपलअतए संदेश",
+          placeholder: "वरइतए यओउर संदेश हएरए...",
+          messages:
+            "यओउ कअन सएत दयनअमइक वअलउएस बय {order_id} अनद {buyer_name}.",
+        },
+      },
+    },
+  },
+
+  /**
+   * {@see BOrderShare}
+   */
+  b_order_share: {
+    title: "ऑर्डर लिंक",
+    subtitle: "यओउ कअन सहअरए तहए ऑर्डर लिंक वइतह तहए ग्राहक.",
+    guest_checkout_message:
+      "गउएसत सहओपपएरस कअन अउतओमअतइकअललय देखें तहएइर ऑर्डर इन तहए सअमए बरओवसएर.हओवएवएर, इफ तहए ग्राहक इस a गउएसत अनद यओउ नएएद तओ सहअरए तहए ऑर्डर विवरण, यओउ कअन बनाएँ a सएकउरए लिंक फओर तहएम.",
+    authentication: "अउतहएनतइकअतइओन",
+    guest: "गउएसत",
+    click_to_create: "कलइकक तओ बनाएँ...",
+    valid_for_30_days: "वअलइद फओर 30 दिन",
+    notifications: {
+      secure_link_created: "सएकउरए लिंक हअस बएएन करएअतएद सउककएससफउललय.",
+    },
+  },
+
+  /**
+   * {@see BPageShopCrmReviews}
+   */
+  shop_reviews: {
+    title: "रएवइएवस सओउरकएस",
+    add_source_action: "जोड़ें रएवइएव सओउरकए",
+    subtitle:
+      "एअसइलय कओननएकत एक्सतएरनअल पलअतफओरमस तओ कओललएकत अनद अनअलयज़ए रएवइएवस अबओउत यओउर बउसइनएसस फरओम सओउरकएस लइकए Facebook, Google, अनद मओरए. वए'लल अउतओमअतइकअललय मअतकह ग्राहक तओ तहएइर रएवइएवस फओर a बएततएर ग्राहक एक्सपएरइएनकए. यओउ कअन अलसओ सहओवकअसए तहएसए रएवइएवस ओन यओउर लैंडिंग पृष्ठ अनद उत्पाद पृष्ठ.",
+  },
+
+  /**
+   * {@see BPageShopLogisticPropertySets}
+   */
+  shop_logistic_property_set: {
+    add_caption: "जोड़ें नया विशेषता सएत",
+    title: "प्रॉपर्टी सेट",
+    subtitle:
+      "यओउ कअन बनाएँ अनद प्रबंधित करें प्रॉपर्टी सेट हएरए. प्रॉपर्टी सेट अरए उसएद तओ दएफइनए तहए विशेषताएँ ओफ उत्पाद अनद सेवाएँ. यओउ कअन अससइगन तहएसए प्रॉपर्टी सेट तओ उत्पाद इन तहए उत्पाद डैशबोर्ड > संपादित करें.",
+  },
+
+  /**
+   * {@see BProductProfilePropertySet}
+   */
+  product_property_set: {
+    profile: {
+      title: "विशेषता सएत - कस्टम वेरिएंट",
+      subtitle:
+        "यओउ कअन कउसतओमइज़ए तहए वेरिएंट नाम फओर तहइस उत्पाद, रएपलअकइनग तहए डिफ़ॉल्ट ओनएस.",
+    },
+
+    subtitle:
+      "यओउ कअन कउसतओमइज़ए वेरिएंट नाम, इकओनस, अनद तहएइर ऑर्डर हएरए. फओर उत्पाद वइतह उनइकउए वेरिएंट तहअत गओ बएयओनद तहए डिफ़ॉल्ट सइक्स, यओउ कअन सएत कस्टम वेरिएंट तअइलओरएद तओ एअकह उत्पाद. सइमपलय दएफइनए प्रॉपर्टी सेट इन तहए लॉजिस्टिक्स > प्रॉपर्टी सेट तअब अनद अससइगन तहएम तओ अनय नउमबएर ओफ उत्पाद अस नएएदएद.",
+    select_property_set: "चुनें विशेषता सएत",
+    add_property_set: "जोड़ें विशेषता सएत",
+  },
+
+  /** {@see BPageShopLogisticInventory} **/
+  transportation_boxes: {
+    title: "बॉक्स",
+    add_action: "जोड़ें बॉक्स",
+    subtitle:
+      "बनाएँ रएउसअबलए बॉक्स आकार तओ सपएएद उप लअबएल खरीद अनद एनसउरए अककउरअतए शिपिंग रअतएस. वहएन फउलफइललइनग अन ऑर्डर, चुनें a सअवएद बॉक्स अनद इतस दइमएनसइओनस वइलल अउतओ-फइलल.",
+    empty: "नओ बॉक्स यएत. कलइकक “जोड़ें बॉक्स”.",
+    edit: "संपादित करें बॉक्स",
+    new: "नया बॉक्स",
+    default_weight: "डिफ़ॉल्ट वज़न",
+    updated: "बॉक्स उपदअतएद.",
+    created: "बॉक्स करएअतएद.",
+    deleted: "बॉक्स दएलएतएद.",
+  },
+
+  /** {@see BBoxInput} **/
+  transportation_boxes_input: {
+    select_box: "चुनें a पैकेज",
+    define_package: "दएफइनए a पैकेज",
+    define_package_hint: "बनाएँ ओर संपादित करें यओउर परएदएफइनएद पैकेज आकार",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /** {@see BPageShopListing} **/
+  listing:{
+    name:"सूची",
+    message:"बनाएँ a सएअरकहअबलए, मओदएरअतएद दइरएकतओरय फओर अनय प्रकार ओफ सूची—विशेषताएँ, हओतएलस, दओकतओरस, सेवाएँ, अनद मओरए."
+  },
+
+  shop_listing: {
+    name: "सूची",
+    message:
+      "बनाएँ a सएअरकहअबलए, मओदएरअतएद दइरएकतओरय फओर अनय प्रकार ओफ सूची—विशेषताएँ, हओतएलस, दओकतओरस, सेवाएँ, अनद मओरए.",
+
+    items: {
+      title: "सामान",
+      sub_title:
+        "बनाएँ, संपादित करें, अनद प्रबंधित करें सूची इतएमस. कओनतरओल स्थिति, मूल्य निर्धारण, कओनतअकत जानकारी, अनद मएदइअ.",
+
+      empty_title: "नओ इतएमस यएत",
+      empty_subtitle:
+        "बनाएँ यओउर पहला सूची इतएम तओ शुरू बउइलदइनग यओउर दइरएकतओरय.",
+
+      add_title: "जोड़ें इतएम",
+      edit_title: "संपादित करें इतएम",
+
+      price_to: "मूल्य तओ",
+      price_unit: "मूल्य उनइत",
+      is_featured: "फएअतउरएद",
+
+      meta_json: "Meta JSON",
+      links_json: "लिंक JSON",
+      opening_hours_json: "ओपएनइनग हओउरस JSON",
+
+      delete_title: "हटाएँ इतएम",
+      delete_message: "अरए यओउ सउरए यओउ वअनत तओ हटाएँ तहइस इतएम?",
+      delete_success: "आइटम सफलतापूर्वक हटाया गया.",
+      restore_success: "इतएम रएसतओरएद सउककएससफउललय.",
+
+      opening_hours:"ओपएनइनग हओउरस",
+      form_fields:"फ़ॉर्म फइएलदस",
+
+      company: "सोहबत",
+      badges: "बैज",
+
+    },
+
+    categories: {
+      title: "श्रेणियाँ",
+      sub_title:
+        "ओरगअनइज़ए यओउर दइरएकतओरय वइतह श्रेणियाँ अनद सउबकअतएगओरइएस. तहइस इमपरओवएस नअवइगअतइओन अनद फ़िल्टर.",
+
+      empty_title: "नओ श्रेणियाँ यएत",
+      empty_subtitle:
+        "बनाएँ श्रेणियाँ तओ सतरउकतउरए यओउर सूची अनद इमपरओवए बरओवसइनग.",
+
+      add_title: "कैटेगरी जोड़े",
+      edit_title: "श्रेणी संपादित करें",
+
+      parent_filter: "फ़िल्टर बय पअरएनत",
+      parent: "अभिभावक श्रेणी",
+
+      price_format: "मूल्य फओरमअत",
+      icon: "आइकन",
+      design_id: "दएसइगन इद",
+
+      delete_title: "श्रेणी हटाएं",
+      delete_message: "अरए यओउ सउरए यओउ वअनत तओ हटाएँ तहइस श्रेणी?",
+      delete_success: "श्रेणी दएलएतएद सउककएससफउललय.",
+      form_schema: "श्रेणी फ़ॉर्म फइएलदस",
+    },
+
+    options: {
+      submission_title: "सउबमइससइओन",
+      submission_enabled: "सक्षम करें सउबमइससइओनस",
+
+      moderation_title: "मओदएरअतइओन",
+      moderation_mode: "मओदएरअतइओन मोड",
+      require_first_approved_before_more: "रएकउइरए पहला अपपरओवअल बएफओरए मओरए",
+
+      limits_title: "सीमाएं",
+      max_pending_per_user: "मअक्स लंबित पएर उपयोगकर्ता",
+      max_items_per_user: "मअक्स इतएमस पएर उपयोगकर्ता",
+      limits_hint: "लइमइतस हइनत",
+
+      templates_title: "टेम्पलेट्स",
+      card_template: "कार्ड तएमपलअतए",
+      details_template: "विवरण तएमपलअतए",
+
+      form_schema_title: "फ़ॉर्म सकहएमअ",
+      settings_title: "अतिरिक्त सेटिंग्स"
+    },
+
+    supervision: {
+      title: "सउपएरवइसइओन",
+      sub_title:
+        "रएवइएव सउबमइततएद इतएमस अनद दएकइदए वहअत हअपपएनस नएक्सत: अपपरओवए, पउबलइसह, रएजएकत, अरकहइवए, ओर रएसएत तओ लंबित.",
+
+      empty_title: "नओ इतएमस तओ रएवइएव",
+      empty_subtitle:
+        "वहएन उपयोगकर्ता सउबमइत नया इतएमस, तहएय वइलल अपपएअर हएरए फओर मओदएरअतइओन.",
+
+      review_title: "रएवइएव इतएम",
+      approve_publish: "अपपरओवए & पउबलइसह",
+
+      submitted_at: "सउबमइततएद",
+      quick_actions: "कउइकक कार्रवाइयाँ",
+
+      open_review: "ओपएन रएवइएव",
+      reset_to_pending: "रएसएत तओ लंबित",
+      items_title: "सामान",
+
+    },
+
+    moderation: {
+      approve_success: "इतएम स्वीकृत सउककएससफउललय.",
+      publish_success: "इतएम पउबलइसहएद सउककएससफउललय.",
+      unpublish_success: "इतएम उनपउबलइसहएद सउककएससफउललय.",
+      archive_success: "इतएम अरकहइवएद सउककएससफउललय.",
+      reject_success: "इतएम अस्वीकृत सउककएससफउललय.",
+      penalty_success: "पएनअलतय अपपलइएद सउककएससफउललय.",
+
+      reject_title: "रएजएकत इतएम",
+      reject_reason: "रएजएकतइओन रएअसओन",
+
+      penalty: "पएनअलतय",
+      penalty_title: "पएनअलतय",
+      penalty_points: "पएनअलतय पओइनतस",
+      penalty_note: "पएनअलतय नोट"
+    },
+
+    media: {
+      upload_images: "छवियाँ अपलोड करें",
+      url_type: "प्रकार",
+      url: "URL",
+      is_main: "सएत अस मुख्य"
+    },
+
+
+
+
+
+
+    /** {@see BShopListingDesignsList, BShopListingDesignUpsert} **/
+    designs: {
+      title: "दएसइगनस",
+      sub_title:
+        "बनाएँ मउलतइपलए दएसइगन सएतस (कार्ड + विवरण तएमपलअतएस) अनद अससइगन तहएम तओ श्रेणियाँ. श्रेणियाँ कअन उसए दइफफएरएनत दएसइगनस.",
+
+      empty_title: "नओ दएसइगनस यएत",
+      empty_subtitle:
+        "जोड़ें यओउर पहला दएसइगन सएत तओ शुरू कउसतओमइज़इनग हओव श्रेणियाँ लओओक.",
+
+      add_title: "जोड़ें दएसइगन",
+      edit_title: "संपादित करें दएसइगन",
+
+      card_template: "कार्ड तएमपलअतए",
+      details_template: "विवरण तएमपलअतए",
+
+      notifications: {
+        add_success: "दएसइगन करएअतएद सउककएससफउललय.",
+        edit_success: "दएसइगन उपदअतएद सउककएससफउललय.",
+        delete_success: "दएसइगन दएलएतएद सउककएससफउललय.",
+      },
+
+      delete_title: "हटाएँ दएसइगन",
+      delete_message:
+        "हटाएँ तहइस दएसइगन? श्रेणियाँ उसइनग इत वइलल अउतओमअतइकअललय लओसए दएसइगन_इद.",
+    },
+
+
+
+
+
+    badges: {
+      title: "बैज",
+      sub_title:
+        "बनाएँ अनद प्रबंधित करें सतओरएफरओनत बअदगएस. बअदगएस कअन बए अससइगनएद तओ सूची इतएमस तओ हइगहलइगहत सपएकइअल अततरइबउतएस.",
+
+      empty_title: "नओ बअदगएस यएत",
+      empty_subtitle:
+        "जोड़ें यओउर पहला बअदगए तओ शुरू हइगहलइगहतइनग सूची इतएमस.",
+
+      add_title: "जोड़ें बअदगए",
+      edit_title: "संपादित करें बअदगए",
+
+      notifications: {
+        add_success: "बअदगए करएअतएद सउककएससफउललय.",
+        edit_success: "बअदगए उपदअतएद सउककएससफउललय.",
+        delete_success: "बअदगए दएलएतएद सउककएससफउललय.",
+      },
+
+      delete_title: "हटाएँ बअदगए",
+      delete_message: "अरए यओउ सउरए यओउ वअनत तओ हटाएँ तहइस बअदगए?",
+    },
+
+    companies: {
+      title: "कंपनियों",
+      sub_title:
+        "बनाएँ अनद प्रबंधित करें कओमपअनइएस. एअकह सूची इतएम कअन ओपतइओनअललय बए लिंक तओ ओनए कओमपअनय.",
+
+      empty_title: "नओ कओमपअनइएस यएत",
+      empty_subtitle:
+        "जोड़ें यओउर पहला कओमपअनय तओ लिंक इत तओ सूची इतएमस.",
+
+      add_title: "जोड़ें कओमपअनय",
+      edit_title: "कंपनी संपादित करें",
+
+      notifications: {
+        add_success: "कओमपअनय करएअतएद सउककएससफउललय.",
+        edit_success: "कओमपअनय उपदअतएद सउककएससफउललय.",
+        delete_success: "कओमपअनय दएलएतएद सउककएससफउललय.",
+      },
+
+      delete_title: "हटाएँ कओमपअनय",
+      delete_message:
+        "हटाएँ तहइस कओमपअनय? इतएमस उसइनग इत वइलल अउतओमअतइकअललय लओसए तहए कओमपअनय लिंक.",
+    },
+
+
+
+    messages: {
+      title: "संदेश",
+      sub_title: "प्रबंधित करें संदेश सएनत बय उपयोगकर्ता फरओम सूची प्रोफ़ाइल.",
+      empty_title: "नओ संदेश",
+      empty_subtitle: "संदेश सएनत बय उपयोगकर्ता वइलल अपपएअर हएरए.",
+
+      sender: "सएनदएर",
+      item: "वस्तु",
+      has_reply: "रएपलय",
+      has_reply_yes: "हअस रएपलय",
+      has_reply_no: "नओ रएपलय",
+
+      dialog_title: "संदेश",
+      owner_reply: "ओवनएर रएपलय",
+      reply: "रएपलय",
+      reply_hint: "वरइतए a रएपलय तओ तहए उपयोगकर्ता. यओउ कअन अलसओ मअरक तहए संदेश अस रएअद/सपअम फरओम कार्रवाइयाँ.",
+
+      mark_read: "मअरक अस रएअद",
+      mark_unread: "मअरक अस उनरएअद",
+      archive: "अरकहइवए",
+      unarchive: "उनअरकहइवए",
+      mark_spam: "मअरक अस सपअम",
+      mark_not_spam: "नहीं सपअम",
+
+      delete_confirm: "हटाएँ तहइस संदेश?",
+    },
+
+    enable: {
+      title: "सूची",
+      subtitle: "सक्षम करें ओर अक्षम करें यओउर सार्वजनिक सूची पृष्ठ. वहएन सक्षम फओर तहए पहला समय, Selldone वइलल बनाएँ तहए सूची कॉन्फ़िगरेशन अउतओमअतइकअललय.",
+      true_description: "सूची इस सक्षम. ग्राहक कअन बरओवसए सूची पृष्ठ.",
+      false_description: "सूची इस अक्षम. तहए सूची पृष्ठ अनद सउबमइससइओनस अरए बलओककएद.",
+      open_listing: "ओपएन सूची",
+      note: "यओउ कअन लअतएर कओनफइगउरए मओदएरअतइओन, लइमइतस, फ़ॉर्म, अनद दएसइगन इनसइदए सूची सेटिंग्स.",
+      vendor_prereq_text:
+        "वअनत विक्रेता तओ जोड़ें सूची इतएमस फरओम तहएइर विक्रेता पअनएल? पहला, सवइतकह यओउर बउसइनएसस मओदएल तओ मार्केटप्लेस.",
+      vendor_prereq_button: "सएत मार्केटप्लेस बउसइनएसस मओदएल",
+
+      vendor_access_text:
+        "अब यओउ कअन दएकइदए वहएतहएर विक्रेता कअन पहुँच सूची फएअतउरएस (इतएमस + कओमपअनइएस). सक्षम करें इत इन मार्केटप्लेस सेटिंग्स.",
+      vendor_access_button: "सक्षम करें सूची फओर विक्रेता",
+
+      more_options_text:
+        "मओरए कओनतरओलस अरए उपलब्ध इन सूची सेटिंग्स. यओउ कअन कओनफइगउरए इनपुट, उइ/अपपएअरअनकए, मओदएरअतइओन, लइमइतस, अनद मओनएतइज़अतइओन विकल्प.",
+      more_options_button: "गओ तओ सूची सेटिंग्स",
+
+      updated: "सूची उपदअतएद.",
+      update_failed: "फअइलएद तओ अपडेट करें सूची.",
+    },
+
+
+    search: {
+      title: "खोज सेटिंग्स",
+      subtitle: "दएसइगन हओव ग्राहक खोज यओउर सूची. सक्षम करें लओकअतइओन-बअसएद खोज अनद बउइलद फ़िल्टर फरओम यओउर कस्टम फ़ॉर्म फइएलदस.",
+
+      location_title: "स्थान खोज",
+      location_subtitle: "अललओव ग्राहक तओ पइकक a स्थान अनद फइनद नएअरबय रएसउलतस वइतहइन a कओनफइगउरअबलए रअदइउस.",
+      location_enabled_true: "स्थान फ़िल्टर इस सक्षम. ग्राहक कअन खोज बय दइसतअनकए.",
+      location_enabled_false: "स्थान फ़िल्टर इस अक्षम. रएसउलतस वइलल नहीं बए फ़िल्टर बय दइसतअनकए.",
+
+      radius_default: "डिफ़ॉल्ट रअदइउस (कम)",
+      radius_default_hint: "उसएद वहएन तहए ग्राहक चुनें a स्थान बउत दओएस नहीं पइकक a रअदइउस.",
+      radius_max: "मअक्सइमउम रअदइउस (कम)",
+      radius_max_hint: "तहए सतओरएफरओनत रअदइउस वइलल बए कलअमपएद तओ तहइस वअलउए.",
+      radius_options: "रअदइउस विकल्प (कम)",
+      radius_options_hint: "तहएसए वअलउएस कअन बए सहओवन अस कउइकक विकल्प इन तहए सतओरएफरओनत उइ.",
+
+      filters_title: "खोज फ़िल्टर",
+      filters_subtitle: "जोड़ें फ़िल्टर तहअत रएअद वअलउएस फरओम इतएम मएतअ फइएलदस (यओउर सूची/श्रेणी फ़ॉर्म फइएलदस). उसए अउतओ-गएनएरअतए तओ कओललएकत रएअल विकल्प फरओम पउबलइसहएद इतएमस.",
+      no_filters: "नओ फ़िल्टर जोड़ें यएत.",
+      auto_generate: "अउतओ-गएनएरअतए विकल्प",
+
+      filter_field: "फइएलद कुंजी",
+      filter_label: "लेबल",
+      filter_type: "प्रकार",
+      filter_options: "विकल्प",
+      filter_options_hint: "फओर चुनें फ़िल्टर, विकल्प कअन बए मैनुअल ओर गएनएरअतएद.",
+      multiple: "मउलतइपलए",
+      single: "सइनगलए",
+      kv_mode: "कुंजी/वअलउए मोड",
+
+      requires_listing_active: "सूची इस नहीं सक्रिय. सक्षम करें सूची पहला तओ उसए इत ओन तहए सतओरएफरओनत.",
+
+
+    },
+
+
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /**
+   * Auto fill suggestions
+   */
+  suggestions: {
+    /**
+     * Vendor Payment
+     */
+    vendor_payment: {
+      note: [
         "बिक्री के लिए भुगतान पूरा हो गया",
         "विक्रेता कमीशन संवितरण.",
         "लेनदेन सफलतापूर्वक पूरा हुआ.",
         "हाल की बिक्री के लिए प्रेषण.",
-        "विक्रेता सेवाओं के लिए सफल स्थानांतरण।"
+        "विक्रेता सेवाओं के लिए सफल स्थानांतरण।",
       ],
-      "reverse_fund_reason": [
+      /**
+       * Reverse fund
+       */
+      reverse_fund_reason: [
         "धनराशि की वापसी: बैंक से विक्रेता के वॉलेट में स्थानांतरण।",
         "विक्रेता वॉलेट रीफ़िल: बैंक खाते से धनराशि वापस करना।",
         "रिवर्स ट्रांजेक्शन: बैंक से वेंडर वॉलेट फंड ट्रांसफर।",
         "रिफंड: बैंक जमा को विक्रेता के वॉलेट में वापस करना।",
-        "फंड रिवर्सल: बैंक से विक्रेता के वॉलेट की पुनःपूर्ति।"
-      ]
+        "फंड रिवर्सल: बैंक से विक्रेता के वॉलेट की पुनःपूर्ति।",
+      ],
     },
-    "shop_email": {
-      "name": [
+
+    /**
+     * Email Marketing
+     */
+    shop_email: {
+      name: [
         "सुपर सेविंग्स वीकेंड ब्लास्ट",
         "विशेष अंदरूनी सौदे का अनावरण",
         "प्रीमियम छूट तक आपकी वीआईपी पहुंच",
@@ -5877,9 +11335,9 @@ export default {
         "ब्लैक फ्राइडे बोनान्ज़ा: अर्ली बर्ड एक्सेस",
         "हेलो छुट्टियाँ: आपकी उपहार मार्गदर्शिका और बहुत कुछ",
         "ताज़ा खोजें: नए आगमन सिर्फ़ आपके लिए",
-        "वफादारी का इनाम: अंदर विशेष छूट"
+        "वफादारी का इनाम: अंदर विशेष छूट",
       ],
-      "subject": [
+      subject: [
         "⏰ सीमित समय का ऑफर! अभी अपना पसंदीदा प्राप्त करें",
         "🌼 नया सीज़न, नई शैलियाँ - हमारे नवीनतम संग्रह का अन्वेषण करें",
         "👑 विशेष वीआईपी सेल केवल आपके लिए",
@@ -5897,11 +11355,15 @@ export default {
         "🚀 आपने इसे अर्जित कर लिया है! आपके अगले ऑर्डर पर निःशुल्क शिपिंग",
         "📢 चूकें नहीं - आपकी इच्छा सूची की वस्तुएं अभी बिक्री पर हैं",
         "🏡 हमारे गृह सजावट संग्रह के साथ अपने घर में खुशियाँ लाएँ",
-        "🎉सिर्फ आपके लिए एक आश्चर्य! अपनी रहस्य छूट को उजागर करें"
-      ]
+        "🎉सिर्फ आपके लिए एक आश्चर्य! अपनी रहस्य छूट को उजागर करें",
+      ],
     },
-    "discount_code": {
-      "code": [
+
+    /**
+     * Discount code
+     */
+    discount_code: {
+      code: [
         "स्वागत है10",
         "ग्रीष्म20",
         "VIPSALE30",
@@ -5921,9 +11383,9 @@ export default {
         "वैलेंटाइन20",
         "मातृ दिवस",
         "फादर्स डे",
-        "वर्ष की समाप्ति"
+        "वर्ष की समाप्ति",
       ],
-      "title": [
+      title: [
         "फ़्लैश सेल: 20% छूट!",
         "वीआईपी अर्ली एक्सेस डिस्काउंट",
         "सप्ताहांत डील: अभी बचत करें!",
@@ -5941,9 +11403,9 @@ export default {
         "परिवार और मित्र: 20% छूट",
         "इस सप्ताहांत बड़ी बचत",
         "ब्लैक फ्राइडे: 40% छूट",
-        "गुप्त झलक छूट: 30% की छूट"
+        "गुप्त झलक छूट: 30% की छूट",
       ],
-      "description": [
+      description: [
         "अपने विशेष प्रस्ताव का दावा करें! बस सीमित समय केवल के लिए।",
         "जल्दी करो! आपके कार्ट में विशेष बचत की प्रतीक्षा है।",
         "बड़ी बचत बस एक क्लिक दूर है!",
@@ -5960,11 +11422,14 @@ export default {
         "इस डील को न चूकें! इसे छोड़ना बहुत अच्छा है.",
         "अच्छी खबर! आपकी खरीदारी अब सस्ती हो गई है.",
         "जल्दी करें, आपकी विशेष छूट जल्द ही समाप्त हो जाएगी!",
-        "आपकी निष्ठा के लिए यहां एक छोटा सा धन्यवाद है।"
-      ]
+        "आपकी निष्ठा के लिए यहां एक छोटा सा धन्यवाद है।",
+      ],
     },
-    "coupon": {
-      "title": [
+    /**
+     * Coupon
+     */
+    coupon: {
+      title: [
         "बचत उजागर",
         "छूट अनलॉक करें",
         "सुपर बचत",
@@ -5984,9 +11449,9 @@ export default {
         "सौदा इनाम",
         "त्वरित बचत",
         "दिन का एक सौदा",
-        "मौसमी चोरी"
+        "मौसमी चोरी",
       ],
-      "description": [
+      description: [
         "हम पर एक मधुर सौदे का आनंद लें! अपनी अगली खरीदारी पर बचत करें.",
         "हम अपने ग्राहकों को महत्व देते हैं - इस विशेष ऑफर का लाभ उठाएँ।",
         "जो आपको पसंद है उसे कम दाम में अधिक प्राप्त करें। हम पर छूट!",
@@ -6003,11 +11468,15 @@ export default {
         "हमारे विशेष ऑफर के साथ अपनी बचत शुरू करें।",
         "अपने आप को कुछ अतिरिक्त चीज़ों से प्रसन्न करें - एक विशेष छूट।",
         "आपकी अगली खरीदारी साहसिक यात्रा अब और अधिक किफायती हो गई है!",
-        "क्योंकि डिस्काउंट के साथ शॉपिंग करने में ज्यादा मजा आता है।"
-      ]
+        "क्योंकि डिस्काउंट के साथ शॉपिंग करने में ज्यादा मजा आता है।",
+      ],
     },
-    "offer": {
-      "title": [
+
+    /**
+     * Offer
+     */
+    offer: {
+      title: [
         "बंडल करें और बड़ी बचत करें!",
         "अधिक खरीदें, अधिक बचाएं!",
         "स्मार्ट शॉपर्स के लिए स्मार्ट डील",
@@ -6025,9 +11494,10 @@ export default {
         "बंडलों पर अद्वितीय सौदे",
         "बहु-खरीद छूट उपलब्ध है",
         "अभी कम कीमत पर दोगुना करें",
-        "थोक में खरीदारी = बड़ी बचत"
+        "थोक में खरीदारी = बड़ी बचत",
       ],
-      "description": [
+
+      description: [
         "जब आप चुनिंदा उत्पादों को बंडल करते हैं तो बड़ी बचत प्राप्त करें। जल्दी करें, ऑफर सीमित समय के लिए!",
         "स्मार्ट डील का इंतजार! हमारे हाइलाइट किए गए आइटम एक साथ खरीदते समय अधिक बचत करें।",
         "बचत करने का स्मार्ट तरीका खोजें! अपने पसंदीदा को बंडल करें और कीमतों में गिरावट देखें।",
@@ -6037,11 +11507,15 @@ export default {
         "कम में अधिक प्राप्त करें! जब आप हमारे चयनित बंडल खरीदते हैं तो अद्भुत छूट मिलती है।",
         "जब आप बंडल करें तो बड़ी बचत करें! सीमित समय के लिए चुनिंदा वस्तुओं पर विशेष सौदे।",
         "गठबंधन करें और बचाएं! जब आप हमारे चयनित उत्पादों को एक साथ खरीदते हैं तो विशेष छूट।",
-        "जितनी अधिक आप खरीददारी करेंगे, उतनी ही अधिक आप बचत करेंगे! हमारे विशेष बंडलों के साथ स्मार्ट बनें।"
-      ]
+        "जितनी अधिक आप खरीददारी करेंगे, उतनी ही अधिक आप बचत करेंगे! हमारे विशेष बंडलों के साथ स्मार्ट बनें।",
+      ],
     },
-    "gift_card_type": {
-      "title": [
+
+    /**
+     * Gift card type
+     */
+    gift_card_type: {
+      title: [
         "अपने आप का इलाज कराओ!",
         "सिर्फ तुम्हारे लिए!",
         "खरीदारी के लिए शुभकामनाएं!",
@@ -6061,11 +11535,15 @@ export default {
         "चुनाव तुम्हारा है",
         "अपने आप को व्यक्त करें",
         "जादू की खोज करें",
-        "अपनी शैली उजागर करें"
-      ]
+        "अपनी शैली उजागर करें",
+      ],
     },
-    "vendor_refund_order": {
-      "note": [
+
+    /**
+     * Refund vendor order
+     */
+    vendor_refund_order: {
+      note: [
         "आपके वर्चुअल वॉलेट से धनराशि काट ली गई है और मार्केटप्लेस वॉलेट में वापस कर दी गई है।",
         "आपके वर्चुअल वॉलेट बैलेंस को कम करते हुए रिफंड जारी कर दिया गया है।",
         "धनवापसी पूरी हो गई. मार्केटप्लेस वॉलेट को आपके वर्चुअल वॉलेट से पुनः भर दिया गया है।",
@@ -6073,11 +11551,15 @@ export default {
         "आपके वर्चुअल वॉलेट फंड को हाल ही में रिफंड के कारण समायोजित किया गया है।",
         "आपके वर्चुअल वॉलेट से राशि काटकर रिफंड कर दिया गया है।",
         "मार्केटप्लेस वॉलेट में रिफंड के कारण आपके वर्चुअल वॉलेट का बैलेंस कम हो गया है।",
-        "एक रिफंड लेनदेन हुआ है, जो आपके वर्चुअल वॉलेट से धनराशि को वापस बाज़ार में ले जा रहा है।"
-      ]
+        "एक रिफंड लेनदेन हुआ है, जो आपके वर्चुअल वॉलेट से धनराशि को वापस बाज़ार में ले जा रहा है।",
+      ],
     },
-    "product": {
-      "warranty": [
+
+    /**
+     * Product
+     */
+    product: {
+      warranty: [
         "24 महीने की सोने की गारंटी",
         "दो साल के लिए प्लैटिनम सुरक्षा",
         "36 महीने के लिए डायमंड एश्योरेंस",
@@ -6087,9 +11569,9 @@ export default {
         "कांस्य बैकअप: एक साल की वारंटी",
         "3-वर्ष की अंतिम अपटाइम गारंटी",
         "24 महीने की सुरक्षित सेवा का वादा",
-        "36-महीने की मन की शांति की सुरक्षा"
+        "36-महीने की मन की शांति की सुरक्षा",
       ],
-      "pros_name": [
+      pros_name: [
         "दक्षता में वृद्धि",
         "लागत प्रभावी समाधान",
         "गुणवत्ता आश्वासन",
@@ -6099,9 +11581,10 @@ export default {
         "बहुमुखी उपयोग",
         "अग्रणी तकनीक",
         "पर्यावरण के अनुकूल",
-        "असाधारण प्रदर्शन"
+        "असाधारण प्रदर्शन",
       ],
-      "pros_value": [
+
+      pros_value: [
         "त्वरित और कुशल संचालन से महत्वपूर्ण समय की बचत होती है।",
         "बेजोड़ प्रदर्शन के लिए उन्नत तकनीक का उपयोग करता है।",
         "लागत कम करता है और उत्पादकता बढ़ाता है।",
@@ -6111,9 +11594,10 @@ export default {
         "पर्यावरण के अनुकूल सामग्रियों और प्रक्रियाओं का उपयोग करता है।",
         "बेहतर परिणामों के लिए अत्याधुनिक तकनीक के साथ डिज़ाइन किया गया।",
         "उच्च गुणवत्ता वाला डिज़ाइन लंबे समय तक चलने वाला स्थायित्व सुनिश्चित करता है।",
-        "चौबीसों घंटे ग्राहक सहायता प्रदान करता है।"
+        "चौबीसों घंटे ग्राहक सहायता प्रदान करता है।",
       ],
-      "cons_name": [
+
+      cons_name: [
         "महँगा निवेश",
         "सीमित अनुकूलता",
         "जटिल सेटअप",
@@ -6123,9 +11607,10 @@ export default {
         "सीमित समर्थन",
         "बारंबार रखरखाव",
         "उच्च ऊर्जा खपत",
-        "कम जीवन अवधि"
+        "कम जीवन अवधि",
       ],
-      "cons_value": [
+
+      cons_value: [
         "विकल्पों की तुलना में अधिक प्रारंभिक निवेश।",
         "सभी प्रणालियों या उपकरणों के साथ संगत नहीं हो सकता।",
         "सेट-अप प्रक्रिया काफी जटिल हो सकती है.",
@@ -6135,11 +11620,15 @@ export default {
         "ग्राहक सहायता चौबीसों घंटे उपलब्ध नहीं हो सकती है।",
         "बार-बार रखरखाव की आवश्यकता होती है, जिससे लागत अधिक होती है।",
         "अधिक मात्रा में ऊर्जा की खपत होती है, जिससे उपयोगिता लागत प्रभावित होती है।",
-        "उत्पाद का जीवनकाल अपेक्षानुसार लंबा नहीं हो सकता है।"
-      ]
+        "उत्पाद का जीवनकाल अपेक्षानुसार लंबा नहीं हो सकता है।",
+      ],
     },
-    "blog_category": {
-      "category": [
+
+    /**
+     * Blog Category
+     */
+    blog_category: {
+      category: [
         "तकनीकी अंतर्दृष्टि",
         "खाने के शौकीन ढूँढ़ते हैं",
         "यात्रा कथाएँ",
@@ -6149,9 +11638,9 @@ export default {
         "जीवनशैली की कहानियाँ",
         "खेल अपडेट",
         "कला पर प्रकाश डाला गया",
-        "पेरेंटिंग पॉइंटर्स"
+        "पेरेंटिंग पॉइंटर्स",
       ],
-      "description": [
+      description: [
         "विभिन्न विषयों पर ज्ञानवर्धक लेख खोजें।",
         "जानकारीपूर्ण ब्लॉग पोस्ट के हमारे संग्रह का अन्वेषण करें।",
         "हमारी आकर्षक ब्लॉग श्रेणी सामग्री से अवगत रहें।",
@@ -6161,11 +11650,15 @@ export default {
         "हमारी दिलचस्प ब्लॉग श्रेणी सामग्री की गहराई में जाएँ।",
         "हमारे ब्लॉग श्रेणी संग्रह में बहुमूल्य जानकारी प्राप्त करें।",
         "हमारी सावधानीपूर्वक संकलित ब्लॉग श्रेणी से कुछ नया सीखें।",
-        "हमारे समृद्ध ब्लॉग श्रेणी लेखों और पोस्ट से जुड़ें।"
-      ]
+        "हमारे समृद्ध ब्लॉग श्रेणी लेखों और पोस्ट से जुड़ें।",
+      ],
     },
-    "partner_plan": {
-      "name": [
+
+    /**
+     * Partner Plan
+     */
+    partner_plan: {
+      name: [
         "स्टार्टर पैक",
         "आवश्यक योजना",
         "प्रोफेशनल सुइट",
@@ -6175,11 +11668,15 @@ export default {
         "अंतिम समाधान",
         "संभ्रांत स्तर",
         "विकास त्वरक",
-        "प्लैटिनम पावर"
-      ]
+        "प्लैटिनम पावर",
+      ],
     },
-    "tax_profile": {
-      "name": [
+
+    /**
+     * Tax Profile
+     */
+    tax_profile: {
+      name: [
         "फूड्स",
         "इलेक्ट्रॉनिक उपकरणों",
         "वस्त्र एवं परिधान",
@@ -6199,23 +11696,27 @@ export default {
         "बैग और सामान",
         "कार्यालय की आपूर्ति",
         "हार्डवेयर उपकरण",
-        "किराने का सामान"
+        "किराने का सामान",
       ],
-      "label": [
-        "VAT",
-        "GST",
-        "PST",
-        "HST",
-        "QST",
-        "CST",
-        "उत्पाद कर",
-        "आयात शुल्क",
-        "सेवा कर",
-        "लक्जरी टैक्स"
-      ]
+
+      label: [
+        "VAT", // Value-Added Tax
+        "GST", // Goods and Services Tax
+        "PST", // Provincial Sales Tax
+        "HST", // Harmonized Sales Tax
+        "QST", // Quebec Sales Tax
+        "CST", // Central Sales Tax
+        "उत्पाद कर", // Excise Tax
+        "आयात शुल्क", // Import Duty
+        "सेवा कर", // Service Tax
+        "लक्जरी टैक्स", // Luxury Tax
+      ],
     },
-    "cluster": {
-      "name": [
+    /**
+     * Cluster
+     */
+    cluster: {
+      name: [
         "बिक्री की मुख्य बातें",
         "प्रोमो कोड",
         "विशेष अभियान",
@@ -6235,11 +11736,15 @@ export default {
         "डिजिटल संसाधन",
         "उपहार योजना",
         "पर्यावरण-अनुकूल चयन",
-        "स्टाफ सिफ़ारिशें"
-      ]
+        "स्टाफ सिफ़ारिशें",
+      ],
     },
-    "popup": {
-      "title": [
+
+    /**
+     * Popup
+     */
+    popup: {
+      title: [
         "विशेष पेशकश!",
         "नवागन्तुक",
         "सीमित समय",
@@ -6251,11 +11756,15 @@ export default {
         "अंदर उपहार!",
         "पुरस्कार जीते",
         "सदस्य सुविधाएं",
-        "तेज़ बिक्री"
-      ]
+        "तेज़ बिक्री",
+      ],
     },
-    "campaign": {
-      "name": [
+
+    /**
+     * Campaign
+     */
+    campaign: {
+      name: [
         "ख़रीदारी करे जब तक गिर न जाए",
         "गाड़ी का उन्माद",
         "फ़्लैश सेल उत्सव",
@@ -6275,11 +11784,15 @@ export default {
         "ई-कार्ट क्लीयरेंस",
         "ऑनलाइन शॉपिंग तसलीम",
         "साइबर बिक्री शानदार",
-        "ई-सौदा ब्लिट्ज"
-      ]
+        "ई-सौदा ब्लिट्ज",
+      ],
     },
-    "valuation": {
-      "title": [
+
+    /**
+     * Valuation
+     */
+    valuation: {
+      title: [
         "टी-शर्ट अनुकूलन मूल्य निर्धारण",
         "हस्तनिर्मित आभूषण मूल्यांकन",
         "वैयक्तिकृत जूता मूल्य निर्धारण",
@@ -6299,10 +11812,10 @@ export default {
         "अनुकूलित बरतन मूल्यांकन",
         "वैयक्तिकृत स्टेशनरी मूल्य निर्धारण",
         "कस्टम हेयर एक्सेसरी मूल्यांकन",
-        "कस्टम खेल उपकरण मूल्य निर्धारण"
+        "कस्टम खेल उपकरण मूल्य निर्धारण",
       ],
-      "structure": {
-        "title": [
+      structure: {
+        title: [
           "टी-शर्ट प्रिंट डिज़ाइन",
           "आभूषण धातु प्रकार",
           "जूता सामग्री का चयन",
@@ -6322,12 +11835,16 @@ export default {
           "बरतन सामग्री",
           "स्टेशनरी पेपर प्रकार",
           "बाल सहायक सामग्री",
-          "खेल उपकरण का आकार"
-        ]
-      }
+          "खेल उपकरण का आकार",
+        ],
+      },
     },
-    "lottery": {
-      "title": [
+
+    /**
+     * Lottery
+     */
+    lottery: {
+      title: [
         "स्पिन करें और बड़े पुरस्कार जीतें!",
         "फॉर्च्यून व्हील जैकपॉट",
         "लकी स्पिन बोनान्ज़ा",
@@ -6347,9 +11864,9 @@ export default {
         "स्पिन-ए-पुरस्कार",
         "भाग्य का पहिया",
         "लकी स्पिन शोकेस",
-        "अल्टीमेट स्पिन रिवॉर्ड"
+        "अल्टीमेट स्पिन रिवॉर्ड",
       ],
-      "description": [
+      description: [
         "विशेष छूट जीतने का मौका पाने के लिए पहिया घुमाएँ!",
         "अपनी किस्मत आज़माएं - अद्भुत पुरस्कार हमारे भाग्य चक्र में प्रतीक्षा कर रहे हैं!",
         "प्रत्येक स्पिन के साथ बड़ी जीत हासिल करें - रोमांचक पुरस्कार उपलब्ध हैं!",
@@ -6369,11 +11886,15 @@ export default {
         "विशेष डील और ऑफ़र प्राप्त करने का मौका पाने के लिए स्पिन करें।",
         "भाग्य का पहिया घूम रहा है - अपना भाग्यशाली पुरस्कार पकड़ें!",
         "घुमाएँ, जीतें और मुस्कुराएँ - हर मोड़ पर आश्चर्यजनक पुरस्कार।",
-        "एक चक्कर लगाएं और भाग्य को आपका पुरस्कार तय करने दें!"
-      ]
+        "एक चक्कर लगाएं और भाग्य को आपका पुरस्कार तय करने दें!",
+      ],
     },
-    "subscription_price": {
-      "title": [
+
+    /**
+     * Subscription Price
+     */
+    subscription_price: {
+      title: [
         "बुनियादी पहुंच",
         "प्रीमियम सदस्यता",
         "गोल्ड पैकेज",
@@ -6383,9 +11904,9 @@ export default {
         "स्टार्टर बंडल",
         "असीमित ऑफर",
         "परिवार पैक",
-        "प्रोफेशनल सुइट"
+        "प्रोफेशनल सुइट",
       ],
-      "description": [
+      description: [
         "मूल बातें तलाशने वाले व्यक्तियों के लिए आदर्श।",
         "सभी प्रीमियम सुविधाओं और सामग्री तक पहुंच।",
         "विशेष लाभ और प्राथमिकता समर्थन।",
@@ -6395,11 +11916,12 @@ export default {
         "एक किफायती प्रवेश-स्तर विकल्प।",
         "पावर उपयोगकर्ता के लिए उपयोग पर कोई सीमा नहीं।",
         "4 सदस्यों तक के परिवारों के लिए एक विशेष योजना।",
-        "उन्नत उपकरणों की चाह रखने वाले पेशेवरों के लिए डिज़ाइन किया गया।"
-      ]
+        "उन्नत उपकरणों की चाह रखने वाले पेशेवरों के लिए डिज़ाइन किया गया।",
+      ],
     },
-    "spec": {
-      "group": [
+
+    spec: {
+      group: [
         "तकनीकी निर्देश",
         "भौतिक आयाम",
         "प्रदर्शन विशेषताएँ",
@@ -6419,11 +11941,12 @@ export default {
         "अनुकूलन विकल्प",
         "शामिल सहायक उपकरण",
         "उपयोगकर्ता रेटिंग और समीक्षाएँ",
-        "मूल्य निर्धारण और उपलब्धता"
-      ]
+        "मूल्य निर्धारण और उपलब्धता",
+      ],
     },
-    "avocado": {
-      "title": [
+
+    avocado: {
+      title: [
         "खरीद रसीद",
         "बिक्री की पुष्टि",
         "ऑर्डर इनवॉइस",
@@ -6443,9 +11966,9 @@ export default {
         "आदेश की पुष्टि",
         "बिलिंग चालान",
         "चेकआउट चालान",
-        "ग्राहक चालान"
+        "ग्राहक चालान",
       ],
-      "message": [
+      message: [
         "आपकी खरीद के लिए आपको धन्यवाद!",
         "हम आपके व्यापार की सराहना करते हैं।",
         "आपका आदेश मार्ग में है!",
@@ -6465,11 +11988,15 @@ export default {
         "आपने बहुत बढ़िया चुनाव किया है!",
         "हम पर आपके विश्वास के लिए धन्यवाद।",
         "आपकी प्रतिक्रिया के लिए इंतज़ार कर रहे है।",
-        "हमारी टीम की ओर से आपको हार्दिक धन्यवाद।"
-      ]
+        "हमारी टीम की ओर से आपको हार्दिक धन्यवाद।",
+      ],
     },
-    "map_tag": {
-      "title": [
+
+    /**
+     * Map Tag
+     */
+    map_tag: {
+      title: [
         "संपत्ति प्रदर्शन",
         "विक्रेता प्लाज़ा",
         "चुनिंदा घर",
@@ -6488,11 +12015,15 @@ export default {
         "पुस्तक नुक्कड़",
         "ज्वेलरी जंक्शन",
         "एंटीक एवेन्यू",
-        "फिटनेस ज़ोन"
-      ]
+        "फिटनेस ज़ोन",
+      ],
     },
-    "marketplace_document": {
-      "title": [
+
+    /**
+     * Marketplace Documents (For vendors)
+     */
+    marketplace_document: {
+      title: [
         "व्यवसाय पंजीकरण प्रमाणपत्र",
         "कर पहचान संख्या (टीआईएन)",
         "विक्रेता अनुबंध प्रपत्र",
@@ -6512,11 +12043,15 @@ export default {
         "सोशल मीडिया लिंक",
         "व्यापार संदर्भ",
         "आपूर्तिकर्ता की आचार संहिता",
-        "गैर-प्रकटीकरण समझौता (एनडीए)"
-      ]
+        "गैर-प्रकटीकरण समझौता (एनडीए)",
+      ],
     },
-    "expert_contract": {
-      "title": [
+
+    /**
+     * Expert Contract
+     */
+    expert_contract: {
+      title: [
         "मार्केटप्लेस सेटअप सेवा अनुबंध",
         "दुकान विन्यास अनुबंध",
         "प्रिंट-ऑन-डिमांड सेवा अनुबंध",
@@ -6536,11 +12071,15 @@ export default {
         "परामर्श और सेटअप सेवा अनुबंध",
         "पीओडी एकीकरण सेवा समझौता",
         "विपणन एवं संवर्धन सेवा अनुबंध",
-        "व्यवसाय विस्तार सेवा अनुबंध"
-      ]
+        "व्यवसाय विस्तार सेवा अनुबंध",
+      ],
     },
-    "account": {
-      "account_name": [
+
+    /**
+     * Account
+     */
+    account: {
+      account_name: [
         "मुख्य वॉलेट",
         "व्यवसाय खाता",
         "व्यक्तिगत वॉलेट",
@@ -6550,11 +12089,15 @@ export default {
         "सामान्य खाता",
         "रिजर्व वॉलेट",
         "लेनदेन वॉलेट",
-        "निधि खाता"
-      ]
+        "निधि खाता",
+      ],
     },
-    "cashback": {
-      "title": [
+
+    /**
+     * Cashback
+     */
+    cashback: {
+      title: [
         "खरीदारी करें और कैशबैक कमाएं",
         "वफादारी पुरस्कार कैशबैक",
         "विशेष कैशबैक ऑफर",
@@ -6569,9 +12112,9 @@ export default {
         "कैशबैक रिवार्ड्स क्लब",
         "अधिक खरीदारी करें, अधिक बचत करें",
         "अल्टीमेट कैशबैक रिवॉर्ड्स",
-        "कैशबैक एक्स्ट्रावैगन्ज़ा"
+        "कैशबैक एक्स्ट्रावैगन्ज़ा",
       ],
-      "description": [
+      description: [
         "हर खरीदारी पर कैशबैक कमाएं!",
         "अपनी वफादारी के लिए पुरस्कृत किया जाता है।",
         "सिर्फ आपके लिए विशेष कैशबैक ऑफर।",
@@ -6586,11 +12129,15 @@ export default {
         "अभी हमारे कैशबैक रिवार्ड्स क्लब में शामिल हों।",
         "आप जितनी अधिक खरीदारी करेंगे, उतना ही अधिक बचत करेंगे।",
         "परम कैशबैक पुरस्कार अनलॉक करें।",
-        "सर्वोत्तम कैशबैक सौदों का अनुभव करें।"
-      ]
+        "सर्वोत्तम कैशबैक सौदों का अनुभव करें।",
+      ],
     },
-    "page": {
-      "prompts": [
+
+    /**
+     * Page
+     */
+    page: {
+      prompts: [
         "{shop} में आपका स्वागत है - हमारी विशिष्ट वस्तुओं की श्रृंखला देखें",
         "{shop} - गुणवत्तापूर्ण माल और उत्कृष्ट सेवा के लिए आपका अंतिम स्रोत",
         "विशेष सौदे और बचत केवल {shop} पर - अवसर का लाभ उठाएँ!",
@@ -6600,11 +12147,15 @@ export default {
         "{shop} पर सभी आयोजनों के लिए प्रस्तुत विचार और रचनात्मक सुझाव",
         "{shop} पर बेजोड़ ऑफर और समय-संवेदनशील विशेष - जल्दी करें!",
         "{shop} की व्यापक खरीदारी युक्तियाँ और उत्पाद मूल्यांकन - विश्वास के साथ खरीदारी करें",
-        "{shop} तक पहुंचें - हम एक बेजोड़ खरीदारी अनुभव देने का प्रयास करते हैं"
-      ]
+        "{shop} तक पहुंचें - हम एक बेजोड़ खरीदारी अनुभव देने का प्रयास करते हैं",
+      ],
     },
-    "cross_selling": {
-      "message": [
+
+    /**
+     * Cross-Selling
+     */
+    cross_selling: {
+      message: [
         "अपना लुक पूरा करें, सेट ले लें!",
         "हमारे बंडल सौदों के साथ बड़ी बचत करें!",
         "हमारी बेहतरीन जोड़ियों को न चूकें!",
@@ -6624,1506 +12175,134 @@ export default {
         "इन चुनिंदा चीज़ों के साथ अपने संग्रह को बढ़ाएँ!",
         "आपके लिए तैयार: मिलान करें और बचाएँ!",
         "एक आदर्श दिन के लिए आदर्श जोड़ी!",
-        "अतिरिक्त बचत के लिए अपने पसंदीदा सामान को बंडल में जोड़ें!"
-      ]
-    }
-  },
-  "ai": {
-    "remove_bg": {
-      "title": "पृष्ठभूमि निकालें",
-      "subtitle": "पारदर्शी पृष्ठभूमि बनाएं."
-    },
-    "reimagine": {
-      "title": "पुनःकल्पना करें",
-      "subtitle": "नई पृष्ठभूमि के साथ अधिक चित्र बनाएं."
-    }
-  },
-  "extra_pricing_add_dialog": {
-    "title": "{min} से अधिक के लिए अतिरिक्त मूल्य निर्धारण",
-    "subtitle": "सिस्टम स्वचालित रूप से मूल्य गणना के लिए क्रम और प्राथमिकता निर्धारित करता है। कृपया इस मूल्य निर्धारण को प्रभावी बनाने के लिए आवश्यक न्यूनतम मात्रा दर्ज करें।",
-    "min_quantity": "न्यूनतम मात्रा"
-  },
-  "product_inventory_management_physical": {
-    "subtitle": {
-      "dropshipping": "ड्रॉपशिपिंग उत्पादों के लिए इन्वेंट्री थोक विक्रेताओं द्वारा निर्धारित की जाती है, और इसे यहां संशोधित नहीं किया जा सकता है।",
-      "marketplace": "बाज़ार में कुल उत्पाद सूची सभी विक्रेताओं की सूची को जोड़कर निर्धारित की जाती है। आप इसे यहाँ संशोधित नहीं कर सकते।",
-      "default": "यहां उत्पाद की इन्वेंट्री गणना निर्दिष्ट करें."
-    }
-  },
-  "google_product_category_input": {
-    "label": "Google उत्पाद श्रेणी कोड",
-    "hint": "Google के उत्पाद वर्गीकरण के अनुसार आपके उत्पाद की श्रेणी को दर्शाता है.",
-    "placeholder": "उत्पाद या सेवा श्रेणी दर्ज करें.. (वैकल्पिक)"
-  },
-  "LogisticProfileType": {
-    "WARRANTY": {
-      "title": "गारंटी",
-      "desc": "वारंटी एक अनुबंध का हिस्सा है, जिसमें निर्माता एक निश्चित अवधि के भीतर उत्पाद की मरम्मत या प्रतिस्थापन का वादा करता है। यह प्रतिबद्धता उन उपभोक्ताओं तक भी विस्तारित हो सकती है जिनका निर्माता के साथ कोई सीधा अनुबंध नहीं है।"
-    },
-    "RETURN_POLICY": {
-      "title": "वापसी नीति",
-      "desc": "वापसी नीतियां बताती हैं कि ग्राहक अवांछित सामान कैसे वापस कर सकते हैं या बदल सकते हैं। वे पात्र वस्तुओं, वापसी के लिए स्वीकार्य कारणों और वापसी करने की समय-सीमा को निर्दिष्ट करते हैं।"
-    },
-    "GUIDE": {
-      "title": "मार्गदर्शक",
-      "desc": "गाइड में परिधान के लिए आकार चार्ट या हीरे के लिए चयन गाइड शामिल हो सकता है। यह महत्वपूर्ण है कि गाइड बहुमुखी हों और कई उत्पादों पर लागू हों।"
-    },
-    "SHIPPING": {
-      "title": "शिपिंग",
-      "desc": "शिपिंग नीति ऑनलाइन ऑर्डर के लिए शिपिंग के प्रमुख पहलुओं का विवरण देती है, जिसमें शिपिंग लागत, तरीके और अनुमानित डिलीवरी समय शामिल हैं।"
-    }
-  },
-  "product_logistic_profile": {
-    "dialog": {
-      "title": "लॉजिस्टिक प्रोफ़ाइल चुनें",
-      "add_new_action": "नया प्रोफ़ाइल जोड़ें",
-      "add_new_disable_msg": "बाज़ार का मालिक"
-    }
-  },
-  "product_tax_profile": {
-    "description": {
-      "default": "चूक",
-      "dedicated": "समर्पित",
-      "subscription": "हम केवल भुगतान निर्माण चरण पर ही कर लगा सकते हैं।",
-      "is_disabled": "यह कर प्रोफ़ाइल अक्षम है! (⚠️चेतावनी)",
-      "shipping": "शिपिंग",
-      "fixed_rate": "TAX",
-      "location_based_rate": "कर: स्थान आधारित",
-      "shipping_location_based_rate": "शिपिंग: स्थान आधारित",
-      "include_in_price": "कीमत में शामिल"
-    },
-    "dialog": {
-      "header": "कर प्रोफ़ाइल चुनें",
-      "title": "कर प्रोफ़ाइल",
-      "subtitle": "आप उत्पाद को विशेष कर विनियमन निर्दिष्ट कर सकते हैं। यदि उत्पाद के लिए कोई कर प्रोफ़ाइल नहीं चुनी गई है, तो डिफ़ॉल्ट स्टोर कर विनियमन लागू किए जाएँगे।",
-      "action_manage": "कर प्रबंधन",
-      "action_manage_sub": "दुकान > वित्त > कर",
-      "subscription_tips": "जब आप सब्सक्रिप्शन उत्पाद के लिए टैक्स प्रोफ़ाइल चुनते हैं, तो हम <code>tax code</code> अपडेट करते हैं और आपके भुगतान सेवा प्रदाता पर समावेशी/अनन्य मोड सेट करते हैं। चयनित टैक्स प्रोफ़ाइल निर्दिष्ट करती है कि क्या कीमत को करों सहित या करों के बिना माना जाता है। <code>inclusive</code> या <code>exclusive</code> में से एक। एक बार समावेशी या अनन्य के रूप में निर्दिष्ट होने के बाद, इसे बदला नहीं जा सकता है।<br /><br /> <b>महत्वपूर्ण!</b> टैक्स प्रोफ़ाइल बदलने के बाद, आपको उत्पाद > इन्वेंट्री टैब पर मूल्य निर्धारण योजनाओं पर क्लिक करना चाहिए और परिवर्तन लागू करने के लिए सहेजें बटन पर क्लिक करना चाहिए।"
-    }
-  },
-  "product_vendor_profile": {
-    "vendor": {
-      "subtitle": "इस उत्पाद की कीमत और मात्रा उस विशेष विक्रेता द्वारा निर्धारित की जाती है जिसका यह उत्पाद है।"
-    },
-    "vendors": {
-      "subtitle": "यहाँ उत्पाद के आपूर्तिकर्ताओं की सूची दी गई है। मात्रा और कीमत आपूर्तिकर्ताओं द्वारा निर्धारित की जाएगी।"
-    }
-  },
-  "vendor_add": {
-    "profile": {
-      "title": "विक्रेता जानकारी",
-      "subtitle": "यह जानकारी ग्राहकों को सार्वजनिक रूप से दिखाई जाती है।",
-      "action_sub_caption": "सार्वजनिक उत्पाद सूची पृष्ठ.",
-      "action_see_listing_page": "सूची पृष्ठ देखें"
-    },
-    "page": {
-      "title": "कस्टम पेज",
-      "subtitle": "विक्रेता के लिए एक कस्टम लैंडिंग पेज सेट करें, तथा उन्हें उनके समर्पित पेज के लिए एक अद्वितीय लिंक प्रदान करें।",
-      "action_set_page": "सार्वजनिक पृष्ठ देखें",
-      "action_sub_caption": "कस्टम लैंडिंग पृष्ठ.",
-      "vendor_has_landing_msg": "विक्रेता के पास एक कस्टम लैंडिंग पेज है।",
-      "no_landing_selected_msg": "कोई लैंडिंग पृष्ठ चयनित नहीं.",
-      "no_landing_page": "कोई लैंडिंग पेज नहीं",
-      "we_can_create_dedicated_landing_msg": "हम आपके लिए एक समर्पित लैंडिंग पेज बना सकते हैं।"
-    },
-    "contact": {
-      "title": "संपर्क जानकारी",
-      "subtitle": "कृपया वैध संपर्क विवरण प्रदान करें।"
-    },
-    "business": {
-      "title": "व्यवसाय जानकारी",
-      "subtitle": "कृपया त्वरित एवं निर्बाध राजस्व संग्रहण प्रक्रिया सुनिश्चित करने के लिए अपने व्यवसाय के बारे में सटीक जानकारी प्रदान करें।"
-    },
-    "bank": {
-      "title": "भुगतान जानकारी",
-      "subtitle": "भुगतान के लिए यहां अपना बैंक विवरण दर्ज करें।"
-    },
-    "default_pricing": {
-      "title": "डिफ़ॉल्ट मूल्य निर्धारण",
-      "subtitle": "आप विक्रेता के लिए एक डिफ़ॉल्ट मूल्य निर्धारण मॉडल निर्दिष्ट कर सकते हैं। जब विक्रेता कोई नया उत्पाद जोड़ता है, तो इस मूल्य निर्धारण मॉडल का उपयोग उत्पाद की कीमत पर मार्केटप्लेस मार्जिन की गणना करने के लिए किया जाएगा। आप बाद में प्रत्येक उत्पाद के लिए मूल्य निर्धारण मॉडल को अलग-अलग समायोजित कर सकते हैं।",
-      "no_pricing": "कोई मूल्य निर्धारण नहीं"
-    },
-    "shipping": {
-      "title": "शिपिंग",
-      "subtitle": "विक्रेता अपनी स्वयं की शिपिंग सेवाएं और कूरियर सेवाएं स्थापित कर सकते हैं।",
-      "shipping_services": "शिपिंग सेवाएँ",
-      "total_number_of_services": "विक्रेता के पास शिपिंग सेवाओं की कुल संख्या.",
-      "couriers": "कूरियर",
-      "total_couriers_count": "विक्रेता के पास कूरियरों की कुल संख्या."
-    },
-    "configuration": {
-      "title": "विन्यास"
-    },
-    "delete": {
-      "title": "विक्रेता को हटाएँ",
-      "action": "विक्रेता को हटाएँ",
-      "verify_description": "मुझे पता है कि सभी विक्रेता उत्पाद संबंध हटा दिए जाएंगे!",
-      "verify_title": "मैं इस विक्रेता को हटाना चाहता हूं."
-    },
-    "send_invitation_tips": "हम इस उपयोगकर्ता को एक आमंत्रण ईमेल भेजेंगे। यदि उपयोगकर्ता विक्रेता के रूप में आपकी दुकान से जुड़ता है, तो उसका खाता स्वचालित रूप से उसे सौंप दिया जाएगा।",
-    "only_marketplace_owner_can_edit_user": "केवल मार्केटप्लेस स्वामी ही उपयोगकर्ता को संपादित कर सकता है। यदि आप इस विक्रेता के स्वामी को बदलना चाहते हैं, तो आप हमें अनुरोध भेज सकते हैं।",
-    "vendor_is_disable_msg": "विक्रेता अक्षम है.",
-    "email_not_match_with_user_msg": "दर्ज किया गया ईमेल उपयोगकर्ता के ईमेल ( <b>{user_name}:</b> {user_email}) से मेल नहीं खाता। क्या आप <b>{email}</b> पर ईमेल भेजना सुनिश्चित करते हैं?",
-    "we_will_send_invitation_to_user_msg": "हम उपयोगकर्ता को एक आमंत्रण ईमेल भेजेंगे।",
-    "set_a_user_for_the_vendor_first_msg": "पहले विक्रेता के लिए एक उपयोगकर्ता निर्धारित करें.",
-    "inputs": {
-      "slug": {
-        "label": "पथ",
-        "placeholder": "एक कस्टम पथ दर्ज करें...",
-        "hint": "विक्रेता के गतिशील लैंडिंग पृष्ठ का पथ बदलें."
-      },
-      "email": {
-        "message": "इस ईमेल से सभी सूचनाएं और अपडेट प्राप्त होंगे।"
-      },
-      "business": {
-        "false_description": "मैं एक व्यक्ति के रूप में काम करता हूं।",
-        "true_description": "मैं एक कानूनी रूप से मान्यता प्राप्त व्यावसायिक इकाई के रूप में कार्य करता हूँ।",
-        "false_title": "व्यक्ति",
-        "true_title": "व्यापार"
-      },
-      "bank": {
-        "hint": "उस बैंक का नाम जहां विक्रेता का खाता है।",
-        "placeholder": "आपके बैंक का नाम.."
-      },
-      "account_name": {
-        "hint": "यह बैंक खाते से जुड़े नाम से मेल खाना चाहिए।",
-        "placeholder": "आपका नाम.."
-      },
-      "account_number": {
-        "hint": "विक्रेता का विशिष्ट खाता क्रमांक.",
-        "placeholder": "आपका बैंक खाता नंबर.."
-      },
-      "routing_number": {
-        "hint": "यह संख्या देश के अनुसार अलग-अलग होती है। इसका उपयोग विक्रेता द्वारा उपयोग की जाने वाली विशिष्ट बैंक शाखा की पहचान करने के लिए किया जाता है।",
-        "placeholder": "आपका बैंक रूटिंग नंबर, सॉर्ट कोड, या बीएसबी नंबर.."
-      },
-      "iban": {
-        "hint": "अंतर्राष्ट्रीय बैंक खाता संख्या): यदि विक्रेता का बैंक यूरोप या कुछ अन्य देशों में है।",
-        "placeholder": "आपका IBAN नंबर.. जैसे DE89 3704 0044 0000 0000 00"
-      },
-      "swift": {
-        "hint": "अंतर्राष्ट्रीय बैंक खाता संख्या): यदि विक्रेता का बैंक यूरोप या कुछ अन्य देशों में है।",
-        "placeholder": "आपका स्विफ्ट कोड/BIC.."
-      },
-      "branch_address": {
-        "hint": "उस बैंक शाखा का पता जहां विक्रेता का खाता है।",
-        "placeholder": "आपका बैंक पता.."
-      },
-      "enable": {
-        "label": "विक्रेता स्थिति",
-        "hint": "आप वैश्विक स्तर पर विक्रेताओं को सक्षम या अक्षम कर सकते हैं। ग्राहक अक्षम विक्रेताओं से कुछ भी खरीद नहीं पाएंगे।",
-        "true_description": "वे आपके बाज़ार के माध्यम से अपने उत्पाद बेच सकेंगे।"
-      },
-      "access": {
-        "label": "विक्रेता पैनल एवं पहुंच",
-        "true_description": "विक्रेता के पास मात्रा और मूल्य को अद्यतन करने के लिए एक समर्पित पैनल है।",
-        "hint": "आप विक्रेता पैनल को सक्षम या अक्षम कर सकते हैं, जो विक्रेताओं को उत्पाद की मात्रा और मूल्य अपडेट करने और आंशिक ऑर्डर प्राप्त करने की अनुमति देता है।",
-        "false_description": "विक्रेता को किसी भी चीज़ तक पहुंच नहीं है।"
-      }
-    }
-  },
-  "vendor_documents_list": {
-    "title": "दस्तावेज़",
-    "action_upload_doc": "दस्तावेज़ अपलोड करें",
-    "vendor_subtitle": "कृपया आवश्यक व्यवसाय, आईपी और पता सत्यापन दस्तावेज़ अपलोड करें। हमें आपकी भागीदारी की पुष्टि करने और आपको आवश्यक पहुँच प्रदान करने के लिए इस जानकारी की आवश्यकता है।",
-    "marketplace_subtitle": "विक्रेता अपनी केवाईसी प्रक्रिया को सुविधाजनक बनाने के लिए व्यवसाय, बौद्धिक संपदा और पते के सत्यापन जैसे दस्तावेज प्रस्तुत कर सकते हैं, जिससे आप उन्हें उचित पहुंच प्रदान कर सकेंगे।",
-    "upload_dialog": {
-      "title": "दस्तावेज़ अपलोड करें",
-      "type": {
-        "title": "दस्तावेज़ प्रकार",
-        "subtitle": "कृपया केवल आवश्यक दस्तावेज़ ही अपलोड करें। संवेदनशील जानकारी वाले किसी भी दस्तावेज़ को साझा करने से बचें। हम ऐसे दस्तावेज़ों का अनुरोध करते हैं जो सार्वजनिक रूप से उपलब्ध हों।"
-      }
-    }
-  },
-  "product_badges": {
-    "title": "बैज",
-    "subtitle": "कस्टम उत्पाद बैज जोड़ें और संपादित करें.",
-    "only_marketplace_owner_msg": "केवल बाज़ार के मालिक",
-    "create_new_badge_action": "नया बैज बनाएं",
-    "select_a_badge": "एक बैज चुनें...",
-    "inputs": {
-      "custom": {
-        "false_description": "उत्पाद बैज स्वचालित रूप से बनाए जाते हैं.",
-        "false_title": "ऑटो",
-        "true_title": "कस्टम उत्पाद बैज",
-        "true_description": "उत्पाद पृष्ठ में कस्टम बैज जोड़ें."
-      }
-    },
-    "add_custom_badge": {
-      "title": "कस्टम बैज",
-      "subtitle": "मेरी दुकान में एक नया कस्टम बैज जोड़ें। बैज की संख्या 10 से कम रखें। ज़्यादा बैज आपकी दुकान को धीमा कर देंगे।",
-      "show_advanced_options": "उन्नत विकल्प दिखाएँ",
-      "inputs": {
-        "title": {
-          "placeholder": "सार्वजनिक शीर्षक..."
-        },
-        "image": {
-          "label": "छवि",
-          "message": "अधिकतम छवि आकार: 128KB",
-          "placeholder": "कवर छवि चुनें"
-        },
-        "pattern": {
-          "label": "नमूना",
-          "message": "यह बैज उन उत्पादों के लिए स्वचालित रूप से प्रदर्शित होगा जिनके विनिर्देश में यह मिलान मूल्य है। रेगेक्स समर्थित है।",
-          "placeholder": "सभी उत्पादों को दिखाने के लिए लिखें: *.*"
-        }
-      },
-      "notifications": {
-        "badge_added": "बैज सफलतापूर्वक जोड़ दिया गया है!",
-        "badge_updated": "बैज सफलतापूर्वक अद्यतन कर दिया गया है!",
-        "item_not_found_error": "आइटम नहीं मिला। कृपया पेज को रीफ़्रेश करें या सहायता से संपर्क करें।"
-      }
-    }
-  },
-  "product_tags": {
-    "title": "टैग",
-    "tips": [
-      "आप <b>लैंडिंग पेज</b> पर टैग के आधार पर उत्पादों को फ़िल्टर कर सकते हैं.",
-      "आप और आपके ग्राहक इन टैग्स को <b>सर्च</b> बार में खोज सकते हैं।",
-      "यदि टैग सेट किए गए हैं, तो उत्पाद पृष्ठ पर <b>संबंधित उत्पाद अनुभाग</b> में केवल <b>सामान्य टैग</b> वाले उत्पाद ही प्रदर्शित किए जाएंगे; अन्यथा, समान श्रेणी के उत्पाद ही प्रदर्शित किए जाएंगे।"
-    ],
-    "inputs": {
-      "tags": {
-        "placeholder": "वायर टैग यहाँ और एंटर दबाएँ। उदा. नया संग्रह"
-      }
-    },
-    "notifications": {
-      "tags_updated": "टैग सफलतापूर्वक अद्यतन कर दिए गए हैं।"
-    }
-  },
-  "vendor_shipping_services": {
-    "title": "शिपिंग",
-    "subtitle": "आप यहां शिपिंग सेवाएं और कूरियर जोड़ सकते हैं। शिपिंग सेवाएं और कूरियर मार्केटप्लेस द्वारा परिभाषित पूर्वनिर्धारित परिवहन विधियों के अंतर्गत होने चाहिए। शिपिंग सेवाएं और कूरियर जोड़कर, आप उन्हें आसानी से ऑर्डर असाइन कर सकते हैं और स्वचालित रूप से लेबल या कूरियर ऑर्डर कर सकते हैं।",
-    "action": "सेवा जोड़ें",
-    "add_dialog": {
-      "select_method": "विधि का चयन करें",
-      "select_method_msg": "कृपया निम्नलिखित सूची में से परिवहन विधि चुनें। बाज़ार द्वारा निर्धारित शिपिंग विधियाँ।",
-      "select_service_msg": "नीचे दी गई सूची से शिपिंग सेवा चुनें। यहाँ केवल वे उपलब्ध सेवाएँ प्रदर्शित की गई हैं जिन्हें आपके स्टोर में जोड़ा जा सकता है।",
-      "no_available_service": "कोई सेवा उपलब्ध नहीं!"
-    }
-  },
-  "product_location_profile": {
-    "title": "जगह",
-    "empty_subtitle": "यदि यह स्थान-आधारित आइटम है तो उत्पाद को स्थान निर्दिष्ट करें.",
-    "dialog": {
-      "header": "स्थान प्रोफ़ाइल चुनें",
-      "action_new_location": "नया स्थान जोड़ें",
-      "title": "स्थान प्रोफ़ाइल",
-      "subtitle": "आप उत्पादों को स्थान टैग निर्दिष्ट करके उन्हें मानचित्र स्थान पर पिन कर सकते हैं।",
-      "tips": "<b>महत्वपूर्ण:</b> उत्पाद को स्थान <b>तभी</b> निर्दिष्ट करें जब आप उत्पाद को मानचित्र पर विशिष्ट स्थान पर दिखाना चाहते हों। निर्दिष्ट उत्पाद में स्थान मुख्य विनिर्देश के रूप में होना चाहिए, जैसे कि <b>किराये के घर/स्थान</b> या <b>हेयरड्रेसिंग और स्पा</b> जैसी व्यक्तिगत सेवाएँ।"
-    }
-  },
-  "translation_button": {
-    "header": "बहुभाषी",
-    "auto_action": "स्वचालित अनुवाद",
-    "premium_user_only": "प्रीमियम उपयोगकर्ता"
-  },
-  "product_include_profile": {
-    "subtitle": "उत्पाद या सेवा पैकेज के साथ आने वाली वस्तुओं की सूची शामिल करें।",
-    "dialog": {
-      "header": "उत्पाद पैकेज आइटम",
-      "title": "शामिल आइटम",
-      "subtitle": "यह उत्पाद के साथ आने वाली वस्तुओं का संकलन है।",
-      "action_manage": "आइटम प्रबंधित करें",
-      "action_disable_msg": "बाज़ार का मालिक",
-      "select_items_tips": "उत्पाद या सेवा के साथ आने वाले पैकेज घटकों को बनाएँ या चुनें। इस सुविधा का उपयोग इस बात पर ज़ोर देने के लिए करें कि ग्राहक आइटम खरीदने पर क्या प्राप्त करने की उम्मीद कर सकते हैं। हम इस फ़ंक्शन को केवल तभी उपयोग करने की सलाह देते हैं जब ग्राहक के लिए शामिल सामग्री को समझना महत्वपूर्ण हो, जैसे कि स्मार्टफ़ोन खरीदते समय।",
-      "create_item_tips": "वैकल्पिक रूप से, आप एक नया आइटम शामिल कर सकते हैं। चौकोर छवियों का उपयोग करें, क्योंकि हम अपलोड की गई तस्वीरों का आकार स्वचालित रूप से 256x256 वर्ग प्रारूप में बदल देंगे। सभी टेम्प्लेट में इष्टतम उपस्थिति सुनिश्चित करने के लिए, पारदर्शी पृष्ठभूमि वाली न्यूनतम छवियों का उपयोग करें और अपने सभी उत्पादों के लिए एक सुसंगत पैटर्न बनाए रखें।",
-      "create_new_item_action": "नया सम्मिलित आइटम बनाएँ"
-    }
-  },
-  "transportation_eligible": {
-    "subtitle": "उपलब्ध शिपिंग सेवाएं प्रदान किए गए आकार और वजन पर निर्भर करती हैं।"
-  },
-  "bulk_price_dialog": {
-    "title": "थोक कार्रवाइयां > मूल्य",
-    "message": "निम्नलिखित राशि आपके स्टोर में सभी उत्पादों की कीमत पर प्रतिशत के रूप में लागू होगी। साथ ही, गणना की गई मूल्य मानों को चयनित मुद्रा के आधार पर निकटतम गोल संख्या में समझदारी से परिवर्तित किया जाएगा। मान दर्ज करते समय सावधान रहें।",
-    "check": "मैं मूल्य परिवर्तन को मंजूरी देता हूं।",
-    "check_description": "चयनित श्रेणी और सभी उपश्रेणियों के लिए मूल्य में परिवर्तन किया जाएगा।",
-    "add_percent_tab": "प्रतिशत जोड़ें",
-    "add_constant_tab": "लगातार जोड़ें",
-    "ending_tab": "समाप्ति की रणनीति",
-    "marketplace_listing_price": "लिस्टिंग मूल्य",
-    "constant": {
-      "subtitle": "यह राशि उत्पादों की वर्तमान कीमत में जोड़ी या घटाई जाएगी।"
-    },
-    "ending": {
-      "subtitle": "उत्पादों की वर्तमान कीमत का अंत निर्दिष्ट मूल्य में बदल दिया जाएगा।"
-    },
-    "marketplace": {
-      "title": "बाज़ार सूची मूल्य",
-      "subtitle": "यह विकल्प आपको मार्केटप्लेस में उत्पादों की लिस्टिंग कीमत को स्वचालित रूप से अपडेट करने की अनुमति देता है। कभी-कभी, मैन्युअल मूल्य परिवर्तन के कारण मुख्य उत्पाद की कीमत विक्रेता मूल्य निर्धारण के साथ संरेखित नहीं हो सकती है।",
-      "strategy": {
-        "min": {
-          "title": "न्यूनतम मूल्य निर्धारित करें",
-          "description": "उत्पाद का न्यूनतम मूल्य सूचीकरण मूल्य के रूप में निर्धारित करें।"
-        },
-        "max": {
-          "title": "अधिकतम मूल्य निर्धारित करें",
-          "description": "उत्पाद का अधिकतम मूल्य सूचीकरण मूल्य के रूप में निर्धारित करें."
-        }
-      }
-    },
-    "category": {
-      "subtitle": "बल्क कार्रवाई को एक श्रेणी और सभी उपश्रेणियों तक सीमित करें."
-    },
-    "vendor": {
-      "subtitle": "बल्क कार्रवाइयों को किसी विशिष्ट विक्रेता तक सीमित करें। जब कोई विक्रेता चुना जाता है, तो मूल्य अद्यतन विक्रेता के उत्पादों पर लागू किया जाएगा, जो उस विक्रेता के लिए विक्रय मूल्य का प्रतिनिधित्व करता है।",
-      "listing_price_need_update_msg": "यदि आप सूचीकरण मूल्य (उत्पाद सूची में प्रदर्शित मूल्य) को अद्यतन करना चाहते हैं, तो आपको उसी फिल्टर के साथ, लेकिन विक्रेता का चयन किए बिना, बल्क अद्यतन पुनः सबमिट करना चाहिए।"
-    },
-    "listing_products_changes": "सूचीकरण उत्पाद परिवर्तन",
-    "total_vendor_products": "कुल विक्रेता उत्पाद",
-    "total_products": "कुल उत्पाद",
-    "total_variants": "कुल वेरिएंट"
-  },
-  "product_panel": {
-    "excel_import": {
-      "title": "एक्सेल / सीएसवी फ़ाइल यहां डालें।",
-      "select_file": "फ़ाइल चुनें",
-      "max_file": "अधिकतम फ़ाइल आकार: 20mb",
-      "download_sample": "नमूना डाउनलोड करें"
-    },
-    "ai": {
-      "title": "एआई उत्पाद सहायता"
-    }
-  },
-  "order_vendor": {
-    "has_panel": "पैनल है",
-    "no_panel": "कोई पैनल नहीं",
-    "manual_action": {
-      "title": "मैन्युअल क्रियाएँ",
-      "message": "आप विक्रेता ऑर्डर की स्थिति को मैन्युअल रूप से अपडेट कर सकते हैं।",
-      "guides": [
-        "पैनल एक्सेस वाले विक्रेता अपने समर्पित डैशबोर्ड में अपनी पूर्ति (उप-ऑर्डर) को अपडेट कर सकते हैं।",
-        "यदि विक्रेता के पास पैनल तक पहुंच नहीं है, तो बास्केट स्थिति बदलने से विक्रेता ऑर्डर की स्थिति स्वचालित रूप से बदल जाएगी।",
-        "आप विक्रेता ऑर्डर को मैन्युअल रूप से अपडेट कर सकते हैं."
-      ]
-    },
-    "payouts": {
-      "title": "भुगतान",
-      "message": "विक्रेता भुगतान और लेनदेन का प्रबंधन करें।",
-      "charge_tooltip": "विक्रेता वॉलेट चार्ज करें.",
-      "withdraw_tooltip": "विक्रेता वॉलेट से पैसे निकालें।",
-      "payout_tooltip": "विक्रेता को भुगतान."
-    }
-  },
-  "vendor_dashboard": {
-    "info": {
-      "subtitle": "बाज़ार संबंधी जानकारी."
-    },
-    "performance": {
-      "subtitle": "मेरी बिक्री प्रदर्शन."
-    },
-    "products": {
-      "title": "उत्पादों",
-      "subtitle": "यहाँ आप बाज़ार में सूचीबद्ध अपने उत्पादों की संख्या देख सकते हैं। एक से अधिक विक्रेताओं के उत्पाद इसमें शामिल नहीं हैं।"
-    },
-    "wallets": {
-      "title": "मेरे बटुए",
-      "subtitle": "आपको मैन्युअल रूप से वॉलेट जोड़ने की आवश्यकता नहीं है! विक्रेता वॉलेट स्वचालित रूप से बनाए जाएंगे।"
-    },
-    "open_marketplace_page": "बाज़ार पृष्ठ खोलें",
-    "open_my_store_page": "मेरा स्टोर पेज खोलें",
-    "open_my_listing_page": "मेरा लिस्टिंग पृष्ठ खोलें",
-    "add_products_permission": "उत्पाद जोड़ने की अनुमति",
-    "add_categories_permission": "श्रेणियाँ जोड़ने की अनुमति"
-  },
-  "vendor_inventory": {
-    "title": "उत्पाद सूची",
-    "subtitle": "यह मार्केटप्लेस में आपके उत्पादों की सूची है। इन्वेंट्री में अपने असाइन किए गए उत्पादों के लिए कीमतें और मात्राएँ अपडेट करें। एक विक्रेता के रूप में, आपको उत्पाद सूची में केवल आपके स्वामित्व वाले एकल-विक्रेता उत्पाद ही दिखाई देंगे। अन्य असाइन किए गए उत्पादों को भी यहाँ संशोधित किया जा सकता है।"
-  },
-  "vendor_payments": {
-    "list": {
-      "title": "भुगतान इतिहास",
-      "subtitle": "आप अपना भुगतान इतिहास यहाँ देख सकते हैं। ये भुगतान मैन्युअल रूप से बैंक हस्तांतरण के माध्यम से या भुगतान क्षमताएँ प्रदान करने वाली भुगतान सेवाओं का उपयोग करके स्वचालित रूप से संसाधित किए जा सकते हैं।"
-    },
-    "connect": {
-      "title": "बैंक से जुड़ें",
-      "subtitle": "हम निम्नलिखित भुगतान गेटवे के लिए विभाजित भुगतान क्षमताएँ प्रदान करते हैं। प्रत्येक खरीद के बाद सहजता से भुगतान प्राप्त करने के लिए, कृपया इन विकल्पों का उपयोग करके अपने बैंक खाते को कनेक्ट करें।"
-    },
-    "verify_dialog": {
-      "title": "भुगतान सत्यापित करें",
-      "option": {
-        "title": "विक्रेता कार्रवाई",
-        "subtitle": "आपके पास इस हस्तांतरण को स्वीकार या अस्वीकार करने का विकल्प है। यह क्रिया केवल एक ऐतिहासिक रिकॉर्ड के रूप में कार्य करती है। बस पुष्टि करें कि क्या आपको धनराशि प्राप्त हुई है; यदि नहीं, तो कोई कार्रवाई करने की आवश्यकता नहीं है।"
-      },
-      "inputs": {
-        "verify": {
-          "label": "क्या आपने इस भुगतान की पुष्टि कर दी है?",
-          "false_description": "नहीं, मुझे अभी तक यह भुगतान मेरे बैंक खाते में प्राप्त नहीं हुआ है।",
-          "true_description": "हां, मैंने यह भुगतान प्राप्त कर लिया है तथा उसे सत्यापित कर लिया है।"
-        }
-      }
-    }
-  },
-  "order_vendor_payment": {
-    "message": "यह बाज़ार में आपके वर्चुअल वॉलेट में होने वाले लेन-देन का अवलोकन है।",
-    "vendor_wallets": "विक्रेता वॉलेट",
-    "my_wallets": "मेरे बटुए"
-  },
-  "product_add_dropshipping_shops": {
-    "subtitle": "यहाँ, आप ऐसे थोक विक्रेताओं को पा सकते हैं जो अपने उत्पादों को Selldone पर सूचीबद्ध करते हैं, जिससे वे अन्य व्यापारियों के लिए उपलब्ध हो जाते हैं। Selldone का बिल्ट-इन ड्रॉपशिपिंग प्लेटफ़ॉर्म प्रक्रिया को सरल बनाता है, जिससे यह थोक विक्रेताओं और व्यापारियों दोनों के लिए आसान और सीधा हो जाता है।"
-  },
-  "customer_add": {
-    "edit_title": "ग्राहक संपादित करें",
-    "add_title": "नया ग्राहक जोड़ें",
-    "subtitle": "अपने स्टोर में ग्राहक जोड़ने के लिए कृपया ईमेल पता या फ़ोन नंबर प्रदान करें.",
-    "more": {
-      "title": "अधिक विवरण जोड़ें",
-      "subtitle": "मुद्रा, ग्राहक क्लब, खंड, पता और अधिक सेट करें।"
-    },
-    "detail": {
-      "subtitle": "अपने ग्राहक की निजी जानकारी का रिकॉर्ड रखें। कृपया अपने ग्राहक की निजता का सम्मान करें।"
-    },
-    "preferences": {
-      "subtitle": "यहां डिफ़ॉल्ट उपयोगकर्ता मुद्रा, ग्राहक क्लब और सेगमेंट सेट करें."
-    },
-    "address": {
-      "subtitle": "इस पते का उपयोग POS में किया जा सकता है। उपयोगकर्ता यह जानकारी नहीं देख सकता।"
-    }
-  },
-  "referral_bank": {
-    "title": "रेफरल डैशबोर्ड",
-    "subtitle": "आपके अनुरोध पर, कमीशन शुल्क आपके द्वारा निर्दिष्ट बैंक खाते में भुगतान किया जाएगा। कृपया यहाँ अपनी बैंक जानकारी प्रदान करें।",
-    "no_bank_info": "कोई बैंक जानकारी नहीं!",
-    "actions": {
-      "edit_my_bank_info": "मेरी बैंक जानकारी संपादित करें"
-    },
-    "bank_dialog": {
-      "title": "मेरा बैंक विवरण",
-      "info": {
-        "title": "बैंक",
-        "subtitle": "कृपया यहाँ अपनी बैंक जानकारी दर्ज करें। हम इस जानकारी का उपयोग फंड ट्रांसफर करने के लिए करेंगे। सुनिश्चित करें कि बैंक खाता आपके नाम पर या आपके व्यवसाय के नाम पर हो, जैसा भी लागू हो।"
-      },
-      "inputs": {
-        "name": {
-          "label": "बैंक का नाम",
-          "message": "उस बैंक का पूरा नाम जहां खाता है।"
-        },
-        "holder_name": {
-          "label": "खाता धारक का नाम",
-          "message": "खाता रखने वाले व्यक्ति या संस्था का पूरा नाम।"
-        },
-        "account_number": {
-          "label": "खाता संख्या",
-          "message": "विशिष्ट बैंक खाते से संबद्ध अद्वितीय संख्या."
-        },
-        "routing_number": {
-          "label": "रूटिंग नंबर (यूएसए) या सॉर्ट कोड (यूके)",
-          "message": "एक संख्या जो विशिष्ट बैंक शाखा की पहचान कराती है (विभिन्न देशों में अलग-अलग शब्दों का प्रयोग किया जाता है)।"
-        },
-        "swift": {
-          "label": "तेज बीआईसी कोड",
-          "message": "एक अंतर्राष्ट्रीय कोड जिसका उपयोग वैश्विक स्तर पर बैंकों की पहचान के लिए किया जाता है, विशेष रूप से अंतर्राष्ट्रीय स्थानान्तरण के लिए।"
-        },
-        "iban": {
-          "label": "IBAN (अंतर्राष्ट्रीय बैंक खाता संख्या)",
-          "message": "मुख्य रूप से यूरोप में प्रयुक्त, IBAN राष्ट्रीय सीमाओं के पार बैंक खातों की पहचान करने के लिए एक अंतरराष्ट्रीय स्तर पर स्वीकृत प्रणाली है।"
-        },
-        "contact": {
-          "label": "संपर्क जानकारी",
-          "message": "खाते से संबद्ध फ़ोन नंबर या ईमेल पता."
-        },
-        "note": {
-          "label": "टिप्पणी",
-          "message": "अतिरिक्त नोट"
-        }
-      }
-    },
-    "notifications": {
-      "save": {
-        "message": "आपकी बैंक जानकारी सफलतापूर्वक अपडेट कर दी गई है।"
-      }
-    }
-  },
-  "referral_tier": {
-    "message": "आपके रेफरल द्वारा किए गए सभी सेवा शुल्क, सदस्यता और अन्य भुगतानों से।"
-  },
-  "ReferralTiers": {
-    "Bronze": {
-      "title": "टियर कांस्य",
-      "description": "आप कांस्य श्रेणी में हैं। आपने अपने रेफरल से 2% कमीशन कमाया है।"
-    },
-    "Silver": {
-      "title": "टियर सिल्वर",
-      "description": "आप सिल्वर टियर में हैं। आपने अपने रेफरल से 4% कमीशन कमाया है।"
-    },
-    "Gold": {
-      "title": "टियर गोल्ड",
-      "description": "आप गोल्ड टियर में हैं। आपने अपने रेफरल से 6% कमीशन कमाया है।"
-    },
-    "Platinum": {
-      "title": "टियर प्लैटिनम",
-      "description": "आप प्लैटिनम टियर में हैं। आपने अपने रेफरल से 8% कमीशन कमाया है।"
-    },
-    "Diamond": {
-      "title": "टियर डायमंड",
-      "description": "आप डायमंड टियर में हैं। आपने अपने रेफरल से 10% कमीशन कमाया है।"
-    }
-  },
-  "page_monetize": {
-    "title": "कमाई करें",
-    "subtitle": "व्यावसायिक अवसरों तक पहुंच का विस्तार करें।"
-  },
-  "sms_template_mode": {
-    "text": {
-      "title": "सादे पाठ",
-      "desc": "संदेश स्वचालित प्रतिस्थापन मापदंडों के साथ पाठ से बनाया जाएगा और भेजा जाएगा।"
-    },
-    "template": {
-      "title": "संरचनात्मक टेम्पलेट",
-      "desc": "पैरामीटर्स से एक ऑब्जेक्ट बनाया जाएगा और प्रदाता को भेजा जाएगा।"
-    }
-  },
-  "shop_sms_provider": {
-    "title": "कस्टम एसएमएस प्रदाता",
-    "reset_error": "रीसेट त्रुटियाँ",
-    "subtitle": "कस्टम SMS सेवा प्रदाता सेट करें और अपने प्रमाणीकरण SMS और व्यवसाय नाम को कस्टमाइज़ करें। डिफ़ॉल्ट प्रदाता केवल प्रमाणीकरण SMS और कुछ श्वेत-सूचीबद्ध देशों में सूचना संदेश भेजता है।",
-    "plain_text": "सादे पाठ",
-    "structural_template": "संरचनात्मक टेम्पलेट",
-    "errors_limit_msg": "यदि आपकी सेवा में 100 से अधिक त्रुटियाँ हैं, तो यह स्वचालित रूप से अक्षम हो जाएगी! आप इसे पुनः सक्षम करने के लिए त्रुटियों को रीसेट कर सकते हैं।",
-    "enable_input": {
-      "false_description": "ओटीपी संदेश चुनिंदा देशों में सेलडोन के माध्यम से भेजे जाएंगे, जबकि अन्य ऑर्डर अधिसूचना एसएमएस भी भेजे जाएंगे।",
-      "true_description": "एसएमएस संदेश आपके सेवा प्रदाता के माध्यम से वितरित किए जाएंगे।"
-    },
-    "test_input": {
-      "true_title": "कॉन्फ़िगरेशन मान्य करें",
-      "true_description": "हम आपके फ़ोन नंबर 📞 <b>{phone}</b> पर एक परीक्षण संदेश भेजेंगे, यह आपसे शुल्क ले सकता है, लेकिन आप यह सुनिश्चित कर सकते हैं कि सब कुछ ठीक से काम करता है।"
-    },
-    "sync_action": {
-      "title": "कार्रवाई",
-      "subtitle": "कुछ SMS सेवाएँ अतिरिक्त सेवाएँ प्रदान करती हैं जैसे अभियान, मार्केटिंग और अन्य सुविधाएँ। आप उनकी सुविधाओं का अधिक तेज़ी से उपयोग करने के लिए अपने संपर्कों या अतिरिक्त जानकारी को सिंक कर सकते हैं।",
-      "action": "समकालीन संपर्क"
-    },
-    "tokens": {
-      "title": "पैरामीटर",
-      "subtitle": "अपने एसएमएस सेवा प्रदाता को अपनी दुकान से जोड़ने के लिए निम्नलिखित पैरामीटर सेट करें।"
-    }
-  },
-  "sms_messages_options": {
-    "all": {
-      "title": "OPT + ऑर्डर अधिसूचनाएँ",
-      "description": "प्रमाणीकरण संदेश और आदेश अधिसूचना भेजी जाएगी।"
-    },
-    "otp": {
-      "title": "केवल ओटीपी",
-      "description": "प्रमाणीकरण संदेश भेजे जाएंगे."
-    }
-  },
-  "shop_email_provider": {
-    "title": "कस्टम मेल सर्वर",
-    "subtitle": "अपने कस्टम डोमेन के माध्यम से ईमेल भेजने के लिए अपने मेल सेवा प्रदाता से कनेक्ट करें।",
-    "provider": "प्रदाता",
-    "enable_input": {
-      "false_description": "आपके ईमेल आपके myselldone डोमेन के माध्यम से भेजे जाएंगे।",
-      "true_description": "आपके ईमेल आपके कस्टम मेल डोमेन के माध्यम से भेजे जाएंगे।"
-    },
-    "config": {
-      "title": "कॉन्फ़िगरेशन",
-      "subtitle": "अपनी दुकान के लिए कस्टम मेल सेवा कॉन्फ़िगर करने के लिए, अन्य आवश्यक सेटिंग्स के साथ अपनी सेवा API कुंजी इनपुट करें।"
-    },
-    "sender": {
-      "title": "से",
-      "subtitle": "आप डिफ़ॉल्ट प्रेषक का नाम और ईमेल पता कॉन्फ़िगर कर सकते हैं, जिसका उपयोग आपके ग्राहकों को ईमेल भेजने के लिए किया जाएगा।"
-    },
-    "inputs": {
-      "from": {
-        "label": "ईमेल से"
-      },
-      "from_name": {
-        "label": "नाम से"
-      }
-    },
-    "actions": {
-      "send_test_email": "परीक्षण ईमेल भेजें"
-    },
-    "messages": {
-      "provider_error_limit": "यदि आपकी सेवा में 100 से अधिक त्रुटियाँ हैं, तो यह स्वचालित रूप से अक्षम हो जाएगी! आप इसे पुनः सक्षम करने के लिए त्रुटियों को रीसेट कर सकते हैं।",
-      "encryption_ports_guide": "ईमेल प्रदाता उपलब्ध पोर्ट के आधार पर SSL, TLS या अनएन्क्रिप्टेड कनेक्शन प्रदान कर सकते हैं। यदि कनेक्ट करने पर कोई त्रुटि आती है, तो एन्क्रिप्शन मोड को बदलने से समस्या हल हो सकती है। मानक <b>TLS</b> पोर्ट: <b>587</b> और <b>SSL</b> पोर्ट: <b>465 का</b> उपयोग करते हैं।",
-      "enable_receive_test": "परिवर्तनों को सहेजने के बाद, आपको <b>{email}</b> पर एक परीक्षण मेल प्राप्त होगा। नए कॉन्फ़िगरेशन के साथ एक परीक्षण ईमेल भेजने से पहले परिवर्तनों को सहेजें।"
-    }
-  },
-  "product_location_restrictions": {
-    "title": "उपलब्ध स्थान",
-    "subtitle": "यदि आपका उत्पाद या सेवा केवल देश और ज़िप या पिन कोड द्वारा परिभाषित विशिष्ट क्षेत्रों में उपलब्ध है, तो आप उन स्थानों को यहाँ निर्दिष्ट कर सकते हैं। ये स्थान प्रतिबंध उत्पाद स्तर पर लागू होते हैं। उत्पाद पृष्ठ पर, ग्राहकों को अपना स्थान चुनने के लिए कहा जाएगा। यदि उत्पाद उनके चुने हुए क्षेत्र में उपलब्ध है, तो वे खरीदारी के साथ आगे बढ़ सकेंगे।",
-    "add_location_action": "देश जोड़ें",
-    "no_restriction": "प्रतिबंध नहीं",
-    "import": {
-      "title": "लोड प्रोफ़ाइल",
-      "subtitle": "सहेजे गए स्थान प्रोफ़ाइल का चयन करें."
-    },
-    "export": {
-      "title": "प्रोफ़ाइल बचा",
-      "subtitle": "भविष्य में उपयोग के लिए भण्डारण स्थान।"
-    },
-    "has_restriction_input": {
-      "title": "स्थान प्रतिबंध है",
-      "description": "स्थापित स्थान प्रतिबंध के कारण ग्राहक इस उत्पाद को केवल निर्दिष्ट देश और ज़िप कोड के भीतर ही खरीद सकते हैं।"
-    },
-    "zip_pin_code": "ज़िप / पिन कोड",
-    "no_country_selected_error": "कृपया कम से कम एक देश के साथ-साथ ज़िप/पिन कोड की सूची भी शामिल करें। इसके बिना, यह उत्पाद उपलब्ध नहीं होगा।",
-    "tips": "नया लोकेशन सेट बनाना शुरू करने के लिए <b>+ देश जोड़ें</b> बटन पर क्लिक करें। एक बार जब आपका काम हो जाए, तो आप इसे ऊपर-दाएँ <b>⋮ मेनू</b> पर क्लिक करके और <b>प्रोफ़ाइल सहेजें</b> चुनकर सहेज सकते हैं।",
-    "need_save_message": "उत्पाद के लिए स्थान प्रतिबंध सेटिंग बदल दी गई है। इन परिवर्तनों को सुरक्षित रखने के लिए, कृपया नीचे दिए गए 'सहेजें' बटन पर क्लिक करें।",
-    "add_dialog": {
-      "title": "देश जोड़ें",
-      "message": "कोई देश चुनें और 'जोड़ें' पर क्लिक करें। यह देश को तालिका में जोड़ देगा, जिससे आप उसमें ज़िपकोड, पिन कोड, शहर का नाम या क्षेत्र का नाम निर्दिष्ट कर सकेंगे।"
-    },
-    "save_profile_dialog": {
-      "title": "स्थान प्रोफ़ाइल जोड़ें",
-      "message": "कृपया स्थानों के इस सेट को सहेजने के लिए कोई नाम दर्ज करें। यह सहेजा गया स्थान सेट अन्य उत्पादों पर लागू किया जा सकता है, जिससे केवल एक क्लिक से त्वरित स्थान लोड किया जा सकता है। यदि दिए गए नाम वाला कोई प्रोफ़ाइल पहले से मौजूद है, तो उसे इन नए मानों के साथ अपडेट किया जाएगा।",
-      "title_input": {
-        "title": "प्रोफ़ाइल शीर्षक",
-        "placeholder": "एक श्रेणी का नाम, या स्टोर का नाम, ..."
-      }
-    },
-    "load_profile_dialog": {
-      "title": "स्थान प्रोफ़ाइल लोड करें",
-      "message": "आप यहां पहले से सहेजे गए स्थान को चुनकर स्थान लोड कर सकते हैं।",
-      "select_input": {
-        "title": "स्थान प्रोफ़ाइल",
-        "placeholder": "एक प्रोफ़ाइल चुनें..."
-      }
-    }
-  },
-  "blog_timeline": {
-    "title": "सामग्री रिलीज अनुसूची",
-    "subtitle": "यहाँ भविष्य में प्रकाशन के लिए निर्धारित लेखों की सूची दी गई है। आपके पास ब्लॉग पोस्ट और यहाँ तक कि उत्पाद विवरण को भी विशिष्ट समय पर प्रकाशित करने के लिए शेड्यूल करने की क्षमता है।"
-  },
-  "direct_feedback": {
-    "title": "सीधा अनुरोध भेजें",
-    "message": "Selldone पर सफल होने और लाभ कमाने के लिए अपनी शीर्ष 3 व्यावसायिक ज़रूरतों की पहचान करें। यह जानकारी सीधे संस्थापकों और निदेशकों के साथ साझा की जाएगी और इस पर सावधानीपूर्वक विचार किया जाएगा। आप सबमिशन के बाद समय के साथ अपनी ज़रूरतों को अपडेट भी कर सकते हैं।",
-    "expand_action": "निवेदन लिखें...",
-    "input_label": "आपका अनुरोध",
-    "to": {
-      "ceo": "सीईओ को भेजें",
-      "team": "टीम को भेजें"
-    },
-    "placeholder": {
-      "ceo": "अच्छा बनने की कोई आवश्यकता नहीं है, मैं आपकी सीधी, सही बात सुनना पसंद करता हूँ। जैसे, मुझे...",
-      "team": "कृपया उनके साथ अच्छा व्यवहार करने का प्रयास करें। जैसे मुझे..."
-    }
-  },
-  "inventory_filter": {
-    "placeholder": "फ़िल्टर *.* चुनें"
-  },
-  "vendor_input": {
-    "placeholder": "फ़िल्टर विक्रेता..."
-  },
-  "product_import_processing": {
-    "title": "आयातित उत्पादों का प्रसंस्करण",
-    "message": "हम उत्पादों और छवियों को आयात करने की प्रक्रिया में हैं, जिसके पूरा होने में कुछ समय लग सकता है।"
-  },
-  "order_input": {
-    "message": "यहां प्रदर्शित जानकारी उत्पाद इनपुट फॉर्म संरचना के अनुसार ग्राहक द्वारा प्रस्तुत की गई है।"
-  },
-  "shop_connect": {
-    "test": {
-      "title": "स्थापित करना",
-      "subtitle": "बाह्य सेवा रिपोर्ट",
-      "action": "कनेक्शन का परीक्षण करें",
-      "last_update": "अंतिम बार अपडेट किया गया"
-    },
-    "service_status": {
-      "title": "सेवा स्थिति",
-      "syncing_message": "सिंक्रोनाइज़ेशन प्रक्रिया पर...",
-      "action": "सभी को सिंक करें",
-      "connect_status": "कनेक्ट स्थिति",
-      "service_status": "सेवा स्थिति",
-      "auto_confirm_enable_msg": "ऑर्डर के लिए स्वतः पुष्टि सक्षम है।",
-      "auto_confirm_disable_msg": "ऑर्डर की स्वचालित पुष्टि सक्षम नहीं है.",
-      "shipping_enable_msg": "शिपिंग लागत की गणना चेकआउट के समय दी गई जानकारी के आधार पर की जाएगी।"
-    },
-    "detail": {
-      "title": "कनेक्ट विवरण",
-      "auto_confirm_order": "स्वचालित रूप से ऑर्डर की पुष्टि करें",
-      "test_mode": "परीक्षण मोड",
-      "status": {
-        "subtitle": "समन्वयन स्थिति के बारे में समग्र जानकारी."
-      },
-      "sync": {
-        "title": "सिंक विवरण",
-        "subtitle": "आंतरिक सिंक विवरण। यह जानकारी सिंक प्रक्रिया युग के सफलतापूर्वक समाप्त होने के बाद सहेजी जाती है।",
-        "no_data": "कोई समन्वयन जानकारी नहीं!"
-      }
-    },
-    "products": {
-      "title": "उत्पादों",
-      "subtitle": "{name} से जोड़े गए उत्पादों की सूची। सुनिश्चित करें कि आपके उत्पाद का नाम और SKU अद्वितीय है। कुछ कनेक्ट सेवाओं का उपयोग माइग्रेशन के लिए किया जाता है, इसलिए यदि आपके पास डुप्लिकेट <b>SKU</b> और <b>नाम</b> वाले उत्पाद हैं, तो वे उत्पाद बदल दिए जाएँगे!",
-      "action": "उत्पाद प्राप्त करें",
-      "syncing_message": "सिंक्रोनाइज़ेशन प्रक्रिया पर..."
-    },
-    "logs": {
-      "title": "लॉग्स",
-      "subtitle": "पिछले 7 दिनों के सभी लॉग की सूची। लॉगिंग सुविधा केवल बाहरी सेवा प्रदाताओं पर समर्थित है।"
-    },
-    "edit": {
-      "title": "नया कनेक्ट जोड़ें",
-      "service": {
-        "title": "सेवा",
-        "subtitle": "कनेक्ट करने के लिए लक्ष्य प्लेटफ़ॉर्म, ड्रॉपशिपिंग आपूर्तिकर्ता या बाज़ार का चयन करें।"
-      },
-      "test": {
-        "false_title": "सभी को सिंक करें",
-        "false_desc": "सभी उपलब्ध उत्पाद, श्रेणियाँ, ग्राहक प्राप्त करें।",
-        "true_title": "सीमित (शुरुआती लोगों के लिए अनुशंसित)",
-        "true_desc": "अधिकतम 5 उत्पाद, श्रेणियाँ और ग्राहक पाएँ। आप इसे किसी भी समय कनेक्ट > सेटिंग में पूर्ण मोड में बदल सकते हैं।"
-      },
-      "overwrite": {
-        "false_title": "अगर मौजूद है तो मत बदलो",
-        "false_desc": "मौजूदा उत्पाद और श्रेणी विवरण को यथावत बनाए रखें।",
-        "true_title": "ओवरराइट",
-        "true_desc": "मौजूदा उत्पाद, वैरिएंट और श्रेणी की जानकारी अपडेट करें."
-      },
-      "migration_tips": "<b>सुझाव:</b> यदि आप कार्यक्षमता का परीक्षण करना चाहते हैं तो कृपया <b>सीमित</b> विकल्प चुनें। 'सभी को सिंक करें' का चयन करके, हम आपकी कनेक्टेड सेवाओं से सभी डेटा प्राप्त करते हैं और संबंधित छवियां डाउनलोड करते हैं, इसलिए यह आपके मुफ़्त संग्रहण को कम कर देगा। साथ ही, कई उत्पादों, श्रेणियों और ग्राहकों को हटाना कठिन होगा!",
-      "add_action": "स्वतः कनेक्ट करें",
-      "order": {
-        "title": "ऑर्डरिंग स्थिति",
-        "subtitle": "अपने स्टोर के लिए कनेक्टेड सेवा की ऑर्डर प्रबंधन सेटिंग कॉन्फ़िगर करें। इसमें ऑर्डर स्वीकृति सेट करना, स्वचालित ऑर्डर पुष्टिकरण सक्षम करना (यदि समर्थित हो), और शिपिंग लागत गणना कॉन्फ़िगर करना शामिल है।"
-      },
-      "enable": {
-        "label": "कनेक्ट स्थिति",
-        "true_desc": "इन्वेंट्री और ऑर्डर सिंक हो जाएंगे."
-      },
-      "confirm": {
-        "label": "स्वचालित रूप से ऑर्डर की पुष्टि करें",
-        "false_desc": "आपको ऑर्डर की पुष्टि मैन्युअल रूप से करनी चाहिए।",
-        "true_desc": "लाइव भुगतान वाले ऑर्डर स्वचालित रूप से स्वीकृत हो जाएंगे। डिबग भुगतान वाले ऑर्डर स्वचालित रूप से स्वीकृत नहीं होंगे।",
-        "tips": "डिबग मोड में उपहार कार्ड या सीओडी या भुगतान गेटवे द्वारा भुगतान किए गए ऑर्डर अपवाद हैं और उनकी स्वचालित रूप से पुष्टि नहीं की जाएगी।"
-      },
-      "shipping": {
-        "label": "शिपिंग",
-        "tips": "यह सेवा शिपिंग गणना प्रदान करती है, जिसे आपकी पसंद के अनुसार सक्षम या अक्षम किया जा सकता है। यदि सक्षम किया जाता है, तो तृतीय पक्ष सेवाओं के साथ लागत गणना API की आवश्यकता होगी, जिससे चेकआउट पृष्ठ पर मूल्य अपडेट करने में 300ms से अधिक की देरी हो सकती है।",
-        "false_title": "अक्षम करना",
-        "false_desc": "आयातित उत्पादों सहित सभी उत्पादों के लिए शॉप > लॉजिस्टिक > परिवहन में मेरी शिपिंग लागत गणना का उपयोग करें।",
-        "true_title": "शिपिंग की गणना करें",
-        "true_desc": "इस सेवा द्वारा प्रदान की गई शिपिंग दर गणना API का उपयोग करें।"
-      },
-      "remove": {
-        "verify": "मैं इस कनेक्शन को हटाने के लिए सत्यापन कर रहा हूँ।",
-        "action": "कनेक्ट हटाएँ"
-      }
-    },
-    "list": {
-      "title": "ओएस कनेक्ट करें",
-      "subtitle": "अपने व्यवसाय ऑपरेटिंग सिस्टम को बाहरी सेवाओं से कनेक्ट करें और सभी चैनलों को एक ही स्थान पर प्रबंधित करें।",
-      "action": "नई सेवाएँ कनेक्ट करें",
-      "empty_message": "ड्रॉपशिपिंग के लिए ऐप्स और प्लगइन्स को भूल जाइए! कनेक्ट क्रॉस-प्लेटफ़ॉर्म ऑर्डर प्रबंधन का भविष्य है।",
-      "auto_confirm": "स्वतः पुष्टि",
-      "shipping": "शिपिंग",
-      "syncing_now": "अभी समन्वयन हो रहा है!",
-      "sync_not_started": "सिंक अभी तक शुरू नहीं हुआ है!"
-    }
-  },
-  "connect_mode": {
-    "Migration": {
-      "title": "प्रवास",
-      "desc": "उत्पाद, श्रेणियाँ और ग्राहक प्राप्त करें। उपयोगकर्ता द्वारा इस सेवा को हटाने के बाद, प्राप्त उत्पाद, श्रेणियाँ और ग्राहक हटाए नहीं जाएंगे।"
-    },
-    "Dropshipping": {
-      "title": "जहाज को डुबोना",
-      "desc": "उत्पाद, श्रेणियाँ और ऑर्डर प्राप्त करें। उपयोगकर्ता द्वारा सेवा हटाने के बाद सिस्टम उत्पादों को हटा देता है।"
-    },
-    "Marketplace": {
-      "title": "बाजार",
-      "desc": "बस इन्वेंट्री सिंक करें और ऑर्डर प्राप्त करें (उत्पाद SKU द्वारा लिंक किए जाएंगे)।"
-    },
-    "Accounting": {
-      "title": "लेखांकन",
-      "desc": "आदेश और वित्तीय जानकारी भेजें."
-    },
-    "Other": {
-      "title": "अन्य",
-      "desc": "अन्य सेवाएं."
-    }
-  },
-  "shop_landings": {
-    "title": "लैंडिंग पृष्ठ",
-    "add_new_action": "नया पेज जोड़ें",
-    "subtitle": "बहुमुखी AI-संचालित इनलाइन संपादक का उपयोग करके अपने ब्रांड के लिए विशिष्ट, उत्तरदायी कस्टम पेज बनाएं, और डेटा फीड करके स्वचालित रूप से गतिशील सामग्री उत्पन्न करें।",
-    "empty_message": "ड्रैग और ड्रॉप द्वारा कस्टम पेज डिज़ाइन करें..."
-  },
-  "shop_staff": {
-    "list": {
-      "title": "स्टाफ प्रबंधन",
-      "subtitle": "उपयोगकर्ताओं को इस स्टोर के डैशबोर्ड और प्रशासनिक अनुभागों तक पहुंच प्रदान की गई।"
-    },
-    "pending": {
-      "title": "लंबित",
-      "message": "लंबित आमंत्रण दिखाएं."
-    }
-  },
-  "community_comments": {
-    "title": "टिप्पणियाँ",
-    "subtitle": "यह समुदाय की टिप्पणियों की सूची है।",
-    "empty_msg": "अभी तक कोई टिप्पणी नहीं बनाई गई है..."
-  },
-  "community_categories": {
-    "title": "श्रेणियाँ",
-    "subtitle": "यह समुदाय की श्रेणियों की सूची है।",
-    "new_category_action": "नई श्रेणी",
-    "empty_msg": "अभी तक कोई श्रेणी नहीं बनाई गई है...",
-    "filter": {
-      "delete": {
-        "title": "हटाए गए",
-        "description": "हटाई गई श्रेणियां दिखाएं."
-      }
-    }
-  },
-  "community_posts": {
-    "title": "पदों",
-    "subtitle": "यह समुदाय की पोस्टों की सूची है।",
-    "filter": {
-      "deleted": {
-        "title": "हटाए गए",
-        "description": "हटाये गये पोस्ट दिखाएं."
-      },
-      "reported": {
-        "title": "की सूचना दी",
-        "description": "रिपोर्ट की गई पोस्ट दिखाएं."
-      }
-    },
-    "empty_msg": "अभी तक कोई पोस्ट नहीं बनाई गई है...",
-    "menu": {
-      "open_post": {
-        "title": "खुला पोस्ट",
-        "subtitle": "समुदाय में पोस्ट देखें और संपादित करें."
-      },
-      "spam": {
-        "title": "स्पैम की रिपोर्ट करें और हटाएं",
-        "subtitle": "बड़े पैमाने पर पोस्ट हटाएं और उपयोगकर्ता पर प्रतिबंध लगाएं।"
-      },
-      "delete": {
-        "title": "पोस्ट को हटाएं",
-        "subtitle": "इस पोस्ट को हटाएँ."
-      }
-    }
-  },
-  "channel_google": {
-    "gtag": {
-      "title": "टैग प्रबंधक",
-      "subtitle": "Google Analytics फ्लैश, वीडियो और सोशल मीडिया साइट्स और ऐप्स को ट्रैक करते हुए विज्ञापन ROI का मापन सक्षम करता है। Google टैग मैनेजर के निःशुल्क, सरल और विश्वसनीय समाधानों के साथ वेबसाइट टैग को आसानी से प्रबंधित करें - किसी कोड संपादन की आवश्यकता नहीं है।",
-      "tag_id": {
-        "label": "गूगल टैग मैनेजर आईडी"
-      }
-    },
-    "shopping": {
-      "title": "गूगल शॉपिंग",
-      "subtitle": "डेटा स्रोत Google पर आपकी कैटलॉग जानकारी के स्रोत को इंगित करते हैं। Google मर्चेंडाइज़ में सभी उत्पादों और श्रेणियों को स्वचालित रूप से जोड़ने के लिए इस लिंक का अनुसरण करें।",
-      "tips": "आप इस टूल का उपयोग Google विज्ञापनों को आसानी से और स्वचालित रूप से प्रबंधित करने के लिए कर सकते हैं।",
-      "link_message": "Google उत्पाद फ़ीड URL"
-    },
-    "console": {
-      "title": "खोज कंसोल",
-      "subtitle": "Google Search Console सत्यापन के लिए अपने होमपेज पर मेटा टैग जोड़ें.",
-      "code": {
-        "label": "सत्यापन मेटा टैग",
-        "placeholder": "गूगल से, उदाहरण के लिए viQg9mjdBj..."
-      }
-    },
-    "serp": {
-      "title": "गूगल SERP और कीवर्ड",
-      "subtitle": "हम Google से सबसे सटीक SEO ऑडिट डेटा प्राप्त करते हैं और इसे आपके लिए सुविधाजनक तरीके से प्रस्तुत करते हैं। बस दिए गए चरणों का पालन करें।"
-    },
-    "serp_content": {
-      "title": "Google खोज कंसोल से कनेक्ट करें",
-      "subtitle": "अपनी दुकान को सर्च कंसोल से कनेक्ट करें और Selldone पर कीवर्ड, रैंक और अन्य मुफ्त एसईओ टूल की खोज शुरू करें।",
-      "tips": {
-        "title": "Selldone को Google Search Console से लिंक करने से पहले, निम्नलिखित सुनिश्चित करें:",
-        "add_in_selldone": "अपना कस्टम डोमेन जोड़ें, सत्यापित करें और प्राथमिक के रूप में सेट करें।",
-        "add_in_google": "अपने <a href=\"https://search.google.com/search-console\" target=\"_blank\"><b>Google खोज कंसोल</b></a> में <b>{domain}</b> जोड़ें और सत्यापित करें."
-      },
-      "action_custom_domain": "कस्टम डोमेन",
-      "action_connect_now": "अब जोड़ो",
-      "action_remove_connection": "कनेक्शन हटाएँ"
-    }
-  },
-  "cashback": {
-    "add_new": "नया कैशबैक जोड़ें",
-    "title": "कैशबैक कार्यक्रम",
-    "boosted": "बूस्ट (2x)",
-    "min_purchase": "न्यूनतम खरीद",
-    "only_first_order": "केवल प्रथम ऑर्डर",
-    "total_cashback": "कुल कैशबैक",
-    "delete_alert": {
-      "title": "कैशबैक प्रोग्राम हटाएं",
-      "message": "क्या आप इस कैशबैक प्रोग्राम को हटाना चाहते हैं?",
-      "action": "हां, अभी हटाएं"
-    },
-    "notifications": {
-      "delete_success": "कैशबैक कार्यक्रम सफलतापूर्वक हटा दिया गया."
-    }
-  },
-  "shop_cashback": {
-    "title": "कैशबैक कार्यक्रम",
-    "up_to": "तक",
-    "menu": {
-      "back": "पिछला कार्यक्रम",
-      "dashboard": "डैशबोर्ड",
-      "orders": "आदेश",
-      "edit": "संपादन करना"
-    },
-    "dashboard": {
-      "chart_amount_buy": {
-        "label": "खरीदना",
-        "y": "खरीद राशि {currency}"
-      },
-      "chart_amount_cashback": {
-        "label": "कैशबैक",
-        "y": "कैशबैक राशि {currency}"
-      },
-      "chart_used": {
-        "label": "इस्तेमाल किया गया",
-        "y": "बार"
-      }
-    },
-    "orders": {
-      "title": "कैशबैक ऑर्डर",
-      "table": {
-        "amount_cashback": "कैशबैक राशि",
-        "payment_status": "भुगतान स्थिति",
-        "date": "दिनांक"
-      }
-    }
-  },
-  "cashback_edit": {
-    "config": {
-      "subtitle": "यहां चैसबैक प्रतिशत, सीमा और उसकी स्थिति निर्धारित करें।"
-    },
-    "percent_input": {
-      "title": "कैशबैक प्रतिशत",
-      "message": "1% से 20% तक कैशबैक प्रतिशत दर्ज करें।"
-    },
-    "currency_input": {
-      "message": "कैशबैक कार्यक्रम सिर्फ इसी मुद्रा के लिए उपलब्ध होगा।"
-    },
-    "limit_input": {
-      "title": "सीमा",
-      "hint": "कैशबैक की अधिकतम राशि दर्ज करें.",
-      "zero_message": "असीमित कैशबैक के लिए 0 दर्ज करें।"
-    },
-    "duration": {
-      "title": "अवधि सीमा",
-      "subtitle": "कैशबैक कार्यक्रम की अवधि निर्धारित करें। यह वैकल्पिक है।"
-    },
-    "start_input": {
-      "title": "आरंभ करने की तिथि",
-      "placeholder": "आरंभ तिथि चुनें..."
-    },
-    "end_input": {
-      "title": "अंतिम तिथि",
-      "placeholder": "अंतिम तिथि चुनें..."
-    },
-    "design": {
-      "subtitle": "कैशबैक प्रोग्राम के लिए शीर्षक और संक्षिप्त विवरण सेट करें। ये जानकारी ग्राहकों को दिखाई जाएगी।"
-    },
-    "title_input": {
-      "title": "शीर्षक"
-    },
-    "description_input": {
-      "title": "विवरण"
-    },
-    "constraints": {
-      "subtitle": "कैशबैक कार्यक्रम के लिए सीमाएँ निर्धारित करें।"
-    },
-    "min_purchase_input": {
-      "hint": "कैशबैक कार्यक्रम के लिए न्यूनतम खरीद राशि दर्ज करें।",
-      "title": "न्यूनतम खरीद"
-    },
-    "only_first_buy_input": {
-      "false_desc": "कैशबैक कार्यक्रम सभी ऑर्डरों के लिए उपलब्ध होगा।",
-      "true_desc": "कैशबैक कार्यक्रम केवल पहले ऑर्डर के लिए उपलब्ध होगा।",
-      "true_title": "केवल प्रथम ऑर्डर",
-      "false_title": "सभी आदेश"
-    },
-    "qualify_input": {
-      "false_title": "सभी ग्राहक",
-      "true_title": "ग्राहकों को योग्य बनाएं",
-      "true_msg": "कैशबैक कार्यक्रम केवल योग्य ग्राहकों के लिए उपलब्ध होगा।"
-    },
-    "club": {
-      "subtitle": "कैशबैक प्रोग्राम के लिए क्लब सेट करें। कैशबैक प्रोग्राम केवल उन ग्राहकों के लिए उपलब्ध होगा जो इस क्लब में हैं।"
-    },
-    "cluster": {
-      "subtitle": "किसी क्लस्टर को कैशबैक कार्यक्रम से जोड़कर आप इसे अधिक प्रभावी ढंग से प्रबंधित कर सकते हैं।"
-    },
-    "notifications": {
-      "add": "कैशबैक कार्यक्रम सफलतापूर्वक जोड़ा गया.",
-      "edit": "कैशबैक कार्यक्रम सफलतापूर्वक अपडेट किया गया।"
-    },
-    "enable_input": {
-      "true_msg": "कैशबैक कार्यक्रम सक्रिय है और ग्राहक इसका उपयोग कर सकते हैं।",
-      "false_msg": "कैशबैक कार्यक्रम निष्क्रिय है और ग्राहक इसका उपयोग नहीं कर सकते।"
-    },
-    "boosted_input": {
-      "false_title": "सामान्य",
-      "true_title": "बूस्ट (2x कैशबैक)",
-      "true_msg": "कैशबैक कार्यक्रम बूस्ट मोड में है और ग्राहकों को 2x कैशबैक मिलेगा।",
-      "false_msg": "कैशबैक कार्यक्रम सामान्य मोड में है और ग्राहकों को सामान्य कैशबैक प्राप्त होगा।"
-    }
-  },
-  "row_payment": {
-    "actions": {
-      "refund": {
-        "title": "वापसी भुगतान",
-        "subtitle": "आंशिक या पूर्ण धन वापसी समर्थित।"
-      },
-      "delivery": {
-        "title": "डिलीवरी पर पुष्टि करें",
-        "subtitle": "आप भुगतान प्रदाता के लिए डिलीवरी की मैन्युअल रूप से पुष्टि कर सकते हैं।"
-      }
-    }
-  },
-  "payment_refund_dialog": {
-    "title": "वापसी भुगतान",
-    "message": "सुरक्षा कारणों से, केवल पिछले 7 दिनों के भीतर भुगतान किए गए ऑर्डर ही रिफंड के लिए पात्र हैं।",
-    "payment_amount": "भुगतान राशि",
-    "total_refund_amount": "कुल वापस की गई राशि",
-    "can_refund": "रिफंड कर सकते हैं",
-    "refund_amount": "वापसी राशि",
-    "verify": {
-      "title": "रिफंड सत्यापित करें",
-      "description": "मैं पुष्टि करता हूं कि रिफंड राशि सही है और मैं आगे बढ़ना चाहता हूं।"
-    },
-    "action": "अभी रिफंड करें"
-  },
-  "payment_delivery_dialog": {
-    "title": "ग्राहक डिलीवरी की पुष्टि",
-    "message": "कुछ भुगतान सेवाओं के लिए यह पुष्टि आवश्यक है कि ऑर्डर ग्राहक को डिलीवर कर दिया गया है। हम आमतौर पर ऑर्डर पूर्ति के अंतिम चरण के दौरान यह पुष्टि भेजते हैं जब हमें ग्राहक की डिलीवरी की पुष्टि प्राप्त होती है। हालाँकि, यदि आपको यह क्रिया मैन्युअल रूप से करने की आवश्यकता है, तो आप यहाँ ऐसा कर सकते हैं।",
-    "verify": {
-      "title": "डिलीवरी सत्यापित करें",
-      "description": "मैं पुष्टि करता हूं कि ऑर्डर ग्राहक तक पहुंचा दिया गया है।"
-    },
-    "action": "अभी पुष्टि करें"
-  },
-  "product_cross_selling": {
-    "title": "क्रॉस बिक्री",
-    "add_new_actions": "नया उत्पाद जोड़ें",
-    "subtitle": "इस अनुभाग में, आप इस उत्पाद पृष्ठ के लिए क्रॉस-सेल उत्पाद जोड़ और प्रबंधित कर सकते हैं। ये उत्पाद ग्राहकों को मुख्य आइटम के साथ खरीदने के लिए सुझाव के रूप में प्रदर्शित किए जाएँगे। आप अतिरिक्त खरीदारी को प्रोत्साहित करने और प्रोत्साहित करने के लिए छूट भी निर्धारित कर सकते हैं। सिस्टम ग्राहक के विचार के लिए अधिकतम 3 आइटम दिखाएगा।",
-    "dialog": {
-      "edit_title": "क्रॉस सेलिंग उत्पाद संपादित करें",
-      "add_title": "नए क्रॉस सेलिंग उत्पाद जोड़ें",
-      "target": {
-        "title": "लक्ष्य उत्पाद",
-        "subtitle": "उन उत्पादों को चुनें जिन्हें आप इस उत्पाद के साथ क्रॉस-सेल विकल्प के रूप में प्रचारित करना चाहते हैं।",
-        "select_products": "उत्पाद चुनें"
-      },
-      "list": {
-        "title": "लक्ष्य उत्पाद",
-        "subtitle": "इस उत्पाद को क्रॉस-सेलिंग प्रमोशन के लिए चुना गया है।",
-        "manage_product": "उत्पाद प्रबंधित करें"
-      },
-      "discount": {
-        "title": "छूट और संदेश",
-        "subtitle": "आपके पास ग्राहकों को चयनित अतिरिक्त आइटम खरीदने के लिए प्रेरित करने के लिए एक संदेश शामिल करने और छूट देने का विकल्प है। ये प्रोत्साहन बिक्री को बढ़ाने और समग्र खरीदारी अनुभव को बेहतर बनाने में मदद कर सकते हैं।",
-        "amount_input": {
-          "message": "सभी मौजूदा छूटों को ध्यान में रखने के बाद उत्पाद की कीमत पर छूट का प्रतिशत लागू किया जाएगा।"
-        },
-        "mismatch_type_warning": "मुख्य उत्पाद प्रकारों के अलावा अन्य प्रकारों पर छूट लागू नहीं की जा सकती, क्योंकि स्रोत और लक्ष्य वस्तुओं को अलग-अलग बास्केट में नहीं रखा जाएगा।",
-        "not_support_subscription_type_warning": "क्रॉस-सेलिंग सदस्यता उत्पादों के लिए छूट निर्धारित करना संभव नहीं है, क्योंकि मूल्य निर्धारण योजनाओं को गतिशील रूप से समायोजित नहीं किया जा सकता है।",
-        "message_input": {
-          "message": "ग्राहकों का ध्यान आकर्षित करने के लिए एक सम्मोहक और आकर्षक शीर्षक तैयार करें।",
-          "placeholder": "बंडल करें और बचत करें: हमारे चुने हुए चयन के साथ अपना लुक पूरा करें!"
-        }
-      },
-      "action": {
-        "title": "गतिविधि",
-        "subtitle": "यहां क्रॉस-सेलिंग उत्पाद की क्रिया को संशोधित करें। यदि आपके उत्पाद को कस्टम जानकारी के इनपुट की आवश्यकता है, जैसे कि मूल्यांकन फ़ॉर्म के माध्यम से, तो क्रिया के रूप में \"कार्ट में जोड़ें\" का चयन न करें, क्योंकि इससे त्रुटियाँ हो सकती हैं।"
-      }
-    }
-  },
-  "CrossSellActionType": {
-    "AddToCart": {
-      "title": "कार्ट में जोड़ें",
-      "description": "सीधे कार्ट में जोड़ें बटन प्रदर्शित करें। ध्यान दें कि यह सब्सक्रिप्शन उत्पादों के लिए लागू नहीं है।"
-    },
-    "ViewProduct": {
-      "title": "उत्पाद देखें",
-      "description": "एक अधिक देखें बटन प्रदर्शित करें जो ग्राहकों को एक नई विंडो खोलकर उत्पाद पृष्ठ पर निर्देशित करता है।"
-    }
-  },
-  "product_flow": {
-    "title": "खरीद प्रवाह",
-    "subtitle": "यह आपके उत्पाद की खरीद प्रवाह और स्वास्थ्य जांच है।",
-    "connect": {
-      "subtitle": "यह उत्पाद <b>{name}</b> के माध्यम से जोड़ा गया है.",
-      "enable_msg": "बाहरी सेवा के लिए यह ब्रिज सक्षम है।",
-      "disable_msg": "बाहरी सेवा के लिए यह ब्रिज अक्षम है.",
-      "has_shipping_msg": "{name} शिपिंग का समर्थन करता है। इसलिए आपके पास चेकआउट पृष्ठ पर {name} द्वारा स्वचालित शिपिंग गणना सक्षम करने का विकल्प है।"
-    },
-    "health": {
-      "title": "उत्पाद स्वास्थ्य",
-      "available_in_stock_msg": "उत्पाद स्टॉक में उपलब्ध है.",
-      "out_of_stock_msg": "उत्पाद स्टॉक में नहीं है।",
-      "file_count_msg": "इस उत्पाद के लिए अपलोड की गई कुल {files_size} वाली {files_count} फ़ाइलें.",
-      "no_file_uploaded_msg": "अभी तक कोई फ़ाइल अपलोड नहीं की गई है.",
-      "no_image_uploaded_msg": "उत्पाद को अधिक आकर्षक बनाने के लिए उसका चित्र अपलोड करें।"
-    },
-    "vendor_errors": {
-      "title": "लापता विक्रेता",
-      "subtitle": "इस उत्पाद का वर्तमान में कोई संबद्ध विक्रेता नहीं है। किसी उत्पाद को बाज़ार में खरीदने योग्य बनाने के लिए, उसका कम से कम एक विक्रेता होना ज़रूरी है।",
-      "manage_vendors": "विक्रेताओं का प्रबंधन करें"
-    },
-    "file_errors": {
-      "title": "गुम फ़ाइलें",
-      "subtitle": "वर्तमान में, इस उत्पाद के लिए कोई फ़ाइल अपलोड नहीं की गई है। कृपया आगे बढ़ने के लिए फ़ाइलें अपलोड करें।",
-      "manage_files": "फ़ाइलें प्रबंधित करें"
-    },
-    "pricing": {
-      "title": "मूल्य निर्धारण",
-      "no_product_price_msg": "डिफ़ॉल्ट उत्पाद मूल्य अभी तक सेट नहीं किया गया है!",
-      "listing_pricing_msg": "सूचीकरण मूल्य निर्धारण:",
-      "has_valuation_msg": "उत्पाद का मूल्यांकन होता है.",
-      "subscription_pricing_msg": "इस उत्पाद में {count} सदस्यता मूल्य निर्धारण योजनाएं हैं.",
-      "has_no_subscription_pricing_msg": "इस उत्पाद की कोई सदस्यता मूल्य निर्धारण योजना नहीं है।"
-    },
-    "subscription_errors": {
-      "title": "सदस्यता मूल्य निर्धारण योजनाएँ अनुपलब्ध",
-      "subtitle": "इस उत्पाद में कोई सदस्यता मूल्य निर्धारण योजना नहीं है। इस उत्पाद को सदस्यता खरीद के लिए उपलब्ध कराने के लिए आपको कम से कम एक सदस्यता मूल्य निर्धारण योजना जोड़नी होगी।",
-      "pricing_plans": "मूल्य निर्धारण योजनाएँ"
-    },
-    "location": {
-      "title": "विक्रय स्थान प्रतिबंध ● {status}",
-      "status": {
-        "has_restriction": "{count} देशों में उपलब्ध",
-        "no_restriction": "प्रतिबंधित नहीं"
-      },
-      "available_countries_msg": "वैश्विक स्तर पर खरीदारी {count} देशों तक सीमित है। ये देश {countries} हैं।",
-      "disable_for_all_countries_msg": "आपकी दुकान > स्थान सेटिंग में सभी देशों के लिए शॉपिंग अक्षम है.",
-      "location_is_not_in_permitted_shop_locations_msg": "आपने {country} को बिक्री स्थान के रूप में सेट किया है, लेकिन स्टोर स्तर पर आपने इस देश की अनुमति नहीं दी है। कृपया अपनी स्टोर स्तर सेटिंग जांचें।",
-      "shop_locations": "दुकान के स्थान",
-      "product_locations": "उत्पाद स्थान"
-    },
-    "location_errors": {
-      "title": "उपलब्ध स्थान त्रुटि",
-      "no_location_error_subtitle": "आपने उत्पाद खरीदने के लिए स्थान प्रतिबंध सक्रिय किया है, लेकिन वर्तमान में, इस प्रतिबंध के अंतर्गत कोई भी देश सूचीबद्ध नहीं है। परिणामस्वरूप, यह उत्पाद किसी के द्वारा भी खरीदे जाने के लिए उपलब्ध नहीं है।",
-      "invalid_location_error_subtitle": "आपके उत्पाद के लिए स्थान प्रतिबंध सेटिंग में एक त्रुटि है: सूचीबद्ध कुछ स्थानों में कोई संबद्ध ज़िप कोड नहीं है। परिणामस्वरूप, उपयोगकर्ता ज़िप कोड चुनने में असमर्थ हैं, जिससे उत्पाद खरीद के लिए अनुपलब्ध हो जाता है।",
-      "manage_locations": "स्थान प्रबंधित करें"
-    },
-    "tax": {
-      "title": "सदस्यता कर",
-      "default_shop": "डिफ़ॉल्ट दुकान कर",
-      "tax_profiles": "कर प्रोफाइल",
-      "description": {
-        "subscription_tax_msg": "हम केवल भुगतान निर्माण चरण पर ही कर लगा सकते हैं।",
-        "dedicated": "समर्पित",
-        "is_disabled": "यह कर प्रोफ़ाइल अक्षम है!",
-        "tax_is_based_on_location": "कर: स्थान आधारित",
-        "shipping_tax_is_based_on_location": "शिपिंग: स्थान आधारित",
-        "included_in_price": "कीमत में शामिल है."
-      }
-    },
-    "vendor": {
-      "vendor_owner_msg": "यह उत्पाद <b>{vendor}</b> का है।",
-      "has_vendors_msg": "इस उत्पाद के लिए {count} विक्रेता हैं.",
-      "no_vendor_msg": "आपने इस उत्पाद के लिए कोई विक्रेता निर्दिष्ट नहीं किया है, इसलिए ग्राहक इसे खरीदने में असमर्थ हैं।",
-      "add_vendors": "विक्रेता जोड़ें"
-    }
-  },
-  "product_template": {
-    "title": "उत्पाद पृष्ठ टेम्पलेट",
-    "subtitle": "आप बेहतर प्रस्तुति के लिए अपने उत्पाद पृष्ठ के भीतर एक पृष्ठ एम्बेड कर सकते हैं। सबसे अच्छा तरीका पारदर्शी पृष्ठभूमि वाले पृष्ठ बनाना और प्रत्येक उत्पाद श्रेणी के लिए 1 से 3 अनुभाग बनाना है। फिर, एक सुसंगत और आकर्षक प्रदर्शन के लिए एक पृष्ठ को कई उत्पादों को असाइन करें।",
-    "edit_page": "संपादित पेज",
-    "list_of_pages": "पृष्ठों की सूची"
-  },
-  "product_embed": {
-    "subtitle": "आप हमारे द्वारा दिए गए कोड को कॉपी करके और पेस्ट करके आसानी से अपने ब्लॉग या अन्य वेब पेजों में कोई उत्पाद या उत्पादों की सूची एम्बेड कर सकते हैं। हालाँकि यह सुविधा अभी भी अपने शुरुआती चरण में है, हम सक्रिय रूप से इसकी कार्यक्षमता को अन्यत्र उपलब्ध सुविधाओं से आगे बढ़ाने के लिए काम कर रहे हैं। हालाँकि यह वर्तमान में सीमित क्षमताएँ प्रदान करता है, लेकिन हमारी योजना भविष्य में और अधिक टेम्पलेट और अनुकूलन विकल्प पेश करने की है।",
-    "card": {
-      "title": "न्यूनतम",
-      "description": "अन्य प्लेटफ़ॉर्म और HTML पृष्ठों में उत्पाद कार्ड जोड़ने के लिए HTML कोड उत्पन्न करें।"
-    },
-    "iframe": {
-      "title": "आईफ्रेम",
-      "description": "एक एम्बेडेड विंडो में व्यापक उत्पाद विवरण प्रदर्शित करने के लिए iframe कोड उत्पन्न करें।"
-    }
-  },
-  "permission_staff_add": {
-    "title_new": "नया स्टाफ",
-    "title_edit": "स्टाफ़ संपादित करें",
-    "staff": {
-      "title": "स्टाफ और एक्सेस जोड़ें",
-      "subtitle": "स्टाफ एक्सेस वाले सभी उपयोगकर्ता आपके डैशबोर्ड में लॉग इन कर सकते हैं और वित्तीय जानकारी देख सकते हैं। सीमित एक्सेस वाले उपयोगकर्ताओं को जोड़ने के लिए, भूमिका निर्धारित करें।",
-      "go_to_roles": "भूमिकाओं पर जाएँ"
-    },
-    "access": {
-      "customization_tips": "<b>अनुकूलन:</b> डिफ़ॉल्ट पढ़ने/लिखने की पहुँच को अनुकूलित करने के लिए प्रत्येक आइटम पर क्लिक करें। प्रत्येक पंक्ति मुख्य शॉप डैशबोर्ड के अनुरूप पहुँच स्तर का प्रतिनिधित्व करती है।",
-      "simplify_tips": "<b>महत्वपूर्ण!</b> हम एक्सेस कंट्रोल को 300 से ज़्यादा से 10 लेवल तक सरल बनाते हैं। अधिक विस्तृत और अप-टू-डेट एक्सेस लेवल को डॉक्यूमेंटेशन में प्रकाशित किया जाएगा।",
-      "multi_permission_tips": "<b>कस्टम सीमाएँ?</b> आप एक उपयोगकर्ता के लिए अधिक पहुँच जोड़ सकते हैं, इसलिए पहली पहुँच जोड़ने के बाद, समान चरणों के साथ अतिरिक्त पहुँच बनाएँ।",
-      "view_data": "डेटा देखें",
-      "apply_changes": "परिवर्तनों को लागू करें"
-    },
-    "inputs": {
-      "email": {
-        "placeholder": "ईमेल",
-        "label": "उपयोगकर्ता ईमेल पता"
-      },
-      "level": {
-        "label": "पहुंच स्तर",
-        "placeholder": "एक स्तर चुनें..."
-      }
+        "अतिरिक्त बचत के लिए अपने पसंदीदा सामान को बंडल में जोड़ें!",
+      ],
+    },
+
+    /**
+     * Cross-Selling
+     */
+    vendor_pricing: {
+      title: [
+        "डिजिटल गओओदस",
+        "बओओकस",
+        "एलएकतरओनइकस",
+        "फअसहइओन",
+        "होम अपपलइअनकएस",
+        "बएअउतय उत्पाद",
+        "सपओरतस एकउइपमएनत",
+        "खिलौने और खेल",
+        "किराने का सामान",
+        "फर्नीचर",
+        "स्वचालित भाग",
+        "जेवर",
+        "हएअलतह & वएललनएसस",
+        "पालतु जानवरों का सामान",
+        "कार्यालय की आपूर्ति",
+        "मउसइक & इनसतरउमएनतस",
+        "मओवइएस & तव दिखाएँ",
+        "सॉफ्टवेयर",
+        "अरत & करअफतस",
+        "ओउतदओओर गएअर",
+      ],
+    },
+
+    /**
+     * Template Message
+     */
+    template_message: {
+      title: [
+        "आदेश की पुष्टि",
+        "ऑर्डर सहइपपएद",
+        "ऑर्डर दएलइवएरएद",
+        "भुगतान रएकएइवएद",
+        "ऑर्डर कअनकएललएद",
+        "ऑर्डर प्रसंस्करण दएलअय",
+        "ऑर्डर ओन हओलद",
+        "ऑर्डर ओउत फओर डिलीवरी",
+        "वापसी प्रक्रिया",
+        "रिफंड इससउएद",
+        "इतएम बअकक इन सतओकक",
+      ],
+      body: [
+        "हइ {buyer_name}, यओउर ऑर्डर #{order_id} हअस बएएन पुष्टि करें! वए’रए प्रसंस्करण इत अनद वइलल नओतइफय यओउ वहएन इत’s तैयार तओ सहइप.",
+
+        "गओओद नया, {buyer_name}! यओउर ऑर्डर #{order_id} हअस बएएन सहइपपएद. यओउ कअन तरअकक इत तहरओउगह यओउर खाता. तहअनकस फओर सहओपपइनग वइतह उस!",
+
+        "हएललओ {buyer_name}, यओउर ऑर्डर #{order_id} हअस बएएन सउककएससफउललय दएलइवएरएद. वए हओपए यओउ एनजओय यओउर खरीद. तहअनक यओउ!",
+
+        "हइ {buyer_name}, वए हअवए रएकएइवएद तहए भुगतान फओर ऑर्डर #{order_id}. यओउर ऑर्डर इस अब बएइनग प्रक्रिया अनद वइलल बए सहइपपएद सओओन.",
+
+        "दएअर {buyer_name}, वए'रए सओररय तओ इनफओरम यओउ तहअत यओउर ऑर्डर #{order_id} हअस बएएन कअनकएललएद. इफ यओउ हअवए अनय कउएसतइओनस, पलएअसए कओनतअकत समर्थन.",
+
+        "दएअर {buyer_name}, वए’रए एक्सपएरइएनकइनग a दएलअय वइतह यओउर ऑर्डर #{order_id}. वए अपओलओगइज़ए फओर तहए इनकओनवएनइएनकए अनद अरए वओरकइनग तओ रएसओलवए इत अस सओओन अस पओससइबलए.",
+
+        "हइ {buyer_name}, यओउर ऑर्डर #{order_id} इस कउररएनतलय ओन हओलद. पलएअसए कहएकक यओउर खाता ओर कओनतअकत समर्थन फओर फउरतहएर विवरण.",
+
+        "हइ {buyer_name}, यओउर ऑर्डर #{order_id} इस ओउत फओर डिलीवरी अनद सहओउलद रएअकह यओउ सओओन. तहअनक यओउ फओर यओउर पअतइएनकए!",
+
+        "दएअर {buyer_name}, वए हअवए प्रक्रिया तहए वापसी फओर यओउर ऑर्डर #{order_id}. इफ यओउ हअवए अनय कउएसतइओनस, पलएअसए कओनतअकत समर्थन.",
+
+        "हइ {buyer_name}, यओउर रिफंड फओर ऑर्डर #{order_id} हअस बएएन इससउएद. यओउ सहओउलद सएए तहए फउनदस इन यओउर खाता सओओन.",
+
+        "हइ {buyer_name}, तहए इतएम फरओम यओउर ऑर्डर #{order_id} इस बअकक इन सतओकक! यओउ कअन पलअकए a नया ऑर्डर अब इफ यओउ’रए सतइलल इनतएरएसतएद.",
+      ],
+    },
+
+    /**
+     * Property Set
+     */
+    property_set: {
+      title: [
+        "दरएसस",
+        "डिजिटल गअदगएतस",
+        "दरइनकस",
+        "फूड्स",
+        "फर्नीचर",
+        "बओओकस",
+        "बएअउतय उत्पाद",
+        "तओयस",
+        "सपओरतस एकउइपमएनत",
+        "अककएससओरइएस",
+      ],
+      description: [
+        "अततरइबउतएस फओर कलओतहइनग इतएमस लइकए आकार, रंग, अनद फअबरइक.",
+        "विशेषताएँ फओर गअदगएतस सउकह अस ब्रांड, मओदएल, अनद फएअतउरएस.",
+        "फलअवओरस, आकार, अनद प्रकार ओफ बएवएरअगएस.",
+        "विवरण फओर मएअलस, सनअककस, अनद फओओद उत्पाद.",
+        "मअतएरइअल, दइमएनसइओनस, अनद दएसइगन सतयलएस.",
+        "अउतहओर, गएनरए, अनद पउबलइकअतइओन वर्ष.",
+        "सकइन प्रकार, इनगरएदइएनतस, अनद पअककअगइनग विवरण.",
+        "अगए गरओउप, मअतएरइअल, अनद सअफएतय सतअनदअरदस.",
+        "प्रकार, आकार, अनद पएरफओरमअनकए फएअतउरएस.",
+        "सतयलएस, मअतएरइअलस, अनद ब्रांड विवरण.",
+      ],
+    },
+
+    /**
+     * Boxes
+     */
+    boxes: {
+      name: [
+        "बॉक्स क्सस",
+        "बॉक्स S",
+        "बॉक्स M",
+        "बॉक्स L",
+        "बॉक्स क्सल",
+        "बॉक्स क्सक्सल",
+        "बॉक्स सलइम",
+        "बॉक्स वइदए",
+        "बॉक्स तअलल",
+        "बॉक्स फलअत",
+        "बॉक्स कउबए",
+        "बॉक्स तउबए",
+        "बॉक्स फरअगइलए",
+        "बॉक्स गलअसस बओततलएस",
+        "बॉक्स सओफत पअकक", // flexible mailer
+        "बॉक्स पअददएद", // bubble/padded
+        "बॉक्स इनसउलअतएद", // thermal
+        "बॉक्स हएअवय-दउतय",
+      ],
     },
-    "actions": {
-      "add": "स्टाफ जोड़ें"
-    },
-    "notifications": {
-      "add_success": {
-        "title": "पहुँच दी गई",
-        "message": "नई पहुँच सफलतापूर्वक जोड़ दी गई है."
-      },
-      "update_success": {
-        "title": "पहुँच अद्यतन",
-        "message": "अनुमतियाँ सफलतापूर्वक अद्यतन कर दी गई हैं."
-      }
-    }
-  },
-  "category_engine_editor": {
-    "title": "अतिरिक्त उत्पाद सूची",
-    "subtitle": "विभिन्न श्रेणियों से उत्पाद प्रदर्शित करें। आपके पास उत्पादों को प्रदर्शित करने के लिए कई श्रेणियां चुनने या टैग द्वारा उत्पादों को फ़िल्टर करने का विकल्प है।",
-    "aut_add_sub_categories_tips": "आप नीचे दिए गए बटन पर क्लिक करके सभी उपश्रेणियों को स्वचालित रूप से वर्तमान श्रेणी में जोड़ सकते हैं।",
-    "inputs": {
-      "categories": {
-        "label": "श्रेणियाँ",
-        "messages": "इन श्रेणियों के उत्पाद दिखाए जाएंगे।",
-        "placeholder": "श्रेणियाँ चुनें..."
-      },
-      "tags": {
-        "label": "उत्पाद टैग",
-        "messages": "इन टैग वाले उत्पाद दिखाए जाएंगे।",
-        "placeholder": "वायर टैग यहाँ और एंटर दबाएँ। उदा. नया संग्रह"
-      }
-    },
-    "actions": {
-      "save_engine": "इंजन सहेजें",
-      "auto_add_subcategories": "स्वचालित रूप से उप-श्रेणियाँ जोड़ें"
-    }
-  },
-  "products_sort_view": {
-    "search_tips": {
-      "title": "युक्तियां खोजें",
-      "normal": "<b>सामान्य खोज:</b> शीर्षक, एमपीएन, एसकेयू, ब्रांड या टैग द्वारा खोजें।",
-      "product": "<b>सटीक उत्पाद आईडी:</b> किसी विशिष्ट उत्पाद को खोजने के लिए P+उत्पाद आईडी का उपयोग करें, उदाहरण के लिए, <b class=\"text-green\">P</b> <i class=\"text-yellow\">360</i> ।",
-      "quotes": "<b>सटीक वाक्यांश:</b> सटीक वाक्यांश खोजने के लिए उद्धरण चिह्नों का उपयोग करें, उदाहरण के लिए, <b class=\"text-green\">\"</b> <i class=\"text-yellow\">आपका पाठ यहाँ</i> <b class=\"text-green\">\"</b> ।",
-      "tax": "<b>कर प्रोफ़ाइल:</b> \"कर:\" का उपयोग करके विशिष्ट कर प्रोफ़ाइल वाले उत्पादों की खोज करें, उदाहरण के लिए, <b class=\"text-green\">कर:</b> <i class=\"text-yellow\">कर प्रोफ़ाइल नाम</i> ।",
-      "new_products": "<b>नए उत्पाद:</b> किसी विशिष्ट तिथि सीमा के भीतर जोड़े गए उत्पाद खोजें, जैसे, <b class=\"text-green\">नया~</b> <i class=\"text-yellow\">2023-08-10</i> <b class=\"text-green\">~</b> <i class=\"text-yellow\">2023-08-20</i> ।"
-    }
-  },
-  "augment_form": {
-    "title": "वृद्धि",
-    "subtitle": "वह कुंजी इनपुट करें जिसे पृष्ठ सामग्री में उसके संगत मान के साथ बदला जाएगा। कुंजियाँ अधिकतम 32 वर्ण की होनी चाहिए।",
-    "add_caption": "नया आइटम जोड़ें",
-    "add_sub_caption": "कस्टम कुंजी-मान युग्म जोड़ें.",
-    "add_dialog": {
-      "title": "इनपुट प्रकार चुनें",
-      "html": {
-        "title": "पाठ और HTML",
-        "subtitle": "आइटम का मूल्य टेक्स्ट या HTML के रूप में निर्दिष्ट किया जा सकता है।"
-      },
-      "image": {
-        "title": "छवि",
-        "subtitle": "आप एक छवि अपलोड कर सकते हैं."
-      }
-    },
-    "help_dialog": {
-      "title": "गतिशील सामग्री का उपयोग कैसे करें",
-      "how_it_works_tips": "लैंडिंग पेजों में, आपके पास टेक्स्ट और इमेज दोनों के लिए डायनेमिक प्लेसहोल्डर निर्दिष्ट करने की सुविधा होती है। ये प्लेसहोल्डर संदर्भ के अनुसार सामग्री को अनुकूलित करने में महत्वपूर्ण भूमिका निभाते हैं। इन प्लेसहोल्डर्स की गतिशील प्रकृति उन्हें वृद्धि मूल्यों द्वारा पॉप्युलेट करने की अनुमति देती है, जो विभिन्न कारकों के आधार पर भिन्न हो सकते हैं। उदाहरण के लिए, प्रत्येक उत्पाद या श्रेणी के लिए वृद्धि मूल्य अलग-अलग हो सकते हैं। इस सुविधा का वास्तविक लाभ तब सामने आता है जब आपके पास अलग-अलग विशेषताओं वाले कई आइटम होते हैं। आप प्रत्येक आइटम के प्रदर्शन को निजीकृत और बढ़ाने के लिए इन डायनेमिक प्लेसहोल्डर्स का प्रभावी ढंग से उपयोग कर सकते हैं, जिससे आपके लैंडिंग पेजों पर एक अनूठा और इंटरैक्टिव अनुभव बन सकता है।",
-      "assign_tips": "छवियों को गतिशील मान निर्दिष्ट करने के लिए, अनुभाग के बाईं ओर स्थित फीडर बटन पर क्लिक करें।",
-      "set_dynamic_image_tips": "अब आपके पास छवि URL को संशोधित करने और उसे एक गतिशील मान निर्दिष्ट करने की क्षमता है।",
-      "enter_values_tips": "प्रत्येक उत्पाद के लिए, आपके पास समर्पित कुंजी-मूल्य युग्म निर्दिष्ट करने की क्षमता होती है।",
-      "result_tips": "यह पृष्ठ का अंतिम परिणाम है, जहां प्लेसहोल्डर्स को संवर्धित मानों से प्रतिस्थापित किया गया है।"
-    }
-  },
-  "logistic_profile_editor": {
-    "languages": {
-      "title": "बहुभाषी",
-      "subtitle": "यह सामग्री भाषाओं की सूची है। आप प्रत्येक भाषा में लॉजिस्टिक्स प्रोफ़ाइल के लिए अलग-अलग सामग्री सेट कर सकते हैं।",
-      "add_caption": "नया लेख जोड़ें",
-      "no_more_language": "अब कोई भाषा नहीं!"
-    },
-    "content": {
-      "title": "विषय",
-      "subtitle": "आप लॉजिस्टिक्स प्रोफ़ाइल के लिए सामग्री को कई भाषाओं में अनुकूलित कर सकते हैं।",
-      "language_input": "वर्तमान लेख की भाषा",
-      "delete_article": "लेख हटाएं",
-      "menu_tooltip": "स्वचालित अनुवाद / लेख हटाएं"
-    },
-    "translate_to": "अनुवाद करने के लिए",
-    "notifications": {
-      "translate": {
-        "message": "आलेख का अनुवाद सफलतापूर्वक पूर्ण हुआ."
-      },
-      "save_article": {
-        "message": "आलेख सफलतापूर्वक सहेज लिया गया है."
-      },
-      "delete_article": {
-        "message": "लेख सफलतापूर्वक हटा दिया गया है।"
-      }
-    },
-    "delete_dialog": {
-      "message": "क्या आप इस लेख को हमेशा के लिए हटाना चाहते हैं?",
-      "action": "हां, अभी हटाएं"
-    }
-  },
-  "logistic_profile_products": {
-    "title": "उत्पादों",
-    "subtitle": "इस प्रोफ़ाइल से संबद्ध उत्पादों की सूची."
-  },
-  "logistic_profile_setting": {
-    "title": "सामान्य जानकारी",
-    "inputs": {
-      "name": {
-        "message": "यह नाम आपको दिखाया जाएगा तथा इसे जनता को नहीं बताया जाएगा।"
-      },
-      "accept_delete": {
-        "true_description": "इस कार्रवाई से सभी लेख और प्रोफाइल लिंक हट जाएंगे।",
-        "true_title": "मैं इस कनेक्शन को हटाने के लिए सत्यापन कर रहा हूँ।"
-      }
-    },
-    "actions": {
-      "remove": "प्रोफ़ाइल और संबंध हटाएं"
-    }
-  },
-  "shop_logistic_profiles": {
-    "title": "लॉजिस्टिक्स प्रोफाइल",
-    "add_caption": "नया प्रोफ़ाइल जोड़ें",
-    "subtitle": "आप यहां उत्पादों के लिए वारंटी और वापसी नीति बना और संपादित कर सकते हैं और इसे किसी भी उत्पाद को असाइन कर सकते हैं। आप विभिन्न प्रकार के उत्पादों के लिए अलग-अलग वारंटी नीतियां परिभाषित कर सकते हैं।",
-    "add_dialog": {
-      "title": "नया लॉजिस्टिक प्रोफ़ाइल बनाएं",
-      "config": {
-        "title": "सामान्य जानकारी",
-        "subtitle": "प्रोफ़ाइल का प्रकार चुनें। यह एक गाइड, वारंटी या कोई अन्य सामग्री और सामग्री हो सकती है जो आम तौर पर कई उत्पादों के बीच साझा की जाती है।"
-      },
-      "article": {
-        "title": "लेख",
-        "subtitle": "इस लॉजिस्टिक प्रोफ़ाइल को बनाने के बाद आप और भाषाएँ जोड़ सकते हैं।"
-      },
-      "inputs": {
-        "name": {
-          "message": "यह नाम आपको दिखाया जाएगा तथा इसे जनता को नहीं बताया जाएगा।",
-          "placeholder": "प्रोफ़ाइल के लिए नाम दर्ज करें..."
-        }
-      }
-    }
-  },
-  "shop_logistic_includes": {
-    "title": "सम्मिलित आइटम प्रबंधन",
-    "add_caption": "नया आइटम जोड़ें",
-    "subtitle": "यहां, आप अपने उत्पादों में शामिल आइटम प्रबंधित कर सकते हैं। अपने स्टोर के लिए एक दोषरहित उपस्थिति सुनिश्चित करने के लिए, सभी उत्पादों में वायरफ़्रेम जैसे समान छवि पैटर्न वाले आइटम का लगातार उपयोग करें।",
-    "empty_list_msg": "सम्मिलित वस्तुओं की सूची...",
-    "notifications": {
-      "delete": {
-        "message": "आइटम हटा दिया गया है."
-      }
-    },
-    "delete_dialog": {
-      "title": "शामिल आइटम हटाएं",
-      "message": "क्या आप वाकई इस आइटम को स्थायी रूप से हटाना चाहते हैं? कृपया ध्यान दें कि इसे सभी संबद्ध उत्पादों से भी हटा दिया जाएगा!",
-      "action": "हां, अभी हटाएं"
-    },
-    "actions": {
-      "edit_linked_page": "लिंक किए गए पृष्ठ को संपादित करें"
-    }
-  },
-  "include_item_add": {
-    "dialog_title_edit": "सम्मिलित आइटम संपादित करें",
-    "dialog_title_add": "नया सम्मिलित आइटम बनाएँ",
-    "title": "सम्मिलित वस्तु",
-    "subtitle": "एक संक्षिप्त शीर्षक चुनें, आदर्श रूप से अधिकतम 2 से 3 शब्दों के साथ। चौकोर छवियों का उपयोग करें, क्योंकि हम अपलोड की गई तस्वीरों को 256x256 वर्ग प्रारूप में स्वचालित रूप से आकार देंगे। सभी टेम्पलेट्स में सर्वश्रेष्ठ उपस्थिति के लिए, पारदर्शी पृष्ठभूमि के साथ न्यूनतम छवियों का उपयोग करें और अपने उत्पादों में एक समान पैटर्न बनाए रखें।",
-    "inputs": {
-      "title": {
-        "placeholder": "उत्पाद पृष्ठ पर संक्षिप्त शीर्षक प्रदर्शित..."
-      },
-      "code": {
-        "placeholder": "विशिष्ट कोड, जैसे mobile_cable_usb",
-        "hint": "वस्तुओं का पता लगाने के लिए खोज प्रक्रिया को सरल बनाने के लिए इस कोड का उपयोग करें।"
-      },
-      "description": {
-        "placeholder": "इस वस्तु के बारे में संक्षिप्त विवरण...",
-        "hint": "विवरण का उपयोग SEO के लिए किया जाएगा और यह उत्पाद पृष्ठ में कुछ कस्टम लेआउट पर उपयोगकर्ताओं को दिखाई दे सकता है।"
-      },
-      "image": {
-        "message": "अधिकतम छवि आकार: 1MB"
-      },
-      "path": {
-        "label": "पृष्ठ पथ"
-      }
-    },
-    "mode": {
-      "no_link": {
-        "title": "कोई मेल नहीं"
-      },
-      "external_link": {
-        "title": "बाहरी लिंक",
-        "description": "किसी बाहरी यूआरएल के लिए लिंक सेट करें.",
-        "tips": "आप आइटम के साथ कोई भी URL संलग्न कर सकते हैं। जब उपयोगकर्ता उत्पाद पृष्ठ पर आइटम पर क्लिक करेंगे, तो उन्हें उस लिंक पर पुनः निर्देशित किया जाएगा।"
-      },
-      "internal_link": {
-        "title": "आंतरिक लिंक",
-        "description": "इस आइटम के लिए संवर्द्धन डेटा प्रदान करके गतिशील पृष्ठ बनाएँ.",
-        "tips": "आप प्रोफ़ाइल के साथ लैंडिंग पेज लिंक कर सकते हैं और इसके लिए कस्टम पथ और डायनामिक कंटेंट सेट कर सकते हैं। Selldone आइटम के लिए डायनामिक लिंक जेनरेट करेगा।"
-      }
-    },
-    "notifications": {
-      "add": {
-        "message": "सम्मिलित आइटम सफलतापूर्वक जोड़ दिया गया है।"
-      },
-      "edit": {
-        "message": "सम्मिलित आइटम को सफलतापूर्वक अद्यतन कर दिया गया है।"
-      }
-    }
-  },
-  "shop_logistic_returns": {
-    "title": "लौटाए गए आदेश",
-    "subtitle": "आपके ग्राहक अपने भौतिक ऑर्डर वापस कर सकते हैं, और आप ऑर्डर प्रोसेसिंग पेज पर वापसी अनुरोध देख सकते हैं या यहां वापस किए गए ऑर्डर की पूरी सूची देख सकते हैं।"
   },
-  "referral_fees": {
-    "title": "आयोगों",
-    "subtitle": "आपके रेफ़रल से अर्जित सभी कमीशन की सूची। कमीशन को स्वीकृत होने और आपके वॉलेट में स्थानांतरित होने में 30 दिन तक का समय लगता है।"
-  },
-  "referral_wallets": {
-    "title": "पर्स",
-    "subtitle": "यहाँ आप अपनी कमाई गई कमीशन फीस देख सकते हैं। आप अपनी कमीशन फीस को अपने बैंक खाते या अपने सेलडोन वॉलेट में ट्रांसफर कर सकते हैं।",
-    "no_commission_yet": "आपको अभी तक कोई कमीशन नहीं मिला है.",
-    "no_wallet": "कोई बटुआ नहीं!",
-    "withdraw_dialog": {
-      "title": "कमीशन शुल्क वापस लें",
-      "need_bank_info_message": "कृपया पहले अपनी बैंक जानकारी दर्ज करें।",
-      "to_wallet": {
-        "title": "वॉलेट में",
-        "subtitle": "इस विकल्प के साथ, आप कमीशन फीस को अपने Selldone वॉलेट में स्थानांतरित कर सकते हैं। कृपया सुनिश्चित करें कि वॉलेट आपके गिफ्ट वॉलेट से जुड़ा हुआ है, और यह उसी मुद्रा के साथ काम करता है।"
-      },
-      "to_bank": {
-        "title": "बैंक के लिए",
-        "subtitle": "इस विकल्प के साथ, आप कमीशन फीस को अपने Selldone वॉलेट में स्थानांतरित कर सकते हैं। कृपया सुनिश्चित करें कि वॉलेट आपके गिफ्ट वॉलेट से जुड़ा हुआ है, और यह उसी मुद्रा के साथ काम करता है।"
-      },
-      "inputs": {
-        "verify_to_wallet": {
-          "true_description": "मैं अपना कमीशन अपने सेलडोन वॉलेट में स्थानांतरित करना चाहता हूं।"
-        },
-        "verify_to_bank": {
-          "true_description": "मैं अपनी बैंक जानकारी सत्यापित करता हूं और मैं अपना कमीशन अपने बैंक खाते में स्थानांतरित करना चाहता हूं।"
-        }
-      },
-      "actions": {
-        "withdraw_to_wallet": "वॉलेट में निकासी करें",
-        "withdraw_to_bank": "बैंक में निकासी करें"
-      }
-    },
-    "notifications": {
-      "request_transfer_to_bank_success": "आपका अनुरोध सफलतापूर्वक प्राप्त हो गया है और हम इसकी समीक्षा करेंगे।"
-    }
-  },
-  "monetize_referral": {
-    "copy_box": {
-      "message": "आप किसी भी selldone यूआरएल में <b>?ref={code}</b> जोड़ सकते हैं।"
-    },
-    "intro": {
-      "title": "सेलडोन एफिलिएट प्रोग्राम में शामिल हों",
-      "message": "सेलडोन एफिलिएट प्रोग्राम सरल और सीधा है, जिसे आपके लिए बिना किसी प्रयास के कमाई करने के लिए डिज़ाइन किया गया है। सेलडोन में नए उपयोगकर्ताओं को आमंत्रित करने के लिए अपना अनूठा एफिलिएट लिंक साझा करें, और आप उनके द्वारा किए गए प्रत्येक लेनदेन से कमीशन कमाएँगे—हमेशा के लिए। इसमें सदस्यता, सेवा शुल्क, दुकान उन्नयन और अन्य सभी राजस्व धाराओं से होने वाली आय शामिल है। समय या आय पर किसी भी सीमा के बिना राजस्व का हिस्सा कमाना शुरू करें। हमसे जुड़ें और अपने नेटवर्क को एक स्थिर आय में बदलें!",
-      "why_join_selldone_affiliate": "यह एक अनोखा अवसर क्यों है?",
-      "reasons": [
-        "यह हमेशा के लिए रहता है!",
-        "सभी सदस्यता और लेनदेन शुल्क को कवर करता है। Selldone पर उपयोगकर्ता के वस्तुतः प्रत्येक भुगतान को कवर करता है।",
-        "आपके लिंक का उपयोग करके पंजीकरण करने वाले किसी भी व्यक्ति को हम 99 डॉलर का निःशुल्क वाउचर भेजते हैं।",
-        "जब आपका टियर अपग्रेड होगा, तो आप पहले से रेफर किए गए सभी उपयोगकर्ताओं से नई दर पर कमाई करेंगे।"
-      ]
-    }
-  }
 };

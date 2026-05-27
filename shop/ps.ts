@@ -1,596 +1,794 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "surveys": [
-    "ډیر غریب",
-    "غریب",
-    "نورمال",
-    "ښه",
-    "ډیر ښه"
-  ],
-  "footer": {
-    "map": "نقشه",
-    "email": "ایمیل",
-    "phone": "تلیفون",
-    "address": "پته",
-    "copyright": "د منځپانګې کارول یوازې د غیر سوداګریزو موخو لپاره او د سرچینې په حواله (د {shop_title} سره اړیکه). ټول حقونه {shop_title} ته خوندي دي.",
-    "powered_by": "لخوا ځواکمن شوی",
-    "privacy": "د پټتیا تګلاره",
-    "term_of_use": "د کارولو شرایط",
-    "shop_app_setting": "د پلورنځي ترتیب او GDPR",
-    "dialog_setting": {
-      "title": "د پلورنځي غوښتنلیکونو ترتیب",
-      "app_list": "د غوښتنلیکونو لیست"
-    }
-  },
-  "product_card": {
-    "sold_out": "خرڅ شوي",
-    "review_unit": "بیاکتنه",
-    "not_original": "اصلي نه"
-  },
-  "shop": {
-    "products_filter": "فلټر",
-    "native": {
-      "title": "د غوښتنلیک ننوتل",
-      "message": "دا ایپ ستاسو د پلورنځي حساب معلوماتو ته لاسرسي ته اړتیا لري. پدې کې نوم، د اړیکو شمیره، پته، بریښنالیک، د امر تاریخ، امر کول او پدې پلورنځي کې د نظرونو پوسټ کول شامل دي.",
-      "message_bold": "ډاډ ترلاسه کړئ چې دې پلورنځي ته د ننوتلو لپاره د رسمي پلورنځي ایپ وکاروئ."
-    }
-  },
-  "sort": {
-    "title": "ترتیب یی کړه په",
-    "title_small": "ترتیب یی کړه په..",
-    "nothing": "هیڅ نه",
-    "most_views": "ډیری لیدونه",
-    "most_likes": "ډیر مشهور",
-    "most_recent": "تازه",
-    "most_sell": "غوره پلورل",
-    "cheapest": "ارزانه",
-    "most_expensive": "ډیر ګران بیه",
-    "only_available": "شته",
-    "view_mode": {
-      "normal": "نورمال",
-      "grid": "گرډ",
-      "list": "لیست",
-      "insta": "Insta"
-    }
-  },
-  "product_info": {
-    "fake": "جعل",
-    "action": "نیلام",
-    "compare_limit": "د 10 توکو حد",
-    "compare_add": "د پرتله کولو لپاره اضافه کړئ",
-    "compare_be_in_list": "په لیست کې پرتله کول",
-    "type": "ډول",
-    "brand": "برانډ",
-    "category": "کټګوري",
-    "discount": "تخفیف",
-    "track_price": "نرخ تعقیب کړئ",
-    "waiting_for_auction": "لیلام ته انتظار یاست؟",
-    "inform_auction": "د لیلام په اړه راته ووایه",
-    "return_in_days": "{days} ورځو تضمین بیرته راستنیدل",
-    "support24h7": "24 ساعته 7 ورځې ملاتړ وکړئ",
-    "support_normal": "د کاري ساعتونو ملاتړ",
-    "original_guarantee": "اصلي تضمین",
-    "cod_payment": "د تحویلۍ په اړه نغدي ملاتړ",
-    "pros": "پرو",
-    "cons": "Cons",
-    "external_link": "نور یی ولوله",
-    "notifications": {
-      "congratulation": "مبارک شه",
-      "waiting_list_add_success": "موږ به تاسو ته خبر درکړو کله چې دا محصول لیلام شي.",
-      "waiting_list_delete_success": "تاسو د لیلام انتظار لیست څخه وتلی."
+  /** @see SShopProductRatingView **/
+  surveys: ["ډیر غریب", "غریب", "نورمال", "ښه", "ډیر ښه"],
+
+  /** @see SFooterSection **/
+  footer: {
+    map: "نقشه",
+    email: "ایمیل",
+    phone: "تلیفون",
+    address: "پته",
+
+    copyright:
+      "د منځپانګې کارول یوازې د غیر سوداګریزو موخو لپاره او د سرچینې په حواله (د {shop_title} سره اړیکه). ټول حقونه {shop_title} ته خوندي دي.",
+    powered_by: "لخوا ځواکمن شوی",
+    privacy: "د پټتیا تګلاره",
+    term_of_use: "د کارولو شرایط",
+    shop_app_setting: "د پلورنځي ترتیب او GDPR",
+
+    dialog_setting: {
+      title: "د پلورنځي غوښتنلیکونو ترتیب",
+      app_list: "د غوښتنلیکونو لیست",
     },
-    "offer_message": "{min_quantity} واخلئ د دې توکو لپاره {percent}% تخفیف ترلاسه کړئ",
-    "up_to": "په هر امر تر {per_order}x پورې",
-    "get_free": "وړیا ترلاسه کړئ",
-    "get_off": "په سلو کې {% تخفیف ترلاسه کړئ",
-    "select_a_vendor_message": "مهرباني وکړئ یو پلورونکی وټاکئ.",
-    "product_description_header": "معرفي کول {product}"
   },
-  "buy_button": {
-    "waiting_for_availability": "د شتون په تمه",
-    "inform_me_when_available": "د دې لپاره انتظار؟",
-    "pay_buy": "تادیه او پیرود",
-    "quantity": "شمېرل",
-    "quantity_in_basket": "په کارټ کې توکي",
-    "count_unit": "x",
-    "remove": "لرې کړئ",
-    "add_to_basket": "کارټ ته یی اضافه کړه",
-    "buy": "پېرود",
-    "notifications": {
-      "inform_add_success": "موږ به تاسو ته خبر درکړو کله چې دا شتون ولري.",
-      "inform_remove_success": "تاسو د انتظار لیست څخه لیرې شوي یاست."
+
+  /** @see SShopProductCard **/
+  product_card: {
+    sold_out: "خرڅ شوي",
+    review_unit: "بیاکتنه",
+    not_original: "اصلي نه",
+  },
+
+  /** @see ShopPage **/
+  /** @see Shop **/
+  shop: {
+    products_filter: "فلټر",
+    native: {
+      title: "د غوښتنلیک ننوتل",
+      message:
+        "دا ایپ ستاسو د پلورنځي حساب معلوماتو ته لاسرسي ته اړتیا لري. پدې کې نوم، د اړیکو شمیره، پته، بریښنالیک، د امر تاریخ، امر کول او پدې پلورنځي کې د نظرونو پوسټ کول شامل دي.",
+      message_bold:
+        "ډاډ ترلاسه کړئ چې دې پلورنځي ته د ننوتلو لپاره د رسمي پلورنځي ایپ وکاروئ.",
     },
-    "subscribe_now": "همدا اوس ګډون وکړئ",
-    "unsubscribe": "ګډون نه کول",
-    "select_a_subscription_plan": "لومړی پلان غوره کړئ!",
-    "manage_subscriptions": "ګډونونه اداره کړئ"
   },
-  "product": {
-    "review": "بیاکتنه",
-    "spec": "سپیک",
-    "comments": "تبصرې",
-    "related_products_title": "اړوند توليدات",
-    "price": "قیمت",
-    "rate": "نرخ",
-    "comment": "تبصره",
-    "warranty": "تضمین",
-    "return_policy": "د راګرځولو شرايت",
-    "guide": "لارښود",
-    "shipping": "لېږدول",
-    "related_categories_title": "په ټولګه کې کشف کړئ"
-  },
-  "layout_shop": {
-    "shop_menu": {
-      "orders_history": "د امر تاریخ",
-      "profile": "زما پېژنيال",
-      "favorites": "د خوښې توکي",
-      "gift_cards": "د ډالۍ کارتونه",
-      "return_requests": "بیرته راستانه شوي امرونه",
-      "basket": "د سودا لاس ګاډی"
+
+  /** @see SortView **/
+  sort: {
+    title: "ترتیب یی کړه په",
+    title_small: "ترتیب یی کړه په..",
+    nothing: "هیڅ نه",
+    most_views: "ډیری لیدونه",
+    most_likes: "ډیر مشهور",
+    most_recent: "تازه",
+    most_sell: "غوره پلورل",
+    cheapest: "ارزانه",
+    most_expensive: "ډیر ګران بیه",
+    only_available: "شته",
+    view_mode: {
+      normal: "نورمال",
+      grid: "گرډ",
+      list: "لیست",
+      insta: "Insta",
     },
-    "user_menu": {
-      "my_shops": "زما پلورنځي",
-      "go_to_admin": "د {shop_name} اداره کول",
-      "exit_from": "لاګ آوټ {shop_name}",
-      "chips": "{chips} چپس"
+  },
+
+  /** @see SProductOverview **/
+  product_info: {
+    fake: "جعل",
+    action: "نیلام",
+    compare_limit: "د 10 توکو حد",
+    compare_add: "د پرتله کولو لپاره اضافه کړئ",
+    compare_be_in_list: "په لیست کې پرتله کول",
+
+    type: "ډول",
+    brand: "برانډ",
+    category: "کټګوري",
+    discount: "تخفیف",
+    track_price: "نرخ تعقیب کړئ",
+    waiting_for_auction: "لیلام ته انتظار یاست؟",
+    inform_auction: "د لیلام په اړه راته ووایه",
+    return_in_days: "{days} ورځو تضمین بیرته راستنیدل",
+    support24h7: "24 ساعته 7 ورځې ملاتړ وکړئ",
+    support_normal: "د کاري ساعتونو ملاتړ",
+    original_guarantee: "اصلي تضمین",
+    cod_payment: "د تحویلۍ په اړه نغدي ملاتړ",
+
+    pros: "پرو",
+    cons: "زیانونه",
+
+    external_link: "نور یی ولوله",
+    notifications: {
+      congratulation: "مبارک شه",
+      waiting_list_add_success:
+        "موږ به تاسو ته خبر درکړو کله چې دا محصول لیلام شي.",
+      waiting_list_delete_success: "تاسو د لیلام انتظار لیست څخه وتلی.",
     },
-    "login_to_shop": "پلورنځي ته ننوتل",
-    "login_to_shop_short": "د ننه کیدل",
-    "item_in_basket_message": "{count} دا توکي ستاسو په کارټ کې دي.",
-    "search_title": "په پلورنځي کې لټون وکړئ {shop_name}"
+
+    offer_message: "{min_quantity} واخلئ د دې توکو لپاره {percent}% تخفیف ترلاسه کړئ",
+    up_to: "په هر امر تر {per_order}x پورې",
+    get_free: "وړیا ترلاسه کړئ",
+    get_off: "{percent}% تخفیف ترلاسه کړئ",
+    select_a_vendor_message: "مهرباني وکړئ یو پلورونکی وټاکئ.",
+    product_description_header: "معرفي کول {product}",
   },
-  "basket_top_menu": {
-    "basket": "کارټ",
-    "basket_is_empty": "ستاسو کارټ خالي دی.",
-    "total_price": "ټول",
-    "view_basket": "ستاسو کارټ",
-    "more": "نور…",
-    "accept_and_pay": "بشپړ ی وګوره",
-    "items": "توکي"
+
+  /** @see SShopBuyButton **/
+
+  buy_button: {
+    waiting_for_availability: "د شتون په تمه",
+    inform_me_when_available: "د دې لپاره انتظار؟",
+    pay_buy: "تادیه او پیرود",
+    quantity: "شمېرل",
+    quantity_in_basket: "په کارټ کې توکي",
+    count_unit: "x",
+    remove: "لرې کړئ",
+    add_to_basket: "کارټ ته یی اضافه کړه",
+    buy: "پېرود",
+    subscribe_now: "همدا اوس ګډون وکړئ",
+    unsubscribe: "ګډون نه کول",
+    select_a_subscription_plan: "لومړی پلان غوره کړئ!",
+    manage_subscriptions: "ګډونونه اداره کړئ",
+    notifications: {
+      inform_add_success: "موږ به تاسو ته خبر درکړو کله چې دا شتون ولري.",
+      inform_remove_success: "تاسو د انتظار لیست څخه لیرې شوي یاست.",
+    },
+    zip_pin_input: "ZIP / PIN",
+    zip_pin_not_available_msg: "په دې ځای کې شتون نه لري!",
+    zip_pin_placeholder: "د ZIP/PIN کوډ وټاکئ...",
   },
-  "history_orders_physical": {
-    "rejected": "رد کړل",
-    "table": {
-      "code": "د امر کوډ",
-      "reserved": "نیټه",
-      "delivery_state": "د سپارلو حالت",
-      "price": "ټول قیمت",
-      "status": "د تادیاتو حالت"
-    }
+
+  /** @see StorefrontPageProduct **/
+
+  product: {
+    review: "بیاکتنه",
+    spec: "سپیک",
+    comments: "تبصرې",
+    price: "قیمت",
+    rate: "نرخ",
+    comment: "تبصره",
+    warranty: "تضمین",
+    return_policy: "د راګرځولو شرايت",
+    guide: "لارښود",
+    shipping: "لېږدول",
+    related_products_title: "اړوند توليدات",
+    related_categories_title: "په ټولګه کې کشف کړئ",
   },
-  "history_orders": {
-    "table": {
-      "code": "د امر کوډ",
-      "items": "توکي",
-      "reserved": "نیټه",
-      "delivery_state": "وروستی حالت",
-      "price": "ټول قیمت",
-      "status": "د تادیاتو حالت"
-    }
+
+  /** @see StorefrontLayout **/
+  layout_shop: {
+    shop_menu: {
+      orders_history: "د امر تاریخ",
+      profile: "زما پېژنيال",
+      favorites: "د خوښې توکي",
+      gift_cards: "د ډالۍ کارتونه",
+      return_requests: "بیرته راستانه شوي امرونه",
+      basket: "د سودا لاس ګاډی",
+    },
+    user_menu: {
+      my_shops: "زما پلورنځي",
+      go_to_admin: "د {shop_name} اداره کول",
+      exit_from: "لاګ آوټ {shop_name}",
+      chips: "{chips} چپس",
+    },
+    login_to_shop: "پلورنځي ته ننوتل",
+    login_to_shop_short: "د ننه کیدل",
+    item_in_basket_message: "{count} دا توکي ستاسو په کارټ کې دي.",
+    search_title: "په پلورنځي کې لټون وکړئ {shop_name}",
   },
-  "user_page": {
-    "menu": {
-      "gift_card": "د ډالۍ کارت",
-      "comments": "تبصرې",
-      "favorites": "د خوښې وړ",
-      "return_requests": "بیرته راګرځي",
-      "addresses": "ادرسونه",
-      "profile": "پروفایل",
-      "orders": "امرونه"
-    }
+
+  /** {@see BasketTopMenu} **/
+  basket_top_menu: {
+    basket: "کارټ",
+    basket_is_empty: "ستاسو کارټ خالي دی.",
+    total_price: "ټول",
+    view_basket: "ستاسو کارټ",
+    more: "نور…",
+    accept_and_pay: "بشپړ ی وګوره",
+    items: "توکي",
   },
-  "order_page": {
-    "title": "امر",
-    "payment": {
-      "title": "تادیه",
-      "payment_waiting": "د تادیې انتظار",
-      "payment_completed": "ورکړې",
-      "table": {
-        "title": "عنوان",
-        "amount": "مقدار",
-        "description": "تفصیل"
+
+  /** {@see StorefrontPageUserOrdersPhysical} **/
+  history_orders_physical: {
+    rejected: "رد کړل",
+    table: {
+      code: "د امر کوډ",
+      reserved: "نیټه",
+      delivery_state: "د سپارلو حالت",
+      price: "ټول قیمت",
+      status: "د تادیاتو حالت",
+    },
+  },
+  /** {@see SOrdersList} **/
+  history_orders: {
+    table: {
+      code: "د امر کوډ",
+      items: "توکي",
+      reserved: "نیټه",
+      delivery_state: "وروستی حالت",
+      price: "ټول قیمت",
+      status: "د تادیاتو حالت",
+    },
+  },
+
+  /** {@see StorefrontPageUser} **/
+  user_page: {
+    menu: {
+      gift_card: "د ډالۍ کارت",
+      comments: "تبصرې",
+      favorites: "د خوښې وړ",
+      return_requests: "بیرته راګرځي",
+      addresses: "ادرسونه",
+      profile: "پروفایل",
+      orders: "امرونه",
+      wallets: "بټوې",
+    },
+  },
+  /**
+   * @see StorefrontPageUserWallets
+   */
+  user_wallets: {
+    title: "زما بټوې",
+    subtitle: "که وړ یاست او د کېش‌بک پروګرام فعال وي، ستاسو د امر یوه برخه به ستاسو بټوې ته جمع شي. تاسو کولی شئ دا پیسې په خپل راتلونکي پیرود کې وکاروئ."
+  },
+  /**
+   * @see SWalletInput
+   */
+  wallet_input:{
+    my_wallet_balance:"زما د بټوې بیلانس",
+  },
+
+
+  /** {@see StorefrontPageBasketOrderPhysicalDashboard} **/
+  order_page: {
+    title: "امر",
+
+    /** {@see SShopCustomerOrderPaymentWidget} **/
+    payment: {
+      title: "تادیه",
+      payment_waiting: "د تادیې انتظار",
+      payment_completed: "ورکړې",
+      table: {
+        title: "عنوان",
+        amount: "مقدار",
+        description: "تفصیل",
       },
-      "total_payment": "پيسې ورکړل شوې",
-      "discount": "تخفیف",
-      "discount_code": "د تخفیف کوډ",
-      "delivery_fee": "د لېږد کرایه",
-      "delivery_fee_after": "هیڅ تحویلي ندي ورکړل شوي",
-      "total_price": "د توکو ټول قیمت",
-      "total_items_discount": "د توکو تخفیف",
-      "total_price_after_offers": "د وړاندیزونو پلي کولو وروسته ټولټال",
-      "buyer_payment": "د پیرودونکي تادیه اندازه",
-      "total_order_price_before_tax": "مخکې له مالیې ټول قیمت"
+      total_payment: "پيسې ورکړل شوې",
+      discount: "تخفیف",
+      discount_code: "د تخفیف کوډ",
+      delivery_fee: "د لېږد کرایه",
+      delivery_fee_after: "هیڅ تحویلي ندي ورکړل شوي",
+
+      total_price: "د توکو ټول قیمت",
+      total_items_discount: "د توکو تخفیف",
+      total_price_after_offers: "د وړاندیزونو پلي کولو وروسته ټولټال",
+      total_order_price_before_tax: "مخکې له مالیې ټول قیمت",
+
+      buyer_payment: "د پیرودونکي تادیه اندازه",
+
+      payment_is_in_require_capture_message:
+        "موږ ستاسو تادیه ترلاسه کړې، خو لا نهايي شوې نه ده.",
+      settle_the_earlier_bill_first: "لومړی پخوانی بل تصفیه کړئ!",
     },
-    "delivery": {
-      "title": "تحویلي",
-      "subtitle": "د پیرودونکي معلومات",
-      "confirm_received_action": "د محصول رسید تایید کړئ",
-      "confirm_received_info": "د تایید تڼۍ کلیک وکړئ که تاسو امر ترلاسه کړ. که اړتیا وي، تاسو به د دې وړتیا ولرئ چې یو راجع کړئ که تاسو تایید ترلاسه کړئ.",
-      "Recipient": "ترلاسه کوونکی",
-      "bill": "رسید",
-      "name": "نوم",
-      "tel": "تلیفون",
-      "email": "ایمیل",
-      "country": "هیواد",
-      "state": "ریاست",
-      "city": "ښار",
-      "address": "پته",
-      "building_no": "د ودانۍ شمیره",
-      "unit_no": "د واحد شمیره",
-      "postal_code": "پوسټ کوډ",
-      "description": "تفصیل",
-      "order_delivered": "امر سپارل شوی دی.",
-      "delivery_time": "د لېږدون وخت",
-      "tracking_code": "د تعقیب کوډ",
-      "tracking_url": "د URL تعقیب کول",
-      "notifications": {
-        "confirm_delivery": "ستاسو امر تایید شوی."
-      }
+    /** {@see SShopCustomerDeliveryInfoWidget} **/
+    delivery: {
+      title: "تحویلي",
+      subtitle: "د پیرودونکي معلومات",
+      confirm_received_action: "د محصول رسید تایید کړئ",
+      confirm_received_info:
+        "د تایید تڼۍ کلیک وکړئ که تاسو امر ترلاسه کړ. که اړتیا وي، تاسو به د دې وړتیا ولرئ چې یو راجع کړئ که تاسو تایید ترلاسه کړئ.",
+      Recipient: "ترلاسه کوونکی",
+      bill: "رسید",
+      name: "نوم",
+      tel: "تلیفون",
+      email: "ایمیل",
+      country: "هیواد",
+      state: "ریاست",
+      city: "ښار",
+      address: "پته",
+      building_no: "د ودانۍ شمیره",
+      unit_no: "د واحد شمیره",
+      postal_code: "پوسټ کوډ",
+      description: "تفصیل",
+      order_delivered: "امر سپارل شوی دی.",
+      delivery_time: "د لېږدون وخت",
+      tracking_code: "د تعقیب کوډ",
+      tracking_url: "د URL تعقیب کول",
+
+      notifications: {
+        confirm_delivery: "ستاسو امر تایید شوی.",
+      },
     },
-    "basket_items": {
-      "original_warranty": "د توکو اصليت تضمین",
-      "return": "بیرته راګرځي",
-      "table": {
-        "product": "د محصول نوم",
-        "count": "شمېرل",
-        "unit_price": "د واحد قیمت",
-        "total_price": "ټول قیمت",
-        "discount": "تخفیف",
-        "final_price": "وروستی قیمت",
-        "returned": "راستانه شول"
-      }
+    /** {@see SShopBasketItemsList} **/
+    basket_items: {
+      original_warranty: "د توکو اصليت تضمین",
+      return: "بیرته راګرځي",
+      table: {
+        product: "د محصول نوم",
+        count: "شمېرل",
+        unit_price: "د واحد قیمت",
+        total_price: "ټول قیمت",
+        discount: "تخفیف",
+        final_price: "وروستی قیمت",
+        returned: "راستانه شول",
+      },
+    },
+  },
+
+  /** {@see SShopBasketItemReturnForm} **/
+  return_request: {
+    title: "بیرته راګرځي",
+    count_input: "د بیرته راستنیدونکو توکو شمیر",
+    count_input_message: "تاسو څومره توکي بیرته راګرځوئ؟",
+    reason_input: "د بیرته راستنیدو دلیل",
+    reason_input_message: "د دې توکي د بیرته راستنیدو دلیل وټاکئ.",
+    note_input: "تفصیل",
+    note_input_hint: "د بیرته راستنیدو دلیل بیان کړئ ..",
+    note_input_message:
+      "د اړتیا په صورت کې د دې توکي د بیرته راستنیدو دلیل تشریح کړئ.",
+    media_message:
+      "تاسو کولی شئ دلته د محصول عکس ، آډیو یا ویډیو اپلوډ کړئ ترڅو د محصول وضعیت معلوماتو لپاره غوره ملاتړ ترلاسه کړئ. د فایل غوره کول به په اوتومات ډول لیږل او تایید کړي.",
+    video: "ویډیو",
+    voice: "غږ",
+    add_action: "د بیرته ستنیدو غوښتنه واستوئ",
+    notifications: "ستاسو د بیرته ستنیدو غوښتنه په بریالیتوب سره ثبت شوه.",
+  },
+  /** {@see StorefrontPageBasketOrderVirtualDashboard} **/
+  virtual_order_page: {
+    title: "امر",
+    info: {
+      title: "د مجازی محصول پیرود",
+    },
+  },
+
+  /** {@see StorefrontPageUserProfile} **/
+  user_profile: {
+    title: "زما شخصي معلومات",
+    name: "نوم",
+    email: "ایمیل",
+    tel: "ټیلیفون",
+    identity: "تصدیق کول",
+    success_kyc: "تایید شوی KYC",
+    no_kyc: "KYC نشته",
+    club: "د کارن کچه",
+    subscription: "د خبرونو ګډون",
+    leave_shop: "دا پلورنځي پریږدئ او د ټولو پیرودونکو کچه لرې کړئ",
+    leave_shop_action: "هټۍ پریږده",
+    edit_personal_info: "شخصي معلومات سم کړئ",
+    leave_dialog: {
+      title: "هټۍ پریږده",
+      message:
+        "دې پلورنځي کې ګډون کول به ستاسو د امر معلومات او ریکارډونه حذف نکړي.",
+      action: "پریږده",
+    },
+    notifications: {
+      leave_success: "هټۍ پریږده",
+    },
+    club_table: {
+      discount: "تخفیف",
+      limit: "حد",
+      currency: "اسعارو",
+      free_shipping: "وړیا بار وړل",
+    },
+
+    my_profile: {
+      title: "زما پروفایل",
+      subtitle: "دا د پلورنځي لپاره زما د پیرودونکي پروفایل معلومات دي.",
+      edit_action: "پروفایل سمول"
+    },
+    subscribe_status: {
+      subscribed: "زه د وروستیو خبرونو او پروموشنونو د ترلاسه کولو لپاره د برېښنالیک له لارې ګډون کړی یم.",
+      unsubscribed: "زه د برېښنالیک له لارې د خبرونو یا پروموشنونو د ترلاسه کولو ګډون نه لرم."
+    },
+    my_club: {
+      subtitle: "زما د کلب کچه او ګټې یې."
+    },
+    kyc: {
+      subtitle: "دا زما د نړیوال هویت معلومات دي."
     }
+
   },
-  "return_request": {
-    "title": "بیرته راګرځي",
-    "count_input": "د بیرته راستنیدونکو توکو شمیر",
-    "count_input_message": "تاسو څومره توکي بیرته راګرځوئ؟",
-    "reason_input": "د بیرته راستنیدو دلیل",
-    "reason_input_message": "د دې توکي د بیرته راستنیدو دلیل وټاکئ.",
-    "note_input": "تفصیل",
-    "note_input_hint": "د بیرته راستنیدو دلیل بیان کړئ ..",
-    "note_input_message": "د اړتیا په صورت کې د دې توکي د بیرته راستنیدو دلیل تشریح کړئ.",
-    "media_message": "تاسو کولی شئ دلته د محصول عکس ، آډیو یا ویډیو اپلوډ کړئ ترڅو د محصول وضعیت معلوماتو لپاره غوره ملاتړ ترلاسه کړئ. د فایل غوره کول به په اوتومات ډول لیږل او تایید کړي.",
-    "video": "ویډیو",
-    "voice": "غږ",
-    "add_action": "د بیرته ستنیدو غوښتنه واستوئ",
-    "notifications": "ستاسو د بیرته ستنیدو غوښتنه په بریالیتوب سره ثبت شوه."
-  },
-  "virtual_order_page": {
-    "title": "امر",
-    "info": {
-      "title": "د مجازی محصول پیرود"
-    }
-  },
-  "user_profile": {
-    "title": "زما شخصي معلومات",
-    "name": "نوم",
-    "email": "ایمیل",
-    "tel": "ټیلیفون",
-    "identity": "تصدیق کول",
-    "success_kyc": "تایید شوی KYC",
-    "club": "د کارن کچه",
-    "subscription": "د خبرونو ګډون",
-    "leave_shop": "دا پلورنځي پریږدئ او د ټولو پیرودونکو کچه لرې کړئ",
-    "leave_shop_action": "هټۍ پریږده",
-    "edit_personal_info": "شخصي معلومات سم کړئ",
-    "leave_dialog": {
-      "title": "هټۍ پریږده",
-      "message": "دې پلورنځي کې ګډون کول به ستاسو د امر معلومات او ریکارډونه حذف نکړي.",
-      "action": "پریږده"
+  /** {@see StorefrontPageBasketCart} **/
+  basket_page: {
+    title: "د سودا لاس ګاډی",
+    total_price: "جمله پیسی",
+    shipping: "د لېږد کرایه",
+    free_shipping: "وړیا بار وړل",
+    shipping_not_pay: "پکې شامل نه دی",
+    total_discount: "ټول تخفیف",
+    customer_club: "د پیرودونکي کلب غړی",
+    customer_club_discount: "د غړو تخفیف",
+    final_price: "وروستی تادیه",
+    lead_time: "د چمتووالي وخت",
+    lead_time_unit: "ساعت",
+    receive_time: "د سپارلو غوره وخت",
+    select_time: "د سپارلو وخت وټاکئ",
+    no_select_time: "چې څومره زر کېدې شي",
+    transportation_type: "د بار وړلو ډول",
+    days_input: "د تحویلۍ ورځې",
+    days_input_label: "ورځې",
+    days_input_no_data: "لږترلږه یوه ورځ غوره کړئ",
+    time_input: "د لېږدون وخت",
+    time_input_label: "تحویلي په وخت",
+    time_input_label_no_data: "لږترلږه یو وخت وقفه وټاکئ",
+    support_cod: "په تحویلي کې نغدي",
+    not_support_cod: "په محلي توګه د پیسو ورکولو توان نلري!",
+    final_confirm_action: "د وروستي امر تایید",
+    pay_and_complete_action: "اوس تادیه وکړئ",
+    pre_confirm_service: "غوښتنه وسپاري",
+    cross_selling_discount: "د راټولولو تخفیف",
+
+    errors: {
+      no_address: "هغه پته وټاکئ چې تاسو غواړئ خپل امر ورته واستول شي.",
+      no_phone: "د توکو رسید همغږي کولو لپاره د اړیکې شمیره دننه کړئ.",
+      select_billing_country: "خپل د بلینګ هیواد وټاکئ",
+      select_billing_state: "د خپل مالیې سیمه وټاکئ",
     },
-    "notifications": {
-      "leave_success": "هټۍ پریږده"
+    same_billing_address: "د بلینګ معلومات د ترلاسه کونکي معلوماتو په څیر",
+    same_billing_address_desc:
+      "د بل کولو پته د بار وړلو پته سره ورته ده.",
+    custom_billing_info: "د بیل کولو مختلف معلومات",
+    custom_billing_info_desc:
+      "تاسو کولی شئ خپل د مالیې شمیره دننه کړئ او د بل کولو لپاره مختلف پته وټاکئ.",
+    basket_empty: "کڅوړه خالي ده",
+    extra_shipping_count: "تاسو به {count} کڅوړې ترلاسه کړئ.",
+    select_location_error:
+      "په نقشه کې د بار وړلو د رسیدلو ځای ومومئ او د نقشې په مینځ کې په شاخص باندې کلیک وکړئ ترڅو د ترلاسه کونکي دقیق پته معلومه کړئ.",
+
+    billing_business_desc: "دا د مالیاتي شمېرې لرونکی سوداګریز حساب دی.",
+    billing_personal_desc: "دا یو شخصي حساب دی.",
+
+    no_billing_title: "هیڅ بلینګ نشته",
+    no_billing_desc: "د بل کولو پته خالي پریږدئ.",
+
+    can_pay_cod_message:"تاسو کولی شئ د دې امر پیسې د سپارلو پر مهال نغدې ورکړئ.",
+  },
+  /** {@see SShopBasketItems} **/
+  basket_items: {
+    items_unit: "x",
+    lead_unit: "ساعت",
+    count_input: "شمېرل",
+
+    price_changed: "قیمت بدل شوی دی. نوی قیمت:",
+    offer: "{count}x توکي د {percent}% تخفیف ترلاسه کړئ",
+    offer_free: "ترلاسه کړئ {count}x وړیا",
+  },
+
+  /** {@see StorefrontUserAddresses} **/
+  addresses_page: {
+    title: "زما پته",
+    subtitle:"خپل خوندي شوي پتې دلته وګورئ، او په اسانۍ سره نوې پته اضافه کړئ.",
+    new_action: "نوی ادرس",
+    receiver: "ترلاسه کوونکی",
+    address: "پته",
+    building_no: "د جواز تخته",
+    building_unit: "واحد",
+    postcode: "پوسټ کوډ",
+    tel: "ټیلیفون",
+    description: "نوټ",
+
+    map: {
+      title: "زما پته",
+      confirm: "ادرس ثبتول",
+      address_type: "پته",
+      receptor_type: "ترلاسه کوونکی",
     },
-    "club_table": {
-      "discount": "تخفیف",
-      "limit": "حد",
-      "currency": "اسعارو",
-      "free_shipping": "وړیا بار وړل"
-    }
-  },
-  "basket_page": {
-    "title": "د سودا لاس ګاډی",
-    "total_price": "جمله پیسی",
-    "shipping": "د لېږد کرایه",
-    "free_shipping": "وړیا بار وړل",
-    "shipping_not_pay": "پکې شامل نه دی",
-    "total_discount": "ټول تخفیف",
-    "customer_club": "د پیرودونکي کلب غړی",
-    "customer_club_discount": "د غړو تخفیف",
-    "final_price": "وروستی تادیه",
-    "lead_time": "د چمتووالي وخت",
-    "lead_time_unit": "ساعت",
-    "receive_time": "د سپارلو غوره وخت",
-    "select_time": "د سپارلو وخت وټاکئ",
-    "no_select_time": "چې څومره زر کېدې شي",
-    "transportation_type": "د بار وړلو ډول",
-    "days_input": "د تحویلۍ ورځې",
-    "days_input_label": "ورځې",
-    "days_input_no_data": "لږترلږه یوه ورځ غوره کړئ",
-    "time_input": "د لېږدون وخت",
-    "time_input_label": "تحویلي په وخت",
-    "time_input_label_no_data": "لږترلږه یو وخت وقفه وټاکئ",
-    "support_cod": "په تحویلي کې نغدي",
-    "not_support_cod": "په محلي توګه د پیسو ورکولو توان نلري!",
-    "final_confirm_action": "د وروستي امر تایید",
-    "pay_and_complete_action": "اوس تادیه وکړئ",
-    "pre_confirm_service": "غوښتنه وسپاري",
-    "errors": {
-      "no_address": "هغه پته وټاکئ چې تاسو غواړئ خپل امر ورته واستول شي.",
-      "no_phone": "د توکو رسید همغږي کولو لپاره د اړیکې شمیره دننه کړئ.",
-      "select_billing_country": "خپل د بلینګ هیواد وټاکئ",
-      "select_billing_state": "د خپل مالیې سیمه وټاکئ"
+    add_dialog: {
+      title: "د نوي ادرس نوم",
+      message: "د نوي ادرس لپاره سرلیک دننه کړئ.",
+      address_name_input: "پته (اړین)",
     },
-    "same_billing_address": "د بلینګ معلومات د ترلاسه کونکي معلوماتو په څیر",
-    "custom_billing_info": "د بیل کولو مختلف معلومات",
-    "basket_empty": "کڅوړه خالي ده",
-    "extra_shipping_count": "تاسو به {count} کڅوړې ترلاسه کړئ.",
-    "select_location_error": "په نقشه کې د بار وړلو د رسیدلو ځای ومومئ او د نقشې په مینځ کې په شاخص باندې کلیک وکړئ ترڅو د ترلاسه کونکي دقیق پته معلومه کړئ.",
-    "same_billing_address_desc": "د بل کولو پته د بار وړلو پته سره ورته ده.",
-    "custom_billing_info_desc": "تاسو کولی شئ خپل د مالیې شمیره دننه کړئ او د بل کولو لپاره مختلف پته وټاکئ.",
-    "billing_business_desc": "دا یو سوداګریز حساب دی چې د TAX شمیره لري.",
-    "billing_personal_desc": "دا یو شخصي حساب دی.",
-    "no_billing_title": "هیڅ بلینګ نشته",
-    "no_billing_desc": "د بل کولو پته خالي پریږدئ.",
-    "cross_selling_discount": "د راټولولو تخفیف"
   },
-  "basket_items": {
-    "items_unit": "x",
-    "lead_unit": "ساعت",
-    "count_input": "شمېرل",
-    "price_changed": "قیمت بدل شوی دی. نوی قیمت:",
-    "offer": "{count}x توکي د {percent}% تخفیف ترلاسه کړئ",
-    "offer_free": "ترلاسه کړئ {count}x وړیا"
+  /** {@see StorefrontPageUserReturns} **/
+  return_requests: {
+    title: "بیرته غوښتنې",
+    subtitle:"خپل د راستنولو غوښتنې دلته وګورئ. د هغو توکو لپاره چې د راستنولو پالیسي لري، تاسو کولی شئ د امر په پاڼه کې د راستنولو غوښتنه وسپارئ.",
   },
-  "addresses_page": {
-    "title": "زما پته",
-    "new_action": "نوی ادرس",
-    "Recipient": "ترلاسه کوونکی",
-    "address": "پته",
-    "building_no": "د جواز تخته",
-    "building_unit": "واحد",
-    "postcode": "پوسټ کوډ",
-    "tel": "ټیلیفون",
-    "description": "نوټ",
-    "map": {
-      "title": "زما پته",
-      "confirm": "ادرس ثبتول",
-      "address_type": "پته",
-      "receptor_type": "ترلاسه کوونکی"
+
+  /** {@see StorefrontPageUserWishlist} **/
+  user_favorites: {
+    title: "د خوښې لیست",
+  },
+  /** {@see StorefrontPageUserComments} **/
+  user_comments: {
+    title: "زما نظرونه",
+    first_post: "لومړی پوسټ",
+    last_edit: "وروستی تدوین",
+  },
+  /** {@see StorefrontPageUserGiftcards} **/
+  user_gift_cards: {
+    title: "زما د ډالۍ کارتونه",
+    add_action: "کارت اضافه کړئ",
+    add_card_dialog: {
+      title: "د ډالۍ کارت اضافه کړئ",
+      message:
+        "د کارت شمیره او امنیتي کوډ دننه کړئ. یو ډالۍ کارت به ستاسو حساب ته اضافه شي.",
+      card_number_input: "د کارت نمره",
+      info: "یادونه: کله چې له پلورنځي څخه پیرود کوئ ، تاسو ته به د ډالۍ کارتونو سره د تادیې اختیار وښودل شي. د دې اختیار په غوره کولو سره، ستاسو د ریچارج بیلانس مقدار به د امر مقدار څخه کم شي.",
+      add_action: "د کارت ثبت کول",
     },
-    "add_dialog": {
-      "title": "د نوي ادرس نوم",
-      "message": "د نوي ادرس لپاره سرلیک دننه کړئ.",
-      "address_name_input": "پته (اړین)"
-    }
   },
-  "return_requests": {
-    "title": "بیرته غوښتنې"
-  },
-  "user_favorites": {
-    "title": "د خوښې لیست"
-  },
-  "user_comments": {
-    "title": "زما نظرونه",
-    "first_post": "لومړی پوسټ",
-    "last_edit": "وروستی تدوین"
-  },
-  "user_gift_cards": {
-    "title": "زما د ډالۍ کارتونه",
-    "add_action": "کارت اضافه کړئ",
-    "add_card_dialog": {
-      "title": "د ډالۍ کارت اضافه کړئ",
-      "message": "د کارت شمیره او امنیتي کوډ دننه کړئ. یو ډالۍ کارت به ستاسو حساب ته اضافه شي.",
-      "card_number_input": "د کارت نمره",
-      "info": "یادونه: کله چې له پلورنځي څخه پیرود کوئ ، تاسو ته به د ډالۍ کارتونو سره د تادیې اختیار وښودل شي. د دې اختیار په غوره کولو سره، ستاسو د ریچارج بیلانس مقدار به د امر مقدار څخه کم شي.",
-      "add_action": "د کارت ثبت کول"
-    }
-  },
-  "product_comparison": {
-    "title": "محصول پرتله کړئ",
-    "action_button": "پرتله کول",
-    "list": {
-      "no_data": "د پرتله کولو لیست کې هیڅ محصول ندی اضافه شوی.",
-      "price": "قیمت",
-      "type": "ډول",
-      "brand": "برانډ",
-      "warranty": "تضمین",
-      "variants_comparison": "د محصول ډولونه پرتله کړئ",
-      "spec": "تخنیکي مشخصات",
-      "pros": "پرو",
-      "cons": "Cons",
-      "user_review": "د کارونکي نظرونه",
-      "rating": "درجه بندي",
-      "rating_count": "د بیاکتنې شمیر",
-      "info": "تاسو کولی شئ د دې محصول پرتله کولو جدول د لاندې لینک په لیږلو له خپلو ملګرو سره شریک کړئ ، یا د دې لینک خوندي کولو سره وروسته ورته لاسرسی ومومئ.",
-      "copy_action": "د پرتله کولو لینک کاپي کړئ",
-      "check_list": [
-        "هو",
-        "لري"
-      ],
-      "cross_list": [
-        "نه",
-        "نه لري"
-      ]
-    }
-  },
-  "product_filter_menu": {
-    "only_original": "یوازې اصلي",
-    "only_has_discount": "یوازې تخفیف",
-    "price_range": "د قیمت سلسله",
-    "brands": "برانډ",
-    "main_shop_page": "اصلي پاڼه ذخیره کړئ",
-    "home": "کور"
-  },
-  "product_rating_view": {
-    "message": "ګرانه {user}، تاسو دا محصول اخیستی دی. تاسو د دې محصول په اړه څه فکر کوئ؟",
-    "notification": {
-      "title": "مبارکي",
-      "message": "ستاسو نظر ثبت شوی دی."
-    }
-  },
-  "blogs": {
-    "title": "بلاګ",
-    "add_new_blog": "نوی بلاګ",
-    "popular": "مشهور",
-    "topics": "موضوعات",
-    "suggestions": "وړاندیزونه"
-  },
-  "official_pages": {
-    "about_us": "زموږ په اړه",
-    "terms": "د کارولو شرایط",
-    "privacy": "د پټتیا تګلاره",
-    "contact_us": "موږ سره اړیکه ونیسئ"
-  },
-  "contact_us_form": {
-    "title": "موږ سره اړیکه ونیسئ فورمه",
-    "name": "نوم",
-    "email": "ایمیل",
-    "phone": "تلیفون",
-    "message": "پیغام",
-    "notifications": {
-      "success": "ستاسو پیغام لیږل شوی."
+
+  /** {@see SComparisonButton} **/
+  product_comparison: {
+    title: "محصول پرتله کړئ",
+    action_button: "پرتله کول",
+
+    /** {@see SComparisonList} **/
+    list: {
+      no_data: "د پرتله کولو لیست کې هیڅ محصول ندی اضافه شوی.",
+      price: "قیمت",
+      type: "ډول",
+      brand: "برانډ",
+      warranty: "تضمین",
+      variants_comparison: "د محصول ډولونه پرتله کړئ",
+      spec: "تخنیکي مشخصات",
+      pros: "پرو",
+      cons: "زیانونه",
+      user_review: "د کارونکي نظرونه",
+      rating: "درجه بندي",
+      rating_count: "د بیاکتنې شمیر",
+      info: "تاسو کولی شئ د دې محصول پرتله کولو جدول د لاندې لینک په لیږلو له خپلو ملګرو سره شریک کړئ ، یا د دې لینک خوندي کولو سره وروسته ورته لاسرسی ومومئ.",
+      copy_action: "د پرتله کولو لینک کاپي کړئ",
+      check_list: ["هو", "لري"],
+      cross_list: ["نه", "نه لري"],
     },
-    "submitted_title": "موږ ته د رسیدو لپاره مننه!",
-    "submitted_message": "موږ له موږ سره په اړیکه کې ستاسو د وخت ستاینه کوو. ستاسو پیغام ترلاسه شوی او زموږ ټیم اوس د هغې بیاکتنه کوي. موږ به ژر تر ژره ځواب ووایو، او موږ پدې وخت کې ستاسو د صبر لپاره مننه کوو. ستاسو علاقه او فیډبیک زموږ لپاره مهم دی، او موږ ژمن یو چې تاسو ته تر ټولو غوره ملاتړ چمتو کړو."
   },
-  "master_payment": {
-    "notifications": {
-      "payment_success_title": "د تادیې تصدیق",
-      "payment_success": "تادیه بشپړه شوه.",
-      "buy_title": "پېرود",
-      "pay_by_giftcards": "ستاسو امر د ډالۍ کارت سره تادیه شوی.",
-      "free_order": "ستاسو امر وړیا دی.",
-      "pay_by_cod": "ستاسو امر د تحویلي نغدي په توګه اضافه شوی.",
-      "pay_by_dir": "ستاسو امر په بریالیتوب سره اضافه شوی. اوس تاسو کولی شئ د مستقیم پیسو لیږد له لارې تادیه وکړئ او بیا د تادیې رسید د فرمایش په پاڼه کې اپلوډ کړئ.",
-      "pay_title": "تادیه",
-      "qr_code_payment": "د تادیې QR کوډ پته جوړه شوه.",
-      "connecting_to_online_gateway": "د آنلاین تادیې دروازې سره نښلول."
-    }
+  /** {@see SCategoryFilter} **/
+  product_filter_menu: {
+    only_original: "یوازې اصلي",
+    only_has_discount: "یوازې تخفیف",
+    price_range: "د قیمت سلسله",
+    brands: "برانډ",
+    main_shop_page: "اصلي پاڼه ذخیره کړئ",
+    home: "کور",
   },
-  "time_progress_bar": {
-    "title_before_start": "پیل ته پاتې شو",
-    "title_between_start_end": "تر پایه پاتې شو",
-    "title_after_end": "ختم شو",
-    "title_no_start_end": "د وخت مودې پرته!"
-  },
-  "lottery_prizes": {
-    "message": "تاسو کولی شئ په هر امر یوه ډالۍ ترلاسه کړئ."
-  },
-  "coupons": {
-    "coupon_code": "د کوپن کوډ",
-    "add_coupon": "کوپن اضافه کړئ"
-  },
-  "avocado": {
-    "not_enable": "د ایوکاډو فارم فعال ندی!",
-    "last_update": "وروستی تازه:",
-    "step1": "1. د هغه محصول نوم او توضیحات دننه کړئ چې تاسو غواړئ امر وکړئ او د Add تڼۍ کلیک وکړئ.",
-    "title_plc": "د محصول نوم دننه کړئ.",
-    "description_plc": "ایا تاسو د محصول نور توضیحات لرئ؟",
-    "link_plc": "ایا تاسو د محصول لپاره لینک لرئ؟",
-    "image": "د محصول انځور",
-    "image_msg": "تاسو کولی شئ د اړتیا په صورت کې د محصول عکس واستوئ.",
-    "add_item": "توکي اضافه کړئ",
-    "items_list": "د غوښتل شوي محصولاتو لیست",
-    "currency_msg": "تاسو باید د دې پیسو سره د دې امر مقدار تادیه کړئ.",
-    "step2": "2. وروسته له دې چې ټول مطلوب توکي اضافه کړئ، د امر بیاکتنې غوښتنې تڼۍ باندې کلیک وکړئ. پدې مرحله کې، موږ به امر بیاکتنه وکړو او تاسو ته به د قیمت په اړه خبر درکړو. د دې لینک په کلیک کولو سره، تاسو به وکولی شئ د قیمت او تادیې لینک وګورئ.",
-    "order_action": "د ثبت امر",
-    "show_all": "ټول ښکاره کړه",
-    "show_accepted": "تایید شوي توکي وښایاست",
-    "last_orders": "ستاسو د وروستي امرونو لیست",
-    "pending_status": "د بیاکتنې لاندې",
-    "check_now": "امر چک کړئ",
-    "add_new_order": "نوی امر وکړئ",
-    "pay_online": "آنلاین پیسې ورکړئ",
-    "pricing_not_completed_message": "ستاسو امر بیاکتنه کیږي. ستاسو امر به ډیر ژر وڅیړل شي او قیمت به یې وڅیړل شي او تاسو به وکولی شئ امر تادیه کړئ.",
-    "delete_item_dialog": {
-      "title": "د پیرود کارټ څخه توکي لرې کړئ",
-      "message": "ایا تاسو غواړئ دا توکي له کارټ څخه حذف کړئ؟",
-      "action": "هو، حذف کړئ"
+
+  /** {@see SShopProductRatingView} **/
+  product_rating_view: {
+    message:
+      "ګرانه {user}، تاسو دا محصول اخیستی دی. تاسو د دې محصول په اړه څه فکر کوئ؟",
+    notification: {
+      title: "مبارکي",
+      message: "ستاسو نظر ثبت شوی دی.",
     },
-    "notifications": {
-      "order_success": "ستاسو امر په بریالیتوب سره کیښودل شو.",
-      "delete_success": "توکي ړنګ کړل."
+  },
+
+  /** @see StorefrontPageBlogsList **/
+  blogs: {
+    title: "بلاګ",
+    add_new_blog: "نوی بلاګ",
+    popular: "مشهور",
+    topics: "موضوعات",
+    suggestions: "وړاندیزونه",
+  },
+
+  /** @see StorefrontPageOfficial **/
+  official_pages: {
+    about_us: "زموږ په اړه",
+    terms: "د کارولو شرایط",
+    privacy: "د پټتیا تګلاره",
+    contact_us: "موږ سره اړیکه ونیسئ",
+  },
+
+  /** @see StorefrontContactUsPage **/
+  contact_us_form: {
+    title: "موږ سره اړیکه ونیسئ فورمه",
+    name: "نوم",
+    email: "ایمیل",
+    phone: "تلیفون",
+    message: "پیغام",
+    notifications: {
+      success: "ستاسو پیغام لیږل شوی.",
     },
-    "select_address_message": "مهرباني وکړئ خپل پته ولیکئ، او بیا تاسو امر کولی شئ."
+    submitted_title: "موږ ته د رسیدو لپاره مننه!",
+    submitted_message:
+      "موږ له موږ سره په اړیکه کې ستاسو د وخت ستاینه کوو. ستاسو پیغام ترلاسه شوی او زموږ ټیم اوس د هغې بیاکتنه کوي. موږ به ژر تر ژره ځواب ووایو، او موږ پدې وخت کې ستاسو د صبر لپاره مننه کوو. ستاسو علاقه او فیډبیک زموږ لپاره مهم دی، او موږ ژمن یو چې تاسو ته تر ټولو غوره ملاتړ چمتو کړو.",
   },
-  "hyper": {
-    "title": "د امر جوړول",
-    "message": "د محصول کوډ سکین کولو سره د محصولاتو لیست جوړ کړئ چې تاسو یې غواړئ وپیرئ.",
-    "currency_msg": "هغه اسعار چې تاسو یې غواړئ پیسې ورکړئ.",
-    "order_action": "تادیه",
-    "add_new_order": "نوی امر",
-    "continue_order": "امر ته دوام ورکړئ",
-    "delete_item_dialog": {
-      "title": "د پیرود کارټ څخه توکي لرې کړئ",
-      "message": "ایا تاسو غواړئ دا توکي له کارټ څخه حذف کړئ؟",
-      "action": "هو، حذف کړئ"
+
+  /** @see SStorefrontMasterPaymentDialog **/
+  master_payment: {
+    notifications: {
+      payment_success_title: "د تادیې تصدیق",
+      payment_success: "تادیه بشپړه شوه.",
+      buy_title: "پېرود",
+      pay_by_giftcards: "ستاسو امر د ډالۍ کارت سره تادیه شوی.",
+      free_order: "ستاسو امر وړیا دی.",
+      pay_by_cod: "ستاسو امر د تحویلي نغدي په توګه اضافه شوی.",
+      pay_by_dir:
+        "ستاسو امر په بریالیتوب سره اضافه شوی. اوس تاسو کولی شئ د مستقیم پیسو لیږد له لارې تادیه وکړئ او بیا د تادیې رسید د فرمایش په پاڼه کې اپلوډ کړئ.",
+      pay_title: "تادیه",
+      qr_code_payment: "د تادیې QR کوډ پته جوړه شوه.",
+      connecting_to_online_gateway: "د آنلاین تادیې دروازې سره نښلول.",
     },
-    "notifications": {
-      "order_success": "ستاسو امر په بریالیتوب سره کیښودل شو.",
-      "delete_success": "توکي ړنګ کړل."
-    }
   },
-  "pending_payment": {
-    "upload_payment_receipt": "د تادیې رسید عکس پورته کړئ.",
-    "upload_payment_receipt_done": "✔ تاسو دمخه د رسید عکس اپلوډ کړی ، زموږ تصویب ته انتظار وکړئ. که تاسو بدلون ته اړتیا لرئ، تاسو کولی شئ پخوانی عکس د نوي سره بدل کړئ.",
-    "public_form_title": "د پیسو لیږد لپاره د حساب معلومات"
+
+  /** {@see TimeProgressBar} **/
+  time_progress_bar: {
+    title_before_start: "پیل ته پاتې شو",
+    title_between_start_end: "تر پایه پاتې شو",
+    title_after_end: "ختم شو",
+    title_no_start_end: "د وخت مودې پرته!",
   },
-  "service_bill": {
-    "task": {
-      "title": "د کړنو لړ",
-      "message": "د هغه کار سرلیکونه مشخص کړئ چې تاسو یې کول غواړئ او پیرودونکي ته خبر ورکړئ چې دا څومره پرمختګ کړی."
+  /** {@see SStorefrontLotteryPrizesList} **/
+  lottery_prizes: {
+    message: "تاسو کولی شئ په هر امر یوه ډالۍ ترلاسه کړئ.",
+  },
+
+  /** {@see SStorefrontCouponsList} **/
+  coupons: {
+    coupon_code: "د کوپن کوډ",
+    add_coupon: "کوپن اضافه کړئ",
+  },
+
+  /** {@see SStorefrontAvocadoCustomerOrderForm} **/
+  /** {@see SShopAvocadoCustomerOrderItems} **/
+  /** {@see SStorefrontAvocadoCustomerOrderList} **/
+  /** {@see StorefrontPageAvocado} **/
+  /** {@see StorefrontPageAvocadoCart} **/
+
+  avocado: {
+    not_enable: "د ایوکاډو فارم فعال ندی!",
+    last_update: "وروستی تازه:",
+    step1:
+      "1. د هغه محصول نوم او توضیحات دننه کړئ چې تاسو یې امر کول غواړئ او د زیاتولو تڼۍ کلیک کړئ.",
+    title_plc: "د محصول نوم دننه کړئ.",
+    description_plc: "ایا تاسو د محصول نور توضیحات لرئ؟",
+    link_plc: "ایا تاسو د محصول لپاره لینک لرئ؟",
+    image: "د محصول انځور",
+    image_msg: "تاسو کولی شئ د اړتیا په صورت کې د محصول عکس واستوئ.",
+    add_item: "توکي اضافه کړئ",
+    items_list: "د غوښتل شوي محصولاتو لیست",
+    currency_msg: "تاسو باید د دې پیسو سره د دې امر مقدار تادیه کړئ.",
+    step2:
+      "2. وروسته له دې چې ټول مطلوب توکي اضافه کړئ، د امر بیاکتنې غوښتنې تڼۍ باندې کلیک وکړئ. پدې مرحله کې، موږ به امر بیاکتنه وکړو او تاسو ته به د قیمت په اړه خبر درکړو. د دې لینک په کلیک کولو سره، تاسو به وکولی شئ د قیمت او تادیې لینک وګورئ.",
+    order_action: "د ثبت امر",
+    show_all: "ټول ښکاره کړه",
+    show_accepted: "تایید شوي توکي وښایاست",
+    last_orders: "ستاسو د وروستي امرونو لیست",
+    pending_status: "د بیاکتنې لاندې",
+    check_now: "امر چک کړئ",
+    add_new_order: "نوی امر وکړئ",
+    pay_online: "آنلاین پیسې ورکړئ",
+    pricing_not_completed_message:
+      "ستاسو امر بیاکتنه کیږي. ستاسو امر به ډیر ژر وڅیړل شي او قیمت به یې وڅیړل شي او تاسو به وکولی شئ امر تادیه کړئ.",
+
+    select_address_message:
+      "مهرباني وکړئ خپل پته ولیکئ، او بیا تاسو امر کولی شئ.",
+
+    delete_item_dialog: {
+      title: "د پیرود کارټ څخه توکي لرې کړئ",
+      message: "ایا تاسو غواړئ دا توکي له کارټ څخه حذف کړئ؟",
+      action: "هو، حذف کړئ",
     },
-    "booking": {
-      "title": "بکنگ / ریزرویشن",
-      "message": "دا امر به په ټاکلي وخت کې پروسس کیږي، پیرودونکي مطلوب موده ټاکلې ده، که تاسو غواړئ په ټاکل شوې موده کې کوم بدلون راولي، پیرودونکي ته خبر ورکړئ.",
-      "selected_checkin": "د پیرودونکي لخوا ټاکل شوی چیک ان",
-      "selected_checkout": "د پیرودونکي لخوا ټاکل شوی چیک آوټ",
-      "change_days_question": "ایا تاسو اړتیا لرئ د پیرودونکي ټاکل شوي ورځو کې بدلون وکړئ؟",
-      "show_calendar": "د امرونو کیلنڈر ښکاره کړئ"
+
+    notifications: {
+      order_success: "ستاسو امر په بریالیتوب سره کیښودل شو.",
+      delete_success: "توکي ړنګ کړل.",
     },
-    "pricing": {
-      "title": "نرخونه",
-      "message": "تاسو د دې خدمت لپاره څومره پیسې اخلئ؟"
+  },
+
+  /** {@see SHyperCart} **/
+  hyper: {
+    title: "د امر جوړول",
+    message:
+      "د محصول کوډ سکین کولو سره د محصولاتو لیست جوړ کړئ چې تاسو یې غواړئ وپیرئ.",
+
+    currency_msg: "هغه اسعار چې تاسو یې غواړئ پیسې ورکړئ.",
+    order_action: "تادیه",
+    add_new_order: "نوی امر",
+    continue_order: "امر ته دوام ورکړئ",
+
+    delete_item_dialog: {
+      title: "د پیرود کارټ څخه توکي لرې کړئ",
+      message: "ایا تاسو غواړئ دا توکي له کارټ څخه حذف کړئ؟",
+      action: "هو، حذف کړئ",
     },
-    "subscription": {
-      "title": "ګډون",
-      "message": "تاسو کولی شئ هره ورځ د دې خدمت پیرودلو سره د ګډون موده وټاکئ. اجازه راکړئ پیرودونکي خبر کړئ که تاسو غواړئ هغه ډیفالټ ارزښتونه بدل کړئ چې تاسو دمخه داخل کړي دي.",
-      "duration": "د ګډون موده"
+    notifications: {
+      order_success: "ستاسو امر په بریالیتوب سره کیښودل شو.",
+      delete_success: "توکي ړنګ کړل.",
     },
-    "charge": {
-      "title": "چارج",
-      "message": "تاسو د دې توکي لپاره چارج ټاکلی دی. تاسو کولی شئ د پیرودونکي لخوا پیرود شوي توکي لپاره د چارج مقدار بدل کړئ.",
-      "charge": "چارج"
-    }
   },
-  "check_access": {
-    "waiting_message": "د لاسرسي چک کولو ته انتظار کول...",
-    "no_access_message": "له بده مرغه، تاسو زموږ پلورنځي ته لاسرسی نلرئ.<br/> مهرباني وکړئ موږ سره اړیکه ونیسئ."
+
+  /** {@see SShopRowCustomerPendingPayment} **/
+  pending_payment: {
+    upload_payment_receipt: "د تادیې رسید عکس پورته کړئ.",
+    upload_payment_receipt_done:
+      "✔ تاسو دمخه د رسید عکس اپلوډ کړی ، زموږ تصویب ته انتظار وکړئ. که تاسو بدلون ته اړتیا لرئ، تاسو کولی شئ پخوانی عکس د نوي سره بدل کړئ.",
+    public_form_title: "د پیسو لیږد لپاره د حساب معلومات",
   },
-  "share_order": {
-    "action": "امر شریک کړئ",
-    "title": "دا نظم له نورو سره شریک کړئ.",
-    "message": "دا یو خوندي لینک دی، یوازې د هغه چا سره یې شریک کړئ چې تاسو یې پیژنئ. هرڅوک چې د دې لینک سره کولی شي ستاسو امر نقل کړي او ټاکل شوی پته وګوري. دا به ستاسو د اوسني کارټ په اړه معلومات ولري.",
-    "valid_period": "دا لینک به د 48 ساعتونو وروسته پای ته ورسیږي.",
-    "import_order_action": "د واردولو امر",
-    "retrieve_dialog_title": "بهرنۍ امر ترلاسه کړئ",
-    "address_included": "د ټوکر توکي شریک کړئ + پته",
-    "address_excluded": "یوازې د ټوکر توکي شریک کړئ"
+
+  /** @see ServiceBillingItem **/
+  service_bill: {
+    task: {
+      title: "د کړنو لړ",
+      message: "د هغه کار سرلیکونه مشخص کړئ چې تاسو یې کول غواړئ او پیرودونکي ته خبر ورکړئ چې دا څومره پرمختګ کړی.",
+    },
+    booking: {
+      title: "بکنگ / ریزرویشن",
+      message: "دا امر به په ټاکلي وخت کې پروسس کیږي، پیرودونکي مطلوب موده ټاکلې ده، که تاسو غواړئ په ټاکل شوې موده کې کوم بدلون راولي، پیرودونکي ته خبر ورکړئ.",
+
+      selected_checkin: "د پیرودونکي لخوا ټاکل شوی چیک ان",
+      selected_checkout: "د پیرودونکي لخوا ټاکل شوی چیک آوټ",
+      change_days_question:
+        "ایا تاسو اړتیا لرئ د پیرودونکي ټاکل شوي ورځو کې بدلون وکړئ؟",
+      show_calendar: "د امرونو کیلنڈر ښکاره کړئ",
+    },
+    pricing: {
+      title: "نرخونه",
+      message: "تاسو د دې خدمت لپاره څومره پیسې اخلئ؟",
+    },
+    subscription: {
+      title: "ګډون",
+      message:
+        "تاسو کولی شئ هره ورځ د دې خدمت پیرودلو سره د ګډون موده وټاکئ. اجازه راکړئ پیرودونکي خبر کړئ که تاسو غواړئ هغه ډیفالټ ارزښتونه بدل کړئ چې تاسو دمخه داخل کړي دي.",
+      duration: "د ګډون موده",
+    },
+    charge: {
+      title: "چارج",
+      message:
+        "تاسو د دې توکي لپاره چارج ټاکلی دی. تاسو کولی شئ د پیرودونکي لخوا پیرود شوي توکي لپاره د چارج مقدار بدل کړئ.",
+      charge: "چارج",
+    },
   },
-  "variants_view": {
-    "prices": "قیمتونه",
-    "inventory": "انوینٹری",
-    "discount": "تخفیف"
+
+  /** @see SAccessPrivateCheck **/
+  check_access: {
+    waiting_message: "د لاسرسي چک کولو ته انتظار کول...",
+    no_access_message:
+      "له بده مرغه، تاسو زموږ پلورنځي ته لاسرسی نلرئ.<br/> مهرباني وکړئ موږ سره اړیکه ونیسئ.",
   },
-  "rating": {
-    "product_rating_message": "دې محصول له 5 ستورو څخه {rate} درجه ترلاسه کړې او د {rate_count} خلکو لخوا درجه بندي شوې."
+
+  /** @see SShopShareOrderButton **/
+  share_order: {
+    action: "امر شریک کړئ",
+    title: "دا نظم له نورو سره شریک کړئ.",
+    message:
+      "دا یو خوندي لینک دی، یوازې د هغه چا سره یې شریک کړئ چې تاسو یې پیژنئ. هرڅوک چې د دې لینک سره کولی شي ستاسو امر نقل کړي او ټاکل شوی پته وګوري. دا به ستاسو د اوسني کارټ په اړه معلومات ولري.",
+    valid_period: "دا لینک به د 48 ساعتونو وروسته پای ته ورسیږي.",
+    import_order_action: "د واردولو امر",
+    retrieve_dialog_title: "بهرنۍ امر ترلاسه کړئ",
+    address_included: "د ټوکر توکي شریک کړئ + پته",
+    address_excluded: "یوازې د ټوکر توکي شریک کړئ",
   },
-  "related_products": {
-    "card": {
-      "title": "سپړنه!",
-      "same_tags_subtitle": "نور د پام وړ اړوند توکي ومومئ.",
-      "same_category_subtitle": "په دې کټګورۍ کې نور د پام وړ توکي ومومئ."
-    }
-  }
+
+  /** {@see ProductVariantsView} **/
+  variants_view: {
+    prices: "قیمتونه",
+    inventory: "انوینٹری",
+    discount: "تخفیف",
+  },
+
+  rating: {
+    product_rating_message:
+      "دې محصول له 5 ستورو څخه {rate} درجه ترلاسه کړې او د {rate_count} خلکو لخوا درجه بندي شوې.",
+  },
+
+  /** {@see SProductRelatedProducts} **/
+  related_products: {
+    card: {
+      title: "سپړنه!",
+      same_tags_subtitle: "نور د پام وړ اړوند توکي ومومئ.",
+      same_category_subtitle: "په دې کټګورۍ کې نور د پام وړ توکي ومومئ.",
+    },
+  },
+
+  /** {@see SProductCrossSells} **/
+  cross_selling: {
+    title: "{product} له دې سره امر کړئ",
+  },
+
+  /** {@see SSmartSelectVendor} **/
+  select_vendor: {
+    item_title: "د {vendor} پلورنځی وګورئ",
+  },
+
+  login: {
+    welcome: "ښه راغلاست",
+  },
+
+
 };

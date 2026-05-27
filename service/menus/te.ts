@@ -1,60 +1,82 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "menu": {
-    "home": "హోమ్",
-    "dashboard": "డాష్బోర్డ్",
-    "login": "ప్రవేశించండి",
-    "help": "సహాయం",
-    "blog": "బ్లాగ్",
-    "price_list": "ధర నిర్ణయించడం",
-    "apps": "యాప్‌లు",
-    "experts": "నిపుణులు",
-    "demo": "అమ్మకందారులు",
-    "partnership": "భాగస్వామ్యం",
-    "partner": {
-      "title": "భాగస్వామి ప్యానెల్ ● వైట్‌లేబుల్ SaaS",
-      "subtitle": "వైట్-లేబులింగ్‌తో కూడిన ఇకామర్స్ ప్లాట్‌ఫారమ్ ధృవీకరించబడిన ఏజెన్సీలకు సరైనది."
+  menu: {
+    home: "ముఖపుట",
+    dashboard: "నియంత్రణ ప్యానెల్",
+    login: "ప్రవేశించండి",
+    help: "సహాయం",
+    blog: "బ్లాగ్",
+    price_list: "ధరలు",
+    apps: "యాప్‌లు",
+    experts: "నిపుణులు",
+    demo: "Selldone వినియోగదారులు",
+    partnership: "భాగస్వామ్యం",
+    partner: {
+      title: "భాగస్వామి ప్యానెల్ ● మీ బ్రాండ్‌తో SaaS",
+      subtitle:
+        "మీ స్వంత బ్రాండ్‌తో అందించే ఈ-కామర్స్ వేదిక ధృవీకరించబడిన ఏజెన్సీలకు చాలా అనుకూలం.",
     },
-    "affiliate": {
-      "title": "అనుబంధ ప్రోగ్రామ్ ● జీవితకాలం",
-      "subtitle": "ఎవరైనా ఈ ప్రోగ్రామ్‌లో నమోదు చేసుకోవచ్చు మరియు జీవితకాలం పాటు సభ్యత్వం మరియు లావాదేవీల రుసుము నుండి సంపాదించవచ్చు."
-    }
+
+    affiliate: {
+      title: "అఫిలియేట్ కార్యక్రమం ● జీవితకాలం",
+      subtitle:
+        "ఎవరైనా ఈ కార్యక్రమంలో చేరి, సభ్యత్వ మరియు లావాదేవీ రుసుముల ద్వారా జీవితకాల ఆదాయం పొందవచ్చు.",
+    },
   },
-  "home_menu": {
-    "buttons_header": "సెల్‌డోన్‌లోకి లోతుగా డైవ్ చేయండి",
-    "beta": "బీటా",
-    "home": "హోమ్",
-    "why_selldone": "ఎందుకు సెల్డన్?",
-    "ecommerce": "ఇకామర్స్<br> బిల్డర్",
-    "automation": "ఆటోమేషన్ & IoT",
-    "ai": "AI",
-    "app_builder": "యాప్ బిల్డర్",
-    "seo": "ఆటో SEO<br> ఇంజిన్",
-    "marketing": "మార్కెటింగ్ &<br> ప్రచారం",
-    "report": "స్మార్ట్ రిపోర్ట్<br> జనరేటర్",
-    "domain": "క్లౌడ్ ఆధారిత హోస్టింగ్",
-    "accounting": "చెల్లింపు &<br> అకౌంటింగ్",
-    "logistics": "లాజిస్టిక్స్ &<br> షిప్పింగ్",
-    "page_builder": "తెరవబడు పుట<br> బిల్డర్",
-    "incentives": "క్లబ్ &<br> ప్రోత్సాహకాలు",
-    "orders": "ఆదేశాలు &<br> ప్రాసెసింగ్",
-    "staff": "వినియోగదారులు &<br> జట్టు",
-    "community": "అనుకూల సంఘం",
-    "pos": "ఆన్‌లైన్ POS",
-    "group_build": {
-      "header": "నిర్మించు",
-      "subheader": "మీ విజయ గాథను రూపొందించడానికి మేము మీ చుట్టూ ఒక వ్యవస్థను నిర్మిస్తాము."
+
+  /** @see OLayout **/
+  home_menu: {
+    buttons_header: "Selldone‌ను లోతుగా తెలుసుకోండి",
+    beta: "బీటా",
+    home: "ముఖపుట",
+    why_selldone: "ఎందుకు Selldone?",
+    ecommerce: "ఆన్‌లైన్ వాణిజ్య <br>నిర్మాణి",
+    automation: "ఆటోమేషన్ మరియు IoT",
+    ai: "కృత్రిమ మేధస్సు",
+    app_builder: "యాప్ నిర్మాణి",
+    seo: "స్వయంచాలక SEO <br>ఇంజిన్",
+    marketing: "విపణనం మరియు <br>ప్రచారం",
+    report: "తెలివైన నివేదిక <br>సృష్టికర్త",
+    domain: "క్లౌడ్ ఆధారిత హోస్టింగ్",
+    accounting: "చెల్లింపులు మరియు <br>ఖాతాల నిర్వహణ",
+    logistics: "లాజిస్టిక్స్ మరియు <br>రవాణా",
+    page_builder: "ల్యాండింగ్ పేజీ <br>నిర్మాణి",
+    incentives: "క్లబ్ మరియు <br>ప్రోత్సాహకాలు",
+    orders: "ఆర్డర్లు మరియు <br>ప్రాసెసింగ్",
+    staff: "వినియోగదారులు మరియు <br>బృందం",
+
+    community: "అనుకూల సమాజం",
+    pos: "ఇంటర్నెట్ POS",
+
+    group_build: {
+      header: "నిర్మాణం",
+      subheader: "మీ విజయ గాథను సృష్టించేందుకు మేము మీ చుట్టూ ఒక వ్యవస్థను నిర్మిస్తాము.",
     },
-    "group_manage": {
-      "header": "నిర్వహించడానికి",
-      "subheader": "మీ వ్యాపారాన్ని నిర్వహించడం గతంలో కంటే మరింత ఆనందదాయకంగా ఉంటుంది."
+    group_manage: {
+      header: "నిర్వహణ",
+      subheader: "మీ వ్యాపారాన్ని నిర్వహించడం ఇంతకుముందెన్నడూ లేనంత ఆనందదాయకం అవుతుంది.",
     },
-    "group_sell": {
-      "header": "అమ్మండి",
-      "subheader": "ఎల్లప్పుడూ మూసివేయండి, డబ్బు సంపాదించండి మరియు ఆనందించండి."
+    group_sell: {
+      header: "విక్రయం",
+      subheader: "ఎల్లప్పుడూ ఒప్పందాలను ముగించండి, ఆదాయం సంపాదించండి, దాన్ని ఆస్వాదించండి.",
     },
-    "group_grow": {
-      "header": "పెరుగు",
-      "subheader": "మీ చేతిలో ఉన్న ఎంటర్‌ప్రైజ్-గ్రేడ్ ఫీచర్‌లు మరియు సాధనాలు, ఆకాశమే మీ పరిమితి."
-    }
-  }
+    group_grow: {
+      header: "వృద్ధి",
+      subheader:
+        "ఎంటర్‌ప్రైజ్ స్థాయి ఫీచర్లు మరియు సాధనాలు మీ చేతిలోనే ఉన్నాయి; ఆకాశమే మీ హద్దు.",
+    },
+  },
 };

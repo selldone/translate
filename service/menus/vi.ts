@@ -1,60 +1,82 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "menu": {
-    "home": "Nhà",
-    "dashboard": "bảng điều khiển",
-    "login": "đăng nhập",
-    "help": "Giúp đỡ",
-    "blog": "Blog",
-    "price_list": "Định giá",
-    "apps": "Ứng dụng",
-    "experts": "Các chuyên gia",
-    "demo": "Người bán",
-    "partnership": "quan hệ đối tác",
-    "partner": {
-      "title": "Bảng đối tác ● Nhãn trắng SaaS",
-      "subtitle": "Nền tảng thương mại điện tử có nhãn trắng là nền tảng hoàn hảo cho các đại lý đã được xác minh."
+  menu: {
+    home: "Trang chủ",
+    dashboard: "Bảng điều khiển",
+    login: "Đăng nhập",
+    help: "Trợ giúp",
+    blog: "Blog",
+    price_list: "Bảng giá",
+    apps: "Ứng dụng",
+    experts: "Chuyên gia",
+    demo: "Người dùng Selldone",
+    partnership: "Hợp tác",
+    partner: {
+      title: "Bảng điều khiển đối tác ● SaaS nhãn trắng",
+      subtitle:
+        "Nền tảng thương mại điện tử nhãn trắng rất phù hợp cho các đại lý đã được xác minh.",
     },
-    "affiliate": {
-      "title": "Chương trình liên kết ● Trọn đời",
-      "subtitle": "Bất kỳ ai cũng có thể đăng ký tham gia chương trình này và kiếm tiền từ phí đăng ký và phí giao dịch suốt đời."
-    }
+
+    affiliate: {
+      title: "Chương trình liên kết ● trọn đời",
+      subtitle:
+        "Bất kỳ ai cũng có thể tham gia chương trình này và kiếm thu nhập trọn đời từ phí đăng ký và phí giao dịch.",
+    },
   },
-  "home_menu": {
-    "buttons_header": "Đi sâu vào Selldone",
-    "beta": "Beta",
-    "home": "Nhà",
-    "why_selldone": "Tại sao lại là Selldone?",
-    "ecommerce": "Thương mại điện tử<br> Người xây dựng",
-    "automation": "Tự động hóa & IoT",
-    "ai": "AI",
-    "app_builder": "Trình tạo ứng dụng",
-    "seo": "SEO tự động<br> Động cơ",
-    "marketing": "Tiếp thị &<br> Chiến dịch",
-    "report": "Báo cáo thông minh<br> Máy phát điện",
-    "domain": "Lưu trữ dựa trên đám mây",
-    "accounting": "Sự chi trả &<br> Kế toán",
-    "logistics": "Logistics &<br> Đang chuyển hàng",
-    "page_builder": "Trang đích<br> Người xây dựng",
-    "incentives": "Câu lạc bộ &<br> Ưu đãi",
-    "orders": "Đơn hàng &<br> Xử lý",
-    "staff": "Khách hàng &<br> Đội",
-    "community": "Cộng đồng tùy chỉnh",
-    "pos": "POS trực tuyến",
-    "group_build": {
-      "header": "Xây dựng",
-      "subheader": "Chúng tôi xây dựng một hệ thống xung quanh bạn để tạo ra câu chuyện thành công của bạn."
+
+  /** @see OLayout **/
+  home_menu: {
+    buttons_header: "Khám phá sâu hơn về Selldone",
+    beta: "Bản thử nghiệm",
+    home: "Trang chủ",
+    why_selldone: "Vì sao chọn Selldone?",
+    ecommerce: "Trình tạo <br>thương mại điện tử",
+    automation: "Tự động hóa và IoT",
+    ai: "Trí tuệ nhân tạo",
+    app_builder: "Trình tạo ứng dụng",
+    seo: "Công cụ SEO <br>tự động",
+    marketing: "Tiếp thị và <br>chiến dịch",
+    report: "Trình tạo báo cáo <br>thông minh",
+    domain: "Lưu trữ trên nền tảng đám mây",
+    accounting: "Thanh toán và <br>kế toán",
+    logistics: "Hậu cần và <br>vận chuyển",
+    page_builder: "Trình tạo trang <br>đích",
+    incentives: "Câu lạc bộ và <br>ưu đãi",
+    orders: "Đơn hàng và <br>xử lý",
+    staff: "Khách hàng và <br>đội ngũ",
+
+    community: "Cộng đồng tùy chỉnh",
+    pos: "POS trực tuyến",
+
+    group_build: {
+      header: "Xây dựng",
+      subheader: "Chúng tôi xây dựng một hệ thống xoay quanh bạn để tạo nên câu chuyện thành công của bạn.",
     },
-    "group_manage": {
-      "header": "Quản lý",
-      "subheader": "Việc quản lý công việc kinh doanh của bạn sẽ trở nên thú vị hơn bao giờ hết."
+    group_manage: {
+      header: "Quản lý",
+      subheader: "Việc quản lý doanh nghiệp của bạn sẽ trở nên thú vị hơn bao giờ hết.",
     },
-    "group_sell": {
-      "header": "Bán",
-      "subheader": "Luôn đóng cửa, kiếm tiền và tận hưởng nó."
+    group_sell: {
+      header: "Bán hàng",
+      subheader: "Luôn chốt đơn, kiếm tiền và tận hưởng điều đó.",
     },
-    "group_grow": {
-      "header": "Lớn lên",
-      "subheader": "Các tính năng và công cụ cấp doanh nghiệp trong tầm tay bạn, bầu trời sẽ là giới hạn của bạn."
-    }
-  }
+    group_grow: {
+      header: "Phát triển",
+      subheader:
+        "Tính năng và công cụ cấp doanh nghiệp luôn trong tay bạn; bầu trời là giới hạn của bạn.",
+    },
+  },
 };

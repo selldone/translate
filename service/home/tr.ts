@@ -1,17 +1,29 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
   local_service: "{country_name} için Yerel Hizmet",
   local_service_message:
-      "Bu hizmet, yalnızca <u>{country_name}</u> içinde yaşayan ve hizmetlerini ve ürünlerini bu ülkede satan kullanıcılar için tasarlanmıştır." +
-      "Sadece yerel hizmetleri veya Selldone'un uluslararası hizmetini kullanabilirsiniz." +
-      "Bu hizmeti kullanmak için, <b>{country_name}</b> ve <b>Avrupa Birliği</b> yasalarına uymanız gerekmektedir.",
+    "Bu hizmet, yalnızca <u>{country_name}</u> içinde yaşayan ve hizmetlerini ve ürünlerini bu ülkede satan kullanıcılar için tasarlanmıştır.Sadece yerel hizmetleri veya Selldone'un uluslararası hizmetini kullanabilirsiniz.Bu hizmeti kullanmak için, <b>{country_name}</b> ve <b>Avrupa Birliği</b> yasalarına uymanız gerekmektedir.",
 
   my_shops: "Mağazalarım",
   select_language_dialog_title: "İşinizi en sevdiğiniz dilde yapın",
 
   welcome_title: "Günlük Birçok Kararınızı Tek Bir Karara İndirgerin",
   welcome_subtitle:
-      "İşletmenizi profesyoneller gibi inşa edin, yönetin ve ölçeklendirin. Milyonlarca siparişi yönetmek ve iş akışınızı otomatikleştirmek için kurumsal düzeyde ve kodsuz iş işletim sistemi ile.",
-  //"Milyonlarca sipariş için kodsuz ve uzman gerektirmeyen bir çözümle çevrimiçi mağazanızı oluşturun.",
+    "İşletmenizi profesyoneller gibi inşa edin, yönetin ve ölçeklendirin. Milyonlarca siparişi yönetmek ve iş akışınızı otomatikleştirmek için kurumsal düzeyde ve kodsuz iş işletim sistemi ile.",
+  //"Make your online store by no-code & no-expert needed solution for millions of orders.",
 
   moto: "Siz deniyorsunuz, biz kapıları açıyoruz!",
   start_now_btn: "Şimdi Başlayın — Ücretsiz",
@@ -32,20 +44,20 @@ export default {
   s1: {
     /* title: "Make Your Online Store By<br>No—Code & No—Expert Needed Solution",
                                  title_animated_words: [
-                                   "Girişimciler",
-                                   "Sanatçılar",
-                                   "Bağımsız İşletmeler",
-                                   "Markalar",
-                                   "Perakendeciler",
-                                   "Yaratıcılar",
+                                   "Entrepreneurs",
+                                   "Artists",
+                                   "Independent Businesses",
+                                   "Brands",
+                                   "Retails",
+                                   "Creators",
                                  ],*/
 
     subtitle:
-        "<b>İşletme sahipleri</b> ve <b>satıcılar</b> için, müşterilerine benzersiz, hızlı, güvenli ve güvenilir bir deneyim sunmak isteyenler için, bu araç hızlı bir e-ticaret mağazası oluşturmanıza, mağaza içi yönetimi sorunsuz hale getirmenize ve etrafında kendi topluluğunuzu oluşturmanıza yardımcı olur. <b>White-label kurumsal düzeyde</b> iş işletim sistemi üzerinde.",
+      "<b>İşletme sahipleri</b> ve <b>satıcılar</b> için, müşterilerine benzersiz, hızlı, güvenli ve güvenilir bir deneyim sunmak isteyenler için, bu araç hızlı bir e-ticaret mağazası oluşturmanıza, mağaza içi yönetimi sorunsuz hale getirmenize ve etrafında kendi topluluğunuzu oluşturmanıza yardımcı olur. <b>White-label kurumsal düzeyde</b> iş işletim sistemi üzerinde.",
 
     domain_input: {
       message:
-          "Mağazanız, ücretsiz hosting ve SSL ile sahip olduğunuz herhangi bir kişisel domaine bağlanabilir",
+        "Mağazanız, ücretsiz hosting ve SSL ile sahip olduğunuz herhangi bir kişisel domaine bağlanabilir",
       action: "Mağaza Oluştur",
     },
     community: "Topluluk Platformu",
@@ -56,7 +68,7 @@ export default {
     in_60_sec: "Buraya tıklayın",
 
     why_use_selldone_if_frustrated_from_wordpress_and_shopify:
-        "Hatalı WordPress eklentilerinden, ölçeklenemeyen sunuculardan veya Shopify uygulamalarının maliyetli ve karmaşık kurulumlarından sıkıldıysanız, Selldone sizin için en iyi çözüm.",
+      "Hatalı WordPress eklentilerinden, ölçeklenemeyen sunuculardan veya Shopify uygulamalarının maliyetli ve karmaşık kurulumlarından sıkıldıysanız, Selldone sizin için en iyi çözüm.",
   },
 
   video: {
@@ -120,7 +132,7 @@ export default {
     },
     step4: {
       title:
-          "Tek Tıklamayla Ödeme: Dünya Çapında Birleşik Ödeme Deneyimi.",
+        "Tek Tıklamayla Ödeme: Dünya Çapında Birleşik Ödeme Deneyimi.",
       msg1: "Müşteriler, sizden alışveriş yapmak için bilgileri girmek zorunda değiller ve kayıt formunu doldurmak zorunda değiller! SMS ile giriş yaparlar ve tek tıklamayla ödeme formunu doldurup öderler. Siz büyürsünüz, biz büyürüz.",
     },
   },
@@ -136,11 +148,11 @@ export default {
     send_mail_msg: "{email} adresine giriş bağlantısı gönderildi",
 
     enable_disable_features_msg:
-        "Bu özellikleri daha sonra etkinleştirebilir veya devre dışı bırakabilirsiniz.",
+      "Bu özellikleri daha sonra etkinleştirebilir veya devre dışı bırakabilirsiniz.",
     package_starter: {
       title: "Opsiyonel Paket",
       subtitle:
-          "Selldone'u kurmak veya öğrenmek için zamanınızın olmayabileceğini anlıyoruz, bu yüzden kaydolduktan sonra, opsiyonel olarak satın alabileceğiniz <b>her şey dahil bir paket</b> erişimine sahip olacaksınız. Bu paket, mağaza oluşturulduktan sonra yalnızca <b>14 gün</b> boyunca mevcut olacaktır.",
+        "Selldone'u kurmak veya öğrenmek için zamanınızın olmayabileceğini anlıyoruz, bu yüzden kaydolduktan sonra, opsiyonel olarak satın alabileceğiniz <b>her şey dahil bir paket</b> erişimine sahip olacaksınız. Bu paket, mağaza oluşturulduktan sonra yalnızca <b>14 gün</b> boyunca mevcut olacaktır.",
       include_items_title: "Bu hizmetler dahildir",
       include_items: [
         "Mağaza ayarlarını ve görünümünü kurun",
@@ -154,7 +166,7 @@ export default {
     sample: {
       title: "Örnek Verileri Yükleyin",
       description:
-          "Ürünler, kategoriler ve blog gönderileri gibi örnek verilerle mağazamı başlatın.",
+        "Ürünler, kategoriler ve blog gönderileri gibi örnek verilerle mağazamı başlatın.",
     },
 
     options: {
@@ -162,7 +174,7 @@ export default {
       msg: "Web sitenizde hangi özellikleri istiyorsunuz?",
       ecommerce: "E-Ticaret",
       pos: "Satış Noktası",
-      blog: "Blog & CMS",
+      blog: "Blog ve CMS",
       community: "Topluluk & Forum",
 
       ecommerce_desc: "Ürünlerinizi ve hizmetlerinizi çevrimiçi satın.",
@@ -174,7 +186,7 @@ export default {
     job: {
       title: "Başlamak için sektörünüzü seçin...",
       placeholder:
-          "İşletmenizi Selldone OS'a taşıyın, şu anda hangi platformu kullanıyorsanız kullanın.",
+        "İşletmenizi Selldone OS'a taşıyın, şu anda hangi platformu kullanıyorsanız kullanın.",
     },
     shop_name: {
       title: "İşletme Adı",
@@ -196,26 +208,26 @@ export default {
   notion: {
     title: "Farklı Araçlarla Oynayın.",
     quote:
-        "Yeterli parası olmayan, teknik deneyimi olmayan, faturaları ödemek için banka hesabı olmayan biri bile çevrimiçi insanlık döneminde değişiklik yapabileceğine inanıyoruz; bunu, internet üzerindeki en ulaşılabilir işletim sistemi olarak hareket etmek için kurumsal düzeyde araçlarla kullanıma hazır bir platform oluşturarak yapıyoruz.",
+      "Yeterli parası olmayan, teknik deneyimi olmayan, faturaları ödemek için banka hesabı olmayan biri bile çevrimiçi insanlık döneminde değişiklik yapabileceğine inanıyoruz; bunu, internet üzerindeki en ulaşılabilir işletim sistemi olarak hareket etmek için kurumsal düzeyde araçlarla kullanıma hazır bir platform oluşturarak yapıyoruz.",
   },
 
   stop: {
     title: "Çoklu Ağ Geçidi + Doğrudan Ödeme.",
     subtitle:
-        "Sanal cüzdan, nakit akışınızı kontrol etmenize ve e-ticaret platformunuzdan herhangi bir müdahale olmadan ödeme hizmetleriniz aracılığıyla doğrudan para almanıza yardımcı olur.",
+      "Sanal cüzdan, nakit akışınızı kontrol etmenize ve e-ticaret platformunuzdan herhangi bir müdahale olmadan ödeme hizmetleriniz aracılığıyla doğrudan para almanıza yardımcı olur.",
     pacman: "Ödeme Eklentileri",
   },
 
   flow: {
     title: "Özelleştirilebilir Ödeme Akışı.",
     subtitle:
-        "Müşteri yolculuğunuzu ve satın alma akışınızı tasarlayın ve sonuçları deneyimleyin.",
+      "Müşteri yolculuğunuzu ve satın alma akışınızı tasarlayın ve sonuçları deneyimleyin.",
     pacman: "Ödeme Eklentileri",
   },
   business_model: {
     title: "Çoklu İş Modelleri.",
     subtitle:
-        "İş modelinizi görsel olarak kurun, tüm karmaşıklık sahnenin arkasında ayarlanacaktır.",
+      "İş modelinizi görsel olarak kurun, tüm karmaşıklık sahnenin arkasında ayarlanacaktır.",
     pacman: "Pazar Yeri & POD Eklentileri",
   },
 
@@ -225,7 +237,7 @@ export default {
   },
   login: {
     title:
-        "İşletmenizi görsel olarak inşa etmek, yönetmek ve ölçeklendirmek hakkında meraklı mısınız?",
+      "İşletmenizi görsel olarak inşa etmek, yönetmek ve ölçeklendirmek hakkında meraklı mısınız?",
   },
 
   currencies: {
@@ -325,22 +337,22 @@ export default {
     {
       question: "Kredi kartı olmadan çevrimiçi mağaza oluşturabilir miyim?",
       answer:
-          "Evet, Selldone'da kredi ve banka kartları gibi herhangi bir banka kartına ihtiyaç duymadan e-Ticaretinizi oluşturabilirsiniz. Selldone, yaygın finansal hizmetlere erişimi olmayan 1.7 milyardan fazla insana gelişmiş e-ticaret hizmetleri sunmanın benzersiz bir yolunu kullanır.",
+        "Evet, Selldone'da kredi ve banka kartları gibi herhangi bir banka kartına ihtiyaç duymadan e-Ticaretinizi oluşturabilirsiniz. Selldone, yaygın finansal hizmetlere erişimi olmayan 1.7 milyardan fazla insana gelişmiş e-ticaret hizmetleri sunmanın benzersiz bir yolunu kullanır.",
     },
     {
       question: "Bankasız müşterilere çevrimiçi nasıl satış yapabilirim?",
       answer:
-          "E-ticaretinize COD (<b>Kapıda Nakit</b>) ekleyin, böylece müşterileriniz siparişi aldıktan sonra ödeme yapabilirler. COD, çoğu ülkede finansman altyapısının eksikliği nedeniyle geleneksel bir yöntemdir.",
+        "E-ticaretinize COD (<b>Kapıda Nakit</b>) ekleyin, böylece müşterileriniz siparişi aldıktan sonra ödeme yapabilirler. COD, çoğu ülkede finansman altyapısının eksikliği nedeniyle geleneksel bir yöntemdir.",
     },
     {
       question: "Banka hesabı olmadan e-Ticaretimi nasıl kurabilirim?",
       answer:
-          "Selldone'dan önce bankasız insanlar için bir çözüm yoktu. Ancak şimdi, herhangi bir banka hesabına sahip olmadan e-Ticaretinizi ve web sitenizi oluşturabilirsiniz. Bu sizin için minimal bir maliyete sahiptir; bu maliyeti ay sonunda cüzdanınız aracılığıyla ödeyebilirsiniz. Selldone cüzdanı, diğer kişilerden ücret alabilir veya hediye kartları aracılığıyla şarj edilebilir. Bu hizmetleri kullanmak için kredi kartına ihtiyacınız yoktur.",
+        "Selldone'dan önce bankasız insanlar için bir çözüm yoktu. Ancak şimdi, herhangi bir banka hesabına sahip olmadan e-Ticaretinizi ve web sitenizi oluşturabilirsiniz. Bu sizin için minimal bir maliyete sahiptir; bu maliyeti ay sonunda cüzdanınız aracılığıyla ödeyebilirsiniz. Selldone cüzdanı, diğer kişilerden ücret alabilir veya hediye kartları aracılığıyla şarj edilebilir. Bu hizmetleri kullanmak için kredi kartına ihtiyacınız yoktur.",
     },
     {
       question: "Kurulum maliyeti olmadan bir işe nasıl başlayabilirim?",
       answer:
-          "<ol> <li> Ücretsiz olarak <a href='https://selldone.com'>Selldone.com</a>'da kaydolun. </li> <li> Mağazanızı oluşturun. </li> <li> Ürünlerinizi ve hizmetlerinizi ekleyin. </li> <li> Domaininizi bağlayın (isteğe bağlı) </li> <li> Ödeme ağ geçitlerini etkinleştirin. </li> <li> İşletmenizi arkadaşlarınıza ve ailenize tanıtmaya başlayın. </li> <li> Sosyal medyada kendinizi ve ürünlerinizi tanıtın. </li> <li> Eşsiz bir değer önerisi sunarak işletmeniz için bir marka oluşturun. </li> <li> Selldone paneli aracılığıyla kullanıcı davranışlarını izleyin. </li> </ol>",
+        "<ol> <li> Ücretsiz olarak <a href='https://selldone.com'>Selldone.com</a>'da kaydolun. </li> <li> Mağazanızı oluşturun. </li> <li> Ürünlerinizi ve hizmetlerinizi ekleyin. </li> <li> Domaininizi bağlayın (isteğe bağlı) </li> <li> Ödeme ağ geçitlerini etkinleştirin. </li> <li> İşletmenizi arkadaşlarınıza ve ailenize tanıtmaya başlayın. </li> <li> Sosyal medyada kendinizi ve ürünlerinizi tanıtın. </li> <li> Eşsiz bir değer önerisi sunarak işletmeniz için bir marka oluşturun. </li> <li> Selldone paneli aracılığıyla kullanıcı davranışlarını izleyin. </li> </ol>",
     },
   ],
 
@@ -352,7 +364,7 @@ export default {
   why_boxes: {
     title: "Çevrimiçi ve mağaza içi satışlar için optimize edildi",
     subtitle:
-        "Dönüşüm için tasarlandı. Ziyaretçileri müşterilere dönüştürmek için tasarlanmış sezgisel araçlarla çevrimiçi mağazanızı yükseltin.",
+      "Dönüşüm için tasarlandı. Ziyaretçileri müşterilere dönüştürmek için tasarlanmış sezgisel araçlarla çevrimiçi mağazanızı yükseltin.",
 
     block1: {
       title: "Başlangıç Maliyetlerinden Tasarruf Edin",
@@ -399,7 +411,7 @@ export default {
 
   panorama: {
     title:
-        '#1 İşletme OS — <b class="bg-gradient-animate text-gradient my-1">Tüm özellikler önceden oluşturulmuş.</b>',
+      "#1 İşletme OS — <b class=\"bg-gradient-animate text-gradient my-1\">Tüm özellikler önceden oluşturulmuş.</b>",
     msg: "Her ay eklentilere ve uygulamalara binlerce dolar harcamanıza ve güncellemelerden endişelenmenize gerek yok. Bir melek gibi, Selldone işletmenizin tüm teknik yönlerini halleder.",
     orders_management: "Sipariş Yönetimi",
     online_pos: "Çevrimiçi POS",
@@ -429,36 +441,36 @@ export default {
     we_support_message: "{country} destekliyoruz",
     we_limited_support: "{country} sınırlı destek",
     support_message_long:
-        "Selldone ile ülkenizde sorunsuz çevrimiçi işlemler deneyimleyin! Profesyonel VERGİ hesaplamalarının yanı sıra nakit, POS, banka transferleri ve daha fazlasını içeren çeşitli ödeme yöntemleri sunuyoruz. İşletmenizi ülkenizin ihtiyaçlarını tam olarak destekleyen bir platformda kurmaya başlayın.",
+      "Selldone ile ülkenizde sorunsuz çevrimiçi işlemler deneyimleyin! Profesyonel VERGİ hesaplamalarının yanı sıra nakit, POS, banka transferleri ve daha fazlasını içeren çeşitli ödeme yöntemleri sunuyoruz. İşletmenizi ülkenizin ihtiyaçlarını tam olarak destekleyen bir platformda kurmaya başlayın.",
     limited_support_message_long:
-        "            Çevrimiçi ödemeler ülkenizde mevcut olmayabilir, ancak endişelenmenize gerek yok! Selldone'da, dünya genelinde nakit ödemeler, banka transferleri ve Kapıda Nakit (COD) sunuyoruz. Ülkenizin ve Avrupa'nın düzenlemelerine uyarak çevrimiçi işletmenizi bizimle güvenle kurabilirsiniz. Ülkenizde çevrimiçi ödeme desteği hakkında daha fazla bilgi veya bilgi almak için lütfen destek ekibimizle iletişime geçmekten çekinmeyin.\n",
+      "            Çevrimiçi ödemeler ülkenizde mevcut olmayabilir, ancak endişelenmenize gerek yok! Selldone'da, dünya genelinde nakit ödemeler, banka transferleri ve Kapıda Nakit (COD) sunuyoruz. Ülkenizin ve Avrupa'nın düzenlemelerine uyarak çevrimiçi işletmenizi bizimle güvenle kurabilirsiniz. Ülkenizde çevrimiçi ödeme desteği hakkında daha fazla bilgi veya bilgi almak için lütfen destek ekibimizle iletişime geçmekten çekinmeyin.\n",
     more_about_selldone_in_country: "Ülkenizde Selldone Hakkında",
 
     tax: {
       title: "Vergi Dostu",
       message:
-          "Farklı ürün kategorileri için vergi profilleri kolayca kurun, otomatik olarak alıcıların ülkelerine ve eyaletlerine uyum sağlayın. Uyumluluğu koruyun ve küresel erişiminizi artırın.",
+        "Farklı ürün kategorileri için vergi profilleri kolayca kurun, otomatik olarak alıcıların ülkelerine ve eyaletlerine uyum sağlayın. Uyumluluğu koruyun ve küresel erişiminizi artırın.",
     },
     global: {
       title: "Küresel Satışlar",
       message:
-          "Selldone'un sorunsuz uluslararası desteği ile dünya çapında müşterilere ulaşın. İşletmenizi kolaylıkla ve verimlilikle küresel olarak ölçeklendirin.",
+        "Selldone'un sorunsuz uluslararası desteği ile dünya çapında müşterilere ulaşın. İşletmenizi kolaylıkla ve verimlilikle küresel olarak ölçeklendirin.",
     },
     shipping: {
       title: "Yerel & Küresel Kargo",
       message:
-          "Shippo ve Shipday gibi yerel ve küresel taşıyıcılarla entegrasyonlar, ayrıca kendinize ait kargo yönetim seçenekleri ile her yerde sorunsuz teslimat operasyonları sağlayın.",
+        "Shippo ve Shipday gibi yerel ve küresel taşıyıcılarla entegrasyonlar, ayrıca kendinize ait kargo yönetim seçenekleri ile her yerde sorunsuz teslimat operasyonları sağlayın.",
     },
     erp: {
       title: "ERP Entegrasyonu",
       message:
-          "Açık geçit ve API erişimi ile en iyi ERP'lerle sorunsuz bir şekilde bağlanın, iş operasyonlarınızı kolaylaştırmak için basit bir tıklama ile entegrasyonlar sağlayın.",
+        "Açık geçit ve API erişimi ile en iyi ERP'lerle sorunsuz bir şekilde bağlanın, iş operasyonlarınızı kolaylaştırmak için basit bir tıklama ile entegrasyonlar sağlayın.",
     },
   },
 
   hero: {
     intro: "İşletmeler için #1 İşletim Sistemi",
-    title: "Birçok Eklenti & Uygulamayı Tek Bir {app} ile Değiştirin",
+    title: "{infinite} eklenti ve uygulamayı tek bir {app} ile değiştirin",
   },
 
   /**
@@ -469,7 +481,7 @@ export default {
     amazon: "Amazon",
     local_store: "Yerel Mağaza",
     instagram: "Instagram Mağazası",
-    dropshipping: "Dropshipping",
+    dropshipping: "Stoksuz Satış Mağazası",
     coursera: "Coursera",
     gift_store: "Hediye Mağazası",
     airbnb: "Airbnb",
@@ -480,7 +492,7 @@ export default {
    * {@see SectionShowItsSimplicity}
    */
   show_its_simplicity: {
-    title: `Başka bir sıkıcı karmaşık <div class="app-box" style="font-size: 55%">😣</div> e-ticaret platformu!?`,
+    title: "Başka bir sıkıcı karmaşık <div class=\"app-box\" style=\"font-size: 55%\">😣</div> e-ticaret platformu!?",
     subtitle: "Kesinlikle hayır! Kayıt olmadan önce sadece deneyin...",
     as_guest: "Misafir Olarak",
     need_register: "Kayıt Gerekiyor",
@@ -488,20 +500,20 @@ export default {
     page_builder: {
       title: "Yerleşik Sayfa Oluşturucu",
       subtitle:
-          "İçerik düzenlemeli ilk sezgisel sürükle ve bırak sayfa oluşturucu.",
+        "İçerik düzenlemeli ilk sezgisel sürükle ve bırak sayfa oluşturucu.",
       try_action: "Sayfa Oluşturucuyu Deneyin",
       see_collection_action: "Şablonları Gör",
     },
     ai: {
       title: "Yerleşik AI Özellikleri",
       subtitle:
-          "En iyi endüstriyel arka plan kaldırma, görüntü optimizasyonu, içerik oluşturma, otomatik ürün oluşturma ve daha fazlası.",
+        "En iyi endüstriyel arka plan kaldırma, görüntü optimizasyonu, içerik oluşturma, otomatik ürün oluşturma ve daha fazlası.",
       try_action: "Selldone Zekasını Deneyin",
     },
     storefront: {
       title: "Canlı Mağaza Vitrini",
       subtitle:
-          "Hiçbir kod yazmadan modern PWA web sitesi ile en hızlı alışverişi deneyimleyin.",
+        "Hiçbir kod yazmadan modern PWA web sitesi ile en hızlı alışverişi deneyimleyin.",
       see_action: "Demo Mağaza Vitrinini Gör",
     },
     backoffice: {
@@ -515,9 +527,9 @@ export default {
    * {@see SectionPricingCompact}
    */
   pricing_compact: {
-    title: `<div class="app-box" style="font-size: 55%">💞️</div> Basit ve şeffaf fiyatlandırma`,
+    title: "<div class=\"app-box\" style=\"font-size: 55%\">💞️</div> Basit ve şeffaf fiyatlandırma",
     subtitle:
-        "Ücretsiz başlamak ve işletmenizi ölçeklendirmek için tüm kurumsal düzeyde özelliklere erişin — önceden hiçbir ücret ödemeyin, sadece gelirinizin bir kısmını paylaşın. Sadece siz başarılı olduğunuzda başarılı oluyoruz, maliyetlerinizi en aza indiriyor ve karınızı maksimize ediyoruz.",
+      "Ücretsiz başlamak ve işletmenizi ölçeklendirmek için tüm kurumsal düzeyde özelliklere erişin — önceden hiçbir ücret ödemeyin, sadece gelirinizin bir kısmını paylaşın. Sadece siz başarılı olduğunuzda başarılı oluyoruz, maliyetlerinizi en aza indiriyor ve karınızı maksimize ediyoruz.",
   },
 
   screenshots: {
@@ -579,7 +591,7 @@ export default {
     },
     item_15: {
       title:
-          "İndirimler, teklifler, kuponlar ve oyunlaştırma ile müşteri satın almalarını teşvik edin.",
+        "İndirimler, teklifler, kuponlar ve oyunlaştırma ile müşteri satın almalarını teşvik edin.",
       desc: "İndirim kodları, promosyon teklifleri, akıllı indirimler, kuponlar, hediye kartları kullanarak ve alışveriş deneyimine oyunlaştırma öğeleri ekleyerek müşterilerinizin mağazanızdan daha fazla satın almasını teşvik edin.",
     },
     item_16: {
@@ -682,7 +694,7 @@ export default {
 
   country_landing: {
     intro: "İşletmeler için #1 İşletim Sistemi",
-    title: "{country} içinde {app} ile Birçok Eklenti & Uygulamayı Değiştirin",
+    title: "{country} içinde {infinite} eklenti ve uygulamayı {app} ile değiştirin",
   },
 
   /**
@@ -690,31 +702,31 @@ export default {
    */
   payment_landing: {
     intro: "İşletmeler için #1 İşletim Sistemi",
-    title: "{app} ile Birçok Eklenti & Uygulamayı Değiştirin",
+    title: "{infinite} eklenti ve uygulamayı {app} ile değiştirin",
 
     unlock_section: {
       title: "{payment} ile Açın ve Web Sitenizde Para Kazanmaya Başlayın",
       subtitle:
-          "Çevrimiçi mağazanızı bugün başlatın! Ürünleri, hizmetleri ve abonelikleri hız ve sadelikle kolayca satın.",
+        "Çevrimiçi mağazanızı bugün başlatın! Ürünleri, hizmetleri ve abonelikleri hız ve sadelikle kolayca satın.",
       no_plugin: {
         title: "Eklenti Gerektirmeyen Kolay Ödemeler",
         subtitle:
-            "Selldone'un sorunsuz, eklenti gerektirmeyen {payment} ödeme çözümleri ile e-ticaretin geleceğine adım atın. Karmaşık entegrasyonlara elveda deyin ve doğrudan, güvenli ve sorunsuz bir ödeme deneyiminin keyfini çıkarın.",
+          "Selldone'un sorunsuz, eklenti gerektirmeyen {payment} ödeme çözümleri ile e-ticaretin geleceğine adım atın. Karmaşık entegrasyonlara elveda deyin ve doğrudan, güvenli ve sorunsuz bir ödeme deneyiminin keyfini çıkarın.",
       },
       experience: {
         title: "Selldone + {payment} ile Kusursuz Alışveriş",
         subtitle:
-            "Selldone'un kullanıcı dostu platformu ve {payment} ödeme entegrasyonu ile e-ticaret deneyiminizi dönüştürün. Hantal arayüzlere veda edin ve müşterilerinizi geri getiren akıcı bir alışveriş yolculuğunu karşılayın.",
+          "Selldone'un kullanıcı dostu platformu ve {payment} ödeme entegrasyonu ile e-ticaret deneyiminizi dönüştürün. Hantal arayüzlere veda edin ve müşterilerinizi geri getiren akıcı bir alışveriş yolculuğunu karşılayın.",
       },
       boost: {
         title: "Selldone Entegre Ödemelerle Satışlarınızı Süper Şarj Edin",
         subtitle:
-            "Neden karmaşık ödeme sistemlerinin sizi yavaşlatmasına izin veriyorsunuz? {payment} entegre ödeme çözümü ile gerçekten önemli olandır: daha fazla satış yapmak. İşletmenizi kolayca büyütürken satışlarınızın artışını izleyin.",
+          "Neden karmaşık ödeme sistemlerinin sizi yavaşlatmasına izin veriyorsunuz? {payment} entegre ödeme çözümü ile gerçekten önemli olandır: daha fazla satış yapmak. İşletmenizi kolayca büyütürken satışlarınızın artışını izleyin.",
       },
       security: {
         title: "Güvenlik ve Verimliliğin Buluştuğu Yer",
         subtitle:
-            "Selldone + {payment} seçmek, üst düzey güvenlik ve eşsiz verimlilik anlamına gelir. Adanmış ödeme sistemimiz her işlemin güvenli, hızlı ve kusursuz bir şekilde gerçekleşmesini sağlar.",
+          "Selldone + {payment} seçmek, üst düzey güvenlik ve eşsiz verimlilik anlamına gelir. Adanmış ödeme sistemimiz her işlemin güvenli, hızlı ve kusursuz bir şekilde gerçekleşmesini sağlar.",
       },
       setup_payment: "Ödemeyi Kur",
     },
@@ -724,63 +736,63 @@ export default {
         step: "Adım 1",
         title: "Para Biriminizi Ekleyin",
         subtitle:
-            "Farklı para birimlerinde ödeme kabul etmek için her biri için bir ödeme geçidi kurmanız gerekir. {payment} ile, tek bir hesap mağazanızda birden fazla geçit ve para birimini yönetebilir, sınır yok! İstediğiniz para biriminin mağazanızın ayarlarında Mağaza > Muhasebe > Para Birimleri altında listelendiğinden emin olun.",
+          "Farklı para birimlerinde ödeme kabul etmek için her biri için bir ödeme geçidi kurmanız gerekir. {payment} ile, tek bir hesap mağazanızda birden fazla geçit ve para birimini yönetebilir, sınır yok! İstediğiniz para biriminin mağazanızın ayarlarında Mağaza > Muhasebe > Para Birimleri altında listelendiğinden emin olun.",
       },
       step_2: {
         step: "Adım 2",
         title: "Geçidinizi Kurun",
-        subtitle: `Sonra, Mağaza > Muhasebe > Geçitler sekmesine gidin, <b>YENİ ÖDEME YÖNTEMİ</b>'ye tıklayın, para biriminizi seçin ve <b>{payment}</b>'i seçin. Geçitleri hem hata ayıklama hem de canlı modda ekleyebilirsiniz. Her mod için doğru API Anahtarlarını girdiğinizden emin olun, bunları <a href="{payment_url}" target="_blank">{payment} hesabınızda</a> bulabilirsiniz.`,
+        subtitle: "Sonra, Mağaza > Muhasebe > Geçitler sekmesine gidin, <b>YENİ ÖDEME YÖNTEMİ</b>'ye tıklayın, para biriminizi seçin ve <b>{payment}</b>'i seçin. Geçitleri hem hata ayıklama hem de canlı modda ekleyebilirsiniz. Her mod için doğru API Anahtarlarını girdiğinizden emin olun, bunları <a href=\"{payment_url}\" target=\"_blank\">{payment} hesabınızda</a> bulabilirsiniz.",
       },
     },
 
     integration: {
       title: "{payment} ile Sorunsuz E-Ticaret Entegrasyonu",
       subtitle:
-          "Selldone ile başlayın ve işletmenizi kolayca yönetin. Kod yazmaya veya eklentilere gerek yok!",
+        "Selldone ile başlayın ve işletmenizi kolayca yönetin. Kod yazmaya veya eklentilere gerek yok!",
     },
     pay_after_earn: {
       title: "Yalnızca Kazanırken Ödeyin!",
       subtitle:
-          "Ücretsiz ömür boyu planımızla işletmenizi başlatın! Sadece para kazanmaya başladığınızda %0,5~2,0 ücret ödeyin.",
+        "Ücretsiz ömür boyu planımızla işletmenizi başlatın! Sadece para kazanmaya başladığınızda %0,5~2,0 ücret ödeyin.",
     },
   },
 
   feature_page_builder: {
     title: "Satış Odaklı Sayfa Oluşturucu",
     message:
-        "Kodsuz çözümümüzle özel sayfaları zahmetsizce tasarlayın. Sayfalarınızı ihtiyaçlarınıza göre oluşturmak için sürükleyip bırakın.",
+      "Kodsuz çözümümüzle özel sayfaları zahmetsizce tasarlayın. Sayfalarınızı ihtiyaçlarınıza göre oluşturmak için sürükleyip bırakın.",
   },
 
   feature_items: {
     products: {
       title: "Sezgisel Ürün Yönetimi",
       description:
-          "Ürünleri kolayca yönetin—görselleri sürükleyin & bırakın, detayları düzenleyin, iş akışınızı düzenleyin.",
+        "Ürünleri kolayca yönetin—görselleri sürükleyin & bırakın, detayları düzenleyin, iş akışınızı düzenleyin.",
     },
     excel: {
       title: "Excel Veri İçe Aktarma",
       description:
-          "Excel dosyaları aracılığıyla ürünleri, kategorileri ve kişileri zahmetsizce içe aktarın.",
+        "Excel dosyaları aracılığıyla ürünleri, kategorileri ve kişileri zahmetsizce içe aktarın.",
     },
     incentive: {
       title: "Satış Teşvikleri",
       description:
-          "İndirimler, kuponlar, hediye kartları ve oyunlaştırılmış teklifler ile satışları artırın.",
+        "İndirimler, kuponlar, hediye kartları ve oyunlaştırılmış teklifler ile satışları artırın.",
     },
     loyalty: {
       title: "Müşteri Sadakati",
       description:
-          "Müşterilerinizi korumak için kulüpler, üyelikler ve abonelikler oluşturun.",
+        "Müşterilerinizi korumak için kulüpler, üyelikler ve abonelikler oluşturun.",
     },
     cashback: {
       title: "Nakit İade Teklifleri",
       description:
-          "Sadık alışverişçileri ödüllendirmek için çeşitli nakit iade programları uygulayın.",
+        "Sadık alışverişçileri ödüllendirmek için çeşitli nakit iade programları uygulayın.",
     },
     cross_selling: {
       title: "Çapraz Satış Araçları",
       description:
-          "Çapraz satış ile satışları artırın; ürün koleksiyonları ve indirimler ayarlayın.",
+        "Çapraz satış ile satışları artırın; ürün koleksiyonları ve indirimler ayarlayın.",
     },
     accounting: {
       title: "Basit Muhasebe",
@@ -789,32 +801,32 @@ export default {
     inventory: {
       title: "Envanter Kontrolü",
       description:
-          "Stok seviyelerini izleyin, CSV aracılığıyla toplu güncellemeler yapın ve verimli yönetim sağlayın.",
+        "Stok seviyelerini izleyin, CSV aracılığıyla toplu güncellemeler yapın ve verimli yönetim sağlayın.",
     },
     analytics: {
       title: "Gelişmiş Analitik",
       description:
-          "Detaylı verilerle satışlar, müşteriler ve kampanyalar hakkında içgörüler elde edin.",
+        "Detaylı verilerle satışlar, müşteriler ve kampanyalar hakkında içgörüler elde edin.",
     },
     social: {
       title: "Çok Kanallı Satış",
       description:
-          "Kanallar arasında satış yapın; pazar yerlerine, sosyal medyaya bağlanın, kaynakları takip edin.",
+        "Kanallar arasında satış yapın; pazar yerlerine, sosyal medyaya bağlanın, kaynakları takip edin.",
     },
     community: {
       title: "Topluluk Oluşturucu",
       description:
-          "Forumlar, bloglar ve topluluk özellikleri ile müşterilerinizi meşgul edin.",
+        "Forumlar, bloglar ve topluluk özellikleri ile müşterilerinizi meşgul edin.",
     },
     security: {
       title: "Ekip Yönetimi",
       description:
-          "Roller oluşturun, izinleri ayarlayın ve ekip erişimini verimli bir şekilde yönetin.",
+        "Roller oluşturun, izinleri ayarlayın ve ekip erişimini verimli bir şekilde yönetin.",
     },
     pos: {
       title: "Mağaza İçi POS",
       description:
-          "Mağaza içi satışları basitleştirin; POS sistemlerini ve işlemleri yönetin.",
+        "Mağaza içi satışları basitleştirin; POS sistemlerini ve işlemleri yönetin.",
     },
     store: {
       title: "Satıcı Pazar Yeri",
@@ -823,12 +835,12 @@ export default {
     pricing: {
       title: "Dinamik Fiyatlandırma",
       description:
-          "Miktar veya müşteri tercihine bağlı olarak akıllı fiyatlandırma ayarlayın.",
+        "Miktar veya müşteri tercihine bağlı olarak akıllı fiyatlandırma ayarlayın.",
     },
     pod: {
       title: "Dropshipping Entegrasyonu",
       description:
-          "POD hizmetleriyle bağlanın ve dropshipping'i sorunsuzca yönetin.",
+        "POD hizmetleriyle bağlanın ve dropshipping'i sorunsuzca yönetin.",
     },
   },
 };

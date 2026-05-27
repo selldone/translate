@@ -1,200 +1,272 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "categories": {
-    "Baby": {
-      "title": "Subministraments per a nadons",
-      "desc": "Alimentació, Maternitat, Cotxet"
+  categories: {
+    Baby: {
+      title: "Nadons, infants i joguines",
+      desc: "Cotxets, joguines, jocs, trencaclosques, figures d'acció",
     },
-    "Beauty": {
-      "title": "Bellesa",
-      "desc": "Cosmètica, fragància, cura del cabell"
+    Health: {
+      title: "Salut i bellesa",
+      desc: "Farmàcia, benestar, cosmètica, fragàncies",
     },
-    "Blog": {
-      "title": "Bloc",
-      "desc": "Blog d'esports, blog de ciència, blog de tecnologia"
+    Media: {
+      title: "Mitjans i jocs",
+      desc: "Videojocs, pel·lícules, música, llibres",
     },
-    "Fashion": {
-      "title": "Moda",
-      "desc": "Roba, Calçat, Rellotge"
+    Fashion: {
+      title: "Roba, joieria i rellotges",
+      desc: "Roba, sabates, collarets, anells, polseres, rellotges",
     },
-    "Crypto": {
-      "title": "Cripto",
-      "desc": "Criptomoneda, Blockchain, NFT"
+    Automotive: {
+      title: "Automoció",
+      desc: "Accessoris de cotxe, eines, manteniment",
     },
-    "Electronics": {
-      "title": "Electrònica",
-      "desc": "Mòbil, videojoc, ordinador portàtil, televisió"
+    Electronics: {
+      title: "Electrònica",
+      desc: "Mòbils, TV, dispositius d'àudio, càmeres",
     },
-    "Food": {
-      "title": "Menjar i beure",
-      "desc": "Restaurants, fleca, begudes"
+    Computers: {
+      title: "Ordinadors",
+      desc: "Portàtils, ordinadors de sobretaula, accessoris, programari",
     },
-    "Furniture": {
-      "title": "Mobles",
-      "desc": "Mobles per a la llar, decoració, maletes i viatges"
+    Household: {
+      title: "Articles essencials per a la llar",
+      desc: "Productes de neteja, bany, bugaderia",
     },
-    "Gift": {
-      "title": "Targeta regal",
-      "desc": "App Store, Google Play, Netflix, Spotify"
+    Garden: {
+      title: "Jardí i eines",
+      desc: "Mobles d'exterior, eines de jardineria, plantes",
     },
-    "Groceries": {
-      "title": "Comestibles",
-      "desc": "Lactis, Fruita, Aliments Preparats, Carn"
+    Food: {
+      title: "Alimentació i queviures",
+      desc: "Làctics, fruita, menjar preparat, carn, begudes",
     },
-    "Handcrafts": {
-      "title": "Artesania",
-      "desc": "Col·leccionisme, sabates pintades, escultures, art en vidre"
+    Handmade: {
+      title: "Fet a mà",
+      desc: "Objectes de col·lecció, sabates pintades, escultures, art en vidre",
     },
-    "Health": {
-      "title": "Salut",
-      "desc": "Farmàcia, Cura d'animals de companyia, Benestar"
+    PetSupplies: {
+      title: "Subministraments per a mascotes",
+      desc: "Menjar per a mascotes, joguines, cura de mascotes",
     },
-    "Home": {
-      "title": "Llar i Vida",
-      "desc": "Electrodomèstics, Estris de cuina, Menjador"
+    Home: {
+      title: "Llar i vida",
+      desc: "Electrodomèstics de cuina, mobles de la llar, decoració",
     },
-    "Jewelry": {
-      "title": "Joieria",
-      "desc": "Collaret, anell, polsera"
+    Sports: {
+      title: "Esports i aire lliure",
+      desc: "Exercici, càmping, bicicletes, lleure",
     },
-    "Sports": {
-      "title": "Esports",
-      "desc": "Exercici, càmping, bicicletes, recreació"
+    Stationery: {
+      title: "Papereria i oficina",
+      desc: "Material d'oficina, material escolar, productes de paper",
     },
-    "Education": {
-      "title": "Cursos en línia",
-      "desc": "Desenvolupament Web, Disseny, Negocis"
+    Books: {
+      title: "Llibres",
+      desc: "Ficció, no-ficció, educatius, còmics",
     },
-    "Toy": {
-      "title": "Joguina",
-      "desc": "Joc, Trencaclosques, Figures d'acció"
+    Marketplace: {
+      title: "Mercat de tot",
+      desc: "Una gran varietat de productes de múltiples categories",
     },
-    "Other": {
-      "title": "Altres",
-      "desc": "Altres ocupacions..."
-    }
+    Other: {
+      title: "Altres...",
+      desc: "Targetes regal, productes digitals, serveis en línia, qualsevol cosa",
+    },
   },
-  "partners": {
-    "title": "{name} s'associa amb Selldone",
-    "subtitle": "per desbloquejar la propera generació de negocis en línia.",
-    "create_new_shop": "Crea una botiga nova",
-    "select_a_shop": "Seleccioneu una botiga",
-    "apply_deal_to": "Aplica l'oferta a {shop}",
-    "notifications": {
-      "success_apply": "Oferta activada correctament!"
+
+  partners: {
+    title: "{name} s'associa amb Selldone",
+    subtitle: "per desbloquejar la propera generació de negocis en línia.",
+    subtitle_official: "Desbloqueja la propera generació de negocis en línia.",
+
+    create_new_shop: "Crea una botiga nova",
+    select_a_shop: "Seleccioneu una botiga",
+    apply_deal_to: "Aplica l'oferta a {shop}",
+    notifications: {
+      success_apply: "Oferta activada correctament!",
     },
-    "subtitle_official": "Desbloqueja la propera generació d'empreses en línia."
   },
-  "name": "Configuració",
-  "shop": {
-    "title": "Configura la meva botiga",
-    "subtitle": "Passeu al següent nivell completant aquests senzills passos."
+
+  name: "Configuració",
+  overview: {
+    title: "Visió general",
+    subtitle:
+      "Obtén informació sobre el sistema operatiu empresarial i descobreix com pot ajudar el teu negoci.",
   },
-  "open_website": "Obre el meu lloc web",
-  "add_product": "Afegeix producte",
-  "setup_shipping": "Configura l'enviament",
-  "add_domain": "Afegeix domini",
-  "add_payment": "Connecteu-vos a una passarel·la de pagament",
-  "product": {
-    "step1": {
-      "title": "Opció 1. Afegeix manualment",
-      "msg": "Podeu afegir productes físics, articles virtuals, fitxers i serveis a la vostra botiga i començar a vendre'ls.",
-      "action_on": "Afegeix el teu primer producte",
-      "action_off": "Afegeix més productes",
-      "category": "Les categories són l'obra mestra del vostre lloc web de compres en línia en comparació amb altres. Feu que tot estigui categiritzat i ordenat afegint categories i gestionant amb arrossegar i deixar anar.",
-      "add_category": "Afegeix una categoria"
-    },
-    "step2": {
-      "title": "Opció 2. Afegir per Excel",
-      "msg": "Teniu molts productes, com ara 1K, 10K articles? No us preocupeu per importar-ho tot amb una acció.",
-      "import_excel": "Importació per Excel",
-      "download_template": "Descarrega la plantilla"
-    },
-    "step3": {
-      "title": "Opció 3. Contractar experts",
-      "msg": "Tens més de 100 articles i necessites algú per afegir els teus productes? envieu una sol·licitud a expert@selldone.com i reserveu una cita. Contractem experts per a tu. Té una tarifa plana senzilla, només 5,99 $ per article i 2,99 $ per variants addicionals."
-    }
+
+  shop: {
+    title: "De zero a ingressos",
+    subtitle: "Passeu al següent nivell completant aquests senzills passos.",
   },
-  "shipping": {
-    "step1": {
-      "title": "Pas 1. Establiu la ubicació",
-      "msg": "En el primer pas, configureu el vostre magatzem (origen de l'enviament). Aquesta informació s'utilitza per calcular la distància, el cost d'enviament i el control per estar a l'àrea de servei d'enviament.",
-      "edit_warehouse": "Edita magatzem",
-      "add_warehouse": "Afegeix el teu magatzem"
+
+  open_website: "Obre el meu lloc web",
+
+  customize_theme: "Personalitza el lloc web",
+  setup_business: "Configuració de negocis",
+  add_product: "Afegeix producte",
+  setup_shipping: "Configura l'enviament",
+  add_domain: "Afegeix domini",
+  add_payment: "Connecteu-vos a una passarel·la de pagament",
+
+  product: {
+    step1: {
+      title: "Opció 1. Afegeix manualment",
+      msg: "Podeu afegir productes físics, articles virtuals, fitxers i serveis a la vostra botiga i començar a vendre'ls.",
+      action_on: "Afegeix el teu primer producte",
+      action_off: "Afegeix més productes",
+      category:
+        "Les categories fan destacar el teu lloc de compres en línia davant dels altres. Mantén-ho tot categoritzat i ordenat afegint categories i gestionant-les amb arrossegar i deixar anar.",
+      add_category: "Afegeix una categoria",
     },
-    "step2": {
-      "title": "Pas 2. Activa els mètodes d'enviament",
-      "msg": "Afegiu almenys un mètode d'enviament a la vostra botiga. Podeu establir el preu en funció del pes, la distància i altres paràmetres. No oblideu establir límits de distància, pes i mida dels paquets que admet cada servei d'enviament.",
-      "add_delivery": "Afegeix mètodes d'enviament"
-    }
+    step2: {
+      title: "Opció 2. Afegir per Excel",
+      msg: "Teniu molts productes, com ara 1K, 10K articles? No us preocupeu per importar-ho tot amb una acció.",
+      import_excel: "Importació per Excel",
+      download_template: "Descarrega la plantilla",
+    },
   },
-  "domain": {
-    "step1": {
-      "title": "Pas 1. Compra un domini",
-      "msg": "Si encara no teniu el vostre domini personal, és hora de comprar el vostre propi domini a llocs web com namecheap.com ."
+  shipping: {
+    step1: {
+      title: "Pas 1. Establiu la ubicació",
+      msg: "En el primer pas, configureu el vostre magatzem (origen de l'enviament). Aquesta informació s'utilitza per calcular la distància, el cost d'enviament i el control per estar a l'àrea de servei d'enviament.",
+      edit_warehouse: "Edita magatzem",
+      add_warehouse: "Afegeix el teu magatzem",
     },
-    "step2": {
-      "title": "Pas 2. Activeu SSL",
-      "msg": "Si utilitzeu serveis com Namecheap que ofereixen CDN i SSL, només cal que activeu 1.CDN i 2.SSL al vostre domini."
+    step2: {
+      title: "Pas 2. Activa els mètodes d'enviament",
+      msg: "Afegiu almenys un mètode d'enviament a la vostra botiga. Podeu establir el preu en funció del pes, la distància i altres paràmetres. No oblideu establir límits de distància, pes i mida dels paquets que admet cada servei d'enviament.",
+      add_delivery: "Afegeix mètodes d'enviament",
     },
-    "step3": {
-      "title": "Pas 3. Establiu els registres DNS",
-      "msg": "Enhorabona, ara tot el que heu de fer és configurar el DNS al vostre proveïdor de serveis de domini i afegir el domini al vostre compte."
-    }
   },
-  "payment": {
-    "step1": {
-      "title": "Preus de monedes",
-      "msg": "Podeu acceptar diners en diferents monedes i la vostra botiga admet més d'una moneda per fixar els preus. Per cert, si configureu la moneda de la vostra botiga en USD, els clients podran pagar en qualsevol moneda, com ara USD, EUR, GBP, etc., per comprar-vos-hi.",
-      "manage_currencies": "Gestioneu les monedes de preus"
+
+  domain: {
+    buy_domain_step: {
+      title: "Pas 1. Compra un domini",
+      msg: "Si encara no tens un domini personal, és hora de comprar el teu propi domini en llocs com namecheap.com.",
     },
-    "step2": {
-      "title": "Accepta diners",
-      "msg": "Afegiu efectiu a l'entrega, transferència directa de diners i altres mètodes de pagament disponibles a la vostra botiga.",
-      "online_title": "Mètodes de pagament en línia",
-      "online_msg": "Accepteu pagaments amb targetes, noves aplicacions bancàries, compra ara, paga més tard i molts altres mètodes de pagament en línia.",
-      "add_online_gateway": "Afegiu un mètode de pagament en línia",
-      "cod_title": "Forma de pagament contra reemborsament",
-      "cod_msg": "Acceptar el pagament després del lliurament de les comandes. Podeu confirmar els pagaments contra reemborsament manualment.",
-      "cash_title": "Mètodes de pagament en efectiu",
-      "cash_msg": "Aquest tipus de pagament s'utilitza a Selldone® TPV.",
-      "dir_title": "Mètodes de pagament directe",
-      "dir_msg": "Podeu acceptar el pagament mitjançant transferència directa de diners, transferència bancària de diners i altres maneres tradicionals."
+
+    set_dns_step: {
+      title: "Pas 2. Configura els registres DNS",
+      msg: "Enhorabona, ara només has de configurar el DNS al teu proveïdor de serveis de domini i afegir el domini al teu compte.",
     },
-    "step3": {
-      "msg": "Connecteu Selldone al vostre compte de Stripe amb només un clic en 30 segons. Actualment, estem donant suport al procés de configuració automàtica de Stripe. Aneu a la pestanya de la vostra passarel·la, afegiu Stripe i feu clic al botó \" <b>Connexió automàtica a Stripe</b> \".",
-      "my_gateways": "Les meves passarel·les de pagament"
-    }
   },
-  "intro_inline_help_message": "Busqueu aquest botó d'ajuda vermell. T'ajuda a practicar-te de zero a expert en el teu sistema operatiu empresarial.",
-  "overview": {
-    "title": "Visió general",
-    "subtitle": "Obteniu informació sobre el sistema operatiu empresarial i descobriu com pot ajudar a la vostra empresa."
-  },
-  "customize_theme": "Personalitza el lloc web",
-  "setup_business": "Configuració de negocis",
-  "customize": {
-    "template": {
-      "title": "Plantilles",
-      "msg": "Posa en marxa la teva botiga amb les nostres plantilles prefabricades! Diversifiqueu fàcilment afegint diverses pàgines, cadascuna amb el seu propi disseny únic."
+
+  payment: {
+    step1: {
+      title: "Preus de monedes",
+      msg: "Podeu acceptar diners en diferents monedes i la vostra botiga admet més d'una moneda per fixar els preus. Per cert, si configureu la moneda de la vostra botiga en USD, els clients podran pagar en qualsevol moneda, com ara USD, EUR, GBP, etc., per comprar-vos-hi.",
+      manage_currencies: "Gestioneu les monedes de preus",
     },
-    "colors": {
-      "title": "Colors i disseny",
-      "msg": "Voleu adaptar la vostra pàgina de producte i el disseny de la vostra botiga per adaptar-vos millor a la vostra visió? Submergeix-te a la secció de personalització del tema de la teva botiga i mira com es desenvolupa la màgia sense esforç!"
-    }
-  },
-  "business": {
-    "step1": {
-      "title": "Model de negoci",
-      "msg": "Cada negoci és únic i sovint requereix més que una botiga en línia bàsica. Definiu el vostre model d'ingressos i nosaltres ens encarreguem de la resta de manera perfecta."
-    }
-  },
-  "migration": {
-    "title": "Migració",
-    "shopify": {
-      "msg": "Canvia a Selldone sense problemes des de Shopify! Gaudeix d'una migració sense esforç, de funcions millorades i de solucions rendibles per a la teva botiga en línia."
+    step2: {
+      title: "Accepta diners",
+      msg: "Afegiu efectiu a l'entrega, transferència directa de diners i altres mètodes de pagament disponibles a la vostra botiga.",
+      online_title: "Mètodes de pagament en línia",
+      online_msg:
+        "Accepta pagaments amb targetes, noves aplicacions bancàries, serveis de compra ara i paga després, i molts altres mètodes de pagament en línia.",
+      add_online_gateway: "Afegiu un mètode de pagament en línia",
+      cod_title: "Forma de pagament contra reemborsament",
+      cod_msg:
+        "Acceptar el pagament després del lliurament de les comandes. Podeu confirmar els pagaments contra reemborsament manualment.",
+      cash_title: "Mètodes de pagament en efectiu",
+      cash_msg: "Aquest tipus de pagament s'utilitza a Selldone® TPV.",
+      dir_title: "Mètodes de pagament directe",
+      dir_msg:
+        "Podeu acceptar el pagament mitjançant transferència directa de diners, transferència bancària de diners i altres maneres tradicionals.",
     },
-    "woocommerce": {
-      "msg": "Migreu perfectament els vostres productes WooCommerce a Selldone amb només uns quants clics! Gaudeix d'un rendiment millorat, un disseny intuïtiu i una atenció al client de primer nivell. Actualitzeu ara la vostra experiència de comerç electrònic."
-    }
-  }
+    step3: {
+      msg: "Connecta Selldone al teu compte de Stripe amb un sol clic en 30 segons. Actualment admetem el procés de configuració automàtica de Stripe. Ves a la pestanya de la teva passarel·la de pagament, afegeix Stripe i fes clic al botó '<b>Connexió automàtica amb Stripe</b>'.",
+      my_gateways: "Les meves passarel·les de pagament",
+    },
+  },
+
+
+  /**
+   * @see SShopOnboardingCustomization
+   */
+  customize: {
+    tour:{
+      title:'Visita guiada',
+      subtitle:"Descobreix què és possible aquí i no ho és enlloc més.",
+      /**
+       * @see BShopOnboardingTour
+       */
+      avocado:{
+        title:"Avocado - ven sense afegir cap producte",
+        description: "Amb Avocado pots oferir serveis o productes sense preus ni detalls predefinits. Crea un formulari personalitzat perquè els teus clients sol·licitin serveis o productes. Un cop enviïn la sol·licitud, pots establir el preu i processar el pagament. Comparteix el formulari a les xarxes socials perquè els clients puguin afegir articles, pujar imatges i enviar comandes fàcilment.",
+        action:'Llegeix sobre Avocado',
+      },
+      marketplace:{
+        title: "Mercat amb múltiples venedors i pagament automàtic",
+        description: "Crea un mercat pròsper amb Selldone afegint múltiples venedors. Els venedors poden publicar els seus productes, i tu pots definir una comissió per cada venda. Quan un client fa una compra, el venedor rep el pagament directament, gestiona la comanda des del seu panell dedicat, i tu guanyes una comissió mitjançant la funció de pagament automàtic.",
+        action:'Pagament automàtic als venedors',
+      },
+      business_model:{
+        title: "Suport per a models de negoci complexos",
+        description:
+            "Selldone admet models de negoci simples i complexos, i et permet adaptar-te segons calgui. Configura-ho tot entre bastidors sense instal·lar connectors o aplicacions addicionals, assegurant transicions i operacions fluides.",
+      },
+      gift_shopping:{
+        title: "Restriccions de ubicació de productes i compra de regals",
+        description:
+            "Estableix restriccions d'ubicació per a cada producte indicant diversos països, codis postals i ciutats. Aquesta funció és perfecta per crear una experiència personalitzada de compra de regals o limitar la disponibilitat del producte a ubicacions concretes, com ara restaurants.",
+
+      }
+    },
+
+    template: {
+      title: "Plantilles",
+      msg: "Posa en marxa la teva botiga amb les nostres plantilles prefabricades! Diversifiqueu fàcilment afegint diverses pàgines, cadascuna amb el seu propi disseny únic.",
+      action:'Mostra totes les plantilles...'
+
+    },
+
+    colors: {
+      title: "Colors i disposició",
+
+      msg: "Voleu adaptar la vostra pàgina de producte i el disseny de la vostra botiga per adaptar-vos millor a la vostra visió? Submergeix-te a la secció de personalització del tema de la teva botiga i mira com es desenvolupa la màgia sense esforç!",
+
+      action:'Personalitza colors i tema'
+
+    },
+
+  },
+
+  /**
+   * @see ShopOnboardingSetupBusinessTab
+   */
+  business: {
+    step1: {
+      title: "Model de negoci",
+      msg: "Cada negoci és únic i sovint requereix més que una botiga en línia bàsica. Definiu el vostre model d'ingressos i nosaltres ens encarreguem de la resta de manera perfecta.",
+    },
+  },
+
+  migration: {
+    title: "Migració",
+    shopify: {
+      msg: "Canvia a Selldone sense problemes des de Shopify! Gaudeix d'una migració sense esforç, de funcions millorades i de solucions rendibles per a la teva botiga en línia.",
+    },
+    woocommerce: {
+      msg: "Migreu perfectament els vostres productes WooCommerce a Selldone amb només uns quants clics! Gaudeix d'un rendiment millorat, un disseny intuïtiu i una atenció al client de primer nivell. Actualitzeu ara la vostra experiència de comerç electrònic.",
+    },
+  },
+
+
+
+
+
 };

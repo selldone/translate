@@ -1,60 +1,82 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "menu": {
-    "home": "නිවස",
-    "dashboard": "උපකරණ පුවරුව",
-    "login": "ඇතුල් වන්න",
-    "help": "උදව්",
-    "blog": "බ්ලොග්",
-    "price_list": "මිල නියම කිරීම",
-    "apps": "යෙදුම්",
-    "experts": "විශේෂඥයන්",
-    "demo": "විකුණුම්කරුවන්",
-    "partnership": "හවුල්කාරිත්වය",
-    "partner": {
-      "title": "හවුල්කරු පැනලය ● Whitelabel SaaS",
-      "subtitle": "සුදු ලේබල් කිරීම සහිත ඊ-වාණිජ්‍ය වේදිකාවක් සත්‍යාපිත නියෝජිතායතන සඳහා පරිපූර්ණයි."
+  menu: {
+    home: "මුල් පිටුව",
+    dashboard: "පාලක පුවරුව",
+    login: "පිවිසෙන්න",
+    help: "උදව්",
+    blog: "බ්ලොග්",
+    price_list: "මිල ගණන්",
+    apps: "යෙදුම්",
+    experts: "විශේෂඥයින්",
+    demo: "Selldone පරිශීලකයින්",
+    partnership: "හවුල්කාරිත්වය",
+    partner: {
+      title: "හවුල්කරු පැනලය ● සුදු-ලේබල් SaaS",
+      subtitle:
+        "සුදු-ලේබල් කිරීම සහිත ඊ-වාණිජ්‍ය වේදිකාවක් සත්‍යාපිත ඒජන්සි සඳහා ඉතා සුදුසුය.",
     },
-    "affiliate": {
-      "title": "අනුබද්ධ වැඩසටහන ● ජීවිත කාලය",
-      "subtitle": "ඕනෑම කෙනෙකුට මෙම වැඩසටහනට ලියාපදිංචි වී ජීවිත කාලය සඳහා දායකත්ව සහ ගනුදෙනු ගාස්තු වලින් උපයා ගත හැක."
-    }
+
+    affiliate: {
+      title: "අනුබද්ධ වැඩසටහන ● ජීවිත කාලය",
+      subtitle:
+        "ඕනෑම කෙනෙකුට මෙම වැඩසටහනට ඇතුළත් වී, දායකත්ව සහ ගනුදෙනු ගාස්තු වලින් ජීවිත කාලය පුරා ආදායම් උපයා ගත හැක.",
+    },
   },
-  "home_menu": {
-    "buttons_header": "Selldone වෙත ගැඹුරට කිමිදෙන්න",
-    "beta": "බීටා",
-    "home": "නිවස",
-    "why_selldone": "ඇයි Selldone?",
-    "ecommerce": "ඊ-වාණිජ්‍යය<br> ඉදි කරන්නා",
-    "automation": "ස්වයංක්‍රීයකරණය සහ IoT",
-    "ai": "AI",
-    "app_builder": "යෙදුම් සාදන්නා",
-    "seo": "ස්වයංක්‍රීය SEO<br> එන්ජිම",
-    "marketing": "අලෙවි &<br> ව්‍යාපාරය",
-    "report": "ස්මාර්ට් වාර්තාව<br> උත්පාදක යන්ත්රය",
-    "domain": "වලාකුළු මත පදනම් වූ සත්කාරකත්වය",
-    "accounting": "ගෙවීම &<br> ගිණුම්කරණය",
-    "logistics": "සැපයුම් සහ<br> නාවික",
-    "page_builder": "ගොඩබෑමේ පිටුව<br> ඉදි කරන්නා",
-    "incentives": "සමාජය සහ<br> සහන",
-    "orders": "නියෝග &<br> සැකසීම",
-    "staff": "පාරිභෝගිකයන් &<br> කණ්ඩායම",
-    "community": "අභිරුචි ප්රජාව",
-    "pos": "මාර්ගගත POS",
-    "group_build": {
-      "header": "ගොඩනඟන්න",
-      "subheader": "ඔබේ සාර්ථක කතාව නිර්මාණය කිරීමට අපි ඔබ වටා පද්ධතියක් ගොඩනඟමු."
+
+  /** @see OLayout **/
+  home_menu: {
+    buttons_header: "Selldone ගැන ගැඹුරින් සොයා බලන්න",
+    beta: "බීටා",
+    home: "මුල් පිටුව",
+    why_selldone: "Selldone ඇයි?",
+    ecommerce: "ඊ-වාණිජ්‍ය <br>සාදකය",
+    automation: "ස්වයංක්‍රීයකරණය සහ IoT",
+    ai: "කෘත්‍රිම බුද්ධිය",
+    app_builder: "යෙදුම් සාදකය",
+    seo: "ස්වයංක්‍රීය SEO <br>එන්ජිම",
+    marketing: "අලෙවිකරණය සහ <br>ව්‍යාපාරය",
+    report: "බුද්ධිමත් වාර්තා <br>ජනකය",
+    domain: "වලාකුළු-පදනම් සත්කාරකත්වය",
+    accounting: "ගෙවීම් සහ <br>ගිණුම්කරණය",
+    logistics: "ලොජිස්ටික්ස් සහ <br>නැව්ගත කිරීම",
+    page_builder: "ලෑන්ඩින් පිටු <br>සාදකය",
+    incentives: "සමාජය සහ <br>දිරිගැන්වීම්",
+    orders: "ඇණවුම් සහ <br>සැකසුම්",
+    staff: "පාරිභෝගිකයින් සහ <br>කණ්ඩායම",
+
+    community: "අභිරුචි ප්‍රජාව",
+    pos: "මාර්ගගත POS",
+
+    group_build: {
+      header: "ගොඩනඟන්න",
+      subheader: "ඔබේ සාර්ථක කතාව නිර්මාණය කිරීමට අපි ඔබ වටා පද්ධතියක් ගොඩනඟමු.",
     },
-    "group_manage": {
-      "header": "කළමනාකරණය කරන්න",
-      "subheader": "ඔබේ ව්‍යාපාරය කළමනාකරණය කිරීම වෙන කවරදාටත් වඩා ප්‍රීතිමත් වනු ඇත."
+    group_manage: {
+      header: "කළමනාකරණය කරන්න",
+      subheader: "ඔබේ ව්‍යාපාරය කළමනාකරණය කිරීම පෙරට වඩා රසවත් වනු ඇත.",
     },
-    "group_sell": {
-      "header": "විකුණන්න",
-      "subheader": "සෑම විටම වසා දමන්න, මුදල් උපයන්න සහ එය භුක්ති විඳින්න."
+    group_sell: {
+      header: "විකුණන්න",
+      subheader: "නිතර ගනුදෙනු අවසන් කරන්න, ආදායම් උපයන්න, එය රසවිඳින්න.",
     },
-    "group_grow": {
-      "header": "වැඩෙන්න",
-      "subheader": "ව්‍යවසාය-ශ්‍රේණියේ විශේෂාංග සහ මෙවලම් ඔබේ අතේ ඇත, අහස ඔබේ සීමාව වනු ඇත."
-    }
-  }
+    group_grow: {
+      header: "වර්ධනය වන්න",
+      subheader:
+        "ව්‍යවසාය-මට්ටමේ විශේෂාංග සහ මෙවලම් ඔබේ අතේ තිබෙන නිසා, අහස ඔබේ සීමාව වේ.",
+    },
+  },
 };

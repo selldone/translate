@@ -1,544 +1,846 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "local_service": "为 {country_name} 提供的本地服务",
-  "local_service_message":
-    "该服务专为 <u>{country_name}</u> 的用户设计，服务对象是那些在该国销售其服务和产品的人。" +
-    "您只能使用 Selldone 的本地服务或国际服务。" +
-    "使用本服务时，您需要遵守 <b>{country_name}</b> 和 <b>欧盟</b> 的法律。",
-  
-  "my_shops": "我的商店",
-  "moto": "您来尝试，我们为您打开大门！",
-  "start_now_btn": "立即开始 — 免费",
-  "create_ecommerce_btn": "免费开启您的电商业务",
-  "incentive_action": "告别您那糟糕的线上销售转化率！",
-  "create_shopping_website": "创建我的电商网站",
-  "s1": {
-    "title": "通过以下方式制作您的在线商店<br>否 - 代码 & 否 - 需要专家的解决方案",
-    "title_animated_words": [
-      "企业家",
-      "艺术家",
-      "独立企业",
-      "品牌",
-      "零售",
-      "创作者"
-    ],
-    "subtitle": "为<b>企业主</b>和<b>商家</b>提供独特、快速、安全、可靠的客户体验，这个工具帮助您在 <b>白标企业级</b> 业务操作系统上快速的建立一个电商店铺、无缝的店内管理以及围绕它的自有社区。",
-    "domain_input": {
-      "message": "您的商店可以连接到您拥有的任意数量的个人域名，提供免费的主机和 SSL",
-      "action": "创建商店"
+  local_service: "为 {country_name} 提供的本地服务",
+  local_service_message:
+    "该服务专为 <u>{country_name}</u> 的用户设计，服务对象是那些在该国销售其服务和产品的人。您只能使用 Selldone 的本地服务或国际服务。使用本服务时，您需要遵守 <b>{country_name}</b> 和 <b>欧盟</b> 的法律。",
+
+  my_shops: "我的商店",
+  select_language_dialog_title: "用您最喜欢的语言开展业务",
+
+  welcome_title: "将您日常无数个决策，简化为一个选择",
+  welcome_subtitle:
+    "使用企业级、无代码的业务操作系统，像专业人士一样搭建、管理和扩展您的业务，轻松应对数百万订单并实现工作流自动化。",
+  //"Make your online store by no-code & no-expert needed solution for millions of orders.",
+
+  moto: "您来尝试，我们为您打开大门！",
+  start_now_btn: "立即开始 — 免费",
+  create_ecommerce_btn: "免费开启您的电商业务",
+  incentive_action: "告别您那糟糕的线上销售转化率！",
+
+  create_shopping_website: "创建我的电商网站",
+
+  your_shop: "您的店面",
+  your_dashboard: "您的仪表盘",
+
+  storefront: "店面",
+  back_office: "后台",
+
+  today_sales: "今日销售额",
+  today_orders: "今日订单",
+
+  s1: {
+    /* title: "Make Your Online Store By<br>No—Code & No—Expert Needed Solution",
+                                 title_animated_words: [
+                                   "Entrepreneurs",
+                                   "Artists",
+                                   "Independent Businesses",
+                                   "Brands",
+                                   "Retails",
+                                   "Creators",
+                                 ],*/
+
+    subtitle:
+      "为<b>企业主</b>和<b>商家</b>提供独特、快速、安全、可靠的客户体验，这个工具帮助您在 <b>白标企业级</b> 业务操作系统上快速的建立一个电商店铺、无缝的店内管理以及围绕它的自有社区。",
+
+    domain_input: {
+      message:
+        "您的商店可以连接到您拥有的任意数量的个人域名，提供免费的主机和 SSL",
+      action: "创建商店",
     },
-    "community": "社区平台",
-    "shop": "在线商店构建器",
-    "inventory": "库存管理",
-    "cms": "页面编辑器和 CMS",
-    "in_60_sec": "点击这里"
+    community: "社区平台",
+    shop: "在线商店构建器",
+    inventory: "库存管理",
+    cms: "页面编辑器和 CMS",
+
+    in_60_sec: "点击这里",
+
+    why_use_selldone_if_frustrated_from_wordpress_and_shopify:
+      "如果你厌倦了容易出错的 WordPress 插件、难以扩展的服务器，或 Shopify 应用昂贵而复杂的配置，Selldone 就是你的最佳解决方案",
   },
-  "video": {
-    "title": "尽你所能。",
-    "msg": "提供最快的购买体验 / 赚更多 $$$。",
-    "card_pos": {
-      "title": "Selldone POS",
-      "msg": "零部署成本的面对面销售解决方案。"
+
+  video: {
+    title: "尽你所能。",
+    msg: "提供最快的购买体验 / 赚更多 $$$。",
+    pacman: "我不是技术创始人",
+
+    card_pos: {
+      title: "Selldone POS",
+      msg: "零部署成本的面对面销售解决方案。",
     },
-    "card_ecommerce": {
-      "title": "Selldone 电子商务",
-      "msg": "像专业人士一样在线销售。"
+    card_ecommerce: {
+      title: "Selldone 电子商务",
+      msg: "像专业人士一样在线销售。",
     },
-    "pacman": "我不是技术创始人"
   },
-  "why": {
-    "title": "为什么选择业务操作系统？",
-    "msg": "我们无法想象一个没有教练的团队、没有领导的革命、没有根基的树木，也无法想象一个没有操作系统的企业！因此，我们正重新定义快速发展的公司和年轻企业家的线上业务。",
-    "sec1": {
-      "title": "轻松+专业",
-      "msg": "它专为您在市场上像专业人士一样玩游戏而设计，即使您是初学者但想像专业人士一样玩游戏，或者您是专家并且应该像自己一样玩游戏！"
+
+  why: {
+    title: "为什么选择业务操作系统？",
+    msg: "我们无法想象一个没有教练的团队、没有领导的革命、没有根基的树木，也无法想象一个没有操作系统的企业！因此，我们正重新定义快速发展的公司和年轻企业家的线上业务。",
+
+    sec1: {
+      title: "轻松+专业",
+      //   msg: "It's built for you to game like a professional in the markets, even if you are a beginner but want to play like a professional, or you are an expert and deserve to play like yourself!",
     },
-    "sec2": {
-      "title": "企业级工具",
-      "msg": "我们每天都会发布新功能、更新 API 并应用新方法。它是您业务的操作系统，因此您的业务可以通过我们的平台扩大规模。"
+    sec2: {
+      title: "企业级工具",
+      //  msg: "We release new features, update APIs and apply new methods as a daily routine.  It's an operating system for your business, so your business scale up by our platform.",
     },
-    "sec3": {
-      "title": "社交化销售",
-      "msg": "我们的产品是根据世界各地购买者的真实交易行为而设计的。我们在 Instagram、TikTok 和其他社交网络上提供独一无二的销售方式，名为 AVOCADO。"
+    sec3: {
+      title: "社交化销售",
+      //  msg: "Our product is designed on the real trading behavior of purchasers all around the world. We offer one-of-a-kind sales methods on Instagram, TikTok, and other social networks, named AVOCADO.",
     },
-    "sec4": {
-      "title": "节省成本",
-      "msg": "不再需要任何专家拥有电子商务！告别昂贵的开发、维护、编程过程，甚至电子商务平台专家的成本。"
-    }
-  },
-  "how_it_work": {
-    "title": "它是如何运作的。",
-    "msg": "无需信用卡，无需插件，无需模板，无需搭建，无需主机，无需技术人员，助您像专业人士一样经营。",
-    "step0": {
-      "title": "为顾客而生，深受卖家喜爱，距您仅一步之遥。",
-      "msg1": "体验真正的电商力量，建立忠实客户群，并专注于您热爱的事情。"
+    sec4: {
+      title: "节省成本",
+      // msg: "No need for any experts to have an ecommerce anymore! Say goodbye to the costly development, maintenance, programming process, and even ecommerce platforms experts' cost.",
     },
-    "step1": {
-      "title": "添加您的产品。",
-      "msg1": "轻松手动添加产品，或使用 Excel 文件一次性导入多达 100,000 个商品。在一个地方销售产品、服务、订阅和文件，就像在 Instagram 上传照片一样简单！"
+  },
+
+  how_it_work: {
+    title: "它是如何运作的。",
+    msg: "无需信用卡，无需插件，无需模板，无需搭建，无需主机，无需技术人员，助您像专业人士一样经营。",
+
+    step0: {
+      title: "为顾客而生，深受卖家喜爱，距您仅一步之遥。",
+      msg1: "体验真正的电商力量，建立忠实客户群，并专注于您热爱的事情。",
     },
-    "step2": {
-      "title": "连接满足您需求的支付方式。",
-      "msg1": "我们不会干涉您的财务交易！100% 的客户付款将直接转入您的银行账户。只需连接 Stripe、PayPal 等。您还可以同时在店铺内使用多个支付服务！",
-      "crypto_msg": "适用于活跃商家"
+    step1: {
+      title: "添加您的产品。",
+      msg1: "轻松手动添加产品，或使用 Excel 文件一次性导入多达 100,000 个商品。在一个地方销售产品、服务、订阅和文件，就像在 Instagram 上传照片一样简单！",
     },
-    "step3": {
-      "title": "白标、灵活且深度可定制。",
-      "msg1": "通过拖放功能，轻松设计您的登陆页和自定义站点主题色彩，以传递您的品牌信息，无需任何专业技能。",
-      "view_sample_pages": "查看激发灵感的 Selldone 商店"
+    step2: {
+      title: "连接满足您需求的支付方式。",
+      msg1: "我们不会干涉您的财务交易！100% 的客户付款将直接转入您的银行账户。只需连接 Stripe、PayPal 等。您还可以同时在店铺内使用多个支付服务！",
+      crypto_msg: "适用于活跃商家",
     },
-    "step4": {
-      "title": "一键结账：全球统一的结账体验。",
-      "msg1": "客户无需输入信息或注册即可购买！他们通过短信登录，点击一次即可完成结账，轻松支付。我们伴您成长。"
-    }
-  },
-  "onboarding": {
-    "title": "让您的业务上线，更快更好 — 免费",
-    "success_title": "正在安装您的线上业务操作系统，",
-    "wait_msg": "请稍等几秒...",
-    "ready_msg": "您的商店已准备就绪。",
-    "send_mail_msg": "登录链接已发送至 {email}",
-    "options": {
-      "title": "店铺配置",
-      "msg": "您希望您的网站具有哪些功能？",
-      "ecommerce": "电子商务",
-      "pos": "POS",
-      "blog": "博客和内容管理系统",
-      "community": "社区和论坛",
-      "ecommerce_desc": "在线销售您的产品和服务。",
-      "pos_desc": "亲自销售您的产品和服务。",
-      "blog_desc": "强大的 CMS 来发布您的文章和帖子。",
-      "community_desc": "创建您自己的社区和论坛。"
+    step3: {
+      title: "白标、灵活且深度可定制。",
+      msg1: "通过拖放功能，轻松设计您的登陆页和自定义站点主题色彩，以传递您的品牌信息，无需任何专业技能。",
+      view_sample_pages: "查看激发灵感的 Selldone 商店",
     },
-    "job": {
-      "title": "选择您的行业以开始...",
-      "placeholder": "无论您目前在哪个平台，都可以切换到 Selldone OS。"
+    step4: {
+      title:
+        "一键结账：全球统一的结账体验。",
+      msg1: "客户无需输入信息或注册即可购买！他们通过短信登录，点击一次即可完成结账，轻松支付。我们伴您成长。",
     },
-    "shop_name": {
-      "title": "企业名称",
-      "placeholder": "例如：Alex shoes"
+  },
+
+  /**
+   * @see OOnboardingShop
+   */
+  onboarding: {
+    title: "让您的业务上线，更快更好 — 免费",
+    success_title: "正在安装您的线上业务操作系统，",
+    wait_msg: "请稍等几秒...",
+    ready_msg: "您的商店已准备就绪。",
+    send_mail_msg: "登录链接已发送至 {email}",
+
+    enable_disable_features_msg:
+      "你可以稍后启用或停用这些功能",
+    package_starter: {
+      title: "可选套餐",
+      subtitle:
+        "我们理解你可能没有时间设置或学习 Selldone；注册后，你将可以选择购买一个 <b>一站式套餐</b>。该套餐仅在店铺创建后的 <b>14 天</b> 内可用",
+      include_items_title: "包含这些服务",
+      include_items: [
+        "设置店铺配置和外观",
+        "设置一种配送方式和一种支付方式",
+        "设计你的首页",
+        "帮助你通过 Excel 导入商品",
+        "添加你的自定义域名",
+      ],
     },
-    "income": {
-      "title": "月销售额",
-      "msg": "选择您每月总销售额的范围。",
-      "Low": "最高 5,000 美元",
-      "Medium": "5,000 美元 ~ 50,000 美元",
-      "High": "50,000 美元 ~ 1,000,000 美元",
-      "Extreme": "超过 1,000,000 美元"
+
+    sample: {
+      title: "安装示例数据",
+      description:
+        "使用商品、分类和博客文章等示例数据启动我的店铺",
     },
-    "step_1": "目的",
-    "step_2": "配置",
-    "step_3": "账户"
-  },
-  "notion": {
-    "title": "使用不同工具的游戏。",
-    "quote": "我们相信，即便一个人在网络人文时代缺乏资金、技术经验，甚至没有银行账户，也能做出改变；我们通过打造一套即开即用、具备企业级工具的平台，作为最可能实现的互联网操作系统来实现此愿景。"
-  },
-  "stop": {
-    "title": "简单的在线购物网站建设者+直接付款。",
-    "subtitle": "如果您打算建立一个有利可图的在线业务并将您的商业理念变为现实，Selldone 是一个完美的选择。",
-    "pacman": "支付插件"
-  },
-  "os": {
-    "title": "使用世界一流的工具 — 免费。",
-    "msg": "我们把专业电商创作的能力，放在你指尖。"
-  },
-  "login": {
-    "title": "你是否好奇如何可视化地构建、管理和扩展你的业务？"
-  },
-  "currencies": {
-    "title": "货币",
-    "sub": "让你的客户能用本地货币顺畅支付。",
-    "msg": "专注销售，而非为技术、插件和支付问题烦恼。我们与本地及全球支付服务商合作，让一切在你的线上业务中井然有序。"
-  },
-  "countries": {
-    "title": "国家",
-    "sub": "世界上最易于扩展的商业操作系统。",
-    "msg": "我们将传统的人与人交易行为在网络空间中实现，无论你和客户身在何处，我们的使命是为你提供最佳体验。"
-  },
-  "dna": {
-    "title": "你业务的 DNA",
-    "sub": "SELLDONE IT！",
-    "msg": "这是唯一的全能型、无代码的企业级工具商务操作系统服务。"
-  },
-  "api": {
-    "title": "开发者友好",
-    "msg": "一套完全基于 API 的解决方案，服务线上业务。",
-    "sec1": {
-      "title": "我们打造你业务的核心框架",
-      "msg": "你店铺的方方面面都可通过我们强大的 REST API 获取。无需担心技术、支付和后端问题，你可以随意修改店铺，开发自有应用或购物 App。"
+
+    options: {
+      title: "店铺配置",
+      msg: "您希望您的网站具有哪些功能？",
+      ecommerce: "电子商务",
+      pos: "POS",
+      blog: "博客和内容管理系统",
+      community: "社区和论坛",
+
+      ecommerce_desc: "在线销售您的产品和服务。",
+      pos_desc: "亲自销售您的产品和服务。",
+      blog_desc: "强大的 CMS 来发布您的文章和帖子。",
+      community_desc: "创建您自己的社区和论坛。",
     },
-    "sec2": {
-      "title": "快速集成",
-      "msg": "我们为所有常见语言和框架开发了 SDK，轻松完成认证、账户访问和管理。只需几步，即可快速开始。"
+
+    job: {
+      title: "选择您的行业以开始...",
+      placeholder:
+        "无论您目前在哪个平台，都可以切换到 Selldone OS。",
     },
-    "header": "开源 API 和 SDK，{infinite} 自定义"
-  },
-  "convertible": {
-    "store_name": "您的商店",
-    "variant_1": "产品变体 琥珀色",
-    "variant_2": "产品变体 红色",
-    "buy": "立即购买",
-    "price": "89 美元",
-    "management": {
-      "title": "产品管理",
-      "msg": "像在 Windows 中拖放文件夹和文件一样管理产品和分类。",
-      "check1": "通过 Excel 或 CSV 文件上传产品。",
-      "check2": "添加 AR 模型。",
-      "check3": "通过自动化 SEO 引擎进行优化。",
-      "check4": "拖放式管理。"
+    shop_name: {
+      title: "企业名称",
+      placeholder: "例如：Alex shoes",
     },
-    "payment": {
-      "title": "支持多种支付方式",
-      "msg": "无缝的站内 / App 内支付体验。",
-      "check1": "Stripe",
-      "check1msg": "支持40多个国家。",
-      "check2": "Klarna",
-      "check2msg": "先买后付。",
-      "check3": "Paypal",
-      "check3msg": "一键支付。"
+    income: {
+      title: "月销售额",
+      msg: "选择您每月总销售额的范围。",
+      Low: "最高 5,000 美元",
+      Medium: "5,000 美元 ~ 50,000 美元",
+      High: "50,000 美元 ~ 1,000,000 美元",
+      Extreme: "超过 1,000,000 美元",
     },
-    "checkout": {
-      "title": "您的品牌",
-      "online": "在线客户",
-      "offline": "线下客户"
+    step_1: "目的",
+    step_2: "配置",
+    step_3: "账户",
+  },
+
+  notion: {
+    title: "使用不同工具的游戏。",
+    quote:
+      "我们相信，即便一个人在网络人文时代缺乏资金、技术经验，甚至没有银行账户，也能做出改变；我们通过打造一套即开即用、具备企业级工具的平台，作为最可能实现的互联网操作系统来实现此愿景。",
+  },
+
+  stop: {
+    title: "简单的在线购物网站建设者+直接付款。",
+    subtitle:
+      "如果您打算建立一个有利可图的在线业务并将您的商业理念变为现实，Selldone 是一个完美的选择。",
+    pacman: "支付插件",
+  },
+
+  flow: {
+    title: "可定制的结帐流程。",
+    subtitle:
+      "设计您的客户旅程和购买流程。",
+    pacman: "结帐插件",
+  },
+  business_model: {
+    title: "多种业务模式。",
+    subtitle:
+      "以可视化方式搭建您的业务模式，后台自动调整优化所有复杂的流程。",
+    pacman: "市场和 POD 定制生产插件",
+  },
+
+  os: {
+    title: "使用世界一流的工具 — 免费。",
+    msg: "我们把专业电商创作的能力，放在你指尖。",
+  },
+  login: {
+    title:
+      "你是否好奇如何可视化地构建、管理和扩展你的业务？",
+  },
+
+  currencies: {
+    title: "货币",
+    sub: "让你的客户能用本地货币顺畅支付。",
+    msg: "专注销售，而非为技术、插件和支付问题烦恼。我们与本地及全球支付服务商合作，让一切在你的线上业务中井然有序。",
+  },
+
+  countries: {
+    title: "国家",
+    sub: "世界上最易于扩展的商业操作系统。",
+    msg: "我们将传统的人与人交易行为在网络空间中实现，无论你和客户身在何处，我们的使命是为你提供最佳体验。",
+  },
+  dna: {
+    title: "你业务的 DNA",
+    sub: "SELLDONE IT！",
+    msg: "这是唯一的全能型、无代码的企业级工具商务操作系统服务。",
+  },
+
+  api: {
+    header: "开源 API 和 SDK，{infinite} 自定义",
+    title: "开发者友好",
+    msg: "一套完全基于 API 的解决方案，服务线上业务。",
+
+    sec1: {
+      title: "我们打造你业务的核心框架",
+      msg: "你店铺的方方面面都可通过我们强大的 REST API 获取。无需担心技术、支付和后端问题，你可以随意修改店铺，开发自有应用或购物 App。",
     },
-    "design": {
-      "title": "页面构建器",
-      "msg": "只需拖放，即可将创意变为现实。"
-    }
+    sec2: {
+      title: "快速集成",
+      msg: "我们为所有常见语言和框架开发了 SDK，轻松完成认证、账户访问和管理。只需几步，即可快速开始。",
+    },
   },
-  "secure": {
-    "title": "超级安全解决方案",
-    "msg": "数据完整性和企业级访问管理。"
+
+  /** @see ConvertibleSelldoneView **/
+  convertible: {
+    store_name: "您的商店",
+    variant_1: "产品变体 琥珀色",
+    variant_2: "产品变体 红色",
+    buy: "立即购买",
+    price: "89 美元",
+    management: {
+      title: "产品管理",
+      msg: "像在 Windows 中拖放文件夹和文件一样管理产品和分类。",
+      check1: "通过 Excel 或 CSV 文件上传产品。",
+      check2: "添加 AR 模型。",
+      check3: "通过自动化 SEO 引擎进行优化。",
+      check4: "拖放式管理。",
+    },
+    payment: {
+      title: "支持多种支付方式",
+      msg: "无缝的站内 / App 内支付体验。",
+      check1: "Stripe",
+      check1msg: "支持40多个国家。",
+
+      check2: "Klarna",
+      check2msg: "先买后付。",
+
+      check3: "Paypal",
+      check3msg: "一键支付。",
+    },
+    checkout: {
+      title: "您的品牌",
+      online: "在线客户",
+      offline: "线下客户",
+    },
+    design: {
+      title: "页面构建器",
+      msg: "只需拖放，即可将创意变为现实。",
+    },
   },
-  "build": {
-    "title": "用你的品牌，开启属于你的商店！",
-    "msg": "你有多种选择：把社交媒体账号转变成自己域名上的购物网站，或从零开始创建专属于你的电商杰作。"
+
+  secure: {
+    title: "超级安全解决方案",
+    msg: "数据完整性和企业级访问管理。",
   },
-  "stripe": {
-    "title": "已经有 Stripe 账户？",
-    "msg": "恭喜你，大部分工作已经完成。只需一键，就能创建你的线上商店！其余的交给 Selldone。"
+
+  build: {
+    title: "用你的品牌，开启属于你的商店！",
+    msg: "你有多种选择：把社交媒体账号转变成自己域名上的购物网站，或从零开始创建专属于你的电商杰作。",
   },
-  "unbanked": {
-    "title": "一次操作，终身受益 — 目标。",
-    "msg": "一套独特的商务操作系统，助力线上销售并激发创业精神，即便是那 17 亿没有银行账户的成年人也可受益。"
+
+  stripe: {
+    title: "已经有 Stripe 账户？",
+    msg: "恭喜你，大部分工作已经完成。只需一键，就能创建你的线上商店！其余的交给 Selldone。",
   },
-  "faqs": [
+  /* demo: {
+                  title: "View Demo",
+                  msg: "See professional live e-commerces",
+                },*/
+
+  unbanked: {
+    title: "一次操作，终身受益 — 目标。",
+    msg: "一套独特的商务操作系统，助力线上销售并激发创业精神，即便是那 17 亿没有银行账户的成年人也可受益。",
+  },
+  faqs: [
     {
-      "question": "我可以在没有信用卡的情况下创建在线商店吗？",
-      "answer": "可以。你可以在 Selldone 上创建电子商务商店，无需任何银行信用卡或借记卡。Selldone 通过一种独特方式，向即便是无法使用常见金融服务的 17 亿人提供先进的电子商务服务。"
+      question: "我可以在没有信用卡的情况下创建在线商店吗？",
+      answer:
+        "可以。你可以在 Selldone 上创建电子商务商店，无需任何银行信用卡或借记卡。Selldone 通过一种独特方式，向即便是无法使用常见金融服务的 17 亿人提供先进的电子商务服务。",
     },
     {
-      "question": "我如何向没有银行账户的客户在线销售产品？",
-      "answer": "在你的电商网站中添加货到付款（<b>COD</b>）选项，这样你的客户可以在收到商品后付款。货到付款是许多缺乏金融基础设施的国家的传统付款方式。"
+      question: "我如何向没有银行账户的客户在线销售产品？",
+      answer:
+        "在你的电商网站中添加货到付款（<b>COD</b>）选项，这样你的客户可以在收到商品后付款。货到付款是许多缺乏金融基础设施的国家的传统付款方式。",
     },
     {
-      "question": "没有银行账户我怎么开设线上商店？",
-      "answer": "在 Selldone 出现之前，没有银行账户的人几乎没有解决方案。但现在，你可以在没有任何银行账户的情况下创建电子商务和网站。费用非常低，你可以在月底通过钱包支付。Selldone 钱包可以从他人接收费用，或通过礼品卡充值。无需信用卡即可使用这些服务。"
+      question: "没有银行账户我怎么开设线上商店？",
+      answer:
+        "在 Selldone 出现之前，没有银行账户的人几乎没有解决方案。但现在，你可以在没有任何银行账户的情况下创建电子商务和网站。费用非常低，你可以在月底通过钱包支付。Selldone 钱包可以从他人接收费用，或通过礼品卡充值。无需信用卡即可使用这些服务。",
     },
     {
-      "question": "我如何在没有启动成本的情况下开始创业？",
-      "answer": "<ol><li>在<a href='https://selldone.com'>Selldone.com</a>免费注册。</li><li>建立你的商店。</li><li>添加您的产品和服务。</li><li>连接您的域名（可选）</li><li>启用支付网关。</li><li>开始向朋友和家人介绍您的业务。</li><li>在社交媒体上介绍您自己和您的产品。</li><li>通过提供独特的价值主张为您的企业打造品牌。</li><li>通过 Selldone 面板监控用户的行为。</li></ol>"
-    }
+      question: "我如何在没有启动成本的情况下开始创业？",
+      answer:
+        "<ol><li>在<a href='https://selldone.com'>Selldone.com</a>免费注册。</li><li>建立你的商店。</li><li>添加您的产品和服务。</li><li>连接您的域名（可选）</li><li>启用支付网关。</li><li>开始向朋友和家人介绍您的业务。</li><li>在社交媒体上介绍您自己和您的产品。</li><li>通过提供独特的价值主张为您的企业打造品牌。</li><li>通过 Selldone 面板监控用户的行为。</li></ol>",
+    },
   ],
-  "brands": {
-    "title": "在值得信赖的基础上建立您的业务。",
-    "subtitle": "你的生意值得信赖！"
+
+  brands: {
+    title: "在值得信赖的基础上建立您的业务。",
+    subtitle: "你的生意值得信赖！",
   },
-  "why_boxes": {
-    "block1": {
-      "title": "节省启动成本",
-      "subtitle": "无主题和无插件解决方案。"
+
+  why_boxes: {
+    title: "针对大规模在线和店内销售进行了优化",
+    subtitle:
+      "为转化而精心打造。使用旨在将访客转化为客户的直观工具来提升您的网上商店。",
+
+    block1: {
+      title: "节省启动成本",
+      subtitle: "无主题和无插件解决方案。",
     },
-    "block2": {
-      "title": "节省运营成本",
-      "subtitle": "没有额外的和隐藏的费用。"
+    block2: {
+      title: "节省运营成本",
+      subtitle: "没有额外的和隐藏的费用。",
     },
-    "block3": {
-      "title": "节省时间",
-      "subtitle": "企业级但对初学者友好。"
+    block3: {
+      title: "节省时间",
+      subtitle: "企业级但对初学者友好。",
     },
-    "title": "针对大规模在线和店内销售进行了优化",
-    "subtitle": "为转化而精心打造。使用旨在将访客转化为客户的直观工具来提升您的网上商店。"
   },
-  "money_transfer": {
-    "customer": "您的客户",
-    "bank": "您的银行账户",
-    "wallet": "钱包",
-    "free_setup": "免费设置。",
-    "no_extra_fee": "没有额外费用。",
-    "no_hidden_fee": "没有隐藏费用。"
+
+  money_transfer: {
+    customer: "您的客户",
+    bank: "您的银行账户",
+    wallet: "钱包",
+    free_setup: "免费设置。",
+    no_extra_fee: "没有额外费用。",
+    no_hidden_fee: "没有隐藏费用。",
   },
-    
-  "extra": {
-    "cart": "购物车管理",
-    "payment": "支付",
-    "shipping": "物流运输",
-    "fulfilment": "履行",
-    "community": "社区与反馈"
+
+  /** @see HomePanelExtraFlow **/
+  extra: {
+    cart: "购物车管理",
+    payment: "支付",
+    shipping: "物流运输",
+    fulfilment: "履行",
+    community: "社区与反馈",
   },
-  "select_language_dialog_title": "用您最喜欢的语言开展业务",
-  "welcome_title": "将您日常无数个决策，简化为一个选择",
-  "welcome_subtitle": "使用企业级、无代码的业务操作系统，像专业人士一样搭建、管理和扩展您的业务，轻松应对数百万订单并实现工作流自动化。",
-  "your_shop": "您的店面",
-  "your_dashboard": "您的仪表盘",
-  "flow": {
-    "title": "可定制的结帐流程。",
-    "subtitle": "设计您的客户旅程和购买流程。",
-    "pacman": "结帐插件"
+
+  team: {
+    title: "认识团队。",
+    msg: "在竞争激烈的电商平台领域，我们将用不同的规则来游戏。特别是在竞争对手花费数百万美元做广告时，我们更注重产品、人才和解决实际问题。我们团队支持你的业务！",
   },
-    
-  "business_model": {
-    "title": "多种业务模式。",
-    "subtitle": "以可视化方式搭建您的业务模式，后台自动调整优化所有复杂的流程。",
-    "pacman": "市场和 POD 定制生产插件"
+
+  customers: {
+    title: "认识我们的社区。",
+    msg: "这只是一个开始，通过向我们的客户学习，构建有意义的工具，铺设未来的创业者之路。",
   },
-  "team": {
-    "title": "认识团队。",
-    "msg": "在竞争激烈的电商平台领域，我们将用不同的规则来游戏。特别是在竞争对手花费数百万美元做广告时，我们更注重产品、人才和解决实际问题。我们团队支持你的业务！"
+  /** {@see PanoramaImage} {@see HomePage} */
+
+  panorama: {
+    title:
+      "#1 商业操作系统 — <b class=\"bg-gradient-animate text-gradient my-1\">所有功能都已预先构建</b>",
+    msg: "无需每月花费数千美元购买插件和应用，也不用担心更新问题。就像天使一样，Selldone为你的业务处理所有技术细节。",
+    orders_management: "订单管理",
+    online_pos: "在线POS",
+    shipping: "配送管理",
+    inventory_management: "库存管理",
+    social_commerce: "社交电商",
+    in_store_sell: "店内销售",
+    team: "团队/员工",
+    incentives: "奖励/会员忠诚度",
+    community: "社区管理",
+    payments: "本地支付",
+    ar_3d: "3D/AR",
   },
-  "customers": {
-    "title": "认识我们的社区。",
-    "msg": "这只是一个开始，通过向我们的客户学习，构建有意义的工具，铺设未来的创业者之路。"
+
+  no_plugin: "无插件",
+
+  product_page: {
+    title: "第一个产品添加后的展示效果。",
+    msg: "只需几次点击，让您的创意变为现实。",
+    open_sample_product_link: "打开示例产品",
+    open_templates: "查看模板",
   },
-  "panorama": {
-    "title": "没有昂贵的插件，<b class=\"font-weight-bold\">所有功能都是预先构建的</b>",
-    "msg": "无需每月花费数千美元购买插件和应用，也不用担心更新问题。就像天使一样，Selldone为你的业务处理所有技术细节。",
-    "orders_management": "订单管理",
-    "online_pos": "在线POS",
-    "shipping": "配送管理",
-    "inventory_management": "库存管理",
-    "social_commerce": "社交电商",
-    "in_store_sell": "店内销售",
-    "team": "团队/员工",
-    "incentives": "奖励/会员忠诚度",
-    "community": "社区管理",
-    "payments": "本地支付",
-    "ar_3d": "3D/AR"
+
+  /** {@see CountrySupportBox} */
+  support_box: {
+    country_select_label: "选择您的国家",
+    we_support_message: "我们支持{country}",
+    we_limited_support: "我们限制了对{country}的支持",
+    support_message_long:
+      "在您的国家体验无缝的在线交易，Selldone助力专业税务计算，提供多种支付方式，包括现金、POS、银行转账等。开始在一个全面支持您国家需求的平台上发展业务。",
+    limited_support_message_long:
+      "您的国家可能无法使用在线支付，但无需担心！Selldone全球支持现金支付、银行转账和货到付款（COD）。您可以放心地遵守国家和欧洲法规，安心开展线上业务。如需了解更多详情或咨询在线支付支持，请联系我们的客服团队。",
+    more_about_selldone_in_country: "您所在国家/地区的 Selldone情况",
+
+    tax: {
+      title: "税务友好",
+      message:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
+    },
+    global: {
+      title: "全球销售",
+      message:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
+    },
+    shipping: {
+      title: "本地与全球配送",
+      message:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
+    },
+    erp: {
+      title: "ERP 集成",
+      message:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
+    },
   },
-  "no_plugin": "无插件",
-  "storefront": "店面",
-  "back_office": "后台",
-  "product_page": {
-    "title": "第一个产品添加后的展示效果。",
-    "msg": "只需几次点击，让您的创意变为现实。",
-    "open_sample_product_link": "打开示例产品",
-    "open_templates": "查看模板"
+
+  hero: {
+    intro: "最好的商业操作系统",
+    title: "用一款 {app} 替代无限 {infinite} 插件与应用",
   },
-  "support_box": {
-    "country_select_label": "选择您的国家",
-    "we_support_message": "我们支持{country}",
-    "we_limited_support": "我们限制了对{country}的支持",
-    "support_message_long": "在您的国家体验无缝的在线交易，Selldone助力专业税务计算，提供多种支付方式，包括现金、POS、银行转账等。开始在一个全面支持您国家需求的平台上发展业务。",
-    "limited_support_message_long": "您的国家可能无法使用在线支付，但无需担心！Selldone全球支持现金支付、银行转账和货到付款（COD）。您可以放心地遵守国家和欧洲法规，安心开展线上业务。如需了解更多详情或咨询在线支付支持，请联系我们的客服团队。",
-    "more_about_selldone_in_country": "您所在国家/地区的 Selldone情况",
-    "support_worldwide_customers": "您可以将您的产品和服务销售给<b>所有国家</b>的所有客户！"
+
+  /**
+   * {@see MakeYourShopHeader}
+   */
+  make_your_shop: {
+    title: "自己动手",
+    amazon: "亚马逊",
+    local_store: "当地商店",
+    instagram: "Instagram 商店",
+    dropshipping: "代发货",
+    coursera: "Coursera",
+    gift_store: "礼品店",
+    airbnb: "Airbnb",
+    simple_store: "简易商店",
+    tiktok: "tiktok商店",
   },
-  "hero": {
-    "intro": "最好的商业操作系统",
-    "title": "用一款 {app} 替代无限 {infinite} 插件与应用"
+  /**
+   * {@see SectionShowItsSimplicity}
+   */
+  show_its_simplicity: {
+    title: "又一个无聊且复杂的 <div class=\"app-box\" style=\"font-size: 55%\">😣</div> 电商平台！？",
+    subtitle: "绝不是！在注册前先试试就知道...",
+    as_guest: "以访客身份",
+    need_register: "需要注册",
+
+    page_builder: {
+      title: "内置页面构建器",
+      subtitle:
+        "首个直观的拖拽式页面构建器，支持行内编辑。",
+      try_action: "试用页面构建器",
+      see_collection_action: "查看模板",
+    },
+    ai: {
+      title: "内置 AI 功能",
+      subtitle:
+        "业内最厉害的背景去除、图像优化、内容生成、自动产品创建等功能。",
+      try_action: "试用Selldone智能工具",
+    },
+    storefront: {
+      title: "实时店面",
+      subtitle:
+        "体验无需编写任何代码的现代电商网站，享受极速的购物体验。",
+      see_action: "查看演示店面",
+    },
+    backoffice: {
+      title: "实时后台",
+      subtitle: "无需任何插件，集中管理所有业务。",
+      see_action: "查看演示后台",
+    },
   },
-  
-  "make_your_shop": {
-    "title": "自己动手",
-    "amazon": "亚马逊",
-    "local_store": "当地商店",
-    "instagram": "Instagram 商店",
-    "dropshipping": "代发货",
-    "coursera": "Coursera",
-    "gift_store": "礼品店",
-    "airbnb": "Airbnb",
-    "simple_store": "简易商店",
-    "tiktok": "tiktok商店"
+
+  /**
+   * {@see SectionPricingCompact}
+   */
+  pricing_compact: {
+    title: "<div class=\"app-box\" style=\"font-size: 55%\">💞️</div>简单透明的定价",
+    subtitle:
+      "使用我们的收益分成模式，访问所有企业级功能，开始并扩展您的业务——无需预付，只需分成您的收入。我们只有在您成功时才成功，最大限度地减少您的成本，提升您的利润。",
   },
-  "show_its_simplicity": {
-    "title": "又一个无聊且复杂的 <div class=\"app-box\" style=\"font-size: 55%\">😣</div> 电商平台！？",
-    "subtitle": "绝不是！在注册前先试试就知道...",
-    "as_guest": "以访客身份",
-    "need_register": "需要注册",
-    "page_builder": {
-      "title": "内置页面构建器",
-      "subtitle": "首个直观的拖拽式页面构建器，支持行内编辑。",
-      "try_action": "试用页面构建器",
-      "see_collection_action": "查看模板"
+
+  screenshots: {
+    item_1: {
+      title: "简化您的订单管理。",
+      desc: "利用我们先进的列表和筛选功能，每天高效管理大量订单。",
     },
-    "ai": {
-      "title": "内置 AI 功能",
-      "subtitle": "业内最厉害的背景去除、图像优化、内容生成、自动产品创建等功能。",
-      "try_action": "试用Selldone智能工具"
+    item_2: {
+      title: "将您的商店连接到 POD 定制服务。",
+      desc: "轻松将您的商店连接到按需印刷直销服务（例如 Printful），并在印刷材料上销售您的艺术品，而无需任何其他插件。",
     },
-    "storefront": {
-      "title": "实时店面",
-      "subtitle": "体验无需编写任何代码的现代电商网站，享受极速的购物体验。",
-      "see_action": "查看演示店面"
+    item_3: {
+      title: "使用直观的企业工具完成订单。",
+      desc: "体验流畅的订单处理流程，请求直观、并一键更新订单状态。利用企业级工具提升履单能力。",
     },
-    "backoffice": {
-      "title": "实时后台",
-      "subtitle": "无需任何插件，集中管理所有业务。",
-      "see_action": "查看演示后台"
-    }
+    item_4: {
+      title: "订单的操作追踪。",
+      desc: "订单时间线详细记录所有操作和变更，方便查看是谁在何时进行了修改。",
+    },
+    item_5: {
+      title: "简化客户和供应商的沟通。",
+      desc: "结账和支付完成后，系统将自动发送带有您品牌标识的邮件给客户、供应商及自定义邮箱。",
+    },
+    item_6: {
+      title: "通过拖放操作轻松整理产品。",
+      desc: "产品在系统中如同文件，分类如文件夹。您可以轻松拖拽、重排、复制粘贴，甚至通过Excel文件批量导入产品。",
+    },
+    item_7: {
+      title: "轻松追踪您的订阅订单。",
+      desc: "获取包含所有当前及历史订阅订单的直观列表，包括下一次付款时间及每个订单的详细信息。",
+    },
+    item_8: {
+      title: "利用内置博客和 CMS 工具吸引客户。",
+      desc: "利用内置博客和内容管理系统创建公司及产品内容，通过SEO吸引新用户，并与客户互动。",
+    },
+    item_9: {
+      title: "连接操作系统——轻松接入外部服务。",
+      desc: "无需额外插件，即可连接市场、代发货供应商、POD定制服务商及财务软件等外部服务。",
+    },
+    item_10: {
+      title: "简化从外部导入产品。",
+      desc: "通过几次点击，实现Woocommerce和Printful等外部服务产品的自动导入。",
+    },
+    item_11: {
+      title: "将您的商店连接到 Google Merchant Center。",
+      desc: "将店铺与谷歌商家中心链接，顺畅同步所有商品和分类，实现谷歌广告投放。",
+    },
+    item_12: {
+      title: "Avocado——轻松在社交媒体上销售产品。",
+      desc: "借助Avocado，无需手动添加产品和价格，自动生成订单支付链接，还能创建带支付链接的定制账单。",
+    },
+    item_13: {
+      title: "Ribbon — 轻松创建和销售订阅。",
+      desc: "Ribbon 是一个功能强大的工具，只需单击几下即可让您轻松创建和销售订阅类型的产品，例如订阅盒、付费墙和各种类型的内容。",
+    },
+    item_14: {
+      title: "为店铺提供多种支付方式。",
+      desc: "为店铺提供多样支付选项，如同时接入Stripe和PayPal，提升客户体验。",
+    },
+    item_15: {
+      title:
+        "通过折扣、优惠、优惠券和游戏化激励客户购买。",
+      desc: "利用折扣码、促销优惠、智能折扣、优惠券、礼品卡及游戏化元素，激励客户更多购买。",
+    },
+    item_16: {
+      title: "利用服务器端活动管理，实现营销活动的最大化效果。",
+      desc: "利用服务器端营销和活动管理来获取有关您的活动效果的最有洞察力和最准确的信息。",
+    },
+    item_17: {
+      title: "管理联盟推广支付和销售。",
+      desc: "加入联盟成员，高效管理支付和销售，支持为每个联盟成员分配独立客户域名等高级功能。",
+    },
+    item_18: {
+      title: "高效的管理库存和定价。",
+      desc: "物流与库存管理工具助您组织、筛选并管理成千上万产品及其变体的库存与定价。",
+    },
+    item_19: {
+      title: "实时客户活动和统计数据。",
+      desc: "实时获取最新的客户行为和网站统计数据，助力数据驱动决策。",
+    },
+    item_20: {
+      title: "通过建立社区维护客户提升销售。",
+      desc: "构建互动社区，提升店铺销售，增强用户参与度，建立信任，并利用免费内容的SEO优势。",
+    },
+    item_21: {
+      title: "提升您的客户体验。",
+      desc: "组织和细分客户群，分析客户终身价值、过去线上及线下购买记录，跟踪客户旅程，同时尊重客户隐私。",
+    },
+    item_22: {
+      title: "轻松设计互动式页面。",
+      desc: "利用内置无代码页面构建器，拖拽创建自定义的引人注目且响应式的内部和登陆页。",
+    },
+    item_23: {
+      title: "使用内联页面编辑器简化编辑。",
+      desc: "使用内联编辑器轻松编辑页面中的文本和图片，操作简单直观。",
+    },
+    item_24: {
+      title: "管理团队和角色访问权限。",
+      desc: "邀请团队成员，设定员工角色和访问权限，业务和团队升级时，业务操作系统同步升级。",
+    },
+    item_25: {
+      title: "创建你自己的应用程序。",
+      desc: "从渐进式网页应用开始您的业务，为客户提供比竞争对手更快的使用体验。",
+    },
+    item_26: {
+      title: "先进的自动化工具和成本节省。",
+      desc: "利用可集成到您的商店的先进自动化工具来简化您的业务运营并节省宝贵的时间和资源。",
+    },
+    item_27: {
+      title: "轻松定制您的店面。",
+      desc: "通过视觉化自定义选项（主题、配色方案、字体等），轻松个性化店面，无需编码或技术技能。",
+    },
+    item_28: {
+      title: "设计个性化的客户购物体验。",
+      desc: "利用Selldone的多种选项设计个性化客户购物体验，如登录入口设计和启用访客购物等。",
+    },
+    item_29: {
+      title: "创建自定义登录和流程选项增强体验。",
+      desc: "创建个性化的登录和流程体验，为您的在线商店提供各种社交登录选项。",
+    },
+    item_30: {
+      title: "支持复杂的商业模型。",
+      desc: "Selldone支持市场、代发货供应商、联盟和特许经营等高级商业模式，一键轻松切换设置。",
+    },
+    item_31: {
+      title: "链接多个自定义域名。",
+      desc: "您可以将多个自定义域名链接到您业务的特定页面，例如社区、商店、博客、登录页面甚至联盟伙伴。",
+    },
+    item_32: {
+      title: "支持多种语言和自动翻译。",
+      desc: "店铺全面支持多语言，包括RTL和LTR，轻松安装启用自动翻译包，提升特别是多语言的欧盟区转化率。",
+    },
+    item_33: {
+      title: "内置多税率灵活计算。",
+      desc: "可创建多个税率配置方案并分配至特定产品，灵活计算增值税和销售税，例如针对食品或电器设定不同税率。",
+    },
+    item_34: {
+      title: "多区域税率计算。",
+      desc: "销售至不同国家和地区时，使用默认或自定义税收规则，支持覆盖特定地区和税务区的规则。",
+    },
+    item_35: {
+      title: "使用强大的内联编辑器发布文章。",
+      desc: "先进的内联文章编辑器简化文章发布和审阅流程，高效且保持内容一致性。",
+    },
+    item_36: {
+      title: "每个产品都有专用的仪表板。",
+      desc: "每个产品拥有专属仪表盘，提供统计数据、所需信息及管理所需的所有操作入口。",
+    },
+    item_37: {
+      title: "自动翻译文章。",
+      desc: "使用内置企业级AI翻译功能，一键轻松将产品描述翻译成多种语言。",
+    },
+    item_38: {
+      title: "内置分析工具。",
+      desc: "可使用完全服务器端的内置分析工具，安全且符合GDPR，无需使用cookie。",
+    },
+    item_39: {
+      title: "覆盖大部分高级 SEO 需求。",
+      desc: "内部工具为您提供最活跃关键词、表现最佳URL以及Google搜索上的业务表现概览，采用表格和图表形式展示。",
+    },
   },
-  "pricing_compact": {
-    "title": "<div class=\"app-box\" style=\"font-size: 55%\">💞️</div>简单透明的定价",
-    "subtitle": "使用我们的收益分成模式，访问所有企业级功能，开始并扩展您的业务——无需预付，只需分成您的收入。我们只有在您成功时才成功，最大限度地减少您的成本，提升您的利润。"
+
+  country_landing: {
+    intro: "#1 企业操作系统",
+    title: "在 {country} 用 {app} 替代 {infinite} 个插件和应用",
   },
-  
-  "screenshots": {
-    "item_1": {
-      "title": "简化您的订单管理。",
-      "desc": "利用我们先进的列表和筛选功能，每天高效管理大量订单。"
+
+  /**
+   * @see IntegrationPaymentPage
+   */
+  payment_landing: {
+    intro: "#1 企业操作系统",
+    title: "用 {app} 替代 {infinite} 个插件和应用",
+
+    unlock_section: {
+      title: "解锁 {payment} 并开始在你的网站赚钱",
+      subtitle:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
+      no_plugin: {
+        title: "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
+        subtitle:
+          "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售 {payment}",
+      },
+      experience: {
+        title: "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售 {payment}",
+        subtitle:
+          "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售 {payment}",
+      },
+      boost: {
+        title: "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
+        subtitle:
+          "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售 {payment}",
+      },
+      security: {
+        title: "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
+        subtitle:
+          "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售 {payment}",
+      },
+      setup_payment: "设置支付",
     },
-    "item_2": {
-      "title": "将您的商店连接到 POD 定制服务。",
-      "desc": "轻松将您的商店连接到按需印刷直销服务（例如 Printful），并在印刷材料上销售您的艺术品，而无需任何其他插件。"
+
+    how_to_add: {
+      step_1: {
+        step: "步骤 1",
+        title: "添加你的货币",
+        subtitle:
+          "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售 {payment}",
+      },
+      step_2: {
+        step: "步骤 2",
+        title: "设置你的网关",
+        subtitle: "接下来，进入店铺 > 会计 > 网关标签，点击 <b>新的支付方式</b>，选择货币并选择 <b>{payment}</b>。你可以在调试或正式模式中添加网关。请确保为每种模式输入正确的 API 密钥，可在你的 <a href=\"{payment_url}\" target=\"_blank\">{payment} 账户</a> 中找到",
+      },
     },
-    "item_3": {
-      "title": "使用直观的企业工具完成订单。",
-      "desc": "体验流畅的订单处理流程，请求直观、并一键更新订单状态。利用企业级工具提升履单能力。"
+
+    integration: {
+      title: "与 {payment} 轻松完成电商集成",
+      subtitle:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
     },
-    "item_4": {
-      "title": "订单的操作追踪。",
-      "desc": "订单时间线详细记录所有操作和变更，方便查看是谁在何时进行了修改。"
+    pay_after_earn: {
+      title: "盈利后再付费",
+      subtitle:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
     },
-    "item_5": {
-      "title": "简化客户和供应商的沟通。",
-      "desc": "结账和支付完成后，系统将自动发送带有您品牌标识的邮件给客户、供应商及自定义邮箱。"
+  },
+
+  feature_page_builder: {
+    title: "销售驱动型页面构建器",
+    message:
+      "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
+  },
+
+  feature_items: {
+    products: {
+      title: "直观的商品管理",
+      description:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
     },
-    "item_6": {
-      "title": "通过拖放操作轻松整理产品。",
-      "desc": "产品在系统中如同文件，分类如文件夹。您可以轻松拖拽、重排、复制粘贴，甚至通过Excel文件批量导入产品。"
+    excel: {
+      title: "Excel 数据导入",
+      description:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
     },
-    "item_7": {
-      "title": "轻松追踪您的订阅订单。",
-      "desc": "获取包含所有当前及历史订阅订单的直观列表，包括下一次付款时间及每个订单的详细信息。"
+    incentive: {
+      title: "销售激励",
+      description:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
     },
-    "item_8": {
-      "title": "利用内置博客和 CMS 工具吸引客户。",
-      "desc": "利用内置博客和内容管理系统创建公司及产品内容，通过SEO吸引新用户，并与客户互动。"
+    loyalty: {
+      title: "客户忠诚度",
+      description:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
     },
-    "item_9": {
-      "title": "连接操作系统——轻松接入外部服务。",
-      "desc": "无需额外插件，即可连接市场、代发货供应商、POD定制服务商及财务软件等外部服务。"
+    cashback: {
+      title: "返现优惠",
+      description:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
     },
-    "item_10": {
-      "title": "简化从外部导入产品。",
-      "desc": "通过几次点击，实现Woocommerce和Printful等外部服务产品的自动导入。"
+    cross_selling: {
+      title: "交叉销售工具",
+      description:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
     },
-    "item_11": {
-      "title": "将您的商店连接到 Google Merchant Center。",
-      "desc": "将店铺与谷歌商家中心链接，顺畅同步所有商品和分类，实现谷歌广告投放。"
+    accounting: {
+      title: "简单会计",
+      description: "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
     },
-    "item_12": {
-      "title": "Avocado——轻松在社交媒体上销售产品。",
-      "desc": "借助Avocado，无需手动添加产品和价格，自动生成订单支付链接，还能创建带支付链接的定制账单。"
+    inventory: {
+      title: "库存控制",
+      description:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
     },
-    "item_13": {
-      "title": "Ribbon — 轻松创建和销售订阅。",
-      "desc": "Ribbon 是一个功能强大的工具，只需单击几下即可让您轻松创建和销售订阅类型的产品，例如订阅盒、付费墙和各种类型的内容。"
+    analytics: {
+      title: "高级分析",
+      description:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
     },
-    "item_14": {
-      "title": "为店铺提供多种支付方式。",
-      "desc": "为店铺提供多样支付选项，如同时接入Stripe和PayPal，提升客户体验。"
+    social: {
+      title: "多渠道销售",
+      description:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
     },
-    "item_15": {
-      "title": "通过折扣、优惠、优惠券和游戏化激励客户购买。",
-      "desc": "利用折扣码、促销优惠、智能折扣、优惠券、礼品卡及游戏化元素，激励客户更多购买。"
+    community: {
+      title: "社区构建器",
+      description:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
     },
-    "item_16": {
-      "title": "利用服务器端活动管理，实现营销活动的最大化效果。",
-      "desc": "利用服务器端营销和活动管理来获取有关您的活动效果的最有洞察力和最准确的信息。"
+    security: {
+      title: "团队管理",
+      description:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
     },
-    "item_17": {
-      "title": "管理联盟推广支付和销售。",
-      "desc": "加入联盟成员，高效管理支付和销售，支持为每个联盟成员分配独立客户域名等高级功能。"
+    pos: {
+      title: "店内 POS",
+      description:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
     },
-    "item_18": {
-      "title": "高效的管理库存和定价。",
-      "desc": "物流与库存管理工具助您组织、筛选并管理成千上万产品及其变体的库存与定价。"
+    store: {
+      title: "多卖家市场",
+      description: "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
     },
-    "item_19": {
-      "title": "实时客户活动和统计数据。",
-      "desc": "实时获取最新的客户行为和网站统计数据，助力数据驱动决策。"
+    pricing: {
+      title: "动态定价",
+      description:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
     },
-    "item_20": {
-      "title": "通过建立社区维护客户提升销售。",
-      "desc": "构建互动社区，提升店铺销售，增强用户参与度，建立信任，并利用免费内容的SEO优势。"
+    pod: {
+      title: "代发货集成",
+      description:
+        "此部分可帮助你在 Selldone 中更轻松地管理店铺、订单、客户和销售",
     },
-    "item_21": {
-      "title": "提升您的客户体验。",
-      "desc": "组织和细分客户群，分析客户终身价值、过去线上及线下购买记录，跟踪客户旅程，同时尊重客户隐私。"
-    },
-    "item_22": {
-      "title": "轻松设计互动式页面。",
-      "desc": "利用内置无代码页面构建器，拖拽创建自定义的引人注目且响应式的内部和登陆页。"
-    },
-    "item_23": {
-      "title": "使用内联页面编辑器简化编辑。",
-      "desc": "使用内联编辑器轻松编辑页面中的文本和图片，操作简单直观。"
-    },
-    "item_24": {
-      "title": "管理团队和角色访问权限。",
-      "desc": "邀请团队成员，设定员工角色和访问权限，业务和团队升级时，业务操作系统同步升级。"
-    },
-    "item_25": {
-      "title": "创建你自己的应用程序。",
-      "desc": "从渐进式网页应用开始您的业务，为客户提供比竞争对手更快的使用体验。"
-    },
-    "item_26": {
-      "title": "先进的自动化工具和成本节省。",
-      "desc": "利用可集成到您的商店的先进自动化工具来简化您的业务运营并节省宝贵的时间和资源。"
-    },
-    "item_27": {
-      "title": "轻松定制您的店面。",
-      "desc": "通过视觉化自定义选项（主题、配色方案、字体等），轻松个性化店面，无需编码或技术技能。"
-    },
-    "item_28": {
-      "title": "设计个性化的客户购物体验。",
-      "desc": "利用Selldone的多种选项设计个性化客户购物体验，如登录入口设计和启用访客购物等。"
-    },
-    "item_29": {
-      "title": "创建自定义登录和流程选项增强体验。",
-      "desc": "创建个性化的登录和流程体验，为您的在线商店提供各种社交登录选项。"
-    },
-    "item_30": {
-      "title": "支持复杂的商业模型。",
-      "desc": "Selldone支持市场、代发货供应商、联盟和特许经营等高级商业模式，一键轻松切换设置。"
-    },
-    "item_31": {
-      "title": "链接多个自定义域名。",
-      "desc": "您可以将多个自定义域名链接到您业务的特定页面，例如社区、商店、博客、登录页面甚至联盟伙伴。"
-    },
-    "item_32": {
-      "title": "支持多种语言和自动翻译。",
-      "desc": "店铺全面支持多语言，包括RTL和LTR，轻松安装启用自动翻译包，提升特别是多语言的欧盟区转化率。"
-    },
-    "item_33": {
-      "title": "内置多税率灵活计算。",
-      "desc": "可创建多个税率配置方案并分配至特定产品，灵活计算增值税和销售税，例如针对食品或电器设定不同税率。"
-    },
-    "item_34": {
-      "title": "多区域税率计算。",
-      "desc": "销售至不同国家和地区时，使用默认或自定义税收规则，支持覆盖特定地区和税务区的规则。"
-    },
-    "item_35": {
-      "title": "使用强大的内联编辑器发布文章。",
-      "desc": "先进的内联文章编辑器简化文章发布和审阅流程，高效且保持内容一致性。"
-    },
-    "item_36": {
-      "title": "每个产品都有专用的仪表板。",
-      "desc": "每个产品拥有专属仪表盘，提供统计数据、所需信息及管理所需的所有操作入口。"
-    },
-    "item_37": {
-      "title": "自动翻译文章。",
-      "desc": "使用内置企业级AI翻译功能，一键轻松将产品描述翻译成多种语言。"
-    },
-    "item_38": {
-      "title": "内置分析工具。",
-      "desc": "可使用完全服务器端的内置分析工具，安全且符合GDPR，无需使用cookie。"
-    },
-    "item_39": {
-      "title": "覆盖大部分高级 SEO 需求。",
-      "desc": "内部工具为您提供最活跃关键词、表现最佳URL以及Google搜索上的业务表现概览，采用表格和图表形式展示。"
-    }
-  }
+  },
 };

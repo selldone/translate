@@ -1,596 +1,794 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "surveys": [
-    "Abakene cyane",
-    "Abakene",
-    "Bisanzwe",
-    "Nibyiza",
-    "Neza"
-  ],
-  "footer": {
-    "map": "Ikarita",
-    "email": "Imeri",
-    "phone": "Terefone",
-    "address": "Aderesi",
-    "copyright": "Gukoresha ibirimo gusa kubitari ubucuruzi kandi bijyanye ninkomoko (ihuza na {shop_title}). Uburenganzira bwose bwihariwe {shop_title}.",
-    "powered_by": "Byakozwe na",
-    "privacy": "Politiki y’ibanga",
-    "term_of_use": "Amategeko yo gukoresha",
-    "shop_app_setting": "Igenamiterere ryamaduka & GDPR",
-    "dialog_setting": {
-      "title": "Gura Porogaramu",
-      "app_list": "Urutonde rwa porogaramu"
-    }
-  },
-  "product_card": {
-    "sold_out": "Igurishwa",
-    "review_unit": "Isubiramo",
-    "not_original": "Ntabwo ari umwimerere"
-  },
-  "shop": {
-    "products_filter": "Akayunguruzo",
-    "native": {
-      "title": "Kwinjira",
-      "message": "Iyi porogaramu isaba kubona amakuru yububiko bwa konte yawe. Ibi birimo kubona izina, nomero y'itumanaho, aderesi, imeri, amateka yo gutumiza, gutumiza no kohereza ibitekerezo kuriyi mangazini.",
-      "message_bold": "Witondere gukoresha porogaramu yububiko kugirango winjire mububiko."
-    }
-  },
-  "sort": {
-    "title": "Gutondekanya na",
-    "title_small": "Gutondekanya na ..",
-    "nothing": "Ntacyo",
-    "most_views": "Ibitekerezo byinshi",
-    "most_likes": "Bikunzwe cyane",
-    "most_recent": "Agashya",
-    "most_sell": "Kugurisha",
-    "cheapest": "Guhendutse",
-    "most_expensive": "Birahenze cyane",
-    "only_available": "Birashoboka",
-    "view_mode": {
-      "normal": "Bisanzwe",
-      "grid": "Grid",
-      "list": "Urutonde",
-      "insta": "Insta"
-    }
-  },
-  "product_info": {
-    "fake": "Impimbano",
-    "action": "Cyamunara",
-    "compare_limit": "Ibintu 10 bigarukira",
-    "compare_add": "Ongeraho Kugereranya",
-    "compare_be_in_list": "Mugereranije urutonde",
-    "type": "Ubwoko",
-    "brand": "Ikirango",
-    "category": "Icyiciro",
-    "discount": "Kugabanuka",
-    "track_price": "Kurikirana igiciro",
-    "waiting_for_auction": "Gutegereza cyamunara?",
-    "inform_auction": "Mbwira ibya cyamunara",
-    "return_in_days": "iminsi} Iminsi garanti yo kugaruka",
-    "support24h7": "Shyigikira amasaha 24 iminsi 7",
-    "support_normal": "Inkunga y'amasaha y'akazi",
-    "original_guarantee": "Ingwate y'umwimerere",
-    "cod_payment": "Amafaranga yo kugoboka",
-    "pros": "Ibyiza",
-    "cons": "Ibibi",
-    "external_link": "Soma Ibikurikira",
-    "notifications": {
-      "congratulation": "Twishimiye",
-      "waiting_list_add_success": "Tuzakumenyesha mugihe iki gicuruzwa cyamunara.",
-      "waiting_list_delete_success": "Wasohotse kurutonde rwa cyamunara."
+  /** @see SShopProductRatingView **/
+  surveys: ["Abakene cyane", "Abakene", "Bisanzwe", "Nibyiza", "Neza"],
+
+  /** @see SFooterSection **/
+  footer: {
+    map: "Ikarita",
+    email: "Imeri",
+    phone: "Terefone",
+    address: "Aderesi",
+
+    copyright:
+      "Gukoresha ibirimo gusa kubitari ubucuruzi kandi bijyanye ninkomoko (ihuza na {shop_title}). Uburenganzira bwose bwihariwe {shop_title}.",
+    powered_by: "Byakozwe na",
+    privacy: "Politiki y’ibanga",
+    term_of_use: "Amategeko yo gukoresha",
+    shop_app_setting: "Igenamiterere ryamaduka & GDPR",
+
+    dialog_setting: {
+      title: "Gura Porogaramu",
+      app_list: "Urutonde rwa porogaramu",
     },
-    "offer_message": "Gura {min_quantity} Kubona {percent}% kubintu",
-    "up_to": "Kugeza kuri {per_order} x kuri buri cyegeranyo",
-    "get_free": "SHAKA KUBUNTU",
-    "get_off": "KUBONA {percent}% OFF",
-    "select_a_vendor_message": "Nyamuneka hitamo umucuruzi.",
-    "product_description_header": "Kumenyekanisha {product}"
   },
-  "buy_button": {
-    "waiting_for_availability": "Gutegereza kuboneka",
-    "inform_me_when_available": "Kurindira ibi?",
-    "pay_buy": "Kwishura & Kugura",
-    "quantity": "Kubara",
-    "quantity_in_basket": "Ibintu biri mumagare",
-    "count_unit": "x",
-    "remove": "Kuraho",
-    "add_to_basket": "Ongera ku gare",
-    "buy": "Gura",
-    "notifications": {
-      "inform_add_success": "Tuzakumenyesha igihe biboneka.",
-      "inform_remove_success": "Wakuwe kurutonde rwo gutegereza."
+
+  /** @see SShopProductCard **/
+  product_card: {
+    sold_out: "Igurishwa",
+    review_unit: "Isubiramo",
+    not_original: "Ntabwo ari umwimerere",
+  },
+
+  /** @see ShopPage **/
+  /** @see Shop **/
+  shop: {
+    products_filter: "Akayunguruzo",
+    native: {
+      title: "Kwinjira",
+      message:
+        "Iyi porogaramu isaba kubona amakuru yububiko bwa konte yawe. Ibi birimo kubona izina, nomero y'itumanaho, aderesi, imeri, amateka yo gutumiza, gutumiza no kohereza ibitekerezo kuriyi mangazini.",
+      message_bold:
+        "Witondere gukoresha porogaramu yububiko kugirango winjire mububiko.",
     },
-    "subscribe_now": "Iyandikishe nonaha",
-    "unsubscribe": "Kwiyandikisha",
-    "select_a_subscription_plan": "Hitamo gahunda mbere!",
-    "manage_subscriptions": "Gucunga abiyandikishije"
   },
-  "product": {
-    "review": "Isubiramo",
-    "spec": "Kugaragara",
-    "comments": "Ibitekerezo",
-    "related_products_title": "Ibicuruzwa bifitanye isano",
-    "price": "Igiciro",
-    "rate": "Igipimo",
-    "comment": "Igitekerezo",
-    "warranty": "Garanti",
-    "return_policy": "Politiki yo kugaruka",
-    "guide": "Ubuyobozi",
-    "shipping": "Kohereza",
-    "related_categories_title": "Menya mu byegeranyo"
-  },
-  "layout_shop": {
-    "shop_menu": {
-      "orders_history": "Tegeka Amateka",
-      "profile": "Umwirondoro wanjye",
-      "favorites": "Ibintu Ukunda",
-      "gift_cards": "Ikarita y'impano",
-      "return_requests": "Amabwiriza yasubijwe",
-      "basket": "Ikarita yo Guhaha"
+
+  /** @see SortView **/
+  sort: {
+    title: "Gutondekanya na",
+    title_small: "Gutondekanya na ..",
+    nothing: "Ntacyo",
+    most_views: "Ibitekerezo byinshi",
+    most_likes: "Bikunzwe cyane",
+    most_recent: "Agashya",
+    most_sell: "Kugurisha",
+    cheapest: "Guhendutse",
+    most_expensive: "Birahenze cyane",
+    only_available: "Birashoboka",
+    view_mode: {
+      normal: "Bisanzwe",
+      grid: "Urusobe",
+      list: "Urutonde",
+      insta: "Insta",
     },
-    "user_menu": {
-      "my_shops": "Amaduka yanjye",
-      "go_to_admin": "Gucunga {shop_name}",
-      "exit_from": "Logout {shop_name}",
-      "chips": "ipipi} Chips"
+  },
+
+  /** @see SProductOverview **/
+  product_info: {
+    fake: "Impimbano",
+    action: "Cyamunara",
+    compare_limit: "Ibintu 10 bigarukira",
+    compare_add: "Ongeraho Kugereranya",
+    compare_be_in_list: "Mugereranije urutonde",
+
+    type: "Ubwoko",
+    brand: "Ikirango",
+    category: "Icyiciro",
+    discount: "Kugabanuka",
+    track_price: "Kurikirana igiciro",
+    waiting_for_auction: "Gutegereza cyamunara?",
+    inform_auction: "Mbwira ibya cyamunara",
+    return_in_days: "Garanti yo gusubiza mu minsi {days}",
+    support24h7: "Shyigikira amasaha 24 iminsi 7",
+    support_normal: "Inkunga y'amasaha y'akazi",
+    original_guarantee: "Ingwate y'umwimerere",
+    cod_payment: "Amafaranga yo kugoboka",
+
+    pros: "Ibyiza",
+    cons: "Ibibi",
+
+    external_link: "Soma Ibikurikira",
+    notifications: {
+      congratulation: "Twishimiye",
+      waiting_list_add_success:
+        "Tuzakumenyesha mugihe iki gicuruzwa cyamunara.",
+      waiting_list_delete_success: "Wasohotse kurutonde rwa cyamunara.",
     },
-    "login_to_shop": "Injira mububiko",
-    "login_to_shop_short": "injira",
-    "item_in_basket_message": "{count} Iki kintu kiri mumagare yawe.",
-    "search_title": "Shakisha mububiko {shop_name}"
+
+    offer_message: "Gura {min_quantity} Kubona {percent}% kubintu",
+    up_to: "Kugeza kuri {per_order} x kuri buri cyegeranyo",
+    get_free: "SHAKA KUBUNTU",
+    get_off: "KUBONA {percent}% OFF",
+    select_a_vendor_message: "Nyamuneka hitamo umucuruzi.",
+    product_description_header: "Kumenyekanisha {product}",
   },
-  "basket_top_menu": {
-    "basket": "Igare",
-    "basket_is_empty": "Igare ryawe ririmo ubusa.",
-    "total_price": "Igiteranyo",
-    "view_basket": "Igare ryawe",
-    "more": "Ibindi ...",
-    "accept_and_pay": "Kugenzura",
-    "items": "Ingingo (s)"
+
+  /** @see SShopBuyButton **/
+
+  buy_button: {
+    waiting_for_availability: "Gutegereza kuboneka",
+    inform_me_when_available: "Kurindira ibi?",
+    pay_buy: "Kwishura & Kugura",
+    quantity: "Kubara",
+    quantity_in_basket: "Ibintu biri mumagare",
+    count_unit: "x",
+    remove: "Kuraho",
+    add_to_basket: "Ongera ku gare",
+    buy: "Gura",
+    subscribe_now: "Iyandikishe nonaha",
+    unsubscribe: "Kwiyandikisha",
+    select_a_subscription_plan: "Hitamo gahunda mbere!",
+    manage_subscriptions: "Gucunga abiyandikishije",
+    notifications: {
+      inform_add_success: "Tuzakumenyesha igihe biboneka.",
+      inform_remove_success: "Wakuwe kurutonde rwo gutegereza.",
+    },
+    zip_pin_input: "ZIP / PIN",
+    zip_pin_not_available_msg: "Ntibiboneka muri aha hantu!",
+    zip_pin_placeholder: "Hitamo kode ya ZIP/PIN...",
   },
-  "history_orders_physical": {
-    "rejected": "Yanze",
-    "table": {
-      "code": "Kode y'itegeko",
-      "reserved": "Itariki",
-      "delivery_state": "Imiterere yo gutanga",
-      "price": "Igiciro cyose",
-      "status": "Imiterere yo Kwishura"
-    }
+
+  /** @see StorefrontPageProduct **/
+
+  product: {
+    review: "Isubiramo",
+    spec: "Kugaragara",
+    comments: "Ibitekerezo",
+    price: "Igiciro",
+    rate: "Igipimo",
+    comment: "Igitekerezo",
+    warranty: "Garanti",
+    return_policy: "Politiki yo kugaruka",
+    guide: "Ubuyobozi",
+    shipping: "Kohereza",
+    related_products_title: "Ibicuruzwa bifitanye isano",
+    related_categories_title: "Menya mu byegeranyo",
   },
-  "history_orders": {
-    "table": {
-      "code": "Kode y'itegeko",
-      "items": "Ibintu",
-      "reserved": "Itariki",
-      "delivery_state": "Imiterere iheruka",
-      "price": "Igiciro cyose",
-      "status": "Imiterere yo Kwishura"
-    }
+
+  /** @see StorefrontLayout **/
+  layout_shop: {
+    shop_menu: {
+      orders_history: "Tegeka Amateka",
+      profile: "Umwirondoro wanjye",
+      favorites: "Ibintu Ukunda",
+      gift_cards: "Ikarita y'impano",
+      return_requests: "Amabwiriza yasubijwe",
+      basket: "Ikarita yo Guhaha",
+    },
+    user_menu: {
+      my_shops: "Amaduka yanjye",
+      go_to_admin: "Gucunga {shop_name}",
+      exit_from: "Sohoka muri {shop_name}",
+      chips: "{chips} chip",
+    },
+    login_to_shop: "Injira mububiko",
+    login_to_shop_short: "injira",
+    item_in_basket_message: "{count} Iki kintu kiri mumagare yawe.",
+    search_title: "Shakisha mububiko {shop_name}",
   },
-  "user_page": {
-    "menu": {
-      "gift_card": "Ikarita y'Impano",
-      "comments": "Ibitekerezo",
-      "favorites": "Bikunzwe",
-      "return_requests": "Garuka",
-      "addresses": "Aderesi",
-      "profile": "umwirondoro",
-      "orders": "Amabwiriza"
-    }
+
+  /** {@see BasketTopMenu} **/
+  basket_top_menu: {
+    basket: "Igare",
+    basket_is_empty: "Igare ryawe ririmo ubusa.",
+    total_price: "Igiteranyo",
+    view_basket: "Igare ryawe",
+    more: "Ibindi ...",
+    accept_and_pay: "Kugenzura",
+    items: "Ingingo (s)",
   },
-  "order_page": {
-    "title": "Tegeka",
-    "payment": {
-      "title": "Kwishura",
-      "payment_waiting": "Gutegereza ubwishyu",
-      "payment_completed": "Yishyuwe",
-      "table": {
-        "title": "Umutwe",
-        "amount": "Umubare",
-        "description": "Ibisobanuro"
+
+  /** {@see StorefrontPageUserOrdersPhysical} **/
+  history_orders_physical: {
+    rejected: "Yanze",
+    table: {
+      code: "Kode y'itegeko",
+      reserved: "Itariki",
+      delivery_state: "Imiterere yo gutanga",
+      price: "Igiciro cyose",
+      status: "Imiterere yo Kwishura",
+    },
+  },
+  /** {@see SOrdersList} **/
+  history_orders: {
+    table: {
+      code: "Kode y'itegeko",
+      items: "Ibintu",
+      reserved: "Itariki",
+      delivery_state: "Imiterere iheruka",
+      price: "Igiciro cyose",
+      status: "Imiterere yo Kwishura",
+    },
+  },
+
+  /** {@see StorefrontPageUser} **/
+  user_page: {
+    menu: {
+      gift_card: "Ikarita y'Impano",
+      comments: "Ibitekerezo",
+      favorites: "Bikunzwe",
+      return_requests: "Garuka",
+      addresses: "Aderesi",
+      profile: "umwirondoro",
+      orders: "Amabwiriza",
+      wallets: "Udufuka tw’amafaranga",
+    },
+  },
+  /**
+   * @see StorefrontPageUserWallets
+   */
+  user_wallets: {
+    title: "Udufuka twanjye tw’amafaranga",
+    subtitle: "Niba wemerewe kandi porogaramu yo gusubizwa amafaranga ikaba ikora, igice cy’itegeko ryawe kizashyirwa mu gafuka kawe k’amafaranga. Ushobora gukoresha ayo mafaranga mu kugura ubutaha."
+  },
+  /**
+   * @see SWalletInput
+   */
+  wallet_input:{
+    my_wallet_balance:"Amafaranga asigaye mu gafuka kanjye",
+  },
+
+
+  /** {@see StorefrontPageBasketOrderPhysicalDashboard} **/
+  order_page: {
+    title: "Tegeka",
+
+    /** {@see SShopCustomerOrderPaymentWidget} **/
+    payment: {
+      title: "Kwishura",
+      payment_waiting: "Gutegereza ubwishyu",
+      payment_completed: "Yishyuwe",
+      table: {
+        title: "Umutwe",
+        amount: "Umubare",
+        description: "Ibisobanuro",
       },
-      "total_payment": "Amafaranga yishyuwe",
-      "discount": "Kugabanuka",
-      "discount_code": "Kode yo kugabanya",
-      "delivery_fee": "Igiciro cyo kohereza",
-      "delivery_fee_after": "Nta bicuruzwa byatanzwe",
-      "total_price": "Igiciro cyose",
-      "total_items_discount": "Ibintu Kugabanuka",
-      "total_price_after_offers": "Igiteranyo nyuma yo gusaba ibyifuzo",
-      "buyer_payment": "Amafaranga yo kugura",
-      "total_order_price_before_tax": "Imbere yumusoro Igiciro cyose"
+      total_payment: "Amafaranga yishyuwe",
+      discount: "Kugabanuka",
+      discount_code: "Kode yo kugabanya",
+      delivery_fee: "Igiciro cyo kohereza",
+      delivery_fee_after: "Nta bicuruzwa byatanzwe",
+
+      total_price: "Igiciro cyose",
+      total_items_discount: "Ibintu Kugabanuka",
+      total_price_after_offers: "Igiteranyo nyuma yo gusaba ibyifuzo",
+      total_order_price_before_tax: "Imbere yumusoro Igiciro cyose",
+
+      buyer_payment: "Amafaranga yo kugura",
+
+      payment_is_in_require_capture_message:
+        "Twakiriye ubwishyu bwawe, ariko ntiburaremezwa burundu.",
+      settle_the_earlier_bill_first: "Banza wishyure fagitire ya mbere!",
     },
-    "delivery": {
-      "title": "Gutanga",
-      "subtitle": "Ibisobanuro byabaguzi",
-      "confirm_received_action": "Emeza ibicuruzwa byakiriwe",
-      "confirm_received_info": "Kanda buto yo kwemeza niba wakiriye itegeko. Nibikenewe, uzashobora kohereza niba wakiriye ibyemezo.",
-      "Recipient": "Uwakiriye",
-      "bill": "Inyemezabuguzi",
-      "name": "Izina",
-      "tel": "Terefone",
-      "email": "Imeri",
-      "country": "Igihugu",
-      "state": "Leta",
-      "city": "Umujyi",
-      "address": "Aderesi",
-      "building_no": "Inomero yo kubaka",
-      "unit_no": "Inomero yumubare",
-      "postal_code": "Inyandiko y'iposita",
-      "description": "Ibisobanuro",
-      "order_delivered": "Icyemezo cyatanzwe.",
-      "delivery_time": "Igihe cyo gutanga",
-      "tracking_code": "Kode yo gukurikirana",
-      "tracking_url": "Gukurikirana Url",
-      "notifications": {
-        "confirm_delivery": "Ibicuruzwa byawe byemejwe."
-      }
+    /** {@see SShopCustomerDeliveryInfoWidget} **/
+    delivery: {
+      title: "Gutanga",
+      subtitle: "Ibisobanuro byabaguzi",
+      confirm_received_action: "Emeza ibicuruzwa byakiriwe",
+      confirm_received_info:
+        "Kanda buto yo kwemeza niba wakiriye itegeko. Nibikenewe, uzashobora kohereza niba wakiriye ibyemezo.",
+      Recipient: "Uwakiriye",
+      bill: "Inyemezabuguzi",
+      name: "Izina",
+      tel: "Terefone",
+      email: "Imeri",
+      country: "Igihugu",
+      state: "Leta",
+      city: "Umujyi",
+      address: "Aderesi",
+      building_no: "Inomero yo kubaka",
+      unit_no: "Inomero yumubare",
+      postal_code: "Inyandiko y'iposita",
+      description: "Ibisobanuro",
+      order_delivered: "Icyemezo cyatanzwe.",
+      delivery_time: "Igihe cyo gutanga",
+      tracking_code: "Kode yo gukurikirana",
+      tracking_url: "Gukurikirana Url",
+
+      notifications: {
+        confirm_delivery: "Ibicuruzwa byawe byemejwe.",
+      },
     },
-    "basket_items": {
-      "original_warranty": "Ingwate yumwimerere wibicuruzwa",
-      "return": "Garuka",
-      "table": {
-        "product": "izina RY'IGICURUZWA",
-        "count": "Kubara",
-        "unit_price": "Igiciro",
-        "total_price": "Igiciro cyose",
-        "discount": "Kugabanuka",
-        "final_price": "Igiciro cyanyuma",
-        "returned": "Yagarutse"
-      }
+    /** {@see SShopBasketItemsList} **/
+    basket_items: {
+      original_warranty: "Ingwate yumwimerere wibicuruzwa",
+      return: "Garuka",
+      table: {
+        product: "izina RY'IGICURUZWA",
+        count: "Kubara",
+        unit_price: "Igiciro",
+        total_price: "Igiciro cyose",
+        discount: "Kugabanuka",
+        final_price: "Igiciro cyanyuma",
+        returned: "Yagarutse",
+      },
+    },
+  },
+
+  /** {@see SShopBasketItemReturnForm} **/
+  return_request: {
+    title: "Garuka",
+    count_input: "Umubare wibintu byagarutsweho",
+    count_input_message: "Urasubiza ibintu bingahe?",
+    reason_input: "Impamvu yo kugaruka",
+    reason_input_message: "Hitamo impamvu yo gusubiza iki kintu.",
+    note_input: "Ibisobanuro",
+    note_input_hint: "Sobanura impamvu yo kugaruka ..",
+    note_input_message:
+      "Sobanura impamvu yo gusubiza iki kintu niba bikenewe.",
+    media_message:
+      "Urashobora kohereza amashusho, amajwi cyangwa videwo yibicuruzwa hano kugirango ubone inkunga nziza kubicuruzwa byamakuru. Guhitamo dosiye bizahita byohereza kandi byemeze.",
+    video: "Videwo",
+    voice: "Ijwi",
+    add_action: "Kohereza icyifuzo cyo kugaruka",
+    notifications: "Icyifuzo cyawe cyo kugaruka cyanditswe neza.",
+  },
+  /** {@see StorefrontPageBasketOrderVirtualDashboard} **/
+  virtual_order_page: {
+    title: "Tegeka",
+    info: {
+      title: "Kugura ibicuruzwa bifatika",
+    },
+  },
+
+  /** {@see StorefrontPageUserProfile} **/
+  user_profile: {
+    title: "Amakuru Yanjye bwite",
+    name: "Izina",
+    email: "Imeri",
+    tel: "Telefoni",
+    identity: "Kwemeza",
+    success_kyc: "KYC",
+    no_kyc: "Nta KYC",
+    club: "Urwego rwabakoresha",
+    subscription: "Kwiyandikisha Amakuru",
+    leave_shop: "Kureka ububiko hanyuma ukureho urwego rwabakiriya bose",
+    leave_shop_action: "Kureka iduka",
+    edit_personal_info: "Hindura amakuru yihariye",
+    leave_dialog: {
+      title: "Kureka iduka",
+      message:
+        "Kutiyandikisha kuriyi mangazini ntibisiba amakuru yawe hamwe nibisobanuro.",
+      action: "Genda",
+    },
+    notifications: {
+      leave_success: "Kureka iduka",
+    },
+    club_table: {
+      discount: "Kugabanuka",
+      limit: "Imipaka",
+      currency: "Ifaranga",
+      free_shipping: "Kohereza kubuntu",
+    },
+
+    my_profile: {
+      title: "Umwirondoro wanjye",
+      subtitle: "Aya ni amakuru y’umwirondoro wanjye nk’umukiriya w’iduka.",
+      edit_action: "Hindura umwirondoro"
+    },
+    subscribe_status: {
+      subscribed: "Niyandikishije kwakira amakuru mashya n’amatangazo yo kwamamaza kuri imeli.",
+      unsubscribed: "Ntiyandikishije kwakira amakuru cyangwa amatangazo yo kwamamaza kuri imeli."
+    },
+    my_club: {
+      subtitle: "Urwego rwanjye rwa klabu n’inyungu zarwo."
+    },
+    kyc: {
+      subtitle: "Aya ni amakuru yanjye y’irangamimerere mpuzamahanga."
     }
+
   },
-  "return_request": {
-    "title": "Garuka",
-    "count_input": "Umubare wibintu byagarutsweho",
-    "count_input_message": "Urasubiza ibintu bingahe?",
-    "reason_input": "Impamvu yo kugaruka",
-    "reason_input_message": "Hitamo impamvu yo gusubiza iki kintu.",
-    "note_input": "Ibisobanuro",
-    "note_input_hint": "Sobanura impamvu yo kugaruka ..",
-    "note_input_message": "Sobanura impamvu yo gusubiza iki kintu niba bikenewe.",
-    "media_message": "Urashobora kohereza amashusho, amajwi cyangwa videwo yibicuruzwa hano kugirango ubone inkunga nziza kubicuruzwa byamakuru. Guhitamo dosiye bizahita byohereza kandi byemeze.",
-    "video": "Video",
-    "voice": "Ijwi",
-    "add_action": "Kohereza icyifuzo cyo kugaruka",
-    "notifications": "Icyifuzo cyawe cyo kugaruka cyanditswe neza."
-  },
-  "virtual_order_page": {
-    "title": "Tegeka",
-    "info": {
-      "title": "Kugura ibicuruzwa bifatika"
-    }
-  },
-  "user_profile": {
-    "title": "Amakuru Yanjye bwite",
-    "name": "Izina",
-    "email": "Imeri",
-    "tel": "Tel",
-    "identity": "Kwemeza",
-    "success_kyc": "KYC",
-    "club": "Urwego rwabakoresha",
-    "subscription": "Kwiyandikisha Amakuru",
-    "leave_shop": "Kureka ububiko hanyuma ukureho urwego rwabakiriya bose",
-    "leave_shop_action": "Kureka iduka",
-    "edit_personal_info": "Hindura amakuru yihariye",
-    "leave_dialog": {
-      "title": "Kureka iduka",
-      "message": "Kutiyandikisha kuriyi mangazini ntibisiba amakuru yawe hamwe nibisobanuro.",
-      "action": "Genda"
+  /** {@see StorefrontPageBasketCart} **/
+  basket_page: {
+    title: "Ikarita yo Guhaha",
+    total_price: "Umubare wose",
+    shipping: "Igiciro cyo kohereza",
+    free_shipping: "Kohereza kubuntu",
+    shipping_not_pay: "Ntabwo arimo",
+    total_discount: "Igabanywa ryose",
+    customer_club: "Umunyamuryango wa Club",
+    customer_club_discount: "Kugabanuka kw'abanyamuryango",
+    final_price: "Ubwishyu bwa nyuma",
+    lead_time: "Igihe cyo kwitegura",
+    lead_time_unit: "Isaha",
+    receive_time: "Igihe cyo gutanga",
+    select_time: "Hitamo Igihe cyo Gutanga",
+    no_select_time: "Vuba bishoboka",
+    transportation_type: "Ubwoko bwo kohereza",
+    days_input: "Iminsi yo gutanga",
+    days_input_label: "Iminsi",
+    days_input_no_data: "Hitamo byibuze umunsi umwe",
+    time_input: "Igihe cyo gutanga",
+    time_input_label: "Gutanga kuri",
+    time_input_label_no_data: "Hitamo byibuze umwanya umwe",
+    support_cod: "Amafaranga yatanzwe",
+    not_support_cod: "Ntushobora kwishyura mu karere!",
+    final_confirm_action: "Icyemezo cya nyuma",
+    pay_and_complete_action: "Iyishyure nonaha",
+    pre_confirm_service: "Tanga icyifuzo",
+    cross_selling_discount: "Igabanywa ry'ikusanyamakuru",
+
+    errors: {
+      no_address: "Hitamo adresse ushaka ko itegeko ryawe ryoherezwa.",
+      no_phone: "Injiza numero yo guhuza kugirango uhuze kwakira ibicuruzwa.",
+      select_billing_country: "Hitamo igihugu cyishyuriraho",
+      select_billing_state: "Hitamo akarere ka misoro",
     },
-    "notifications": {
-      "leave_success": "Kureka iduka"
+    same_billing_address: "Amakuru yo kwishyuza kimwe namakuru yakiriye",
+    same_billing_address_desc:
+      "Aderesi yo kwishyuza ni kimwe na aderesi yoherejwe.",
+    custom_billing_info: "Amakuru atandukanye yo kwishyuza",
+    custom_billing_info_desc:
+      "Urashobora kwinjiza numero yawe ya TAX hanyuma ugashyiraho aderesi itandukanye yo kwishyuza.",
+    basket_empty: "Igitebo kirimo ubusa",
+    extra_shipping_count: "Uzakira {count} paki.",
+    select_location_error:
+      "Shakisha aho wakiriye ibyoherejwe ku ikarita hanyuma ukande ku kimenyetso kiri hagati yikarita kugirango umenye aderesi nyayo yuwahawe.",
+
+    billing_business_desc: "Ni konti yubucuruzi ifite nimero ya TAX.",
+    billing_personal_desc: "Ni konte yawe.",
+
+    no_billing_title: "Nta fagitire",
+    no_billing_desc: "Kureka aderesi yubusa.",
+
+    can_pay_cod_message:"Ushobora kwishyura iri tegeko mu mafaranga igihe rigeze.",
+  },
+  /** {@see SShopBasketItems} **/
+  basket_items: {
+    items_unit: "x",
+    lead_unit: "Isaha",
+    count_input: "Kubara",
+
+    price_changed: "Igiciro cyarahindutse. igiciro gishya:",
+    offer: "Kubona {count} x ikintu kuri {percent}%",
+    offer_free: "Kubona {count} x kubuntu",
+  },
+
+  /** {@see StorefrontUserAddresses} **/
+  addresses_page: {
+    title: "Aderesi zanjye",
+    subtitle:"Reba aderesi wabitse hano, kandi wongere nshya mu buryo bworoshye.",
+    new_action: "Aderesi nshya",
+    receiver: "Uwakiriye",
+    address: "Aderesi",
+    building_no: "icyapa",
+    building_unit: "igice",
+    postcode: "Inyandiko y'iposita",
+    tel: "Telefoni",
+    description: "Icyitonderwa",
+
+    map: {
+      title: "Aderesi zanjye",
+      confirm: "Kwiyandikisha",
+      address_type: "Aderesi",
+      receptor_type: "Uwakiriye",
     },
-    "club_table": {
-      "discount": "Kugabanuka",
-      "limit": "Imipaka",
-      "currency": "Ifaranga",
-      "free_shipping": "Kohereza kubuntu"
-    }
-  },
-  "basket_page": {
-    "title": "Ikarita yo Guhaha",
-    "total_price": "Umubare wose",
-    "shipping": "Igiciro cyo kohereza",
-    "free_shipping": "Kohereza kubuntu",
-    "shipping_not_pay": "Ntabwo arimo",
-    "total_discount": "Igabanywa ryose",
-    "customer_club": "Umunyamuryango wa Club",
-    "customer_club_discount": "Kugabanuka kw'abanyamuryango",
-    "final_price": "Ubwishyu bwa nyuma",
-    "lead_time": "Igihe cyo kwitegura",
-    "lead_time_unit": "Isaha",
-    "receive_time": "Igihe cyo gutanga",
-    "select_time": "Hitamo Igihe cyo Gutanga",
-    "no_select_time": "Vuba bishoboka",
-    "transportation_type": "Ubwoko bwo kohereza",
-    "days_input": "Iminsi yo gutanga",
-    "days_input_label": "Iminsi",
-    "days_input_no_data": "Hitamo byibuze umunsi umwe",
-    "time_input": "Igihe cyo gutanga",
-    "time_input_label": "Gutanga kuri",
-    "time_input_label_no_data": "Hitamo byibuze umwanya umwe",
-    "support_cod": "Amafaranga yatanzwe",
-    "not_support_cod": "Ntushobora kwishyura mu karere!",
-    "final_confirm_action": "Icyemezo cya nyuma",
-    "pay_and_complete_action": "Iyishyure nonaha",
-    "pre_confirm_service": "Tanga icyifuzo",
-    "errors": {
-      "no_address": "Hitamo adresse ushaka ko itegeko ryawe ryoherezwa.",
-      "no_phone": "Injiza numero yo guhuza kugirango uhuze kwakira ibicuruzwa.",
-      "select_billing_country": "Hitamo igihugu cyishyuriraho",
-      "select_billing_state": "Hitamo akarere ka misoro"
+    add_dialog: {
+      title: "Izina Rishya rya Aderesi",
+      message: "Injira umutwe wa aderesi nshya.",
+      address_name_input: "Aderesi (bisabwa)",
     },
-    "same_billing_address": "Amakuru yo kwishyuza kimwe namakuru yakiriye",
-    "custom_billing_info": "Amakuru atandukanye yo kwishyuza",
-    "basket_empty": "Igitebo kirimo ubusa",
-    "extra_shipping_count": "Uzakira {count} paki.",
-    "select_location_error": "Shakisha aho wakiriye ibyoherejwe ku ikarita hanyuma ukande ku kimenyetso kiri hagati yikarita kugirango umenye aderesi nyayo yuwahawe.",
-    "same_billing_address_desc": "Aderesi yo kwishyuza ni kimwe na aderesi yoherejwe.",
-    "custom_billing_info_desc": "Urashobora kwinjiza numero yawe ya TAX hanyuma ugashyiraho aderesi itandukanye yo kwishyuza.",
-    "billing_business_desc": "Ni konti yubucuruzi ifite nimero ya TAX.",
-    "billing_personal_desc": "Ni konte yawe.",
-    "no_billing_title": "Nta fagitire",
-    "no_billing_desc": "Kureka aderesi yubusa.",
-    "cross_selling_discount": "Igabanywa ry'ikusanyamakuru"
   },
-  "basket_items": {
-    "items_unit": "x",
-    "lead_unit": "Isaha",
-    "count_input": "Kubara",
-    "price_changed": "Igiciro cyarahindutse. igiciro gishya:",
-    "offer": "Kubona {count} x ikintu kuri {percent}%",
-    "offer_free": "Kubona {count} x kubuntu"
+  /** {@see StorefrontPageUserReturns} **/
+  return_requests: {
+    title: "Garuka ibyifuzo",
+    subtitle:"Reba ibyifuzo byawe byo gusubiza hano. Ku bicuruzwa bifite politiki yo gusubiza, ushobora gutanga icyifuzo cyo gusubiza ku rupapuro rw’itegeko.",
   },
-  "addresses_page": {
-    "title": "Aderesi zanjye",
-    "new_action": "Aderesi nshya",
-    "Recipient": "Uwakiriye",
-    "address": "Aderesi",
-    "building_no": "icyapa",
-    "building_unit": "igice",
-    "postcode": "Inyandiko y'iposita",
-    "tel": "Tel",
-    "description": "Icyitonderwa",
-    "map": {
-      "title": "Aderesi zanjye",
-      "confirm": "Kwiyandikisha",
-      "address_type": "Aderesi",
-      "receptor_type": "Uwakiriye"
+
+  /** {@see StorefrontPageUserWishlist} **/
+  user_favorites: {
+    title: "Urutonde",
+  },
+  /** {@see StorefrontPageUserComments} **/
+  user_comments: {
+    title: "Ibitekerezo byanjye",
+    first_post: "Inyandiko ya mbere",
+    last_edit: "Guhindura bwa nyuma",
+  },
+  /** {@see StorefrontPageUserGiftcards} **/
+  user_gift_cards: {
+    title: "Ikarita Yimpano",
+    add_action: "Ongeraho ikarita",
+    add_card_dialog: {
+      title: "Ongeraho Ikarita Yimpano",
+      message:
+        "Injiza nimero yikarita na kode yumutekano. Ikarita yimpano izongerwa kuri konte yawe.",
+      card_number_input: "Inomero y'amakarita",
+      info: "Icyitonderwa: Mugihe ugura mububiko, uzerekwa uburyo bwo kwishyura hamwe namakarita yimpano. Muguhitamo ubu buryo, ingano yimishahara yawe izakurwa kumafaranga yatumijwe.",
+      add_action: "Kwiyandikisha Ikarita",
     },
-    "add_dialog": {
-      "title": "Izina Rishya rya Aderesi",
-      "message": "Injira umutwe wa aderesi nshya.",
-      "address_name_input": "Aderesi (bisabwa)"
-    }
   },
-  "return_requests": {
-    "title": "Garuka ibyifuzo"
-  },
-  "user_favorites": {
-    "title": "Urutonde"
-  },
-  "user_comments": {
-    "title": "Ibitekerezo byanjye",
-    "first_post": "Inyandiko ya mbere",
-    "last_edit": "Guhindura bwa nyuma"
-  },
-  "user_gift_cards": {
-    "title": "Ikarita Yimpano",
-    "add_action": "Ongeraho ikarita",
-    "add_card_dialog": {
-      "title": "Ongeraho Ikarita Yimpano",
-      "message": "Injiza nimero yikarita na kode yumutekano. Ikarita yimpano izongerwa kuri konte yawe.",
-      "card_number_input": "Inomero y'amakarita",
-      "info": "Icyitonderwa: Mugihe ugura mububiko, uzerekwa uburyo bwo kwishyura hamwe namakarita yimpano. Muguhitamo ubu buryo, ingano yimishahara yawe izakurwa kumafaranga yatumijwe.",
-      "add_action": "Kwiyandikisha Ikarita"
-    }
-  },
-  "product_comparison": {
-    "title": "Gereranya Ibicuruzwa",
-    "action_button": "Gereranya",
-    "list": {
-      "no_data": "Nta bicuruzwa byongewe kurutonde rwo kugereranya.",
-      "price": "Igiciro",
-      "type": "Ubwoko",
-      "brand": "Ikirango",
-      "warranty": "Garanti",
-      "variants_comparison": "Gereranya ibicuruzwa",
-      "spec": "Ibisobanuro bya tekiniki",
-      "pros": "Ibyiza",
-      "cons": "Ibibi",
-      "user_review": "Abakoresha ibitekerezo",
-      "rating": "Urutonde",
-      "rating_count": "Umubare w'isubiramo",
-      "info": "Urashobora gusangira imbonerahamwe yo kugereranya ibicuruzwa ninshuti zawe wohereje umurongo ukurikira, cyangwa ukabigeraho nyuma ubitse iyi link.",
-      "copy_action": "Gukoporora Ihuza",
-      "check_list": [
-        "Yego",
-        "Ifite"
-      ],
-      "cross_list": [
-        "Oya",
-        "Ntabwo"
-      ]
-    }
-  },
-  "product_filter_menu": {
-    "only_original": "Gusa umwimerere",
-    "only_has_discount": "Gusa yagabanijwe",
-    "price_range": "Urutonde rwibiciro",
-    "brands": "Ikirango",
-    "main_shop_page": "Bika urupapuro nyamukuru",
-    "home": "Murugo"
-  },
-  "product_rating_view": {
-    "message": "Nshuti {user}, Waguze iki gicuruzwa. Utekereza iki kuri iki gicuruzwa?",
-    "notification": {
-      "title": "Twishimiye",
-      "message": "Igitekerezo cyawe cyaranditswe."
-    }
-  },
-  "blogs": {
-    "title": "Blog",
-    "add_new_blog": "Blog nshya",
-    "popular": "Bikunzwe",
-    "topics": "Ingingo",
-    "suggestions": "Ibyifuzo"
-  },
-  "official_pages": {
-    "about_us": "Ibyerekeye twe",
-    "terms": "Amategeko yo gukoresha",
-    "privacy": "Politiki y’ibanga",
-    "contact_us": "Twandikire"
-  },
-  "contact_us_form": {
-    "title": "Twandikire",
-    "name": "Izina",
-    "email": "Imeri",
-    "phone": "Terefone",
-    "message": "Ubutumwa",
-    "notifications": {
-      "success": "Ubutumwa bwawe bwoherejwe."
+
+  /** {@see SComparisonButton} **/
+  product_comparison: {
+    title: "Gereranya Ibicuruzwa",
+    action_button: "Gereranya",
+
+    /** {@see SComparisonList} **/
+    list: {
+      no_data: "Nta bicuruzwa byongewe kurutonde rwo kugereranya.",
+      price: "Igiciro",
+      type: "Ubwoko",
+      brand: "Ikirango",
+      warranty: "Garanti",
+      variants_comparison: "Gereranya ibicuruzwa",
+      spec: "Ibisobanuro bya tekiniki",
+      pros: "Ibyiza",
+      cons: "Ibibi",
+      user_review: "Abakoresha ibitekerezo",
+      rating: "Urutonde",
+      rating_count: "Umubare w'isubiramo",
+      info: "Urashobora gusangira imbonerahamwe yo kugereranya ibicuruzwa ninshuti zawe wohereje umurongo ukurikira, cyangwa ukabigeraho nyuma ubitse iyi link.",
+      copy_action: "Gukoporora Ihuza",
+      check_list: ["Yego", "Ifite"],
+      cross_list: ["Oya", "Ntabwo"],
     },
-    "submitted_title": "Urakoze kutugeraho!",
-    "submitted_message": "Twishimiye umwanya wawe wo kutwandikira. Ubutumwa bwawe bwakiriwe kandi itsinda ryacu ririmo kubisuzuma. Tuzasubiza vuba bishoboka, kandi turabashimira kwihangana muri iki gihe. Inyungu zawe n'ibitekerezo byawe ni ingenzi kuri twe, kandi twiyemeje kuguha inkunga nziza ishoboka."
   },
-  "master_payment": {
-    "notifications": {
-      "payment_success_title": "Kwemeza Kwishura",
-      "payment_success": "Kwishura birarangiye.",
-      "buy_title": "Gura",
-      "pay_by_giftcards": "Ibicuruzwa byawe byishyuwe ikarita yimpano.",
-      "free_order": "Ibicuruzwa byawe ni ubuntu.",
-      "pay_by_cod": "Ibicuruzwa byawe byongeweho nkamafaranga kubitangwa.",
-      "pay_by_dir": "Ibicuruzwa byawe byongeweho neza. Noneho urashobora kwishyura ukoresheje amafaranga yoherejwe hanyuma ugashyiraho inyemezabwishyu kurupapuro.",
-      "pay_title": "Kwishura",
-      "qr_code_payment": "Kwishura QR code ya aderesi yashizweho.",
-      "connecting_to_online_gateway": "Kwihuza kumurongo wo kwishyura."
-    }
+  /** {@see SCategoryFilter} **/
+  product_filter_menu: {
+    only_original: "Gusa umwimerere",
+    only_has_discount: "Gusa yagabanijwe",
+    price_range: "Urutonde rwibiciro",
+    brands: "Ikirango",
+    main_shop_page: "Bika urupapuro nyamukuru",
+    home: "Murugo",
   },
-  "time_progress_bar": {
-    "title_before_start": "Igumye ku ntangiriro",
-    "title_between_start_end": "Yagumye ku mperuka",
-    "title_after_end": "Byarangiye",
-    "title_no_start_end": "Nta gihe cyagenwe!"
-  },
-  "lottery_prizes": {
-    "message": "Urashobora kwakira impano imwe kuri buri cyegeranyo."
-  },
-  "coupons": {
-    "coupon_code": "Kode ya Coupon",
-    "add_coupon": "Ongeraho coupon"
-  },
-  "avocado": {
-    "not_enable": "Ifishi ya avoka ntabwo ishoboye!",
-    "last_update": "Amakuru agezweho:",
-    "step1": "1. Andika izina nibisobanuro byibicuruzwa ushaka gutumiza hanyuma ukande buto.",
-    "title_plc": "Injiza izina ryibicuruzwa.",
-    "description_plc": "Ufite ibisobanuro byinshi byibicuruzwa?",
-    "link_plc": "Ufite aho uhurira nibicuruzwa?",
-    "image": "Ishusho y'ibicuruzwa",
-    "image_msg": "Urashobora kohereza ibicuruzwa kubishusho nibikenewe.",
-    "add_item": "Ongeraho ikintu",
-    "items_list": "Urutonde rwibicuruzwa byasabwe",
-    "currency_msg": "Ugomba kwishyura umubare w'iri teka hamwe n'ifaranga.",
-    "step2": "2. Nyuma yo kongeramo ibintu byose wifuza, kanda kuri bouton isubiramo. Kuri iki cyiciro, tuzasubiramo ibyateganijwe hanyuma tubamenyeshe igiciro. Ukanze kuriyi link, uzashobora kubona igiciro no kwishyura.",
-    "order_action": "Tegeka kwiyandikisha",
-    "show_all": "Erekana Byose",
-    "show_accepted": "Erekana Ibintu Byemejwe",
-    "last_orders": "Urutonde rwibintu uherutse",
-    "pending_status": "kiri gusubirwamo",
-    "check_now": "Reba gahunda",
-    "add_new_order": "Kora gahunda nshya",
-    "pay_online": "Kwishura kumurongo",
-    "pricing_not_completed_message": "Ibicuruzwa byawe birasubirwamo. Ibicuruzwa byawe bizasubirwamo kandi bishyirwe vuba kandi uzashobora kwishyura ibicuruzwa.",
-    "delete_item_dialog": {
-      "title": "Kuraho ikintu mumagare",
-      "message": "Urashaka gusiba iki kintu mumagare?",
-      "action": "Yego, gusiba"
+
+  /** {@see SShopProductRatingView} **/
+  product_rating_view: {
+    message:
+      "Nshuti {user}, Waguze iki gicuruzwa. Utekereza iki kuri iki gicuruzwa?",
+    notification: {
+      title: "Twishimiye",
+      message: "Igitekerezo cyawe cyaranditswe.",
     },
-    "notifications": {
-      "order_success": "Ibicuruzwa byawe byashyizwe neza.",
-      "delete_success": "Ikintu cyasibwe."
+  },
+
+  /** @see StorefrontPageBlogsList **/
+  blogs: {
+    title: "Blogu",
+    add_new_blog: "Blogu nshya",
+    popular: "Bikunzwe",
+    topics: "Ingingo",
+    suggestions: "Ibyifuzo",
+  },
+
+  /** @see StorefrontPageOfficial **/
+  official_pages: {
+    about_us: "Ibyerekeye twe",
+    terms: "Amategeko yo gukoresha",
+    privacy: "Politiki y’ibanga",
+    contact_us: "Twandikire",
+  },
+
+  /** @see StorefrontContactUsPage **/
+  contact_us_form: {
+    title: "Twandikire",
+    name: "Izina",
+    email: "Imeri",
+    phone: "Terefone",
+    message: "Ubutumwa",
+    notifications: {
+      success: "Ubutumwa bwawe bwoherejwe.",
     },
-    "select_address_message": "Nyamuneka andika aderesi yawe, hanyuma urashobora gutanga itegeko."
+    submitted_title: "Urakoze kutugeraho!",
+    submitted_message:
+      "Twishimiye umwanya wawe wo kutwandikira. Ubutumwa bwawe bwakiriwe kandi itsinda ryacu ririmo kubisuzuma. Tuzasubiza vuba bishoboka, kandi turabashimira kwihangana muri iki gihe. Inyungu zawe n'ibitekerezo byawe ni ingenzi kuri twe, kandi twiyemeje kuguha inkunga nziza ishoboka.",
   },
-  "hyper": {
-    "title": "Gutegeka kurema",
-    "message": "Kora urutonde rwibicuruzwa ushaka kugura ukoresheje skaneri yibicuruzwa.",
-    "currency_msg": "Ifaranga ushaka kwishyura hamwe.",
-    "order_action": "Kwishura",
-    "add_new_order": "Urutonde rushya",
-    "continue_order": "Komeza gahunda",
-    "delete_item_dialog": {
-      "title": "Kuraho ikintu mumagare",
-      "message": "Urashaka gusiba iki kintu mumagare?",
-      "action": "Yego, gusiba"
+
+  /** @see SStorefrontMasterPaymentDialog **/
+  master_payment: {
+    notifications: {
+      payment_success_title: "Kwemeza Kwishura",
+      payment_success: "Kwishura birarangiye.",
+      buy_title: "Gura",
+      pay_by_giftcards: "Ibicuruzwa byawe byishyuwe ikarita yimpano.",
+      free_order: "Ibicuruzwa byawe ni ubuntu.",
+      pay_by_cod: "Ibicuruzwa byawe byongeweho nkamafaranga kubitangwa.",
+      pay_by_dir:
+        "Ibicuruzwa byawe byongeweho neza. Noneho urashobora kwishyura ukoresheje amafaranga yoherejwe hanyuma ugashyiraho inyemezabwishyu kurupapuro.",
+      pay_title: "Kwishura",
+      qr_code_payment: "Kwishura QR code ya aderesi yashizweho.",
+      connecting_to_online_gateway: "Kwihuza kumurongo wo kwishyura.",
     },
-    "notifications": {
-      "order_success": "Ibicuruzwa byawe byashyizwe neza.",
-      "delete_success": "Ikintu cyasibwe."
-    }
   },
-  "pending_payment": {
-    "upload_payment_receipt": "Kuramo ishusho yinyemezabwishyu.",
-    "upload_payment_receipt_done": "Already Mumaze kohereza ishusho yinyemezabwishyu, tegereza ibyemezo byacu. Niba ukeneye guhindura, urashobora gusimbuza ishusho yabanjirije iyindi nshya.",
-    "public_form_title": "Amakuru ya konte yo kohereza amafaranga"
+
+  /** {@see TimeProgressBar} **/
+  time_progress_bar: {
+    title_before_start: "Igumye ku ntangiriro",
+    title_between_start_end: "Yagumye ku mperuka",
+    title_after_end: "Byarangiye",
+    title_no_start_end: "Nta gihe cyagenwe!",
   },
-  "service_bill": {
-    "task": {
-      "title": "Urutonde rwo gukora",
-      "message": "Kugaragaza imitwe yumurimo ushaka gukora hanyuma umenyeshe umuguzi aho igeze."
+  /** {@see SStorefrontLotteryPrizesList} **/
+  lottery_prizes: {
+    message: "Urashobora kwakira impano imwe kuri buri cyegeranyo.",
+  },
+
+  /** {@see SStorefrontCouponsList} **/
+  coupons: {
+    coupon_code: "Kode ya kuponi",
+    add_coupon: "Ongeraho kuponi",
+  },
+
+  /** {@see SStorefrontAvocadoCustomerOrderForm} **/
+  /** {@see SShopAvocadoCustomerOrderItems} **/
+  /** {@see SStorefrontAvocadoCustomerOrderList} **/
+  /** {@see StorefrontPageAvocado} **/
+  /** {@see StorefrontPageAvocadoCart} **/
+
+  avocado: {
+    not_enable: "Ifishi ya avoka ntabwo ishoboye!",
+    last_update: "Amakuru agezweho:",
+    step1:
+      "1. Andika izina nibisobanuro byibicuruzwa ushaka gutumiza hanyuma ukande buto.",
+    title_plc: "Injiza izina ryibicuruzwa.",
+    description_plc: "Ufite ibisobanuro byinshi byibicuruzwa?",
+    link_plc: "Ufite aho uhurira nibicuruzwa?",
+    image: "Ishusho y'ibicuruzwa",
+    image_msg: "Urashobora kohereza ibicuruzwa kubishusho nibikenewe.",
+    add_item: "Ongeraho ikintu",
+    items_list: "Urutonde rwibicuruzwa byasabwe",
+    currency_msg: "Ugomba kwishyura umubare w'iri teka hamwe n'ifaranga.",
+    step2:
+      "2. Nyuma yo kongeramo ibintu byose wifuza, kanda kuri bouton isubiramo. Kuri iki cyiciro, tuzasubiramo ibyateganijwe hanyuma tubamenyeshe igiciro. Ukanze kuriyi link, uzashobora kubona igiciro no kwishyura.",
+    order_action: "Tegeka kwiyandikisha",
+    show_all: "Erekana Byose",
+    show_accepted: "Erekana Ibintu Byemejwe",
+    last_orders: "Urutonde rwibintu uherutse",
+    pending_status: "kiri gusubirwamo",
+    check_now: "Reba gahunda",
+    add_new_order: "Kora gahunda nshya",
+    pay_online: "Kwishura kumurongo",
+    pricing_not_completed_message:
+      "Ibicuruzwa byawe birasubirwamo. Ibicuruzwa byawe bizasubirwamo kandi bishyirwe vuba kandi uzashobora kwishyura ibicuruzwa.",
+
+    select_address_message:
+      "Nyamuneka andika aderesi yawe, hanyuma urashobora gutanga itegeko.",
+
+    delete_item_dialog: {
+      title: "Kuraho ikintu mumagare",
+      message: "Urashaka gusiba iki kintu mumagare?",
+      action: "Yego, gusiba",
     },
-    "booking": {
-      "title": "Kwiyandikisha / Kubika",
-      "message": "Iri teka rizatunganywa mugihe cyagenwe, umukiriya yahisemo igihe cyifuzwa, niba ushaka kugira icyo uhindura mugihe cyatoranijwe, menyesha abakiriya.",
-      "selected_checkin": "Byahiswemo-by-umukiriya",
-      "selected_checkout": "Guhitamo kugenzura kubakiriya",
-      "change_days_question": "Ukeneye guhinduka mugihe cyumukiriya watoranijwe?",
-      "show_calendar": "Erekana Kalendari y'Amabwiriza"
+
+    notifications: {
+      order_success: "Ibicuruzwa byawe byashyizwe neza.",
+      delete_success: "Ikintu cyasibwe.",
     },
-    "pricing": {
-      "title": "Igiciro",
-      "message": "Ni bangahe wishyura kuriyi serivisi?"
+  },
+
+  /** {@see SHyperCart} **/
+  hyper: {
+    title: "Gutegeka kurema",
+    message:
+      "Kora urutonde rwibicuruzwa ushaka kugura ukoresheje skaneri yibicuruzwa.",
+
+    currency_msg: "Ifaranga ushaka kwishyura hamwe.",
+    order_action: "Kwishura",
+    add_new_order: "Urutonde rushya",
+    continue_order: "Komeza gahunda",
+
+    delete_item_dialog: {
+      title: "Kuraho ikintu mumagare",
+      message: "Urashaka gusiba iki kintu mumagare?",
+      action: "Yego, gusiba",
     },
-    "subscription": {
-      "title": "Kwiyandikisha",
-      "message": "Urashobora guhitamo igihe cyo kwiyandikisha mugura iyi serivisi burimunsi. Menyesha umuguzi niba ushaka guhindura indangagaciro usanzwe winjiyemo.",
-      "duration": "Igihe cyo kwiyandikisha"
+    notifications: {
+      order_success: "Ibicuruzwa byawe byashyizwe neza.",
+      delete_success: "Ikintu cyasibwe.",
     },
-    "charge": {
-      "title": "Kwishyuza",
-      "message": "Werekanye amafaranga kuri iki kintu. Urashobora guhindura amafaranga yishyurwa kubintu byaguzwe nabakiriya.",
-      "charge": "Kwishyuza"
-    }
   },
-  "check_access": {
-    "waiting_message": "Gutegereza kugenzura kwinjira ...",
-    "no_access_message": "Kubwamahirwe, ntabwo ushobora kubona ububiko bwacu.<br/> Nyamuneka twandikire."
+
+  /** {@see SShopRowCustomerPendingPayment} **/
+  pending_payment: {
+    upload_payment_receipt: "Kuramo ishusho yinyemezabwishyu.",
+    upload_payment_receipt_done:
+      "Already Mumaze kohereza ishusho yinyemezabwishyu, tegereza ibyemezo byacu. Niba ukeneye guhindura, urashobora gusimbuza ishusho yabanjirije iyindi nshya.",
+    public_form_title: "Amakuru ya konte yo kohereza amafaranga",
   },
-  "share_order": {
-    "action": "Kugabana gahunda",
-    "title": "Sangira n'abandi gahunda.",
-    "message": "Numuhuza wizewe, gusa ubisangire nabari uzi. Umuntu wese ufite iyi link arashobora kwigana ibyo wateguye akareba adresse yatoranijwe. Bizaba bikubiyemo amakuru yerekeye igare ryawe.",
-    "valid_period": "Ihuza rizarangira nyuma yamasaha 48.",
-    "import_order_action": "Gutumiza mu mahanga",
-    "retrieve_dialog_title": "Kuramo gahunda yo hanze",
-    "address_included": "Sangira ibintu by'agaseke + Aderesi",
-    "address_excluded": "Sangira gusa ibitebo"
+
+  /** @see ServiceBillingItem **/
+  service_bill: {
+    task: {
+      title: "Urutonde rwo gukora",
+      message: "Kugaragaza imitwe yumurimo ushaka gukora hanyuma umenyeshe umuguzi aho igeze.",
+    },
+    booking: {
+      title: "Kwiyandikisha / Kubika",
+      message: "Iri teka rizatunganywa mugihe cyagenwe, umukiriya yahisemo igihe cyifuzwa, niba ushaka kugira icyo uhindura mugihe cyatoranijwe, menyesha abakiriya.",
+
+      selected_checkin: "Byahiswemo-by-umukiriya",
+      selected_checkout: "Guhitamo kugenzura kubakiriya",
+      change_days_question:
+        "Ukeneye guhinduka mugihe cyumukiriya watoranijwe?",
+      show_calendar: "Erekana Kalendari y'Amabwiriza",
+    },
+    pricing: {
+      title: "Igiciro",
+      message: "Ni bangahe wishyura kuriyi serivisi?",
+    },
+    subscription: {
+      title: "Kwiyandikisha",
+      message:
+        "Urashobora guhitamo igihe cyo kwiyandikisha mugura iyi serivisi burimunsi. Menyesha umuguzi niba ushaka guhindura indangagaciro usanzwe winjiyemo.",
+      duration: "Igihe cyo kwiyandikisha",
+    },
+    charge: {
+      title: "Kwishyuza",
+      message:
+        "Werekanye amafaranga kuri iki kintu. Urashobora guhindura amafaranga yishyurwa kubintu byaguzwe nabakiriya.",
+      charge: "Kwishyuza",
+    },
   },
-  "variants_view": {
-    "prices": "Ibiciro",
-    "inventory": "Ibarura",
-    "discount": "Kugabanuka"
+
+  /** @see SAccessPrivateCheck **/
+  check_access: {
+    waiting_message: "Gutegereza kugenzura kwinjira ...",
+    no_access_message:
+      "Kubwamahirwe, ntabwo ushobora kubona ububiko bwacu.<br/> Nyamuneka twandikire.",
   },
-  "rating": {
-    "product_rating_message": "Iki gicuruzwa cyakiriye igipimo cya {rate} ku nyenyeri 5 kandi cyagenwe n {rate_count} abantu."
+
+  /** @see SShopShareOrderButton **/
+  share_order: {
+    action: "Kugabana gahunda",
+    title: "Sangira n'abandi gahunda.",
+    message:
+      "Numuhuza wizewe, gusa ubisangire nabari uzi. Umuntu wese ufite iyi link arashobora kwigana ibyo wateguye akareba adresse yatoranijwe. Bizaba bikubiyemo amakuru yerekeye igare ryawe.",
+    valid_period: "Ihuza rizarangira nyuma yamasaha 48.",
+    import_order_action: "Gutumiza mu mahanga",
+    retrieve_dialog_title: "Kuramo gahunda yo hanze",
+    address_included: "Sangira ibintu by'agaseke + Aderesi",
+    address_excluded: "Sangira gusa ibitebo",
   },
-  "related_products": {
-    "card": {
-      "title": "Shakisha!",
-      "same_tags_subtitle": "Shakisha ibintu bitangaje bijyanye.",
-      "same_category_subtitle": "Shakisha ibintu bitangaje muri iki cyiciro."
-    }
-  }
+
+  /** {@see ProductVariantsView} **/
+  variants_view: {
+    prices: "Ibiciro",
+    inventory: "Ibarura",
+    discount: "Kugabanuka",
+  },
+
+  rating: {
+    product_rating_message:
+      "Iki gicuruzwa cyakiriye igipimo cya {rate} ku nyenyeri 5 kandi cyagenwe n {rate_count} abantu.",
+  },
+
+  /** {@see SProductRelatedProducts} **/
+  related_products: {
+    card: {
+      title: "Shakisha!",
+      same_tags_subtitle: "Shakisha ibintu bitangaje bijyanye.",
+      same_category_subtitle: "Shakisha ibintu bitangaje muri iki cyiciro.",
+    },
+  },
+
+  /** {@see SProductCrossSells} **/
+  cross_selling: {
+    title: "Tegeka {product} hamwe na",
+  },
+
+  /** {@see SSmartSelectVendor} **/
+  select_vendor: {
+    item_title: "Reba iduka rya {vendor}",
+  },
+
+  login: {
+    welcome: "Murakaza neza",
+  },
+
+
 };

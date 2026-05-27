@@ -1,60 +1,82 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "menu": {
-    "home": "Hjem",
-    "dashboard": "Dashboard",
-    "login": "Log på",
-    "help": "Hjælp",
-    "blog": "Blog",
-    "price_list": "Prissætning",
-    "apps": "Apps",
-    "experts": "Eksperter",
-    "demo": "Sælgere",
-    "partnership": "Partnerskab",
-    "partner": {
-      "title": "Partnerpanel ● Whitelabel SaaS",
-      "subtitle": "En e-handelsplatform med hvid mærkning er perfekt til verificerede bureauer."
+  menu: {
+    home: "Hjem",
+    dashboard: "Kontrolpanel",
+    login: "Log ind",
+    help: "Hjælp",
+    blog: "Blog",
+    price_list: "Priser",
+    apps: "Applikationer",
+    experts: "Eksperter",
+    demo: "Selldone-brugere",
+    partnership: "Partnerskab",
+    partner: {
+      title: "Partnerpanel ● SaaS med eget brand",
+      subtitle:
+        "En e-handelsplatform med eget brand er perfekt til verificerede bureauer.",
     },
-    "affiliate": {
-      "title": "Affiliate Program ● Livstid",
-      "subtitle": "Alle kan tilmelde sig dette program og tjene på abonnements- og transaktionsgebyrer for livet."
-    }
+
+    affiliate: {
+      title: "Partnerprogram ● livstid",
+      subtitle:
+        "Alle kan tilmelde sig dette program og tjene på abonnements- og transaktionsgebyrer hele livet.",
+    },
   },
-  "home_menu": {
-    "buttons_header": "Dybt dyk ned i Selldone",
-    "beta": "Beta",
-    "home": "Hjem",
-    "why_selldone": "Hvorfor Selldone?",
-    "ecommerce": "E-handel<br> Bygger",
-    "automation": "Automation & IoT",
-    "ai": "AI",
-    "app_builder": "App Builder",
-    "seo": "Auto SEO<br> Motor",
-    "marketing": "Marketing &<br> Kampagne",
-    "report": "Smart rapport<br> Generator",
-    "domain": "Cloud-baseret hosting",
-    "accounting": "Betaling &<br> Regnskab",
-    "logistics": "Logistik &<br> Forsendelse",
-    "page_builder": "Landingsside<br> Bygger",
-    "incentives": "Forening &<br> Incitamenter",
-    "orders": "Ordres &<br> Forarbejdning",
-    "staff": "Kunder &<br> Hold",
-    "community": "Tilpasset fællesskab",
-    "pos": "Online POS",
-    "group_build": {
-      "header": "Byg",
-      "subheader": "Vi bygger et system omkring dig for at skabe din succeshistorie."
+
+  /** @see OLayout **/
+  home_menu: {
+    buttons_header: "Dyk dybt ned i Selldone",
+    beta: "Beta",
+    home: "Hjem",
+    why_selldone: "Hvorfor Selldone?",
+    ecommerce: "E-handels-<br>bygger",
+    automation: "Automatisering og IoT",
+    ai: "Kunstig intelligens",
+    app_builder: "App-bygger",
+    seo: "Automatisk SEO-<br>motor",
+    marketing: "Markedsføring og <br>kampagner",
+    report: "Generator til smarte <br>rapporter",
+    domain: "Cloudbaseret hosting",
+    accounting: "Betalinger og <br>regnskab",
+    logistics: "Logistik og <br>forsendelse",
+    page_builder: "Landingsside-<br>bygger",
+    incentives: "Klub og <br>incitamenter",
+    orders: "Ordrer og <br>behandling",
+    staff: "Kunder og <br>team",
+
+    community: "Tilpasset fællesskab",
+    pos: "Online POS",
+
+    group_build: {
+      header: "Byg",
+      subheader: "Vi bygger et system omkring dig for at skabe din succeshistorie.",
     },
-    "group_manage": {
-      "header": "Styre",
-      "subheader": "Det bliver sjovere end nogensinde før at administrere din virksomhed."
+    group_manage: {
+      header: "Administrer",
+      subheader: "Det bliver mere behageligt end nogensinde at administrere din virksomhed.",
     },
-    "group_sell": {
-      "header": "Sælge",
-      "subheader": "Vær altid lukket, tjen penge og nyd det."
+    group_sell: {
+      header: "Sælg",
+      subheader: "Luk salg hele tiden, tjen penge og nyd det.",
     },
-    "group_grow": {
-      "header": "Dyrke",
-      "subheader": "Enterprise-grade funktioner og værktøjer ved din hånd, himlen vil være din grænse."
-    }
-  }
+    group_grow: {
+      header: "Voks",
+      subheader:
+        "Funktioner og værktøjer på virksomhedsniveau er lige ved hånden; himlen bliver din grænse.",
+    },
+  },
 };

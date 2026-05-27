@@ -1,200 +1,272 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "categories": {
-    "Baby": {
-      "title": "Baby Supplies",
-      "desc": "Kudyisa, Maternity, Stroller"
+  categories: {
+    Baby: {
+      title: "Vacheche, vana nematoyi",
+      desc: "Ngoro dzevana, matoyi, mitambo, mapuzzle, mifananidzo yekutamba",
     },
-    "Beauty": {
-      "title": "Runako",
-      "desc": "Cosmetic, Kunhuhwirira, Kuchengeta Bvudzi"
+    Health: {
+      title: "Utano nerunako",
+      desc: "Famasitiri, kugara zvakanaka, zvekuzora, zvinonhuwira",
     },
-    "Blog": {
-      "title": "Blog",
-      "desc": "Blog remitambo, Sainzi blog, Tekinoroji blog"
+    Media: {
+      title: "Midhiya nemitambo",
+      desc: "Mitambo yevhidhiyo, mafirimu, mimhanzi, mabhuku",
     },
-    "Fashion": {
-      "title": "Fashion",
-      "desc": "Zvipfeko, Shangu, Tarisa"
+    Fashion: {
+      title: "Zvipfeko, zvishongo nemawachi",
+      desc: "Zvipfeko, shangu, maketani, mhete, mabracelet, wachi",
     },
-    "Crypto": {
-      "title": "Crypto",
-      "desc": "Crypto-Currency, Blockchain, NFT"
+    Automotive: {
+      title: "Zvemotokari",
+      desc: "Zvishongedzo zvemotokari, maturusi, kugadzirisa",
     },
-    "Electronics": {
-      "title": "Electronics",
-      "desc": "Nharembozha, Vhidhiyo Game, Laptop, TV"
+    Electronics: {
+      title: "Zvemagetsi",
+      desc: "Nharembozha, TV, midziyo yeruzha, makamera",
     },
-    "Food": {
-      "title": "Zvokudya Nekunwa",
-      "desc": "Maresitorendi, Bakery, Chinwiwa"
+    Computers: {
+      title: "Makombiyuta",
+      desc: "Malaptop, madesktop, zvishongedzo, software",
     },
-    "Furniture": {
-      "title": "Furniture",
-      "desc": "Furnicha Yepamba, Decor, Mutoro & Kufamba"
+    Household: {
+      title: "Zvinodiwa pamba",
+      desc: "Zvekuchenesa, imba yekugezera, kuwacha",
     },
-    "Gift": {
-      "title": "Chipo kadhi",
-      "desc": "App Store, Google Play, Netflix, Spotify"
+    Garden: {
+      title: "Gadheni nematurusi",
+      desc: "Fenicha yekunze, maturusi egadheni, zvirimwa",
     },
-    "Groceries": {
-      "title": "Groceries",
-      "desc": "Dairy, Fruit, Yakagadzirirwa Chikafu, Nyama"
+    Food: {
+      title: "Chikafu nezvekutenga",
+      desc: "Mukaka nezvigadzirwa zvawo, michero, chikafu chakagadzirwa, nyama, zvinwiwa",
     },
-    "Handcrafts": {
-      "title": "Mabasa emaoko",
-      "desc": "Zvinounganidzwa, Shangu Dzakapendwa, Zvivezwa, Girazi Art"
+    Handmade: {
+      title: "Zvakagadzirwa nemaoko",
+      desc: "Zvinounganidzwa, shangu dzakapendwa, zvivezwa, unyanzvi hwegirazi",
     },
-    "Health": {
-      "title": "Utano",
-      "desc": "Pharmacy, Pet care, Wellness"
+    PetSupplies: {
+      title: "Zvekuchengeta mhuka dzinovaraidza",
+      desc: "Chikafu chemhuka, matoyi emhuka, kutarisirwa kwemhuka",
     },
-    "Home": {
-      "title": "Kumba & Kugara",
-      "desc": "Midziyo yeKitche, Cookware, Dining"
+    Home: {
+      title: "Imba nekurarama",
+      desc: "Midziyo yekicheni, fenicha yepamba, kushongedza",
     },
-    "Jewelry": {
-      "title": "Zvishongo",
-      "desc": "Necklace, Mhete, Bracelet"
+    Sports: {
+      title: "Mitambo nekunze",
+      desc: "Maekisesaizi, kambi, mabhasikoro, kuzorora",
     },
-    "Sports": {
-      "title": "Sports",
-      "desc": "Kuekisesaiza, Kudzika musasa, Mabhasikoro, Kutandara"
+    Stationery: {
+      title: "Zvekunyora nehofisi",
+      desc: "Zvekushandisa muhofisi, zvechikoro, zvigadzirwa zvemapepa",
     },
-    "Education": {
-      "title": "Online Makosi",
-      "desc": "Kuvandudza Webhu, Dhizaini, Bhizinesi"
+    Books: {
+      title: "Mabhuku",
+      desc: "Ngano, zvisiri ngano, zvedzidzo, makomiki",
     },
-    "Toy": {
-      "title": "Toy",
-      "desc": "Game, Puzzle, Action Figures"
+    Marketplace: {
+      title: "Musika wezvose",
+      desc: "Mhando dzakasiyana dzezvigadzirwa kubva mumapoka mazhinji",
     },
-    "Other": {
-      "title": "Zvimwe",
-      "desc": "Mamwe mabasa..."
-    }
+    Other: {
+      title: "Zvimwe...",
+      desc: "Makadhi ezvipo, zvigadzirwa zvedhijitari, masevhisi epamhepo, chero chinhu",
+    },
   },
-  "partners": {
-    "title": "{name} inodyidzana neSelldone",
-    "subtitle": "mukuvhura chizvarwa chinotevera chebhizinesi repamhepo.",
-    "create_new_shop": "Gadzira chitoro chitsva",
-    "select_a_shop": "Sarudza chitoro",
-    "apply_deal_to": "Isa dhiri ku{shop}",
-    "notifications": {
-      "success_apply": "Deal yakabudirira!"
+
+  partners: {
+    title: "{name} inodyidzana neSelldone",
+    subtitle: "mukuvhura chizvarwa chinotevera chebhizinesi repamhepo.",
+    subtitle_official: "Vhura chizvarwa chinotevera chebhizinesi repamhepo.",
+
+    create_new_shop: "Gadzira chitoro chitsva",
+    select_a_shop: "Sarudza chitoro",
+    apply_deal_to: "Isa dhiri ku{shop}",
+    notifications: {
+      success_apply: "Deal yakabudirira!",
     },
-    "subtitle_official": "Vhura chizvarwa chinotevera chebhizinesi repamhepo."
   },
-  "name": "Gadzirira",
-  "shop": {
-    "title": "Gadzirisa shopu yangu",
-    "subtitle": "Enda kune inotevera nhanho nekuzadzisa aya matanho akareruka."
+
+  name: "Gadzirira",
+  overview: {
+    title: "Ongororo",
+    subtitle:
+      "Wana nzwisiso muBhizinesi OS uye tsvaga kuti ingabatsire sei bhizinesi rako.",
   },
-  "open_website": "Vhura webhusaiti yangu",
-  "add_product": "Wedzera chigadzirwa",
-  "setup_shipping": "Seta kutumira",
-  "add_domain": "Wedzera Domain",
-  "add_payment": "Batanidza kugedhi rekubhadhara",
-  "product": {
-    "step1": {
-      "title": "Sarudzo 1. Wedzera nemaoko",
-      "msg": "Iwe unogona kuwedzera zvigadzirwa zvemuviri, chaiwo zvinhu, mafaera, uye masevhisi kuchitoro chako wotanga kuzvitengesa.",
-      "action_on": "Wedzera chigadzirwa chako chekutanga",
-      "action_off": "Wedzera zvimwe zvigadzirwa",
-      "category": "Zvikamu ndizvo hunyanzvi hwewebhusaiti yako yekutenga online zvichienzaniswa nevamwe. Ita kuti zvese zvigadziriswe uye zvakarongeka nekuwedzera zvikamu uye kutonga nekudhonza & kudonha.",
-      "add_category": "Wedzera Category"
-    },
-    "step2": {
-      "title": "Sarudzo 2. Wedzera neExcel",
-      "msg": "Une zvigadzirwa zvakawanda, se1K, 10K zvinhu? Usanetseke pinza zvese nechiito chimwe chete.",
-      "import_excel": "Pinza neExcel",
-      "download_template": "Dhaunirodha template"
-    },
-    "step3": {
-      "title": "Sarudzo 3. Hire nyanzvi",
-      "msg": "Une zvinhu zvinopfuura zana uye unoda mumwe munhu wekuwedzera zvigadzirwa zvako? tumira chikumbiro kuna expert@selldone.com, uye bhuka musangano. Tinokutsvagirai nyanzvi. Iyo ine yakareruka flat rate, chete 5.99$ pachinhu chimwe chete uye 2.99$ pamamwe akasiyana."
-    }
+
+  shop: {
+    title: "Gadzirisa shopu yangu",
+    subtitle: "Enda kune inotevera nhanho nekuzadzisa aya matanho akareruka.",
   },
-  "shipping": {
-    "step1": {
-      "title": "Danho 1. Seta nzvimbo",
-      "msg": "Padanho rekutanga, isa imba yako yekuchengetera (mabviro ekutumira). Ruzivo urwu runoshandiswa kuverenga chinhambwe, mutengo wekutumira, uye kutarisa kuve munzvimbo yebasa rekutumira.",
-      "edit_warehouse": "Edit warehouse",
-      "add_warehouse": "Wedzera dura rako"
+
+  open_website: "Vhura webhusaiti yangu",
+
+  customize_theme: "Gadzirisa Webhusaiti",
+  setup_business: "Seta Bhizinesi",
+  add_product: "Wedzera chigadzirwa",
+  setup_shipping: "Seta kutumira",
+  add_domain: "Wedzera Domain",
+  add_payment: "Batanidza kugedhi rekubhadhara",
+
+  product: {
+    step1: {
+      title: "Sarudzo 1. Wedzera nemaoko",
+      msg: "Iwe unogona kuwedzera zvigadzirwa zvemuviri, chaiwo zvinhu, mafaera, uye masevhisi kuchitoro chako wotanga kuzvitengesa.",
+      action_on: "Wedzera chigadzirwa chako chekutanga",
+      action_off: "Wedzera zvimwe zvigadzirwa",
+      category:
+        "Zvikamu ndizvo hunyanzvi hwewebhusaiti yako yekutenga online zvichienzaniswa nevamwe. Ita kuti zvese zvigadziriswe uye zvakarongeka nekuwedzera zvikamu uye kutonga nekudhonza & kudonha.",
+      add_category: "Wedzera Category",
     },
-    "step2": {
-      "title": "Nhanho 2. Shandisa nzira dzekutumira",
-      "msg": "Wedzera kana imwe nzira yekutumira kuchitoro chako. Iwe unogona kuseta mitengo zvichienderana nehuremu, chinhambwe, uye mamwe ma parameter. Usakanganwe kuseta miganhu yedaro, uremu, uye saizi yemapakeji anotsigirwa neimwe sevhisi yekutumira.",
-      "add_delivery": "Wedzera nzira dzekutumira"
-    }
+    step2: {
+      title: "Sarudzo 2. Wedzera neExcel",
+      msg: "Une zvigadzirwa zvakawanda, se1K, 10K zvinhu? Usanetseke pinza zvese nechiito chimwe chete.",
+      import_excel: "Pinza neExcel",
+      download_template: "Dhaunirodha template",
+    },
   },
-  "domain": {
-    "step1": {
-      "title": "Danho 1. Tenga domain",
-      "msg": "Kana iwe usati uine yako pachako domain parizvino, yave nguva yekutenga yako wega domain kubva kumawebhusaiti se namecheap.com."
+  shipping: {
+    step1: {
+      title: "Danho 1. Seta nzvimbo",
+      msg: "Padanho rekutanga, isa imba yako yekuchengetera (mabviro ekutumira). Ruzivo urwu runoshandiswa kuverenga chinhambwe, mutengo wekutumira, uye kutarisa kuve munzvimbo yebasa rekutumira.",
+      edit_warehouse: "Rongedza imba yekuchengetera",
+      add_warehouse: "Wedzera dura rako",
     },
-    "step2": {
-      "title": "Danho 2. Gonesa SSL",
-      "msg": "Kana ukashandisa masevhisi akaita seNamecheap anopa CDN neSSL, unongoda kushandura 1.CDN uye 2.SSL padura rako."
+    step2: {
+      title: "Nhanho 2. Shandisa nzira dzekutumira",
+      msg: "Wedzera kana imwe nzira yekutumira kuchitoro chako. Iwe unogona kuseta mitengo zvichienderana nehuremu, chinhambwe, uye mamwe ma parameter. Usakanganwe kuseta miganhu yedaro, uremu, uye saizi yemapakeji anotsigirwa neimwe sevhisi yekutumira.",
+      add_delivery: "Wedzera nzira dzekutumira",
     },
-    "step3": {
-      "title": "Danho 3. Isa DNS zvinyorwa",
-      "msg": "Makorokoto, Iye zvino zvese zvaunofanirwa kuita kugadzirisa DNS mune yako domain service provider uye wedzera domain kuaccount yako."
-    }
   },
-  "payment": {
-    "step1": {
-      "title": "Mari dzemitengo",
-      "msg": "Iwe unogona kugamuchira mari mumari dzakasiyana, uye shopu yako inogona kutsigira inodarika mari imwe yemitengo. Nenzira, kana iwe ukaisa mari yako yechitoro kuUSD, vatengi vanogona kubhadhara mune chero mari seUSD, EUR, GBP, nezvimwewo, kutenga kubva kwauri.",
-      "manage_currencies": "Tonga mari dzemitengo"
+
+  domain: {
+    buy_domain_step: {
+      title: "Danho 1. Tenga domain",
+      msg: "Kana usati wava nedomain yako, yave nguva yekutenga domain yako kubva pamawebhusaiti akaita se namecheap.com.",
     },
-    "step2": {
-      "title": "Bvuma mari",
-      "msg": "Wedzera mari pakutumira, kuendesa mari yakananga, uye dzimwe nzira dzekubhadhara dziripo muchitoro chako.",
-      "online_title": "Online kubhadhara nzira",
-      "online_msg": "Gamuchira kubhadhara nemakadhi, kunyorera kutsva kwebhangi, tenga-ikozvino-kubhadhara-gare gare, uye dzimwe nzira dzakawanda dzekubhadhara pamhepo.",
-      "add_online_gateway": "Wedzera nzira yekubhadhara pamhepo",
-      "cod_title": "Mari pakutumira nzira yekubhadhara",
-      "cod_msg": "Bvuma kubhadhara mushure mekutumira mirairo. Iwe unogona kusimbisa mari pakutumira kubhadhara iwe pachako.",
-      "cash_title": "Nzira dzekubhadhara mari",
-      "cash_msg": "Mhando yekubhadhara iyi inoshandiswa muSelldone® POS.",
-      "dir_title": "Nzira dzekubhadhara dzakananga",
-      "dir_msg": "Iwe unogona kugamuchira kubhadhara nekuendesa mari yakananga, kuendesa mari kubhangi, uye dzimwe nzira dzechinyakare."
+
+    set_dns_step: {
+      title: "Danho 2. Seta marekodhi eDNS",
+      msg: "Makorokoto, zvino chaunofanira kuita kugadzirisa DNS kumupi webasa redomain yako uye kuwedzera domain kuakaundi yako.",
     },
-    "step3": {
-      "msg": "Batanidza Selldone kune yako Stripe account nekungodzvanya kamwe chete mumasekonzi makumi matatu. Parizvino, isu tiri kutsigira auto kumisikidzwa maitiro neStripe. Enda kune yako gedhi tebhu, wedzera Stripe, uye tinya iyo ' <b>Otomatiki batanidza kuStripe</b> ' bhatani.",
-      "my_gateways": "Magedhi angu ekubhadhara"
-    }
   },
-  "intro_inline_help_message": "Tarisa bhatani dzvuku rekubatsira iri. Inokubatsira kuti uzvidzidzise kubva ku zero kuenda kune nyanzvi muBusiness OS yako.",
-  "overview": {
-    "title": "Overview",
-    "subtitle": "Wana nzwisiso muBhizinesi OS uye tsvaga kuti ingabatsire sei bhizinesi rako."
-  },
-  "customize_theme": "Gadzirisa Webhusaiti",
-  "setup_business": "Seta Bhizinesi",
-  "customize": {
-    "template": {
-      "title": "Matemplate",
-      "msg": "Tanga chitoro chako nematemu edu ekare akavakwa! Nyatsosiyanisa nekuwedzera akawanda mapeji, rimwe nerimwe richizvikudza rakasiyana dhizaini."
+
+  payment: {
+    step1: {
+      title: "Mari dzemitengo",
+      msg: "Iwe unogona kugamuchira mari mumari dzakasiyana, uye shopu yako inogona kutsigira inodarika mari imwe yemitengo. Nenzira, kana iwe ukaisa mari yako yechitoro kuUSD, vatengi vanogona kubhadhara mune chero mari seUSD, EUR, GBP, nezvimwewo, kutenga kubva kwauri.",
+      manage_currencies: "Tonga mari dzemitengo",
     },
-    "colors": {
-      "title": "Colors & Layout",
-      "msg": "Uri kutsvaga kugadzirisa yako chigadzirwa peji uye dhizaini yechitoro kuti ikwane chiono chako? Dive muchikamu chekugadzirisa dingindira muchitoro chako uye tarisa mashiripiti achiitika zvisingaite!"
-    }
-  },
-  "business": {
-    "step1": {
-      "title": "Business Model",
-      "msg": "Bhizinesi rega rega rakasiyana, uye rinowanzoda zvinopfuura kungoita zvekutanga online chitoro. Tsanangura mari yako modhi, uye isu tichakubata zvisina mutsetse zvimwe zvese kwauri."
-    }
-  },
-  "migration": {
-    "title": "Kutama",
-    "shopify": {
-      "msg": "Chinja kuSelldone zvisina musono kubva kuShopify! Nakidzwa nekutama-tama kusingaite, maficha akavandudzwa, uye zvinodhura zvinogadzirisa zvechitoro chako chepamhepo."
+    step2: {
+      title: "Bvuma mari",
+      msg: "Wedzera mari pakutumira, kuendesa mari yakananga, uye dzimwe nzira dzekubhadhara dziripo muchitoro chako.",
+      online_title: "Online kubhadhara nzira",
+      online_msg:
+        "Gamuchira kubhadhara nemakadhi, kunyorera kutsva kwebhangi, tenga-ikozvino-kubhadhara-gare gare, uye dzimwe nzira dzakawanda dzekubhadhara pamhepo.",
+      add_online_gateway: "Wedzera nzira yekubhadhara pamhepo",
+      cod_title: "Mari pakutumira nzira yekubhadhara",
+      cod_msg:
+        "Bvuma kubhadhara mushure mekutumira mirairo. Iwe unogona kusimbisa mari pakutumira kubhadhara iwe pachako.",
+      cash_title: "Nzira dzekubhadhara mari",
+      cash_msg: "Mhando yekubhadhara iyi inoshandiswa muSelldone POS.",
+      dir_title: "Nzira dzekubhadhara dzakananga",
+      dir_msg:
+        "Iwe unogona kugamuchira kubhadhara nekuendesa mari yakananga, kuendesa mari kubhangi, uye dzimwe nzira dzechinyakare.",
     },
-    "woocommerce": {
-      "msg": "Seamless fambisa zvigadzirwa zvako zveWooCommerce kuSelldone mune mashoma mashoma! Nakidzwa nekuwedzerwa kuita, intuitive dhizaini, uye yepamusoro-tier rutsigiro rwevatengi. Simudzira yako e-commerce ruzivo izvozvi."
-    }
-  }
+    step3: {
+      msg: "Batanidza Selldone neakaundi yako yeStripe nekudzvanya kamwe chete mumasekonzi 30. Parizvino tiri kutsigira maitiro ekugadzirisa otomatiki neStripe. Enda kutabhu yegedhi rako, wedzera Stripe, wobva wadzvanya bhatani '<b>Batanidza otomatiki kuStripe</b>'.",
+      my_gateways: "Magedhi angu ekubhadhara",
+    },
+  },
+
+
+  /**
+   * @see SShopOnboardingCustomization
+   */
+  customize: {
+    tour:{
+      title:'Rwendo',
+      subtitle:"Ziva zvinogoneka pano zvisingawanikwi kumwe.",
+      /**
+       * @see BShopOnboardingTour
+       */
+      avocado:{
+        title:"Avocado - Tengesa pasina kuwedzera chero chigadzirwa",
+        description: "NeAvocado unogona kupa masevhisi kana zvigadzirwa pasina mitengo kana ruzivo rwakatarwa kare. Gadzira fomu rakagadzirirwa vatengi vako kuti vakumbire masevhisi kana zvigadzirwa. Kana vatumira chikumbiro chavo, unogona kuseta mutengo uye kugadzirisa mubhadharo. Govera fomu pasocial media yako kuti vatengi vawedzere zvinhu, vaise mifananidzo uye vatumire maodha zviri nyore.",
+        action:'Verenga nezve Avocado',
+      },
+      marketplace:{
+        title: "Musika wevatengesi vakawanda uye kubhadhara otomatiki",
+        description: "Vaka musika unokura neSelldone nekuwedzera vatengesi vakawanda. Vatengesi vanogona kunyora zvigadzirwa zvavo, uye iwe unogona kuseta chikamu chekomisheni pakutengesa kwega kwega. Kana mutengi atenga, mutengesi anogamuchira mubhadharo zvakananga, anogadzirisa odha kuburikidza nepaneru yake yakatsaurirwa, uye iwe unowana komisheni kuburikidza nechinhu chekubhadhara otomatiki.",
+        action:'Kubhadhara vatengesi otomatiki',
+      },
+      business_model:{
+        title: "Tsigira mamodheru akaomarara ebhizinesi",
+        description:
+            "Selldone inotsigira mamodheru ari nyore uye akaomarara ebhizinesi, ichikubvumira kugadzirisa sezvinodiwa. Gadzirisa zvese kumashure usingaisi mapulagini kana maapp ekuwedzera, kuti kuchinja nekushanda kuve nyore.",
+      },
+      gift_shopping:{
+        title: "Kurambidza nzvimbo dzezvigadzirwa uye kutenga zvipo",
+        description:
+            "Seta zvirambidzo zvenzvimbo pachigadzirwa chimwe nechimwe nekutsanangura nyika dzakawanda, macode eZIP nemaguta. Chinhu ichi chakakodzera kugadzira ruzivo rwekutenga zvipo rwakasarudzika kana kudzikamisa kuwanikwa kwezvigadzirwa kunzvimbo dzakati, senge maresitorendi.",
+
+      }
+    },
+
+    template: {
+      title: "Matemplate",
+      msg: "Tanga chitoro chako nematemu edu ekare akavakwa! Nyatsosiyanisa nekuwedzera akawanda mapeji, rimwe nerimwe richizvikudza rakasiyana dhizaini.",
+      action:'Ona matemplate ese...'
+
+    },
+
+    colors: {
+      title: "Mavara nemarongerwo",
+
+      msg: "Uri kutsvaga kugadzirisa yako chigadzirwa peji uye dhizaini yechitoro kuti ikwane chiono chako? Dive muchikamu chekugadzirisa dingindira muchitoro chako uye tarisa mashiripiti achiitika zvisingaite!",
+
+      action:'Gadzirisa mavara nedingindira'
+
+    },
+
+  },
+
+  /**
+   * @see ShopOnboardingSetupBusinessTab
+   */
+  business: {
+    step1: {
+      title: "Muenzaniso webhizinesi",
+      msg: "Bhizinesi rega rega rakasiyana, uye rinowanzoda zvinopfuura kungoita zvekutanga online chitoro. Tsanangura mari yako modhi, uye isu tichakubata zvisina mutsetse zvimwe zvese kwauri.",
+    },
+  },
+
+  migration: {
+    title: "Kutama",
+    shopify: {
+      msg: "Chinja kuSelldone zvisina musono kubva kuShopify! Nakidzwa nekutama-tama kusingaite, maficha akavandudzwa, uye zvinodhura zvinogadzirisa zvechitoro chako chepamhepo.",
+    },
+    woocommerce: {
+      msg: "Fambisa zvigadzirwa zvako zveWooCommerce kuSelldone zviri nyore nemaklik mashoma chete! Nakidzwa nekuita kwakavandudzwa, dhizaini iri nyore kunzwisisa uye rutsigiro rwevatengi rwepamusoro. Simudzira ruzivo rwako rwekutengeserana pamhepo izvozvi.",
+    },
+  },
+
+
+
+
+
 };

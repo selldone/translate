@@ -1,16 +1,29 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
   local_service: "Dịch vụ địa phương cho {country_name}",
   local_service_message:
-      "Dịch vụ này được thiết kế dành riêng cho người dùng sống tại <u>{country_name}</u> và bán hàng hóa và dịch vụ tại quốc gia này." +
-      "Bạn chỉ được phép sử dụng dịch vụ địa phương hoặc dịch vụ quốc tế của Selldone." +
-      "Để sử dụng dịch vụ này, bạn cần tuân thủ luật pháp của <b>{country_name}</b> và <b>Liên minh Châu Âu</b>.",
+    "Dịch vụ này được thiết kế dành riêng cho người dùng sống tại <u>{country_name}</u> và bán hàng hóa và dịch vụ tại quốc gia này.Bạn chỉ được phép sử dụng dịch vụ địa phương hoặc dịch vụ quốc tế của Selldone.Để sử dụng dịch vụ này, bạn cần tuân thủ luật pháp của <b>{country_name}</b> và <b>Liên minh Châu Âu</b>.",
 
   my_shops: "Cửa hàng của tôi",
   select_language_dialog_title: "Kinh doanh bằng ngôn ngữ yêu thích của bạn",
 
   welcome_title: "Giảm nhiều quyết định hàng ngày thành một",
   welcome_subtitle:
-      "Xây dựng, quản lý & mở rộng doanh nghiệp như chuyên gia với hệ điều hành kinh doanh cấp doanh nghiệp không cần mã cho việc xử lý hàng triệu đơn hàng và tự động hóa quy trình làm việc của bạn.",
+    "Xây dựng, quản lý & mở rộng doanh nghiệp như chuyên gia với hệ điều hành kinh doanh cấp doanh nghiệp không cần mã cho việc xử lý hàng triệu đơn hàng và tự động hóa quy trình làm việc của bạn.",
+  //"Make your online store by no-code & no-expert needed solution for millions of orders.",
 
   moto: "Bạn thử, chúng tôi mở cửa!",
   start_now_btn: "Bắt đầu ngay — miễn phí",
@@ -29,12 +42,22 @@ export default {
   today_orders: "Đơn hàng hôm nay",
 
   s1: {
+    /* title: "Make Your Online Store By<br>No—Code & No—Expert Needed Solution",
+                                 title_animated_words: [
+                                   "Entrepreneurs",
+                                   "Artists",
+                                   "Independent Businesses",
+                                   "Brands",
+                                   "Retails",
+                                   "Creators",
+                                 ],*/
+
     subtitle:
-        "Dành cho <b>chủ doanh nghiệp</b> và <b>thương nhân</b> đang tìm kiếm trải nghiệm độc đáo, nhanh chóng, an toàn và đáng tin cậy cho khách hàng của họ, công cụ này giúp bạn xây dựng một cửa hàng thương mại điện tử nhanh chóng, quản lý cửa hàng liền mạch và cộng đồng độc đáo tự sở hữu xung quanh nó trên hệ điều hành kinh doanh <b>cấp doanh nghiệp nhãn trắng</b>.",
+      "Dành cho <b>chủ doanh nghiệp</b> và <b>thương nhân</b> đang tìm kiếm trải nghiệm độc đáo, nhanh chóng, an toàn và đáng tin cậy cho khách hàng của họ, công cụ này giúp bạn xây dựng một cửa hàng thương mại điện tử nhanh chóng, quản lý cửa hàng liền mạch và cộng đồng độc đáo tự sở hữu xung quanh nó trên hệ điều hành kinh doanh <b>cấp doanh nghiệp nhãn trắng</b>.",
 
     domain_input: {
       message:
-          "Cửa hàng của bạn có thể kết nối với bất kỳ số lượng tên miền cá nhân nào bạn có với lưu trữ và SSL miễn phí",
+        "Cửa hàng của bạn có thể kết nối với bất kỳ số lượng tên miền cá nhân nào bạn có với lưu trữ và SSL miễn phí",
       action: "Tạo Cửa hàng",
     },
     community: "Nền tảng Cộng đồng",
@@ -45,7 +68,7 @@ export default {
     in_60_sec: "Nhấn vào đây",
 
     why_use_selldone_if_frustrated_from_wordpress_and_shopify:
-        "Nếu bạn cảm thấy bực bội với các plugin WordPress lỗi, máy chủ không thể mở rộng, hoặc các cài đặt ứng dụng Shopify đắt đỏ và phức tạp, thì Selldone là giải pháp tối ưu cho bạn.",
+      "Nếu bạn cảm thấy bực bội với các tiện ích WordPress lỗi, máy chủ không thể mở rộng, hoặc các cài đặt ứng dụng Shopify đắt đỏ và phức tạp, thì Selldone là giải pháp tối ưu cho bạn.",
   },
 
   video: {
@@ -58,32 +81,36 @@ export default {
       msg: "Bán trực tiếp bằng giải pháp không cần cài đặt.",
     },
     card_ecommerce: {
-      title: "Selldone Ecommerce",
+      title: "Thương mại điện tử Selldone",
       msg: "Bán trực tuyến như chuyên nghiệp.",
     },
   },
 
   why: {
-    title: "Tại sao lại là Business OS?",
+    title: "Tại sao lại là hệ điều hành kinh doanh?",
     msg: "Chúng tôi không thể tưởng tượng các đội ngũ không có huấn luyện viên, các cuộc cách mạng không có lãnh đạo, cây không có rễ, và doanh nghiệp không có hệ điều hành! Vì vậy chúng tôi đang tái tưởng tượng kinh doanh trực tuyến cho các công ty tăng trưởng nhanh và các doanh nhân trẻ.",
 
     sec1: {
       title: "Dễ dàng + Chuyên nghiệp",
+      //   msg: "It's built for you to game like a professional in the markets, even if you are a beginner but want to play like a professional, or you are an expert and deserve to play like yourself!",
     },
     sec2: {
       title: "Công cụ cấp doanh nghiệp",
+      //  msg: "We release new features, update APIs and apply new methods as a daily routine.  It's an operating system for your business, so your business scale up by our platform.",
     },
     sec3: {
       title: "Bán hàng xã hội",
+      //  msg: "Our product is designed on the real trading behavior of purchasers all around the world. We offer one-of-a-kind sales methods on Instagram, TikTok, and other social networks, named AVOCADO.",
     },
     sec4: {
       title: "Tiết kiệm tiền",
+      // msg: "No need for any experts to have an ecommerce anymore! Say goodbye to the costly development, maintenance, programming process, and even ecommerce platforms experts' cost.",
     },
   },
 
   how_it_work: {
     title: "Cách hoạt động",
-    msg: "Giải pháp Không cần Thẻ tín dụng, Không cần Plugin, Không cần Mẫu, Không cần Cài đặt, Không cần Host, Không cần Kỹ thuật cho những người muốn kinh doanh như chuyên nghiệp.",
+    msg: "Giải pháp Không cần Thẻ tín dụng, Không cần Tiện ích, Không cần Mẫu, Không cần Cài đặt, Không cần máy chủ, Không cần Kỹ thuật cho những người muốn kinh doanh như chuyên nghiệp.",
 
     step0: {
       title: "Thiết kế cho Người Mua, Được Người Bán Yêu Thích, Chỉ Cách Một Bước.",
@@ -105,11 +132,14 @@ export default {
     },
     step4: {
       title:
-          "Thanh toán một cú nhấp: Trải nghiệm thanh toán thống nhất trên toàn thế giới.",
+        "Thanh toán một cú nhấp: Trải nghiệm thanh toán thống nhất trên toàn thế giới.",
       msg1: "Khách hàng không phải nhập thông tin và điền vào mẫu đăng ký để mua hàng từ bạn! Họ đăng nhập qua SMS và điền vào mẫu thanh toán chỉ với một cú nhấp và thanh toán. Bạn phát triển, chúng tôi phát triển.",
     },
   },
 
+  /**
+   * @see OOnboardingShop
+   */
   onboarding: {
     title: "Kinh doanh trực tuyến của bạn, nhanh hơn và tốt hơn - miễn phí",
     success_title: "Cài đặt hệ điều hành kinh doanh trực tuyến của bạn,",
@@ -118,12 +148,11 @@ export default {
     send_mail_msg: "Liên kết đăng nhập đã được gửi tới {email}",
 
     enable_disable_features_msg:
-        "Bạn có thể bật hoặc tắt các tính năng này sau.",
-
+      "Bạn có thể bật hoặc tắt các tính năng này sau.",
     package_starter: {
       title: "Gói Tùy chọn",
       subtitle:
-          "Chúng tôi hiểu rằng bạn có thể không có thời gian để thiết lập hoặc tìm hiểu về Selldone, vì vậy sau khi đăng ký, bạn sẽ có quyền truy cập vào một <b>gói tất cả trong một</b> mà bạn có thể mua tùy chọn. Nó sẽ chỉ có sẵn trong <b>14 ngày</b> sau khi tạo cửa hàng.",
+        "Chúng tôi hiểu rằng bạn có thể không có thời gian để thiết lập hoặc tìm hiểu về Selldone, vì vậy sau khi đăng ký, bạn sẽ có quyền truy cập vào một <b>gói tất cả trong một</b> mà bạn có thể mua tùy chọn. Nó sẽ chỉ có sẵn trong <b>14 ngày</b> sau khi tạo cửa hàng.",
       include_items_title: "Nó bao gồm các dịch vụ sau",
       include_items: [
         "Thiết lập cài đặt và giao diện cửa hàng",
@@ -137,7 +166,7 @@ export default {
     sample: {
       title: "Cài đặt Dữ liệu Mẫu",
       description:
-          "Bắt đầu cửa hàng của tôi với dữ liệu mẫu như sản phẩm, danh mục và bài viết blog.",
+        "Bắt đầu cửa hàng của tôi với dữ liệu mẫu như sản phẩm, danh mục và bài viết blog.",
     },
 
     options: {
@@ -145,7 +174,7 @@ export default {
       msg: "Bạn muốn tính năng gì trên trang web của mình?",
       ecommerce: "Thương mại Điện tử",
       pos: "Điểm Bán hàng",
-      blog: "Blog & CMS",
+      blog: "Blog và CMS",
       community: "Cộng đồng & Diễn đàn",
 
       ecommerce_desc: "Bán sản phẩm và dịch vụ trực tuyến.",
@@ -157,7 +186,7 @@ export default {
     job: {
       title: "Chọn ngành nghề của bạn để bắt đầu...",
       placeholder:
-          "Chuyển doanh nghiệp của bạn sang Selldone OS, không quan trọng bạn đang sử dụng nền tảng nào hiện tại.",
+        "Chuyển doanh nghiệp của bạn sang Selldone OS, không quan trọng bạn đang sử dụng nền tảng nào hiện tại.",
     },
     shop_name: {
       title: "Tên Doanh nghiệp",
@@ -179,27 +208,27 @@ export default {
   notion: {
     title: "Chơi với các công cụ khác nhau.",
     quote:
-        "Chúng tôi tin rằng một người có thể tạo ra sự thay đổi trong thời đại nhân loại trực tuyến, ngay cả khi họ không đủ tiền, không có kinh nghiệm kỹ thuật, thậm chí không có tài khoản ngân hàng để trả hóa đơn; chúng tôi thực hiện điều đó bằng cách tạo ra một nền tảng sẵn sàng sử dụng với các công cụ cấp doanh nghiệp để hoạt động như một hệ điều hành dễ đạt được nhất trên internet.",
+      "Chúng tôi tin rằng một người có thể tạo ra sự thay đổi trong thời đại nhân loại trực tuyến, ngay cả khi họ không đủ tiền, không có kinh nghiệm kỹ thuật, thậm chí không có tài khoản ngân hàng để trả hóa đơn; chúng tôi thực hiện điều đó bằng cách tạo ra một nền tảng sẵn sàng sử dụng với các công cụ cấp doanh nghiệp để hoạt động như một hệ điều hành dễ đạt được nhất trên internet.",
   },
 
   stop: {
     title: "Đa cổng + Thanh toán Trực tiếp.",
     subtitle:
-        "Ví ảo giúp bạn kiểm soát dòng tiền và nhận tiền trực tiếp thông qua các dịch vụ thanh toán của bạn mà không bị can thiệp từ nền tảng thương mại điện tử của bạn.",
-    pacman: "Plugin Thanh toán",
+      "Ví ảo giúp bạn kiểm soát dòng tiền và nhận tiền trực tiếp thông qua các dịch vụ thanh toán của bạn mà không bị can thiệp từ nền tảng thương mại điện tử của bạn.",
+    pacman: "Tiện ích Thanh toán",
   },
 
   flow: {
     title: "Luồng thanh toán có thể tùy chỉnh.",
     subtitle:
-        "Thiết kế hành trình khách hàng và luồng mua hàng của bạn và thử nghiệm kết quả.",
-    pacman: "Plugin Thanh toán",
+      "Thiết kế hành trình khách hàng và luồng mua hàng của bạn và thử nghiệm kết quả.",
+    pacman: "Tiện ích Thanh toán",
   },
   business_model: {
     title: "Đa mô hình kinh doanh.",
     subtitle:
-        "Thiết lập mô hình kinh doanh của bạn một cách trực quan, tất cả sự phức tạp sẽ được điều chỉnh phía sau.",
-    pacman: "Marketplace & POD Plugins",
+      "Thiết lập mô hình kinh doanh của bạn một cách trực quan, tất cả sự phức tạp sẽ được điều chỉnh phía sau.",
+    pacman: "Tiện ích marketplace & POD",
   },
 
   os: {
@@ -208,13 +237,13 @@ export default {
   },
   login: {
     title:
-        "Bạn có tò mò về việc xây dựng, quản lý và mở rộng doanh nghiệp của mình một cách trực quan?",
+      "Bạn có tò mò về việc xây dựng, quản lý và mở rộng doanh nghiệp của mình một cách trực quan?",
   },
 
   currencies: {
     title: "Tiền tệ",
     sub: "Khách hàng của bạn có thể thanh toán mượt mà bằng tiền tệ địa phương của họ.",
-    msg: "Tập trung vào bán hàng thay vì vật lộn với những khó khăn về công nghệ, plugin và các vấn đề thanh toán. Chúng tôi làm việc với các dịch vụ thanh toán địa phương và toàn cầu để làm cho mọi thứ phù hợp với kinh doanh trực tuyến của bạn.",
+    msg: "Tập trung vào bán hàng thay vì vật lộn với những khó khăn về công nghệ, tiện ích và các vấn đề thanh toán. Chúng tôi làm việc với các dịch vụ thanh toán địa phương và toàn cầu để làm cho mọi thứ phù hợp với kinh doanh trực tuyến của bạn.",
   },
 
   countries: {
@@ -224,7 +253,7 @@ export default {
   },
   dna: {
     title: "DNA của Doanh nghiệp Bạn",
-    sub: "SELLDONE IT!",
+    sub: "HÃY SELLDONE!",
     msg: "Nó là Hệ điều hành Kinh doanh không mã tất cả trong một duy nhất với các công cụ cấp doanh nghiệp dành cho bạn.",
   },
 
@@ -243,6 +272,7 @@ export default {
     },
   },
 
+  /** @see ConvertibleSelldoneView **/
   convertible: {
     store_name: "Cửa hàng của bạn",
     variant_1: "Biến thể Sản phẩm Amber",
@@ -294,7 +324,6 @@ export default {
     title: "Bạn có tài khoản Stripe?",
     msg: "Chúc mừng, bạn đã hoàn thành hầu hết mọi thứ trước đó. Tạo cửa hàng trực tuyến của bạn chỉ bằng một nhấn! Selldone lo liệu phần còn lại.",
   },
-
   /* demo: {
                   title: "View Demo",
                   msg: "See professional live e-commerces",
@@ -308,22 +337,22 @@ export default {
     {
       question: "Tôi có thể tạo cửa hàng trực tuyến mà không cần thẻ tín dụng không?",
       answer:
-          "Có, bạn có thể tạo thương mại điện tử của mình mà không cần bất kỳ thẻ ngân hàng nào như thẻ tín dụng và thẻ ghi nợ trên Selldone. Selldone sử dụng một cách độc đáo để cung cấp các dịch vụ thương mại điện tử tiên tiến cho người dùng, ngay cả hơn 1,7 tỷ người không có quyền truy cập vào các dịch vụ tài chính thông thường.",
+        "Có, bạn có thể tạo thương mại điện tử của mình mà không cần bất kỳ thẻ ngân hàng nào như thẻ tín dụng và thẻ ghi nợ trên Selldone. Selldone sử dụng một cách độc đáo để cung cấp các dịch vụ thương mại điện tử tiên tiến cho người dùng, ngay cả hơn 1,7 tỷ người không có quyền truy cập vào các dịch vụ tài chính thông thường.",
     },
     {
       question: "Làm thế nào để tôi bán hàng trực tuyến cho khách hàng không có ngân hàng?",
       answer:
-          "Thêm COD (<b>Thanh toán khi nhận hàng</b>) vào thương mại điện tử của bạn, để khách hàng có thể thanh toán sau khi nhận được đơn hàng. COD là cách truyền thống ở hầu hết các quốc gia thiếu cơ sở hạ tầng tài chính.",
+        "Thêm COD (<b>Thanh toán khi nhận hàng</b>) vào thương mại điện tử của bạn, để khách hàng có thể thanh toán sau khi nhận được đơn hàng. COD là cách truyền thống ở hầu hết các quốc gia thiếu cơ sở hạ tầng tài chính.",
     },
     {
       question: "Làm thế nào để tôi thiết lập thương mại điện tử của mình mà không cần tài khoản ngân hàng?",
       answer:
-          "Trước đây không có giải pháp nào cho những người không có ngân hàng trước Selldone. Nhưng bây giờ, bạn có thể tạo thương mại điện tử và trang web của mình mà không cần có bất kỳ tài khoản ngân hàng nào. Nó có chi phí tối thiểu cho bạn; bạn có thể thanh toán chi phí này vào cuối tháng thông qua ví của mình. Ví Selldone có thể nhận phí từ người khác hoặc nạp qua thẻ quà tặng. Bạn không cần thẻ tín dụng để sử dụng các dịch vụ này.",
+        "Trước đây không có giải pháp nào cho những người không có ngân hàng trước Selldone. Nhưng bây giờ, bạn có thể tạo thương mại điện tử và trang web của mình mà không cần có bất kỳ tài khoản ngân hàng nào. Nó có chi phí tối thiểu cho bạn; bạn có thể thanh toán chi phí này vào cuối tháng thông qua ví của mình. Ví Selldone có thể nhận phí từ người khác hoặc nạp qua thẻ quà tặng. Bạn không cần thẻ tín dụng để sử dụng các dịch vụ này.",
     },
     {
       question: "Làm thế nào để tôi bắt đầu kinh doanh mà không cần chi phí cài đặt?",
       answer:
-          "<ol> <li> Đăng ký miễn phí tại <a href='https://selldone.com'>Selldone.com</a>. </li> <li> Xây dựng cửa hàng của bạn. </li> <li> Thêm sản phẩm và dịch vụ của bạn. </li> <li> Kết nối tên miền của bạn (tùy chọn) </li> <li> Kích hoạt cổng thanh toán. </li> <li> Bắt đầu giới thiệu doanh nghiệp của bạn đến bạn bè và gia đình. </li> <li> Giới thiệu bản thân và sản phẩm của bạn trên mạng xã hội. </li> <li> Xây dựng thương hiệu cho doanh nghiệp của bạn bằng cách cung cấp một đề xuất giá trị độc đáo. </li> <li> Giám sát hành vi người dùng của bạn thông qua bảng điều khiển Selldone. </li> </ol>",
+        "<ol> <li> Đăng ký miễn phí tại <a href='https://selldone.com'>Selldone.com</a>. </li> <li> Xây dựng cửa hàng của bạn. </li> <li> Thêm sản phẩm và dịch vụ của bạn. </li> <li> Kết nối tên miền của bạn (tùy chọn) </li> <li> Kích hoạt cổng thanh toán. </li> <li> Bắt đầu giới thiệu doanh nghiệp của bạn đến bạn bè và gia đình. </li> <li> Giới thiệu bản thân và sản phẩm của bạn trên mạng xã hội. </li> <li> Xây dựng thương hiệu cho doanh nghiệp của bạn bằng cách cung cấp một đề xuất giá trị độc đáo. </li> <li> Giám sát hành vi người dùng của bạn thông qua bảng điều khiển Selldone. </li> </ol>",
     },
   ],
 
@@ -335,11 +364,11 @@ export default {
   why_boxes: {
     title: "Tối ưu hóa cho bán hàng trực tuyến & trực tiếp ở quy mô lớn",
     subtitle:
-        "Được chế tác cho sự chuyển đổi. Nâng cao cửa hàng trực tuyến của bạn với các công cụ trực quan được thiết kế để biến khách truy cập thành khách hàng.",
+      "Được chế tác cho sự chuyển đổi. Nâng cao cửa hàng trực tuyến của bạn với các công cụ trực quan được thiết kế để biến khách truy cập thành khách hàng.",
 
     block1: {
       title: "Tiết kiệm chi phí ban đầu",
-      subtitle: "Giải pháp Không có chủ đề & Không có plugin.",
+      subtitle: "Giải pháp Không có chủ đề & Không có tiện ích.",
     },
     block2: {
       title: "Tiết kiệm chi phí vận hành",
@@ -382,8 +411,8 @@ export default {
 
   panorama: {
     title:
-        '#1 Hệ điều hành Kinh doanh — <b class="bg-gradient-animate text-gradient my-1">Tất cả các tính năng đã được xây dựng sẵn.</b>',
-    msg: "Không cần phải chi hàng nghìn đô la cho plugin và ứng dụng mỗi tháng và lo lắng về các bản cập nhật. Giống như một thiên thần, Selldone lo liệu tất cả các khía cạnh kỹ thuật của doanh nghiệp bạn.",
+      "#1 Hệ điều hành Kinh doanh — <b class=\"bg-gradient-animate text-gradient my-1\">Tất cả các tính năng đã được xây dựng sẵn.</b>",
+    msg: "Không cần phải chi hàng nghìn đô la cho tiện ích và ứng dụng mỗi tháng và lo lắng về các bản cập nhật. Giống như một thiên thần, Selldone lo liệu tất cả các khía cạnh kỹ thuật của doanh nghiệp bạn.",
     orders_management: "Quản lý Đơn hàng",
     online_pos: "POS Trực tuyến",
     shipping: "Vận chuyển",
@@ -397,7 +426,7 @@ export default {
     ar_3d: "3D / AR",
   },
 
-  no_plugin: "Không plugin",
+  no_plugin: "Không tiện ích",
 
   product_page: {
     title: "Kết quả Sau Khi Thêm Sản phẩm Đầu tiên của Bạn.",
@@ -412,37 +441,36 @@ export default {
     we_support_message: "Chúng tôi hỗ trợ {country}",
     we_limited_support: "Chúng tôi hỗ trợ hạn chế {country}",
     support_message_long:
-        "Trải nghiệm giao dịch trực tuyến liền mạch tại quốc gia của bạn với Selldone! Bên cạnh việc tính toán thuế chuyên nghiệp, chúng tôi cung cấp nhiều phương thức thanh toán đa dạng bao gồm tiền mặt, POS, chuyển khoản ngân hàng, và nhiều hơn nữa. Bắt đầu xây dựng doanh nghiệp của bạn trên nền tảng hỗ trợ đầy đủ nhu cầu của quốc gia bạn.",
-
+      "Trải nghiệm giao dịch trực tuyến liền mạch tại quốc gia của bạn với Selldone! Bên cạnh việc tính toán thuế chuyên nghiệp, chúng tôi cung cấp nhiều phương thức thanh toán đa dạng bao gồm tiền mặt, POS, chuyển khoản ngân hàng, và nhiều hơn nữa. Bắt đầu xây dựng doanh nghiệp của bạn trên nền tảng hỗ trợ đầy đủ nhu cầu của quốc gia bạn.",
     limited_support_message_long:
-        "            Thanh toán trực tuyến có thể không có sẵn tại quốc gia của bạn, nhưng đừng lo lắng! Tại Selldone, chúng tôi cung cấp thanh toán bằng tiền mặt, chuyển khoản ngân hàng và Thanh toán khi nhận hàng (COD) trên toàn thế giới. Bạn có thể tự tin xây dựng doanh nghiệp trực tuyến của mình với chúng tôi trong khi tuân thủ các quy định của quốc gia và Châu Âu. Để biết thêm chi tiết hoặc để hỏi về hỗ trợ thanh toán trực tuyến tại quốc gia của bạn, vui lòng liên hệ với đội ngũ hỗ trợ của chúng tôi.\n",
+      "            Thanh toán trực tuyến có thể không có sẵn tại quốc gia của bạn, nhưng đừng lo lắng! Tại Selldone, chúng tôi cung cấp thanh toán bằng tiền mặt, chuyển khoản ngân hàng và Thanh toán khi nhận hàng (COD) trên toàn thế giới. Bạn có thể tự tin xây dựng doanh nghiệp trực tuyến của mình với chúng tôi trong khi tuân thủ các quy định của quốc gia và Châu Âu. Để biết thêm chi tiết hoặc để hỏi về hỗ trợ thanh toán trực tuyến tại quốc gia của bạn, vui lòng liên hệ với đội ngũ hỗ trợ của chúng tôi.\n",
     more_about_selldone_in_country: "Về Selldone tại quốc gia của bạn",
 
     tax: {
       title: "Thân thiện với Thuế",
       message:
-          "Dễ dàng thiết lập hồ sơ thuế cho các danh mục sản phẩm khác nhau, tự động điều chỉnh theo quốc gia và tiểu bang của người mua. Tuân thủ và mở rộng phạm vi toàn cầu của bạn.",
+        "Dễ dàng thiết lập hồ sơ thuế cho các danh mục sản phẩm khác nhau, tự động điều chỉnh theo quốc gia và tiểu bang của người mua. Tuân thủ và mở rộng phạm vi toàn cầu của bạn.",
     },
     global: {
       title: "Bán hàng Toàn cầu",
       message:
-          "Tiếp cận khách hàng toàn thế giới với hỗ trợ quốc tế liền mạch của Selldone. Mở rộng doanh nghiệp của bạn toàn cầu một cách dễ dàng và hiệu quả.",
+        "Tiếp cận khách hàng toàn thế giới với hỗ trợ quốc tế liền mạch của Selldone. Mở rộng doanh nghiệp của bạn toàn cầu một cách dễ dàng và hiệu quả.",
     },
     shipping: {
       title: "Vận chuyển Địa phương & Toàn cầu",
       message:
-          "Tích hợp với các nhà vận chuyển địa phương và toàn cầu như Shippo và Shipday, cộng với các tùy chọn quản lý vận chuyển tự chủ, để đảm bảo hoạt động giao hàng trơn tru ở mọi nơi.",
+        "Tích hợp với các nhà vận chuyển địa phương và toàn cầu như Shippo và Shipday, cộng với các tùy chọn quản lý vận chuyển tự chủ, để đảm bảo hoạt động giao hàng trơn tru ở mọi nơi.",
     },
     erp: {
       title: "Tích hợp ERP",
       message:
-          "Kết nối liền mạch với các ERP hàng đầu thông qua cổng thông tin mở và truy cập API của chúng tôi, với các tích hợp chỉ với một cú nhấp chuột để vận hành kinh doanh mượt mà.",
+        "Kết nối liền mạch với các ERP hàng đầu thông qua cổng thông tin mở và truy cập API của chúng tôi, với các tích hợp chỉ với một cú nhấp chuột để vận hành kinh doanh mượt mà.",
     },
   },
 
   hero: {
     intro: "#1 Hệ điều hành cho Doanh nghiệp",
-    title: "Thay thế {infinite} Plugin & Apps bằng một {app}",
+    title: "Thay thế {infinite} Tiện ích & ứng dụng bằng một {app}",
   },
 
   /**
@@ -453,7 +481,7 @@ export default {
     amazon: "Amazon",
     local_store: "Cửa hàng Địa phương",
     instagram: "Cửa hàng Instagram",
-    dropshipping: "Dropshipping",
+    dropshipping: "Cửa hàng dropshipping",
     coursera: "Coursera",
     gift_store: "Cửa hàng Quà tặng",
     airbnb: "Airbnb",
@@ -464,7 +492,7 @@ export default {
    * {@see SectionShowItsSimplicity}
    */
   show_its_simplicity: {
-    title: `Một nền tảng thương mại điện tử phức tạp nhàm chán khác <div class="app-box" style="font-size: 55%">😣</div>!?`,
+    title: "Một nền tảng thương mại điện tử phức tạp nhàm chán khác <div class=\"app-box\" style=\"font-size: 55%\">😣</div>!?",
     subtitle: "Chắc chắn không! Hãy thử nó trước khi đăng ký...",
     as_guest: "Như Khách",
     need_register: "Cần Đăng ký",
@@ -472,25 +500,25 @@ export default {
     page_builder: {
       title: "Trình xây dựng Trang tích hợp sẵn",
       subtitle:
-          "Trình xây dựng trang kéo và thả trực quan đầu tiên với chỉnh sửa nội tuyến.",
+        "Trình xây dựng trang kéo và thả trực quan đầu tiên với chỉnh sửa nội tuyến.",
       try_action: "Thử Trình xây dựng Trang",
       see_collection_action: "Xem Mẫu",
     },
     ai: {
       title: "Tính năng AI tích hợp sẵn",
       subtitle:
-          "Loại bỏ nền công nghiệp tốt nhất, tối ưu hóa hình ảnh, tạo nội dung, tạo sản phẩm tự động và hơn thế nữa.",
+        "Loại bỏ nền công nghiệp tốt nhất, tối ưu hóa hình ảnh, tạo nội dung, tạo sản phẩm tự động và hơn thế nữa.",
       try_action: "Thử Trí tuệ Selldone",
     },
     storefront: {
       title: "Giao diện Cửa hàng Trực tiếp",
       subtitle:
-          "Trải nghiệm mua sắm nhanh nhất với trang web PWA hiện đại mà không cần viết một dòng mã nào.",
+        "Trải nghiệm mua sắm nhanh nhất với trang web PWA hiện đại mà không cần viết một dòng mã nào.",
       see_action: "Xem Giao diện Demo",
     },
     backoffice: {
       title: "Văn phòng Sau Trực tiếp",
-      subtitle: "Quản lý mọi thứ từ một nơi mà không cần bất kỳ plugin nào.",
+      subtitle: "Quản lý mọi thứ từ một nơi mà không cần bất kỳ tiện ích nào.",
       see_action: "Xem Văn phòng Sau Demo",
     },
   },
@@ -499,9 +527,9 @@ export default {
    * {@see SectionPricingCompact}
    */
   pricing_compact: {
-    title: `<div class="app-box" style="font-size: 55%">💞️</div> Giá cả đơn giản và minh bạch`,
+    title: "<div class=\"app-box\" style=\"font-size: 55%\">💞️</div> Giá cả đơn giản và minh bạch",
     subtitle:
-        "Truy cập tất cả các tính năng cấp doanh nghiệp để bắt đầu và mở rộng doanh nghiệp của bạn với mô hình chia sẻ doanh thu của chúng tôi—không phải trả trước, chỉ trả một phần doanh thu của bạn. Chúng tôi chỉ thành công khi bạn thành công, giảm thiểu chi phí và tối đa hóa lợi nhuận của bạn.",
+      "Truy cập tất cả các tính năng cấp doanh nghiệp để bắt đầu và mở rộng doanh nghiệp của bạn với mô hình chia sẻ doanh thu của chúng tôi—không phải trả trước, chỉ trả một phần doanh thu của bạn. Chúng tôi chỉ thành công khi bạn thành công, giảm thiểu chi phí và tối đa hóa lợi nhuận của bạn.",
   },
 
   screenshots: {
@@ -511,7 +539,7 @@ export default {
     },
     item_2: {
       title: "Kết nối cửa hàng của bạn với PODs.",
-      desc: "Dễ dàng kết nối cửa hàng của bạn với dịch vụ dropshipping in theo yêu cầu như Printful và bán tác phẩm nghệ thuật của bạn trên các vật liệu in mà không cần bất kỳ plugin bổ sung nào.",
+      desc: "Dễ dàng kết nối cửa hàng của bạn với dịch vụ dropshipping in theo yêu cầu như Printful và bán tác phẩm nghệ thuật của bạn trên các vật liệu in mà không cần bất kỳ tiện ích bổ sung nào.",
     },
     item_3: {
       title: "Hoàn tất đơn hàng với các công cụ doanh nghiệp trực quan.",
@@ -539,7 +567,7 @@ export default {
     },
     item_9: {
       title: "Kết nối OS — Kết nối dễ dàng với các dịch vụ bên ngoài.",
-      desc: "Có thể kết nối với các dịch vụ bên ngoài, như các thị trường, nhà cung cấp dropshipping, PODs và phần mềm tài chính, mà không cần bất kỳ plugin bổ sung nào.",
+      desc: "Có thể kết nối với các dịch vụ bên ngoài, như các thị trường, nhà cung cấp dropshipping, PODs và phần mềm tài chính, mà không cần bất kỳ tiện ích bổ sung nào.",
     },
     item_10: {
       title: "Đơn giản hóa nhập sản phẩm từ các dịch vụ bên ngoài.",
@@ -563,7 +591,7 @@ export default {
     },
     item_15: {
       title:
-          "Khuyến khích khách hàng mua hàng bằng giảm giá, ưu đãi, mã giảm giá và gamification.",
+        "Khuyến khích khách hàng mua hàng bằng giảm giá, ưu đãi, mã giảm giá và gamification.",
       desc: "Khuyến khích khách hàng của bạn mua nhiều hơn từ cửa hàng của bạn bằng cách sử dụng các phương pháp khác nhau như cung cấp mã giảm giá, ưu đãi khuyến mãi, giảm giá thông minh, phiếu quà tặng và kết hợp các yếu tố của gamification vào trải nghiệm mua sắm.",
     },
     item_16: {
@@ -666,7 +694,7 @@ export default {
 
   country_landing: {
     intro: "#1 Hệ điều hành Kinh doanh tại",
-    title: "Thay thế {infinite} Plugin & Apps bằng {app} tại {country}",
+    title: "Thay thế {infinite} Tiện ích & ứng dụng bằng {app} tại {country}",
   },
 
   /**
@@ -674,31 +702,31 @@ export default {
    */
   payment_landing: {
     intro: "#1 Hệ điều hành Kinh doanh",
-    title: "Thay thế {infinite} Plugin & Apps bằng {app}",
+    title: "Thay thế {infinite} Tiện ích & ứng dụng bằng {app}",
 
     unlock_section: {
       title: "Mở khóa {payment} & Bắt đầu Kiếm tiền Trong Trang web của bạn",
       subtitle:
-          "Khởi động cửa hàng trực tuyến của bạn hôm nay! Bán sản phẩm, dịch vụ và đăng ký một cách dễ dàng với tốc độ và sự đơn giản.",
+        "Khởi động cửa hàng trực tuyến của bạn hôm nay! Bán sản phẩm, dịch vụ và đăng ký một cách dễ dàng với tốc độ và sự đơn giản.",
       no_plugin: {
-        title: "Thanh toán Dễ dàng, Không cần Plugin",
+        title: "Thanh toán Dễ dàng, Không cần Tiện ích",
         subtitle:
-            "Bước vào tương lai của thương mại điện tử với các giải pháp thanh toán không plugin liền mạch của Selldone cho {payment}. Tạm biệt các tích hợp phức tạp và tận hưởng trải nghiệm thanh toán trực tiếp, an toàn và không rắc rối.",
+          "Bước vào tương lai của thương mại điện tử với các giải pháp thanh toán không tiện ích liền mạch của Selldone cho {payment}. Tạm biệt các tích hợp phức tạp và tận hưởng trải nghiệm thanh toán trực tiếp, an toàn và không rắc rối.",
       },
       experience: {
         title: "Mua sắm Hoàn hảo, Được Hỗ trợ bởi Selldone + {payment}",
         subtitle:
-            "Biến đổi trải nghiệm thương mại điện tử của bạn với nền tảng dễ sử dụng của Selldone và tích hợp thanh toán {payment}. Bỏ qua các giao diện cồng kềnh và chào đón hành trình mua sắm liền mạch giữ khách hàng quay lại.",
+          "Biến đổi trải nghiệm thương mại điện tử của bạn với nền tảng dễ sử dụng của Selldone và tích hợp thanh toán {payment}. Bỏ qua các giao diện cồng kềnh và chào đón hành trình mua sắm liền mạch giữ khách hàng quay lại.",
       },
       boost: {
         title: "Tăng cường Doanh số của bạn với Thanh toán tích hợp Selldone",
         subtitle:
-            "Tại sao để các hệ thống thanh toán phức tạp làm chậm bạn? Với giải pháp thanh toán tích hợp của {payment}, bạn có thể tập trung vào những gì thực sự quan trọng: bán nhiều hơn. Xem doanh số của bạn tăng vọt khi bạn mở rộng doanh nghiệp một cách dễ dàng.",
+          "Tại sao để các hệ thống thanh toán phức tạp làm chậm bạn? Với giải pháp thanh toán tích hợp của {payment}, bạn có thể tập trung vào những gì thực sự quan trọng: bán nhiều hơn. Xem doanh số của bạn tăng vọt khi bạn mở rộng doanh nghiệp một cách dễ dàng.",
       },
       security: {
         title: "Nơi Bảo mật và Hiệu quả Hợp nhất",
         subtitle:
-            "Chọn Selldone + {payment} có nghĩa là lựa chọn bảo mật hàng đầu và hiệu quả không đối thủ. Hệ thống thanh toán chuyên dụng của chúng tôi đảm bảo mọi giao dịch đều an toàn, nhanh chóng và hoàn hảo.",
+          "Chọn Selldone + {payment} có nghĩa là lựa chọn bảo mật hàng đầu và hiệu quả không đối thủ. Hệ thống thanh toán chuyên dụng của chúng tôi đảm bảo mọi giao dịch đều an toàn, nhanh chóng và hoàn hảo.",
       },
       setup_payment: "Thiết lập Thanh toán",
     },
@@ -708,63 +736,63 @@ export default {
         step: "Bước 1",
         title: "Thêm Tiền tệ của bạn",
         subtitle:
-            "Để chấp nhận thanh toán bằng các tiền tệ khác nhau, bạn cần thiết lập một cổng thanh toán cho mỗi tiền tệ đó. Với {payment}, một tài khoản duy nhất có thể xử lý nhiều cổng thanh toán và tiền tệ trong cửa hàng của bạn, không giới hạn! Đảm bảo tiền tệ bạn muốn nằm trong phần Shop > Accounting > Currencies trong cài đặt cửa hàng của bạn.",
+          "Để chấp nhận thanh toán bằng các tiền tệ khác nhau, bạn cần thiết lập một cổng thanh toán cho mỗi tiền tệ đó. Với {payment}, một tài khoản duy nhất có thể xử lý nhiều cổng thanh toán và tiền tệ trong cửa hàng của bạn, không giới hạn! Đảm bảo tiền tệ bạn muốn nằm trong phần Shop > Accounting > Currencies trong cài đặt cửa hàng của bạn.",
       },
       step_2: {
         step: "Bước 2",
         title: "Thiết lập Cổng của bạn",
-        subtitle: `Tiếp theo, điều hướng đến tab Shop > Accounting > Gateways, nhấp vào <b>NEW PAYMENT METHOD</b>, chọn tiền tệ của bạn và chọn <b>{payment}</b>. Bạn có thể thêm các cổng ở chế độ gỡ lỗi hoặc hoạt động. Đảm bảo bạn nhập đúng khóa API cho mỗi chế độ, mà bạn có thể tìm thấy trên <a href="{payment_url}" target="_blank">{payment} account</a>.`,
+        subtitle: "Tiếp theo, điều hướng đến tab Cửa hàng > Kế toán > Cổng thanh toán, nhấp vào <b>PHƯƠNG THỨC THANH TOÁN MỚI</b>, chọn tiền tệ của bạn và chọn <b>{payment}</b>. Bạn có thể thêm các cổng ở chế độ gỡ lỗi hoặc hoạt động. Đảm bảo bạn nhập đúng khóa API cho mỗi chế độ, mà bạn có thể tìm thấy trên <a href=\"{payment_url}\" target=\"_blank\">tài khoản {payment}</a>.",
       },
     },
 
     integration: {
       title: "Tích hợp Thương mại Điện tử Liền mạch với {payment}",
       subtitle:
-          "Bắt đầu với Selldone và quản lý doanh nghiệp của bạn một cách dễ dàng. Không cần mã hóa hoặc plugin!",
+        "Bắt đầu với Selldone và quản lý doanh nghiệp của bạn một cách dễ dàng. Không cần mã hóa hoặc tiện ích!",
     },
     pay_after_earn: {
       title: "Chỉ Trả Khi Bạn Có Lợi Nhuận!",
       subtitle:
-          "Khởi động doanh nghiệp của bạn với kế hoạch miễn phí trọn đời của chúng tôi! Chỉ trả phí 0.5~2.0% khi bạn bắt đầu kiếm tiền.",
+        "Khởi động doanh nghiệp của bạn với kế hoạch miễn phí trọn đời của chúng tôi! Chỉ trả phí 0.5~2.0% khi bạn bắt đầu kiếm tiền.",
     },
   },
 
   feature_page_builder: {
     title: "Trình xây dựng Trang Định hướng Bán hàng",
     message:
-        "Dễ dàng thiết kế các trang tùy chỉnh với giải pháp không mã của chúng tôi. Kéo và thả các phần tử để tạo ra các trang phù hợp với nhu cầu của bạn.",
+      "Dễ dàng thiết kế các trang tùy chỉnh với giải pháp không mã của chúng tôi. Kéo và thả các phần tử để tạo ra các trang phù hợp với nhu cầu của bạn.",
   },
 
   feature_items: {
     products: {
       title: "Quản lý Sản phẩm trực quan",
       description:
-          "Dễ dàng quản lý sản phẩm—kéo & thả hình ảnh, chỉnh sửa chi tiết, tối ưu hóa quy trình làm việc của bạn.",
+        "Dễ dàng quản lý sản phẩm—kéo & thả hình ảnh, chỉnh sửa chi tiết, tối ưu hóa quy trình làm việc của bạn.",
     },
     excel: {
       title: "Nhập dữ liệu Excel",
       description:
-          "Nhập sản phẩm, danh mục và liên hệ một cách dễ dàng thông qua các tệp Excel.",
+        "Nhập sản phẩm, danh mục và liên hệ một cách dễ dàng thông qua các tệp Excel.",
     },
     incentive: {
       title: "Khuyến khích Bán hàng",
       description:
-          "Tăng doanh số với giảm giá, phiếu giảm giá, thẻ quà tặng và các ưu đãi gamified.",
+        "Tăng doanh số với giảm giá, phiếu giảm giá, thẻ quà tặng và các ưu đãi gamified.",
     },
     loyalty: {
       title: "Lòng trung thành của Khách hàng",
       description:
-          "Thiết lập các câu lạc bộ, thành viên và đăng ký để giữ chân khách hàng.",
+        "Thiết lập các câu lạc bộ, thành viên và đăng ký để giữ chân khách hàng.",
     },
     cashback: {
       title: "Ưu đãi Cashback",
       description:
-          "Triển khai các chương trình cashback đa dạng để thưởng cho khách hàng trung thành.",
+        "Triển khai các chương trình cashback đa dạng để thưởng cho khách hàng trung thành.",
     },
     cross_selling: {
       title: "Công cụ Bán chéo",
       description:
-          "Nâng cao doanh số với bán chéo; thiết lập các bộ sưu tập sản phẩm và giảm giá.",
+        "Nâng cao doanh số với bán chéo; thiết lập các bộ sưu tập sản phẩm và giảm giá.",
     },
     accounting: {
       title: "Kế toán Đơn giản",
@@ -773,32 +801,32 @@ export default {
     inventory: {
       title: "Kiểm soát Tồn kho",
       description:
-          "Giám sát mức tồn kho, cập nhật hàng loạt qua CSV, và quản lý hiệu quả.",
+        "Giám sát mức tồn kho, cập nhật hàng loạt qua CSV, và quản lý hiệu quả.",
     },
     analytics: {
       title: "Phân tích Nâng cao",
       description:
-          "Có được những hiểu biết về doanh số, khách hàng và chiến dịch với dữ liệu chi tiết.",
+        "Có được những hiểu biết về doanh số, khách hàng và chiến dịch với dữ liệu chi tiết.",
     },
     social: {
       title: "Bán hàng Đa Kênh",
       description:
-          "Bán trên nhiều kênh; kết nối với các thị trường, mạng xã hội, theo dõi nguồn gốc.",
+        "Bán trên nhiều kênh; kết nối với các thị trường, mạng xã hội, theo dõi nguồn gốc.",
     },
     community: {
       title: "Xây dựng Cộng đồng",
       description:
-          "Tương tác với khách hàng với các diễn đàn, blog và tính năng cộng đồng.",
+        "Tương tác với khách hàng với các diễn đàn, blog và tính năng cộng đồng.",
     },
     security: {
       title: "Quản lý Đội ngũ",
       description:
-          "Tạo vai trò, thiết lập quyền hạn và quản lý truy cập đội ngũ một cách hiệu quả.",
+        "Tạo vai trò, thiết lập quyền hạn và quản lý truy cập đội ngũ một cách hiệu quả.",
     },
     pos: {
       title: "POS Trong cửa hàng",
       description:
-          "Đơn giản hóa bán hàng trực tiếp; quản lý hệ thống POS và giao dịch.",
+        "Đơn giản hóa bán hàng trực tiếp; quản lý hệ thống POS và giao dịch.",
     },
     store: {
       title: "Thị trường Nhà cung cấp",
@@ -807,12 +835,12 @@ export default {
     pricing: {
       title: "Giá Động",
       description:
-          "Thiết lập giá thông minh dựa trên số lượng hoặc sở thích khách hàng.",
+        "Thiết lập giá thông minh dựa trên số lượng hoặc sở thích khách hàng.",
     },
     pod: {
       title: "Tích hợp Dropshipping",
       description:
-          "Kết nối với các dịch vụ POD và quản lý dropshipping một cách liền mạch.",
+        "Kết nối với các dịch vụ POD và quản lý dropshipping một cách liền mạch.",
     },
   },
 };

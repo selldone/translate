@@ -1,60 +1,82 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "menu": {
-    "home": "Дома",
-    "dashboard": "Контролна табла",
-    "login": "Логирај Се",
-    "help": "Помош",
-    "blog": "Блог",
-    "price_list": "Цените",
-    "apps": "Апликации",
-    "experts": "Експерти",
-    "demo": "Продавачи",
-    "partnership": "Партнерство",
-    "partner": {
-      "title": "Панел за партнери ● Whitelabel SaaS",
-      "subtitle": "Платформата за е-трговија со бело означување е совршена за проверени агенции."
+  menu: {
+    home: "Почетна",
+    dashboard: "Контролна табла",
+    login: "Најава",
+    help: "Помош",
+    blog: "Блог",
+    price_list: "Цени",
+    apps: "Апликации",
+    experts: "Експерти",
+    demo: "Корисници на Selldone",
+    partnership: "Партнерство",
+    partner: {
+      title: "Партнерски панел ● SaaS со сопствен бренд",
+      subtitle:
+        "Платформа за е-трговија со сопствен бренд е идеална за потврдени агенции.",
     },
-    "affiliate": {
-      "title": "Придружна програма ● Доживотно",
-      "subtitle": "Секој може да се запише во оваа програма и да заработи од надоместоците за претплата и трансакции доживотно."
-    }
+
+    affiliate: {
+      title: "Партнерска програма ● Доживотно",
+      subtitle:
+        "Секој може да се запише во оваа програма и доживотно да заработува од претплатнички и трансакциски надоместоци.",
+    },
   },
-  "home_menu": {
-    "buttons_header": "Длабоко нурнете во Селдоне",
-    "beta": "Бета",
-    "home": "Дома",
-    "why_selldone": "Зошто Селдоне?",
-    "ecommerce": "Е-трговија<br> Градител",
-    "automation": "Автоматизација и IoT",
-    "ai": "AI",
-    "app_builder": "Изградувач на апликации",
-    "seo": "Автоматско оптимизација<br> Мотор",
-    "marketing": "Маркетинг и<br> Кампања",
-    "report": "Паметен извештај<br> Генератор",
-    "domain": "Хостинг базиран на облак",
-    "accounting": "Плаќање и<br> Сметководство",
-    "logistics": "Логистика и<br> Испорака",
-    "page_builder": "Целна страница<br> Градител",
-    "incentives": "Клуб &<br> Стимулации",
-    "orders": "Нарачки &<br> Обработка",
-    "staff": "Клиенти и<br> Тим",
-    "community": "Прилагодена заедница",
-    "pos": "Онлајн ПОС",
-    "group_build": {
-      "header": "Изградба",
-      "subheader": "Ние градиме систем околу вас за да ја создадеме вашата успешна приказна."
+
+  /** @see OLayout **/
+  home_menu: {
+    buttons_header: "Запознајте го Selldone подлабоко",
+    beta: "Бета",
+    home: "Почетна",
+    why_selldone: "Зошто Selldone?",
+    ecommerce: "Градител на <br>онлајн продавница",
+    automation: "Автоматизација и IoT",
+    ai: "Вештачка интелигенција",
+    app_builder: "Градител на апликации",
+    seo: "Автоматски SEO <br>мотор",
+    marketing: "Маркетинг и <br>кампањи",
+    report: "Генератор на <br>паметни извештаи",
+    domain: "Хостинг во облак",
+    accounting: "Плаќања и <br>сметководство",
+    logistics: "Логистика и <br>испорака",
+    page_builder: "Градител на <br>лендинг страници",
+    incentives: "Клуб и <br>стимулации",
+    orders: "Нарачки и <br>обработка",
+    staff: "Клиенти и <br>тим",
+
+    community: "Прилагодена заедница",
+    pos: "Онлајн POS",
+
+    group_build: {
+      header: "Градење",
+      subheader: "Градиме систем околу вас за да ја создадете вашата успешна приказна.",
     },
-    "group_manage": {
-      "header": "Управувај",
-      "subheader": "Управувањето со вашиот бизнис ќе биде попријатно од кога било."
+    group_manage: {
+      header: "Управување",
+      subheader: "Управувањето со вашиот бизнис ќе биде попријатно од кога било.",
     },
-    "group_sell": {
-      "header": "Продај",
-      "subheader": "Секогаш затворајте, правете пари и уживајте во тоа."
+    group_sell: {
+      header: "Продажба",
+      subheader: "Секогаш затворајте продажби, заработувајте и уживајте во процесот.",
     },
-    "group_grow": {
-      "header": "Расте",
-      "subheader": "Карактеристики и алатки од типот на претпријатија ви се на рака, небото ќе биде вашата граница."
-    }
-  }
+    group_grow: {
+      header: "Раст",
+      subheader:
+        "Функции и алатки на ниво на претпријатие ви се при рака; небото ќе биде вашата граница.",
+    },
+  },
 };

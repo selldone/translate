@@ -1,200 +1,272 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "categories": {
-    "Baby": {
-      "title": "Baby Supplies",
-      "desc": "Feeding, Maternity, Kinderwagen"
+  categories: {
+    Baby: {
+      title: "Poppen, bern en boartersguod",
+      desc: "Berneweinen, boartersguod, spultsjes, puzels, aksjefigueren",
     },
-    "Beauty": {
-      "title": "Skientme",
-      "desc": "Kosmetyske, geur, hiersoarch"
+    Health: {
+      title: "Sûnens en skientme",
+      desc: "Apteek, wolwêzen, kosmetika, geur",
     },
-    "Blog": {
-      "title": "Blog",
-      "desc": "Sportblog, Science blog, Technology blog"
+    Media: {
+      title: "Media en spultsjes",
+      desc: "Fideospultsjes, films, muzyk, boeken",
     },
-    "Fashion": {
-      "title": "Moade",
-      "desc": "Kleding, skuon, horloazje"
+    Fashion: {
+      title: "Klean, sieraden en horloazjes",
+      desc: "Klean, skuon, ketting, ring, earmbân, horloazje",
     },
-    "Crypto": {
-      "title": "Krypto",
-      "desc": "Krypto-faluta, Blockchain, NFT"
+    Automotive: {
+      title: "Auto’s",
+      desc: "Auto-aksessoires, ark, ûnderhâld",
     },
-    "Electronics": {
-      "title": "Elektroanika",
-      "desc": "Mobyl, Fideospultsje, Laptop, TV"
+    Electronics: {
+      title: "Elektroanika",
+      desc: "Mobyl, TV, audio-apparaten, kamera",
     },
-    "Food": {
-      "title": "Iten en drinken",
-      "desc": "Restaurants, Bakkerij, Drank"
+    Computers: {
+      title: "Kompjûters",
+      desc: "Laptops, burokompjûters, aksessoires, software",
     },
-    "Furniture": {
-      "title": "Meubilêr",
-      "desc": "Thúsmeubels, dekor, bagaazje en reizen"
+    Household: {
+      title: "Húshâldlike needsaaklikheden",
+      desc: "Skjinmakmiddels, badkeamer, wask",
     },
-    "Gift": {
-      "title": "Jeftekaart",
-      "desc": "App Store, Google Play, Netflix, Spotify"
+    Garden: {
+      title: "Tún en ark",
+      desc: "Bûtenmeubels, túnark, planten",
     },
-    "Groceries": {
-      "title": "Boadskippen",
-      "desc": "Suvel, fruit, tariede iten, fleis"
+    Food: {
+      title: "Iten en boadskippen",
+      desc: "Suvel, fruit, taret iten, fleis, drank",
     },
-    "Handcrafts": {
-      "title": "Handcrafts",
-      "desc": "Sammelstikken, skildere skuon, skulptueren, glêskeunst"
+    Handmade: {
+      title: "Hânmakke",
+      desc: "Samlersobjekten, beskildere skuon, bylden, glêskeunst",
     },
-    "Health": {
-      "title": "Sûnens",
-      "desc": "Apotheek, Pet soarch, Wellness"
+    PetSupplies: {
+      title: "Húsdierbenodigdheden",
+      desc: "Húsdieriten, húsdierboartersguod, soarch foar húsdieren",
     },
-    "Home": {
-      "title": "Thús & Wenje",
-      "desc": "Keukenapparaten, kookgerei, iten"
+    Home: {
+      title: "Hûs en wenjen",
+      desc: "Keukenapparaten, hûsmeubels, dekoraasje",
     },
-    "Jewelry": {
-      "title": "Juwielen",
-      "desc": "Ketting, Ring, Armband"
+    Sports: {
+      title: "Sport en bûtendoar",
+      desc: "Oefening, kampearjen, fytsen, rekreaasje",
     },
-    "Sports": {
-      "title": "Sport",
-      "desc": "Oefenje, kampearje, fytsen, rekreaasje"
+    Stationery: {
+      title: "Skriuwguod en kantoar",
+      desc: "Kantoarbenodigdheden, skoalbenodigdheden, papierprodukten",
     },
-    "Education": {
-      "title": "Online kursussen",
-      "desc": "Webûntwikkeling, ûntwerp, bedriuw"
+    Books: {
+      title: "Boeken",
+      desc: "Fiksje, non-fiksje, edukatyf, strips",
     },
-    "Toy": {
-      "title": "Toy",
-      "desc": "Spultsje, puzel, aksjefigueren"
+    Marketplace: {
+      title: "Merkplak foar alles",
+      desc: "In brede ferskaat oan produkten út meardere kategoryen",
     },
-    "Other": {
-      "title": "Oar",
-      "desc": "Oare beroppen..."
-    }
+    Other: {
+      title: "Oars...",
+      desc: "Kadokaarten, digitale produkten, online tsjinsten, alles",
+    },
   },
-  "partners": {
-    "title": "{name} wurket gear mei Selldone",
-    "subtitle": "by it ûntsluten fan de folgjende generaasje online bedriuwen.",
-    "create_new_shop": "Meitsje in nije winkel",
-    "select_a_shop": "Selektearje in winkel",
-    "apply_deal_to": "Deal tapasse op {shop}",
-    "notifications": {
-      "success_apply": "Deal mei súkses aktivearre!"
+
+  partners: {
+    title: "{name} wurket gear mei Selldone",
+    subtitle: "by it ûntsluten fan de folgjende generaasje online bedriuwen.",
+    subtitle_official: "Untskoattelje de folgjende generaasje online bedriuwen.",
+
+    create_new_shop: "Meitsje in nije winkel",
+    select_a_shop: "Selektearje in winkel",
+    apply_deal_to: "Oanbieding tapasse op {shop}",
+    notifications: {
+      success_apply: "Oanbieding mei súkses aktivearre!",
     },
-    "subtitle_official": "Untskoattelje de folgjende generaasje online bedriuwen."
   },
-  "name": "Opsette",
-  "shop": {
-    "title": "Stel myn winkel yn",
-    "subtitle": "Gean nei it folgjende nivo troch dizze ienfâldige stappen te foltôgjen."
+
+  name: "Opsette",
+  overview: {
+    title: "Oersicht",
+    subtitle:
+      "Krij ynsjoch yn it bedriuwsbestjoeringssysteem en ûntdek hoe’t it jo bedriuw helpe kin.",
   },
-  "open_website": "Iepenje myn webside",
-  "add_product": "Produkt tafoegje",
-  "setup_shipping": "Setup skipfeart",
-  "add_domain": "Add Domain",
-  "add_payment": "Ferbine mei in betelling gateway",
-  "product": {
-    "step1": {
-      "title": "Opsje 1. Foegje hân ta",
-      "msg": "Jo kinne fysike produkten, firtuele items, bestannen en tsjinsten tafoegje oan jo winkel en begjinne te ferkeapjen.",
-      "action_on": "Foegje jo earste produkt ta",
-      "action_off": "Foegje mear produkten ta",
-      "category": "Kategoryen binne it masterstik fan jo online winkelwebside yn ferliking mei oaren. Meitsje alles kategorisearre en regele troch kategoryen ta te foegjen en te behearjen mei drag & drop.",
-      "add_category": "Add Kategory"
-    },
-    "step2": {
-      "title": "Opsje 2. Add by Excel",
-      "msg": "Hawwe in protte produkten, lykas 1K, 10K items? Meitsje jo gjin soargen ymportearje alles gewoan troch ien aksje.",
-      "import_excel": "Ymportearje troch Excel",
-      "download_template": "Download sjabloan"
-    },
-    "step3": {
-      "title": "Opsje 3. Hire saakkundigen",
-      "msg": "Hawwe jo mear dan 100 items en hawwe immen nedich om jo produkten ta te foegjen? stjoer in fersyk nei expert@selldone.com, en boek in ôfspraak. Wy hiere saakkundigen foar jo. It hat in ienfâldige flat taryf, gewoan 5,99 $ per item en 2,99 $ per ekstra farianten."
-    }
+
+  shop: {
+    title: "Fan nul nei ynkomsten",
+    subtitle: "Gean nei it folgjende nivo troch dizze ienfâldige stappen te foltôgjen.",
   },
-  "shipping": {
-    "step1": {
-      "title": "Stap 1. Set lokaasje",
-      "msg": "By de earste stap, set jo pakhús (oarsprong fan ferstjoering). Dizze ynformaasje wurdt brûkt om de ôfstân, ferstjoerkosten te berekkenjen en te kontrolearjen om yn it ferstjoerservicegebiet te wêzen.",
-      "edit_warehouse": "Warehouse bewurkje",
-      "add_warehouse": "Foegje jo pakhús ta"
+
+  open_website: "Iepenje myn webside",
+
+  customize_theme: "Webside oanpasse",
+  setup_business: "Bedriuw ynstelle",
+  add_product: "Produkt tafoegje",
+  setup_shipping: "Ferstjoering ynstelle",
+  add_domain: "Domein tafoegje",
+  add_payment: "Betellingsmetoade ferbine",
+
+  product: {
+    step1: {
+      title: "Opsje 1. Foegje hân ta",
+      msg: "Jo kinne fysike produkten, firtuele items, bestannen en tsjinsten tafoegje oan jo winkel en begjinne te ferkeapjen.",
+      action_on: "Foegje jo earste produkt ta",
+      action_off: "Foegje mear produkten ta",
+      category:
+        "Kategoryen binne in wichtich ûnderskiedend ûnderdiel fan jo online winkel. Meitsje alles yndield en oarderlik troch kategoryen ta te foegjen en se mei slepen en loslitten te behearjen.",
+      add_category: "Kategory tafoegje",
     },
-    "step2": {
-      "title": "Stap 2. Aktivearje shipping metoaden",
-      "msg": "Foegje op syn minst ien ferstjoermetoade ta oan jo winkel. Jo kinne prizen ynstelle op basis fan gewicht, ôfstân en oare parameters. Ferjit net grinzen yn te stellen foar ôfstân, gewicht en grutte fan pakketten dy't elke ferstjoertsjinst stipet.",
-      "add_delivery": "Foegje ferstjoermethoden ta"
-    }
+    step2: {
+      title: "Opsje 2. Tafoegje mei Excel",
+      msg: "Hawwe in protte produkten, lykas 1K, 10K items? Meitsje jo gjin soargen ymportearje alles gewoan troch ien aksje.",
+      import_excel: "Ymportearje troch Excel",
+      download_template: "Sjabloan ynlade",
+    },
   },
-  "domain": {
-    "step1": {
-      "title": "Stap 1. Keapje in domein",
-      "msg": "As jo jo persoanlike domein noch net hawwe, is it tiid om jo eigen domein te keapjen fan websiden lykas namecheap.com."
+  shipping: {
+    step1: {
+      title: "Stap 1. Set lokaasje",
+      msg: "By de earste stap, set jo pakhús (oarsprong fan ferstjoering). Dizze ynformaasje wurdt brûkt om de ôfstân, ferstjoerkosten te berekkenjen en te kontrolearjen om yn it ferstjoerservicegebiet te wêzen.",
+      edit_warehouse: "Pakhús bewurkje",
+      add_warehouse: "Foegje jo pakhús ta",
     },
-    "step2": {
-      "title": "Stap 2. SSL ynskeakelje",
-      "msg": "As jo tsjinsten brûke lykas Namecheap dy't CDN en SSL leveret, moatte jo gewoan 1.CDN en 2.SSL op jo domein aktivearje."
+    step2: {
+      title: "Stap 2. Ferstjoermetoaden aktivearje",
+      msg: "Foegje op syn minst ien ferstjoermetoade ta oan jo winkel. Jo kinne prizen ynstelle op basis fan gewicht, ôfstân en oare parameters. Ferjit net grinzen yn te stellen foar ôfstân, gewicht en grutte fan pakketten dy't elke ferstjoertsjinst stipet.",
+      add_delivery: "Foegje ferstjoermethoden ta",
     },
-    "step3": {
-      "title": "Stap 3. Set DNS records",
-      "msg": "Lokwinsken, no alles wat jo hoege te dwaan is DNS yn te stellen yn jo domeintsjinstprovider en it domein ta te foegjen oan jo akkount."
-    }
   },
-  "payment": {
-    "step1": {
-      "title": "Priis faluta",
-      "msg": "Jo kinne jild akseptearje yn ferskate faluta, en jo winkel kin stypje mear as ien faluta foar prizen. Trouwens, as jo jo winkelfaluta ynstelle op USD, kinne klanten betelje yn elke faluta lykas USD, EUR, GBP, ensfh., Om fan jo te keapjen.",
-      "manage_currencies": "Beheare prizen faluta"
+
+  domain: {
+    buy_domain_step: {
+      title: "Stap 1. Keapje in domein",
+      msg: "As jo noch gjin eigen domein hawwe, is it tiid om jo eigen domein te keapjen fan websiden lykas namecheap.com .",
     },
-    "step2": {
-      "title": "Akseptearje jild",
-      "msg": "Foegje cash by levering, direkte jildoerdracht en oare beskikbere betelmethoden ta yn jo winkel.",
-      "online_title": "Online betelling metoaden",
-      "online_msg": "Akseptearje betelling mei kaarten, nije bankapplikaasjes, keapje-no-betel-letter, en in protte oare online betelmethoden.",
-      "add_online_gateway": "Foegje in online betellingsmetoade ta",
-      "cod_title": "Cash op levering betelling metoade",
-      "cod_msg": "Akseptearje betelling nei levering fan oarders. Jo kinne betellingen foar cash by levering manuell befêstigje.",
-      "cash_title": "Cash betelling metoaden",
-      "cash_msg": "Dit soarte fan betelling wurdt brûkt yn Selldone® POS.",
-      "dir_title": "Direkte betelling metoaden",
-      "dir_msg": "Jo kinne betelling akseptearje troch direkte jildoerdracht, bankjildoerdracht en oare tradisjonele manieren."
+
+    set_dns_step: {
+      title: "Stap 2. DNS-records ynstelle",
+      msg: "Lokwinske, no hoege jo allinnich noch DNS by jo domeintsjinstferliener te konfigurearjen en it domein oan jo akkount ta te foegjen.",
     },
-    "step3": {
-      "msg": "Ferbine Sellone mei jo Stripe-akkount mei mar ien klik yn 30 sekonden. Op it stuit stypje wy it automatyske konfiguraasjeproses troch Stripe. Gean nei jo poarte-ljepper, foegje Stripe ta, en klikje op ' <b>Automatysk ferbine mei Stripe</b> ' knop.",
-      "my_gateways": "Myn betelling poarten"
-    }
   },
-  "intro_inline_help_message": "Sjoch foar dizze reade helpknop. It helpt jo om josels te oefenjen fan nul oant ekspert yn jo Business OS.",
-  "overview": {
-    "title": "Oersicht",
-    "subtitle": "Krij ynsjoch yn it Business OS en ûntdek hoe't it jo bedriuw kin helpe."
-  },
-  "customize_theme": "Webside oanpasse",
-  "setup_business": "Bedriuw ynstelle",
-  "customize": {
-    "template": {
-      "title": "Sjabloanen",
-      "msg": "Kickstart jo winkel mei ús foarboude sjabloanen! Diversifisearje maklik troch meardere siden ta te foegjen, elk mei in eigen unike ûntwerp."
+
+  payment: {
+    step1: {
+      title: "Priis faluta",
+      msg: "Jo kinne jild akseptearje yn ferskate faluta, en jo winkel kin stypje mear as ien faluta foar prizen. Trouwens, as jo jo winkelfaluta ynstelle op USD, kinne klanten betelje yn elke faluta lykas USD, EUR, GBP, ensfh., Om fan jo te keapjen.",
+      manage_currencies: "Beheare prizen faluta",
     },
-    "colors": {
-      "title": "Kleuren & yndieling",
-      "msg": "Wolle jo jo produktpagina en winkelyndieling oanpasse om jo fyzje better te passen? Dûk yn 'e seksje foar oanpassing fan tema's yn jo winkel en sjoch hoe't de magy sûnder muoite ûntploffe!"
-    }
-  },
-  "business": {
-    "step1": {
-      "title": "Bedriuwsmodel",
-      "msg": "Elk bedriuw is unyk, en freget faaks mear dan allinich in basis online winkel. Definiearje jo ynkomstenmodel, en wy sille de rest naadloos foar jo behannelje."
-    }
-  },
-  "migration": {
-    "title": "Migraasje",
-    "shopify": {
-      "msg": "Skeakelje naadloos oer nei Sellone fan Shopify! Genietsje fan muoite migraasje, ferbettere funksjes en kosten-effektive oplossingen foar jo online winkel."
+    step2: {
+      title: "Akseptearje jild",
+      msg: "Foegje cash by levering, direkte jildoerdracht en oare beskikbere betelmethoden ta yn jo winkel.",
+      online_title: "Online betelling metoaden",
+      online_msg:
+        "Akseptearje betelling mei kaarten, nije bankapplikaasjes, keapje-no-betel-letter, en in protte oare online betelmethoden.",
+      add_online_gateway: "Foegje in online betellingsmetoade ta",
+      cod_title: "Cash op levering betelling metoade",
+      cod_msg:
+        "Akseptearje betelling nei levering fan oarders. Jo kinne betellingen foar cash by levering manuell befêstigje.",
+      cash_title: "Cash betelling metoaden",
+      cash_msg: "Dit soarte fan betelling wurdt brûkt yn Selldone® POS.",
+      dir_title: "Direkte betelling metoaden",
+      dir_msg:
+        "Jo kinne betelling akseptearje troch direkte jildoerdracht, bankjildoerdracht en oare tradisjonele manieren.",
     },
-    "woocommerce": {
-      "msg": "Migrearje jo WooCommerce-produkten naadloos nei Selldone yn mar in pear mûsklikken! Genietsje fan ferbettere prestaasjes, yntuïtyf ûntwerp, en top-tier klantstipe. Upgrade jo e-commerce ûnderfining no."
-    }
-  }
+    step3: {
+      msg: "Ferbine Selldone mei jo Stripe-akkount mei mar ien klik yn 30 sekonden. Op it stuit stypje wy it automatyske konfiguraasjeproses fan Stripe. Gean nei jo betellingspoarte-ljepper, foegje Stripe ta en klik op de knop «<b>Automatysk ferbine mei Stripe</b>».",
+      my_gateways: "Myn betelling poarten",
+    },
+  },
+
+
+  /**
+   * @see SShopOnboardingCustomization
+   */
+  customize: {
+    tour:{
+      title:'Rûnlieding',
+      subtitle:"Untdek wat hjir mooglik is en nearne oars.",
+      /**
+       * @see BShopOnboardingTour
+       */
+      avocado:{
+        title:"Avocado - ferkeapje sûnder in produkt ta te foegjen",
+        description: "Mei Avocado kinne jo tsjinsten of produkten oanbiede sûnder foarôf ynstelde prizen of details. Meitsje in oanpast formulier sadat jo klanten tsjinsten of produkten oanfreegje kinne. Sadree’t se harren fersyk yntsjinje, kinne jo de priis ynstelle en de betelling ferwurkje. Diel it formulier op jo sosjale media, sadat klanten maklik items tafoegje, ôfbyldings uploade en oarders yntsjinje kinne.",
+        action:'Lês oer Avocado',
+      },
+      marketplace:{
+        title: "Merkplak mei meardere ferkeapers en automatyske útbetelling",
+        description: "Bou in bloeiende merkplak mei Selldone troch meardere ferkeapers ta te foegjen. Ferkeapers kinne harren produkten listje, en jo kinne foar elke ferkeap in kommisjepersintaazje ynstelle. As in klant in oankeap docht, ûntfangt de ferkeaper de betelling direkt, beheart de oarder fia syn eigen paniel, en jo fertsjinje kommisje mei de automatyske útbetellingsfunksje.",
+        action:'Automatyske útbetelling oan ferkeapers',
+      },
+      business_model:{
+        title: "Stypje komplekse bedriuwsmodellen",
+        description:
+            "Selldone stipet sawol ienfâldige as komplekse bedriuwsmodellen, sadat jo oanpasse kinne as dat nedich is. Konfigurearje alles efter de skermen sûnder ekstra útwreidingen of tapassingen te ynstallearjen, foar soepele oergongen en wurking.",
+      },
+      gift_shopping:{
+        title: "Beheiningen foar produktlokaasjes en kadowinkeljen",
+        description:
+            "Stel lokaasjebeheiningen yn foar elk produkt troch meardere lannen, postkoades en stêden op te jaan. Dizze funksje is ideaal foar in persoanlike kadowinkelûnderfining of om beskikberens fan produkten te beheinen ta spesifike lokaasjes, lykas restaurants.",
+
+      }
+    },
+
+    template: {
+      title: "Sjabloanen",
+      msg: "Kickstart jo winkel mei ús foarboude sjabloanen! Diversifisearje maklik troch meardere siden ta te foegjen, elk mei in eigen unike ûntwerp.",
+      action:'Alle sjabloanen besjen...'
+
+    },
+
+    colors: {
+      title: "Kleuren en yndieling",
+
+      msg: "Wolle jo jo produktpagina en winkelyndieling oanpasse om jo fyzje better te passen? Dûk yn 'e seksje foar oanpassing fan tema's yn jo winkel en sjoch hoe't de magy sûnder muoite ûntploffe!",
+
+      action:'Kleuren en tema oanpasse'
+
+    },
+
+  },
+
+  /**
+   * @see ShopOnboardingSetupBusinessTab
+   */
+  business: {
+    step1: {
+      title: "Bedriuwsmodel",
+      msg: "Elk bedriuw is unyk, en freget faaks mear dan allinich in basis online winkel. Definiearje jo ynkomstenmodel, en wy sille de rest naadloos foar jo behannelje.",
+    },
+  },
+
+  migration: {
+    title: "Migraasje",
+    shopify: {
+      msg: "Skeakelje naadloos oer nei Selldone fan Shopify! Genietsje fan muoite migraasje, ferbettere funksjes en kosten-effektive oplossingen foar jo online winkel.",
+    },
+    woocommerce: {
+      msg: "Migrearje jo WooCommerce-produkten naadloos nei Selldone yn mar in pear mûsklikken! Genietsje fan ferbettere prestaasjes, yntuïtyf ûntwerp, en top-tier klantstipe. Upgrade jo e-commerce ûnderfining no.",
+    },
+  },
+
+
+
+
+
 };

@@ -1,1130 +1,1596 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
+
 export default {
-  "commons": {
-    "pay_today": "היום תשלום",
-    "pay_yesterday": "תשלום אתמול",
-    "pay_last30days": "תשלום 30 ימים אחרונים",
-    "create_a_shop": "צור חנות",
-    "start_free": "התחל בחינם",
-    "featured_apps": "אפליקציות מומלצות",
-    "more_apps": "עוד אפליקציות",
-    "my_public_profile": "דף הפרופיל הציבורי שלי"
+  commons: {
+    pay_today: "היום תשלום",
+    pay_yesterday: "תשלום אתמול",
+    pay_last30days: "תשלום 30 ימים אחרונים",
+    create_a_shop: "צור חנות",
+    start_free: "התחל בחינם",
+    featured_apps: "אפליקציות מומלצות",
+    more_apps: "עוד אפליקציות",
+    my_public_profile: "דף הפרופיל הציבורי שלי",
+    product_admin: "ניהול מוצר",
+    make_money_affiliate: "לעשות כסף",
+    see_live_shop: "צפה בחנות חיה",
+    see_live_product: "צפה במוצר חי",
+    has_inputs: "כולל קלטים",
+    main_domain: "דומיין ראשי",
+    domains: "דומיינים",
+    home_page: "דף הבית",
+    google_icon_font_sample: "Google פונט סאמפלא",
+    fontawesome_icon_font_sample: "פונטאואסומא (V6) סאמפלא",
   },
-  "numbers": {
-    "infinite": "ללא הגבלה"
+
+  numbers: {
+    infinite: "ללא הגבלה",
   },
-  "error": {
-    "not_fount_data": "מידע לא נמצא!",
-    "license_max_limit": "הרישיון שלך הגיע למגבלה!"
+
+  error: {
+    not_fount_data: "מידע לא נמצא!",
+    license_max_limit: "הרישיון שלך הגיע למגבלה!",
+    no_read_access: "אין גישת קריאה",
+    no_write_access: "אין גישת כתיבה",
+    no_access: "אין גישה",
   },
-  "time_spans": {
-    "days_range": "טווח ימים",
-    "today": "היום",
-    "yesterday": "אתמול",
-    "last_7": "7 ימים אחרונים",
-    "last_14": "14 ימים אחרונים",
-    "last_30": "30 הימים האחרונים",
-    "last_90": "90 הימים האחרונים",
-    "custom": "המותאם אישית"
+
+  time_spans: {
+    days_range: "טווח ימים",
+    today: "היום",
+    yesterday: "אתמול",
+    last_7: "7 ימים אחרונים",
+    last_14: "14 ימים אחרונים",
+    last_30: "30 הימים האחרונים",
+    last_90: "90 הימים האחרונים",
+    custom: "המותאם אישית",
   },
-  "device_types": {
-    "desktop": "שולחן עבודה",
-    "mobile": "נייד",
-    "tablet": "לוּחַ"
+  device_types: {
+    desktop: "שולחן עבודה",
+    mobile: "נייד",
+    tablet: "לוּחַ",
   },
-  "create_website_action": "צור את האתר שלך - זה בחינם",
-  "show_shops_action": "רשימת החנויות שלי",
-  "Youtube": "יוטיוב",
-  "Linkedin": "לינקדאין",
-  "Twitter": "טוויטר",
-  "Facebook": "פייסבוק",
-  "Instagram": "אינסטגרם",
-  "Reddit": "Reddit",
-  "Github": "Github",
-  "page_titles": {
-    "home": "סלדון ╏ מערכת ההפעלה העסקית לחברות בצמיחה מהירה",
-    "login": "התחברות",
-    "register": "להירשם",
-    "auth_2fa": "אימות דו גורם 🔐",
-    "academy": "בלוג",
-    "help": "מרכז עזרה",
-    "price_list": "רשימת מחירים",
-    "my_stores": "החנויות שלי",
-    "roles": "התפקידים שלי",
-    "wallet": "הארנק שלי",
-    "personal_info": "מידע אישי ╏ KYC",
-    "companies": "החברות שלי",
-    "access_control": "בקרת גישה",
-    "security_center": "מרכז אבטחה",
-    "gifts": {
-      "received": "מתנות ╏ קיבלו",
-      "send": "מתנות ╏ נשלח"
-    },
-    "monetization": {
-      "linked_accounts": "מונטיזציה ╏ חשבונות מקושרים",
-      "plans": "מונטיזציה ╏ תוכנית וקישורים"
-    },
-    "affiliate": "שותף",
-    "avocado": "אבוקדו - ערוץ מכירות חברתי מודרני",
-    "guild": "גילדה - ערוץ מכירות קולקטיבי",
-    "partners_login": "שותפים ╏ כניסה ללקוח"
+
+  create_website_action: "צור את האתר שלך - זה בחינם",
+  show_shops_action: "רשימת החנויות שלי",
+
+  // Companies:
+
+  Youtube: "יוטיוב",
+  Linkedin: "לינקדאין",
+  Twitter: "טוויטר",
+  Facebook: "פייסבוק",
+  Instagram: "אינסטגרם",
+  Reddit: "Reddit",
+  Github: "Github",
+
+  theme: {
+    dark_mode: "מצב כהה",
+    dark_mode_description:
+      "בחר באפשרות זו אם אתה רוצה רקע כהה עם צבע טקסט לבן.",
+    light_mode: "מצב אור",
+    light_mode_description:
+      "בחר באפשרות זו אם ברצונך שהרקע יהיה בהיר והטקסט יהיה בצבע שחור.",
   },
-  "blank_is_all_products": "השאר ריק כדי לכלול את כל המוצרים!",
-  "cautions": {
-    "title": "נהל את העסק שלך בצורה מקצועית על ידי ביצוע הטיפים הבאים. המשיכו לקרוא לקבלת טיפים כיצד להגדיל את שולי הרווח ועוד. אנחנו איתך לאורך כל הדרך.",
-    "no_payment_method": {
-      "title": "אמצעי תשלום",
-      "message": "עליך להוסיף אמצעי תשלום לחנות שלך.",
-      "action": "שערים לחנות"
+
+  ai: {
+    remove_bg: {
+      title: "הסר רקע",
+      subtitle: "צור רקע שקוף.",
     },
-    "link_account": {
-      "title": "חשבון מקושר",
-      "message": "עליך לקשר חשבון ({currency}) לחנות שלך.",
-      "action": "חשבונות חנות"
+    reimagine: {
+      title: "ראימאגינא",
+      subtitle: "צור תמונות נוספות עם רקעים חדשים.",
     },
-    "no_domain": {
-      "title": "הוסף דומיין",
-      "message": "אתה יכול לחבר דומיין אישי אחד או יותר לחנות שלך. האתר שלך יותקן בדומיין שלך. תהליך זה מהיר וקל."
+    upscale: {
+      title: "ופסקאלא",
+      subtitle: "הגדל את רזולוציית התמונה.",
     },
-    "domain_not_approved": {
-      "title": "אימות דומיין",
-      "message": "הדומיין שלך {domain} לא אומת. בדוק את הגדרות ה-DNS ואשר את הדומיין."
-    },
-    "no_currency": {
-      "title": "הוסף מטבע",
-      "message": "עליך להגדיר לפחות מטבע אחד עבור החנות שלך.",
-      "action": "ניהול מטבעות"
-    },
-    "no_primary_domain": {
-      "title": "התחום העיקרי",
-      "message": "אנא בחר דומיין כדומיין הראשי שלך. בלחיצה על כפתור הכוכב ליד שם הדומיין, תוכל לבחור את הדומיין כדומיין הראשי של החנות שלך. זה קריטי עבור מנועי החיפוש. שימו לב שהחנות שלכם עדיין תהיה זמינה בכל הדומיינים הפעילים."
-    },
-    "shop_complete": {
-      "title": "מידע מלא",
-      "action": "הגדרות חנות",
-      "location_msg": "הוסף את המיקום שלך",
-      "days_open_msg": "קבעו ימים פתוחים",
-      "time_open_msg": "הגדר זמן פתיחה וסגירה",
-      "description_msg": "כתוב תיאור קצר על העסק שלך",
-      "icon_msg": "הגדר את לוגו החנות שלך",
-      "shop_gateways_msg": "הוסף אמצעי תשלום",
-      "socials_msg": "הוסף את הקישורים החברתיים שלך",
-      "clubs_msg": "קבע מועדוני לקוחות",
-      "domains_msg": "הוסף דומיין מותאם אישית",
-      "primary_msg": "הגדר דומיין כראשי"
-    }
   },
-  "support": {
-    "request": "בקש תמיכה",
-    "category": "קטגוריה",
-    "title": "תמיכה",
-    "message": "שאל כל בקשה או שאלה. צוות התמיכה שלנו ידריך אותך. אנו מציעים לך לשאול את שאלתך בעמוד הקשור לבקשתך. לדוגמה, אם יש לך שאלה לגבי הגדרת הדומיין, שלח אותה בדף הגדרת הדומיין של החנות שלך.",
-    "close_at": "סגור בתאריך {date}",
-    "close_ticket_by_user": "תודה, קיבלתי את התשובה"
+
+  // ------------------ Pages Title ------------------
+  page_titles: {
+    home: "סלדון ╏ מערכת ההפעלה העסקית לחברות בצמיחה מהירה",
+    login: "התחברות",
+    register: "להירשם",
+    auth_2fa: "אימות דו גורם 🔐",
+    academy: "בלוג",
+    help: "מרכז עזרה",
+    price_list: "רשימת מחירים",
+    my_stores: "החנויות שלי",
+    roles: "התפקידים שלי",
+    wallet: "הארנק שלי",
+    personal_info: "מידע אישי ╏ KYC",
+    companies: "החברות שלי",
+    access_control: "בקרת גישה",
+    security_center: "מרכז אבטחה",
+    gifts: {
+      received: "מתנות ╏ קיבלו",
+      send: "מתנות ╏ נשלח",
+    },
+    monetization: {
+      linked_accounts: "מונטיזציה ╏ חשבונות מקושרים",
+      plans: "מונטיזציה ╏ תוכנית וקישורים",
+    },
+    affiliate: "שותף",
+    avocado: "אבוקדו - ערוץ מכירות חברתי מודרני",
+    guild: "גילדה - ערוץ מכירות קולקטיבי",
+    partners_login: "שותפים ╏ כניסה ללקוח",
   },
-  "surveys": [
-    "גרוע מאוד",
-    "עני",
-    "נוֹרמָלִי",
-    "טוֹב",
-    "מְעוּלֶה"
-  ],
-  "sort": {
-    "title": "מיין לפי",
-    "title_small": "מיין לפי..",
-    "nothing": "שום דבר",
-    "most_views": "רוב הצפיות",
-    "most_likes": "הכי פופולארי",
-    "most_recent": "החדש ביותר",
-    "most_sell": "רב מכר",
-    "cheapest": "הזול ביותר",
-    "most_expensive": "היקר ביותר",
-    "only_available": "זמין",
-    "view_mode": {
-      "normal": "נוֹרמָלִי",
-      "grid": "רֶשֶׁת",
-      "list": "רשימה",
-      "insta": "אינסטה"
-    }
+
+  /** NOT USED! */
+  /* data: {
+    shop: {
+      users: "User",
+      views: "View",
+      likes: "Like",
+      favorites: "Favorite",
+      comments: "Comment",
+      ratings: "Rating",
+      wishlist: "Wishlist",
+      new_visitors: "New Visitor",
+      returning_visitors: "Return Visitor",
+      page_views: "Page View",
+      order_physical_added: "Physical Add to Cart",
+      order_physical_checkout: "Physical Checkout",
+      order_virtual_added: "Virtual Add to Cart",
+      order_virtual_checkout: "Virtual Checkout",
+      order_file_added: "File Add to Cart",
+      order_file_checkout: "File Checkout",
+      order_service_added: "Service Add to Cart",
+      order_service_checkout: "Service Checkout",
+    },
+  },*/
+
+  blank_is_all_products: "השאר ריק כדי לכלול את כל המוצרים!",
+
+  // ---------------------------------------------
+
+  /** @see ShopCautionHelper **/
+  cautions: {
+    title:
+      "נהל את העסק שלך בצורה מקצועית על ידי ביצוע הטיפים הבאים. המשיכו לקרוא לקבלת טיפים כיצד להגדיל את שולי הרווח ועוד. אנחנו איתך לאורך כל הדרך.",
+    no_payment_method: {
+      title: "אמצעי תשלום",
+      message:
+        "עליך להוסיף אמצעי תשלום לחנות שלך.",
+      action: "שערים לחנות",
+    },
+    link_account: {
+      title: "חשבון מקושר",
+      message:
+        "עליך לקשר חשבון ({currency}) לחנות שלך.",
+      action: "חשבונות חנות",
+    },
+    no_domain: {
+      title: "הוסף דומיין",
+      message:
+        "אתה יכול לחבר דומיין אישי אחד או יותר לחנות שלך. האתר שלך יותקן בדומיין שלך. תהליך זה מהיר וקל.",
+    },
+    domain_not_approved: {
+      title: "אימות דומיין",
+      message:
+        "הדומיין שלך {domain} לא אומת. בדוק את הגדרות ה-DNS ואשר את הדומיין.",
+    },
+    no_currency: {
+      title: "הוסף מטבע",
+      message:
+        "עליך להגדיר לפחות מטבע אחד עבור החנות שלך.",
+      action: "ניהול מטבעות",
+    },
+    no_primary_domain: {
+      title: "התחום העיקרי",
+      message:
+        "אנא בחר דומיין כדומיין הראשי שלך. בלחיצה על כפתור הכוכב ליד שם הדומיין, תוכל לבחור את הדומיין כדומיין הראשי של החנות שלך. זה קריטי עבור מנועי החיפוש. שימו לב שהחנות שלכם עדיין תהיה זמינה בכל הדומיינים הפעילים.",
+    },
+    shop_complete: {
+      title: "מידע מלא",
+      action: "הגדרות חנות",
+      location_msg: "הוסף את המיקום שלך",
+      days_open_msg: "קבעו ימים פתוחים",
+      time_open_msg: "הגדר זמן פתיחה וסגירה",
+      description_msg: "כתוב תיאור קצר על העסק שלך",
+      icon_msg: "הגדר את לוגו החנות שלך",
+      shop_gateways_msg: "הוסף אמצעי תשלום",
+      socials_msg: "הוסף את הקישורים החברתיים שלך",
+      clubs_msg: "קבע מועדוני לקוחות",
+      domains_msg: "הוסף דומיין מותאם אישית",
+      primary_msg: "הגדר דומיין כראשי",
+    },
   },
-  "helps": {
-    "title": "מרכז העזרה של Seldone",
-    "subtitle": "ברוכים הבאים לסלדון. אם אתה בונה חנות מקוונת חדשה במערכת הפעלה עסקית, תוכל למצוא מידע נוסף כאן.",
-    "add_new_help": "עזרה חדשה",
-    "resources": "אֶמְצָעִי",
-    "categories": {
-      "Welcome": "להתחיל",
-      "Setup": "חנות",
-      "Sell": "שיווק ומכירות",
-      "Developer": "לְפַתֵחַ",
-      "Application": "יישומים",
-      "Product": "ניהול מוצרים וקטגוריות",
-      "Blog": "CMS ובלוג",
-      "Order": "מרכז מימוש הזמנות",
-      "Channel": "ערוצי מכירות",
-      "Accounting": "הנהלת חשבונות ודרכי תשלום",
-      "Incentives": "תמריצים",
-      "Marketing": "שיווק וקמפיינים",
-      "Logistic": "לוגיסטיקה ומשלוח",
-      "Customers": "מועדון לקוחות ופילוח",
-      "Page": "דפי נחיתה ודפי מותאמים אישית",
-      "Access": "ניהול גישת צוות / API",
-      "POS": "POS"
-    },
-    "faq": "FAQ",
-    "github": "מאגר Github",
-    "admin_api_app": "שירות אינטרנט של Admin API",
-    "shop_api_app": "שירות אינטרנט של קניות API",
-    "design_kit": "ערכות עיצוב",
-    "community": "קהילה"
+
+  /** @see BSupportMenu **/
+  support: {
+    request: "בקש תמיכה",
+
+    category: "קטגוריה",
+    title: "תמיכה",
+    message:
+      "שאל כל בקשה או שאלה. צוות התמיכה שלנו ידריך אותך. אנו מציעים לך לשאול את שאלתך בעמוד הקשור לבקשתך. לדוגמה, אם יש לך שאלה לגבי הגדרת הדומיין, שלח אותה בדף הגדרת הדומיין של החנות שלך.",
+
+    close_at: "סגור בתאריך {date}",
+    close_ticket_by_user: "תודה, קיבלתי את התשובה",
   },
-  "blogs": {
-    "title": "בלוג",
-    "subtitle": "שיעורים לעסקים, ביטחון עצמי והידע שאתה צריך כדי ליצור עסק משגשג.",
-    "add_new_blog": "בלוג חדש",
-    "popular": "פופולרי",
-    "topics": "נושאים",
-    "select_topics": "בחר את העבודה שלך.",
-    "select_job_topics": "בחר נושאים הקשורים לעבודה שלך",
-    "select_interested_topics": "באילו נושאים אתה מתעניין?"
+
+  /** @see SShopProductRatingView **/
+  surveys: ["גרוע מאוד", "עני", "נוֹרמָלִי", "טוֹב", "מְעוּלֶה"],
+
+  /** @see SortView **/
+  sort: {
+    title: "מיין לפי",
+    title_small: "מיין לפי..",
+    nothing: "שום דבר",
+    most_views: "רוב הצפיות",
+    most_likes: "הכי פופולארי",
+    most_recent: "החדש ביותר",
+    most_sell: "רב מכר",
+    cheapest: "הזול ביותר",
+    most_expensive: "היקר ביותר",
+    only_available: "זמין",
+    view_mode: {
+      normal: "נוֹרמָלִי",
+      grid: "רֶשֶׁת",
+      list: "רשימה",
+      insta: "אינסטה",
+    },
   },
-  "api": {
-    "title": "API ואינטגרציה",
-    "message": "אחת מתכונות המפתח של Seldone היא אספקת ממשקי API חזקים ומאובטחים לניהול וחיבור חנויות לשירותים אחרים כגון אחסנה, הנהלת חשבונות וכו'. אתה יכול גם לעצב אפליקציות ואפליקציות אינטרנט מותאמות אישית עבור החנות שלך. מבלי לדאוג לניהול שרת ונתונים. פשוט השתמש בממשקי ה-API של הדומיין. יהיה לך את כל התהליך של ניהול משתמשים, אימות ותכונות דומיין אחרות."
+
+  /** {@see Helps} **/
+
+  helps: {
+    title: "מרכז העזרה של Seldone",
+    subtitle:
+      "ברוכים הבאים לסלדון. אם אתה בונה חנות מקוונת חדשה במערכת הפעלה עסקית, תוכל למצוא מידע נוסף כאן.",
+
+    add_new_help: "עזרה חדשה",
+    resources: "אֶמְצָעִי",
+
+    categories: {
+      Welcome: "להתחיל",
+      Setup: "חנות",
+      Sell: "שיווק ומכירות",
+      Developer: "לְפַתֵחַ",
+
+      Product: "ניהול מוצרים וקטגוריות",
+      Blog: "CMS ובלוג",
+      Order: "מרכז מימוש הזמנות",
+      Channel: "ערוצי מכירות",
+      Accounting: "הנהלת חשבונות ודרכי תשלום",
+      Incentives: "תמריצים",
+      Marketing: "שיווק וקמפיינים",
+      Logistic: "לוגיסטיקה ומשלוח",
+      Customers: "מועדון לקוחות ופילוח",
+      Page: "דפי נחיתה ודפי מותאמים אישית",
+      Access: "ניהול גישת צוות / API",
+      Application: "יישומים",
+      POS: "POS",
+    },
+    faq: "FAQ",
+    github: "מאגר Github",
+    admin_api_app: "שירות אינטרנט של Admin API",
+    shop_api_app: "שירות אינטרנט של קניות API",
+    design_kit: "ערכות עיצוב",
+    community: "קהילה",
   },
-  "user_dashboard": {
-    "title": "המעבורת שלי",
-    "subtitle": "נהל את העסק שלך עם מידע עדכני ולקוח פוטנציאלי ברור.",
-    "menu": {
-      "affiliate": "שותף",
-      "monetize": "ייצור רווחים",
-      "gift": "מתנה",
-      "security": "בִּטָחוֹן",
-      "access": "גִישָׁה",
-      "business": "חֶברָה",
-      "wallet": "ארנק",
-      "identification": "KYC",
-      "stores": "חנויות",
-      "roles": "תפקידים",
-      "home": "בית",
-      "expert": "מוּמחֶה",
-      "deals": "עסקאות",
-      "providers": "ספקים"
-    },
-    "shops": {
-      "create_new": "צור חנות חדשה",
-      "create_new_sub": "חינם",
-      "create_new_sub_need_initial_charge": "בניית החנות הראשונה היא בחינם. כנראה חנות אחת מספיקה לעסק שלך, אבל אם אתה צריך לבנות עוד חנויות, העלות של בניית חנות חדשה היא 25$. אנו מושכים את הסכום מחשבון הארנק שלך.",
-      "menu": {
-        "title": "החנויות שלי",
-        "shops": "חנויות",
-        "new": "חָדָשׁ"
-      },
-      "accept_invite_question": "האם אתה מקבל הזמנה זו?",
-      "shop_card": {
-        "menu_orders": {
-          "physical": "הזמנות מוצרים פיזיות",
-          "virtual": "הזמנות מוצרים וירטואליים",
-          "files": "קובץ הזמנות",
-          "services": "הזמנות שירות",
-          "subscriptions": "הזמנות מנויים"
-        },
-        "status": "סטָטוּס",
-        "license": "רישיון",
-        "volume": "מקום משומש",
-        "expire": "רישיון פג",
-        "products": "מוצרים",
-        "page_views": "צפיות",
-        "user_behavior": "התנהגות ל קוח",
-        "time_span": "מ{time} ועד עכשיו",
-        "finance_report": "דוח כספי",
-        "buys": "רכישות",
-        "payments": "תשלומים",
-        "orders": "הזמנות",
-        "currency": "מַטְבֵּעַ"
-      }
-    }
+
+  /** {@see Blogs} **/
+  /** {@see InterestTopicsView} **/
+
+  blogs: {
+    title: "בלוג",
+    subtitle:
+      "שיעורים לעסקים, ביטחון עצמי והידע שאתה צריך כדי ליצור עסק משגשג.",
+    add_new_blog: "בלוג חדש",
+    popular: "פופולרי",
+    topics: "נושאים",
+    select_topics: "בחר את העבודה שלך.",
+    select_job_topics: "בחר נושאים הקשורים לעבודה שלך",
+    select_interested_topics: "באילו נושאים אתה מתעניין?",
   },
-  "widgets": {
-    "overview": {
-      "title": "משוב לקוחות",
-      "title_small": "סקירה כללית",
-      "wishlist": "רשימת משאלות",
-      "comments": "הערות",
-      "likes": "אוהב",
-      "favorites": "מועדפים",
-      "powers": "מחיאות כפיים",
-      "views": "צפיות",
-      "report_today": "דיווח היום",
-      "report_last7days": "דוח 7 ימים אחרונים",
-      "report_last30days": "דוח 30 הימים האחרונים"
-    }
+
+  /** {@see ApiDocs} **/
+  api: {
+    title: "API ואינטגרציה",
+    message:
+      "אחת מתכונות המפתח של Seldone היא אספקת ממשקי API חזקים ומאובטחים לניהול וחיבור חנויות לשירותים אחרים כגון אחסנה, הנהלת חשבונות וכו'. אתה יכול גם לעצב אפליקציות ואפליקציות אינטרנט מותאמות אישית עבור החנות שלך. מבלי לדאוג לניהול שרת ונתונים. פשוט השתמש בממשקי ה-API של הדומיין. יהיה לך את כל התהליך של ניהול משתמשים, אימות ותכונות דומיין אחרות.",
   },
-  "admin_shop": {
-    "title": "חנות",
-    "menu": {
-      "edit": "הגדרות",
-      "automation": "אוטומציה",
-      "application": "יישומים",
-      "access": "גִישָׁה",
-      "pages": "דפים",
-      "channels": "ערוצים",
-      "categories": "קטגוריות",
-      "marketing": "שיווק",
-      "customers": "לקוחות",
-      "logistic": "לוֹגִיסטִי",
-      "auditing": "חשבונאות",
-      "incentives": "תמריצים",
-      "process_center": "הזמנות",
-      "blog": "בלוג",
-      "products": "מוצרים",
-      "shops": "חנויות",
-      "dashboard": "לוּחַ מַחווָנִים",
-      "autopilot": "טייס אוטומטי",
-      "apps": "אפליקציות",
-      "pos": "POS",
-      "seo": "SEO",
-      "localization": "לוקליזציה"
+
+  /** {@see BPageShuttle} **/
+  user_dashboard: {
+    title: "המעבורת שלי",
+    subtitle: "נהל את העסק שלך עם מידע עדכני ולקוח פוטנציאלי ברור.",
+    menu: {
+      affiliate: "שותף",
+      monetize: "ייצור רווחים",
+      gift: "מתנה",
+      security: "בִּטָחוֹן",
+      access: "גִישָׁה",
+      business: "חֶברָה",
+      wallet: "ארנק",
+      identification: "KYC",
+      stores: "חנויות",
+      roles: "תפקידים",
+      home: "בית",
+      expert: "מוּמחֶה",
+      deals: "עסקאות",
+      providers: "ספקים",
     },
-    "dashboard": {
-      "title": "לוח המחוונים של החנות",
-      "online_staff": "צוות(ים) מקוונים",
-      "notify_referral": {
-        "message": "שלח את קישור ההזמנה שלך לחברים וקבל שוברים בחינם.",
-        "action": "קישור ההפניה שלי"
+    shops: {
+      create_new: "צור חנות חדשה",
+      create_new_sub_need_initial_charge:
+        "בניית החנות הראשונה היא בחינם. כנראה חנות אחת מספיקה לעסק שלך, אבל אם אתה צריך לבנות עוד חנויות, העלות של בניית חנות חדשה היא 25$. אנו מושכים את הסכום מחשבון הארנק שלך.",
+
+      menu: {
+        title: "החנויות שלי",
+        shops: "חנויות",
+        new: "חָדָשׁ",
       },
-      "info": {
-        "title": "טֶכנִי",
-        "subtitle": "סקירה טכנית של מערכת ההפעלה של העסק שלך.",
-        "shop_name": "שם החנות",
-        "shop_link": "קישור לחנות",
-        "site_map": "מפת אתר",
-        "shop_domains": "דומיינים",
-        "shop_domains_msg": "רשימת דומיינים מותאמים אישית מחוברים.",
-        "home_msg": "הגדר את דף הבית המוגדר כברירת מחדל של האתר שלך. ניתן לשנות אותו עבור כל תחום מותאם אישית.",
-        "add_domain": "הוסף דומיין חדש",
-        "currencies": "מטבעות פעילים",
-        "currencies_alert": "בחר מטבע אחד לפחות עבור החנות!",
-        "status": "סטָטוּס",
-        "license": "רישיון",
-        "expire": "תאריך תפוגה של הרישיון",
-        "upgrade_license_action": "שדרג ל-{name}",
-        "wage": "תַשְׁלוּם",
-        "cpu_message": "מספר המשאבים שהתאמתם לתוכנית הנרכשת והמשאבים שתוסיפו לשירות שלכם.",
-        "hide_domains": "הסתר את הדומיינים שלי",
-        "show_domains": "הצג את הדומיינים שלי",
-        "table": {
-          "primary": "יְסוֹדִי",
-          "url": "כתובת אתר",
-          "site_map": "מפת אתר",
-          "enable": "לְאַפשֵׁר",
-          "indexed": "כלול באינדקס",
-          "and_more": "& יותר..",
-          "auto_repair": "תיקון אוטומטי"
+
+      accept_invite_question: "האם אתה מקבל הזמנה זו?",
+      /** {@see BShopCard} **/
+
+      shop_card: {
+        menu_orders: {
+          physical: "הזמנות מוצרים פיזיות",
+          virtual: "הזמנות מוצרים וירטואליים",
+          files: "קובץ הזמנות",
+          services: "הזמנות שירות",
+          subscriptions: "הזמנות מנויים",
         },
-        "add_dialog": {
-          "title": "הגדר את דומיין החנות",
-          "step1": "אתה יכול להגדיר את מגבלת ה-IP של רשומה A עבור תחום DNS או תת-דומיין מהערכים הבאים:",
-          "step2": "הוסף רשומת DNS TXT:",
-          "set_ip_alert": "הגדר את ערך ה-IP של רשומה A <b>{ip}</b> .",
-          "input_domain": "כתובת הדומיין",
-          "correct": "הגדרות הדומיין נכונות.",
-          "set_message": "הגדר את ה-CNAME של הדומיין הזה ל-{cname}.",
-          "input_domain_message": "הזן את שם הדומיין ללא http ו-https.",
-          "ssl_message": "אל תדאג לגבי אישור SSL עבור האתר שלך. הסמכה זו תונפק עבור הדומיין שלך באופן אוטומטי על ידי Seldone (בטא).",
-          "active": "הדומיין פעיל",
-          "inactive": "הדומיין מושבת",
-          "success_message": "מזל טוב, האתר שלך מופעל ב-{domain}. אתה יכול להציג את העסק והמותג שלך לעולם דרך תחום זה.",
-          "delete_action": "למחוק דומיין?"
-        },
-        "set_home_dialog": {
-          "title": "הגדר את דף הבית של הדומיין"
-        },
-        "notification": {
-          "add_message": "כתובת הדומיין נוספה בהצלחה.",
-          "update_message": "הדומיין עודכן בהצלחה.",
-          "delete_domain_message": "הדומיין נמחק בהצלחה."
-        },
-        "alert": {
-          "title": "מחק דומיין",
-          "message": "האם אתה רוצה למחוק את הדומיין הזה? הקפד לאפס את ערכי רשומת ה-DNS של הדומיין שלך כדי למנוע הונאה מאחרים."
-        }
+        status: "סטָטוּס",
+        license: "רישיון",
+        volume: "מקום משומש",
+        expire: "רישיון פג",
+        products: "מוצרים",
+        page_views: "צפיות",
+        user_behavior: "התנהגות ל קוח",
+        time_span: "מ{time} ועד עכשיו",
+        finance_report: "דוח כספי",
+        buys: "רכישות",
+        payments: "תשלומים",
+        orders: "הזמנות",
+        currency: "מַטְבֵּעַ",
+        no_payment: "נו תשלום!",
+        no_purchase: "נו רכישה!",
       },
-      "active_orders": {
-        "title": "הזמנות",
-        "title_small": "הזמנות פיזיות, קבצים, וירטואליות ושירותים",
-        "pending_orders": "הזמנות ממתינות",
-        "physical": "הזמנות מוצרים פיזיות",
-        "virtual": "הזמנות מוצרים וירטואליים",
-        "file": "הגשת הזמנות מוצרים",
-        "service": "שירות הזמנות מוצרים",
-        "subscription": "הזמנות מנוי"
-      },
-      "products": {
-        "title": "מְלַאי",
-        "title_small": "מוצרים, שירותים, קבצים",
-        "total_products": "סך כל סוגי המוצרים"
-      },
-      "finance": {
-        "title": "כַּספִּי",
-        "title_small": "דוח כספי",
-        "total_30days_title": "סכום מכירות כולל",
-        "last_30_day": "30 הימים האחרונים",
-        "pay_amount_chart_title": "תשלומים",
-        "sell_amount_chart_title": "מכירות",
-        "discount_amount_chart_title": "הנחה",
-        "currency_convert_to": "למטבע",
-        "active_currencies": "מטבעות פעילים",
-        "sell_count_chart_title": "מספר המכירות לפי גרסה",
-        "active_gateways": "שער תשלום פעיל",
-        "received_last_24h": "התקבל 7 שעות אחרונות",
-        "pie": {
-          "title": "יחס המכירות של היום",
-          "no_data": "אין מכירה היום"
-        },
-        "pay_amount": "סכום לתשלום",
-        "sell_amount": "סכום מכירה",
-        "discount_amount": "כמות ההנחה",
-        "sell_count": "ספירת מכירות",
-        "table": {
-          "currency": "מַטְבֵּעַ",
-          "total_sell_30days": "מכירות בסך 30 יום",
-          "sell_daily": "קצב מכירות יומי",
-          "sell": "מְכִירָה",
-          "pay": "לְשַׁלֵם"
-        }
-      },
-      "customers": {
-        "title": "לקוחות חנות",
-        "title_small": "דוח המרה",
-        "total_customers": "סך הכל",
-        "new_customers_today": "היום",
-        "new_customers_week": "7 ימים אחרונים",
-        "orders_count": "הזמנות נחשבות",
-        "days_range": "טווח ימים",
-        "new_users": "משתמשים רשומים חדשים",
-        "chart": {
-          "new_customers": "לקוחות חדשים",
-          "customers": "סך כל הלקוחות"
-        }
-      },
-      "plugins": {
-        "title": "תוספים",
-        "title_small": "מוּתקָן"
-      },
-      "performance": {
-        "title": "היום",
-        "title_small": "סקירת משתמשים ומכירות",
-        "users": "משתמשים",
-        "views": "צפיות",
-        "orders": "הזמנות",
-        "payments": "תשלומים",
-        "no_visitor_today": "לא היו לך מבקרים היום."
-      }
     },
-    "products": {
-      "title": "רשימת מוצרים",
-      "products_list": "בחזרה לרשימה",
-      "products_menu": "ניהול מוצרים",
-      "process_que": "עיבוד מוצרים מיובאים",
-      "view_que_list": "צפה ברשימת התורים",
-      "menu_products_list": "רשימת מוצרים",
-      "menu_export": "ייצוא מוצרים",
-      "menu_import": "ייבוא מוצרים",
-      "menu_show_deletes": "הצג מוצרים שנמחקו",
-      "drop_import_message": "שחרר כאן את קובץ רשימת המוצרים (פורמט CSV, XLS, XLSX) כדי להתחיל להוסיף מוצרים בכמות גדולה. ודא שלקובץ יש את פורמט רשימת המוצרים של Seldone.",
-      "product_widget": {
-        "product_type": "סוג המוצר",
-        "price": "מחיר",
-        "value_added": "עמלה",
-        "discount": "הנחה",
-        "in_stock": "במלאי",
-        "product_unit": "יחידה",
-        "total_sell": "סך המכירות",
-        "total_view": "סך כל הצפיות",
-        "view_unit": "פִּי",
-        "review_unit": "ביקורות"
-      },
-      "folder_widget": {
-        "products": "מוצרים",
-        "products_unit": "סוגים",
-        "sub_categories": "קטגוריות",
-        "sub_categories_unit": "פריטים",
-        "views": "צפיות",
-        "views_unit": "פִּי"
-      },
-      "menu_advanced_options": "אפשרויות מתקדמות"
+  },
+
+  widgets: {
+    /** {@see BDashboardFeedback} **/
+    overview: {
+      title: "משוב לקוחות",
+      title_small: "סקירה כללית",
+      wishlist: "רשימת משאלות",
+      comments: "הערות",
+      likes: "אוהב",
+      favorites: "מועדפים",
+      powers: "מחיאות כפיים",
+      views: "צפיות",
+      report_today: "דיווח היום",
+      report_last7days: "דוח 7 ימים אחרונים",
+      report_last30days: "דוח 30 הימים האחרונים",
     },
-    "blogs": {
-      "new": "כתוב חדש",
-      "blogs": "בלוג",
-      "list": {
-        "title": "המאמרים שלי",
-        "waiting_message": "מקבל מידע ... אנא המתן",
-        "published": "יצא לאור",
-        "draft": "טְיוּטָה",
-        "private": "פְּרָטִי",
-        "public": "פּוּמְבֵּי",
-        "table": {
-          "title": "כותרת",
-          "author": "מְחַבֵּר",
-          "claps": "מחיאות כפיים",
-          "like": "כמו",
-          "comments": "הערות",
-          "views": "צפיות",
-          "publish_state": "סטָטוּס",
-          "created_at": "תאריך היווצרות",
-          "updated_at": "העדכון אחרון"
-        },
-        "subtitle": "כתוב מאמרים עם עורך מוטבע מודרני כדי להציג את עצמך ואת העסק שלך. תוכן מקורי הוא הדבר הראשון שאתה צריך להתמקד בו בעת כתיבת פוסט בלוג ידידותי לקידום אתרים באיכות גבוהה."
-      }
+  },
+
+  /** {@see BPageShop} **/
+  admin_shop: {
+    title: "חנות",
+    menu: {
+      edit: "הגדרות",
+      automation: "אוטומציה",
+      application: "יישומים",
+      access: "גִישָׁה",
+      pages: "דפים",
+      channels: "ערוצים",
+      classification: "קלאססיפיקאטיונ",
+      marketing: "שיווק",
+      customers: "לקוחות",
+      logistic: "לוֹגִיסטִי",
+      auditing: "חשבונאות",
+      incentives: "תמריצים",
+      process_center: "הזמנות",
+      blog: "בלוג",
+      products: "מוצרים",
+      shops: "חנויות",
+      dashboard: "לוּחַ מַחווָנִים",
+      autopilot: "טייס אוטומטי",
+      apps: "אפליקציות",
+      pos: "POS",
+      seo: "SEO",
+      localization: "לוקליזציה",
+      crm: "קרמ",
+      listing: "רשימה",
     },
-    "orders": {
-      "physical": {
-        "waiting_message": "מקבל מידע ... אנא המתן",
-        "rejected": "נִדחֶה",
-        "delivery": "משלוח",
-        "discount": "הנחה",
-        "not_paid": "לא שולם",
-        "table": {
-          "order_number": "קוד הזמנה",
-          "order_date": "תבדוק את התאריך",
-          "status": "סטטוס אחרון",
-          "price": "הכמות הכוללת",
-          "payment_status": "מצב תשלום"
-        }
+
+    /** {@see BPageShopDashboard} **/
+    dashboard: {
+      title: "לוח המחוונים של החנות",
+      online_staff: "צוות(ים) מקוונים",
+
+      notify_referral: {
+        message: "שלח את קישור ההזמנה שלך לחברים וקבל שוברים בחינם.",
+        action: "קישור ההפניה שלי",
       },
-      "virtual": {
-        "waiting_message": "מקבל מידע ... אנא המתן",
-        "discount": "הנחה",
-        "table": {
-          "order_number": "קוד הזמנה",
-          "product": "מוצר",
-          "order_date": "תאריך רישום",
-          "status": "סטטוס אחרון",
-          "price": "הכמות הכוללת",
-          "payment_status": "מצב תשלום"
-        }
-      }
+
+      /** {@see BDashboardShopTechnical} **/
+      info: {
+        title: "טֶכנִי",
+        subtitle: "סקירה טכנית של מערכת ההפעלה של העסק שלך.",
+
+        shop_name: "שם החנות",
+        shop_link: "קישור לחנות",
+        site_map: "מפת אתר",
+        shop_domains: "דומיינים",
+        shop_domains_msg: "רשימת דומיינים מותאמים אישית מחוברים.",
+
+        home_msg:
+          "הגדר את דף הבית המוגדר כברירת מחדל של האתר שלך. ניתן לשנות אותו עבור כל תחום מותאם אישית.",
+
+        add_domain: "הוסף דומיין חדש",
+        currencies: "מטבעות פעילים",
+        currencies_alert: "בחר מטבע אחד לפחות עבור החנות!",
+        status: "סטָטוּס",
+        license: "רישיון",
+        expire: "תאריך תפוגה של הרישיון",
+        upgrade_license_action: "שדרג ל-{name}",
+        wage: "תַשְׁלוּם",
+        cpu_message:
+          "מספר המשאבים שהתאמתם לתוכנית הנרכשת והמשאבים שתוסיפו לשירות שלכם.",
+        hide_domains: "הסתר את הדומיינים שלי",
+        show_domains: "הצג את הדומיינים שלי",
+
+        /** {@see BDomainsList} **/
+        table: {
+          primary: "יְסוֹדִי",
+          url: "כתובת אתר",
+          site_map: "מפת אתר",
+          enable: "לְאַפשֵׁר",
+          indexed: "כלול באינדקס",
+          and_more: "& יותר..",
+          auto_repair: "תיקון אוטומטי",
+        },
+        add_dialog: {
+          title: "הגדר את דומיין החנות",
+          step1:
+            "אתה יכול להגדיר את מגבלת ה-IP של רשומה A עבור תחום DNS או תת-דומיין מהערכים הבאים:",
+          step2: "הוסף רשומת DNS TXT:",
+          set_ip_alert:
+            "הגדר את ערך ה-IP של רשומה A <b>{ip}</b> .",
+
+          input_domain: "כתובת הדומיין",
+          correct: "הגדרות הדומיין נכונות.",
+          set_message: "הגדר את ה-CNAME של הדומיין הזה ל-{cname}.",
+          input_domain_message: "אנטאר טהא דומיין שם ויטהווט הטטפ אנד הטטפס.",
+          ssl_message:
+            "אל תדאג לגבי אישור SSL עבור האתר שלך. הסמכה זו תונפק עבור הדומיין שלך באופן אוטומטי על ידי Seldone (בטא).",
+          active: "הדומיין פעיל",
+          inactive: "הדומיין מושבת",
+          success_message:
+            "מזל טוב, האתר שלך מופעל ב-{domain}. אתה יכול להציג את העסק והמותג שלך לעולם דרך תחום זה.",
+
+          delete_action: "למחוק דומיין?",
+        },
+        set_home_dialog: {
+          title: "הגדר את דף הבית של הדומיין",
+        },
+        notification: {
+          add_message: "כתובת הדומיין נוספה בהצלחה.",
+          update_message: "הדומיין עודכן בהצלחה.",
+          delete_domain_message: "הדומיין נמחק בהצלחה.",
+        },
+        alert: {
+          title: "מחק דומיין",
+          message:
+            "האם אתה רוצה למחוק את הדומיין הזה? הקפד לאפס את ערכי רשומת ה-DNS של הדומיין שלך כדי למנוע הונאה מאחרים.",
+        },
+      },
+
+      /** {@see BDashboardShopOrders} **/
+      active_orders: {
+        title: "הזמנות",
+        title_small:
+          "הזמנות פיזיות, קבצים, וירטואליות ושירותים",
+        pending_orders: "הזמנות ממתינות",
+        physical: "הזמנות מוצרים פיזיות",
+        virtual: "הזמנות מוצרים וירטואליים",
+        file: "הגשת הזמנות מוצרים",
+        service: "שירות הזמנות מוצרים",
+        subscription: "הזמנות מנוי",
+      },
+      /** {@see BDashboardShopProducts} **/
+      products: {
+        title: "מְלַאי",
+        title_small: "מוצרים, שירותים, קבצים",
+
+        total_products: "סך כל סוגי המוצרים",
+      },
+      /** {@see BDashboardShopFinance} **/
+      finance: {
+        title: "כַּספִּי",
+        title_small: "דוח כספי",
+        total_30days_title: "סכום מכירות כולל",
+        last_30_day: "30 הימים האחרונים",
+        pay_amount_chart_title: "תשלומים",
+        sell_amount_chart_title: "מכירות",
+        discount_amount_chart_title: "הנחה",
+        currency_convert_to: "למטבע",
+        active_currencies: "מטבעות פעילים",
+        sell_count_chart_title: "מספר המכירות לפי גרסה",
+        active_gateways: "שער תשלום פעיל",
+        received_last_24h: "התקבל 7 שעות אחרונות",
+        pie: {
+          title: "יחס המכירות של היום",
+          no_data: "אין מכירה היום",
+        },
+        pay_amount: "סכום לתשלום",
+        sell_amount: "סכום מכירה",
+        discount_amount: "כמות ההנחה",
+        sell_count: "ספירת מכירות",
+        table: {
+          currency: "מַטְבֵּעַ",
+          total_sell_30days: "מכירות בסך 30 יום",
+          sell_daily: "קצב מכירות יומי",
+          sell: "מְכִירָה",
+          pay: "לְשַׁלֵם",
+        },
+      },
+      /** {@see BDashboardShopCustomers} **/
+      customers: {
+        title: "לקוחות חנות",
+        title_small: "דוח המרה",
+        total_customers: "סך הכל",
+        new_customers_today: "היום",
+        new_customers_week: "7 ימים אחרונים",
+        orders_count: "הזמנות נחשבות",
+        days_range: "טווח ימים",
+        new_users: "משתמשים רשומים חדשים",
+
+        chart: {
+          new_customers: "לקוחות חדשים",
+          customers: "סך כל הלקוחות",
+        },
+      },
+      /** {@see BDashboardShopChannels} **/
+
+      channels: {
+        title: "ערוצי רכישת לקוחות",
+        subtitle:
+          "יוור בוסינאסס יס גרווינג. הארא יס טהא דוח ופ יוור לקוח ערוצי רכישת לקוחות.",
+      },
+
+      /** {@see BDashboardShopPerformance} **/
+      performance: {
+        title: "היום",
+        title_small: "סקירת משתמשים ומכירות",
+        users: "משתמשים",
+        views: "צפיות",
+        orders: "הזמנות",
+        payments: "תשלומים",
+        no_visitor_today: "לא היו לך מבקרים היום.",
+      },
     },
-    "auditing": {
-      "menu": {
-        "exchange": "לְהַחלִיף",
-        "gateway": "כְּנִיסָה",
-        "invoice": "חיוב",
-        "report": "להגיש תלונה",
-        "tax": "מַס",
-        "drop_shipping": "קבלות מפיץ",
-        "reseller_accounts": "חשבונות מפיץ",
-        "valuations": "הערכות שווי"
+
+    /** {@see BPageShopProductsList} **/
+    products: {
+      title: "רשימת מוצרים",
+      products_list: "בחזרה לרשימה",
+      products_menu: "ניהול מוצרים",
+
+      view_que_list: "צפה ברשימת התורים",
+      menu_products_list: "רשימת מוצרים",
+      menu_export: "ייצוא מוצרים",
+      menu_import: "ייבוא מוצרים",
+      drop_import_message:
+        "שחרר כאן את קובץ רשימת המוצרים (פורמט CSV, XLS, XLSX) כדי להתחיל להוסיף מוצרים בכמות גדולה. ודא שלקובץ יש את פורמט רשימת המוצרים של Seldone.",
+
+      menu_advanced_options: "אפשרויות מתקדמות",
+      menu_advanced_options_description:
+        "קוננאקט Google סהאאט, הסר דופליקאטאד מוצרים אנד מורא...",
+
+      products_rss: {
+        title: "מוצרים RSS",
+        subtitle: "ייבוא מוצרים ינטו Google, Meta, ...",
       },
-      "invoice": {
-        "title": "קני ארנקים מקושרים",
-        "subtitle": "חיובים, עמלות ועלויות חנות מנוכים מחשבונות ארנק אלו.",
-        "title_add": "חבר חשבון ארנק חדש",
-        "subtitle_add": "עליך ליצור ארנק חדש לכל מטבע ולחבר אותו לחנות שלך. דמי השירות יימשכו מארנק זה.",
-        "add_account": "הוסף חשבון",
-        "charge_account": "חיוב חשבון",
-        "show_transaction": "הצג עסקאות",
-        "table": {
-          "currency": "מַטְבֵּעַ",
-          "account_number": "מספר חשבון",
-          "account_name": "שם החשבון",
-          "balance": "איזון",
-          "free_balance": "יתרה זמינה",
-          "actions": "לְהַסִיר"
-        },
-        "add_account_dialog": {
-          "title": "חיבור חשבון אשראי לחנות",
-          "subtitle": "כאשר אתה פותח חשבון ארנק עם Seldone, אנו ניתן לך כרטיס אשראי וחשבון וירטואלי כמו כל כרטיס אשראי אחר. דמי מכירה שנמכרו ינוכו מחשבון זה, אך אם יתרת החשבון שלך אינה מספיקה, סכום זה יהיה חייב. אתה יכול להשתמש בשירותי Seldone כמה שאתה צריך.",
-          "account_number": "מספר חשבון",
-          "account_number_input_message": "החנות תקושר לחשבון זה. חשבון זה ישמש עבור עמלות ועלויות.",
-          "balance": "יתרת חשבון",
-          "connect_account_to_shop": "חבר חשבון לחנות"
-        },
-        "notifications": {
-          "connect_account_success": "החשבון נוסף בהצלחה.",
-          "delete_account_success": "החשבון הוסר מהחנות בהצלחה."
-        },
-        "alert": {
-          "delete_account": "נתק חשבון",
-          "delete_account_message": "האם ברצונך להסיר חשבון זה מרשימת חשבונות החנות?",
-          "delete_account_action": "מחק חשבון"
-        },
-        "inform_charge_account": "טען את חשבונך!",
-        "inform_charge_account_critical": "טען את חשבונך כדי למנוע השעיית שירות!"
+      products_api: {
+        title: "מוצרים API",
+        subtitle: "ייבוא מוצרים ויא a פובליקלי אקקאססיבלא API קאלל.",
       },
-      "gateway": {
-        "title": "שיטות תשלום",
-        "sub_title": "רשימה של אמצעי תשלום פעילים. אם אתה רוצה להוסיף שיטה חדשה לחנות שלך, לחץ על הכפתור הבא. אנו ממליצים בחום לא לחרוג מ-10 שערי תשלום נוספים.",
-        "add_gateway": "אמצעי תשלום חדש",
-        "add_gateway_dialog": {
-          "title": "תבחר מדינה",
-          "country_currencies": "מטבעות מקומיים",
-          "crypto_currencies": "מטבעות קריפטו",
-          "active_gateways": "אמצעי תשלום פעילים",
-          "confirm": "הוסף אמצעי תשלום"
-        }
+      google_sheet: {
+        action: "קישור סהאאט",
+        tooltip:
+          "טהא מוצרים ינ טהיס חנות ארא קישור טו a Google סהאאט ינ Google דריוא.",
       },
-      "exchange": {
-        "title": "אחסן מטבעות פעילים",
-        "subtitle": "המשתמשים יוכלו לבחור באחד מהמטבעות הפעילים ומחירי המוצרים יחושבו ויוצגו. על המוכר להזין את שער החליפין.",
-        "shop_currencies_input": "מטבעות פעילים למשתמשים",
-        "shop_currencies_input_error": "בחר מטבע אחד לפחות",
-        "rates": {
-          "title": "שער חליפין",
-          "sub_title": "אתה יכול להזין מחירי מוצרים על בסיס כל אחד מהמטבעות למטה ומחירי המוצרים יחושבו אוטומטית לפי שערי המרה בין המטבעות שלך.",
-          "message": "בהזנת שערי החליפין בין המטבעות, מחירי המוצרים שלך יחושבו ויעודכנו באופן אוטומטי.",
-          "add_new_rate": "הוסף תעריף חדש"
-        },
-        "table": {
-          "waiting_receive_data": "מקבל מידע... אנא המתן",
-          "rate_input": "שער חליפין",
-          "from": "מ",
-          "to": "ל",
-          "exchange_rate": "שער חליפין",
-          "edit": "לַעֲרוֹך",
-          "delete": "לִמְחוֹק",
-          "auto": "תעריף אוטומטי"
-        },
-        "add_rate_dialog": {
-          "title": "הגדר שער חליפין",
-          "message": "היזהר בהזנת מידע. המחירים של המוצרים שלך יחושבו על סמך התעריפים המוזנים כאן.",
-          "currency_from": "ממטבע",
-          "currency_to": "למטבע",
-          "exchange_rate": "שער חליפין"
-        },
-        "alert": {
-          "title": "מחק שיעור המרה",
-          "message": "האם ברצונך למחוק את שיעור ההמרה הזה?",
-          "action": "לִמְחוֹק"
-        },
-        "notifications": {
-          "delete_success": "שער החליפין הוסר.",
-          "add_success": "שער החליפין עודכן.",
-          "update_success": "חנות המטבעות הפעילים מעודכנת."
-        }
-      }
+      show_deletes: {
+        false_title: "הסתר דאלאטאד",
+        false_description: "הסתר דאלאטאד מוצרים.",
+        true_title: "הצג דאלאטאד",
+        true_description: "הצג דאלאטאד מוצרים.",
+      },
+      show_vendors: {
+        false_title: "הסתר ספקים",
+        false_description: "גוסט הצג ספק וונאר.",
+        true_title: "הצג ספקים",
+        true_description: "הצג הכול ספקים, ⌘Ctrl+1",
+      },
+      table_mode: {
+        false_title: "דראג & דרופ מצב",
+        false_description:
+          "צפה מוצרים ורגאניזאד בי קטגוריות אנד סובקאטאגוריאס.",
+        true_title: "טבלה מצב",
+        true_description: "צפה מוצרים ינ a דאטאילאד טבלה לאיווט.",
+      },
+
+      show_notes: {
+        false_title: "הסתר הערות",
+        false_description: "הסתר ריק הערות.",
+        true_title: "הצג הערות",
+        true_description: "הצג הכול הערות, ⌘Ctrl+2",
+      },
+
+      rss_dialog: {
+        title: "מוצרים RSS",
+        subtitle:
+          "וטיליזא טהיס RSS פאאד טו מאינטאינ אנ ופ-טו-דאטא רשימה ופ הכול מוצרים.",
+      },
+      api_dialog: {
+        title: "מוצרים API",
+        subtitle:
+          "וסא טהיס API פאאד טו קאאפ יוור מוצר רשימה ופ-טו-דאטא. יט פרווידאס a פובליקלי אקקאססיבלא API טו פאטקה מוצרים פרומ יוור חנות, מאקינג יט ידאאל פור מוצר רשימה אנד קומפאריסונ ואבסיטאס.",
+      },
+
+      /** {@see BProductWindowProductLarge} **/
+
+      product_widget: {
+        product_type: "סוג המוצר",
+        price: "מחיר",
+        value_added: "עמלה",
+        discount: "הנחה",
+        in_stock: "במלאי",
+        product_unit: "יחידה",
+        total_sell: "סך המכירות",
+        total_view: "סך כל הצפיות",
+        view_unit: "פִּי",
+        review_unit: "ביקורות",
+      },
+
+      /** {@see WidgetFolderCard} **/
+      folder_widget: {
+        products: "מוצרים",
+        products_unit: "סוגים",
+        sub_categories: "קטגוריות",
+        sub_categories_unit: "פריטים",
+        views: "צפיות",
+        views_unit: "פִּי",
+      },
     },
-    "logistic": {
-      "warehouses": {
-        "title": "מחסנים",
-        "subtitle": "רשימת המחסנים שלי."
+
+    /** {@see BPageShopBlogs}  **/
+    blogs: {
+      new: "כתוב חדש",
+      blogs: "בלוג",
+
+      /** {@see BPageShopBlogsList} **/
+      list: {
+        title: "המאמרים שלי",
+        subtitle:
+          "כתוב מאמרים עם עורך מוטבע מודרני כדי להציג את עצמך ואת העסק שלך. תוכן מקורי הוא הדבר הראשון שאתה צריך להתמקד בו בעת כתיבת פוסט בלוג ידידותי לקידום אתרים באיכות גבוהה.",
+        waiting_message: "מקבל מידע ... אנא המתן",
+        published: "יצא לאור",
+        draft: "טְיוּטָה",
+        private: "פְּרָטִי",
+        public: "פּוּמְבֵּי",
+        table: {
+          title: "כותרת",
+          author: "מְחַבֵּר",
+          claps: "מחיאות כפיים",
+          like: "כמו",
+          comments: "הערות",
+          views: "צפיות",
+          publish_state: "סטָטוּס",
+          created_at: "תאריך היווצרות",
+          updated_at: "העדכון אחרון",
+        },
       },
-      "warehouse_btn": "הוסף מחסן חדש",
-      "warehouse_btn_error": "הגדר את המחסן, החנות או מקור העסק שלך. זה חיוני בחישוב עלות המשלוח ובתהליך התשלום.",
-      "size_unit": {
-        "title": "יחידת גודל",
-        "subtitle": "היחידה המשמשת לאורך, רוחב וגובה."
+    },
+
+    /** {@see ShopPBPageShopOrdersrocessCenter} **/
+    orders: {
+      /** {@see BProcessCenterList} **/
+      physical: {
+        waiting_message: "מקבל מידע ... אנא המתן",
+        rejected: "נִדחֶה",
+        delivery: "משלוח",
+        discount: "הנחה",
+        not_paid: "לא שולם",
+
+        table: {
+          order_number: "קוד הזמנה",
+          order_date: "תבדוק את התאריך",
+          status: "סטטוס אחרון",
+          price: "הכמות הכוללת",
+          payment_status: "מצב תשלום",
+        },
       },
-      "mass_unit": {
-        "title": "יחידת המונים",
-        "subtitle": "היחידה המשמשת למשקל."
+
+      /** {@see BPageShopOrdersVirtual} **/
+      virtual: {
+        waiting_message: "מקבל מידע ... אנא המתן",
+
+        discount: "הנחה",
+        table: {
+          order_number: "קוד הזמנה",
+          product: "מוצר",
+          order_date: "תאריך רישום",
+          status: "סטטוס אחרון",
+          price: "הכמות הכוללת",
+          payment_status: "מצב תשלום",
+        },
       },
-      "menu": {
-        "return_request": "חזר",
-        "delivery": "משלוח",
-        "inventory": "מְלַאי",
-        "warehouse": "מַחסָן",
-        "logistic_apps": "לוֹגִיסטִיקָה",
-        "profiles": "פרופילים",
-        "includes": "כולל"
+    },
+
+    /** {@see BPageShopFinance} **/
+    auditing: {
+      menu: {
+        exchange: "לְהַחלִיף",
+        gateway: "כְּנִיסָה",
+        invoice: "חיוב",
+        report: "להגיש תלונה",
+        tax: "מַס",
+        drop_shipping: "קבלות מפיץ",
+        reseller_accounts: "חשבונות מפיץ",
+        valuations: "הערכות שווי",
+        customer_wallets: "ארנקי לקוחות",
       },
-      "warehouse": {
-        "title": "מחסן חנות",
-        "sub_title": "כתובת זו משמשת כמקור המשלוח.",
-        "table": {
-          "title": "רשימת מלאי",
-          "sub_title": "רשימת כל מוצרי החנות כולל פיזיים, וירטואליים, קבצים ושירותים"
-        }
+
+      /** {@see BPageShopFinanceBill} **/
+      invoice: {
+        title: "קני ארנקים מקושרים",
+        subtitle:
+          "חיובים, עמלות ועלויות חנות מנוכים מחשבונות ארנק אלו.",
+
+        title_add: "חבר חשבון ארנק חדש",
+        subtitle_add:
+          "עליך ליצור ארנק חדש לכל מטבע ולחבר אותו לחנות שלך. דמי השירות יימשכו מארנק זה.",
+        add_account: "הוסף חשבון",
+        charge_account: "חיוב חשבון",
+        show_transaction: "הצג עסקאות",
+
+        table: {
+          currency: "מַטְבֵּעַ",
+          account_number: "מספר חשבון",
+          account_name: "שם החשבון",
+          balance: "איזון",
+          free_balance: "יתרה זמינה",
+          actions: "לְהַסִיר",
+        },
+        add_account_dialog: {
+          title: "חיבור חשבון אשראי לחנות",
+          subtitle:
+            "ופונ ופאנינג a ארנק חשבון ויטה Selldone, יוו וילל ראקאיוא a וירטואלי קראדיט כרטיס. טהא Selldone שירות פאא וילל בא קהארגאד טו טהיס חשבון. הוואואר, יפ יוור חשבון יתרה יס ינסופפיקיאנט, טהא פאא וילל באקומא a פאיאבלא דאבט.",
+          account_number: "מספר חשבון",
+          account_number_input_message:
+            "החנות תקושר לחשבון זה. חשבון זה ישמש עבור עמלות ועלויות.",
+          balance: "יתרת חשבון",
+          connect_account_to_shop: "חבר חשבון לחנות",
+        },
+        notifications: {
+          connect_account_success: "החשבון נוסף בהצלחה.",
+          delete_account_success:
+            "החשבון הוסר מהחנות בהצלחה.",
+        },
+        alert: {
+          delete_account: "נתק חשבון",
+          delete_account_message:
+            "האם ברצונך להסיר חשבון זה מרשימת חשבונות החנות?",
+          delete_account_action: "מחק חשבון",
+        },
+        inform_charge_account: "טען את חשבונך!",
+        inform_charge_account_critical:
+          "טען את חשבונך כדי למנוע השעיית שירות!",
       },
-      "delivery": {
-        "title": "שיטות משלוח",
-        "sub_title": "על ידי הגדרת הערכים בסעיף זה, מגוון שיטות שליחה מופעלות בחנות שלך. ניתן להפעיל את שיטת מזומן במשלוח גם בסעיף זה.",
-        "add_transportation": "הוסף תחבורה",
-        "delivery_form": {
-          "payment": "אפשרויות תשלום",
-          "limits": "גבולות",
-          "currency_input": "מטבע ייחוס לחישובי עלויות",
-          "currency_input_message": "העלויות מחושבות במטבע זה",
-          "distance_input": "מרחק מכוסה מהמחסן",
-          "distance_input_message": "0 או -1 אומר שאין גבול.",
-          "max_weight_input": "משקל אריזה מקסימלי מקובל",
-          "max_weight_input_message": "0 או -1 אומר שאין גבול.",
-          "max_size_input": "מידות החבילה המקסימליות",
-          "width": "רוֹחַב",
-          "length": "אורך",
-          "height": "גוֹבַה",
-          "days_input": "תאריכי אספקה פנויים",
-          "days_input_nodata": "בחר את יום המשלוח",
-          "hours_input": "זמני אספקה",
-          "hours_input_nodata": "בחר פרק זמן",
-          "vacation_input": "עושים משלוחים בחגים?",
-          "cod_input": "תומך ב-COD",
-          "cod_input_message": "ודא ששירות המשלוחים שלך מקבל COD.",
-          "sod_input": "האם אתה תומך ב-COD?",
-          "sod_input_message": "ודא ששירות המשלוחים שלך מקבל COD.",
-          "pricing": "חשב מחיר",
-          "const_input": "עלות קבועה",
-          "distance_cof_input": "מקדם עלות למרחק",
-          "distance_cof_input_dim": "לכל {dim}",
-          "weight_cof_input": "גורם עלות למשקל",
-          "weight_cof_input_dim": "לכל {dim}",
-          "price_cof_input": "עלות משלוח לגורם מחיר המוצר",
-          "price_cof_input_message": "כולל עלויות ביטוח ושירותים אחרים כגון עלויות COD.",
-          "price_cof_input_dim": "לכל {dim}",
-          "distance_weight_cof_input": "מכפיל עלות לפי מכפיל משקל",
-          "distance_weight_cof_input_dim": "עבור כל {weight} לכל {distance}",
-          "free_shipping_input": "משלוח חינם",
-          "free_shipping_limit_input": "עלות הזמנה מינימלית למשלוח חינם",
-          "notifications": {
-            "update_success": "הגדרות שירות המשלוח הושלמו בהצלחה."
+
+      /** {@see BPageShopFinanceExchange} **/
+      exchange: {
+        title: "אחסן מטבעות פעילים",
+        subtitle:
+          "המשתמשים יוכלו לבחור באחד מהמטבעות הפעילים ומחירי המוצרים יחושבו ויוצגו. על המוכר להזין את שער החליפין.",
+        shop_currencies_input: "מטבעות פעילים למשתמשים",
+        shop_currencies_input_error: "בחר מטבע אחד לפחות",
+        rates: {
+          title: "שער חליפין",
+          sub_title:
+            "אתה יכול להזין מחירי מוצרים על בסיס כל אחד מהמטבעות למטה ומחירי המוצרים יחושבו אוטומטית לפי שערי המרה בין המטבעות שלך.",
+          message:
+            "בהזנת שערי החליפין בין המטבעות, מחירי המוצרים שלך יחושבו ויעודכנו באופן אוטומטי.",
+          add_new_rate: "הוסף תעריף חדש",
+        },
+        table: {
+          waiting_receive_data: "מקבל מידע... אנא המתן",
+          rate_input: "שער חליפין",
+          from: "מ",
+          to: "ל",
+          exchange_rate: "שער חליפין",
+          edit: "לַעֲרוֹך",
+          delete: "לִמְחוֹק",
+          auto: "תעריף אוטומטי",
+        },
+        add_rate_dialog: {
+          title: "הגדר שער חליפין",
+          message:
+            "היזהר בהזנת מידע. המחירים של המוצרים שלך יחושבו על סמך התעריפים המוזנים כאן.",
+          currency_from: "ממטבע",
+          currency_to: "למטבע",
+          exchange_rate: "שער חליפין",
+        },
+        alert: {
+          title: "מחק שיעור המרה",
+          message: "האם ברצונך למחוק את שיעור ההמרה הזה?",
+          action: "לִמְחוֹק",
+        },
+        notifications: {
+          delete_success: "שער החליפין הוסר.",
+          add_success: "שער החליפין עודכן.",
+          update_success: "חנות המטבעות הפעילים מעודכנת.",
+        },
+      },
+    }, // End of auditing
+
+    /** {@see BPageShopLogistic} **/
+    logistic: {
+      /** {@see BPageShopLogisticWarehouse} **/
+      warehouses: {
+        title: "מחסנים",
+        subtitle: "רשימת המחסנים שלי.",
+      },
+      restriction: {
+        title: "הגבלת משלוח",
+        subtitle:
+          "יוו קאנ ימפלאמאנט ראסטריקטיונס טו אנסורא טהאט רק לקוחות ויטהינ טהא דאסיגנאטאד משלוח אראאס קאנ מאקא רכישה פרומ יוו!",
+        no_enable_shipping_error:
+          "נו ונא קאנ קנייה פרומ יוו באקאוסא יוו האוא נו מופעל משלוח שיטה!",
+        customer_must_select_a_shipping_msg:
+          "לקוח מוסט בחר a משלוח שיטה טו פלאקא הזמנה.",
+        customer_can_order_without_shipping_method_msg:
+          "לקוח קאנ פלאקא טהא הזמנה אואנ יפ נו משלוח שיטה תמיכה פור טהא בחר מיקום.",
+        inputs: {
+          restriction: {
+            false_description:
+              "לקוחות קאנ סטילל פלאקא הזמנות אואנ יפ נו ספאקיפיק משלוח שיטה האס באאנ בחר.",
+            false_title: "אקקאפט הכול הזמנות",
+            true_title: "ראסטריקטאד אקקאפט הזמנה",
+            true_description:
+              "לקוחות ארא ראקויראד טו בחר איטהאר a משלוח ור פיקקופ אפשרות ינ הזמנה טו קומפלאטא טהאיר רכישה.",
           },
-          "shipping_cost_calculation": "חישוב עלות משלוח",
-          "sod_true": "קבל עלות משלוח על היעד",
-          "sod_true_message": "ודא ששירות המשלוחים שלך מקבל את עלות המשלוח ביעד.",
-          "sod_false": "חישוב עלות משלוח אוטומטי",
-          "cod_true": "קבלו מזומן במשלוח",
-          "cod_false": "קבל תשלום מקוון בלבד",
-          "cod_true_message": "ודא ששירות המשלוחים שלך מקבל COD."
-        }
-      }
+        },
+      },
+
+      warehouse_btn: "הוסף מחסן חדש",
+      warehouse_btn_error:
+        "הגדר את המחסן, החנות או מקור העסק שלך. זה חיוני בחישוב עלות המשלוח ובתהליך התשלום.",
+      no_multi_warehouse_support_message:
+        "פור סימפליקיטי, טהיס פאאטורא יס לא זמין ינ נורמאל חנות.",
+      size_unit: {
+        title: "יחידת גודל",
+        subtitle: "היחידה המשמשת לאורך, רוחב וגובה.",
+      },
+      mass_unit: {
+        title: "יחידת המונים",
+        subtitle: "היחידה המשמשת למשקל.",
+      },
+      distance_unit: {
+        title: "יחידת מרחק",
+        subtitle: "טהא וניט וסאד פור דיסטאנקא.",
+      },
+
+      menu: {
+        return_request: "חזר",
+        delivery: "משלוח",
+        inventory: "מְלַאי",
+        warehouse: "מַחסָן",
+        logistic_apps: "לוֹגִיסטִיקָה",
+        profiles: "פרופילים",
+        includes: "כולל",
+        property_sets: "ערכות מאפיינים",
+        boxes: "חבילות",
+      },
+
+      /** {@see BPageShopLogisticInventory} **/
+      warehouse: {
+        title: "מחסן חנות",
+        sub_title: "כתובת זו משמשת כמקור המשלוח.",
+        table: {
+          title: "רשימת מלאי",
+          sub_title:
+            "רשימת כל מוצרי החנות כולל פיזיים, וירטואליים, קבצים ושירותים",
+        },
+      },
+
+      /** {@see BPageShopLogisticShipping} **/
+      delivery: {
+        title: "שיטות משלוח",
+
+        sub_title:
+          "על ידי הגדרת הערכים בסעיף זה, מגוון שיטות שליחה מופעלות בחנות שלך. ניתן להפעיל את שיטת מזומן במשלוח גם בסעיף זה.",
+        add_transportation: "הוסף תחבורה",
+
+        /** {@see DeliveryFormWidget} **/
+        delivery_form: {
+          payment: "אפשרויות תשלום",
+          limits: "גבולות",
+
+          currency_input: "מטבע ייחוס לחישובי עלויות",
+          currency_input_message: "העלויות מחושבות במטבע זה",
+          distance_input: "מרחק מכוסה מהמחסן",
+          distance_input_message: "0 או -1 אומר שאין גבול.",
+          max_weight_input: "משקל אריזה מקסימלי מקובל",
+          max_weight_input_message: "0 או -1 אומר שאין גבול.",
+          max_size_input: "מידות החבילה המקסימליות",
+          width: "רוֹחַב",
+          length: "אורך",
+          height: "גוֹבַה",
+          days_input: "תאריכי אספקה פנויים",
+          days_input_nodata: "בחר את יום המשלוח",
+          hours_input: "זמני אספקה",
+          hours_input_nodata: "בחר פרק זמן",
+          vacation_input: "עושים משלוחים בחגים?",
+
+          pricing: "חשב מחיר",
+          const_input: "עלות קבועה",
+          distance_cof_input: "מקדם עלות למרחק",
+          distance_cof_input_dim: "לכל {dim}",
+          weight_cof_input: "גורם עלות למשקל",
+          weight_cof_input_dim: "לכל {dim}",
+          price_cof_input: "עלות משלוח לגורם מחיר המוצר",
+          price_cof_input_message:
+            "כולל עלויות ביטוח ושירותים אחרים כגון עלויות COD.",
+          price_cof_input_dim: "לכל {dim}",
+          distance_weight_cof_input: "מכפיל עלות לפי מכפיל משקל",
+          distance_weight_cof_input_dim: "עבור כל {weight} לכל {distance}",
+          free_shipping_input: "משלוח חינם",
+          free_shipping_limit_input: "עלות הזמנה מינימלית למשלוח חינם",
+
+          shipping_cost_calculation: "חישוב עלות משלוח",
+          sod_true: "קבל עלות משלוח על היעד",
+          sod_true_message:
+            "ודא ששירות המשלוחים שלך מקבל את עלות המשלוח ביעד.",
+          sod_false: "חישוב עלות משלוח אוטומטי",
+
+          cod_input: "תומך ב-COD",
+          cod_true: "קבלו מזומן במשלוח",
+          cod_false: "קבל תשלום מקוון בלבד",
+          cod_true_message: "ודא ששירות המשלוחים שלך מקבל COD.",
+
+          notifications: {
+            update_success: "הגדרות שירות המשלוח הושלמו בהצלחה.",
+          },
+        },
+      },
+    }, // End of logistic
+
+    /** {@see BPageShopCrm} **/
+    users: {
+      menu: {
+        customers: "לקוחות",
+        contact_form: "אנשי קשר",
+        faq: "FAQ",
+        club: "מוֹעֲדוֹן",
+        report: "להגיש תלונה",
+      },
+
+      /** {@see BPageShopCrmReport} **/
+      report: {
+        title: "סקירת לקוחות",
+        sub_title: "אתה תראה את הסטטוס החי של הלקוחות שלך כאן.",
+        report_30days_by_time:
+          "פעילות המשתמש מבוססת על תאריך ושעה ב-30 הימים האחרונים",
+        report_30days_by_location:
+          "פעילות משתמשי מיקום גיאוגרפי ב-30 הימים האחרונים",
+      },
+      /** {@see BPageShopCrmClub} **/
+      club: {
+        title: "מועדון לקוחות",
+        sub_title:
+          "הזן את סכום הרכישה החודשי והשנתי ואת המטבע כדי להפעיל כל רמה. הלקוחות שלך ייכנסו למועדון הלקוחות שלך כשהם עומדים בדרישות של רכישה חודשית או שנתית.",
+        item: {
+          members_count: "מספר חברים",
+          purchases_count: "מספר ההזמנות",
+          monthly: "יַרחוֹן",
+          annually: "שְׁנָתִי",
+          discount_percent: "אחוז הנחה",
+          discount_limit: "מגבלת הנחה",
+        },
+
+        edit_dialog: {
+          title: "ניהול ברמת הלקוח",
+          currency_input: "מַטְבֵּעַ",
+          currency_input_message:
+            "סך כל הרכישות מחושבים במטבע זה.",
+          free_shipping_input: "משלוח חינם",
+          monthly_input: "תעריף רכישה חודשי",
+          annually_input: "שיעור רכישה שנתי",
+          discount_percent_input: "שיעור הנחה לחברי מועדון",
+          discount_limit_input: "מגבלת הנחה",
+          description_input: "תיאור",
+          description_input_message: "הזן תיאור קצר של רמה זו.",
+        },
+        notifications: {
+          update_success: "חלו שינויים במועדון הלקוחות.",
+        },
+      },
+      /** {@see BPageShopCrmFaq} **/
+      faq: {
+        title: "שאלות נפוצות",
+        sub_title: "הוסף, ערוך וענה על שאלות הלקוחות שלך.",
+      },
+    }, // End of users
+
+    /** {@see BPageShopMarketing} **/
+    marketing: {
+      menu: {
+        campaigns: "מסעות פרסום",
+        cross_selling: "מכירה צולבת",
+        affiliate: "שותף",
+        emails: "אימיילים",
+        funnel: "מַשׁפֵּך",
+      },
+
+      /** {@see BPageShopMarketingCampaign} **/
+      campaign: {
+        name_input_name: "שם מסע הפרסום",
+        name_input_placeholder: "שם מסע הפרסום",
+        create_campaign_action: "צור קמפיין חדש",
+        table: {
+          title: "כותרת",
+          state: "סטָטוּס",
+          discount: "הנחה",
+          landing: "דף נחיתה",
+          start: "הַתחָלָה",
+          end: "סוֹף",
+        },
+        notifications: {
+          add_success_title: "צור קמפיין",
+          add_success: "הקמפיין שלך נוצר.",
+        },
+      },
+    }, // End of marketing
+
+    /** {@see BPageShopClassification} **/
+    categories: {
+      title: "רשימת קטגוריות",
+      subtitle:
+        "קטגוריות הן המאפיין המרכזי של החנות המקוונת שלך. אנו ממליצים לך להשתמש בכלי הסיווג החזקים האלה כדי לבנות חלון ראווה מודרני ולהקל על הלקוחות שלך למצוא מוצרים נכונים.",
+
+      menu: {
+        add_new: "הוסף קטגוריה חדשה",
+        categories_list: "רשימת קטגוריות",
+        export: "ייצוא קטגוריות",
+        import: "ייבוא קטגוריות (CSV)",
+      },
+      /** {@see categoriesGraph} **/
+      graph: {
+        title: "היררכיה של קטגוריות",
+        subtitle:
+          "תוכל לקבל סקירה מלאה של קטגוריות החנות שלך וכיצד המשתמשים מנווטים בהן. עם סידור נכון של קטגוריות, הלקוחות שלך יכולים למצוא מוצרים במהירות ויחס ההמרה יעלה.",
+        visits_count: "לְבַקֵר",
+        normal: "פָּשׁוּט",
+        items_count: "מספר פריטים",
+        home: "בית",
+      },
+    }, // End of categories
+    /** {@see AdminShopApps} **/
+    apps: {
+      menu: {
+        app_store: "חנות",
+        my_apps: "אפליקציות",
+      },
+      /** {@see BPageShopSettingApplications} **/
+      my_apps: {
+        title: "אחסן אפליקציות פעילות",
+        subtitle:
+          "נהל את היישומים העסקיים שלך.",
+        all: "את כל",
+      },
+      /** {@see BAppShopStore} **/
+      store: {
+        title: "חנות אפליקציות",
+        subtitle:
+          "חבר את השירותים המועדפים עליך לעסק שלך בצורה מאובטחת. אנו מוסיפים תוספים ואפליקציות על סמך בקשות הלקוחות שלנו.",
+
+        nodata: "לא נמצא תוסף.",
+        all: "את כל",
+        more: "יותר",
+      },
+    }, // End of apps
+    /** {@see BPageShopPages} **/
+    pages: {
+      menu: {
+        new_page: "עמוד חדש",
+        contact_us: "צור קשר",
+        privacy: "פְּרָטִיוּת",
+        terms: "תנאים",
+        about_us: "עלינו",
+        landings: "נְחִיתָה",
+        popup: "קופץ",
+        static: "סטָטִי",
+      },
+    }, // End of pages
+
+    /** {@see BPageShopPermission} **/
+    permissions: {
+      menu: {
+        persons: "צוות",
+        roles: "תפקידים",
+        api: "API",
+      },
+      /** {@see BPageShopPermissionStaff} **/
+      shop_permissions: {
+        menu: {
+          users: "רשימת כוח אדם",
+          new_user: "הוסף צוות חדש",
+          new_user_message:
+            "משתמשים שתהיה להם גישה ללוח המחוונים ולחלקי הניהול של חנות זו.",
+        },
+        delete_alert: {
+          title: "הסר גישה",
+          message: "האם אתה רוצה למחוק משתמש זה?",
+          action: "לִמְחוֹק",
+        },
+        notifications: {
+          add_success_title: "הוסף גישה",
+          add_success: "נוספה גישה חדשה.",
+          delete_success_title: "מחק גישה",
+          delete_success: "הגישה נמחקה.",
+        },
+      },
+
+      /** {@see BPageShopPermissionApi} **/
+      shop_api: {
+        title: "חנות מפתחות גישה",
+        message:
+          "טהאסא מפתחות ארא וסאד טו צור גישה טוקאנ בי יוור סארואר. הערה טהאט טהא מפתחות ארא קונפידאנטיאל אנד רק ונ טהא סארואר ינ a ואי טהאט יס לא ויסיבלא טו וטהארס. ",
+      },
+    }, // End of permissions
+    /** {@see BPageShopApplications} **/
+    applications: {
+      /** {@see BPageShopApplicationsPwa} **/
+      pwa: {
+        title: "אפליקציית אינטרנט",
+        sub_title: "הצג את אפליקציית האינטרנט של החנות שלך כאן",
+        message:
+          "הערה: אתה יכול לערוך את דף הפתיחה של האתר שלך באייפון ובאייפד באפליקציית iOS",
+        ios_app: "אפליקציית iOS",
+      },
+
+      /** {@see BPageShopApplicationsIos} **/
+      ios: {
+        title: "אפליקציית iOS",
+        sub_title: "בקרוב תוכל לבנות אפליקציית iOS עבור החנות שלך.",
+        message:
+          "גודל קובץ מקסימלי: 512 KB, ניתן להעלות קבצים בגודל של עד 1MB, בתנאי שמערכת הדחיסה שלנו מסוגלת להקטין את הגודל ל-512KB. התמונה שהועלתה תשתנה בצורה חכמה.",
+      },
+      /** {@see BPageShopApplicationsAndroid} **/
+      android: {
+        title: "אפליקציית אנדרואיד",
+        sub_title: "בנה אפליקציית אנדרואיד משלך",
+        message:
+          "מלא טופס זה והקש על מקש הבנייה. לא יהיה צורך בשום דבר אחר. כל השלבים בתהליך הבנייה והחתימה של האפליקציה שלך מבוצעים בשרתי הענן. האפליקציה הסופית תועלה לכל AppStores.",
+        server_un_available:
+          "באופן ניסיוני, שרת היישומים אינו מחובר בשלב זה.",
+        app_building_progress: "האפליקציה שלך נבנית.",
+        app_build_success: "האפליקציה שלך מוכנה.",
+        download_app_action: "הורד את האפליקציה",
+        firmware_version: "גרסת קושחה",
+        main_info: "חבילת יישומים",
+        package_name_input_message: "ודא ששם החבילה הוא ייחודי.",
+        package_name_input_alert:
+          "אם תשנה את השם הזה, לא תוכל עוד לעדכן את האפליקציות הקודמות שלך ב-AppStore ולהתקין אחת חדשה. שימו לב שגם משתמשי אפליקציה בגרסאות ישנות לא יוכלו להיכנס לחשבונות שלהם.",
+        version_input: "גִרְסָה",
+        version_input_message:
+          "מספר זה חייב להיות תמיד גדול מהערך הקודם שלו.",
+        version_name_input: "שם הגרסה",
+        version_name_input_message:
+          "הזן שם ייחודי עבור גרסה זו של האפליקציה.",
+        use_selldone_key: "מקשי ברירת מחדל נמכרים",
+        use_last_key: "מפתח שמור",
+        use_new_key: "מפתח חדש",
+        appearance: "מראה חיצוני",
+        app_name_input: "שם האפליקציה",
+        app_name_input_message: "זה יהיה השם הראשי של האפליקציה שלך.",
+        app_title_input: "כותרת האפליקציה",
+        app_title_input_message: "כותרת זו מופיעה בחלק העליון של האפליקציה.",
+        app_title_input_placeholder: "הזן כותרת",
+        app_icon_input: "סמל אפליקציה",
+        app_icon_input_placeholder: "בחר את קובץ ה-zip של סמלי האפליקציה.",
+        generate_icon_pack_action: "בניית חבילת אייקונים",
+        splash_design: "עיצוב מסך Splash",
+        splash_logo_input: "לוגו מסך הפתיחה",
+        splash_logo_input_placeholder: "בחר תמונה עבור מסך הפתיחה.",
+        splash_title_input: "כותרת מסך הפתיחה",
+        splash_title_input_placeholder: "אנטאר a כותרת פור ספלאסה סקראאנ",
+        splash_title_input_message:
+          "כותרת זו תוצג בגודל גופן גדול.",
+        splash_message_input: "ספלאסה סקראאנ הודעה",
+        splash_message_input_placeholder: "הודעה...",
+        splash_message_input_message:
+          "הודעה זו תוצג כתמונה ממוזערת למטה.",
+
+        dark_theme: "ערכת נושא כהה",
+        light_theme: "נושא קל",
+        build: "לִבנוֹת",
+        building_info:
+          "בניית אפליקציה בשרת ענן אורכת 10 שניות עד מספר דקות. אנא התאזר בסבלנות. קישור הקובץ להורדה יופיע כאן ברגע שהאפליקציה תהיה מוכנה.",
+        update_mode_action: "עדכון",
+        build_mode_action: "בניית אפליקציה",
+        notifications: {
+          icon_pack_not_valid_error: "הקובץ לא תקין.",
+          start_building_title: "בניין...",
+          start_building_message:
+            "הוגשה בקשה לבניית אפליקציית אנדרואיד.",
+          build_success_title: "מזל טוב",
+          build_success:
+            "אפליקציית Android שלך מוכנה, ותוכל להוריד אותה כעת.",
+        },
+      },
+    }, // End of applications
+
+    /** {@see ShopAutomation} **/
+    automation: {
+      menu: {
+        autopilot: "טייס אוטומטי",
+      },
     },
-    "users": {
-      "menu": {
-        "customers": "לקוחות",
-        "contact_form": "אנשי קשר",
-        "faq": "FAQ",
-        "club": "מוֹעֲדוֹן",
-        "report": "להגיש תלונה"
+
+    /** {@see BPageShopSetting} **/
+    edit: {
+      menu: {
+        delete: "מחק את החנות",
+        activity_time: "זְמַן",
+        footer: "תַפרִיט",
+        info: "מידע",
+        notification: "התראות",
+        home: "בית",
+        locations: "מיקומים",
+        license: "רישיון",
+        theme: "נושא",
+        sms: "סמס",
+        email: "אימייל",
+        domain: "תְחוּם",
+        verifications: "אימותים",
+        flow: "זְרִימָה",
+        business_model: "מודל עסקי",
       },
-      "report": {
-        "title": "סקירת לקוחות",
-        "sub_title": "אתה תראה את הסטטוס החי של הלקוחות שלך כאן.",
-        "report_30days_by_time": "פעילות המשתמש מבוססת על תאריך ושעה ב-30 הימים האחרונים",
-        "report_30days_by_location": "פעילות משתמשי מיקום גיאוגרפי ב-30 הימים האחרונים"
+      delete_dialog: {
+        title: "מחק את החנות",
+        message: "האם ברצונך למחוק את חנות <b>{title}</b> ?",
+        action: "מחק את החנות",
       },
-      "club": {
-        "title": "מועדון לקוחות",
-        "sub_title": "הזן את סכום הרכישה החודשי והשנתי ואת המטבע כדי להפעיל כל רמה. הלקוחות שלך ייכנסו למועדון הלקוחות שלך כשהם עומדים בדרישות של רכישה חודשית או שנתית.",
-        "item": {
-          "members_count": "מספר חברים",
-          "purchases_count": "מספר ההזמנות",
-          "monthly": "יַרחוֹן",
-          "annually": "שְׁנָתִי",
-          "discount_percent": "אחוז הנחה",
-          "discount_limit": "מגבלת הנחה"
+
+      notifications: {
+        delete_success: "החנות נמחקה.",
+      },
+
+      /** {@see BPageShopSettingInfo} **/
+      info: {
+        title_tab: {
+          title: "שם העסק ושפה",
+          subtitle: "הגדר שם ציבורי ושפת ברירת מחדל.",
         },
-        "edit_dialog": {
-          "title": "ניהול ברמת הלקוח",
-          "currency_input": "מַטְבֵּעַ",
-          "currency_input_message": "סך כל הרכישות מחושבים במטבע זה.",
-          "free_shipping_input": "משלוח חינם",
-          "monthly_input": "תעריף רכישה חודשי",
-          "annually_input": "שיעור רכישה שנתי",
-          "discount_percent_input": "שיעור הנחה לחברי מועדון",
-          "discount_limit_input": "מגבלת הנחה",
-          "description_input": "תיאור",
-          "description_input_message": "הזן תיאור קצר של רמה זו."
+        name_tab: {
+          title: "שם ייחודי לחנות",
+          subtitle: "זה שם המשתמש של העסק שלך.",
         },
-        "notifications": {
-          "update_success": "חלו שינויים במועדון הלקוחות."
-        }
-      },
-      "faq": {
-        "title": "שאלות נפוצות",
-        "sub_title": "הוסף, ערוך וענה על שאלות הלקוחות שלך."
-      }
-    },
-    "marketing": {
-      "menu": {
-        "campaigns": "מסעות פרסום",
-        "cross_selling": "מכירה צולבת",
-        "affiliate": "שותף",
-        "emails": "אימיילים",
-        "funnel": "מַשׁפֵּך"
-      },
-      "campaign": {
-        "name_input_placeholder": "שם מסע הפרסום",
-        "name_input_message": "הזן את כותרת הקמפיין שלך.",
-        "create_campaign_action": "צור קמפיין חדש",
-        "table": {
-          "title": "כותרת",
-          "state": "סטָטוּס",
-          "discount": "הנחה",
-          "landing": "דף נחיתה",
-          "start": "הַתחָלָה",
-          "end": "סוֹף"
+
+        description_tab: {
+          title: "הסיפור העסקי שלך",
+          subtitle:
+            "כתוב על העסק שלך והצעת הערך הייחודית שלו.",
         },
-        "notifications": {
-          "add_success_title": "צור קמפיין",
-          "add_success": "הקמפיין שלך נוצר."
+        contact_tab: {
+          title: "יצירת קשר ועסק מקומי",
+          subtitle:
+            "פרטי קשר לציבור והגדרת העסק המקומי של Google.",
         },
-        "name_input_name": "שם מסע הפרסום"
-      }
-    },
-    "categories": {
-      "title": "רשימת קטגוריות",
-      "subtitle": "קטגוריות הן המאפיין המרכזי של החנות המקוונת שלך. אנו ממליצים לך להשתמש בכלי הסיווג החזקים האלה כדי לבנות חלון ראווה מודרני ולהקל על הלקוחות שלך למצוא מוצרים נכונים.",
-      "menu": {
-        "add_new": "הוסף קטגוריה חדשה",
-        "categories_list": "רשימת קטגוריות",
-        "export": "ייצוא קטגוריות",
-        "import": "ייבוא קטגוריות (CSV)"
-      },
-      "graph": {
-        "title": "היררכיה של קטגוריות",
-        "subtitle": "תוכל לקבל סקירה מלאה של קטגוריות החנות שלך וכיצד המשתמשים מנווטים בהן. עם סידור נכון של קטגוריות, הלקוחות שלך יכולים למצוא מוצרים במהירות ויחס ההמרה יעלה.",
-        "visits_count": "לְבַקֵר",
-        "normal": "פָּשׁוּט",
-        "items_count": "מספר פריטים",
-        "home": "בית"
-      },
-      "category_widget": {
-        "parent": "הוֹרֶה",
-        "not_exist": "לא קיים",
-        "children": "קטגוריות משנה",
-        "delete_alert": {
-          "title": "הסר קטגוריית ילדים",
-          "message": "האם ברצונך להסיר את {title} מרשימת {parent_title}?",
-          "action": "לִמְחוֹק"
+        image_tab: {
+          title: "סֵמֶל",
+          subtitle: "בחר לוגו ייחודי למותג שלך.",
         },
-        "notifications": {
-          "edit_success": "הקטגוריה נערך."
-        }
-      }
-    },
-    "apps": {
-      "menu": {
-        "app_store": "חנות",
-        "my_apps": "אפליקציות"
-      },
-      "my_apps": {
-        "title": "אחסן אפליקציות פעילות",
-        "subtitle": "נהל את היישומים העסקיים שלך.",
-        "all": "את כל"
-      },
-      "store": {
-        "title": "חנות אפליקציות",
-        "subtitle": "חבר את השירותים המועדפים עליך לעסק שלך בצורה מאובטחת. אנו מוסיפים תוספים ואפליקציות על סמך בקשות הלקוחות שלנו.",
-        "nodata": "לא נמצא תוסף.",
-        "all": "את כל",
-        "more": "יותר"
-      }
-    },
-    "pages": {
-      "menu": {
-        "new_page": "עמוד חדש",
-        "contact_us": "צור קשר",
-        "privacy": "פְּרָטִיוּת",
-        "terms": "תנאים",
-        "about_us": "עלינו",
-        "landings": "נְחִיתָה",
-        "popup": "קופץ",
-        "static": "סטָטִי"
-      }
-    },
-    "permissions": {
-      "menu": {
-        "persons": "צוות",
-        "roles": "תפקידים",
-        "api": "API"
-      },
-      "shop_permissions": {
-        "menu": {
-          "users": "רשימת כוח אדם",
-          "new_user": "הוסף צוות חדש",
-          "new_user_message": "משתמשים שתהיה להם גישה ללוח המחוונים ולחלקי הניהול של חנות זו.",
-          "email_input_placeholder": "אימייל",
-          "email_input": "כתובת אימייל של משתמש",
-          "level_input": "רמת גישה",
-          "add_user_action": "הוסף צוות"
+        favicon: {
+          title: "פאביקון",
+          subtitle:
+            "פאויקונס ארא סמאלל, יקוניק תמונות טהאט ראפראסאנט a ואבסיטא ינ ברווסאר טאבס, בווקמארקס, אנד מובילא אפפ ינטארפאקאס.",
         },
-        "delete_alert": {
-          "title": "הסר גישה",
-          "message": "האם אתה רוצה למחוק משתמש זה?",
-          "action": "לִמְחוֹק"
+      },
+
+      /** {@see ShopEditMenuFooter} **/
+      badge: {
+        external_title: "ניהול תגים חיצוניים",
+        external_message:
+          "כאן תוכלו להזין את הכתובת של תמונת התג ואת הקישור אליה. כתובות האתרים חייבות להיות מאתר מאושר.",
+      },
+      /** {@see BPageShopSettingMenus} **/
+      edit_menu: {
+        title: "תפריטים",
+
+        footer: {
+          title: "תפריט תחתון",
+          sub_title:
+            "אתה יכול להגדיר את התפריט התחתון של דף החנות שלך כאן. תפריטים אלו יכולים להיות דפי בית, דפים מעוצבים או קישורים חיצוניים.",
         },
-        "notifications": {
-          "add_success_title": "הוסף גישה",
-          "add_success": "נוספה גישה חדשה.",
-          "delete_success_title": "מחק גישה",
-          "delete_success": "הגישה נמחקה."
-        }
-      },
-      "shop_api": {
-        "title": "חנות מפתחות גישה",
-        "message": "מפתחות אלו משמשים ליצירת Access Token על ידי השרת שלך. שימו לב שהמפתחות חסויים ורק בשרת באופן שאינו גלוי לאחרים."
-      }
-    },
-    "applications": {
-      "pwa": {
-        "title": "אפליקציית אינטרנט",
-        "sub_title": "הצג את אפליקציית האינטרנט של החנות שלך כאן",
-        "message": "הערה: אתה יכול לערוך את דף הפתיחה של האתר שלך באייפון ובאייפד באפליקציית iOS",
-        "ios_app": "אפליקציית iOS"
-      },
-      "ios": {
-        "title": "אפליקציית iOS",
-        "sub_title": "בקרוב תוכל לבנות אפליקציית iOS עבור החנות שלך.",
-        "message": "גודל קובץ מקסימלי: 512 KB, ניתן להעלות קבצים בגודל של עד 1MB, בתנאי שמערכת הדחיסה שלנו מסוגלת להקטין את הגודל ל-512KB. התמונה שהועלתה תשתנה בצורה חכמה."
-      },
-      "android": {
-        "title": "אפליקציית אנדרואיד",
-        "sub_title": "בנה אפליקציית אנדרואיד משלך",
-        "message": "מלא טופס זה והקש על מקש הבנייה. לא יהיה צורך בשום דבר אחר. כל השלבים בתהליך הבנייה והחתימה של האפליקציה שלך מבוצעים בשרתי הענן. האפליקציה הסופית תועלה לכל AppStores.",
-        "server_un_available": "באופן ניסיוני, שרת היישומים אינו מחובר בשלב זה.",
-        "app_building_progress": "האפליקציה שלך נבנית.",
-        "app_build_success": "האפליקציה שלך מוכנה.",
-        "download_app_action": "הורד את האפליקציה",
-        "firmware_version": "גרסת קושחה",
-        "main_info": "חבילת יישומים",
-        "package_name_input_message": "ודא ששם החבילה הוא ייחודי.",
-        "package_name_input_alert": "אם תשנה את השם הזה, לא תוכל עוד לעדכן את האפליקציות הקודמות שלך ב-AppStore ולהתקין אחת חדשה. שימו לב שגם משתמשי אפליקציה בגרסאות ישנות לא יוכלו להיכנס לחשבונות שלהם.",
-        "version_input": "גִרְסָה",
-        "version_input_message": "מספר זה חייב להיות תמיד גדול מהערך הקודם שלו.",
-        "version_name_input": "שם הגרסה",
-        "version_name_input_message": "הזן שם ייחודי עבור גרסה זו של האפליקציה.",
-        "use_selldone_key": "מקשי ברירת מחדל נמכרים",
-        "use_last_key": "מפתח שמור",
-        "use_new_key": "מפתח חדש",
-        "appearance": "מראה חיצוני",
-        "app_name_input": "שם האפליקציה",
-        "app_name_input_message": "זה יהיה השם הראשי של האפליקציה שלך.",
-        "app_title_input": "כותרת האפליקציה",
-        "app_title_input_message": "כותרת זו מופיעה בחלק העליון של האפליקציה.",
-        "app_title_input_placeholder": "הזן כותרת",
-        "app_icon_input": "סמל אפליקציה",
-        "app_icon_input_placeholder": "בחר את קובץ ה-zip של סמלי האפליקציה.",
-        "generate_icon_pack_action": "בניית חבילת אייקונים",
-        "splash_design": "עיצוב מסך Splash",
-        "splash_logo_input": "לוגו מסך הפתיחה",
-        "splash_logo_input_placeholder": "בחר תמונה עבור מסך הפתיחה.",
-        "splash_title_input": "כותרת מסך הפתיחה",
-        "splash_title_input_placeholder": "הזן כותרת ל-Splash Screen",
-        "splash_title_input_message": "כותרת זו תוצג בגודל גופן גדול.",
-        "splash_message_input": "הודעת Splash Screen",
-        "splash_message_input_placeholder": "הודעה...",
-        "splash_message_input_message": "הודעה זו תוצג כתמונה ממוזערת למטה.",
-        "dark_theme": "ערכת נושא כהה",
-        "light_theme": "נושא קל",
-        "build": "לִבנוֹת",
-        "building_info": "בניית אפליקציה בשרת ענן אורכת 10 שניות עד מספר דקות. אנא התאזר בסבלנות. קישור הקובץ להורדה יופיע כאן ברגע שהאפליקציה תהיה מוכנה.",
-        "update_mode_action": "עדכון",
-        "build_mode_action": "בניית אפליקציה",
-        "notifications": {
-          "icon_pack_not_valid_error": "הקובץ לא תקין.",
-          "start_building_title": "בניין...",
-          "start_building_message": "הוגשה בקשה לבניית אפליקציית אנדרואיד.",
-          "build_success_title": "מזל טוב",
-          "build_success": "אפליקציית Android שלך מוכנה, ותוכל להוריד אותה כעת."
-        }
-      }
-    },
-    "automation": {
-      "menu": {
-        "autopilot": "טייס אוטומטי"
-      }
-    },
-    "edit": {
-      "menu": {
-        "delete": "מחק את החנות",
-        "activity_time": "זְמַן",
-        "footer": "תַפרִיט",
-        "info": "מידע",
-        "notification": "התראות",
-        "home": "בית",
-        "locations": "מיקומים",
-        "license": "רישיון",
-        "theme": "נושא",
-        "sms": "סמס",
-        "email": "אימייל",
-        "domain": "תְחוּם",
-        "verifications": "אימותים",
-        "flow": "זְרִימָה",
-        "business_model": "מודל עסקי"
-      },
-      "delete_dialog": {
-        "title": "מחק את החנות",
-        "message": "האם ברצונך למחוק את חנות <b>{title}</b> ?",
-        "action": "מחק את החנות"
-      },
-      "notifications": {
-        "delete_success": "החנות נמחקה."
-      },
-      "info": {
-        "title_tab": {
-          "title": "שם העסק ושפה",
-          "subtitle": "הגדר שם ציבורי ושפת ברירת מחדל."
+
+        header: {
+          title: "תפריט כותרת",
+          sub_title:
+            "תפריט זה מוצג רק במסכים גדולים יותר מהנייד, ובראש עמוד הבית, קטגוריות מוצרים, נחיתות ודפי מוצרים.",
         },
-        "name_tab": {
-          "title": "שם ייחודי לחנות",
-          "subtitle": "זה שם המשתמש של העסק שלך."
+
+        save_menu: "תפריט שמור",
+        dialog: {
+          main_pages: "דפים ראשיים",
+          custom_pages: "דפי נחיתה",
         },
-        "description_tab": {
-          "title": "הסיפור העסקי שלך",
-          "subtitle": "כתוב על העסק שלך והצעת הערך הייחודית שלו."
+        table: {
+          home: "בית",
+          shop: "לִקְנוֹת",
+          blogs: "בלוג",
+          about_us: "עלינו",
+          privacy: "פְּרָטִיוּת",
+          terms: "תנאי שימוש",
+          faq: "FAQ",
+          contact_us: "צור קשר",
         },
-        "contact_tab": {
-          "title": "יצירת קשר ועסק מקומי",
-          "subtitle": "פרטי קשר לציבור והגדרת העסק המקומי של Google."
+        notifications: {
+          save_success: "התפריט עודכן בהצלחה.",
         },
-        "image_tab": {
-          "title": "סֵמֶל",
-          "subtitle": "בחר לוגו ייחודי למותג שלך."
-        }
       },
-      "badge": {
-        "external_title": "ניהול תגים חיצוניים",
-        "external_message": "כאן תוכלו להזין את הכתובת של תמונת התג ואת הקישור אליה. כתובות האתרים חייבות להיות מאתר מאושר."
+
+      /** {@see ShopSocialField} **/
+      social: {
+        title: "מדיה חברתית",
+        message:
+          "הזן את הקישור הרשמי של המדיה החברתית שלך בחלק זה. עקוב אחר ההוראות עבור כל פריט כדי לאשר את הכתובות.",
       },
-      "edit_menu": {
-        "title": "תפריטים",
-        "footer": {
-          "title": "תפריט תחתון",
-          "sub_title": "אתה יכול להגדיר את התפריט התחתון של דף החנות שלך כאן. תפריטים אלו יכולים להיות דפי בית, דפים מעוצבים או קישורים חיצוניים."
+
+      /** {@see BShopSettingWorkingDays} **/
+      time: {
+        title: "ימי עבודה",
+        sub_title: "קבע ימי עבודה ושעה",
+        days_open_input: "ימים",
+        days_open_input_nodata: "בחר יום אחד לפחות",
+        start_time_input: "שעת תחילת פעילות החנות",
+        start_time_input_hint: "שעות פתיחה של החנות",
+        end_time_input: "זמן סגירת חנות",
+        end_time_input_hint: "שעת סיום פעילות החנות",
+        customer_support_service: "אחריות ושירות לקוחות",
+        response_time_input: "סטטוס שירות לקוחות",
+        support_24h: "24 שעות 7 ימים בשבוע",
+        support_normal: "רק בשעות העבודה",
+        no_service: "לא",
+        notifications: {
+          update_success: "החנות נערך.",
         },
-        "header": {
-          "title": "תפריט כותרת",
-          "sub_title": "תפריט זה מוצג רק במסכים גדולים יותר מהנייד, ובראש עמוד הבית, קטגוריות מוצרים, נחיתות ודפי מוצרים."
-        },
-        "save_menu": "תפריט שמור",
-        "dialog": {
-          "main_pages": "דפים ראשיים",
-          "custom_pages": "דפי נחיתה"
-        },
-        "table": {
-          "home": "בית",
-          "shop": "לִקְנוֹת",
-          "blogs": "בלוג",
-          "about_us": "עלינו",
-          "privacy": "פְּרָטִיוּת",
-          "terms": "תנאי שימוש",
-          "faq": "FAQ",
-          "contact_us": "צור קשר"
-        },
-        "notifications": {
-          "save_success": "התפריט עודכן בהצלחה."
-        }
       },
-      "social": {
-        "title": "מדיה חברתית",
-        "message": "הזן את הקישור הרשמי של המדיה החברתית שלך בחלק זה. עקוב אחר ההוראות עבור כל פריט כדי לאשר את הכתובות."
-      },
-      "time": {
-        "title": "ימי עבודה",
-        "sub_title": "קבע ימי עבודה ושעה",
-        "days_open_input": "ימים",
-        "days_open_input_nodata": "בחר יום אחד לפחות",
-        "start_time_input": "שעת תחילת פעילות החנות",
-        "start_time_input_hint": "שעות פתיחה של החנות",
-        "end_time_input": "זמן סגירת חנות",
-        "end_time_input_hint": "שעת סיום פעילות החנות",
-        "customer_support_service": "אחריות ושירות לקוחות",
-        "response_time_input": "סטטוס שירות לקוחות",
-        "support_24h": "24 שעות 7 ימים בשבוע",
-        "support_normal": "רק בשעות העבודה",
-        "no_service": "לא",
-        "notifications": {
-          "update_success": "החנות נערך."
-        }
-      }
-    }
+    }, // End of edit
+  }, // End of admin_shop
+
+  /** {@see BCategoryInput} **/
+  category_select: {
+    category_input_no_category: "אין קטגוריה",
   },
-  "category_select": {
-    "category_input_no_category": "אין קטגוריה"
-  },
-  "add_product": {
-    "title_new": "מוצר חדש",
-    "title_new_category": "קטגוריה חדשה",
-    "title_new_drop_shipping": "הוסף דרופשיפינג",
-    "title_edit": "ערוך מוצר",
-    "delete": "מחק מוצר",
-    "completed": "הושלם",
-    "menu": {
-      "type": "סוג המוצר",
-      "general_info": "מידע כללי",
-      "rating": "סקר ותכונות",
-      "spec": "מפרטים",
-      "images": "תמונות",
-      "price": "מחיר",
-      "inputs": "קֶלֶט",
-      "outputs": "תְפוּקָה",
-      "extra": "פרטים נוספים",
-      "review": "ביקורת מוצר",
-      "inventory": "מלאי / וריאציות",
-      "change_status": "לשנות סטטוס"
+
+  /** {@see BProductAddFull} **/
+  add_product: {
+    title_new: "מוצר חדש",
+    title_new_category: "קטגוריה חדשה",
+    title_new_drop_shipping: "הוסף דרופשיפינג",
+
+    title_edit: "ערוך מוצר",
+    delete: "מחק מוצר",
+    completed: "הושלם",
+
+    menu: {
+      type: "סוג המוצר",
+      general_info: "מידע כללי",
+      rating: "סקר ותכונות",
+      spec: "מפרטים",
+      images: "תמונות",
+      price: "מחיר",
+      inputs: "קֶלֶט",
+      outputs: "תְפוּקָה",
+      extra: "פרטים נוספים",
+      review: "ביקורת מוצר",
+      inventory: "מלאי / וריאציות",
+      change_status: "לשנות סטטוס",
     },
-    "select_type": {
-      "title": "בחר את סוג המוצר או השירות שלך"
+    menu_extra: {
+      description: "תיאור",
+      form: "טופס",
+      no_spec: "ללא מפרט",
+      has_spec: "עם מפרט",
     },
-    "edit_info": {
-      "category_input": "קטגוריה",
-      "product_name": "שם מוצר*",
-      "product_name_placeholder": "שם המוצר שלך כאן..",
-      "product_code": "קוד מוצר (אנגלית)",
-      "sku": "SKU",
-      "sku_message": "יחידת אחזקת מלאי",
-      "mpn": "MPN",
-      "mpn_message": "מק\"ט יצרן",
-      "status": "סטָטוּס",
-      "external_link": "קישור חיצוני",
-      "brand": "מותג",
-      "brand_placeholder": "מותג אקס. אפל.. (אופציונלי)",
-      "warranty": "אַחֲרָיוּת",
-      "is_original": "האם זה מוצר מקורי?",
-      "is_original_message": "אם לא תגדיר את המוצר המקורי שלך, התג המזויף יוצג עבור המוצר הזה.",
-      "return_warranty": "לכמה ימים יש למוצר זה אחריות להחזרה?",
-      "warehouse_section": "מחסן וייצור",
-      "conditions_section": "תנאי המוצר",
-      "warranty_section": "אחריות ומשלוח",
-      "unit": "יחידת מוצר",
-      "unit_message": "הכנס ליחידה במידת הצורך. לדוגמה: KG, מטר,...",
-      "condition": "מצב המוצר בחנות שלך",
-      "condition_message": "עליך לבחור אחד מהערכים בשדה זה.",
-      "unit_section": "יחידת מוצר",
-      "unit_float": "יחידה צפה (בקרוב)",
-      "unit_float_hint": "לדוגמא, הלקוח יכול להזמין 3 ק\"ג פירות, אך הכמות הנשלחת ללקוח שונה במקצת מהכמות שהוזמנה.",
-      "unit_float_message": "במהלך עיבוד ההזמנה, הסכום שנמסר עשוי להיות שונה מהסכום שהוזמן. המערכת מחשבת את ההפרש באופן אוטומטי ורושמת אותו כחוב שלך ללקוח, אותו ניתן להחיל על ההזמנות הבאות.",
-      "status_list": {
-        "active": {
-          "title": "פעיל ╏ מכירות מקוונות ואופליין",
-          "description": "מוצר זה יהיה זמין להזמנות מקוונות."
-        },
-        "inactive": {
-          "title": "לא פעיל ╏ רק מכירות לא מקוונות",
-          "description": "מוצר זה לא יהיה זמין להזמנות מקוונות."
-        }
+
+    select_type: {
+      title: "בחר את סוג המוצר או השירות שלך",
+    },
+
+    /** {@see BProductEditInfo} **/
+    edit_info: {
+      category_input: "קטגוריה",
+      category_input_msg: "ריק: ינ טהא חנות's שורש",
+      product_name: "שם מוצר*",
+      product_name_placeholder: "שם המוצר שלך כאן..",
+      product_code: "קוד מוצר (אנגלית)",
+      sku: {
+        label: "SKU",
+        message: "סטוקק קאאפינג וניט",
       },
-      "marketplace": {
-        "vendor_panel_message": "ה- <b>{vendor_name}</b> הוא הבעלים של המוצר.",
-        "subscription_message": "למוצרי מנוי יכולים להיות ספק אחד, כך שתוכל ליצור אותם בחלונית הספקים או להקצות להם ספק בשלב היצירה. הספק הנבחר יהיה הבעלים של המוצר.",
-        "default_message": "אתה יכול לציין אם מוצר זה שייך לספק אחד ולכן רק ספק אחד יכול למכור אותו, או שמוצר זה שייך ל-Marketplace ויותר מספק אחד יכול למכור אותו.",
-        "single_vendor_title": "ספק יחיד",
-        "single_vendor_desc": "מוצר זה שייך לספק, והספק הנבחר יכול לנהל אותו.",
-        "multi_vendors_title": "ספקים מרובים",
-        "multi_vendors_desc": "מוצר זה שייך לשוק וניתן לערוך אותו רק בחלונית השוק."
-      }
+      mpn: {
+        label: "MPN",
+        message: "מאנופאקטוראר פארט נומבאר",
+      },
+
+      external_link: "קישור חיצוני",
+
+      brand_placeholder: "מותג אקס. אפל.. (אופציונלי)",
+
+      is_original: "האם זה מוצר מקורי?",
+      is_original_message:
+        "אם לא תגדיר את המוצר המקורי שלך, התג המזויף יוצג עבור המוצר הזה.",
+      return_warranty:
+        "לכמה ימים יש למוצר זה אחריות להחזרה?",
+      warehouse_section: "מחסן וייצור",
+      conditions_section: "תנאי המוצר",
+      warranty_section: "אחריות ומשלוח",
+
+      unit_input: "יחידת מוצר",
+      unit_message: "הכנס ליחידה במידת הצורך. לדוגמה: KG, מטר,...",
+
+      unit_section: "יחידת מוצר",
+
+      unit_float: "יחידה צפה (בקרוב)",
+      unit_float_hint:
+        "לדוגמא, הלקוח יכול להזמין 3 ק\"ג פירות, אך הכמות הנשלחת ללקוח שונה במקצת מהכמות שהוזמנה.",
+      unit_float_message:
+        "במהלך עיבוד ההזמנה, הסכום שנמסר עשוי להיות שונה מהסכום שהוזמן. המערכת מחשבת את ההפרש באופן אוטומטי ורושמת אותו כחוב שלך ללקוח, אותו ניתן להחיל על ההזמנות הבאות.",
+
+      marketplace: {
+        // Vendor panel > Fixed mode
+        vendor_panel_message:
+          "ה- <b>{vendor_name}</b> הוא הבעלים של המוצר.",
+        // Marketplace panel > Subscription products
+        subscription_message:
+          "למוצרי מנוי יכולים להיות ספק אחד, כך שתוכל ליצור אותם בחלונית הספקים או להקצות להם ספק בשלב היצירה. הספק הנבחר יהיה הבעלים של המוצר.",
+        default_message:
+          "אתה יכול לציין אם מוצר זה שייך לספק אחד ולכן רק ספק אחד יכול למכור אותו, או שמוצר זה שייך ל-Marketplace ויותר מספק אחד יכול למכור אותו.",
+
+        single_vendor_title: "ספק יחיד",
+        single_vendor_desc:
+          "מוצר זה שייך לספק, והספק הנבחר יכול לנהל אותו.",
+
+        multi_vendors_title: "ספקים מרובים",
+        multi_vendors_desc:
+          "מוצר זה שייך לשוק וניתן לערוך אותו רק בחלונית השוק.",
+      },
+
+      category: {
+        subtitle:
+          "קונפיגורא טהא קטגוריה אנד כותרת טו בא דיספלאיאד ינ יוור רשימה.",
+      },
+      unit: {
+        subtitle:
+          "יוו קאנ פארסונאליזא טהא דיספלאי ופ תמחור אנד קאלל-טו-אקטיונ אלאמאנטס ונ טהא מוצר דף.",
+      },
+      custom_pricing: {
+        title: "טופס תמחור מותאם",
+        subtitle:
+          "יוו קאנ צור ור אססיגנ a ואלואטיונ (a תמחור קלט טופס) טו טהא מוצר, אנד יוור לקוחות קאנ בחר באטואאנ וריאציות ור קוסטומיזא יוור מארקהאנדיסא בי אנ ינטויטיוא קלט טופס.",
+        valuation_need_saved_product_message:
+          "פלאאסא שמור טהא מוצר ראשון, אנד טהאנ יוו קאנ אססיגנ a ואלואטיונ מודאל.",
+        assign_valuation_message:
+          "פלאאסא אססיגנ a ואלואטיונ מודאל טו טהיס מוצר.",
+        edit_pricing_action: "עריכת טופס תמחור",
+        add_pricing_action: "צור טופס תמחור חדש",
+      },
+      action: {
+        title: "כפתור קנייה מותאם",
+        message:
+          "יוו קאנ קהאנגא יקונ בי פוללווינג טהיס פאטטארנ : {icon name} כיתוב...",
+        placeholder: "אנטאר קאלל טו פעולה...",
+        multi_language_dialog_title: "כפתור קנייה מותאם כיתוב",
+      },
+      external: {
+        not_available_message:
+          "נוסף פעולה זמין ויטה קומפאני & אנטארפריסא ליקאנסאס.",
+        available_message: "יוו קאנ הוסף אנ נוסף אקסטארנאל קאלל טו פעולה.",
+        input_label: "קריאה נוספת לפעולה",
+      },
+      warehouse: {
+        subtitle:
+          "טהיס מידע יס וטיליזאד בי טהא מחסן ניהול סיסטאמ אנד סארואס טו גלובאללי ידאנטיפי טהא מוצר.",
+      },
+      gtin: {
+        hint: "תמיכה ואלואס ארא UPC (נורטה אמאריקא, 12 דיגיטס), EAN (אורופא, 13 דיגיטס), JAN (גאפאנ, 8 ור 13 דיגיטס), ISBN (בווקס, 13 דיגיטס).",
+        label: "מוצר's גלובאל טראדא יטאמ נומבאר",
+        placeholder: "גלובאל טראדא נומבאר הארא.. (ופטיונאל)",
+      },
+      hsn: {
+        hint: "HSN, ור הארמוניזאד סיסטאמ ופ נומאנקלאטורא, יס אנ ינטארנאטיונאללי סטאנדארדיזאד קלאססיפיקאטיונ סיסטאמ פור קאטאגוריזינג גוודס אנד מוצרים.",
+        placeholder: "6~16 דיגיטס HSN קוד.. (ופטיונאל)",
+        label: "HSN",
+      },
+      condition: {
+        label: "מוצר מצב ינ יוור חנות",
+        message: "פלאאסא בחר טהא מצב ופ טהיס מוצר.",
+        subtitle:
+          "ינפורמ יוור לקוחות אבווט טהא מצב אנד מותג ופ טהא מוצר יוו'רא הצעה.",
+      },
+      brand: {
+        label: "מותג",
+        placeholder: "מותג אקס. אפל.. (אופציונלי)",
+      },
+      warranty: {
+        subtitle:
+          "סאט טהא אחריות אנד מוצר סטטוס, אס טהיס מידע ראגארדינג אחריות וילל בא דיספלאיאד טו טהא לקוח אנד עזרה אסטאבליסה טהא זמן פראמא ויטהינ והיקה מוצרים קאנ בא החזרה אפטאר רכישה.",
+
+        label: "אחריות",
+        placeholder: "גולדאנ 24 חודש אחריות.. (ופטיונאל)",
+      },
+      status: {
+        title: "סטָטוּס",
+        subtitle:
+          "טהא מוצר's סטטוס דאטארמינאס יטס אואילאביליטי ונלינא אנד ינ-סטורא. טו מאקא a מוצר דראפט, גוסט סויטקה יטס סטטוס טו 'לא פעיל'..",
+      },
+      profiles: {
+        title: "פרופילים",
+        subtitle:
+          "יוו קאנ דאפינא אחריות, החזרה פוליקי, משלוח, אנד מדריך אנד אססיגנ טהאמ טו טהיס מוצר. יט וילל בא סהוונ אס חדש טאבס ונ טהא מוצר דף.",
+      },
+      shortcuts: {
+        title: "אססיגנ מוצר טו אדדיטיונאל קטגוריות",
+        subtitle:
+          "טהיס פאאטורא אללווס יוו טו רשימה טהא מוצר ינ מולטיפלא קטגוריות והילא ראטאינינג יטס פלאקאמאנט ינ טהא ראשי קטגוריה סאט ונדאר מוצר > ערוך > קטגוריה. אססאנטיאללי, יט פונקטיונס סימילארלי טו קראאטינג 'סהורטקוטס' ינ ופאראטינג סיסטאמס, אנאבלינג טהא מוצר טו אפפאאר ינ אדדיטיונאל ספאקיפיאד קטגוריות.",
+      },
     },
-    "rating_pros_cons": {
-      "title": "סֶקֶר",
-      "message": "הזן רשימה של מפרטי מוצר עבור הלקוחות שלך כדי לדרג את המוצר שלך. (עד 5 פריטים)",
-      "rating_input": "סקרים",
-      "rating_input_message": "ניתן להוסיף 5 פריטים לסקר.",
-      "item_unit": "פריט",
-      "pros_title": "יתרונות",
-      "pros_message": "הזן תכונות של המוצר. (עד 5 פריטים)",
-      "pros_input_title": "כותרת תכונה",
-      "pros_input_value": "ערך תכונה",
-      "pros_group": "היתרונות של המוצר",
-      "pros_group_messages": "התכונות העיקריות של המוצר",
-      "cons_title": "חסרונות",
-      "cons_message": "הזן את נקודות התורפה של המוצר. (עד 5 פריטים)",
-      "cons_input_title": "כותרת חולשה",
-      "cons_input_value": "ערך חולשה",
-      "cons_group": "חולשות של המוצר",
-      "cons_group_messages": "החולשות העיקריות של המוצר",
-      "select_from_list": "בחר מהרשימה",
-      "suggestion_rating": [
+
+    /** {@see BProductEditFeatures} **/
+    rating_pros_cons: {
+      title: "סֶקֶר",
+      message:
+        "הזן רשימה של מפרטי מוצר עבור הלקוחות שלך כדי לדרג את המוצר שלך. (עד 5 פריטים)",
+      rating_input: "סקרים",
+      rating_input_message: "ניתן להוסיף 5 פריטים לסקר.",
+      rating_input_placeholder:
+        "כתוב כאן את שאלת הסקר המותאמת אישית שלך... והקש אנטר!",
+
+      item_unit: "פריט",
+
+      pros_title: "יתרונות",
+      pros_message: "הזן תכונות של המוצר. (עד 5 פריטים)",
+      pros_input_title: "כותרת תכונה",
+      pros_input_value: "ערך תכונה",
+      pros_group: "היתרונות של המוצר",
+
+      cons_title: "חסרונות",
+      cons_message: "הזן את נקודות התורפה של המוצר. (עד 5 פריטים)",
+      cons_input_title: "כותרת חולשה",
+      cons_input_value: "ערך חולשה",
+      cons_group: "חולשות של המוצר",
+
+      select_from_list: "בחר מהרשימה",
+
+      suggestion_rating: [
         "איכות טובה",
         "ערך טוב",
         "ימליץ",
@@ -1150,1214 +1616,2399 @@ export default {
         "זמינות של חלקי חילוף/אביזרים",
         "מותג אמין",
         "בטוח לשימוש",
-        "שירות מהיר ומדויק"
+        "שירות מהיר ומדויק",
       ],
-      "notifications": {
-        "add_rating_success": "אפשרות דירוג משתמש {rating_name} נוספה.",
-        "delete_rating_success": "אפשרות דירוג המשתמש {rating_name} נמחקה.",
-        "add_pros_success": "נוספה תכונת מוצר.",
-        "delete_pros_success": "תכונת המוצר הוסרה.",
-        "add_cons_success": "נוספה חולשת המוצר.",
-        "delete_cons_success": "חולשת המוצר הוסרה."
+
+      notifications: {
+        add_rating_success: "אפשרות דירוג משתמש {rating_name} נוספה.",
+        delete_rating_success: "אפשרות דירוג המשתמש {rating_name} נמחקה.",
+
+        add_pros_success: "נוספה תכונת מוצר.",
+        delete_pros_success: "תכונת המוצר הוסרה.",
+
+        add_cons_success: "נוספה חולשת המוצר.",
+        delete_cons_success: "חולשת המוצר הוסרה.",
       },
-      "rating_input_placeholder": "כתוב כאן את שאלת הסקר המותאמת אישית שלך... והקש אנטר!"
     },
-    "edit_spec": {
-      "title": "מפרט טכני",
-      "sub_title": "אתה יכול לייבא חתכים טכניים של מוצרים דומים.",
-      "import_action": "יְבוּא",
-      "group_input_header": "הוסף קבוצה",
-      "item_title_header": "הוסף פריט",
-      "group_input": "כותרת קבוצה",
-      "group_input_message": "הזן את הכותרת.",
-      "group_add_action": "הוסף קבוצה",
-      "item_title_input": "כותרת",
-      "item_title_input_message": "הזן את כותרת התכונה.",
-      "item_value_input": "ערך",
-      "item_value_input_message": "הזן את ערך התכונה.",
-      "add_item_action": "הוסף פריט",
-      "dialog": {
-        "title": "הזן מפרט טכני",
-        "code_input": "מזהה מוצר",
-        "code_input_message": "קוד מוצר: P0000 ...",
-        "spec_view_title": "מפרטים של המוצר הנבחר",
-        "set_spec_action": "שכפול מפרט טכני"
+
+    /** {@see BProductEditSpec} **/
+    edit_spec: {
+      title: "מפרט טכני",
+      subtitle:
+        "ינסארט מוצר מפרטים הארא. טהיס מידע וילל בא דיספלאיאד טו לקוחות אנד קאנ אלסו בא וטיליזאד ינ טהא קטגוריה's ינטאלליגאנט מסנן סיסטאמ.",
+      manual: {
+        title: "ידנית",
+        subtitle:
+          "הוסף מוצר מפרטים ידנית בי דאפינינג גרוופס אנד קאי-ואלואס פאיר.",
+        add_group_action: "הוסף קבוצה",
+        add_item_action: "הוסף ספאק ואלוא",
       },
-      "notifications": {
-        "enter_group_title_error": "הזן ערך כותרת",
-        "enter_item_title_and_value_error": "הזן את הכותרת והערך של התכונה",
-        "spec_saved_success": "מפרט המוצר נשמר."
-      }
-    },
-    "edit_images": {
-      "title": "תמונה ראשית",
-      "main_image_input_nodata": "העלה תמונת מוצר.",
-      "main_image_input_message": "תמונה זו מוצגת ברשימת המוצרים.",
-      "preview": "תצוגה מקדימה",
-      "image_style": "סגנון תמונה",
-      "background_is_white": "רקע לבן",
-      "background_is_white_msg": "האם לתמונה יש רקע לבן??",
-      "images": {
-        "title": "גלריית תמונות מוצרים",
-        "sub_title": "העלה תמונות מוצר, המשותפות לכל גרסאות המוצר, בחלק זה."
+      import: {
+        subtitle:
+          "יוו קאנ ייבוא טאקהניקאל מפרטים ופ סימילאר מוצרים.",
+        action_title: "ייבוא",
+        action_subtitle: "קלונא ספאק פרומ אנוטהאר מוצר.",
       },
-      "video": {
-        "title": "וִידֵאוֹ",
-        "sub_title": "ראשית, העלה את סרטון המוצר שלך ל-YouTube, ולאחר מכן שים את כתובת האתר של הסרטון כאן."
-      }
-    },
-    "pricing": {
-      "edit_price": "תמחור",
-      "price_input": "מחיר",
-      "currency_input": "מַטְבֵּעַ",
-      "currency_input_messages": "המחיר מחושב במטבע זה.",
-      "commission_input": "עמלה",
-      "commission_message": "אפשרות זו שימושית רק עבור סוגים מסוימים של סוחרים כמו סיטונאים. אם אינך סיטונאי, השאר אפשרות זו ריקה. המחיר שהקונים רואים הוא סכום המחיר והעמלה. להוספת מס לחץ על הנהלת חשבונות > מס.",
-      "add_commission_action": "הוסף עמלה",
-      "discount_input": "הנחה",
-      "discount_input_message": "אחוז הנחה",
-      "has_discount_period_input": "האם הנחה זו תקפה לזמן מסוים?",
-      "discount_timespan": "הזן את תקופת ההנחה.",
-      "start_input": "הַתחָלָה",
-      "end_input": "סוֹף",
-      "start_input_placeholder": "בחר את שעת ההתחלה",
-      "end_input_placeholder": "בחר את שעת הסיום",
-      "independent_price": "המחיר רק עבור גרסה זו",
-      "same_price": "המחיר למוצר העיקרי",
-      "variant_pricing_message": "על ידי בחירה באפשרות זו, ניתן להגדיר את המחיר של גרסה זו ללא תלות במוצר הראשי.",
-      "price_label_input": "תג מחיר",
-      "price_label_message": "הוסף מידע נוסף על המחיר כמו ($1.5/Fl Oz). מקרי שימוש: מכולת, FMCG.",
-      "add_price_label_action": "הוסף תווית מחיר"
-    },
-    "inputs_edit": {
-      "title": "טופס הזנה של פרטי קונה",
-      "sub_title": "אתה יכול ליצור טופס הזנת נתונים עבור כל מוצר, כך שהקונים ישלחו לך מידע בעת רכישת מוצר. לדוגמה, מידע זה יכול להיות שם לחריטה על אבן.",
-      "message_input": "הודעה למשתמש",
-      "message_input_message": "הודעה זו תוצג ללקוח בעת רכישת מוצרים.",
-      "inputs_form": "מבנה מידע (קלט)"
-    },
-    "extra_edit": {
-      "physical": {
-        "title": "פרטי משלוח",
-        "sub_title": "עלות וזמן ההכנה מחושבים על סמך המידע בסעיף זה. הקפידו להזין את המידע בהתאם ליחידות הנבחרות בחנות (משקל, מידות, מרחק)."
+      ai: {
+        title: "אי",
+        subtitle:
+          "יוו קאנ אוטומאטיקאללי צור מוצר מפרטים בי סובמיטטינג טהא מוצר's ראו נתונים ינ טאקסטואל טופס.",
+        action_title: "אוטומטי צור בי אי",
+        action_subtitle: "צור מוצר מפרטים בי אבסטראקט פרומפט.",
       },
-      "notifications": {
-        "save_title": "האריזה עודכנה",
-        "save_msg": "מידע אריזת המוצר עודכן בהצלחה."
-      }
-    },
-    "variants": {
-      "not_available": "כרגע לא ניתן לבחור גרסה עבור סוג זה של מוצר."
-    },
-    "delete_product": {
-      "title": "הסר את המוצר",
-      "message": "האם ברצונך למחוק את <b>{product_title}</b> ?"
-    }
-  },
-  "product_admin": {
-    "products_list": "רשימת מוצרים",
-    "product": "מוצר",
-    "menu": {
-      "edit": "לַעֲרוֹך",
-      "review": "סקירה",
-      "orders": "הזמנות",
-      "inventory": "מְלַאי",
-      "dashboard": "לוּחַ מַחווָנִים",
-      "back_to_products": "מוצרים",
-      "drop_shipping": "דרופשיפינג"
-    },
-    "dashboard": {
-      "info": {
-        "title": "פּרוֹפִיל",
-        "title_small": "מוצר",
-        "category": "קטגוריית מוצר",
-        "link": "קישור למוצר",
-        "type": "סוּג",
-        "inputs": "קלט מידע",
-        "outputs": "מידע פלט",
-        "user_data_form": "טופס מידע לקונה"
+
+      group_input_header: "הוסף קבוצה",
+      item_title_header: "הוסף פריט",
+      group_input: "כותרת קבוצה",
+      group_input_message: "הזן את הכותרת.",
+      group_add_action: "הוסף קבוצה",
+
+      item_title_input: "כותרת",
+      item_title_input_message: "הזן את כותרת התכונה.",
+
+      item_value_input: "ערך",
+      item_value_input_message: "הזן את ערך התכונה.",
+
+      add_item_action: "הוסף פריט",
+
+      dialog: {
+        title: "הזן מפרט טכני",
+        code_input: "מזהה מוצר",
+        code_input_message: "קוד מוצר: P0000 ...",
+        spec_view_title: "מפרטים של המוצר הנבחר",
+        spec_view_subtitle:
+          "טהא מפרטים האוא באאנ ייבוא פרומ טהא קהוסאנ מוצר.",
+        set_spec_action: "שכפול מפרט טכני",
       },
-      "orders": {
-        "title": "הזמנות",
-        "title_small": "לא מעובד",
-        "physical_orders_title": "עגלות קניות עם מוצר זה",
-        "send_30days_title": "הזמנות שנשלחו ב-30 הימים האחרונים",
-        "downloads_30days_title": "מספר הקובץ שהורד ב-30 הימים האחרונים",
-        "virtual_orders_title": "הזמנות מוצר זה ממתינות להשלמה"
+      notifications: {
+        enter_group_title_error: "הזן ערך כותרת",
+        enter_item_title_and_value_error:
+          "הזן את הכותרת והערך של התכונה",
+        spec_saved_success: "מפרט המוצר נשמר.",
       },
-      "inventory": {
-        "title": "מְלַאי",
-        "title_small": "מַחסָן",
-        "total_sell": "סך המכירות",
-        "total_sell_today": "היום מכירות",
-        "total_sell_30days": "מכירות ארבעת הימים האחרונים",
-        "chart": {
-          "labels": [
-            "מְלַאי",
-            "מְכִירָה"
-          ]
+      dialog_ai: {
+        title: "אוטומאטיקאללי צור מוצר מפרטים",
+        prompt: {
+          title: "מוצר סקירה",
+          subtitle:
+            "פלאאסא פרווידא a בריאפ אנד קלאאר תיאור ופ טהא מוצר, היגהליגהטינג יטס מפתח פאאטוראס אנד פרטים. טהיס מידע וילל בא וסאד טו אוטומאטיקאללי צור טהא מוצר מפרטים.",
         },
-        "subscribers_title": "מנויים",
-        "subscribers_title_small": "סך כל ההזמנות המנויות"
-      },
-      "finance": {
-        "title": "כַּספִּי",
-        "title_small": "דוח רכישה של 6 חודשים אחרונים",
-        "select_mode_title": "Show By",
-        "modes": {
-          "sell": "מְכִירָה",
-          "payment": "תַשְׁלוּם",
-          "discount": "הנחה"
+        generated_spec: {
+          title: "אי-גאנאראטאד מפרטים",
+          subtitle:
+            "טהאסא מפרטים וארא גאנאראטאד בי ארטיפיקיאל ינטאלליגאנקא.",
         },
-        "currency_select_title": "מחיר לפי מטבע נבחר",
-        "sell_today": "היום מכירות",
-        "product_price": "מחיר מוצר",
-        "currency_unit": "יחידת מטבע",
-        "sell_30days": "30 יום מכירות",
-        "sell_daily": "מכירות יומיות",
-        "sell_yesterday": "מכירות אתמול"
+        inputs: {
+          prompt: {
+            label: "מוצר פרטים",
+            placeholder: "דאסקריבא טהא מוצר הארא...",
+          },
+        },
+        actions: {
+          run: {
+            title: "צור מפרטים",
+            subtitle:
+              "קליקק טו אוטומאטיקאללי צור מוצר מפרטים פרומ טהא פרווידאד סקירה.",
+          },
+          add_generated_spec: "הוסף גאנאראטאד מפרטים",
+        },
       },
-      "survey": {
-        "title": "דירוג מוצר",
-        "title_small": "דוח שביעות רצון לקוחות",
-        "total_participation": "המספר הכולל של תרומות",
-        "today_participation": "רייטינג היום",
-        "last7days_participation": "תרומות מ-7 הימים האחרונים",
-        "chart": {
-          "participate": "הִשׁתַתְפוּת",
-          "participate_title": "מספר התרומות",
-          "score": "ציון"
-        }
+    },
+    /** {@see BProductEditImages} **/
+    edit_images: {
+      title: "תמונה ראשית",
+      main_image_input_nodata: "העלה תמונת מוצר.",
+      main_image_input_message: "תמונה זו מוצגת ברשימת המוצרים.",
+      preview: "תצוגה מקדימה",
+      image_style: "סגנון תמונה",
+      background_is_white: "רקע לבן",
+      background_is_white_msg: "האם לתמונה יש רקע לבן??",
+
+      images: {
+        title: "גלריית תמונות מוצרים",
+        sub_title:
+          "העלה תמונות מוצר, המשותפות לכל גרסאות המוצר, בחלק זה.",
       },
-      "inform": {
-        "title": "ציפיות של לקוח",
-        "title_small": "מחכה להנחות או לזמינות",
-        "message": "הודע ללקוחות כאשר מוצרים יוצאים למכירה או הופכים לזמינים",
-        "waiting_for_auction": "מחכה למוצרים יוצאים למכירות",
-        "waiting_for_available": "מחכה שהמוצרים יהיו זמינים.",
-        "unit": "אדם(ים)"
-      }
-    },
-    "inventory": {
-      "variants": {
-        "inventory_list": "רשימת מלאי",
-        "add_variant": "הוסף וריאנט",
-        "title": "מלאי מוצרים / רשימת וריאציות מוצרים",
-        "sub_title": "אם למוצר זה יש יותר מגרסה אחת, הזן אותם בסעיף זה. אתה יכול להגדיר בנפרד את הסכום, המחיר וההנחה של כל גרסה; אחרת ערכי ברירת המחדל של המוצר יחולו לתמחור.",
-        "add_action": "הוסף וריאנט",
-        "count_input": "מְלַאי",
-        "count_input_action": "קבע ספירה",
-        "management_title": "ניהול מלאי וגרסאות מוצרים",
-        "add_title": "הוסף וריאנט מוצר",
-        "edit_title": "ערוך וריאנט מוצר",
-        "notifications": {
-          "add_success": "נוספה וריאנט מוצר.",
-          "delete_success": "וריאנט המוצר נמחק.",
-          "save_product_inventory_success": "מלאי המוצרים שנשמר."
-        }
+      video: {
+        title: "וִידֵאוֹ",
+        sub_title:
+          "ראשית, העלה את סרטון המוצר שלך ל-YouTube, ולאחר מכן שים את כתובת האתר של הסרטון כאן.",
       },
-      "variant_item": {
-        "price": "מחיר",
-        "same_as_product": "דומה למוצר הראשי",
-        "in_stock": "מְלַאי",
-        "delete_dialog": {
-          "title": "מחק את וריאנט המוצר",
-          "message": "האם ברצונך למחוק את הגרסה הזו?"
-        }
+      change_bg_ai: {
+        title: "צור תמונה ויטה חדש רקע",
+        inputs: {
+          prompt: {
+            label: "רקע תיאור",
+            placeholder: "דאסקריבא טהא דאסיראד רקע...",
+          },
+        },
+        actions: {
+          reimagine: {
+            title: "צור חדש תמונה",
+            subtitle: "ראימאגינא טהא אנטירא תמונה ויטה a חדש רקע.",
+          },
+          replace: {
+            subtitle: "ראפלאקא טהא אקסיסטינג רקע.",
+          },
+        },
       },
-      "variant_add_edit": {
-        "title": "הגדרת וריאנט מוצר",
-        "message": "מספר מוצר ייחודי",
-        "active_input": "האם הווריאנט הזה פעיל?",
-        "sku": "SKU",
-        "sku_tips": "קוד מחסן מוצרים.",
-        "mpn": "MPN",
-        "mpn_tips": "קוד המוצר הוכנס על ידי היצרן על אריזת המוצר",
-        "variant_variable": "משתני וריאנטים",
-        "pricing": "תמחור",
-        "has_pricing_input": "האם המחיר שונה מהמוצר העיקרי?",
-        "inventory": "מְלַאי",
-        "inventory_unit": "פריטים",
-        "delivery_info": "אריזה ומשלוח",
-        "images": "תמונות של וריאנט",
-        "images_message": "לאחר שמירת הגרסה הזו תוכל להוסיף כאן תמונה."
-      }
     },
-    "edit_article": {
-      "menu": {
-        "tags": "תגים",
-        "article": "מאמר"
-      }
-    }
-  },
-  "product_extra_physical": {
-    "weight": "משקל אריזה",
-    "weight_unit": "ק\"ג",
-    "size": "מידות חבילה",
-    "dimension": "ס\"מ",
-    "width": "רוֹחַב",
-    "length": "אורך",
-    "height": "גוֹבַה",
-    "lead_time_title": "זמן הכנה",
-    "lead_time": "זמן הכנה",
-    "lead_time_dimension": "שעה (ות)",
-    "bulk_action": "פעולות בכמות גדולה",
-    "bulk_action_input": "עדכן את כל הגרסאות",
-    "bulk_action_msg": "הגדר את אריזת המוצר ואת זמן ההכנה עבור כל הגרסאות."
-  },
-  "product_images_list": {
-    "upload_button": "עוד תמונות מוצר",
-    "upload_an_image": "בחר תמונה.",
-    "notifications": {
-      "update_sort_success": "מיון התמונות נשמר",
-      "delete_image_title": "מחק את תמונת המוצר",
-      "delete_image_success": "התמונה נמחקה בהצלחה"
-    }
-  },
-  "variants_view": {
-    "prices": "מחירים",
-    "inventory": "מְלַאי",
-    "discount": "הנחה"
-  },
-  "gift_card_type_edit": {
-    "title_input": "כותרת",
-    "color_input": "צבע כרטיס",
-    "charge_input": "טעינה ראשונית",
-    "charge_input_hint": "חיוב ראשוני עבור כל כרטיס",
-    "currency_input": "מַטְבֵּעַ",
-    "currency_input_message": "רק לרכישה במטבע זה",
-    "lifetime_input": "תוקף הכרטיס (חודש)",
-    "lifetime_input_message": "תוקף הכרטיס",
-    "card_image_input": "תמונת כרטיס",
-    "notifications": {
-      "create_success": "הכרטיס נוצר",
-      "update_success": "הכרטיס עודכן"
-    }
-  },
-  "shop_warehouse_edit": {
-    "title": "הוסף מחסן",
-    "message": "הזן את כתובת המחסן והפרופיל שלך כדי לחשב את עלות המשלוח.",
-    "name_input": "שם המחסן",
-    "address": "כתובת",
-    "name_input_message": "הזן כינוי למחסן שלך.",
-    "person_name": "שם הקצין",
-    "phone_number": "מספר איש קשר",
-    "map_title": "כתובת מחסן החנות",
-    "confirm_action": "אישור מחסן",
-    "address_name": "מַחסָן",
-    "notifications": {
-      "success_save": "השינויים נשמרו בהצלחה."
-    }
-  },
-  "inventory_list": {
-    "search_input": "חיפוש מוצר...",
-    "search_input_title": "חפש בין מוצרי החנות",
-    "apply_filter": "החל מסנן",
-    "inventory": "רשימת מלאי",
-    "export": "ייצוא מלאי",
-    "import": "ייבוא מלאי",
-    "bulk_price": "שינוי מחיר בכמויות גדולות",
-    "bulk_discount": "שינוי הנחה בכמות גדולה",
-    "category_filter_msg": "⚡ זה יחול על כל המוצרים ותתי הקטגוריות!",
-    "table": {
-      "waiting": "מקבל מידע ... אנא המתן",
-      "open_state": "פָּעִיל",
-      "close_state": "לֹא פָּעִיל",
-      "image": "תמונה",
-      "product": "שם מוצר",
-      "code": "קוד מוצר",
-      "sku": "SKU",
-      "mpn": "MPN",
-      "original": "מְקוֹרִי",
-      "status": "סטָטוּס",
-      "in_stock": "במלאי",
-      "edit": "שינוי"
-    },
-    "bulk_price_dialog": {
-      "title": "פעולות בכמות גדולה > מחיר",
-      "message": "הערה: הסכום הבא יחול באחוזים על מחיר כל המוצרים בחנות שלך. כמו כן, ערכי המחירים המחושבים יומרו בצורה חכמה למספר העגול הקרוב ביותר בהתבסס על המטבע הנבחר. היזהר בהזנת הערכים.",
-      "check": "אני מאשר שינויים במחיר.",
-      "add_percent_tab": "הוסף אחוז",
-      "add_constant_tab": "הוסף קבוע",
-      "ending_tab": "אסטרטגיית סיום"
-    },
-    "bulk_discount_dialog": {
-      "title": "פעולות בכמות גדולה > הנחה",
-      "message": "הערה: הסכום הבא יהיה באחוזים להנחה של כל המוצרים בחנות שלך. כמו כן, ערכי ההנחה המחושבים יומרו בצורה חכמה למספר העגול הקרוב ביותר בהתבסס על המטבע הנבחר. היזהר בהזנת הערכים.",
-      "check": "אני מאשר שינויים בהנחות."
-    },
-    "notifications": {
-      "save_success": "השינוי במלאי נשמר."
-    }
-  },
-  "spec_view": {
-    "auto_save_input": "שמירה אוטומטית"
-  },
-  "time_progress_bar": {
-    "title_before_start": "נשאר להתחלה",
-    "title_between_start_end": "נשאר עד הסוף",
-    "title_after_end": "גָמוּר",
-    "title_no_start_end": "ללא פרק זמן!"
-  },
-  "geo_map": {
-    "views": "צפיות",
-    "views_unit": "פִּי",
-    "product_views": "תצוגות מוצר",
-    "buys": "רכישות",
-    "buys_unit": "הזמנות",
-    "baskets": "עגלות פעילות",
-    "added_items": "הוסף פריטים",
-    "removed_items": "הסר פריטים"
-  },
-  "faq_list": {
-    "table": {
-      "nodata": "לא נמצאו שאלות.",
-      "more_data_action": "שאלות נוספות ..",
-      "user": "מִשׁתַמֵשׁ",
-      "tag": "תָג",
-      "question": "שְׁאֵלָה",
-      "officer": "צוות",
-      "answer": "תשובה",
-      "created_at": "תַאֲרִיך",
-      "priority": "עדיפות",
-      "edit": "לַעֲרוֹך"
-    },
-    "dialog": {
-      "add_new_action": "שלח שאלה חדשה",
-      "edit_action": "ערוך שאלות נפוצות",
-      "question_input": "שְׁאֵלָה",
-      "question_input_placeholder": "תשאל את השאלה שלך ..",
-      "link_input": "קישור",
-      "link_input_placeholder": "אתה יכול להפנות לקישור בתשובה.",
-      "answer_input": "תשובה",
-      "answer_input_placeholder": "הזן טקסט תשובה..",
-      "tag_input": "תג (כותרת קטגוריה)",
-      "tag_input_placeholder": "הזן כותרת קצרה",
-      "priority_input": "עדיפות: (0 עד 10)"
-    },
-    "delete_alert": {
-      "title": "מחק את השאלה",
-      "message": "האם אתה רוצה למחוק את השאלה הזו?",
-      "action": "לִמְחוֹק"
-    },
-    "notifications": {
-      "send_success": "תשובתך נשלחה בהצלחה.",
-      "delete_success": "השאלה שלך נמחקה בהצלחה."
-    }
-  },
-  "contact_messages_list": {
-    "load_more_action": "עוד הודעות..",
-    "table": {
-      "nodata": "לא נמצאו שאלות.",
-      "user": "מִשׁתַמֵשׁ",
-      "message": "גוף ההודעה",
-      "category": "קטגוריה",
-      "officer": "צוות",
-      "answer": "תשובה",
-      "created_at": "תַאֲרִיך",
-      "contact": "איש קשר",
-      "edit": "לַעֲרוֹך"
-    },
-    "dialog": {
-      "title": "השב להודעה",
-      "category": "קטגוריה",
-      "user_name": "שֵׁם",
-      "email": "אימייל",
-      "phone": "מספר איש קשר",
-      "message": "הודעת טקסט",
-      "status": "סטטוס תגובה",
-      "status_answered": "ענה",
-      "status_waiting": "ממתין לתגובה",
-      "answer_input": "טקסט תגובה",
-      "mail_input": "שלח מייל",
-      "mail_input_message": "אם תאפשר זאת, תגובתך תישלח לאימייל המשתמש."
-    },
-    "delete_alert": {
-      "title": "למחוק הודעה",
-      "message": "האם ברצונך למחוק הודעה זו?",
-      "action": "לִמְחוֹק"
-    },
-    "notifications": {
-      "send_success": "הבקשה שלך נשלחה בהצלחה.",
-      "delete_success": "הודעה נמחקה."
-    }
-  },
-  "campaign": {
-    "title": "קמפיין",
-    "menu": {
-      "setting": "הגדרות",
-      "return": "חזור",
-      "dashboard": "לוּחַ מַחווָנִים",
-      "links": "קישורים",
-      "landing": "נְחִיתָה",
-      "ads": "מודעות",
-      "finance": "לְמַמֵן"
-    },
-    "dashboard": {
-      "title": "לוּחַ מַחווָנִים",
-      "status": "סקירת מצב",
-      "sessions": "הפעלות",
-      "links_overview": "סקירה כללית של קישורי מסע פרסום",
-      "orders": "הזמנות",
-      "performance": "ביצועי הקמפיין",
-      "links_funnel": "מסע פרסום מקשר ביצועים",
-      "no_links": "אין נתונים זמינים! אנא צור קישור למסע הפרסום שלך.",
-      "social": "מובילים ברשתות החברתיות",
-      "conversion_over_time": "המרה לאורך זמן",
-      "total_campaign_sell": "סך המכירות לפי קמפיין"
-    },
-    "finance": {
-      "title": "דו\"ח כספים",
-      "campaign_revenue": "הכנסות מקמפיין",
-      "total_revenue": "סך ההכנסות לפי מסע פרסום",
-      "links_revenue": "הכנסה מקישורי מסע פרסום",
-      "payments_over_time": "מכירות לאורך זמן",
-      "all_links": "כל הקישורים"
-    },
-    "landing": {
-      "empty_message": "הגדר דף נחיתה בהגדרות מסע הפרסום.",
-      "set_landing": "הגדר דף נחיתה",
-      "create_landing": "צור דף נחיתה חדש"
-    },
-    "links": {
-      "title": "קישורי מסע פרסום",
-      "url_input_message": "הזן את כתובת האתר של דף היעד שלך"
-    },
-    "setting": {
-      "menu": {
-        "config": "Config",
-        "timespan": "תקופת זמן",
-        "banner": "דֶגֶל",
-        "Notification": "הוֹדָעָה"
+    /** {@see BProductEditPrice} **/
+    pricing: {
+      edit_price: "תמחור",
+      price_input: "מחיר",
+      currency_input: "מַטְבֵּעַ",
+      currency_input_messages: "המחיר מחושב במטבע זה.",
+      commission_input: "עמלה",
+      commission_message:
+        "אפשרות זו שימושית רק עבור סוגים מסוימים של סוחרים כמו סיטונאים. אם אינך סיטונאי, השאר אפשרות זו ריקה. המחיר שהקונים רואים הוא סכום המחיר והעמלה. להוספת מס לחץ על הנהלת חשבונות > מס.",
+      add_commission_action: "הוסף עמלה",
+
+      price_label_input: "תג מחיר",
+      price_label_message:
+        "הוסף מידע נוסף על המחיר כמו ($1.5/Fl Oz). מקרי שימוש: מכולת, FMCG.",
+      add_price_label_action: "הוסף תווית מחיר",
+      discount_input: "הנחה",
+      discount_input_message: "אחוז הנחה",
+      has_discount_period_input: "האם הנחה זו תקפה לזמן מסוים?",
+      discount_timespan: "הזן את תקופת ההנחה.",
+      start_input: "הַתחָלָה",
+      end_input: "סוֹף",
+      start_input_placeholder: "בחר את שעת ההתחלה",
+      end_input_placeholder: "בחר את שעת הסיום",
+      independent_price: "המחיר רק עבור גרסה זו",
+      same_price: "המחיר למוצר העיקרי",
+      variant_pricing_message:
+        "על ידי בחירה באפשרות זו, ניתן להגדיר את המחיר של גרסה זו ללא תלות במוצר הראשי.",
+
+      subtitle: {
+        marketplace:
+          "ויטהינ טהא מרקטפלייס, טהא ראשי מוצר תמחור דיספלאיאד יס טהא רשימה מחיר, והילא טהא אקטואל מחיר יס דאטארמינאד באסאד ונ טהא ואנדור-פרודוקט ראלאטיונסהיפ ראקורדס.",
+        subscription:
+          "פור מנויים, רק טהא רשימה מחיר יס דיספלאיאד, והילא טהא אקטואל קוסט וילל בא דאטארמינאד באסאד ונ טהא בחר מנוי פלאנ.",
+        service:
+          "פור סארויקא-באסאד מוצרים, טהא רשימה תמחור יס סולאלי פור דיספלאי פורפוסאס, פרווידינג אנ אסטימאטאד קוסט ופ טהא שירות. טהא אקטואל שירות מחיר וילל בא דאטארמינאד בי יוו ונקא טהא לקוח האס פלאקאד טהאיר הזמנה (ופונ קהאקקווט).",
+        file: "טהיס ראפארס טו טהא רשימה אנד אקטואל מחיר ופ טהא קובץ, והיקה לקוחות מוסט שלם ינ הזמנה טו גאינ גישה טו טהא קבצים.",
+        default:
+          "טהיס ראפארס טו טהא מוצר's רשימה מחיר אנד אלסו טאקאס ינטו חשבון טהא מחיר ופ אני וריאציות טהאט דו לא האוא סאפאראטא תמחור.",
       },
-      "general_setting": {
-        "title": "הגדרות מסע פרסום כלליות",
-        "sub_title": "שם, דף נחיתה וקוד הנחה",
-        "name_input": "שם מסע הפרסום",
-        "name_input_hint": "הוסף שם למסע הפרסום שלך",
-        "enable_input": "האם הקמפיין פעיל?",
-        "page_input": "דף נחיתה",
-        "discount_code_input": "קוד הנחה",
-        "limit": "מגבלת הנחה",
-        "max_count": "ספירה מקסימלית",
-        "max_count_unit": "פריטים",
-        "start": "הַתחָלָה",
-        "end": "סוֹף",
-        "notification_enable_input": "הודעה מופעלת?",
-        "landing_page": "דף נחיתה",
-        "discount_code": "קוד הנחה",
-        "auto": "קמפיין ברירת מחדל",
-        "auto_message": "קמפיין ברירת מחדל הופעל בחנות שלך"
+      extra_pricings: {
+        title: "הוסף נוסף תמחור",
+        subtitle: "ימפלאמאנט דינאמיק תמחור באסאד ונ רכישה כמות.",
       },
-      "time_setting": {
-        "title": "תקופת זמן",
-        "sub_title": "תאריך ושעה התחלה / תאריך ושעה סיום",
-        "start_input": "הַתחָלָה",
-        "start_input_placeholder": "בחר זמן התחלה של מסע פרסום",
-        "end_input": "סוֹף",
-        "end_input_placeholder": "בחר זמן סיום מסע פרסום"
+
+      vendor: {
+        title: "ספק תמחור",
+        subtitle:
+          "טהיס מחיר וילל בא סהוונ רק ינ טהא מוצרים רשימה. יוו קאנ סאט ספק מחיר ינ טהא מוצר > ספקים טאב.",
+        manage_vendors: "נהל ספקים",
+        vendor_product_pricing_link:
+          "טהא ספק's מוצר תמחור יס קוננאקטאד. קהאנגינג טהא רשימה מחיר הארא וילל אפפאקט ספק מוצרים ויטהווט וריאציות ור טהוסא ויטה וריאציות טהאט דונ't האוא טהאיר וונ תמחור (וסינג טהא סאמא מחיר אס טהא ראשי מוצר). טהיס מחיר וילל בא טראאטאד אס טהא מרקטפלייס מחיר, אנד טהא ספק's מחיר וילל בא סאט באסאד ונ טהא תמחור מודאל ור טהא פראויווס מרקטפלייס פרופיט מארגינ.",
+        vendor_variant_pricing_link:
+          "קהאנגינג טהא וריאציה מחיר הארא וילל אפפאקט טהא תמחור ופ ספק מוצרים ויטה טהא סאמא וריאציה. טהיס מחיר וילל בא קונסידאראד טהא מרקטפלייס מחיר, אנד טהא ספק's מחיר וילל בא סאט אקקורדינג טו טהא תמחור מודאל ור טהא פראויווס מרקטפלייס פרופיט מארגינ.",
       },
-      "banner_setting": {
-        "title": "באנר לחנות",
-        "sub_title": "תצוגה בראש עמוד החנות",
-        "message_input": "הודעת טקסט",
-        "message_input_placeholder": "פסטיבל מיוחד...",
-        "message_input_hint": "טקסט הודעת באנר בראש החנות",
-        "bg_image_input": "כתובת אתר של תמונת רקע",
-        "bg_image_input_hint": "כתובת האתר המלאה של תמונת רקע",
-        "repeat_pattern": "חזור על דפוס",
-        "simple": "פָּשׁוּט",
-        "dark_input": "ערכת נושא כהה?",
-        "icon_input": "סמל",
-        "icon_input_hint": "שם אייקון עיצוב חומרי או Fontawsom: fa:fas fa-star",
-        "anim_input": "כתובת אנימציה",
-        "anim_input_message": "כתובת האתר של קובץ האנימציה של לוטי",
-        "preview": "תצוגה מקדימה",
-        "preview_update_action": "עדכון תצוגה מקדימה",
-        "bg_color": "צבע רקע",
-        "icon_bg": "צבע רקע סמל"
+    },
+    /** {@see ProductEditInputs} **/
+    inputs_edit: {
+      title: "טופס הזנה של פרטי קונה",
+      sub_title:
+        "אתה יכול ליצור טופס הזנת נתונים עבור כל מוצר, כך שהקונים ישלחו לך מידע בעת רכישת מוצר. לדוגמה, מידע זה יכול להיות שם לחריטה על אבן.",
+      message_input: "הודעה למשתמש",
+      message_input_message:
+        "הודעה זו תוצג ללקוח בעת רכישת מוצרים.",
+      inputs_form: "מבנה מידע (קלט)",
+      inputs_hint:
+        "יוו האוא טהא אפשרות טו סאט ופ a פארסונאליזאד טופס טו גאטהאר פרטים פרומ יוור לקוחות והאנ טהאי'רא מוכן טו פלאקא אנ הזמנה.",
+    },
+
+    /** {@see BProductEditExtra} **/
+    extra_edit: {
+      physical: {
+        title: "פרטי משלוח",
+        sub_title:
+          "עלות וזמן ההכנה מחושבים על סמך המידע בסעיף זה. הקפידו להזין את המידע בהתאם ליחידות הנבחרות בחנות (משקל, מידות, מרחק).",
       },
-      "notifications": {
-        "title": "הוֹדָעָה",
-        "sub_title": "צור הודעה וקשר אותה למסע הפרסום שלך.",
-        "update_success": "מסע הפרסום שלך עודכן.",
-        "action_button": "כפתור פעולה",
-        "background_color": "צבע רקע",
-        "text_color": "צבע טקסט",
-        "action_color": "צבע פעולה",
-        "action_text_color": "צבע טקסט פעולה",
-        "notification_image": "תמונת הודעה",
-        "notification_bg": "רקע הודעה",
-        "show_preview": "הצג תצוגה מקדימה",
-        "persistence": "הַתמָדָה",
-        "persistence_message": "האם אתה רוצה להראות בכל פעם שהמשתמש שלך מבקר באתר",
-        "radius": "רַדִיוּס",
-        "show_delay": "הצג עיכוב"
-      }
-    }
-  },
-  "add_category": {
-    "title_edit": "ערוך קטגוריה",
-    "title_update": "הוסף קטגוריה חדשה",
-    "menu": {
-      "delete": "מחק קטגוריה",
-      "filter": "מסננים",
-      "settings": "הגדרות",
-      "back": "חזור"
-    },
-    "title_input": "כותרת קטגוריה *",
-    "title_input_error": "בחר כותרת קטגוריה",
-    "name_input": "שם הקטגוריה (אנגלית) *",
-    "name_input_error": "בחר שם ייחודי לקטגוריה",
-    "description_input": "תיאור הקטגוריה",
-    "description_input_message": "הזן תיאור קצר של הקטגוריה ..",
-    "parent_input": "קטגורית הורים",
-    "parent_input_message": "קטגוריה זו מופיעה בדף הבית של החנות.",
-    "image_input": "תמונת קטגוריה",
-    "image_input_placeholder": "בחר תמונה עבור הקטגוריה",
-    "edit_action": "ערוך קטגוריה",
-    "add_action": "הוסף קטגוריה",
-    "back_action": "חזור",
-    "no_category": "אין קטגוריות",
-    "star": "כוכב",
-    "filter": {
-      "title": "מסנני קטגוריות",
-      "sub_title": "נהל מסננים וקטגוריות החלים על מוצרים בקטגוריה זו.",
-      "message": "הזן ושמור את כותרת התכונה הטכנית הנפוצה עבור קטגוריה זו בתיבה למטה. לאחר שמירת הרשימה, קטגוריות הסינון יוצגו יחד עם התוכן של כל קטגוריה. צבע, משקל, מידה, מותג וכו' מופקים אוטומטית מגרסה של המוצר."
-    },
-    "delete_alert": {
-      "title": "הסר קטגוריה",
-      "message": "האם ברצונך למחוק את הקטגוריה {title}?",
-      "action": "לִמְחוֹק"
-    },
-    "notifications": {
-      "add_success": "נוספה קטגוריה חדשה.",
-      "edit_success": "הקטגוריה נערך.",
-      "delete_success": "נמחק {title}."
-    },
-    "edit_filter": {
-      "spec_input": "רשימת מפרטים טכניים",
-      "spec_input_message": "רשימת התכונות שברצונך שיוצגו בקטע הסינון",
-      "price": "מחיר",
-      "min": "מינימום",
-      "max": "מקסימום",
-      "suggested_list": {
-        "brand": "מותג",
-        "colors": "צֶבַע",
-        "styles": "לְעַצֵב",
-        "volumes": "כרך",
-        "weights": "מִשׁקָל",
-        "packs": "מספר לכל חבילה",
-        "types": "סוּג"
+
+      notifications: {
+        save_title: "האריזה עודכנה",
+        save_msg: "מידע אריזת המוצר עודכן בהצלחה.",
       },
-      "notifications": {
-        "edit_success": "הקטגוריה נערך."
-      }
-    }
-  },
-  "apps_list": {
-    "nodata": "אין אפליקציה מותקנת בחנות שלך",
-    "inactive": "לֹא פָּעִיל",
-    "my_apps": "האפליקציות שלי",
-    "app_store": "הוסף אפליקציה חדשה"
-  },
-  "add_shop": {
-    "menu": {
-      "shop_title": "כותרת החנות",
-      "shop_name": "שם חנות",
-      "description": "תיאור",
-      "contact": "פרטי התקשרות",
-      "image": "תמונה"
-    },
-    "title_input": "כותרת",
-    "title_input_tips": "הזן את שם החנות, המותג או החברה שלך.",
-    "active_message": "הגדר פעיל לכל אחד יכול לגשת לאתר שלך.",
-    "language_input_message": "בחר את שפת החנות שלך.",
-    "name_input": "שֵׁם",
-    "name_input_message": "הזן שם לחנות שלך.",
-    "name_input_tips": "אל תשתמש בתווים, רווחים או אותיות שאינם באנגלית, אם נעשה שימוש, ייתכן ששם החנות לא יוצג כראוי.",
-    "description_input": "תיאור החנות",
-    "description_input_message": "כתוב תיאור קצר על העסק שלך.",
-    "address_input": "כתובת החנות",
-    "address_input_message": "הזן כתובת מדויקת של מיקום החנות",
-    "phone_input": "מספר טלפון",
-    "phone_input_message": "מספר יצירת קשר עם הלקוח",
-    "phone_input_tips": "הזן מספר איש קשר עם קוד מדינה. מספר זה משמש גם להצגת מידע בחיפוש בגוגל.",
-    "email_input": "אימייל",
-    "email_input_message": "כתובת מייל ללקוחות",
-    "locality_input": "מקום",
-    "locality_input_message": "מיקום החנות",
-    "region_input": "מדינה או מחוז",
-    "region_input_message": "מדינה או מחוז שבהם אתה פועל",
-    "country_input": "מדינה",
-    "country_input_message": "ארץ העסקים",
-    "postal_code_input": "מיקוד",
-    "postal_code_input_message": "מיקוד בחנות",
-    "image_input": "חנות תמונה",
-    "map": {
-      "title": "כתובת החנות",
-      "confirm": "רישום כתובת",
-      "address": "כתובת",
-      "receptor": "חנות"
-    },
-    "create_shop_action": "צור חנות",
-    "update_shop_action": "עדכון",
-    "notifications": {
-      "copy_success": "עותק של כתובת החנות.",
-      "name_available": "השם הזה ({name}) זמין.",
-      "add_success": "החנות {title} נוצרה.",
-      "edit_success": "החנות נערך."
-    }
-  },
-  "virtual_items_list": {
-    "add_virtual_item": "הוסף פריט וירטואלי",
-    "add_virtual_item_desc": "כדי למכור מוצרים וירטואליים, עליך להוסיף אותם בחלק זה. מספר הפריטים הווירטואליים שווה למספר הפריטים החינמיים בחלק זה. ברגע שהלקוחות ירכשו את הפריט הוירטואלי, הקישור יישלח אליהם.",
-    "filter_action": "החל מסנן",
-    "not_processed": "הזמנות לא מעובדות",
-    "title": "רשימת פריטים",
-    "vew_order": "צפה בהזמנה",
-    "table": {
-      "nodata": "אין פריטים",
-      "product": "מוצר",
-      "data": "נתונים",
-      "status": "סטָטוּס",
-      "user_message": "הודעת משתמש",
-      "updated_at": "העדכון אחרון",
-      "order": "להזמין",
-      "delete": "לִמְחוֹק"
-    },
-    "notifications": {
-      "delete_success": "הפריט נמחק בהצלחה."
-    }
-  },
-  "add_virtual_item": {
-    "title_edit": "ערוך ערכים",
-    "title_add": "הוסף פריט למוצר",
-    "sub_title": "יצירה ועריכה של מוצרים וירטואליים",
-    "message": "מנהל החנות יכול להראות לקונה את הערך לאחר התשלום. יש להזין ערכים אלו בטופס למטה. המבנה של טופס זה מוגדר בסעיף ערוך פריט> ערוך מידע פלט.",
-    "edit_outputs": "ערוך טופס פלט",
-    "notifications": {
-      "edit_success": "הפריט נערך.",
-      "add_success": "פריט נוסף לרשימה."
-    }
-  },
-  "virtual_process_center": {
-    "title": "מרכז עיבוד",
-    "sub_title": "עיבוד הזמנה",
-    "virtual_product": "מוצר וירטואלי",
-    "menu": {
-      "report": "להגיש תלונה",
-      "timeline": "ציר זמן",
-      "order": "להזמין"
-    },
-    "list_widget": {
-      "title": "מפרט הזמנה",
-      "product_name": "שם מוצר"
-    },
-    "inputs_widget": {
-      "title": "טופס קלט",
-      "table": {
-        "title": "כותרת",
-        "value": "ערך"
+
+      order_limit: {
+        title: "הזמנה לימיטס",
+        subtitle:
+          "יפ יוו'רא a והולאסאלאר ור טהארא's a מינימומ ור מאקסימומ לימיט ונ טהא כמות ופ טהיס יטאמ פאר הזמנה, יוו קאנ ספאקיפי טהאט הארא.",
+        no_limit: "נו לימיט",
+        minimum_purchase_quantity: "מינימומ רכישה כמות",
+        maximum_purchase_quantity: "מאקסימומ רכישה כמות",
       },
-      "change_inputs_action": "ערוך טופס קלט"
     },
-    "outputs_widget": {
-      "title": "טופס פלט",
-      "table": {
-        "title": "כותרת",
-        "value": "ערך"
+
+    variants: {
+      not_available:
+        "כרגע לא ניתן לבחור גרסה עבור סוג זה של מוצר.",
+    },
+
+    delete_product: {
+      title: "הסר את המוצר",
+      message: "האם ברצונך למחוק את <b>{product_title}</b> ?",
+      tips: "יפ יוו אקקידאנטאללי מחק a מוצר, יוו קאנ ראקוואר יט בי נאויגאטינג טו יוור חנות > מוצרים, אנאבלינג הצג דאלאטאד יטאמס, אנד טהאנ ריגהט-קליקקינג ונ טהא מוצר, אנד בחר ראסטורא.",
+    },
+  },
+
+  /** {@see BProductExtraPricingAdd} **/
+  extra_pricing_add_dialog: {
+    title: "נוסף תמחור פור וואר {min}",
+    subtitle:
+      "טהא סיסטאמ אוטומאטיקאללי דאטארמינאס טהא הזמנה אנד פריוריטי פור מחיר קאלקולאטיונ. פלאאסא קלט טהא מינימומ כמות ראקויראד פור טהיס תמחור טו טאקא אפפאקט.",
+    min_quantity: "כמות מינימלית",
+  },
+  /** {@see BProductInventoryManagementPhysical} **/
+  product_inventory_management_physical: {
+    subtitle: {
+      dropshipping:
+        "מלאי פור דרופסהיפפינג מוצרים יס סאט בי והולאסאלארס, אנד קאננוט בא מודיפיאד הארא.",
+      marketplace:
+        "טהא וואראלל מוצר מלאי ינ טהא מרקטפלייס יס דאטארמינאד בי הוסף ופ טהא ינואנטוריאס ופ הכול ספקים. יוו קאננוט מודיפי יט הארא.",
+      default: "ספאקיפי טהא מוצר's מלאי מספר הארא.",
+    },
+    menu: {
+      add_bulk: {
+        title: "בולק הוסף",
+        subtitle: "הוסף מולטיפלא וריאציות ינ ונא פעולה.",
       },
-      "tips": [
+      edit_property_set: {
+        title: "קוסטומיזא מאפיין סאט",
+        subtitle: "קהאנגא וריאציות שם, יקונס אנד הזמנות.",
+      },
+    },
+  },
+
+  /**
+   * @see USmartMenu
+   */
+  smart_menu: {
+    show_delete_items: "הצג דאלאטאד יטאמס",
+  },
+
+  /** {@see BProductGoogleCategoryInput} **/
+  google_product_category_input: {
+    label: "Google מוצר קטגוריה קוד",
+    hint: "ראפראסאנטס טהא קטגוריה ופ יוור מוצר אקקורדינג טו טהא Google's מוצר טאקסונומי.",
+    placeholder: "אנטאר מוצר ור שירות קטגוריה.. (ופטיונאל)",
+  },
+  /** {@see LogisticProfileType} **/
+  LogisticProfileType: {
+    WARRANTY: {
+      title: "אחריות",
+      desc: "A אחריות יס פארט ופ a קונטראקט והארא טהא מאנופאקטוראר פרומיסאס טו ראפאיר ור ראפלאקא a מוצר ויטהינ a ספאקיפיאד תקופה. טהיס קוממיטמאנט קאנ אקסטאנד אואנ טו קונסומארס והו דו לא האוא a דיראקט קונטראקט ויטה טהא מאנופאקטוראר.",
+    },
+    RETURN_POLICY: {
+      title: "החזרה פוליקי",
+      desc: "החזרה פוליקיאס ווטלינא הוו לקוחות קאנ החזרה ור אקסקהאנגא ונואנטאד מארקהאנדיסא. טהאי ספאקיפי אליגיבלא יטאמס, אקקאפטאבלא ראאסונס פור החזרות, אנד טהא טימאפראמא פור מאקינג החזרות.",
+    },
+    GUIDE: {
+      title: "מדריך",
+      desc: "A מדריך קוולד ינקלודא a גודל קהארט פור אפפאראל ור a סאלאקטיונ מדריך פור דיאמונדס. יט's חשוב טהאט מדריך ארא וארסאטילא אנד אפפליקאבלא אקרוסס מולטיפלא מוצרים.",
+    },
+    SHIPPING: {
+      title: "משלוח",
+      desc: "A משלוח פוליקי פרטים טהא מפתח אספאקטס ופ משלוח פור ונלינא הזמנות, ינקלודינג משלוח קוסטס, שיטות, אנד אסטימאטאד מסירה זמן.",
+    },
+  },
+  /** {@see BProductProfileLogistic} **/
+  product_logistic_profile: {
+    dialog: {
+      title: "בחר לוגיסטיקה פרופיל",
+      add_new_action: "הוסף חדש פרופיל",
+      add_new_disable_msg: "מרקטפלייס וונאר",
+    },
+  },
+
+  /**
+   * @see BPageShopPagesPopups
+   */
+  b_shop_popups: {
+    title: "פופופס ניהול",
+    subtitle:
+      "צור פארסונאליזאד, ינטאלליגאנט, אנד ינטאראקטיוא פופ-ופ וינדווס.",
+    add_action: "הוסף חדש פופופ",
+  },
+
+  /** {@see BProductProfileTax} **/
+  product_tax_profile: {
+    description: {
+      default: "בְּרִירַת מֶחדָל",
+      dedicated: "דאדיקאטאד",
+
+      subscription: "וא קאנ אפפלי מס רק ונ טהא תשלום קראאטיונ סטאפ.",
+      is_disabled: "טהיס מס פרופיל יס מושבת! (⚠️אזהרה)",
+      shipping: "משלוח",
+      fixed_rate: "מס",
+      location_based_rate: "מס: מיקום באסאד",
+      shipping_location_based_rate: "משלוח: מיקום באסאד",
+      include_in_price: "כלול במחיר",
+    },
+    dialog: {
+      header: "בחר מס פרופיל",
+
+      title: "מס פרופיל",
+      subtitle:
+        "יוו קאנ אססיגנ פארטיקולאר מס ראגולאטיונס טו טהא מוצר. סהוולד a מס פרופיל לא בא קהוסאנ פור טהא מוצר, טהא ברירת מחדל חנות מס ראגולאטיונס וילל טהאנ בא אפפליאד.",
+
+      action_manage: "נהל מס",
+      action_manage_sub: "חנות > כספים > מס",
+
+      subscription_tips:
+        "והאנ יוו בחר a מס פרופיל פור מנוי מוצר, וא עדכן<code>מס קוד</code> אנד סאט ינקלוסיוא/אקסקלוסיוא מצב ונ יוור תשלום שירות פרווידאר. טהא בחר מס פרופיל ספאקיפיאס והאטהאר טהא מחיר יס קונסידאראד ינקלוסיוא ופ טאקסאס ור אקסקלוסיוא ופ טאקסאס. ונא ופ <code>ינקלוסיוא</code> ור <code>אקסקלוסיוא</code>. ונקא ספאקיפיאד אס איטהאר ינקלוסיוא ור אקסקלוסיוא, יט קאננוט בא קהאנגאד.<br /><br /><b>חשוב!</b> אפטאר קהאנגינג טהא מס פרופיל, יוו סהוולד קליקק ונ תמחור פלאנס ונ טהא מוצר > מלאי טאב אנד קליקק טהא שמור כפתור טו אפפלי קהאנגאס.",
+    },
+  },
+
+  /**
+   * @see BProductVendorAbstractView
+   */
+  product_vendor_profile: {
+    vendor: {
+      subtitle:
+        "טהא מחיר אנד כמות ופ טהיס מוצר ארא סאט בי a פארטיקולאר ספק טו והומ יט באלונגס.",
+    },
+    vendors: {
+      subtitle:
+        "הארא's a רשימה ופ סופפליארס פור טהא מוצר. טהא כמות אנד מחיר וילל בא סאט בי טהא סופפליארס.",
+    },
+  },
+  /**
+   * @see BVendorAdd
+   */
+  vendor_add: {
+    menu: {
+      profile: "פרופיל & מידע",
+      business: "בוסינאסס & תשלום",
+      documents: "דוקומאנטס",
+      page: "דף טאמפלאטא",
+      shipping: "משלוח",
+      access: "גִישָׁה",
+      critical_zone: "קריטיקאל זונא",
+    },
+
+    profile: {
+      title: "ספק מידע",
+      subtitle: "טהיס מידע יס סהוונ טו לקוחות פובליקלי.",
+      action_sub_caption: "ציבורי מוצרים רשימה דף.",
+      action_see_listing_page: "סאא רשימה דף",
+      send_invitation_email: "סאנד ינויטאטיונ אימייל",
+      invitation_link: "ינויטאטיונ קישור",
+    },
+
+    profiles: {
+      title: "פרופילים",
+      subtitle: "יוו קאנ אססיגנ מיקום טו טהיס ספק.",
+    },
+    map: {
+      no_map_message:
+        "אססיגנ a מיקום טו טהא ספק יפ יט's a לוקאטיונ-באסאד ספק.",
+    },
+    page: {
+      title: "מותאם אישית דף",
+      subtitle:
+        "סאט a מותאם אישית נחיתה דף פור טהא ספק, פרווידינג טהאמ ויטה a וניקוא קישור טו טהאיר דאדיקאטאד דף.",
+      action_set_page: "סאא ציבורי דף",
+      action_sub_caption: "מותאם אישית נחיתה דף.",
+      vendor_has_landing_msg: "ספק האס a מותאם אישית נחיתה דף.",
+      no_landing_selected_msg: "נו נחיתה דף בחר.",
+      no_landing_page: "נו נחיתה דף",
+      we_can_create_dedicated_landing_msg:
+        "וא קאנ צור a דאדיקאטאד נחיתה דף פור יוו.",
+    },
+    contact: {
+      title: "קונטאקט מידע",
+      subtitle: "קינדלי פרווידא ואליד קונטאקט פרטים.",
+    },
+    business: {
+      title: "בוסינאסס מידע",
+      subtitle:
+        "פלאאסא פרווידא אקקוראטא מידע אבווט יוור בוסינאסס טו אנסורא a סויפט אנד סאאמלאסס ראואנוא קוללאקטיונ תהליך.",
+    },
+    bank: {
+      title: "תשלום מידע",
+      subtitle: "קלט יוור באנק פרטים הארא פור תשלומים.",
+    },
+    default_pricing: {
+      title: "ברירת מחדל תמחור",
+      subtitle:
+        "יוו קאנ אססיגנ a ברירת מחדל תמחור מודאל פור טהא ספק. והאנ טהא ספק הוסף a חדש מוצר, טהיס תמחור מודאל וילל בא וסאד טו קאלקולאטא טהא מרקטפלייס מארגינ ונ טהא מוצר's מחיר. יוו קאנ לאטאר אדגוסט טהא תמחור מודאל פור אאקה מוצר ינדיוידואללי.",
+      no_pricing: "נו תמחור",
+    },
+    shipping: {
+      title: "משלוח",
+      subtitle: "ספקים קאנ סאטופ טהאיר וונ משלוח שירותים אנד קווריארס.",
+      shipping_services: "משלוח שירותים",
+      total_number_of_services:
+        "טהא סה״כ נומבאר ופ משלוח שירותים טהאט טהא ספק האס.",
+      couriers: "שליחים",
+      total_couriers_count: "טהא סה״כ נומבאר ופ קווריארס טהאט טהא ספק האס.",
+    },
+    configuration: {
+      title: "תצורה",
+    },
+    delete: {
+      title: "הסר ספק",
+      action: "הסר ספק",
+      verify_description:
+        "I קנוו טהאט הכול ספק מוצר ראלאטיונס וילל בא ראמוואד!",
+      verify_title: "I ואנט טו מחק טהיס ספק.",
+    },
+
+    send_invitation_tips:
+      "וא וילל סאנד אנ ינויטאטיונ אימייל טו טהיס משתמש. יפ טהא משתמש גוינס יוור חנות אס a ספק, טהאיר חשבון וילל בא אוטומאטיקאללי אססיגנאד טו טהאמ.",
+    only_marketplace_owner_can_edit_user:
+      "רק טהא מרקטפלייס וונאר קאנ ערוך טהא משתמש. יפ יוו ואנט טו קהאנגא טהא וונאר ופ טהיס ספק, יוו קאנ סאנד טהא ראקואסט טו וס.",
+    vendor_is_disable_msg: "ספק יס מושבת.",
+    email_not_match_with_user_msg:
+      "אנטאראד אימייל דואס לא מאטקה ויטה משתמש's אימייל (<b>{user_name}:</b>{user_email}). ארא יוו סורא טו סאנד אימייל טו<b>{email}</b>?",
+
+    order_information_email_to_email:
+      "וא וילל סאנד הזמנות מידע טו <b>{email}</b>.",
+
+    set_a_user_for_the_vendor_first_msg: "סאט a משתמש פור טהא ספק ראשון.",
+
+    inputs: {
+      slug: {
+        label: "פאטה",
+        placeholder: "אנטאר a מותאם אישית פאטה...",
+        hint: "קהאנגא טהא פאטה טהא ספק's דינאמיק נחיתה דף.",
+      },
+      email: {
+        message: "טהיס אימייל וילל ראקאיוא הכול התראות אנד עדכן.",
+      },
+      business: {
+        false_description: "I וורק אס אנ ינדיוידואל.",
+        true_description: "I ופאראטא אס a לאגאללי ראקוגניזאד בוסינאסס אנטיטי.",
+        false_title: "ינדיוידואל",
+        true_title: "בוסינאסס",
+      },
+      bank: {
+        hint: "טהא שם ופ טהא באנק והארא טהא ספק האס טהאיר חשבון.",
+        placeholder: "יוור באנק שם..",
+      },
+      account_name: {
+        hint: "טהיס סהוולד מאטקה טהא שם אססוקיאטאד ויטה טהא באנק חשבון.",
+        placeholder: "יוור שם..",
+      },
+      account_number: {
+        hint: "טהא ספק's וניקוא חשבון נומבאר.",
+        placeholder: "יוור באנק חשבון נומבאר..",
+      },
+      routing_number: {
+        hint: "טהיס נומבאר ואריאס בי מדינה. יט's וסאד טו ידאנטיפי טהא ספאקיפיק באנק בראנקה טהא ספק וסאס.",
+        placeholder: "יוור באנק רווטינג נומבאר, מיון קוד, ור BSB נומבאר..",
+      },
+      iban: {
+        hint: "ינטארנאטיונאל באנק חשבון נומבאר): יפ טהא ספק's באנק יס ינ אורופא ור קארטאינ וטהאר קוונטריאס.",
+        placeholder: "יוור IBAN נומבאר..  אג. דא89 3704 0044 0000 0000 00",
+      },
+      swift: {
+        hint: "ינטארנאטיונאל באנק חשבון נומבאר): יפ טהא ספק's באנק יס ינ אורופא ור קארטאינ וטהאר קוונטריאס.",
+        placeholder: "יוור Swift קוד/BIC..",
+      },
+      branch_address: {
+        hint: "טהא כתובת ופ טהא באנק בראנקה והארא טהא ספק האס טהאיר חשבון.",
+        placeholder: "יוור באנק כתובת..",
+      },
+      enable: {
+        label: "ספק סטטוס",
+        hint: "יוו קאנ הפעל ור השבת ספקים גלובאללי. לקוחות וילל לא בא אבלא טו רכישה אניטהינג פרומ מושבת ספקים.",
+        true_description:
+          "טהאי וילל בא אבלא טו מכירה טהאיר מוצרים טהרווגה יוור מרקטפלייס.",
+      },
+      access: {
+        label: "ספק פאנאל & גישה",
+        true_description:
+          "טהא ספק האס a דאדיקאטאד פאנאל טו עדכן כמות אנד מחיר.",
+        hint: "יוו קאנ הפעל ור השבת טהא ספק פאנאל, והיקה אללווס ספקים טו עדכן מוצר קואנטיטיאס אנד מחיר אנד ראקאיוא פארטיאל הזמנות.",
+        false_description: "טהא ספק האס אין גישה טו אניטהינג.",
+      },
+
+      logo: {
+        label: "ספק לוגו",
+      },
+      description: {
+        placeholder: "וריטא a ציבורי תיאור...",
+      },
+    },
+  },
+
+  /**
+   * @see BVendorDocumentsList
+   */
+  vendor_documents_list: {
+    title: "דוקומאנטס",
+    action_upload_doc: "העלאה דוק",
+    vendor_subtitle:
+      "פלאאסא העלאה טהא נאקאססארי בוסינאסס, IP, אנד כתובת אימות דוקומאנטס. וא ראקוירא טהיס מידע טו אשר יוור פארטנארסהיפ אנד פרווידא יוו ויטה טהא נאקאססארי גישה.",
+    marketplace_subtitle:
+      "ספקים קאנ סובמיט דוקומאנטס סוקה אס בוסינאסס, ינטאללאקטואל מאפיין, אנד כתובת אימות טו פאקיליטאטא טהאיר KYC תהליך, אללווינג יוו טו גראנט טהאמ טהא אפפרופריאטא גישה.",
+    upload_dialog: {
+      title: "העלאה דוקומאנט",
+      type: {
+        title: "דוקומאנט סוג",
+        subtitle:
+          "פלאאסא העלאה רק טהא נאקאססארי דוקומאנטס. אוויד סהארינג אני דוקומאנטס טהאט קונטאינ סאנסיטיוא מידע. וא ראקואסט דוקומאנטס טהאט ארא פובליקלי זמין.",
+      },
+    },
+  },
+
+  /**
+   * @see BProductBadgesManage
+   */
+  product_badges: {
+    title: "באדגאס",
+    subtitle: "הוסף אנד ערוך מותאם אישית מוצר באדגאס.",
+    only_marketplace_owner_msg: "רק מרקטפלייס וונארס",
+    create_new_badge_action: "צור חדש באדגא",
+    select_a_badge: "בחר a באדגא...",
+    inputs: {
+      custom: {
+        false_description: "מוצרים באדגאס ארא קראאטאד אוטומאטיקאללי.",
+        false_title: "אוטומטי",
+        true_title: "מותאם אישית מוצרים באדגאס",
+        true_description: "הוסף מותאם אישית באדגאס ינ טהא מוצר דף.",
+      },
+    },
+    add_custom_badge: {
+      title: "מותאם אישית באדגא",
+      subtitle:
+        "הוסף a חדש מותאם אישית באדגא טו מי חנות. קאאפ באדגאס מספר ונדאר 10. מורא באדגאס ווולד סלוו דוונ יוור חנות.",
+      show_advanced_options: "הצג מתקדם אפשרות",
+
+      inputs: {
+        title: {
+          placeholder: "ציבורי כותרת...",
+        },
+        image: {
+          label: "תמונה",
+          message: "מאקס תמונה גודל: 128קב",
+          placeholder: "בחר a קוואר תמונה",
+        },
+        pattern: {
+          label: "פאטטארנ",
+          message:
+            "אוטומאטיקאללי הצג טהיס באדגא פור מוצרים האס טהיס מאטקהאד ואלוא ינ טהאיר ספאק. Regex תמיכה.",
+          placeholder: "טו הצג פור הכול מוצרים וריטא: *.*",
+        },
+      },
+      notifications: {
+        badge_added: "טהא באדגא האס באאנ הוסף סוקקאסספוללי!",
+        badge_updated: "טהא באדגא האס באאנ ופדאטאד סוקקאסספוללי!",
+        item_not_found_error:
+          "טהא יטאמ קוולד לא בא פוונד. פלאאסא ראפראסה טהא דף ור קונטאקט תמיכה.",
+      },
+    },
+  },
+  /**
+   * @see BProductTagsInput
+   */
+  product_tags: {
+    title: "תגים",
+    tips: [
+      "יוו קאנ מסנן מוצרים באסאד ונ טאגס ונ <b>נחיתה דפים</b>.",
+      "יוו אנד יוור לקוחות קאנ חיפוש פור טהאסא טאגס ינ טהא<b>חיפוש</b> באר.",
+      "יפ סאט טאגס, רק מוצרים ויטה טהא <b>קוממונ טאגס</b> וילל בא דיספלאיאד ינ טהא <b>ראלאטאד מוצרים סאקטיונ</b> ונ טהא מוצר דף; וטהארויסא, מוצרים ינ טהא סאמא קטגוריה וילל בא דיספלאיאד.",
+    ],
+    inputs: {
+      tags: {
+        placeholder: "וירא טאגס הארא אנד פראסס אנטאר. אקס. חדש קוללאקטיונ",
+      },
+    },
+    notifications: {
+      tags_updated: "טהא טאגס האוא באאנ סוקקאסספוללי ופדאטאד.",
+    },
+  },
+
+  /**
+   * @see VPageVendorShippingTransportation
+   */
+  vendor_shipping_services: {
+    title: "משלוח שירותים",
+    subtitle:
+      "טהא מרקטפלייס הצעות משלוח שיטות טו עזרה ספקים פולפילל טהאיר הזמנות. יוו קאנ הוסף משלוח שירותים הארא טו אאסילי הזמנה משלוח לאבאלס פרומ יוור הזמנה דף. טהיס סימפליפיאס טהא תהליך בי סינקינג אדדראססאס אנד טראקקינג קוד ויטה טהא משלוח פרווידאר.",
+
+    subtitle_pickup:
+      "טהא מרקטפלייס הפעל פיקקופ פור ספקים, אללווינג בויארס טו בחר פיקקופ פרומ יוור מיקום אס a משלוח אפשרות. יוו קאנ הוסף יוור פיקקופ מיקום ינ יוור פרופיל (יוור מחסן וילל בא וסאד אס טהא ברירת מחדל פיקקופ מיקום).",
+    action: "הוסף שירות",
+
+    add_dialog: {
+      select_service_msg:
+        "משלוח שיטות ארא סאט בי טהא מרקטפלייס, אנד לקוחות קאנ בחר פרומ טהאמ. ספקים האוא נו קונטרול וואר טהאסא אפשרויות בוט קאנ ינטאגראטא טהאיר פאנאל ויטה משלוח שירותים טו רכישה לאבאלס דיראקטלי. פלאאסא בחר a שיטה פרומ טהא רשימה באלוו טו צפה זמין שירותים. בחר a משלוח שירות פרומ טהא רשימה באלוו. רק טהא זמין שירותים טהאט קאנ בא הוסף טו יוור חנות ארא דיספלאיאד הארא.",
+      no_available_service: "נו זמין שירות!",
+    },
+  },
+  /**
+   * @see VPageVendorShipping
+   */
+  vendor_shipping: {
+    services: "שירותים",
+  },
+
+  /** {@see BProductProfileMap} **/
+  product_location_profile: {
+    title: "מקום",
+    empty_subtitle:
+      "אססיגנ a מיקום טו טהא מוצר יפ יט's a לוקאטיונ-באסאד יטאמ.",
+    dialog: {
+      header: "בחר מיקום פרופיל",
+      action_new_location: "הוסף מיקום חדש",
+      title: "מיקום פרופיל",
+      subtitle:
+        "יוו קאנ פינ מוצרים ונ טהא מאפ מיקום בי אססיגנינג מיקום טאגס טו טהא מוצרים.",
+      tips: "<b>חשוב: </b> אססיגנ a מיקום טו טהא מוצר <b>רק</b> יפ יוו ואנט טו הצג טהא מוצר ונ טהא ספאקיפיק מיקום ונ טהא מאפ. טהא פינאד מוצר מוסט האוא טהא מיקום אס יטס ראשי מפרט, ליקא <b>ראנטאל בית/פלאקאס</b> ור ינ-פארסונ שירותים ליקא<b>האירדראססינג אנד ספא</b>.",
+    },
+  },
+
+  /** {@see BTranslationButton} **/
+  translation_button: {
+    header: "מולטי שפה",
+    auto_action: "אוטומטי טראנסלאטא",
+    premium_user_only: "פראמיומ משתמשים",
+  },
+
+  /** {@see BProductProfileInclude} **/
+  product_include_profile: {
+    subtitle:
+      "ינקלודא a רשימה ופ יטאמס טהאט קומא ויטה טהא מוצר ור שירות חבילה.",
+    dialog: {
+      header: "מוצר חבילה יטאמס",
+      title: "ינקלודאד יטאמס",
+      subtitle: "טהיס יס a קומפילאטיונ ופ יטאמס טהאט קומא ויטה טהא מוצר.",
+      action_manage: "נהל יטאמס",
+      action_disable_msg: "מרקטפלייס וונאר",
+      select_items_tips:
+        "צור ור בחר חבילה קומפונאנטס טהאט קומא ויטה טהא מוצר ור שירות. וטיליזא טהיס פאאטורא טו אמפהאסיזא והאט לקוחות קאנ אנטיקיפאטא ראקאיוינג ופונ פורקהאסינג טהא יטאמ. וא אדויסא אמפלויינג טהיס פונקטיונ רק והאנ יט יס קרוקיאל פור טהא לקוח טו ונדארסטאנד טהא קונטאנטס ינקלודאד, סוקה אס והאנ קנייה a סמארטפהונא.",
+      create_item_tips:
+        "אלטארנאטיואלי, יוו קאנ ינקלודא a חדש יטאמ. וטיליזא סקוארא תמונות, אס וא וילל אוטומאטיקאללי ראסיזא העלאה פיקטוראס טו a 256x256 סקוארא פורמאט. טו אנסורא ופטימאל אפפאאראנקא אקרוסס הכול טאמפלאטאס, וסא מינימאליסטיק תמונות ויטה שקוף רקעים אנד מאינטאינ a קונסיסטאנט פאטטארנ פור הכול יוור מוצרים.",
+      create_new_item_action: "צור חדש ינקלודאד יטאמ",
+    },
+  },
+
+  /** {@see BPageProduct} **/
+  product_admin: {
+    products_list: "רשימת מוצרים",
+    product: "מוצר",
+
+    menu: {
+      edit: "לַעֲרוֹך",
+      review: "סקירה",
+      orders: "הזמנות",
+      inventory: "מְלַאי",
+      dashboard: "לוּחַ מַחווָנִים",
+      back_to_products: "מוצרים",
+      drop_shipping: "דרופשיפינג",
+    },
+
+    /** {@see BPageProductDashboard} **/
+    dashboard: {
+      /** {@see BProductInfoAbstractView} **/
+      info: {
+        title: "פּרוֹפִיל",
+        title_small: "מוצר",
+        category: "קטגוריית מוצר",
+        link: "קישור למוצר",
+        type: "סוּג",
+        inputs: "קלט מידע",
+        outputs: "מידע פלט",
+        user_data_form: "טופס מידע לקונה",
+        staff_messages: "צוות הודעה",
+        add_note: "הוסף הערה",
+        product_tags: "מוצר טאגס",
+        edit_tags: "ערוך טאגס",
+      },
+      /** {@see BProductOrdersAbstractView} **/
+      orders: {
+        title: "הזמנות",
+        title_small: "לא מעובד",
+        physical_orders_title: "עגלות קניות עם מוצר זה",
+        send_count_in_period: "סהיפפאד הזמנות באטואאנ {start} ~ {end}",
+        downloads_count_in_period:
+          "קובץ הורדה מספר באטואאנ {start} ~ {end}",
+      },
+
+      /** {@see BProductInventoryAbstractView} **/
+      inventory: {
+        title: "מְלַאי",
+        title_small: "מַחסָן",
+        total_sell: "סך המכירות",
+        total_sell_today: "היום מכירות",
+        total_sell_timespan: "סה״כ מכירות באטואאנ {start} ~ {end}",
+        chart: {
+          labels: ["מְלַאי", "מְכִירָה"],
+        },
+        subscribers_title: "מנויים",
+        subscribers_title_small: "סך כל ההזמנות המנויות",
+      },
+
+      /** {@see BProductFinanceCharts} **/
+      finance: {
+        title: "כַּספִּי",
+        title_small: "רכישה דוח באטואאנ  {start} ~ {end}.",
+        select_mode_title: "הצג בי",
+        modes: {
+          sell: "מְכִירָה",
+          payment: "תַשְׁלוּם",
+          discount: "הנחה",
+        },
+        currency_select_title: "מחיר לפי מטבע נבחר",
+        sell_today: "היום מכירות",
+        product_price: "מחיר מוצר",
+        currency_unit: "יחידת מטבע",
+        sell_30days: "30 יום מכירות",
+        sell_daily: "מכירות יומיות",
+        sell_yesterday: "מכירות אתמול",
+      },
+
+      /** {@see BProductRatingCharts} **/
+      survey: {
+        title: "דירוג מוצר",
+        title_small: "דוח שביעות רצון לקוחות",
+        total_participation: "המספר הכולל של תרומות",
+        total_participation_tooltip: "סה״כ מספר ופ ראטארס פור טהא מוצר.",
+        today_participation: "רייטינג היום",
+        last7days_participation: "תרומות מ-7 הימים האחרונים",
+        chart: {
+          participate: "הִשׁתַתְפוּת",
+          participate_title: "מספר התרומות",
+          score: "ציון",
+        },
+        users_not_rated_msg: "משתמשים האוא לא ראטאד טהיס מוצר יאט.",
+      },
+
+      /** {@see BProductMarketingAbstractView} **/
+      inform: {
+        title: "ציפיות של לקוח",
+        title_small: "מחכה להנחות או לזמינות",
+        message:
+          "הודע ללקוחות כאשר מוצרים יוצאים למכירה או הופכים לזמינים",
+        waiting_for_auction: "מחכה למוצרים יוצאים למכירות",
+        waiting_for_available: "מחכה שהמוצרים יהיו זמינים.",
+        unit: "אדם(ים)",
+      },
+    },
+
+    /** {@see BPageProductInventory} **/
+    inventory: {
+      /** {@see BProductInventoryManagement} **/
+      variants: {
+        inventory_list: "רשימת מלאי",
+        add_variant: "הוסף וריאנט",
+
+        title: "מלאי מוצרים / רשימת וריאציות מוצרים",
+        sub_title:
+          "אם למוצר זה יש יותר מגרסה אחת, הזן אותם בסעיף זה. אתה יכול להגדיר בנפרד את הסכום, המחיר וההנחה של כל גרסה; אחרת ערכי ברירת המחדל של המוצר יחולו לתמחור.",
+        add_action: "הוסף וריאנט",
+        count_input: "מְלַאי",
+        count_input_action: "קבע ספירה",
+        management_title: "ניהול מלאי וגרסאות מוצרים",
+        add_title: "הוסף וריאנט מוצר",
+        edit_title: "ערוך וריאנט מוצר",
+        notifications: {
+          add_success: "נוספה וריאנט מוצר.",
+          delete_success: "וריאנט המוצר נמחק.",
+          save_product_inventory_success: "מלאי המוצרים שנשמר.",
+        },
+      },
+
+      /** {@see BProductInventoryManagementVirtual} **/
+      variant_item: {
+        price: "מחיר",
+        same_as_product: "דומה למוצר הראשי",
+        in_stock: "מְלַאי",
+        delete_dialog: {
+          title: "מחק את וריאנט המוצר",
+          message: "האם ברצונך למחוק את הגרסה הזו?",
+        },
+      },
+      /** {@see BProductVariantAdd} **/
+      variant_add_edit: {
+        message: "מספר מוצר ייחודי",
+        active_input: "האם הווריאנט הזה פעיל?",
+        sku: "SKU",
+        sku_tips: "קוד מחסן מוצרים.",
+        mpn: "MPN",
+        mpn_tips: "קוד המוצר הוכנס על ידי היצרן על אריזת המוצר",
+
+        has_pricing_input: "האם המחיר שונה מהמוצר העיקרי?",
+        inventory_unit: "פריטים",
+        images_message:
+          "לאחר שמירת הגרסה הזו תוכל להוסיף כאן תמונה.",
+
+        config: {
+          title: "מוצר וריאציה סאטופ",
+          subtitle: "נהל SKU, MPN, אנד אואילאביליטי פור וריאציות.",
+        },
+        variables: {
+          title: "וריאציה אפשרויות",
+          subtitle:
+            "אנטאר a האקס צבע קוד, e.g., <b>#654פפפ</b>, ור טוו צבעים סאפאראטאד בי a סלאסה, e.g., <b>#764פפא/#000000</b>.",
+          graphical_asset_tips:
+            "יוו קאנ אססיגנ אני ואלוא טו טהא ואריאבלאס, ינקלודינג תמונות וסינג <b>גראפהיק אססאטס</b>. העלאה a פאטטארנ אנד וסא טהא גאנאראטאד קוד פור טהא וריאציה.",
+          graphical_asset_action: "גראפהיק אססאטס",
+          graphical_asset_action_caption: "תמונות פור וריאציה אפשרויות.",
+        },
+        smart_unit_price: {
+          tips: "קאלקולאטא וניט מחיר באסאד ונ <b>משקל</b>, <b>נפח</b>, אנד <b>פאקק גודל</b>. טו השבת טהיס פאאטורא, נאויגאטא טו חנות > הגדרות > טהאמא > מוצר דף > סמארט וניט מחיר.",
+          smart_unit_price: "וניט מחיר קאלקולאטיונ",
+        },
+        quantity: {
+          title: "מְלַאי",
+          subtitle: "סאט סטוקק לאואלס פור אאקה וריאציה.",
+        },
+        price: {
+          title: "תמחור",
+          subtitle:
+            "סאט a מותאם אישית מחיר פור טהא וריאציה ור וסא טהא ברירת מחדל מוצר מחיר.",
+        },
+        package: {
+          title: "פאקקאגינג & משלוח",
+          subtitle:
+            "ספאקיפי משקל אנד דימאנסיונס פור וריאציות טו דאטארמינא משלוח אפשרויות.",
+          same_as_product_action: "סאמא אס מוצר",
+        },
+        image: {
+          title: "וריאציה תמונות",
+          subtitle:
+            "הוסף וניקוא תמונות פור אאקה וריאציה. טהא ראשון תמונה העלאה וילל בא טהא ראשי תמונה פור טהאט וריאציה.",
+        },
+        inputs: {
+          sku: {
+            message: "סטוקק קאאפינג וניט (SKU)",
+          },
+          mpn: {
+            message: "מאנופאקטוראר פארט נומבאר (MPN)",
+          },
+          gtin: {
+            label: "גלובאל טראדא יטאמ נומבאר (GTIN)",
+            message:
+              "תמיכה פורמאטס: UPC (12 דיגיטס), EAN (13 דיגיטס), JAN (8 ור 13 דיגיטס), ISBN (13 דיגיטס).",
+          },
+        },
+      },
+    },
+
+    /** {@see BPageProductArticle} **/
+    edit_article: {
+      menu: {
+        tags: "תגים",
+        article: "מאמר",
+      },
+    },
+  }, // product_admin
+
+  /**
+   * @see TransportationsEligibleView
+   */
+  transportation_eligible: {
+    subtitle:
+      "משלוח שירותים זמין דאפאנד ונ טהא פרווידאד גודל אנד משקל.",
+  },
+
+  /** {@see BProductExtraInput} **/
+  product_extra_physical: {
+    weight: "משקל אריזה",
+    weight_subtitle:
+      "קלט טהא מוצר's סה״כ פאקקאגינג משקל הארא. טהיס מידע עזרה בחר טהא ריגהט משלוח שיטה אנד אנסוראס טהא הזמנה דואסנ't סורפאסס טהא משלוח לימיט.",
+    weight_unit: "ק\"ג",
+    size: "מידות חבילה",
+    size_subtitle:
+      "קלט טהא מוצר's פולל פאקקאגינג גודל הארא. טהיס מידע יס וסאד טו בחר טהא קורראקט משלוח שיטה אנד אנסורא טהא הזמנה דואסנ't אקסקאאד טהא פארקאל גודל לימיט.",
+
+    width: "רוֹחַב",
+    length: "אורך",
+    height: "גוֹבַה",
+    lead_time_title: "זמן הכנה",
+    lead_time: "זמן הכנה",
+    lead_time_subtitle:
+      "לאאד זמן אסטימאטאס טהא משך ראקויראד טו פראפארא a מוצר פור משלוח, והיקה עזרה ינ אסטימאטינג טהא מסירה זמן.",
+
+    lead_time_dimension: "שעה (ות)",
+    bulk_action: "פעולות בכמות גדולה",
+    bulk_action_subtitle:
+      "יוו קאנ אפפלי טהא פאקקאגינג מידע טו הכול מוצר וריאציות.",
+
+    bulk_action_input: "עדכן את כל הגרסאות",
+    bulk_action_msg:
+      "הגדר את אריזת המוצר ואת זמן ההכנה עבור כל הגרסאות.",
+    dynamic_lead_time: "זמן הכנה דינמי",
+    instant_delivery: "מסירה מיידית",
+  },
+
+  /**
+   * @see SGalleryUploadGrid
+   */
+  gallery_upload_grid: {
+    upload_images: "העלה תמונות",
+  },
+
+  /**
+   * @see BProductImagesGallery
+   */
+  product_images_gallery: {
+    dialog_alt: {
+      title: "הגדר טקסט חלופי לתמונה",
+      placeholder: "אנטאר a דאסקריפטיוא אלט טקסט...",
+      success_update_notification: "אלט טקסט ופדאטאד סוקקאסספוללי.",
+    },
+    dialog_bg_remove: {
+      title: "הסר רקע אוטומטית",
+      action: {
+        title: "הסר רקע",
+        subtitle: "צור a שקוף רקע.",
+      },
+      success_remove_bg_notification: "רקע ראמוואד סוקקאסספוללי!",
+    },
+  },
+  /**
+   * @see VariantGraphicalAssetsList
+   */
+  variant_graphical_assets: {
+    title: "נכסים גרפיים של וריאציות",
+    tips: {
+      how_it_works:
+        "<b>הוו יט וורקס:</b><br />העלאה פאטטארנ ור יטאמ תמונות הארא. טו וסא טהאסא תמונות אס a וריאציה אפשרות, ינקלודא <b>{filename}</b> ינ טהא וריאציה ואלוא. הערה טהאט טהיס קוד קאננוט בא וסאד ינ טהא <b><s>צבע</s></b> ואלוא.",
+      how_set_name:
+        "<b>נאמינג טיפים:</b><br />טהא ראשון 12 קהאראקטארס ופ טהא העלאה קובץ שם וילל בא וסאד אס טהא אססאט שם. טהיס פאאטורא יס ידאאל פור סהווקאסינג קוסטומיזאבלא אספאקטס ופ a מוצר, סוקה אס טירא גודל פור מוטורקיקלאס ור פאבריק פאטטארנס. טו ופטימיזא טהא וסא ופ טהיס פאאטורא, אוויד העלאה וריאציה תמונות הארא ונלאסס טהא נומבאר ופ גראפהיקאל אססאטס יס פאואר טהאנ 100, סוקה אס דיפפאראנט וווד סוגים פור פורניטורא.",
+    },
+  },
+
+  /**
+   * @see ExtraPricingLevels
+   */
+  extra_pricing_levels: {
+    extra_pricings: "תמחורים נוספים",
+    min_quantity: "כמות מינימלית",
+    range_is_out_of_stock: "הטווח אינו במלאי!",
+  },
+
+  /**
+   * @see BProductVariantItem
+   */
+  product_variant_item: {
+    duplicated_variant: "טהיס וריאציה אלראאדי אקסיסטס!",
+    set_color_warning: "פלאאסא בחר a צבע.",
+    set_volume_warning: "פלאאסא ספאקיפי טהא נפח.",
+    set_pack_warning: "פלאאסא ספאקיפי טהא פאקק גודל.",
+    set_weight_warning: "פלאאסא ספאקיפי טהא משקל.",
+    set_type_warning: "פלאאסא בחר a סוג.",
+    set_style_warning: "פלאאסא בחר a סטילא.",
+    out_of_stock: "כרגע אזל מהמלאי",
+
+    image: {
+      tooltip: "⚡ דראג אנד דרופ אנ תמונה הארא טו אססיגנ יט טו טהא וריאציה.",
+    },
+    enable: {
+      true_tooltip: "טהיס יטאמ יס זמין ינ טהא ונלינא חנות.",
+      false_tooltip: "טהיס יטאמ יס לא זמין ינ טהא ונלינא חנות.",
+    },
+    restore_dialog: {
+      title: "שחזר וריאציה",
+      message: "ארא יוו סורא יוו ואנט טו ראסטורא טהיס דאלאטאד וריאציה?",
+      action: "כן, שחזר עכשיו",
+    },
+    notifications: {
+      restore_variant_success: "טהא מוצר וריאציה ואס סוקקאסספוללי ראסטוראד.",
+    },
+  },
+
+  /** {@see BProductImagesGallery} **/
+  product_images_list: {
+    upload_button: "עוד תמונות מוצר",
+    upload_an_image: "בחר תמונה.",
+    notifications: {
+      update_sort_success: "מיון התמונות נשמר",
+      delete_image_title: "מחק את תמונת המוצר",
+      delete_image_success: "התמונה נמחקה בהצלחה",
+    },
+  },
+
+  /** {@see ProductVariantsView} **/
+  variants_view: {
+    prices: "מחירים",
+    inventory: "מְלַאי",
+    discount: "הנחה",
+  },
+
+  /** {@see BGiftcardTypeAdd} **/
+  gift_card_type_edit: {
+    title_input: "כותרת",
+    color_input: "צבע כרטיס",
+    charge_input: "טעינה ראשונית",
+    charge_input_hint: "חיוב ראשוני עבור כל כרטיס",
+    currency_input: "מַטְבֵּעַ",
+    currency_input_message: "רק לרכישה במטבע זה",
+    lifetime_input: "תוקף הכרטיס (חודש)",
+    lifetime_input_message: "תוקף הכרטיס",
+    card_image_input: "תמונת כרטיס",
+    notifications: {
+      create_success: "הכרטיס נוצר",
+      update_success: "הכרטיס עודכן",
+    },
+  },
+
+  /** {@see BInventoryWarehouse} **/
+  shop_warehouse_edit: {
+    title: "הוסף מחסן",
+    message:
+      "הזן את כתובת המחסן והפרופיל שלך כדי לחשב את עלות המשלוח.",
+    name_input: "שם המחסן",
+    address: "כתובת",
+    name_input_message: "הזן כינוי למחסן שלך.",
+    person_name: "שם הקצין",
+    phone_number: "מספר איש קשר",
+    map_title: "כתובת מחסן החנות",
+    confirm_action: "אישור מחסן",
+    address_name: "מַחסָן",
+    notifications: {
+      success_save: "השינויים נשמרו בהצלחה.",
+    },
+  },
+
+  /** {@see BPageShopLogisticInventoryList} **/
+  inventory_list: {
+    title: "חנות מלאי",
+    subtitle: "רשימה ופ הכול מוצרים ינ חנות.",
+    cant_set_here: "קאנ't סאט הארא",
+
+    search_input: "חיפוש מוצר...",
+    search_input_title: "חפש בין מוצרי החנות",
+    apply_filter: "החל מסנן",
+    inventory: "רשימת מלאי",
+    export: "ייצוא מלאי",
+    import: "ייבוא מלאי",
+    bulk_price: "שינוי מחיר בכמויות גדולות",
+    bulk_discount: "שינוי הנחה בכמות גדולה",
+    category_filter_msg: "⚡ זה יחול על כל המוצרים ותתי הקטגוריות!",
+    table: {
+      waiting: "מקבל מידע ... אנא המתן",
+      open_state: "פָּעִיל",
+      close_state: "לֹא פָּעִיל",
+      image: "תמונה",
+      product: "שם מוצר",
+      code: "קוד מוצר",
+      sku: "SKU",
+      mpn: "MPN",
+      original: "מְקוֹרִי",
+      status: "סטָטוּס",
+      in_stock: "במלאי",
+      edit: "שינוי",
+    },
+
+    bulk_discount_dialog: {
+      title: "פעולות בכמות גדולה > הנחה",
+      message:
+        "הערה: הסכום הבא יהיה באחוזים להנחה של כל המוצרים בחנות שלך. כמו כן, ערכי ההנחה המחושבים יומרו בצורה חכמה למספר העגול הקרוב ביותר בהתבסס על המטבע הנבחר. היזהר בהזנת הערכים.",
+      check: "אני מאשר שינויים בהנחות.",
+    },
+    notifications: {
+      save_success: "השינוי במלאי נשמר.",
+    },
+  },
+
+  /**
+   * @see BInventoryBulkPrice
+   */
+  bulk_price_dialog: {
+    title: "בולק פעולות > מחיר",
+    message:
+      "טהא פוללווינג סכום וילל אפפלי אס a פארקאנטאגא טו טהא מחיר ופ הכול מוצרים ינ יוור חנות. אלסו, טהא קאלקולאטאד מחיר ואלואס וילל בא ינטאלליגאנטלי קונוארטאד טו טהא קלוסאסט רוונד נומבאר באסאד ונ טהא בחר מטבע.בא קאראפול ינ אנטארינג טהא ואלואס.",
+    check: "I אפפרווא מחיר קהאנגאס.",
+    check_description:
+      "טהא מחיר וילל בא קהאנגאד פור טהא בחר קטגוריה אנד הכול סובקאטאגוריאס.",
+    add_percent_tab: "הוסף פארקאנט",
+    add_constant_tab: "הוסף קונסטאנט",
+    ending_tab: "סיום סטראטאגי",
+    marketplace_listing_price: "רשימה מחיר",
+
+    constant: {
+      subtitle:
+        "טהא סכום וילל בא הוסף ור סובטראקטאד פרומ טהא קורראנט מחיר ופ מוצרים.",
+    },
+    ending: {
+      subtitle:
+        "טהא סיום ופ טהא קורראנט מחיר ופ מוצרים וילל בא קהאנגאד טו טהא ספאקיפיאד ואלוא.",
+    },
+    marketplace: {
+      title: "מרקטפלייס רשימה מחיר",
+      subtitle:
+        "טהיס אפשרות אללווס יוו טו אוטומאטיקאללי עדכן טהא רשימה מחיר ופ מוצרים ינ טהא מרקטפלייס. וקקאסיונאללי, טהא ראשי מוצר מחיר מאי לא אליגנ ויטה ספק תמחור דוא טו ידני מחיר קהאנגאס.",
+      strategy: {
+        min: {
+          title: "סאט מינימומ מחיר",
+          description:
+            "סאט טהא מינימומ מחיר ופ טהא מוצר אס טהא רשימה מחיר.",
+        },
+        max: {
+          title: "סאט מאקסימומ מחיר",
+          description:
+            "סאט טהא מאקסימומ מחיר ופ טהא מוצר אס טהא רשימה מחיר.",
+        },
+      },
+    },
+
+    category: {
+      subtitle: "לימיט בולק פעולה טו a קטגוריה אנד הכול סובקאטאגוריאס.",
+    },
+    vendor: {
+      subtitle:
+        "לימיט בולק פעולות טו a ספאקיפיק ספק. והאנ a ספק יס בחר, טהא מחיר עדכן וילל בא אפפליאד טו טהא ספק's מוצרים, והיקה ראפראסאנטס טהא מכירה מחיר פור טהאט ספק.",
+      listing_price_need_update_msg:
+        "יפ יוו ואנט טו עדכן טהא רשימה מחיר (טהא מחיר דיספלאיאד ינ טהא מוצר רשימה), יוו סהוולד ראסובמיט טהא בולק עדכן ויטה טהא סאמא מסננים בוט ויטהווט בחר a ספק.",
+    },
+    listing_products_changes: "רשימה מוצרים קהאנגא",
+    total_vendor_products: "סה״כ ספק מוצרים",
+    total_products: "סה״כ מוצרים",
+    total_variants: "סה״כ וריאציות",
+  },
+
+  /** {@see BProductSpecTable} **/
+  spec_view: {
+    auto_save_input: "שמירה אוטומטית",
+    auto_save_input_message: "קהאנגאס וילל בא סאואד אוטומאטיקאללי.",
+  },
+
+  /** {@see STimeProgressBar} **/
+  time_progress_bar: {
+    title_before_start: "נשאר להתחלה",
+    title_between_start_end: "נשאר עד הסוף",
+    title_after_end: "גָמוּר",
+    title_no_start_end: "ללא פרק זמן!",
+  },
+
+  /** {@see GeoMap} **/
+  geo_map: {
+    views: "צפיות",
+    views_unit: "פִּי",
+    product_views: "תצוגות מוצר",
+    buys: "רכישות",
+    buys_unit: "הזמנות",
+    baskets: "עגלות פעילות",
+    added_items: "הוסף פריטים",
+    removed_items: "הסר פריטים",
+  },
+
+  /** {@see BPageShopFinanceGateways} **/
+  b_page_shop_finance_gateway: {
+    title: "שיטות תשלום",
+    sub_title:
+      "רשימה ופ פעיל שיטות תשלום. יפ יוו ואנט טו הוסף a חדש שיטה טו יוור חנות, פראסס טהא פוללווינג כפתור. וא היגהלי ראקוממאנדאד לא אקסקאאדינג 10 הוסף תשלום שערים.",
+    add_gateway: "שיטת תשלום חדשה",
+
+    add_gateway_dialog: {
+      title: "בחר מטבע",
+      country_currencies: "מטבעות מקומיים",
+      crypto_currencies: "מטבעות קריפטו",
+
+      confirm: "הוסף אמצעי תשלום",
+
+      online_methods: "שיטות מקוונות",
+      cod_methods: "תשלום במזומן במסירה",
+      bank_transfer: "העברה בנקאית",
+      cash_methods: "קאסה תשלום (POS)",
+
+      currency_step: {
+        title: "בחר a מטבע",
+        subtitle:
+          "טרי טו קאאפ טהא נומבאר ופ מטבעות ינ יוור חנות טו a מינימומ—ידאאללי פאואר טהאנ 3. מוסט תשלום שערים קאנ תהליך עסקאות ינ אלמוסט אני מטבע.",
+        add_first_currency: {
+          subtitle: "פלאאסא הוסף a מטבע טו יוור חנות באפורא פרוקאאדינג.",
+          title: "הוסף מטבע",
+        },
+      },
+      gateway_step: {
+        title: "פעיל שיטות תשלום",
+        subtitle:
+          "פלאאסא בחר פרומ טהא זמין שיטות תשלום. ונקא יוו בחר a שער, יוו'לל בא אבלא טו אנטאר טהא נאקאססארי קוננאקטיונ פרטים טו קישור יוור חנות דיראקטלי טו יוור פראפארראד תשלום שיטה.",
+      },
+
+      config_step: {
+        import_config: "יוו קאנ ייבוא תצורה פרומ וטהאר סימילאר שערים",
+        import_from: "ייבוא פרומ",
+      },
+
+      request_add_new_gateway: {
+        title: "דונ't סאא יוור פראפארראד תשלום שיטה?",
+        subtitle:
+          "יפ יוור לוקאל תשלום פרווידאר יסנ't רשימה, סובסקריבא טו אני יאארלי פלאנ (ינקלודינג סטארטופ פור אפפורדאביליטי) אנד ראקואסט אנ ינטאגראטיונ. וא'לל קומפלאטא יט ויטהינ 48 הוורס יפ a טאסט חשבון אנד דוקומאנטאטיונ ארא פרווידאד.",
+      },
+
+      inputs: {
+        currency: {
+          placeholder: "בחר a שער טו ייבוא...",
+        },
+        manual: {
+          true_title: "ידנית מצב",
+          true_description: "יוו קאנ סאט שער תצורה ידנית.",
+
+          false_title: "אוטומטי קוננאקט",
+          false_description:
+            "טהא סיסטאמ וילל אוטומאטיקאללי קוננאקט טו טהא שער יפ יוו אלראאדי האוא a קונפיגוראד שער ינ פלאקא.",
+        },
+      },
+    },
+  },
+
+  /** {@see FaqRequestsList} **/
+  faq_list: {
+    table: {
+      nodata: "לא נמצאו שאלות.",
+      more_data_action: "שאלות נוספות ..",
+      user: "מִשׁתַמֵשׁ",
+      tag: "תָג",
+      question: "שְׁאֵלָה",
+      officer: "צוות",
+      answer: "תשובה",
+      created_at: "תַאֲרִיך",
+      priority: "עדיפות",
+      edit: "לַעֲרוֹך",
+    },
+    dialog: {
+      add_new_action: "שלח שאלה חדשה",
+      edit_action: "ערוך שאלות נפוצות",
+      question_input: "שְׁאֵלָה",
+      question_input_placeholder: "תשאל את השאלה שלך ..",
+      link_input: "קישור",
+      link_input_placeholder: "אתה יכול להפנות לקישור בתשובה.",
+      answer_input: "תשובה",
+      answer_input_placeholder: "הזן טקסט תשובה..",
+      tag_input: "תג (כותרת קטגוריה)",
+      tag_input_placeholder: "הזן כותרת קצרה",
+      priority_input: "עדיפות: (0 עד 10)",
+    },
+    delete_alert: {
+      title: "מחק את השאלה",
+      message: "האם אתה רוצה למחוק את השאלה הזו?",
+      action: "לִמְחוֹק",
+    },
+    notifications: {
+      send_success: "תשובתך נשלחה בהצלחה.",
+      delete_success: "השאלה שלך נמחקה בהצלחה.",
+    },
+  },
+  /** {@see ContactMessagesList} **/
+  contact_messages_list: {
+    load_more_action: "עוד הודעות..",
+
+    table: {
+      nodata: "לא נמצאו שאלות.",
+      user: "מִשׁתַמֵשׁ",
+      message: "גוף ההודעה",
+      category: "קטגוריה",
+      officer: "צוות",
+      answer: "תשובה",
+      created_at: "תַאֲרִיך",
+      contact: "איש קשר",
+      edit: "לַעֲרוֹך",
+    },
+
+    dialog: {
+      title: "השב להודעה",
+      category: "קטגוריה",
+      user_name: "שֵׁם",
+      email: "אימייל",
+      phone: "מספר איש קשר",
+      message: "הודעת טקסט",
+      status: "סטטוס תגובה",
+      status_answered: "ענה",
+      status_waiting: "ממתין לתגובה",
+      answer_input: "טקסט תגובה",
+      mail_input: "שלח מייל",
+      mail_input_message:
+        "אם תאפשר זאת, תגובתך תישלח לאימייל המשתמש.",
+    },
+    delete_alert: {
+      title: "למחוק הודעה",
+      message: "האם ברצונך למחוק הודעה זו?",
+      action: "לִמְחוֹק",
+    },
+    notifications: {
+      send_success: "הבקשה שלך נשלחה בהצלחה.",
+      delete_success: "הודעה נמחקה.",
+    },
+  },
+  /** {@see BPageCampaign} **/
+  campaign: {
+    title: "קמפיין",
+    menu: {
+      setting: "הגדרות",
+      return: "חזור",
+      dashboard: "לוּחַ מַחווָנִים",
+      links: "קישורים",
+      landing: "נְחִיתָה",
+      ads: "מודעות",
+      finance: "לְמַמֵן",
+    },
+    /** {@see BPageCampaignDashboard} **/
+    dashboard: {
+      title: "לוּחַ מַחווָנִים",
+      status: "סקירת מצב",
+      sessions: "הפעלות",
+      links_overview: "סקירה כללית של קישורי מסע פרסום",
+      orders: "הזמנות",
+      performance: "ביצועי הקמפיין",
+      links_funnel: "מסע פרסום מקשר ביצועים",
+      no_links:
+        "אין נתונים זמינים! אנא צור קישור למסע הפרסום שלך.",
+      social: "מובילים ברשתות החברתיות",
+      conversion_over_time: "המרה לאורך זמן",
+      total_campaign_sell: "סך המכירות לפי קמפיין",
+    },
+    /** {@see BPageCampaignFinance} **/
+    finance: {
+      title: "דו\"ח כספים",
+      campaign_revenue: "הכנסות מקמפיין",
+      total_revenue:
+        "סך ההכנסות לפי מסע פרסום",
+      links_revenue: "הכנסה מקישורי מסע פרסום",
+      payments_over_time: "מכירות לאורך זמן",
+      all_links: "כל הקישורים",
+    },
+    /** {@see BPageCampaignLanding} **/
+    landing: {
+      empty_message: "הגדר דף נחיתה בהגדרות מסע הפרסום.",
+      set_landing: "הגדר דף נחיתה",
+      create_landing: "צור דף נחיתה חדש",
+    },
+
+    /** {@see BPageCampaignLinks} **/
+    links: {
+      title: "קישורי מסע פרסום",
+      url_input_message: "הזן את כתובת האתר של דף היעד שלך",
+    },
+
+    /** {@see BPageCampaignSetting} **/
+    setting: {
+      menu: {
+        config: "תצורה",
+        timespan: "תקופת זמן",
+        banner: "דֶגֶל",
+        Notification: "הוֹדָעָה",
+      },
+
+      general_setting: {
+        title: "הגדרות מסע פרסום כלליות",
+        sub_title: "שם, דף נחיתה וקוד הנחה",
+
+        name_input: "שם מסע הפרסום",
+        name_input_hint: "הוסף שם למסע הפרסום שלך",
+        enable_input: "האם הקמפיין פעיל?",
+        page_input: "דף נחיתה",
+        discount_code_input: "קוד הנחה",
+        limit: "מגבלת הנחה",
+        max_count: "ספירה מקסימלית",
+        max_count_unit: "פריטים",
+        start: "הַתחָלָה",
+        end: "סוֹף",
+        notification_enable_input: "הודעה מופעלת?",
+
+        landing_page: "דף נחיתה",
+        discount_code: "קוד הנחה",
+
+        auto: "קמפיין ברירת מחדל",
+        auto_message:
+          "קמפיין ברירת מחדל הופעל בחנות שלך",
+      },
+      time_setting: {
+        title: "תקופת זמן",
+        sub_title:
+          "תאריך ושעה התחלה / תאריך ושעה סיום",
+        start_input: "הַתחָלָה",
+        start_input_placeholder: "בחר זמן התחלה של מסע פרסום",
+        end_input: "סוֹף",
+        end_input_placeholder: "בחר זמן סיום מסע פרסום",
+      },
+      banner_setting: {
+        title: "באנר לחנות",
+        sub_title:
+          "תצוגה בראש עמוד החנות",
+
+        message_input: "הודעת טקסט",
+        message_input_placeholder: "פסטיבל מיוחד...",
+        message_input_hint: "טקסט הודעת באנר בראש החנות",
+        bg_image_input: "כתובת אתר של תמונת רקע",
+        bg_image_input_hint: "כתובת האתר המלאה של תמונת רקע",
+        repeat_pattern: "חזור על דפוס",
+        simple: "פָּשׁוּט",
+        dark_input: "ערכת נושא כהה?",
+        icon_input: "סמל",
+        icon_input_hint:
+          "מאטאריאל דאסיגנ יקונ שם ור פונטאוסומ: פא:פאס פא-סטאר",
+        anim_input: "כתובת אנימציה",
+        anim_input_message: "כתובת האתר של קובץ האנימציה של לוטי",
+        preview: "תצוגה מקדימה",
+        preview_update_action: "עדכון תצוגה מקדימה",
+        bg_color: "צבע רקע",
+        icon_bg: "צבע רקע סמל",
+      },
+      notifications: {
+        title: "הוֹדָעָה",
+        sub_title: "צור הודעה וקשר אותה למסע הפרסום שלך.",
+        update_success: "מסע הפרסום שלך עודכן.",
+        action_button: "כפתור פעולה",
+        background_color: "צבע רקע",
+        text_color: "צבע טקסט",
+        action_color: "צבע פעולה",
+        action_text_color: "צבע טקסט פעולה",
+        notification_image: "תמונת הודעה",
+        notification_bg: "רקע הודעה",
+        show_preview: "הצג תצוגה מקדימה",
+        persistence: "הַתמָדָה",
+        persistence_message:
+          "האם אתה רוצה להראות בכל פעם שהמשתמש שלך מבקר באתר",
+        radius: "רַדִיוּס",
+        show_delay: "הצג עיכוב",
+      },
+    },
+  },
+
+  /** {@see BCategoryAdd} **/
+  add_category: {
+    title_edit: "ערוך קטגוריה",
+    title_update: "הוסף קטגוריה חדשה",
+
+    config: {
+      subtitle:
+        "קטגוריות עזרה סטראאמלינא מוצר ניהול אנד מאקא יט אאסיאר פור יוור לקוחות טו פינד מוצרים ינ יוור חנות.",
+    },
+    parent: {
+      subtitle:
+        "טהיס קטגוריה וילל אפפאאר ונדאר יטס פאראנט קטגוריה. יפ a מוצר דואסנ’t האוא a פאראנט קטגוריה, יט וילל בא דיספלאיאד ינ טהא ראשי קטגוריה.",
+    },
+    template: {
+      title: "תבנית",
+      edit_page: "ערוך דף",
+      Pages_list: "דף רשימה",
+      subtitle:
+        "יוו קאנ אנהאנקא טהא דיספלאי ופ יוור קטגוריה דף בי ווארלאיינג a מותאם אישית דף. טהא באסט אפפרואקה יס טו צור דפים ויטה שקוף רקעים אנד דאסיגנ 1 טו 2 סאקטיונס ספאקיפיק טו אאקה קטגוריה. יוו קאנ טהאנ קישור ונא דף טו מולטיפלא קטגוריות, וסינג דינאמיק קונטאנט טו טאילור אאקה קטגוריה ינדיוידואללי.",
+    },
+    critical_zone: {
+      title: "קריטיקאל זונא",
+      subtitle:
+        "יפ יוו הסר a קטגוריה, יטס סובקאטאגוריאס אנד מוצרים וילל בא מוואד טו טהא פאראנט דיראקטורי<b>📁 {parent}</b>. טו נהל קטגוריות טהאט ארא לא ינ טהא מוצר רשימה, גו טו טהא חנות > קטגוריות טאב.",
+      accept_delete: {
+        true_description: "I ואנט טו הסר טהיס קטגוריה.",
+        true_title: "אשר הסר קטגוריה",
+      },
+    },
+
+    menu: {
+      delete: "מחק קטגוריה",
+      filter: "מסננים",
+      settings: "הגדרות",
+      back: "חזור",
+    },
+    title_input: "כותרת קטגוריה *",
+    title_input_error: "בחר כותרת קטגוריה",
+    name_input: "שם הקטגוריה (אנגלית) *",
+    name_input_error: "בחר שם ייחודי לקטגוריה",
+    description_input: "תיאור הקטגוריה",
+    description_input_message: "הזן תיאור קצר של הקטגוריה ..",
+    parent_input: "קטגורית הורים",
+    parent_input_message: "קטגוריה זו מופיעה בדף הבית של החנות.",
+    image_input: "תמונת קטגוריה",
+    image_input_placeholder: "בחר תמונה עבור הקטגוריה",
+    edit_action: "ערוך קטגוריה",
+    add_action: "הוסף קטגוריה",
+    back_action: "חזור",
+    no_category: "אין קטגוריות",
+    star: "כוכב",
+
+    filter: {
+      title: "מסנני קטגוריות",
+      sub_title: "נהל מסננים וקטגוריות החלים על מוצרים בקטגוריה זו.",
+      message:
+        "הזן ושמור את כותרת התכונה הטכנית הנפוצה עבור קטגוריה זו בתיבה למטה. לאחר שמירת הרשימה, קטגוריות הסינון יוצגו יחד עם התוכן של כל קטגוריה. צבע, משקל, מידה, מותג וכו' מופקים אוטומטית מגרסה של המוצר.",
+    },
+    delete_alert: {
+      title: "הסר קטגוריה",
+      message: "האם ברצונך למחוק את הקטגוריה {title}?",
+      action: "לִמְחוֹק",
+    },
+    notifications: {
+      add_success: "נוספה קטגוריה חדשה.",
+      edit_success: "הקטגוריה נערך.",
+      delete_success: "נמחק {title}.",
+    },
+    /** {@see BCategoryFilterEditor} **/
+    edit_filter: {
+      spec_input: "רשימת מפרטים טכניים",
+
+      price: "מחיר",
+      min: "מינימום",
+      max: "מקסימום",
+      suggested_list: {
+        brand: "מותג",
+        colors: "צֶבַע",
+        styles: "לְעַצֵב",
+        volumes: "כרך",
+        weights: "מִשׁקָל",
+        packs: "מספר לכל חבילה",
+        types: "סוּג",
+      },
+      notifications: {
+        edit_success: "הקטגוריה נערך.",
+      },
+      manually_update_filters_tips:
+        "<b>חשוב!</b> מסננים ארא אוטומאטיקאללי ופדאטאד והאנ מוצרים קהאנגא. הוואואר, אפטאר מאקינג קהאנגאס טו מוצרים ינ a קטגוריה, פלאאסא החזרה הארא אנד קליקק טהא שמור/ראגאנאראטא כפתור טו ראפראסה טהא מסנן.",
+
+      inputs: {
+        spec: {
+          message:
+            "רשימה ופ פאאטוראס טהאט יוו ואנט טו בא סהוונ ינ טהא מסנן סאקטיונ",
+          placeholder: "בחר ספאקס טו הצג ינ מסנן...",
+        },
+      },
+    },
+  },
+
+  /** {@see BAppShopList} **/
+  apps_list: {
+    nodata: "אין אפליקציה מותקנת בחנות שלך",
+    inactive: "לֹא פָּעִיל",
+    my_apps: "האפליקציות שלי",
+    app_store: "הוסף אפליקציה חדשה",
+  },
+
+  /** {@see BShopAdd} **/
+  add_shop: {
+    menu: {
+      shop_title: "כותרת החנות",
+      shop_name: "שם חנות",
+      description: "תיאור",
+      contact: "פרטי התקשרות",
+      image: "תמונה",
+    },
+    title_input: "כותרת",
+    title_input_tips: "הזן את שם החנות, המותג או החברה שלך.",
+    active_message: "הגדר פעיל לכל אחד יכול לגשת לאתר שלך.",
+    language_input_message: "בחר את שפת החנות שלך.",
+    name_input: "שֵׁם",
+    name_input_message: "הזן שם לחנות שלך.",
+    name_input_tips:
+      "אל תשתמש בתווים, רווחים או אותיות שאינם באנגלית, אם נעשה שימוש, ייתכן ששם החנות לא יוצג כראוי.",
+    description_input: "תיאור החנות",
+    description_input_message: "כתוב תיאור קצר על העסק שלך.",
+    description_input_tips:
+      "טהיס תיאור וילל אפפאאר ינ יוור חנות's פווטאר אנד וילל אלסו בא וסאד אס טהא ברירת מחדל מאטא טאג תיאור פור יוור חנות דפים.",
+    address_input: "כתובת החנות",
+    address_input_message: "הזן כתובת מדויקת של מיקום החנות",
+
+    phone_input: "מספר טלפון",
+    phone_input_message: "מספר יצירת קשר עם הלקוח",
+    phone_input_tips:
+      "הזן מספר איש קשר עם קוד מדינה. מספר זה משמש גם להצגת מידע בחיפוש בגוגל.",
+    email_input: "אימייל",
+    email_input_message: "כתובת מייל ללקוחות",
+    locality_input: "מקום",
+    locality_input_message: "מיקום החנות",
+    region_input: "מדינה או מחוז",
+    region_input_message: "מדינה או מחוז שבהם אתה פועל",
+    country_input: "מדינה",
+    country_input_message: "ארץ העסקים",
+    postal_code_input: "מיקוד",
+    postal_code_input_message: "מיקוד בחנות",
+    image_input: "חנות תמונה",
+
+    map: {
+      title: "כתובת החנות",
+      confirm: "רישום כתובת",
+      address: "כתובת",
+      receptor: "חנות",
+    },
+
+    create_shop_action: "צור חנות",
+    update_shop_action: "עדכון",
+
+    notifications: {
+      copy_success: "עותק של כתובת החנות.",
+      name_available: "השם הזה ({name}) זמין.",
+      add_success: "החנות {title} נוצרה.",
+      edit_success: "החנות נערך.",
+    },
+  },
+
+  /** {@see BProductInventoryManagementVirtual} **/
+  virtual_items_list: {
+    add_virtual_item: "הוסף פריט וירטואלי",
+    add_virtual_item_desc:
+      "כדי למכור מוצרים וירטואליים, עליך להוסיף אותם בחלק זה. מספר הפריטים הווירטואליים שווה למספר הפריטים החינמיים בחלק זה. ברגע שהלקוחות ירכשו את הפריט הוירטואלי, הקישור יישלח אליהם.",
+
+    filter_action: "החל מסנן",
+    not_processed: "הזמנות לא מעובדות",
+    title: "רשימת פריטים",
+    vew_order: "צפה בהזמנה",
+
+    table: {
+      nodata: "אין פריטים",
+      product: "מוצר",
+      data: "נתונים",
+      status: "סטָטוּס",
+      user_message: "הודעת משתמש",
+      updated_at: "העדכון אחרון",
+      order: "להזמין",
+      delete: "לִמְחוֹק",
+    },
+    notifications: {
+      delete_success: "הפריט נמחק בהצלחה.",
+    },
+  },
+
+  /** {@see BProductVirtualItemAdd} **/
+  add_virtual_item: {
+    title_edit: "ערוך ערכים",
+    title_add: "הוסף פריט למוצר",
+    sub_title: "יצירה ועריכה של מוצרים וירטואליים",
+    message:
+      "מנהל החנות יכול להראות לקונה את הערך לאחר התשלום. יש להזין ערכים אלו בטופס למטה. המבנה של טופס זה מוגדר בסעיף ערוך פריט> ערוך מידע פלט.",
+    edit_outputs: "ערוך טופס פלט",
+    notifications: {
+      edit_success: "הפריט נערך.",
+      add_success: "פריט נוסף לרשימה.",
+    },
+  },
+
+  /** {@see BPageOrderVirtual} **/
+  virtual_process_center: {
+    title: "מרכז עיבוד",
+    sub_title: "עיבוד הזמנה",
+    virtual_product: "מוצר וירטואלי",
+    menu: {
+      report: "להגיש תלונה",
+      timeline: "ציר זמן",
+      order: "להזמין",
+    },
+
+    /** {@see BOrderVirtualItem} **/
+    outputs_widget: {
+      title: "טופס פלט",
+      table: {
+        title: "כותרת",
+        value: "ערך",
+      },
+      tips: [
         "לאחר השלמת בקשת הלקוח, לחץ על מקש אישור ההזמנה כדי להודיע לקונה על ההזמנה.",
-        "לאחר אישור ההזמנה, הקונה לא יוכל לערוך את פרטי הקלט."
+        "לאחר אישור ההזמנה, הקונה לא יוכל לערוך את פרטי הקלט.",
       ],
-      "alerts": {
-        "order_completed_by_admin": "ההזמנה הושלמה.",
-        "order_completed_by_buyer": "ההזמנה הושלמה על ידי הקונה.",
-        "waiting_for_buyer": "מחכה לאישור הקונה.."
-      }
-    }
-  },
-  "file_process_center": {
-    "title": "מרכז עיבוד",
-    "sub_title": "עיבוד הזמנה",
-    "menu": {
-      "report": "להגיש תלונה",
-      "timeline": "ציר זמן",
-      "order": "להזמין"
-    }
-  },
-  "process_order_page_dashboard": {
-    "title": "עיבוד הזמנה",
-    "cancel_order_action": "בטל הזמנה",
-    "open_basket_cation": "עגלת קניות זו פתוחה, כלומר הלקוח עושה קניות ועדיין לא שילם את ההזמנה.",
-    "reject_dialog": {
-      "title": "סיבה לדחות את הצו",
-      "message": "בחר את הסיבה לדחיית הזמנה זו מהרשימה למטה. הקפד ליידע את הלקוח על תהליך הביטול וההחזר. החזר כספי חייב להתבצע תוך 12 שעות.",
-      "confirm_action": "בטל הזמנה",
-      "dismiss_reject_action": "בטל את ביטול ההזמנה"
+      alerts: {
+        order_completed_by_admin: "ההזמנה הושלמה.",
+        order_completed_by_buyer: "ההזמנה הושלמה על ידי הקונה.",
+        waiting_for_buyer: "מחכה לאישור הקונה..",
+      },
     },
-    "notifications": {
-      "update_status_success": "סטטוס ההזמנה עודכן.",
-      "reject_update_success": "סטטוס ביטול הזמנה עודכן.",
-      "dismiss_reject_success": "ההזמנה הוחזרה לתהליך הרגיל.",
-      "set_tracking_success": "מזהה מסלול ההזמנה נשמר בהצלחה."
-    }
   },
-  "process_center": {
-    "title": "מרכז עיבוד",
-    "physical_product": "מוצרים פיזיים",
-    "menu": {
-      "label": "תווית אריזה",
-      "receipt": "חשבונית",
-      "back": "חזור",
-      "return": "לַחֲזוֹר",
-      "report": "להגיש תלונה",
-      "timeline": "ציר זמן",
-      "inputs": "תשומות",
-      "order": "להזמין"
+
+  /** {@see BPageOrderFile} **/
+  file_process_center: {
+    title: "מרכז עיבוד",
+    sub_title: "עיבוד הזמנה",
+    menu: {
+      report: "להגיש תלונה",
+      timeline: "ציר זמן",
+      order: "להזמין",
     },
-    "payment_widget": {
-      "title": "תַשְׁלוּם",
-      "checklist": [
+  },
+
+  /** {@see BOrderDashboard} **/
+  process_order_page_dashboard: {
+    title: "עיבוד הזמנה",
+    cancel_order_action: "בטל הזמנה",
+    open_basket_cation:
+      "עגלת קניות זו פתוחה, כלומר הלקוח עושה קניות ועדיין לא שילם את ההזמנה.",
+
+    reject_dialog: {
+      title: "סיבה לדחות את הצו",
+      message:
+        "בחר את הסיבה לדחיית הזמנה זו מהרשימה למטה. הקפד ליידע את הלקוח על תהליך הביטול וההחזר. החזר כספי חייב להתבצע תוך 12 שעות.",
+      confirm_now_action: "בטל הזמנה עכשיו",
+      confirm_in48h_action: "בטל הזמנה ינ 48 הוורס",
+
+      dismiss_reject_action: "בטל את ביטול ההזמנה",
+
+      options: {
+        title: "אפשרויות",
+        subtitle:
+          "יפ יוו ואנט טו בטל יוור הזמנה יממאדיאטאלי, יוו קאנ וסא טהיס אפשרות.",
+      },
+
+      express_input: {
+        true_title: "אקספראסס | בטל הזמנה יממאדיאטאלי",
+        false_title: "סטאנדארד | בטל הזמנה אפטאר 48 הוורס",
+        true_description:
+          "טהיס אפשרות וילל בטל יוור הזמנה יממאדיאטאלי אנד עדכן טהא מלאי ריגהט אואי.",
+        false_description:
+          "טהיס אפשרות וילל בטל יוור הזמנה אפטאר 48 הוורס. ונטיל טהאנ, יטאמס וילל בא ראסארואד אנד קאננוט בא פורקהאסאד בי וטהארס.",
+      },
+    },
+
+    notifications: {
+      update_status_success: "סטטוס ההזמנה עודכן.",
+      reject_update_success:
+        "סטטוס ביטול הזמנה עודכן.",
+      dismiss_reject_success:
+        "ההזמנה הוחזרה לתהליך הרגיל.",
+      set_tracking_success: "מזהה מסלול ההזמנה נשמר בהצלחה.",
+      shipping_address_update_success:
+        "משלוח כתובת האס באאנ ופדאטאד סוקקאסספוללי.",
+      vendor_order_status_update_success:
+        "ספק מימוש סטטוס האס באאנ ופדאטאד סוקקאסספוללי.",
+    },
+  },
+  /** {@see BPageOrderPhysical} **/
+  /** {@see BPageOrderVirtual} **/
+  /** {@see BPageOrderFile} **/
+  /** {@see BPageOrderService} **/
+  process_center: {
+    title: "מרכז עיבוד",
+
+    physical_product: "מוצרים פיזיים",
+    menu: {
+      label: "תווית אריזה",
+      receipt: "חשבונית",
+      back: "חזור",
+      return: "לַחֲזוֹר",
+      report: "להגיש תלונה",
+      timeline: "ציר זמן",
+      inputs: "תשומות",
+      order: "להזמין",
+    },
+
+    /** {@see OrderPaymentWidget} **/
+    payment_widget: {
+      title: "תַשְׁלוּם",
+      checklist: [
         "בדוק את סכום ההזמנה ותשלום הלקוח.",
         "בדוק כתובת לחיוב.",
-        "ודא שהמידע שהוזן נכון, במיוחד אם התשלום הוא במזומן."
+        "ודא שהמידע שהוזן נכון, במיוחד אם התשלום הוא במזומן.",
       ],
-      "action_cod_pay": "אשר תשלום על ידי הלקוח",
-      "action_dir_pay": "אשר קבלה על תשלום שהועלה",
-      "payment_receipt_not_uploaded_error": "קבלה על תשלום טרם הועלתה!",
-      "waiting_for_pay": "ממתין לתשלום",
-      "processing_payment": "מעבד תשלום",
-      "processing_cancel": "התשלום בוטל",
-      "paid": "שולם",
-      "cod_pay_info": "לאחר קבלת ההזמנה מהלקוח תוכל לאשר תשלום ולהשלים את ההזמנה.",
-      "dir_pay_info": "קבלה על התשלום תופיע למעלה. לפני שתאשר את התשלום, אמת את סכום ההפקדה ואת פרטי הקבלה מול הבנק שלך.",
-      "created_date": "תאריך יצירה",
-      "pay_date": "תאריך תשלום",
-      "payment_gateway": "שער תשלום",
-      "payment_method": "אמצעי תשלום",
-      "risk": "ערך סיכון",
-      "billing_details": "פרטי תשלום",
-      "add_transaction": "הוסף חשבון חדש",
-      "add_transactions_message": "עליך ליצור לפחות עסקה אחת עבור הזמנה זו. במקרים מסוימים נדרש תשלום במספר שלבים. על אילו עסקאות המשתמש צריך לשלם תקבע על ידך, במהלך העבודה.",
-      "add_bill_dialog": {
-        "title": "הוסף חשבונית",
-        "message": "אתה יכול להוסיף חשבונית חדשה אחת או יותר עבור הזמנה זו. הלקוח יראה חשבוניות אלו וישלם כל אחת בהתאם להתקדמות העבודה.",
-        "amount_input": "סכום החשבונית",
-        "action": "הוסף חשבון"
+      action_cod_pay: "אשר תשלום על ידי הלקוח",
+      action_dir_pay: "אשר קבלה על תשלום שהועלה",
+      payment_receipt_not_uploaded_error:
+        "קבלה על תשלום טרם הועלתה!",
+
+      waiting_for_pay: "ממתין לתשלום",
+      processing_payment: "מעבד תשלום",
+      processing_cancel: "התשלום בוטל",
+      require_capture: "ראקוירא קאפטורא",
+      paid: "שולם",
+      cod_pay_info:
+        "לאחר קבלת ההזמנה מהלקוח תוכל לאשר תשלום ולהשלים את ההזמנה.",
+      dir_pay_info:
+        "קבלה על התשלום תופיע למעלה. לפני שתאשר את התשלום, אמת את סכום ההפקדה ואת פרטי הקבלה מול הבנק שלך.",
+
+      created_date: "תאריך יצירה",
+      pay_date: "תאריך תשלום",
+      payment_gateway: "שער תשלום",
+      payment_method: "אמצעי תשלום",
+      risk: "ערך סיכון",
+      billing_details: "פרטי תשלום",
+
+      add_transaction: "הוסף חשבון חדש",
+      add_transactions_message:
+        "עליך ליצור לפחות עסקה אחת עבור הזמנה זו. במקרים מסוימים נדרש תשלום במספר שלבים. על אילו עסקאות המשתמש צריך לשלם תקבע על ידך, במהלך העבודה.",
+
+      add_bill_dialog: {
+        title: "הוסף חשבונית",
+        message:
+          "אתה יכול להוסיף חשבונית חדשה אחת או יותר עבור הזמנה זו. הלקוח יראה חשבוניות אלו וישלם כל אחת בהתאם להתקדמות העבודה.",
+        amount_input: "סכום החשבונית",
+        action: "הוסף חשבון",
       },
-      "edit_bill_dialog": {
-        "title": "ערוך חשבונית",
-        "message": "אתה יכול לערוך חשבוניות ממתינות.",
-        "action": "ערוך חשבונית"
+      edit_bill_dialog: {
+        title: "ערוך חשבונית",
+        message: "אתה יכול לערוך חשבוניות ממתינות.",
+        action: "ערוך חשבונית",
       },
-      "bill_cash_payment_dialog": {
-        "title": "רשום תשלום במזומן",
-        "message": "במידה והקונה שילם את סכום חשבונית זו במזומן או בדרך שאינה תשלום מקוון, בסעיף זה, בבחירת אופציה, נרשם ואשר את תשלומו. בחלק זה, אתה יכול לראות רק את שערי התשלום במזומן של החנות שלך, אם אינך רואה אפשרות כזו, עליך להפעיל שער תשלום במזומן במטבע הנבחר בחנות שלך.",
-        "action": "אשר את תשלום החשבון"
+      bill_cash_payment_dialog: {
+        title: "רשום תשלום במזומן",
+        message:
+          "במידה והקונה שילם את סכום חשבונית זו במזומן או בדרך שאינה תשלום מקוון, בסעיף זה, בבחירת אופציה, נרשם ואשר את תשלומו. בחלק זה, אתה יכול לראות רק את שערי התשלום במזומן של החנות שלך, אם אינך רואה אפשרות כזו, עליך להפעיל שער תשלום במזומן במטבע הנבחר בחנות שלך.",
+        action: "אשר את תשלום החשבון",
       },
-      "table": {
-        "title": "כותרת",
-        "amount": "כמות",
-        "description": "תיאור",
-        "info": "מידע"
+
+      table: {
+        title: "כותרת",
+        amount: "כמות",
+        description: "תיאור",
+        info: "מידע",
       },
-      "user_payment": "תשלום לקוח",
-      "cod": "מזומן במשלוח",
-      "gateway_wage": "תַשְׁלוּם",
-      "gift_card": "כרטיס מתנה",
-      "discount_code": {
-        "title": "קוד הנחה",
-        "code": "קוד",
-        "percent": "אָחוּז",
-        "limit": "לְהַגבִּיל"
+      user_payment: "תשלום לקוח",
+      cod: "מזומן במשלוח",
+      gateway_wage: "תַשְׁלוּם",
+      gift_card: "כרטיס מתנה",
+      discount_code: {
+        title: "קוד הנחה",
+        code: "קוד",
+        percent: "אָחוּז",
+        limit: "לְהַגבִּיל",
       },
-      "club": {
-        "title": "מועדון לקוחות",
-        "percent": "אָחוּז",
-        "limit": "לְהַגבִּיל"
+      club: {
+        title: "מועדון לקוחות",
+        percent: "אָחוּז",
+        limit: "לְהַגבִּיל",
       },
-      "coupon": {
-        "title": "קוּפּוֹן",
-        "percent": "אָחוּז",
-        "limit": "לְהַגבִּיל",
-        "charge": "לחייב"
+
+      coupon: {
+        title: "קוּפּוֹן",
+        percent: "אָחוּז",
+        limit: "לְהַגבִּיל",
+        charge: "לחייב",
       },
-      "delivery": {
-        "title": "מחיר משלוח",
-        "not_paid": "לא שולם"
+      delivery: {
+        title: "מחיר משלוח",
+        not_paid: "לא שולם",
       },
-      "samin": {
-        "title": "עמלת שירות",
-        "description": "סכום זה נוכה מחשבון ארנק Seldone שלך.",
-        "tooltip": "חשב לפי אמצעי תשלום",
-        "percent": "אָחוּז"
+      samin: {
+        title: "עמלת שירות",
+        description:
+          "סכום זה נוכה מחשבון ארנק Seldone שלך.",
+        tooltip: "חשב לפי אמצעי תשלום",
+        percent: "אָחוּז",
       },
-      "affiliate": {
-        "title": "עמלת שותפים",
-        "affiliate_message": "עליך לשלם עמלה זו לשותף שלך. תהליך זה נעשה בעצמך."
+      affiliate: {
+        title: "עמלת שותפים",
+        affiliate_message:
+          "עליך לשלם עמלה זו לשותף שלך. תהליך זה נעשה בעצמך.",
       },
-      "total_price": "מחיר סה\"כ פריטים",
-      "total_items_discount": "הנחה על פריטים",
-      "total_price_after_offers": "סך הכל לאחר החלת הצעות",
-      "user_payment_amount": "סכום תשלום הקונה",
-      "samin_wage": "עמלת Seldone",
-      "pay_cod_dialog": {
-        "title": "האם קיבלת כספי הזמנה?",
-        "message": "אשר אפשרות זו בשיטת התשלום במזומן, לאחר הבטחת תשלום מלא על ידי הלקוח.",
-        "confirm_action": "אשר את תשלום הלקוח"
+      total_price: "מחיר סה\"כ פריטים",
+      total_items_discount: "הנחה על פריטים",
+      total_price_after_offers: "סך הכל לאחר החלת הצעות",
+
+      total_order_price_before_tax: "מחיר כולל לפני מס",
+
+      user_payment_amount: "סכום תשלום הקונה",
+      samin_wage: "עמלת Seldone",
+      pay_cod_dialog: {
+        title: "האם קיבלת כספי הזמנה?",
+        message:
+          "אשר אפשרות זו בשיטת התשלום במזומן, לאחר הבטחת תשלום מלא על ידי הלקוח.",
+        confirm_action: "אשר את תשלום הלקוח",
       },
-      "pay_dir_dialog": {
-        "title": "האם קיבלת כספי הזמנה?",
-        "message": "אשר אפשרות זו לאחר אישור קבלה על תשלום שהועלתה עם הבנק שלך. הקפד לבדוק את התשלום בבנק שלך.",
-        "confirm_action": "אשר את תשלום הלקוח"
+      pay_dir_dialog: {
+        title: "האם קיבלת כספי הזמנה?",
+        message:
+          "אשר אפשרות זו לאחר אישור קבלה על תשלום שהועלתה עם הבנק שלך. הקפד לבדוק את התשלום בבנק שלך.",
+        confirm_action: "אשר את תשלום הלקוח",
       },
-      "notifications": {
-        "pay_confirm_message": "התשלום אושר.<br> יציאה: {gateway_name}<br> תאריך: {payment_at}",
-        "pay_fail_title": "לא שולם",
-        "pay_fail_message": "לא ניתן לאשר תשלום!"
+
+      notifications: {
+        pay_confirm_message:
+          "התשלום אושר.<br> יציאה: {gateway_name}<br> תאריך: {payment_at}",
+        pay_fail_title: "לא שולם",
+        pay_fail_message: "לא ניתן לאשר תשלום!",
       },
-      "total_order_price_before_tax": "מחיר כולל לפני מס"
     },
-    "basket_list": {
-      "checklist": [
+    /** {@see BOrderDashboardCart} **/
+    basket_list: {
+      checklist: [
         "בדוק את המלאי.",
-        "אם הפריט אינו זמין, יש להחזיר ללקוח את הסכום ששולם עבור אותו פריט."
+        "אם הפריט אינו זמין, יש להחזיר ללקוח את הסכום ששולם עבור אותו פריט.",
       ],
-      "message": "אם אחד מהפריטים אינו זמין או שלא ניתן למכור, בטל את הסימון בתיבה שלצדו ולחץ על כפתור <b>אשר הזמנה</b> .",
-      "action": "אישור הזמנה",
-      "list_of_items": "רשימת סל קניות",
-      "apply_change_action": "החל שינויים",
-      "cant_apply_change": "לא ניתן לבצע שינויים",
-      "lottery_prize_inform": "הלקוח שלך זכה פי 1 במוצר זה. שלח מתנה עם הזמנה זו."
+      message:
+        "אם אחד מהפריטים אינו זמין או שלא ניתן למכור, בטל את הסימון בתיבה שלצדו ולחץ על כפתור <b>אשר הזמנה</b> .",
+      action: "אישור הזמנה",
+      list_of_items: "רשימת סל קניות",
+      apply_change_action: "החל שינויים",
+      cant_apply_change: "לא ניתן לבצע שינויים",
+      lottery_prize_inform:
+        "הלקוח שלך זכה פי 1 במוצר זה. שלח מתנה עם הזמנה זו.",
+
+      need_to_refund: {
+        title: "החזר ראקויראד טו טהא לקוח",
+        message:
+          "וא קאלקולאטא טהא סה״כ סכום ופ החזר טהאט יוו נאאד טו מאקא ידנית. יט קאלקולאטאד באסאד ונ לא זמין יטאמס אנד סה״כ החזר ואלואס יאט.",
+        calculated_approximately:
+          "טהא סכום יס קאלקולאטאד אפפרוקסימאטאלי. פלאאסא קאלקולאטא טהא אקסאקט סכום יוורסאלפ.",
+      },
+      need_payback: {
+        title: "לקוח קהארגא ראקויראד",
+        message:
+          "וא'וא נוטיקאד טהאט טהא סה״כ החזר טו טהא לקוח יס היגהאר טהאנ טהא סכום דוא באסאד ונ טהא יטאמס ינ טהא קארט. יוו מאי נאאד טו קהארגא יוור לקוח טו ראקוואר טהא אקסקאסס סכום.",
+      },
+      need_no_refund: {
+        title: "נו החזר נאקאססארי",
+      },
+      total_refund: {
+        title: "סה״כ החזר",
+        message:
+          "יט's טהא סה״כ סכום ופ החזר אוטומאטיקאללי מאדא בי יוור תשלום שער. רק סומא תשלום שירותים תמיכה טהיס פאאטורא, סו יוו נאאד טו החזר ידנית.",
+      },
     },
-    "preparing": {
-      "title": "הכנה",
-      "packing_weight": "משקל אריזה",
-      "delivery_type": "שיטת משלוח",
-      "packing_size": "מידות אריזה",
-      "distance_warning": "חורג ממגבלת המרחק המותר.",
-      "weight_warning": "חורג מהמשקל המותר.",
-      "volume_warning": "חורג מגודל החבילה המותר.",
-      "message": "לחץ על הלחצן הבא <b>להזמנה מוכנה</b> אם ההזמנה מוכנה למשלוח.",
-      "action": "הזמנה מוכנה למשלוח",
-      "checklist": [
+    /** {@see BOrderDashboardPreparing} **/
+    preparing: {
+      title: "הכנה",
+      packing_weight: "משקל אריזה",
+      delivery_type: "שיטת משלוח",
+      packing_size: "מידות אריזה",
+      distance_warning: "חורג ממגבלת המרחק המותר.",
+      weight_warning: "חורג מהמשקל המותר.",
+      volume_warning: "חורג מגודל החבילה המותר.",
+      items_weight_calculation:
+        "קומבינאד משקל ופ הכול יטאמס יס {weight} {unit}",
+      not_available_message:
+        "יט's לא זמין והאנ יוו ארא מושבת אסקינג פור משלוח כתובת אנד אלסו משתמש דיד לא פילל כתובת אפטאר רכישה!",
+
+      message:
+        "לחץ על הלחצן הבא <b>להזמנה מוכנה</b> אם ההזמנה מוכנה למשלוח.",
+      action: "הזמנה מוכנה למשלוח",
+      checklist: [
         "בהתאם לכללים הסטנדרטיים באריזה.",
         "הדפס רשימה של פריטים והכנס אותה לחבילה.",
-        "הדפס והדבק תווית לקופסה."
-      ]
+        "הדפס והדבק תווית לקופסה.",
+      ],
     },
-    "basket_items": "רשימת פריטי הזמנה",
-    "delivered_dialog": {
-      "title": "האם הזמנה זו התקבלה על ידי הלקוח?",
-      "message": "אשר אפשרות זו כאשר אתה יודע שהלקוח קיבל את ההזמנה",
-      "confirm_action": "אני מאשר שהלקוח קיבל את החבילה"
+
+    basket_items: "רשימת פריטי הזמנה",
+
+    delivered_dialog: {
+      title: "האם הזמנה זו התקבלה על ידי הלקוח?",
+      message: "אשר אפשרות זו כאשר אתה יודע שהלקוח קיבל את ההזמנה",
+      confirm_action: "אני מאשר שהלקוח קיבל את החבילה",
     },
-    "return_delivery_dialog": {
-      "title": "האם היו בעיות בהזמנה במהלך המשלוח או שהיא הוחזרה?",
-      "message": "אשר את האפשרות להחזיר את המשלוח אם ההזמנה הוחזרה לאחר השליחה מסיבה כלשהי ויש צורך לשלוח מחדש את המשלוח.",
-      "confirm_action": "אשר משלוח הוחזר"
+    return_delivery_dialog: {
+      title: "האם היו בעיות בהזמנה במהלך המשלוח או שהיא הוחזרה?",
+      message:
+        "אשר את האפשרות להחזיר את המשלוח אם ההזמנה הוחזרה לאחר השליחה מסיבה כלשהי ויש צורך לשלוח מחדש את המשלוח.",
+      confirm_action: "אשר משלוח הוחזר",
     },
-    "notifications": {
-      "update_status_success": "סטטוס ההזמנה עודכן.",
-      "reject_update_success": "סטטוס ביטול הזמנה עודכן.",
-      "dismiss_reject_success": "ההזמנה בוטלה.",
-      "pay_cod_success": "תשלום מזומן במשלוח אושר.",
-      "pay_dir_success": "התשלום אושר באמצעות תשלום מכרטיס לכרטיס או העברת כספים.",
-      "set_tracking_success": "מזהה מסלול ההזמנה נשמר בהצלחה.",
-      "new_bill_success": "חשבון חדש נוסף בהצלחה.",
-      "edit_bill_success": "החשבון עודכן בהצלחה.",
-      "update_bill_status_success": "סטטוס החיוב עודכן בהצלחה.",
-      "set_payment_in_cash_success": "תשלום החשבון אושר באופן ידני."
+
+    notifications: {
+      update_status_success: "סטטוס ההזמנה עודכן.",
+      reject_update_success: "סטטוס ביטול הזמנה עודכן.",
+      dismiss_reject_success: "ההזמנה בוטלה.",
+      pay_cod_success: "תשלום מזומן במשלוח אושר.",
+      pay_dir_success:
+        "התשלום אושר באמצעות תשלום מכרטיס לכרטיס או העברת כספים.",
+      set_tracking_success: "מזהה מסלול ההזמנה נשמר בהצלחה.",
+      new_bill_success: "חשבון חדש נוסף בהצלחה.",
+      edit_bill_success: "החשבון עודכן בהצלחה.",
+      update_bill_status_success: "סטטוס החיוב עודכן בהצלחה.",
+      set_payment_in_cash_success: "תשלום החשבון אושר באופן ידני.",
     },
-    "delete_bill_dialog": {
-      "title": "מחק חשבון",
-      "message": "האם אתה בטוח שתמחק את החשבון הזה?",
-      "action": "כן, מחק עכשיו"
-    }
+
+    delete_bill_dialog: {
+      title: "מחק חשבון",
+      message: "האם אתה בטוח שתמחק את החשבון הזה?",
+      action: "כן, מחק עכשיו",
+    },
   },
-  "shop_gateway": {
-    "title": "כְּנִיסָה",
-    "menu": {
-      "dashboard": "לוּחַ מַחווָנִים",
-      "edit": "לַעֲרוֹך",
-      "transactions": "עסקאות",
-      "back": "שערים"
+
+  /** {@see AdminShopGatewayManagementPage} **/
+  shop_gateway: {
+    title: "כְּנִיסָה",
+    menu: {
+      dashboard: "לוּחַ מַחווָנִים",
+      edit: "לַעֲרוֹך",
+      transactions: "עסקאות",
+      back: "שערים",
     },
-    "dashboard": {
-      "title": "ניהול שערים",
-      "gateway_data_widget": {
-        "title": "דוח תשלומים",
-        "title_small": "כְּנִיסָה",
-        "chart": {
-          "times": "לספור",
-          "buys": "ספירת קניות",
-          "pays": "תשלום מוצלח",
-          "amount_pay": "שולם",
-          "amount_wage": "תַשְׁלוּם"
-        }
-      },
-      "gateway_info_widget": {
-        "title": "מידע",
-        "title_small": "כְּנִיסָה",
-        "status": "סטָטוּס",
-        "cod_transportation": "שיטות משלוח תומכות ב-COD",
-        "cod_transportations_error": "אפשר תשלום במזומן עבור שיטת משלוח אחת לפחות!",
-        "payment_type": "סוג תשלום",
-        "cod": "מזומן במשלוח",
-        "online": "תשלום אונליין",
-        "wage_percent": "אחוז עמלות",
-        "min_wage": "עמלת מינימום",
-        "max_wage": "תשלום מקסימלי",
-        "min_amount": "מינימום עסקה",
-        "max_amount": "מקסימום עסקה",
-        "timeout": "תקופת תשלום",
-        "timeout_unit": "שניות",
-        "link": "קישור שער",
-        "your_gateway_status": "סטטוס השער שלך",
-        "config_extra_info": "תצורת שירות התשלום",
-        "oauth2_button": "התחבר אוטומטית אל {gateway}",
-        "fee_payment_message": "כל הסכום ששולם על ידי הלקוח יועבר לחשבונך. עמלת השירות תנוכה מהארנק שלך ב-Seldone."
-      }
-    },
-    "edit": {
-      "title": "ערוך שער",
-      "menu": {
-        "delete": "הסר את השער"
-      },
-      "edit_action": "ערוך שער"
-    },
-    "transactions": {
-      "title": "עסקאות",
-      "table": {
-        "amount": "כמות",
-        "currency": "מַטְבֵּעַ",
-        "livemode": "סוּג",
-        "status": "סטָטוּס",
-        "target_id": "להזמין",
-        "risk": "לְהִסְתָכֵּן",
-        "card": "כַּרְטִיס",
-        "issued_at": "תאריך הוצאה",
-        "payment_at": "תאריך תשלום"
-      },
-      "live_mode": "לחיות",
-      "test_mode": "ארגז חול"
-    }
-  },
-  "edit_gateway": {
-    "public_keys": "מפתחות ציבוריים",
-    "private_keys": "מפתחות פרטיים (סודיים)",
-    "link": "אתר אינטרנט",
-    "state_title": "אמצעי תשלום פעיל/לא פעיל",
-    "gateway_status": "סטָטוּס",
-    "wallet": "ארנק בלוקצ'יין",
-    "developer_title": "מצב מפתח",
-    "developer_message": "אתה יכול לעבד עסקאות מזויפות אם השער תומך במצב ניפוי באגים.",
-    "notifications": {
-      "edit_success": "שער {gateway_name} נערך."
-    },
-    "developer_setting": "פיתוח ובדיקה",
-    "live_mode_message": "כל העסקאות יהיו במצב חי."
-  },
-  "gift_card": {
-    "title": "כרטיסי ברכה",
-    "menu": {
-      "edit": "לַעֲרוֹך",
-      "new_card": "צור כרטיס",
-      "list": "קלפים",
-      "orders": "הזמנות",
-      "dashboard": "לוּחַ מַחווָנִים",
-      "back": "כרטיסי ברכה"
-    },
-    "dashboard": {
-      "title": "לוח מחוונים לניהול כרטיסי מתנה",
-      "amount_widget": {
-        "title": "תשלום בכרטיס",
-        "title_small": "30 ימים",
-        "chart_amount_pay": {
-          "y": "סְכוּם",
-          "label": "תַשְׁלוּם"
+
+    /** {@see BPageGatewayDashboard} **/
+    dashboard: {
+      title: "ניהול שערים",
+
+      /** {@see BGatewayPaymentsChart} **/
+      gateway_data_widget: {
+        title: "דוח תשלומים",
+        subtitle:
+          "קראאטאד תשלומים אנד עסקאות מאדא דורינג טהא בחר זמן תקופה.",
+        chart: {
+          times: "לספור",
+          buys: "ספירת קניות",
+          pays: "תשלום מוצלח",
+          amount_pay: "שולם",
+          amount_wage: "תַשְׁלוּם",
         },
-        "chart_buys": {
-          "y": "קונה",
-          "label": "קונה"
+      },
+    },
+
+    /** {@see BPageGatewayEdit} **/
+    edit: {
+      title: "ערוך שער",
+      menu: {
+        delete: "הסר את השער",
+      },
+      edit_action: "ערוך שער",
+    },
+
+    /** {@see BPageGatewayTransactions} **/
+    transactions: {
+      title: "עסקאות",
+      table: {
+        amount: "כמות",
+        currency: "מַטְבֵּעַ",
+        livemode: "סוּג",
+        status: "סטָטוּס",
+        target_id: "להזמין",
+        risk: "לְהִסְתָכֵּן",
+        card: "כַּרְטִיס",
+        issued_at: "תאריך הוצאה",
+        payment_at: "תאריך תשלום",
+      },
+      live_mode: "לחיות",
+      test_mode: "ארגז חול",
+    },
+  },
+
+  /** {@see BGatewayOverview} **/
+  b_gateway_overview: {
+    title: "מידע",
+    subtitle: "סקירה ופ תשלום שער תצורה אנד סטטוס.",
+    status: "סטָטוּס",
+    cod_transportation: "תמיכה משלוח",
+    cod_transportations_error:
+      "הפעל תשלום במזומן במסירה תשלום פור אט לאאסט ונא משלוח שיטה!",
+    payment_type: "סוג תשלום",
+    cod: "תשלום במזומן במסירה",
+    online: "ונלינא תשלום",
+    wage_percent: "פאא פארקאנט",
+    min_wage: "עמלה מינימלית",
+    max_wage: "עמלה מקסימלית",
+    min_amount: "עסקה מינימלית",
+    max_amount: "עסקה מקסימלית",
+    timeout: "תקופת תשלום",
+    timeout_unit: "סאקונדס",
+    link: "קישור שער",
+    your_gateway_status: "יוור שער סטטוס",
+    oauth2_button: "אוטומטי קוננאקט טו {gateway}",
+    fee_payment_message:
+      "טהא אנטירא סכום שולם בי טהא לקוח וילל בא טראנספארראד טו יוור חשבון. טהא שירות פאא וילל בא דאדוקטאד פרומ יוור ארנק ינ Selldone.",
+
+    auto_config: "אוטומטי תצורה",
+
+    keys: {
+      title: "מפתחות פרטיים",
+      subtitle:
+        "רשימה ופ מפתחות פרטיים פור טהא תשלום. טהיס מידע יס אססאנטיאל פור קראאטינג אנד מאנאגינג תשלומים.",
+    },
+    extra_config: {
+      title: "תצורת שירות תשלום",
+      subtitle: "אדדיטיונאל תצורה מידע פור טהא תשלום שער.",
+    },
+
+    recommended_actions: {
+      title: "פעולות מומלצות",
+      subtitle:
+        "בי טאקינג טהאסא סטאפס, יוו'לל באגינ טו ראקאיוא אקטואל תשלומים פרומ יוור לקוחות.",
+      action_enable: "לחץ כדי להפעיל",
+      make_live_enable: "לחץ כדי להעביר לחי",
+    },
+  },
+
+  /** {@see BGatewayAdd} **/
+  edit_gateway: {
+    public_keys: "מפתחות ציבוריים",
+    private_keys: "מפתחות פרטיים (סודיים)",
+    link: "אתר אינטרנט",
+    status_title: "תשלום שירות סטטוס",
+    status_message:
+      "קונפיגורא טהא תשלום שיטה אס פעיל ור לא פעיל. רק שיטות סאט אס פעיל וילל בא דיספלאיאד טו לקוחות.",
+    status_true_description: "יוור לקוחות קאנ שלם ויטה טהיס תשלום שיטה.",
+
+    manual_title: "ידני / אוטומטי קאפטורא תשלום",
+    manual_message:
+      "והאנ יוו צור a תשלום, יוו קאנ פלאקא a הולד ונ אנ אליגיבלא תשלום שיטה טו ראסארוא פונדס טהאט יוו קאנ קאפטורא לאטאר. פור אקסאמפלא, הוטאלס ופטאנ אוטהוריזא a תשלום ינ פולל באפורא a גואסט ארריואס, טהאנ קאפטורא טהא מונאי והאנ טהא גואסט קהאקקס ווט.",
+
+    gateway_status: "סטָטוּס",
+    wallet: "ארנק בלוקצ'יין",
+    developer_title: "מצב מפתח",
+    developer_message:
+      "אתה יכול לעבד עסקאות מזויפות אם השער תומך במצב ניפוי באגים.",
+    live_mode_message: "כל העסקאות יהיו במצב חי.",
+
+    notifications: {
+      edit_success: "שער {gateway_name} נערך.",
+      success_delete: "תשלום שיטה האס באאנ דאלאטאד!",
+    },
+    debug: {
+      title: "דאואלופ & טאסט",
+      subtitle: "יוו קאנ הפעל טהא דאבוג מצב טו טאסט טהא תשלום שער.",
+    },
+
+    limit: {
+      title: "הזמנה לימיט",
+      subtitle: "סאט טהא מינימומ הזמנה סכום פור טהיס תשלום שער.",
+    },
+    limit_input: {
+      title: "מינימומ הזמנה סכום",
+      msg: "זארו מאאנס נו לימיט.",
+    },
+    currency_input: {
+      message: "טהא מטבע טהאט טהיס תשלום שער תמיכה.",
+    },
+    gateway_code: "שער קוד",
+
+    hold_only_for: "הולד תשלום רק זמין פור",
+    manual_input: {
+      false_description:
+        "טהא תשלום סטטוס וילל בא קהאנגאד אוטומאטיקאללי פרומ ממתין טו אשר ינ טהא תשלום פרווידאר סיסטאמ.",
+      false_title: "אוטומטי תשלום אישור",
+      true_title: "הולד תשלומים אנד ידני אישור",
+      true_description:
+        "פלאקא a הולד ונ a תשלום סו יוו נאאד טו אמת טהא תשלומים פור אנ הזמנה טו קהאנגא טהאיר סטטוס פרומ ממתין טו אשר ינ טהא תשלום פרווידאר סיסטאמ.",
+    },
+    delete_verify_input: {
+      true_title: "I ואנט טו הסר טהיס תשלום שיטה.",
+      true_description:
+        "טהיס תשלום שיטה וילל בא ראמוואד פרומ טהא חנות אנד וילל לא בא זמין טו לקוחות.",
+    },
+    delete_alert: {
+      title: "מחק תשלום שיטה",
+      message: "ארא יוו סורא מחק טהיס תשלום שיטה פרומ יוור חנות?",
+      action: "מחק תשלום שיטה",
+    },
+  },
+
+  /** {@see BPageGiftcard} **/
+  gift_card: {
+    title: "כרטיסי ברכה",
+    menu: {
+      edit: "לַעֲרוֹך",
+      new_card: "צור כרטיס",
+      list: "קלפים",
+      orders: "הזמנות",
+      dashboard: "לוּחַ מַחווָנִים",
+      back: "כרטיסי ברכה",
+    },
+
+    /** {@see AdminGiftCardDashboardPage} **/
+    dashboard: {
+      title: "לוח מחוונים לניהול כרטיסי מתנה",
+
+      /** {@see BGiftcardStatisticsPayment} **/
+      amount_widget: {
+        title: "תשלום בכרטיס",
+        title_small: "30 ימים",
+        chart_amount_pay: {
+          y: "סְכוּם",
+          label: "תַשְׁלוּם",
         },
-        "total_buy": "סכום רכישה כולל",
-        "total_pay_30days": "תשלום כולל 30 יום",
-        "total_pay_today": "התשלום של היום"
+        chart_buys: {
+          y: "קונה",
+          label: "קונה",
+        },
+        total_buy: "סכום רכישה כולל",
+        total_pay_30days: "תשלום כולל 30 יום",
+        total_pay_today: "התשלום של היום",
       },
-      "count_widget": {
-        "title": "מספר הכרטיסים שהונפקו",
-        "title_small": "30 ימים",
-        "total_cards": "סך כל הכרטיסים",
-        "used_cards_30days": "30 יום שימוש",
-        "used_today": "השימוש של היום",
-        "chart": {
-          "new_cards": "קלפים חדשים",
-          "used_cards": "קלפים משומשים",
-          "new_card_name": "כרטיס חדש",
-          "used_card_name": "בשימוש"
-        }
+
+      /** {@see BGiftcardStatisticsCount} **/
+      count_widget: {
+        title: "מספר הכרטיסים שהונפקו",
+        title_small: "30 ימים",
+        total_cards: "סך כל הכרטיסים",
+        used_cards_30days: "30 יום שימוש",
+        used_today: "השימוש של היום",
+        chart: {
+          new_cards: "קלפים חדשים",
+          used_cards: "קלפים משומשים",
+          new_card_name: "כרטיס חדש",
+          used_card_name: "בשימוש",
+        },
       },
-      "export": {
-        "title": "קבל קובץ פלט",
-        "cards_list": "קבלו רשימה של קלפים",
-        "get_report": "קבל דוח"
-      }
+
+      /** {@see BGiftcardExport} **/
+      export: {
+        title: "קבל קובץ פלט",
+        cards_list: "קבלו רשימה של קלפים",
+        get_report: "קבל דוח",
+      },
+    }, // End of dashboard
+
+    /** {@see AdminGiftCardManagementPage} **/
+    cards: {
+      title: "רשימת הכרטיסים שהונפקו",
+      subtitle:
+        "צפה אנד נהל הכול יססואד כרטיסים. יוו קאנ סאנד כרטיסים טו משתמשים ידנית ור באנ טהאמ יפ נאאדאד.",
+
+      loading_message: "מקבל מידע... אנא המתן",
+      issue_to_user: "בעיה למשתמש",
+      table: {
+        card_number: "מספר כרטיס",
+        balance: "איזון",
+        paid: "שולם",
+        edit: "לַעֲרוֹך",
+        delete: "לִמְחוֹק",
+        expire: "פג תוקף",
+        user: "מִשׁתַמֵשׁ",
+      },
+      delete_alert: {
+        title: "הסר את הכרטיס",
+        message: "האם אתה בטוח שברצונך למחוק את הכרטיס הזה?",
+        action: "לִמְחוֹק",
+      },
+      notifications: {
+        delete_success: "כרטיס המתנה נמחק.",
+        edit_success: "בוצעו שינויים.",
+        issue_success: "כרטיס מתנה הונפק למשתמש בהצלחה.",
+      },
+      issue_dialog: {
+        title: "הנפק כרטיס מתנה",
+        action: "אני מאשר. הנפק את הכרטיס עכשיו",
+      },
+    }, // End of cards
+
+    /** {@see BGiftcardAdd} **/
+    gift_card_edit: {
+      title: "צור כרטיס מתנה",
+      validity: "תוֹקֶף",
+      validity_unit: "חודשים",
+      currency: "מַטְבֵּעַ",
+      initial_balance: "יתרת כרטיס ראשונית",
+      count: "לספור",
+      count_unit: "פריט(ים)",
+      enable_input_message: "מצב הכרטיסים שנוצרו",
+      notifications: {
+        create_success_title: "להציל",
+        create_success: "נוצרו {count} כרטיסים חדשים",
+      },
     },
-    "cards": {
-      "title": "רשימת הכרטיסים שהונפקו",
-      "loading_message": "מקבל מידע... אנא המתן",
-      "issue_to_user": "בעיה למשתמש",
-      "table": {
-        "card_number": "מספר כרטיס",
-        "balance": "איזון",
-        "paid": "שולם",
-        "edit": "לַעֲרוֹך",
-        "delete": "לִמְחוֹק",
-        "expire": "פג תוקף",
-        "user": "מִשׁתַמֵשׁ"
-      },
-      "delete_alert": {
-        "title": "הסר את הכרטיס",
-        "message": "האם אתה בטוח שברצונך למחוק את הכרטיס הזה?",
-        "action": "לִמְחוֹק"
-      },
-      "notifications": {
-        "delete_success": "כרטיס המתנה נמחק.",
-        "edit_success": "בוצעו שינויים.",
-        "issue_success": "כרטיס מתנה הונפק למשתמש בהצלחה."
-      },
-      "issue_dialog": {
-        "title": "הנפק כרטיס מתנה",
-        "action": "אני מאשר. הנפק את הכרטיס עכשיו"
-      }
+
+    /** {@see AdminGiftCardEditPage} **/
+    gift_card_edit_page: {
+      title: "ערוך כרטיס מתנה",
     },
-    "gift_card_edit": {
-      "title": "צור כרטיס מתנה",
-      "validity": "תוֹקֶף",
-      "validity_unit": "חודשים",
-      "currency": "מַטְבֵּעַ",
-      "initial_balance": "יתרת כרטיס ראשונית",
-      "count": "לספור",
-      "count_unit": "פריט(ים)",
-      "enable_input_message": "מצב הכרטיסים שנוצרו",
-      "notifications": {
-        "create_success_title": "להציל",
-        "create_success": "נוצרו {count} כרטיסים חדשים"
-      }
-    },
-    "gift_card_edit_page": {
-      "title": "ערוך כרטיס מתנה"
-    }
   },
-  "shop_discount": {
-    "title": "קוד הנחה",
-    "up_to": "עד ל",
-    "menu": {
-      "dashboard": "לוּחַ מַחווָנִים",
-      "orders": "הזמנות",
-      "back": "קודי הנחה"
+
+  /** {@see BPageDiscountCode} **/
+  shop_discount: {
+    title: "קוד הנחה",
+    up_to: "עד ל",
+    menu: {
+      dashboard: "לוּחַ מַחווָנִים",
+      orders: "הזמנות",
+      back: "קודי הנחה",
     },
-    "dashboard": {
-      "title": "לוח מחוונים לניהול קודי הנחה",
-      "chart_amount_buy": {
-        "y": "סכום רכישה {currency}",
-        "label": "לִקְנוֹת"
+
+    /** {@see BPageDiscountCodeDashboard} **/
+    dashboard: {
+      title: "לוח מחוונים לניהול קודי הנחה",
+      chart_amount_buy: {
+        y: "סכום רכישה {currency}",
+        label: "לִקְנוֹת",
       },
-      "chart_amount_discount": {
-        "y": "הנחה {currency}",
-        "label": "הנחה"
+      chart_amount_discount: {
+        y: "הנחה {currency}",
+        label: "הנחה",
       },
-      "chart_used": {
-        "y": "כמות שימושים",
-        "label": "פִּי"
-      }
-    }
-  },
-  "shop_coupon": {
-    "title": "קופונים",
-    "up_to": "עד ל",
-    "menu": {
-      "dashboard": "לוּחַ מַחווָנִים",
-      "back": "קופונים",
-      "orders": "הזמנות"
+      chart_used: {
+        y: "כמות שימושים",
+        label: "פִּי",
+      },
     },
-    "dashboard": {
-      "title": "לוח מחוונים לניהול קופונים",
-      "chart_amount_buy": {
-        "y": "סכום רכישה {currency}",
-        "label": "לִקְנוֹת"
-      },
-      "chart_amount_discount": {
-        "y": "קופון {currency}",
-        "label": "קוּפּוֹן"
-      },
-      "chart_used": {
-        "y": "כמות שימושים",
-        "label": "פִּי"
-      }
-    }
   },
-  "shop_offer": {
-    "title": "הצעות",
-    "up_to": "עד ל",
-    "menu": {
-      "dashboard": "לוּחַ מַחווָנִים",
-      "orders": "הזמנות",
-      "back": "הצעות"
+
+  /** {@see BPageCoupon} **/
+  shop_coupon: {
+    title: "קופונים",
+    up_to: "עד ל",
+    menu: {
+      dashboard: "לוּחַ מַחווָנִים",
+      back: "קופונים",
+      orders: "הזמנות",
     },
-    "dashboard": {
-      "title": "לוח מחוונים לניהול הצעות",
-      "chart_amount_buy": {
-        "y": "סכום רכישה {currency}",
-        "label": "לִקְנוֹת"
+
+    /** {@see BPageCouponDashboard} **/
+    dashboard: {
+      title: "לוח מחוונים לניהול קופונים",
+      chart_amount_buy: {
+        y: "סכום רכישה {currency}",
+        label: "לִקְנוֹת",
       },
-      "chart_amount_discount": {
-        "y": "הצעה {currency}",
-        "label": "הַצָעָה"
+      chart_amount_discount: {
+        y: "קופון {currency}",
+        label: "קוּפּוֹן",
       },
-      "chart_used": {
-        "y": "כמות שימושים",
-        "label": "פִּי"
-      }
-    }
+      chart_used: {
+        y: "כמות שימושים",
+        label: "פִּי",
+      },
+    },
   },
-  "account_card": {
-    "pay_create_receipt": "שלם עמלת הפעלה",
-    "balance": "איזון",
-    "locked": "נָעוּל",
-    "transfer": "לְהַעֲבִיר",
-    "charge": "לְהַפְקִיד"
+
+  /** {@see BPageOffer} **/
+  shop_offer: {
+    title: "הצעות",
+    up_to: "עד ל",
+    menu: {
+      dashboard: "לוּחַ מַחווָנִים",
+      orders: "הזמנות",
+      back: "הצעות",
+    },
+
+    /** {@see BPageOfferDashboard} **/
+    dashboard: {
+      title: "לוח מחוונים לניהול הצעות",
+      chart_amount_buy: {
+        y: "סכום רכישה {currency}",
+        label: "לִקְנוֹת",
+      },
+      chart_amount_discount: {
+        y: "הצעה {currency}",
+        label: "הַצָעָה",
+      },
+      chart_used: {
+        y: "כמות שימושים",
+        label: "פִּי",
+      },
+    },
   },
-  "timeline": {
-    "note": "{message}",
-    "info": "{message}",
-    "error": "{message}",
-    "buy": "לבדוק",
-    "payment": "תַשְׁלוּם",
-    "confirm": "אישור הזמנה, <b>{success}</b> אושר ו- <b>{fail}</b> נדחה.",
-    "prepare": "הכנת הזמנה.",
-    "send": "ההזמנה נשלחה עד <b>{delivery}</b> .",
-    "delivered": "ההזמנה נמסרה ללקוח.",
+
+  /**
+   * @see BOrderConnectsList
+   */
+  order_connect_list: {
+    subtitle:
+      "רשימה ופ אקסטארנאללי סינקאד הזמנות טהאט נאאד טו בא פולפיללאד בי טהירד-פארטי פרווידארס.",
+  },
+  /** {@see BAccountCard} **/
+  account_card: {
+    pay_create_receipt: "שלם עמלת הפעלה",
+    balance: "איזון",
+    locked: "נָעוּל",
+    transfer: "לְהַעֲבִיר",
+    charge: "לְהַפְקִיד",
+  },
+
+  /** {@see TimelineStatus} **/
+  timeline: {
+    note: "{message}",
+    info: "{message}",
+    error: "{message}",
+
+    buy: "לבדוק",
+    payment: "תַשְׁלוּם",
+
+    confirm:
+      "אישור הזמנה, <b>{success}</b> אושר ו- <b>{fail}</b> נדחה.",
+    prepare: "הכנת הזמנה.",
+    send: "ההזמנה נשלחה עד <b>{delivery}</b> .",
+    delivered: "ההזמנה נמסרה ללקוח.",
     "fill-inputs": "טופס קלט מידע שהושלם על ידי הקונה.",
     "return-add": "שלח בקשה להחזרת מוצר, {product}.",
     "return-accept": "בקשת ההחזרה {return_code} אושרה.",
     "return-reject": "הבקשה {return_code} נדחתה.",
+
     "reject-order": "דחיית הזמנה. קוד: {reject_code}.",
     "reject-order-clear": "בטל את דחיית ההזמנה. קוד: {reject_code}.",
-    "email-buy": "שלח דוא\"ל אישור רכישה ללקוח.",
-    "email-payment": "שלח דוא\"ל אישור תשלום ללקוח.",
-    "delivery-returned": "ההזמנה לא התקבלה אצל הלקוח והיא הוחזרה. יש צורך לשלוח שוב.",
+
+    "delivery-returned":
+      "ההזמנה לא התקבלה אצל הלקוח והיא הוחזרה. יש צורך לשלוח שוב.",
     "delivery-canceled": "המשלוח בוטל. יש צורך לשלוח שוב.",
     "edit-receiver-info": "כתובת למשלוח ההזמנה נערך על ידי הקונה.",
     "edit-billing-info": "כתובת לחיוב נערך על ידי הקונה.",
     "payment-cod-confirm": "תשלום COD אושר.",
-    "payment-cash-confirm": "תשלום של {amount} {currency} במזומן עבור החשבון אושר.",
+    "payment-cash-confirm":
+      "תשלום של {amount} {currency} במזומן עבור החשבון אושר.",
     "payment-dir-confirm": "אושרה קבלת תשלום ישיר.",
-    "vendor": "מצב הזמנת הספק השתנה מ- <b>{from}</b> ל- <b>{to}</b> .",
+
+    vendor: "מצב הזמנת הספק השתנה מ- <b>{from}</b> ל- <b>{to}</b> .",
+
     "connect-sync": "הזמנה מסונכרנת על ידי Connect OS.",
     "connect-shipped": "הזמנת Connect נשלחה על ידי {shipping}.",
     "connect-returned": "הזמנת Connect הוחזרה על ידי {shipping}.",
@@ -2367,2916 +4018,7311 @@ export default {
     "connect-put-hold": "ההזמנה הושהתה. {reason}",
     "connect-remove-hold": "ההזמנה הוסרה מהשהייה. {reason}",
     "connect-confirmed": "ההזמנה אושרה.",
-    "email-vendor": "🔔 הודעת הזמנה דוא\"ל נשלח אל <b>{vendor}</b> ╏ {email}.",
-    "vendor-payout": "💸 תשלום לספק."
+
+    "vendor-payout": "💸 תשלום לספק.",
+    "vendor-wallet-transaction": "ספק's ארנק עסקה.",
+
+    "vendor-sms":
+      "🔔 הזמנה ינפורמ SMS האס באאנ סאנט טו <b>{vendor}</b> ╏ {phone}.",
+
+    // ━━━━━━━━━━━━━━━━━━━━━━ Email Packs ━━━━━━━━━━━━━━━━━━━━━━
+
+    "email-buy": "שלח דוא\"ל אישור רכישה ללקוח.",
+    "email-payment": "שלח דוא\"ל אישור תשלום ללקוח.",
+    "email-update": "סאנד הזמנה עדכן אימייל טו לקוח.",
+
+    "email-vendor":
+      "🔔 הודעת הזמנה דוא\"ל נשלח אל <b>{vendor}</b> ╏ {email}.",
+
+    // ━━━━━━━━━━━━━━━━━━━━━━ SMS Packs ━━━━━━━━━━━━━━━━━━━━━━
+    "sms-payment":
+      "סאנד a תשלום אישור SMS טו טהא לקוח ויא {phone}.",
+    "sms-ready-to-ship":
+      "סאנד אנ SMS טו טהא לקוח נוטיפיינג טהאט טהאיר הזמנה יס מוכן טו בא סהיפפאד ויא {phone}.",
+    "sms-ready-to-pickup":
+      "סאנד אנ SMS טו טהא לקוח נוטיפיינג טהאט טהאיר הזמנה יס מוכן פור פיקקופ ויא {phone}.",
+    "sms-order-confirmation":
+      "סאנד אנ הזמנה אישור SMS טו טהא לקוח ויא {phone}.",
+
+    "count-adjustment":
+      "טהא כמות ופ טהא מוצר \"{product}\" האס באאנ ופדאטאד פרומ {from} טו {to}.",
   },
-  "inline_chart": {
-    "today": "היום",
-    "last_days": "לפני {days} ימים"
+
+  /** {@see FinanceInlineChart} **/
+  inline_chart: {
+    today: "היום",
+    last_days: "לפני {days} ימים",
   },
-  "products_select": {
-    "move_category": "העבר את הקטגוריה <b>{category}</b> לקטגוריה אחרת",
-    "move_product": "העבר את המוצר <b>{product}</b> לקטגוריה",
-    "product_menu": {
-      "dashboard": "לוח מחוונים למוצר",
-      "inventory": "מלאי וריאציות"
+  /** {@see BProductsWindow} **/
+  products_select: {
+    move_category: "העבר את הקטגוריה <b>{category}</b> לקטגוריה אחרת",
+    move_product: "העבר את המוצר <b>{product}</b> לקטגוריה",
+    load_more_products:
+      "מורא מוצרים ארא זמין ינ טהיס קטגוריה. קליקק טו לואד מורא יטאמס.",
+    product_menu: {
+      dashboard: "לוח מחוונים למוצר",
+      inventory: "מלאי וריאציות",
     },
-    "notifications": {
-      "copy_success": "עותק של המוצר.",
-      "change_category_success": "קטגוריית מוצרים ערוכה."
-    }
-  },
-  "physical_order_track": {
-    "title": "דוחות והערכות סיכונים"
-  },
-  "virtual_order_track": {
-    "title": "דוחות והערכות סיכונים"
-  },
-  "virtual_order_timeline": {
-    "title": "ציר זמן"
-  },
-  "physical_order_timeline": {
-    "title": "ציר זמן"
-  },
-  "physical_order_inputs": {},
-  "order_timeline": {
-    "message_input": "כתבו כאן הודעה...",
-    "pin_action": "הצמד למעלה",
-    "unpin_action": "לְהוֹצִיא סִיכָּה",
-    "copy_html": "העתק HTML",
-    "notifications": {
-      "add_note_success": "הערה נוספה.",
-      "edit_note_success": "הערה נערך.",
-      "delete_note_success": "הערה נמחקה."
+    notifications: {
+      copy_success: "עותק של המוצר.",
+      change_category_success: "קטגוריית מוצרים ערוכה.",
     },
-    "delete_dialog": {
-      "title": "מחק הערה",
-      "message": "האם ברצונך למחוק הערה זו?",
-      "action": "מחק הערה"
+
+    filter_box: {
+      no_root_filter_message: "יוו האוא מוצרים ינ שורש בוט נו מסנן.",
+      has_root_filter_message: "יוו סאט מסננים פור שורש קטגוריה.",
+      set_filter_message: "יוו קאנ סאט מסננים.",
+      edit_action: "ערוך שורש מסננים",
+      clear_action: "קלאאר שורש מסננים",
     },
-    "resend_dialog": {
-      "title": "שלח אימייל מחדש",
-      "message": "האם אתה בטוח לשלוח שוב את האימייל הזה ללקוח שלך?",
-      "action": "כן, שלח שוב",
-      "success": "דוא\"ל נשלח מחדש ללקוח שלך."
-    }
-  },
-  "accounts": {
-    "title": "הארנק שלי",
-    "message": "עליך ליצור לפחות חשבון אחד עם המטבע שבו אתה משתמש ב-Seldone. עליך למלא חשבון זה כדי לשלם את דמי השירות.",
-    "add_new": "ליצור חשבון חדש",
-    "new_account": "הוסף חשבון חדש",
-    "new_account_dialog": {
-      "title": "חשבון חדש",
-      "account_name_input": "שם החשבון",
-      "currency_input": "יחידת מטבע",
-      "currency_input_message": "החשבון שנוצר יכיל רק את הערכים של מטבע זה.",
-      "new_account_wage": "עלות יצירת חשבון חדש: חינם לחשבון הראשון",
-      "create_account_action": "צור חשבון"
-    }
-  },
-  "user_gifts": {
-    "menu": {
-      "send_gift": "שלח מתנה",
-      "sent": "לִשְׁלוֹחַ",
-      "received": "קיבלו"
+    ai: {
+      title: "אי מוצר אססיסטאנקא",
     },
-    "send_gifts": {
-      "title": "שלחו מתנות",
-      "sub_title": "אתה יכול לשלוח מתנה לחברים או ללקוחות שלך. הנמען עשוי לקבל או לדחות את המתנה שלך. הסכום נעול בחשבונך ונמשך אם הנמען מסכים. אחרת, סכום זה יועבר לחשבונך.",
-      "table": {
-        "user": "מִשׁתַמֵשׁ",
-        "amount": "כמות",
-        "currency": "מַטְבֵּעַ",
-        "account_name": "מ",
-        "status": "סטָטוּס",
-        "message": "הוֹדָעָה",
-        "created_at": "תאריך יצירה"
-      }
+    menu: {
+      select_all_products: "בחר הכול מוצרים",
+      unselect: "ונסאלאקט",
+      sort_categories: "ארראנגא / מיון קטגוריות",
+      subscription_vendor_not_support_message:
+        "קאנ לא אססיגנ ספק פור מנוי מוצרים! מנוי מוצרים מוסט אלואיס האוא a ספק אס טהאיר וונאר!",
+      vendor_owner_not_assignable_message:
+        "קאנ לא אססיגנ a ספק פור מוצרים ויטה a ספק אס יטס וונאר!",
+      category_assign_profile: "אססיגנ פרופיל טו מוצרים ינ טהא קטגוריה",
+      category_assign_profile_subtitle: "מס, משלוח, מדריך, אחריות, ...",
+      bulk_discount: "בולק הנחה",
+      bulk_discount_subtitle: "אפפלי הנחה ונ הכול מוצרים.",
     },
-    "received_gifts": {
-      "title": "קיבלו מתנות",
-      "sub_title": "קיבלת מתנות מסלדון או מאחרים",
-      "table": {
-        "amount": "כמות",
-        "currency": "מַטְבֵּעַ",
-        "account_from": "מ",
-        "status": "סטָטוּס",
-        "message": "הוֹדָעָה",
-        "created_at": "תאריך יצירה",
-        "receive": "לְקַבֵּל"
-      }
-    }
-  },
-  "get_gift_dialog": {
-    "title": "קבלו מתנה",
-    "more": "יותר ..",
-    "amount": "כמות",
-    "message": "הוֹדָעָה",
-    "account_to_input": "חשבון יעד",
-    "account_to_input_message": "סכומי מתנה יופקדו לחשבון זה.",
-    "get_action": "לקבל מתנה",
-    "notifications": {
-      "received_success_title": "מזל טוב",
-      "received_success": "סכום המתנה {amount} {currency} הופקד בחשבונך."
-    }
-  },
-  "send_gift_dialog": {
-    "title": "שלח מתנה",
-    "account_from_input": "בחר חשבון",
-    "account_from_input_message": "סכומי מתנות נמשכים מחשבון זה.",
-    "receiver_input": "מַקְלֵט",
-    "receiver_input_message": "ניתן להזין את כתובת המייל או מספר הטלפון.",
-    "message_input": "הוֹדָעָה",
-    "message_input_message": "ניתן להשאיר הודעה לנמען.",
-    "amount_input": "כמות",
-    "currency_input": "יחידת מטבע",
-    "currency_input_message": "המחיר מחושב במטבע זה.",
-    "send_action": "שלח מתנה",
-    "notifications": {
-      "send_success": "מתנה בסך {amount} {currency} נשלחה אל {receiver}."
-    }
-  },
-  "account_list": {
-    "account_input": "מספר חשבון",
-    "account_input_message": "סכומי המתנות עבור מטבע זה יופקדו בחשבון זה.",
-    "free_balance": "איזון חינם",
-    "account_name": "שם החשבון"
-  },
-  "user_monetize_accounts": {
-    "title": "חשבונות פיקדון",
-    "sub_title": "סכומי מתנות יופקדו אוטומטית לחשבונות אלו.",
-    "message": "Seldone מפקיד כספים עבור פעילות המדיה החברתית שלך, משתתף בפיתוח Seldone, הצגת חברים וכן הלאה. על ידי בחירת חשבון הפקדה עבור כל מטבע, סכומי המתנה יופקדו לחשבון זה בדומיין שלך באופן אוטומטי. ניתן לזכות סכומים אלו ל-Seldone. משיכות יהיו אפשריות רק עבור שותפים עסקיים.",
-    "add_account_action": "הוסף חשבון",
-    "add_dialog": {
-      "title": "חבר חשבון כדי לקבל מתנות",
-      "account_input": "מספר חשבון",
-      "account_input_message": "סכומי המתנות עבור מטבע זה יופקדו בחשבון זה.",
-      "set_as_default_action": "בחר כחשבון ברירת מחדל"
+
+    engine: {
+      title: "נוסף מוצרים אנגינא",
+      subtitle:
+        "מורא מוצרים וילל בא לואדאד פרומ בחר קטגוריות אנד טאגס.",
+      load_in_tips: "לואד מוצרים פרומ קטגוריות ינ טהא {category}.",
+      action: "ערוך {category} אנגינא",
     },
-    "table": {
-      "currency": "מַטְבֵּעַ",
-      "account_number": "מספר חשבון",
-      "account_name": "שֵׁם",
-      "payment": "סכום הפקדה",
-      "reset_at": "אפס ל",
-      "delete": "לִמְחוֹק"
+  },
+  /** {@see BProductsPanel} **/
+  product_panel: {
+    excel_import: {
+      title: "דרופ אקסקאל / CSV קובץ הארא.",
+      select_file: "בחר קובץ",
+      max_file: "מאקסימומ קובץ גודל: 20מב",
+      download_sample: "הורדה סאמפלא",
     },
-    "notifications": {
-      "set_success": "החשבון נוסף בהצלחה.",
-      "delete_success": "החשבון הוסר בהצלחה מרשימת חשבונות ברירת המחדל לקבלת מתנות."
+    ai: {
+      title: "אי מוצר אססיסטאנקא",
     },
-    "delete_alert": {
-      "title": "מחק חשבון",
-      "message": "האם ברצונך להסיר חשבון זה מרשימת חשבונות המתנות?",
-      "action": "לִמְחוֹק"
-    }
   },
-  "user_monetize": {
-    "title": "לעשות כסף",
-    "menu": {
-      "plans": "תוכניות",
-      "accounts": "חשבונות",
-      "participant": "מִשׁתַתֵף"
-    }
-  },
-  "user_monetize_plans": {
-    "title": "פרויקטים של שיתוף פעולה ומונטיזציה",
-    "sub_title": "תקבל זיכוי בחשבון עבור מתנות הפניה. סכומים אלו יחויבו בחשבונך וניתן למשוך אותם רק לשותפים עסקיים של Seldone (לא כולם). אתה יכול להוציא את הכסף על עמלת שירותי Seldone.",
-    "discount": "הנחה",
-    "your_income": "ההכנסה שלך",
-    "level_2": "מרמה שתיים",
-    "level_3": "מרמה שלוש",
-    "link_message": "חברות: {registered}, התקבלה: {accepted}",
-    "link_tip": "אתה יכול להוסיף את הביטוי ?ref={link_code} בסוף כל כתובת שאתה משתף.",
-    "table": {
-      "currency": "מַטְבֵּעַ",
-      "amount": "איזון",
-      "total": "סך התשלום",
-      "payment_date": "תאריך תשלום אחרון",
-      "withdraw": "נְסִיגָה"
+
+  /** {@see BOrderDashboardVendor} **/
+  order_vendor: {
+    has_panel: "האס פאנאל",
+    no_panel: "נו פאנאל",
+    manual_action: {
+      title: "ידני פעולות",
+      message: "יוו קאנ עדכן טהא ספק הזמנה סטטוס ידנית.",
+      guides: [
+        "ספקים ויטה פאנאל גישה קאנ עדכן טהאיר מימוש (סוב-ורדארס) ינ טהאיר דאדיקאטאד לוח בקרה.",
+        "יפ טהא ספק האס נו פאנאל גישה, טהא ספק הזמנה סטטוס וילל בא קהאנגאד אוטומאטיקאללי בי קהאנגינג טהא באסקאט סטטוס.",
+        "יוו קאנ עדכן ספק הזמנות ידנית.",
+      ],
     },
-    "notifications": {
-      "get_credit_success": "הסכום המבוקש הופקד בחשבונך."
-    }
-  },
-  "basic_information": {
-    "title": "הזהות והפרופיל שלי",
-    "email": "כתובת דוא\"ל",
-    "tel": "מספר טלפון נייד",
-    "address": "כתובת",
-    "payment": "עסקאות תקפות",
-    "personal_information": "מידע זהות",
-    "main_profile": "פרופיל ראשי",
-    "main_profile_subtitle": "מידע זה זמין לציבור לכולם.",
-    "kyc_waiting_info": "אנו בודקים את נכונות המידע שאתה מזין. תהליך זה הוא חובה בהתאם לכללי KYC ויצמצם את הסיכון לעסקאות פיננסיות. אתה יכול לנצל את ההטבות הנוכחיות והעתידיות של שירות זה.",
-    "personal_info_dialog": {
-      "title": "מידע זהות",
-      "name_input": "שם פרטי",
-      "family_name_input": "שם משפחה",
-      "number_input": "מספר דרכון (או קוד לאומי)",
-      "birthday_input": "יום הולדת",
-      "birthday_input_placeholder": "הזן את יום ההולדת שלך",
-      "address_input": "כתובת",
-      "postcode_input": "מיקוד",
-      "tel_input": "מספר איש קשר",
-      "passport_image_input": "בחר תמונת דרכון",
-      "passport_image_input_message": "העלה סריקה של תמונת הדרכון שלך.",
-      "personal_image_input": "בחר תמונה משלך",
-      "personal_image_input_message": "העלה תמונת סריקה קדימה ואחורה בכרטיס הלאומי שלך לתמונה."
+    payouts: {
+      title: "תשלומים",
+      message: "נהל טהא ספק תשלומים אנד עסקאות.",
+
+      charge_tooltip: "קהארגא ספק ארנק.",
+      withdraw_tooltip: "ויטהדראו פרומ ספק ארנק.",
+      payout_tooltip: "תשלום טו טהא ספק.",
     },
-    "profile_dialog": {
-      "title": "פרופיל ראשי",
-      "full_name_input": "שם מלא",
-      "tel_input": "מספר איש קשר",
-      "email_input": "אימייל",
-      "website_input": "אתר אינטרנט",
-      "address_input": "כתובת",
-      "about_input": "עליי",
-      "about_long_input": "טקסט ארוך עלי",
-      "image_input": "בחר תמונת פרופיל",
-      "image_input_message": "העלה את התמונה שלך. תמונה זו תשמש כתמונת הפרופיל שלך.",
-      "notifications": {
-        "update_profile_success": "הפרופיל שלך עודכן.",
-        "update_personal_info_success": "המידע שלך נרשם בהצלחה"
-      }
+    order_canceled: "הזמנה בוטל",
+    order_rejected: "הזמנה נדחה בי ספק",
+  },
+
+  /**
+   * @see VPageVendorDashboard
+   */
+  vendor_dashboard: {
+    info: {
+      subtitle: "מרקטפלייס מידע.",
     },
-    "charge_account_approve_message": "חייב את חשבונך כדי לאשר את העסקה הבנקאית שלך.",
-    "payment_approval": "אישור תשלום",
-    "residential_address_checking": "כתובת המגורים שלך מתעדת בתור לבדיקה.",
-    "add_residential_address": "הוסף מסמכי מיקומך והוכחת כתובת מגורים."
-  },
-  "phone_verify": {
-    "title": "מספר טלפון נייד",
-    "step1_title": "הזן את מספר הנייד שלך.",
-    "phone_number_input": "מספר טלפון נייד",
-    "next": "השלב הבא",
-    "sms_code_input": "קוד אימות",
-    "sms_code_message": "קוד אימות בן 6 ספרות נשלח אל {phone_number}.",
-    "notifications": {
-      "duplicated_number_error": "מספר זה כבר אושר על ידך.",
-      "send_activation_code_success_title": "קוד אימות",
-      "send_activation_code_success": "קוד האימות נשלח אל {phone_number}.",
-      "verify_success": "מספר הנייד שלך אומת"
-    }
-  },
-  "companies": {
-    "title": "החשבונות העסקיים שלי",
-    "message": "עסקים, יזמים וצוותים מקצועיים יכולים לפתח מוצרים ויישומים המבוססים על ה-Seldone. זוהי דרישה ליצירת פרופיל עסקי.",
-    "new_company": "חברה חדשה"
-  },
-  "add_company": {
-    "name_input": "שם החברה",
-    "website_input": "אתר אינטרנט",
-    "email_input": "אימייל",
-    "address_input": "כתובת",
-    "tel_input": "טל",
-    "mobile_input": "נייד",
-    "edit_action": "ערוך חברה",
-    "create_action": "ליצור חברה",
-    "notifications": {
-      "add_success": "החשבון העסקי {name} נוצר.",
-      "edit_success": "החשבון העסקי נערך."
-    }
-  },
-  "user_access_control": {
-    "menu": {
-      "personal_key": "אישי",
-      "shop_key": "לקוחות",
-      "apps": "אפליקציות"
+    performance: {
+      subtitle: "מי מכירות פארפורמאנקא.",
     },
-    "connected_apps_title": "אפליקציות מחוברות",
-    "connected_apps_message": "תראה רשימה של כל החנויות והאפליקציות שמחוברות לחשבון הדומיין שלך. אתה יכול למחוק את הגישה לכל אחד מהם.",
-    "shop_keys_title": "חנות מפתחות גישה",
-    "shop_keys_message": "מפתחות אלו משמשים ליצירת Access Token על ידי השרת שלך. שימו לב שהמפתחות חסויים וממוקמים רק בשרת כדי שלא יהיו גלויים לאחרים.",
-    "personal_keys_title": "מפתחות גישה אישיים",
-    "personal_keys_message": "אתה יכול ליצור את המפתחות לחשבון שלך כאן. שים לב שמפתחות אלה יוכלו לגשת לחשבון שלך. צור והשתמש במפתחות אלה רק אם אתה יודע בדיוק מה אתה עושה.",
-    "clients_title": "לקוחות",
-    "clients_message": "מפתחות אלו משמשים ליצירת Access Token על ידי השרת שלך. שימו לב שהמפתחות חסויים וממוקמים רק בשרת כדי שלא יהיו גלויים לאחרים."
-  },
-  "user_security_control": {
-    "title": "אבטחת חשבון",
-    "message": "אתה יכול לערוך את הגדרות האבטחה של החשבון שלך כאן.",
-    "delete": {
-      "title": "מחק חשבון",
-      "subtitle": "לפני מחיקת חשבונך, ודא שמחקת את כל החנויות.",
-      "action": "אני בטוח, מחק את החשבון שלי",
-      "agreement": "אני מסכים שכל המידע שלי יימחק מהשרת שלך. המידע שלך יימחק לפי לוח זמנים שנקבע על ידינו כדי למנוע הונאה או שימוש לרעה."
+    products: {
+      title: "מוצרים",
+      subtitle:
+        "הארא יוו קאנ צפה טהא מספר ופ יוור מוצרים רשימה ונ טהא מרקטפלייס. מוצרים בי מולטיפלא ספקים ארא לא ינקלודאד.",
     },
-    "list": {
-      "password": {
-        "title": "סיסמה",
-        "sub_title": "בחר סיסמה חזקה לחשבון שלך.",
-        "action_title": "סיסמת גישה לחשבון",
-        "not_exist": "לא נכנס",
-        "action": "שנה סיסמא"
+    wallets: {
+      title: "מי ארנקים",
+      subtitle:
+        "יוו דונ't נאאד טו הוסף ארנקים ידנית! ספק ארנקים וילל בא קראאטאד אוטומאטיקאללי.",
+    },
+
+    open_marketplace_page: "ופאנ מרקטפלייס דף",
+    open_my_store_page: "ופאנ מי חנות דף",
+    open_my_listing_page: "ופאנ מי רשימה דף",
+    add_products_permission: "הוסף מוצרים הרשאה",
+    add_categories_permission: "הוסף קטגוריות הרשאה",
+  },
+
+  /**
+   * @see VPageVendorInventory
+   */
+  vendor_inventory: {
+    title: "רשימת מוצרים",
+    subtitle:
+      "טהיס יס a רשימה ופ יוור מוצרים ינ טהא מרקטפלייס. עדכן מחיר אנד קואנטיטיאס פור יוור אססיגנאד מוצרים ינ טהא מלאי. אס a ספק, יוו'לל רק סאא סינגלא-ואנדור מוצרים יוו וונ ינ טהא מוצר רשימה. וטהאר אססיגנאד מוצרים קאנ בא מודיפיאד הארא אס ואלל.",
+  },
+
+  /**
+   * @see VPageVendorAccess
+   */
+  vendor_member: {
+    title: "חברי צוות",
+    subtitle:
+      "טהיס יס טהא רשימה ופ משתמשים והו האוא גישה טו יוור ספק פאנאל. יוו קאנ הוסף חדש חברי צוות אנד קוסטומיזא טהאיר הרשאות הארא.",
+    add_action: "הוסף חבר חדש",
+    pending: {
+      title: "הזמנות ממתינות",
+      message: "צפה טהא רשימה ופ ינויטאטיונס טהאט ארא אואיטינג אקקאפטאנקא.",
+    },
+  },
+
+  /**
+   * @see VMemberAddDialog
+   */
+  vendor_member_add: {
+    title_edit: "ערוך צוות חבר",
+    title_new: "הוסף חדש צוות חבר",
+    member: {
+      title: "צוות חבר פרטים",
+      subtitle:
+        "הוסף a חדש צוות חבר אנד סאט טהאיר הרשאות. קליקק ונ אאקה יטאמ טו אדגוסט ראאד/וריטא גישה. אאקה רוו קורראספונדס טו a הרשאה לאואל פור טהא ראשי חנות לוח בקרה.",
+    },
+    access: {
+      view_data: "צפה נתונים",
+      apply_changes: "שמור שינויים",
+    },
+    inputs: {
+      email: {
+        label: "כתובת אימייל",
+        placeholder: "אנטאר טהא חבר's כתובת אימייל...",
       },
-      "phone": {
-        "title": "מספר טלפון נייד",
-        "sub_title": "אשר את מספר הנייד שלך. תוכל להיכנס דרך המספר הזה.",
-        "action_title": "מספר הטלפון הראשי של החשבון",
-        "action": "אמת מספר"
-      },
-      "two_step": {
-        "title": "כניסה דו-שלבית",
-        "sub_title": "אשר את מספר הנייד שלך. תוכל להיכנס דרך המספר הזה.",
-        "action_title": "הגבר את אבטחת החשבון",
-        "activated_action": "מוּפעָל",
-        "active_action": "פעיל כעת"
-      },
-      "email": {
-        "title": "דוא\"ל עיקרי",
-        "sub_title": "יש לך אפשרות לעדכן את האימייל הראשי המשויך לחשבון זה.",
-        "action_title": "שנה אימייל ראשי",
-        "action": "שלח קישור אימות"
-      }
     },
-    "two_step_auth": {
-      "step_1": {
-        "title": "התקן את אפליקציית Google Authenticator"
+    notifications: {
+      add_success: {
+        title: "חבר נוסף",
+        message: "טהא צוות חבר האס באאנ סוקקאסספוללי הוסף.",
       },
-      "step_2": {
-        "title": "הזן את הקוד שנוצר על ידי האפליקציה",
-        "message": "הקוד בן 6 הספרות נוצר על ידי אלגוריתם בטלפון הנייד שלך. ניתן להוריד את האפליקציה מהקישור הבא. לחץ על מקש מחולל הקודים כדי ליצור קוד QR המכיל את הסיסמה.",
-        "qr_code_info": "אם לא ניתן לסרוק, ניתן להעתיק ולהדביק ידנית את הקוד באפליקציה:",
-        "create_new_code": "צור קוד חדש",
-        "qr_code_scanning": "סרוק את קוד ה-QR שנוצר על ידי Google Authenticator Mobile App והזן את הקוד שנוצר לאישור בתיבה בדף זה.",
-        "qr_code_regenerate_info": "הערה: על ידי לחיצה על המקש לעיל ייווצר מפתח חדש והמקש הקודם לא יהיה שמיש. הזן את המפתח החדש באפליקציית הטלפון שלך."
+      update_success: {
+        title: "חבר עודכן",
+        message: "טהא צוות חבר's מידע האס באאנ סוקקאסספוללי ופדאטאד.",
       },
-      "step_3": {
-        "title": "הזן את הקוד שנוצר",
-        "message": "הזן את קוד הגישה שנוצר באפליקציה בשדה למטה.",
-        "activation_key_input": "קוד גישה"
-      },
-      "activated_alert": "התחברות דו-שלבית מופעלת.",
-      "activated_message": "התחברות דו-שלבית מופעלת עבור חשבונך. מעתה ואילך תצטרך להזין קוד שני שמשתנה כל 30 שניות כדי לגשת לחשבון שלך. כדי לבטל התחברות דו-שלבית, פשוט לחץ פעמיים לחץ על שלב ועבור על השלבים.",
-      "cancel_two_step_login_action": "בטל התחברות דו-שלבית",
-      "cancel_two_step_login_info": "אם ברצונך להשבית את האימות הדו-שלבי, הזן את הסיסמה שלך ולחץ על מפתח הכניסה הדו-שלבי.",
-      "password_input": "סיסמה",
-      "cancel_2fa_action": "בטל התחברות דו-שלבית"
     },
-    "change_password_dialog": {
-      "title": "שנה סיסמא",
-      "message": "השתמש בסיסמה מורכבת ובלתי נשכחת.",
-      "password_input": "סיסמה נוכחית",
-      "new_password_input": "סיסמה חדשה",
-      "re_new_password_input": "חזור על סיסמה חדשה",
-      "tips": {
-        "length": "הסיסמה חייבת להיות לפחות 8 תווים",
-        "chars": "לפחות אות אחת גדולה ומספר אחד.",
-        "match": "הסיסמה תואמת."
-      },
-      "change_password_action": "שנה סיסמא",
-      "notifications": {
-        "change_password_title": "שנה סיסמא",
-        "change_password": "סיסמה שונתה בהצלחה."
-      }
-    }
+    actions: {
+      add: "הוסף חבר",
+    },
   },
-  "authorized_clients": {
-    "title": "רשימת חנויות / אפליקציות מחוברות",
-    "table": {
-      "name": "שֵׁם",
-      "app": "אפליקציה",
-      "scopes": "היקפים",
-      "shop": "חנות מוגבלת"
+
+  /**
+   * @see VPageVendorPayments
+   */
+  vendor_payments: {
+    list: {
+      title: "תשלום היסטוריה",
+      subtitle:
+        "יוו קאנ צפה יוור תשלום היסטוריה הארא. טהאסא תשלומים מאי בא תהליך ידנית טהרווגה באנק טראנספארס ור אוטומאטיקאללי וסינג תשלום שירותים טהאט הצעה תשלום קאפאביליטיאס.",
     },
-    "remove_action": "הסר גישה",
-    "delete_alert": {
-      "title": "לִמְחוֹק",
-      "message": "האם ברצונך לבטל את הגישה הזו? שים לב שלאפליקציה הזו לא תהיה יותר גישה לחשבון שלך.",
-      "action": "סרב לגישה"
-    }
+    connect: {
+      title: "קוננאקט באנק",
+      subtitle:
+        "וא הצעה ספליט תשלום קאפאביליטיאס פור טהא פוללווינג תשלום שערים. טו ראקאיוא תשלומים סאאמלאססלי אפטאר אאקה רכישה, פלאאסא קוננאקט יוור באנק חשבון וסינג טהאסא אפשרויות.",
+    },
+    verify_dialog: {
+      title: "אמת תשלום",
+      option: {
+        title: "ספק פעולה",
+        subtitle:
+          "יוו האוא טהא אפשרות טו אקקאפט ור ראגאקט טהיס טראנספאר. טהיס פעולה סארואס אס a היסטוריקאל ראקורד רק. סימפלי אשר יפ יוו האוא ראקאיואד טהא פונדס; יפ לא, טהארא's נו נאאד טו טאקא אני פעולה.",
+      },
+      inputs: {
+        verify: {
+          label: "האוא יוו אשר טהיס תשלום?",
+          false_description:
+            "נו, I האוא לא יאט ראקאיואד טהיס תשלום ינ מי באנק חשבון.",
+          true_description: "יאס, I האוא ראקאיואד אנד ואריפיאד טהיס תשלום.",
+        },
+      },
+    },
   },
-  "clients": {
-    "title": "רשימת לקוחות",
-    "create_new_action": "צור לקוח חדש",
-    "table": {
-      "client_id": "מזהה לקוח",
-      "app": "אפליקציה",
-      "name": "כינוי",
-      "secret_key": "מפתח סודי"
+
+  /**
+   * @see BVendorOrderRefund
+   */
+  vendor_order_refund: {
+    title: "החזר הזמנה",
+    subtitle:
+      "<b>חשוב! </b>אקסאקוטינג טהיס פעולה וילל צור a נאגאטיוא עסקה ינ טהא ספק's ארנק אנד סובטראקט טהא קהוסאנ סכום פרומ יט. טהא סכום קאננוט אקסקאאד טהא ראמאינינג סה״כ עסקאות פור טהא בחר הזמנה. אדדיטיונאללי, יפ פונדס האוא באאנ טראנספארראד טו קוננאקטאד באנק חשבונות (סוקה אס ויטה Stripe קוננאקט ור ידני וירא טראנספאר), יוו סהוולד צור a <b>העברה הפוכה</b>.",
+    inputs: {
+      note: {
+        message: "יט's ויסיבלא טו טהא ספק.",
+        placeholder: "יוו קאנ אטטאקה a הערה הארא...",
+      },
+      amount: {
+        error_message: "טהא ראמאינינג סכום האס באאנ אקסקאאדאד.",
+      },
     },
-    "create_dialog": {
-      "title": "לקוח חדש",
-      "error_msg": "<strong>שְׁגִיאָה!</strong> מצטערים, אירעה שגיאה!",
-      "name_input": "שֵׁם",
-      "name_input_message": "משהו שהמשתמשים שלך מזהים וסומכים עליו.",
-      "redirect_input_message": "החזרת כתובת לאתר שלך."
-    },
-    "edit_dialog": {
-      "title": "גישת עריכה"
-    },
-    "delete_alert": {
-      "title": "לִמְחוֹק",
-      "message": "האם אתה רוצה למחוק את הלקוח הזה?",
-      "action": "לִמְחוֹק"
-    }
   },
-  "personal_access_tokens": {
-    "title": "רשימה של אסימוני גישה אישיים",
-    "create_action": "צור אסימון חדש",
-    "table": {
-      "name": "שֵׁם",
-      "scopes": "גישה",
-      "expire_at": "תאריך תפוגה"
+
+  /** {@see BOrderVendorPaymentManagement} **/
+  order_vendor_payment: {
+    message:
+      "טהיס פרווידאס אנ סקירה ופ טהא עסקאות ינ טהא ספק's וירטואלי ארנק ונ טהא מרקטפלייס. והאנאואר אנ הזמנה יס פלאקאד, טהא ספק's סהארא ופ טהא מכירה יס הוסף טו טהאיר ארנק.",
+    vendor_wallets: "ספק ארנקים",
+    my_wallets: "הארנק שלי",
+    refund_order_action: "החזר הזמנה",
+    automatic_payout_list: {
+      subtitle:
+        "טהיס יס a רשימה ופ אוטומטי תשלומים טו יוור קוננאקטאד באנק חשבון. פלאאסא הערה טהאט רק אוטומטי תשלומים וילל בא דיספלאיאד הארא, אנד ידני תשלומים וילל לא בא סהוונ.",
     },
-    "create_dialog": {
-      "title": "בניין אסימונים",
-      "error_message": "<strong>שְׁגִיאָה!</strong> מצטערים, אירעה שגיאה!",
-      "name_input": "כינוי אקס. השם הסמל שלי",
-      "name_input_message": "שם אסימון אהוב.",
-      "scopes_list": "רשימת גישה לאסימונים"
-    },
-    "access_token_dialog": {
-      "title": "מפתח גישה אישי",
-      "message": "הנה האסימון של אסימון הגישה האישי שלך. זו הפעם היחידה שהאסימון הזה יוצג, אז אל תפספסו אותו! כעת תוכל להשתמש באסימון הזה כדי לבקש ממשק API."
-    },
-    "delete_alert": {
-      "title": "לִמְחוֹק",
-      "message": "האם ברצונך למחוק אסימון גישה זה?",
-      "action": "לִמְחוֹק"
-    }
+    reversal_transfer_action: "העברה הפוכה",
   },
-  "scopes": {
-    "profile": {
-      "name": "פּרוֹפִיל",
-      "description": "קרא מידע פרופיל כולל שם, כתובת דוא\"ל, תמונה וסטטוס אימות."
+
+  /** {@see BPageOrderPhysicalTrack} **/
+  physical_order_track: {
+    title: "דוחות והערכות סיכונים",
+  },
+  /** {@see BPageOrderVirtualTrack} **/
+  virtual_order_track: {
+    title: "דוחות והערכות סיכונים",
+  },
+  /** {@see BPageOrderVirtualTimeline} **/
+  virtual_order_timeline: {
+    title: "ציר זמן",
+  },
+  /** {@see BPageOrderPhysicalTimeline} **/
+  physical_order_timeline: {
+    title: "ציר זמן",
+  },
+  /** {@see BPageOrderPhysicalInput} **/
+  physical_order_inputs: {},
+  /** {@see BOrderTimeline} **/
+  order_timeline: {
+    message:
+      "ינ טהיס סאקטיונ, יוו קאנ צפה טהא טימאלינא ופ אואנטס ראלאטאד טו טהא הזמנה, מימוש, תשלום, אנד טהאיר ראספאקטיוא סטאטוסאס. אדדיטיונאללי, יוו קאנ ובסארוא טהא הזמנות דיספאטקהאד טו בוטה לקוחות אנד ספקים.",
+    add_note_subtitle: "וריטא a הודעה אנד מאנטיונ יוור קוללאאגואס.",
+
+    message_input: "כתבו כאן הודעה...",
+    pin_action: "הצמד למעלה",
+    unpin_action: "לְהוֹצִיא סִיכָּה",
+    copy_html: "העתק HTML",
+    notifications: {
+      add_note_success: "הערה נוספה.",
+      edit_note_success: "הערה נערך.",
+      delete_note_success: "הערה נמחקה.",
     },
-    "phone": {
-      "name": "מספר טלפון",
-      "description": "גישה למספר טלפון."
+    delete_dialog: {
+      title: "מחק הערה",
+      message: "האם ברצונך למחוק הערה זו?",
+      action: "מחק הערה",
     },
-    "address": {
-      "name": "כתובות",
-      "description": "קרא כתובת שמורה מפנקס הכתובות."
+    resend_dialog: {
+      title: "שלח אימייל מחדש",
+      message: "האם אתה בטוח לשלוח שוב את האימייל הזה ללקוח שלך?",
+      action: "כן, שלח שוב",
+      success: "דוא\"ל נשלח מחדש ללקוח שלך.",
     },
-    "buy": {
-      "name": "לִרְכּוֹשׁ",
-      "description": "בצע הזמנה ורכישה מהחנות."
+  },
+
+  /** {@see BPageShuttleWalletAccounts} **/
+  accounts: {
+    title: "הארנק שלי",
+    message:
+      "עליך ליצור לפחות חשבון אחד עם המטבע שבו אתה משתמש ב-Seldone. עליך למלא חשבון זה כדי לשלם את דמי השירות.",
+    add_new: "ליצור חשבון חדש",
+    new_account: "הוסף חשבון חדש",
+    new_account_dialog: {
+      title: "חשבון חדש",
+      account_name_input: "שם החשבון",
+      currency_input: "יחידת מטבע",
+      currency_input_message:
+        "החשבון שנוצר יכיל רק את הערכים של מטבע זה.",
+      new_account_wage: "עלות יצירת חשבון חדש: חינם לחשבון הראשון",
+      create_account_action: "צור חשבון",
+    },
+  },
+
+  /** {@see UserGifts} **/
+  user_gifts: {
+    menu: {
+      send_gift: "שלח מתנה",
+      sent: "לִשְׁלוֹחַ",
+      received: "קיבלו",
+    },
+
+    /** {@see BPageShuttleWalletGiftsSend} **/
+    send_gifts: {
+      title: "שלחו מתנות",
+      sub_title:
+        "אתה יכול לשלוח מתנה לחברים או ללקוחות שלך. הנמען עשוי לקבל או לדחות את המתנה שלך. הסכום נעול בחשבונך ונמשך אם הנמען מסכים. אחרת, סכום זה יועבר לחשבונך.",
+      table: {
+        user: "מִשׁתַמֵשׁ",
+        amount: "כמות",
+        currency: "מַטְבֵּעַ",
+        account_name: "מ",
+        status: "סטָטוּס",
+        message: "הוֹדָעָה",
+        created_at: "תאריך יצירה",
+      },
+    },
+
+    /** {@see BPageShuttleWalletGiftsReceived} **/
+    received_gifts: {
+      title: "קיבלו מתנות",
+      sub_title:
+        "קיבלת מתנות מסלדון או מאחרים",
+
+      table: {
+        amount: "כמות",
+        currency: "מַטְבֵּעַ",
+        account_from: "מ",
+        status: "סטָטוּס",
+        message: "הוֹדָעָה",
+        created_at: "תאריך יצירה",
+        receive: "לְקַבֵּל",
+      },
+    },
+  },
+
+  /** {@see BAccountGiftRedeem} **/
+  get_gift_dialog: {
+    title: "קבלו מתנה",
+    more: "יותר ..",
+    amount: "כמות",
+    message: "הוֹדָעָה",
+    account_to_input: "חשבון יעד",
+    account_to_input_message: "סכומי מתנה יופקדו לחשבון זה.",
+    get_action: "לקבל מתנה",
+    notifications: {
+      received_success_title: "מזל טוב",
+      received_success:
+        "סכום המתנה {amount} {currency} הופקד בחשבונך.",
+    },
+  },
+  /** {@see BAccountGiftSend} **/
+  send_gift_dialog: {
+    title: "שלח מתנה",
+    account_from_input: "בחר חשבון",
+    account_from_input_message: "סכומי מתנות נמשכים מחשבון זה.",
+    receiver_input: "מַקְלֵט",
+    receiver_input_message: "ניתן להזין את כתובת המייל או מספר הטלפון.",
+    message_input: "הוֹדָעָה",
+    message_input_message: "ניתן להשאיר הודעה לנמען.",
+    amount_input: "כמות",
+    currency_input: "יחידת מטבע",
+    currency_input_message: "המחיר מחושב במטבע זה.",
+    send_action: "שלח מתנה",
+    notifications: {
+      send_success: "מתנה בסך {amount} {currency} נשלחה אל {receiver}.",
+    },
+  },
+
+  /** {@see BAccountInput} **/
+  account_list: {
+    account_input: "מספר חשבון",
+    account_input_message:
+      "סכומי המתנות עבור מטבע זה יופקדו בחשבון זה.",
+    free_balance: "איזון חינם",
+    account_name: "שם החשבון",
+  },
+  /** {@see OPageMonetizeAccounts} **/
+  user_monetize_accounts: {
+    title: "חשבונות פיקדון",
+    sub_title:
+      "סכומי מתנות יופקדו אוטומטית לחשבונות אלו.",
+    message:
+      "Selldone דאפוסיטס פונדס פור יוור סוקיאל מאדיא אקטיויטי, פארטיקיפאטינג ינ Selldone דאואלופמאנט, ינטרודוקינג פריאנדס אנד סו ונ. בי קהווסינג a דאפוסיט חשבון פור אאקה מטבע, טהא מתנה סכום וילל בא דאפוסיטאד ינטו טהאט חשבון ינ יוור דומיין אוטומאטיקאללי. טהאסא סכום קאנ בא קראדיטאד טו Selldone. ויטהדראואלס וילל רק בא פוססיבלא פור בוסינאסס פארטנארס. ",
+    add_account_action: "הוסף חשבון",
+    add_dialog: {
+      title: "חבר חשבון כדי לקבל מתנות",
+      account_input: "מספר חשבון",
+      account_input_message:
+        "סכומי המתנות עבור מטבע זה יופקדו בחשבון זה.",
+      set_as_default_action: "בחר כחשבון ברירת מחדל",
+    },
+    table: {
+      currency: "מַטְבֵּעַ",
+      account_number: "מספר חשבון",
+      account_name: "שֵׁם",
+      payment: "סכום הפקדה",
+      reset_at: "אפס ל",
+      delete: "לִמְחוֹק",
+    },
+    notifications: {
+      set_success: "החשבון נוסף בהצלחה.",
+      delete_success:
+        "החשבון הוסר בהצלחה מרשימת חשבונות ברירת המחדל לקבלת מתנות.",
+    },
+    delete_alert: {
+      title: "מחק חשבון",
+      message:
+        "האם ברצונך להסיר חשבון זה מרשימת חשבונות המתנות?",
+      action: "לִמְחוֹק",
+    },
+  },
+  /** {@see UserMonetize} **/
+  user_monetize: {
+    title: "לעשות כסף",
+    menu: {
+      plans: "תוכניות",
+      accounts: "חשבונות",
+      participant: "מִשׁתַתֵף",
+    },
+  },
+  /** {@see OPageMonetizeReferral} **/
+  user_monetize_plans: {
+    title: "פרויקטים של שיתוף פעולה ומונטיזציה",
+    sub_title:
+      "יוו'לל בא קראדיטאד ויטה ראפארראל ראוארדס ינ יוור Selldone ארנק, אנד טהאסא פונדס קאנ בא וסאד טו שלם פור Selldone שירות פאאס (זמין פור הכול). פלאאסא הערה טהאט רק Selldone ויפ בוסינאסס פארטנארס האוא טהא אביליטי טו ויטהדראו טהאסא ראפארראל קראדיטס, אנד טהיס אפשרות יס לא זמין טו הכול משתמשים.",
+
+    discount: "הנחה",
+    your_income: "ההכנסה שלך",
+    level_2: "מרמה שתיים",
+    level_3: "מרמה שלוש",
+    link_message: "חברות: {registered}, התקבלה: {accepted}",
+    link_tip:
+      "אתה יכול להוסיף את הביטוי ?ref={link_code} בסוף כל כתובת שאתה משתף.",
+    table: {
+      currency: "מַטְבֵּעַ",
+      amount: "איזון",
+      total: "סך התשלום",
+      payment_date: "תאריך תשלום אחרון",
+      withdraw: "נְסִיגָה",
+    },
+
+    notifications: {
+      get_credit_success:
+        "הסכום המבוקש הופקד בחשבונך.",
+    },
+  },
+  /** {@see BPageShuttleIdentity} **/
+  basic_information: {
+    title: "הזהות והפרופיל שלי",
+    email: "כתובת דוא\"ל",
+    tel: "מספר טלפון נייד",
+    address: "כתובת",
+    payment: "עסקאות תקפות",
+    personal_information: "מידע זהות",
+    main_profile: "פרופיל ראשי",
+    main_profile_subtitle:
+      "מידע זה זמין לציבור לכולם.",
+    kyc_waiting_info:
+      "אנו בודקים את נכונות המידע שאתה מזין. תהליך זה הוא חובה בהתאם לכללי KYC ויצמצם את הסיכון לעסקאות פיננסיות. אתה יכול לנצל את ההטבות הנוכחיות והעתידיות של שירות זה.",
+
+    personal_info_dialog: {
+      title: "מידע זהות",
+      name_input: "שם פרטי",
+      family_name_input: "שם משפחה",
+      number_input: "מספר דרכון (או קוד לאומי)",
+      birthday_input: "יום הולדת",
+      birthday_input_placeholder: "הזן את יום ההולדת שלך",
+      address_input: "כתובת",
+      postcode_input: "מיקוד",
+      tel_input: "מספר איש קשר",
+      passport_image_input: "בחר תמונת דרכון",
+      passport_image_input_message:
+        "העלה סריקה של תמונת הדרכון שלך.",
+      personal_image_input: "בחר תמונה משלך",
+      personal_image_input_message:
+        "העלה תמונת סריקה קדימה ואחורה בכרטיס הלאומי שלך לתמונה.",
+    },
+    profile_dialog: {
+      title: "פרופיל ראשי",
+      subtitle:
+        "ערוך יוור ציבורי פרופיל מידע הארא. טהיס מידע מיגהט בא ויסיבלא טו יוור לקוחות ור וטהאר משתמשים.",
+      full_name_input: "שם מלא",
+      tel_input: "מספר איש קשר",
+      email_input: "אימייל",
+      website_input: "אתר אינטרנט",
+      address_input: "כתובת",
+      about_input: "עליי",
+      about_long_input: "טקסט ארוך עלי",
+      image_input: "בחר תמונת פרופיל",
+      image_input_message:
+        "העלה את התמונה שלך. תמונה זו תשמש כתמונת הפרופיל שלך.",
+      notifications: {
+        update_profile_success: "הפרופיל שלך עודכן.",
+        update_personal_info_success:
+          "המידע שלך נרשם בהצלחה",
+      },
+    },
+    charge_account_approve_message:
+      "חייב את חשבונך כדי לאשר את העסקה הבנקאית שלך.",
+    payment_approval: "אישור תשלום",
+    residential_address_checking:
+      "כתובת המגורים שלך מתעדת בתור לבדיקה.",
+    add_residential_address:
+      "הוסף מסמכי מיקומך והוכחת כתובת מגורים.",
+  },
+  /** {@see BUserPhoneVerify} **/
+  phone_verify: {
+    title: "מספר טלפון נייד",
+    step1_title:
+      "הזן את מספר הנייד שלך.",
+    phone_number_input: "מספר טלפון נייד",
+    next: "השלב הבא",
+    sms_code_input: "קוד אימות",
+    sms_code_message: "קוד אימות בן 6 ספרות נשלח אל {phone_number}.",
+
+    notifications: {
+      duplicated_number_error: "מספר זה כבר אושר על ידך.",
+      send_activation_code_success_title: "קוד אימות",
+      send_activation_code_success:
+        "קוד האימות נשלח אל {phone_number}.",
+      verify_success: "מספר הנייד שלך אומת",
+    },
+  },
+  /** {@see BPageShuttleCompanies} **/
+  companies: {
+    title: "החשבונות העסקיים שלי",
+    message:
+      "עסקים, יזמים וצוותים מקצועיים יכולים לפתח מוצרים ויישומים המבוססים על ה-Seldone. זוהי דרישה ליצירת פרופיל עסקי.",
+    new_company: "חברה חדשה",
+  },
+  /** {@see BCompanyAdd} **/
+  add_company: {
+    name_input: "שם החברה",
+    website_input: "אתר אינטרנט",
+    email_input: "אימייל",
+    address_input: "כתובת",
+    tel_input: "טל",
+    mobile_input: "נייד",
+    edit_action: "ערוך חברה",
+    create_action: "ליצור חברה",
+    notifications: {
+      add_success: "החשבון העסקי {name} נוצר.",
+      edit_success: "החשבון העסקי נערך.",
+    },
+  },
+  /** {@see UserAccessControl} **/
+  user_access_control: {
+    menu: {
+      personal_key: "אישי",
+      shop_key: "לקוחות",
+      apps: "אפליקציות",
+    },
+    connected_apps_title: "אפליקציות מחוברות",
+    connected_apps_message:
+      "תראה רשימה של כל החנויות והאפליקציות שמחוברות לחשבון הדומיין שלך. אתה יכול למחוק את הגישה לכל אחד מהם.",
+    clients_title: "לקוחות",
+    clients_message:
+      "טהאסא מפתחות ארא וסאד טו צור גישה טוקאנ בי יוור סארואר. הערה טהאט טהא מפתחות ארא קונפידאנטיאל אנד רק פלאקאד ונ טהא סארואר סו טהאט טהאי ארא לא ויסיבלא טו וטהארס.",
+    personal_keys_title: "מפתחות גישה אישיים",
+    personal_keys_message:
+      "אתה יכול ליצור את המפתחות לחשבון שלך כאן. שים לב שמפתחות אלה יוכלו לגשת לחשבון שלך. צור והשתמש במפתחות אלה רק אם אתה יודע בדיוק מה אתה עושה.",
+  },
+
+  /** {@see BPageShuttleSecurity} **/
+  user_security_control: {
+    title: "אבטחת חשבון",
+    message: "אתה יכול לערוך את הגדרות האבטחה של החשבון שלך כאן.",
+
+    delete: {
+      title: "מחק חשבון",
+      subtitle:
+        "לפני מחיקת חשבונך, ודא שמחקת את כל החנויות.",
+      action: "אני בטוח, מחק את החשבון שלי",
+      agreement:
+        "אני מסכים שכל המידע שלי יימחק מהשרת שלך. המידע שלך יימחק לפי לוח זמנים שנקבע על ידינו כדי למנוע הונאה או שימוש לרעה.",
+    },
+
+    list: {
+      email: {
+        title: "דוא\"ל עיקרי",
+        sub_title:
+          "יש לך אפשרות לעדכן את האימייל הראשי המשויך לחשבון זה.",
+        action_title: "שנה אימייל ראשי",
+        action: "שלח קישור אימות",
+      },
+      password: {
+        title: "סיסמה",
+        sub_title: "בחר סיסמה חזקה לחשבון שלך.",
+        action_title: "סיסמת גישה לחשבון",
+        not_exist: "לא נכנס",
+        action: "שנה סיסמא",
+      },
+      phone: {
+        title: "מספר טלפון נייד",
+        sub_title:
+          "אשר את מספר הנייד שלך. תוכל להיכנס דרך המספר הזה.",
+        action_title: "מספר הטלפון הראשי של החשבון",
+        action: "אמת מספר",
+      },
+
+      two_step: {
+        title: "כניסה דו-שלבית",
+        sub_title:
+          "אשר את מספר הנייד שלך. תוכל להיכנס דרך המספר הזה.",
+        action_title: "הגבר את אבטחת החשבון",
+        activated_action: "מוּפעָל",
+        active_action: "פעיל כעת",
+      },
+    },
+    two_step_auth: {
+      step_1: {
+        title: "התקן את אפליקציית Google Authenticator",
+      },
+      step_2: {
+        title: "הזן את הקוד שנוצר על ידי האפליקציה",
+        message:
+          "הקוד בן 6 הספרות נוצר על ידי אלגוריתם בטלפון הנייד שלך. ניתן להוריד את האפליקציה מהקישור הבא. לחץ על מקש מחולל הקודים כדי ליצור קוד QR המכיל את הסיסמה.",
+        qr_code_info:
+          "אם לא ניתן לסרוק, ניתן להעתיק ולהדביק ידנית את הקוד באפליקציה:",
+        create_new_code: "צור קוד חדש",
+        qr_code_scanning:
+          "סקאנ טהא QR קוד קראאטאד בי Google אוטהאנטיקאטור מובילא אפפ אנד אנטאר טהא קוד גאנאראטאד פור אישור ינ טהא קופסה ונ טהיס דף.",
+        qr_code_regenerate_info:
+          "הערה: על ידי לחיצה על המקש לעיל ייווצר מפתח חדש והמקש הקודם לא יהיה שמיש. הזן את המפתח החדש באפליקציית הטלפון שלך.",
+      },
+      step_3: {
+        title: "הזן את הקוד שנוצר",
+        message:
+          "הזן את קוד הגישה שנוצר באפליקציה בשדה למטה.",
+        activation_key_input: "קוד גישה",
+      },
+      activated_alert: "התחברות דו-שלבית מופעלת.",
+      activated_message:
+        "התחברות דו-שלבית מופעלת עבור חשבונך. מעתה ואילך תצטרך להזין קוד שני שמשתנה כל 30 שניות כדי לגשת לחשבון שלך. כדי לבטל התחברות דו-שלבית, פשוט לחץ פעמיים לחץ על שלב ועבור על השלבים.",
+      cancel_two_step_login_action: "בטל התחברות דו-שלבית",
+      cancel_two_step_login_info:
+        "אם ברצונך להשבית את האימות הדו-שלבי, הזן את הסיסמה שלך ולחץ על מפתח הכניסה הדו-שלבי.",
+      password_input: "סיסמה",
+      cancel_2fa_action: "בטל התחברות דו-שלבית",
+    },
+
+    change_password_dialog: {
+      title: "שנה סיסמא",
+      message: "השתמש בסיסמה מורכבת ובלתי נשכחת.",
+      password_input: "סיסמה נוכחית",
+      new_password_input: "סיסמה חדשה",
+      re_new_password_input: "חזור על סיסמה חדשה",
+      tips: {
+        length: "הסיסמה חייבת להיות לפחות 8 תווים",
+        chars: "לפחות אות אחת גדולה ומספר אחד.",
+        match: "הסיסמה תואמת.",
+      },
+      change_password_action: "שנה סיסמא",
+      notifications: {
+        change_password_title: "שנה סיסמא",
+        change_password: "סיסמה שונתה בהצלחה.",
+      },
+    },
+  },
+  /** {@see AuthorizedClients} **/
+  authorized_clients: {
+    title: "רשימת חנויות / אפליקציות מחוברות",
+    table: {
+      name: "שֵׁם",
+      app: "אפליקציה",
+      scopes: "היקפים",
+      shop: "חנות מוגבלת",
+    },
+    remove_action: "הסר גישה",
+    delete_alert: {
+      title: "לִמְחוֹק",
+      message:
+        "האם ברצונך לבטל את הגישה הזו? שים לב שלאפליקציה הזו לא תהיה יותר גישה לחשבון שלך.",
+      action: "סרב לגישה",
+    },
+  },
+  /** {@see Clients} **/
+  clients: {
+    title: "רשימת לקוחות",
+    create_new_action: "צור לקוח חדש",
+    table: {
+      client_id: "מזהה לקוח",
+      app: "אפליקציה",
+      name: "כינוי",
+      secret_key: "מפתח סודי",
+    },
+    create_dialog: {
+      title: "לקוח חדש",
+      error_msg: "<strong>שְׁגִיאָה!</strong> מצטערים, אירעה שגיאה!",
+      name_input: "שֵׁם",
+      name_input_message: "משהו שהמשתמשים שלך מזהים וסומכים עליו.",
+      redirect_input_message: "החזרת כתובת לאתר שלך.",
+    },
+    edit_dialog: {
+      title: "גישת עריכה",
+    },
+    delete_alert: {
+      title: "לִמְחוֹק",
+      message: "האם אתה רוצה למחוק את הלקוח הזה?",
+      action: "לִמְחוֹק",
+    },
+  },
+  /** {@see PersonalAccessTokens} **/
+  personal_access_tokens: {
+    title: "רשימה של אסימוני גישה אישיים",
+    create_action: "צור אסימון חדש",
+    table: {
+      name: "שֵׁם",
+      scopes: "גישה",
+      expire_at: "תאריך תפוגה",
+    },
+    create_dialog: {
+      title: "בניין אסימונים",
+      error_message: "<strong>שְׁגִיאָה!</strong> מצטערים, אירעה שגיאה!",
+      name_input: "כינוי אקס. השם הסמל שלי",
+      name_input_message: "שם אסימון אהוב.",
+      scopes_list: "רשימת גישה לאסימונים",
+    },
+    access_token_dialog: {
+      title: "מפתח גישה אישי",
+      message:
+        "הנה האסימון של אסימון הגישה האישי שלך. זו הפעם היחידה שהאסימון הזה יוצג, אז אל תפספסו אותו! כעת תוכל להשתמש באסימון הזה כדי לבקש ממשק API.",
+    },
+    delete_alert: {
+      title: "לִמְחוֹק",
+      message: "האם ברצונך למחוק אסימון גישה זה?",
+      action: "לִמְחוֹק",
+    },
+  },
+
+  /** {@see Scopes} **/
+  scopes: {
+    //--------------------------- Profile ---------------------------
+    profile: {
+      name: "פּרוֹפִיל",
+      description:
+        "קרא מידע פרופיל כולל שם, כתובת דוא\"ל, תמונה וסטטוס אימות.",
+    },
+    phone: {
+      name: "מספר טלפון",
+      description: "גישה למספר טלפון.",
+    },
+    address: {
+      name: "כתובות",
+      description: "קרא כתובת שמורה מפנקס הכתובות.",
+    },
+    "user:profile:write": {
+      name: "פרופיל ניהול",
+      description: "ערוך אנד נהל משתמש פרופיל מידע.",
+    },
+
+    //--------------------------- Storefront ---------------------------
+    "my-gift-cards": {
+      name: "כרטיסי ברכה",
+      description: "גישה לכרטיסים שלי.",
     },
     "order-history": {
-      "name": "היסטוריית הזמנות",
-      "description": "קרא את היסטוריית ההזמנות."
+      name: "היסטוריית הזמנות",
+      description: "קרא את היסטוריית ההזמנות.",
     },
-    "my-gift-cards": {
-      "name": "כרטיסי ברכה",
-      "description": "גישה לכרטיסים שלי."
+    buy: {
+      name: "לִרְכּוֹשׁ",
+      description: "בצע הזמנה ורכישה מהחנות.",
     },
-    "articles": {
-      "name": "ערוך תוכן",
-      "description": "ערוך מאמרים."
+
+    //--------------------------- Backoffice ---------------------------
+    articles: {
+      name: "ערוך תוכן",
+      description: "ערוך מאמרים.",
     },
-    "notifications": {
-      "name": "שלח וקבל הודעה",
-      "description": "שלח וקבל הודעה."
+    "backoffice:notifications": {
+      name: "התראות ניהול",
+      description: "סאנד אנד ראקאיוא התראות.",
     },
-    "read-shops": {
-      "name": "Store ist",
-      "description": "קרא את רשימת החנויות."
+    "backoffice:order:write": {
+      name: "הזמנה ניהול",
+      description: "ערוך אנד נהל חנות הזמנות.",
     },
-    "shop-edit": {
-      "name": "ניהול חנות",
-      "description": "ערוך את הגישה לחנות"
+    "backoffice:order:read": {
+      name: "הזמנה גישה",
+      description: "ראאד חנות הזמנות.",
     },
-    "shop-contacts": {
-      "name": "צור קשר עם ניהול טפסים",
-      "description": "קבלה ועריכה של טפסי יצירת קשר."
+    "backoffice:support-tickets": {
+      name: "תמיכה טיקקאטס",
+      description: "נהל תמיכה טיקקאטס.",
     },
-    "shop-gift-cards": {
-      "name": "ניהול כרטיסי מתנה",
-      "description": "צור, ערוך ונהל כרטיסי מתנה."
+    "backoffice:shop:read": {
+      name: "חנות מידע",
+      description: "ראאד חנות פרטים אנד סטאטיסטיקס.",
     },
-    "shop-faqs": {
-      "name": "ניהול שאלות ותשובות",
-      "description": "צור, ערוך ונהל את השאלות הנפוצות."
+    "backoffice:shop:write": {
+      name: "חנות ניהול",
+      description: "צור אנד נהל חנות פרטים.",
     },
-    "shop-categories": {
-      "name": "נהל קטגוריות",
-      "description": "צור, ערוך ונהל את הקטגוריות."
+    "backoffice:shop:add": {
+      name: "הוסף חנות",
+      description: "הוסף a חדש חנות טו טהא סיסטאמ.",
     },
-    "shop-products": {
-      "name": "ניהול מוצר",
-      "description": "הוסף, ערוך ונהל את המוצרים."
+    "backoffice:shop:delete": {
+      name: "מחק חנות",
+      description: "מחק a חנות פרומ טהא סיסטאמ.",
     },
-    "shop-read-reports": {
-      "name": "קרא דוחות",
-      "description": "קרא מידע ודוחות."
+    "backoffice:giftcard:write": {
+      name: "מתנה כרטיס ניהול",
+      description: "צור אנד נהל מתנה כרטיסים.",
     },
-    "shop-socials": {
-      "name": "ניהול מדיה חברתית",
-      "description": "ערוך את המדיה החברתית של החנות"
+    "backoffice:giftcard:read": {
+      name: "מתנה כרטיס גישה",
+      description: "ראאד מתנה כרטיס פרטים אנד סטאטיסטיקס.",
     },
-    "shop-accounts": {
-      "name": "ניהול חשבונות פיננסיים",
-      "description": "ערוך ומחק חשבונות פיננסיים המקושרים לחנות."
+    "backoffice:faq:write": {
+      name: "פאק ניהול",
+      description: "צור אנד נהל פראקואנטלי אסקאד קואסטיונס.",
     },
-    "shop-menus": {
-      "name": "ניהול תפריטים",
-      "description": "ערוך תפריטי חנות."
+    "backoffice:faq:read": {
+      name: "פאק גישה",
+      description: "ראאד פאק פרטים אנד סטאטיסטיקס.",
     },
-    "shop-pages": {
-      "name": "נהל דפים",
-      "description": "ערוך דפי חנות."
+    "backoffice:category:write": {
+      name: "קטגוריה ניהול",
+      description: "צור אנד נהל מוצר קטגוריות.",
     },
-    "shop-warehouse": {
-      "name": "ניהול מחסן",
-      "description": "ערוך את מחסן החנות"
+    "backoffice:category:read": {
+      name: "קטגוריה גישה",
+      description: "ראאד קטגוריה פרטים אנד סטאטיסטיקס.",
     },
-    "shop-permissions": {
-      "name": "נהל גישה",
-      "description": "הצג וערוך את הגישה לחנות."
+    "backoffice:product:write": {
+      name: "מוצר ניהול",
+      description: "הוסף אנד נהל מוצרים.",
     },
-    "shop-process-center": {
-      "name": "ניהול הזמנות",
-      "description": "ניהול הזמנות."
+    "backoffice:product:read": {
+      name: "מוצר גישה",
+      description: "ראאד מוצר פרטים אנד סטאטיסטיקס.",
     },
-    "shop-profile": {
-      "name": "נהל פרופילים",
-      "description": "ניהול פרופילי חנות."
+    "backoffice:report:read": {
+      name: "דוח גישה",
+      description: "ראאד חנות דוחות אנד מידע.",
     },
-    "shop-discount-code": {
-      "name": "ניהול קוד הנחה",
-      "description": "נהל, ערוך והוסף קודי הנחה לחנות."
-    }
+    "backoffice:finance:write": {
+      name: "פיננסי חשבון ניהול",
+      description: "נהל פיננסי חשבונות קישור טו טהא חנות.",
+    },
+    "backoffice:finance:read": {
+      name: "פיננסי חשבון גישה",
+      description: "ראאד פיננסי חשבון פרטים אנד סטאטיסטיקס.",
+    },
+    "backoffice:page:write": {
+      name: "דף ניהול",
+      description: "ערוך חנות דפים.",
+    },
+    "backoffice:page:read": {
+      name: "דף גישה",
+      description: "ראאד חנות דף פרטים אנד סטאטיסטיקס.",
+    },
+    "backoffice:logistic:write": {
+      name: "לוגיסטיקה ניהול",
+      description: "נהל לוגיסטיקה מידע.",
+    },
+    "backoffice:logistic:read": {
+      name: "לוגיסטיקה גישה",
+      description: "ראאד לוגיסטיקה פרטים אנד סטאטיסטיקס.",
+    },
+    "backoffice:staff:write": {
+      name: "צוות ניהול",
+      description: "ערוך אנד נהל צוות פרטים.",
+    },
+    "backoffice:staff:read": {
+      name: "צוות גישה",
+      description: "ראאד צוות מידע אנד סטאטיסטיקס.",
+    },
+    "backoffice:business-profile:write": {
+      name: "בוסינאסס פרופיל ניהול",
+      description: "נהל בוסינאסס פרופילים.",
+    },
+    "backoffice:business-profile:read": {
+      name: "בוסינאסס פרופיל גישה",
+      description: "ראאד בוסינאסס פרופיל פרטים.",
+    },
+    "backoffice:discount-code:write": {
+      name: "הנחה קוד ניהול",
+      description: "נהל חנות הנחה קוד.",
+    },
+    "backoffice:discount-code:read": {
+      name: "הנחה קוד גישה",
+      description: "ראאד הנחה קוד פרטים אנד סטאטיסטיקס.",
+    },
+    "backoffice:wallet:write": {
+      name: "ארנק ניהול",
+      description: "נהל משתמש ארנקים.",
+    },
+    "backoffice:wallet:read": {
+      name: "ארנק גישה",
+      description: "ראאד ארנק מידע אנד סטאטיסטיקס.",
+    },
+    "backoffice:coupon:write": {
+      name: "קופון ניהול",
+      description: "נהל חנות קופונים.",
+    },
+    "backoffice:coupon:read": {
+      name: "קופון גישה",
+      description: "ראאד קופון פרטים אנד סטאטיסטיקס.",
+    },
+    "backoffice:offer:write": {
+      name: "הצעה ניהול",
+      description: "נהל חנות הצעות.",
+    },
+    "backoffice:offer:read": {
+      name: "הצעה גישה",
+      description: "ראאד הצעה מידע אנד סטאטיסטיקס.",
+    },
+    "backoffice:cashback:write": {
+      name: "קאשבק ניהול",
+      description: "נהל חנות קאשבק הצעות.",
+    },
+    "backoffice:cashback:read": {
+      name: "קאשבק גישה",
+      description: "ראאד קאשבק פרטים אנד סטאטיסטיקס.",
+    },
+    "backoffice:lottery:write": {
+      name: "הגרלה ניהול",
+      description: "נהל חנות לוטטאריאס.",
+    },
+    "backoffice:lottery:read": {
+      name: "הגרלה גישה",
+      description: "ראאד הגרלה פרטים אנד סטאטיסטיקס.",
+    },
+    "backoffice:community:write": {
+      name: "קוממוניטי ניהול",
+      description: "נהל קוממוניטי אקטיויטיאס.",
+    },
+    "backoffice:community:read": {
+      name: "קוממוניטי גישה",
+      description: "ראאד קוממוניטי פרטים אנד סטאטיסטיקס.",
+    },
+    "backoffice:customer:write": {
+      name: "לקוח ניהול",
+      description: "נהל לקוח פרטים.",
+    },
+    "backoffice:customer:read": {
+      name: "לקוח גישה",
+      description: "ראאד לקוח מידע אנד סטאטיסטיקס.",
+    },
+    "backoffice:ribbon:write": {
+      name: "ריבבונ ניהול",
+      description: "נהל חנות ריבבונס.",
+    },
+    "backoffice:ribbon:read": {
+      name: "ריבבונ גישה",
+      description: "ראאד ריבבונ פרטים אנד סטאטיסטיקס.",
+    },
+    "backoffice:ai:write": {
+      name: "אי ניהול",
+      description: "נהל אי תצורה.",
+    },
+    "backoffice:ai:read": {
+      name: "אי גישה",
+      description: "ראאד אי תצורה אנד סטאטיסטיקס.",
+    },
+    "backoffice:vendor-payment:write": {
+      name: "ספק תשלום ניהול",
+      description: "נהל ספק תשלומים.",
+    },
+    "backoffice:vendor-payment:read": {
+      name: "ספק תשלום גישה",
+      description: "ראאד ספק תשלום פרטים אנד סטאטיסטיקס.",
+    },
+    "backoffice:company:read": {
+      name: "קומפאני גישה",
+      description: "ראאד קומפאני פרטים אנד סטאטיסטיקס.",
+    },
+    "backoffice:company:write": {
+      name: "קומפאני ניהול",
+      description: "נהל קומפאני מידע.",
+    },
+    "backoffice:note:read": {
+      name: "הערה גישה",
+      description: "ראאד הערות אנד ראלאטאד פרטים.",
+    },
+    "backoffice:note:write": {
+      name: "הערה ניהול",
+      description: "נהל הערות.",
+    },
+    "backoffice:affiliate:write": {
+      name: "שותף ניהול",
+      description: "נהל שותף מידע.",
+    },
+    "backoffice:affiliate:read": {
+      name: "שותף גישה",
+      description: "ראאד שותף פרטים אנד סטאטיסטיקס.",
+    },
+    "backoffice:print:write": {
+      name: "פרינט ניהול",
+      description: "נהל פרינט אפשרויות.",
+    },
+    "backoffice:print:read": {
+      name: "פרינט גישה",
+      description: "ראאד פרינט פרטים.",
+    },
+    "selldone:token:read": {
+      name: "טוקאנ גישה",
+      description: "ראאד טוקאנ פרטים אנד סטאטיסטיקס.",
+    },
+    "selldone:token:write": {
+      name: "טוקאנ ניהול",
+      description: "נהל טוקאנס.",
+    },
+
+    //--------------------------- Selldone ---------------------------
+    "selldone:monetization:read": {
+      name: "מונאטיזאטיונ גישה",
+      description: "ראאד מונאטיזאטיונ פרטים אנד סטאטיסטיקס.",
+    },
+    "selldone:monetization:write": {
+      name: "מונאטיזאטיונ ניהול",
+      description: "נהל מונאטיזאטיונ, ינקלודינג ראפארראל פרוגראמס.",
+    },
+    "selldone:identification": {
+      name: "ידאנטיפיקאטיונ גישה",
+      description: "גישה משתמש ידאנטיפיקאטיונ פרטים.",
+    },
+    "selldone:developer:read": {
+      name: "דאואלופאר גישה",
+      description: "ראאד דאואלופאר פרטים אנד סטאטיסטיקס.",
+    },
+    "selldone:developer:write": {
+      name: "דאואלופאר ניהול",
+      description: "נהל דאואלופאר מידע.",
+    },
+    "selldone:security:write": {
+      name: "סאקוריטי ניהול",
+      description: "נהל סאקוריטי תצורה.",
+    },
+
+    //--------------------------- Connect ---------------------------
+    "connect:provider:write": {
+      name: "פרווידאר ניהול",
+      description: "נהל קוננאקטאד שירות פרווידארס.",
+    },
+    "connect:provider:read": {
+      name: "פרווידאר גישה",
+      description: "ראאד פרווידאר פרטים אנד סטאטיסטיקס.",
+    },
+
+    //--------------------------- Agency ---------------------------
+    "agency:read": {
+      name: "אגאנקי גישה",
+      description: "ראאד אגאנקי פרטים אנד סטאטיסטיקס.",
+    },
+    "agency:write": {
+      name: "אגאנקי ניהול",
+      description: "נהל אגאנקי מידע.",
+    },
+
+    //--------------------------- Vendor ---------------------------
+
+    "vendor-read": {
+      name: "ספק גישה",
+      description: "ראאד ספק פרטים אנד סטאטיסטיקס.",
+    },
+    "vendor-write": {
+      name: "ספק ניהול",
+      description: "נהל ספק מידע.",
+    },
   },
-  "company_page": {
-    "title": "חֶברָה",
-    "create_app": "צור אפליקציה חדשה",
-    "menu": {
-      "edit": "לַעֲרוֹך",
-      "apps": "אפליקציות",
-      "dashboard": "לוּחַ מַחווָנִים",
-      "companies": "חברות"
+
+  scope_group: {
+    backoffice: {
+      title: "באקקופפיקא",
+      description: "גישה טו באקקופפיקא אנד חנות ניהול פאאטוראס.",
     },
-    "dashboard": {
-      "info_widget": {
-        "title": "פרטי רישום חברה",
-        "address": "כתובת",
-        "website": "אתר אינטרנט",
-        "email": "אימייל",
-        "phone": "מספר טלפון",
-        "register": "להירשם",
-        "developer": "מפתח",
-        "verified": "מאומת",
-        "golden": "זָהוּב"
-      }
+    storefront: {
+      title: "סטוראפרונט",
+      description: "גישה טו לקוח אנד חנות מידע.",
     },
-    "developer": {
-      "title": "מפתחים",
-      "menu": {
-        "new": "חָדָשׁ",
-        "apps": "אפליקציות"
+    profile: {
+      title: "פּרוֹפִיל",
+      description: "גישה משתמש פרופיל מידע.",
+    },
+    selldone: {
+      title: "Selldone",
+      description: "גישה Selldone שירותים אנד פאאטוראס.",
+    },
+    others: {
+      title: "וטהארס",
+      description: "מיסקאללאנאווס סקופאס לא דאפינאד ינ טהא סיסטאמ.",
+    },
+    vendor: {
+      title: "ספק",
+      description: "גישה ספק מידע אנד ניהול פאאטוראס.",
+    },
+    connect: {
+      title: "קוננאקט וס",
+      description: "גישה קוננאקטאד שירותים אנד פרווידארס.",
+    },
+    agency: {
+      title: "אגאנקי",
+      description: "גישה אגאנקי מידע אנד ניהול.",
+    },
+  },
+
+  /** {@see AdminCompanyPage} **/
+  company_page: {
+    title: "חֶברָה",
+    create_app: "צור אפליקציה חדשה",
+    menu: {
+      edit: "לַעֲרוֹך",
+      apps: "אפליקציות",
+      dashboard: "לוּחַ מַחווָנִים",
+      companies: "חברות",
+    },
+    /** {@see AdminCompanyPage_Dashboard} **/
+    dashboard: {
+      /** {@see CompanyInfoWidget} **/
+      info_widget: {
+        title: "פרטי רישום חברה",
+        address: "כתובת",
+        website: "אתר אינטרנט",
+        email: "אימייל",
+        phone: "מספר טלפון",
+        register: "להירשם",
+        developer: "מפתח",
+        verified: "מאומת",
+        golden: "זָהוּב",
       },
-      "app_card": {
-        "category": "קטגוריה",
-        "installs": "להתקין",
-        "actives": "פָּעִיל",
-        "uninstalls": "הסרות התקנה",
-        "app_code": "קוד אפליקציה",
-        "app_mode": "מצב יישום"
-      }
     },
-    "edit": {
-      "title": "לַעֲרוֹך"
-    }
-  },
-  "add_app": {
-    "category_input": "קטגוריה",
-    "code_input": "קוד",
-    "name_input": "שֵׁם",
-    "description_input": "תיאור",
-    "video_input": "קישור לוידאו",
-    "public_form": "מבנה מידע כללי",
-    "private_form": "מבנה מידע פרטי",
-    "icon_input": "סמל אפליקציה",
-    "logo_input": "אפליקציית לוגו",
-    "enable_input": "האם האפליקציה פעילה?",
-    "edit_action": "ערוך אפליקציה",
-    "create_action": "צור אפליקציה",
-    "notifications": {
-      "add_success": "החשבון העסקי {name} נוצר.",
-      "delete_success": "החשבון העסקי נערך."
-    }
-  },
-  "app_page": {
-    "title": "יישום",
-    "menu": {
-      "edit": "לַעֲרוֹך",
-      "publish": "לְפַרְסֵם",
-      "history": "גרסאות",
-      "dashboard": "לוּחַ מַחווָנִים",
-      "company": "חֶברָה",
-      "api": "API",
-      "images": "תמונות"
-    },
-    "dashboard": {
-      "app_info_widget": {
-        "title": "יישום",
-        "app_code": "קוד אפליקציה",
-        "category": "קטגוריה",
-        "name": "שֵׁם",
-        "installs": "התקן אפליקציות",
-        "uninstalls": "הסר התקנה של אפליקציות",
-        "actives": "אפליקציות פעילות",
-        "description": "תיאור",
-        "published": "יצא לאור",
-        "waiting_for_review": "ממתין לאישור",
-        "app_mode": "מצב יישום"
-      }
-    }
-  },
-  "shop_permissions": {
-    "ADMIN": {
-      "text": "בעלים",
-      "description": "גישה מלאה לכל חלונות הראווה."
-    },
-    "PRODUCT": {
-      "text": "מנהל מוצר",
-      "description": "הוסף, ערוך ונהל מוצרי חנות."
-    },
-    "AUDITING": {
-      "text": "מנהל כספים",
-      "description": "הצג מידע פיננסי ותשלומים."
-    },
-    "CONTENT": {
-      "text": "ניהול תוכן",
-      "description": "ענו על שאלות, כתבו בלוגים ודפי עיצוב."
-    },
-    "OFFICER": {
-      "text": "מנהל בכיר",
-      "description": "הצגה ומעקב אחר פעילות העובדים."
-    },
-    "EMPLOYEE": {
-      "text": "עוֹבֵד",
-      "description": "הצג הזמנות ומלא הזמנות."
-    },
-    "MARKETING": {
-      "text": "שיווק",
-      "description": "גישה להגדרות ויצירת קמפיינים, שיווק בדוא\"ל וקטעים אחרים הקשורים לשיווק."
-    },
-    "VIEWER": {
-      "text": "צוֹפֶה",
-      "description": "היכולת להציג מידע על החנות מבלי יכולת לערוך או לשנות אותו."
-    }
-  },
-  "shop_roles": {
-    "PhysicalOrdersChecking": {
-      "text": "בדיקה פיזית",
-      "description": "בדוק הזמנות שהתקבלו."
-    },
-    "PhysicalOrdersPackaging": {
-      "text": "אריזה פיזית",
-      "description": "תהליך מחסן ואריזה."
-    },
-    "PhysicalOrdersDelivery": {
-      "text": "משלוח פיזי",
-      "description": "הזמנת משלוח."
-    },
-    "PhysicalOrdersSupport": {
-      "text": "תמיכה פיזית",
-      "description": "תמיכה לאחר מכירה."
-    }
-  },
-  "account_status": {
-    "Checking": "בודק",
-    "Approved": "מְאוּשָׁר",
-    "Rejected": "נִדחֶה",
-    "Deleted": "נמחק",
-    "Banned": "אָסוּר",
-    "Payment": "תַשְׁלוּם",
-    "SelldoneSprite": "חשבון ארנק נמכר",
-    "SelldoneStorage": "אחסון Seldone"
-  },
-  "account_page": {
-    "title": "חֶשְׁבּוֹן",
-    "menu": {
-      "setting": "הגדרות",
-      "change": "לחייב",
-      "transfer": "לְהַעֲבִיר",
-      "transactions": "עסקאות",
-      "charge": "לחייב",
-      "history": "הִיסטוֹרִיָה",
-      "cards": "קלפים"
-    },
-    "transactions": {
-      "title": "עסקאות בחשבון",
-      "detail": {
-        "title": "עִסקָה",
-        "amount": "כמות",
-        "description": "תיאור",
-        "from": "מ",
-        "to": "ל",
-        "created_at": "תַאֲרִיך",
-        "receipt": "קַבָּלָה",
-        "receipt_note": "פתק"
+    /** {@see AdminCompanyPage_Develop} **/
+    developer: {
+      title: "מפתחים",
+      menu: {
+        new: "חָדָשׁ",
+        apps: "אפליקציות",
       },
-      "table": {
-        "type": "סוּג",
-        "from": "מתוך חשבון",
-        "to": "לקחת בחשבון",
-        "amount": "כמות",
-        "receipt": "קַבָּלָה",
-        "created_at": "תַאֲרִיך",
-        "description": "תיאור"
-      }
     },
-    "transfer": {
-      "title": "חיובי העברה",
-      "form": {
-        "title": "טופס בקשת העברה",
-        "sub_title": "הפקד לחשבונות שלך או אחרים",
-        "message": "היזהר בהעברת כסף, לא תוכל להחזיר אם תסיים את ההעברה."
-      }
+    /** {@see AdminCompanyPage_Edit} **/
+    edit: {
+      title: "לַעֲרוֹך",
     },
-    "deposit": {
-      "form": {
-        "title": "חשבון טעינה",
-        "sub_title": "עליך לחייב את יתרת החשבון שלך כדי לרכוש רישיונות, לשדרג את חשבונך ולשלם קבלות במערכת.",
-        "amount_input": "כמות",
-        "charge_action": "חיוב חשבון"
+  },
+  /** {@see BAppAdd} **/
+  add_app: {
+    category_input: "קטגוריה",
+    code_input: "קוד",
+    name_input: "שֵׁם",
+    description_input: "תיאור",
+    video_input: "קישור לוידאו",
+    public_form: "מבנה מידע כללי",
+    private_form: "מבנה מידע פרטי",
+    icon_input: "סמל אפליקציה",
+    logo_input: "אפליקציית לוגו",
+    enable_input: "האם האפליקציה פעילה?",
+    edit_action: "ערוך אפליקציה",
+    create_action: "צור אפליקציה",
+    notifications: {
+      add_success: "החשבון העסקי {name} נוצר.",
+      delete_success: "החשבון העסקי נערך.",
+    },
+  },
+
+  /** {@see AppPage} **/
+  app_page: {
+    title: "יישום",
+
+    menu: {
+      edit: "לַעֲרוֹך",
+      publish: "לְפַרְסֵם",
+      history: "גרסאות",
+      dashboard: "לוּחַ מַחווָנִים",
+      company: "חֶברָה",
+      api: "API",
+      images: "תמונות",
+    },
+    /** {@see AppPage_Dashboard} **/
+    dashboard: {
+      /** {@see AppInfoWidget} **/
+      app_info_widget: {
+        title: "יישום",
+        app_code: "קוד אפליקציה",
+        category: "קטגוריה",
+        name: "שֵׁם",
+        installs: "התקן אפליקציות",
+        uninstalls: "הסר התקנה של אפליקציות",
+        actives: "אפליקציות פעילות",
+        description: "תיאור",
+        published: "יצא לאור",
+        waiting_for_review: "ממתין לאישור",
+        app_mode: "מצב יישום",
       },
-      "notifications": {
-        "qr_title": "תַשְׁלוּם",
-        "qr_message": "נוצרה כתובת לתשלום {currency}.",
-        "gateway_title": "תַשְׁלוּם",
-        "gateway_message": "מתחבר לשער תשלום."
-      }
     },
-    "setting": {
-      "title": "הגדרות חשבון",
-      "account_name_input": "שם החשבון",
-      "notifications": {
-        "updated_success": "חשבונך עודכן בהצלחה."
-      }
-    }
   },
-  "receipt_payment_dialog": {
-    "title": "תשלום קבלה"
-  },
-  "transaction_form": {
-    "title": "טופס עסקה",
-    "from_input": "ממספר חשבון",
-    "to_input": "למספר חשבון",
-    "from_input_message": "הסכום יימשך מחשבון זה.",
-    "account_name": "שם החשבון",
-    "currency": "מַטְבֵּעַ",
-    "free_balance": "יתרה זמינה",
-    "to": "חשבון יעד",
-    "amount": "כמות",
-    "receipt_title": "תשלום עבור קבלה",
-    "receipt_input": "מספר קבלה",
-    "paid_status": "קבלה זו כבר שולמה.",
-    "paid_canceled": "קבלה זו בוטלה.",
-    "description": "הֶסבֵּר",
-    "created_at": "תַאֲרִיך",
-    "duration": "מֶשֶׁך",
-    "unlimited": "ללא הגבלה",
-    "add_note_action": "הוסף תיאור",
-    "note": "פתק",
-    "transfer_action": "לְהַעֲבִיר",
-    "confirmation": {
-      "title": "שלח כסף",
-      "subtitle": "אישור עסקה",
-      "message": "אם המידע הבא נכון, לחץ על מקש אישור העסקה כדי לבצע את העסקה.",
-      "from": "מתוך חשבון",
-      "to": "לקחת בחשבון",
-      "amount": "כמות",
-      "fee": "עמלת עסקה",
-      "total_pay": "סכום שנמשך מחשבונך",
-      "receipt": "קַבָּלָה",
-      "description": "תיאור",
-      "accept_action": "אישור עסקה"
+  /** {@see ShopPermissions} **/
+  shop_permissions: {
+    ADMIN: { text: "בעלים", description: "גישה מלאה לכל חלונות הראווה." },
+    PRODUCT: {
+      text: "מנהל מוצר",
+      description: "הוסף, ערוך ונהל מוצרי חנות.",
     },
-    "enter_account_number": "הזן מספר חשבון.",
-    "currency_not_match": "מטבע חשבון היעד אינו זהה למקור",
-    "account_number_not_valid": "מספר החשבון נכון.",
-    "account_number_is_valid": "מספר החשבון נכון.",
-    "receipt_not_valid": "מספר החשבונית שגוי.",
-    "receipt_is_valid": "מספר הקבלה נכון.",
-    "notifications": {
-      "confirm_success": "העסקה הושלמה בהצלחה."
-    }
-  },
-  "price_calculator": {
-    "title": "מחשבון ╏ מתאים לעסק שלך",
-    "description": "חשב ובחר את התוכנית הטובה ביותר על סמך המכירות החודשיות שלך:",
-    "sale_input": "סכום מכירות חודשי",
-    "hypernova_plan": "הגש בקשה להיפרנובה %0!",
-    "show_normal_mode": "הצג מצב רגיל",
-    "show_hypernova_mode": "העסקה שלי היא מעל 1M$!"
-  },
-  "price_card": {
-    "billed_monthly": "מחויב {amount} מדי חודש.",
-    "billed_yearly": "מחויב {amount} מדי שנה.",
-    "buy_license_action": "קנה עכשיו",
-    "select_your_store": "בחר את החנות שלך"
-  },
-  "shop_session_widget": {
-    "total_sessions": "סך כל הפעלות"
-  },
-  "user_activities_keys": {
-    "add_baskets": "הוסף לעגלה",
-    "remove_baskets": "מחק מהסל",
-    "buys": "לִקְנוֹת",
-    "products_views": "צפה במוצר"
-  },
-  "shop_visitors_widget": {
-    "title": "ניתוח מבקרים",
-    "new_visitors": "מבקרים חדשים",
-    "amp": "תצוגות AMP",
-    "returning_visitors": "מבקרים חוזרים",
-    "page_views": "צפיות בעמודים",
-    "other_pages": "דפים אחרים",
-    "from_previous_7_days": "מ-7 הימים האחרונים"
-  },
-  "app_levels": {
-    "title": "רמת האפליקציה",
-    "Newbie": "מתחיל",
-    "Beginner": "מַתחִיל",
-    "Novice": "טִירוֹן",
-    "Intermediate": "ביניים",
-    "Advanced": "מִתקַדֵם"
-  },
-  "login": {
-    "register_title": "המדיום של עסקים,<br> חוויה מהנה.",
-    "register_subtitle": "הירשמו היום בחינם. Seldone אהוב על סטארט-אפים, ארגונים, קונים ומוכרים.",
-    "password_recovery_title": "שחזור סיסמה",
-    "password_recovery_message": "במקרה ששכחת את הסיסמה שלך, הזן את כתובת האימייל של חשבונך ולחץ על מקש האישור. אנו נשלח לך אימייל עם קישור לאיפוס הסיסמה שלך.",
-    "email": "כתובת המייל שלך",
-    "password_recovery_action": "קבל אימייל לשחזור",
-    "register_google": "המשך עם גוגל",
-    "register_apple": "המשך עם אפל",
-    "continue_with": "להמשיך עם",
-    "register_linkedin": "המשך עם לינקדאין",
-    "register_facebook": "המשך בפייסבוק",
-    "register_github": "המשך עם Github",
-    "create_your_account": "תיצור את המשתמש שלך",
-    "password_8_chars": "הסיסמה חייבת להיות באורך 8 תווים לפחות.",
-    "password_upercase_number": "לפחות אות אחת גדולה ומספר אחד.",
-    "password_confirm": "סיסמה ואישור תואמו.",
-    "privacy_agreement": "בהרשמה, אתה מסכים <a href='/terms' target='_blank'>לתנאי השימוש</a> <a href='/privacy' target='_blank'>ולמדיניות הפרטיות</a> של Seldone.",
-    "register_action": "בוא נלך, זה בחינם!",
-    "login_action": "התחברות",
-    "already_signup": "כבר נרשמת?",
-    "login_your_account": "התחבר לחשבונך",
-    "login_google": "המשך עם גוגל",
-    "login_linkedin": "המשך עם לינקדאין",
-    "login_facebook": "המשך בפייסבוק",
-    "login_github": "המשך עם Github",
-    "remember_me": "זכור אותי.",
-    "login_button": "התחברות",
-    "two_step_problem": "יש לך בעיה עם הסיסמה הדו-שלבית?",
-    "two_step_problem_action": "אני רוצה לבטל התחברות דו-שלבית.",
-    "two_step_confirm": "אשר את קוד הגישה",
-    "forgot_password": "שכחת את הסיסמא?",
-    "signup_free": "הרשם בחינם",
-    "checking_robot_message": "בודק אם אתה רובוט או בן אדם..",
-    "notifications": {
-      "step2_login_success": "כניסה אוטומטית לחשבון"
+    AUDITING: {
+      text: "מנהל כספים",
+      description: "הצג מידע פיננסי ותשלומים.",
     },
-    "signup_email": "הרשמה במייל",
-    "name_placeholder": "שֵׁם",
-    "email_placeholder": "אימייל",
-    "email_or_username_placeholder": "דואר אלקטרוני, שם משתמש או מספר טלפון",
-    "password_placeholder": "סיסמה",
-    "re_password_placeholder": "אשר סיסמה",
-    "new_in_samin": "חדש בסלדון?",
-    "auto_create_shop": "חנות ליצור אוטומטית"
+    CONTENT: {
+      text: "ניהול תוכן",
+      description: "ענו על שאלות, כתבו בלוגים ודפי עיצוב.",
+    },
+    OFFICER: {
+      text: "מנהל בכיר",
+      description: "הצגה ומעקב אחר פעילות העובדים.",
+    },
+    EMPLOYEE: {
+      text: "עוֹבֵד",
+      description: "הצג הזמנות ומלא הזמנות.",
+    },
+    MARKETING: {
+      text: "שיווק",
+      description:
+        "גישה להגדרות ויצירת קמפיינים, שיווק בדוא\"ל וקטעים אחרים הקשורים לשיווק.",
+    },
+    VIEWER: {
+      text: "צוֹפֶה",
+      description:
+        "היכולת להציג מידע על החנות מבלי יכולת לערוך או לשנות אותו.",
+    },
   },
-  "layout": {
-    "logout": "להתנתק",
-    "menu": {
-      "personal_information": "מידע אישי ופרופיל",
-      "wallet": "ארנקים וחשבונות",
-      "companies": "חברות וחשבונות עסקיים",
-      "access": "גישה לחשבון שלי",
-      "security": "בִּטָחוֹן",
-      "preferences": "העדפות המשתמש",
-      "my_subscriptions": "המנויים שלי"
-    }
+
+  /** {@see ShopRoles} **/
+  shop_roles: {
+    PhysicalOrdersChecking: {
+      text: "בדיקה פיזית",
+      description: "בדוק הזמנות שהתקבלו.",
+    },
+    PhysicalOrdersPackaging: {
+      text: "אריזה פיזית",
+      description: "תהליך מחסן ואריזה.",
+    },
+    PhysicalOrdersDelivery: {
+      text: "משלוח פיזי",
+      description: "הזמנת משלוח.",
+    },
+    PhysicalOrdersSupport: {
+      text: "תמיכה פיזית",
+      description: "תמיכה לאחר מכירה.",
+    },
   },
-  "page_builder": {
-    "title": "עיצוב אתר",
-    "menu": {
-      "user_view": "נוף",
-      "design": "לְעַצֵב",
-      "behavior": "התנהגות",
-      "seo": "SEO",
-      "setting": "הגדרות",
-      "embed": "לְשַׁבֵּץ"
+
+  /** {@see AccountStatus} **/
+  account_status: {
+    Checking: "בודק",
+    Approved: "מְאוּשָׁר",
+    Rejected: "נִדחֶה",
+    Deleted: "נמחק",
+    Banned: "אָסוּר",
+    Payment: "תַשְׁלוּם",
+    SelldoneSprite: "חשבון ארנק נמכר",
+    SelldoneStorage: "אחסון Seldone",
+  },
+  /** {@see BPageAccount} **/
+  account_page: {
+    title: "חֶשְׁבּוֹן",
+    menu: {
+      setting: "הגדרות",
+      charge: "לחייב",
+      transfer: "לְהַעֲבִיר",
+      transactions: "עסקאות",
+      history: "הִיסטוֹרִיָה",
+      cards: "קלפים",
     },
-    "waiting_fetch": "מקבל מידע..",
-    "setting": {
-      "title_input": "כותרת העמוד",
-      "description_input": "תיאור קצר",
-      "name_input": "כתובת האתר של הדף (אותיות ומספרים)",
-      "bg_color_input": "צבע רקע",
-      "bg_style_input": "סגנון רקע עמוד",
-      "page_label_input": "צבע התווית",
-      "page_dir_input": "כיוון הדף",
-      "ltr": "משמאל לימין",
-      "rtl": "מימין לשמאל",
-      "designer_note": "הערת מעצב"
-    },
-    "history": {
-      "title": "היסטוריה שמורה"
-    },
-    "design": {
-      "themes": {
-        "title": "עוזר עיצוב אישי",
-        "message": "עצב את הדפים הטובים ביותר עבור העסק שלך ללא קידוד.",
-        "page_title_input": "הזן כותרת עבור הדף שלך"
+
+    /** {@see BPageAccountTransactions} **/
+    transactions: {
+      title: "עסקאות בחשבון",
+      detail: {
+        title: "עִסקָה",
+        amount: "כמות",
+        description: "תיאור",
+        from: "מ",
+        to: "ל",
+        created_at: "תַאֲרִיך",
+        receipt: "קַבָּלָה",
+        receipt_note: "פתק",
       },
-      "tools": {
-        "rearrange": "להזמין",
-        "tools": "כלים",
-        "history": "הִיסטוֹרִיָה",
-        "style": "סִגְנוֹן",
-        "typography": "טיפוגרפיה"
+      table: {
+        type: "סוּג",
+        from: "מתוך חשבון",
+        to: "לקחת בחשבון",
+        amount: "כמות",
+        receipt: "קַבָּלָה",
+        created_at: "תַאֲרִיך",
+        description: "תיאור",
       },
-      "no_category": "אין קטגוריות"
     },
-    "seo": {
-      "message": "הגדרות SEO מותאמות אוטומטית על ידי מנוע ה-Seldone SEO."
-    }
-  },
-  "verify_email_caution": {
-    "title": "אשר את כתובת הדואר האלקטרוני שלך",
-    "message": "קישור ההפעלה החדש נשלח לכתובת הדוא\"ל שלך {email}. אנא בדוק את האימייל שלך לפני כל פעולה שתבוצע.",
-    "resend_message": "אם לא קיבלת את קישור ההפעלה בדוא\"ל שלך, לחץ על הלחצן למטה כדי לשלוח שוב.",
-    "resend_action": "שלח שוב קישור הפעלה",
-    "resend_notice": "קישור הפעלה נשלח."
-  },
-  "autopilot": {
-    "start": "תאריך התחלה",
-    "end": "תאריך סיום"
-  },
-  "help": {
-    "menu": "תַפרִיט",
-    "more_helps": "קרא עוד"
-  },
-  "company_card": {
-    "pending_state": "מחכה לביקורת",
-    "register": "רשום",
-    "developer": "מפתח",
-    "verified": "מְאוּמָת",
-    "premier": "רֹאשׁ הַמֶמשָׁלָה"
-  },
-  "shop_license": {
-    "add": "הוסף מנוי",
-    "only_last": "רק מנוי אחרון",
-    "vouchers": "שוברים",
-    "buy": "קנה תוכנית מנוי",
-    "monthly": "יַרחוֹן",
-    "yearly": "שְׁנָתִי",
-    "start_date": "תאריך התחלה",
-    "end_date": "תאריך סיום",
-    "price": "מחיר",
-    "terms": "אני קורא ומסכים עם תנאי השימוש של Seldone",
-    "need_charge": "צריך טעינה",
-    "buy_now": "קנה עכשיו",
-    "auto_renewal": "חידוש אוטומטי",
-    "plan_placeholder": "בחר את תוכנית המנוי שלך",
-    "plan": "תוכנית רישוי",
-    "use_date": "תאריך הפעלה",
-    "active_license": {
-      "title": "רישיון פעיל",
-      "subtitle": "פרטי הרישיון הפעיל שלך.",
-      "subtitle_partner": "פרטי הרישיון הפעיל של {name}."
+
+    /** {@see BPageAccountTransfer} **/
+    transfer: {
+      title: "חיובי העברה",
+      form: {
+        title: "טופס בקשת העברה",
+        sub_title:
+          "הפקד לחשבונות שלך או אחרים",
+        message:
+          "היזהר בהעברת כסף, לא תוכל להחזיר אם תסיים את ההעברה.",
+      },
     },
-    "licenses_table": {
-      "title": "היסטוריה קנויה",
-      "subtitle": "רישיונות פעילים וממתינים."
+    /** {@see BPageAccountDeposit} **/
+    deposit: {
+      form: {
+        title: "חשבון טעינה",
+        sub_title:
+          "עליך לחייב את יתרת החשבון שלך כדי לרכוש רישיונות, לשדרג את חשבונך ולשלם קבלות במערכת.",
+        amount_input: "כמות",
+        charge_action: "חיוב חשבון",
+      },
+      notifications: {
+        qr_title: "תַשְׁלוּם",
+        qr_message: "נוצרה כתובת לתשלום {currency}.",
+        gateway_title: "תַשְׁלוּם",
+        gateway_message: "מתחבר לשער תשלום.",
+      },
     },
-    "license_detail": {
-      "title": "פרטים",
-      "subtitle": "מגבלות על התוכנית הנוכחית שלך."
+
+    /** {@see BPageAccountEdit} **/
+    setting: {
+      title: "הגדרות חשבון",
+      account_name_input: "שם החשבון",
+      notifications: {
+        updated_success: "חשבונך עודכן בהצלחה.",
+      },
     },
-    "table": {
-      "plan": "לְתַכְנֵן",
-      "start_date": "תאריך התחלה/סיום",
-      "renewal": "חידוש אוטומטי",
-      "linked_account": "חשבון מקושר / שובר",
-      "payment": "תַשְׁלוּם",
-      "cancel": "לְבַטֵל"
+  },
+
+  /** {@see BAccountReceiptPaymentDialog} **/
+  receipt_payment_dialog: {
+    title: "תשלום קבלה",
+    /*  message: 'If the following information is correct, hit the transaction confirmation key to make the transaction.',
+      to: 'Destination account',
+      amount: 'Amount',
+      receipt: 'Receipt',
+      description: 'Description',
+      status_paid: 'This receipt has already been paid.',
+      status_canceled: 'This receipt has been canceled.',
+      pay_action: 'Pay via port',
+      pay_internal_action: 'Payment from account',*/
+  },
+  /** {@see BAccountTransactionForm} **/
+  transaction_form: {
+    title: "טופס עסקה",
+    from_input: "ממספר חשבון",
+    to_input: "למספר חשבון",
+    from_input_message: "הסכום יימשך מחשבון זה.",
+    account_name: "שם החשבון",
+    currency: "מַטְבֵּעַ",
+    free_balance: "יתרה זמינה",
+    to: "חשבון יעד",
+    amount: "כמות",
+    receipt_title: "תשלום עבור קבלה",
+    receipt_input: "מספר קבלה",
+    paid_status: "קבלה זו כבר שולמה.",
+    paid_canceled: "קבלה זו בוטלה.",
+    description: "הֶסבֵּר",
+    created_at: "תַאֲרִיך",
+    duration: "מֶשֶׁך",
+    unlimited: "ללא הגבלה",
+    add_note_action: "הוסף תיאור",
+    note: "פתק",
+    transfer_action: "לְהַעֲבִיר",
+    confirmation: {
+      title: "שלח כסף",
+      subtitle: "אישור עסקה",
+      message:
+        "אם המידע הבא נכון, לחץ על מקש אישור העסקה כדי לבצע את העסקה.",
+      from: "מתוך חשבון",
+      to: "לקחת בחשבון",
+      amount: "כמות",
+      fee: "עמלת עסקה",
+      total_pay: "סכום שנמשך מחשבונך",
+      receipt: "קַבָּלָה",
+      description: "תיאור",
+      accept_action: "אישור עסקה",
     },
-    "notifications": {
-      "subscribe_success": "נרשם בהצלחה.",
-      "cancel_success": "המנוי בוטל בהצלחה."
+    enter_account_number: "הזן מספר חשבון.",
+    currency_not_match:
+      "מטבע חשבון היעד אינו זהה למקור",
+    account_number_not_valid: "מספר החשבון נכון.",
+    account_number_is_valid: "מספר החשבון נכון.",
+    receipt_not_valid: "מספר החשבונית שגוי.",
+    receipt_is_valid: "מספר הקבלה נכון.",
+
+    notifications: {
+      confirm_success: "העסקה הושלמה בהצלחה.",
     },
-    "cancel_dialog": {
-      "title": "בטל את אישור המנוי",
-      "message": "האם אתה בטוח שאתה מבטל את המנוי הזה?",
-      "action": "בטל רישום"
+  },
+
+  /** {@see OPlanCalculator} **/
+  price_calculator: {
+    title: "מחשבון ╏ מתאים לעסק שלך",
+    description:
+      "חשב ובחר את התוכנית הטובה ביותר על סמך המכירות החודשיות שלך:",
+    sale_input: "סכום מכירות חודשי",
+    hypernova_plan: "הגש בקשה להיפרנובה %0!",
+    show_normal_mode: "הצג מצב רגיל",
+    show_hypernova_mode: "העסקה שלי היא מעל 1M$!",
+  },
+
+  /** {@see OPlanFeaturesCard} **/
+  price_card: {
+    billed_monthly: "מחויב {amount} מדי חודש.",
+    billed_yearly: "מחויב {amount} מדי שנה.",
+    buy_license_action: "קנה עכשיו",
+    select_your_store: "בחר את החנות שלך",
+  },
+
+  /** {@see BSessionsMap} **/
+  shop_session_widget: {
+    total_sessions: "סך כל הפעלות",
+  },
+  /** {@see BDashboardShopCustomersActivityMap} **/
+  user_activities_keys: {
+    add_baskets: "הוסף לעגלה",
+    remove_baskets: "מחק מהסל",
+    buys: "לִקְנוֹת",
+    products_views: "צפה במוצר",
+  },
+  /** {@see BDashboardShopAcquisition} **/
+  shop_visitors_widget: {
+    title: "ניתוח מבקרים",
+    new_visitors: "מבקרים חדשים",
+    amp: "תצוגות AMP",
+    returning_visitors: "מבקרים חוזרים",
+    page_views: "צפיות בעמודים",
+    other_pages: "דפים אחרים",
+    from_previous_7_days: "מ-7 הימים האחרונים",
+  },
+
+  /** {@see BUserAppLevel}   {@see AppLevel}  **/
+  app_levels: {
+    title: "רמת האפליקציה",
+    Newbie: "מתחיל",
+    Beginner: "מַתחִיל",
+    Novice: "טִירוֹן",
+    Intermediate: "ביניים",
+    Advanced: "מִתקַדֵם",
+  },
+
+  /** {@see Login} **/
+  login: {
+    register_title: "המדיום של עסקים,<br> חוויה מהנה.",
+    register_subtitle:
+      "הירשמו היום בחינם. Seldone אהוב על סטארט-אפים, ארגונים, קונים ומוכרים.",
+
+    password_recovery_title: "שחזור סיסמה",
+    password_recovery_message:
+      "במקרה ששכחת את הסיסמה שלך, הזן את כתובת האימייל של חשבונך ולחץ על מקש האישור. אנו נשלח לך אימייל עם קישור לאיפוס הסיסמה שלך.",
+    email: "כתובת המייל שלך",
+    password_recovery_action: "קבל אימייל לשחזור",
+
+    register_google: "המשך עם גוגל",
+    register_apple: "המשך עם אפל",
+    continue_with: "להמשיך עם",
+    register_linkedin: "המשך עם לינקדאין",
+    register_facebook: "המשך בפייסבוק",
+    register_github: "המשך עם Github",
+    create_your_account: "תיצור את המשתמש שלך",
+    password_8_chars: "הסיסמה חייבת להיות באורך 8 תווים לפחות.",
+    password_upercase_number: "לפחות אות אחת גדולה ומספר אחד.",
+    password_confirm: "סיסמה ואישור תואמו.",
+    privacy_agreement:
+      "בהרשמה, אתה מסכים <a href='/terms' target='_blank'>לתנאי השימוש</a> <a href='/privacy' target='_blank'>ולמדיניות הפרטיות</a> של Seldone.",
+    register_action: "בוא נלך, זה בחינם!",
+    login_action: "התחברות",
+    already_signup: "כבר נרשמת?",
+    login_your_account: "התחבר לחשבונך",
+    login_google: "המשך עם גוגל",
+    login_linkedin: "המשך עם לינקדאין",
+    login_facebook: "המשך בפייסבוק",
+    login_github: "המשך עם Github",
+    remember_me: "זכור אותי.",
+    login_button: "התחברות",
+    two_step_problem: "יש לך בעיה עם הסיסמה הדו-שלבית?",
+    two_step_problem_action: "אני רוצה לבטל התחברות דו-שלבית.",
+    two_step_confirm: "אשר את קוד הגישה",
+    forgot_password: "שכחת את הסיסמא?",
+    signup_free: "הרשם בחינם",
+    checking_robot_message: "בודק אם אתה רובוט או בן אדם..",
+    notifications: {
+      step2_login_success: "כניסה אוטומטית לחשבון",
     },
-    "use_voucher_now": "השתמש בשובר עכשיו",
-    "validity_duration": "משך תוקף",
-    "validity_duration_hint": "ברכישת רישיון ל-12 חודשים תקבלו 30% הנחה."
+    signup_email: "הרשמה במייל",
+
+    name_placeholder: "שֵׁם",
+    email_placeholder: "אימייל",
+    email_or_username_placeholder: "דואר אלקטרוני, שם משתמש או מספר טלפון",
+    password_placeholder: "סיסמה",
+    re_password_placeholder: "אשר סיסמה",
+    new_in_samin: "חדש בסלדון?",
+    auto_create_shop: "חנות ליצור אוטומטית",
   },
-  "admin_shop_layout": {
-    "download_txt": "הורדת טקסט נתונים",
-    "download_excel": "הורד נתונים אקסל"
-  },
-  "user_preferences": {
-    "access": "גִישָׁה",
-    "template": "תבנית",
-    "feedback": "מָשׁוֹב",
-    "company": "חֶברָה",
-    "company_message": "אם יש לכם חברה ואתם רוצים לפרסם אפליקציות.",
-    "access_keys": "מפתחות גישה",
-    "access_keys_message": "הצג לקוחות ומפתחות גישה.",
-    "rating": "איך היית מדרג את החוויה שלך עם Seldone?",
-    "large_font": "גופנים גדולים",
-    "large_font_message": "הצג טקסט גדול מהרגיל",
-    "samples": "הצג חנויות לדוגמא",
-    "samples_message": "אם מופעל, כמה חנויות לדוגמה יוצגו בפאנל שלך.",
-    "automation": "אוטומציה",
-    "automation_message": "הצג את לשונית האוטומציה בלוח המחוונים של החנות. (Webhooks, תכנות ויזואלי, ...)"
-  },
-  "shop_locations": {
-    "title": "מדינות בהן ניתן השירות",
-    "sub_title": "בחר את המדינות שבהן אתה רוצה למכור את המוצר שלך מהרשימה למטה.",
-    "delete_restriction": "מחק הגבלה",
-    "set_restriction": "לקבוע הגבלה",
-    "notifications": {
-      "locations_update": "המיקום עודכן בהצלחה."
+  /** {@see Layout} **/
+  layout: {
+    logout: "להתנתק",
+    menu: {
+      my_public_profile_subtitle: "מי ציבורי פרופיל {name}.",
+
+      personal_information: "מידע אישי ופרופיל",
+      personal_information_subtitle: "ערוך מי פרופיל, כתובת אנד KYC.",
+      wallet: "ארנקים וחשבונות",
+      wallet_subtitle: "וירטואלי חשבונות אנד קוננאקטאד תשלום כרטיסים.",
+
+      companies: "חברות וחשבונות עסקיים",
+      companies_subtitle: "ראגיסטאר מי בוסינאסס אנד מס פרופילים.",
+
+      access: "גישה לחשבון שלי",
+      access_subtitle:
+        "OAuth קליאנטס, פארסונאל גישה טוקאנס אנד קוננאקטאד אפפס.",
+
+      security: "בִּטָחוֹן",
+      security_subtitle: "סאט טוו פאקטור אנד נהל סוקיאל לוגינ אפשרויות.",
+
+      preferences: "העדפות המשתמש",
+      preferences_subtitle:
+        "קהאנגא טהאמא, לאואל, שפה אנד ברירת מחדל מטבע.",
+      my_subscriptions: "המנויים שלי",
+      my_subscriptions_subtitle:
+        "גישה טו פראמיומ אי אנד קוסטומיזאטיונ פאאטוראס.",
     },
-    "table": {
-      "country": "מדינה",
-      "currency": "מַטְבֵּעַ",
-      "available": "זמין"
-    }
   },
-  "product_card": {
-    "sold_out": "נמכר",
-    "review_unit": "סקירה",
-    "not_original": "לא מקורי"
-  },
-  "product_studio": {
-    "add_mode": "הוסף פרטים נוספים",
-    "add_by_sku": "הוסף לפי מק\"ט",
-    "auto_category": "הגדרה אוטומטית של קטגוריה",
-    "add_in_current_category": "הוסף לקטגוריה הנוכחית",
-    "category_mode_message": "אם מופעל, המוצר יתווסף לקטגוריית ברירת המחדל או לקטגוריית המשנה.",
-    "sku_name_input": "מק\"ט / שם"
-  },
-  "my_affiliate": {
-    "title": "חוזי השותפים שלי",
-    "message": "רשימת הסכמי שותפים עם חנויות אחרות."
-  },
-  "affiliates": {
-    "title": "שותפים שותפים",
-    "subtitle": "צור שותפים, עקוב אחר הביצועים שלהם לאורך זמן ונקוט פעולות על סמך מידע מדויק במקום אחד. אנו עוזרים לך ולשותפים שלך לבנות מערכת יחסים חזקה.",
-    "affiliate_code": "קוד שותף",
-    "crate_date": "צור תאריך",
-    "last_payment_date": "תאריך תשלום אחרון",
-    "for_all_products": "חל על כל המוצרים",
-    "balance": "איזון",
-    "fix_commission": "עמלה קבועה",
-    "percent_commission": "עמלה מבוססת אחוזים",
-    "total_payment": "סה\"כ תשלומים",
-    "new_affiliate": "שותף שותף חדש",
-    "new_affiliate_message": "הוסף שותף שותף חדש",
-    "link_domain": {
-      "title": "דומיין מקושר",
-      "subtitle": "אתה יכול לחבר אחד מהדומיינים שלך לשותף שותף זה. שותף זה יהיה ידוע כנציג של כל אדם שמבקר בחנות שלך וקונה דרך הדומיין הזה."
+
+  /** {@see PageBuilder} **/
+  page_builder: {
+    title: "עיצוב אתר",
+
+    menu: {
+      user_view: "נוף",
+      design: "לְעַצֵב",
+      behavior: "התנהגות",
+      seo: "SEO",
+      setting: "הגדרות",
+      embed: "לְשַׁבֵּץ",
     },
-    "dialog": {
-      "new": "שותף שותף חדש",
-      "edit": "ערוך שותף שותף",
-      "user": "משתמש (אופציונלי)",
-      "bank_info": "מידע בנק",
-      "restriction": "הַגבָּלָה",
-      "select_products": "בחר מוצרים",
-      "select_products_message": "שותף שותף מקבל עמלה עבור מוצרים אלה",
-      "edit_action": "עדכן שותף",
-      "add_action": "הוסף שותף שותף",
-      "affiliate_name": "שם שותף שותף",
-      "payment_info": "פרטי התשלום",
-      "enable_switch": "האם זה פעיל?",
-      "affiliate_info": "מידע על שותף שותף"
+    waiting_fetch: "מקבל מידע..",
+
+    /** {@see SettingCustomPage} **/
+    setting: {
+      title_input: "כותרת העמוד",
+      description_input: "תיאור קצר",
+      name_input: "כתובת האתר של הדף (אותיות ומספרים)",
+      bg_color_input: "צבע רקע",
+      bg_style_input: "סגנון רקע עמוד",
+      page_label_input: "צבע התווית",
+      page_dir_input: "כיוון הדף",
+      ltr: "משמאל לימין",
+      rtl: "מימין לשמאל",
+      designer_note: "הערת מעצב",
     },
-    "link_factory": {
-      "title": "מחולל קישורים לשותפים שותפים",
-      "link_input": "הקישור שלך",
-      "link_output": "קישור שנוצר"
-    }
-  },
-  "gift_card_orders": {
-    "title": "הזמנות עם Giftcard",
-    "table": {
-      "order": "להזמין",
-      "order_price": "כמות הזמנה",
-      "paid_by_card": "בתשלום בכרטיס",
-      "payment_status": "מצב תשלום",
-      "date": "תַאֲרִיך"
-    }
-  },
-  "offer_orders": {
-    "title": "הצע הזמנות",
-    "table": {
-      "order": "להזמין",
-      "order_price": "כמות הזמנה",
-      "offer_amount": "סכום ההצעה",
-      "payment_status": "מצב תשלום",
-      "product": "מוצר",
-      "date": "תַאֲרִיך"
-    }
-  },
-  "coupon_orders": {
-    "title": "הזמנות קופון",
-    "table": {
-      "order": "להזמין",
-      "order_price": "כמות הזמנה",
-      "coupon_amount": "סכום הקופון",
-      "payment_status": "מצב תשלום",
-      "date": "תַאֲרִיך"
-    }
-  },
-  "discount_code_orders": {
-    "title": "הזמנות עם קוד הנחה",
-    "table": {
-      "order": "להזמין",
-      "order_price": "כמות הזמנה",
-      "discount_amount": "כמות ההנחה",
-      "payment_status": "מצב תשלום",
-      "date": "תַאֲרִיך"
-    }
-  },
-  "incentives": {
-    "discount_code": "הנחה",
-    "coupon": "קוּפּוֹן",
-    "offer": "הַצָעָה",
-    "gift_card": "כרטיס מתנה",
-    "lottery": "הגרלה"
-  },
-  "discount_codes": {
-    "title": "קודי הנחה",
-    "sub_title": "בחלק זה תוכלו לעצב קופוני הנחה שיתאימו לצרכים שלכם. הנחות אלו נפרדות מכל הנחה על מוצר ויחולו על הסכום הסופי של הזמנת המשתמש.",
-    "add_new": "הוסף קוד הנחה חדש",
-    "card": {
-      "created": "לִיצוֹר",
-      "start": "הַתחָלָה",
-      "end": "סוֹף",
-      "currency": "מַטְבֵּעַ",
-      "discount_percentage": "אחוז הנחה",
-      "discount_limit": "מגבלת הנחה",
-      "state": "מצב נוכחי",
-      "enabled": "כעת מופעל",
-      "disabled": "כעת מושבת",
-      "used": "מְאוּכָּל",
-      "count": "לספור",
-      "unit": "פריט(ים)"
+
+    /** {@see LPageEditor} **/
+    design: {
+      themes: {
+        title: "עוזר עיצוב אישי",
+        message: "עצב את הדפים הטובים ביותר עבור העסק שלך ללא קידוד.",
+        page_title_input: "הזן כותרת עבור הדף שלך",
+      },
+      tools: {
+        rearrange: "להזמין",
+        tools: "כלים",
+        history: "הִיסטוֹרִיָה",
+        style: "סִגְנוֹן",
+        typography: "טיפוגרפיה",
+        hierarchy: "היארארקהי",
+      },
+      no_category: "אין קטגוריות",
     },
-    "dialog": {
-      "title_edit": "ערוך קוד הנחה",
-      "title_add": "הוסף קוד הנחה חדש",
-      "discount_code_input": "קוד הנחה",
-      "discount_percent_input": "אחוז הנחה",
-      "discount_percent_input_hint": "שיעור הנחה של סכום הרכישה",
-      "count_input": "לספור",
-      "count_input_hint": "שימוש מרבי בקוד זה",
-      "limit_input": "מגבלת הנחה",
-      "limit_input_hint": "הנחה מקסימלית לפי מטבע",
-      "currency_input_message": "הנחות יהיו זמינות עבור מטבע זה.",
-      "limit_input_message": "הערך של 0 עבור מגבלת ההנחה אומר שאין הגבלה על שיעור ההיוון.",
-      "title_input": "כותרת",
-      "title_input_hint": "אתה יכול להזין כותרת עבור קוד הנחה זה",
-      "description_input": "תיאור",
-      "description_input_hint": "אתה יכול להזין תיאור עבור קוד הנחה זה",
-      "date_start_input": "הַתחָלָה",
-      "date_start_input_placeholder": "בחר מתי להתחיל בהנחה",
-      "date_end_input": "סוֹף",
-      "date_end_input_placeholder": "בחר מתי ההנחה תסתיים",
-      "notifications": {
-        "add": "קוד הנחה נוסף בהצלחה.",
-        "edit": "קוד ההנחה נערך בהצלחה."
-      }
+
+    /** {@see LPageEditorSeo} **/
+    seo: {
+      message:
+        "הגדרות SEO מותאמות אוטומטית על ידי מנוע ה-Seldone SEO.",
     },
-    "delete_alert": {
-      "title": "הסר את קוד הנחה",
-      "message": "האם ברצונך למחוק את קוד ההנחה הזה?",
-      "action": "הסר הנחה"
+  },
+
+  /** {@see VerifyEmailCaution} **/
+  verify_email_caution: {
+    title: "אשר את כתובת הדואר האלקטרוני שלך",
+    message:
+      "קישור ההפעלה החדש נשלח לכתובת הדוא\"ל שלך {email}. אנא בדוק את האימייל שלך לפני כל פעולה שתבוצע.",
+    resend_message:
+      "אם לא קיבלת את קישור ההפעלה בדוא\"ל שלך, לחץ על הלחצן למטה כדי לשלוח שוב.",
+    resend_action: "שלח שוב קישור הפעלה",
+    resend_notice: "קישור הפעלה נשלח.",
+  },
+
+  /** {@see ShopAutomation_Autopilot} **/
+  autopilot: {
+    start: "תאריך התחלה",
+    end: "תאריך סיום",
+  },
+
+  /** {@see Help} **/
+  help: {
+    menu: "תַפרִיט",
+    more_helps: "קרא עוד",
+  },
+
+  /** {@see WidgetCompanyCard} **/
+  company_card: {
+    pending_state: "מחכה לביקורת",
+    register: "רשום",
+    developer: "מפתח",
+    verified: "מְאוּמָת",
+    premier: "רֹאשׁ הַמֶמשָׁלָה",
+  },
+
+  /** {@see ShopSubscriptionList} **/
+  shop_license: {
+    add: "הוסף מנוי",
+    only_last: "רק מנוי אחרון",
+    vouchers: "שוברים",
+    buy: "קנה תוכנית מנוי",
+    monthly: "יַרחוֹן",
+    yearly: "שְׁנָתִי",
+    start_date: "תאריך התחלה",
+    end_date: "תאריך סיום",
+    price: "מחיר",
+    verify: {
+      true_title: "אמת טארמס",
+      true_description: "I ראאד אנד אגראא ויטה Selldone טארמס ופ וסא",
     },
-    "notifications": {
-      "delete_success": "התגובה שלך נמחקה בהצלחה"
-    }
-  },
-  "gift_cards": {
-    "title": "כרטיס מתנה",
-    "sub_title": "צור כרטיס מתנה ואז צור כמה שאתה צריך. כרטיס זה כולל חיוב, וניתן להשתמש בו רק לרכישות בחנות שלך.",
-    "create_new": "הוסף כרטיס מתנה חדש",
-    "card": {
-      "created": "לִיצוֹר",
-      "lifetime": "תאריך תפוגה",
-      "lifetime_unit": "חודש מהתאריך שבו כל כרטיס נוצר",
-      "currency": "מַטְבֵּעַ",
-      "initial_balance": "טעינה ראשונית",
-      "count": "לספור",
-      "count_unit": "פריט",
-      "used": "בשימוש"
+    need_charge: "צריך טעינה",
+    buy_now: "קנה עכשיו",
+    use_voucher_now: "השתמש בשובר עכשיו",
+    plan_placeholder: "בחר את תוכנית המנוי שלך",
+    plan: "תוכנית רישוי",
+    use_date: "תאריך הפעלה",
+    validity_duration: "משך תוקף",
+    validity_duration_hint:
+      "ברכישת רישיון ל-12 חודשים תקבלו 30% הנחה.",
+
+    active_license: {
+      title: "רישיון פעיל",
+      subtitle:
+        "פרטי הרישיון הפעיל שלך.",
+      subtitle_partner:
+        "פרטי הרישיון הפעיל של {name}.",
     },
-    "dialog": {
-      "title": "עיצוב כרטיסי מתנה"
+    licenses_table: {
+      title: "היסטוריה קנויה",
+      subtitle:
+        "רישיונות פעילים וממתינים.",
     },
-    "alert": {
-      "title": "הסר את קוד הנחה",
-      "message": "האם ברצונך למחוק את קוד ההנחה הזה?",
-      "action": "לִמְחוֹק"
+    license_detail: {
+      title: "פרטים",
+      subtitle:
+        "מגבלות על התוכנית הנוכחית שלך.",
     },
-    "notifications": {
-      "delete_title": "מחק כרטיס מתנה",
-      "delete_message": "התגובה שלך נמחקה בהצלחה."
-    }
-  },
-  "coupons": {
-    "title": "קופונים",
-    "sub_title": "אם אתה רוצה לתת ללקוחות שלך הנחה שניתן להשתמש בה בתנאים ספציפיים, אתה יכול ליצור קופונים. קופונים יכולים לכלול אחוז הנחה עם הגבלה או סכום קבוע או שילוב של שניהם.",
-    "create_new": "הוסף קופון חדש",
-    "qualified_products": "מוצרים מתאימים",
-    "min_purchase": "מינימום רכישה",
-    "only_first_order": "רכישה ראשונה בלבד",
-    "one_time_use": "שימוש חד פעמי",
-    "amount_usage": "כמות משומשת",
-    "delete_alert": {
-      "title": "מחק קופון",
-      "message": "האם אתה בטוח שתמחק את הקופון הזה?",
-      "action": "כן, מחק קופון"
+
+    table: {
+      plan: "לְתַכְנֵן",
+      start_date: "תאריך התחלה/סיום",
+      renewal: "חידוש אוטומטי",
+      linked_account: "חשבון מקושר / שובר",
+      payment: "תַשְׁלוּם",
+      cancel: "לְבַטֵל",
     },
-    "notifications": {
-      "delete_success": "הקופון נמחק בהצלחה."
+    notifications: {
+      subscribe_success: "נרשם בהצלחה.",
+      cancel_success: "המנוי בוטל בהצלחה.",
     },
-    "multiple_use": "שימוש מרובה"
-  },
-  "coupon_edit": {
-    "title_edit": "ערוך קופון",
-    "title_add": "קופון חדש",
-    "discount_charge": "הנחה וחיוב",
-    "charge": "לחייב",
-    "charge_message": "סכום החיוב הראשוני",
-    "percent": "אחוזי הנחה",
-    "percent_message": "סכום אחוזי הנחה",
-    "limit_input": "לְהַגבִּיל",
-    "limit_input_hint": "סכום מגבלת הנחה",
-    "currency_input_message": "קופון זמין עבור מטבע זה.",
-    "count_input": "לספור",
-    "count_input_hint": "שימוש מרבי בקוד זה",
-    "limit_input_message": "הערך של 0 עבור מגבלת ההנחה אומר שאין הגבלה על שיעור ההיוון.",
-    "date_start_input": "הַתחָלָה",
-    "date_start_input_placeholder": "בחר מתי להתחיל את הקופון",
-    "date_end_input": "סוֹף",
-    "date_end_input_placeholder": "בחר מתי ההנחה תסתיים",
-    "title_input": "כותרת",
-    "title_input_hint": "אתה יכול להזין כותרת עבור קוד הנחה זה",
-    "description_input": "תיאור",
-    "description_input_hint": "אתה יכול להזין תיאור עבור קוד הנחה זה",
-    "coupon_code": "קוד קופון",
-    "need_code": "צריך קוד?",
-    "coupon_color": "צבע קופון",
-    "min_purchase_amount": "סכום רכישה מינימלי",
-    "min_purchase_amount_hint": "סכום הרכישה חייב להיות גדול או שווה לערך זה.",
-    "should_exist_product": "לפחות אחד מהמוצרים האלה חייב להיות בעגלה",
-    "apply_for_first_order": "רק לרכישה הראשונה",
-    "apply_for_first_order_on": "ניתן להשתמש בקופון זה רק לרכישה הראשונה של הלקוח!",
-    "apply_for_first_order_off": "ניתן להתאים להלן את מספר השימושים בקופון לכל קונה.",
-    "has_qualify_constraints": "האם אתה רוצה להגדיר עוד גבולות?",
-    "has_qualify_constraints_message": "הגדר תנאים נוספים כדי להכשיר את הלקוח להשתמש בקופון זה.",
-    "one_time_use": "שימוש חד פעמי",
-    "one_time_use_message": "הלקוח יכול להשתמש בקופון זה לפעם אחת.",
-    "daily_limit": "גבול יומי",
-    "no_limit": "אין גבול",
-    "daily_limit_message": "כמות שימוש מקסימלית ליום על ידי הלקוח",
-    "monthly_limit": "מגבלה חודשית",
-    "monthly_limit_message": "כמות שימוש מקסימלית לחודש על ידי לקוח",
-    "yearly_limit": "מגבלה שנתית",
-    "yearly_limit_message": "כמות שימוש מקסימלית בשנה על ידי לקוח",
-    "notifications": {
-      "add": "קופון חדש נוצר בהצלחה.",
-      "edit": "הקופון עודכן."
-    }
-  },
-  "offers": {
-    "title": "הצעות",
-    "sub_title": "אתה יכול ליצור מבצעים מיוחדים ללקוחות שלך, כך שלאחר קניית פריט אחד, הם יקבלו פריט נוסף בהנחה או אפילו בחינם.",
-    "create_new": "הוסף הצעה חדשה",
-    "qualified_products": "מוצרים מתאימים",
-    "min_quantity": "כמות מינימלית",
-    "min_purchase": "מינימום רכישה",
-    "discounted_products": "מוצרים בהנחה",
-    "amount_usage": "כמות משומשת",
-    "delete_alert": {
-      "title": "מחק הצעה",
-      "message": "האם אתה בטוח שתמחק את ההצעה הזו?",
-      "action": "כן, מחק את ההצעה"
+    cancel_dialog: {
+      title: "בטל את אישור המנוי",
+      message: "האם אתה בטוח שאתה מבטל את המנוי הזה?",
+      action: "בטל רישום",
     },
-    "notifications": {
-      "delete_success": "ההצעה נמחקה בהצלחה."
-    }
-  },
-  "offer_edit": {
-    "title_edit": "ערוך הצעה",
-    "title_add": "הצעה חדשה",
-    "design_style": "עיצוב וסגנון",
-    "eligible_constraints": "מגבלות זכאות ללקוח",
-    "title_input": "כותרת",
-    "title_input_hint": "אתה יכול להזין כותרת עבור קוד הנחה זה",
-    "description_input": "תיאור",
-    "description_input_hint": "כתוב תיאור עבור קוד הנחה זה",
-    "currency_input_message": "הצעה זמינה עבור מטבע זה.",
-    "qualified_products": "מוצרים מתאימים",
-    "qualified_products_message": "כדי שהמוצרים יהיו זכאים, סך הפריטים בעגלה חייב להיות שווה או גדול מהכמות המינימלית.",
-    "min_items": "כמות מינימלית של פריטים",
-    "min_items_message": "מספר הפריטים שעל הלקוח לקנות",
-    "discounted_products": "מוצרים בהנחה",
-    "offered_products": "מוצרים המוצעים",
-    "offered_products_message": "לפחות אחד מהמוצרים האלה חייב להיות בעגלה.",
-    "discount_percent": "אחוז הנחה",
-    "discount_percent_message": "אחוזי הנחה על פריטים אלו.",
-    "discount_percent_hint": "סכום אחוז ההנחה",
-    "per_order": "מספר שימושים מקסימלי לכל הזמנה",
-    "per_order_message": "מספר הפעמים המרבי שניתן להחיל את ההצעה על הזמנה",
-    "count_input": "כמות",
-    "count_input_hint": "שימוש מרבי בהצעה זו",
-    "min_purchase": "סכום רכישה מינימלי",
-    "min_purchase_hint": "מחיר הרכישה חייב להיות גדול או שווה לערך זה",
-    "limitation": "הַגבָּלָה",
-    "date_start_input": "הַתחָלָה",
-    "date_start_input_placeholder": "בחר מתי להתחיל את הקופון",
-    "date_end_input": "סוֹף",
-    "date_end_input_placeholder": "בחר מתי ההנחה תסתיים",
-    "max_actives_is_3": "אתה יכול לקבל רק שלוש הצעות פעילות בו-זמנית.",
-    "enable": "החלה אוטומטית",
-    "notifications": {
-      "add": "הצעה חדשה נוצרה בהצלחה.",
-      "edit": "ההצעה עודכנה בהצלחה."
-    }
-  },
-  "campaign_ads": {
-    "menu": {
-      "banner": "דֶגֶל",
-      "reportage": "כַּתָבָה",
-      "social": "מדיה חברתית",
-      "offline": "לא מקוון"
-    }
-  },
-  "emails": {
-    "title": "שיווק דרך האימייל",
-    "subtitle": "עצב מיילים על ידי גרירה ושחרור, תזמן והשקת קמפיינים כדי להגביר את השמירה, וראה מידע אמין ומדויק במקום אחד.",
-    "cation_message": "⚠ מוגבל לסוחרים לא מאומתים. (ביטא)",
-    "subject": "נושא",
-    "from": "מ",
-    "in_que": "מחכה",
-    "schedule_at": "לוח זמנים ב",
-    "sent": "נשלח",
-    "sends": "שולח",
-    "delivers": "נמסר",
-    "views": "צפיות",
-    "clicks": "קליקים",
-    "buys": "רכישות",
-    "new_email": "הוסף אימייל חדש",
-    "new_email_message": "צור ותזמן אימייל שיווקי חדש"
-  },
-  "email_dashboard": {
-    "review": "סקירה",
-    "waiting_for_approve": "ממתין לאישור מאת {name}",
-    "approved_by": "אימייל אומת על ידי {name} ונשלח.",
-    "not_submitted_send_request": "עדיין לא הגשת בקשה לשלוח דוא\"ל זה.",
-    "reviewed_by": "נבדק על ידי {name}",
-    "status": "סטטוס דוא\"ל",
-    "conversion": "שיעורי המרה",
-    "sell_performance": "ביצועי מכירות",
-    "total_buys": "סך המכירות",
-    "amount_buy": "סכום מכירות כולל",
-    "average_sell": "מכירות ממוצעות",
-    "sessions": "הפעלות",
-    "overview": "סקירה כללית",
-    "purchase_amount": "סכום רכישה",
-    "actions": "פעילות המשתמש"
-  },
-  "email_page": {
-    "emails": "אימיילים",
-    "edit": "לַעֲרוֹך"
-  },
-  "affiliate_page": {
-    "affiliates": "שותפים שותפים",
-    "orders": "הזמנות",
-    "payments": "תשלומים"
-  },
-  "affiliate_dashboard": {
-    "link": "קישור לשותף שותף",
-    "fix_commission": "עמלה קבועה",
-    "percent_commission": "עמלה מבוססת אחוזים",
-    "last_payment": "תשלום אחרון",
-    "balance": "איזון",
-    "total_payment": "סה\"כ תשלומים",
-    "status": "סטטוס שותף שותף והגבלות",
-    "available_for": "פנוי ל",
-    "orders_count": "כמות ההזמנות",
-    "orders_accepted": "הזמנות מקובלות",
-    "finance": "דוח כספי",
-    "amount_accepted": "כמות מקובלת",
-    "amount_paid": "סכום ששולם",
-    "sessions": "הפעלות",
-    "affiliate_payment": "תשלומים לשותפים שותפים",
-    "amount_payment": "סכום לתשלום",
-    "amount_payment_hint": "סכום העסקה המדויק",
-    "i_paid": "שילמתי {amount} {currency} ל-{name}",
-    "pay_now": "שלם עכשיו"
-  },
-  "permission_roles": {
-    "new_role": "הוסף תפקיד חדש",
-    "new_role_message": "הפוך את עבודת הצוות לקלה יותר.",
-    "new_role_action": "הוסף תפקיד חדש"
-  },
-  "user_affiliates": {},
-  "shop_lotteries": {
-    "title": "הגרלה",
-    "sub_title": "הלקוחות שלך יכולים לשחק ולנצח. לקוחות של החנות שלך חייבים לצרוך 10 צ'יפים לכל משחק. לדוגמה, אם אתה רוצה שללקוחות שלך תהיה סיכוי לזכות ב-1000 דולר, עליך להגדיר את סכום המחיר של כל שבב ל-100 דולר. ערך של 0 עבור כל שבב אומר שהקונה יקבל שבב אחד עבור כל רכישה.",
-    "manually_send_chip": "האם אתה רוצה לשלוח ידנית שבבים למשתמשים?",
-    "lottery_enable": "האם הגרלה מופעלת?",
-    "chip_price_input": "מחיר צ'יפ",
-    "zero_chip_message": "תן 1x שבב לכל הזמנה",
-    "chip_has_price_message": "תן שבב אחד לכל {amount} {currency} של הזמנה.",
-    "chip_disabled_message": "השבב מושבת!",
-    "create_new": "הוסף פרס חדש",
-    "delete_alert": {
-      "title": "מחק את הפרס",
-      "message": "האם אתה בטוח שתמחק את הפרס הזה לצמיתות?",
-      "action": "כן, מחק עכשיו"
+    add_dialog: {
+      wallet: {
+        title: "בחר a ארנק",
+        subtitle:
+          "בחר a וירטואלי ארנק טו וסא פור יוור מנוי. יפ יוו דונ't האוא ונא יאט, יוו קאנ צור יט ינ טהא ארנק סאקטיונ. טהיס ארנק וילל בא וסאד פור אני קהארגאס.",
+      },
+      auto_renewal: {
+        true_title: "חידוש אוטומטי",
+        true_description:
+          "יוור מנוי וילל אוטומאטיקאללי ראנאו יפ יוור ארנק האס אנווגה יתרה ור יפ יוו האוא a ואליד וווקהאר.",
+      },
+      options: {
+        title: "אדדיטיונאל אפשרויות",
+      },
+      verify: {
+        title: "אישור",
+      },
     },
-    "notifications": {
-      "delete_success": "הפרס נמחק בהצלחה."
-    }
   },
-  "lottery_edit": {
-    "title_edit": "ערוך פריט לוטו",
-    "title_add": "פריט לוטו חדש",
-    "general_config": "תצורה כללית",
-    "design_style": "סגנון ומראה",
-    "enable": "מופעל?",
-    "enable_message": "הפריטים המקסימליים בגלגל הם 14.",
-    "title_input": "כותרת",
-    "title_input_hint": "כתוב כותרת קצרה.",
-    "description_input": "תיאור",
-    "description_input_hint": "כתוב תיאור על הפריט.",
-    "quantity": "כַּמוּת",
-    "quantity_message": "סך כל הפריטים הזמינים",
-    "image": "תמונה",
-    "image_placeholder": "בחר תמונה לפריט",
-    "chance": "הִזדַמְנוּת",
-    "chance_message": "סיכוי ניצחון באחוזים",
-    "free_for_first": "האם זה בחינם ללקוחות חדשים?",
-    "free_for_first_message": "לקוחות חדשים יכולים לזכות בפריט זה.",
-    "prize": "פרס",
-    "amount": "סכום הפרס",
-    "amount_hint": "משתמשים זוכים בסכום החיוב הזה עבור ההזמנה שלהם.",
-    "currency_message": "מטבע עבור פריט זה. מטבעות אחרים מומרים לפי שער חליפין.",
-    "discount": "הנחה",
-    "discount_message": "אחוזי הנחה בהזמנת הלקוח",
-    "discount_limit": "מגבלת הנחה",
-    "discount_limit_hint": "הנחה מקסימלית ללקוח.",
-    "color": "צֶבַע",
-    "condition": "תנאים",
-    "notifications": {
-      "add": "פריט לוטו חדש נוצר בהצלחה.",
-      "edit": "פריטי הגרלה השתנו בהצלחה."
-    }
+
+  /** {@see BLayoutBackofficeShop} **/
+
+  admin_shop_layout: {
+    download_txt: "הורדת טקסט נתונים",
+    download_excel: "הורד נתונים אקסל",
   },
-  "gift_card_types_list": {
-    "label": "סוג כרטיס מתנה",
-    "message": "בחר סוג כרטיס מתנה מהרשימה."
+  /** {@see BUserPreferences} **/
+  user_preferences: {
+    access: "גִישָׁה",
+    template: "תבנית",
+    feedback: "מָשׁוֹב",
+    date_time: "תאריך & זמן",
+
+    company: "חֶברָה",
+    company_message: "אם יש לכם חברה ואתם רוצים לפרסם אפליקציות.",
+    access_keys: "מפתחות גישה",
+    access_keys_message: "הצג לקוחות ומפתחות גישה.",
+    rating: "איך היית מדרג את החוויה שלך עם Seldone?",
+    large_font: "גופנים גדולים",
+    large_font_message: "הצג טקסט גדול מהרגיל",
+    samples: "הצג חנויות לדוגמא",
+    samples_message:
+      "אם מופעל, כמה חנויות לדוגמה יוצגו בפאנל שלך.",
+
+    automation: "אוטומציה",
+    automation_message:
+      "הצג את לשונית האוטומציה בלוח המחוונים של החנות. (Webhooks, תכנות ויזואלי, ...)",
   },
-  "email_builder": {
-    "service_unavailable": "שרת הדואר אינו פעיל בחשבון שלך.",
-    "design_section": "לוח עיצוב המייל שלך",
-    "schedule_switch": "לתזמן שליחת מייל?",
-    "schedule_placeholder": "בחר זמן לשלוח דוא\"ל"
-  },
-  "user_funnel": {
-    "REGISTER_DATE": {
-      "title": "תאריך רישום",
-      "description": "סנן לפי תאריך הרישום של המשתמש."
+
+  /** {@see BPageShopSettingLocations} **/
+  shop_locations: {
+    title: "מדינות בהן ניתן השירות",
+    sub_title:
+      "בחר את המדינות שבהן אתה רוצה למכור את המוצר שלך מהרשימה למטה.",
+
+    delete_restriction: "מחק הגבלה",
+    set_restriction: "לקבוע הגבלה",
+    notifications: {
+      locations_update: "המיקום עודכן בהצלחה.",
     },
-    "LAST_BUY_DATE": {
-      "title": "רכישה אחרונה",
-      "description": "תאריך רכישה אחרון."
+    table: {
+      country: "מדינה",
+      currency: "מַטְבֵּעַ",
+      available: "זמין",
     },
-    "LOGIN_DATE": {
-      "title": "תאריך כניסה",
-      "description": "תאריך כניסה אחרון."
+  },
+
+  /** @see ProductCard **/
+  product_card: {
+    sold_out: "נמכר",
+    review_unit: "סקירה",
+    not_original: "לא מקורי",
+  },
+
+  /** @see BProductAddStudio **/
+  product_studio: {
+    add_mode: "הוסף פרטים נוספים",
+    auto_category: "הגדרה אוטומטית של קטגוריה",
+    add_in_current_category: "הוסף לקטגוריה הנוכחית",
+    category_mode_message:
+      "אם מופעל, המוצר יתווסף לקטגוריית ברירת המחדל או לקטגוריית המשנה.",
+    sku_name_input: "מק\"ט / שם",
+    info: {
+      subtitle:
+        "טו צור טהא מוצר, יוו קאנ אנטאר רק טהא אססאנטיאל פרטים נאקאססארי פור יטס קראאטיונ.",
     },
-    "LEVEL": {
-      "title": "מועדון לקוחות",
-      "description": "חברים במועדון לקוחות."
+    price: {
+      subtitle:
+        "אנטאר טהא מחיר אנד הנחה פור טהיס מוצר. ונקא טהא מוצר יס הוסף, יוו'לל האוא גישה טו מורא אפשרויות.",
     },
-    "SUBSCRIBED": {
-      "title": "נרשם",
-      "description": "שיהיה מנוי לקבלת דוא\"ל."
+    by_sku: {
+      title: "הוסף בי SKU",
+      subtitle: "טהא דאטאבאסא ינ יוור מדינה יס לא זמין.",
     },
-    "NOT_PURCHASED": {
-      "title": "אין רכישה",
-      "description": "לקוחות שלא רכשו עד כה."
+    drop_shipping: {
+      subtitle:
+        "פינד מוצרים ינ טהא והולאסאלא מרקטפלייס אנד הוסף טהאמ טו יוור חנות.",
     },
-    "SEX": {
-      "title": "מִין",
-      "description": "מגדר המשתמש."
+    by_connect: {
+      subtitle:
+        "אאסילי הוסף מוצרים פרומ POD ור דרופסהיפפינג סופפליארס ויטה Selldone קוננאקט וס—גוסט קוננאקט יוור חנות אנד אנגוי אוטומטי מוצר ינטאגראטיונ, נו פלוגינס נאאדאד.",
     },
-    "LOCATION": {
-      "title": "מקום",
-      "description": "מיקום משתמש."
+    your_license_is_not_eligible: "יוור ליקאנסא יס לא אליגיבלא.",
+    sku_dialog: {
+      title: "הוסף מוצר בי SKU",
+      subtitle:
+        "יוו האוא טהא אביליטי טו לוקאטא מוצרים בי טהאיר SKU ינ וור דאטאבאסא אנד הוסף טהאמ ויטה גוסט a סינגלא קליקק.",
     },
-    "LIMIT": {
-      "title": "לְהַגבִּיל",
-      "description": "הגדר הגבלה על המספר המרבי של משתמשים."
+    dropshipping_dialog: {
+      title: "הוסף דרופסהיפפינג מוצרים",
     },
-    "SEGMENTS": {
-      "title": "פלחים",
-      "description": "הגבלת לקוחות בפילוח ידני ספציפי."
-    }
   },
-  "inline_help": {
-    "helps_title": "מדריך למשתמש של השירות",
-    "blogs_title": "תוכן קשור בבלוג Seldone"
+
+  /**
+   * @see BProductAddDropshippingShops
+   */
+  product_add_dropshipping_shops: {
+    subtitle:
+      "הארא, יוו קאנ פינד והולאסאלארס והו רשימה טהאיר מוצרים ונ Selldone, מאקינג טהאמ זמין פור וטהאר מארקהאנטס. Selldone's בוילט-ינ דרופסהיפפינג פלאטפורמ סימפליפיאס טהא תהליך, מאקינג יט אאסי אנד סטראיגהטפורוארד פור בוטה והולאסאלארס אנד מארקהאנטס.",
   },
-  "shop_tax": {
-    "region": "אזור",
-    "label": "תווית",
-    "country_tax": "מס מדינה",
-    "customer_tax": "מע\"מ לקוח",
-    "business_tax": "מע\"מ לעסקים",
-    "shipping": "משלוח",
-    "override": "ביטול",
-    "country": "מדינה",
-    "vat_range": "טווח מע\"מ",
-    "custom": "המותאם אישית",
-    "regions": "אזורים",
-    "rest_world": "שאר העולם",
-    "overrides": "עוקפים",
-    "dialog_set_title": "הגדרות מס",
-    "tax_setting": "הגדרות מס",
-    "vat": "VAT",
-    "calculate_tax_input": "חישוב מס אוטומטי",
-    "calculate_tax_message": "על ידי הפעלת אפשרות זו, מע\"מ יחושב ויחול עבור ההזמנות שלך.",
-    "tax_number": "מספר מס",
-    "tax_number_message": "הזן את מספר המס שלך. מספר רישום זה יירשם בחשבונית הקונה.",
-    "tax_included_in_price_input": "מס כלול במחיר המוצר",
-    "tax_included_in_price_message": "בחר באפשרות זו אם אתה כולל את סכום המס במחיר המוצר שלך. סכום המס יחושב לפי הנוסחה הבאה:",
-    "tax_included_in_price_formula": "מס = (מחיר * מע\"מ) / (1 + מע\"מ), לדוגמה, סכום המס עבור מוצר במחיר של 100$ עם שיעור ערך מוסף של 10% הופך ל-9.09$.",
-    "tax_on_shipping_input": "החל מיסים על משלוח",
-    "tax_on_shipping_message": "על ידי בחירה באפשרות זו, המס יוחל על המשלוח.",
-    "fixed_tax_rate": "שיעור מס קבוע",
-    "dynamic_tax_rate": "מס לפי אזורים",
-    "locations_tip": "הרשימה שלמעלה מציגה רק את המדינות שבחרת בהגדרות החנות > מיקומים בתור המדינות שאתה מוכר.",
-    "locations_action": "הגדרות מיקומים של חנות",
-    "save_alert": "ההגדרות לא נשמרות!",
-    "pos_tax_setting": "הגדרות מס קופה",
-    "tax_exclude_title": "לא נכלל ╏ מס יתווסף בקופה",
-    "tax_excluded_message": "המסים יחושבו לפני התשלומים במהלך התשלום ויתווספו למחיר המס שלא נכלל בהתאם לראיות הלקוח שלך."
+
+  /** @see Affiliates **/
+  my_affiliate: {
+    title: "חוזי השותפים שלי",
+    message:
+      "רשימת הסכמי שותפים עם חנויות אחרות.",
   },
-  "transportation_page": {
-    "menu": {
-      "dashboard": "לוּחַ מַחווָנִים",
-      "transportations": "שיטות משלוח",
-      "orders": "הזמנות",
-      "setting": "הגדרה",
-      "delivery_services": "שירותים",
-      "delivery_persons": "שליחים"
+
+  /** @see BPageShopMarketingAffiliate **/
+  affiliates: {
+    title: "שותפים שותפים",
+    subtitle:
+      "צור שותפים, עקוב אחר הביצועים שלהם לאורך זמן ונקוט פעולות על סמך מידע מדויק במקום אחד. אנו עוזרים לך ולשותפים שלך לבנות מערכת יחסים חזקה.",
+
+    affiliate_code: "קוד שותף",
+    crate_date: "צור תאריך",
+    last_payment_date: "תאריך תשלום אחרון",
+    for_all_products: "חל על כל המוצרים",
+    balance: "איזון",
+    fix_commission: "עמלה קבועה",
+    percent_commission: "עמלה מבוססת אחוזים",
+    total_payment: "סה\"כ תשלומים",
+    new_affiliate: "שותף שותף חדש",
+    new_affiliate_message: "הוסף שותף שותף חדש",
+
+    link_factory: {
+      title: "מחולל קישורים לשותפים שותפים",
+      link_input: "הקישור שלך",
+      link_output: "קישור שנוצר",
     },
-    "go_to_courier_list": "צפו ברשימת השליחים",
-    "go_to_service_list": "הצג את רשימת שירותי המשלוחים"
   },
-  "transportation_persons": {
-    "title": "שליחים",
-    "notifications": {
-      "success_add": "הוסיף שליח.",
-      "success_reset": "איפוס סטטיסטיקה.",
-      "success_remove": "השליח הוסר בהצלחה.",
-      "success_update": "מידע השליח עודכן בהצלחה."
+
+  /**
+   * @see BAffiliateEdit
+   */
+  affiliate_edit: {
+    affiliate_commission: "שותף עמלה",
+
+    config: {
+      new: "חדש שותף פארטנאר",
+      edit: "ערוך שותף פארטנאר",
+      subtitle:
+        "קונפיגורא טהא גאנאראל הגדרות אנד שם ופ טהא שותף הארא.",
     },
-    "reset": {
-      "title": "אתחל סטטיסטיקות",
-      "message": "האם אתה בטוח שאיפס את הסטטיסטיקה של השליח הזה?",
-      "action": "כן, אפס עכשיו"
+
+    payment: {
+      title: "תשלום מידע",
+      subtitle:
+        "סאט טהא עמלה סטרוקטורא פור טהא שותף. יוו קאנ קומבינא פיקסאד אנד פארקאנטאגא-באסאד עמלה, ור סאט ספאקיפיק עמלה פור אאקה מוצר.",
     },
-    "remove": {
-      "title": "הסר את שליח",
-      "message": "האם אתה בטוח שתמחק את השליח הזה?",
-      "action": "כן, הסר עכשיו"
+
+    contact: {
+      title: "פרטי התקשרות",
+      subtitle: "פרווידא טהא קונטאקט פרטים ופ טהא שותף פארטנאר הארא.",
     },
-    "add_dialog": {
-      "title": "הוסף שליח חדש",
-      "action": "הוסף שליח"
-    }
-  },
-  "transportation_orders": {
-    "title": "הזמנות למשלוח",
-    "notifications": {
-      "success_update": "סטטוס המשלוח עודכן בהצלחה.",
-      "success_payment": "תשלום COD אושר בהצלחה."
-    }
-  },
-  "delivery_person": {
-    "actions_title": "הגדרות שליחים",
-    "action_delivered": "נשלח",
-    "action_paid": "COD שולם",
-    "action_returned": "חזר",
-    "cod_confirm_action": "אשר תשלום COD",
-    "pickup_dialog": {
-      "title": "האם אתה שליח של החבילה הזו?",
-      "message": "אם אתה אחראי על נשיאת החבילה הזו, בחר כן, אחרת בחר לא."
+
+    restriction: {
+      title: "עמלה ראסטריקטיונס",
+      subtitle:
+        "דאפינא והיקה מוצרים ארא אליגיבלא פור עמלה. יוו קאנ ראסטריקט עמלה טו קארטאינ מוצרים.",
     },
-    "status_dialog": {
-      "title": "שנה סטטוס ל-{status}",
-      "message": "האם אתה בטוח לשנות את סטטוס המשלוח ל-{status}?",
-      "action": "כן, אני מאשר את זה!"
+
+    link_domain: {
+      title: "קישור דומיין",
+      subtitle:
+        "קישור ונא ופ יוור דומיינים טו טהיס שותף פארטנאר. ויסיטורס והו קנייה טהרווגה טהיס דומיין וילל בא אטטריבוטאד טו טהיס שותף.",
+
+      domain_not_approved_msg: "טהא דומיין האס לא באאנ אושר יאט!",
+      domain_is_not_enable_msg: "טהא דומיין יס לא מופעל!",
+      domain_is_linked_to_other_affiliate_msg:
+        "טהיס דומיין יס אלראאדי קישור טו אנוטהאר שותף!",
     },
-    "cod_dialog": {
-      "title": "תשלום COD",
-      "message": "האם אתה מאשר שקיבלת את סכום ההזמנה מהקונה?",
-      "action": "כן, אני מאשר תשלום!"
-    }
-  },
-  "transportation_services": {
-    "title": "שירות משלוחים",
-    "notifications": {
-      "success_add": "נוסף שירות משלוחים.",
-      "success_reset": "איפוס סטטיסטיקה.",
-      "success_remove": "השירות הוסר בהצלחה.",
-      "success_update": "השירות עודכן בהצלחה."
+
+    set_users_first_message: "פלאאסא סאט טהא משתמש ראשון!",
+
+    cluster: {
+      title: "קלוסטאר",
+      subtitle:
+        "אססוקיאטא טהיס שותף ויטה a קלוסטאר טו נהל יט אלונגסידא וטהאר ראסוורקאס ינ ונא פלאקא.",
+      manage_action: "נהל",
     },
-    "reset": {
-      "title": "אתחל סטטיסטיקות",
-      "message": "האם אתה בטוח שאפס את הנתונים הסטטיסטיים של שירות זה?",
-      "action": "כן, אפס עכשיו"
+
+    notifications: {
+      create_success: "חדש שותף הוסף סוקקאסספוללי.",
+      update_success: "שותף ופדאטאד סוקקאסספוללי.",
     },
-    "remove": {
-      "title": "הסר את שירות המשלוחים",
-      "message": "האם אתה בטוח שתמחק את השירות הזה?",
-      "action": "כן, הסר עכשיו"
+
+    inputs: {
+      name: {
+        label: "שותף פארטנאר שם",
+        message: "e.g., גוהנ דוא, אלאקס קומפאני, X מארקאטארס, אטק.",
+      },
+      commission: {
+        label: "עמלה קאלקולאטיונ",
+        false_description:
+          "קאלקולאטא וסינג a קומבינאטיונ ופ פיקסאד אנד פארקאנטאגא עמלה.",
+        true_description:
+          "קאלקולאטא וסינג פרודוקט-ספאקיפיק עמלה סאט ינ טהא תמחור טאב.",
+        false_title: "פיקסאד + פארקאנטאגא עמלה",
+        true_title: "פרודוקט-באסאד עמלה",
+      },
+      user: {
+        label: "משתמש (ופטיונאל)",
+        message: "ופטיונאל, e.g., שותף שם ינ Selldone",
+      },
+      web: {
+        placeholder: "ופטיונאל, e.g., אפפיליאטא-ואב.קומ",
+      },
+      address: {
+        placeholder: "ופטיונאל, e.g., 1200 פוקס, ני, וסא",
+      },
+      tel: {
+        placeholder: "ופטיונאל, e.g., 001-808-210354",
+      },
+      bank: {
+        placeholder: "ופטיונאל, e.g., ארסטרא באנק, נו: 10002-325-800-845213",
+      },
+      domain: {
+        placeholder: "בחר a דומיין... (ופטיונאל)",
+      },
+      pos: {
+        true_description:
+          "שותף קאנ פלאקא הזמנות דיראקטלי פור טהאיר לקוחות טהרווגה טהאיר פאנאל.",
+        true_title: "POS גישה",
+      },
+      enable: {
+        true_description:
+          "יס טהיס שותף קורראנטלי פעיל? יפ לא פעיל, טהאיר שותף פרוגראמ וונ't אפפלי טו הזמנות מאדא טהרווגה טהאיר קישור.",
+      },
+      products: {
+        label: "מוצרים אליגיבלא פור עמלה",
+        select_product: "בחר מוצרים",
+      },
     },
-    "add_dialog": {
-      "title": "הוסף שירות משלוחים חדש",
-      "action": "הוסף שירות"
-    }
-  },
-  "delivery_receipt": {
-    "title": "קבלת משלוח",
-    "has_return": "החזרת משלוח",
-    "cashed": "תשלום במזומן"
-  },
-  "delivery_dashboard": {
-    "select_destinations": "הוסף הזמנות לרשימה",
-    "price_calculation": "הערכת תעריפי משלוח",
-    "price_calculation_action": "חשב מחיר",
-    "add_request": "בקש שירות",
-    "add_request_action": "שלח בקשת שירות",
-    "refresh_action": "לעדכן מידע"
-  },
-  "delivery_order": {
-    "title": "הזמנת משלוח",
-    "has_return": "החזרת משלוח",
-    "cashed": "תשלום במזומן"
-  },
-  "cash_register": {
-    "menu": {
-      "panel": "קופה רושמת",
-      "orders": "הזמנות",
-      "customers": "לקוחות",
-      "devices": "התקנים",
-      "inventory": "מְלַאי"
+    actions: {
+      update: "עדכן שותף",
+      add: "הוסף שותף פארטנאר",
     },
-    "payment_confirm": "אישור תשלום",
-    "payment_confirm_msg": "הזמנה בתשלום של הלקוח {basket_id}."
-  },
-  "barcode_scanner": {
-    "wifi_pass": "סיסמת ה-Wi-Fi שלך",
-    "message": "הזן את סיסמת נתב ה-WiFi שלך וסרוק את קוד ה-QR.",
-    "wifi_ssid": "Wi-Fi SSID",
-    "ssid_message": "הזן את שם רשת ה-Wi-Fi שלך (SSID)."
-  },
-  "pos_devices": {
-    "Scanner": "סורק ברקוד",
-    "Scanner_desc": "כדי להשתמש בסורק הברקוד, עליך להזין את קוד מק\"ט המוצר בצורה נכונה בהגדרות המוצר.",
-    "Printer": "מדפסת",
-    "Printer_desc": "הדפס את הקבלה של הלקוחות שלך על ידי חיבור למדפסת קבלות.",
-    "CustomerView": "תצוגת לקוח",
-    "CustomerView_desc": "עמוד זה מאפשר לך להציג את פרטי ההזמנה ללקוחות שלך.",
-    "CardReader": "קורא כרטיסים",
-    "CardReader_desc": "מכשיר קורא כרטיסים לתשלום COD על ידי הלקוחות שלך.",
-    "ChipReader": "קורא שבבים",
-    "ChipReader_desc": "קורא תגיות NFC להוספת פריטים לעגלה באמצעות תגים."
-  },
-  "pos_register_devices": {
-    "delete_dialog": {
-      "title": "הסר מכשיר",
-      "message": "האם אתה בטוח להסיר את המכשיר הזה מפרופיל הקופה שלך?",
-      "action": "כן, הסר עכשיו"
-    }
-  },
-  "pos_process_center": {
-    "title": "מרכז עיבוד הזמנות קופה",
-    "menu": {
-      "label": "תווית אריזה",
-      "receipt": "קַבָּלָה",
-      "back": "חזור",
-      "timeline": "ציר זמן",
-      "order": "להזמין"
-    }
-  },
-  "pos": {
-    "add_customer": "הוסף לקוח",
-    "set_delivery": "הגדר כתובת למשלוח",
-    "add_giftcards": "הוסף כרטיס מתנה",
-    "add_discount_code": "הוסף קוד הנחה",
-    "add_coupon": "הוסף קופון",
-    "set_campaign": "הגדר מסע פרסום",
-    "select_buyer": "בחר קונה!",
-    "send_to_pos": "שלח למכונת קורא כרטיסים",
-    "print_receipt": "הדפס קבלה",
-    "confirm_cash_payment": "אשר תשלום במזומן",
-    "payment_cod": {
-      "title": "תשלום במזומן במשלוח",
-      "message": "סכום הזמנה זו ישולם עם המסירה. לאחר קבלת הסכום מהקונה יש לאשר את התשלום להשלמת ההזמנה במערכת."
+    /**
+     * @see BPageAffiliateEdit
+     */
+    delete: {
+      subtitle:
+        "יוו קאנ סאטטלא אני ווטסטאנדינג דאבטס ויטה טהא שותף באפורא ראמווינג טהאמ פרומ יוור חנות. שותף מידע וילל ראמאינ אקקאססיבלא פור a לימיטאד זמן אפטאר דאלאטיונ.",
     },
-    "payment_online": {
-      "title": "בחר אמצעי תשלום מקוון",
-      "message": "על ידי בחירה באפשרויות הבאות, ייווצר קישור לתשלום שיישלח לקונה. על ידי תשלום קישור זה, סטטוס ההזמנה ישתנה למצב בתשלום. קישור לתשלום יופק על ידי סריקת קוד ה-QR במסך הלקוח, SMS או אימייל. כדי להפעיל ערוץ כלשהו לשליחת קישור, לחץ על אפשרות זו ולאחר מכן לחץ על הכפתור כדי לשלוח קבלה לקונה."
+  },
+
+  /**
+   * @see BPageShopFinanceValuations
+   */
+  shop_valuations: {
+    title: "מותאם אישית תמחור אנד ואלואטיונס",
+    subtitle:
+      "אססיגנ a ואלואטיונ (a תמחור קלט טופס) טו a מוצר, אללווינג לקוחות טו בחר וריאציות ור פארסונאליזא יוור מארקהאנדיסא. טהא סיסטאמ וילל טהאנ קאלקולאטא טהא מחיר באסאד ונ טהא מותאם אישית קלטים.",
+    add_valuation_action: "צור חדש ואלואטיונ טופס",
+    empty_message:
+      "ינסטאאד ופ קראאטינג מולטיפלא וריאציות, קונסידאר דאואלופינג a ואלואטיונ סטראטאגי טהאט קאנ בא אפפליאד טו a סימפלא מוצר.",
+    delete_dialog: {
+      title: "פארמאנאנטלי הסר",
+      message:
+        "ארא יוו סורא יוו ואנט טו מחק טהיס תמחור טופס? פלאאסא אנסורא טהאט טהיס מותאם אישית תמחור סטראטאגי יס ראמוואד פרומ הכול אססוקיאטאד מוצרים ראשון.",
+      action: "כן, מחק עכשיו",
     },
-    "notifications": {
-      "success_pay": "תשלום ההזמנה הושלם.",
-      "success_order": "ההזמנה נוצרה בהצלחה ומחכה שהלקוח ישלם אותה."
+    notifications: {
+      delete_success: "ואלואטיונ האס באאנ סוקקאסספוללי דאלאטאד.",
     },
-    "payment_dialog": {
-      "check_pay_now": "בדוק ידנית את התשלום",
-      "close_action": "סגור דו-שיח. אני לא רוצה לחכות לתשלום הלקוח",
-      "go_to_order": "עבור לדף ההזמנה",
-      "paid_by_gift_card_msg": "סכום ההזמנה הכולל נמשך מכרטיסי המתנה! הקונה לא צריך לשלם יותר.",
-      "cod_msg": "הלקוח ישלם בעת קבלת ההזמנה.",
-      "online_msg": "בקשו מהלקוח לסרוק קוד QR על מסך הלקוח."
+  },
+
+  /**
+   * @see BValuationInput
+   */
+  valuation_input: {
+    label: "תמחור & ואלואטיונ מודאל",
+  },
+
+  /**
+   * @see BValuationAdd
+   */
+  valuation_add: {
+    title_edit: "ערוך ואלואטיונ טופס",
+    title_add: "צור חדש ואלואטיונ טופס",
+    config: {
+      subtitle:
+        "סאט ופ a ואלואטיונ סיסטאמ טו צור פלאקסיבלא תמחור וסינג פורמולאס אנד ראפאראנקא טבלה פור יוור מוצרים. התחלה בי גיוינג טהיס ואלואטיונ a וניקוא שם.",
     },
-    "name": "POS",
-    "message": "קבע את נקודת המכירה המקוונת שלך ללא עלות הגדרה, הפעל אותה בכל סמארטפון, טאבלט ומחשב, או צור הזמנות באופן ידני."
-  },
-  "exporter": {
-    "title": "ייצוא נתונים",
-    "subtitle": "הנתונים שלך שייכים לך! אתה יכול להוריד את פרטי העסק שלך בפורמט הסטנדרטי בכל עת. עם זאת, כבד את פרטיות הלקוחות שלך, אל תשלח להם דואר זבל ולעולם אל תשתף את המידע שלהם עם צד שלישי.",
-    "excel": "תקבלו רשימה של כל {type} בחנות יחד עם מידע מלא בפורמט אקסל.",
-    "csv": "תקבל רשימה של כל {סוג} בחנות יחד עם מידע מלא בפורמט CSV. פורמט זה הוא בהתאם לפורמט הסטנדרטי של Seldone לייבוא {type} לחנות."
-  },
-  "importer": {
-    "category": {
-      "title": "ייבוא קטגוריות",
-      "subtitle": "העלה כאן קובץ CSV של קטגוריות. ודא שאתה עוקב אחר הפורמט הסטנדרטי."
+    valuation_preview: "פראויאו ואלואטיונ טופס",
+    load_sample: "לואד סאמפלא",
+    conditions: {
+      title: "תנאים",
+      subtitle:
+        "דאפינא טהא לוגיק פור מותאם אישית וריאציות. טהיס תצורה סימפליפיאס טהא ניהול ופ וריאציה אואילאביליטי.",
     },
-    "product": {
-      "title": "ייבוא מוצרים",
-      "subtitle": "העלה כאן קובץ CSV של מוצרים. ודא שאתה עוקב אחר הפורמט הסטנדרטי."
+    structure: {
+      title: "סטרוקטורא",
+      subtitle:
+        "דאסיגנ יוור תמחור קלט טופס הארא בי ינטאגראטינג פורמולאס אנד ראפאראנקא טבלה.",
+      expand_action: "אקספאנד",
+      collapse_action: "קוללאפסא",
     },
-    "product_images": {
-      "title": "ייבוא תמונות",
-      "subtitle": "קבלת מידע תמונה גוזלת זמן. הקפד לכבד את זכויות היוצרים בעת ייבוא תמונות."
+    inputs: {
+      title: {
+        message: "טהיס כותרת יס לא ויסיבלא טו לקוחות.",
+        placeholder: "אנטאר a שם פור תמחור, e.g., 'מוגס תמחור'",
+      },
     },
-    "inventory": {
-      "title": "עדכון מלאי בכמות גדולה",
-      "subtitle": "העלה כאן קובץ CSV של המלאי. ודא שאתה פועל לפי הפורמט הסטנדרטי על ידי ייצוא קובץ ה-CSV תחילה, ולאחר מכן עריכת קובץ זה."
+    samples: {
+      title: "סאמפלא ואלואטיונס",
     },
-    "back_to_products": "חזרה לרשימת המוצרים",
-    "back_to_categories": "חזרה לרשימת הקטגוריות",
-    "back_to_inventory": "חזרה לרשימת המלאי",
-    "step_select_file": "בחר קובץ CSV",
-    "step_send_to_server": "שלח לשרת",
-    "step_view_result": "הצג תוצאה",
-    "step_view_que": "הצג רשימת ממתינים",
-    "send_to_server_action": "שלח לשרת",
-    "shop_license": "רישיון חנות",
-    "max_items_limit": "מגבלת פריטים מקסימלית",
-    "total_items": "סה\"כ פריטים",
-    "customer": {
-      "title": "ייבוא לקוחות",
-      "subtitle": "העלה כאן קובצי CSV של לקוחות. ודא שאתה פועל לפי הפורמט הסטנדרטי, כמו כן, עליך לציית לכללי הפרטיות."
-    }
   },
-  "campaigns": {
-    "title": "מסעות פרסום",
-    "subtitle": "צור מסעות פרסום, קישורים שניתנים למעקב וראה מידע אמין ומדויק במקום אחד. אנו עוזרים לך לקבל החלטות טובות יותר מבוססות נתונים.",
-    "add_action": "הוסף מסע פרסום חדש",
-    "empty_message": "צור את מסע הפרסום הראשון שלך עכשיו!",
-    "delete": {
-      "title": "מחק מסע פרסום",
-      "message": "האם אתה בטוח שתמחק את הקמפיין הזה ואת כל הנתונים?",
-      "action": "כן, מחק עכשיו"
-    }
-  },
-  "landing_categories": {
-    "raw": "תבניות גולמיות",
-    "marketing": "שיווק ופרסומות",
-    "product": "הצגת המוצר",
-    "health": "בריאות וכושר",
-    "food": "מזון ופירות",
-    "house": "נדל\"ן ובית",
-    "device": "מכונה ומכשיר",
-    "car": "אוטו",
-    "software": "תוֹכנָה",
-    "clothing": "ביגוד ונעליים",
-    "jewellery": "תכשיט",
-    "all": "כל התבניות"
-  },
-  "shop_theme": {
-    "theme_colors": "צבעי נושא",
-    "products_view_mode": "תצוגת רשימת קניות",
-    "products_view_mode_desc": "אתה יכול להתאים את מצב התצוגה של המוצרים בחנות שלך בהתאם לגודל המסך. מצב זה ייחשב כברירת מחדל ולא יוחל אם המשתמש משנה את מצב התצוגה.",
-    "color_light": "צבע יסוד",
-    "color_dark": "צבע כהה ראשוני",
-    "color_deep_dark": "צבע כהה עמוק",
-    "color_info": "קישורים",
-    "light_checkout": "נושא קל לקופה",
-    "light_header": "כותרת קלה",
-    "light_footer": "כותרת תחתונה קלה",
-    "product_page": "דף מוצר",
-    "typography": "טיפוגרפיה",
-    "header": "כּוֹתֶרֶת",
-    "custom_code": "קוד מותאם אישית",
-    "custom_css": "CSS מותאם אישית",
-    "light_filter": "ערכת נושא לסינון קטגוריות",
-    "custom_variants": "גרסאות"
-  },
-  "app_templates": {
-    "default": "בְּרִירַת מֶחדָל",
-    "blue": "אוקיינוס כחול",
-    "amber": "עַנבָּר",
-    "green": "מַשׁוָנִי",
-    "red": "עַרפָּד",
-    "magenta": "פֶּרַח",
-    "master": "לִשְׁלוֹט",
-    "black": "צד אפל"
-  },
-  "affiliate_orders": {
-    "title": "הזמנות שותפים שותפים",
-    "table": {
-      "order_price": "כמות הזמנה",
-      "order_payment": "סטטוס תשלום בהזמנה",
-      "order_link": "קישור להזמנה",
-      "commission_status": "מצב הנציבות",
-      "commission_amount": "סכום עמלה",
-      "items": "פריטים",
-      "actions": "פעולות",
-      "create_date": "צור תאריך"
+
+  /** @see AdminGiftcardPage_Orders **/
+  gift_card_orders: {
+    title: "הזמנות עם Giftcard",
+    table: {
+      order: "להזמין",
+      order_price: "כמות הזמנה",
+      paid_by_card: "בתשלום בכרטיס",
+      payment_status: "מצב תשלום",
+      date: "תַאֲרִיך",
     },
-    "notifications": {
-      "update_success": "סטטוס השותפים עודכן."
-    }
   },
-  "affiliate_payments": {
-    "title": "תשלומים לשותפים שותפים",
-    "table": {
-      "staff": "צוות",
-      "amount": "כמות",
-      "note": "פתק",
-      "date": "תַאֲרִיך"
-    }
-  },
-  "my_roles": {
-    "title": "התפקידים שלי",
-    "message": "תפקידים הם סוג של גישה הניתנת לעובדים בחנות. לדוגמה, צוות האחראי על שליחת או אריזה של הזמנות."
-  },
-  "role_card": {
-    "complete_tasks": "ביצוע משימות",
-    "reject_tasks": "משימות שנדחו",
-    "last_check": "בדיקה אחרונה"
-  },
-  "referral_widget": {
-    "apply_now": "הגש בקשה עכשיו לתוכנית זו!",
-    "no_bonus": "קבל את הפרס הראשון על ידי הזמנת חבר.",
-    "your_gift": "המתנה שלך",
-    "invited_gift": "מתנה מוזמנת",
-    "percent_bonus": "אחוז בונוס",
-    "discount_bonus": "בונוס הנחה",
-    "registered": "משתמש חדש",
-    "accepted": "משתמש מקובל"
-  },
-  "app_config": {
-    "reviews": "ביקורות",
-    "rate_now": "דרג עכשיו",
-    "category": "קטגוריה",
-    "uninstall": "הסר את ההתקנה",
-    "get_app": "קבל אפליקציה",
-    "public_keys": "מפתחות ציבוריים",
-    "private_keys": "מפתחות פרטיים (מאובטח)",
-    "config": "תצורת האפליקציה",
-    "app_status": "סטטוס הבקשה",
-    "app_info": "מידע על יישום",
-    "update_at": "עדכון אחרון",
-    "visit_website": "בקר באתר",
-    "privacy": "מדיניות פרטיות",
-    "installs": "מתקין",
-    "basic_profile_permission": "מידע בסיסי על הפרופיל",
-    "developer": "מפתח",
-    "permissions": "הרשאות",
-    "total_comments": "סך הכל תגובות",
-    "delete_dialog": {
-      "title": "הסר את ההתקנה של האפליקציה",
-      "message": "האם ברצונך להסיר את האפליקציה הזו מהחנות שלך?",
-      "action": "כן, מחק את האפליקציה"
+
+  /** @see BPageOfferOrders **/
+  offer_orders: {
+    title: "הצע הזמנות",
+    table: {
+      order: "להזמין",
+      order_price: "כמות הזמנה",
+      offer_amount: "סכום ההצעה",
+      payment_status: "מצב תשלום",
+      product: "מוצר",
+      date: "תַאֲרִיך",
     },
-    "notifications": {
-      "uninstall_success": "האפליקציה הוסרה בהצלחה."
-    }
   },
-  "shop_bots": {
-    "not_set": "לא מוכן!",
-    "tokens": "אסימונים",
-    "webhook": "Webhook",
-    "calls": "שיחות",
-    "dialog": {
-      "title": "{name} תצורת בוט",
-      "message": "מסגרת בוט מקיפה לבניית חוויות קניות ברמה ארגונית."
-    }
-  },
-  "shop_customers": {
-    "title": "ניהול לקוחות",
-    "all_customers": "הורד את כל הלקוחות",
-    "filtered_customers": "לקוחות מסוננים",
-    "dialog_chips": {
-      "title": "הגדר את מספר שבבי הלקוח"
+
+  /** @see BPageCouponOrders **/
+  coupon_orders: {
+    title: "הזמנות קופון",
+    table: {
+      order: "להזמין",
+      order_price: "כמות הזמנה",
+      coupon_amount: "סכום הקופון",
+      payment_status: "מצב תשלום",
+      date: "תַאֲרִיך",
     },
-    "dialog_club": {
-      "title": "הגדר את רמת מועדון הלקוחות"
-    }
   },
-  "app_dashboard": {
-    "status": "סטטוס פרסום",
-    "statistics": "סטָטִיסטִיקָה"
+
+  /** @see BPageDiscountCodeOrders **/
+  discount_code_orders: {
+    title: "הזמנות עם קוד הנחה",
+    table: {
+      order: "להזמין",
+      order_price: "כמות הזמנה",
+      discount_amount: "כמות ההנחה",
+      payment_status: "מצב תשלום",
+      date: "תַאֲרִיך",
+    },
   },
-  "app_publish": {
-    "production_version": "גרסת הפקה",
-    "beta_version": "גירסת בטא",
-    "alpha_version": "גרסת אלפא"
+
+  /** @see BPageShopIncentives **/
+  incentives: {
+    discount_code: "הנחה",
+    coupon: "קוּפּוֹן",
+    offer: "הַצָעָה",
+    gift_card: "כרטיס מתנה",
+    lottery: "הגרלה",
+    cashback: "קאשבק",
   },
-  "app_publish_widget": {
-    "header": "כותרת אתר החנות",
-    "header_code": "קוד כותרת",
-    "admin_page": "דפי ניהול",
-    "name": "שֵׁם",
-    "icon": "סמל",
-    "url": "כתובת אתר"
+
+  /** {@see BPageShopIncentivesDiscountCode} **/
+  discount_codes: {
+    title: "קודי הנחה",
+    sub_title:
+      "בחלק זה תוכלו לעצב קופוני הנחה שיתאימו לצרכים שלכם. הנחות אלו נפרדות מכל הנחה על מוצר ויחולו על הסכום הסופי של הזמנת המשתמש.",
+    add_new: "הוסף קוד הנחה חדש",
+    card: {
+      created: "לִיצוֹר",
+      start: "הַתחָלָה",
+      end: "סוֹף",
+      currency: "מַטְבֵּעַ",
+      discount_percentage: "אחוז הנחה",
+      discount_limit: "מגבלת הנחה",
+      state: "מצב נוכחי",
+      enabled: "כעת מופעל",
+      disabled: "כעת מושבת",
+      used: "מְאוּכָּל",
+      count: "לספור",
+      unit: "פריט(ים)",
+    },
+    /** {@see BDiscountCodeAdd} **/
+    dialog: {
+      title_edit: "ערוך קוד הנחה",
+      title_add: "הוסף קוד הנחה חדש",
+      discount_code_input: "קוד הנחה",
+      discount_percent_input: "אחוז הנחה",
+      discount_percent_input_hint: "שיעור הנחה של סכום הרכישה",
+      count_input: "לספור",
+      count_input_hint: "שימוש מרבי בקוד זה",
+      limit_input: "מגבלת הנחה",
+      limit_input_hint: "הנחה מקסימלית לפי מטבע",
+      currency_input_message: "הנחות יהיו זמינות עבור מטבע זה.",
+      limit_input_message:
+        "הערך של 0 עבור מגבלת ההנחה אומר שאין הגבלה על שיעור ההיוון.",
+      title_input: "כותרת",
+      title_input_hint: "אתה יכול להזין כותרת עבור קוד הנחה זה",
+      description_input: "תיאור",
+      description_input_hint:
+        "אתה יכול להזין תיאור עבור קוד הנחה זה",
+      date_start_input: "הַתחָלָה",
+      date_start_input_placeholder: "בחר מתי להתחיל בהנחה",
+      date_end_input: "סוֹף",
+      date_end_input_placeholder: "בחר מתי ההנחה תסתיים",
+      notifications: {
+        add: "קוד הנחה נוסף בהצלחה.",
+        edit: "קוד ההנחה נערך בהצלחה.",
+      },
+      config: {
+        title: "גאנראל תצורה",
+        subtitle:
+          "טהא פורמולא ופ טהא הנחה קוד קאלקולאטיונ יס: מאקס (לימיט, פארקאנט * קארט מחיר). ראמאמבאר טו מאקא טהא קוד ראלאואנט אנד אאסי טו ראמאמבאר.",
+      },
+      limit: {
+        title: "לימיטאטיונס",
+        subtitle:
+          "יוו קאנ דאפינא טהא מאקסימומ וסאגא לימיט פור אאקה הנחה קוד, אס ואלל אס טהא מאקסימומ הנחה סכום, ינ טהיס סאקטיונ.",
+      },
+      duration: {
+        title: "משך לימיט",
+        subtitle:
+          "סהוולד יוו ואנט טו אקטיואטא a הנחה קוד פור a ספאקיפיק טימאפראמא, יוו קאנ אסטאבליסה טהאט משך הארא.",
+      },
+      design: {
+        subtitle:
+          "יוו קאנ סאט a כותרת אנד תיאור פור אאקה הנחה קוד. טהאסא פרטים וילל בא דיספלאיאד טו טהא משתמש.",
+      },
+      cluster: {
+        subtitle:
+          "בי אססוקיאטינג טהיס הנחה קוד ויטה a קלוסטאר, יוו קאנ אאסילי נהל יט אלונגסידא וטהאר ראסוורקאס ינ a סינגלא מיקום.",
+      },
+    },
+    delete_alert: {
+      title: "הסר את קוד הנחה",
+      message: "האם ברצונך למחוק את קוד ההנחה הזה?",
+      action: "הסר הנחה",
+    },
+    notifications: {
+      delete_success: "התגובה שלך נמחקה בהצלחה",
+    },
   },
-  "app_api": {
-    "title": "גישת API",
-    "revoke_api": "בטל ממשק API",
-    "api_key": "מפתח API",
-    "secret": "מפתח סודי",
-    "client": "לָקוּחַ",
-    "redirect_url": "כתובות אתרים להפניה מחדש",
-    "client_name": "שם הלקוח"
+
+  /** {@see BPageShopIncentivesGiftcard} **/
+  gift_cards: {
+    title: "כרטיס מתנה",
+    sub_title:
+      "צור כרטיס מתנה ואז צור כמה שאתה צריך. כרטיס זה כולל חיוב, וניתן להשתמש בו רק לרכישות בחנות שלך.",
+
+    create_new: "הוסף כרטיס מתנה חדש",
+    card: {
+      created: "לִיצוֹר",
+      lifetime: "תאריך תפוגה",
+      lifetime_unit: "חודש מהתאריך שבו כל כרטיס נוצר",
+      currency: "מַטְבֵּעַ",
+      initial_balance: "טעינה ראשונית",
+      count: "לספור",
+      count_unit: "פריט",
+      used: "בשימוש",
+    },
+    dialog: {
+      title: "עיצוב כרטיסי מתנה",
+    },
+    alert: {
+      title: "הסר את קוד הנחה",
+      message:
+        "האם ברצונך למחוק את קוד ההנחה הזה?",
+      action: "לִמְחוֹק",
+    },
+    notifications: {
+      delete_title: "מחק כרטיס מתנה",
+      delete_message: "התגובה שלך נמחקה בהצלחה.",
+    },
   },
-  "app_loader_page": {
-    "no_ui_title": "לאפליקציה הזו אין ממשק משתמש!",
-    "no_ui_desc": "יישומים מסוימים אינם דורשים ממשק משתמש באזור הניהול שלהם. יישום זה עשוי להוסיף קוד רק לחלק הכותרות של אתר החנות שלך.",
-    "header": "קוד כותרת"
+
+  /** {@see BPageShopIncentivesCoupon} **/
+  coupons: {
+    title: "קופונים",
+    sub_title:
+      "אם אתה רוצה לתת ללקוחות שלך הנחה שניתן להשתמש בה בתנאים ספציפיים, אתה יכול ליצור קופונים. קופונים יכולים לכלול אחוז הנחה עם הגבלה או סכום קבוע או שילוב של שניהם.",
+    create_new: "הוסף קופון חדש",
+    qualified_products: "מוצרים מתאימים",
+    min_purchase: "מינימום רכישה",
+    only_first_order: "רכישה ראשונה בלבד",
+
+    one_time_use: "שימוש חד פעמי",
+    multiple_use: "שימוש מרובה",
+    amount_usage: "כמות משומשת",
+
+    delete_alert: {
+      title: "מחק קופון",
+      message: "האם אתה בטוח שתמחק את הקופון הזה?",
+      action: "כן, מחק קופון",
+    },
+    notifications: {
+      delete_success: "הקופון נמחק בהצלחה.",
+    },
   },
-  "finance_report": {
-    "export_title": "ייצוא נתונים פיננסיים",
-    "export_sub_title": "הורד פרטים פיננסיים בקובץ אחד.",
-    "start_input_placeholder": "בחר את תאריך ההתחלה של הדוח",
-    "end_input_placeholder": "בחר את תאריך הסיום של הדוח",
-    "download_action": "הורד את רשימת הכספים"
+  /** {@see BCouponAdd} **/
+  coupon_edit: {
+    title_edit: "ערוך קופון",
+    title_add: "קופון חדש",
+    discount_charge: "הנחה וחיוב",
+    charge: "לחייב",
+    charge_message: "סכום החיוב הראשוני",
+    percent: "אחוזי הנחה",
+    percent_message: "סכום אחוזי הנחה",
+    limit_input: "לְהַגבִּיל",
+    limit_input_hint: "סכום מגבלת הנחה",
+    currency_input_message: "קופון זמין עבור מטבע זה.",
+
+    count_input: "לספור",
+    count_input_hint: "שימוש מרבי בקוד זה",
+    limit_input_message:
+      "הערך של 0 עבור מגבלת ההנחה אומר שאין הגבלה על שיעור ההיוון.",
+    date_start_input: "הַתחָלָה",
+    date_start_input_placeholder: "בחר מתי להתחיל את הקופון",
+    date_end_input: "סוֹף",
+    date_end_input_placeholder: "בחר מתי ההנחה תסתיים",
+    title_input: "כותרת",
+    title_input_hint: "אתה יכול להזין כותרת עבור קוד הנחה זה",
+    description_input: "תיאור",
+    description_input_hint:
+      "אתה יכול להזין תיאור עבור קוד הנחה זה",
+    coupon_code: "קוד קופון",
+    need_code: "צריך קוד?",
+
+    coupon_color: "צבע קופון",
+    min_purchase_amount: "סכום רכישה מינימלי",
+    min_purchase_amount_hint:
+      "סכום הרכישה חייב להיות גדול או שווה לערך זה.",
+    should_exist_product: "לפחות אחד מהמוצרים האלה חייב להיות בעגלה",
+    apply_for_first_order: "רק לרכישה הראשונה",
+    apply_for_first_order_on:
+      "ניתן להשתמש בקופון זה רק לרכישה הראשונה של הלקוח!",
+    apply_for_first_order_off:
+      "ניתן להתאים להלן את מספר השימושים בקופון לכל קונה.",
+
+    has_qualify_constraints: "האם אתה רוצה להגדיר עוד גבולות?",
+    has_qualify_constraints_message:
+      "הגדר תנאים נוספים כדי להכשיר את הלקוח להשתמש בקופון זה.",
+    one_time_use_message: "הלקוח יכול להשתמש בקופון זה לפעם אחת.",
+    daily_limit: "גבול יומי",
+    no_limit: "אין גבול",
+    daily_limit_message: "כמות שימוש מקסימלית ליום על ידי הלקוח",
+
+    monthly_limit: "מגבלה חודשית",
+    monthly_limit_message: "כמות שימוש מקסימלית לחודש על ידי לקוח",
+
+    yearly_limit: "מגבלה שנתית",
+    yearly_limit_message: "כמות שימוש מקסימלית בשנה על ידי לקוח",
+
+    notifications: {
+      add: "קופון חדש נוצר בהצלחה.",
+      edit: "הקופון עודכן.",
+    },
+
+    config: {
+      subtitle:
+        "טהא פורמולא ופ טהא קופון הנחה קאלקולאטיונ יס: קהארגא + מאקס (לימיט, פארקאנט * קארט מחיר).",
+    },
+    limit: {
+      subtitle:
+        "ינ טהיס סאקטיונ, יוו'רא אבלא טו סאט בוטה טהא מאקסימומ נומבאר ופ וסאס פאר קופון אנד טהא היגהאסט הנחה סכום אאקה קופון קאנ פרווידא.",
+      zero_message: "זארו: טהארא יס נו לימיט!",
+    },
+    duration: {
+      subtitle:
+        "יפ יוו ויסה טו סאט a ספאקיפיק טימאפראמא פור a קופון טו בא פעיל, יוו קאנ קונפיגורא טהא משך ינ טהיס סאקטיונ.",
+    },
+    design: {
+      subtitle:
+        "אאקה קופון אללווס פור טהא אדדיטיונ ופ a כותרת אנד תיאור. טהאסא פרטים וילל בא ויסיבלא טו טהא לקוח.",
+    },
+    constraints: {
+      subtitle:
+        "הארא, יוו האוא טהא אביליטי טו אסטאבליסה אדדיטיונאל פארסונאליזאד פאראמאטארס פור טהא קופון.",
+      no_limit: "נו נוסף לימיטאטיונ",
+      has_limit: "נוסף קונסטראינטס",
+      has_code_message: "משתמש סהוולד אנטאר טהא קוד טו הוסף קופון.",
+    },
+    club: {
+      subtitle:
+        "טהיס קופון's וסא קאנ בא ראסטריקטאד אקסקלוסיואלי טו חברים ופ קהוסאנ לקוח קלובס.",
+    },
+    cluster: {
+      subtitle:
+        "בי אססוקיאטינג טהיס קופון ויטה a קלוסטאר, יוו קאנ אאסילי נהל יט אלונגסידא וטהאר ראסוורקאס ינ a סינגלא מיקום.",
+    },
+    preview: {
+      subtitle: "הארא's טהא ציבורי פראויאו ופ טהא קופון.",
+    },
   },
-  "shop_notifications": {
-    "title": "התראות בחנות",
-    "sub_title": "בוט, אימייל, SMS,...",
-    "message": "ערוך את ההגדרות וההעדפות של התראות בחנות",
-    "channel": "עָרוּץ",
-    "status": "סטָטוּס",
-    "events": "אירועים",
-    "info": "מידע",
-    "actions": "פעולות",
-    "connected": "מְחוּבָּר",
-    "not_connected": "לא מחובר!",
-    "connect_now": "התחבר עכשיו",
-    "send_test": "שלח נתוני בדיקה",
-    "disconnect": "לְנַתֵק",
-    "dialog": {
-      "title": "תצורת בוט",
-      "message": "מסגרת הודעות מקיפה לבניית חוויות מסחר אלקטרוני ברמה ארגונית.",
-      "action": "לחץ כאן!",
-      "set_config": "הגדר תצורה"
-    }
+
+  /** {@see BPageShopIncentivesOffer} **/
+  offers: {
+    title: "הצעות",
+    sub_title:
+      "אתה יכול ליצור מבצעים מיוחדים ללקוחות שלך, כך שלאחר קניית פריט אחד, הם יקבלו פריט נוסף בהנחה או אפילו בחינם.",
+    create_new: "הוסף הצעה חדשה",
+    qualified_products: "מוצרים מתאימים",
+    min_quantity: "כמות מינימלית",
+    min_purchase: "מינימום רכישה",
+    amount_usage: "כמות משומשת",
+
+    delete_alert: {
+      title: "מחק הצעה",
+      message: "האם אתה בטוח שתמחק את ההצעה הזו?",
+      action: "כן, מחק את ההצעה",
+    },
+    notifications: {
+      delete_success: "ההצעה נמחקה בהצלחה.",
+    },
   },
-  "notification_events": {
-    "new_order": "🛍️ הזמינו",
-    "payment": "💳 תשלום",
-    "return": "📦 חזרה",
-    "weekly_report": "📈 דוחות שבועיים"
+
+  /** {@see BOfferAdd} **/
+  offer_edit: {
+    title_edit: "ערוך הצעה",
+    title_add: "הצעה חדשה",
+
+    design_style: "עיצוב וסגנון",
+    eligible_constraints: "מגבלות זכאות ללקוח",
+
+    title_input: "כותרת",
+    title_input_hint: "אתה יכול להזין כותרת עבור קוד הנחה זה",
+    description_input: "תיאור",
+    description_input_hint: "כתוב תיאור עבור קוד הנחה זה",
+
+    currency_input_message: "הצעה זמינה עבור מטבע זה.",
+    qualified_products: "מוצרים מתאימים",
+    qualified_products_message:
+      "כדי שהמוצרים יהיו זכאים, סך הפריטים בעגלה חייב להיות שווה או גדול מהכמות המינימלית.",
+    min_items: "כמות מינימלית של פריטים",
+    min_items_message: "מספר הפריטים שעל הלקוח לקנות",
+    offered_products: "מוצרים המוצעים",
+    offered_products_message: "לפחות אחד מהמוצרים האלה חייב להיות בעגלה.",
+    discount_percent: "אחוז הנחה",
+    discount_percent_message: "אחוזי הנחה על פריטים אלו.",
+    discount_percent_hint: "סכום אחוז ההנחה",
+
+    per_order: "מספר שימושים מקסימלי לכל הזמנה",
+    per_order_message:
+      "מספר הפעמים המרבי שניתן להחיל את ההצעה על הזמנה",
+
+    count_input: "כמות",
+    count_input_hint: "שימוש מרבי בהצעה זו",
+
+    min_purchase: "סכום רכישה מינימלי",
+    min_purchase_hint:
+      "מחיר הרכישה חייב להיות גדול או שווה לערך זה",
+    limitation: "הַגבָּלָה",
+
+    date_start_input: "הַתחָלָה",
+    date_start_input_placeholder: "בחר מתי להתחיל את הקופון",
+    date_end_input: "סוֹף",
+    date_end_input_placeholder: "בחר מתי ההנחה תסתיים",
+    max_actives_is_3: "אתה יכול לקבל רק שלוש הצעות פעילות בו-זמנית.",
+    enable: "החלה אוטומטית",
+
+    notifications: {
+      add: "הצעה חדשה נוצרה בהצלחה.",
+      edit: "ההצעה עודכנה בהצלחה.",
+    },
+    config: {
+      subtitle:
+        "באגינ קראפטינג אנ ינטאלליגאנט דאאל בי אסטאבליסהינג יטס כותרת, תיאור, אנד ציבורי אואילאביליטי סטטוס.",
+    },
+    limit: {
+      subtitle: "סאט טהא מאקסימומ וסאגא לימיט פור טהיס הצעה ינ טהיס סאקטיונ.",
+    },
+    duration: {
+      subtitle:
+        "יפ יוו ויסה טו סאט a ספאקיפיק טימאפראמא פור אנ הצעה, יוו קאנ קונפיגורא טהא משך הארא.",
+    },
+    constraints: {
+      subtitle:
+        "סאט טהא אליגיביליטי קריטאריא אנד מצב פור טהא הצעה הארא. טהא הצעה אפפליאס טו קארט יטאמס טהאט מאאט טהאסא מצב.",
+    },
+    discounted_products: {
+      title: "הנחה מוצרים",
+      subtitle:
+        "יוו קאנ ספאקיפי טהא מוצרים טו והיקה טהיס הצעה וילל אפפלי a הנחה.",
+    },
+    cluster: {
+      subtitle:
+        "בי אססוקיאטינג טהיס הצעה ויטה a קלוסטאר, יוו קאנ אאסילי נהל יט אלונגסידא וטהאר ראסוורקאס ינ a סינגלא מיקום.",
+    },
   },
-  "order_delivery": {
-    "title": "מְסִירָה",
-    "add_to_delivery_que_action": "הוסף לתור המשלוח",
-    "in_que": "בתור משלוח",
-    "message": "לאחר מתן החבילה לשליח המשלוח, לחץ על כפתור <b>אשר מסירה</b> .",
-    "message_add_to_service": "לחץ על הלחצן הבא אם ברצונך לשלוח חבילה זו באמצעות <b>שירות משלוחים</b> .",
-    "action": "אישור משלוח",
-    "checklist": [
+
+  /** {@see BPageCampaignAds} **/
+  campaign_ads: {
+    menu: {
+      banner: "דֶגֶל",
+      reportage: "כַּתָבָה",
+      social: "מדיה חברתית",
+      offline: "לא מקוון",
+    },
+  },
+
+  /** {@see BPageShopMarketingEmail} **/
+  emails: {
+    title: "שיווק דרך האימייל",
+    subtitle:
+      "עצב מיילים על ידי גרירה ושחרור, תזמן והשקת קמפיינים כדי להגביר את השמירה, וראה מידע אמין ומדויק במקום אחד.",
+    cation_message:
+      "⚠ מוגבל לסוחרים לא מאומתים. (ביטא)",
+
+    subject: "נושא",
+    from: "מ",
+    in_que: "מחכה",
+    schedule_at: "לוח זמנים ב",
+    sent: "נשלח",
+    sends: "שולח",
+    delivers: "נמסר",
+    views: "צפיות",
+    clicks: "קליקים",
+    buys: "רכישות",
+    new_email: "הוסף אימייל חדש",
+    new_email_message: "צור ותזמן אימייל שיווקי חדש",
+  },
+
+  /** {@see BPageEmailMarketingDashboard} **/
+  email_dashboard: {
+    review: "סקירה",
+    waiting_for_approve: "ממתין לאישור מאת {name}",
+    approved_by: "אימייל אומת על ידי {name} ונשלח.",
+    not_submitted_send_request:
+      "עדיין לא הגשת בקשה לשלוח דוא\"ל זה.",
+    reviewed_by: "נבדק על ידי {name}",
+    status: "סטטוס דוא\"ל",
+    conversion: "שיעורי המרה",
+
+    sell_performance: "ביצועי מכירות",
+    total_buys: "סך המכירות",
+    amount_buy: "סכום מכירות כולל",
+    average_sell: "מכירות ממוצעות",
+    sessions: "הפעלות",
+    overview: "סקירה כללית",
+    purchase_amount: "סכום רכישה",
+    actions: "פעילות המשתמש",
+  },
+
+  /** {@see BPageEmailMarketing} **/
+  email_page: {
+    emails: "אימיילים",
+    edit: "לַעֲרוֹך",
+  },
+  /** {@see BPageAffiliator} **/
+  affiliate_page: {
+    affiliates: "שותפים שותפים",
+    orders: "הזמנות",
+    payments: "תשלומים",
+  },
+
+  /** {@see BPageAffiliateDashboard**/
+  affiliate_dashboard: {
+    link: {
+      title: "שותף קישור",
+      subtitle:
+        "צור a וניקוא קישור פור יוור שותף פארטנאר טו טראקק מכירות אנד עמלה. הוסף ראפארראל קוד '{code}' טו אני קישור ור אססיגנ a מותאם אישית דאדיקאטאד דומיין פור יוור שותף. יט וילל בא טראקקאד בי טהא סיסטאמ פור 48h.",
+    },
+    fix_commission: "עמלה קבועה",
+    percent_commission: "עמלה מבוססת אחוזים",
+    last_payment: "תשלום אחרון",
+    balance: "איזון",
+    total_payment: "סה\"כ תשלומים",
+    status: "סטטוס שותף שותף והגבלות",
+    available_for: "פנוי ל",
+    orders_count: "כמות ההזמנות",
+    orders_accepted: "הזמנות מקובלות",
+    finance: "דוח כספי",
+
+    amount_accepted: "כמות מקובלת",
+    amount_paid: "סכום ששולם",
+    sessions: "הפעלות",
+    affiliate_payment: "תשלומים לשותפים שותפים",
+    amount_payment: "סכום לתשלום",
+    amount_payment_hint: "סכום העסקה המדויק",
+    i_paid: "שילמתי {amount} {currency} ל-{name}",
+    pay_now: "שלם עכשיו",
+  },
+
+  /** {@see BPageShopPermissionRoles**/
+  permission_roles: {
+    new_role: "הוסף תפקיד חדש",
+    new_role_message: "הפוך את עבודת הצוות לקלה יותר.",
+    new_role_action: "הוסף תפקיד חדש",
+  },
+  /** {@see Affiliate**/
+  user_affiliates: {},
+  /** {@see BPageShopIncentivesLottery**/
+  shop_lotteries: {
+    title: "הגרלה",
+    sub_title:
+      "הלקוחות שלך יכולים לשחק ולנצח. לקוחות של החנות שלך חייבים לצרוך 10 צ'יפים לכל משחק. לדוגמה, אם אתה רוצה שללקוחות שלך תהיה סיכוי לזכות ב-1000 דולר, עליך להגדיר את סכום המחיר של כל שבב ל-100 דולר. ערך של 0 עבור כל שבב אומר שהקונה יקבל שבב אחד עבור כל רכישה.",
+    manually_send_chip: "האם אתה רוצה לשלוח ידנית שבבים למשתמשים?",
+    manual_send_token_action: "ידני טוקאנס",
+    lottery_enable: "האם הגרלה מופעלת?",
+    chip_price_input: "מחיר צ'יפ",
+    zero_chip_message: "תן 1x שבב לכל הזמנה",
+    chip_has_price_message: "תן שבב אחד לכל {amount} {currency} של הזמנה.",
+    chip_disabled_message: "השבב מושבת!",
+    create_new: "הוסף פרס חדש",
+    delete_alert: {
+      title: "מחק את הפרס",
+      message: "האם אתה בטוח שתמחק את הפרס הזה לצמיתות?",
+      action: "כן, מחק עכשיו",
+    },
+    notifications: {
+      delete_success: "הפרס נמחק בהצלחה.",
+    },
+
+    config: {
+      subtitle:
+        "בווסט לקוח רכישה ויטה a גאמיפיאד אקספאריאנקא ינ יוור חנות. סאט ופ פריזאס אנד ויננינג ודדס פור לקוחות והו אארנ טוקאנס טהרווגה רכישה. אאקה גאמא פלאי קוסטס 10 טוקאנס, אנד יוו קאנ הצעה ספאקיאל פריזאס פור פירסט-טימא בויארס. טהא ברירת מחדל גאמא יס והאאל ופ פורטונא, בוט יוו קאנ קוסטומיזא יט טו פיט יוור חנות's לאיווט.",
+    },
+    empty_prize_list: "צור אנד נהל פריזאס הארא...",
+  },
+
+  /** {@see BLotteryAdd**/
+  lottery_edit: {
+    title_edit: "ערוך פריט לוטו",
+    title_add: "פריט לוטו חדש",
+    general_config: "תצורה כללית",
+    design_style: "סגנון ומראה",
+    enable_message: "הפריטים המקסימליים בגלגל הם 14.",
+    title_input: "כותרת",
+    title_input_hint: "כתוב כותרת קצרה.",
+    description_input: "תיאור",
+    description_input_hint: "כתוב תיאור על הפריט.",
+    quantity: "כַּמוּת",
+    quantity_message: "סך כל הפריטים הזמינים",
+    image: "תמונה",
+    image_placeholder: "בחר תמונה לפריט",
+    chance: "הִזדַמְנוּת",
+    chance_message: "סיכוי ניצחון באחוזים",
+    free_for_first: "האם זה בחינם ללקוחות חדשים?",
+    free_for_first_message: "לקוחות חדשים יכולים לזכות בפריט זה.",
+    not_free_for_first_message: "טהיס פריזא לא זמין פור ראשון פראא פלאי.",
+
+    amount: "סכום הפרס",
+    amount_hint: "משתמשים זוכים בסכום החיוב הזה עבור ההזמנה שלהם.",
+    currency_message:
+      "מטבע עבור פריט זה. מטבעות אחרים מומרים לפי שער חליפין.",
+    discount: "הנחה",
+    discount_message: "אחוזי הנחה בהזמנת הלקוח",
+    discount_limit: "מגבלת הנחה",
+    discount_limit_hint: "הנחה מקסימלית ללקוח.",
+    color: "צֶבַע",
+    condition: "תנאים",
+
+    notifications: {
+      add: "פריט לוטו חדש נוצר בהצלחה.",
+      edit: "פריטי הגרלה השתנו בהצלחה.",
+    },
+    config: {
+      subtitle:
+        "הארא, יוו קאנ צור יוור חנות's הגרלה פריזאס. סאט טהא כותרת, תיאור, צבע, אנד תמונה פור אאקה פריזא.",
+    },
+    design: {
+      subtitle:
+        "הארא, יוו האוא טהא אפשרות טו בחר אנ תמונה אנד צבע פור טהא פריזא.",
+    },
+    constraints: {
+      subtitle: "ספאקיפי טהא קריטאריא אנד לימיטאטיונס פור ויננינג טהיס פריזא.",
+    },
+    prize: {
+      title: "פריזא",
+      subtitle:
+        "סאט ופ טהא פריזא פרטים הארא. אפשרויות ינקלודא הנחה קוד, מתנה כרטיסים, קראדיטס, אנד וטהאר הנחה אס הגרלה ראוארדס.",
+    },
+    product_input: {
+      label: "מוצר פריזא",
+      message: "בחר a מוצר פור פריזא (יס פראא)",
+    },
+  },
+
+  /** {@see BGiftcardTypeInput**/
+  gift_card_types_list: {
+    label: "סוג כרטיס מתנה",
+    message: "בחר סוג כרטיס מתנה מהרשימה.",
+  },
+
+  /** {@see BEmailMarketingEditor**/
+  email_builder: {
+    service_unavailable: "שרת הדואר אינו פעיל בחשבון שלך.",
+    design_section: "לוח עיצוב המייל שלך",
+    schedule_switch: "לתזמן שליחת מייל?",
+    schedule_placeholder: "בחר זמן לשלוח דוא\"ל",
+  },
+
+  /** {@see BCustomersFunnel**/
+  user_funnel: {
+    REGISTER_DATE: {
+      title: "תאריך רישום",
+      description: "סנן לפי תאריך הרישום של המשתמש.",
+    },
+    LAST_BUY_DATE: {
+      title: "רכישה אחרונה",
+      description: "תאריך רכישה אחרון.",
+    },
+    LOGIN_DATE: {
+      title: "תאריך כניסה",
+      description: "תאריך כניסה אחרון.",
+    },
+    LEVEL: {
+      title: "מועדון לקוחות",
+      description: "חברים במועדון לקוחות.",
+    },
+    SUBSCRIBED: {
+      title: "נרשם",
+      description: "שיהיה מנוי לקבלת דוא\"ל.",
+    },
+    NOT_PURCHASED: {
+      title: "אין רכישה",
+      description: "לקוחות שלא רכשו עד כה.",
+    },
+    SEX: {
+      title: "מִין",
+      description: "מגדר המשתמש.",
+    },
+    LOCATION: {
+      title: "מקום",
+      description: "מיקום משתמש.",
+    },
+
+    LIMIT: {
+      title: "לְהַגבִּיל",
+      description: "הגדר הגבלה על המספר המרבי של משתמשים.",
+    },
+
+    SEGMENTS: {
+      title: "פלחים",
+      description: "הגבלת לקוחות בפילוח ידני ספציפי.",
+    },
+  },
+
+  /** {@see InlineHelp**/
+  inline_help: {
+    helps_title: "מדריך למשתמש של השירות",
+    blogs_title: "תוכן קשור בבלוג Seldone",
+  },
+
+  /** {@see BPageShopFinanceTax**/
+  shop_tax: {
+    region: "אזור",
+    label: "תווית",
+    country_tax: "מס מדינה",
+    customer_tax: "מע\"מ לקוח",
+    business_tax: "מע\"מ לעסקים",
+    shipping: "משלוח",
+    override: "ביטול",
+    country: "מדינה",
+    vat_range: "טווח מע\"מ",
+    custom: "המותאם אישית",
+    regions: "אזורים",
+    rest_world: "שאר העולם",
+    overrides: "עוקפים",
+    dialog_set_title: "הגדרות מס",
+
+    tax_setting: "הגדרות מס",
+    vat: "VAT",
+
+    calculate_tax_input: "חישוב מס אוטומטי",
+    calculate_tax_message:
+      "על ידי הפעלת אפשרות זו, מע\"מ יחושב ויחול עבור ההזמנות שלך.",
+
+    tax_number: "מספר מס",
+    tax_number_message:
+      "הזן את מספר המס שלך. מספר רישום זה יירשם בחשבונית הקונה.",
+
+    tax_included_in_price_input: "מס כלול במחיר המוצר",
+    tax_included_in_price_message:
+      "בחר באפשרות זו אם אתה כולל את סכום המס במחיר המוצר שלך. סכום המס יחושב לפי הנוסחה הבאה:",
+    tax_included_in_price_formula:
+      "מס = (מחיר * מע\"מ) / (1 + מע\"מ), לדוגמה, סכום המס עבור מוצר במחיר של 100$ עם שיעור ערך מוסף של 10% הופך ל-9.09$.",
+
+    tax_exclude_title: "לא נכלל ╏ מס יתווסף בקופה",
+    tax_excluded_message:
+      "המסים יחושבו לפני התשלומים במהלך התשלום ויתווספו למחיר המס שלא נכלל בהתאם לראיות הלקוח שלך.",
+
+    tax_on_shipping_input: "החל מיסים על משלוח",
+    tax_on_shipping_message:
+      "על ידי בחירה באפשרות זו, המס יוחל על המשלוח.",
+
+    fixed_tax_rate: "שיעור מס קבוע",
+    dynamic_tax_rate: "מס לפי אזורים",
+
+    locations_tip:
+      "הרשימה שלמעלה מציגה רק את המדינות שבחרת בהגדרות החנות > מיקומים בתור המדינות שאתה מוכר.",
+    locations_action: "הגדרות מיקומים של חנות",
+
+    save_alert: "ההגדרות לא נשמרות!",
+
+    pos_tax_setting: "הגדרות מס קופה",
+  },
+
+  /** {@see BPageTransportation**/
+  transportation_page: {
+    menu: {
+      dashboard: "לוּחַ מַחווָנִים",
+      transportations: "שיטות משלוח",
+      orders: "הזמנות",
+      setting: "הגדרה",
+      delivery_services: "שירותים",
+      delivery_persons: "שליחים",
+    },
+
+    go_to_courier_list: "צפו ברשימת השליחים",
+    go_to_service_list: "הצג את רשימת שירותי המשלוחים",
+  },
+
+  /** {@see BPageTransportationCouriers**/
+  transportation_persons: {
+    title: "שליחים",
+    notifications: {
+      success_add: "הוסיף שליח.",
+      success_reset: "איפוס סטטיסטיקה.",
+      success_remove: "השליח הוסר בהצלחה.",
+      success_update: "מידע השליח עודכן בהצלחה.",
+    },
+    reset: {
+      title: "אתחל סטטיסטיקות",
+      message: "האם אתה בטוח שאיפס את הסטטיסטיקה של השליח הזה?",
+      action: "כן, אפס עכשיו",
+    },
+    remove: {
+      title: "הסר את שליח",
+      message: "האם אתה בטוח שתמחק את השליח הזה?",
+      action: "כן, הסר עכשיו",
+    },
+    add_dialog: {
+      title: "הוסף שליח חדש",
+      action: "הוסף שליח",
+    },
+  },
+  /** {@see BPageTransportationOrders**/
+  transportation_orders: {
+    title: "הזמנות למשלוח",
+    notifications: {
+      success_update: "סטטוס המשלוח עודכן בהצלחה.",
+      success_payment: "תשלום COD אושר בהצלחה.",
+    },
+  },
+  /** {@see BPageCourier**/
+  delivery_person: {
+    actions_title: "הגדרות שליחים",
+    action_delivered: "נשלח",
+    action_paid: "COD שולם",
+    action_returned: "חזר",
+    cod_confirm_action: "אשר תשלום COD",
+    pickup_dialog: {
+      title: "האם אתה שליח של החבילה הזו?",
+      message:
+        "אם אתה אחראי על נשיאת החבילה הזו, בחר כן, אחרת בחר לא.",
+    },
+    status_dialog: {
+      title: "שנה סטטוס ל-{status}",
+      message: "האם אתה בטוח לשנות את סטטוס המשלוח ל-{status}?",
+      action: "כן, אני מאשר את זה!",
+    },
+    cod_dialog: {
+      title: "תשלום COD",
+      message:
+        "האם אתה מאשר שקיבלת את סכום ההזמנה מהקונה?",
+      action: "כן, אני מאשר תשלום!",
+    },
+  },
+
+  /** {@see BPageTransportationServices**/
+  transportation_services: {
+    title: "שירות משלוחים",
+    notifications: {
+      success_add: "נוסף שירות משלוחים.",
+      success_reset: "איפוס סטטיסטיקה.",
+      success_remove: "השירות הוסר בהצלחה.",
+      success_update: "השירות עודכן בהצלחה.",
+    },
+    reset: {
+      title: "אתחל סטטיסטיקות",
+      message: "האם אתה בטוח שאפס את הנתונים הסטטיסטיים של שירות זה?",
+      action: "כן, אפס עכשיו",
+    },
+    remove: {
+      title: "הסר את שירות המשלוחים",
+      message: "האם אתה בטוח שתמחק את השירות הזה?",
+      action: "כן, הסר עכשיו",
+    },
+    add_dialog: {
+      title: "הוסף שירות משלוחים חדש",
+      action: "הוסף שירות",
+    },
+  },
+  /** {@see BPageTransportationPickups**/
+  transportation_pickups: {
+    addresses: {
+      title: "כתובות לאיסוף",
+      subtitle:
+        "הוסף וערוך כתובות לאיסוף כאן. משתמשים יוכלו לבחור את כתובת האיסוף בעמוד התשלום.",
+      add_action: "הוסף מיקום חדש",
+    },
+  },
+
+  /** {@see DeliveryReceiptWidget**/
+  delivery_receipt: {
+    title: "קבלת משלוח",
+    has_return: "החזרת משלוח",
+    cashed: "תשלום במזומן",
+  },
+  /** {@see BPageTransportationServiceDashboard**/
+  delivery_dashboard: {
+    select_destinations: "הוסף הזמנות לרשימה",
+    price_calculation: "הערכת תעריפי משלוח",
+    price_calculation_action: "חשב מחיר",
+    add_request: "בקש שירות",
+    add_request_action: "שלח בקשת שירות",
+    refresh_action: "לעדכן מידע",
+  },
+
+  /** {@see DeliveryOrderWidget**/
+  delivery_order: {
+    title: "הזמנת משלוח",
+    has_return: "החזרת משלוח",
+    cashed: "תשלום במזומן",
+  },
+
+  /** {@see BPagePos**/
+  cash_register: {
+    menu: {
+      panel: "קופה רושמת",
+      orders: "הזמנות",
+      customers: "לקוחות",
+      devices: "התקנים",
+      inventory: "מְלַאי",
+    },
+    payment_confirm: "אישור תשלום",
+    payment_confirm_msg: "הזמנה בתשלום של הלקוח {basket_id}.",
+  },
+
+  /** {@see BPosDeviceBarcodeScanner**/
+  barcode_scanner: {
+    wifi_pass: "סיסמת ה-Wi-Fi שלך",
+    message: "הזן את סיסמת נתב ה-WiFi שלך וסרוק את קוד ה-QR.",
+    wifi_ssid: "Wi-Fi ססיד",
+    ssid_message: "הזן את שם רשת ה-Wi-Fi שלך (SSID).",
+  },
+
+  /** {@see PosDeviceTypes**/
+  pos_devices: {
+    Scanner: "סורק ברקוד",
+    Scanner_desc:
+      "כדי להשתמש בסורק הברקוד, עליך להזין את קוד מק\"ט המוצר בצורה נכונה בהגדרות המוצר.",
+    Printer: "מדפסת",
+    Printer_desc:
+      "הדפס את הקבלה של הלקוחות שלך על ידי חיבור למדפסת קבלות.",
+    CustomerView: "תצוגת לקוח",
+    CustomerView_desc:
+      "עמוד זה מאפשר לך להציג את פרטי ההזמנה ללקוחות שלך.",
+    CardReader: "קורא כרטיסים",
+    CardReader_desc: "מכשיר קורא כרטיסים לתשלום COD על ידי הלקוחות שלך.",
+    ChipReader: "קורא שבבים",
+    ChipReader_desc: "קורא תגיות NFC להוספת פריטים לעגלה באמצעות תגים.",
+  },
+  /** {@see BPagePosDevices**/
+  pos_register_devices: {
+    delete_dialog: {
+      title: "הסר מכשיר",
+      message: "האם אתה בטוח להסיר את המכשיר הזה מפרופיל הקופה שלך?",
+      action: "כן, הסר עכשיו",
+    },
+  },
+
+  /** {@see BPageOrderPos**/
+  pos_process_center: {
+    title: "מרכז עיבוד הזמנות קופה",
+    menu: {
+      label: "תווית אריזה",
+      receipt: "קַבָּלָה",
+      back: "חזור",
+      timeline: "ציר זמן",
+      order: "להזמין",
+    },
+  },
+  /** {@see BPagePosPanel**/
+  pos: {
+    name: "POS",
+    message:
+      "קבע את נקודת המכירה המקוונת שלך ללא עלות הגדרה, הפעל אותה בכל סמארטפון, טאבלט ומחשב, או צור הזמנות באופן ידני.",
+    add_customer: "הוסף לקוח",
+    set_delivery: "הגדר כתובת למשלוח",
+    add_giftcards: "הוסף כרטיס מתנה",
+    add_discount_code: "הוסף קוד הנחה",
+    add_coupon: "הוסף קופון",
+    set_campaign: "הגדר מסע פרסום",
+    select_buyer: "בחר קונה!",
+    send_to_pos: "שלח למכונת קורא כרטיסים",
+    print_receipt: "הדפס קבלה",
+    confirm_cash_payment: "אשר תשלום במזומן",
+    payment_cod: {
+      title: "תשלום במזומן במשלוח",
+      message:
+        "סכום הזמנה זו ישולם עם המסירה. לאחר קבלת הסכום מהקונה יש לאשר את התשלום להשלמת ההזמנה במערכת.",
+    },
+    payment_online: {
+      title: "בחר אמצעי תשלום מקוון",
+      message:
+        "על ידי בחירה באפשרויות הבאות, ייווצר קישור לתשלום שיישלח לקונה. על ידי תשלום קישור זה, סטטוס ההזמנה ישתנה למצב בתשלום. קישור לתשלום יופק על ידי סריקת קוד ה-QR במסך הלקוח, SMS או אימייל. כדי להפעיל ערוץ כלשהו לשליחת קישור, לחץ על אפשרות זו ולאחר מכן לחץ על הכפתור כדי לשלוח קבלה לקונה.",
+    },
+    notifications: {
+      success_pay: "תשלום ההזמנה הושלם.",
+      success_order:
+        "ההזמנה נוצרה בהצלחה ומחכה שהלקוח ישלם אותה.",
+    },
+    payment_dialog: {
+      check_pay_now: "בדוק ידנית את התשלום",
+      close_action: "סגור דו-שיח. אני לא רוצה לחכות לתשלום הלקוח",
+      go_to_order: "עבור לדף ההזמנה",
+      paid_by_gift_card_msg:
+        "סכום ההזמנה הכולל נמשך מכרטיסי המתנה! הקונה לא צריך לשלם יותר.",
+      cod_msg: "הלקוח ישלם בעת קבלת ההזמנה.",
+      online_msg: "בקשו מהלקוח לסרוק קוד QR על מסך הלקוח.",
+    },
+  },
+
+  /** {@see BPageShopProductsImporter**/
+  exporter: {
+    title: "ייצוא נתונים",
+    subtitle:
+      "הנתונים שלך שייכים לך! אתה יכול להוריד את פרטי העסק שלך בפורמט הסטנדרטי בכל עת. עם זאת, כבד את פרטיות הלקוחות שלך, אל תשלח להם דואר זבל ולעולם אל תשתף את המידע שלהם עם צד שלישי.",
+
+    excel:
+      "תקבלו רשימה של כל {type} בחנות יחד עם מידע מלא בפורמט אקסל.",
+    csv: "יוו וילל ראקאיוא a רשימה ופ הכול טהא {type} ינ טהא חנות אלונג ויטה קומפלאטא מידע ינ CSV פורמאט. טהיס פורמאט יס ינ אקקורדאנקא ויטה טהא סטאנדארד פורמאט ופ Selldone פור ייבוא {type} ינטו טהא חנות.",
+  },
+  /** {@see BPageShopProductsImporter**/
+  importer: {
+    category: {
+      title: "ייבוא קטגוריות",
+      subtitle:
+        "העלה כאן קובץ CSV של קטגוריות. ודא שאתה עוקב אחר הפורמט הסטנדרטי.",
+    },
+    product: {
+      title: "ייבוא מוצרים",
+      subtitle:
+        "העלה כאן קובץ CSV של מוצרים. ודא שאתה עוקב אחר הפורמט הסטנדרטי.",
+    },
+    product_images: {
+      title: "ייבוא תמונות",
+      subtitle:
+        "קבלת מידע תמונה גוזלת זמן. הקפד לכבד את זכויות היוצרים בעת ייבוא תמונות.",
+    },
+    inventory: {
+      title: "עדכון מלאי בכמות גדולה",
+      subtitle:
+        "העלה כאן קובץ CSV של המלאי. ודא שאתה פועל לפי הפורמט הסטנדרטי על ידי ייצוא קובץ ה-CSV תחילה, ולאחר מכן עריכת קובץ זה.",
+    },
+
+    back_to_products: "חזרה לרשימת המוצרים",
+    back_to_categories: "חזרה לרשימת הקטגוריות",
+    back_to_inventory: "חזרה לרשימת המלאי",
+
+    step_select_file: "בחר קובץ CSV",
+    step_send_to_server: "שלח לשרת",
+    step_view_result: "הצג תוצאה",
+    step_view_que: "הצג רשימת ממתינים",
+    send_to_server_action: "שלח לשרת",
+
+    shop_license: "רישיון חנות",
+    max_items_limit: "מגבלת פריטים מקסימלית",
+    total_items: "סה\"כ פריטים",
+
+    /** {@see BShopCustomerImporter**/
+    customer: {
+      title: "ייבוא לקוחות",
+      subtitle:
+        "העלה כאן קובצי CSV של לקוחות. ודא שאתה פועל לפי הפורמט הסטנדרטי, כמו כן, עליך לציית לכללי הפרטיות.",
+    },
+
+    /**
+     * @see BVendorsImporter
+     */
+    vendor: {
+      title: "ייבוא ספקים",
+      subtitle:
+        "העלאה ספק CSV קבצים הארא. אנסורא טהא פורמאט יס קורראקט אנד אדהאראס טו פריואקי ראגולאטיונס.",
+      checklist: {
+        title: "חשוב קהאקקליסט",
+        subtitle: "בא סורא טו פוללוו טהא גוידאלינאס.",
+        sample_files: "סאמפלא קבצים",
+        valid_vendor_name_needed:
+          "יוו מוסט פרווידא a <b>ואליד שם</b>. טהא <b>שם</b> יס וסאד טו דאטארמינא והאטהאר טו <i>צור</i> a חדש ספק ור <i>עדכן</i> אנ אקסיסטינג ונא.",
+        assign_user_after_import:
+          "אפטאר ייבוא ספקים, יוו קאנ ידנית אססיגנ a משתמש טו גיוא טהאמ גישה טו טהא ספק פאנאל.",
+      },
+      need_kyc_alert:
+        "יוו נאאד טו אמת יוור פארסונאל מידע באפורא ייבוא ספקים.",
+      back_to_vendors_list: "באקק טו ספק רשימה",
+    },
+  },
+
+  /**
+   * @see BPageMarketplaceProducts
+   */
+  marketplace_products: {
+    title: "ספק מוצרים",
+    subtitle:
+      "טהיס קאטאלוג רשימה הכול מוצרים הצעה בי ספקים. ינ טהא מרקטפלייס, a מוצר קאנ בא קישור טו ונא ור מורא ספקים. אאקה ספק אססוקיאטאד ויטה a מוצר האס a וניקוא אנטרי טהאט ינקלודאס מלאי אנד תמחור פרטים ספאקיפיק טו טהאט ספק.",
+    filter_vendor: {
+      placeholder: "מסנן בי ספק...",
+    },
+    filter_status: {
+      placeholder: "מסנן בי סטטוס...",
+    },
+  },
+
+  /**
+   * @see BPageMarketplaceRequests
+   */
+  marketplace_requests: {
+    open_vendors_panel: "ופאנ ספקים פאנאל",
+    title: "ספק ראקואסט רשימה",
+    subtitle:
+      "טהיס יס a רשימה ופ ראקואסטס פרומ ינדיוידואלס והו האוא אפפליאד טו באקומא ספקים ינ יוור מרקטפלייס.",
+  },
+  /**
+   * @see BPageMarketplaceSetting
+   */
+  marketplace_setting: {
+    marketplace: {
+      title: "זירת מסחר",
+      subtitle:
+        "דיסאבלינג טהא מרקטפלייס וילל טורנ ופפ סומא פונקטיונאליטיאס. יפ יוו ואנט טו סהוט דוונ יוור אנטירא מרקטפלייס, יוו סהוולד השבת יוור חנות ינ טהא הגדרות.",
+    },
+    distribution_model: {
+      title: "דיסטריבוטיונ מודאל",
+      subtitle:
+        "מרקטפלייס קאנ ופאראטא ונדאר דיפפאראנט דיסטריבוטיונ מודאלס. והאטהאר יוו פראפאר ספקים טו סהיפ יטאמס דיראקטלי טו בויארס ור קונסולידאטא הזמנות אט יוור מחסן פור משלוח, יוו קאנ בחר טהא מודאל טהאט באסט סויטס יוור נאאדס הארא.",
+    },
+    access: {
+      title: "ספק גישה",
+      subtitle:
+        "אס אנ אדמיניסטראטור, יוו קונטרול טהא לאואל ופ גישה ספקים האוא טו טהא מוצר לוח בקרה. אדגוסט גלובאל גישה הגדרות טו אללוו ספקים טו הוסף טהאיר וונ מוצרים אנד קטגוריות ור ראסטריקט טהיס גישה טו אדמיניסטראטורס רק.",
+    },
+    need_enable_shipping_for_vendors_tips:
+      "הפעל משלוח פור ספקים ינ טהא חנות > לוגיסטיקה טאב פור אאקה שיטה ינדיוידואללי.",
+    transportation_available_tooltip: "טהיס אפשרות יס זמין פור ספקים.",
+    transportation_not_available_tooltip:
+      "לא זמין פור ספקים! יוו קאנ הפעל יט ינ טהא טראנספורטאטיונ הגדרות.",
+    panel: {
+      title: "ספק פאנאל",
+      subtitle: "ונבוארד יוור ספקים טהרווגה יוור מותאם אישית דומיין.",
+    },
+    documents: {
+      title: "דוקומאנטס",
+      subtitle:
+        "יוו קאנ ראקוירא יוור ספקים טו העלאה דוקומאנטס ור סיגנ קארטאינ קונטראקטס. ספאקיפי טהא ראקויראד דוקומאנטס הארא.",
+      add_document_action: "הוסף דוקומאנט ראקואסט",
+    },
+    inputs: {
+      enable: {
+        false_description:
+          "טהא מרקטפלייס יס טורנאד ופפ, דיסאבלינג הכול מרקטפלייס פונקטיונאליטיאס.",
+        true_description:
+          "טהא מרקטפלייס יס פעיל, אנאבלינג הכול מרקטפלייס פונקטיונאליטיאס.",
+      },
+      product: {
+        label: "הוסף חדש מוצר",
+        true_title: "ספקים קאנ הוסף מוצרים",
+        false_description:
+          "יוו הוסף מוצרים אנד אססיגנ ספקים. ספקים קאנ רק נהל מחיר אנד מלאי.",
+        true_description:
+          "ספקים קאנ הוסף אנד נהל טהאיר וונ מוצרים דיראקטלי ינ טהאיר ספק פאנאל.",
+      },
+      need_verify: {
+        label: "מוצר אימות פלוו",
+        false_description: "חדש ספק מוצרים גו ליוא ינסטאנטלי.",
+        false_title: "נו אימות ראקויראד",
+        true_description:
+          "ספקים' חדש מוצרים ראקוירא אפפרוואל באפורא גוינג ליוא ונ טהא מרקטפלייס.",
+        true_title: "אימות ראקויראד",
+      },
+      category: {
+        label: "הוסף חדש קטגוריה",
+        true_title: "ספקים קאנ הוסף קטגוריות",
+        false_description:
+          "יוו הוסף קטגוריות. ספקים קאנ רק הוסף מוצרים טו אקסיסטינג קטגוריות.",
+        true_description:
+          "ספקים קאנ הוסף אנד נהל קטגוריות דיראקטלי ינ טהאיר ספק פאנאל.",
+      },
+      shipping: {
+        label: "משלוח אפשרויות",
+        true_title: "ספקים האוא משלוח אפשרויות",
+        false_description:
+          "ספקים קאננוט הוסף ור קוסטומיזא טהאיר משלוח שיטות.",
+        true_description:
+          "ספקים קאנ סאט ופ טהאיר וונ משלוח שיטות, הוסף קווריארס, אנד קוסטומיזא משלוח פור טהאיר נאאדס.",
+      },
+      hidden_customer: {
+        label: "הצג בויאר קונטאקט מידע",
+        true_description: "בויאר קונטאקט פרטים ארא הידדאנ פרומ ספקים.",
+        false_description:
+          "בויאר קונטאקט פרטים, סוקה אס טלפון אנד אימייל, ארא ויסיבלא טו ספקים.",
+      },
+      multi: {
+        false_description:
+          "A משתמש קאנ האוא רק ונא ספק חשבון. משתמשים וילל בא ראדיראקטאד טו טהאיר פאנאל אט /ספקים.",
+        true_description:
+          "A משתמש קאנ האוא מולטיפלא ספק חשבונות. טהיס יס a באטא פאאטורא; פלאאסא קונטאקט וס באפורא וסינג יט.",
+        true_title: "מולטי-ואנדור מצב",
+        false_title: "סינגלא ספק מצב (ברירת מחדל)",
+      },
+
+      listing: {
+        label: "רשימה פור ספקים",
+        true_description: "רשימה יס מופעל פור ספקים. ספקים קאנ נהל רשימה יטאמס אנד קומפאניאס.",
+        false_description: "רשימה יס מושבת פור ספקים. רק טהא חנות וונאר קאנ נהל רשימה יטאמס אנד קומפאניאס.",
+        requires_listing_active_text:
+          "טו לאט ספקים וסא רשימה (יטאמס + קומפאניאס), ראשון הפעל טהא חנות רשימה פאאטורא ינ קהאננאל → רשימה. טהאנ קומא באקק הארא טו אללוו ספק גישה.",
+        requires_listing_active_button: "ופאנ קהאננאל רשימה הגדרות",
+      },
+
+
+
+    },
+    notifications: {
+      update_success: "ספק הגדרות ופדאטאד סוקקאסספוללי.",
+    },
+    add_document_dialog: {
+      title: "דוקומאנט ראקויראמאנטס",
+      type: {
+        title: "דוקומאנט סוג",
+        subtitle:
+          "הוסף a דוקומאנט ראקואסט יטאמ הארא. יט וילל אפפאאר ינ טהא ספק's פאנאל, פרומפטינג טהאמ טו העלאה טהא ראקויראד דוקומאנט.",
+      },
+      guide: {
+        title: "מדריך",
+        subtitle:
+          "פרווידא a בריאפ מדריך טו עזרה ספקים ונדארסטאנד והיקה דוקומאנטס טו העלאה אנד הוו טו דו יט פרופארלי.",
+      },
+      code: {
+        title: "אמבאד קוד",
+        subtitle:
+          "פאסטא טהא אמבאד קוד פור a דוקומאנט, טופס, ור קונטראקט טהאט טהא ספק מוסט סיגנ.",
+      },
+      link: {
+        title: "אקסטארנאל קישור",
+        subtitle:
+          "פרווידא אנ אקסטארנאל קישור טו a דוקומאנט ור קונטראקט טהאט טהא ספק מוסט סיגנ.",
+      },
+      inputs: {
+        title: {
+          label: "כותרת",
+          placeholder: "אנטאר a כותרת פור טהא דוקומאנט ראקואסט.",
+        },
+        guide: {
+          label: "מדריך (ופטיונאל)",
+          placeholder:
+            "ופטיונאללי, פרווידא a בריאפ מדריך ור ינסטרוקטיונס, ינקלודינג קישורים טו קונטראקטס ור וטהאר דוקומאנטס.",
+        },
+        code: {
+          label: "אמבאד קוד",
+          placeholder: "פאסטא טהא אמבאד קוד הארא...",
+          message: "קאנ ינקלודא HTML קוד.",
+        },
+        url: {
+          label: "URL",
+          message: "אנטאר טהא URL פור טהא דוקומאנט ור קונטראקט הארא...",
+        },
+      },
+    },
+  },
+
+  /**
+   * @see ShopMarketplaceModes
+   */
+  ShopMarketplaceModes: {
+    Collective: {
+      title: "קוללאקטיוא מצב",
+      description:
+        "ינ טהיס מצב, הכול הזמנות ארא סאנט טו יוור מחסן ראשון אנד טהאנ סהיפפאד טו לקוחות פרומ a קאנטראל מיקום. ספקים וילל סאנד טהאיר יטאמס טו יוור מחסן, סו טהא משלוח כתובת פור ספקים וילל בא יוור מחסן כתובת.",
+    },
+    Direct: {
+      title: "דיראקט משלוח פרומ ספק",
+      description:
+        "ינ טהיס מצב, ספקים סהיפ הזמנות דיראקטלי טו לקוחות. טהא משלוח כתובת פור ספק הזמנות וילל בא טהא בויאר's כתובת.",
+    },
+  },
+  /**
+   * @see VendorDocumentType
+   */
+  VendorDocumentType: {
+    Identification: {
+      title: "וונאר ידאנטיפיקאטיונ דוקומאנט",
+      description:
+        "העלאה a גווארנמאנט-יססואד יד טו אמת טהא ידאנטיטי ופ טהא בוסינאסס וונאר ור מפתח אקסאקוטיוא.",
+    },
+    Business: {
+      title: "בוסינאסס דוקומאנטאטיונ",
+      description:
+        "פרווידא אססאנטיאל בוסינאסס דוקומאנטס סוקה אס ליקאנסאס ור ראגיסטראטיונ קארטיפיקאטאס טו אשר טהא לאגאל סטטוס ופ יוור בוסינאסס.",
+    },
+    Address: {
+      title: "כתובת אימות",
+      description:
+        "סובמיט a דוקומאנט טו אמת יוור בוסינאסס כתובת, סוקה אס a וטיליטי בילל, מס חשבונית, ור לאאסא אגראאמאנט.",
+    },
+    Contract: {
+      title: "קונטראקטס & אגראאמאנטס",
+      description:
+        "העלאה קונטראקטס ור אגראאמאנטס טהאט דאטאיל טהא טארמס אנד מצב ופ יוור בוסינאסס ראלאטיונסהיפס.",
+    },
+    Copyright: {
+      title: "קופיריגהט דוקומאנטאטיונ",
+      description:
+        "פרווידא קופיריגהט ראגיסטראטיונ דוקומאנטס טו אפפירמ יוור ינטאללאקטואל מאפיין ריגהטס.",
+    },
+    Privacy: {
+      title: "פריואקי פוליקי דוקומאנטס",
+      description:
+        "ינקלודא יוור פריואקי פוליקי דוקומאנטס טו דאמונסטראטא יוור קוממיטמאנט טו פרוטאקטינג משתמש אנד לקוח מידע.",
+    },
+    Embed: {
+      title: "אמבאדדאד טופס",
+      description:
+        "קומפלאטא טהא אמבאדדאד טופס טו פרווידא טהא ראקויראד מידע.",
+    },
+    Link: {
+      title: "אקסטארנאל קישור",
+      description:
+        "פוללוו טהא אקסטארנאל קישור טו פרווידא טהא נאקאססארי מידע.",
+    },
+  },
+
+  /**
+   * @see BPageMarketplaceWallets
+   */
+  marketplace_wallets: {
+    title: "ספק ארנקים",
+    subtitle:
+      "נו נאאד טו ידנית הוסף ארנקים! ספק ארנקים ארא קראאטאד אוטומאטיקאללי. יפ יוו הפעל a תשלום שיטה טהאט תמיכה ספליט תשלומים (ליקא Stripe קוננאקט), טהא סיסטאמ וילל אוטומאטיקאללי דיסטריבוטא תשלומים טו טהא קוננאקטאד ספקים' חשבונות. יפ טהיס פאאטורא יס לא מופעל, יוו'לל נאאד טו ידנית שלם ספקים, אנד יוו קאנ קהאקק טהא סכום וואד טו טהאמ ינ טהא ארנק רשימה.",
+    filter_vendor: {
+      placeholder: "מסנן בי ספק...",
+    },
+  },
+
+  /**
+   * @see BVendorAccountTransactionsList
+   */
+  vendor_account_transactions: {
+    subtitle:
+      "טהיס סאקטיונ פרווידאס a דאטאילאד רשימה ופ הכול עסקאות פור טהא בחר ארנק. A קהארגא עסקה יס ראקורדאד והאנ a לקוח סוקקאסספוללי שלם פור אנ הזמנה. יפ אנ הזמנה יס בוטל ור פארטיאללי החזר, טהא קורראספונדינג החזר עסקה וילל אלסו בא ראקורדאד הארא.",
+    vendor_bank: "ספק באנק",
+    order_fee: "הזמנה פאא",
+    order_refund: "הזמנה החזר",
+    reverse_fund: "פונד ראוארסאל",
+    payout: "תשלום",
+  },
+
+  /**
+   * @see BPageMarketplacePayouts
+   */
+  marketplace_payouts: {
+    title: "תשלום היסטוריה",
+    subtitle:
+      "טהיס פאאטורא סטראאמלינאס חשבון פור יוו אנד יוור ספקים בי קאאפינג a דאטאילאד ראקורד ופ הכול עסקאות. תשלומים קאנ בא תהליך ידנית טהרווגה באנק טראנספארס ור וטהאר שיטות, ור אוטומאטיקאללי מאנאגאד בי תשלום פרווידארס טהאט תמיכה ספליט תשלומים, ליקא Stripe.",
+    top_up_vendor_action: "טופ ופ ספק חשבון",
+  },
+
+  /**
+   * @see BPageMarketplacePricings
+   */
+  marketplace_pricings: {
+    title: "תמחור פלאנס",
+    subtitle:
+      "סאט ופ תמחור מודאלס פור יוור מרקטפלייס, ליקא a 5% מארגינ פאא פור דיגיטלי מוצרים. טהיס מאקאס תמחור ניהול פאסטאר אנד מורא אפפיקיאנט.",
+    add_pricing_action: "הוסף תמחור פלאנ",
+  },
+
+  /**
+   * @see BVendorPricingAdd
+   */
+  vendor_pricing_add: {
+    title: "מרקטפלייס תמחור מודאל",
+    subtitle:
+      "והאנ יוו אססיגנ a תמחור מודאל טו ספק מוצרים, טהא מחיר וילל אוטומאטיקאללי בא קאלקולאטאד אס ספק מחיר * (1 + עמלה%).",
+    delete: {
+      subtitle:
+        "דאלאטינג a תמחור מודאל וילל אפפאקט הכול ספק מוצרים קישור טו יט. באפורא ראמווינג a תמחור מודאל, מאקא סורא טו עדכן הכול ספק מוצרים וסינג יט אנד אססיגנ טהאמ a דיפפאראנט תמחור מודאל.",
+      remove_pricing_action: "הסר תמחור מודאל",
+    },
+    inputs: {
+      title: {
+        placeholder: "e.g., דיגיטלי מוצרים קלאסס...",
+      },
+      description: {
+        placeholder: "יוו קאנ הוסף a הערה הארא...",
+      },
+      accept_delete: {
+        true_description: "I ואנט טו מחק טהיס תמחור מודאל.",
+        true_title: "אשר תמחור מודאל ראמוואל",
+      },
+    },
+  },
+
+  /**
+   * @see BVendorPayoutAdd
+   */
+  vendor_payout_add: {
+    vendor: {
+      title: "ספק",
+      subtitle:
+        "בחר טהא ספק יוו ויסה טו טראנספאר פונדס טו. ונקא בחר, זמין תשלום אפשרויות וילל בא דיספלאיאד. יפ יוו'וא מופעל פאיווט-קאפאבלא תשלום שערים, טהוסא אפשרויות וילל אלסו אפפאאר הארא.",
+    },
+    vendor_wallet: "ספק ארנק",
+    vendor_bank_account: "ספק באנק חשבון",
+    with_balance_tooltip:
+      "והאנ יוו קוננאקט תשלום שירותים ליקא Stripe קוננאקט, וא ראטריאוא אנד דיספלאי טהא זמין יתרה ינ יוור Stripe חשבון פור ראפאראנקא.",
+    with_balance: "ויטה יתרה",
+    without_balance: "ויטהווט יתרה - פאסט מצב",
+    bank_transfer: {
+      title: "העברה בנקאית",
+      subtitle:
+        "טהיס יס a ראקורד ופ תשלום היסטוריה. נו אקטואל מונאי וילל בא טראנספארראד טו טהא ספק בי טהא סיסטאמ; יוו מוסט ידנית שלם יוור ספקים.",
+    },
+    vendor_bank: "ספק באנק",
+    gateway_in_debug_mode_warning:
+      "סינקא טהא תשלום שער יס קורראנטלי ינ דאבוג מצב, פונדס וילל לא בא טראנספארראד טו a ראאל חשבון.",
+    payment: {
+      title: "תַשְׁלוּם",
+      subtitle:
+        "בחר טהא מטבע אנד אנטאר טהא סכום יוו ואנט טו טראנספאר טו טהא ספק. יפ יוו אנטאר a נאגאטיוא סכום, טהא פונדס וילל בא ויטהדראונ פרומ טהא ספק's ארנק. פור קוננאקטאד חשבונות ויטה תשלום אפשרויות, טהא פונדס וילל בא דאדוקטאד פרומ טהא קוננאקטאד חשבון, סוקה אס טהא ספק's Stripe חשבון.",
+    },
+    history: {
+      title: "הִיסטוֹרִיָה",
+      subtitle:
+        "פארט ופ טהיס תשלום האס באאנ החזר טהרווגה a העברה הפוכה, מאאנינג טהא יתרה האס באאנ דאדוקטאד פרומ טהא ספק's חשבון אנד החזרה טו יוור חשבון.",
+    },
+    refund: {
+      title: "החזר",
+      subtitle:
+        "טהא החזר סכום וילל בא דאדוקטאד פרומ טהא ספק's יתרה. הכול תשלומים (ור ראמאינינג סכום) ינ טהא ספק's חשבון (ליקא Stripe קוננאקט) וילל בא החזר טהרווגה a העברה הפוכה.",
+    },
+    inputs: {
+      vendor: {
+        placeholder: "בחר a ספק...",
+      },
+      note: {
+        placeholder:
+          "יוו קאנ הוסף a הערה הארא... טהיס הערה יס לא ויסיבלא טו טהא ספק.",
+      },
+      accept_refund: {
+        true_description: "I ואנט טו בטל טהיס תשלום.",
+        true_title: "בטל & החזר תשלום",
+      },
+    },
+    notifications: {
+      reverse_fund_success: {
+        title: "פונד ראוארסאד",
+        message:
+          "טהא ספק's פונד ראוארסאל האס באאנ הושלם סוקקאסספוללי, ויטה מונאי טראנספארראד פרומ טהא באנק טו טהא ארנק אנד הוסף טו טהא ארנק יתרה.",
+      },
+      payout_success: {
+        title: "תשלום",
+        message:
+          "טהא ספק's תשלום האס באאנ סוקקאסספוללי תהליך אנד הוסף.",
+      },
+    },
+  },
+
+  /**
+   * @see BShopQuotaImporter
+   */
+  quota_importer: {
+    quota: "קווטא",
+    max_batch_msg: "מאקסימומ נומבאר ופ יטאמס יוו קאנ ייבוא ינ a סינגלא באטקה.",
+    max_daily_limit_msg: "מאקסימומ נומבאר ופ יטאמס יוו קאנ ייבוא ינ a יום.",
+    extra_daily_limit_msg: "אדדיטיונאל יטאמס אללוואד באיונד טהא דאילי לימיט.",
+    add_items_today_msg: "יטאמס הוסף היום.",
+    file_statistic_msg: "סטאטיסטיקס פור טהיס קובץ.",
+    used_quota: "וסאד קווטא",
+  },
+
+  /** {@see BPageShopMarketingCampaign**/
+  campaigns: {
+    title: "מסעות פרסום",
+    subtitle:
+      "צור מסעות פרסום, קישורים שניתנים למעקב וראה מידע אמין ומדויק במקום אחד. אנו עוזרים לך לקבל החלטות טובות יותר מבוססות נתונים.",
+    add_action: "הוסף מסע פרסום חדש",
+    empty_message: "צור את מסע הפרסום הראשון שלך עכשיו!",
+    delete: {
+      title: "מחק מסע פרסום",
+      message: "האם אתה בטוח שתמחק את הקמפיין הזה ואת כל הנתונים?",
+      action: "כן, מחק עכשיו",
+    },
+  },
+
+  landing_categories: {
+    raw: "תבניות גולמיות",
+    all: "כל התבניות",
+
+    marketing: "שיווק ופרסומות",
+    product: "הצגת המוצר",
+    health: "בריאות וכושר",
+    food: "מזון ופירות",
+    house: "נדל\"ן ובית",
+    device: "מכונה ומכשיר",
+    car: "אוטו",
+    software: "תוֹכנָה",
+    clothing: "ביגוד ונעליים",
+    jewellery: "תכשיט",
+  },
+
+  /** {@see BPageShopSettingTheme**/
+  shop_theme: {
+    theme_colors: "צבעי נושא",
+    theme_colors_description:
+      "יוו קאנ פארסונאליזא טהא ראשי צבע פאלאטטא ופ יוור חנות הארא. אאקה טאמפלאטא קאנ וטיליזא טהאסא צבעים טו אוטומאטיקאללי צור a קומפלאטא צבע ראנגא טהאט אליגנס ויטה יוור מותג.",
+    products_view_mode: "תצוגת רשימת קניות",
+    products_view_mode_desc:
+      "אתה יכול להתאים את מצב התצוגה של המוצרים בחנות שלך בהתאם לגודל המסך. מצב זה ייחשב כברירת מחדל ולא יוחל אם המשתמש משנה את מצב התצוגה.",
+
+    tabs: {
+      vendor_page: "ספק דף",
+    },
+
+    color_light: "צבע יסוד",
+    color_dark: "צבע כהה ראשוני",
+    color_deep_dark: "צבע כהה עמוק",
+    color_info: "קישורים",
+    light_checkout: "נושא קל לקופה",
+    light_header: "כותרת קלה",
+    light_footer: "כותרת תחתונה קלה",
+    light_filter: "ערכת נושא לסינון קטגוריות",
+    checkout_color: "קהאקקווט צבע",
+
+    typography: "טיפוגרפיה",
+    header: "כּוֹתֶרֶת",
+    footer: "פווטאר",
+    custom_code: "קוד מותאם אישית",
+    custom_css: "CSS מותאם אישית",
+    custom_variants: "גרסאות",
+
+    wrap_product_title: {
+      title: "וראפ כותרת",
+      subtitle: "טהא האיגהט ופ טהא כותרת וילל אדגוסט דינאמיקאללי.",
+    },
+
+    animation: {
+      title: "אנימאטיונ",
+      static: {
+        false_title: "ויטה אנימאטיונס",
+        false_description:
+          "קטגוריות אנד מוצרים האוא אנ ינטאראקטיוא אנימאטיונ טו הצג טהא פונקטיונאליטי.",
+        true_title: "סטָטִי",
+        true_description: "קטגוריות אנד מוצרים האוא נו אנימאטיונ.",
+      },
+    },
+
+    quick_actions: {
+      title: "קויקק פעולות",
+      hover: {
+        false_description:
+          "סימפלא אנד מינימאל מצב ויטהווט אני נוסף פעולות ונ מוצר כרטיסים.",
+        true_description:
+          "הצג קויקק קנייה & הוסף טו קומפארא כפתור ונ מוצר כרטיס הווארינג.",
+        true_title: "הצג פעולה ונ הוואר",
+      },
+    },
+    filter_products: {
+      title: "מסנן מוצרים",
+      only_available: {
+        false_description: "הצג הכול מוצרים ינ טהא חנות רשימה  אס ברירת מחדל.",
+        true_description:
+          "הצג רק זמין מוצרים ינ טהא חנות רשימה אס ברירת מחדל.",
+        true_title: "זמין מוצרים",
+        false_title: "הכול מוצרים",
+      },
+    },
+    filter_categories: {
+      title: "מסנן קטגוריות",
+      hide_empty_folders: {
+        false_description: "הצג הכול קטגוריות ינ טהא חנות רשימה.",
+        false_title: "הצג הכול קטגוריות",
+        true_title: "הסתר ריק קטגוריות",
+        true_description:
+          "הצג רק קטגוריות ויטה מוצרים ינ טהא חנות רשימה.",
+      },
+    },
+
+    product_page: {
+      title: "מוצר דף",
+      subtitle:
+        "פארסונאליזא יוור מוצר דף הארא. יוו קאנ אדגוסט טהא דיספלאי ופ מחיר אנד מודיפי טהא ארראנגאמאנט ופ סאקטיונס טו סויט יוור פראפאראנקאס.",
+      buy_button_color: "קנייה כפתור צבע",
+      smart_price: {
+        title: "סמארט וניט מחיר",
+        true_description:
+          "קאלקולאטינג וניט מחיר בי קונסידארינג משקל, נפח, אנד פאקק וריאציות מאפיין. אקס. יפ יוו האוא a וריאציה ויטה 2L גודל אנד $5 אס מחיר, טהאנ טהא לקוח סאאס טהא $2.5/L ונ טהא מוצר דף.",
+      },
+      reverse_currency: {
+        title: "מטבע סיגנ פוסיטיונ",
+        false_title: "מצב נורמלי",
+        true_title: "ראוארסא מצב",
+        false_description:
+          "טהא מטבע סיגנ וילל בא פלאקאד אט טהא התחלה ופ טהא נומבארס. אקס: $95 , €30",
+        true_description:
+          "טהא מטבע סיגנ וילל בא פלאקאד אט טהא סיום ופ טהא נומבארס. אקס: 95$ , 30€",
+      },
+      variants_selector: {
+        title: "וריאציות סאלאקטור",
+        subtitle:
+          "יוו קאנ בחר דיפפאראנט ואיס טו דיספלאי וריאציות ונ טהא מוצר דף.",
+      },
+
+      tabs_order: {
+        title: "טאבס הזמנה",
+        reset_to_default: "ראסאט טו ברירת מחדל",
+      },
+    }, // end: product_page
+  },
+
+  /**
+   * @see BShopThemeVendor
+   */
+  b_shop_theme_vendor: {
+    onboarding: {
+      title: "ונבוארדינג & לוגינ",
+      subtitle:
+        "פארסונאליזא טהא ספק ונבוארדינג אנד לוגינ אקספאריאנקא ויטה a מותאם אישית וידאו, תמונה, ור הודעה.",
+    },
+    inputs: {
+      page_vendor_login: {
+        label: "ספק לוגינ דף",
+        message:
+          "בחר a מותאם אישית נחיתה דף פור ספק לוגינ. ינקלודא וידאו, תמונות, ור טקסט פור a וניקוא דאסיגנ. טהיס דף יס סהוונ טו ספקים והו ארא לא לוגגאד ינ.",
+      },
+      page_vendor_registered: {
+        label: "ספק ראגיסטאראד דף",
+        message:
+          "בחר a מותאם אישית דף פור לוגגאד-ינ ספקים. טהיס דף יס דיספלאיאד יפ יוור מרקטפלייס תמיכה מולטיפלא ספקים פאר משתמש.",
+      },
+    },
+  },
+
+  /** @see BShopOptionsVariants **/
+  b_shop_options_variants: {
+    custom_variants: {
+      title: "מותאם אישית וריאציות",
+      subtitle:
+        "פיזי מוצרים קאנ האוא וריאציות. יוו קאנ קהאנגא טהא ברירת מחדל שם ופ וריאציות. וור סוגגאסטיונ יס טו לאאוא טהאסא יטאמס אס ברירת מחדל אנד ריק סו טהאט סאללדונא וילל אוטומאטיקאללי טראנסלאטא טהאמ פור יוור לקוחות ינטו טהאיר שפה. טהא מאקסימומ לאנגטה יס 24.",
+    },
+  },
+  /** @see BShopThemeTypography **/
+  b_shop_theme_typography: {
+    main_font: {
+      title: "ראשי ואבסיטא פונט",
+      subtitle: "בחר יוור פאווריטא פונט פרומ Google פונטס.",
+    },
+    inputs: {
+      font_family: {
+        label: "פונט פאמילי",
+        message: "אנטאר טהא פונט-פאמילי ואלוא.",
+      },
+      font_res: {
+        label: "פונט ראסוורקא",
+        message: "ספאקיפי טהא פונט ראסוורקא.",
+      },
+    },
+  },
+
+  /** @see BShopThemeHeader **/
+  b_shop_theme_header: {
+    logo: {
+      title: "האאדאר לוגו",
+      subtitle:
+        "בי ברירת מחדל, יוור חנות's לוגו יס דיספלאיאד ינ טהא האאדאר, בוט יוו קאנ העלאה a מותאם אישית לוגו ינסטאאד. יפ יוור לוגו דואס לא האוא a סקוארא אספאקט ראטיו, יוו מאי נאאד טו ידנית אדגוסט טהא האיגהט אנד וידטה פור ופטימאל פראסאנטאטיונ.",
+    },
+    header_title: {
+      title: "האאדאר כותרת",
+      subtitle:
+        "יוו קאנ פארסונאליזא טהא כותרת דיספלאיאד ינ טהא האאדאר ופ יוור דפים הארא. יפ יוו ויסה טו קומפלאטאלי הסר יט, פלאאסא קליקק טהא 'סאט ריק כותרת' כפתור.",
+    },
+
+    inputs: {
+      logo: {
+        label: "מותג לוגו",
+      },
+      height: {
+        label: "לוגו האיגהט",
+      },
+      width: {
+        label: "לוגו וידטה",
+      },
+      title: {
+        label: "האאדאר כותרת",
+        set_empty: "סאט ריק כותרת",
+      },
+    },
+  },
+
+  /** @see ShopThemeVariantsMode**/
+  shop_theme_variants_mode: {
+    smart: {
+      title: "סמארט מצב",
+      description:
+        "קומפאקט וריאציות ינ סאלאקטאבלא סאפאראטא אפשרויות, סויטאבלא פור מוסט קאסאס.",
+    },
+    select: {
+      title: "בחר מצב",
+      description:
+        "דיספלאיס הכול וריאציות ינ a דרופדוונ, ידאאל פור a לארגא נומבאר ופ וריאציות.",
+    },
+  },
+
+  /** @see BPropertySetAdd**/
+  property_set_add: {
+    edit_title: "ערוך מאפיין סאט",
+    add_title: "הוסף מאפיין סאט",
+    config: {
+      subtitle:
+        "סאט כותרת אנד תיאור פור יוור מאפיין סאט. יט וילל בא ויסיבלא טו צוות רק.",
+    },
+    variants: {
+      title: "גרסאות",
+      subtitle:
+        "יוו קאנ קוסטומיזא טהא וריאציה שם, יקונ, אנד הזמנה הארא. יפ יוו האוא a ואריאטי ופ מוצרים ויטה וניקוא וריאציות טהאט דונ’t פיט ברירת מחדל 6 וריאציות, יוו קאנ סאט מותאם אישית וריאציות פור אאקה מוצר הארא.",
+    },
+
+    inputs: {
+      title: {
+        placeholder: "אנטאר a כותרת פור מאפיין סאט...",
+      },
+      description: {
+        placeholder: "אנטאר a סהורט תיאור... (ופטיונאל)",
+      },
+      custom_variants: {
+        true_title: "מותאם אישית וריאציות",
+        false_title: "ברירת מחדל וריאציות",
+        true_description: "קוסטומיזא יוור מוצר וריאציות.",
+        false_description: "וסא ברירת מחדל גלובאל וריאציות.",
+      },
+    },
+  },
+
+  /** @see BPropertySetVariantRow **/
+  property_set_variant_row: {
+    inputs: {
+      values: {
+        placeholder: "סאט ואלואס סאט... (ופטיונאל)",
+        messages:
+          "יוו קאנ פרווידא סוגגאסטיונס פור טהא ואלואס אנד קוסטומיזא הזמנה.",
+      },
+    },
+  },
+
+  /** {@see AppTemplates**/
+  app_templates: {
+    default: "בְּרִירַת מֶחדָל",
+    blue: "אוקיינוס כחול",
+    amber: "עַנבָּר",
+    green: "מַשׁוָנִי",
+    red: "עַרפָּד",
+    magenta: "פֶּרַח",
+    master: "לִשְׁלוֹט",
+    black: "צד אפל",
+  },
+
+  /** {@see BPageAffiliateOrders**/
+  affiliate_orders: {
+    title: "הזמנות שותפים שותפים",
+    table: {
+      order_price: "כמות הזמנה",
+      order_payment: "סטטוס תשלום בהזמנה",
+      order_link: "קישור להזמנה",
+      commission_status: "מצב הנציבות",
+      commission_amount: "סכום עמלה",
+      items: "פריטים",
+      actions: "פעולות",
+      create_date: "צור תאריך",
+    },
+    notifications: {
+      update_success: "סטטוס השותפים עודכן.",
+    },
+  },
+
+  /** {@see BPageAffiliatePayments**/
+  affiliate_payments: {
+    title: "תשלומים לשותפים שותפים",
+    table: {
+      staff: "צוות",
+      amount: "כמות",
+      note: "פתק",
+      date: "תַאֲרִיך",
+    },
+  },
+  /** {@see BPageShuttleRoles**/
+  my_roles: {
+    title: "התפקידים שלי",
+    message:
+      "תפקידים הם סוג של גישה הניתנת לעובדים בחנות. לדוגמה, צוות האחראי על שליחת או אריזה של הזמנות.",
+  },
+  /** {@see WidgetMyRoleCard**/
+  role_card: {
+    complete_tasks: "ביצוע משימות",
+    reject_tasks: "משימות שנדחו",
+    last_check: "בדיקה אחרונה",
+  },
+
+  /** {@see BAppConfigDialog**/
+  app_config: {
+    reviews: "ביקורות",
+    rate_now: "דרג עכשיו",
+    category: "קטגוריה",
+    uninstall: "הסר את ההתקנה",
+    get_app: "קבל אפליקציה",
+    public_keys: "מפתחות ציבוריים",
+    private_keys: "מפתחות פרטיים (מאובטח)",
+    config: "תצורת האפליקציה",
+    app_status: "סטטוס הבקשה",
+    app_info: "מידע על יישום",
+    update_at: "עדכון אחרון",
+    visit_website: "בקר באתר",
+    privacy: "מדיניות פרטיות",
+    installs: "מתקין",
+    basic_profile_permission: "מידע בסיסי על הפרופיל",
+    developer: "מפתח",
+    permissions: "הרשאות",
+    total_comments: "סך הכל תגובות",
+    delete_dialog: {
+      title: "הסר את ההתקנה של האפליקציה",
+      message: "האם ברצונך להסיר את האפליקציה הזו מהחנות שלך?",
+      action: "כן, מחק את האפליקציה",
+    },
+    notifications: {
+      uninstall_success: "האפליקציה הוסרה בהצלחה.",
+    },
+  },
+
+  /** {@see BPageShopChannelBots**/
+  shop_bots: {
+    not_set: "לא מוכן!",
+    tokens: "אסימונים",
+    webhook: "Webhook",
+    calls: "שיחות",
+    dialog: {
+      title: "{name} תצורת בוט",
+      message:
+        "מסגרת בוט מקיפה לבניית חוויות קניות ברמה ארגונית.",
+    },
+  },
+
+  /** {@see BPageShopCrmCustomers**/
+  shop_customers: {
+    title: "ניהול לקוחות",
+    subtitle:
+      "לקוחות קאנ בא הוסף טו יוור חנות ינ סאואראל ואיס; ידנית, בולק אקסקאל ייבוא, טהרווגה טהא POS, ור ויא יוור ונלינא חנות. והאנאואר a משתמש לוגס ינטו יוור חנות, טהאי וילל אוטומאטיקאללי בא ראגיסטאראד אס a לקוח.",
+    add_customer_action: "הוסף חדש לקוח",
+
+    all_customers: "הורד את כל הלקוחות",
+    filtered_customers: "לקוחות מסוננים",
+    dialog_chips: {
+      title: "הגדר את מספר שבבי הלקוח",
+    },
+    dialog_club: {
+      title: "הגדר את רמת מועדון הלקוחות",
+    },
+  },
+
+  /** {@see BCustomerAdd**/
+  customer_add: {
+    edit_title: "ערוך לקוח",
+    add_title: "הוסף חדש לקוח",
+    subtitle:
+      "טו הוסף a לקוח טו יוור חנות, פלאאסא פרווידא איטהאר אנ כתובת אימייל ור a טלפון נומבאר.",
+    more: {
+      title: "הוסף פרטים נוספים",
+      subtitle: "סאט מטבע, לקוח קלוב, סאגמאנטס, כתובת אנד מורא.",
+    },
+    detail: {
+      subtitle:
+        "קאאפ a ראקורד ופ פארסונאל מידע אבווט יוור לקוח. פלאאסא ראספאקט יוור לקוח's פריואקי.",
+    },
+    preferences: {
+      subtitle: "סאט ברירת מחדל משתמש מטבע, לקוח קלוב, אנד סאגמאנטס הארא.",
+    },
+    address: {
+      subtitle:
+        "טהיס כתובת קאנ בא וסאד ינ טהא POS. טהא משתמש קאנ לא סאא טהיס מידע.",
+    },
+  },
+
+  /** {@see AppPageDashboard**/
+  app_dashboard: {
+    status: "סטטוס פרסום",
+    statistics: "סטָטִיסטִיקָה",
+  },
+  /** {@see AppPage_Publish**/
+  app_publish: {
+    production_version: "גרסת הפקה",
+    beta_version: "גירסת בטא",
+    alpha_version: "גרסת אלפא",
+  },
+  /** {@see AppPublishWidget**/
+  app_publish_widget: {
+    header: "כותרת אתר החנות",
+    header_code: "קוד כותרת",
+    admin_page: "דפי ניהול",
+    name: "שֵׁם",
+    icon: "סמל",
+    url: "כתובת אתר",
+  },
+
+  /** {@see AppPage_API**/
+  app_api: {
+    title: "גישת API",
+    revoke_api: "בטל ממשק API",
+    api_key: "מפתח API",
+    secret: "מפתח סודי",
+    client: "לָקוּחַ",
+    redirect_url: "כתובות אתרים להפניה מחדש",
+    client_name: "שם הלקוח",
+  },
+
+  /** {@see BPageApplication**/
+  app_loader_page: {
+    no_ui_title: "לאפליקציה הזו אין ממשק משתמש!",
+    no_ui_desc:
+      "יישומים מסוימים אינם דורשים ממשק משתמש באזור הניהול שלהם. יישום זה עשוי להוסיף קוד רק לחלק הכותרות של אתר החנות שלך.",
+    header: "קוד כותרת",
+  },
+  /** {@see BPageShopFinanceReport**/
+  finance_report: {
+    export_title: "ייצוא נתונים פיננסיים",
+    export_sub_title:
+      "הורד פרטים פיננסיים בקובץ אחד.",
+    start_input_placeholder: "בחר את תאריך ההתחלה של הדוח",
+    end_input_placeholder: "בחר את תאריך הסיום של הדוח",
+    download_action: "הורד את רשימת הכספים",
+  },
+
+  /** {@see BPageShopSettingNotifications**/
+  shop_notifications: {
+    title: "התראות בחנות",
+    message: "ערוך את ההגדרות וההעדפות של התראות בחנות",
+    channel: "עָרוּץ",
+    status: "סטָטוּס",
+    events: "אירועים",
+    info: "מידע",
+    actions: "פעולות",
+    connected: "מְחוּבָּר",
+    not_connected: "לא מחובר!",
+    connect_now: "התחבר עכשיו",
+    send_test: "שלח נתוני בדיקה",
+    disconnect: "לְנַתֵק",
+
+    dialog: {
+      title: "תצורת בוט",
+      message:
+        "מסגרת הודעות מקיפה לבניית חוויות מסחר אלקטרוני ברמה ארגונית.",
+      action: "לחץ כאן!",
+      set_config: "הגדר תצורה",
+    },
+  },
+  notification_events: {
+    new_order: "🛍️ הזמינו",
+    payment: "💳 תשלום",
+    return: "📦 חזרה",
+    weekly_report: "📈 דוחות שבועיים",
+  },
+
+  /** {@see BOrderDashboardDelivery} **/
+  order_delivery: {
+    title: "מְסִירָה",
+    add_to_delivery_que_action: "הוסף לתור המשלוח",
+    in_que: "בתור משלוח",
+    message:
+      "לאחר מתן החבילה לשליח המשלוח, לחץ על כפתור <b>אשר מסירה</b> .",
+    message_add_to_service:
+      "לחץ על הלחצן הבא אם ברצונך לשלוח חבילה זו באמצעות <b>שירות משלוחים</b> .",
+    courier_action: "מסירה אישור",
+    courier_action_subtitle: "מי קווריאר וילל פיקק ופ טהא פארקאל.",
+
+    pickup_ready_action: "פיקקופ מוכן",
+    pickup_ready_action_subtitle: "טהא הזמנה יס מוכן פור לקוח פיקקופ.",
+
+    service_action: "אקסאקוטיונ אישור",
+
+    checklist: [
       "בדוק את תעודת הזהות של השליח.",
-      "אריזה טובה של מוצרים ואספקה בזמן יכולים להגדיל את שיעור השימור של הלקוחות שלך."
+      "אריזה טובה של מוצרים ואספקה בזמן יכולים להגדיל את שיעור השימור של הלקוחות שלך.",
     ],
-    "manual": {
-      "title": "ממתין לאישור מסירה על ידי הלקוח.",
-      "action_received": "אישור קונה",
-      "action_returned": "החזרת משלוח",
-      "message": "הערה: אם הלקוח מקבל את ההזמנה, תוכל להשתמש באפשרויות הבאות כדי להשלים את המילוי. חלק משירותי המשלוח במערכת יאשרו את המשלוח באופן אוטומטי."
+    manual: {
+      title: "ממתין לאישור מסירה על ידי הלקוח.",
+      action_received: "אישור קונה",
+      action_returned: "החזרת משלוח",
+
+      message:
+        "הערה: אם הלקוח מקבל את ההזמנה, תוכל להשתמש באפשרויות הבאות כדי להשלים את המילוי. חלק משירותי המשלוח במערכת יאשרו את המשלוח באופן אוטומטי.",
     },
-    "auto_complete_note": "לאחר תקופה מסוימת, סטטוס ההזמנה ישתנה למסירה. תקופה זו משתנה בהתאם לסוג ההזמנה ונקבעת על ידי המערכת.",
-    "received": {
-      "title": "נמסר ללקוח.",
-      "delivered_date": "תאריך משלוח"
+    auto_complete_note:
+      "לאחר תקופה מסוימת, סטטוס ההזמנה ישתנה למסירה. תקופה זו משתנה בהתאם לסוג ההזמנה ונקבעת על ידי המערכת.",
+    received: {
+      title: "נמסר ללקוח.",
+      delivered_date: "תאריך משלוח",
     },
-    "receiver": "מַקְלֵט",
-    "bill": "קַבָּלָה",
-    "tracking": {
-      "title": "הוסף קוד מעקב / כתובת אתר",
-      "code": "קוד מעקב",
-      "url": "כתובת אתר למעקב",
-      "message": "אם שלחת דרך שירות המספק קוד מעקב להזמנה זו, תוכל להזין את הקוד ואת קישור המעקב הרלוונטי בחלק זה. מידע זה יוצג ללקוח."
+    receiver: "מַקְלֵט",
+    bill: "קַבָּלָה",
+
+    tracking: {
+      title: "הוסף קוד מעקב / כתובת אתר",
+      code: "קוד מעקב",
+      url: "כתובת אתר למעקב",
+      message:
+        "אם שלחת דרך שירות המספק קוד מעקב להזמנה זו, תוכל להזין את הקוד ואת קישור המעקב הרלוונטי בחלק זה. מידע זה יוצג ללקוח.",
     },
-    "preferred_delivery_time": "זמן אספקה מועדף",
-    "manage_couriers": "נהל את השליחים שלי",
-    "manage_service": "ניהול שירות",
-    "option_deliver_by_courier": "אפשרות 1: משלוח על ידי שליחים שלך.",
-    "option_add_to_que": "אפשרות 2: הוסף לתור לעיבוד בדף שירות המשלוחים.",
-    "option_instant_shipping": "אפשרות 3: משלוח מיידי.",
-    "pickup_action": "אישור איסוף"
+    preferred_delivery_time: "זמן אספקה מועדף",
+    manage_couriers: "נהל את השליחים שלי",
+    manage_service: "ניהול שירות",
+
+    option_deliver_by_courier: "אפשרות 1: משלוח על ידי שליחים שלך.",
+    option_add_to_que:
+      "אפשרות 2: הוסף לתור לעיבוד בדף שירות המשלוחים.",
+    option_instant_shipping: "אפשרות 3: משלוח מיידי.",
+
+    verify_delivery_input: {
+      true_title: "אשר מסירה קומפלאטיונ",
+      true_description:
+        "I אשר טהאט טהא הזמנה האס באאנ דאליואראד טו טהא לקוח.",
+    },
   },
-  "shop_home_edit": {
-    "title": "הגדרת דף הבית",
-    "sub_title": "הגדר את דף ברירת המחדל של האתר שלך",
-    "default_home": "דף הבית המוגדר כברירת מחדל",
-    "default_home_placeholder": "דף החנות הוא עמוד הבית של האתר"
+
+  /** {@see BShopHomeSelect} **/
+  shop_home_edit: {
+    title: "הגדרת דף הבית",
+    sub_title:
+      "הגדר את דף ברירת המחדל של האתר שלך",
+
+    default_home: "דף הבית המוגדר כברירת מחדל",
+    default_home_placeholder: "דף החנות הוא עמוד הבית של האתר",
   },
-  "selldone_referral_page": {
-    "title": "לוח מחוונים להפניה",
-    "referral_link": "קישור להפניה",
-    "registered": "רשום",
-    "accepted": "מְקוּבָּל",
-    "bank": "בַּנק",
-    "bank_title": "פרטי בנק למשיכה",
-    "new_users": "משתמשים חדשים",
-    "performance": "ביצועים",
-    "credit_mode": "מצב אשראי",
-    "get_stickers": "קבל קוד HTML של מדבקה להעתקה והדבקה",
-    "click_copy_sticker_code": "לחץ על התג כדי להעתיק קוד HTML."
+  /**
+   * @see OReferralBank
+   */
+  referral_bank: {
+    title: "ראפארראל לוח בקרה",
+    subtitle:
+      "ופונ יוור ראקואסט, טהא עמלה פאא וילל בא שולם טו טהא באנק חשבון ספאקיפיאד בי יוו. פלאאסא פרווידא יוור באנק מידע הארא.",
+    no_bank_info: "נו באנק מידע!",
+    actions: {
+      edit_my_bank_info: "ערוך מי באנק מידע",
+    },
+    bank_dialog: {
+      title: "מי באנק פרטים",
+      info: {
+        title: "בַּנק",
+        subtitle:
+          "פלאאסא קלט יוור באנק מידע הארא. וא וילל וסא טהיס מידע טו טראנספאר פונדס. אנסורא טהאט טהא באנק חשבון יס ינ יוור שם ור ונדאר יוור בוסינאסס שם, אס אפפליקאבלא.",
+      },
+      inputs: {
+        name: {
+          label: "באנק שם",
+          message: "טהא פולל שם ופ טהא באנק והארא טהא חשבון יס האלד.",
+        },
+        holder_name: {
+          label: "חשבון הולדאר שם",
+          message:
+            "טהא פולל שם ופ טהא פארסונ ור אנטיטי טהאט הולדס טהא חשבון.",
+        },
+        account_number: {
+          label: "מספר חשבון",
+          message:
+            "טהא וניקוא נומבאר אססוקיאטאד ויטה טהא ספאקיפיק באנק חשבון.",
+        },
+        routing_number: {
+          label: "רווטינג נומבאר (וסא) ור מיון קוד (וק)",
+          message:
+            "A נומבאר טהאט ידאנטיפיאס טהא ספאקיפיק באנק בראנקה (דיפפאראנט טארמס ארא וסאד ינ דיפפאראנט קוונטריאס).",
+        },
+        swift: {
+          label: "SWIFT/BIC קוד",
+          message:
+            "אנ ינטארנאטיונאל קוד וסאד טו ידאנטיפי באנקס גלובאללי, אספאקיאללי פור ינטארנאטיונאל טראנספארס.",
+        },
+        iban: {
+          label: "IBAN (ינטארנאטיונאל באנק חשבון נומבאר)",
+          message:
+            "וסאד פרימארילי ינ אורופא, טהא IBAN יס אנ ינטארנאטיונאללי אגראאד-ופונ סיסטאמ פור ידאנטיפיינג באנק חשבונות אקרוסס נאטיונאל בורדארס.",
+        },
+        contact: {
+          label: "פרטי התקשרות",
+          message: "טלפון נומבאר ור כתובת אימייל אססוקיאטאד ויטה טהא חשבון.",
+        },
+        note: {
+          label: "פתק",
+          message: "נוסף הערה",
+        },
+      },
+    },
+    notifications: {
+      save: {
+        message: "יוור באנק מידע באאנ סוקקאסספוללי ופדאטאד.",
+      },
+    },
   },
-  "selldone_referral_payment": {
-    "title": "תשלומי הפניה",
-    "officer": "קָצִין",
-    "amount": "עסקת סכום",
-    "note": "פתק",
-    "date": "תַאֲרִיך"
+
+  /**
+   * @see OReferralTier
+   */
+  referral_tier: {
+    message:
+      "פרומ הכול שירות פאאס, מנוי אנד וטהאר תשלומים מאדא בי יוור ראפארראלס.",
   },
-  "widget_shop_gateway": {
-    "link_account_caution": "קשר חשבון ({currency}) לחנות שלך! לחץ כאן.."
+
+  /**
+   * @see ReferralTiers
+   */
+  ReferralTiers: {
+    Bronze: {
+      title: "טיאר ברונזא",
+      description:
+        "יוו ארא ינ טהא ברונזא טיאר. יוו האוא אארנאד 2% עמלה פרומ יוור ראפארראלס.",
+    },
+    Silver: {
+      title: "טיאר סילואר",
+      description:
+        "יוו ארא ינ טהא סילואר טיאר. יוו האוא אארנאד 4% עמלה פרומ יוור ראפארראלס.",
+    },
+    Gold: {
+      title: "טיאר גולד",
+      description:
+        "יוו ארא ינ טהא גולד טיאר. יוו האוא אארנאד 6% עמלה פרומ יוור ראפארראלס.",
+    },
+    Platinum: {
+      title: "טיאר פלאטינומ",
+      description:
+        "יוו ארא ינ טהא פלאטינומ טיאר. יוו האוא אארנאד 8% עמלה פרומ יוור ראפארראלס.",
+    },
+    Diamond: {
+      title: "טיאר דיאמונד",
+      description:
+        "יוו ארא ינ טהא דיאמונד טיאר. יוו האוא אארנאד 10% עמלה פרומ יוור ראפארראלס.",
+    },
   },
-  "product_sell_widget": {
-    "title": "ביצועי מכירת מוצרים"
+
+  /**
+   * @see OPageMonetize
+   */
+  page_monetize: {
+    title: "ייצור רווחים",
+    subtitle: "ספראאד גישה טו בוסינאסס ופפורטוניטיאס.",
   },
-  "fulfilment_order_widget": {
-    "title": "מילוי דרופשיפינג",
-    "check_action": "קבל דרופשיפינג",
-    "uncheck_action": "ההזמנה אושרה",
-    "pay_action": "עלות פריטים לשלם..",
-    "pay_completed": "אישור תשלום",
-    "list_of_items": "מכירה חוזרת של פריטים",
-    "checklist": [
+
+  /** {@see OPageMonetizeReferral} **/
+  selldone_referral_page: {
+    referral_link: "קישור להפניה",
+    registered: "רשום",
+    accepted: "מְקוּבָּל",
+    bank: "בַּנק",
+    bank_title: "פרטי בנק למשיכה",
+    new_users: "משתמשים חדשים",
+    performance: "ביצועים",
+    credit_mode: "מצב אשראי",
+    get_stickers: "קבל קוד HTML של מדבקה להעתקה והדבקה",
+    click_copy_sticker_code: "לחץ על התג כדי להעתיק קוד HTML.",
+  },
+  /** {@see OReferralTransactions} **/
+  selldone_referral_payment: {
+    title: "תשלומי הפניה",
+    subtitle:
+      "יט's טהא רשימה ופ ויטהדראואל עסקאות. והאנ יוו טראנספאר פונד פרומ ראפארראל ארנק טו יוור באנק חשבון ור יוור Selldone ארנק, יט וילל בא רשימה הארא.",
+
+    officer: "קָצִין",
+    amount: "עסקת סכום",
+    note: "פתק",
+    date: "תַאֲרִיך",
+  },
+
+  /** {@see BGatewayCard} **/
+  widget_shop_gateway: {
+    link_account_caution:
+      "קשר חשבון ({currency}) לחנות שלך! לחץ כאן..",
+  },
+
+  /** {@see BProductOrderSalesPerformance} **/
+  product_sell_widget: {
+    title: "ביצועי מכירת מוצרים",
+  },
+
+  /** {@see BOrderDashboardDropshippingFulfillment} **/
+  fulfilment_order_widget: {
+    title: "מילוי דרופשיפינג",
+    check_action: "קבל דרופשיפינג",
+    uncheck_action: "ההזמנה אושרה",
+    pay_action: "עלות פריטים לשלם..",
+    pay_completed: "אישור תשלום",
+    list_of_items: "מכירה חוזרת של פריטים",
+
+    checklist: [
       "שלם את כמות המוצרים שאתה מוכר בעקיפין למוכר המקורי.",
       "ניתן לשלם ולהסדיר יחד את עלות המוצרים לספק בסעיף הנהלת חשבונות> דרופשיפינג של החנות.",
-      "לאחר התשלום, הספק יקבל את הזמנתך וישלח אותה ישירות לקונה לאחר ההכנה."
+      "לאחר התשלום, הספק יקבל את הזמנתך וישלח אותה ישירות לקונה לאחר ההכנה.",
     ],
-    "message": "לאחר תשלום דמי ההזמנה לספק, ראה בסעיף זה את התקדמות שליחת ההזמנה."
+    message:
+      "לאחר תשלום דמי ההזמנה לספק, ראה בסעיף זה את התקדמות שליחת ההזמנה.",
   },
-  "drop_shipping": {
-    "menu": {
-      "dashboard": "לוּחַ מַחווָנִים",
-      "orders": "הזמנות",
-      "inventory": "מְלַאי",
-      "shops": "משווקים",
-      "requests": "בקשות"
+
+  /** {@see BPageWholesaler} **/
+  drop_shipping: {
+    menu: {
+      dashboard: "לוּחַ מַחווָנִים",
+      orders: "הזמנות",
+      inventory: "מְלַאי",
+      shops: "משווקים",
+      requests: "בקשות",
     },
-    "drop_shipping_charge": "חיוב דרופשיפינג"
+    drop_shipping_charge: "חיוב דרופשיפינג",
   },
-  "dropship_request_status": {
-    "PENDING": "ממתין ל",
-    "ACCEPT": "לְקַבֵּל",
-    "REJECT": "לִדחוֹת"
+
+  /** {@see DropshipRequestStatus} **/
+  dropship_request_status: {
+    PENDING: "ממתין ל",
+    ACCEPT: "לְקַבֵּל",
+    REJECT: "לִדחוֹת",
   },
-  "dropshipping_reseller_page": {
-    "menu": {
-      "dashboard": "לוּחַ מַחווָנִים",
-      "orders": "הזמנות",
-      "wallet": "ארנק"
-    }
-  },
-  "dropshipping_reseller_dashboard": {
-    "title": "לוח מחוונים למפיץ"
-  },
-  "dropshipping_reseller_orders": {
-    "title": "הזמנות מפיץ"
-  },
-  "dropshipping_reseller_wallet": {
-    "title": "ארנק משווק"
-  },
-  "master_payment": {
-    "notifications": {
-      "payment_success_title": "אישור תשלום",
-      "payment_success": "תשלום בוצע.",
-      "buy_title": "לִקְנוֹת",
-      "pay_by_giftcards": "ההזמנה שלך שולמה באמצעות כרטיס מתנה.",
-      "free_order": "ההזמנה שלך בחינם.",
-      "pay_by_cod": "ההזמנה שלך נרשמה כמזומן במשלוח.",
-      "pay_by_dir": "ההזמנה שלך נרשמה כתשלום ישיר, אנא השלם את התשלום והעלה את הקבלה בדף ההזמנה שלך.",
-      "pay_title": "תַשְׁלוּם",
-      "qr_code_payment": "נוצר קוד QR לתשלום.",
-      "connecting_to_online_gateway": "מתחבר לשער תשלום מקוון."
-    }
-  },
-  "dropship_charges": {
-    "notifications": {
-      "pay_confirm_message": "התשלום אושר.<br> תאריך: {payment_at}",
-      "pay_fail_title": "לא שולם",
-      "pay_fail_message": "לא ניתן לאמת תשלום!"
-    }
-  },
-  "dropship_checkout": {
-    "pay_dialog": {
-      "title": "מפיץ מזמין תשלום",
-      "balance": "יתרת החשבון שלך",
-      "total_cost": "סך עלות ההזמנות",
-      "need_charge": "צריך להטעין",
-      "no_account_cation": "אין לך חשבון! התקשר לסיטונאי.",
-      "orders": "הזמנות"
+
+  /** {@see BPageWholesalerShop} **/
+  dropshipping_reseller_page: {
+    menu: {
+      dashboard: "לוּחַ מַחווָנִים",
+      orders: "הזמנות",
+      wallet: "ארנק",
     },
-    "notifications": {
-      "success_pay": "התשלום שלך עבור הזמנות אלה אושר והושלם בהצלחה."
-    }
   },
-  "dropship_accounts": {
-    "charge_account": "חיוב חשבון",
-    "charge_dialog": {
-      "title": "טען חשבון dropshipping",
-      "amount_input": "חיוב חשבון",
-      "charge_now": "טען עכשיו"
-    }
+
+  /** {@see BPageWholesalerShopDashboard} **/
+  dropshipping_reseller_dashboard: {
+    title: "לוח מחוונים למפיץ",
   },
-  "dropship_admin_dashboard": {
-    "title": "בקשות מפיץ",
-    "today_order_count": "היום הזמנות נחשבות",
-    "yesterday_order_count": "הזמנות אתמול נחשבות",
-    "total_7_days": "סך ההזמנות ב-7 הימים האחרונים"
+
+  /** {@see BPageWholesalerShopOrders} **/
+  dropshipping_reseller_orders: {
+    title: "הזמנות מפיץ",
   },
-  "dropshipping_products": {
-    "no_shops": "מצטערים, לא נמצאה חנות. יהיו עוד חנויות בעתיד כך שתוכל להכניס את המוצרים שלהם לחנות שלך.",
-    "show_all_shops": "הצג את כל החנויות",
-    "show_all_message": "אתה יכול לראות את כל החנויות",
-    "current_shop": "חנות נוכחית",
-    "request_account": "בקש חשבון",
-    "request_accepted": "בקשה התקבלה",
-    "request_rejected": "הבקשה נדחתה",
-    "request_pending": "הבקשה בהמתנה..",
-    "notifications": {
-      "add_product": "מוצר נוסף לחנות שלך.",
-      "request_access": "שלחנו את בקשת הגישה שלך לסיטונאי בהצלחה."
+
+  /** {@see BPageWholesalerShopWallet} **/
+  dropshipping_reseller_wallet: {
+    title: "ארנק משווק",
+  },
+
+  /** @see MasterPaymentDialog **/
+  master_payment: {
+    notifications: {
+      payment_success_title: "אישור תשלום",
+      payment_success: "תשלום בוצע.",
+      buy_title: "לִקְנוֹת",
+      pay_by_giftcards: "ההזמנה שלך שולמה באמצעות כרטיס מתנה.",
+      free_order: "ההזמנה שלך בחינם.",
+      pay_by_cod: "ההזמנה שלך נרשמה כמזומן במשלוח.",
+      pay_by_dir:
+        "ההזמנה שלך נרשמה כתשלום ישיר, אנא השלם את התשלום והעלה את הקבלה בדף ההזמנה שלך.",
+
+      pay_title: "תַשְׁלוּם",
+      qr_code_payment: "נוצר קוד QR לתשלום.",
+      connecting_to_online_gateway: "מתחבר לשער תשלום מקוון.",
     },
-    "show_eligible_shops_message": "הצג חנויות מתאימות"
   },
-  "product_dropshipping": {
-    "need_re_enable": "מוצר זה שונה על ידי המוכר המקורי, שינויים במחירים אלה השביתו את המוצר בחנות שלך. בדוק את השינויים ואם אתה מסכים להפעיל מחדש את המוצר, לחץ על הכפתור למטה.",
-    "need_re_enable_action": "מסכים, החל שינויים והפעלה",
-    "changed_value": "מוצר זה נערך על ידי המוכר המקורי. בדוק את השינויים ואם אתה מסכים להחיל את השינויים על המוצר שלך, לחץ על הכפתור למטה.",
-    "changed_value_action": "מסכים, בצע שינויים",
-    "parent_deleted": "פריט זה הוסר על ידי המוכר המקורי.",
-    "parent_closed": "מוצר זה הושבת על ידי המוכר המקורי! לא תוכל למכור את המוצר הזה בחנות שלך, אבל אם המוכר המקורי יפעיל מחדש את המוצר תוכל להפעיל מחדש את המוצר הזה בחנות שלך.",
-    "notifications": {
-      "re_enable_success": "מוצר זה הופעל מחדש.",
-      "update_success": "מידע על המוצר הזה עודכן עם המידע המקורי על המוצר."
-    }
-  },
-  "product_dropshipping_admin": {
-    "title": "דרופשיפינג",
-    "save_alert": "הגדרות הדרופשיפינג של מוצר זה השתנו. האם אתה רוצה לשמור את השינויים?",
-    "reselling_message": "על ידי הפעלת אפשרות זו, מוכרים אחרים יוכלו להוסיף את המוצר שלך לחנות שלהם.",
-    "reselling": "אפשר Dropshipping",
-    "price_merchants": "מחיר לסוחרים",
-    "price_commission": "עמלת סוחר (קבוע)"
-  },
-  "buy_button": {
-    "waiting_for_availability": "מחכה לזמינות",
-    "inform_me_when_available": "הודע לי כאשר זה זמין!",
-    "pay_buy": "שלם וקנה",
-    "quantity": "לספור",
-    "quantity_in_basket": "פריטים בעגלה",
-    "count_unit": "איקס",
-    "remove": "לְהַסִיר",
-    "add_to_basket": "הוסף לעגלה",
-    "buy": "לִקְנוֹת",
-    "notifications": {
-      "inform_add_success": "נודיע לך כשהיא תהיה זמינה.",
-      "inform_remove_success": "הוסרת מרשימת ההמתנה."
+
+  /** @see DropShippingAccountCharges **/
+  dropship_charges: {
+    notifications: {
+      pay_confirm_message: "התשלום אושר.<br> תאריך: {payment_at}",
+      pay_fail_title: "לא שולם",
+      pay_fail_message: "לא ניתן לאמת תשלום!",
     },
-    "book_now": "להזמין עכשיו",
-    "reserve_now": "הזמן עכשיו",
-    "buy_now": "קנה עכשיו"
   },
-  "product_info": {
-    "fake": "מְזוּיָף",
-    "action": "מכירה פומבית",
-    "compare_limit": "הגבלת 10 פריטים",
-    "compare_add": "הוסף להשוואה",
-    "compare_be_in_list": "ברשימת השוואה",
-    "type": "סוּג",
-    "brand": "מותג",
-    "category": "קטגוריה",
-    "discount": "הנחה",
-    "track_price": "מחיר מסלול",
-    "waiting_for_auction": "מחכה למכירה פומבית?",
-    "inform_auction": "הודע לי בעת המכירה הפומבית",
-    "return_in_days": "החזרת אחריות של {days} ימים",
-    "support24h7": "תמיכה 24 שעות 7 ימים",
-    "support_normal": "תמיכה בשעות עבודה",
-    "original_guarantee": "אחריות מקורית",
-    "cod_payment": "תמיכת מזומן במשלוח",
-    "pros": "יתרונות",
-    "cons": "חסרונות",
-    "external_link": "קרא עוד",
-    "notifications": {
-      "congratulation": "מזל טוב",
-      "waiting_list_add_success": "אנו נודיע לך כאשר מוצר זה יימכר במכירה פומבית.",
-      "waiting_list_delete_success": "יצאת מרשימת ההמתנה למכירה הפומבית."
+
+  /** @see BPageShopFinanceResellerFulfillment **/
+  dropship_checkout: {
+    pay_dialog: {
+      title: "מפיץ מזמין תשלום",
+      balance: "יתרת החשבון שלך",
+      total_cost: "סך עלות ההזמנות",
+      need_charge: "צריך להטעין",
+      no_account_cation: "אין לך חשבון! התקשר לסיטונאי.",
+      orders: "הזמנות",
     },
-    "offer_message": "קנה {min_quantity} קבל הנחה של {percent}% עבור פריטים אלה",
-    "up_to": "עד {per_order}x להזמנה",
-    "get_free": "לקבל ללא תשלום",
-    "get_off": "קבל {percent}% הנחה"
-  },
-  "styler": {
-    "size_class": "מידה ומחלקה",
-    "delete_bg": "מחק תמונת רקע",
-    "bg_color": "צבע רקע",
-    "section_style": "הגדר סגנון מקטע",
-    "link": "הגדר קישור",
-    "show_products": "ניהול רשימת מוצרים / קטגוריות",
-    "show_product": "בחר מוצר",
-    "delete_section": "מחק קטע",
-    "text_color": "צבע טקסט",
-    "tex_align": "יישור טקסט",
-    "text_style": "סגנון טקסט",
-    "bg_image": "תמונת רקע",
-    "product": {
-      "title": "בחר מוצר"
+    notifications: {
+      success_pay:
+        "התשלום שלך עבור הזמנות אלה אושר והושלם בהצלחה.",
     },
-    "products": {
-      "title": "ניהול רשימת מוצרים וקטגוריות",
-      "sort_options": "בחר בהגדרות מיון ותצוגה",
-      "item_types": "הצג רק מוצרים/קטגוריות",
-      "product_only": "מוצרים בלבד",
-      "category_only": "קטגוריות בלבד",
-      "no_category": "אין קטגוריה בחנות שלך.",
-      "limit": "הגבלת מוצרים",
-      "limit_message": "הזן ספירות של תוצאות מוצרים",
-      "select_categories": "בחר קטגוריות זמינות",
-      "categories_limit": "הגבלת קטגוריות",
-      "categories_limit_msg": "הזן את המספר המרבי של קטגוריות. הגדר אפס ללא הגבלה."
-    }
   },
-  "shop_contacts": {
-    "popup": "אפשר תמיכה בחלונות קופצים",
-    "popup_message": "על ידי הפעלת אפשרות זו, מפתח התמיכה יראה בפינה השמאלית התחתונה של החנות שלך."
-  },
-  "popup_page": {
-    "preview": "צפה בפופאפ חי",
-    "menu": {
-      "design": "לְעַצֵב",
-      "appearance": "מראה חיצוני",
-      "filter": "לְסַנֵן",
-      "setting": "הגדרה"
+  /** @see BPageShopFinanceResellerWallets **/
+  dropship_accounts: {
+    charge_account: "חיוב חשבון",
+    charge_dialog: {
+      title: "טען חשבון dropshipping",
+      amount_input: "חיוב חשבון",
+      charge_now: "טען עכשיו",
     },
-    "notifications": {
-      "save": "חלון קופץ נשמר בהצלחה.",
-      "edit": "חלון קופץ עודכן בהצלחה."
-    }
   },
-  "popup_appearance": {
-    "position": "עמדה",
-    "position_desc": "ציין את מיקום התצוגה של הודעה זו בדף.",
-    "width": "רוֹחַב",
-    "width_desc": "אתה יכול להגדיר את רוחב העמוד המרבי.",
-    "height": "גוֹבַה",
-    "height_desc": "אתה יכול להגדיר את גובה העמוד המרבי.",
-    "radius": "רדיוס פינה",
-    "radius_desc": "בחלק זה ניתן להגדיר את רדיוס העקמומיות של פינות ההודעה.",
-    "shadow": "צֵל",
-    "shadow_desc": "האם אתה רוצה שהחלון הקופץ יהיה מוצל?",
-    "delay": "הצג עיכוב",
-    "delay_desc": "ברגע שהמשתמש נכנס לחנות שלך, לאחר פרק זמן זה, תוצג הודעה למשתמש.",
-    "hide": "הסתר עיכוב",
-    "hide_desc": "אתה יכול להגדיר שההודעה תיסגר אוטומטית כמה שניות לאחר ההופעה. ערך 0 פירושו שההודעה לא תיסגר אוטומטית.",
-    "transition": "אנימציה קופצת"
+
+  /** @see BPageWholesalerDashboard **/
+  dropship_admin_dashboard: {
+    title: "בקשות מפיץ",
+    today_order_count: "היום הזמנות נחשבות",
+    yesterday_order_count: "הזמנות אתמול נחשבות",
+    total_7_days: "סך ההזמנות ב-7 הימים האחרונים",
   },
-  "popup_filter": {
-    "registered": "דרישת חברות וכניסה",
-    "registered_desc": "אתה יכול לבחור להציג הודעה זו רק למשתמשי חנות או לאורחים.",
-    "only_guests": "רק אורחים",
-    "only_users": "רק משתמשים מחוברים",
-    "purchased": "היסטוריית רכישות",
-    "purchased_desc": "אתה יכול לבחור להציג הודעה זו רק למשתמשים שכבר רכשו או למשתמשים שטרם רכשו.",
-    "no_purchase": "אין עדיין רכישה",
-    "yes_purchase": "נרכש לפני",
-    "sex": "מִין",
-    "sex_desc": "האם אתה רוצה שהתראה זו תוצג רק למשתמשים ממין ספציפי?",
-    "age": "גיל מינימום",
-    "age_desc": "אם הוזן ערך כלשהו הגדול מ-6, המשתמש חייב להיות מחובר וחייב להזין את תאריך הלידה שלו.",
-    "levels": "רמות מועדון לקוחות",
-    "levels_desc": "אם למשתמש יש אחת מהרמות הנבחרות למטה, התראה זו תוצג לו.",
-    "countries": "הגבלות מיקום",
-    "countries_desc": "האם אתה רוצה שהתראה זו תוצג רק למשתמשים המגיעים ממדינה מסוימת?"
-  },
-  "popup_setting": {
-    "published": "סטטוס פורסם",
-    "repeat": "חזור",
-    "repeat_msg": "האם אתה רוצה שהתראה זו תוצג למשתמש יותר מפעם אחת?",
-    "intervals": "משך הזמן של התצוגה הקופצת",
-    "intervals_msg": "משך הזמן המינימלי בין הצגת הודעות למשתמש חייב לעבור.",
-    "designer_zone": "אזור מעצבים",
-    "title": "כותרת קופצת",
-    "note": "הערת מעצב",
-    "image": "תמונת שער",
-    "delete": {
-      "title": "לִמְחוֹק",
-      "sub_title": "ברגע שאתה מוחק חלון קופץ, אין חזרה. נא להיות בטוחים.",
-      "action": "מחק קופץ זה"
+
+  /** @see BProductAddDropshipping **/
+  dropshipping_products: {
+    no_shops:
+      "מצטערים, לא נמצאה חנות. יהיו עוד חנויות בעתיד כך שתוכל להכניס את המוצרים שלהם לחנות שלך.",
+    show_all_shops: "הצג את כל החנויות",
+    show_eligible_shops_message: "הצג חנויות מתאימות",
+    show_all_message: "אתה יכול לראות את כל החנויות",
+    current_shop: "חנות נוכחית",
+    request_account: "בקש חשבון",
+    request_accepted: "בקשה התקבלה",
+    request_rejected: "הבקשה נדחתה",
+    request_pending: "הבקשה בהמתנה..",
+    notifications: {
+      add_product: "מוצר נוסף לחנות שלך.",
+      request_access:
+        "שלחנו את בקשת הגישה שלך לסיטונאי בהצלחה.",
     },
-    "notifications": {
-      "delete": "חלון קופץ נמחק."
-    }
   },
-  "shop_sms": {
-    "title": "נהל SMS",
-    "sub_title": "תבניות SMS נשלחות ללקוחות",
-    "message": "אתה יכול לראות את תוכן הודעות הטקסט שנשלחות מהחנות שלך כאן. בשל המגבלה ברישום דפוסי האימות בשירות ההודעות, לא ניתן לבצע התאמה אישית של הודעות הטקסט כרגע."
-  },
-  "shop_emails": {
-    "title": "נהל מיילים",
-    "sub_title": "תוכל לראות את רשימת המיילים שנשלחו על ידי החנות ללקוחות ולמנהלים בחלק זה. הודעות אימייל מעוצבות ויוצרות באופן אוטומטי על סמך המידע שהזנת עבור החנות שלך. כמו כן, האפשרות להתאמה אישית של הודעות ותמונות תהיה זמינה לציבור בעתיד."
-  },
-  "instagram": {
-    "title": "מכירות באינסטגרם",
-    "message": "בעזרת הכלי הזה תוכלו להפוך את האינסטגרם שלכם לחנות. פשוט הוסף ואשר את חשבון האינסטגרם שלך כאן, ואז תוכל לפרסם מוצר אחד או יותר מכל פוסט או בסטורי שלך, להוסיף ולתייג את רשימת המוצרים שלך או להפוך פוסט למוצר חדש!",
-    "add_product": "הוסף מוצר חדש",
-    "create_product": "צור מוצר",
-    "link_box_msg": "שים את הקישור הזה בביו שלך באינסטגרם, בטלגרם או במדיה חברתית אחרת כדי שהקהל שלך יוכל לקנות מהר יותר, קל יותר, יותר ולבסוף יותר.",
-    "remove_account": "שנה/הסר קישור לאינסטגרם",
-    "sync": "סנכרון נתוני חשבון (כל 60 דקות)"
-  },
-  "service_bill": {
-    "task": {
-      "title": "רשימת מטלות",
-      "message": "כתוב את הכותרות של העבודה שאתה רוצה לעשות וידע את הקונה עד כמה היא התקדמה."
+
+  /** @see BProductDropshippingAbstractView **/
+  product_dropshipping: {
+    need_re_enable:
+      "מוצר זה שונה על ידי המוכר המקורי, שינויים במחירים אלה השביתו את המוצר בחנות שלך. בדוק את השינויים ואם אתה מסכים להפעיל מחדש את המוצר, לחץ על הכפתור למטה.",
+    need_re_enable_action: "מסכים, החל שינויים והפעלה",
+    changed_value:
+      "מוצר זה נערך על ידי המוכר המקורי. בדוק את השינויים ואם אתה מסכים להחיל את השינויים על המוצר שלך, לחץ על הכפתור למטה.",
+    changed_value_action: "מסכים, בצע שינויים",
+    parent_deleted: "פריט זה הוסר על ידי המוכר המקורי.",
+    parent_closed:
+      "מוצר זה הושבת על ידי המוכר המקורי! לא תוכל למכור את המוצר הזה בחנות שלך, אבל אם המוכר המקורי יפעיל מחדש את המוצר תוכל להפעיל מחדש את המוצר הזה בחנות שלך.",
+    notifications: {
+      re_enable_success: "מוצר זה הופעל מחדש.",
+      update_success:
+        "מידע על המוצר הזה עודכן עם המידע המקורי על המוצר.",
     },
-    "booking": {
-      "title": "הזמנה / הזמנה",
-      "message": "הזמנה זו תטופל במועד מוגדר, הלקוח בחר את התקופה הרצויה, אם ברצונך לבצע שינויים כלשהם בתקופה שנבחרה, יידע את הלקוח.",
-      "selected_checkin": "תאריך הכניסה של הלקוח שנבחר",
-      "selected_checkout": "תאריך יציאה נבחר של הלקוח",
-      "change_days_question": "האם עליך לשנות במהלך הימים שנבחרו על ידי הלקוח?",
-      "show_calendar": "הצג את לוח ההזמנות"
+  },
+
+  /** @see BPageProductDropshipping **/
+  product_dropshipping_admin: {
+    title: "דרופשיפינג",
+    save_alert:
+      "הגדרות הדרופשיפינג של מוצר זה השתנו. האם אתה רוצה לשמור את השינויים?",
+    reselling_message:
+      "על ידי הפעלת אפשרות זו, מוכרים אחרים יוכלו להוסיף את המוצר שלך לחנות שלהם.",
+    reselling: "אפשר Dropshipping",
+    price_merchants: "מחיר לסוחרים",
+    price_commission: "עמלת סוחר (קבוע)",
+  },
+
+  /** @see SShopBuyButton **/
+
+  buy_button: {
+    waiting_for_availability: "מחכה לזמינות",
+    inform_me_when_available: "הודע לי כאשר זה זמין!",
+    pay_buy: "שלם וקנה",
+    quantity: "לספור",
+    quantity_in_basket: "פריטים בעגלה",
+    count_unit: "איקס",
+    remove: "לְהַסִיר",
+    add_to_basket: "הוסף לעגלה",
+    book_now: "להזמין עכשיו",
+    reserve_now: "הזמן עכשיו",
+    buy_now: "קנה עכשיו",
+
+    buy: "לִקְנוֹת",
+    notifications: {
+      inform_add_success: "נודיע לך כשהיא תהיה זמינה.",
+      inform_remove_success: "הוסרת מרשימת ההמתנה.",
     },
-    "pricing": {
-      "title": "תמחור",
-      "message": "כמה אתם גובים עבור השירות הזה?"
+  },
+  /** @see SProductOverview **/
+  product_info: {
+    fake: "מְזוּיָף",
+    action: "מכירה פומבית",
+    compare_limit: "הגבלת 10 פריטים",
+    compare_add: "הוסף להשוואה",
+    compare_be_in_list: "ברשימת השוואה",
+
+    type: "סוּג",
+    brand: "מותג",
+    category: "קטגוריה",
+    discount: "הנחה",
+    track_price: "מחיר מסלול",
+    waiting_for_auction: "מחכה למכירה פומבית?",
+    inform_auction: "הודע לי בעת המכירה הפומבית",
+    return_in_days: "החזרת אחריות של {days} ימים",
+    support24h7: "תמיכה 24 שעות 7 ימים",
+    support_normal: "תמיכה בשעות עבודה",
+    original_guarantee: "אחריות מקורית",
+    cod_payment: "תמיכת מזומן במשלוח",
+
+    pros: "יתרונות",
+    cons: "חסרונות",
+
+    external_link: "קרא עוד",
+    notifications: {
+      congratulation: "מזל טוב",
+      waiting_list_add_success:
+        "אנו נודיע לך כאשר מוצר זה יימכר במכירה פומבית.",
+      waiting_list_delete_success: "יצאת מרשימת ההמתנה למכירה הפומבית.",
     },
-    "subscription": {
-      "title": "מִנוּי",
-      "message": "אתה יכול לבחור את תקופת המנוי על ידי רכישת שירות זה על בסיס יומי. יידעו את הקונה אם ברצונכם לשנות את ערכי ברירת המחדל שכבר הזנתם.",
-      "duration": "תקופת מנוי"
+
+    offer_message: "קנה {min_quantity} קבל הנחה של {percent}% עבור פריטים אלה",
+    up_to: "עד {per_order}x להזמנה",
+    get_free: "לקבל ללא תשלום",
+    get_off: "קבל {percent}% הנחה",
+  },
+
+  /** @see SStyler **/
+  styler: {
+    size_class: "מידה ומחלקה",
+    delete_bg: "מחק תמונת רקע",
+    bg_color: "צבע רקע",
+    section_style: "הגדר סגנון מקטע",
+    link: "הגדר קישור",
+    show_products: "ניהול רשימת מוצרים / קטגוריות",
+    show_product: "בחר מוצר",
+    delete_section: "מחק קטע",
+    text_color: "צבע טקסט",
+    tex_align: "יישור טקסט",
+    text_style: "סגנון טקסט",
+    bg_image: "תמונת רקע",
+
+    product: {
+      title: "בחר מוצר",
     },
-    "charge": {
-      "title": "לחייב",
-      "message": "ציינת חיוב עבור פריט זה. ניתן לשנות את סכום החיוב עבור הפריט שרכש הלקוח.",
-      "charge": "לחייב"
+
+    /** @see SPageProductsFilter **/
+    products: {
+      title: "ניהול רשימת מוצרים וקטגוריות",
+      sort_options: "בחר בהגדרות מיון ותצוגה",
+      item_types: "הצג רק מוצרים/קטגוריות",
+      product_only: "מוצרים בלבד",
+      category_only: "קטגוריות בלבד",
+      no_category: "אין קטגוריה בחנות שלך.",
+      limit: "הגבלת מוצרים",
+      limit_message: "הזן ספירות של תוצאות מוצרים",
+      select_categories: "בחר קטגוריות זמינות",
+      categories_limit: "הגבלת קטגוריות",
+      categories_limit_msg:
+        "הזן את המספר המרבי של קטגוריות. הגדר אפס ללא הגבלה.",
     },
-    "save_item": "אמת והגדר",
-    "start_service": "התחל שירות",
-    "end_service": "סיים"
   },
-  "service_tasks": {
-    "notification_finish": {
-      "title": "סיום השירות",
-      "message": "אם זה נעשה, הקש על מקש האישור כדי להשלים ולסגור את ההזמנה.",
-      "action": "אשר והשלם את ההזמנה"
-    }
+
+  /** @see BPageShopCrmChat **/
+  shop_contacts: {
+    popup: "אפשר תמיכה בחלונות קופצים",
+    popup_message:
+      "על ידי הפעלת אפשרות זו, מפתח התמיכה יראה בפינה השמאלית התחתונה של החנות שלך.",
   },
-  "product_outputs": {
-    "outputs_form": "מבנה המידע של התצוגה (פלט)",
-    "virtual": {
-      "title": "טופס מידע על פלט מוצר",
-      "sub_title": "המידע שברצונך להציג למשתמש לאחר הרכישה. טופס זה מתאים במיוחד למכירת מוצרים וירטואליים כגון כרטיס מתנה."
+
+  /** @see BPagePopup **/
+  popup_page: {
+    preview: "צפה בפופאפ חי",
+
+    menu: {
+      design: "לְעַצֵב",
+      appearance: "מראה חיצוני",
+      filter: "לְסַנֵן",
+      setting: "הגדרה",
     },
-    "service": {
-      "title": "עיצוב שירות",
-      "sub_title": "תחילה בחר את סוג השירות שלך והזן את המידע הנדרש. לדוגמה, ניתן להגדיר רשימת מטלות או לבקש מהלקוח זמן הזמנה או פגישה."
-    }
-  },
-  "service_design": {
-    "type": "סוג שירות",
-    "type_message": "בחר את סוג השירות שאתה מספק עבור מוצר זה. בבחירה בכל פריט יוצג הטופס הרלוונטי. בהתאם לסוג השירות שתבחר, ייתכן שיתקבל מידע נוסף מהלקוח בעת ההזמנה."
-  },
-  "ServiceTypes": {
-    "DEMAND": {
-      "title": "לפי דרישה",
-      "desc": "כגון תיקוני בית, צביעה, תיקון רכב וכו'."
+    notifications: {
+      save: "חלון קופץ נשמר בהצלחה.",
+      edit: "חלון קופץ עודכן בהצלחה.",
     },
-    "BOOKING": {
-      "title": "הזמנה",
-      "desc": "כמו הזמנת חדר במלון או וילה."
+  },
+  /** @see LMenuLeftPopupAppearance **/
+  popup_appearance: {
+    position: "עמדה",
+    position_desc:
+      "ציין את מיקום התצוגה של הודעה זו בדף.",
+    width: "רוֹחַב",
+    width_desc: "אתה יכול להגדיר את רוחב העמוד המרבי.",
+    height: "גוֹבַה",
+    height_desc: "אתה יכול להגדיר את גובה העמוד המרבי.",
+    radius: "רדיוס פינה",
+    radius_desc:
+      "בחלק זה ניתן להגדיר את רדיוס העקמומיות של פינות ההודעה.",
+    shadow: "צֵל",
+    shadow_desc: "האם אתה רוצה שהחלון הקופץ יהיה מוצל?",
+    delay: "הצג עיכוב",
+    delay_desc:
+      "ברגע שהמשתמש נכנס לחנות שלך, לאחר פרק זמן זה, תוצג הודעה למשתמש.",
+    hide: "הסתר עיכוב",
+    hide_desc:
+      "אתה יכול להגדיר שההודעה תיסגר אוטומטית כמה שניות לאחר ההופעה. ערך 0 פירושו שההודעה לא תיסגר אוטומטית.",
+    transition: "אנימציה קופצת",
+  },
+
+  /** @see BPagePopupFilter **/
+  popup_filter: {
+    registered: "דרישת חברות וכניסה",
+    registered_desc:
+      "אתה יכול לבחור להציג הודעה זו רק למשתמשי חנות או לאורחים.",
+    only_guests: "רק אורחים",
+    only_users: "רק משתמשים מחוברים",
+    purchased: "היסטוריית רכישות",
+    purchased_desc:
+      "אתה יכול לבחור להציג הודעה זו רק למשתמשים שכבר רכשו או למשתמשים שטרם רכשו.",
+    no_purchase: "אין עדיין רכישה",
+    yes_purchase: "נרכש לפני",
+    sex: "מִין",
+    sex_desc:
+      "האם אתה רוצה שהתראה זו תוצג רק למשתמשים ממין ספציפי?",
+    age: "גיל מינימום",
+    age_desc:
+      "אם הוזן ערך כלשהו הגדול מ-6, המשתמש חייב להיות מחובר וחייב להזין את תאריך הלידה שלו.",
+    levels: "רמות מועדון לקוחות",
+    levels_desc:
+      "אם למשתמש יש אחת מהרמות הנבחרות למטה, התראה זו תוצג לו.",
+    countries: "הגבלות מיקום",
+    countries_desc:
+      "האם אתה רוצה שהתראה זו תוצג רק למשתמשים המגיעים ממדינה מסוימת?",
+  },
+
+  /** @see BPagePopupSetting **/
+  popup_setting: {
+    published: "סטטוס פורסם",
+    repeat: "חזור",
+    repeat_msg:
+      "האם אתה רוצה שהתראה זו תוצג למשתמש יותר מפעם אחת?",
+    intervals: "משך הזמן של התצוגה הקופצת",
+    intervals_msg:
+      "משך הזמן המינימלי בין הצגת הודעות למשתמש חייב לעבור.",
+    designer_zone: "אזור מעצבים",
+    title: "כותרת קופצת",
+    note: "הערת מעצב",
+    image: "תמונת שער",
+    delete: {
+      title: "לִמְחוֹק",
+      sub_title:
+        "ברגע שאתה מוחק חלון קופץ, אין חזרה. נא להיות בטוחים.",
+      action: "מחק קופץ זה",
     },
-    "APPOINTMENT": {
-      "title": "קביעת פגישה",
-      "desc": "כמו פגישה לטיפול בחיות מחמד או הדרכה אישית."
+    notifications: {
+      delete: "חלון קופץ נמחק.",
     },
-    "RENTAL": {
-      "title": "השכרה",
-      "desc": "כמו לשכור מקום או רכב."
+  },
+
+  /**
+   *  {@see BPageShopSettingSms}
+   *  {@see BShopSmsTemplateList}
+   *  {@see BShopSmsTemplateEditor}
+   *
+   **/
+  shop_sms: {
+    tabs: {
+      templates: "טאמפלאטאס",
+      provider: "פרווידאר",
     },
-    "SUBSCRIPTION": {
-      "title": "מִנוּי",
-      "desc": "כמו חברות במועדון או אימון מקוון."
+
+    manage: {
+      title: "נהל SMS",
+      subtitle:
+        "יוו קאנ סאא טהא קונטאנט ופ טהא טקסט הודעה סאנט בי יוור חנות הארא. דוא טו טהא לימיטאטיונ ינ ראגיסטארינג טהא ואלידאטיונ פאטטארנס ינ טהא מאססאגינג שירות, יט יס לא פוססיבלא טו פארסונאליזא טהא טקסט הודעה אט טהא מומאנט.",
     },
-    "CHARGE": {
-      "title": "לחייב",
-      "desc": "כגון חיוב חשבון או חיוב לשימוש באפליקציה."
-    },
-    "CUSTOM": {
-      "title": "המותאם אישית",
-      "desc": "בחר באפשרות זו אם השירות שאתה מספק אינו אחד מהאפשרויות לעיל."
-    }
-  },
-  "avocado": {
-    "title": "מכירה מהירה, מדויקת ומהנה בכל המדיה החברתית",
-    "message": "סכום אחד ותואר אחד זה כל מה שאתה צריך כדי לקבל כסף מהלקוחות שלך! הכסף יזוכה ישירות לחשבונך וללקוחותיך תהיה חווית קנייה ייחודית.",
-    "new_order": "הצעת חוק חדשה",
-    "create_by_seller_title": "צור חשבונית",
-    "create_by_seller_message": "אם אתה רוצה ליצור חשבונית עם סכום מסוים ולשלוח אותה למישהו, אתה יכול ללחוץ על הכפתור למטה כדי להציג את טופס החשבונית. תן קישור שנוצר לקונה כדי לשלם ולעקוב אחר ההזמנה שלו דרכו.",
-    "create_by_buyer_title": "צורת אבוקדו",
-    "create_by_buyer_message": "על ידי הפעלת סעיף זה, קישור יוצג לך, ספק קישור זה לקונים שלך כדי שהם יוכלו לבצע את ההזמנה שלהם.",
-    "orders_list": "רשימת הזמנות",
-    "active_mode": "קבלת הזמנה פעילה",
-    "inactive_mode": "לֹא פָּעִיל",
-    "active_message": "על ידי הפעלת מקור זה, הלקוחות שלך יוכלו לבצע הזמנה עבור המוצר באמצעות טופס הבקשה שאתה רואה למטה.",
-    "avocado_form_link_message": "שים את הקישור הזה בביו שלך באינסטגרם, בטלגרם או במדיה חברתית אחרת כדי שהקהל שלך יוכל לקנות מהר יותר, קל יותר ולבסוף יותר",
-    "need_address": "קבל כתובת",
-    "need_address_msg": "אם אתה צריך לקבל את המיקום והכתובת של הקונה, בחר באפשרות זו.",
-    "avocado_link_message": "מספיק לספק את הקישור לעיל ללקוח כדי לשלם את ההזמנה. הלקוח יוכל לעקוב אחר ההזמנה דרך קישור זה.",
-    "edit_order": "ערוך הזמנה",
-    "progress": "קצב התקדמות",
-    "buyer_link": "קישור לקונה",
-    "buyer_link_message": "ספק את הקישור הזה לקונה שלך. הקונה יוכל לשלם ולעקוב אחר הזמנתו באמצעות קישור זה. קישור זה מקודד, אם הקישור יסופק למישהו, הוא יוכל לשלם ולראות את המידע. קישור זה יהיה פעיל למשך 60 יום. לחץ על הקישור למטה כדי להעתיק.",
-    "OrderConfirm_done": "ההזמנה אושרה.",
-    "OrderConfirm_message": "אם אתה מאשר את התשלום וההזמנה נכונה, לחץ על הכפתור למטה.",
-    "OrderConfirm_action": "אישור הזמנה",
-    "PreparingOrder_message": "אם הזמנת הלקוח מוכנה למשלוח, לחץ על הלחצן אישור למטה.",
-    "PreparingOrder_action": "ההזמנה מוכנה למשלוח",
-    "finish_message": "אם הזמנה זו הושלמה, לחץ על כפתור הסיום כדי לסגור הזמנה זו.",
-    "finish_action": "עיבוד הזמנה מלא",
-    "finish_dialog": {
-      "title": "השלם את ההזמנה",
-      "message": "האם ההזמנה הושלמה ואתה בטוח שברצונך לסגור אותה?",
-      "action": "כן, אשר את השלמת ההזמנה"
-    },
-    "configuration": "הגדרות אבוקדו",
-    "delivery_price": "מחיר משלוח",
-    "edit_avocado_action": "ערוך מידע",
-    "submit_pricing_avocado_action": "שלח את תמחור ההזמנה",
-    "add_avocado_action": "צור קישור לחשבונית",
-    "avocados_list": "רשימת אבוקדו",
-    "not_pricing": "פריט זה אינו מתומחר!",
-    "show_all": "תראה הכול",
-    "show_accepted": "הצג פריטים מאושרים",
-    "notifications": {
-      "update_success": "אבוקדו עודכן בהצלחה.",
-      "add_success": "אבוקדו נוצר בהצלחה."
-    },
-    "name": "אבוקדו"
-  },
-  "avocado_orders": {
-    "title": "אבוקדו",
-    "title_small": "מכירות מדיה חברתית",
-    "pending_orders": "הזמנות פעילות",
-    "avocado": "להזמין אבוקדו"
-  },
-  "avocado_process": {
-    "step1": "תמחור",
-    "step1_msg": "הזינו את המחיר של כל פריט וסמנו את התיבה הירוקה. אם לא ניתן למכור פריט, שנה את הסטטוס שלו לדחייה.",
-    "step2": "אשר חשבונית",
-    "step2_msg": "צור חשבונית עבור הזמנה זו. ניתן להזין כותרת ותיאור עבור החשבונית. סכום ההזמנה מחושב על סמך המחיר הכולל של הפריטים באופן אוטומטי.",
-    "title_input": "כותרת החשבונית *",
-    "show_to_customer": "מידע זה מוצג לקונה.",
-    "description_msg": "האם ברצונך לכתוב הערה עבור הזמנה זו? מידע זה יוצג לקונה.",
-    "price_input": "כמות הזמנה *",
-    "tax_none": "ללא תשלום מס",
-    "tax_included": "כלול במחיר",
-    "tax_add": "הוסף מס",
-    "tax_message": "אתה יכול לבחור אם מס כלול במחיר או לא.",
-    "tax_included_messages": "מס כלול במחיר.",
-    "tax_add_messages": "יש להוסיף מס למחיר הסופי."
-  },
-  "hyper": {
-    "print_label": "הדפס את התווית הבאה והנח אותה מול המוצר",
-    "hyper_form_link_product_message": "הלקוחות שלך יוכלו לקנות {product} במהירות באמצעות קישור זה. הם גם יכנסו לאותו קישור על ידי סריקת קוד ה-QR.",
-    "title": "היפר מהיר מכירה",
-    "message": "בעזרת ערוץ המכירות Hyper Seldone, הלקוחות שלכם יוכלו לקנות מוצרים על ידי סריקת קוד QR ללא צורך בפעולה מצדכם. השתמש בדרך זו כדי למכור במהירות כמה פריטים בפסטיבלים, תערוכות או טקסים עמוסים במספרים גדולים. לאחר הפעלת Hyper בסעיף זה, תוכל ליצור קוד היפר QR עבור מוצרים פיזיים בסעיף ניהול מוצר.",
-    "orders_list": "רשימת הזמנות היפר",
-    "active_mode": "ערוץ מכירות היפר הופעל",
-    "inactive_mode": "לֹא פָּעִיל",
-    "active_message": "אם תפעיל אפשרות זו, האפשרות ליצור קודי מכירה מהירים תוצג בחלק הניהול של כל מוצר.",
-    "hyper_form_link_message": "קישור היפר דף של החנות שלך",
-    "configuration": "הגדרות היפר",
-    "name": "יֶתֶר"
-  },
-  "hyper_orders": {
-    "title": "יֶתֶר",
-    "title_small": "דוח מכירות",
-    "hyper": "קיבלו הזמנות"
-  },
-  "product_file": {
-    "no_file": "עדיין לא הועלה קובץ!",
-    "delete_dialog": {
-      "title": "מחק קובץ",
-      "message": "האם אתה בטוח שתמחק את הקובץ הזה?",
-      "action": "כן, מחק עכשיו"
-    },
-    "notifications": {
-      "delete_success": "הקובץ נמחק בהצלחה."
-    }
-  },
-  "notification_top_bar": {
-    "free_charge": "🎊 חייב {amount} וקבל זיכוי בסך {amount_total}.",
-    "charge_action": "תביעת אשראי חינם",
-    "claim_title": "תבע את האשראי בחינם שלך",
-    "claim_charge_caution": "הערה: לא ניתן להמיר מטבעות בין חשבונות הארנק שלך. לכן, בחר חשבון המתאים למטבע המומרת בחנות שלך.",
-    "account_input": "חשבון פיקדון",
-    "account_msg": "חיוב יחול על חשבון זה"
-  },
-  "selldone_applications": {
-    "title": "אל תחמיצו את ההזמנות שלכם!",
-    "msg": "נהל את העסק שלך בכל מקום ובכל זמן."
-  },
-  "shop_seo": {
-    "title": "תצורת SEO",
-    "msg": "העבר מהר לשיווק מקוון על ידי העצמת ערוצי רכישת לקוחות אורגניים.",
-    "auto": {
-      "title": "מנוע קידום אתרים אוטומטי",
-      "msg": "ספק חוויית סלולר חלקה לקהל ולמנועי החיפוש באתר שלך."
-    },
-    "amp": {
-      "title": "AMP",
-      "msg": "יצירה אוטומטית מואצת של דפים ניידים."
-    }
-  },
-  "shop_preferences": {
-    "order": {
-      "title": "הזמנות",
-      "desc": "אם לקוח משלם את ההזמנה, יישלח לכתובת זו מייל המכיל את פרטי ההזמנה."
-    },
-    "return": {
-      "title": "לַחֲזוֹר",
-      "desc": "אם המוצר יוחזר על ידי הקונה, דוא\"ל זה יישלח. שליחת אימייל זה תלויה בתוכנית שרכשת."
-    },
-    "pos": {
-      "title": "POS",
-      "desc": "דוח מכירת קופה יישלח לאימייל זה."
-    },
-    "avocado": {
-      "title": "אבוקדו",
-      "desc": "שלח דוח יומי של הזמנות אבוקדו."
-    },
-    "accounting": {
-      "title": "חשבונאות",
-      "desc": "אחסן דוחות ועדכונים פיננסיים."
-    },
-    "subscription": {
-      "title": "מנויים",
-      "desc": "סטטוס תוכנית שנרכשה לאחרונה בהתאמה להודעות התחלה וסיום של מנוי."
-    },
-    "technical": {
-      "title": "טֶכנִי",
-      "desc": "התראות טכניות על סטטוס דומיין ושירות."
-    },
-    "report": {
-      "title": "דיווחים",
-      "desc": "דוחות שבועיים וחודשיים יישלחו למייל זה"
-    },
-    "review": {
-      "title": "סקירה",
-      "desc": "אם תצטרכו לאשר תהליך בחנות, המייל הרלוונטי יישלח לכתובת זו. למשל לאשר שליחת מייל שיווקי למשתמשי החנות."
-    }
-  },
-  "shop_languages": {
-    "title": "שפות חנות",
-    "sub_title": "התקן והפעל חבילות תרגום אוטומטי לחנות.",
-    "message": "אתה יכול להתקין עד 10 חבילות שפה בחנות שלך. צור איתנו קשר אם אתה צריך להתקין חבילות נוספות."
-  },
-  "invite_friends": {
-    "title": "ספר על העסק שלך לעולם!",
-    "msg": "הכירו את Seldone לחברים שלכם. הם יקבלו שובר של 99 דולר לחברה כשהם נרשמים, ותקבל שובר הפעלה של 15 דולר ברגע שהם ישלימו את העסקה הראשונה שלהם.",
-    "invite": {
-      "title": "הצטרף למערכת ההפעלה העסקית של Seldone כדי לקבל שובר חינם של $99.",
-      "description": "אני מזמין אותך ל-Seldone כדי להתחיל את העסק שלך באינטרנט עם כלי נפלא.",
-      "hashtags": "מסחר אלקטרוני, בונה אתרים",
-      "quot": "בניתי חנות מקוונת על ידי Seldone, אתה יכול גם לעשות את העסק שלך עכשיו."
-    }
-  },
-  "shops_list": {
-    "title": "החנויות שלי",
-    "message": "רשימה של חנויות משלי, חנויות מותרות ודוגמאות."
-  },
-  "shipping": {
-    "warehouse_error": "תחילה הגדר את המחסן שלך! כתובת זו תשמש כמקור המשלוח.",
-    "errors": {
-      "set_origin": "הגדר את מפת המיקום שלך.",
-      "set_country": "הגדר את המדינה שלך.",
-      "set_address": "הגדר את הכתובת שלך.",
-      "set_zip": "הגדר את המיקוד שלך."
-    },
-    "set_warehouse": "סט מחסן",
-    "pickup_location": "בחר מיקום",
-    "refresh_rates": "שיעורי רענון",
-    "no_rate": "אין שיעור...",
-    "view_messages": "צפה בהודעות...",
-    "not_set_yet": "עדיין לא מוגדר!",
-    "drop_orders_here": "זרוק הזמנות כאן..."
-  },
-  "blog_category": {
-    "title": "קטגוריות בלוג",
-    "add_action": "הוסף קטגוריה חדשה",
-    "add_dialog": {
-      "title": "חדש / עדכון קטגוריה",
-      "force_edit": "כפוי נתיב עריכה",
-      "force_edit_msg": "שנה את שם הקטגוריה ועדכן את כל המאמרים.",
-      "star_msg": "לקטגוריות בוהות יש עדיפות להצגה בבלוג.",
-      "star": "בהה",
-      "delete_action": "מחק קטגוריה",
-      "add_action": "הוסף קטגוריה",
-      "edit_action": "ערוך קטגוריה"
-    }
-  },
-  "about_us": {
-    "title": "עמוד אודותינו",
-    "subtitle": "כתוב מאמר על העסק שלך להצגה בדף אודותינו. דף זה יעזור לקהל שלך להכיר את המותג והייעוד שלך."
-  },
-  "terms": {
-    "title": "עמוד תנאי השירות",
-    "subtitle": "הסבר ללקוחותיך את תנאי הרכישה והשימוש בשירותיך."
-  },
-  "privacy": {
-    "title": "עמוד מדיניות הפרטיות",
-    "subtitle": "מדיניות פרטיות היא הצהרה או מסמך משפטי החושף חלק מהדרכים שבהן צד אוסף, משתמש, חושף ומנהל את הנתונים של לקוח או לקוח, או את כולם."
-  },
-  "contact_us": {
-    "title": "עמוד צור קשר",
-    "subtitle": "כתוב את פרטי הקשר שלך, כתובת ומספר טלפון שיוצגו ללקוחות שלך בדף צור קשר."
-  },
-  "metaverse": {
-    "title": "גשר מטאוורס",
-    "subtitle": "Seldone מספקת %100 שירותים מבוססי API בתחום המסחר. מפתחי משחקים, בלוקצ'יין ו-metaverse יכולים להשתמש בממשקי API רבי עוצמה אלה כדי לחבר עסקים, לקוחות ושירותים בעתיד של עולם העבודה, החיים והמסחר.",
-    "message": "גישה מוקדמת למפתחי משחקים"
-  },
-  "orders_bulk_export": {
-    "title": "עוזר הזמנות",
-    "timespan": {
-      "title": "תקופת זמן",
-      "subtitle": "בחר את תאריכי ההתחלה והסיום לביצוע הזמנות."
-    },
-    "tasks": {
-      "title": "פלט משימות",
-      "subtitle": "הורד את רשימת המשימות לעיבוד הזמנות בכמות גדולה. התוצאה מכילה רק הזמנות בתשלום ו-COD.",
-      "export_title": "רשימת משימות"
-    },
-    "labels": {
-      "title": "תוויות חבילות",
-      "subtitle": "הורד את רשימת כל תוויות ההזמנות בתקופת הזמן והסטטוס שנבחרו. התוצאה מכילה רק הזמנות בתשלום ו-COD.",
-      "export_title": "תוויות קופסאות"
-    }
-  },
-  "customers_funnel": {
-    "title": "דמוגרפיה של לקוחות",
-    "subtitle": "סנן וייצא את נתוני הלקוחות שלך כדי לקבל החלטות טובות יותר כדי לספק יותר ערך עם פחות שיווק! אנא כבד את פרטיות הלקוחות שלך ולעולם אל תשלח אליהם מיילים בכמות גדולה! לעולם אל תשתף את המידע של הלקוחות שלך עם שירותי צד שלישי מבלי לקבל אישור מכל אחד מהם."
-  },
-  "transportation_pickups": {
-    "addresses": {
-      "title": "כתובות לאיסוף",
-      "subtitle": "הוסף וערוך כתובות לאיסוף כאן. משתמשים יוכלו לבחור את כתובת האיסוף בעמוד התשלום.",
-      "add_action": "הוסף מיקום חדש"
-    }
-  },
-  "affiliate_pos": {
-    "title": "קופה שותפים",
-    "open_pos_action": "הזמנה מהירה POS",
-    "description": "אפשרות זו מתאימה למנהלי דפי אינסטגרם ורשתות חברתיות אחרות. השתמש ב-Affiliate POS כדי לקבל ולהוסיף הזמנות מלקוחות באופן ידני. השותפים שלך (או הזיכיון) יכולים להוסיף הזמנות חדשות ב-Affiliate POS ולהעלות את תלוש ההפקדה."
-  },
-  "shop_configuration": {
-    "login": {
-      "title": "שיטות כניסה",
-      "subtitle": "התאם אישית את הדרך שבה משתמשים נכנסים לחנות שלך."
-    },
-    "checkout": {
-      "title": "זרימת קופה",
-      "subtitle": "התאם אישית את מסע הלקוח ואת זרימת הרכישה שלך במסחר האלקטרוני שלך.",
-      "map": {
-        "title": "מַפָּה",
-        "subtitle": "על המשתמשים לבחור את מיקום המסירה במפה (כמו אובר).",
-        "subtitle_no_map": "המרחק בחישוב המשלוח נחשב לאפס אם המיקום אינו קיים בכתובת שסופקה על ידי הלקוח."
+
+    template: {
+      title: "טאמפלאטאס",
+      valid_message: "יוו קאנ צור מותאם אישית SMS הודעה.",
+      provider_not_enable_message: "טהא SMS פרווידאר יס לא מופעל!",
+      need_custom_provider_message:
+        "קוסטומיזאד SMS הודעה רק וורק יפ יוו סאט a מותאם אישית פרווידאר.",
+      add_new: "הוסף חדש",
+      disable_reason: {
+        set_provider: "סאט יוור פרווידאר ראשון!",
+        provider_is_disabled: "פרווידאר יס השבת!",
+        otp: "וטפ - נונא קוסטומיזאבלא!",
+        select_another_provider: "בחר אנוטהאר פרווידאר.",
       },
-      "mode": {
-        "title": "נקודת כניסה של לקוחות",
-        "default": {
-          "title": "בהקדם האפשרי (ברירת מחדל)",
-          "msg": "משתמשים נכנסים בהקדם האפשרי. (המרה נוספת)"
-        },
-        "on_checkout": {
-          "title": "בקופה",
-          "msg": "הכריח משתמשים להיכנס בשלב התשלום."
-        },
-        "login_free": {
-          "title": "כניסה אופציונלית",
-          "msg": "כניסה אופציונלית לאחר תשלום ההזמנה.."
-        }
+      enable_only_filter: "הצג רק מופעל",
+
+      text_template_not_supported_msg:
+        "יוור פרווידאר דואס לא תמיכה פלאינ טקסט הודעה.",
+      structure_template_not_supported_msg:
+        "יוור פרווידאר דואס לא תמיכה סטרוקטוראל הודעה.",
+
+      structured_data: "סטרוקטוראד נתונים",
+
+      menu: {
+        reset_error: "ראסאט שגיאה",
+        send_test: "סאנד טאסט הודעה",
       },
-      "express": {
-        "title": "הפנה מחדש לאחר הוספה לעגלת הקניות",
-        "false": {
-          "title": "מצב נורמלי",
-          "msg": "הישאר בעמוד והמשך קניות לאחר לחיצה על הוסף לסל."
-        },
-        "true": {
-          "title": "מצב אקספרס",
-          "msg": "הפנה את הלקוח לדף התשלום לאחר לחיצה על הוסף לסל."
-        }
+    },
+    template_edit: {
+      title_add: "הוסף חדש הודעה טאמפלאטא",
+      title_edit: "ערוך הודעה טאמפלאטא",
+      config: {
+        title: "הודעה תצורה",
+        subtitle:
+          "יוו קאנ צור a טאמפלאטא פור טהא SMS הודעה ונ יוור SMS פרווידאר's ואבסיטא, טהאנ ספאקיפי יטס קוד אנד נתונים סטרוקטורא הארא. וא'לל פורוארד טהיס מידע טו יוור פרווידאר, והארא טהא אקטואל SMS הודעה וילל בא גאנאראטאד.",
+        code: "קוד",
+        language_msg: "לאאוא יט ריק טו סאט יט אס ברירת מחדל.",
+        enable_msg: "טהיס טאמפלאטא וילל בא וסאד טו צור הודעה.",
       },
-      "shipping_address": {
-        "title": "בקש כתובת למשלוח"
-      }
-    }
-  },
-  "checkout_options": {
-    "default": {
-      "title": "פיזי ושירות (ברירת מחדל)",
-      "desc": "בקשו מהלקוח להזין כתובת בקופות הפיזיות והשירותיות."
+      text: {
+        title: "פלאינ טקסט",
+        subtitle:
+          "אנטאר a פארסונאליזאד SMS הודעה הארא. דינאמיק ואלואס וילל בא סובסטיטוטאד ויטה טהאיר אקטואל ואלואס באפורא באינג סאנט טו טהא משתמש.",
+        message: "הוֹדָעָה",
+        reset_to_default: "ראסאט טו ברירת מחדל",
+
+        auto_fill: {
+          title: "אוטומטי פילל פאראמאטארס",
+          subtitle:
+            "יוו קאנ וסא אאקה ופ טהאסא פאראמאטארס ינ טהא טקסט אנד Selldone וילל ראפלאקא טהאמ ויטה טהא קורראספונדינג ואלוא.",
+        },
+
+        sample: {
+          title: "סאמפלא הודעה",
+        },
+      },
+      template: {
+        title: "סטרוקטוראל טאמפלאטא",
+        subtitle:
+          "יוו קאנ סאט טהא טאמפלאטא מפתח אנד ואלוא הארא. טהא טאמפלאטא קוד סהוולד בא אקסאקטלי והאט יוו סאט ינ יוור SMS שירות פרווידאר, אנד טהא <code>מפתח</code> יס והאט יוור פרווידאר ואנטס טו סאנד טהא קוד טהרווגה. יפ טהא <code>ואלוא</code> פיאלד ופ טאמפלאטא יס ריק, טהאנ <code>{code}</code> וילל בא קונסידאראד אס טהא טאמפלאטא קוד.",
+        add_new_parameter: "הוסף חדש פאראמאטאר",
+
+        auto_fill: {
+          title: "אוטומטי פילל פאראמאטארס",
+          subtitle:
+            "יוו קאנ סאט אאקה ופ טהאסא פאראמאטארס אס a ואלוא, אנד Selldone וילל ראפלאקא טהאמ ויטה טהא קורראספונדינג ואלוא. יט's באטטאר טו דאפינא טהא ברירת מחדל ואלואס אס טאמפלאטאס ינ יוור SMS פרווידאר פור סימפליקיטי. ינ טהיס קאסא, טהארא וילל בא נו נאאד טו דאפינא פאראמאטאר ואלואס הארא.",
+        },
+        request: {
+          title: "סאמפלא פאילואד",
+        },
+        sample: {
+          title: "סאמפלא טאמפלאטא הודעה",
+          subtitle: "יוו קאנ קופי אנד פאסט טהיס טאמפלאטא טו יוור SMS פרווידאר.",
+        },
+        add_message_action: "הוסף הודעה טאמפלאטא",
+      },
     },
-    "physical": {
-      "title": "פיזי בלבד",
-      "desc": "בקשו מהלקוח להזין כתובת רק בקופה הפיזית."
+  },
+  /** @see SmsTemplateMode **/
+  sms_template_mode: {
+    text: {
+      title: "פלאינ טקסט",
+      desc: "הודעה וילל בא קראאטאד פרומ a טקסט ויטה אוטומטי ראפלאקא פאראמאטארס אנד סאנד.",
     },
-    "off": {
-      "title": "לעולם לא",
-      "desc": "לעולם אל תבקש את כתובת המשלוח. ⚠ השתמש באפשרות זו אם אתה מתכנן לקבל שירותים עם גרסאות על ידי בחירת סוג פיזי למוצרים במקום סוג שירות."
-    }
-  },
-  "business_model": {
-    "title": "הגדרת מודל עסקי",
-    "subtitle": "הגדר את המודל העסקי שלך, ואנו נגדיר את מערכת ההפעלה שלך מאחורי הקלעים."
-  },
-  "business_type": {
-    "title": "סוגי סחורה",
-    "subtitle": "הגדר את סוג המוצרים שאתה רוצה למכור בחנות שלך. סוגי מוצרים ב-Seldone הם יותר מסתם סוג של מוצרים; זה יותר על הליך מילוי.",
-    "send_activation_request_to_support": "שלח בקשת הפעלה בכרטיס תמיכה.",
-    "require_kyc": "בעל עסק KYC.",
-    "needs_enterprise_license": "אתה צריך להיות בעל רישיון Enterprise.",
-    "marketplace_caution_message": "הגדר את Marketplace מכיוון שהמודל שלך משפיע באופן עמוק על תצורת מערכת ההפעלה העסקית שלך. לדוגמה, עליך להגדיר לפחות ספק אחד לכל מוצר עם תמחור ומלאי עצמאיים. לקוחות לא יכולים לקנות מוצרים שאין להם ספק."
-  },
-  "business_model_view": {
-    "normal": {
-      "title": "חנות רגילה",
-      "desc": "בדרך כלל עסקים קטנים ובינוניים, עסק ביתי או דרופשיפר - שמוכר את המוצר שלהם ישירות ללקוחות או מוכר מוצרים של סיטונאים כמשווק."
+    template: {
+      title: "סטרוקטוראל טאמפלאטא",
+      desc: "אנ ובגאקט וילל בא קראאטאד פרומ פאראמאטארס אנד סאנד טו טהא פרווידאר.",
     },
-    "dropshipping": {
-      "title": "דרופשיפינג",
-      "desc": "לא לשמור על מוצר וללא מלאי - אתה משלם לצד שלישי, בדרך כלל לסיטונאי (כמו Printify, Wholesale2B,...) או ליצרן, והם ממלאים הזמנות מאחורי הקלעים."
+  },
+
+  /** @see BShopSmsProvider **/
+  shop_sms_provider: {
+    title: "מותאם אישית SMS פרווידאר",
+    reset_error: "ראסאט שגיאה",
+    subtitle:
+      "סאט ופ a מותאם אישית SMS שירות פרווידאר אנד קוסטומיזא יוור אוטהאנטיקאטיונ SMS אנד בוסינאסס שם. טהא ברירת מחדל פרווידאר גוסט סאנדס אוטהאנטיקאטיונ SMS אנד ינפורמ הודעה ינ סומא והיטא-ליסטאד קוונטריאס.",
+    plain_text: "פלאינ טקסט",
+    structural_template: "סטרוקטוראל טאמפלאטא",
+    errors_limit_msg:
+      "יפ יוור שירות אקסקאאדס 100 שגיאה, יט וילל בא מושבת אוטומאטיקאללי! יוו קאנ ראסאט שגיאה טו רא-אנאבלא יט.",
+
+    enable_input: {
+      false_description:
+        "וטפ הודעה וילל בא דיספאטקהאד טהרווגה Selldone ינ בחר קוונטריאס, והילא וטהאר הזמנה התראה SMS וילל בא סאנט אס ואלל.",
+      true_description:
+        "SMS הודעה וילל בא דאליואראד וסינג יוור שירות פרווידאר.",
     },
-    "wholesaler": {
-      "title": "ספק דרופשיפינג",
-      "desc": "בדרך כלל סיטונאי או יצרן - ששולח הזמנות ישירות לצרכן הסופי. סוחרים אחרים ב-Seldone יכולים לשלוח את המוצרים שלך בחנויות שלהם."
+    test_input: {
+      true_title: "ואלידאטא תצורה",
+      true_description:
+        "וא וילל סאנד a טאסט הודעה טו יוור טלפון נומבאר 📞 <b>{phone}</b>, יט קאנ קהארגא יוו, בוט יוו קאנ מאקא סורא אואריטהינג וורקס ואלל.",
     },
-    "marketplace": {
-      "title": "זירת מסחר",
-      "desc": "שווקים מקוונים מחברים בין קונים ומוכרים בפלטפורמה קניינית וריכוזית."
+    sync_action: {
+      title: "פעולות",
+      subtitle:
+        "סומא SMS שירותים פרווידא נוסף שירותים ליקא קמפיינים, שיווק, אנד וטהאר פאאטוראס. יוו קאנ סינק יוור קונטאקטס ור אדדיטיונאל מידע טו וסא טהאיר פאאטוראס מורא קויקקלי.",
+      action: "סינק קונטאקטס",
     },
-    "franchise": {
-      "title": "זכיינות / שותף",
-      "desc": "זיכיון הוא שיטה להפצת מוצרים או שירותים הכוללת זכיין שמקים את המותג שלך (זכיינות) או מוכר את המוצרים שלך לפי המותג שלו (Affiliate)."
-    }
-  },
-  "marketplace": {
-    "vendor_wallets": "ארנקים",
-    "pricing_models": "תמחור",
-    "add_vendor": "הוסף ספק",
-    "requests": "בקשות"
-  },
-  "price_input_type": {
-    "title": "סוג קלט מחיר",
-    "default": {
-      "title": "בְּרִירַת מֶחדָל",
-      "desc": "בחר ערך ככמות בעגלה."
+    tokens: {
+      title: "פאראמאטארס",
+      subtitle:
+        "סאט טהא פוללווינג פאראמאטארס טו קישור יוור SMS שירות פרווידאר ויטה יוור חנות.",
     },
-    "area": {
-      "title": "אֵזוֹר",
-      "desc": "הזן רוחב ואורך בתור תשומות כדי לחשב את הכמות."
+  },
+  sms_messages_options: {
+    all: {
+      title: "ופט + הזמנה התראות",
+      description:
+        "אוטהאנטיקאטיונ הודעה אנד הזמנה התראה וילל בא סאנט.",
     },
-    "volume": {
-      "title": "כרך",
-      "desc": "הזן רוחב, אורך וגובה כקלט כדי לחשב את הכמות."
+    otp: {
+      title: "וטפ רק",
+      description: "אוטהאנטיקאטיונ הודעה וילל בא סאנט.",
     },
-    "custom": {
-      "title": "מותאם אישית (לפי טופס קלט)",
-      "desc": "אין צורך במאות גרסאות! צור טופס חישוב עלות מותאם אישית עבור מוצרים הניתנים להתאמה אישית גבוהה."
-    }
   },
-  "vendors_list": {
-    "title": "הספקים שלי",
-    "message": "רשימת הספקים שלי."
-  },
-  "vendor_page": {},
-  "domains": {
-    "message": "חבר מספר דומיינים למערכת ההפעלה של העסק שלך ונהל את כולם במקום אחד. אתה יכול להשתמש בתכונת ריבוי הדומיינים כדי ליצור דומיינים ייעודיים לכל חלק באתר האינטרנט שלך, כמו בלוג וקהילה, או להשתמש בדומיינים שונים עבור השותפים שלך."
-  },
-  "notes": {
-    "add_action": "הוסף הערה עבור הצוות שלך",
-    "notifications": {
-      "success_add": "הערה נוספה בהצלחה.",
-      "success_delete": "הערה נמחקה בהצלחה."
-    }
-  },
-  "external_services": {
-    "title": "שירותים חיצוניים",
-    "subtitle": "עקוב אחר הסטטוס האחרון של השירותים החיצוניים כמו SMS ואימיילים כאן."
-  },
-  "theme": {
-    "dark_mode": "מצב כהה",
-    "dark_mode_description": "בחר באפשרות זו אם אתה רוצה רקע כהה עם צבע טקסט לבן.",
-    "light_mode": "מצב אור",
-    "light_mode_description": "בחר באפשרות זו אם ברצונך שהרקע יהיה בהיר והטקסט יהיה בצבע שחור."
-  },
-  "shop_quota": {
-    "title": "מכסת שימוש",
-    "sub_title": "זוהי רשימת מכסות השימוש עבור החנות שלך. אתה יכול להגדיל מגבלות אלה על ידי שדרוג רישיון החנות שלך. אם תחרוג מהמגבלות, תוכל לבקש מאיתנו תוספת מכסה יומית. כל השימוש יאופס מדי יום."
-  },
-  "app_card": {
-    "category": "קטגוריה",
-    "installs": "להתקין",
-    "actives": "פָּעִיל",
-    "uninstalls": "הסרות התקנה",
-    "app_code": "קוד אפליקציה",
-    "app_mode": "מצב יישום"
-  },
-  "product_status": {
-    "open": {
-      "name": "פָּעִיל",
-      "title": "פעיל ╏ מכירות מקוונות ואופליין",
-      "description": "מוצר זה יהיה זמין להזמנות מקוונות."
+
+  /** @see BPageShopSettingEmail **/
+  shop_emails: {
+    title: "נהל מיילים",
+    sub_title:
+      "תוכל לראות את רשימת המיילים שנשלחו על ידי החנות ללקוחות ולמנהלים בחלק זה. הודעות אימייל מעוצבות ויוצרות באופן אוטומטי על סמך המידע שהזנת עבור החנות שלך. כמו כן, האפשרות להתאמה אישית של הודעות ותמונות תהיה זמינה לציבור בעתיד.",
+
+    tabs: {
+      preferences: "פראפאראנקאס",
+      templates: "טאמפלאטאס",
+      provider: "פרווידאר",
     },
-    "close": {
-      "name": "לֹא פָּעִיל",
-      "title": "לא פעיל ╏ רק מכירות לא מקוונות",
-      "description": "מוצר זה לא יהיה זמין להזמנות מקוונות."
+
+    preferences: {
+      title: "התראה אימייל",
     },
-    "pending": {
-      "name": "ממתין ל",
-      "title": "ממתין ל",
-      "description": "מחייב סקירת שוק לפני העלייה לאוויר."
-    },
-    "rejected": {
-      "name": "נִדחֶה",
-      "title": "נִדחֶה",
-      "description": "מוצר זה נדחה על ידי השוק."
-    }
   },
-  "suggestions": {
-    "vendor_payment": {
-      "note": [
+
+  /**
+   * @see BShopEmailProvider
+   */
+  shop_email_provider: {
+    title: "מותאם אישית מאיל סארואר",
+    subtitle:
+      "קוננאקט יוור מאיל שירות פרווידאר טו סאנד אימייל ויא יוור מותאם אישית דומיין.",
+    provider: "פרווידאר",
+    enable_input: {
+      false_description: "יוור אימייל וילל בא סאנט ויא יוור מיסאללדונא דומיין.",
+      true_description: "יוור אימייל וילל בא סאנט ויא יוור מותאם אישית מאיל דומיין.",
+    },
+    config: {
+      title: "תצורה",
+      subtitle:
+        "טו קונפיגורא יוור מותאם אישית מאיל שירות פור יוור חנות, קלט יוור שירות API מפתח אלונג ויטה וטהאר נאקאססארי הגדרות.",
+    },
+    sender: {
+      title: "מ",
+      subtitle:
+        "יוו קאנ קונפיגורא טהא ברירת מחדל סאנדאר's שם אנד כתובת אימייל, והיקה וילל בא וסאד פור דיספאטקהינג אימייל טו יוור לקוחות.",
+    },
+
+    inputs: {
+      from: {
+        label: "פרומ אימייל",
+      },
+      from_name: {
+        label: "פרומ שם",
+      },
+    },
+
+    actions: {
+      send_test_email: "סאנד a טאסט אימייל",
+    },
+
+    messages: {
+      provider_error_limit:
+        "יפ יוור שירות אקסקאאדס 100 שגיאה, יט וילל בא מושבת אוטומאטיקאללי! יוו קאנ ראסאט שגיאה טו רא-אנאבלא יט.",
+
+      encryption_ports_guide:
+        "אימייל פרווידארס מאי הצעה SSL, טלס, ור ונאנקריפטאד קוננאקטיונס באסאד ונ זמין פורטס. יפ קוננאקטינג ראסולטס ינ אנ שגיאה, אלטארינג טהא אנקריפטיונ מצב מיגהט ראסולוא טהא יססוא. סטאנדארד <b>טלס</b> וסא פורט : <b>587</b> אנד <b>SSL</b> וסא פורט : <b>465</b>.",
+
+      enable_receive_test:
+        "אפטאר שמור שינויים, יוו וילל ראקאיוא a טאסט מאיל ונ <b>{email}</b>. שמור שינויים באפורא סאנדינג a טאסט אימייל ויטה טהא חדש תצורה.",
+    },
+  },
+
+  /** @see InstagramViewMedias **/
+  instagram: {
+    title: "מכירות באינסטגרם",
+
+    add_product: "הוסף מוצר חדש",
+    create_product: "צור מוצר",
+    link_box_msg:
+      "שים את הקישור הזה בביו שלך באינסטגרם, בטלגרם או במדיה חברתית אחרת כדי שהקהל שלך יוכל לקנות מהר יותר, קל יותר, יותר ולבסוף יותר.",
+    remove_account: "שנה/הסר קישור לאינסטגרם",
+  },
+  /** @see BPageShopChannelInstagram **/
+  shop_channel_instagram: {
+    title: "Instagram מכירות קהאננאל",
+    subtitle:
+      "צור a דאדיקאטאד קטגוריה פור יוור מוצרים, קומפלאטא ויטה תמונות אנד וידאו, אנד סהארא יט אקרוסס יוור סוקיאל מאדיא. יט's סימילאר טו Instagram אנד טיקטוק, בוט ויטה פולל קונטרול, אללווינג יוו טו דיראקטלי מכירה יוור מוצרים.",
+  },
+
+  /** @see ServiceBillingItem **/
+  service_bill: {
+    task: {
+      title: "רשימת מטלות",
+      message:
+        "כתוב את הכותרות של העבודה שאתה רוצה לעשות וידע את הקונה עד כמה היא התקדמה.",
+    },
+    booking: {
+      title: "הזמנה / הזמנה",
+      message:
+        "הזמנה זו תטופל במועד מוגדר, הלקוח בחר את התקופה הרצויה, אם ברצונך לבצע שינויים כלשהם בתקופה שנבחרה, יידע את הלקוח.",
+
+      selected_checkin: "תאריך הכניסה של הלקוח שנבחר",
+      selected_checkout: "תאריך יציאה נבחר של הלקוח",
+      change_days_question:
+        "האם עליך לשנות במהלך הימים שנבחרו על ידי הלקוח?",
+      show_calendar: "הצג את לוח ההזמנות",
+    },
+    pricing: {
+      title: "תמחור",
+      message: "כמה אתם גובים עבור השירות הזה?",
+    },
+    subscription: {
+      title: "מִנוּי",
+      message:
+        "אתה יכול לבחור את תקופת המנוי על ידי רכישת שירות זה על בסיס יומי. יידעו את הקונה אם ברצונכם לשנות את ערכי ברירת המחדל שכבר הזנתם.",
+      duration: "תקופת מנוי",
+    },
+    charge: {
+      title: "לחייב",
+      message:
+        "ציינת חיוב עבור פריט זה. ניתן לשנות את סכום החיוב עבור הפריט שרכש הלקוח.",
+      charge: "לחייב",
+    },
+
+    save_item: "אמת והגדר",
+    start_service: "התחל שירות",
+    end_service: "סיים",
+  },
+  /** @see BOrderDashboardServiceTasks **/
+  service_tasks: {
+    notification_finish: {
+      title: "סיום השירות",
+      message:
+        "אם זה נעשה, הקש על מקש האישור כדי להשלים ולסגור את ההזמנה.",
+      action: "אשר והשלם את ההזמנה",
+    },
+  },
+
+  /** {@see BProductEditOutputs} **/
+  product_outputs: {
+    outputs_form: "מבנה המידע של התצוגה (פלט)",
+
+    virtual: {
+      title: "טופס מידע על פלט מוצר",
+      sub_title:
+        "המידע שברצונך להציג למשתמש לאחר הרכישה. טופס זה מתאים במיוחד למכירת מוצרים וירטואליים כגון כרטיס מתנה.",
+    },
+    service: {
+      title: "עיצוב שירות",
+      sub_title:
+        "תחילה בחר את סוג השירות שלך והזן את המידע הנדרש. לדוגמה, ניתן להגדיר רשימת מטלות או לבקש מהלקוח זמן הזמנה או פגישה.",
+    },
+  },
+
+  /** {@see BProductServiceManage} **/
+  service_design: {
+    type: "סוג שירות",
+    type_message:
+      "בחר את סוג השירות שאתה מספק עבור מוצר זה. בבחירה בכל פריט יוצג הטופס הרלוונטי. בהתאם לסוג השירות שתבחר, ייתכן שיתקבל מידע נוסף מהלקוח בעת ההזמנה.",
+  },
+
+  /** {@see AvocadoHomePage} **/
+  avocado: {
+    name: "אבוקדו",
+    title: "מכירה מהירה, מדויקת ומהנה בכל המדיה החברתית",
+    message:
+      "סכום אחד ותואר אחד זה כל מה שאתה צריך כדי לקבל כסף מהלקוחות שלך! הכסף יזוכה ישירות לחשבונך וללקוחותיך תהיה חווית קנייה ייחודית.",
+    new_order: "הצעת חוק חדשה",
+    create_by_seller_title: "צור חשבונית",
+    create_by_seller_message:
+      "אם אתה רוצה ליצור חשבונית עם סכום מסוים ולשלוח אותה למישהו, אתה יכול ללחוץ על הכפתור למטה כדי להציג את טופס החשבונית. תן קישור שנוצר לקונה כדי לשלם ולעקוב אחר ההזמנה שלו דרכו.",
+
+    create_by_buyer_title: "צורת אבוקדו",
+    create_by_buyer_message:
+      "על ידי הפעלת סעיף זה, קישור יוצג לך, ספק קישור זה לקונים שלך כדי שהם יוכלו לבצע את ההזמנה שלהם.",
+
+    orders_list: "רשימת הזמנות",
+    active_mode: "קבלת הזמנה פעילה",
+    inactive_mode: "לֹא פָּעִיל",
+    active_message:
+      "על ידי הפעלת מקור זה, הלקוחות שלך יוכלו לבצע הזמנה עבור המוצר באמצעות טופס הבקשה שאתה רואה למטה.",
+    avocado_form_link_message:
+      "שים את הקישור הזה בביו שלך באינסטגרם, בטלגרם או במדיה חברתית אחרת כדי שהקהל שלך יוכל לקנות מהר יותר, קל יותר ולבסוף יותר",
+    need_address: "קבל כתובת",
+    need_address_msg:
+      "אם אתה צריך לקבל את המיקום והכתובת של הקונה, בחר באפשרות זו.",
+    avocado_link_message:
+      "מספיק לספק את הקישור לעיל ללקוח כדי לשלם את ההזמנה. הלקוח יוכל לעקוב אחר ההזמנה דרך קישור זה.",
+    edit_order: "ערוך הזמנה",
+    progress: "קצב התקדמות",
+    buyer_link: "קישור לקונה",
+    buyer_link_message:
+      "ספק את הקישור הזה לקונה שלך. הקונה יוכל לשלם ולעקוב אחר הזמנתו באמצעות קישור זה. קישור זה מקודד, אם הקישור יסופק למישהו, הוא יוכל לשלם ולראות את המידע. קישור זה יהיה פעיל למשך 60 יום. לחץ על הקישור למטה כדי להעתיק.",
+    OrderConfirm_done: "ההזמנה אושרה.",
+    OrderConfirm_message:
+      "אם אתה מאשר את התשלום וההזמנה נכונה, לחץ על הכפתור למטה.",
+    OrderConfirm_action: "אישור הזמנה",
+    PreparingOrder_message:
+      "אם הזמנת הלקוח מוכנה למשלוח, לחץ על הלחצן אישור למטה.",
+    PreparingOrder_action: "ההזמנה מוכנה למשלוח",
+    finish_message:
+      "אם הזמנה זו הושלמה, לחץ על כפתור הסיום כדי לסגור הזמנה זו.",
+    finish_action: "עיבוד הזמנה מלא",
+    finish_dialog: {
+      title: "השלם את ההזמנה",
+      message: "האם ההזמנה הושלמה ואתה בטוח שברצונך לסגור אותה?",
+      action: "כן, אשר את השלמת ההזמנה",
+    },
+    configuration: "הגדרות אבוקדו",
+    delivery_price: "מחיר משלוח",
+    edit_avocado_action: "ערוך מידע",
+    submit_pricing_avocado_action: "שלח את תמחור ההזמנה",
+    add_avocado_action: "צור קישור לחשבונית",
+    avocados_list: "רשימת אבוקדו",
+    not_pricing: "פריט זה אינו מתומחר!",
+
+    show_all: "תראה הכול",
+    show_accepted: "הצג פריטים מאושרים",
+
+    notifications: {
+      update_success: "אבוקדו עודכן בהצלחה.",
+      add_success: "אבוקדו נוצר בהצלחה.",
+    },
+  },
+
+  /** {@see BDashboardShopOrdersAvocado} **/
+  avocado_orders: {
+    title: "אבוקדו",
+    title_small: "מכירות מדיה חברתית",
+    pending_orders: "הזמנות פעילות",
+    avocado: "להזמין אבוקדו",
+  },
+  /** {@see BAvocadoInvoice} **/
+  avocado_process: {
+    step1: "תמחור",
+    step1_msg:
+      "הזינו את המחיר של כל פריט וסמנו את התיבה הירוקה. אם לא ניתן למכור פריט, שנה את הסטטוס שלו לדחייה.",
+    step2: "אשר חשבונית",
+    step2_msg:
+      "צור חשבונית עבור הזמנה זו. ניתן להזין כותרת ותיאור עבור החשבונית. סכום ההזמנה מחושב על סמך המחיר הכולל של הפריטים באופן אוטומטי.",
+    title_input: "כותרת החשבונית *",
+    show_to_customer: "מידע זה מוצג לקונה.",
+    description_msg:
+      "האם ברצונך לכתוב הערה עבור הזמנה זו? מידע זה יוצג לקונה.",
+    price_input: "כמות הזמנה *",
+    tax_none: "ללא תשלום מס",
+    tax_included: "כלול במחיר",
+    tax_add: "הוסף מס",
+    tax_message: "אתה יכול לבחור אם מס כלול במחיר או לא.",
+    tax_included_messages: "מס כלול במחיר.",
+    tax_add_messages: "יש להוסיף מס למחיר הסופי.",
+    invoice: {
+      subtitle:
+        "בי וסינג טהיס טופס, יוו קאנ צור a תשלום קישור פור a ספאקיפיק סכום. יט אלסו מאקאס טראקקינג טהא חשבונית אנד אשר תשלום קומפלאטיונ סטראיגהטפורוארד אנד אאסי.",
+    },
+  },
+
+  /** {@see BPageProductHyper} **/
+  /** {@see BPageShopChannelHyper} **/
+  hyper: {
+    name: "יֶתֶר",
+    print_label:
+      "הדפס את התווית הבאה והנח אותה מול המוצר",
+    hyper_form_link_product_message:
+      "הלקוחות שלך יוכלו לקנות {product} במהירות באמצעות קישור זה. הם גם יכנסו לאותו קישור על ידי סריקת קוד ה-QR.",
+    title: "היפר מהיר מכירה",
+    message:
+      "ויטה טהא עזרה ופ היפאר Selldone מכירות קהאננאל, יוור לקוחות וילל בא אבלא טו קנייה מוצרים בי סקאננינג a QR קוד ויטהווט אני פעולה נאאדאד פרומ יוור סידא. וסא טהיס ואי טו קויקקלי מכירה סומא יטאמס אט פאסטיואלס, אקסהיביטיונס, ור בוסי קאראמוניאס ינ לארגא נומבארס. אפטאר אקטיואטינג היפאר ינ טהיס סאקטיונ, יוו קאנ צור a היפאר QR קוד פור פיזי מוצרים ינ טהא מוצר ניהול סאקטיונ.",
+    orders_list: "רשימת הזמנות היפר",
+    active_mode: "ערוץ מכירות היפר הופעל",
+    inactive_mode: "לֹא פָּעִיל",
+    active_message:
+      "אם תפעיל אפשרות זו, האפשרות ליצור קודי מכירה מהירים תוצג בחלק הניהול של כל מוצר.",
+    hyper_form_link_message: "קישור היפר דף של החנות שלך",
+    configuration: "הגדרות היפר",
+  },
+
+  /** {@see BDashboardShopOrdersHyper} **/
+  hyper_orders: {
+    title: "יֶתֶר",
+    title_small: "דוח מכירות",
+    hyper: "קיבלו הזמנות",
+  },
+
+  /** {@see BProductInventoryManagementFile} **/
+  product_file: {
+    no_file: "עדיין לא הועלה קובץ!",
+    delete_dialog: {
+      title: "מחק קובץ",
+      message: "האם אתה בטוח שתמחק את הקובץ הזה?",
+      action: "כן, מחק עכשיו",
+    },
+    notifications: {
+      delete_success: "הקובץ נמחק בהצלחה.",
+    },
+    drag_sort_msg: "יוו קאנ דראג אנד מיון קבצים.",
+    paid_mode_msg: "משתמשים קאנ הורדה יט רק אפטאר פורקהאסינג טהא מוצר.",
+    free_mode_msg:
+      "משתמשים קאנ הורדה יט פור פראא. סאמפלא קבצים מוסט בא ונדאר 50 מב.",
+    has_gust_shopping_msg:
+      "ראגיסטאראד אנד גואסט משתמשים קאנ הורדה קבצים סינקא גואסט רכישה ארא מופעל ינ טהא חנות's הגדרות > פלוו.",
+    only_registered_shopping_msg:
+      "רק ראגיסטאראד משתמשים קאנ הורדה סאמפלא קבצים.",
+    file_count_limit: "קבצים מספר לימיט",
+  },
+
+  /**
+   * @see BProductLocationRestrictionsList
+   */
+  product_location_restrictions: {
+    title: "זמין מיקומים",
+    subtitle:
+      "יפ יוור מוצר ור שירות יס רק זמין ינ ספאקיפיק ראגיונס, דאפינאד בי מדינה אנד זיפ ור פינ קוד, יוו קאנ דאסיגנאטא טהוסא מיקומים הארא. טהאסא מיקום ראסטריקטיונס ארא אנפורקאד אט טהא מוצר לאואל. ונ טהא מוצר דף, לקוחות וילל בא פרומפטאד טו בחר טהאיר מיקום. יפ טהא מוצר יס זמין ינ טהאיר קהוסאנ אראא, טהאי וילל בא אבלא טו פרוקאאד ויטה טהא רכישה.",
+
+    add_location_action: "הוסף מדינה",
+    no_restriction: "נו ראסטריקטיונ",
+    import: {
+      title: "לואד פרופיל",
+      subtitle: "בחר a סאואד מיקומים פרופיל.",
+    },
+    export: {
+      title: "שמור פרופיל",
+      subtitle: "חנות מיקומים פור פוטורא וסא.",
+    },
+    has_restriction_input: {
+      title: "האס מיקום ראסטריקטיונ",
+      description:
+        "לקוחות קאנ רק רכישה טהיס מוצר ויטהינ טהא ספאקיפיאד מדינה אנד זיפ קוד, דוא טו טהא אסטאבליסהאד מיקום ראסטריקטיונ.",
+    },
+    zip_pin_code: "זיפ / פינ קוד",
+    no_country_selected_error:
+      "פלאאסא ינקלודא אט לאאסט ונא מדינה אלונג ויטה a רשימה ופ זיפ/פינ קוד. ויטהווט יט, טהיס מוצר וילל לא בא זמין.",
+    tips: "קליקק ונ טהא <b>+ הוסף מדינה</b> כפתור טו התחלה קראאטינג a חדש מיקום סאט. ונקא יוו'רא דונא, יוו קאנ שמור יט בי קליקקינג ונ טהא טופ-ריגהט <b>⋮ תפריט</b> אנד בחר <b>שמור פרופיל</b>.",
+    need_save_message:
+      "טהא מיקום ראסטריקטיונ הגדרות פור טהא מוצר האוא באאנ קהאנגאד. טו פראסארוא טהאסא קהאנגאס, פלאאסא קליקק ונ טהא 'שמור' כפתור באלוו.",
+
+    add_dialog: {
+      title: "הוסף מדינה",
+      message:
+        "בחר a מדינה אנד קליקק 'הוסף'. טהיס וילל אפפאנד טהא מדינה טו טהא טבלה, אללווינג יוו טו אססיגנ זיפקודאס, פינ קוד, קיטי שם, ור ראגיונ שם טו יט.",
+    },
+    save_profile_dialog: {
+      title: "הוסף מיקומים פרופיל",
+      message:
+        "פלאאסא קלט a שם טו שמור טהיס סאט ופ מיקומים. טהיס סאואד מיקום סאט קאנ בא אפפליאד טו וטהאר מוצרים, אללווינג פור קויקק מיקום לואדינג ויטה גוסט a סינגלא קליקק. יפ a פרופיל ויטה טהא פרווידאד שם אלראאדי אקסיסטס, יט וילל בא ופדאטאד ויטה טהאסא חדש ואלואס.",
+      title_input: {
+        title: "פרופיל כותרת",
+        placeholder: "A קטגוריה שם, ור חנות שם, ...",
+      },
+    },
+    load_profile_dialog: {
+      title: "לואד מיקומים פרופיל",
+      message:
+        "יוו קאנ לואד מיקומים בי בחר a פראויווסלי סאואד מיקום סאט הארא.",
+
+      select_input: {
+        title: "מיקום פרופיל",
+        placeholder: "בחר a פרופיל...",
+      },
+    },
+  },
+
+  /** {@see NotificationTopBar} **/
+  notification_top_bar: {
+    free_charge: "🎊 חייב {amount} וקבל זיכוי בסך {amount_total}.",
+    charge_action: "תביעת אשראי חינם",
+    claim_title: "תבע את האשראי בחינם שלך",
+    claim_charge_caution:
+      "הערה: לא ניתן להמיר מטבעות בין חשבונות הארנק שלך. לכן, בחר חשבון המתאים למטבע המומרת בחנות שלך.",
+    account_input: "חשבון פיקדון",
+    account_msg: "חיוב יחול על חשבון זה",
+  },
+
+  /** {@see BDashboardShopApplications} **/
+  selldone_applications: {
+    title: "אל תחמיצו את ההזמנות שלכם!",
+    msg: "נהל את העסק שלך בכל מקום ובכל זמן.",
+    scan_qr_code: "סקאנ מא ויטה יוור טלפון!",
+
+    notification: {
+      title: "הוֹדָעָה",
+      subtitle: "גאט חדש הזמנות התראה.",
+    },
+    order: {
+      title: "הזמנות",
+      subtitle: "סאא יוור הזמנות אנד נהל טהאמ.",
+    },
+    product: {
+      title: "מוצרים",
+      subtitle: "מלאי ניהול אנד מוצר פלאינ.",
+    },
+  },
+
+  /** {@see BPageShopSettingSeo**/
+  shop_seo: {
+    title: "תצורת SEO",
+    msg: "העבר מהר לשיווק מקוון על ידי העצמת ערוצי רכישת לקוחות אורגניים.",
+    auto: {
+      title: "מנוע קידום אתרים אוטומטי",
+      msg: "ספק חוויית סלולר חלקה לקהל ולמנועי החיפוש באתר שלך.",
+    },
+
+    amp: {
+      title: "AMP",
+      msg: "יצירה אוטומטית מואצת של דפים ניידים.",
+    },
+  },
+
+  /** {@see BPageShopSettingEmail} **/
+  shop_preferences: {
+    order: {
+      title: "הזמנות",
+      desc: "אם לקוח משלם את ההזמנה, יישלח לכתובת זו מייל המכיל את פרטי ההזמנה.",
+    },
+    return: {
+      title: "לַחֲזוֹר",
+      desc: "אם המוצר יוחזר על ידי הקונה, דוא\"ל זה יישלח. שליחת אימייל זה תלויה בתוכנית שרכשת.",
+    },
+    pos: {
+      title: "POS",
+      desc: "דוח מכירת קופה יישלח לאימייל זה.",
+    },
+    avocado: {
+      title: "אבוקדו",
+      desc: "שלח דוח יומי של הזמנות אבוקדו.",
+    },
+    accounting: {
+      title: "חשבונאות",
+      desc: "אחסן דוחות ועדכונים פיננסיים.",
+    },
+    subscription: {
+      title: "מנויים",
+      desc: "סטטוס תוכנית שנרכשה לאחרונה בהתאמה להודעות התחלה וסיום של מנוי.",
+    },
+    technical: {
+      title: "טֶכנִי",
+      desc: "התראות טכניות על סטטוס דומיין ושירות.",
+    },
+    report: {
+      title: "דיווחים",
+      desc: "דוחות שבועיים וחודשיים יישלחו למייל זה",
+    },
+    review: {
+      title: "סקירה",
+      desc: "אם תצטרכו לאשר תהליך בחנות, המייל הרלוונטי יישלח לכתובת זו. למשל לאשר שליחת מייל שיווקי למשתמשי החנות.",
+    },
+    bulk: {
+      title: "דאילי הזמנה דוח",
+      desc: "ראקאיוא a דאילי אימייל ויטה טהא פרטים ופ הזמנות פור טהאט יום.",
+    },
+  },
+
+  /** {@see BPageShopSettingLanguages} **/
+  shop_languages: {
+    title: "שפות חנות",
+    sub_title: "התקן והפעל חבילות תרגום אוטומטי לחנות.",
+    message:
+      "אתה יכול להתקין עד 10 חבילות שפה בחנות שלך. צור איתנו קשר אם אתה צריך להתקין חבילות נוספות.",
+  },
+
+  /** {@see SInviteFriends} **/
+  invite_friends: {
+    title: "ספר על העסק שלך לעולם!",
+    msg: "הכירו את Seldone לחברים שלכם. הם יקבלו שובר של 99 דולר לחברה כשהם נרשמים, ותקבל שובר הפעלה של 15 דולר ברגע שהם ישלימו את העסקה הראשונה שלהם.",
+    invite: {
+      title: "הצטרף למערכת ההפעלה העסקית של Seldone כדי לקבל שובר חינם של $99.",
+      description:
+        "אני מזמין אותך ל-Seldone כדי להתחיל את העסק שלך באינטרנט עם כלי נפלא.",
+      hashtags: "מסחר אלקטרוני, בונה אתרים",
+      quot: "בניתי חנות מקוונת על ידי Seldone, אתה יכול גם לעשות את העסק שלך עכשיו.",
+    },
+  },
+
+  /** {@see BPageShuttleShops} **/
+  shops_list: {
+    title: "החנויות שלי",
+    message:
+      "רשימה של חנויות משלי, חנויות מותרות ודוגמאות.",
+
+    sample: {
+      title: "סאמפלא חנות",
+      subtitle:
+        "הארא, יוו קאנ דיסקוואר a סאלאקטיונ ופ סאמפלא חנות. יוו ארא גראנטאד הרשאה טו פארוסא טהא מידע זמין ינ טהאסא חנות. הוואואר, פלאאסא ראפראינ פרומ לוגגינג ינ ור פלאקינג הזמנות וסינג ראאל פארסונאל מידע, אס טהיס נתונים וילל בא אקקאססיבלא טו טהא ציבורי. יפ יוו אקקידאנטאללי אנטאר יוור מידע הארא, קינדלי אקסיט טהא חנות אנד גאט ינ טווקה ויטה וס פור פורטהאר אססיסטאנקא.",
+    },
+
+    add_new_store: "הוסף חדש חנות",
+    i_have_a_deal: "I האוא a דאאל",
+    access: {
+      title: "גישה ינויטאטיונ",
+    },
+  },
+
+  /** {@see BTransportationServiceLabels} **/
+  shipping: {
+    warehouse_error:
+      "תחילה הגדר את המחסן שלך! כתובת זו תשמש כמקור המשלוח.",
+    errors: {
+      set_origin: "הגדר את מפת המיקום שלך.",
+      set_country: "הגדר את המדינה שלך.",
+      set_address: "הגדר את הכתובת שלך.",
+      set_zip: "הגדר את המיקוד שלך.",
+    },
+    set_warehouse: "סט מחסן",
+    pickup_location: "בחר מיקום",
+    refresh_rates: "שיעורי רענון",
+    no_rate: "אין שיעור...",
+    view_messages: "צפה בהודעות...",
+    not_set_yet: "עדיין לא מוגדר!",
+    drop_orders_here: "זרוק הזמנות כאן...",
+  },
+
+  /** {@see BPageShopBlogsCategories} **/
+  blog_category: {
+    title: "קטגוריות בלוג",
+    subtitle:
+      "יוו קאנ צור a לימיטאד נומבאר ופ קטגוריות פור יוור בלוג פוסטס טו נהל טהאמ מורא אפפיקיאנטלי. האוינג a קטגוריה לימיט פרומוטאס באטטאר ורגאניזאטיונ ונ יוור ואבסיטא. נוטאבלי, אואנ טהא טופ חדש אגאנקיאס מאינטאינ a לימיטאד נומבאר ופ קטגוריות, ופטאנ פאואר טהאנ 100, טו סטראאמלינא ניהול אנד מאינטאינ a ברואדאר פוקוס.",
+
+    add_action: "הוסף קטגוריה חדשה",
+    add_dialog: {
+      title: "חדש / עדכון קטגוריה",
+      force_edit: "כפוי נתיב עריכה",
+      force_edit_msg: "שנה את שם הקטגוריה ועדכן את כל המאמרים.",
+      star_msg: "לקטגוריות בוהות יש עדיפות להצגה בבלוג.",
+      star: "בהה",
+      delete_action: "מחק קטגוריה",
+      add_action: "הוסף קטגוריה",
+      edit_action: "ערוך קטגוריה",
+    },
+  },
+  /** {@see BPageShopBlogsTimeline} **/
+  blog_timeline: {
+    title: "קונטאנט ראלאאסא סקהאדולא ",
+    subtitle:
+      "הארא יס טהא רשימה ופ סקהאדולאד מאמרים סאט פור פוטורא פובליקאטיונ. יוו האוא טהא אביליטי טו סקהאדולא בלוג פוסטס אנד אואנ מוצר תיאור טו בא פובליסהאד אט ספאקיפיק זמן.",
+  },
+
+  /** {@see BPageShopPagesAboutUs} **/
+  about_us: {
+    title: "עמוד אודותינו",
+    subtitle:
+      "כתוב מאמר על העסק שלך להצגה בדף אודותינו. דף זה יעזור לקהל שלך להכיר את המותג והייעוד שלך.",
+  },
+  /** {@see BPageShopPagesTerms} **/
+  terms: {
+    title: "עמוד תנאי השירות",
+    subtitle:
+      "הסבר ללקוחותיך את תנאי הרכישה והשימוש בשירותיך.",
+  },
+  /** {@see BPageShopPagesPrivacy} **/
+  privacy: {
+    title: "עמוד מדיניות הפרטיות",
+    subtitle:
+      "מדיניות פרטיות היא הצהרה או מסמך משפטי החושף חלק מהדרכים שבהן צד אוסף, משתמש, חושף ומנהל את הנתונים של לקוח או לקוח, או את כולם.",
+  },
+  /** {@see BPageShopPagesContactUs} **/
+  contact_us: {
+    title: "עמוד צור קשר",
+    subtitle:
+      "כתוב את פרטי הקשר שלך, כתובת ומספר טלפון שיוצגו ללקוחות שלך בדף צור קשר.",
+  },
+
+  /** {@see BPageShopApplicationsMetaverse} **/
+  metaverse: {
+    title: "גשר מטאוורס",
+    subtitle:
+      "Selldone פרווידאס %100 API-באסאד שירותים ינ טהא קוממארקא ספאקא. גאמא, בלוקקקהאינ, אנד מאטאוארסא דאואלופארס קאנ וסא טהאסא פווארפול אפיס טו קוננאקט בוסינאססאס, לקוחות, אנד שירותים ינ טהא פוטורא ופ וורק, ליפא אנד טראדא וורלד.",
+    message: "גישה מוקדמת למפתחי משחקים",
+  },
+
+  /** {@see BProcessCenterBulkExport} **/
+  orders_bulk_export: {
+    title: "עוזר הזמנות",
+    subtitle:
+      "ייצוא אנד הורדה לאבאלס פור בולק הזמנה מעבד - ידאאל פור האנדלינג וואר 100 הזמנות דאילי.",
+
+    timespan: {
+      title: "תקופת זמן",
+      subtitle: "בחר את תאריכי ההתחלה והסיום לביצוע הזמנות.",
+    },
+    tasks: {
+      title: "פלט משימות",
+      subtitle:
+        "הורד את רשימת המשימות לעיבוד הזמנות בכמות גדולה. התוצאה מכילה רק הזמנות בתשלום ו-COD.",
+      export_title: "רשימת משימות",
+    },
+    labels: {
+      title: "תוויות חבילות",
+      subtitle:
+        "הורד את רשימת כל תוויות ההזמנות בתקופת הזמן והסטטוס שנבחרו. התוצאה מכילה רק הזמנות בתשלום ו-COD.",
+      export_title: "תוויות קופסאות",
+    },
+  },
+
+  /** {@see BPageShopMarketingFunnel} **/
+  customers_funnel: {
+    title: "דמוגרפיה של לקוחות",
+    subtitle:
+      "סנן וייצא את נתוני הלקוחות שלך כדי לקבל החלטות טובות יותר כדי לספק יותר ערך עם פחות שיווק! אנא כבד את פרטיות הלקוחות שלך ולעולם אל תשלח אליהם מיילים בכמות גדולה! לעולם אל תשתף את המידע של הלקוחות שלך עם שירותי צד שלישי מבלי לקבל אישור מכל אחד מהם.",
+  },
+
+  /** {@see BPageAffiliatorDashboard} **/
+  affiliate_pos: {
+    title: "קופה שותפים",
+    open_pos_action: "הזמנה מהירה POS",
+    description:
+      "טהיס אפשרות יס סויטאבלא פור אדמינס ופ Instagram דפים אנד וטהאר סוקיאל נאטוורקס. וסא שותף POS טו ראקאיוא אנד הוסף הזמנות פרומ לקוחות ידנית. יוור שותף (ור פראנקהיסא) קאנ הוסף חדש הזמנות ינ טהא שותף POS אנד העלאה טהא דאפוסיט סליפ.",
+  },
+
+  /** {@see BPageShopSettingFlow} **/
+  shop_configuration: {
+    /** {@see BShopOptionsLoginMethods} **/
+    login: {
+      title: "שיטות כניסה",
+      subtitle: "התאם אישית את הדרך שבה משתמשים נכנסים לחנות שלך.",
+
+      tips: "<b>חשוב.</b> והאנ a משתמש ראגיסטארס ויטה יוור חנות, a קורראספונדינג Selldone משתמש יס קראאטאד, יפ ונא דואסנ't אלראאדי אקסיסט. טהיס משתמש וילל האוא גישה טו טהאיר כתובת בווק אקרוסס הכול חנות אנד קאנ צפה טהאיר הזמנה היסטוריה, אואנ יפ a חנות האס קלוסאד. וא דו לא וסא טהיס מידע פור שיווק פורפוסאס בוט ראקוירא יט טו פראואנט פראוד ונ בוטה סידאס. טו מאינטאינ טראנספאראנקי, וא'לל סאנד אנ אימייל טו טהא משתמש ינפורמינג טהאמ ופ טהאיר ראגיסטראטיונ.",
+    },
+
+    /** {@see BShopOptionsCheckout} **/
+    checkout: {
+      title: "זרימת קופה",
+      subtitle:
+        "התאם אישית את מסע הלקוח ואת זרימת הרכישה שלך במסחר האלקטרוני שלך.",
+      map: {
+        title: "מַפָּה",
+        subtitle:
+          "על המשתמשים לבחור את מיקום המסירה במפה (כמו אובר).",
+        subtitle_no_map:
+          "המרחק בחישוב המשלוח נחשב לאפס אם המיקום אינו קיים בכתובת שסופקה על ידי הלקוח.",
+      },
+      mode: {
+        title: "נקודת כניסה של לקוחות",
+        default: {
+          title: "בהקדם האפשרי (ברירת מחדל)",
+          msg: "משתמשים נכנסים בהקדם האפשרי. (המרה נוספת)",
+        },
+        on_checkout: {
+          title: "בקופה",
+          msg: "הכריח משתמשים להיכנס בשלב התשלום.",
+        },
+        login_free: {
+          title: "כניסה אופציונלית",
+          msg: "כניסה אופציונלית לאחר תשלום ההזמנה..",
+        },
+      },
+
+      express: {
+        title: "הפנה מחדש לאחר הוספה לעגלת הקניות",
+
+        false: {
+          title: "מצב נורמלי",
+          msg: "הישאר בעמוד והמשך קניות לאחר לחיצה על הוסף לסל.",
+        },
+        true: {
+          title: "מצב אקספרס",
+          msg: "הפנה את הלקוח לדף התשלום לאחר לחיצה על הוסף לסל.",
+        },
+      },
+
+      shipping_address: {
+        title: "בקש כתובת למשלוח",
+      },
+    },
+
+    /** {@see BShopOptionsCheckoutForm} **/
+    checkout_form: {
+      title: "קהאקקווט טופס",
+      subtitle:
+        "קוסטומיזא טהא קהאקקווט טופס פיאלדס טו קוללאקט טהא מידע יוו נאאד פרומ יוור לקוחות.",
+    },
+  },
+  /** {@see CheckoutOptions} **/
+  checkout_options: {
+    default: {
+      title: "פיזי ושירות (ברירת מחדל)",
+      desc: "בקשו מהלקוח להזין כתובת בקופות הפיזיות והשירותיות.",
+    },
+    physical: {
+      title: "פיזי בלבד",
+      desc: "בקשו מהלקוח להזין כתובת רק בקופה הפיזית.",
+    },
+    off: {
+      title: "לעולם לא",
+      desc: "לעולם אל תבקש את כתובת המשלוח. ⚠ השתמש באפשרות זו אם אתה מתכנן לקבל שירותים עם גרסאות על ידי בחירת סוג פיזי למוצרים במקום סוג שירות.",
+    },
+  },
+
+  /** {@see BPageShopSettingBusinessModel} **/
+  business_model: {
+    title: "הגדרת מודל עסקי",
+    subtitle:
+      "הגדר את המודל העסקי שלך, ואנו נגדיר את מערכת ההפעלה שלך מאחורי הקלעים.",
+  },
+  business_type: {
+    title: "סוגי סחורה",
+    subtitle:
+      "הגדר את סוג המוצרים שאתה רוצה למכור בחנות שלך. סוגי מוצרים ב-Seldone הם יותר מסתם סוג של מוצרים; זה יותר על הליך מילוי.",
+
+    send_activation_request_to_support:
+      "שלח בקשת הפעלה בכרטיס תמיכה.",
+    require_kyc: "בעל עסק KYC.",
+    needs_enterprise_license: "אתה צריך להיות בעל רישיון Enterprise.",
+    marketplace_caution_message:
+      "הגדר את Marketplace מכיוון שהמודל שלך משפיע באופן עמוק על תצורת מערכת ההפעלה העסקית שלך. לדוגמה, עליך להגדיר לפחות ספק אחד לכל מוצר עם תמחור ומלאי עצמאיים. לקוחות לא יכולים לקנות מוצרים שאין להם ספק.",
+  },
+
+  /** {@see BusinessModelView} **/
+  business_model_view: {
+    normal: {
+      title: "חנות רגילה",
+      desc: "בדרך כלל עסקים קטנים ובינוניים, עסק ביתי או דרופשיפר - שמוכר את המוצר שלהם ישירות ללקוחות או מוכר מוצרים של סיטונאים כמשווק.",
+    },
+
+    dropshipping: {
+      title: "דרופשיפינג",
+      desc: "ווטסוורקא טהא מימוש ופ הזמנות בי שלם a טהירד פארטי, סוקה אס a והולאסאלאר ור מאנופאקטוראר, טו האנדלא מלאי אנד מוצר ניהול באהינד טהא סקאנאס.",
+    },
+
+    wholesaler: {
+      title: "ספק דרופשיפינג",
+      desc: "בדרך כלל סיטונאי או יצרן - ששולח הזמנות ישירות לצרכן הסופי. סוחרים אחרים ב-Seldone יכולים לשלוח את המוצרים שלך בחנויות שלהם.",
+    },
+    marketplace: {
+      title: "זירת מסחר",
+      desc: "שווקים מקוונים מחברים בין קונים ומוכרים בפלטפורמה קניינית וריכוזית.",
+    },
+
+    franchise: {
+      title: "זכיינות / שותף",
+      desc: "זיכיון הוא שיטה להפצת מוצרים או שירותים הכוללת זכיין שמקים את המותג שלך (זכיינות) או מוכר את המוצרים שלך לפי המותג שלו (שותף).",
+    },
+  },
+
+  /** {@see BPageMarketplace} **/
+  marketplace: {
+    vendor_wallets: "ארנקים",
+    pricing_models: "תמחור",
+    add_vendor: "הוסף ספק",
+    requests: "בקשות",
+  },
+
+  price_input_type: {
+    title: "סוג קלט מחיר",
+    default: {
+      title: "בְּרִירַת מֶחדָל",
+      desc: "בחר ערך ככמות בעגלה.",
+    },
+    area: {
+      title: "אֵזוֹר",
+      desc: "הזן רוחב ואורך בתור תשומות כדי לחשב את הכמות.",
+    },
+    volume: {
+      title: "כרך",
+      desc: "הזן רוחב, אורך וגובה כקלט כדי לחשב את הכמות.",
+    },
+    custom: {
+      title: "מותאם אישית (לפי טופס קלט)",
+      desc: "אין צורך במאות גרסאות! צור טופס חישוב עלות מותאם אישית עבור מוצרים הניתנים להתאמה אישית גבוהה.",
+    },
+  },
+
+  /** {@see BPageShuttleVendors} **/
+  vendors_list: {
+    title: "הספקים שלי",
+    message:
+      "רשימת הספקים שלי.",
+  },
+
+  vendor_page: {},
+
+  /** {@see BDomainsList} **/
+  domains: {
+    message:
+      "חבר מספר דומיינים למערכת ההפעלה של העסק שלך ונהל את כולם במקום אחד. אתה יכול להשתמש בתכונת ריבוי הדומיינים כדי ליצור דומיינים ייעודיים לכל חלק באתר האינטרנט שלך, כמו בלוג וקהילה, או להשתמש בדומיינים שונים עבור השותפים שלך.",
+  },
+
+  /** {@see BNoteButton}   {@see BNoteDialog} **/
+  notes: {
+    add_action: "הוסף הערה עבור הצוות שלך",
+    notifications: {
+      success_add: "הערה נוספה בהצלחה.",
+      success_delete: "הערה נמחקה בהצלחה.",
+    },
+  },
+
+  /** {@see BDashboardShopExternalServices} **/
+  external_services: {
+    title: "שירותים חיצוניים",
+    subtitle:
+      "עקוב אחר הסטטוס האחרון של השירותים החיצוניים כמו SMS ואימיילים כאן.",
+  },
+
+  /** {@see BPageShopSettingQuota**/
+  shop_quota: {
+    title: "מכסת שימוש",
+    sub_title:
+      "זוהי רשימת מכסות השימוש עבור החנות שלך. אתה יכול להגדיל מגבלות אלה על ידי שדרוג רישיון החנות שלך. אם תחרוג מהמגבלות, תוכל לבקש מאיתנו תוספת מכסה יומית. כל השימוש יאופס מדי יום.",
+  },
+
+  /** {@see WidgetAppCard} **/
+  app_card: {
+    category: "קטגוריה",
+    installs: "להתקין",
+    actives: "פָּעִיל",
+    uninstalls: "הסרות התקנה",
+    app_code: "קוד אפליקציה",
+    app_mode: "מצב יישום",
+  },
+
+  product_status: {
+    open: {
+      name: "פָּעִיל",
+      title: "פעיל ╏ מכירות מקוונות ואופליין",
+      description: "מוצר זה יהיה זמין להזמנות מקוונות.",
+    },
+    close: {
+      name: "לֹא פָּעִיל",
+      title: "לא פעיל ╏ רק מכירות לא מקוונות",
+      description: "מוצר זה לא יהיה זמין להזמנות מקוונות.",
+    },
+    pending: {
+      name: "ממתין ל",
+      title: "ממתין ל",
+      description: "מחייב סקירת שוק לפני העלייה לאוויר.",
+    },
+    rejected: {
+      name: "נִדחֶה",
+      title: "נִדחֶה",
+      description: "מוצר זה נדחה על ידי השוק.",
+    },
+    unlisted: {
+      name: "ונליסטאד",
+      title: "ונליסטאד",
+      description:
+        "טהיס מוצר יס לא רשימה ינ טהא חנות, בוט אקקאססיבלא בי דיראקט קישור.",
+    },
+  },
+
+  /**
+   * BDashboardShopFeedback
+   */
+  direct_feedback: {
+    title: "סאנד דיראקט ראקואסט",
+    message:
+      "ידאנטיפי יוור טופ 3 בוסינאסס נאאדס טו טהריוא אנד פרופיט ונ Selldone. טהיס מידע וילל בא סהאראד דיראקטלי ויטה פוונדארס אנד דיראקטורס אנד וילל בא קונסידאראד קאראפוללי. יוו קאנ אלסו עדכן יוור נאאדס וואר זמן אפטאר סובמיססיונ.",
+    expand_action: "וריטא טהא ראקואסט...",
+    input_label: "יוור ראקואסט",
+    to: {
+      ceo: "סאנד טו קאו",
+      team: "סאנד טו צוות",
+    },
+    placeholder: {
+      ceo: "אבסולוטאלי נו נאאד טו בא ניקא, I ליקא טו האאר יוור דיראקט, ריגהט-טו-טהא-פוינט אסק.\ne.g. I נאאד טו האוא...",
+      team: "פלאאסא טרי טו בא ניקא טו טהאמ.\ne.g. I נאאד טו האוא...",
+    },
+  },
+
+  /**
+   * BInventoryFilter
+   */
+  inventory_filter: {
+    placeholder: "בחר מסנן *.*",
+  },
+  /**
+   * BVendorInput
+   */
+  vendor_input: {
+    placeholder: "מסנן ספק...",
+  },
+
+  /**
+   * BShopProductsImportProcessing
+   */
+  product_import_processing: {
+    title: "מעבד ייבוא מוצרים",
+    message:
+      "וא ארא ינ טהא תהליך ופ ייבוא מוצרים אנד תמונות, והיקה מאי טאקא סומא זמן טו קומפלאטא.",
+  },
+
+  /**
+   * BOrderInput
+   */
+  order_input: {
+    message:
+      "טהא מידע דיספלאיאד הארא האס באאנ סובמיטטאד בי טהא לקוח, ינ אקקורדאנקא ויטה טהא מוצר קלט טופס סטרוקטורא.",
+  },
+
+  /**
+   * BPageConnectDashboard
+   */
+  shop_connect: {
+    test: {
+      title: "חנות",
+      subtitle: "אקסטארנאל שירות דוח",
+      action: "טאסט קוננאקטיונ",
+      last_update: "אחרון ופדאטאד בי",
+    },
+    service_status: {
+      title: "שירות סטטוס",
+      syncing_message: "ונ סינקינג תהליך...",
+      action: "סינק הכול",
+      connect_status: "קוננאקט סטטוס",
+      service_status: "שירות סטטוס",
+      auto_confirm_enable_msg: "אוטו-קונפירמאטיונ פור הזמנות יס מופעל.",
+      auto_confirm_disable_msg:
+        "אוטומטי אישור ופ הזמנות יס לא מופעל.",
+      shipping_enable_msg:
+        "טהא משלוח קוסט וילל בא קאלקולאטאד באסאד ונ טהא מידע פרווידאד אט קהאקקווט.",
+    },
+    detail: {
+      title: "קוננאקט דאטאיל",
+      auto_confirm_order: "אוטומטי אשר הזמנות",
+      test_mode: "טאסט מצב",
+      status: {
+        subtitle: "וואראלל מידע אבווט סינק סטטוס.",
+      },
+      sync: {
+        title: "סינק דאטאיל",
+        subtitle:
+          "ינטארנאל סינק פרטים. טהיס מידע יס סאואד אפטאר a סינק תהליך אפוקה סוקקאסספוללי סיום.",
+        no_data: "נו סינק מידע!",
+      },
+    },
+
+    products: {
+      title: "מוצרים",
+      subtitle:
+        "רשימה ופ הוסף מוצרים פרומ {name}. מאקא סורא יוור מוצר האס a וניקוא שם אנד SKU. סומא קוננאקט שירותים ארא וסאד פור מיגראטיונ, סו יפ יוו האוא מוצרים ויטה דופליקאטא <b>סקוס</b> אנד <b>שם</b>, טהוסא מוצרים וילל בא קהאנגאד!",
+      action: "פאטקה מוצרים",
+      syncing_message: "ונ סינקינג תהליך...",
+    },
+
+    logs: {
+      title: "לוגס",
+      subtitle:
+        "טהא רשימה ופ הכול לוגס ינ טהא אחרון 7 ימים. לוגגינג פאאטורא תמיכה רק ונ אקסטארנאל שירות פרווידארס.",
+    },
+
+    edit: {
+      title: "הוסף חדש קוננאקט",
+
+      service: {
+        title: "שירות",
+        subtitle:
+          "בחר טארגאט פלאטפורמ, דרופסהיפפינג סופפליאר, ור מרקטפלייס טו קוננאקט.",
+      },
+      test: {
+        false_title: "סינק הכול",
+        false_desc: "גאט הכול זמין מוצרים, קטגוריות, לקוחות.",
+        true_title: "לימיטאד (ראקוממאנדאד פור באגיננארס)",
+        true_desc:
+          "גאט מאקס 5 מוצרים, קטגוריות, אנד לקוחות. יוו קאנ טורנ יט טו פולל מצב ינ טהא קוננאקט > הגדרה אט אני זמן.",
+      },
+      overwrite: {
+        false_title: "דו לא קהאנגא יפ אקסיסט",
+        false_desc: "ראטאינ אקסיסטינג מוצר אנד קטגוריה פרטים אס טהאי ארא.",
+        true_title: "ווארוריטא",
+        true_desc:
+          "עדכן אקסיסטינג מוצר, וריאציה, אנד קטגוריה מידע.",
+      },
+      migration_tips:
+        "<b>טיפים:</b> אם ברצונך לבדוק את הפעולה, בחר באפשרות <b>מוגבל</b>. בבחירת 'סנכרן הכול' נקבל את כל הנתונים מהשירותים המחוברים ונוריד תמונות קשורות, ולכן נפח האחסון החינמי שלך יקטן. בנוסף, הסרת מוצרים, קטגוריות ולקוחות רבים עלולה להיות קשה!",
+      add_action: "אוטומטי קוננאקט טו",
+      order: {
+        title: "הזמנה סטטוס",
+        subtitle:
+          "קונפיגורא טהא קוננאקטאד שירות's הזמנה ניהול הגדרות פור יוור חנות. טהיס ינקלודאס הגדרה ופ הזמנה אקקאפטאנקא, אנאבלינג אוטומטי הזמנה אישור (יפ תמיכה), אנד קונפיגורינג משלוח קוסט קאלקולאטיונס.",
+      },
+      enable: {
+        label: "קוננאקט סטטוס",
+        true_desc: "מלאי אנד הזמנות וילל בא סינקאד.",
+      },
+      confirm: {
+        label: "אוטומטי אשר הזמנות",
+        false_desc: "יוו סהוולד אשר הזמנה ידנית.",
+        true_desc:
+          "הזמנות ויטה ליוא תשלום וילל בא אוטומאטיקאללי אושר. הזמנות ויטה דאבוג תשלום וילל לא אפפרווא אוטומאטיקאללי. ",
+        tips: "הזמנות שולם בי מתנה כרטיס ור COD ור תשלום שערים ינ טהא דאבוג מצב ארא אקסקאפטיונס אנד וילל לא בא אשר אוטומאטיקאללי.",
+      },
+
+      shipping: {
+        label: "משלוח",
+        tips: "טהיס שירות הצעות משלוח קאלקולאטיונ, והיקה קאנ בא מופעל ור מושבת אס פאר יוור פראפאראנקא. יפ מופעל, קוסט קאלקולאטיונ אפיס ויטה 3רד פארטי שירותים וילל בא ראקויראד, והיקה מאי קאוסא a דאלאי ופ וואר 300מס פור ופדאטינג טהא מחיר ונ טהא קהאקקווט דף.",
+        false_title: "השבת",
+        false_desc:
+          "וסא מי משלוח קוסט קאלקולאטיונ, ינ חנות > לוגיסטיקה > טראנספורטאטיונ פור הכול מוצרים, ינקלודינג ייבוא ונאס.",
+        true_title: "קאלקולאטא משלוח",
+        true_desc:
+          "אמפלוי טהא משלוח ראטא קאלקולאטיונ API הצעה בי טהיס שירות.",
+      },
+
+      remove: {
+        verify: "I אמת טו הסר טהיס קוננאקטיונ.",
+        action: "הסר קוננאקט",
+      },
+    },
+
+    /**
+     * BPageShopChannelConnect
+     */
+    list: {
+      title: "קוננאקט וס",
+      subtitle:
+        "קוננאקט יוור בוסינאסס וס טו אקסטארנאל שירותים אנד נהל הכול קהאננאלס ינ טהא סאמא פלאקא.",
+      action: "קוננאקט חדש שירותים",
+      empty_message:
+        "פורגאט אפפס אנד פלוגינס פור דרופסהיפפינג! קוננאקט יס טהא פוטורא ופ קרוסס-פלאטפורמ הזמנה ניהול.",
+      auto_confirm: "אוטומטי אשר",
+      shipping: "משלוח",
+      syncing_now: "סינקינג עכשיו!",
+      sync_not_started: "סינק האס לא התחלה יאט!",
+    },
+  },
+
+  /**
+   * ConnectMode
+   */
+  connect_mode: {
+    Migration: {
+      title: "מיגראטיונ",
+      desc: "גאט מוצרים, קטגוריות, אנד לקוחות. אפטאר טהא משתמש מחק טהיס שירות, טהא ראקאיואד מוצרים, קטגוריות, אנד לקוחות וילל לא בא דאלאטאד.",
+    },
+    Dropshipping: {
+      title: "דרופשיפינג",
+      desc: "גאט מוצרים, קטגוריות, אנד הזמנות. טהא סיסטאמ הסר מוצרים אפטאר טהא משתמש הסר טהא שירות.",
+    },
+    Marketplace: {
+      title: "זירת מסחר",
+      desc: "גוסט סינק מלאי אנד ראקאיוא הזמנות (מוצרים וילל בא קישור בי SKU).",
+    },
+    Accounting: {
+      title: "חשבונאות",
+      desc: "סאנד הזמנות אנד פיננסי מידע.",
+    },
+    Other: {
+      title: "וטהאר",
+      desc: "וטהאר שירותים.",
+    },
+  },
+
+  /**
+   * BPageShopPagesLandings
+   */
+  shop_landings: {
+    title: "דפי נחיתה",
+    add_new_action: "הוסף חדש דף",
+    subtitle:
+      "צור דיסטינקטיוא, ראספונסיוא מותאם אישית דפים פור יוור מותג וסינג a וארסאטילא אי-פוואראד ינלינא אדיטור, אנד אוטומאטיקאללי צור דינאמיק קונטאנט בי פאאדינג ינ נתונים.",
+    empty_message: "דאסיגנ מותאם אישית דפים בי דראג & דרופ...",
+  },
+
+  /**
+   * BPageShopPermissionStaff
+   */
+  shop_staff: {
+    list: {
+      title: "צוות ניהול ",
+      subtitle:
+        "משתמשים שתהיה להם גישה ללוח המחוונים ולחלקי הניהול של חנות זו.",
+    },
+    pending: {
+      title: "ממתין ל",
+      message: "הצג הזמנות ממתינות.",
+    },
+  },
+
+  /**
+   * BPageShopCommunityComments
+   */
+  community_comments: {
+    title: "הערות",
+    subtitle: "טהיס יס a רשימה ופ טהא קוממוניטי's קוממאנטס.",
+    empty_msg: "נו קוממאנטס האוא באאנ קראאטאד סו פאר...",
+  },
+
+  /**
+   * BPageShopCommunityCategories
+   */
+  community_categories: {
+    title: "קטגוריות",
+    subtitle: "טהיס יס a רשימה ופ טהא קוממוניטי's קטגוריות.",
+    new_category_action: "חדש קטגוריה",
+    empty_msg: "נו קטגוריות האוא באאנ קראאטאד סו פאר...",
+    filter: {
+      delete: {
+        title: "נמחק",
+        description: "הצג דאלאטאד קטגוריות.",
+      },
+    },
+  },
+  /**
+   * BPageShopCommunityPosts
+   */
+  community_posts: {
+    title: "פוסטס",
+    subtitle: "טהיס יס a רשימה ופ טהא קוממוניטי's פוסטס.",
+    filter: {
+      deleted: {
+        title: "נמחק",
+        description: "הצג דאלאטאד פוסטס.",
+      },
+      reported: {
+        title: "דוח",
+        description: "הצג דוח פוסטס.",
+      },
+    },
+    empty_msg: "נו פוסטס האוא באאנ קראאטאד סו פאר...",
+    menu: {
+      open_post: {
+        title: "ופאנ פוסט",
+        subtitle: "צפה אנד ערוך פוסט ינ טהא קוממוניטי.",
+      },
+      spam: {
+        title: "דוח & הסר ספאמס",
+        subtitle: "בולק הסר פוסטס אנד באנ משתמש.",
+      },
+      delete: {
+        title: "מחק פוסט",
+        subtitle: "הסר טהיס פוסט.",
+      },
+    },
+  },
+
+  /**
+   * {@see BGoogleTagManager}
+   */
+  channel_google: {
+    gtag: {
+      title: "טאג מאנאגאר",
+      subtitle:
+        "Google אנאליטיקס הפעל מאאסוראמאנט ופ אד רוי והילא טראקקינג פלאסה, וידאו, אנד סוקיאל מאדיא סיטאס אנד אפפס. נהל ואבסיטא טאגס אפפורטלאססלי ויטה Google טאג מאנאגאר's פראא, סימפלא, אנד ראליאבלא סולוטיונס—נו קוד ערוך ראקויראד.",
+      tag_id: {
+        label: "Google טאג מאנגאר יד",
+      },
+    },
+    shopping: {
+      title: "Google סהופפינג",
+      subtitle:
+        "נתונים סוורקאס ינדיקאטא טהא וריגינס ופ יוור קאטאלוג מידע ונ Google. פוללוו טהיס קישור טו אוטומאטיקאללי הוסף הכול מוצרים אנד קטגוריות טו Google מארקהאנדיסא.",
+      tips: "יוו קאנ וטיליזא טהיס טוול טו אפפורטלאססלי אנד אוטומאטיקאללי נהל Google אדס.",
+      link_message: "Google מוצרים פאאד URL",
+    },
+    console: {
+      title: "חיפוש קונסולא",
+      subtitle: "הוסף a מאטא טאג טו יוור הומאפאגא פור Google חיפוש קונסולא אימות.",
+      code: {
+        label: "אימות מאטא טאג",
+        placeholder: "פרומ גווגלא, e.g. ויקג9מגדבג...",
+      },
+    },
+    serp: {
+      title: "Google סארפ & קאיוורדס",
+      subtitle:
+        "וא ובטאינ טהא מוסט פראקיסא SEO אודיט נתונים פרומ Google אנד פראסאנט יט טו יוו ינ a קונואניאנט מאננאר. סימפלי פוללוו טהא סטאפס פרווידאד.",
+    },
+    serp_content: {
+      title: "קוננאקט טו Google חיפוש קונסולא",
+      subtitle:
+        "קוננאקט יוור חנות טו טהא חיפוש קונסולא אנד התחלה אקספלורינג קאיוורדס, ראנקס, אנד וטהאר פראא SEO טוולס ונ Selldone.",
+      tips: {
+        title:
+          "פריור טו קישור Selldone ויטה Google חיפוש קונסולא, אנסורא טהא פוללווינג:",
+        add_in_selldone: "הוסף, אמת, אנד סאט אס ראשי יוור מותאם אישית דומיין.",
+        add_in_google: "הוסף אנד אמת <b>{domain}</b> ינ יוור<a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Google חיפוש קונסולא</b></a>.",
+      },
+      action_custom_domain: "מותאם אישית דומיין",
+      action_connect_now: "התחבר עכשיו",
+      action_remove_connection: "הסר קוננאקטיונ",
+    },
+  },
+
+  /**
+   * {@see BPageShopIncentivesCoupon}
+   */
+  cashback: {
+    add_new: "הוסף חדש קאשבק",
+    title: "קאשבק פרוגראמס",
+    boosted: "בווסט (2x)",
+    min_purchase: "מינימומ רכישה",
+    only_first_order: "רק ראשון הזמנה",
+    total_cashback: "סה״כ קאשבק",
+    delete_alert: {
+      title: "מחק קאשבק פרוגראמ",
+      message: "ארא יוו סורא טו מחק טהיס קאשבק פרוגראמ?",
+      action: "כן, מחק עכשיו",
+    },
+    notifications: {
+      delete_success: "קאשבק פרוגראמ דאלאטאד סוקקאסספוללי.",
+    },
+  },
+  /**
+   * {@see BPageCashback}
+   */
+  shop_cashback: {
+    title: "קאשבק פרוגראמ",
+    up_to: "עד ל",
+    menu: {
+      back: "באקק פרוגראמס",
+      dashboard: "לוּחַ מַחווָנִים",
+      orders: "הזמנות",
+      edit: "לַעֲרוֹך",
+    },
+    /**
+     * {@see BPageCashbackDashboard}
+     */
+    dashboard: {
+      chart_amount_buy: {
+        label: "לִקְנוֹת",
+        y: "סכום רכישה {currency}",
+      },
+      chart_amount_cashback: {
+        label: "קאשבק",
+        y: "קאשבק סכום {currency}",
+      },
+      chart_used: {
+        label: "בשימוש",
+        y: "פִּי",
+      },
+    },
+    /**
+     * {@see BPageCashbackOrders}
+     */
+    orders: {
+      title: "קאשבק הזמנות",
+      table: {
+        amount_cashback: "קאשבק סכום",
+        payment_status: "מצב תשלום",
+        date: "תַאֲרִיך",
+      },
+    },
+  },
+
+  /**
+   * {@see BCashbackAdd}
+   */
+  cashback_edit: {
+    config: {
+      subtitle: "סאט טהא קהאסבאקק פארקאנט, לימיט אנד יטס סטטוס הארא.",
+    },
+    percent_input: {
+      title: "קאשבק פארקאנטאגא",
+      message: "אנטאר טהא קאשבק פארקאנטאגא פרומ 1% טו 20%.",
+    },
+    currency_input: {
+      message: "טהא קאשבק פרוגראמ וילל בא זמין גוסט פור טהיס מטבע.",
+    },
+    limit_input: {
+      title: "לְהַגבִּיל",
+      hint: "אנטאר טהא מאקסימומ סכום ופ קאשבק.",
+      zero_message: "אנטאר 0 פור ונלימיטאד קאשבק.",
+    },
+    duration: {
+      title: "משך לימיט",
+      subtitle: "סאט משך ופ קאשבק פרוגראמ. יט's ופטיונאל.",
+    },
+    start_input: {
+      title: "התחלה תאריך",
+      placeholder: "בחר התחלה תאריך...",
+    },
+    end_input: {
+      title: "סיום תאריך",
+      placeholder: "בחר סיום תאריך...",
+    },
+    design: {
+      subtitle:
+        "סאט כותרת אנד סהורט תיאור פור טהא קאשבק פרוגראמ. טהאסא מידע וילל בא סהוונ טו לקוחות.",
+    },
+    title_input: {
+      title: "כותרת",
+    },
+    description_input: {
+      title: "תיאור",
+    },
+    constraints: {
+      subtitle: "סאט טהא קונסטראינטס פור טהא קאשבק פרוגראמ.",
+    },
+    min_purchase_input: {
+      hint: "אנטאר טהא מינימומ רכישה סכום פור קאשבק פרוגראמ.",
+      title: "מינימומ רכישה",
+    },
+    only_first_buy_input: {
+      false_desc: "טהא קאשבק פרוגראמ וילל בא זמין פור הכול הזמנות.",
+      true_desc:
+        "טהא קאשבק פרוגראמ וילל בא זמין גוסט פור טהא ראשון הזמנה.",
+      true_title: "רק ראשון הזמנה",
+      false_title: "הכול הזמנות",
+    },
+    qualify_input: {
+      false_title: "הכול לקוחות",
+      true_title: "קואליפי לקוחות",
+      true_msg:
+        "טהא קאשבק פרוגראמ וילל בא זמין גוסט פור טהא לקוחות והו ארא קואליפיאד.",
+    },
+    club: {
+      subtitle:
+        "סאט טהא קלוב פור טהא קאשבק פרוגראמ. טהא קאשבק פרוגראמ וילל בא זמין גוסט פור טהא לקוחות והו ארא ינ טהיס קלוב.",
+    },
+    cluster: {
+      subtitle:
+        "בי אססוקיאטינג a קלוסטאר ויטה טהא קאשבק פרוגראמ, יוו קאנ נהל יט מורא אפפאקטיואלי.",
+    },
+    notifications: {
+      add: "קאשבק פרוגראמ הוסף סוקקאסספוללי.",
+      edit: "קאשבק פרוגראמ ופדאטאד סוקקאסספוללי.",
+    },
+    enable_input: {
+      true_msg: "טהא קאשבק פרוגראמ יס פעיל אנד לקוחות קאנ וסא יט.",
+      false_msg:
+        "טהא קאשבק פרוגראמ יס לא פעיל אנד לקוחות קאנ לא וסא יט.",
+    },
+    boosted_input: {
+      false_title: "נוֹרמָלִי",
+      true_title: "בווסט (2x קאשבק)",
+      true_msg:
+        "טהא קאשבק פרוגראמ יס ינ בווסט מצב אנד לקוחות וילל ראקאיוא 2x קאשבק.",
+      false_msg:
+        "טהא קאשבק פרוגראמ יס ינ נורמאל מצב אנד לקוחות וילל ראקאיוא נורמאל קאשבק.",
+    },
+  },
+
+  /**
+   * @see BOrderPaymentRowPayment
+   */
+  row_payment: {
+    actions: {
+      refund: {
+        title: "החזר תשלום",
+        subtitle: "פארטיאל ור פולל החזר תמיכה.",
+      },
+      delivery: {
+        title: "אשר ונ מסירה",
+        subtitle: "יוו קאנ ידנית אשר מסירה פור תשלום פרווידאר.",
+      },
+    },
+  },
+
+  /**
+   * @see BOrderPaymentActionsRefundDialog
+   */
+  payment_refund_dialog: {
+    title: "החזר תשלום",
+    message:
+      "פור סאקוריטי ראאסונס, רק הזמנות שולם ויטהינ טהא אחרון 7 ימים ארא אליגיבלא פור החזר.",
+    payment_amount: "סכום לתשלום",
+    total_refund_amount: "סה״כ החזר סכום",
+    can_refund: "קאנ החזר",
+    refund_amount: "החזר סכום",
+    verify: {
+      title: "אמת החזר",
+      description:
+        "I אשר טהאט טהא החזר סכום יס קורראקט אנד I ואנט טו פרוקאאד.",
+    },
+    action: "החזר עכשיו",
+  },
+
+  /**
+   * @see BOrderPaymentActionsDeliveryDialog
+   */
+  payment_delivery_dialog: {
+    title: "לקוח מסירה אישור",
+    message:
+      "קארטאינ תשלום שירותים ראקוירא אישור טהאט טהא הזמנה האס באאנ דאליואראד טו טהא לקוח. וא טיפיקאללי סאנד טהיס אישור דורינג טהא פינאל סטאפ ופ הזמנה מימוש והאנ וא ראקאיוא טהא לקוח's מסירה אישור. הוואואר, יפ יוו נאאד טו פארפורמ טהיס פעולה ידנית, יוו קאנ דו סו הארא.",
+    verify: {
+      title: "אמת מסירה",
+      description:
+        "I אשר טהאט טהא הזמנה האס באאנ דאליואראד טו טהא לקוח.",
+    },
+    action: "אשר עכשיו",
+  },
+
+  /**
+   * @see BPageProductCrossSelling
+   */
+  product_cross_selling: {
+    title: "קרוסס מכירה",
+    add_new_actions: "הוסף חדש מוצר",
+    subtitle:
+      "ינ טהיס סאקטיונ, יוו קאנ הוסף אנד נהל קרוסס-סאלל מוצרים פור טהיס מוצר דף. טהאסא מוצרים וילל בא דיספלאיאד אס סוגגאסטיונס פור לקוחות טו רכישה אלונגסידא טהא ראשי יטאמ. יוו קאנ אלסו סאט הנחה טו אנקווראגא אנד ינקאנטיויזא אדדיטיונאל רכישה. טהא סיסטאמ וילל סהווקאסא a מאקסימומ ופ 3 יטאמס פור טהא לקוח טו קונסידאר.",
+    dialog: {
+      edit_title: "ערוך קרוסס מכירה מוצר",
+      add_title: "הוסף חדש קרוסס מכירה מוצרים",
+      target: {
+        title: "טארגאט מוצר",
+        subtitle:
+          "בחר טהא מוצרים יוו'd ליקא טו פרומוטא אס קרוסס-סאלל אפשרויות אלונגסידא טהיס מוצר.",
+        select_products: "בחר מוצר(s)",
+      },
+      list: {
+        title: "טארגאט מוצר",
+        subtitle: "טהיס מוצר האס באאנ קהוסאנ פור קרוסס-סאללינג פרומוטיונ.",
+        manage_product: "נהל מוצר",
+      },
+      discount: {
+        title: "הנחה & הודעה",
+        subtitle:
+          "יוו האוא טהא אפשרות טו ינקלודא a הודעה אנד הצעה a הנחה טו מוטיואטא לקוחות טו קנייה טהא בחר אדדיטיונאל יטאמס. טהאסא ינקאנטיואס קאנ עזרה דריוא מכירות אנד אנהאנקא טהא וואראלל סהופפינג אקספאריאנקא.",
+        amount_input: {
+          message:
+            "טהא הנחה פארקאנטאגא וילל בא אפפליאד טו טהא מוצר מחיר אפטאר טאקינג ינטו חשבון הכול אקסיסטינג הנחה.",
+        },
+        mismatch_type_warning:
+          "הנחה קאננוט בא אפפליאד טו וטהאר סוגים באסידאס טהא ראשי מוצר סוגים, אס טהא סוורקא אנד טארגאט יטאמס וילל לא בא פלאקאד ינ a סאמא באסקאט.",
+        not_support_subscription_type_warning:
+          "הגדרה הנחה פור קרוסס-סאללינג מנוי מוצרים יס לא פוססיבלא, אס טהא תמחור פלאנס קאננוט בא אדגוסטאד דינאמיקאללי.",
+        message_input: {
+          message:
+            "קראפט a קומפאללינג אנד אנטיקינג כותרת טו קאפטורא לקוחות' אטטאנטיונ.",
+          placeholder:
+            "בונדלא & שמור: קומפלאטא יוור לווק ויטה וור האנדפיקקאד סאלאקטיונ!",
+        },
+      },
+      action: {
+        title: "פעולה",
+        subtitle:
+          "מודיפי טהא קרוסס-סאללינג מוצר's פעולה הארא. יפ יוור מוצר ראקויראס טהא קלט ופ מותאם אישית מידע, סוקה אס טהרווגה a ואלואטיונ טופס, דו לא בחר \"הוסף טו קארט\" אס טהא פעולה, אס טהיס מאי לאאד טו שגיאה.",
+      },
+    },
+  },
+  /**
+   * @see BProductVariantsBulkAdd
+   */
+  product_variants_bulk_add: {
+    title: "הוסף וריאציות ינ בולק",
+    variants: {
+      title: "וריאציה אפשרויות",
+      subtitle:
+        "בחר ופ טו טוו וריאציה אפשרויות. אפטאר סאלאקטיונ, יוו קאנ בחר והיקה ספאקיפיק וריאציות טו צור אוטומאטיקאללי.",
+    },
+    values: {
+      title: "וריאציה ואלואס",
+      subtitle: "אנטאר טהא פוססיבלא ואלואס פור אאקה וריאציה אפשרות הארא.",
+      prevent_duplicates_tips:
+        "<b>הערה:</b> וא אוטומאטיקאללי קהאקק פור אקסיסטינג וריאציות טו פראואנט דופליקאטאס.",
+    },
+    inventory: {
+      title: "יניטיאל מלאי",
+      subtitle: "סאט טהא התחלה מלאי מספר פור טהא חדש וריאציות.",
+    },
+    add_variants_action: "צור וריאציות",
+  },
+
+  /**
+   * @see CrossSellActionType
+   */
+  CrossSellActionType: {
+    AddToCart: {
+      title: "הוסף לעגלה",
+      description:
+        "דיספלאי טהא הוסף טו קארט כפתור דיראקטלי. הערה טהאט טהיס יס לא אפפליקאבלא פור מנוי מוצרים.",
+    },
+    ViewProduct: {
+      title: "צפה במוצר",
+      description:
+        "דיספלאי a צפה מורא כפתור טהאט דיראקטס לקוחות טו טהא מוצר דף בי ופאנינג a חדש וינדוו.",
+    },
+  },
+
+  /**
+   * @see BProductFlow
+   */
+
+  product_flow: {
+    title: "רכישה פלוו",
+    subtitle: "טהיס יס טהא רכישה פלוו אנד האאלטה קהאקק ופ יוור מוצר.",
+
+    /**
+     * @see BProductFlowRowConnect
+     */
+    connect: {
+      subtitle: "טהיס מוצר האס באאנ הוסף ויא <b>{name}</b>.",
+      enable_msg: "טהיס ברידגא טו אקסטארנאל שירות יס מופעל.",
+      disable_msg: "טהיס ברידגא טו אקסטארנאל שירות יס מושבת.",
+      has_shipping_msg:
+        "{name} תמיכה משלוח. סו יוו האוא טהא אפשרות טו הפעל אוטומטי משלוח קאלקולאטיונ בי {name} ונ טהא קהאקקווט דף.",
+    },
+    /**
+     * @see BProductFlowRowHealth
+     */
+    health: {
+      title: "מוצר האאלטה",
+      available_in_stock_msg: "מוצר יס זמין ינ סטוקק.",
+      out_of_stock_msg: "מוצר יס ווט ופ סטוקק.",
+      file_count_msg:
+        "{files_count} קבצים ויטה סה״כ {files_size} העלאה פור טהיס מוצר.",
+      no_file_uploaded_msg: "נו קובץ האס באאנ העלאה יאט.",
+      no_image_uploaded_msg:
+        "העלאה a מוצר תמונה טו מאקא יט מורא אטטראקטיוא.",
+    },
+    /**
+     * @see BProductFlowErrorsVendor
+     */
+    vendor_errors: {
+      title: "מיססינג ספקים",
+      subtitle:
+        "טהיס מוצר קורראנטלי האס נו אססוקיאטאד ספקים. פור a מוצר טו בא פורקהאסאבלא ינ טהא מרקטפלייס, יט מוסט האוא אט לאאסט ונא ספק.",
+      manage_vendors: "נהל ספקים",
+    },
+
+    /**
+     * @see BProductFlowErrorsFile
+     */
+    file_errors: {
+      title: "מיססינג קבצים",
+      subtitle:
+        "קורראנטלי, נו קבצים האוא באאנ העלאה פור טהיס מוצר. פלאאסא העלאה קבצים טו פרוקאאד.",
+      manage_files: "נהל קבצים",
+    },
+
+    /**
+     * @see BProductFlowRowPricing
+     */
+    pricing: {
+      title: "תמחור",
+      no_product_price_msg: "טהא ברירת מחדל מוצר מחיר לא סאט יאט!",
+      listing_pricing_msg: "רשימה תמחור:",
+      has_valuation_msg: "מוצר האס ואלואטיונ.",
+      subscription_pricing_msg:
+        "טהיס מוצר האס {count} מנוי תמחור פלאנס.",
+      has_no_subscription_pricing_msg:
+        "טהיס מוצר האס נו מנוי תמחור פלאנס.",
+    },
+    /**
+     * @see BProductFlowErrorsSubscription
+     */
+    subscription_errors: {
+      title: "מיססינג מנוי תמחור פלאנס",
+      subtitle:
+        "טהיס מוצר האס נו מנוי תמחור פלאנס. יוו נאאד טו הוסף אט לאאסט ונא מנוי תמחור פלאנ טו מאקא טהיס מוצר זמין פור מנוי רכישה.",
+      pricing_plans: "תמחור פלאנס",
+    },
+
+    /**
+     * @see BProductFlowRowLocation
+     */
+    location: {
+      title: "מכירה מיקום ראסטריקטיונ ● {status}",
+      status: {
+        has_restriction: "זמין ינ {count} קוונטריאס",
+        no_restriction: "לא ראסטריקטאד",
+      },
+      available_countries_msg:
+        "סהופפינג גלובאללי ראסטריקטאד טו {count} קוונטריאס. טהאסא קוונטריאס ארא {countries}.",
+      disable_for_all_countries_msg:
+        "סהופפינג יס מושבת פור הכול קוונטריאס ינ יוור חנות > מיקומים הגדרה.",
+      location_is_not_in_permitted_shop_locations_msg:
+        "יוו סאט {country} אס a מכירה מיקום בוט ינ טהא חנות לאואל יוו לא פארמיט טהיס מדינה. פלאאסא קהאקק יוור חנות לאואל הגדרות.",
+      shop_locations: "חנות מיקומים",
+      product_locations: "מוצר מיקומים",
+    },
+
+    /**
+     * @see BProductFlowErrorsLocation
+     */
+    location_errors: {
+      title: "זמין מיקומים שגיאה",
+      no_location_error_subtitle:
+        "יוו האוא אקטיואטאד a מיקום ראסטריקטיונ פור פורקהאסינג טהא מוצר, בוט קורראנטלי, נו מדינה יס רשימה ונדאר טהיס ראסטריקטיונ. אס a ראסולט, טהיס מוצר יס לא זמין פור רכישה בי אניונא.",
+      invalid_location_error_subtitle:
+        "טהא מיקום ראסטריקטיונ הגדרות פור יוור מוצר קונטאינ אנ שגיאה: קארטאינ מיקומים רשימה דו לא האוא אני אססוקיאטאד זיפ קוד. קונסאקואנטלי, משתמשים ארא ונאבלא טו בחר a זיפ קוד, ראנדארינג טהא מוצר לא זמין פור רכישה.",
+
+      manage_locations: "נהל מיקומים",
+    },
+
+    /**
+     * @see BProductFlowRowTax
+     */
+    tax: {
+      title: "מנוי מס",
+      default_shop: "ברירת מחדל חנות מס",
+      tax_profiles: "מס פרופילים",
+      description: {
+        subscription_tax_msg:
+          "וא קאנ אפפלי מס רק ונ טהא תשלום קראאטיונ סטאפ.",
+        dedicated: "דאדיקאטאד",
+        is_disabled: "טהיס מס פרופיל יס מושבת!",
+        tax_is_based_on_location: "מס: מיקום באסאד",
+        shipping_tax_is_based_on_location: "משלוח: מיקום באסאד",
+        included_in_price: "ינקלודאד ינ מחיר.",
+      },
+    },
+
+    /**
+     * @see BProductFlowRowVendor
+     */
+    vendor: {
+      vendor_owner_msg: "טהיס מוצר באלונגס טו <b>{vendor}</b>.",
+      has_vendors_msg: "טהארא יס {count} ספקים פור טהיס מוצר.",
+      no_vendor_msg:
+        "יוו האואנ't אססיגנאד a ספק טו טהיס מוצר, סו לקוחות ארא ונאבלא טו רכישה יט.",
+      add_vendors: "הוסף ספקים",
+    },
+  },
+
+  /**
+   * @see BPageProductTemplate
+   */
+  product_template: {
+    title: "מוצר דף טאמפלאטא",
+    subtitle:
+      "יוו קאנ אמבאד a דף ויטהינ יוור מוצר דף פור אנ אנהאנקאד פראסאנטאטיונ. טהא ופטימאל אפפרואקה יס טו צור דפים פאאטורינג a שקוף רקע אנד 1 טו 3 סאקטיונס טאילוראד טו אאקה מוצר קטגוריה. טהאנ, אססיגנ ונא דף טו מולטיפלא מוצרים פור a קונסיסטאנט אנד אפפאאלינג דיספלאי.",
+    edit_page: "ערוך דף",
+    list_of_pages: "רשימה ופ דפים",
+  },
+  /**
+   * @see BPageProductEmbed
+   */
+  product_embed: {
+    subtitle:
+      "יוו קאנ אאסילי אמבאד a מוצר ור a רשימה ופ מוצרים ינ יוור בלוג ור וטהאר ואב דפים בי סימפלי קופיינג אנד פאסטינג טהא קוד וא פרווידא. אלטהווגה טהיס פאאטורא יס סטילל ינ יטס אארלי סטאגאס, וא ארא אקטיואלי וורקינג טו אקספאנד יטס פונקטיונאליטי באיונד והאט יס קורראנטלי זמין אלסאוהארא. והילא יט קורראנטלי הצעות לימיטאד קאפאביליטיאס, וא האוא פלאנס טו ינטרודוקא מורא טאמפלאטאס אנד קוסטומיזאטיונ אפשרויות ינ טהא פוטורא.",
+    card: {
+      title: "מינימאל",
+      description:
+        "צור קוד HTML להוספת כרטיסי מוצר בפלטפורמות אחרות ובדפי HTML.",
+    },
+    iframe: {
+      title: "יפראמא",
+      description:
+        "צור טהא יפראמא קוד טו דיספלאי קומפראהאנסיוא מוצר פרטים ינ אנ אמבאדדאד וינדוו.",
+    },
+  },
+
+  /**
+   * @see BPermissionStaffAddDialog
+   */
+  permission_staff_add: {
+    title_new: "חדש צוות",
+    title_edit: "ערוך צוות",
+
+    staff: {
+      title: "הוסף צוות & גישה",
+      subtitle:
+        "הכול משתמשים ויטה צוות גישה קאנ לוג ינ טו יוור לוח בקרה אנד סאא פיננסי מידע. טו הוסף משתמשים ויטה לימיטאד גישה, דאפינא תפקיד.",
+      go_to_roles: "גו טו תפקידים",
+    },
+    access: {
+      customization_tips:
+        "<b>קוסטומיזאטיונ:</b> קליקק ונ אאקה יטאמ טו קוסטומיזא טהא ברירת מחדל ראאד/וריטא גישה. אאקה רוו ראפראסאנטס אנ גישה לאואל קורראספונדינג טו טהא ראשי חנות לוח בקרה.",
+      simplify_tips:
+        "<b>חשוב!</b> וא סימפליפי טהא גישה קונטרול פרומ וואר 300 טו ונדאר 10 לאואלס. מורא דאטאילאד אנד ופ-טו-דאטא גישה לאואלס וילל בא פובליסהאד ינ טהא דוקומאנטאטיונ.",
+      multi_permission_tips:
+        "<b>מותאם אישית לימיטס?</b> יוו קאנ הוסף מורא גישה טו ונא משתמש, סו אפטאר הוסף טהא ראשון גישה, צור אדדיטיונאל גישה ויטה טהא סאמא סטאפס.",
+      view_data: "צפה נתונים",
+      apply_changes: "החל שינויים",
+    },
+
+    inputs: {
+      email: {
+        placeholder: "אימייל",
+        label: "משתמש כתובת אימייל",
+      },
+      level: {
+        label: "גישה לאואל",
+        placeholder: "בחר a לאואל...",
+      },
+    },
+
+    actions: {
+      add: "הוסף צוות",
+    },
+    notifications: {
+      add_success: {
+        title: "גישה גראנטאד",
+        message: "חדש גישה האס באאנ סוקקאסספוללי הוסף.",
+      },
+      update_success: {
+        title: "גישה ופדאטאד",
+        message: "הרשאות האוא באאנ ופדאטאד סוקקאסספוללי.",
+      },
+    },
+  },
+
+  /**
+   * @see BCategoryEngineEditor
+   */
+  category_engine_editor: {
+    title: "נוסף מוצרים רשימה",
+    subtitle:
+      "דיספלאי מוצרים פרומ ואריווס קטגוריות. יוו האוא טהא אפשרות טו בחר מולטיפלא קטגוריות טו סהווקאסא מוצרים ור מסנן מוצרים בי טאגס.",
+    aut_add_sub_categories_tips:
+      "יוו קאנ אוטומאטיקאללי הוסף הכול סובקאטאגוריאס טו טהא קורראנט קטגוריה בי קליקקינג טהא כפתור באלוו.",
+    inputs: {
+      categories: {
+        label: "קטגוריות",
+        messages: "מוצרים ינ טהאסא קטגוריות וילל בא סהוונ.",
+        placeholder: "בחר קטגוריות...",
+      },
+      tags: {
+        label: "מוצר טאגס",
+        messages: "מוצרים ויטה טהאסא טאגס וילל בא הצג.",
+        placeholder: "וירא טאגס הארא אנד פראסס אנטאר. אקס. חדש קוללאקטיונ",
+      },
+    },
+    actions: {
+      save_engine: "שמור אנגינא",
+      auto_add_subcategories: "אוטומטי הוסף סוב-קאטאגוריאס",
+    },
+  },
+
+  /**
+   * @see SProductsSortView
+   */
+  products_sort_view: {
+    search_tips: {
+      title: "חיפוש טיפים",
+      normal:
+        "<b>גאנאראל חיפוש: </b>חיפוש בי כותרת, MPN, SKU, מותג, ור טאגס.",
+      product:
+        "<b>אקסאקט מוצר יד: </b>וסא P+מוצר יד טו פינד a ספאקיפיק מוצר, e.g., <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
+      quotes:
+        "<b>אקסאקט פהראסא: </b>וסא קווטאטיונ מארקס טו חיפוש פור אנ אקסאקט פהראסא, e.g., <b class=\"text-green\">\"</b><i class=\"text-yellow\">יוור טקסט הארא</i><b class=\"text-green\">\"</b>.",
+      tax: "<b>מס פרופיל: </b>חיפוש פור מוצרים ויטה a ספאקיפיק מס פרופיל וסינג \"מס:\", e.g., <b class=\"text-green\">מס:</b><i class=\"text-yellow\">מס פרופיל שם</i>.",
+      new_products:
+        "<b>חדש מוצרים: </b>פינד מוצרים הוסף ויטהינ a ספאקיפיק תאריך ראנגא, e.g., <b class=\"text-green\">חדש~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
+    },
+  },
+
+  /**
+   * @see LAugmentForm
+   */
+  augment_form: {
+    title: "אוגמאנטאטיונ",
+    subtitle:
+      "קלט טהא מפתח טהאט וילל בא סואפפאד ויטה יטס קורראספונדינג ואלוא ינ טהא דף קונטאנט. מפתחות סהוולד בא מאקס 32 קהאראקטארס.",
+    add_caption: "הוסף חדש יטאמ",
+    add_sub_caption: "הוסף מותאם אישית קאי-ואלוא פאיר.",
+    add_dialog: {
+      title: "בחר קלט סוג",
+      html: {
+        title: "טקסט & הטמל",
+        subtitle: "טהא יטאמ's ואלוא קאנ בא דאסיגנאטאד אס איטהאר טקסט ור HTML.",
+      },
+      image: {
+        title: "תמונה",
+        subtitle: "יוו קאנ העלאה אנ תמונה.",
+      },
+    },
+    help_dialog: {
+      title: "הוו טו וסא דינאמיק קונטאנט",
+      how_it_works_tips:
+        "ינ טהא נחיתה דפים, יוו האוא טהא פלאקסיביליטי טו דאסיגנאטא דינאמיק פלאקאהולדארס פור בוטה טקסט אנד תמונות. טהאסא פלאקאהולדארס סארוא a סיגניפיקאנט תפקיד ינ קוסטומיזינג טהא קונטאנט אקקורדינג טו טהא קונטאקסט.   טהא דינאמיק נאטורא ופ טהאסא פלאקאהולדארס אללווס טהאמ טו בא פופולאטאד בי אוגמאנטאטיונ ואלואס, והיקה קאנ וארי באסאד ונ דיפפאראנט פאקטורס. פור אקסאמפלא, טהא אוגמאנטאטיונ ואלואס מיגהט בא דיפפאראנט פור אאקה מוצר ור קטגוריה. טהא ראאל אדואנטאגא ופ טהיס פאאטורא קומאס ינטו פלאי והאנ יוו האוא a ואריאטי ופ יטאמס ויטה דיפפארינג אטטריבוטאס. יוו קאנ אפפאקטיואלי וטיליזא טהאסא דינאמיק פלאקאהולדארס טו פארסונאליזא אנד אנהאנקא טהא דיספלאי ופ אאקה יטאמ, טהאראבי קראאטינג a וניקוא אנד ינטאראקטיוא אקספאריאנקא ונ יוור נחיתה דפים.",
+      assign_tips:
+        "טו אססיגנ דינאמיק ואלואס טו תמונות, קליקק ונ טהא פאאדאר כפתור לוקאטאד ונ טהא לאפט סידא ופ טהא סאקטיונ.",
+      set_dynamic_image_tips:
+        "יוו עכשיו האוא טהא אביליטי טו מודיפי טהא תמונה URL אנד אססיגנ יט a דינאמיק ואלוא.",
+      enter_values_tips:
+        "פור אוארי מוצר, יוו האוא טהא אביליטי טו אססיגנ דאדיקאטאד קאי-ואלוא פאירס.",
+      result_tips:
+        "טהיס יס טהא פינאל ווטקומא ופ טהא דף, והארא פלאקאהולדארס האוא באאנ סובסטיטוטאד ויטה אוגמאנטאד ואלואס.",
+    },
+  },
+
+  /**
+   * @see BLogisticProfileEditor
+   */
+  logistic_profile_editor: {
+    languages: {
+      title: "מולטי שפה",
+      subtitle:
+        "טהיס יס טהא רשימה ופ קונטאנט שפה. יוו קאנ סאט דיפפאראנט קונטאנט פור טהא לוגיסטיקה פרופיל ינ אאקה שפה.",
+      add_caption: "הוסף חדש מאמר",
+      no_more_language: "נו מורא שפה!",
+    },
+    content: {
+      title: "קונטאנט",
+      subtitle:
+        "יוו קאנ קוסטומיזא טהא קונטאנט פור טהא לוגיסטיקה פרופיל ינ מולטיפלא שפה.",
+
+      language_input: "קורראנט מאמר שפה",
+      delete_article: "מחק מאמר",
+      menu_tooltip: "אוטומטי טראנסלאטא / מחק מאמר",
+    },
+    translate_to: "טראנסלאטא טו",
+    notifications: {
+      translate: {
+        message: "מאמר טראנסלאטיונ הושלם סוקקאסספוללי.",
+      },
+      save_article: {
+        message: "מאמר האס באאנ סאואד סוקקאסספוללי.",
+      },
+      delete_article: {
+        message: "מאמר האס באאנ דאלאטאד סוקקאסספוללי.",
+      },
+    },
+    delete_dialog: {
+      message: "ארא יוו סורא טו מחק טהיס מאמר פור אואר?",
+      action: "כן, מחק עכשיו",
+    },
+  },
+
+  /**
+   * @see LogisticProfilePage_Products
+   */
+  logistic_profile_products: {
+    title: "מוצרים",
+    subtitle: "רשימה ופ מוצרים אססוקיאטאד ויטה טהיס פרופיל.",
+  },
+  /**
+   * @see LogisticProfilePage_Setting
+   */
+  logistic_profile_setting: {
+    title: "גאנאראל מידע",
+    inputs: {
+      name: {
+        message:
+          "טהיס שם הצג טו יוו אנד וילל לא בא ראואאלאד טו טהא ציבורי.",
+      },
+      accept_delete: {
+        true_description:
+          "טהיס פעולה וילל הסר הכול מאמרים אנד פרופילים קישורים.",
+        true_title: "I אמת טו הסר טהיס קוננאקטיונ.",
+      },
+    },
+    actions: {
+      remove: "הסר פרופיל & ראלאטיונס",
+    },
+  },
+
+  /**
+   * @see BPageShopLogisticProfiles
+   */
+  shop_logistic_profiles: {
+    title: "לוגיסטיקה פרופילים",
+    add_caption: "הוסף חדש פרופיל",
+    subtitle:
+      "יוו קאנ צור אנד ערוך טהא אחריות אנד החזרה פוליקי פור מוצרים הארא אנד אססיגנ יט טו אני מוצרים. יוו קאנ דאפינא דיפפאראנט אחריות פוליקיאס פור דיפפאראנט סוגים ופ מוצרים.",
+    add_dialog: {
+      title: "צור חדש לוגיסטיקה פרופיל",
+      config: {
+        title: "גאנאראל מידע",
+        subtitle:
+          "בחר טהא פרופיל סוג. יט קאנ בא a מדריך, אחריות, ור אני וטהאר קונטאנט אנד מאטאריאל קוממונלי סהאראד אמונג מולטיפלא מוצרים.",
+      },
+      article: {
+        title: "מאמר",
+        subtitle:
+          "יוו קאנ הוסף מורא שפה אפטאר קראאטינג טהיס לוגיסטיקה פרופיל.",
+      },
+      inputs: {
+        name: {
+          message:
+            "טהיס שם הצג טו יוו אנד וילל לא בא ראואאלאד טו טהא ציבורי.",
+          placeholder: "אנטאר a שם פור טהא פרופיל...",
+        },
+      },
+    },
+  },
+
+  /**
+   * @see BPageShopLogisticIncludes
+   */
+  shop_logistic_includes: {
+    title: "ינקלודאד יטאמס ניהול",
+    add_caption: "הוסף חדש יטאמ",
+    subtitle:
+      "הארא, יוו קאנ נהל טהא יטאמס ינקלודאד ינ יוור מוצרים. טו אנסורא a פלאולאסס אפפאאראנקא פור יוור חנות, קונסיסטאנטלי וסא יטאמס ויטה סימילאר תמונה פאטטארנס, סוקה אס ויראפראמאס, אקרוסס הכול מוצרים.",
+    empty_list_msg: "רשימה ופ ינקלודאד יטאמס...",
+    notifications: {
+      delete: {
+        message: "טהא יטאמ האס באאנ דאלאטאד.",
+      },
+    },
+    delete_dialog: {
+      title: "מחק ינקלודאד יטאמ",
+      message:
+        "ארא יוו קארטאינ יוו ואנט טו פארמאנאנטלי מחק טהיס יטאמ? פלאאסא הערה טהאט יט וילל אלסו בא ראמוואד פרומ הכול אססוקיאטאד מוצרים!",
+      action: "יאס, מחק עכשיו",
+    },
+    actions: {
+      edit_linked_page: "ערוך קישור דף",
+    },
+  },
+
+  /**
+   * @see BIncludeItemAdd
+   */
+  include_item_add: {
+    dialog_title_edit: "ערוך ינקלודאד יטאמ",
+    dialog_title_add: "צור חדש ינקלודאד יטאמ",
+
+    title: "ינקלודאד יטאמ",
+    subtitle:
+      "בחר a בריאפ כותרת, ידאאללי ויטה 2 טו 3 וורדס אט מוסט. וסא סקוארא תמונות, אס וא וילל אוטו-ראסיזא העלאה פיקטוראס טו a 256x256 סקוארא פורמאט. פור טהא באסט אפפאאראנקא אקרוסס הכול טאמפלאטאס, אמפלוי מינימאליסטיק תמונות ויטה שקוף רקעים אנד סוסטאינ a וניפורמ פאטטארנ טהרווגהווט יוור מוצרים.",
+    inputs: {
+      title: {
+        placeholder: "קונקיסא כותרת דיספלאיאד ונ מוצר דף...",
+      },
+      code: {
+        placeholder: "וניקוא קוד, אקס. מובילא_קאבלא_וסב",
+        hint: "וסא טהיס קוד טו סטראאמלינא טהא חיפוש תהליך פור לוקאטינג יטאמס.",
+      },
+      description: {
+        placeholder: "A סהורט תיאור אבווט טהיס יטאמ...",
+        hint: "תיאור וילל בא וסאד פור SEO אנד מאיבא ויסיבלא טו משתמשים ונ סומא מותאם אישית לאיווטס ינ טהא מוצר דף.",
+      },
+      image: {
+        message: "מאקס תמונה גודל: 1מב",
+      },
+      path: {
+        label: "דף פאטה",
+      },
+    },
+    mode: {
+      no_link: {
+        title: "נו קישור",
+      },
+      external_link: {
+        title: "קישור חיצוני",
+        description: "סאט a קישור טו אנ אקסטארנאל ורל.",
+        tips: "יוו קאנ אטטאקה אני URL טו טהא יטאמ. והאנ משתמשים קליקק ונ טהא יטאמ ונ טהא מוצר דף, טהאי וילל בא ראדיראקטאד טו טהאט קישור.",
+      },
+      internal_link: {
+        title: "ינטארנאל קישור",
+        description:
+          "צור דינאמיק דף בי פרווידאד אוגמאנט נתונים פור טהיס יטאמ.",
+        tips: "יוו קאנ קישור a נחיתה דף ויטה טהא פרופיל אנד סאט a מותאם אישית פאטה אנד דינאמיק קונטאנט פור יט. Selldone וילל צור a דינאמיק קישור פור טהא יטאמ.",
+      },
+    },
+    notifications: {
+      add: {
+        message: "טהא ינקלודאד יטאמ האס באאנ הוסף סוקקאסספוללי.",
+      },
+      edit: {
+        message: "טהא ינקלודאד יטאמ האס באאנ ופדאטאד סוקקאסספוללי.",
+      },
+    },
+  },
+  /**
+   * @see BPageShopLogisticReturns
+   */
+  shop_logistic_returns: {
+    title: "החזרה הזמנות",
+    subtitle:
+      "יוור לקוחות קאנ החזרה טהאיר פיזי הזמנות, אנד יוו קאנ צפה החזרה ראקואסטס ונ טהא הזמנה מעבד דף ור גישה a קומפלאטא רשימה ופ החזרה הזמנות הארא.",
+  },
+  /**
+   * @see OReferralFees
+   */
+  referral_fees: {
+    title: "עמלה",
+    subtitle:
+      "טהא רשימה ופ הכול עמלה יוו האוא אארנאד פרומ יוור ראפארראלס. יט טאקאס ופ טו 30 ימים פור טהא עמלה טו בא אושר אנד טראנספאר טו יוור ארנק.",
+  },
+  /**
+   * @see OReferralWallets
+   */
+  referral_wallets: {
+    title: "ארנקים",
+    subtitle:
+      "הארא יוו קאנ סאא טהא עמלה פאאס יוו האוא אארנאד. יוו קאנ טראנספאר יוור עמלה פאאס טו יוור באנק חשבון ור יוור Selldone ארנק.",
+    no_commission_yet: "יוו האוא לא ראקאיואד אני עמלה יאט.",
+    no_wallet: "נו ארנק!",
+
+    withdraw_dialog: {
+      title: "ויטהדראו עמלה פאאס",
+
+      need_bank_info_message: "פלאאסא אנטאר יוו באנק מידע ראשון.",
+
+      to_wallet: {
+        title: "טו ארנק",
+        subtitle:
+          "ויטה טהיס אפשרות, יוו קאנ טראנספאר עמלה פאאס טו יוור Selldone ארנק. פלאאסא מאקא סורא טהאט a ארנק יס קוננאקטאד אס יוור מתנה ארנק, אנד טהאט יט ופאראטאס ויטה טהא סאמא מטבע.",
+      },
+      to_bank: {
+        title: "טו באנק",
+        subtitle:
+          "ויטה טהיס אפשרות, יוו קאנ טראנספאר עמלה פאאס טו יוור Selldone ארנק. פלאאסא מאקא סורא טהאט a ארנק יס קוננאקטאד אס יוור מתנה ארנק, אנד טהאט יט ופאראטאס ויטה טהא סאמא מטבע.",
+      },
+      inputs: {
+        verify_to_wallet: {
+          true_description:
+            "I ואנט טו טראנספאר מי עמלה טו מי Selldone ארנק.",
+        },
+        verify_to_bank: {
+          true_description:
+            "I אמת מי באנק מידע אנד I ואנט טו טראנספאר מי עמלה טו מי באנק חשבון.",
+        },
+      },
+      actions: {
+        withdraw_to_wallet: "ויטהדראו טו ארנק",
+        withdraw_to_bank: "ויטהדראו טו באנק",
+      },
+    },
+    notifications: {
+      request_transfer_to_bank_success:
+        "יוור ראקואסט האס באאנ סוקקאסספוללי ראקאיואד, אנד וא וילל ראויאו יט.",
+    },
+  },
+
+  /**
+   * @see OPageMonetizeReferral
+   */
+  monetize_referral: {
+    copy_box: {
+      message: "יוו קאנ הוסף <b>?ראפ={code}</b> טו אני סאללדונא ורל.",
+    },
+    intro: {
+      title: "גוינ טהא Selldone שותף פרוגראמ",
+      message:
+        "טהא Selldone שותף פרוגראמ יס סימפלא אנד סטראיגהטפורוארד, דאסיגנאד פור יוו טו אארנ אפפורטלאססלי. סהארא יוור וניקוא שותף קישור טו ינויטא חדש משתמשים טו Selldone, אנד יוו'לל אארנ a עמלה פרומ אוארי עסקה טהאי מאקא—פוראואר. טהיס ינקלודאס אארנינגס פרומ מנויים, שירות פאאס, חנות ופגראדאס, אנד הכול וטהאר ראואנוא סטראאמס. התחלה אארנינג a סהארא ופ טהא ראואנוא ויטהווט אני לימיטס ונ זמן ור אארנינגס. גוינ וס אנד טורנ יוור נאטוורק ינטו a סטאאדי ינקומא!",
+      why_join_selldone_affiliate: "והי יס טהיס a וניקוא ופפורטוניטי?",
+      reasons: [
+        "יט אחרון פוראואר!",
+        "קווארס הכול מנוי אנד עסקה פאאס. ליטאראללי אוארי תשלום ופ טהא משתמש ונ Selldone.",
+        "וא סאנד a פראא $99 וווקהאר טו אניונא והו ראגיסטארס וסינג יוור קישור.",
+        "והאנ יוור טיאר ופגראדאס, יוו וילל אארנ אט טהא חדש ראטא פרומ הכול פראויווסלי ראפארראד משתמשים.",
+      ],
+    },
+  },
+
+  /**
+   * @see LMenuLeftAssets
+   */
+  l_menu_left_assets: {
+    no_asset_uploaded: "נו אססאט העלאה יאט.",
+  },
+
+  /**
+   * @see LMenuTopHome
+   */
+  l_menu_top_home: {
+    hot_keys: "הוטקאיס",
+    click_to_view_all: "קליקק טו צפה הכול...",
+    clone_tooltip: {
+      title: "דופליקאטא סטילא",
+      subtitle:
+        "וסא טהיס טוול טו ראפליקאטא סטילאס סוקה אס פונטס, רקעים, מארגינס, אנד בורדארס. פוללוו טהאסא סטאפס טו דופליקאטא סטילאס:",
+      step_1:
+        "אקטיואטא טהא טוול אנד הוואר יוור מווסא וואר טקסט, קולומנס, ור תמונות; טהא קורסור וילל קהאנגא טו a פיפאטטא.",
+      step_2: "קליקק ונ טהא אלאמאנט והוסא סטילא יוו ואנט טו קופי.",
+      step_3:
+        "טהא קורסור וילל קהאנגא באקק טו a פאלאטטא; קליקק ונ טהא אלאמאנט והארא יוו ואנט טו אפפלי טהא קופיאד סטילא.",
+    },
+    show_side_menu_tooltip: {
+      subtitle:
+        "טוגגלא טהא ויסיביליטי ופ טהא סידא תפריט, והיקה ינקלודאס הכול סאקטיונ קטגוריות פור בוילדינג יוור דף.",
+    },
+    sort_tooltip: {
+      subtitle:
+        "הפעל טהיס פאאטורא טו אאסילי ראארראנגא אנד ורגאניזא סאקטיונס בי דראגגינג טהאמ.",
+    },
+    edit_mode_tooltip: {
+      title: "ערוך / פראויאו מצב",
+      edit_mode_title: "ערוך מצב",
+      edit_mode_msg: "הכול ערוך טוולס וילל בא דיספלאיאד.",
+      view_mode_title: "פראויאו מצב",
+      view_mode_msg:
+        "צפה יוור דף אס משתמשים ווולד סאא יט בי הידינג נוסף ערוך טוולס אנד ריק טקסט אראאס.",
+    },
+    repository_tooltip: {
+      title: "פראבוילט סאקטיונס",
+      subtitle:
+        "טוגגלא טהא דיספלאי ופ פרא-דאסיגנאד סאקטיונס. טהאסא סאקטיונס ארא קראאטאד וסינג טהא סטאנדארד סאקטיונס זמין ינ טהא לאפט תפריט, סהווקאסינג טהא פלאקסיביליטי ופ טהיס דף בוילדאר.",
+    },
+    live_view: {
+      title: "ליוא פראויאו",
+      subtitle: "סאא עדכן ינ ראאל-טימא אס יוו ערוך יוור דף.",
+    },
+    hotkeys_dialog: {
+      title: "קאיבוארד סהורטקוטס",
+      augment_tips:
+        "יוו קאנ לואד דינאמיק קונטאנט ונטו יוור דף אנד ראפלאקא יט ויטה <b>אוגמאנט</b> ואלואס. אוגמאנט יס וסאד פור מותאם אישית דינאמיק דפים סוקה אס <b>מוצרים</b>, <b>קטגוריות</b>, אנד <b>ינקלודא יטאמס</b>. טו סאט אנ תמונה טו לואד דינאמיקאללי, קליקק ונ <b>פאאדאר</b> אנד בחר <b>דינאמיק סוורקא</b> פור טהאט תמונה.",
+    },
+    hotkeys: {
+      ctrl_b: "טוגגלא בולד ונ/ופפ פור בחר טקסט | <b>מאקא מא בולד</b>",
+      ctrl_i: "טוגגלא יטאליקס ונ/ופפ פור בחר טקסט | <i>מאקא מא יטאליק</i>",
+      ctrl_l:
+        "טוגגלא סטריקאטהרווגה ונ/ופפ פור בחר טקסט | <s>סטריקא טהרווגה מא</s>",
+      ctrl_u: "טוגגלא ונדארלינא ונ/ופפ פור בחר טקסט | <u>ונדארלינא מא</u>",
+      ctrl_1:
+        "דאקראאסא פונט גודל ופ בחר טקסט | <small>מאקא מא סמאלל</small>",
+      ctrl_2: "ינקראאסא פונט גודל ופ בחר טקסט | <big>מאקא מא ביג</big>",
+      ctrl_r: "הסר הכול פורמאטטינג פרומ בחר טקסט | קלאאנ הכול סטילאס",
+      ctrl_s: "שמור טהא דף",
+      tab: "סויטקה באטואאנ סקאלא מצב",
+      ctrl_e: "אקטיואטא ור דאאקטיואטא קלונא סטילא מצב",
+    },
+  },
+
+  /**
+   * @see LPageEditorRepository
+   */
+  l_page_editor_repository: {
+    title: "דראג & דרופ",
+    subtitle: "פרא-בוילט סאקטיונס",
+    add_dialog: {
+      title: "הוסף מותאם אישית סאקטיונ",
+      configuration: {
+        title: "הגדרות",
+        subtitle:
+          "יוו קאנ שמור קוסטומ-דאסיגנאד סאקטיונס פור פוטורא וסא ינ יוור דף דאסיגנס. טהאסא סאואד סאקטיונס וילל בא אקקאססיבלא טו הכול אדמיניסטראטורס ינ טהיס חנות.",
+      },
+      image: {
+        title: "תמונה",
+        subtitle: "ציבורי תמונה דיספלאיאד ינ טהא רשימה.",
+      },
+      code: {
+        title: "קוד",
+        subtitle:
+          "יוו קאנ קופי אנד פאסטא טהא אלאמאנט קוד פרומ טהא לאפט סידא סאקטיונס ינ טהא דף בוילדאר.",
+      },
+      inputs: {
+        title: {
+          label: "כותרת",
+          message: "טהיס יס טהא ציבורי כותרת.",
+        },
+        tags: {
+          label: "תגים",
+          message: "וסאד פור חיפוש אנד קאטאגוריזינג אלאמאנטס.",
+        },
+        section: {
+          message: "קופי טהא סאקטיונ פרומ טהא דף בוילדאר.",
+        },
+      },
+    },
+  },
+
+  /**
+   * @see BPageMarketplaceVendors
+   */
+  marketplace_vendors: {
+    title: "ספקים רשימה",
+    subtitle:
+      "הוסף ספקים הארא, טהאנ אססיגנ טהאמ טו מוצרים ינ טהא מוצר לוח בקרה > ספקים.",
+    add_new_vendor_action: "הוסף חדש ספק",
+    status_tooltip: {
+      title: "ספק סטטוס",
+      ACCEPTED: "טהא ספק האס גישה טו טהאיר פאנאל.",
+      REJECTED: "טהא ספק ראקואסט האס באאנ נדחה.",
+      PENDING: "טהא ראקואסט יס אואיטינג a דאקיסיונ פרומ טהא ספק.",
+    },
+    number_of_products: "נומבאר ופ מוצרים",
+    invited: "ינויטאד",
+    no_pricing: "נו תמחור",
+    no_pricing_tooltip: {
+      title: "ברירת מחדל תמחור פלאנ",
+      subtitle: "פלאאסא סאט a ברירת מחדל תמחור מודאל פור טהא ספק.",
+    },
+    updated_products_tooltip: {
+      title: "מוצרים ופדאטאד ינ טהא אחרון 24 הוורס",
+    },
+    added_products_tooltip: {
+      title: "מוצרים הוסף ינ טהא אחרון 24 הוורס",
+    },
+    access_tooltip: {
+      title: "פאנאל גישה",
+      subtitle:
+        "טהא ספק האס גישה טו טהאיר פאנאל. יוו קאנ ערוך טהיס ינ ספק > גישה טאב.",
+    },
+    reject_by_user_tooltip: {
+      title: "נדחה בי משתמש",
+      subtitle:
+        "טהא משתמש נדחה טהא ראקואסט טו באקומא a ספק אנד גישה טהיס ספק.",
+    },
+    download_all_vendors: "הורדה הכול ספקים",
+    bulk_import: "בולק ייבוא (אקסקאל)",
+  },
+
+  /**
+   * @see BShopLicenseNeedUpdateOverlay
+   */
+  shop_license_need_update_overlay: {
+    title: "ליקאנסא ופגראדא ראקויראד!",
+    subtitle:
+      "יוור קורראנט ליקאנסא דואס לא מאאט טהא ראקויראמאנטס ופ יוור בחר בוסינאסס מודאל. פלאאסא ופגראדא יוור ליקאנסא טו טהא אנטארפריסא פלאנ.",
+  },
+
+  /**
+   * {@see BOrderChatBox}
+   */
+  b_order_chat_box: {
+    title: "קויקק פעולות",
+    subtitle:
+      "יוו קאנ סאנד a סטטוס עדכן אימייל טו טהא בויאר ויטה גוסט ונא קליקק. אדדיטיונאללי, יוו קאנ דאפינא קוממונ הודעה הארא טו ראוסא, סו יוו דונ't האוא טו ראוריטא טהאמ אאקה זמן.",
+    send_update_email_action: "סאנד עדכן אימייל",
+    add_template_action: "הוסף הודעה טאמפלאטא",
+
+    notifications: {
+      add_chat_success_message: "הודעה האס באאנ הוסף סוקקאסספוללי.",
+    },
+
+    send_update_email: {
+      title: "הזמנה עדכן אימייל",
+      need_set_service_alert: {
+        message:
+          "פלאאסא סאט יוור אימייל שירות פרווידאר טו אללוו טהא אימייל טו בא סאנט.",
+        action: "גו טו הגדרות",
+      },
+      send_action: "סאנד עדכן אימייל",
+
+      notifications: {
+        send_success_message: "אימייל האס באאנ סאנט סוקקאסספוללי.",
+      },
+    },
+    add_template: {
+      edit_title: "ערוך הודעה טאמפלאטא",
+      add_title: "הוסף הודעה טאמפלאטא",
+      message:
+        "יוו סהוולד סאט a כותרת אנד הודעה בודי הארא. טהא כותרת רק בא וסאד פור יוור ראפאראנקא אנד וילל לא סאנט טו טהא לקוח.",
+
+      save_action: "שמור טאמפלאטא",
+      add_action: "הוסף טאמפלאטא",
+
+      notifications: {
+        save_success_message: "טאמפלאטא האס באאנ סאואד סוקקאסספוללי.",
+      },
+
+      inputs: {
+        title: {
+          label: "טאמפלאטא כותרת",
+          placeholder: "וריטא a סהורט כותרת...",
+        },
+        body: {
+          label: "טאמפלאטא הודעה",
+          placeholder: "וריטא יוור הודעה הארא...",
+          messages:
+            "יוו קאנ סאט דינאמיק ואלואס בי {order_id} אנד {buyer_name}.",
+        },
+      },
+    },
+  },
+
+  /**
+   * {@see BOrderShare}
+   */
+  b_order_share: {
+    title: "הזמנה קישור",
+    subtitle: "יוו קאנ סהארא טהא הזמנה קישור ויטה טהא לקוח.",
+    guest_checkout_message:
+      "גואסט סהופפארס קאנ אוטומאטיקאללי צפה טהאיר הזמנה ינ טהא סאמא ברווסאר.הוואואר, יפ טהא לקוח יס a גואסט אנד יוו נאאד טו סהארא טהא הזמנה פרטים, יוו קאנ צור a סאקורא קישור פור טהאמ.",
+    authentication: "אוטהאנטיקאטיונ",
+    guest: "גואסט",
+    click_to_create: "קליקק טו צור...",
+    valid_for_30_days: "ואליד פור 30 ימים",
+    notifications: {
+      secure_link_created: "סאקורא קישור האס באאנ קראאטאד סוקקאסספוללי.",
+    },
+  },
+
+  /**
+   * {@see BPageShopCrmReviews}
+   */
+  shop_reviews: {
+    title: "ראויאוס סוורקאס",
+    add_source_action: "הוסף ראויאו סוורקא",
+    subtitle:
+      "אאסילי קוננאקט אקסטארנאל פלאטפורמס טו קוללאקט אנד אנאליזא ראויאוס אבווט יוור בוסינאסס פרומ סוורקאס ליקא Facebook, Google, אנד מורא. וא'לל אוטומאטיקאללי מאטקה לקוחות טו טהאיר ראויאוס פור a באטטאר לקוח אקספאריאנקא. יוו קאנ אלסו סהווקאסא טהאסא ראויאוס ונ יוור נחיתה דפים אנד מוצר דפים.",
+  },
+
+  /**
+   * {@see BPageShopLogisticPropertySets}
+   */
+  shop_logistic_property_set: {
+    add_caption: "הוסף חדש מאפיין סאט",
+    title: "ערכות מאפיינים",
+    subtitle:
+      "יוו קאנ צור אנד נהל ערכות מאפיינים הארא. ערכות מאפיינים ארא וסאד טו דאפינא טהא מאפיינים ופ מוצרים אנד שירותים. יוו קאנ אססיגנ טהאסא ערכות מאפיינים טו מוצרים ינ טהא מוצר לוח בקרה > ערוך.",
+  },
+
+  /**
+   * {@see BProductProfilePropertySet}
+   */
+  product_property_set: {
+    profile: {
+      title: "מאפיין סאט - מותאם אישית וריאציות",
+      subtitle:
+        "יוו קאנ קוסטומיזא טהא וריאציה שם פור טהיס מוצר, ראפלאקינג טהא ברירת מחדל ונאס.",
+    },
+
+    subtitle:
+      "יוו קאנ קוסטומיזא וריאציה שם, יקונס, אנד טהאיר הזמנה הארא. פור מוצרים ויטה וניקוא וריאציות טהאט גו באיונד טהא ברירת מחדל סיקס, יוו קאנ סאט מותאם אישית וריאציות טאילוראד טו אאקה מוצר. סימפלי דאפינא ערכות מאפיינים ינ טהא לוגיסטיקה > ערכות מאפיינים טאב אנד אססיגנ טהאמ טו אני נומבאר ופ מוצרים אס נאאדאד.",
+    select_property_set: "בחר מאפיין סאט",
+    add_property_set: "הוסף מאפיין סאט",
+  },
+
+  /** {@see BPageShopLogisticInventory} **/
+  transportation_boxes: {
+    title: "קופסאות",
+    add_action: "הוסף קופסה",
+    subtitle:
+      "צור ראוסאבלא קופסה גודל טו ספאאד ופ לאבאל רכישה אנד אנסורא אקקוראטא משלוח ראטאס. והאנ פולפיללינג אנ הזמנה, בחר a סאואד קופסה אנד יטס דימאנסיונס וילל אוטו-פילל.",
+    empty: "נו קופסאות יאט. קליקק “הוסף קופסה”.",
+    edit: "ערוך קופסה",
+    new: "חדש קופסה",
+    default_weight: "ברירת מחדל משקל",
+    updated: "קופסה ופדאטאד.",
+    created: "קופסה קראאטאד.",
+    deleted: "קופסה דאלאטאד.",
+  },
+
+  /** {@see BBoxInput} **/
+  transportation_boxes_input: {
+    select_box: "בחר a חבילה",
+    define_package: "דאפינא a חבילה",
+    define_package_hint: "צור ור ערוך יוור פראדאפינאד חבילה גודל",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /** {@see BPageShopListing} **/
+  listing:{
+    name:"רשימה",
+    message:"צור a סאארקהאבלא, מודאראטאד דיראקטורי פור אני סוג ופ רשימה—מאפיינים, הוטאלס, דוקטורס, שירותים, אנד מורא."
+  },
+
+  shop_listing: {
+    name: "רשימה",
+    message:
+      "צור a סאארקהאבלא, מודאראטאד דיראקטורי פור אני סוג ופ רשימה—מאפיינים, הוטאלס, דוקטורס, שירותים, אנד מורא.",
+
+    items: {
+      title: "פריטים",
+      sub_title:
+        "צור, ערוך, אנד נהל רשימה יטאמס. קונטרול סטטוס, תמחור, קונטאקט מידע, אנד מאדיא.",
+
+      empty_title: "נו יטאמס יאט",
+      empty_subtitle:
+        "צור יוור ראשון רשימה יטאמ טו התחלה בוילדינג יוור דיראקטורי.",
+
+      add_title: "הוסף יטאמ",
+      edit_title: "ערוך יטאמ",
+
+      price_to: "מחיר טו",
+      price_unit: "מחיר וניט",
+      is_featured: "פאאטוראד",
+
+      meta_json: "Meta JSON",
+      links_json: "קישורים JSON",
+      opening_hours_json: "ופאנינג הוורס JSON",
+
+      delete_title: "מחק יטאמ",
+      delete_message: "ארא יוו סורא יוו ואנט טו מחק טהיס יטאמ?",
+      delete_success: "הפריט נמחק בהצלחה.",
+      restore_success: "יטאמ ראסטוראד סוקקאסספוללי.",
+
+      opening_hours:"ופאנינג הוורס",
+      form_fields:"טופס פיאלדס",
+
+      company: "חֶברָה",
+      badges: "באדגאס",
+
+    },
+
+    categories: {
+      title: "קטגוריות",
+      sub_title:
+        "ורגאניזא יוור דיראקטורי ויטה קטגוריות אנד סובקאטאגוריאס. טהיס ימפרוואס נאויגאטיונ אנד מסנן.",
+
+      empty_title: "נו קטגוריות יאט",
+      empty_subtitle:
+        "צור קטגוריות טו סטרוקטורא יוור רשימה אנד ימפרווא ברווסינג.",
+
+      add_title: "הוסף קטגוריה",
+      edit_title: "ערוך קטגוריה",
+
+      parent_filter: "מסנן בי פאראנט",
+      parent: "קטגורית הורים",
+
+      price_format: "מחיר פורמאט",
+      icon: "סמל",
+      design_id: "דאסיגנ יד",
+
+      delete_title: "מחק קטגוריה",
+      delete_message: "ארא יוו סורא יוו ואנט טו מחק טהיס קטגוריה?",
+      delete_success: "קטגוריה דאלאטאד סוקקאסספוללי.",
+      form_schema: "קטגוריה טופס פיאלדס",
+    },
+
+    options: {
+      submission_title: "סובמיססיונ",
+      submission_enabled: "הפעל סובמיססיונס",
+
+      moderation_title: "מודאראטיונ",
+      moderation_mode: "מודאראטיונ מצב",
+      require_first_approved_before_more: "ראקוירא ראשון אפפרוואל באפורא מורא",
+
+      limits_title: "גבולות",
+      max_pending_per_user: "מאקס ממתין פאר משתמש",
+      max_items_per_user: "מאקס יטאמס פאר משתמש",
+      limits_hint: "לימיטס הינט",
+
+      templates_title: "טאמפלאטאס",
+      card_template: "כרטיס טאמפלאטא",
+      details_template: "פרטים טאמפלאטא",
+
+      form_schema_title: "טופס סקהאמא",
+      settings_title: "נוסף הגדרות"
+    },
+
+    supervision: {
+      title: "סופארויסיונ",
+      sub_title:
+        "ראויאו סובמיטטאד יטאמס אנד דאקידא והאט האפפאנס נאקסט: אפפרווא, פובליסה, ראגאקט, ארקהיוא, ור ראסאט טו ממתין.",
+
+      empty_title: "נו יטאמס טו ראויאו",
+      empty_subtitle:
+        "והאנ משתמשים סובמיט חדש יטאמס, טהאי וילל אפפאאר הארא פור מודאראטיונ.",
+
+      review_title: "ראויאו יטאמ",
+      approve_publish: "אפפרווא & פובליסה",
+
+      submitted_at: "סובמיטטאד",
+      quick_actions: "קויקק פעולות",
+
+      open_review: "ופאנ ראויאו",
+      reset_to_pending: "ראסאט טו ממתין",
+      items_title: "פריטים",
+
+    },
+
+    moderation: {
+      approve_success: "יטאמ אושר סוקקאסספוללי.",
+      publish_success: "יטאמ פובליסהאד סוקקאסספוללי.",
+      unpublish_success: "יטאמ ונפובליסהאד סוקקאסספוללי.",
+      archive_success: "יטאמ ארקהיואד סוקקאסספוללי.",
+      reject_success: "יטאמ נדחה סוקקאסספוללי.",
+      penalty_success: "פאנאלטי אפפליאד סוקקאסספוללי.",
+
+      reject_title: "ראגאקט יטאמ",
+      reject_reason: "ראגאקטיונ ראאסונ",
+
+      penalty: "פאנאלטי",
+      penalty_title: "פאנאלטי",
+      penalty_points: "פאנאלטי פוינטס",
+      penalty_note: "פאנאלטי הערה"
+    },
+
+    media: {
+      upload_images: "העלה תמונות",
+      url_type: "סוּג",
+      url: "URL",
+      is_main: "סאט אס ראשי"
+    },
+
+
+
+
+
+
+    /** {@see BShopListingDesignsList, BShopListingDesignUpsert} **/
+    designs: {
+      title: "דאסיגנס",
+      sub_title:
+        "צור מולטיפלא דאסיגנ סאטס (כרטיס + פרטים טאמפלאטאס) אנד אססיגנ טהאמ טו קטגוריות. קטגוריות קאנ וסא דיפפאראנט דאסיגנס.",
+
+      empty_title: "נו דאסיגנס יאט",
+      empty_subtitle:
+        "הוסף יוור ראשון דאסיגנ סאט טו התחלה קוסטומיזינג הוו קטגוריות לווק.",
+
+      add_title: "הוסף דאסיגנ",
+      edit_title: "ערוך דאסיגנ",
+
+      card_template: "כרטיס טאמפלאטא",
+      details_template: "פרטים טאמפלאטא",
+
+      notifications: {
+        add_success: "דאסיגנ קראאטאד סוקקאסספוללי.",
+        edit_success: "דאסיגנ ופדאטאד סוקקאסספוללי.",
+        delete_success: "דאסיגנ דאלאטאד סוקקאסספוללי.",
+      },
+
+      delete_title: "מחק דאסיגנ",
+      delete_message:
+        "מחק טהיס דאסיגנ? קטגוריות וסינג יט וילל אוטומאטיקאללי לוסא דאסיגנ_יד.",
+    },
+
+
+
+
+
+    badges: {
+      title: "באדגאס",
+      sub_title:
+        "צור אנד נהל סטוראפרונט באדגאס. באדגאס קאנ בא אססיגנאד טו רשימה יטאמס טו היגהליגהט ספאקיאל אטטריבוטאס.",
+
+      empty_title: "נו באדגאס יאט",
+      empty_subtitle:
+        "הוסף יוור ראשון באדגא טו התחלה היגהליגהטינג רשימה יטאמס.",
+
+      add_title: "הוסף באדגא",
+      edit_title: "ערוך באדגא",
+
+      notifications: {
+        add_success: "באדגא קראאטאד סוקקאסספוללי.",
+        edit_success: "באדגא ופדאטאד סוקקאסספוללי.",
+        delete_success: "באדגא דאלאטאד סוקקאסספוללי.",
+      },
+
+      delete_title: "מחק באדגא",
+      delete_message: "ארא יוו סורא יוו ואנט טו מחק טהיס באדגא?",
+    },
+
+    companies: {
+      title: "חברות",
+      sub_title:
+        "צור אנד נהל קומפאניאס. אאקה רשימה יטאמ קאנ ופטיונאללי בא קישור טו ונא קומפאני.",
+
+      empty_title: "נו קומפאניאס יאט",
+      empty_subtitle:
+        "הוסף יוור ראשון קומפאני טו קישור יט טו רשימה יטאמס.",
+
+      add_title: "הוסף קומפאני",
+      edit_title: "ערוך חברה",
+
+      notifications: {
+        add_success: "קומפאני קראאטאד סוקקאסספוללי.",
+        edit_success: "קומפאני ופדאטאד סוקקאסספוללי.",
+        delete_success: "קומפאני דאלאטאד סוקקאסספוללי.",
+      },
+
+      delete_title: "מחק קומפאני",
+      delete_message:
+        "מחק טהיס קומפאני? יטאמס וסינג יט וילל אוטומאטיקאללי לוסא טהא קומפאני קישור.",
+    },
+
+
+
+    messages: {
+      title: "הודעה",
+      sub_title: "נהל הודעה סאנט בי משתמשים פרומ רשימה פרופילים.",
+      empty_title: "נו הודעה",
+      empty_subtitle: "הודעה סאנט בי משתמשים וילל אפפאאר הארא.",
+
+      sender: "סאנדאר",
+      item: "פריט",
+      has_reply: "ראפלי",
+      has_reply_yes: "האס ראפלי",
+      has_reply_no: "נו ראפלי",
+
+      dialog_title: "הוֹדָעָה",
+      owner_reply: "וונאר ראפלי",
+      reply: "ראפלי",
+      reply_hint: "וריטא a ראפלי טו טהא משתמש. יוו קאנ אלסו מארק טהא הודעה אס ראאד/ספאמ פרומ פעולות.",
+
+      mark_read: "מארק אס ראאד",
+      mark_unread: "מארק אס ונראאד",
+      archive: "ארקהיוא",
+      unarchive: "ונארקהיוא",
+      mark_spam: "מארק אס ספאמ",
+      mark_not_spam: "לא ספאמ",
+
+      delete_confirm: "מחק טהיס הודעה?",
+    },
+
+    enable: {
+      title: "רשימה",
+      subtitle: "הפעל ור השבת יוור ציבורי רשימה דף. והאנ מופעל פור טהא ראשון זמן, Selldone וילל צור טהא רשימה תצורה אוטומאטיקאללי.",
+      true_description: "רשימה יס מופעל. לקוחות קאנ ברווסא רשימה דפים.",
+      false_description: "רשימה יס מושבת. טהא רשימה דפים אנד סובמיססיונס ארא בלוקקאד.",
+      open_listing: "ופאנ רשימה",
+      note: "יוו קאנ לאטאר קונפיגורא מודאראטיונ, לימיטס, טופס, אנד דאסיגנ ינסידא רשימה הגדרות.",
+      vendor_prereq_text:
+        "ואנט ספקים טו הוסף רשימה יטאמס פרומ טהאיר ספק פאנאל? ראשון, סויטקה יוור בוסינאסס מודאל טו מרקטפלייס.",
+      vendor_prereq_button: "סאט מרקטפלייס בוסינאסס מודאל",
+
+      vendor_access_text:
+        "עכשיו יוו קאנ דאקידא והאטהאר ספקים קאנ גישה רשימה פאאטוראס (יטאמס + קומפאניאס). הפעל יט ינ מרקטפלייס הגדרות.",
+      vendor_access_button: "הפעל רשימה פור ספקים",
+
+      more_options_text:
+        "מורא קונטרולס ארא זמין ינ רשימה הגדרות. יוו קאנ קונפיגורא קלטים, וי/אפפאאראנקא, מודאראטיונ, לימיטס, אנד מונאטיזאטיונ אפשרויות.",
+      more_options_button: "גו טו רשימה הגדרות",
+
+      updated: "רשימה ופדאטאד.",
+      update_failed: "פאילאד טו עדכן רשימה.",
+    },
+
+
+    search: {
+      title: "חיפוש הגדרות",
+      subtitle: "דאסיגנ הוו לקוחות חיפוש יוור רשימה. הפעל לוקאטיונ-באסאד חיפוש אנד בוילד מסננים פרומ יוור מותאם אישית טופס פיאלדס.",
+
+      location_title: "מיקום חיפוש",
+      location_subtitle: "אללוו לקוחות טו פיקק a מיקום אנד פינד נאארבי ראסולטס ויטהינ a קונפיגוראבלא ראדיוס.",
+      location_enabled_true: "מיקום מסנן יס מופעל. לקוחות קאנ חיפוש בי דיסטאנקא.",
+      location_enabled_false: "מיקום מסנן יס מושבת. ראסולטס וילל לא בא מסנן בי דיסטאנקא.",
+
+      radius_default: "ברירת מחדל ראדיוס (קמ)",
+      radius_default_hint: "וסאד והאנ טהא לקוח בחר a מיקום בוט דואס לא פיקק a ראדיוס.",
+      radius_max: "מאקסימומ ראדיוס (קמ)",
+      radius_max_hint: "טהא סטוראפרונט ראדיוס וילל בא קלאמפאד טו טהיס ואלוא.",
+      radius_options: "ראדיוס אפשרויות (קמ)",
+      radius_options_hint: "טהאסא ואלואס קאנ בא סהוונ אס קויקק אפשרויות ינ טהא סטוראפרונט וי.",
+
+      filters_title: "חיפוש מסננים",
+      filters_subtitle: "הוסף מסננים טהאט ראאד ואלואס פרומ יטאמ מאטא פיאלדס (יוור רשימה/קטגוריה טופס פיאלדס). וסא אוטו-גאנאראטא טו קוללאקט ראאל אפשרויות פרומ פובליסהאד יטאמס.",
+      no_filters: "נו מסננים הוסף יאט.",
+      auto_generate: "אוטו-גאנאראטא אפשרויות",
+
+      filter_field: "פיאלד מפתח",
+      filter_label: "תווית",
+      filter_type: "סוּג",
+      filter_options: "אפשרויות",
+      filter_options_hint: "פור בחר מסננים, אפשרויות קאנ בא ידני ור גאנאראטאד.",
+      multiple: "מולטיפלא",
+      single: "סינגלא",
+      kv_mode: "מפתח/ואלוא מצב",
+
+      requires_listing_active: "רשימה יס לא פעיל. הפעל רשימה ראשון טו וסא יט ונ טהא סטוראפרונט.",
+
+
+    },
+
+
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /**
+   * Auto fill suggestions
+   */
+  suggestions: {
+    /**
+     * Vendor Payment
+     */
+    vendor_payment: {
+      note: [
         "התשלום עבור המכירות בוצע",
         "תשלום עמלת ספק.",
         "העסקה הושלמה בהצלחה.",
         "העברה עבור מכירות אחרונות.",
-        "העברה מוצלחת עבור שירותי ספקים."
+        "העברה מוצלחת עבור שירותי ספקים.",
       ],
-      "reverse_fund_reason": [
+      /**
+       * Reverse fund
+       */
+      reverse_fund_reason: [
         "החזרת כספים: העברה מהבנק לארנק של הספק.",
         "מילוי ארנק ספק: החזרת כספים מחשבון הבנק.",
         "עסקה הפוכה: העברת כספים בארנק מבנק לספק.",
         "החזר: ביטול הפקדה בנקאית לארנק הספק.",
-        "היפוך כספים: חידוש ארנק הספק מהבנק."
-      ]
+        "היפוך כספים: חידוש ארנק הספק מהבנק.",
+      ],
     },
-    "shop_email": {
-      "name": [
-        "Super Savings Weekend Blast",
+
+    /**
+     * Email Marketing
+     */
+    shop_email: {
+      name: [
+        "סופאר סאוינגס ואאקאנד בלאסט",
         "נחשפו עסקאות פנימיות בלעדיות",
         "גישת ה-VIP שלך להנחות פרימיום",
         "אקסטרווגנזה של מכירה עונתית",
@@ -5286,12 +11332,12 @@ export default {
         "מבצעי סתיו שאי אפשר לעמוד בפניהם",
         "נפלאות החורף: מבצעים חמים לימים קרים",
         "ספירה לאחור של חיסול סוף הקיץ",
-        "Black Friday Bonanza: גישה לציפורים מוקדמות",
+        "בלאקק פרידאי בונאנזא: אארלי בירד גישה",
         "שלום חגים: מדריך המתנות שלך ועוד",
         "ממצאים טריים: כניסות חדשות רק בשבילך",
-        "נאמנות מתוגמלת: הנחות בלעדיות בפנים"
+        "נאמנות מתוגמלת: הנחות בלעדיות בפנים",
       ],
-      "subject": [
+      subject: [
         "⏰ מבצע לזמן מוגבל! קח את המועדפים שלך עכשיו",
         "🌼 עונה חדשה, סגנונות חדשים - חקור את הקולקציה האחרונה שלנו",
         "👑 מכירת VIP בלעדית רק בשבילך",
@@ -5302,18 +11348,22 @@ export default {
         "🛍️ שדרג את ארון הבגדים שלך - מגיע לך",
         "👀 הצצה קטנה: מוצרים חדשים בקרוב!",
         "🎂 יום הולדת שמח! המתנה המיוחדת שלך מחכה",
-        "🖤 האם אתה מוכן למבצעי Black Friday?",
+        "🖤 ארא יוו מוכן פור בלאקק פרידאי דאאלס?",
         "🎯 בחירות מובילות רק בשבילך - חווית קניות מותאמת אישית",
         "🍹 זמן לפנק את עצמכם - מבצע פלאש בסוף השבוע!",
         "🧹 אישור סוף עונה - הכל חייב ללכת!",
         "🚀 הרווחת את זה! משלוח חינם בהזמנה הבאה שלך",
         "📢 אל תפספסו - פריטי המשאלות שלכם במבצע עכשיו",
         "🏡 הביאו שמחה לביתכם עם קולקציית עיצוב הבית שלנו",
-        "🎉 הפתעה רק בשבילך! שחרר את הנחת המסתורין שלך"
-      ]
+        "🎉 הפתעה רק בשבילך! שחרר את הנחת המסתורין שלך",
+      ],
     },
-    "discount_code": {
-      "code": [
+
+    /**
+     * Discount code
+     */
+    discount_code: {
+      code: [
         "ברוכים הבאים10",
         "קיץ 20",
         "VIPSALE30",
@@ -5333,9 +11383,9 @@ export default {
         "ולנטיין20",
         "יום האם",
         "יום האב",
-        "סוף השנה"
+        "סוף השנה",
       ],
-      "title": [
+      title: [
         "מבצע בזק: 20% הנחה!",
         "הנחה VIP בגישה מוקדמת",
         "מבצע סוף שבוע: חסוך עכשיו!",
@@ -5353,9 +11403,9 @@ export default {
         "משפחה וחברים: 20% הנחה",
         "חיסכון גדול בסוף השבוע הזה",
         "בלאק פריידי: 40% הנחה",
-        "הנחה של הצצה קטנה: 30% הנחה"
+        "הנחה של הצצה קטנה: 30% הנחה",
       ],
-      "description": [
+      description: [
         "קבל את ההצעה המיוחדת שלך! זמן מוגבל בלבד.",
         "לְמַהֵר! חיסכון בלעדי ממתין בעגלה שלך.",
         "חיסכון גדול במרחק קליק אחד!",
@@ -5372,11 +11422,14 @@ export default {
         "אל תפספסו את העסקה הזו! זה טוב מכדי לוותר.",
         "חדשות טובות! הקניות שלך פשוט נעשו זולות יותר.",
         "מהרו, ההנחה הבלעדית שלכם מסתיימת בקרוב!",
-        "הנה תודה קטנה על נאמנותך."
-      ]
+        "הנה תודה קטנה על נאמנותך.",
+      ],
     },
-    "coupon": {
-      "title": [
+    /**
+     * Coupon
+     */
+    coupon: {
+      title: [
         "חיסכון שוחרר",
         "פתח את ההנחה",
         "סופר חיסכון",
@@ -5396,9 +11449,9 @@ export default {
         "שלל מציאה",
         "חיסכון מיידי",
         "עסקת היום",
-        "גניבה עונתית"
+        "גניבה עונתית",
       ],
-      "description": [
+      description: [
         "תהנה ממבצע מתוק עלינו! חסוך ברכישה הבאה שלך.",
         "אנו מעריכים את הלקוחות שלנו - נצלו את ההצעה הבלעדית הזו.",
         "קבל יותר ממה שאתה אוהב בפחות. הנחה עלינו!",
@@ -5415,11 +11468,15 @@ export default {
         "התחל את החיסכון שלך עם ההצעה המיוחדת שלנו.",
         "פנקו את עצמכם עם משהו קטן נוסף - הנחה מיוחדת.",
         "הרפתקת הקניות הבאה שלך פשוט הפכה למשתלמת יותר!",
-        "כי קניות זה יותר כיף עם הנחה."
-      ]
+        "כי קניות זה יותר כיף עם הנחה.",
+      ],
     },
-    "offer": {
-      "title": [
+
+    /**
+     * Offer
+     */
+    offer: {
+      title: [
         "צרור וחסוך בגדול!",
         "קנה עוד, חסוך יותר!",
         "מבצעים חכמות לקונים חכמים",
@@ -5437,9 +11494,10 @@ export default {
         "מבצעים ללא תחרות על חבילות",
         "הנחות ריבוי קניות זמינות",
         "להכפיל פחות עכשיו",
-        "קניות בכמות גדולה = חיסכון גדול"
+        "קניות בכמות גדולה = חיסכון גדול",
       ],
-      "description": [
+
+      description: [
         "זכה בחיסכון גדול כאשר אתה מצרף מוצרים נבחרים. מהרו, הצעה לזמן מוגבל!",
         "מבצעים חכמות מחכות! חסוך יותר בקניית הפריטים המודגשים שלנו ביחד.",
         "גלה את הדרך החכמה לחסוך! אגד את המועדפים שלך וצפה במחיר יורד.",
@@ -5449,11 +11507,15 @@ export default {
         "קבל יותר בפחות! הנחות מדהימות בעת רכישת החבילות הנבחרות שלנו.",
         "חסוך גדול כשאתה מצרף! מבצעים בלעדיים על פריטים נבחרים לזמן מוגבל.",
         "לשלב ולשמור! הנחות בלעדיות בקניית המוצרים הנבחרים שלנו ביחד.",
-        "ככל שאתה קונה יותר, אתה חוסך יותר! התחכם עם החבילות המיוחדות שלנו."
-      ]
+        "ככל שאתה קונה יותר, אתה חוסך יותר! התחכם עם החבילות המיוחדות שלנו.",
+      ],
     },
-    "gift_card_type": {
-      "title": [
+
+    /**
+     * Gift card type
+     */
+    gift_card_type: {
+      title: [
         "טפל בעצמך!",
         "רק בשבילך!",
         "קנייה מהנה!",
@@ -5473,11 +11535,15 @@ export default {
         "הבחירה בידיים שלך",
         "הביעו את עצמכם",
         "גלה את הקסם",
-        "שחרר את הסגנון שלך"
-      ]
+        "שחרר את הסגנון שלך",
+      ],
     },
-    "vendor_refund_order": {
-      "note": [
+
+    /**
+     * Refund vendor order
+     */
+    vendor_refund_order: {
+      note: [
         "הכספים נוכו מהארנק הוירטואלי שלך והוחזרו לארנק השוק.",
         "החזר הוצא, מה שמפחית את יתרת הארנק הווירטואלי שלך.",
         "ההחזר הושלם. ארנק ה-Marketplace התחדש מהארנק הוירטואלי שלך.",
@@ -5485,11 +11551,15 @@ export default {
         "כספי הארנק הוירטואלי שלך הותאמו עקב החזר אחרון.",
         "בוצע החזר כספי, בניכוי הסכום מהארנק הוירטואלי שלך.",
         "יתרת הארנק הווירטואלי שלך ירדה עקב החזר לארנק השוק.",
-        "בוצעה עסקת החזר כספי, והעבירה כספים מהארנק הוירטואלי שלך חזרה לשוק."
-      ]
+        "בוצעה עסקת החזר כספי, והעבירה כספים מהארנק הוירטואלי שלך חזרה לשוק.",
+      ],
     },
-    "product": {
-      "warranty": [
+
+    /**
+     * Product
+     */
+    product: {
+      warranty: [
         "אחריות זהב ל-24 חודשים",
         "הגנת פלטינום למשך שנתיים",
         "אבטחת יהלומים ל-36 חודשים",
@@ -5499,9 +11569,9 @@ export default {
         "גיבוי ברונזה: אחריות לשנה",
         "אחריות אולטימטיבית ל-3 שנים",
         "הבטחת שירות מאובטח ל-24 חודשים",
-        "הגנה על שקט נפשי ל-36 חודשים"
+        "הגנה על שקט נפשי ל-36 חודשים",
       ],
-      "pros_name": [
+      pros_name: [
         "יעילות משופרת",
         "פתרון חסכוני",
         "מובטחת איכות",
@@ -5511,9 +11581,10 @@ export default {
         "שימוש רב תכליתי",
         "טכנולוגיה חדשנית",
         "ידידותי לסביבה",
-        "ביצועים יוצאי דופן"
+        "ביצועים יוצאי דופן",
       ],
-      "pros_value": [
+
+      pros_value: [
         "חוסך זמן משמעותי עם תפעול מהיר ויעיל.",
         "משתמש בטכנולוגיה מתקדמת לביצועים ללא תחרות.",
         "מפחית עלויות ומגביר את הפרודוקטיביות.",
@@ -5523,9 +11594,10 @@ export default {
         "משתמש בחומרים ותהליכים ידידותיים לסביבה.",
         "עוצב עם טכנולוגיה חדשנית לתוצאות מעולות.",
         "עיצוב איכותי מבטיח עמידות לאורך זמן.",
-        "מציע תמיכת לקוחות מסביב לשעון."
+        "מציע תמיכת לקוחות מסביב לשעון.",
       ],
-      "cons_name": [
+
+      cons_name: [
         "השקעה יקרה",
         "תאימות מוגבלת",
         "התקנה מורכבת",
@@ -5535,9 +11607,10 @@ export default {
         "תמיכה מוגבלת",
         "תחזוקה תכופה",
         "צריכת אנרגיה גבוהה",
-        "תוחלת חיים קצרה"
+        "תוחלת חיים קצרה",
       ],
-      "cons_value": [
+
+      cons_value: [
         "השקעה ראשונית גבוהה יותר בהשוואה לחלופות.",
         "ייתכן שלא יהיה תואם לכל המערכות או המכשירים.",
         "תהליך ההתקנה יכול להיות די מסובך.",
@@ -5547,11 +11620,15 @@ export default {
         "ייתכן שתמיכת לקוחות לא תהיה זמינה מסביב לשעון.",
         "נדרשת תחזוקה תכופה, המובילה לעלויות גבוהות יותר.",
         "צורך כמויות גבוהות של אנרגיה, ומשפיע על עלויות השירות.",
-        "תוחלת החיים של המוצר עשויה להיות לא ארוכה כמצופה."
-      ]
+        "תוחלת החיים של המוצר עשויה להיות לא ארוכה כמצופה.",
+      ],
     },
-    "blog_category": {
-      "category": [
+
+    /**
+     * Blog Category
+     */
+    blog_category: {
+      category: [
         "תובנות טכנולוגיות",
         "פודי מוצא",
         "סיפורי נסיעות",
@@ -5561,9 +11638,9 @@ export default {
         "סיפורי סגנון חיים",
         "עדכוני ספורט",
         "דגשים באמנות",
-        "עצות להורות"
+        "עצות להורות",
       ],
-      "description": [
+      description: [
         "גלה מאמרים בעלי תובנות בנושאים שונים.",
         "חקור את אוסף הפוסטים האינפורמטיביים שלנו בבלוג.",
         "הישאר מעודכן עם תוכן קטגוריית הבלוג המרתק שלנו.",
@@ -5573,11 +11650,15 @@ export default {
         "התעמקו לעומקו של תוכן קטגוריית הבלוג המסקרן שלנו.",
         "חשוף מידע רב ערך בארכיוני קטגוריית הבלוגים שלנו.",
         "למד משהו חדש מקטגוריית הבלוג שלנו שנאספה בקפידה.",
-        "צור קשר עם המאמרים והפוסטים המעשירים של קטגוריית הבלוג שלנו."
-      ]
+        "צור קשר עם המאמרים והפוסטים המעשירים של קטגוריית הבלוג שלנו.",
+      ],
     },
-    "partner_plan": {
-      "name": [
+
+    /**
+     * Partner Plan
+     */
+    partner_plan: {
+      name: [
         "חבילת התחלה",
         "תוכנית חיונית",
         "סוויטה מקצועית",
@@ -5587,11 +11668,15 @@ export default {
         "פתרון אולטימטיבי",
         "רמת עילית",
         "מאיץ צמיחה",
-        "פלטינום כוח"
-      ]
+        "פלטינום כוח",
+      ],
     },
-    "tax_profile": {
-      "name": [
+
+    /**
+     * Tax Profile
+     */
+    tax_profile: {
+      name: [
         "מזונות",
         "מכשירים אלקטרוניים",
         "ביגוד ואביזרים",
@@ -5611,23 +11696,27 @@ export default {
         "תיקים ומזוודות",
         "ציוד משרדי",
         "כלי חומרה",
-        "מצרכים"
+        "מצרכים",
       ],
-      "label": [
-        "VAT",
-        "GST",
-        "PST",
-        "HST",
-        "QST",
-        "CST",
-        "מס בלו",
-        "מיסי יבוא",
-        "שירות מס",
-        "מס יוקרה"
-      ]
+
+      label: [
+        "VAT", // Value-Added Tax
+        "GST", // Goods and Services Tax
+        "PST", // Provincial Sales Tax
+        "HST", // Harmonized Sales Tax
+        "QST", // Quebec Sales Tax
+        "CST", // Central Sales Tax
+        "מס בלו", // Excise Tax
+        "מיסי יבוא", // Import Duty
+        "שירות מס", // Service Tax
+        "מס יוקרה", // Luxury Tax
+      ],
     },
-    "cluster": {
-      "name": [
+    /**
+     * Cluster
+     */
+    cluster: {
+      name: [
         "דגשים למכירה",
         "קודי קידום מכירות",
         "קמפיינים מומלצים",
@@ -5647,11 +11736,15 @@ export default {
         "משאבים דיגיטליים",
         "רעיונות למתנה",
         "בחירות ידידותיות לסביבה",
-        "המלצות הצוות"
-      ]
+        "המלצות הצוות",
+      ],
     },
-    "popup": {
-      "title": [
+
+    /**
+     * Popup
+     */
+    popup: {
+      title: [
         "הצעה מיוחדת!",
         "כניסות חדשות",
         "זמן מוגבל",
@@ -5663,35 +11756,43 @@ export default {
         "מתנה בפנים!",
         "תזכה בפרסים",
         "הטבות חבר",
-        "מכירת פלאש"
-      ]
+        "מכירת פלאש",
+      ],
     },
-    "campaign": {
-      "name": [
-        "חנות 'Til You Drop'",
+
+    /**
+     * Campaign
+     */
+    campaign: {
+      name: [
+        "חנות 'טיל יוו דרופ",
         "טירוף עגלה",
         "פיאסטה במבצע פלאש",
         "לחץ, קנה, שמור",
         "מציאה בוננזה",
-        "E-Deal Extravaganza",
-        "Mega Markdown Madness",
+        "א-דאאל אקסטראואגאנזא",
+        "מאגא מארקדוונ מאדנאסס",
         "חיסכון סייבר",
         "ימי הנחה דיגיטליים",
         "קרנבל מסחר אלקטרוני",
         "אונליין אאוטלט אואזיס",
         "קמעונאי Rush",
         "מכירת מחסן בחנות אינטרנט",
-        "E-Shopper's Paradise",
+        "א-סהופפאר's פאראדיסא",
         "מיזם שובר וירטואלי",
         "מכסי דלתות דיגיטליים",
         "חיסול עגלה אלקטרונית",
         "עימות קניות מקוון",
         "סייל סייל מרהיב",
-        "עסקאות אלקטרוניות בליץ"
-      ]
+        "עסקאות אלקטרוניות בליץ",
+      ],
     },
-    "valuation": {
-      "title": [
+
+    /**
+     * Valuation
+     */
+    valuation: {
+      title: [
         "תמחור התאמה אישית של חולצות",
         "הערכת שווי תכשיטים בעבודת יד",
         "תמחור נעליים בהתאמה אישית",
@@ -5711,10 +11812,10 @@ export default {
         "הערכת כלי מטבח מותאמת אישית",
         "תמחור נייר מכתבים אישי",
         "הערכת אביזרי שיער בהתאמה אישית",
-        "תמחור ציוד ספורט בהתאמה אישית"
+        "תמחור ציוד ספורט בהתאמה אישית",
       ],
-      "structure": {
-        "title": [
+      structure: {
+        title: [
           "עיצוב הדפס חולצות",
           "סוג מתכת תכשיטים",
           "בחירת חומרי נעליים",
@@ -5734,21 +11835,25 @@ export default {
           "חומר כלי מטבח",
           "סוג נייר מכתבים",
           "חומר אביזרי שיער",
-          "גודל ציוד ספורט"
-        ]
-      }
+          "גודל ציוד ספורט",
+        ],
+      },
     },
-    "lottery": {
-      "title": [
+
+    /**
+     * Lottery
+     */
+    lottery: {
+      title: [
         "סיבוב וזכה בפרסים גדולים!",
         "ג'קפוט של גלגל המזל",
-        "Lucky Spin Bonanza",
+        "לוקקי ספינ בונאנזא",
         "סיבוב כדי לזכות בפרסים",
         "גלגל העושר",
         "אקסטרווגנזה של לוטו לאקי",
         "מגה ספין הפתעה",
         "פיאסטה של גלגל הפרס",
-        "Treasure Spin מרהיב",
+        "טראאסורא ספינ ספאקטאקולאר",
         "סובב את קסם הגלגל",
         "גלגל מזל למכביר",
         "טובת המזל",
@@ -5758,10 +11863,10 @@ export default {
         "הגרלת גולדן ספין",
         "ספין-א-פרס",
         "גלגל המזל",
-        "Lucky Spin Showcase",
-        "פרס ספין אולטימטיבי"
+        "לוקקי ספינ סהווקאסא",
+        "פרס ספין אולטימטיבי",
       ],
-      "description": [
+      description: [
         "סובב את הגלגל כדי לזכות בהנחות בלעדיות!",
         "נסה את מזלך - פרסים מדהימים מחכים בגלגל המזל שלנו!",
         "זכה בגדול עם כל סיבוב - תגמולים מלהיבים בהישג יד!",
@@ -5781,8 +11886,423 @@ export default {
         "סיבוב כדי לקבל הזדמנות לקבל מבצעים ומבצעים בלעדיים.",
         "גלגל המזל מסתובב - תפסו את פרס המזל שלכם!",
         "סיבוב, נצח וחייך - תגמולים מפתיעים בכל סיבוב.",
-        "קח סיבוב ותן להון להכריע את הפרס שלך!"
-      ]
-    }
-  }
+        "קח סיבוב ותן להון להכריע את הפרס שלך!",
+      ],
+    },
+
+    /**
+     * Subscription Price
+     */
+    subscription_price: {
+      title: [
+        "באסיק גישה",
+        "פראמיומ מאמבארסהיפ",
+        "גולד חבילה",
+        "סילואר פלאנ",
+        "פלאטינומ מנוי",
+        "אנטארפריסא טיאר",
+        "סטארטאר בונדלא",
+        "ונלימיטאד הצעה",
+        "פאמילי פאקק",
+        "סוויטה מקצועית",
+      ],
+      description: [
+        "ידאאל פור ינדיוידואלס אקספלורינג טהא באסיקס.",
+        "גישה טו הכול פראמיומ פאאטוראס אנד קונטאנט.",
+        "אקסקלוסיוא באנאפיטס אנד פריוריטי תמיכה.",
+        "A באלאנקאד חבילה פור ראגולאר משתמשים.",
+        "ולטימאטא גישה ויטה טופ-טיאר פארקס.",
+        "מותאם אישית סולוטיונס פור לארגא ורגאניזאטיונס.",
+        "אנ אפפורדאבלא אנטרי-לאואל אפשרות.",
+        "נו לימיטס ונ וסאגא, פור טהא פוואר משתמש.",
+        "A ספאקיאל פלאנ פור פאמיליאס, ופ טו 4 חברים.",
+        "דאסיגנאד פור פרופאססיונאלס סאאקינג מתקדם טוולס.",
+      ],
+    },
+
+    spec: {
+      group: [
+        "מפרט טכני",
+        "פיזי דימאנסיונס",
+        "פארפורמאנקא פאאטוראס",
+        "קוננאקטיויטי אפשרויות",
+        "פוואר ראקויראמאנטס",
+        "מאטאריאל אנד בוילד קואליטי",
+        "צבע אנד פיניסה אפשרויות",
+        "סטוראגא אנד מאמורי",
+        "ופאראטינג סיסטאמ קומפאטיביליטי",
+        "סאפאטי אנד קומפליאנקא",
+        "חבילה קונטאנטס",
+        "אחריות אנד תמיכה",
+        "מותג אנד מאנופאקטוראר",
+        "אנוירונמאנטאל פריאנדלינאסס",
+        "אנארגי אפפיקיאנקי",
+        "קארא אנד מאינטאנאנקא",
+        "קוסטומיזאטיונ אפשרויות",
+        "ינקלודאד אקקאססוריאס",
+        "משתמש ראטינגס אנד ראויאוס",
+        "תמחור אנד אואילאביליטי",
+      ],
+    },
+
+    avocado: {
+      title: [
+        "רכישה קבלה",
+        "מכירה אישור",
+        "הזמנה חשבונית",
+        "תשלום חשבונית",
+        "לקוח קבלה",
+        "עסקה סוממארי",
+        "חיוב סטאטאמאנט",
+        "קהאקקווט קבלה",
+        "הזמנה סוממארי",
+        "רכישה הזמנה חשבונית",
+        "מכירות קבלה",
+        "ראטאיל חשבונית",
+        "א-ראקאיפט",
+        "שירות חשבונית",
+        "מוצר חשבונית",
+        "תשלום קבלה",
+        "אישור הזמנה",
+        "חיוב חשבונית",
+        "קהאקקווט חשבונית",
+        "לקוח חשבונית",
+      ],
+      message: [
+        "טהאנק יוו פור יוור רכישה!",
+        "וא אפפראקיאטא יוור בוסינאסס.",
+        "יוור הזמנה יס ונ יטס ואי!",
+        "טהאנקס פור סהופפינג ויטה וס.",
+        "לווקינג פורוארד טו סארוינג יוו אגאינ.",
+        "יוור סאטיספאקטיונ יס וור טופ פריוריטי.",
+        "דונ't פורגאט טו ראטא יוור אקספאריאנקא.",
+        "טהאנק יוו פור תמיכה וור חנות.",
+        "וא הופא יוו אנגוי יוור חדש רכישה!",
+        "שמור יוור חשבונית פור פוטורא ראפאראנקא.",
+        "ויסיט וס אגאינ פור מורא גראאט מוצרים.",
+        "סטאי קוננאקטאד פור אקסקלוסיוא הצעות.",
+        "טהאנק יוו פור באינג a ואלואד לקוח.",
+        "וא'רא הארא טו עזרה יפ יוו נאאד אססיסטאנקא.",
+        "יוור פאאדבאקק עזרה וס ימפרווא.",
+        "אנגוי a ספאקיאל הנחה ונ יוור נאקסט רכישה.",
+        "יוו'וא מאדא a גראאט קהויקא!",
+        "טהאנק יוו פור יוור טרוסט ינ וס.",
+        "לווקינג פורוארד טו יוור פאאדבאקק.",
+        "A האארטפאלט טהאנק יוו פרומ וור צוות.",
+      ],
+    },
+
+    /**
+     * Map Tag
+     */
+    map_tag: {
+      title: [
+        "מאפיין סהווקאסא",
+        "ספק פלאזא",
+        "פאאטוראד בית",
+        "לוקאל מארקאט",
+        "כניסות חדשות",
+        "אסטאטא גארדאנס",
+        "סהופפינג דיסטריקט",
+        "ארטיסאנ אללאי",
+        "לוקסורי אסטאטאס",
+        "ראנטאל הוב",
+        "ופאנ הווסאס",
+        "טאקה יננוואטיונס",
+        "פאסהיונ לאנא",
+        "קראפטס קורנאר",
+        "פווד קוורט",
+        "בווק נווק",
+        "גאואלרי גונקטיונ",
+        "אנטיקוא אואנוא",
+        "פיטנאסס זונא",
+      ],
+    },
+
+    /**
+     * Marketplace Documents (For vendors)
+     */
+    marketplace_document: {
+      title: [
+        "בוסינאסס ראגיסטראטיונ קארטיפיקאטא",
+        "מס ידאנטיפיקאטיונ נומבאר (טינ)",
+        "ספק אגראאמאנט טופס",
+        "מוצר קאטאלוג",
+        "תמחור רשימה",
+        "באנק חשבון פרטים",
+        "פרוופ ופ כתובת",
+        "ינסוראנקא קארטיפיקאטא",
+        "קומפאני פרופיל",
+        "קואליטי אססוראנקא קארטיפיקאטא",
+        "סאפאטי נתונים סהאאט (סדס)",
+        "מוצר אחריות מידע",
+        "החזרה פוליקי",
+        "משלוח אנד האנדלינג פרוקאדוראס",
+        "לקוח שירות פוליקי",
+        "שיווק אנד פרומוטיונ פלאנס",
+        "סוקיאל מאדיא קישורים",
+        "טראדא ראפאראנקאס",
+        "סופפליאר קוד ופ קונדוקט",
+        "נונ-דיסקלוסורא אגראאמאנט (נדא)",
+      ],
+    },
+
+    /**
+     * Expert Contract
+     */
+    expert_contract: {
+      title: [
+        "מרקטפלייס סאטופ שירותים אגראאמאנט",
+        "חנות תצורה קונטראקט",
+        "פרינט-ונ-דאמאנד שירותים אגראאמאנט",
+        "דיגיטלי שיווק שירות אגראאמאנט",
+        "א-קוממארקא פלאטפורמ סאטופ אגראאמאנט",
+        "אקספארט קונסולטאנקי קונטראקט פור בוסינאסס וונארס",
+        "שירות אגראאמאנט פור מרקטפלייס תצורה",
+        "חנות סאטופ אנד תצורה שירותים קונטראקט",
+        "POD שירות פרוויסיונ אגראאמאנט",
+        "שיווק סטראטאגי ימפלאמאנטאטיונ אגראאמאנט",
+        "בוסינאסס דאואלופמאנט שירות קונטראקט",
+        "א-קוממארקא חנות סאטופ אגראאמאנט",
+        "אקספארט שירות פרוויסיונ אגראאמאנט",
+        "בוסינאסס סולוטיונס אנד סאטופ קונטראקט",
+        "מותאם אישית חנות סאטופ שירותים אגראאמאנט",
+        "מרקטפלייס ופטימיזאטיונ שירות אגראאמאנט",
+        "קונסולטינג אנד סאטופ שירותים קונטראקט",
+        "POD ינטאגראטיונ שירותים אגראאמאנט",
+        "שיווק אנד פרומוטיונ שירותים קונטראקט",
+        "בוסינאסס אקספאנסיונ שירות אגראאמאנט",
+      ],
+    },
+
+    /**
+     * Account
+     */
+    account: {
+      account_name: [
+        "ראשי ארנק",
+        "בוסינאסס חשבון",
+        "פארסונאל ארנק",
+        "סאוינגס ארנק",
+        "אקספאנסא חשבון",
+        "ראשי ארנק",
+        "גאנאראל חשבון",
+        "ראסארוא ארנק",
+        "עסקה ארנק",
+        "פונד חשבון",
+      ],
+    },
+
+    /**
+     * Cashback
+     */
+    cashback: {
+      title: [
+        "חנות & אארנ קאשבק",
+        "לויאלטי ראוארדס קאשבק",
+        "אקסקלוסיוא קאשבק הצעות",
+        "קאשבק בונאנזא",
+        "ינסטאנט קאשבק דאאלס",
+        "סאאסונאל קאשבק סאוינגס",
+        "דוובלא קאשבק ימים",
+        "קאשבק ונ אוארי רכישה",
+        "קאשבק פראנזי",
+        "ויפ קאשבק פרוגראמ",
+        "לימיטאד זמן קאשבק",
+        "קאשבק ראוארדס קלוב",
+        "חנות מורא, שמור מורא",
+        "ולטימאטא קאשבק ראוארדס",
+        "קאשבק אקסטראואגאנזא",
+      ],
+      description: [
+        "אארנ קאשבק ונ אוארי רכישה!",
+        "גאט ראוארדאד פור יוור לויאלטי.",
+        "אקסקלוסיוא קאשבק הצעות גוסט פור יוו.",
+        "אנגוי גראאט סאוינגס ויטה קאשבק ראוארדס.",
+        "ינסטאנט קאשבק ונ הכול יוור פאווריטא יטאמס.",
+        "שמור מורא ויטה סאאסונאל קאשבק דאאלס.",
+        "דוובלא יוור קאשבק ונ ספאקיאל ימים!",
+        "אארנ קאשבק אוארי זמן יוו חנות.",
+        "גוינ טהא קאשבק פראנזי היום!",
+        "ויפ חברים אנגוי אקסקלוסיוא קאשבק.",
+        "הוררי! לימיטאד זמן קאשבק הצעות.",
+        "גוינ וור קאשבק ראוארדס קלוב עכשיו.",
+        "טהא מורא יוו חנות, טהא מורא יוו שמור.",
+        "ונלוקק טהא ולטימאטא קאשבק ראוארדס.",
+        "אקספאריאנקא טהא באסט קאשבק דאאלס ארוונד.",
+      ],
+    },
+
+    /**
+     * Page
+     */
+    page: {
+      prompts: [
+        "ואלקומא טו {shop} - אקספלורא וור דיסטינקטיוא ראנגא ופ יטאמס",
+        "{shop} - יוור ולטימאטא סוורקא פור קואליטי מארקהאנדיסא אנד ווטסטאנדינג שירות",
+        "אקסקלוסיוא דאאלס אנד סאוינגס רק אט {shop} - סאיזא טהא ופפורטוניטי!",
+        "גאט טו קנוו {shop}'s דאדיקאטיונ טו אקו-פריאנדלינאסס אנד אטהיקאל פראקטיקאס",
+        "באקומא a פארט ופ טהא {shop} פאמילי - סובסקריבא טו וור נאוסלאטטאר פור עדכן",
+        "דיוא ינטו טופ פיקקס אנד היגהלי-ראטאד גוודס אט {shop}",
+        "פראסאנט ידאאס אנד קראאטיוא סוגגאסטיונס פור הכול אואנטס אט {shop}",
+        "ונריואללאד הצעות אנד טימא-סאנסיטיוא ספאקיאלס אט {shop} - אקט פאסט!",
+        "{shop}'s קומפראהאנסיוא קנייה טיפים אנד מוצר אואלואטיונס - חנות ויטה קונפידאנקא",
+        "ראאקה ווט טו {shop} - וא סטריוא טו דאליואר אנ ונמאטקהאד סהופפינג אקספאריאנקא",
+      ],
+    },
+
+    /**
+     * Cross-Selling
+     */
+    cross_selling: {
+      message: [
+        "קומפלאטא יוור לווק, גראב טהא סאט!",
+        "שמור ביג ויטה וור בונדלא דאאלס!",
+        "דונ't מיסס וור פארפאקט פאירינגס!",
+        "אנהאנקא יוור רכישה, אדד-ונס אואיט!",
+        "ונלוקק אקסקלוסיוא סאוינגס, קנייה טוגאטהאר!",
+        "קומפלאמאנטארי יטאמס, ספאקיאל הנחה!",
+        "גאט מורא, ספאנד לאסס – בונדלא ופ!",
+        "לימיטאד-טימא הצעה: מאטקהאד מוצרים!",
+        "ופגראדא יוור אקספאריאנקא, קומבו דאאלס!",
+        "דיסקוואר וור קוראטאד קומבוס, שמור עכשיו!",
+        "פאיר יט ופ פור טהא ולטימאטא קומבו!",
+        "חנות סמארט, בונדלא אנד שמור!",
+        "דוובלא טהא ואלוא, דוובלא טהא פונ!",
+        "יוור פארפאקט מאטקה יס הארא – חנות עכשיו!",
+        "אקסקלוסיוא בונדלא תמחור גוסט פור יוו!",
+        "מאקסימיזא יוור סאוינגס ויטה וור קומבוס!",
+        "אנהאנקא יוור קוללאקטיונ ויטה טהאסא פיקקס!",
+        "קוראטאד פור יוו: מאטקה אנד שמור!",
+        "טהא פארפאקט פאיר פור a פארפאקט יום!",
+        "בונדלא יוור פאווריטאס פור נוסף סאוינגס!",
+      ],
+    },
+
+    /**
+     * Cross-Selling
+     */
+    vendor_pricing: {
+      title: [
+        "דיגיטלי גוודס",
+        "בווקס",
+        "אלאקטרוניקס",
+        "פאסהיונ",
+        "בית אפפליאנקאס",
+        "באאוטי מוצרים",
+        "ספורטס אקויפמאנט",
+        "צעצועים ומשחקים",
+        "מצרכים",
+        "רְהִיטִים",
+        "חלקי רכב",
+        "תכשיט",
+        "האאלטה & ואללנאסס",
+        "מצרכים לחיות מחמד",
+        "ציוד משרדי",
+        "מוסיק & ינסטרומאנטס",
+        "מוויאס & טו הצג",
+        "תוֹכנָה",
+        "ארט & קראפטס",
+        "ווטדוור גאאר",
+      ],
+    },
+
+    /**
+     * Template Message
+     */
+    template_message: {
+      title: [
+        "אישור הזמנה",
+        "הזמנה סהיפפאד",
+        "הזמנה דאליואראד",
+        "תשלום ראקאיואד",
+        "הזמנה קאנקאללאד",
+        "הזמנה מעבד דאלאי",
+        "הזמנה ונ הולד",
+        "הזמנה ווט פור מסירה",
+        "החזרה תהליך",
+        "החזר יססואד",
+        "יטאמ באקק ינ סטוקק",
+      ],
+      body: [
+        "הי {buyer_name}, יוור הזמנה #{order_id} האס באאנ אשר! וא’רא מעבד יט אנד וילל נוטיפי יוו והאנ יט’s מוכן טו סהיפ.",
+
+        "גווד חדש, {buyer_name}! יוור הזמנה #{order_id} האס באאנ סהיפפאד. יוו קאנ טראקק יט טהרווגה יוור חשבון. טהאנקס פור סהופפינג ויטה וס!",
+
+        "האללו {buyer_name}, יוור הזמנה #{order_id} האס באאנ סוקקאסספוללי דאליואראד. וא הופא יוו אנגוי יוור רכישה. טהאנק יוו!",
+
+        "הי {buyer_name}, וא האוא ראקאיואד טהא תשלום פור הזמנה #{order_id}. יוור הזמנה יס עכשיו באינג תהליך אנד וילל בא סהיפפאד סוונ.",
+
+        "דאאר {buyer_name}, וא'רא סוררי טו ינפורמ יוו טהאט יוור הזמנה #{order_id} האס באאנ קאנקאללאד. יפ יוו האוא אני קואסטיונס, פלאאסא קונטאקט תמיכה.",
+
+        "דאאר {buyer_name}, וא’רא אקספאריאנקינג a דאלאי ויטה יוור הזמנה #{order_id}. וא אפולוגיזא פור טהא ינקונואניאנקא אנד ארא וורקינג טו ראסולוא יט אס סוונ אס פוססיבלא.",
+
+        "הי {buyer_name}, יוור הזמנה #{order_id} יס קורראנטלי ונ הולד. פלאאסא קהאקק יוור חשבון ור קונטאקט תמיכה פור פורטהאר פרטים.",
+
+        "הי {buyer_name}, יוור הזמנה #{order_id} יס ווט פור מסירה אנד סהוולד ראאקה יוו סוונ. טהאנק יוו פור יוור פאטיאנקא!",
+
+        "דאאר {buyer_name}, וא האוא תהליך טהא החזרה פור יוור הזמנה #{order_id}. יפ יוו האוא אני קואסטיונס, פלאאסא קונטאקט תמיכה.",
+
+        "הי {buyer_name}, יוור החזר פור הזמנה #{order_id} האס באאנ יססואד. יוו סהוולד סאא טהא פונדס ינ יוור חשבון סוונ.",
+
+        "הי {buyer_name}, טהא יטאמ פרומ יוור הזמנה #{order_id} יס באקק ינ סטוקק! יוו קאנ פלאקא a חדש הזמנה עכשיו יפ יוו’רא סטילל ינטאראסטאד.",
+      ],
+    },
+
+    /**
+     * Property Set
+     */
+    property_set: {
+      title: [
+        "דראסס",
+        "דיגיטלי גאדגאטס",
+        "דרינקס",
+        "מזונות",
+        "רְהִיטִים",
+        "בווקס",
+        "באאוטי מוצרים",
+        "טויס",
+        "ספורטס אקויפמאנט",
+        "אקקאססוריאס",
+      ],
+      description: [
+        "אטטריבוטאס פור קלוטהינג יטאמס ליקא גודל, צבע, אנד פאבריק.",
+        "מפרטים פור גאדגאטס סוקה אס מותג, מודאל, אנד פאאטוראס.",
+        "פלאוורס, גודל, אנד סוגים ופ באואראגאס.",
+        "פרטים פור מאאלס, סנאקקס, אנד פווד מוצרים.",
+        "מאטאריאל, דימאנסיונס, אנד דאסיגנ סטילאס.",
+        "אוטהור, גאנרא, אנד פובליקאטיונ שנה.",
+        "סקינ סוג, ינגראדיאנטס, אנד פאקקאגינג פרטים.",
+        "אגא גרוופ, מאטאריאל, אנד סאפאטי סטאנדארדס.",
+        "סוג, גודל, אנד פארפורמאנקא פאאטוראס.",
+        "סטילאס, מאטאריאלס, אנד מותג פרטים.",
+      ],
+    },
+
+    /**
+     * Boxes
+     */
+    boxes: {
+      name: [
+        "קופסה קסס",
+        "קופסה S",
+        "קופסה M",
+        "קופסה L",
+        "קופסה קסל",
+        "קופסה קסקסל",
+        "קופסה סלימ",
+        "קופסה וידא",
+        "קופסה טאלל",
+        "קופסה פלאט",
+        "קופסה קובא",
+        "קופסה טובא",
+        "קופסה פראגילא",
+        "קופסה גלאסס בוטטלאס",
+        "קופסה סופט פאקק", // flexible mailer
+        "קופסה פאדדאד", // bubble/padded
+        "קופסה ינסולאטאד", // thermal
+        "קופסה האאוי-דוטי",
+      ],
+    },
+  },
 };

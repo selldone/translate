@@ -1,60 +1,82 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "menu": {
-    "home": "Кућа",
-    "dashboard": "Командна табла",
-    "login": "Пријавите се",
-    "help": "Помоћ",
-    "blog": "Блог",
-    "price_list": "Прицинг",
-    "apps": "апликације",
-    "experts": "Експерти",
-    "demo": "Селлдонерс",
-    "partnership": "Партнерство",
-    "partner": {
-      "title": "Партнерска плоча ● Вхителабел СааС",
-      "subtitle": "Платформа за е-трговину са белим ознакама је савршена за проверене агенције."
+  menu: {
+    home: "Почетна",
+    dashboard: "Контролна табла",
+    login: "Пријава",
+    help: "Помоћ",
+    blog: "Блог",
+    price_list: "Ценовник",
+    apps: "Апликације",
+    experts: "Стручњаци",
+    demo: "Корисници Selldone",
+    partnership: "Партнерство",
+    partner: {
+      title: "Партнерски панел ● SaaS са сопственим брендом",
+      subtitle:
+        "Платформа за е-трговину са сопственим брендом идеална је за проверене агенције.",
     },
-    "affiliate": {
-      "title": "Партнерски програм ● Доживотно",
-      "subtitle": "Свако се може уписати у овај програм и зарађивати од претплате и накнада за трансакције доживотно."
-    }
+
+    affiliate: {
+      title: "Партнерски програм ● Доживотно",
+      subtitle:
+        "Свако може да се придружи овом програму и доживотно зарађује од претплата и трансакционих накнада.",
+    },
   },
-  "home_menu": {
-    "buttons_header": "Дубоко зароните у Селдона",
-    "beta": "Бета",
-    "home": "Кућа",
-    "why_selldone": "Зашто Селдоне?",
-    "ecommerce": "Е-трговина<br> Буилдер",
-    "automation": "Аутоматизација и интернет ствари",
-    "ai": "AI",
-    "app_builder": "Апп Буилдер",
-    "seo": "Ауто СЕО<br> Мотор",
-    "marketing": "Маркетинг &<br> Кампања",
-    "report": "Смарт Репорт<br> Генератор",
-    "domain": "Хостинг у облаку",
-    "accounting": "Плаћање &<br> Рачуноводство",
-    "logistics": "логистика и<br> поштарина",
-    "page_builder": "Почетне странице<br> Буилдер",
-    "incentives": "Клуб &<br> Подстицаји",
-    "orders": "Поруџбине и<br> Обрада",
-    "staff": "Купци и<br> Тим",
-    "community": "Цустом Цоммунити",
-    "pos": "Онлине ПОС",
-    "group_build": {
-      "header": "Буилд",
-      "subheader": "Градимо систем око вас да креирамо вашу причу о успеху."
+
+  /** @see OLayout **/
+  home_menu: {
+    buttons_header: "Детаљно упознајте Selldone",
+    beta: "Бета",
+    home: "Почетна",
+    why_selldone: "Зашто Selldone?",
+    ecommerce: "Израда <br>онлајн продавнице",
+    automation: "Аутоматизација и IoT",
+    ai: "Вештачка интелигенција",
+    app_builder: "Креатор апликација",
+    seo: "Аутоматски SEO <br>мотор",
+    marketing: "Маркетинг и <br>кампање",
+    report: "Генератор паметних <br>извештаја",
+    domain: "Хостинг у облаку",
+    accounting: "Плаћања и <br>рачуноводство",
+    logistics: "Логистика и <br>испорука",
+    page_builder: "Израда одредишних <br>страница",
+    incentives: "Клуб и <br>подстицаји",
+    orders: "Поруџбине и <br>обрада",
+    staff: "Купци и <br>тим",
+
+    community: "Прилагођена заједница",
+    pos: "POS на мрежи",
+
+    group_build: {
+      header: "Изградња",
+      subheader: "Градимо систем око вас како бисте створили своју причу о успеху.",
     },
-    "group_manage": {
-      "header": "Управљати",
-      "subheader": "Управљање вашим пословањем биће пријатније него икад."
+    group_manage: {
+      header: "Управљање",
+      subheader: "Управљање вашим пословањем биће пријатније него икада.",
     },
-    "group_sell": {
-      "header": "Селл",
-      "subheader": "Увек се затварајте, зарадите и уживајте."
+    group_sell: {
+      header: "Продаја",
+      subheader: "Стално закључујте послове, зарађујте новац и уживајте у томе.",
     },
-    "group_grow": {
-      "header": "Расте",
-      "subheader": "Функције и алати за предузећа на дохват руке, небо ће бити ваша граница."
-    }
-  }
+    group_grow: {
+      header: "Раст",
+      subheader:
+        "Функције и алати пословне класе су вам при руци; небо је ваша граница.",
+    },
+  },
 };

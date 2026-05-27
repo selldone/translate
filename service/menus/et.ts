@@ -1,60 +1,85 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "menu": {
-    "home": "Kodu",
-    "dashboard": "Armatuurlaud",
-    "login": "Logi sisse",
-    "help": "Abi",
-    "blog": "Blogi",
-    "price_list": "Hinnakujundus",
-    "apps": "Rakendused",
-    "experts": "Eksperdid",
-    "demo": "Müüjad",
-    "partnership": "Partnerlus",
-    "partner": {
-      "title": "Partneri paneel ● Whitelabel SaaS",
-      "subtitle": "Valge märgistusega e-kaubanduse platvorm sobib suurepäraselt kontrollitud agentuuridele."
+  menu: {
+    home: "Avaleht",
+    dashboard: "Juhtpaneel",
+    login: "Logi sisse",
+    help: "Abi",
+    blog: "Blogi",
+    price_list: "Hinnad",
+    apps: "Rakendused",
+    experts: "Eksperdid",
+    demo: "Selldone’i kasutajad",
+    partnership: "Partnerlus",
+    partner: {
+      title: "Partneripaneel ● valge sildiga SaaS",
+      subtitle:
+        "Valge sildiga e-kaubanduse platvorm sobib ideaalselt kinnitatud agentuuridele.",
     },
-    "affiliate": {
-      "title": "Sidusprogramm ● Eluaeg",
-      "subtitle": "Igaüks võib sellesse programmi registreeruda ja kogu elu jooksul tellimus- ja tehingutasudest teenida."
-    }
+
+    affiliate: {
+      title: "Partnerprogramm ● eluaegne",
+      subtitle:
+        "Igaüks saab selle programmiga liituda ning teenida eluaegselt tellimus- ja tehingutasudelt.",
+    },
   },
-  "home_menu": {
-    "buttons_header": "Sügav sukeldumine Selldone'i",
-    "beta": "Beeta",
-    "home": "Kodu",
-    "why_selldone": "Miks Selldone?",
-    "ecommerce": "E-kaubandus<br> Ehitaja",
-    "automation": "Automatiseerimine ja asjade internet",
-    "ai": "AI",
-    "app_builder": "Rakenduste koostaja",
-    "seo": "Auto SEO<br> Mootor",
-    "marketing": "Turundus ja<br> Kampaania",
-    "report": "Nutikas aruanne<br> Generaator",
-    "domain": "Pilvepõhine hostimine",
-    "accounting": "Makse &<br> Raamatupidamine",
-    "logistics": "Logistika ja<br> Saatmine",
-    "page_builder": "Sihtleht<br> Ehitaja",
-    "incentives": "klubi &<br> Stiimulid",
-    "orders": "Tellimused &<br> Töötlemine",
-    "staff": "Kliendid &<br> Meeskond",
-    "community": "Kohandatud kogukond",
-    "pos": "Online POS",
-    "group_build": {
-      "header": "Ehitada",
-      "subheader": "Ehitame teie ümber süsteemi, et luua teie edulugu."
+
+  /** @see OLayout **/
+  home_menu: {
+    buttons_header: "Tutvu Selldone’iga põhjalikumalt",
+    beta: "Beeta",
+    home: "Avaleht",
+    why_selldone: "Miks Selldone?",
+    ecommerce: "E-kaubanduse <br>ehitaja",
+    automation: "Automatiseerimine ja IoT",
+    ai: "AI",
+    app_builder: "Rakenduste looja",
+    seo: "Automaatne SEO <br>mootor",
+    marketing: "Turundus ja <br>kampaaniad",
+    report: "Nutikas aruannete <br>generaator",
+    domain: "Pilvepõhine majutus",
+    accounting: "Maksed ja <br>raamatupidamine",
+    logistics: "Logistika ja <br>tarne",
+    page_builder: "Sihtlehe <br>looja",
+    incentives: "Klubi ja <br>preemiad",
+    orders: "Tellimused ja <br>töötlemine",
+    staff: "Kliendid ja <br>meeskond",
+
+    community: "Kohandatud kogukond",
+    pos: "Veebipõhine POS",
+
+    group_build: {
+      header: "Loo",
+      subheader:
+        "Loome sinu ümber süsteemi, et sinu edulugu teoks teha.",
     },
-    "group_manage": {
-      "header": "Halda",
-      "subheader": "Ettevõtte juhtimine on nauditavam kui kunagi varem."
+    group_manage: {
+      header: "Halda",
+      subheader:
+        "Sinu ettevõtte juhtimine on nauditavam kui kunagi varem.",
     },
-    "group_sell": {
-      "header": "müüa",
-      "subheader": "Sulgege alati, teenige raha ja nautige seda."
+    group_sell: {
+      header: "Müü",
+      subheader:
+        "Sõlmi tehinguid, teeni raha ja naudi seda.",
     },
-    "group_grow": {
-      "header": "Kasvama",
-      "subheader": "Ettevõtlustaseme funktsioonid ja tööriistad on teie käeulatuses – teie piiriks on taevas."
-    }
-  }
+    group_grow: {
+      header: "Kasva",
+      subheader:
+        "Ettevõtte tasemel funktsioonid ja tööriistad on sinu käeulatuses — piiriks on vaid taevas.",
+    },
+  },
 };

@@ -1,60 +1,82 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "menu": {
-    "home": "Domov",
-    "dashboard": "Dashboard",
-    "login": "Prihlásiť sa",
-    "help": "Pomoc",
-    "blog": "Blog",
-    "price_list": "Stanovenie cien",
-    "apps": "aplikácie",
-    "experts": "Odborníci",
-    "demo": "Predajcovia",
-    "partnership": "partnerstvo",
-    "partner": {
-      "title": "Panel partnerov ● Whitelabel SaaS",
-      "subtitle": "Platforma elektronického obchodu s bielym označením je ideálna pre overené agentúry."
+  menu: {
+    home: "Domov",
+    dashboard: "Ovládací panel",
+    login: "Prihlásiť sa",
+    help: "Pomoc",
+    blog: "Blog",
+    price_list: "Cenník",
+    apps: "Aplikácie",
+    experts: "Odborníci",
+    demo: "Používatelia Selldone",
+    partnership: "Partnerstvo",
+    partner: {
+      title: "Partnerský panel ● SaaS s vlastnou značkou",
+      subtitle:
+        "Platforma elektronického obchodu s vlastnou značkou je ideálna pre overené agentúry.",
     },
-    "affiliate": {
-      "title": "Partnerský program ● Doživotný",
-      "subtitle": "Ktokoľvek sa môže zaregistrovať do tohto programu a zarábať na poplatkoch za predplatné a transakcie na celý život."
-    }
+
+    affiliate: {
+      title: "Partnerský program ● Doživotne",
+      subtitle:
+        "Do tohto programu sa môže zapojiť ktokoľvek a doživotne zarábať z poplatkov za predplatné a transakcie.",
+    },
   },
-  "home_menu": {
-    "buttons_header": "Ponorte sa hlboko do Selldonu",
-    "beta": "Beta",
-    "home": "Domov",
-    "why_selldone": "Prečo Selldone?",
-    "ecommerce": "Elektronický obchod<br> Staviteľ",
-    "automation": "Automatizácia a internet vecí",
-    "ai": "AI",
-    "app_builder": "Nástroj na tvorbu aplikácií",
-    "seo": "Automatické SEO<br> Motor",
-    "marketing": "Marketing &<br> kampaň",
-    "report": "Inteligentný prehľad<br> Generátor",
-    "domain": "Cloudový hosting",
-    "accounting": "Platba a<br> účtovníctvo",
-    "logistics": "Logistika a<br> Doprava",
-    "page_builder": "Vstupná stránka<br> Staviteľ",
-    "incentives": "Klub &<br> Stimuly",
-    "orders": "Objednávky &<br> Spracovanie",
-    "staff": "Zákazníci &<br> tím",
-    "community": "Custom Community",
-    "pos": "Online POS",
-    "group_build": {
-      "header": "Stavať",
-      "subheader": "Vybudujeme okolo vás systém na vytvorenie vášho úspešného príbehu."
+
+  /** @see OLayout **/
+  home_menu: {
+    buttons_header: "Spoznajte Selldone do hĺbky",
+    beta: "Beta",
+    home: "Domov",
+    why_selldone: "Prečo Selldone?",
+    ecommerce: "Tvorca <br>elektronického obchodu",
+    automation: "Automatizácia a IoT",
+    ai: "Umelá inteligencia",
+    app_builder: "Tvorca aplikácií",
+    seo: "Automatický SEO <br>nástroj",
+    marketing: "Marketing a <br>kampane",
+    report: "Generátor inteligentných <br>reportov",
+    domain: "Cloudové hostovanie",
+    accounting: "Platby a <br>účtovníctvo",
+    logistics: "Logistika a <br>doprava",
+    page_builder: "Tvorca vstupných <br>stránok",
+    incentives: "Klub a <br>stimuly",
+    orders: "Objednávky a <br>spracovanie",
+    staff: "Zákazníci a <br>tím",
+
+    community: "Vlastná komunita",
+    pos: "Internetový POS",
+
+    group_build: {
+      header: "Budovanie",
+      subheader: "Budujeme systém okolo vás, aby ste mohli vytvoriť svoj príbeh úspechu.",
     },
-    "group_manage": {
-      "header": "Spravovať",
-      "subheader": "Riadenie vášho podnikania bude príjemnejšie ako kedykoľvek predtým."
+    group_manage: {
+      header: "Správa",
+      subheader: "Správa vášho podnikania bude príjemnejšia než kedykoľvek predtým.",
     },
-    "group_sell": {
-      "header": "predať",
-      "subheader": "Vždy buďte uzavretí, zarábajte peniaze a užívajte si to."
+    group_sell: {
+      header: "Predaj",
+      subheader: "Neustále uzatvárajte obchody, zarábajte peniaze a užívajte si to.",
     },
-    "group_grow": {
-      "header": "Rásť, pestovať",
-      "subheader": "Funkcie a nástroje na podnikovej úrovni, ktoré máte po ruke, obloha bude vaším limitom."
-    }
-  }
+    group_grow: {
+      header: "Rast",
+      subheader:
+        "Funkcie a nástroje podnikovej úrovne máte na dosah ruky; oblohou sa vaše možnosti nekončia.",
+    },
+  },
 };

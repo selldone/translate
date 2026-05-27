@@ -1,60 +1,82 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "menu": {
-    "home": "Дадому",
-    "dashboard": "Прыборная панэль",
-    "login": "увайсці",
-    "help": "Дапамажыце",
-    "blog": "Блог",
-    "price_list": "Цэнаўтварэнне",
-    "apps": "Праграмы",
-    "experts": "Эксперты",
-    "demo": "Прадаўцы",
-    "partnership": "Партнёрства",
-    "partner": {
-      "title": "Панэль партнёраў ● Whitelabel SaaS",
-      "subtitle": "Платформа электроннай камерцыі з белай маркіроўкай ідэальна падыходзіць для правераных агенцтваў."
+  menu: {
+    home: "Галоўная",
+    dashboard: "Панэль кіравання",
+    login: "Уваход",
+    help: "Дапамога",
+    blog: "Блог",
+    price_list: "Цэны",
+    apps: "Праграмы",
+    experts: "Эксперты",
+    demo: "Карыстальнікі Selldone",
+    partnership: "Партнёрства",
+    partner: {
+      title: "Панэль партнёра ● SaaS пад уласным брэндам",
+      subtitle:
+        "Платформа электроннай камерцыі з магчымасцю працы пад уласным брэндам ідэальна падыходзіць для правераных агенцтваў.",
     },
-    "affiliate": {
-      "title": "Партнёрская праграма ● Пажыццёвая",
-      "subtitle": "Любы чалавек можа зарэгістравацца ў гэтай праграме і атрымліваць прыбытак ад платы за падпіску і транзакцыі на працягу ўсяго жыцця."
-    }
+
+    affiliate: {
+      title: "Партнёрская праграма ● пажыццёва",
+      subtitle:
+        "Любы чалавек можа далучыцца да гэтай праграмы і пажыццёва зарабляць на плаце за падпіску і транзакцыі.",
+    },
   },
-  "home_menu": {
-    "buttons_header": "Глыбока акунуцца ў Сэлдоне",
-    "beta": "Бэта-версія",
-    "home": "Дадому",
-    "why_selldone": "Чаму Сэлдоун?",
-    "ecommerce": "Электронная камерцыя<br> Будаўнік",
-    "automation": "Аўтаматызацыя і IoT",
-    "ai": "AI",
-    "app_builder": "Канструктар прыкладанняў",
-    "seo": "Аўтаматычны SEO<br> Рухавік",
-    "marketing": "Маркетынг і<br> Кампанія",
-    "report": "Разумны справаздачу<br> Генератар",
-    "domain": "Воблачны хостынг",
-    "accounting": "Аплата і<br> Бухгалтарскі ўлік",
-    "logistics": "Лагістыка і<br> Дастаўка",
-    "page_builder": "Пасадкавая старонка<br> Будаўнік",
-    "incentives": "клуб і<br> Стымулы",
-    "orders": "Заказы і<br> Апрацоўка",
-    "staff": "Кліенты і<br> Каманда",
-    "community": "Карыстальніцкая супольнасць",
-    "pos": "Інтэрнэт POS",
-    "group_build": {
-      "header": "Будаваць",
-      "subheader": "Мы будуем сістэму вакол вас, каб стварыць вашу гісторыю поспеху."
+
+  /** @see OLayout **/
+  home_menu: {
+    buttons_header: "Глыбокае знаёмства з Selldone",
+    beta: "Бэта",
+    home: "Галоўная",
+    why_selldone: "Чаму Selldone?",
+    ecommerce: "Канструктар <br>электроннай камерцыі",
+    automation: "Аўтаматызацыя і IoT",
+    ai: "Штучны інтэлект",
+    app_builder: "Канструктар праграм",
+    seo: "Аўтаматычны рухавік <br>SEO",
+    marketing: "Маркетынг і <br>кампаніі",
+    report: "Генератар разумных <br>справаздач",
+    domain: "Воблачны хостынг",
+    accounting: "Аплаты і <br>бухгалтэрыя",
+    logistics: "Лагістыка і <br>дастаўка",
+    page_builder: "Канструктар пасадачных <br>старонак",
+    incentives: "Клуб і <br>стымулы",
+    orders: "Заказы і <br>апрацоўка",
+    staff: "Кліенты і <br>каманда",
+
+    community: "Карыстальніцкая супольнасць",
+    pos: "Анлайн POS",
+
+    group_build: {
+      header: "Будуйце",
+      subheader: "Мы будуем сістэму вакол вас, каб стварыць вашу гісторыю поспеху.",
     },
-    "group_manage": {
-      "header": "Кіраваць",
-      "subheader": "Кіраванне вашым бізнесам будзе больш прыемным, чым калі-небудзь."
+    group_manage: {
+      header: "Кіруйце",
+      subheader: "Кіраванне вашым бізнесам стане больш прыемным, чым калі-небудзь.",
     },
-    "group_sell": {
-      "header": "Прадаць",
-      "subheader": "Заўсёды зачыняйцеся, зарабляйце грошы і атрымлівайце асалоду ад гэтага."
+    group_sell: {
+      header: "Прадавайце",
+      subheader: "Прадавайце без спыну, зарабляйце і атрымлівайце асалоду.",
     },
-    "group_grow": {
-      "header": "Расці",
-      "subheader": "Функцыі і інструменты карпаратыўнага ўзроўню ў вас пад рукой, неба стане вашым мяжой."
-    }
-  }
+    group_grow: {
+      header: "Развівайцеся",
+      subheader:
+        "Функцыі і інструменты карпаратыўнага ўзроўню ў вас пад рукой; неба стане вашай мяжой.",
+    },
+  },
 };

@@ -1,60 +1,82 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "menu": {
-    "home": "Ekhaya",
-    "dashboard": "Dashboard",
-    "login": "Ngema",
-    "help": "Nceda",
-    "blog": "Ibhlog",
-    "price_list": "Amaxabiso",
-    "apps": "Usetyenziso",
-    "experts": "Iingcali",
-    "demo": "Abathengisi",
-    "partnership": "Intsebenziswano",
-    "partner": {
-      "title": "Iphaneli yoMlingane ● Whitelabel SaaS",
-      "subtitle": "Iqonga le-ecommerce elinombhalo omhlophe lifanelekile kwii-arhente eziqinisekisiweyo."
+  menu: {
+    home: "Ikhaya",
+    dashboard: "Iphaneli yolawulo",
+    login: "Ngena",
+    help: "Uncedo",
+    blog: "Ibhlogi",
+    price_list: "Amaxabiso",
+    apps: "Ii-aplikheyishini",
+    experts: "Iingcali",
+    demo: "Abasebenzisi baka Selldone",
+    partnership: "Intsebenziswano",
+    partner: {
+      title: "Iphaneli yeqabane ● SaaS enophawu lwakho",
+      subtitle:
+        "Iqonga lorhwebo lwe-intanethi elinophawu lwakho lilungele ii-arhente eziqinisekisiweyo.",
     },
-    "affiliate": {
-      "title": "Inkqubo yoManyano ● Ubomi bonke",
-      "subtitle": "Nabani na unokubhalisa kule nkqubo kwaye afumane imali yokubhalisa kunye neentlawulo zokuthengiselana ubomi bonke."
-    }
+
+    affiliate: {
+      title: "Inkqubo yobambiswano ● ubomi bonke",
+      subtitle:
+        "Nabani na angabhalisa kule nkqubo aze afumane ingeniso ebomini bonke kwiimirhumo zobhaliso nezorhwebo.",
+    },
   },
-  "home_menu": {
-    "buttons_header": "Ukuntywila nzulu kwiSelldone",
-    "beta": "iBeta",
-    "home": "Ekhaya",
-    "why_selldone": "Kutheni uSelldone?",
-    "ecommerce": "I-Ecommerce<br> Umakhi",
-    "automation": "Ukuzenzekela kunye ne-IoT",
-    "ai": "AI",
-    "app_builder": "Umakhi wosetyenziso",
-    "seo": "I-SEO ye-Auto<br> Injini",
-    "marketing": "Intengiso &<br> Iphulo",
-    "report": "Ingxelo ehlakaniphile<br> Ijenereyitha",
-    "domain": "Cloud-based Hosting",
-    "accounting": "Intlawulo &<br> Accounting",
-    "logistics": "Ulungiselelo &<br> Ukuhambisa ngenqanawe",
-    "page_builder": "Iphepha lokufika<br> Umakhi",
-    "incentives": "Iklabhu &<br> Inkuthazo",
-    "orders": "Iiodolo &<br> Iyaqhuba",
-    "staff": "Abathengi &<br> Iqela",
-    "community": "Uluntu oluSiko",
-    "pos": "I-POS ekwi-intanethi",
-    "group_build": {
-      "header": "Yakha",
-      "subheader": "Sakha inkqubo ekujikelezileyo ukwenza ibali lakho lempumelelo."
+
+  /** @see OLayout **/
+  home_menu: {
+    buttons_header: "Yazi Selldone ngokunzulu",
+    beta: "Inguqulelo yovavanyo",
+    home: "Ikhaya",
+    why_selldone: "Kutheni Selldone?",
+    ecommerce: "Umakhi worhwebo <br>lwe-intanethi",
+    automation: "Ukuzenzekelayo kunye ne-IoT",
+    ai: "Ubukrelekrele bokwenziwa",
+    app_builder: "Umakhi we-aplikheyishini",
+    seo: "Injini ye-SEO <br>ezenzekelayo",
+    marketing: "Ukuthengisa kunye <br>nephulo",
+    report: "Umenzi wengxelo <br>ekrelekrele",
+    domain: "Ukusingathwa okusekelwe efini",
+    accounting: "Intlawulo kunye <br>nobalo-mali",
+    logistics: "Ulawulo lokuhanjiswa kunye <br>nokuthumela",
+    page_builder: "Umakhi wephepha <br>lokufika",
+    incentives: "Iklabhu kunye <br>neenkuthazo",
+    orders: "Iiodolo kunye <br>nokulungiswa",
+    staff: "Abathengi kunye <br>neqela",
+
+    community: "Uluntu olulungiselelweyo",
+    pos: "POS ye-intanethi",
+
+    group_build: {
+      header: "Yakha",
+      subheader: "Sakha inkqubo ekujikelezileyo ukuze wenze ibali lakho lempumelelo.",
     },
-    "group_manage": {
-      "header": "Lawula",
-      "subheader": "Ukulawula ishishini lakho kuya kuba mnandi ngakumbi kunangaphambili."
+    group_manage: {
+      header: "Lawula",
+      subheader: "Ukulawula ishishini lakho kuya kuba mnandi ngakumbi kunangaphambili.",
     },
-    "group_sell": {
-      "header": "Thengisa",
-      "subheader": "Hlala uvala, yenza imali kwaye uyonwabele."
+    group_sell: {
+      header: "Thengisa",
+      subheader: "Soloko ugqibezela intengiso, wenze imali kwaye uyonwabele.",
     },
-    "group_grow": {
-      "header": "Khulisa",
-      "subheader": "Iimpawu zodidi lweshishini kunye nezixhobo esandleni sakho, isibhakabhaka siya kuba ngumda wakho."
-    }
-  }
+    group_grow: {
+      header: "Khulisa",
+      subheader:
+        "Iimpawu nezixhobo zenqanaba leshishini zisesandleni sakho; akukho mda kwizinto onokuziphumeza.",
+    },
+  },
 };

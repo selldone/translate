@@ -1,200 +1,272 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "categories": {
-    "Baby": {
-      "title": "Kūdikių reikmenys",
-      "desc": "Maitinimas, Motinystė, Vežimėlis"
+  categories: {
+    Baby: {
+      title: "Kūdikiai, vaikai ir žaislai",
+      desc: "Vežimėliai, žaislai, žaidimai, dėlionės, veiksmo figūrėlės",
     },
-    "Beauty": {
-      "title": "Grožis",
-      "desc": "Kosmetika, Kvepalai, Plaukų priežiūra"
+    Health: {
+      title: "Sveikata ir grožis",
+      desc: "Vaistinė, gerovė, kosmetika, kvapai",
     },
-    "Blog": {
-      "title": "Dienoraštis",
-      "desc": "Sporto tinklaraštis, Mokslo tinklaraštis, Technologijų tinklaraštis"
+    Media: {
+      title: "Medija ir žaidimai",
+      desc: "Vaizdo žaidimai, filmai, muzika, knygos",
     },
-    "Fashion": {
-      "title": "Mada",
-      "desc": "Drabužiai, Avalynė, Laikrodžiai"
+    Fashion: {
+      title: "Drabužiai, papuošalai ir laikrodžiai",
+      desc: "Drabužiai, batai, vėriniai, žiedai, apyrankės, laikrodžiai",
     },
-    "Crypto": {
-      "title": "Kripto",
-      "desc": "Kriptovaliuta, Blockchain, NFT"
+    Automotive: {
+      title: "Automobiliai",
+      desc: "Automobilių priedai, įrankiai, priežiūra",
     },
-    "Electronics": {
-      "title": "Elektronika",
-      "desc": "Mobilusis, vaizdo žaidimai, nešiojamas kompiuteris, televizorius"
+    Electronics: {
+      title: "Elektronika",
+      desc: "Mobilieji, TV, garso įrenginiai, kameros",
     },
-    "Food": {
-      "title": "Maistas ir gėrimai",
-      "desc": "Restoranai, kepykla, gėrimai"
+    Computers: {
+      title: "Kompiuteriai",
+      desc: "Nešiojamieji, staliniai kompiuteriai, priedai, programinė įranga",
     },
-    "Furniture": {
-      "title": "Baldai",
-      "desc": "Namų baldai, dekoras, bagažas ir kelionės"
+    Household: {
+      title: "Būtiniausios namų prekės",
+      desc: "Valymo priemonės, vonia, skalbimas",
     },
-    "Gift": {
-      "title": "Dovanų kortelė",
-      "desc": "„App Store“, „Google Play“, „Netflix“, „Spotify“."
+    Garden: {
+      title: "Sodas ir įrankiai",
+      desc: "Lauko baldai, sodo įrankiai, augalai",
     },
-    "Groceries": {
-      "title": "Bakalėjos prekės",
-      "desc": "Pienas, vaisiai, paruoštas maistas, mėsa"
+    Food: {
+      title: "Maistas ir bakalėja",
+      desc: "Pieno produktai, vaisiai, paruoštas maistas, mėsa, gėrimai",
     },
-    "Handcrafts": {
-      "title": "Rankdarbiai",
-      "desc": "Kolekcionuojami, dažyti batai, skulptūros, stiklo menas"
+    Handmade: {
+      title: "Rankų darbo",
+      desc: "Kolekciniai daiktai, dažyti batai, skulptūros, stiklo menas",
     },
-    "Health": {
-      "title": "Sveikata",
-      "desc": "Vaistinė, Gyvūnų priežiūra, Sveikatingumas"
+    PetSupplies: {
+      title: "Prekės augintiniams",
+      desc: "Augintinių maistas, žaislai, priežiūra",
     },
-    "Home": {
-      "title": "Namai ir gyvenimas",
-      "desc": "Virtuvės technika, virtuvės reikmenys, valgomasis"
+    Home: {
+      title: "Namai ir buitis",
+      desc: "Virtuvės prietaisai, namų baldai, dekoras",
     },
-    "Jewelry": {
-      "title": "Papuošalai",
-      "desc": "Vėrinys, žiedas, apyrankė"
+    Sports: {
+      title: "Sportas ir laisvalaikis lauke",
+      desc: "Mankšta, stovyklavimas, dviračiai, pramogos",
     },
-    "Sports": {
-      "title": "Sportas",
-      "desc": "Mankšta, stovyklavimas, dviračiai, poilsis"
+    Stationery: {
+      title: "Kanceliarija ir biuras",
+      desc: "Biuro reikmenys, mokyklinės prekės, popieriaus gaminiai",
     },
-    "Education": {
-      "title": "Internetiniai kursai",
-      "desc": "Interneto svetainių kūrimas, dizainas, verslas"
+    Books: {
+      title: "Knygos",
+      desc: "Grožinė literatūra, negrožinė literatūra, mokomoji medžiaga, komiksai",
     },
-    "Toy": {
-      "title": "Žaislas",
-      "desc": "Žaidimų, galvosūkių, veiksmo figūrėlės"
+    Marketplace: {
+      title: "Visko prekyvietė",
+      desc: "Platus produktų pasirinkimas iš daugelio kategorijų",
     },
-    "Other": {
-      "title": "Kita",
-      "desc": "Kitos profesijos..."
-    }
+    Other: {
+      title: "Kita...",
+      desc: "Dovanų kortelės, skaitmeniniai produktai, internetinės paslaugos, bet kas",
+    },
   },
-  "partners": {
-    "title": "{name} bendradarbiauja su Selldone",
-    "subtitle": "atrakinant naujos kartos internetines įmones.",
-    "create_new_shop": "Sukurkite naują parduotuvę",
-    "select_a_shop": "Pasirinkite parduotuvę",
-    "apply_deal_to": "Taikyti pasiūlymą {shop}",
-    "notifications": {
-      "success_apply": "Sandoris sėkmingai suaktyvintas!"
+
+  partners: {
+    title: "{name} bendradarbiauja su Selldone",
+    subtitle: "atrakinant naujos kartos internetines įmones.",
+    subtitle_official: "Atraskite naujos kartos internetines įmones.",
+
+    create_new_shop: "Sukurkite naują parduotuvę",
+    select_a_shop: "Pasirinkite parduotuvę",
+    apply_deal_to: "Taikyti pasiūlymą {shop}",
+    notifications: {
+      success_apply: "Sandoris sėkmingai suaktyvintas!",
     },
-    "subtitle_official": "Atraskite naujos kartos internetines įmones."
   },
-  "name": "Sąranka",
-  "shop": {
-    "title": "Sukurkite mano parduotuvę",
-    "subtitle": "Eikite į kitą lygį atlikdami šiuos paprastus veiksmus."
+
+  name: "Sąranka",
+  overview: {
+    title: "Apžvalga",
+    subtitle:
+      "Sužinokite daugiau apie verslo operacinę sistemą ir atraskite, kaip ji gali padėti jūsų verslui.",
   },
-  "open_website": "Atidarykite mano svetainę",
-  "add_product": "Pridėti produktą",
-  "setup_shipping": "Nustatyti siuntimą",
-  "add_domain": "Pridėti domeną",
-  "add_payment": "Prisijunkite prie mokėjimo šliuzo",
-  "product": {
-    "step1": {
-      "title": "1 variantas. Pridėti rankiniu būdu",
-      "msg": "Galite pridėti fizinių produktų, virtualių prekių, failų ir paslaugų į savo parduotuvę ir pradėti juos parduoti.",
-      "action_on": "Pridėkite savo pirmąjį produktą",
-      "action_off": "Pridėkite daugiau produktų",
-      "category": "Kategorijos yra jūsų internetinės prekybos svetainės šedevras, palyginti su kitomis. Viską suskirstykite į kategorijas ir sutvarkykite pridėdami kategorijas ir tvarkydami vilkdami ir numesdami.",
-      "add_category": "Pridėti kategoriją"
-    },
-    "step2": {
-      "title": "2 variantas. Pridėti naudojant „Excel“.",
-      "msg": "Turite daug produktų, pvz., 1 tūkst., 10 tūkst. prekių? Nesijaudinkite, importuokite viską vienu veiksmu.",
-      "import_excel": "Importuoti naudojant „Excel“.",
-      "download_template": "Parsisiųsti šabloną"
-    },
-    "step3": {
-      "title": "3 variantas. Samdyti ekspertus",
-      "msg": "Turite daugiau nei 100 prekių ir reikia, kad kas nors pridėtų jūsų produktus? atsiųskite užklausą ekspert@selldone.com ir rezervuokite susitikimą. Mes samdome jums ekspertus. Tai paprastas fiksuotas tarifas, tik 5,99 USD už prekę ir 2,99 USD už papildomus variantus."
-    }
+
+  shop: {
+    title: "Nuo nulio iki pajamų",
+    subtitle: "Pereikite į kitą lygį atlikdami šiuos paprastus veiksmus.",
   },
-  "shipping": {
-    "step1": {
-      "title": "1 veiksmas. Nustatykite vietą",
-      "msg": "Pirmame žingsnyje nustatykite savo sandėlį (siuntimo kilmę). Ši informacija naudojama apskaičiuojant atstumą, siuntimo išlaidas ir patikrinimą, ar esate siuntimo paslaugų zonoje.",
-      "edit_warehouse": "Redaguoti sandėlį",
-      "add_warehouse": "Pridėkite savo sandėlį"
+
+  open_website: "Atidaryti mano svetainę",
+
+  customize_theme: "Tinkinti svetainę",
+  setup_business: "Nustatyti verslą",
+  add_product: "Pridėti produktų",
+  setup_shipping: "Nustatyti siuntimą",
+  add_domain: "Pridėti domeną",
+  add_payment: "Prijungti mokėjimus",
+
+  product: {
+    step1: {
+      title: "1 variantas. Pridėti rankiniu būdu",
+      msg: "Galite pridėti fizinių produktų, virtualių prekių, failų ir paslaugų į savo parduotuvę ir pradėti juos parduoti.",
+      action_on: "Pridėkite savo pirmąjį produktą",
+      action_off: "Pridėkite daugiau produktų",
+      category:
+        "Kategorijos yra jūsų internetinės parduotuvės išskirtinumas, palyginti su kitomis. Suskirstykite ir sutvarkykite viską pridėdami kategorijas ir valdydami jas nuvilkimo būdu.",
+      add_category: "Pridėti kategoriją",
     },
-    "step2": {
-      "title": "2 veiksmas. Suaktyvinkite pristatymo būdus",
-      "msg": "Į savo parduotuvę pridėkite bent vieną pristatymo būdą. Galite nustatyti kainas pagal svorį, atstumą ir kitus parametrus. Nepamirškite nustatyti atstumo, svorio ir paketų dydžio apribojimų, kuriuos palaiko kiekviena siuntimo tarnyba.",
-      "add_delivery": "Pridėkite pristatymo būdus"
-    }
+    step2: {
+      title: "2 variantas. Pridėti naudojant „Excel“.",
+      msg: "Turite daug produktų, pvz., 1 tūkst., 10 tūkst. prekių? Nesijaudinkite, importuokite viską vienu veiksmu.",
+      import_excel: "Importuoti naudojant „Excel“.",
+      download_template: "Atsisiųsti šabloną",
+    },
   },
-  "domain": {
-    "step1": {
-      "title": "1 veiksmas. Įsigykite domeną",
-      "msg": "Jei dar neturite asmeninio domeno, laikas įsigyti savo domeną iš tokių svetainių kaip namecheap.com ."
+  shipping: {
+    step1: {
+      title: "1 veiksmas. Nustatykite vietą",
+      msg: "Pirmame žingsnyje nustatykite savo sandėlį (siuntimo kilmę). Ši informacija naudojama apskaičiuojant atstumą, siuntimo išlaidas ir patikrinimą, ar esate siuntimo paslaugų zonoje.",
+      edit_warehouse: "Redaguoti sandėlį",
+      add_warehouse: "Pridėkite savo sandėlį",
     },
-    "step2": {
-      "title": "2 veiksmas. Įjunkite SSL",
-      "msg": "Jei naudojate tokias paslaugas kaip Namecheap, teikiančios CDN ir SSL, tereikia suaktyvinti 1.CDN ir 2.SSL savo domene."
+    step2: {
+      title: "2 veiksmas. Suaktyvinkite pristatymo būdus",
+      msg: "Į savo parduotuvę pridėkite bent vieną pristatymo būdą. Galite nustatyti kainas pagal svorį, atstumą ir kitus parametrus. Nepamirškite nustatyti atstumo, svorio ir paketų dydžio apribojimų, kuriuos palaiko kiekviena siuntimo tarnyba.",
+      add_delivery: "Pridėkite pristatymo būdus",
     },
-    "step3": {
-      "title": "3 veiksmas. Nustatykite DNS įrašus",
-      "msg": "Sveikiname, dabar viskas, ką jums reikia padaryti, tai sukonfigūruoti DNS savo domeno paslaugų teikėje ir pridėti domeną prie paskyros."
-    }
   },
-  "payment": {
-    "step1": {
-      "title": "Kainodaros valiutos",
-      "msg": "Galite priimti pinigus įvairiomis valiutomis, o jūsų parduotuvė gali palaikyti daugiau nei vieną valiutą kainodarai. Beje, jei parduotuvės valiutą nustatysite į USD, klientai, norėdami pirkti iš jūsų, gali mokėti bet kuria valiuta, pvz., USD, EUR, GBP ir kt.",
-      "manage_currencies": "Tvarkyti kainodaros valiutas"
+
+  domain: {
+    buy_domain_step: {
+      title: "1 veiksmas. Įsigykite domeną",
+      msg: "Jei dar neturite savo asmeninio domeno, metas jį įsigyti tokiose svetainėse kaip namecheap.com .",
     },
-    "step2": {
-      "title": "Priimk pinigus",
-      "msg": "Parduotuvėje pridėkite grynųjų pristatymo metu, tiesioginį pinigų pervedimą ir kitus galimus mokėjimo būdus.",
-      "online_title": "Mokėjimo būdai internetu",
-      "online_msg": "Priimkite mokėjimus kortelėmis, naujas banko programas, pirkite dabar, mokėkite vėliau ir daugelį kitų internetinių mokėjimo būdų.",
-      "add_online_gateway": "Pridėkite internetinį mokėjimo metodą",
-      "cod_title": "Atsiskaitymo būdas grynaisiais pristatymo metu",
-      "cod_msg": "Priimti mokėjimą po užsakymų pristatymo. Mokėjimus grynaisiais pristatymo metu galite patvirtinti rankiniu būdu.",
-      "cash_title": "Atsiskaitymo grynaisiais būdais",
-      "cash_msg": "Šis mokėjimo tipas naudojamas Selldone® POS.",
-      "dir_title": "Tiesioginio mokėjimo būdai",
-      "dir_msg": "Galite priimti mokėjimą tiesioginiu pinigų pervedimu, banko pinigų pervedimu ir kitais tradiciniais būdais."
+
+    set_dns_step: {
+      title: "2 veiksmas. Nustatykite DNS įrašus",
+      msg: "Sveikiname, dabar tereikia sukonfigūruoti DNS pas savo domeno paslaugų teikėją ir pridėti domeną prie paskyros.",
     },
-    "step3": {
-      "msg": "Prijunkite „Selldone“ prie „Stripe“ paskyros tik vienu paspaudimu per 30 sekundžių. Šiuo metu mes palaikome Stripe automatinio konfigūravimo procesą. Eikite į savo šliuzo skirtuką, pridėkite Stripe ir spustelėkite mygtuką „ <b>Automatinis prisijungimas prie juostelės</b> “.",
-      "my_gateways": "Mano mokėjimo šliuzai"
-    }
   },
-  "intro_inline_help_message": "Ieškokite šio raudono pagalbos mygtuko. Tai padeda jums praktikuoti save nuo nulio iki eksperto verslo OS.",
-  "overview": {
-    "title": "Apžvalga",
-    "subtitle": "Susipažinkite su verslo OS ir sužinokite, kaip ji gali padėti jūsų verslui."
-  },
-  "customize_theme": "Tinkinti svetainę",
-  "setup_business": "Sukurti verslą",
-  "customize": {
-    "template": {
-      "title": "Šablonai",
-      "msg": "Pradėkite savo parduotuvę naudodami iš anksto sukurtus šablonus! Lengvai paįvairinkite pridėdami kelis puslapius, kurių kiekvienas gali pasigirti savo unikaliu dizainu."
+
+  payment: {
+    step1: {
+      title: "Kainodaros valiutos",
+      msg: "Galite priimti pinigus įvairiomis valiutomis, o jūsų parduotuvė gali palaikyti daugiau nei vieną valiutą kainodarai. Beje, jei parduotuvės valiutą nustatysite į USD, klientai, norėdami pirkti iš jūsų, gali mokėti bet kuria valiuta, pvz., USD, EUR, GBP ir kt.",
+      manage_currencies: "Tvarkyti kainodaros valiutas",
     },
-    "colors": {
-      "title": "Spalvos ir išdėstymas",
-      "msg": "Norite pritaikyti savo produkto puslapį ir parduotuvės išdėstymą, kad jie geriau atitiktų jūsų viziją? Pasinerkite į temos tinkinimo skyrių savo parduotuvėje ir stebėkite, kaip magija atsiskleidžia be jokių pastangų!"
-    }
-  },
-  "business": {
-    "step1": {
-      "title": "Verslo modelis",
-      "msg": "Kiekvienas verslas yra unikalus ir dažnai reikalauja daugiau nei paprastos internetinės parduotuvės. Apibrėžkite savo pajamų modelį, o mes sklandžiai sutvarkysime visa kita už jus."
-    }
-  },
-  "migration": {
-    "title": "Migracija",
-    "shopify": {
-      "msg": "Sklandžiai perjunkite į Selldone iš Shopify! Mėgaukitės lengvu perkėlimu, patobulintomis funkcijomis ir ekonomiškais sprendimais savo internetinėje parduotuvėje."
+    step2: {
+      title: "Priimk pinigus",
+      msg: "Parduotuvėje pridėkite grynųjų pristatymo metu, tiesioginį pinigų pervedimą ir kitus galimus mokėjimo būdus.",
+      online_title: "Mokėjimo būdai internetu",
+      online_msg:
+        "Priimkite mokėjimus kortelėmis, naujas banko programas, pirkite dabar, mokėkite vėliau ir daugelį kitų internetinių mokėjimo būdų.",
+      add_online_gateway: "Pridėkite internetinį mokėjimo metodą",
+      cod_title: "Atsiskaitymo būdas grynaisiais pristatymo metu",
+      cod_msg:
+        "Priimti mokėjimą po užsakymų pristatymo. Mokėjimus grynaisiais pristatymo metu galite patvirtinti rankiniu būdu.",
+      cash_title: "Atsiskaitymo grynaisiais būdais",
+      cash_msg: "Šis mokėjimo tipas naudojamas Selldone POS.",
+      dir_title: "Tiesioginio mokėjimo būdai",
+      dir_msg:
+        "Galite priimti mokėjimą tiesioginiu pinigų pervedimu, banko pinigų pervedimu ir kitais tradiciniais būdais.",
     },
-    "woocommerce": {
-      "msg": "Sklandžiai perkelkite WooCommerce produktus į Selldone vos keliais paspaudimais! Mėgaukitės patobulintu našumu, intuityviu dizainu ir aukščiausio lygio klientų aptarnavimu. Atnaujinkite savo el. prekybos patirtį dabar."
-    }
-  }
+    step3: {
+      msg: "Prijunkite Selldone prie savo Stripe paskyros vienu paspaudimu per 30 sekundžių. Šiuo metu palaikome automatinį konfigūravimo procesą per Stripe. Eikite į savo mokėjimo šliuzo kortelę, pridėkite Stripe ir spustelėkite mygtuką „<b>Automatiškai prijungti prie Stripe</b>“.",
+      my_gateways: "Mano mokėjimo šliuzai",
+    },
+  },
+
+
+  /**
+   * @see SShopOnboardingCustomization
+   */
+  customize: {
+    tour:{
+      title:'Turas',
+      subtitle:"Atraskite, kas čia įmanoma ir ko nėra niekur kitur.",
+      /**
+       * @see BShopOnboardingTour
+       */
+      avocado:{
+        title:"Avocado - parduokite nepridėdami produkto",
+        description: "Naudodami Avocado galite siūlyti paslaugas ar produktus be iš anksto nustatytų kainų ar detalių. Sukurkite pasirinktinę formą, kad klientai galėtų prašyti paslaugų ar produktų. Kai jie pateikia užklausą, galite nustatyti kainą ir apdoroti mokėjimą. Pasidalykite forma socialiniuose tinkluose, kad klientai galėtų lengvai pridėti prekių, įkelti vaizdų ir pateikti užsakymus.",
+        action:'Skaityti apie Avocado',
+      },
+      marketplace:{
+        title: "Kelių pardavėjų prekyvietė ir automatinės išmokos",
+        description: "Sukurkite klestinčią prekyvietę su Selldone pridėdami kelis pardavėjus. Pardavėjai gali skelbti savo produktus, o jūs galite nustatyti komisinio dydį už kiekvieną pardavimą. Kai klientas perka, pardavėjas gauna mokėjimą tiesiogiai, valdo užsakymą per savo atskirą skydelį, o jūs uždirbate komisinį per automatinės išmokos funkciją.",
+        action:'Automatinės išmokos pardavėjams',
+      },
+      business_model:{
+        title: "Palaikomi sudėtingi verslo modeliai",
+        description:
+            "Selldone palaiko tiek paprastus, tiek sudėtingus verslo modelius, todėl galite prisitaikyti pagal poreikį. Viską sukonfigūruokite užkulisiuose neįdiegdami papildomų plėtinių ar programų ir užtikrinkite sklandžius perėjimus bei veiklą.",
+      },
+      gift_shopping:{
+        title: "Produktų vietos apribojimai ir dovanų pirkimas",
+        description:
+            "Nustatykite vietos apribojimus kiekvienam produktui nurodydami kelias šalis, ZIP kodus ir miestus. Ši funkcija puikiai tinka suasmenintai dovanų pirkimo patirčiai kurti arba produktų prieinamumui konkrečiose vietose riboti, pavyzdžiui, restoranams.",
+
+      }
+    },
+
+    template: {
+      title: "Šablonai",
+      msg: "Pradėkite savo parduotuvę naudodami iš anksto sukurtus šablonus! Lengvai paįvairinkite pridėdami kelis puslapius, kurių kiekvienas gali pasigirti savo unikaliu dizainu.",
+      action:'Peržiūrėti visus šablonus...'
+
+    },
+
+    colors: {
+      title: "Spalvos ir išdėstymas",
+
+      msg: "Norite pritaikyti savo produkto puslapį ir parduotuvės išdėstymą, kad jie geriau atitiktų jūsų viziją? Pasinerkite į temos tinkinimo skyrių savo parduotuvėje ir stebėkite, kaip magija atsiskleidžia be jokių pastangų!",
+
+      action:'Tinkinti spalvas ir temą'
+
+    },
+
+  },
+
+  /**
+   * @see ShopOnboardingSetupBusinessTab
+   */
+  business: {
+    step1: {
+      title: "Verslo modelis",
+      msg: "Kiekvienas verslas yra unikalus ir dažnai reikalauja daugiau nei paprastos internetinės parduotuvės. Apibrėžkite savo pajamų modelį, o mes sklandžiai sutvarkysime visa kita už jus.",
+    },
+  },
+
+  migration: {
+    title: "Migracija",
+    shopify: {
+      msg: "Sklandžiai perjunkite į Selldone iš Shopify! Mėgaukitės lengvu perkėlimu, patobulintomis funkcijomis ir ekonomiškais sprendimais savo internetinėje parduotuvėje.",
+    },
+    woocommerce: {
+      msg: "Sklandžiai perkelkite WooCommerce produktus į Selldone vos keliais paspaudimais! Mėgaukitės patobulintu našumu, intuityviu dizainu ir aukščiausio lygio klientų aptarnavimu. Atnaujinkite savo el. prekybos patirtį dabar.",
+    },
+  },
+
+
+
+
+
 };

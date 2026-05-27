@@ -1,17 +1,29 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
   local_service: "Serviço local para {country_name}",
   local_service_message:
-      "Este serviço é projetado exclusivamente para usuários que vivem em <u>{country_name}</u> e vendem seus serviços e produtos neste país." +
-      "Você só pode usar os serviços locais ou o serviço internacional da Selldone." +
-      "Para usar este serviço, você deve cumprir as leis de <b>{country_name}</b> e da <b>União Europeia</b>.",
+    "Este serviço é projetado exclusivamente para usuários que vivem em <u>{country_name}</u> e vendem seus serviços e produtos neste país.Você só pode usar os serviços locais ou o serviço internacional da Selldone.Para usar este serviço, você deve cumprir as leis de <b>{country_name}</b> e da <b>União Europeia</b>.",
 
   my_shops: "Minhas Lojas",
   select_language_dialog_title: "Faça negócios no seu idioma preferido",
 
   welcome_title: "Reduza suas inúmeras decisões diárias a uma só",
   welcome_subtitle:
-      "Construa, gerencie e escale seu negócio como profissionais com o sistema operacional de negócios de nível empresarial e sem código para lidar com milhões de pedidos e automatizar seu fluxo de trabalho.",
-  //"Crie sua loja online com uma solução sem código e sem necessidade de especialistas para milhões de pedidos.",
+    "Construa, gerencie e escale seu negócio como profissionais com o sistema operacional de negócios de nível empresarial e sem código para lidar com milhões de pedidos e automatizar seu fluxo de trabalho.",
+  //"Make your online store by no-code & no-expert needed solution for millions of orders.",
 
   moto: "Você tenta, nós abrimos as portas!",
   start_now_btn: "Comece agora — é grátis",
@@ -21,31 +33,31 @@ export default {
   create_shopping_website: "Criar Meu E-commerce",
 
   your_shop: "Sua Vitrine",
-  your_dashboard: "Seu Back Office",
+  your_dashboard: "Opção: Recurso",
 
   storefront: "Vitrine",
-  back_office: "Back Office",
+  back_office: "Opção: Recurso",
 
   today_sales: "Vendas de Hoje",
   today_orders: "Pedidos de Hoje",
 
   s1: {
-    /* title: "Crie Sua Loja Online com<br>Solução Sem Código e Sem Necessidade de Especialistas",
-               title_animated_words: [
-                 "Empreendedores",
-                 "Artistas",
-                 "Negócios Independentes",
-                 "Marcas",
-                 "Varejos",
-                 "Criadores",
-               ],*/
+    /* title: "Make Your Online Store By<br>No—Code & No—Expert Needed Solution",
+                                 title_animated_words: [
+                                   "Entrepreneurs",
+                                   "Artists",
+                                   "Independent Businesses",
+                                   "Brands",
+                                   "Retails",
+                                   "Creators",
+                                 ],*/
 
     subtitle:
-        "Para <b>proprietários de negócios</b> e <b>comerciantes</b> que procuram uma experiência única, rápida, segura e confiável para seus clientes, esta ferramenta ajuda você a construir uma loja de e-commerce rápida, gerenciamento de loja sem falhas e uma comunidade única auto-gerida ao redor dela no sistema operacional de negócios <b>white-label de nível empresarial</b>.",
+      "Para <b>proprietários de negócios</b> e <b>comerciantes</b> que procuram uma experiência única, rápida, segura e confiável para seus clientes, esta ferramenta ajuda você a construir uma loja de e-commerce rápida, gerenciamento de loja sem falhas e uma comunidade única auto-gerida ao redor dela no sistema operacional de negócios <b>white-label de nível empresarial</b>.",
 
     domain_input: {
       message:
-          "Sua loja pode estar conectada a qualquer número de domínios pessoais que você possui com hospedagem e SSL gratuitos",
+        "Sua loja pode estar conectada a qualquer número de domínios pessoais que você possui com hospedagem e SSL gratuitos",
       action: "Criar uma Loja",
     },
     community: "Plataforma Comunitária",
@@ -56,7 +68,7 @@ export default {
     in_60_sec: "Clique aqui",
 
     why_use_selldone_if_frustrated_from_wordpress_and_shopify:
-        "Se você está frustrado com plugins bugados do WordPress, servidores não escaláveis ou as configurações caras e complexas dos aplicativos do Shopify, então a Selldone é a solução definitiva para você.",
+      "Se você está frustrado com plugins problemáticos do WordPress, servidores que não escalam ou configurações caras e complexas de apps Shopify, a Selldone é a solução definitiva para você.",
   },
 
   video: {
@@ -65,11 +77,11 @@ export default {
     pacman: "Não sou um fundador técnico",
 
     card_pos: {
-      title: "Selldone POS",
+      title: "Opção: Recurso",
       msg: "Venda presencialmente com solução de custo zero.",
     },
     card_ecommerce: {
-      title: "Selldone Ecommerce",
+      title: "Opção: Recurso",
       msg: "Venda online como profissionais.",
     },
   },
@@ -80,19 +92,19 @@ export default {
 
     sec1: {
       title: "Fácil + Profissional",
-      //   msg: "É construído para você jogar como um profissional nos mercados, mesmo que você seja um iniciante mas queira jogar como um profissional, ou seja um especialista e mereça jogar como si mesmo!",
+      //   msg: "It's built for you to game like a professional in the markets, even if you are a beginner but want to play like a professional, or you are an expert and deserve to play like yourself!",
     },
     sec2: {
       title: "Ferramentas de Nível Empresarial",
-      //  msg: "Lançamos novos recursos, atualizamos APIs e aplicamos novos métodos como rotina diária. É um sistema operacional para o seu negócio, então seu negócio escala com nossa plataforma.",
+      //  msg: "We release new features, update APIs and apply new methods as a daily routine.  It's an operating system for your business, so your business scale up by our platform.",
     },
     sec3: {
       title: "Vendas Sociais",
-      //  msg: "Nosso produto é projetado com base no comportamento real de compra dos clientes em todo o mundo. Oferecemos métodos de vendas únicos no Instagram, TikTok e outras redes sociais, chamados AVOCADO.",
+      //  msg: "Our product is designed on the real trading behavior of purchasers all around the world. We offer one-of-a-kind sales methods on Instagram, TikTok, and other social networks, named AVOCADO.",
     },
     sec4: {
       title: "Economize Dinheiro",
-      // msg: "Não há mais necessidade de especialistas para ter um e-commerce! Diga adeus ao desenvolvimento caro, manutenção, processo de programação e até mesmo ao custo de especialistas em plataformas de e-commerce.",
+      // msg: "No need for any experts to have an ecommerce anymore! Say goodbye to the costly development, maintenance, programming process, and even ecommerce platforms experts' cost.",
     },
   },
 
@@ -120,7 +132,7 @@ export default {
     },
     step4: {
       title:
-          "Checkout com um clique: Experiência de checkout unificada ao redor do mundo.",
+        "Checkout com um clique: Experiência de checkout unificada ao redor do mundo.",
       msg1: "Os clientes não precisam inserir as informações e preencher o formulário de registro para comprar com você! Eles fazem login via SMS e preenchem o formulário de checkout com um clique e pagam. Você cresce, nós crescemos.",
     },
   },
@@ -136,11 +148,11 @@ export default {
     send_mail_msg: "Link de login enviado para {email}",
 
     enable_disable_features_msg:
-        "Você pode habilitar ou desabilitar esses recursos mais tarde.",
+      "Você pode habilitar ou desabilitar esses recursos mais tarde.",
     package_starter: {
       title: "Pacote Opcional",
       subtitle:
-          "Entendemos que você pode não ter tempo para configurar ou aprender sobre a Selldone, então após o registro, você terá acesso a um <b>pacote tudo-em-um</b> que pode ser adquirido opcionalmente. Estará disponível por <b>14 dias</b> após a criação da loja apenas.",
+        "Entendemos que você pode não ter tempo para configurar ou aprender sobre a Selldone, então após o registro, você terá acesso a um <b>pacote tudo-em-um</b> que pode ser adquirido opcionalmente. Estará disponível por <b>14 dias</b> após a criação da loja apenas.",
       include_items_title: "Inclui estes serviços",
       include_items: [
         "Configuração de configurações e aparência da loja",
@@ -154,7 +166,7 @@ export default {
     sample: {
       title: "Instalar Dados de Exemplo",
       description:
-          "Inicie minha loja com dados de exemplo, como produtos, categorias e postagens de blog.",
+        "Inicie minha loja com dados de exemplo, como produtos, categorias e postagens de blog.",
     },
 
     options: {
@@ -162,7 +174,7 @@ export default {
       msg: "Quais recursos você deseja no seu site?",
       ecommerce: "E-commerce",
       pos: "Ponto de Venda",
-      blog: "Blog & CMS",
+      blog: "Opção: Recurso",
       community: "Comunidade & Fórum",
 
       ecommerce_desc: "Venda seus produtos e serviços online.",
@@ -174,7 +186,7 @@ export default {
     job: {
       title: "Selecione sua indústria para começar...",
       placeholder:
-          "Mude seu negócio para o sistema operacional Selldone, não importa qual plataforma você está usando atualmente.",
+        "Mude seu negócio para o sistema operacional Selldone, não importa qual plataforma você está usando atualmente.",
     },
     shop_name: {
       title: "Nome do Negócio",
@@ -196,27 +208,27 @@ export default {
   notion: {
     title: "Jogue com diferentes ferramentas.",
     quote:
-        "Acreditamos que uma pessoa pode fazer a diferença na era da humanidade online, mesmo quem não tem dinheiro suficiente, nem experiência técnica, nem conta bancária para pagar as contas; fazemos isso criando uma plataforma pronta para uso com ferramentas de nível empresarial para atuar como o sistema operacional mais acessível na internet.",
+      "Acreditamos que uma pessoa pode fazer a diferença na era da humanidade online, mesmo quem não tem dinheiro suficiente, nem experiência técnica, nem conta bancária para pagar as contas; fazemos isso criando uma plataforma pronta para uso com ferramentas de nível empresarial para atuar como o sistema operacional mais acessível na internet.",
   },
 
   stop: {
-    title: "Multi gateway + Pagamento Direto.",
+    title: "Opção: Recurso",
     subtitle:
-        "Uma carteira virtual ajuda você a controlar seu fluxo de caixa e receber dinheiro diretamente através dos seus serviços de pagamento sem qualquer interferência da sua plataforma de e-commerce.",
-    pacman: "Plugins de Pagamento",
+      "Uma carteira virtual ajuda você a controlar seu fluxo de caixa e receber dinheiro diretamente através dos seus serviços de pagamento sem qualquer interferência da sua plataforma de e-commerce.",
+    pacman: "Opção: Recurso",
   },
 
   flow: {
     title: "Fluxo de Checkout Personalizável.",
     subtitle:
-        "Desenhe a jornada do cliente e o fluxo de compra e experimente os resultados.",
-    pacman: "Plugins de Checkout",
+      "Desenhe a jornada do cliente e o fluxo de compra e experimente os resultados.",
+    pacman: "Opção: Recurso",
   },
   business_model: {
     title: "Múltiplos Modelos de Negócios.",
     subtitle:
-        "Configure seu modelo de negócio visualmente, toda a complexidade será ajustada nos bastidores.",
-    pacman: "Marketplace & Plugins POD",
+      "Configure seu modelo de negócio visualmente, toda a complexidade será ajustada nos bastidores.",
+    pacman: "Opção: Recurso",
   },
 
   os: {
@@ -225,13 +237,13 @@ export default {
   },
   login: {
     title:
-        "Você está curioso sobre construir, gerenciar e escalar seu negócio visualmente?",
+      "Você está curioso sobre construir, gerenciar e escalar seu negócio visualmente?",
   },
 
   currencies: {
     title: "Moedas",
     sub: "Seus clientes podem pagar suavemente em suas moedas locais.",
-    msg: "Concentre-se nas vendas em vez de lutar com as dores técnicas, plugins e complicações de pagamento. Trabalhamos com serviços de pagamento locais e globais para alinhar tudo no seu negócio online.",
+    msg: "Este recurso ajuda você a gerenciar sua loja e seu negócio no Selldone de forma simples e profissional.",
   },
 
   countries: {
@@ -241,7 +253,7 @@ export default {
   },
   dna: {
     title: "DNA do Seu Negócio",
-    sub: "SELLDONE IT!",
+    sub: "Opção: Recurso",
     msg: "É o único Sistema Operacional de Negócios tudo-em-um, sem código, como um Serviço com ferramentas de nível empresarial para você.",
   },
 
@@ -266,7 +278,7 @@ export default {
     variant_1: "Variante do Produto Âmbar",
     variant_2: "Variante do Produto Vermelho",
     buy: "Comprar Agora",
-    price: "$89",
+    price: "Opção: Recurso",
     management: {
       title: "Gestão de Produtos",
       msg: "Gerencie produtos e categorias como arquivos e pastas que você arrasta e solta no Windows.",
@@ -278,13 +290,13 @@ export default {
     payment: {
       title: "Suporte a Múltiplos Métodos de Pagamento",
       msg: "Experiência de pagamento no site / no aplicativo sem falhas.",
-      check1: "Stripe",
+      check1: "Opção: Recurso",
       check1msg: "Suporte a mais de 40 países.",
 
-      check2: "Klarna",
+      check2: "Opção: Recurso",
       check2msg: "Compre agora, pague depois.",
 
-      check3: "Paypal",
+      check3: "Opção: Recurso",
       check3msg: "Pagamento com um clique.",
     },
     checkout: {
@@ -313,8 +325,8 @@ export default {
     msg: "Parabéns, você já fez a maioria das coisas antes. Crie sua loja online com apenas um toque! A Selldone cuida do resto.",
   },
   /* demo: {
-                  title: "Ver Demonstração",
-                  msg: "Veja e-commerces profissionais ao vivo",
+                  title: "View Demo",
+                  msg: "See professional live e-commerces",
                 },*/
 
   unbanked: {
@@ -325,22 +337,22 @@ export default {
     {
       question: "Posso criar uma loja online sem cartão de crédito?",
       answer:
-          "Sim, você pode criar seu e-commerce sem precisar de nenhum cartão bancário como cartões de crédito e débito na Selldone. A Selldone usa uma forma única de fornecer serviços avançados de e-commerce para pessoas, mesmo para mais de 1,7 bilhão de pessoas sem acesso aos serviços financeiros comuns.",
+        "Sim, você pode criar seu e-commerce sem precisar de nenhum cartão bancário como cartões de crédito e débito na Selldone. A Selldone usa uma forma única de fornecer serviços avançados de e-commerce para pessoas, mesmo para mais de 1,7 bilhão de pessoas sem acesso aos serviços financeiros comuns.",
     },
     {
       question: "Como posso vender online para clientes sem conta bancária?",
       answer:
-          "Adicione COD (<b>Pagamento na entrega</b>) ao seu e-commerce, para que seus clientes possam pagar após receber o pedido. O COD é a forma tradicional na maioria dos países com falta de infraestrutura de financiamento.",
+        "Adicione COD (<b>pagamento na entrega</b>) ao seu e-commerce para que os clientes possam pagar depois de receber o pedido.",
     },
     {
       question: "Como posso configurar meu e-commerce sem uma conta bancária?",
       answer:
-          "Não havia solução para pessoas sem banco antes da Selldone. Mas agora, você pode criar seu e-commerce e site sem ter nenhuma conta bancária. Tem um custo mínimo para você; você pode pagar esse custo no final do mês através da sua carteira. A carteira Selldone pode receber taxas de outras pessoas ou cobrar através de cartões-presente. Você não precisa de um cartão de crédito para usar esses serviços.",
+        "Não havia solução para pessoas sem banco antes da Selldone. Mas agora, você pode criar seu e-commerce e site sem ter nenhuma conta bancária. Tem um custo mínimo para você; você pode pagar esse custo no final do mês através da sua carteira. A carteira Selldone pode receber taxas de outras pessoas ou cobrar através de cartões-presente. Você não precisa de um cartão de crédito para usar esses serviços.",
     },
     {
       question: "Como posso iniciar um negócio sem custo de configuração?",
       answer:
-          "<ol> <li> Registre-se gratuitamente em <a href='https://selldone.com'>Selldone.com</a>. </li> <li> Construa sua loja. </li> <li> Adicione seus produtos e serviços. </li> <li> Conecte seu domínio (opcional) </li> <li> Habilite os gateways de pagamento. </li> <li> Comece a apresentar seu negócio para amigos e familiares. </li> <li> Apresente-se e seus produtos nas redes sociais. </li> <li> Construa uma marca para seu negócio fornecendo uma proposta de valor única. </li> <li> Monitore o comportamento de seus usuários através do painel Selldone. </li> </ol>",
+        "<ol> <li> Este recurso ajuda você a gerenciar sua loja e seu negócio no Selldone de forma simples e profissional. <a href='https://selldone.com'>Selldone.com</a>. </li> <li> Este recurso ajuda você a gerenciar sua loja e seu negócio no Selldone de forma simples e profissional. </li> <li> Este recurso ajuda você a gerenciar sua loja e seu negócio no Selldone de forma simples e profissional. </li> <li> Este recurso ajuda você a gerenciar sua loja e seu negócio no Selldone de forma simples e profissional. </li> <li> Configurar pagamento </li> <li> Este recurso ajuda você a gerenciar sua loja e seu negócio no Selldone de forma simples e profissional. </li> <li> Este recurso ajuda você a gerenciar sua loja e seu negócio no Selldone de forma simples e profissional. </li> <li> Este recurso ajuda você a gerenciar sua loja e seu negócio no Selldone de forma simples e profissional. </li> <li> Este recurso ajuda você a gerenciar sua loja e seu negócio no Selldone de forma simples e profissional. </li> </ol>",
     },
   ],
 
@@ -352,7 +364,7 @@ export default {
   why_boxes: {
     title: "Otimizado para vendas online & presenciais em escala",
     subtitle:
-        "Criado para conversão. Eleve sua loja online com ferramentas intuitivas projetadas para transformar visitantes em clientes.",
+      "Criado para conversão. Eleve sua loja online com ferramentas intuitivas projetadas para transformar visitantes em clientes.",
 
     block1: {
       title: "Economize custo inicial",
@@ -399,8 +411,8 @@ export default {
 
   panorama: {
     title:
-        '#1 Sistema Operacional de Negócios — <b class="bg-gradient-animate text-gradient my-1">Todos os recursos estão pré-construídos.</b>',
-    msg: "Não há necessidade de gastar milhares de dólares em plugins e aplicativos todo mês e se preocupar com as atualizações. Como um anjo, a Selldone cuida de todos os lados técnicos do seu negócio.",
+      "#1 Sistema Operacional de Negócios — <b class=\"bg-gradient-animate text-gradient my-1\">Todos os recursos estão pré-construídos.</b>",
+    msg: "Este recurso ajuda você a gerenciar sua loja e seu negócio no Selldone de forma simples e profissional.",
     orders_management: "Gestão de Pedidos",
     online_pos: "POS Online",
     shipping: "Envio",
@@ -411,7 +423,7 @@ export default {
     incentives: "Incentivos / Fidelidade",
     community: "Gestão de Comunidade",
     payments: "Pagamentos Locais",
-    ar_3d: "3D / AR",
+    ar_3d: "Opção: Recurso",
   },
 
   no_plugin: "Sem plugin",
@@ -429,36 +441,36 @@ export default {
     we_support_message: "Nós suportamos {country}",
     we_limited_support: "Temos suporte limitado para {country}",
     support_message_long:
-        "Experimente transações online sem falhas no seu país com a Selldone! Juntamente com cálculos profissionais de TAXA, oferecemos diversos métodos de pagamento, incluindo dinheiro, POS, transferências bancárias e mais. Comece a construir seu negócio em uma plataforma que suporta totalmente as necessidades do seu país.",
+      "Experimente transações online sem falhas no seu país com a Selldone! Juntamente com cálculos profissionais de TAXA, oferecemos diversos métodos de pagamento, incluindo dinheiro, POS, transferências bancárias e mais. Comece a construir seu negócio em uma plataforma que suporta totalmente as necessidades do seu país.",
     limited_support_message_long:
-        "            Pagamentos online podem não estar disponíveis no seu país, mas não se preocupe! Na Selldone, oferecemos pagamentos em dinheiro, transferências bancárias e Pagamento na Entrega (COD) em todo o mundo. Você pode construir seu negócio online conosco com confiança, enquanto adere às regulamentações do seu país e da Europa. Para mais detalhes ou para consultar sobre suporte a pagamentos online no seu país, sinta-se à vontade para entrar em contato com nossa equipe de suporte.\n",
+      "            Pagamentos online podem não estar disponíveis no seu país, mas não se preocupe! Na Selldone, oferecemos pagamentos em dinheiro, transferências bancárias e Pagamento na Entrega (COD) em todo o mundo. Você pode construir seu negócio online conosco com confiança, enquanto adere às regulamentações do seu país e da Europa. Para mais detalhes ou para consultar sobre suporte a pagamentos online no seu país, sinta-se à vontade para entrar em contato com nossa equipe de suporte.\n",
     more_about_selldone_in_country: "Sobre a Selldone no seu país",
 
     tax: {
       title: "Amigável para Impostos",
       message:
-          "Configure facilmente perfis de impostos para diferentes categorias de produtos, adaptando-se automaticamente aos países e estados dos compradores. Mantenha-se em conformidade e aumente seu alcance global.",
+        "Configure facilmente perfis de impostos para diferentes categorias de produtos, adaptando-se automaticamente aos países e estados dos compradores. Mantenha-se em conformidade e aumente seu alcance global.",
     },
     global: {
       title: "Vendas Globais",
       message:
-          "Alcance clientes em todo o mundo com o suporte internacional sem falhas da Selldone. Escale seu negócio globalmente com facilidade e eficiência.",
+        "Alcance clientes em todo o mundo com o suporte internacional sem falhas da Selldone. Escale seu negócio globalmente com facilidade e eficiência.",
     },
     shipping: {
       title: "Envio Local & Global",
       message:
-          "Integrações com transportadoras locais e globais como Shippo e Shipday, além de opções de gerenciamento de courier próprio, para garantir operações de entrega suaves em todos os lugares.",
+        "Integrações com transportadoras locais e globais como Shippo e Shipday, além de opções de gerenciamento de courier próprio, para garantir operações de entrega suaves em todos os lugares.",
     },
     erp: {
       title: "Integração ERP",
       message:
-          "Conecte-se perfeitamente com os principais ERPs através do nosso gateway aberto e acesso à API, com integrações simples de um clique para operações de negócios simplificadas.",
+        "Este recurso ajuda você a gerenciar sua loja e seu negócio no Selldone de forma simples e profissional.",
     },
   },
 
   hero: {
     intro: "#1 Sistema Operacional para Negócios",
-    title: "Substitua {infinite} Plugins & Apps por um {app}",
+    title: "Substitua {infinite} plugins e apps por um único {app}",
   },
 
   /**
@@ -480,7 +492,7 @@ export default {
    * {@see SectionShowItsSimplicity}
    */
   show_its_simplicity: {
-    title: `Outra plataforma de e-commerce complexa e entediante <div class="app-box" style="font-size: 55%">😣</div>!?`,
+    title: "Outra plataforma de e-commerce complexa e entediante <div class=\"app-box\" style=\"font-size: 55%\">😣</div>!?",
     subtitle: "Absolutamente não! Apenas experimente antes mesmo de se registrar...",
     as_guest: "Como Visitante",
     need_register: "Precisa Registrar",
@@ -488,20 +500,20 @@ export default {
     page_builder: {
       title: "Construtor de Páginas Integrado",
       subtitle:
-          "O primeiro construtor de páginas intuitivo com arrastar e soltar e edição inline.",
+        "O primeiro construtor de páginas intuitivo com arrastar e soltar e edição inline.",
       try_action: "Experimentar Construtor de Páginas",
       see_collection_action: "Ver Templates",
     },
     ai: {
       title: "Recursos de IA Integrados",
       subtitle:
-          "A melhor remoção de fundo industrial, otimização de imagens, geração de conteúdo, criação automática de produtos e mais.",
+        "A melhor remoção de fundo industrial, otimização de imagens, geração de conteúdo, criação automática de produtos e mais.",
       try_action: "Experimentar Inteligência Selldone",
     },
     storefront: {
       title: "Vitrine ao Vivo",
       subtitle:
-          "Experimente as compras mais rápidas com um site moderno PWA sem a necessidade de escrever uma única linha de código.",
+        "Experimente as compras mais rápidas com um site moderno PWA sem a necessidade de escrever uma única linha de código.",
       see_action: "Ver Vitrine de Demonstração",
     },
     backoffice: {
@@ -515,9 +527,9 @@ export default {
    * {@see SectionPricingCompact}
    */
   pricing_compact: {
-    title: `<div class="app-box" style="font-size: 55%">💞️</div> Preços simples e transparentes`,
+    title: "<div class=\"app-box\" style=\"font-size: 55%\">💞️</div> Preços simples e transparentes",
     subtitle:
-        "Acesse todos os recursos de nível empresarial para iniciar e escalar seu negócio com nosso modelo de compartilhamento de receita — não pague nada antecipadamente, apenas uma parte da sua receita. Nós só temos sucesso quando você tem, minimizando seus custos e maximizando seus lucros.",
+      "Acesse todos os recursos de nível empresarial para iniciar e escalar seu negócio com nosso modelo de compartilhamento de receita — não pague nada antecipadamente, apenas uma parte da sua receita. Nós só temos sucesso quando você tem, minimizando seus custos e maximizando seus lucros.",
   },
 
   screenshots: {
@@ -527,7 +539,7 @@ export default {
     },
     item_2: {
       title: "Conecte sua loja a PODs.",
-      desc: "Conecte facilmente sua loja a um serviço de dropshipping de impressão sob demanda como Printful e venda sua arte em materiais impressos sem a necessidade de plugins adicionais.",
+      desc: "Este recurso ajuda você a gerenciar sua loja e seu negócio no Selldone de forma simples e profissional.",
     },
     item_3: {
       title: "Cumprir pedidos com ferramentas empresariais intuitivas.",
@@ -555,7 +567,7 @@ export default {
     },
     item_9: {
       title: "Conecte o Sistema Operacional — Conecte-se facilmente a serviços externos.",
-      desc: "É possível conectar-se a serviços externos, como marketplaces, fornecedores de dropshipping, PODs e softwares financeiros, sem a necessidade de plugins adicionais.",
+      desc: "Este recurso ajuda você a gerenciar sua loja e seu negócio no Selldone de forma simples e profissional.",
     },
     item_10: {
       title: "Simplifique a importação de produtos de serviços externos.",
@@ -579,7 +591,7 @@ export default {
     },
     item_15: {
       title:
-          "Incentive compras de clientes com descontos, ofertas, cupons e gamificação.",
+        "Incentive compras de clientes com descontos, ofertas, cupons e gamificação.",
       desc: "Incentive seus clientes a fazer mais compras em sua loja usando vários métodos, como oferecer códigos de desconto, ofertas promocionais, descontos inteligentes, cupons, cartões-presente e incorporar elementos de gamificação na experiência de compra.",
     },
     item_16: {
@@ -663,8 +675,8 @@ export default {
       desc: "Um editor de artigos avançado inline simplifica o processo de publicação e revisão de seus artigos, tornando-o rápido e fácil enquanto mantém a consistência.",
     },
     item_36: {
-      title: "Dashboard dedicado para cada produto.",
-      desc: "Cada produto possui um dashboard dedicado que fornece estatísticas, todas as informações necessárias e acesso a todas as ações requeridas para a gestão.",
+      title: "Painel de controle dedicado para cada produto.",
+      desc: "Este recurso ajuda você a gerenciar sua loja e seu negócio no Selldone de forma simples e profissional.",
     },
     item_37: {
       title: "Traduza artigos automaticamente.",
@@ -682,7 +694,7 @@ export default {
 
   country_landing: {
     intro: "#1 Sistema Operacional para Negócios em",
-    title: "Substitua {infinite} Plugins & Apps por {app} em {country}",
+    title: "Substitua {infinite} plugins e apps por {app} em {country}",
   },
 
   /**
@@ -690,31 +702,31 @@ export default {
    */
   payment_landing: {
     intro: "#1 Sistema Operacional para Negócios",
-    title: "Substitua {infinite} Plugins & Apps por {app}",
+    title: "Substitua {infinite} plugins e apps por {app}",
 
     unlock_section: {
       title: "Desbloqueie {payment} & Comece a Ganhar Dinheiro no Seu Site",
       subtitle:
-          "Lance sua loja online hoje! Venda produtos, serviços e assinaturas com facilidade e simplicidade.",
+        "Lance sua loja online hoje! Venda produtos, serviços e assinaturas com facilidade e simplicidade.",
       no_plugin: {
-        title: "Pagamentos Sem Esforço, Sem Plugins Necessários",
+        title: "Pagamentos simples, sem plugins",
         subtitle:
-            "Entre no futuro do e-commerce com as soluções de pagamento sem plugin da Selldone para {payment}. Diga adeus a integrações complexas e aproveite uma experiência de pagamento direta, segura e sem complicações.",
+          "Entre no futuro do e-commerce com as soluções de pagamento sem plugin da Selldone para {payment}. Diga adeus a integrações complexas e aproveite uma experiência de pagamento direta, segura e sem complicações.",
       },
       experience: {
         title: "Compras Perfeitas, Potencializadas pela Selldone + {payment}",
         subtitle:
-            "Transforme sua experiência de e-commerce com a plataforma amigável da Selldone e a integração de pagamento {payment}. Deixe para trás interfaces desajeitadas e dê as boas-vindas a uma jornada de compras simplificada que mantém seus clientes retornando.",
+          "Transforme sua experiência de e-commerce com a plataforma amigável da Selldone e a integração de pagamento {payment}. Deixe para trás interfaces desajeitadas e dê as boas-vindas a uma jornada de compras simplificada que mantém seus clientes retornando.",
       },
       boost: {
         title: "Impulsione Suas Vendas com Pagamentos Integrados da Selldone",
         subtitle:
-            "Por que deixar sistemas de pagamento complicados te atrapalharem? Com a solução de pagamento integrada do {payment}, você pode focar no que realmente importa: vender mais. Veja suas vendas decolarem enquanto você cresce seu negócio com facilidade.",
+          "Por que deixar sistemas de pagamento complicados te atrapalharem? Com a solução de pagamento integrada do {payment}, você pode focar no que realmente importa: vender mais. Veja suas vendas decolarem enquanto você cresce seu negócio com facilidade.",
       },
       security: {
         title: "Onde Segurança e Eficiência se Unem",
         subtitle:
-            "Escolher Selldone + {payment} significa optar por segurança de primeira linha e eficiência incomparável. Nosso sistema de pagamento dedicado garante que cada transação seja segura, rápida e perfeitamente suave.",
+          "Escolher Selldone + {payment} significa optar por segurança de primeira linha e eficiência incomparável. Nosso sistema de pagamento dedicado garante que cada transação seja segura, rápida e perfeitamente suave.",
       },
       setup_payment: "Configurar Pagamento",
     },
@@ -724,63 +736,63 @@ export default {
         step: "Passo 1",
         title: "Adicione Sua Moeda",
         subtitle:
-            "Para aceitar pagamentos em diferentes moedas, você precisará configurar um gateway de pagamento para cada uma. Com o {payment}, uma única conta pode gerenciar múltiplos gateways e moedas na sua loja, sem limites! Certifique-se de que a moeda desejada está listada em Loja > Contabilidade > Moedas nas configurações da sua loja.",
+          "Este recurso ajuda você a gerenciar sua loja e seu negócio no Selldone de forma simples e profissional. {payment}",
       },
       step_2: {
         step: "Passo 2",
-        title: "Configure Seu Gateway",
-        subtitle: `Em seguida, navegue até a aba Loja > Contabilidade > Gateways, clique em <b>NOVO MÉTODO DE PAGAMENTO</b>, escolha sua moeda e selecione <b>{payment}</b>. Você pode adicionar gateways em modo de depuração ou ao vivo. Certifique-se de inserir as Chaves API corretas para cada modo, que você pode encontrar na sua <a href="{payment_url}" target="_blank">conta {payment}</a>.`,
+        title: "Configure seu gateway",
+        subtitle: "Em seguida, vá para Loja > Contabilidade > Portais de pagamento, clique em <b>novo método de pagamento</b>, escolha sua moeda e selecione <b>{payment}</b>. Você pode adicionar portais de pagamento em modo de teste ou modo ativo. Insira as chaves de API corretas para cada modo; elas estão disponíveis na sua <a href=\"{payment_url}\" target=\"_blank\">conta {payment}</a>.",
       },
     },
 
     integration: {
       title: "Integração de E-commerce Sem Esforço com {payment}",
       subtitle:
-          "Comece com a Selldone e gerencie seu negócio com facilidade. Sem necessidade de codificação ou plugins!",
+        "Este recurso ajuda você a gerenciar sua loja e seu negócio no Selldone de forma simples e profissional.",
     },
     pay_after_earn: {
       title: "Pague Apenas Quando Você Lucra!",
       subtitle:
-          "Lance seu negócio com nosso plano gratuito vitalício! Pague apenas uma taxa de 0,5~2,0% quando começar a ganhar dinheiro.",
+        "Lance seu negócio com nosso plano gratuito vitalício! Pague apenas uma taxa de 0,5~2,0% quando começar a ganhar dinheiro.",
     },
   },
 
   feature_page_builder: {
     title: "Construtor de Páginas Focado em Vendas",
     message:
-        "Desenhe páginas personalizadas sem esforço com nossa solução sem código. Arraste e solte elementos para criar páginas sob medida para suas necessidades.",
+      "Desenhe páginas personalizadas sem esforço com nossa solução sem código. Arraste e solte elementos para criar páginas sob medida para suas necessidades.",
   },
 
   feature_items: {
     products: {
       title: "Gestão Intuitiva de Produtos",
       description:
-          "Gerencie produtos facilmente — arraste & solte imagens, edite detalhes, agilize seu fluxo de trabalho.",
+        "Gerencie produtos facilmente — arraste & solte imagens, edite detalhes, agilize seu fluxo de trabalho.",
     },
     excel: {
       title: "Importação de Dados via Excel",
       description:
-          "Importe produtos, categorias e contatos sem esforço através de arquivos Excel.",
+        "Importe produtos, categorias e contatos sem esforço através de arquivos Excel.",
     },
     incentive: {
       title: "Incentivos de Vendas",
       description:
-          "Aumente as vendas com descontos, cupons, cartões-presente e ofertas gamificadas.",
+        "Aumente as vendas com descontos, cupons, cartões-presente e ofertas gamificadas.",
     },
     loyalty: {
       title: "Fidelidade do Cliente",
       description:
-          "Estabeleça clubes, assinaturas e membros para reter clientes.",
+        "Estabeleça clubes, assinaturas e membros para reter clientes.",
     },
     cashback: {
       title: "Ofertas de Cashback",
       description:
-          "Implemente diversos programas de cashback para recompensar compradores fiéis.",
+        "Implemente diversos programas de cashback para recompensar compradores fiéis.",
     },
     cross_selling: {
       title: "Ferramentas de Cross-Selling",
       description:
-          "Aprimore as vendas com cross-selling; defina coleções de produtos e descontos.",
+        "Aprimore as vendas com cross-selling; defina coleções de produtos e descontos.",
     },
     accounting: {
       title: "Contabilidade Simples",
@@ -789,32 +801,32 @@ export default {
     inventory: {
       title: "Controle de Inventário",
       description:
-          "Monitore níveis de estoque, atualizações em massa via CSV e gerenciamento eficiente.",
+        "Monitore níveis de estoque, atualizações em massa via CSV e gerenciamento eficiente.",
     },
     analytics: {
       title: "Análises Avançadas",
       description:
-          "Obtenha insights sobre vendas, clientes e campanhas com dados detalhados.",
+        "Obtenha insights sobre vendas, clientes e campanhas com dados detalhados.",
     },
     social: {
       title: "Vendas Multi-Canal",
       description:
-          "Venda através de canais; conecte-se a marketplaces, redes sociais, rastreie origens.",
+        "Venda através de canais; conecte-se a marketplaces, redes sociais, rastreie origens.",
     },
     community: {
       title: "Construtor de Comunidade",
       description:
-          "Engaje clientes com fóruns, blogs e recursos comunitários.",
+        "Engaje clientes com fóruns, blogs e recursos comunitários.",
     },
     security: {
       title: "Gestão de Equipe",
       description:
-          "Crie papéis, defina permissões e gerencie o acesso da equipe de forma eficiente.",
+        "Crie papéis, defina permissões e gerencie o acesso da equipe de forma eficiente.",
     },
     pos: {
       title: "POS em Loja",
       description:
-          "Simplifique as vendas em loja; gerencie sistemas POS e transações.",
+        "Simplifique as vendas em loja; gerencie sistemas POS e transações.",
     },
     store: {
       title: "Marketplace de Vendedores",
@@ -823,12 +835,12 @@ export default {
     pricing: {
       title: "Preço Dinâmico",
       description:
-          "Defina preços inteligentes baseados em quantidade ou preferências do cliente.",
+        "Defina preços inteligentes baseados em quantidade ou preferências do cliente.",
     },
     pod: {
       title: "Integração com Dropshipping",
       description:
-          "Conecte-se com serviços de POD e gerencie dropshipping sem complicações.",
+        "Conecte-se com serviços de POD e gerencie dropshipping sem complicações.",
     },
-  }
+  },
 };

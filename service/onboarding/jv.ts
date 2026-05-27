@@ -1,200 +1,272 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "categories": {
-    "Baby": {
-      "title": "Baby Supplies",
-      "desc": "Feeding, Maternity, Stroller"
+  categories: {
+    Baby: {
+      title: "Bayi, bocah lan dolanan",
+      desc: "Stroller, dolanan, game, puzzle, figur aksi",
     },
-    "Beauty": {
-      "title": "Kaendahan",
-      "desc": "Kosmetik, Wewangian, Perawatan Rambut"
+    Health: {
+      title: "Kesehatan lan kaendahan",
+      desc: "Apotek, kabugaran, kosmetik, wewangian",
     },
-    "Blog": {
-      "title": "Blog",
-      "desc": "Blog olahraga, blog Ilmu, blog Teknologi"
+    Media: {
+      title: "Media lan game",
+      desc: "Game video, film, musik, buku",
     },
-    "Fashion": {
-      "title": "busana",
-      "desc": "Busana, Sepatu, Jam tangan"
+    Fashion: {
+      title: "Sandhangan, perhiasan lan jam tangan",
+      desc: "Sandhangan, sepatu, kalung, cincin, gelang, jam tangan",
     },
-    "Crypto": {
-      "title": "Crypto",
-      "desc": "Crypto-Currency, Blockchain, NFT"
+    Automotive: {
+      title: "Otomotif",
+      desc: "Aksesoris mobil, piranti, perawatan",
     },
-    "Electronics": {
-      "title": "Elektronika",
-      "desc": "Ponsel, Video Game, Laptop, TV"
+    Electronics: {
+      title: "Elektronik",
+      desc: "Ponsel, TV, piranti audio, kamera",
     },
-    "Food": {
-      "title": "Panganan & Ombenan",
-      "desc": "Restoran, Roti, Ombenan"
+    Computers: {
+      title: "Komputer",
+      desc: "Laptop, desktop, aksesoris, piranti lunak",
     },
-    "Furniture": {
-      "title": "Furnitur",
-      "desc": "Furnitur Omah, Dekorasi, Bagasi & Lelungan"
+    Household: {
+      title: "Kabutuhan omah",
+      desc: "Piranti resik-resik, jedhing, umbah-umbah",
     },
-    "Gift": {
-      "title": "kertu hadiah",
-      "desc": "App Store, Google Play, Netflix, Spotify"
+    Garden: {
+      title: "Kebon lan piranti",
+      desc: "Prabot njaba ruangan, piranti kebon, tanduran",
     },
-    "Groceries": {
-      "title": "Sembako",
-      "desc": "Susu, Woh-wohan, Panganan sing Disiapake, Daging"
+    Food: {
+      title: "Pangan lan sembako",
+      desc: "Susu, woh, panganan siap saji, daging, ombenan",
     },
-    "Handcrafts": {
-      "title": "Kerajinan tangan",
-      "desc": "Koleksi, Sepatu Dicat, Patung, Seni Kaca"
+    Handmade: {
+      title: "Gawean tangan",
+      desc: "Barang koleksi, sepatu dicet, patung, seni kaca",
     },
-    "Health": {
-      "title": "kesehatan",
-      "desc": "Farmasi, Pet Care, Wellness"
+    PetSupplies: {
+      title: "Kabutuhan kewan piaraan",
+      desc: "Pangan kewan piaraan, dolanan kewan, perawatan kewan",
     },
-    "Home": {
-      "title": "Omah & Urip",
-      "desc": "Perkakas Pawon, Cookware, Dining"
+    Home: {
+      title: "Omah lan urip",
+      desc: "Piranti pawon, prabot omah, dekorasi",
     },
-    "Jewelry": {
-      "title": "perhiasan",
-      "desc": "Kalung, Ring, Gelang"
+    Sports: {
+      title: "Olahraga lan njobo",
+      desc: "Latihan, kemah, sepeda, rekreasi",
     },
-    "Sports": {
-      "title": "Olahraga",
-      "desc": "Olahraga, Camping, pit, Rekreasi"
+    Stationery: {
+      title: "Alat tulis lan kantor",
+      desc: "Kabutuhan kantor, kabutuhan sekolah, produk kertas",
     },
-    "Education": {
-      "title": "Kursus Online",
-      "desc": "Pangembangan Web, Desain, Bisnis"
+    Books: {
+      title: "Buku",
+      desc: "Fiksi, nonfiksi, pendhidhikan, komik",
     },
-    "Toy": {
-      "title": "Dolanan",
-      "desc": "Game, Puzzle, Action Figure"
+    Marketplace: {
+      title: "Pasar kanggo kabeh",
+      desc: "Macem-macem produk saka pirang-pirang kategori",
     },
-    "Other": {
-      "title": "Liyane",
-      "desc": "Pegaweyan liyane..."
-    }
+    Other: {
+      title: "Liyane...",
+      desc: "Kertu hadiah, produk digital, layanan online, apa wae",
+    },
   },
-  "partners": {
-    "title": "{name} kerja sama karo Selldone",
-    "subtitle": "ing mbukak kunci bisnis online generasi sabanjure.",
-    "create_new_shop": "Nggawe toko anyar",
-    "select_a_shop": "Pilih toko",
-    "apply_deal_to": "Aplikasiake kesepakatan menyang {shop}",
-    "notifications": {
-      "success_apply": "Deal kasil diaktifake!"
+
+  partners: {
+    title: "{name} kerja sama karo Selldone",
+    subtitle: "ing mbukak kunci bisnis online generasi sabanjure.",
+    subtitle_official: "Mbukak kunci bisnis online generasi sabanjure.",
+
+    create_new_shop: "Nggawe toko anyar",
+    select_a_shop: "Pilih toko",
+    apply_deal_to: "Aplikasiake kesepakatan menyang {shop}",
+    notifications: {
+      success_apply: "Deal kasil diaktifake!",
     },
-    "subtitle_official": "Mbukak kunci bisnis online generasi sabanjure."
   },
-  "name": "Setup",
-  "shop": {
-    "title": "Setup tokoku",
-    "subtitle": "Pindhah menyang tingkat sabanjure kanthi ngrampungake langkah-langkah prasaja iki."
+
+  name: "Pangaturan",
+  overview: {
+    title: "Ringkesan",
+    subtitle:
+      "Entuk gambaran babagan sistem operasi bisnis lan temokake kepiye sistem iki bisa mbantu bisnismu.",
   },
-  "open_website": "Bukak situs webku",
-  "add_product": "Tambah produk",
-  "setup_shipping": "Setup pengiriman",
-  "add_domain": "Tambah Domain",
-  "add_payment": "Nyambung menyang gateway pembayaran",
-  "product": {
-    "step1": {
-      "title": "Pilihan 1. Tambah kanthi manual",
-      "msg": "Sampeyan bisa nambah produk fisik, item virtual, file, lan layanan menyang toko lan miwiti adol.",
-      "action_on": "Tambah produk pisanan sampeyan",
-      "action_off": "Tambah produk liyane",
-      "category": "Kategori minangka mahakarya situs web blanja online sampeyan dibandhingake karo liyane. Gawe kabeh kategori lan atur kanthi nambahake kategori lan atur kanthi seret & selehake.",
-      "add_category": "Tambah Kategori"
-    },
-    "step2": {
-      "title": "Pilihan 2. Tambah dening Excel",
-      "msg": "Duwe akeh produk, kaya 1K, 10K item? Aja kuwatir ngimpor kabeh mung kanthi siji tumindak.",
-      "import_excel": "Impor dening Excel",
-      "download_template": "Download template"
-    },
-    "step3": {
-      "title": "Pilihan 3. Nyewa ahli",
-      "msg": "Nduwe luwih saka 100 item lan butuh wong sing nambah produk sampeyan? ngirim panjalukan kanggo expert@selldone.com, lan Book janjian. Kita nyewa ahli kanggo sampeyan. Wis flat rate prasaja, mung 5,99 $ saben item lan 2,99 $ saben varian tambahan."
-    }
+
+  shop: {
+    title: "Saka nol nganti ana penghasilan",
+    subtitle: "Munggah menyang tingkat sabanjure kanthi ngetutake langkah-langkah prasaja iki.",
   },
-  "shipping": {
-    "step1": {
-      "title": "Langkah 1. Setel lokasi",
-      "msg": "Ing langkah pisanan, atur gudang sampeyan (asal kiriman). Informasi iki digunakake kanggo ngetung jarak, biaya pengiriman, lan priksa manawa ana ing wilayah layanan pengiriman.",
-      "edit_warehouse": "Sunting gudang",
-      "add_warehouse": "Tambah gudang sampeyan"
+
+  open_website: "Bukak situs webku",
+
+  customize_theme: "Kustomisasi situs web",
+  setup_business: "Atur bisnis",
+  add_product: "Tambah produk",
+  setup_shipping: "Atur pangiriman",
+  add_domain: "Tambah domain",
+  add_payment: "Sambungake pembayaran",
+
+  product: {
+    step1: {
+      title: "Pilihan 1. Tambah kanthi manual",
+      msg: "Sampeyan bisa nambah produk fisik, item virtual, file, lan layanan menyang toko lan miwiti adol.",
+      action_on: "Tambah produk pisanan sampeyan",
+      action_off: "Tambah produk liyane",
+      category:
+        "Kategori iku nilai utama situs belanja online-mu yen dibandhingake karo liyane. Gawe kabeh dadi terklasifikasi lan tertata kanthi nambah kategori lan ngatur nganggo cara seret lan selehake.",
+      add_category: "Tambah Kategori",
     },
-    "step2": {
-      "title": "Langkah 2. Aktifake cara pengiriman",
-      "msg": "Tambah paling ora siji cara pengiriman menyang toko sampeyan. Sampeyan bisa nyetel rega adhedhasar bobot, jarak, lan paramèter liyane. Aja lali nyetel watesan kanggo jarak, bobot, lan ukuran paket sing didhukung saben layanan pengiriman.",
-      "add_delivery": "Tambah cara pengiriman"
-    }
+    step2: {
+      title: "Pilihan 2. Tambah dening Excel",
+      msg: "Duwe akeh produk, kaya 1K, 10K item? Aja kuwatir ngimpor kabeh mung kanthi siji tumindak.",
+      import_excel: "Impor dening Excel",
+      download_template: "Undhuh cithakan",
+    },
   },
-  "domain": {
-    "step1": {
-      "title": "Langkah 1. Tuku domain",
-      "msg": "Yen sampeyan durung duwe domain pribadhi, wektune tuku domain dhewe saka situs web kaya namecheap.com ."
+  shipping: {
+    step1: {
+      title: "Langkah 1. Setel lokasi",
+      msg: "Ing langkah pisanan, atur gudang sampeyan (asal kiriman). Informasi iki digunakake kanggo ngetung jarak, biaya pengiriman, lan priksa manawa ana ing wilayah layanan pengiriman.",
+      edit_warehouse: "Sunting gudang",
+      add_warehouse: "Tambah gudang sampeyan",
     },
-    "step2": {
-      "title": "Langkah 2. Aktifake SSL",
-      "msg": "Yen sampeyan nggunakake layanan kaya Namecheap sing nyedhiyakake CDN lan SSL, sampeyan mung kudu ngaktifake 1.CDN lan 2.SSL ing domain sampeyan."
+    step2: {
+      title: "Langkah 2. Aktifake cara pengiriman",
+      msg: "Tambah paling ora siji cara pengiriman menyang toko sampeyan. Sampeyan bisa nyetel rega adhedhasar bobot, jarak, lan paramèter liyane. Aja lali nyetel watesan kanggo jarak, bobot, lan ukuran paket sing didhukung saben layanan pengiriman.",
+      add_delivery: "Tambah cara pengiriman",
     },
-    "step3": {
-      "title": "Langkah 3. Setel cathetan DNS",
-      "msg": "Sugeng, Saiki sampeyan mung kudu ngatur DNS ing panyedhiya layanan domain lan nambah domain menyang akun."
-    }
   },
-  "payment": {
-    "step1": {
-      "title": "Mata uang rega",
-      "msg": "Sampeyan bisa nampa dhuwit ing macem-macem mata uang, lan toko sampeyan bisa ndhukung luwih saka siji mata uang kanggo rega. Miturut cara, yen sampeyan nyetel mata uang toko menyang USD, pelanggan bisa mbayar ing sembarang mata uang kaya USD, EUR, GBP, etc., kanggo tuku saka sampeyan.",
-      "manage_currencies": "Ngatur mata uang rega"
+
+  domain: {
+    buy_domain_step: {
+      title: "Langkah 1. Tuku domain",
+      msg: "Yen kowe durung duwe domain pribadi, saiki wektu kanggo tuku domainmu dhewe saka situs kaya namecheap.com .",
     },
-    "step2": {
-      "title": "Nampa dhuwit",
-      "msg": "Tambah dhuwit nalika kiriman, transfer dhuwit langsung, lan cara pembayaran liyane sing kasedhiya ing toko sampeyan.",
-      "online_title": "Cara pembayaran online",
-      "online_msg": "Nampa pembayaran nganggo kertu, aplikasi perbankan anyar, tuku-saiki-bayar-mengko, lan akeh cara pembayaran online liyane.",
-      "add_online_gateway": "Tambah cara pembayaran online",
-      "cod_title": "Cara pembayaran cash on delivery",
-      "cod_msg": "Nampa pembayaran sawise pangiriman pesenan. Sampeyan bisa konfirmasi awis ing pembayaran pangiriman kanthi manual.",
-      "cash_title": "Cara pembayaran awis",
-      "cash_msg": "Jinis pembayaran iki digunakake ing Seldone® POS.",
-      "dir_title": "Cara pembayaran langsung",
-      "dir_msg": "Sampeyan bisa nampa pembayaran kanthi transfer dhuwit langsung, transfer dhuwit bank, lan cara tradisional liyane."
+
+    set_dns_step: {
+      title: "Langkah 2. Atur cathetan DNS",
+      msg: "Sugeng, saiki kowe mung perlu ngatur DNS ing panyedhiya layanan domainmu lan nambah domain kasebut menyang akunmu.",
     },
-    "step3": {
-      "msg": "Sambungake Selldone menyang akun Stripe kanthi mung siji klik ing 30 detik. Saiki, kita ndhukung proses konfigurasi otomatis dening Stripe. Pindhah menyang tab gateway, tambahake Stripe, banjur klik tombol ' <b>Sambungake otomatis menyang Stripe</b> '.",
-      "my_gateways": "Pendhaftaran gateway pembayaran"
-    }
   },
-  "intro_inline_help_message": "Goleki tombol bantuan abang iki. Iki mbantu sampeyan nglatih dhewe saka nol nganti ahli ing OS Bisnis sampeyan.",
-  "overview": {
-    "title": "Ringkesan",
-    "subtitle": "Entuk wawasan babagan Business OS lan temokake carane bisa mbantu bisnis sampeyan."
-  },
-  "customize_theme": "Kustomisasi Situs web",
-  "setup_business": "Setup Bisnis",
-  "customize": {
-    "template": {
-      "title": "Cithakan",
-      "msg": "Miwiti toko sampeyan nganggo template sing wis dibangun! Gampang diversifikasi kanthi nambahake pirang-pirang kaca, saben duwe desain unik dhewe."
+
+  payment: {
+    step1: {
+      title: "Mata uang rega",
+      msg: "Sampeyan bisa nampa dhuwit ing macem-macem mata uang, lan toko sampeyan bisa ndhukung luwih saka siji mata uang kanggo rega. Miturut cara, yen sampeyan nyetel mata uang toko menyang USD, pelanggan bisa mbayar ing sembarang mata uang kaya USD, EUR, GBP, etc., kanggo tuku saka sampeyan.",
+      manage_currencies: "Ngatur mata uang rega",
     },
-    "colors": {
-      "title": "Werna & Tata letak",
-      "msg": "Nggolek nggawe kaca produk lan tata letak toko supaya luwih cocog karo visi sampeyan? Nyilem menyang bagean pangaturan dhewe tema ing toko lan nonton Piandel mbukak effortlessly!"
-    }
-  },
-  "business": {
-    "step1": {
-      "title": "Model Bisnis",
-      "msg": "Saben bisnis unik, lan asring mbutuhake luwih saka mung toko online dhasar. Nemtokake model revenue sampeyan, lan kita bakal nangani liyane kanggo sampeyan."
-    }
-  },
-  "migration": {
-    "title": "Migrasi",
-    "shopify": {
-      "msg": "Ngalih menyang Selldone kanthi lancar saka Shopify! Seneng migrasi sing gampang, fitur sing ditingkatake, lan solusi hemat biaya kanggo toko online sampeyan."
+    step2: {
+      title: "Nampa dhuwit",
+      msg: "Tambah dhuwit nalika kiriman, transfer dhuwit langsung, lan cara pembayaran liyane sing kasedhiya ing toko sampeyan.",
+      online_title: "Cara pembayaran online",
+      online_msg:
+        "Nampa pembayaran nganggo kertu, aplikasi perbankan anyar, tuku-saiki-bayar-mengko, lan akeh cara pembayaran online liyane.",
+      add_online_gateway: "Tambah cara pembayaran online",
+      cod_title: "Cara pambayaran nalika pesenan dikirim",
+      cod_msg:
+        "Tampa pambayaran sawise pesenan dikirim. Pambayaran nalika pangiriman bisa sampeyan konfirmasi kanthi manual.",
+      cash_title: "Cara pembayaran awis",
+      cash_msg: "Jinis pambayaran iki digunakake ing Selldone POS.",
+      dir_title: "Cara pembayaran langsung",
+      dir_msg:
+        "Sampeyan bisa nampa pembayaran kanthi transfer dhuwit langsung, transfer dhuwit bank, lan cara tradisional liyane.",
     },
-    "woocommerce": {
-      "msg": "Seamlessly migrasi produk WooCommerce menyang Seldone mung sawetara klik! Seneng kinerja sing ditingkatake, desain intuisi, lan dhukungan pelanggan tingkat paling dhuwur. Nganyarke pengalaman e-commerce sampeyan saiki."
-    }
-  }
+    step3: {
+      msg: "Sambungake Selldone menyang akun Stripe-mu mung kanthi siji klik sajrone 30 detik. Saiki, kita ndhukung proses konfigurasi otomatis dening Stripe. Bukak tab gerbang pambayaranmu, tambah Stripe, banjur klik tombol “<b>Sambung otomatis menyang Stripe</b>”.",
+      my_gateways: "Gerbang pambayaranku",
+    },
+  },
+
+
+  /**
+   * @see SShopOnboardingCustomization
+   */
+  customize: {
+    tour:{
+      title:'Tur',
+      subtitle:"Temokake apa sing bisa ditindakake ing kene sing ora ana ing papan liya.",
+      /**
+       * @see BShopOnboardingTour
+       */
+      avocado:{
+        title:"Avocado - adol tanpa nambah produk",
+        description: "Kanthi Avocado, kowe bisa nawakake layanan utawa produk tanpa rega utawa rincian sing wis ditemtokake. Gawe formulir khusus supaya pelanggan bisa njaluk layanan utawa produk. Sawisé pelanggan ngirim panjaluk, kowe bisa nyetel rega lan ngolah pambayaran. Tuduhake formulir iki ing media sosial supaya pelanggan bisa gampang nambah item, ngunggah gambar, lan ngirim pesenan.",
+        action:'Waca babagan Avocado',
+      },
+      marketplace:{
+        title: "Pasar akeh bakul lan pambayaran otomatis",
+        description: "Gawe pasar sing rame nganggo Selldone kanthi nambahake akeh bakul. Bakul bisa ndhaptar produke, lan kowe bisa nyetel tarif komisi kanggo saben penjualan. Nalika pelanggan tuku, bakul nampa pembayaran langsung, ngatur pesenan liwat panel khusus, lan kowe entuk komisi liwat fitur pambayaran otomatis.",
+        action:'Pambayaran otomatis kanggo bakul',
+      },
+      business_model:{
+        title: "Ndhukung model bisnis sing rumit",
+        description:
+            "Selldone ndhukung model bisnis sing prasaja lan rumit, supaya kowe bisa nyetel manut kebutuhan. Atur kabeh ing mburi layar tanpa masang tambahan utawa aplikasi liyane supaya transisi lan operasi tetep lancar.",
+      },
+      gift_shopping:{
+        title: "Watesan lokasi produk lan blanja hadiah",
+        description:
+            "Setel watesan lokasi kanggo saben produk kanthi nemtokake sawetara negara, kode pos, lan kutha. Fitur iki cocog kanggo nggawe pengalaman blanja hadiah sing pribadi utawa mbatesi kasedhiyan produk ing lokasi tartamtu, kayata kanggo restoran.",
+
+      }
+    },
+
+    template: {
+      title: "Cithakan",
+      msg: "Miwiti toko nganggo cithakan siap pakai! Sampeyan bisa gampang nggawe variasi kanthi nambah pirang-pirang kaca, saben kaca nduweni desain unik dhewe.",
+      action:'Deleng kabeh cithakan...'
+
+    },
+
+    colors: {
+      title: "Werna & Tata letak",
+
+      msg: "Apa sampeyan pengin nyetel kaca produk lan tata letak toko supaya luwih cocog karo visi sampeyan? Bukak bagean pangaturan tema ing toko lan delengen kabeh lumaku kanthi gampang!",
+
+      action:'Kustomisasi warna lan tema'
+
+    },
+
+  },
+
+  /**
+   * @see ShopOnboardingSetupBusinessTab
+   */
+  business: {
+    step1: {
+      title: "Model bisnis",
+      msg: "Saben bisnis iku unik lan asring mbutuhake luwih saka toko daring dhasar. Temtokake model penghasilan sampeyan, lan sisane bakal ditangani kanthi lancar kanggo sampeyan.",
+    },
+  },
+
+  migration: {
+    title: "Migrasi",
+    shopify: {
+      msg: "Ngalih menyang Selldone kanthi lancar saka Shopify! Seneng migrasi sing gampang, fitur sing ditingkatake, lan solusi hemat biaya kanggo toko online sampeyan.",
+    },
+    woocommerce: {
+      msg: "Pindhahake produk WooCommerce menyang Selldone kanthi lancar mung sawetara klik! Rasakna kinerja sing luwih apik, desain sing gampang dipahami, lan dhukungan pelanggan sing unggul. Tingkatna pengalaman dagang elektronik sampeyan saiki.",
+    },
+  },
+
+
+
+
+
 };

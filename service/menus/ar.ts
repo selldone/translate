@@ -1,60 +1,82 @@
+/*
+ * Copyright (c) 2023. Selldone® Business OS™
+ *
+ * Author: M.Pajuhaan
+ * Web: https://selldone.com
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * All rights reserved. In the weave of time, where traditions and innovations intermingle, this content was crafted.
+ * From the essence of thought, through the corridors of creativity, each word, and sentiment has been molded.
+ * Not just to exist, but to inspire. Like an artist's stroke or a sculptor's chisel, every nuance is deliberate.
+ * Our journey is not just about reaching a destination, but about creating a masterpiece.
+ * Tread carefully, for you're treading on dreams.
+ */
+
 export default {
-  "menu": {
-    "home": "مسكن",
-    "dashboard": "لوحة القيادة",
-    "login": "تسجيل الدخول",
-    "help": "مساعدة",
-    "blog": "مدونة او مذكرة",
-    "price_list": "التسعير",
-    "apps": "تطبيقات",
-    "experts": "خبراء",
-    "demo": "البائعون",
-    "partnership": "شراكة",
-    "partner": {
-      "title": "لوحة الشركاء ● Whitelabel SaaS",
-      "subtitle": "تعتبر منصة التجارة الإلكترونية ذات العلامات البيضاء مثالية للوكالات المعتمدة."
+  menu: {
+    home: "الرئيسية",
+    dashboard: "لوحة التحكم",
+    login: "تسجيل الدخول",
+    help: "المساعدة",
+    blog: "المدونة",
+    price_list: "الأسعار",
+    apps: "التطبيقات",
+    experts: "الخبراء",
+    demo: "مستخدمو Selldone",
+    partnership: "الشراكة",
+    partner: {
+      title: "لوحة الشركاء ● SaaS بعلامة بيضاء",
+      subtitle:
+        "منصة تجارة إلكترونية بخاصية العلامة البيضاء مثالية للوكالات الموثّقة.",
     },
-    "affiliate": {
-      "title": "برنامج الشراكة ● مدى الحياة",
-      "subtitle": "يمكن لأي شخص التسجيل في هذا البرنامج والربح من رسوم الاشتراك والمعاملات مدى الحياة."
-    }
+
+    affiliate: {
+      title: "برنامج التسويق بالعمولة ● مدى الحياة",
+      subtitle:
+        "يمكن لأي شخص الانضمام إلى هذا البرنامج والربح من رسوم الاشتراك والمعاملات مدى الحياة.",
+    },
   },
-  "home_menu": {
-    "buttons_header": "الغوص العميق في سيلدون",
-    "beta": "بيتا",
-    "home": "مسكن",
-    "why_selldone": "لماذا سيلدون؟",
-    "ecommerce": "التجارة الإلكترونية<br> باني",
-    "automation": "الأتمتة وإنترنت الأشياء",
-    "ai": "AI",
-    "app_builder": "منشئ التطبيق",
-    "seo": "السيارات SEO<br> محرك",
-    "marketing": "تسويق &<br> الحملة الانتخابية",
-    "report": "تقرير ذكي<br> مولد كهرباء",
-    "domain": "الاستضافة المستندة إلى السحابة",
-    "accounting": "قسط &<br> محاسبة",
-    "logistics": "الخدمات اللوجستية &<br> شحن",
-    "page_builder": "الصفحة المقصودة<br> باني",
-    "incentives": "النادي &<br> حوافز",
-    "orders": "الطلب &<br> يعالج",
-    "staff": "عملاء &<br> فريق",
-    "community": "مجتمع مخصص",
-    "pos": "نقاط البيع عبر الإنترنت",
-    "group_build": {
-      "header": "يبني",
-      "subheader": "نحن نبني نظامًا من حولك لإنشاء قصة نجاحك."
+
+  /** @see OLayout **/
+  home_menu: {
+    buttons_header: "تعرّف بعمق على Selldone",
+    beta: "تجريبي",
+    home: "الرئيسية",
+    why_selldone: "لماذا Selldone؟",
+    ecommerce: "منشئ التجارة <br>الإلكترونية",
+    automation: "الأتمتة و IoT",
+    ai: "الذكاء الاصطناعي",
+    app_builder: "منشئ التطبيقات",
+    seo: "محرك SEO <br>تلقائي",
+    marketing: "التسويق و<br>الحملات",
+    report: "منشئ التقارير <br>الذكية",
+    domain: "استضافة سحابية",
+    accounting: "المدفوعات و<br>المحاسبة",
+    logistics: "الخدمات اللوجستية و<br>الشحن",
+    page_builder: "منشئ صفحات <br>الهبوط",
+    incentives: "النادي و<br>الحوافز",
+    orders: "الطلبات و<br>المعالجة",
+    staff: "العملاء و<br>الفريق",
+
+    community: "مجتمع مخصص",
+    pos: "نقاط البيع عبر الإنترنت",
+
+    group_build: {
+      header: "أنشئ",
+      subheader: "ننشئ نظامًا حولك لصناعة قصة نجاحك.",
     },
-    "group_manage": {
-      "header": "يدير",
-      "subheader": "ستكون إدارة عملك أكثر إمتاعًا من أي وقت مضى."
+    group_manage: {
+      header: "أدِر",
+      subheader: "ستصبح إدارة عملك أكثر متعة من أي وقت مضى.",
     },
-    "group_sell": {
-      "header": "يبيع",
-      "subheader": "كن دائما يغلق ، وكسب المال واستمتع به."
+    group_sell: {
+      header: "بِع",
+      subheader: "واصل إتمام الصفقات، واكسب المال واستمتع بذلك.",
     },
-    "group_grow": {
-      "header": "تنمو",
-      "subheader": "ميزات وأدوات على مستوى المؤسسات بين يديك ، ستكون السماء هي حدودك."
-    }
-  }
+    group_grow: {
+      header: "انمُ",
+      subheader:
+        "ميزات وأدوات بمستوى الشركات بين يديك؛ لتكون السماء حدك.",
+    },
+  },
 };

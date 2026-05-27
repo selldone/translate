@@ -5251,7 +5251,7 @@ export default {
   },
   /** {@see ShopPermissions} **/
   shop_permissions: {
-    ADMIN: { text: "Owner", description: "Full access to all storefronts." },
+    ADMIN: { text: "Super Admin", description: "Full access to all storefronts." },
     PRODUCT: {
       text: "Product Manager",
       description: "Add, edit and manage store products.",
