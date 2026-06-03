@@ -183,7 +183,7 @@ export default {
   tips: {
     verify_email: "ایمیل خود را ثبت و تایید نمایید.",
     verify_phone: "شماره تماس خود را تایید نمایید.",
-    need_nominate: "توسط یک نفر به معرفی و تایید شوید.",
+    need_nominate: "مراحل KYC  خود را در داشوبرد > اهراز هویت > KYC کامل کنید.",
   },
 
   regime: {

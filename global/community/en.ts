@@ -182,7 +182,7 @@ export default  {
   tips: {
     verify_email: "Enter and verify your email.",
     verify_phone: "Verify your phone.",
-    need_nominate: "Nominate by one or request to verify.",
+    need_nominate: "Complete your KYC in the Dashboard > Identity > KYC.",
   },
 
   regime: {
