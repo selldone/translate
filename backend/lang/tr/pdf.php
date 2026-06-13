@@ -1,0 +1,88 @@
+<?php
+
+
+return [
+
+    'shipping_info' => 'nakliye bilgileri',
+    'billing_info' => 'fatura bilgisi',
+
+    'price' => 'fiyat',
+    'item' => 'kalem',
+    'invoice' => 'Fatura',
+    'created' => 'oluşturuldu',
+    'payment' => 'Ödeme',
+    'building_no' => 'Bina No',
+    'building_unit' => 'Unit',
+    'postcode' => 'Posta kodu',
+    'discount_title' => 'İndirim',
+    'products_discount' => 'Ürünler İndirimi',
+    'discount_code' => 'Discount Code',
+    'club' => 'Customer Club',
+    'shipping' => 'Nakliye',
+    'not_payed' => 'Not Paid',
+    'payment_method' => 'Payment Method',
+    'amount' => 'Miktar',
+    'gift_card' => 'Hediye kartı',
+    'cod' => "Cash on delivery",
+    'online_payment' => 'Online ödeme',
+    'cash_payment' => 'Nakit ödeme',
+    'total' => 'Toplam',
+    'count' => 'Saymak',
+    'tel' => 'telefon',
+    'description' => 'Tanım',
+    'offer' => 'Teklif',
+    'sub_total' => 'Sub Total',
+    'tax' => 'Vergi',
+    'tax_shipping' => 'Shipping Tax',
+    'tax_included' => 'Fiyata dahil',
+    'coupon' => 'Kupon',
+    'lottery' => 'piyango ödülü',
+    'free' => 'Özgür',
+
+    'sender' => 'Gönderen',
+    'receiver' => 'Alıcı',
+    'order_code' => 'Order code',
+    'address' => 'adres',
+
+
+    'club:BRONZE' => 'Bronz',
+    'club:SILVER' => 'Gümüş rengi',
+    'club:GOLD' => 'Altın',
+    'club:PLATINUM' => 'Platin',
+    'club:DIAMOND' => 'Elmas',
+
+
+    'selldone_sign' => 'SELLDONE',
+
+
+    'color' => 'Renk',
+    'style' => 'stil',
+    'volume' => 'Ses',
+    'weight' => 'ağırlık',
+    'pack' => 'Pack',
+    'type' => 'tip',
+
+    'country' => 'Ülke',
+    'state' => 'Belirtmek, bildirmek',
+    'city' => 'Şehir',
+    'Wallet' => 'Cüzdan',
+
+    'Sunday' => 'Pazar',
+    'Monday' => 'Pazartesi',
+    'Tuesday' => 'Salı',
+    'Wednesday' => 'Çarşamba',
+    'Thursday' => 'Perşembe',
+    'Friday' => 'Cuma',
+    'Saturday' => 'Cumartesi',
+
+    'Morning' => 'Sabah',
+    'Evening' => 'Akşam',
+    'Night' => 'Gece',
+    'Instant' => 'Ani',
+
+
+
+
+
+    'wallet' => 'cüzdan',
+];

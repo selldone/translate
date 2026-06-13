@@ -1,0 +1,71 @@
+<?php
+
+
+return [
+
+    'home' => 'Selldone',
+    'blogs' => 'Blog',
+    'helps' => 'Aiutu',
+    'current_location' => 'Questa entrata',
+    'Dashboard' => 'Dashboard',
+    'my_shops' => 'I mo Stores',
+    'Wallet' => 'Wallet',
+    'about' => 'À propositu di Selldone',
+    'contact' => 'contact us',
+    'Comments' => 'Cumenti',
+    'likes' => 'Mi piace',
+    'power' => 'allegria',
+    'build_free_shop' => 'Custruite a vostra tenda gratuitamente',
+    'shop_name' => 'shop name',
+    'Categories' => 'I categurie',
+    'sub_articles' => 'More',
+    'terms' => 'Termini',
+
+
+
+    'Color' => 'Culore',
+    'style' => 'style',
+    'volume' => 'volume',
+    'weight' => 'weight',
+    'pack' => 'Pack',
+    'type' => 'type',
+
+    'add_to_card' => 'Add to Cart',
+
+    'overview' => 'Overview',
+    'reviews' => 'Critiche',
+    'spec' => 'Specifica cumpleta',
+    'you_may_also_like' => 'Pudete ancu piace',
+    'about_us' => 'Nantu à noi',
+    'contact_us' => 'contact us',
+    'cookie_privacy' => 'Cookie &amp; privacy policy',
+    'follow_us' => 'seguiteci',
+    'category' => 'categuria',
+
+
+    'author' => 'Written by ',
+    'published_at' => 'Publicatu à',
+    'modified_at' => 'Modificatu à',
+
+
+
+    'price' => 'prezzu',
+    'discount' => 'Scontu',
+    'price_after_discount' => 'Prezzu dopu scontu',
+    'available' => 'Disponibile',
+    'sold_out' => 'Saldà',
+    'buy' => 'Cumprà avà',
+    'login_shop' => 'Login Shop',
+
+    'posted_on' => "Publicatu u :date"
+
+
+
+,
+
+    'dashboard' => 'dashboard',
+    'wallet' => 'wallet',
+    'comments' => 'comments',
+    'categories' => 'categories',
+    'colour' => 'culore',
+];

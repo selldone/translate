@@ -1,0 +1,25 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Password Reset Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are the default lines which match reasons
+    | that are given by the password broker for a password update attempt
+    | has failed, such as for an invalid token or invalid new password.
+    |
+    */
+
+    'password' => 'पासवर्ड कम्तिमा छ वर्णको हुनुपर्छ र पुष्टिकरणसँग मेल खान्छ।',
+    'reset' => 'तपाईंको पासवर्ड रिसेट गरिएको छ!',
+    'sent' => 'हामीले तपाईंको पासवर्ड रिसेट लिङ्क इ-मेल गरेका छौं!',
+    'token' => 'यो पासवर्ड रिसेट टोकन अमान्य छ।',
+    'user' => "हामीले त्यो इमेल ठेगाना भएको प्रयोगकर्ता फेला पार्न सकेनौं।",
+
+
+
+    'throttled' => 'पुन: प्रयास गर्नु अघि कृपया प्रतीक्षा गर्नुहोस्।',
+];

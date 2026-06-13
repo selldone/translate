@@ -1,0 +1,71 @@
+<?php
+
+
+return [
+
+    'home' => 'Selldone',
+    'blogs' => 'Blog',
+    'helps' => 'Pomoc',
+    'current_location' => 'Tento záznam',
+    'Dashboard' => 'Dashboard',
+    'my_shops' => 'Moje obchody',
+    'Wallet' => 'Peněženka',
+    'about' => 'Asi Selldone',
+    'contact' => 'contact us',
+    'Comments' => 'Komentáře',
+    'likes' => 'Líbí se',
+    'power' => 'jásot',
+    'build_free_shop' => 'Postavte si svůj obchod zdarma',
+    'shop_name' => 'shop name',
+    'Categories' => 'Kategorie',
+    'sub_articles' => 'More',
+    'terms' => 'Podmínky',
+
+
+
+    'Color' => 'Barva',
+    'style' => 'style',
+    'volume' => 'volume',
+    'weight' => 'weight',
+    'pack' => 'Balíček',
+    'type' => 'type',
+
+    'add_to_card' => 'Přidat do košíku',
+
+    'overview' => 'Overview',
+    'reviews' => 'Recenze',
+    'spec' => 'Úplná specifikace',
+    'you_may_also_like' => 'Mohlo by se vám také líbit',
+    'about_us' => 'O nás',
+    'contact_us' => 'contact us',
+    'cookie_privacy' => 'Cookie &amp; privacy policy',
+    'follow_us' => 'následuj nás',
+    'category' => 'Kategorie',
+
+
+    'author' => 'Written by ',
+    'published_at' => 'Publikováno na',
+    'modified_at' => 'Upraveno v',
+
+
+
+    'price' => 'cena',
+    'discount' => 'Sleva',
+    'price_after_discount' => 'Cena po slevě',
+    'available' => 'K dispozici',
+    'sold_out' => 'Vyprodáno',
+    'buy' => 'Kup nyní',
+    'login_shop' => 'Přihlásit se do obchodu',
+
+    'posted_on' => "Publikováno dne :date"
+
+
+
+,
+
+    'dashboard' => 'dashboard',
+    'wallet' => 'wallet',
+    'comments' => 'comments',
+    'categories' => 'categories',
+    'colour' => 'barva',
+];

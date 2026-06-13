@@ -1,0 +1,71 @@
+<?php
+
+
+return [
+
+    'home' => 'Selldone',
+    'blogs' => 'Blog',
+    'helps' => 'Yardım',
+    'current_location' => 'Bu giriş',
+    'Dashboard' => 'Kontrol Paneli',
+    'my_shops' => 'Mağazalarım',
+    'Wallet' => 'Cüzdan',
+    'about' => 'Selldone Hakkında',
+    'contact' => 'contact us',
+    'Comments' => 'Yorumlar',
+    'likes' => 'Seviyor',
+    'power' => 'tezahürat',
+    'build_free_shop' => 'Mağazanızı ücretsiz oluşturun',
+    'shop_name' => 'shop name',
+    'Categories' => 'Kategoriler',
+    'sub_articles' => 'More',
+    'terms' => 'Şartlar',
+
+
+
+    'Color' => 'Renk',
+    'style' => 'style',
+    'volume' => 'volume',
+    'weight' => 'weight',
+    'pack' => 'Ambalaj',
+    'type' => 'type',
+
+    'add_to_card' => 'Sepete ekle',
+
+    'overview' => 'Overview',
+    'reviews' => 'incelemeler',
+    'spec' => 'Tam özellik',
+    'you_may_also_like' => 'Şunlar da hoşunuza gidebilir',
+    'about_us' => 'Hakkımızda',
+    'contact_us' => 'contact us',
+    'cookie_privacy' => 'Cookie &amp; privacy policy',
+    'follow_us' => 'bizi takip et',
+    'category' => 'Kategori',
+
+
+    'author' => 'Written by ',
+    'published_at' => 'Yayınlanma tarihi:',
+    'modified_at' => 'Değiştirilme tarihi:',
+
+
+
+    'price' => 'fiyat',
+    'discount' => 'İndirim',
+    'price_after_discount' => 'İndirimden sonraki fiyat',
+    'available' => 'Mevcut',
+    'sold_out' => 'Hepsi satıldı',
+    'buy' => 'Şimdi satın al',
+    'login_shop' => 'Giriş Yap',
+
+    'posted_on' => ":date'da yayınlandı"
+
+
+
+,
+
+    'dashboard' => 'dashboard',
+    'wallet' => 'wallet',
+    'comments' => 'comments',
+    'categories' => 'categories',
+    'colour' => 'renk',
+];

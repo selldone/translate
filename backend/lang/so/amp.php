@@ -1,0 +1,71 @@
+<?php
+
+
+return [
+
+    'home' => 'Selldone',
+    'blogs' => 'Blog',
+    'helps' => 'I caawi',
+    'current_location' => 'Gelitaankan',
+    'Dashboard' => 'Dashboard-ka',
+    'my_shops' => 'Dukaamadayda',
+    'Wallet' => 'Wallet',
+    'about' => 'Ku saabsan Selldone',
+    'contact' => 'contact us',
+    'Comments' => 'Faallo',
+    'likes' => 'Jeclahay',
+    'power' => 'farxad',
+    'build_free_shop' => 'Ku dhis dukaankaaga bilaash',
+    'shop_name' => 'shop name',
+    'Categories' => 'Qaybaha',
+    'sub_articles' => 'More',
+    'terms' => 'Shuruudaha',
+
+
+
+    'Color' => 'Midabka',
+    'style' => 'style',
+    'volume' => 'volume',
+    'weight' => 'weight',
+    'pack' => 'Xirmo',
+    'type' => 'type',
+
+    'add_to_card' => 'Ku dar Gaariga',
+
+    'overview' => 'Overview',
+    'reviews' => 'Faallooyin',
+    'spec' => 'Faahfaahin buuxda',
+    'you_may_also_like' => 'Waxaad sidoo kale jeclaan kartaa',
+    'about_us' => 'Nagu saabsan',
+    'contact_us' => 'contact us',
+    'cookie_privacy' => 'Cookie &amp; privacy policy',
+    'follow_us' => 'na raac',
+    'category' => 'Qaybta',
+
+
+    'author' => 'Written by ',
+    'published_at' => 'Lagu daabacay',
+    'modified_at' => 'wax laga beddelay',
+
+
+
+    'price' => 'qiimo',
+    'discount' => 'Qiimo dhimis',
+    'price_after_discount' => 'Qiimaha ka dib dhimis',
+    'available' => 'La heli karo',
+    'sold_out' => 'Iibisay',
+    'buy' => 'Hadda iibso',
+    'login_shop' => 'Dukaanka Login',
+
+    'posted_on' => "La dhajiyay :date"
+
+
+
+,
+
+    'dashboard' => 'dashboard',
+    'wallet' => 'wallet',
+    'comments' => 'comments',
+    'categories' => 'categories',
+    'colour' => 'midab',
+];

@@ -1,0 +1,373 @@
+<?php
+
+return [
+    'default_title' => 'SELLDONE',
+    'keywords' => ['bizinesi os', 'domain', 'selldone', 'nsanja ya ecommerce', 'womanga sitolo', 'wopanga shopu', 'womanga webusayiti', 'lingaliro la bizinesi', 'womanga anthu ammudzi', 'whitelabel ecommerce'],
+    'samin' => 'Selldone',
+    'Selldone' => 'Selldone',
+
+
+    'related' => 'Zogwirizana',
+    'share' => 'Gawani',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Global
+    |--------------------------------------------------------------------------
+    */
+    'global' => [
+        'blog' => 'Blog',
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Global footer
+    |--------------------------------------------------------------------------
+    */
+    'footer-title' => 'Selldone®|Mabizinesi <span class="os-grad">OS</span>™',
+    'footer-subtitle' => "Dongosolo la #1 la ma SME ndi mitundu yodziyimira pawokha",
+    'footer-about-selldone' => 'Selldone, ngati nsanja ya eCommerce, imagwira ntchito ngati mngelo pakukulitsa mabizinesi. Kaya muli ndi sitolo yaing\'ono ya njerwa ndi matope kapena kampani yaikulu, muyenera kusonyeza malonda anu pa intaneti. Selldone amagwiritsidwa ntchito pomanga malo ogulitsira pa intaneti omwe ali ndi ndalama zotsika mtengo komanso kusinthasintha kwakukulu. Kuphatikiza apo, timapereka chida chowongolera nthawi zonse cha e-commerce chomwe chimapeza zatsopano sabata iliyonse, monga kuphatikiza kasamalidwe ka sitolo ndi mawonekedwe owonera mapulogalamu kuti apange njira zodzipangira zokha kapena kuphatikiza kwa AI.',
+    'footer-action' => "Pangani ecommerce yanu - Ndi yaulere",
+
+    'footer' => [
+        'about' => 'Za Selldone',
+        'contact' => 'Lumikizanani nafe',
+        'email' => 'support@selldone.com',
+        'phone' => '🇩🇰 +45 36991215',
+    ],
+
+    'footer-menu' => [
+
+
+        // Menu 1:
+        [
+            'title' => 'Selldone',
+            'items' => [
+                ['title' => 'Bizinesi nsanja', 'href' => '/store-builder'],
+                ['title' => 'Blog', 'href' => '/blog'],
+                ['title' => 'Thandizeni', 'href' => '/help'],
+                ['title' => 'FAQ', 'href' => '/faq'],
+                ['title' => 'mfundo zazinsinsi', 'href' => '/privacy'],
+                ['title' => 'Nthawi yantchito', 'href' => '/terms'],
+            ],
+        ],
+
+        // Menu 2:
+        [
+            'title' => 'Mawonekedwe',
+            'items' => [
+                ['title' => 'Mbali & Ubwino', 'href' => '/features'],
+                ['title' => 'Marketing tools', 'href' => '/marketing'],
+                ['title' => 'Processing center', 'href' => '/order-processing'],
+                ['title' => 'Zolimbikitsa & Makalabu', 'href' => '/incentives'],
+                ['title' => 'Auditing & Accounting', 'href' => '/auditing'],
+                ['title' => 'Cloud hosting', 'href' => '/cloud'],
+
+            ],
+        ],
+
+        // Menu 3:
+        [
+            'title' => 'Zothetsera',
+            'items' => [
+                ['title' => 'NFT Collection', 'href' => '/nft'],
+                ['title' => 'Gulu', 'href' => '/guild'],
+                ['title' => 'Peyala', 'href' => '/avocado'],
+                ['title' => 'Akatswiri', 'href' => '/experts'],
+                ['title' => 'SEO engine', 'href' => '/seo'],
+                ['title' => 'Smart report', 'href' => '/smart-report'],
+            ],
+        ],
+
+        // Menu 4:
+        [
+            'title' => 'Ntchito',
+            'items' => [
+                ['title' => 'Mtengo & Mapulani', 'href' => '/price'],
+                ['title' => 'Mapulogalamu', 'href' => '/apps'],
+                ['title' => 'Application builder', 'href' => '/app-builder'],
+                ['title' => 'Wopanga masamba', 'href' => '/page-builder'],
+                ['title' => 'Logistic solution', 'href' => '/logistic'],
+                ['title' => 'Automation & IoT', 'href' => '/automation'],
+
+            ],
+        ],
+
+
+    ],
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Global header
+    |--------------------------------------------------------------------------
+    */
+    'header' => [
+        'home' => 'Kunyumba',
+        'features' => 'Mawonekedwe',
+        'pricing' => 'Mitengo',
+        'blogs' => 'Blog',
+        'community' => 'Community',
+        'help' => 'Thandizeni',
+        'features-menu' => [
+            'store-builder' => 'Ecommerce Builder',
+            'community-platform' => 'Community Community',
+            'cloud' => 'Cloud-based Hosting',
+            'page-builder' => 'Wopanga Tsamba Lofikira',
+            'smart-report' => 'Smart Report Generator',
+            'payment' => 'Malipiro & Accounting',
+
+            'staffs' => 'Makasitomala & Gulu',
+            'logistic' => 'Logistic & Kutumiza',
+            'order-processing' => 'Ma Orders & Processing',
+            'marketing' => 'Marketing & Campaign',
+            'incentives' => 'Club & Incentives',
+            'pos' => 'Mtengo POS pa intaneti',
+            'seo' => 'Auto SEO Injini',
+            'automation' => 'Automation & IoT',
+            'ai' => 'AI Commerce',
+            'app-builder' => 'Wopanga pulogalamu',
+        ],
+        'build' => "Mangani",
+        'build-sub' => "Timapanga dongosolo lozungulira inu kuti mupange mbiri yanu yopambana.",
+
+        'manage' => "Sinthani",
+        'manage-sub' => "Kuwongolera bizinesi yanu kudzakhala kosangalatsa kuposa kale.",
+
+        'sel' => "Gulitsani",
+        'sel-sub' => "Nthawi zonse muzitseka, pangani ndalama ndikusangalala nazo.",
+
+        'grow' => "Kula",
+        'grow-sub' => "Zida zamabizinesi ndi zida zomwe zili m'manja mwanu, kumwamba kudzakhala malire anu.",
+
+
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Article
+    |--------------------------------------------------------------------------
+    */
+    'article' => [
+        'list-of-content' => 'Mndandanda wazinthu',
+        'author' => 'Wolemba',
+        'others-title' => "Zambiri zokhudzana ndi :title",
+    ],
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Main pages
+    |--------------------------------------------------------------------------
+    */
+    'page.login' => ['title' => 'Selldone |Lowani muakaunti', 'image' => '/images/seo/en/login.jpg', 'description' => "Zilibe kanthu kuti muli ndi ndalama zingati, komwe mudayambira bizinesi yanu, komwe mumakhala! Selldone yakupatsirani zida zonse zaukadaulo zogulitsa. Kulembetsa ndi zida izi ndi zaulere kwa aliyense mpaka muyaya."],
+    'page.register' => ['title' => 'Selldone |Register', 'image' => '/images/seo/en/login.jpg', 'description' => "Timakhulupirira kuti kupeza ndi ufulu osati mwayi! Kaya muli ndi bizinesi mumsewu wolemera kwambiri ku New York kapena kumudzi wakutali, intaneti ndi chida chapaintaneti ziyenera kukhala zonse zomwe mukufunikira kuti mugulitse pa intaneti! Ili ndiye loto la Selldone."],
+
+
+    'page.home' => ['title' => "Gulitsani Monga Akatswiri - Selldone® Business OS", 'image' => '/images/seo/en/create-my-ecommerce-website-free.jpg', 'description' => "Selldone ndi Business OS yomanga, kuyang'anira, ndi kukulitsa bizinesi yanu. Dzipangeni nokha ndi njira yopanda-code, yosafunikira akatswiri yopangira mamiliyoni ambiri."],
+    'page.helps' => ['title' => 'Thandizeni', 'image' => '/images/seo/en/help.jpg', 'description' => "Momwe mungapangire bizinesi yopambana."],
+    'page.blogs' => ['title' => 'Business OS Mag', 'image' => '/images/seo/en/academy.jpg', 'description' => "Kalozera wanu wokhazikika pakugulitsa pa intaneti, maupangiri, maupangiri, ndi upangiri waukatswiri, zomwe mungachite ndi zomwe simungachite pakugulitsa pa intaneti, ndi malangizo aukadaulo okuthandizani kuti mupeze ndalama zambiri pa intaneti."],
+    'page.faqs' => ['title' => 'Mafunso Ofunsidwa Kawirikawiri', 'image' => '/images/seo/en/faq.jpg', 'description' => "Q&A pa Selldone."],
+    'page.price' => ['title' => 'Mndandanda wa Mitengo', 'image' => '/images/seo/en/price.jpg', 'description' => "Zinthu zonse zamaluso zomanga sitolo ndi malo kwaulere popanda malire a nthawi zikukuyembekezerani."],
+
+
+    'page.apps' => ['title' => 'Kuphatikiza kwa Ntchito', 'image' => '/images/seo/en/apps.jpg', 'description' => "Kuyika mapulogalamu ku sitolo kumaperekedwa kwa sitolo yanu ndikudina kamodzi kokha."],
+    'page.experts' => ['title' => 'Akatswiri', 'image' => '/images/seo/en/expert.jpg', 'description' => "Osadandaula za kupanga, kuyambitsa, kutsatsa kapena kuyang'anira sitolo yanu, akatswiri a Selldone ali okonzeka kukuthandizani. Lembani akatswiri ovomerezeka kuti achite zinthu bwino komanso mwachangu."],
+
+
+    'page.avocado' => ['title' => 'Avocado - Modern Social Sales Channel', 'image' => '/images/seo/en/create-avocado-seo.jpg?v=1',
+        'description' => "Ndalama ndi mutu ndizo zonse zomwe mukufunikira kuti mutenge ndalama kuchokera kwa makasitomala anu. Ndalama zimayikidwa mwachindunji ku akaunti yanu, ndipo makasitomala anu amapeza mwayi wogula."],
+
+    // All private dashboards:
+    'shuttle' => ['title' => 'Shuttle|Konzani bizinesi yanu OS', 'image' => '/images/seo/en/dashboard.jpg',
+        'description' => "Gulu loyang'anira sitolo, ngati muli ndi mwayi wopita ku sitoloyi, mukhoza kulowa dashboard yanu yoyang'anira sitolo kudzera pa ulalowu."],
+
+    'shuttle-shop' => ['title' => 'Gulani Dashboard|Sinthani sitolo yanu', 'image' => '/images/seo/en/shuttle-shop.jpg', 'video' => '/images/seo/en/videos/shuttle-shop.mp4',
+        'description' => "Konzani zonse zomwe zili mudashboard yanu. Sinthani malonda, maoda, mapangidwe amasamba ofikira, kutsatsa, zolimbikitsa ndi chilichonse chomwe mungafune pabizinesi yayikulu."],
+
+
+    'guild' => ['title' => 'Gulu - Collective Sales Channel', 'image' => '/images/seo/en/guild.jpg?v=2',
+        'description' => "Pangani bizinesi yanu kuti itheke, ndi kupezeka kwa aliyense padziko lonse lapansi popanga gulu lalikulu."],
+
+
+    'page.referral' => ['title' => 'Pulogalamu Yothandizira - Selldone', 'image' => '/images/seo/en/referral.png', 'description' => "Lowani nawo ntchito yosangalatsa ndikudzipangira nokha njira yopezera ndalama."],
+
+
+    'page.press' => ['title' => 'Press Resources - Selldone', 'image' => '/images/seo/en/press.png', 'description' => "Zothandizira kwa aliyense amene akufuna kulemba za Selldone."],
+    'page.roadmap' => ['title' => 'Mayendedwe - Selldone', 'image' => '/images/seo/roadmap.jpg', 'description' => "Ndi nsanja yamtundu umodzi: njira yochitira bizinesi yonse-in-imodzi, yopanda code ngati ntchito yokhala ndi zida zamabizinesi zama SME."],
+
+    'page.onboarding' => ['title' => 'Wopanga Webusayiti Yaulere Yapaintaneti - Yomvera komanso Katswiri', 'image' => '/images/seo/ui-kit.jpg', 'description' => "Selldone ndi nsanja ya e-commerce yomwe idamangidwa kuti ikuthandizire bizinesi yanu kukula. Kaya muli ndi sitolo yaying'ono ya njerwa ndi matope kapena kampani yayikulu, mumafunikira zida zaukadaulo, zosavuta kugwiritsa ntchito."],
+
+
+
+    'page.books' => ['title' => 'Mabuku a Bizinesi: Maupangiri Oyambira Ndi Kukula Kwa Mawebusayiti Ogula Paintaneti', 'image' => '/images/seo/en/cover.jpg', 'description' => "Mutha kutsitsa mabuku aulere okhudza chitukuko cha bizinesi pano. M'mabuku awa, mupeza maupangiri athunthu opangira bizinesi ndi maupangiri othandiza kuti muwonjezere mitengo yotembenuka musitolo yanu yapaintaneti."],
+
+
+    'page.quiz' => ['title' => 'Mafunso|Kodi njira yoyendetsera bizinesi ndi yoyenera kwa inu?', 'image' => '/images/seo/en/quiz.png', 'description' => "Ngati mukufuna kudziwa kuti bizinesi yanu ikufunika kapena mutha kugwiritsa ntchito bizinesi, musanapitirire, chonde tengani mafunso awa 60sec. Ngati mukufuna kudziwa kuti bizinesi yanu ikufunika kapena mutha kugwiritsa ntchito bizinesi, musanapitirire, chonde tengani mafunso awa 60sec."],
+
+
+    'page.countries' => ['title' => 'Maiko Othandizidwa ndi Malipiro Apafupi - Business OS', 'image' => '/images/seo/en/countries.png', 'description' => "Business OS, Chisinthiko chotsatira cha ntchito zamalonda kuchokera pamapulatifomu a e-commerce kupita ku china chake chopanda mutu, pulogalamu yowonjezera, kapena code. 100% zowoneka!"],
+
+
+    'page.participant' => ['title' => 'Dera lomwe mukufuna - Sewerani ndikupambana $20', 'image' => '/images/seo/en/participants.jpg', 'description' => "Mutha kutenga nawo gawo pagulu la selldone popanga makanema achidule kuti muthandize ena ndikupeza ndalama zokwana 20 USD pavidiyo iliyonse."],
+
+    'page.tax' => ['title' => 'Mndandanda wa Mitengo ya Misonkho Padziko Lonse', 'image' => '/images/seo/en/tax.jpg', 'description' => "Mutha kupitilira malamulo amisonkho ndikupanga mbiri yamisonkho yopitilira imodzi yamagulu osiyanasiyana azinthu."],
+
+
+    'page.premium' => ['title' => 'Sinthani ku Premium ndikusintha Masewera Anu a E-Commerce', 'image' => '/images/seo/en/premium.jpg', 'description' => "Kwezani sitolo yanu yapaintaneti ndi Selldone Premium. Pezani zida za AI zokha, ma tempulo opangidwa ndi bespoke, ndi zina zambiri kuti muwongolere bwino komanso kuti muwoneke bwino pamsika wa digito. Lowani nawo tsopano kuti mugwiritse ntchito mwanzeru, mwanzeru pa e-commerce!"],
+
+
+    'page.builder' => [
+        'title' => 'Wopanga Masamba Waulere & Mkonzi Watsamba Lofika pa Webapp - Palibe Kulowa Kofunikira',
+        'image' => '/images/seo/en/builder.png',
+        'description' => 'Pangani masamba odabwitsa ndi masamba ofikira mosavuta ndi tsamba lathu laulere, losavuta kugwiritsa ntchito komanso mkonzi. Palibe malowedwe ofunikira. Konzani, sinthani mwamakonda, ndikufalitsa masamba anu mwachangu ndi mawonekedwe athu osavuta kukokera ndikugwetsa. Zabwino kwa otsatsa, eni mabizinesi ang\'onoang\'ono, ndi opanga omwe akufuna njira yopangira mawebusayiti yopanda zovuta.'
+    ],
+
+    'page.token' => [
+        'title' => 'Selldone Coin (SLDN) - Kupititsa patsogolo luso la E-commerce',
+        'image' => '/images/seo/en/token.jpg?v=1',
+        'description' => 'Dziwani za Selldone Coin (SLDN), chizindikiro cha digito chomwe chimapangidwa kuti chipatse mphotho ndi kupatsa mphamvu mabizinesi apakompyuta. Pezani, gulitsani, ndikukulitsa bizinesi yanu ndi SLDN, gawo lofunikira la chilengedwe cha Selldone.'
+    ],
+
+
+    'page.red-alert' => ['title' => 'Red Alert - Nenani za Ntchito Zachigawenga & Chitetezo',
+        'image' => '/images/seo/en/red-alert.jpg',
+        'description' => 'Dziwani zambiri zachitetezo ndi chitetezo ndi Selldone - nsanja yokhazikika kwambiri pachitetezo yomwe ilipo. Pulogalamu yathu ya Red Alert imakupatsani mphamvu kuti munene zachigawenga mwachangu komanso mosatekeseka, ndikuwonetsetsa kuti dera lanu likutetezedwa. Lowani nafe ntchito yathu yomanga madera otetezeka komanso kuchitapo kanthu polimbana ndi umbanda lero.'    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | App pages
+    |--------------------------------------------------------------------------
+    */
+    'apps.structure-data' => ['title' => 'Structure Data Generator| JSON-LD', 'description' => "Gwiritsani ntchito jenereta yamphamvu iyi kuti mupange zilembo za JSON-LD, kuphatikiza zinthu zonse zofunika ndi zina zambiri."
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Call to action
+    |--------------------------------------------------------------------------
+    */
+    'call-to-action' => [
+        'title' => "Pangani Bizinesi Yanu Paintaneti Ndi Njira Yabwino Kwambiri No-Technical Solution Pamsika.",
+        'money-back' => "30 Day Money-Back Guarantee",
+        'action' => "Pangani Ecommerce Yanu",
+        'action-sub' => "Yambani tsopano — Ndi kwaulere",
+        'message' => "Tsanzikanani ndi kutsika kwanu kogulitsa pa intaneti!",
+    ]
+
+,
+
+    'page' => [
+        'login' => [
+            'title' => 'Selldone | Lowani muakaunti',
+            'image' => '/images/seo/en/login.jpg',
+            'description' => 'Zilibe kanthu kuti muli ndi ndalama zingati, komwe mudayambira bizinesi yanu, komwe mumakhala! Selldone wakupatsirani zida zonse zaukadaulo zogulitsa. Kulembetsa ndi zida izi ndi zaulere kwa aliyense mpaka muyaya.',
+        ],
+        'register' => [
+            'title' => 'Selldone | Register',
+            'image' => '/images/seo/en/login.jpg',
+            'description' => 'Timakhulupirira kuti kupeza ndi ufulu osati mwayi! Kaya muli ndi bizinesi mumsewu wolemera kwambiri ku New York kapena kumudzi wakutali, intaneti ndi chida chapaintaneti ziyenera kukhala zonse zomwe mukufunikira kuti mugulitse pa intaneti! Ili ndi loto la Selldone.',
+        ],
+        'home' => [
+            'title' => 'Sales Like Professionals - Selldone® Business OS',
+            'image' => '/images/seo/en/create-my-ecommerce-website-free.jpg',
+            'description' => 'Selldone ndi Business OS yomanga, kuyang\'anira, ndikukulitsa bizinesi yanu mowonekera. Dzipange nokha popanda-code komanso yankho lofunikira la akatswiri mamiliyoni ambiri.',
+        ],
+        'helps' => [
+            'title' => 'Thandizeni',
+            'image' => '/images/seo/en/help.jpg',
+            'description' => 'Momwe mungapangire bizinesi yopambana.',
+        ],
+        'blogs' => [
+            'title' => 'Blog',
+            'image' => '/images/seo/en/academy.jpg',
+            'description' => 'Nkhani zaposachedwa za Selldone ndi zomwe zili.',
+        ],
+        'faqs' => [
+            'title' => 'Mafunso Ofunsidwa Kawirikawiri',
+            'image' => '/images/seo/en/faq.jpg',
+            'description' => 'Q&A pa Selldone.',
+        ],
+        'price' => [
+            'title' => 'Mndandanda wamitengo',
+            'image' => '/images/seo/en/price.jpg',
+            'description' => 'Zinthu zonse zamaluso zomanga sitolo ndi malo kwaulere popanda malire a nthawi zikukuyembekezerani.',
+        ],
+        'apps' => [
+            'title' => 'App Store',
+            'image' => '/images/seo/en/apps.jpg',
+            'description' => 'Kuyika mapulogalamu ku sitolo kumaperekedwa kwa sitolo yanu ndikudina kamodzi kokha.',
+        ],
+        'experts' => [
+            'title' => 'Akatswiri',
+            'image' => '/images/seo/en/expert.jpg',
+            'description' => 'Osadandaula za kupanga, kuyambitsa, kutsatsa kapena kuyang\'anira sitolo yanu, akatswiri a Selldone ali okonzeka kukuthandizani. Lembani akatswiri ovomerezeka kuti achite zinthu bwino komanso mwachangu.',
+        ],
+        'avocado' => [
+            'title' => 'Avocado - Modern Social Sales Channel',
+            'image' => '/images/seo/en/create-avocado-seo.jpg?v=1',
+            'description' => 'Ndalama imodzi ndi mutu umodzi ndizo zonse zomwe mukufunikira kuti mupeze ndalama kuchokera kwa makasitomala anu! Ndalama zidzayikidwa mwachindunji ku akaunti yanu ndipo makasitomala anu adzakhala ndi zochitika zapadera zogula.',
+        ],
+        'referral' => [
+            'title' => 'Pulogalamu Yothandizira - Selldone',
+            'image' => '/images/seo/en/referral.png',
+            'description' => 'Lowani nawo ntchito yosangalatsa ndikudzipangira nokha njira yopezera ndalama.',
+        ],
+        'press' => [
+            'title' => 'Press Resources - Selldone',
+            'image' => '/images/seo/en/press.png',
+            'description' => 'Zothandizira kwa aliyense amene akufuna kulemba za Selldone.',
+        ],
+        'roadmap' => [
+            'title' => 'Njira - Selldone',
+            'image' => '/images/seo/roadmap.jpg',
+            'description' => 'Ndi nsanja imodzi-ya-mtundu; ndizosiyana kwambiri ndi zina zonse. Ndilokhalo lokhalo, lopanda code Business Operating System Monga Ntchito yokhala ndi zida zamabizinesi zama SME.',
+        ],
+        'onboarding' => [
+            'title' => 'Wopanga Webusayiti Yaulere Yapaintaneti - Yomvera, komanso Katswiri',
+            'image' => '/images/seo/ui-kit.jpg',
+            'description' => 'Selldone, ngati nsanja ya eCommerce, imagwira ntchito ngati mngelo pakukulitsa bizinesi yanu. Kaya muli ndi sitolo yaying\'ono ya njerwa ndi matope kapena kampani yayikulu, mumafunika zida zaukadaulo koma zosavuta kugwiritsa ntchito.',
+        ],
+        'books' => [
+            'title' => 'Mabuku a Bizinesi: Maupangiri Oyambira Ndi Kukula Kwa Mawebusayiti Ogula Paintaneti',
+            'image' => '/images/seo/en/cover.jpg',
+            'description' => 'Mutha kutsitsa mabuku aulere okhudza chitukuko cha bizinesi Pano. M\'mabuku awa, mupeza maupangiri athunthu opangira bizinesi ndi maupangiri othandiza kuti muwonjezere mitengo yotembenuka musitolo yanu yapaintaneti.',
+        ],
+        'quiz' => [
+            'title' => 'Mafunso | Kodi njira yoyendetsera bizinesi ndi yoyenera kwa inu?',
+            'image' => '/images/seo/en/quiz.png',
+            'description' => 'Ngati mukufuna kudziwa kuti bizinesi yanu ikufunika kapena mutha kugwiritsa ntchito bizinesi, musanapitirire, chonde tengani mafunso awa 60sec. Ngati mukufuna kudziwa kuti bizinesi yanu ikufunika kapena mutha kugwiritsa ntchito bizinesi, musanapitirire, chonde tengani mafunso awa 60sec.',
+        ],
+        'countries' => [
+            'title' => 'Maiko Othandizidwa ndi Malipiro Apafupi - Business OS',
+            'image' => '/images/seo/en/countries.png',
+            'description' => 'Business OS, Chisinthiko chotsatira cha ntchito zamalonda kuchokera pamapulatifomu a e-commerce kupita ku china chake chopanda mutu, pulogalamu yowonjezera, kapena code. 100% zowoneka!',
+        ],
+        'participant' => [
+            'title' => 'Dera lomwe mukufuna - Sewerani ndikupambana $20',
+            'image' => '/images/seo/en/participants.jpg',
+            'description' => 'Mutha kutenga nawo gawo pagulu la selldone popanga makanema achidule kuti muthandize ena ndikupeza mphatso zokwana 20 USD pavidiyo iliyonse.',
+        ],
+        'tax' => [
+            'title' => 'Mndandanda wa Mitengo ya Misonkho Padziko Lonse',
+            'image' => '/images/seo/en/tax.jpg',
+            'description' => 'Mutha kupitilira malamulo amisonkho ndikupanga mbiri yamisonkho yopitilira imodzi yamagulu osiyanasiyana azinthu.',
+        ],
+        'premium' => [
+            'title' => 'Sinthani ku Premium ndikusintha Masewera Anu a E-Commerce',
+            'image' => '/images/seo/en/premium.jpg',
+            'description' => 'Kwezani sitolo yanu yapaintaneti ndi Selldone Premium. Pezani zida zapadera za AI, ma tempulo opangidwa ndi bespoke, ndi zina zambiri kuti muwongolere bwino komanso kuti muwoneke bwino pamsika wa digito. Lowani nawo tsopano kuti mugwiritse ntchito mwanzeru, mwanzeru pa e-commerce!',
+        ],
+        'builder' => [
+            'title' => 'Wopanga Masamba Waulere & Mkonzi Watsamba Lofika pa Webapp - Palibe Kulowa Kofunikira',
+            'image' => '/images/seo/en/builder.png',
+            'description' => 'Pangani masamba odabwitsa ndi masamba ofikira mosavuta ndi tsamba lathu laulere, losavuta kugwiritsa ntchito komanso mkonzi. Palibe malowedwe ofunikira. Konzani, sinthani mwamakonda, ndikufalitsa masamba anu mwachangu ndi mawonekedwe athu osavuta kukokera ndikugwetsa. Ndiwabwino kwa otsatsa, eni mabizinesi ang\'onoang\'ono, ndi opanga omwe akufuna njira yopangira mawebusayiti yopanda zovuta.',
+        ],
+    ],
+    'apps' => [
+        'structure-data' => [
+            'title' => 'Jenereta wa Zida Zomanga | JSON-LD',
+            'description' => 'Gwiritsani ntchito jenereta yamphamvu iyi kuti mupange zilembo za JSON-LD, kuphatikiza zinthu zonse zofunika ndi zina.',
+        ],
+    ],
+];

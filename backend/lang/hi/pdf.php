@@ -1,0 +1,88 @@
+<?php
+
+
+return [
+
+    'shipping_info' => 'शिपिंग जानकारी',
+    'billing_info' => 'बिलिंग जानकारी',
+
+    'price' => 'कीमत',
+    'item' => 'वस्तु',
+    'invoice' => 'इनवॉइस',
+    'created' => 'बनाया था',
+    'payment' => 'भुगतान',
+    'building_no' => 'भवन संख्या',
+    'building_unit' => 'Unit',
+    'postcode' => 'पोस्टकोड',
+    'discount_title' => 'छूट',
+    'products_discount' => 'उत्पाद छूट',
+    'discount_code' => 'Discount Code',
+    'club' => 'Customer Club',
+    'shipping' => 'शिपिंग',
+    'not_payed' => 'Not Paid',
+    'payment_method' => 'Payment Method',
+    'amount' => 'राशि',
+    'gift_card' => 'उपहार कार्ड',
+    'cod' => "Cash on delivery",
+    'online_payment' => 'ऑनलाइन भुगतान',
+    'cash_payment' => 'नकद भुगतान',
+    'total' => 'कुल',
+    'count' => 'गिनती करना',
+    'tel' => 'टेलीफोन',
+    'description' => 'विवरण',
+    'offer' => 'प्रस्ताव',
+    'sub_total' => 'Sub Total',
+    'tax' => 'कर',
+    'tax_shipping' => 'Shipping Tax',
+    'tax_included' => 'कीमत में शामिल',
+    'coupon' => 'कूपन',
+    'lottery' => 'लॉटरी पुरस्कार',
+    'free' => 'नि: शुल्क',
+
+    'sender' => 'प्रेषक',
+    'receiver' => 'रिसीवर',
+    'order_code' => 'Order code',
+    'address' => 'पता',
+
+
+    'club:BRONZE' => 'पीतल',
+    'club:SILVER' => 'चाँदी',
+    'club:GOLD' => 'सोना',
+    'club:PLATINUM' => 'प्लैटिनम',
+    'club:DIAMOND' => 'हीरा',
+
+
+    'selldone_sign' => 'SELLDONE',
+
+
+    'color' => 'रंग',
+    'style' => 'शैली',
+    'volume' => 'मात्रा',
+    'weight' => 'वजन',
+    'pack' => 'Pack',
+    'type' => 'प्रकार',
+
+    'country' => 'देश',
+    'state' => 'राज्य',
+    'city' => 'शहर',
+    'Wallet' => 'बटुआ',
+
+    'Sunday' => 'रविवार',
+    'Monday' => 'सोमवार',
+    'Tuesday' => 'मंगलवार',
+    'Wednesday' => 'बुधवार',
+    'Thursday' => 'गुरूवार',
+    'Friday' => 'शुक्रवार',
+    'Saturday' => 'शनिवार',
+
+    'Morning' => 'सुबह',
+    'Evening' => 'शाम',
+    'Night' => 'रात',
+    'Instant' => 'तुरंत',
+
+
+
+
+
+    'wallet' => 'बटुआ',
+];

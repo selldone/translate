@@ -1,0 +1,346 @@
+<?php
+
+
+use App\Samin\Expert\enums\JobCategory;
+use App\Samin\Expert\enums\JobTopic;
+
+return [
+
+    JobTopic::STORE_DESIGN => [
+        'title' => 'បង្កើតពាណិជ្ជកម្មអេឡិចត្រូនិច',
+        'image' => '/images/experts/topics-sub/store-design.jpg',
+        'desc' => 'ទុកការរចនា និងការសាងសង់ហាងអនឡាញរបស់អ្នកទៅអ្នកជំនាញដើម្បីឱ្យពួកគេអាចអនុវត្តគំនិតរបស់អ្នក។',
+    ],
+    JobTopic::MARKETPLACE_SETUP => [
+        'title' => 'រៀបចំទីផ្សារ',
+        'image' => '/images/experts/topics-sub/marketplace-setup.jpg',
+        'desc' => 'បង្កើតទីផ្សារដើម្បីលក់ផលិតផល និងសេវាកម្មរបស់អ្នកទៅកាន់ទស្សនិកជនកាន់តែទូលំទូលាយ។',
+    ],
+
+
+    JobTopic::STORE_CONFIGURATION => [
+        'title' => 'ការកំណត់រចនាសម្ព័ន្ធហាង',
+        'image' => '/images/experts/topics-sub/store-configuration.jpg',
+        'desc' => 'អ្នកអាចទទួលបានជំនួយពីអ្នកជំនាញសម្រាប់ការកំណត់ហាង ដូចជាការបញ្ចូលព័ត៌មានអាជីវកម្មលម្អិតសម្រាប់ម៉ាស៊ីនស្វែងរក ការកំណត់ការដឹកជញ្ជូន និងវិធីសាស្រ្តស្តុកទុក។',
+    ],
+
+
+    JobTopic::STORE_OPTIMIZATION => [
+        'title' => 'ការអនុវត្ត និងល្បឿន និងការកែលម្អ',
+        'image' => '/images/experts/topics-sub/store-optimization.jpg',
+        'desc' => 'អ្នកជំនាញនឹងធ្វើការនៅលើគេហទំព័ររបស់អ្នកដើម្បីបង្កើនល្បឿន និងដំណើរការរបស់វា។',
+    ],
+
+    JobTopic::DOMAIN => [
+        'title' => 'ការតភ្ជាប់ដែន',
+        'image' => '/images/experts/topics-sub/domain.jpg',
+        'desc' => 'បន្ថែមដែនផ្ទាល់ខ្លួនទៅហាង និងគេហទំព័ររបស់អ្នក។',
+    ],
+    JobTopic::POD_SETUP => [
+        'title' => 'ដំឡើង POD Store',
+        'image' => '/images/experts/topics-sub/pod-setup.jpg',
+        'desc' => 'បង្កើតហាងបោះពុម្ពតាមតម្រូវការ ដោយមានជំនួយពីអ្នកជំនាញ។',
+    ],
+
+
+    JobTopic::PAGE_DESIGN => [
+        'title' => 'ការចុះចតនិងការរចនាទំព័រខាងក្នុង',
+        'image' => '/images/experts/topics-sub/page-design.jpg',
+        'desc' => 'រចនាគេហទំព័ររបស់អ្នក ទំព័រដើម និងទំព័រខាងក្នុង។',
+    ],
+
+
+    JobTopic::ADD_PRODUCT => [
+        'title' => 'បន្ថែមផលិតផល និងប្រភេទ',
+        'image' => '/images/experts/topics-sub/add-product.jpg',
+        'desc' => 'បន្ថែមរូបភាព ការពិពណ៌នា និងលក្ខណៈជាក់លាក់នៃផលិតផលរបស់អ្នកទៅក្នុងប្រភេទមេរៀន ដើម្បីធ្វើឱ្យវាកាន់តែងាយស្រួលសម្រាប់អតិថិជនក្នុងការស្វែងរកផលិតផលរបស់អ្នក។',
+    ],
+
+
+
+
+
+    JobTopic::PAYMENT => [
+        'title' => 'ច្រកផ្លូវបង់ប្រាក់',
+        'image' => '/images/experts/topics-sub/payment.jpg',
+        'desc' => 'បន្ថែមច្រកទូទាត់តាមអ៊ីនធឺណិតទៅហាងរបស់អ្នក។',
+    ],
+
+
+    JobTopic::TAX => [
+        'title' => 'ដំបូន្មានពន្ធ',
+        'image' => '/images/experts/topics-sub/tax.jpg',
+        'desc' => 'ទទួលបានការណែនាំអំពីបញ្ហាហិរញ្ញវត្ថុ និងពន្ធរបស់អ្នក។',
+    ],
+
+
+    JobTopic::EMAIL_MARKETING => [
+        'title' => 'ទីផ្សារអ៊ីម៉ែល',
+        'image' => '/images/experts/topics-sub/email-marketing.jpg',
+        'desc' => 'ប្រើឧបករណ៍ទីផ្សារតាមអ៊ីមែល ដើម្បីប្រែក្លាយអ្នកប្រើប្រាស់របស់អ្នកទៅជាអតិថិជន និងបញ្ចុះបញ្ចូលពួកគេឱ្យទិញ។',
+    ],
+
+
+    JobTopic::SEO => [
+        'title' => 'SEO',
+        'image' => '/images/experts/topics-sub/seo.jpg',
+        'desc' => 'បង្កើនចំណាត់ថ្នាក់របស់អ្នកនៅក្នុងលទ្ធផលស្វែងរករបស់ Google ដូច្នេះមនុស្សកាន់តែច្រើននឹងស្វែងរកផលិតផលរបស់អ្នកក្នុងការស្វែងរករបស់ពួកគេ។',
+    ],
+
+
+    JobTopic::SEARCH_ADS => [
+        'title' => 'ស្វែងរកការផ្សាយពាណិជ្ជកម្ម',
+        'image' => '/images/experts/topics-sub/search-adds.jpg',
+        'desc' => 'ផ្សាយពាណិជ្ជកម្មផលិតផលរបស់អ្នកនៅលើម៉ាស៊ីនស្វែងរកដូចជា Google ជាដើម។',
+    ],
+
+
+    JobTopic::SOCIAL_MARKETING => [
+        'title' => 'ទីផ្សារប្រព័ន្ធផ្សព្វផ្សាយសង្គម',
+        'image' => '/images/experts/topics-sub/social-marketing.jpg',
+        'desc' => 'ចាប់ផ្តើមយុទ្ធនាការផ្សាយពាណិជ្ជកម្មតាមប្រព័ន្ធផ្សព្វផ្សាយសង្គម ដើម្បីឱ្យមនុស្សកាន់តែច្រើនមើលឃើញផលិតផល និងសេវាកម្មរបស់អ្នក។',
+    ],
+
+
+    JobTopic::CONTENT_MARKETING => [
+        'title' => 'ទីផ្សារមាតិកា',
+        'image' => '/images/experts/topics-sub/content-marketing.jpg',
+        'desc' => 'ផលិត និងផ្សព្វផ្សាយខ្លឹមសារដែលមានប្រយោជន៍ និងពាក់ព័ន្ធដែលទាក់ទងនឹងអាជីវកម្មរបស់អ្នក។',
+    ],
+
+
+    JobTopic::SALE_CHANNELS => [
+        'title' => 'បង្កើតបណ្តាញលក់',
+        'image' => '/images/experts/topics-sub/sale-channels.jpg',
+        'desc' => 'បើកដំណើរការបណ្តាញលក់ថ្មីដូចជា Instagram, Telegram និង Facebook ដោយភ្ជាប់ទៅហាងអនឡាញរបស់អ្នកនៅក្នុង Selldone ។',
+    ],
+
+
+    JobTopic::CONVERSION => [
+        'title' => 'ការបង្កើនប្រសិទ្ធភាពអត្រាបំប្លែង',
+        'image' => '/images/experts/topics-sub/conversion.jpg',
+        'desc' => 'កែលម្អអត្រាបំប្លែង បំប្លែងអ្នកទស្សនាកាន់តែច្រើនទៅជាអតិថិជន និងបង្កើនប្រសិទ្ធភាពនៃយុទ្ធនាការរបស់អ្នក។ های خود را افزایش دهید.',
+    ],
+
+
+    JobTopic::ANALYZE => [
+        'title' => 'វិភាគឥរិយាបថអ្នកប្រើប្រាស់',
+        'image' => '/images/experts/topics-sub/analyze.jpg',
+        'desc' => 'ពិនិត្យមើលអាកប្បកិរិយារបស់អ្នកប្រើប្រាស់របស់អ្នកនៅក្នុងហាងអនឡាញ និងសូម្បីតែសាខាជាក់ស្តែងនៃហាងរបស់អ្នក ដើម្បីផ្តល់នូវបទពិសោធន៍អ្នកប្រើប្រាស់កាន់តែប្រសើរសម្រាប់ពួកគេ។',
+    ],
+
+
+    JobTopic::BRAND_STRATEGY => [
+        'title' => 'យុទ្ធសាស្រ្តម៉ាក',
+        'image' => '/images/experts/topics-sub/brand-strategy.jpg',
+        'desc' => 'ធ្វើការលើការកសាង និងពង្រីកម៉ាកអាជីវកម្មរបស់អ្នក។',
+    ],
+
+
+    JobTopic::MIGRATION => [
+        'title' => 'ការផ្ទេរហាង',
+        'image' => '/images/experts/topics-sub/advise.jpg',
+        'desc' => 'ផ្លាស់ទីហាងបច្ចុប្បន្នរបស់អ្នកទៅ Selldone ។',
+    ],
+
+
+    JobTopic::APP_PROGRAMMER => [
+        'title' => 'បង្កើតកម្មវិធី',
+        'image' => '/images/experts/topics-sub/app-programmer.jpg',
+        'desc' => 'រចនា និងសរសេរកម្មវិធីផ្ទាល់ខ្លួនរបស់អ្នក។',
+    ],
+
+
+    JobTopic::APP_INSTALL => [
+        'title' => 'ដំឡើងកម្មវិធី',
+        'image' => '/images/experts/topics-sub/app-install.jpg',
+        'desc' => 'ដំឡើង និងកំណត់រចនាសម្ព័ន្ធកម្មវិធីដែលអ្នកត្រូវការនៅលើហាង។',
+    ],
+
+
+    JobTopic::UX_DESIGN => [
+        'title' => 'ការរចនា UX ពិសេស',
+        'image' => '/images/experts/topics-sub/ux-designer.jpg',
+        'desc' => 'រចនាបទពិសោធន៍អ្នកប្រើប្រាស់ពិសេសមួយសម្រាប់អ្នកប្រើប្រាស់របស់អ្នកនៅក្នុងហាង ឬកម្មវិធី។',
+    ],
+
+
+    JobTopic::DEBUG => [
+        'title' => 'ការដោះស្រាយបញ្ហា',
+        'image' => '/images/experts/topics-sub/debug.jpg',
+        'desc' => 'ជួសជុលកំហុស និងបញ្ហានៅក្នុងហាងរបស់អ្នក។',
+    ],
+
+
+    JobTopic::STRATEGY => [
+        'title' => 'ការប្រឹក្សាយុទ្ធសាស្ត្រអាជីវកម្ម',
+        'image' => '/images/experts/topics-sub/strategy.jpg',
+        'desc' => 'ស្វែងរកដំបូន្មានអ្នកជំនាញពីអ្នកដែលមានបទពិសោធន៍ និងបទពិសោធន៍ ដើម្បីអភិវឌ្ឍ និងកែលម្អអាជីវកម្មរបស់អ្នក។',
+    ],
+
+
+    JobTopic::PRODUCT_GUIDE => [
+        'title' => 'ការណែនាំអំពីធនធានផលិតផល',
+        'image' => '/images/experts/topics-sub/products-guide.jpg',
+        'desc' => 'ទទួលបានការណែនាំសម្រាប់ការរៀបចំផលិតផល ការរៀបចំ និងការរចនាវដ្តនៃការផ្គត់ផ្គង់ផលិតផល។',
+    ],
+
+
+    JobTopic::SETUP_GUIDE => [
+        'title' => 'ការប្រឹក្សារៀបចំ និងរចនាហាង',
+        'image' => '/images/experts/topics-sub/setup-guide.jpg',
+        'desc' => 'ទទួលបានដំបូន្មានពីអ្នកជំនាញក្នុងវិស័យនេះ ដើម្បីចាប់ផ្តើមអាជីវកម្ម ឬបង្កើតវាតាមអ៊ីនធឺណិត។',
+    ],
+
+
+    JobTopic::MARKETING_GUIDE => [
+        'title' => 'ប្រឹក្សាផ្នែកលក់ និងទីផ្សារ',
+        'image' => '/images/experts/topics-sub/marketing-guide.jpg',
+        'desc' => 'ទទួលបានដំបូន្មានពីអ្នកជំនាញ និងអ្នកជំនាញក្នុងវិស័យនេះ ដើម្បីទីផ្សារ និងបង្កើនការលក់របស់អ្នក។',
+    ],
+
+
+    JobTopic::PRODUCT_DESCRIPTION => [
+        'title' => 'ការពិពណ៌នាផលិតផល',
+        'image' => '/images/experts/topics-sub/product-description.jpg',
+        'desc' => 'សរសេរការពិពណ៌នាដ៏ទាក់ទាញសម្រាប់ផលិតផលរបស់អ្នក ដើម្បីឱ្យអតិថិជនរបស់អ្នកអាចស្គាល់ផលិតផលរបស់អ្នកកាន់តែងាយស្រួល។',
+    ],
+
+
+    JobTopic::CONTENT_WRITE => [
+        'title' => 'មាតិកាផ្សព្វផ្សាយ និងទីផ្សារ',
+        'image' => '/images/experts/topics-sub/marketing-content.jpg',
+        'desc' => 'សរសេរអំពីរឿងម៉ាក តម្រូវការរបស់អតិថិជន និងអាជីវកម្មរបស់អ្នក ដើម្បីឱ្យអ្នកដទៃអាចចែករំលែកគេហទំព័ររបស់អ្នកជាមួយមិត្តភ័ក្តិរបស់ពួកគេ ឬមានការផ្សាយពាណិជ្ជកម្មកាន់តែមានប្រសិទ្ធភាព។',
+    ],
+
+
+    JobTopic::LOGO_DESIGN => [
+        'title' => 'ការរចនាឡូហ្គោនិងម៉ាក',
+        'image' => '/images/experts/topics-sub/logo-design.jpg',
+        'desc' => 'រចនារូបភាព និងឡូហ្គោមាតិកាសម្រាប់ម៉ាករបស់អ្នក។',
+    ],
+
+
+    JobTopic::BRAND_DESIGN => [
+        'title' => 'ការរចនាបដា',
+        'image' => '/images/experts/topics-sub/banner-designer.jpg',
+        'desc' => 'ការរចនាម៉ាកដ៏គួរឱ្យទាក់ទាញនឹងជួយទាក់ទាញអ្នកប្រើប្រាស់កាន់តែច្រើនមកកាន់គេហទំព័ររបស់អ្នក។',
+    ],
+
+
+    JobTopic::VIDEO => [
+        'title' => 'ការថតនិងចលនា',
+        'image' => '/images/experts/topics-sub/video.jpg',
+        'desc' => 'ទុកការផលិតភាពយន្តផ្សាយពាណិជ្ជកម្ម និងគំនូរជីវចល 2D និង 3D ទៅអ្នកជំនាញល្អបំផុតក្នុងវិស័យនេះ។',
+    ],
+
+
+    JobTopic::PHOTOGRAPHY => [
+        'title' => 'ការថតរូបផលិតផល',
+        'image' => '/images/experts/topics-sub/photography.jpg',
+        'desc' => 'ថតរូបបែបឧស្សាហកម្ម និងវិជ្ជាជីវៈនៃផលិតផល និងសេវាកម្មរបស់អ្នក ដើម្បីធ្វើឱ្យហាងរបស់អ្នកមើលទៅប្រសើរជាងមុន។',
+    ],
+
+
+    JobTopic::PHOTO_EDITOR => [
+        'title' => 'កែរូបថត',
+        'image' => '/images/experts/topics-sub/photo-editor.jpg',
+        'desc' => 'រចនារូបភាពគួរឱ្យទាក់ទាញ វាអាចរួមបញ្ចូលការបន្ថែមបែបផែន លុបផ្ទៃខាងក្រោយ ឬបន្ថែមអត្ថបទទៅរូបថត។',
+    ],
+
+
+    JobTopic::MODELING_3D => [
+        'title' => 'គំរូ 3D និង AR',
+        'image' => '/images/experts/topics-sub/3d.jpg',
+        'desc' => 'រចនាគំរូការពិតបន្ថែម 3D នៃផលិតផលរបស់អ្នកដើម្បីបង្កើនការលក់របស់អ្នកយ៉ាងខ្លាំង។',
+    ],
+
+
+    JobTopic::DROPSHIPPING => [
+        'title' => 'ដំឡើង dropshipping',
+        'image' => '/images/experts/topics-sub/dropshipping.jpg',
+        'desc' => 'ប្រសិនបើអ្នកមានក្រុមហ៊ុនផលិត ឬឃ្លាំង អ្នកជំនាញផ្នែកដឹកជញ្ជូននឹងជួយអ្នកឱ្យងាយស្រួលលក់ផលិតផលរបស់អ្នកតាមរយៈហាងអនឡាញរាប់ពាន់។',
+    ],
+
+
+    JobTopic::RESELLING => [
+        'title' => 'រៀបចំសម្រាប់អ្នកលក់បន្ត',
+        'image' => '/images/experts/topics-sub/reseller.jpg',
+        'desc' => 'អ្នកអាចមានហាងដ៏អស្ចារ្យជាមួយនឹងប្រាក់ចំណូលដ៏អស្ចារ្យដោយមិនចាំបាច់ទិញទំនិញនិងឃ្លាំងឬសូម្បីតែផ្ញើកញ្ចប់មួយ។',
+    ],
+
+
+    JobTopic::POS_SETUP => [
+        'title' => 'បង្កើតការចុះឈ្មោះសាច់ប្រាក់តាមអ៊ីនធឺណិត',
+        'image' => '/images/experts/topics-sub/pos-setup.jpg',
+        'desc' => "ដំឡើងការចុះឈ្មោះសាច់ប្រាក់របស់ Selldone នៅក្នុងសាខាហាងរបស់អ្នក ហើយប្រើឧបករណ៍ហាងដែលមានជំនាញវិជ្ជាជីវៈបំផុតដែលមានដើម្បីអភិវឌ្ឍអាជីវកម្ម និងសាខាជាក់ស្តែងរបស់អ្នក។",
+    ],
+
+
+
+
+    'CATEGORIES' => [
+        JobCategory::SETUP => [
+            'title' => 'រៀបចំហាងអនឡាញ',
+            'image' => '/images/experts/categories/SETUP.jpg',
+            'desc' => 'អ្នកជំនាញក្នុងវិស័យនេះធ្វើឱ្យការកសាង និងបង្កើតហាងអនឡាញរបស់អ្នកកាន់តែងាយស្រួល និងលឿនជាងមុនសម្រាប់អ្នក។',
+        ],
+        JobCategory::PAYMENT => [
+            'title' => 'បន្ថែមវិធីបង់ប្រាក់',
+            'image' => '/images/experts/categories/PAYMENT.jpg',
+            'desc' => 'ជួលអ្នកឯកទេសច្រកផ្លូវបង់ប្រាក់ដើម្បីធ្វើដំណើរការនៃការទទួល និងធ្វើបច្ចុប្បន្នភាពច្រកផ្លូវសម្រាប់អ្នក។',
+        ],
+        JobCategory::MANAGEMENT => [
+            'title' => 'ការគ្រប់គ្រងហាង',
+            'image' => '/images/experts/categories/MANAGEMENT.jpg',
+            'desc' => 'អ្នកអាចផ្តល់ប្រភពធនធានមួយចំនួននៃការគ្រប់គ្រងហាងរបស់អ្នកទៅឱ្យអ្នកឯកទេសគ្រប់គ្រងហាង។ ពួកគេក៏ផ្តល់ដំបូន្មានអ្នកជំនាញលើគ្រប់ទិដ្ឋភាពនៃការដំណើរការអាជីវកម្មផងដែរ។',
+        ],
+        JobCategory::CONTENT => [
+            'title' => 'ការសរសេរមាតិកា',
+            'image' => '/images/experts/categories/CONTENT.jpg',
+            'desc' => 'សរសេរមាតិកាសម្រាប់ផលិតផលរបស់អ្នក ម៉ាក ឬហាងទៅអ្នកជំនាញសរសេរមាតិកា។',
+        ],
+        JobCategory::PHOTOGRAPHY => [
+            'title' => 'ការថតរូបនិងកែសម្រួល',
+            'image' => '/images/experts/categories/PHOTOGRAPHY.jpg',
+            'desc' => 'ត្រូវការថតរូបផលិតផល និងសេវាកម្មរបស់អ្នកមែនទេ? អ្នកជំនាញនៅក្នុងផ្នែកនេះនឹងរៀបចំរូបភាព ចលនា និងគំរូ 3D ដែលអ្នកត្រូវការ។',
+        ],
+        JobCategory::MARKETING => [
+            'title' => 'ទីផ្សារ',
+            'image' => '/images/experts/categories/MARKETING.jpg',
+            'desc' => 'អ្នកជំនាញផ្នែកទីផ្សារជួយអ្នកធ្វើការកែតម្រូវដ៏ល្អបំផុតចំពោះយុទ្ធនាការ និងការលើកទឹកចិត្តរបស់អ្នក ឬចាប់ផ្តើមយុទ្ធនាការផ្សាយពាណិជ្ជកម្មប្រកបដោយប្រសិទ្ធភាព។',
+        ],
+        JobCategory::ADD_PRODUCT => [
+            'title' => 'បន្ថែមផលិតផល និងប្រភេទ',
+            'image' => '/images/experts/categories/ADD_PRODUCT.jpg',
+            'desc' => 'អ្នកអាចជួលមនុស្សឱ្យធ្វើបែបនេះសម្រាប់អ្នកដើម្បីបន្ថែមផលិតផលទៅហាង។',
+        ],
+        JobCategory::ADD_PAGE => [
+            'title' => 'បន្ថែមទំព័រ (Landings, About us, ... )',
+            'image' => '/images/experts/categories/ADD_PAGE.jpg',
+            'desc' => 'អ្នកអាចទុកការបង្កើតទំព័រចុះចត អំពីពួកយើង និងទំព័រផ្សេងទៀតនៃគេហទំព័ររបស់អ្នកទៅកាន់អ្នកជំនាញទាំងនេះ។',
+        ],
+        JobCategory::MIGRATION => [
+            'title' => 'ផ្លាស់ទីហាងរបស់ខ្ញុំពីវេទិកាពាណិជ្ជកម្មអេឡិចត្រូនិកផ្សេងទៀត។',
+            'image' => '/images/experts/categories/MIGRATION.jpg',
+            'desc' => 'តើអ្នកមានហាងពីមុនទេ? អ្នកអាចទុកភារកិច្ចផ្ទេរហាងទៅឱ្យអ្នកឯកទេសដើម្បីឱ្យសេវាកម្មវិជ្ជាជីវៈអាចគាំទ្រហាងរបស់អ្នកជារៀងរហូត។',
+        ],
+        JobCategory::APP_SETUP => [
+            'title' => 'ដំឡើងកម្មវិធី',
+            'image' => '/images/experts/categories/APP_SETUP.jpg',
+            'desc' => 'ត្រូវការជំនួយក្នុងការដំឡើង និងដំឡើងកម្មវិធីនៅក្នុងហាងរបស់អ្នកមែនទេ? តើអ្នកត្រូវការបង្កើតកម្មវិធីពិសេសទេ? អ្នកជំនាញក្នុងវិស័យនេះនឹងនៅជាមួយអ្នក។',
+        ],
+        JobCategory::DROP_SHIPPING => [
+            'title' => 'ដំឡើង dropshipping',
+            'image' => '/images/experts/categories/DROP_SHIPPING.jpg',
+            'desc' => 'ប្រសិនបើអ្នកជាអ្នកលក់ដុំ ឬអ្នកលក់រាយ វេទិការក្រណាត់ Selldone គឺជាអ្វីដែលអ្នកតែងតែស្វែងរក។ អ្នកជំនាញ Dropshipping អាចជួយអ្នកស្វែងរកវិធីថ្មីដើម្បីលក់អាជីវកម្មរបស់អ្នក។',
+        ],
+        JobCategory::POS_SETUP => [
+            'title' => 'ដំឡើង Selldone POS',
+            'image' => '/images/experts/categories/POS_SETUP.jpg',
+            'desc' => "ជួលអ្នកឯកទេសដើម្បីរៀបចំម៉ាស៊ីនឆូតកាតអនឡាញរបស់ហាងអ្នក។",
+        ],
+
+    ]
+
+];

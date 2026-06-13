@@ -1,0 +1,71 @@
+<?php
+
+
+return [
+
+    'home' => 'Selldone',
+    'blogs' => 'Blog',
+    'helps' => 'Hëllef',
+    'current_location' => 'Dës Entrée',
+    'Dashboard' => 'Dashboard',
+    'my_shops' => 'Meng Geschäfter',
+    'Wallet' => 'Portemonnaie',
+    'about' => 'Iwwer Selldone',
+    'contact' => 'contact us',
+    'Comments' => 'Kommentaren',
+    'likes' => 'Gefällt',
+    'power' => 'jubelen',
+    'build_free_shop' => 'Baut Äre Buttek gratis',
+    'shop_name' => 'shop name',
+    'Categories' => 'Kategorien',
+    'sub_articles' => 'More',
+    'terms' => 'Konditioune',
+
+
+
+    'Color' => 'Faarf',
+    'style' => 'style',
+    'volume' => 'volume',
+    'weight' => 'weight',
+    'pack' => 'Pak',
+    'type' => 'type',
+
+    'add_to_card' => 'An de Weenche leeën',
+
+    'overview' => 'Overview',
+    'reviews' => 'Rezensiounen',
+    'spec' => 'Voll Spezifizéierung',
+    'you_may_also_like' => 'Dir kënnt och gären',
+    'about_us' => 'Iwwert ons',
+    'contact_us' => 'contact us',
+    'cookie_privacy' => 'Cookie &amp; privacy policy',
+    'follow_us' => 'Komm mat éis mat',
+    'category' => 'Kategorie',
+
+
+    'author' => 'Written by ',
+    'published_at' => 'Verëffentlecht am',
+    'modified_at' => 'Geännert um',
+
+
+
+    'price' => 'Präis',
+    'discount' => 'Remise',
+    'price_after_discount' => 'Präis no Remise',
+    'available' => 'Verfügbar',
+    'sold_out' => 'Ausverkaaft',
+    'buy' => 'Kaaf elo',
+    'login_shop' => 'Login Shop',
+
+    'posted_on' => "Gepost op :date"
+
+
+
+,
+
+    'dashboard' => 'dashboard',
+    'wallet' => 'wallet',
+    'comments' => 'comments',
+    'categories' => 'categories',
+    'colour' => 'Faarf',
+];

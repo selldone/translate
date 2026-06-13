@@ -1,0 +1,71 @@
+<?php
+
+
+return [
+
+    'home' => 'Selldone',
+    'blogs' => 'Blogi',
+    'helps' => 'auta',
+    'current_location' => 'Tämä merkintä',
+    'Dashboard' => 'Kojelauta',
+    'my_shops' => 'Omat kaupat',
+    'Wallet' => 'Lompakko',
+    'about' => 'Noin Selldone',
+    'contact' => 'contact us',
+    'Comments' => 'Kommentit',
+    'likes' => 'Tykkää',
+    'power' => 'hurrata',
+    'build_free_shop' => 'Rakenna myymäläsi ilmaiseksi',
+    'shop_name' => 'shop name',
+    'Categories' => 'Luokat',
+    'sub_articles' => 'More',
+    'terms' => 'Ehdot',
+
+
+
+    'Color' => 'Väri',
+    'style' => 'style',
+    'volume' => 'volume',
+    'weight' => 'weight',
+    'pack' => 'Pakkaus',
+    'type' => 'type',
+
+    'add_to_card' => 'Lisää ostoskoriin',
+
+    'overview' => 'Overview',
+    'reviews' => 'Arvostelut',
+    'spec' => 'Täysi spesifikaatio',
+    'you_may_also_like' => 'saatat pitää myös',
+    'about_us' => 'Meistä',
+    'contact_us' => 'contact us',
+    'cookie_privacy' => 'Cookie &amp; privacy policy',
+    'follow_us' => 'seuraa meitä',
+    'category' => 'Kategoria',
+
+
+    'author' => 'Written by ',
+    'published_at' => 'Julkaistu klo',
+    'modified_at' => 'Muokattu klo',
+
+
+
+    'price' => 'hinta',
+    'discount' => 'Alennus',
+    'price_after_discount' => 'Hinta alennuksen jälkeen',
+    'available' => 'Saatavilla',
+    'sold_out' => 'Loppuunmyyty',
+    'buy' => 'Osta nyt',
+    'login_shop' => 'Kirjaudu kauppaan',
+
+    'posted_on' => "Lähetetty :date"
+
+
+
+,
+
+    'dashboard' => 'dashboard',
+    'wallet' => 'wallet',
+    'comments' => 'comments',
+    'categories' => 'categories',
+    'colour' => 'väri',
+];

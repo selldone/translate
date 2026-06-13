@@ -1,0 +1,88 @@
+<?php
+
+
+return [
+
+    'shipping_info' => 'Առաքման տվյալներ',
+    'billing_info' => 'Վճարային տեղեկատվություն',
+
+    'price' => 'գինը',
+    'item' => 'կետ',
+    'invoice' => 'Հաշիվ-ապրանքագիր',
+    'created' => 'Ստեղծվել է',
+    'payment' => 'Վճարում',
+    'building_no' => 'շենք թիվ',
+    'building_unit' => 'Unit',
+    'postcode' => 'Ինդեքս',
+    'discount_title' => 'Զեղչ',
+    'products_discount' => 'Ապրանքների զեղչ',
+    'discount_code' => 'Discount Code',
+    'club' => 'Customer Club',
+    'shipping' => 'առաքում',
+    'not_payed' => 'Not Paid',
+    'payment_method' => 'Payment Method',
+    'amount' => 'Գումարը',
+    'gift_card' => 'Նվեր քարտ',
+    'cod' => "Cash on delivery",
+    'online_payment' => 'Առցանց վճարում',
+    'cash_payment' => 'Կանխիկ վճարում',
+    'total' => 'Ընդամենը',
+    'count' => 'հաշվել',
+    'tel' => 'Հեռ',
+    'description' => 'Նկարագրություն',
+    'offer' => 'Առաջարկ',
+    'sub_total' => 'Sub Total',
+    'tax' => 'Հարկային',
+    'tax_shipping' => 'Shipping Tax',
+    'tax_included' => 'Ներառված է գնի մեջ',
+    'coupon' => 'Կտրոն',
+    'lottery' => 'Վիճակախաղի մրցանակ',
+    'free' => 'Անվճար',
+
+    'sender' => 'Ուղարկող',
+    'receiver' => 'Ընդունիչ',
+    'order_code' => 'Order code',
+    'address' => 'հասցեն',
+
+
+    'club:BRONZE' => 'Բրոնզե',
+    'club:SILVER' => 'Արծաթե',
+    'club:GOLD' => 'Ոսկի',
+    'club:PLATINUM' => 'Պլատին',
+    'club:DIAMOND' => 'Ադամանդ',
+
+
+    'selldone_sign' => 'SELLDONE',
+
+
+    'color' => 'Գույն',
+    'style' => 'ոճը',
+    'volume' => 'ծավալը',
+    'weight' => 'քաշը',
+    'pack' => 'Pack',
+    'type' => 'տիպ',
+
+    'country' => 'Երկիր',
+    'state' => 'Պետություն',
+    'city' => 'Քաղաք',
+    'Wallet' => 'Դրամապանակ',
+
+    'Sunday' => 'Կիրակի',
+    'Monday' => 'Երկուշաբթի',
+    'Tuesday' => 'երեքշաբթի',
+    'Wednesday' => 'չորեքշաբթի',
+    'Thursday' => 'հինգշաբթի',
+    'Friday' => 'Ուրբաթ',
+    'Saturday' => 'շաբաթ օրը',
+
+    'Morning' => 'Առավոտյան',
+    'Evening' => 'Երեկոյան',
+    'Night' => 'Գիշեր',
+    'Instant' => 'Ակնթարթային',
+
+
+
+
+
+    'wallet' => 'դրամապանակ',
+];
