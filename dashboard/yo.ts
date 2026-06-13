@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
-  Twitter: "Ţŵíţţéř",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Ipo dudu",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Ibi ipamọ Github",
+    github: "Ibi ipamọ GitHub",
     admin_api_app: "Abojuto API iṣẹ ayelujara",
     shop_api_app: "Itaja API iṣẹ ayelujara",
     design_kit: "Awọn ohun elo apẹrẹ",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Fidio",
         sub_title:
-          "Ni akọkọ, gbe fidio ọja rẹ sori Youtube, lẹhinna fi URL fidio naa si ibi.",
+          "Ni akọkọ, gbe fidio ọja rẹ sori YouTube, lẹhinna fi URL fidio naa si ibi.",
       },
       change_bg_ai: {
         title: "Ṣẹda Aworan Ŵíţħ Tuntun Ɓáçķğřóúñď",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Tẹsiwaju pẹlu",
     register_linkedin: "Tẹsiwaju pẹlu LinkedIn",
     register_facebook: "Tẹsiwaju pẹlu Facebook",
-    register_github: "Tẹsiwaju pẹlu Github",
+    register_github: "Tẹsiwaju pẹlu GitHub",
     create_your_account: "Ṣẹda akọọlẹ rẹ",
     password_8_chars: "Ọrọigbaniwọle gbọdọ jẹ o kere ju awọn ohun kikọ 8.",
     password_upercase_number: "O kere ju lẹta nla kan ati nọmba kan.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Tẹsiwaju pẹlu Google",
     login_linkedin: "Tẹsiwaju pẹlu LinkedIn",
     login_facebook: "Tẹsiwaju pẹlu Facebook",
-    login_github: "Tẹsiwaju pẹlu Github",
+    login_github: "Tẹsiwaju pẹlu GitHub",
     remember_me: "Ranti mi.",
     login_button: "wo ile",
     two_step_problem: "Ṣe o ni iṣoro pẹlu ọrọ igbaniwọle-igbesẹ meji naa?",

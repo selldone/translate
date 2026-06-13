@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "I-YouTube",
-  Linkedin: "I-Linkedin",
-  Twitter: "Ţŵíţţéř",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
-  Instagram: "I-Instagram",
-  Reddit: "I-Reddit",
-  Github: "Github",
+  Instagram: "Instagram",
+  Reddit: "Reddit",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Imodi Emnyama",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "I-Github Repository",
+    github: "I-GitHub Repository",
     admin_api_app: "Isevisi yewebhu ye-Admin API",
     shop_api_app: "Thenga isevisi yewebhu ye-API",
     design_kit: "Amakhithi wokuklama",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Ividiyo",
         sub_title:
-          "Okokuqala, layisha ividiyo yomkhiqizo wakho ku-Youtube, bese ubeka i-URL yevidiyo lapha.",
+          "Okokuqala, layisha ividiyo yomkhiqizo wakho ku-YouTube, bese ubeka i-URL yevidiyo lapha.",
       },
       change_bg_ai: {
         title: "Dala Isithombe Ŵíţħ Okusha Ɓáçķğřóúñď",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Qhubeka ne",
     register_linkedin: "Qhubeka nge-LinkedIn",
     register_facebook: "Qhubeka noFacebook",
-    register_github: "Qhubeka nge-Github",
+    register_github: "Qhubeka nge-GitHub",
     create_your_account: "Dala i-akhawunti yakho",
     password_8_chars: "Iphasiwedi kumele okungenani ibe nezinhlamvu eziyi-8.",
     password_upercase_number: "Okungenani usonhlamvukazi oyedwa nenombolo eyodwa.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Qhubeka nge-Google",
     login_linkedin: "Qhubeka nge-LinkedIn",
     login_facebook: "Qhubeka noFacebook",
-    login_github: "Qhubeka nge-Github",
+    login_github: "Qhubeka nge-GitHub",
     remember_me: "Uyangikhumbula.",
     login_button: "Ngena ngemvume",
     two_step_problem: "Ingabe unenkinga ngephasiwedi enezinyathelo ezimbili?",

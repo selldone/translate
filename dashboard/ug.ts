@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "Youtube",
-  Linkedin: "Linkedin",
-  Twitter: "تۋىتتېر",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "دارك مودې",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github رېپوسىتوري",
+    github: "GitHub رېپوسىتوري",
     admin_api_app: "باشقۇرغۇچى API تور مۇلازىمىتى",
     shop_api_app: "API تور مۇلازىمىتى",
     design_kit: "لايىھىلەش قوراللىرى",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "ۋىدېو",
         sub_title:
-          "فىرست, ۇپلواد يوۇر مەھسۇلات ۋىدېو ون Youtube, اند تھېن پۇت تھې ۋىدېو URL ھېرې.",
+          "فىرست, ۇپلواد يوۇر مەھسۇلات ۋىدېو ون YouTube, اند تھېن پۇت تھې ۋىدېو URL ھېرې.",
       },
       change_bg_ai: {
         title: "قۇرۇش سۈرەت ۋىتھ يېڭى باككگروۇند",
@@ -5517,9 +5517,9 @@ export default {
     register_google: "كونتىنۇې ۋىتھ Google",
     register_apple: "ئالما شىركىتى بىلەن داۋاملاشتۇرۇڭ",
     continue_with: "داۋاملاشتۇرۇڭ",
-    register_linkedin: "كونتىنۇې ۋىتھ Linkedin",
+    register_linkedin: "كونتىنۇې ۋىتھ LinkedIn",
     register_facebook: "كونتىنۇې ۋىتھ Facebook",
-    register_github: "كونتىنۇې ۋىتھ Github",
+    register_github: "كونتىنۇې ۋىتھ GitHub",
     create_your_account: "ھېساباتىڭىزنى قۇر",
     password_8_chars: "پارول كەم دېگەندە 8 ھەرپ بولۇشى كېرەك.",
     password_upercase_number: "كەم دېگەندە بىر چوڭ ھەرپ ۋە بىر سان.",
@@ -5531,9 +5531,9 @@ export default {
     already_signup: "تىزىملاتتىڭىزمۇ؟",
     login_your_account: "ھېساباتىڭىزغا كىرىڭ",
     login_google: "كونتىنۇې ۋىتھ Google",
-    login_linkedin: "كونتىنۇې ۋىتھ Linkedin",
+    login_linkedin: "كونتىنۇې ۋىتھ LinkedIn",
     login_facebook: "كونتىنۇې ۋىتھ Facebook",
-    login_github: "كونتىنۇې ۋىتھ Github",
+    login_github: "كونتىنۇې ۋىتھ GitHub",
     remember_me: "مېنى ئېسىڭىزدە تۇتۇڭ.",
     login_button: "كىرىش",
     two_step_problem: "ئىككى باسقۇچلۇق پارولدا مەسىلە بارمۇ؟",

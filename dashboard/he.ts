@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "יוטיוב",
-  Linkedin: "לינקדאין",
-  Twitter: "טוויטר",
-  Facebook: "פייסבוק",
-  Instagram: "אינסטגרם",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
+  Facebook: "Facebook",
+  Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "מצב כהה",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "מאגר Github",
+    github: "מאגר GitHub",
     admin_api_app: "שירות אינטרנט של Admin API",
     shop_api_app: "שירות אינטרנט של קניות API",
     design_kit: "ערכות עיצוב",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "להמשיך עם",
     register_linkedin: "המשך עם לינקדאין",
     register_facebook: "המשך בפייסבוק",
-    register_github: "המשך עם Github",
+    register_github: "המשך עם GitHub",
     create_your_account: "תיצור את המשתמש שלך",
     password_8_chars: "הסיסמה חייבת להיות באורך 8 תווים לפחות.",
     password_upercase_number: "לפחות אות אחת גדולה ומספר אחד.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "המשך עם גוגל",
     login_linkedin: "המשך עם לינקדאין",
     login_facebook: "המשך בפייסבוק",
-    login_github: "המשך עם Github",
+    login_github: "המשך עם GitHub",
     remember_me: "זכור אותי.",
     login_button: "התחברות",
     two_step_problem: "יש לך בעיה עם הסיסמה הדו-שלבית?",

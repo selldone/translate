@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "Youtube",
-  Linkedin: "Linkedin",
-  Twitter: "твіттер",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Темний режим",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github репосіторй",
+    github: "GitHub репосіторй",
     admin_api_app: "Веб-сервіс адміністратора API",
     shop_api_app: "Магазин API веб сервіке",
     design_kit: "Дизайнерські набори",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Відео",
         sub_title:
-          "фірст, уплоад йоур Продукт Відео он Youtube, анд тген пут тге Відео URL гере.",
+          "фірст, уплоад йоур Продукт Відео он YouTube, анд тген пут тге Відео URL гере.",
       },
       change_bg_ai: {
         title: "Створюйте Зображення вітг Новий баккгроунд",
@@ -5517,9 +5517,9 @@ export default {
     register_google: "контінуе вітг Google",
     register_apple: "контінуе вітг Apple",
     continue_with: "Продовжуйте",
-    register_linkedin: "контінуе вітг Linkedin",
+    register_linkedin: "контінуе вітг LinkedIn",
     register_facebook: "контінуе вітг Facebook",
-    register_github: "контінуе вітг Github",
+    register_github: "контінуе вітг GitHub",
     create_your_account: "створити свій обліковий запис",
     password_8_chars: "Пароль має містити не менше 8 символів.",
     password_upercase_number: "Принаймні одна велика літера та одна цифра.",
@@ -5531,9 +5531,9 @@ export default {
     already_signup: "Вже зареєструвалися?",
     login_your_account: "Увійдіть у свій обліковий запис",
     login_google: "контінуе вітг Google",
-    login_linkedin: "контінуе вітг Linkedin",
+    login_linkedin: "контінуе вітг LinkedIn",
     login_facebook: "контінуе вітг Facebook",
-    login_github: "контінуе вітг Github",
+    login_github: "контінуе вітг GitHub",
     remember_me: "Пам'ятай мене.",
     login_button: "увійти",
     two_step_problem: "У вас проблеми з двоетапним паролем?",

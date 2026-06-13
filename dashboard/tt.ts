@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "Youtube",
-  Linkedin: "Линкиндин",
-  Twitter: "Твиттер",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
-  Instagram: "Инстаграм",
+  Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Дарнк режимы",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github репоситорй",
+    github: "GitHub репоситорй",
     admin_api_app: "Администратор API веб-сервисы",
     shop_api_app: "Кибет API веб-сервисы",
     design_kit: "Дизайн комплектлары",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Видео",
         sub_title:
-          "фирст, уплоад йоур Продукция Видео он Youtube, анд тһен пут тһе Видео URL һере.",
+          "фирст, уплоад йоур Продукция Видео он YouTube, анд тһен пут тһе Видео URL һере.",
       },
       change_bg_ai: {
         title: "Ярат Рәсем витһ Яңа баккгроунд",
@@ -5517,9 +5517,9 @@ export default {
     register_google: "континуе витһ Google",
     register_apple: "континуе витһ Apple",
     continue_with: "Дәвам итегез",
-    register_linkedin: "континуе витһ Linkedin",
+    register_linkedin: "континуе витһ LinkedIn",
     register_facebook: "континуе витһ Facebook",
-    register_github: "континуе витһ Github",
+    register_github: "континуе витһ GitHub",
     create_your_account: "Хисап язмагыз",
     password_8_chars: "Серсүз ким дигәндә 8 символ булырга тиеш.",
     password_upercase_number: "Ким дигәндә бер баш хәреф һәм бер сан.",
@@ -5531,9 +5531,9 @@ export default {
     already_signup: "Инде язылдыгызмы?",
     login_your_account: "Сезнең хисапка керегез",
     login_google: "континуе витһ Google",
-    login_linkedin: "континуе витһ Linkedin",
+    login_linkedin: "континуе витһ LinkedIn",
     login_facebook: "континуе витһ Facebook",
-    login_github: "континуе витһ Github",
+    login_github: "континуе витһ GitHub",
     remember_me: "Мине истә калдыр.",
     login_button: "керергә",
     two_step_problem: "Ике адымлы серсүз белән проблемагыз бармы?",

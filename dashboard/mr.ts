@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "गडद मोड",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github घटक",
+    github: "GitHub घटक",
     admin_api_app: "प्रशासन API वेब सेवा",
     shop_api_app: "खरेदी API वेब सेवा",
     design_kit: "डिझाइन किट्स",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "व्हिडिओ",
         sub_title:
-          "प्रथम, तुमच्या उत्पादनाचा व्हिडिओ Youtube वर अपलोड करा आणि नंतर व्हिडिओ URL येथे टाका.",
+          "प्रथम, तुमच्या उत्पादनाचा व्हिडिओ YouTube वर अपलोड करा आणि नंतर व्हिडिओ URL येथे टाका.",
       },
       change_bg_ai: {
         title: "तयार करा प्रतिमा घटक नवीन पार्श्वभूमी",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "सह सुरू ठेवा",
     register_linkedin: "LinkedIn सह सुरू ठेवा",
     register_facebook: "Facebook सह सुरू ठेवा",
-    register_github: "Github सह सुरू ठेवा",
+    register_github: "GitHub सह सुरू ठेवा",
     create_your_account: "तुमचे खाते तयार करा",
     password_8_chars: "पासवर्ड किमान 8 वर्णांचा असणे आवश्यक आहे.",
     password_upercase_number: "किमान एक मोठे अक्षर आणि एक संख्या.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Google सह सुरू ठेवा",
     login_linkedin: "LinkedIn सह सुरू ठेवा",
     login_facebook: "Facebook सह सुरू ठेवा",
-    login_github: "Github सह सुरू ठेवा",
+    login_github: "GitHub सह सुरू ठेवा",
     remember_me: "माझी आठवण ठेवा.",
     login_button: "लॉगिन",
     two_step_problem: "तुम्हाला द्वि-चरण पासवर्डमध्ये समस्या आहे का?",

@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "LinkedIn",
-  Twitter: "тўіттэр",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "GitHub",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Цёмны рэжым",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "Частыя пытанні",
-    github: "Рэпазітар Github",
+    github: "Рэпазітар GitHub",
     admin_api_app: "Вэб-сэрвіс API адміністратара",
     shop_api_app: "Вэб-сэрвіс API крамы",
     design_kit: "Наборы дызайну",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Відэа",
         sub_title:
-          "Спачатку загрузіце відэа вашага прадукту на Youtube, а затым пастаўце тут URL відэа.",
+          "Спачатку загрузіце відэа вашага прадукту на YouTube, а затым пастаўце тут URL відэа.",
       },
       change_bg_ai: {
         title: "стварыць імагэ ўітх новы баккгроунд",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Працягвайце з",
     register_linkedin: "Працягвайце з LinkedIn",
     register_facebook: "Працягвайце з Facebook",
-    register_github: "Працягвайце з Github",
+    register_github: "Працягвайце з GitHub",
     create_your_account: "Стварыце свой уліковы запіс",
     password_8_chars: "Пароль павінен быць не менш за 8 сімвалаў.",
     password_upercase_number: "Прынамсі адна вялікая літара і адна лічба.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Працягвайце з Google",
     login_linkedin: "Працягвайце з LinkedIn",
     login_facebook: "Працягвайце з Facebook",
-    login_github: "Працягвайце з Github",
+    login_github: "Працягвайце з GitHub",
     remember_me: "Запомні мяне.",
     login_button: "увайсці",
     two_step_problem: "У вас ёсць праблемы з двухэтапным паролем?",

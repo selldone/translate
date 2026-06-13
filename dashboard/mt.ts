@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Modalità mudlama",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Repożitorju Github",
+    github: "Repożitorju GitHub",
     admin_api_app: "Servizz tal-web tal-API tal-amministratur",
     shop_api_app: "Shop API servizz tal-web",
     design_kit: "Kitts tad-disinn",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "oġġettġġoġġett",
         sub_title:
-          "L-ewwel, ittella l-vidjo tal-prodott tiegħek fuq Youtube, u mbagħad poġġi l-URL tal-vidjo hawn.",
+          "L-ewwel, ittella l-vidjo tal-prodott tiegħek fuq YouTube, u mbagħad poġġi l-URL tal-vidjo hawn.",
       },
       change_bg_ai: {
         title: "oġġettħoġġett oġġettġoġġett oġġettġġoġġett Ġoġġett oġġett",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Kompli ma",
     register_linkedin: "Kompli ma' LinkedIn",
     register_facebook: "Kompli b'Facebook",
-    register_github: "Kompli b'Github",
+    register_github: "Kompli b'GitHub",
     create_your_account: "Oħloq il-kont tiegħek",
     password_8_chars: "Il-password għandu jkun ta' mill-inqas 8 karattri.",
     password_upercase_number: "Mill-inqas ittra waħda kbira u numru wieħed.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Kompli bil-Google",
     login_linkedin: "Kompli ma' LinkedIn",
     login_facebook: "Kompli b'Facebook",
-    login_github: "Kompli b'Github",
+    login_github: "Kompli b'GitHub",
     remember_me: "Tiftakarni.",
     login_button: "Idħol",
     two_step_problem: "Għandek problema bil-password f'żewġ passi?",

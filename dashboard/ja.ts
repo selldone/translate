@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "LinkedIn",
-  Twitter: "ツイッター",
-  Facebook: "フェイスブック",
-  Instagram: "インスタグラム",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
+  Facebook: "Facebook",
+  Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "GitHub",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "ダークモード",

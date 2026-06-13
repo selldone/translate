@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Habka Madow",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Kaydka Github",
+    github: "Kaydka GitHub",
     admin_api_app: "Adeegga shabakadda API Admin",
     shop_api_app: "Ka iibso adeegga shabakadda API",
     design_kit: "Qalabka naqshadeynta",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "shay",
         sub_title:
-          "Marka hore, soo rar fiidyaha alaabtaada Youtube, ka dibna ku dheji URL fiidiyowga halkan.",
+          "Marka hore, soo rar fiidyaha alaabtaada YouTube, ka dibna ku dheji URL fiidiyowga halkan.",
       },
       change_bg_ai: {
         title: "Abuur Sawirka shay Cusub asalka",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Ku sii wad",
     register_linkedin: "Ku sii wad LinkedIn",
     register_facebook: "Ku sii wad Facebook",
-    register_github: "Ku sii wad Github",
+    register_github: "Ku sii wad GitHub",
     create_your_account: "Samee akoonkaaga",
     password_8_chars: "Erayga sirta ah waa inuu ahaadaa ugu yaraan 8 xaraf.",
     password_upercase_number: "Ugu yaraan hal xaraf oo waaweyn iyo hal lambar.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Ku sii wad Google",
     login_linkedin: "Ku sii wad LinkedIn",
     login_facebook: "Ku sii wad Facebook",
-    login_github: "Ku sii wad Github",
+    login_github: "Ku sii wad GitHub",
     remember_me: "I xasuuso.",
     login_button: "soo gal",
     two_step_problem: "Dhibaato ma ku qabtaa erayga sirta ah ee laba-tallaabo?",

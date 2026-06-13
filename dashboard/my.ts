@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "အမှောင်မုဒ်",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github အရာ",
+    github: "GitHub အရာ",
     admin_api_app: "စီမံခန့်ခွဲသူ API ဝဘ်ဝန်ဆောင်မှု",
     shop_api_app: "API ဝဘ်ဝန်ဆောင်မှုကို စျေးဝယ်ပါ။",
     design_kit: "ဒီဇိုင်းအစုံ",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "ဗီဒီယို",
         sub_title:
-          "ပထမဦးစွာ သင့်ထုတ်ကုန်ဗီဒီယိုကို Youtube တွင် အပ်လုဒ်လုပ်ပါ၊ ထို့နောက် ဗီဒီယို URL ကို ဤနေရာတွင် ထည့်ပါ။",
+          "ပထမဦးစွာ သင့်ထုတ်ကုန်ဗီဒီယိုကို YouTube တွင် အပ်လုဒ်လုပ်ပါ၊ ထို့နောက် ဗီဒီယို URL ကို ဤနေရာတွင် ထည့်ပါ။",
       },
       change_bg_ai: {
         title: "ဖန်တီးပါ။ ပုံ အရာ အသစ် နောက်ခံ",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "ဆက်ရန်",
     register_linkedin: "LinkedIn ဖြင့် ဆက်လုပ်ပါ။",
     register_facebook: "Facebook နဲ့ ဆက်လုပ်ပါ။",
-    register_github: "Github ဖြင့် ဆက်လက်လုပ်ဆောင်ပါ။",
+    register_github: "GitHub ဖြင့် ဆက်လက်လုပ်ဆောင်ပါ။",
     create_your_account: "သင့်အကောင့်ကိုဖန်တီးပါ",
     password_8_chars: "စကားဝှက်သည် အနည်းဆုံး စာလုံး 8 လုံးရှိရမည်။",
     password_upercase_number: "အနည်းဆုံး စာလုံးအကြီးတစ်လုံးနှင့် နံပါတ်တစ်ခု။",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Google ဖြင့် ဆက်လုပ်ပါ။",
     login_linkedin: "LinkedIn ဖြင့် ဆက်လုပ်ပါ။",
     login_facebook: "Facebook နဲ့ ဆက်လုပ်ပါ။",
-    login_github: "Github ဖြင့် ဆက်လက်လုပ်ဆောင်ပါ။",
+    login_github: "GitHub ဖြင့် ဆက်လက်လုပ်ဆောင်ပါ။",
     remember_me: "ကျွန်တော့်ကိုမှတ်မိပါသလား။",
     login_button: "လော့ဂ်အင်",
     two_step_problem: "နှစ်ဆင့်စကားဝှက်အတွက် ပြဿနာရှိပါသလား။",

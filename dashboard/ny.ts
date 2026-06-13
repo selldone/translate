@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Mdima Wamdima",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github chinthu",
+    github: "GitHub chinthu",
     admin_api_app: "woyang’anira API chinthu ntchito",
     shop_api_app: "Gulani mawebusayiti a API",
     design_kit: "Zida zamapangidwe",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Kanema",
         sub_title:
-          "Choyamba, kwezani malonda anu kanema pa Youtube, ndiyeno ikani kanema URL apa.",
+          "Choyamba, kwezani malonda anu kanema pa YouTube, ndiyeno ikani kanema URL apa.",
       },
       change_bg_ai: {
         title: "Pangani Chithunzi chinthu Zatsopano maziko",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Pitirizani ndi",
     register_linkedin: "Pitirizani ndi LinkedIn",
     register_facebook: "Pitirizani ndi Facebook",
-    register_github: "Pitirizani ndi Github",
+    register_github: "Pitirizani ndi GitHub",
     create_your_account: "Pangani akaunti yanu",
     password_8_chars: "Mawu achinsinsi ayenera kukhala osachepera zilembo 8.",
     password_upercase_number: "Chilembo chimodzi chachikulu ndi nambala imodzi.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Pitirizani ndi Google",
     login_linkedin: "Pitirizani ndi LinkedIn",
     login_facebook: "Pitirizani ndi Facebook",
-    login_github: "Pitirizani ndi Github",
+    login_github: "Pitirizani ndi GitHub",
     remember_me: "Ndikumbukireni.",
     login_button: "Lowani muakaunti",
     two_step_problem: "Kodi muli ndi vuto ndi mawu achinsinsi awiri?",

@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "유튜브 YouTube",
-  Linkedin: "링크드인 Linkedin",
-  Twitter: "트위터",
-  Facebook: "페이스북 Facebook",
-  Instagram: "인스 타 그램 Instagram",
-  Reddit: "레딧 Reddit",
-  Github: "깃허브 Github",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
+  Facebook: "Facebook",
+  Instagram: "Instagram",
+  Reddit: "Reddit",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "다크 모드",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github 리포지토리",
+    github: "GitHub 리포지토리",
     admin_api_app: "관리 API 웹 서비스",
     shop_api_app: "API 웹 서비스 쇼핑하기",
     design_kit: "디자인 키트",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "동영상",
         sub_title:
-          "먼저 제품 비디오를 Youtube에 업로드한 다음 여기에 비디오 URL을 입력합니다.",
+          "먼저 제품 비디오를 YouTube에 업로드한 다음 여기에 비디오 URL을 입력합니다.",
       },
       change_bg_ai: {
         title: "창조하다 영상 카드로 새로운 배경",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "계속",
     register_linkedin: "LinkedIn 계속하기",
     register_facebook: "페이스북으로 계속하기 Facebook",
-    register_github: "Github 계속하기",
+    register_github: "GitHub 계속하기",
     create_your_account: "계정 만들기",
     password_8_chars: "비밀번호는 8자 이상이어야 합니다.",
     password_upercase_number: "하나 이상의 대문자와 하나의 숫자.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Google로 계속하기",
     login_linkedin: "LinkedIn 계속하기",
     login_facebook: "페이스북으로 계속하기 Facebook",
-    login_github: "Github 계속하기",
+    login_github: "GitHub 계속하기",
     remember_me: "날 기억해.",
     login_button: "로그인",
     two_step_problem: "2단계 비밀번호에 문제가 있습니까?",

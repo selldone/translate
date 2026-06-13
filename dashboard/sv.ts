@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "mörkt läge",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github objekt",
+    github: "GitHub objekt",
     admin_api_app: "Admin API webbtjänst",
     shop_api_app: "Shop API webbtjänst",
     design_kit: "Designsatser",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "objekt",
         sub_title:
-          "Ladda först upp din produktvideo på Youtube och lägg sedan in videons URL här.",
+          "Ladda först upp din produktvideo på YouTube och lägg sedan in videons URL här.",
       },
       change_bg_ai: {
         title: "Skapa Bild Med Ny Bakgrund",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Fortsätt med",
     register_linkedin: "Fortsätt med LinkedIn",
     register_facebook: "Fortsätt med Facebook",
-    register_github: "Fortsätt med Github",
+    register_github: "Fortsätt med GitHub",
     create_your_account: "Skapa ditt konto",
     password_8_chars: "Lösenordet måste bestå av minst 8 tecken.",
     password_upercase_number: "Minst en stor bokstav och en siffra.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Fortsätt med Google",
     login_linkedin: "Fortsätt med LinkedIn",
     login_facebook: "Fortsätt med Facebook",
-    login_github: "Fortsätt med Github",
+    login_github: "Fortsätt med GitHub",
     remember_me: "Kom ihåg mig.",
     login_button: "Logga in",
     two_step_problem: "Har du problem med tvåstegslösenordet?",

@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "Youtube",
-  Linkedin: "Linkedin",
-  Twitter: "Świergot Twitter",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Tryb ciemny",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Repozytorium Github",
+    github: "Repozytorium GitHub",
     admin_api_app: "Usługa internetowa Admin API",
     shop_api_app: "Sklep internetowy serwis API",
     design_kit: "Zestawy projektowe",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Wideo",
         sub_title:
-          "Najpierw prześlij wideo produktu na Youtube, a następnie umieść tutaj adres URL wideo.",
+          "Najpierw prześlij wideo produktu na YouTube, a następnie umieść tutaj adres URL wideo.",
       },
       change_bg_ai: {
         title: "Tworzyć Obraz element Nowy tło",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Kontynuować",
     register_linkedin: "Kontynuuj na LinkedIn",
     register_facebook: "Kontynuuj z Facebookiem Facebook",
-    register_github: "Kontynuuj z Github",
+    register_github: "Kontynuuj z GitHub",
     create_your_account: "Utwórz swoje konto",
     password_8_chars: "Hasło musi zawierać co najmniej 8 znaków.",
     password_upercase_number: "Co najmniej jedna wielka litera i jedna cyfra.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Kontynuuj z Google",
     login_linkedin: "Kontynuuj na LinkedIn",
     login_facebook: "Kontynuuj z Facebookiem Facebook",
-    login_github: "Kontynuuj z Github",
+    login_github: "Kontynuuj z GitHub",
     remember_me: "Zapamiętaj mnie.",
     login_button: "Zaloguj sie",
     two_step_problem: "Masz problem z dwustopniowym hasłem?",

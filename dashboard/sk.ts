@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Tmavý režim",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Úložisko Github",
+    github: "Úložisko GitHub",
     admin_api_app: "Webová služba Admin API",
     shop_api_app: "Webová služba Shop API",
     design_kit: "Dizajnové súpravy",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "položka",
         sub_title:
-          "Najprv nahrajte video o svojom produkte na Youtube a potom sem vložte adresu URL videa.",
+          "Najprv nahrajte video o svojom produkte na YouTube a potom sem vložte adresu URL videa.",
       },
       change_bg_ai: {
         title: "Vytvorte Obrázok položka Nový pozadie",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Pokračujte s",
     register_linkedin: "Pokračujte na LinkedIn",
     register_facebook: "Pokračujte na Facebooku",
-    register_github: "Pokračujte s Github",
+    register_github: "Pokračujte s GitHub",
     create_your_account: "Vytvor si účet",
     password_8_chars: "Heslo musí mať aspoň 8 znakov.",
     password_upercase_number: "Aspoň jedno veľké písmeno a jedno číslo.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Pokračujte so službou Google",
     login_linkedin: "Pokračujte na LinkedIn",
     login_facebook: "Pokračujte na Facebooku",
-    login_github: "Pokračujte s Github",
+    login_github: "Pokračujte s GitHub",
     remember_me: "Pamätáš si ma.",
     login_button: "Prihlásiť sa",
     two_step_problem: "Máte problém s dvojstupňovým heslom?",

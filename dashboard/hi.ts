@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "यूट्यूब",
-  Linkedin: "Linkedin",
-  Twitter: "ट्विटर",
-  Facebook: "फेसबुक",
-  Instagram: "instagram",
-  Reddit: "reddit",
-  Github: "Github",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
+  Facebook: "Facebook",
+  Instagram: "Instagram",
+  Reddit: "Reddit",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "डार्क मोड",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "वीडियो",
         sub_title:
-          "सबसे पहले, अपना उत्पाद वीडियो Youtube पर अपलोड करें, और फिर यहां वीडियो URL डालें।",
+          "सबसे पहले, अपना उत्पाद वीडियो YouTube पर अपलोड करें, और फिर यहां वीडियो URL डालें।",
       },
       change_bg_ai: {
         title: "नई पृष्ठभूमि के साथ छवि बनाएँ",

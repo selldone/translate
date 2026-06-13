@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
-  Twitter: "twitter",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Yanayin duhu",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Ma'ajiyar Github",
+    github: "Ma'ajiyar GitHub",
     admin_api_app: "Sabis na API na Admin",
     shop_api_app: "Siyayya sabis na gidan yanar gizo API",
     design_kit: "Kayan ƙira",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Bidiyo",
         sub_title:
-          "Da farko, loda bidiyon samfurin ku akan Youtube, sannan sanya URL ɗin bidiyo anan.",
+          "Da farko, loda bidiyon samfurin ku akan YouTube, sannan sanya URL ɗin bidiyo anan.",
       },
       change_bg_ai: {
         title: "Ƙirƙira Hoto da Sabo Baya",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Ci gaba da",
     register_linkedin: "Ci gaba da LinkedIn",
     register_facebook: "Ci gaba da Facebook",
-    register_github: "Ci gaba da Github",
+    register_github: "Ci gaba da GitHub",
     create_your_account: "Ƙirƙiri asusun ku",
     password_8_chars: "Dole ne kalmar wucewa ta zama aƙalla haruffa 8.",
     password_upercase_number: "Akalla babban harafi ɗaya da lamba ɗaya.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Ci gaba da Google",
     login_linkedin: "Ci gaba da LinkedIn",
     login_facebook: "Ci gaba da Facebook",
-    login_github: "Ci gaba da Github",
+    login_github: "Ci gaba da GitHub",
     remember_me: "Ka tuna da ni.",
     login_button: "shiga",
     two_step_problem: "Kuna da matsala da kalmar wucewa ta mataki biyu?",

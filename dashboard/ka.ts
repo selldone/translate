@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "LinkedIn",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
-  Facebook: "ფეისბუქი",
-  Instagram: "ინსტაგრამი",
+  Facebook: "Facebook",
+  Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "გითჰუბი",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "ბნელი რეჟიმი",

@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Modo escuro",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Repositorio Github",
+    github: "Repositorio GitHub",
     admin_api_app: "Servizo web da API de administración",
     shop_api_app: "Servizo web da API da tenda",
     design_kit: "Kits de deseño",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Vídeo",
         sub_title:
-          "Primeiro, carga o vídeo do teu produto en Youtube e, a continuación, coloca o URL do vídeo aquí.",
+          "Primeiro, carga o vídeo do teu produto en YouTube e, a continuación, coloca o URL do vídeo aquí.",
       },
       change_bg_ai: {
         title: "Crear imaxe con nuevo fondo",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Continuar con",
     register_linkedin: "Continúa con LinkedIn",
     register_facebook: "Continúa con Facebook",
-    register_github: "Continúa con Github",
+    register_github: "Continúa con GitHub",
     create_your_account: "Crea a túa conta",
     password_8_chars: "O contrasinal debe ter polo menos 8 caracteres.",
     password_upercase_number: "Polo menos unha letra maiúscula e un número.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Continúa con Google",
     login_linkedin: "Continúa con LinkedIn",
     login_facebook: "Continúa con Facebook",
-    login_github: "Continúa con Github",
+    login_github: "Continúa con GitHub",
     remember_me: "Lémbrame.",
     login_button: "acceder",
     two_step_problem: "Tes algún problema co contrasinal de dous pasos?",

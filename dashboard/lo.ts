@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
-  Twitter: "ລາຍການ",
-  Facebook: "ເຟສບຸກ Facebook",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
+  Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "ໂໝດມືດ",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github ລາຍການ",
+    github: "GitHub ລາຍການ",
     admin_api_app: "ລາຍການ / ລາຍການ ແລະການບໍລິການ API",
     shop_api_app: "ບໍລິການຜ່ານເວັບ API",
     design_kit: "ຊຸດອອກແບບ",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "ວິດີໂອ",
         sub_title:
-          "ທໍາອິດ, ອັບໂຫລດວິດີໂອຜະລິດຕະພັນຂອງທ່ານໃນ Youtube, ແລະຫຼັງຈາກນັ້ນໃສ່ URL ວິດີໂອທີ່ນີ້.",
+          "ທໍາອິດ, ອັບໂຫລດວິດີໂອຜະລິດຕະພັນຂອງທ່ານໃນ YouTube, ແລະຫຼັງຈາກນັ້ນໃສ່ URL ວິດີໂອທີ່ນີ້.",
       },
       change_bg_ai: {
         title: "ສ້າງ ຮູບພາບ ລາຍການ ໃຫມ່ ພື້ນຫຼັງ",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "ສືບຕໍ່ດ້ວຍ",
     register_linkedin: "ສືບຕໍ່ກັບ LinkedIn",
     register_facebook: "ສືບຕໍ່ກັບເຟສບຸກ Facebook",
-    register_github: "ສືບຕໍ່ກັບ Github",
+    register_github: "ສືບຕໍ່ກັບ GitHub",
     create_your_account: "ສ້າງບັນຊີຂອງທ່ານ",
     password_8_chars: "ລະຫັດຜ່ານຕ້ອງມີຢ່າງໜ້ອຍ 8 ຕົວອັກສອນ.",
     password_upercase_number: "ຢ່າງໜ້ອຍໜຶ່ງຕົວພິມໃຫຍ່ ແລະໜຶ່ງຕົວເລກ.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "ສືບຕໍ່ກັບ Google",
     login_linkedin: "ສືບຕໍ່ກັບ LinkedIn",
     login_facebook: "ສືບຕໍ່ກັບເຟສບຸກ Facebook",
-    login_github: "ສືບຕໍ່ກັບ Github",
+    login_github: "ສືບຕໍ່ກັບ GitHub",
     remember_me: "ຈື່​ຂ້ອຍ.",
     login_button: "ເຂົ້າ​ສູ່​ລະ​ບົບ",
     two_step_problem: "ທ່ານມີບັນຫາກັບລະຫັດຜ່ານສອງຂັ້ນຕອນບໍ?",

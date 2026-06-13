@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
-  Twitter: "Cvrkut",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Mračni način rada",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github spremište",
+    github: "GitHub spremište",
     admin_api_app: "Admin API web usluga",
     shop_api_app: "Web-servis Shop API",
     design_kit: "Kompleti za dizajn",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "pojam",
         sub_title:
-          "Najprije prenesite svoj video o proizvodu na Youtube, a zatim ovdje stavite URL videozapisa.",
+          "Najprije prenesite svoj video o proizvodu na YouTube, a zatim ovdje stavite URL videozapisa.",
       },
       change_bg_ai: {
         title: "kreiraj slika sa novo pozadina",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Nastavite s",
     register_linkedin: "Nastavite s LinkedInom",
     register_facebook: "Nastavite s Facebookom",
-    register_github: "Nastavite s Githubom",
+    register_github: "Nastavite s GitHubom",
     create_your_account: "kreiraj svoj račun",
     password_8_chars: "Lozinka mora imati najmanje 8 znakova.",
     password_upercase_number: "Najmanje jedno veliko slovo i jedan broj.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Nastavite s Googleom",
     login_linkedin: "Nastavite s LinkedInom",
     login_facebook: "Nastavite s Facebookom",
-    login_github: "Nastavite s Githubom",
+    login_github: "Nastavite s GitHubom",
     remember_me: "Zapamti me.",
     login_button: "prijaviti se",
     two_step_problem: "Imate li problema s lozinkom u dva koraka?",

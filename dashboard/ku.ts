@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
-  Twitter: "hêman",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Moda tarî",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Depoya Github",
+    github: "Depoya GitHub",
     admin_api_app: "Karûbarê webê ya API-ê ya rêveberiyê",
     shop_api_app: "Karûbarê malperê API-ê bikirin",
     design_kit: "Kitên sêwirînê",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "URL-ya",
         sub_title:
-          "Pêşîn, vîdyoya hilberê xwe li ser Youtube-ê barkirin, û dûv re URL-ya vîdyoyê li vir bixin.",
+          "Pêşîn, vîdyoya hilberê xwe li ser YouTube-ê barkirin, û dûv re URL-ya vîdyoyê li vir bixin.",
       },
       change_bg_ai: {
         title: "Xûliqandin Wêne bi Nşh paşxane",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Bidomînin",
     register_linkedin: "Bi LinkedIn re berdewam bikin",
     register_facebook: "Bi Facebookê re bidomînin",
-    register_github: "Bi Github re berdewam bikin",
+    register_github: "Bi GitHub re berdewam bikin",
     create_your_account: "Hesabê xwe çêbikin",
     password_8_chars: "Divê şîfre herî kêm 8 tîpan be.",
     password_upercase_number: "Bi kêmanî yek tîpek mezin û yek hejmar.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Bi Google re berdewam bikin",
     login_linkedin: "Bi LinkedIn re berdewam bikin",
     login_facebook: "Bi Facebookê re bidomînin",
-    login_github: "Bi Github re berdewam bikin",
+    login_github: "Bi GitHub re berdewam bikin",
     remember_me: "Min bîne bîra xwe.",
     login_button: "2-gavekî",
     two_step_problem: "Pirsgirêka we bi şîfreya du-gavekî heye?",

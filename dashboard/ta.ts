@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "டார்ன்க் பயன்முறை",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "வீடியோ",
         sub_title:
-          "முதலில், உங்கள் தயாரிப்பு வீடியோவை Youtube இல் பதிவேற்றவும், பின்னர் வீடியோ URL ஐ இங்கே வைக்கவும்.",
+          "முதலில், உங்கள் தயாரிப்பு வீடியோவை YouTube இல் பதிவேற்றவும், பின்னர் வீடியோ URL ஐ இங்கே வைக்கவும்.",
       },
       change_bg_ai: {
         title: "உருவாக்கு படம் உருப்படி புதியது பின்னணி",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "உடன் தொடரவும்",
     register_linkedin: "LinkedIn உடன் தொடரவும்",
     register_facebook: "Facebook உடன் தொடரவும்",
-    register_github: "Github உடன் தொடரவும்",
+    register_github: "GitHub உடன் தொடரவும்",
     create_your_account: "உங்கள் கணக்கை உருவாக்கவும்",
     password_8_chars: "கடவுச்சொல் குறைந்தது 8 எழுத்துகளாக இருக்க வேண்டும்.",
     password_upercase_number: "குறைந்தபட்சம் ஒரு பெரிய எழுத்து மற்றும் ஒரு எண்.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Google உடன் தொடரவும்",
     login_linkedin: "LinkedIn உடன் தொடரவும்",
     login_facebook: "Facebook உடன் தொடரவும்",
-    login_github: "Github உடன் தொடரவும்",
+    login_github: "GitHub உடன் தொடரவும்",
     remember_me: "என்னை நினைவில் வையுங்கள்.",
     login_button: "உள்நுழைய",
     two_step_problem: "இரண்டு-படி கடவுச்சொல்லில் சிக்கல் உள்ளதா?",

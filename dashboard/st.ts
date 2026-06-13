@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Mokhoa o Lefifi",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Sebaka sa polokelo ea Github",
+    github: "Sebaka sa polokelo ea GitHub",
     admin_api_app: "Tsamaiso ea ts'ebeletso ea tepo ea API",
     shop_api_app: "Reka tšebeletso ea webo ea API",
     design_kit: "Lisebelisoa tsa moralo",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "ntho",
         sub_title:
-          "Pele, kenya video ea sehlahisoa sa hau ho Youtube, ebe u beha URL ea video mona.",
+          "Pele, kenya video ea sehlahisoa sa hau ho YouTube, ebe u beha URL ea video mona.",
       },
       change_bg_ai: {
         title: "Theha Setšoantšo ntho E ncha bokamorao",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Tsoela pele ka",
     register_linkedin: "Tsoela pele ka LinkedIn",
     register_facebook: "Tsoela pele ka Facebook",
-    register_github: "Tsoela pele ka Github",
+    register_github: "Tsoela pele ka GitHub",
     create_your_account: "Theha ak'haonte ea hau",
     password_8_chars: "Password e tlameha ho ba bonyane litlhaku tse 8.",
     password_upercase_number: "Bonyane tlhaku e kholo le nomoro e le 'ngoe.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Tsoela pele ka Google",
     login_linkedin: "Tsoela pele ka LinkedIn",
     login_facebook: "Tsoela pele ka Facebook",
-    login_github: "Tsoela pele ka Github",
+    login_github: "Tsoela pele ka GitHub",
     remember_me: "Nkhopole.",
     login_button: "kena",
     two_step_problem: "O na le bothata ka phasewete ea mehato e 'meli?",

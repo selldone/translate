@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
-  Twitter: "Ţŵíţţéř",
-  Facebook: "“Facebook”",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
+  Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Dark tertibi",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github ammary",
+    github: "GitHub ammary",
     admin_api_app: "Admin API web hyzmaty",
     shop_api_app: "API web hyzmatyny dükanyň",
     design_kit: "Dizaýn toplumlary",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Wideo",
         sub_title:
-          "Ilki bilen önüm wideoňyzy “Youtube” -a ýükläň we wideo URL-ni şu ýere goýuň.",
+          "Ilki bilen önüm wideoňyzy “YouTube” -a ýükläň we wideo URL-ni şu ýere goýuň.",
       },
       change_bg_ai: {
         title: "Dörediň Surat Ŵíţħ Täze Ɓáçķğřóúñď",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Dowam et",
     register_linkedin: "LinkedIn bilen dowam ediň",
     register_facebook: "“Facebook” bilen dowam ediň",
-    register_github: "Github bilen dowam ediň",
+    register_github: "GitHub bilen dowam ediň",
     create_your_account: "Hasabyňyzy dörediň",
     password_8_chars: "Parol azyndan 8 simwoldan ybarat bolmaly.",
     password_upercase_number: "Iň bolmanda bir baş harp we bir san.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Google bilen dowam ediň",
     login_linkedin: "LinkedIn bilen dowam ediň",
     login_facebook: "“Facebook” bilen dowam ediň",
-    login_github: "Github bilen dowam ediň",
+    login_github: "GitHub bilen dowam ediň",
     remember_me: "Meni ýada sal.",
     login_button: "giriş",
     two_step_problem: "Iki basgançakly parol bilen baglanyşykly problemaňyz barmy?",

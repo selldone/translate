@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Линкедин Linkedin",
-  Twitter: "Твитер",
-  Facebook: "Фејсбук Facebook",
-  Instagram: "Инстаграм Instagram",
-  Reddit: "Редит Reddit",
-  Github: "Github",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
+  Facebook: "Facebook",
+  Instagram: "Instagram",
+  Reddit: "Reddit",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Темен режим",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Репозиториум Github",
+    github: "Репозиториум GitHub",
     admin_api_app: "Администратор API веб-услуга",
     shop_api_app: "Купувајте веб-услуга API",
     design_kit: "Дизајн комплети",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Видео",
         sub_title:
-          "Прво, прикачете го видеото на вашиот производ на YouTube, а потоа ставете го URL-то на видеото овде. Youtube",
+          "Прво, прикачете го видеото на вашиот производ на YouTube, а потоа ставете го URL-то на видеото овде. YouTube",
       },
       change_bg_ai: {
         title: "Креирај Слика со Ново позадина",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Продолжи со",
     register_linkedin: "Продолжете со LinkedIn",
     register_facebook: "Продолжете со Фејсбук Facebook",
-    register_github: "Продолжете со Github",
+    register_github: "Продолжете со GitHub",
     create_your_account: "Направете ја вашата сметка",
     password_8_chars: "Лозинката мора да има најмалку 8 знаци.",
     password_upercase_number: "Најмалку една голема буква и еден број.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Продолжете со Google",
     login_linkedin: "Продолжете со LinkedIn",
     login_facebook: "Продолжете со Фејсбук Facebook",
-    login_github: "Продолжете со Github",
+    login_github: "Продолжете со GitHub",
     remember_me: "Запомни ме.",
     login_button: "Логирај Се",
     two_step_problem: "Дали имате проблем со лозинката во два чекора?",

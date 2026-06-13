@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Ҳолати торик",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Анбори Github",
+    github: "Анбори GitHub",
     admin_api_app: "Администратор API хидмати веб",
     shop_api_app: "Мағоза API унсур хизмат",
     design_kit: "Маҷмӯаҳои тарҳрезӣ",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Видео",
         sub_title:
-          "унсур, Боргузорӣ кардан унсур Маҳсулот Видео унсур Youtube, унсур унсур Видео URL унсур",
+          "унсур, Боргузорӣ кардан унсур Маҳсулот Видео унсур YouTube, унсур унсур Видео URL унсур",
       },
       change_bg_ai: {
         title: "Эҷод кунед Тасвир унсур Нав замина",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Идома бо",
     register_linkedin: "Бо LinkedIn идома диҳед",
     register_facebook: "Бо Facebook идома диҳед",
-    register_github: "Бо Github идома диҳед",
+    register_github: "Бо GitHub идома диҳед",
     create_your_account: "Ҳисоби худро эҷод кунед",
     password_8_chars: "Рамз бояд на камтар аз 8 аломат бошад.",
     password_upercase_number: "Ақаллан як ҳарфи калон ва як рақам.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Бо Google идома диҳед",
     login_linkedin: "Бо LinkedIn идома диҳед",
     login_facebook: "Бо Facebook идома диҳед",
-    login_github: "Бо Github идома диҳед",
+    login_github: "Бо GitHub идома диҳед",
     remember_me: "Маро дар ёд дор.",
     login_button: "даромадан",
     two_step_problem: "Оё шумо бо пароли дуқадам мушкилот доред?",

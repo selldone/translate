@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Temni način",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github element",
+    github: "GitHub element",
     admin_api_app: "Spletna storitev Admin API",
     shop_api_app: "Spletna storitev API trgovine",
     design_kit: "Dizajnerski kompleti",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "element",
         sub_title:
-          "Najprej naložite svoj videoposnetek o izdelku na Youtube in nato tukaj vnesite URL videoposnetka.",
+          "Najprej naložite svoj videoposnetek o izdelku na YouTube in nato tukaj vnesite URL videoposnetka.",
       },
       change_bg_ai: {
         title: "Ustvari Slika element Novo ozadje",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Nadaljujte z",
     register_linkedin: "Nadaljujte s LinkedInom",
     register_facebook: "Nadaljujte s Facebookom",
-    register_github: "Nadaljujte z Githubom",
+    register_github: "Nadaljujte z GitHubom",
     create_your_account: "Ustvarite svoj račun",
     password_8_chars: "Geslo mora vsebovati najmanj 8 znakov.",
     password_upercase_number: "Vsaj ena velika črka in ena številka.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Nadaljujte z Googlom",
     login_linkedin: "Nadaljujte s LinkedInom",
     login_facebook: "Nadaljujte s Facebookom",
-    login_github: "Nadaljujte z Githubom",
+    login_github: "Nadaljujte z GitHubom",
     remember_me: "Spomni se me.",
     login_button: "Vpiši se",
     two_step_problem: "Ali imate težave z geslom v dveh korakih?",

@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkin Linkedin",
-  Twitter: "tūemi",
-  Facebook: "Pukamata Facebook",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
+  Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Aratau pouri",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github tūemi",
+    github: "GitHub tūemi",
     admin_api_app: "Ratonga paetukutuku API Kaiwhakahaere",
     shop_api_app: "Hoko ratonga paetukutuku API",
     design_kit: "Nga kete hoahoa",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Ataata",
         sub_title:
-          "Tuatahi, tukuna to ataata hua ki runga Youtube, katahi ka tuu te URL ataata ki konei.",
+          "Tuatahi, tukuna to ataata hua ki runga YouTube, katahi ka tuu te URL ataata ki konei.",
       },
       change_bg_ai: {
         title: "Waihanga Whakaahua tūemi Hou papamuri",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Haere tonu",
     register_linkedin: "Haere tonu me LinkedIn",
     register_facebook: "Haere tonu me Pukamata Facebook",
-    register_github: "Haere tonu me Github",
+    register_github: "Haere tonu me GitHub",
     create_your_account: "Waihangahia to putea",
     password_8_chars: "Me 8 te iti rawa o te kupuhipa.",
     password_upercase_number: "Kia kotahi te reta matua me te nama kotahi.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Haere tonu me Google",
     login_linkedin: "Haere tonu me LinkedIn",
     login_facebook: "Haere tonu me Pukamata Facebook",
-    login_github: "Haere tonu me Github",
+    login_github: "Haere tonu me GitHub",
     remember_me: "Kia mahara ki ahau.",
     login_button: "takiuru",
     two_step_problem: "He raru koe ki te kupuhipa e rua-taahiraa?",

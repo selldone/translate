@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "ലിങ്ക്ഡ്ഇൻ Linkedin",
-  Twitter: "ട്വിറ്റർ",
-  Facebook: "ഫേസ്ബുക്ക് Facebook",
-  Instagram: "ഇൻസ്റ്റാഗ്രാം Instagram",
-  Reddit: "റെഡ്ഡിറ്റ് Reddit",
-  Github: "ഗിത്തബ് Github",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
+  Facebook: "Facebook",
+  Instagram: "Instagram",
+  Reddit: "Reddit",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "ഡാർക്ക് മോഡ്",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "ഗിത്തബ് ശേഖരം Github",
+    github: "ഗിത്തബ് ശേഖരം GitHub",
     admin_api_app: "അഡ്മിൻ API വെബ് സേവനം",
     shop_api_app: "ഷോപ്പ് API വെബ് സേവനം",
     design_kit: "ഡിസൈൻ കിറ്റുകൾ",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "വീഡിയോ",
         sub_title:
-          "ആദ്യം, നിങ്ങളുടെ ഉൽപ്പന്ന വീഡിയോ Youtube-ൽ അപ്‌ലോഡ് ചെയ്യുക, തുടർന്ന് വീഡിയോ URL ഇവിടെ ഇടുക.",
+          "ആദ്യം, നിങ്ങളുടെ ഉൽപ്പന്ന വീഡിയോ YouTube-ൽ അപ്‌ലോഡ് ചെയ്യുക, തുടർന്ന് വീഡിയോ URL ഇവിടെ ഇടുക.",
       },
       change_bg_ai: {
         title: "സൃഷ്ടിക്കാൻ ചിത്രം തുടരുക പുതിയത് പശ്ചാത്തലം",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "കൂടെ തുടരുക",
     register_linkedin: "LinkedIn-ൽ തുടരുക",
     register_facebook: "ഫേസ്ബുക്കിൽ തുടരുക Facebook",
-    register_github: "Github-ൽ തുടരുക",
+    register_github: "GitHub-ൽ തുടരുക",
     create_your_account: "താങ്കളുടെ അക്കൗണ്ട് സൃഷ്ടിക്കുക",
     password_8_chars: "പാസ്‌വേഡിന് കുറഞ്ഞത് 8 പ്രതീകങ്ങൾ ഉണ്ടായിരിക്കണം.",
     password_upercase_number: "കുറഞ്ഞത് ഒരു വലിയക്ഷരവും ഒരു അക്കവും.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Google-ൽ തുടരുക",
     login_linkedin: "LinkedIn-ൽ തുടരുക",
     login_facebook: "ഫേസ്ബുക്കിൽ തുടരുക Facebook",
-    login_github: "Github-ൽ തുടരുക",
+    login_github: "GitHub-ൽ തുടരുക",
     remember_me: "എന്നെ ഓർക്കണം.",
     login_button: "ലോഗിൻ",
     two_step_problem: "രണ്ട് ഘട്ടങ്ങളുള്ള പാസ്‌വേഡിൽ നിങ്ങൾക്ക് പ്രശ്‌നമുണ്ടോ?",

@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Modaliteti i errët",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Depoja e Github",
+    github: "Depoja e GitHub",
     admin_api_app: "Shërbimi në internet API i administratorit",
     shop_api_app: "Bleni shërbimin në internet API",
     design_kit: "Komplete projektimi",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "artikull",
         sub_title:
-          "Fillimisht, ngarkoni videon e produktit tuaj në Youtube dhe më pas vendosni URL-në e videos këtu.",
+          "Fillimisht, ngarkoni videon e produktit tuaj në YouTube dhe më pas vendosni URL-në e videos këtu.",
       },
       change_bg_ai: {
         title: "Krijo Imazhi artikull I ri sfond",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Vazhdoni me",
     register_linkedin: "Vazhdoni me LinkedIn",
     register_facebook: "Vazhdo me Facebook",
-    register_github: "Vazhdo me Github",
+    register_github: "Vazhdo me GitHub",
     create_your_account: "Krijo llogarine tende",
     password_8_chars: "Fjalëkalimi duhet të jetë së paku 8 karaktere.",
     password_upercase_number: "Të paktën një shkronjë e madhe dhe një numër.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Vazhdo me Google",
     login_linkedin: "Vazhdoni me LinkedIn",
     login_facebook: "Vazhdo me Facebook",
-    login_github: "Vazhdo me Github",
+    login_github: "Vazhdo me GitHub",
     remember_me: "Më kujto mua.",
     login_button: "identifikimi",
     two_step_problem: "Keni problem me fjalëkalimin me dy hapa?",

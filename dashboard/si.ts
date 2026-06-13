@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "අඳුරු මාදිලිය",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github ගබඩාව",
+    github: "GitHub ගබඩාව",
     admin_api_app: "පරිපාලක API වෙබ් සේවාව",
     shop_api_app: "සාප්පු API වෙබ් සේවාව",
     design_kit: "නිර්මාණ කට්ටල",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "වීඩියෝ",
         sub_title:
-          "පළමුව, ඔබේ නිෂ්පාදන වීඩියෝව Youtube මත උඩුගත කරන්න, ඉන්පසු වීඩියෝ URL එක මෙහි දමන්න.",
+          "පළමුව, ඔබේ නිෂ්පාදන වීඩියෝව YouTube මත උඩුගත කරන්න, ඉන්පසු වීඩියෝ URL එක මෙහි දමන්න.",
       },
       change_bg_ai: {
         title: "නිර්මාණය කරන්න රූප අයිතමය අලුත් පසුබිම",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "දිගටම කරගෙන යන්න",
     register_linkedin: "LinkedIn සමඟින් ඉදිරියට යන්න",
     register_facebook: "Facebook සමඟින් ඉදිරියට යන්න",
-    register_github: "Github සමඟින් ඉදිරියට යන්න",
+    register_github: "GitHub සමඟින් ඉදිරියට යන්න",
     create_your_account: "ඔබගේ ගිණුම සාදන්න",
     password_8_chars: "මුරපදය අවම වශයෙන් අක්ෂර 8 ක් විය යුතුය.",
     password_upercase_number: "අවම වශයෙන් එක් විශාල අකුරක් සහ එක් අංකයක්.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Google සමඟින් ඉදිරියට යන්න",
     login_linkedin: "LinkedIn සමඟින් ඉදිරියට යන්න",
     login_facebook: "Facebook සමඟින් ඉදිරියට යන්න",
-    login_github: "Github සමඟින් ඉදිරියට යන්න",
+    login_github: "GitHub සමඟින් ඉදිරියට යන්න",
     remember_me: "මාව මතක ද.",
     login_button: "ඇතුල් වන්න",
     two_step_problem: "ඔබට පියවර දෙකක මුරපදය සම්බන්ධයෙන් ගැටලුවක් තිබේද?",

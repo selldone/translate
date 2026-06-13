@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "ଡାର୍କ ମୋଡ୍ |",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "ଗିଥବ୍ ରେପୋଜିଟୋରୀ | GitHub Github",
+    github: "ଗିଥବ୍ ରେପୋଜିଟୋରୀ | GitHub GitHub",
     admin_api_app: "ଆଡମିନି API ୱେବ୍ ସେବା |",
     shop_api_app: "API ୱେବ୍ ସେବା କିଣନ୍ତୁ |",
     design_kit: "ଡିଜାଇନ୍ କିଟ୍ |",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "ଭିଡିଓ",
         sub_title:
-          "ପ୍ରଥମେ, ତୁମର ଉତ୍ପାଦ ଭିଡିଓକୁ ୟୁଟ୍ୟୁବରେ ଅପଲୋଡ୍ କର, ଏବଂ ତାପରେ ଭିଡିଓ URL କୁ ଏଠାରେ ରଖ | YouTube Youtube",
+          "ପ୍ରଥମେ, ତୁମର ଉତ୍ପାଦ ଭିଡିଓକୁ ୟୁଟ୍ୟୁବରେ ଅପଲୋଡ୍ କର, ଏବଂ ତାପରେ ଭିଡିଓ URL କୁ ଏଠାରେ ରଖ | YouTube YouTube",
       },
       change_bg_ai: {
         title: "ସୃଷ୍ଟି କରନ୍ତୁ | ପ୍ରତିଛବି | ଆଇଟମ୍ ନୂତନ ପୃଷ୍ଠଭୂମି",
@@ -5517,9 +5517,9 @@ export default {
     register_google: "ଗୁଗୁଲ୍ ସହିତ ଜାରି ରଖ | Google",
     register_apple: "ଆପଲ୍ ସହିତ ଜାରି ରଖନ୍ତୁ | Apple",
     continue_with: "ସହିତ ଜାରି ରଖ |",
-    register_linkedin: "ଲିଙ୍କଡଇନ୍ ସହିତ ଜାରି ରଖନ୍ତୁ | LinkedIn Linkedin",
+    register_linkedin: "ଲିଙ୍କଡଇନ୍ ସହିତ ଜାରି ରଖନ୍ତୁ | LinkedIn LinkedIn",
     register_facebook: "ଫେସବୁକ୍ ସହିତ ଜାରି ରଖ | Facebook",
-    register_github: "ଗିଥବ୍ ସହିତ ଜାରି ରଖ | GitHub Github",
+    register_github: "ଗିଥବ୍ ସହିତ ଜାରି ରଖ | GitHub GitHub",
     create_your_account: "ଆପଣଙ୍କର ଖାତା ସୃଷ୍ଟି କରନ୍ତୁ |",
     password_8_chars: "ପାସୱାର୍ଡ ଅତିକମରେ 8 ଅକ୍ଷର ହେବା ଜରୁରୀ |",
     password_upercase_number: "ଅତିକମରେ ଗୋଟିଏ ବଡ ଅକ୍ଷର ଏବଂ ଗୋଟିଏ ସଂଖ୍ୟା |",
@@ -5531,9 +5531,9 @@ export default {
     already_signup: "ପୂର୍ବରୁ ସାଇନ୍ ଅପ୍ ହୋଇସାରିଛନ୍ତି କି?",
     login_your_account: "ଆପଣଙ୍କ ଖାତାକୁ ଲଗ୍ଇନ୍ କରନ୍ତୁ |",
     login_google: "ଗୁଗୁଲ୍ ସହିତ ଜାରି ରଖ | Google",
-    login_linkedin: "ଲିଙ୍କଡଇନ୍ ସହିତ ଜାରି ରଖନ୍ତୁ | LinkedIn Linkedin",
+    login_linkedin: "ଲିଙ୍କଡଇନ୍ ସହିତ ଜାରି ରଖନ୍ତୁ | LinkedIn LinkedIn",
     login_facebook: "ଫେସବୁକ୍ ସହିତ ଜାରି ରଖ | Facebook",
-    login_github: "ଗିଥବ୍ ସହିତ ଜାରି ରଖ | GitHub Github",
+    login_github: "ଗିଥବ୍ ସହିତ ଜାରି ରଖ | GitHub GitHub",
     remember_me: "ମୋତେ ମନେ ରଖିବେ।",
     login_button: "ଭିତରକୁ ଯାଉ",
     two_step_problem: "ଦୁଇ-ପର୍ଯ୍ୟାୟ ପାସୱାର୍ଡରେ ଆପଣଙ୍କର କିଛି ଅସୁବିଧା ଅଛି କି?",

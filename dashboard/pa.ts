@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "ਡਾਰਕ ਮੋਡ",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github ਰਿਪੋਜ਼ਟਰੀ",
+    github: "GitHub ਰਿਪੋਜ਼ਟਰੀ",
     admin_api_app: "ਐਡਮਿਨ API ਵੈੱਬ ਸੇਵਾ",
     shop_api_app: "ਸ਼ਾਪ API ਵੈੱਬ ਸੇਵਾ",
     design_kit: "ਡਿਜ਼ਾਈਨ ਕਿੱਟ",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "ਵੀਡੀਓ",
         sub_title:
-          "ਪਹਿਲਾਂ, Youtube 'ਤੇ ਆਪਣੇ ਉਤਪਾਦ ਦੀ ਵੀਡੀਓ ਅੱਪਲੋਡ ਕਰੋ, ਅਤੇ ਫਿਰ ਵੀਡੀਓ URL ਨੂੰ ਇੱਥੇ ਪਾਓ।",
+          "ਪਹਿਲਾਂ, YouTube 'ਤੇ ਆਪਣੇ ਉਤਪਾਦ ਦੀ ਵੀਡੀਓ ਅੱਪਲੋਡ ਕਰੋ, ਅਤੇ ਫਿਰ ਵੀਡੀਓ URL ਨੂੰ ਇੱਥੇ ਪਾਓ।",
       },
       change_bg_ai: {
         title: "ਨਵੀਂ ਪਿੱਠਭੂਮੀ ਨਾਲ ਚਿੱਤਰ ਬਣਾਓ",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "ਨਾਲ ਜਾਰੀ ਰੱਖੋ",
     register_linkedin: "LinkedIn ਨਾਲ ਜਾਰੀ ਰੱਖੋ",
     register_facebook: "ਫੇਸਬੁੱਕ ਦੇ ਨਾਲ ਜਾਰੀ ਰੱਖੋ Facebook",
-    register_github: "Github ਨਾਲ ਜਾਰੀ ਰੱਖੋ",
+    register_github: "GitHub ਨਾਲ ਜਾਰੀ ਰੱਖੋ",
     create_your_account: "ਆਪਣਾ ਖਾਤਾ ਬਣਾਓ",
     password_8_chars: "ਪਾਸਵਰਡ ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰਾਂ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।",
     password_upercase_number: "ਘੱਟੋ-ਘੱਟ ਇੱਕ ਵੱਡੇ ਅੱਖਰ ਅਤੇ ਇੱਕ ਨੰਬਰ।",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Google ਨਾਲ ਜਾਰੀ ਰੱਖੋ",
     login_linkedin: "LinkedIn ਨਾਲ ਜਾਰੀ ਰੱਖੋ",
     login_facebook: "ਫੇਸਬੁੱਕ ਦੇ ਨਾਲ ਜਾਰੀ ਰੱਖੋ Facebook",
-    login_github: "Github ਨਾਲ ਜਾਰੀ ਰੱਖੋ",
+    login_github: "GitHub ਨਾਲ ਜਾਰੀ ਰੱਖੋ",
     remember_me: "ਮੇਰੀ ਯਾਦ ਹੈ.",
     login_button: "ਲਾਗਿਨ",
     two_step_problem: "ਕੀ ਤੁਹਾਨੂੰ ਦੋ-ਪੜਾਅ ਦੇ ਪਾਸਵਰਡ ਨਾਲ ਕੋਈ ਸਮੱਸਿਆ ਹੈ?",

@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Rima Mode",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github chinhu",
+    github: "GitHub chinhu",
     admin_api_app: "muchengeti API chinhu sevhisi",
     shop_api_app: "chitoro API chinhu sevhisi",
     design_kit: "chinhu chinhu",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Enderera mberi",
     register_linkedin: "Enderera mberi ne LinkedIn",
     register_facebook: "Enderera mberi neFacebook",
-    register_github: "Enderera neGithub",
+    register_github: "Enderera neGitHub",
     create_your_account: "Gadzira account yako",
     password_8_chars: "Password inofanira kunge iine mavara masere.",
     password_upercase_number: "Kanenge vara guru rimwe chete nenhamba imwe.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Enderera mberi neGoogle",
     login_linkedin: "Enderera mberi ne LinkedIn",
     login_facebook: "Enderera mberi neFacebook",
-    login_github: "Enderera neGithub",
+    login_github: "Enderera neGitHub",
     remember_me: "Ndirangarire.",
     login_button: "login",
     two_step_problem: "Iwe une dambudziko here nepassword-nhanho mbiri?",

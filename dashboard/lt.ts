@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
-  Twitter: "elementas",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
-  Instagram: "Instagramas",
+  Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Tamsus režimas",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github saugykla",
+    github: "GitHub saugykla",
     admin_api_app: "Administratoriaus API žiniatinklio paslauga",
     shop_api_app: "Pirkite API žiniatinklio paslaugą",
     design_kit: "Dizaino rinkiniai",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Vaizdo įrašas",
         sub_title:
-          "Pirmiausia įkelkite produkto vaizdo įrašą į „Youtube“, tada įdėkite vaizdo įrašo URL čia.",
+          "Pirmiausia įkelkite produkto vaizdo įrašą į „YouTube“, tada įdėkite vaizdo įrašo URL čia.",
       },
       change_bg_ai: {
         title: "Sukurti Vaizdas su Nauja fonas",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Tęsti su",
     register_linkedin: "Tęskite su LinkedIn",
     register_facebook: "Tęsti su Facebook",
-    register_github: "Tęskite su Github",
+    register_github: "Tęskite su GitHub",
     create_your_account: "Susikurkite savo paskyrą",
     password_8_chars: "Slaptažodį turi sudaryti bent 8 simboliai.",
     password_upercase_number: "Bent viena didžioji raidė ir vienas skaičius.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Tęskite su Google",
     login_linkedin: "Tęskite su LinkedIn",
     login_facebook: "Tęsti su Facebook",
-    login_github: "Tęskite su Github",
+    login_github: "Tęskite su GitHub",
     remember_me: "Prisimink mane.",
     login_button: "Prisijungti",
     two_step_problem: "Ar turite problemų dėl dviejų žingsnių slaptažodžio?",

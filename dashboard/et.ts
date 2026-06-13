@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "LinkedIn",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "GitHub",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Tume režiim",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Githubi hoidla",
+    github: "GitHubi hoidla",
     admin_api_app: "Administraatori API veebiteenus",
     shop_api_app: "Ostke API veebiteenust",
     design_kit: "Disaini komplektid",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Videoklipp",
         sub_title:
-          "Esmalt laadige oma tootevideo Youtube'i üles ja seejärel sisestage Video URL siia.",
+          "Esmalt laadige oma tootevideo YouTube'i üles ja seejärel sisestage Video URL siia.",
       },
       change_bg_ai: {
         title: "Loo Pilt üksus Uus Taust",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Jätkake",
     register_linkedin: "Jätkake LinkedIniga",
     register_facebook: "Jätka Facebookiga",
-    register_github: "Jätkake Githubiga",
+    register_github: "Jätkake GitHubiga",
     create_your_account: "Loo enda konto",
     password_8_chars: "Parool peab koosnema vähemalt 8 tähemärgist.",
     password_upercase_number: "Vähemalt üks suurtäht ja üks number.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Jätkake Google'iga",
     login_linkedin: "Jätkake LinkedIniga",
     login_facebook: "Jätka Facebookiga",
-    login_github: "Jätkake Githubiga",
+    login_github: "Jätkake GitHubiga",
     remember_me: "Mäleta mind.",
     login_button: "Logi sisse",
     two_step_problem: "Kas teil on probleeme kaheastmelise parooliga?",

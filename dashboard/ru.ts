@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Темный режим",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Репозиторий на гитхабе GitHub Github",
+    github: "Репозиторий на гитхабе GitHub GitHub",
     admin_api_app: "Веб-служба API администратора",
     shop_api_app: "Веб-сервис API магазина",
     design_kit: "Комплекты дизайна",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "видео",
         sub_title:
-          "элемент, Загрузить элемент Продукт видео элемент Youtube, элемент элемент видео URL элемент",
+          "элемент, Загрузить элемент Продукт видео элемент YouTube, элемент элемент видео URL элемент",
       },
       change_bg_ai: {
         title: "Создать изображение с новым фоном",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Продолжить с",
     register_linkedin: "Продолжить с LinkedIn",
     register_facebook: "Продолжить с Facebook",
-    register_github: "Продолжить с Гитхаб GitHub Github",
+    register_github: "Продолжить с Гитхаб GitHub GitHub",
     create_your_account: "Создать учетную запись",
     password_8_chars: "Пароль должен быть не менее 8 символов.",
     password_upercase_number: "Минимум одна заглавная буква и одна цифра.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Продолжить через Google",
     login_linkedin: "Продолжить с LinkedIn",
     login_facebook: "Продолжить с Facebook",
-    login_github: "Продолжить с Гитхаб GitHub Github",
+    login_github: "Продолжить с Гитхаб GitHub GitHub",
     remember_me: "Запомни меня.",
     login_button: "Авторизоваться",
     two_step_problem: "У вас есть проблема с двухэтапным паролем?",

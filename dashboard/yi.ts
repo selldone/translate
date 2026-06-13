@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "יאָוטובע",
-  Linkedin: "לינקעדין",
-  Twitter: "טוויטער",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
-  Instagram: "ינסטאַגראַם",
+  Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "גיטהוב",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "טונקל מאָדע",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "פאָרזעצן מיט",
     register_linkedin: "פאָרזעצן מיט לינקעדין",
     register_facebook: "פאָרזעצן מיט פאַסעבאָאָק",
-    register_github: "קאָנטינוע וויטה Github",
+    register_github: "קאָנטינוע וויטה GitHub",
     create_your_account: "שאַפֿן דיין חשבון",
     password_8_chars: "פּאַראָל מוזן זיין בייַ מינדסטער 8 אותיות.",
     password_upercase_number: "אין מינדסטער איין הויכער אות און איין נומער.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "קאָנטינוע וויטה Google",
     login_linkedin: "פאָרזעצן מיט לינקעדין",
     login_facebook: "פאָרזעצן מיט פאַסעבאָאָק",
-    login_github: "קאָנטינוע וויטה Github",
+    login_github: "קאָנטינוע וויטה GitHub",
     remember_me: "געדענק מיך.",
     login_button: "צייכן אריין",
     two_step_problem: "צי איר האָבן אַ פּראָבלעם מיט די צוויי-שריט פּאַראָל?",

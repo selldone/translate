@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
-  Twitter: "зүйл",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Харанхуй горим",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "үү зүйл Github",
+    github: "үү зүйл GitHub",
     admin_api_app: "Админ API вэб үйлчилгээ",
     shop_api_app: "API вэб үйлчилгээг худалдаж аваарай",
     design_kit: "Дизайн иж бүрдэл",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Видео",
         sub_title:
-          "Эхлээд бүтээгдэхүүнийхээ видеог Youtube дээр байршуулж, дараа нь видеоны URL-г энд оруулаарай.",
+          "Эхлээд бүтээгдэхүүнийхээ видеог YouTube дээр байршуулж, дараа нь видеоны URL-г энд оруулаарай.",
       },
       change_bg_ai: {
         title: "Үүсгэх Зураг үргэлжлүүлнэ Шинэ дэвсгэр",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "-аар үргэлжлүүлнэ үү",
     register_linkedin: "LinkedIn-ээр үргэлжлүүлнэ үү",
     register_facebook: "Фэйсбүүкээр үргэлжлүүлнэ үү Facebook",
-    register_github: "Github-ийг үргэлжлүүлнэ үү",
+    register_github: "GitHub-ийг үргэлжлүүлнэ үү",
     create_your_account: "Бүртгэлээ үүсгэ",
     password_8_chars: "Нууц үг хамгийн багадаа 8 тэмдэгттэй байх ёстой.",
     password_upercase_number: "Дор хаяж нэг том үсэг, нэг тоо.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Google-тэй үргэлжлүүлнэ үү",
     login_linkedin: "LinkedIn-ээр үргэлжлүүлнэ үү",
     login_facebook: "Фэйсбүүкээр үргэлжлүүлнэ үү Facebook",
-    login_github: "Github-ийг үргэлжлүүлнэ үү",
+    login_github: "GitHub-ийг үргэлжлүүлнэ үү",
     remember_me: "Намайг санаарай.",
     login_button: "нэвтрэх",
     two_step_problem: "Танд хоёр шаттай нууц үгтэй холбоотой асуудал байна уу?",

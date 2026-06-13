@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "tsjuster modus",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github repository",
+    github: "GitHub repository",
     admin_api_app: "behear API webtsjinst",
     shop_api_app: "Winkel API web tsjinst",
     design_kit: "Untwerp kits",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "fideo",
         sub_title:
-          "oplade earst jo produktfideo op Youtube, en set dan de fideo-URL hjir.",
+          "oplade earst jo produktfideo op YouTube, en set dan de fideo-URL hjir.",
       },
       change_bg_ai: {
         title: "Meitsje ôfbylding mei nij eftergrûn",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Trochgean mei",
     register_linkedin: "Trochgean mei LinkedIn",
     register_facebook: "Trochgean mei Facebook",
-    register_github: "Trochgean mei Github",
+    register_github: "Trochgean mei GitHub",
     create_your_account: "Meitsje dyn akkount",
     password_8_chars: "Wachtwurd moat op syn minst 8 karakters wêze.",
     password_upercase_number: "Op syn minst ien haadletter en ien nûmer.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Trochgean mei Google",
     login_linkedin: "Trochgean mei LinkedIn",
     login_facebook: "Trochgean mei Facebook",
-    login_github: "Trochgean mei Github",
+    login_github: "Trochgean mei GitHub",
     remember_me: "Tink oan my.",
     login_button: "login",
     two_step_problem: "Hawwe jo in probleem mei it twa-stap wachtwurd?",

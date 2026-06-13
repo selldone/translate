@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Uburyo bwijimye",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Ububiko bwa Github",
+    github: "Ububiko bwa GitHub",
     admin_api_app: "Serivisi y'urubuga API",
     shop_api_app: "Gura serivise ya API",
     design_kit: "Ibikoresho byo gushushanya",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "ikintu",
         sub_title:
-          "Banza, shyira ibicuruzwa byawe kuri Youtube, hanyuma ushire URL ya videwo hano.",
+          "Banza, shyira ibicuruzwa byawe kuri YouTube, hanyuma ushire URL ya videwo hano.",
       },
       change_bg_ai: {
         title: "Kurema Ishusho ikintu Gishya inyuma",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Komeza hamwe",
     register_linkedin: "Komeza hamwe na LinkedIn",
     register_facebook: "Komeza hamwe na Facebook",
-    register_github: "Komeza hamwe na Github",
+    register_github: "Komeza hamwe na GitHub",
     create_your_account: "Kora konte yawe",
     password_8_chars: "Ijambobanga rigomba kuba byibuze inyuguti 8.",
     password_upercase_number: "Nibura inyuguti imwe ninyuguti imwe.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Komeza hamwe na Google",
     login_linkedin: "Komeza hamwe na LinkedIn",
     login_facebook: "Komeza hamwe na Facebook",
-    login_github: "Komeza hamwe na Github",
+    login_github: "Komeza hamwe na GitHub",
     remember_me: "Unyibuke.",
     login_button: "injira",
     two_step_problem: "Ufite ikibazo cyibanga ryintambwe ebyiri?",

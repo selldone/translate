@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Mode poék",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Repository Github",
+    github: "Repository GitHub",
     admin_api_app: "Ladenan wéb Admin API",
     shop_api_app: "Toko jasa wéb API",
     design_kit: "Kit desain",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "barang",
         sub_title:
-          "Mimiti, unggah pidéo produk anjeun dina Youtube, teras pasang URL pidéo di dieu.",
+          "Mimiti, unggah pidéo produk anjeun dina YouTube, teras pasang URL pidéo di dieu.",
       },
       change_bg_ai: {
         title: "Nyiptakeun Gambar barang Anyar latar",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Teraskeun sareng",
     register_linkedin: "Teraskeun sareng LinkedIn",
     register_facebook: "Teruskeun jeung Facebook",
-    register_github: "Teraskeun sareng Github",
+    register_github: "Teraskeun sareng GitHub",
     create_your_account: "Jieun akun anjeun",
     password_8_chars: "Sandi kedah sahenteuna 8 karakter.",
     password_upercase_number: "Sahenteuna hiji hurup gede jeung hiji angka.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Teraskeun sareng Google",
     login_linkedin: "Teraskeun sareng LinkedIn",
     login_facebook: "Teruskeun jeung Facebook",
-    login_github: "Teraskeun sareng Github",
+    login_github: "Teraskeun sareng GitHub",
     remember_me: "Émut abdi.",
     login_button: "lebet",
     two_step_problem: "Dupi anjeun gaduh masalah sareng sandi dua-hambalan?",

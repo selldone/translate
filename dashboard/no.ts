@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Mørk modus",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github element",
+    github: "GitHub element",
     admin_api_app: "Admin API-netttjeneste",
     shop_api_app: "Shop API-netttjeneste",
     design_kit: "Designsett",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "element",
         sub_title:
-          "Først laster du opp produktvideoen din på Youtube, og legg deretter inn videoens URL her.",
+          "Først laster du opp produktvideoen din på YouTube, og legg deretter inn videoens URL her.",
       },
       change_bg_ai: {
         title: "Skape Bilde element Ny bakgrunn",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Fortsett med",
     register_linkedin: "Fortsett med LinkedIn",
     register_facebook: "Fortsett med Facebook",
-    register_github: "Fortsett med Github",
+    register_github: "Fortsett med GitHub",
     create_your_account: "lag din konto",
     password_8_chars: "Passordet skal inneholde minst 8 tegn.",
     password_upercase_number: "Minst én stor bokstav og ett tall.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Fortsett med Google",
     login_linkedin: "Fortsett med LinkedIn",
     login_facebook: "Fortsett med Facebook",
-    login_github: "Fortsett med Github",
+    login_github: "Fortsett med GitHub",
     remember_me: "Husk meg.",
     login_button: "Logg Inn",
     two_step_problem: "Har du et problem med to-trinns passordet?",

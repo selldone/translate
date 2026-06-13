@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Donkere modus",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github-opslagplaats",
+    github: "GitHub-opslagplaats",
     admin_api_app: "Admin API-webservice",
     shop_api_app: "Winkel API-webservice",
     design_kit: "Ontwerppakketten",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Doorgaan met; ga door met",
     register_linkedin: "Ga verder met LinkedIn",
     register_facebook: "Ga verder met Facebook",
-    register_github: "Ga verder met Github",
+    register_github: "Ga verder met GitHub",
     create_your_account: "Maak een account aan",
     password_8_chars: "Wachtwoord moet minimaal 8 tekens lang zijn.",
     password_upercase_number: "Minimaal één hoofdletter en één cijfer.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Ga verder met Google",
     login_linkedin: "Ga verder met LinkedIn",
     login_facebook: "Ga verder met Facebook",
-    login_github: "Ga verder met Github",
+    login_github: "Ga verder met GitHub",
     remember_me: "Onthoud mij.",
     login_button: "Log in",
     two_step_problem: "Heb je een probleem met het tweestapswachtwoord?",

@@ -15,10 +15,10 @@
 
 export default {
   commons: {
-    pay_today: "pago hoy",
+    pay_today: "Pago de hoy",
     pay_yesterday: "Pago de ayer",
     pay_last30days: "Últimos 30 días de pago",
-    create_a_shop: "crear una tienda",
+    create_a_shop: "Crear una tienda",
     start_free: "Empieza gratis",
     featured_apps: "Aplicaciones destacadas",
     more_apps: "Más aplicaciones",
@@ -49,13 +49,13 @@ export default {
 
   time_spans: {
     days_range: "Rango de días",
-    today: "Hoy dia",
-    yesterday: "El dia de ayer",
+    today: "Hoy",
+    yesterday: "Ayer",
     last_7: "Los últimos 7 días",
     last_14: "últimos 14 días",
     last_30: "últimos 30 días",
     last_90: "últimos 90 días",
-    custom: "Costumbre",
+    custom: "Personalizado",
   },
   device_types: {
     desktop: "Escritorio",
@@ -68,19 +68,19 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "LinkedIn",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "GitHub",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Modo oscuro",
     dark_mode_description:
       "Elija esta opción si desea un fondo oscuro con color de texto blanco.",
-    light_mode: "Modo de luz",
+    light_mode: "Modo claro",
     light_mode_description:
       "Elija esta opción si desea que el fondo sea claro y el texto en color negro.",
   },
@@ -103,29 +103,29 @@ export default {
   // ------------------ Pages Title ------------------
   page_titles: {
     home: "Selldone ╏ El sistema operativo comercial para empresas de rápido crecimiento",
-    login: "Acceso",
+    login: "Iniciar sesión",
     register: "Registro",
     auth_2fa: "Autenticación de 2 factores 🔐",
     academy: "Blog",
     help: "Centro de ayuda",
     price_list: "Lista de precios",
     my_stores: "Mis tiendas",
-    roles: "mis roles",
+    roles: "Mis roles",
     wallet: "Mi billetera",
     personal_info: "Información personal ╏ KYC",
     companies: "Mis Empresas",
     access_control: "Control de acceso",
     security_center: "Centro de Seguridad",
     gifts: {
-      received: "Regalos ╏ Recibió",
-      send: "Regalos ╏ Enviado",
+      received: "Regalos ╏ Recibidos",
+      send: "Regalos ╏ Enviados",
     },
     monetization: {
       linked_accounts: "Monetización ╏ Cuentas Vinculadas",
       plans: "Monetización ╏ Plan y enlaces",
     },
     affiliate: "Afiliado",
-    avocado: "Aguacate — Canal moderno de ventas sociales",
+    avocado: "Avocado — Canal moderno de ventas sociales",
     guild: "Gremio — Canal de ventas colectivas",
     partners_login: "Socios ╏ Acceso de clientes",
   },
@@ -213,10 +213,10 @@ export default {
 
   /** @see BSupportMenu **/
   support: {
-    request: "Pedir soporte",
+    request: "Solicitar soporte",
 
     category: "Categoría",
-    title: "Apoyo",
+    title: "Soporte",
     message:
       "Haga cualquier solicitud o pregunta. Nuestro equipo de soporte lo guiará. Le sugerimos que haga su pregunta en la página relacionada con su solicitud. Por ejemplo, si tiene una pregunta sobre la configuración del dominio, envíela a la página de configuración del dominio de su tienda.",
 
@@ -552,7 +552,7 @@ export default {
         title: "comprar clientes",
         title_small: "Informe de conversión",
         total_customers: "Opción",
-        new_customers_today: "Hoy dia",
+        new_customers_today: "Hoy",
         new_customers_week: "Los últimos 7 días",
         orders_count: "recuento de pedidos",
         days_range: "Rango de días",
@@ -573,7 +573,7 @@ export default {
 
       /** {@see BDashboardShopPerformance} **/
       performance: {
-        title: "Hoy dia",
+        title: "Hoy",
         title_small: "Resumen de usuarios y ventas",
         users: "Usuarios",
         views: "Puntos de vista",
@@ -4050,7 +4050,7 @@ export default {
 
   /** {@see FinanceInlineChart} **/
   inline_chart: {
-    today: "Hoy dia",
+    today: "Hoy",
     last_days: "hace {days} días",
   },
   /** {@see BProductsWindow} **/
@@ -4358,7 +4358,7 @@ export default {
     menu: {
       send_gift: "Enviar regalo",
       sent: "Enviar",
-      received: "Recibió",
+      received: "Recibidos",
     },
 
     /** {@see BPageShuttleWalletGiftsSend} **/
@@ -5527,7 +5527,7 @@ export default {
     privacy_agreement:
       "Al registrarse, acepta los <a href='/terms' target='_blank'>Términos de uso</a> y la Política de <a href='/privacy' target='_blank'>privacidad</a> de Selldone.",
     register_action: "¡Vamos, es gratis!",
-    login_action: "Acceso",
+    login_action: "Iniciar sesión",
     already_signup: "¿Ya te registraste?",
     login_your_account: "Ingrese a su cuenta",
     login_google: "Continuar con Google",
@@ -5535,7 +5535,7 @@ export default {
     login_facebook: "Continuar con Facebook",
     login_github: "Continuar con GitHub",
     remember_me: "Acuérdate de mí.",
-    login_button: "Acceso",
+    login_button: "Iniciar sesión",
     two_step_problem: "¿Tienes algún problema con la contraseña de dos pasos?",
     two_step_problem_action: "Quiero deshabilitar el inicio de sesión en dos pasos.",
     two_step_confirm: "Confirmar código de acceso",
@@ -6711,7 +6711,7 @@ export default {
     override: "Anular",
     country: "País",
     vat_range: "Rango de IVA",
-    custom: "Costumbre",
+    custom: "Personalizado",
     regions: "Regiones",
     rest_world: "El resto del mundo",
     overrides: "Anulaciones",
@@ -7754,7 +7754,7 @@ export default {
   },
   /** {@see BPageShuttleRoles**/
   my_roles: {
-    title: "mis roles",
+    title: "Mis roles",
     message:
       "Los roles son un tipo de acceso otorgado a los empleados de una tienda. Por ejemplo, personal encargado de enviar o empacar pedidos.",
   },
@@ -8864,15 +8864,15 @@ export default {
     edit_avocado_action: "editar informacion",
     submit_pricing_avocado_action: "Enviar el precio del pedido",
     add_avocado_action: "Crear enlace de factura",
-    avocados_list: "Lista de Aguacates",
+    avocados_list: "Lista de Avocado",
     not_pricing: "¡Este artículo no tiene precio!",
 
     show_all: "Mostrar todo",
     show_accepted: "Mostrar artículos confirmados",
 
     notifications: {
-      update_success: "Aguacate actualizado con éxito.",
-      add_success: "Aguacate creado con éxito.",
+      update_success: "Avocado actualizado correctamente.",
+      add_success: "Avocado creado correctamente.",
     },
   },
 
@@ -8881,7 +8881,7 @@ export default {
     title: "Avocado",
     title_small: "Ventas en redes sociales",
     pending_orders: "Pedidos activos",
-    avocado: "Pedir Aguacate",
+    avocado: "Pedido Avocado",
   },
   /** {@see BAvocadoInvoice} **/
   avocado_process: {
@@ -9075,7 +9075,7 @@ export default {
     },
     avocado: {
       title: "Avocado",
-      desc: "Enviar reporte diario de pedidos de Aguacate.",
+      desc: "Enviar reporte diario de pedidos de Avocado.",
     },
     accounting: {
       title: "Contabilidad",

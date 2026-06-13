@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Mod Gelap",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Repositori Github",
+    github: "Repositori GitHub",
     admin_api_app: "Perkhidmatan web API pentadbir",
     shop_api_app: "Perkhidmatan web API kedai",
     design_kit: "Kit reka bentuk",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "butiran",
         sub_title:
-          "Mula-mula, muat naik video produk anda di Youtube, dan kemudian letakkan URL video di sini.",
+          "Mula-mula, muat naik video produk anda di YouTube, dan kemudian letakkan URL video di sini.",
       },
       change_bg_ai: {
         title: "butiran butiran butiran butiran butiran butiran",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Teruskan dengan",
     register_linkedin: "Teruskan dengan LinkedIn",
     register_facebook: "Teruskan dengan Facebook",
-    register_github: "Teruskan dengan Github",
+    register_github: "Teruskan dengan GitHub",
     create_your_account: "cipta akaun anda",
     password_8_chars: "Kata laluan mestilah sekurang-kurangnya 8 aksara.",
     password_upercase_number: "Sekurang-kurangnya satu huruf besar dan satu nombor.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Teruskan dengan Google",
     login_linkedin: "Teruskan dengan LinkedIn",
     login_facebook: "Teruskan dengan Facebook",
-    login_github: "Teruskan dengan Github",
+    login_github: "Teruskan dengan GitHub",
     remember_me: "Ingat saya.",
     login_button: "log masuk",
     two_step_problem: "Adakah anda mempunyai masalah dengan kata laluan dua langkah?",

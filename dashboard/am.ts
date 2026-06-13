@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "ሊንክዲን",
-  Twitter: "ትዊተር",
-  Facebook: "ፌስቡክ",
-  Instagram: "ኢንስታግራም",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
+  Facebook: "Facebook",
+  Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "GitHub",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "ጨለማ ሁነታ",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "ተደጋጋሚ ጥያቄዎች",
-    github: "Github ማከማቻ",
+    github: "GitHub ማከማቻ",
     admin_api_app: "የአስተዳዳሪ ኤፒአይ የድር አገልግሎት",
     shop_api_app: "የኤፒአይ ድር አገልግሎትን ይግዙ",
     design_kit: "የንድፍ እቃዎች",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "በዚህ ይቀጥሉ",
     register_linkedin: "በLinkedIn ይቀጥሉ",
     register_facebook: "በፌስቡክ ይቀጥሉ",
-    register_github: "በ Github ይቀጥሉ",
+    register_github: "በ GitHub ይቀጥሉ",
     create_your_account: "መለያህን ፍጠር",
     password_8_chars: "የይለፍ ቃል ቢያንስ 8 ቁምፊዎች መሆን አለበት።",
     password_upercase_number: "ቢያንስ አንድ አቢይ ሆሄ እና አንድ ቁጥር።",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "በGoogle ይቀጥሉ",
     login_linkedin: "በLinkedIn ይቀጥሉ",
     login_facebook: "በፌስቡክ ይቀጥሉ",
-    login_github: "በ Github ይቀጥሉ",
+    login_github: "በ GitHub ይቀጥሉ",
     remember_me: "አስታወስከኝ.",
     login_button: "ግባ",
     two_step_problem: "ባለ ሁለት ደረጃ የይለፍ ቃል ችግር አለብህ?",

@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "Youtube",
-  Linkedin: "領英",
-  Twitter: "推特",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
-  Reddit: "紅迪網",
-  Github: "Github",
+  Reddit: "Reddit",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "黑暗模式",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github 项目",
+    github: "GitHub 项目",
     admin_api_app: "管理 API 網絡服務",
     shop_api_app: "商店 API 網絡服務",
     design_kit: "設計套件",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "視頻",
         sub_title:
-          "项目, 项目 项目 產品 視頻 项目 Youtube, 项目 项目 项目 项目 視頻 URL 项目.",
+          "项目, 项目 项目 產品 視頻 项目 YouTube, 项目 项目 项目 项目 視頻 URL 项目.",
       },
       change_bg_ai: {
         title: "創造 圖片 项目 新的 项目",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "繼續",
     register_linkedin: "繼續領英",
     register_facebook: "项目 项目 Facebook",
-    register_github: "项目 项目 Github",
+    register_github: "项目 项目 GitHub",
     create_your_account: "創建您的帳戶",
     password_8_chars: "密碼必須至少8個字符。",
     password_upercase_number: "至少一個大寫字母和一個數字。",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "项目 项目 Google",
     login_linkedin: "繼續領英",
     login_facebook: "项目 项目 Facebook",
-    login_github: "项目 项目 Github",
+    login_github: "项目 项目 GitHub",
     remember_me: "記得我。",
     login_button: "登錄",
     two_step_problem: "兩步密碼有問題嗎？",

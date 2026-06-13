@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "LinkedIn",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "GitHub",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Modu iluna",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Bideoa",
         sub_title:
-          "Lehenik eta behin, igo zure produktuaren bideoa Youtuben eta, ondoren, jarri bideoaren URLa hemen.",
+          "Lehenik eta behin, igo zure produktuaren bideoa YouTuben eta, ondoren, jarri bideoaren URLa hemen.",
       },
       change_bg_ai: {
         title: "Titulua",

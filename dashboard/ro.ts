@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
-  Twitter: "Stare de nervozitate Twitter",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Modul întunecat",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Depozitul Github",
+    github: "Depozitul GitHub",
     admin_api_app: "Serviciu web API de administrare",
     shop_api_app: "Serviciu web Shop API",
     design_kit: "Truse de design",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "element",
         sub_title:
-          "Mai întâi, încărcați videoclipul produsului dvs. pe Youtube, apoi puneți adresa URL a videoclipului aici.",
+          "Mai întâi, încărcați videoclipul produsului dvs. pe YouTube, apoi puneți adresa URL a videoclipului aici.",
       },
       change_bg_ai: {
         title: "Crea Imagine element Nou fundal",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Continuă cu",
     register_linkedin: "Continuați cu LinkedIn",
     register_facebook: "Continuați cu Facebook",
-    register_github: "Continuați cu Github",
+    register_github: "Continuați cu GitHub",
     create_your_account: "Creeaza-ti contul",
     password_8_chars: "Parola trebuie să fie de cel puțin 8 caractere.",
     password_upercase_number: "Cel puțin o literă mare și un număr.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Continuați cu Google",
     login_linkedin: "Continuați cu LinkedIn",
     login_facebook: "Continuați cu Facebook",
-    login_github: "Continuați cu Github",
+    login_github: "Continuați cu GitHub",
     remember_me: "Amintește-ți de mine.",
     login_button: "Autentificare",
     two_step_problem: "Ai o problemă cu parola în doi pași?",

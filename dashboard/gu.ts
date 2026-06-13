@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "લિંક્ડિન",
-  Twitter: "ટ્વિટર",
-  Facebook: "ફેસબુક",
-  Instagram: "ઇન્સ્ટાગ્રામ",
-  Reddit: "રેડિટ",
-  Github: "ગીથબ",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
+  Facebook: "Facebook",
+  Instagram: "Instagram",
+  Reddit: "Reddit",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "ડાર્ક મોડ",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "સાથે ચાલુ રાખો",
     register_linkedin: "LinkedIn સાથે ચાલુ રાખો",
     register_facebook: "Facebook સાથે ચાલુ રાખો",
-    register_github: "Github સાથે ચાલુ રાખો",
+    register_github: "GitHub સાથે ચાલુ રાખો",
     create_your_account: "તમારું એકાઉન્ટ બનાવો",
     password_8_chars: "પાસવર્ડ ઓછામાં ઓછો 8 અક્ષરનો હોવો જોઈએ.",
     password_upercase_number: "ઓછામાં ઓછા એક મોટા અક્ષર અને એક નંબર.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Google સાથે ચાલુ રાખો",
     login_linkedin: "LinkedIn સાથે ચાલુ રાખો",
     login_facebook: "Facebook સાથે ચાલુ રાખો",
-    login_github: "Github સાથે ચાલુ રાખો",
+    login_github: "GitHub સાથે ચાલુ રાખો",
     remember_me: "મને યાદ.",
     login_button: "પ્રવેશ કરો",
     two_step_problem: "શું તમને ટુ-સ્ટેપ પાસવર્ડમાં કોઈ સમસ્યા છે?",

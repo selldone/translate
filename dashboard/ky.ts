@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
-  Twitter: "нерсе",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Караңгы режим",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github репозиторий",
+    github: "GitHub репозиторий",
     admin_api_app: "Администратор API Веб Кызмат",
     shop_api_app: "Дүкөн API Веб Кызмат",
     design_kit: "Дизайн комплекттери",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Видео",
         sub_title:
-          "Биринчиден, продуктуңуздун видеосун Youtube сайтына жүктөңүз, анан видеонун URL дарегин бул жерге коюңуз.",
+          "Биринчиден, продуктуңуздун видеосун YouTube сайтына жүктөңүз, анан видеонун URL дарегин бул жерге коюңуз.",
       },
       change_bg_ai: {
         title: "Түзүү Сүрөт менен Жаңы фон",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "менен улантыңыз",
     register_linkedin: "LinkedIn менен улантыңыз",
     register_facebook: "Facebook менен улантыңыз",
-    register_github: "Github менен улантыңыз",
+    register_github: "GitHub менен улантыңыз",
     create_your_account: "Каттоо эсебиңизди түзүңүз",
     password_8_chars: "Сырсөз кеминде 8 белгиден турушу керек.",
     password_upercase_number: "Жок дегенде бир чоң тамга жана бир сан.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Google менен улантыңыз",
     login_linkedin: "LinkedIn менен улантыңыз",
     login_facebook: "Facebook менен улантыңыз",
-    login_github: "Github менен улантыңыз",
+    login_github: "GitHub менен улантыңыз",
     remember_me: "Мени эстеп жүр.",
     login_button: "кирүү",
     two_step_problem: "Сизде эки кадамдуу сырсөз менен көйгөй барбы?",

@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
-  Twitter: "Viserrys",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Tumma tila",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Githubin arkisto",
+    github: "GitHubin arkisto",
     admin_api_app: "Hallinnan API-verkkopalvelu",
     shop_api_app: "Kaupan API-verkkopalvelu",
     design_kit: "Suunnittelusarjat",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "video",
         sub_title:
-          "Lataa ensin tuotevideosi Youtubeen ja laita sitten videon URL-osoite tähän.",
+          "Lataa ensin tuotevideosi YouTubeen ja laita sitten videon URL-osoite tähän.",
       },
       change_bg_ai: {
         title: "Luo kuva kanssa uusi tausta",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Jatka kanssa",
     register_linkedin: "Jatka LinkedInillä",
     register_facebook: "Jatka Facebookin kanssa",
-    register_github: "Jatka Githubilla",
+    register_github: "Jatka GitHubilla",
     create_your_account: "luo tilisi",
     password_8_chars: "Salasanassa on oltava vähintään 8 merkkiä.",
     password_upercase_number: "Vähintään yksi iso kirjain ja yksi numero.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Jatka Googlella",
     login_linkedin: "Jatka LinkedInillä",
     login_facebook: "Jatka Facebookin kanssa",
-    login_github: "Jatka Githubilla",
+    login_github: "Jatka GitHubilla",
     remember_me: "Muista minut.",
     login_button: "Kirjaudu sisään",
     two_step_problem: "Onko sinulla ongelmia kaksivaiheisen salasanan kanssa?",

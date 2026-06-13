@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "یوٹیوب",
-  Linkedin: "لنکڈن",
-  Twitter: "ٹویٹر",
-  Facebook: "فیس بک",
-  Instagram: "انسٹاگرام",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
+  Facebook: "Facebook",
+  Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "گیتھب",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "ڈارک موڈ",
@@ -5517,9 +5517,9 @@ export default {
     register_google: "گوگل کے ساتھ جاری رکھیں",
     register_apple: "ایپل کے ساتھ جاری رکھیں",
     continue_with: "کے ساتھ جاری رکھیں",
-    register_linkedin: "کونتینوے ویتہ Linkedin",
+    register_linkedin: "کونتینوے ویتہ LinkedIn",
     register_facebook: "فیس بک کے ساتھ جاری رکھیں",
-    register_github: "کونتینوے ویتہ Github",
+    register_github: "کونتینوے ویتہ GitHub",
     create_your_account: "اپنا اکاؤنٹ بناؤ",
     password_8_chars: "پاس ورڈ کم از کم 8 حروف کا ہونا چاہیے۔",
     password_upercase_number: "کم از کم ایک بڑے حروف اور ایک عدد۔",
@@ -5531,9 +5531,9 @@ export default {
     already_signup: "پہلے ہی سائن اپ کیا ہے؟",
     login_your_account: "آپ کے اکاؤنٹ میں لاگ ان کریں",
     login_google: "گوگل کے ساتھ جاری رکھیں",
-    login_linkedin: "کونتینوے ویتہ Linkedin",
+    login_linkedin: "کونتینوے ویتہ LinkedIn",
     login_facebook: "فیس بک کے ساتھ جاری رکھیں",
-    login_github: "کونتینوے ویتہ Github",
+    login_github: "کونتینوے ویتہ GitHub",
     remember_me: "مجھے پہچانتے ہو.",
     login_button: "لاگ ان کریں",
     two_step_problem: "کیا آپ کو دو قدمی پاس ورڈ کے ساتھ کوئی مسئلہ ہے؟",

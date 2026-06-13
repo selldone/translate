@@ -55,11 +55,11 @@ export default {
     last_14: "14 derniers jours",
     last_30: "Les 30 derniers jours",
     last_90: "90 derniers jours",
-    custom: "Coutume",
+    custom: "Personnalisé",
   },
   device_types: {
     desktop: "Bureau",
-    mobile: "Portable",
+    mobile: "Mobile",
     tablet: "Tablette",
   },
 
@@ -68,19 +68,19 @@ export default {
 
   // Companies:
 
-  Youtube: "Youtube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "GithubGenericName",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Mode sombre",
     dark_mode_description:
       "Choisissez cette option si vous désirez un fond sombre avec une couleur de texte blanche.",
-    light_mode: "Mode lumière",
+    light_mode: "Mode clair",
     light_mode_description:
       "Choisissez cette option si vous souhaitez que l'arrière-plan soit clair et que le texte soit de couleur noire.",
   },
@@ -102,11 +102,11 @@ export default {
 
   // ------------------ Pages Title ------------------
   page_titles: {
-    home: "Vendufait ╏ Le système d'exploitation d'entreprise pour les entreprises à croissance rapide",
+    home: "Selldone ╏ Le système d'exploitation d'entreprise pour les entreprises à forte croissance",
     login: "Connexion",
     register: "S'inscrire",
     auth_2fa: "Authentification à 2 facteurs 🔐",
-    academy: "blog",
+    academy: "Magazine Business OS",
     help: "Centre d'aide",
     price_list: "Liste de prix",
     my_stores: "Mes magasins",
@@ -117,15 +117,15 @@ export default {
     access_control: "Contrôle d'accès",
     security_center: "Centre de sécurité",
     gifts: {
-      received: "Cadeaux ╏ A reçu",
-      send: "Cadeaux ╏ Expédié",
+      received: "Cadeaux ╏ Reçus",
+      send: "Cadeaux ╏ Envoyés",
     },
     monetization: {
       linked_accounts: "Monétisation ╏ Comptes liés",
       plans: "Monétisation ╏ Plan & Liens",
     },
-    affiliate: "Affilier",
-    avocado: "Avocat — Canal de vente social moderne",
+    affiliate: "Affiliation",
+    avocado: "Avocado — Canal de vente social moderne",
     guild: "Guilde — Canal de vente collectif",
     partners_login: "Partenaires ╏ Connexion client",
   },
@@ -264,7 +264,7 @@ export default {
       Developer: "Développer",
 
       Product: "Gestion des produits et des catégories",
-      Blog: "CMS et blogue",
+      Blog: "CMS et blog",
       Order: "Centre de traitement des commandes",
       Channel: "Canaux de vente",
       Accounting: "Comptabilité et méthodes de paiement",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Référentiel Github",
+    github: "Référentiel GitHub",
     admin_api_app: "service Web de l'API d'administration",
     shop_api_app: "service Web de l'API de la boutique",
     design_kit: "Ensembles de conception",
@@ -289,10 +289,10 @@ export default {
   /** {@see InterestTopicsView} **/
 
   blogs: {
-    title: "blog",
+    title: "Blog",
     subtitle:
       "Des leçons pour les affaires, la confiance et les connaissances dont vous avez besoin pour créer une entreprise florissante.",
-    add_new_blog: "Nouveau blogue",
+    add_new_blog: "Nouvel article",
     popular: "Populaire",
     topics: "Les sujets",
     select_topics: "Sélectionnez votre travail.",
@@ -312,7 +312,7 @@ export default {
     title: "Ma navette",
     subtitle: "Gérez votre entreprise avec des informations à jour et des perspectives claires.",
     menu: {
-      affiliate: "Affilier",
+      affiliate: "Affiliation",
       monetize: "Monétiser",
       gift: "Cadeau",
       security: "Sécurité",
@@ -402,7 +402,7 @@ export default {
       auditing: "Comptabilité",
       incentives: "Des incitations",
       process_center: "Ordres",
-      blog: "blog",
+      blog: "Blog",
       products: "Des produits",
       shops: "Magasins",
       dashboard: "Tableau de bord",
@@ -680,7 +680,7 @@ export default {
     /** {@see BPageShopBlogs}  **/
     blogs: {
       new: "Ecrire nouveau",
-      blogs: "blog",
+      blogs: "Blog",
 
       /** {@see BPageShopBlogsList} **/
       list: {
@@ -1042,7 +1042,7 @@ export default {
       menu: {
         campaigns: "Campagnes",
         cross_selling: "Vente croisée",
-        affiliate: "Affilier",
+        affiliate: "Affiliation",
         emails: "E-mails",
         funnel: "Entonnoir",
       },
@@ -1344,7 +1344,7 @@ export default {
         table: {
           home: "Domicile",
           shop: "Boutique",
-          blogs: "blog",
+          blogs: "Blog",
           about_us: "À propos de nous",
           privacy: "Confidentialité",
           terms: "Conditions d'utilisation",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Vidéo",
         sub_title:
-          "Tout d'abord, téléchargez la vidéo de votre produit sur Youtube, puis mettez l'URL de la vidéo ici.",
+          "Tout d'abord, téléchargez la vidéo de votre produit sur YouTube, puis mettez l'URL de la vidéo ici.",
       },
       change_bg_ai: {
         title: "Créer une image avec un nouvel arrière-plan",
@@ -4597,7 +4597,7 @@ export default {
     email_input: "E-mail",
     address_input: "adresse",
     tel_input: "Tél",
-    mobile_input: "Portable",
+    mobile_input: "Mobile",
     edit_action: "Modifier l'entreprise",
     create_action: "Créer une entreprise",
     notifications: {
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Continue avec",
     register_linkedin: "Continuer avec LinkedIn",
     register_facebook: "Continuer avec Facebook",
-    register_github: "Continuer avec Github",
+    register_github: "Continuer avec GitHub",
     create_your_account: "Créez votre compte",
     password_8_chars: "Mot de passe doit être d'au moins 8 caractères.",
     password_upercase_number: "Au moins une lettre majuscule et un chiffre.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Continuer avec Google",
     login_linkedin: "Continuer avec LinkedIn",
     login_facebook: "Continuer avec Facebook",
-    login_github: "Continuer avec Github",
+    login_github: "Continuer avec GitHub",
     remember_me: "Souviens-toi de moi.",
     login_button: "Connexion",
     two_step_problem: "Avez-vous un problème avec le mot de passe en deux étapes?",
@@ -6340,7 +6340,7 @@ export default {
     },
     club: {
       subtitle:
-        "L'utilisation de ce coupon peut être limiteée exclusivement aux membres des clubs clients choisis.",
+        "L'utilisation de ce coupon peut être limitée exclusivement aux membres des clubs clients choisis.",
     },
     cluster: {
       subtitle:
@@ -6711,7 +6711,7 @@ export default {
     override: "Passer outre",
     country: "Pays",
     vat_range: "Fourchette de TVA",
-    custom: "Coutume",
+    custom: "Personnalisé",
     regions: "Régions",
     rest_world: "Le reste du monde",
     overrides: "Remplacements",
@@ -8814,7 +8814,7 @@ export default {
 
   /** {@see AvocadoHomePage} **/
   avocado: {
-    name: "Avocat",
+    name: "Avocado",
     title: "Des ventes rapides, précises et agréables sur tous les réseaux sociaux",
     message:
       "Un seul montant et un seul titre suffisent pour obtenir de l'argent de vos clients! L'argent sera crédité directement sur votre compte et vos clients vivront une expérience d'achat unique.",
@@ -8871,14 +8871,14 @@ export default {
     show_accepted: "Afficher les éléments confirmerés",
 
     notifications: {
-      update_success: "Avocat mis à jour avec succès.",
-      add_success: "Avocat créé avec succès.",
+      update_success: "Avocado mis à jour avec succès.",
+      add_success: "Avocado créé avec succès.",
     },
   },
 
   /** {@see BDashboardShopOrdersAvocado} **/
   avocado_orders: {
-    title: "Avocat",
+    title: "Avocado",
     title_small: "Ventes sur les réseaux sociaux",
     pending_orders: "Commandes actives",
     avocado: "Commandez de l'avocat",
@@ -9074,7 +9074,7 @@ export default {
       desc: "Le rapport sur les ventes au point de vente sera envoyé à cet e-mail.",
     },
     avocado: {
-      title: "Avocat",
+      title: "Avocado",
       desc: "Envoyer un rapport quotidien des commandes d'avocat.",
     },
     accounting: {
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "Catégories de blogs",
     subtitle:
-      "Vous pouvez créer un nombre limiteé de catégories pour vos articles de blog afin de les gérer plus efficacement. Le fait d'avoir une limite de catégories favorise une meilleure organisation sur votre site Web. Notamment, même les principales agences de presse maintiennent un nombre limiteé de catégories, souvent inférieur à 100, pour rationaliser la gestion et maintenir une vision plus large.",
+      "Vous pouvez créer un nombre limité de catégories pour vos articles de blog afin de les gérer plus efficacement. Le fait d'avoir une limite de catégories favorise une meilleure organisation sur votre site Web. Notamment, même les principales agences de presse maintiennent un nombre limité de catégories, souvent inférieur à 100, pour rationaliser la gestion et maintenir une vision plus large.",
 
     add_action: "Ajouter une nouvelle catégorie",
     add_dialog: {
@@ -9600,7 +9600,7 @@ export default {
       test: {
         false_title: "Synchroniser tout",
         false_desc: "Obtenez tous les produits, catégories et clients disponibles.",
-        true_title: "limiteé (recommandé pour les débutants)",
+        true_title: "limité (recommandé pour les débutants)",
         true_desc:
           "Obtenez un maximum de 5 produits, catégories et clients. Vous pouvez activer le mode complet dans Connecter > Paramètres à tout moment.",
       },
@@ -9612,7 +9612,7 @@ export default {
           "Mettre à jour les informations existantes sur les produits, les variantes et les catégories.",
       },
       migration_tips:
-        "<b>Conseils:</b> si vous souhaitez tester la fonctionnalité, veuillez sélectionner l'option <b>limiteée</b>. En sélectionnant « Synchroniser tout », nous obtenons toutes les données de vos services connectés et téléchargeons les images associées, ce qui réduira votre espace de stockage gratuit. De plus, supprimer de nombreux produits, catégories et clients serait difficile!",
+        "<b>Conseils:</b> si vous souhaitez tester la fonctionnalité, veuillez sélectionner l'option <b>limitée</b>. En sélectionnant « Synchroniser tout », nous obtenons toutes les données de vos services connectés et téléchargeons les images associées, ce qui réduira votre espace de stockage gratuit. De plus, supprimer de nombreux produits, catégories et clients serait difficile!",
       add_action: "Connexion automatique à",
       order: {
         title: "Statut de la commande",
@@ -10192,7 +10192,7 @@ export default {
         no_restriction: "Pas restreint",
       },
       available_countries_msg:
-        "Les achats sont limiteés à {count} pays dans le monde. Ces pays sont {countries}.",
+        "Les achats sont limités à {count} pays dans le monde. Ces pays sont {countries}.",
       disable_for_all_countries_msg:
         "Les achats sont désactivés pour tous les pays dans votre boutique > paramètres d'emplacements.",
       location_is_not_in_permitted_shop_locations_msg:
@@ -10259,7 +10259,7 @@ export default {
    */
   product_embed: {
     subtitle:
-      "Vous pouvez facilement intégrer un produit ou une liste de produits dans votre blog ou d'autres pages Web en copiant et collant simplement les codes que nous fournissons. Bien que cette fonctionnalité en soit encore à ses débuts, nous travaillons activement à étendre ses fonctionnalités au-delà de ce qui est actuellement disponible ailleurs. Bien qu'elle offre actuellement des capacités limiteées, nous prévoyons d'introduire davantage de modèles et d'options de personnalisation à l'avenir.",
+      "Vous pouvez facilement intégrer un produit ou une liste de produits dans votre blog ou d'autres pages Web en copiant et collant simplement les codes que nous fournissons. Bien que cette fonctionnalité en soit encore à ses débuts, nous travaillons activement à étendre ses fonctionnalités au-delà de ce qui est actuellement disponible ailleurs. Bien qu'elle offre actuellement des capacités limitées, nous prévoyons d'introduire davantage de modèles et d'options de personnalisation à l'avenir.",
     card: {
       title: "élément",
       description:
@@ -10282,7 +10282,7 @@ export default {
     staff: {
       title: "Ajouter du personnel et un accès",
       subtitle:
-        "Tous les utilisateurs disposant d'un accès personnel peuvent se connecter à votre tableau de bord et consulter les informations financières. Pour ajouter des utilisateurs avec un accès limiteé, définissez un rôle.",
+        "Tous les utilisateurs disposant d'un accès personnel peuvent se connecter à votre tableau de bord et consulter les informations financières. Pour ajouter des utilisateurs avec un accès limité, définissez un rôle.",
       go_to_roles: "Accéder aux rôles",
     },
     access: {
@@ -11338,7 +11338,7 @@ export default {
         "Fidélité récompensée: réductions exclusives à l'intérieur",
       ],
       subject: [
-        "⏰ Offre à durée limiteée! Prenez vos favoris maintenant",
+        "⏰ Offre à durée limitée! Prenez vos favoris maintenant",
         "🌼 Nouvelle saison, nouveaux styles - Découvrez notre dernière collection",
         "👑 Vente VIP exclusive juste pour vous",
         "💃 Faites tourner les têtes avec nos nouveautés",
@@ -11406,7 +11406,7 @@ export default {
         "Remise en avant-première: 30 % de réduction",
       ],
       description: [
-        "Réclamez votre offre spéciale! Temps limiteé seulement.",
+        "Réclamez votre offre spéciale! Temps limité seulement.",
         "Dépêchez-vous! Des économies exclusives vous attendent dans votre panier.",
         "De grosses économies sont à portée de clic!",
         "Profitez de cette offre avant qu'elle ne disparaisse.",
@@ -11488,7 +11488,7 @@ export default {
         "Offres spéciales sur les combos",
         "D'énormes économies en magasin!",
         "Offres groupées au meilleur rapport qualité-prix",
-        "Offres groupées à durée limiteée",
+        "Offres groupées à durée limitée",
         "Remises importantes sur les combos",
         "Économies intelligentes sur certains articles",
         "Offres imbattables sur les forfaits",
@@ -11498,14 +11498,14 @@ export default {
       ],
 
       description: [
-        "Réalisez de grosses économies en regroupant certains produits. Dépêchez-vous, offre à durée limiteée!",
+        "Réalisez de grosses économies en regroupant certains produits. Dépêchez-vous, offre à durée limitée!",
         "Des offres intelligentes vous attendent! Économisez davantage en achetant ensemble nos articles mis en avant.",
         "Découvrez la façon intelligente d'économiser! Regroupez vos favoris et regardez la baisse des prix.",
         "Profitez de réductions exclusives lors de l'achat d'articles sélectionnés en combo. Agir maintenant!",
         "Achetez plus, économisez plus! Des réductions imbattables sur nos offres groupées de produits spéciaux.",
         "Achetez intelligemment grâce à nos offres spéciales. Prix réduits sur certains packs de produits.",
         "Obtenez plus pour moins! Des réductions incroyables lorsque vous achetez nos forfaits sélectionnés.",
-        "Économisez gros en regroupant! Offres exclusives sur une sélection d'articles pour une durée limiteée.",
+        "Économisez gros en regroupant! Offres exclusives sur une sélection d'articles pour une durée limitée.",
         "Combinez et économisez! Remises exclusives lorsque vous achetez ensemble nos produits sélectionnés.",
         "Plus vous achetez, plus vous économisez! Soyez intelligent avec nos forfaits spéciaux.",
       ],
@@ -11599,12 +11599,12 @@ export default {
 
       cons_name: [
         "Investissement coûteux",
-        "Compatibilité limiteée",
+        "Compatibilité limitée",
         "configuration complexe",
         "Nécessite une formation",
         "Performances inférieures à la moyenne",
         "Manque de polyvalence",
-        "Assistance limiteée",
+        "Assistance limitée",
         "Entretien fréquent",
         "Consommation d'énergie élevée",
         "Durée de vie courte",
@@ -11616,7 +11616,7 @@ export default {
         "Le processus de configuration peut être assez compliqué.",
         "Une formation supplémentaire peut être nécessaire pour son utilisation.",
         "Les performances peuvent ne pas répondre à toutes les attentes.",
-        "Fonctionnalité limiteée ou manque de polyvalence.",
+        "Fonctionnalité limitée ou manque de polyvalence.",
         "Le support client peut ne pas être disponible 24 heures sur 24.",
         "Entretien fréquent requis, entraînant des coûts plus élevés.",
         "Consomme de grandes quantités d’énergie, ce qui a un impact sur les coûts des services publics.",
@@ -11723,7 +11723,7 @@ export default {
         "Nouvelles Arrivées",
         "Meilleures ventes",
         "Promotions saisonnières",
-        "Offres limiteées",
+        "Offres limitées",
         "Offres d'événements",
         "Exclusivités VIP",
         "Articles en liquidation",
@@ -11747,7 +11747,7 @@ export default {
       title: [
         "Offre spéciale!",
         "Nouvelles Arrivées",
-        "Temps limiteé",
+        "Temps limité",
         "Alerte de réduction!",
         "Offres exclusives",
         "Grosses soldes!",
@@ -12108,7 +12108,7 @@ export default {
         "Remboursement sur chaque achat",
         "Frénésie du cashback",
         "Programme de cashback VIP",
-        "Remboursement à durée limiteée",
+        "Remboursement à durée limitée",
         "Club de récompenses cashback",
         "Achetez plus, économisez plus",
         "Récompenses cashback ultimes",
@@ -12125,7 +12125,7 @@ export default {
         "Gagnez du cashback à chaque fois que vous faites des achats.",
         "Rejoignez la frénésie du cashback dès aujourd'hui!",
         "Les membres VIP bénéficient d'un cashback exclusif.",
-        "Dépêchez-vous! Offres de remise en argent à durée limiteée.",
+        "Dépêchez-vous! Offres de remise en argent à durée limitée.",
         "Rejoignez notre Club de récompenses cashback maintenant.",
         "Plus vous achetez, plus vous économisez.",
         "Débloquez les récompenses en cashback ultimes.",
@@ -12145,7 +12145,7 @@ export default {
         "Devenez membre de la famille {shop} - Abonnez-vous à notre newsletter pour recevoir des mises à jour",
         "Découvrez les meilleurs choix et les produits les mieux notés chez {shop}",
         "Présentez des idées et des suggestions créatives pour tous les événements chez {shop}",
-        "Offres inégalées et promotions à durée limiteée chez {shop} - Agissez vite!",
+        "Offres inégalées et promotions à durée limitée chez {shop} - Agissez vite!",
         "Conseils d'achat complets et évaluations de produits de {shop} - Achetez en toute confiance",
         "Contactez {shop} - Nous nous efforçons de vous offrir une expérience d'achat inégalée",
       ],
@@ -12163,7 +12163,7 @@ export default {
         "Bénéficiez d'économies exclusives, achetez ensemble!",
         "Articles complémentaires, remises spéciales!",
         "Obtenez plus, dépensez moins – emmitouflez-vous!",
-        "Offre à durée limiteée: produits assortis!",
+        "Offre à durée limitée: produits assortis!",
         "Améliorez votre expérience, offres combinées!",
         "Découvrez nos combos sélectionnés, économisez maintenant!",
         "Associez-les pour le combo ultime!",

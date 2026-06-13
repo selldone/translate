@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Hali ya Giza",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Hifadhi ya Github",
+    github: "Hifadhi ya GitHub",
     admin_api_app: "Huduma ya wavuti ya API ya msimamizi",
     shop_api_app: "Nunua huduma ya wavuti ya API",
     design_kit: "Seti za kubuni",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "kipengee",
         sub_title:
-          "Kwanza, pakia video ya bidhaa yako kwenye Youtube, na kisha uweke URL ya video hapa.",
+          "Kwanza, pakia video ya bidhaa yako kwenye YouTube, na kisha uweke URL ya video hapa.",
       },
       change_bg_ai: {
         title: "Unda Picha kipengee Mpya mandharinyuma",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Endelea na",
     register_linkedin: "Endelea na LinkedIn",
     register_facebook: "Endelea na Facebook",
-    register_github: "Endelea na Github",
+    register_github: "Endelea na GitHub",
     create_your_account: "Fungua akaunti yako",
     password_8_chars: "Nenosiri lazima liwe na angalau vibambo 8.",
     password_upercase_number: "Angalau herufi kubwa moja na nambari moja.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Endelea na Google",
     login_linkedin: "Endelea na LinkedIn",
     login_facebook: "Endelea na Facebook",
-    login_github: "Endelea na Github",
+    login_github: "Endelea na GitHub",
     remember_me: "Nikumbuke.",
     login_button: "Ingia",
     two_step_problem: "Je, una tatizo na nenosiri la hatua mbili?",

@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "డార్క్ మోడ్",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "వీడియో",
         sub_title:
-          "ముందుగా, Youtubeలో మీ ఉత్పత్తి వీడియోను అప్‌లోడ్ చేసి, ఆపై వీడియో URLని ఇక్కడ ఉంచండి.",
+          "ముందుగా, YouTubeలో మీ ఉత్పత్తి వీడియోను అప్‌లోడ్ చేసి, ఆపై వీడియో URLని ఇక్కడ ఉంచండి.",
       },
       change_bg_ai: {
         title: "సృష్టించు చిత్రం అంశం కొత్తది నేపథ్యం",

@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "ಲಿಂಕ್ಡ್ಇನ್ Linkedin",
-  Twitter: "ಐಟಂ",
-  Facebook: "ಫೇಸ್ಬುಕ್ Facebook",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
+  Facebook: "Facebook",
   Instagram: "Instagram",
-  Reddit: "ರೆಡ್ಡಿಟ್ Reddit",
-  Github: "ಗಿಥಬ್ Github",
+  Reddit: "Reddit",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "ಡಾರ್ಕ್ ಮೋಡ್",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "ಗಿಥಬ್ ರೆಪೊಸಿಟರಿ Github",
+    github: "ಗಿಥಬ್ ರೆಪೊಸಿಟರಿ GitHub",
     admin_api_app: "ನಿರ್ವಾಹಕ API ವೆಬ್ ಸೇವೆ",
     shop_api_app: "API ವೆಬ್ ಸೇವೆಯನ್ನು ಶಾಪ್ ಮಾಡಿ",
     design_kit: "ವಿನ್ಯಾಸ ಕಿಟ್ಗಳು",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "ವೀಡಿಯೊ",
         sub_title:
-          "ಮೊದಲು, ನಿಮ್ಮ ಉತ್ಪನ್ನದ ವೀಡಿಯೊವನ್ನು Youtube ನಲ್ಲಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ, ತದನಂತರ ವೀಡಿಯೊ URL ಅನ್ನು ಇಲ್ಲಿ ಹಾಕಿ.",
+          "ಮೊದಲು, ನಿಮ್ಮ ಉತ್ಪನ್ನದ ವೀಡಿಯೊವನ್ನು YouTube ನಲ್ಲಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ, ತದನಂತರ ವೀಡಿಯೊ URL ಅನ್ನು ಇಲ್ಲಿ ಹಾಕಿ.",
       },
       change_bg_ai: {
         title: "ರಚಿಸಿ ಚಿತ್ರ ನೊಂದಿಗೆ ಹೊಸದು ಹಿನ್ನೆಲೆ",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "ಇದರೊಂದಿಗೆ ಮುಂದುವರಿಸಿ",
     register_linkedin: "LinkedIn ನೊಂದಿಗೆ ಮುಂದುವರಿಸಿ",
     register_facebook: "Facebook ನೊಂದಿಗೆ ಮುಂದುವರಿಸಿ",
-    register_github: "Github ನೊಂದಿಗೆ ಮುಂದುವರಿಸಿ",
+    register_github: "GitHub ನೊಂದಿಗೆ ಮುಂದುವರಿಸಿ",
     create_your_account: "ನಿಮ್ಮ ಖಾತೆಯನ್ನು ರಚಿಸಿ",
     password_8_chars: "ಪಾಸ್ವರ್ಡ್ ಕನಿಷ್ಠ 8 ಅಕ್ಷರಗಳಾಗಿರಬೇಕು.",
     password_upercase_number: "ಕನಿಷ್ಠ ಒಂದು ದೊಡ್ಡಕ್ಷರ ಮತ್ತು ಒಂದು ಸಂಖ್ಯೆ.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Google ನೊಂದಿಗೆ ಮುಂದುವರಿಯಿರಿ",
     login_linkedin: "LinkedIn ನೊಂದಿಗೆ ಮುಂದುವರಿಸಿ",
     login_facebook: "Facebook ನೊಂದಿಗೆ ಮುಂದುವರಿಸಿ",
-    login_github: "Github ನೊಂದಿಗೆ ಮುಂದುವರಿಸಿ",
+    login_github: "GitHub ನೊಂದಿಗೆ ಮುಂದುವರಿಸಿ",
     remember_me: "ನನ್ನನ್ನು ನೆನಪಿನಲ್ಲಿ ಇಡು.",
     login_button: "ಲಾಗಿನ್",
     two_step_problem: "ಎರಡು-ಹಂತದ ಪಾಸ್‌ವರ್ಡ್‌ನಲ್ಲಿ ನಿಮಗೆ ಸಮಸ್ಯೆ ಇದೆಯೇ?",

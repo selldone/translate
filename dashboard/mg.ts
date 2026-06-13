@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YOUTUBE YouTube",
-  Linkedin: "Linkedin",
-  Twitter: "singan-javatra",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
-  Reddit: "reddit Google Reddit",
-  Github: "Github",
+  Reddit: "Reddit",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "singan-javatra maody",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github singan-javatra",
+    github: "GitHub singan-javatra",
     admin_api_app: "Admin API serivisy tranonkala",
     shop_api_app: "Miantsena serivisy tranonkala API",
     design_kit: "Kitapo famolavolana",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "singan-javatra",
         sub_title:
-          "Voalohany, ampidiro ao amin'ny Youtube ny lahatsarin'ny vokatrao, ary apetraho eto ny URL video.",
+          "Voalohany, ampidiro ao amin'ny YouTube ny lahatsarin'ny vokatrao, ary apetraho eto ny URL video.",
       },
       change_bg_ai: {
         title: "MANANGANA SARY ny Vaovao lafika",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Tohizo ny",
     register_linkedin: "Tohizo amin'ny LinkedIn",
     register_facebook: "Tohizo amin'ny Facebook",
-    register_github: "Tohizo amin'ny Github",
+    register_github: "Tohizo amin'ny GitHub",
     create_your_account: "Mamorona ny kaontinao",
     password_8_chars: "Ny tenimiafina dia tsy maintsy 8 farafahakeliny.",
     password_upercase_number: "Farafahakeliny litera lehibe iray sy isa iray.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Tohizo amin'ny Google",
     login_linkedin: "Tohizo amin'ny LinkedIn",
     login_facebook: "Tohizo amin'ny Facebook",
-    login_github: "Tohizo amin'ny Github",
+    login_github: "Tohizo amin'ny GitHub",
     remember_me: "Tsarovy aho.",
     login_button: "Hiditra",
     two_step_problem: "Manana olana amin'ny tenimiafina dingana roa ve ianao?",

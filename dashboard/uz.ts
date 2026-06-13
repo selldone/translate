@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
-  Twitter: "Ţŵíţţéř",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Qorong'i rejim",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github ombori",
+    github: "GitHub ombori",
     admin_api_app: "Admin API veb-xizmati",
     shop_api_app: "API veb-xizmatini xarid qiling",
     design_kit: "Dizayn to'plamlari",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Ṽíďéó",
         sub_title:
-          "Birinchidan, mahsulotingiz videosini Youtube-ga yuklang, so'ngra videoning URL manzilini shu yerga qo'ying.",
+          "Birinchidan, mahsulotingiz videosini YouTube-ga yuklang, so'ngra videoning URL manzilini shu yerga qo'ying.",
       },
       change_bg_ai: {
         title: "Yaratmoq Rasm Ŵíţħ Yangi Ɓáçķğřóúñď",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "bilan davom eting",
     register_linkedin: "LinkedIn bilan davom eting",
     register_facebook: "Facebook bilan davom eting",
-    register_github: "Github bilan davom eting",
+    register_github: "GitHub bilan davom eting",
     create_your_account: "Hisob qaydnomangizni yarating",
     password_8_chars: "Parol kamida 8 ta belgidan iborat bo'lishi kerak.",
     password_upercase_number: "Kamida bitta katta harf va bitta raqam.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Google bilan davom eting",
     login_linkedin: "LinkedIn bilan davom eting",
     login_facebook: "Facebook bilan davom eting",
-    login_github: "Github bilan davom eting",
+    login_github: "GitHub bilan davom eting",
     remember_me: "Meni eslaysizmi.",
     login_button: "tizimga kirish",
     two_step_problem: "Ikki bosqichli parol bilan bog'liq muammo bormi?",

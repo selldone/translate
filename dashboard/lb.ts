@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
-  Twitter: "Element",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Däischter Modus",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github Element",
+    github: "GitHub Element",
     admin_api_app: "Admin API Webservice",
     shop_api_app: "Shop API Web Service",
     design_kit: "Design Kits",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Element",
         sub_title:
-          "Als éischt lued Äre Produktvideo op Youtube erop, a setzt dann d'URL vum Video hei.",
+          "Als éischt lued Äre Produktvideo op YouTube erop, a setzt dann d'URL vum Video hei.",
       },
       change_bg_ai: {
         title: "Schafen Bild mat Nei Hannergrond",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Weider mat",
     register_linkedin: "Fuert weider mat LinkedIn",
     register_facebook: "Fuert weider mat Facebook",
-    register_github: "Fuert weider mat Github",
+    register_github: "Fuert weider mat GitHub",
     create_your_account: "Schafen Äre Kont",
     password_8_chars: "Passwuert muss op d'mannst 8 Zeechen sinn.",
     password_upercase_number: "Op d'mannst ee grousse Buschtaf an eng Nummer.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Fuert weider mat Google",
     login_linkedin: "Fuert weider mat LinkedIn",
     login_facebook: "Fuert weider mat Facebook",
-    login_github: "Fuert weider mat Github",
+    login_github: "Fuert weider mat GitHub",
     remember_me: "Erënner dech u mech.",
     login_button: "aloggen",
     two_step_problem: "Hutt Dir e Problem mat der zwee-Schrëtt Passwuert?",

@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "تیاره حالت",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "د ګیتوب ذخیره GitHub Github",
+    github: "د ګیتوب ذخیره GitHub GitHub",
     admin_api_app: "د اډمین API ویب خدمت",
     shop_api_app: "د پلورنځي API ویب خدمت",
     design_kit: "ډیزاین کټونه",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "ویډیو",
         sub_title:
-          "لومړی، د خپل محصول ویډیو په یوټیوب کې اپلوډ کړئ، او بیا د ویډیو URL دلته وساتئ. YouTube Youtube",
+          "لومړی، د خپل محصول ویډیو په یوټیوب کې اپلوډ کړئ، او بیا د ویډیو URL دلته وساتئ. YouTube YouTube",
       },
       change_bg_ai: {
         title: "جوړ کړئ انځور توکی نوی شالید",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "سره دوام ورکړئ",
     register_linkedin: "د LinkedIn سره دوام ورکړئ",
     register_facebook: "د فیسبوک سره دوام ورکړئ Facebook",
-    register_github: "د Github سره دوام ورکړئ",
+    register_github: "د GitHub سره دوام ورکړئ",
     create_your_account: "خپل حساب جوړ کړئ",
     password_8_chars: "پاسورډ باید لږ تر لږه 8 حروف ولري.",
     password_upercase_number: "لږترلږه یو لوی توری او یوه شمیره.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "د ګوګل سره دوام ورکړئ Google",
     login_linkedin: "د LinkedIn سره دوام ورکړئ",
     login_facebook: "د فیسبوک سره دوام ورکړئ Facebook",
-    login_github: "د Github سره دوام ورکړئ",
+    login_github: "د GitHub سره دوام ورکړئ",
     remember_me: "ما په یاد ولره.",
     login_button: "د ننه کیدل",
     two_step_problem: "ایا تاسو د دوه مرحلو پاسورډ سره ستونزه لرئ؟",

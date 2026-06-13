@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
-  Twitter: "vienums",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Tumšais režīms",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github repozitorijs",
+    github: "GitHub repozitorijs",
     admin_api_app: "Administratora API tīmekļa pakalpojums",
     shop_api_app: "Iegādājieties API tīmekļa pakalpojumu",
     design_kit: "Dizaina komplekti",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Videoklipa",
         sub_title:
-          "Vispirms augšupielādējiet produkta videoklipu vietnē Youtube un pēc tam ievietojiet šeit videoklipa URL.",
+          "Vispirms augšupielādējiet produkta videoklipu vietnē YouTube un pēc tam ievietojiet šeit videoklipa URL.",
       },
       change_bg_ai: {
         title: "Izveidot Attēls ar Jauns fons",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Turpināt ar",
     register_linkedin: "Turpiniet ar LinkedIn",
     register_facebook: "Turpināt ar Facebook",
-    register_github: "Turpiniet ar Github",
+    register_github: "Turpiniet ar GitHub",
     create_your_account: "izveido savu kontu",
     password_8_chars: "Parolei ir jābūt vismaz 8 rakstzīmēm.",
     password_upercase_number: "Vismaz viens lielais burts un viens cipars.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Turpiniet ar Google",
     login_linkedin: "Turpiniet ar LinkedIn",
     login_facebook: "Turpināt ar Facebook",
-    login_github: "Turpiniet ar Github",
+    login_github: "Turpiniet ar GitHub",
     remember_me: "Atceries mani.",
     login_button: "Pieslēgties",
     two_step_problem: "Vai jums ir problēmas ar divpakāpju paroli?",

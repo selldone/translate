@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Mód Dorcha",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Stór Github",
+    github: "Stór GitHub",
     admin_api_app: "Seirbhís gréasáin API riaracháin",
     shop_api_app: "Siopa seirbhíse gréasáin API",
     design_kit: "Feisteáin dearadh",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Físeán",
         sub_title:
-          "Ar dtús, uaslódáil físeán do tháirge ar Youtube, agus ansin cuir URL an fhíseáin anseo.",
+          "Ar dtús, uaslódáil físeán do tháirge ar YouTube, agus ansin cuir URL an fhíseáin anseo.",
       },
       change_bg_ai: {
         title: "Cruthaigh íomhá le nua cúlra",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Lean ar aghaidh le",
     register_linkedin: "Lean ar aghaidh le LinkedIn",
     register_facebook: "Lean ar aghaidh le Facebook",
-    register_github: "Lean ar aghaidh le Github",
+    register_github: "Lean ar aghaidh le GitHub",
     create_your_account: "Cruthaigh do chuntas",
     password_8_chars: "Ní mór go mbeadh 8 gcarachtar ar a laghad ag pasfhocal.",
     password_upercase_number: "Ar a laghad litir chás uachtair agus uimhir amháin.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Lean ar aghaidh le Google",
     login_linkedin: "Lean ar aghaidh le LinkedIn",
     login_facebook: "Lean ar aghaidh le Facebook",
-    login_github: "Lean ar aghaidh le Github",
+    login_github: "Lean ar aghaidh le GitHub",
     remember_me: "Cuimhnigh orm.",
     login_button: "Logáil isteach",
     two_step_problem: "An bhfuil fadhb agat leis an bhfocal faire dhá chéim?",

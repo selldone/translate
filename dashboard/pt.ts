@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "Youtube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Modo escuro",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Repositório do Github",
+    github: "Repositório do GitHub",
     admin_api_app: "Serviço da Web da API de administrador",
     shop_api_app: "Serviço web da API da loja",
     design_kit: "Kits de design",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Vídeo",
         sub_title:
-          "Primeiro, carregue o vídeo do seu produto no Youtube e, em seguida, coloque o URL do vídeo aqui.",
+          "Primeiro, carregue o vídeo do seu produto no YouTube e, em seguida, coloque o URL do vídeo aqui.",
       },
       change_bg_ai: {
         title: "Criar imagem com novo fundo",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Continue com",
     register_linkedin: "Continuar com o LinkedIn",
     register_facebook: "Continuar com o Facebook",
-    register_github: "Continuar com o Github",
+    register_github: "Continuar com o GitHub",
     create_your_account: "crie sua conta",
     password_8_chars: "A senha deve conter pelo menos 8 caracteres.",
     password_upercase_number: "Pelo menos uma letra maiúscula e um número.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Continuar com o Google",
     login_linkedin: "Continuar com o LinkedIn",
     login_facebook: "Continuar com o Facebook",
-    login_github: "Continuar com o Github",
+    login_github: "Continuar com o GitHub",
     remember_me: "Lembre de mim.",
     login_button: "Conecte-se",
     two_step_problem: "Você tem um problema com a senha de duas etapas?",

@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "Youtube",
-  Linkedin: "Linkedin",
-  Twitter: "ทวิตเตอร์",
-  Facebook: "เฟสบุ๊ค",
-  Instagram: "อินสตาแกรม",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
+  Facebook: "Facebook",
+  Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "โหมดมืด",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github รเพอสิทอรย",
+    github: "GitHub รเพอสิทอรย",
     admin_api_app: "าดมิน API วเบ สเรวิคเ",
     shop_api_app: "ร้านค้าบริการเว็บ API",
     design_kit: "ชุดออกแบบ",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "วีดีโอ",
         sub_title:
-          "ฟิรสท, ูพลอาด ยอูร ผลิตภัณฑ์ วีดีโอ อน Youtube, านด ทฮเน พูท ทฮเ วีดีโอ URL ฮเรเ.",
+          "ฟิรสท, ูพลอาด ยอูร ผลิตภัณฑ์ วีดีโอ อน YouTube, านด ทฮเน พูท ทฮเ วีดีโอ URL ฮเรเ.",
       },
       change_bg_ai: {
         title: "สร้าง ภาพ วิทฮ ใหม่ บาคกกรอูนด",
@@ -5517,9 +5517,9 @@ export default {
     register_google: "คอนทินูเ วิทฮ Google",
     register_apple: "คอนทินูเ วิทฮ Apple",
     continue_with: "ต่อด้วย",
-    register_linkedin: "คอนทินูเ วิทฮ Linkedin",
+    register_linkedin: "คอนทินูเ วิทฮ LinkedIn",
     register_facebook: "ต่อด้วยเฟสบุ๊ค",
-    register_github: "คอนทินูเ วิทฮ Github",
+    register_github: "คอนทินูเ วิทฮ GitHub",
     create_your_account: "สร้างบัญชีของคุณ",
     password_8_chars: "รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร",
     password_upercase_number: "อย่างน้อยหนึ่งตัวพิมพ์ใหญ่และหนึ่งตัวเลข",
@@ -5531,9 +5531,9 @@ export default {
     already_signup: "สมัครแล้ว?",
     login_your_account: "ลงชื่อเข้าใช้บัญชีของคุณ",
     login_google: "คอนทินูเ วิทฮ Google",
-    login_linkedin: "คอนทินูเ วิทฮ Linkedin",
+    login_linkedin: "คอนทินูเ วิทฮ LinkedIn",
     login_facebook: "ต่อด้วยเฟสบุ๊ค",
-    login_github: "คอนทินูเ วิทฮ Github",
+    login_github: "คอนทินูเ วิทฮ GitHub",
     remember_me: "จดจำฉัน.",
     login_button: "เข้าสู่ระบบ",
     two_step_problem: "คุณมีปัญหากับรหัสผ่านสองขั้นตอนหรือไม่?",

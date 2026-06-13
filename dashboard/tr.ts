@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "Youtube",
-  Linkedin: "Linkedin",
-  Twitter: "heyecan",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Karanlık Modu",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github Deposu",
+    github: "GitHub Deposu",
     admin_api_app: "Yönetici API web hizmeti",
     shop_api_app: "API web hizmeti satın alın",
     design_kit: "Tasarım kitleri",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Ṽíďéó",
         sub_title:
-          "Önce ürün videonuzu Youtube'a yükleyin ve ardından video URL'sini buraya koyun.",
+          "Önce ürün videonuzu YouTube'a yükleyin ve ardından video URL'sini buraya koyun.",
       },
       change_bg_ai: {
         title: "Yeni Arkaplanla Resim Oluştur",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "İle devam et",
     register_linkedin: "LinkedIn'e devam et",
     register_facebook: "Facebook ile devam",
-    register_github: "Github'a devam et",
+    register_github: "GitHub'a devam et",
     create_your_account: "hesabını oluştur",
     password_8_chars: "Şifre en az 8 karakter olmalıdır.",
     password_upercase_number: "En az bir büyük harf ve bir sayı.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Google ile devam",
     login_linkedin: "LinkedIn'e devam et",
     login_facebook: "Facebook ile devam",
-    login_github: "Github'a devam et",
+    login_github: "GitHub'a devam et",
     remember_me: "Beni Hatırla.",
     login_button: "Giriş yapmak",
     two_step_problem: "İki adımlı şifre ile ilgili bir sorununuz mu var?",

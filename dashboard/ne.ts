@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "गाढा मोड",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github भण्डार",
+    github: "GitHub भण्डार",
     admin_api_app: "व्यवस्थापक API वेब सेवा",
     shop_api_app: "पसल API वेब सेवा",
     design_kit: "डिजाइन किटहरू",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "भिडियो",
         sub_title:
-          "पहिले, Youtube मा आफ्नो उत्पादन भिडियो अपलोड गर्नुहोस्, र त्यसपछि भिडियो URL यहाँ राख्नुहोस्।",
+          "पहिले, YouTube मा आफ्नो उत्पादन भिडियो अपलोड गर्नुहोस्, र त्यसपछि भिडियो URL यहाँ राख्नुहोस्।",
       },
       change_bg_ai: {
         title: "सिर्जना गर्नुहोस् छवि वस्तु नयाँ पृष्ठभूमि",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "साथ जारी राख्नुहोस्",
     register_linkedin: "LinkedIn को साथ जारी राख्नुहोस्",
     register_facebook: "Facebook मा जारी राख्नुहोस्",
-    register_github: "Github को साथ जारी राख्नुहोस्",
+    register_github: "GitHub को साथ जारी राख्नुहोस्",
     create_your_account: "तपाईँका खाता बनाउनुहोस्",
     password_8_chars: "पासवर्ड कम्तिमा ८ वर्णको हुनुपर्छ।",
     password_upercase_number: "कम्तिमा एउटा ठूलो अक्षर र एउटा नम्बर।",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Google को साथ जारी राख्नुहोस्",
     login_linkedin: "LinkedIn को साथ जारी राख्नुहोस्",
     login_facebook: "Facebook मा जारी राख्नुहोस्",
-    login_github: "Github को साथ जारी राख्नुहोस्",
+    login_github: "GitHub को साथ जारी राख्नुहोस्",
     remember_me: "मलाई सम्झनुहोस्।",
     login_button: "लग - इन",
     two_step_problem: "के तपाइँसँग दुई-चरण पासवर्डको साथ समस्या छ?",

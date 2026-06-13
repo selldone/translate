@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "LinkedIn",
-  Twitter: "туиттер",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "GitHub",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Тъмен режим",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "Често задавани въпроси",
-    github: "Github хранилище",
+    github: "GitHub хранилище",
     admin_api_app: "Администраторски API уеб услуга",
     shop_api_app: "Уеб услуга за API за пазаруване",
     design_kit: "Дизайнерски комплекти",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Видео",
         sub_title:
-          "Първо качете видеоклипа на вашия продукт в Youtube и след това поставете URL адреса на видеоклипа тук.",
+          "Първо качете видеоклипа на вашия продукт в YouTube и след това поставете URL адреса на видеоклипа тук.",
       },
       change_bg_ai: {
         title: "създай имаге уитх нов баккгроунд",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Продължете с",
     register_linkedin: "Продължете с LinkedIn",
     register_facebook: "Продължете с Facebook",
-    register_github: "Продължете с Github",
+    register_github: "Продължете с GitHub",
     create_your_account: "Създайте своя акаунт",
     password_8_chars: "Паролата трябва да е най-малко 8 знака.",
     password_upercase_number: "Поне една главна буква и една цифра.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Продължете с Google",
     login_linkedin: "Продължете с LinkedIn",
     login_facebook: "Продължете с Facebook",
-    login_github: "Продължете с Github",
+    login_github: "Продължете с GitHub",
     remember_me: "Помни ме.",
     login_button: "Влизане",
     two_step_problem: "Имате ли проблем с паролата в две стъпки?",

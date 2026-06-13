@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "យូធូប YouTube",
-  Linkedin: "តំណភ្ជាប់ Linkedin",
-  Twitter: "ធាតុ",
-  Facebook: "ហ្វេសប៊ុក Facebook",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
+  Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "របៀបងងឹត",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "ឃ្លាំង Github",
+    github: "ឃ្លាំង GitHub",
     admin_api_app: "សេវាកម្មគេហទំព័រ API អ្នកគ្រប់គ្រង",
     shop_api_app: "សេវាកម្មគេហទំព័រ API ទិញទំនិញ",
     design_kit: "កញ្ចប់រចនា",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "វីដេអូ",
         sub_title:
-          "ជាដំបូង សូមបង្ហោះវីដេអូផលិតផលរបស់អ្នកនៅលើ Youtube ហើយបន្ទាប់មកដាក់ URL វីដេអូនៅទីនេះ។",
+          "ជាដំបូង សូមបង្ហោះវីដេអូផលិតផលរបស់អ្នកនៅលើ YouTube ហើយបន្ទាប់មកដាក់ URL វីដេអូនៅទីនេះ។",
       },
       change_bg_ai: {
         title: "បង្កើត រូបភាព ធាតុ ថ្មី។ ផ្ទៃខាងក្រោយ",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "បន្តជាមួយ",
     register_linkedin: "បន្តជាមួយ LinkedIn",
     register_facebook: "បន្តជាមួយហ្វេសប៊ុក Facebook",
-    register_github: "បន្តជាមួយ Github",
+    register_github: "បន្តជាមួយ GitHub",
     create_your_account: "បង្កើតគណនីរបស់អ្នក។",
     password_8_chars: "ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ 8 តួអក្សរ។",
     password_upercase_number: "យ៉ាងហោចណាស់អក្សរធំមួយ និងលេខមួយ។",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "បន្តជាមួយ Google",
     login_linkedin: "បន្តជាមួយ LinkedIn",
     login_facebook: "បន្តជាមួយហ្វេសប៊ុក Facebook",
-    login_github: "បន្តជាមួយ Github",
+    login_github: "បន្តជាមួយ GitHub",
     remember_me: "ចងចាំខ្ញុំ។",
     login_button: "ចូល",
     two_step_problem: "តើអ្នកមានបញ្ហាជាមួយពាក្យសម្ងាត់ពីរជំហានទេ?",

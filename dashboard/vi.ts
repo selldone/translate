@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "YouTube",
-  Linkedin: "Linkedin",
-  Twitter: "Ţŵíţţéř",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "Chế độ tối",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Kho lưu trữ Github",
+    github: "Kho lưu trữ GitHub",
     admin_api_app: "Dịch vụ web API quản trị viên",
     shop_api_app: "Mua dịch vụ web API",
     design_kit: "Bộ dụng cụ thiết kế",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "Ṽíďéó",
         sub_title:
-          "Đầu tiên, tải video sản phẩm của bạn lên Youtube, sau đó đặt URL của video tại đây.",
+          "Đầu tiên, tải video sản phẩm của bạn lên YouTube, sau đó đặt URL của video tại đây.",
       },
       change_bg_ai: {
         title: "Tạo ra Hình ảnh Ŵíţħ Mới mẻ Ɓáçķğřóúñď",
@@ -5519,7 +5519,7 @@ export default {
     continue_with: "Tiếp tục với",
     register_linkedin: "Tiếp tục với LinkedIn",
     register_facebook: "Tiếp tục với Facebook",
-    register_github: "Tiếp tục với Github",
+    register_github: "Tiếp tục với GitHub",
     create_your_account: "tạo tài khoản của bạn",
     password_8_chars: "Mật khẩu cần dài ít nhất 8 ký tự.",
     password_upercase_number: "Ít nhất một chữ cái viết hoa và một số.",
@@ -5533,7 +5533,7 @@ export default {
     login_google: "Tiếp tục với Google",
     login_linkedin: "Tiếp tục với LinkedIn",
     login_facebook: "Tiếp tục với Facebook",
-    login_github: "Tiếp tục với Github",
+    login_github: "Tiếp tục với GitHub",
     remember_me: "Hãy nhớ đến tôi.",
     login_button: "đăng nhập",
     two_step_problem: "Bạn có vấn đề với mật khẩu hai bước?",

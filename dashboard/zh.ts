@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  Youtube: "Youtube",
-  Linkedin: "领英",
-  Twitter: "推特",
+  YouTube: "YouTube",
+  LinkedIn: "LinkedIn",
+  Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  Github: "Github",
+  GitHub: "GitHub",
 
   theme: {
     dark_mode: "暗色模式",
@@ -278,7 +278,7 @@ export default {
       POS: "POS",
     },
     faq: "FAQ",
-    github: "Github 项目",
+    github: "GitHub 项目",
     admin_api_app: "管理 API 网络服务",
     shop_api_app: "商店 API 网络服务",
     design_kit: "设计套件",
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "视频",
         sub_title:
-          "项目, 项目 项目 产品 视频 项目 Youtube, 项目 项目 项目 项目 视频 URL 项目.",
+          "项目, 项目 项目 产品 视频 项目 YouTube, 项目 项目 项目 项目 视频 URL 项目.",
       },
       change_bg_ai: {
         title: "生成新背景的图片",
@@ -5517,9 +5517,9 @@ export default {
     register_google: "项目 项目 Google",
     register_apple: "项目 项目 Apple",
     continue_with: "继续使用",
-    register_linkedin: "项目 项目 Linkedin",
+    register_linkedin: "项目 项目 LinkedIn",
     register_facebook: "项目 项目 Facebook",
-    register_github: "项目 项目 Github",
+    register_github: "项目 项目 GitHub",
     create_your_account: "创建您的帐户",
     password_8_chars: "密码至少需要8个字符。",
     password_upercase_number: "至少包含一个大写字母和一个数字。",
@@ -5531,9 +5531,9 @@ export default {
     already_signup: "已经注册？",
     login_your_account: "登录到您的帐户",
     login_google: "项目 项目 Google",
-    login_linkedin: "项目 项目 Linkedin",
+    login_linkedin: "项目 项目 LinkedIn",
     login_facebook: "项目 项目 Facebook",
-    login_github: "项目 项目 Github",
+    login_github: "项目 项目 GitHub",
     remember_me: "记住我。",
     login_button: "登录",
     two_step_problem: "两步验证出现问题了吗？",
