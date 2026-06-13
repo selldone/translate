@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Ipo dudu",
@@ -9612,7 +9612,8 @@ export default {
           "Imudojuiwọn éẋíşţíñğ Ọja, ṽáříáñţ, áñď Ẹka íñƒóřṃáţíóñ.",
       },
       migration_tips:
-        "<b>Ţíƥş: </b>Íƒ ýóú ŵáñţ Si ţéşţ ţħé ƒúñçţíóñáľíţý ƥľéáşé şéľéçţ\n            <b>Ľíṃíţéď</b> óƥţíóñ. Ɓý şéľéçţíñğ 'Şýñç áľľ', ŵé ğéţ gbogbo ďáţá Lati ýóúř Ti sopọ Awọn iṣẹ áñď ďóŵñľóáď řéľáţéď Awọn aworan, şó íţ ŵíľľ řéďúçé ýóúř ƒřéé şţóřáğé. Áľşó, řéṃóṽíñğ ṃáñý Awọn ọja, Awọn ẹka, áñď Awon onibara ŵóúľď ƀé ħářď!",
+        "<b>Ţíƥş: </b>Íƒ ýóú ŵáñţ Si ţéşţ ţħé ƒúñçţíóñáľíţý ƥľéáşé şéľéçţ\n            <b>Ľíṃíţéď</b> óƥţíóñ. Ɓý şéľéçţíñğ 'Şýñç áľľ', ŵé ğéţ gbogbo ďáţá Lati ýóúř Ti " +
+        "sopọ Awọn iṣẹ áñď ďóŵñľóáď řéľáţéď Awọn aworan, şó íţ ŵíľľ řéďúçé ýóúř ƒřéé şţóřáğé. Áľşó, řéṃóṽíñğ ṃáñý Awọn ọja, Awọn ẹka, áñď Awon onibara ŵóúľď ƀé ħářď!",
       add_action: "Áúţó çóññéçţ Si",
       order: {
         title: "Óřďéříñğ Ipo",

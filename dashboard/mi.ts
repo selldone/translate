@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Aratau pouri",
@@ -9612,7 +9612,8 @@ export default {
           "Whakahou tūemi Hua, tūemi, ka Kāwai tūemi.",
       },
       migration_tips:
-        "<b>tūemi: </b>tūemi tūemi tūemi Ki tūemi te tūemi tūemi tūemi <b>Wā</b> tūemi. mā tūemi 'tūemi katoa, tūemi tūemi katoa Raraunga Mai to Kua hono Ratonga ka tikiake tūemi Whakaahua, tūemi tūemi tūemi tūemi to tūemi tūemi. tūemi, tūemi tūemi Hua, Ngā Kāwai, ka Kaihoko Ka tūemi tūemi!",
+        "<b>tūemi: </b>tūemi tūemi tūemi Ki tūemi te tūemi tūemi tūemi <b>Wā</b> tūemi. mā tūemi 'tūemi katoa, tūemi tūemi katoa Raraunga Mai to Kua " +
+        "hono Ratonga ka tikiake tūemi Whakaahua, tūemi tūemi tūemi tūemi to tūemi tūemi. tūemi, tūemi tūemi Hua, Ngā Kāwai, ka Kaihoko Ka tūemi tūemi!",
       add_action: "tūemi tūemi Ki",
       order: {
         title: "tūemi Tūnga",

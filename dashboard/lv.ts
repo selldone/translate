@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Tumšais režīms",
@@ -9612,7 +9612,8 @@ export default {
           "Atjaunināt vienums Produkts, variantu, un Kategorija informācija.",
       },
       migration_tips:
-        "<b>padomi: </b>vienums vienums vienums Uz testa Domēns funkcionalitāte vienums Izvēlieties <b>Ierobežota</b> opcija. pēc vienums 'vienums visi, vienums Iegūstiet visi Dati No sava Savienots Pakalpojumi un lejupielādēt vienums Attēli, vienums apstiprinu vienums vienums sava Bezmaksas vienums. vienums, vienums vienums Produkti, Kategorijas, un Klienti vienums vienums vienums!",
+        "<b>padomi: </b>vienums vienums vienums Uz testa Domēns funkcionalitāte vienums Izvēlieties <b>Ierobežota</b> opcija. pēc vienums 'vienums visi, vienums Iegūstiet visi Dati No sava Savienots " +
+        "Pakalpojumi un lejupielādēt vienums Attēli, vienums apstiprinu vienums vienums sava Bezmaksas vienums. vienums, vienums vienums Produkti, Kategorijas, un Klienti vienums vienums vienums!",
       add_action: "Auto Pievienojiet Uz",
       order: {
         title: "pasūtīšanas Statuss",

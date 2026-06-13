@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Темный режим",
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "Мост Метавселенной",
     subtitle:
-      "элемент предоставляет 100% услуг на основе API в коммерческом пространстве. Разработчики игр, блокчейна и метавселенной могут использовать эти мощные API для связи предприятий, клиентов и услуг в будущем в мире работы, жизни и торговли. Selldone",
+      "элемент предоставляет %100 услуг на основе API в коммерческом пространстве. Разработчики игр, блокчейна и метавселенной могут использовать эти мощные API для связи предприятий, клиентов и услуг в будущем в мире работы, жизни и торговли. Selldone",
     message: "Ранний доступ для разработчиков игр",
   },
 

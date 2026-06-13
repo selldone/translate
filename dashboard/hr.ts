@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Mračni način rada",
@@ -9612,7 +9612,8 @@ export default {
           "ažuriraj pojam proizvod, varijanta, i kategorija informacije.",
       },
       migration_tips:
-        "<b>pojam:</b>ako vi želite za pojam pojam pojam molimo odaberi <b>ograničenje</b> opcija. od odaberi 'pojam pojam, mi pojam sve podaci od vaš pojam usluge i preuzmi pojam slike, pojam to će pojam vaš pojam pojam. pojam, pojam pojam proizvodi, kategorije, i kupci pojam biti pojam!",
+        "<b>pojam:</b>ako vi želite za pojam pojam pojam molimo odaberi <b>ograničenje</b> opcija. od odaberi 'pojam pojam, mi pojam sve podaci od " +
+        "vaš pojam usluge i preuzmi pojam slike, pojam to će pojam vaš pojam pojam. pojam, pojam pojam proizvodi, kategorije, i kupci pojam biti pojam!",
       add_action: "automatski pojam za",
       order: {
         title: "narudžba status",

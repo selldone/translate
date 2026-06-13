@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Mode sombre",
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "Pont métaverse",
     subtitle:
-      "Selldone fournit 100 % de services basés sur l'API dans le domaine du commerce. Les développeurs de jeux, de chaînes de blocs et de métaverses peuvent utiliser ces puissantes API pour connecter les entreprises, les clients et les services dans l'avenir du monde du travail, de la vie et du commerce.",
+      "Selldone fournit %100 de services basés sur l'API dans le domaine du commerce. Les développeurs de jeux, de chaînes de blocs et de métaverses peuvent utiliser ces puissantes API pour connecter les entreprises, les clients et les services dans l'avenir du monde du travail, de la vie et du commerce.",
     message: "Accès anticipé pour les développeurs de jeux",
   },
 
@@ -9612,7 +9612,8 @@ export default {
           "Mettre à jour les informations existantes sur les produits, les variantes et les catégories.",
       },
       migration_tips:
-        "<b>Conseils:</b> si vous souhaitez tester la fonctionnalité, veuillez sélectionner l'option <b>limitée</b>. En sélectionnant « Synchroniser tout », nous obtenons toutes les données de vos services connectés et téléchargeons les images associées, ce qui réduira votre espace de stockage gratuit. De plus, supprimer de nombreux produits, catégories et clients serait difficile!",
+        "<b>Conseils:</b> si vous souhaitez tester la fonctionnalité, veuillez sélectionner l'option <b>limitée</b>. En sélectionnant « Synchroniser tout », nous obtenons toutes les données de vos " +
+        "services connectés et téléchargeons les images associées, ce qui réduira votre espace de stockage gratuit. De plus, supprimer de nombreux produits, catégories et clients serait difficile!",
       add_action: "Connexion automatique à",
       order: {
         title: "Statut de la commande",

@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Dunkelmodus",
@@ -9612,7 +9612,8 @@ export default {
           "Aktualisieren Sie vorhandene Produkt-, Varianten- und Kategorieinformationen.",
       },
       migration_tips:
-        "<b>Tipps:</b> Wenn Sie die Funktionalität testen möchten, wählen Sie bitte die Option „ <b>Eingeschränkt</b> “. Wenn Sie „Alles synchronisieren“ auswählen, erhalten wir alle Daten von Ihren verbundenen Diensten und laden zugehörige Bilder herunter. Dadurch wird Ihr kostenloser Speicherplatz reduziert. Außerdem wäre es schwierig, viele Produkte, Kategorien und Kunden zu entfernen!",
+        "<b>Tipps:</b> Wenn Sie die Funktionalität testen möchten, wählen Sie bitte die Option „ <b>Eingeschränkt</b> “. Wenn Sie „Alles synchronisieren“ auswählen, erhalten wir alle Daten von Ihren " +
+        "verbundenen Diensten und laden zugehörige Bilder herunter. Dadurch wird Ihr kostenloser Speicherplatz reduziert. Außerdem wäre es schwierig, viele Produkte, Kategorien und Kunden zu entfernen!",
       add_action: "Automatisch verbinden mit",
       order: {
         title: "Bestellstatus",

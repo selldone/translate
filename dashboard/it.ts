@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Modalità oscura",
@@ -9611,7 +9611,8 @@ export default {
         true_desc:
           "aggiorna elemento prodotto, elemento, elemento categoria informazioni.",
       },
-      migration_tips: "<b>Suggerimento: </b>Se vuoi testare la funzionalità, seleziona l’opzione <b>Limitata</b>. Se scegli “Sincronizza tutto”, importeremo tutti i dati dai servizi collegati e scaricheremo le immagini correlate, riducendo lo spazio di archiviazione gratuito. Rimuovere molti prodotti, categorie e clienti potrebbe inoltre essere difficile!",
+      migration_tips: "<b>Suggerimento: </b>Se vuoi testare la funzionalità, seleziona l’opzione <b>Limitata</b>. Se scegli “Sincronizza tutto”, importeremo tutti i dati dai servizi collegati " +
+      "e scaricheremo le immagini correlate, riducendo lo spazio di archiviazione gratuito. Rimuovere molti prodotti, categorie e clienti potrebbe inoltre essere difficile!",
       add_action: "automatico collega elemento",
       order: {
         title: "elemento stato",

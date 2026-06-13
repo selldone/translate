@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Modo oscuro",
@@ -9612,7 +9612,8 @@ export default {
           "Actualice la información existente del producto, variante y categoría.",
       },
       migration_tips:
-        "<b>Consejos:</b> si desea probar la funcionalidad, seleccione la opción <b>Limitada</b> . Al seleccionar \"Sincronizar todo\", obtenemos todos los datos de sus servicios conectados y descargamos imágenes relacionadas, por lo que reducirá su almacenamiento gratuito. Además, eliminar muchos productos, categorías y clientes sería difícil.",
+        "<b>Consejos:</b> si desea probar la funcionalidad, seleccione la opción <b>Limitada</b> . Al seleccionar \"Sincronizar todo\", obtenemos todos los datos de sus servicios " +
+        "conectados y descargamos imágenes relacionadas, por lo que reducirá su almacenamiento gratuito. Además, eliminar muchos productos, categorías y clientes sería difícil.",
       add_action: "Conectar automáticamente a",
       order: {
         title: "Estado del pedido",

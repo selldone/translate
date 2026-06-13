@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Sötét mód",
@@ -9611,7 +9611,8 @@ export default {
         true_desc:
           "frissítés elem termék, elem, elem kategória információ.",
       },
-      migration_tips: "<b>Tipp: </b>Ha tesztelni szeretné a működést, válassza a <b>Korlátozott</b> opciót. Ha a „Mindent szinkronizál” lehetőséget választja, minden adatot lekérünk a csatlakoztatott szolgáltatásokból és letöltjük a kapcsolódó képeket, ami csökkenti az ingyenes tárhelyet. Sok termék, kategória és ügyfél eltávolítása később nehéz lehet!",
+      migration_tips: "<b>Tipp: </b>Ha tesztelni szeretné a működést, válassza a <b>Korlátozott</b> opciót. Ha a „Mindent szinkronizál” lehetőséget választja, minden adatot lekérünk a " +
+      "csatlakoztatott szolgáltatásokból és letöltjük a kapcsolódó képeket, ami csökkenti az ingyenes tárhelyet. Sok termék, kategória és ügyfél eltávolítása később nehéz lehet!",
       add_action: "automatikus kapcsolódás elem",
       order: {
         title: "elem állapot",

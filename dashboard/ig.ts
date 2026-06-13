@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Ọnọdụ gbara ọchịchịrị",
@@ -9611,7 +9611,8 @@ export default {
         true_desc:
           "melite ihe ngwaahịa, ihe, ihe otu ozi.",
       },
-      migration_tips: "<b>Ndụmọdụ: </b>Ọ bụrụ na ịchọrọ ịnwale ọrụ a, biko họrọ nhọrọ <b>Akpa ókè</b>. Ọ bụrụ na ịhọrọ \"Mekọrịta ihe niile\", anyị ga-enweta data niile site na ọrụ ejikọrọ ma budata foto ndị metụtara ya, ya mere ọ ga-ebelata ebe nchekwa n’efu gị. Ihichapụ ọtụtụ ngwaahịa, otu na ndị ahịa nwekwara ike isi ike!",
+      migration_tips: "<b>Ndụmọdụ: </b>Ọ bụrụ na ịchọrọ ịnwale ọrụ a, biko họrọ nhọrọ <b>Akpa ókè</b>. Ọ bụrụ na ịhọrọ \"Mekọrịta ihe niile\", anyị ga-enweta data niile site " +
+      "na ọrụ ejikọrọ ma budata foto ndị metụtara ya, ya mere ọ ga-ebelata ebe nchekwa n’efu gị. Ihichapụ ọtụtụ ngwaahịa, otu na ndị ahịa nwekwara ike isi ike!",
       add_action: "akpaka ihe ihe",
       order: {
         title: "ihe ọnọdụ",

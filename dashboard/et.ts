@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Tume režiim",
@@ -9612,7 +9612,8 @@ export default {
           "Seadistage ja hallake seda valikut oma poe jaoks.",
       },
       migration_tips:
-        "<b></b><b></b> Seadistage ja hallake seda valikut oma poe jaoks.",
+        "<b></b><b></b> Seadistage ja hal" +
+        "lake seda valikut oma poe jaoks.",
       add_action: "Ühenda automaatselt",
       order: {
         title: "Tellimus Olek",

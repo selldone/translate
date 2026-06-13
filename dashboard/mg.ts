@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "singan-javatra maody",
@@ -9612,7 +9612,8 @@ export default {
           "vaovao farany singan-javatra vokatra, singan-javatra, sy Sokajy singan-javatra.",
       },
       migration_tips:
-        "<b>singan-javatra: </b>singan-javatra singan-javatra singan-javatra ny singan-javatra Ny singan-javatra singan-javatra singan-javatra <b>singan-javatra</b> singan-javatra. singan-javatra singan-javatra 'singan-javatra rehetra, singan-javatra singan-javatra rehetra tahirin-kevitra singan-javatra ny mifandray tolotra sy alaina singan-javatra Sary, singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra. singan-javatra, singan-javatra singan-javatra vokatra, Sokajy, sy mpanjifa singan-javatra singan-javatra singan-javatra!",
+        "<b>singan-javatra: </b>singan-javatra singan-javatra singan-javatra ny singan-javatra Ny singan-javatra singan-javatra singan-javatra <b>singan-javatra</b> singan-javatra. singan-javatra singan-javatra 'singan-javatra rehetra, singan-javatra singan-javatra rehetra tahirin-kevitra " +
+        "singan-javatra ny mifandray tolotra sy alaina singan-javatra Sary, singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra. singan-javatra, singan-javatra singan-javatra vokatra, Sokajy, sy mpanjifa singan-javatra singan-javatra singan-javatra!",
       add_action: "singan-javatra singan-javatra ny",
       order: {
         title: "singan-javatra sata",

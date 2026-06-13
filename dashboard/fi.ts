@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Tumma tila",
@@ -9612,7 +9612,8 @@ export default {
           "Päivitä kohde tuote, variaatio, ja kategoria tiedot.",
       },
       migration_tips:
-        "<b>kohde </b>kohde sinä kohde kohde testi kohde ole hyvä valitse <b>kohde</b> kohde. mukaan kohde 'synkronoi kaikki, kohde kohde kaikki tiedot Mistä sinun yhdistetty palvelut ja lataa kohde kuvat, kohde kohde tulee kohde sinun ilmainen kohde. kohde, kohde kohde Tuotteet, kategoria, ja Asiakkaat kohde kohde kohde!",
+        "<b>kohde </b>kohde sinä kohde kohde testi kohde ole hyvä valitse <b>kohde</b> kohde. mukaan kohde 'synkronoi kaikki, kohde kohde kaikki tiedot Mistä sinun " +
+        "yhdistetty palvelut ja lataa kohde kuvat, kohde kohde tulee kohde sinun ilmainen kohde. kohde, kohde kohde Tuotteet, kategoria, ja Asiakkaat kohde kohde kohde!",
       add_action: "Automaattinen yhdistäminen kohde",
       order: {
         title: "kohde tila",

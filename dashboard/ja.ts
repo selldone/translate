@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "ダークモード",
@@ -5457,7 +5457,7 @@ export default {
     description:
       "毎月の売り上げに基づいて最適なプランを計算して選択します。",
     sale_input: "月間売上高",
-    hypernova_plan: "Hypernova％0に申し込む！",
+    hypernova_plan: "Hypernova%0に申し込む！",
     show_normal_mode: "通常モードを表示",
     show_hypernova_mode: "私の取引は100万ドルを超えています！",
   },
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "メタバースブリッジ",
     subtitle:
-      "Selldoneは、コマーススペースで100％のAPIベースのサービスを提供します。ゲーム、ブロックチェーン、およびメタバースの開発者は、これらの強力なAPIを使用して、将来の仕事、生活、貿易の世界でビジネス、顧客、およびサービスを接続できます。",
+      "Selldoneは、コマーススペースで%100のAPIベースのサービスを提供します。ゲーム、ブロックチェーン、およびメタバースの開発者は、これらの強力なAPIを使用して、将来の仕事、生活、貿易の世界でビジネス、顧客、およびサービスを接続できます。",
     message: "ゲーム開発者向けの早期アクセス",
   },
 
@@ -9611,7 +9611,8 @@ export default {
         true_desc:
           "既存の製品、バリアント、カテゴリ情報を更新します。",
       },
-      migration_tips: "<b>ヒント: </b>機能をテストする場合は、<b>制限付き</b>オプションを選択してください。「すべて同期」を選択すると、接続済みサービスからすべてのデータを取得し、関連画像もダウンロードするため、無料ストレージが減ります。また、多数の商品、カテゴリ、顧客を削除するのは難しくなる場合があります。",
+      migration_tips: "<b>ヒント: </b>機能をテストする場合は、<b>制限付き</b>オプションを選択してください。「すべて同期」を選択すると、接続済みサービスからす" +
+      "べてのデータを取得し、関連画像もダウンロードするため、無料ストレージが減ります。また、多数の商品、カテゴリ、顧客を削除するのは難しくなる場合があります。",
       add_action: "自動接続",
       order: {
         title: "注文状況",

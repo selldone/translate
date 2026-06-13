@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Modalità mudlama",
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "Pont Metaverse",
     subtitle:
-      "Selldone jipprovdi % 100 servizzi bbażati fuq API fl-ispazju tal-kummerċ. L-iżviluppaturi tal-logħob, tal-blockchain u tal-metaverse jistgħu jużaw dawn l-APIs qawwija biex jgħaqqdu negozji, klijenti u servizzi fil-futur tad-dinja tax-xogħol, il-ħajja u l-kummerċ.",
+      "Selldone jipprovdi %100 servizzi bbażati fuq API fl-ispazju tal-kummerċ. L-iżviluppaturi tal-logħob, tal-blockchain u tal-metaverse jistgħu jużaw dawn l-APIs qawwija biex jgħaqqdu negozji, klijenti u servizzi fil-futur tad-dinja tax-xogħol, il-ħajja u l-kummerċ.",
     message: "Aċċess Bikri Għall-Iżviluppaturi tal-Logħob",
   },
 

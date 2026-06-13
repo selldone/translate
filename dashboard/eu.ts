@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Modu iluna",
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "Metabertso zubia",
     subtitle:
-      "Selldone-k % 100 APIan oinarritutako zerbitzu eskaintzen ditu merkataritza-esparruan. Joko, blockchain eta metabertsoen garatzaileek API indartsu hauek erabil ditzakete lan, bizitza eta merkataritza munduaren etorkizuneko negozioak, bezeroak eta zerbitzuak konektatzeko.",
+      "Selldone-k %100 APIan oinarritutako zerbitzu eskaintzen ditu merkataritza-esparruan. Joko, blockchain eta metabertsoen garatzaileek API indartsu hauek erabil ditzakete lan, bizitza eta merkataritza munduaren etorkizuneko negozioak, bezeroak eta zerbitzuak konektatzeko.",
     message: "Sarbide goiztiarra Jokoen garatzaileentzat",
   },
 
@@ -9612,7 +9612,8 @@ export default {
           "Konfiguratu eta kudeatu aukera hau zure dendarako.",
       },
       migration_tips:
-        "<b></b><b></b> Konfiguratu eta kudeatu aukera hau zure dendarako.",
+        "<b></b><b></b> Konfiguratu eta k" +
+        "udeatu aukera hau zure dendarako.",
       add_action: "Konektatu automatikoki hona",
       order: {
         title: "Titulua",

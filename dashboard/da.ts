@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Mørk tilstand",
@@ -9612,7 +9612,8 @@ export default {
           "Opdater eksisterende produkt-, variant- og kategorioplysninger.",
       },
       migration_tips:
-        "<b>Tip:</b> Hvis du vil teste funktionaliteten, skal du vælge <b>Begrænset</b> mulighed. Ved at vælge 'Synkroniser alle' får vi alle data fra dine tilsluttede tjenester og downloader relaterede billeder, så det reducerer din gratis lagerplads. Det ville også være svært at fjerne mange produkter, kategorier og kunder!",
+        "<b>Tip:</b> Hvis du vil teste funktionaliteten, skal du vælge <b>Begrænset</b> mulighed. Ved at vælge 'Synkroniser alle' får vi alle data fra dine tilsluttede " +
+        "tjenester og downloader relaterede billeder, så det reducerer din gratis lagerplads. Det ville også være svært at fjerne mange produkter, kategorier og kunder!",
       add_action: "Opret automatisk forbindelse til",
       order: {
         title: "Bestillingsstatus",

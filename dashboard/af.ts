@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Donker modus",
@@ -9612,7 +9612,8 @@ export default {
           "werk by existing produk, variant, en kategorie inligting.",
       },
       migration_tips:
-        "<b>Wenke: </b>As jy die funksionaliteit wil toets, kies asseblief die <b>Beperk</b>-opsie. Deur 'Sinkroniseer alles' te kies, haal ons alle data uit jou gekoppelde dienste en laai verwante beelde af; dit kan jou gratis berging verminder. Die verwydering van baie produkte, kategorieë en kliënte kan ook moeilik wees!",
+        "<b>Wenke: </b>As jy die funksionaliteit wil toets, kies asseblief die <b>Beperk</b>-opsie. Deur 'Sinkroniseer alles' te kies, haal ons alle data uit jou " +
+        "gekoppelde dienste en laai verwante beelde af; dit kan jou gratis berging verminder. Die verwydering van baie produkte, kategorieë en kliënte kan ook moeilik wees!",
       add_action: "outomaties koppel na",
       order: {
         title: "ordering toestand",

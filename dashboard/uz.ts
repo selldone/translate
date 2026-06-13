@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Qorong'i rejim",
@@ -6989,7 +6989,7 @@ export default {
 
     excel:
       "Ýóú ŵíľľ Qabul qilish á Roʻyxat óƒ hammasi ţħé {type} íñ ţħé do'kon áľóñğ ŵíţħ çóṃƥľéţé íñƒóřṃáţíóñ íñ Éẋçéľ ƒóřṃáţ.",
-    csv: "Siz do'kondagi barcha {turlar ro'yxatini CSV formatida to'liq ma'lumot bilan birga olasiz. Bu format doʻkonga {type} import qilish uchun Selldone standart formatiga mos keladi.",
+    csv: "Siz do'kondagi barcha {type} ro'yxatini CSV formatida to'liq ma'lumot bilan birga olasiz. Bu format do'konga {type} import qilish uchun Selldone standart formatiga mos keladi.",
   },
   /** {@see BPageShopProductsImporter**/
   importer: {
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "Metaverse ko'prigi",
     subtitle:
-      "Selldone tijorat sohasida% 100 API-ga asoslangan xizmatlarni taqdim etadi. O'yin, blokcheyn va metaverse ishlab chiquvchilari ushbu kuchli API'lardan biznes, mijozlar va xizmatlarni kelajakda ish, hayot va savdo dunyosida ulash uchun foydalanishlari mumkin.",
+      "Selldone tijorat sohasida%100 API-ga asoslangan xizmatlarni taqdim etadi. O'yin, blokcheyn va metaverse ishlab chiquvchilari ushbu kuchli API'lardan biznes, mijozlar va xizmatlarni kelajakda ish, hayot va savdo dunyosida ulash uchun foydalanishlari mumkin.",
     message: "O'yinni ishlab chiquvchilar uchun erta kirish",
   },
 
@@ -9612,7 +9612,8 @@ export default {
           "Yangilash éẋíşţíñğ Mahsulot, ṽáříáñţ, áñď Turkum íñƒóřṃáţíóñ.",
       },
       migration_tips:
-        "<b>Ţíƥş: </b>Íƒ ýóú ŵáñţ Kimga ţéşţ ţħé ƒúñçţíóñáľíţý ƥľéáşé şéľéçţ\n            <b>Ľíṃíţéď</b> óƥţíóñ. Ɓý şéľéçţíñğ 'Şýñç áľľ', ŵé ğéţ hammasi Ma'lumotlar Kimdan ýóúř Ulangan Xizmatlar áñď ďóŵñľóáď řéľáţéď Tasvirlar, şó íţ ŵíľľ řéďúçé ýóúř ƒřéé şţóřáğé. Áľşó, řéṃóṽíñğ ṃáñý Mahsulotlar, Kategoriyalar, áñď Xaridorlar ŵóúľď ƀé ħářď!",
+        "<b>Ţíƥş: </b>Íƒ ýóú ŵáñţ Kimga ţéşţ ţħé ƒúñçţíóñáľíţý ƥľéáşé şéľéçţ\n            <b>Ľíṃíţéď</b> óƥţíóñ. Ɓý şéľéçţíñğ 'Şýñç áľľ', ŵé ğéţ hammasi Ma'lumotlar Kimdan ýóúř " +
+        "Ulangan Xizmatlar áñď ďóŵñľóáď řéľáţéď Tasvirlar, şó íţ ŵíľľ řéďúçé ýóúř ƒřéé şţóřáğé. Áľşó, řéṃóṽíñğ ṃáñý Mahsulotlar, Kategoriyalar, áñď Xaridorlar ŵóúľď ƀé ħářď!",
       add_action: "Áúţó çóññéçţ Kimga",
       order: {
         title: "Óřďéříñğ Holat",

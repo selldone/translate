@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Mode fosc",
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "Pont metavers",
     subtitle:
-      "Selldone ofereix% 100 serveis basats en API a l'espai comercial. Els desenvolupadors de jocs, blockchain i metavers poden utilitzar aquestes potents API per connectar empreses, clients i serveis en el futur del món laboral, de la vida i del comerç.",
+      "Selldone ofereix%100 serveis basats en API a l'espai comercial. Els desenvolupadors de jocs, blockchain i metavers poden utilitzar aquestes potents API per connectar empreses, clients i serveis en el futur del món laboral, de la vida i del comerç.",
     message: "Accés anticipat per a desenvolupadors de jocs",
   },
 
@@ -9612,7 +9612,8 @@ export default {
           "actualitza terme producte, variant, i categoria informació.",
       },
       migration_tips:
-        "<b>terme:</b>si tu vols a terme el terme si us plau selecciona <b>límit</b> opció. per selecciona 'terme terme, nosaltres terme tot dades des de teu terme serveis i descarrega terme imatges, terme això serà terme teu terme terme. terme, terme terme productes, categories, i clients terme ser terme!",
+        "<b>terme:</b>si tu vols a terme el terme si us plau selecciona <b>límit</b> opció. per selecciona 'terme terme, nosaltres terme tot dades des de teu " +
+        "terme serveis i descarrega terme imatges, terme això serà terme teu terme terme. terme, terme terme productes, categories, i clients terme ser terme!",
       add_action: "automàtic terme a",
       order: {
         title: "comanda estat",

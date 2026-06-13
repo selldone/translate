@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "黑暗模式",
@@ -9612,7 +9612,8 @@ export default {
           "更新 项目 產品, 项目, 项目 類別 项目.",
       },
       migration_tips:
-        "<b>项目: </b>项目 项目 项目 至 项目 项目 项目 项目 项目 <b>项目</b> 项目. 项目 项目 '项目 项目, 项目 项目 全部 數據 從 项目 連接的 服務 项目 项目 项目 圖片, 项目 项目 项目 项目 项目 项目 项目. 项目, 项目 项目 產品, 類別, 项目 顧客 项目 项目 项目!",
+        "<b>项目: </b>项目 项目 项目 至 项目 项目 项目 项目 项目 <b>项目</b> 项目. 项目 项目 '项目 项目, 项目 项目 全部 數據 從 " +
+        "项目 連接的 服務 项目 项目 项目 圖片, 项目 项目 项目 项目 项目 项目 项目. 项目, 项目 项目 產品, 類別, 项目 顧客 项目 项目 项目!",
       add_action: "项目 项目 至",
       order: {
         title: "项目 地位",

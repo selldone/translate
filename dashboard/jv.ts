@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Mode peteng",
@@ -9611,7 +9611,8 @@ export default {
         true_desc:
           "perbarui item produk, item, item kategori informasi.",
       },
-      migration_tips: "<b>Pituduh: </b>Yen sampeyan pengin nguji fungsi iki, pilih opsi <b>Winates</b>. Yen milih \"Sinkronake kabeh\", kabeh data saka layanan sing kagandheng bakal dijupuk lan gambar sing gegandhengan bakal diundhuh, mula panyimpenan gratis sampeyan bakal suda. Mbusak akeh produk, kategori, lan pelanggan uga bisa dadi angel!",
+      migration_tips: "<b>Pituduh: </b>Yen sampeyan pengin nguji fungsi iki, pilih opsi <b>Winates</b>. Yen milih \"Sinkronake kabeh\", kabeh data saka layanan sing kagandheng bakal " +
+      "dijupuk lan gambar sing gegandhengan bakal diundhuh, mula panyimpenan gratis sampeyan bakal suda. Mbusak akeh produk, kategori, lan pelanggan uga bisa dadi angel!",
       add_action: "otomatis hubungkan item",
       order: {
         title: "item status",

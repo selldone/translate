@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Imo Emnyama",
@@ -9612,7 +9612,8 @@ export default {
           "Hlaziya éẋíşţíñğ Imveliso, ṽáříáñţ, áñď Udidi íñƒóřṃáţíóñ.",
       },
       migration_tips:
-        "<b>Ţíƥş: </b>Íƒ ýóú ŵáñţ Ukuya ţéşţ ţħé ƒúñçţíóñáľíţý ƥľéáşé şéľéçţ\n            <b>Ľíṃíţéď</b> óƥţíóñ. Ɓý şéľéçţíñğ 'Şýñç áľľ', ŵé ğéţ zonke Idatha Ukusuka ýóúř Iqhagamshelwe Iinkonzo áñď ďóŵñľóáď řéľáţéď Imifanekiso, şó íţ ŵíľľ řéďúçé ýóúř ƒřéé şţóřáğé. Áľşó, řéṃóṽíñğ ṃáñý Iimveliso, Iindidi, áñď Abathengi ŵóúľď ƀé ħářď!",
+        "<b>Ţíƥş: </b>Íƒ ýóú ŵáñţ Ukuya ţéşţ ţħé ƒúñçţíóñáľíţý ƥľéáşé şéľéçţ\n            <b>Ľíṃíţéď</b> óƥţíóñ. Ɓý şéľéçţíñğ 'Şýñç áľľ', ŵé ğéţ zonke Idatha Ukusuka ýóúř " +
+        "Iqhagamshelwe Iinkonzo áñď ďóŵñľóáď řéľáţéď Imifanekiso, şó íţ ŵíľľ řéďúçé ýóúř ƒřéé şţóřáğé. Áľşó, řéṃóṽíñğ ṃáñý Iimveliso, Iindidi, áñď Abathengi ŵóúľď ƀé ħářď!",
       add_action: "Áúţó çóññéçţ Ukuya",
       order: {
         title: "Óřďéříñğ Ubume",

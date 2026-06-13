@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "ጨለማ ሁነታ",
@@ -9612,7 +9612,8 @@ export default {
           "አዘምን እክስኢስትኢንግ ምርት, ቭአርኢአንት, አንድ ምድብ መረጃ.",
       },
       migration_tips:
-        "<b>ምክሮች፦ </b>ተግባሩን ለመሞከር ከፈለጉ እባክዎ <b>የተገደበ</b> አማራጭን ይምረጡ። 'ሁሉንም አመሳስል' ሲመርጡ ከተገናኙ አገልግሎቶችዎ ሁሉንም ውሂብ እንወስዳለን እና ተዛማጅ ምስሎችን እናወርዳለን፤ ይህም ነፃ ማከማቻዎን ይቀንሳል። ብዙ ምርቶችን፣ ምድቦችን እና ደንበኞችን ማስወገድም ከባድ ሊሆን ይችላል!",
+        "<b>ምክሮች፦ </b>ተግባሩን ለመሞከር ከፈለጉ እባክዎ <b>የተገደበ</b> አማራጭን ይምረጡ። 'ሁሉንም አመሳስል' ሲመርጡ ከተገናኙ አገልግሎቶችዎ ሁሉንም " +
+        "ውሂብ እንወስዳለን እና ተዛማጅ ምስሎችን እናወርዳለን፤ ይህም ነፃ ማከማቻዎን ይቀንሳል። ብዙ ምርቶችን፣ ምድቦችን እና ደንበኞችን ማስወገድም ከባድ ሊሆን ይችላል!",
       add_action: "አኡትኦ ክኦንንእክት ትኦ",
       order: {
         title: "ኦርድእርኢንግ ሁኔታ",

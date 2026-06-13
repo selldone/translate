@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Σκούρα λειτουργία",
@@ -9612,7 +9612,8 @@ export default {
           "Ρυθμίστε και διαχειριστείτε αυτήν την επιλογή για το κατάστημά σας.",
       },
       migration_tips:
-        "<b></b><b></b> Ρυθμίστε και διαχειριστείτε αυτήν την επιλογή για το κατάστημά σας.",
+        "<b></b><b></b> Ρυθμίστε και διαχειριστείτ" +
+        "ε αυτήν την επιλογή για το κατάστημά σας.",
       add_action: "Αυτόματο connect to",
       order: {
         title: "Τίτλος",

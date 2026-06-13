@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Chế độ tối",
@@ -5457,7 +5457,7 @@ export default {
     description:
       "Tính toán và chọn phương án tốt nhất dựa trên doanh số hàng tháng của bạn:",
     sale_input: "Số tiền bán hàng hàng tháng",
-    hypernova_plan: "Đăng ký Hypernova% 0!",
+    hypernova_plan: "Đăng ký Hypernova%0!",
     show_normal_mode: "Hiển thị chế độ bình thường",
     show_hypernova_mode: "Giao dịch của tôi hơn 1 triệu đô la!",
   },
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "Cầu Metaverse",
     subtitle:
-      "Selldone cung cấp 100% dịch vụ dựa trên API trong không gian thương mại. Các nhà phát triển trò chơi, blockchain và metaverse có thể sử dụng các API mạnh mẽ này để kết nối các doanh nghiệp, khách hàng và dịch vụ trong tương lai của thế giới công việc, cuộc sống và thương mại.",
+      "Selldone cung cấp %100 dịch vụ dựa trên API trong không gian thương mại. Các nhà phát triển trò chơi, blockchain và metaverse có thể sử dụng các API mạnh mẽ này để kết nối các doanh nghiệp, khách hàng và dịch vụ trong tương lai của thế giới công việc, cuộc sống và thương mại.",
     message: "Quyền truy cập sớm dành cho nhà phát triển trò chơi",
   },
 
@@ -9612,7 +9612,8 @@ export default {
           "Cập nhật éẋíşţíñğ Sản phẩm, ṽáříáñţ, áñď Danh mục íñƒóřṃáţíóñ.",
       },
       migration_tips:
-        "<b>Ţíƥş: </b>Íƒ ýóú ŵáñţ Đến ţéşţ ţħé ƒúñçţíóñáľíţý ƥľéáşé şéľéçţ\n            <b>Ľíṃíţéď</b> óƥţíóñ. Ɓý şéľéçţíñğ 'Şýñç áľľ', ŵé ğéţ tất cả các Dữ liệu Từ ýóúř Đã kết nối Dịch vụ áñď ďóŵñľóáď řéľáţéď Hình ảnh, şó íţ ŵíľľ řéďúçé ýóúř ƒřéé şţóřáğé. Áľşó, řéṃóṽíñğ ṃáñý Các sản phẩm, Thể loại, áñď Khách hàng ŵóúľď ƀé ħářď!",
+        "<b>Ţíƥş: </b>Íƒ ýóú ŵáñţ Đến ţéşţ ţħé ƒúñçţíóñáľíţý ƥľéáşé şéľéçţ\n            <b>Ľíṃíţéď</b> óƥţíóñ. Ɓý şéľéçţíñğ 'Şýñç áľľ', ŵé ğéţ tất cả các Dữ liệu Từ ýóúř " +
+        "Đã kết nối Dịch vụ áñď ďóŵñľóáď řéľáţéď Hình ảnh, şó íţ ŵíľľ řéďúçé ýóúř ƒřéé şţóřáğé. Áľşó, řéṃóṽíñğ ṃáñý Các sản phẩm, Thể loại, áñď Khách hàng ŵóúľď ƀé ħářď!",
       add_action: "Áúţó çóññéçţ Đến",
       order: {
         title: "Óřďéříñğ Tình trạng",

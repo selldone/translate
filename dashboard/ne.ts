@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "गाढा मोड",
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "वस्तु पुल",
     subtitle:
-      "Selldone वाणिज्य स्थानमा% 100 API-आधारित सेवाहरू प्रदान गर्दछ। खेल, ब्लकचेन, र मेटावर्स विकासकर्ताहरूले काम, जीवन र व्यापार संसारको भविष्यमा व्यवसायहरू, ग्राहकहरू र सेवाहरू जडान गर्न यी शक्तिशाली API हरू प्रयोग गर्न सक्छन्।",
+      "Selldone वाणिज्य स्थानमा%100 API-आधारित सेवाहरू प्रदान गर्दछ। खेल, ब्लकचेन, र मेटावर्स विकासकर्ताहरूले काम, जीवन र व्यापार संसारको भविष्यमा व्यवसायहरू, ग्राहकहरू र सेवाहरू जडान गर्न यी शक्तिशाली API हरू प्रयोग गर्न सक्छन्।",
     message: "खेल विकासकर्ताहरूको लागि प्रारम्भिक पहुँच",
   },
 

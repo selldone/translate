@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "atriði atriði",
@@ -9611,7 +9611,8 @@ export default {
         true_desc:
           "uppfæra atriði vara, atriði, atriði flokkur upplýsingar.",
       },
-      migration_tips: "<b>Ábending: </b>Ef þú vilt prófa virknina skaltu velja <b>Takmarkað</b> valkostinn. Með því að velja „Samstilla allt“ sækjum við öll gögn úr tengdum þjónustum og hleðjum niður tengdum myndum, sem minnkar ókeypis geymsluplássið þitt. Það getur líka verið erfitt að fjarlægja margar vörur, flokka og viðskiptavini!",
+      migration_tips: "<b>Ábending: </b>Ef þú vilt prófa virknina skaltu velja <b>Takmarkað</b> valkostinn. Með því að velja „Samstilla allt“ sækjum við öll gögn úr tengdum þjónustum " +
+      "og hleðjum niður tengdum myndum, sem minnkar ókeypis geymsluplássið þitt. Það getur líka verið erfitt að fjarlægja margar vörur, flokka og viðskiptavini!",
       add_action: "sjálfvirkt atriði atriði",
       order: {
         title: "atriði staða",

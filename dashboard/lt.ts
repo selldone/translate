@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Tamsus režimas",
@@ -9612,7 +9612,8 @@ export default {
           "Atnaujinti elementas Produktas, variantą, ir Kategorija informacija.",
       },
       migration_tips:
-        "<b>patarimai: </b>elementas elementas elementas Į testo patikrinkite funkcionalumas prašome Pasirinkite <b>Riboto</b> parinktis. pagal elementas 'elementas visi, elementas Gaukite visi Duomenys Iš savo Prisijungta Paslaugos ir atsisiųsti elementas Vaizdai, elementas patvirtinu elementas elementas savo nemokamai elementas. elementas, elementas elementas Produktai, Kategorijos, ir Klientai elementas būti elementas!",
+        "<b>patarimai: </b>elementas elementas elementas Į testo patikrinkite funkcionalumas prašome Pasirinkite <b>Riboto</b> parinktis. pagal elementas 'elementas visi, elementas Gaukite visi Duomenys Iš savo " +
+        "Prisijungta Paslaugos ir atsisiųsti elementas Vaizdai, elementas patvirtinu elementas elementas savo nemokamai elementas. elementas, elementas elementas Produktai, Kategorijos, ir Klientai elementas būti elementas!",
       add_action: "Auto Prijunkite Į",
       order: {
         title: "užsakymas Būsena",

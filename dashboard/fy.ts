@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "tsjuster modus",
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "ûnderdiel ûnderdiel",
     subtitle:
-      "Selldone leveret % 100 API-basearre tsjinsten yn 'e hannelsromte. Spultsje, blockchain, en metaverse-ûntwikkelders kinne dizze krêftige API's brûke om bedriuwen, klanten en tsjinsten te ferbinen yn 'e takomst fan wurk, libben en hannelswrâld.",
+      "Selldone leveret %100 API-basearre tsjinsten yn 'e hannelsromte. Spultsje, blockchain, en metaverse-ûntwikkelders kinne dizze krêftige API's brûke om bedriuwen, klanten en tsjinsten te ferbinen yn 'e takomst fan wurk, libben en hannelswrâld.",
     message: "Iere tagong foar spultsje-ûntwikkelders",
   },
 
@@ -9612,7 +9612,8 @@ export default {
           "Bywurkje ûnderdiel produkt, fariant, en kategory ynformaasje.",
       },
       migration_tips:
-        "<b>ûnderdiel </b>ûnderdiel jo ûnderdiel nei test ûnderdiel graach selektearje <b>ûnderdiel</b> ûnderdiel. op ûnderdiel 'syngronisearje alles, ûnderdiel ûnderdiel alles gegevens Fan jo ferbûn tsjinsten en downloade ûnderdiel ôfbyldings, ûnderdiel ûnderdiel sil ûnderdiel jo fergees ûnderdiel. ûnderdiel, ûnderdiel ûnderdiel Produkten, kategory, en Klanten ûnderdiel ûnderdiel ûnderdiel!",
+        "<b>ûnderdiel </b>ûnderdiel jo ûnderdiel nei test ûnderdiel graach selektearje <b>ûnderdiel</b> ûnderdiel. op ûnderdiel 'syngronisearje alles, ûnderdiel ûnderdiel alles gegevens Fan jo ferbûn " +
+        "tsjinsten en downloade ûnderdiel ôfbyldings, ûnderdiel ûnderdiel sil ûnderdiel jo fergees ûnderdiel. ûnderdiel, ûnderdiel ûnderdiel Produkten, kategory, en Klanten ûnderdiel ûnderdiel ûnderdiel!",
       add_action: "Automatysk ferbine nei",
       order: {
         title: "ûnderdiel status",

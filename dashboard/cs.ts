@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Tmavý režim",
@@ -9612,7 +9612,8 @@ export default {
           "aktualizovat pojem produkt, varianta, a kategorie informace.",
       },
       migration_tips:
-        "<b>pojem:</b>pokud vy chcete k pojem pojem pojem prosím vybrat <b>limit</b> možnost. podle vybrat 'pojem pojem, my pojem vše data od váš pojem služby a stáhnout pojem obrázky, pojem to bude pojem váš pojem pojem. pojem, pojem pojem produkty, kategorie, a zákazníci pojem být pojem!",
+        "<b>pojem:</b>pokud vy chcete k pojem pojem pojem prosím vybrat <b>limit</b> možnost. podle vybrat 'pojem pojem, my pojem vše data od váš pojem " +
+        "služby a stáhnout pojem obrázky, pojem to bude pojem váš pojem pojem. pojem, pojem pojem produkty, kategorie, a zákazníci pojem být pojem!",
       add_action: "automaticky pojem k",
       order: {
         title: "objednávka stav",

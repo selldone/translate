@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Mode Gelap",
@@ -9611,7 +9611,8 @@ export default {
         true_desc:
           "Perbarui informasi produk, varian, dan kategori yang ada.",
       },
-      migration_tips: "<b>Kiat: </b>Jika Anda ingin menguji fungsinya, pilih opsi <b>Terbatas</b>. Dengan memilih \"Sinkronkan semua\", kami akan mengambil semua data dari layanan yang terhubung dan mengunduh gambar terkait, sehingga ruang penyimpanan gratis Anda berkurang. Menghapus banyak produk, kategori, dan pelanggan juga akan sulit!",
+      migration_tips: "<b>Kiat: </b>Jika Anda ingin menguji fungsinya, pilih opsi <b>Terbatas</b>. Dengan memilih \"Sinkronkan semua\", kami akan mengambil semua data dari layanan " +
+      "yang terhubung dan mengunduh gambar terkait, sehingga ruang penyimpanan gratis Anda berkurang. Menghapus banyak produk, kategori, dan pelanggan juga akan sulit!",
       add_action: "Hubungkan otomatis ke",
       order: {
         title: "Status Pemesanan",

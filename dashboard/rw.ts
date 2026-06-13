@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Uburyo bwijimye",
@@ -5457,7 +5457,7 @@ export default {
     description:
       "Kubara no guhitamo gahunda nziza ukurikije ibicuruzwa byawe bya buri kwezi:",
     sale_input: "Amafaranga yo kugurisha buri kwezi",
-    hypernova_plan: "Saba Hypernova% 0!",
+    hypernova_plan: "Saba Hypernova%0!",
     show_normal_mode: "Erekana uburyo busanzwe",
     show_hypernova_mode: "Igicuruzwa cyanjye kirenze 1M $!",
   },
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "Ikiraro",
     subtitle:
-      "Selldone itanga% 100 ya API ishingiye kubucuruzi. Umukino, guhagarika, hamwe na metaverse abitezimbere barashobora gukoresha izi API zikomeye kugirango bahuze ubucuruzi, abakiriya, na serivise mugihe kizaza cyakazi, ubuzima nubucuruzi bwisi.",
+      "Selldone itanga%100 ya API ishingiye kubucuruzi. Umukino, guhagarika, hamwe na metaverse abitezimbere barashobora gukoresha izi API zikomeye kugirango bahuze ubucuruzi, abakiriya, na serivise mugihe kizaza cyakazi, ubuzima nubucuruzi bwisi.",
     message: "Kubona hakiri kare Kubategura Imikino",
   },
 

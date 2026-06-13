@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Däischter Modus",
@@ -9612,7 +9612,8 @@ export default {
           "aktualiséieren Element Produit, Variant, a Kategorie Informatiounen.",
       },
       migration_tips:
-        "<b>Tipps: </b>Element Dir Element Zu Element D'Domain Funktionalitéit wait Wielt <b>Limitéiert</b> Optioun. no Element 'Element all, Element Kréien all Daten Vun Äre verbonnen Servicer a eroflueden Element Biller, Element et Element Element Äre fräi Element. Element, Element Element Produkter, Kategorien, a Clienten Géif Element Element!",
+        "<b>Tipps: </b>Element Dir Element Zu Element D'Domain Funktionalitéit wait Wielt <b>Limitéiert</b> Optioun. no Element 'Element all, Element Kréien all Daten Vun Äre " +
+        "verbonnen Servicer a eroflueden Element Biller, Element et Element Element Äre fräi Element. Element, Element Element Produkter, Kategorien, a Clienten Géif Element Element!",
       add_action: "Auto Connect Zu",
       order: {
         title: "bestellen Status",

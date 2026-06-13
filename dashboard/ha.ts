@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Yanayin duhu",
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "metaferse bridge",
     subtitle:
-      "Selldone yana ba da sabis na tushen API% 100 a cikin sararin kasuwanci. Wasan, blockchain, da masu haɓaka metaverse na iya amfani da waɗannan APIs masu ƙarfi don haɗa kasuwanci, abokan ciniki, da ayyuka a nan gaba na aiki, rayuwa da kasuwancin duniya.",
+      "Selldone yana ba da sabis na tushen API%100 a cikin sararin kasuwanci. Wasan, blockchain, da masu haɓaka metaverse na iya amfani da waɗannan APIs masu ƙarfi don haɗa kasuwanci, abokan ciniki, da ayyuka a nan gaba na aiki, rayuwa da kasuwancin duniya.",
     message: "Samun Farko Don Masu Haɓakawa Game",
   },
 
@@ -9612,7 +9612,8 @@ export default {
           "Sabunta eksisting Samfuri, Bambanci, da Rukuni Bayani.",
       },
       migration_tips:
-        "<b>Shawarwari:</b> Idan kuna son gwada aikin, don Allah zaɓi zaɓin <b>Iyakance</b>. Idan kun zaɓi 'Daidaita duka', za mu karɓi duk bayanai daga ayyukan da aka haɗa kuma mu zazzage hotuna masu alaƙa, don haka hakan zai rage ajiyar ku ta kyauta. Haka kuma, cire samfura, rukuna, da abokan ciniki da yawa na iya zama wahala!",
+        "<b>Shawarwari:</b> Idan kuna son gwada aikin, don Allah zaɓi zaɓin <b>Iyakance</b>. Idan kun zaɓi 'Daidaita duka', za mu karɓi duk bayanai daga ayyukan da aka " +
+        "haɗa kuma mu zazzage hotuna masu alaƙa, don haka hakan zai rage ajiyar ku ta kyauta. Haka kuma, cire samfura, rukuna, da abokan ciniki da yawa na iya zama wahala!",
       add_action: "Kai tsaye konnekt zuwa",
       order: {
         title: "Oda matsayi",

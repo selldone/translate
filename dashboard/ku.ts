@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Moda tarî",
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "Pira Metaverse",
     subtitle:
-      "Selldone% 100 karûbarên API-ê di qada bazirganiyê de peyda dike. Pêşdebirên lîstik, blok, û metaverse dikarin van API-yên hêzdar bikar bînin da ku karsazî, xerîdar û karûbaran di paşeroja kar, jiyan û cîhana bazirganiyê de girêbidin.",
+      "Selldone%100 karûbarên API-ê di qada bazirganiyê de peyda dike. Pêşdebirên lîstik, blok, û metaverse dikarin van API-yên hêzdar bikar bînin da ku karsazî, xerîdar û karûbaran di paşeroja kar, jiyan û cîhana bazirganiyê de girêbidin.",
     message: "Gihîştina Destpêkê Ji Bo Pêşdebirên Lîstikê",
   },
 
@@ -9612,7 +9612,8 @@ export default {
           "Nûvekirin hêman Mal, biguherînin, û Liq tevahî.",
       },
       migration_tips:
-        "<b>hêman: </b>hêman You hêman Ber testê re Versatile hêman Karê <b>Deals</b> Gadget. rêzkirin hêman 'hêman gişt, hêman Pelê gişt Jimare Ji xwe Girêdayî Karûbar û daxîne hêman Wêneyên, hêman hêman hêman hêman xwe Şandina hêman. hêman, hêman hêman berhem, Kategorî, û Mişterî hêman piştrast hêman!",
+        "<b>hêman: </b>hêman You hêman Ber testê re Versatile hêman Karê <b>Deals</b> Gadget. rêzkirin hêman 'hêman gişt, hêman Pelê gişt Jimare Ji xwe " +
+        "Girêdayî Karûbar û daxîne hêman Wêneyên, hêman hêman hêman hêman xwe Şandina hêman. hêman, hêman hêman berhem, Kategorî, û Mişterî hêman piştrast hêman!",
       add_action: "Tamîrê Hesabê Ber",
       order: {
         title: "fermana Cî",

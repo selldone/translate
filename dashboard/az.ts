@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Qaranlıq rejimi",
@@ -9612,7 +9612,8 @@ export default {
           "yenilə əksisting məhsul, variant, və kateqoriya məlumat.",
       },
       migration_tips:
-        "<b>Məsləhətlər: </b>Funksionallığı yoxlamaq istəyirsinizsə, zəhmət olmasa <b>Məhdud</b> seçimini edin. 'Hamısını sinxronlaşdır' seçildikdə, qoşulmuş xidmətlərinizdən bütün məlumatları götürür və əlaqəli şəkilləri endiririk; bu, pulsuz yaddaşınızı azalda bilər. Həmçinin çoxlu məhsul, kateqoriya və müştərini silmək çətin ola bilər!",
+        "<b>Məsləhətlər: </b>Funksionallığı yoxlamaq istəyirsinizsə, zəhmət olmasa <b>Məhdud</b> seçimini edin. 'Hamısını sinxronlaşdır' seçildikdə, qoşulmuş xidmətlərinizdən " +
+        "bütün məlumatları götürür və əlaqəli şəkilləri endiririk; bu, pulsuz yaddaşınızı azalda bilər. Həmçinin çoxlu məhsul, kateqoriya və müştərini silmək çətin ola bilər!",
       add_action: "avtomatik qoş üçün",
       order: {
         title: "ordəring vəziyyət",

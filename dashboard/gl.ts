@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Modo escuro",
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "Ponte Metaverso",
     subtitle:
-      "Selldone ofrece % 100 servizos baseados en API no espazo comercial. Os desenvolvedores de xogos, cadeas de bloques e metaverso poden usar estas poderosas API para conectar empresas, clientes e servizos no futuro do mundo laboral, da vida e do comercio.",
+      "Selldone ofrece %100 servizos baseados en API no espazo comercial. Os desenvolvedores de xogos, cadeas de bloques e metaverso poden usar estas poderosas API para conectar empresas, clientes e servizos no futuro do mundo laboral, da vida e do comercio.",
     message: "Acceso anticipado para programadores de xogos",
   },
 
@@ -9612,7 +9612,8 @@ export default {
           "Actualice la información existente do produto, variante e categoría.",
       },
       migration_tips:
-        "<b>Consellos:</b> Se queres probar a funcionalidade, selecciona a opción <b>Limitada</b>. Ao seleccionar «Sincronizar todo», obteremos todos os datos dos teus servizos conectados e descargaremos as imaxes relacionadas, polo que se reducirá o teu almacenamento gratuíto. Ademais, eliminar moitos produtos, categorías e clientes pode ser difícil!",
+        "<b>Consellos:</b> Se queres probar a funcionalidade, selecciona a opción <b>Limitada</b>. Ao seleccionar «Sincronizar todo», obteremos todos os datos dos teus servizos " +
+        "conectados e descargaremos as imaxes relacionadas, polo que se reducirá o teu almacenamento gratuíto. Ademais, eliminar moitos produtos, categorías e clientes pode ser difícil!",
       add_action: "Conectar automáticamente a",
       order: {
         title: "estado do Pedido",

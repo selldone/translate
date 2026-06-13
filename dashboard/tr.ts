@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Karanlık Modu",
@@ -9612,7 +9612,8 @@ export default {
           "Mevcut ürün, varyant ve kategori bilgilerini güncelleyin.",
       },
       migration_tips:
-        "<b>İpuçları:</b> İşlevselliği test etmek istiyorsanız lütfen <b>Sınırlı</b> seçeneğini seçin. 'Hepsini senkronize et'i seçerek, bağlı hizmetlerinizden tüm verileri alırız ve ilgili resimleri indiririz, bu nedenle ücretsiz depolama alanınızı azaltırız. Ayrıca, birçok ürünü, kategoriyi ve müşteriyi kaldırmak zor olurdu!",
+        "<b>İpuçları:</b> İşlevselliği test etmek istiyorsanız lütfen <b>Sınırlı</b> seçeneğini seçin. 'Hepsini senkronize et'i seçerek, bağlı hizmetlerinizden tüm " +
+        "verileri alırız ve ilgili resimleri indiririz, bu nedenle ücretsiz depolama alanınızı azaltırız. Ayrıca, birçok ürünü, kategoriyi ve müşteriyi kaldırmak zor olurdu!",
       add_action: "Otomatik bağlan",
       order: {
         title: "Sipariş Durumu",

@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Imodi Emnyama",
@@ -9612,7 +9612,8 @@ export default {
           "Buyekeza éẋíşţíñğ Umkhiqizo, ṽáříáñţ, áñď Isigaba íñƒóřṃáţíóñ.",
       },
       migration_tips:
-        "<b>Ţíƥş: </b>Íƒ ýóú ŵáñţ Kuya ţéşţ ţħé ƒúñçţíóñáľíţý ƥľéáşé şéľéçţ\n            <b>Ľíṃíţéď</b> óƥţíóñ. Ɓý şéľéçţíñğ 'Şýñç áľľ', ŵé ğéţ konke Idatha Kusuka ýóúř Ixhunyiwe Amasevisi áñď ďóŵñľóáď řéľáţéď Izithombe, şó íţ ŵíľľ řéďúçé ýóúř ƒřéé şţóřáğé. Áľşó, řéṃóṽíñğ ṃáñý Imikhiqizo, Izigaba, áñď Amakhasimende ŵóúľď ƀé ħářď!",
+        "<b>Ţíƥş: </b>Íƒ ýóú ŵáñţ Kuya ţéşţ ţħé ƒúñçţíóñáľíţý ƥľéáşé şéľéçţ\n            <b>Ľíṃíţéď</b> óƥţíóñ. Ɓý şéľéçţíñğ 'Şýñç áľľ', ŵé ğéţ konke Idatha Kusuka ýóúř " +
+        "Ixhunyiwe Amasevisi áñď ďóŵñľóáď řéľáţéď Izithombe, şó íţ ŵíľľ řéďúçé ýóúř ƒřéé şţóřáğé. Áľşó, řéṃóṽíñğ ṃáñý Imikhiqizo, Izigaba, áñď Amakhasimende ŵóúľď ƀé ħářď!",
       add_action: "Áúţó çóññéçţ Kuya",
       order: {
         title: "Óřďéříñğ Isimo",

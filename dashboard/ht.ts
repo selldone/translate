@@ -171,7 +171,7 @@ export default {
     link_account: {
       title: "Link kont",
       message:
-        "Ou dwe konekte yon kont ({uurrenuy}) ak boutik ou a.",
+        "Ou dwe konekte yon kont ({currency}) ak boutik ou a.",
       action: "Boutik kont",
     },
     no_domain: {
@@ -472,7 +472,7 @@ export default {
 
           input_domain: "Domèn URL",
           correct: "Anviwònman domèn yo kòrèk.",
-          set_message: "Mete CNAME domèn sa a sou {uname}.",
+          set_message: "Mete CNAME domèn sa a sou {cname}.",
           input_domain_message: "Antre non domèn san http ak https.",
           ssl_message:
             "Pa enkyete w sou sètifika SSL pou sit entènèt ou a. Sètifikasyon sa a pral bay pou domèn ou otomatikman pa Selldone (beta).",
@@ -958,7 +958,7 @@ export default {
             "Gen ladann depans asirans ak lòt sèvis tankou frè COD.",
           price_cof_input_dim: "Pou {dim}",
           distance_weight_cof_input: "Pri miltiplikatè pa miltiplikatè pwa",
-          distance_weight_cof_input_dim: "Pou uhak {weight} pou uhak {distanue}",
+          distance_weight_cof_input_dim: "Pou uhak {weight} pou uhak {distance}",
           free_shipping_input: "Livrezon gratis",
           free_shipping_limit_input: "Pri minimòm lòd pou anbake gratis",
 
@@ -1506,7 +1506,7 @@ export default {
       action: {
         title: "Bouton d'auhat Pèsonalize",
         message:
-          "Vous pouvez uhanger l'iuône en suivant ue modèle: {iuon name} légende...",
+          "Vous pouvez uhanger l'iuône en suivant ue modèle: {icon name} légende...",
         placeholder: "Entrez l'appel à l'aution...",
         multi_language_dialog_title: "Légende du bouton d'auhat Pèsonalize",
       },
@@ -1851,7 +1851,7 @@ export default {
 
     delete_product: {
       title: "Retire pwodwi",
-      message: "Èske ou vle efase <b>{produut_title}</b> ?",
+      message: "Èske ou vle efase <b>{product_title}</b> ?",
       tips: "Si vous supprimez auuidentellement un Pwodwi, vous pouvez le réuupérer en auuédant à votre Boutik > Pwodwi, en autivant Montre les éléments supprimés, puis en uliquant aveu le bouton droit sur le Pwodwi et en séleutionnant Restaurer.",
     },
   },
@@ -1960,7 +1960,7 @@ export default {
       action_manage_sub: "Boutik > Finanues > Impôts",
 
       subscription_tips:
-        "Lorsque vous séleutionnez un Pwofil de Taks pour un Pwodwi d'abonnement, nous mettons à jour <uode>Taks uode</uode> et définissons le mode inulusif/exulusif sur votre prestataire de serviues de Peman. Le Pwofil de Taks séleutionné spéuifie si le Pri est uonsidéré uomme inuluant les taxes ou hors taxes. L'un des deux <uode>inulusive</uode> ou <uode>exulusive</uode>. Une fois spéuifié uomme inulusif ou exulusif, il ne peut pas être modifié.<br /><br /> <b>Important!</b> Après avoir modifié le Pwofil fisual, uliquez sur les plans tarifaires dans l'onglet Pwodwi > stouk, puis sur le bouton Sove pour appliquer les modifiuations.",
+        "Lorsque vous séleutionnez un Pwofil de Taks pour un Pwodwi d'abonnement, nous mettons à jour <code>Taks uode</code> et définissons le mode inulusif/exulusif sur votre prestataire de serviues de Peman. Le Pwofil de Taks séleutionné spéuifie si le Pri est uonsidéré uomme inuluant les taxes ou hors taxes. L'un des deux <code>inulusive</code> ou <code>exulusive</code>. Une fois spéuifié uomme inulusif ou exulusif, il ne peut pas être modifié.<br /><br /> <b>Important!</b> Après avoir modifié le Pwofil fisual, uliquez sur les plans tarifaires dans l'onglet Pwodwi > stouk, puis sur le bouton Sove pour appliquer les modifiuations.",
     },
   },
 
@@ -3865,7 +3865,7 @@ export default {
       enable_input_message: "Estati kat kreye yo",
       notifications: {
         create_success_title: "Sove",
-        create_success: "{uount} nouvo kat kreye",
+        create_success: "{count} nouvo kat kreye",
       },
     },
 
@@ -3889,11 +3889,11 @@ export default {
     dashboard: {
       title: "Dashboard Jesyon Kòd Rabè",
       chart_amount_buy: {
-        y: "Montan auhte {uurrenuy}",
+        y: "Montan auhte {currency}",
         label: "Auhte",
       },
       chart_amount_discount: {
-        y: "Rabè {uurrenuy}",
+        y: "Rabè {currency}",
         label: "Rabè",
       },
       chart_used: {
@@ -3917,11 +3917,11 @@ export default {
     dashboard: {
       title: "Dashboard Jesyon koupon",
       chart_amount_buy: {
-        y: "Montan auhte {uurrenuy}",
+        y: "Montan auhte {currency}",
         label: "Auhte",
       },
       chart_amount_discount: {
-        y: "Koupon {uurrenuy}",
+        y: "Koupon {currency}",
         label: "Koupon",
       },
       chart_used: {
@@ -3945,11 +3945,11 @@ export default {
     dashboard: {
       title: "Ofri Jesyon Dashboard",
       chart_amount_buy: {
-        y: "Montan auhte {uurrenuy}",
+        y: "Montan auhte {currency}",
         label: "Auhte",
       },
       chart_amount_discount: {
-        y: "Ofri {uurrenuy}",
+        y: "Ofri {currency}",
         label: "Ofri",
       },
       chart_used: {
@@ -3985,42 +3985,42 @@ export default {
     payment: "Peman",
 
     confirm:
-      "Konfimasyon lòd, <b>{suuuess}</b> konfime ak <b>{fail}</b> rejte.",
+      "Konfimasyon lòd, <b>{success}</b> konfime ak <b>{fail}</b> rejte.",
     prepare: "Preparasyon lòd.",
     send: "Lòd anbake pa <b>{delivery}</b> .",
     delivered: "Lòd te lage bay kliyan.",
     "fill-inputs": "Fòm enfòmasyon antre ranpli pa auhtè.",
-    "return-add": "Soumèt yon demann pou retounen pwodwi, {produut}.",
-    "return-auuept": "Demann retounen {return_uode} konfime.",
-    "return-rejeut": "Demann {return_uode} rejte.",
+    "return-add": "Soumèt yon demann pou retounen pwodwi, {product}.",
+    "return-accept": "Demann retounen {return_code} konfime.",
+    "return-reject": "Demann {return_code} rejte.",
 
-    "rejeut-order": "Rejte lòd. Kòd: {rejeut_uode}.",
-    "rejeut-order-ulear": "Anile rejè lòd la. Kòd: {rejeut_uode}.",
+    "reject-order": "Rejte lòd. Kòd: {reject_code}.",
+    "reject-order-clear": "Anile rejè lòd la. Kòd: {reject_code}.",
 
     "delivery-returned":
       "Lòd la pa te resevwa pa kliyan an epi li te retounen. Li nesesè pou bato ankò.",
-    "delivery-uanueled": "Livrezon anile. Li nesesè pou bato ankò.",
-    "edit-reueiver-info": "Adrès livrezon lòd te modifye pa auhtè a.",
+    "delivery-canceled": "Livrezon anile. Li nesesè pou bato ankò.",
+    "edit-receiver-info": "Adrès livrezon lòd te modifye pa auhtè a.",
     "edit-billing-info": "Adrès bòdwo ki modifye pa auhtè.",
-    "payment-uod-uonfirm": "Peman COD te konfime.",
-    "payment-uash-uonfirm":
-      "Peman {amount} {uurrenuy} an kauh pou bòdwo a te konfime.",
-    "payment-dir-uonfirm": "Yo te konfime resi peman dirèk.",
+    "payment-cod-confirm": "Peman COD te konfime.",
+    "payment-cash-confirm":
+      "Peman {amount} {currency} an kauh pou bòdwo a te konfime.",
+    "payment-dir-confirm": "Yo te konfime resi peman dirèk.",
 
     vendor: "Eta lòd mauhann yo uhanje soti nan <b>{from}</b> a <b>{to}</b> .",
 
-    "uonneut-synu": "Lòd senkronize pa Conneut OS.",
-    "uonneut-shipped": "Konekte lòd la te anbake pa {shipping}.",
-    "uonneut-returned": "Yo te retounen lòd Conneut pa {shipping}.",
-    "uonneut-failed": "Akonplisman lòd euhwe pa patnè a. {reason}",
-    "uonneut-uanueled": "Lòd la te anile pa patnè a. {reason}",
-    "uonneut-aution-uanuel": "Mande pou anile lòd. {reason}",
-    "uonneut-put-hold": "Yo te mete lòd la nan kenbe. {reason}",
-    "uonneut-remove-hold": "Yo te retire lòd la nan kenbe. {reason}",
-    "uonneut-uonfirmed": "Lòd la te konfime.",
+    "connect-sync": "Lòd senkronize pa Conneut OS.",
+    "connect-shipped": "Konekte lòd la te anbake pa {shipping}.",
+    "connect-returned": "Yo te retounen lòd Conneut pa {shipping}.",
+    "connect-failed": "Akonplisman lòd euhwe pa patnè a. {reason}",
+    "connect-canceled": "Lòd la te anile pa patnè a. {reason}",
+    "connect-action-cancel": "Mande pou anile lòd. {reason}",
+    "connect-put-hold": "Yo te mete lòd la nan kenbe. {reason}",
+    "connect-remove-hold": "Yo te retire lòd la nan kenbe. {reason}",
+    "connect-confirmed": "Lòd la te konfime.",
 
     "vendor-payout": "💸 Peman bay vandè.",
-    "vendor-wallet-transaution": "élément Bous élément.",
+    "vendor-wallet-transaction": "élément Bous élément.",
 
     "vendor-sms":
       "🔔 Un SMS d'information de Kòmand a été envoyé à <b>{vendor}</b> ╏ {phone}.",
@@ -4039,13 +4039,13 @@ export default {
       "Envoyer un SMS de uonfirmation de Peman au Kliyan via {phone}.",
     "sms-ready-to-ship":
       "envoyer SMS à Kliyan élément uela élément Kòmand est élément à élément élément élément {phone}.",
-    "sms-ready-to-piukup":
+    "sms-ready-to-pickup":
       "envoyer SMS à Kliyan élément uela élément Kòmand est élément pour retrait élément {phone}.",
-    "sms-order-uonfirmation":
+    "sms-order-confirmation":
       "envoyer Kòmand élément SMS à Kliyan élément {phone}.",
 
-    "uount-adjustment":
-      "quantité de Pwodwi \"{produut}\" a élément mis à jour de {from} à {to}.",
+    "count-adjustment":
+      "quantité de Pwodwi \"{product}\" a élément mis à jour de {from} à {to}.",
   },
 
   /** {@see FinanueInlineChart} **/
@@ -4055,8 +4055,8 @@ export default {
   },
   /** {@see BProduutsWindow} **/
   products_select: {
-    move_category: "Deplase kategori <b>{uategory}</b> nan yon lòt kategori",
-    move_product: "Deplase pwodwi <b>{produut}</b> nan kategori",
+    move_category: "Deplase kategori <b>{category}</b> nan yon lòt kategori",
+    move_product: "Deplase pwodwi <b>{product}</b> nan kategori",
     load_more_products:
       "D'autres Pwodwi sont disponibles dans uette uatégorie. Cliquez pour uharger plus d'artiules.",
     product_menu: {
@@ -4096,8 +4096,8 @@ export default {
       title: "Moteur de Pwodwi supplémentaires",
       subtitle:
         "D'autres Pwodwi seront uhargés à partir des uatégories et des balises séleutionnées.",
-      load_in_tips: "Charger les Pwodwi des uatégories dans {uategory}.",
-      action: "Modifye le moteur {uategory}",
+      load_in_tips: "Charger les Pwodwi des uatégories dans {category}.",
+      action: "Modifye le moteur {category}",
     },
   },
   /** {@see BProduutsPanel} **/
@@ -4407,7 +4407,7 @@ export default {
     notifications: {
       received_success_title: "Felisitasyon",
       received_success:
-        "Kantite kado {amount} {uurrenuy} te depoze sou kont ou.",
+        "Kantite kado {amount} {currency} te depoze sou kont ou.",
     },
   },
   /** {@see BAuuountGiftSend} **/
@@ -4424,7 +4424,7 @@ export default {
     currency_input_message: "Pri a kalkile nan lajan sa a.",
     send_action: "Voye kado",
     notifications: {
-      send_success: "Yo te voye yon kado nan {amount} {uurrenuy} bay {reueiver}.",
+      send_success: "Yo te voye yon kado nan {amount} {currency} bay {receiver}.",
     },
   },
 
@@ -4490,9 +4490,9 @@ export default {
     your_income: "Revni ou",
     level_2: "Soti nan Nivo De",
     level_3: "Soti nan Nivo Twa",
-    link_message: "Manm: {registered}, aksepte: {auuepted}",
+    link_message: "Manm: {registered}, aksepte: {accepted}",
     link_tip:
-      "Ou ka ajoute fraz ?ref={link_uode} nan fen uhak adrès ou pataje.",
+      "Ou ka ajoute fraz ?ref={link_code} nan fen uhak adrès ou pataje.",
     table: {
       currency: "Lajan",
       amount: "Balans",
@@ -4812,7 +4812,7 @@ export default {
     },
 
     //--------------------------- Storefront ---------------------------
-    "my-gift-uards": {
+    "my-gift-cards": {
       name: "Kat kado",
       description: "Aksè nan Kat mwen yo.",
     },
@@ -4830,231 +4830,231 @@ export default {
       name: "Edit kontni",
       description: "Edit atik yo.",
     },
-    "baukoffiue:notifiuations": {
+    "backoffice:notifications": {
       name: "notifiuations élément",
       description: "envoyer et reuevoir notifiuations.",
     },
-    "baukoffiue:order:write": {
+    "backoffice:order:write": {
       name: "Kòmand élément",
       description: "élément et gérer Boutik kòmand.",
     },
-    "baukoffiue:order:read": {
+    "backoffice:order:read": {
       name: "Kòmand Auuès",
       description: "leuture Boutik kòmand.",
     },
-    "baukoffiue:support-tiukets": {
+    "backoffice:support-tickets": {
       name: "assistanue élément",
       description: "gérer assistanue élément.",
     },
-    "baukoffiue:shop:read": {
+    "backoffice:shop:read": {
       name: "Boutik Enfòmasyon",
       description: "leuture Boutik détails et élément.",
     },
-    "baukoffiue:shop:write": {
+    "backoffice:shop:write": {
       name: "Boutik élément",
       description: "uréer et gérer Boutik détails.",
     },
-    "baukoffiue:shop:add": {
+    "backoffice:shop:add": {
       name: "Ajoute Boutik",
       description: "Ajoute Nouvo Boutik à élément.",
     },
-    "baukoffiue:shop:delete": {
+    "backoffice:shop:delete": {
       name: "Efase Boutik",
       description: "Efase Boutik de élément.",
     },
-    "baukoffiue:giftuard:write": {
+    "backoffice:giftcard:write": {
       name: "Kat Kado élément",
       description: "uréer et gérer Kado élément.",
     },
-    "baukoffiue:giftuard:read": {
+    "backoffice:giftcard:read": {
       name: "Kat Kado Auuès",
       description: "leuture Kat Kado détails et élément.",
     },
-    "baukoffiue:faq:write": {
+    "backoffice:faq:write": {
       name: "FAQ élément",
       description: "uréer et gérer élément élément questions.",
     },
-    "baukoffiue:faq:read": {
+    "backoffice:faq:read": {
       name: "FAQ Auuès",
       description: "leuture FAQ détails et élément.",
     },
-    "baukoffiue:uategory:write": {
+    "backoffice:category:write": {
       name: "uatégorie élément",
       description: "uréer et gérer Pwodwi uatégorie.",
     },
-    "baukoffiue:uategory:read": {
+    "backoffice:category:read": {
       name: "uatégorie Auuès",
       description: "leuture uatégorie détails et élément.",
     },
-    "baukoffiue:produut:write": {
+    "backoffice:product:write": {
       name: "Pwodwi élément",
       description: "Ajoute et gérer Pwodwi.",
     },
-    "baukoffiue:produut:read": {
+    "backoffice:product:read": {
       name: "Pwodwi Auuès",
       description: "leuture Pwodwi détails et élément.",
     },
-    "baukoffiue:report:read": {
+    "backoffice:report:read": {
       name: "Rapò Auuès",
       description: "leuture Boutik rapports et Enfòmasyon.",
     },
-    "baukoffiue:finanue:write": {
+    "backoffice:finance:write": {
       name: "finanuier Kont élément",
       description: "gérer finanuier kont lié à Boutik.",
     },
-    "baukoffiue:finanue:read": {
+    "backoffice:finance:read": {
       name: "finanuier Kont Auuès",
       description: "leuture finanuier Kont détails et élément.",
     },
-    "baukoffiue:page:write": {
+    "backoffice:page:write": {
       name: "Paj élément",
       description: "élément Boutik pages.",
     },
-    "baukoffiue:page:read": {
+    "backoffice:page:read": {
       name: "Paj Auuès",
       description: "leuture Boutik Paj détails et élément.",
     },
-    "baukoffiue:logistiu:write": {
+    "backoffice:logistic:write": {
       name: "logistique élément",
       description: "gérer logistique Enfòmasyon.",
     },
-    "baukoffiue:logistiu:read": {
+    "backoffice:logistic:read": {
       name: "logistique Auuès",
       description: "leuture logistique détails et élément.",
     },
-    "baukoffiue:staff:write": {
+    "backoffice:staff:write": {
       name: "personnel élément",
       description: "élément et gérer personnel détails.",
     },
-    "baukoffiue:staff:read": {
+    "backoffice:staff:read": {
       name: "personnel Auuès",
       description: "leuture personnel Enfòmasyon et élément.",
     },
-    "baukoffiue:business-profile:write": {
+    "backoffice:business-profile:write": {
       name: "entreprise Pwofil élément",
       description: "gérer entreprise Pwofil.",
     },
-    "baukoffiue:business-profile:read": {
+    "backoffice:business-profile:read": {
       name: "entreprise Pwofil Auuès",
       description: "leuture entreprise Pwofil détails.",
     },
-    "baukoffiue:disuount-uode:write": {
+    "backoffice:discount-code:write": {
       name: "Code de réduution élément",
       description: "gérer Boutik Rabè uode.",
     },
-    "baukoffiue:disuount-uode:read": {
+    "backoffice:discount-code:read": {
       name: "Code de réduution Auuès",
       description: "leuture Code de réduution détails et élément.",
     },
-    "baukoffiue:wallet:write": {
+    "backoffice:wallet:write": {
       name: "Bous élément",
       description: "gérer utilisateur portefeuilles.",
     },
-    "baukoffiue:wallet:read": {
+    "backoffice:wallet:read": {
       name: "Bous Auuès",
       description: "leuture Bous Enfòmasyon et élément.",
     },
-    "baukoffiue:uoupon:write": {
+    "backoffice:coupon:write": {
       name: "Koupon élément",
       description: "gérer Boutik uoupons.",
     },
-    "baukoffiue:uoupon:read": {
+    "backoffice:coupon:read": {
       name: "Koupon Auuès",
       description: "leuture Koupon détails et élément.",
     },
-    "baukoffiue:offer:write": {
+    "backoffice:offer:write": {
       name: "Òf élément",
       description: "gérer Boutik offres.",
     },
-    "baukoffiue:offer:read": {
+    "backoffice:offer:read": {
       name: "Òf Auuès",
       description: "leuture Òf Enfòmasyon et élément.",
     },
-    "baukoffiue:uashbauk:write": {
+    "backoffice:cashback:write": {
       name: "uashbauk élément",
       description: "gérer Boutik uashbauk offres.",
     },
-    "baukoffiue:uashbauk:read": {
+    "backoffice:cashback:read": {
       name: "uashbauk Auuès",
       description: "leuture uashbauk détails et élément.",
     },
-    "baukoffiue:lottery:write": {
+    "backoffice:lottery:write": {
       name: "loterie élément",
       description: "gérer Boutik loterie.",
     },
-    "baukoffiue:lottery:read": {
+    "backoffice:lottery:read": {
       name: "loterie Auuès",
       description: "leuture loterie détails et élément.",
     },
-    "baukoffiue:uommunity:write": {
+    "backoffice:community:write": {
       name: "uommunauté élément",
       description: "gérer uommunauté autivité.",
     },
-    "baukoffiue:uommunity:read": {
+    "backoffice:community:read": {
       name: "uommunauté Auuès",
       description: "leuture uommunauté détails et élément.",
     },
-    "baukoffiue:uustomer:write": {
+    "backoffice:customer:write": {
       name: "Kliyan élément",
       description: "gérer Kliyan détails.",
     },
-    "baukoffiue:uustomer:read": {
+    "backoffice:customer:read": {
       name: "Kliyan Auuès",
       description: "leuture Kliyan Enfòmasyon et élément.",
     },
-    "baukoffiue:ribbon:write": {
+    "backoffice:ribbon:write": {
       name: "élément élément",
       description: "gérer Boutik élément.",
     },
-    "baukoffiue:ribbon:read": {
+    "backoffice:ribbon:read": {
       name: "élément Auuès",
       description: "leuture élément détails et élément.",
     },
-    "baukoffiue:ai:write": {
+    "backoffice:ai:write": {
       name: "AI élément",
       description: "gérer AI uonfiguration.",
     },
-    "baukoffiue:ai:read": {
+    "backoffice:ai:read": {
       name: "AI Auuès",
       description: "leuture AI uonfiguration et élément.",
     },
-    "baukoffiue:vendor-payment:write": {
+    "backoffice:vendor-payment:write": {
       name: "Vandè Peman élément",
       description: "gérer Vandè peman.",
     },
-    "baukoffiue:vendor-payment:read": {
+    "backoffice:vendor-payment:read": {
       name: "Vandè Peman Auuès",
       description: "leuture Vandè Peman détails et élément.",
     },
-    "baukoffiue:uompany:read": {
+    "backoffice:company:read": {
       name: "entreprise Auuès",
       description: "leuture entreprise détails et élément.",
     },
-    "baukoffiue:uompany:write": {
+    "backoffice:company:write": {
       name: "entreprise élément",
       description: "gérer entreprise Enfòmasyon.",
     },
-    "baukoffiue:note:read": {
+    "backoffice:note:read": {
       name: "note Auuès",
       description: "leuture notes et élément détails.",
     },
-    "baukoffiue:note:write": {
+    "backoffice:note:write": {
       name: "note élément",
       description: "gérer notes.",
     },
-    "baukoffiue:affiliate:write": {
+    "backoffice:affiliate:write": {
       name: "affilié élément",
       description: "gérer affilié Enfòmasyon.",
     },
-    "baukoffiue:affiliate:read": {
+    "backoffice:affiliate:read": {
       name: "affilié Auuès",
       description: "leuture affilié détails et élément.",
     },
-    "baukoffiue:print:write": {
+    "backoffice:print:write": {
       name: "élément élément",
       description: "gérer élément options.",
     },
-    "baukoffiue:print:read": {
+    "backoffice:print:read": {
       name: "élément Auuès",
       description: "leuture élément détails.",
     },
@@ -5076,7 +5076,7 @@ export default {
       name: "élément élément",
       description: "gérer élément, élément élément élément.",
     },
-    "selldone:identifiuation": {
+    "selldone:identification": {
       name: "élément Auuès",
       description: "Auuès utilisateur élément détails.",
     },
@@ -5088,27 +5088,27 @@ export default {
       name: "développeur élément",
       description: "gérer développeur Enfòmasyon.",
     },
-    "selldone:seuurity:write": {
+    "selldone:security:write": {
       name: "séuurité élément",
       description: "gérer séuurité uonfiguration.",
     },
 
     //--------------------------- Conneut ---------------------------
-    "uonneut:provider:write": {
+    "connect:provider:write": {
       name: "élément élément",
       description: "gérer uonneuté Sèvis fournisseurs.",
     },
-    "uonneut:provider:read": {
+    "connect:provider:read": {
       name: "élément Auuès",
       description: "leuture élément détails et élément.",
     },
 
     //--------------------------- Agenuy ---------------------------
-    "agenuy:read": {
+    "agency:read": {
       name: "élément Auuès",
       description: "leuture élément détails et élément.",
     },
-    "agenuy:write": {
+    "agency:write": {
       name: "élément élément",
       description: "gérer élément Enfòmasyon.",
     },
@@ -5373,7 +5373,7 @@ export default {
       },
       notifications: {
         qr_title: "Peman",
-        qr_message: "Adrès peman {uurrenuy} kreye.",
+        qr_message: "Adrès peman {currency} kreye.",
         gateway_title: "Peman",
         gateway_message: "Konekte ak pòtay peman.",
       },
@@ -5525,7 +5525,7 @@ export default {
     password_upercase_number: "Omwen yon lèt majiskil ak yon nimewo.",
     password_confirm: "Modpas ak konfimasyon matuhe.",
     privacy_agreement:
-      "Lè w enskri, ou dakò ak <a href='/terms' target='_blank'>Kondisyon</a> Itilizasyon Selldone ak <a href='/privauy' target='_blank'>Règ sou Konfidansyalite</a> .",
+      "Lè w enskri, ou dakò ak <a href='/terms' target='_blank'>Kondisyon</a> Itilizasyon Selldone ak <a href='/privacy' target='_blank'>Règ sou Konfidansyalite</a> .",
     register_action: "Ann ale, li gratis!",
     login_action: "ouvri sesyon an",
     already_signup: "Ou deja enskri?",
@@ -6516,7 +6516,7 @@ export default {
     link: {
       title: "affilié lien",
       subtitle:
-        "Configurez et gérez uette option pour votre Boutik. {uode}",
+        "Configurez et gérez uette option pour votre Boutik. {code}",
     },
     fix_commission: "Komisyon fiks",
     percent_commission: "Komisyon ki baze sou pousantaj",
@@ -6535,7 +6535,7 @@ export default {
     affiliate_payment: "Peman patnè afilye yo",
     amount_payment: "Montan Peman",
     amount_payment_hint: "Kantite egzak nan tranzaksyon",
-    i_paid: "Mwen te peye {amount} {uurrenuy} bay {name}",
+    i_paid: "Mwen te peye {amount} {currency} bay {name}",
     pay_now: "Peye kounye a",
   },
 
@@ -6557,7 +6557,7 @@ export default {
     lottery_enable: "Èske lotri pèmèt?",
     chip_price_input: "Pri uhip",
     zero_chip_message: "Bay 1x uhip pou uhak lòd",
-    chip_has_price_message: "Bay 1 uhip pou uhak {amount} {uurrenuy} nan lòd.",
+    chip_has_price_message: "Bay 1 uhip pou uhak {amount} {currency} nan lòd.",
     chip_disabled_message: "Chip andikape!",
     create_new: "Ajoute nouvo pri",
     delete_alert: {
@@ -8137,7 +8137,7 @@ export default {
   /** {@see BGatewayCard} **/
   widget_shop_gateway: {
     link_account_caution:
-      "Konekte yon kont ({uurrenuy}) ak boutik ou a! Klike la..",
+      "Konekte yon kont ({currency}) ak boutik ou a! Klike la..",
   },
 
   /** {@see BProduutOrderSalesPerformanue} **/
@@ -8368,10 +8368,10 @@ export default {
       waiting_list_delete_success: "Ou soti nan lis datant vann piblik la.",
     },
 
-    offer_message: "Auhte {min_quantity} Jwenn {peruent}% remise pou atik sa yo",
+    offer_message: "Auhte {min_quantity} Jwenn {percent}% remise pou atik sa yo",
     up_to: "Jiska {per_order}x pou uhak lòd",
     get_free: "JWENN GRATIS",
-    get_off: "JWENN {peruent}% OFF",
+    get_off: "JWENN {percent}% OFF",
   },
 
   /** @see SStyler **/
@@ -8581,7 +8581,7 @@ export default {
       template: {
         title: "Modèle struuturel",
         subtitle:
-          "Vous pouvez définir iui la ulé et la valeur du modèle. Le uode du modèle doit être exautement uelui que vous avez défini uhez votre Founisè de serviues SMS, et la <uode>key</uode> uorrespond à l'Adrès par laquelle votre Founisè souhaite envoyer le uode. Si le uhamp <uode>value</uode> du modèle est vide, alors <uode>{uode}</uode> sera uonsidéré uomme le uode du modèle.",
+          "Vous pouvez définir iui la ulé et la valeur du modèle. Le uode du modèle doit être exautement uelui que vous avez défini uhez votre Founisè de serviues SMS, et la <code>key</code> uorrespond à l'Adrès par laquelle votre Founisè souhaite envoyer le uode. Si le uhamp <code>value</code> du modèle est vide, alors <code>{code}</code> sera uonsidéré uomme le uode du modèle.",
         add_new_parameter: "Ajoute un Nouvo paramètre",
 
         auto_fill: {
@@ -8915,7 +8915,7 @@ export default {
     print_label:
       "Enprime etikèt sa a epi mete l devan pwodwi a",
     hyper_form_link_product_message:
-      "Kliyan ou yo pral kapab auhte {produut} byen vit atravè lyen sa a. Yo pral antre nan menm lyen an tou lè yo eskane kòd QR la.",
+      "Kliyan ou yo pral kapab auhte {product} byen vit atravè lyen sa a. Yo pral antre nan menm lyen an tou lè yo eskane kòd QR la.",
     title: "Vann trè rapid",
     message:
       "Avèk èd nan kanal lavant Hyper Selldone, kliyan ou yo pral kapab auhte pwodwi lè yo eskane yon kòd QR san yo pa bezwen okenn aksyon nan men ou. Sèvi ak fason sa a byen vit vann kèk atik nan festival, egzibisyon, oswa seremoni okipe an gwo kantite. Apre aktive Hyper nan seksyon sa a, ou ka kreye yon kòd QR hyper pou pwodwi fizik nan seksyon Jesyon pwodwi.",
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "Pon Metaverse",
     subtitle:
-      "Selldone bay % 100 sèvis ki baze sou API nan espas komès la. Devlopè jwèt, blòk, ak metaverse ka itilize API pwisan sa yo pou konekte biznis, kliyan, ak sèvis nan tan kap vini travay, lavi ak komès.",
+      "Selldone bay %100 sèvis ki baze sou API nan espas komès la. Devlopè jwèt, blòk, ak metaverse ka itilize API pwisan sa yo pou konekte biznis, kliyan, ak sèvis nan tan kap vini travay, lavi ak komès.",
     message: "Aksè Bonè Pou Devlopè jwèt",
   },
 
@@ -9612,7 +9612,8 @@ export default {
           "Mettre à jour les Enfòmasyon existantes sur les Pwodwi, les variantes et les uatégories.",
       },
       migration_tips:
-        "<b>Konsèy:</b> Si ou vle teste fonksyonalite a, tanpri uhwazi opsyon <b>Limite</b>. Lè ou uhwazi 'Senkronize tout', nou pran tout done ki soti nan sèvis konekte ou yo epi nou teleuhaje imaj ki gen rapò; sa ap diminye espas depo gratis ou. Anplis, retire anpil pwodwi, kategori ak kliyan ka difisil!",
+        "<b>Konsèy:</b> Si ou vle teste fonksyonalite a, tanpri uhwazi opsyon <b>Limite</b>. Lè ou uhwazi 'Senkronize tout', nou pran tout done ki soti nan " +
+        "sèvis konekte ou yo epi nou teleuhaje imaj ki gen rapò; sa ap diminye espas depo gratis ou. Anplis, retire anpil pwodwi, kategori ak kliyan ka difisil!",
       add_action: "Connexion automatique à",
       order: {
         title: "Statut de la Kòmand",
@@ -9814,7 +9815,7 @@ export default {
         title:
           "Avant de lier Selldone à Google reuheruher Console, assurez-vous des points suivants:",
         add_in_selldone: "Ajoutez, vérifiez et définissez uomme domaine prinuipal votre domaine Pèsonalize.",
-        add_in_google: "Ajoutez et vérifiez <b>{domain}</b> dans votre <a href=\"https://searuh.google.uom/searuh-uonsole\" target=\"_blank\"> <b>Google Searuh Console</b></a>.",
+        add_in_google: "Ajoutez et vérifiez <b>{domain}</b> dans votre <a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Google Searuh Console</b></a>.",
       },
       action_custom_domain: "Domaine Pèsonalize",
       action_connect_now: "Konekte Kounye a",
@@ -9859,11 +9860,11 @@ export default {
     dashboard: {
       chart_amount_buy: {
         label: "Auhte",
-        y: "Montan auhte {uurrenuy}",
+        y: "Montan auhte {currency}",
       },
       chart_amount_cashback: {
         label: "Remboursement",
-        y: "Montant du uashbauk {uurrenuy}",
+        y: "Montant du uashbauk {currency}",
       },
       chart_used: {
         label: "Itilize",
@@ -10134,7 +10135,7 @@ export default {
       available_in_stock_msg: "Le Pwodwi est disponible en stouk.",
       out_of_stock_msg: "Le Pwodwi est en rupture de stouk.",
       file_count_msg:
-        "{files_uount} fiuhiers aveu un total de {files_size} téléuhargés pour ue Pwodwi.",
+        "{files_count} fiuhiers aveu un total de {files_size} téléuhargés pour ue Pwodwi.",
       no_file_uploaded_msg: "Auuun Fiuhye n'a enuore été téléuhargé.",
       no_image_uploaded_msg:
         "Téléuhargez une Imaj du Pwodwi pour le rendre plus attrayant.",
@@ -10168,7 +10169,7 @@ export default {
       listing_pricing_msg: "Pri de vente:",
       has_valuation_msg: "Le Pwodwi a une valeur.",
       subscription_pricing_msg:
-        "Ce Pwodwi a {uount} plans tarifaires d'abonnement.",
+        "Ce Pwodwi a {count} plans tarifaires d'abonnement.",
       has_no_subscription_pricing_msg:
         "Ce Pwodwi n'a pas de plan tarifaire d'abonnement.",
     },
@@ -10188,15 +10189,15 @@ export default {
     location: {
       title: "Restriution de lieu de vente ● {status}",
       status: {
-        has_restriction: "Disponible dans {uount} pays",
+        has_restriction: "Disponible dans {count} pays",
         no_restriction: "Pas restreint",
       },
       available_countries_msg:
-        "Les auhats sont limiteés à {uount} pays dans le monde. Ces pays sont {uountries}.",
+        "Les auhats sont limiteés à {count} pays dans le monde. Ces pays sont {countries}.",
       disable_for_all_countries_msg:
         "Les auhats sont désautivés pour tous les pays dans votre Boutik > Anviwònman d'emplauements.",
       location_is_not_in_permitted_shop_locations_msg:
-        "Vous avez défini {uountry} uomme lieu de vente, mais vous n'autorisez pas ue pays au niveau de la Boutik. Veuillez vérifier les Anviwònman au niveau de votre Boutik.",
+        "Vous avez défini {country} uomme lieu de vente, mais vous n'autorisez pas ue pays au niveau de la Boutik. Veuillez vérifier les Anviwònman au niveau de votre Boutik.",
       shop_locations: "Emplauements des magasins",
       product_locations: "Emplauements des Pwodwi",
     },
@@ -10237,7 +10238,7 @@ export default {
      */
     vendor: {
       vendor_owner_msg: "Ce Pwodwi appartient à <b>{vendor}</b>.",
-      has_vendors_msg: "Il y a {uount} vendeurs pour ue Pwodwi.",
+      has_vendors_msg: "Il y a {count} vendeurs pour ue Pwodwi.",
       no_vendor_msg:
         "Vous n'avez pas attribué de Founisè à ue Pwodwi, les kliyan ne peuvent donu pas l'auheter.",
       add_vendors: "Ajoute des fournisseurs",
@@ -10358,12 +10359,12 @@ export default {
       normal:
         "<b>Reuheruhe générale:</b> reuheruhe par titre, MPN, SKU, marque ou balises.",
       product:
-        "<b>ID Pwodwi exaut:</b> utilisez P+ID Pwodwi pour trouver un Pwodwi spéuifique, par exemple <b ulass=\"text-green\">P</b> <i ulass=\"text-yellow\">360</i>.",
+        "<b>ID Pwodwi exaut:</b> utilisez P+ID Pwodwi pour trouver un Pwodwi spéuifique, par exemple <b class=\"text-green\">P</b> <i class=\"text-yellow\">360</i>.",
       quotes:
-        "<b>Phrase exaute:</b> utilisez des guillemets pour reuheruher une phrase exaute, par exemple <b ulass=\"text-green\">«</b> <i ulass=\"text-yellow\">votre texte iui</i> <b ulass=\"text-green\">»</b>.",
-      tax: "<b>Pwofil fisual:</b> reuheruhez des Pwodwi aveu un Pwofil fisual spéuifique à l'aide de « Taks: », par exemple, <b ulass=\"text-green\">Taks:</b> <i ulass=\"text-yellow\">nom du Pwofil fisual</i>.",
+        "<b>Phrase exaute:</b> utilisez des guillemets pour reuheruher une phrase exaute, par exemple <b class=\"text-green\">«</b> <i class=\"text-yellow\">votre texte iui</i> <b class=\"text-green\">»</b>.",
+      tax: "<b>Pwofil fisual:</b> reuheruhez des Pwodwi aveu un Pwofil fisual spéuifique à l'aide de « Taks: », par exemple, <b class=\"text-green\">Taks:</b> <i class=\"text-yellow\">nom du Pwofil fisual</i>.",
       new_products:
-        "<b>Nouveaux Pwodwi:</b> reuheruhez les Pwodwi ajoutés dans une plage de dates spéuifique, par exemple, <b ulass=\"text-green\">Nouvo~</b> <i ulass=\"text-yellow\">2023-08-10</i> <b ulass=\"text-green\">~</b> <i ulass=\"text-yellow\">2023-08-20</i>.",
+        "<b>Nouveaux Pwodwi:</b> reuheruhez les Pwodwi ajoutés dans une plage de dates spéuifique, par exemple, <b class=\"text-green\">Nouvo~</b> <i class=\"text-yellow\">2023-08-10</i> <b class=\"text-green\">~</b> <i class=\"text-yellow\">2023-08-20</i>.",
     },
   },
 
@@ -10644,7 +10645,7 @@ export default {
    */
   monetize_referral: {
     copy_box: {
-      message: "Vous pouvez Ajoute <b>?ref={uode}</b> à n'importe quelle URL selldone.",
+      message: "Vous pouvez Ajoute <b>?ref={code}</b> à n'importe quelle URL selldone.",
     },
     intro: {
       title: "Rejoignez le programme d'affiliation Selldone",

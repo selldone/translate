@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "暗色模式",
@@ -2261,7 +2261,7 @@ export default {
       title: "位置简介",
       subtitle:
         "您可以通过为产品分配位置标签将产品固定在地图位置上。",
-      tips: "<b>重要提示：</b> 仅当您希望在地图上显示产品的具体位置时，才为产品分配地点。被固定的产品必须以地点作为其主要规格，例如<b>出租房屋/场所</b>或线下服务如<b>美发和水疗</b>。",
+      tips: "<b>重要提示：</b>仅当您希望在地图上显示产品的具体位置时，才为产品分配地点。被固定的产品必须以地点作为主要规格，例如<b>出租房屋/场地</b>、线下服务如<b>美发和水疗</b>，以及<b>活动和体验</b>。",
     },
   },
 
@@ -9612,7 +9612,8 @@ export default {
           "更新现有产品、变体和分类信息。",
       },
       migration_tips:
-        "<b>提示：</b>如果您想测试功能，请选择<b>有限</b>选项。选择“全部同步”时，我们会从您连接的服务获取所有数据并下载相关图片，这将占用您的免费存储空间。此外，删除大量产品、分类和客户会比较困难！",
+        "<b>提示：</b>如果您想测试功能，请选择<b>有限</b>选项。选择“全部同步”时，我们会从您连接" +
+        "的服务获取所有数据并下载相关图片，这将占用您的免费存储空间。此外，删除大量产品、分类和客户会比较困难！",
       add_action: "自动连接到",
       order: {
         title: "订单状态",

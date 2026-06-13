@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Mód Dorcha",
@@ -5457,7 +5457,7 @@ export default {
     description:
       "Ríomh agus roghnaigh an plean is fearr bunaithe ar do dhíolacháin mhíosúla:",
     sale_input: "Méid díolacháin mhíosúla",
-    hypernova_plan: "Déan iarratas ar Hypernova % 0!",
+    hypernova_plan: "Déan iarratas ar Hypernova %0!",
     show_normal_mode: "Taispeáin mód gnáth",
     show_hypernova_mode: "Tá m'idirbheart os cionn 1M$!",
   },
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "Droichead Metaverse",
     subtitle:
-      "Soláthraíonn Soldone % 100 seirbhísí bunaithe ar API sa spás tráchtála. Is féidir le forbróirí cluiche, blockchain, agus metaverse na APIanna cumhachtacha seo a úsáid chun gnólachtaí, custaiméirí agus seirbhísí a nascadh sa saol oibre, saoil agus trádála amach anseo.",
+      "Soláthraíonn Soldone %100 seirbhísí bunaithe ar API sa spás tráchtála. Is féidir le forbróirí cluiche, blockchain, agus metaverse na APIanna cumhachtacha seo a úsáid chun gnólachtaí, custaiméirí agus seirbhísí a nascadh sa saol oibre, saoil agus trádála amach anseo.",
     message: "Rochtain Luath d'fhorbróirí Cluiche",
   },
 
@@ -9612,7 +9612,8 @@ export default {
           "Nuashonraigh mír táirge, malairt, agus catagóir faisnéis.",
       },
       migration_tips:
-        "<b>mír </b>mír tú mír chuig tástáil mír le do thoil roghnaigh <b>mír</b> mír. de réir mír 'sioncrónaigh gach, mír mír gach sonraí Ó do nasctha seirbhísí agus íoslódáil mír íomhánna, mír mír beidh mír do saor in aisce mír. mír, mír mír Táirgí, catagóir, agus Custaiméirí mír mír mír!",
+        "<b>mír </b>mír tú mír chuig tástáil mír le do thoil roghnaigh <b>mír</b> mír. de réir mír 'sioncrónaigh gach, mír mír gach sonraí Ó do nasctha " +
+        "seirbhísí agus íoslódáil mír íomhánna, mír mír beidh mír do saor in aisce mír. mír, mír mír Táirgí, catagóir, agus Custaiméirí mír mír mír!",
       add_action: "Ceangal uathoibríoch chuig",
       order: {
         title: "mír stádas",

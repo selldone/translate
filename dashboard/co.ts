@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Modu scuru",
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "Ponte Metaverse",
     subtitle:
-      "Selldone furnisce % 100 servizii basati in API in u spaziu cummerciale. I sviluppatori di ghjocu, blockchain è metaverse ponu utilizà sti API putenti per cunnette l'imprese, i clienti è i servizii in u futuru di u travagliu, a vita è u mondu cummerciale.",
+      "Selldone furnisce %100 servizii basati in API in u spaziu cummerciale. I sviluppatori di ghjocu, blockchain è metaverse ponu utilizà sti API putenti per cunnette l'imprese, i clienti è i servizii in u futuru di u travagliu, a vita è u mondu cummerciale.",
     message: "Accessu anticipatu per i sviluppatori di ghjocu",
   },
 
@@ -9612,7 +9612,8 @@ export default {
           "aghjurnà termine pruduttu, variante, è categoria infurmazione.",
       },
       migration_tips:
-        "<b>termine:</b>s’è voi vulete à termine u termine per piacè selezziunà <b>limitu</b> opzione. da selezziunà 'termine termine, noi termine tuttu dati da u vostru termine servizii è scaricà termine imaghjini, termine questu sarà termine u vostru termine termine. termine, termine termine prudutti, categorie, è clienti termine esse termine!",
+        "<b>termine:</b>s’è voi vulete à termine u termine per piacè selezziunà <b>limitu</b> opzione. da selezziunà 'termine termine, noi termine tuttu dati da u vostru termine " +
+        "servizii è scaricà termine imaghjini, termine questu sarà termine u vostru termine termine. termine, termine termine prudutti, categorie, è clienti termine esse termine!",
       add_action: "automaticu termine à",
       order: {
         title: "ordine statu",

@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "다크 모드",
@@ -9612,7 +9612,8 @@ export default {
           "업데이트 항목 제품, 추가, 및 범주 정보.",
       },
       migration_tips:
-        "<b>팁: </b>항목 시 항목 에게 데이터 잠금 기능 항목 캠페인 <b>기간</b> 옵션. 기준 항목 '항목 모두, 항목 출력 모두 데이터 에서 계정을 연결됨 서비스 및 다운로드 항목 이미지, 항목 항목 항목 항목 계정을 시작 스토리지. 항목, 항목 항목 제품, 카테고리, 및 고객 항목 수 항목!",
+        "<b>팁: </b>항목 시 항목 에게 데이터 잠금 기능 항목 캠페인 <b>기간</b> 옵션. 기준 항목 '항목 모두, 항목 출력 모두 데이터 에서 " +
+        "계정을 연결됨 서비스 및 다운로드 항목 이미지, 항목 항목 항목 항목 계정을 시작 스토리지. 항목, 항목 항목 제품, 카테고리, 및 고객 항목 수 항목!",
       add_action: "자동차 새 에게",
       order: {
         title: "주문 상태",

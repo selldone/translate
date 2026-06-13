@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Modd Tywyll",
@@ -5457,7 +5457,7 @@ export default {
     description:
       "Cyfrifwch a dewiswch y cynllun gorau yn seiliedig ar eich gwerthiant misol:",
     sale_input: "Swm gwerthiant misol",
-    hypernova_plan: "Gwnewch gais am Hypernova % 0!",
+    hypernova_plan: "Gwnewch gais am Hypernova %0!",
     show_normal_mode: "Dangos modd arferol",
     show_hypernova_mode: "Mae fy nhrafiad dros 1M$!",
   },
@@ -9612,7 +9612,8 @@ export default {
           "diweddaru term cynnyrch, amrywiad, a categori gwybodaeth.",
       },
       migration_tips:
-        "<b>term:</b>os chi eisiau i term y term os gwelwch yn dda dewis <b>terfyn</b> opsiwn. gan dewis 'term term, ni term pob data o eich term gwasanaethau a lawrlwytho term delweddau, term hyn bydd term eich term term. term, term term cynhyrchion, categorïau, a cwsmeriaid term bod term!",
+        "<b>term:</b>os chi eisiau i term y term os gwelwch yn dda dewis <b>terfyn</b> opsiwn. gan dewis 'term term, ni term pob data o eich term " +
+        "gwasanaethau a lawrlwytho term delweddau, term hyn bydd term eich term term. term, term term cynhyrchion, categorïau, a cwsmeriaid term bod term!",
       add_action: "awtomatig term i",
       order: {
         title: "archeb statws",

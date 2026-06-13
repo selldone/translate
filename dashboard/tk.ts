@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Dark tertibi",
@@ -5457,7 +5457,7 @@ export default {
     description:
       "Aýlyk satuwyňyza görä iň oňat meýilnamany hasaplaň we saýlaň:",
     sale_input: "Aýlyk satuw mukdary",
-    hypernova_plan: "Hypernowa% 0 üçin ýüz tutuň!",
+    hypernova_plan: "Hypernowa%0 üçin ýüz tutuň!",
     show_normal_mode: "Adaty tertibi görkeziň",
     show_hypernova_mode: "Geleşigim 1M $ -dan gowrak!",
   },
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "Ṃéţáṽéřşé Ɓříďğé",
     subtitle:
-      "Selldone söwda giňişliginde% 100 API esasly hyzmatlary hödürleýär. Oýun, blokirleme we metavers döredijiler bu güýçli API-leri geljekde iş, durmuş we söwda dünýäsinde kärhanalary, müşderileri we hyzmatlary birleşdirmek üçin ulanyp bilerler.",
+      "Selldone söwda giňişliginde%100 API esasly hyzmatlary hödürleýär. Oýun, blokirleme we metavers döredijiler bu güýçli API-leri geljekde iş, durmuş we söwda dünýäsinde kärhanalary, müşderileri we hyzmatlary birleşdirmek üçin ulanyp bilerler.",
     message: "Oýun döredijiler üçin ir giriş",
   },
 
@@ -9612,7 +9612,8 @@ export default {
           "Täzelen éẋíşţíñğ Haryt, ṽáříáñţ, áñď Kategoriýa íñƒóřṃáţíóñ.",
       },
       migration_tips:
-        "<b>Ţíƥş: </b>Íƒ ýóú ŵáñţ Ţó ţéşţ ţħé ƒúñçţíóñáľíţý ƥľéáşé şéľéçţ\n            <b>Ľíṃíţéď</b> óƥţíóñ. Ɓý şéľéçţíñğ 'Şýñç áľľ', ŵé ğéţ hemmesi Maglumatlar Kimden ýóúř Birikdirildi Hyzmatlar áñď ďóŵñľóáď řéľáţéď Suratlar, şó íţ ŵíľľ řéďúçé ýóúř ƒřéé şţóřáğé. Áľşó, řéṃóṽíñğ ṃáñý Önümler, Kategoriýalar, áñď Müşderiler ŵóúľď ƀé ħářď!",
+        "<b>Ţíƥş: </b>Íƒ ýóú ŵáñţ Ţó ţéşţ ţħé ƒúñçţíóñáľíţý ƥľéáşé şéľéçţ\n            <b>Ľíṃíţéď</b> óƥţíóñ. Ɓý şéľéçţíñğ 'Şýñç áľľ', ŵé ğéţ hemmesi Maglumatlar Kimden ýóúř " +
+        "Birikdirildi Hyzmatlar áñď ďóŵñľóáď řéľáţéď Suratlar, şó íţ ŵíľľ řéďúçé ýóúř ƒřéé şţóřáğé. Áľşó, řéṃóṽíñğ ṃáñý Önümler, Kategoriýalar, áñď Müşderiler ŵóúľď ƀé ħářď!",
       add_action: "Áúţó çóññéçţ Ţó",
       order: {
         title: "Óřďéříñğ.Agdaýy",

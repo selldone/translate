@@ -68,13 +68,13 @@ export default {
 
   // Companies:
 
-  YouTube: "YouTube",
-  LinkedIn: "LinkedIn",
+  Youtube: "YouTube",
+  Linkedin: "LinkedIn",
   Twitter: "Twitter",
   Facebook: "Facebook",
   Instagram: "Instagram",
   Reddit: "Reddit",
-  GitHub: "GitHub",
+  Github: "GitHub",
 
   theme: {
     dark_mode: "Mode poék",
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "Sasak Metaverse",
     subtitle:
-      "Selldone nyadiakeun% 100 ladenan basis API dina spasi dagang. Game, blockchain, sareng pamekar metaverse tiasa nganggo API anu kuat ieu pikeun nyambungkeun usaha, palanggan, sareng jasa dina masa depan padamelan, kahirupan sareng dunya perdagangan.",
+      "Selldone nyadiakeun%100 ladenan basis API dina spasi dagang. Game, blockchain, sareng pamekar metaverse tiasa nganggo API anu kuat ieu pikeun nyambungkeun usaha, palanggan, sareng jasa dina masa depan padamelan, kahirupan sareng dunya perdagangan.",
     message: "Aksés Awal Pikeun Pamekar Kaulinan",
   },
 
